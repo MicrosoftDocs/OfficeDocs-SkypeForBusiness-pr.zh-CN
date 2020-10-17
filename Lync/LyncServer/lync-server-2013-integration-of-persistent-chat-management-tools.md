@@ -12,20 +12,22 @@ ms:contentKeyID: 49733651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1a2d5bf8d3cc15051799f24895e7eb886cdfc08
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19814b3fb193ffb23c53c72929d7597f51ca046a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498499"
 ---
+# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a><span data-ttu-id="93c53-102">在 Lync Server 2013 中集成持久聊天管理工具</span><span class="sxs-lookup"><span data-stu-id="93c53-102">Integration of Persistent Chat management tools in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a><span data-ttu-id="7bd2a-102">在 Lync Server 2013 中集成持久聊天管理工具</span><span class="sxs-lookup"><span data-stu-id="7bd2a-102">Integration of Persistent Chat management tools in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42214558"
 
 <span> </span>
 
-<span data-ttu-id="7bd2a-103">_**上次修改的主题：** 2012-08-16_</span><span class="sxs-lookup"><span data-stu-id="7bd2a-103">_**Topic Last Modified:** 2012-08-16_</span></span>
+<span data-ttu-id="93c53-103">_**上次修改的主题：** 2012-08-16_</span><span class="sxs-lookup"><span data-stu-id="93c53-103">_**Topic Last Modified:** 2012-08-16_</span></span>
 
-<span data-ttu-id="7bd2a-104">Lync Server 2013 通过将其管理工具与用于其他 Lync Server 的工具集成在一起，简化了持久聊天服务器的管理。</span><span class="sxs-lookup"><span data-stu-id="7bd2a-104">Lync Server 2013 simplifies the administration of Persistent Chat Server by integrating its administration tools with the tools used for the rest of Lync Server.</span></span>
+<span data-ttu-id="93c53-104">Lync Server 2013 通过将其管理工具与用于其他 Lync Server 的工具集成在一起，简化了持久聊天服务器的管理。</span><span class="sxs-lookup"><span data-stu-id="93c53-104">Lync Server 2013 simplifies the administration of Persistent Chat Server by integrating its administration tools with the tools used for the rest of Lync Server.</span></span>
 
-<span data-ttu-id="7bd2a-105">持久聊天服务器包括与 Lync Server 控制面板集成的管理用户界面体验。</span><span class="sxs-lookup"><span data-stu-id="7bd2a-105">Persistent Chat Server includes an administrative user interface experience integrated with the Lync Server Control Panel.</span></span> <span data-ttu-id="7bd2a-106">此外，持久聊天服务器还包括 Windows PowerShell cmdlet 的集合，用于管理和管理持久聊天服务器类别、会议室（包括删除聊天室和清除过时内容）和外接程序。</span><span class="sxs-lookup"><span data-stu-id="7bd2a-106">Also, Persistent Chat Server includes a collection of Windows PowerShell cmdlets to administer and manage Persistent Chat Server categories, rooms (including deleting rooms and purging obsolete content), and add-ins.</span></span>
+<span data-ttu-id="93c53-105">持久聊天服务器包括与 Lync Server 控制面板集成的管理用户界面体验。</span><span class="sxs-lookup"><span data-stu-id="93c53-105">Persistent Chat Server includes an administrative user interface experience integrated with the Lync Server Control Panel.</span></span> <span data-ttu-id="93c53-106">此外，持久聊天服务器还包括用于管理和管理持久聊天服务器类别的 Windows PowerShell cmdlet 的集合，会议室 (包括删除聊天室和清除过时内容) 和外接程序。</span><span class="sxs-lookup"><span data-stu-id="93c53-106">Also, Persistent Chat Server includes a collection of Windows PowerShell cmdlets to administer and manage Persistent Chat Server categories, rooms (including deleting rooms and purging obsolete content), and add-ins.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7bd2a-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7bd2a-107">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="93c53-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="93c53-107">See Also</span></span>
 
 
-[<span data-ttu-id="7bd2a-108">Lync Server 2013 中的持久聊天服务器概述</span><span class="sxs-lookup"><span data-stu-id="7bd2a-108">Overview of Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-overview-of-persistent-chat-server.md)  
+[<span data-ttu-id="93c53-108">Lync Server 2013 中的持久聊天服务器概述</span><span class="sxs-lookup"><span data-stu-id="93c53-108">Overview of Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-overview-of-persistent-chat-server.md)  
 
 
-[<span data-ttu-id="7bd2a-109">管理 Lync Server 2013 持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="7bd2a-109">Managing Lync Server 2013, Persistent Chat Server</span></span>](managing-lync-server-2013-persistent-chat-server.md)  
+[<span data-ttu-id="93c53-109">管理 Lync Server 2013 持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="93c53-109">Managing Lync Server 2013, Persistent Chat Server</span></span>](managing-lync-server-2013-persistent-chat-server.md)  
   
 
 </div>

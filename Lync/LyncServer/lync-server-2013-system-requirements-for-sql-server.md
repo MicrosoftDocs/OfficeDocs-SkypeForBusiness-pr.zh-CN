@@ -12,20 +12,22 @@ ms:contentKeyID: 48184904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aeebdf5e06c647172b0e1d00b2602855eca6bc1c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6b9aa4a51ed7e75b413b0712297d02f5e8050fa2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192115"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497369"
 ---
+# <a name="system-requirements-for-sql-server-in-lync-server-2013"></a><span data-ttu-id="3e692-102">Lync Server 2013 中 SQL Server 的系统要求</span><span class="sxs-lookup"><span data-stu-id="3e692-102">System requirements for SQL Server in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-sql-server-in-lync-server-2013"></a><span data-ttu-id="85b0d-102">Lync Server 2013 中 SQL Server 的系统要求</span><span class="sxs-lookup"><span data-stu-id="85b0d-102">System requirements for SQL Server in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42192115"
 
 <span> </span>
 
-<span data-ttu-id="85b0d-103">_**上次修改的主题：** 2013-10-25_</span><span class="sxs-lookup"><span data-stu-id="85b0d-103">_**Topic Last Modified:** 2013-10-25_</span></span>
+<span data-ttu-id="3e692-103">_**上次修改的主题：** 2013-10-25_</span><span class="sxs-lookup"><span data-stu-id="3e692-103">_**Topic Last Modified:** 2013-10-25_</span></span>
 
-<span data-ttu-id="85b0d-104">在部署 Enterprise Edition server 之前，请在满足硬件要求的专用计算机上安装 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012。</span><span class="sxs-lookup"><span data-stu-id="85b0d-104">Before you deploy Enterprise Edition server, install Microsoft SQL Server 2008 R2 or Microsoft SQL Server 2012 on a dedicated computer that meets the hardware requirements.</span></span> <span data-ttu-id="85b0d-105">有关硬件要求的详细信息，请参阅可支持性文档中的[Lync server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)。</span><span class="sxs-lookup"><span data-stu-id="85b0d-105">For details about hardware requirements, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span> <span data-ttu-id="85b0d-106">有关软件要求的详细信息，请参阅可支持性文档中的[Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md)。</span><span class="sxs-lookup"><span data-stu-id="85b0d-106">For details about software requirements, see [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md) in the Supportability documentation.</span></span> <span data-ttu-id="85b0d-107">有关部署所需权限的信息，请参阅[Lync server 2013 中的 SQL Server 部署权限](lync-server-2013-deployment-permissions-for-sql-server.md)。</span><span class="sxs-lookup"><span data-stu-id="85b0d-107">For information about the permissions necessary for deployment, see [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).</span></span>
+<span data-ttu-id="3e692-104">在部署 Enterprise Edition server 之前，请在满足硬件要求的专用计算机上安装 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012。</span><span class="sxs-lookup"><span data-stu-id="3e692-104">Before you deploy Enterprise Edition server, install Microsoft SQL Server 2008 R2 or Microsoft SQL Server 2012 on a dedicated computer that meets the hardware requirements.</span></span> <span data-ttu-id="3e692-105">有关硬件要求的详细信息，请参阅可支持性文档中的 [Lync server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md) 。</span><span class="sxs-lookup"><span data-stu-id="3e692-105">For details about hardware requirements, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span> <span data-ttu-id="3e692-106">有关软件要求的详细信息，请参阅可支持性文档中的 [Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md) 。</span><span class="sxs-lookup"><span data-stu-id="3e692-106">For details about software requirements, see [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md) in the Supportability documentation.</span></span> <span data-ttu-id="3e692-107">有关部署所需权限的信息，请参阅 [Lync server 2013 中的 SQL Server 部署权限](lync-server-2013-deployment-permissions-for-sql-server.md)。</span><span class="sxs-lookup"><span data-stu-id="3e692-107">For information about the permissions necessary for deployment, see [Deployment permissions for SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).</span></span>
 
-<span data-ttu-id="85b0d-108">在创建前端池之前，还必须通过使用 SQL Server 配置管理器并在 Windows 防火墙中打开端口，将 Windows 防火墙配置为允许 Lync Server 2013 通过特定端口访问 SQL Server高级安全。</span><span class="sxs-lookup"><span data-stu-id="85b0d-108">Before you create the Front End pool, you must also configure Windows Firewall to allow Lync Server 2013 access to SQL Server over specific ports by defining ports for the server using SQL Server Configuration Manager and opening ports in Windows Firewall with Advanced Security.</span></span>
+<span data-ttu-id="3e692-108">在创建前端池之前，还必须通过使用 SQL Server 配置管理器并在具有高级安全性的 Windows 防火墙中打开端口，将 Windows 防火墙配置为允许 Lync Server 2013 通过特定端口访问 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="3e692-108">Before you create the Front End pool, you must also configure Windows Firewall to allow Lync Server 2013 access to SQL Server over specific ports by defining ports for the server using SQL Server Configuration Manager and opening ports in Windows Firewall with Advanced Security.</span></span>
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 463eb523c903710de06b2a8f310dd9447aa4aee1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e6f3a7e7e0b2be3d1e36b7de809c62d440a235b9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185705"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498259"
 ---
+# <a name="managing-large-meetings-in-lync-server-2013"></a><span data-ttu-id="b3be3-102">在 Lync Server 2013 中管理大型会议</span><span class="sxs-lookup"><span data-stu-id="b3be3-102">Managing large meetings in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-large-meetings-in-lync-server-2013"></a><span data-ttu-id="b6074-102">在 Lync Server 2013 中管理大型会议</span><span class="sxs-lookup"><span data-stu-id="b6074-102">Managing large meetings in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42185705"
 
 <span> </span>
 
-<span data-ttu-id="b6074-103">_**上次修改的主题：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="b6074-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="b3be3-103">_**上次修改的主题：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="b3be3-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="b6074-p101">在为大型会议设置专用的池之后，您可以采取相应的步骤，以有助于确保托管在池中的大型会议提供最佳的用户体验。本节中的主题提供有关如何组织和管理大型会议的详细信息。</span><span class="sxs-lookup"><span data-stu-id="b6074-p101">After setting up a dedicated pool for large conferences, you can take steps to help ensure that large meetings hosted in the pool provide the best user experience. The topics in this section provide details about how to organize and manage large meetings.</span></span>
+<span data-ttu-id="b3be3-p101">在为大型会议设置专用的池之后，您可以采取相应的步骤，以有助于确保托管在池中的大型会议提供最佳的用户体验。本节中的主题提供有关如何组织和管理大型会议的详细信息。</span><span class="sxs-lookup"><span data-stu-id="b3be3-p101">After setting up a dedicated pool for large conferences, you can take steps to help ensure that large meetings hosted in the pool provide the best user experience. The topics in this section provide details about how to organize and manage large meetings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b6074-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="b6074-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b3be3-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="b3be3-106">In This Section</span></span>
 
-  - [<span data-ttu-id="b6074-107">Lync Server 2013 中的专用会议组织者</span><span class="sxs-lookup"><span data-stu-id="b6074-107">Dedicated meeting organizers in Lync Server 2013</span></span>](lync-server-2013-dedicated-meeting-organizers.md)
+  - [<span data-ttu-id="b3be3-107">Lync Server 2013 中的专用会议组织者</span><span class="sxs-lookup"><span data-stu-id="b3be3-107">Dedicated meeting organizers in Lync Server 2013</span></span>](lync-server-2013-dedicated-meeting-organizers.md)
 
-  - [<span data-ttu-id="b6074-108">在 Lync Server 2013 中单独的大型会议日历</span><span class="sxs-lookup"><span data-stu-id="b6074-108">Separate large-meeting calendar in Lync Server 2013</span></span>](lync-server-2013-separate-large-meeting-calendar.md)
+  - [<span data-ttu-id="b3be3-108">在 Lync Server 2013 中单独的大型会议日历</span><span class="sxs-lookup"><span data-stu-id="b3be3-108">Separate large-meeting calendar in Lync Server 2013</span></span>](lync-server-2013-separate-large-meeting-calendar.md)
 
-  - [<span data-ttu-id="b6074-109">Lync Server 2013 中的大型会议日程安排过程</span><span class="sxs-lookup"><span data-stu-id="b6074-109">Large-meeting scheduling process in Lync Server 2013</span></span>](lync-server-2013-large-meeting-scheduling-process.md)
+  - [<span data-ttu-id="b3be3-109">Lync Server 2013 中的大型会议日程安排过程</span><span class="sxs-lookup"><span data-stu-id="b3be3-109">Large-meeting scheduling process in Lync Server 2013</span></span>](lync-server-2013-large-meeting-scheduling-process.md)
 
-  - [<span data-ttu-id="b6074-110">Lync Server 2013 中会议的日程安排详细信息</span><span class="sxs-lookup"><span data-stu-id="b6074-110">Scheduling details for meetings in Lync Server 2013</span></span>](lync-server-2013-scheduling-details-for-meetings.md)
+  - [<span data-ttu-id="b3be3-110">Lync Server 2013 中会议的日程安排详细信息</span><span class="sxs-lookup"><span data-stu-id="b3be3-110">Scheduling details for meetings in Lync Server 2013</span></span>](lync-server-2013-scheduling-details-for-meetings.md)
 
-  - [<span data-ttu-id="b6074-111">在 Lync Server 2013 中运行大型会议</span><span class="sxs-lookup"><span data-stu-id="b6074-111">Running large meetings in Lync Server 2013</span></span>](lync-server-2013-running-large-meetings.md)
+  - [<span data-ttu-id="b3be3-111">在 Lync Server 2013 中运行大型会议</span><span class="sxs-lookup"><span data-stu-id="b3be3-111">Running large meetings in Lync Server 2013</span></span>](lync-server-2013-running-large-meetings.md)
 
 </div>
 
