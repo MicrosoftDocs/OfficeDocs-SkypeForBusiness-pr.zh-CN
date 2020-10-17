@@ -12,20 +12,22 @@ ms:contentKeyID: 63969660
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b46fba4c9426a76bfb7c8ca9f15e7cba4950e8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36cf05d0d3d5cce13a100d23cb541eb5aa186ef7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193885"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530489"
 ---
+# <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>在 Lync Server 2013 中测试会议中的共享
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>在 Lync Server 2013 中测试会议中的共享
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-11-01_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行<strong>CsDataConference</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 <strong>CsDataConference</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDataConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -78,9 +80,9 @@ _**上次修改的主题：** 2014-11-01_
 
     Test-CsDataConference -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-示例2中显示的命令测试一对用户（litwareinc\\pilar 和 litwareinc\\kenmyer）的功能，以登录 Lync Server 2013，然后进行数据会议。 为执行此操作，示例中的第一个命令使用**Get-Credential** Cmdlet 创建 Windows PowerShell 命令行接口 Credential 对象，其中包含用户 Pilar Ackerman 的名称和密码。 （因为登录名（litwareinc\\pilar）已作为参数包含，所以 "Windows PowerShell 凭据请求" 对话框仅要求管理员输入 pilar Ackerman 帐户的密码。）然后，将生成的 credential 对象存储在名为 $cred 1 的变量中。 第二个命令执行相同的操作，但这次返回的是 Ken Myer 帐户的凭据对象。
+示例2中显示的命令测试一对用户 (litwareinc \\ pilar 和 litwareinc \\ kenmyer) 登录到 Lync Server 2013，然后进行数据会议。 为执行此操作，示例中的第一个命令使用 **Get-Credential** Cmdlet 创建 Windows PowerShell 命令行接口 Credential 对象，其中包含用户 Pilar Ackerman 的名称和密码。  (因为登录名 litwareinc pilar 已 \\ 作为参数包含，所以 Windows PowerShell 凭据请求对话框仅要求管理员输入 Pilar Ackerman 帐户的密码。 ) 生成的 Credential 对象随后存储在名为 $cred 1 的变量中。 第二个命令执行相同的操作，但这次返回的是 Ken Myer 帐户的凭据对象。
 
-使用 credential 对象时，第三个命令确定这两个用户是否可以登录 Lync Server 2013 并进行数据会议。 若要执行此任务，请调用**CsDataConference** cmdlet 以及以下参数： TargetFqdn （注册器池的 FQDN）;SenderSipAddress （第一个测试用户的 SIP 地址）;SenderCredential （包含此同一用户的凭据的 Windows PowerShell 对象）;ReceiverSipAddress （其他测试用户的 SIP 地址）;和 ReceiverCredential （包含其他测试用户的凭据的 Windows PowerShell 对象）。
+使用 credential 对象时，第三个命令确定这两个用户是否可以登录 Lync Server 2013 并进行数据会议。 若要执行此任务，请调用 **CsDataConference** cmdlet 以及以下参数： TargetFqdn (注册器池的 FQDN) ;SenderSipAddress (第一个测试用户) 的 SIP 地址;SenderCredential (包含此同一用户的凭据的 Windows PowerShell 对象) ;ReceiverSipAddress (其他测试用户) 的 SIP 地址;和 ReceiverCredential (Windows PowerShell 对象，其中包含其他测试用户) 的凭据。
 
     $credential1 = Get-Credential "litwareinc\pilar" 
     $credential2 = Get-Credential "litwareinc\kenmyer" 
@@ -92,7 +94,7 @@ _**上次修改的主题：** 2014-11-01_
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果正确配置了数据会议，则会收到类似于以下内容的输出，并将 Result 属性标记为**成功：**
+如果正确配置了数据会议，则会收到类似于以下内容的输出，并将 Result 属性标记为 **成功：**
 
 目标 Fqdn： atl-cs-001.litwareinc.com
 
@@ -104,7 +106,7 @@ _**上次修改的主题：** 2014-11-01_
 
 诊断
 
-如果指定用户不能使用数据共享，则结果将显示为 "**失败**"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：
+如果指定用户不能使用数据共享，则结果将显示为 " **失败**"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：
 
 目标 Fqdn： atl-cs-001.litwareinc.com
 
@@ -118,7 +120,7 @@ _**上次修改的主题：** 2014-11-01_
 
 已建立连接失败，因为连接的主机具有
 
-无法响应\[2001：4898： e8： f39e：5c9a： ad83：81b3： 9944\]：5061
+无法响应 \[ 2001：4898： e8： f39e：5c9a： ad83：81b3： 9944 \] ：5061
 
 内部异常：连接尝试失败，因为
 
@@ -128,7 +130,7 @@ _**上次修改的主题：** 2014-11-01_
 
 未能响应
 
-\[2001：4898： e8： f39e：5c9a： ad83：81b3： 9944\]：5061
+\[2001：4898： e8： f39e：5c9a： ad83：81b3： 9944 \] ：5061
 
 诊断
 
@@ -138,11 +140,11 @@ _**上次修改的主题：** 2014-11-01_
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是**测试 CsDataConference**可能失败的一些常见原因：
+以下是 **测试 CsDataConference** 可能失败的一些常见原因：
 
   - 提供的参数值不正确。 如果使用，则必须正确配置可选参数或测试将失败。 重新运行不带可选参数的命令，并查看是否成功。
 
-  - 执行数据会议的能力取决于已分配给组织会议的用户的会议策略（如果是**CsDataConference** cmdlet，则为 "sender"）。 如果不允许组织者在他或她的会议中包含协作活动（例如，如果其会议策略将 EnableDataCollaboration 属性设置为 False），则**CsDataConference** cmdlet 将失败。
+  - 执行数据会议的能力取决于已分配给组织会议的用户的会议策略 (在 **CsDataConference** cmdlet 中，即 "sender" ) 的情况。 如果不允许组织者在他或她的会议中包含协作活动 (例如，如果其会议策略将 EnableDataCollaboration 属性设置为 False) 则 **CsDataConference** cmdlet 将失败。
 
   - 如果边缘服务器配置错误或尚未部署，则此命令将失败。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f3ea921981726ad1865741a1e8e37f82f8ac125
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ed3f2372621b2b098a6b235d1bdc151ddac054bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212978"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530159"
 ---
+# <a name="user-table-in-lync-server-2013"></a>Lync Server 2013 中的用户表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-table-in-lync-server-2013"></a>Lync Server 2013 中的用户表
+
 
 </div>
 
@@ -64,7 +66,7 @@ User 表是一个支持表，用于存储已参与数据库中记录的会话的
 </tr>
 <tr class="even">
 <td><p><strong>URI</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>独特</p></td>
 <td><p>URI 字符串。</p></td>
 </tr>

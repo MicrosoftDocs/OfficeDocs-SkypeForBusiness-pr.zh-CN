@@ -12,20 +12,22 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4f128c827845ac06a736b849e6fa3242e319decb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529379"
 ---
+# <a name="choosing-a-topology-in-lync-server-2013"></a>在 Lync Server 2013 中选择拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="choosing-a-topology-in-lync-server-2013"></a>在 Lync Server 2013 中选择拓扑
+
 
 </div>
 
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2013-02-21_
 
 下表汇总了支持的 Microsoft Lync Server 2013 拓扑结构中提供的功能。 列标题指明了给定的边缘配置选项可用的功能。 以“扩展边缘”（DNS 负载已平衡）选项为例，您可以了解到它支持高可用性、可以使用分配给边缘外部接口的不可路由专用 IP 地址（具有 NAT）或可路由的公用 IP 地址，并可降低成本（因为不需要硬件负载平衡器）。
 
-DNS 负载平衡支持的边缘故障转移方案为 Lync 到 Lync 的点对点会话、Lync 会议会话、Lync 到 PSTN 会话、Office 365 和 Microsoft 365。 无法从 DNS 负载平衡获益的边缘故障转移方案针对远程用户 Exchange 统一消息（UM）（Exchange 2010 SP1 之前）、公共即时消息（IM）连接以及与运行 Office 通信服务器的服务器的联盟进行故障转移。
+DNS 负载平衡支持的边缘故障转移方案为 Lync 到 Lync 的点对点会话、Lync 会议会话、Lync 到 PSTN 会话、Office 365 和 Microsoft 365。 无法从 DNS 负载平衡中受益的边缘故障转移方案在 Exchange 2010 SP1) 、公共即时消息 (IM) 连接以及与运行 Office 通信服务器的服务器之间的联盟的情况下，对远程用户 Exchange 统一消息 (UM)  (进行故障转移。
 
 ### <a name="summary-of-edge-server-topology-options"></a>边缘服务器拓扑选项摘要
 
@@ -130,16 +132,16 @@ DNS 负载平衡支持的边缘故障转移方案为 Lync 到 Lync 的点对点�
 </table>
 
 
-**\*** 用于公共即时消息（IM）连接的故障转移以及与运行 Office 通信服务器的服务器的联盟在 DNS 负载平衡中不可用。 使用 DNS 负载平衡的 exchange UM （远程用户）故障转移需要 Exchange Server 2010 SP1 或更高版本。
+**\*** 通过 DNS 负载平衡，公共即时消息 (IM) 连接和与运行 Office 通信服务器的服务器的联盟的故障转移不可用。 Exchange UM (远程用户) 使用 DNS 负载平衡进行故障转移需要 Exchange Server 2010 SP1 或更高版本。
 
 
 
 > [!NOTE]
 > 单个边缘和扩展边缘（DNS 负载已平衡）拓扑可以使用：
 > <ul><li><p>可路由的公用 IP 地址</p></li>
-> <li><p>如果使用对称网络地址转换（NAT），则不可路由的专用 IP 地址</p></li>
+> <li><p>如果使用了对称网络地址转换 (NAT) ，则不可路由的专用 IP 地址</p></li>
 >
-> <ul><li> 如果使用公用 IP 地址或使用 NAT 的专用 IP 地址，则仍将根据拓扑生成器中的配置选择使用相同数量的 IP 地址。 您可以将边缘服务器配置为对每个服务使用具有不同端口的单个 IP 地址，或对每个服务使用不同的 IP 地址，但使用相同的端口（默认情况下为 TCP 443）。</li></ul>>
+> <ul><li> 如果使用公用 IP 地址或使用 NAT 的专用 IP 地址，则仍将根据拓扑生成器中的配置选择使用相同数量的 IP 地址。 您可以将边缘服务器配置为对每个服务使用具有不同端口的单个 IP 地址，也可以对每个服务使用不同的 IP 地址，但默认情况下，使用相同的端口 (（TCP 443) ）。</li></ul>>
 > 如果您决定使用与 NAT 的不可路由的专用 IP 地址：
 > <ul><li><p>您必须在所有三个外部接口上使用可路由的专用 IP 地址</p></li>
 > <li><p>必须为传入和传出流量配置对称 NAT</p></li></ul>>
@@ -147,13 +149,13 @@ DNS 负载平衡支持的边缘故障转移方案为 Lync 到 Lync 的点对点�
 
 
 
-Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在为单一和扩展的合并边缘服务器拓扑执行网络地址转换（NAT）的路由器或防火墙后面。
+Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在为单个合并和扩展的合并边缘服务器拓扑执行网络地址转换 (NAT) 的路由器或防火墙后面。
 
 对所有边缘的外部接口使用 NAT 需要使用 DNS 负载平衡。与使用硬件负载平衡器相比，使用 DNS 负载平衡（不含 NAT）使您可以减少边缘池中每台边缘服务器的公用 IP 地址的数量，如以下列表所示：
 
-  - Lync Server 2013 扩展的合并边缘（DNS 负载平衡）对边缘池中的每台边缘服务器都需要三个公共 IP 地址。
+  - Lync Server 2013 扩展的合并边缘 (DNS 负载平衡) 需要一个边缘池中每台边缘服务器的三个公共 IP 地址。
 
-  - Lync Server 2013 扩展的合并边缘（硬件负载平衡）需要三个公用 IP 地址用于负载平衡器虚拟 IP 地址（一种时间要求，在将更多边缘服务器添加到池中时不增加）加池中的每台边缘服务器的三个公用 IP 地址。
+  - Lync Server 2013 扩展的合并边缘 (硬件负载平衡) 需要三个用于负载平衡器虚拟 IP 地址的公用 IP 地址 (一种时间要求，在将更多边缘服务器添加到池) 外加池中的每台边缘服务器的三个公用 IP 地址时不会增加。
 
 ### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>扩展的合并边缘的 IP 地址要求（每个角色一个 IP 地址）
 
@@ -166,18 +168,18 @@ Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在
 <thead>
 <tr class="header">
 <th>每个池的边缘服务器数量</th>
-<th>所需 IP 地址的数目 Lync Server 2013 （DNS 负载平衡）</th>
-<th>所需 IP 地址的数目 Lync Server 2013 （硬件负载平衡）</th>
+<th>所需 IP 地址的数目 Lync Server 2013 (DNS 负载平衡) </th>
+<th>所需 IP 地址的数目 Lync Server 2013 (硬件负载平衡) </th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 <td><p>6 </p></td>
 <td><p>3（每个 VIP 1 个）+ 6</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
+<td><p>第三章</p></td>
 <td><p>9 </p></td>
 <td><p>3（每个 VIP 1 个）+9</p></td>
 </tr>
@@ -206,19 +208,19 @@ Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在
 <thead>
 <tr class="header">
 <th>每个池的边缘服务器数量</th>
-<th>所需 IP 地址的数目 Lync Server 2013 （DNS 负载平衡）</th>
-<th>所需 IP 地址的数目 Lync Server 2013 （硬件负载平衡）</th>
+<th>所需 IP 地址的数目 Lync Server 2013 (DNS 负载平衡) </th>
+<th>所需 IP 地址的数目 Lync Server 2013 (硬件负载平衡) </th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>2 </p></td>
+<td><p>双面</p></td>
+<td><p>双面</p></td>
 <td><p>1（每个 VIP 1 个）2</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>3 </p></td>
+<td><p>第三章</p></td>
+<td><p>第三章</p></td>
 <td><p>1（每个 VIP 1 个）+ 3</p></td>
 </tr>
 <tr class="odd">
@@ -237,7 +239,7 @@ Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在
 
 拓扑选择的主要决策点是高可用性和负载平衡。高可用性的要求会影响负载平衡决策。
 
-  - **高可用性**  如果需要高可用性，请在池中部署至少两台边缘服务器。 单个边缘池最长可支持12台边缘服务器。 如果需要更多的容量，可以部署多个边缘池。 一般规则是，如果给定用户群的10%，则需要外部访问。
+  - **高可用性**   如果需要高可用性，请在池中部署至少两台边缘服务器。 单个边缘池最长可支持12台边缘服务器。 如果需要更多的容量，可以部署多个边缘池。 一般规则是，如果给定用户群的10%，则需要外部访问。
     
     <div>
     
@@ -248,7 +250,7 @@ Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在
     
     </div>
 
-  - **硬件负载平衡**  在对边缘外部接口使用可公开路由的 IP 地址时，对 Lync Server 2013 边缘服务器的负载平衡支持硬件负载平衡。 例如，在以下任一应用程序需要故障转移的情况下，将使用此方法：
+  - **硬件负载平衡**   在对边缘外部接口使用可公开路由的 IP 地址时，对 Lync Server 2013 边缘服务器的负载平衡支持硬件负载平衡。 例如，在以下任一应用程序需要故障转移的情况下，将使用此方法：
     
       - 公共 IM 连接
     

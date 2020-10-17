@@ -12,20 +12,22 @@ ms:contentKeyID: 49733659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8aee795b6f4dd1f3ff1077fb739cad9709b2c8ac
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54230fb489a62ed5d7a80bfe871af3bc097e35e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197165"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530889"
 ---
+# <a name="failing-over-the-edge-pool-used-for-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中对用于 XMPP 联盟的边缘池进行故障转移
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-the-edge-pool-used-for-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中对用于 XMPP 联盟的边缘池进行故障转移
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-19_
 
 在您的组织中，已将一个边缘池指定为用于 XMPP 联盟的池。如果该池出现故障，您必须先对 XMPP 联盟进行故障转移以使用其他边缘池，直到 XMPP 联盟可重新正常工作。
 
-在您首次安装边缘池并启用 XMPP 联盟时，您可以通过为 XMPP 联盟的所有（而不只是一个）边缘池设置外部 DNS SRV 记录来简化灾难恢复过程。 所有这些 SRV 记录都必须具有不同的优先级设置。 所有 XMPP 联盟流量将通过具有优先级最高的 SRV 记录的池。 有关启用和设置 XMPP 联盟的详细信息，请参阅[在 Lync Server 2013 中设置 XMPP 联盟](lync-server-2013-setting-up-xmpp-federation.md)。
+在您首次安装边缘池并启用 XMPP 联盟时，您可以通过为 XMPP 联盟的所有（而不只是一个）边缘池设置外部 DNS SRV 记录来简化灾难恢复过程。 所有这些 SRV 记录都必须具有不同的优先级设置。 所有 XMPP 联盟流量将通过具有优先级最高的 SRV 记录的池。 有关启用和设置 XMPP 联盟的详细信息，请参阅 [在 Lync Server 2013 中设置 XMPP 联盟](lync-server-2013-setting-up-xmpp-federation.md)。
 
 在以下过程中，EdgePool1 是最初承载 XMPP 联盟的池，EdgePool2 是现在承载 XMPP 联盟的池。
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-10-19_
 
 ## <a name="failing-over-the-edge-pool-used-for-xmpp-federation"></a>对用于 XMPP 联盟的边缘池进行故障转移
 
-1.  如果您尚未部署另一个边缘池（当前出现故障的边缘池之外的池），请部署该池。 有关详细信息，请参阅[在 Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)。
+1.  如果您尚未部署另一个边缘池（当前出现故障的边缘池之外的池），请部署该池。 有关详细信息，请参阅 [在 Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)。
 
 2.  在现在承载 XMPP 联盟的新边缘池 (EdgePool2) 中的每个边缘服务器上，运行以下 cmdlet：
     

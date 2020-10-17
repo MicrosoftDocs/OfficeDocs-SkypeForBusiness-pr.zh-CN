@@ -12,20 +12,22 @@ ms:contentKeyID: 48183442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 49d62537f91145803f60f51c18b86816a0af657f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6fd56d0c06c9c81eda8cd1d7ef64b57da3219f3e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195255"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531169"
 ---
+# <a name="deploying-monitoring-in-lync-server-2013"></a>在 Lync Server 2013 中部署监控
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-monitoring-in-lync-server-2013"></a>在 Lync Server 2013 中部署监控
+
 
 </div>
 
@@ -53,9 +55,9 @@ _**上次修改的主题：** 2013-12-17_
 
 </div>
 
-正如您可能预料的那样，这些更改对监控服务的安装和管理方式具有重要影响。 例如，因为不再存在监视服务器角色，所以已从 Lync Server 拓扑生成器中删除了监视服务器节点;反过来，这意味着您不再使用拓扑生成器的新监视服务器向导，以便将新的监视服务器添加到拓扑中。 （该向导不再存在。）相反，您通常会通过完成以下两个步骤来在拓扑中实现监视服务：
+正如您可能预料的那样，这些更改对监控服务的安装和管理方式具有重要影响。 例如，因为不再存在监视服务器角色，所以已从 Lync Server 拓扑生成器中删除了监视服务器节点;反过来，这意味着您不再使用拓扑生成器的新监视服务器向导，以便将新的监视服务器添加到拓扑中。  (该向导不再存在。 ) 相反，您将通过完成以下两个步骤来在拓扑中实现监视服务：
 
-1.  在设置新的 Lync Server 池的同时启用监控。 （在 Lync Server 2013 中，监视功能是逐个池启用或禁用的。请注意，您可以为池启用监控，而无需实际收集监控数据，本文档的 "配置呼叫详细信息记录" 和 "体验质量设置" 一节中所述的过程。
+1.  在设置新的 Lync Server 池的同时启用监控。  (在 Lync Server 2013 中，监视功能在池的基础上启用或禁用。 ) 请注意，您可以在不实际收集监控数据的情况下为池启用监控，此过程在本文档的配置呼叫详细信息记录和体验质量设置一节中进行了说明。
 
 2.  使监控存储（即，监控数据库）与新池关联。请注意，一个监控存储可与多个池关联。根据驻留在注册器池中的用户数，这意味着，您不必为每个池设置单独的监控数据库。一个监控存储可供多个池使用。
 
@@ -65,19 +67,19 @@ _**上次修改的主题：** 2013-12-17_
 
 
 > [!NOTE]  
-> 如果已为池启用监控，则可以禁用收集监控数据的过程，而无需更改拓扑： Lync Server 命令行管理程序提供了一种禁用（随后重新启用）呼叫详细信息记录（CDR）或质量的方法的体验（QoE）数据收集。 有关详细信息，请参阅本文的“配置呼叫详细记录和用户体验质量设置”部分。
+> 如果已为池启用监控，则可以禁用收集监控数据的过程，而无需更改拓扑： Lync Server 命令行管理程序提供了一种禁用 (的方法，然后重新启用) 呼叫详细记录 (CDR) 或 (QoE) 数据集的体验质量。 有关详细信息，请参阅本文的“配置呼叫详细记录和用户体验质量设置”部分。
 
 
 
 </div>
 
-Lync Server 2013 中进行监视的另一个重要改进是，Lync Server 监控报告现在支持 IPv6：使用 IP 地址字段的报表将显示 IPv4 或 IPv6 地址（具体取决于：1）所使用的 SQL 查询：1）。和（2）在监视数据库中存储 IPv6 地址的位置。
+在 Lync Server 2013 中进行监视的另一个重要增强是，Lync Server 监视报告现在支持 IPv6：使用 IP 地址字段的报表将显示 IPv4 或 IPv6 地址，具体取决于： 1) 正在使用的 SQL 查询;和，2) IPv6 地址存储在监控数据库中的位置。
 
 <div>
 
 
 > [!NOTE]  
-> 确保 SQL Server 代理服务启动类型为 "自动"，并且 SQL Server 代理服务正在为包含监视数据库的 SQL 实例运行，以便默认监视 SQL Server 维护作业可以按计划运行在 SQL Server 代理服务的控制下。
+> 确保 SQL Server 代理服务启动类型为 "自动"，并且 SQL Server 代理服务正在为包含监视数据库的 SQL 实例运行，以便默认的监视 SQL Server 维护作业可以按 SQL Server 代理服务的控制顺序在计划的基础上运行。
 
 
 
@@ -89,7 +91,7 @@ Lync Server 2013 中进行监视的另一个重要改进是，Lync Server 监控
 
   - 安装 SQL Server Reporting Services 和 Lync Server Monitoring 报告。 监控报告是预配置的报告，其中提供不同视图，便于查看监控数据库中存储的信息。
 
-  - 配置呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据收集。 呼叫详细信息记录提供了一种跟踪 Lync Server 功能（如 IP 语音（VoIP）电话呼叫）的使用方式的方法。即时消息（IM）;文件传输;音频/视频（A/V）会议;和应用程序共享会话。 QoE 指标跟踪在组织内进行的音频和视频呼叫的质量，包括丢失的网络数据包数、背景噪音和“抖动”量（数据包延迟的差异）等内容。
+  - 配置呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据收集。 呼叫详细信息记录提供了一种跟踪 Lync Server 功能（如 IP 语音 (VoIP) 电话呼叫）的使用方式的方法。即时消息 (IM) ;文件传输;音频/视频 (A/V) 会议;和应用程序共享会话。 QoE 指标跟踪在组织内进行的音频和视频呼叫的质量，包括丢失的网络数据包数、背景噪音和“抖动”量（数据包延迟的差异）等内容。
 
   - 从监控数据库中手动清除 CDR 和/或 QoE 记录。
 

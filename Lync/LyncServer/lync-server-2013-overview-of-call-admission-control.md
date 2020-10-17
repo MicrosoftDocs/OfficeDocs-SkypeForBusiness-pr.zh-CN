@@ -12,20 +12,22 @@ ms:contentKeyID: 48184474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df9d65a56a8e2ed398dc5277045efeaaf68b8f58
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe2d7622a29a1526430a25341d04bf0b6399e15a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216417"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530689"
 ---
+# <a name="overview-of-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中的呼叫允许控制概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中的呼叫允许控制概述
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2012-09-22_
 
   - 除了语音呼叫，它还可以应用于其他通信，例如视频呼叫和音频/视频会议会话。
 
-  - 能够灵活地表示各种网络拓扑。 有关示例，请参阅[Lync Server 2013 中的 CAC 的组件和拓扑](lync-server-2013-components-and-topologies-for-cac.md)。
+  - 能够灵活地表示各种网络拓扑。 有关示例，请参阅 [Lync Server 2013 中的 CAC 的组件和拓扑](lync-server-2013-components-and-topologies-for-cac.md)。
 
 如果新语音会话或视频会话超出您在 WAN 链路上设置的带宽限制，该会话将被阻止或（仅在电话呼叫情况下）重新路由至 PSTN。
 
@@ -87,7 +89,7 @@ CAC 仅控制实时语音和视频流量，不控制数据流量。
 
 ## <a name="network-considerations"></a>网络注意事项
 
-尽管 Lync Server 2013 中的带宽策略服务强制执行音频和视频的带宽限制，但不会在网络路由器（第2层和第3层）上强制此限制。 Lync Server 2010 CAC 无法阻止数据应用程序，例如，在 WAN 链路上使用整个网络带宽，包括您的 CAC 策略为音频和视频保留的带宽。 要提供必需的网络带宽保护，您可以部署服务质量 (QoS) 协议，例如差分服务 (DiffServ)。 因此，最佳实践是协调按照您可能部署的任何 QoS 设置定义的 CAC 带宽策略。
+尽管 Lync Server 2013 中的带宽策略服务强制执行音频和视频的带宽限制，但在网络路由器 (第2层和第3层) 不会强制执行此限制。 Lync Server 2010 CAC 无法阻止数据应用程序，例如，在 WAN 链路上使用整个网络带宽，包括您的 CAC 策略为音频和视频保留的带宽。 要提供必需的网络带宽保护，您可以部署服务质量 (QoS) 协议，例如差分服务 (DiffServ)。 因此，最佳实践是协调按照您可能部署的任何 QoS 设置定义的 CAC 带宽策略。
 
 </div>
 
@@ -111,9 +113,9 @@ CAC 仅控制实时语音和视频流量，不控制数据流量。
 
 ## <a name="call-admission-control-of-pstn-connections"></a>PSTN 连接的呼叫允许控制
 
-呼叫允许控制在中介服务器上是可强制的，而不管它是连接到 IP/PBX、PSTN 网关还是 SIP 中继。 由于中介服务器是后端到后端用户代理（B2BUA），因此它会终止媒体。 它有两个连接方：连接到 Lync Server 的一端，以及连接到 PSTN 网关、IP/Pbx 或 SIP 中继的网关端。 有关 PSTN 连接的详细信息，请参阅[在 Lync Server 2013 中规划 PSTN 连接](lync-server-2013-planning-for-pstn-connectivity.md)。
+呼叫允许控制在中介服务器上是可强制的，而不管它是连接到 IP/PBX、PSTN 网关还是 SIP 中继。 由于中介服务器是后端到后端用户代理 (B2BUA) ，因此它会终止媒体。 它有两个连接方：连接到 Lync Server 的一端，以及连接到 PSTN 网关、IP/Pbx 或 SIP 中继的网关端。 有关 PSTN 连接的详细信息，请参阅 [在 Lync Server 2013 中规划 PSTN 连接](lync-server-2013-planning-for-pstn-connectivity.md)。
 
-除非启用媒体旁路，否则在中介服务器的两端都可以实施 CAC。 如果启用媒体旁路，媒体流量不会遍历中介服务器，而是直接在 Lync 客户端和网关之间流动。 在这种情况下，不需要使用 CAC。 有关详细信息，请参阅[在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)。
+除非启用媒体旁路，否则在中介服务器的两端都可以实施 CAC。 如果启用媒体旁路，媒体流量不会遍历中介服务器，而是直接在 Lync 客户端和网关之间流动。 在这种情况下，不需要使用 CAC。 有关详细信息，请参阅 [在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)。
 
 下图说明了如何在启用和不启用媒体旁路的情况下在 PSTN 连接上实施 CAC。
 

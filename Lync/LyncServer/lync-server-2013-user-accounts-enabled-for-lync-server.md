@@ -12,20 +12,22 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccef1e811d4ccd6b54350d6678a6b089eb4caafd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c7133ee4f1753d5178bd1ac41e3483dfe61a9e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193025"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530269"
 ---
+# <a name="user-accounts-enabled-for-lync-server-2013"></a>为 Lync Server 2013 启用的用户帐户
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-accounts-enabled-for-lync-server-2013"></a>为 Lync Server 2013 启用的用户帐户
+
 
 </div>
 
@@ -43,13 +45,13 @@ _**上次修改的主题：** 2014-04-18_
 
 
 > [!IMPORTANT]  
-> 您不能使用 Lync Server 控制面板来管理属于 Active Directory Domain Admins 组成员的用户。 对于域管理员用户，只能使用 Lync Server 控制面板执行只读的搜索操作。 若要对域管理员用户执行写入操作（例如，为 Lync Server 控制面板启用或禁用，更改池或策略分配，电话设置，SIP 地址），则必须在以域管理员用户身份登录时使用 Windows PowerShell cmdlet。 有关使用 Windows PowerShell cmdlet 管理用户的详细信息，请参阅<A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 命令行管理</A>程序。
+> 您不能使用 Lync Server 控制面板来管理属于 Active Directory Domain Admins 组成员的用户。 对于域管理员用户，只能使用 Lync Server 控制面板执行只读的搜索操作。 对域管理员用户执行写入操作 (例如，为 Lync Server 控制面板 "启用或禁用"、"更改池" 或 "策略分配"、"电话服务设置"、"SIP 地址") ，在以域管理员用户身份登录时必须使用 Windows PowerShell cmdlet。 有关使用 Windows PowerShell cmdlet 管理用户的详细信息，请参阅 <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 命令行管理</A>程序。
 
 
 
 </div>
 
-当您执行涉及搜索用户或筛选用户搜索结果的任何 Lync Server 2013 管理任务时，会有一些用户属性作为属性存在于 Active Directory 域服务中，但不会复制到全局编录中。在部署 Microsoft Exchange Server 之前。 Microsoft Exchange （而不是 Lync Server）在安装时将以下属性标记为用于复制到全局编录：
+当您执行涉及搜索用户或筛选用户搜索结果的任何 Lync Server 2013 管理任务时，会有一些用户属性作为属性存在于 Active Directory 域服务中，但在部署 Microsoft Exchange Server 之前不会复制到全局编录中。 Microsoft Exchange （而不是 Lync Server）在安装时将以下属性标记为用于复制到全局编录：
 
 
 <table>
@@ -67,12 +69,12 @@ _**上次修改的主题：** 2014-04-18_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>缩写</p></td>
+<td><p>Initials</p></td>
 <td><p>街道地址</p>
 <p>国家/地区</p>
 <p>值班</p>
-<p>传真</p>
-<p>移动设备</p></td>
+<p>Fax</p>
+<p>移动版</p></td>
 <td><p>标题</p>
 <p>公司</p>
 <p>部门</p>

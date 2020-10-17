@@ -12,20 +12,22 @@ ms:contentKeyID: 49733700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a5aa8e93bed162219da1ad522483d61b003a603
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 276cc87d6ec943332fc30dc21c0906a03703382d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212678"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529949"
 ---
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中使用集中日志记录服务
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中使用集中日志记录服务
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-11-01_
 
   - 按如下方式配置日志记录会话：
     
-      - 定义一个**方案**，或使用默认方案。 集中日志记录服务中的*方案*由作用域（全局或站点）、方案名称（用于确定方案的用途）和一个或多个提供程序组成。 您在任何给定的时间都可以在一台计算机上运行两个方案。
+      - 定义一个**方案**，或使用默认方案。 集中日志记录服务中的 *方案* 由作用域 (全局或站点) 组成，方案名称用于标识方案的用途和一个或多个提供程序。 您在任何给定的时间都可以在一台计算机上运行两个方案。
     
       - 使用现有*提供程序* 或创建新提供程序。*提供程序* 定义日志记录会话收集的内容、详细信息级别、要跟踪的组件以及应用的标志。
         
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-11-01_
         
 
         > [!TIP]  
-        > 如果您熟悉 OCSLogger，那就知道术语<EM>提供程序</EM> 指的是<STRONG>组件</STRONG>（例如，S4、SIPStack）、<STRONG>日志记录类型</STRONG>（例如，WPP、EventLog 或 IIS 日志文件）、<STRONG>跟踪级别</STRONG>（例如，全部、详细、调试）和<STRONG>标志</STRONG>（例如，TF_COMPONENT、TF_DIAG）的集合。 这些项在提供程序（Windows PowerShell 变量）中定义并传递到集中日志记录服务命令。
+        > 如果您熟悉 OCSLogger，那就知道术语<EM>提供程序</EM> 指的是<STRONG>组件</STRONG>（例如，S4、SIPStack）、<STRONG>日志记录类型</STRONG>（例如，WPP、EventLog 或 IIS 日志文件）、<STRONG>跟踪级别</STRONG>（例如，全部、详细、调试）和<STRONG>标志</STRONG>（例如，TF_COMPONENT、TF_DIAG）的集合。 这些项目在提供程序 (Windows PowerShell 变量) 并传递到集中日志记录服务命令中进行定义。
 
         
         </div>
@@ -64,7 +66,7 @@ _**上次修改的主题：** 2012-11-01_
     
       - 从选项“站点”****（仅在该站点中的计算机上运行日志记录捕获）或“全局”****（在部署中的所有计算机上运行日志记录捕获）定义日志记录会话的作用域。
 
-集中式日志记录服务极其强大，可以满足几乎所有对解决问题的需求—大或小。 从根本原因分析到性能问题，集中日志记录服务可能是任何管理员的重要工具。 所有示例都是使用 Lync Server 命令行管理程序显示的。 存在一个名为**CLSController**的集中日志记录服务的命令行组件。 通过命令行工具本身为其提供了帮助。 但是，您可以从命令行执行的功能集有限。 通过使用 Lync Server 命令行管理程序，可以访问更大和更多可配置的功能集。 在使用集中式日志记录服务时，应始终将 Lync Server 命令行管理程序视为第一个和最重要的方法。
+集中式日志记录服务极其强大，可以满足几乎所有对解决问题的需求—大或小。 从根本原因分析到性能问题，集中日志记录服务可能是任何管理员的重要工具。 所有示例都是使用 Lync Server 命令行管理程序显示的。 有一个命令行组件，其中包含名为 **CLSController.exe**的集中日志记录服务。 通过命令行工具本身为其提供了帮助。 但是，您可以从命令行执行的功能集有限。 通过使用 Lync Server 命令行管理程序，可以访问更大和更多可配置的功能集。 在使用集中式日志记录服务时，应始终将 Lync Server 命令行管理程序视为第一个和最重要的方法。
 
 本节中的主题介绍如何使用集中日志记录服务以及如何使用其多项功能的示例。
 

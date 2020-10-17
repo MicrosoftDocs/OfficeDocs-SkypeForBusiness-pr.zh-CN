@@ -12,20 +12,22 @@ ms:contentKeyID: 48184859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbec392d42c9189fba8312a53f14635269cf8990
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b529499c26cad791ccbd0af03b3e3bf481162de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531119"
 ---
+# <a name="deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail"></a>部署本地 Exchange UM 以提供 Lync Server 2013 语音邮件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail"></a>部署本地 Exchange UM 以提供 Lync Server 2013 语音邮件
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188275"
 
 _**上次修改的主题：** 2012-09-26_
 
-如果已部署或计划在组织中部署 Microsoft Exchange Server，则可以使用 Exchange 统一消息（UM）功能向企业语音用户提供语音邮件。
+如果已部署或规划在组织中部署 Microsoft Exchange Server，则可以使用 Exchange 统一消息 (UM) 功能向企业语音用户提供语音邮件。
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0acdf50ac515810b2813a98e9dc1f289e327eba
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 62a557d8b5a0f2a3e1e0f248b01795e75c02b3a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529799"
 ---
+# <a name="standard-migration-scenario---high-level"></a>标准迁移方案-高级别
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="standard-migration-scenario---high-level"></a>标准迁移方案-高级别
+
 
 </div>
 
@@ -41,11 +43,11 @@ _**上次修改的主题：** 2013-01-30_
 
   - 您的组织之前已部署 Lync Server 2010、组聊天或 Office 通信服务器 2007 R2 组聊天，并且您希望部署 Lync Server 2013、持久聊天服务器。
 
-  - 部署 Lync Server 2013，然后部署持久聊天服务器池。
+  - 部署 Lync Server 2013，然后部署持久聊天服务器池 (s) 。
 
   - 准备并规划持久聊天室的迁移，并确定适当的时间来关闭系统以进行迁移。
 
-  - 运行用于迁移的 Windows PowerShell cmdlet （**export-cspersistentchatdata**和**Import-export-cspersistentchatdata**）以将内容移动到持久聊天服务器。
+  - 运行用于迁移的 Windows PowerShell cmdlet (**export-cspersistentchatdata** and **export-cspersistentchatdata**) ，将内容移动到持久聊天服务器。
 
   - 验证该迁移是否成功。
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2013-01-30_
 
   - 配置持久聊天服务器，以便旧版客户端可以连接到 Lync Server 2013、持久聊天服务器。 这是必需的，因为部署新的客户端需要一些时间，且您想使用旧版客户端支持现有用户来尽快取得对其聊天室的访问权限。
 
-  - 部署新客户端，同时继续帮助确保具有旧式组聊天（客户端）的工作人员可以访问其聊天室。
+  - 部署新客户端，同时继续帮助确保具有旧式组聊天的工作人员 (客户端) 可以访问其聊天室。
 
 </div>
 

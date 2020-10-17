@@ -12,20 +12,22 @@ ms:contentKeyID: 48184939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1624042b07bc024d837e55ffac402cb2f158922f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 22811a0c55f0e0c7a7bfb7f3aeeb3ab5fcbc2653
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216360"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530669"
 ---
+# <a name="overview-of-call-park-in-lync-server-2013"></a>Lync Server 2013 中的呼叫寄存概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-call-park-in-lync-server-2013"></a>Lync Server 2013 中的呼叫寄存概述
+
 
 </div>
 
@@ -41,13 +43,13 @@ Lync Server 2013 呼叫寄存应用程序允许企业语音用户执行以下任
 
   - 将呼叫置于保持状态，然后从同一电话或其他电话检索呼叫。
 
-  - 将呼叫置于保持状态以将其转移到部门或常规区域（例如，销售部门或存在公用区域电话的仓库）。
+  - 将呼叫置于保持状态以将其转移到部门或常规区域 (例如，转移到存在公用区域电话) 的销售部门或仓库。
 
   - 将呼叫置于保持状态，并保持原始应答电话对其他呼叫空闲。
 
-当用户公园呼叫时，Lync Server 会将呼叫转移到一个临时号码（称为 "*轨道*"），其中呼叫将一直保留，直到检索或超时。Lync Server 将轨道发送给寄存呼叫的用户。 若要检索寄存的呼叫，用户可以拨打轨道编号或单击对话窗口中的 "轨道" 链接或按钮。
+当用户公园呼叫时，Lync Server 会将呼叫转移到一个临时号码（称为 " *轨道*"），其中呼叫将一直保留，直到检索或超时。Lync Server 将轨道发送给寄存呼叫的用户。 若要检索寄存的呼叫，用户可以拨打轨道编号或单击对话窗口中的 "轨道" 链接或按钮。
 
-停用呼叫的用户可以通过使用外部机制（如即时消息（IM）或分页系统）将轨道编号传达给其他人来通知某人检索呼叫。 停用呼叫的用户可以将对话窗口保持打开状态，以便在检索呼叫时接收通知。
+停用呼叫的用户可以通过外部机制（如即时消息 (IM) 或寻呼系统）通知他人检索呼叫，以将轨道编号传递给其他人。 停用呼叫的用户可以将对话窗口保持打开状态，以便在检索呼叫时接收通知。
 
 由于轨道范围是全局唯一的，因此，如果路由配置正确，则可以从任何 Lync Server 站点或 PBX 电话检索呼叫。 如果没有人在一段可配置的时间内检索呼叫，则该呼叫将环回到寄存该呼叫的人。 如果此人不应答回拨，则会将呼叫转移到一个回退目标，例如，如果配置了，则转移到某个操作员。 可以将呼叫响铃的次数配置为从1到10次转接。 如果没有人应答转移的呼叫，则呼叫将断开连接。 检索或断开呼叫时，将释放轨道。
 

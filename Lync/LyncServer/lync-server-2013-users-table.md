@@ -12,20 +12,22 @@ ms:contentKeyID: 48185032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70aefd95a8abaa1d9b49e89ac3e7b14dfa2444e7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ebf521b1cf215e2a7d5bdd30e5fa4be92334a79
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212928"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530029"
 ---
+# <a name="users-table-in-lync-server-2013"></a>Lync Server 2013 中的 Users 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="users-table-in-lync-server-2013"></a>Lync Server 2013 中的 Users 表
+
 
 </div>
 
@@ -70,7 +72,7 @@ _**上次修改的主题：** 2012-09-28_
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p> </p></td>
 <td><p>用户 URI。</p></td>
 </tr>
@@ -78,13 +80,13 @@ _**上次修改的主题：** 2012-09-28_
 <td><p><strong>TenantId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>此用户的租户 ID。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
+<td><p>此用户的租户 ID。 有关详细信息，请参阅 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>此用户的 URI 类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>此用户的 URI 类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 </tbody>
 </table>

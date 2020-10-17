@@ -12,20 +12,22 @@ ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63e3379e2c703df1d4ce66eda0942befb1569c7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 258f53cf16287b29c739c5a232376fa629b401f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197395"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531349"
 ---
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>使用 Lync Server 2013 部署 Survivable 分支设备或服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>使用 Lync Server 2013 部署 Survivable 分支设备或服务器
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2014-12-10_
 
 复原企业语音是指分支站点恢复能力，即，在指向中央站点的链接不可用的情况下，能够向分支站点用户提供连续的企业语音服务。
 
-对于小型和中型分支站点（25到1000个用户的分支站点），我们建议部署 Survivable 分支设备，这将通过使用其内置 PSTN 网关或到电话的 SIP 中继来终止公共交换电话网络（PSTN）呼叫服务提供商。 Survivable 分支设备是一种第三方设备，其中包括运行 Windows Server 2008 R2 操作系统的刀片服务器、Lync Server 2013 注册器、中介服务器软件和 PSTN 网关（全部位于单个设备机箱中）。
+对于小型和中型分支站点 (25 到1000个用户) 的分支站点，我们建议部署 Survivable 分支设备，这将通过使用其内置 PSTN 网关或到电话服务提供商的 SIP 中继来终止公开交换的电话网络 (PSTN) 呼叫。 Survivable 分支设备是一种第三方设备，其中包括运行 Windows Server 2008 R2 操作系统的刀片服务器、Lync Server 2013 注册器、中介服务器软件和 PSTN 网关（全部位于单个设备机箱中）。
 
 对于1000到5000用户且无弹性 WAN 的分支站点，我们建议将 Survivable 分支服务器连接到与电话服务提供商的 PSTN 网关或 SIP 中继。 Survivable 分支服务器是一台基于 Windows Server 的计算机，其中安装了注册器和中介服务器软件。
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2014-12-10_
 
 
 > [!NOTE]  
-> 对于具有超过5000个用户和专用 Lync Server 管理员的分支站点，我们建议使用完整的 Lync Server 2013 部署，并将其与中心站点的部署分开。<BR>有关为组织中的分支站点选择最佳恢复解决方案的详细信息（包括先决条件和规划注意事项），请参阅规划文档中的<A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 的分支站点恢复要求</A>。
+> 对于具有超过5000个用户和专用 Lync Server 管理员的分支站点，我们建议使用完整的 Lync Server 2013 部署，并将其与中心站点的部署分开。<BR>有关为组织中的分支站点选择最佳恢复解决方案的详细信息（包括先决条件和规划注意事项），请参阅规划文档中的 <A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 的分支站点恢复要求</A> 。
 
 
 

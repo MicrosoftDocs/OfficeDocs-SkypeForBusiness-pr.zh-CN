@@ -12,20 +12,22 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ced7b5262880b23540bf3465f787f6512781f2e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ebb3dd9fbeeaed69951ac11ee780bbe8d371a86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531359"
 ---
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>使用 Lync Server 2013 部署 Survivable 分支设备或服务器-中心站点任务
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>使用 Lync Server 2013 部署 Survivable 分支设备或服务器-中心站点任务
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-10-18_
 > <LI>
 > <P>在每个分支站点部署 DHCP 服务器，以便客户端能够获取 IP 地址。</P>
 > <LI>
-> <P>在每个分支站点上部署 DHCP 服务器的另一种方法是，使用 Lync Server Management Shell cmdlet <STRONG>CsRegistrarConfiguration – EnableDHCPServer $true</STRONG>在 Survivable 分支设备或 Survivable 分支服务器上启用 LYNC server DHCP。 有关详细信息，请参阅规划文档中的<A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 分支站点恢复要求</A>的 "硬件和软件要求" 一节。</P></LI></UL>
+> <P>在每个分支站点上部署 DHCP 服务器的另一种方法是，使用 Lync Server Management Shell cmdlet <STRONG>CsRegistrarConfiguration – EnableDHCPServer $true</STRONG>在 Survivable 分支设备或 Survivable 分支服务器上启用 LYNC server DHCP。 有关详细信息，请参阅规划文档中的 <A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 分支站点恢复要求</A> 的 "硬件和软件要求" 一节。</P></LI></UL>
 
 
 

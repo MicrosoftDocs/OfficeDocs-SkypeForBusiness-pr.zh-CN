@@ -12,20 +12,22 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d950bd62b2db91f60dd5828f79977472a9c5d573
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 677fdd070994c8cc1f63f775ffb2569642768f0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212668"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529939"
 ---
+# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Lync 会议室系统管理 Web 门户
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Lync 会议室系统管理 Web 门户
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2014-11-10_
 
 1.  浏览到以下 URL：
     
-    https://\<fe-服务器\>/lrs
+    https:// \<fe-server\> /lrs
 
 2.  输入 LRSSupport 帐户的凭据或已添加到 LRSSupportAdminGroup 安全组的帐户。
 
@@ -59,15 +61,15 @@ _**上次修改的主题：** 2014-11-10_
 
 "摘要" 页面为服务器上部署的所有 LRS 聊天室提供以下信息：
 
-  - **标记**   管理员提供给聊天室的自定义名称。 可以通过单击聊天室名称在门户中设置标记。
+  - **标记**    管理员为会议室提供的自定义名称。 可以通过单击聊天室名称在门户中设置标记。
 
-  - **运行状况**   聊天室的运行状况状态，该状态源自会议室的聚合运行状况状态，显示在 "会议室设置" 页面的 "运行状况" 部分下。
+  - **运行状况**    会议室的运行状况状态，该状态源自会议室的聚合运行状况状态，显示在 "会议室设置" 页面的 "运行状况" 部分下。
 
-  - **下一个会议**   计划下一个会议的日期和时间。
+  - **下次会议**    安排下一个会议的日期和时间。
 
-  - **LRS 版本（制造商）模型**   这些值是在 LRS 中预设的。 根据制造商的不同，这些字段可能保留为空。
+  - **LRS 版本、制造商、型号**    这些值是预设在 LRS 中。 根据制造商的不同，这些字段可能保留为空。
 
-  - **上次刷新**   显示上次刷新网页的时间。
+  - **上次刷新**    显示上次刷新网页的时间。
 
 ![Lync 会议室系统管理门户摘要视图](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Lync 会议室系统管理门户摘要视图")
 
@@ -101,9 +103,9 @@ _**上次修改的主题：** 2014-11-10_
 
 <div>
 
-## <a name="troubleshooting"></a>故障排除
+## <a name="troubleshooting"></a>疑难解答
 
-故障排除部分可用于远程收集日志并将其保存到指定位置。 您还可以重新启动 LRS 控制台（LRS 用户界面）或重新启动整个系统。 若要收集日志，请提供指定格式的文件夹路径，并确保该文件夹具有给定的对 LRS 计算机帐户的写入权限。 如果日志太大，可能需要长达5分钟才能完成日志收集。 刷新页面将为你提供最新状态。
+故障排除部分可用于远程收集日志并将其保存到指定位置。 您还可以重新启动 LRS 控制台 (LRS 用户界面) 或重新启动整个系统。 若要收集日志，请提供指定格式的文件夹路径，并确保该文件夹具有给定的对 LRS 计算机帐户的写入权限。 如果日志太大，可能需要长达5分钟才能完成日志收集。 刷新页面将为你提供最新状态。
 
 ![Lync 会议室系统管理门户聊天室日志记录](images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Lync 会议室系统管理门户聊天室日志记录")
 
@@ -111,7 +113,7 @@ _**上次修改的主题：** 2014-11-10_
 
 <div>
 
-## <a name="health"></a>运行状况
+## <a name="health"></a>健康
 
 "运行状况" 部分提供了 Lync Server 连接、音频设备、视频设备、复原状态和屏幕设备的运行状况的可视指示。
 
@@ -151,7 +153,7 @@ _**上次修改的主题：** 2014-11-10_
 
 ## <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>为什么我无法登录管理 web 门户？
 
-  - 当你打开https://localhost/lrs时，你将能够看到登录页，但在你键入凭据时，无法登录。 在这种情况下，您https://FQDNofFEserver/lrs必须打开以登录到管理 web 门户。
+  - 当你打开时 https://localhost/lrs ，你将能够看到登录页，但在你键入凭据时，无法登录。 在这种情况下，您必须打开 https://FQDNofFEserver/lrs 以登录到管理 web 门户。
 
   - 如果要从中访问管理 web 门户的计算机位于工作组中，则 "http://" 将不起作用。 请改用 "https"。
 
@@ -163,7 +165,7 @@ _**上次修改的主题：** 2014-11-10_
 
   - 请确保您的部署中有 LRS 帐户，并根据 LRS 管理 Web 门户部署建议创建这些帐户。 请确保在 Lync server 上使用 Enable-Disable-csmeetingroom，而不是 Enable-Get-csuser 设置 LRS 帐户。
 
-  - 如果您已创建 LRS 帐户，但在管理 web 门户中看不到这些帐户，请使用选择**MeetingPortal**组件的 Lync Server 日志记录工具收集服务器日志，然后将其发送到 LRS 支持联系人。
+  - 如果您已创建 LRS 帐户，但在管理 web 门户中看不到这些帐户，请使用选择 **MeetingPortal** 组件的 Lync Server 日志记录工具收集服务器日志，然后将其发送到 LRS 支持联系人。
 
 </div>
 
@@ -173,7 +175,7 @@ _**上次修改的主题：** 2014-11-10_
 
   - 请确保 LRSApp 用户帐户启用了 SIP。
 
-  - 如果仍有问题，请从 D：\\Trace\\LRSAdminLogs\\中收集 LRS 系统中的**Trace .log**文件，然后将其发送到 LRS 支持联系人。
+  - 如果仍有问题，请从 D： Trace LRSAdminLogs 中收集 LRS 系统中的 **Trace .log** 文件 \\ \\ \\ ，然后将其发送到 LRS 支持联系人。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50ac61976923bac8bff0162a61e5496df6181127
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36001aaf38dc39d0bb4eb7524e41c616b0a1c160
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192985"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530229"
 ---
+# <a name="user-activity-report-in-lync-server-2013"></a>Lync Server 2013 中的用户活动报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-activity-report-in-lync-server-2013"></a>Lync Server 2013 中的用户活动报告
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2015-02-27_
 
 用户活动报告有时候称为“技术支持”报告。这是因为该报告通常由技术支持人员用于检索特定用户的会话信息。您可以筛选来自或发往单个用户的呼叫，只需在“用户 URI”前缀框中键入该用户的 SIP URI 即可。
 
-如果执行此操作，则用户活动报告将返回其 SIP URI 以指定字符串开头的任何用户的信息。 例如，如果在 "URI" 框中键入**ken** ，则用户活动报告将找到**ken**。Myer@litwareinc.com。 但是，它还会找到以下用户：
+如果执行此操作，则用户活动报告将返回其 SIP URI 以指定字符串开头的任何用户的信息。 例如，如果在 "URI" 框中键入 **ken** ，则用户活动报告将找到 **ken**。Myer@litwareinc.com。 但是，它还会找到以下用户：
 
   - **ken**azi@litwareinc.com
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2015-02-27_
 
   - **Ken**nedy@litwareinc.com
 
-若要确保仅返回 Ken Myer 的信息，请在 "搜索" 框中键入他的完整 URI （Ken.Myer@litwareinc.com）或至少足够的 Ken URI 类型，以唯一地将他与组织中的其他用户区分开来。 例如：
+若要确保仅返回 Ken Myer 的信息，请在 "搜索" 框中键入他的完整 URI (Ken.Myer@litwareinc.com) 或至少足够的 Ken URI 类型，以唯一地区分他与组织中的其他用户。 例如：
 
 Ken.my
 
@@ -59,7 +61,7 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>访问用户活动报告
 
-用户活动报告是从“监控报告”主页访问的。 您还可以通过单击[Lync Server 2013 中的 "IP 电话清单报告](lync-server-2013-ip-phone-inventory-report.md)" 上的 "用户 URI" 指标来访问用户活动报告。 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样，单击对等呼叫的详细信息指标将转到[Lync Server 2013 中的对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)。
+用户活动报告是从“监控报告”主页访问的。 您还可以通过单击 [Lync Server 2013 中的 "IP 电话清单报告](lync-server-2013-ip-phone-inventory-report.md)" 上的 "用户 URI" 指标来访问用户活动报告。 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样，单击对等呼叫的详细信息指标将转到 [Lync Server 2013 中的对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)。
 
 </div>
 
@@ -73,7 +75,7 @@ Ken.my
 
 
 > [!WARNING]  
-> 从技术上讲，某些用户活动可能会执行 unrecorded：尽管 Lync Server 努力保留有关所有电话呼叫的信息，但在未将有关该调用的信息写入数据库的情况下，可能会进行呼叫。 Lync Server 旨在提供非常准确但不一定完全了解 Lync Server 2013 的使用方式。 （不能保证所有呼叫的100% 不会被记录，说明为什么不应将 Lync Server 监控用作帐单系统。）<BR>其次，“监控报告”报告最多只能显示 1,000 个记录。根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。
+> 从技术上讲，某些用户活动可能会执行 unrecorded：尽管 Lync Server 努力保留有关所有电话呼叫的信息，但在未将有关该调用的信息写入数据库的情况下，可能会进行呼叫。 Lync Server 旨在提供非常准确但不一定完全了解 Lync Server 2013 的使用方式。  (不能保证所有呼叫的100% 不会被记录，说明为什么不应将 Lync Server 监控用作帐单系统。 ) <BR>其次，“监控报告”报告最多只能显示 1,000 个记录。根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。
 
 
 
@@ -173,7 +175,7 @@ Ken.my
 <ul>
 <li><p>各种</p></li>
 <li><p>对等</p></li>
-<li><p>发布会</p></li>
+<li><p>Conference</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -186,11 +188,11 @@ Ken.my
 <td><p>指示相应活动已成功还是失败。选择下列选项之一：</p>
 <ul>
 <li><p>各种</p></li>
-<li><p>Success</p></li>
+<li><p>成功</p></li>
 <li><p>预期失败</p></li>
 <li><p>意外失败</p></li>
 </ul>
-<p>&quot;预期故障&quot;是预期发生的故障;例如，如果用户已将其状态设置为 "请勿打扰"，则可能需要对该用户的任何调用失败。 &quot;意外故障&quot;是指看起来好像是以其他正常运行的系统出现的故障。 例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。 如果终止，则会被标记为意外失败。</p></td>
+<p>&quot;预期故障 &quot; 是预期发生的故障; 例如，如果用户已将其状态设置为 "请勿打扰"，则可能会对该用户的任何调用失败。 &quot;意外故障 &quot; 是指看起来好像是以其他正常运行的系统出现的故障。 例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。 如果终止，则会被标记为意外失败。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>用户 URI 前缀</strong></p></td>
@@ -221,7 +223,7 @@ Ken.my
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -253,7 +255,7 @@ Ken.my
 <tr class="even">
 <td><p><strong>响应时间</strong></p></td>
 <td><p>是</p></td>
-<td><p>&quot;到&quot;用户接受会话邀请的日期和时间。</p></td>
+<td><p>&quot;到 &quot; 用户接受会话邀请的日期和时间。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>结束时间</strong></p></td>
@@ -289,14 +291,14 @@ Ken.my
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>会议 URI</strong></p></td>
 <td><p>是</p></td>
-<td><p>唯一会议标识符。 单击此项时，报告将显示所选会话的会议详细信息报告。 展开此项时，报告将显示有关会议参与者的信息。 有关详细信息，请&quot;参阅本主题后面&quot;的 "会议参与者的指标" 一节。</p></td>
+<td><p>唯一会议标识符。 单击此项时，报告将显示所选会话的会议详细信息报告。 展开此项时，报告将显示有关会议参与者的信息。 有关详细信息，请参阅 &quot; 本主题后面的 "会议参与者的指标" &quot; 一节。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Organizer</strong></p></td>
@@ -342,7 +344,7 @@ Ken.my
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -359,7 +361,7 @@ Ken.my
 <tr class="odd">
 <td><p><strong>连接</strong></p></td>
 <td><p>否</p></td>
-<td><p>网络连接类型。 例如&quot;，用于内部&quot;连接的内部或&quot;来自 PSTN&quot;的电话拨入用户。</p></td>
+<td><p>网络连接类型。 例如，用于 &quot; &quot; 内部连接的内部或 &quot; 来自 PSTN &quot; 的电话拨入用户。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>加入时间</strong></p></td>

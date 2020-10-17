@@ -12,20 +12,22 @@ ms:contentKeyID: 48185398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ad4fac185d5a1249a55dafbc6a1a8984ded0851
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73e79d973d4befc4eb0ecfd496aa9fd442174e56
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202328"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531019"
 ---
+# <a name="exporting-and-importing-voice-routing-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中导出和导入语音路由配置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="exporting-and-importing-voice-routing-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中导出和导入语音路由配置
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202328"
 
 _**上次修改的主题：** 2012-11-01_
 
-如果要在不发布的情况下保存语音路由配置，请按照以下步骤使用 Lync Server 控制面板的 "导出" 和 "导入" 命令来保存和检索语音路由配置的快照。 当您导入语音路由配置文件（. vcfg），但同时在服务器上对语音路由配置进行了更改时，在 Lync Server 控制面板中的 "**语音路由**" 组中的页面将指示对语音路由有未提交的更改。 这些未提交的更改是两种需要调节的配置之间的差异。
+如果要在不发布的情况下保存语音路由配置，请按照以下步骤使用 Lync Server 控制面板的 "导出" 和 "导入" 命令来保存和检索语音路由配置的快照。 在将语音路由配置文件导入 () ，但同时对服务器上的语音路由配置进行了更改，则 vcfg Server 控制面板中的 " **语音路由** " 组中的页面将指示语音路由存在未提交的更改。 这些未提交的更改是两种需要调节的配置之间的差异。
 
 <div>
 

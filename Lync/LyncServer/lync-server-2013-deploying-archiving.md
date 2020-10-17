@@ -12,20 +12,22 @@ ms:contentKeyID: 48185031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d31a4bdf75b649dec1d18a834335b0d47a69a3e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa4f0ccf1b9cd16a25a4c64fdaa8fc8d69eb7a2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531319"
 ---
+# <a name="deploying-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中部署存档
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中部署存档
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42206745"
 
 _**上次修改的主题：** 2012-09-28_
 
-Lync Server 2013 提供了用于在 Lync Server 中存档即时消息（IM）内容和会议通信的解决方案。 您可以通过将存档存储与 Exchange 2013 存储集成，使用 SQL Server 数据库存储 Lync Server 2013 存档数据，或者同时使用 Lync Server 2013 和 Exchange 2013 存储来实现存档支持。 您可以使用策略和存档配置来控制数据的存档方式。 有关详细信息，请参阅规划文档、部署文档或操作文档中的规划文档中的在[lync server 2013 中规划存档](lync-server-2013-planning-for-archiving.md)和[存档在 lync server 2013 中的工作方式](lync-server-2013-how-archiving-works.md)。
+Lync Server 2013 提供了用于在 Lync Server 中存档即时消息 (IM) 内容和会议通信的解决方案。 您可以通过将存档存储与 Exchange 2013 存储集成，使用 SQL Server 数据库存储 Lync Server 2013 存档数据，或者同时使用 Lync Server 2013 和 Exchange 2013 存储来实现存档支持。 您可以使用策略和存档配置来控制数据的存档方式。 有关详细信息，请参阅规划文档、部署文档或操作文档中的规划文档中的在 [lync server 2013 中规划存档](lync-server-2013-planning-for-archiving.md) 和 [存档在 lync server 2013 中的工作方式](lync-server-2013-how-archiving-works.md) 。
 
-可以使用本节中的信息初步设置和配置存档。 部署后可以更改存档设置。 若要详细了解如何实现对日常管理的存档支持或满足组织中的新要求，请参阅操作文档中的[管理 Lync Server 2013 存档](lync-server-2013-managing-archiving.md)。
+可以使用本节中的信息初步设置和配置存档。 部署后可以更改存档设置。 若要详细了解如何实现对日常管理的存档支持或满足组织中的新要求，请参阅操作文档中的 [管理 Lync Server 2013 存档](lync-server-2013-managing-archiving.md) 。
 
 <div>
 

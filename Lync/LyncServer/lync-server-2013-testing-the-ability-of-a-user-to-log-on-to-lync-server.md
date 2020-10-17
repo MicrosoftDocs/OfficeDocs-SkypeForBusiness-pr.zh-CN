@@ -12,20 +12,22 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541870c2dc9bf5fde0ce2a339b07b894feb83082
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ac7f02d18f1b270b3a58a7ece84cb3a859b32b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193845"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530469"
 ---
+# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>测试用户登录到 Lync Server 2013 的能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>测试用户登录到 Lync Server 2013 的能力
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-06-05_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsRegistration cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsRegistration cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsRegistration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**上次修改的主题：** 2014-06-05_
 
 ## <a name="description"></a>说明
 
-CsRegistration cmdlet 使您能够验证组织中的用户是否可以登录 Lync Server。 运行 CsRegistration 时，cmdlet 会尝试将测试用户登录到 Lync Server，然后，如果成功，则断开该测试用户与系统的连接。 所有这些无需用户进行任何干预，并且不会影响任何真实用户。 例如，假设测试帐户 sip:kenmyer@litwareinc.com 与具有实际 Lync Server 帐户的真实用户相对应。 在该情况下，执行测试不会对真实的 Ken Myer 造成任何干扰。 在 Ken Myer 测试帐户从系统中注销后，Ken Myer 本人还继续处于登录状态。
+通过 Test-CsRegistration cmdlet，您可以验证组织中的用户是否可以登录 Lync Server。 运行 CsRegistration 时，cmdlet 会尝试将测试用户登录到 Lync Server，然后，如果成功，则断开该测试用户与系统的连接。 所有这些无需用户进行任何干预，并且不会影响任何真实用户。 例如，假设测试帐户 sip:kenmyer@litwareinc.com 与具有实际 Lync Server 帐户的真实用户相对应。 在该情况下，执行测试不会对真实的 Ken Myer 造成任何干扰。 在 Ken Myer 测试帐户从系统中注销后，Ken Myer 本人还继续处于登录状态。
 
 </div>
 
@@ -74,7 +76,7 @@ CsRegistration cmdlet 使您能够验证组织中的用户是否可以登录 Lyn
 
 ## <a name="running-the-test"></a>运行测试
 
-可以使用预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何用户的帐户运行 CsRegistration cmdlet。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 注册器池的 FQDN。 例如：
+可以使用预配置的测试帐户运行 Test-CsRegistration cmdlet (请参阅设置用于运行 Lync Server 测试的测试帐户) 或启用了 Lync Server 的任何用户的帐户。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 注册器池的 FQDN。 例如：
 
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -83,7 +85,7 @@ CsRegistration cmdlet 使您能够验证组织中的用户是否可以登录 Lyn
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-有关详细信息，请参阅[CsRegistration](https://docs.microsoft.com/powershell/module/skype/Test-CsRegistration) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [CsRegistration](https://docs.microsoft.com/powershell/module/skype/Test-CsRegistration) Cmdlet 的帮助文档。
 
 </div>
 
@@ -91,7 +93,7 @@ CsRegistration cmdlet 使您能够验证组织中的用户是否可以登录 Lyn
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果指定的用户可以登录到（然后从 Lync Server 注销），您将收到与以下内容类似的输出，并将 Result 属性标记为**成功：**
+如果指定的用户可以登录到 (，然后从) Lync Server 注销，您将收到与以下内容类似的输出：结果属性标记为 **成功：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -119,15 +121,15 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 Microsoft DiagnosticHeader
 
-例如，以前的输出表明由于找不到指定的用户而导致测试失败。 您可以通过运行以下命令来确定 SIP 地址是否有效（以及用户是否为 Lync Server 启用了该 SIP 地址）：
+例如，以前的输出表明由于找不到指定的用户而导致测试失败。 您可以通过运行以下命令来确定 SIP 地址是否有效 (以及用户是否已为 Lync Server) 启用了该 SIP 地址：
 
     Get-CsUser "sip:kenmyer@litwareinc.com"
 
-如果 CsRegistration 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
+如果 Test-CsRegistration 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-包含 Verbose 参数时，CsRegistration 将返回其在检查指定用户登录到 Lync Server 的能力时所尝试的每个操作的分步帐户。 例如：
+包含 Verbose 参数时，Test-CsRegistration 将返回其在检查指定用户登录到 Lync Server 的能力时所尝试的每个操作的分步帐户。 例如：
 
 详细： "注册" 活动已启动。
 
@@ -143,7 +145,7 @@ Microsoft DiagnosticHeader
 
 "终结点无法注册" 异常。 有关特定原因的错误代码，请参阅在工作流 STRegistrerWorkflow 执行过程中发生的错误。
 
-异常调用堆栈：在 SipAsyncResult'1 （）上
+异常调用堆栈： SipAsyncResult'1. ThrowIfFailed ( # A1
 
 </div>
 
@@ -151,7 +153,7 @@ Microsoft DiagnosticHeader
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是测试 CsRegistration 可能失败的一些常见原因：
+下面是 Test-CsRegistration 可能失败的一些常见原因：
 
   - 您指定了不正确的用户帐户。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     

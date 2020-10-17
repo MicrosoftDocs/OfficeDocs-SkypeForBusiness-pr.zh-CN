@@ -12,20 +12,22 @@ ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c37108d8429567c2653174e4d5a9d0510278e4f3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91392470d47cc4d59130e7c304656f9eee48ae5e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214318"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531369"
 ---
+# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SEFAUtil 工具
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SEFAUtil 工具
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2013-01-30_
 
 
 > [!IMPORTANT]  
-> Microsoft 统一通信托管 API （UCMA）3.0 核心 SDK 必须安装在您计划运行 SEFAUtil 工具的任何计算机上。
+> Microsoft 统一通信托管 API (UCMA) 3.0 Core SDK 必须安装在您计划运行 SEFAUtil 工具的任何计算机上。
 
 
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2013-01-30_
 
 
 > [!NOTE]  
-> 有关运行 SEFAUtil 的更多详细信息，请参阅 Technet 博客文章 "how to get SEFAutil 正在运行吗？" at <A href="https://go.microsoft.com/fwlink/?linkid=278940">https://go.microsoft.com/fwlink/?LinkId=278940</A>。
+> 有关运行 SEFAUtil 的更多详细信息，请参阅 Technet 博客文章 "how to get SEFAutil 正在运行吗？" at <A href="https://go.microsoft.com/fwlink/?linkid=278940">https://go.microsoft.com/fwlink/?LinkId=278940</A> 。
 
 
 
@@ -65,7 +67,7 @@ _**上次修改的主题：** 2013-01-30_
 
 ## <a name="to-deploy-sefautil"></a>部署 SEFAUtil
 
-1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在 [Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 

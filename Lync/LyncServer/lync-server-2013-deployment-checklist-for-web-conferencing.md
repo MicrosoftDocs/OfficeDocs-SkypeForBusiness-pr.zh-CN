@@ -12,20 +12,22 @@ ms:contentKeyID: 48184878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54d3825891fe6934699e310073825e50a4aee731
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c20bd593e11f032ba0a0ed852a50b6d417fa604
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213769"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531089"
 ---
+# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的 web 会议的部署清单
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的 web 会议的部署清单
+
 
 </div>
 
@@ -76,7 +78,7 @@ _**上次修改的主题：** 2012-09-30_
 <div>
 
 > [!NOTE]  
-> Lync Server 2013 使用 Office Web Apps 和 Office Web Apps Server 处理 PowerPoint 演示文稿的共享和呈现。 有关安装和配置 Office Web Apps Server 的信息，请参阅<A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">配置与 Office Web Apps server 和 Lync Server 2013 的集成</A>。
+> Lync Server 2013 使用 Office Web Apps 和 Office Web Apps Server 处理 PowerPoint 演示文稿的共享和呈现。 有关安装和配置 Office Web Apps Server 的信息，请参阅 <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">配置与 Office Web Apps server 和 Lync Server 2013 的集成</A>。
 
 
 </div></td>
@@ -90,22 +92,22 @@ _**上次修改的主题：** 2012-09-30_
 <td><p><strong>创建相应的内部拓扑以支持会议</strong></p></td>
 <td><p>运行拓扑生成器以将会议添加到拓扑，然后发布拓扑。</p></td>
 <td><p>要定义拓扑，需具有本地 Users 组成员的帐户</p>
-<p>发布拓扑，即 Domain Admins 组和 RTCUniversalServerAdmins 组的成员，以及对用于 Lync Server 2013 文件存储的文件共享具有完全控制权限（读/写/修改）的帐户（以便拓扑生成器可以配置所需的 Dacl）</p></td>
+<p>若要发布拓扑，该帐户是 Domain Admins 组和 RTCUniversalServerAdmins 组的成员，并且具有对用于 Lync Server 2013 文件 (存储的文件共享上的完全控制权限 (读/写/修改) ，以便拓扑生成器可以配置所需的 Dacl) </p></td>
 <td><p>在部署文档中<a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">的 Lync Server 2013 拓扑生成器中定义和配置拓扑</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>配置会议策略和支持</strong></p></td>
 <td><p>使用 Lync Server 2013 控制面板或 Lync Server 命令行管理程序配置会议设置。</p></td>
-<td><p>RTCUniversalServerAdmins 组（仅限 Windows PowerShell）或将用户分配到 [] 或 CSAdministrator 角色</p></td>
-<td><p><a href="lync-server-2013-conferencing-policies.md">Lync Server 2013 中的会议策略</a>在操作文档中。</p></td>
+<td><p>RTCUniversalServerAdmins group ( Windows PowerShell 仅) 或将用户分配到 [] 或 CSAdministrator 角色</p></td>
+<td><p><a href="lync-server-2013-conferencing-policies.md">Lync Server 2013 中的会议策略</a> 在操作文档中。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Lync Server 2013 现在包含**MaxUploadFileSizeMb**设置，该设置限制了会议过程中可上载的文件的大小。 此设置的默认值是 500 MB。 您可以使用 **Set-CsConferencingConfiguration** cmdlet 调整 **MaxUploadFileSizeMb**。
+Lync Server 2013 现在包含 **MaxUploadFileSizeMb** 设置，该设置限制了会议过程中可上载的文件的大小。 此设置的默认值是 500 MB。 您可以使用 **Set-CsConferencingConfiguration** cmdlet 调整 **MaxUploadFileSizeMb**。
 
-**MaxUploadFileSizeMb**不限制 Lync Web App 的文件上载设置。 将 Lync Web App 的文件大小上载限制设置为约30MB，由 IIS web.config 文件控制：/DataCollabWeb/Int\[Ext/Handler/web.config.\]若要配置 Lync Web App 的文件大小上载限制，请`maxRequestLength` `maxAllowedContentLength`在 web.config 文件中进行更新，如下所示。
+**MaxUploadFileSizeMb** 不限制 Lync Web App 的文件上载设置。 将 Lync Web App 的文件大小上传限制设置为大约30MB，并由 IIS web.config 文件：/DataCollabWeb/Int \[ Ext \] /Handler/web.config 进行控制。若要配置 Lync Web App 的文件大小上载限制，请更新 `maxRequestLength` 并 `maxAllowedContentLength` 在 web.config 文件中，如下所示。
 
     <system.web>
         <!-- 
@@ -125,7 +127,7 @@ Lync Server 2013 现在包含**MaxUploadFileSizeMb**设置，该设置限制了�
                     </requestFiltering>
                     </security>
 
-您必须为每台前端服务器更新 web.config 文件。
+您必须更新每台前端服务器的 web.config 文件。
 
 </div>
 

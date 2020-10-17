@@ -12,20 +12,22 @@ ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1589fe63c41cb2c4cbff9b72f42a3cc06b43e5d3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ed4849aff6dd65de524a99ac8fc6f886d7c4db5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530919"
 ---
+# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a>在 Lync Server 2013 中对用于 Lync Server 联盟的边缘池进行故障转移
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a>在 Lync Server 2013 中对用于 Lync Server 联盟的边缘池进行故障转移
+
 
 </div>
 
@@ -57,7 +59,7 @@ _**上次修改的主题：** 2012-09-17_
 
 7.  在“设置 Lync Server 组件”中，单击“下一步”****。摘要屏幕将显示已执行的操作。部署完成后，单击“查看日志”**** 可查看可用日志文件。单击“完成”**** 以完成部署。
     
-    如果包含故障边缘池的站点包含仍在运行的前端服务器，则必须更新这些前端池上的 Web 会议服务和 A/V 会议服务才能在仍在运行的远程站点中使用边缘池。 有关详细信息，请参阅[在 Lync Server 2013 中更改与前端池关联的边缘池](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)。
+    如果包含故障边缘池的站点包含仍在运行的前端服务器，则必须更新这些前端池上的 Web 会议服务和 A/V 会议服务才能在仍在运行的远程站点中使用边缘池。 有关详细信息，请参阅 [在 Lync Server 2013 中更改与前端池关联的边缘池](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)。
 
 </div>
 

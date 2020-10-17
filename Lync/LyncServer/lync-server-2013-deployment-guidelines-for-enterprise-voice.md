@@ -12,20 +12,22 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 688cf48c7f716047f0d7412c34ce84006a5a9348
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05cde2a845dd6314d8822e6b58445eed5c6a1d19
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531069"
 ---
+# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中的企业语音部署指南
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中的企业语音部署指南
+
 
 </div>
 
@@ -51,15 +53,15 @@ _**上次修改的主题：** 2012-09-21_
 
   - 已为 Lync Server 创建并启用了一个或多个用户。
 
-  - 安装了 microsoft Exchange Server 2007 Service Pack 1 （SP1）或最新的 service pack 或 Microsoft Exchange Server 2010。 将 Exchange 统一消息（UM）与 Lync Server 集成并向客户端终结点提供丰富通知和呼叫日志信息时，需要使用其中一种。
+  - Microsoft Exchange Server 2007 Service Pack 1 (SP1) 或最新的 service pack 或 Microsoft Exchange Server 2010 已安装。 在将 Exchange 统一消息 (UM) 与 Lync Server 集成并向客户端终结点提供丰富通知和呼叫日志信息时，需要使用其中一种方式。
 
-  - 为要启用企业语音的每个用户指定、规范化并将其复制到**msRTCSIP**属性的唯一主电话号码。
+  - 为要启用企业语音的每个用户指定、规范化并将其复制到 **msRTCSIP** 属性的唯一主电话号码。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 支持 e.164 号码和非直接向内拨号（已）号码。 未完成的号码可以采用 " <STRONG> &lt;. 164&gt;"、"ext&lt;= 分机&gt; </STRONG> " 或数字字符串的形式表示，要求专用扩展在整个企业中是唯一的。 例如，可以使用 <STRONG>+1425550100;ext=1001</STRONG> 或 <STRONG>1001</STRONG> 表示专用号码 1001。 使用 <STRONG>1001</STRONG> 表示时，预期此专用号码在整个企业中是唯一的。
+    > Lync Server 支持 e.164 号码和非直接向内拨号 (已) 号码。 未完成的号码可以采用 ". 164"、" <STRONG> &lt; &gt; ext = &lt; &gt; 分机</STRONG>" 或数字字符串的形式表示，要求专用扩展在整个企业中是唯一的。 例如，可以使用 <STRONG>+1425550100;ext=1001</STRONG> 或 <STRONG>1001</STRONG> 表示专用号码 1001。 使用 <STRONG>1001</STRONG> 表示时，预期此专用号码在整个企业中是唯一的。
 
     
     </div>
@@ -72,7 +74,7 @@ _**上次修改的主题：** 2012-09-21_
 
   - 安装中介服务器的每台计算机必须：
     
-      - 域的成员服务器和 Active Directory 域服务的准备工作。 有关 Active Directory 域服务的准备过程，请参阅部署文档中的为[Lync Server 2013 准备 Active Directory 域服务](lync-server-2013-preparing-active-directory-domain-services.md)。
+      - 域的成员服务器和 Active Directory 域服务的准备工作。 有关 Active Directory 域服务的准备过程，请参阅部署文档中的为 [Lync Server 2013 准备 Active Directory 域服务](lync-server-2013-preparing-active-directory-domain-services.md) 。
     
       - 运行以下操作系统之一：
         
@@ -106,7 +108,7 @@ _**上次修改的主题：** 2012-09-21_
 
 ## <a name="alternative-means-of-accessing-emergency-services"></a>访问紧急服务的其他方式
 
-对于安装语音客户端的那些位置（例如，运行 Lync 客户端或 Lync Phone Edition 设备的电脑），我们建议您为用户维护备份选项，以便在发生电源故障时呼叫紧急服务（例如，911或999）、网络连接降级、电话服务中断或可能阻止 Lync Server、Lync 或 Lync Phone Edition 设备运行的其他问题。 此类备用选项可能包括连接到标准公用电话交换网线路的电话或移动电话。
+对于安装语音客户端的那些位置 (例如，运行 Lync 客户端或 Lync Phone Edition 设备的电脑) ，我们建议您为用户维护用于呼叫紧急服务的备份选项 (例如，在断电、网络连接降级、电话服务中断或可能阻止 Lync Server、Lync 或 Lync Phone Edition 设备的操作的其他问题时，请使用911或 999) 。 此类备用选项可能包括连接到标准公用电话交换网线路的电话或移动电话。
 
 </div>
 
@@ -114,7 +116,7 @@ _**上次修改的主题：** 2012-09-21_
 
 ## <a name="emergency-calls-and-multi-line-telephone-systems"></a>紧急呼叫和多路电话系统
 
-对多路电话系统 (MLTS) 的使用须遵守美国（州或联邦）法律或其他国家/地区的法律，这些法律要求 MLTS 在呼叫者呼叫紧急服务（例如拨打诸如 911 或 999 之类的紧急访问号码）时，为适用的紧急服务机构提供呼叫者的电话号码、分机号和/或物理位置。 在此版本中，可以将 Lync Server 配置为向紧急服务提供商提供呼叫者的物理位置，如在[Lync Server 2013 中规划紧急服务（E9-1-1）](lync-server-2013-planning-for-emergency-services-e9-1-1.md)中所述。 遵守 MLTS 法律是 Lync Server、Lync 客户端和 Lync Phone Edition 设备的买方的唯一责任。
+对多路电话系统 (MLTS) 的使用须遵守美国（州或联邦）法律或其他国家/地区的法律，这些法律要求 MLTS 在呼叫者呼叫紧急服务（例如拨打诸如 911 或 999 之类的紧急访问号码）时，为适用的紧急服务机构提供呼叫者的电话号码、分机号和/或物理位置。 在此版本中，可以将 Lync Server 配置为向紧急服务提供商提供呼叫者的物理位置，如在 [Lync Server 2013 中规划紧急服务 (E9-1-1) 中](lync-server-2013-planning-for-emergency-services-e9-1-1.md)所述。 遵守 MLTS 法律是 Lync Server、Lync 客户端和 Lync Phone Edition 设备的买方的唯一责任。
 
 </div>
 

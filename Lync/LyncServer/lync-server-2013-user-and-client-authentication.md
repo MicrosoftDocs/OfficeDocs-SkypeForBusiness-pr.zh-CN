@@ -12,20 +12,22 @@ ms:contentKeyID: 59893868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dbddb0dab36a8ad805691196a00a3dc8bf6f9d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f32ca61178d6bf15791f81e64279e7f1076828e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192975"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530199"
 ---
+# <a name="user-and-client-authentication-for-lync-server-2013"></a>Lync Server 2013 的用户和客户端身份验证
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-and-client-authentication-for-lync-server-2013"></a>Lync Server 2013 的用户和客户端身份验证
+
 
 </div>
 
@@ -68,7 +70,7 @@ Lync Server 2013 身份验证包含两个阶段：
 
 ICE 和 TURN 协议也会使用摘要式质询，如 IETF TURN RFC 中所述。
 
-客户端证书为用户提供了另一种通过 Lync Server 2013 进行身份验证的方法。 无需提供用户名和密码，用户具有证书以及解析加密质询所需的与证书对应的私钥。 （此证书必须具有标识用户的使用者名称或使用者替代名称，并且必须由运行 Lync Server 2013 的服务器信任的根 CA 颁发，在证书的有效期内，且未被吊销。）若要进行身份验证，用户只需键入个人标识号（PIN）。 证书对于运行 Microsoft Lync 2013 Phone Edition 的电话和其他设备尤其有用，在这种情况下，很难输入用户名和/或密码。
+客户端证书为用户提供了另一种通过 Lync Server 2013 进行身份验证的方法。 无需提供用户名和密码，用户具有证书以及解析加密质询所需的与证书对应的私钥。  (此证书必须具有标识用户的使用者名称或使用者替代名称，并且必须由运行 Lync Server 2013 的服务器信任的根 CA 颁发，在证书的有效期内，且未被吊销。 ) 若要进行身份验证，用户只需键入个人标识号 (PIN) 即可。 证书对于运行 Microsoft Lync 2013 Phone Edition 的电话和其他设备尤其有用，在这种情况下，很难输入用户名和/或密码。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184376
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7705da8beee8f6ee45d74fbdbb6eb03180234a47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c76dcde03d2a85eb45f7b2c28d6b7c7d99b41b20
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179659"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531479"
 ---
+# <a name="deploy-ip-address-types-on-a-mediation-server-for-lync-server-2013"></a>在 Lync server 2013 的中介服务器上部署 IP 地址类型
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-a-mediation-server-for-lync-server-2013"></a>在 Lync server 2013 的中介服务器上部署 IP 地址类型
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2016-07-28_
 
 ## <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>在中介服务器上部署 IP 地址类型
 
-  - 在拓扑生成器中，在 "**中介池**" 下，右键单击池内的服务器，然后选择 "**编辑属性**"。 （或者，选择服务器，然后从 "**操作**" 菜单中单击 "**编辑属性**"。）
+  - 在拓扑生成器中，在 " **中介池**" 下，右键单击池内的服务器，然后选择 " **编辑属性**"。  (或者，选择服务器，然后从 "**操作**" 菜单中单击 "**编辑属性**"。 ) 
 
   - 在“编辑属性”**** 对话框中，选择您要配置的 IP 地址类型。对于双协议栈配置，则选择“启用 IPv4”**** 和“启用 IPv6”****，如下图所示。
     
@@ -72,7 +74,7 @@ _**上次修改的主题：** 2016-07-28_
         
 
         > [!NOTE]  
-        > 并置中介服务器角色不支持安装额外的网络接口卡（NIC） s 来支持 Lync Server 2013 的 PSTN IP 地址配置。 有关 Lync Server 2013 支持的 NIC 配置的详细信息，请参阅<A href="lync-server-2013-server-hardware-platforms.md">Lync server 2013 的服务器硬件平台</A>。
+        > 并置中介服务器角色不支持安装其他网络接口卡 (NIC) s 以支持 Lync Server 2013 的 PSTN IP 地址配置。 有关 Lync Server 2013 支持的 NIC 配置的详细信息，请参阅 <A href="lync-server-2013-server-hardware-platforms.md">Lync server 2013 的服务器硬件平台</A>。
 
         
         </div>

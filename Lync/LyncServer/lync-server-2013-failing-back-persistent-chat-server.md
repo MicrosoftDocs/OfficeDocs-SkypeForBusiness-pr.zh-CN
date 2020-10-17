@@ -12,20 +12,22 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1da806e476635543e0afeafee8b7c195cf21cfc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2132af73fec67ace0bffd6db1836071cb8fc2d06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202288"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530999"
 ---
+# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中对持久聊天服务器进行故障回复
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中对持久聊天服务器进行故障回复
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2014-02-05_
 
 以下过程在备份主数据中心并重新生成服务器后还原正常操作。 此过程假定主数据中心已从总中断恢复，并且已使用拓扑生成器重新生成并重新安装 mgc 数据库和 mgccomp 数据库。
 
-此过程还假定在故障转移期间没有部署新的镜像服务器和备份服务器，并且部署的唯一服务器是备份服务器及其镜像服务器，如在[Lync server 2013 中通过持久聊天服务器进行故障转移](lync-server-2013-failing-over-persistent-chat-server.md)时进行了定义。
+此过程还假定在故障转移期间没有部署新的镜像服务器和备份服务器，并且部署的唯一服务器是备份服务器及其镜像服务器，如在 [Lync server 2013 中通过持久聊天服务器进行故障转移](lync-server-2013-failing-over-persistent-chat-server.md)时进行了定义。
 
 这些步骤旨在恢复配置在导致从主服务器故障转移到备份服务器的灾难发生之前的状态。
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2014-02-05_
 
 ## <a name="to-fail-back-persistent-chat-server"></a>对持久聊天服务器进行故障回复
 
-1.  使用 Lync Server 命令行管理程序中的`Set-CsPersistentChatActiveServer` Cmdlet 从持久聊天服务器活动服务器列表中清除所有服务器。 这将阻止所有持久聊天服务器在故障回复期间连接到 mgc 数据库和 mgccomp 数据库。
+1.  使用 `Set-CsPersistentChatActiveServer` Lync Server 命令行管理程序中的 cmdlet 从持久聊天服务器活动服务器列表中清除所有服务器。 这将阻止所有持久聊天服务器在故障回复期间连接到 mgc 数据库和 mgccomp 数据库。
     
     <div>
     
@@ -91,7 +93,7 @@ _**上次修改的主题：** 2014-02-05_
     
     5.  接受“名称”**** 中建议的默认备份集名称，或为备份集输入不同名称。
     
-    6.  * \<可选\> *在 "**说明**" 中，输入备份集的说明。
+    6.  *\<Optional\>* 在 " **说明**" 中，输入备份集的说明。
     
     7.  从目标列表中删除默认备份位置。
     
@@ -119,9 +121,9 @@ _**上次修改的主题：** 2014-02-05_
     
     9.  单击“确定”**** 开始还原过程。
 
-5.  为主数据库配置 SQL Server 日志传送。 按照在[Lync server 2013 中配置持久聊天服务器以实现高可用性和灾难恢复](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)过程中的过程，为主 mgc 数据库建立日志传送。
+5.  为主数据库配置 SQL Server 日志传送。 按照在 [Lync server 2013 中配置持久聊天服务器以实现高可用性和灾难恢复](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) 过程中的过程，为主 mgc 数据库建立日志传送。
 
-6.  设置持久聊天服务器活动服务器。 在 Lync Server 命令行管理程序中，使用**set-cspersistentchatactiveserver** cmdlet 设置活动服务器的列表。
+6.  设置持久聊天服务器活动服务器。 在 Lync Server 命令行管理程序中，使用 **set-cspersistentchatactiveserver** cmdlet 设置活动服务器的列表。
     
     <div>
     
@@ -136,7 +138,7 @@ _**上次修改的主题：** 2014-02-05_
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-有关详细信息，请参阅[CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) cmdlet 的帮助主题。
+有关详细信息，请参阅 [CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) cmdlet 的帮助主题。
 
 </div>
 

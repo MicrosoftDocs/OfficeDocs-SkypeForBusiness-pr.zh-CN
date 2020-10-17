@@ -12,20 +12,22 @@ ms:contentKeyID: 48183675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f825a39650dc535dbb9d432214226169f4451a0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7172a80342e88e6f58d233ee3a69abfd813196c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531329"
 ---
+# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>在 Lync Server 2013 中部署高级企业语音功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>在 Lync Server 2013 中部署高级企业语音功能
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**上次修改的主题：** 2012-09-22_
 
 为组织配置基本企业语音功能之后，可以选择按照本节中的过程部署一个或多个高级企业语音功能。
 
-有关高级企业语音功能的详细信息，请参阅[规划 Lync Server 2013](lync-server-2013-planning.md)文档中的以下部分：
+有关高级企业语音功能的详细信息，请参阅 [规划 Lync Server 2013](lync-server-2013-planning.md) 文档中的以下部分：
 
   - [在 Lync Server 2013 中规划呼叫允许控制](lync-server-2013-planning-for-call-admission-control.md)
 
-  - [在 Lync Server 2013 中规划紧急服务（E9-1-1）](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+  - [在 Lync Server 2013 中规划紧急服务 (E9-1-1) ](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
   - [在 Lync Server 2013 中规划媒体旁路](lync-server-2013-planning-for-media-bypass.md)
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee0dc4d50fb3b60d4f6a9581d497df11da630122
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a3282315d50b0a5075afc380487fb9204d4285c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757033"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529899"
 ---
+# <a name="migrate-address-book"></a>迁移通讯簿
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-address-book"></a>迁移通讯簿
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-09_
 
   - 自定义了通讯簿规范化规则。
 
-  - 将**UseNormalizationRules**参数的默认值更改为 False。
+  - 将 **UseNormalizationRules** 参数的默认值更改为 False。
 
 **分组的通讯簿条目**
 
@@ -65,7 +67,7 @@ _**上次修改的主题：** 2012-10-09_
 
 **UseNormalizationRules 设置为 False**
 
-如果将**UseNormalizationRules**的值设置为 False，以便用户可以使用在 Active Directory 域服务中定义的电话号码，而不使用 Lync Server 2013 应用规范化规则，则需要将**UseNormalizationRules**和**IgnoreGenericRules**参数设置为 True。 按照本节后面的过程操作，将这些参数设置为 True。
+如果将 **UseNormalizationRules** 的值设置为 False，以便用户可以使用在 Active Directory 域服务中定义的电话号码，而不使用 Lync Server 2013 应用规范化规则，则需要将 **UseNormalizationRules** 和 **IgnoreGenericRules** 参数设置为 True。 按照本节后面的过程操作，将这些参数设置为 True。
 
 <div>
 
@@ -104,7 +106,7 @@ _**上次修改的主题：** 2012-10-09_
 
 2.  执行下列操作之一：
     
-      - 如果您的部署仅包括 Lync Server 2013，请在全局级别运行以下 cmdlet，以将**UseNormalizationRules**和**IgnoreGenericRules**的值更改为 True：
+      - 如果您的部署仅包括 Lync Server 2013，请在全局级别运行以下 cmdlet，以将 **UseNormalizationRules** 和 **IgnoreGenericRules** 的值更改为 True：
         
             Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
     

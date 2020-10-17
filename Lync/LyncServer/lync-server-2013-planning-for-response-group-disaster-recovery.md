@@ -12,20 +12,22 @@ ms:contentKeyID: 48183482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab630dae949d1972d9e5077035d88d91964034f1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6cc238665ecb0222ded43e438e9f9370b561b85d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201978"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530569"
 ---
+# <a name="planning-for-response-group-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中规划响应组灾难恢复
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-response-group-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中规划响应组灾难恢复
+
 
 </div>
 
@@ -55,9 +57,9 @@ _**上次修改的主题：** 2012-11-01_
 
 </div>
 
-  - 在进行容量规划时，应制定灾难恢复计划。 对于灾难恢复容量，配对池中的每个池应能够处理两个池中所有响应组的工作负荷。 有关响应组容量规划的详细信息，请参阅[Lync Server 2013 中的容量规划（针对响应组](lync-server-2013-capacity-planning-for-response-group.md)）。
+  - 在进行容量规划时，应制定灾难恢复计划。 对于灾难恢复容量，配对池中的每个池应能够处理两个池中所有响应组的工作负荷。 有关响应组容量规划的详细信息，请参阅 [Lync Server 2013 中的容量规划（针对响应组](lync-server-2013-capacity-planning-for-response-group.md)）。
 
-  - 使用本文档中所述的 export 过程，对部署了响应组应用程序的所有前端池中的所有响应组配置执行常规备份副本。 有关详细信息，请参阅[Lync Server 2013 中的响应组灾难恢复过程](lync-server-2013-response-group-disaster-recovery-procedures.md)。 请将备份副本保存到安全的位置。
+  - 使用本文档中所述的 export 过程，对部署了响应组应用程序的所有前端池中的所有响应组配置执行常规备份副本。 有关详细信息，请参阅 [Lync Server 2013 中的响应组灾难恢复过程](lync-server-2013-response-group-disaster-recovery-procedures.md)。 请将备份副本保存到安全的位置。
 
   - 为响应组应用程序保留您使用的所有原始音频文件的单独备份副本，包括任何录制和包含音乐的文件。 请将备份文件保存到安全的位置。
 
@@ -96,13 +98,13 @@ _**上次修改的主题：** 2012-11-01_
 
 
 > [!NOTE]  
-> 如果在恢复期间重建池（即响应组数据库为空），则还需要使用– OverwriteOwner 参数，而不管您是否使用相同的 FQDN。 如果不重建池，则无需使用 –OverwriteOwner 参数，但在将响应组导入回主池时，允许使用此参数。
+> 如果在恢复 (期间重建了池，也需要使用– OverwriteOwner 参数，即响应组数据库为空) ，无论您是否使用相同的 FQDN。 如果不重建池，则无需使用 –OverwriteOwner 参数，但在将响应组导入回主池时，允许使用此参数。
 
 
 
 </div>
 
-您只能为每个池定义一组应用程序级响应组配置设置。 这些设置包括默认的保持音乐配置、默认的保持音乐音频文件、代理回响宽限期和调用上下文配置。 若要查看这些配置设置，请运行 **Get-CsRgsConfiguration** cmdlet。 有关**CsRgsConfiguration** cmdlet 的详细信息，请参阅[CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)。
+您只能为每个池定义一组应用程序级响应组配置设置。 这些设置包括默认的保持音乐配置、默认的保持音乐音频文件、代理回响宽限期和调用上下文配置。 若要查看这些配置设置，请运行 **Get-CsRgsConfiguration** cmdlet。 有关 **CsRgsConfiguration** cmdlet 的详细信息，请参阅 [CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)。
 
 通过将 **Import-CsRgsConfiguration** cmdlet 与 –ReplaceExistingSettings 参数结合使用可将这些应用程序级别的设置从一个池传送至其他池，但这样做会覆盖目标池中的设置。
 
@@ -122,7 +124,7 @@ _**上次修改的主题：** 2012-11-01_
 
 下表是恢复响应组时所涉及步骤的概述。
 
-有关执行这些步骤的详细信息，请参阅[Lync Server 2013 中的响应组灾难恢复过程](lync-server-2013-response-group-disaster-recovery-procedures.md)。
+有关执行这些步骤的详细信息，请参阅 [Lync Server 2013 中的响应组灾难恢复过程](lync-server-2013-response-group-disaster-recovery-procedures.md)。
 
 ### <a name="response-group-disaster-recovery-steps"></a>响应组灾难恢复步骤
 
@@ -142,13 +144,13 @@ _**上次修改的主题：** 2012-11-01_
 <tbody>
 <tr class="odd">
 <td><p>中断前</p></td>
-<td><p>定期运行<strong>CsRgsConfiguration</strong> cmdlet，以在部署响应组应用程序的所有前端池中创建所有响应组配置的备份。</p></td>
+<td><p>定期运行 <strong>CsRgsConfiguration</strong> cmdlet，以在部署响应组应用程序的所有前端池中创建所有响应组配置的备份。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p></td>
 </tr>
 <tr class="even">
 <td><p>中断期间</p></td>
-<td><p>运行<strong>CsRgsConfiguration</strong> cmdlet，将备份的 Lync Server 响应组服务配置从主池导入到备份池。</p>
+<td><p>运行 <strong>CsRgsConfiguration</strong> cmdlet，将备份的 Lync Server 响应组服务配置从主池导入到备份池。</p>
 <div>
 
 > [!NOTE]  
@@ -161,7 +163,7 @@ _**上次修改的主题：** 2012-11-01_
 </tr>
 <tr class="odd">
 <td><p>导入后</p></td>
-<td><p>使用– ShowAll 参数（显示所有响应组）或– Owner 参数（仅显示导入的响应组）运行响应组 cmdlet，以验证是否已将所有响应组配置导入备份池。</p>
+<td><p>使用– ShowAll 参数 (运行响应组 cmdlet，以显示所有响应组) 或– Owner 参数 (以仅显示导入的响应组) 以验证是否已将所有响应组配置导入备份池。</p>
 <div>
 
 > [!IMPORTANT]  

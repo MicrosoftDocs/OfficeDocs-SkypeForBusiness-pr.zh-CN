@@ -12,20 +12,22 @@ ms:contentKeyID: 48185242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 057253527615164b4b8b22a1fa13e7ea48778ee1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d0aa4d6d60c57adb35086ce653cbd906f11c600
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193485"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530359"
 ---
+# <a name="traceroute-table-in-lync-server-2013"></a>Lync Server 2013 中的 TraceRoute 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="traceroute-table-in-lync-server-2013"></a>Lync Server 2013 中的 TraceRoute 表
+
 
 </div>
 
@@ -96,7 +98,7 @@ TraceRoute 表包含来自呼叫的路由信息。 此表是在 Microsoft Lync S
 <td><p><strong>IPAddressKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>IP 地址的唯一标识符。 IP 地址信息存储在<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 的 IPAddress 表中</a>。</p></td>
+<td><p>IP 地址的唯一标识符。 IP 地址信息存储在 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 的 IPAddress 表中</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RTT</strong></p></td>

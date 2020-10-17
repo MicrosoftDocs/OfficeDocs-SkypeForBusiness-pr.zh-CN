@@ -12,20 +12,22 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 570ed42bb2ff1d5b1f4ab58e9bbd9aad9159bef3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ede95ad504244fc5a97d62a074192a5270fbcdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214398"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530939"
 ---
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中对持久聊天服务器进行故障转移
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中对持久聊天服务器进行故障转移
+
 
 </div>
 
@@ -47,11 +49,11 @@ _**上次修改的主题：** 2014-02-05_
 
 该过程主要包含两个基本步骤：
 
-  - 恢复主持久聊天数据库（mgc）。
+  - 恢复主持久聊天数据库 (mgc) 。
 
   - 建立新的主数据库的镜像。
 
-持久聊天合规性数据库（mgccomp）未进行故障转移。 此数据库的内容具有临时性并将在合规性适配器处理数据时被清除。 作为持久聊天管理员，你的责任是正确管理适配器输出以避免数据丢失。
+持久聊天合规性数据库 (mgccomp) 未进行故障转移。 此数据库的内容具有临时性并将在合规性适配器处理数据时被清除。 作为持久聊天管理员，你的责任是正确管理适配器输出以避免数据丢失。
 
 <div>
 
@@ -69,13 +71,13 @@ _**上次修改的主题：** 2014-02-05_
 
 2.  从备份共享将任何未复制的备份文件复制到备份服务器的复制目标文件夹。
 
-3.  按顺序将任何未应用的事务日志备份应用到辅助数据库。 有关详细信息，请参阅在上https://go.microsoft.com/fwlink/p/?linkid=247428的 "如何：应用事务日志备份（transact-sql）"。
+3.  按顺序将任何未应用的事务日志备份应用到辅助数据库。 有关详细信息，请参阅中的 "how to： Apply a Transaction Log Backup (Transact-sql) " https://go.microsoft.com/fwlink/p/?linkid=247428 。
 
 4.  使备份 mgc 数据库联机。使用在步骤 1b 中打开的查询窗口，执行下列操作：
     
     1.  如果包含以下项，将断开与 mgc 数据库的所有连接：
         
-        1.  **exec sp\_who2** ，用于识别与 mgc 数据库的连接。
+        1.  **exec sp \_ who2** ，用于识别与 mgc 数据库的连接。
         
         2.  **kill \<spid\> **以结束这些连接。
     
@@ -83,13 +85,13 @@ _**上次修改的主题：** 2014-02-05_
         
         1.  **使用恢复还原数据库 mgc**。
 
-5.  在 Lync Server 命令行管理程序中，使用命令**集 CsPersistentChatState-Identity "service： atl-cs-001.litwareinc.com" – PoolState FailedOver**故障转移到 mgc 备份数据库。 请务必将持久聊天池的完全限定域名替换为 atl-cs-001.litwareinc.com。
+5.  在 Lync Server 命令行管理程序中，使用命令 **集 CsPersistentChatState-Identity "service： atl-cs-001.litwareinc.com" – PoolState FailedOver** 故障转移到 mgc 备份数据库。 请务必将持久聊天池的完全限定域名替换为 atl-cs-001.litwareinc.com。
     
     mgc 备份数据库现在充当主数据库。
 
-6.  在 Lync Server 命令行管理程序中，使用**CsMirrorDatabase** cmdlet 为现在用作主数据库的备份数据库建立高可用性镜像。 使用备份数据库实例作为主数据库并使用备份镜像数据库实例作为镜像实例。 此镜像与最初在安装期间为主数据库配置的镜像不同。 有关详细信息，请参阅在[Lync server 2013 中部署 SQL 镜像以实现后端服务器高可用性](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)一节中的 "使用 Lync Server 命令行管理程序 cmdlet" 一节。
+6.  在 Lync Server 命令行管理程序中，使用 **CsMirrorDatabase** cmdlet 为现在用作主数据库的备份数据库建立高可用性镜像。 使用备份数据库实例作为主数据库并使用备份镜像数据库实例作为镜像实例。 此镜像与最初在安装期间为主数据库配置的镜像不同。 有关详细信息，请参阅在 [Lync server 2013 中部署 SQL 镜像以实现后端服务器高可用性](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)一节中的 "使用 Lync Server 命令行管理程序 cmdlet" 一节。
 
-7.  设置持久聊天服务器活动服务器。 在 Lync Server 命令行管理程序中，使用**set-cspersistentchatactiveserver** cmdlet 设置活动服务器的列表。
+7.  设置持久聊天服务器活动服务器。 在 Lync Server 命令行管理程序中，使用 **set-cspersistentchatactiveserver** cmdlet 设置活动服务器的列表。
     
     <div>
     

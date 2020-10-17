@@ -12,20 +12,22 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ec702870cffcd6801cf125d2cc130dbe15b9481
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a4be9b6d89f58be67eb341d051d025b795f7feb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184075"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530559"
 ---
+# <a name="planning-for-response-groups-in-lync-server-2013"></a>在 Lync Server 2013 中规划响应组
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-response-groups-in-lync-server-2013"></a>在 Lync Server 2013 中规划响应组
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42184075"
 
 _**上次修改的主题：** 2012-06-19_
 
-如果您的组织具有对特定类型的呼叫（如客户服务、内部技术支持或部门的常规电话支持）进行应答和管理的人员组，则可以部署 Lync Server 响应组应用程序来管理这些类型。的呼叫。 响应组应用程序将传入呼叫路由并排队给称为代理的指定人员。 您可以通过响应组来增加电话支持服务的使用并降低运行这些服务的开销。 本节介绍了响应组的规划注意事项。
+如果您的组织具有对特定类型的呼叫（如客户服务、内部技术支持或部门的常规电话支持）进行应答和管理的人员组，则可以部署 Lync Server 响应组应用程序来管理这些类型的呼叫。 响应组应用程序将传入呼叫路由并排队给称为代理的指定人员。 您可以通过响应组来增加电话支持服务的使用并降低运行这些服务的开销。 本节介绍了响应组的规划注意事项。
 
 <div>
 

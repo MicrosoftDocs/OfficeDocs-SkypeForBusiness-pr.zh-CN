@@ -12,20 +12,22 @@ ms:contentKeyID: 48184674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 037625d0efea2ae53cd4923a0a7cccce4a890098
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b5dac5c800f2e11829940445f9ebfe28c1a95c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204538"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531689"
 ---
+# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>在 Lync Server 2013 中通知配置先决条件和角色
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>在 Lync Server 2013 中通知配置先决条件和角色
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2013-02-25_
 
 "通知" 是企业语音呼叫管理功能。 本主题介绍在配置通知以及执行配置任务所需的角色分配之前需要执行的操作。
 
-本节假定您已阅读与公告相关的规划文档（请参阅[在 Lync Server 2013 中规划呼叫管理功能](lync-server-2013-planning-for-call-management-features.md)）。
+本节假定您已阅读与通知 (相关的规划文档。请参阅 [在 Lync Server 2013) 中规划呼叫管理功能](lync-server-2013-planning-for-call-management-features.md) 。
 
 <div>
 
@@ -69,19 +71,19 @@ _**上次修改的主题：** 2013-02-25_
 
 配置通知应用程序需要以下管理角色之一：
 
-  - **CsVoiceAdministrator**   此管理员角色可以创建、配置和管理所有与语音相关的设置和策略，包括通知设置。
+  - **CsVoiceAdministrator**    此管理员角色可以创建、配置和管理所有与语音相关的设置和策略，包括通知设置。
 
-  - **CsServerAdministrator**   此管理员角色可以管理和监视服务器和服务并对其进行故障排除，并配置所有通知设置。
+  - **CsServerAdministrator**    此管理员角色可以管理和监视服务器和服务并对其进行故障排除，并配置所有通知设置。
 
-  - **CsAdministrator**   此管理员角色可以执行所有管理任务并修改所有设置。
+  - **CsAdministrator**    此管理员角色可以执行所有管理任务并修改所有设置。
 
-  - **CsViewOnlyAdministrator**   此管理员角色可以查看部署以监视部署运行状况。
+  - **CsViewOnlyAdministrator**    此管理员角色可以查看部署以监视部署运行状况。
 
 <div>
 
 
 > [!NOTE]  
-> 有关管理用户权限的详细信息，请参阅规划文档中的在<A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</A>。
+> 有关管理用户权限的详细信息，请参阅规划文档中的在 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</A> 。
 
 
 

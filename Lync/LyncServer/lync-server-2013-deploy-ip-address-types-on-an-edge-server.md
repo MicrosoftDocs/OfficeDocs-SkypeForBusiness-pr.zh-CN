@@ -12,20 +12,22 @@ ms:contentKeyID: 48184435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 400a7ab688b3fae4c7bded753341d4d04d0fd835
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 210819547a78905865ebe2dca09d03ab597f33af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179609"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531419"
 ---
+# <a name="deploy-ip-address-types-on-an-edge-server-for-lync-server-2013"></a>为 Lync Server 2013 在边缘服务器上部署 IP 地址类型
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-an-edge-server-for-lync-server-2013"></a>为 Lync Server 2013 在边缘服务器上部署 IP 地址类型
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-06-14_
 
 ## <a name="to-deploy-ip-address-types-on-an-edge-server"></a>在边缘服务器上部署 IP 地址类型
 
-1.  在拓扑生成器中，在 "**边缘池**" 下，右键单击池内的服务器，然后选择 "**编辑属性**"。 （或者，选择服务器，然后从 "**操作**" 菜单中单击 "**编辑属性**"。）
+1.  在拓扑生成器中，在 " **边缘池**" 下，右键单击池内的服务器，然后选择 " **编辑属性**"。  (或者，选择服务器，然后从 "**操作**" 菜单中单击 "**编辑属性**"。 ) 
 
 2.  在“编辑属性”**** 窗口中，选择要支持的 IP 地址配置。下图显示用于内部接口和外部接口的双协议栈配置。
     

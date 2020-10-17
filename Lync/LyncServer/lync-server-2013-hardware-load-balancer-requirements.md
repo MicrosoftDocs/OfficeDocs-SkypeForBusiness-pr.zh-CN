@@ -12,20 +12,22 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb8c3ff97930411cb8d679054015ffc18ab3ce2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c4aac657dd1e472068474a3a70d17f1a2a38c63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191685"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530869"
 ---
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Lync Server 2013 的硬件负载平衡器要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Lync Server 2013 的硬件负载平衡器要求
+
 
 </div>
 
@@ -69,13 +71,13 @@ Lync Server 2013 扩展的合并边缘拓扑经过优化，用于新部署的 DN
 
 
 > [!NOTE]  
-> Lync Server 2013 不支持直接服务器返回（DSR） NAT。
+> Lync Server 2013 不支持直接服务器返回 (DSR) NAT。
 
 
 
 </div>
 
-若要确定您的硬件负载平衡器是否支持 Lync Server 2013 所需的必要功能，请参阅 at [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)中的 "Lync Server 2010 负载平衡器合作伙伴"。
+若要确定您的硬件负载平衡器是否支持 Lync Server 2013 所需的必要功能，请参阅 at 中的 "Lync Server 2010 负载平衡器合作伙伴" [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) 。
 
 <div>
 
@@ -113,7 +115,7 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 
 对于**不使用**基于 Cookie 的相关性的部署：
 
-  - 在端口 4443 的反向代理发布规则上，将“转发主机头”**** 设置为 True。 这可确保转发原始 URL。
+  - 在端口 4443 的反向代理发布规则上，将“转发主机头”**** 设置为 True。这可确保转发原始 URL。
 
 对于**将使用**基于 Cookie 的相关性的部署：
 
@@ -143,7 +145,7 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 
 
 > [!WARNING]  
-> F5 硬件负载平衡器具有一个名为 OneConnect 的功能，这可确保一个 TCP 连接中的每个请求是单独进行负载平衡的。如果部署的是移动设备，请确保您的硬件负载平衡器供应商支持这一相同功能。最新的 Apple iOS 移动应用程序要求传输层安全性 (TLS) 1.2 版。F5 提供专门针对这一要求的设置。<BR>有关第三方硬件负载平衡器的详细信息，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> F5 硬件负载平衡器具有一个名为 OneConnect 的功能，这可确保一个 TCP 连接中的每个请求是单独进行负载平衡的。如果部署的是移动设备，请确保您的硬件负载平衡器供应商支持这一相同功能。最新的 Apple iOS 移动应用程序要求传输层安全性 (TLS) 1.2 版。F5 提供专门针对这一要求的设置。<BR>有关第三方硬件负载平衡器的详细信息，请参阅 <A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -151,7 +153,7 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 
 以下是控制器和前端池 Web 服务的硬件负载平衡器要求：
 
-  - 对于内部 Web 服务 Vip，请设置\_硬件负载平衡器上的源地址暂留（内部端口80，443）。 对于 Lync Server 2013，源\_地址暂留意味着来自单个 IP 地址的多个连接将始终发送到一台服务器，以维护会话状态。
+  - 对于内部 Web 服务 Vip，请设置 \_ 硬件负载平衡器上的源地址持久性 (内部端口80、443) 。 对于 Lync Server 2013，源 \_ 地址暂留意味着来自单个 IP 地址的多个连接将始终发送到一台服务器，以维护会话状态。
 
   - 使用 TCP 空闲超时 1800 秒。
 
@@ -161,7 +163,7 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 
 
 > [!IMPORTANT]  
-> 有关硬件负载平衡器配置的进一步阅读，请<A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">在 Lync Server 2013 中查看带硬件负载平衡器的端口摘要-扩展的合并边缘</A>。
+> 有关硬件负载平衡器配置的进一步阅读，请 <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">在 Lync Server 2013 中查看带硬件负载平衡器的端口摘要-扩展的合并边缘</A>。
 
 
 
@@ -189,19 +191,19 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Web App （内部和外部用户）</p>
+<td><p>Lync Web App (内部和外部用户) </p>
 <p>移动设备（内部和外部用户）</p></td>
 <td><p>无相关性</p></td>
 <td><p>源地址相关性</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Web App （仅限外部用户）</p>
+<td><p>仅 (外部用户) 的 Lync Web App</p>
 <p>移动设备（内部和外部用户）</p></td>
 <td><p>无相关性</p></td>
 <td><p>源地址相关性</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Web App （仅限内部用户）</p>
+<td><p>Lync Web App (仅限内部用户) </p>
 <p>移动设备（未部署）</p></td>
 <td><p>无相关性</p></td>
 <td><p>源地址相关性</p></td>
@@ -216,7 +218,7 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 
 ## <a name="port-monitoring-for-hardware-load-balancers"></a>硬件负载平衡器的端口监控
 
-在硬件负载平衡器上定义端口监控来确定特定服务何时由于硬件或通信故障而不再可用。 例如，如果前端服务器服务（RTCSRV）因前端服务器或前端池出现故障而停止，则 HLB 监视还应停止接收 Web 服务上的流量。 可在 HLB 上实施端口监控来监控以下各项：
+在硬件负载平衡器上定义端口监控来确定特定服务何时由于硬件或通信故障而不再可用。 例如，如果前端服务器服务 (RTCSRV) 因前端服务器或前端池发生故障而停止，则 HLB 监视还应停止接收 Web 服务的流量。 可在 HLB 上实施端口监控来监控以下各项：
 
 ### <a name="front-end-server-user-pool--hlb-internal-interface"></a>前端服务器用户池– HLB 内部接口
 
@@ -234,12 +236,12 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 <th>节点端口</th>
 <th>节点计算机/监视器</th>
 <th>持久性配置文件</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;池&gt;web-int_mco_443_vs</p>
+<td><p>&lt;池 &gt; web-int_mco_443_vs</p>
 <p>443</p></td>
 <td><p>443</p></td>
 <td><p>前端</p>
@@ -248,7 +250,7 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 <td><p>IP-HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;池&gt;web-int_mco_80_vs</p>
+<td><p>&lt;池 &gt; web-int_mco_80_vs</p>
 <p>80</p></td>
 <td><p>80</p></td>
 <td><p>前端</p>
@@ -276,12 +278,12 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 <th>节点端口</th>
 <th>节点计算机/监视器</th>
 <th>持久性配置文件</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;池&gt;web_mco_443_vs</p>
+<td><p>&lt;池 &gt; web_mco_443_vs</p>
 <p>443</p></td>
 <td><p>4443</p></td>
 <td><p>前端</p>
@@ -290,7 +292,7 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 <td><p>IP-HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;池&gt;web_mco_80_vs</p>
+<td><p>&lt;池 &gt; web_mco_80_vs</p>
 <p>80</p></td>
 <td><p>8080</p></td>
 <td><p>前端</p>

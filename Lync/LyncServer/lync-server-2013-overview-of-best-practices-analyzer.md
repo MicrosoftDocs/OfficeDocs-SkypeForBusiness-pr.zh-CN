@@ -12,20 +12,22 @@ ms:contentKeyID: 48185364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c13554027a1e75bc28943478a883b72beeec7419
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4dd3cda0375c7c7e9d15f2ecd31b47a1dee587c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216339"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530719"
 ---
+# <a name="overview-of-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 中的最佳实践分析工具概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 中的最佳实践分析工具概述
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-19_
 
 您可以使用 Lync Server 2013 和最佳实践分析程序来识别和解决 Lync Server 2013 部署中的问题。 Lync Server 2013，最佳实践分析工具会收集 Lync Server 2013 组件的配置信息。
 
-通过适当的网络访问，最佳实践分析工具可以检查运行 Active Directory 域服务、Exchange Server 统一消息（UM）和 Lync Server 2013 的服务器。 您可以使用最佳做法分析器 Best Practices Analyzer 执行以下操作：
+通过适当的网络访问，最佳实践分析工具可以检查运行 Active Directory 域服务、Exchange Server 统一消息 (UM) 和 Lync Server 2013 的服务器。 您可以使用最佳做法分析器 Best Practices Analyzer 执行以下操作：
 
   - 主动执行检查，以验证是否按照建议的最佳做法设置配置。
 
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2012-09-19_
 
 
 > [!NOTE]  
-> Lync Server 2013，最佳实践分析工具仅收集 Lync Server 2013 组件中的配置信息。 您可以使用该工具的早期版本扫描以前的环境。 有关详细信息，请参阅<A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">在 Lync Server 2013 中运行最佳实践分析工具的要求</A>。
+> Lync Server 2013，最佳实践分析工具仅收集 Lync Server 2013 组件中的配置信息。 您可以使用该工具的早期版本扫描以前的环境。 有关详细信息，请参阅 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">在 Lync Server 2013 中运行最佳实践分析工具的要求</A>。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 617503a26a326f9fa089f3ee2de8a5163765920f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ed57a78637639d5e6402f88b7909114f3aabce7a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200075"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531289"
 ---
+# <a name="deploying-branch-sites-in-lync-server-2013"></a>在 Lync Server 2013 中部署分支站点
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-branch-sites-in-lync-server-2013"></a>在 Lync Server 2013 中部署分支站点
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-09-21_
 
 具有 Survivable 分支设备或 Survivable 分支服务器的分支站点在广域网或分支服务器上的工作方式比不包含这些解决方案中的分支站点的时间更具弹性。 例如，在部署了 Survivable 分支机构或 Survivable 分支服务器的站点中，如果将分支站点连接到中心站点的网络处于关闭状态，则用户仍可以发出和接收 PSTN 呼叫。 实现分支站点恢复的另一种方法是在分支站点上使用具有完全规模的 Lync Server 部署的 PSTN 网关或 SIP 中继。
 
-若要详细了解哪个分支站点部署适合您的组织，包括先决条件和其他规划注意事项，请参阅规划文档中的在 lync server [2013 中规划 PSTN 连接](lync-server-2013-planning-for-pstn-connectivity.md)和[规划分支站点语音2013恢复](lync-server-2013-planning-for-branch-site-voice-resiliency.md)。
+若要详细了解哪个分支站点部署适合您的组织，包括先决条件和其他规划注意事项，请参阅规划文档中的在 lync server [2013 中规划 PSTN 连接](lync-server-2013-planning-for-pstn-connectivity.md) 和 [规划分支站点语音2013恢复](lync-server-2013-planning-for-branch-site-voice-resiliency.md) 。
 
 <div>
 

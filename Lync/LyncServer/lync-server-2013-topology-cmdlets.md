@@ -12,20 +12,22 @@ ms:contentKeyID: 48183942
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f10e2ce625a2a7a2a6877fbeab7ee3b298cd7b54
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 559bcaca41abb9b28be89baac2adee32ad10ddb0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193515"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530369"
 ---
+# <a name="topology-cmdlets-jn-lync-server-2013"></a>Jn Lync Server 2013 的拓扑 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topology-cmdlets-jn-lync-server-2013"></a>Jn Lync Server 2013 的拓扑 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42193515"
 
 _**上次修改的主题：** 2012-06-20_
 
-Microsoft Lync Server 2013 中包含的许多拓扑 cmdlet 都设计为与安装和拓扑生成器配合使用;因此，管理员很少会直接调用许多拓扑 cmdlet。 不过，有时管理员将需要使用这些 cmdlet;例如，在创建新的 Kerberos 帐户之后，您必须运行[enable-cstopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15)) cmdlet，以使更改生效。 此外，管理员很可能会运行[enable-cstopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15))和[CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))等 cmdlet，以帮助确保已正确安装 Lync Server 2013 并按预期方式工作。
+Microsoft Lync Server 2013 中包含的许多拓扑 cmdlet 都设计为与安装和拓扑生成器配合使用;因此，管理员很少会直接调用许多拓扑 cmdlet。 不过，有时管理员将需要使用这些 cmdlet;例如，在创建新的 Kerberos 帐户之后，您必须运行 [enable-cstopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15)) cmdlet，以使更改生效。 此外，管理员很可能会运行 [enable-cstopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15)) 和 [CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15)) 等 cmdlet，以帮助确保已正确安装 Lync Server 2013 并按预期方式工作。
 
 <div>
 

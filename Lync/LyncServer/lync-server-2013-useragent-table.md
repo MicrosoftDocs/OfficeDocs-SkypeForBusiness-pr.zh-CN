@@ -12,20 +12,22 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b9abca1aaaff164759f195f8f60de335e279335
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 32586ddbe4dd6fac410a859fa00a1710bbaa2b47
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530129"
 ---
+# <a name="useragent-table-in-lync-server-2013"></a>Lync Server 2013 中的 UserAgent 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="useragent-table-in-lync-server-2013"></a>Lync Server 2013 中的 UserAgent 表
+
 
 </div>
 
@@ -64,7 +66,7 @@ UserAgent 表是一个支持表，它存储参与数据库中记录的会话的�
 </tr>
 <tr class="even">
 <td><p><strong>UserAgent</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>独特</p></td>
 <td><p>用户代理字符串。</p></td>
 </tr>
@@ -77,7 +79,7 @@ UserAgent 表是一个支持表，它存储参与数据库中记录的会话的�
 <p>4为 Lync。</p>
 <p>8是 IP 电话。</p>
 <p>16为 Live Meeting 控制台。</p>
-<p>32是部署验证工具（DVT）。</p>
+<p>32是部署验证工具 (DVT) 。</p>
 <p>64是 Macintosh 计算机上的 Lync。</p>
 <p>128是 Office 通信服务器 2007 R2 助理。</p>
 <p>256是会议通知服务。</p>

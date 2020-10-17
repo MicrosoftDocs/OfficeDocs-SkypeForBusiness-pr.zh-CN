@@ -12,20 +12,22 @@ ms:contentKeyID: 48183769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d287ad680ff5956a27f7426c3fe7b2f177fbfa62
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b9102adc17b5177264cc3e4daa1329cced5d9fe4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529719"
 ---
+# <a name="active-directory-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42191295"
 
 _**上次修改的主题：** 2012-06-20_
 
-Active Directory cmdlet 通常由安装程序使用，且很少由管理员直接调用。 但是，管理员可以使用这些 cmdlet 为 Microsoft Lync Server 2013 准备（或 unprepare）域或林，并安装所需的 Active Directory 架构文件。
+Active Directory cmdlet 通常由安装程序使用，且很少由管理员直接调用。 但是，管理员可以使用这些 cmdlet 为 Microsoft Lync Server 2013 的域或林准备 (或 unprepare) ，并安装所需的 Active Directory 架构文件。
 
 <div>
 

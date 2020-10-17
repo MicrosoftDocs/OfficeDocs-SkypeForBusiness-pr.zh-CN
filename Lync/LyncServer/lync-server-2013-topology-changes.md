@@ -12,20 +12,22 @@ ms:contentKeyID: 49733756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac7cf9fe1bdabcba4b0b5fc1134f1835407041a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3979aa0725b632a1b5910c5f7e27b9a6a28245d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193525"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530389"
 ---
+# <a name="topology-changes-in-lync-server-2013"></a>Lync Server 2013 中的拓扑更改
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topology-changes-in-lync-server-2013"></a>Lync Server 2013 中的拓扑更改
+
 
 </div>
 
@@ -51,7 +53,7 @@ Lync Server 2013 的拓扑要求和注意事项与早期版本的拓扑要求和
 
 后端服务器充当用户和会议数据的备份存储，并且还是其他数据库（如响应组数据库）的主存储。
 
-这些改进还意味着规划和维护池的方式有了变化。 我们建议您的所有 Enterprise Edition 前端池至少包含三台前端服务器，以提供前端池体系结构设计的完整数量的副本。 此外，在将服务器添加到前端池、从服务器中删除服务器或升级服务器时，必须遵循某些过程。 有关详细信息，请参阅[Lync Server 2013 中的前端服务器、即时消息和状态的拓扑和组件](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)。
+这些改进还意味着规划和维护池的方式有了变化。 我们建议您的所有 Enterprise Edition 前端池至少包含三台前端服务器，以提供前端池体系结构设计的完整数量的副本。 此外，在将服务器添加到前端池、从服务器中删除服务器或升级服务器时，必须遵循某些过程。 有关详细信息，请参阅 [Lync Server 2013 中的前端服务器、即时消息和状态的拓扑和组件](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)。
 
 <div>
 

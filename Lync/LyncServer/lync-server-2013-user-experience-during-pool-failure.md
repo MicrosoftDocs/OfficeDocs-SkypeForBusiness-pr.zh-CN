@@ -12,20 +12,22 @@ ms:contentKeyID: 48185166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63bef718af5664c18ccedca7482e4ca0a0a7f95e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bd2d6733f2db3a988f604554df55a25f866f5099
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530189"
 ---
+# <a name="user-experience-during-pool-failure-in-lync-server-2013"></a>Lync Server 2013 中池发生故障期间的用户体验
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-experience-during-pool-failure-in-lync-server-2013"></a>Lync Server 2013 中池发生故障期间的用户体验
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-10-03_
 
 当受影响的用户登录到备份池时，可能会发生池故障回复，用户在故障回复期间将保持登录并正常运行。请注意，故障回复过程需要几分钟的时间才能完成。作为参考，对于用户数为 20,000 的池而言，预期最多需要 60 分钟。
 
-下表显示了有关在故障回复期间和之后如何影响 Lync 2013 客户端或 Microsoft Lync 2010 客户端的更多详细信息，以及其他池中的用户如何查看并与正在进行故障回复的池中的用户进行交互。 使用 Microsoft Office Communicator 2007 R2 客户端的用户在前端池完全故障恢复之前无法登录。
+下表显示了有关在故障回复期间和之后如何影响 Lync 2013 客户端或 Microsoft Lync 2010 客户端的更多详细信息，以及其他池中的用户如何查看并与正在进行故障回复的池中的用户进行交互。 使用 Microsoft Office Communicator 2007 R2 客户端的用户在前端池完全故障恢复之前无法登录。 ) 
 
 术语*受影响用户* 指从主池进行故障转移并由备份池提供服务的用户。根据定义，原来位于备份池上的任何用户不是受影响用户。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccd809e8c0670535723692fd35e05fd4230ddc67
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f22f26ae48835dee6028e5b41b79dd116d610a25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755776"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529809"
 ---
+# <a name="reset-call-admission-control"></a>重置呼叫允许控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reset-call-admission-control"></a>重置呼叫允许控制
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755776"
 
 _**上次修改的主题：** 2012-10-11_
 
-如果 Lync Server 2010 前端池承载呼叫允许控制（CAC），则必须先将 CAC 托管到 Lync Server 2013 池，然后才能删除 Lync Server 2010 前端池。
+如果 Lync Server 2010 前端池承载呼叫允许控制 (CAC) ，则必须将 CAC 托管到 Lync Server 2013 池，然后才能删除 Lync Server 2010 前端池。
 
 <div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2012-10-11_
 
 3.  在“呼叫允许控制设置”**** 下，确保选择“启用呼叫允许控制”****。
 
-4.  在 "**前端池" 下运行呼叫允许控制（CAC）**，选择要承载 CAC 的 Lync Server 2013 池，然后单击 **"确定"**。
+4.  在 "前端池" 下， **运行 "呼叫允许控制" (CAC) **，选择要承载 CAC 的 Lync Server 2013 池，然后单击 **"确定"**。
 
 5.  发布拓扑。
 

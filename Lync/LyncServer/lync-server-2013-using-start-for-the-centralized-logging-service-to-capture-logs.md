@@ -12,20 +12,22 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04614e970064f765e24b86b6e875d1fb284b3fbc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f43a2c86dcbd88f8e9af4ae54f302b4abc943fc0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212728"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529969"
 ---
+# <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>使用 Start 实现集中日志记录服务以在 Lync Server 2013 中捕获日志
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>使用 Start 实现集中日志记录服务以在 Lync Server 2013 中捕获日志
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42212728"
 
 _**上次修改的主题：** 2013-02-21_
 
-若要使用集中日志记录服务捕获跟踪日志，您需要发出命令以在一个或多个计算机和池上开始日志记录。 此外，还可以发出用于定义哪些计算机或池、要运行的方案（例如，AlwaysOn、另一个预定义方案或已创建的方案）的参数，以及要跟踪哪些 Lync Server 组件（例如，S4、SipStack）。
+若要使用集中日志记录服务捕获跟踪日志，您需要发出命令以在一个或多个计算机和池上开始日志记录。 此外，还会发出参数，用于定义哪些计算机或池、哪些应用场景 (例如，AlwaysOn、另一个预定义方案或已创建的方案) ，什么 Lync Server 组件 (例如，S4、SipStack) 跟踪。
 
 若要捕获正确的信息，您需要确保使用正确的方案收集与问题相关的信息。 在集中日志记录服务中，方案是基于一组服务器组件、日志记录级别和标志启用日志记录的概念，这比必须在每个服务器上定义这些元素的效率更高，更有用。 您只需定义一个方案并指定运行该方案，该方案即会在基础架构范围内的所有服务器和池中一致地运行。
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2013-02-21_
 
 
 > [!NOTE]
-> 如果您决定使用在命令行中可用的有限命令集，则可以通过键入<CODE>ClsController.exe</CODE>来获取有关 CLSController 的帮助。 默认情况下， <STRONG>ClsController</STRONG>安装在目录 C:\Program Files\Microsoft Lync Server 2013 \ ClsAgent 中。
+> 如果您决定使用在命令行中可用的有限命令集，则可以通过键入来获取有关 CLSController.exe 的帮助 <CODE>ClsController.exe</CODE> 。 默认情况下， <STRONG>ClsController.exe</STRONG> 安装在目录 C:\Program Files\Microsoft Lync Server 2013 \ ClsAgent 中。
 
 
 
@@ -57,7 +59,7 @@ _**上次修改的主题：** 2013-02-21_
 
 <div>
 
-## <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>使用基本命令在 Windows PowerShell 中运行 Search-csclslogging
+## <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>使用基本命令在 Windows PowerShell 中运行 Start-CsClsLogging
 
 1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
@@ -65,7 +67,7 @@ _**上次修改的主题：** 2013-02-21_
     
         Start-CsClsLogging -Scenario <name of scenario>
     
-    例如，若要启动**AlwaysOn**方案，请键入：
+    例如，若要启动 **AlwaysOn** 方案，请键入：
     
         Start-CsClsLogging -Scenario AlwaysOn
     
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2013-02-21_
     
 
     > [!NOTE]
-    > AlwaysOn 方案没有默认持续时间。 此方案将一直运行，直到您使用<STRONG>search-csclslogging</STRONG> cmdlet 显式停止它。 有关详细信息，请参阅 <A href="https://technet.microsoft.com/library/JJ619180(v=OCS.15)">Stop-CsClsLogging</A>。 对于所有其他方案，默认持续时间为4小时。
+    > AlwaysOn 方案没有默认持续时间。 此方案将一直运行，直到您使用 <STRONG>search-csclslogging</STRONG> cmdlet 显式停止它。 有关详细信息，请参阅 <A href="https://technet.microsoft.com/library/JJ619180(v=OCS.15)">Stop-CsClsLogging</A>。 对于所有其他方案，默认持续时间为4小时。
 
     
     </div>
@@ -84,14 +86,14 @@ _**上次修改的主题：** 2013-02-21_
     
 
     > [!NOTE]
-    > 可能需要一小段时间（30到60秒）才能运行这些命令，并从部署中的计算机接收返回的状态。
+    > 可能需要一小段时间 (30 到 60) 秒的时间，才能运行这些命令，并从部署中的计算机接收返回的状态。
 
     
     </div>
     
     ![运行 Search-csclslogging。](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "运行 Search-csclslogging。")
 
-4.  若要启动另一个方案，请使用**search-csclslogging** cmdlet 和要运行的其他方案的名称，如下所示（例如，方案**身份验证**）：
+4.  若要启动另一个方案，请使用 **search-csclslogging** cmdlet 和要运行的其他方案的名称，如下所示 (例如，方案 **身份验证**) ：
     
         Start-CsClsLogging -Scenario Authentication
     
@@ -99,7 +101,7 @@ _**上次修改的主题：** 2013-02-21_
     
 
     > [!IMPORTANT]
-    > 您可以随时在任何给定计算机上运行两个方案。 如果该命令在范围内是全局的，则部署中的所有计算机都将运行该方案或方案。 若要启动第三个方案，必须在要在其上运行新方案的计算机、池、站点或全局范围上停止日志记录。 如果已启动全局作用域，则可以在一个或多个计算机和池上停止对一个或两个方案的日志记录。 有关管理正在运行的方案的详细信息，请参阅<A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">在 Lync Server 2013 和 search-csclslogging 中使用集中日志记录服务的 "停止"</A> 。 <A href="https://technet.microsoft.com/library/JJ619180(v=OCS.15)"></A>
+    > 您可以随时在任何给定计算机上运行两个方案。 如果该命令在范围内是全局的，则部署中的所有计算机都将运行该方案或方案。 若要启动第三个方案，必须在要在其上运行新方案的计算机、池、站点或全局范围上停止日志记录。 如果已启动全局作用域，则可以在一个或多个计算机和池上停止对一个或两个方案的日志记录。 有关管理正在运行的方案的详细信息，请参阅<A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">在 Lync Server 2013 和 search-csclslogging 中使用集中日志记录服务的 "停止"</A> 。 <A href="https://technet.microsoft.com/library/JJ619180(v=OCS.15)">Stop-CsClsLogging</A>
 
     
     </div>
@@ -108,13 +110,13 @@ _**上次修改的主题：** 2013-02-21_
 
 <div>
 
-## <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>使用高级命令在 Windows PowerShell 中运行 Search-csclslogging
+## <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>使用高级命令在 Windows PowerShell 中运行 Start-CsClsLogging
 
 1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-2.  其他参数可用于管理日志记录命令。 您可以使用– Duration 调整应用场景运行的时间长度。 您还可以定义计算机（计算机完全限定的域名（Fqdn）的列表，由逗号或–池分隔，这是要运行日志记录的池的 Fqdn 的 Fqdn 列表（以逗号分隔）。
+2.  其他参数可用于管理日志记录命令。 您可以使用– Duration 调整应用场景运行的时间长度。 您还可以定义计算机、计算机完全限定的域名列表 (Fqdn) 以逗号分隔，或者是池，即要对其运行日志记录的池的 Fqdn 的 Fqdn 列表（以逗号分隔）。
     
-    为池 "pool01.contoso.net" 上的*UserReplicator*方案启动日志记录会话。 您还可以定义日志记录会话的持续时间为8小时。 为此，请键入：
+    为池 "pool01.contoso.net" 上的 *UserReplicator* 方案启动日志记录会话。 您还可以定义日志记录会话的持续时间为8小时。 为此，请键入：
     
         Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
     
