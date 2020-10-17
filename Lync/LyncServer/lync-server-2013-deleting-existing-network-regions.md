@@ -12,20 +12,22 @@ ms:contentKeyID: 49733815
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad0f1c88e7c0a1ec855a69ad75f834f0a8982221
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3a1c1e697e681eec4886dca9e942d9bc133b0f5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206718"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525399"
 ---
+# <a name="deleting-existing-network-regions-in-lync-server-2013"></a><span data-ttu-id="bd586-102">在 Lync Server 2013 中删除现有网络区域</span><span class="sxs-lookup"><span data-stu-id="bd586-102">Deleting existing network regions in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-existing-network-regions-in-lync-server-2013"></a><span data-ttu-id="c8ee0-102">在 Lync Server 2013 中删除现有网络区域</span><span class="sxs-lookup"><span data-stu-id="c8ee0-102">Deleting existing network regions in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,40 +37,40 @@ ms.locfileid: "42206718"
 
 <span> </span>
 
-<span data-ttu-id="c8ee0-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="c8ee0-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="bd586-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="bd586-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="c8ee0-104">网络区域将跨多个地理区域的网络的各个部分相互连接起来。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-104">A network region interconnects various parts of a network across multiple geographic areas.</span></span> <span data-ttu-id="c8ee0-105">每个网络区域都必须与中央站点关联。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-105">Every network region must be associated with a central site.</span></span> <span data-ttu-id="c8ee0-106">中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-106">The central site is the data center site on which the call admission control (CAC) bandwidth policy service is running.</span></span> <span data-ttu-id="c8ee0-107">您可以使用 Lync Server 控制面板配置网络区域。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-107">You can use Lync Server Control Panel to configure network regions.</span></span> <span data-ttu-id="c8ee0-108">网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-108">Network regions include settings that determine whether alternate paths through the Internet are allowed for audio and video connections.</span></span> <span data-ttu-id="c8ee0-109">在 Lync Server 控制面板中，您可以创建、修改或删除网络区域。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-109">From the Lync Server Control Panel, you can create, modify, or delete a network region.</span></span> <span data-ttu-id="c8ee0-110">使用此主题可删除现有网络区域。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-110">Use this topic to delete existing network regions.</span></span> <span data-ttu-id="c8ee0-111">有关创建或修改现有网络区域的详细信息，请参阅[在 Lync Server 2013 中创建或修改网络区域](lync-server-2013-creating-or-modifying-network-regions.md)。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-111">For details about creating or modifying existing network regions, see [Creating or modifying network regions in Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md).</span></span>
+<span data-ttu-id="bd586-104">网络区域将跨多个地理区域的网络的各个部分相互连接起来。</span><span class="sxs-lookup"><span data-stu-id="bd586-104">A network region interconnects various parts of a network across multiple geographic areas.</span></span> <span data-ttu-id="bd586-105">每个网络区域都必须与中央站点关联。</span><span class="sxs-lookup"><span data-stu-id="bd586-105">Every network region must be associated with a central site.</span></span> <span data-ttu-id="bd586-106">中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。</span><span class="sxs-lookup"><span data-stu-id="bd586-106">The central site is the data center site on which the call admission control (CAC) bandwidth policy service is running.</span></span> <span data-ttu-id="bd586-107">您可以使用 Lync Server 控制面板配置网络区域。</span><span class="sxs-lookup"><span data-stu-id="bd586-107">You can use Lync Server Control Panel to configure network regions.</span></span> <span data-ttu-id="bd586-108">网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。</span><span class="sxs-lookup"><span data-stu-id="bd586-108">Network regions include settings that determine whether alternate paths through the Internet are allowed for audio and video connections.</span></span> <span data-ttu-id="bd586-109">在 Lync Server 控制面板中，您可以创建、修改或删除网络区域。</span><span class="sxs-lookup"><span data-stu-id="bd586-109">From the Lync Server Control Panel, you can create, modify, or delete a network region.</span></span> <span data-ttu-id="bd586-110">使用此主题可删除现有网络区域。</span><span class="sxs-lookup"><span data-stu-id="bd586-110">Use this topic to delete existing network regions.</span></span> <span data-ttu-id="bd586-111">有关创建或修改现有网络区域的详细信息，请参阅 [在 Lync Server 2013 中创建或修改网络区域](lync-server-2013-creating-or-modifying-network-regions.md)。</span><span class="sxs-lookup"><span data-stu-id="bd586-111">For details about creating or modifying existing network regions, see [Creating or modifying network regions in Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md).</span></span>
 
 <div>
 
-## <a name="to-delete-a-network-region"></a><span data-ttu-id="c8ee0-112">删除网络区域</span><span class="sxs-lookup"><span data-stu-id="c8ee0-112">To delete a network region</span></span>
+## <a name="to-delete-a-network-region"></a><span data-ttu-id="bd586-112">删除网络区域</span><span class="sxs-lookup"><span data-stu-id="bd586-112">To delete a network region</span></span>
 
-1.  <span data-ttu-id="c8ee0-113">从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="bd586-113">从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="bd586-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="c8ee0-114">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-114">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="c8ee0-115">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-115">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="bd586-114">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="bd586-114">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="bd586-115">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="bd586-115">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="c8ee0-116">在左侧导航栏中，单击“网络配置”\*\*\*\*，然后单击“区域”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-116">In the left navigation bar, click **Network Configuration** and then click **Region**.</span></span>
+3.  <span data-ttu-id="bd586-116">在左侧导航栏中，单击“网络配置”\*\*\*\*，然后单击“区域”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bd586-116">In the left navigation bar, click **Network Configuration** and then click **Region**.</span></span>
 
-4.  <span data-ttu-id="c8ee0-117">在“区域”\*\*\*\* 页上，单击要删除的区域。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-117">On the **Region** page, click the region you want to delete.</span></span>
+4.  <span data-ttu-id="bd586-117">在“区域”\*\*\*\* 页上，单击要删除的区域。</span><span class="sxs-lookup"><span data-stu-id="bd586-117">On the **Region** page, click the region you want to delete.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="c8ee0-p103">可一次性删除多个区域。要执行此操作，请按住 Ctrl 键，同时选择多个区域。或者，要选择全部区域，请单击“编辑”<STRONG></STRONG>菜单中的“全选”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-p103">You can delete more than one region at a time. To do this, press CTRL and select multiple regions while holding down the CTRL key. Or, to select all regions, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
+    > <span data-ttu-id="bd586-p103">可一次性删除多个区域。要执行此操作，请按住 Ctrl 键，同时选择多个区域。或者，要选择全部区域，请单击“编辑”<STRONG></STRONG>菜单中的“全选”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="bd586-p103">You can delete more than one region at a time. To do this, press CTRL and select multiple regions while holding down the CTRL key. Or, to select all regions, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="c8ee0-121">在“编辑”\*\*\*\* 菜单上，单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-121">On the **Edit** menu, click **Delete**.</span></span>
+5.  <span data-ttu-id="bd586-121">在“编辑”\*\*\*\* 菜单上，单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bd586-121">On the **Edit** menu, click **Delete**.</span></span>
 
-6.  <span data-ttu-id="c8ee0-122">单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-122">Click **OK**.</span></span>
+6.  <span data-ttu-id="bd586-122">单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bd586-122">Click **OK**.</span></span>
     
     <div>
     
 
     > [!WARNING]  
-    > <span data-ttu-id="c8ee0-p104">如果网络区域与某个网络站点关联，则不能删除该网络区域。如果尝试删除与某个站点关联的区域，您将收到错误消息。要查看区域是否与任何站点关联，请选择相应的区域，然后单击“编辑”<STRONG></STRONG>菜单中的“显示详细信息”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="c8ee0-p104">A network region cannot be removed if it is associated with a network site. If you attempt to remove a region associated with a site you will receive an error message. To see if a region is associated with any sites, select the region and then click <STRONG>Show details</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
+    > <span data-ttu-id="bd586-p104">如果网络区域与某个网络站点关联，则不能删除该网络区域。如果尝试删除与某个站点关联的区域，您将收到错误消息。要查看区域是否与任何站点关联，请选择相应的区域，然后单击“编辑”<STRONG></STRONG>菜单中的“显示详细信息”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="bd586-p104">A network region cannot be removed if it is associated with a network site. If you attempt to remove a region associated with a site you will receive an error message. To see if a region is associated with any sites, select the region and then click <STRONG>Show details</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
     
     </div>
@@ -77,10 +79,10 @@ ms.locfileid: "42206718"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c8ee0-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c8ee0-126">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bd586-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bd586-126">See Also</span></span>
 
 
-[<span data-ttu-id="c8ee0-127">在 Lync Server 2013 中创建或修改网络区域</span><span class="sxs-lookup"><span data-stu-id="c8ee0-127">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)  
+[<span data-ttu-id="bd586-127">在 Lync Server 2013 中创建或修改网络区域</span><span class="sxs-lookup"><span data-stu-id="bd586-127">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)  
   
 
 </div>

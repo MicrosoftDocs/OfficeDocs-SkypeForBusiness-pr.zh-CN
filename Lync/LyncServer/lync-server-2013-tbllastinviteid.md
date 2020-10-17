@@ -12,20 +12,22 @@ ms:contentKeyID: 48183608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 702c754830a34a445b11da394fc15add20ab4b0b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a49682d5c154b154ddda6c5fd411905f5850722d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218268"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523789"
 ---
+# <a name="tbllastinviteid-in-lync-server-2013"></a><span data-ttu-id="2e5d7-102">Lync Server 2013 中的 tblLastInviteId</span><span class="sxs-lookup"><span data-stu-id="2e5d7-102">tblLastInviteId in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tbllastinviteid-in-lync-server-2013"></a><span data-ttu-id="4f759-102">Lync Server 2013 中的 tblLastInviteId</span><span class="sxs-lookup"><span data-stu-id="4f759-102">tblLastInviteId in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42218268"
 
 <span> </span>
 
-<span data-ttu-id="4f759-103">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="4f759-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="2e5d7-103">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="2e5d7-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="4f759-104">tblLastInviteId 包含上次为每个用户生成的并且在 tblPrincipalInvites 表中使用的邀请 ID。</span><span class="sxs-lookup"><span data-stu-id="4f759-104">tblLastInviteId contains the last invite ID that was generated (and used in the tblPrincipalInvites table) for each user.</span></span>
+<span data-ttu-id="2e5d7-104">tblLastInviteId 包含上次为每个用户生成的并且在 tblPrincipalInvites 表中使用的邀请 ID。</span><span class="sxs-lookup"><span data-stu-id="2e5d7-104">tblLastInviteId contains the last invite ID that was generated (and used in the tblPrincipalInvites table) for each user.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="4f759-105">Columns</span><span class="sxs-lookup"><span data-stu-id="4f759-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="2e5d7-105">列数</span><span class="sxs-lookup"><span data-stu-id="2e5d7-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,27 +51,27 @@ ms.locfileid: "42218268"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4f759-106">列</span><span class="sxs-lookup"><span data-stu-id="4f759-106">Column</span></span></th>
-<th><span data-ttu-id="4f759-107">类型</span><span class="sxs-lookup"><span data-stu-id="4f759-107">Type</span></span></th>
-<th><span data-ttu-id="4f759-108">说明</span><span class="sxs-lookup"><span data-stu-id="4f759-108">Description</span></span></th>
+<th><span data-ttu-id="2e5d7-106">列</span><span class="sxs-lookup"><span data-stu-id="2e5d7-106">Column</span></span></th>
+<th><span data-ttu-id="2e5d7-107">类型</span><span class="sxs-lookup"><span data-stu-id="2e5d7-107">Type</span></span></th>
+<th><span data-ttu-id="2e5d7-108">说明</span><span class="sxs-lookup"><span data-stu-id="2e5d7-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4f759-109">prinID</span><span class="sxs-lookup"><span data-stu-id="4f759-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="4f759-110">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="4f759-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="4f759-111">主体 ID。</span><span class="sxs-lookup"><span data-stu-id="4f759-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="2e5d7-109">prinID</span><span class="sxs-lookup"><span data-stu-id="2e5d7-109">prinID</span></span></p></td>
+<td><p><span data-ttu-id="2e5d7-110">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="2e5d7-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="2e5d7-111">主体 ID。</span><span class="sxs-lookup"><span data-stu-id="2e5d7-111">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f759-112">lastInviteID</span><span class="sxs-lookup"><span data-stu-id="4f759-112">lastInviteID</span></span></p></td>
-<td><p><span data-ttu-id="4f759-113">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="4f759-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="4f759-114">上次使用的邀请 ID。</span><span class="sxs-lookup"><span data-stu-id="4f759-114">Last used invite ID.</span></span></p></td>
+<td><p><span data-ttu-id="2e5d7-112">lastInviteID</span><span class="sxs-lookup"><span data-stu-id="2e5d7-112">lastInviteID</span></span></p></td>
+<td><p><span data-ttu-id="2e5d7-113">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="2e5d7-113">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="2e5d7-114">上次使用的邀请 ID。</span><span class="sxs-lookup"><span data-stu-id="2e5d7-114">Last used invite ID.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="4f759-115">Keys</span><span class="sxs-lookup"><span data-stu-id="4f759-115">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="2e5d7-115">Keys</span><span class="sxs-lookup"><span data-stu-id="2e5d7-115">Keys</span></span>
 
 <table>
 <colgroup>
@@ -78,18 +80,18 @@ ms.locfileid: "42218268"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4f759-116">列</span><span class="sxs-lookup"><span data-stu-id="4f759-116">Column</span></span></th>
-<th><span data-ttu-id="4f759-117">说明</span><span class="sxs-lookup"><span data-stu-id="4f759-117">Description</span></span></th>
+<th><span data-ttu-id="2e5d7-116">列</span><span class="sxs-lookup"><span data-stu-id="2e5d7-116">Column</span></span></th>
+<th><span data-ttu-id="2e5d7-117">说明</span><span class="sxs-lookup"><span data-stu-id="2e5d7-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4f759-118">prinID</span><span class="sxs-lookup"><span data-stu-id="4f759-118">prinID</span></span></p></td>
-<td><p><span data-ttu-id="4f759-119">主键。</span><span class="sxs-lookup"><span data-stu-id="4f759-119">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="2e5d7-118">prinID</span><span class="sxs-lookup"><span data-stu-id="2e5d7-118">prinID</span></span></p></td>
+<td><p><span data-ttu-id="2e5d7-119">主键。</span><span class="sxs-lookup"><span data-stu-id="2e5d7-119">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f759-120">prinID</span><span class="sxs-lookup"><span data-stu-id="4f759-120">prinID</span></span></p></td>
-<td><p><span data-ttu-id="4f759-121">其查找包含在 tblPrincipal.prinID 表中的外键。</span><span class="sxs-lookup"><span data-stu-id="4f759-121">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="2e5d7-120">prinID</span><span class="sxs-lookup"><span data-stu-id="2e5d7-120">prinID</span></span></p></td>
+<td><p><span data-ttu-id="2e5d7-121">其查找包含在 tblPrincipal.prinID 表中的外键。</span><span class="sxs-lookup"><span data-stu-id="2e5d7-121">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -97,10 +99,10 @@ ms.locfileid: "42218268"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4f759-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4f759-122">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2e5d7-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2e5d7-122">See Also</span></span>
 
 
-[<span data-ttu-id="4f759-123">Lync Server 2013 中的 tblPrincipalInvites</span><span class="sxs-lookup"><span data-stu-id="4f759-123">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)  
+[<span data-ttu-id="2e5d7-123">Lync Server 2013 中的 tblPrincipalInvites</span><span class="sxs-lookup"><span data-stu-id="2e5d7-123">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)  
   
 
 </div>
