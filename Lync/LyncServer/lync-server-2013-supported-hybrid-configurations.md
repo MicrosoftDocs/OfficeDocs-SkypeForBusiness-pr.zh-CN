@@ -12,20 +12,22 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34a73d343375f53acf7f1b7383efb05dd63b9a64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: db6f415b373e8271f771510d925adef1ae672ced
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208198"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524049"
 ---
+# <a name="supported-lync-server-2013-hybrid-configurations"></a>支持的 Lync Server 2013 混合配置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-lync-server-2013-hybrid-configurations"></a>支持的 Lync Server 2013 混合配置
+
 
 </div>
 
@@ -64,18 +66,18 @@ _**上次修改的主题：** 2016-05-10_
 <td><p><strong>Lync Server 2013 本地</strong></p></td>
 <td><ul>
 <li><p>Outlook 中的 IM/状态</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-im-and-presence.md">Lync Server 2013 中的 IM 和状态</a></p></li>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-im-and-presence.md">Lync Server 2013 中的 IM 和状态</a></p></li>
 <li><p>通过 Outlook 安排和加入联机会议</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013</a></p></li>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013</a></p></li>
 <li><p>Outlook Web App 中的 IM/状态</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-configuring-lync-server-in-a-cross-premises-environment.md">在跨界环境中配置 Microsoft Lync Server 2013</a></p></li>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-configuring-lync-server-in-a-cross-premises-environment.md">在跨界环境中配置 Microsoft Lync Server 2013</a></p></li>
 <li><p>通过 Outlook Web App 安排和加入联机会议</p></li>
 <li><p>移动客户端中的 IM/状态</p></li>
 <li><p>在移动客户端中加入联机会议</p>
 <p>有关详细信息，请参阅<a href="lync-server-2013-deploying-mobility.md">在 Lync Server 2013 中部署移动</a>功能</p></li>
 <li><p>基于 Outlook 日历的忙/闲信息发布状态</p></li>
-<li><p>联系人列表（通过统一联系人存储区）</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">配置 Microsoft Lync Server 2013 以使用统一的联系人存储库</a></p>
+<li><p>通过统一联系人存储 (联系人列表) </p>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">配置 Microsoft Lync Server 2013 以使用统一的联系人存储库</a></p>
 <div>
 
 > [!NOTE]  
@@ -84,7 +86,7 @@ _**上次修改的主题：** 2016-05-10_
 
 </div></li>
 <li><p>Lync 2013 客户端和 Lync Web App 中的高分辨率联系人照片。</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">在 Microsoft Lync Server 2013 中配置高分辨率照片的使用</a></p>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">在 Microsoft Lync Server 2013 中配置高分辨率照片的使用</a></p>
 <div>
 
 > [!NOTE]  
@@ -95,8 +97,8 @@ _**上次修改的主题：** 2016-05-10_
 <li><p>会议委派</p>
 <p>仅当两个用户在同一个林中托管联机，或者两者都驻留在本地时受支持。</p></li>
 <li><p>错过的对话历史记录和呼叫日志将写入用户的 exchange 邮箱</p></li>
-<li><p>在 Exchange 中存档内容（IM 和会议）</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 中存档的部署清单</a></p>
+<li><p>将内容存档 (IM 和会议) 在 Exchange 中</p>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 中存档的部署清单</a></p>
 <div>
 
 > [!NOTE]  
@@ -113,20 +115,20 @@ _**上次修改的主题：** 2016-05-10_
 
 </div></li>
 <li><p>语音邮件</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md">部署本地 EXCHANGE UM 以提供 Lync Server 2013 语音邮件</a></p></li>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md">部署本地 EXCHANGE UM 以提供 Lync Server 2013 语音邮件</a></p></li>
 </ul></td>
 <td><ul>
 <li><p>Outlook 中的 IM/状态</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">配置本地 Lync Server 2013 与 Exchange Online 集成</a></p></li>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">配置本地 Lync Server 2013 与 Exchange Online 集成</a></p></li>
 <li><p>通过 Outlook 安排和加入联机会议</p></li>
 <li><p>OWA 中的 IM/状态</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">配置本地 Lync Server 2013 与 Exchange Online 集成</a></p></li>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">配置本地 Lync Server 2013 与 Exchange Online 集成</a></p></li>
 <li><p>从 Outlook Web App 安排和加入联机会议</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">配置本地 Lync Server 2013 与 Exchange Online 集成</a></p></li>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">配置本地 Lync Server 2013 与 Exchange Online 集成</a></p></li>
 <li><p>移动客户端中的 IM/状态</p></li>
 <li><p>在移动客户端中加入联机会议</p></li>
 <li><p>基于 Outlook 日历的忙/闲信息发布状态</p></li>
-<li><p>联系人列表（通过统一联系人存储区）。 有关详细信息，请参阅<a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">配置 Microsoft Lync Server 2013 以使用统一的联系人存储库</a></p>
+<li><p>通过统一联系人存储)  (联系人列表。 有关详细信息，请参阅 <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">配置 Microsoft Lync Server 2013 以使用统一的联系人存储库</a></p>
 <div>
 
 > [!NOTE]  
@@ -135,14 +137,14 @@ _**上次修改的主题：** 2016-05-10_
 
 </div></li>
 <li><p>Lync 2013 客户端和 Lync Web App 中的高分辨率联系人照片。</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">在 Microsoft Lync Server 2013 中配置高分辨率照片的使用</a>。</p></li>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">在 Microsoft Lync Server 2013 中配置高分辨率照片的使用</a>。</p></li>
 <li><p>会议委派</p>
 <p>仅当两个用户在同一个林中托管联机，或者两者都驻留在本地时受支持。</p></li>
 <li><p>错过的对话历史记录和呼叫日志将写入用户的 exchange 邮箱</p></li>
-<li><p>在 Exchange 中存档内容（IM 和会议）。</p>
-<p>有关详细信息，请参阅<a href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 中存档的部署清单</a></p></li>
-<li><p>搜索存档的内容。 有关详细信息，请参阅<a href="https://go.microsoft.com/fwlink/p/?linkid=285448">Configure Exchange For SharePoint 电子数据展示中心</a></p></li>
-<li><p>语音邮件。 有关详细信息，请参阅<a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">在托管 EXCHANGE UM 上提供 Lync Server 2013 用户语音邮件</a></p></li>
+<li><p>将内容存档 (IM 和会议) 在 Exchange 中。</p>
+<p>有关详细信息，请参阅 <a href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 中存档的部署清单</a></p></li>
+<li><p>搜索存档的内容。 有关详细信息，请参阅 <a href="https://go.microsoft.com/fwlink/p/?linkid=285448">Configure Exchange For SharePoint 电子数据展示中心</a></p></li>
+<li><p>语音邮件。 有关详细信息，请参阅 <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">在托管 EXCHANGE UM 上提供 Lync Server 2013 用户语音邮件</a></p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -174,7 +176,7 @@ _**上次修改的主题：** 2016-05-10_
 <li><p>在移动客户端中加入联机会议</p></li>
 <li><p>基于 Outlook 日历的忙/闲信息发布状态</p></li>
 <li><p>错过的对话历史记录和呼叫日志将写入用户的 exchange 邮箱</p></li>
-<li><p>联系人列表（通过统一联系人存储区）</p>
+<li><p>通过统一联系人存储 (联系人列表) </p>
 <div>
 
 > [!NOTE]  
@@ -185,7 +187,7 @@ _**上次修改的主题：** 2016-05-10_
 <li><p>Lync 2013 客户端和 Lync Web App 中的高分辨率联系人照片</p></li>
 <li><p>会议委派</p>
 <p>仅当两个用户在同一个林中托管联机，或者两者都驻留在本地时受支持。</p></li>
-<li><p>在 Exchange 中存档内容（IM 和会议）</p></li>
+<li><p>将内容存档 (IM 和会议) 在 Exchange 中</p></li>
 <li><p>搜索存档的内容</p></li>
 <li><p>语音邮件</p></li>
 </ul></td>

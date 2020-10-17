@@ -12,20 +12,22 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b25a989913db4e76b306eaaf7efba38612a2315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2878f47fcace98bbd9e156f24c2b87e85faf728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186865"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525229"
 ---
+# <a name="introduction-to-lync-server-2013"></a>Lync Server 2013 简介
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="introduction-to-lync-server-2013"></a>Lync Server 2013 简介
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2013-10-07_
 
 Lync Server 2013 及其客户端软件（如 Lync 2013）使用户能够以新的方式连接并保持连接状态，而不考虑其物理位置。 Lync 和 Lync Server 将人们在单个客户端界面中进行通信的不同方法组合在一起，作为一个统一的平台进行部署，并通过单个管理基础结构进行管理。
 
-此表和以下各节说明了 Lync Server 为您的用户提供的主要功能集或*工作负荷*。
+此表和以下各节说明了 Lync Server 为您的用户提供的主要功能集或 *工作负荷*。
 
 
 <table>
@@ -50,7 +52,7 @@ Lync Server 2013 及其客户端软件（如 Lync 2013）使用户能够以新�
 <thead>
 <tr class="header">
 <th>Workload</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -63,7 +65,7 @@ Lync Server 2013 及其客户端软件（如 Lync 2013）使用户能够以新�
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
+> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证 ( "PIC USL" ) 不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
 > <LI>
 > <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力因 Yahoo！中的支持而受到了支持，其下凸的底层协议。</P>
 > <LI>
@@ -75,22 +77,22 @@ Lync Server 2013 及其客户端软件（如 Lync 2013）使用户能够以新�
 </tr>
 <tr class="even">
 <td><p>会议</p></td>
-<td><p>Lync Server 包括对计划会议和即席会议的 IM 会议、音频会议、web 会议、视频会议和应用程序共享的支持。 单一客户端支持所有这些会议类型。 Lync Server 还支持电话拨入式会议，以便公共交换电话网络（PSTN）电话的用户可以参与会议的音频部分。</p>
+<td><p>Lync Server 包括对计划会议和即席会议的 IM 会议、音频会议、web 会议、视频会议和应用程序共享的支持。 单一客户端支持所有这些会议类型。 Lync Server 还支持电话拨入式会议，以便公共交换电话网络的用户 (PSTN) 电话可以参与会议的音频部分。</p>
 <p>会议可以实时进行无缝地更改和发展。例如，单个会议可从一些用户之间的即时消息开始，并在无需中断对话流的情况下，即时轻松地升级到具有桌面共享和更多受众的音频会议。</p></td>
 </tr>
 <tr class="odd">
 <td><p>企业语音</p></td>
-<td><p><em>企业语音</em>是 Lync Server 中的 "语音 Over Internet 协议（VoIP）" 产品。 它提供了可增强或取代传统专用交换机 (PBX) 系统的语音选项。 除了 IP PBX 的完整电话功能，企业语音还集成了丰富的状态、IM、协作和会议功能。 直接支持诸如呼叫应答、呼叫保持、继续呼叫、呼叫转移、呼叫转接等功能，同时使用联系人列表取代个性化的快速拨号键，并使用 IM 取代自动对讲机。</p>
+<td><p><em>企业语音</em> 是 Lync Server 中 (VoIP) 提供的语音 Internet 协议。 它提供了可增强或取代传统专用交换机 (PBX) 系统的语音选项。 除了 IP PBX 的完整电话功能，企业语音还集成了丰富的状态、IM、协作和会议功能。 直接支持诸如呼叫应答、呼叫保持、继续呼叫、呼叫转移、呼叫转接等功能，同时使用联系人列表取代个性化的快速拨号键，并使用 IM 取代自动对讲机。</p>
 <p>企业语音通过呼叫允许控制 (CAC)、分支机构生存能力和数据恢复能力的扩展选项支持高可用性。</p></td>
 </tr>
 <tr class="even">
 <td><p>支持远程用户</p></td>
-<td><p>您可以通过部署称为 "<em>边缘服务器</em>" 的服务器来为这些远程用户提供连接，从而为当前位于您组织的防火墙外部的用户提供完整的 Lync Server 功能。 这些远程用户可以通过安装了安装了 Lync 2013 的个人计算机、电话或 web 界面来连接到会议。</p>
+<td><p>您可以通过部署称为 " <em>边缘服务器</em> " 的服务器来为这些远程用户提供连接，从而为当前位于您组织的防火墙外部的用户提供完整的 Lync Server 功能。 这些远程用户可以通过安装了安装了 Lync 2013 的个人计算机、电话或 web 界面来连接到会议。</p>
 <p>通过部署边缘服务器，还可以与伙伴或供应商组织进行“联盟”<em></em>。联盟关系使您的用户可以将联盟用户加入联系人列表中，与联盟用户交换状态信息和即时消息，以及邀请他们加入音频呼叫、视频呼叫和会议。</p></td>
 </tr>
 <tr class="odd">
 <td><p>移动客户端支持</p></td>
-<td><p>此外，使用 Lync Server 移动服务，用户可以在使用受支持的 Apple iOS、Android、Windows Phone 或 Nokia 移动设备时访问 Lync 功能，并执行类似发送和接收即时消息、查看联系人等活动。和查看状态。 此外，移动设备还支持某些企业语音功能，例如，“单击加入会议”、“单位电话呼叫”、“一号通”、“语音邮件”和“错过的呼叫”。 不支持在后台运行的应用程序的移动设备支持推送通知。</p></td>
+<td><p>此外，使用 Lync Server 移动服务，用户可以在使用受支持的 Apple iOS、Android、Windows Phone 或 Nokia 移动设备时访问 Lync 功能，并执行诸如发送和接收即时消息、查看联系人和查看状态等活动。 此外，移动设备还支持某些企业语音功能，例如，“单击加入会议”、“单位电话呼叫”、“一号通”、“语音邮件”和“错过的呼叫”。 不支持在后台运行的应用程序的移动设备支持推送通知。</p></td>
 </tr>
 <tr class="even">
 <td><p>与其他产品集成</p></td>

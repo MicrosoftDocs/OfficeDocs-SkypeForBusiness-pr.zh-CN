@@ -12,20 +12,22 @@ ms:contentKeyID: 48184481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c90de8310fa136efb56a60e4dfd52656d49469b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c56d3895c87e9278d8d508328cc21584ff9297b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217698"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524769"
 ---
+# <a name="manufacturers-table-in-lync-server-2013"></a>Lync Server 2013 中的 "制造商" 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manufacturers-table-in-lync-server-2013"></a>Lync Server 2013 中的 "制造商" 表
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217698"
 
 _**上次修改的主题：** 2010-11-07_
 
-制造商表是支持表。 每个记录存储有关一个设备（桌面电话）制造商的信息。
+制造商表是支持表。 每个记录存储有关一个设备 (桌面电话) 制造商的信息。
 
 
 <table>
@@ -64,7 +66,7 @@ _**上次修改的主题：** 2010-11-07_
 </tr>
 <tr class="even">
 <td><p><strong>负责</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p> </p></td>
 <td><p>制造商名称。</p></td>
 </tr>

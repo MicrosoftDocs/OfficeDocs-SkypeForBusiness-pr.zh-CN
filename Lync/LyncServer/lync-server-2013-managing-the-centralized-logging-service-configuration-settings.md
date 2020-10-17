@@ -12,20 +12,22 @@ ms:contentKeyID: 49733875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c6e156fbae7147b650c7360394cbd0d277b937b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 99d496bf211abe2c9ccab04c45eb0fd0fba7439d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221596"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524949"
 ---
+# <a name="managing-the-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中管理集中日志记录服务配置设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-the-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中管理集中日志记录服务配置设置
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44221596"
 
 _**上次修改的主题：** 2012-11-01_
 
-集中日志记录服务由集中日志记录服务控制器（CLSController）创建和使用的设置和参数进行控制和配置，以将命令发送到单个计算机的集中日志记录服务代理（CLSAgent）。 该代理处理发送给它的命令，并（如果是启动命令）根据提供的配置信息使用方案、提供程序、日志大小、跟踪持续时间和标志的配置开始收集跟踪日志。
+集中日志记录服务由集中日志记录服务控制器 (CLSController) 创建和使用的设置和参数进行控制和配置，以将命令发送到单个计算机的集中日志记录服务代理 (CLSAgent) 。 该代理处理发送给它的命令，并（如果是启动命令）根据提供的配置信息使用方案、提供程序、日志大小、跟踪持续时间和标志的配置开始收集跟踪日志。
 
 <div>
 

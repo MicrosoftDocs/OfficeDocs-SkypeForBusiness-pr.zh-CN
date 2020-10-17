@@ -12,20 +12,22 @@ ms:contentKeyID: 49733687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4f3f73606cfd05df17022770da7dcd1f5266b21
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 329396549a02a354939b166c8785b875faee2f78
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185325"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524719"
 ---
+# <a name="mcujoinsandleaves-view-in-lync-server-2013"></a>Lync Server 2013 中的 McuJoinsAndLeaves 视图
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mcujoinsandleaves-view-in-lync-server-2013"></a>Lync Server 2013 中的 McuJoinsAndLeaves 视图
+
 
 </div>
 
@@ -57,51 +59,51 @@ McuJoinsAndLeaves 视图存储有关用户加入和离开某个会议服务器�
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>会议实例的时间。 与 SessionIdSeq 结合使用来唯一地标识会议实例。 有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
+<td><p>会议实例的时间。 与 SessionIdSeq 结合使用来唯一地标识会议实例。 有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a> 的 "会议" 表。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>用于标识会议实例的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会议实例。 有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
+<td><p>用于标识会议实例的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会议实例。 有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a> 的 "会议" 表。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuUri</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>用户连接到的会议服务器的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>用户连接到的会议服务器的 URI。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>用户连接到的会议服务器的 URI。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>已捕获其会议服务器加入/离开信息的用户的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>已捕获其会议服务器加入/离开信息的用户的 URI 类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>已捕获其会议服务器加入/离开信息的用户的 URI 类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>已捕获其会议服务器加入/离开信息的用户的租户。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>已捕获其会议服务器加入/离开信息的用户的租户。 有关详细信息，请参阅 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientVersion</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>已捕获其会议服务器加入/离开信息的用户所使用的客户端版本。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>已捕获其会议服务器加入/离开信息的用户所使用的客户端。 有关更多详细信息，请参阅<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</p></td>
+<td><p>已捕获其会议服务器加入/离开信息的用户所使用的客户端。 有关更多详细信息，请参阅 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientCategory</strong></p></td>
-<td><p>nvarchar （64）</p></td>
+<td><p>nvarchar (64) </p></td>
 <td><p>已捕获其会议服务器加入/离开信息的用户所使用的客户端类别的名称。</p></td>
 </tr>
 <tr class="odd">
@@ -117,16 +119,16 @@ McuJoinsAndLeaves 视图存储有关用户加入和离开某个会议服务器�
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogId</strong></p></td>
-<td><p>varchar （775）</p></td>
+<td><p>varchar (775) </p></td>
 <td><p>会话的 SIP 对话 ID。格式为：dialog;from-tag;to-tag。</p></td>
 </tr>
 <tr class="even">

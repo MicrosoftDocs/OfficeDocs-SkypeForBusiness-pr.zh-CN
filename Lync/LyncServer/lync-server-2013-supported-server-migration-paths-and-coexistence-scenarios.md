@@ -12,20 +12,22 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab7d85bd25c6123b3befd3520289e40c63461970
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181565"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523969"
 ---
+# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 中支持的服务器迁移路径和共存方案
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 中支持的服务器迁移路径和共存方案
+
 
 </div>
 
@@ -74,25 +76,25 @@ Lync Server 2013 仅支持以下迁移方法：
 
 ## <a name="coexistence-scenarios"></a>共存方案
 
-Lync Server 2013 可与 Lync Server 2010 部署或 Office 通信服务器 2007 R2 部署的组件共存。 不支持同时在 Lync Server 2010 和 Office 通信服务器 2007 R2 （这三个版本的并发部署）中同时部署 Lync Server 2013。
+Lync Server 2013 可与 Lync Server 2010 部署或 Office 通信服务器 2007 R2 部署的组件共存。 同时在 Lync Server 2010 和 Office 通信服务器 2007 (R2 中同时部署 Lync Server 2013，不支持) 的所有三个版本的并发部署。
 
 在第一个分阶段的迁移过程中，以前的 Lync Server 2010 或 Office 通信服务器 2007 R2 部署 coexists 临时部署新的 Lync Server 2013 部署，对混合版本路由的支持将受到限制。 有关详细信息，请参阅迁移文档。
 
-您必须使用运行 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 的单独和不同的计算机来为您的 Lync Server 2013 数据库实例。 您不能对用于 Lync Server 2010 或 Office 通信服务器 2007 R2 前端池的 Lync Server 2013 前端池使用相同的 SQL Server 实例。 如果在拓扑生成器中为已部署 Lync Server 2010 或 Office 通信服务器 2007 R2 的部署定义并配置了 Lync Server 2013，拓扑生成器将不允许您定义已在中使用的 Lync Server 2013 的实例拓扑。
+您必须使用运行 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 的单独和不同的计算机来为您的 Lync Server 2013 数据库实例。 您不能对用于 Lync Server 2010 或 Office 通信服务器 2007 R2 前端池的 Lync Server 2013 前端池使用相同的 SQL Server 实例。 如果为已部署 Lync Server 2010 或 Office 通信服务器 2007 R2 的部署在拓扑生成器中定义和配置了 Lync Server 2013，拓扑生成器将不允许您定义已在拓扑中使用的 Lync Server 2013 的实例。
 
-拓扑生成器将显示以下消息，以通知您存在此问题： "服务器\[\]的 sql server FQDN 已包含托管角色 ' 用户存储 ' 的 sql 实例。"
+拓扑生成器将显示以下消息，以通知您存在此问题： "服务器的 SQL server \[ FQDN \] 已包含托管角色 ' 用户存储 ' 的 sql 实例。"
 
 <div>
 
 
 > [!NOTE]  
-> 如果打算部署 Lync Server 2013 部署中新增的服务器角色，应首先升级您的现有部署，如迁移文档和部署文档中所述，然后部署新的服务器角色，如中所述。规划文档和部署文档。 如果要迁移早期版本的组聊天，请在完成从 Lync Server 2010 或 Office 通信服务器 2007 R2 迁移所有其他组件的过程之后，将其迁移到最后一版。
+> 如果打算部署 Lync Server 2013 部署中新增的服务器角色，应首先升级您的现有部署，如迁移文档和部署文档中所述，然后部署新的服务器角色，如规划文档和部署文档中所述。 如果要迁移早期版本的组聊天，请在完成从 Lync Server 2010 或 Office 通信服务器 2007 R2 迁移所有其他组件的过程之后，将其迁移到最后一版。
 
 
 
 </div>
 
-有关 Lync Server 2010 或 Office 通信服务器 2007 R2 和 Lync Server 2013 组件的共存和迁移的特定共存要求和其他详细信息，请参阅迁移文档中的[从 Lync server 2010 迁移到 Lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md)和[从 Office 通信服务器 2007 R2 迁移到 lync server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) 。 有关客户端的混合版本支持的详细信息，请参阅[Lync Server 2013 中的 "从以前的部署支持的客户端](lync-server-2013-supported-clients-from-previous-deployments.md)"。
+有关 Lync Server 2010 或 Office 通信服务器 2007 R2 和 Lync Server 2013 组件的共存和迁移的特定共存要求和其他详细信息，请参阅迁移文档中的 [从 Lync server 2010 迁移到 Lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) 和 [从 Office 通信服务器 2007 R2 迁移到 lync server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) 。 有关客户端的混合版本支持的详细信息，请参阅 [Lync Server 2013 中的 "从以前的部署支持的客户端](lync-server-2013-supported-clients-from-previous-deployments.md)"。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afc2b1599551cfc3b7ee7341e441946610166ba0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 46242343d6da54a6ac1123663734645fd4f64a5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221756"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524999"
 ---
+# <a name="manage-external-access-policy-in-lync-server-2013"></a>在 Lync Server 2013 中管理外部访问策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-external-access-policy-in-lync-server-2013"></a>在 Lync Server 2013 中管理外部访问策略
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2013-10-07_
 
 
 > [!IMPORTANT]  
-> 在一个策略级别应用的 Lync Server 策略设置可以覆盖在另一个策略级别应用的设置。 Lync Server 策略优先级为：用户策略（最具影响力）替代网站策略，然后网站策略将覆盖全局策略（最不影响）。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
+> 在一个策略级别应用的 Lync Server 策略设置可以覆盖在另一个策略级别应用的设置。 Lync Server 策略优先级为：用户策略 (影响最大的) 替代网站策略，然后网站策略将覆盖全局策略 (最小影响) 。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
 
 
 
@@ -67,14 +69,14 @@ _**上次修改的主题：** 2013-10-07_
     
 
     > [!NOTE]  
-    > 如果启用 XMPP 联合身份验证，则还必须在拓扑生成器的 "边缘池" 配置部分中选择 "部署<STRONG>XMPP 联合</STRONG>"。 为 XMPP 联合身份验证将在边缘服务器上部署 XMPP 代理，并在前端服务器上部署一个 XMPP 网关。
+    > 如果启用 XMPP 联合身份验证，则还必须在拓扑生成器的 "边缘池" 配置部分中选择 "部署 <STRONG>XMPP 联合</STRONG> "。 为 XMPP 联合身份验证将在边缘服务器上部署 XMPP 代理，并在前端服务器上部署一个 XMPP 网关。
 
     
     </div>
 
   - **启用与远程用户**     的通信如果您希望组织中的用户（如正在旅行的远程办公和用户）能够通过 Internet 连接到 Lync Server，请启用此选项。
 
-  - **启用与公共用户**     的通信如果希望内部用户能够与公共 IM 提供商联系人（如 Windows Live、Yahoo \! 和美洲 Online （AOL））进行通信，请启用此选项。
+  - **启用与公共用户**     的通信如果希望内部用户能够与公共 IM 提供商联系人（如 Windows Live、Yahoo \! 和北美在线 (AOL) 提供）进行通信，请启用此选项。
     
     <div>
     
@@ -82,7 +84,7 @@ _**上次修改的主题：** 2013-10-07_
     > [!IMPORTANT]  
     > <UL>
     > <LI>
-    > <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
+    > <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证 ( "PIC USL" ) 不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
     > <LI>
     > <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力因 Yahoo！中的支持而受到了支持，其下凸的底层协议。</P>
     > <LI>
@@ -95,7 +97,7 @@ _**上次修改的主题：** 2013-10-07_
 
 
 > [!NOTE]  
-> 除了启用外部用户访问支持外，还必须在用户可以使用任何类型的外部用户访问之前，配置策略以控制组织中外部用户访问的使用。 有关创建、配置和应用外部用户访问策略的详细信息，请参阅<A href="lync-server-2013-enable-or-disable-remote-user-access.md">在 Lync Server 2013 中启用或禁用远程用户访问</A>。
+> 除了启用外部用户访问支持外，还必须在用户可以使用任何类型的外部用户访问之前，配置策略以控制组织中外部用户访问的使用。 有关创建、配置和应用外部用户访问策略的详细信息，请参阅 <A href="lync-server-2013-enable-or-disable-remote-user-access.md">在 Lync Server 2013 中启用或禁用远程用户访问</A>。
 
 
 
@@ -103,7 +105,7 @@ _**上次修改的主题：** 2013-10-07_
 
 **使用 Windows PowerShell cmdlet 查看外部访问策略**
 
-  - 您可以通过使用 Lync Server 命令行管理程序和**set-csexternalaccesspolicy** cmdlet 来查看外部访问策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
+  - 您可以通过使用 Lync Server 命令行管理程序和 **set-csexternalaccesspolicy** cmdlet 来查看外部访问策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
     
     若要查看有关所有外部访问策略的信息，请在 Lync Server Management Shell 中键入以下命令，然后按 Enter：
     

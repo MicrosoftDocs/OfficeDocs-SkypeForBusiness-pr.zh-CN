@@ -12,20 +12,22 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9437df126889aefb8400b50d118d44dac12f285d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46f9236bfbd110ee17811edec2e3e81fc4a0e0f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208258"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524159"
 ---
+# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013 中支持的 Active Directory 拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013 中支持的 Active Directory 拓扑
+
 
 </div>
 
@@ -101,7 +103,7 @@ Lync Server 支持的另一个 Active Directory 拓扑是由一个根域和一�
 
   - 与 Lync Server 池位于同一域中的用户帐户
 
-  - 与 Lync Server 池的不同域中的用户帐户（但与相同树一样）
+  - 来自 (的不同域中的用户帐户，但与 Lync Server 池) 的树相同
 
   - Lync Server 池的不同树中的用户帐户
 
@@ -157,9 +159,9 @@ Lync Server 支持在中央林拓扑中配置的多个林。 中央林拓扑使�
 
 ## <a name="multiple-forests-in-a-lync-resource-forest-topology-with-exchange-online"></a>具有 Exchange Online 的 Lync 资源林拓扑中的多个林
 
-在此拓扑中，一个或多个林位于本地，专门用于承载 Active Directory 用户帐户。 资源林位于本地，由第三方托管提供商维护。 资源林仅包含来自本地用户帐户林的 Lync Server 部署和用户帐户的同步复制。 它不包含启用登录的用户帐户。 Exchange 部署在集成了 Exchange Online （混合）的本地用户帐户林中，或者本地用户帐户的电子邮件服务由 Exchange Online 专门提供。
+在此拓扑中，一个或多个林位于本地，专门用于承载 Active Directory 用户帐户。 资源林位于本地，由第三方托管提供商维护。 资源林仅包含来自本地用户帐户林 (s) 的 Lync Server 部署和用户帐户的同步复制。 它不包含启用登录的用户帐户。 Exchange 部署在内部部署用户帐户林 (s 中) 集成) 的 Exchange Online (混合，或者本地用户帐户的电子邮件服务由 Exchange Online 专门提供。
 
-资源林充当用户对象所在的本地 Active Directory 林的共享服务环境。 用户帐户林与资源林有一种单向林级信任关系。 在此类型的拓扑中部署 Lync Server 时，您可以在资源林中为用户林中的每个用户帐户创建一个禁用的用户对象。 由 MIIS、Microsoft Forefront Identity Manager (FIM) 2010 或 Microsoft Identity Lifecycle Manager (ILM) 2007 功能包 1 (FP1) 等目录同步产品来管理用户帐户的生命周期。 在其中的一个用户林中创建新用户帐户或从林中删除用户帐户时，目录同步产品便会同步资源林中对应的用户表示形式。 有关配置多林部署的详细信息，请参阅[在多林体系结构中部署 Lync （具有 Exchange 混合的合作伙伴托管 lync）](https://go.microsoft.com/fwlink/p/?linkid=513216)。
+资源林充当本地 Active Directory 林的共享服务环境 (s) 其中 user 对象驻留的位置。 用户帐户林 (s) 与资源林之间有单向林级信任关系。 在此类型的拓扑中部署 Lync Server 时，您可以在资源林中为用户林中的每个用户帐户创建一个禁用的用户对象。 由 MIIS、Microsoft Forefront Identity Manager (FIM) 2010 或 Microsoft Identity Lifecycle Manager (ILM) 2007 功能包 1 (FP1) 等目录同步产品来管理用户帐户的生命周期。 在其中的一个用户林中创建新用户帐户或从林中删除用户帐户时，目录同步产品便会同步资源林中对应的用户表示形式。 有关配置多林部署的详细信息，请参阅 [使用 Exchange 混合) 在多林体系结构中部署 Lync (合作伙伴托管的 lync ](https://go.microsoft.com/fwlink/p/?linkid=513216)。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 949e5fb209722d8a0d8476d017bba1b7144561a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19359dd785b846fa765e72adb810ccd255c2bd2e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523919"
 ---
+# <a name="supporting-large-meetings-using-lync-server-2013"></a>使用 Lync Server 2013 支持大型会议
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supporting-large-meetings-using-lync-server-2013"></a>使用 Lync Server 2013 支持大型会议
+
 
 </div>
 
@@ -53,9 +55,9 @@ _**上次修改的主题：** 2012-10-03_
 
 支持多达 1000 个用户的大型会议需要解决与共享硬件模型和无预约模型相关的问题。
 
-若要为最高为1000个用户的会议提供充足的 CPU 和内存资源，托管前端服务器不应承载任何其他即时消息（IM）和状态或企业语音工作负载。 此外，它不应承载任何其他会议，无论其他会议的规模如何。 这意味着主持最多为1000个用户的会议需要设置一个单独的 Lync Server 池，专门用于承载最多为1000个用户的大型会议。
+为了使最高为1000个用户的会议具有充足的 CPU 和内存资源，托管前端服务器不应承载任何其他即时消息 (IM) 和状态或企业语音工作负载。 此外，它不应承载任何其他会议，无论其他会议的规模如何。 这意味着主持最多为1000个用户的会议需要设置一个单独的 Lync Server 池，专门用于承载最多为1000个用户的大型会议。
 
-专用于承载大型会议的 Lync Server 池应同时托管一个会议，且最多只能为1000个用户提供一个会议，因此需要通过带外计划过程提前保留会议时间，以确保从前端 Serv 的专用支持ers. 若要同时支持多个大型会议，建议设置多个专用大型会议池。
+专用于主持大型会议的 Lync Server 池应同时托管一个会议，且最多只能为1000个用户提供一个会议，因此需要通过带外计划过程提前保留会议时间，以确保从前端服务器进行的专用支持。 若要同时支持多个大型会议，建议设置多个专用大型会议池。
 
 建议让专门人员安排和监控大型会议的联机部分。此人可能是组织者、组织者或演示者的代理或专业大型会议支持团队的成员，这取决于组织者的首选项。
 

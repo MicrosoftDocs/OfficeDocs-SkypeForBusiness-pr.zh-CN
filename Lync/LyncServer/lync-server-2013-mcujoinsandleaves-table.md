@@ -12,20 +12,22 @@ ms:contentKeyID: 48184115
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae21b9a8ec2107d8a2bd0a99f1e21d6f182a830e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4aa5fb14ff16d13b1cdff72f15c648f9e353922
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524729"
 ---
+# <a name="mcujoinsandleaves-table-in-lync-server-2013"></a>Lync Server 2013 中的 McuJoinsAndLeaves 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mcujoinsandleaves-table-in-lync-server-2013"></a>Lync Server 2013 中的 McuJoinsAndLeaves 表
+
 
 </div>
 
@@ -60,19 +62,19 @@ _**上次修改的主题：** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主、外</p></td>
-<td><p>会议实例的时间。 与<strong>SessionIdSeq</strong>结合使用，以唯一标识会议实例。 有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
+<td><p>会议实例的时间。 与 <strong>SessionIdSeq</strong> 结合使用，以唯一标识会议实例。 有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a> 的 "会议" 表。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主、外</p></td>
-<td><p>用于标识会议实例的 ID 号。 与<strong>SessionIdTime</strong>结合使用，以唯一标识会议实例。 有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
+<td><p>用于标识会议实例的 ID 号。 与 <strong>SessionIdTime</strong> 结合使用，以唯一标识会议实例。 有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a> 的 "会议" 表。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>主、外</p></td>
-<td><p>用于标识此用户的唯一编号。 有关详细信息，请参阅<a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表</a>。</p></td>
+<td><p>用于标识此用户的唯一编号。 有关详细信息，请参阅 <a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUserInstance</strong></p></td>
@@ -90,19 +92,19 @@ _**上次修改的主题：** 2012-09-28_
 <td><p><strong>McuId</strong></p></td>
 <td><p>int</p></td>
 <td><p>主、外</p></td>
-<td><p>标识此会议服务器的唯一编号。 有关详细信息，请参阅<a href="lync-server-2013-mcus-table.md">Lync Server 2013 中的 mcu 表</a>。</p></td>
+<td><p>标识此会议服务器的唯一编号。 有关详细信息，请参阅 <a href="lync-server-2013-mcus-table.md">Lync Server 2013 中的 mcu 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>对外</p></td>
-<td><p>会话请求的时间。 与 <strong>SessionIdSeq</strong> 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>会话请求的时间。 与 <strong>SessionIdSeq</strong> 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>用于标识会话的 ID 号。 与 <strong>SessionIdTime</strong> 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>用于标识会话的 ID 号。 与 <strong>SessionIdTime</strong> 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserJoinTime</strong></p></td>
@@ -120,7 +122,7 @@ _**上次修改的主题：** 2012-09-28_
 <td><p><strong>ClientVerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>指定在会议中使用的客户端软件版本号的标识符。 有关详细信息，请参阅<a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a>。</p>
+<td><p>指定在会议中使用的客户端软件版本号的标识符。 有关详细信息，请参阅 <a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a> 。</p>
 <p>此字段是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 </tbody>

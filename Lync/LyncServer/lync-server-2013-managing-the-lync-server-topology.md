@@ -12,20 +12,22 @@ ms:contentKeyID: 48183784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98a3ecfe50aba06219209b6d364a9952a3a7685a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0bf5c2071e918138d654379d4a891460252d99cf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524919"
 ---
+# <a name="managing-the-lync-server-2013-topology"></a>管理 Lync Server 2013 拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-the-lync-server-2013-topology"></a>管理 Lync Server 2013 拓扑
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42185405"
 
 _**上次修改的主题：** 2012-10-11_
 
-本节中的主题提供了可使用 Lync Server 2013 控制面板中的 "**拓扑结构**" 页执行的任务的分步过程。
+本节中的主题提供了可使用 Lync Server 2013 控制面板中的 " **拓扑结构** " 页执行的任务的分步过程。
 
 <div>
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-10-11_
 
   - [在 Lync Server 2013 中升级或更新后端服务器或 Standard Edition 服务器](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
 
-  - [在 Lync Server 2013 中管理 Microsoft SIP 处理语言（MSPL）应用程序](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
+  - [在 Lync Server 2013 中管理 Microsoft SIP 处理语言 (MSPL) 应用程序](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
 
   - [在 Lync Server 2013 中管理简单 Url](lync-server-2013-managing-simple-urls.md)
 

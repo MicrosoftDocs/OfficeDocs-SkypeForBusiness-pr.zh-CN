@@ -12,20 +12,22 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a18cd17686133219ccc60d5e85fd149df190665a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b393f9281c1bb1fc1072a541b33bbab2656dafb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524249"
 ---
+# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Lync Server 2013 中的持久聊天数据库架构
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Lync Server 2013 中的持久聊天数据库架构
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-18_
 
 这篇文档介绍了 Lync Server 2013 通信软件中的持久聊天数据库的架构。
 
-持久聊天数据库是指与 Lync Server 2013 后端服务器角色**PersistentChatStore** （对应于 mgc 数据库）和**PersistentChatComplianceStore** （对应于 mgccomp 数据库）对应的数据库。 发布此架构的目的是让您能够生成查询和一定程度地了解如何生成有关聊天使用、活跃的聊天室、置顶帖等内容的有用报告。
+Persistent 聊天数据库是指与 Lync Server 2013 后端服务器角色对应的数据库。 **PersistentChatStore** (对应于 mgc 数据库) 和 **PersistentChatComplianceStore** (对应于 mgccomp 数据库) 。 发布此架构的目的是让您能够生成查询和一定程度地了解如何生成有关聊天使用、活跃的聊天室、置顶帖等内容的有用报告。
 
 <div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-09-18_
 
 请遵循以下最佳做法：
 
-  - 不支持\* SELECT//，因为列列表可能会增加。
+  - 不 \* 支持 SELECT//，因为列列表可能会增加。
 
   - 不支持用户生成的架构修改。
 

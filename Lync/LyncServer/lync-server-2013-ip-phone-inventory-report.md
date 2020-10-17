@@ -12,20 +12,22 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb24be3ba069bcf900c86c4e4b45ef31420a3ff9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0be055238c2e8db45337b9e66d936bb73c73e61
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186805"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525199"
 ---
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Lync Server 2013 中的 IP 电话清单报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Lync Server 2013 中的 IP 电话清单报告
+
 
 </div>
 
@@ -67,7 +69,7 @@ IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话�
 
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>充分利用 IP 电话清单报告
 
-如果您仅对一种特定类型电话的使用信息感兴趣（例如，"使用 Polycom CX600 电话的用户的频率如何？"），则可以通过筛选该特定类型的电话，直接从 IP 电话清单报告中获取该信息。 但是，如果您想要了解所有电话的摘要信息（多少人正在使用 Polycom CX600、多少人正在使用 LG-Nortel IP8540 等），则需要导出数据，然后使用另一个应用程序（如 Windows PowerShell）执行该类型的分析。 例如，假设您将数据导出为逗号分隔值文件（\\C： data\\IP\_Phone\_清单\_Report .csv）。 在这种情况下，您可以使用以下这两个命令提供所有电话的摘要数据：
+如果您只对一种特定类型电话 (的使用信息感兴趣，例如，"用户使用 Polycom CX600 电话的频率是多少？) 您可以通过筛选特定类型的电话，直接从 IP 电话清单报告中获取该信息。 但是，如果您想要了解所有电话的摘要信息（多少人正在使用 Polycom CX600、多少人正在使用 LG-Nortel IP8540 等），则需要导出数据，然后使用另一个应用程序（如 Windows PowerShell）执行该类型的分析。 例如，假设您将数据导出为逗号分隔值文件 (C： \\ 数据 \\ IP \_ 电话 \_ 清点 \_Report.csv) 。 在这种情况下，您可以使用以下这两个命令提供所有电话的摘要数据：
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
@@ -174,7 +176,7 @@ IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话�
 <td><p>选择下列值之一：</p>
 <ul>
 <li><p>各种</p></li>
-<li><p>10 </p></li>
+<li><p>10  </p></li>
 <li><p>20</p></li>
 <li><p>30</p></li>
 </ul></td>
@@ -184,7 +186,7 @@ IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话�
 <td><p>选择下列值之一：</p>
 <ul>
 <li><p>各种</p></li>
-<li><p>10 </p></li>
+<li><p>10  </p></li>
 <li><p>20</p></li>
 <li><p>30</p></li>
 </ul></td>
@@ -217,7 +219,7 @@ IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话�
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

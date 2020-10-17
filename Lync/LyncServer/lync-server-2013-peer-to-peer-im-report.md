@@ -12,20 +12,22 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddfd9bc59a42a8ab8cad77fa0c434adc1da02c27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 16098a1d549c155f9a642f7e68f056f07973217d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524369"
 ---
+# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Lync Server 2013 中的对等 IM 报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Lync Server 2013 中的对等 IM 报告
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="accessing-the-peer-to-peer-im-report"></a>访问对等 IM 报告
 
-您可以仅通过[在 Lync Server 2013 中打开对等活动摘要报告](lync-server-2013-peer-to-peer-activity-summary-report.md)，然后单击以下任一指标来访问对等 IM 报告：
+您可以仅通过 [在 Lync Server 2013 中打开对等活动摘要报告](lync-server-2013-peer-to-peer-activity-summary-report.md) ，然后单击以下任一指标来访问对等 IM 报告：
 
   - 对等 IM 会话总数
 

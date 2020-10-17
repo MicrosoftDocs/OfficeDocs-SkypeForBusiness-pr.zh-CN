@@ -12,20 +12,22 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a57e4a3c7a5fdcc1825c140cb6e26f8cede8dc1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec2ef70b70ff496852a753a9e15a38f80de1509b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214438"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523739"
 ---
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalAffiliations
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalAffiliations
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-12_
 
 tblPrincipalAffiliations 包含描述位置中的成员身份的主体隶属关系，包括 Active directory 域服务安全组，在 Active Directory 容器中的域中。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>列数
 
 <table>
 <colgroup>
@@ -68,7 +70,7 @@ tblPrincipalAffiliations 包含描述位置中的成员身份的主体隶属关�
 <tr class="odd">
 <td><p>index</p></td>
 <td><p>int，不为 null</p></td>
-<td><p>索引. 自隶属关系的值是-1，对于其他隶属关系，它会从每个&lt;PrincipalID、affiliationId&gt;存储桶内的1依次增加。</p></td>
+<td><p>索引. 自隶属关系的值是-1，对于其他隶属关系，它会从每个 &lt; principalID、affiliationId 存储桶内的1依次增加 &gt; 。</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
@@ -88,7 +90,7 @@ tblPrincipalAffiliations 包含描述位置中的成员身份的主体隶属关�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Columns</th>
+<th>列数</th>
 <th>说明</th>
 </tr>
 </thead>

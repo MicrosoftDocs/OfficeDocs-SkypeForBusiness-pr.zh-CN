@@ -12,20 +12,22 @@ ms:contentKeyID: 48183864
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc93aefdfb9d4ce03220a445932ce61d61fa255b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee2dda89d5d1bd5782946a8a7c44a881b007ca2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185205"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524569"
 ---
+# <a name="media-configuration-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的媒体配置 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-configuration-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的媒体配置 cmdlet
+
 
 </div>
 

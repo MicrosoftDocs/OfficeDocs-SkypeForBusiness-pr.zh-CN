@@ -12,20 +12,22 @@ ms:contentKeyID: 48185442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c0da370ffa95581ccc2d37e19a48aafa096dee3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01b391f66754cf9530bbe66fb66e9f1ae542f297
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186885"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525249"
 ---
+# <a name="intertrunk-routing-in-lync-server-2013"></a>Lync Server 2013 中的中继间路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="intertrunk-routing-in-lync-server-2013"></a>Lync Server 2013 中的中继间路由
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42186885"
 
 _**上次修改的主题：** 2012-10-20_
 
-Lync Server 2013 可以将 ip-pbx 互连到公用电话交换网（PSTN）网关，以便可以将来自 PBX 电话的呼叫路由到 PSTN，传入 PSTN 呼叫可以路由到专用交换机（PBX）电话。 同样，Lync Server 2013 可以互连两个或更多个 ip-pbx 系统，以便可以在不同的 ip-pbx 系统的 PBX 电话之间进行呼叫和接收。
+Lync Server 2013 可以将 ip-pbx 互连到公用电话交换网（ (PSTN) 网关），以便可以将来自 PBX 电话的呼叫路由到 PSTN，并将传入 PSTN 呼叫路由到专用分支 exchange (PBX) 电话。 同样，Lync Server 2013 可以互连两个或更多个 ip-pbx 系统，以便可以在不同的 ip-pbx 系统的 PBX 电话之间进行呼叫和接收。
 
 可以使用 Lync Server 命令行管理程序 cmdlet， **remove-cstrunkconfiguration**，使用新参数 PstnUsages 配置此中继间路由功能。 此参数指定一组要使用的 PSTN 用法记录。 中继使用此 PSTN 用法来确定路由并相应地路由所有传入呼叫。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184390
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3a3dd75d6d6a2f2d7124ec7851d6fc8dd11f515
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f404dad679eeffa91465f3f8547fbe86ce74b0c1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524129"
 ---
+# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a>Lync Server 2013 中以前的部署支持的客户端
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a>Lync Server 2013 中以前的部署支持的客户端
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-12-14_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client</th>
+<th>客户端</th>
 <th>Lync Server 2013</th>
 <th>Lync Server 2010</th>
 <th>Office Communications Server 2007 R2</th>
@@ -142,7 +144,7 @@ Office Communicator 2007 R2 中的3The 状态和 IM 功能与 Lync Server 2013 �
 
 
 > [!NOTE]  
-> 有关 Lync Server 2013 客户端在早期版本的 Lync Server 和 Office 通信服务器中共存并与客户端交互的功能的详细信息，请参阅规划文档中的<A href="lync-server-2013-client-interoperability-in-lync-2013.md">lync 2013 中的客户端互操作性</A>。
+> 有关 Lync Server 2013 客户端在早期版本的 Lync Server 和 Office 通信服务器中共存并与客户端交互的功能的详细信息，请参阅规划文档中的 <A href="lync-server-2013-client-interoperability-in-lync-2013.md">lync 2013 中的客户端互操作性</A> 。
 
 
 

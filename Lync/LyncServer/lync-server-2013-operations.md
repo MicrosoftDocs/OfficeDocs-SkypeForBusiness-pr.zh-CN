@@ -12,20 +12,22 @@ ms:contentKeyID: 48184155
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2de3a0abe7e82b8798c5ef9e2d2eb3c4e565741
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 22f1a758ef3dc717653b376422a32ab15f725d08
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216598"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524519"
 ---
+# <a name="operations-in-lync-server-2013"></a>Lync Server 2013 中的操作
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="operations-in-lync-server-2013"></a>Lync Server 2013 中的操作
+
 
 </div>
 

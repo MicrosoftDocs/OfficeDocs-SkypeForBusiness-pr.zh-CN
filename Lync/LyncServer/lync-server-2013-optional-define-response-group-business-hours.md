@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：（可选）定义响应组工作时间
+title: Lync Server 2013： (可选) 定义响应组工作时间
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b02ce8434d7912d81855725aa86a11fa377ce44
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 891dd05caf5e2ec3411da73c1151ae61c2d0630c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216618"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524459"
 ---
+# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a> (可选) 在 Lync Server 2013 中定义响应组工作时间
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>Optional在 Lync Server 2013 中定义响应组工作时间
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-11-01_
 
 
 > [!TIP]  
-> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息，请参阅<A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">在 lync server 2013 中创建或修改智能寻线工作流</A>或<A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">在 lync Server 2013 中创建或修改交互式工作流</A>。
+> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息，请参阅 <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">在 lync server 2013 中创建或修改智能寻线工作流</A> 或 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">在 lync Server 2013 中创建或修改交互式工作流</A>。
 
 
 

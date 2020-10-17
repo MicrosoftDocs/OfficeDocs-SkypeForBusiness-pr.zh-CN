@@ -12,20 +12,22 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec650c62b26775aeddf9f01ff8d455a6f6a7667
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48ee24dca1cdf083de990ef42dae4017ed927e15
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185100"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524559"
 ---
+# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Lync Server 2013 中的会议的迁移注意事项
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Lync Server 2013 中的会议的迁移注意事项
+
 
 </div>
 
@@ -55,11 +57,11 @@ _**上次修改的主题：** 2014-02-10_
 
 ## <a name="changes-to-meetings-in-lync-server-2013"></a>对 Lync Server 2013 中的会议所做的更改
 
-**Lync Server 2013 功能。**   Lync server 2013 提供新的会议功能，这些功能在其帐户移动到 lync Server 2013 并使用 lync 2013 客户端登录后可供用户使用。 [Lync server 2013 的新会议功能](lync-server-2013-new-conferencing-features.md)中概述了新功能，以及[lync server 2013 中客户端的新增](lync-server-2013-what-s-new-for-clients.md)功能。
+**Lync Server 2013 功能。**    Lync Server 2013 提供新的会议功能，这些功能在其帐户移动到 Lync Server 2013 并使用 Lync 2013 客户端登录后可供用户使用。 [Lync server 2013 的新会议功能](lync-server-2013-new-conferencing-features.md)中概述了新功能，以及[lync server 2013 中客户端的新增](lync-server-2013-what-s-new-for-clients.md)功能。
 
-**会议 URL。**   与在 lync server 2010 中一样，lync server 2013 中的所有新安排的会议都具有 URL 前缀 https://和现有会议与用户帐户一起迁移。 但是，Lync Server 2013 不支持 Office 通信服务器 2007 R2 R2 会议呼叫（conf://URL 前缀）或 web 会议（meet://URL 前缀）。 有关详细信息，请参阅本主题后面部分中的 "从 Office 通信服务器 2007 R2 迁移会议"。
+**会议 URL。**    与在 Lync Server 2010 中一样，Lync Server 2013 中的所有新安排的会议都具有 URL 前缀 https://和现有会议与用户帐户一起迁移。 但是，Lync Server 2013 不支持 Office 通信服务器 2007 R2 会议呼叫 (conf://URL 前缀) 或 web 会议 (meet://URL 前缀) 。 有关详细信息，请参阅本主题后面部分中的 "从 Office 通信服务器 2007 R2 迁移会议"。
 
-**客户端支持。**   与 lync server 2010 不同，lync server 2013 不支持用于会议的 Office Communicator 客户端。 您不能使用以下客户端加入通过 Lync 2013 的联机会议外接程序安排的会议：
+**客户端支持。**    与 Lync Server 2010 不同，Lync Server 2013 不支持用于会议的 Office Communicator 客户端。 您不能使用以下客户端加入通过 Lync 2013 的联机会议外接程序安排的会议：
 
   - Office Communicator 2007 R2
 
@@ -82,9 +84,9 @@ _**上次修改的主题：** 2014-02-10_
 
 ## <a name="migrating-users-based-on-their-conferencing-needs"></a>根据会议需要迁移用户
 
-**会议组织者频繁。**   请考虑在该过程的早期阶段迁移频繁的会议组织者，以便他们能够利用[lync Server 2013 的新会议功能](lync-server-2013-new-conferencing-features.md)中概述的新 Lync server 2013 和 lync 2013 功能，以及[lync server 2013 中的客户端的新增](lync-server-2013-what-s-new-for-clients.md)功能。
+**会议组织者频繁。**    请考虑在该过程的早期阶段迁移频繁的会议组织者，以便他们能够利用[lync server 2013 的新会议功能](lync-server-2013-new-conferencing-features.md)中概述的新 Lync server 2013 和 lync 2013 功能，以及[lync server 2013 中的客户端的新增](lync-server-2013-what-s-new-for-clients.md)功能。
 
-**Live Meeting 用户。**   如果要从 Office 通信服务器 2007 R2 进行迁移，并且您的用户需要特定于 Live Meeting 的 web 会议功能，尤其是对大型会议和出在会议室的支持，您可以选择以下选项：
+**Live Meeting 用户。**    如果要从 Office 通信服务器 2007 R2 进行迁移，并且您的用户需要特定于 Live Meeting 的 web 会议功能，尤其是对大型会议和出在会议室的支持，您可以选择以下选项：
 
   - 建议组织者使用 Live Meeting 服务（如果在组织中可用）。
 
@@ -110,7 +112,7 @@ _**上次修改的主题：** 2014-02-10_
 
   - 会议内容，例如 PowerPoint 演示文稿、白板内容和轮询数据
 
-若要移动会议中已共享的内容，请使用 Get-csuser cmdlet 的 MoveMeetingContent 参数。 有关使用此 cmdlet 的详细信息，请参阅 Lync Server 2013 cmdlet 文档中的[get-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) 。
+若要移动会议中已共享的内容，请使用 Move-CsUser cmdlet 的 MoveMeetingContent 参数。 有关使用此 cmdlet 的详细信息，请参阅 Lync Server 2013 cmdlet 文档中的 [get-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) 。
 
 </div>
 
@@ -118,7 +120,7 @@ _**上次修改的主题：** 2014-02-10_
 
 ## <a name="migrating-meetings-from-office-communications-server-2007-r2"></a>从 Office 通信服务器 2007 R2 迁移会议
 
-Office 通信服务器 2007 R2 会议可以是会议呼叫（conf://URL 前缀），也可以是 web 会议（meet://URL 前缀）。 Lync Server 2013 不支持这些早期的 conf://和 meet://会议，它们不会与用户帐户一起迁移。 迁移后，应指示用户为他们安排的任何联机会议更新链接。 在安装 Lync 2013 客户端后，他们可以通过打开计划会议邀请（更新会议 URL）并将邀请重新发送给参与者来执行此操作。
+Office 通信服务器 2007 R2 会议可以是会议呼叫 (conf://URL 前缀) 或 web 会议 (meet://URL 前缀) 。 Lync Server 2013 不支持这些早期的 conf://和 meet://会议，它们不会与用户帐户一起迁移。 迁移后，应指示用户为他们安排的任何联机会议更新链接。 在安装 Lync 2013 客户端后，他们可以通过打开计划会议邀请（更新会议 URL）并将邀请重新发送给参与者来执行此操作。
 
 </div>
 
@@ -128,7 +130,7 @@ Office 通信服务器 2007 R2 会议可以是会议呼叫（conf://URL 前缀�
 
 ## <a name="user-experience-during-lync-server-2010-migration"></a>Lync Server 2010 迁移期间的用户体验
 
-本节提供从 Lync 2010 迁移时用户的会议体验的摘要。 有关 Lync Server 2013 客户端如何共存以及如何与以前的客户端和服务器版本交互的详细信息，请参阅[Lync 2013 中的客户端互操作性](lync-server-2013-client-interoperability-in-lync-2013.md)。
+本节提供从 Lync 2010 迁移时用户的会议体验的摘要。 有关 Lync Server 2013 客户端如何共存以及如何与以前的客户端和服务器版本交互的详细信息，请参阅 [Lync 2013 中的客户端互操作性](lync-server-2013-client-interoperability-in-lync-2013.md)。
 
 <div>
 
@@ -136,13 +138,13 @@ Office 通信服务器 2007 R2 会议可以是会议呼叫（conf://URL 前缀�
 
 在从 Lync Server 2010 迁移过程中，当用户加入 lync Server 2010 会议和 Lync 2013 客户端时，可能会有一段共存时间。 这些用户有权访问 Lync 2013 客户端功能，但有以下例外：
 
-  - 在**参与者**管理选项（可通过指向会议窗口中的 "人员" 图标访问）中，"**无会议即时消息**" 选项不起作用。
+  - 在 **参与者** 管理选项（可通过指向会议窗口中的 "人员" 图标访问）中，" **无会议即时消息** " 选项不起作用。
 
-  - 库视图在视频会议中不起作用。 用户仅看到活动的扬声器，而不是所有扬声器。 在 "**选取布局**" 选项列表中，"**库视图**" 不可用
+  - 库视图在视频会议中不起作用。 用户仅看到活动的扬声器，而不是所有扬声器。 在 " **选取布局** " 选项列表中，" **库视图** " 不可用
 
   - 默认情况下，参与者列表在视频会议中显示。
 
-  - 右键单击 "参与者" 列表中的用户时，"**锁定视频焦点**并**固定到库**参与者管理" 选项不可用。
+  - 右键单击 "参与者" 列表中的用户时，" **锁定视频焦点** 并 **固定到库** 参与者管理" 选项不可用。
 
 </div>
 
@@ -152,13 +154,13 @@ Office 通信服务器 2007 R2 会议可以是会议呼叫（conf://URL 前缀�
 
 ## <a name="user-experience-during-office-communications-server-2007-r2-migration"></a>Office 通信服务器 2007 R2 迁移期间的用户体验
 
-本部分提供了在安装 Lync 2013 之前和之后从 Office 通信服务器 2007 R2 迁移时用户的会议体验摘要。 有关 Lync Server 2013 客户端如何共存以及如何与以前的客户端和服务器版本交互的详细信息，请参阅[Lync 2013 中的客户端互操作性](lync-server-2013-client-interoperability-in-lync-2013.md)。
+本部分提供了在安装 Lync 2013 之前和之后从 Office 通信服务器 2007 R2 迁移时用户的会议体验摘要。 有关 Lync Server 2013 客户端如何共存以及如何与以前的客户端和服务器版本交互的详细信息，请参阅 [Lync 2013 中的客户端互操作性](lync-server-2013-client-interoperability-in-lync-2013.md)。
 
 <div>
 
 ## <a name="after-user-account-is-migrated-before-lync-2013-is-installed"></a>在迁移用户帐户之后，安装 Lync 2013 之前
 
-将用户迁移到 Lync Server 2013 服务器，但在安装新客户端之前，Office Communicator 2007 R2 用户可以继续使用其现有客户端，使其与 Lync Server 2013 相对应的状态和 IM 功能，但会议功能不会支持.
+将用户迁移到 Lync Server 2013 服务器，但在安装新客户端之前，Office Communicator 2007 R2 用户可以继续使用其现有客户端，使其与 Lync Server 2013 相关的状态和 IM 功能，但不支持会议功能。
 
 </div>
 

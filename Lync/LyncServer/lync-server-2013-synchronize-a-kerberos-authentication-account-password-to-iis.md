@@ -12,20 +12,22 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95baeb1e3d55fd2c7ae3137b36c07a7974836bdb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4ac886bf4eba4261a733241aa8d1d5396c4acc86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192325"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523849"
 ---
+# <a name="synchronize-a-kerberos-authentication-account-password-to-iis-in-lync-server-2013"></a>在 Lync Server 2013 中将 Kerberos 身份验证帐户密码同步到 IIS
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="synchronize-a-kerberos-authentication-account-password-to-iis-in-lync-server-2013"></a>在 Lync Server 2013 中将 Kerberos 身份验证帐户密码同步到 IIS
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2010-11-08_
 
 要成功完成此过程，应以 RTCUniversalServerAdmins 组成员的身份登录。
 
-在网站中，前端服务器、Standard Edition 服务器和控制器可以使用 Kerberos 身份验证帐户，以对 Web 服务服务的请求进行身份验证。 此过程将查找在已分配 Kerberos 帐户的网站中运行 Web 服务的每台服务器，并将 Internet 信息服务（IIS）配置设置更新为使用 Kerberos 帐户。 有关详细信息，请参阅[在 Lync server 2013 中的服务器上设置 Kerberos 身份验证帐户密码](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)。
+在网站中，前端服务器、Standard Edition 服务器和控制器可以使用 Kerberos 身份验证帐户，以对 Web 服务服务的请求进行身份验证。 此过程将查找在已分配 Kerberos 帐户的站点中运行 Web 服务的每台服务器，并将 Internet 信息服务 (IIS) 配置设置更新为使用 Kerberos 帐户。 有关详细信息，请参阅 [在 Lync server 2013 中的服务器上设置 Kerberos 身份验证帐户密码](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)。
 
 <div>
 
@@ -70,7 +72,7 @@ _**上次修改的主题：** 2010-11-08_
     
 
     > [!IMPORTANT]
-    > 在对 Kerberos 身份验证（如添加帐户或删除帐户）进行任何更改之后，您必须从 Lync Server 命令行管理程序命令提示符处运行<STRONG>Enable-enable-cstopology</STRONG> 。
+    > 在对 Kerberos 身份验证（如添加帐户或删除帐户）进行任何更改之后，您必须从 Lync Server 命令行管理程序命令提示符处运行 <STRONG>Enable-enable-cstopology</STRONG> 。
 
     
     </div>

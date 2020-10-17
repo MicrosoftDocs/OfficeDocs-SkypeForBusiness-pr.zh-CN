@@ -12,20 +12,22 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36afef4fe357e79f1d6c9579273262b265d2c0ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85ffe6b610cfbeb50239b64d1ed7448af4fa41bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193565"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523619"
 ---
+# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Lync Server 2013 中的 IP 电话拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Lync Server 2013 中的 IP 电话拓扑
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-06-21_
 
 
 > [!NOTE]  
-> Lync Server 为以下 IP 电话提供支持： Aastra 6721ip 公共区域电话、Aastra 6725ip 办公桌电话、HP 4110 IP 电话（公用区域电话）、HP 4120 IP 电话（桌面电话）、Polycom CX600 IP 桌面电话、Polycom CX700 IP 桌面电话、Polycom CX500 IP公共区域电话和 Polycom CX3000 IP 会议电话。 在这些电话中，除 Polycom CX700 之外的所有其他电话都可以运行 Lync Phone Edition。
+> Lync Server 支持以下 IP 电话： Aastra 6721ip 公共区域电话、Aastra 6725ip 办公桌电话、HP 4110 IP Phone (常见区域电话) 、HP 4120 IP 电话 (桌面电话) 、Polycom CX600 IP 桌面电话、Polycom CX700 IP 桌面电话、Polycom CX500 IP 公用区域电话和 Polycom CX3000 IP 会议电话。 在这些电话中，除 Polycom CX700 之外的所有其他电话都可以运行 Lync Phone Edition。
 
 
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-06-21_
 
 
 > [!NOTE]  
-> 上图采用逻辑表示形式，而非物理概述。 例如，Active Directory 域服务（AD DS）很少与任何 Lync Server 组件位于同一台计算机上。 用户存储可以位于后端服务器上，也可以位于存档服务器和监控服务器上。 Lync Server 命令行管理程序、web 服务器和更新服务都是前端服务器角色的一部分。
+> 上图采用逻辑表示形式，而非物理概述。 例如，Active Directory 域服务 (AD DS) 很少与任何 Lync Server 组件位于同一台计算机上。 用户存储可以位于后端服务器上，也可以位于存档服务器和监控服务器上。 Lync Server 命令行管理程序、web 服务器和更新服务都是前端服务器角色的一部分。
 
 
 

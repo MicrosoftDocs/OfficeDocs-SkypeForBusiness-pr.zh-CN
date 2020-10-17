@@ -12,20 +12,22 @@ ms:contentKeyID: 48185638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70f445130cfb9139c799bda789a5618a5983397d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdbb78b214590228b78b7eb002e6226cc712c175
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524929"
 ---
+# <a name="managing-the-lync-server-2013-network-infrastructure"></a>管理 Lync Server 2013 网络基础结构
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-the-lync-server-2013-network-infrastructure"></a>管理 Lync Server 2013 网络基础结构
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217738"
 
 _**上次修改的主题：** 2014-02-11_
 
-Microsoft Lync Server 2013 包括对呼叫允许控制（CAC）和媒体旁路的支持。 要实现这些功能，必须配置区域、站点、子网等的网络，以便在需要限制音频和视频传输的情况下管理带宽。 您还可以使用服务质量 (QoS) 网络技术来帮助提供音频和视频通信的最佳最终用户体验。
+Microsoft Lync Server 2013 包括对呼叫允许控制 (CAC) 和媒体旁路的支持。 要实现这些功能，必须配置区域、站点、子网等的网络，以便在需要限制音频和视频传输的情况下管理带宽。 您还可以使用服务质量 (QoS) 网络技术来帮助提供音频和视频通信的最佳最终用户体验。
 
 您可以使用 Lync Server 控制面板设置和管理 CAC、媒体旁路和 QoS。 以下主题提供了执行此操作的步骤。
 
@@ -45,7 +47,7 @@ Microsoft Lync Server 2013 包括对呼叫允许控制（CAC）和媒体旁路�
 
 ## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中管理服务质量（QoS）](lync-server-2013-managing-quality-of-service-qos.md)
+  - [在 Lync Server 2013 中管理服务质量 (QoS) ](lync-server-2013-managing-quality-of-service-qos.md)
 
   - [在 Lync Server 2013 中管理呼叫允许控制](lync-server-2013-managing-call-admission-control.md)
 

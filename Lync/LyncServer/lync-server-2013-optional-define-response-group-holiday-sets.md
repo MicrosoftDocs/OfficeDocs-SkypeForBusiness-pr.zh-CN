@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：（可选）定义响应组假日集
+title: Lync Server 2013： (可选) 定义响应组假日集
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0680d59cb591e193f90bec16e19079dde8600b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5613ee8e3c1d5038b72b32d4d59950b884d32db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524449"
 ---
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a> (可选) 在 Lync Server 2013 中定义响应组假日集
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>Optional在 Lync Server 2013 中定义响应组假日集
+
 
 </div>
 

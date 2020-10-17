@@ -12,20 +12,22 @@ ms:contentKeyID: 48184571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcf2defebaf557230118bf557800d06a862ed39d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5e4b0c8154429fa68bc05e757130e0b92a47e65c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214458"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523759"
 ---
+# <a name="tblprincipal-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipal
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipal-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipal
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-12_
 
 tblPrincipal 包含所有主体，其中包括用户、文件夹和组。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>列数
 
 <table>
 <colgroup>
@@ -63,7 +65,7 @@ tblPrincipal 包含所有主体，其中包括用户、文件夹和组。
 <tr class="even">
 <td><p>prinGuid</p></td>
 <td><p>GUID，不为 null</p></td>
-<td><p>主体 GUID。 它被广泛用作备用主键，因为它的含义与 Active Directory 域服务空间中的含义相同。 （缓存主体的 GUID 等于相应的 Active Directory 对象 GUID。）</p></td>
+<td><p>主体 GUID。 它被广泛用作备用主键，因为它的含义与 Active Directory 域服务空间中的含义相同。  (缓存的主体的 GUID 等于相应的 Active Directory 对象 GUID。 ) </p></td>
 </tr>
 <tr class="odd">
 <td><p>prinUri</p></td>
