@@ -12,20 +12,22 @@ ms:contentKeyID: 48183945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dd399ef7a0ed2dd6609fe0455d9593e1e567b3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0be98112431b9e57486bb33e0eab84eada94e50
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183635"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506779"
 ---
+# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中启用 Kerberos 身份验证的先决条件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中启用 Kerberos 身份验证的先决条件
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2013-02-21_
 
   - 已定义和部署需要 Web 服务的服务器和角色，包括前端服务器、Standard Edition 服务器和控制器。
 
-  - Internet Information Services （IIS）使用推荐的角色服务进行配置和部署，以支持 Lync Server 2013 中的 Web 服务。
+  - Internet 信息服务 (IIS) 使用推荐的角色服务进行配置和部署，以支持 Lync Server 2013 中的 Web 服务。
 
 满足先决条件后，应准备好创建一个或多个帐户，以供用于部署的 Kerberos 身份验证的 Web 服务使用。 至少需要为每个部署创建一个 Kerberos 身份验证帐户。 但是，可以为每个站点创建一个帐户，以在该站点提供本地 Kerberos 身份验证。 只能为每个站点指定一个 Kerberos 身份验证帐户。
 

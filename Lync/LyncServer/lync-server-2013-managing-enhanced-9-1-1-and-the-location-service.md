@@ -12,20 +12,22 @@ ms:contentKeyID: 49733600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0042d08fbc5cc23b8c8462b59677b8ab6a36e139
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aea9d60c26eed872ce59c7dbac012c93f8ab7564
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185765"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505799"
 ---
+# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a>在 Lync Server 2013 中管理增强型9-1-1 和位置服务
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a>在 Lync Server 2013 中管理增强型9-1-1 和位置服务
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42185765"
 
 _**上次修改的主题：** 2012-11-01_
 
-Lync Server 2013 支持从 Lync 客户端和 Lync Phone Edition 设备调用增强的9-1-1 （E9-1-1）。 为 E9-1-1 配置 Lync Server 2013 时，由 Lync 2013 或 Lync Phone Edition 发出的紧急呼叫包括位置信息服务数据库中的紧急响应位置（ERL）信息。 使用本节中的过程可管理位置策略。
+Lync Server 2013 支持增强 9-1-1 (E9-1-1) 从 Lync 客户端和 Lync Phone Edition 设备调用。 为 E9-1-1 配置 Lync Server 2013 时，由 Lync 2013 或 Lync Phone Edition 发出的紧急呼叫包括来自位置信息服务数据库的紧急响应位置 (ERL) 信息。 使用本节中的过程可管理位置策略。
 
 <div>
 
 
 > [!NOTE]  
-> 有关部署高级企业语音功能（如 E9-1-1 和 Location 信息服务）的详细信息，请参阅<A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">在 Lync Server 2013 中部署高级企业语音功能</A>。
+> 有关部署高级企业语音功能（如 E9-1-1 和 Location 信息服务）的详细信息，请参阅 <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">在 Lync Server 2013 中部署高级企业语音功能</A>。
 
 
 

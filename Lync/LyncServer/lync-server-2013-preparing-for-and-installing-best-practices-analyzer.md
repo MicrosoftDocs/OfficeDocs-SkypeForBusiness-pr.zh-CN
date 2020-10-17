@@ -12,20 +12,22 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59bcaca40414c9bd99e451846c0339d0af6e7bf3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6a1ddaff4813035cabc8ca6b7468f1d4d06c93e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183715"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506929"
 ---
+# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中准备和安装最佳实践分析程序
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中准备和安装最佳实践分析程序
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-11-07_
 
 若要运行 Lync Server 2013 （最佳实践分析工具来扫描环境），计算机必须运行以下操作系统之一的64位版本：
 
-  - Windows Server 2008 R2 Service Pack 1 （SP1）标准操作系统
+  - Windows Server 2008 R2 Service Pack 1 (SP1) 标准操作系统
 
   - Windows Server 2008 R2 SP1 Enterprise 操作系统
 
@@ -73,9 +75,9 @@ _**上次修改的主题：** 2013-11-07_
 
   - Lync Server 2013 核心组件。
 
-  - WMI 向后兼容包。 有关详细信息，请参阅迁移文档中的[安装 WMI 后向兼容性程序包](install-wmi-backward-compatibility-package.md)。
+  - WMI 向后兼容包。 有关详细信息，请参阅迁移文档中的 [安装 WMI 后向兼容性程序包](install-wmi-backward-compatibility-package.md) 。
 
-  - Windows PowerShell 3.0。 有关详细信息，请参阅部署文档中的[安装 Windows PowerShell 3.0 For Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) 。
+  - Windows PowerShell 3.0。 有关详细信息，请参阅部署文档中的 [安装 Windows PowerShell 3.0 For Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) 。
 
 您可以在具有不运行 Lync Server 2013、核心组件或 WMI 向后兼容性程序包的受支持操作系统的计算机上安装最佳实践分析工具，但只能在这些计算机上使用最佳实践分析工具来查看报告，而不是运行扫描。
 
@@ -93,9 +95,9 @@ _**上次修改的主题：** 2013-11-07_
 
 ## <a name="installing-best-practices-analyzer"></a>安装最佳做法分析器
 
-你可以在上[https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539)下载适用于 Lync Server 2013 的最佳实践分析工具。
+你可以在上下载适用于 Lync Server 2013 的最佳实践分析工具 [https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539) 。
 
-若要安装最佳做法分析器，请在要安装此工具的计算机上启动 Microsoft Installer 文件 RtcBPA.msi，然后按照屏幕上显示的说明进行操作。 安装程序文件的默认\<位置是系统驱动器\>\\程序文件\\Lync Server 2013\\BPA。
+若要安装最佳做法分析器，请在要安装此工具的计算机上启动 Microsoft Installer 文件 RtcBPA.msi，然后按照屏幕上显示的说明进行操作。 安装程序文件的默认位置是 \<system drive\> \\ 程序文件 \\ Lync Server 2013 \\ BPA。
 
 </div>
 

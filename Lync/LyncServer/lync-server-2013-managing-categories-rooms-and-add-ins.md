@@ -12,20 +12,22 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65645907bf80f7177c653d9ff7ae04d3a961decf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f9281b7987bea7425589efc649c1c29a8482770
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218178"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505869"
 ---
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>在 Lync Server 2013 中管理类别、聊天室和外接程序
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>在 Lync Server 2013 中管理类别、聊天室和外接程序
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42218178"
 
 _**上次修改的主题：** 2012-10-06_
 
-在 Lync Server 2013 控制面板中，或通过使用 Windows PowerShell cmdlet，持久聊天管理员可以使用 "**持久聊天**" 页面创建类别和外接程序。若要管理持久聊天室，管理员可以使用 Windows PowerShell cmdlet。 或者，如果持久聊天管理员也是启用了 SIP 的，则可以使用 Lync 客户端启动网页来创建和管理聊天室。
+在 Lync Server 2013 控制面板中，或通过使用 Windows PowerShell cmdlet，持久聊天管理员可以使用 " **持久聊天** " 页面创建类别和外接程序。若要管理持久聊天室，管理员可以使用 Windows PowerShell cmdlet。 或者，如果持久聊天管理员也是启用了 SIP 的，则可以使用 Lync 客户端启动网页来创建和管理聊天室。
 
 以下主题介绍了如何创建和使用类别与聊天室。
 

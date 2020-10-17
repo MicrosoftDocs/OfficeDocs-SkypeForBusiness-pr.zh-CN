@@ -12,20 +12,22 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab897bf5bc9d959089090ebeaaddc4d766549401
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdb09d52970b5fd97395acda6a2e4fbc824a378d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217118"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505589"
 ---
+# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Lync Server 2013 中 XMPP 联盟伙伴的协商设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Lync Server 2013 中 XMPP 联盟伙伴的协商设置
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217118"
 
 _**上次修改的主题：** 2012-10-21_
 
-XMPP 合作伙伴的配置中的协商类型设置有多种可能的组合。 并不是所有这些组合都有效。 本主题中所述的表格将定义有效和无效的设置。 在第一个表中显示了常见配置，第二个表对所有可能的组合进行了详细说明。 请注意，除非还提供了*传输层安全性*（TLS），**否则**不能具有*简单的身份验证和安全层*（SASL）。 不加密（可读）格式的 SASL 以未加密（可读）格式发送，除非受到其他方式（如 TLS）保护，否则决不应传输。
+XMPP 合作伙伴的配置中的协商类型设置有多种可能的组合。 并不是所有这些组合都有效。 本主题中所述的表格将定义有效和无效的设置。 在第一个表中显示了常见配置，第二个表对所有可能的组合进行了详细说明。 请注意，除非还提供了*传输层安全性* (TLS) ，**否则**不能 (SASL) 具有*简单的身份验证和安全层*。 SASL 以未加密的 (可读) 格式发送，除非受到其他方式（如 TLS）的保护，否则永远不应传输。
 
 ### <a name="common-xmpp-federation-negotiation-methods"></a>常用 XMPP 联合身份验证协商方法
 
@@ -52,10 +54,10 @@ XMPP 合作伙伴的配置中的协商类型设置有多种可能的组合。 �
 <thead>
 <tr class="header">
 <th>传输层安全性 (TLS)</th>
-<th>简单身份验证和安全层（SASL）</th>
+<th>简单身份验证和安全层 (SASL) </th>
 <th>回拨身份验证</th>
-<th>预期的身份验证方法</th>
-<th>备注</th>
+<th> (s) 的预期身份验证方法</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
@@ -104,7 +106,7 @@ XMPP 合作伙伴的配置中的协商类型设置有多种可能的组合。 �
 <thead>
 <tr class="header">
 <th>传输层安全性 (TLS)</th>
-<th>简单身份验证和安全层（SASL）</th>
+<th>简单身份验证和安全层 (SASL) </th>
 <th>回拨身份验证</th>
 <th>预期的身份验证方法</th>
 <th>无效配置的备注、警告或错误</th>

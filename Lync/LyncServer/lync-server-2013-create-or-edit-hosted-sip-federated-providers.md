@@ -12,20 +12,22 @@ ms:contentKeyID: 48679556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b78e9be0f3b885a40fcf313173a1281ac5489936
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: d7704074db1b210ca341b05df9fbd02afabbc70a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221836"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507489"
 ---
+# <a name="create-or-edit-hosted-sip-federated-providers-lync-server-2013"></a>创建或编辑托管的 SIP 联合提供商 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-hosted-sip-federated-providers-lync-server-2013"></a>创建或编辑托管的 SIP 联合提供商 Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44221836"
 
 _**上次修改的主题：** 2012-10-19_
 
-托管提供程序即时消息（IM）连接使组织中的用户能够使用 IM 与托管提供商（包括 Microsoft 365 和 Lync Online）提供的 IM 服务的用户进行通信。
+托管提供程序即时消息 (IM) 连接使组织中的用户能够使用 IM 与托管提供商（包括 Microsoft 365 和 Lync Online）提供的 IM 服务的用户进行通信。
 
 使用提供程序的边缘服务器的完全限定域名以及默认验证级别**仅允许用户与其联系人列表上使用此提供程序的人员进行通信**来配置每个托管提供程序。
 
@@ -47,9 +49,9 @@ _**上次修改的主题：** 2012-10-19_
 
 ## <a name="to-create-or-edit-hosted-providers"></a>创建或编辑托管提供程序
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“联盟和外部访问”****，然后单击“SIP 联盟提供程序”****。
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2012-10-19_
     
       - **提供程序名称：**    一个必需属性，请键入提供程序的名称，因为它将反映在 SIP 联合提供程序的列表中。
     
-      - **访问边缘服务（FQDN）：**    一个必需属性，请键入您要配置的托管提供程序的访问边缘服务的完全限定的域名称。 此信息应由托管提供程序提供，并且仅当托管提供程序对托管提供程序的访问边缘服务的 FQDN 进行更改时，才应更改此信息。
+      - **访问边缘服务 (FQDN) ：**    一个必需属性，请键入您要配置的托管提供程序的访问边缘服务的完全限定的域名称。 此信息应由托管提供程序提供，并且仅当托管提供程序对托管提供程序的访问边缘服务的 FQDN 进行更改时，才应更改此信息。
     
       - **默认验证级别：**    默认设置是，**允许用户与其 "联系人" 列表中使用此提供商的人员进行通信**，以将通信限制为您已接受且位于您的联系人列表中的联系人。
         

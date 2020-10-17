@@ -12,20 +12,22 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bdf2ee113682ccee44d2329de68dfa87ea5824be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee394401999038c205826c99b3e6b2e35734087d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179979"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506129"
 ---
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改组内呼叫装货号码范围
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改组内呼叫装货号码范围
+
 
 </div>
 
@@ -67,19 +69,19 @@ _**上次修改的主题：** 2013-01-30_
 
   - 号码范围必须是唯一的。该范围不能与其他任何范围重叠。
 
-  - 如果数字范围以字符\*或\#开头，则该范围必须大于100。
+  - 如果数字范围以字符 \* 或开头，则 \# 该范围必须大于100。
 
-  - 有效值：必须与正则表达式字符串（\[\\\*|\#\]？\[1-9\]\\d{0,7}） |（\[1-9\]\\d{0,8}）。 这意味着值必须是以字符\*或\#数字1到9开头的字符串（第一个字符不能为零）。 如果第一个字符是\*或\#，则以下字符必须是1到9之间的数字（不能为零）。 后续字符可以是0到9之间的任何数字，最多七个其他字符（\#例如，"6000\*"、"92000\*"、"95551212" 和 "915551212"）。 如果第一个字符不\*是或\#，则第一个字符必须是数字1到9（不能为零），后跟八个字符，每个字符的数字0到9（例如，"915551212"，"41212"，"300"）。
+  - 有效值：必须与正则表达式字符串 (的值相匹配 \[ \\ \* | \# \] ？ \[1-9 \] \\ d {0,7}) | (\[ 1-9 \] \\ d {0,8}) 。 这意味着值必须是以字符 \* 或 \# 数字1到9开头的字符串， (第一个字符不能为零) 。 如果第一个字符是 \* 或 \# ，则以下字符必须是数字1到 9 (不能为零) 。 后续字符可以是0到9之间的任何数字，最多可以有七个其他字符 (例如，" \# 6000"、" \* 92000"、" \* 95551212" 和 "915551212" ) 。 如果第一个字符不是 \* 或 \# ，则第一个字符必须是从1到9的数字， (不能为零) ，后跟八个字符，每个数字0到 9 (例如，"915551212"、"41212"、"300" ) 。
 
 <div>
 
 ## <a name="to-create-or-modify-a-call-pickup-group-range"></a>创建或修改呼叫装货组范围
 
-1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在 [Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  使用**CsCallParkOrbit**创建一个新的呼叫应答组号码范围。 使用**CsCallParkOrbit**可修改现有的呼叫装货号码范围。
+3.  使用 **CsCallParkOrbit** 创建一个新的呼叫应答组号码范围。 使用 **CsCallParkOrbit** 可修改现有的呼叫装货号码范围。
     
     在命令行中运行：
     

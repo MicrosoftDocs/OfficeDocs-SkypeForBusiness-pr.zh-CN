@@ -12,20 +12,22 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c15eb698babcce1cd104dd7206c037b95d402992
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 883242824a6dfc45dbae923736a7a88bc1784d62
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506059"
 ---
+# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Lync Server 2013 的 lync 客户端视频要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Lync Server 2013 的 lync 客户端视频要求
+
 
 </div>
 
@@ -71,7 +73,7 @@ Lync 2013 为视频编码和解码引入了基于 H-p/MPEG-2 第10部分高级�
 <div>
 
 > [!NOTE]  
-> 有关解码模式的详细信息， <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A>请参阅。
+> 有关解码模式的详细信息，请参阅 <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A> 。
 
 
 </div></td>
@@ -83,10 +85,10 @@ Lync 2013 为视频编码和解码引入了基于 H-p/MPEG-2 第10部分高级�
 <li><p>具有集成的硬件视频编码器的第 2 代和第 3 代 Intel 高清显卡 2000、2500、3000 和 4000 芯片集（或更高版本）。 需要安装 Intel HD 图形驱动程序15.28.9.2884 或包含以下内容的最新驱动程序：</p>
 <ul>
 <li><p>显示驱动程序9.17.10.2884 或最新驱动程序</p></li>
-<li><p>硬件媒体基础转换（HMFT）版本3.12.10.31 或最新 HMFT</p></li>
+<li><p>硬件媒体基础转换 (HMFT) 版本3.12.10.31 或最新 HMFT</p></li>
 </ul></li>
 </ul>
-<p>支持以下 AMD 硬件加速视频编码解决方案（需要 Lync Server 2013 的 CU1 更新）：</p>
+<p>以下 AMD 硬件加速视频编码解决方案受支持 (需要 Lync Server 2013) 的 CU1 更新：</p>
 <ul>
 <li><p>AMD Video 编解码器引擎，可在多个独立图形卡和 AMD A 系列加速处理器的集成加速处理单元中使用。 必须安装 AMD 视频编解码器引擎驱动程序9.12.0.0 或更高版本。</p></li>
 </ul></td>
@@ -122,7 +124,7 @@ Lync 2013 为视频编码和解码引入了基于 H-p/MPEG-2 第10部分高级�
 
   - Windows 体验指数 (WEI)
 
-Windows 系统评估工具 (WinSAT) 确定 WEI。 当您运行 WinSAT 工具时，它会在计算机上的% windir%\\性能\\WinSAT\\数据存储目录中生成一个正式的. 评估 XML 文档。 此 XML 文件包含对于确定编码功能和解码功能非常重要的以下两项分数：
+Windows 系统评估工具 (WinSAT) 确定 WEI。 当您运行 WinSAT 工具时，它会在计算机上的% windir% \\ 性能 \\ WinSAT \\ 数据存储目录中生成一个正式的. 评估 XML 文档。 此 XML 文件包含对于确定编码功能和解码功能非常重要的以下两项分数：
 
   - VideoEncodeScore 指示计算机的基于软件的视频编码功能。
 
@@ -278,7 +280,7 @@ Windows 系统评估工具 (WinSAT) 确定 WEI。 当您运行 WinSAT 工具时�
 
 ## <a name="mobile-device-video-capabilities"></a>移动设备视频功能
 
-下表介绍了支持的移动设备的最大视频功能。 有关移动设备支持的详细信息，请参阅[在 Lync Server 2013 中规划移动客户端](lync-server-2013-planning-for-mobile-clients.md)。
+下表介绍了支持的移动设备的最大视频功能。 有关移动设备支持的详细信息，请参阅 [在 Lync Server 2013 中规划移动客户端](lync-server-2013-planning-for-mobile-clients.md)。
 
 
 <table>

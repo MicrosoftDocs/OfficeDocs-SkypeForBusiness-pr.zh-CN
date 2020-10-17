@@ -12,20 +12,22 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78d52e6a7eb36ce0f000a9986480d62692d3a33d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65ecb6946bcbb7244ef3e5ef8504312063ab1bd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195525"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507519"
 ---
+# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置观察程序节点测试用户和配置设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置观察程序节点测试用户和配置设置
+
 
 </div>
 
@@ -59,15 +61,15 @@ _**上次修改的主题：** 2013-07-29_
 
 ## <a name="configuring-test-user-accounts"></a>配置测试用户帐户
 
-测试用户不需要表示实际人员，但必须是有效的 Active Directory 域服务帐户;此外，必须为 Lync Server 2013 启用这些帐户，它们必须具有有效的 SIP 地址，并且应为企业语音启用这些帐户（以使用 CsPstnPeerToPeerCall 综合事务）。 如果使用 TrustedServer 身份验证方法，则您所需要做的就是确保这些帐户存在并且已按此处所指定的那样进行配置。 您应为要测试的每个池至少分配三个测试用户。
+测试用户不需要表示实际人员，但必须是有效的 Active Directory 域服务帐户;此外，必须为 Lync Server 2013 启用这些帐户，它们必须具有有效的 SIP 地址，并且应为企业语音 (启用这些帐户，才能使用 Test-CsPstnPeerToPeerCall 综合事务) 。 如果使用 TrustedServer 身份验证方法，则您所需要做的就是确保这些帐户存在并且已按此处所指定的那样进行配置。 您应为要测试的每个池至少分配三个测试用户。
 
-如果使用的是协商身份验证方法，则还必须使用**CsTestUserCredential** Cmdlet 和 Lync Server 命令行管理程序，以使这些测试帐户能够处理综合事务。 您可以通过运行与以下类似的命令来执行此操作（这些命令假设已创建三个 nm-ad-2nd 用户帐户，并且已针对 nm-server-w15-long 启用这些帐户。 （这些命令假定已经创建了三个 Active Directory 用户帐户，并且已为这些帐户启用了 Lync Server 2013。）：
+如果使用的是协商身份验证方法，则还必须使用 **CsTestUserCredential** Cmdlet 和 Lync Server 命令行管理程序，以使这些测试帐户能够处理综合事务。 您可以通过运行与以下类似的命令来执行此操作（这些命令假设已创建三个 nm-ad-2nd 用户帐户，并且已针对 nm-server-w15-long 启用这些帐户。  (这些命令假定已经创建了三个 Active Directory 用户帐户，并且已为这些帐户启用了 Lync Server 2013。 ) ：
 
     Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-请注意，不仅必须包括 SIP 地址，而且还要包括用户名和密码。 如果不包括密码，Set-CsTestUserCredential 将提示您输入该信息。 可以使用上面显示的域名\\用户名格式指定用户名，或使用格式用户 name@domain 名称指定名称。例如：
+请注意，不仅必须包括 SIP 地址，而且还要包括用户名和密码。 如果不包括密码，Set-CsTestUserCredential 将提示您输入该信息。 可以使用 \\ 上面显示的域名用户名格式或使用格式用户 name@domain 名称来指定用户名; 例如：
 
     -UserName "watcher3@litwareinc.com"
 
@@ -107,7 +109,7 @@ _**上次修改的主题：** 2013-07-29_
 
 请注意，必须将此命令的结果存储在变量中。 在此示例中，指的是名为 $pstnTest 的变量。
 
-在这种情况下，您可以使用**new-cswatchernodeconfiguration** cmdlet 将测试类型（存储在变量 $pstnTest 中）与 Lync Server 2013 池相关联。 例如，下列命令会为池 atl-cs-001.litwareinc.com 创建新的观察程序节点配置，从而添加先前已创建的三个测试用户，并同时添加 PSTN 测试类型：
+此时，您可以使用 **new-cswatchernodeconfiguration** cmdlet 将变量 $pstnTest) 中存储 (测试类型与 Lync Server 2013 池相关联。 例如，下列命令会为池 atl-cs-001.litwareinc.com 创建新的观察程序节点配置，从而添加先前已创建的三个测试用户，并同时添加 PSTN 测试类型：
 
     New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 
@@ -119,7 +121,7 @@ _**上次修改的主题：** 2013-07-29_
 
 如果在未使用 Tests 参数的情况下呼叫 New-CsWatcherNodeConfiguration，则表示只会针对新的观察程序节点启用默认综合事务（以及指定的扩展综合事务）。这意味着该观察程序节点将测试以下组件：
 
-  - 注册
+  - Registration
 
   - IM
 

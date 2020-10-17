@@ -12,20 +12,22 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7b4bc93f78ed72515270557e3224195df7ecd81
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3702e8976c0afeef364fdec52616bb4f4d1b8d86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193115"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506659"
 ---
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>在 Lync Server 2013 中更新 Outlook 启用列表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>在 Lync Server 2013 中更新 Outlook 启用列表
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42193115"
 
 _**上次修改的主题：** 2013-01-07_
 
-您可以通过在 Outlook 外接程序管理列表中创建包含它的策略来确保 Microsoft Lync 2013 的联机会议外接程序始终为用户启用。 外接程序管理列表策略包含在组策略管理控制台的 Office 管理模板文件中。 它在 "HKCU\\软件\\策略\\Microsoft\\Office\\15.0\\Outlook15\\弹性\\AddinList" 下创建一个注册表项。 您可以将 ucaddin 的值添加到此注册表项，并配置 ucaddin 值以使其始终处于启用状态，以便用户无法手动禁用它
+您可以通过在 Outlook 外接程序管理列表中创建包含它的策略来确保 Microsoft Lync 2013 的联机会议外接程序始终为用户启用。 外接程序管理列表策略包含在组策略管理控制台的 Office 管理模板文件中。 它在 "HKCU \\ 软件 \\ 策略 \\ Microsoft \\ Office \\ 15.0 \\ Outlook15 \\ 弹性 \\ AddinList" 下创建一个注册表项。 您可以将 ucaddin.dll 的值添加到此项，并配置 ucaddin.dll 值以使其始终处于启用状态，以便用户无法手动禁用它
 
 <div>
 
-## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>将 ucaddin 添加到 Outlook 外接列表
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>将 ucaddin.dll 添加到 Outlook 外接列表中
 
-  - 若要在 "HKCU\\软件\\策略\\Microsoft\\Office\\15.0\\Outlook15\\弹性\\AddinList" 下找到 AddinList 注册表项，请添加以下值：
+  - 若要在 "HKCU \\ 软件 \\ 策略 Microsoft Office 15.0 Outlook15 弹性 AddinList" 下找到 AddinList 注册表项， \\ \\ \\ \\ \\ \\ 请添加以下值：
     
-      - 注册表类型 = REG\_SZ
+      - 注册表类型 = REG \_ SZ
     
       - 名称 = ucaddin.dll
     

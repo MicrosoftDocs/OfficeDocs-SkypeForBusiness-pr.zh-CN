@@ -12,20 +12,22 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd5875dc7e0dd999a1d94e6e7722eeba07c3a37e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f31354ee87cdf7df5efdb6c4e2accf3758829c1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183605"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506829"
 ---
+# <a name="preparing-to-restore-lync-server-2013"></a>准备还原 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-to-restore-lync-server-2013"></a>准备还原 Lync Server 2013
+
 
 </div>
 
@@ -134,7 +136,7 @@ _**上次修改的主题：** 2013-02-21_
     
 
     > [!NOTE]  
-    > 安装本地配置存储时，Lync Server 部署向导会自动在每个 Standard Edition 服务器和任何其他 Lync Server 服务器上安装 SQL Server 2012 Express，除非您已预安装 SQL Server 2012 或 SQL Server 2008 R2服务器。
+    > 安装本地配置存储时，Lync Server 部署向导会自动在每个 Standard Edition 服务器和任何其他 Lync Server 服务器上安装 SQL Server 2012 Express，除非在服务器上预安装了 SQL Server 2012 或 SQL Server 2008 R2。
 
     
     </div>
@@ -150,13 +152,13 @@ _**上次修改的主题：** 2013-02-21_
     
     </div>
 
-  - Lync Server 2013 安装软件。 Lync Server 部署向导位于 Lync Server 安装文件夹或位于\\安装程序\\amd64\\setup.exe 的媒体中。
+  - Lync Server 2013 安装软件。 Lync Server 部署向导位于 Lync Server 安装文件夹或位于 \\ 安装 amd64Setup.exe 的媒体中 \\ \\ 。
 
 还原期间，使用以下工具：
 
   - Lync Server 命令行管理程序 cmdlet
 
-  - Import-Export-csuserdata
+  - Import-CsUserData
 
   - 用于还原 Windows 文件夹的工具
 
@@ -176,7 +178,7 @@ _**上次修改的主题：** 2013-02-21_
 
 2.  如果服务器是后端服务器，请安装 SQL Server 2012 或 SQL Server 2008 R2。
 
-3.  还原或重新注册证书。 有关证书的详细信息，请参阅[Lync Server 2013： data 中的 "备份和还原要求](lync-server-2013-backup-and-restoration-requirements-data.md)" 中的 "其他备份要求"。
+3.  还原或重新注册证书。 有关证书的详细信息，请参阅 [Lync Server 2013： data 中的 "备份和还原要求](lync-server-2013-backup-and-restoration-requirements-data.md)" 中的 "其他备份要求"。
 
 4.  在开始还原之前获取系统的映像以用作回滚点，以防还原过程中出现问题。
 
@@ -184,7 +186,7 @@ _**上次修改的主题：** 2013-02-21_
 
 
 > [!NOTE]  
-> 本主题中的过程中描述的 Lync Server 部署向导和 cmdlet 以及相关主题设置所有必需的访问控制列表（Acl）。
+> 在本主题的过程中介绍的 Lync Server 部署向导和 cmdlet 以及相关主题将所有必需的访问控制列表设置 (Acl) 。
 
 
 
@@ -192,7 +194,7 @@ _**上次修改的主题：** 2013-02-21_
 
 验证您计划还原的组件所需的硬件和软件在开始还原之前是否可用。 在安装操作系统和 SQL Server 后，以下还原过程中的大多数步骤都可以远程运行。 过程中注明的例外情况除外。
 
-您还应了解您的组织的备份和还原计划以及上一次备份中的信息，如本文档中的工作表中的信息（有关详细信息，请参阅[Lync Server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)），以便在开始还原之前使用。
+此外，您还应了解您的组织的备份和还原计划以及上次备份中的信息，如本文档中的工作表中的信息 (有关详细信息，请参阅 [Lync Server 2013) 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md) （可在开始还原之前使用）。
 
 </div>
 

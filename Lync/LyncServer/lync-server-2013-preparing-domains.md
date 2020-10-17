@@ -12,20 +12,22 @@ ms:contentKeyID: 48184816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21e369c762a1333e92ee91b4240577dc669d82dd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a37c365732785198e45a546f2352c51ccb42f9dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201878"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506939"
 ---
+# <a name="preparing-domains-for-lync-server-2013"></a>准备 Lync Server 2013 的域
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-domains-for-lync-server-2013"></a>准备 Lync Server 2013 的域
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2012-10-29_
 
 您可以在要部署 Lync Server 的域中的任何计算机上运行域准备工作。 您必须准备将承载 Lync Server 或用户的每个域。
 
-如果在组织中禁用了权限继承，或者禁用了经过身份验证的用户权限，则在域准备期间还必须执行其他步骤。 有关详细信息，请参阅[在 Lync Server 2013 中准备锁定的 Active Directory 域服务](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)。
+如果在组织中禁用了权限继承，或者禁用了经过身份验证的用户权限，则在域准备期间还必须执行其他步骤。 有关详细信息，请参阅 [在 Lync Server 2013 中准备锁定的 Active Directory 域服务](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)。
 
 如果组织使用组织单位 (OU) 代替三个内置容器（即“用户”、“计算机”和“域控制器”），则必须为 Authenticated Users 组授予 OU 的读取权限。 域准备需要具有容器的读取权限。 如果 Authenticated Users 组没有对 OU 的读取权限，请按照以下代码示例中所示运行 **Grant-CsOuPermission** cmdlet，授予对每个 OU 的读取权限。
 
@@ -53,13 +55,13 @@ _**上次修改的主题：** 2012-10-29_
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
    ```
 
-有关 CsOuPermission cmdlet 的详细信息，请参阅 Lync Server 命令行管理**程序**文档。
+有关 CsOuPermission cmdlet 的详细信息，请参阅 Lync Server 命令行管理 **程序** 文档。
 
 <div class="">
 
 
 > [!TIP]  
-> 有关在域根和用户、计算机和域控制器容器中创建的 Ace 的详细信息，请参阅<A href="lync-server-2013-changes-made-by-domain-preparation.md">Lync Server 2013 中的域准备所做的更改</A>。
+> 有关在域根和用户、计算机和域控制器容器中创建的 Ace 的详细信息，请参阅 <A href="lync-server-2013-changes-made-by-domain-preparation.md">Lync Server 2013 中的域准备所做的更改</A>。
 
 
 

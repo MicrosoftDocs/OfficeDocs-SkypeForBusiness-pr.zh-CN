@@ -12,20 +12,22 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88eeae2c08020aacb142bbceb6c2637ae4d55b63
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 150b240fe0c2be769e407cacecd8440bd4596ae5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188365"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506229"
 ---
+# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>配置 Lync Server 2013 以使用 System Center Operations Manager
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>配置 Lync Server 2013 以使用 System Center Operations Manager
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**上次修改的主题：** 2012-10-22_
 
 为了将 Microsoft Lync Server 2013 基础结构配置为与 System Center Operations Manager 配合使用，您必须执行以下三项操作：
 
-  - 确定并配置您的主 System Center Operations Manager 管理服务器。 配置管理服务器包括安装 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2，以及使用 SQL Server 设置后端数据库。 您需要使用的 SQL Server 的实际版本取决于所使用的 System Center Operations Manager 的版本。 有关详细信息，请参阅[在 Lync server 2013 中配置主管理服务器](lync-server-2013-configuring-the-primary-management-server.md)。
+  - 确定并配置您的主 System Center Operations Manager 管理服务器。 配置管理服务器包括安装 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2，以及使用 SQL Server 设置后端数据库。 您需要使用的 SQL Server 的实际版本取决于所使用的 System Center Operations Manager 的版本。 有关详细信息，请参阅 [在 Lync server 2013 中配置主管理服务器](lync-server-2013-configuring-the-primary-management-server.md)。
 
   - 确定并配置要监视的 Lync Server 计算机。 若要使用 System Center Operations Manager 监视 Lync Server 计算机，必须安装 System Center Operations Manager 代理文件，并将每台服务器配置为充当代理。
 
-  - 确定并配置要充当 Lync Server*观察程序节点*的计算机。 观察程序节点是定期运行 Lync Server 合成事务的计算机，这些 cmdlet 是验证关键 Lync Server 组件（如登录到系统或 exchange 即时消息的能力）的 Windows PowerShell cmdlet。按预期工作。
+  - 确定并配置要充当 Lync Server *观察程序节点*的计算机。 观察程序节点是定期运行 Lync Server 合成事务的计算机，这些 cmdlet 是验证关键 Lync Server 组件（如登录系统或 exchange 即时消息的功能）是否按预期运行的 Windows PowerShell cmdlet。
 
 本节中的主题包含执行其中每项任务的说明。
 

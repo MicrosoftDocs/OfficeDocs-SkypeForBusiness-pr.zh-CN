@@ -12,20 +12,22 @@ ms:contentKeyID: 49733560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21fa89b5afe53937ee515dac45053dbd84ae12ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1b8cac172b4973f86916269585d2d9b02cdc728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217589"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505729"
 ---
+# <a name="medialine-view-in-lync-server-2013"></a>Lync Server 2013 中的 MediaLine 视图
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="medialine-view-in-lync-server-2013"></a>Lync Server 2013 中的 MediaLine 视图
+
 
 </div>
 
@@ -91,7 +93,7 @@ _**上次修改的主题：** 2012-10-03_
 </tr>
 <tr class="even">
 <td><p>CallerIPAddr</p></td>
-<td><p>var （50）</p></td>
+<td><p>var (50) </p></td>
 <td><p>呼叫者的 IP 地址。可为 IPv4 或 IPv6 地址。</p></td>
 </tr>
 <tr class="odd">
@@ -106,13 +108,13 @@ _**上次修改的主题：** 2012-10-03_
 </tr>
 <tr class="odd">
 <td><p>CallerMacAddress</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者使用的网络接口的 MAC 地址。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRelayIPAddr</p></td>
-<td><p>var （50）</p></td>
-<td><p>呼叫者所使用的 A/V 边缘服务的 IP 地址。 有关详细信息，请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a>。</p></td>
+<td><p>var (50) </p></td>
+<td><p>呼叫者所使用的 A/V 边缘服务的 IP 地址。 有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayPort</p></td>
@@ -121,47 +123,47 @@ _**上次修改的主题：** 2012-10-03_
 </tr>
 <tr class="even">
 <td><p>CallerReflexiveIPAddr</p></td>
-<td><p>var （50）</p></td>
+<td><p>var (50) </p></td>
 <td><p>A/V 边缘服务报告的呼叫者的 IP 地址。 如果客户端位于 NAT 之后，则此地址可能与 CallerIPAddr 不同。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerCaptureDev</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者的捕获设备名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRenderDev</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者的呈现设备名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerCaptureDevDriver</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者的捕获设备驱动程序名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRenderDevDriver</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者的呈现设备驱动程序名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerWifiDriverDeviceDesc</p></td>
-<td><p>varchar （256</p></td>
+<td><p>varchar (256</p></td>
 <td><p>呼叫者的 Wifi 驱动程序描述。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerWifiDriverVersion</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者的 Wifi 驱动程序版本。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeNetworkConnectionDetail</p></td>
-<td><p>varchar （256）</p></td>
-<td><p>呼叫者的网络连接的详细信息。 有关详细信息，请参阅<a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表</a>。</p></td>
+<td><p>varchar (256) </p></td>
+<td><p>呼叫者的网络连接的详细信息。 有关详细信息，请参阅 <a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerBssid</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者 WiFi 连接使用的基本服务集标识符。</p></td>
 </tr>
 <tr class="odd">
@@ -171,7 +173,7 @@ _**上次修改的主题：** 2012-10-03_
 </tr>
 <tr class="even">
 <td><p>CalleeIPAddr</p></td>
-<td><p>var （50）</p></td>
+<td><p>var (50) </p></td>
 <td><p>被叫方的 IP 地址。 可为 IPv4 或 IPv6 地址。</p></td>
 </tr>
 <tr class="odd">
@@ -186,13 +188,13 @@ _**上次修改的主题：** 2012-10-03_
 </tr>
 <tr class="odd">
 <td><p>CalleeMacAddress</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>被叫方使用的网络接口的 MAC 地址。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeRelayIPAddr</p></td>
-<td><p>var （50）</p></td>
-<td><p>被叫方使用的 A/V 边缘服务的 IP 地址。 有关详细信息，请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a>。</p></td>
+<td><p>var (50) </p></td>
+<td><p>被叫方使用的 A/V 边缘服务的 IP 地址。 有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayPort</p></td>
@@ -201,47 +203,47 @@ _**上次修改的主题：** 2012-10-03_
 </tr>
 <tr class="even">
 <td><p>CalleeReflexiveIPAddr</p></td>
-<td><p>var （50）</p></td>
+<td><p>var (50) </p></td>
 <td><p>A/V 边缘服务报告的被叫方的 IP 地址。 如果客户端位于 NAT 之后，则此地址可能与 CalleeIPAddr 不同。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeCaptureDev</p></td>
-<td><p>var （50）</p></td>
+<td><p>var (50) </p></td>
 <td><p>被叫方的捕获设备名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeRenderDev</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>被叫方的呈现设备名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeCaptureDevDriver</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>被叫方的捕获设备驱动程序名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeRenderDevDriver</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>被叫方的呈现设备驱动程序名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeWifiDriverDeviceDesc</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>被叫方的 Wifi 驱动程序描述。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeWifiDriverVersion</p></td>
-<td><p>varchar （256</p></td>
+<td><p>varchar (256</p></td>
 <td><p>被叫方的 Wifi 驱动程序版本。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeNetworkConnectionDetail</p></td>
-<td><p>varchar （256）</p></td>
-<td><p>被叫方的网络连接的详细信息。 有关详细信息，请参阅<a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表</a>。</p></td>
+<td><p>varchar (256) </p></td>
+<td><p>被叫方的网络连接的详细信息。 有关详细信息，请参阅 <a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeBssid</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>被叫方 WiFi 连接使用的基本服务集标识符。</p></td>
 </tr>
 <tr class="odd">
@@ -251,7 +253,7 @@ _**上次修改的主题：** 2012-10-03_
 </tr>
 <tr class="even">
 <td><p>ConversationalMOS</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>音频会话的窄带交谈 MOS（基于两个音频流）。</p></td>
 </tr>
 <tr class="odd">
@@ -261,7 +263,7 @@ _**上次修改的主题：** 2012-10-03_
 </tr>
 <tr class="even">
 <td><p>AppliedBandwidthSource</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>所设定的带宽限制的来源。它描述带宽限制源自的位置（例如，“策略服务器”、“TURN 服务器”或“形式”）。</p></td>
 </tr>
 <tr class="odd">

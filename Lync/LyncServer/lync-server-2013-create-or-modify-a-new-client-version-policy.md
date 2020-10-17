@@ -12,20 +12,22 @@ ms:contentKeyID: 50873756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e95abe52883bff2c99ad02b01ea4cc1473f4626f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bfb78150097fe7bde3b72338b3d1c9c37dc2a9b6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205498"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506109"
 ---
+# <a name="create-or-modify-a-new-client-version-policy-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改新的客户端版本策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-new-client-version-policy-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改新的客户端版本策略
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-02-23_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“客户端”****。
     
@@ -58,13 +60,13 @@ _**上次修改的主题：** 2013-02-23_
     
     </div>
 
-4.  在 "**客户端版本策略**" 页上，执行下列操作之一：
+4.  在 " **客户端版本策略** " 页上，执行下列操作之一：
     
-      - 若要创建客户端版本策略，请单击 "**新建**"，选择 "**网站策略**"、"**池策略**" 或 "**用户策略**"，然后单击 **"确定"**。
+      - 若要创建客户端版本策略，请单击 " **新建**"，选择 " **网站策略**"、" **池策略**" 或 " **用户策略**"，然后单击 **"确定"**。
     
-      - 若要修改全局策略或其他现有客户端版本策略，请选择该策略，单击 "**编辑**"，然后单击 "**显示详细信息**"。
+      - 若要修改全局策略或其他现有客户端版本策略，请选择该策略，单击 " **编辑**"，然后单击 " **显示详细信息**"。
 
-5.  在 "**编辑客户端版本策略**" 页上，创建或修改规则，如在[Lync Server 2013 中创建或修改新的客户端版本策略规则](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)中所述。
+5.  在 " **编辑客户端版本策略** " 页上，创建或修改规则，如在 [Lync Server 2013 中创建或修改新的客户端版本策略规则](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)中所述。
 
 </div>
 
@@ -72,7 +74,7 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="creating-or-modifying-client-version-policies-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 创建或修改客户端版本策略
 
-您可以使用**CsClientVersionPolicy** cmdlet 创建客户端版本策略，并使用**CsClientVersionPolicy** cmdlet 对其进行修改。 这些 cmdlet 可从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 **CsClientVersionPolicy** cmdlet 创建客户端版本策略，并使用 **CsClientVersionPolicy** cmdlet 对其进行修改。 这些 cmdlet 可从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -94,7 +96,7 @@ _**上次修改的主题：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientVersionPolicy) Cmdlet 和[CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionPolicy) cmdlet 的帮助主题。
+有关详细信息，请参阅 [CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientVersionPolicy) Cmdlet 和 [CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionPolicy) cmdlet 的帮助主题。
 
 </div>
 

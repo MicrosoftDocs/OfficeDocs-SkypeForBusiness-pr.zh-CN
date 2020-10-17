@@ -12,20 +12,22 @@ ms:contentKeyID: 48183926
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9ab1ea2180c8fa4ba4f40cbf621816fe41ea7f9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e35438969d8876875bef3d22b2d0ab676c146189
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183744"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506859"
 ---
+# <a name="preparing-the-forest-for-lync-server-2013"></a>准备 Lync Server 2013 的林
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-the-forest-for-lync-server-2013"></a>准备 Lync Server 2013 的林
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183744"
 
 _**上次修改的主题：** 2013-02-21_
 
-林准备创建 Active Directory 全局设置和对象以及由 Lync Server 2013 使用的 Active Directory 通用组，并授予对 Active Directory 对象的适当访问权限。 有关通用组以及由林准备创建的全局设置和对象的说明，请参阅[Lync Server 2013 中的林准备所做的更改](lync-server-2013-changes-made-by-forest-preparation.md)。
+林准备创建 Active Directory 全局设置和对象以及由 Lync Server 2013 使用的 Active Directory 通用组，并授予对 Active Directory 对象的适当访问权限。 有关通用组以及由林准备创建的全局设置和对象的说明，请参阅 [Lync Server 2013 中的林准备所做的更改](lync-server-2013-changes-made-by-forest-preparation.md)。
 
 林准备还会创建包含由 Lync Server 2013 使用的属性集和显示说明符的对象，并将它们存储在配置容器中。
 

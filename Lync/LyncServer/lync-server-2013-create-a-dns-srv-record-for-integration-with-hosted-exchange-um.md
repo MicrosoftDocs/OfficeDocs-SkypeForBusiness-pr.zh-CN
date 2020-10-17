@@ -12,20 +12,22 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c30164813619a271f2321db3ff3e8019067193c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac215b5a0ba42ff031962e656e72fb355a808bf4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507469"
 ---
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>创建 DNS SRV 记录以与托管 Exchange UM 集成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>创建 DNS SRV 记录以与托管 Exchange UM 集成
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42198955"
 
 _**上次修改的主题：** 2013-02-20_
 
-本主题介绍如何配置 Lync Server 2013 边缘服务器路由到托管 Exchange 服务（如 Microsoft Exchange Online）所需的域名系统（DNS） SRV 记录。
+本主题介绍如何将 Lync Server 2013 边缘服务器所需的域名系统 (DNS) SRV 记录配置为路由到托管 Exchange 服务（如 Microsoft Exchange Online）。
 
 <div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2013-02-20_
 
 2.  依次单击“开始”****、“管理工具”**** 和“DNS”****。
 
-3.  在您的 SIP 域的控制台树中，展开 "**正向查找区域**"，然后选择将在其中安装 Lync Server 2013 的 SIP 域。
+3.  在您的 SIP 域的控制台树中，展开 " **正向查找区域**"，然后选择将在其中安装 Lync Server 2013 的 SIP 域。
     
     <div>
     
@@ -62,19 +64,19 @@ _**上次修改的主题：** 2013-02-20_
 
 5.  在“资源记录类型”**** 中，单击“服务位置(SRV)”****，再单击“创建记录”****。
 
-6.  在 "**新建资源记录**" 中，单击 "**服务**"，然后键入** \_sipfederationtls**。
+6.  在 "**新建资源记录**" 中，单击 "**服务**"，然后键入** \_ sipfederationtls**。
 
-7.  单击 "**协议**"，然后键入** \_tcp**。
+7.  单击 "**协议**"，然后键入** \_ tcp**。
 
 8.  单击“端口号”****，再键入“5061”****。
 
-9.  单击 "**主机提供此服务**"，然后键入 lync Server 2013 边缘池的完全限定域名（FQDN），该域名为受信任的外部客户端提供对 lync server 2013 系统的访问权限。
+9.  单击 " **主机提供此服务**"，然后键入 lync Server 2013 Edge 池 (FQDN) 的完全限定域名，该名称为受信任的外部客户端提供对 lync server 2013 系统的访问权限。
     
     <div>
     
 
     > [!NOTE]
-    > 此外，还必须将域设置为 Exchange Online 设置中的权威性的接受域。 有关详细信息，请参阅在上<A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>创建接受的域。
+    > 此外，还必须将域设置为 Exchange Online 设置中的权威性的接受域。 有关详细信息，请参阅在上创建接受的域 <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A> 。
 
     
     </div>

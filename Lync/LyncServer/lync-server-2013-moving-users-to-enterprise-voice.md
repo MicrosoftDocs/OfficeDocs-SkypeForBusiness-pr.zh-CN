@@ -12,20 +12,22 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5554a9c7fde74b5bcf9c81c451023d0f48bbf918
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3dfd2507f57265b53beea6f84d07760d35abe6e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217138"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507049"
 ---
+# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>将用户移动到 Lync Server 2013 中的企业语音
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>将用户移动到 Lync Server 2013 中的企业语音
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217138"
 
 _**上次修改的主题：** 2012-10-18_
 
-如果要将用户从现有的 PBX 电话基础结构移动到企业语音，则部署过程包括一些步骤，这些步骤不是在[Lync Server 2013 中规划企业语音中](lync-server-2013-planning-for-enterprise-voice.md)已介绍的规划过程的一部分。 有关从早期的企业语音部署迁移用户的信息，请参阅安装介质中包含的迁移文档。
+如果要将用户从现有的 PBX 电话基础结构移动到企业语音，则部署过程包括一些步骤，这些步骤不是在 [Lync Server 2013 中规划企业语音中](lync-server-2013-planning-for-enterprise-voice.md)已介绍的规划过程的一部分。 有关从早期的企业语音部署迁移用户的信息，请参阅安装介质中包含的迁移文档。
 
 将用户从现有的电话基础结构迁移到企业语音的过程包含以下步骤：
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-10-18_
 
 6.  将 PBX 或 SIP 中继配置为对启用了企业语音的用户重新路由呼叫。
 
-7.  将用户移动到 Exchange 统一消息（UM）（推荐）。
+7.  将用户移动到 Exchange 统一消息 (UM)  (建议的) 。
 
 本主题介绍上述每个步骤所必需的规划。
 
@@ -85,7 +87,7 @@ _**上次修改的主题：** 2012-10-18_
     
 
     > [!NOTE]  
-    > <STRONG>与远程呼叫控制 (RCC) 共存</STRONG><BR>RCC 是一种使用 Lync Server 监视和控制桌面 PBX 电话的功能。 远程呼叫控制是通过充当 PBX 网关的服务器路由的。 尽管无法同时为用户配置 RCC 和企业语音，但线路 URL 设置在任一情况下都会指定用户的主要电话号码。<BR>如果希望选定用户继续使用现有的 PBX 基础结构，则可在组织中逐步引入企业语音。 有关此部署方案的详细信息，请参阅规划文档中的<A href="lync-server-2013-direct-sip-deployment-options.md">Lync Server 2013 中的直接 SIP 部署选项</A>。<BR>在以前的版本中，您可以为用户启用 RCC 和企业语音，但前提是您还为用户配置了双分叉，即传入呼叫将同时拨打用户的 PBX 电话和 Communicator 的功能。 在 Lync Server 2010 中，不支持双重分叉。
+    > <STRONG>与远程呼叫控制 (RCC) 共存</STRONG><BR>RCC 是一种使用 Lync Server 监视和控制桌面 PBX 电话的功能。 远程呼叫控制是通过充当 PBX 网关的服务器路由的。 尽管无法同时为用户配置 RCC 和企业语音，但线路 URL 设置在任一情况下都会指定用户的主要电话号码。<BR>如果希望选定用户继续使用现有的 PBX 基础结构，则可在组织中逐步引入企业语音。 有关此部署方案的详细信息，请参阅规划文档中的 <A href="lync-server-2013-direct-sip-deployment-options.md">Lync Server 2013 中的直接 SIP 部署选项</A> 。<BR>在以前的版本中，您可以为用户启用 RCC 和企业语音，但前提是您还为用户配置了双分叉，即传入呼叫将同时拨打用户的 PBX 电话和 Communicator 的功能。 在 Lync Server 2010 中，不支持双重分叉。
 
     
     </div>
@@ -94,7 +96,7 @@ _**上次修改的主题：** 2012-10-18_
 
   - Microsoft 身份集成服务器（推荐）
 
-  - Lync Server "控制面板" 中的 "**用户**" 页
+  - Lync Server "控制面板" 中的 " **用户** " 页
 
 在必须处理多少个电话号码的情况下，由您的组织开发的脚本自定义是更好的选择。 根据您所在组织在 Active Directory 域服务中表示电话号码的方式，脚本可能必须先将主要电话号码规范化为 E.164 格式，然后再将这些号码复制到 **msRTCSIP-line** 属性。
 
@@ -137,7 +139,7 @@ _**上次修改的主题：** 2012-10-18_
 
 已启用企业语音的用户在没有拨号计划的情况下将无法向 PSTN 发起呼叫。拨号计划是一组指定的规范化规则，可将指定位置、单个用户或联系人对象的电话号码转换为统一标准 (E.164) 格式，以进行电话授权和呼叫路由。规范化规则定义如何针对每个指定的位置、用户或联系人对象来路由以不同格式表示的电话号码。
 
-有关准备拨号计划的信息，请参阅[Lync Server 2013 中的拨号计划和规范化规则](lync-server-2013-dial-plans-and-normalization-rules.md)。
+有关准备拨号计划的信息，请参阅 [Lync Server 2013 中的拨号计划和规范化规则](lync-server-2013-dial-plans-and-normalization-rules.md)。
 
 </div>
 
@@ -145,7 +147,7 @@ _**上次修改的主题：** 2012-10-18_
 
 ## <a name="step-4-plan-user-voice-policies"></a>步骤 4. 规划用户语音策略
 
-随着用户的 VoIP 策略迁移到企业语音，必须重新配置旧版 PBX 上的用户服务级别设置（如从公司电话拨打长途或国际长途电话的权限）。 有关规划和创建企业语音策略的详细信息，请参阅[Lync Server 2013 中的语音策略](lync-server-2013-voice-policies.md)。
+随着用户的 VoIP 策略迁移到企业语音，必须重新配置旧版 PBX 上的用户服务级别设置（如从公司电话拨打长途或国际长途电话的权限）。 有关规划和创建企业语音策略的详细信息，请参阅 [Lync Server 2013 中的语音策略](lync-server-2013-voice-policies.md)。
 
 </div>
 
@@ -155,7 +157,7 @@ _**上次修改的主题：** 2012-10-18_
 
 呼叫路由指定 Lync Server 如何处理由企业语音用户发出的出站呼叫。 当用户拨打号码时，服务器在必要时将拨号串规范为 E.164 格式，并尝试将它与 SIP URI 进行匹配。 如果服务器无法进行匹配，它将基于该号码应用传出呼叫路由逻辑。 定义该逻辑的最后一步是为每个拨号计划中所列出的每组目标电话号码创建单独的命名呼叫路由。
 
-有关规划呼叫路由的详细信息，请参阅[Lync Server 2013 中的语音路由](lync-server-2013-voice-routes.md)。
+有关规划呼叫路由的详细信息，请参阅 [Lync Server 2013 中的语音路由](lync-server-2013-voice-routes.md)。
 
 </div>
 
@@ -175,7 +177,7 @@ _**上次修改的主题：** 2012-10-18_
 
   - 将 Exchange 统一消息和 Lync Server 配置为协同工作。
 
-  - 为用户启用 Exchange 统一消息呼叫应答和 Outlook Voice Access。 此任务在 Exchange 统一消息服务器上执行。 有关详细信息，请参阅 Exchange Server 2010 TechNet Library [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372)（网址为）。
+  - 为用户启用 Exchange 统一消息呼叫应答和 Outlook Voice Access。 此任务在 Exchange 统一消息服务器上执行。 有关详细信息，请参阅 Exchange Server 2010 TechNet Library （网址为） [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372) 。
 
 </div>
 

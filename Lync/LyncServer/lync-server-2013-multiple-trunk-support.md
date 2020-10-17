@@ -12,20 +12,22 @@ ms:contentKeyID: 48184948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 273ab81fc0ab3fce9daae56abc6dc68b89489371
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2581ee5f67c6af1c5afd0622f7893ccc2486b51d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217128"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507039"
 ---
+# <a name="multiple-trunk-support-in-lync-server-2013"></a>Lync Server 2013 中的多中继支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="multiple-trunk-support-in-lync-server-2013"></a>Lync Server 2013 中的多中继支持
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "42217128"
 
 _**上次修改的主题：** 2012-11-01_
 
-Lync Server 2013 功能支持网关和中介服务器之间的多个关联。 这些关联通过定义中继进行，这是中介服务器池和公用电话交换网（PSTN）网关、会话边界控制器（SBC）或 ip-pbx 之间的逻辑关联。 使用拓扑生成器将网关与中介服务器关联（即中继）。
+Lync Server 2013 功能支持网关和中介服务器之间的多个关联。 这些关联通过定义中继进行，这是中介服务器池与公开交换电话网络之间的逻辑关联 (PSTN) 网关、会话边界控制器 (SBC) 或 ip-pbx。 使用拓扑生成器将网关与中介服务器关联 (即中继) 。
 
-  - 若要在 Lync Server 2013 中分配或删除中继，必须首先在拓扑生成器中定义一个中继。 中继包含以下关联：中介服务器完全限定的域名（FQDN）、中介服务器侦听端口、网关 FQDN 和网关侦听端口。
+  - 若要在 Lync Server 2013 中分配或删除中继，必须首先在拓扑生成器中定义一个中继。 中继包含以下关联：中介服务器完全限定的域名 (FQDN) 、中介服务器侦听端口、网关 FQDN 和网关侦听端口。
 
-  - 若要配置多个中继，可以在同一个网关和中介服务器之间创建多个关联。 这为企业语音基础结构提供了额外的恢复能力，这在专用交换机（PBX） interoperational 方案中尤其有用。
+  - 若要配置多个中继，可以在同一个网关和中介服务器之间创建多个关联。 这为企业语音基础结构提供了额外的恢复能力，这在专用分支 exchange (PBX) interoperational 方案中尤其有用。
 
 定义中继，必须将其与路由关联。 若要将中继与路由关联，请在拓扑生成器中定义中继的简单名称。 此简单名称在 Lync Server 控制面板中用作中继名称，其中中继可与路由关联。 简单中继名称将用作 Lync Server 命令行管理程序中的网关名称。
 
     New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 
-管理员必须选择与中介服务器关联的默认中继。 在拓扑生成器中，右键单击关联的中介服务器，然后单击 "**属性**"。 指定中介服务器的默认网关。
+管理员必须选择与中介服务器关联的默认中继。 在拓扑生成器中，右键单击关联的中介服务器，然后单击 " **属性**"。 指定中介服务器的默认网关。
 
 下图说明了为每个中介服务器和网关定义的多个中继。
 

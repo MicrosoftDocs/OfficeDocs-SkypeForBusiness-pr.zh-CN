@@ -12,20 +12,22 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb9b9a928925bfc3ff933e2d94d39db8b652e6ff
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2b2a3bc8191b093e589d74d9783ddb6323cf3b2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211528"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506539"
 ---
+# <a name="view-common-area-phone-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看常见区域电话信息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-common-area-phone-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看常见区域电话信息
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42211528"
 
 _**上次修改的主题：** 2013-02-20_
 
-您可以使用**CsCommonAreaPhone** cmdlet 查看配置为在组织中使用的公共区域电话的相关信息。 不使用任何参数的情况下，此 cmdlet 将返回有关所有公用区域电话的信息。 可选参数提供了不同的筛选信息的方法。 例如，您可以返回在指定的组织单位（OU）中有联系人对象的所有公用区域电话，或在指定建筑物中的所有联系人对象。 有关**CsCommonAreaPhone**参数的详细信息，请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)。
+您可以使用 **CsCommonAreaPhone** cmdlet 查看配置为在组织中使用的公共区域电话的相关信息。 不使用任何参数的情况下，此 cmdlet 将返回有关所有公用区域电话的信息。 可选参数提供了不同的筛选信息的方法。 例如，您可以返回在指定组织单位中有联系人对象的所有公用区域电话 (OU) 或指定建筑物中的所有 contact 对象。 有关 **CsCommonAreaPhone** 参数的详细信息，请参阅 [CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)。
 
-从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行**CsCommonAreaPhone** 。
+从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行 **CsCommonAreaPhone** 。
 
 <div>
 
@@ -74,7 +76,7 @@ _**上次修改的主题：** 2013-02-20_
 
 </div>
 
-有关详细信息，请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) Cmdlet 的帮助主题。
+有关详细信息，请参阅 [CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) Cmdlet 的帮助主题。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de331cc4742a3a995a63ea4848e2515871fb5f69
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4034bf512a27bed194dd702ef6e4106b10a3dd1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221212"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505689"
 ---
+# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的移动客户端比较表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的移动客户端比较表
+
 
 </div>
 
@@ -65,13 +67,13 @@ _**上次修改的主题：** 2015-09-21_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>要查找 Skype for Business 的移动客户端比较表吗？ 请参阅<A href="https://technet.microsoft.com/library/dn951412.aspx">Skype for business 的移动客户端比较表</A>。</P>
+> <P>要查找 Skype for Business 的移动客户端比较表吗？ 请参阅 <A href="https://technet.microsoft.com/library/dn951412.aspx">Skype for business 的移动客户端比较表</A>。</P>
 > <LI>
-> <P>有关最终用户的联机帮助和资源，请参阅适用于<A href="https://go.microsoft.com/fwlink/?linkid=286237">移动客户端的 Microsoft Lync 2013</A>。</P>
+> <P>有关最终用户的联机帮助和资源，请参阅适用于 <A href="https://go.microsoft.com/fwlink/?linkid=286237">移动客户端的 Microsoft Lync 2013</A>。</P>
 > <LI>
-> <P>若要比较其他 Lync 2013 客户端中提供的功能，请参阅<A href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013 的客户端比较表</A>。</P>
+> <P>若要比较其他 Lync 2013 客户端中提供的功能，请参阅 <A href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013 的客户端比较表</A>。</P>
 > <LI>
-> <P>Lync Server 2013 还支持 Lync 2010 移动应用。 有关详细信息，请参阅 Lync Server 2010 文档中的<A href="https://go.microsoft.com/fwlink/p/?linkid=234777">移动客户端比较表</A>。</P></LI></UL>
+> <P>Lync Server 2013 还支持 Lync 2010 移动应用。 有关详细信息，请参阅 Lync Server 2010 文档中的 <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">移动客户端比较表</A> 。</P></LI></UL>
 
 
 
@@ -153,7 +155,7 @@ _**上次修改的主题：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>移动客户端的证书和被动身份验证支持（仅适用于 Lync Server）</p></td>
+<td><p>仅 (Lync Server 的移动客户端的证书和被动身份验证支持) </p></td>
 <td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -264,7 +266,7 @@ _**上次修改的主题：** 2015-09-21_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>设置手动状态（例如，忙、Do Not 打扰等）</p></td>
+<td><p>设置手动状态状态 (例如，忙、Do Not 打扰等) </p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -441,7 +443,7 @@ _**上次修改的主题：** 2015-09-21_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>启动与联系人的即时消息（IM）</p></td>
+<td><p>启动与联系人的即时消息 (IM) </p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -601,7 +603,7 @@ _**上次修改的主题：** 2015-09-21_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>单击 "会议提醒" 中的链接以加入会议（公用电话交换网（PSTN））</p></td>
+<td><p>单击 "会议提醒" 中的链接以加入会议 (公开交换电话网络 (PSTN) # A3</p></td>
 <td><p>●</p></td>
 <td><p>●1</p></td>
 <td><p>●1</p></td>
@@ -649,7 +651,7 @@ _**上次修改的主题：** 2015-09-21_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>查看多方视频（库视图）</p></td>
+<td><p>查看多方视频 (库视图) </p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -756,7 +758,7 @@ _**上次修改的主题：** 2015-09-21_
 </table>
 
 
-1对于 Office 365 和 Microsoft 365 用户，此功能仅适用于启用音频会议提供商（ACP）的会议。
+1对于 Office 365 和 Microsoft 365 用户，此功能仅适用于音频会议提供商 (ACP 启用) 会议。
 
 2不适用于 Microsoft 365 或 Office 365 用户。
 
@@ -864,7 +866,7 @@ _**上次修改的主题：** 2015-09-21_
 <td><p>●3</p></td>
 </tr>
 <tr class="even">
-<td><p>通过工作使用呼叫（Lync Server 2013 会将传出呼叫放入，以便收件人的呼叫者 ID 显示工作电话号码而不是移动电话号码）</p></td>
+<td><p>使用呼叫通过工作 (Lync Server 2013 将发出传出呼叫，以便收件人的呼叫者 ID 显示您的工作电话号码而不是您的移动电话号码) </p></td>
 <td></td>
 <td><p>●3</p></td>
 <td><p>●3</p></td>

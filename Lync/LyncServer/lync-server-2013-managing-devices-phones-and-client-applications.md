@@ -12,20 +12,22 @@ ms:contentKeyID: 48184611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8722e629d03cb5461f01313eecc2b56041242cf5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 682eb2959c6753623553b0f9f4ff879395cb8310
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185775"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505829"
 ---
+# <a name="managing-devices-phones-and-client-applications-in-lync-server-2013"></a>在 Lync Server 2013 中管理设备、电话和客户端应用程序
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-devices-phones-and-client-applications-in-lync-server-2013"></a>在 Lync Server 2013 中管理设备、电话和客户端应用程序
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42185775"
 
 _**上次修改的主题：** 2013-02-19_
 
-本节中的主题提供了可通过使用 Lync Server 2013 控制面板中的 "**客户端**" 组执行的任务的分步过程。
+本节中的主题提供了可通过使用 Lync Server 2013 控制面板中的 " **客户端** " 组执行的任务的分步过程。
 
 <div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2013-02-19_
 
   - [Lync Server 2013 中的会议设备](lync-server-2013-conferencing-devices.md)
 
-  - [Lync Server 2013 中的移动电话（策略/推送通知）](lync-server-2013-mobile-phones-policy-push-notification.md)
+  - [Lync Server 2013 中的移动电话 (策略/推送通知) ](lync-server-2013-mobile-phones-policy-push-notification.md)
 
   - [Lync Server 2013 中的测试设备](lync-server-2013-test-devices.md)
 

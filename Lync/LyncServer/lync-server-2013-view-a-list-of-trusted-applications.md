@@ -12,20 +12,22 @@ ms:contentKeyID: 48185844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8678ed12269f7f78d6d169b518e7f1208d92a7fd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d44b6c4fd29109608691914784b02e2ad362b591
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211598"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506649"
 ---
+# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a>在 Lync Server 2013 中查看受信任的应用程序列表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a>在 Lync Server 2013 中查看受信任的应用程序列表
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42211598"
 
 _**上次修改的主题：** 2012-09-21_
 
-您可以使用 Lync Server 2013 控制面板查看您在 Lync Server 2013 环境中部署的受信任应用程序的列表。 受信任的应用程序是基于 Microsoft 统一通信托管 API （UCMA） 3.0 Core SDK 的应用程序，受 Lync Server 2013 信任。 以下列表概述了此信任关系：
+您可以使用 Lync Server 2013 控制面板查看您在 Lync Server 2013 环境中部署的受信任应用程序的列表。 受信任的应用程序是基于 Microsoft 统一通信托管 API (UCMA) 3.0 Core SDK （受 Lync Server 2013 信任）的应用程序。 以下列表概述了此信任关系：
 
   - 受信任的应用程序不会受到 Lync Server 身份验证的挑战。
 
-  - Lync Server 不会对 SIP 事务、连接或传出的 Internet 协议（VoIP）呼叫限制受信任的应用程序。
+  - Lync Server 不会限制受信任的应用程序的 SIP 事务、连接或通过 Internet 的传出语音协议 (VoIP) 呼叫。
 
   - 受信任应用程序可模拟任何用户，并能在不出现在名单中的情况下参加会议。
 
@@ -53,9 +55,9 @@ _**上次修改的主题：** 2012-09-21_
 
 ## <a name="to-view-a-list-of-trusted-applications"></a>查看受信任应用程序列表
 
-1.  从分配给 CsServerAdministrator、CsAdministrator、CsHelpDesk 或 CsViewOnlyAdministrator 角色的用户帐户中，登录到内部部署中的任何计算机。 有关 Lync Server 2013 中提供的预定义管理角色的详细信息，请参阅[在 Lync server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
+1.  从分配给 CsServerAdministrator、CsAdministrator、CsHelpDesk 或 CsViewOnlyAdministrator 角色的用户帐户中，登录到内部部署中的任何计算机。 有关 Lync Server 2013 中提供的预定义管理角色的详细信息，请参阅 [在 Lync server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“拓扑”****，然后单击“受信任应用程序”****。
 

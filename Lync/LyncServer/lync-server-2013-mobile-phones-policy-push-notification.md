@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：移动电话（策略/推送通知）
+title: 'Lync Server 2013：移动电话 (策略/推送通知) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fef40f027e18bc293ae2c5cda71fb8c20b62fbe6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2dc176adef1f08e54ec0fa56aa55ad16ead0a3b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217478"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505659"
 ---
+# <a name="mobile-phones-policypush-notification-in-lync-server-2013"></a>Lync Server 2013 中的移动电话 (策略/推送通知) 
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobile-phones-policypush-notification-in-lync-server-2013"></a>Lync Server 2013 中的移动电话（策略/推送通知）
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217478"
 
 _**上次修改的主题：** 2012-10-15_
 
-您可以从 Lync Server 2013 控制面板的 "**客户端**" 部分，为 lync server 2013 配置移动策略和推送通知。 请按照本节中的过程配置移动电话设置。
+您可以从 Lync Server 2013 控制面板的 " **客户端** " 部分，为 lync server 2013 配置移动策略和推送通知。 请按照本节中的过程配置移动电话设置。
 
 <div>
 

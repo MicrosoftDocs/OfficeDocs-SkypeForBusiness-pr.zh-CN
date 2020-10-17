@@ -12,20 +12,22 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73138d5cbde1a835ab632fe98bf57ef58f11c0da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6b0af841385bff8b11d46dd24793de5cdcf81da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217148"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507099"
 ---
+# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a>将响应组移动到 Lync Server 2013 中的新池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a>将响应组移动到 Lync Server 2013 中的新池
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217148"
 
 _**上次修改的主题：** 2012-11-01_
 
-Lync Server 2013 引入了支持将响应组从一个池移动到另一个池的新 cmdlet，即使完全限定的域名（FQDN）不同也是如此。
+Lync Server 2013 引入了新 cmdlet 支持，以便将响应组从一个池移动到另一个池，即使完全限定的域名 (FQDN) 不同。
 
 使用以下过程中的步骤将响应组从一个前端池移动到另一个具有不同 FQDN 的前端池。
 
@@ -45,7 +47,7 @@ Lync Server 2013 引入了支持将响应组从一个池移动到另一个池的
 
 
 > [!NOTE]  
-> 在共存环境中，只能在 Lync Server 2013&nbsp;前端池之间移动响应组。
+> 在共存环境中，只能在 Lync Server 2013 前端池之间移动响应组 &nbsp; 。
 
 
 
@@ -83,7 +85,7 @@ Lync Server 2013 引入了支持将响应组从一个池移动到另一个池的
     
 
     > [!NOTE]  
-    > 应用程序级别的设置包括默认的保持音乐配置、默认的保持音乐的音频文件、代理回拨宽限期和呼叫上下文配置。 若要查看这些配置设置，请运行 <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet。 有关此 cmdlet 的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">CsRgsConfiguration</A>。
+    > 应用程序级别的设置包括默认的保持音乐配置、默认的保持音乐的音频文件、代理回拨宽限期和呼叫上下文配置。 若要查看这些配置设置，请运行 <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet。 有关此 cmdlet 的详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">CsRgsConfiguration</A>。
 
     
     </div>

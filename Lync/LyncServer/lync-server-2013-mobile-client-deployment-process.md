@@ -12,20 +12,22 @@ ms:contentKeyID: 51541484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14acbf4a8be4d453fc1a0c5dc4da303136433e0c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d08cf2c6be2bef797a892dcc06798307e811bc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185025"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505669"
 ---
+# <a name="mobile-client-deployment-process-in-lync-server-2013"></a>Lync Server 2013 中的移动客户端部署过程
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobile-client-deployment-process-in-lync-server-2013"></a>Lync Server 2013 中的移动客户端部署过程
+
 
 </div>
 
@@ -78,7 +80,7 @@ _**上次修改的主题：** 2013-02-20_
 <li><p>从特定于移动设备的市场安装。</p></li>
 </ol></td>
 <td><p>管理员</p></td>
-<td><p>在<a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的安装说明。</p></td>
+<td><p>在 <a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的安装说明。</p></td>
 </tr>
 <tr class="odd">
 <td><p>配置客户端。</p></td>
@@ -91,13 +93,13 @@ _**上次修改的主题：** 2013-02-20_
 <tr class="even">
 <td><p>测试移动应用场景。</p></td>
 <td><ol>
-<li><p>测试即时消息（IM）和状态。</p></li>
+<li><p>测试即时消息 (IM) 和状态。</p></li>
 <li><p>测试拨出式会议。</p></li>
 <li><p>搜索公司目录中的联系人。</p></li>
 <li><p>测试推送通知。</p></li>
 </ol></td>
 <td><p>管理员</p></td>
-<td><p>在<a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的验证说明。</p></td>
+<td><p>在 <a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的验证说明。</p></td>
 </tr>
 <tr class="odd">
 <td><p>在移动电话上安装 Lync 应用程序。</p></td>
@@ -106,7 +108,7 @@ _**上次修改的主题：** 2013-02-20_
 <li><p>从特定于移动设备的市场安装。</p></li>
 </ol></td>
 <td><p>用户</p></td>
-<td><p>在<a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的安装说明。</p></td>
+<td><p>在 <a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的安装说明。</p></td>
 </tr>
 </tbody>
 </table>

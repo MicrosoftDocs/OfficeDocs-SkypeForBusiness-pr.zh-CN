@@ -12,20 +12,22 @@ ms:contentKeyID: 53312965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 633cecceae362c25470cbea88dd5bda4f7f4be36
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cca08828dd91a7b6c26e11330f0e8839f4677be4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506049"
 ---
+# <a name="lync-for-android-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 lync for Android 要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-android-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 lync for Android 要求
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42186335"
 
 _**上次修改的主题：** 2014-04-24_
 
-Microsoft lync 2013 Microsoft Lync 2013 for Android 为组织中从 Android 设备进行连接的用户提供即时消息（IM）、增强状态和 Lync 会议加入功能。 本主题介绍了适用于 Android 的 Lync 2013 的注意事项，其中包括先决条件、技术要求和必备组件。
+Microsoft lync 2013 Microsoft Lync 2013 for Android 为组织中从 Android 设备进行连接的用户提供即时消息 (IM) 、增强状态和 Lync 会议加入功能。 本主题介绍了适用于 Android 的 Lync 2013 的注意事项，其中包括先决条件、技术要求和必备组件。
 
 <div>
 
@@ -49,7 +51,7 @@ Microsoft lync 2013 Microsoft Lync 2013 for Android 为组织中从 Android 设�
 
   - 设备必须具有 1.2 GHz 双核或更高的 CPU。
 
-  - 设备照相机（前/后）分辨率应为 VGA 或更高。
+  - 设备摄像头 (前/后) 分辨率应为 VGA 或更高。
 
   - 其他硬件要求应与 Android 4.0 兼容性定义文档相一致。
 

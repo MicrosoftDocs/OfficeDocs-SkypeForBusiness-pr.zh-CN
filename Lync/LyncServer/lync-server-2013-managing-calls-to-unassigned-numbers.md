@@ -12,20 +12,22 @@ ms:contentKeyID: 49733772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12809736c67a4ad606503a3a663532b51a1a191b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1b09be36c372473fc6700669f069646ca3f6054d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218188"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505889"
 ---
+# <a name="managing-calls-to-unassigned-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中管理对未分配号码的呼叫
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-calls-to-unassigned-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中管理对未分配号码的呼叫
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42218188"
 
 _**上次修改的主题：** 2012-11-01_
 
-Lync Server 允许您配置在拨入的电话号码对您的组织有效但未分配给用户或电话时对传入电话呼叫的处理。 您可以使用通知应用程序将这些呼叫转移到预先确定的目标（电话号码、SIP URI 或语音邮件）或播放音频通知，或同时播放这两者。 您也可以将这些呼叫转接到 Exchange UM 自动助理电话号码。 通过其中一种方式处理对未分配的号码的呼叫，可有助于避免呼叫者拨错号并听到忙音或 SIP 客户端收到错误消息的情况。
+Lync Server 允许您配置在拨入的电话号码对您的组织有效但未分配给用户或电话时对传入电话呼叫的处理。 您可以使用通知应用程序将这些呼叫转移到预先确定的目标 (电话号码、SIP URI 或语音邮件) 或播放音频通知，或同时进行这两种工作。 您也可以将这些呼叫转接到 Exchange UM 自动助理电话号码。 通过其中一种方式处理对未分配的号码的呼叫，可有助于避免呼叫者拨错号并听到忙音或 SIP 客户端收到错误消息的情况。
 
 本节介绍如何管理未分配的号码范围以处理对未分配的电话号码的呼叫。此外还介绍如何在灾难恢复过程中管理通知（如果您想要在中断期间使用此功能）。
 

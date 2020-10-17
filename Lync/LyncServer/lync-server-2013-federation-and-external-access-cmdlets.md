@@ -12,20 +12,22 @@ ms:contentKeyID: 48184018
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de54627a1effa25c6dbf16944c933c8d01441e4a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a4f02160ad9991905bf0f149a2beb72ef21169e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179503"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507289"
 ---
+# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的联盟和外部访问 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的联盟和外部访问 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179503"
 
 _**上次修改的主题：** 2012-06-26_
 
-联合访问和外部访问提供了两个重要功能：联盟使用户能够与组织外部的人员进行通信，而外部访问使用户能够从内部网络外部连接到 Microsoft Lync Server 2013。 Lync Server 2013 中可用于管理联盟和外部访问的 cmdlet 让你可以确定用户可以（且无法）与之通信的用户，并确定这些用户是否可以连接到 Lync Server，而无需登录内部network.
+联合访问和外部访问提供了两个重要功能：联盟使用户能够与组织外部的人员进行通信，而外部访问使用户能够从内部网络外部连接到 Microsoft Lync Server 2013。 在 Lync Server 2013 中可用于管理联盟和外部访问的 cmdlet 使您可以确定用户可以 (且无法) 通信的用户，并确定这些用户是否可以连接到 Lync Server，而无需登录内部网络。
 
 <div>
 

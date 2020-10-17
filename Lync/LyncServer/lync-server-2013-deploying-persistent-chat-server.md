@@ -12,20 +12,22 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4eb457dbaee5e91b7b4f408018242384cd8992c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a76f3bb2a3ccc182f16e2e1416bdec00aefe3e7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188255"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506089"
 ---
+# <a name="deploying-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中部署持久聊天服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-persistent-chat-server-in-lync-server-2013"></a>在 Lync Server 2013 中部署持久聊天服务器
+
 
 </div>
 
@@ -47,17 +49,17 @@ Lync Server 2013，持久聊天服务器是 Lync Server 2013 基础结构的一�
 
   - 为您的部署安装和配置持久聊天服务器组件。
 
-在 Lync Server 2013 Enterprise Edition 中将持久聊天服务器作为单独的池（而不是与 Enterprise Edition 前端服务器的并置）一起使用。 持久聊天服务器要求企业版池中的 SQL Server 后端服务器存储聊天室内容和其他相关元数据。 我们建议您在专用 SQL Server 后端服务器上安装**PersistentChatStore** ，但支持在同一 sql server 实例上并置 Lync Server 2013 后端服务器和**PersistentChatStore** 。
+在 Lync Server 2013 Enterprise Edition 中，持久聊天服务器作为单独的池提供， (不与企业版前端服务器) 的并置。 持久聊天服务器要求企业版池中的 SQL Server 后端服务器存储聊天室内容和其他相关元数据。 我们建议您在专用 SQL Server 后端服务器上安装 **PersistentChatStore** ，但支持在同一 sql server 实例上并置 Lync Server 2013 后端服务器和 **PersistentChatStore** 。
 
-持久聊天服务器也可以使用 Lync Server 2013 Standard Edition 进行部署。 在这种情况下， **PersistentChatService**前端服务器在 Standard Edition 计算机上为并置， **PersistentChatStore**后端服务器可以部署在本地 SQL Server Express 实例上。
+持久聊天服务器也可以使用 Lync Server 2013 Standard Edition 进行部署。 在这种情况下， **PersistentChatService** 前端服务器在 Standard Edition 计算机上为并置， **PersistentChatStore** 后端服务器可以部署在本地 SQL Server Express 实例上。
 
-有关支持的 colocation 配置的详细信息，请参阅[Lync server 2013 中的支持的服务器并置](lync-server-2013-supported-server-collocation.md)。
+有关支持的 colocation 配置的详细信息，请参阅 [Lync server 2013 中的支持的服务器并置](lync-server-2013-supported-server-collocation.md)。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 我们不支持持久聊天服务器&nbsp;Standard Edition 的高可用性。 性能和规模将受到限制。 此外，我们仅支持新的持久聊天&nbsp;服务器 Standard Edition server。 我们不支持将 Lync Server 2010、Group Chat Server 升级为 Lync Server 2013&nbsp;持久聊天服务器&nbsp;Standard Edition。
+> 我们不支持持久聊天服务器 Standard Edition 的高可用性 &nbsp; 。 性能和规模将受到限制。 此外，我们仅支持新的持久聊天服务器 &nbsp; Standard Edition server。 我们不支持将 Lync Server 2010、Group Chat Server 升级为 Lync Server 2013 &nbsp; 持久聊天服务器 &nbsp; Standard Edition。
 
 
 
@@ -67,11 +69,11 @@ Lync Server 2013，持久聊天服务器是 Lync Server 2013 基础结构的一�
 
 每个拓扑至少需要安装了 Lync Server 2013 的服务器和一个安装了 SQL Server 数据库软件的服务器。
 
-使用拓扑生成器将持久聊天服务器添加到 Lync Server 2013 部署。 您可以选择使用拓扑生成器添加一个或多个持久聊天服务器池。 按照与对任意池相同的方式部署多个持久聊天服务器池的相同部署说明进行操作。 有关详细信息，请参阅部署文档中的[部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。
+使用拓扑生成器将持久聊天服务器添加到 Lync Server 2013 部署。 您可以选择使用拓扑生成器添加一个或多个持久聊天服务器池。 按照与对任意池相同的方式部署多个持久聊天服务器池的相同部署说明进行操作。 有关详细信息，请参阅部署文档中的 [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。
 
-有关可用拓扑的详细信息以及安装持久聊天服务器的技术和软件要求，请参阅规划文档中的 "在[lync server 2013 中规划持久聊天服务器](lync-server-2013-planning-for-persistent-chat-server.md)"、规划文档、部署文档或操作文档中的[持久聊天服务器的工作2013原理](lync-server-2013-how-persistent-chat-server-works.md)，以及可支持性文档中的[lync server 2013 支持的硬件](lync-server-2013-supported-hardware.md)。
+有关可用拓扑的详细信息以及安装持久聊天服务器的技术和软件要求，请参阅规划文档中的 "在 [lync server 2013 中规划持久聊天服务器](lync-server-2013-planning-for-persistent-chat-server.md) "、规划文档、部署文档或操作文档中的 [持久聊天服务器的工作2013原理](lync-server-2013-how-persistent-chat-server-works.md) ，以及可支持性文档中的 [lync server 2013 支持的硬件](lync-server-2013-supported-hardware.md) 。
 
-有关获取证书、创建 SQL Server 数据库和创建文件存储的详细信息，请参阅部署文档中的[部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。
+有关获取证书、创建 SQL Server 数据库和创建文件存储的详细信息，请参阅部署文档中的 [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。
 
 一个持久聊天服务器前端服务器可支持20000个活动用户。 您可以拥有一个持久聊天服务器池和最高4个活动前端服务器，共支持80000个并发用户。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c84fe2400b3ac7ed1b8dded2ab26646c48a2c232
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b2619e204bf538963818bf48967459fe434c2db4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505629"
 ---
+# <a name="navigating-the-planning-tool-in-lync-server-2013"></a>在 Lync Server 2013 中导航规划工具
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="navigating-the-planning-tool-in-lync-server-2013"></a>在 Lync Server 2013 中导航规划工具
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**上次修改的主题：** 2013-02-21_
 
 您可以通过使用工具栏、特定于页面的按钮和链接以及特定于上下文的窗格的组合来导航 Microsoft Lync Server 2013、规划工具。 特定于上下文的窗格提供与特定页面上的选择选项相关的规划和容量的设计信息。
 
-在启动规划工具时，设计器首先看到 "**欢迎使用 Microsoft Lync Server 2013 的规划工具"** 页面。
+在启动规划工具时，设计器首先看到 " **欢迎使用 Microsoft Lync Server 2013 的规划工具"** 页面。
 
 ![规划工具欢迎页](images/Gg558601.ff5b72e6-bcf0-49e9-8784-3636fe8187c5(OCS.15).jpg "规划工具欢迎页")
 
-在 "欢迎" 页面上，设计器选择 "**开始**"、"**设计" 网站**或 "**显示**"。 有关详细信息，请参阅为[Lync Server 2013 创建初始拓扑设计](lync-server-2013-create-the-initial-topology-design.md)。
+在 "欢迎" 页面上，设计器选择 " **开始**"、" **设计" 网站**或 " **显示**"。 有关详细信息，请参阅为 [Lync Server 2013 创建初始拓扑设计](lync-server-2013-create-the-initial-topology-design.md)。
 
 在规划工具的顶部是一个可轻松访问常用函数的工具栏。 此处显示的工具栏仅供参考，每个函数将在 "相关主题" 中讨论。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 155ee98a7386368d90fd549d920cdfe77c05cb6e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5853578ed55f5a5461b5fbb8c1ce3c2dda8b0e5e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221616"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505749"
 ---
+# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>管理对 Lync Server 2013 的联盟和外部访问
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>管理对 Lync Server 2013 的联盟和外部访问
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "44221616"
 
 _**上次修改的主题：** 2013-10-07_
 
-部署边缘服务器或边缘池是支持外部用户的第一步。 有关部署边缘服务器的详细信息，请参阅部署文档中的在[Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)。
+部署边缘服务器或边缘池是支持外部用户的第一步。 有关部署边缘服务器的详细信息，请参阅部署文档中的在 [Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md) 。
 
-在安装并配置 Lync Server 2013 的内部部署后，组织中的内部用户可以与在 Active Directory 域服务（AD DS）中具有 SIP 帐户的其他内部用户进行协作。 协作可包括发送和接收即时消息以及更新当前状态和参与会议（也称为“会议”）。 启用和配置外部用户访问，以控制受支持的外部用户是否可以与内部 Lync Server 用户进行协作。 外部用户可以包括部署的远程用户、联盟用户（包括支持的公共即时消息 (IM) 服务提供商用户）、XMPP 联盟以及会议的匿名参与者。
+在安装并配置 Lync Server 2013 的内部部署后，组织中的内部用户可以与在 Active Directory 域服务中 (AD DS) 的其他内部用户进行协作。 协作可包括发送和接收即时消息以及更新当前状态和参与会议（也称为“会议”）。 启用和配置外部用户访问，以控制受支持的外部用户是否可以与内部 Lync Server 用户进行协作。 外部用户可以包括部署的远程用户、联盟用户（包括支持的公共即时消息 (IM) 服务提供商用户）、XMPP 联盟以及会议的匿名参与者。
 
-如果您的部署包括安装 Lync Server 2013 边缘服务器或边缘池，则可能的通信类型的范围很大程度上扩展，其中包含用于外部用户访问的多种选项、与其他 SIP 联合域的成员通信、SIP 联合提供程序和 XMPP 联盟用户。 在设置边缘服务器或边缘池之后，您可以启用要提供的外部用户访问的类型，并配置策略以控制外部访问。 在 Lync Server 2013 中，你可以根据任务要求，使用 Lync Server 控制面板、Lync Server Management Shell 或两者来启用和配置外部用户访问和策略。 有关这些管理工具的详细信息，请参阅 operations 文档中的[Lync server 2013 管理工具](lync-server-2013-lync-server-administrative-tools.md)、操作文档中的[Lync Server 2013 命令行](lync-server-2013-lync-server-management-shell.md)管理程序，并在操作文档中[安装 lync server 2013 管理工具](lync-server-2013-install-lync-server-administrative-tools.md)。
+如果您的部署包括安装 Lync Server 2013 边缘服务器或边缘池，则可能的通信类型的范围很大程度上扩展，其中包含用于外部用户访问的多种选项、与其他 SIP 联合域的成员通信、SIP 联合提供程序和 XMPP 联盟用户。 在设置边缘服务器或边缘池之后，您可以启用要提供的外部用户访问的类型，并配置策略以控制外部访问。 在 Lync Server 2013 中，你可以根据任务要求，使用 Lync Server 控制面板、Lync Server Management Shell 或两者来启用和配置外部用户访问和策略。 有关这些管理工具的详细信息，请参阅 operations 文档中的 [Lync server 2013 管理工具](lync-server-2013-lync-server-administrative-tools.md) 、操作文档中的 [Lync Server 2013 命令行](lync-server-2013-lync-server-management-shell.md) 管理程序，并在操作文档中 [安装 lync server 2013 管理工具](lync-server-2013-install-lync-server-administrative-tools.md) 。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 在为外部用户访问设计您的配置和策略时，您必须了解策略的优先级以及如何应用这些策略。 在一个策略级别应用的 Lync Server 策略设置可以覆盖在另一个策略级别应用的设置。 Lync Server 策略优先级为：用户策略（最具影响力）替代网站策略，然后网站策略将覆盖全局策略（最不影响）。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
+> 在为外部用户访问设计您的配置和策略时，您必须了解策略的优先级以及如何应用这些策略。 在一个策略级别应用的 Lync Server 策略设置可以覆盖在另一个策略级别应用的设置。 Lync Server 策略优先级为：用户策略 (影响最大的) 替代网站策略，然后网站策略将覆盖全局策略 (最小影响) 。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
 
 
 
@@ -77,15 +79,15 @@ _**上次修改的主题：** 2013-10-07_
 
 **如果您已允许与 SIP 联盟域进行通信，是否希望允许与 XMPP 联盟伙伴联系人进行通信？**
 
-配置在 Lync server 2013 中的 "[配置策略以控制 XMPP 联盟用户访问](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)" 和 "[在 lync Server 2013 中管理 XMPP 联盟伙伴](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)" 主题中详细介绍的设置。
+配置在 Lync server 2013 中的 " [配置策略以控制 XMPP 联盟用户访问](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md) " 和 " [在 lync Server 2013 中管理 XMPP 联盟伙伴](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)" 主题中详细介绍的设置。
 
 **如果已启用与 SIP 联盟域的通信，是否要启用 SIP 联合自动发现？**
 
-按照在[Lync Server 2013 中启用或禁用联合合作伙伴的发现](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)主题中的详细说明配置这些设置。
+按照在 [Lync Server 2013 中启用或禁用联合合作伙伴的发现](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)主题中的详细说明配置这些设置。
 
 **如果您已允许与 SIP 联盟域进行通信，是否要允许向联盟联系人发送弃用声明，以通知他们您使用存档且可以对通信进行存档？**
 
-按照在[Lync Server 2013 中启用或禁用向联盟伙伴发送存档免责声明一](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)主题中的详细说明配置这些设置。
+按照在 [Lync Server 2013 中启用或禁用向联盟伙伴发送存档免责声明一](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)主题中的详细说明配置这些设置。
 
 **您是否希望允许用户与 SIP 联合提供程序通信，以启用与公用提供程序（如 Windows Live Messenger、AOL 和 Yahoo）的通信 \! ？**
 
@@ -97,7 +99,7 @@ _**上次修改的主题：** 2013-10-07_
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
+> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证 ( "PIC USL" ) 不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
 > <LI>
 > <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力因 Yahoo！中的支持而受到了支持，其下凸的底层协议。</P>
 > <LI>
@@ -109,11 +111,11 @@ _**上次修改的主题：** 2013-10-07_
 
 **您是否希望允许用户与运行 Microsoft 365、Microsoft Lync Online 和 Microsoft Lync Online 2010 的托管提供商的 SIP 联合提供程序进行通信？**
 
-配置在[lync server 2013 中创建或编辑公共 SIP 联合提供程序](lync-server-2013-create-or-edit-public-sip-federated-providers.md)的主题中详细介绍的设置，在[lync server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)，以及[创建或编辑托管的 SIP 联合提供者 Lync server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+配置在 [lync server 2013 中创建或编辑公共 SIP 联合提供程序](lync-server-2013-create-or-edit-public-sip-federated-providers.md)的主题中详细介绍的设置，在 [lync server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) ，以及 [创建或编辑托管的 SIP 联合提供者 Lync server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 **是否在拆分（也称为混合）域中配置您的部署？在该域中，某些用户的主服务器位于本地部署中，而其他用户的主服务器配置为位于联机环境中**
 
-配置在 Lync server 2013 中的 "[配置策略以控制联盟用户访问](lync-server-2013-configure-policies-to-control-federated-user-access.md)" 中的详细信息，在[lync server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)，并[创建或编辑托管的 SIP 联合提供者 Lync server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+配置在 Lync server 2013 中的 " [配置策略以控制联盟用户访问](lync-server-2013-configure-policies-to-control-federated-user-access.md)" 中的详细信息，在 [lync server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) ，并 [创建或编辑托管的 SIP 联合提供者 Lync server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 如果您选择列出相关要求的表：
 
@@ -129,7 +131,7 @@ _**上次修改的主题：** 2013-10-07_
 </colgroup>
 <thead>
 <tr class="header">
-<th>联盟和外部访问（跨）联盟或外部访问类型（向下）中的选项卡</th>
+<th>跨) 联盟或外部访问类型的联合访问 (中的选项卡 (向下) </th>
 <th>外部访问策略</th>
 <th>访问边缘配置</th>
 <th>SIP 联盟域</th>

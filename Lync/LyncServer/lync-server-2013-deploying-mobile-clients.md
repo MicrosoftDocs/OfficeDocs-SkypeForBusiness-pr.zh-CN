@@ -12,20 +12,22 @@ ms:contentKeyID: 48185854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a453c4c790232bd40ad2d0d5721f886187421219
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b9058c7fd654450d92d395baddcec46daf84aa2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195315"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507349"
 ---
+# <a name="deploying-mobile-clients-in-lync-server-2013"></a>在 Lync Server 2013 中部署移动客户端
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mobile-clients-in-lync-server-2013"></a>在 Lync Server 2013 中部署移动客户端
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195315"
 
 _**上次修改的主题：** 2013-02-19_
 
-Lync 2013 应用程序用于移动客户端为组织中的用户提供即时消息（IM）、增强状态和电话服务，这些用户是从智能手机或运行专业版 Windows Mobile 的电话进行连接。 您可以指示用户通过将 Lync 2013 定向到其移动电话的应用程序市场来安装 Lync。
+适用于移动客户端的 Lync 2013 应用程序为组织中的用户提供即时消息 (IM) 、增强状态和电话服务，这些用户是从智能手机或运行专业版 Windows Mobile 的电话进行连接的。 您可以指示用户通过将 Lync 2013 定向到其移动电话的应用程序市场来安装 Lync。
 
 <div>
 
@@ -46,9 +48,9 @@ Lync 2013 应用程序用于移动客户端为组织中的用户提供即时消�
 > Lync Server 2013 还支持移动客户端的 Lync 2010。 有关详细信息，请参阅 Lync Server 2010 TechNet 库中的以下文章： 
 > <UL>
 > <LI>
-> <P>"规划移动客户端" <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A>。</P>
+> <P>"规划移动客户端" <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A> 。</P>
 > <LI>
-> <P>"部署移动客户端" <A href="https://go.microsoft.com/fwlink/p/?linkid=236068">https://go.microsoft.com/fwlink/p/?LinkID=236068</A>。</P></LI></UL>
+> <P>"部署移动客户端" <A href="https://go.microsoft.com/fwlink/p/?linkid=236068">https://go.microsoft.com/fwlink/p/?LinkID=236068</A> 。</P></LI></UL>
 
 
 
