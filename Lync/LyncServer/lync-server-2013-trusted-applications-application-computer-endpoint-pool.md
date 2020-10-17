@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013：受信任的应用程序 (应用程序/计算机/终结点/池) '
+description: Lync Server 2013：受信任的应用程序 (应用程序/计算机/终结点/池) 。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cccfa4125327ee2077878fdbaf74d23f5388414e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2bd813ab8b5a2a06694341b4392a2bde82e8f9c8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518909"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548898"
 ---
 # <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Lync Server 2013 中 (应用程序/计算机/终结点/池) 的受信任应用程序
 

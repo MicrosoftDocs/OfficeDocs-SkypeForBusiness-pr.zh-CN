@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：企业语音所需的组件
+description: Lync Server 2013：企业语音所需的组件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e63c80f13d5aaab73709c63403135dee0e3082ba
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: edf9f4fb3566bc68bcafb85f05e22eef51084840
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502469"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549528"
 ---
 # <a name="components-required-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中的企业语音所需组件
 

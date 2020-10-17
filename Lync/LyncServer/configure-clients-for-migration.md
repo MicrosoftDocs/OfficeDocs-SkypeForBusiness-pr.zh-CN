@@ -1,5 +1,6 @@
 ---
 title: 配置客户端以进行迁移
+description: 配置客户端以进行迁移。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 813d49d61b4a85bc974763cd53f9edfebc234ef8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: da1aa7140cf38f8e8a7002ed748ef77d1c2ea262
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499569"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548498"
 ---
 # <a name="configure-clients-for-migration"></a>配置客户端以进行迁移
 

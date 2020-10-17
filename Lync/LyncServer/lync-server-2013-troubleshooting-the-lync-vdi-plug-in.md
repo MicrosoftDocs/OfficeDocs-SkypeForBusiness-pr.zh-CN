@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：对 Lync VDI 插件进行故障排除
+description: Lync Server 2013：对 Lync VDI 插件进行故障排除。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe652a2a378759584b8d855cdcdc7790b622ad02
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3cd2c0e3c8a47225f00ce280706dea2287e4dc8b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518959"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548938"
 ---
 # <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>在 Lync Server 2013 中对 Lync VDI 插件进行故障排除
 

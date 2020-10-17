@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：服务器角色和服务 cmdlet 疑难解答
+description: Lync Server 2013：排除服务器角色和服务 cmdlet 的故障。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5909fb8cdd2326d7c86bac5524a1ee02b5393b5c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c524ca800445e6b23175ba13621b52c71bc4335f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508739"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548908"
 ---
 # <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a>在 Lync Server 2013 中排除服务器角色和服务 cmdlet 的故障
 

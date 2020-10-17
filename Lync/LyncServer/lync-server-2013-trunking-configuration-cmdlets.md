@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：中继配置 cmdlet
+description: Lync Server 2013：中继配置 cmdlet。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a734e8fdc169740cfe54282994e63190d63065a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b4df1c60455275a87b85cb0b0d14f91e58436c80
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518919"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548888"
 ---
 # <a name="trunking-configuration-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的中继配置 cmdlet
 

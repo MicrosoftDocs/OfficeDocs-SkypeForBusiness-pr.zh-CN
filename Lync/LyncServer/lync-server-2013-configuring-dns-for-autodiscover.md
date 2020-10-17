@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为自动发现配置 DNS
+description: Lync Server 2013：为自动发现配置 DNS。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 249993e68930db1eb5dd5159633a73f80cef8c05
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 98a56cf3aa260bcbec9099e65958a9b17c3eaf26
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520049"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548458"
 ---
 # <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中配置用于自动发现的 DNS
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：准备域
+description: Lync Server 2013：准备域。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a37c365732785198e45a546f2352c51ccb42f9dc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7700bbdd10a96949f892858ae03da8de60d86a3a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506939"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549978"
 ---
 # <a name="preparing-domains-for-lync-server-2013"></a>准备 Lync Server 2013 的域
 

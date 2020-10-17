@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：监视 Lync Server 性能
+description: Lync Server 2013：监视 Lync Server 性能。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969592
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0db9afa670cd21428a3dc4f4c812240abaa10468
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: efe63a881c9db105fc36a1ccd0b0fdc15086a36f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531909"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548098"
 ---
 # <a name="monitoring-lync-server-2013-performance"></a>监视 Lync Server 2013 性能
 

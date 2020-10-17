@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：规划移动客户端
+description: Lync Server 2013：规划移动客户端。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fce0fca685464251c42219aeb5d8418ec1d1b7ac
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 92d6aa3727c3ac90c39190e5c7650cc988f1c538
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521999"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549428"
 ---
 # <a name="planning-for-mobile-clients-in-lync-server-2013"></a>在 Lync Server 2013 中规划移动客户端
 

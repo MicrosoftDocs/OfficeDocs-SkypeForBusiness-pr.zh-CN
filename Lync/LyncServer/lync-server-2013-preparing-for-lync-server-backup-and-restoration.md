@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：准备 Lync Server 备份和还原
+description: Lync Server 2013：准备 Lync Server 备份和还原。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f0712324df0453f875b30946735e1f05ef50b0d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 93fa02fd0bf8fb95419d13677ef0a253dfd6e3e7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506889"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549908"
 ---
 # <a name="preparing-for-lync-server-2013-backup-and-restoration"></a>准备 Lync Server 2013 备份和还原
 

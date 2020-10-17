@@ -1,5 +1,6 @@
 ---
 title: 在规划前您必须了解的 Lync Server 2013 拓扑基础知识
+description: 在规划前，您必须了解的 Lync Server 2013 拓扑基础知识。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 284306b2f7ba1cc9124a3924146d3e5bd715c353
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4bbff40e840339605b2825b267c50ff5e0c234bc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535979"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549118"
 ---
 # <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>规划 Lync Server 2013 之前必须了解的拓扑基础知识
 

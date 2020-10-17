@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置策略以控制联盟用户访问
+description: Lync Server 2013：配置策略以控制联合用户访问。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184180
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e395b021c61a8b07946c9f428043d7679dcfad9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d69f35baa16086b0c4e93a2a015474f87e08b736
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520419"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548738"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中配置用于控制联合用户访问的策略
 

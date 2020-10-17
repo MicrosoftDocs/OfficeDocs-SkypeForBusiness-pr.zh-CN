@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：准备和安装最佳实践分析工具
+description: Lync Server 2013：准备和安装最佳实践分析工具。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6a1ddaff4813035cabc8ca6b7468f1d4d06c93e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 005c5ac372a3564e74af549832830ebae899e9d3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506929"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549928"
 ---
 # <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中准备和安装最佳实践分析程序
 
