@@ -12,20 +12,22 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 670696a0945464486e0872b17df330a6ca8140b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1c2a25105aec6cdf6d21193038f90ea852c5b3a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188605"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526029"
 ---
+# <a name="conference-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的会议详细信息报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的会议详细信息报告
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188605"
 
 _**上次修改的主题：** 2012-10-22_
 
-会议详细信息报告提供了参与会议的所有用户的详细信息。 例如，您可以查看用户加入会议的日期和时间、用户离开会议的日期和时间以及用于将该用户连接到会议的终结点的用户代理等信息。 您还可以查看用户在每个会议中的角色（例如，演示者或与会者）的信息。 最重要的是，您很快就会发现哪些用户成功加入会议并完成会议，哪些用户无法成功加入会议，也无法完成会议。
+会议详细信息报告提供了参与会议的所有用户的详细信息。 例如，您可以查看用户加入会议的日期和时间、用户离开会议的日期和时间以及用于将该用户连接到会议的终结点的用户代理等信息。 您还可以查看每个会议中用户角色的信息 (例如，"演示者" 或 "与会者) "。 最重要的是，您很快就会发现哪些用户成功加入会议并完成会议，哪些用户无法成功加入会议，也无法完成会议。
 
 <div>
 
@@ -45,13 +47,13 @@ _**上次修改的主题：** 2012-10-22_
 
 可从以下报告访问会议详细信息报告：
 
-  - [Lync Server 2013 中的呼叫允许控制报告](lync-server-2013-call-admission-control-report.md)（单击会议的详细信息指标）
+  - [Lync Server 2013 中的呼叫允许控制报告](lync-server-2013-call-admission-control-report.md) (单击会议的详细指标) 
 
-  - [Lync Server 2013 中的故障列表报告](lync-server-2013-failure-list-report.md)（通过单击会议指标）
+  - [Lync Server 2013 中的 "故障列表报告](lync-server-2013-failure-list-report.md)" (单击 "会议指标") 
 
-  - [Lync Server 2013 中的用户活动报告](lync-server-2013-user-activity-report.md)（通过单击 "会议 URI" 指标）
+  - [Lync Server 2013 中的 "用户活动" 报表](lync-server-2013-user-activity-report.md) (单击 "会议 URI" 指标) 
 
-从会议详细信息报告中，您可以通过单击 "诊断报告（详细信息）" 指标来访问[Lync Server 2013 中的诊断报告](lync-server-2013-diagnostic-report.md)。
+从会议详细信息报告中，您可以通过单击诊断报告 (详细信息) 指标来访问 [Lync Server 2013 中的诊断报告](lync-server-2013-diagnostic-report.md) 。
 
 </div>
 
@@ -81,7 +83,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -129,7 +131,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -186,7 +188,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

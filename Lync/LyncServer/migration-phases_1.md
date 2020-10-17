@@ -12,20 +12,22 @@ ms:contentKeyID: 48184494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 912035b963bdd2c23b998550679b1b731add2d21
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: b546fdc826544e67d42a677dfda936d70834807a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527209"
 ---
+# <a name="migration-phases"></a>迁移阶段
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-phases"></a>迁移阶段
+
 
 </div>
 

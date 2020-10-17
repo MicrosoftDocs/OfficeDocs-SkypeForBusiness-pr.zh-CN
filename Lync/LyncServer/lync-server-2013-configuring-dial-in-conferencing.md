@@ -12,20 +12,22 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 990f22cc08d25d8b78263f4594d8345be5b29c5e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 171b261e5970361e5706589a8bec36114d056efe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203078"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526969"
 ---
+# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中配置电话拨入式会议
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中配置电话拨入式会议
+
 
 </div>
 
@@ -51,27 +53,27 @@ _**上次修改的主题：** 2014-10-03_
 
   - [确保拨号计划 Lync Server 2013 已分配区域](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [Optional验证 Lync Server 2013 中的 PIN 策略设置](lync-server-2013-optional-verify-pin-policy-settings.md)
+  - [ (可选) 在 Lync Server 2013 中验证 PIN 策略设置](lync-server-2013-optional-verify-pin-policy-settings.md)
 
   - [在 Lync Server 2013 中配置电话拨入式会议策略](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
   - [在 Lync Server 2013 中配置电话拨入式会议访问号码](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [Optional在 Lync Server 2013 中验证电话拨入式会议设置](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [ (可选) 在 Lync Server 2013 中验证电话拨入式会议设置](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [Optional在 Lync Server 2013 中修改 DTMF 命令的键映射](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [ (可选) 在 Lync Server 2013 中修改 DTMF 命令的键映射](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-  - [Optional在 Lync Server 2013 中启用和禁用会议加入和离开通知](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [ (可选) 在 Lync Server 2013 中启用和禁用会议加入和离开通知](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-  - [Optional在 Lync Server 2013 中验证电话拨入式会议](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [ (可选) 在 Lync Server 2013 中验证电话拨入式会议](lync-server-2013-optional-verify-dial-in-conferencing.md)
 
   - [部署 Lync 2013 的联机会议加载项](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
 
   - [在 Lync Server 2013 中配置用户帐户设置](lync-server-2013-configure-user-account-settings.md)
 
-  - [适合创建会议目录](recommended-create-conference-directories.md)
+  - [ (建议) 创建会议目录](recommended-create-conference-directories.md)
 
-  - [OptionalLync Server 2013 中的欢迎用户参加电话拨入式会议](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [ 在 Lync Server 2013 中 (欢迎用户加入电话拨入式会议的可选) ](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
 </div>
 

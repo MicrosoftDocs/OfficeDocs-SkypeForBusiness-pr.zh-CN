@@ -12,20 +12,22 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38bd350a4b552d63b635f8ec5a25ed7803de4b55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c56554a26e5f64089a766300f375039409680578
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526239"
 ---
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013 中的内部服务器的证书要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013 中的内部服务器的证书要求
+
 
 </div>
 
@@ -43,17 +45,17 @@ _**上次修改的主题：** 2017-02-17_
 
 
 > [!TIP]  
-> 对于与前端池、前端服务器或控制器上的简单 Url 相关联的使用者替代名称，支持通配符证书。 有关通配符证书支持的详细信息，请参阅<A href="lync-server-2013-wildcard-certificate-support.md">Lync Server 2013 中的通配符证书支持</A>。
+> 对于与前端池、前端服务器或控制器上的简单 Url 相关联的使用者替代名称，支持通配符证书。 有关通配符证书支持的详细信息，请参阅 <A href="lync-server-2013-wildcard-certificate-support.md">Lync Server 2013 中的通配符证书支持</A>。
 
 
 
 </div>
 
-虽然建议对内部服务器使用内部企业证书颁发机构 (CA)，但您也可以使用公共 CA。 有关公用 Ca 的列表，这些 Ca 提供符合统一通信（UC）证书的特定要求的证书，并已与 Microsoft 合作以确保它们使用 Lync Server 证书向导，请参阅文章 Microsoft 知识库 929395 "Exchange Server 的统一通信证书合作伙伴和通信服务器"，网址为 at [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)。
+虽然建议对内部服务器使用内部企业证书颁发机构 (CA)，但您也可以使用公共 CA。 有关公用 Ca 的列表，该列表提供符合统一通信 (UC) 证书的特定要求的证书，并已与 Microsoft 合作以确保它们使用 Lync Server 证书向导，请参阅文章 Microsoft 知识库 929395 "Exchange Server 的统一通信证书合作伙伴和通信服务器"，网址为 at [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) 。
 
-与其他应用程序和服务器（如 Exchange 2013）的通信需要其他应用程序和产品支持的证书。 对于2013版本，Lync Server 2013 和其他 Microsoft Server 产品（包括 Exchange 2013 和 SharePoint Server）支持用于服务器到服务器身份验证和授权的开放授权（OAuth）协议。 有关详细信息，请参阅部署文档或操作文档中的[管理 Lync server 2013 中的服务器到服务器身份验证（OAuth）和合作伙伴应用程序](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)。
+与其他应用程序和服务器（如 Exchange 2013）的通信需要其他应用程序和产品支持的证书。 对于2013版本，Lync Server 2013 和其他 Microsoft Server 产品（包括 Exchange 2013 和 SharePoint Server）支持开放授权 (OAuth) 协议用于服务器到服务器身份验证和授权。 有关详细信息，请参阅部署文档或操作文档中的 [管理服务器到服务器身份验证 (OAuth) 和在 Lync server 2013 中的合作伙伴应用程序](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) 。
 
-对于运行 Windows 7 操作系统的客户端的连接、Windows Server 2008 操作系统、Windows Server 2008 R2 操作系统、Windows Vista 操作系统和 Microsoft Lync Phone Edition，Lync Server 2013 支持（但不要求）使用 SHA-256 加密哈希函数对证书进行签名。 要支持使用 SHA-256 进行外部访问，外部证书必须由公共 CA 使用 SHA-256 颁发。
+对于运行 Windows 7 操作系统、windows Server 2008 操作系统、Windows Server 2008 R2 操作系统、Windows Vista 操作系统和 Microsoft Lync Phone Edition 的客户端的连接，Lync Server 2013 支持 (，但不需要使用 SHA-256 加密哈希函数签署) 证书。 要支持使用 SHA-256 进行外部访问，外部证书必须由公共 CA 使用 SHA-256 颁发。
 
 下表按服务器角色显示了前端池和 Standard Edition Server 的证书要求。所有这些证书都是标准的 Web 服务器证书，具有私钥且不可导出。
 
@@ -95,7 +97,7 @@ _**上次修改的主题：** 2017-02-17_
 <th>使用者名称/常用名称</th>
 <th>使用者替代名称</th>
 <th>示例</th>
-<th>注释</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -165,7 +167,7 @@ _**上次修改的主题：** 2017-02-17_
 <th>使用者名称/常用名称</th>
 <th>使用者替代名称</th>
 <th>示例</th>
-<th>注释</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -185,7 +187,7 @@ _**上次修改的主题：** 2017-02-17_
 <td><p>池的 FQDN</p></td>
 <td><p>以下各项：</p>
 <ul>
-<li><p>内部 web FQDN （与服务器的 FQDN 不同）</p></li>
+<li><p>内部 web FQDN (与服务器的 FQDN 不同) </p></li>
 <li><p>服务器 FQDN</p></li>
 <li><p>Lync 池 FQDN</p></li>
 <li><p>会议简单 URL</p></li>
@@ -331,7 +333,7 @@ _**上次修改的主题：** 2017-02-17_
 <tr class="odd">
 <td><p>默认值</p></td>
 <td><p>设备的 FQDN</p></td>
-<td><p>SIP.&lt;sipdomain&gt; （每个 SIP 域需要一个条目）</p></td>
+<td><p>SIP。 &lt;sipdomain &gt; (每个 SIP 域需要一个条目) </p></td>
 <td><p>SN = sba01;SAN = "contoso .com";SAN = sip. .com</p></td>
 </tr>
 </tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185079
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bee98cdc88a836be8b629d76b5bed57af402a3ca
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: d95f38ab0adc1457abee7cdd90e8f385f7176ce3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756581"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527359"
 ---
+# <a name="migrating-multiple-sites-and-pools"></a>迁移多个站点和池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-multiple-sites-and-pools"></a>迁移多个站点和池
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 支持多站点部署和多池部署。 将多个池从 Lync Se
 
 5.  在验证 Lync Server 2010 池是否为空之后，您可以停用该池。
     
-    有关如何停用旧版 Lync Server 2010 池和服务器的详细信息，请参阅[第8阶段：停止旧版池](phase-8-decommission-legacy-pools.md)。
+    有关如何停用旧版 Lync Server 2010 池和服务器的详细信息，请参阅 [第8阶段：停止旧版池](phase-8-decommission-legacy-pools.md)。
 
 </div>
 

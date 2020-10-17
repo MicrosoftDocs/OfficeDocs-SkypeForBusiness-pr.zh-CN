@@ -12,20 +12,22 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43b7c7509dcf678967db651900c67cdfb3d26685
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 95646d47ae7b045a193cfec49ea06ad75466853f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757073"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527399"
 ---
+# <a name="migrating-archiving-and-monitoring-servers"></a>迁移存档和监控服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a>迁移存档和监控服务器
+
 
 </div>
 

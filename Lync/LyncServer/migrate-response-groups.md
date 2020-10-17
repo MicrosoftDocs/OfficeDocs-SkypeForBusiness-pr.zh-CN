@@ -12,20 +12,22 @@ ms:contentKeyID: 48184020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eee75721eba2e9a329b9418dfb4291216fcd7f33
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9b51fd9bd16da2f6cf135332d68c70c4b4714cdd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527499"
 ---
+# <a name="migrate-response-groups"></a>迁移响应组
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-response-groups"></a>迁移响应组
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2013-09-23_
 
 </div>
 
-在迁移响应组之前，必须已部署包含响应组应用程序的 Lync Server 2013 池。 默认情况下，在部署企业语音时，会安装并激活响应组应用程序。 您可以通过运行**get-csservice – ApplicationServer** cmdlet 来确保响应组应用程序已安装。
+在迁移响应组之前，必须已部署包含响应组应用程序的 Lync Server 2013 池。 默认情况下，在部署企业语音时，会安装并激活响应组应用程序。 您可以通过运行 **get-csservice – ApplicationServer** cmdlet 来确保响应组应用程序已安装。
 
 <div>
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2013-09-23_
 
 </div>
 
-若要将响应组从旧版池迁移到 Lync Server 2013，请运行**CsRgsConfiguration** cmdlet。
+若要将响应组从旧版池迁移到 Lync Server 2013，请运行 **CsRgsConfiguration** cmdlet。
 
 <div>
 
@@ -97,7 +99,7 @@ _**上次修改的主题：** 2013-09-23_
 
 </div>
 
-Lync Server 2013 引入了名为 "**工作流类型**" 的新响应组功能。 “工作流类型”**** 可以是“托管”**** 的，也可以是“非托管”**** 的。 所有响应组都是使用设置为“非托管”**** 的“工作流类型”**** 和空管理员列表进行迁移的。
+Lync Server 2013 引入了名为 " **工作流类型**" 的新响应组功能。 “工作流类型”**** 可以是“托管”**** 的，也可以是“非托管”**** 的。 所有响应组都是使用设置为“非托管”**** 的“工作流类型”**** 和空管理员列表进行迁移的。
 
 在运行 **Move-CsRgsConfiguration** cmdlet 时，代理组、队列、工作流和音频文件保留在旧版池中以用于回滚。 但如果您确实需要回滚到旧版池，则需要运行 **Move-CsApplicationEndpoint** cmdlet 将联系对象移回旧版池。
 
@@ -119,7 +121,7 @@ Lync Server 2013 引入了名为 "**工作流类型**" 的新响应组功能。 
     
         Move-CsRgsConfiguration -Source lync-old.contoso.net -Destination lync-new.contoso.net
 
-4.  将响应组和代理迁移到 Lync Server 2013 池之后，代理用于登录和注销的 URL 是 Lync Server 2013 URL，可从 "**工具**" 菜单中获取。 提醒代理更新对新 URL 的所有引用（例如书签）。
+4.  将响应组和代理迁移到 Lync Server 2013 池之后，代理用于登录和注销的 URL 是 Lync Server 2013 URL，可从 " **工具** " 菜单中获取。 提醒代理更新对新 URL 的所有引用（例如书签）。
 
 </div>
 
@@ -129,15 +131,15 @@ Lync Server 2013 引入了名为 "**工作流类型**" 的新响应组功能。 
 
 1.  使用 RTCUniversalReadOnlyAdmins 组成员帐户，或至少使用 CsViewOnlyAdministrator 角色成员帐户登录计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航窗格中，单击“响应组”****。
 
-4.  在 "**工作流**" 选项卡上，验证 "Lync Server 2010" 环境中的所有工作流是否都包含在列表中。
+4.  在 " **工作流** " 选项卡上，验证 "Lync Server 2010" 环境中的所有工作流是否都包含在列表中。
 
-5.  单击 "**队列**" 选项卡，并验证 "Lync Server 2010" 环境中的所有队列是否都包含在列表中。
+5.  单击 " **队列** " 选项卡，并验证 "Lync Server 2010" 环境中的所有队列是否都包含在列表中。
 
-6.  单击 "**组**" 选项卡，并验证您在 Lync Server 2010 环境中的所有代理组是否都包含在列表中。
+6.  单击 " **组** " 选项卡，并验证您在 Lync Server 2010 环境中的所有代理组是否都包含在列表中。
 
 </div>
 

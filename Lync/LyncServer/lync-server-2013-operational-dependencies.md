@@ -12,20 +12,22 @@ ms:contentKeyID: 63969597
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2403fde7387c1ef5af7d402ad9bc859aa95fe6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e506fbbe204b7248396c25c3728556c61681cbf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216628"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526569"
 ---
+# <a name="operational-dependencies-in-lync-server-2013"></a>Lync Server 2013 中的操作依赖项
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="operational-dependencies-in-lync-server-2013"></a>Lync Server 2013 中的操作依赖项
+
 
 </div>
 
@@ -100,7 +102,7 @@ _**上次修改的主题：** 2015-05-15_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>网络基础结构–内部（LAN/WAN）</p></td>
+<td><p>网络基础结构–内部 (LAN/WAN) </p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -137,7 +139,7 @@ _**上次修改的主题：** 2015-05-15_
 <tbody>
 <tr class="odd">
 <td><p>Lync Server 2013 监视服务器</p></td>
-<td><p>每个中心站点至少部署一个 Lync Server 2013 监视服务器角色，并配置体验质量（QoE）报告包。</p>
+<td><p>每个中心站点至少部署一个 Lync Server 2013 监视服务器角色，并配置 (QoE) 报告包的体验质量。</p>
 <p>有关详细信息，请参阅 Lync Server 2013 部署文档：</p>
 <p><a href="lync-server-2013-deploying-monitoring.md">在 Lync Server 2013 中部署监控</a></p></td>
 <td><p>中央站点</p></td>
@@ -150,7 +152,7 @@ _**上次修改的主题：** 2015-05-15_
 </tr>
 <tr class="odd">
 <td><p>System Center Operations Manager 2012</p></td>
-<td><p>导入了 Microsoft Lync Server 2013 管理包（MP）的 System Center Operations Manager 2012。</p>
+<td><p>System Center Operations Manager 2012，其中包含 Microsoft Lync Server 2013 管理包 (MP) 导入。</p>
 <p>管理包实现传统事件日志和基于性能计数器的规范，并在 Lync Server 2013 中启用新可用的检测。</p></td>
 <td><p>中央站点</p></td>
 </tr>
@@ -206,13 +208,13 @@ _**上次修改的主题：** 2015-05-15_
 <td><p>Lync Server 2013 综合事务观察程序</p></td>
 <td><p>将专用 Lync Server 部署为综合事务观察程序。</p>
 <p>综合事务是由管理包根据预定义间隔自动触发的 Lync Server 2013 Windows PowerShell cmdlet。 这些操作在综合事务观察程序节点上执行，这是一种管理员指定的服务器，负责为每个池发现和执行 STs。</p>
-<p>建议您不要将现有的 Microsoft Lync Server 2013 服务器用作综合事务观察程序节点。 这是因为运行 STs 的 CPU/内存使用率要求较高。 为综合事务观察程序节点使用新的服务器计算机（或虚拟服务器）。</p></td>
+<p>建议您不要将现有的 Microsoft Lync Server 2013 服务器用作综合事务观察程序节点。 这是因为运行 STs 的 CPU/内存使用率要求较高。 对综合事务观察程序节点使用新的服务器计算机 (或虚拟服务器) 。</p></td>
 <td><p>中央站点</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>部署综合事务观察程序节点。</p>
-<p>请参阅 UCTAP connect 文档中的 MonitoringCS_withSCOM .docx 文档。</p></td>
+<p>请参阅 UCTAP connect 文档中的 MonitoringCS_withSCOM.docx 文档。</p></td>
 <td><p>中央站点</p></td>
 </tr>
 </tbody>

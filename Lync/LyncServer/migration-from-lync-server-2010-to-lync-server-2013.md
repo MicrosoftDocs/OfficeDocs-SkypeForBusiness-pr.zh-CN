@@ -12,20 +12,22 @@ ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ea588abf4018ab06a415d4aa5ef7decf5f93996
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89bc70635ac941398a71515e77dd1a792973fc35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189985"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527299"
 ---
+# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>从 Lync Server 2010 迁移到 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>从 Lync Server 2010 迁移到 Lync Server 2013
+
 
 </div>
 
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2012-09-17_
 
   - [第1阶段：从 Lync Server 2010 规划迁移](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-  - [第2阶段：准备迁移](phase-2-prepare-for-migration.md)
+  - [第 2 阶段：准备迁移](phase-2-prepare-for-migration.md)
 
   - [第3阶段：部署 Lync Server 2013 试点池](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
@@ -87,11 +89,11 @@ _**上次修改的主题：** 2012-09-17_
 
   - [第5阶段：将 Lync Server 2013 边缘服务器添加到引导池](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [第6阶段：从试点部署移动到生产环境](phase-6-move-from-pilot-deployment-into-production.md)
+  - [第 6 阶段：从试点部署移动到生产中](phase-6-move-from-pilot-deployment-into-production.md)
 
-  - [第7阶段：完成迁移后任务](phase-7-complete-post-migration-tasks.md)
+  - [第 7 阶段：完成迁移后任务](phase-7-complete-post-migration-tasks.md)
 
-  - [第8阶段：停止旧版池](phase-8-decommission-legacy-pools.md)
+  - [第 8 阶段：停用旧池](phase-8-decommission-legacy-pools.md)
 
 </div>
 

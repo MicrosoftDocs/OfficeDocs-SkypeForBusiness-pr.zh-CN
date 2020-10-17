@@ -12,20 +12,22 @@ ms:contentKeyID: 51541414
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 354f28948578be528787928fd4e0874f6ff8e5fa
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f217ec7d39134dcb8d6000de33b3d0c17aeb033d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755456"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527149"
 ---
+# <a name="introduction"></a>介绍
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="introduction"></a>介绍
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755456"
 
 _**上次修改的主题：** 2013-02-24_
 
-Lync Server 2013 压力和性能工具（称为 "LyncPerfTool"）可以模拟用户对以下类型的负载：
+Lync Server 2013 压力和性能工具 (称为 LyncPerfTool) 可以模拟用户加载以下类型：
 
 
 <table>
@@ -52,7 +54,7 @@ Lync Server 2013 压力和性能工具（称为 "LyncPerfTool"）可以模拟用
 </tr>
 <tr class="even">
 <td><p>应用程序共享</p></td>
-<td><p>IP 语音（VoIP），包括公用电话交换电话网络（PSTN）模拟</p></td>
+<td><p>IP 语音 (VoIP) ，包括公用电话交换电话网络 (PSTN) 模拟</p></td>
 </tr>
 <tr class="odd">
 <td><p>Web Access 客户端会议</p></td>
@@ -64,7 +66,7 @@ Lync Server 2013 压力和性能工具（称为 "LyncPerfTool"）可以模拟用
 </tr>
 <tr class="odd">
 <td><p>通讯簿下载和通讯簿查询</p></td>
-<td><p>增强型9-1-1 （E9-1-1）呼叫和位置配置文件（拨号计划）</p></td>
+<td><p>增强型 9-1-1 (E9-1-1) 呼叫和位置配置文件 (拨号计划) </p></td>
 </tr>
 <tr class="even">
 <td><p>重视</p></td>

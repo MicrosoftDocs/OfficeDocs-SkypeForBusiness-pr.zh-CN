@@ -12,20 +12,22 @@ ms:contentKeyID: 48706004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27ca186fa31b1207238c3a7d254bbd6066cc1d89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3b417f0a6a76c145be1eeabb57958a791883e9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192625"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526599"
 ---
+# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a>在 Lync Server 2013 中将聊天室从一个类别移动到另一个类别
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a>在 Lync Server 2013 中将聊天室从一个类别移动到另一个类别
+
 
 </div>
 
@@ -41,9 +43,9 @@ _**上次修改的主题：** 2012-11-01_
 
 应该尽量不要更改聊天室类别。类别用于确定聊天室允许的成员身份，因此当聊天室移动到另一个类别时，新类别不再支持的所有系统访问控制列表 (SACL) 都将清除。例如，如果用户是聊天室的成员，且不再是新类别中的 **AllowedMember**，则系统会修改聊天室成员身份，并将用户从聊天室中删除。
 
-有关使用 Windows PowerShell 命令行界面移动聊天室的详细信息，请参阅[使用 Windows powershell Cmdlet 配置持久聊天服务器](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 "会议室管理"。
+有关使用 Windows PowerShell 命令行界面移动聊天室的详细信息，请参阅 [使用 Windows powershell Cmdlet 配置持久聊天服务器](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 "会议室管理"。
 
-有关配置聊天室的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置会议室](lync-server-2013-configure-rooms.md)。
+有关配置聊天室的详细信息，请参阅部署文档中的在 [Lync Server 2013 中配置会议室](lync-server-2013-configure-rooms.md) 。
 
 </div>
 

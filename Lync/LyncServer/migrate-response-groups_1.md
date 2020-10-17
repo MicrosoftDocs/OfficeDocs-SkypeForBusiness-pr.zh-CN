@@ -12,20 +12,22 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de012d0886c51cd70d5003beb24053ff86af05b7
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7e06b7cec1b02a194b1bb892af0e60771a15ebd5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756933"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527449"
 ---
+# <a name="migrate-response-groups"></a>迁移响应组
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-response-groups"></a>迁移响应组
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2012-10-19_
 
 </div>
 
-在迁移响应组之前，必须已部署包含响应组应用程序的 Lync Server 2013 池。 默认情况下，在部署企业语音时，会安装并激活响应组应用程序。 您可以通过运行**get-csservice – ApplicationServer** cmdlet 来确保响应组应用程序已安装。
+在迁移响应组之前，必须已部署包含响应组应用程序的 Lync Server 2013 池。 默认情况下，在部署企业语音时，会安装并激活响应组应用程序。 您可以通过运行 **get-csservice – ApplicationServer** cmdlet 来确保响应组应用程序已安装。
 
 <div>
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2012-10-19_
 
 </div>
 
-若要将响应组从旧版池迁移到 Lync Server 2013，请运行**CsRgsConfiguration** cmdlet。 在运行 **Move-CsRgsConfiguration** 之前，您必须先安装 Windows Management Instrumentation (WMI) Backward Compatibility 接口包。 可通过运行 OCSWMIBC.msi 来安装此应用程序。 OCSWMIBC.msi 位于安装介质上的 Setup 文件夹中。
+若要将响应组从旧版池迁移到 Lync Server 2013，请运行 **CsRgsConfiguration** cmdlet。 在运行 **Move-CsRgsConfiguration** 之前，您必须先安装 Windows Management Instrumentation (WMI) Backward Compatibility 接口包。 可通过运行 OCSWMIBC.msi 来安装此应用程序。 OCSWMIBC.msi 位于安装介质上的 Setup 文件夹中。
 
 <div>
 
@@ -144,7 +146,7 @@ _**上次修改的主题：** 2012-10-19_
     
 
     > [!NOTE]  
-    > URL 通常为 https://webpoolFQDN/RgsClients/Tab.aspx ，其中 webpoolFQDN 是与您刚迁移到 Lync Server 2013 的池关联的 web 池的完全限定域名（FQDN）。
+    > URL 通常为 https://webpoolFQDN/RgsClients/Tab.aspx ，其中 webpoolFQDN 是与您刚迁移到 Lync Server 2013 的池关联的 web 池的完全限定的域名 (FQDN) 。
 
     
     </div>
@@ -153,7 +155,7 @@ _**上次修改的主题：** 2012-10-19_
     
 
     > [!NOTE]  
-    > 用户升级到 Lync 2013 后不需要执行此步骤，因为 URL 可从 Lync 的 "<STRONG>工具</STRONG>" 菜单中获取。
+    > 用户升级到 Lync 2013 后不需要执行此步骤，因为 URL 可从 Lync 的 " <STRONG>工具</STRONG> " 菜单中获取。
 
     
     </div>
@@ -168,11 +170,11 @@ _**上次修改的主题：** 2012-10-19_
 
 2.  在左侧导航窗格中，单击“响应组”****。
 
-3.  在 "**工作流**" 选项卡上，验证 "Office 通信服务器 2007 R2" 环境中的所有工作流是否都包含在列表中。
+3.  在 " **工作流** " 选项卡上，验证 "Office 通信服务器 2007 R2" 环境中的所有工作流是否都包含在列表中。
 
-4.  单击 "**队列**" 选项卡，并验证 "Office 通信服务器 2007 R2" 环境中的所有队列是否都包含在列表中。
+4.  单击 " **队列** " 选项卡，并验证 "Office 通信服务器 2007 R2" 环境中的所有队列是否都包含在列表中。
 
-5.  单击 "**组**" 选项卡，并验证 "Office 通信服务器 2007 R2" 环境中的所有代理组是否都包含在列表中。
+5.  单击 " **组** " 选项卡，并验证 "Office 通信服务器 2007 R2" 环境中的所有代理组是否都包含在列表中。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cb548ad27e61284f5bc5f3fff1718faa20ef0e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe99c67faa5cc9d0fadd2bdabd260c9d40091303
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213148"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526039"
 ---
+# <a name="conference-activity-report-in-lync-server-2013"></a>Lync Server 2013 中的会议活动报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-activity-report-in-lync-server-2013"></a>Lync Server 2013 中的会议活动报告
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2012-10-22_
 
 ## <a name="accessing-the-conference-activity-report"></a>访问会议活动报告
 
-可通过单击以下任一指标[在 Lync Server 2013 中的 "会议摘要" 报告中](lync-server-2013-conference-summary-report.md)访问会议活动报告：
+可通过单击以下任一指标 [在 Lync Server 2013 中的 "会议摘要" 报告中](lync-server-2013-conference-summary-report.md) 访问会议活动报告：
 
   - 会议总数
 
@@ -151,7 +153,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -194,7 +196,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

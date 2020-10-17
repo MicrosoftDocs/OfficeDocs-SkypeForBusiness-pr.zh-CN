@@ -12,20 +12,22 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c055a48684716ce64428615759b023242b9e4ff5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f70c4fc0987b75cc8c5a8831eb8ad76493fea9b9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203438"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526319"
 ---
+# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫诊断摘要报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫诊断摘要报告
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-06-06_
 
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>访问呼叫诊断摘要报告
 
-呼叫诊断摘要报告是从监控报告主页访问的。 在呼叫诊断摘要报告中，您可以通过单击报告的 "对等会话摘要" 部分下的 "故障率" 指标，[在 Lync Server 2013 中访问对等活动诊断报告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)。 您还可以通过单击以下任一会议指标，[在 Lync Server 2013 中访问会议诊断报告](lync-server-2013-conference-diagnostic-report.md)：
+呼叫诊断摘要报告是从监控报告主页访问的。 在呼叫诊断摘要报告中，您可以通过单击报告的 "对等会话摘要" 部分下的 "故障率" 指标， [在 Lync Server 2013 中访问对等活动诊断报告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) 。 您还可以通过单击以下任一会议指标， [在 Lync Server 2013 中访问会议诊断报告](lync-server-2013-conference-diagnostic-report.md) ：
 
   - 总体会话故障率
 
@@ -67,7 +69,7 @@ _**上次修改的主题：** 2012-06-06_
 
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>充分利用呼叫诊断摘要报告
 
-呼叫诊断摘要报告包含的图表将对 Microsoft Lync Server 2013 中使用的各种形式的故障率进行比较。 这些图形中的列实际上是 hotlinks;例如，如果单击对等会话的 "即时消息" 列，则将向下钻取到[Lync Server 2013 中对等活动诊断报告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)的实例，该报告提供了有关呼叫诊断摘要报告中包括的所有即时消息会话的其他详细信息。
+呼叫诊断摘要报告包含的图表将对 Microsoft Lync Server 2013 中使用的各种形式的故障率进行比较。 这些图形中的列实际上是 hotlinks;例如，如果单击对等会话的 "即时消息" 列，则将向下钻取到 [Lync Server 2013 中对等活动诊断报告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)的实例，该报告提供了有关呼叫诊断摘要报告中包括的所有即时消息会话的其他详细信息。
 
 </div>
 

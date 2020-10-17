@@ -12,20 +12,22 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 344f15589e113a54b539d351ed8d4745e1fd3a5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a71ac7e0e1291dedfa45e4e358b5b3495d8a623b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209837"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527249"
 ---
+# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>从 Office Communications Server 2007 R2 迁移至 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>从 Office Communications Server 2007 R2 迁移至 Lync Server 2013
+
 
 </div>
 
@@ -81,7 +83,7 @@ _**上次修改的主题：** 2012-10-19_
 
   - [第1阶段：规划从 Office 通信服务器 2007 R2 迁移](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [第2阶段：准备迁移](phase-2-prepare-for-migration_1.md)
+  - [第 2 阶段：准备迁移](phase-2-prepare-for-migration_1.md)
 
   - [第3阶段：部署 Lync Server 2013 试点池](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 

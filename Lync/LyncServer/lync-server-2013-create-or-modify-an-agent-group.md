@@ -12,20 +12,22 @@ ms:contentKeyID: 48185784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b60ba1c402a629c0a85b2bd99dc4819da3455660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 874b73af42869bc5cbe6a66b7efaf792d231b95d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202878"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525749"
 ---
+# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改代理组
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改代理组
+
 
 </div>
 
@@ -74,7 +76,7 @@ _**上次修改的主题：** 2014-02-07_
     
     </div>
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“响应组”****，然后单击“组”****。
 
@@ -107,7 +109,7 @@ _**上次修改的主题：** 2014-02-07_
 
 9.  在“路由方法”**** 中，选择将呼叫路由至组中代理的方法，具体如下：
     
-      - 若要先为空闲时间最长的代理提供新呼叫（在 Lync Server 中状态为 "**可用**" 或 "**非活动**"），请单击 "**最长空闲**"。
+      - 若要首先向已闲置最长 (的代理提供新呼叫，而该代理在 Lync Server 中的 **可用** 或 **非活动** 状态最长) ，请单击 " **最长空闲**"。
     
       - 要将新呼叫同时路由至所有空闲的代理，请单击 **“并行”**。呼叫将发往第一个接受该呼叫的代理。
     
@@ -115,7 +117,7 @@ _**上次修改的主题：** 2014-02-07_
     
       - 要将新呼叫始终按照 **“代理”** 列表中代理的排列顺序路由至代理，请单击 **“串行”**。
     
-      - 若要同时向所有登录到 Lync Server 2013 和响应组应用程序的代理提供新呼叫，请单击 "**助理**"。 配置为代理的 Lync 2010 助理用户可以查看正在等待的所有呼叫，并以任意顺序应答等待呼叫。 呼叫将发送至第一个接受该呼叫的代理，之后其他 Lync 2010 助理用户将不再看到该呼叫。
+      - 若要同时向所有登录到 Lync Server 2013 和响应组应用程序的代理提供新呼叫，请单击 " **助理**"。 配置为代理的 Lync 2010 助理用户可以查看正在等待的所有呼叫，并以任意顺序应答等待呼叫。 呼叫将发送至第一个接受该呼叫的代理，之后其他 Lync 2010 助理用户将不再看到该呼叫。
 
 10. 在“代理”**** 中，指定创建代理列表要采用的方式：
     
@@ -152,7 +154,7 @@ _**上次修改的主题：** 2014-02-07_
         
           - 如果配置了通讯组列表以使成员身份处于隐藏状态，并且响应组管理员将通讯组列表分配给代理列表，则用户可以调用该组以找出成员的身份。
         
-          - 如果已将通讯组列表配置为在 Exchange 全局地址列表中隐藏，则响应组管理员可能能够查看通讯组列表并将其分配给代理列表（如果响应组进程具有相应的用户权限）并权限，即使管理员没有适当的用户权限和权限也是如此。
+          - 如果将通讯组列表配置为在 Exchange 全局地址列表中隐藏，则响应组管理员可以查看通讯组列表，并将其分配给代理列表，如果响应组进程具有相应的用户权限和权限，即使管理员没有相应的用户权限和权限也是如此。
 
 11. 单击“提交”****。
 

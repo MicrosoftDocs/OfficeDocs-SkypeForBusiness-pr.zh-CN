@@ -12,20 +12,22 @@ ms:contentKeyID: 48185661
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2770c8da4b990cf1a1c7ab7f276d33b72b10878b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2f403cb04e08d136672c9f4253e229d5116a631
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209338"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526219"
 ---
+# <a name="lync-server-2013-cmdlets-index"></a>Lync Server 2013 cmdlet 索引
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-cmdlets-index"></a>Lync Server 2013 cmdlet 索引
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42209338"
 
 _**上次修改的主题：** 2016-04-12_
 
-Microsoft Lync Server 2013 随附有700个以上的 cmdlet，使管理员能够从命令行管理 Lync Server 2013。 Lync Server cmdlet 通常与 Lync Server 命令行管理程序一起使用。 使用 Lync Server 命令行管理程序的一种方法是，登录到运行 Lync Server 服务或服务器角色的计算机上，依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management Shell**"。 命令行管理程序打开之后，可通过键入类似如下的命令直接从命令行检索有关某个 cmdlet 的帮助：
+Microsoft Lync Server 2013 随附有700个以上的 cmdlet，使管理员能够从命令行管理 Lync Server 2013。 Lync Server cmdlet 通常与 Lync Server 命令行管理程序一起使用。 使用 Lync Server 命令行管理程序的一种方法是，登录到运行 Lync Server 服务或服务器角色的计算机上，依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management Shell**"。 命令行管理程序打开之后，可通过键入类似如下的命令直接从命令行检索有关某个 cmdlet 的帮助：
 
     Get-Help New-CsVoicePolicy -Full
 
@@ -47,7 +49,7 @@ Microsoft Lync Server 2013 随附有700个以上的 cmdlet，使管理员能够�
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-有关使用 Lync Server 命令行管理程序的详细信息，请参阅 Lync Server Windows PowerShell [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)博客 at。
+有关使用 Lync Server 命令行管理程序的详细信息，请参阅 Lync Server Windows PowerShell 博客 at [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150) 。
 
 <div>
 

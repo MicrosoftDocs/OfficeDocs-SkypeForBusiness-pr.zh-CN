@@ -12,20 +12,22 @@ ms:contentKeyID: 48184371
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35b8586df49eb1dd7a10e94d3231cc2fdc082353
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 99cf4d98f02554e7de344ded843b60406e755a3a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184105"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526449"
 ---
+# <a name="planning-for-remote-call-control-in-lync-server-2013"></a>在 Lync Server 2013 中规划远程呼叫控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-remote-call-control-in-lync-server-2013"></a>在 Lync Server 2013 中规划远程呼叫控制
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42184105"
 
 _**上次修改的主题：** 2012-09-05_
 
-在 Lync Server 2013 中，支持远程呼叫控制方案使用户能够通过在其台式计算机上使用 Lync 2013 控制其专用的分支 exchange （PBX）电话。 本节介绍远程呼叫控制功能以及部署远程呼叫控制的要求。
+在 Lync Server 2013 中，支持远程呼叫控制方案使用户能够通过在其台式计算机上使用 Lync 2013 控制其专用的分支 exchange (PBX) 电话。 本节介绍远程呼叫控制功能以及部署远程呼叫控制的要求。
 
-PBX 和 Lync Server 2013 之间的集成使远程呼叫控制启用的用户可以使用 Lync 2013 用户界面（UI）按以下方式控制其 PBX 电话上的呼叫：
+通过 PBX 和 Lync Server 2013 之间的集成，启用远程呼叫控制的用户可以使用 Lync 2013 用户界面 (UI) 通过以下方式控制其 PBX 手机上的呼叫：
 
 <div>
 
@@ -61,7 +63,7 @@ PBX 和 Lync Server 2013 之间的集成使远程呼叫控制启用的用户可�
     
 
     > [!NOTE]  
-    > 也就是说，当呼叫者的电话号码可以与组织的全局地址列表（GAL）中的即时消息地址关联，在被叫方的 Lync 联系人列表中，或在联盟伙伴的组织中。
+    > 也就是说，当呼叫者的电话号码可以与组织的全局地址列表中的即时消息地址关联时 (GAL) 、被叫方的 Lync 联系人列表中或联盟伙伴的组织中。
 
     
     </div>

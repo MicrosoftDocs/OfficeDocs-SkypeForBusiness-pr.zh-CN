@@ -12,20 +12,22 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e0bd9d635cc745c10836c58a331d2e36380e446
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38126f54e02738b1f48b42022a9061055e271d18
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190795"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525719"
 ---
+# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>在 Lync Server 2013 中删除公用区域电话联系人对象
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>在 Lync Server 2013 中删除公用区域电话联系人对象
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42190795"
 
 _**上次修改的主题：** 2013-02-20_
 
-您可能想要删除与公用区域电话相关联的 contact 对象。 例如，如果您从员工的工作方式中删除了电话，则无需具有与该电话关联的 contact 对象。 **CsCommonAreaPhone** cmdlet 提供了一种删除公用区域电话帐户的方法。 运行此 cmdlet 时，将从**CsCommonAreaPhone**返回的常见区域电话列表中删除手机。 此外，还会从 Active Directory 域服务中删除与该手机相关联的 contact 对象。
+您可能想要删除与公用区域电话相关联的 contact 对象。 例如，如果您从员工的工作方式中删除了电话，则无需具有与该电话关联的 contact 对象。 **CsCommonAreaPhone** cmdlet 提供了一种删除公用区域电话帐户的方法。 运行此 cmdlet 时，将从 **CsCommonAreaPhone**返回的常见区域电话列表中删除手机。 此外，还会从 Active Directory 域服务中删除与该手机相关联的 contact 对象。
 
-使用**CsCommonAreaPhone**删除包含通用元素（如显示名称、国家/地区代码和区号）的一个公用区域电话或所有公用区域电话。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+使用 **CsCommonAreaPhone** 删除包含通用元素（如显示名称、国家/地区代码和区号）的一个公用区域电话或所有公用区域电话。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -68,13 +70,13 @@ _**上次修改的主题：** 2013-02-20_
 
 ## <a name="removing-common-area-phones-based-on-their-country-and-area-codes"></a>根据国家/地区代码和区号删除公用区域电话
 
-  - 此命令将删除美国的所有公用区域电话（国家/地区代码1）和区号425：
+  - 此命令将删除美国的所有常见地区电话 (国家/地区代码 1) 和区号425：
     
         Get-CsCommonAreaPhone | Where-Object {$_.LineUri  -match "^tel:\+1425"} | Remove-CsCommonAreaPhone
 
 </div>
 
-有关详细信息，请参阅[CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Remove-CsCommonAreaPhone) Cmdlet 的帮助主题。
+有关详细信息，请参阅 [CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Remove-CsCommonAreaPhone) Cmdlet 的帮助主题。
 
 </div>
 

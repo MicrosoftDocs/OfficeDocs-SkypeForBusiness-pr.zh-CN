@@ -12,20 +12,22 @@ ms:contentKeyID: 48184690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd5f09d80aa86c9c0f692fbe0e744a445067e74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4edc22c1cfc46b032e679a9dc0718113bc6967bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526649"
 ---
+# <a name="importing-the-lync-server-2013-management-packs"></a>导入 Lync Server 2013 管理包
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="importing-the-lync-server-2013-management-packs"></a>导入 Lync Server 2013 管理包
+
 
 </div>
 
@@ -37,20 +39,20 @@ ms.locfileid: "42197155"
 
 _**上次修改的主题：** 2012-10-22_
 
-您可以通过安装管理包来扩展 System Center Operations Manager 的功能，该软件规定 System Center Operations Manager 可以监视的项目，以及应如何监视这些项目以及应如何触发警报以及如何触发警报以及报表. Lync Server 2013 包括两个 System Center Operations Manager 管理包，它们提供以下功能：
+您可以通过安装管理包来扩展 System Center Operations Manager 的功能，该软件规定 System Center Operations Manager 可以监视的项目，以及应如何监视这些项目以及应如何触发和报告警报。 Lync Server 2013 包括两个 System Center Operations Manager 管理包，它们提供以下功能：
 
-  - 组件和用户管理包（Microsoft.LS.2013.Monitoring.ComponentAndUser.mp）跟踪事件日志中记录的、由性能计数器注册的 Lync Server 问题，或记录在呼叫详细信息记录（CDR）或用户体验质量（QoE）中的数据库. 对于关键问题，可以将 System Center Operations Manager 配置为立即通过电子邮件、即时消息或短信服务（SMS）消息通知管理员。 SMS 是用于将短信从一个移动设备发送到另一个移动设备的技术。
+  - 组件和用户管理包 (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) 跟踪在事件日志中记录的、由性能计数器注册的 Lync Server 问题，或记录在 (CDR) 的呼叫详细记录中，或在 QoE (数据库的体验质量) 。 对于关键问题，可以将 System Center Operations Manager 配置为通过电子邮件、即时消息或短信服务立即通知管理员 (SMS) 消息传递。 SMS 是用于将短信从一个移动设备发送到另一个移动设备的技术。 ) 
     
     <div>
     
 
     > [!NOTE]  
-    > 有关配置 Operations Manager 通知的详细信息，请参阅 TechNet Library 中的配置通知<A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A>。
+    > 有关配置 Operations Manager 通知的详细信息，请参阅 TechNet Library 中的配置通知 <A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A> 。
 
     
     </div>
 
-  - 主动监控管理包（Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp）主动测试重要的 Lync Server 组件，例如，登录到系统、交换即时消息或呼叫位于公开交换的电话电话网络（PSTN）。 这些测试通过使用 Lync Server 综合事务 cmdlet 进行。 例如，您可使用 **Test-CsIM** cmdlet 在一对测试用户之间模拟即时消息 (IM) 对话。 如果此命令模拟消息对话失败，则将生成警报。
+  - 主动监控管理包 (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) 主动测试关键 Lync Server 组件，例如登录到系统、交换即时消息或呼叫位于公用电话交换网 (PSTN) 的电话。 这些测试通过使用 Lync Server 综合事务 cmdlet 进行。 例如，您可使用 **Test-CsIM** cmdlet 在一对测试用户之间模拟即时消息 (IM) 对话。 如果此命令模拟消息对话失败，则将生成警报。
 
 您需要导入管理包。 如果不导入管理包，则不能使用 Operations Manager 来监视 Lync Server 事件或运行 Lync Server 合成事务。
 
@@ -68,9 +70,9 @@ _**上次修改的主题：** 2012-10-22_
 
 可使用下列任一工具导入管理包：
 
-  - **System Center Operations Manager**   通过此方法，您可以使用 Operations Manager 为 Lync Server 添加监控。
+  - **System Center Operations Manager**    使用此方法，可以使用 Operations Manager 为 Lync Server 添加监控。
 
-  - **Operations manager 命令行**   管理程序您可以使用 operations manager 命令行管理程序直接导入，或解决在使用 System Center Operations Manager 控制台导入管理包时遇到的任何问题。
+  - **Operations Manager 命令行**     管理程序您可以使用 Operations Manager 命令行管理程序直接导入，或解决您在使用 System Center Operations Manager 控制台导入管理包时遇到的任何问题。
 
 <div>
 
@@ -78,13 +80,13 @@ _**上次修改的主题：** 2012-10-22_
 
 1.  下载文件 Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp 和 Microsoft.LS.2013.Monitoring.ComponentAndUser.mp。
 
-2.  在 System Center Operations Manager 中，单击 "**管理**"。
+2.  在 System Center Operations Manager 中，单击 " **管理**"。
 
 3.  在“管理”**** 窗格中，右键单击“管理包”****，然后单击“导入管理包”****。
 
 4.  在“选择管理包”**** 对话框中，单击“添加”****，然后单击“从磁盘中添加”****。
 
-5.  在 "**联机目录连接**" 对话框中，单击 "**取消**" 以阻止 Operations Manager 联机查看是否存在与 Lync Server 管理包相关的依赖项。 如果使用的是 System Center Operations Manager 2012，请单击 "**否**"。
+5.  在 " **联机目录连接** " 对话框中，单击 " **取消** " 以阻止 Operations Manager 联机查看是否存在与 Lync Server 管理包相关的依赖项。 如果使用的是 System Center Operations Manager 2012，请单击 " **否**"。
 
 6.  在“选择要导入的管理包”**** 对话框中，查找并选择“Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp”**** 和“Microsoft.LS.2013.Monitoring.ComponentAndUser.mp”****，然后单击“打开”****。若要在对话框中选择多个文件，请单击第一个文件，按住 Ctrl 键，然后单击第二个文件。
 
@@ -102,7 +104,7 @@ _**上次修改的主题：** 2012-10-22_
 
 如果您使用的是 System Center Operations Manager 2007 R2，请完成以下过程：
 
-1.  依次单击 "**开始**"、"**所有程序**"、" **System Center Operations Manager 2007 R2**" 和 " **Operations Manager Shell**"。
+1.  依次单击 " **开始**"、" **所有程序**"、" **System Center Operations Manager 2007 R2**" 和 " **Operations Manager Shell**"。
 
 2.  在 Operations Manager 命令行管理程序中，使用文件 Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp 的副本的实际路径在命令提示符处键入以下命令，然后按 ENTER：
     
@@ -116,7 +118,7 @@ _**上次修改的主题：** 2012-10-22_
 
 如果使用的是 System Center Operations Manager 2012，请改为完成此过程：
 
-1.  依次单击 "**开始**"、"**所有程序**"、" **Microsoft System Center 2012**"、" **Operations manager**" 和 " **operations manager Shell**"。
+1.  依次单击 " **开始**"、" **所有程序**"、" **Microsoft System Center 2012**"、" **Operations manager**" 和 " **operations manager Shell**"。
 
 2.  在 Operations Manager 命令行管理程序中，使用文件 Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp 的副本的实际路径在命令提示符处键入以下命令，然后按 ENTER：
     

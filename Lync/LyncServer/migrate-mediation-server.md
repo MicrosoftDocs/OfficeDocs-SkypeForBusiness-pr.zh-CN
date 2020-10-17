@@ -12,20 +12,22 @@ ms:contentKeyID: 48185117
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80c6dbc55e41324ad9c3e7d83bb593d8b8e93c64
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 87d1e9eaee83f4db6c1ca30cd143d62d45852988
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527519"
 ---
+# <a name="migrate-mediation-server"></a>迁移中介服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-mediation-server"></a>迁移中介服务器
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-09-28_
 
   - [将语音路由更改为使用新的 Lync Server 2013 中介服务器](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
 
-  - [将并置中介服务器转换为独立的中介服务器（可选）](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+  - [将并置中介服务器转换为独立中介服务器 (可选) ](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
 
 </div>
 

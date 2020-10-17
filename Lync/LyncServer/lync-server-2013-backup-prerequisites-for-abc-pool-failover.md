@@ -12,20 +12,22 @@ ms:contentKeyID: 51541485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bd6bd22b29cd5031e83f0e8e8a09755c730be64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0607a0ddc2a1b2a8249135fa1256f2cb706a250a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527029"
 ---
+# <a name="backup-prerequisites-for-abc-pool-failover-in-lync-server-2013"></a>Lync Server 2013 中的 ABC 池故障转移的备份先决条件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-prerequisites-for-abc-pool-failover-in-lync-server-2013"></a>Lync Server 2013 中的 ABC 池故障转移的备份先决条件
+
 
 </div>
 
@@ -39,23 +41,23 @@ _**上次修改的主题：** 2013-03-26_
 
 若要获取使用 ABC 池故障转移过程的最大好处，必须在发生灾难和故障转移之前执行某些备份：
 
-  - 您必须使用**CsLISConfiguration** cmdlet 定期备份池 A 中的位置信息服务（.lis）配置数据。
+  - 您必须使用 **CsLISConfiguration** cmdlet 定期备份来自池 A 的位置信息服务 (.lis) 配置数据。
     
         Export-csLisConfiguration -FileName <C:\LISExportPrimary.zip>
 
-  - 您必须使用**CsRgsConfiguration** cmdlet 定期备份 pool A 中的响应组配置数据。
+  - 您必须使用 **CsRgsConfiguration** cmdlet 定期备份 pool A 中的响应组配置数据。
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<Pool A FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
     通常，建议您执行日常备份，但如果您要进行大量更改，那么您可能希望安排更为频繁的备份。 灾难发生时可以丢失的信息量取决于备份的频率，以及更改的频率和数量的情况。
     
-    响应组应用程序只能为每个池存储一组应用程序级别的设置。 可以通过**CsRgsConfiguration** cmdlet 访问这些设置。 这些设置包括默认的保持音乐配置、默认的保持音乐音频文件、代理的电话拨入式宽限期和呼叫上下文配置。 通过使用**ReplaceExistingSettings**参数，可以通过**CsRgsConfiguration** cmdlet 将这些设置从一个池传输到另一个池，但此操作将替代目标池中的任何应用程序级设置。
+    响应组应用程序只能为每个池存储一组应用程序级别的设置。 可以通过 **CsRgsConfiguration** cmdlet 访问这些设置。 这些设置包括默认的保持音乐配置、默认的保持音乐音频文件、代理的电话拨入式宽限期和呼叫上下文配置。 通过使用**ReplaceExistingSettings**参数，可以通过**CsRgsConfiguration** cmdlet 将这些设置从一个池传输到另一个池，但此操作将替代目标池中的任何应用程序级设置。
     
     <div>
     
 
     > [!TIP]  
-    > 在一个单独的位置，保留已用于配置响应组应用程序的所有原始音频文件的备份副本（即任何录制或保留音乐的文件）。
+    > 在一个单独的位置，保留已用于配置响应组应用程序的所有原始音频文件的备份副本 (即，任何录制或包含音乐的文件) 。
 
     
     </div>
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2013-03-26_
     
 
     > [!NOTE]  
-    > 呼叫寄存应用程序只能为每个池存储一组设置和一个自定义的音乐保留音频文件。 可以通过<STRONG>CsCpsConfiguration</STRONG> cmdlet 访问这些设置。 由于呼叫寄存的灾难恢复机制依赖于备份池的呼叫寄存应用程序，因此在发生灾难时不会备份或保留主池的设置。 如果主池丢失，则无法恢复这些设置，并且在部署新池以替换主池时，将需要重新配置呼叫寄存设置和任何自定义的保持音乐音频文件。
+    > 呼叫寄存应用程序只能为每个池存储一组设置和一个自定义的音乐保留音频文件。 可以通过 <STRONG>CsCpsConfiguration</STRONG> cmdlet 访问这些设置。 由于呼叫寄存的灾难恢复机制依赖于备份池的呼叫寄存应用程序，因此在发生灾难时不会备份或保留主池的设置。 如果主池丢失，则无法恢复这些设置，并且在部署新池以替换主池时，将需要重新配置呼叫寄存设置和任何自定义的保持音乐音频文件。
 
     
     </div>

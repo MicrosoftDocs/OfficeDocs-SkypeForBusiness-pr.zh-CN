@@ -12,20 +12,22 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73801c006f7ef5487960628d0f981809cdfd2d38
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 6d008e77df49dcfb2875923575c5d0c2acb1d1dd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755626"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526409"
 ---
+# <a name="using-categories-to-administer-persistent-chat-server"></a>使用类别管理持久聊天服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-categories-to-administer-persistent-chat-server"></a>使用类别管理持久聊天服务器
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2013-10-01_
 
 
 > [!NOTE]  
-> 虽然聊天室的许多管理功能在运行持久聊天（Lync 客户端）的计算机中可用，但持久聊天管理员（在<STRONG>cspersistentchatadministrator</STRONG>角色中）必须使用 Lync Server 控制面板或 Windows PowerShell cmdlet 来创建或管理类别。
+> 虽然聊天室的许多管理功能在运行持续聊天 (Lync 客户端) 的计算机中可用，但 <STRONG>cspersistentchatadministrator</STRONG> 角色) 中 (的持久聊天管理员必须使用 Lync Server 控制面板或 Windows PowerShell cmdlet 来创建或管理类别。
 
 
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2013-10-01_
 
 持久聊天管理员使用 Lync Server 控制面板或 Windows PowerShell cmdlet 来创建和管理类别，并为组织中的用户设计聊天室的访问权限。
 
-持久聊天室管理员（能够管理一个或多个聊天室）可以使用 Lync 客户端启动聊天室管理 Web 应用程序，以创建和管理会议室（或客户可以创建要调用的自定义解决方案和工作流）。 持久聊天管理员还可以使用 Lync Server 控制面板或 Windows PowerShell cmdlet 来创建和管理聊天室。
+持久聊天室管理员（能够管理一个或多个聊天室）可以使用 Lync 客户端启动聊天室管理 Web 应用程序来创建和管理会议室 (或者客户可以创建要) 调用的自定义解决方案和工作流。 持久聊天管理员还可以使用 Lync Server 控制面板或 Windows PowerShell cmdlet 来创建和管理聊天室。
 
 <div>
 
@@ -87,11 +89,11 @@ _**上次修改的主题：** 2013-10-01_
 
 ## <a name="delegated-administration"></a>委派管理
 
-通过正确使用类别，创建和管理持久聊天室更容易。 持续聊天管理员可以为每个类别定义**AllowedMembers**和**创建者**，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用 Lync Server 控制面板或 Windows PowerShell cmdlet 创建和管理类别。
+通过正确使用类别，创建和管理持久聊天室更容易。 持续聊天管理员可以为每个类别定义 **AllowedMembers** 和 **创建者** ，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用 Lync Server 控制面板或 Windows PowerShell cmdlet 创建和管理类别。
 
 标识为类别创建者的用户、组织单位 (OU) 和用户组是唯一允许在该类别中创建聊天室的个人和组。类别创建后，他们可以从类别的 **AllowedMembers** 列表中选择用户、OU 和用户组作为聊天室管理员和成员来管理和参与聊天室。
 
-在类别中创建的聊天室遵循由类别强制实施的策略和设置（例如谁可以在会议室的成员身份、谁可以管理聊天室、是否允许文件上载、是否已发送邀请等）。
+在类别中创建的聊天室遵循类别所强制的策略和设置 (例如，谁可以在会议室的成员身份、谁可以管理聊天室、是否允许文件上载、是否发送邀请等) 。
 
 </div>
 

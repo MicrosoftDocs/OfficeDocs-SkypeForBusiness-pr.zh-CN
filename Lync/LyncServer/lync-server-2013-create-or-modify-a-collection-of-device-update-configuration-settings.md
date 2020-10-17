@@ -12,20 +12,22 @@ ms:contentKeyID: 51803938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1cba65da0e8c1e01c5cf5666b13b98cc2009baf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f5ec896951f96c1e5059968ea0998742a90957c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180099"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525849"
 ---
+# <a name="create-or-modify-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改设备更新配置设置的集合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改设备更新配置设置的集合
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42180099"
 
 _**上次修改的主题：** 2013-02-23_
 
-可以使用 Windows PowerShell 和**CsDeviceUpdateConfiguration** cmdlet 创建设备更新配置设置（仅限在网站范围内），并使用**CsDeviceUpdateConfiguration** cmdlet 进行修改。 这些 cmdlet 可从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话中运行。
+只能使用 Windows PowerShell 和 **CsDeviceUpdateConfiguration** cmdlet) 在网站范围内 (创建设备更新配置设置，并使用 **CsDeviceUpdateConfiguration** cmdlet 进行修改。 这些 cmdlet 可从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话中运行。
 
 <div>
 
 
 > [!NOTE]
-> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上<A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 。
 
 
 
@@ -84,7 +86,7 @@ _**上次修改的主题：** 2013-02-23_
 
 </div>
 
-有关修改现有设备配置设置的详细信息，请参阅[CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15)) Cmdlet 的帮助主题。 有关创建配置设置的集合的详细信息，请参阅[CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15)) Cmdlet 的帮助主题。
+有关修改现有设备配置设置的详细信息，请参阅 [CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg398320(v=OCS.15)) Cmdlet 的帮助主题。 有关创建配置设置的集合的详细信息，请参阅 [CsDeviceUpdateConfiguration](https://technet.microsoft.com/library/Gg425761(v=OCS.15)) Cmdlet 的帮助主题。
 
 </div>
 

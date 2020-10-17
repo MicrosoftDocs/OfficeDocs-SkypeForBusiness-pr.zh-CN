@@ -12,20 +12,22 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebce894ae93b9071a880b35dffd039225b5485cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7376ce3cbafe1321878a28e43e9bc3ab065c990f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525931"
 ---
+# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>为 Microsoft Lync Server 2013 语音邮件配置 Microsoft Exchange Server 2013 统一消息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>为 Microsoft Lync Server 2013 语音邮件配置 Microsoft Exchange Server 2013 统一消息
+
 
 </div>
 
@@ -37,24 +39,24 @@ ms.locfileid: "42213588"
 
 _**上次修改的主题：** 2013-02-04_
 
-Microsoft Lync Server 2013 使你能够将语音邮件消息存储在 Microsoft Exchange Server 2013 中;这些语音邮件随后将以电子邮件的形式显示在用户的收件箱中。 在 Lync Server 和 Exchange 的2010版本中也可以找到此功能;但是，由于引入了 UM 呼叫路由器组件，配置此 "统一消息" 的过程在2013版本中进行了简化。 此组件安装在 Exchange 2013 客户端访问服务器上，对 Exchange 统一消息（如语音邮件）的所有呼叫都先通过呼叫路由器路由，然后重定向到相应的邮箱服务器。
+Microsoft Lync Server 2013 使你能够将语音邮件消息存储在 Microsoft Exchange Server 2013 中;这些语音邮件随后将以电子邮件的形式显示在用户的收件箱中。 在 Lync Server 和 Exchange 的2010版本中也可以找到此功能;但是，由于引入了 UM 呼叫路由器组件，配置此 "统一消息" 的过程在2013版本中进行了简化。 此组件安装在 Exchange 2013 客户端访问服务器上，对 Exchange 统一消息 (（如语音邮件) ）的所有调用首先通过呼叫路由器路由，然后重定向到相应的邮箱服务器。
 
-如果已在 Lync Server 2013 和 Exchange 2013 之间配置了服务器到服务器身份验证，则可以设置统一消息。 若要执行此操作，必须首先在 Exchange 服务器上创建和分配新的统一消息拨号计划。 例如，以下两个命令（从 Exchange 命令行管理程序中运行）为 Exchange 配置一个新的3位数拨号计划：
+如果已在 Lync Server 2013 和 Exchange 2013 之间配置了服务器到服务器身份验证，则可以设置统一消息。 若要执行此操作，必须首先在 Exchange 服务器上创建和分配新的统一消息拨号计划。 例如，这两个命令 (在 Exchange 命令行管理程序中运行，) 为 Exchange 配置新的3位拨号计划：
 
     New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
     Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 
 在该示例的第一个命令中，VoIPSecurity 参数和参数值“Secured”指示信号通道用传输层安全性 (TLS) 加密。URIType“SipName”指示将使用 SIP 协议发送和接收消息，CountryOrRegionCode 为 1 指示拨号计划适用于美国。
 
-在第二个命令中，传递给 ConfiguredInCountryOrRegionGroups 参数的参数值指定可在此拨号计划中使用的国家/地区组。 参数值 "Anywhere，\*，\*，\*" 设置以下各项：
+在第二个命令中，传递给 ConfiguredInCountryOrRegionGroups 参数的参数值指定可在此拨号计划中使用的国家/地区组。 参数值 "Anywhere，， \* \* ， \* " 设置以下各项：
 
   - 组名 ("Anywhere")
 
-  - AllowedNumberString （\*，表示允许的任意数字字符串的通配符）
+  - AllowedNumberString (\* ，表示允许使用任意数字字符串的通配符字符) 
 
-  - DialNumberString （\*，表示允许任何拨打的号码的通配符字符）
+  - DialNumberString (\* ，表示允许任何拨打的号码的通配符字符) 
 
-  - TextComment （\*，表示允许使用任何文本命令的通配符字符）
+  - TextComment (\* ，表示允许使用任何文本命令的通配符字符) 
 
 <div>
 
@@ -70,7 +72,7 @@ Microsoft Lync Server 2013 使你能够将语音邮件消息存储在 Microsoft 
 
     Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 
-配置统一消息服务器后，接下来应运行 Get-exchangecertificate cmdlet，以确保将 Exchange 证书应用于统一消息服务：
+配置统一消息服务器后，接下来应运行 Enable-ExchangeCertificate cmdlet，以确保将 Exchange 证书应用于统一消息服务：
 
     Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 
@@ -93,7 +95,7 @@ Microsoft Lync Server 2013 使你能够将语音邮件消息存储在 Microsoft 
 
 在前一个命令中，Extensions 参数表示用户的电话分机号。在该示例中，用户的分机号为 100。
 
-在启用其邮箱后，用户 kenmyer@litwareinc.com 应该能够使用 Exchange 统一消息。 您可以通过在 Lync Server 命令行管理程序中运行[test-csexumconnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) cmdlet 来验证用户是否可以连接到 Exchange UM：
+在启用其邮箱后，用户 kenmyer@litwareinc.com 应该能够使用 Exchange 统一消息。 您可以通过在 Lync Server 命令行管理程序中运行 [test-csexumconnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) cmdlet 来验证用户是否可以连接到 Exchange UM：
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

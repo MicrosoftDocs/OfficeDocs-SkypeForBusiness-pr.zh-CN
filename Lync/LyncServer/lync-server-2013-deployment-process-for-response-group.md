@@ -12,20 +12,22 @@ ms:contentKeyID: 48185437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c592b0ee0ba2794391c539bdc52e9344bc43b27
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54335e8f70753a77f937819f896135ec1fe67b93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198245"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526889"
 ---
+# <a name="deployment-process-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中响应组的部署过程
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中响应组的部署过程
+
 
 </div>
 
@@ -52,7 +54,7 @@ _**上次修改的主题：** 2012-09-27_
 <tr class="header">
 <th>阶段</th>
 <th>步骤</th>
-<th>Permissions</th>
+<th>权限</th>
 <th>部署文档</th>
 </tr>
 </thead>
@@ -87,7 +89,7 @@ _**上次修改的主题：** 2012-09-27_
 <li><p>创建和配置队列。</p></li>
 </ol></li>
 <li><p>（可选）使用 Lync Server 命令行管理程序创建预定义的响应组工作时间和假日。</p></li>
-<li><p>使用响应组配置工具或 Lync Server 命令行管理程序创建工作流（智能寻线或互动语音响应（IVR）呼叫流），包括自定义响应组工作时间和假日。</p>
+<li><p>使用响应组配置工具或 Lync Server 命令行管理程序创建工作流 (智能寻线或互动语音响应 (IVR) 呼叫流) ，包括自定义响应组工作时间和假日。</p>
 <div>
 
 > [!NOTE]  
@@ -104,8 +106,8 @@ _**上次修改的主题：** 2012-09-27_
 <p>CsResponseGroupManager</p></td>
 <td><p><a href="lync-server-2013-create-response-group-agent-groups.md">创建响应组代理组 Lync Server 2013</a></p>
 <p><a href="lync-server-2013-create-response-group-queues.md">在 Lync Server 2013 中创建响应组队列</a></p>
-<p><a href="lync-server-2013-optional-define-response-group-business-hours.md">Optional在 Lync Server 2013 中定义响应组工作时间</a></p>
-<p><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">Optional在 Lync Server 2013 中定义响应组假日集</a></p>
+<p><a href="lync-server-2013-optional-define-response-group-business-hours.md"> (可选) 在 Lync Server 2013 中定义响应组工作时间</a></p>
+<p><a href="lync-server-2013-optional-define-response-group-holiday-sets.md"> (可选) 在 Lync Server 2013 中定义响应组假日集</a></p>
 <p><a href="lync-server-2013-create-or-modify-a-workflow.md">在 Lync Server 2013 中创建或修改工作流</a></p></td>
 </tr>
 <tr class="odd">

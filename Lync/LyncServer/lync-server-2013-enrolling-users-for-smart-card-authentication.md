@@ -12,20 +12,22 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a157d5492378771cf40a6438bbf8672efd01412
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfbfcd73aba4079d74074adcd2710b8a2d45aeba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213368"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526769"
 ---
+# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中为用户注册智能卡身份验证
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中为用户注册智能卡身份验证
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2013-07-03_
 
 为用户注册智能卡身份验证的方法通常有两种。 更简单的方法是让用户使用 web 注册直接注册智能卡身份验证，而更复杂的方法涉及使用注册代理。 本主题重点介绍了智能卡证书的自注册。
 
-有关作为注册代理代表用户注册的详细信息，请参阅在[https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367)上代表其他用户注册证书。
+有关作为注册代理代表用户注册的详细信息，请参阅在上代表其他用户注册证书 [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367) 。
 
 <div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2013-07-03_
 
 2.  启动 Internet Explorer。
 
-3.  浏览到 "**证书颁发机构 Web 注册**" 页（ https://MyCA.contoso.com/certsrv)例如，
+3.  浏览到 " **证书颁发机构 Web 注册** " 页 (https://MyCA.contoso.com/certsrv) 例如，
     
     <div>
     
@@ -60,39 +62,39 @@ _**上次修改的主题：** 2013-07-03_
     
     </div>
 
-4.  在 "**欢迎**" 页面上，选择 "**申请证书**"。
+4.  在 " **欢迎** " 页面上，选择 " **申请证书**"。
 
-5.  接下来，选择 "**高级请求**"。
+5.  接下来，选择 " **高级请求**"。
 
-6.  选择 "**创建并向此 CA 提交一个请求**"。
+6.  选择 " **创建并向此 CA 提交一个请求**"。
 
 7.  在 "**证书模板**" 部分下选择 "**智能卡用户**"，并使用以下值完成高级证书请求：
     
-      - **主要选项**确认他的以下设置：
+      - **主要选项** 确认他的以下设置：
         
-          - 选择 "**创建新密钥集**" 单选按钮
+          - 选择 " **创建新密钥集** " 单选按钮
         
-          - 对于**CSP**，选择**Microsoft 基本智能卡加密提供程序**
+          - 对于 **CSP**，选择 **Microsoft 基本智能卡加密提供程序**
         
-          - 若要**使用密钥**，请选择 " **Exchange** " （这是唯一可用的选项）。
+          - 若要 **使用密钥**，请选择 " **Exchange** (这是唯一可) 的选项。
         
-          - 对于**密钥大小**，请输入**2048**
+          - 对于 **密钥大小**，请输入 **2048**
         
-          - 确认已选择 "**自动密钥容器名称**"
+          - 确认已选择 " **自动密钥容器名称** "
         
           - 将其他框保留为未选中状态。
     
-      - 在 "**其他选项**" 下，确认以下值：
+      - 在 " **其他选项** " 下，确认以下值：
         
-          - 对于**请求格式**，请选择**CMC**。
+          - 对于 **请求格式** ，请选择 **CMC**。
         
-          - 对于**哈希算法**，请选择 " **sha1**"。
+          - 对于 **哈希算法** ，请选择 " **sha1**"。
         
-          - 对于**友好名称**，请输入**Smardcard 证书**。
+          - 对于 **友好名称** ，请输入 **Smardcard 证书**。
 
 8.  如果使用的是物理智能卡读取器，请将智能卡插入设备中。
 
-9.  单击 "**提交**" 以提交证书请求。
+9.  单击 " **提交** " 以提交证书请求。
 
 10. 出现提示时，请输入用于创建虚拟智能卡的 PIN。
     
@@ -105,7 +107,7 @@ _**上次修改的主题：** 2013-07-03_
     
     </div>
 
-11. 颁发证书后，单击 "**安装此证书**" 以完成注册过程。
+11. 颁发证书后，单击 " **安装此证书** " 以完成注册过程。
     
     <div>
     

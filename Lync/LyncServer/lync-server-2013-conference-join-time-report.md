@@ -12,20 +12,22 @@ ms:contentKeyID: 48185686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76388655fc8ed893e09b192ae24c7807b46f9f6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5fe20dd1e3e5387b4b31873ec0d3c6ae914c2cec
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525999"
 ---
+# <a name="conference-join-time-report-in-lync-server-2013"></a>Lync Server 2013 中的会议加入时间报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-join-time-report-in-lync-server-2013"></a>Lync Server 2013 中的会议加入时间报告
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42199375"
 
 _**上次修改的主题：** 2014-04-23_
 
-会议加入时间摘要使您能够确定用户加入会议所需的时间。 该报告显示平均联接时间（以毫秒为单位），并提供一个细目，让你知道有多少用户能够在2秒或更短的时间内加入会议，在2到5秒的用户加入会议时需要多少用户，等等。
+会议加入时间摘要使您能够确定用户加入会议所需的时间。 该报告显示平均联接时间 (以毫秒) 为单位，还提供了一个细分，以便您知道在2秒或更短的时间内可以加入会议的用户数，在2秒到5秒之间需要多少用户加入会议等等。
 
 <div>
 
@@ -107,7 +109,7 @@ _**上次修改的主题：** 2014-04-23_
 <td><p>会话类型。 允许的值包括：</p>
 <ul>
 <li><p>各种</p></li>
-<li><p>聚焦会话（焦点是在线会议的中心策略和状态管理器，并协调会议的各个方面</p></li>
+<li><p>焦点会话 (焦点是联机会议的中心策略和状态管理器，并协调会议的各个方面</p></li>
 <li><p>应用程序共享</p></li>
 <li><p>A/V 会议</p></li>
 </ul>
@@ -153,17 +155,17 @@ _**上次修改的主题：** 2014-04-23_
 <td><p>会话的总数，包括成功的会话、失败的会话（预期失败和意外失败）及未归类的会话。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>平均值（毫秒）</strong></p></td>
+<td><p><strong>平均 (ms) </strong></p></td>
 <td><p>否</p></td>
-<td><p>参与者加入会议所需的平均时间（以毫秒为单位）。</p></td>
+<td><p>参与者加入会议所需的平均时间量（以毫秒为单位）)  (。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>会话&lt; 2 秒，批量</strong></p></td>
+<td><p><strong>会话 &lt; 2 秒，批量</strong></p></td>
 <td><p>否</p></td>
 <td><p>能够在不到2秒的时间内加入会议的参与者的人数。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>会话&lt; 2 秒，百分比</strong></p></td>
+<td><p><strong>会话 &lt; 2 秒，百分比</strong></p></td>
 <td><p>否</p></td>
 <td></td>
 </tr>
@@ -188,12 +190,12 @@ _**上次修改的主题：** 2014-04-23_
 <td><p>在5秒和10秒之间加入会议的总呼叫参与者的百分比。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>会话&gt; 10 秒，批量</strong></p></td>
+<td><p><strong>会话 &gt; 10 秒，批量</strong></p></td>
 <td><p>否</p></td>
 <td><p>需要10秒以上加入会议的参与者的人数。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>会话&gt; 10 秒，百分比</strong></p></td>
+<td><p><strong>会话 &gt; 10 秒，百分比</strong></p></td>
 <td><p>否</p></td>
 <td><p>需要10秒以上加入会议的总呼叫参与者的百分比。</p></td>
 </tr>

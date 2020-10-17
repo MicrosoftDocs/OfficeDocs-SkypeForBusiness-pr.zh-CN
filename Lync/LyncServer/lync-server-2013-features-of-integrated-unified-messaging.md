@@ -12,20 +12,22 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55da4422ec0151ddc6638ea21b4a5e1c551541ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da109ebb48ff483d117f41297749386b8f0462f8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179629"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526749"
 ---
+# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>集成统一消息和 Lync Server 2013 的功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>集成统一消息和 Lync Server 2013 的功能
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179629"
 
 _**上次修改的主题：** 2012-10-01_
 
-Lync Server 2013，企业语音使用 Exchange 统一消息（UM）基础结构来提供呼叫应答、呼叫通知、语音访问（包括语音邮件）和自动助理服务。
+Lync Server 2013，企业语音使用 Exchange 统一消息 (UM) 基础结构来提供呼叫应答、呼叫通知、语音访问 (包括语音邮件) 和自动助理服务。
 
 <div>
 
@@ -69,7 +71,7 @@ Lync Server 2013，企业语音使用 Exchange 统一消息（UM）基础结构�
 
 ## <a name="fax-services"></a>传真服务
 
-Exchange UM 包括传真功能，这些功能使用户能够在其 Exchange 邮箱中接收传入传真。 有关详细信息，请参阅 Microsoft Exchange Server 文档中的 "统一消息[https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652)"。
+Exchange UM 包括传真功能，这些功能使用户能够在其 Exchange 邮箱中接收传入传真。 有关详细信息，请参阅 Microsoft Exchange Server 文档中的 "统一消息" [https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652) 。
 
 <div>
 

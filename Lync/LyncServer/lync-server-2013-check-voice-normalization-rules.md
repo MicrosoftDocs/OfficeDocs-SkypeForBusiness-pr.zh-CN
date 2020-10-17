@@ -12,20 +12,22 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eca48668bf0a19392558e10366f7a9bf4bb202ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 547f117a9706aa0ab5bf1202c31d0bc9f8ce34fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206838"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526209"
 ---
+# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中检查语音规范化规则
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中检查语音规范化规则
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-05-20_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsVoiceNormalizationRule cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsVoiceNormalizationRule cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceNormalizationRule&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**上次修改的主题：** 2014-05-20_
 
 ## <a name="description"></a>说明
 
-语音规范化规则用于将用户拨打的电话号码（例如，2065551219）转换为 Lync Server 使用的164格式（+ 12065551219）。 例如，如果用户习惯于拨打电话号码，而不包括国家/地区代码或区号（例如，5551219），则您必须有一个可以将该号码转换为. 164 格式的语音规范化规则： + 12065551219。 如果没有此类规则，则用户将无法调用555-1219。
+语音规范化规则用于将用户拨打的电话号码转换 (例如，2065551219) 为 Lync Server (+ 12065551219) 使用的 e.164 格式。 例如，如果用户采用拨打电话号码的习惯而不包括国家/地区代码或区号 (例如，5551219) 那么，您必须有一个可以将该号码转换为. 164 格式的语音规范化规则： + 12065551219。 如果没有此类规则，则用户将无法调用555-1219。
 
-CsVoiceNormalizationRule cmdlet 验证指定的语音规范化规则是否可以成功转换指定的电话号码。 例如，此命令会检查全局规范化规则 NoAreaCode 是否可以规范化和转换拨号字符串5551219。
+Test-CsVoiceNormalizationRule cmdlet 验证指定的语音规范化规则是否可以成功转换指定的电话号码。 例如，此命令会检查全局规范化规则 NoAreaCode 是否可以规范化和转换拨号字符串5551219。
 
 `Get-CsVoiceNormalizationRule -Identity "global/NoAreaCode" | Test-CsVoiceNormalizationRule -DialedNumber "5551219"`
 
@@ -78,13 +80,13 @@ CsVoiceNormalizationRule cmdlet 验证指定的语音规范化规则是否可以
 
 ## <a name="running-the-test"></a>运行测试
 
-若要运行 CsVoiceNormalizationRule cmdlet，必须首先使用 CsVoiceNormalizationRule cmdlet 检索正在测试的规则的实例，然后通过管道将该实例指定为 Test-CsVoiceNormalizationRule。 与此类似的语法不起作用：
+若要运行 Test-CsVoiceNormalizationRule cmdlet，必须首先使用 Get-CsVoiceNormalizationRule cmdlet 检索正在测试的规则的实例，然后通过管道将该实例 CsVoiceNormalizationRule。 与此类似的语法不起作用：
 
-CsVoiceNormalizationRule-DialedNumber "12065551219" – NormalizationRule "global/Prefix All"
+Test-CsVoiceNormalizationRule-DialedNumber "12065551219" – NormalizationRule "global/Prefix All"
 
-请改用如下所示的语法，其中组合了 CsVoiceNormalizationRule 和 CsVoiceNormalizationRule cmdlet：
+相反，请使用如下所示的语法，该语法组合了 Get-CsVoiceNormalizationRule 和 Test-CsVoiceNormalizationRule cmdlet：
 
-CsVoiceNormalizationRule-Identity "global/Prefix All" |CsVoiceNormalizationRule-DialedNumber "12065551219"
+Get-CsVoiceNormalizationRule 标识 "global/Prefix All" |Test-CsVoiceNormalizationRule-DialedNumber "12065551219"
 
 <div>
 
@@ -100,13 +102,13 @@ CsVoiceNormalizationRule-Identity "global/Prefix All" |CsVoiceNormalizationRule-
 
 `Test-CsVoiceNormalizationRule -DialedNumber "12065551219" -NormalizationRule $x`
 
-输入 DialedNumber 参数的值，完全就像您预期要拨打的号码一样。 例如，如果指定的语音规范化规则应自动添加国家/地区代码（值12065551219中的第1个），则应保留国家/地区代码：
+输入 DialedNumber 参数的值，完全就像您预期要拨打的号码一样。 例如，如果指定的语音规范化规则将自动添加国家/地区代码 (值12065551219中的初始 1) 则应保留国家/地区代码：
 
 `-DialedNumber "2065551219"`
 
 如果正确配置了规则，则会在将号码转换为 Lync Server 使用的 e.164 格式时自动添加国家/地区代码。
 
-有关详细信息，请参阅 CsVoiceNormalizationRule cmdlet 的帮助文档。
+有关详细信息，请参阅 Test-CsVoiceNormalizationRule cmdlet 的帮助文档。
 
 </div>
 
@@ -134,11 +136,11 @@ TranslatedNumber
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-如果 CsVoiceNormalizationRule 确实返回一个已翻译的号码，这意味着指定的语音规范化规则无法将提供的电话号码转换为 Lync Server 使用的 e.164 格式。 若要验证这一点，请首先确保键入的电话号码正确。 例如，您可能希望语音规范化规则在翻译类似以下内容的数字时遇到问题：
+如果 Test-CsVoiceNormalizationRule 返回一个已翻译的号码，这意味着指定的语音规范化规则无法将提供的电话号码转换为 Lync Server 使用的164格式。 若要验证这一点，请首先确保键入的电话号码正确。 例如，您可能希望语音规范化规则在翻译类似以下内容的数字时遇到问题：
 
 `-DialedNumber "1"`
 
-如果正确输入了号码，下一步应是验证指定的规范化规则是否设计为可处理该电话号码。 例如，一个规范化规则设计为可处理格式12065551219，但第二个规则可能设计为处理数字2065551219。 （这是与开头的国家/地区代码1相同的电话号码。）若要返回有关语音规范化规则的详细信息，请运行与以下内容类似的命令：
+如果正确输入了号码，下一步应是验证指定的规范化规则是否设计为可处理该电话号码。 例如，一个规范化规则设计为可处理格式12065551219，但第二个规则可能设计为处理数字2065551219。  (这是相同的电话号码，在最开始处减去国家/地区代码1。 ) 若要返回有关语音规范化规则的详细信息，请运行与以下内容类似的命令：
 
 `Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Format-List`
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb475db2d1a12dcfc2b95dbf4711191767b18236
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1c4489e13f794a924e1512a1e6ed7b32f73da8f1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191965"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525989"
 ---
+# <a name="conference-diagnostic-report-in-lync-server-2013"></a>Lync Server 2013 中的会议诊断报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-diagnostic-report-in-lync-server-2013"></a>Lync Server 2013 中的会议诊断报告
+
 
 </div>
 
@@ -78,7 +80,7 @@ _**上次修改的主题：** 2012-10-22_
 
 ## <a name="accessing-the-conference-diagnostic-report"></a>访问会议诊断报告
 
-可从监控报告主页访问会议诊断报告。 您可以通过单击以下任一指标来访问[Lync Server 2013 中的故障分布报告](lync-server-2013-failure-distribution-report.md)：
+可从监控报告主页访问会议诊断报告。 您可以通过单击以下任一指标来访问 [Lync Server 2013 中的故障分布报告](lync-server-2013-failure-distribution-report.md) ：
 
   - 意外失败量
 
@@ -90,7 +92,7 @@ _**上次修改的主题：** 2012-10-22_
 
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>充分利用会议诊断报告
 
-会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某一列，您将向下钻取到该时间段和该会议类型的[Lync Server 2013 中的 "故障分布报告](lync-server-2013-failure-distribution-report.md)"。
+会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某一列，您将向下钻取到该时间段和该会议类型的 [Lync Server 2013 中的 "故障分布报告](lync-server-2013-failure-distribution-report.md) "。
 
 </div>
 
@@ -187,7 +189,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -204,7 +206,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="odd">
 <td><p><strong>预期失败量</strong></p></td>
 <td><p>否</p></td>
-<td><p>&quot;预计发生故障&quot;的会议的总数。</p>
+<td><p>预计发生故障的会议的总数 &quot; &quot; 。</p>
 <p>预期失败是指预计会出现的失败情况。例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。</p></td>
 </tr>
 <tr class="even">
@@ -215,7 +217,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="odd">
 <td><p><strong>意外失败量</strong></p></td>
 <td><p>否</p></td>
-<td><p>发生&quot;意外故障&quot;的会议的总数。</p>
+<td><p>发生意外故障的会议的总数 &quot; &quot; 。</p>
 <p>意外失败是指在本该正常运行的系统中出现的失败情况。例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。如果终止，则会被标记为意外失败。</p></td>
 </tr>
 <tr class="even">

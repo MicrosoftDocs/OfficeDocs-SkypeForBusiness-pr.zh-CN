@@ -12,20 +12,22 @@ ms:contentKeyID: 48184477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d9cce4e6a5e835010dd9afae2e98410680ebcb5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8fefcdaf1fc84151fd37d7ff29acf66d742425d7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211658"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527605"
 ---
+# <a name="verifying-your-mobility-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中验证移动性部署
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verifying-your-mobility-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中验证移动性部署
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**上次修改的主题：** 2013-02-12_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-部署 Lync Server 移动服务和 Lync Server 自动发现服务后，运行测试事务以验证您的部署是否正常工作。 您可以运行**test-csucwaconference**以测试两个使用 Lync 2013 移动客户端的用户在会议中创建、加入和交流的能力。 若要使用此测试事务，您需要两个实际用户或测试用户及其完整凭据。
+部署 Lync Server 移动服务和 Lync Server 自动发现服务后，运行测试事务以验证您的部署是否正常工作。 您可以运行 **test-csucwaconference** 以测试两个使用 Lync 2013 移动客户端的用户在会议中创建、加入和交流的能力。 若要使用此测试事务，您需要两个实际用户或测试用户及其完整凭据。
 
-您可以使用**test-csmcxp2pim**测试在两个使用 Lync 2010 Mobile 的用户之间发送即时消息。 与**test-csucwaconference**类似，您可以使用两个实际用户或两个预定义的测试用户。
+您可以使用 **test-csmcxp2pim** 测试在两个使用 Lync 2010 Mobile 的用户之间发送即时消息。 与 **test-csucwaconference**类似，您可以使用两个实际用户或两个预定义的测试用户。
 
 <div>
 
@@ -67,7 +69,7 @@ _**上次修改的主题：** 2013-02-12_
 
 <div>
 
-## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>测试 Lync 2010 移动的人到个人即时消息（IM）
+## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>测试 Lync 2010 Mobile 的人到个人即时消息 (IM) 的详细信息
 
 1.  在安装了 Lync Server 命令行管理程序和 Ocscore 的任何计算机上以 CsAdministrator 角色的成员身份登录。
 

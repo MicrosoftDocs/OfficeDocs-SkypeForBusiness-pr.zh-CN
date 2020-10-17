@@ -1,5 +1,5 @@
 ---
-title: 规划可扩展消息传递和状态协议（XMPP）联盟
+title: 规划可扩展消息和状态协议 (XMPP) 联盟
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184892
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77884bdca8d02a29d98a2a4c2dd116abb72d8f20
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4308bd09d571c41349ed9362affa220cf9723e3a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526529"
 ---
+# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中规划可扩展消息和状态协议 (XMPP) 联盟
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中规划可扩展消息和状态协议（XMPP）联盟
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42184345"
 
 _**上次修改的主题：** 2012-10-22_
 
-早期版本的 Lync Server 和 Office 通信服务器提供了可扩展消息和状态协议（XMPP）网关，可将其作为单独的服务器角色进行部署，以允许与 XMPP 部署进行联盟。 在 Microsoft Lync Server 2013 中，可以将 XMPP 功能部署为功能。 XMPP 功能安装在两个部分中：在边缘服务器上运行的 XMPP 代理，以及在前端服务器上运行的 XMPP 网关。
+早期版本的 Lync Server 和 Office 通信服务器提供了可扩展消息和状态协议 (XMPP) 网关，可将其部署为单独的服务器角色，以允许与 XMPP 部署进行联盟。 在 Microsoft Lync Server 2013 中，可以将 XMPP 功能部署为功能。 XMPP 功能安装在两个部分中：在边缘服务器上运行的 XMPP 代理，以及在前端服务器上运行的 XMPP 网关。
 
-在[Lync Server 2013 中部署外部用户访问权限](lync-server-2013-deploying-external-user-access.md)中介绍了 XMPP 的部署和配置。通过在防火墙上定义端口和协议规则、配置证书以及添加 DNS 记录，在您计划支持组织中的 XMPP。 本节中的以下主题汇总了为您的部署成功规划 XMPP 联合所需的信息。
+在 [Lync Server 2013 中部署外部用户访问权限](lync-server-2013-deploying-external-user-access.md) 中介绍了 XMPP 的部署和配置。通过在防火墙上定义端口和协议规则、配置证书以及添加 DNS 记录，在您计划支持组织中的 XMPP。 本节中的以下主题汇总了为您的部署成功规划 XMPP 联合所需的信息。
 
 <div>
 
@@ -55,11 +57,11 @@ _**上次修改的主题：** 2012-10-22_
 
 ## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的证书摘要-可扩展消息传递和状态协议（XMPP）联盟](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [Lync Server 2013 中的证书摘要-可扩展消息和状态协议 (XMPP) 联盟](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-  - [Lync Server 2013 中的端口摘要-可扩展消息传递和状态协议（XMPP）联盟](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [Lync Server 2013 中的端口摘要-可扩展消息和状态协议 (XMPP) 联盟](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
-  - [Lync Server 2013 中的 DNS 摘要-可扩展消息传递和状态协议（XMPP）联盟](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+  - [Lync Server 2013 中的 DNS 摘要-可扩展消息和状态协议 (XMPP) 联盟](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99c3dd2d1a8ea2027b7007d9a05a4c3ec8357a15
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27780806e064aae82aa36cee96d9fafcdba2eddb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191485"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525969"
 ---
+# <a name="configure-federation-support-for-a-lync-online-domain-in-lync-server-2013"></a>在 Lync Server 2013 中为 Lync Online 域配置联合支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-support-for-a-lync-online-domain-in-lync-server-2013"></a>在 Lync Server 2013 中为 Lync Online 域配置联合支持
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-11-01_
 
 与 Microsoft Lync Online 2010 客户联盟要求您完成以下步骤：
 
-  - 配置对 Lync Online 2010 客户的域的支持（例如，contoso.onmicrosoft.com）。 如本文档中的 "[与 Lync Online 2013 客户进行联盟的先决条件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)" 一节中所述，您应该已为您的组织启用了联盟。 启用联盟要求指定联盟的域用于控制访问的方法。 如果将组织配置为使用发现，则可以选择将域添加到组织的允许列表。 如果未启用域发现，则必须将 Lync Online 客户的域名添加到允许的域列表中。 您可以通过使用 Lync Server 控制面板或运行**CSAllowedDomain** cmdlet 来添加域名。 有关使用 Lync Server 控制面板（包括启用域发现）的详细信息，请参阅操作文档中的在[Lync server 2013 中管理组织的 SIP 联合提供程序](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)。 有关使用**CSAllowedDomain** cmdlet 添加域的详细信息，请参阅操作文档中的[CSAllowedDomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain) 。
+  - 配置对 Lync Online 2010 客户 (的域的支持例如，contoso.onmicrosoft.com) 。 如本文档中的 " [与 Lync Online 2013 客户进行联盟的先决条件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) " 一节中所述，您应该已为您的组织启用了联盟。 启用联盟要求指定联盟的域用于控制访问的方法。 如果将组织配置为使用发现，则可以选择将域添加到组织的允许列表。 如果未启用域发现，则必须将 Lync Online 客户的域名添加到允许的域列表中。 您可以通过使用 Lync Server 控制面板或运行 **CSAllowedDomain** cmdlet 来添加域名。 有关使用 Lync Server 控制面板（包括启用域发现）的详细信息，请参阅操作文档中的在 [Lync server 2013 中管理组织的 SIP 联合提供程序](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) 。 有关使用 **CSAllowedDomain** cmdlet 添加域的详细信息，请参阅操作文档中的 [CSAllowedDomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain) 。
     
     <div>
     
@@ -65,7 +67,7 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-configure-support-for-a-hosting-provider"></a>要从前端服务器
 
-1.  在前端服务器中，启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management Shell**"。
+1.  在前端服务器中，启动 Lync Server 命令行管理程序：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management Shell**"。
 
 2.  运行 **New-CsHostingProvider** cmdlet 以创建和配置托管服务提供商。 例如，运行：
     
@@ -83,11 +85,11 @@ _**上次修改的主题：** 2012-11-01_
     
       - **EnabledSharedAddressSpace** 指示是否在共享 SIP 地址空间（拆分域）方案中使用此承载服务提供商。
     
-      - **HostsOCSUsers**指示承载提供程序是否用于承载 Lync Server 帐户。 如果设置为 **False**，则提供商承载其他帐户类型，例如 Microsoft Exchange 帐户。
+      - **HostsOCSUsers** 指示承载提供程序是否用于承载 Lync Server 帐户。 如果设置为 **False**，则提供商承载其他帐户类型，例如 Microsoft Exchange 帐户。
     
-      - **IsLocal**指示承载提供程序使用的代理服务器是否包含在你的 Lync server 拓扑中。
+      - **IsLocal** 指示承载提供程序使用的代理服务器是否包含在你的 Lync server 拓扑中。
     
-    有关使用此 cmdlet 的详细信息，请参阅操作文档中的[CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider) 。
+    有关使用此 cmdlet 的详细信息，请参阅操作文档中的 [CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider) 。
 
 </div>
 

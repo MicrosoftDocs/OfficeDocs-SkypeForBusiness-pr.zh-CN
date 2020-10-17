@@ -12,20 +12,22 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0cb167d2a7aed3f5c107d4beba568c00ac501e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6379d110fc25ba31062d211d3893567ad92fda1f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526199"
 ---
+# <a name="checking-disk-usage-in-lync-server-2013"></a>在 Lync Server 2013 中检查磁盘使用率
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-disk-usage-in-lync-server-2013"></a>在 Lync Server 2013 中检查磁盘使用率
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2014-04-30_
 
 硬盘是 Lync Server 2013 部署的重要组件。 如果没有足够的可用磁盘卷，操作系统和 Lync Server 2013 数据库都不能正常运行。 您必须每天监视 Lync Server 2013 后端数据库统计信息，以帮助确保服务器不会用尽磁盘空间，并准备好根据需要添加存储资源。
 
-除了检查承载操作系统、程序文件、数据库和事务日志的磁盘空间（Lync Server 2013 后端）之外，还应监视文件系统的使用情况，其中包括包含以下重要项的文件共享的磁盘空间数据
+除了检查承载操作系统、程序文件、数据库和事务日志的磁盘空间 (Lync Server 2013 后端) ，还应监视包含以下重要数据的文件共享的磁盘空间的文件系统的使用情况：
 
   - 会议内容
 
@@ -47,13 +49,13 @@ _**上次修改的主题：** 2014-04-30_
 
   - 会议合规性日志
 
-  - 应用程序数据文件（由应用程序服务器组件在内部使用）
+  - 应用程序数据文件 (由应用程序服务器组件在内部使用) 
 
-  - 组聊天服务器 web 服务和合规性文件夹（用于存储上载到组聊天 web 服务的文件）
+  - 组聊天服务器 web 服务和合规性文件夹 (存储上载到组聊天 web 服务的文件) 
 
-  - Group Chat 合规性 XML 文件（包含组聊天合规性记录）
+  - 包含 Group Chat 合规性记录 (的 Group Chat 合规性 XML 文件) 
 
-  - 更新文件（适用于设备更新服务）
+  - 更新设备更新服务 (的文件) 
 
   - 通讯簿文件
 
@@ -67,11 +69,11 @@ Lync Server 2013 需要硬盘空间来存储其数据库和事务日志，以及
 
 您可以使用以下方法检查可用磁盘空间：
 
-1.  ****   当卷空间受到限制时，可以使用 system center operations manager system center operations manager 向管理员发出警告。
+1.  **System Center Operations Manager**    当卷空间受到限制时，可以使用 System Center Operations Manager 向管理员发出警告。
 
-2.  ****   如果可用硬盘空间低于20%，则运行脚本以运行脚本来监视磁盘空间。 你可以在 TechNet 上的 Microsoft 脚本中心找到一个示例脚本，请检查以下内容：[https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **运行脚本**    如果可用硬盘空间低于20%，则通过运行脚本向您发送一条消息来监视磁盘空间。 你可以在 TechNet 上的 Microsoft 脚本中心找到一个示例脚本，请检查以下内容： [https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](https://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
-3.  **Windows 资源管理器**   使用 windows 资源管理器检查存储 Lync Server 2013 日志和数据库的卷上的磁盘空间。
+3.  **Windows 资源管理器**    使用 Windows 资源管理器检查存储 Lync Server 2013 日志和数据库的卷上的磁盘空间。
 
 </div>
 

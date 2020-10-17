@@ -12,20 +12,22 @@ ms:contentKeyID: 48184672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76f7f901d7616bce7481c7bfb654c1b34396d6e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 306d12d35bc73935467a9b29812a614fac21f8e9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210158"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527549"
 ---
+# <a name="managing-lync-server-2013-persistent-chat-server"></a>管理 Lync Server 2013 持久聊天服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-persistent-chat-server"></a>管理 Lync Server 2013 持久聊天服务器
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-11_
 
 您可以使用 Lync Server 2013 和持久聊天服务器，使多个用户可以参与对话，在其中发布和访问有关特定主题（包括文本、链接和文件）的内容。 尽管用户可以在会话期间实时进行通信，但每个会话的内容都可以持久保存，也就是说，在会话结束后依然可以获得这些内容。
 
-持久聊天室的内容主要由简短的短信组成，尽管它可以包含更长的邮件（称为*文章*），也可以是超链接、图释和上载的文档。
+持久聊天室的内容主要由简短的短信组成，尽管它可以包含更长的邮件（称为 *文章*），也可以是超链接、图释和上载的文档。
 
 <div>
 
@@ -51,9 +53,9 @@ _**上次修改的主题：** 2012-10-11_
 
 </div>
 
-聊天室的访问由成员身份列表控制。 完整聊天室历史记录可供任何成员按时间顺序查阅或进行全文搜索。 有关使用持久聊天客户端的详细信息，请参阅部署文档中的规划文档中的[在 Lync server 2013 中规划客户端](lync-server-2013-planning-for-clients.md)和在[lync Server 2013 中部署客户端和设备](lync-server-2013-deploying-clients-and-devices.md)。
+聊天室的访问由成员身份列表控制。 完整聊天室历史记录可供任何成员按时间顺序查阅或进行全文搜索。 有关使用持久聊天客户端的详细信息，请参阅部署文档中的规划文档中的 [在 Lync server 2013 中规划客户端](lync-server-2013-planning-for-clients.md) 和在 [lync Server 2013 中部署客户端和设备](lync-server-2013-deploying-clients-and-devices.md) 。
 
-为组织设置持久聊天服务器时，请在部署过程中指定初始配置。 但是，有时您可能需要更改实现持久聊天服务器支持的方式。 例如，您可能需要为组织内的特定团队或组设置与之不同的持久聊天服务器支持和控件。 本节提供可帮助您自定义持久聊天服务器部署的信息和过程。 有关可为持久聊天服务器配置的特性和功能的详细信息，请参阅规划文档中的在[Lync server 2013 中定义组织的持久聊天服务器要求](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)，以及在规划文档、部署文档或操作文档中的[持久聊天服务器在 lync server 2013 中的工作方式](lync-server-2013-how-persistent-chat-server-works.md)。 有关为 Lync Server 2013 部署持久聊天服务器的详细信息，请参阅部署文档中的在[Lync Server 2013 中部署持久聊天服务器](lync-server-2013-deploying-persistent-chat-server.md)。
+为组织设置持久聊天服务器时，请在部署过程中指定初始配置。 但是，有时您可能需要更改实现持久聊天服务器支持的方式。 例如，您可能需要为组织内的特定团队或组设置与之不同的持久聊天服务器支持和控件。 本节提供可帮助您自定义持久聊天服务器部署的信息和过程。 有关可为持久聊天服务器配置的特性和功能的详细信息，请参阅规划文档中的在 [Lync server 2013 中定义组织的持久聊天服务器要求](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md) ，以及在规划文档、部署文档或操作文档中的 [持久聊天服务器在 lync server 2013 中的工作方式](lync-server-2013-how-persistent-chat-server-works.md) 。 有关为 Lync Server 2013 部署持久聊天服务器的详细信息，请参阅部署文档中的在 [Lync Server 2013 中部署持久聊天服务器](lync-server-2013-deploying-persistent-chat-server.md) 。
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bb3c5a3f74d3a85fbc5742514a92015df08d5c9
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: cf77df16b7681cf6cfd3c1608f1adb40e2e09f43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755656"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527189"
 ---
+# <a name="update-dns-srv-records"></a>更新 DNS SRV 记录
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="update-dns-srv-records"></a>更新 DNS SRV 记录
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-29_
 
 若要成功完成此过程，您应以 Domain Admins 组成员或 DnsAdmins 组成员的身份登录到服务器或域。
 
-本主题介绍了如何在迁移到 Lync Server 2013 之后更新域名系统（DNS）记录。 在将所有用户移动到 Lync Server 2013 之后，但在旧版 Office 通信服务器 2007 R2 池或控制器停止之前，必须在每个 SIP 域的内部 DNS 中更新 DNS SRV 记录。 此过程假定内部 DNS 具有 SIP 用户域的区域。
+本主题介绍了如何在迁移到 Lync Server 2013 之后更新域名系统 (DNS) 记录。 在将所有用户移动到 Lync Server 2013 之后，但在旧版 Office 通信服务器 2007 R2 池或控制器停止之前，必须在每个 SIP 域的内部 DNS 中更新 DNS SRV 记录。 此过程假定内部 DNS 具有 SIP 用户域的区域。
 
 **配置 DNS SRV 记录**
 
@@ -49,9 +51,9 @@ _**上次修改的主题：** 2012-09-29_
 
 3.  在右侧窗格中，右键单击 " ** \_ sipinternaltls** "，然后选择 "**属性**"。
 
-4.  在**提供此服务的主机**中，将主机 FQDN 更新为指向 Lync Server 2013 池。
+4.  在 **提供此服务的主机**中，将主机 FQDN 更新为指向 Lync Server 2013 池。
 
-5.  单击“确定”。
+5.  单击“确定”****。
 
 **验证是否可以解析前端池或 Standard Edition Server 的 FQDN**
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2012-09-29_
 
 3.  在“打开”**** 框中，键入 **cmd**，然后单击“确定”****。
 
-4.  在命令提示符处，键入**nslookup** \<FQDN of the Front End pool\> 或 \<FQDN of the Standard Edition server\> ，然后按 enter。
+4.  在命令提示符处，键入 **nslookup** \<FQDN of the Front End pool\> 或 \<FQDN of the Standard Edition server\> ，然后按 enter。
 
 5.  验证是否收到一个解析为 FQDN 的相应 IP 地址的答复。
 

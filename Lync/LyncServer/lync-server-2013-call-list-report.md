@@ -12,20 +12,22 @@ ms:contentKeyID: 48184921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06486ddc8d84c165422e7f4ffea9bb62be5dd683
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d9d437b32907108d5666ef9e1b175c170030585
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526289"
 ---
+# <a name="call-list-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫列表报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-list-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫列表报告
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188405"
 
 _**上次修改的主题：** 2012-10-01_
 
-呼叫列表报告提供了针对您组织中发出和接收的单个呼叫的用户体验质量 (QoE) 指标。 请注意，报告的实际指标将取决于您访问呼叫列表报告的方式。 例如，如果从[Lync Server 2013 中的设备报告](lync-server-2013-device-report.md)打开报告，将会看到以下指标，这些指标也会在设备报告中报告：
+呼叫列表报告提供了针对您组织中发出和接收的单个呼叫的用户体验质量 (QoE) 指标。 请注意，报告的实际指标将取决于您访问呼叫列表报告的方式。 例如，如果从 [Lync Server 2013 中的设备报告](lync-server-2013-device-report.md)打开报告，将会看到以下指标，这些指标也会在设备报告中报告：
 
   - 呼叫者的麦克风
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2012-10-01_
 
   - 语音切换时间比率
 
-但是，如果在[Lync Server 2013 的 "位置" 报告中](lync-server-2013-location-report.md)打开呼叫列表报告，则不会看到这些指标中的任何一个。相反，你将看到如下所示的指标：
+但是，如果在 [Lync Server 2013 的 "位置" 报告中](lync-server-2013-location-report.md)打开呼叫列表报告，则不会看到这些指标中的任何一个。相反，你将看到如下所示的指标：
 
   - 来回行程(毫秒)
 
@@ -67,15 +69,15 @@ _**上次修改的主题：** 2012-10-01_
 
 可从以下任一报告访问呼叫列表报告：
 
-  - [Lync Server 2013 中的位置报告](lync-server-2013-location-report.md)（通过单击呼叫量或质量较差的呼叫百分比指标）
+  - [Lync Server 2013 中的位置报告](lync-server-2013-location-report.md)通过单击 "呼叫量" 或 "差的呼叫百分比" 指标 () 
 
-  - [Lync Server 2013 中的设备报告](lync-server-2013-device-report.md)（通过单击呼叫量或质量较差的呼叫百分比指标）
+  - [Lync Server 2013 中的设备报告](lync-server-2013-device-report.md)通过单击 "呼叫量" 或 "差的呼叫百分比" 指标 () 
 
-  - [Lync Server 2013 中的媒体质量摘要报告](lync-server-2013-media-quality-summary-report.md)（通过单击呼叫量或质量较差的呼叫百分比指标）
+  - [Lync Server 2013 中的媒体质量摘要报告](lync-server-2013-media-quality-summary-report.md)通过单击 "呼叫量" 或 "差的呼叫百分比" 指标)  (
 
-  - [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)（通过单击呼叫量或质量较差的呼叫百分比指标）
+  - [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)通过单击 "呼叫量" 或 "差的呼叫百分比" 指标) 来 (
 
-从呼叫列表报告中，您可以通过单击详细信息指标来访问[Lync Server 2013 中的呼叫详细信息报告](lync-server-2013-call-detail-report.md)。
+从呼叫列表报告中，您可以通过单击详细信息指标来访问 [Lync Server 2013 中的呼叫详细信息报告](lync-server-2013-call-detail-report.md) 。
 
 </div>
 
@@ -113,7 +115,7 @@ _**上次修改的主题：** 2012-10-01_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -172,7 +174,7 @@ _**上次修改的主题：** 2012-10-01_
 <tr class="odd">
 <td><p><strong>抖动</strong></p></td>
 <td><p>是</p></td>
-<td><p>在 RTP 数据包到达之间检查到的平均抖动率。 （抖动是对&quot;shakiness&quot;的衡量。高抖动值通常是由拥塞或过载的媒体服务器引起的，并导致音频失真或丢失。</p></td>
+<td><p>在 RTP 数据包到达之间检查到的平均抖动率。  (抖动是 shakiness 的衡量指标 &quot; &quot; 。 ) 高抖动值通常由拥塞或过载的媒体服务器引起，并导致音频失真或丢失。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>修复程序隐藏比率</strong></p></td>

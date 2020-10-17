@@ -3,6 +3,7 @@ title: Microsoft Teams 安全指南
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
+ms.date: 10/15/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -19,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761288"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486797"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性与 Microsoft Teams
 
@@ -239,7 +240,7 @@ Teams 让企业用户能够创建和加入实时会议。 企业用户还可以�
 组织者也可以配置设置，让拨入呼叫方成为加入会议的第一个人员。 此设置在用户的“音频会议”设置中进行配置，并且将应用于用户计划的所有会议。
 
 > [!NOTE]
-> 有关 Teams 中的来宾和外部访问的详细信息，请参阅此[文章](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)。 它介绍了来宾用户或外部用户在登录 Teams 时应该能看到和使用的功能。
+> 有关 Teams 中的来宾和外部访问的详细信息，请参阅此[文章](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)。 它介绍了来宾用户或外部用户在登录 Teams 时应该能看到和使用的功能。 <p> 如果你正在录制会议，并且想要查看有关访问内容的权限矩阵，请参阅[本文](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)及其矩阵。
 
 ### <a name="participant-roles"></a>参与者角色
 
@@ -305,3 +306,5 @@ Teams 让企业用户能够创建和加入实时会议。 企业用户还可以�
 [使用 VPN 分离隧道为远程用户优化 Microsoft 365 或 Office 365 连接性](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [实现 VPN 拆分隧道](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+
+[Teams 中的会议录制，存储录制的位置和可访问的人员](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
