@@ -12,20 +12,22 @@ ms:contentKeyID: 48185748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ede940e1126660aaae89fe6552f050632f841b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1dae7088982fd3f28ead762c6f50ed4543a5cdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528189"
 ---
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a><span data-ttu-id="3cfa8-102">Lync Server 2013 中的托管 Exchange 联系人对象管理</span><span class="sxs-lookup"><span data-stu-id="3cfa8-102">Hosted Exchange Contact object management in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a><span data-ttu-id="c3f47-102">Lync Server 2013 中的托管 Exchange 联系人对象管理</span><span class="sxs-lookup"><span data-stu-id="c3f47-102">Hosted Exchange Contact object management in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,65 +37,65 @@ ms.locfileid: "42198725"
 
 <span> </span>
 
-<span data-ttu-id="c3f47-103">_**上次修改的主题：** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="c3f47-103">_**Topic Last Modified:** 2012-09-25_</span></span>
+<span data-ttu-id="3cfa8-103">_**上次修改的主题：** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="3cfa8-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-<span data-ttu-id="c3f47-104">您需要为交叉部署中的每个自动助理号码和订阅者访问号码配置联系人对象。</span><span class="sxs-lookup"><span data-stu-id="c3f47-104">You need to configure a Contact object for each auto-attendant number and subscriber access number in your cross-premises deployment.</span></span>
+<span data-ttu-id="3cfa8-104">您需要为交叉部署中的每个自动助理号码和订阅者访问号码配置联系人对象。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-104">You need to configure a Contact object for each auto-attendant number and subscriber access number in your cross-premises deployment.</span></span>
 
-<span data-ttu-id="c3f47-105">为了与托管 Exchange UM 集成，ocsumutil.exe 不能用于管理联系人对象，因为它取决于 Active Directory Exchange UM 设置。</span><span class="sxs-lookup"><span data-stu-id="c3f47-105">For integration with hosted Exchange UM, ocsumutil.exe cannot be used to manage Contact objects, because it depends on Active Directory Exchange UM settings.</span></span> <span data-ttu-id="c3f47-106">在跨界部署中，Lync Server 2013 和托管 Exchange UM 安装在单独的林中，它们之间没有任何信任关系。</span><span class="sxs-lookup"><span data-stu-id="c3f47-106">In a cross-premises deployment, Lync Server 2013 and hosted Exchange UM are installed in separate forests with no trust between them.</span></span> <span data-ttu-id="c3f47-107">出于安全考虑，Lync Server 2013 管理员不能直接访问 Exchange UM Active Directory 设置。</span><span class="sxs-lookup"><span data-stu-id="c3f47-107">For security reasons, Lync Server 2013 administrators have no direct access to Exchange UM Active Directory settings.</span></span> <span data-ttu-id="c3f47-108">因此，Lync Server 2013 提供了一个不同的模型，用于在 Lync Server 2013 和托管 Exchange UM 服务可访问的*共享 SIP 地址空间*中管理联系人对象。</span><span class="sxs-lookup"><span data-stu-id="c3f47-108">As a result, Lync Server 2013 provides a different model for managing Contact objects in a *shared SIP address space* that is accessible to both Lync Server 2013 and the hosted Exchange UM service.</span></span>
-
-<div>
-
-## <a name="hosted-contact-object-workflow"></a><span data-ttu-id="c3f47-109">托管的联系人对象工作流</span><span class="sxs-lookup"><span data-stu-id="c3f47-109">Hosted Contact Object Workflow</span></span>
-
-<span data-ttu-id="c3f47-110">以下是托管的 Exchange 租户管理员用于管理联系人对象的常规步骤：</span><span class="sxs-lookup"><span data-stu-id="c3f47-110">The following are the general steps for working with your hosted Exchange tenant administrator to manage contact objects:</span></span>
-
-1.  <span data-ttu-id="c3f47-111">Exchange 管理员为 Exchange UM 订阅者访问和自动助理联系人对象请求电话号码。</span><span class="sxs-lookup"><span data-stu-id="c3f47-111">The Exchange administrator requests phone numbers for the Exchange UM subscriber access and auto-attendant Contact objects.</span></span>
-
-2.  <span data-ttu-id="c3f47-112">Lync Server 2013 管理员为每个电话号码创建一个 Contact 对象，并向每个 Contact 对象分配一个托管语音邮件策略。</span><span class="sxs-lookup"><span data-stu-id="c3f47-112">The Lync Server 2013 administrator creates a Contact object for each phone number and assigns a hosted voice mail policy to each Contact object.</span></span>
-
-3.  <span data-ttu-id="c3f47-113">Lync Server 2013 管理员向 Exchange 管理员提供电话号码。</span><span class="sxs-lookup"><span data-stu-id="c3f47-113">The Lync Server 2013 administrator provides the phone numbers to the Exchange administrator.</span></span>
-
-4.  <span data-ttu-id="c3f47-114">Exchange 管理员将电话号码分配给自动助理和订阅者访问的相应 Exchange UM 拨号计划。</span><span class="sxs-lookup"><span data-stu-id="c3f47-114">The Exchange administrator assigns the phone numbers to appropriate Exchange UM dial plans for auto attendants and subscriber access.</span></span>
+<span data-ttu-id="3cfa8-105">为了与托管 Exchange UM 集成，ocsumutil.exe 不能用于管理联系人对象，因为它取决于 Active Directory Exchange UM 设置。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-105">For integration with hosted Exchange UM, ocsumutil.exe cannot be used to manage Contact objects, because it depends on Active Directory Exchange UM settings.</span></span> <span data-ttu-id="3cfa8-106">在跨界部署中，Lync Server 2013 和托管 Exchange UM 安装在单独的林中，它们之间没有任何信任关系。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-106">In a cross-premises deployment, Lync Server 2013 and hosted Exchange UM are installed in separate forests with no trust between them.</span></span> <span data-ttu-id="3cfa8-107">出于安全考虑，Lync Server 2013 管理员不能直接访问 Exchange UM Active Directory 设置。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-107">For security reasons, Lync Server 2013 administrators have no direct access to Exchange UM Active Directory settings.</span></span> <span data-ttu-id="3cfa8-108">因此，Lync Server 2013 提供了一个不同的模型，用于在 Lync Server 2013 和托管 Exchange UM 服务可访问的 *共享 SIP 地址空间* 中管理联系人对象。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-108">As a result, Lync Server 2013 provides a different model for managing Contact objects in a *shared SIP address space* that is accessible to both Lync Server 2013 and the hosted Exchange UM service.</span></span>
 
 <div>
 
+## <a name="hosted-contact-object-workflow"></a><span data-ttu-id="3cfa8-109">托管的联系人对象工作流</span><span class="sxs-lookup"><span data-stu-id="3cfa8-109">Hosted Contact Object Workflow</span></span>
 
-> [!NOTE]  
-> <span data-ttu-id="c3f47-115">无论在本地部署中，都不需要在联系人对象上配置任何 Lync Server 2013 拨号计划设置。</span><span class="sxs-lookup"><span data-stu-id="c3f47-115">There is no need to configure any Lync Server 2013 dial plan settings on the Contact objects as there is with on-premises deployments.</span></span>
+<span data-ttu-id="3cfa8-110">以下是托管的 Exchange 租户管理员用于管理联系人对象的常规步骤：</span><span class="sxs-lookup"><span data-stu-id="3cfa8-110">The following are the general steps for working with your hosted Exchange tenant administrator to manage contact objects:</span></span>
 
+1.  <span data-ttu-id="3cfa8-111">Exchange 管理员为 Exchange UM 订阅者访问和自动助理联系人对象请求电话号码。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-111">The Exchange administrator requests phone numbers for the Exchange UM subscriber access and auto-attendant Contact objects.</span></span>
 
+2.  <span data-ttu-id="3cfa8-112">Lync Server 2013 管理员为每个电话号码创建一个 Contact 对象，并向每个 Contact 对象分配一个托管语音邮件策略。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-112">The Lync Server 2013 administrator creates a Contact object for each phone number and assigns a hosted voice mail policy to each Contact object.</span></span>
 
-</div>
+3.  <span data-ttu-id="3cfa8-113">Lync Server 2013 管理员向 Exchange 管理员提供电话号码。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-113">The Lync Server 2013 administrator provides the phone numbers to the Exchange administrator.</span></span>
 
-</div>
-
-<div>
-
-## <a name="configuring-hosted-contact-objects"></a><span data-ttu-id="c3f47-116">配置托管的联系人对象</span><span class="sxs-lookup"><span data-stu-id="c3f47-116">Configuring Hosted Contact Objects</span></span>
+4.  <span data-ttu-id="3cfa8-114">Exchange 管理员将电话号码分配给自动助理和订阅者访问的相应 Exchange UM 拨号计划。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-114">The Exchange administrator assigns the phone numbers to appropriate Exchange UM dial plans for auto attendants and subscriber access.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="c3f47-117">在 Lync Server 2013 中可以为托管 Exchange UM 启用联系人对象之前，必须部署适用于这些对象的托管语音邮件策略。</span><span class="sxs-lookup"><span data-stu-id="c3f47-117">Before Lync Server 2013 Contact objects can be enabled for hosted Exchange UM, a hosted voice mail policy that applies to them must be deployed.</span></span> <span data-ttu-id="c3f47-118">策略可以是全局策略、站点级别策略或每用户策略，只要策略适用于要启用的联系人对象。</span><span class="sxs-lookup"><span data-stu-id="c3f47-118">The policy can be of global, site-level, or per-user scope, as long as it applies to the contact object you want to enable.</span></span> <span data-ttu-id="c3f47-119">有关详细信息，请参阅<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。</span><span class="sxs-lookup"><span data-stu-id="c3f47-119">For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="3cfa8-115">无论在本地部署中，都不需要在联系人对象上配置任何 Lync Server 2013 拨号计划设置。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-115">There is no need to configure any Lync Server 2013 dial plan settings on the Contact objects as there is with on-premises deployments.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="c3f47-120">要在交叉部署中配置托管的自动助理和订阅者访问联系人对象，必须使用以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="c3f47-120">To configure hosted auto-attendant and subscriber access Contact objects in a cross-premises deployment, you must use the following cmdlets:</span></span>
+</div>
 
-  - <span data-ttu-id="c3f47-121">**New-CsExUmContact** 为托管的 UM 创建新的联系人对象。</span><span class="sxs-lookup"><span data-stu-id="c3f47-121">**New-CsExUmContact** creates a new Contact object for hosted UM.</span></span>
+<div>
 
-  - <span data-ttu-id="c3f47-122">**Set-CsExUmContact** 为托管 Exchange UM 修改现有的联系人对象。</span><span class="sxs-lookup"><span data-stu-id="c3f47-122">**Set-CsExUmContact** modifies an existing Contact object for hosted Exchange UM.</span></span>
+## <a name="configuring-hosted-contact-objects"></a><span data-ttu-id="3cfa8-116">配置托管的联系人对象</span><span class="sxs-lookup"><span data-stu-id="3cfa8-116">Configuring Hosted Contact Objects</span></span>
 
-<span data-ttu-id="c3f47-123">以下示例创建一个自动助理联系人对象：</span><span class="sxs-lookup"><span data-stu-id="c3f47-123">The following example creates an auto-attendant Contact object:</span></span>
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="3cfa8-117">在 Lync Server 2013 中可以为托管 Exchange UM 启用联系人对象之前，必须部署适用于这些对象的托管语音邮件策略。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-117">Before Lync Server 2013 Contact objects can be enabled for hosted Exchange UM, a hosted voice mail policy that applies to them must be deployed.</span></span> <span data-ttu-id="3cfa8-118">策略可以是全局策略、站点级别策略或每用户策略，只要策略适用于要启用的联系人对象。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-118">The policy can be of global, site-level, or per-user scope, as long as it applies to the contact object you want to enable.</span></span> <span data-ttu-id="3cfa8-119">有关详细信息，请参阅 <A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-119">For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="3cfa8-120">要在交叉部署中配置托管的自动助理和订阅者访问联系人对象，必须使用以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="3cfa8-120">To configure hosted auto-attendant and subscriber access Contact objects in a cross-premises deployment, you must use the following cmdlets:</span></span>
+
+  - <span data-ttu-id="3cfa8-121">**New-CsExUmContact** 为托管的 UM 创建新的联系人对象。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-121">**New-CsExUmContact** creates a new Contact object for hosted UM.</span></span>
+
+  - <span data-ttu-id="3cfa8-122">**Set-CsExUmContact** 为托管 Exchange UM 修改现有的联系人对象。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-122">**Set-CsExUmContact** modifies an existing Contact object for hosted Exchange UM.</span></span>
+
+<span data-ttu-id="3cfa8-123">以下示例创建一个自动助理联系人对象：</span><span class="sxs-lookup"><span data-stu-id="3cfa8-123">The following example creates an auto-attendant Contact object:</span></span>
 
     New-CsExUmContact -SipAddress sip:exumaa1@fabrikam.com -RegistrarPool RedmondPool.litwareinc.com -OU "OU=ExUmContacts,DC=litwareinc,DC=com" -DisplayNumber 2065559876 -AutoAttendant $True
 
-<span data-ttu-id="c3f47-124">此示例创建一个 SIP 地址为 sip:exumaa1@fabrikam.com 的新 Exchange UM 联系人对象。</span><span class="sxs-lookup"><span data-stu-id="c3f47-124">This example creates a new Exchange UM Contact object with the SIP address sip:exumaa1@fabrikam.com.</span></span> <span data-ttu-id="c3f47-125">运行 Lync Server 2013 注册器服务的池的名称为 RedmondPool.litwareinc.com。</span><span class="sxs-lookup"><span data-stu-id="c3f47-125">The name of the pool where the Lync Server 2013 Registrar service is running is RedmondPool.litwareinc.com.</span></span> <span data-ttu-id="c3f47-126">将用于存储此信息的 Active Directory 组织单位为 OU=ExUmContacts,DC=litwareinc,DC=com。</span><span class="sxs-lookup"><span data-stu-id="c3f47-126">The Active Directory organizational unit where this information will be stored is OU=ExUmContacts,DC=litwareinc,DC=com.</span></span> <span data-ttu-id="c3f47-127">联系人对象的电话号码为 2065554567。</span><span class="sxs-lookup"><span data-stu-id="c3f47-127">The phone number of the Contact object is 2065554567.</span></span> <span data-ttu-id="c3f47-128">可选参数 -AutoAttendant $True 指定此对象为自动助理联系人对象。</span><span class="sxs-lookup"><span data-stu-id="c3f47-128">The optional -AutoAttendant $True parameter specifies that this object is an auto-attendant Contact object.</span></span> <span data-ttu-id="c3f47-129">将 -AutoAttendant 参数设置为 False（默认值）可指定订阅者访问联系人对象。</span><span class="sxs-lookup"><span data-stu-id="c3f47-129">Setting the -AutoAttendant parameter to False (the default) specifies a subscriber access Contact object.</span></span>
+<span data-ttu-id="3cfa8-124">此示例创建一个 SIP 地址为 sip:exumaa1@fabrikam.com 的新 Exchange UM 联系人对象。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-124">This example creates a new Exchange UM Contact object with the SIP address sip:exumaa1@fabrikam.com.</span></span> <span data-ttu-id="3cfa8-125">运行 Lync Server 2013 注册器服务的池的名称为 RedmondPool.litwareinc.com。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-125">The name of the pool where the Lync Server 2013 Registrar service is running is RedmondPool.litwareinc.com.</span></span> <span data-ttu-id="3cfa8-126">将用于存储此信息的 Active Directory 组织单位为 OU=ExUmContacts,DC=litwareinc,DC=com。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-126">The Active Directory organizational unit where this information will be stored is OU=ExUmContacts,DC=litwareinc,DC=com.</span></span> <span data-ttu-id="3cfa8-127">联系人对象的电话号码为 2065554567。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-127">The phone number of the Contact object is 2065554567.</span></span> <span data-ttu-id="3cfa8-128">可选参数 -AutoAttendant $True 指定此对象为自动助理联系人对象。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-128">The optional -AutoAttendant $True parameter specifies that this object is an auto-attendant Contact object.</span></span> <span data-ttu-id="3cfa8-129">将 -AutoAttendant 参数设置为 False（默认值）可指定订阅者访问联系人对象。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-129">Setting the -AutoAttendant parameter to False (the default) specifies a subscriber access Contact object.</span></span>
 
-<span data-ttu-id="c3f47-130">有关 CsExUmContact 和 CsExUmContact cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档。</span><span class="sxs-lookup"><span data-stu-id="c3f47-130">For details about the New-CsExUmContact and Set-CsExUmContact cmdlets, see the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="3cfa8-130">有关 New-CsExUmContact 和 Set-CsExUmContact cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档。</span><span class="sxs-lookup"><span data-stu-id="3cfa8-130">For details about the New-CsExUmContact and Set-CsExUmContact cmdlets, see the Lync Server Management Shell documentation.</span></span>
 
 </div>
 

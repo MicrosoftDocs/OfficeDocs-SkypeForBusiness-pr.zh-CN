@@ -12,20 +12,22 @@ ms:contentKeyID: 48184902
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0eee6f9711937f25809217edcd33ea50e778807f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a47887e7ea98c7c49eb172080464b228e35bae6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199566"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529669"
 ---
+# <a name="active-directory-domain-services-requirements-support-and-topologies-in-lync-server-2013"></a><span data-ttu-id="3275d-102">Lync Server 2013 中的 Active Directory 域服务要求、支持和拓扑</span><span class="sxs-lookup"><span data-stu-id="3275d-102">Active Directory Domain Services requirements, support, and topologies in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-requirements-support-and-topologies-in-lync-server-2013"></a><span data-ttu-id="c03c0-102">Lync Server 2013 中的 Active Directory 域服务要求、支持和拓扑</span><span class="sxs-lookup"><span data-stu-id="c03c0-102">Active Directory Domain Services requirements, support, and topologies in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42199566"
 
 <span> </span>
 
-<span data-ttu-id="c03c0-103">_**上次修改的主题：** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="c03c0-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="3275d-103">_**上次修改的主题：** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="3275d-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="c03c0-104">在 Lync Server 2010 之前，Lync Server 依靠 Active Directory 域服务来存储部署和管理 Lync Server 所需的所有全局设置和组。</span><span class="sxs-lookup"><span data-stu-id="c03c0-104">Prior to Lync Server 2010, Lync Server relied on Active Directory Domain Services to store all the global settings and groups necessary to deploy and manage Lync Server.</span></span> <span data-ttu-id="c03c0-105">现在，这些信息中的大部分存储在中央管理存储中，而不是 AD DS 中。</span><span class="sxs-lookup"><span data-stu-id="c03c0-105">Now much of this information is stored in the Central Management store instead of AD DS.</span></span> <span data-ttu-id="c03c0-106">但是，用户对象架构扩展（包括 Lync Server 2013、Lync Server 2010 和 Office 通信服务器 2007 R2 架构扩展）仍存储在 AD DS 中。</span><span class="sxs-lookup"><span data-stu-id="c03c0-106">However, user object schema extensions, including Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2 schema extensions, are still stored in AD DS.</span></span>
+<span data-ttu-id="3275d-104">在 Lync Server 2010 之前，Lync Server 依靠 Active Directory 域服务来存储部署和管理 Lync Server 所需的所有全局设置和组。</span><span class="sxs-lookup"><span data-stu-id="3275d-104">Prior to Lync Server 2010, Lync Server relied on Active Directory Domain Services to store all the global settings and groups necessary to deploy and manage Lync Server.</span></span> <span data-ttu-id="3275d-105">现在，这些信息中的大部分存储在中央管理存储中，而不是 AD DS 中。</span><span class="sxs-lookup"><span data-stu-id="3275d-105">Now much of this information is stored in the Central Management store instead of AD DS.</span></span> <span data-ttu-id="3275d-106">但是，用户对象架构扩展（包括 Lync Server 2013、Lync Server 2010 和 Office 通信服务器 2007 R2 架构扩展）仍存储在 AD DS 中。</span><span class="sxs-lookup"><span data-stu-id="3275d-106">However, user object schema extensions, including Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2 schema extensions, are still stored in AD DS.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c03c0-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="c03c0-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3275d-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="3275d-107">In This Section</span></span>
 
-  - [<span data-ttu-id="c03c0-108">Lync Server 2013 中的 Active Directory 域服务支持</span><span class="sxs-lookup"><span data-stu-id="c03c0-108">Active Directory Domain Services support in Lync Server 2013</span></span>](lync-server-2013-active-directory-domain-services-support.md)
+  - [<span data-ttu-id="3275d-108">Lync Server 2013 中的 Active Directory 域服务支持</span><span class="sxs-lookup"><span data-stu-id="3275d-108">Active Directory Domain Services support in Lync Server 2013</span></span>](lync-server-2013-active-directory-domain-services-support.md)
 
-  - [<span data-ttu-id="c03c0-109">Lync Server 2013 中支持的 Active Directory 拓扑</span><span class="sxs-lookup"><span data-stu-id="c03c0-109">Supported Active Directory topologies in Lync Server 2013</span></span>](lync-server-2013-supported-active-directory-topologies.md)
+  - [<span data-ttu-id="3275d-109">Lync Server 2013 中支持的 Active Directory 拓扑</span><span class="sxs-lookup"><span data-stu-id="3275d-109">Supported Active Directory topologies in Lync Server 2013</span></span>](lync-server-2013-supported-active-directory-topologies.md)
 
-  - [<span data-ttu-id="c03c0-110">Lync Server 2013 的 Active Directory 基础结构要求</span><span class="sxs-lookup"><span data-stu-id="c03c0-110">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [<span data-ttu-id="3275d-110">Lync Server 2013 的 Active Directory 基础结构要求</span><span class="sxs-lookup"><span data-stu-id="3275d-110">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
 
 </div>
 

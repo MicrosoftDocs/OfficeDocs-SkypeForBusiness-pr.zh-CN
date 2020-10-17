@@ -12,20 +12,22 @@ ms:contentKeyID: 48184570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c94f58083b96948401fc9adf926064ed46365e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ae806fc50fb0d4c4936fb6fbf6f879f4d4fc2ce4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190296"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529329"
 ---
+# <a name="conferencemessagecount-table-in-lync-server-2013"></a><span data-ttu-id="45fba-102">Lync Server 2013 中的 ConferenceMessageCount 表</span><span class="sxs-lookup"><span data-stu-id="45fba-102">ConferenceMessageCount table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencemessagecount-table-in-lync-server-2013"></a><span data-ttu-id="c8203-102">Lync Server 2013 中的 ConferenceMessageCount 表</span><span class="sxs-lookup"><span data-stu-id="c8203-102">ConferenceMessageCount table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42190296"
 
 <span> </span>
 
-<span data-ttu-id="c8203-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="c8203-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="45fba-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="45fba-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="c8203-104">此表中的每条记录代表一个 IM 会议中的一个用户，并包含该用户发送的邮件数。</span><span class="sxs-lookup"><span data-stu-id="c8203-104">Each record in this table represents one user in one IM conference and includes the number of messages sent by that user.</span></span> <span data-ttu-id="c8203-105">每个会议在此表中由多个记录表示;每个用户一个记录。</span><span class="sxs-lookup"><span data-stu-id="c8203-105">Each conference is represented by multiple records in this table; one record for each user.</span></span>
+<span data-ttu-id="45fba-104">此表中的每条记录代表一个 IM 会议中的一个用户，并包含该用户发送的邮件数。</span><span class="sxs-lookup"><span data-stu-id="45fba-104">Each record in this table represents one user in one IM conference and includes the number of messages sent by that user.</span></span> <span data-ttu-id="45fba-105">每个会议在此表中由多个记录表示;每个用户一个记录。</span><span class="sxs-lookup"><span data-stu-id="45fba-105">Each conference is represented by multiple records in this table; one record for each user.</span></span>
 
 
 <table>
@@ -49,36 +51,36 @@ ms.locfileid: "42190296"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="c8203-106">列</span><span class="sxs-lookup"><span data-stu-id="c8203-106">Column</span></span></th>
-<th><span data-ttu-id="c8203-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="c8203-107">Data Type</span></span></th>
-<th><span data-ttu-id="c8203-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="c8203-108">Key/Index</span></span></th>
-<th><span data-ttu-id="c8203-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="c8203-109">Details</span></span></th>
+<th><span data-ttu-id="45fba-106">列</span><span class="sxs-lookup"><span data-stu-id="45fba-106">Column</span></span></th>
+<th><span data-ttu-id="45fba-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="45fba-107">Data Type</span></span></th>
+<th><span data-ttu-id="45fba-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="45fba-108">Key/Index</span></span></th>
+<th><span data-ttu-id="45fba-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="45fba-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c8203-110"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="c8203-110"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="c8203-111">datetime</span><span class="sxs-lookup"><span data-stu-id="c8203-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="c8203-112">主、外</span><span class="sxs-lookup"><span data-stu-id="c8203-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="c8203-113">会议实例的时间。</span><span class="sxs-lookup"><span data-stu-id="c8203-113">Time of conference instance.</span></span> <span data-ttu-id="c8203-114">与<strong>SessionIdSeq</strong>结合使用，以唯一标识会议实例。</span><span class="sxs-lookup"><span data-stu-id="c8203-114">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a conference instance.</span></span> <span data-ttu-id="c8203-115">有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</span><span class="sxs-lookup"><span data-stu-id="c8203-115">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="45fba-110"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="45fba-110"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="45fba-111">datetime</span><span class="sxs-lookup"><span data-stu-id="45fba-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="45fba-112">主、外</span><span class="sxs-lookup"><span data-stu-id="45fba-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="45fba-113">会议实例的时间。</span><span class="sxs-lookup"><span data-stu-id="45fba-113">Time of conference instance.</span></span> <span data-ttu-id="45fba-114">与 <strong>SessionIdSeq</strong> 结合使用，以唯一标识会议实例。</span><span class="sxs-lookup"><span data-stu-id="45fba-114">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a conference instance.</span></span> <span data-ttu-id="45fba-115">有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a> 的 "会议" 表。</span><span class="sxs-lookup"><span data-stu-id="45fba-115">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c8203-116"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="c8203-116"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="c8203-117">int</span><span class="sxs-lookup"><span data-stu-id="c8203-117">int</span></span></p></td>
-<td><p><span data-ttu-id="c8203-118">主、外</span><span class="sxs-lookup"><span data-stu-id="c8203-118">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="c8203-119">用于标识会议实例的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="c8203-119">ID number to identify the conference instance.</span></span> <span data-ttu-id="c8203-120">与<strong>SessionIdTime</strong>结合使用，以唯一标识会议实例。</span><span class="sxs-lookup"><span data-stu-id="c8203-120">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a conference instance.</span></span> <span data-ttu-id="c8203-121">有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</span><span class="sxs-lookup"><span data-stu-id="c8203-121">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="45fba-116"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="45fba-116"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="45fba-117">int</span><span class="sxs-lookup"><span data-stu-id="45fba-117">int</span></span></p></td>
+<td><p><span data-ttu-id="45fba-118">主、外</span><span class="sxs-lookup"><span data-stu-id="45fba-118">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="45fba-119">用于标识会议实例的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="45fba-119">ID number to identify the conference instance.</span></span> <span data-ttu-id="45fba-120">与 <strong>SessionIdTime</strong> 结合使用，以唯一标识会议实例。</span><span class="sxs-lookup"><span data-stu-id="45fba-120">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a conference instance.</span></span> <span data-ttu-id="45fba-121">有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a> 的 "会议" 表。</span><span class="sxs-lookup"><span data-stu-id="45fba-121">See the <a href="lync-server-2013-conferences-table.md">Conferences table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c8203-122"><strong>UserId</strong></span><span class="sxs-lookup"><span data-stu-id="c8203-122"><strong>UserId</strong></span></span></p></td>
-<td><p><span data-ttu-id="c8203-123">int</span><span class="sxs-lookup"><span data-stu-id="c8203-123">int</span></span></p></td>
-<td><p><span data-ttu-id="c8203-124">对外</span><span class="sxs-lookup"><span data-stu-id="c8203-124">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="c8203-125">标识此用户的唯一编号，<a href="lync-server-2013-users-table.md">在 Lync Server 2013 中的 "用户" 表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="c8203-125">Unique number identifying this user, referenced from the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="45fba-122"><strong>UserId</strong></span><span class="sxs-lookup"><span data-stu-id="45fba-122"><strong>UserId</strong></span></span></p></td>
+<td><p><span data-ttu-id="45fba-123">int</span><span class="sxs-lookup"><span data-stu-id="45fba-123">int</span></span></p></td>
+<td><p><span data-ttu-id="45fba-124">对外</span><span class="sxs-lookup"><span data-stu-id="45fba-124">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="45fba-125">标识此用户的唯一编号， <a href="lync-server-2013-users-table.md">在 Lync Server 2013 中的 "用户" 表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="45fba-125">Unique number identifying this user, referenced from the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c8203-126"><strong>MessageCount</strong></span><span class="sxs-lookup"><span data-stu-id="c8203-126"><strong>MessageCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="c8203-127">smallint</span><span class="sxs-lookup"><span data-stu-id="c8203-127">smallint</span></span></p></td>
+<td><p><span data-ttu-id="45fba-126"><strong>MessageCount</strong></span><span class="sxs-lookup"><span data-stu-id="45fba-126"><strong>MessageCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="45fba-127">smallint</span><span class="sxs-lookup"><span data-stu-id="45fba-127">smallint</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="c8203-128">此用户在此会议期间发送的邮件数。</span><span class="sxs-lookup"><span data-stu-id="c8203-128">The number of messages sent by this user during this conference.</span></span></p></td>
+<td><p><span data-ttu-id="45fba-128">此用户在此会议期间发送的邮件数。</span><span class="sxs-lookup"><span data-stu-id="45fba-128">The number of messages sent by this user during this conference.</span></span></p></td>
 </tr>
 </tbody>
 </table>
