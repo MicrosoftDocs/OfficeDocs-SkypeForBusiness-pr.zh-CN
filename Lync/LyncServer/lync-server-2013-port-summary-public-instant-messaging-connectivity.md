@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：端口摘要-公共即时消息连接
+description: Lync Server 2013：端口摘要-公共即时消息连接。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bce3413e7e41e3784cb0ba300c621a7c042b618
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4137b5f92e043dc15dc9aa1f0b9593b4d9f7c2ca
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534159"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543058"
 ---
 # <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>端口摘要-Lync Server 2013 中的公共即时消息连接
 

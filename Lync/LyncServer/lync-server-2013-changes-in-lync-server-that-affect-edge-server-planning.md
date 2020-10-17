@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： Lync Server 中影响边缘服务器规划的更改
+description: Lync Server 2013： Lync Server 中影响边缘服务器规划的更改。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc006a73e6fcb7036d0085d9c5dcba4d3e21e133
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8660a281d858cf92a48d5eaed6d5caf3141b3817
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517829"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543748"
 ---
 # <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>Lync Server 2013 中影响边缘服务器规划的更改
 

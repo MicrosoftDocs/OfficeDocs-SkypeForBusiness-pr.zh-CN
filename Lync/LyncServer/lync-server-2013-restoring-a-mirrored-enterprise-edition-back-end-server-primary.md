@@ -1,5 +1,6 @@
 ---
 title: 还原镜像的企业版后端服务器-主要
+description: 还原镜像的企业版后端服务器-主服务器。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e28b3657e5e64b1372b924d04b9d42a58460658
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3f186bc304dccc363e5a7e0bf89a2276043e361e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511569"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542408"
 ---
 # <a name="restoring-a-mirrored-enterprise-edition-back-end-server-in-lync-server-2013---primary"></a>在 Lync Server 2013 中还原镜像的企业版后端服务器-主要
 

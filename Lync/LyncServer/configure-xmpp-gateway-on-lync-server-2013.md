@@ -1,5 +1,6 @@
 ---
 title: 在 Lync Server 2013 上配置 XMPP 网关
+description: 在 Lync Server 2013 上配置 XMPP 网关。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,12 +14,12 @@ ms:contentKeyID: 49733816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30dc21ddbbfd5d65d6834ffa5a6181c5e4a13b1c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 78765237e737dea29d77230d6b0eecdb0348cb41
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503179"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542948"
 ---
 # <a name="configure-xmpp-gateway-on-lync-server-2013"></a>在 Lync Server 2013 上配置 XMPP 网关
 

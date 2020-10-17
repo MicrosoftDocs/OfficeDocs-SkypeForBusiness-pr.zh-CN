@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：检查物理环境
+description: Lync Server 2013：检查物理环境。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969582
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43f63129ee54ede60cc1da8eb737a5b7e0fa9b76
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d963485b109e0afdf21b3a9085fa28884dfc3100
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502679"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543548"
 ---
 # <a name="performing-physical-environmental-checks"></a>执行物理环境检查
 
