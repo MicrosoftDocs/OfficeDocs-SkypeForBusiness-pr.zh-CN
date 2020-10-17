@@ -12,20 +12,22 @@ ms:contentKeyID: 48184408
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 973962c7f52474f65766e6772647359c8089daee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fa82336ed96c61315da4c25a0152ba75d15d7b6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215238"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531739"
 ---
+# <a name="pstn-connectivity-components-in-lync-server-2013"></a><span data-ttu-id="6e1f9-102">Lync Server 2013 中的 PSTN 连接组件</span><span class="sxs-lookup"><span data-stu-id="6e1f9-102">PSTN connectivity components in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-connectivity-components-in-lync-server-2013"></a><span data-ttu-id="51486-102">Lync Server 2013 中的 PSTN 连接组件</span><span class="sxs-lookup"><span data-stu-id="51486-102">PSTN connectivity components in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,61 +37,61 @@ ms.locfileid: "42215238"
 
 <span> </span>
 
-<span data-ttu-id="51486-103">_**上次修改的主题：** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="51486-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="6e1f9-103">_**上次修改的主题：** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="6e1f9-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="51486-p101">企业级 VoIP 解决方案必须以始终如一的服务质量 (QoS) 提供来往于公用电话交换网 (PSTN) 的呼叫。此外，用户在发起和接收呼叫时应不必了解底层技术。从用户的角度来看，企业语音基础结构与 PSTN 之间的呼叫应该就像是另一个 SIP 会话。</span><span class="sxs-lookup"><span data-stu-id="51486-p101">An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS). In addition, users should not be aware of the underlying technology when they place and receive calls. From the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another SIP session.</span></span>
+<span data-ttu-id="6e1f9-p101">企业级 VoIP 解决方案必须以始终如一的服务质量 (QoS) 提供来往于公用电话交换网 (PSTN) 的呼叫。此外，用户在发起和接收呼叫时应不必了解底层技术。从用户的角度来看，企业语音基础结构与 PSTN 之间的呼叫应该就像是另一个 SIP 会话。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-p101">An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS). In addition, users should not be aware of the underlying technology when they place and receive calls. From the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another SIP session.</span></span>
 
-<span data-ttu-id="51486-107">对于 PSTN 连接，可以部署 SIP 中继或 PSTN 网关（带有 PBX，也称为直接 SIP 链路，或没有 PBX）。</span><span class="sxs-lookup"><span data-stu-id="51486-107">For PSTN connections, you can either deploy a SIP trunk or a PSTN gateway (with a PBX, also known as a Direct SIP link, or without a PBX).</span></span>
+<span data-ttu-id="6e1f9-107">对于 PSTN 连接，可以使用 PBX （也称为直接 SIP 链接）或不使用 PBX) 部署 SIP 中继或 PSTN 网关 (。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-107">For PSTN connections, you can either deploy a SIP trunk or a PSTN gateway (with a PBX, also known as a Direct SIP link, or without a PBX).</span></span>
 
 <div>
 
-## <a name="sip-trunking"></a><span data-ttu-id="51486-108">SIP 中继</span><span class="sxs-lookup"><span data-stu-id="51486-108">SIP Trunking</span></span>
+## <a name="sip-trunking"></a><span data-ttu-id="6e1f9-108">SIP 中继</span><span class="sxs-lookup"><span data-stu-id="6e1f9-108">SIP Trunking</span></span>
 
-<span data-ttu-id="51486-p102">作为使用 PSTN 网关的替代方案，可以使用 SIP 中继将企业语音解决方案连接到 PSTN。SIP 中继可以实现以下方案：</span><span class="sxs-lookup"><span data-stu-id="51486-p102">As an alternative to using PSTN gateways, you can connect your Enterprise Voice solution to the PSTN by using SIP trunking. SIP trunking enables the following scenarios:</span></span>
+<span data-ttu-id="6e1f9-p102">作为使用 PSTN 网关的替代方案，可以使用 SIP 中继将企业语音解决方案连接到 PSTN。SIP 中继可以实现以下方案：</span><span class="sxs-lookup"><span data-stu-id="6e1f9-p102">As an alternative to using PSTN gateways, you can connect your Enterprise Voice solution to the PSTN by using SIP trunking. SIP trunking enables the following scenarios:</span></span>
 
-  - <span data-ttu-id="51486-111">企业防火墙内外的企业用户可以拨打由符合 E.164 标准的号码指定的本地或长途电话，该电话将作为相应服务提供商的一项服务终止于 PSTN 上。</span><span class="sxs-lookup"><span data-stu-id="51486-111">An enterprise user inside or outside the corporate firewall can make a local or long-distance call specified by an E.164-compliant number that is terminated on the PSTN as a service of the corresponding service provider.</span></span>
+  - <span data-ttu-id="6e1f9-111">企业防火墙内外的企业用户可以拨打由符合 E.164 标准的号码指定的本地或长途电话，该电话将作为相应服务提供商的一项服务终止于 PSTN 上。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-111">An enterprise user inside or outside the corporate firewall can make a local or long-distance call specified by an E.164-compliant number that is terminated on the PSTN as a service of the corresponding service provider.</span></span>
 
-  - <span data-ttu-id="51486-112">通过拨打与企业防火墙内外的企业用户关联的外线直拨分机 (DID) 号码，任何 PSTN 订阅者都可以与该企业用户取得联系。</span><span class="sxs-lookup"><span data-stu-id="51486-112">Any PSTN subscriber can contact an enterprise user inside or outside the corporate firewall by dialing a Direct Inward Dialing (DID) number associated with that enterprise user.</span></span>
+  - <span data-ttu-id="6e1f9-112">通过拨打与企业防火墙内外的企业用户关联的外线直拨分机 (DID) 号码，任何 PSTN 订阅者都可以与该企业用户取得联系。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-112">Any PSTN subscriber can contact an enterprise user inside or outside the corporate firewall by dialing a Direct Inward Dialing (DID) number associated with that enterprise user.</span></span>
 
-<span data-ttu-id="51486-113">使用此部署解决方案需要 SIP 中继服务提供商。</span><span class="sxs-lookup"><span data-stu-id="51486-113">The use of this deployment solution requires a SIP trunking service provider.</span></span>
+<span data-ttu-id="6e1f9-113">使用此部署解决方案需要 SIP 中继服务提供商。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-113">The use of this deployment solution requires a SIP trunking service provider.</span></span>
 
 </div>
 
 <div>
 
-## <a name="pstn-gateways"></a><span data-ttu-id="51486-114">PSTN 网关</span><span class="sxs-lookup"><span data-stu-id="51486-114">PSTN gateways</span></span>
+## <a name="pstn-gateways"></a><span data-ttu-id="6e1f9-114">PSTN 网关</span><span class="sxs-lookup"><span data-stu-id="6e1f9-114">PSTN gateways</span></span>
 
-<span data-ttu-id="51486-115">PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和媒体的第三方设备。</span><span class="sxs-lookup"><span data-stu-id="51486-115">PSTN gateways are third-party devices that translate signaling and media between the Enterprise Voice infrastructure and a PSTN or a PBX.</span></span> <span data-ttu-id="51486-116">PSTN 网关与中介服务器配合工作，以向企业语音客户端提交 PSTN 或 PBX 呼叫。</span><span class="sxs-lookup"><span data-stu-id="51486-116">PSTN gateways work with the Mediation Server to present a PSTN or PBX call to an Enterprise Voice client.</span></span> <span data-ttu-id="51486-117">中介服务器还将来自企业语音客户端的呼叫提交到 PSTN 网关，以便路由到 PSTN 或 PBX。</span><span class="sxs-lookup"><span data-stu-id="51486-117">The Mediation Server also presents calls from Enterprise Voice clients to the PSTN gateway for routing to the PSTN or PBX.</span></span> <span data-ttu-id="51486-118">有关与 Microsoft 合作以提供与 Lync Server 配合使用的设备的合作伙伴列表，请参阅 Microsoft 统一通信合作伙伴网站（网址[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)为）。</span><span class="sxs-lookup"><span data-stu-id="51486-118">For a list of partners who work with Microsoft to provide devices that work with Lync Server, see the Microsoft Unified Communications Partners website at [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
+<span data-ttu-id="6e1f9-115">PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和媒体的第三方设备。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-115">PSTN gateways are third-party devices that translate signaling and media between the Enterprise Voice infrastructure and a PSTN or a PBX.</span></span> <span data-ttu-id="6e1f9-116">PSTN 网关与中介服务器配合工作，以向企业语音客户端提交 PSTN 或 PBX 呼叫。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-116">PSTN gateways work with the Mediation Server to present a PSTN or PBX call to an Enterprise Voice client.</span></span> <span data-ttu-id="6e1f9-117">中介服务器还将来自企业语音客户端的呼叫提交到 PSTN 网关，以便路由到 PSTN 或 PBX。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-117">The Mediation Server also presents calls from Enterprise Voice clients to the PSTN gateway for routing to the PSTN or PBX.</span></span> <span data-ttu-id="6e1f9-118">有关与 Microsoft 合作以提供与 Lync Server 配合使用的设备的合作伙伴列表，请参阅 Microsoft 统一通信合作伙伴网站（网址为） [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836) 。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-118">For a list of partners who work with Microsoft to provide devices that work with Lync Server, see the Microsoft Unified Communications Partners website at [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
 
 </div>
 
 <div>
 
-## <a name="private-branch-exchanges"></a><span data-ttu-id="51486-119">专用交换机</span><span class="sxs-lookup"><span data-stu-id="51486-119">Private Branch Exchanges</span></span>
+## <a name="private-branch-exchanges"></a><span data-ttu-id="6e1f9-119">专用交换机</span><span class="sxs-lookup"><span data-stu-id="6e1f9-119">Private Branch Exchanges</span></span>
 
-<span data-ttu-id="51486-120">如果您有一个使用专用交换机（PBX）的语音基础结构，则可以将您的 PBX 与 Lync Server 企业版语音结合使用。</span><span class="sxs-lookup"><span data-stu-id="51486-120">If you have an existing voice infrastructure that uses a private branch exchange (PBX), you can use your PBX with Lync Server Enterprise Voice.</span></span>
+<span data-ttu-id="6e1f9-120">如果您有一个使用专用分支 exchange (PBX) 的语音基础结构，则可以将您的 PBX 与 Lync Server 企业版语音结合使用。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-120">If you have an existing voice infrastructure that uses a private branch exchange (PBX), you can use your PBX with Lync Server Enterprise Voice.</span></span>
 
-<span data-ttu-id="51486-121">支持的企业语音-PBX 集成方案包括：</span><span class="sxs-lookup"><span data-stu-id="51486-121">The supported Enterprise Voice-PBX integration scenarios are as follows:</span></span>
+<span data-ttu-id="6e1f9-121">支持的企业语音-PBX 集成方案包括：</span><span class="sxs-lookup"><span data-stu-id="6e1f9-121">The supported Enterprise Voice-PBX integration scenarios are as follows:</span></span>
 
-  - <span data-ttu-id="51486-122">支持媒体绕过的 IP-PBX，具有中介服务器。</span><span class="sxs-lookup"><span data-stu-id="51486-122">IP-PBX that supports media bypass, with a Mediation Server.</span></span>
+  - <span data-ttu-id="6e1f9-122">支持媒体绕过的 IP-PBX，具有中介服务器。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-122">IP-PBX that supports media bypass, with a Mediation Server.</span></span>
 
-  - <span data-ttu-id="51486-123">要求使用单独的 PSTN 网关的 IP-PBX。</span><span class="sxs-lookup"><span data-stu-id="51486-123">IP-PBX that requires a stand-alone PSTN gateway.</span></span>
+  - <span data-ttu-id="6e1f9-123">要求使用单独的 PSTN 网关的 IP-PBX。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-123">IP-PBX that requires a stand-alone PSTN gateway.</span></span>
 
-  - <span data-ttu-id="51486-124">时分多路复用 (TDM) PBX，使用单独的 PSTN 网关。</span><span class="sxs-lookup"><span data-stu-id="51486-124">Time division multiplexing (TDM) PBX, with a stand-alone PSTN gateway.</span></span>
+  - <span data-ttu-id="6e1f9-124">时分多路复用 (TDM) PBX，使用单独的 PSTN 网关。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-124">Time division multiplexing (TDM) PBX, with a stand-alone PSTN gateway.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="51486-125">媒体绕过将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。</span><span class="sxs-lookup"><span data-stu-id="51486-125">Media bypass will not interoperate with every PSTN gateway, IP-PBX, and SBC.</span></span> <span data-ttu-id="51486-126">Microsoft 已使用认证的合作伙伴测试了一组 PSTN 网关和 SBCs，并且已通过 Cisco IP Pbx 进行了一些测试。</span><span class="sxs-lookup"><span data-stu-id="51486-126">Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs.</span></span> <span data-ttu-id="51486-127">仅在统一通信开放互操作性计划– Lync Server 上列出的产品和版本支持媒体<A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>旁路。</span><span class="sxs-lookup"><span data-stu-id="51486-127">Media bypass is supported only with products and versions listed on Unified Communications Open Interoperability Program – Lync Server at <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>.</span></span>
+> <span data-ttu-id="6e1f9-125">媒体绕过将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-125">Media bypass will not interoperate with every PSTN gateway, IP-PBX, and SBC.</span></span> <span data-ttu-id="6e1f9-126">Microsoft 已使用认证的合作伙伴测试了一组 PSTN 网关和 SBCs，并且已通过 Cisco IP Pbx 进行了一些测试。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-126">Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs.</span></span> <span data-ttu-id="6e1f9-127">仅在统一通信开放互操作性计划– Lync Server 上列出的产品和版本支持媒体旁路 <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A> 。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-127">Media bypass is supported only with products and versions listed on Unified Communications Open Interoperability Program – Lync Server at <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="51486-128">有关提供企业语音解决方案的合作伙伴的详细信息，请参阅 Microsoft 统一通信合作伙伴网站[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)，网址为。</span><span class="sxs-lookup"><span data-stu-id="51486-128">For details about partners who offer Enterprise Voice solutions, see the Microsoft Unified Communications Partners website at [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
+<span data-ttu-id="6e1f9-128">有关提供企业语音解决方案的合作伙伴的详细信息，请参阅 Microsoft 统一通信合作伙伴网站，网址为 [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836) 。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-128">For details about partners who offer Enterprise Voice solutions, see the Microsoft Unified Communications Partners website at [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
 
-<span data-ttu-id="51486-129">有关提供企业语音硬件解决方案（包括 PSTN 网关）的合作伙伴的详细信息，请参阅 Microsoft 统一[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)通信合作伙伴网站。</span><span class="sxs-lookup"><span data-stu-id="51486-129">For details about partners who offer Enterprise Voice hardware solutions, including PSTN gateways, see the Microsoft Unified Communications Partners website [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
+<span data-ttu-id="6e1f9-129">有关提供企业语音硬件解决方案（包括 PSTN 网关）的合作伙伴的详细信息，请参阅 Microsoft 统一通信合作伙伴网站 [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836) 。</span><span class="sxs-lookup"><span data-stu-id="6e1f9-129">For details about partners who offer Enterprise Voice hardware solutions, including PSTN gateways, see the Microsoft Unified Communications Partners website [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
 
 </div>
 
