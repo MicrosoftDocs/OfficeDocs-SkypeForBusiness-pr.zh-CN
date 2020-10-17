@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：向即时消息添加自定义文本
+description: Lync Server 2013：向即时消息添加自定义文本。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 466eac15cf75728578e7d517d15ddb222d1c4b70
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 54f5cf031da0ba4d5bd0b6dbaa7f5ebc9d0b3a6c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521359"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569338"
 ---
-# <a name="adding-custom-text-to-instant-messages-in-lync-server-2013"></a><span data-ttu-id="ea91c-102">在 Lync Server 2013 中向即时消息添加自定义文本</span><span class="sxs-lookup"><span data-stu-id="ea91c-102">Adding custom text to instant messages in Lync Server 2013</span></span>
+# <a name="adding-custom-text-to-instant-messages-in-lync-server-2013"></a><span data-ttu-id="1bd4d-103">在 Lync Server 2013 中向即时消息添加自定义文本</span><span class="sxs-lookup"><span data-stu-id="1bd4d-103">Adding custom text to instant messages in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,16 +38,16 @@ ms.locfileid: "48521359"
 
 <span> </span>
 
-<span data-ttu-id="ea91c-103">_**上次修改的主题：** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="ea91c-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="1bd4d-104">_**上次修改的主题：** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="1bd4d-104">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="ea91c-104">通过使用 **set-csclientpolicy** 或 **Set-csclientpolicy** Lync Server Management Shell cmdlet 和 IMWarning 参数，在每个 Lync 2013 即时消息 (IM) 对话的开头添加免责声明或警告。</span><span class="sxs-lookup"><span data-stu-id="ea91c-104">Add a disclaimer or warning to the beginning of every Lync 2013 instant messaging (IM) conversation by using the **New-CSClientPolicy** or **Set-CSClientPolicy** Lync Server Management Shell cmdlets with the IMWarning parameter.</span></span>
+<span data-ttu-id="1bd4d-105">通过使用 **set-csclientpolicy** 或 **Set-csclientpolicy** Lync Server Management Shell cmdlet 和 IMWarning 参数，在每个 Lync 2013 即时消息 (IM) 对话的开头添加免责声明或警告。</span><span class="sxs-lookup"><span data-stu-id="1bd4d-105">Add a disclaimer or warning to the beginning of every Lync 2013 instant messaging (IM) conversation by using the **New-CSClientPolicy** or **Set-CSClientPolicy** Lync Server Management Shell cmdlets with the IMWarning parameter.</span></span>
 
-<span data-ttu-id="ea91c-105">以下示例中的命令会在新的 IM 对话开始时，在“对话”窗口的顶部添加安全提醒：</span><span class="sxs-lookup"><span data-stu-id="ea91c-105">The command in the following example adds a security reminder at the top of the Conversation window whenever a new IM conversation begins:</span></span>
+<span data-ttu-id="1bd4d-106">以下示例中的命令会在新的 IM 对话开始时，在“对话”窗口的顶部添加安全提醒：</span><span class="sxs-lookup"><span data-stu-id="1bd4d-106">The command in the following example adds a security reminder at the top of the Conversation window whenever a new IM conversation begins:</span></span>
 
     New-CsClientPolicy -Identity IMSecurityNotice -IMWarning 
     "Remember, security is everyone's responsibility. Keep it confidential."
 
-<span data-ttu-id="ea91c-106">使用 **Grant-CSClientPolicy** 将此新策略分配给用户。</span><span class="sxs-lookup"><span data-stu-id="ea91c-106">Use **Grant-CSClientPolicy** to assign this new policy to users.</span></span> <span data-ttu-id="ea91c-107">有关详细信息，请参阅 Lync Server 命令行管理程序文档中的 **set-csclientpolicy** 和 **Grant set-csclientpolicy** 。</span><span class="sxs-lookup"><span data-stu-id="ea91c-107">For details, see **New-CSClientPolicy** and **Grant-CSClientPolicy** in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="1bd4d-107">使用 **Grant-CSClientPolicy** 将此新策略分配给用户。</span><span class="sxs-lookup"><span data-stu-id="1bd4d-107">Use **Grant-CSClientPolicy** to assign this new policy to users.</span></span> <span data-ttu-id="1bd4d-108">有关详细信息，请参阅 Lync Server 命令行管理程序文档中的 **set-csclientpolicy** 和 **Grant set-csclientpolicy** 。</span><span class="sxs-lookup"><span data-stu-id="1bd4d-108">For details, see **New-CSClientPolicy** and **Grant-CSClientPolicy** in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 

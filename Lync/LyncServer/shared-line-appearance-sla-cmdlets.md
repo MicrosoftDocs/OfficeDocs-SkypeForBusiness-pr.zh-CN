@@ -1,5 +1,6 @@
 ---
 title: 共享线路外观 (SLA) cmdlet
+description: 共享线路外观 (SLA) cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 72808515
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d81641af786e3eed70e41678cbc0c02d31f52cb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4387accd16c797c27c9e8db30a71542bb8c85aba
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520749"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570128"
 ---
-# <a name="shared-line-appearance-sla-cmdlets"></a><span data-ttu-id="5b213-102">共享线路外观 (SLA) cmdlet</span><span class="sxs-lookup"><span data-stu-id="5b213-102">Shared Line Appearance (SLA) cmdlets</span></span>
+# <a name="shared-line-appearance-sla-cmdlets"></a><span data-ttu-id="39923-103">共享线路外观 (SLA) cmdlet</span><span class="sxs-lookup"><span data-stu-id="39923-103">Shared Line Appearance (SLA) cmdlets</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,34 +38,34 @@ ms.locfileid: "48520749"
 
 <span> </span>
 
-<span data-ttu-id="5b213-103">_**上次修改的主题：** 2016-04-12_</span><span class="sxs-lookup"><span data-stu-id="5b213-103">_**Topic Last Modified:** 2016-04-12_</span></span>
+<span data-ttu-id="39923-104">_**上次修改的主题：** 2016-04-12_</span><span class="sxs-lookup"><span data-stu-id="39923-104">_**Topic Last Modified:** 2016-04-12_</span></span>
 
-<span data-ttu-id="5b213-104">与单行外观 (SLA 相关的 cmdlet) 允许您将共享电话号码配置为可选取该行的多个代理。</span><span class="sxs-lookup"><span data-stu-id="5b213-104">Cmdlets relating to Single Line Appearance (SLA) allow you to configure a shared phone number with multiple delegates who can pick up that line.</span></span>
+<span data-ttu-id="39923-105">与单行外观 (SLA 相关的 cmdlet) 允许您将共享电话号码配置为可选取该行的多个代理。</span><span class="sxs-lookup"><span data-stu-id="39923-105">Cmdlets relating to Single Line Appearance (SLA) allow you to configure a shared phone number with multiple delegates who can pick up that line.</span></span>
 
 <div>
 
-## <a name="sla-cmdlets"></a><span data-ttu-id="5b213-105">SLA Cmdlet</span><span class="sxs-lookup"><span data-stu-id="5b213-105">SLA Cmdlets</span></span>
+## <a name="sla-cmdlets"></a><span data-ttu-id="39923-106">SLA Cmdlet</span><span class="sxs-lookup"><span data-stu-id="39923-106">SLA Cmdlets</span></span>
 
-<span data-ttu-id="5b213-106">使用以下 cmdlet 进行 SLA。</span><span class="sxs-lookup"><span data-stu-id="5b213-106">Use the following cmdlets for SLA.</span></span>
+<span data-ttu-id="39923-107">使用以下 cmdlet 进行 SLA。</span><span class="sxs-lookup"><span data-stu-id="39923-107">Use the following cmdlets for SLA.</span></span>
 
-<span data-ttu-id="5b213-107">**配置 SLA**</span><span class="sxs-lookup"><span data-stu-id="5b213-107">**Configuring SLA**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="5b213-108">[Set-csslaconfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5b213-108">[Get-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))</span></span>
+<span data-ttu-id="39923-108">**配置 SLA**</span><span class="sxs-lookup"><span data-stu-id="39923-108">**Configuring SLA**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5b213-109">[Set-csslaconfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5b213-109">[Set-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))</span></span>
+    <span data-ttu-id="39923-109">[Set-csslaconfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="39923-109">[Get-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703200(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5b213-110">[Set-csslaconfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5b213-110">[Remove-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))</span></span>
-
-<span data-ttu-id="5b213-111">**配置 SLA 委派**</span><span class="sxs-lookup"><span data-stu-id="5b213-111">**Configuring SLA delegates**</span></span>
+    <span data-ttu-id="39923-110">[Set-csslaconfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="39923-110">[Set-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703202(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5b213-112">[外接 CsSlaDelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5b213-112">[Add-CsSlaDelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))</span></span>
+    <span data-ttu-id="39923-111">[Set-csslaconfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="39923-111">[Remove-CsSlaConfiguration](https://technet.microsoft.com/library/Mt703201(v=OCS.15))</span></span>
+
+<span data-ttu-id="39923-112">**配置 SLA 委派**</span><span class="sxs-lookup"><span data-stu-id="39923-112">**Configuring SLA delegates**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5b213-113">[CsSlaDelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5b213-113">[Remove-CsSlaDelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))</span></span>
+    <span data-ttu-id="39923-113">[外接 CsSlaDelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="39923-113">[Add-CsSlaDelegates](https://technet.microsoft.com/library/Mt703199(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="39923-114">[CsSlaDelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="39923-114">[Remove-CsSlaDelegates](https://technet.microsoft.com/library/Mt703203(v=OCS.15))</span></span>
 
 </div>
 
