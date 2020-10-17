@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：将用户移动到 Lync Online
+description: Lync Server 2013：将用户移动到 Lync Online。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 189bf46da6c6bdaa6749f899d2a672967680cc45
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 501eda3a76cec3226831c0af3631317377cd82cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500568"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541983"
 ---
-# <a name="move-users-to-lync-online-in-lync-server-2013"></a><span data-ttu-id="79518-102">在 Lync Server 2013 中将用户移动到 Lync Online</span><span class="sxs-lookup"><span data-stu-id="79518-102">Move users to Lync Online in Lync Server 2013</span></span>
+# <a name="move-users-to-lync-online-in-lync-server-2013"></a><span data-ttu-id="22bf2-103">在 Lync Server 2013 中将用户移动到 Lync Online</span><span class="sxs-lookup"><span data-stu-id="22bf2-103">Move users to Lync Online in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48500568"
 
 <span> </span>
 
-<span data-ttu-id="79518-103">_**上次修改的主题：** 2014-05-29_</span><span class="sxs-lookup"><span data-stu-id="79518-103">_**Topic Last Modified:** 2014-05-29_</span></span>
+<span data-ttu-id="22bf2-104">_**上次修改的主题：** 2014-05-29_</span><span class="sxs-lookup"><span data-stu-id="22bf2-104">_**Topic Last Modified:** 2014-05-29_</span></span>
 
-<span data-ttu-id="79518-104">在开始将用户迁移到 Lync Online 之前，应备份与要移动的帐户关联的用户数据。</span><span class="sxs-lookup"><span data-stu-id="79518-104">Before you start migrating users to Lync Online, you should backup the user data associated with the accounts to be moved.</span></span> <span data-ttu-id="79518-105">并不是所有用户数据都与用户帐户一起移动。</span><span class="sxs-lookup"><span data-stu-id="79518-105">Not all user data is moved with the user account.</span></span> <span data-ttu-id="79518-106">有关信息，请参阅 [Lync Server 2013： data 中的备份和还原要求](lync-server-2013-backup-and-restoration-requirements-data.md)。</span><span class="sxs-lookup"><span data-stu-id="79518-106">For information, see [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md).</span></span>
+<span data-ttu-id="22bf2-105">在开始将用户迁移到 Lync Online 之前，应备份与要移动的帐户关联的用户数据。</span><span class="sxs-lookup"><span data-stu-id="22bf2-105">Before you start migrating users to Lync Online, you should backup the user data associated with the accounts to be moved.</span></span> <span data-ttu-id="22bf2-106">并不是所有用户数据都与用户帐户一起移动。</span><span class="sxs-lookup"><span data-stu-id="22bf2-106">Not all user data is moved with the user account.</span></span> <span data-ttu-id="22bf2-107">有关信息，请参阅 [Lync Server 2013： data 中的备份和还原要求](lync-server-2013-backup-and-restoration-requirements-data.md)。</span><span class="sxs-lookup"><span data-stu-id="22bf2-107">For information, see [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md).</span></span>
 
 <div>
 
-## <a name="migrate-user-settings-to-lync-online"></a><span data-ttu-id="79518-107">将用户设置迁移至 Lync Online</span><span class="sxs-lookup"><span data-stu-id="79518-107">Migrate User Settings to Lync Online</span></span>
+## <a name="migrate-user-settings-to-lync-online"></a><span data-ttu-id="22bf2-108">将用户设置迁移至 Lync Online</span><span class="sxs-lookup"><span data-stu-id="22bf2-108">Migrate User Settings to Lync Online</span></span>
 
-<span data-ttu-id="79518-108">用户设置随用户帐户一起移动。</span><span class="sxs-lookup"><span data-stu-id="79518-108">User settings are moved with the user account.</span></span> <span data-ttu-id="79518-109">某些本地设置不会随用户帐户一起移动。</span><span class="sxs-lookup"><span data-stu-id="79518-109">Some on-premises settings are not moved with the user account.</span></span>
+<span data-ttu-id="22bf2-109">用户设置随用户帐户一起移动。</span><span class="sxs-lookup"><span data-stu-id="22bf2-109">User settings are moved with the user account.</span></span> <span data-ttu-id="22bf2-110">某些本地设置不会随用户帐户一起移动。</span><span class="sxs-lookup"><span data-stu-id="22bf2-110">Some on-premises settings are not moved with the user account.</span></span>
 
 </div>
 
 <div>
 
-## <a name="moving-pilot-users-to-lync-online"></a><span data-ttu-id="79518-110">将试点用户移动到 Lync Online</span><span class="sxs-lookup"><span data-stu-id="79518-110">Moving Pilot Users to Lync Online</span></span>
+## <a name="moving-pilot-users-to-lync-online"></a><span data-ttu-id="22bf2-111">将试点用户移动到 Lync Online</span><span class="sxs-lookup"><span data-stu-id="22bf2-111">Moving Pilot Users to Lync Online</span></span>
 
-<span data-ttu-id="79518-111">在开始将用户移动到 Lync Online 之前，您可能需要移动几个试点用户，以确认您的环境已正确配置。</span><span class="sxs-lookup"><span data-stu-id="79518-111">Before you begin to move users to Lync Online, you may want to move a few pilot users to confirm that your environment is correctly configured.</span></span> <span data-ttu-id="79518-112">然后，您可以在尝试移动其他用户之前验证 Lync 功能和服务是否按预期方式运行。</span><span class="sxs-lookup"><span data-stu-id="79518-112">You can then verify that Lync features and services function as expected before attempting to move additional users.</span></span>
+<span data-ttu-id="22bf2-112">在开始将用户移动到 Lync Online 之前，您可能需要移动几个试点用户，以确认您的环境已正确配置。</span><span class="sxs-lookup"><span data-stu-id="22bf2-112">Before you begin to move users to Lync Online, you may want to move a few pilot users to confirm that your environment is correctly configured.</span></span> <span data-ttu-id="22bf2-113">然后，您可以在尝试移动其他用户之前验证 Lync 功能和服务是否按预期方式运行。</span><span class="sxs-lookup"><span data-stu-id="22bf2-113">You can then verify that Lync features and services function as expected before attempting to move additional users.</span></span>
 
-<span data-ttu-id="79518-113">若要将本地用户移动到 Lync Online 租户，请使用 Microsoft 365 或 Office 365 组织的管理员凭据在 Lync Server 命令行管理程序中运行以下 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="79518-113">To move an on-premises user to your Lync Online tenant, run the following cmdlets in the Lync Server Management Shell, using the administrator credentials for your Microsoft 365 or Office 365 organization.</span></span> <span data-ttu-id="79518-114">将 "username@contoso.com" 替换为要移动的用户的信息。</span><span class="sxs-lookup"><span data-stu-id="79518-114">Replace "username@contoso.com" with the information for the user that you want to move.</span></span>
+<span data-ttu-id="22bf2-114">若要将本地用户移动到 Lync Online 租户，请使用 Microsoft 365 或 Office 365 组织的管理员凭据在 Lync Server 命令行管理程序中运行以下 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="22bf2-114">To move an on-premises user to your Lync Online tenant, run the following cmdlets in the Lync Server Management Shell, using the administrator credentials for your Microsoft 365 or Office 365 organization.</span></span> <span data-ttu-id="22bf2-115">将 "username@contoso.com" 替换为要移动的用户的信息。</span><span class="sxs-lookup"><span data-stu-id="22bf2-115">Replace "username@contoso.com" with the information for the user that you want to move.</span></span>
 
    ```PowerShell
     $creds=Get-Credential
@@ -65,27 +66,27 @@ ms.locfileid: "48500568"
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-<span data-ttu-id="79518-115">为 **HostedMigrationOverrideUrl** 参数指定的 url 的格式必须是运行托管迁移服务的池的 url，格式如下： Https:// \<Pool FQDN\> /hostedmigration/hostedmigrationservice.svc。</span><span class="sxs-lookup"><span data-stu-id="79518-115">The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format: Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc.</span></span>
+<span data-ttu-id="22bf2-116">为 **HostedMigrationOverrideUrl** 参数指定的 url 的格式必须是运行托管迁移服务的池的 url，格式如下： Https:// \<Pool FQDN\> /hostedmigration/hostedmigrationservice.svc。</span><span class="sxs-lookup"><span data-stu-id="22bf2-116">The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format: Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc.</span></span>
 
-<span data-ttu-id="79518-116">您可以通过查看适用于 Microsoft 365 或 Office 365 组织帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。</span><span class="sxs-lookup"><span data-stu-id="79518-116">You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Microsoft 365 or Office 365 organization account.</span></span>
+<span data-ttu-id="22bf2-117">您可以通过查看适用于 Microsoft 365 或 Office 365 组织帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。</span><span class="sxs-lookup"><span data-stu-id="22bf2-117">You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Microsoft 365 or Office 365 organization account.</span></span>
 
-<span data-ttu-id="79518-117">**确定组织的托管迁移服务 URL**</span><span class="sxs-lookup"><span data-stu-id="79518-117">**To determine the Hosted Migration Service URL for your organization**</span></span>
+<span data-ttu-id="22bf2-118">**确定组织的托管迁移服务 URL**</span><span class="sxs-lookup"><span data-stu-id="22bf2-118">**To determine the Hosted Migration Service URL for your organization**</span></span>
 
-1.  <span data-ttu-id="79518-118">以管理员身份登录到你的 Microsoft 365 或 Office 365 组织。</span><span class="sxs-lookup"><span data-stu-id="79518-118">Login to your Microsoft 365 or Office 365 organization as an administrator.</span></span>
+1.  <span data-ttu-id="22bf2-119">以管理员身份登录到你的 Microsoft 365 或 Office 365 组织。</span><span class="sxs-lookup"><span data-stu-id="22bf2-119">Login to your Microsoft 365 or Office 365 organization as an administrator.</span></span>
 
-2.  <span data-ttu-id="79518-119">打开 **Lync 管理中心**。</span><span class="sxs-lookup"><span data-stu-id="79518-119">Open the **Lync admin center**.</span></span>
+2.  <span data-ttu-id="22bf2-120">打开 **Lync 管理中心**。</span><span class="sxs-lookup"><span data-stu-id="22bf2-120">Open the **Lync admin center**.</span></span>
 
-3.  <span data-ttu-id="79518-120">在 " **Lync 管理中心** " 显示的情况下，选择并将地址栏中的 URL 复制到 **lync.com**。</span><span class="sxs-lookup"><span data-stu-id="79518-120">With the **Lync admin center** displayed, select and copy the URL in the address bar up to **lync.com**.</span></span> <span data-ttu-id="79518-121">示例 URL 的外观类似于以下内容：</span><span class="sxs-lookup"><span data-stu-id="79518-121">An example URL looks similar to the following:</span></span>
+3.  <span data-ttu-id="22bf2-121">在 " **Lync 管理中心** " 显示的情况下，选择并将地址栏中的 URL 复制到 **lync.com**。</span><span class="sxs-lookup"><span data-stu-id="22bf2-121">With the **Lync admin center** displayed, select and copy the URL in the address bar up to **lync.com**.</span></span> <span data-ttu-id="22bf2-122">示例 URL 的外观类似于以下内容：</span><span class="sxs-lookup"><span data-stu-id="22bf2-122">An example URL looks similar to the following:</span></span>
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  <span data-ttu-id="79518-122">将 URL 中的 **webdir** 替换为 **admin**，从而产生以下结果：</span><span class="sxs-lookup"><span data-stu-id="79518-122">Replace **webdir** in the URL with **admin**, resulting in the following:</span></span>
+4.  <span data-ttu-id="22bf2-123">将 URL 中的 **webdir** 替换为 **admin**，从而产生以下结果：</span><span class="sxs-lookup"><span data-stu-id="22bf2-123">Replace **webdir** in the URL with **admin**, resulting in the following:</span></span>
     
     `https://admin0a.online.lync.com`
 
-5.  <span data-ttu-id="79518-123">将以下字符串追加到 URL： **/HostedMigration/hostedmigrationservice.svc**。</span><span class="sxs-lookup"><span data-stu-id="79518-123">Append the following string to the URL: **/HostedMigration/hostedmigrationservice.svc**.</span></span>
+5.  <span data-ttu-id="22bf2-124">将以下字符串追加到 URL： **/HostedMigration/hostedmigrationservice.svc**。</span><span class="sxs-lookup"><span data-stu-id="22bf2-124">Append the following string to the URL: **/HostedMigration/hostedmigrationservice.svc**.</span></span>
     
-    <span data-ttu-id="79518-124">生成的 URL （ **HostedMigrationOverrideUrl**的值）应如下所示：</span><span class="sxs-lookup"><span data-stu-id="79518-124">The resulting URL, which is the value of the **HostedMigrationOverrideUrl**, should look like the following:</span></span>
+    <span data-ttu-id="22bf2-125">生成的 URL （ **HostedMigrationOverrideUrl**的值）应如下所示：</span><span class="sxs-lookup"><span data-stu-id="22bf2-125">The resulting URL, which is the value of the **HostedMigrationOverrideUrl**, should look like the following:</span></span>
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 
@@ -93,13 +94,13 @@ ms.locfileid: "48500568"
 
 <div>
 
-## <a name="moving-users-to-lync-online"></a><span data-ttu-id="79518-125">将用户移动到 Lync Online</span><span class="sxs-lookup"><span data-stu-id="79518-125">Moving Users to Lync Online</span></span>
+## <a name="moving-users-to-lync-online"></a><span data-ttu-id="22bf2-126">将用户移动到 Lync Online</span><span class="sxs-lookup"><span data-stu-id="22bf2-126">Moving Users to Lync Online</span></span>
 
-<span data-ttu-id="79518-126">您可以使用带有– Filter 参数的 [get-csuser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet 来移动多个用户，以选择具有分配给用户帐户的特定属性的用户，如 RegistrarPool。</span><span class="sxs-lookup"><span data-stu-id="79518-126">You can move multiple users by using the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet with the –Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool.</span></span> <span data-ttu-id="79518-127">然后，您可以通过管道将返回的用户通过管道传递到 [get-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) cmdlet，如以下示例所示。</span><span class="sxs-lookup"><span data-stu-id="79518-127">You can then pipe the returned users to the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) cmdlet, as shown in the following example.</span></span>
+<span data-ttu-id="22bf2-127">您可以使用带有– Filter 参数的 [get-csuser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet 来移动多个用户，以选择具有分配给用户帐户的特定属性的用户，如 RegistrarPool。</span><span class="sxs-lookup"><span data-stu-id="22bf2-127">You can move multiple users by using the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet with the –Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool.</span></span> <span data-ttu-id="22bf2-128">然后，您可以通过管道将返回的用户通过管道传递到 [get-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) cmdlet，如以下示例所示。</span><span class="sxs-lookup"><span data-stu-id="22bf2-128">You can then pipe the returned users to the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) cmdlet, as shown in the following example.</span></span>
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 
-<span data-ttu-id="79518-128">您还可以使用– OU 参数检索指定 OU 中的所有用户，如下面的示例所示。</span><span class="sxs-lookup"><span data-stu-id="79518-128">You can also use the –OU parameter to retrieve all users in the specified OU, as shown in the following example.</span></span>
+<span data-ttu-id="22bf2-129">您还可以使用– OU 参数检索指定 OU 中的所有用户，如下面的示例所示。</span><span class="sxs-lookup"><span data-stu-id="22bf2-129">You can also use the –OU parameter to retrieve all users in the specified OU, as shown in the following example.</span></span>
 
     Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online.lync.com -Credentials $creds -HostedMigrationOverrideUrl <URL>
 
@@ -107,13 +108,13 @@ ms.locfileid: "48500568"
 
 <div>
 
-## <a name="verify-lync-online-user-settings-and-features"></a><span data-ttu-id="79518-129">验证 Lync Online 用户设置和功能</span><span class="sxs-lookup"><span data-stu-id="79518-129">Verify Lync Online User Settings and Features</span></span>
+## <a name="verify-lync-online-user-settings-and-features"></a><span data-ttu-id="22bf2-130">验证 Lync Online 用户设置和功能</span><span class="sxs-lookup"><span data-stu-id="22bf2-130">Verify Lync Online User Settings and Features</span></span>
 
-<span data-ttu-id="79518-130">可通过以下方式验证用户是否已成功移动：</span><span class="sxs-lookup"><span data-stu-id="79518-130">You can verify that the user was moved successfully in the following ways:</span></span>
+<span data-ttu-id="22bf2-131">可通过以下方式验证用户是否已成功移动：</span><span class="sxs-lookup"><span data-stu-id="22bf2-131">You can verify that the user was moved successfully in the following ways:</span></span>
 
-  - <span data-ttu-id="79518-p107">在 Lync Online 控制面板中查看用户的状态。用于内部用户和联机用户的可视指示器不同。</span><span class="sxs-lookup"><span data-stu-id="79518-p107">View the status of the user in the Lync Online Control Panel. The visual indicator for on-premises users and online users is different.</span></span>
+  - <span data-ttu-id="22bf2-p107">在 Lync Online 控制面板中查看用户的状态。用于内部用户和联机用户的可视指示器不同。</span><span class="sxs-lookup"><span data-stu-id="22bf2-p107">View the status of the user in the Lync Online Control Panel. The visual indicator for on-premises users and online users is different.</span></span>
 
-  - <span data-ttu-id="79518-133">运行以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="79518-133">Run the following cmdlet:</span></span>
+  - <span data-ttu-id="22bf2-134">运行以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="22bf2-134">Run the following cmdlet:</span></span>
     
         Get-CsUser -Identity
 

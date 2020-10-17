@@ -12,20 +12,22 @@ ms:contentKeyID: 48185822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d39992255bfe6f93d9f41380b4f6b5fb9af1f5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e3104f07934e590dc22ac9f5000601bc8166b6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212848"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535789"
 ---
+# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a><span data-ttu-id="8c52f-102">使用 cmdlet 对 Lync Server 2013 反向林准备</span><span class="sxs-lookup"><span data-stu-id="8c52f-102">Using cmdlets to reverse forest preparation for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a><span data-ttu-id="34faa-102">使用 cmdlet 对 Lync Server 2013 反向林准备</span><span class="sxs-lookup"><span data-stu-id="34faa-102">Using cmdlets to reverse forest preparation for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42212848"
 
 <span> </span>
 
-<span data-ttu-id="34faa-103">_**上次修改的主题：** 2013-06-19_</span><span class="sxs-lookup"><span data-stu-id="34faa-103">_**Topic Last Modified:** 2013-06-19_</span></span>
+<span data-ttu-id="8c52f-103">_**上次修改的主题：** 2013-06-19_</span><span class="sxs-lookup"><span data-stu-id="8c52f-103">_**Topic Last Modified:** 2013-06-19_</span></span>
 
-<span data-ttu-id="34faa-104">使用 **Disable-CsAdForest** cmdlet 可反向执行林准备步骤。</span><span class="sxs-lookup"><span data-stu-id="34faa-104">Use the **Disable-CsAdForest** cmdlet to reverse the forest preparation step.</span></span>
+<span data-ttu-id="8c52f-104">使用 **Disable-CsAdForest** cmdlet 可反向执行林准备步骤。</span><span class="sxs-lookup"><span data-stu-id="8c52f-104">Use the **Disable-CsAdForest** cmdlet to reverse the forest preparation step.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="34faa-105">如果您在还部署了旧版 Lync Server 的环境中运行<STRONG>CsAdForest</STRONG> cmdlet，则早期版本的全局设置也将被删除。</span><span class="sxs-lookup"><span data-stu-id="34faa-105">If you run the <STRONG>Disable-CsAdForest</STRONG> cmdlet in an environment where you also have a previous version of Lync Server deployed, the global settings for the previous version will also be deleted.</span></span>
+> <span data-ttu-id="8c52f-105">如果您在还部署了旧版 Lync Server 的环境中运行 <STRONG>CsAdForest</STRONG> cmdlet，则早期版本的全局设置也将被删除。</span><span class="sxs-lookup"><span data-stu-id="8c52f-105">If you run the <STRONG>Disable-CsAdForest</STRONG> cmdlet in an environment where you also have a previous version of Lync Server deployed, the global settings for the previous version will also be deleted.</span></span>
 
 
 
@@ -51,35 +53,35 @@ ms.locfileid: "42212848"
 
 <div>
 
-## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a><span data-ttu-id="34faa-106">使用 cmdlet 反向执行林准备</span><span class="sxs-lookup"><span data-stu-id="34faa-106">To use cmdlets to reverse forest preparation</span></span>
+## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a><span data-ttu-id="8c52f-106">使用 cmdlet 反向执行林准备</span><span class="sxs-lookup"><span data-stu-id="8c52f-106">To use cmdlets to reverse forest preparation</span></span>
 
-1.  <span data-ttu-id="34faa-107">以目录林根级域中的 Domain Admins 组成员身份登录到加入域的计算机。</span><span class="sxs-lookup"><span data-stu-id="34faa-107">Log on to a computer that is joined to a domain as a member of the Domain Admins group in the forest root domain.</span></span>
+1.  <span data-ttu-id="8c52f-107">以目录林根级域中的 Domain Admins 组成员身份登录到加入域的计算机。</span><span class="sxs-lookup"><span data-stu-id="8c52f-107">Log on to a computer that is joined to a domain as a member of the Domain Admins group in the forest root domain.</span></span>
 
-2.  <span data-ttu-id="34faa-108">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="34faa-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="8c52f-108">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="8c52f-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="34faa-109">以</span><span class="sxs-lookup"><span data-stu-id="34faa-109">Run:</span></span>
+3.  <span data-ttu-id="8c52f-109">以</span><span class="sxs-lookup"><span data-stu-id="8c52f-109">Run:</span></span>
     
         Disable-CsAdForest [-Force] [-GroupDomain <FQDN of the domain in which universal groups were created>]
     
-    <span data-ttu-id="34faa-110">例如：</span><span class="sxs-lookup"><span data-stu-id="34faa-110">For example:</span></span>
+    <span data-ttu-id="8c52f-110">例如：</span><span class="sxs-lookup"><span data-stu-id="8c52f-110">For example:</span></span>
     
         Disable-CsAdForest -Force -GroupDomain contoso.net
     
-    <span data-ttu-id="34faa-111">Force 参数指定是否强制运行该任务。</span><span class="sxs-lookup"><span data-stu-id="34faa-111">The Force parameter specifies whether to force running the task.</span></span> <span data-ttu-id="34faa-112">如果不存在此参数，即使林中的一个域仍为 Lync Server 2013 做好准备，该命令也不会运行。</span><span class="sxs-lookup"><span data-stu-id="34faa-112">If this parameter is not present, the command will not run if even one domain in the forest is still prepared for Lync Server 2013.</span></span> <span data-ttu-id="34faa-113">如果指定了 Force 参数，无论林中其他域的状态如何，都将继续执行此操作。</span><span class="sxs-lookup"><span data-stu-id="34faa-113">If the Force parameter is specified, the action will continue regardless of the state of other domains in the forest.</span></span>
+    <span data-ttu-id="8c52f-111">Force 参数指定是否强制运行该任务。</span><span class="sxs-lookup"><span data-stu-id="8c52f-111">The Force parameter specifies whether to force running the task.</span></span> <span data-ttu-id="8c52f-112">如果不存在此参数，即使林中的一个域仍为 Lync Server 2013 做好准备，该命令也不会运行。</span><span class="sxs-lookup"><span data-stu-id="8c52f-112">If this parameter is not present, the command will not run if even one domain in the forest is still prepared for Lync Server 2013.</span></span> <span data-ttu-id="8c52f-113">如果指定了 Force 参数，无论林中其他域的状态如何，都将继续执行此操作。</span><span class="sxs-lookup"><span data-stu-id="8c52f-113">If the Force parameter is specified, the action will continue regardless of the state of other domains in the forest.</span></span>
     
-    <span data-ttu-id="34faa-114">如果不指定 GroupDomain 参数，则默认值为本地域。</span><span class="sxs-lookup"><span data-stu-id="34faa-114">If you do not specify the GroupDomain parameter, the default value is the local domain.</span></span>
+    <span data-ttu-id="8c52f-114">如果不指定 GroupDomain 参数，则默认值为本地域。</span><span class="sxs-lookup"><span data-stu-id="8c52f-114">If you do not specify the GroupDomain parameter, the default value is the local domain.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="34faa-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="34faa-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8c52f-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8c52f-115">See Also</span></span>
 
 
-[<span data-ttu-id="34faa-116">为 Lync Server 2013 运行林准备</span><span class="sxs-lookup"><span data-stu-id="34faa-116">Running forest preparation for Lync Server 2013</span></span>](lync-server-2013-running-forest-preparation.md)  
+[<span data-ttu-id="8c52f-116">为 Lync Server 2013 运行林准备</span><span class="sxs-lookup"><span data-stu-id="8c52f-116">Running forest preparation for Lync Server 2013</span></span>](lync-server-2013-running-forest-preparation.md)  
 
 
-[<span data-ttu-id="34faa-117">准备 Lync Server 2013 的林</span><span class="sxs-lookup"><span data-stu-id="34faa-117">Preparing the forest for Lync Server 2013</span></span>](lync-server-2013-preparing-the-forest.md)  
+[<span data-ttu-id="8c52f-117">准备 Lync Server 2013 的林</span><span class="sxs-lookup"><span data-stu-id="8c52f-117">Preparing the forest for Lync Server 2013</span></span>](lync-server-2013-preparing-the-forest.md)  
   
 
 </div>
