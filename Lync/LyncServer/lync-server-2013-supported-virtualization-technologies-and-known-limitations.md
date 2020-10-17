@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：支持的虚拟化技术和已知限制
+description: Lync Server 2013：支持的虚拟化技术和已知限制。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61d2d884566c21933e00dd3897f5fe394b4a2624
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 745fa535462d29342f4c0a58674ee6487db42a6f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523929"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544608"
 ---
-# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a><span data-ttu-id="d4eb2-102">Lync Server 2013 中支持的虚拟化技术和已知限制</span><span class="sxs-lookup"><span data-stu-id="d4eb2-102">Supported virtualization technologies and known limitations in Lync Server 2013</span></span>
+# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a><span data-ttu-id="4bae4-103">Lync Server 2013 中支持的虚拟化技术和已知限制</span><span class="sxs-lookup"><span data-stu-id="4bae4-103">Supported virtualization technologies and known limitations in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,53 +38,53 @@ ms.locfileid: "48523929"
 
 <span> </span>
 
-<span data-ttu-id="d4eb2-103">_**上次修改的主题：** 2017-02-06_</span><span class="sxs-lookup"><span data-stu-id="d4eb2-103">_**Topic Last Modified:** 2017-02-06_</span></span>
+<span data-ttu-id="4bae4-104">_**上次修改的主题：** 2017-02-06_</span><span class="sxs-lookup"><span data-stu-id="4bae4-104">_**Topic Last Modified:** 2017-02-06_</span></span>
 
-<span data-ttu-id="d4eb2-104">Lync VDI 插件允许音频和视频呼叫支持的虚拟化技术。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-104">The Lync VDI plug-in allows audio and video calling for supported virtualization technologies.</span></span> <span data-ttu-id="d4eb2-105">这在 [Microsoft lync 2010 白皮书的客户端虚拟化](https://go.microsoft.com/fwlink/?linkid=330447) 中扩展了为 Microsoft lync Server 2010 概述的功能。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-105">This extends the functionality outlined for Microsoft Lync Server 2010 in the [Client Virtualization in Microsoft Lync 2010](https://go.microsoft.com/fwlink/?linkid=330447) white paper.</span></span> <span data-ttu-id="d4eb2-106">在遵守标准电话法规的情况下，还包括对 E911 的支持。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-106">In compliance with standard telephone regulations, support for E911 is also included.</span></span> <span data-ttu-id="d4eb2-107">以下各节介绍了 Lync VDI 插件支持的虚拟化技术和已知的功能限制。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-107">The following sections describe the virtualization technologies that are supported by the Lync VDI plug-in and the known feature limitations.</span></span>
+<span data-ttu-id="4bae4-105">Lync VDI 插件允许音频和视频呼叫支持的虚拟化技术。</span><span class="sxs-lookup"><span data-stu-id="4bae4-105">The Lync VDI plug-in allows audio and video calling for supported virtualization technologies.</span></span> <span data-ttu-id="4bae4-106">这在 [Microsoft lync 2010 白皮书的客户端虚拟化](https://go.microsoft.com/fwlink/?linkid=330447) 中扩展了为 Microsoft lync Server 2010 概述的功能。</span><span class="sxs-lookup"><span data-stu-id="4bae4-106">This extends the functionality outlined for Microsoft Lync Server 2010 in the [Client Virtualization in Microsoft Lync 2010](https://go.microsoft.com/fwlink/?linkid=330447) white paper.</span></span> <span data-ttu-id="4bae4-107">在遵守标准电话法规的情况下，还包括对 E911 的支持。</span><span class="sxs-lookup"><span data-stu-id="4bae4-107">In compliance with standard telephone regulations, support for E911 is also included.</span></span> <span data-ttu-id="4bae4-108">以下各节介绍了 Lync VDI 插件支持的虚拟化技术和已知的功能限制。</span><span class="sxs-lookup"><span data-stu-id="4bae4-108">The following sections describe the virtualization technologies that are supported by the Lync VDI plug-in and the known feature limitations.</span></span>
 
 <div>
 
-## <a name="support-for-virtualization-technologies"></a><span data-ttu-id="d4eb2-108">对虚拟化技术的支持</span><span class="sxs-lookup"><span data-stu-id="d4eb2-108">Support for Virtualization Technologies</span></span>
+## <a name="support-for-virtualization-technologies"></a><span data-ttu-id="4bae4-109">对虚拟化技术的支持</span><span class="sxs-lookup"><span data-stu-id="4bae4-109">Support for Virtualization Technologies</span></span>
 
-<span data-ttu-id="d4eb2-109">Lync VDI 插件支持个人虚拟桌面方案中的完整桌面远程，但在远程桌面会话方案中不支持。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-109">The Lync VDI plug-in supports full desktop remoting in the personal virtual desktop scenario, but not in the remote desktop session scenario.</span></span> <span data-ttu-id="d4eb2-110">可以按如下所述描述这些方案：</span><span class="sxs-lookup"><span data-stu-id="d4eb2-110">These scenarios can be described as follows:</span></span>
+<span data-ttu-id="4bae4-110">Lync VDI 插件支持个人虚拟桌面方案中的完整桌面远程，但在远程桌面会话方案中不支持。</span><span class="sxs-lookup"><span data-stu-id="4bae4-110">The Lync VDI plug-in supports full desktop remoting in the personal virtual desktop scenario, but not in the remote desktop session scenario.</span></span> <span data-ttu-id="4bae4-111">可以按如下所述描述这些方案：</span><span class="sxs-lookup"><span data-stu-id="4bae4-111">These scenarios can be described as follows:</span></span>
 
-  - <span data-ttu-id="d4eb2-111">**支持： (VDI) 的个性化虚拟桌面或虚拟桌面基础结构。**    在这种情况下，每个用户都登录到可自定义的虚拟桌面，并且能够在桌面上保存跨会话保留的文件。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-111">**Supported: Personalized Virtual Desktops or Virtual Desktop Infrastructure (VDI).**   In this scenario, each user logs on to a customizable virtual desktop and is able to save files on the desktop that persist across sessions.</span></span> <span data-ttu-id="d4eb2-112">Microsoft 远程桌面服务、VMware 地平线视图和 Citrix XenDesktop 是已经过测试可与 Lync 配合使用的实现。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-112">Microsoft Remote Desktop Services, VMware Horizon View, and Citrix XenDesktop are implementations that have been tested for use with Lync.</span></span> <span data-ttu-id="d4eb2-113">有关已由 Microsoft 测试的供应商特定的 VDI 环境和客户端硬件的信息，请参阅 [适用于 Microsoft Lync 的基础结构限定](https://go.microsoft.com/fwlink/?linkid=313435)。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-113">For information about vendor-specific VDI environments and client hardware that have been tested by Microsoft, see [Infrastructure qualified for Microsoft Lync](https://go.microsoft.com/fwlink/?linkid=313435).</span></span>
+  - <span data-ttu-id="4bae4-112">**支持： (VDI) 的个性化虚拟桌面或虚拟桌面基础结构。**    在这种情况下，每个用户都登录到可自定义的虚拟桌面，并且能够在桌面上保存跨会话保留的文件。</span><span class="sxs-lookup"><span data-stu-id="4bae4-112">**Supported: Personalized Virtual Desktops or Virtual Desktop Infrastructure (VDI).**   In this scenario, each user logs on to a customizable virtual desktop and is able to save files on the desktop that persist across sessions.</span></span> <span data-ttu-id="4bae4-113">Microsoft 远程桌面服务、VMware 地平线视图和 Citrix XenDesktop 是已经过测试可与 Lync 配合使用的实现。</span><span class="sxs-lookup"><span data-stu-id="4bae4-113">Microsoft Remote Desktop Services, VMware Horizon View, and Citrix XenDesktop are implementations that have been tested for use with Lync.</span></span> <span data-ttu-id="4bae4-114">有关已由 Microsoft 测试的供应商特定的 VDI 环境和客户端硬件的信息，请参阅 [适用于 Microsoft Lync 的基础结构限定](https://go.microsoft.com/fwlink/?linkid=313435)。</span><span class="sxs-lookup"><span data-stu-id="4bae4-114">For information about vendor-specific VDI environments and client hardware that have been tested by Microsoft, see [Infrastructure qualified for Microsoft Lync](https://go.microsoft.com/fwlink/?linkid=313435).</span></span>
 
-  - <span data-ttu-id="d4eb2-114">**不支持：远程桌面会话。**    在这种情况下，每个用户登录到无法自定义的通用虚拟桌面会话。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-114">**Not supported: Remote Desktop Sessions.**   In this scenario, each user logs on to a generic virtual desktop session that cannot be customized.</span></span> <span data-ttu-id="d4eb2-115">示例实现包括 Microsoft 远程桌面会话 (RDSH) 和 Citrix XenApp 与 Citrix 接收器结合使用。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-115">Example implementations include Microsoft Remote Desktop Sessions (RDSH) and Citrix XenApp combined with Citrix Receiver.</span></span>
+  - <span data-ttu-id="4bae4-115">**不支持：远程桌面会话。**    在这种情况下，每个用户登录到无法自定义的通用虚拟桌面会话。</span><span class="sxs-lookup"><span data-stu-id="4bae4-115">**Not supported: Remote Desktop Sessions.**   In this scenario, each user logs on to a generic virtual desktop session that cannot be customized.</span></span> <span data-ttu-id="4bae4-116">示例实现包括 Microsoft 远程桌面会话 (RDSH) 和 Citrix XenApp 与 Citrix 接收器结合使用。</span><span class="sxs-lookup"><span data-stu-id="4bae4-116">Example implementations include Microsoft Remote Desktop Sessions (RDSH) and Citrix XenApp combined with Citrix Receiver.</span></span>
 
-<span data-ttu-id="d4eb2-116">Lync VDI 插件不支持其他虚拟化技术，如应用程序虚拟化，它允许使用应用程序，而无需在本地安装完整应用程序。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-116">The Lync VDI plug-in does not support other virtualization technologies, such as application virtualization, which allows the use of an application without requiring installation of the full application locally.</span></span> <span data-ttu-id="d4eb2-117">示例实现包括 Citrix XenApp 和 Microsoft Application Virtualization (App-v) 。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-117">Example implementations include Citrix XenApp and Microsoft Application Virtualization (App-V).</span></span> <span data-ttu-id="d4eb2-118">应用程序流、应用程序远程处理和混合虚拟化模式 (例如，不支持完整桌面远程) 中的应用程序远程处理。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-118">Application streaming, application remoting, and mixed virtualization modes (for example, application remoting in full desktop remoting) are not supported.</span></span>
+<span data-ttu-id="4bae4-117">Lync VDI 插件不支持其他虚拟化技术，如应用程序虚拟化，它允许使用应用程序，而无需在本地安装完整应用程序。</span><span class="sxs-lookup"><span data-stu-id="4bae4-117">The Lync VDI plug-in does not support other virtualization technologies, such as application virtualization, which allows the use of an application without requiring installation of the full application locally.</span></span> <span data-ttu-id="4bae4-118">示例实现包括 Citrix XenApp 和 Microsoft Application Virtualization (App-v) 。</span><span class="sxs-lookup"><span data-stu-id="4bae4-118">Example implementations include Citrix XenApp and Microsoft Application Virtualization (App-V).</span></span> <span data-ttu-id="4bae4-119">应用程序流、应用程序远程处理和混合虚拟化模式 (例如，不支持完整桌面远程) 中的应用程序远程处理。</span><span class="sxs-lookup"><span data-stu-id="4bae4-119">Application streaming, application remoting, and mixed virtualization modes (for example, application remoting in full desktop remoting) are not supported.</span></span>
 
-<span data-ttu-id="d4eb2-119">为允许可扩展性，Lync VDI 插件旨在使用独立于平台的 Api （称为 "动态虚拟通道" (Dvc) ）。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-119">To allow extensibility, the Lync VDI plug-in was designed to use platform-independent APIs called Dynamic Virtual Channels (DVCs).</span></span> <span data-ttu-id="d4eb2-120">对于不是由 Lync 显式支持的方案，请参阅 VDI 解决方案提供商提供的支持声明。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-120">For scenarios that are not explicitly supported by Lync, refer to support statements from the VDI solution provider.</span></span>
+<span data-ttu-id="4bae4-120">为允许可扩展性，Lync VDI 插件旨在使用独立于平台的 Api （称为 "动态虚拟通道" (Dvc) ）。</span><span class="sxs-lookup"><span data-stu-id="4bae4-120">To allow extensibility, the Lync VDI plug-in was designed to use platform-independent APIs called Dynamic Virtual Channels (DVCs).</span></span> <span data-ttu-id="4bae4-121">对于不是由 Lync 显式支持的方案，请参阅 VDI 解决方案提供商提供的支持声明。</span><span class="sxs-lookup"><span data-stu-id="4bae4-121">For scenarios that are not explicitly supported by Lync, refer to support statements from the VDI solution provider.</span></span>
 
 </div>
 
 <div>
 
-## <a name="known-feature-limitations"></a><span data-ttu-id="d4eb2-121">已知功能限制</span><span class="sxs-lookup"><span data-stu-id="d4eb2-121">Known Feature Limitations</span></span>
+## <a name="known-feature-limitations"></a><span data-ttu-id="4bae4-122">已知功能限制</span><span class="sxs-lookup"><span data-stu-id="4bae4-122">Known Feature Limitations</span></span>
 
-<span data-ttu-id="d4eb2-122">在 VDI 环境中使用 Lync 2013 时，有以下已知限制：</span><span class="sxs-lookup"><span data-stu-id="d4eb2-122">The following are known limitations when you use Lync 2013 in a VDI environment:</span></span>
+<span data-ttu-id="4bae4-123">在 VDI 环境中使用 Lync 2013 时，有以下已知限制：</span><span class="sxs-lookup"><span data-stu-id="4bae4-123">The following are known limitations when you use Lync 2013 in a VDI environment:</span></span>
 
-  - <span data-ttu-id="d4eb2-123">对呼叫委派和响应组代理 Anonymization 功能的支持有限。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-123">There is limited support for Call Delegation and Response Group Agent Anonymization features.</span></span>
+  - <span data-ttu-id="4bae4-124">对呼叫委派和响应组代理 Anonymization 功能的支持有限。</span><span class="sxs-lookup"><span data-stu-id="4bae4-124">There is limited support for Call Delegation and Response Group Agent Anonymization features.</span></span>
 
-  - <span data-ttu-id="d4eb2-124">不支持以下功能：</span><span class="sxs-lookup"><span data-stu-id="d4eb2-124">There is no support for the following features:</span></span>
+  - <span data-ttu-id="4bae4-125">不支持以下功能：</span><span class="sxs-lookup"><span data-stu-id="4bae4-125">There is no support for the following features:</span></span>
     
-      - <span data-ttu-id="d4eb2-125">集成音频设备和视频设备优化页。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-125">Integrated Audio Device and Video Device tuning pages.</span></span>
+      - <span data-ttu-id="4bae4-126">集成音频设备和视频设备优化页。</span><span class="sxs-lookup"><span data-stu-id="4bae4-126">Integrated Audio Device and Video Device tuning pages.</span></span>
     
-      - <span data-ttu-id="d4eb2-126">多视图视频。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-126">Multiple-view video.</span></span>
+      - <span data-ttu-id="4bae4-127">多视图视频。</span><span class="sxs-lookup"><span data-stu-id="4bae4-127">Multiple-view video.</span></span>
     
-      - <span data-ttu-id="d4eb2-127">录制对话。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-127">Recording of conversations.</span></span>
+      - <span data-ttu-id="4bae4-128">录制对话。</span><span class="sxs-lookup"><span data-stu-id="4bae4-128">Recording of conversations.</span></span>
     
-      - <span data-ttu-id="d4eb2-128"> (RDS) 的远程桌面服务。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-128">Remote Desktop Services (RDS).</span></span>
+      - <span data-ttu-id="4bae4-129"> (RDS) 的远程桌面服务。</span><span class="sxs-lookup"><span data-stu-id="4bae4-129">Remote Desktop Services (RDS).</span></span>
     
-      - <span data-ttu-id="d4eb2-129">匿名加入会议 (也就是说，加入由不与您的组织进行联盟的组织托管的 Lync 会议) 。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-129">Joining meetings anonymously (that is, joining Lync meetings hosted by an organization that does not federate with your organization).</span></span>
+      - <span data-ttu-id="4bae4-130">匿名加入会议 (也就是说，加入由不与您的组织进行联盟的组织托管的 Lync 会议) 。</span><span class="sxs-lookup"><span data-stu-id="4bae4-130">Joining meetings anonymously (that is, joining Lync meetings hosted by an organization that does not federate with your organization).</span></span>
     
-      - <span data-ttu-id="d4eb2-130">将 Lync VDI 插件与 Lync Phone Edition 设备结合使用。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-130">Using the Lync VDI plug-in along with a Lync Phone Edition device.</span></span>
+      - <span data-ttu-id="4bae4-131">将 Lync VDI 插件与 Lync Phone Edition 设备结合使用。</span><span class="sxs-lookup"><span data-stu-id="4bae4-131">Using the Lync VDI plug-in along with a Lync Phone Edition device.</span></span>
     
-      - <span data-ttu-id="d4eb2-131">发生网络中断时的呼叫连续性。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-131">Call continuity in case of a network outage.</span></span>
+      - <span data-ttu-id="4bae4-132">发生网络中断时的呼叫连续性。</span><span class="sxs-lookup"><span data-stu-id="4bae4-132">Call continuity in case of a network outage.</span></span>
     
-      - <span data-ttu-id="d4eb2-132">自定义铃声和保持音乐功能。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-132">Customized ringtones and music-on-hold features.</span></span>
+      - <span data-ttu-id="4bae4-133">自定义铃声和保持音乐功能。</span><span class="sxs-lookup"><span data-stu-id="4bae4-133">Customized ringtones and music-on-hold features.</span></span>
 
-  - <span data-ttu-id="d4eb2-133">Microsoft 365 或 Office 365 环境中不支持 Lync VDI 插件。</span><span class="sxs-lookup"><span data-stu-id="d4eb2-133">The Lync VDI plug-in is not supported in a Microsoft 365 or Office 365 environment.</span></span>
+  - <span data-ttu-id="4bae4-134">Microsoft 365 或 Office 365 环境中不支持 Lync VDI 插件。</span><span class="sxs-lookup"><span data-stu-id="4bae4-134">The Lync VDI plug-in is not supported in a Microsoft 365 or Office 365 environment.</span></span>
 
 </div>
 
