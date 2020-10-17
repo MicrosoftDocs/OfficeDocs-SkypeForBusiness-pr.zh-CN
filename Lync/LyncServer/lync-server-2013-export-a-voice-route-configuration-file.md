@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：导出语音路由配置文件
+description: Lync Server 2013：导出语音路由配置文件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca000e2ba0c1802d8ec97a2a9c2f361f2c0a1b68
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 30bf342e11be41015df3cfd76f6a875381cb8b64
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528379"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564788"
 ---
 # <a name="export-a-voice-route-configuration-file-in-lync-server-2013"></a>在 Lync Server 2013 中导出语音路由配置文件
 

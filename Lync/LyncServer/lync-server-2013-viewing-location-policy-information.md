@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：查看位置策略信息
+description: Lync Server 2013：查看位置策略信息。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b5c4b512acc3541b933f583ad69e3f730dc14f9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2fecc5de5fb71014a1641038e9e09afba0e90cdb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523509"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565418"
 ---
 # <a name="viewing-location-policy-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看位置策略信息
 

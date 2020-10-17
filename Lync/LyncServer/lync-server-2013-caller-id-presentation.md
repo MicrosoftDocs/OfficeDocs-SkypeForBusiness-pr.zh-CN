@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：呼叫者 ID 演示
+description: Lync Server 2013：呼叫者 ID 演示。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24ca692dcfa4b2281fcb324c0f5fef5584b5a24e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 651c9c8da8b6a1ed13669255008ca639a90e1806
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508159"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565188"
 ---
 # <a name="caller-id-presentation-in-lync-server-2013"></a>Lync Server 2013 中的呼叫者 ID 演示
 

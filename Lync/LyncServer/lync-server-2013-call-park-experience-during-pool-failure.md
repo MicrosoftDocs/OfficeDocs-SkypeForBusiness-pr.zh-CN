@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：池故障期间的呼叫寄存体验
+description: Lync Server 2013：在池故障期间呼叫寄存体验。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 605900501a141c053459c690292b1e0a10c8abbc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b97a0af13d378b0753979c32b6d5ffe7a525cf0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508249"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565268"
 ---
 # <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a>池故障期间 Lync Server 2013 中的呼叫寄存体验
 

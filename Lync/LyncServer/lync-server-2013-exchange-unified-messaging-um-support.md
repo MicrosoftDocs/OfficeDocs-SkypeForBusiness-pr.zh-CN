@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： Exchange 统一消息 (UM) 支持
+description: Lync Server 2013： Exchange 统一消息 (UM) 支持。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183405
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac42e46bf92e7fa170ee3dff059edc1b5871aafd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 563517bb72167bbab0b08eba3b1359ae3ab52836
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533119"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564798"
 ---
 # <a name="exchange-unified-messaging-um-support-in-lync-server-2013"></a>Lync Server 2013 中的 Exchange 统一消息 (UM) 支持
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：容量和可用性管理
+description: Lync Server 2013：容量和可用性管理。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969586
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efef66bcac833bb67c67dc453c25f3e0f6d51ba1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d498649651f8cfbccc65f5b1b5f010025ac418e7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512849"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565148"
 ---
 # <a name="capacity-and-availability-management-in-lync-server-2013"></a>Lync Server 2013 中的容量和可用性管理
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： VoIPDetails 视图
+description: Lync Server 2013： VoIPDetails 视图。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dc01632579c6455c47113f34e181f6598b7c781
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5ecd34be0c8568eef29d773f088e8503a8065743
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535379"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566198"
 ---
 # <a name="voipdetails-view-in-lync-server-2013"></a>Lync Server 2013 中的 VoIPDetails 视图
 

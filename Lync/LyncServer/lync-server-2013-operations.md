@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：操作
+description: Lync Server 2013：操作。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184155
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22f1a758ef3dc717653b376422a32ab15f725d08
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: afdc4b5738ed238e59f24f9f0bac084ff9db7f34
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524519"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565798"
 ---
 # <a name="operations-in-lync-server-2013"></a>Lync Server 2013 中的操作
 

@@ -1,5 +1,6 @@
 ---
 title: 简介
+description: 简介.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541414
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f217ec7d39134dcb8d6000de33b3d0c17aeb033d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8eb847c499bde077ccaf2aa050de801ceeedcc6f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527149"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565278"
 ---
 # <a name="introduction"></a>介绍
 

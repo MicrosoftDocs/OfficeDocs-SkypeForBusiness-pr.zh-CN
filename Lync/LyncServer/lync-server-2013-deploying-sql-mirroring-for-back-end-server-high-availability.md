@@ -1,5 +1,6 @@
 ---
 title: 部署 SQL 镜像以实现后端服务器高可用性
+description: 部署 SQL 镜像以实现后端服务器高可用性。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 085b7c10416fddefa8b869bbb617160f03b1e89a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4a2ab2d598249c12231668a888b442f830c5d65f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522939"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565998"
 ---
 # <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SQL 镜像以实现后端服务器高可用性
 

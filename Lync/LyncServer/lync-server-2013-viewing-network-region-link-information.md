@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：查看网络区域链接信息
+description: Lync Server 2013：查看网络区域链接信息。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d69040594a04d71f07d004826e4207c0b23612f6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0134ded9942ebda91050c1f7b0bbcfef018451a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535689"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565358"
 ---
 # <a name="viewing-network-region-link-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看网络区域链接信息
 

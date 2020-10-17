@@ -1,5 +1,6 @@
 ---
 title: 第6阶段：将用户移动到引导池
+description: 第6阶段：将用户移动到引导池。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b07d568c7aaabba77c9a66a0db3264a96657839
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e8928e142be50398c47b4e9c3d1f92008846137b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518179"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566168"
 ---
 # <a name="phase-6-move-users-to-the-pilot-pool"></a>第6阶段：将用户移动到引导池
 
@@ -45,11 +46,11 @@ _**上次修改的主题：** 2012-10-16_
 
 ## <a name="in-this-section"></a>本部分内容
 
-  - [确认用户复制已完成](verify-user-replication-has-completed_1.md)
+  - [确认用户复制已完成](verify-user-replication-has-completed.md)
 
-  - [将单个用户移动到引导池](move-a-single-user-to-the-pilot-pool_1.md)
+  - [将单个用户移动到引导池](move-a-single-user-to-the-pilot-pool.md)
 
-  - [将多个用户移动到引导池](move-multiple-users-to-the-pilot-pool_1.md)
+  - [将多个用户移动到引导池](move-multiple-users-to-the-pilot-pool.md)
 
 </div>
 
