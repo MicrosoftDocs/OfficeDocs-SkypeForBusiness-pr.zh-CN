@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为远程呼叫控制配置静态路由
+description: Lync Server 2013：为远程呼叫控制配置静态路由。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d773658b17d846409e303c23204f86ea1f0fce77
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8ecf6478d4fb7ab4f04f8a452d4837b327ba254a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507669"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551688"
 ---
-# <a name="configure-a-static-route-for-remote-call-control-in-lync-server-2013"></a><span data-ttu-id="cacb9-102">在 Lync Server 2013 中为远程呼叫控制配置静态路由</span><span class="sxs-lookup"><span data-stu-id="cacb9-102">Configure a static route for remote call control in Lync Server 2013</span></span>
+# <a name="configure-a-static-route-for-remote-call-control-in-lync-server-2013"></a><span data-ttu-id="aa29b-103">在 Lync Server 2013 中为远程呼叫控制配置静态路由</span><span class="sxs-lookup"><span data-stu-id="aa29b-103">Configure a static route for remote call control in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,49 +38,49 @@ ms.locfileid: "48507669"
 
 <span> </span>
 
-<span data-ttu-id="cacb9-103">_**上次修改的主题：** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="cacb9-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="aa29b-104">_**上次修改的主题：** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="aa29b-104">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="cacb9-104">远程呼叫控制要求将每个 Lync Server 池配置为将来自该池的路径配置为连接到专用分支 exchange (PBX) 的 SIP/CSTA 网关。</span><span class="sxs-lookup"><span data-stu-id="cacb9-104">Remote call control requires that every Lync Server pool is configured with a path from that pool to the SIP/CSTA gateway that connects to the private branch exchange (PBX).</span></span> <span data-ttu-id="cacb9-105">该路径要求每个池中的每个网关都具有一个静态路由，池会将与对 PBX 的呼叫相关联的 SIP 呼叫控制消息代理到该路由。</span><span class="sxs-lookup"><span data-stu-id="cacb9-105">This path requires that each pool has one static route for each gateway to which the pool will proxy SIP call control messages associated with calls to the PBX.</span></span> <span data-ttu-id="cacb9-106">如果为远程呼叫控制配置全局静态路由，则每个未在池级别配置静态路由的池都会使用该全局静态路由。</span><span class="sxs-lookup"><span data-stu-id="cacb9-106">If you configure a global static route for remote call control, each pool that is not configured with a static route at the pool level will use the global static route.</span></span>
+<span data-ttu-id="aa29b-105">远程呼叫控制要求将每个 Lync Server 池配置为将来自该池的路径配置为连接到专用分支 exchange (PBX) 的 SIP/CSTA 网关。</span><span class="sxs-lookup"><span data-stu-id="aa29b-105">Remote call control requires that every Lync Server pool is configured with a path from that pool to the SIP/CSTA gateway that connects to the private branch exchange (PBX).</span></span> <span data-ttu-id="aa29b-106">该路径要求每个池中的每个网关都具有一个静态路由，池会将与对 PBX 的呼叫相关联的 SIP 呼叫控制消息代理到该路由。</span><span class="sxs-lookup"><span data-stu-id="aa29b-106">This path requires that each pool has one static route for each gateway to which the pool will proxy SIP call control messages associated with calls to the PBX.</span></span> <span data-ttu-id="aa29b-107">如果为远程呼叫控制配置全局静态路由，则每个未在池级别配置静态路由的池都会使用该全局静态路由。</span><span class="sxs-lookup"><span data-stu-id="aa29b-107">If you configure a global static route for remote call control, each pool that is not configured with a static route at the pool level will use the global static route.</span></span>
 
 <div>
 
-## <a name="to-configure-a-static-route-for-remote-call-control"></a><span data-ttu-id="cacb9-107">为远程呼叫控制配置静态路由</span><span class="sxs-lookup"><span data-stu-id="cacb9-107">To configure a static route for remote call control</span></span>
+## <a name="to-configure-a-static-route-for-remote-call-control"></a><span data-ttu-id="aa29b-108">为远程呼叫控制配置静态路由</span><span class="sxs-lookup"><span data-stu-id="aa29b-108">To configure a static route for remote call control</span></span>
 
-1.  <span data-ttu-id="cacb9-108">登录到安装了 Lync Server 命令行管理程序的计算机上，或者将其作为 RTCUniversalServerAdmins 组的成员或基于角色的访问控制 (RBAC) role，该角色已向其分配了 **CsStaticRoute** cmdlet。</span><span class="sxs-lookup"><span data-stu-id="cacb9-108">Log on to a computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or a role-based access control (RBAC) role to which you have assigned the **New-CsStaticRoute** cmdlet.</span></span>
+1.  <span data-ttu-id="aa29b-109">登录到安装了 Lync Server 命令行管理程序的计算机上，或者将其作为 RTCUniversalServerAdmins 组的成员或基于角色的访问控制 (RBAC) role，该角色已向其分配了 **CsStaticRoute** cmdlet。</span><span class="sxs-lookup"><span data-stu-id="aa29b-109">Log on to a computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or a role-based access control (RBAC) role to which you have assigned the **New-CsStaticRoute** cmdlet.</span></span>
 
-2.  <span data-ttu-id="cacb9-109">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="cacb9-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="aa29b-110">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="aa29b-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="cacb9-110">要创建静态路由，并将其置于变量 $TLSRoute 或 $TCPRoute 中，请执行以下操作之一：</span><span class="sxs-lookup"><span data-stu-id="cacb9-110">To create a static route and put it in the variable $TLSRoute or $TCPRoute, do one of the following:</span></span>
+3.  <span data-ttu-id="aa29b-111">要创建静态路由，并将其置于变量 $TLSRoute 或 $TCPRoute 中，请执行以下操作之一：</span><span class="sxs-lookup"><span data-stu-id="aa29b-111">To create a static route and put it in the variable $TLSRoute or $TCPRoute, do one of the following:</span></span>
     
     <div class="">
     
 
     > [!TIP]  
-    > <span data-ttu-id="cacb9-p102">要匹配某个域的子域，可在 MatchUri 参数中指定通配符值。例如，<STRONG>\*.contoso.net</STRONG>。该值与以后缀 <STRONG>contoso.net</STRONG> 结尾的任何域匹配。</span><span class="sxs-lookup"><span data-stu-id="cacb9-p102">To match child domains of a domain, you can specify a wildcard value in the MatchUri parameter. For example, <STRONG>\*.contoso.net</STRONG>. That value matches any domain that ends with the suffix <STRONG>contoso.net</STRONG>.</span></span>
+    > <span data-ttu-id="aa29b-p102">要匹配某个域的子域，可在 MatchUri 参数中指定通配符值。例如，<STRONG>\*.contoso.net</STRONG>。该值与以后缀 <STRONG>contoso.net</STRONG> 结尾的任何域匹配。</span><span class="sxs-lookup"><span data-stu-id="aa29b-p102">To match child domains of a domain, you can specify a wildcard value in the MatchUri parameter. For example, <STRONG>\*.contoso.net</STRONG>. That value matches any domain that ends with the suffix <STRONG>contoso.net</STRONG>.</span></span>
 
     
     </div>
     
-      - <span data-ttu-id="cacb9-114">对于传输层安全性 (TLS) 连接，请在命令提示符处键入以下内容：</span><span class="sxs-lookup"><span data-stu-id="cacb9-114">For a Transport Layer Security (TLS) connection, type the following at the command prompt:</span></span>
+      - <span data-ttu-id="aa29b-115">对于传输层安全性 (TLS) 连接，请在命令提示符处键入以下内容：</span><span class="sxs-lookup"><span data-stu-id="aa29b-115">For a Transport Layer Security (TLS) connection, type the following at the command prompt:</span></span>
         
         ```powershell
         $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
         ```
-        <span data-ttu-id="cacb9-115">例如：</span><span class="sxs-lookup"><span data-stu-id="cacb9-115">For example:</span></span>
+        <span data-ttu-id="aa29b-116">例如：</span><span class="sxs-lookup"><span data-stu-id="aa29b-116">For example:</span></span>
         ```powershell
         $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
         ```
-        <span data-ttu-id="cacb9-116">如果 UseDefaultCertificate 设置为 False，则必须指定 TLSCertIssuer 和 TLSCertSerialNumber 参数。</span><span class="sxs-lookup"><span data-stu-id="cacb9-116">If UseDefaultCertificate is set to False, you must specify TLSCertIssuer and TLSCertSerialNumber parameters.</span></span> <span data-ttu-id="cacb9-117">这些参数分别指示发布静态路由中使用的证书的证书颁发机构 (CA) 名称和 TLS 证书的序列号。</span><span class="sxs-lookup"><span data-stu-id="cacb9-117">These parameters indicate the name of the certification authority (CA) that issued the certificate used in the static route, and the serial number of that TLS certificate, respectively.</span></span> <span data-ttu-id="cacb9-118">有关这些参数的详细信息，请在命令提示符处键入以下内容，以查看 Lync Server 命令行管理程序帮助：</span><span class="sxs-lookup"><span data-stu-id="cacb9-118">For details about these parameters, see Lync Server Management Shell Help by typing the following at the command prompt:</span></span>
+        <span data-ttu-id="aa29b-117">如果 UseDefaultCertificate 设置为 False，则必须指定 TLSCertIssuer 和 TLSCertSerialNumber 参数。</span><span class="sxs-lookup"><span data-stu-id="aa29b-117">If UseDefaultCertificate is set to False, you must specify TLSCertIssuer and TLSCertSerialNumber parameters.</span></span> <span data-ttu-id="aa29b-118">这些参数分别指示发布静态路由中使用的证书的证书颁发机构 (CA) 名称和 TLS 证书的序列号。</span><span class="sxs-lookup"><span data-stu-id="aa29b-118">These parameters indicate the name of the certification authority (CA) that issued the certificate used in the static route, and the serial number of that TLS certificate, respectively.</span></span> <span data-ttu-id="aa29b-119">有关这些参数的详细信息，请在命令提示符处键入以下内容，以查看 Lync Server 命令行管理程序帮助：</span><span class="sxs-lookup"><span data-stu-id="aa29b-119">For details about these parameters, see Lync Server Management Shell Help by typing the following at the command prompt:</span></span>
         ```powershell
         Get-Help New-CsStaticRoute -Full
         ```
-      - <span data-ttu-id="cacb9-119">对于传输控制协议 (TCP) 连接，请在命令提示符处键入以下内容：</span><span class="sxs-lookup"><span data-stu-id="cacb9-119">For a Transmission Control Protocol (TCP) connection, type the following at the command prompt:</span></span>
+      - <span data-ttu-id="aa29b-120">对于传输控制协议 (TCP) 连接，请在命令提示符处键入以下内容：</span><span class="sxs-lookup"><span data-stu-id="aa29b-120">For a Transmission Control Protocol (TCP) connection, type the following at the command prompt:</span></span>
         
         <div class="">
         
 
         > [!NOTE]  
-        > <span data-ttu-id="cacb9-120">如果指定完全限定域名 (FQDN)，则必须首先配置域名系统 (DNS) A 记录。</span><span class="sxs-lookup"><span data-stu-id="cacb9-120">If you specify a fully qualified domain name (FQDN), you must configure a Domain Name System (DNS) A record first.</span></span>
+        > <span data-ttu-id="aa29b-121">如果指定完全限定域名 (FQDN)，则必须首先配置域名系统 (DNS) A 记录。</span><span class="sxs-lookup"><span data-stu-id="aa29b-121">If you specify a fully qualified domain name (FQDN), you must configure a Domain Name System (DNS) A record first.</span></span>
 
         
         </div>
@@ -87,23 +88,23 @@ ms.locfileid: "48507669"
         ```powershell
         $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
         ```
-        <span data-ttu-id="cacb9-121">例如：</span><span class="sxs-lookup"><span data-stu-id="cacb9-121">For example:</span></span>
+        <span data-ttu-id="aa29b-122">例如：</span><span class="sxs-lookup"><span data-stu-id="aa29b-122">For example:</span></span>
         ```powershell
         $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
         ```
-        <span data-ttu-id="cacb9-122">以下是静态路由可选参数的默认值：</span><span class="sxs-lookup"><span data-stu-id="cacb9-122">The following are default values for optional parameters for static routes:</span></span>
+        <span data-ttu-id="aa29b-123">以下是静态路由可选参数的默认值：</span><span class="sxs-lookup"><span data-stu-id="aa29b-123">The following are default values for optional parameters for static routes:</span></span>
         
-          - <span data-ttu-id="cacb9-123">Enabled = True</span><span class="sxs-lookup"><span data-stu-id="cacb9-123">Enabled = True</span></span>
+          - <span data-ttu-id="aa29b-124">Enabled = True</span><span class="sxs-lookup"><span data-stu-id="aa29b-124">Enabled = True</span></span>
         
-          - <span data-ttu-id="cacb9-124">MatchOnlyPhoneUri = False</span><span class="sxs-lookup"><span data-stu-id="cacb9-124">MatchOnlyPhoneUri = False</span></span>
+          - <span data-ttu-id="aa29b-125">MatchOnlyPhoneUri = False</span><span class="sxs-lookup"><span data-stu-id="aa29b-125">MatchOnlyPhoneUri = False</span></span>
         
-          - <span data-ttu-id="cacb9-125">ReplaceHostInRequestUri = False</span><span class="sxs-lookup"><span data-stu-id="cacb9-125">ReplaceHostInRequestUri = False</span></span>
+          - <span data-ttu-id="aa29b-126">ReplaceHostInRequestUri = False</span><span class="sxs-lookup"><span data-stu-id="aa29b-126">ReplaceHostInRequestUri = False</span></span>
         
-        <span data-ttu-id="cacb9-126">强烈建议不要更改这些默认值。</span><span class="sxs-lookup"><span data-stu-id="cacb9-126">We strongly recommend that you do not change these default values.</span></span> <span data-ttu-id="cacb9-127">但是，如果您必须更改这些参数中的任何参数，请在命令提示符处键入以下内容，以查看 Lync Server Management Shell 帮助：</span><span class="sxs-lookup"><span data-stu-id="cacb9-127">However, if you must change any of these parameters, see Lync Server Management Shell Help by typing the following at the command prompt:</span></span>
+        <span data-ttu-id="aa29b-127">强烈建议不要更改这些默认值。</span><span class="sxs-lookup"><span data-stu-id="aa29b-127">We strongly recommend that you do not change these default values.</span></span> <span data-ttu-id="aa29b-128">但是，如果您必须更改这些参数中的任何参数，请在命令提示符处键入以下内容，以查看 Lync Server Management Shell 帮助：</span><span class="sxs-lookup"><span data-stu-id="aa29b-128">However, if you must change any of these parameters, see Lync Server Management Shell Help by typing the following at the command prompt:</span></span>
         ```powershell
         Get-Help New-CsStaticRoute -Full
         ```
-4.  <span data-ttu-id="cacb9-128">若要在中央管理存储中保存新创建的静态路由，请根据需要运行以下任一命令：</span><span class="sxs-lookup"><span data-stu-id="cacb9-128">To persist a newly created static route in the Central Management store, run one of the following, as appropriate:</span></span>
+4.  <span data-ttu-id="aa29b-129">若要在中央管理存储中保存新创建的静态路由，请根据需要运行以下任一命令：</span><span class="sxs-lookup"><span data-stu-id="aa29b-129">To persist a newly created static route in the Central Management store, run one of the following, as appropriate:</span></span>
     
        ```powershell
         Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
@@ -117,11 +118,11 @@ ms.locfileid: "48507669"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cacb9-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cacb9-129">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aa29b-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="aa29b-130">See Also</span></span>
 
 
-[<span data-ttu-id="cacb9-130">在 Lync Server 2013 中为远程呼叫控制配置受信任的应用程序条目</span><span class="sxs-lookup"><span data-stu-id="cacb9-130">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
-[<span data-ttu-id="cacb9-131">在 Lync Server 2013 中定义 SIP/CSTA 网关 IP 地址</span><span class="sxs-lookup"><span data-stu-id="cacb9-131">Define a SIP/CSTA gateway IP address in Lync Server 2013</span></span>](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
+[<span data-ttu-id="aa29b-131">在 Lync Server 2013 中为远程呼叫控制配置受信任的应用程序条目</span><span class="sxs-lookup"><span data-stu-id="aa29b-131">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+[<span data-ttu-id="aa29b-132">在 Lync Server 2013 中定义 SIP/CSTA 网关 IP 地址</span><span class="sxs-lookup"><span data-stu-id="aa29b-132">Define a SIP/CSTA gateway IP address in Lync Server 2013</span></span>](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
   
 
 </div>

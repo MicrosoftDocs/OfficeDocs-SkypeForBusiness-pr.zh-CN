@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：分支站点恢复功能
+description: Lync Server 2013：分支站点恢复功能。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8f141b592fb5a89941d5b6e2b3e1e5c9d770fdc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a498751ce99d0e8e85d6cbe53915c864e64440bd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513009"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552198"
 ---
-# <a name="branch-site-resiliency-features-in-lync-server-2013"></a><span data-ttu-id="96e9e-102">Lync Server 2013 中的分支站点恢复功能</span><span class="sxs-lookup"><span data-stu-id="96e9e-102">Branch-site resiliency features in Lync Server 2013</span></span>
+# <a name="branch-site-resiliency-features-in-lync-server-2013"></a><span data-ttu-id="e9d21-103">Lync Server 2013 中的分支站点恢复功能</span><span class="sxs-lookup"><span data-stu-id="e9d21-103">Branch-site resiliency features in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,52 +38,52 @@ ms.locfileid: "48513009"
 
 <span> </span>
 
-<span data-ttu-id="96e9e-103">_**上次修改的主题：** 2014-02-10_</span><span class="sxs-lookup"><span data-stu-id="96e9e-103">_**Topic Last Modified:** 2014-02-10_</span></span>
+<span data-ttu-id="e9d21-104">_**上次修改的主题：** 2014-02-10_</span><span class="sxs-lookup"><span data-stu-id="e9d21-104">_**Topic Last Modified:** 2014-02-10_</span></span>
 
-<span data-ttu-id="96e9e-104">如果提供分支站点恢复能力，当分支站点到中央站点的 WAN 连接出现故障，或者当中央站点无法访问时，以下语音功能应该仍然可用：</span><span class="sxs-lookup"><span data-stu-id="96e9e-104">If you provide branch-site resiliency, if a branch site’s WAN connection to a central site fails or if the central site is unreachable, the following voice features should continue to be available:</span></span>
+<span data-ttu-id="e9d21-105">如果提供分支站点恢复能力，当分支站点到中央站点的 WAN 连接出现故障，或者当中央站点无法访问时，以下语音功能应该仍然可用：</span><span class="sxs-lookup"><span data-stu-id="e9d21-105">If you provide branch-site resiliency, if a branch site’s WAN connection to a central site fails or if the central site is unreachable, the following voice features should continue to be available:</span></span>
 
 <div>
 
 
-  - <span data-ttu-id="96e9e-105">入站和出站公用电话交换网 (PSTN) 呼叫</span><span class="sxs-lookup"><span data-stu-id="96e9e-105">Inbound and outbound public switched telephone network (PSTN) calls</span></span>
+  - <span data-ttu-id="e9d21-106">入站和出站公用电话交换网 (PSTN) 呼叫</span><span class="sxs-lookup"><span data-stu-id="e9d21-106">Inbound and outbound public switched telephone network (PSTN) calls</span></span>
 
-  - <span data-ttu-id="96e9e-106">同一站点的用户间和两个不同站点的用户间的企业呼叫</span><span class="sxs-lookup"><span data-stu-id="96e9e-106">Enterprise calls between users at both the same site and between two different sites</span></span>
+  - <span data-ttu-id="e9d21-107">同一站点的用户间和两个不同站点的用户间的企业呼叫</span><span class="sxs-lookup"><span data-stu-id="e9d21-107">Enterprise calls between users at both the same site and between two different sites</span></span>
 
-  - <span data-ttu-id="96e9e-107">基本呼叫处理功能（包括呼叫保持、取回和转接）</span><span class="sxs-lookup"><span data-stu-id="96e9e-107">Basic call handling, including call hold, retrieval, and transfer</span></span>
+  - <span data-ttu-id="e9d21-108">基本呼叫处理功能（包括呼叫保持、取回和转接）</span><span class="sxs-lookup"><span data-stu-id="e9d21-108">Basic call handling, including call hold, retrieval, and transfer</span></span>
 
-  - <span data-ttu-id="96e9e-108">双方即时消息</span><span class="sxs-lookup"><span data-stu-id="96e9e-108">Two-party instant messaging</span></span>
+  - <span data-ttu-id="e9d21-109">双方即时消息</span><span class="sxs-lookup"><span data-stu-id="e9d21-109">Two-party instant messaging</span></span>
 
-  - <span data-ttu-id="96e9e-109">呼叫转接、终结点同时响铃、呼叫委派和团队呼叫服务，但前提是在同一站点配置代理程序和代理人（例如，经理和经理的管理员）或所有团队成员</span><span class="sxs-lookup"><span data-stu-id="96e9e-109">Call forwarding, simultaneous ringing of endpoints, call delegation, and team call services, but only if the delegator and delegate (for example, a manager and the manager’s administrator), or all team members, are configured at the same site</span></span>
+  - <span data-ttu-id="e9d21-110">呼叫转接、终结点同时响铃、呼叫委派和团队呼叫服务，但前提是在同一站点配置代理程序和代理人（例如，经理和经理的管理员）或所有团队成员</span><span class="sxs-lookup"><span data-stu-id="e9d21-110">Call forwarding, simultaneous ringing of endpoints, call delegation, and team call services, but only if the delegator and delegate (for example, a manager and the manager’s administrator), or all team members, are configured at the same site</span></span>
 
-  - <span data-ttu-id="96e9e-110">呼叫详细信息记录 (CDR)</span><span class="sxs-lookup"><span data-stu-id="96e9e-110">Call detail records (CDRs)</span></span>
+  - <span data-ttu-id="e9d21-111">呼叫详细信息记录 (CDR)</span><span class="sxs-lookup"><span data-stu-id="e9d21-111">Call detail records (CDRs)</span></span>
 
-  - <span data-ttu-id="96e9e-111">使用会议自动助理的 PSTN 电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="96e9e-111">PSTN dial-in conferencing with Conferencing Auto-Attendant</span></span>
+  - <span data-ttu-id="e9d21-112">使用会议自动助理的 PSTN 电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="e9d21-112">PSTN dial-in conferencing with Conferencing Auto-Attendant</span></span>
 
-  - <span data-ttu-id="96e9e-112">语音邮件功能（如果配置了语音邮件重新路由设置）。</span><span class="sxs-lookup"><span data-stu-id="96e9e-112">Voice mail capabilities, if you configure voice mail rerouting settings.</span></span> <span data-ttu-id="96e9e-113">有关详细信息，请参阅 [Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md) (。 ) </span><span class="sxs-lookup"><span data-stu-id="96e9e-113">(For details, see [Branch-site resiliency requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).)</span></span>
+  - <span data-ttu-id="e9d21-113">语音邮件功能（如果配置了语音邮件重新路由设置）。</span><span class="sxs-lookup"><span data-stu-id="e9d21-113">Voice mail capabilities, if you configure voice mail rerouting settings.</span></span> <span data-ttu-id="e9d21-114">有关详细信息，请参阅 [Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md) (。 ) </span><span class="sxs-lookup"><span data-stu-id="e9d21-114">(For details, see [Branch-site resiliency requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).)</span></span>
 
-  - <span data-ttu-id="96e9e-114">用户身份验证和授权</span><span class="sxs-lookup"><span data-stu-id="96e9e-114">User authentication and authorization</span></span>
+  - <span data-ttu-id="e9d21-115">用户身份验证和授权</span><span class="sxs-lookup"><span data-stu-id="e9d21-115">User authentication and authorization</span></span>
 
-<span data-ttu-id="96e9e-115">仅当您的恢复解决方案是分支站点的完全规模的 Lync 服务器部署时，以下功能才可用：</span><span class="sxs-lookup"><span data-stu-id="96e9e-115">The following features will be available only if your resiliency solution is a full-scale Lync Server deployment at the branch site:</span></span>
+<span data-ttu-id="e9d21-116">仅当您的恢复解决方案是分支站点的完全规模的 Lync 服务器部署时，以下功能才可用：</span><span class="sxs-lookup"><span data-stu-id="e9d21-116">The following features will be available only if your resiliency solution is a full-scale Lync Server deployment at the branch site:</span></span>
 
-  - <span data-ttu-id="96e9e-116">IM、Web 会议和 A/V 会议</span><span class="sxs-lookup"><span data-stu-id="96e9e-116">IM, web, and A/V conferencing</span></span>
+  - <span data-ttu-id="e9d21-117">IM、Web 会议和 A/V 会议</span><span class="sxs-lookup"><span data-stu-id="e9d21-117">IM, web, and A/V conferencing</span></span>
 
-  - <span data-ttu-id="96e9e-117">基于状态和请勿打扰 (DND) 的路由（其中将阻止呼叫在已激活 DND 的分机上响铃）</span><span class="sxs-lookup"><span data-stu-id="96e9e-117">Presence and Do Not Disturb (DND)-based routing (where calls are prevented from ringing on extensions that have DND activated)</span></span>
+  - <span data-ttu-id="e9d21-118">基于状态和请勿打扰 (DND) 的路由（其中将阻止呼叫在已激活 DND 的分机上响铃）</span><span class="sxs-lookup"><span data-stu-id="e9d21-118">Presence and Do Not Disturb (DND)-based routing (where calls are prevented from ringing on extensions that have DND activated)</span></span>
 
-  - <span data-ttu-id="96e9e-118">更新呼叫转接设置</span><span class="sxs-lookup"><span data-stu-id="96e9e-118">Updating call forwarding settings</span></span>
+  - <span data-ttu-id="e9d21-119">更新呼叫转接设置</span><span class="sxs-lookup"><span data-stu-id="e9d21-119">Updating call forwarding settings</span></span>
 
-  - <span data-ttu-id="96e9e-119">响应组应用程序和呼叫寄存应用程序</span><span class="sxs-lookup"><span data-stu-id="96e9e-119">Response Group application and Call Park application</span></span>
+  - <span data-ttu-id="e9d21-120">响应组应用程序和呼叫寄存应用程序</span><span class="sxs-lookup"><span data-stu-id="e9d21-120">Response Group application and Call Park application</span></span>
 
-  - <span data-ttu-id="96e9e-120">设置新的电话和客户端，但仅在分支站点上存在 Active Directory 域服务时。</span><span class="sxs-lookup"><span data-stu-id="96e9e-120">Provisioning new phones and clients, but only if Active Directory Domain Services is present at the branch site.</span></span>
+  - <span data-ttu-id="e9d21-121">设置新的电话和客户端，但仅在分支站点上存在 Active Directory 域服务时。</span><span class="sxs-lookup"><span data-stu-id="e9d21-121">Provisioning new phones and clients, but only if Active Directory Domain Services is present at the branch site.</span></span>
 
-  - <span data-ttu-id="96e9e-121">增强型 9-1-1 (E9-1-1)</span><span class="sxs-lookup"><span data-stu-id="96e9e-121">Enhanced 9-1-1 (E9-1-1)</span></span>
+  - <span data-ttu-id="e9d21-122">增强型 9-1-1 (E9-1-1)</span><span class="sxs-lookup"><span data-stu-id="e9d21-122">Enhanced 9-1-1 (E9-1-1)</span></span>
     
-    <span data-ttu-id="96e9e-122">如果已部署 E9-1-1，并且中心站点上的 SIP 中继因 WAN 链路断开而不可用，则 Survivable 分支设备会将 E9-1-1 呼叫路由到本地分支网关。</span><span class="sxs-lookup"><span data-stu-id="96e9e-122">If E9-1-1 is deployed, and the SIP trunk at the central site is not available because the WAN link is down, then the Survivable Branch Appliance will route E9-1-1 calls to the local branch gateway.</span></span> <span data-ttu-id="96e9e-123">要启用该功能，分支站点用户的语音策略应在 WAN 出现故障时将呼叫路由到本地网关。</span><span class="sxs-lookup"><span data-stu-id="96e9e-123">To enable this feature, the branch-site users’ voice policies should route calls to the local gateway in the event of WAN failure.</span></span>
+    <span data-ttu-id="e9d21-123">如果已部署 E9-1-1，并且中心站点上的 SIP 中继因 WAN 链路断开而不可用，则 Survivable 分支设备会将 E9-1-1 呼叫路由到本地分支网关。</span><span class="sxs-lookup"><span data-stu-id="e9d21-123">If E9-1-1 is deployed, and the SIP trunk at the central site is not available because the WAN link is down, then the Survivable Branch Appliance will route E9-1-1 calls to the local branch gateway.</span></span> <span data-ttu-id="e9d21-124">要启用该功能，分支站点用户的语音策略应在 WAN 出现故障时将呼叫路由到本地网关。</span><span class="sxs-lookup"><span data-stu-id="e9d21-124">To enable this feature, the branch-site users’ voice policies should route calls to the local gateway in the event of WAN failure.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="96e9e-124">XMPP 不支持 SBA (survivable branch office) 。</span><span class="sxs-lookup"><span data-stu-id="96e9e-124">SBA (survivable branch office) is not supported for XMPP.</span></span> <span data-ttu-id="96e9e-125">驻留在 SBA 配置中的用户将无法使用 XMPP 联系人发送即时消息或查看状态。</span><span class="sxs-lookup"><span data-stu-id="96e9e-125">Users homed in a SBA configurations will not be able to send IMs or see Presence with XMPP contacts.</span></span>
+> <span data-ttu-id="e9d21-125">XMPP 不支持 SBA (survivable branch office) 。</span><span class="sxs-lookup"><span data-stu-id="e9d21-125">SBA (survivable branch office) is not supported for XMPP.</span></span> <span data-ttu-id="e9d21-126">驻留在 SBA 配置中的用户将无法使用 XMPP 联系人发送即时消息或查看状态。</span><span class="sxs-lookup"><span data-stu-id="e9d21-126">Users homed in a SBA configurations will not be able to send IMs or see Presence with XMPP contacts.</span></span>
 
 
 

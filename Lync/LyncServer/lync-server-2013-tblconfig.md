@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： tblConfig
+description: Lync Server 2013： tblConfig。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2efbed57d88e7312bc1da3a9da8f8057fd6696a5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8990e0b2c8724a5e90c36e706b92f9985f288772
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509369"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550428"
 ---
-# <a name="tblconfig-in-lync-server-2013"></a><span data-ttu-id="b5d78-102">Lync Server 2013 中的 tblConfig</span><span class="sxs-lookup"><span data-stu-id="b5d78-102">tblConfig in Lync Server 2013</span></span>
+# <a name="tblconfig-in-lync-server-2013"></a><span data-ttu-id="b9eae-103">Lync Server 2013 中的 tblConfig</span><span class="sxs-lookup"><span data-stu-id="b9eae-103">tblConfig in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48509369"
 
 <span> </span>
 
-<span data-ttu-id="b5d78-103">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="b5d78-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="b9eae-104">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="b9eae-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="b5d78-104">tblConfig 在一行中包含一些持久聊天服务器不支持的配置。</span><span class="sxs-lookup"><span data-stu-id="b5d78-104">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
+<span data-ttu-id="b9eae-105">tblConfig 在一行中包含一些持久聊天服务器不支持的配置。</span><span class="sxs-lookup"><span data-stu-id="b9eae-105">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="b5d78-105">列数</span><span class="sxs-lookup"><span data-stu-id="b5d78-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="b9eae-106">列数</span><span class="sxs-lookup"><span data-stu-id="b9eae-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,32 +52,32 @@ ms.locfileid: "48509369"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b5d78-106">列</span><span class="sxs-lookup"><span data-stu-id="b5d78-106">Column</span></span></th>
-<th><span data-ttu-id="b5d78-107">类型</span><span class="sxs-lookup"><span data-stu-id="b5d78-107">Type</span></span></th>
-<th><span data-ttu-id="b5d78-108">说明</span><span class="sxs-lookup"><span data-stu-id="b5d78-108">Description</span></span></th>
+<th><span data-ttu-id="b9eae-107">列</span><span class="sxs-lookup"><span data-stu-id="b9eae-107">Column</span></span></th>
+<th><span data-ttu-id="b9eae-108">类型</span><span class="sxs-lookup"><span data-stu-id="b9eae-108">Type</span></span></th>
+<th><span data-ttu-id="b9eae-109">说明</span><span class="sxs-lookup"><span data-stu-id="b9eae-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b5d78-109">configLabel</span><span class="sxs-lookup"><span data-stu-id="b5d78-109">configLabel</span></span></p></td>
-<td><p><span data-ttu-id="b5d78-110">nvarchar (255)，不为 null</span><span class="sxs-lookup"><span data-stu-id="b5d78-110">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="b5d78-111">包含 &quot; 池。&quot;</span><span class="sxs-lookup"><span data-stu-id="b5d78-111">Contains &quot;pool.&quot;</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-110">configLabel</span><span class="sxs-lookup"><span data-stu-id="b9eae-110">configLabel</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-111">nvarchar (255)，不为 null</span><span class="sxs-lookup"><span data-stu-id="b9eae-111">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-112">包含 &quot; 池。&quot;</span><span class="sxs-lookup"><span data-stu-id="b9eae-112">Contains &quot;pool.&quot;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b5d78-112">configContent</span><span class="sxs-lookup"><span data-stu-id="b5d78-112">configContent</span></span></p></td>
-<td><p><span data-ttu-id="b5d78-113">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="b5d78-113">nvarchar (max)</span></span></p></td>
-<td><p><span data-ttu-id="b5d78-114">配置内容。</span><span class="sxs-lookup"><span data-stu-id="b5d78-114">Configuration content.</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-113">configContent</span><span class="sxs-lookup"><span data-stu-id="b9eae-113">configContent</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-114">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="b9eae-114">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-115">配置内容。</span><span class="sxs-lookup"><span data-stu-id="b9eae-115">Configuration content.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b5d78-115">configPoolID</span><span class="sxs-lookup"><span data-stu-id="b5d78-115">configPoolID</span></span></p></td>
-<td><p><span data-ttu-id="b5d78-116">GUID，不为 null</span><span class="sxs-lookup"><span data-stu-id="b5d78-116">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="b5d78-117">数据库实例的唯一 ID。</span><span class="sxs-lookup"><span data-stu-id="b5d78-117">Unique ID of the database instance.</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-116">configPoolID</span><span class="sxs-lookup"><span data-stu-id="b9eae-116">configPoolID</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-117">GUID，不为 null</span><span class="sxs-lookup"><span data-stu-id="b9eae-117">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-118">数据库实例的唯一 ID。</span><span class="sxs-lookup"><span data-stu-id="b9eae-118">Unique ID of the database instance.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="b5d78-118">键</span><span class="sxs-lookup"><span data-stu-id="b5d78-118">Key</span></span>
+### <a name="key"></a><span data-ttu-id="b9eae-119">键</span><span class="sxs-lookup"><span data-stu-id="b9eae-119">Key</span></span>
 
 <table>
 <colgroup>
@@ -85,14 +86,14 @@ ms.locfileid: "48509369"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b5d78-119">列</span><span class="sxs-lookup"><span data-stu-id="b5d78-119">Column</span></span></th>
-<th><span data-ttu-id="b5d78-120">说明</span><span class="sxs-lookup"><span data-stu-id="b5d78-120">Description</span></span></th>
+<th><span data-ttu-id="b9eae-120">列</span><span class="sxs-lookup"><span data-stu-id="b9eae-120">Column</span></span></th>
+<th><span data-ttu-id="b9eae-121">说明</span><span class="sxs-lookup"><span data-stu-id="b9eae-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b5d78-121">configLabel</span><span class="sxs-lookup"><span data-stu-id="b5d78-121">configLabel</span></span></p></td>
-<td><p><span data-ttu-id="b5d78-122">主键。</span><span class="sxs-lookup"><span data-stu-id="b5d78-122">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-122">configLabel</span><span class="sxs-lookup"><span data-stu-id="b9eae-122">configLabel</span></span></p></td>
+<td><p><span data-ttu-id="b9eae-123">主键。</span><span class="sxs-lookup"><span data-stu-id="b9eae-123">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
