@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为用户禁用企业语音
+description: Lync Server 2013：禁用企业语音的用户。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aaa5058d820fc399d7f6b915407a62fc1031fa99
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4d99916444e2b1c984e251f6e6289d88e31a538a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529039"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568208"
 ---
-# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="aab50-102">在 Lync Server 2013 中禁用用户的企业语音</span><span class="sxs-lookup"><span data-stu-id="aab50-102">Disable a user for Enterprise Voice in Lync Server 2013</span></span>
+# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="bde55-103">在 Lync Server 2013 中禁用用户的企业语音</span><span class="sxs-lookup"><span data-stu-id="bde55-103">Disable a user for Enterprise Voice in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,53 +38,53 @@ ms.locfileid: "48529039"
 
 <span> </span>
 
-<span data-ttu-id="aab50-103">_**上次修改的主题：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="aab50-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="bde55-104">_**上次修改的主题：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="bde55-104">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="aab50-104">使用以下过程可为启用了 Lync Server 2013 的用户帐户禁用企业语音。</span><span class="sxs-lookup"><span data-stu-id="aab50-104">Use the following procedure to disable Enterprise Voice for a user account that is enabled for Lync Server 2013.</span></span>
+<span data-ttu-id="bde55-105">使用以下过程可为启用了 Lync Server 2013 的用户帐户禁用企业语音。</span><span class="sxs-lookup"><span data-stu-id="bde55-105">Use the following procedure to disable Enterprise Voice for a user account that is enabled for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="to-disable-a-user-account-for-enterprise-voice"></a><span data-ttu-id="aab50-105">为企业语音禁用用户帐户</span><span class="sxs-lookup"><span data-stu-id="aab50-105">To disable a user account for Enterprise Voice</span></span>
+## <a name="to-disable-a-user-account-for-enterprise-voice"></a><span data-ttu-id="bde55-106">为企业语音禁用用户帐户</span><span class="sxs-lookup"><span data-stu-id="bde55-106">To disable a user account for Enterprise Voice</span></span>
 
-1.  <span data-ttu-id="aab50-106">使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="aab50-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="bde55-107">使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="bde55-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="aab50-107">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="aab50-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="aab50-108">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="aab50-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="bde55-108">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="bde55-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="bde55-109">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="bde55-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="aab50-109">在左侧导航栏中，单击“用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="aab50-109">In the left navigation bar, click **Users**.</span></span>
+3.  <span data-ttu-id="bde55-110">在左侧导航栏中，单击“用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bde55-110">In the left navigation bar, click **Users**.</span></span>
 
-4.  <span data-ttu-id="aab50-110">在“搜索用户”\*\*\*\* 框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="aab50-110">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to enable, and then click **Find**.</span></span>
+4.  <span data-ttu-id="bde55-111">在“搜索用户”\*\*\*\* 框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bde55-111">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account that you want to enable, and then click **Find**.</span></span>
 
-5.  <span data-ttu-id="aab50-111">在表中，单击要为企业语音启用的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="aab50-111">In the table, click the user account that you want to enable for Enterprise Voice.</span></span>
+5.  <span data-ttu-id="bde55-112">在表中，单击要为企业语音启用的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="bde55-112">In the table, click the user account that you want to enable for Enterprise Voice.</span></span>
 
-6.  <span data-ttu-id="aab50-112">在“编辑”\*\*\*\* 菜单上，单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="aab50-112">On the **Edit** menu, click **Show details**.</span></span>
+6.  <span data-ttu-id="bde55-113">在“编辑”\*\*\*\* 菜单上，单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bde55-113">On the **Edit** menu, click **Show details**.</span></span>
 
-7.  <span data-ttu-id="aab50-113">在“编辑 Lync Server 用户”\*\*\*\* 页的“电话”\*\*\*\* 下，单击“企业语音”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="aab50-113">On the **Edit Lync Server User** page, under **Telephony**, click any option except **Enterprise Voice**.</span></span>
+7.  <span data-ttu-id="bde55-114">在“编辑 Lync Server 用户”\*\*\*\* 页的“电话”\*\*\*\* 下，单击“企业语音”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bde55-114">On the **Edit Lync Server User** page, under **Telephony**, click any option except **Enterprise Voice**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="aab50-114">若要使用 Lync 限制用户进行音频或视频呼叫，请在 " <STRONG>电话服务</STRONG>" 下单击 " <STRONG>音频/视频已禁用</STRONG>"。</span><span class="sxs-lookup"><span data-stu-id="aab50-114">To restrict a user from making audio or video calls by using Lync, under <STRONG>Telephony</STRONG>, click <STRONG>Audio/video disabled</STRONG>.</span></span>
+    > <span data-ttu-id="bde55-115">若要使用 Lync 限制用户进行音频或视频呼叫，请在 " <STRONG>电话服务</STRONG>" 下单击 " <STRONG>音频/视频已禁用</STRONG>"。</span><span class="sxs-lookup"><span data-stu-id="bde55-115">To restrict a user from making audio or video calls by using Lync, under <STRONG>Telephony</STRONG>, click <STRONG>Audio/video disabled</STRONG>.</span></span>
 
     
     </div>
 
-8.  <span data-ttu-id="aab50-115">单击“提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="aab50-115">Click **Commit**.</span></span>
+8.  <span data-ttu-id="bde55-116">单击“提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="bde55-116">Click **Commit**.</span></span>
 
-<span data-ttu-id="aab50-116">用户现在无法使用企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="aab50-116">The user is now unable to use the Enterprise Voice feature.</span></span>
+<span data-ttu-id="bde55-117">用户现在无法使用企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="bde55-117">The user is now unable to use the Enterprise Voice feature.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="aab50-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="aab50-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bde55-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bde55-118">See Also</span></span>
 
 
-[<span data-ttu-id="aab50-118">在 Lync Server 2013 中为用户启用企业语音</span><span class="sxs-lookup"><span data-stu-id="aab50-118">Enable users for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[<span data-ttu-id="bde55-119">在 Lync Server 2013 中为用户启用企业语音</span><span class="sxs-lookup"><span data-stu-id="bde55-119">Enable users for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-enterprise-voice.md)  
 
 
-[<span data-ttu-id="aab50-119">在 Lync Server 2013 中管理用户的企业语音语音</span><span class="sxs-lookup"><span data-stu-id="aab50-119">Managing Enterprise Voice for users in Lync Server 2013</span></span>](lync-server-2013-managing-enterprise-voice-for-users.md)  
-[<span data-ttu-id="aab50-120">Lync Server 2013 命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="aab50-120">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)  
+[<span data-ttu-id="bde55-120">在 Lync Server 2013 中管理用户的企业语音语音</span><span class="sxs-lookup"><span data-stu-id="bde55-120">Managing Enterprise Voice for users in Lync Server 2013</span></span>](lync-server-2013-managing-enterprise-voice-for-users.md)  
+[<span data-ttu-id="bde55-121">Lync Server 2013 命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="bde55-121">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

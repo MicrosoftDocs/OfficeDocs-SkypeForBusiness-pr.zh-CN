@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： VideoMetricsThreshold 表
+description: Lync Server 2013： VideoMetricsThreshold 表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f1f1fc7ca86c10fa9c409c73c2f4b54ee2777a1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 93cdd6fb4c3c54ac1470499490f36fee87ba283d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508509"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567998"
 ---
-# <a name="videometricsthreshold-table-in-lync-server-2013"></a><span data-ttu-id="5d3de-102">Lync Server 2013 中的 VideoMetricsThreshold 表</span><span class="sxs-lookup"><span data-stu-id="5d3de-102">VideoMetricsThreshold table in Lync Server 2013</span></span>
+# <a name="videometricsthreshold-table-in-lync-server-2013"></a><span data-ttu-id="6e462-103">Lync Server 2013 中的 VideoMetricsThreshold 表</span><span class="sxs-lookup"><span data-stu-id="6e462-103">VideoMetricsThreshold table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48508509"
 
 <span> </span>
 
-<span data-ttu-id="5d3de-103">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="5d3de-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="6e462-104">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="6e462-104">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="5d3de-104">VideoMetricsThreshold 表包含用于视频呼叫的用户体验质量指标的最佳值和可接受值。</span><span class="sxs-lookup"><span data-stu-id="5d3de-104">The VideoMetricsThreshold table contains optimal and acceptable values for the Quality of Experience metrics used with video calls.</span></span>
+<span data-ttu-id="6e462-105">VideoMetricsThreshold 表包含用于视频呼叫的用户体验质量指标的最佳值和可接受值。</span><span class="sxs-lookup"><span data-stu-id="6e462-105">The VideoMetricsThreshold table contains optimal and acceptable values for the Quality of Experience metrics used with video calls.</span></span>
 
 
 <table>
@@ -51,114 +52,114 @@ ms.locfileid: "48508509"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5d3de-105"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-105"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="5d3de-106"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-106"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="5d3de-107"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-107"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="5d3de-108"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-108"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="6e462-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="6e462-107"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="6e462-108"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="6e462-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5d3de-109"><strong>CallType</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-109"><strong>CallType</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-110">int</span><span class="sxs-lookup"><span data-stu-id="5d3de-110">int</span></span></p></td>
-<td><p><span data-ttu-id="5d3de-111">主</span><span class="sxs-lookup"><span data-stu-id="5d3de-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="5d3de-112">发出的呼叫的类型。</span><span class="sxs-lookup"><span data-stu-id="5d3de-112">Type of call that was placed.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-110"><strong>CallType</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-110"><strong>CallType</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-111">int</span><span class="sxs-lookup"><span data-stu-id="6e462-111">int</span></span></p></td>
+<td><p><span data-ttu-id="6e462-112">主</span><span class="sxs-lookup"><span data-stu-id="6e462-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="6e462-113">发出的呼叫的类型。</span><span class="sxs-lookup"><span data-stu-id="6e462-113">Type of call that was placed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d3de-113"><strong>VideoPostFECPLROptimal</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-113"><strong>VideoPostFECPLROptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-114">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="5d3de-114">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-114"><strong>VideoPostFECPLROptimal</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-114"><strong>VideoPostFECPLROptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-115">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="6e462-115">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-115">默认值为 0.05。</span><span class="sxs-lookup"><span data-stu-id="5d3de-115">The default value is 0.05.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-116">默认值为 0.05。</span><span class="sxs-lookup"><span data-stu-id="6e462-116">The default value is 0.05.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d3de-116"><strong>VideoPostFECPLRAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-116"><strong>VideoPostFECPLRAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-117">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="5d3de-117">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-117"><strong>VideoPostFECPLRAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-117"><strong>VideoPostFECPLRAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-118">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="6e462-118">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-118">默认值为 0.10。</span><span class="sxs-lookup"><span data-stu-id="5d3de-118">The default value is 0.10.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-119">默认值为 0.10。</span><span class="sxs-lookup"><span data-stu-id="6e462-119">The default value is 0.10.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d3de-119"><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-119"><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-120">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="5d3de-120">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-120"><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-120"><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-121">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="6e462-121">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-121">默认值为 5.0。</span><span class="sxs-lookup"><span data-stu-id="5d3de-121">The default value is 5.0.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-122">默认值为 5.0。</span><span class="sxs-lookup"><span data-stu-id="6e462-122">The default value is 5.0.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d3de-122"><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-122"><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-123">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="5d3de-123">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-123"><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-123"><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-124">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="6e462-124">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-124">默认值为 10.0。</span><span class="sxs-lookup"><span data-stu-id="5d3de-124">The default value is 10.0.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-125">默认值为 10.0。</span><span class="sxs-lookup"><span data-stu-id="6e462-125">The default value is 10.0.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d3de-125"><strong>RecvFrameRateAverageOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-125"><strong>RecvFrameRateAverageOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-126">十进制 (9、4) </span><span class="sxs-lookup"><span data-stu-id="5d3de-126">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-126"><strong>RecvFrameRateAverageOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-126"><strong>RecvFrameRateAverageOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-127">十进制 (9、4) </span><span class="sxs-lookup"><span data-stu-id="6e462-127">decimal(9,4)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-127">默认值为 12.0000。</span><span class="sxs-lookup"><span data-stu-id="5d3de-127">The default value is 12.0000.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-128">默认值为 12.0000。</span><span class="sxs-lookup"><span data-stu-id="6e462-128">The default value is 12.0000.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d3de-128"><strong>RecvFramerateAverageAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-128"><strong>RecvFramerateAverageAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-129">十进制 (9、4) </span><span class="sxs-lookup"><span data-stu-id="5d3de-129">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-129"><strong>RecvFramerateAverageAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-129"><strong>RecvFramerateAverageAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-130">十进制 (9、4) </span><span class="sxs-lookup"><span data-stu-id="6e462-130">decimal(9,4)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-130">默认值为 7.0000。</span><span class="sxs-lookup"><span data-stu-id="5d3de-130">The default value is 7.0000.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-131">默认值为 7.0000。</span><span class="sxs-lookup"><span data-stu-id="6e462-131">The default value is 7.0000.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d3de-131"><strong>LowFrameRateCallPercentOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-131"><strong>LowFrameRateCallPercentOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-132">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="5d3de-132">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-132"><strong>LowFrameRateCallPercentOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-132"><strong>LowFrameRateCallPercentOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-133">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="6e462-133">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-133">默认值为 5.0。</span><span class="sxs-lookup"><span data-stu-id="5d3de-133">The default value is 5.0.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-134">默认值为 5.0。</span><span class="sxs-lookup"><span data-stu-id="6e462-134">The default value is 5.0.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d3de-134"><strong>LowFrameRateCallPercentAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-134"><strong>LowFrameRateCallPercentAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-135">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="5d3de-135">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-135"><strong>LowFrameRateCallPercentAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-135"><strong>LowFrameRateCallPercentAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-136">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="6e462-136">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-136">默认值为 10.0。</span><span class="sxs-lookup"><span data-stu-id="5d3de-136">The default value is 10.0/</span></span></p></td>
+<td><p><span data-ttu-id="6e462-137">默认值为 10.0。</span><span class="sxs-lookup"><span data-stu-id="6e462-137">The default value is 10.0/</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d3de-137"><strong>LowResolutionCallPercentOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-137"><strong>LowResolutionCallPercentOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-138">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="5d3de-138">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-138"><strong>LowResolutionCallPercentOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-138"><strong>LowResolutionCallPercentOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-139">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="6e462-139">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-139">默认值为 5.0。</span><span class="sxs-lookup"><span data-stu-id="5d3de-139">The default value is 5.0.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-140">默认值为 5.0。</span><span class="sxs-lookup"><span data-stu-id="6e462-140">The default value is 5.0.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d3de-140"><strong>LowResolutionCallPercentAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-140"><strong>LowResolutionCallPercentAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-141">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="5d3de-141">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-141"><strong>LowResolutionCallPercentAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-141"><strong>LowResolutionCallPercentAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-142">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="6e462-142">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-142">默认值为 10.0。</span><span class="sxs-lookup"><span data-stu-id="5d3de-142">The default value is 10.0.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-143">默认值为 10.0。</span><span class="sxs-lookup"><span data-stu-id="6e462-143">The default value is 10.0.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d3de-143"><strong>VideoPacketLossRateOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-143"><strong>VideoPacketLossRateOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-144">foat</span><span class="sxs-lookup"><span data-stu-id="5d3de-144">foat</span></span></p></td>
+<td><p><span data-ttu-id="6e462-144"><strong>VideoPacketLossRateOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-144"><strong>VideoPacketLossRateOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-145">foat</span><span class="sxs-lookup"><span data-stu-id="6e462-145">foat</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-145">默认值为 0.05。</span><span class="sxs-lookup"><span data-stu-id="5d3de-145">The default value is 0.05.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-146">默认值为 0.05。</span><span class="sxs-lookup"><span data-stu-id="6e462-146">The default value is 0.05.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d3de-146"><strong>VideoPacketLossRateAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-146"><strong>VideoPacketLossRateAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-147">float</span><span class="sxs-lookup"><span data-stu-id="5d3de-147">float</span></span></p></td>
+<td><p><span data-ttu-id="6e462-147"><strong>VideoPacketLossRateAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-147"><strong>VideoPacketLossRateAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-148">float</span><span class="sxs-lookup"><span data-stu-id="6e462-148">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-148">默认值为 0.10。</span><span class="sxs-lookup"><span data-stu-id="5d3de-148">The default value is 0.10.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-149">默认值为 0.10。</span><span class="sxs-lookup"><span data-stu-id="6e462-149">The default value is 0.10.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d3de-149"><strong>VideoFrameRateAvgOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-149"><strong>VideoFrameRateAvgOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-150">float</span><span class="sxs-lookup"><span data-stu-id="5d3de-150">float</span></span></p></td>
+<td><p><span data-ttu-id="6e462-150"><strong>VideoFrameRateAvgOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-150"><strong>VideoFrameRateAvgOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-151">float</span><span class="sxs-lookup"><span data-stu-id="6e462-151">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-151">默认值为 12。</span><span class="sxs-lookup"><span data-stu-id="5d3de-151">The default value is 12.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-152">默认值为 12。</span><span class="sxs-lookup"><span data-stu-id="6e462-152">The default value is 12.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d3de-152"><strong>VideoFrameRateAvgAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-152"><strong>VideoFrameRateAvgAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-153">float</span><span class="sxs-lookup"><span data-stu-id="5d3de-153">float</span></span></p></td>
+<td><p><span data-ttu-id="6e462-153"><strong>VideoFrameRateAvgAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-153"><strong>VideoFrameRateAvgAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-154">float</span><span class="sxs-lookup"><span data-stu-id="6e462-154">float</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-154">默认值为 7。</span><span class="sxs-lookup"><span data-stu-id="5d3de-154">The default value is 7.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-155">默认值为 7。</span><span class="sxs-lookup"><span data-stu-id="6e462-155">The default value is 7.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d3de-155"><strong>DynamicCapabilityPercentOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-155"><strong>DynamicCapabilityPercentOptimal</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-156">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="5d3de-156">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-156"><strong>DynamicCapabilityPercentOptimal</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-156"><strong>DynamicCapabilityPercentOptimal</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-157">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="6e462-157">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-157">默认值为 5.00。</span><span class="sxs-lookup"><span data-stu-id="5d3de-157">The default value is 5.00.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-158">默认值为 5.00。</span><span class="sxs-lookup"><span data-stu-id="6e462-158">The default value is 5.00.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d3de-158"><strong>DynamicCapabilityPercentAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="5d3de-158"><strong>DynamicCapabilityPercentAcceptable</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d3de-159">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="5d3de-159">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="6e462-159"><strong>DynamicCapabilityPercentAcceptable</strong></span><span class="sxs-lookup"><span data-stu-id="6e462-159"><strong>DynamicCapabilityPercentAcceptable</strong></span></span></p></td>
+<td><p><span data-ttu-id="6e462-160">十进制 (5、2) </span><span class="sxs-lookup"><span data-stu-id="6e462-160">decimal(5,2)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5d3de-160">默认值为 10.00。</span><span class="sxs-lookup"><span data-stu-id="5d3de-160">The default value is 10.00.</span></span></p></td>
+<td><p><span data-ttu-id="6e462-161">默认值为 10.00。</span><span class="sxs-lookup"><span data-stu-id="6e462-161">The default value is 10.00.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：前端表
+description: Lync Server 2013：前端表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184671
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01a8240a3668df79ad6c1e99997e756d87eef444
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 94c9be1c7db2693a9e33e219fa1afb57088e1a2c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500669"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567048"
 ---
-# <a name="frontend-table-in-lync-server-2013"></a><span data-ttu-id="0bbbe-102">Lync Server 2013 中的前端表</span><span class="sxs-lookup"><span data-stu-id="0bbbe-102">FrontEnd table in Lync Server 2013</span></span>
+# <a name="frontend-table-in-lync-server-2013"></a><span data-ttu-id="30f70-103">Lync Server 2013 中的前端表</span><span class="sxs-lookup"><span data-stu-id="30f70-103">FrontEnd table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48500669"
 
 <span> </span>
 
-<span data-ttu-id="0bbbe-103">_**上次修改的主题：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="0bbbe-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="30f70-104">_**上次修改的主题：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="30f70-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="0bbbe-104">FrontEnd 表仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="0bbbe-104">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="0bbbe-105">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="0bbbe-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="30f70-105">FrontEnd 表仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="30f70-105">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="30f70-106">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="30f70-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 
