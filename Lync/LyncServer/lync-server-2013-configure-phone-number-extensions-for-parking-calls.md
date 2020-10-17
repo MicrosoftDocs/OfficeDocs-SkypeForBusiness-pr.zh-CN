@@ -12,20 +12,22 @@ ms:contentKeyID: 48185980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4f1c9b448327b7f95d7987e995749124da9b026
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 97a8871454ed95b955558c441d567f68dd0974bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213278"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520429"
 ---
+# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a><span data-ttu-id="e8edf-102">在 Lync Server 2013 中配置停车呼叫的电话号码分机</span><span class="sxs-lookup"><span data-stu-id="e8edf-102">Configure phone number extensions for parking calls in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a><span data-ttu-id="3b176-102">在 Lync Server 2013 中配置停车呼叫的电话号码分机</span><span class="sxs-lookup"><span data-stu-id="3b176-102">Configure phone number extensions for parking calls in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42213278"
 
 <span> </span>
 
-<span data-ttu-id="3b176-103">_**上次修改的主题：** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="3b176-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="e8edf-103">_**上次修改的主题：** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="e8edf-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="3b176-104">呼叫寄存应用程序使用呼叫寄存通道表中的分机号码来寄存呼叫。</span><span class="sxs-lookup"><span data-stu-id="3b176-104">The Call Park application uses extension numbers in the Call Park orbit table to park calls.</span></span> <span data-ttu-id="3b176-105">您需要将呼叫寄存通道表配置为您的组织为寄存呼叫保留的分机号码范围。</span><span class="sxs-lookup"><span data-stu-id="3b176-105">You need to configure the Call Park orbit table with the ranges of extension numbers that your organization reserves for parked calls.</span></span> <span data-ttu-id="3b176-106">这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。</span><span class="sxs-lookup"><span data-stu-id="3b176-106">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="3b176-107">在其中部署和配置呼叫寄存应用程序的每个 Lync Server 池都可以有一个或多个轨道范围。</span><span class="sxs-lookup"><span data-stu-id="3b176-107">Each Lync Server pool where a Call Park application is deployed and configured can have one or more orbit ranges.</span></span> <span data-ttu-id="3b176-108">在 Lync Server 部署中，轨道范围必须是全局唯一的。</span><span class="sxs-lookup"><span data-stu-id="3b176-108">Orbit ranges must be globally unique across the Lync Server deployment.</span></span>
+<span data-ttu-id="e8edf-104">呼叫寄存应用程序使用呼叫寄存通道表中的分机号码来寄存呼叫。</span><span class="sxs-lookup"><span data-stu-id="e8edf-104">The Call Park application uses extension numbers in the Call Park orbit table to park calls.</span></span> <span data-ttu-id="e8edf-105">您需要将呼叫寄存通道表配置为您的组织为寄存呼叫保留的分机号码范围。</span><span class="sxs-lookup"><span data-stu-id="e8edf-105">You need to configure the Call Park orbit table with the ranges of extension numbers that your organization reserves for parked calls.</span></span> <span data-ttu-id="e8edf-106">这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。</span><span class="sxs-lookup"><span data-stu-id="e8edf-106">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="e8edf-107">在其中部署和配置呼叫寄存应用程序的每个 Lync Server 池都可以有一个或多个轨道范围。</span><span class="sxs-lookup"><span data-stu-id="e8edf-107">Each Lync Server pool where a Call Park application is deployed and configured can have one or more orbit ranges.</span></span> <span data-ttu-id="e8edf-108">在 Lync Server 部署中，轨道范围必须是全局唯一的。</span><span class="sxs-lookup"><span data-stu-id="e8edf-108">Orbit ranges must be globally unique across the Lync Server deployment.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="3b176-109">您必须先选中语音策略中的 "<STRONG>启用呼叫寄存</STRONG>" 复选框，然后才能使用呼叫寄存。</span><span class="sxs-lookup"><span data-stu-id="3b176-109">You must select the <STRONG>Enable call park</STRONG> check box in your voice policy before you can use Call Park.</span></span> <span data-ttu-id="3b176-110">默认情况下，此选项未选中。</span><span class="sxs-lookup"><span data-stu-id="3b176-110">By default, this option is not selected.</span></span>
+> <span data-ttu-id="e8edf-109">您必须先选中语音策略中的 " <STRONG>启用呼叫寄存</STRONG> " 复选框，然后才能使用呼叫寄存。</span><span class="sxs-lookup"><span data-stu-id="e8edf-109">You must select the <STRONG>Enable call park</STRONG> check box in your voice policy before you can use Call Park.</span></span> <span data-ttu-id="e8edf-110">默认情况下，此选项未选中。</span><span class="sxs-lookup"><span data-stu-id="e8edf-110">By default, this option is not selected.</span></span>
 
 
 
@@ -51,11 +53,11 @@ ms.locfileid: "42213278"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3b176-111">本部分内容</span><span class="sxs-lookup"><span data-stu-id="3b176-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e8edf-111">本部分内容</span><span class="sxs-lookup"><span data-stu-id="e8edf-111">In This Section</span></span>
 
-  - [<span data-ttu-id="3b176-112">在 Lync Server 2013 中创建或修改呼叫寄存通道范围</span><span class="sxs-lookup"><span data-stu-id="3b176-112">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+  - [<span data-ttu-id="e8edf-112">在 Lync Server 2013 中创建或修改呼叫寄存通道范围</span><span class="sxs-lookup"><span data-stu-id="e8edf-112">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
-  - [<span data-ttu-id="3b176-113">在 Lync Server 2013 中删除呼叫寄存通道范围</span><span class="sxs-lookup"><span data-stu-id="3b176-113">Delete a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-delete-a-call-park-orbit-range.md)
+  - [<span data-ttu-id="e8edf-113">在 Lync Server 2013 中删除呼叫寄存通道范围</span><span class="sxs-lookup"><span data-stu-id="e8edf-113">Delete a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-delete-a-call-park-orbit-range.md)
 
 </div>
 

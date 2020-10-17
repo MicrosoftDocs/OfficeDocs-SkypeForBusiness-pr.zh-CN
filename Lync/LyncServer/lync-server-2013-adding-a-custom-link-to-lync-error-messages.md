@@ -12,20 +12,22 @@ ms:contentKeyID: 48185607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa65580cd9138b58792d4a0f0621bfe6f5f10c9c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 619bdaaa1a1c3b7723f2df9c74e106321bdb054c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191385"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521449"
 ---
+# <a name="adding-a-custom-link-to-lync-error-messages-in-lync-server-2013"></a><span data-ttu-id="465d8-102">在 Lync Server 2013 中向 Lync 错误消息添加自定义链接</span><span class="sxs-lookup"><span data-stu-id="465d8-102">Adding a custom link to Lync error messages in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-a-custom-link-to-lync-error-messages-in-lync-server-2013"></a><span data-ttu-id="5c7c1-102">在 Lync Server 2013 中向 Lync 错误消息添加自定义链接</span><span class="sxs-lookup"><span data-stu-id="5c7c1-102">Adding a custom link to Lync error messages in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42191385"
 
 <span> </span>
 
-<span data-ttu-id="5c7c1-103">_**上次修改的主题：** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="5c7c1-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="465d8-103">_**上次修改的主题：** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="465d8-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="5c7c1-104">通过添加指向您自己的故障排除或技术支持信息的链接来自定义 Lync 2013 错误消息。</span><span class="sxs-lookup"><span data-stu-id="5c7c1-104">Customize Lync 2013 error messages by adding a link to your own troubleshooting or help desk information.</span></span> <span data-ttu-id="5c7c1-105">若要执行此操作，请使用 CustomLinkInErrorMessages 参数的**set-csclientpolicy**或**set-csclientpolicy** Lync Server 命令行管理程序 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="5c7c1-105">To do this, use the **New-CSClientPolicy** or **Set-CSClientPolicy** Lync Server Management Shell cmdlets with the CustomLinkInErrorMessages parameter.</span></span> <span data-ttu-id="5c7c1-106">自定义链接的文本是 "单击此处获取来自管理员的支持主题"，无法对其进行自定义。</span><span class="sxs-lookup"><span data-stu-id="5c7c1-106">The text of the custom link is "Click here for support topics from your administrator," and it cannot be customized.</span></span>
+<span data-ttu-id="465d8-104">通过添加指向您自己的故障排除或技术支持信息的链接来自定义 Lync 2013 错误消息。</span><span class="sxs-lookup"><span data-stu-id="465d8-104">Customize Lync 2013 error messages by adding a link to your own troubleshooting or help desk information.</span></span> <span data-ttu-id="465d8-105">若要执行此操作，请使用 CustomLinkInErrorMessages 参数的**set-csclientpolicy**或**Set-csclientpolicy**   Lync Server 命令行管理程序 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="465d8-105">To do this, use the **New-CSClientPolicy** or **Set-CSClientPolicy** Lync Server Management Shell cmdlets with the CustomLinkInErrorMessages parameter.</span></span> <span data-ttu-id="465d8-106">自定义链接的文本是 "单击此处获取来自管理员的支持主题"，无法对其进行自定义。</span><span class="sxs-lookup"><span data-stu-id="465d8-106">The text of the custom link is "Click here for support topics from your administrator," and it cannot be customized.</span></span>
 
-<span data-ttu-id="5c7c1-107">例如，以下命令使自定义链接显示在每个 Lync 2013 错误消息的脚注区域中，并将链接目标设置为http://contoso.com/help/LyncHelpDesk.aspx:</span><span class="sxs-lookup"><span data-stu-id="5c7c1-107">For example, the following command causes the custom link to appear in the footnote area of every Lync 2013 error message and sets the link destination to http://contoso.com/help/LyncHelpDesk.aspx:</span></span>
+<span data-ttu-id="465d8-107">例如，以下命令使自定义链接显示在每个 Lync 2013 错误消息的脚注区域中，并将链接目标设置为 http://contoso.com/help/LyncHelpDesk.aspx:</span><span class="sxs-lookup"><span data-stu-id="465d8-107">For example, the following command causes the custom link to appear in the footnote area of every Lync 2013 error message and sets the link destination to http://contoso.com/help/LyncHelpDesk.aspx:</span></span>
 
     New-CsClientPolicy -Identity LyncErrorLink -CustomLinkInErrorMessages "http://contoso/help/LyncHelpDesk.aspx"
 
-<span data-ttu-id="5c7c1-108">使用 **Grant-CSClientPolicy** 将此新策略分配给用户。</span><span class="sxs-lookup"><span data-stu-id="5c7c1-108">Use **Grant-CSClientPolicy** to assign this new policy to users.</span></span> <span data-ttu-id="5c7c1-109">有关详细信息，请参阅 Lync Server 命令行管理程序文档中的**set-csclientpolicy**和**Grant set-csclientpolicy** 。</span><span class="sxs-lookup"><span data-stu-id="5c7c1-109">For details, see **New-CSClientPolicy** and **Grant-CSClientPolicy** in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="465d8-108">使用 **Grant-CSClientPolicy** 将此新策略分配给用户。</span><span class="sxs-lookup"><span data-stu-id="465d8-108">Use **Grant-CSClientPolicy** to assign this new policy to users.</span></span> <span data-ttu-id="465d8-109">有关详细信息，请参阅 Lync Server 命令行管理程序文档中的 **set-csclientpolicy** 和 **Grant set-csclientpolicy** 。</span><span class="sxs-lookup"><span data-stu-id="465d8-109">For details, see **New-CSClientPolicy** and **Grant-CSClientPolicy** in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 
