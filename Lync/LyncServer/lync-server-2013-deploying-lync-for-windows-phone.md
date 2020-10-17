@@ -12,20 +12,22 @@ ms:contentKeyID: 51541506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3aeed0424df1baf331db45c312c08d7551b73742
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7a5d012b7b84cf8426b790dd4e9aae8ba6b6d1e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190395"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501519"
 ---
+# <a name="deploying-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="4217e-102">在 Lync Server 2013 中部署适用于 Windows Phone 的 Lync</span><span class="sxs-lookup"><span data-stu-id="4217e-102">Deploying Lync for Windows Phone in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="86478-102">在 Lync Server 2013 中部署适用于 Windows Phone 的 Lync</span><span class="sxs-lookup"><span data-stu-id="86478-102">Deploying Lync for Windows Phone in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42190395"
 
 <span> </span>
 
-<span data-ttu-id="86478-103">_**上次修改的主题：** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="86478-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="4217e-103">_**上次修改的主题：** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="4217e-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="86478-104">本节介绍如何为你的移动用户部署适用于 Windows Phone 的 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="86478-104">This section describes how to deploy Lync 2013 for Windows Phone for your mobile users.</span></span>
+<span data-ttu-id="4217e-104">本节介绍如何为你的移动用户部署适用于 Windows Phone 的 Lync 2013。</span><span class="sxs-lookup"><span data-stu-id="4217e-104">This section describes how to deploy Lync 2013 for Windows Phone for your mobile users.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="86478-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="86478-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4217e-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="4217e-105">In This Section</span></span>
 
-  - [<span data-ttu-id="86478-106">在 Lync Server 2013 中安装适用于 Windows Phone 的 Lync</span><span class="sxs-lookup"><span data-stu-id="86478-106">Installing Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-installing-lync-for-windows-phone.md)
+  - [<span data-ttu-id="4217e-106">在 Lync Server 2013 中安装适用于 Windows Phone 的 Lync</span><span class="sxs-lookup"><span data-stu-id="4217e-106">Installing Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-installing-lync-for-windows-phone.md)
 
-  - [<span data-ttu-id="86478-107">在 Lync Server 2013 中删除适用于 Windows Phone 的 Lync</span><span class="sxs-lookup"><span data-stu-id="86478-107">Removing Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-removing-lync-for-windows-phone.md)
+  - [<span data-ttu-id="4217e-107">在 Lync Server 2013 中删除适用于 Windows Phone 的 Lync</span><span class="sxs-lookup"><span data-stu-id="4217e-107">Removing Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-removing-lync-for-windows-phone.md)
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82da1720cab2e6895c53565da17c9411faabdfbd
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 72b5742d264efb8c84518511d40195a109594e2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754530"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503369"
 ---
+# <a name="configure-mediation-server"></a><span data-ttu-id="dbe3b-102">配置中介服务器</span><span class="sxs-lookup"><span data-stu-id="dbe3b-102">Configure Mediation Server</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-mediation-server"></a><span data-ttu-id="023ec-102">配置中介服务器</span><span class="sxs-lookup"><span data-stu-id="023ec-102">Configure Mediation Server</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "44754530"
 
 <span> </span>
 
-<span data-ttu-id="023ec-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="023ec-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="dbe3b-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="dbe3b-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="023ec-104">此过程详细介绍了将 Lync Server 2013 池配置为使用 Lync Server 2013 中介服务器（而不是旧版 Office 通信服务器 2007 R2 中介服务器）的步骤。</span><span class="sxs-lookup"><span data-stu-id="023ec-104">This procedure details the steps to configure the Lync Server 2013 pool to use the Lync Server 2013 Mediation Server, instead of the legacy Office Communications Server 2007 R2 Mediation Server.</span></span>
+<span data-ttu-id="dbe3b-104">此过程详细介绍了将 Lync Server 2013 池配置为使用 Lync Server 2013 中介服务器（而不是旧版 Office 通信服务器 2007 R2 中介服务器）的步骤。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-104">This procedure details the steps to configure the Lync Server 2013 pool to use the Lync Server 2013 Mediation Server, instead of the legacy Office Communications Server 2007 R2 Mediation Server.</span></span>
 
-<span data-ttu-id="023ec-p101">若要在添加或删除服务器角色时成功发布、启用或禁用拓扑，应以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。还可以委派用于添加服务器角色的相应管理员权限。有关详细信息，请参阅 Standard Edition Server 或 Enterprise Edition Server 部署文档中的“委派安装权限”。对于其他配置更改，只需要 RTCUniversalServerAdmins 组的成员身份。</span><span class="sxs-lookup"><span data-stu-id="023ec-p101">To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.</span></span>
+<span data-ttu-id="dbe3b-p101">若要在添加或删除服务器角色时成功发布、启用或禁用拓扑，应以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。还可以委派用于添加服务器角色的相应管理员权限。有关详细信息，请参阅 Standard Edition Server 或 Enterprise Edition Server 部署文档中的“委派安装权限”。对于其他配置更改，只需要 RTCUniversalServerAdmins 组的成员身份。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-p101">To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="023ec-109">有关查找适用于 Lync Server 2013 的合格 PSTN 网关、IP Pbx 和 SIP 中继服务的最新信息，请参阅 at 中的 "Microsoft 统一通信开放互操作性计划" <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A> 。</span><span class="sxs-lookup"><span data-stu-id="023ec-109">For the latest information on finding qualified PSTN gateways, IP-PBXs, and SIP trunking services that work with Lync Server 2013, see "Microsoft Unified Communications Open Interoperability Program" at <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A>.</span></span>
+> <span data-ttu-id="dbe3b-109">有关查找适用于 Lync Server 2013 的合格 PSTN 网关、IP Pbx 和 SIP 中继服务的最新信息，请参阅 at 中的 "Microsoft 统一通信开放互操作性计划" <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A> 。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-109">For the latest information on finding qualified PSTN gateways, IP-PBXs, and SIP trunking services that work with Lync Server 2013, see "Microsoft Unified Communications Open Interoperability Program" at <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A>.</span></span>
 
 
 
@@ -53,41 +55,41 @@ ms.locfileid: "44754530"
 
 <div>
 
-## <a name="to-configure-mediation-server-using-topology-builder"></a><span data-ttu-id="023ec-110">使用拓扑生成器配置中介服务器</span><span class="sxs-lookup"><span data-stu-id="023ec-110">To configure Mediation Server Using Topology Builder</span></span>
+## <a name="to-configure-mediation-server-using-topology-builder"></a><span data-ttu-id="dbe3b-110">使用拓扑生成器配置中介服务器</span><span class="sxs-lookup"><span data-stu-id="dbe3b-110">To configure Mediation Server Using Topology Builder</span></span>
 
-1.  <span data-ttu-id="023ec-111">从拓扑生成器中打开现有拓扑。</span><span class="sxs-lookup"><span data-stu-id="023ec-111">Open an existing topology from Topology Builder.</span></span>
+1.  <span data-ttu-id="dbe3b-111">从拓扑生成器中打开现有拓扑。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-111">Open an existing topology from Topology Builder.</span></span>
 
-2.  <span data-ttu-id="023ec-112">在左窗格中，导航到“PSTN 网关”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="023ec-112">In the left pane, navigate to **PSTN gateways**.</span></span>
+2.  <span data-ttu-id="dbe3b-112">在左窗格中，导航到“PSTN 网关”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-112">In the left pane, navigate to **PSTN gateways**.</span></span>
 
-3.  <span data-ttu-id="023ec-113">右键单击“PSTN 网关”\*\*\*\*，然后单击“新建 IP/PSTN 网关”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="023ec-113">Right-click **PSTN gateways**, and then click **New IP/PSTN Gateway**.</span></span>
+3.  <span data-ttu-id="dbe3b-113">右键单击“PSTN 网关”\*\*\*\*，然后单击“新建 IP/PSTN 网关”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-113">Right-click **PSTN gateways**, and then click **New IP/PSTN Gateway**.</span></span>
 
-4.  <span data-ttu-id="023ec-114">参考以下信息，完成“定义新的 IP/PSTN 网关”\*\*\*\* 页：</span><span class="sxs-lookup"><span data-stu-id="023ec-114">Complete the **Define New IP/PSTN Gateway** page with the following information:</span></span>
+4.  <span data-ttu-id="dbe3b-114">参考以下信息，完成“定义新的 IP/PSTN 网关”\*\*\*\* 页：</span><span class="sxs-lookup"><span data-stu-id="dbe3b-114">Complete the **Define New IP/PSTN Gateway** page with the following information:</span></span>
     
-      - <span data-ttu-id="023ec-p102">输入网关的 FQDN 或 IP 地址。如果网关使用 TLS 协议，则需要网关的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="023ec-p102">Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.</span></span>
+      - <span data-ttu-id="dbe3b-p102">输入网关的 FQDN 或 IP 地址。如果网关使用 TLS 协议，则需要网关的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-p102">Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.</span></span>
     
-      - <span data-ttu-id="023ec-117">接受“IP/PSTN 网关的侦听端口”\*\*\*\* 的默认值，或者输入新侦听端口（如果已修改）。</span><span class="sxs-lookup"><span data-stu-id="023ec-117">Accept the default value of the **Listening port for IP/PSTN gateway** or enter the new listening port if it was modified.</span></span>
+      - <span data-ttu-id="dbe3b-117">接受“IP/PSTN 网关的侦听端口”\*\*\*\* 的默认值，或者输入新侦听端口（如果已修改）。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-117">Accept the default value of the **Listening port for IP/PSTN gateway** or enter the new listening port if it was modified.</span></span>
     
-      - <span data-ttu-id="023ec-118">设置“SIP 传输协议”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="023ec-118">Set the **Sip Transport Protocol**.</span></span>
+      - <span data-ttu-id="dbe3b-118">设置“SIP 传输协议”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-118">Set the **Sip Transport Protocol**.</span></span>
 
-5.  <span data-ttu-id="023ec-119">在左窗格中，导航到“Enterprise Edition 前端池”\*\*\*\* 或“Standard Edition Server”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="023ec-119">In the left pane, navigate to the **Enterprise Edition Front End pool** or the **Standard Edition Server**.</span></span>
+5.  <span data-ttu-id="dbe3b-119">在左窗格中，导航到“Enterprise Edition 前端池”\*\*\*\* 或“Standard Edition Server”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-119">In the left pane, navigate to the **Enterprise Edition Front End pool** or the **Standard Edition Server**.</span></span>
 
-6.  <span data-ttu-id="023ec-120">右键单击该池，然后单击“编辑属性”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="023ec-120">Right-click the pool, and then click **Edit Properties**.</span></span>
+6.  <span data-ttu-id="dbe3b-120">右键单击该池，然后单击“编辑属性”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-120">Right-click the pool, and then click **Edit Properties**.</span></span>
 
-7.  <span data-ttu-id="023ec-121">在“中介服务器”\*\*\*\* 下，设置“侦听端口”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="023ec-121">Under **Mediation Server**, set the **Listening ports**.</span></span>
+7.  <span data-ttu-id="dbe3b-121">在“中介服务器”\*\*\*\* 下，设置“侦听端口”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-121">Under **Mediation Server**, set the **Listening ports**.</span></span>
 
-8.  <span data-ttu-id="023ec-122">接下来，选择新创建的 PSTN 网关，然后单击“添加”\*\*\*\*，以关联该网关。</span><span class="sxs-lookup"><span data-stu-id="023ec-122">Next, associate the newly created PSTN gateway by selecting it and clicking **Add**.</span></span>
+8.  <span data-ttu-id="dbe3b-122">接下来，选择新创建的 PSTN 网关，然后单击“添加”\*\*\*\*，以关联该网关。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-122">Next, associate the newly created PSTN gateway by selecting it and clicking **Add**.</span></span>
 
-9.  <span data-ttu-id="023ec-123">在“拓扑生成器”\*\*\*\* 中，选择最顶层节点“Lync Server”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="023ec-123">In **Topology Builder**, select the top-most node **Lync Server**.</span></span>
+9.  <span data-ttu-id="dbe3b-123">在“拓扑生成器”\*\*\*\* 中，选择最顶层节点“Lync Server”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-123">In **Topology Builder**, select the top-most node **Lync Server**.</span></span>
 
-10. <span data-ttu-id="023ec-124">从“操作”\*\*\*\* 菜单中，选择“发布拓扑”\*\*\*\*，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="023ec-124">From the **Action** menu, select **Publish Topology** and then click **Next**.</span></span>
+10. <span data-ttu-id="dbe3b-124">从“操作”\*\*\*\* 菜单中，选择“发布拓扑”\*\*\*\*，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-124">From the **Action** menu, select **Publish Topology** and then click **Next**.</span></span>
 
-11. <span data-ttu-id="023ec-125">“发布向导”\*\*\*\* 完成时，单击“完成”\*\*\*\* 关闭向导。</span><span class="sxs-lookup"><span data-stu-id="023ec-125">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
+11. <span data-ttu-id="dbe3b-125">“发布向导”\*\*\*\* 完成时，单击“完成”\*\*\*\* 关闭向导。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-125">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="023ec-126">请务必填写下一个主题，将<A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">语音路由更改为使用新的 Lync server 2013 中介服务器</A>，以确保语音路由指向正确的中介服务器。</span><span class="sxs-lookup"><span data-stu-id="023ec-126">It is important that you complete the next topic, <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Change voice routes to use the new Lync Server 2013 Mediation Server</A> to ensure that the voice routes are pointing to the correct Mediation Server.</span></span>
+> <span data-ttu-id="dbe3b-126">请务必填写下一个主题，将 <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">语音路由更改为使用新的 Lync server 2013 中介服务器</A> ，以确保语音路由指向正确的中介服务器。</span><span class="sxs-lookup"><span data-stu-id="dbe3b-126">It is important that you complete the next topic, <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Change voice routes to use the new Lync Server 2013 Mediation Server</A> to ensure that the voice routes are pointing to the correct Mediation Server.</span></span>
 
 
 
