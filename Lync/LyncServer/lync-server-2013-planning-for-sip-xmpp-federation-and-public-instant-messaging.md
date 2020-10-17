@@ -12,20 +12,22 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4148cd97ec118a223e7e8b1b1e8c3825f51dbad6
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7f213b584d62a9a40810de2a05676b6d0737258e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219732"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513459"
 ---
+# <a name="planning-for-sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>在 Lync Server 2013 中规划 SIP、XMPP 联合身份验证和公共即时消息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>在 Lync Server 2013 中规划 SIP、XMPP 联合身份验证和公共即时消息
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-10-28_
 
   - 音频会议和/或视频会议
 
-在某些情况下，通信（例如即时消息（IM）和在 Microsoft Lync Server 2013 和可扩展消息和状态协议（XMPP）联系人之间的状态）是仅支持对等用户和联合合作伙伴的联系人。 在其他情况下，例如 Lync Server、Lync server 2010 to Lync Server 2013 联盟，可以邀请多个参与者加入对话。
+在某些情况下，通信（例如即时消息 (IM) 和状态）在 Microsoft Lync Server 2013 与可扩展消息和状态协议 (XMPP) 联系人（仅支持对等）（仅支持联合合作伙伴中的联系人）之间进行。 在其他情况下，例如 Lync Server、Lync server 2010 to Lync Server 2013 联盟，可以邀请多个参与者加入对话。
 
 <div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2013-10-28_
 
 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通信服务器之间的联合支持对等通信和多方通信。 对等对话可升级为多方会话，从而允许临时会议。 可以安排会议（即 Web 会议或音频/视频会议）以包含您组织内的联系人以及您的联盟合作伙伴内的联系人。
 
-联合身份验证首次出现在 Microsoft Office Live 通信服务器2005中，并支持一种联合联合，即直接联盟。 直接联盟需要您知道联盟伙伴的会话初始协议（SIP）域和合作伙伴的边缘服务器的完全限定域名（FQDN）。 Live 通信服务器 2005 SP1 引入了其他联合类型，所有必需的域名系统（DNS） SRV 记录都将由联盟伙伴发布，以找到其边缘服务器。 该版本的术语有：
+联合身份验证首次出现在 Microsoft Office Live 通信服务器2005中，并支持一种联合联合，即直接联盟。 直接联盟需要您了解联盟伙伴的会话初始协议 (SIP) 域和合作伙伴的边缘服务器的完全限定域名 (FQDN) 。 Live 通信服务器 2005 SP1 引入了其他联合类型，所有必需的域名系统 (DNS) SRV 记录，以供联盟伙伴发布，以找到其边缘服务器。 该版本的术语有：
 
   - *打开增强联盟*：接受任何 SIP 域名并使用 DNS SRV 查找合作伙伴边缘服务器
 
@@ -61,7 +63,7 @@ Microsoft Lync Server 2013、Lync Server 2010 和 Office 通信服务器之间�
 
   - *直接联盟*：将合作伙伴的 SIP 域名和 FQDN 配置为合作伙伴的边缘服务器
 
-  - *服务器允许列表*：接受任何域，使用 DNS SRV 查找承载提供程序或公共即时消息（IM）连接提供程序的边缘服务器
+  - *服务器允许列表*：接受任何域，使用 DNS SRV 查找承载提供程序或公共即时消息 (IM) 连接提供程序的边缘服务器
 
 Microsoft Office 通信服务器2007引入了联合身份验证类型的更新命名，以便更好地定义每个联合类型实际完成的操作：
 
@@ -77,12 +79,12 @@ Microsoft Lync Server 2010 根据 Microsoft Lync Online 2010 和 Microsoft Offic
 
 启用 Microsoft Lync Server 2013 之间的联盟。 Lync Server 2010 和 Office 通信服务器使用边缘服务器和反向代理来强制实施所定义的规则和允许的合作伙伴域。 从规划的角度来看，与其他 Lync Server 进行联盟，Office 通信服务器需要满足以下条件：
 
-  - 在拓扑生成器中启用联盟。 有关详细信息，请参阅部署主题[在 Lync Server 2013 中配置 SIP 联盟、XMPP 联盟和公共即时消息](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)。
+  - 在拓扑生成器中启用联盟。 有关详细信息，请参阅部署主题 [在 Lync Server 2013 中配置 SIP 联盟、XMPP 联盟和公共即时消息](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)。
 
   - 确定您的联盟域发现的要求：
     
       - <span></span>  
-        若要手动配置联盟，您必须具有合作伙伴的边缘服务器和域名（FQDN）的完全限定域名（FQDN），或者在 Lync Server 控制面板、**联合访问和外部访问**（ **SIP 联盟域**）中输入的联机域名。 创建“新”**** 策略或“编辑”**** 现有策略以通过 FQDN 允许或阻止域。
+        若要手动配置联盟，您必须具有合作伙伴的边缘服务器和域名的完全限定的域名 (FQDN) ，或者在 Lync Server 控制面板、 **联合访问和外部访问**（ **SIP 联盟域**）中输入的联机域名称。 创建“新”**** 策略或“编辑”**** 现有策略以通过 FQDN 允许或阻止域。
         
         <div>
         
@@ -97,19 +99,19 @@ Microsoft Lync Server 2010 根据 Microsoft Lync Online 2010 和 Microsoft Offic
         
 
         > [!NOTE]
-        > 对于<STRONG>新的 SIP 联盟域</STRONG>，您必须为 Microsoft Lync Online 和 microsoft 365 或 Office 365 提供<STRONG>域名（或 FQDN）</STRONG> 。 对于 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通信服务器，你还必须提供<STRONG>访问边缘服务（FQDN）</STRONG>
+        > 对于 <STRONG>新的 SIP 联盟域</STRONG>，必须为 Microsoft Lync Online 和 microsoft 365 或 Office 365 提供 <STRONG>域名 (或 FQDN) </STRONG> 。 对于 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通信服务器，还必须提供 <STRONG> (FQDN 的访问边缘服务) </STRONG>
 
         
         </div>
     
       - <span></span>  
-        对于已发现的合作伙伴联盟（合作伙伴可以在其中发现你的边缘服务器），请在外部 DNS-sipfederationtls 中创建一个 SRV 记录 \_ 。 \_tcp.contoso.com –指向边缘服务器的端口5061和主机（A）记录
+        对于已发现的合作伙伴联盟（合作伙伴可以在其中发现你的边缘服务器），请在外部 DNS-sipfederationtls 中创建一个 SRV 记录 \_ 。 \_tcp.contoso.com –指向端口5061和主机 (边缘服务器的) 记录
         
         <div>
         
 
         > [!IMPORTANT]
-        > 如果要在 Windows Phone 或 Apple iPhone、iPad 或其他 Apple 设备上支持 Microsoft Lync 移动客户端，并且使用的是推送通知服务或推送通知服务，则必须规划 _sipfederationtls _tcp。 &lt;&gt;您拥有 Lync 移动客户端的每个 sip 域的 SIP 域 SRV 记录。 Android 和 Nokia Symbian Lync Mobile 不使用推送通知，也不受此要求的制约。
+        > 如果要在 Windows Phone 或 Apple iPhone、iPad 或其他 Apple 设备上支持 Microsoft Lync 移动客户端，并且使用的是推送通知服务或推送通知服务，则必须规划 _sipfederationtls. _tcp。 &lt;&gt;您拥有 Lync 移动客户端的每个 sip 域的 SIP 域 SRV 记录。 Android 和 Nokia Symbian Lync Mobile 不使用推送通知，也不受此要求的制约。
 
         
         </div>
@@ -154,7 +156,7 @@ Microsoft Lync Server 2010 根据 Microsoft Lync Online 2010 和 Microsoft Offic
 > [!IMPORTANT]
 > <UL>
 > <LI>
-> <P>从9月1日起，2012，Microsoft Lync 公共 IM 连接用户订阅许可证（PIC USL）不再可用于购买新的或续订的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使直到服务关闭日期（仍将决定确切日期，但不早于6月2013）。</P>
+> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证 (PIC USL) 不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使直到服务关闭日期 (准确日期仍将决定，但不会早于2013年6月) 。</P>
 > <LI>
 > <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每用户、每月订阅许可证。 Messenger. Microsoft 提供此服务的能力因 Yahoo！中的支持而异，将不会续订的底层协议。</P>
 > <LI>
@@ -166,21 +168,21 @@ Microsoft Lync Server 2010 根据 Microsoft Lync Online 2010 和 Microsoft Offic
 
 此类联盟需要规划以下注意事项：
 
-  - 除了即时消息之外，Windows Live Messenger 用户可以与 Lync Server 2013 用户进行对等音频/视频通信。 您的边缘服务器必须满足特定的端口和协议要求。 有关详细信息，请参阅[确定 Lync Server 2013 的外部 A/V 防火墙和端口要求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)。
+  - 除了即时消息之外，Windows Live Messenger 用户可以与 Lync Server 2013 用户进行对等音频/视频通信。 您的边缘服务器必须满足特定的端口和协议要求。 有关详细信息，请参阅 [确定 Lync Server 2013 的外部 A/V 防火墙和端口要求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)。
 
   - Yahoo 即时消息没有独特的要求，而不是通常在提供联合的典型边缘服务器的规划和部署中使用的要求。
 
-  - 美洲在线要求分配给访问边缘服务的边缘服务器证书具有客户端增强型密钥用法（EKU）。
+  - 美洲在线要求分配给访问边缘服务的边缘服务器证书具有客户端增强型密钥用法 (EKU) 。
 
 </div>
 
 <div>
 
-## <a name="extensible-messaging-and-presence-protocol-xmpp-federation"></a>可扩展消息传递和状态协议（XMPP）联盟
+## <a name="extensible-messaging-and-presence-protocol-xmpp-federation"></a>可扩展消息传递和状态协议 (XMPP) 联盟
 
-早期版本的 Lync Server 和 Office 通信服务器提供了可扩展消息和状态协议（XMPP）网关，可将其作为单独的服务器角色进行部署，以允许与 XMPP 部署进行联盟。 在 Microsoft Lync Server 2013 中，可以将 XMPP 功能部署为功能。 XMPP 功能安装在两个部分中：在边缘服务器上运行的 XMPP 代理，以及在前端服务器上运行的 XMPP 网关。
+早期版本的 Lync Server 和 Office 通信服务器提供了可扩展消息和状态协议 (XMPP) 网关，可将其部署为单独的服务器角色，以允许与 XMPP 部署进行联盟。 在 Microsoft Lync Server 2013 中，可以将 XMPP 功能部署为功能。 XMPP 功能安装在两个部分中：在边缘服务器上运行的 XMPP 代理，以及在前端服务器上运行的 XMPP 网关。
 
-在[Lync Server 2013 中部署外部用户访问权限](lync-server-2013-deploying-external-user-access.md)中介绍了 XMPP 的部署和配置。通过在防火墙上定义端口和协议规则、配置证书以及添加 DNS 记录，在您计划支持组织中的 XMPP。 本节中的以下主题汇总了为您的部署成功规划 XMPP 联合所需的信息。
+在 [Lync Server 2013 中部署外部用户访问权限](lync-server-2013-deploying-external-user-access.md) 中介绍了 XMPP 的部署和配置。通过在防火墙上定义端口和协议规则、配置证书以及添加 DNS 记录，在您计划支持组织中的 XMPP。 本节中的以下主题汇总了为您的部署成功规划 XMPP 联合所需的信息。
 
 <div>
 

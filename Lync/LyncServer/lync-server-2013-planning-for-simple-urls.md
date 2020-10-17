@@ -12,20 +12,22 @@ ms:contentKeyID: 48183610
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6bbbe8650ae1d7746c9b87ecf4518236f8b1575
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7d5ae03267b266b1ef2abbacc2e3fce06e034ec
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201868"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513519"
 ---
+# <a name="planning-for-simple-urls-in-lync-server-2013"></a>在 Lync Server 2013 中规划简单 Url
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-simple-urls-in-lync-server-2013"></a>在 Lync Server 2013 中规划简单 Url
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**上次修改的主题：** 2015-12-11_
 
 Lync Server 支持三个简单的 Url：
 
-  - ****“会议”用作站点或组织中所有会议的基 URL。 一个符合简单 URL 的示例是https://meet.contoso.com。 特定会议的 URL 可能为https://meet.contoso.com/ *username*/7322994。
+  - ****“会议”用作站点或组织中所有会议的基 URL。 一个符合简单 URL 的示例是 https://meet.contoso.com 。 特定会议的 URL 可能为 https://meet.contoso.com/ *username*/7322994。
     
     通过使用会议简单 URL，用于加入会议的链接将易于理解且易于传达和分发。
 
-  - ****“拨入”允许访问“电话拨入式会议设置”网页。 此页显示会议的拨入号码及其可用语言、分配的会议信息（即，对于不需要预定的会议）以及会议中的 DTMF 控制，并支持对个人标识号 (PIN) 和分配的会议信息的管理。 拨入简单 URL 包含在所有会议邀请中，因此要拨号加入会议的用户可以访问所需的电话号码和 PIN 信息。 拨入式简单 URL 的一个示例是https://dialin.contoso.com。
+  - ****“拨入”允许访问“电话拨入式会议设置”网页。 此页显示会议的拨入号码及其可用语言、分配的会议信息（即，对于不需要预定的会议）以及会议中的 DTMF 控制，并支持对个人标识号 (PIN) 和分配的会议信息的管理。 拨入简单 URL 包含在所有会议邀请中，因此要拨号加入会议的用户可以访问所需的电话号码和 PIN 信息。 拨入式简单 URL 的一个示例是 https://dialin.contoso.com 。
 
-  - **管理员**可以快速访问 Lync Server 控制面板。 通过组织的防火墙中的任何计算机，管理员都可以通过在浏览器中键入管理员简单的 URL 来打开 Lync Server 控制面板。 管理简单 URL 是组织内部的。 管理员简单 URL 的一个示例是https://admin.contoso.com
+  - **管理员** 可以快速访问 Lync Server 控制面板。 通过组织的防火墙中的任何计算机，管理员都可以通过在浏览器中键入管理员简单的 URL 来打开 Lync Server 控制面板。 管理简单 URL 是组织内部的。 管理员简单 URL 的一个示例是 https://admin.contoso.com
 
 <div>
 
@@ -61,7 +63,7 @@ Lync Server 支持三个简单的 Url：
 
 
 > [!NOTE]  
-> 如果选择使用网站范围的简单 Url，则用户将无法在不同网站中的前端池之间移动，而不会导致这些用户在会议简单 Url 不同的网站之间进行重新计划所有计划会议。 这包括故障转移方案，其中备份关系中的池位于不同的网站中。 如果需要在部署网站范围简单 Url 的网站之间进行故障转移，则用户将无法加入其会议，因为 URL 的范围。 有关详细信息，请检查<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">CsSimpleUrlConfiguration</A>。
+> 如果选择使用网站范围的简单 Url，则用户将无法在不同网站中的 Front-End 池之间移动，而无需用户重新计划所有计划的会议，因为会议的简单 Url 在网站之间是不同的。 这包括故障转移方案，其中备份关系中的池位于不同的网站中。 如果需要在部署网站范围简单 Url 的网站之间进行故障转移，则用户将无法加入其会议，因为 URL 的范围。 有关详细信息，请检查 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">CsSimpleUrlConfiguration</A>。
 
 
 
@@ -79,7 +81,7 @@ Lync Server 支持三个简单的 Url：
 
 无论具有多少个 SIP 域，整个组织始终只需要一个拨入简单 URL 和一个管理简单 URL。
 
-有关所需 DNS A 记录和证书的详细信息，请参阅规划文档中的 lync server 2013 中的[针对简单 url](lync-server-2013-dns-requirements-for-simple-urls.md)和在[lync server 2013 中的内部服务器的证书要求](lync-server-2013-certificate-requirements-for-internal-servers.md)中的 dns 要求。
+有关所需 DNS A 记录和证书的详细信息，请参阅规划文档中的 lync server 2013 中的 [针对简单 url](lync-server-2013-dns-requirements-for-simple-urls.md) 和在 [lync server 2013 中的内部服务器的证书要求](lync-server-2013-certificate-requirements-for-internal-servers.md) 中的 dns 要求。
 
 在选项 1 中，为每个简单 URL 创建新的 SIP 域名。
 
@@ -99,7 +101,7 @@ Lync Server 支持三个简单的 Url：
 </tr>
 <tr class="even">
 <td><p>法规</p></td>
-<td><p>https://meet.contoso.com、 https://meet.fabrikam.com等，依此类推（组织中的每个 SIP 域一个）</p></td>
+<td><p>https://meet.contoso.com、等， https://meet.fabrikam.com 依此类推 (组织中每个 SIP 域一个) </p></td>
 </tr>
 <tr class="odd">
 <td><p>拨入</p></td>
@@ -129,7 +131,7 @@ Lync Server 支持三个简单的 Url：
 </tr>
 <tr class="even">
 <td><p>法规</p></td>
-<td><p>https://lync.contoso.com/Meet、 https://lync.fabrikam.com/Meet等，依此类推（组织中的每个 SIP 域一个）</p></td>
+<td><p>https://lync.contoso.com/Meet、等， https://lync.fabrikam.com/Meet 依此类推 (组织中每个 SIP 域一个) </p></td>
 </tr>
 <tr class="odd">
 <td><p>拨入</p></td>
@@ -180,7 +182,7 @@ Lync Server 支持三个简单的 Url：
 
 拓扑生成器和 Lync Server 命令行管理程序 cmdlet 对简单 Url 强制实施几种验证规则。 您必须设置会议简单 URL 和拨入简单 URL，但可以选择设置管理简单 URL。 每个 SIP 域都必须具有单独的会议简单 URL，但整个组织只需要一个拨入简单 URL 和一个管理简单 URL。
 
-组织中的每个简单 URL 必须具有唯一的名称，且不能是其他简单 URL 的前缀（例如，不能将 lync.contoso.com/Meet 设置为会议简单 URL，也不能将 lync.contoso.com/Meet/Dialin 设置为拨入简单 URL）。 简单 URL 名称不能包含任何池的 FQDN，也不能包含任何端口信息（例如， https://FQDN:88/meet不允许）。 所有简单 URL 都必须以 https:// 前缀开头。
+组织中的每个简单 URL 必须具有唯一的名称，且不能是其他简单 URL 的前缀（例如，不能将 lync.contoso.com/Meet 设置为会议简单 URL，也不能将 lync.contoso.com/Meet/Dialin 设置为拨入简单 URL）。 简单 URL 名称不能包含任何池的 FQDN，也不能 (任何端口信息，例如， https://FQDN:88/meet 不允许) 。 所有简单 URL 都必须以 https:// 前缀开头。
 
 简单 URL 只能包含字母数字字符（即，a-z、A-Z、0-9 和圆点 (.)）。如果使用其他字符，则简单 URL 可能不会正常工作。
 
@@ -190,9 +192,9 @@ Lync Server 支持三个简单的 Url：
 
 ## <a name="changing-simple-urls-after-deployment"></a>部署后更改简单 URL
 
-如果在初始部署后更改简单 URL，您必须注意更改如何影响简单 URL 的 DNS 记录和证书。 如果简单 URL 的基础发生更改，则还必须更改 DNS 记录和证书。 例如，从https://lync.contoso.com/Meet更改为将https://meet.contoso.com基 URL 从 lync.contoso.com 更改为 meet.contoso.com，因此您需要将 DNS 记录和证书更改为引用 meet.contoso.com。 如果将简单 URL 从https://lync.contoso.com/Meet更改为https://lync.contoso.com/Meetings，lync.contoso.com 的基 url 将保持不变，因此不需要任何 DNS 或证书更改。
+如果在初始部署后更改简单 URL，您必须注意更改如何影响简单 URL 的 DNS 记录和证书。 如果简单 URL 的基础发生更改，则还必须更改 DNS 记录和证书。 例如，从更改 https://lync.contoso.com/Meet 为将 https://meet.contoso.com 基 URL 从 lync.contoso.com 更改为 meet.contoso.com，因此您需要将 DNS 记录和证书更改为引用 meet.contoso.com。 如果将简单 URL 从更改 https://lync.contoso.com/Meet 为 https://lync.contoso.com/Meetings ，lync.contoso.com 的基 url 将保持不变，因此不需要任何 DNS 或证书更改。
 
-但是，只要您更改简单的 URL 名称，就必须在每个控制器和前端服务器上运行**CsComputer**以注册更改。
+但是，只要您更改简单的 URL 名称，就必须在每个控制器和前端服务器上运行 **CsComputer** 以注册更改。
 
 </div>
 

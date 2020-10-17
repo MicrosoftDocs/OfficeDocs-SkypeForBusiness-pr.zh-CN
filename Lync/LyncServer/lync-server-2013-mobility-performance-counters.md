@@ -12,20 +12,22 @@ ms:contentKeyID: 48185441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0f0d9170b4526c443b88c9227af8f2c55dae4b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37e36b4492814043317fcafb2612a28c9f4d7b91
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184975"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513599"
 ---
+# <a name="mobility-performance-counters-in-lync-server-2013"></a>Lync Server 2013 中的移动性能计数器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobility-performance-counters-in-lync-server-2013"></a>Lync Server 2013 中的移动性能计数器
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42184975"
 
 _**上次修改的主题：** 2013-02-22_
 
-下表列出了可用于监视运行统一通信 Web API （UCWA）和 Lync Server 2013 Mcx 移动服务的服务器的性能计数器的名称和说明。
+下表列出了可用于监视运行统一通信 Web API (UCWA) 和 Lync Server 2013 Mcx 移动服务的服务器的性能计数器的名称和说明。
 
-UCWA 表中的计数器的类别名称为**LS： WEB – UCWA**。
+UCWA 表中的计数器的类别名称为 **LS： WEB – UCWA**。
 
-Mcx 移动服务表中的计数器的类别名称为**LS： WEB-移动通信服务**。
+Mcx 移动服务表中的计数器的类别名称为 **LS： WEB-移动通信服务**。
 
 <div>
 
@@ -77,8 +79,8 @@ Mcx 移动服务表中的计数器的类别名称为**LS： WEB-移动通信服�
 <td><p>当前的数据协作模态数量</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Directory 照片获取延迟（毫秒）</p></td>
-<td><p>此计数器显示从 active directory 中检索照片的平均时间（以毫秒为单位）</p></td>
+<td><p>Active Directory 照片获取延迟 (毫秒) </p></td>
+<td><p>此计数器显示从 active directory 检索照片的平均时间（以毫秒为单位） () </p></td>
 </tr>
 <tr class="even">
 <td><p>活动邮件模态计数</p></td>
@@ -121,11 +123,11 @@ Mcx 移动服务表中的计数器的类别名称为**LS： WEB-移动通信服�
 <td><p>AV MCU 联接失败的次数</p></td>
 </tr>
 <tr class="even">
-<td><p>应用程序的平均启动时间（毫秒）</p></td>
+<td><p> (毫秒的平均应用程序启动时间) </p></td>
 <td><p>应用程序的平均启动时间（以毫秒为单位）</p></td>
 </tr>
 <tr class="odd">
-<td><p>会话的平均生存期（毫秒）</p></td>
+<td><p>会话 (ms 的平均生存期) </p></td>
 <td><p>会话的平均生存时间（以毫秒为单位）</p></td>
 </tr>
 <tr class="even">
@@ -133,12 +135,12 @@ Mcx 移动服务表中的计数器的类别名称为**LS： WEB-移动通信服�
 <td><p>数据 MCU 联接失败次数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchange 联系人搜索延迟（毫秒）</p></td>
-<td><p>此计数器显示在 Exchange 中搜索联系人的平均时间（以毫秒为单位）</p></td>
+<td><p>Exchange 联系人搜索延迟 (毫秒) </p></td>
+<td><p>此计数器显示在 Exchange 中搜索联系人的平均时间 (（以毫秒为单位）) </p></td>
 </tr>
 <tr class="even">
-<td><p>Exchange HD 照片获取延迟（毫秒）</p></td>
-<td><p>此计数器显示从 Exchange 检索照片的平均时间（以毫秒为单位）</p></td>
+<td><p>Exchange HD 照片获取延迟 (毫秒) </p></td>
+<td><p>此计数器显示从 Exchange 检索照片的平均时间（以毫秒为单位） () </p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTP 4xx 响应数/秒</p></td>
@@ -190,7 +192,7 @@ Mcx 移动服务表中的计数器的类别名称为**LS： WEB-移动通信服�
 </tr>
 <tr class="odd">
 <td><p>Requests Succeeded/Second</p></td>
-<td><p>每秒成功请求的速率（HTTP 2xx/3xx 响应代码）</p></td>
+<td><p>每秒成功请求 (HTTP 2xx/3xx 响应代码的速率) </p></td>
 </tr>
 <tr class="even">
 <td><p>已成功创建应用程序请求/秒</p></td>

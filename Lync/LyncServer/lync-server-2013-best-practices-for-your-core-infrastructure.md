@@ -12,20 +12,22 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce25a61ef74c38b5455b7b8d437b43d24e12397e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 087cfed02e3b28df88508446c57e451f42ef067c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206739"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512999"
 ---
+# <a name="best-practices-for-your-core-infrastructure-in-lync-server-2013"></a>Lync Server 2013 中核心基础结构的最佳做法
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-your-core-infrastructure-in-lync-server-2013"></a>Lync Server 2013 中核心基础结构的最佳做法
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2014-01-27_
 
 为了帮助保护 Lync Server 2013 部署中的服务器，避免因意外或故意损害可能导致停机的情况，请采取以下预防措施：
 
-  - 使用安全更新使服务器保持最新状态。 订阅 Microsoft 安全性通知服务有助于确保您收到任何 Microsoft 产品的安全公告发布的最新通知。 若要订阅，请访问 Microsoft 技术安全通知网站， [https://go.microsoft.com/fwlink/p/?LinkId=145202](https://go.microsoft.com/fwlink/p/?linkid=145202)网址为。
+  - 使用安全更新使服务器保持最新状态。 订阅 Microsoft 安全性通知服务有助于确保您收到任何 Microsoft 产品的安全公告发布的最新通知。 若要订阅，请访问 Microsoft 技术安全通知网站，网址为 [https://go.microsoft.com/fwlink/p/?LinkId=145202](https://go.microsoft.com/fwlink/p/?linkid=145202) 。
 
   - 确保正确设置访问权限。
 

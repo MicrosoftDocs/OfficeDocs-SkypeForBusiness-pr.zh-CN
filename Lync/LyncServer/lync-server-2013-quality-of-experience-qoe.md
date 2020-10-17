@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：丰富的体验质量（QoE）
+title: 'Lync Server 2013： (QoE 的体验质量) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55312d4043a140f51ec4805550555d2a0ff23a43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 899cd5b23cf4823e9d65803e6e8f651e04a4e9b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183365"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512049"
 ---
+# <a name="quality-of-experience-qoe-in-lync-server-2013"></a>Lync Server 2013 中 (QoE) 的体验质量
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="quality-of-experience-qoe-in-lync-server-2013"></a>Lync Server 2013 中的体验质量（QoE）
+
 
 </div>
 

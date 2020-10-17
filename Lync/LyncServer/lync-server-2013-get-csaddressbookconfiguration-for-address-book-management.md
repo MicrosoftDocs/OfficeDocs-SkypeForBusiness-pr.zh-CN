@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：用于通讯簿管理的 CsAddressBookConfiguration
+title: Lync Server 2013：用于通讯簿管理的 Get-CsAddressBookConfiguration
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185264
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a055a91aa3f082a48d2defa73cc9a40f7c4a298e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 03a13705381c127a6c2c04e7c4ffa70214c49cb6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181285"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512639"
 ---
+# <a name="get-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的通讯簿管理 Get-CsAddressBookConfiguration
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="get-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的 CsAddressBookConfiguration for Address Book management
+
 
 </div>
 

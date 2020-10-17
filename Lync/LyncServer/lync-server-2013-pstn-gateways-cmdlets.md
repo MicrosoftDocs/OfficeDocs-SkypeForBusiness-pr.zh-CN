@@ -12,20 +12,22 @@ ms:contentKeyID: 48184397
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52930a4a6f1e128630a96254e9b84d8806776c81
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eb162c2f4103c8dc6a1941e3f528b9de75bb0bc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183527"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512449"
 ---
+# <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 网关 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 网关 cmdlet
+
 
 </div>
 

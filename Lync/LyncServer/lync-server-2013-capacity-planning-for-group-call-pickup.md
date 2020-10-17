@@ -12,20 +12,22 @@ ms:contentKeyID: 51476680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0fa12b04507e5b42767d551af4b4b9c004175b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c073ea360e00b196e6cf30b6bb6f204d37532ae0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207598"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512809"
 ---
+# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中组呼叫应答的容量规划
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中组呼叫应答的容量规划
+
 
 </div>
 
@@ -61,8 +63,8 @@ _**上次修改的主题：** 2013-02-12_
 </colgroup>
 <thead>
 <tr class="header">
-<th>多重</th>
-<th>每个前端池（包含8台前端服务器）</th>
+<th>跃点数</th>
+<th>每个前端池 (8 台前端服务器) </th>
 <th>每台 Standard Edition Server</th>
 </tr>
 </thead>
@@ -104,7 +106,7 @@ _**上次修改的主题：** 2013-02-12_
 > <LI>
 > <P>对于少于八台前端服务器的前端池，以线性方式计算指标。 例如，如果您的前端池有一个前端服务器，则计算表中显示的值的最大负载为1/8。</P>
 > <LI>
-> <P>只要您不超过每个池的最大用户数，您就可以按组和组数增加或减少建议的用户数。 例如，您的 Standard Edition server 可以拥有每组25个用户的120组，因为对组呼叫应答启用的用户数量仍在用户模型中的最大值（即，120组数25个用户3000是为用户启用组内呼叫应答的用户）。</P></LI></UL>
+> <P>只要您不超过每个池的最大用户数，您就可以按组和组数增加或减少建议的用户数。 例如，您的 Standard Edition server 可以拥有每组25个用户的120组，因为为组内呼叫应答启用的用户数量仍在用户模型中的最大 (，120组数25个用户3000是为用户启用组内呼叫应答) 的用户。</P></LI></UL>
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f996e8f15707a0c676ea77a6ffaeb5e6943ac48c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 026ceb24ef3e046d6d800db4ba82381c8905b99d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183495"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512399"
 ---
+# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Lync Server 2013 中的公共即时消息支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="public-instant-messaging-support-in-lync-server-2013"></a>Lync Server 2013 中的公共即时消息支持
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183495"
 
 _**上次修改的主题：** 2013-10-07_
 
-Lync Server 2013 支持使用许可的公共即时消息（IM）连接提供程序，以及使用可扩展消息和状态协议（XMPP）来实现一种特殊类型的联合，以使 Lync Server 能够访问配置的 XMPP使用 Lync 2013 客户端的域合作伙伴。
+Lync Server 2013 支持使用许可的公共即时消息 (IM) 连接提供程序，以及使用可扩展邮件和状态协议 (XMPP) 实现一种特殊类型的联盟，使 Lync Server 能够使用 Lync 2013 客户端访问配置的 XMPP 域合作伙伴。
 
 <div>
 
@@ -51,7 +53,7 @@ Lync Server 2013 支持使用许可的公共即时消息（IM）连接提供程�
 
   - Yahoo\!
 
-对于与 Windows Live 用户的通信，Lync Server 2013 支持对等 IM 和音频和视频呼叫。 对于与 AOL 和 Yahoo\!的通信，Lync Server 2013 支持对等 IM。 可能需要单独的许可证。
+对于与 Windows Live 用户的通信，Lync Server 2013 支持对等 IM 和音频和视频呼叫。 对于与 AOL 和 Yahoo 的通信 \! ，Lync Server 2013 支持对等 IM。 可能需要单独的许可证。
 
 <div>
 
@@ -59,7 +61,7 @@ Lync Server 2013 支持使用许可的公共即时消息（IM）连接提供程�
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
+> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证 ( "PIC USL" ) 不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
 > <LI>
 > <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力因 Yahoo！中的支持而受到了支持，其下凸的底层协议。</P>
 > <LI>

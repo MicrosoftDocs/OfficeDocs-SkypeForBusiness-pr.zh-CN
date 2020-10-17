@@ -12,20 +12,22 @@ ms:contentKeyID: 48185644
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b74e1f773f449c139beeb1819d69ba77e92c500e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a72bfcf9facfeaa3ca943275d9cdcb3b1ac7705
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512039"
 ---
+# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>安全配置向导在 IIS 中关闭端口后重新激活服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>安全配置向导在 IIS 中关闭端口后重新激活服务器
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183375"
 
 _**上次修改的主题：** 2012-10-01_
 
-某些 Lync Server 2013 角色在 Internet Information Services （IIS）端口4443上运行 Web 服务。 运行 Lync Server 部署向导、引导程序或使用**CsComputer** cmdlet 会在防火墙中创建一个例外，并打开该端口。 如果您随后运行 Windows Server 2008 R2 安全配置向导（或其他强化脚本），端口4443将被阻止，并且外部客户端将无法联系 Web 服务。 要重新打开该端口，可以直接修改防火墙例外，也可以重新激活服务器。
+某些 Lync Server 2013 角色在 Internet 信息服务上运行 Web 服务 (IIS) 端口4443。 运行 Lync Server 部署向导、Bootstrapper.exe 或使用 **CsComputer** cmdlet 会在防火墙中创建一个例外，并打开该端口。 如果随后运行 Windows Server 2008 R2 安全配置向导 (或其他强化脚本) ，端口4443将被阻止，并且外部客户端将无法联系 Web 服务。 要重新打开该端口，可以直接修改防火墙例外，也可以重新激活服务器。
 
 <div>
 

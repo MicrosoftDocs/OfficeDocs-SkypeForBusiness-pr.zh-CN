@@ -12,20 +12,22 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacf411f348199376e1564be37f683854480872
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdc4bba8064332d7fa3f90d0d6a3d4b9f6cef9e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512779"
 ---
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>证书摘要-Lync Server 2013 中的公共即时消息连接
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>证书摘要-Lync Server 2013 中的公共即时消息连接
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187405"
 
 _**上次修改的主题：** 2013-02-19_
 
-若要为公用即时消息连接配置证书，应首先注意到，与其他 SIP 联合类型或即使是标准边缘服务器证书没有什么不同，只是美国 Online （AOL）需要唯一证书配置。 除了通常的服务器增强型密钥用法（EKU），美洲 Online 还需要证书或证书（如果是边缘池）也包含客户端 EKU。 客户端 EKU 是对证书的补充，并且是分配给边缘服务器的外部公用证书的一部分。
+若要为公用即时消息连接配置证书，应首先注意到其他 SIP 联合类型或即使是标准边缘服务器证书没有什么不同，只是北美在线 (AOL) 需要唯一的证书配置。 除了通常的服务器增强型密钥使用 (EKU) 中，美洲 Online 还需要证书或证书 (在边缘池的情况下，) 也包含客户端 EKU。 客户端 EKU 是对证书的补充，并且是分配给边缘服务器的外部公用证书的一部分。
 
 <div>
 
@@ -56,7 +58,7 @@ _**上次修改的主题：** 2013-02-19_
 <th>组件</th>
 <th>使用者名称</th>
 <th>使用者替代名称 (SAN)/顺序</th>
-<th>备注</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>

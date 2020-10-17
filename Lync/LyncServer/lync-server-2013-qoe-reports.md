@@ -12,20 +12,22 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353e0941f443e2cb971f8ebd037413232e21b827
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 69caa96c6f0e49d472f13da11b34f7d199322184
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183425"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512179"
 ---
+# <a name="qoe-reports-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="qoe-reports-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 报告
+
 
 </div>
 
@@ -65,9 +67,9 @@ QoE 性能报告提供了有关三个报告的详细信息，这些报告集中�
 
 ## <a name="mediation-server-performance-report"></a>中介服务器性能报告
 
-中介服务器性能报告列出了在指定时间段内由一个或多个中介实现的指标。 统一通信（UC）到中介服务器腿的指标和每个呼叫的中介服务器到网关的线路分别报告。 使用此报告可比较组织的各种中介服务器的容量和性能。
+中介服务器性能报告列出了在指定时间段内由一个或多个中介实现的指标。 统一通信 (UC) 到中介服务器腿的指标和每个呼叫的中介服务器到网关腿分别报告。 使用此报告可比较组织的各种中介服务器的容量和性能。
 
-对于每个中介服务器（和每个呼叫腿），报告将显示以下内容：
+对于每个中介服务器 (和每个呼叫腿) ，报告将显示以下内容：
 
   - 呼叫数
 
@@ -77,7 +79,7 @@ QoE 性能报告提供了有关三个报告的详细信息，这些报告集中�
 
   - 抖动
 
-  - 会话平均意见得分（MOS）
+  - 会话平均意见分数 (MOS) 
 
   - 发送 MOS
 
@@ -109,7 +111,7 @@ A/V 会议服务器性能报告提供了在指定时间段内由一个或多个 
 
   - 抖动
 
-  - 会话平均意见得分（MOS）
+  - 会话平均意见分数 (MOS) 
 
   - 发送 MOS
 
@@ -129,11 +131,11 @@ A/V 会议服务器性能报告提供了在指定时间段内由一个或多个 
 
 ## <a name="location-based-performance-report"></a>基于位置的性能报告
 
-基于位置的性能报告提供了网络位置的列表，每个位置都显示了每个预先确定的质量范围内的呼叫数。 此报告的目标是提供对各种位置的组织电话呼叫的媒体质量的深入了解，以便您能够识别出性能不佳的位置，并在组织中查看不同等级的媒体质量不同的位置。
+Location-Based 性能报告提供了一个网络位置列表，每个位置都显示了每个预先确定的质量范围内的呼叫数。 此报告的目标是提供对各种位置的组织电话呼叫的媒体质量的深入了解，以便您能够识别出性能不佳的位置，并在组织的不同位置查看不同的媒体质量等级。
 
 显示报表时，将显示不同的指标表，即组织决定报告的每个指标的一个表。 您可以从此报告的以下指标中进行选择：
 
-  - 会话平均意见得分（MOS）
+  - 会话平均意见分数 (MOS) 
 
   - 网络 MOS
 

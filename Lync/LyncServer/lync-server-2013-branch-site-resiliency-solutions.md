@@ -12,20 +12,22 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42ede6730357f50967f13089e02e32ad1a21d8ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 25541f7681ece7b299d6e4c8076fb190382650ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512979"
 ---
+# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Lync Server 2013 中的分支站点恢复解决方案
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Lync Server 2013 中的分支站点恢复解决方案
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42196575"
 
 _**上次修改的主题：** 2014-12-10_
 
-为组织提供分支站点复原的好处显而易见。 具体来说，如果您失去了与中央站点的连接，分支站点用户将继续拥有企业语音服务和语音邮件（如果配置了语音邮件重新路由设置，请参阅[Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)）。 但是，对于用户少于 25 名的站点，复原解决方案可能无法为投资带来相应的回报。
+为组织提供分支站点复原的好处显而易见。 具体来说，如果您失去了与中央站点的连接，分支站点用户将继续拥有企业语音服务和语音邮件 (如果您配置了语音邮件重新路由设置，则有关详细信息，请参阅 [Lync Server 2013) 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md) 。 但是，对于用户少于 25 名的站点，复原解决方案可能无法为投资带来相应的回报。
 
 如果决定提供分支站点复原，有三个选项可供使用。使用下表帮助确定最适合贵组织的选项。
 
@@ -60,21 +62,21 @@ _**上次修改的主题：** 2014-12-10_
 <tr class="odd">
 <td><p>分支站点承载 25 到 1000 位用户，并且投资回报不支持完整部署，或本地管理支持不可用</p></td>
 <td><p>Survivable Branch Appliance</p>
-<p>Survivable 分支设备是行业标准刀片服务器，其中包含在 Windows Server 2008 R2 上运行的 Lync Server 注册台和中介服务器。 Survivable 分支设备还包含一个公共交换电话网络（PSTN）网关。 合格第三方设备（由 Microsoft 合作伙伴在 Survivable Branch Appliance (SBA) 资格鉴定/认证计划中开发）在 WAN 发生故障时可以提供连续的 PSTN 连接，但不能提供可恢复的状态和会议，因为这些功能依赖于中央站点的前端服务器。</p>
-<p>有关 Survivable 分支设备的详细信息， &quot;请参阅本主题&quot;后面的 Survivable 分支设备详细信息。</p>
-<p><strong>注意：</strong>如果您决定还要将 SIP 中继与您的 Survivable 分支设备一起使用，请联系您的 Survivable 分支设备供应商，了解最适合您的组织的服务提供商。</p></td>
+<p>Survivable 分支设备是行业标准刀片服务器，其中包含在 Windows Server 2008 R2 上运行的 Lync Server 注册台和中介服务器。 Survivable 分支设备还包含公开交换电话网络 (PSTN) 网关。 合格第三方设备（由 Microsoft 合作伙伴在 Survivable Branch Appliance (SBA) 资格鉴定/认证计划中开发）在 WAN 发生故障时可以提供连续的 PSTN 连接，但不能提供可恢复的状态和会议，因为这些功能依赖于中央站点的前端服务器。</p>
+<p>有关 Survivable 分支设备的详细信息，请参阅 &quot; &quot; 本主题后面的 Survivable 分支设备详细信息。</p>
+<p><strong>注意：</strong> 如果您决定还要将 SIP 中继与您的 Survivable 分支设备一起使用，请联系您的 Survivable 分支设备供应商，了解最适合您的组织的服务提供商。</p></td>
 </tr>
 <tr class="even">
 <td><p>在分支站点上的1000和2000用户之间的主机，缺少一个强健的 WAN 连接，并且已培训的 Lync Server 管理员可用</p></td>
 <td><p>Survivable 分支服务器或两个 Survivable 分支装置。</p>
 <p>Survivable 分支服务器是一个 Windows Server 会议指定的硬件要求，其中安装了 Lync Server 注册器和中介服务器软件。 它必须连接到 PSTN 网关或电话服务提供商的 SIP 中继。</p>
-<p>有关 Survivable 分支服务器的详细信息， &quot;请参阅本主题&quot;后面的 Survivable 分支服务器详细信息。</p></td>
+<p>有关 Survivable 分支服务器的详细信息，请参阅 &quot; &quot; 本主题后面的 Survivable 分支服务器详细信息。</p></td>
 </tr>
 <tr class="odd">
 <td><p>如果你除了支持最高5000个用户的语音功能之外还需要状态和会议功能，并且已培训的 Lync Server 管理员可用</p></td>
 <td><p>将 Standard Edition Server 部署为中央站点，而非分支站点。</p>
 <p>在出现 WAN 故障时，完全规模的 Lync Server 部署可提供连续的 PSTN 连接和弹性状态和会议。</p>
-<p>有关准备此解决方案的详细信息，请参阅<a href="lync-server-2013-planning-for-your-organization.md">组织规划 Lync server 2013</a>、<a href="lync-server-2013-determining-your-system-requirements.md">确定 lync server 2013 的系统要求</a>、<a href="lync-server-2013-determining-your-infrastructure-requirements.md">确定 lync server 2013 的基础结构要求</a>以及规划文档的其他相关部分。</p></td>
+<p>有关准备此解决方案的详细信息，请参阅 <a href="lync-server-2013-planning-for-your-organization.md">组织规划 Lync server 2013</a>、 <a href="lync-server-2013-determining-your-system-requirements.md">确定 lync server 2013 的系统要求</a>、 <a href="lync-server-2013-determining-your-infrastructure-requirements.md">确定 lync server 2013 的基础结构要求</a>以及规划文档的其他相关部分。</p></td>
 </tr>
 </tbody>
 </table>
@@ -108,7 +110,7 @@ Lync Server Survivable 分支设备包括以下组件：
 
 Survivable 分支设备还包括 PSTN 中继、模拟端口和以太网适配器。
 
-如果到中央站点的分支站点的 WAN 连接不可用，则内部分支用户将继续使用 Survivable 分支设备注册器进行注册，并通过使用 Survivable 分支设备连接获取不间断语音服务。PSTN。 从主机或其他远程位置进行连接的分支站点用户，可在连接到分支站点的 WAN 链路不可用时，在中央站点上的注册服务器中注册。 这些用户将具有完整的统一通信功能，一个例外是分支站点的入站呼叫将转到语音邮件。 WAN 连接可用时，将为分支站点用户恢复完整功能。 无论是故障转移到 Survivable 分支设备还是服务还原，都不需要 IT 管理员。
+如果到中央站点的分支站点的 WAN 连接不可用，则内部分支用户将继续使用 Survivable 分支设备注册器进行注册，并通过使用 Survivable 分支装置连接到 PSTN 来获得不间断的语音服务。 从主机或其他远程位置进行连接的分支站点用户，可在连接到分支站点的 WAN 链路不可用时，在中央站点上的注册服务器中注册。 这些用户将具有完整的统一通信功能，一个例外是分支站点的入站呼叫将转到语音邮件。 WAN 连接可用时，将为分支站点用户恢复完整功能。 无论是故障转移到 Survivable 分支设备还是服务还原，都不需要 IT 管理员。
 
 Lync Server 最高支持分支站点上的两个 Survivable 分支装置。
 
@@ -128,7 +130,7 @@ Lync Server 最高支持分支站点上的两个 Survivable 分支装置。
 
 Survivable 分支设备由与 Microsoft 合作的原始设备制造商生产，并由增值零售商代表它们部署。 只有在中央站点部署了 Lync Server，与分支站点的 WAN 连接已就位，并为其启用了企业语音的分支站点用户，才应进行此部署。
 
-有关这些阶段的详细信息，请参阅部署文档中的[使用 Lync Server 2013 部署 Survivable 分支装置或服务器](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)。
+有关这些阶段的详细信息，请参阅部署文档中的 [使用 Lync Server 2013 部署 Survivable 分支装置或服务器](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md) 。
 
 
 <table>
@@ -149,8 +151,8 @@ Survivable 分支设备由与 Microsoft 合作的原始设备制造商生产，�
 <td><p>为 Survivable 分支设备设置 Active Directory 域服务</p></td>
 <td><p><strong>在中央站点：</strong></p>
 <ol>
-<li><p>为将在分支站点安装和激活 Survivable 分支设备的技术人员创建域用户帐户（或企业标识）。</p></li>
-<li><p>为 Active Directory 域服务中的 Survivable 分支设备创建计算机帐户（包含适用的完全限定域名（FQDN））。</p></li>
+<li><p>为将在分支站点安装和激活 Survivable 分支设备的技术人员创建域用户帐户 (或企业标识) 。</p></li>
+<li><p>使用 Active Directory 域服务中 Survivable 分支设备的适用的完全限定的域名 (FQDN) # A3 创建计算机帐户 (。</p></li>
 <li><p>在拓扑生成器中，创建并发布 Survivable 分支设备。</p></li>
 </ol></td>
 <td><p>技术人员用户帐户必须是 RTCUniversalSBATechnicians 的成员。 Survivable 分支设备必须属于 RTCSBAUniversalServices 组，这是在使用拓扑生成器时自动发生的。</p></td>

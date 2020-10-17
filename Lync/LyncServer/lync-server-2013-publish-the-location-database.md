@@ -12,20 +12,22 @@ ms:contentKeyID: 48185598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b773e5332ba05d20da9ece0b7ecb521d664e3b49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 481a8406eeeec6fce25c19336519c4a9bf19da82
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201668"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512369"
 ---
+# <a name="publish-the-location-database-from-lync-server-2013"></a>从 Lync Server 2013 发布位置数据库
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-location-database-from-lync-server-2013"></a>从 Lync Server 2013 发布位置数据库
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-30_
 
   - **发布-CsLisConfiguration**
 
-如果您使用紧急位置标识号（ELIN）网关，则还需要将 Elin 上载到公共交换电话网络（PSTN）运营商的自动位置标识（阿里）数据库。 您的 PSTN 运营商可能要求您对 ELIN 记录使用特定的格式。 有关详细信息，请与 PSTN 运营商联系。 您可以从位置信息服务数据库中导出记录，并根据需要对其进行格式设置。
+如果使用的是紧急位置标识号 (ELIN) 网关，则还需要将 Elin 上载到公共交换电话网络 (PSTN) 运营商的自动位置标识 (阿里) database。 您的 PSTN 运营商可能要求您对 ELIN 记录使用特定的格式。 有关详细信息，请与 PSTN 运营商联系。 您可以从位置信息服务数据库中导出记录，并根据需要对其进行格式设置。
 
 <div>
 

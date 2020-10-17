@@ -12,20 +12,22 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e02c5493f8582d401ea02df3f94cd2df57e0093
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abb3a1b13bf7357a0a2ee31180557911fc37ae0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214888"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511759"
 ---
+# <a name="response-group-call-list-report-in-lync-server-2013"></a>Lync Server 2013 中的响应组呼叫列表报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-call-list-report-in-lync-server-2013"></a>Lync Server 2013 中的响应组呼叫列表报告
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214888"
 
 _**上次修改的主题：** 2013-02-22_
 
-响应组应用程序为 Microsoft Lync Server 2013 提供了一种方法，以根据拨打的号码和呼叫者对一系列问题的响应（可选）应答和路由电话呼叫。 通常，响应组呼叫不路由到单个人员，而是路由到称为代理组的一组人员。 例如，如果有人呼叫帮助台的电话号码，Lync Server 2013 可以自动将该呼叫路由到第一个可用的技术支持代理。 或者，Lync Server 可以询问一系列问题（"如果遇到硬件问题，请按1。 如果您有软件问题，请按 2。 如果遇到网络问题，请按3。），然后根据这些问题的答案将呼叫路由到最合适的技术支持代理。
+响应组应用程序为 Microsoft Lync Server 2013 提供了一种方法，以根据拨打的号码和呼叫者对一系列问题的响应（可选）应答和路由电话呼叫。 通常，响应组呼叫不路由到单个人员，而是路由到称为代理组的一组人员。 例如，如果有人呼叫帮助台的电话号码，Lync Server 2013 可以自动将该呼叫路由到第一个可用的技术支持代理。 或者，如果遇到硬件问题，Lync Server 可以 ( "请按1来提出一系列问题。 如果您有软件问题，请按 2。 如果遇到网络问题，请按3。) ，然后根据这些问题的答案将呼叫路由到最合适的技术支持代理。
 
 响应组呼叫列表报告代表针对指定的时间段和指定的呼叫类型所进行的呼叫集合。响应组使用报告（必需先打开该报告，才能打开响应组呼叫列表报告）可识别以下呼叫类型：
 
@@ -57,7 +59,7 @@ _**上次修改的主题：** 2013-02-22_
 
 ## <a name="accessing-the-response-group-call-list-report"></a>访问响应组呼叫列表报告
 
-只能通过单击在[Lync Server 2013 的 "响应组使用率" 报表中](lync-server-2013-response-group-usage-report.md)找到的以下指标之一来访问响应组呼叫列表报告：
+只能通过单击在 [Lync Server 2013 的 "响应组使用率" 报表中](lync-server-2013-response-group-usage-report.md)找到的以下指标之一来访问响应组呼叫列表报告：
 
   - 收到的呼叫
 
@@ -77,7 +79,7 @@ _**上次修改的主题：** 2013-02-22_
 
 响应组呼叫列表报告允许您将所显示的数据限制为涉及特定响应组工作流的呼叫。为执行此操作，需要在“工作流 URI”框中输入工作流 URI（工作流的 SIP 地址）。但是，您必须实际上能够看到“工作流 URI”框，才能执行此操作。要显示响应组呼叫列表报告的筛选选项，请单击报告窗口左上部分的“显示/隐藏参数”按钮。
 
-请注意，如果将鼠标停留在其中任一指标上，响应组呼叫列表不会显示有关响应代码或诊断 ID 的信息。 如果你需要详细信息，你可能会注意到响应代码和/或诊断 ID，然后在[Lync Server 2013 的 "热门故障" 报告中](lync-server-2013-top-failures-report.md)搜索这些值。
+请注意，如果将鼠标停留在其中任一指标上，响应组呼叫列表不会显示有关响应代码或诊断 ID 的信息。 如果你需要详细信息，你可能会注意到响应代码和/或诊断 ID，然后在 [Lync Server 2013 的 "热门故障" 报告中](lync-server-2013-top-failures-report.md)搜索这些值。
 
 对于类似如下的问题：“哪个个别工作流收到的呼叫数最多？”，您可以执行以下操作：
 
@@ -87,7 +89,7 @@ _**上次修改的主题：** 2013-02-22_
 
 3.  使用 Windows PowerShell 运行您的分析。
 
-例如，如果已将数据保存到名为 C\\： data\\Response\_Group\_Call\_List\_Report .csv 的文件中，则可以使用以下命令返回报告中列出的每个工作流收到的呼叫总数：
+例如，如果已将数据保存到名为 C： \\ data \\ Response \_ Group \_ Call \_ ListReport.csv 的文件 \_ 中，则可以使用以下命令返回报告中列出的每个工作流的已接收呼叫总数：
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
@@ -150,7 +152,7 @@ _**上次修改的主题：** 2013-02-22_
 <p>sip:helpdesk@litwareinc.com</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>呼叫</strong></p></td>
+<td><p><strong>通话</strong></p></td>
 <td><p>可以选择以下呼叫类型之一：</p>
 <ul>
 <li><p>收到的呼叫</p></li>

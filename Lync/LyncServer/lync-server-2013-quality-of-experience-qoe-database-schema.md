@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：体验质量（QoE）数据库架构
+title: Lync Server 2013： (QoE) 数据库架构的经验质量
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41170cac42d31c73480e2082078082702553d3f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f0c626db4a4256f07a52d469af2e0aa66565f08e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183355"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512119"
 ---
+# <a name="quality-of-experience-qoe-database-schema-in-lync-server-2013"></a>Lync Server 2013 中 (QoE) 数据库架构的体验质量
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="quality-of-experience-qoe-database-schema-in-lync-server-2013"></a>Lync Server 2013 中的体验质量（QoE）数据库架构
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183355"
 
 _**上次修改的主题：** 2012-10-03_
 
-这篇文档介绍了 Microsoft Lync Server 2010 通信软件中的体验质量（QoE）数据库的架构。
+这篇文档介绍了 Microsoft Lync Server 2010 通信软件中 (QoE) 数据库的经验质量架构。
 
 <div>
 

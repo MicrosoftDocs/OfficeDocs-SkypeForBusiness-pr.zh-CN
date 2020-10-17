@@ -12,20 +12,22 @@ ms:contentKeyID: 48185034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddb3a0e781b5f505cb5a63d36eda73b98629e19b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b43adbf088e696b38ff8159e87e2b5b4e8608d38
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213298"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512659"
 ---
+# <a name="gateways-table-in-lync-server-2013"></a>Lync Server 2013 中的网关表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="gateways-table-in-lync-server-2013"></a>Lync Server 2013 中的网关表
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213298"
 
 _**上次修改的主题：** 2010-11-05_
 
-网关表是支持表。 每个记录存储在数据库中具有记录的公用电话交换网（PSTN）呼叫中涉及的一个网关的相关信息。
+网关表是支持表。 每个记录存储有关数据库中包含记录的公共交换电话网络 (PSTN) 呼叫中涉及的一个网关的信息。
 
 
 <table>
@@ -64,7 +66,7 @@ _**上次修改的主题：** 2010-11-05_
 </tr>
 <tr class="even">
 <td><p><strong>网关</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p> </p></td>
 <td><p>网关名称。</p></td>
 </tr>

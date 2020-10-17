@@ -12,20 +12,22 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5dd9ba479fff51491c1240ec42941615f7c476da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 079d1517afa72eeff607920d86b093ac01d673de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199525"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512829"
 ---
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Lync Server 2013 中呼叫寄存的容量规划
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Lync Server 2013 中呼叫寄存的容量规划
+
 
 </div>
 
@@ -61,8 +63,8 @@ _**上次修改的主题：** 2012-09-13_
 </colgroup>
 <thead>
 <tr class="header">
-<th>多重</th>
-<th>每个前端池（包含8台前端服务器）</th>
+<th>跃点数</th>
+<th>每个前端池 (8 台前端服务器) </th>
 <th>每台 Standard Edition Server</th>
 </tr>
 </thead>
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2012-09-13_
 </tr>
 <tr class="odd">
 <td><p>平均寄存持续时间</p></td>
-<td><p>60 秒。</p></td>
+<td><p>60 秒</p></td>
 <td><p>60 秒</p></td>
 </tr>
 </tbody>

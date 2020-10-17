@@ -12,20 +12,22 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18f24d99a8b22c78acd32efdb5867c92a5621fe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c6bb3c7dcd8d03ffb0a57fb165fe1dba4ee933d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191245"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512799"
 ---
+# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的容量规划
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的容量规划
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42191245"
 
 _**上次修改的主题：** 2012-10-05_
 
-持久聊天服务器可以执行多用户实时聊天，可以持续进行，以便将来检索和搜索。 与存储在用户邮箱中的组即时消息（IM）不同，如果配置了对话历史记录，持久聊天服务器会话将保持打开状态，并将内容保存在服务器上，同时还会在邮件、文件、Url 和其他属于正在进行对话。
+持久聊天服务器可以执行多用户实时聊天，可以持续进行，以便将来检索和搜索。 与在用户邮箱中保存的组即时消息 (IM) 的不同之处是，如果配置了对话历史记录，则持久聊天服务器会话将保持打开状态，并将内容保存在服务器上，同时还会在正在进行的会话中的邮件、文件、Url 和其他数据中进行保存。
 
 容量规划是准备部署持久聊天服务器的重要部分。 本主题提供了有关受支持的持久聊天服务器拓扑和容量规划表的详细信息，您可以使用这些表来确定适用于您的部署的最佳配置。 此外，还介绍了如何最好地管理在高峰时间需要更大容量的持久聊天服务器部署。
 
-若要下载持久聊天服务器，请参阅在上的[https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)"Microsoft Lync Server 13 持久聊天服务器"。
+若要下载持久聊天服务器，请参阅在上的 "Microsoft Lync Server 13 持久聊天服务器" [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539) 。
 
-有关安装持久聊天服务器的详细信息，请参阅部署文档中的在[Lync server 2013 中安装持久聊天服务器](lync-server-2013-installing-persistent-chat-server.md)和[在 lync Server 2013 中配置持久聊天服务器](lync-server-2013-configuring-persistent-chat-server.md)。
+有关安装持久聊天服务器的详细信息，请参阅部署文档中的在 [Lync server 2013 中安装持久聊天服务器](lync-server-2013-installing-persistent-chat-server.md) 和 [在 lync Server 2013 中配置持久聊天服务器](lync-server-2013-configuring-persistent-chat-server.md) 。
 
-支持工具（如 Lync Server 规划工具）可以进一步帮助您进行容量规划。 有关规划工具的详细信息，请参阅规划文档中的[开始规划 Lync Server 2013 的规划过程](lync-server-2013-beginning-the-planning-process.md)。
+支持工具（如 Lync Server 规划工具）可以进一步帮助您进行容量规划。 有关规划工具的详细信息，请参阅规划文档中的 [开始规划 Lync Server 2013 的规划过程](lync-server-2013-beginning-the-planning-process.md) 。
 
 <div>
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-10-05_
 
 
 > [!NOTE]  
-> 有关这两种拓扑的更多详细信息，请参阅部署文档中的在 lync server 2013 中的 "在<A href="lync-server-2013-planning-for-persistent-chat-server.md">lync server 中规划持久聊天服务器</A>" 和 "<A href="lync-server-2013-deploying-persistent-chat-server.md">在 lync Server 2013 中部署持久聊天服务器</A>"。
+> 有关这两种拓扑的更多详细信息，请参阅部署文档中的在 lync server 2013 中的 "在 <A href="lync-server-2013-planning-for-persistent-chat-server.md">lync server 中规划持久聊天服务器</A> " 和 " <A href="lync-server-2013-deploying-persistent-chat-server.md">在 lync Server 2013 中部署持久聊天服务器</A> "。
 
 
 
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2012-10-05_
 
 ## <a name="single-server-topology"></a>单服务器拓扑
 
-持久聊天服务器的最小配置和最简单部署是一个持久聊天服务器前端服务器拓扑。 此部署需要运行持久聊天服务器（如果合规性已启用）的一台服务器、承载 SQL Server 数据库的服务器，以及如果需要合规性，则为 SQL Server 数据库存储合规性数据。
+持久聊天服务器的最小配置和最简单部署是一个持久聊天服务器前端服务器拓扑。 此部署需要运行持久聊天服务器 (的单个服务器，如果符合性已启用，则可以选择运行合规性服务) 、承载 SQL Server 数据库的服务器以及是否需要合规性，以存储合规性数据的 SQL Server 数据库为依据。
 
 <div>
 
@@ -92,7 +94,7 @@ _**上次修改的主题：** 2012-10-05_
 
 ## <a name="multiple-server-topology"></a>多服务器拓扑
 
-若要提供更大的容量和可靠性，可以部署多服务器拓扑，如在[Lync server 2013 中规划持久聊天服务器中](lync-server-2013-planning-for-persistent-chat-server.md)所述。 多服务器拓扑可以包括多达四个运行持久聊天服务器的活动计算机（高可用性和灾难恢复配置允许最多八个，但只有四个活动，并且在待机时剩下四个）。 每个服务器最多可以支持多达20000个并发用户，共80000个并发用户连接到具有4台服务器的持久聊天服务器池。 多服务器拓扑与单服务器拓扑相同，不同之处在于多个服务器承载持久聊天服务器，并且可以扩展到更高级别。 运行持久聊天服务器的多台计算机应驻留在与 Lync Server 和合规性服务相同的 Active Directory 域服务域中。
+若要提供更大的容量和可靠性，可以部署多服务器拓扑，如在 [Lync server 2013 中规划持久聊天服务器中](lync-server-2013-planning-for-persistent-chat-server.md)所述。 多服务器拓扑可以包含多达四个运行持久聊天服务器的活动计算机 (高可用性和灾难恢复配置最多允许8个，但只有四个活动可以处于活动状态，并且在待机) 的其余四个。 每个服务器最多可以支持多达20000个并发用户，共80000个并发用户连接到具有4台服务器的持久聊天服务器池。 多服务器拓扑与单服务器拓扑相同，不同之处在于多个服务器承载持久聊天服务器，并且可以扩展到更高级别。 运行持久聊天服务器的多台计算机应驻留在与 Lync Server 和合规性服务相同的 Active Directory 域服务域中。
 
 下图显示了多个服务器拓扑的所有组件，其中包含多个运行持久聊天服务器、可选合规性服务和独立合规性数据库的计算机。
 
@@ -132,7 +134,7 @@ _**上次修改的主题：** 2012-10-05_
 </tr>
 <tr class="even">
 <td><p>持久聊天服务实例</p></td>
-<td><p><em>8（4必须是非活动的，最多只能有4个活动）</em></p></td>
+<td><p><em>8 (4 必须为非活动状态;最多只能有4个活动) </em></p></td>
 </tr>
 <tr class="odd">
 <td><p>连接的活动用户</p></td>
@@ -150,7 +152,7 @@ _**上次修改的主题：** 2012-10-05_
 </table>
 
 
-在上面的示例中，计划支持持久聊天服务器允许的最大用户数：持久聊天服务的四个服务器/实例（可以有四个更多的被动服务器运行持久聊天服务器以实现高可用性和灾难恢复）和20000个用户（共80000个活动用户）和每个服务器个用户。
+在上面的示例中，计划支持持久聊天服务器允许的最大用户数：持久聊天服务 (的四个服务器/实例可以有四个以上的被动服务器，它们为高可用性和灾难) 恢复提供了四个更多的被动服务器，每个服务器包含20000个用户，总共是80000个活动用户。
 
 </div>
 
@@ -181,7 +183,7 @@ _**上次修改的主题：** 2012-10-05_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>聊天室的大小（连接的用户数）</p></td>
+<td><p>聊天室的大小 (连接的用户数) </p></td>
 <td><p>每个会议室30个</p></td>
 <td><p>每个会议室150</p></td>
 <td><p>每个会议室16000</p></td>
@@ -191,7 +193,7 @@ _**上次修改的主题：** 2012-10-05_
 <td><p>聊天室</p></td>
 <td><p>32000</p></td>
 <td><p>1067</p></td>
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>33077</p></td>
 </tr>
 <tr class="odd">
@@ -209,24 +211,24 @@ _**上次修改的主题：** 2012-10-05_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>打开聊天室（无显式成员资格）</p></td>
+<td><p>打开会议室 (无显式成员资格) </p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
-<td><p>未打开的聊天室（具有显式成员资格的常规聊天室）</p></td>
+<td><p>未打开的聊天室 (带有显式成员资格的常规聊天室) </p></td>
 <td><p>31040</p></td>
 <td><p>1.035</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>32080</p></td>
 </tr>
 <tr class="odd">
-<td><p>大会堂会议室（其他演示者条目）</p></td>
+<td><p>大会堂会议室 (其他演示者条目) </p></td>
 <td><p>0</p></td>
 <td><p>32</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -244,7 +246,7 @@ _**上次修改的主题：** 2012-10-05_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>打开的聊天室的每个聊天室的成员资格列表中的用户组（未显式指定）</p></td>
+<td><p>打开聊天室的每个聊天室的成员资格列表中的用户组 (未明确指定) </p></td>
 <td><p>0</p></td>
 <td><p>0</p></td>
 <td><p>0</p></td>
@@ -260,19 +262,19 @@ _**上次修改的主题：** 2012-10-05_
 <tr class="even">
 <td><p>非打开聊天室的每个聊天室的成员资格列表中的用户组</p></td>
 <td><p>第三章</p></td>
-<td><p>5</p></td>
-<td><p>10 </p></td>
+<td><p>5 </p></td>
+<td><p>10  </p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>每个聊天室的管理器列表中的用户和用户组（对于开放和非打开的会议室）</p></td>
+<td><p>每个聊天室的管理器列表中的用户和用户组 (开放和非打开的会议室) </p></td>
 <td><p>6 </p></td>
 <td><p>6 </p></td>
 <td><p>6 </p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>每个大会堂聊天室的演示者列表中的用户和用户组（针对开放和非打开的会议室）</p></td>
+<td><p>每个大会堂聊天室的演示者列表中的用户和用户组打开和未打开的会议室 () </p></td>
 <td><p>6 </p></td>
 <td><p>6 </p></td>
 <td><p>6 </p></td>
@@ -316,8 +318,8 @@ _**上次修改的主题：** 2012-10-05_
 <tr class="even">
 <td><p>每个用户的聊天室数量</p></td>
 <td><p><em>12</em></p></td>
-<td><p><em>双面</em></p></td>
-<td><p><em>双面</em></p></td>
+<td><p><em>2</em></p></td>
+<td><p><em>2</em></p></td>
 <td><p><em>位</em></p></td>
 </tr>
 <tr class="odd">
@@ -382,7 +384,7 @@ _**上次修改的主题：** 2012-10-05_
 
 在上面的示例中，当您根据建议的准则部署持久聊天服务器时，他们可以跨启用了合规性的四个服务器池处理最多80000个活动用户。
 
-此示例显示了分类为小型（在任意给定时间为30个活动用户）、中型（150活动用户）和大型（16000个活动用户）的聊天工作室。 根据以下总数计算特定大小的聊天室数量：
+本示例显示了在任意给定时间) 、中型 (150 活动用户) 和大型 (16000 活跃用户) 中分类为 (30 个活动用户的聊天工作室。 根据以下总数计算特定大小的聊天室数量：
 
   - 系统中的活动用户数量
 
@@ -390,7 +392,7 @@ _**上次修改的主题：** 2012-10-05_
 
   - 单个用户加入的给定大小的聊天室数量
 
-对于每个聊天室，上述容量规划表指定与聊天室相关联的访问控制条目数，包括直接分配到聊天室的条目。 您可以通过使用访问控制列表（Acl）来控制对各个聊天室的访问。 您还可以在类别级别控制访问权限。 在 ACL 中，单个访问控制项可以是用户组（例如，安全组、通讯组列表或单个用户）。 您可以为聊天室管理者、演示者和成员定义访问控制条目。
+对于每个聊天室，上述容量规划表指定与聊天室相关联的访问控制条目数，包括直接分配到聊天室的条目。 您可以通过使用访问控制列表 (Acl) 来控制对各个聊天室的访问。 您还可以在类别级别控制访问权限。 在 ACL 中，单个访问控制项可以是用户组（例如，安全组、通讯组列表或单个用户）。 您可以为聊天室管理者、演示者和成员定义访问控制条目。
 
 <div>
 
@@ -408,9 +410,9 @@ _**上次修改的主题：** 2012-10-05_
 
 ## <a name="capacity-planning-for-managing-chat-room-access-by-invitation"></a>管理邀请的聊天室访问的容量规划
 
-您可以使用以下容量规划表来了解持久聊天服务器在配置为发送邀请时在持久聊天数据库中创建和存储的邀请数。 您可以使用 Lync Server 控制面板中的 "**聊天室类别设置**" 页或使用 Windows PowerShell Cmdlet 管理类别上的邀请。 **csPersistentChatCategory**。 您可以使用从 Lync 客户端启动的**会议室管理**页面或使用 Windows PowerShell Cmdlet （ **set-cspersistentchatroom**）来管理聊天室上的邀请（根据类别允许的方式）。
+您可以使用以下容量规划表来了解持久聊天服务器在配置为发送邀请时在持久聊天数据库中创建和存储的邀请数。 您可以使用 Lync Server 控制面板中的 " **聊天室类别设置** " 页或使用 Windows PowerShell Cmdlet 管理类别上的邀请。 **csPersistentChatCategory**。 您可以通过使用从 Lync 客户端启动的 " **会议室管理** " 页或使用 Windows PowerShell cmdlet **set-cspersistentchatroom**在 (聊天室上管理邀请，具体取决于该类别允许的) 。
 
-下表中的示例数据假定，在所有聊天室的50% 的**聊天室设置**页上，"**邀请**" 选项设置为 **"是"**。
+下表中的示例数据假定，在所有聊天室的50% 的 **聊天室设置** 页上，" **邀请** " 选项设置为 **"是"**。
 
 <div>
 
@@ -492,14 +494,14 @@ _**上次修改的主题：** 2012-10-05_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>每个会议室的聊天速率（每天）</p></td>
+<td><p>每天 (每个会议室的聊天费率) </p></td>
 <td><p>50</p></td>
 <td><p>500</p></td>
 <td><p>100</p></td>
 <td><p>650</p></td>
 </tr>
 <tr class="odd">
-<td><p>所有聊天室的聊天速率（每秒）</p></td>
+<td><p>所有聊天室每秒 (的聊天速率) </p></td>
 <td><p>55.56</p></td>
 <td><p>18.52</p></td>
 <td><p>0.03</p></td>
@@ -515,19 +517,19 @@ _**上次修改的主题：** 2012-10-05_
 <tr class="odd">
 <td><p>每个用户每天的聊天速率</p></td>
 <td><p>15 </p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>0.1</p></td>
 <td><p>20</p></td>
 </tr>
 <tr class="even">
-<td><p>每个会议室的聊天速率（每天）</p></td>
+<td><p>每天 (每个会议室的聊天费率) </p></td>
 <td><p>38</p></td>
 <td><p>375</p></td>
 <td><p>800</p></td>
 <td><p>1213</p></td>
 </tr>
 <tr class="odd">
-<td><p>所有聊天室的聊天速率（每秒）</p></td>
+<td><p>所有聊天室每秒 (的聊天速率) </p></td>
 <td><p>41.67</p></td>
 <td><p>13.89</p></td>
 <td><p>0.28</p></td>
@@ -559,7 +561,7 @@ _**上次修改的主题：** 2012-10-05_
 </tr>
 <tr class="even">
 <td><p>持久聊天服务器服务实例的数量</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>小聊天室的大小</p></td>
@@ -587,7 +589,7 @@ _**上次修改的主题：** 2012-10-05_
 </tr>
 <tr class="odd">
 <td><p>大聊天室的数量</p></td>
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 </tr>
 <tr class="even">
 <td><p>每个用户的聊天室总数</p></td>
@@ -595,7 +597,7 @@ _**上次修改的主题：** 2012-10-05_
 </tr>
 <tr class="odd">
 <td><p>每个用户的小聊天室数量</p></td>
-<td><p>12</p></td>
+<td><p>12 </p></td>
 </tr>
 <tr class="even">
 <td><p>每个用户的中聊天室数量</p></td>
@@ -659,7 +661,7 @@ _**上次修改的主题：** 2012-10-05_
 </tr>
 <tr class="odd">
 <td><p>每个用户的平均可见聊天室数</p></td>
-<td><p>2.25 （50%，共1个会议室，2个会议室为50%）;最多6个会议室打开，每个显示器一个</p></td>
+<td><p>2.25 (50%，共1个会议室，50% 为2个会议室) ;最多6个会议室打开，每个显示器一个</p></td>
 </tr>
 <tr class="even">
 <td><p>每个时间间隔轮询的参与者数量</p></td>

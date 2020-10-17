@@ -12,20 +12,22 @@ ms:contentKeyID: 48184130
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7845f919f04985e67d6825b8722904a9158606b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33a9039c65d059042d9eb93c9d5437a00ebff266
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512559"
 ---
+# <a name="new-disaster-recovery-and-high-availability-features-in-lync-server-2013"></a>Lync Server 2013 中的新的灾难恢复和高可用性功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-disaster-recovery-and-high-availability-features-in-lync-server-2013"></a>Lync Server 2013 中的新的灾难恢复和高可用性功能
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42216948"
 
 _**上次修改的主题：** 2012-09-20_
 
-与 Lync Server 2010 中一样，Lync Server 2013 的主高可用性（HA）方案基于服务器冗余（通过池划分）。 如果运行特定服务器角色的服务器发生故障，那么池中运行同一角色的其他服务器将接纳该服务器的负荷。 这适用于前端服务器、边缘服务器、中介服务器和控制器。
+与 Lync Server 2010 中一样，Lync Server 2013 的主要高可用性 (HA) 方案基于通过池进行的服务器冗余。 如果运行特定服务器角色的服务器发生故障，那么池中运行同一角色的其他服务器将接纳该服务器的负荷。 这适用于前端服务器、边缘服务器、中介服务器和控制器。
 
 Lync Server 2013 通过使您能够对位于两个数据中心的前端池进行配对，从而添加了新的灾难恢复措施。 如果其中一个配对池不可用，则管理员可将该池中的用户故障转移到配对中的其他池，以继续提供服务。 此功能无需昂贵的网络或硬件解决方案，如存储网络或共享磁盘。
 

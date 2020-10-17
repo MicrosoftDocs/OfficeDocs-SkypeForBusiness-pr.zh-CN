@@ -12,20 +12,22 @@ ms:contentKeyID: 48185255
 ms.date: 02/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c925a695fd856c4e9c2d272d39f18a7c3d1f78c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 156a3ffef41782760124f0eb791cf2fdb71a1235
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511939"
 ---
+# <a name="required-resources-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器所需的资源
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="required-resources-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器所需的资源
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214968"
 
 _**上次修改的主题：** 2016-02-05_
 
-持久聊天服务器的高可用性和灾难恢复所需的资源超出了完整操作通常所需的其他资源。 在将持久聊天服务器配置为实现高可用性和灾难恢复之前，请确保除了标准持久聊天服务器操作所需的资源之外，还可以使用以下资源。 有关其他配置信息，请参阅[在 Lync server 2013 中配置持久聊天服务器](lync-server-2013-configuring-persistent-chat-server.md)。
+持久聊天服务器的高可用性和灾难恢复所需的资源超出了完整操作通常所需的其他资源。 在将持久聊天服务器配置为实现高可用性和灾难恢复之前，请确保除了标准持久聊天服务器操作所需的资源之外，还可以使用以下资源。 有关其他配置信息，请参阅 [在 Lync server 2013 中配置持久聊天服务器](lync-server-2013-configuring-persistent-chat-server.md)。
 
   - 一个专用数据库实例位于持久聊天服务器服务的主前端所在的同一物理数据中心。 此数据库将充当主持久聊天数据库的 SQL Server 镜像。 （可选）如果希望自动故障转移到镜像数据库，则指定其他 SQL Server 作为镜像见证。
 

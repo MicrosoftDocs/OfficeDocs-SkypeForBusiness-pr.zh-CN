@@ -12,20 +12,22 @@ ms:contentKeyID: 48184623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f60a868a4a77259b358f8ab9d4042bf33c56b044
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bb2f12b395215c0b09fa650508cf93f1aec58d7f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199545"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512959"
 ---
+# <a name="call-admission-control-on-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013 中的 SIP 中继上的呼叫允许控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-on-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013 中的 SIP 中继上的呼叫允许控制
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-09-22_
 
 要在 SIP 中继上配置 CAC，必须在 CAC 部署过程中执行以下任务：
 
-1.  创建一个网络站点，代表 ITSP。 将网络站点与相应的网络区域相关联，然后为该网络站点的音频和视频分配零带宽。 有关详细信息，请参阅部署文档中的在[Lync Server 2013 中配置 CAC 的网络站点](lync-server-2013-configure-network-sites-for-cac.md)。
+1.  创建一个网络站点，代表 ITSP。 将网络站点与相应的网络区域相关联，然后为该网络站点的音频和视频分配零带宽。 有关详细信息，请参阅部署文档中的在 [Lync Server 2013 中配置 CAC 的网络站点](lync-server-2013-configure-network-sites-for-cac.md) 。
     
     <div>
     
@@ -58,9 +60,9 @@ _**上次修改的主题：** 2012-09-22_
     
     </div>
 
-2.  使用在步骤 1 中创建的站点的相关参数值，为 SIP 中继创建站点间链接。 例如，使用企业中的网络站点名称作为参数 NetworkSiteID1 的值，并使用 ITSP 网络站点名称作为参数 NetworkSiteID2 的值。 有关详细信息，请参阅部署文档中的在[Lync Server 2013 中创建网络站点间策略](lync-server-2013-create-network-intersite-policies.md)。 另请参阅 New-csnetworkintersitepolicy cmdlet 的 Lync Server 命令行管理程序文档。
+2.  使用在步骤 1 中创建的站点的相关参数值，为 SIP 中继创建站点间链接。 例如，使用企业中的网络站点名称作为参数 NetworkSiteID1 的值，并使用 ITSP 网络站点名称作为参数 NetworkSiteID2 的值。 有关详细信息，请参阅部署文档中的在 [Lync Server 2013 中创建网络站点间策略](lync-server-2013-create-network-intersite-policies.md) 。 另请参阅 New-CsNetworkInterSitePolicy cmdlet 的 Lync Server 命令行管理程序文档。
 
-3.  从 ITSP 获取会话边界控制器 (SCB) 的媒体端点的 IP 地址。 将子网掩码为 32 的 IP 地址添加到代表 ITSP 的网络站点。 有关详细信息，请参阅[在 Lync Server 2013 中将子网与网络站点关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)。
+3.  从 ITSP 获取会话边界控制器 (SCB) 的媒体端点的 IP 地址。 将子网掩码为 32 的 IP 地址添加到代表 ITSP 的网络站点。 有关详细信息，请参阅 [在 Lync Server 2013 中将子网与网络站点关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)。
 
 </div>
 

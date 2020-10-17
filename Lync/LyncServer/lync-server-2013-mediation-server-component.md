@@ -12,20 +12,22 @@ ms:contentKeyID: 48184239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c068e284e871caf5848ba9616f8bf7afa380b49
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8ddc21554ce57601f61e4b37d1988ca3e4dad65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185176"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513749"
 ---
+# <a name="mediation-server-component-in-lync-server-2013"></a>Lync Server 2013 中的中介服务器组件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mediation-server-component-in-lync-server-2013"></a>Lync Server 2013 中的中介服务器组件
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**上次修改的主题：** 2012-09-21_
 
 如果部署企业语音工作负载，则必须部署 Lync Server 2013 （中介服务器）。 本节描述了基本功能、依赖关系、基本拓扑和规划指南。
 
-中介服务器转换信号，在某些配置中，在内部 Lync Server 2013、企业语音基础结构和公共交换电话网络（PSTN）网关或会话初始协议（SIP）中继之间的媒体。 在 Lync Server 2013 端，中介服务器侦听单一相互 TLS （MTLS）传输地址。 在网关这一端，中介服务器侦听与拓扑文档中定义的中继关联的所有相关侦听端口。 所有合格网关必须支持 TLS，但也可以启用 TCP。 不支持 TLS 的网关将支持 TCP。
+中介服务器转换信号，在某些配置中，内部 Lync Server 2013、企业语音基础结构和公共交换电话网络之间的媒体 (PSTN) 网关或会话初始协议 (SIP) 中继。 在 Lync Server 2013 端，中介服务器侦听单个相互 TLS (MTLS) 传输地址。 在网关这一端，中介服务器侦听与拓扑文档中定义的中继关联的所有相关侦听端口。 所有合格网关必须支持 TLS，但也可以启用 TCP。 不支持 TLS 的网关将支持 TCP。
 
-如果你的环境中还有现有的公共分支 Exchange （PBX），中介服务器将处理企业语音用户和 PBX 之间的呼叫。 如果你的 PBX 是 ip-pbx，则可以在 PBX 和中介服务器之间创建直接 SIP 连接。 如果你的 PBX 是时间段多路复用（TDM） PBX，则还必须在中介服务器和 PBX 之间部署 PSTN 网关。
+如果你的环境中还有现有的公共分支 Exchange (PBX) ，中介服务器将处理企业语音用户和 PBX 之间的呼叫。 如果你的 PBX 是 ip-pbx，则可以在 PBX 和中介服务器之间创建直接 SIP 连接。 如果你的 PBX 是时间分段多路传输 (TDM) PBX，则还必须在中介服务器和 PBX 之间部署 PSTN 网关。
 
 默认情况下，中介服务器与前端服务器并置。 由于性能原因，中介服务器也可以部署在独立的池中，如果您部署 SIP 中继，则强烈建议使用独立池。
 
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!NOTE]  
-> 如果在 PSTN 网关和中介服务器之间的网络上使用 TCP 或 RTP/RTCP （而不是 SRTP 或 SRTCP），我们建议采取措施来帮助确保网络的安全和隐私。
+> 如果您在网络中使用 TCP 或 RTP/RTCP (而不是 SRTP 或 SRTCP) 在 PSTN 网关和中介服务器之间，我们建议采取措施来帮助确保网络的安全和隐私。
 
 
 
@@ -93,7 +95,7 @@ _**上次修改的主题：** 2012-09-21_
 
   - [Lync Server 2013 中的呼叫允许控制和中介服务器](lync-server-2013-call-admission-control-and-mediation-server.md)
 
-  - [Lync Server 2013 中的增强型9-1-1 （E9-1-1）和中介服务器](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
+  - [Lync Server 2013 中的增强型 9-1-1 (E9-1-1) 和中介服务器](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
 
   - [Lync Server 2013 中的媒体旁路和中介服务器](lync-server-2013-media-bypass-and-mediation-server.md)
 

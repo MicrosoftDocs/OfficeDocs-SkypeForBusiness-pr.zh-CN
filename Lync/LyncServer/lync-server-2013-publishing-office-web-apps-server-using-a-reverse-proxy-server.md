@@ -12,20 +12,22 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9a2bc53d306b51bd6aa681ccb4aa6747f38eac7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb200204cc96d40d66d0546c86687fb0e1c48de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201680"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512229"
 ---
+# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>使用反向代理服务器在 Lync Server 2013 中发布 Office Web Apps Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>使用反向代理服务器在 Lync Server 2013 中发布 Office Web Apps Server
+
 
 </div>
 
@@ -55,9 +57,9 @@ _**上次修改的主题：** 2013-02-25_
 
 7.  在“内部发布详细信息”**** 页面上，在“内部站点名称”**** 框中，键入您的 Office Web Apps 服务器的 FQDN（例如，“officewebapps01.contoso.com”****），然后单击“下一步”****。在“内部站点名称”**** 框中输入的名称必须出现在分配给 Office Web Apps 服务器的证书的“使用者”字段或“使用者替代名称”字段中。
 
-8.  在 "**内部发布详细信息**" 页** / **上的 "**路径（可选）** " 框中键入，然后单击 "**下一步**"。 /\*语法可帮助确保发布网站的所有文件夹和子文件夹。
+8.  在 " **内部发布详细信息** " 页上的 **/\*** " ** (可选) ** " 框中键入路径，然后单击 " **下一步**"。 / \* 语法可帮助确保发布网站的所有文件夹和子文件夹。
 
-9.  在“公共名称细节”**** 页面上，从“接受请求”**** 下拉列表中选择“此域名(在以下输入)”****，然后在“公共名称”框中键入您的 Office Web Apps 服务器的完全限定名称。 此名称应是用来访问您的网站的名称。 例如，如果使用 URL http://officewebapps01.contoso.com访问网站，则应在 "**公共名称**" 框中输入**officewebapps01.contoso.com** 。
+9.  在“公共名称细节”**** 页面上，从“接受请求”**** 下拉列表中选择“此域名(在以下输入)”****，然后在“公共名称”框中键入您的 Office Web Apps 服务器的完全限定名称。 此名称应是用来访问您的网站的名称。 例如，如果使用 URL 访问网站，则 http://officewebapps01.contoso.com 应在 "**公共名称**" 框中输入**officewebapps01.contoso.com** 。
 
 10. 单击“下一步”****。
 
@@ -105,7 +107,7 @@ _**上次修改的主题：** 2013-02-25_
 
 6.  在 Forefront TMG 中，单击“应用”**** 启用更改。当出现“配置更改说明”**** 对话框时，单击“应用”****。
 
-完成安装后，可以使用在[Lync Server 2013 中验证 Office Web Apps server 配置](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md)主题中的过程来测试 Office Web apps server。
+完成安装后，可以使用在 [Lync Server 2013 中验证 Office Web Apps server 配置](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md)主题中的过程来测试 Office Web apps server。
 
 </div>
 

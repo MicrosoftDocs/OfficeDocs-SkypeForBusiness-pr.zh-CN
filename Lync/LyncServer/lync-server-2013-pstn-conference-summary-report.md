@@ -12,20 +12,22 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b531d0e8d7d4fe5de6d1598cf557096ebff8a90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0dbb90d0776ee89fe9ab8b9f5796b182c5dc0457
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215248"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513109"
 ---
+# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 会议摘要报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 会议摘要报告
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42215248"
 
 _**上次修改的主题：** 2012-10-22_
 
-在 Microsoft Lync Server 2013 中，PSTN 会议是指至少有一个参与者通过使用 PSTN （公用电话交换网）电话拨打到音频部分的任何会议。 （PSTN 电话是一种 "座机"、一种蜂窝电话，或任何其他不使用 IP 语音的电话）。尽管这些会议在监控报告中称为 PSTN 会议，但这些会议可能更常称为电话拨入式会议。
+在 Microsoft Lync Server 2013 中，PSTN 会议是指在其中至少有一个参与者通过使用 PSTN (公开交换电话网络) 电话拨入音频部分的任何会议。  (PSTN 电话是一种 "座机"、一种蜂窝电话或任何其他不使用 IP 语音的电话。 ) 尽管在监控报告中称为 PSTN 会议，但这些会议可能更常见，也称为电话拨入式会议。
 
 PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（即，所有至少有一个电话拨入式用户的会议）的信息。此报告包括有关 PSTN 会议总数和参与这些会议的人员总数的信息，并且可能包括有关电话拨入式用户的总数（PSTN 参与者指标总计）的信息（此信息最重要）。
 
@@ -53,7 +55,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>最充分地利用 PSTN 会议摘要报告
 
-若要确定包括拨入用户的所有会议的百分比，请将 "PSTN 会议总数" 的值与[Lync Server 2013 中 "会议摘要" 报告中](lync-server-2013-conference-summary-report.md)找到的 "总会议" 指标进行比较。
+若要确定包括拨入用户的所有会议的百分比，请将 "PSTN 会议总数" 的值与 [Lync Server 2013 中 "会议摘要" 报告中](lync-server-2013-conference-summary-report.md)找到的 "总会议" 指标进行比较。
 
 如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。您可以快速确定哪个会议策略（如果有）允许用户通过从 Lync Server 命令行管理程序中运行以下命令来计划 PSTN 会议：
 

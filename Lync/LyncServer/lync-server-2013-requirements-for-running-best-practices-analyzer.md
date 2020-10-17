@@ -12,20 +12,22 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e5ada43b271b819879b0dc0355a5dfdf5e9efd0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f097da7dc35c63cb385abd7ea233ec85df386a6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183014"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511839"
 ---
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中运行最佳实践分析工具的要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中运行最佳实践分析工具的要求
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183014"
 
 _**上次修改的主题：** 2012-09-19_
 
-您可以使用 Lync Server 2013 和最佳实践分析工具扫描 Lync Server 2013 环境。 您无法使用它扫描以前的环境，但可以使用该工具以前的版本扫描这些环境。 有关下载和使用适用于最佳实践分析工具的 Lync Server 2010 和 Office 通信服务器 2007 R2 版本的详细信息，请参阅中的 "Lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358) 、最佳实践分析工具" 和 "Office 通信服务器2007和 Office 通信服务器 2007 R2 [https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651)的最佳实践分析程序"。
+您可以使用 Lync Server 2013 和最佳实践分析工具扫描 Lync Server 2013 环境。 您无法使用它扫描以前的环境，但可以使用该工具以前的版本扫描这些环境。 有关下载和使用适用于最佳实践分析工具的 Lync Server 2010 和 Office 通信服务器 2007 R2 版本的详细信息，请参阅中的 "Lync Server 2010、最佳实践分析工具" [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358) 和 "office 通信服务器2007和 Office 通信服务器 2007 r2 的最佳实践分析程序" [https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651) 。
 
 在开始扫描之前，应确保 Lync Server 2013 环境中的所有组件都在运行且处于联机状态。
 

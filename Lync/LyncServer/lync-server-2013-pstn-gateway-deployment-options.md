@@ -12,20 +12,22 @@ ms:contentKeyID: 48185445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be67190fc4c6a124cd7c7f44082d9cddf0290bc1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2761473e609f8891af14387858ca76bc2a247baa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183515"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512459"
 ---
+# <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 网关部署选项
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 网关部署选项
+
 
 </div>
 
@@ -61,11 +63,11 @@ _**上次修改的主题：** 2012-09-21_
 
 ## <a name="mn-trunk-support"></a>M:N 中继支持
 
-中介服务器可以通过 Internet 电话服务提供商提供的多个网关、会话边界控制器（SBCs）或这两者的组合路由呼叫。 此外，池中的多个中介服务器可以与多个网关进行交互。 在中介服务器和网关之间定义的逻辑路由称为*中继*。 当内部用户放置 PSTN 呼叫时，前端池的出站路由逻辑将选择要路由的所有可能可用于路由该特定呼叫的可能组合的中继。 使用 DNS 负载平衡时，如果由于池中的特定中介服务器出现问题而导致呼叫无法到达网关，则会将该呼叫重试到池中的备用中介服务器。
+中介服务器可以通过多个网关路由呼叫，会话边界控制器 (由 Internet 电话服务提供商提供的) ，也可以是两者的组合。 此外，池中的多个中介服务器可以与多个网关进行交互。 在中介服务器和网关之间定义的逻辑路由称为 *中继*。 当内部用户放置 PSTN 呼叫时，前端池的出站路由逻辑将选择要路由的所有可能可用于路由该特定呼叫的可能组合的中继。 使用 DNS 负载平衡时，如果由于池中的特定中介服务器出现问题而导致呼叫无法到达网关，则会将该呼叫重试到池中的备用中介服务器。
 
-有关规划多个网关的详细信息，请参阅[Lync Server 2013 中的 M:N 中继](lync-server-2013-m-n-trunk.md)。
+有关规划多个网关的详细信息，请参阅 [Lync Server 2013 中的 M:N 中继](lync-server-2013-m-n-trunk.md)。
 
-有关其他出站路由增强功能的详细信息，请参阅[Lync Server 2013 中的语音路由](lync-server-2013-voice-routes.md)。
+有关其他出站路由增强功能的详细信息，请参阅 [Lync Server 2013 中的语音路由](lync-server-2013-voice-routes.md)。
 
 </div>
 

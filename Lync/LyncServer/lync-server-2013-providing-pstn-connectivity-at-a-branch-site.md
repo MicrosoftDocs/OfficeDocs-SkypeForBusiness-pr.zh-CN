@@ -12,20 +12,22 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4998db2c00699e766b664caf79fa271af0395a6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38c76d378db31cb8a6619a18072ec0218260843e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215278"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513169"
 ---
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>在 Lync Server 2013 中提供分支站点的 PSTN 连接
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>在 Lync Server 2013 中提供分支站点的 PSTN 连接
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**上次修改的主题：** 2012-10-05_
 
 我们建议使用 Microsoft Lync Server 2013、规划工具将分支站点添加到您的拓扑，并在分支站点中设置语音基础结构。
 
-如果您未使用规划工具，请先使用本节中的主题中的过程-首先，添加分支站点，然后通过定义 IP/公用电话交换网（PSTN）网关和/或配置 SIP 中继（带有或不使用媒体旁路）来设置语音基础结构。 将专用交换机 (PBX) 连接到分支站点是另一种选项。
+如果您未使用规划工具，请先使用此部分中的主题中的过程-首先添加分支站点，然后通过定义 IP/公用电话交换网 (PSTN) 网关和/或通过使用或不使用媒体旁路) 配置 SIP 中继 (来设置您的语音基础结构。 将专用交换机 (PBX) 连接到分支站点是另一种选项。
 
 <div>
 
 
 > [!NOTE]  
-> 如果要提供分支站点恢复能力，则必须在分支站点部署 Survivable 分支设备、Survivable 分支服务器或 Standard Edition server。 有关详细信息，请参阅部署文档中的<A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">部署具有 Lync server 2013 的 Survivable 分支装置或服务器</A>或<A href="lync-server-2013-deploying-lync-server.md">部署 lync server 2013</A>（如果适用）。
+> 如果要提供分支站点恢复能力，则必须在分支站点部署 Survivable 分支设备、Survivable 分支服务器或 Standard Edition server。 有关详细信息，请参阅部署文档中的 <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">部署具有 Lync server 2013 的 Survivable 分支装置或服务器</A> 或 <A href="lync-server-2013-deploying-lync-server.md">部署 lync server 2013</A>（如果适用）。
 
 
 

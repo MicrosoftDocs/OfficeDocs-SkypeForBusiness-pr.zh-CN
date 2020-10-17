@@ -12,20 +12,22 @@ ms:contentKeyID: 51803980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8aa5bd589a6368e99401f2f84d702756d595f9be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 24f80dcd0404dfc237d1b63be378f0f333dd975b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214928"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511809"
 ---
+# <a name="reset-a-device-update-rule-in-lync-server-2013"></a>在 Lync Server 2013 中重置设备更新规则
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reset-a-device-update-rule-in-lync-server-2013"></a>在 Lync Server 2013 中重置设备更新规则
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-02-23_
 
 
 > [!NOTE]  
-> 若要卸载已批准的规则（即，已向后滚动），请将其还原。 有关详细信息，请参阅<A href="lync-server-2013-restore-a-device-update-rule.md">在 Lync Server 2013 中还原设备更新规则</A>。
+> 若要卸载已批准的规则 (即) ，请将其还原。 有关详细信息，请参阅 <A href="lync-server-2013-restore-a-device-update-rule.md">在 Lync Server 2013 中还原设备更新规则</A>。
 
 
 
@@ -57,25 +59,25 @@ _**上次修改的主题：** 2013-02-23_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击 "**客户端**"，然后单击 "**设备更新**" 导航按钮。
+3.  在左侧导航栏中，单击 " **客户端**"，然后单击 " **设备更新** " 导航按钮。
 
-4.  在 "**设备更新**" 页上，执行下列操作之一：
+4.  在 " **设备更新** " 页上，执行下列操作之一：
     
       - 若要重置一个规则，请选择要重置的规则。
     
-      - 若要重置所有规则，请在 "**编辑**" 菜单上单击 "**全选**"。
+      - 若要重置所有规则，请在 " **编辑** " 菜单上单击 " **全选**"。
     
-      - 若要重置一个品牌的所有规则，请使用**品牌**栏菜单。
+      - 若要重置一个品牌的所有规则，请使用 **品牌** 栏菜单。
 
-5.  单击 "**操作**"，然后单击 "**取消挂起的更新**"。
+5.  单击 " **操作**"，然后单击 " **取消挂起的更新**"。
     
     <div>
     
 
     > [!TIP]  
-    > 如果你确信不会再推出已取消的设备更新规则，则可能需要将其删除。 有关详细信息，请参阅<A href="lync-server-2013-remove-a-device-update-rule.md">在 Lync Server 2013 中删除设备更新规则</A>。
+    > 如果您确信永远不会要向已取消的设备更新规则 (s) ，则可能需要将其删除。 有关详细信息，请参阅 <A href="lync-server-2013-remove-a-device-update-rule.md">在 Lync Server 2013 中删除设备更新规则</A>。
 
     
     </div>
@@ -86,13 +88,13 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="resetting-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 重置设备更新规则
 
-还可以使用 Windows PowerShell 和**重置 CsDeviceUpdateRule** cmdlet 重置设备更新规则。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。
+还可以使用 Windows PowerShell 和 **重置 CsDeviceUpdateRule** cmdlet 重置设备更新规则。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。
 
 <div>
 
 
 > [!NOTE]  
-> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上<A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A> 。
 
 
 
@@ -128,7 +130,7 @@ _**上次修改的主题：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule) Cmdlet 的帮助主题。
+有关详细信息，请参阅 [CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule) Cmdlet 的帮助主题。
 
 </div>
 

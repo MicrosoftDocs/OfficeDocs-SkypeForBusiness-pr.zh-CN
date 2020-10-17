@@ -12,20 +12,22 @@ ms:contentKeyID: 48184929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e932163610b88a51352c1f97e2d0b8d9c773d2f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 07fd3905fcf6876af270cdab437691edb68cff98
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217508"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513669"
 ---
+# <a name="mediationservers-table-in-lync-server-2013"></a>Lync Server 2013 中的 MediationServers 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mediationservers-table-in-lync-server-2013"></a>Lync Server 2013 中的 MediationServers 表
+
 
 </div>
 
@@ -64,7 +66,7 @@ MediationServers 表是一个支持表格。 每个记录存储有关在数据�
 </tr>
 <tr class="even">
 <td><p><strong>MediationServer</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p> </p></td>
 <td><p>中介服务器名称。</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46212fc9910885ed1d6d833ef0f4b30c3a49b7c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e94e47536c8af6ef8fd3c22dba245b03c961c575
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183404"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512359"
 ---
+# <a name="publish-the-topology-in-lync-server-2013"></a>在 Lync Server 2013 中发布拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-topology-in-lync-server-2013"></a>在 Lync Server 2013 中发布拓扑
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183404"
 
 _**上次修改的主题：** 2013-10-01_
 
-若要在添加或删除服务器角色时成功发布、启用或禁用拓扑，应以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。 还有可能委派相应的管理员权限。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。 对于其他配置更改，只需要 RTCUniversalServerAdmins 组的成员身份。
+若要在添加或删除服务器角色时成功发布、启用或禁用拓扑，应以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。 还有可能委派相应的管理员权限。 有关详细信息，请参阅 [Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。 对于其他配置更改，只需要 RTCUniversalServerAdmins 组的成员身份。
 
 在拓扑生成器中定义拓扑之后，必须将拓扑发布到中央管理存储。 中央管理存储为定义、设置、维护、管理、描述和运行 Lync Server 2013 部署所需的数据提供了一个强健的架构化存储。 它还会验证数据，以帮助确保配置的一致性。 对此配置数据所做的所有更改都将发生在中央管理存储中，从而消除了 "不同步" 问题。 数据的只读副本将复制到拓扑中的所有服务器，包括边缘服务器。
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2013-10-01_
 
 
 > [!NOTE]  
-> 仅限 Enterprise Edition：为了发布该拓扑，基于 SQL Server 的后端服务器必须处于联机状态，并且可以通过启用的防火墙例外规则访问。 有关指定防火墙例外的详细信息，请参阅<A href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">了解使用 Lync server 2013 的 SQL Server 的防火墙要求</A>。 有关配置 SQL Server 的详细信息，请参阅<A href="lync-server-2013-configure-sql-server-for-lync-server.md">CONFIGURE SQL server For Lync Server 2013</A>。
+> 仅限 Enterprise Edition：为了发布该拓扑，基于 SQL Server 的后端服务器必须处于联机状态，并且可以通过启用的防火墙例外规则访问。 有关指定防火墙例外的详细信息，请参阅 <A href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">了解使用 Lync server 2013 的 SQL Server 的防火墙要求</A>。 有关配置 SQL Server 的详细信息，请参阅 <A href="lync-server-2013-configure-sql-server-for-lync-server.md">CONFIGURE SQL server For Lync Server 2013</A>。
 
 
 
@@ -65,11 +67,11 @@ _**上次修改的主题：** 2013-10-01_
 
 ## <a name="to-publish-a-topology"></a>发布拓扑
 
-1.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+1.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 2.  选择从本地文件打开拓扑。如果位于定义拓扑的计算机上，则将位于前面步骤中所保存的位置。通常，这是配置该拓扑的用户的“文档”文件夹。
 
-3.  右键单击 " **Lync Server 2013** " 节点，然后单击 "**发布拓扑**"。
+3.  右键单击 " **Lync Server 2013** " 节点，然后单击 " **发布拓扑**"。
 
 4.  在“发布拓扑”**** 页上，单击“下一步”****。
 
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2013-10-01_
     
 
     > [!NOTE]  
-    > 如果您没有创建数据库的相应权限，可以清除这些数据库旁边的复选框，稍后可以由具有相应权限的用户创建数据库。 有关详细信息，请参阅<A href="lync-server-2013-deployment-permissions-for-sql-server.md">Lync server 2013 中的 SQL Server 部署权限</A>。
+    > 如果您没有创建数据库的相应权限，可以清除这些数据库旁边的复选框，稍后可以由具有相应权限的用户创建数据库。 有关详细信息，请参阅 <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Lync server 2013 中的 SQL Server 部署权限</A>。
 
     
     </div>
@@ -92,7 +94,7 @@ _**上次修改的主题：** 2013-10-01_
     
     单击“确定”****，然后单击“下一步”****。
 
-7.  在 "**选择中央管理服务器**" 页上，选择一个前端池。
+7.  在 " **选择中央管理服务器** " 页上，选择一个前端池。
 
 8.  也可以单击“高级”****。 利用 "高级 SQL Server 数据文件放置" 选项，您可以在以下选项之间进行选择：
     

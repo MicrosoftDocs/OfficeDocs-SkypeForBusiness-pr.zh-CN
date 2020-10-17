@@ -12,20 +12,22 @@ ms:contentKeyID: 48183600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a4bd640d4f2e13ff6ecec129bd86602a197a451
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ab00e89c41b075e47d7764ce1c9c4cd3c471b8c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217498"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513629"
 ---
+# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a>在 Lync Server 2013 中将用户迁移到统一联系人存储
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a>在 Lync Server 2013 中将用户迁移到统一联系人存储
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-10-15_
 
   - 在客户端计算机上检查以下注册表项：
     
-    HKEY\_当前\_用户\\软件\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS
+    HKEY \_ 当前 \_ 用户 \\ 软件 \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ \<SIP URL\> \\ UCS
     
     如果用户的联系人存储在 Exchange 2013 中，则此项包含值为2165的值 InUCSMode。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 50873758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4fec7930b8ebd7aa6bb7f50c71a1f163cdb83f2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 732113537b79ad2ac767f64b861f296be508899c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207908"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512719"
 ---
+# <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改新的客户端版本策略规则
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改新的客户端版本策略规则
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2013-01-21_
 
 1.  在 Lync server 2013 with Lync Server 控制面板[中创建或修改新的客户端版本策略](lync-server-2013-create-or-modify-a-new-client-version-policy.md)。
 
-2.  在 "**编辑客户端版本策略**" 页上，执行下列操作之一：
+2.  在 " **编辑客户端版本策略** " 页上，执行下列操作之一：
     
       - 单击“新建”**** 创建新的客户端版本规则。
     

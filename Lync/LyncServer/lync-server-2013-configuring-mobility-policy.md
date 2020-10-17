@@ -12,20 +12,22 @@ ms:contentKeyID: 48184204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2268313ed570ab560be2eca9827f0ab07ec9149
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91f54f701d46f9b3e6e8f268612d7dc555b2716d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213568"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512759"
 ---
+# <a name="configuring-mobility-policy-in-lync-server-2013"></a>在 Lync Server 2013 中配置移动策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-mobility-policy-in-lync-server-2013"></a>在 Lync Server 2013 中配置移动策略
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2013-02-13_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 提供了移动性策略，用于确定谁可以使用移动功能、通过工作呼叫、IP 语音（VoIP）或视频，以及 VoIP 或视频是否需要 WiFi。 通过 "通过工作进行呼叫" 功能，移动用户可以通过使用工作电话号码而不是移动电话号码，在移动电话上拨打和接听呼叫。 此功能可防止被叫方查看呼叫者的移动电话号码，并允许用户避免出站通话费用。 配置 VoIP 和视频使用户可以接收和发出 VoIP 呼叫和视频。 WiFi 用法的设置定义用户的设备是否需要通过蜂窝数据网络使用 WiFi 网络。
+Lync Server 2013 提供移动策略，用于确定谁可以使用移动功能、通过工作呼叫、IP 语音 (VoIP) 或视频，以及 VoIP 或视频是否需要 WiFi。 通过 "通过工作进行呼叫" 功能，移动用户可以通过使用工作电话号码而不是移动电话号码，在移动电话上拨打和接听呼叫。 此功能可防止被叫方查看呼叫者的移动电话号码，并允许用户避免出站通话费用。 配置 VoIP 和视频使用户可以接收和发出 VoIP 呼叫和视频。 WiFi 用法的设置定义用户的设备是否需要通过蜂窝数据网络使用 WiFi 网络。
 
 默认情况下，移动性、通过工作进行呼叫以及启用 VoIP 和视频功能。 禁用 VoIp 和视频需要 WiFi 的设置。 管理员可确定哪些用户可通过运行 cmdlet 访问这些功能。 您可以按网站或用户全局关闭这些选项。
 
@@ -61,13 +63,13 @@ Lync Server 2013 提供了移动性策略，用于确定谁可以使用移动功
 
 
 > [!NOTE]  
-> 未启用企业语音的用户可以使用其移动设备将 Lync 设置为通过 IP （VoIP）呼叫，也可以通过在其移动设备上单击加入链接来加入会议，前提是为这些用户分配语音策略的相应选项。 有关详细信息，请参阅为<A href="lync-server-2013-defining-your-mobility-requirements.md">Lync Server 2013 定义移动性要求</A>。
+> 未启用企业语音的用户可以使用其移动设备使 Lync 通过 IP 的 Lync 语音 (VoIP) 呼叫，也可以通过在其移动设备上使用 "加入" 链接来加入会议，前提是为这些用户分配语音策略的相应选项。 有关详细信息，请参阅为 <A href="lync-server-2013-defining-your-mobility-requirements.md">Lync Server 2013 定义移动性要求</A>。
 
 
 
 </div>
 
-有关为用户启用 Lync Server 2013 的详细信息，请参阅[Disable or 重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。 有关为用户启用企业语音的详细信息，请参阅[Enable users For Enterprise voice In Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)。 有关设置语音策略选项的详细信息，请参阅[在 Lync Server 2013 中修改语音策略和配置 PSTN 用法记录](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)。
+有关为用户启用 Lync Server 2013 的详细信息，请参阅 [Disable or 重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。 有关为用户启用企业语音的详细信息，请参阅 [Enable users For Enterprise voice In Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)。 有关设置语音策略选项的详细信息，请参阅 [在 Lync Server 2013 中修改语音策略和配置 PSTN 用法记录](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)。
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 62625492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d53797c490ba53872786311b51e310e6400addf5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aae84d208df1d7c2945fee641b243bf7110902c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215288"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513189"
 ---
+# <a name="protecting-iis-in-lync-server-2013"></a>在 Lync Server 2013 中保护 IIS
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="protecting-iis-in-lync-server-2013"></a>在 Lync Server 2013 中保护 IIS
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42215288"
 
 _**上次修改的主题：** 2013-12-05_
 
-在 Microsoft Office 通信服务器2007和 Microsoft Office 通信服务器 2007 R2 中，Internet 信息服务（IIS）在标准用户帐户下运行。 这有可能会导致问题：如果该密码过期，您可能会丢失 Web 服务，此问题通常难于诊断。 为了帮助避免出现密码过期问题，Microsoft Lync Server 2013 使您能够创建一个计算机帐户（对于实际不存在的计算机），该帐户可用作运行 IIS 的站点中所有计算机的身份验证主体。 由于这些帐户使用 Kerberos 身份验证协议，因此称为 Kerberos 帐户，并且新的身份验证过程称为 Kerberos Web 身份验证。 这样，您可以使用单个帐户管理所有 IIS 服务器。
+在 Microsoft Office 通信服务器2007和 Microsoft Office 通信服务器 2007 R2 中，Internet 信息服务 (IIS) 在标准用户帐户下运行。 这有可能会导致问题：如果该密码过期，您可能会丢失 Web 服务，此问题通常难于诊断。 为了帮助避免出现密码过期问题，Microsoft Lync Server 2013 使您能够为不存在) 的计算机创建计算机帐户 (，该计算机可以充当运行 IIS 的站点中的所有计算机的身份验证主体。 由于这些帐户使用 Kerberos 身份验证协议，因此称为 Kerberos 帐户，并且新的身份验证过程称为 Kerberos Web 身份验证。 这样，您可以使用单个帐户管理所有 IIS 服务器。
 
-要使用此身份验证主体运行服务器，必须首先使用 New-CsKerberosAccount cmdlet 创建一个计算机帐户；然后，将该帐户分配给一个或多个站点。 完成分配后，通过运行 Enable-cstopology cmdlet 可以启用帐户与 Lync Server 2013 网站之间的关联。 除其他结果之外，这样将在 Active Directory 域服务 (AD DS) 中创建所需的服务主体名称 (SPN)。 SPN 为客户端应用程序提供了一种查找特定服务的方式。 有关详细信息，请参阅操作文档中的 [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount)。
+要使用此身份验证主体运行服务器，必须首先使用 New-CsKerberosAccount cmdlet 创建一个计算机帐户；然后，将该帐户分配给一个或多个站点。 完成分配后，可通过运行 Enable-CsTopology cmdlet 来启用帐户与 Lync Server 2013 网站之间的关联。 除其他结果之外，这样将在 Active Directory 域服务 (AD DS) 中创建所需的服务主体名称 (SPN)。 SPN 为客户端应用程序提供了一种查找特定服务的方式。 有关详细信息，请参阅操作文档中的 [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount)。
 
 <div>
 
