@@ -12,20 +12,22 @@ ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6377824a7d96e6bb7b0ae6c60c79f3ee4c05b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 738f745d4f91458b95e95e5cc5770c34ed4e8c88
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203328"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521349"
 ---
+# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>在 Lync Server 2013 中向 Lync 菜单添加命令
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>在 Lync Server 2013 中向 Lync 菜单添加命令
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42203328"
 
 _**上次修改的主题：** 2016-04-11_
 
-您可以向 Lync 2013 菜单中添加自定义命令，并将当前用户和所选联系人的 SIP 统一资源标识符（URI）传递给应用程序，自定义命令将启动。
+您可以向 Lync 2013 菜单添加自定义命令，并将 SIP 统一资源标识符 (URI) 的当前用户和选定的联系人传递给应用程序，以启动自定义命令。
 
 您添加的自定义命令可以出现在以下一个或多个菜单上：
 
@@ -69,9 +71,9 @@ _**上次修改的主题：** 2016-04-11_
 
 使用下表中的注册表设置将命令添加到菜单中。 这些条目放置在注册表中的以下位置之一：
 
-  - 对于32位 OS：\_HKEY\_LOCAL\\MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\SessionManager Apps
+  - 对于32位 OS： HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps
 
-  - 对于64位 OS：\_HKEY\_LOCAL\\MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Office\\15.0\\Lync\\SessionManager Apps
+  - 对于64位 OS： HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Wow6432Node \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps
 
 ### <a name="custom-command-registry-entries"></a>自定义命令注册表项
 
@@ -97,7 +99,7 @@ _**上次修改的主题：** 2016-04-11_
 <tr class="even">
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
-<td><p>0 = 可执行文件（默认值）</p>
+<td><p>0 = 默认的可执行 () </p>
 <div>
 
 > [!NOTE]  
@@ -114,7 +116,7 @@ _**上次修改的主题：** 2016-04-11_
 <div>
 
 > [!NOTE]  
-> 如果 ApplicationType 为0（可执行文件），则必须指定。
+> 如果 ApplicationType 为 0 (可执行文件) ，则必须指定。
 
 
 </div></td>
@@ -122,7 +124,7 @@ _**上次修改的主题：** 2016-04-11_
 <tr class="even">
 <td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>要与任何参数一起启动的完整路径，包括默认参数<em>% user id</em> % 和<em>% contact id%</em>。</p></td>
+<td><p>要与任何参数一起启动的完整路径，包括默认参数 <em>% user id</em> % 和 <em>% contact id%</em>。</p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
@@ -146,7 +148,7 @@ _**上次修改的主题：** 2016-04-11_
 </table>
 
 
-例如，下面的注册表编辑器（。REG）文件显示在对话窗口中向 "操作" 菜单添加 Contoso Sales Contact Manager 菜单项的结果：
+例如，下面的注册表编辑器 (。REG) 文件显示在对话窗口中将 Contoso Sales Contact Manager 菜单项添加到操作菜单中的结果：
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Lync\SessionManager\Apps\{1F9F07C6-7E0B-462B-AAD7-98C6DBEA8F69}]
@@ -166,13 +168,13 @@ _**上次修改的主题：** 2016-04-11_
 
 若要在添加自定义命令后对其进行访问，请执行下列操作之一，具体取决于您定义的 ExtensibleMenu 值：
 
-  - **MainWindowActions**   在 Lync 主窗口中，单击 "**工具**"，然后单击您的自定义命令。
+  - **MainWindowActions**    在 Lync 主窗口中，单击 "**工具**"，然后单击您的自定义命令。
 
-  - **MainWindowRightClick**   在 Lync 主窗口中，右键单击某个联系人，然后单击您的自定义命令。
+  - **MainWindowRightClick**    在 Lync 主窗口中，右键单击某个联系人，然后单击您的自定义命令。
 
-  - **ConversationWindowActions**   在对话窗口中，单击 "**更多选项**" 图标，然后单击您的自定义命令。
+  - **ConversationWindowActions**    在对话窗口中，单击 "**更多选项**" 图标，然后单击您的自定义命令。
 
-  - **ConversationWindowRightClick**   在对话窗口中，右键单击某个联系人名称，然后单击您的自定义命令。
+  - **ConversationWindowRightClick**    在对话窗口中，右键单击联系人名称，然后单击您的自定义命令。
 
 </div>
 

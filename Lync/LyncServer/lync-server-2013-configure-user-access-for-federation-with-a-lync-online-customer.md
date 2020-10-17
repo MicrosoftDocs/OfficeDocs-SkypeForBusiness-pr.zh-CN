@@ -12,20 +12,22 @@ ms:contentKeyID: 48184473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9fb8a442f3b820b92daaa904dc03bbc93aa4f3d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f5b6c162cd80d8ed1273e83da4abc300eeb9985
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196895"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520209"
 ---
+# <a name="configure-user-access-for-federation-with-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中为具有 Lync Online 客户的联盟配置用户访问权限
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-user-access-for-federation-with-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中为具有 Lync Online 客户的联盟配置用户访问权限
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42196895"
 
 _**上次修改的主题：** 2012-11-01_
 
-您必须对组织中所有用户的用户帐户进行配置，以便其能够与联盟伙伴进行通信。 此配置适用于所有联盟伙伴，包括您支持联合的任何 Microsoft Lync Online 2010 客户域。 有关为用户帐户配置联合身份验证支持的详细信息，请参阅操作文档中的[配置策略以控制 Lync server 2013 中的联合用户访问](lync-server-2013-configure-policies-to-control-federated-user-access.md)和[将外部用户访问策略分配给 lync server 2013 中启用 lync 的用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)。
+您必须对组织中所有用户的用户帐户进行配置，以便其能够与联盟伙伴进行通信。 此配置适用于所有联盟伙伴，包括您支持联合的任何 Microsoft Lync Online 2010 客户域。 有关为用户帐户配置联合身份验证支持的详细信息，请参阅操作文档中的 [配置策略以控制 Lync server 2013 中的联合用户访问](lync-server-2013-configure-policies-to-control-federated-user-access.md) 和 [将外部用户访问策略分配给 lync server 2013 中启用 lync 的用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) 。
 
 </div>
 

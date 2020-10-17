@@ -12,20 +12,22 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f327bfc533b28313e4728b13c7a69d6c16bc034
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b51a529ee7bc4fd1148413058ceaf1f1f6d61e06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206598"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520179"
 ---
+# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置语音邮件重新路由设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置语音邮件重新路由设置
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "42206598"
 
 _**上次修改的主题：** 2012-10-18_
 
-Survivable 分支机构和 Survivable 分支服务器可在 WAN 中断期间为分支用户提供语音邮件留存能力，如果在中央站点安装了 Exchange 统一消息（UM），并且部署了 Exchange UM 邮件自动助理（AA）。 建议 Exchange 管理员将 AA 配置为仅接受消息，禁用其他常规功能，例如转接到用户或接线员的功能。 此外，也可以使用常规 AA 或为路由呼叫而自定义的 AA。
+Survivable 分支机构和 Survivable 分支服务器可在 WAN 中断期间为分支用户提供语音邮件留存能力（如果 Exchange 统一消息 (UM) 安装在中央站点，并且部署了 Exchange UM 邮件自动助理 (AA) 。 建议 Exchange 管理员将 AA 配置为仅接受消息，禁用其他常规功能，例如转接到用户或接线员的功能。 此外，也可以使用常规 AA 或为路由呼叫而自定义的 AA。
 
-有关详细信息，请参阅规划文档中的[Lync Server 2013 分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)一节中的 "准备语音邮件留存性" 一节。
+有关详细信息，请参阅规划文档中的 [Lync Server 2013 分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md) 一节中的 "准备语音邮件留存性" 一节。
 
 <div>
 
 ## <a name="to-configure-voice-mail-survivability"></a>配置语音邮件生存能力
 
-1.  请求 Exchange 管理员将 AA 配置为仅接受邮件（在 Exchange 命令行管理程序中，使用以下 cmdlet： **Get-umautoattendant \<AA name\> -CallSomeoneEnabled $false**。 默认情况下，指定允许留言的参数 (*SendVoiceMsgEnabled*) 为 true。
+1.  请求 Exchange 管理员将 AA 配置为仅接受 Exchange 命令行管理器中 (的以下 cmdlet 使用以下 cmdlet： **get-umautoattendant \<AA name\> -CallSomeoneEnabled $false**。 默认情况下，指定允许留言的参数 (*SendVoiceMsgEnabled*) 为 true。
 
-2.  在 Lync Server 命令行管理程序中，使用**CSVoiceMailReroutingConfiguration** CMDLET 将 AA 电话号码设置为 Survivable 分支设备或 Survivable 分支服务器上的语音邮件重新路由配置中的 Exchange UM 自动助理电话号码。
+2.  在 Lync Server 命令行管理程序中，使用 **CSVoiceMailReroutingConfiguration** CMDLET 将 AA 电话号码设置为 Survivable 分支设备或 Survivable 分支服务器上的语音邮件重新路由配置中的 Exchange UM 自动助理电话号码。
     
     <div>
     

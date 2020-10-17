@@ -12,20 +12,22 @@ ms:contentKeyID: 51541528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff6e72d13ddfb80369a0a522abc14a1de459536
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 249993e68930db1eb5dd5159633a73f80cef8c05
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520049"
 ---
+# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中配置用于自动发现的 DNS
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中配置用于自动发现的 DNS
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202988"
 
 _**上次修改的主题：** 2012-12-12_
 
-若要支持 Lync 客户端的自动发现，您需要创建以下域名系统（DNS）记录：
+若要支持 Lync 客户端的自动发现，您需要创建以下域名系统 (DNS) 记录：
 
   - 支持从组织网络内部进行连接的 Lync 客户端的内部 DNS 记录
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2012-12-12_
 
 您必须为每个 SIP 域创建一条内部 DNS 记录和一条外部 DNS 记录。
 
-DNS 记录可以是（主机）记录或 CNAME 记录，这取决于您使用其他主题备用名称（SAN）创建新证书的能力。 如果无法向 lyncdiscover. 请求和部署新的外部（公用）证书。\<域名\> SAN，请使用 HTTP/TCP 端口80的过程。 以下过程介绍如何创建内部和外部 DNS 记录。
+DNS 记录可以是 (主机) 记录或 CNAME 记录，这取决于您使用其他使用者备用名称 (SAN) 创建新证书的能力。 如果无法向 lyncdiscover. 请求和部署新的外部 (公共) 证书。\<domain name\> SAN，请使用 HTTP/TCP 端口80的过程。 以下过程介绍如何创建内部和外部 DNS 记录。
 
 <div>
 
@@ -67,7 +69,7 @@ DNS 记录可以是（主机）记录或 CNAME 记录，这取决于您使用其
         
 
         > [!NOTE]  
-        > 此域是安装 Lync Server 2013&nbsp;控制器池和前端池的 Active Directory 域。
+        > 此域是安装 Lync Server 2013 &nbsp; 控制器池和前端池的 Active Directory 域。
 
         
         </div>
@@ -76,15 +78,15 @@ DNS 记录可以是（主机）记录或 CNAME 记录，这取决于您使用其
 
 4.  验证主机 A 的控制器池是否存在记录，如下所示：
     
-      - 对于内部 DNS 记录，您的控制器池的内部 Web 服务完全限定域名（FQDN）应存在主机 A 记录（例如，lyncwebdir01）。
+      - 对于内部 DNS 记录，您的控制器池的内部 Web 服务完全限定域名 (FQDN) 的主机 A 记录 (例如，lyncwebdir01) 。
     
-      - 对于外部 DNS 记录，您的控制器池的外部 web 服务 FQDN 应存在主机 A 记录（例如，lyncwebextdir.contoso.com）。
+      - 对于外部 DNS 记录，您的控制器池的外部 web 服务 FQDN 应存在主机 A 记录 (例如，lyncwebextdir.contoso.com) 。
 
 5.  验证主机是否为您的前端池提供了记录，如下所示：
     
-      - 对于内部 DNS 记录，前端池的内部 Web 服务 FQDN 应存在主机 A 记录（例如，lyncwebpool01）。
+      - 对于内部 DNS 记录，前端池的内部 Web 服务 FQDN 应存在主机 A 记录 (例如，lyncwebpool01) 。
     
-      - 对于外部 DNS 记录，前端池的外部 Web 服务 FQDN 应存在主机 A 记录（例如，lyncwebextpool01.contoso.com）。
+      - 对于外部 DNS 记录，对于前端池的外部 Web 服务 FQDN，应存在主机 A 记录 (例如，lyncwebextpool01.contoso.com) 。
 
 6.  对于内部 DNS 记录，请在 DNS 服务器的控制台树中，展开 SIP 域（例如，contoso.com）所对应的“正向查找区域”****。
     
@@ -107,9 +109,9 @@ DNS 记录可以是（主机）记录或 CNAME 记录，这取决于您使用其
 
 9.  在“目标主机的完全限定的域名(FQDN)”**** 中，执行以下操作之一：
     
-      - 对于内部 DNS 记录，请键入或浏览到您的控制器池的内部 Web 服务 FQDN （例如，lyncwebdir01），然后单击 **"确定"**。
+      - 对于内部 DNS 记录，请键入或浏览到您的控制器池的内部 Web 服务 FQDN (例如，lyncwebdir01) ，然后单击 **"确定"**。
     
-      - 对于外部 DNS 记录，请键入或浏览到您的控制器池的外部 Web 服务 FQDN （例如，lyncwebextdir.contoso.com），然后单击 **"确定"**。
+      - 对于外部 DNS 记录，请键入或浏览到您的控制器池的外部 Web 服务 FQDN (例如，lyncwebextdir.contoso.com) ，然后单击 **"确定"**。
     
     <div>
     
@@ -151,24 +153,24 @@ DNS 记录可以是（主机）记录或 CNAME 记录，这取决于您使用其
         
 
         > [!NOTE]  
-        > 此域是安装 Lync Server 2013&nbsp;控制器池和前端池的 Active Directory 域。
+        > 此域是安装 Lync Server 2013 &nbsp; 控制器池和前端池的 Active Directory 域。
 
         
         </div>
     
       - 对于外部 DNS 记录，请在 DNS 服务器的控制台树中，展开 SIP 域（例如，contoso.com）所对应的“正向查找区域”****。
 
-4.  验证控制器池的主机 A （for IPv6，AAAA）记录是否存在，如下所示：
+4.  为您的控制器池验证主机 A (的 IPv6、AAAA) 记录是否存在，如下所示：
     
-      - 对于内部 DNS 记录，您的控制器池的内部 Web 服务 FQDN （例如，lyncwebdir01）应存在主机 A （for IPv6，AAAA）记录。
+      - 对于内部 DNS 记录，IPv6 的主机 A (，对于控制器池的内部 Web 服务 FQDN，应存在 AAAA) 记录 (例如，lyncwebdir01) 。
     
-      - 对于外部 DNS 记录，应为控制器池的外部 Web 服务 FQDN （例如，lyncwebextdir.contoso.com）提供主机 A （for IPv6，AAAA）记录。
+      - 对于外部 DNS 记录，IPv6 的主机 A (，对于您的控制器池的外部 Web 服务 FQDN，应存在 AAAA) 记录 (例如，lyncwebextdir.contoso.com) 。
 
-5.  验证您的前端池的主机 A （for IPv6，AAAA）记录是否存在，如下所示：
+5.  验证主机 A for IPv6 (的 AAAA) 记录是否为您的前端池而存在，如下所示：
     
-      - 对于内部 DNS 记录，对于前端池的内部 Web 服务 FQDN （例如，lyncwebpool01）应存在主机 A （针对 IPv6、AAAA）记录。
+      - 对于内部 DNS 记录，IPv6 的主机 A (，对于前端池的内部 Web 服务 FQDN，应存在 AAAA) 记录 (例如，lyncwebpool01) 。
     
-      - 对于外部 DNS 记录，对于适用于前端池的外部 Web 服务 FQDN （例如，lyncwebextpool01.contoso.com），主机 A （针对 IPv6，AAAA）记录应存在。
+      - 对于外部 DNS 记录，IPv6 的主机 A (，对于前端池的外部 Web 服务 FQDN，应存在 AAAA) 记录 (例如，lyncwebextpool01.contoso.com) 。
 
 6.  对于内部 DNS 记录，请在 DNS 服务器的控制台树中，展开 SIP 域（例如，contoso.com）所对应的“正向查找区域”****。
     
@@ -200,7 +202,7 @@ DNS 记录可以是（主机）记录或 CNAME 记录，这取决于您使用其
 
 9.  在“IP 地址”**** 中，键入 IP 地址，如下所示：
     
-      - 对于内部 DNS 记录，请键入 Director 的内部 Web 服务 IP 地址（或者，如果使用负载平衡器，请键入控制器负载平衡器的虚拟 IP （VIP））。
+      - 对于内部 DNS 记录，请键入控制器 (的内部 Web 服务 IP 地址，或者，如果使用负载平衡器，请键入控制器负载平衡器) 的虚拟 IP (VIP) 。
         
         <div>
         

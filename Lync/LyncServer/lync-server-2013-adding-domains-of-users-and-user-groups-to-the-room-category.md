@@ -12,20 +12,22 @@ ms:contentKeyID: 48706013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44138fba7524f74f660073f31a6af075d889ea64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f330f05f6b47a147e8b0b8f97948870305a890c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196435"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521309"
 ---
+# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a>在 Lync Server 2013 中将用户和用户组的域添加到聊天室类别
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a>在 Lync Server 2013 中将用户和用户组的域添加到聊天室类别
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42196435"
 
 _**上次修改的主题：** 2014-02-07_
 
-若要向聊天室添加更多用户组，请参阅在[Lync Server 2013 中配置类别](lync-server-2013-configure-categories.md)和在部署文档中[管理类别](manage-categories.md)。 例如，此命令将 active Directory 中的 NorthAmericaUsers OU 中的所有用户添加到 "北美" 聊天室：
+若要向聊天室添加更多用户组，请参阅在 [Lync Server 2013 中配置类别](lync-server-2013-configure-categories.md) 和在部署文档中 [管理类别](manage-categories.md) 。 例如，此命令将 active Directory 中的 NorthAmericaUsers OU 中的所有用户添加到 "北美" 聊天室：
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=litwareinc,DC=com"}
 

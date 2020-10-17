@@ -12,20 +12,22 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417b304825da6a611ccfdaf3521b2d9571cd4756
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9663f7ee8b57ceba27e1a1892c30bb92a1c86ffc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216278"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520999"
 ---
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Lync Server 2013 的 IP 地址类型概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Lync Server 2013 的 IP 地址类型概述
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42216278"
 
 _**上次修改的主题：** 2013-01-29_
 
-在 Lync Server 2013 中配置 IP 地址时有三个选项。 您可以将 Lync Server 2013 配置为仅支持 IP 版本4（IPv4）、仅支持 IP 版本6（IPv6）或二者的组合（称为*双栈*）。 对于每种类型的配置，都需要考虑一些问题：
+在 Lync Server 2013 中配置 IP 地址时有三个选项。 您可以将 Lync Server 2013 配置为仅支持 IP 版本 4 (IPv4) 、仅 IP 版本 6 (IPv6) ，或者 () 称为 *双堆栈* 的组合。 对于每种类型的配置，都需要考虑一些问题：
 
-  - ****   已创建仅 ipv4 IPv6，因为世界上的 ipv4 地址不足。 最终，IPv6 将会在世界范围内得到完全支持，但现在有很多您的企业可能需要与之通信的公司和设备尚不支持 IPv6，并且在一段时间内可能也不会支持。 仅 IPv4 配置将有助于确保你的 Lync Server 实现能够与大多数现有设备通信。
+  - **仅 IPv4**    由于世界耗尽了 IPv4 地址，因此已创建 IPv6。 最终，IPv6 将会在世界范围内得到完全支持，但现在有很多您的企业可能需要与之通信的公司和设备尚不支持 IPv6，并且在一段时间内可能也不会支持。 仅 IPv4 配置将有助于确保你的 Lync Server 实现能够与大多数现有设备通信。
 
-  - **仅 IPv6 反过来**   ，完全 ipv6 实现此时将排除与许多现有设备的通信。
+  - **仅限 IPv6**    相反，完整的 IPv6 实现现在将排除与许多现有设备的通信。
 
-  - **双栈**   双堆栈是一个网络，其中同时启用 IPv4 和 IPv6 地址。 Lync Server 2013 支持此配置，因为在大多数情况下，从完整 IPv4 到完整 IPv6 的转换需要几年时间。
+  - **双栈**    双栈是启用 IPv4 和 IPv6 地址的网络。 Lync Server 2013 支持此配置，因为在大多数情况下，从完整 IPv4 到完整 IPv6 的转换需要几年时间。
 
 以下各节概述了各种 Lync Server 功能在这三种配置中的兼容性。
 
@@ -210,7 +212,7 @@ _**上次修改的主题：** 2013-01-29_
 
 ## <a name="mediation-serverpstn"></a>中介服务器/PSTN
 
-如果流量通过 IPv6 接口，Lync Server 2013 不支持公用交换电话网络（PSTN）呼叫的媒体旁路。 如果需要媒体旁路，则我们建议将 PSTN 网关配置为 IPv4。
+如果流量通过 IPv6 接口，Lync Server 2013 不支持公用交换电话网络 (PSTN) 呼叫的媒体旁路。 如果需要媒体旁路，则我们建议将 PSTN 网关配置为 IPv4。
 
 
 <table>
@@ -246,7 +248,7 @@ _**上次修改的主题：** 2013-01-29_
 </table>
 
 
-\*主接口是与 Lync Server 组件进行通信的接口。
+\* 主接口是与 Lync Server 组件进行通信的接口。
 
 </div>
 
@@ -339,7 +341,7 @@ _**上次修改的主题：** 2013-01-29_
 </table>
 
 
-\*仅在实验室环境中使用此组合。
+\* 仅在实验室环境中使用此组合。
 
 下表是内部和外部边缘接口支持的组合矩阵。
 
@@ -368,7 +370,7 @@ _**上次修改的主题：** 2013-01-29_
 <tr class="odd">
 <td><p><strong>边缘池（内部边缘）：双协议栈</strong></p></td>
 <td><p>否</p></td>
-<td><p>必需</p></td>
+<td><p>是</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
@@ -381,7 +383,7 @@ _**上次修改的主题：** 2013-01-29_
 </table>
 
 
-\*仅在实验室环境中使用此组合。
+\* 仅在实验室环境中使用此组合。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edd44cbb1e54e811fc646a99362b18a284376953
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6195baf2cdff30cad74dfddc31337d9d429c5d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213418"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520015"
 ---
+# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Lync Server 2013 中的拨号计划和规范化规则
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Lync Server 2013 中的拨号计划和规范化规则
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!NOTE]  
-> 服务级公用电话交换网（PSTN）网关拨号计划应用于来自特定网关的传入呼叫。
+> 服务级别公用电话交换网 (PSTN) 网关拨号计划应用于来自特定网关的传入呼叫。
 
 
 
@@ -91,11 +93,11 @@ _**上次修改的主题：** 2012-09-21_
 
   - 确定单个位置是否需要多个拨号计划。
     
-    如果您的组织在多个位置维护单个拨号计划，您可能仍需要为从专用交换机（PBX）迁移的企业语音用户创建单独的拨号计划，并且需要保留其现有分机的用户。
+    如果您的组织在多个位置维护单个拨号计划，您可能仍需要为企业语音用户创建一个单独的拨号计划，这些用户是从专用分支 exchange (PBX) 迁移的，并且需要保留其现有扩展的用户。
 
-  - 确定是否需要每用户拨号计划。 例如，如果在使用中央站点注册的分支站点上有用户，或者如果您拥有在 Survivable 分支设备上注册的用户，则可以考虑使用每用户拨号计划和规范化规则的此类用户的特殊拨号方案。. 有关详细信息，请参阅[Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)。
+  - 确定是否需要每用户拨号计划。 例如，如果在使用中央站点注册的分支站点上有用户，或者如果您拥有在 Survivable 分支设备上注册的用户，则可以考虑使用每用户拨号计划和规范化规则的此类用户的特殊拨号方案。 有关详细信息，请参阅 [Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)。
 
-  - 确定拨号计划作用域（如本主题前面所述）。
+  - 按照本主题前面所述，确定拨号计划作用域 () 。
 
 若要创建拨号计划，请根据需要通过使用 Lync Server 控制面板或 Lync Server 命令行管理程序来指定以下字段中的值。
 
@@ -103,7 +105,7 @@ _**上次修改的主题：** 2012-09-21_
 
 ## <a name="name-and-simple-name"></a>名称和简单名称
 
-对于用户拨号计划，应指定用于标识将向其分配拨号计划的用户、组或联系人对象的描述性名称。 对于站点拨号计划，“名称”字段会使用站点名称预先填充，且不能更改。 对于池拨号计划，"名称" 字段会使用 PSTN 网关或前端池完全限定域名（FQDN）进行预填充，且不能更改。
+对于用户拨号计划，应指定用于标识将向其分配拨号计划的用户、组或联系人对象的描述性名称。 对于站点拨号计划，“名称”字段会使用站点名称预先填充，且不能更改。 对于池拨号计划，"名称" 字段会使用 PSTN 网关或前端池完全限定域名预填充 (FQDN) ，并且无法更改。
 
 拨号计划“简单名称”** 会使用派生自拨号计划名称的字符串预先填充。 "简单名称" 字段是可编辑的，这使您可以为拨号计划创建更具描述性的命名约定。 **“简单名称”值不能为空，且必须是唯一的。 最佳做法是为整个组织制定命名约定，然后在所有网站和用户中一致地使用此约定。
 
@@ -111,7 +113,7 @@ _**上次修改的主题：** 2012-09-21_
 
 <div>
 
-## <a name="description"></a>Description
+## <a name="description"></a>说明
 
 建议您键入一个要应用相应的拨号计划的通用可辨识地理位置名称。例如，如果拨号计划的名称是 London.Contoso.com，则建议的说明将为 London。
 
@@ -129,7 +131,7 @@ _**上次修改的主题：** 2012-09-21_
 
 ## <a name="external-access-prefix"></a>外部访问前缀
 
-如果用户需要拨打一个或多个附加的前导数字（\#例如\*9）以获取外部线路，则可以指定最多为四个字符（、和0-9）的外部访问前缀。
+您可以指定一个外部访问前缀（最多四个字符） (\# 、 \* 和 0-9) 如果用户需要拨打一个或多个附加的前导数字 (例如，9) 获取外部线路。
 
 <div>
 
@@ -173,9 +175,9 @@ _**上次修改的主题：** 2012-09-21_
 
 ## <a name="creating-normalization-rules"></a>创建规范化规则
 
-规范化规则使用 .NET Framework 正则表达式指定数字匹配模式，服务器使用该模式将拨号串转换为 E.164 格式，以便执行反向号码查找。 可以在 Lync Server 控制面板中创建规范化规则，方法是手动输入表达式，或者输入起始数字和要匹配的拨号字符串的长度，让 Lync Server 控制面板生成相应的正则表达式。 无论采用何种方式，完成操作后，都可以输入一个测试号码来验证规范化规则能否按预期工作。
+规范化规则使用 .NET Framework 正则表达式指定数字匹配模式，服务器使用该模式将拨号串转换为 E.164 格式，以便执行反向号码查找。 您可以在 Lync Server 控制面板中创建规范化规则，方法是手动输入表达式，或者输入起始数字和要匹配的拨号字符串的长度，让 Lync Server 控制面板为您生成相应的正则表达式。 无论采用何种方式，完成操作后，都可以输入一个测试号码来验证规范化规则能否按预期工作。
 
-有关使用 .NET Framework 正则表达式的详细信息，请参阅位于的[https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)".Net Framework 正则表达式"。
+有关使用 .NET Framework 正则表达式的详细信息，请参阅位于的 ".NET Framework 正则表达式" [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) 。
 
 </div>
 
@@ -200,7 +202,7 @@ _**上次修改的主题：** 2012-09-21_
 <thead>
 <tr class="header">
 <th>规则名称</th>
-<th>Description</th>
+<th>说明</th>
 <th>号码模式</th>
 <th>Translation</th>
 <th>示例</th>
@@ -210,49 +212,49 @@ _**上次修改的主题：** 2012-09-21_
 <tr class="odd">
 <td><p>4digitExtension</p></td>
 <td><p>转换 4 位分机号</p></td>
-<td><p>^ （\d{4}） $</p></td>
+<td><p>^ ( \d {4}) $</p></td>
 <td><p>+ 1425555 $ 1</p></td>
 <td><p>将 0100 转换为 +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>5digitExtension</p></td>
 <td><p>转换 5 位分机号</p></td>
-<td><p>^ 5 （\d{4}） $</p></td>
+<td><p>^ 5 ( \d {4}) $</p></td>
 <td><p>+ 1425555 $ 1</p></td>
 <td><p>将 50100 转换为 +14255550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>7digitcallingRedmond</p></td>
 <td><p>将 7 位号码转换为雷德蒙德本地号码</p></td>
-<td><p>^ （\d{7}） $</p></td>
+<td><p>^ ( \d {7}) $</p></td>
 <td><p>+ 1425 $ 1</p></td>
 <td><p>将 5550100 转换为 +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>7digitcallingDallas</p></td>
 <td><p>将 7 位号码转换为达拉斯本地号码</p></td>
-<td><p>^ （\d{7}） $</p></td>
+<td><p>^ ( \d {7}) $</p></td>
 <td><p>+ 1972 $ 1</p></td>
 <td><p>将 5550100 转换为 +19725550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>10digitcallingUS</p></td>
 <td><p>转换美国的 10 位号码</p></td>
-<td><p>^ （\d{10}） $</p></td>
+<td><p>^ ( \d {10}) $</p></td>
 <td><p>+ 1 $ 1</p></td>
 <td><p>将 2065550100 转换为 +12065550100</p></td>
 </tr>
 <tr class="even">
 <td><p>LDCallingUS</p></td>
 <td><p>用美国的长途前缀转换号码</p></td>
-<td><p>^ 1 （\d{10}） $</p></td>
+<td><p>^ 1 ( \d {10}) $</p></td>
 <td><p>+ $1</p></td>
 <td><p>将 12145550100 转换为 +2145550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>IntlCallingUS</p></td>
 <td><p>用美国的国际前缀转换号码</p></td>
-<td><p>^ 011 （\d *） $</p></td>
+<td><p>^ 011 ( \d * ) $</p></td>
 <td><p>+ $1</p></td>
 <td><p>将 01191445550100 转换为 +91445550100</p></td>
 </tr>
@@ -266,21 +268,21 @@ _**上次修改的主题：** 2012-09-21_
 <tr class="odd">
 <td><p>RedmondSitePrefix</p></td>
 <td><p>用网内前缀 (6) 和雷德蒙德站点代码 (222) 转换号码</p></td>
-<td><p>^ 6222 （\d{4}） $</p></td>
+<td><p>^ 6222 ( \d {4}) $</p></td>
 <td><p>+ 1425555 $ 1</p></td>
 <td><p>将 62220100 转换为 +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>NYSitePrefix</p></td>
 <td><p>用网内前缀 (6) 和纽约站点代码 (333) 转换号码</p></td>
-<td><p>^ 6333 （\d{4}） $</p></td>
+<td><p>^ 6333 ( \d {4}) $</p></td>
 <td><p>+ 1202555 $ 1</p></td>
 <td><p>将 63330100 转换为 +12025550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>DallasSitePrefix</p></td>
 <td><p>用网内前缀 (6) 和达拉斯站点代码 (444) 转换号码</p></td>
-<td><p>^ 6444 （\d{4}） $</p></td>
+<td><p>^ 6444 ( \d {4}) $</p></td>
 <td><p>+ 1972555 $ 1</p></td>
 <td><p>将 64440100 转换为 +19725550100</p></td>
 </tr>

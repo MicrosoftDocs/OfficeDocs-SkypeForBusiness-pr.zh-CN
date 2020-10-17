@@ -12,20 +12,22 @@ ms:contentKeyID: 48185640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dad03a196b6909d2657b7dbc8463653bb004a310
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 801237e4390cd81ac634a928f4963be1c930d01e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221506"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522019"
 ---
+# <a name="planning-for-lync-server-2013-and-office-communications-server-federation"></a>规划 Lync Server 2013 和 Office 通信服务器联盟
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-lync-server-2013-and-office-communications-server-federation"></a>规划 Lync Server 2013 和 Office 通信服务器联盟
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2013-02-13_
 
 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通信服务器之间的联合支持对等通信和多方通信。 对等对话可升级为多方会话，从而允许临时会议。 可以安排会议（即 Web 会议或音频/视频会议）以包含您组织内的联系人以及您的联盟合作伙伴内的联系人。
 
-联合身份验证首次出现在 Microsoft Office Live 通信服务器2005中，并支持一种联合联合，即直接联盟。 直接联盟需要您知道联盟伙伴的会话初始协议（SIP）域和合作伙伴的边缘服务器的完全限定域名（FQDN）。 Live 通信服务器 2005 SP1 引入了其他联合类型，所有必需的域名系统（DNS） SRV 记录都将由联盟伙伴发布，以找到其边缘服务器。 该版本的术语有：
+联合身份验证首次出现在 Microsoft Office Live 通信服务器2005中，并支持一种联合联合，即直接联盟。 直接联盟需要您了解联盟伙伴的会话初始协议 (SIP) 域和合作伙伴的边缘服务器的完全限定域名 (FQDN) 。 Live 通信服务器 2005 SP1 引入了其他联合类型，所有必需的域名系统 (DNS) SRV 记录，以供联盟伙伴发布，以找到其边缘服务器。 该版本的术语有：
 
   - *打开增强联盟*：接受任何 SIP 域名并使用 DNS SRV 查找合作伙伴边缘服务器
 
@@ -47,7 +49,7 @@ Microsoft Lync Server 2013、Lync Server 2010 和 Office 通信服务器之间�
 
   - *直接联盟*：将合作伙伴的 SIP 域名和 FQDN 配置为合作伙伴的边缘服务器
 
-  - *服务器允许列表*：接受任何域，使用 DNS SRV 查找承载提供程序或公共即时消息（IM）连接提供程序的边缘服务器
+  - *服务器允许列表*：接受任何域，使用 DNS SRV 查找承载提供程序或公共即时消息 (IM) 连接提供程序的边缘服务器
 
 Microsoft Office 通信服务器2007引入了联合身份验证类型的更新命名，以便更好地定义每个联合类型实际完成的操作：
 
@@ -63,12 +65,12 @@ Microsoft Lync Server 2010 根据 Microsoft Lync Online 2010 和 Microsoft Offic
 
 启用 Microsoft Lync Server 2013 之间的联盟。 Lync Server 2010 和 Office 通信服务器使用边缘服务器和反向代理来强制实施所定义的规则和允许的合作伙伴域。 从规划的角度来看，与其他 Lync Server 进行联盟，Office 通信服务器需要满足以下条件：
 
-  - 在拓扑生成器中启用联盟。 有关详细信息，请参阅部署主题[在 Lync Server 2013 中配置 SIP 联盟、XMPP 联盟和公共即时消息](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)。
+  - 在拓扑生成器中启用联盟。 有关详细信息，请参阅部署主题 [在 Lync Server 2013 中配置 SIP 联盟、XMPP 联盟和公共即时消息](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)。
 
   - 确定您的联盟域发现的要求：
     
       - <span></span>  
-        若要手动配置联盟，您必须具有合作伙伴的边缘服务器和域名（FQDN）的完全限定域名（FQDN），或者在 Lync Server 控制面板、**联合访问和外部访问**（ **SIP 联盟域**）中输入的联机域名。 创建“新”**** 策略或“编辑”**** 现有策略以通过 FQDN 允许或阻止域。
+        若要手动配置联盟，您必须具有合作伙伴的边缘服务器和域名的完全限定的域名 (FQDN) ，或者在 Lync Server 控制面板、 **联合访问和外部访问**（ **SIP 联盟域**）中输入的联机域名称。 创建“新”**** 策略或“编辑”**** 现有策略以通过 FQDN 允许或阻止域。
         
         <div>
         
@@ -83,19 +85,19 @@ Microsoft Lync Server 2010 根据 Microsoft Lync Online 2010 和 Microsoft Offic
         
 
         > [!NOTE]
-        > 对于<STRONG>新的 SIP 联盟域</STRONG>，您必须为 Microsoft Lync Online 和 microsoft 365 或 Office 365 提供<STRONG>域名（或 FQDN）</STRONG> 。 对于 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通信服务器，你还必须提供<STRONG>访问边缘服务（FQDN）</STRONG>
+        > 对于 <STRONG>新的 SIP 联盟域</STRONG>，必须为 Microsoft Lync Online 和 microsoft 365 或 Office 365 提供 <STRONG>域名 (或 FQDN) </STRONG> 。 对于 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通信服务器，还必须提供 <STRONG> (FQDN 的访问边缘服务) </STRONG>
 
         
         </div>
     
       - <span></span>  
-        对于已发现的合作伙伴联盟（合作伙伴可以在其中发现你的边缘服务器），请在外部 DNS-sipfederationtls 中创建一个 SRV 记录 \_ 。 \_tcp.contoso.com –指向边缘服务器的端口5061和主机（A）记录
+        对于已发现的合作伙伴联盟（合作伙伴可以在其中发现你的边缘服务器），请在外部 DNS-sipfederationtls 中创建一个 SRV 记录 \_ 。 \_tcp.contoso.com –指向端口5061和主机 (边缘服务器的) 记录
         
         <div>
         
 
         > [!IMPORTANT]
-        > 如果要在 Windows Phone 或 Apple iPhone、iPad 或其他 Apple 设备上支持 Microsoft Lync 移动客户端，并且使用的是推送通知服务或推送通知服务，则必须规划 _sipfederationtls _tcp。 &lt;&gt;您拥有 Lync 移动客户端的每个 sip 域的 SIP 域 SRV 记录。 Android 和 Nokia Symbian Lync Mobile 不使用推送通知，也不受此要求的制约。
+        > 如果要在 Windows Phone 或 Apple iPhone、iPad 或其他 Apple 设备上支持 Microsoft Lync 移动客户端，并且使用的是推送通知服务或推送通知服务，则必须规划 _sipfederationtls. _tcp。 &lt;&gt;您拥有 Lync 移动客户端的每个 sip 域的 SIP 域 SRV 记录。 Android 和 Nokia Symbian Lync Mobile 不使用推送通知，也不受此要求的制约。
 
         
         </div>

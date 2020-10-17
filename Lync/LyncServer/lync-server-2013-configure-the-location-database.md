@@ -12,20 +12,22 @@ ms:contentKeyID: 48184704
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ff565c1d884fe2af9a49da6798e8c3e52cb38da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9495bc0c52e8e9af4af0daa3d29304d5b25d4b7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213308"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520259"
 ---
+# <a name="configure-the-location-database-in-lync-server-2013"></a>在 Lync Server 2013 中配置位置数据库
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-location-database-in-lync-server-2013"></a>在 Lync Server 2013 中配置位置数据库
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2012-09-17_
 
 要配置位置数据库，请执行下列任务：
 
-1.  使用网络元素到位置的映射填充数据库。 如果您使用紧急位置标识号（ELIN）网关，则需要在 " \<公司名称\> " 字段中添加 ELIN。
+1.  使用网络元素到位置的映射填充数据库。 如果使用的是紧急位置标识号 (ELIN) 网关，则需要在字段中包括 ELIN \<CompanyName\> 。
 
 2.  根据由 E9-1-1 服务提供商维护的主街道地址指南 (MSAG) 验证地址。
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-09-17_
 
 
 > [!NOTE]  
-> 另外，可以定义可用于代替位置数据库的辅助位置源数据库。 有关详细信息，请参阅<A href="lync-server-2013-configure-a-secondary-location-information-service.md">在 Lync Server 2013 中配置辅助位置信息服务</A>。
+> 另外，可以定义可用于代替位置数据库的辅助位置源数据库。 有关详细信息，请参阅 <A href="lync-server-2013-configure-a-secondary-location-information-service.md">在 Lync Server 2013 中配置辅助位置信息服务</A>。
 
 
 

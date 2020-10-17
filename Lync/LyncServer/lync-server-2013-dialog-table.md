@@ -12,20 +12,22 @@ ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18646cb43bc957ebee7da0a313e840cc18f3ed54
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a4c26c719e9d7e3cd0922813896896925a9bb6f9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213408"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519989"
 ---
+# <a name="dialog-table-in-lync-server-2013"></a>Lync Server 2013 中的对话框表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dialog-table-in-lync-server-2013"></a>Lync Server 2013 中的对话框表
+
 
 </div>
 
@@ -70,7 +72,7 @@ Dialog 表是一个支持表；每条记录代表一个会话初始协议 (SIP) 
 </tr>
 <tr class="odd">
 <td><p><strong>DialogID</strong></p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td></td>
 <td><p>全局唯一的对话 ID。</p></td>
 </tr>

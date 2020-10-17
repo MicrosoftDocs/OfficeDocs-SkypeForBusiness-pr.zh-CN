@@ -12,20 +12,22 @@ ms:contentKeyID: 48185193
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e9c2f59cd3ee07e565a984ebb6f19d8ff07f50e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5037a723b16758280eec5ec4500e6f561cb9a8bc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179669"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521629"
 ---
+# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>在 Lync Server 2013 的前端服务器上部署 IP 地址类型
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>在 Lync Server 2013 的前端服务器上部署 IP 地址类型
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**上次修改的主题：** 2016-07-28_
     
       - **主 IP 地址**。输入用于除公用电话交换网 (PSTN) 之外的所有通信的 IP 地址。所输入的 IP 地址必须符合选择的地址类型的格式。
     
-      - **PSTN IP 地址**。 并置中介服务器角色不支持安装额外的网络接口卡（NIC） s 来支持 Lync Server 2013 的 PSTN IP 地址配置。 有关 Lync Server 2013 支持的 NIC 配置的详细信息，请参阅[Lync server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)。
+      - **PSTN IP 地址**。 并置中介服务器角色不支持安装其他网络接口卡 (NIC) s 以支持 Lync Server 2013 的 PSTN IP 地址配置。 有关 Lync Server 2013 支持的 NIC 配置的详细信息，请参阅 [Lync server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e91ef78b2aedb3985ef1ab350de43261e4885d87
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4c06a4daac2fe78ba8d631890ab1f02ca5efe932
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520389"
 ---
+# <a name="configure-security-settings-for-lync-phone-edition-in-lync-server-2013"></a>在 Lync Server 2013 中配置 Lync Phone Edition 的安全设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-security-settings-for-lync-phone-edition-in-lync-server-2013"></a>在 Lync Server 2013 中配置 Lync Phone Edition 的安全设置
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-02-23_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“客户端”****，然后单击“设备配置”****。
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2013-02-23_
     
 
     > [!NOTE]  
-    > 有关详细信息，请参阅<A href="lync-server-2013-enforce-phone-locking.md">在 Lync Server 2013 中强制执行电话锁定</A>。
+    > 有关详细信息，请参阅 <A href="lync-server-2013-enforce-phone-locking.md">在 Lync Server 2013 中强制执行电话锁定</A>。
 
     
     </div>
@@ -70,7 +72,7 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="configuring-security-settings-for-lync-phone-edition-phones-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 为 Lync Phone Edition 电话配置安全设置
 
-可以使用 Lync Server 命令行管理程序和**CsUCPhoneConfiguration** cmdlet 来管理安全设置。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+可以使用 Lync Server 命令行管理程序和 **CsUCPhoneConfiguration** cmdlet 来管理安全设置。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -92,7 +94,7 @@ _**上次修改的主题：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsUCPhoneConfiguration)。
+有关详细信息，请参阅 [CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsUCPhoneConfiguration)。
 
 </div>
 

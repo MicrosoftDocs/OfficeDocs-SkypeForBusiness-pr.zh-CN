@@ -12,20 +12,22 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b99bc06f22490013dd14dc8527bd3eb88938380
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72d3f60747f9b3456a6999358b0cf318b5e6d91d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205138"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521159"
 ---
+# <a name="configure-call-park-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置呼叫寄存设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-call-park-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置呼叫寄存设置
+
 
 </div>
 
@@ -91,7 +93,7 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-configure-call-park-settings"></a>配置呼叫寄存设置
 
-1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在 [Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 

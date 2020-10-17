@@ -12,20 +12,22 @@ ms:contentKeyID: 48185607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa65580cd9138b58792d4a0f0621bfe6f5f10c9c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 619bdaaa1a1c3b7723f2df9c74e106321bdb054c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191385"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521449"
 ---
+# <a name="adding-a-custom-link-to-lync-error-messages-in-lync-server-2013"></a>在 Lync Server 2013 中向 Lync 错误消息添加自定义链接
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-a-custom-link-to-lync-error-messages-in-lync-server-2013"></a>在 Lync Server 2013 中向 Lync 错误消息添加自定义链接
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42191385"
 
 _**上次修改的主题：** 2013-02-20_
 
-通过添加指向您自己的故障排除或技术支持信息的链接来自定义 Lync 2013 错误消息。 若要执行此操作，请使用 CustomLinkInErrorMessages 参数的**set-csclientpolicy**或**set-csclientpolicy** Lync Server 命令行管理程序 cmdlet。 自定义链接的文本是 "单击此处获取来自管理员的支持主题"，无法对其进行自定义。
+通过添加指向您自己的故障排除或技术支持信息的链接来自定义 Lync 2013 错误消息。 若要执行此操作，请使用 CustomLinkInErrorMessages 参数的**set-csclientpolicy**或**Set-csclientpolicy**   Lync Server 命令行管理程序 cmdlet。 自定义链接的文本是 "单击此处获取来自管理员的支持主题"，无法对其进行自定义。
 
-例如，以下命令使自定义链接显示在每个 Lync 2013 错误消息的脚注区域中，并将链接目标设置为http://contoso.com/help/LyncHelpDesk.aspx:
+例如，以下命令使自定义链接显示在每个 Lync 2013 错误消息的脚注区域中，并将链接目标设置为 http://contoso.com/help/LyncHelpDesk.aspx:
 
     New-CsClientPolicy -Identity LyncErrorLink -CustomLinkInErrorMessages "http://contoso/help/LyncHelpDesk.aspx"
 
-使用 **Grant-CSClientPolicy** 将此新策略分配给用户。 有关详细信息，请参阅 Lync Server 命令行管理程序文档中的**set-csclientpolicy**和**Grant set-csclientpolicy** 。
+使用 **Grant-CSClientPolicy** 将此新策略分配给用户。 有关详细信息，请参阅 Lync Server 命令行管理程序文档中的 **set-csclientpolicy** 和 **Grant set-csclientpolicy** 。
 
 </div>
 

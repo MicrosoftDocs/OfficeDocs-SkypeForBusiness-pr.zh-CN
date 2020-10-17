@@ -12,20 +12,22 @@ ms:contentKeyID: 48185884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d1f47cbd38604e90354dc6f3590894071cc4c3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e232d6ffee5e49d52eef68c9668d7d8b6325f13d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520799"
 ---
+# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的对等活动摘要报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的对等活动摘要报告
+
 
 </div>
 
@@ -51,11 +53,11 @@ _**上次修改的主题：** 2012-10-21_
 
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>访问点对点活动摘要报告
 
-可从监视报告主页访问点对点活动摘要报告。 您可以通过单击以下任一指标[在 Lync Server 2013 中打开对等 IM 报告](lync-server-2013-peer-to-peer-im-report.md)：
+可从监视报告主页访问点对点活动摘要报告。 您可以通过单击以下任一指标 [在 Lync Server 2013 中打开对等 IM 报告](lync-server-2013-peer-to-peer-im-report.md) ：
 
   - 对等 IM 会话总数
 
-  - 对等 IM 消息总数
+  - 点对点 IM 消息总数
 
 同样，通过单击以下任何指标可打开点对点语音和视频报告：
 
@@ -102,7 +104,7 @@ _**上次修改的主题：** 2012-10-21_
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>时间范围的开始日期和时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
-<p>7/17/12012 1:00 PM</p>
+<p>7/17/2012 1:00 PM</p>
 <p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/17/12012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184180
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1eb03e821615835ea7ce1413100a00740d129647
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e395b021c61a8b07946c9f428043d7679dcfad9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213268"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520419"
 ---
+# <a name="configure-policies-to-control-federated-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中配置用于控制联合用户访问的策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-federated-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中配置用于控制联合用户访问的策略
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42213268"
 
 _**上次修改的主题：** 2014-02-05_
 
-如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。 您可以配置一个或多个外部用户访问策略，以控制联盟域的用户是否可以与 Lync Server 2013 用户进行协作。 要控制联盟用户访问，可以在全局、站点和用户级别配置策略。 在一个策略级别应用的 Lync Server 策略设置可以覆盖在另一个策略级别应用的设置。 Lync Server 策略优先级为：用户策略（最具影响力）替代网站策略，然后网站策略将覆盖全局策略（最不影响）。 这意味着，策略设置越接近策略所影响的对象，它对对象的影响越大。
+如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。 您可以配置一个或多个外部用户访问策略，以控制联盟域的用户是否可以与 Lync Server 2013 用户进行协作。 要控制联盟用户访问，可以在全局、站点和用户级别配置策略。 在一个策略级别应用的 Lync Server 策略设置可以覆盖在另一个策略级别应用的设置。 Lync Server 策略优先级为：用户策略 (影响最大的) 替代网站策略，然后网站策略将覆盖全局策略 (最小影响) 。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
 
 <div>
 
 
 > [!NOTE]  
-> 即使没有为组织启用联盟，也可以配置控制联盟用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联合的详细信息，请参阅部署文档或操作文档中的在<A href="lync-server-2013-enable-or-disable-remote-user-access.md">Lync Server 2013 中启用或禁用远程用户访问</A>。 此外，如果您指定了用于控制联合用户访问的用户策略，则该策略仅适用于启用了 Lync Server 2013 的用户并配置为使用该策略。
+> 即使没有为组织启用联盟，也可以配置控制联盟用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联合的详细信息，请参阅部署文档或操作文档中的在 <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Lync Server 2013 中启用或禁用远程用户访问</A> 。 此外，如果您指定了用于控制联合用户访问的用户策略，则该策略仅适用于启用了 Lync Server 2013 的用户并配置为使用该策略。
 
 
 
@@ -53,9 +55,9 @@ _**上次修改的主题：** 2014-02-05_
 
 ## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>配置策略以支持联盟域用户访问
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“外部用户访问”****，然后单击“外部访问策略”****。
 
@@ -79,9 +81,9 @@ _**上次修改的主题：** 2014-02-05_
 
 7.  单击“提交”****。
 
-要启用联盟用户访问，还必须在组织中启用对联盟的支持。 有关详细信息，请参阅[在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)。
+要启用联盟用户访问，还必须在组织中启用对联盟的支持。 有关详细信息，请参阅 [在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)。
 
-如果这是一个用户策略，则还必须将此策略应用于希望其可以与联盟用户进行协作的用户。 有关详细信息，请参阅[在 Lync Server 2013 中向启用 Lync 的用户分配外部用户访问策略](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)。
+如果这是一个用户策略，则还必须将此策略应用于希望其可以与联盟用户进行协作的用户。 有关详细信息，请参阅 [在 Lync Server 2013 中向启用 Lync 的用户分配外部用户访问策略](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)。
 
 </div>
 
@@ -89,7 +91,7 @@ _**上次修改的主题：** 2014-02-05_
 
 ## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用 Windows PowerShell 配置现有策略以支持由联盟域的用户进行访问
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
@@ -116,7 +118,7 @@ _**上次修改的主题：** 2014-02-05_
 
 ## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用 Windows PowerShell 创建新策略以支持由联盟域的用户进行访问
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
@@ -134,7 +136,7 @@ _**上次修改的主题：** 2014-02-05_
 
 ## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用 Windows PowerShell 删除或重置策略以支持由联盟域的用户进行访问
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
 2.  在 Lync Server 命令行管理程序中键入以下命令
     

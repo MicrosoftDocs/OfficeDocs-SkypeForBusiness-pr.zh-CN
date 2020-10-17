@@ -12,20 +12,22 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ed67522a2f47466bbf01efdd3a548c3e3637321
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cf2b157dcd039f11d38ef56d6da07a6921e1c9c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191635"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521589"
 ---
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Lync Server 2013 使用的 Active Directory 架构扩展、类和属性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Lync Server 2013 使用的 Active Directory 架构扩展、类和属性
+
 
 </div>
 
@@ -53,9 +55,9 @@ _**上次修改的主题：** 2012-06-19_
 
   - 域准备过程中在域根和内置容器中创建的访问控制项 (ACE)
 
-  - 通过 Grant\_CsSetupPermission Cmdlet 在 Active Directory 组织单位（OU）上进行的更改。
+  - 在 Active Directory 组织单位上进行的更改 (OU) 由 Grant CsSetupPermission cmdlet 进行的更改 \_ 。
 
-  - 通过 Grant\_CsOUPermission Cmdlet 在 ACTIVE Directory OU 中进行的更改。
+  - 通过 Grant CsOUPermission cmdlet 在 Active Directory OU 中进行的更改 \_ 。
 
 <div>
 
@@ -73,9 +75,9 @@ _**上次修改的主题：** 2012-06-19_
 
   - [Lync Server 2013 中的域准备所做的更改](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Lync Server 2013 中的 CsSetupPermission 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+  - [Lync Server 2013 中 Grant-CsSetupPermission 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Lync Server 2013 中的 CsOUPermission 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+  - [Lync Server 2013 中 Grant-CsOUPermission 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
 
 </div>
 

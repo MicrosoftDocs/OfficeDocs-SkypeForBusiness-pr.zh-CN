@@ -12,20 +12,22 @@ ms:contentKeyID: 48185666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce2919e783b24148cd6526a1b4ecfbf082c11985
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0f4de5568dc8d265acd412999aafc814c68dbc9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206008"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520359"
 ---
+# <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a>在 Lync Server 2013 中配置呼叫寄存通道表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a>在 Lync Server 2013 中配置呼叫寄存通道表
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42206008"
 
 _**上次修改的主题：** 2012-09-10_
 
-呼叫寄存使用用于停车呼叫的轨道式。 在用户可以寄存和检索呼叫之前，您必须配置呼叫寄存通道表。 您需要指定您的组织将为停车呼叫保留的分机号码范围（概述），并通过指定处理每个范围的呼叫寄存池来定义这些区域的路由。 定义通道范围时，目标是具有足够的通道，以便不会在短时间内重用任何一个通道，但又不能有太多通道，以致于不得不限制用户或其他服务可使用的分机数量。 您可以为部署呼叫寄存应用程序的每个 Lync Server 池创建多个呼叫寄存通道范围。 每个呼叫寄存通道范围必须具有一个全局唯一的名称和一组唯一的分机号。
+呼叫寄存使用用于停车呼叫的轨道式。 在用户可以寄存和检索呼叫之前，您必须配置呼叫寄存通道表。 您需要指定 (轨道式) 您的组织将为停车呼叫保留的扩展号码范围，并通过指定处理每个范围的呼叫寄存池来定义这些区域的路由。 定义通道范围时，目标是具有足够的通道，以便不会在短时间内重用任何一个通道，但又不能有太多通道，以致于不得不限制用户或其他服务可使用的分机数量。 您可以为部署呼叫寄存应用程序的每个 Lync Server 池创建多个呼叫寄存通道范围。 每个呼叫寄存通道范围必须具有一个全局唯一的名称和一组唯一的分机号。
 
 <div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-09-10_
 
 
 > [!NOTE]  
-> 不支持将直接向内拨号（已）号码分配为呼叫寄存通道表中的轨道编号。
+> 将直接向内拨号 (分配为呼叫寄存通道表中的轨道编号不支持) 号码。
 
 
 

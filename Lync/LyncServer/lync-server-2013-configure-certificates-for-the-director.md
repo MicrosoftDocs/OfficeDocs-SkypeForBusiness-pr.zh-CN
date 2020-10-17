@@ -12,20 +12,22 @@ ms:contentKeyID: 48183612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c5fef23ca24d9a09d326b75ec2ad2e30704852f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e257d62e761b33dad737f9d37da5f561703183ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205085"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521049"
 ---
+# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a>在 Lync Server 2013 中为控制器配置证书
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a>在 Lync Server 2013 中为控制器配置证书
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-09-08_
 
 </div>
 
-每个控制器都需要默认证书、Web 内部证书和 Web 外部证书。 有关控制器的证书要求的详细信息，请参阅规划文档中的[Lync Server 2013 中的内部服务器的证书要求](lync-server-2013-certificate-requirements-for-internal-servers.md)。
+每个控制器都需要默认证书、Web 内部证书和 Web 外部证书。 有关控制器的证书要求的详细信息，请参阅规划文档中的 [Lync Server 2013 中的内部服务器的证书要求](lync-server-2013-certificate-requirements-for-internal-servers.md) 。
 
 使用以下过程配置控制器证书。对每台控制器重复此过程。此过程的步骤介绍如何在组织部署的内部企业根证书颁发机构 (CA) 中通过脱机请求处理来配置证书。有关从外部 CA 获取证书的详细信息，请与支持团队联系。
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-09-08_
 
 ## <a name="to-configure-certificates-for-the-director-or-director-pool"></a>为控制器或控制器池配置证书
 
-1.  在 "Lync Server 部署向导" 的 "**步骤3：请求、安装或分配证书**" 旁边，单击 "**运行**"。
+1.  在 "Lync Server 部署向导" 的 " **步骤3：请求、安装或分配证书**" 旁边，单击 " **运行**"。
 
 2.  在 **“证书向导”** 页上，单击 **“请求”**。
 

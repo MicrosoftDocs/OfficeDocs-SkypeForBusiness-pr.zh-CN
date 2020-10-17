@@ -12,20 +12,22 @@ ms:contentKeyID: 48184536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5659bf3e210f1f8294789729a758d4877d3e70bb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d4e388898b36f2eae913a5c34e11119cf95402a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188205"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520029"
 ---
+# <a name="deploying-remote-call-control-in-lync-server-2013"></a>在 Lync Server 2013 中部署远程呼叫控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-remote-call-control-in-lync-server-2013"></a>在 Lync Server 2013 中部署远程呼叫控制
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-20_
 
 
 > [!NOTE]  
-> 虽然远程呼叫控制功能可用于在组织的防火墙之外的远程用户，但是有关部署外部访问方案的详细信息不在本文档的范围之内。 有关部署外部用户访问的详细信息，请参阅部署文档中的在<A href="lync-server-2013-deploying-external-user-access.md">Lync Server 2013 中部署外部用户访问</A>。
+> 虽然远程呼叫控制功能可用于在组织的防火墙之外的远程用户，但是有关部署外部访问方案的详细信息不在本文档的范围之内。 有关部署外部用户访问的详细信息，请参阅部署文档中的在 <A href="lync-server-2013-deploying-external-user-access.md">Lync Server 2013 中部署外部用户访问</A> 。
 
 
 
@@ -59,13 +61,13 @@ _**上次修改的主题：** 2012-10-20_
 
   - [在 Lync Server 2013 中为远程呼叫控制配置受信任的应用程序条目](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
 
-  - [在 Lync Server 2013 中定义 SIP/CSTA 网关 IP 地址](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)（仅当网关配置为使用 TCP 时）
+  - 仅当网关配置为使用 TCP 时，才能[在 Lync Server 2013 (中定义 SIP/CSTA 网关 IP 地址](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)) 
 
   - [在 Lync Server 2013 中为 Lync 用户启用远程呼叫控制](lync-server-2013-enable-lync-users-for-remote-call-control.md)
 
   - [Lync Server 2013 中的远程呼叫控制和电话号码规范化](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
 
-  - [在 Lync Server 2013 中删除旧版授权主机（可选）](lync-server-2013-remove-a-legacy-authorized-host-optional.md) （仅当迁移以前为远程呼叫控制启用的用户时）
+  - [在 Lync Server 2013 中删除旧版授权主机 (可选) ](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (仅当迁移以前为远程呼叫控制启用的用户时) 
 
 </div>
 

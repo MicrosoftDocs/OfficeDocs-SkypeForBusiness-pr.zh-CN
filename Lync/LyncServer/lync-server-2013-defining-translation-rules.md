@@ -12,20 +12,22 @@ ms:contentKeyID: 48184093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba03cbb16a347b4b4c64758de3397e6030db9dd4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85c4f1dc3b07d56e97211d6d5caf549e72caa177
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521679"
 ---
+# <a name="defining-translation-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定义转换规则
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-translation-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定义转换规则
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42198375"
 
 _**上次修改的主题：** 2013-02-22_
 
-Lync Server 2013 企业语音路由根据规范化为 e.164 格式的电话号码的呼叫。 这意味着，所有拨打的字符串都必须规范化为 e.164 格式，以执行反向号码查找（RNL），以便可以将它们转换为匹配的 SIP URI。 Lync Server 2013 提供了操作被叫 ID 和呼叫者 ID 演示的功能。
+Lync Server 2013 企业语音路由根据规范化为 e.164 格式的电话号码的呼叫。 这意味着，所有拨打的字符串都必须规范化为 e.164 格式，以执行反向号码查找 (RNL) ，以便可以将其转换为匹配的 SIP URI。 Lync Server 2013 提供了操作被叫 ID 和呼叫者 ID 演示的功能。
 
 本节讨论如何操作被叫 ID 和呼叫者 ID。
 

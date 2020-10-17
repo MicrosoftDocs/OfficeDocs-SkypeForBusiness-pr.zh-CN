@@ -12,20 +12,22 @@ ms:contentKeyID: 48185488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c31dff681bb4c3b3b4a0c88b1d2bcce20bb1e6a1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e6c45361f0db8e973523ab81265fd8a1d9dc270
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200204"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521559"
 ---
+# <a name="in-lync-server-2013-add-kerberos-authentication-to-other-sites"></a>在 Lync Server 2013 中，向其他站点添加 Kerberos 身份验证
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="in-lync-server-2013-add-kerberos-authentication-to-other-sites"></a>在 Lync Server 2013 中，向其他站点添加 Kerberos 身份验证
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200204"
 
 _**上次修改的主题：** 2010-11-03_
 
-如果需要向配置了 Kerberos 身份验证的现有部署添加站点，可将现有 Kerberos 身份验证帐户用于新站点，也可以创建新帐户。 有关为网站创建新帐户的详细信息，请参阅[在 Lync Server 2013 中创建 Kerberos 身份验证帐户](lync-server-2013-create-a-kerberos-authentication-account.md)。 有关通过向网站分配现有帐户对新网站使用相同帐户的详细信息，请参阅[在 Lync Server 2013 中向网站分配 Kerberos 身份验证帐户](lync-server-2013-assign-a-kerberos-authentication-account-to-a-site.md)。
+如果需要向配置了 Kerberos 身份验证的现有部署添加站点，可将现有 Kerberos 身份验证帐户用于新站点，也可以创建新帐户。 有关为网站创建新帐户的详细信息，请参阅 [在 Lync Server 2013 中创建 Kerberos 身份验证帐户](lync-server-2013-create-a-kerberos-authentication-account.md)。 有关通过向网站分配现有帐户对新网站使用相同帐户的详细信息，请参阅 [在 Lync Server 2013 中向网站分配 Kerberos 身份验证帐户](lync-server-2013-assign-a-kerberos-authentication-account-to-a-site.md)。
 
 </div>
 

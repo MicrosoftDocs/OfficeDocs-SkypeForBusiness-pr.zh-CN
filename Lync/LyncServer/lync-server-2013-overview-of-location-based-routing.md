@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：基于位置的路由概述
+title: Lync Server 2013： Location-Based 路由概述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85d24aeb94a0c16e93d885c5b6db20385cdf0f26
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48fee2b9db45519ff4773b4dfe47b33745e5fb10
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216239"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520959"
 ---
+# <a name="overview-of-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 中的 Location-Based 路由概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 中基于位置的路由概述
+
 
 </div>
 
@@ -37,24 +39,24 @@ ms.locfileid: "42216239"
 
 _**上次修改的主题：** 2013-02-21_
 
-基于位置的路由引入了一组新的规则，这些规则可修改国内和国际 PSTN 呼叫的路由以防止收费绕过。 基于位置的路由可以灵活地将这些规则限定为特定区域、特定网关或仅特定用户集。
+Location-Based 传送引入了一组新的规则，这些规则可修改国内和国际 PSTN 呼叫的路由以防止收费绕过。 Location-Based 路由可以灵活地将这些规则限定为特定区域、特定网关或仅特定用户集。
 
-以下方案说明了可以强制实施基于位置的限制的主要路由类型：
+以下方案说明了 Location-Based 路由可以强制执行的主要限制类型：
 
-  - 出局呼叫–基于位置的路由可以强制传出呼叫从位于与呼叫者阻止 PSTN 收费旁路的 PSTN 网关传出的传出呼叫，这样可以防止从位于不同区域的 PSTN 网关传出的传出呼叫者.
+  - 出局呼叫– Location-Based 路由可以强制传出呼叫从位于与呼叫者阻止 PSTN 收费旁路的 PSTN 网关的传出呼叫，这将阻止从位于不同区域中的 PSTN 网关传出的传出呼叫呼叫者。
 
-  - 入站呼叫–基于位置的路由可以阻止传入 PSTN 呼叫拨打 Lync 终结点，如果传入呼叫与被呼叫 Lync 用户不在同一区域中。
+  - 入站呼叫–如果 PSTN 网关路由传入呼叫不在与被叫 Lync 用户相同的区域中，则 Location-Based 路由可以阻止传入 PSTN 呼叫拨打 Lync 终结点。
 
-  - 未知区域–基于位置的路由将传入和传出 PSTN 呼叫限制在不确定位置（即从 Internet 连接或位于未知区域的远程用户）中的用户。
+  - 未知区域– Location-Based 路由将传入和传出 PSTN 呼叫限制在不确定位置的用户 (例如，从 Internet 连接或位于未知区域中的远程用户) 。
 
-  - 国际区域–如果找不到用户所在位置的网关，则基于位置的路由会强制通过国际 PSTN 网关路由传出呼叫。
+  - 国际区域–如果找不到用户位置的网关，则路由通过国际 PSTN 网关执行传出呼叫的路由（如果找不到用户位置的网关 Location-Based）。
 
 <div>
 
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中规划基于位置的路由](lync-server-2013-planning-for-location-based-routing.md)  
+[在 Lync Server 2013 中规划 Location-Based 路由](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

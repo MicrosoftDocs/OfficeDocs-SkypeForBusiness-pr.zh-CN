@@ -12,20 +12,22 @@ ms:contentKeyID: 48185613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c3845289399c005a7d4d67e07629f71e86b6184
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33e5ac47b0bd8c7668fa929fbc5f712ad8d396af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200508"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521789"
 ---
+# <a name="setting-up-site-policies-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中设置用于存档的网站策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-site-policies-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中设置用于存档的网站策略
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42200508"
 
 _**上次修改的主题：** 2012-10-09_
 
-您可以通过为每个网站创建和配置存档策略来启用或禁用对特定网站的存档。 站点策略会覆盖全局策略，但用户策略会覆盖站点策略。 仅当您不使用 Microsoft Exchange 集成时，或者，如果您使用 Microsoft Exchange 集成，但某些用户不驻留在 Exchange 2013 上，并且其邮箱置于就地保留状态，则存档策略才适用。
+您可以通过为每个网站创建和配置存档策略来启用或禁用对特定网站的存档。 站点策略会覆盖全局策略，但用户策略会覆盖站点策略。 仅当您不使用 Microsoft Exchange 集成时，或者，如果您使用 Microsoft Exchange 集成，但某些用户不驻留在 Exchange 2013 上，并且其邮箱置于 In-Place 保留状态，则存档策略仅适用。
 
-有关存档策略的工作原理（包括全局、站点和用户策略的层次结构）的详细信息，请参阅[在 Lync Server 2013](lync-server-2013-how-archiving-works.md)规划文档、部署文档或操作文档中存档的工作原理。
+有关存档策略的工作原理（包括全局、站点和用户策略的层次结构）的详细信息，请参阅 [在 Lync Server 2013](lync-server-2013-how-archiving-works.md) 规划文档、部署文档或操作文档中存档的工作原理。
 
 <div>
 
 
 > [!NOTE]  
-> 如果为您的部署启用了 Microsoft Exchange 集成，则 Exchange 就地保留策略控制是否为托管在 Exchange 2013 上的用户启用存档，并将其邮箱置于就地保留状态。 有关详细信息，请参阅部署文档中的<A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange Server 集成时，请参阅在 Lync Server 2013 中设置存档策略</A>。<BR>在存档策略中启用内部或外部通信的存档之前，应在存档配置中指定所有适当选项。 有关详细信息，请参阅部署文档中的在<A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 中配置存档选项</A>。
+> 如果为部署启用了 Microsoft Exchange 集成，Exchange In-Place 保留策略将控制是否为驻留在 Exchange 2013 上的用户启用存档，并将其邮箱置于 In-Place 保留状态。 有关详细信息，请参阅部署文档中的 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">使用 Exchange Server 集成时，请参阅在 Lync Server 2013 中设置存档策略</A> 。<BR>在存档策略中启用内部或外部通信的存档之前，应在存档配置中指定所有适当选项。 有关详细信息，请参阅部署文档中的在 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 中配置存档选项</A> 。
 
 
 
@@ -61,21 +63,21 @@ _**上次修改的主题：** 2012-10-09_
 
 3.  在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档策略”**。
     
-    有关存档策略的工作原理（包括全局、站点和用户策略的层次结构）的详细信息，请参阅[在 Lync Server 2013](lync-server-2013-how-archiving-works.md)规划文档、部署文档或操作文档中存档的工作原理。
+    有关存档策略的工作原理（包括全局、站点和用户策略的层次结构）的详细信息，请参阅 [在 Lync Server 2013](lync-server-2013-how-archiving-works.md) 规划文档、部署文档或操作文档中存档的工作原理。
 
 4.  单击“新建”****，然后单击“站点策略”****。
 
-5.  在 "**选择站点**" 中，单击要应用该策略的站点。
+5.  在 " **选择站点**" 中，单击要应用该策略的站点。
 
 6.  在 **“新建存档策略”** 中，执行下列操作：
     
-      - 在 "**名称**" 中，指定网站策略的名称。
+      - 在 " **名称**" 中，指定网站策略的名称。
     
-      - 在 "**说明**" 中，提供有关站点策略的内容（例如，Redmond 的站点策略）的信息。
+      - 在 " **说明**" 中，提供有关网站策略 (的信息，例如，Redmond) 的网站策略。
     
-      - 若要控制指定站点的内部通信的存档，请选中或清除 "**存档内部通信**" 复选框。
+      - 若要控制指定站点的内部通信的存档，请选中或清除 " **存档内部通信** " 复选框。
     
-      - 若要控制指定站点的外部通信存档，请选中或清除 "**存档外部通信**" 复选框。
+      - 若要控制指定站点的外部通信存档，请选中或清除 " **存档外部通信** " 复选框。
 
 7.  单击“提交”****。
 

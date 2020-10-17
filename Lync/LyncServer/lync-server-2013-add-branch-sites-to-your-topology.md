@@ -12,20 +12,22 @@ ms:contentKeyID: 48185216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4e024ed5cdb29bb8a8a4170b89399f955254bf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fec919491872df8dc2ab0f843be84d4d0de1c280
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181385"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521569"
 ---
+# <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a>在 Lync Server 2013 中向拓扑添加分支站点
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a>在 Lync Server 2013 中向拓扑添加分支站点
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2012-10-05_
 
 7.  单击“下一步”****，然后执行以下操作之一：
     
-      - 如果在此网站上使用 Survivable 分支设备或服务器，请确保选中 "在**此向导关闭时打开新 Survivable 向导**" 复选框，单击 "**完成**"，然后按照向导中打开的说明进行操作。 有关向导项的信息，请参阅[在 Lync Server 2013 中定义 Survivable 分支设备或服务器](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)。
+      - 如果在此网站上使用 Survivable 分支设备或服务器，请确保选中 "在 **此向导关闭时打开新 Survivable 向导** " 复选框，单击 " **完成**"，然后按照向导中打开的说明进行操作。 有关向导项的信息，请参阅 [在 Lync Server 2013 中定义 Survivable 分支设备或服务器](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)。
     
       - 如果不在该站点上使用 Survivable Branch Appliance 或 Survivable Branch Server，请清除“此向导关闭后将打开新建 Survivable 向导”**** 复选框，然后单击“完成”****。
 
@@ -71,9 +73,9 @@ _**上次修改的主题：** 2012-10-05_
 
 **下一步：**
 
-对于 Survivable 分支装置或服务器：[在 Lync Server 2013 中定义 Survivable 分支装置或服务器](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+对于 Survivable 分支装置或服务器： [在 Lync Server 2013 中定义 Survivable 分支装置或服务器](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
-对于非复原 PSTN 连接：在 lync server 2013 中为[分支站点定义 PSTN 网关](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)，[在 lync server 2013 中配置带媒体旁路的中继](lync-server-2013-configure-a-trunk-with-media-bypass.md)，或[在 lync server 2013 中配置不使用媒体旁路的中继](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+对于非复原 PSTN 连接：在 lync server 2013 中为 [分支站点定义 PSTN 网关](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)， [在 lync server 2013 中配置带媒体旁路的中继](lync-server-2013-configure-a-trunk-with-media-bypass.md)，或 [在 lync server 2013 中配置不使用媒体旁路的中继](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
 </div>
 

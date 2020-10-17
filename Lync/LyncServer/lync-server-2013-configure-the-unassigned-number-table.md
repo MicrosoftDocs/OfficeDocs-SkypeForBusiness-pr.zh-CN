@@ -12,20 +12,22 @@ ms:contentKeyID: 48185908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54a6f1db9f933394a8d8c33a6e002bb52e56341b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4c73027511ec8798010f1d22fb9bd19eeab27a7f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207548"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520249"
 ---
+# <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a>在 Lync Server 2013 中配置未分配号码表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a>在 Lync Server 2013 中配置未分配号码表
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2012-10-30_
 
 
 > [!IMPORTANT]  
-> 在配置未分配号码表之前，系统必须已定义通知或已设置 Exchange 统一消息（UM）自动助理。
+> 在配置未分配号码表之前，系统必须已定义通知，或已设置 Exchange 统一消息 (UM) 自动助理。
 
 
 

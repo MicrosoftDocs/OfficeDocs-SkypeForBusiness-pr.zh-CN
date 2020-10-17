@@ -12,20 +12,22 @@ ms:contentKeyID: 49733592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f90df8b71123a613624980b4ee63e1a17f23a769
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54ca98f168b694c67ac8e19dff1fc51896a14f6d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191465"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521489"
 ---
+# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a>将 Lync Server 2010 Survivable 分支装置分支站点添加到您的拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a>将 Lync Server 2010 Survivable 分支装置分支站点添加到您的拓扑
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42191465"
 
 _**上次修改的主题：** 2012-10-07_
 
-Microsoft Lync Server 2010 Survivable 分支装置（SBA）可与 Microsoft Lync Server 2013 前端池关联，作为备份注册机构。 有关如何将 Microsoft Lync Server 2010 SBA 连接到 Microsoft Lync Server 2013 前端池的详细过程，请参阅 "迁移" 部分 "[连接 Survivable 分支设备](connect-a-survivable-branch-appliance.md)"。
+Microsoft Lync Server 2010 Survivable 分支装置 (SBA) 可以与 Microsoft Lync Server 2013 前端池关联，作为备份注册器。 有关如何将 Microsoft Lync Server 2010 SBA 连接到 Microsoft Lync Server 2013 前端池的详细过程，请参阅 "迁移" 部分 " [连接 Survivable 分支设备](connect-a-survivable-branch-appliance.md)"。
 
 <div>
 
@@ -50,7 +52,7 @@ Microsoft Lync Server 2010 Survivable 分支装置（SBA）可与 Microsoft Lync
 [在 Lync Server 2013 中配置无媒体旁路功能的中继](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
 
 
-[连接 Survivable 分支设备](connect-a-survivable-branch-appliance.md)  
+[连接 Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)  
   
 
 </div>

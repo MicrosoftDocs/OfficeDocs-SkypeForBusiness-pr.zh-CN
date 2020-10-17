@@ -12,20 +12,22 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27b955def7b7648f274125353673d6973afb59b7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 056efe7c48fd18a4fe9853c5c74c8378eb95ee6f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521870"
 ---
+# <a name="setting-up-lync-federation-in-lync-server-2013"></a>在 Lync Server 2013 中设置 Lync 联合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-lync-federation-in-lync-server-2013"></a>在 Lync Server 2013 中设置 Lync 联合
+
 
 </div>
 
@@ -78,7 +80,7 @@ _**上次修改的主题：** 2014-03-27_
 
 ## <a name="configuring-federation-with-partners"></a>对合作伙伴配置联盟
 
-1.  若要设置与另一台 Microsoft Lync Server 2013、Lync Server 2010、Office 通信服务器 2007 R2 或 Office Communicator 2007 的成功联合，请选择下表中的联合身份验证类型并定义 DNS SRV 记录、DNS 主机（A 或 AAAA for IPv6），并配置适用于联合类型的策略：
+1.  若要设置与另一台 Microsoft Lync Server 2013、Lync Server 2010、Office 通信服务器 2007 R2 或 Office Communicator 2007 的成功联合，请选择下表中的联盟类型并定义 DNS SRV 记录、DNS 主机 (A 或 AAAA for IPv6) 并配置适用于联合类型的策略：
     
     
     <table>
@@ -93,13 +95,13 @@ _**上次修改的主题：** 2014-03-27_
     <th>联盟类型</th>
     <th>DNS 记录</th>
     <th>策略定义</th>
-    <th>备注</th>
+    <th>注释</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
     <td><p>已发现的伙伴域</p></td>
-    <td><p>配置 _sipfederationtls _tcp 格式的 SRV 记录。 &lt;外部域名 &gt; ，其中 SRV 记录的端口值为 TCP 5061，并且<strong>提供此服务的主机</strong>定义为 sip。 &lt;外部域名 &gt; –访问边缘服务的 FQDN。 有关创建 SRV 记录的详细信息，请参阅<a href="lync-server-2013-configure-dns-for-edge-support.md">CONFIGURE DNS for edge 支持在 Lync Server 2013 中</a></p></td>
+    <td><p>配置 _sipfederationtls 格式的 SRV 记录 _tcp。 | c0/>外部域名 &gt; ，其中 SRV 记录的端口值为 TCP 5061，并且<strong>提供此服务的主机</strong>定义为 sip。 &lt;外部域名 &gt; –访问边缘服务的 FQDN。 有关创建 SRV 记录的详细信息，请参阅<a href="lync-server-2013-configure-dns-for-edge-support.md">CONFIGURE DNS for edge 支持在 Lync Server 2013 中</a></p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">在 Lync Server 2013 中启用或禁用联盟伙伴发现</a></p></li>
@@ -108,11 +110,11 @@ _**上次修改的主题：** 2014-03-27_
     </tr>
     <tr class="even">
     <td><p>所允许的伙伴域</p></td>
-    <td><p>配置 _sipfederationtls _tcp 格式的 SRV 记录。 &lt;外部域名 &gt; ，其中 SRV 记录的端口值为 TCP 5061，并且<strong>提供此服务的主机</strong>定义为 sip。 &lt;外部域名 &gt; –访问边缘服务的 FQDN。 有关创建 SRV 记录的详细信息，请参阅<a href="lync-server-2013-configure-dns-for-edge-support.md">CONFIGURE DNS for edge 支持在 Lync Server 2013 中</a></p></td>
+    <td><p>配置 _sipfederationtls 格式的 SRV 记录 _tcp。 | c0/>外部域名 &gt; ，其中 SRV 记录的端口值为 TCP 5061，并且<strong>提供此服务的主机</strong>定义为 sip。 &lt;外部域名 &gt; –访问边缘服务的 FQDN。 有关创建 SRV 记录的详细信息，请参阅<a href="lync-server-2013-configure-dns-for-edge-support.md">CONFIGURE DNS for edge 支持在 Lync Server 2013 中</a></p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接</a></p></li>
     </ul></td>
-    <td><p>以前版本的联合称为 "<strong>增强联盟</strong>"。 创建 SRV 记录对于此联盟类型是可选的，并且将允许其他合作伙伴发现您的联盟。 当然，这之后将是<strong>开放增强联盟</strong>或者<strong>已发现的伙伴域</strong></p></td>
+    <td><p>以前版本的联合称为 " <strong>增强联盟</strong>"。 创建 SRV 记录对于此联盟类型是可选的，并且将允许其他合作伙伴发现您的联盟。 当然，这之后将是<strong>开放增强联盟</strong>或者<strong>已发现的伙伴域</strong></p></td>
     </tr>
     <tr class="odd">
     <td><p>允许的伙伴服务器</p></td>
@@ -138,7 +140,7 @@ _**上次修改的主题：** 2014-03-27_
     > [!IMPORTANT]  
     > <UL>
     > <LI>
-    > <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
+    > <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证 ( "PIC USL" ) 不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
     > <LI>
     > <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力因 Yahoo！中的支持而受到了支持，其下凸的底层协议。</P>
     > <LI>
@@ -153,13 +155,13 @@ _**上次修改的主题：** 2014-03-27_
 
 2.  定义和配置任何必需的 DNS 主机（IPv6 的 A 或 AAAA）和 DNS SRV 记录
 
-3.  使用 Lync Server 控制面板或使用 Lync Server 命令行管理程序和相应的 cmdlet 定义和配置任何策略。 有关 Lync Server 命令行管理程序 cmdlet 的详细信息，请参阅[Lync server 2013 中的联合身份验证和外部访问 cmdlet](https://docs.microsoft.com/powershell/module/skype/)
+3.  使用 Lync Server 控制面板或使用 Lync Server 命令行管理程序和相应的 cmdlet 定义和配置任何策略。 有关 Lync Server 命令行管理程序 cmdlet 的详细信息，请参阅 [Lync server 2013 中的联合身份验证和外部访问 cmdlet](https://docs.microsoft.com/powershell/module/skype/)
     
     <div>
     
 
     > [!NOTE]  
-    > Lync 会议室系统（LRS）不显示由联合 Lync 合作伙伴中的组织者发送的会议的 "加入" 按钮。 若要在 LRS 上显示会议加入链接，发送组织必须使用以下 cmdlet 启用 TNEF：<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>请注意，这不是 LRS 特定的。 在这种情况下，outlook 和 Lync 也不会显示联接链接，因为 MAPI 属性不会传输，但在 Outlook 中，用户可以打开会议邀请并单击会议 URL。 如果将 TNEFEnabled 设置为 true，则 Exchange 2013 不会去除 MAPI 属性（包括 OnlineMeetingExternalLink），并且将在提醒上显示 "加入" 按钮。
+    > Lync 会议室系统 (LRS) 不会为联合 Lync 合作伙伴中的组织者发送的会议显示 "加入" 按钮。 若要在 LRS 上显示会议加入链接，发送组织必须使用以下 cmdlet 启用 TNEF：<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>请注意，这不是 LRS 特定的。 在这种情况下，outlook 和 Lync 也不会显示联接链接，因为 MAPI 属性不会传输，但在 Outlook 中，用户可以打开会议邀请并单击会议 URL。 如果将 TNEFEnabled 设置为 true，则 Exchange 2013 不会去除 MAPI 属性（包括 OnlineMeetingExternalLink），并且将在提醒上显示 "加入" 按钮。
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4f1c9b448327b7f95d7987e995749124da9b026
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 97a8871454ed95b955558c441d567f68dd0974bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213278"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520429"
 ---
+# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a>在 Lync Server 2013 中配置停车呼叫的电话号码分机
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a>在 Lync Server 2013 中配置停车呼叫的电话号码分机
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-09-10_
 
 
 > [!IMPORTANT]  
-> 您必须先选中语音策略中的 "<STRONG>启用呼叫寄存</STRONG>" 复选框，然后才能使用呼叫寄存。 默认情况下，此选项未选中。
+> 您必须先选中语音策略中的 " <STRONG>启用呼叫寄存</STRONG> " 复选框，然后才能使用呼叫寄存。 默认情况下，此选项未选中。
 
 
 

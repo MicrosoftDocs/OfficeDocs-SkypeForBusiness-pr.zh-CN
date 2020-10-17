@@ -12,20 +12,22 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d05939f9d15f992d350a6bb756fe3c6b9839c37b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b39c10a3fb590acc99771663f5f6e23e3c3095e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520219"
 ---
+# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>在 Microsoft Exchange 上为 Lync Server 2013 配置统一消息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>在 Microsoft Exchange 上为 Lync Server 2013 配置统一消息
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188585"
 
 _**上次修改的主题：** 2013-02-24_
 
-本主题介绍如何在 Microsoft Exchange Server 上配置 Exchange 统一消息（UM），以便与企业语音配合使用。
+本主题介绍如何在 Microsoft Exchange Server 上配置 Exchange 统一消息 (UM) ，以便与企业语音配合使用。
 
 <div>
 
@@ -70,17 +72,17 @@ _**上次修改的主题：** 2013-02-24_
     ```
     有关详细信息，请参阅：
     
-      - 有关 Office 通信服务器2007，请参阅 at [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632)和 "UMDialplan： Exchange 2007 帮助" 中的 "如何创建统一消息 SIP URI 拨号计划" 和 " [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666)新-： Exchange 帮助"。
+      - 有关 Office 通信服务器2007，请参阅 at 和 "UMDialplan： Exchange 2007 帮助" 中的 "如何创建统一消息 SIP URI 拨号计划" [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) 和 "新-： Exchange 帮助" [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666) 。
     
-      - 有关 Exchange 2010，请参阅 at [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674)和 "UMDialplan： Exchange 2010 帮助" 处的 "创建 UM 拨号计划" 和[https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680)"新-： Exchange 帮助"。
+      - 有关 Exchange 2010，请参阅 at [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) 和 "UMDialplan： exchange 2010 帮助" 处的 "创建 UM 拨号计划" 和 "新-： Exchange 帮助" [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680) 。
     
-      - 对于 Exchange 2013，请参阅中[https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)的 "统一消息"。
+      - 对于 Exchange 2013，请参阅中的 "统一消息" [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) 。
     
     <div>
     
 
     > [!NOTE]  
-    > 选择 <STRONG>SIPSecured</STRONG> 还是 <STRONG>Secured</STRONG> 安全级别，取决于对媒体加密是激活还是停用了安全实时传输协议 (SRTP)。 对于与 Exchange UM 的 Lync Server 2010 集成，这应与 Lync Server 媒体配置中的加密级别相对应。 可以通过运行<STRONG>set-csmediaconfiguration</STRONG> cmdlet 来查看 Lync Server 媒体配置。 有关详细信息，请参阅 Lync Server 命令行管理程序文档中的 Set-csmediaconfiguration。<BR>有关选择适当的 VoIP 安全设置的详细信息，请参阅<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">集成本地统一消息和 Lync Server 2013 的部署过程</A>。
+    > 选择 <STRONG>SIPSecured</STRONG> 还是 <STRONG>Secured</STRONG> 安全级别，取决于对媒体加密是激活还是停用了安全实时传输协议 (SRTP)。 对于与 Exchange UM 的 Lync Server 2010 集成，这应与 Lync Server 媒体配置中的加密级别相对应。 可以通过运行 <STRONG>set-csmediaconfiguration</STRONG> cmdlet 来查看 Lync Server 媒体配置。 有关详细信息，请参阅 Lync Server 命令行管理程序文档中的 Get-CsMediaConfiguration。<BR>有关选择适当的 VoIP 安全设置的详细信息，请参阅 <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">集成本地统一消息和 Lync Server 2013 的部署过程</A>。
 
     
     </div>
@@ -93,11 +95,11 @@ _**上次修改的主题：** 2013-02-24_
     
     有关详细信息，请参阅：
     
-      - 有关 Exchange 2007，请参阅位于处[https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678)的 "UMDialplan： Exchange 2007 帮助"。
+      - 有关 Exchange 2007，请参阅位于处的 "UMDialplan： Exchange 2007 帮助" [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678) 。
     
-      - 有关 Exchange 2010，请参阅位于处[https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679)的 "UMDialplan： Exchange 2010 帮助"。
+      - 有关 Exchange 2010，请参阅位于处的 "UMDialplan： Exchange 2010 帮助" [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679) 。
     
-      - 对于 Exchange 2013，请参阅中[https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)的 "统一消息"。
+      - 对于 Exchange 2013，请参阅中的 "统一消息" [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) 。
 
 3.  记录每个 UM 拨号计划的拨号计划名称。 根据您的 Exchange Server 版本，您可能需要在以后将每个拨号计划名称的 FQDN 用作每个 UM 拨号计划对应的 Lync Server 拨号计划的名称，以便与拨号计划名称相匹配。
     
@@ -105,7 +107,7 @@ _**上次修改的主题：** 2013-02-24_
     
 
     > [!NOTE]  
-    > 只有在 UM 拨号计划运行在 exchange 2010 SP1<EM>之前</EM>的 exchange 版本上时，Lync Server 拨号计划名称才必须与 um 拨号计划名称相匹配。
+    > 只有在 UM 拨号计划运行在 exchange 2010 SP1 <EM>之前</EM> 的 exchange 版本上时，Lync Server 拨号计划名称才必须与 um 拨号计划名称相匹配。
 
     
     </div>
@@ -114,11 +116,11 @@ _**上次修改的主题：** 2013-02-24_
     
       - 如果选择使用 Exchange 管理控制台，则可以通过服务器的属性页添加拨号计划。有关具体说明，请参阅 Exchange Server 产品文档。
         
-        有关 Exchange 2007，请参阅中[https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681)的 "如何将统一消息服务器添加到拨号计划中"。
+        有关 Exchange 2007，请参阅中的 "如何将统一消息服务器添加到拨号计划中" [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681) 。
         
-        有关 Exchange 2010，请参阅在上[https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682)的 "查看或配置 UM 服务器的属性"。
+        有关 Exchange 2010，请参阅在上的 "查看或配置 UM 服务器的属性" [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682) 。
         
-        对于 Exchange 2013，请参阅中[https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)的 "统一消息"。
+        对于 Exchange 2013，请参阅中的 "统一消息" [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) 。
     
       - 如果使用 Exchange 命令行管理程序，请为每台 Exchange UM 服务器运行以下内容：
         ```powershell
@@ -131,12 +133,12 @@ _**上次修改的主题：** 2013-02-24_
     
 
     > [!NOTE]  
-    > 执行以下步骤之前，请确保已为所有企业语音用户配置了 Exchange Server 邮箱。<BR>对于 Exchange 2007，请参阅上<A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A>的 exchange Server 2007 TechNet 库。<BR>对于 Exchange 2010，请参阅上<A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A>的 exchange Server 2010 TechNet 库。<BR>为在步骤 1 中创建的每个拨号计划指定邮箱策略时，既可以选择默认策略，也可以选择已创建的策略。
+    > 执行以下步骤之前，请确保已为所有企业语音用户配置了 Exchange Server 邮箱。<BR>对于 Exchange 2007，请参阅上的 Exchange Server 2007 TechNet 库 <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A> 。<BR>对于 Exchange 2010，请参阅上的 Exchange Server 2010 TechNet 库 <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A> 。<BR>为在步骤 1 中创建的每个拨号计划指定邮箱策略时，既可以选择默认策略，也可以选择已创建的策略。
 
     
     </div>
 
-5.  导航到\<exchange 安装目录\>\\脚本，然后如果 exchange 部署在一个林中，请键入：
+5.  导航到 \<Exchange installation directory\> \\ "脚本"，然后如果在一个林中部署了 Exchange，请键入：
     ```console
     exchucutil.ps1
     ```
@@ -163,7 +165,7 @@ _**上次修改的主题：** 2013-02-24_
     
 
     > [!NOTE]  
-    > 需要执行此步骤，以确保运行 Exchange Server 统一消息的服务器对外部用户（例如，在电话上播放方案中）可靠地遍历企业防火墙的出站呼叫。
+    > 需要执行此步骤，以确保运行 Exchange Server 统一消息的服务器对外部用户进行的出站呼叫 (例如，在电话上播放的方案) 可靠地遍历公司防火墙。
 
     
     </div>
@@ -181,9 +183,9 @@ _**上次修改的主题：** 2013-02-24_
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        有关 Exchange 2007，请参阅位于处[https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687)的 "UMIPGateway： Exchange 2007 帮助"。
+        有关 Exchange 2007，请参阅位于处的 "UMIPGateway： Exchange 2007 帮助" [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687) 。
         
-        有关 Exchange 2010，请参阅位于处[https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688)的 "UMIPGateway： Exchange 2010 帮助"。
+        有关 Exchange 2010，请参阅位于处的 "UMIPGateway： Exchange 2010 帮助" [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688) 。
     
       - 如果使用 Exchange 管理控制台，请清除 **“允许通过此 IP 网关的传出呼叫”** 复选框。
     
@@ -212,9 +214,9 @@ _**上次修改的主题：** 2013-02-24_
     ```
     有关详细信息，请参阅：
     
-      - 有关 Exchange 2007，请参阅位于处[https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689)的 "Get-umautoattendant： Exchange 2007 帮助"。
+      - 有关 Exchange 2007，请参阅位于处的 "Get-umautoattendant： Exchange 2007 帮助" [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689) 。
     
-      - 有关 Exchange 2010，请参阅位于处[https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690)的 "Get-umautoattendant： Exchange 2010 帮助"。
+      - 有关 Exchange 2010，请参阅位于处的 "Get-umautoattendant： Exchange 2010 帮助" [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690) 。
     
     为每个用户启用了适用于企业语音的 Lync Server 用户并了解其 SIP Uri 后，应执行以下步骤。
 
@@ -224,7 +226,7 @@ _**上次修改的主题：** 2013-02-24_
     
 
     > [!NOTE]  
-    > 以下示例中的<STRONG>SIPResourceIdentifier</STRONG>必须是 Lync Server 用户的 SIP 地址。
+    > 以下示例中的 <STRONG>SIPResourceIdentifier</STRONG> 必须是 Lync Server 用户的 SIP 地址。
 
     
     </div>
@@ -234,9 +236,9 @@ _**上次修改的主题：** 2013-02-24_
     ```
     有关详细信息，请参阅：
     
-      - 有关 Exchange 2007，请参阅位于上[https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691)的 "Enable-Get-ummailbox： Exchange 2007 帮助"。
+      - 有关 Exchange 2007，请参阅位于上的 "Enable-Get-ummailbox： Exchange 2007 帮助" [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691) 。
     
-      - 有关 Exchange 2010，请参阅位于上[https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692)的 "Enable-Get-ummailbox： Exchange 2010 帮助"。
+      - 有关 Exchange 2010，请参阅位于上的 "Enable-Get-ummailbox： Exchange 2010 帮助" [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692) 。
 
 </div>
 

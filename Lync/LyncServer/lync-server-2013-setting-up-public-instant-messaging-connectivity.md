@@ -12,20 +12,22 @@ ms:contentKeyID: 48184661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4b3efe4e5d8e5cb84631969205842e56024394c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ab2c3cfec8a685251a3a1627392d6d4eb9691748
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200538"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521829"
 ---
+# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>在 Lync Server 2013 中设置公共即时消息连接
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>在 Lync Server 2013 中设置公共即时消息连接
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2012-09-08_
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    用于 Lync Server 的模板的默认证书名称是 Web 服务器。 仅当需要\<使用与\>默认模板不同的模板时，才指定模板名称。
+    用于 Lync Server 的模板的默认证书名称是 Web 服务器。 仅 \<template name\> 当需要使用与默认模板不同的模板时才指定。
     
     <div>
     

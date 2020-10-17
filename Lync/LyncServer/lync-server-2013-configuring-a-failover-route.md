@@ -12,20 +12,22 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50917bffe3c6294b554edc7f9c3f620721e04737
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0a3a0d3b2eb2d505ff345af66ae8ccbcc551ee8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204410"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520059"
 ---
+# <a name="configuring-a-failover-route-in-lync-server-2013"></a>在 Lync Server 2013 中配置故障转移路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-failover-route-in-lync-server-2013"></a>在 Lync Server 2013 中配置故障转移路由
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-09-21_
 <tbody>
 <tr class="odd">
 <td><p>Default Calling Policy</p></td>
-<td><p>Local</p>
+<td><p>本地</p>
 <p>名</p></td>
 </tr>
 <tr class="even">
@@ -93,8 +95,8 @@ _**上次修改的主题：** 2012-09-21_
 <tbody>
 <tr class="odd">
 <td><p>Redmond Local Route</p></td>
-<td><p>^\+1（425 | 206 | 253）（\d{7}） $</p></td>
-<td><p>Local</p>
+<td><p>^\+1 (425 | 206 | 253) # A2\d {7}) $</p></td>
+<td><p>本地</p>
 <p>RedmondLocal</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p></td>
@@ -103,14 +105,14 @@ _**上次修改的主题：** 2012-09-21_
 </tr>
 <tr class="even">
 <td><p>Dallas Local Route</p></td>
-<td><p>^\+1（972 | 214 | 469）（\d{7}） $</p></td>
-<td><p>Local</p></td>
+<td><p>^\+1 (972 | 214 | 469) # A2\d {7}) $</p></td>
+<td><p>本地</p></td>
 <td><p>Trunk3</p></td>
 <td><p>达拉斯-GW1</p></td>
 </tr>
 <tr class="odd">
 <td><p>Universal Route</p></td>
-<td><p>^\+?（\d *） $</p></td>
+<td><p>^\+ ( \d * ) $</p></td>
 <td><p>名</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p>
@@ -121,7 +123,7 @@ _**上次修改的主题：** 2012-09-21_
 </tr>
 <tr class="even">
 <td><p>Dallas Users Route</p></td>
-<td><p>^\+?（\d *） $</p></td>
+<td><p>^\+ ( \d * ) $</p></td>
 <td><p>DallasUsers</p></td>
 <td><p>Trunk3</p></td>
 <td><p>达拉斯-GW1</p></td>

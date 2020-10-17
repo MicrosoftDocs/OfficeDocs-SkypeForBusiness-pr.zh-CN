@@ -12,20 +12,22 @@ ms:contentKeyID: 48185009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc319539c9dfe3de79f9cce62391ecd2886e8a1c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bd933ac87addf4a2094009e9f437c29437d882a0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520229"
 ---
+# <a name="configure-unassigned-phone-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中配置未分配的电话号码
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-unassigned-phone-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中配置未分配的电话号码
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 允许您配置对你的组织有效但未分配给用户或电话�
 
 
 > [!IMPORTANT]  
-> 在配置未分配号码表之前，必须已定义一个或多个通知，或者已设置 Exchange UM 自动助理。 有关创建通知的详细信息，请参阅<A href="lync-server-2013-create-an-announcement.md">在 Lync Server 2013 中创建通知</A>。 若要查看是否已配置 Exchange UM 设置，请运行<STRONG>CsExUmContact</STRONG> cmdlet。 有关详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>。
+> 在配置未分配号码表之前，必须已定义一个或多个通知，或者已设置 Exchange UM 自动助理。 有关创建通知的详细信息，请参阅 <A href="lync-server-2013-create-an-announcement.md">在 Lync Server 2013 中创建通知</A>。 若要查看是否已配置 Exchange UM 设置，请运行 <STRONG>CsExUmContact</STRONG> cmdlet。 有关详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>。
 
 
 

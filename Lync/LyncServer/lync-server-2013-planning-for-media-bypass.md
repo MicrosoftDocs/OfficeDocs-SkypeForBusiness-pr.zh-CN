@@ -12,20 +12,22 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de3d5132d7307f48de905f5bb6d28e53cbec14a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b5d9687069e82cde803f7a01873db482ea2afa2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184205"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521989"
 ---
+# <a name="planning-for-media-bypass-in-lync-server-2013"></a>在 Lync Server 2013 中规划媒体旁路
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-media-bypass-in-lync-server-2013"></a>在 Lync Server 2013 中规划媒体旁路
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2012-09-21_
 
 媒体旁路功能可通过减少延迟、不必要的转换、可能的数据包丢失和潜在的故障点数来提高语音质量。 由于绕过的呼叫无需媒体处理操作，这可减少中介服务器上的负载，从而提高可伸缩性。 这种负载降低补充了中介服务器控制多个网关的能力。
 
-如果没有中介服务器的分支站点通过受限制带宽的一个或多个 WAN 链路连接到中央站点，则媒体旁路降低了带宽需求，因为允许来自分支站点的客户端的媒体直接流向本地网关，而不首先必须跨 WAN 链路传递到位于中央站点的中介服务器和背面。
+如果没有中介服务器的分支站点通过受限制带宽的一个或多个 WAN 链路连接到中央站点，则媒体旁路降低了带宽需求，因为它允许来自分支站点中客户端的媒体直接流向本地网关，而无需先跨 WAN 链接传递到中央站点的中介服务器和背面。
 
 通过从媒体处理中免除中介服务器，媒体旁路也可能会减少企业语音基础结构所需的中介服务器的数量。
 

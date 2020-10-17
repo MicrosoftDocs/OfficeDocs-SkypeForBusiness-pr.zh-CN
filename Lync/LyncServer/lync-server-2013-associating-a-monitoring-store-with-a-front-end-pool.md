@@ -12,20 +12,22 @@ ms:contentKeyID: 48185439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfdff8863c0e629c99d0e64aca0b7f84dcb63a43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e80c6f7482787d448709beaf98e796519860d22c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205448"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520632"
 ---
+# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>在 Lync Server 2013 中将监视存储与前端池关联
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>在 Lync Server 2013 中将监视存储与前端池关联
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**上次修改的主题：** 2013-04-22_
 
 或者，可以通过完成以下过程将现有前端池与新的或不同的监控存储关联：
 
-1.  依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+1.  依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 2.  在“拓扑生成器”**** 对话框中，选择“从现有部署下载拓扑”****，然后单击“确定”****。
 
 3.  在“另存为”**** 对话框中，为当前拓扑输入一个文件名，然后单击“保存”****。如果新拓扑出现问题，可以取回并重新发布已保存的拓扑。
 
-4.  在拓扑生成器中，展开 " **Lync Server 2013**"，展开包含前端池的网站的名称，然后单击 "展开**Enterprise Edition 前端池**"。
+4.  在拓扑生成器中，展开 " **Lync Server 2013**"，展开包含前端池的网站的名称，然后单击 "展开 **Enterprise Edition 前端池**"。
 
 5.  右键单击要与监控存储关联的池的名称，然后单击“编辑属性”****。
 
@@ -65,13 +67,13 @@ _**上次修改的主题：** 2013-04-22_
 
 3.  在“发布向导完成”**** 页上，单击“完成”****。
 
-拓扑发布完毕后，可以在将要承载监控存储的计算机上安装监控数据库。 可以使用 Lync Server 命令行管理程序和 Windows PowerShell 安装监控数据库。 若要在本地安装数据库（即，在运行 Lync Server 命令行管理程序的同一台计算机上安装数据库），请在相应的计算机上启动命令行管理程序，然后键入以下命令，然后按 ENTER：
+拓扑发布完毕后，可以在将要承载监控存储的计算机上安装监控数据库。 可以使用 Lync Server 命令行管理程序和 Windows PowerShell 安装监控数据库。 若要在本地安装数据库 (即，若要在运行 Lync Server 命令行管理程序) 的同一台计算机上安装数据库，请在相应的计算机上启动命令行管理程序，然后键入以下命令，然后按 ENTER：
 
     Install-CsDatabase -LocalDatabases
 
-运行上述命令时，CsDatabase 将读取当前的 Lync Server 拓扑，确定哪些数据库需要安装在本地计算机上，然后自动安装并配置每个数据库。
+运行上述命令时，Install-CsDatabase 将读取当前的 Lync Server 拓扑，确定需要在本地计算机上安装的数据库，然后自动安装并配置每个数据库。
 
-要在远程计算机（即，没有运行命令行管理程序的计算机）上安装数据库，必须包含至少两个参数：ConfiguredDatabases 参数和 SqlServerFqdn 参数。 这些参数告诉 CsDatabase cmdlet 检索 Lync Server 拓扑，然后在 SqlServerFqdn 参数所指定的计算机上安装和配置所需的数据库。 SqlServerFqdn 参数使用的参数值必须表示要安装数据库的计算机的完全限定域名。
+要在远程计算机（即，没有运行命令行管理程序的计算机）上安装数据库，必须包含至少两个参数：ConfiguredDatabases 参数和 SqlServerFqdn 参数。 这些参数告诉 Install-CsDatabase cmdlet 检索 Lync Server 拓扑，然后在 SqlServerFqdn 参数所指定的计算机上安装和配置所需的数据库。 SqlServerFqdn 参数使用的参数值必须表示要安装数据库的计算机的完全限定域名。
 
 例如，以下命令在计算机 atl-sql-001.litwareinc.com 上安装监控数据库：
 
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2013-04-22_
 
 或者，也可以通过在将承载监控存储的计算机上运行 Lync Server 部署向导来安装监控数据库。 为此，请登录到相应的计算机并完成以下过程：
 
-1.  依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 部署向导**"。
+1.  依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 部署向导**"。
 
 2.  在部署向导中，单击“安装或更新 Lync Server 系统”****。
 
@@ -87,7 +89,7 @@ _**上次修改的主题：** 2013-04-22_
 
 4.  在安装 Lync Server 组件向导中的“设置 Lync Server 组件”**** 页上，单击“下一步”****。
 
-5.  在 "**指定指向 MSIs 的路径**" 页上，键入文件 Ocscore 的路径（一个包含在 Lync Server 安装媒体中的文件），然后单击 "**下一步**"。
+5.  在 " **指定指向 MSIs 的路径** " 页上，键入文件 Ocscore.msi 的路径 (Lync Server 安装媒体) 包含的文件，然后单击 " **下一步**"。
 
 6.  在“正在执行命令”**** 页上，单击“完成”****。
 
