@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：发布拓扑
+description: Lync Server 2013：发布拓扑。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aed74df38f1d09d4aff46531bb6f61bdb6f03c8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f4d27d2d3644eb1f174e2f3fab47197f2c122a97
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512259"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571748"
 ---
-# <a name="publish-your-topology-in-lync-server-2013"></a><span data-ttu-id="4c935-102">在 Lync Server 2013 中发布拓扑</span><span class="sxs-lookup"><span data-stu-id="4c935-102">Publish your topology in Lync Server 2013</span></span>
+# <a name="publish-your-topology-in-lync-server-2013"></a><span data-ttu-id="19c18-103">在 Lync Server 2013 中发布拓扑</span><span class="sxs-lookup"><span data-stu-id="19c18-103">Publish your topology in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,35 +38,35 @@ ms.locfileid: "48512259"
 
 <span> </span>
 
-<span data-ttu-id="4c935-103">_**上次修改的主题：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="4c935-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="19c18-104">_**上次修改的主题：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="19c18-104">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="4c935-104">每次使用拓扑生成器构建拓扑时，都必须将拓扑发布到中央管理存储中的数据库，以便可以使用这些数据来部署 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="4c935-104">Each time you use Topology Builder to build your topology, you must publish the topology to a database in the Central Management store so that the data can be used to deploy Lync Server 2013.</span></span> <span data-ttu-id="4c935-105">请使用以下过程发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="4c935-105">Use the following procedure to publish your topology.</span></span>
+<span data-ttu-id="19c18-105">每次使用拓扑生成器构建拓扑时，都必须将拓扑发布到中央管理存储中的数据库，以便可以使用这些数据来部署 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="19c18-105">Each time you use Topology Builder to build your topology, you must publish the topology to a database in the Central Management store so that the data can be used to deploy Lync Server 2013.</span></span> <span data-ttu-id="19c18-106">请使用以下过程发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="19c18-106">Use the following procedure to publish your topology.</span></span>
 
 <div>
 
-## <a name="to-publish-the-topology"></a><span data-ttu-id="4c935-106">发布拓扑</span><span class="sxs-lookup"><span data-stu-id="4c935-106">To publish the topology</span></span>
+## <a name="to-publish-the-topology"></a><span data-ttu-id="19c18-107">发布拓扑</span><span class="sxs-lookup"><span data-stu-id="19c18-107">To publish the topology</span></span>
 
-1.  <span data-ttu-id="4c935-107">启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。</span><span class="sxs-lookup"><span data-stu-id="4c935-107">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+1.  <span data-ttu-id="19c18-108">启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。</span><span class="sxs-lookup"><span data-stu-id="19c18-108">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="4c935-108">在拓扑生成器中的控制台树中，右键单击 " **Lync 2013**"，然后单击 " **发布拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="4c935-108">In Topology Builder, in the console tree, right-click **Lync 2013**, and then click **Publish Topology**.</span></span>
+2.  <span data-ttu-id="19c18-109">在拓扑生成器中的控制台树中，右键单击 " **Lync 2013**"，然后单击 " **发布拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="19c18-109">In Topology Builder, in the console tree, right-click **Lync 2013**, and then click **Publish Topology**.</span></span>
 
-3.  <span data-ttu-id="4c935-109">在向导的“欢迎”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4c935-109">On the **Welcome** page of the wizard, click **Next**.</span></span>
+3.  <span data-ttu-id="19c18-110">在向导的“欢迎”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="19c18-110">On the **Welcome** page of the wizard, click **Next**.</span></span>
 
-4.  <span data-ttu-id="4c935-110">在“拓扑生成器找到 CMS 存储”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4c935-110">On the **Topology Builder found a CMS store** page, click **Next**.</span></span>
+4.  <span data-ttu-id="19c18-111">在“拓扑生成器找到 CMS 存储”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="19c18-111">On the **Topology Builder found a CMS store** page, click **Next**.</span></span>
 
-5.  <span data-ttu-id="4c935-111">在“创建其他数据库”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4c935-111">On the **Create other databases** page, click **Next**.</span></span>
+5.  <span data-ttu-id="19c18-112">在“创建其他数据库”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="19c18-112">On the **Create other databases** page, click **Next**.</span></span>
 
-6.  <span data-ttu-id="4c935-112">当状态指示成功创建数据库时，执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="4c935-112">When the status indicates that database creation succeeded, do the following:</span></span>
+6.  <span data-ttu-id="19c18-113">当状态指示成功创建数据库时，执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="19c18-113">When the status indicates that database creation succeeded, do the following:</span></span>
     
-      - <span data-ttu-id="4c935-113">要查看日志，请单击“查看日志”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4c935-113">To view the log, click **View log**.</span></span>
+      - <span data-ttu-id="19c18-114">要查看日志，请单击“查看日志”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="19c18-114">To view the log, click **View log**.</span></span>
     
-      - <span data-ttu-id="4c935-114">要关闭向导，请单击“完成”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4c935-114">To close the wizard, click **Finish**.</span></span>
+      - <span data-ttu-id="19c18-115">要关闭向导，请单击“完成”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="19c18-115">To close the wizard, click **Finish**.</span></span>
         
         <div>
         
 
         > [!IMPORTANT]  
-        > <span data-ttu-id="4c935-115">如果这是边缘服务器或边缘池的全新安装，则必须从现有前端服务器、前端池或 Standard Edition 服务器导出边缘服务器配置。</span><span class="sxs-lookup"><span data-stu-id="4c935-115">If this is a new installation of an Edge Server or Edge pool, you must export the Edge Server configuration from an existing Front End Server, Front End pool, or Standard Edition server.</span></span> <span data-ttu-id="4c935-116">若要导出配置，请参阅 <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">导出 Lync Server 2013 拓扑并将其复制到外部媒体以进行边缘安装</A>。</span><span class="sxs-lookup"><span data-stu-id="4c935-116">To export the configuration, see <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Export your Lync Server 2013 topology and copy it to external media for edge installation</A>.</span></span> <span data-ttu-id="4c935-117">您将通过 Lync Server 部署向导在边缘服务器的安装和部署阶段导入外部媒体或网络共享中的配置文件。</span><span class="sxs-lookup"><span data-stu-id="4c935-117">You will import the configuration file from the external media or network share during the setup and deployment phase of the Edge Servers through the Lync Server Deployment Wizard.</span></span><BR><span data-ttu-id="4c935-118">在边缘服务器可正常运行且本地配置管理存储数据库与内部部署进行复制之后，将发布对 Lync Server 2013 配置的后续更新并将其复制到边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="4c935-118">Once the Edge Servers are operational and the local configuration management store database is replicating with the internal deployment, subsequent updates to the Lync Server 2013 configuration will be published and replicated to the Edge Servers.</span></span>
+        > <span data-ttu-id="19c18-116">如果这是边缘服务器或边缘池的全新安装，则必须从现有前端服务器、前端池或 Standard Edition 服务器导出边缘服务器配置。</span><span class="sxs-lookup"><span data-stu-id="19c18-116">If this is a new installation of an Edge Server or Edge pool, you must export the Edge Server configuration from an existing Front End Server, Front End pool, or Standard Edition server.</span></span> <span data-ttu-id="19c18-117">若要导出配置，请参阅 <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">导出 Lync Server 2013 拓扑并将其复制到外部媒体以进行边缘安装</A>。</span><span class="sxs-lookup"><span data-stu-id="19c18-117">To export the configuration, see <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Export your Lync Server 2013 topology and copy it to external media for edge installation</A>.</span></span> <span data-ttu-id="19c18-118">您将通过 Lync Server 部署向导在边缘服务器的安装和部署阶段导入外部媒体或网络共享中的配置文件。</span><span class="sxs-lookup"><span data-stu-id="19c18-118">You will import the configuration file from the external media or network share during the setup and deployment phase of the Edge Servers through the Lync Server Deployment Wizard.</span></span><BR><span data-ttu-id="19c18-119">在边缘服务器可正常运行且本地配置管理存储数据库与内部部署进行复制之后，将发布对 Lync Server 2013 配置的后续更新并将其复制到边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="19c18-119">Once the Edge Servers are operational and the local configuration management store database is replicating with the internal deployment, subsequent updates to the Lync Server 2013 configuration will be published and replicated to the Edge Servers.</span></span>
 
         
         </div>

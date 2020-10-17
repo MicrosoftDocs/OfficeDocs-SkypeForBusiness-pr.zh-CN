@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：规划 Exchange Server 集成
+description: Lync Server 2013：规划 Exchange Server 集成。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f8b3af0b93e9f7b7c8c660b91131819b27cb0e9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: def4fc293d310b6832ffa397c5d2fd65b147b793
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513559"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571858"
 ---
-# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a><span data-ttu-id="42f7b-102">规划 Exchange Server 与 Lync Server 2013 的集成</span><span class="sxs-lookup"><span data-stu-id="42f7b-102">Planning for Exchange Server integration with Lync Server 2013</span></span>
+# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a><span data-ttu-id="cdf28-103">规划 Exchange Server 与 Lync Server 2013 的集成</span><span class="sxs-lookup"><span data-stu-id="cdf28-103">Planning for Exchange Server integration with Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48513559"
 
 <span> </span>
 
-<span data-ttu-id="42f7b-103">_**上次修改的主题：** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="42f7b-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+<span data-ttu-id="cdf28-104">_**上次修改的主题：** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="cdf28-104">_**Topic Last Modified:** 2012-09-20_</span></span>
 
-<span data-ttu-id="42f7b-104">当您在组织中部署 Exchange 和 Lync Server 时，这两个产品中的许多功能都得到了增强。</span><span class="sxs-lookup"><span data-stu-id="42f7b-104">When you deploy both Exchange and Lync Server in your organization, many features in both products are enhanced.</span></span> <span data-ttu-id="42f7b-105">本节包含有关这些功能的信息。</span><span class="sxs-lookup"><span data-stu-id="42f7b-105">This section contains information about these capabilities.</span></span>
+<span data-ttu-id="cdf28-105">当您在组织中部署 Exchange 和 Lync Server 时，这两个产品中的许多功能都得到了增强。</span><span class="sxs-lookup"><span data-stu-id="cdf28-105">When you deploy both Exchange and Lync Server in your organization, many features in both products are enhanced.</span></span> <span data-ttu-id="cdf28-106">本节包含有关这些功能的信息。</span><span class="sxs-lookup"><span data-stu-id="cdf28-106">This section contains information about these capabilities.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="42f7b-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="42f7b-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cdf28-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="cdf28-107">In This Section</span></span>
 
-  - [<span data-ttu-id="42f7b-107">集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="42f7b-107">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</span></span>](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
+  - [<span data-ttu-id="cdf28-108">集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="cdf28-108">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</span></span>](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
 
-  - [<span data-ttu-id="42f7b-108">在 Lync Server 2013 中规划 Exchange 统一消息集成</span><span class="sxs-lookup"><span data-stu-id="42f7b-108">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
+  - [<span data-ttu-id="cdf28-109">在 Lync Server 2013 中规划 Exchange 统一消息集成</span><span class="sxs-lookup"><span data-stu-id="cdf28-109">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
-  - [<span data-ttu-id="42f7b-109">Lync Server 2013 中的托管 Exchange 统一消息集成</span><span class="sxs-lookup"><span data-stu-id="42f7b-109">Hosted Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
+  - [<span data-ttu-id="cdf28-110">Lync Server 2013 中的托管 Exchange 统一消息集成</span><span class="sxs-lookup"><span data-stu-id="cdf28-110">Hosted Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
 
 </div>
 

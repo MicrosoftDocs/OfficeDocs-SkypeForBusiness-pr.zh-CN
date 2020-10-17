@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：位置表
+description: Lync Server 2013：位置表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 948581815b6e38fd08b47a95ea7176a694879e96
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d07b6d3d3820f4efb3310adf0734a7e10c53e6d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513779"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570578"
 ---
-# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="a6c4c-102">Lync Server 2013 中的位置表</span><span class="sxs-lookup"><span data-stu-id="a6c4c-102">Locations table in Lync Server 2013</span></span>
+# <a name="locations-table-in-lync-server-2013"></a><span data-ttu-id="aa6c9-103">Lync Server 2013 中的位置表</span><span class="sxs-lookup"><span data-stu-id="aa6c9-103">Locations table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48513779"
 
 <span> </span>
 
-<span data-ttu-id="a6c4c-103">_**上次修改的主题：** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="a6c4c-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="aa6c9-104">_**上次修改的主题：** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="aa6c9-104">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="a6c4c-104">每条记录均表示紧急呼叫（例如 E9-1-1 呼叫）中的一个位置引用。</span><span class="sxs-lookup"><span data-stu-id="a6c4c-104">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
+<span data-ttu-id="aa6c9-105">每条记录均表示紧急呼叫（例如 E9-1-1 呼叫）中的一个位置引用。</span><span class="sxs-lookup"><span data-stu-id="aa6c9-105">Each record represents one location reference in an emergency call, like an E9-1-1 call.</span></span>
 
 
 <table>
@@ -51,30 +52,30 @@ ms.locfileid: "48513779"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a6c4c-105">列</span><span class="sxs-lookup"><span data-stu-id="a6c4c-105">Column</span></span></th>
-<th><span data-ttu-id="a6c4c-106">数据类型</span><span class="sxs-lookup"><span data-stu-id="a6c4c-106">Data Type</span></span></th>
-<th><span data-ttu-id="a6c4c-107">键/索引</span><span class="sxs-lookup"><span data-stu-id="a6c4c-107">Key/Index</span></span></th>
-<th><span data-ttu-id="a6c4c-108">详细信息</span><span class="sxs-lookup"><span data-stu-id="a6c4c-108">Details</span></span></th>
+<th><span data-ttu-id="aa6c9-106">列</span><span class="sxs-lookup"><span data-stu-id="aa6c9-106">Column</span></span></th>
+<th><span data-ttu-id="aa6c9-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="aa6c9-107">Data Type</span></span></th>
+<th><span data-ttu-id="aa6c9-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="aa6c9-108">Key/Index</span></span></th>
+<th><span data-ttu-id="aa6c9-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="aa6c9-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a6c4c-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="a6c4c-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="a6c4c-110">datetime</span><span class="sxs-lookup"><span data-stu-id="a6c4c-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="a6c4c-111">主、外</span><span class="sxs-lookup"><span data-stu-id="a6c4c-111">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="a6c4c-112">会话请求的时间。</span><span class="sxs-lookup"><span data-stu-id="a6c4c-112">Time of session request.</span></span> <span data-ttu-id="a6c4c-113">与 <strong>SessionIdSeq</strong> 结合使用来唯一地标识会话。</span><span class="sxs-lookup"><span data-stu-id="a6c4c-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="a6c4c-114">有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</span><span class="sxs-lookup"><span data-stu-id="a6c4c-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-110"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="aa6c9-110"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-111">datetime</span><span class="sxs-lookup"><span data-stu-id="aa6c9-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-112">主、外</span><span class="sxs-lookup"><span data-stu-id="aa6c9-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-113">会话请求的时间。</span><span class="sxs-lookup"><span data-stu-id="aa6c9-113">Time of session request.</span></span> <span data-ttu-id="aa6c9-114">与 <strong>SessionIdSeq</strong> 结合使用来唯一地标识会话。</span><span class="sxs-lookup"><span data-stu-id="aa6c9-114">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="aa6c9-115">有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</span><span class="sxs-lookup"><span data-stu-id="aa6c9-115">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a6c4c-115"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="a6c4c-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="a6c4c-116">int</span><span class="sxs-lookup"><span data-stu-id="a6c4c-116">int</span></span></p></td>
-<td><p><span data-ttu-id="a6c4c-117">主、外</span><span class="sxs-lookup"><span data-stu-id="a6c4c-117">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="a6c4c-118">用于标识会话的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="a6c4c-118">ID number to identify the session.</span></span> <span data-ttu-id="a6c4c-119">与 <strong>SessionIdTime</strong> 结合使用来唯一地标识会话。</span><span class="sxs-lookup"><span data-stu-id="a6c4c-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="a6c4c-120">有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</span><span class="sxs-lookup"><span data-stu-id="a6c4c-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-116"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="aa6c9-116"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-117">int</span><span class="sxs-lookup"><span data-stu-id="aa6c9-117">int</span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-118">主、外</span><span class="sxs-lookup"><span data-stu-id="aa6c9-118">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-119">用于标识会话的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="aa6c9-119">ID number to identify the session.</span></span> <span data-ttu-id="aa6c9-120">与 <strong>SessionIdTime</strong> 结合使用来唯一地标识会话。</span><span class="sxs-lookup"><span data-stu-id="aa6c9-120">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="aa6c9-121">有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</span><span class="sxs-lookup"><span data-stu-id="aa6c9-121">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a6c4c-121"><strong>位置</strong></span><span class="sxs-lookup"><span data-stu-id="a6c4c-121"><strong>Location</strong></span></span></p></td>
-<td><p><span data-ttu-id="a6c4c-122">nvarchar (max) </span><span class="sxs-lookup"><span data-stu-id="a6c4c-122">nvarchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-122"><strong>位置</strong></span><span class="sxs-lookup"><span data-stu-id="aa6c9-122"><strong>Location</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-123">nvarchar (max) </span><span class="sxs-lookup"><span data-stu-id="aa6c9-123">nvarchar(max)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="a6c4c-123">紧急呼叫的位置。</span><span class="sxs-lookup"><span data-stu-id="a6c4c-123">Location of emergency call.</span></span></p></td>
+<td><p><span data-ttu-id="aa6c9-124">紧急呼叫的位置。</span><span class="sxs-lookup"><span data-stu-id="aa6c9-124">Location of emergency call.</span></span></p></td>
 </tr>
 </tbody>
 </table>
