@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：删除现有客户端版本策略规则
+description: Lync Server 2013：删除现有客户端版本策略规则。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50675352
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fce0da6ece0d34c7cf41eac43d472e85c117817
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 48cb2dc6458406c988bdc2626fc000c7a9bf5d16
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501569"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553648"
 ---
 # <a name="delete-an-existing-client-version-policy-rule-in-lync-server-2013"></a>在 Lync Server 2013 中删除现有客户端版本策略规则
 

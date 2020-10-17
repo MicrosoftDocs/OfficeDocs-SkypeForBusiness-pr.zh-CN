@@ -1,5 +1,6 @@
 ---
 title: 测试和报告 Kerberos 身份验证的功能准备情况
+description: 测试并报告 Kerberos 身份验证的功能准备情况。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac03f06a5d2c4b4989319f32a867d91614bd3a30
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5d32591a8cced7dce2e0bb78cc26189dce1900a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519319"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554058"
 ---
 # <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中测试和报告 Kerberos 身份验证的功能准备情况
 

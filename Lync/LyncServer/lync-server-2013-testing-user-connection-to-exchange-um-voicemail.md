@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：测试用户与 Exchange UM 语音邮件的连接
+description: Lync Server 2013：测试用户与 Exchange UM 语音邮件的连接。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4812f36d19f9645f926eb1aa4f017d70befa47a7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b887b5b0df02a5864e0a39f2b62893d20105a86a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503889"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552608"
 ---
 # <a name="testing-user-connection-to-exchange-um-voicemail-in-lync-server-2013"></a>在 Lync Server 2013 中测试用户与 Exchange UM 语音邮件的连接
 

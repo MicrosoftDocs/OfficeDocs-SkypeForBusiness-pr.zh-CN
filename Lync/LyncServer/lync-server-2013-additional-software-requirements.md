@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：其他软件要求
+description: Lync Server 2013：其他软件要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184731
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4a0c2e200c779d87a13c08eada968b27a7447f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fbc36f23a2246c9d653e47954064182c756f0dff
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521229"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553038"
 ---
 # <a name="additional-software-requirements-for-lync-server-2013"></a>Lync Server 2013 的其他软件要求
 

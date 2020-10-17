@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 电话拨入式会议要求
+description: Lync Server 2013 电话拨入式会议要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 944aaf06ce81e5ba326841f6abe91614cdffd134
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0850204993935998c4c098bc7c2866a8a6f3fa1e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498909"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552478"
 ---
 # <a name="dial-in-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 中的电话拨入式会议要求
 

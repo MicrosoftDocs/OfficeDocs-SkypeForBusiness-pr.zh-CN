@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：创建或修改呼叫寄存通道范围
+description: Lync Server 2013：创建或修改呼叫寄存通道范围。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1ecf0a1313519a74bb054c7fa3b441580758018
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3889f30264593bedcffb54811dd5bd844f48f0cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514779"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553838"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改呼叫寄存通道范围
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：域名系统 (DNS) 要求
+description: Lync Server 2013：域名系统 (DNS) 要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7ddbab6e4d0b1a0654c91027cbf0676ad6445f1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f84868d4929cc410cddbb6c9ad2019a12841e80f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501129"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553198"
 ---
 # <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 (DNS) 要求的域名称系统
 

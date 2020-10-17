@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：在 Lync Server 中设置用于存档的用户策略
+description: Lync Server 2013：在 Lync Server 中设置用于存档的用户策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee2074aa9608dad4adcfe85845e7b2e045276f59
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9e33abf6cf16c9c1367162aa8beee91874f4c725
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497509"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554078"
 ---
 # <a name="setting-up-user-policies-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中设置用户策略以进行存档
 

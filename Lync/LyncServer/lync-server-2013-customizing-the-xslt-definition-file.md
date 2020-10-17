@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：自定义 XSLT 定义文件
+description: Lync Server 2013：自定义 XSLT 定义文件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b248b44c9257fa9f30cc99a3773abf71ddbd8651
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516629"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553798"
 ---
 # <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>在 Lync Server 2013 中自定义 XSLT 定义文件
 

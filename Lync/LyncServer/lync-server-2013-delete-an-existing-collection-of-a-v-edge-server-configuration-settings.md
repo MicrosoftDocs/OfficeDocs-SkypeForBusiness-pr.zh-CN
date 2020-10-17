@@ -1,5 +1,6 @@
 ---
 title: 删除 A/V 边缘服务器配置设置的现有集合
+description: 删除 A/V 边缘服务器配置设置的现有集合。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80a90e58c1dee8aacae052f916c6fdf6e260b7ba
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d7fe444e8bcb7e7e8e2633e59c23aeb2e80e9b98
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514689"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553618"
 ---
 # <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中删除 A/V 边缘服务器配置设置的现有集合
 
