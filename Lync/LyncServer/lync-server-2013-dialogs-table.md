@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：对话框表格
+description: Lync Server 2013：对话框表格。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36a96ccc61716a6606c700a2d6b4f13ad7e6336b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8c2c9cf9ec59fc48f7f5ffc6232980e3f8aa68c1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519979"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559698"
 ---
-# <a name="dialogs-table-in-lync-server-2013"></a><span data-ttu-id="63ba7-102">Lync Server 2013 中的对话框表</span><span class="sxs-lookup"><span data-stu-id="63ba7-102">Dialogs table in Lync Server 2013</span></span>
+# <a name="dialogs-table-in-lync-server-2013"></a><span data-ttu-id="007fa-103">Lync Server 2013 中的对话框表</span><span class="sxs-lookup"><span data-stu-id="007fa-103">Dialogs table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48519979"
 
 <span> </span>
 
-<span data-ttu-id="63ba7-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="63ba7-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="007fa-104">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="007fa-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="63ba7-104">对话框表是一个支持表，它存储有关对等会话的 DialogIDs 的信息。</span><span class="sxs-lookup"><span data-stu-id="63ba7-104">The Dialogs table is a supporting table that stores the information about DialogIDs for peer-to-peer sessions.</span></span>
+<span data-ttu-id="007fa-105">对话框表是一个支持表，它存储有关对等会话的 DialogIDs 的信息。</span><span class="sxs-lookup"><span data-stu-id="007fa-105">The Dialogs table is a supporting table that stores the information about DialogIDs for peer-to-peer sessions.</span></span>
 
 
 <table>
@@ -51,38 +52,38 @@ ms.locfileid: "48519979"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="63ba7-105">列</span><span class="sxs-lookup"><span data-stu-id="63ba7-105">Column</span></span></th>
-<th><span data-ttu-id="63ba7-106">数据类型</span><span class="sxs-lookup"><span data-stu-id="63ba7-106">Data Type</span></span></th>
-<th><span data-ttu-id="63ba7-107">键/索引</span><span class="sxs-lookup"><span data-stu-id="63ba7-107">Key/Index</span></span></th>
-<th><span data-ttu-id="63ba7-108">详细信息</span><span class="sxs-lookup"><span data-stu-id="63ba7-108">Details</span></span></th>
+<th><span data-ttu-id="007fa-106">列</span><span class="sxs-lookup"><span data-stu-id="007fa-106">Column</span></span></th>
+<th><span data-ttu-id="007fa-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="007fa-107">Data Type</span></span></th>
+<th><span data-ttu-id="007fa-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="007fa-108">Key/Index</span></span></th>
+<th><span data-ttu-id="007fa-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="007fa-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="63ba7-109"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="63ba7-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="63ba7-110">datetime</span><span class="sxs-lookup"><span data-stu-id="63ba7-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="63ba7-111">主</span><span class="sxs-lookup"><span data-stu-id="63ba7-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="63ba7-112">会话请求的时间;与 SessionIDSeq 结合使用以唯一标识会话。</span><span class="sxs-lookup"><span data-stu-id="63ba7-112">Time of session request; used in conjunction with SessionIDSeq to uniquely identify a session.</span></span></p></td>
+<td><p><span data-ttu-id="007fa-110"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="007fa-110"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="007fa-111">datetime</span><span class="sxs-lookup"><span data-stu-id="007fa-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="007fa-112">主</span><span class="sxs-lookup"><span data-stu-id="007fa-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="007fa-113">会话请求的时间;与 SessionIDSeq 结合使用以唯一标识会话。</span><span class="sxs-lookup"><span data-stu-id="007fa-113">Time of session request; used in conjunction with SessionIDSeq to uniquely identify a session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="63ba7-113"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="63ba7-113"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="63ba7-114">int</span><span class="sxs-lookup"><span data-stu-id="63ba7-114">int</span></span></p></td>
-<td><p><span data-ttu-id="63ba7-115">主</span><span class="sxs-lookup"><span data-stu-id="63ba7-115">Primary</span></span></p></td>
-<td><p><span data-ttu-id="63ba7-116">用于标识会话的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="63ba7-116">ID number to identify the session.</span></span> <span data-ttu-id="63ba7-117">与 SessionIDTime 结合使用以唯一标识会话。</span><span class="sxs-lookup"><span data-stu-id="63ba7-117">Used in conjunction with SessionIDTime to uniquely identify a session.</span></span></p></td>
+<td><p><span data-ttu-id="007fa-114"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="007fa-114"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="007fa-115">int</span><span class="sxs-lookup"><span data-stu-id="007fa-115">int</span></span></p></td>
+<td><p><span data-ttu-id="007fa-116">主</span><span class="sxs-lookup"><span data-stu-id="007fa-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="007fa-117">用于标识会话的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="007fa-117">ID number to identify the session.</span></span> <span data-ttu-id="007fa-118">与 SessionIDTime 结合使用以唯一标识会话。</span><span class="sxs-lookup"><span data-stu-id="007fa-118">Used in conjunction with SessionIDTime to uniquely identify a session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="63ba7-118"><strong>ExternalChecksum</strong></span><span class="sxs-lookup"><span data-stu-id="63ba7-118"><strong>ExternalChecksum</strong></span></span></p></td>
-<td><p><span data-ttu-id="63ba7-119">int</span><span class="sxs-lookup"><span data-stu-id="63ba7-119">int</span></span></p></td>
+<td><p><span data-ttu-id="007fa-119"><strong>ExternalChecksum</strong></span><span class="sxs-lookup"><span data-stu-id="007fa-119"><strong>ExternalChecksum</strong></span></span></p></td>
+<td><p><span data-ttu-id="007fa-120">int</span><span class="sxs-lookup"><span data-stu-id="007fa-120">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="63ba7-120">ExternalID 的校验和。</span><span class="sxs-lookup"><span data-stu-id="63ba7-120">Checksum of the ExternalID.</span></span> <span data-ttu-id="63ba7-121">此字段用于提高数据库搜索的速度。</span><span class="sxs-lookup"><span data-stu-id="63ba7-121">This field is used to increase the speed of database searches.</span></span></p></td>
+<td><p><span data-ttu-id="007fa-121">ExternalID 的校验和。</span><span class="sxs-lookup"><span data-stu-id="007fa-121">Checksum of the ExternalID.</span></span> <span data-ttu-id="007fa-122">此字段用于提高数据库搜索的速度。</span><span class="sxs-lookup"><span data-stu-id="007fa-122">This field is used to increase the speed of database searches.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="63ba7-122"><strong>ExternalId</strong></span><span class="sxs-lookup"><span data-stu-id="63ba7-122"><strong>ExternalId</strong></span></span></p></td>
-<td><p><span data-ttu-id="63ba7-123">varbinary (775) </span><span class="sxs-lookup"><span data-stu-id="63ba7-123">varbinary(775)</span></span></p></td>
+<td><p><span data-ttu-id="007fa-123"><strong>ExternalId</strong></span><span class="sxs-lookup"><span data-stu-id="007fa-123"><strong>ExternalId</strong></span></span></p></td>
+<td><p><span data-ttu-id="007fa-124">varbinary (775) </span><span class="sxs-lookup"><span data-stu-id="007fa-124">varbinary(775)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="63ba7-124">以二进制形式存储的 SIP 对话框 ID。</span><span class="sxs-lookup"><span data-stu-id="63ba7-124">SIP dialog ID, stored as a binary.</span></span> <span data-ttu-id="63ba7-125">二进制文件的格式为：</span><span class="sxs-lookup"><span data-stu-id="63ba7-125">The format of the binary is:</span></span></p>
-<p><span data-ttu-id="63ba7-126">对话框; 从-标签; 到-标记</span><span class="sxs-lookup"><span data-stu-id="63ba7-126">dialog;from-tag;to-tag</span></span></p>
-<p><span data-ttu-id="63ba7-127">可以使用以下语法将此数据转换为文本格式：</span><span class="sxs-lookup"><span data-stu-id="63ba7-127">This data can be converted to text format by using this syntax:</span></span></p>
+<td><p><span data-ttu-id="007fa-125">以二进制形式存储的 SIP 对话框 ID。</span><span class="sxs-lookup"><span data-stu-id="007fa-125">SIP dialog ID, stored as a binary.</span></span> <span data-ttu-id="007fa-126">二进制文件的格式为：</span><span class="sxs-lookup"><span data-stu-id="007fa-126">The format of the binary is:</span></span></p>
+<p><span data-ttu-id="007fa-127">对话框; 从-标签; 到-标记</span><span class="sxs-lookup"><span data-stu-id="007fa-127">dialog;from-tag;to-tag</span></span></p>
+<p><span data-ttu-id="007fa-128">可以使用以下语法将此数据转换为文本格式：</span><span class="sxs-lookup"><span data-stu-id="007fa-128">This data can be converted to text format by using this syntax:</span></span></p>
 <p><code>cast(cast(ExternalId as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>

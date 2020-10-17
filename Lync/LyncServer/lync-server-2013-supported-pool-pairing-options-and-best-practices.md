@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 支持的池配对选项和最佳做法
+description: Lync Server 2013 支持的池配对选项和最佳做法。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183478
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90e1c28e6c16a7008232ef65d91cd252a3e2855f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 76d0f8331c0b6998008efff8af70ae3c4b43a9c2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524009"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560278"
 ---
-# <a name="supported-pool-pairing-options-and-best-practices-for-lync-server-2013"></a><span data-ttu-id="7c16c-102">Lync Server 2013 的受支持的池配对选项和最佳做法</span><span class="sxs-lookup"><span data-stu-id="7c16c-102">Supported pool pairing options and best practices for Lync Server 2013</span></span>
+# <a name="supported-pool-pairing-options-and-best-practices-for-lync-server-2013"></a><span data-ttu-id="b54f6-103">Lync Server 2013 的受支持的池配对选项和最佳做法</span><span class="sxs-lookup"><span data-stu-id="b54f6-103">Supported pool pairing options and best practices for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48524009"
 
 <span> </span>
 
-<span data-ttu-id="7c16c-103">_**上次修改的主题：** 2017-03-09_</span><span class="sxs-lookup"><span data-stu-id="7c16c-103">_**Topic Last Modified:** 2017-03-09_</span></span>
+<span data-ttu-id="b54f6-104">_**上次修改的主题：** 2017-03-09_</span><span class="sxs-lookup"><span data-stu-id="b54f6-104">_**Topic Last Modified:** 2017-03-09_</span></span>
 
-<span data-ttu-id="7c16c-p101">要包括互相配对的前端池的两个数据中心之间没有距离限制。建议使用位于相同世界区域的两个数据中心，因为它们之间存在高速链接。最好两个数据中心之间拥有足够距离，以避免一个灾难同时袭击两个数据中心。</span><span class="sxs-lookup"><span data-stu-id="7c16c-p101">There is no restriction on the distance between two data centers that are to include Front End pools paired with each other. We recommend that you use two data centers in the same world region, with high-speed links between them. It is best if the two data centers are separated enough to avoid a single disaster hitting both at the same time.</span></span>
+<span data-ttu-id="b54f6-p101">要包括互相配对的前端池的两个数据中心之间没有距离限制。建议使用位于相同世界区域的两个数据中心，因为它们之间存在高速链接。最好两个数据中心之间拥有足够距离，以避免一个灾难同时袭击两个数据中心。</span><span class="sxs-lookup"><span data-stu-id="b54f6-p101">There is no restriction on the distance between two data centers that are to include Front End pools paired with each other. We recommend that you use two data centers in the same world region, with high-speed links between them. It is best if the two data centers are separated enough to avoid a single disaster hitting both at the same time.</span></span>
 
-<span data-ttu-id="7c16c-107">跨世界区域分布两个数据中心也是可行的，但可能会因为数据复制延迟而导致丢失较多数据。</span><span class="sxs-lookup"><span data-stu-id="7c16c-107">Having two data centers across world regions is possible, but could incur higher data loss due to latency in data replication.</span></span>
+<span data-ttu-id="b54f6-108">跨世界区域分布两个数据中心也是可行的，但可能会因为数据复制延迟而导致丢失较多数据。</span><span class="sxs-lookup"><span data-stu-id="b54f6-108">Having two data centers across world regions is possible, but could incur higher data loss due to latency in data replication.</span></span>
 
-<span data-ttu-id="7c16c-108">在规划要配对的池时，必须记住仅支持以下配对：</span><span class="sxs-lookup"><span data-stu-id="7c16c-108">When you plan which pools to pair, you must keep in mind that only the following pairings are supported:</span></span>
+<span data-ttu-id="b54f6-109">在规划要配对的池时，必须记住仅支持以下配对：</span><span class="sxs-lookup"><span data-stu-id="b54f6-109">When you plan which pools to pair, you must keep in mind that only the following pairings are supported:</span></span>
 
-  - <span data-ttu-id="7c16c-p102">Enterprise Edition 池仅能与其他 Enterprise Edition 池进行配对。同样，Standard Edition 池仅能与其他 Standard Edition 池进行配对。</span><span class="sxs-lookup"><span data-stu-id="7c16c-p102">Enterprise Edition pools can be paired only with other Enterprise Edition pools. Similarly, Standard Edition pools can be paired only with other Standard Edition pools.</span></span>
+  - <span data-ttu-id="b54f6-p102">Enterprise Edition 池仅能与其他 Enterprise Edition 池进行配对。同样，Standard Edition 池仅能与其他 Standard Edition 池进行配对。</span><span class="sxs-lookup"><span data-stu-id="b54f6-p102">Enterprise Edition pools can be paired only with other Enterprise Edition pools. Similarly, Standard Edition pools can be paired only with other Standard Edition pools.</span></span>
 
-  - <span data-ttu-id="7c16c-p103">物理池仅能与其他物理池配对。同样，虚拟池仅能与其他虚拟池配对。</span><span class="sxs-lookup"><span data-stu-id="7c16c-p103">Physical pools can be paired only with other physical pools. Similarly, virtual pools can be paired only with other virtual pools.</span></span>
+  - <span data-ttu-id="b54f6-p103">物理池仅能与其他物理池配对。同样，虚拟池仅能与其他虚拟池配对。</span><span class="sxs-lookup"><span data-stu-id="b54f6-p103">Physical pools can be paired only with other physical pools. Similarly, virtual pools can be paired only with other virtual pools.</span></span>
 
-  - <span data-ttu-id="7c16c-113">配对在一起的池必须运行相同的操作系统。</span><span class="sxs-lookup"><span data-stu-id="7c16c-113">Pools that are paired together must be running the same operating system.</span></span>
+  - <span data-ttu-id="b54f6-114">配对在一起的池必须运行相同的操作系统。</span><span class="sxs-lookup"><span data-stu-id="b54f6-114">Pools that are paired together must be running the same operating system.</span></span>
 
-<span data-ttu-id="7c16c-114">拓扑生成器和拓扑验证都不会阻止以不遵循这些建议的方式对两个池进行配对。</span><span class="sxs-lookup"><span data-stu-id="7c16c-114">Neither Topology Builder nor topology validation will prohibit pairing two pools in a way that does not follow these recommendations.</span></span> <span data-ttu-id="7c16c-115">例如，拓扑生成器允许您将 Enterprise Edition 池与 Standard Edition 池进行配对。</span><span class="sxs-lookup"><span data-stu-id="7c16c-115">For example, Topology Builder allows you to pair an Enterprise Edition pool with a Standard Edition pool.</span></span> <span data-ttu-id="7c16c-116">但是，不支持这些类型的配对。</span><span class="sxs-lookup"><span data-stu-id="7c16c-116">However, these types of pairings are not supported.</span></span>
+<span data-ttu-id="b54f6-115">拓扑生成器和拓扑验证都不会阻止以不遵循这些建议的方式对两个池进行配对。</span><span class="sxs-lookup"><span data-stu-id="b54f6-115">Neither Topology Builder nor topology validation will prohibit pairing two pools in a way that does not follow these recommendations.</span></span> <span data-ttu-id="b54f6-116">例如，拓扑生成器允许您将 Enterprise Edition 池与 Standard Edition 池进行配对。</span><span class="sxs-lookup"><span data-stu-id="b54f6-116">For example, Topology Builder allows you to pair an Enterprise Edition pool with a Standard Edition pool.</span></span> <span data-ttu-id="b54f6-117">但是，不支持这些类型的配对。</span><span class="sxs-lookup"><span data-stu-id="b54f6-117">However, these types of pairings are not supported.</span></span>
 
-<span data-ttu-id="7c16c-117">配对中的每个池应能够在发生灾难时为两个池中的所有用户提供服务。</span><span class="sxs-lookup"><span data-stu-id="7c16c-117">Each pool in a pair should have the capacity to serve all users from both pools in the event of a disaster.</span></span>
+<span data-ttu-id="b54f6-118">配对中的每个池应能够在发生灾难时为两个池中的所有用户提供服务。</span><span class="sxs-lookup"><span data-stu-id="b54f6-118">Each pool in a pair should have the capacity to serve all users from both pools in the event of a disaster.</span></span>
 
-<span data-ttu-id="7c16c-118">如果对 Enterprise Edition 进行配对，还可以在后端服务器上实现高可用性，但是对于 Standard Edition 池的配对，仅能采用灾难恢复措施。</span><span class="sxs-lookup"><span data-stu-id="7c16c-118">If you pair Enterprise Edition pools, you can also implement high availability on the Back End Servers, but for pairs of Standard Edition pools only the disaster recovery measures are available.</span></span>
+<span data-ttu-id="b54f6-119">如果对 Enterprise Edition 进行配对，还可以在后端服务器上实现高可用性，但是对于 Standard Edition 池的配对，仅能采用灾难恢复措施。</span><span class="sxs-lookup"><span data-stu-id="b54f6-119">If you pair Enterprise Edition pools, you can also implement high availability on the Back End Servers, but for pairs of Standard Edition pools only the disaster recovery measures are available.</span></span>
 
 </div>
 

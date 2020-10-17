@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：在边缘服务器上部署 IP 地址类型
+description: Lync Server 2013：在边缘服务器上部署 IP 地址类型。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 210819547a78905865ebe2dca09d03ab597f33af
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7798ca2f7b38865a2b4ea373546dd4e7203f5b8e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531419"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558658"
 ---
-# <a name="deploy-ip-address-types-on-an-edge-server-for-lync-server-2013"></a><span data-ttu-id="aeb8d-102">为 Lync Server 2013 在边缘服务器上部署 IP 地址类型</span><span class="sxs-lookup"><span data-stu-id="aeb8d-102">Deploy IP address types on an Edge Server for Lync Server 2013</span></span>
+# <a name="deploy-ip-address-types-on-an-edge-server-for-lync-server-2013"></a><span data-ttu-id="4c046-103">为 Lync Server 2013 在边缘服务器上部署 IP 地址类型</span><span class="sxs-lookup"><span data-stu-id="4c046-103">Deploy IP address types on an Edge Server for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,27 +38,27 @@ ms.locfileid: "48531419"
 
 <span> </span>
 
-<span data-ttu-id="aeb8d-103">_**上次修改的主题：** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="aeb8d-103">_**Topic Last Modified:** 2012-06-14_</span></span>
+<span data-ttu-id="4c046-104">_**上次修改的主题：** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="4c046-104">_**Topic Last Modified:** 2012-06-14_</span></span>
 
-<span data-ttu-id="aeb8d-104">使用拓扑生成器，执行以下过程中的步骤，以在边缘服务器上部署 IP 地址类型。</span><span class="sxs-lookup"><span data-stu-id="aeb8d-104">Using Topology Builder, perform the steps in the following procedure to deploy IP address types on an Edge Server.</span></span>
+<span data-ttu-id="4c046-105">使用拓扑生成器，执行以下过程中的步骤，以在边缘服务器上部署 IP 地址类型。</span><span class="sxs-lookup"><span data-stu-id="4c046-105">Using Topology Builder, perform the steps in the following procedure to deploy IP address types on an Edge Server.</span></span>
 
 <div>
 
-## <a name="to-deploy-ip-address-types-on-an-edge-server"></a><span data-ttu-id="aeb8d-105">在边缘服务器上部署 IP 地址类型</span><span class="sxs-lookup"><span data-stu-id="aeb8d-105">To deploy IP address types on an Edge Server</span></span>
+## <a name="to-deploy-ip-address-types-on-an-edge-server"></a><span data-ttu-id="4c046-106">在边缘服务器上部署 IP 地址类型</span><span class="sxs-lookup"><span data-stu-id="4c046-106">To deploy IP address types on an Edge Server</span></span>
 
-1.  <span data-ttu-id="aeb8d-106">在拓扑生成器中，在 " **边缘池**" 下，右键单击池内的服务器，然后选择 " **编辑属性**"。</span><span class="sxs-lookup"><span data-stu-id="aeb8d-106">In Topology Builder, under **Edge pools**, right-click the server within a pool, and then select **Edit Properties**.</span></span> <span data-ttu-id="aeb8d-107"> (或者，选择服务器，然后从 "**操作**" 菜单中单击 "**编辑属性**"。 ) </span><span class="sxs-lookup"><span data-stu-id="aeb8d-107">(Alternatively, select the server, and then click **Edit Properties** from the **Action** menu.)</span></span>
+1.  <span data-ttu-id="4c046-107">在拓扑生成器中，在 " **边缘池**" 下，右键单击池内的服务器，然后选择 " **编辑属性**"。</span><span class="sxs-lookup"><span data-stu-id="4c046-107">In Topology Builder, under **Edge pools**, right-click the server within a pool, and then select **Edit Properties**.</span></span> <span data-ttu-id="4c046-108"> (或者，选择服务器，然后从 "**操作**" 菜单中单击 "**编辑属性**"。 ) </span><span class="sxs-lookup"><span data-stu-id="4c046-108">(Alternatively, select the server, and then click **Edit Properties** from the **Action** menu.)</span></span>
 
-2.  <span data-ttu-id="aeb8d-p102">在“编辑属性”\*\*\*\* 窗口中，选择要支持的 IP 地址配置。下图显示用于内部接口和外部接口的双协议栈配置。</span><span class="sxs-lookup"><span data-stu-id="aeb8d-p102">In the **Edit Properties** window, select the IP address configuration that you want to support. The following figures show a dual stack configuration for the internal interface and the external interface.</span></span>
+2.  <span data-ttu-id="4c046-p102">在“编辑属性”\*\*\*\* 窗口中，选择要支持的 IP 地址配置。下图显示用于内部接口和外部接口的双协议栈配置。</span><span class="sxs-lookup"><span data-stu-id="4c046-p102">In the **Edit Properties** window, select the IP address configuration that you want to support. The following figures show a dual stack configuration for the internal interface and the external interface.</span></span>
     
-    <span data-ttu-id="aeb8d-110">**双协议栈边缘服务器内部接口**</span><span class="sxs-lookup"><span data-stu-id="aeb8d-110">**Dual stacked Edge Server internal interface**</span></span>
+    <span data-ttu-id="4c046-111">**双协议栈边缘服务器内部接口**</span><span class="sxs-lookup"><span data-stu-id="4c046-111">**Dual stacked Edge Server internal interface**</span></span>
     
-    <span data-ttu-id="aeb8d-111">!["Lync Server 常规属性" 页](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png ""Lync Server 常规属性" 页")</span><span class="sxs-lookup"><span data-stu-id="aeb8d-111">![Lync Server general properties page](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "Lync Server general properties page")</span></span>
+    <span data-ttu-id="4c046-112">!["Lync Server 常规属性" 页](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png ""Lync Server 常规属性" 页")</span><span class="sxs-lookup"><span data-stu-id="4c046-112">![Lync Server general properties page](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "Lync Server general properties page")</span></span>
     
-    <span data-ttu-id="aeb8d-112">**双协议栈边缘服务器外部接口**</span><span class="sxs-lookup"><span data-stu-id="aeb8d-112">**Dual stacked Edge Server external interface**</span></span>
+    <span data-ttu-id="4c046-113">**双协议栈边缘服务器外部接口**</span><span class="sxs-lookup"><span data-stu-id="4c046-113">**Dual stacked Edge Server external interface**</span></span>
     
-    <span data-ttu-id="aeb8d-113">![Lync Server 下一个跃点/外部配置页](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Lync Server 下一个跃点/外部配置页")</span><span class="sxs-lookup"><span data-stu-id="aeb8d-113">![Lync Server next hop/external configuration page](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Lync Server next hop/external configuration page")</span></span>
+    <span data-ttu-id="4c046-114">![Lync Server 下一个跃点/外部配置页](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Lync Server 下一个跃点/外部配置页")</span><span class="sxs-lookup"><span data-stu-id="4c046-114">![Lync Server next hop/external configuration page](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Lync Server next hop/external configuration page")</span></span>
 
-3.  <span data-ttu-id="aeb8d-114">对于您选择的每个地址类型，必须提供适当的内部和外部地址。</span><span class="sxs-lookup"><span data-stu-id="aeb8d-114">For each address type that you select, you must supply appropriate internal and external addresses.</span></span>
+3.  <span data-ttu-id="4c046-115">对于您选择的每个地址类型，必须提供适当的内部和外部地址。</span><span class="sxs-lookup"><span data-stu-id="4c046-115">For each address type that you select, you must supply appropriate internal and external addresses.</span></span>
 
 </div>
 

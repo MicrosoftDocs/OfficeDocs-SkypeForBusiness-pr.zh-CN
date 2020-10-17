@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：支持组呼叫装货的客户端
+description: Lync Server 2013：支持组呼叫装货的客户端。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e5e2a7ecf248f1b27d41a7a9db8da56ac98d971
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec8bdb2ed34eb11ab622406d76c7cf49e116c09c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499209"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558798"
 ---
-# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="7a4dd-102">Lync Server 2013 中的组呼叫应答支持的客户端</span><span class="sxs-lookup"><span data-stu-id="7a4dd-102">Clients supported for Group Call Pickup in Lync Server 2013</span></span>
+# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="12c17-103">Lync Server 2013 中的组呼叫应答支持的客户端</span><span class="sxs-lookup"><span data-stu-id="12c17-103">Clients supported for Group Call Pickup in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,37 +38,37 @@ ms.locfileid: "48499209"
 
 <span> </span>
 
-<span data-ttu-id="7a4dd-103">_**上次修改的主题：** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="7a4dd-103">_**Topic Last Modified:** 2013-02-12_</span></span>
+<span data-ttu-id="12c17-104">_**上次修改的主题：** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="12c17-104">_**Topic Last Modified:** 2013-02-12_</span></span>
 
-<span data-ttu-id="7a4dd-104">可以使用下列任一客户端应答对组呼叫应答成员的呼叫：</span><span class="sxs-lookup"><span data-stu-id="7a4dd-104">Any of the following clients can be used to answer calls to Group Call Pickup members:</span></span>
+<span data-ttu-id="12c17-105">可以使用下列任一客户端应答对组呼叫应答成员的呼叫：</span><span class="sxs-lookup"><span data-stu-id="12c17-105">Any of the following clients can be used to answer calls to Group Call Pickup members:</span></span>
 
-  - <span data-ttu-id="7a4dd-105">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="7a4dd-105">Lync 2013</span></span>
+  - <span data-ttu-id="12c17-106">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="12c17-106">Lync 2013</span></span>
 
-  - <span data-ttu-id="7a4dd-106">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="7a4dd-106">Lync 2010</span></span>
+  - <span data-ttu-id="12c17-107">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="12c17-107">Lync 2010</span></span>
 
-  - <span data-ttu-id="7a4dd-107">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="7a4dd-107">Lync Phone Edition</span></span>
+  - <span data-ttu-id="12c17-108">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="12c17-108">Lync Phone Edition</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="7a4dd-108">用户可以使用这些客户端中的任何客户端应答对组呼叫应答成员的呼叫，但用户必须驻留在 lync Server 2013 累积更新的 Lync Server 2013 池中：2月2013。</span><span class="sxs-lookup"><span data-stu-id="7a4dd-108">Users can use any of these clients to answer calls to Group Call Pickup members, but the users must be homed on a Lync Server 2013 pool with Cumulative Updates for Lync Server 2013: February 2013.</span></span>
+> <span data-ttu-id="12c17-109">用户可以使用这些客户端中的任何客户端应答对组呼叫应答成员的呼叫，但用户必须驻留在 lync Server 2013 累积更新的 Lync Server 2013 池中：2月2013。</span><span class="sxs-lookup"><span data-stu-id="12c17-109">Users can use any of these clients to answer calls to Group Call Pickup members, but the users must be homed on a Lync Server 2013 pool with Cumulative Updates for Lync Server 2013: February 2013.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="7a4dd-109">在 Lync Server 2013 的累积更新中：2月2013，不支持以下客户端和设备接听对组呼叫装货成员的呼叫：</span><span class="sxs-lookup"><span data-stu-id="7a4dd-109">In Cumulative Updates for Lync Server 2013: February 2013, the following clients and devices are not supported for picking up calls to Group Call Pickup members:</span></span>
+<span data-ttu-id="12c17-110">在 Lync Server 2013 的累积更新中：2月2013，不支持以下客户端和设备接听对组呼叫装货成员的呼叫：</span><span class="sxs-lookup"><span data-stu-id="12c17-110">In Cumulative Updates for Lync Server 2013: February 2013, the following clients and devices are not supported for picking up calls to Group Call Pickup members:</span></span>
 
-  - <span data-ttu-id="7a4dd-110">Lync Mobile</span><span class="sxs-lookup"><span data-stu-id="7a4dd-110">Lync Mobile</span></span>
+  - <span data-ttu-id="12c17-111">Lync Mobile</span><span class="sxs-lookup"><span data-stu-id="12c17-111">Lync Mobile</span></span>
 
-  - <span data-ttu-id="7a4dd-111">适用于 Windows 8 和 Windows RT 的 Lync 应用程序</span><span class="sxs-lookup"><span data-stu-id="7a4dd-111">Lync app for Windows 8 and Windows RT</span></span>
+  - <span data-ttu-id="12c17-112">适用于 Windows 8 和 Windows RT 的 Lync 应用程序</span><span class="sxs-lookup"><span data-stu-id="12c17-112">Lync app for Windows 8 and Windows RT</span></span>
 
-  - <span data-ttu-id="7a4dd-112">Lync for iPad</span><span class="sxs-lookup"><span data-stu-id="7a4dd-112">Lync for iPad</span></span>
+  - <span data-ttu-id="12c17-113">Lync for iPad</span><span class="sxs-lookup"><span data-stu-id="12c17-113">Lync for iPad</span></span>
 
-  - <span data-ttu-id="7a4dd-113">模拟电话</span><span class="sxs-lookup"><span data-stu-id="7a4dd-113">Analog phones</span></span>
+  - <span data-ttu-id="12c17-114">模拟电话</span><span class="sxs-lookup"><span data-stu-id="12c17-114">Analog phones</span></span>
 
-  - <span data-ttu-id="7a4dd-114">具有公共交换电话网络的电话 (PSTN) 号码</span><span class="sxs-lookup"><span data-stu-id="7a4dd-114">Phones with public switched telephone network (PSTN) numbers</span></span>
+  - <span data-ttu-id="12c17-115">具有公共交换电话网络的电话 (PSTN) 号码</span><span class="sxs-lookup"><span data-stu-id="12c17-115">Phones with public switched telephone network (PSTN) numbers</span></span>
 
 </div>
 

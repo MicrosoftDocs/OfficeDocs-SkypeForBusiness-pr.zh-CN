@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：会议概述
+description: Lync Server 2013：会议概述。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184245
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5ca54eb1243aaf645b5c968588f3f2663fecccc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 60c4b3d2cc3d9c5f4b11a1c2c21504c13051d455
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530639"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559248"
 ---
-# <a name="overview-of-conferencing-in-lync-server-2013"></a><span data-ttu-id="adc6f-102">Lync Server 2013 中的会议概述</span><span class="sxs-lookup"><span data-stu-id="adc6f-102">Overview of conferencing in Lync Server 2013</span></span>
+# <a name="overview-of-conferencing-in-lync-server-2013"></a><span data-ttu-id="c823e-103">Lync Server 2013 中的会议概述</span><span class="sxs-lookup"><span data-stu-id="c823e-103">Overview of conferencing in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48530639"
 
 <span> </span>
 
-<span data-ttu-id="adc6f-103">_**上次修改的主题：** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="adc6f-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="c823e-104">_**上次修改的主题：** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="c823e-104">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="adc6f-p101">在部署会议时，可以选择同时启用并使用 Web 会议和 A/V 会议，也可以仅启用并使用 Web 会议。电话拨入式会议是音频会议的一部分且需要其他配置。</span><span class="sxs-lookup"><span data-stu-id="adc6f-p101">When you deploy conferencing, you can choose to enable and use both web conferencing and A/V conferencing, or just web conferencing. Dial-in conferencing is a subset of audio conferencing and requires additional configuration.</span></span>
+<span data-ttu-id="c823e-p101">在部署会议时，可以选择同时启用并使用 Web 会议和 A/V 会议，也可以仅启用并使用 Web 会议。电话拨入式会议是音频会议的一部分且需要其他配置。</span><span class="sxs-lookup"><span data-stu-id="c823e-p101">When you deploy conferencing, you can choose to enable and use both web conferencing and A/V conferencing, or just web conferencing. Dial-in conferencing is a subset of audio conferencing and requires additional configuration.</span></span>
 
-<span data-ttu-id="adc6f-p102">通过启用所有形式的会议，用户可以享受尽可能丰富的会议环境 - 拥有即时消息 (IM)、音频、视频、桌面共享、幻灯片演示、共享附件和共享应用程序的任意组合。会议可以是计划内会议，也可以是计划外会议，用户可以轻松地将各种交流方式添加到正在进行的会议中。例如，首先添加 IM，再添加文档协作，然后添加语音或视频。还可以将新的参与者实时添加到正在进行的会议中。</span><span class="sxs-lookup"><span data-stu-id="adc6f-p102">With all forms of conferencing enabled, your users can enjoy the richest possible conferencing environment with any combination of instant messaging (IM), audio, video, desktop sharing, slide presentations, sharing attachments, and sharing applications. Conferences can be scheduled or unscheduled, and users can easily add forms of communication to a conference while it happens. For example, starting with IM, adding document collaboration, and then adding voice or video. New participants can also be added to ongoing conferences in real time.</span></span>
+<span data-ttu-id="c823e-p102">通过启用所有形式的会议，用户可以享受尽可能丰富的会议环境 - 拥有即时消息 (IM)、音频、视频、桌面共享、幻灯片演示、共享附件和共享应用程序的任意组合。会议可以是计划内会议，也可以是计划外会议，用户可以轻松地将各种交流方式添加到正在进行的会议中。例如，首先添加 IM，再添加文档协作，然后添加语音或视频。还可以将新的参与者实时添加到正在进行的会议中。</span><span class="sxs-lookup"><span data-stu-id="c823e-p102">With all forms of conferencing enabled, your users can enjoy the richest possible conferencing environment with any combination of instant messaging (IM), audio, video, desktop sharing, slide presentations, sharing attachments, and sharing applications. Conferences can be scheduled or unscheduled, and users can easily add forms of communication to a conference while it happens. For example, starting with IM, adding document collaboration, and then adding voice or video. New participants can also be added to ongoing conferences in real time.</span></span>
 
-<span data-ttu-id="adc6f-110">以下主题概述了 Web 会议、A/V 会议和电话拨入式会议提供的特定特性和功能。</span><span class="sxs-lookup"><span data-stu-id="adc6f-110">The following topics provide an overview of the specific features and capabilities provided by web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
+<span data-ttu-id="c823e-111">以下主题概述了 Web 会议、A/V 会议和电话拨入式会议提供的特定特性和功能。</span><span class="sxs-lookup"><span data-stu-id="c823e-111">The following topics provide an overview of the specific features and capabilities provided by web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="adc6f-111">本部分内容</span><span class="sxs-lookup"><span data-stu-id="adc6f-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c823e-112">本部分内容</span><span class="sxs-lookup"><span data-stu-id="c823e-112">In This Section</span></span>
 
-  - [<span data-ttu-id="adc6f-112">Lync Server 2013 中的常见会议概念</span><span class="sxs-lookup"><span data-stu-id="adc6f-112">Common conferencing concepts in Lync Server 2013</span></span>](lync-server-2013-common-conferencing-concepts.md)
+  - [<span data-ttu-id="c823e-113">Lync Server 2013 中的常见会议概念</span><span class="sxs-lookup"><span data-stu-id="c823e-113">Common conferencing concepts in Lync Server 2013</span></span>](lync-server-2013-common-conferencing-concepts.md)
 
-  - [<span data-ttu-id="adc6f-113">Lync Server 2013 中的 web 会议概述</span><span class="sxs-lookup"><span data-stu-id="adc6f-113">Overview of web conferencing in Lync Server 2013</span></span>](lync-server-2013-web-conferencing-overview.md)
+  - [<span data-ttu-id="c823e-114">Lync Server 2013 中的 web 会议概述</span><span class="sxs-lookup"><span data-stu-id="c823e-114">Overview of web conferencing in Lync Server 2013</span></span>](lync-server-2013-web-conferencing-overview.md)
 
-  - [<span data-ttu-id="adc6f-114">Lync Server 2013 中的 A/V 会议概述</span><span class="sxs-lookup"><span data-stu-id="adc6f-114">Overview of A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-a-v-conferencing-overview.md)
+  - [<span data-ttu-id="c823e-115">Lync Server 2013 中的 A/V 会议概述</span><span class="sxs-lookup"><span data-stu-id="c823e-115">Overview of A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-a-v-conferencing-overview.md)
 
-  - [<span data-ttu-id="adc6f-115">Lync Server 2013 中的电话拨入式会议概述</span><span class="sxs-lookup"><span data-stu-id="adc6f-115">Overview of dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-overview.md)
+  - [<span data-ttu-id="c823e-116">Lync Server 2013 中的电话拨入式会议概述</span><span class="sxs-lookup"><span data-stu-id="c823e-116">Overview of dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-overview.md)
 
 </div>
 
