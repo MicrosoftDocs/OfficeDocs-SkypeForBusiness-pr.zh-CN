@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：用于通讯簿管理的 Test-CsAddressBookService
+description: Lync Server 2013：用于通讯簿管理的 Test-CsAddressBookService。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185206
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04ca485e8a17a5017537b9d568ec948de170a323
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 345886c68c814534fcbfd4debfd3be8562fae5a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519259"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547448"
 ---
 # <a name="test-csaddressbookservice-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的通讯簿管理 Test-CsAddressBookService
 

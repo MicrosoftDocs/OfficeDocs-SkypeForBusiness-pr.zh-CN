@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：更新 Outlook 启用列表
+description: Lync Server 2013：更新 Outlook 启用列表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3702e8976c0afeef364fdec52616bb4f4d1b8d86
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 96edc327fa1b63d5da95eb6ea36a2296659910d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506659"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546228"
 ---
 # <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>在 Lync Server 2013 中更新 Outlook 启用列表
 

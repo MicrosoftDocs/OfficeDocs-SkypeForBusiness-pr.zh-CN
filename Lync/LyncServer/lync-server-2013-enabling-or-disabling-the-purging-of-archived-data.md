@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：启用或禁用存档数据的清除
+description: Lync Server 2013：启用或禁用已存档数据的清除。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 308ba7b91fbe776ed49d72c54e2986ad95d080fc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 442b99e2cfa6db303ca8edd216cbdf3b5c13cea9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500939"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546458"
 ---
 # <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>在 Lync Server 2013 中启用或禁用已存档数据的清除
 

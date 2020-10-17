@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：查看网络子网信息
+description: Lync Server 2013：查看网络子网信息。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733636
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 453d66d35d02d6b0e91f0c6b82b1ccfe71f149b1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 313135c43318817391d54f2fa3e73dd318f7a11f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535599"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546148"
 ---
 # <a name="viewing-network-subnet-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看网络子网信息
 

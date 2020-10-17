@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：其他服务器角色 cmdlet
+description: Lync Server 2013：其他服务器角色 cmdlet。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f7fb432764e9ca9651263efc74c4bbaf3ff5b00
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d4b167b962d98bdcf1389b1a55951c1dd7608705
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508769"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546858"
 ---
 # <a name="other-server-role-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的其他服务器角色 cmdlet
 

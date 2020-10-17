@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置现有中央管理服务器
+description: Lync Server 2013：配置现有中央管理服务器。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bfcd872f765e4a2ee69b09c4f1328125bc581d1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ef93281be2537ca5e4a5892a8617500ce54f3c45
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522999"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546708"
 ---
 # <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a>在 Lync Server 2013 中配置现有中央管理服务器
 

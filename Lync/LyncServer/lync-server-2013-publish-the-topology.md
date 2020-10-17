@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：发布拓扑
+description: Lync Server 2013：发布拓扑。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e94e47536c8af6ef8fd3c22dba245b03c961c575
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 453fe186a02c88a5dcd7308096b661058fc04aa6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512359"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547718"
 ---
 # <a name="publish-the-topology-in-lync-server-2013"></a>在 Lync Server 2013 中发布拓扑
 

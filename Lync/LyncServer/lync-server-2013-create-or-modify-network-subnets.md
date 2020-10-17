@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：创建或修改网络子网
+description: Lync Server 2013：创建或修改网络子网。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e7d5822438b1907cf718e2ea0365d9e9dad0814
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 37695707bf39b10c351a4990b132c9799406f9c4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501659"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546918"
 ---
 # <a name="create-or-modify-network-subnets-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改网络子网
 

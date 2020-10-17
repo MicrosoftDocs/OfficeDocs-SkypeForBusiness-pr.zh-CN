@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置聊天室的外接程序
+description: Lync Server 2013：配置聊天室的外接程序。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8779e770ca96cbfc34bbbc1f1897df1f5eb9ea03
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 803bff81fa76bf5a7d2d408c93ba9247ead72510
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523049"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546748"
 ---
 # <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a>在 Lync Server 2013 中配置聊天室的外接程序
 

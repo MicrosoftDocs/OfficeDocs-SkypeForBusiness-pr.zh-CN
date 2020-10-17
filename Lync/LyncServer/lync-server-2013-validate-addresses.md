@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：验证地址
+description: Lync Server 2013：验证地址。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185108
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bf8ebf2dd3da00adbd4719dd749c59eeeee82b0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bcbb8789912b3bcbcfb60dd79807f06c2957c1f6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508619"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547268"
 ---
 # <a name="validate-addresses-in-lync-server-2013"></a>在 Lync Server 2013 中验证地址
 

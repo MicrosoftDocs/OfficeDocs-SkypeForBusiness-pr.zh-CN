@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：导入设备更新规则
+description: Lync Server 2013：导入设备更新规则。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ddeb9d37d36d6ab18467e04e4a7c46b9b8576fa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6a7b936a4b7be96332343e8f96134d5ba1b879be
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526719"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547848"
 ---
 # <a name="import-device-update-rules-in-lync-server-2013"></a>在 Lync Server 2013 中导入设备更新规则
 

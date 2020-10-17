@@ -1,5 +1,6 @@
 ---
 title: 验证内部服务器与边缘服务器之间的连接
+description: 验证内部服务器与边缘服务器之间的连接。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a170ac21c89bd405ad0406830c00feabbde5434
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f86f87428d7eaf91b8f70422cfee712584252fad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518649"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547128"
 ---
 # <a name="verify-connectivity-between-internal-servers-and-edge-servers-in-lync-server-2013"></a>验证 Lync Server 2013 中的内部服务器与边缘服务器之间的连接
 

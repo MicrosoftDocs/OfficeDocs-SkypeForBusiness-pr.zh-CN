@@ -1,5 +1,6 @@
 ---
 title: 使用租户参数的 Skype for Business Online 中的 cmdlet
+description: Skype for Business Online 中使用租户参数的 cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 352a33fcff5db306b62535c28fb4a2b2dd766bea
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ff2b8053dd855a854fa26699770d3dafaa0dcbd7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755038"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546798"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>使用租户参数的 Skype for Business Online 中的 cmdlet
 
@@ -29,16 +30,16 @@ ms.locfileid: "44755038"
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-幸运的是，每次运行这些 cmdlet 时，不需要键入租户 ID （例如，bf19b7db-6960-41e5-a139-2aa373474354）。 相反，您可以通过运行[get-cstenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) cmdlet，将租户 id 存储在一个变量中，然后在调用其他 cmdlet 之一时使用该变量来检索租户 id。 例如：
+幸运的是，在每次运行这些 cmdlet 时，都不需要键入租户 ID (例如，bf19b7db-6960-41e5-a139-2aa373474354) 。 相反，您可以通过运行 [get-cstenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) cmdlet，将租户 id 存储在一个变量中，然后在调用其他 cmdlet 之一时使用该变量来检索租户 id。 例如：
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-或者，您可以在单个命令中执行此操作，方法是检索租户 ID，然后通过管道将此值 Set-cstenantpublicprovider cmdlet：
+或者，您可以在单个命令中执行此操作，方法是检索租户 ID，然后将该值通过管道传递给 Set-CsTenantPublicProvider cmdlet：
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
-调用**get-cstenant** cmdlet 时无需指定租户 ID。 此命令将返回有关你的租户的信息：
+调用 **get-cstenant** cmdlet 时无需指定租户 ID。 此命令将返回有关你的租户的信息：
 
     Get-CsTenant
 
@@ -56,11 +57,11 @@ ms.locfileid: "44755038"
 
   - [Get-cstenantlicensingconfiguration](https://technet.microsoft.com/library/dn362770\(v=ocs.15\))
 
-例如，可以使用以下命令调用**CsTenantFederationConfiguration** cmdlet：
+例如，可以使用以下命令调用 **CsTenantFederationConfiguration** cmdlet：
 
     Get-CsTenantFederationConfiguration
 
-尽管不是必需的，但您可以在调用 CsTenantFederationConfiguration 时包含租户参数：
+尽管不是必需的，但您可以在调用 Get-CsTenantFederationConfiguration 时包含租户参数：
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 

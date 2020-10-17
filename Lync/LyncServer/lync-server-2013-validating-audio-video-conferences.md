@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：验证音频/视频会议
+description: Lync Server 2013：验证音频/视频会议。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f0bfeef1abcf7b5859c365b7c64b4fcc84f49ae
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ad12611e928a64b934252ec21c18b98366e0912b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503699"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547198"
 ---
 # <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>在 Lync Server 2013 中验证音频/视频会议
 
