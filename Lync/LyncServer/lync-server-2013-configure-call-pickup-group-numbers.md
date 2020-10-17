@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置呼叫应答组号码
+description: Lync Server 2013：配置呼叫装货组号码。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541479
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 586af96cccdc661855efb83aefdb0e7e534dc105
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5ddffae2e385ce6c3fd7a700a9b94a89b1b6679f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521139"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565088"
 ---
-# <a name="configure-call-pickup-group-numbers-in-lync-server-2013"></a><span data-ttu-id="2d327-102">在 Lync Server 2013 中配置呼叫应答组号码</span><span class="sxs-lookup"><span data-stu-id="2d327-102">Configure call pickup group numbers in Lync Server 2013</span></span>
+# <a name="configure-call-pickup-group-numbers-in-lync-server-2013"></a><span data-ttu-id="a7bf9-103">在 Lync Server 2013 中配置呼叫应答组号码</span><span class="sxs-lookup"><span data-stu-id="a7bf9-103">Configure call pickup group numbers in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48521139"
 
 <span> </span>
 
-<span data-ttu-id="2d327-103">_**上次修改的主题：** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="2d327-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="a7bf9-104">_**上次修改的主题：** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="a7bf9-104">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="2d327-104">组呼叫应答基于呼叫寄存应用程序。</span><span class="sxs-lookup"><span data-stu-id="2d327-104">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="2d327-105">当您部署组呼叫应答时，可以使用指定为呼叫应答组号码的电话号码范围配置呼叫寄存通道表。</span><span class="sxs-lookup"><span data-stu-id="2d327-105">When you deploy Group Call Pickup, you configure the call park orbit table with ranges of phone numbers that are designated as call pickup group numbers.</span></span> <span data-ttu-id="2d327-106">这些组号码是用户拨打以接听其他用户拨打的呼叫的号码。</span><span class="sxs-lookup"><span data-stu-id="2d327-106">These group numbers are the numbers that users dial to pick up calls that are ringing for another user.</span></span>
+<span data-ttu-id="a7bf9-105">组呼叫应答基于呼叫寄存应用程序。</span><span class="sxs-lookup"><span data-stu-id="a7bf9-105">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="a7bf9-106">当您部署组呼叫应答时，可以使用指定为呼叫应答组号码的电话号码范围配置呼叫寄存通道表。</span><span class="sxs-lookup"><span data-stu-id="a7bf9-106">When you deploy Group Call Pickup, you configure the call park orbit table with ranges of phone numbers that are designated as call pickup group numbers.</span></span> <span data-ttu-id="a7bf9-107">这些组号码是用户拨打以接听其他用户拨打的呼叫的号码。</span><span class="sxs-lookup"><span data-stu-id="a7bf9-107">These group numbers are the numbers that users dial to pick up calls that are ringing for another user.</span></span>
 
-<span data-ttu-id="2d327-107">与呼叫寄存通道号一样，呼叫应答组号码必须是没有向其分配用户或电话的虚拟分机。</span><span class="sxs-lookup"><span data-stu-id="2d327-107">Like call park orbit numbers, call pickup group numbers need to be virtual extensions that have no user or phone assigned to them.</span></span> <span data-ttu-id="2d327-108">您在其中部署组内呼叫应答的每个前端池都可以有一个或多个呼叫应答组号码范围。</span><span class="sxs-lookup"><span data-stu-id="2d327-108">Each Front End pool where you deploy Group Call Pickup can have one or more ranges of call pickup group numbers.</span></span> <span data-ttu-id="2d327-109">在 Lync Server 部署中，组号范围必须是全局唯一的。</span><span class="sxs-lookup"><span data-stu-id="2d327-109">The group number ranges must be globally unique across the Lync Server deployment.</span></span>
+<span data-ttu-id="a7bf9-108">与呼叫寄存通道号一样，呼叫应答组号码必须是没有向其分配用户或电话的虚拟分机。</span><span class="sxs-lookup"><span data-stu-id="a7bf9-108">Like call park orbit numbers, call pickup group numbers need to be virtual extensions that have no user or phone assigned to them.</span></span> <span data-ttu-id="a7bf9-109">您在其中部署组内呼叫应答的每个前端池都可以有一个或多个呼叫应答组号码范围。</span><span class="sxs-lookup"><span data-stu-id="a7bf9-109">Each Front End pool where you deploy Group Call Pickup can have one or more ranges of call pickup group numbers.</span></span> <span data-ttu-id="a7bf9-110">在 Lync Server 部署中，组号范围必须是全局唯一的。</span><span class="sxs-lookup"><span data-stu-id="a7bf9-110">The group number ranges must be globally unique across the Lync Server deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2d327-110">本部分内容</span><span class="sxs-lookup"><span data-stu-id="2d327-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a7bf9-111">本部分内容</span><span class="sxs-lookup"><span data-stu-id="a7bf9-111">In This Section</span></span>
 
-[<span data-ttu-id="2d327-111">在 Lync Server 2013 中创建或修改组内呼叫装货号码范围</span><span class="sxs-lookup"><span data-stu-id="2d327-111">Create or modify a Group Call Pickup number range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
+[<span data-ttu-id="a7bf9-112">在 Lync Server 2013 中创建或修改组内呼叫装货号码范围</span><span class="sxs-lookup"><span data-stu-id="a7bf9-112">Create or modify a Group Call Pickup number range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
 
 </div>
 

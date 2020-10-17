@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为 CAC 配置网络站点
+description: Lync Server 2013：为 CAC 配置网络站点。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185144
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e24932b23b1a9168ed64279f98db125f06ad0e2e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 24adbbb1f5ee46618c685e072d519a338cb9b0af
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520519"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564998"
 ---
-# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="d0949-102">在 Lync Server 2013 中配置 CAC 的网络站点</span><span class="sxs-lookup"><span data-stu-id="d0949-102">Configure network sites for CAC in Lync Server 2013</span></span>
+# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="45536-103">在 Lync Server 2013 中配置 CAC 的网络站点</span><span class="sxs-lookup"><span data-stu-id="45536-103">Configure network sites for CAC in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,29 +38,29 @@ ms.locfileid: "48520519"
 
 <span> </span>
 
-<span data-ttu-id="d0949-103">_**上次修改的主题：** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="d0949-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="45536-104">_**上次修改的主题：** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="45536-104">_**Topic Last Modified:** 2012-09-05_</span></span>
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="d0949-104">如果您已为 E9-1-1 或媒体旁路创建网络站点，则可以使用 <STRONG>Set-CsNetworkSite</STRONG> cmdlet 修改现有的网络站点，以应用带宽策略配置文件。</span><span class="sxs-lookup"><span data-stu-id="d0949-104">If you have already created network sites for E9-1-1 or media bypass, you can modify the existing network sites to apply a bandwidth policy profile by using the <STRONG>Set-CsNetworkSite</STRONG> cmdlet.</span></span> <span data-ttu-id="d0949-105">有关如何修改网络站点的示例，请参阅 <A href="lync-server-2013-create-or-modify-a-network-site.md">在 Lync Server 2013 中创建或修改网络站点</A>。</span><span class="sxs-lookup"><span data-stu-id="d0949-105">For an example of how to modify a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="45536-105">如果您已为 E9-1-1 或媒体旁路创建网络站点，则可以使用 <STRONG>Set-CsNetworkSite</STRONG> cmdlet 修改现有的网络站点，以应用带宽策略配置文件。</span><span class="sxs-lookup"><span data-stu-id="45536-105">If you have already created network sites for E9-1-1 or media bypass, you can modify the existing network sites to apply a bandwidth policy profile by using the <STRONG>Set-CsNetworkSite</STRONG> cmdlet.</span></span> <span data-ttu-id="45536-106">有关如何修改网络站点的示例，请参阅 <A href="lync-server-2013-create-or-modify-a-network-site.md">在 Lync Server 2013 中创建或修改网络站点</A>。</span><span class="sxs-lookup"><span data-stu-id="45536-106">For an example of how to modify a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="d0949-p102">*网络站点*是指部署了呼叫允许控制 (CAC)、E9-1-1 和媒体旁路的每个网络区域内的办公室或位置。使用以下过程创建网络站点，这些网络站点与 CAC 的示例网络拓扑中的网络站点一致。这些过程显示如何创建并配置受 WAN 带宽限制，并因此需要用于限制实时音频或视频流量的带宽策略的网络站点。</span><span class="sxs-lookup"><span data-stu-id="d0949-p102">*Network sites* are the offices or locations within each network region of call admission control (CAC), E9-1-1, and media bypass deployments. Use the following procedures to create network sites that align to network sites in the example network topology for CAC. These procedures show how to create and configure network sites that are constrained by WAN bandwidth and therefore require bandwidth policies that limit real-time audio or video traffic flow.</span></span>
+<span data-ttu-id="45536-p102">*网络站点*是指部署了呼叫允许控制 (CAC)、E9-1-1 和媒体旁路的每个网络区域内的办公室或位置。使用以下过程创建网络站点，这些网络站点与 CAC 的示例网络拓扑中的网络站点一致。这些过程显示如何创建并配置受 WAN 带宽限制，并因此需要用于限制实时音频或视频流量的带宽策略的网络站点。</span><span class="sxs-lookup"><span data-stu-id="45536-p102">*Network sites* are the offices or locations within each network region of call admission control (CAC), E9-1-1, and media bypass deployments. Use the following procedures to create network sites that align to network sites in the example network topology for CAC. These procedures show how to create and configure network sites that are constrained by WAN bandwidth and therefore require bandwidth policies that limit real-time audio or video traffic flow.</span></span>
 
-<span data-ttu-id="d0949-109">在示例 CAC 部署中，北美区域有六个站点。</span><span class="sxs-lookup"><span data-stu-id="d0949-109">In the example CAC deployment, the North America region has six sites.</span></span> <span data-ttu-id="d0949-110">其中三个站点受 WAN 带宽限制：里诺、波特兰和阿尔布开克。</span><span class="sxs-lookup"><span data-stu-id="d0949-110">Three of these sites are constrained by WAN bandwidth: Reno, Portland, and Albuquerque.</span></span> <span data-ttu-id="d0949-111">其他三个站点*不*受 WAN 带宽限制：纽约、芝加哥和底特律。</span><span class="sxs-lookup"><span data-stu-id="d0949-111">The other three sites, which are *not* constrained by WAN bandwidth: New York, Chicago, and Detroit.</span></span> <span data-ttu-id="d0949-112">有关如何创建或修改其他网络站点的示例，请参阅 [在 Lync Server 2013 中创建或修改网络站点](lync-server-2013-create-or-modify-a-network-site.md)。</span><span class="sxs-lookup"><span data-stu-id="d0949-112">For an example of how to create or modify those other network sites, see [Create or modify a network site in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span></span>
+<span data-ttu-id="45536-110">在示例 CAC 部署中，北美区域有六个站点。</span><span class="sxs-lookup"><span data-stu-id="45536-110">In the example CAC deployment, the North America region has six sites.</span></span> <span data-ttu-id="45536-111">其中三个站点受 WAN 带宽限制：里诺、波特兰和阿尔布开克。</span><span class="sxs-lookup"><span data-stu-id="45536-111">Three of these sites are constrained by WAN bandwidth: Reno, Portland, and Albuquerque.</span></span> <span data-ttu-id="45536-112">其他三个站点*不*受 WAN 带宽限制：纽约、芝加哥和底特律。</span><span class="sxs-lookup"><span data-stu-id="45536-112">The other three sites, which are *not* constrained by WAN bandwidth: New York, Chicago, and Detroit.</span></span> <span data-ttu-id="45536-113">有关如何创建或修改其他网络站点的示例，请参阅 [在 Lync Server 2013 中创建或修改网络站点](lync-server-2013-create-or-modify-a-network-site.md)。</span><span class="sxs-lookup"><span data-stu-id="45536-113">For an example of how to create or modify those other network sites, see [Create or modify a network site in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span></span>
 
-<span data-ttu-id="d0949-113">若要查看示例网络拓扑，请参阅规划文档中的 [示例：在 Lync Server 2013 中收集呼叫允许控制的要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) 。</span><span class="sxs-lookup"><span data-stu-id="d0949-113">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
+<span data-ttu-id="45536-114">若要查看示例网络拓扑，请参阅规划文档中的 [示例：在 Lync Server 2013 中收集呼叫允许控制的要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) 。</span><span class="sxs-lookup"><span data-stu-id="45536-114">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
 
 <div class=" ">
 
 
 > [!NOTE]  
-> <span data-ttu-id="d0949-114">在下面的过程中，将使用 Lync Server 命令行管理程序创建网络站点。</span><span class="sxs-lookup"><span data-stu-id="d0949-114">In the following procedure, Lync Server Management Shell is used to create a network site.</span></span> <span data-ttu-id="d0949-115">有关使用 Lync Server 控制面板创建网络站点的详细信息，请参阅 <A href="lync-server-2013-create-or-modify-a-network-site.md">在 Lync server 2013 中创建或修改网络站点</A>。</span><span class="sxs-lookup"><span data-stu-id="d0949-115">For details about using Lync Server Control Panel to create a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="45536-115">在下面的过程中，将使用 Lync Server 命令行管理程序创建网络站点。</span><span class="sxs-lookup"><span data-stu-id="45536-115">In the following procedure, Lync Server Management Shell is used to create a network site.</span></span> <span data-ttu-id="45536-116">有关使用 Lync Server 控制面板创建网络站点的详细信息，请参阅 <A href="lync-server-2013-create-or-modify-a-network-site.md">在 Lync server 2013 中创建或修改网络站点</A>。</span><span class="sxs-lookup"><span data-stu-id="45536-116">For details about using Lync Server Control Panel to create a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
 
 
 
@@ -67,11 +68,11 @@ ms.locfileid: "48520519"
 
 <div>
 
-## <a name="to-create-network-sites-for-call-admission-control"></a><span data-ttu-id="d0949-116">为呼叫允许控制创建网络站点</span><span class="sxs-lookup"><span data-stu-id="d0949-116">To create network sites for call admission control</span></span>
+## <a name="to-create-network-sites-for-call-admission-control"></a><span data-ttu-id="45536-117">为呼叫允许控制创建网络站点</span><span class="sxs-lookup"><span data-stu-id="45536-117">To create network sites for call admission control</span></span>
 
-1.  <span data-ttu-id="d0949-117">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="d0949-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="45536-118">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="45536-118">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="d0949-118">运行 **New-CsNetworkSite** cmdlet 以创建网络站点并将相应带宽策略配置文件应用到每个站点。</span><span class="sxs-lookup"><span data-stu-id="d0949-118">Run the **New-CsNetworkSite** cmdlet to create network sites and apply an appropriate bandwidth policy profile to each site.</span></span> <span data-ttu-id="d0949-119">例如，运行：</span><span class="sxs-lookup"><span data-stu-id="d0949-119">For example, run:</span></span>
+2.  <span data-ttu-id="45536-119">运行 **New-CsNetworkSite** cmdlet 以创建网络站点并将相应带宽策略配置文件应用到每个站点。</span><span class="sxs-lookup"><span data-stu-id="45536-119">Run the **New-CsNetworkSite** cmdlet to create network sites and apply an appropriate bandwidth policy profile to each site.</span></span> <span data-ttu-id="45536-120">例如，运行：</span><span class="sxs-lookup"><span data-stu-id="45536-120">For example, run:</span></span>
     
        ```powershell
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
@@ -85,7 +86,7 @@ ms.locfileid: "48520519"
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
        ```
 
-3.  <span data-ttu-id="d0949-120">要为整个示例拓扑完成网络站点的创建，请针对 EMEA 和 APAC 区域中受带宽限制的网络站点重复步骤 2。</span><span class="sxs-lookup"><span data-stu-id="d0949-120">To finish creating network sites for the entire example topology, repeat step 2 for the bandwidth-constrained network sites in the EMEA and APAC regions.</span></span>
+3.  <span data-ttu-id="45536-121">要为整个示例拓扑完成网络站点的创建，请针对 EMEA 和 APAC 区域中受带宽限制的网络站点重复步骤 2。</span><span class="sxs-lookup"><span data-stu-id="45536-121">To finish creating network sites for the entire example topology, repeat step 2 for the bandwidth-constrained network sites in the EMEA and APAC regions.</span></span>
 
 </div>
 
