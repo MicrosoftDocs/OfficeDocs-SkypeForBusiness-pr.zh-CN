@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：设置用于存档的基础结构
+description: Lync Server 2013：设置用于存档的基础结构。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 566e406f51a629f5c34b7fc846f878775c9886bb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 38ec683b4832e770d49ef5c839a75d51631a26b5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497489"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554098"
 ---
-# <a name="setting-up-the-infrastructure-for-archiving-in-lync-server-2013"></a><span data-ttu-id="dbd54-102">在 Lync Server 2013 中设置存档的基础结构</span><span class="sxs-lookup"><span data-stu-id="dbd54-102">Setting up the infrastructure for Archiving in Lync Server 2013</span></span>
+# <a name="setting-up-the-infrastructure-for-archiving-in-lync-server-2013"></a><span data-ttu-id="99d8c-103">在 Lync Server 2013 中设置存档的基础结构</span><span class="sxs-lookup"><span data-stu-id="99d8c-103">Setting up the infrastructure for Archiving in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48497489"
 
 <span> </span>
 
-<span data-ttu-id="dbd54-103">_**上次修改的主题：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="dbd54-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="99d8c-104">_**上次修改的主题：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="99d8c-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="dbd54-104">存档的基础结构要求与 Lync Server 部署的基础结构要求相同，但存储除外。</span><span class="sxs-lookup"><span data-stu-id="dbd54-104">The infrastructure requirements for Archiving are the same as for your Lync Server deployment, except for storage.</span></span> <span data-ttu-id="dbd54-105">除了使用 Exchange 2013 存储和/或存档数据库设置存储之外，无需额外的基础结构设置。</span><span class="sxs-lookup"><span data-stu-id="dbd54-105">No additional infrastructure setup is required, except for setting up storage using Exchange 2013 storage, Archiving databases, or both.</span></span> <span data-ttu-id="dbd54-106">有关 Lync Server 2013 的基础结构要求的详细信息，请参阅部署文档中的在规划文档中 [确定 Lync server 2013 的基础结构要求](lync-server-2013-determining-your-infrastructure-requirements.md) 和 [准备 lync server 2013](lync-server-2013-preparing-the-infrastructure-and-systems.md) 的基础结构和系统。</span><span class="sxs-lookup"><span data-stu-id="dbd54-106">For details about infrastructure requirements for Lync Server 2013, see [Determining your infrastructure requirements for Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in the Planning documentation and [Preparing the infrastructure and systems for Lync Server 2013](lync-server-2013-preparing-the-infrastructure-and-systems.md) in the Deployment documentation.</span></span> <span data-ttu-id="dbd54-107">有关存档存储要求的详细信息，请参阅在规划文档中进行 [2013 存档的技术要求](lync-server-2013-technical-requirements-for-archiving.md) ，在部署文档中 [设置 lync server 2013](lync-server-2013-setting-up-system-platforms-for-archiving.md) 中的存档系统平台，以及在部署文档的 [lync server 2013 中设置存储以进行](lync-server-2013-setting-up-storage-for-archiving.md) 存档。</span><span class="sxs-lookup"><span data-stu-id="dbd54-107">For details about storage requirements for Archiving, see [Technical requirements for Archiving in Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) in the Planning documentation, [Setting up system platforms for Archiving in Lync Server 2013](lync-server-2013-setting-up-system-platforms-for-archiving.md) in the Deployment documentation, and [Setting up storage for Archiving in Lync Server 2013](lync-server-2013-setting-up-storage-for-archiving.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="99d8c-105">存档的基础结构要求与 Lync Server 部署的基础结构要求相同，但存储除外。</span><span class="sxs-lookup"><span data-stu-id="99d8c-105">The infrastructure requirements for Archiving are the same as for your Lync Server deployment, except for storage.</span></span> <span data-ttu-id="99d8c-106">除了使用 Exchange 2013 存储和/或存档数据库设置存储之外，无需额外的基础结构设置。</span><span class="sxs-lookup"><span data-stu-id="99d8c-106">No additional infrastructure setup is required, except for setting up storage using Exchange 2013 storage, Archiving databases, or both.</span></span> <span data-ttu-id="99d8c-107">有关 Lync Server 2013 的基础结构要求的详细信息，请参阅部署文档中的在规划文档中 [确定 Lync server 2013 的基础结构要求](lync-server-2013-determining-your-infrastructure-requirements.md) 和 [准备 lync server 2013](lync-server-2013-preparing-the-infrastructure-and-systems.md) 的基础结构和系统。</span><span class="sxs-lookup"><span data-stu-id="99d8c-107">For details about infrastructure requirements for Lync Server 2013, see [Determining your infrastructure requirements for Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in the Planning documentation and [Preparing the infrastructure and systems for Lync Server 2013](lync-server-2013-preparing-the-infrastructure-and-systems.md) in the Deployment documentation.</span></span> <span data-ttu-id="99d8c-108">有关存档存储要求的详细信息，请参阅在规划文档中进行 [2013 存档的技术要求](lync-server-2013-technical-requirements-for-archiving.md) ，在部署文档中 [设置 lync server 2013](lync-server-2013-setting-up-system-platforms-for-archiving.md) 中的存档系统平台，以及在部署文档的 [lync server 2013 中设置存储以进行](lync-server-2013-setting-up-storage-for-archiving.md) 存档。</span><span class="sxs-lookup"><span data-stu-id="99d8c-108">For details about storage requirements for Archiving, see [Technical requirements for Archiving in Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) in the Planning documentation, [Setting up system platforms for Archiving in Lync Server 2013](lync-server-2013-setting-up-system-platforms-for-archiving.md) in the Deployment documentation, and [Setting up storage for Archiving in Lync Server 2013](lync-server-2013-setting-up-storage-for-archiving.md) in the Deployment documentation.</span></span>
 
 </div>
 
