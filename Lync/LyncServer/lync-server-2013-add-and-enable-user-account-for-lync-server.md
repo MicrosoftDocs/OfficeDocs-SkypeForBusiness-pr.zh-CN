@@ -12,20 +12,22 @@ ms:contentKeyID: 48183578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24fe3004f588f50edbcb9428d8bece7a4b20a28a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1277887e6ed866a832edce276f21195fb74f6e92
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181395"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499549"
 ---
+# <a name="add-and-enable-user-account-for-lync-server-2013"></a><span data-ttu-id="f4f80-102">为 Lync Server 2013 添加和启用用户帐户</span><span class="sxs-lookup"><span data-stu-id="f4f80-102">Add and enable user account for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-and-enable-user-account-for-lync-server-2013"></a><span data-ttu-id="e5a43-102">为 Lync Server 2013 添加和启用用户帐户</span><span class="sxs-lookup"><span data-stu-id="e5a43-102">Add and enable user account for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,42 +37,42 @@ ms.locfileid: "42181395"
 
 <span> </span>
 
-<span data-ttu-id="e5a43-103">_**上次修改的主题：** 2012-11-02_</span><span class="sxs-lookup"><span data-stu-id="e5a43-103">_**Topic Last Modified:** 2012-11-02_</span></span>
+<span data-ttu-id="f4f80-103">_**上次修改的主题：** 2012-11-02_</span><span class="sxs-lookup"><span data-stu-id="f4f80-103">_**Topic Last Modified:** 2012-11-02_</span></span>
 
-<span data-ttu-id="e5a43-104">在 Active Directory 用户和计算机中启用用户帐户后，可以通过将 Active Directory 用户添加到 Lync Server 来使用 Lync Server 控制面板创建并启用新的 Lync Server 2013 用户帐户。</span><span class="sxs-lookup"><span data-stu-id="e5a43-104">After enabling a user account in Active Directory Users and Computers, you can use Lync Server Control Panel to create and enable new Lync Server 2013 user accounts by adding an Active Directory user to Lync Server.</span></span>
+<span data-ttu-id="f4f80-104">在 Active Directory 用户和计算机中启用用户帐户后，可以通过将 Active Directory 用户添加到 Lync Server 来使用 Lync Server 控制面板创建并启用新的 Lync Server 2013 用户帐户。</span><span class="sxs-lookup"><span data-stu-id="f4f80-104">After enabling a user account in Active Directory Users and Computers, you can use Lync Server Control Panel to create and enable new Lync Server 2013 user accounts by adding an Active Directory user to Lync Server.</span></span>
 
 <div>
 
-## <a name="to-add-and-enable-a-new-lync-server-user"></a><span data-ttu-id="e5a43-105">添加和启用新的 Lync Server 用户</span><span class="sxs-lookup"><span data-stu-id="e5a43-105">To add and enable a new Lync Server user</span></span>
+## <a name="to-add-and-enable-a-new-lync-server-user"></a><span data-ttu-id="f4f80-105">添加和启用新的 Lync Server 用户</span><span class="sxs-lookup"><span data-stu-id="f4f80-105">To add and enable a new Lync Server user</span></span>
 
-1.  <span data-ttu-id="e5a43-106">使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="e5a43-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="f4f80-106">使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="f4f80-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="e5a43-107">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="e5a43-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e5a43-108">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="e5a43-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="f4f80-107">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="f4f80-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="f4f80-108">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="f4f80-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="e5a43-109">在左侧导航栏中，单击“用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e5a43-109">In the left navigation bar, click **Users**.</span></span>
+3.  <span data-ttu-id="f4f80-109">在左侧导航栏中，单击“用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="f4f80-109">In the left navigation bar, click **Users**.</span></span>
 
-4.  <span data-ttu-id="e5a43-110">单击“启用用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e5a43-110">Click **Enable users**.</span></span>
+4.  <span data-ttu-id="f4f80-110">单击“启用用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="f4f80-110">Click **Enable users**.</span></span>
 
-5.  <span data-ttu-id="e5a43-111">在“新建 Lync Server 用户”\*\*\*\* 对话框中，单击“添加”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e5a43-111">On the **New Lync Server User** dialog, click **Add**.</span></span>
+5.  <span data-ttu-id="f4f80-111">在“新建 Lync Server 用户”\*\*\*\* 对话框中，单击“添加”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="f4f80-111">On the **New Lync Server User** dialog, click **Add**.</span></span>
 
-6.  <span data-ttu-id="e5a43-112">在“搜索用户”\*\*\*\* 框中，键入所需 Active Directory 用户帐户的完整的名称、显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、电子邮件地址、用户主体名称 (UPN) 或电话号码，或这些内容的第一部分，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e5a43-112">In the **Search users** box, type all or the first portion of the name, display name, first name, last name, Security Accounts Manager (SAM) account name, email address, User Principal Name (UPN), or phone number of the Active Directory user account that you want, and then click **Find**.</span></span>
+6.  <span data-ttu-id="f4f80-112">在“搜索用户”\*\*\*\* 框中，键入所需 Active Directory 用户帐户的完整的名称、显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、电子邮件地址、用户主体名称 (UPN) 或电话号码，或这些内容的第一部分，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="f4f80-112">In the **Search users** box, type all or the first portion of the name, display name, first name, last name, Security Accounts Manager (SAM) account name, email address, User Principal Name (UPN), or phone number of the Active Directory user account that you want, and then click **Find**.</span></span>
 
-7.  <span data-ttu-id="e5a43-113">在表中，选择要添加到 Lync Server 的帐户，然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="e5a43-113">In the table, select the account you want to add to Lync Server, and then click **OK**.</span></span>
+7.  <span data-ttu-id="f4f80-113">在表中，选择要添加到 Lync Server 的帐户，然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="f4f80-113">In the table, select the account you want to add to Lync Server, and then click **OK**.</span></span>
 
-8.  <span data-ttu-id="e5a43-114">将该用户分配给某个池，指定其他任何详细信息，并向所需用户分配策略，然后单击“启用”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e5a43-114">Assign the user to a pool, specify any additional details, and assign the policies to the user you want, and then click **Enable**.</span></span>
+8.  <span data-ttu-id="f4f80-114">将该用户分配给某个池，指定其他任何详细信息，并向所需用户分配策略，然后单击“启用”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="f4f80-114">Assign the user to a pool, specify any additional details, and assign the policies to the user you want, and then click **Enable**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e5a43-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e5a43-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f4f80-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f4f80-115">See Also</span></span>
 
 
-[<span data-ttu-id="e5a43-116">为 Lync Server 2013 禁用或重新启用用户帐户</span><span class="sxs-lookup"><span data-stu-id="e5a43-116">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[<span data-ttu-id="e5a43-117">从 Lync Server 2013 中删除用户帐户</span><span class="sxs-lookup"><span data-stu-id="e5a43-117">Remove a user account from Lync Server 2013</span></span>](lync-server-2013-remove-a-user-account-from-lync-server.md)  
+[<span data-ttu-id="f4f80-116">为 Lync Server 2013 禁用或重新启用用户帐户</span><span class="sxs-lookup"><span data-stu-id="f4f80-116">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[<span data-ttu-id="f4f80-117">从 Lync Server 2013 中删除用户帐户</span><span class="sxs-lookup"><span data-stu-id="f4f80-117">Remove a user account from Lync Server 2013</span></span>](lync-server-2013-remove-a-user-account-from-lync-server.md)  
 
 
-[<span data-ttu-id="e5a43-118">为 Lync Server 2013 启用和禁用用户</span><span class="sxs-lookup"><span data-stu-id="e5a43-118">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+[<span data-ttu-id="f4f80-118">为 Lync Server 2013 启用和禁用用户</span><span class="sxs-lookup"><span data-stu-id="f4f80-118">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
   
 
 </div>

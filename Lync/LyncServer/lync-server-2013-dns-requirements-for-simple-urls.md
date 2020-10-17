@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：简单 URL 的 DNS 要求
+title: Lync Server 2013：简单 Url 的 DNS 要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a05b5e5afc645c9219d02c8a551e4c0af9d93b0
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 98db338c48bbb764aefe3d5cab4bcba58b2b23c4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888711"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501369"
 ---
+# <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a><span data-ttu-id="1908a-102">Lync Server 2013 中简单 Url 的 DNS 要求</span><span class="sxs-lookup"><span data-stu-id="1908a-102">DNS requirements for simple URLs in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a><span data-ttu-id="97a78-102">Lync Server 2013 中简单 URL 的 DNS 要求</span><span class="sxs-lookup"><span data-stu-id="97a78-102">DNS requirements for simple URLs in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "41888711"
 
 <span> </span>
 
-<span data-ttu-id="97a78-103">_**主题上次修改时间：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="97a78-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="1908a-103">_**上次修改的主题：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="1908a-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="97a78-104">Lync Server 2013 支持简单的 Url，从而使你的用户加入会议更容易，并且让你的管理员更容易获得 Lync Server 管理工具。</span><span class="sxs-lookup"><span data-stu-id="97a78-104">Lync Server 2013 supports simple URLs, which make joining meetings easier for your users, and make getting to Lync Server administrative tools easier for your administrators.</span></span> <span data-ttu-id="97a78-105">有关简单 Url 的详细信息，请参阅[在 Lync Server 2013 中规划简单 url](lync-server-2013-planning-for-simple-urls.md)。</span><span class="sxs-lookup"><span data-stu-id="97a78-105">For details about simple URLs, see [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).</span></span>
+<span data-ttu-id="1908a-104">Lync Server 2013 支持简单 Url，使用户加入会议变得更加容易，并使管理员更轻松地进入 Lync Server 管理工具。</span><span class="sxs-lookup"><span data-stu-id="1908a-104">Lync Server 2013 supports simple URLs, which make joining meetings easier for your users, and make getting to Lync Server administrative tools easier for your administrators.</span></span> <span data-ttu-id="1908a-105">有关简单 Url 的详细信息，请参阅 [在 Lync Server 2013 中规划简单 url](lync-server-2013-planning-for-simple-urls.md)。</span><span class="sxs-lookup"><span data-stu-id="1908a-105">For details about simple URLs, see [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).</span></span>
 
-<span data-ttu-id="97a78-106">Lync 服务器支持以下三个简单的 Url： "开会"、"拨入" 和 "管理员"。您需要为 "满足" 和 "拨入" 设置简单的 Url，"管理员简单 URL" 是可选的。</span><span class="sxs-lookup"><span data-stu-id="97a78-106">Lync Server supports the following three simple URLs: Meet, Dial-In, and Admin. You are required to set up simple URLs for Meet and Dial-In, and the Admin simple URL is optional.</span></span> <span data-ttu-id="97a78-107">需要支持简单 Url 的域名系统（DNS）记录取决于你定义这些简单 Url 的方式，以及你是否希望支持简单 Url 的灾难恢复。</span><span class="sxs-lookup"><span data-stu-id="97a78-107">The Domain Name System (DNS) records that you need to support simple URLs depend on how you have defined these simple URLs, and whether you want to support disaster recovery for Simple URLs.</span></span>
+<span data-ttu-id="1908a-106">Lync Server 支持以下三个简单 Url： "符合"、"拨入" 和 "管理员"。您需要为 "满足" 和 "拨入" 设置简单 Url，并且管理员简单 URL 是可选的。</span><span class="sxs-lookup"><span data-stu-id="1908a-106">Lync Server supports the following three simple URLs: Meet, Dial-In, and Admin. You are required to set up simple URLs for Meet and Dial-In, and the Admin simple URL is optional.</span></span> <span data-ttu-id="1908a-107">支持简单 URL 所需的域名系统 (DNS) 记录取决于定义这些简单 URL 的方式以及是否要对简单 URL 支持灾难恢复。</span><span class="sxs-lookup"><span data-stu-id="1908a-107">The Domain Name System (DNS) records that you need to support simple URLs depend on how you have defined these simple URLs, and whether you want to support disaster recovery for Simple URLs.</span></span>
 
 <div>
 
-## <a name="simple-url-option-1"></a><span data-ttu-id="97a78-108">简单 URL 选项1</span><span class="sxs-lookup"><span data-stu-id="97a78-108">Simple URL Option 1</span></span>
+## <a name="simple-url-option-1"></a><span data-ttu-id="1908a-108">简单 URL 选项 1</span><span class="sxs-lookup"><span data-stu-id="1908a-108">Simple URL Option 1</span></span>
 
-<span data-ttu-id="97a78-109">在选项1中，为每个简单的 URL 创建一个新的基本 URL。</span><span class="sxs-lookup"><span data-stu-id="97a78-109">In Option 1, you create a new base URL for each simple URL.</span></span>
+<span data-ttu-id="1908a-109">在选项 1 中，为每个简单 URL 创建新的基 URL。</span><span class="sxs-lookup"><span data-stu-id="1908a-109">In Option 1, you create a new base URL for each simple URL.</span></span>
 
 <div class="">
 
 
 > [!NOTE]  
-> <span data-ttu-id="97a78-110">当用户单击简单的 URL 会议链接时，DNS A 记录解析到的服务器确定正确的客户端软件以启动。</span><span class="sxs-lookup"><span data-stu-id="97a78-110">When a user clicks a simple URL meeting link, the server that the DNS A record resolves to determines the correct client software to start.</span></span> <span data-ttu-id="97a78-111">客户端软件启动后，它将自动与会议所在的池进行通信。</span><span class="sxs-lookup"><span data-stu-id="97a78-111">After the client software is started, it automatically communicates with the pool where the conference is hosted.</span></span> <span data-ttu-id="97a78-112">这样，无论简单 URL DNS A 记录解析到哪个服务器或池，用户都将定向到会议内容的相应服务器。</span><span class="sxs-lookup"><span data-stu-id="97a78-112">This way, users are directed to the appropriate server for meeting content no matter which server or pool the simple URL DNS A records resolve to.</span></span>
+> <span data-ttu-id="1908a-p103">用户单击简单 URL 会议链接时，DNS A 记录解析为的服务器会确定启动正确的客户端软件。客户端软件启动后，会自动与承载会议的池进行通信。这样，无论简单 URL DNS A 记录会解析为哪个服务器或池，用户都会定向到承载会议内容的相应服务器。</span><span class="sxs-lookup"><span data-stu-id="1908a-p103">When a user clicks a simple URL meeting link, the server that the DNS A record resolves to determines the correct client software to start. After the client software is started, it automatically communicates with the pool where the conference is hosted. This way, users are directed to the appropriate server for meeting content no matter which server or pool the simple URL DNS A records resolve to.</span></span>
 
 
 
 </div>
 
-### <a name="simple-url-option-1"></a><span data-ttu-id="97a78-113">简单 URL 选项1</span><span class="sxs-lookup"><span data-stu-id="97a78-113">Simple URL Option 1</span></span>
+### <a name="simple-url-option-1"></a><span data-ttu-id="1908a-113">简单 URL 选项 1</span><span class="sxs-lookup"><span data-stu-id="1908a-113">Simple URL Option 1</span></span>
 
 <table>
 <colgroup>
@@ -66,48 +68,48 @@ ms.locfileid: "41888711"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="97a78-114"><strong>简单的 URL</strong></span><span class="sxs-lookup"><span data-stu-id="97a78-114"><strong>Simple URL</strong></span></span></p></td>
-<td><p><span data-ttu-id="97a78-115"><strong>示例</strong></span><span class="sxs-lookup"><span data-stu-id="97a78-115"><strong>Example</strong></span></span></p></td>
+<td><p><span data-ttu-id="1908a-114"><strong>简单 URL</strong></span><span class="sxs-lookup"><span data-stu-id="1908a-114"><strong>Simple URL</strong></span></span></p></td>
+<td><p><span data-ttu-id="1908a-115"><strong>示例</strong></span><span class="sxs-lookup"><span data-stu-id="1908a-115"><strong>Example</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97a78-116">会议</span><span class="sxs-lookup"><span data-stu-id="97a78-116">Meet</span></span></p></td>
-<td><p><span data-ttu-id="97a78-117">https://meet.contoso.com， https://meet.fabrikam.com等等（组织中的每个 SIP 域一个）</span><span class="sxs-lookup"><span data-stu-id="97a78-117">https://meet.contoso.com, https://meet.fabrikam.com, and so on (one for each SIP domain in your organization)</span></span></p></td>
+<td><p><span data-ttu-id="1908a-116">法规</span><span class="sxs-lookup"><span data-stu-id="1908a-116">Meet</span></span></p></td>
+<td><p><span data-ttu-id="1908a-117">https://meet.contoso.com、等， https://meet.fabrikam.com 依此类推 (组织中每个 SIP 域一个) </span><span class="sxs-lookup"><span data-stu-id="1908a-117">https://meet.contoso.com, https://meet.fabrikam.com, and so on (one for each SIP domain in your organization)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97a78-118">拨入</span><span class="sxs-lookup"><span data-stu-id="97a78-118">Dial-in</span></span></p></td>
+<td><p><span data-ttu-id="1908a-118">拨入</span><span class="sxs-lookup"><span data-stu-id="1908a-118">Dial-in</span></span></p></td>
 <td><p>https://dialin.contoso.com</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97a78-119">Iis</span><span class="sxs-lookup"><span data-stu-id="97a78-119">Admin</span></span></p></td>
+<td><p><span data-ttu-id="1908a-119">管理员</span><span class="sxs-lookup"><span data-stu-id="1908a-119">Admin</span></span></p></td>
 <td><p>https://admin.contoso.com</p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="97a78-120">如果使用选项1，则必须定义以下内容：</span><span class="sxs-lookup"><span data-stu-id="97a78-120">If you use Option 1, you must define the following:</span></span>
+<span data-ttu-id="1908a-120">如果使用选项 1，必须定义以下内容：</span><span class="sxs-lookup"><span data-stu-id="1908a-120">If you use Option 1, you must define the following:</span></span>
 
-  - <span data-ttu-id="97a78-121">对于每个 "匹配简单 URL"，你需要一个 DNS A 记录，用于将 URL 解析为 Director 的 IP 地址（如果已部署）。</span><span class="sxs-lookup"><span data-stu-id="97a78-121">For each Meet simple URL, you need a DNS A record that resolves the URL to the IP address of the Director, if you have one deployed.</span></span> <span data-ttu-id="97a78-122">否则，它应解析为前端池负载平衡器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-122">Otherwise, it should resolve to the IP address of the load balancer of a Front End pool.</span></span> <span data-ttu-id="97a78-123">如果尚未部署池，并且使用的是标准版服务器部署，则 DNS A 记录必须解析为你的组织中的一个标准版服务器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-123">If you have not deployed a pool and are using a Standard Edition server deployment, the DNS A record must resolve to the IP address of one Standard Edition server in your organization.</span></span>
+  - <span data-ttu-id="1908a-p104">每个会议简单 URL 都需要一条将 URL 解析为控制器（如果已部署一个控制器）的 IP 地址的 DNS A 记录。如果未部署控制器，则应解析为前端池的负载平衡器的 IP 地址。如果没有部署池，并且正在使用 Standard Edition Server 部署，则 DNS A 记录必须解析为组织中某个 Standard Edition Server 的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="1908a-p104">For each Meet simple URL, you need a DNS A record that resolves the URL to the IP address of the Director, if you have one deployed. Otherwise, it should resolve to the IP address of the load balancer of a Front End pool. If you have not deployed a pool and are using a Standard Edition server deployment, the DNS A record must resolve to the IP address of one Standard Edition server in your organization.</span></span>
     
-    <span data-ttu-id="97a78-124">如果您的组织中有多个 SIP 域，并且您使用此选项，则必须为每个 SIP 域创建 "满足简单 Url"，并且对于每个 "匹配简单 URL" 都需要 DNS A 记录。</span><span class="sxs-lookup"><span data-stu-id="97a78-124">If you have more than one SIP domain in your organization and you use this option, you must create Meet simple URLs for each SIP domain and you need a DNS A record for each Meet simple URL.</span></span> <span data-ttu-id="97a78-125">例如，如果你同时拥有 contoso.com 和 fabrikam.com，你将为https://meet.contoso.com and 和 AND https://meet.fabrikam.com创建 DNS A 记录。</span><span class="sxs-lookup"><span data-stu-id="97a78-125">For example, if you have both contoso.com and fabrikam.com, you will create DNS A records for both https://meet.contoso.com and https://meet.fabrikam.com.</span></span>
+    <span data-ttu-id="1908a-124">如果组织中具有多个 SIP 域，并且您使用此选项，则必须为每个 SIP 域创建会议简单 URL，并且每个会议简单 URL 都需要一条 DNS A 记录。</span><span class="sxs-lookup"><span data-stu-id="1908a-124">If you have more than one SIP domain in your organization and you use this option, you must create Meet simple URLs for each SIP domain and you need a DNS A record for each Meet simple URL.</span></span> <span data-ttu-id="1908a-125">例如，如果您同时具有 contoso.com 和 fabrikam.com，则会为和同时创建 DNS A 记录 https://meet.contoso.com https://meet.fabrikam.com 。</span><span class="sxs-lookup"><span data-stu-id="1908a-125">For example, if you have both contoso.com and fabrikam.com, you will create DNS A records for both https://meet.contoso.com and https://meet.fabrikam.com.</span></span>
     
-    <span data-ttu-id="97a78-126">或者，如果你有多个 SIP 域，并且想要最小化这些简单 Url 的 DNS 记录和证书要求，请按照本主题后面部分所述使用选项3。</span><span class="sxs-lookup"><span data-stu-id="97a78-126">Alternatively, if you have multiple SIP domains and you want to minimize the DNS record and certificate requirements for these simple URLs, use Option 3 as described later in this topic.</span></span>
+    <span data-ttu-id="1908a-126">或者，如果具有多个 SIP 域，并且要最大限度地减少这些简单 URL 的 DNS 记录和证书要求，请使用本主题后面所述的选项 3。</span><span class="sxs-lookup"><span data-stu-id="1908a-126">Alternatively, if you have multiple SIP domains and you want to minimize the DNS record and certificate requirements for these simple URLs, use Option 3 as described later in this topic.</span></span>
 
-  - <span data-ttu-id="97a78-127">对于拨入式简单 URL，你需要一个 DNS A 记录，该记录将 URL 解析为 Director 的 IP 地址（如果已部署）。</span><span class="sxs-lookup"><span data-stu-id="97a78-127">For the Dial-in simple URL, you need a DNS A record that resolves the URL to the IP address of the Director, if you have one deployed.</span></span> <span data-ttu-id="97a78-128">否则，它应解析为前端池负载平衡器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-128">Otherwise, it should resolve to the IP address of the load balancer of a Front End pool.</span></span> <span data-ttu-id="97a78-129">如果尚未部署池，并且使用的是标准版服务器部署，则 DNS A 记录必须解析为你的组织中的一个标准版服务器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-129">If you have not deployed a pool and are using a Standard Edition server deployment, the DNS A record must resolve to the IP address of one Standard Edition server in your organization.</span></span>
+  - <span data-ttu-id="1908a-p106">拨入简单 URL 需要一条将 URL 解析为控制器（如果已部署）的 IP 地址的 DNS A 记录。如果未部署控制器，则应解析为前端池的负载平衡器的 IP 地址。如果没有部署池，并且正在使用 Standard Edition Server 部署，则 DNS A 记录必须解析为组织中某个 Standard Edition Server 的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="1908a-p106">For the Dial-in simple URL, you need a DNS A record that resolves the URL to the IP address of the Director, if you have one deployed. Otherwise, it should resolve to the IP address of the load balancer of a Front End pool. If you have not deployed a pool and are using a Standard Edition server deployment, the DNS A record must resolve to the IP address of one Standard Edition server in your organization.</span></span>
 
-  - <span data-ttu-id="97a78-130">管理员简单 URL 仅限内部工作。</span><span class="sxs-lookup"><span data-stu-id="97a78-130">The Admin simple URL is internal only.</span></span> <span data-ttu-id="97a78-131">它需要一个 DNS A 记录，该记录将 URL 解析为 Director 的 IP 地址（如果已部署）。</span><span class="sxs-lookup"><span data-stu-id="97a78-131">It requires a DNS A record that resolves the URL to the IP address of the Director, if you have one deployed.</span></span> <span data-ttu-id="97a78-132">否则，它应解析为前端池负载平衡器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-132">Otherwise, it should resolve to the IP address of the load balancer of a Front End pool.</span></span> <span data-ttu-id="97a78-133">如果尚未部署池，并且使用的是标准版服务器部署，则 DNS A 记录必须解析为你的组织中的一个标准版服务器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-133">If you have not deployed a pool and are using a Standard Edition server deployment, the DNS A record must resolve to the IP address of one Standard Edition server in your organization.</span></span>
+  - <span data-ttu-id="1908a-p107">管理简单 URL 仅限内部使用。它需要一条将 URL 解析为控制器（如果已部署）的 IP 地址的 DNS A 记录。如果未部署控制器，则应解析为前端池的负载平衡器的 IP 地址。如果没有部署池，并且正在使用 Standard Edition Server 部署，则 DNS A 记录必须解析为组织中某个 Standard Edition Server 的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="1908a-p107">The Admin simple URL is internal only. It requires a DNS A record that resolves the URL to the IP address of the Director, if you have one deployed. Otherwise, it should resolve to the IP address of the load balancer of a Front End pool. If you have not deployed a pool and are using a Standard Edition server deployment, the DNS A record must resolve to the IP address of one Standard Edition server in your organization.</span></span>
 
 </div>
 
 <div>
 
-## <a name="simple-url-option-2"></a><span data-ttu-id="97a78-134">简单 URL 选项2</span><span class="sxs-lookup"><span data-stu-id="97a78-134">Simple URL Option 2</span></span>
+## <a name="simple-url-option-2"></a><span data-ttu-id="1908a-134">简单 URL 选项 2</span><span class="sxs-lookup"><span data-stu-id="1908a-134">Simple URL Option 2</span></span>
 
-<span data-ttu-id="97a78-135">使用选项2，"开会"、"拨入" 和 "管理员简单 Url" 都具有一个通用的基本 URL，例如 lync.contoso.com。</span><span class="sxs-lookup"><span data-stu-id="97a78-135">With Option 2, the Meet, Dial-in, and Admin simple URLs all have a common base URL, such as lync.contoso.com.</span></span> <span data-ttu-id="97a78-136">因此，对于这些简单的 Url，只需要一个 DNS A 记录，用于将 lync.contoso.com 解析为控制器池或前端池的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-136">Therefore, you need only one DNS A record for these simple URLs, which resolves lync.contoso.com to the IP address of a Director pool or Front End pool.</span></span> <span data-ttu-id="97a78-137">如果尚未部署池，并且使用的是标准版服务器部署，则 DNS A 记录必须解析为你的组织中的一个标准版服务器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-137">If you have not deployed a pool and are using a Standard Edition server deployment, the DNS A record must resolve to the IP address of one Standard Edition server in your organization.</span></span>
+<span data-ttu-id="1908a-p108">在选项 2 中，会议、拨入和管理简单 URL 都具有一个通用的基 URL，如 lync.contoso.com。因此，这些简单 URL 只需要一条 DNS A 记录，以将 lync.contoso.com 解析为控制器池或前端池的 IP 地址。如果没有部署池，并且正在使用 Standard Edition Server 部署，则 DNS A 记录必须解析为组织中某个 Standard Edition Server 的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="1908a-p108">With Option 2, the Meet, Dial-in, and Admin simple URLs all have a common base URL, such as lync.contoso.com. Therefore, you need only one DNS A record for these simple URLs, which resolves lync.contoso.com to the IP address of a Director pool or Front End pool. If you have not deployed a pool and are using a Standard Edition server deployment, the DNS A record must resolve to the IP address of one Standard Edition server in your organization.</span></span>
 
-<span data-ttu-id="97a78-138">请注意，如果你的组织中有多个 SIP 域，你仍然必须为每个 SIP 域创建 "满足简单 Url"，并且你需要针对每个 "每个简单 URL" 的 DNS A 记录。</span><span class="sxs-lookup"><span data-stu-id="97a78-138">Note that if you have more than one SIP domain in your organization, you must still create Meet simple URLs for each SIP domain and you need a DNS A record for each Meet simple URL.</span></span> <span data-ttu-id="97a78-139">在此示例中，虽然三个简单的 Url 都基于 lync.contoso.com，但 fabrikam.com 的另一个基本 url 是使用不同的基本 URL 设置的。</span><span class="sxs-lookup"><span data-stu-id="97a78-139">In this example, while three simple URLs are all based on lync.contoso.com, an additional Meet simple URL for fabrikam.com is set up with a different base URL.</span></span> <span data-ttu-id="97a78-140">在此示例中，你必须为https://lync.contoso.com和https://lync.fabrikam.com的 DNS 创建 DNS A 记录。</span><span class="sxs-lookup"><span data-stu-id="97a78-140">In this example, you must create DNS A records for both https://lync.contoso.com and https://lync.fabrikam.com.</span></span> <span data-ttu-id="97a78-141">简单 URL 选项3显示了处理命名和 DNS A 记录的另一种方法（如果你有多个 SIP 域）。</span><span class="sxs-lookup"><span data-stu-id="97a78-141">Simple URL Option 3 shows another way to handle naming and DNS A records if you have multiple SIP domains.</span></span>
+<span data-ttu-id="1908a-138">请注意，如果组织中具有多个 SIP 域，则仍必须为每个 SIP 域创建会议简单 URL，并且每个会议简单 URL 都需要一条 DNS A 记录。</span><span class="sxs-lookup"><span data-stu-id="1908a-138">Note that if you have more than one SIP domain in your organization, you must still create Meet simple URLs for each SIP domain and you need a DNS A record for each Meet simple URL.</span></span> <span data-ttu-id="1908a-139">在本例中，尽管三种简单 URL 都基于 lync.contoso.com，但 fabrikam.com 的那个会议简单 URL 具有不同的基 URL。</span><span class="sxs-lookup"><span data-stu-id="1908a-139">In this example, while three simple URLs are all based on lync.contoso.com, an additional Meet simple URL for fabrikam.com is set up with a different base URL.</span></span> <span data-ttu-id="1908a-140">在此示例中，必须为和和创建 DNS A https://lync.contoso.com 记录 https://lync.fabrikam.com 。</span><span class="sxs-lookup"><span data-stu-id="1908a-140">In this example, you must create DNS A records for both https://lync.contoso.com and https://lync.fabrikam.com.</span></span> <span data-ttu-id="1908a-141">简单 URL 选项 3 提供了在具有多个 SIP 域的情况下处理命名和 DNS A 记录的另一种方法。</span><span class="sxs-lookup"><span data-stu-id="1908a-141">Simple URL Option 3 shows another way to handle naming and DNS A records if you have multiple SIP domains.</span></span>
 
-### <a name="simple-url-option-2"></a><span data-ttu-id="97a78-142">简单 URL 选项2</span><span class="sxs-lookup"><span data-stu-id="97a78-142">Simple URL Option 2</span></span>
+### <a name="simple-url-option-2"></a><span data-ttu-id="1908a-142">简单 URL 选项 2</span><span class="sxs-lookup"><span data-stu-id="1908a-142">Simple URL Option 2</span></span>
 
 <table>
 <colgroup>
@@ -116,19 +118,19 @@ ms.locfileid: "41888711"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="97a78-143"><strong>简单的 URL</strong></span><span class="sxs-lookup"><span data-stu-id="97a78-143"><strong>Simple URL</strong></span></span></p></td>
-<td><p><span data-ttu-id="97a78-144"><strong>示例</strong></span><span class="sxs-lookup"><span data-stu-id="97a78-144"><strong>Example</strong></span></span></p></td>
+<td><p><span data-ttu-id="1908a-143"><strong>简单 URL</strong></span><span class="sxs-lookup"><span data-stu-id="1908a-143"><strong>Simple URL</strong></span></span></p></td>
+<td><p><span data-ttu-id="1908a-144"><strong>示例</strong></span><span class="sxs-lookup"><span data-stu-id="1908a-144"><strong>Example</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97a78-145">会议</span><span class="sxs-lookup"><span data-stu-id="97a78-145">Meet</span></span></p></td>
-<td><p><span data-ttu-id="97a78-146">https://lync.contoso.com/Meet， https://lync.fabrikam.com/Meet等等（组织中的每个 SIP 域一个）</span><span class="sxs-lookup"><span data-stu-id="97a78-146">https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet, and so on (one for each SIP domain in your organization)</span></span></p></td>
+<td><p><span data-ttu-id="1908a-145">法规</span><span class="sxs-lookup"><span data-stu-id="1908a-145">Meet</span></span></p></td>
+<td><p><span data-ttu-id="1908a-146">https://lync.contoso.com/Meet、等， https://lync.fabrikam.com/Meet 依此类推 (组织中每个 SIP 域一个) </span><span class="sxs-lookup"><span data-stu-id="1908a-146">https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet, and so on (one for each SIP domain in your organization)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97a78-147">拨入</span><span class="sxs-lookup"><span data-stu-id="97a78-147">Dial-in</span></span></p></td>
+<td><p><span data-ttu-id="1908a-147">拨入</span><span class="sxs-lookup"><span data-stu-id="1908a-147">Dial-in</span></span></p></td>
 <td><p>https://lync.contoso.com/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97a78-148">Iis</span><span class="sxs-lookup"><span data-stu-id="97a78-148">Admin</span></span></p></td>
+<td><p><span data-ttu-id="1908a-148">管理员</span><span class="sxs-lookup"><span data-stu-id="1908a-148">Admin</span></span></p></td>
 <td><p>https://lync.contoso.com/Admin</p></td>
 </tr>
 </tbody>
@@ -139,11 +141,11 @@ ms.locfileid: "41888711"
 
 <div>
 
-## <a name="simple-url-option-3"></a><span data-ttu-id="97a78-149">简单 URL 选项3</span><span class="sxs-lookup"><span data-stu-id="97a78-149">Simple URL Option 3</span></span>
+## <a name="simple-url-option-3"></a><span data-ttu-id="1908a-149">简单 URL 选项 3</span><span class="sxs-lookup"><span data-stu-id="1908a-149">Simple URL Option 3</span></span>
 
-<span data-ttu-id="97a78-150">如果你有多个 SIP 域，而你希望它们具有单独的简单 Url，但想要将这些简单 Url 的 DNS 记录和证书要求降到最低，则选项3非常有用。</span><span class="sxs-lookup"><span data-stu-id="97a78-150">Option 3 is most useful if you have many SIP domains, and you want them to have separate simple URLs but want to minimize the DNS record and certificate requirements for these simple URLs.</span></span> <span data-ttu-id="97a78-151">在此示例中，只需要一个 DNS A 记录，该记录可将 lync.contoso.com 解析为控制器池或前端池的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-151">In this example, you need only one DNS A record, which resolves lync.contoso.com to the IP address of a Director pool or Front End pool.</span></span>
+<span data-ttu-id="1908a-p110">如果具有许多 SIP 域，并且希望每个 SIP 域具有单独的简单 URL，同时最大限度地减少这些简单 URL 的 DNS 记录和证书要求，则选项 3 是最有用的。在本例中，只需一个 DNS A 记录，此记录可将 lync.contoso.com 解析为控制器池或前端池的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="1908a-p110">Option 3 is most useful if you have many SIP domains, and you want them to have separate simple URLs but want to minimize the DNS record and certificate requirements for these simple URLs. In this example, you need only one DNS A record, which resolves lync.contoso.com to the IP address of a Director pool or Front End pool.</span></span>
 
-### <a name="simple-url-option-3"></a><span data-ttu-id="97a78-152">简单 URL 选项3</span><span class="sxs-lookup"><span data-stu-id="97a78-152">Simple URL Option 3</span></span>
+### <a name="simple-url-option-3"></a><span data-ttu-id="1908a-152">简单 URL 选项 3</span><span class="sxs-lookup"><span data-stu-id="1908a-152">Simple URL Option 3</span></span>
 
 <table>
 <colgroup>
@@ -152,20 +154,20 @@ ms.locfileid: "41888711"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="97a78-153"><strong>简单的 URL</strong></span><span class="sxs-lookup"><span data-stu-id="97a78-153"><strong>Simple URL</strong></span></span></p></td>
-<td><p><span data-ttu-id="97a78-154"><strong>示例</strong></span><span class="sxs-lookup"><span data-stu-id="97a78-154"><strong>Example</strong></span></span></p></td>
+<td><p><span data-ttu-id="1908a-153"><strong>简单 URL</strong></span><span class="sxs-lookup"><span data-stu-id="1908a-153"><strong>Simple URL</strong></span></span></p></td>
+<td><p><span data-ttu-id="1908a-154"><strong>示例</strong></span><span class="sxs-lookup"><span data-stu-id="1908a-154"><strong>Example</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97a78-155">会议</span><span class="sxs-lookup"><span data-stu-id="97a78-155">Meet</span></span></p></td>
+<td><p><span data-ttu-id="1908a-155">法规</span><span class="sxs-lookup"><span data-stu-id="1908a-155">Meet</span></span></p></td>
 <td><p>https://lync.contoso.com/contosoSIPdomain/Meet</p>
 <p>https://lync.contoso.com/fabrikamSIPdomain/Meet</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97a78-156">拨入</span><span class="sxs-lookup"><span data-stu-id="97a78-156">Dial-in</span></span></p></td>
+<td><p><span data-ttu-id="1908a-156">拨入</span><span class="sxs-lookup"><span data-stu-id="1908a-156">Dial-in</span></span></p></td>
 <td><p>https://lync.contoso.com/contosoSIPdomain/Dialin</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97a78-157">Iis</span><span class="sxs-lookup"><span data-stu-id="97a78-157">Admin</span></span></p></td>
+<td><p><span data-ttu-id="1908a-157">管理员</span><span class="sxs-lookup"><span data-stu-id="1908a-157">Admin</span></span></p></td>
 <td><p>https://lync.contoso.com/contosoSIPdomain/Admin</p></td>
 </tr>
 </tbody>
@@ -176,11 +178,11 @@ ms.locfileid: "41888711"
 
 <div>
 
-## <a name="disaster-recovery-option-for-simple-urls"></a><span data-ttu-id="97a78-158">简单 Url 的灾难恢复选项</span><span class="sxs-lookup"><span data-stu-id="97a78-158">Disaster Recovery Option for Simple URLs</span></span>
+## <a name="disaster-recovery-option-for-simple-urls"></a><span data-ttu-id="1908a-158">简单 URL 的灾难恢复选项</span><span class="sxs-lookup"><span data-stu-id="1908a-158">Disaster Recovery Option for Simple URLs</span></span>
 
-<span data-ttu-id="97a78-159">如果你有多个包含前端池的网站，并且 DNS 提供程序支持 GeoDNS，你可以为简单的 Url 设置 DNS 记录以支持灾难恢复，以便即使一个完整的前端池停止运行，简单的 URL 功能也会继续。</span><span class="sxs-lookup"><span data-stu-id="97a78-159">If you have multiple sites that contain Front End pools and your DNS provider supports GeoDNS, you can set up your DNS records for Simple URLs to support disaster recovery, so that Simple URL functionality continues even if one entire Front End pool goes down.</span></span> <span data-ttu-id="97a78-160">此灾难恢复功能支持 "开会" 和 "拨入" 简单 Url。</span><span class="sxs-lookup"><span data-stu-id="97a78-160">This disaster recovery feature supports the Meet and Dial-In simple URLs.</span></span>
+<span data-ttu-id="1908a-159">如果您有多个包含前端池的网站，并且您的 DNS 提供程序支持 GeoDNS，则您可以设置简单 Url 的 DNS 记录以支持灾难恢复，这样即使一个完整的前端池停止运行，简单 URL 功能也会继续进行。</span><span class="sxs-lookup"><span data-stu-id="1908a-159">If you have multiple sites that contain Front End pools and your DNS provider supports GeoDNS, you can set up your DNS records for Simple URLs to support disaster recovery, so that Simple URL functionality continues even if one entire Front End pool goes down.</span></span> <span data-ttu-id="1908a-160">此灾难恢复功能支持“会议”和“拨入”简单 URL。</span><span class="sxs-lookup"><span data-stu-id="1908a-160">This disaster recovery feature supports the Meet and Dial-In simple URLs.</span></span>
 
-<span data-ttu-id="97a78-161">若要配置此设置，请创建两个 GeoDNS 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-161">To configure this, create two GeoDNS addresses.</span></span> <span data-ttu-id="97a78-162">每个地址都有两个 DNS A 或 CNAME 记录，它们可解析为两个池，这些记录结合在一起以供灾难恢复之用。</span><span class="sxs-lookup"><span data-stu-id="97a78-162">Each address has two DNS A or CNAME records that resolve to two pools which are paired together for disaster recovery purposes.</span></span> <span data-ttu-id="97a78-163">一个 GeoDNS 地址用于内部访问，并解析为两个池的内部 web FQDN 或负载平衡器 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-163">One GeoDNS address is used for internal access, and resolves to the internal web FQDN or load balancer IP address for the two pools.</span></span> <span data-ttu-id="97a78-164">其他 GeoDNS 地址用于外部访问，并解析为两个池的外部 web FQDN 或负载平衡器 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="97a78-164">The other GeoDNS address is used for external access and resolves to the external web FQDN or load balancer IP address for the two pools.</span></span> <span data-ttu-id="97a78-165">下面是使用池的 Fqdn 的 "满足简单 URL" 的示例。</span><span class="sxs-lookup"><span data-stu-id="97a78-165">The following is an example for the Meet simple URL, using the FQDNs for the pools.</span></span>
+<span data-ttu-id="1908a-p112">若要进行此配置，请创建两个 GeoDNS 地址。每个地址具有两个 DNS A 或 CNAME 记录，这些记录解析到出于灾难恢复目的配对在一起的两个池。一个 GeoDNS 地址用于内部访问，并解析到两个池的内部 Web FQDN 或负载平衡器 IP 地址。另一个 GeoDNS 地址用于外部访问，并解析到两个池的外部 Web FQDN 或负载平衡器 IP 地址。下面是使用池的 FQDN 的“会议”简单 URL 的示例。</span><span class="sxs-lookup"><span data-stu-id="1908a-p112">To configure this, create two GeoDNS addresses. Each address has two DNS A or CNAME records that resolve to two pools which are paired together for disaster recovery purposes. One GeoDNS address is used for internal access, and resolves to the internal web FQDN or load balancer IP address for the two pools. The other GeoDNS address is used for external access and resolves to the external web FQDN or load balancer IP address for the two pools. The following is an example for the Meet simple URL, using the FQDNs for the pools.</span></span>
 
    ```console
     Meet-int.geolb.contoso.com
@@ -194,30 +196,30 @@ ms.locfileid: "41888711"
          Pool2ExternalWebFQDN.contoso.com
    ``` 
 
-<span data-ttu-id="97a78-166">然后，创建将您的 "满足简单 URL" （如 meet.contoso.com）解析为两个 GeoDNS 地址的 CNAME 记录。</span><span class="sxs-lookup"><span data-stu-id="97a78-166">Then create CNAME records that resolve your Meet simple URL (such as meet.contoso.com) to the two GeoDNS addresses.</span></span>
+<span data-ttu-id="1908a-166">然后，创建将“会议”简单 URL（如 meet.contoso.com）解析到两个 GeoDNS 地址的 CNAME 记录。</span><span class="sxs-lookup"><span data-stu-id="1908a-166">Then create CNAME records that resolve your Meet simple URL (such as meet.contoso.com) to the two GeoDNS addresses.</span></span>
 
 <div class="">
 
 
 > [!NOTE]  
-> <span data-ttu-id="97a78-167">如果你的网络使用<EM>hairpinning</EM> （通过外部链接路由所有简单的 URL 流量，包括来自你的组织内的流量），则只需配置外部 GeoDNS 地址并将你的 "仅限" 简单 url 解析为仅外部地址即可。</span><span class="sxs-lookup"><span data-stu-id="97a78-167">If your network uses <EM>hairpinning</EM> (routing all your Simple URL traffic through the external link, including traffic that comes from within your organization), then you can just configure the external GeoDNS address and resolve your Meet simple URL to only that external address.</span></span>
+> <span data-ttu-id="1908a-167">如果您的网络使用<EM>发夹</EM>（通过外部链接路由所有简单 URL 通信，包括来自您组织内部的通信），您可以只配置外部 GeoDNS 地址并将“会议”简单 URL 仅解析到该外部地址。</span><span class="sxs-lookup"><span data-stu-id="1908a-167">If your network uses <EM>hairpinning</EM> (routing all your Simple URL traffic through the external link, including traffic that comes from within your organization), then you can just configure the external GeoDNS address and resolve your Meet simple URL to only that external address.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="97a78-168">使用此方法时，你可以将每个 GeoDNS 地址配置为使用循环复用方法将请求分配到两个池，或主要连接到一个池（如位于地理位置较近的池），并使用另一个池（仅限情况连接失败。</span><span class="sxs-lookup"><span data-stu-id="97a78-168">When you use this method, you can configure each GeoDNS address to use either a round robin method to distribute requests to the two pools, or to connect primarily to one pool (such as the pool located geographically closer) and use the other pool only in case of connectivity failure.</span></span>
+<span data-ttu-id="1908a-168">使用此方法时，您可以将每个 GeoDNS 地址配置为使用循环方法向两个池分发请求，或主要连接到一个池（如地理位置上接近的池）并仅在连接失败的情况下使用另一个池。</span><span class="sxs-lookup"><span data-stu-id="1908a-168">When you use this method, you can configure each GeoDNS address to use either a round robin method to distribute requests to the two pools, or to connect primarily to one pool (such as the pool located geographically closer) and use the other pool only in case of connectivity failure.</span></span>
 
-<span data-ttu-id="97a78-169">你可以为拨入式简单 URL 设置相同配置。</span><span class="sxs-lookup"><span data-stu-id="97a78-169">You can set up the same configuration for the Dial-In simple URL.</span></span> <span data-ttu-id="97a78-170">若要执行此操作，请创建如前面的示例中所示`dialin`的`meet`其他记录，并在 DNS 记录中替换。</span><span class="sxs-lookup"><span data-stu-id="97a78-170">To do so, create additional records like those in the previous example, substituting `dialin` for `meet` in the DNS records.</span></span> <span data-ttu-id="97a78-171">对于 "管理员简单 URL"，请使用本节前面列出的三个选项之一。</span><span class="sxs-lookup"><span data-stu-id="97a78-171">For the Admin simple URL, use one of the three options listed earlier in this section.</span></span>
+<span data-ttu-id="1908a-169">您可以对“拨入”简单 URL 设置相同的配置。</span><span class="sxs-lookup"><span data-stu-id="1908a-169">You can set up the same configuration for the Dial-In simple URL.</span></span> <span data-ttu-id="1908a-170">为此，请创建如前一示例中的其他记录，并 `dialin` `meet` 在 DNS 记录中替换。</span><span class="sxs-lookup"><span data-stu-id="1908a-170">To do so, create additional records like those in the previous example, substituting `dialin` for `meet` in the DNS records.</span></span> <span data-ttu-id="1908a-171">对于“管理”简单 URL，请使用本节前面所列的三个选项之一。</span><span class="sxs-lookup"><span data-stu-id="1908a-171">For the Admin simple URL, use one of the three options listed earlier in this section.</span></span>
 
-<span data-ttu-id="97a78-172">设置此配置后，必须使用监视应用程序设置 HTTP 监视以监视失败。</span><span class="sxs-lookup"><span data-stu-id="97a78-172">Once this configuration is set up, you must use a monitoring application to set up HTTP monitoring to watch for failures.</span></span> <span data-ttu-id="97a78-173">对于外部访问，监视器确保对两个池的外部 web FQDN 或负载平衡器 IP 地址的 HTTPS 获取自动发现请求成功。</span><span class="sxs-lookup"><span data-stu-id="97a78-173">For external access, monitor to make sure that HTTPS GET autodiscovery requests to the external web FQDN or load balancer IP address for the two pools are successful.</span></span> <span data-ttu-id="97a78-174">例如，以下请求不得包含任何**ACCEPT**标头，并且必须返回**200 OK**。</span><span class="sxs-lookup"><span data-stu-id="97a78-174">For example, the following requests must not contain any **ACCEPT** header and must return **200 OK**.</span></span>
+<span data-ttu-id="1908a-172">设置完此配置后，您必须使用监控应用程序来设置 HTTP 监控以留意故障。</span><span class="sxs-lookup"><span data-stu-id="1908a-172">Once this configuration is set up, you must use a monitoring application to set up HTTP monitoring to watch for failures.</span></span> <span data-ttu-id="1908a-173">对于外部访问，请进行监视以确保对两个池的外部 web FQDN 或负载平衡器 IP 地址的 HTTPS GET 自动发现请求成功。</span><span class="sxs-lookup"><span data-stu-id="1908a-173">For external access, monitor to make sure that HTTPS GET autodiscovery requests to the external web FQDN or load balancer IP address for the two pools are successful.</span></span> <span data-ttu-id="1908a-174">例如，以下请求不得包含任何 **ACCEPT** 标头且必须返回 **200 OK**。</span><span class="sxs-lookup"><span data-stu-id="1908a-174">For example, the following requests must not contain any **ACCEPT** header and must return **200 OK**.</span></span>
 
 ```console
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
-<span data-ttu-id="97a78-175">对于内部访问，你必须在两个池的内部 web FQDN 或负载平衡器 IP 地址上监视端口5061。</span><span class="sxs-lookup"><span data-stu-id="97a78-175">For internal access, you must monitor port 5061 on the internal web FQDN or load balancer IP address for the two pools.</span></span> <span data-ttu-id="97a78-176">如果检测到任何连接失败，这些池的 VIP 必须关闭端口80、443和444。</span><span class="sxs-lookup"><span data-stu-id="97a78-176">If any connectivity failures are detected, the VIP for these pools must close ports 80, 443 and 444.</span></span>
+<span data-ttu-id="1908a-p115">对于内部访问，您必须监控两个池的内部 Web FQDN 或负载平衡器 IP 地址上的端口 5061。如果检测到任何连接失败，这些池的 VIP 必须关闭端口 80、443 和 444。</span><span class="sxs-lookup"><span data-stu-id="1908a-p115">For internal access, you must monitor port 5061 on the internal web FQDN or load balancer IP address for the two pools. If any connectivity failures are detected, the VIP for these pools must close ports 80, 443 and 444.</span></span>
 
 </div>
 

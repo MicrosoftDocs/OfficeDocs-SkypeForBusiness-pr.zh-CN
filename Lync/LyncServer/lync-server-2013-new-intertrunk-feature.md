@@ -12,20 +12,22 @@ ms:contentKeyID: 49733820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce5747d4713362f34759401d74c040a1c8aefe3c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18f8a4d066bd5d5843a02a8892214a69a4624a77
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216868"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500559"
 ---
+# <a name="new-intertrunk-feature-in-lync-server-2013"></a><span data-ttu-id="c8265-102">Lync Server 2013 中的新中继间功能</span><span class="sxs-lookup"><span data-stu-id="c8265-102">New intertrunk feature in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-intertrunk-feature-in-lync-server-2013"></a><span data-ttu-id="a4efa-102">Lync Server 2013 中的新中继间功能</span><span class="sxs-lookup"><span data-stu-id="a4efa-102">New intertrunk feature in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42216868"
 
 <span> </span>
 
-<span data-ttu-id="a4efa-103">_**上次修改的主题：** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="a4efa-103">_**Topic Last Modified:** 2012-10-08_</span></span>
+<span data-ttu-id="c8265-103">_**上次修改的主题：** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="c8265-103">_**Topic Last Modified:** 2012-10-08_</span></span>
 
-<span data-ttu-id="a4efa-104">Lync Server 2013 通过支持中继间路由提供基本的会话管理。</span><span class="sxs-lookup"><span data-stu-id="a4efa-104">Lync Server 2013 provides basic session management through the support of intertrunk routing.</span></span> <span data-ttu-id="a4efa-105">此新功能使 Lync Server 能够向下游电话系统提供呼叫控制功能。</span><span class="sxs-lookup"><span data-stu-id="a4efa-105">This new capability enables Lync Server to provide call control functionalities to downstream telephony systems.</span></span> <span data-ttu-id="a4efa-106">通过中继间路由，Lync Server 可以将 IP-PBX 互连到公用电话交换网（PSTN）网关，以便可以将来自专用交换机（PBX）电话的呼叫路由到 PSTN，传入 PSTN 呼叫可以路由到 PBX 电话。</span><span class="sxs-lookup"><span data-stu-id="a4efa-106">With intertrunk routing, Lync Server can interconnect an IP-PBX to a public switched telephone network (PSTN) gateway so that calls from a private branch exchange (PBX) phone can be routed to the PSTN, and incoming PSTN calls can be routed to a PBX phone.</span></span> <span data-ttu-id="a4efa-107">同样，Lync Server 可以互连两个或更多个 ip-pbx 系统，以便可以在不同 ip-pbx 系统的 PBX 电话之间呼叫和接收呼叫。</span><span class="sxs-lookup"><span data-stu-id="a4efa-107">Similarly, Lync Server can interconnect two or more IP-PBX systems so that calls can be placed and received between PBX phones from the different IP-PBX systems.</span></span>
+<span data-ttu-id="c8265-104">Lync Server 2013 通过支持中继间路由提供基本的会话管理。</span><span class="sxs-lookup"><span data-stu-id="c8265-104">Lync Server 2013 provides basic session management through the support of intertrunk routing.</span></span> <span data-ttu-id="c8265-105">此新功能使 Lync Server 能够向下游电话系统提供呼叫控制功能。</span><span class="sxs-lookup"><span data-stu-id="c8265-105">This new capability enables Lync Server to provide call control functionalities to downstream telephony systems.</span></span> <span data-ttu-id="c8265-106">通过中继间路由，Lync Server 可以将 IP-PBX 连接到公用电话交换电话网络 (PSTN) 网关，以便可以将来自专用分支 exchange (PBX) 电话的呼叫路由到 PSTN，传入 PSTN 呼叫可以路由到 PBX 电话。</span><span class="sxs-lookup"><span data-stu-id="c8265-106">With intertrunk routing, Lync Server can interconnect an IP-PBX to a public switched telephone network (PSTN) gateway so that calls from a private branch exchange (PBX) phone can be routed to the PSTN, and incoming PSTN calls can be routed to a PBX phone.</span></span> <span data-ttu-id="c8265-107">同样，Lync Server 可以互连两个或更多个 ip-pbx 系统，以便可以在不同 ip-pbx 系统的 PBX 电话之间呼叫和接收呼叫。</span><span class="sxs-lookup"><span data-stu-id="c8265-107">Similarly, Lync Server can interconnect two or more IP-PBX systems so that calls can be placed and received between PBX phones from the different IP-PBX systems.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a4efa-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a4efa-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c8265-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c8265-108">See Also</span></span>
 
 
-[<span data-ttu-id="a4efa-109">Lync Server 2013 中的中继间路由</span><span class="sxs-lookup"><span data-stu-id="a4efa-109">Inter-trunk routing in Lync Server 2013</span></span>](lync-server-2013-inter-trunk-routing.md)  
-[<span data-ttu-id="a4efa-110">Lync Server 2013 中新的企业语音功能</span><span class="sxs-lookup"><span data-stu-id="a4efa-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="c8265-109">Lync Server 2013 中的中继间路由</span><span class="sxs-lookup"><span data-stu-id="c8265-109">Inter-trunk routing in Lync Server 2013</span></span>](lync-server-2013-inter-trunk-routing.md)  
+[<span data-ttu-id="c8265-110">Lync Server 2013 中新的企业语音功能</span><span class="sxs-lookup"><span data-stu-id="c8265-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>
