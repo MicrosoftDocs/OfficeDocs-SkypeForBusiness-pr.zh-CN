@@ -12,20 +12,22 @@ ms:contentKeyID: 49733826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea49c91269c0a9c4f74a1a226462fbda26aa2af4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dddb1902422cb3efc52f4f0b3271976ab9b9950e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188005"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508219"
 ---
+# <a name="called-id-presentation-in-lync-server-2013"></a>Lync Server 2013 中名为 ID 的演示文稿
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="called-id-presentation-in-lync-server-2013"></a>Lync Server 2013 中名为 ID 的演示文稿
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188005"
 
 _**上次修改的主题：** 2012-09-21_
 
-在 Lync Server 2010 中，被叫方的电话号码（称为电话号码）可以从 e.164 格式转换为中继对等方（即，关联网关、专用交换机（PBX）或 SIP 中继）所需的本地拨号格式。 为此，必须定义一个或多个转换规则，以便在将请求 URI 路由至中继对等方之前对其执行转换。
+在 Lync Server 2010 中，被叫方的电话号码 (也就是说，呼叫) 的电话号码可以从 e.164 格式转换为中继 (对等方所需的本地拨号格式，即关联网关、专用分支 exchange (PBX) 或 SIP 中继) 。 为此，必须定义一个或多个转换规则，以便在将请求 URI 路由至中继对等方之前对其执行转换。
 
 <div>
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-09-21_
 
 可以使用以下任一方法创建或修改转换规则：
 
-  - 使用 "**生成转换规则**" 工具指定要删除的起始数字、长度、要删除的数字和要添加的数字的值，然后让 Lync Server 控制面板为您生成相应的匹配模式和转换规则。
+  - 使用 " **生成转换规则** " 工具指定要删除的起始数字、长度、要删除的数字和要添加的数字的值，然后让 Lync Server 控制面板为您生成相应的匹配模式和转换规则。
 
   - 手动编写正则表达式以定义匹配模式和转换规则。
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!NOTE]  
-> 有关如何编写正则表达式的信息，请参阅处<A href="https://go.microsoft.com/fwlink/p/?linkid=140927">https://go.microsoft.com/fwlink/p/?linkId=140927</A>的 ".Net Framework 正则表达式"。
+> 有关如何编写正则表达式的信息，请参阅处的 ".NET Framework 正则表达式" <A href="https://go.microsoft.com/fwlink/p/?linkid=140927">https://go.microsoft.com/fwlink/p/?linkId=140927</A> 。
 
 
 

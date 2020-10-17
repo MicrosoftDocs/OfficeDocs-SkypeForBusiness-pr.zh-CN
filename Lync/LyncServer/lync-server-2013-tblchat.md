@@ -12,20 +12,22 @@ ms:contentKeyID: 48185203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efadf0e5e850b825f6e5f47928e615ba32b9fd33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f68c638b16ae0e7a253c063351784ce9f7d4d7c5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207228"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509469"
 ---
+# <a name="tblchat-in-lync-server-2013"></a>Lync Server 2013 中的 tblChat
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblchat-in-lync-server-2013"></a>Lync Server 2013 中的 tblChat
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-12_
 
 tblChat 表包含所有聊天消息。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>列数
 
 <table>
 <colgroup>
@@ -92,7 +94,7 @@ tblChat 表包含所有聊天消息。
 </tr>
 <tr class="odd">
 <td><p>rtf</p></td>
-<td><p>varchar （max）</p></td>
+<td><p>varchar (max) </p></td>
 <td><p>聊天内容（RTF 版本）。如果客户端未提供该内容，可能为 Null。</p></td>
 </tr>
 </tbody>

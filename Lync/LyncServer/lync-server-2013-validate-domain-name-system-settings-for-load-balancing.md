@@ -12,20 +12,22 @@ ms:contentKeyID: 63969625
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9e45a007fd617ebefc6702a9be7da2e7d0a368f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc346dba48de1914f9aa5684d114e2f3466396f9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212628"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508609"
 ---
+# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a>在 Lync Server 2013 中验证用于负载平衡的域名系统设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a>在 Lync Server 2013 中验证用于负载平衡的域名系统设置
+
 
 </div>
 
@@ -41,11 +43,11 @@ _**上次修改的主题：** 2014-05-02_
 
 此外，如果要对边缘池使用 DNS 负载平衡，则需要以下 DNS 条目：
 
-  - 对于 Lync Server 访问边缘服务，池中的每台服务器都必须有一个条目。 每个条目都必须将 Lync Server 访问边缘服务的 FQDN （例如，sip.contoso.com）解析为池中某个边缘服务器上的 Lync Server 访问边缘服务的 IP 地址。
+  - 对于 Lync Server 访问边缘服务，池中的每台服务器都必须有一个条目。 每个条目都必须解析 Lync Server 访问边缘服务 (的 FQDN，例如，sip.contoso.com) 到池中某一台边缘服务器上的 Lync Server 访问边缘服务的 IP 地址。
 
-  - 对于 Lync Server Web 会议边缘服务，池中的每台服务器都必须有一个条目。 每个条目都必须将 Lync Server Web 会议边缘服务的 FQDN （例如，webconf.contoso.com）解析为池中某个边缘服务器上的 Lync Server Web 会议边缘服务的 IP 地址。
+  - 对于 Lync Server Web 会议边缘服务，池中的每台服务器都必须有一个条目。 每个条目都必须解析 Lync Server Web 会议边缘服务 (的 FQDN，例如，webconf.contoso.com) 到池中某个边缘服务器上的 Lync Server Web 会议边缘服务的 IP 地址。
 
-  - 对于 Lync Server 音频/视频边缘服务，池中的每台服务器都必须有一个条目。 每个条目都必须将 Lync Server 音频/视频边缘服务的 FQDN （例如，av.contoso.com）解析为池中某个边缘服务器上的 Lync Server 音频/视频边缘服务的 IP 地址。
+  - 对于 Lync Server 音频/视频边缘服务，池中的每台服务器都必须有一个条目。 每个条目都必须解析 Lync Server 音频/视频边缘服务 (的 FQDN，例如，av.contoso.com) 到池中某一台边缘服务器上的 Lync Server 音频/视频边缘服务的 IP 地址。
 
   - 如果要在边缘池的内部接口上使用 DNS 负载平衡，则必须添加一个 DNS 记录，该记录会将边缘池的内部 FQDN 解析为池中每个服务器的 IP 地址。
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Set-csclientpolicy for Address Book management
+title: Lync Server 2013：用于通讯簿管理的 New-CsClientPolicy
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30ee2dff06f2881906793043f1dc039f57919a67
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a253fb46dfdfe63957efa97ffa68d97ead65ed87
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216958"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508819"
 ---
+# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的通讯簿管理 New-CsClientPolicy
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的 Set-csclientpolicy for Address Book management
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2012-11-01_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsClientPolicy"}
 
-Cmdlet Set-csclientpolicy 定义了大量设置，用于为 Lync Server 2013 中提供的功能设置客户端。 对于通讯簿服务，参数 AddressBookAvailability 很重要。 此参数会直接影响可用于客户端的选项，具有三个可能的选项：
+Cmdlet New-CsClientPolicy 定义大量设置，用于为 Lync Server 2013 中提供的功能设置客户端。 对于通讯簿服务，参数 AddressBookAvailability 很重要。 此参数会直接影响可用于客户端的选项，具有三个可能的选项：
 
   - WebSearchAndFileDownload
 

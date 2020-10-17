@@ -12,20 +12,22 @@ ms:contentKeyID: 48185381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6f02d3af49cd6bf37764528d7c6f71c587d7d1b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ad7162dd2e42e8f430adeeaa461a30f77723f05
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200568"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509689"
 ---
+# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>为 Lync Server 2013 设置前端服务器和前端池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>为 Lync Server 2013 设置前端服务器和前端池
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-01_
 
 
 > [!NOTE]  
-> 必须先成功发布拓扑，然后才能安装服务器角色。 有关发布拓扑的详细信息，请参阅<A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">在 Lync Server 2013 中完成并实现拓扑设计</A>。
+> 必须先成功发布拓扑，然后才能安装服务器角色。 有关发布拓扑的详细信息，请参阅 <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">在 Lync Server 2013 中完成并实现拓扑设计</A>。
 
 
 

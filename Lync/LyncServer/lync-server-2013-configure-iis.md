@@ -12,20 +12,22 @@ ms:contentKeyID: 48185248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4152a8d32de738e5b64a49c4098c480717c0afc2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72c660c4874977e5d697be1474ba2b99bebecbd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507649"
 ---
+# <a name="configure-iis-for-lync-server-2013"></a>为 Lync Server 2013 配置 IIS
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-iis-for-lync-server-2013"></a>为 Lync Server 2013 配置 IIS
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197725"
 
 _**上次修改的主题：** 2011-12-16_
 
-为 Lync Server 2013 配置 Internet Information Services （IIS）包括安装正确的组件，以支持 Lync Server 2013 所需的 Web 服务。 有关安装 IIS 的详细信息，请参阅[Lync Server 2013 中的 IIS 配置](lync-server-2013-iis-configuration.md)。 如果您有策略在服务器上运行安全配置向导，或者将其作为维护的典型部分，请参阅[在安全配置向导关闭后重新激活服务器](lync-server-2013-re-activate-server-after-security-configuration-wizard-closes-ports-in-iis.md)，以了解有关运行向导（将关闭 Lync SERVER 2013 IIS 配置）的副作用的信息。
+为 Lync Server 2013 配置 Internet 信息服务 (IIS) 包括安装正确的组件，以支持 Lync Server 2013 所需的 Web 服务。 有关安装 IIS 的详细信息，请参阅 [Lync Server 2013 中的 IIS 配置](lync-server-2013-iis-configuration.md)。 如果您有策略在服务器上运行安全配置向导，或者将其作为维护的典型部分，请参阅 [在安全配置向导关闭后重新激活服务器](lync-server-2013-re-activate-server-after-security-configuration-wizard-closes-ports-in-iis.md) ，以了解有关运行向导（将关闭 Lync SERVER 2013 IIS 配置）的副作用的信息。
 
 <div>
 

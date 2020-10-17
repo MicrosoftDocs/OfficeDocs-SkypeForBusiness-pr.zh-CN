@@ -12,20 +12,22 @@ ms:contentKeyID: 48183819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ae9bfa8be276cccc6f31def6fb7014e417841d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23b77f246398ab47002ddef38e804419ffa4f5bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190555"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507609"
 ---
+# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>在 Lync Server 2013 中配置媒体旁路以始终绕过中介服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>在 Lync Server 2013 中配置媒体旁路以始终绕过中介服务器
+
 
 </div>
 
@@ -49,13 +51,13 @@ _**上次修改的主题：** 2013-02-25_
 
 除了为与中介服务器的对等方相关联的各个中继连接启用媒体旁路功能外，还必须配置全局媒体旁路设置。 如果您使用本主题中的步骤来配置媒体绕过的全局设置，则假设您在 Lync 终结点和任何对等方之间具有很好的连接，在中继连接上配置了媒体旁路。
 
-如果在 Lync Server 终结点和所有对等方之间没有足够的连接，且其各自的中继连接已启用媒体旁路，则必须将全局媒体旁路设置配置为使用网站和区域信息采用媒体旁路。 这可以在媒体绕过中介服务器时，提供更为细化的控制。 为此，请按照 "[在 Lync server 2013 中配置媒体旁路全局设置" 中的步骤操作，以使用站点和区域信息](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md)，并改为[在 lync Server 2013 中将子网与网络站点关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)。
+如果在 Lync Server 终结点和所有对等方之间没有足够的连接，且其各自的中继连接已启用媒体旁路，则必须将全局媒体旁路设置配置为在采用媒体旁路时使用站点和区域信息。 这可以在媒体绕过中介服务器时，提供更为细化的控制。 为此，请按照 " [在 Lync server 2013 中配置媒体旁路全局设置" 中的步骤操作，以使用站点和区域信息](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) ，并改为 [在 lync Server 2013 中将子网与网络站点关联](lync-server-2013-associate-a-subnet-with-a-network-site.md) 。
 
 <div>
 
 ## <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>在全局范围启用媒体旁路以始终绕过中介服务器
 
-1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 2.  在左侧导航栏中，单击“网络配置”****。
 

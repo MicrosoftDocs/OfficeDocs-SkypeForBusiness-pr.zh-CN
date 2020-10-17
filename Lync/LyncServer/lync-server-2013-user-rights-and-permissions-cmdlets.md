@@ -12,20 +12,22 @@ ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5f618e79d46a076f6217af4e7903d4e9c4a4ebf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2db174c6bd50bee3904267790127c9d2845b1dd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213018"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508689"
 ---
+# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的用户权限和权限 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的用户权限和权限 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213018"
 
 _**上次修改的主题：** 2012-06-26_
 
-用户权限 cmdlet 主要用于管理基于角色的访问控制（RBAC），这是用于委派 Microsoft Lync Server 2013 的管理控制的新技术。
+用户权限 cmdlet 主要用于管理基于角色的访问控制 (RBAC) ，这是用于委派 Microsoft Lync Server 2013 管理控制权的新技术。
 
 <div>
 

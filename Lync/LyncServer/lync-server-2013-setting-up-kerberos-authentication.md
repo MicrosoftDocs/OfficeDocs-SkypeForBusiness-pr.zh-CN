@@ -12,20 +12,22 @@ ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f2c781b01aaa1ac00793f97067f24233c1e8db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc4f354d985ed9e0fc85909e232e06e7c34dd593
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509649"
 ---
+# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中设置 Kerberos 身份验证
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中设置 Kerberos 身份验证
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200558"
 
 _**上次修改的主题：** 2013-02-21_
 
-Lync Server 2013 支持对 Web 服务进行 NTLM 和 Kerberos 身份验证。 Office 通信服务器2007和 Office 通信服务器 2007 R2 使用默认的 RTCComponentService 和 RTCService 作为运行 Web 服务应用程序池的用户帐户，从而允许将服务主体名称（SPN）分配给用户帐户并充当身份验证主体。 Lync Server 使用 NetworkService 运行 Web 服务，并且 NetworkService 无法为其分配 Spn。
+Lync Server 2013 支持对 Web 服务进行 NTLM 和 Kerberos 身份验证。 Office 通信服务器2007和 Office 通信服务器 2007 R2 使用默认的 RTCComponentService 和 RTCService 作为运行 Web 服务应用程序池的用户帐户，从而允许将服务主体)  (名称分配给用户帐户并充当身份验证主体。 Lync Server 使用 NetworkService 运行 Web 服务，并且 NetworkService 无法为其分配 Spn。
 
 为了解决未让 Active Directory 对象保存 Spn 的问题，Lync Server 控制面板可以使用计算机帐户对象来实现此目的。 计算机帐户对象可以包含 Spn，不受密码过期的限制，这是在以前版本中使用用户帐户时遇到的问题。
 

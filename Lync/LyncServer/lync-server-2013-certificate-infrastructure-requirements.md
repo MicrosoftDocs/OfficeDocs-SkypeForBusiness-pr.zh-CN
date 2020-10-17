@@ -12,20 +12,22 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e8c96c6b4ad5e19abf2d1f41024932c710786cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18666f33becabcbdf61370a32900ae7a4819e0cb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191045"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508019"
 ---
+# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 的证书基础结构要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 的证书基础结构要求
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42191045"
 
 _**上次修改的主题：** 2016-06-23_
 
-Lync Server 2013 需要一个公钥基础结构（PKI）来支持 TLS 和相互 TLS （MTLS）连接。
+Lync Server 2013 要求 (PKI) 的公钥基础结构，以支持 TLS 和相互 TLS (MTLS) 连接。
 
 Lync Server 使用证书实现以下目的：
 
@@ -59,7 +61,7 @@ Lync Server 使用证书实现以下目的：
 
   - 所有服务器证书都必须包含一个 CRL 分发点 (CDP)。
 
-  - 必须使用操作系统支持的签名算法对所有证书进行签名。 Lync Server 2013 支持 SHA-1 和 SHA-1 套件的摘要大小（224、256、384和512），并满足或超过操作系统要求。 有关操作系统支持，请参阅[https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002)。
+  - 必须使用操作系统支持的签名算法对所有证书进行签名。 Lync Server 2013 支持 SHA-1 和 SHA-1 套件的摘要大小 (224、256、384和512位) ，并满足或超过操作系统要求。 有关操作系统支持，请参阅 [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002) 。
     
     <div>
     
@@ -80,7 +82,7 @@ Lync Server 使用证书实现以下目的：
 
   - 支持的加密密钥长度为1024、2048和4096。 建议使用大于或等于2048的密钥长度。
 
-  - 默认摘要或哈希签名算法为 RSA。 此外，\_还支持 ecdh\_P256、ecdh P384\_和 ECDH P521 算法。 
+  - 默认摘要或哈希签名算法为 RSA。 此外， \_ 还支持 ecdh P256、ecdh \_ P384 和 ECDH \_ P521 算法。 
 
 <div>
 

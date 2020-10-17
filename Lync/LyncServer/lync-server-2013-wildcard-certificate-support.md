@@ -12,20 +12,22 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 998787b3f052d2271eb2323bcdb71ddc106b57f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d639ba422bde7b936bd58ff58abae47ea365bb70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210228"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508519"
 ---
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Lync Server 2013 中的通配符证书支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Lync Server 2013 中的通配符证书支持
+
 
 </div>
 
@@ -52,29 +54,29 @@ Lync Server 2013 使用证书提供通信加密和服务器身份身份验证。
 不支持使用通配符项作为任何角色的主题名称（也称为公用名或 CN）。使用 SAN 中的通配符项时支持以下服务器角色：
 
   - <span></span>  
-    **反向代理。**   通配符 SAN 条目受简单 URL （"满足" 和 "拨入"）发布证书支持。
+    **反向代理。**    通配符 SAN 条目受简单 URL 支持， () 发布证书的符合和拨出。
 
   - <span></span>  
-    **反向代理。**   对于发布证书上的 LYNCDISCOVER. 的 san 条目，支持通配符 san 条目。
+    **反向代理。**    对于发布证书上的 Lyncdiscover. 的 SAN 条目，支持通配符 SAN 条目。
 
   - <span></span>  
-    **导演。**   通配符 san 条目支持简单 url （"满足" 和 "拨入"），以及用于 Lyncdiscover. 和 lyncdiscoverinternal. web 组件的 SAN 条目。
+    **导演。**    通配符 SAN 条目受简单 Url 支持， () 和在控制器 web 组件中拨入和 Lyncdiscoverinternal. 的 SAN 条目。
 
   - <span></span>  
-    **前端服务器（Standard Edition）和前端池（Enterprise Edition）。** 对于简单 Url （"满足" 和 "拨入"）以及 Lyncdiscover. 和 Lyncdiscoverinternal. 的 SAN 条目，在前端 web 组件中支持通配符 SAN 条目。
+    **前端服务器 (Standard Edition) 和前端池 (Enterprise Edition) 。** 通配符 SAN 条目受简单 Url 支持， () 和为前端 web 组件中的 Lyncdiscover. 和 Lyncdiscoverinternal. 的 SAN 条目进行和拨入。
 
   - <span></span>  
-    **Exchange 统一消息（UM）。**   在作为独立服务器部署时，服务器不使用 SAN 条目。
+    **Exchange 统一消息 (UM) 。**    在作为独立服务器部署时，服务器不使用 SAN 条目。
 
   - <span></span>  
-    **Microsoft Exchange Server 客户端访问服务器。**   SAN 中的通配符条目支持内部和外部客户端。
+    **Microsoft Exchange Server 客户端访问服务器。**    SAN 中的通配符条目支持内部和外部客户端。
 
   - <span></span>  
-    **Exchange 统一消息（UM）和同一台服务器上的 Microsoft Exchange Server 客户端访问服务器。**   支持通配符 SAN 条目。
+    **Exchange 统一消息 (UM) 和同一台服务器上的 Microsoft Exchange Server 客户端访问服务器。**    支持通配符 SAN 条目。
 
 该主题中未提到的服务器角色：
 
-  - 内部服务器角色（包括但不限于中介服务器、存档和监控服务器、Survivable 分支设备或 Survivable 分支服务器）
+  - 内部服务器角色 (包括但不限于中介服务器、存档和监控服务器、Survivable 分支设备或 Survivable 分支服务器) 
 
   - 外部边缘服务器接口
 

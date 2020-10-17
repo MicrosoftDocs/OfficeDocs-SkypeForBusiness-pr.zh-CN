@@ -12,20 +12,22 @@ ms:contentKeyID: 48185281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417fece34f8e5177760e470083cd929cbddaab60
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2ddd7a64da7d0939b7b97099cb12878c272766d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197425"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508849"
 ---
+# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改网络区域
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改网络区域
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197425"
 
 _**上次修改的主题：** 2012-10-19_
 
-*网络区域* 是在呼叫允许控制、E9-1-1 和媒体旁路的配置中使用的网络中心或网络中枢。 使用以下过程创建或修改网络区域。 例如，如果已为一个语音功能创建网络区域，则不需要创建新的网络区域；其他高级企业语音功能也将使用这些网络区域。 但是，可能需要修改现有的网络区域定义，以应用特定于功能的设置。 例如，如果已为 E9-1-1（它不要求有关联的中央站点）创建网络区域，然后部署呼叫允许控制，则需要修改网络区域定义，以指定中央站点。 有关详细信息，请参阅[在 Lync Server 2013 中配置 CAC 的网络区域](lync-server-2013-configure-network-regions-for-cac.md)。
+*网络区域* 是在呼叫允许控制、E9-1-1 和媒体旁路的配置中使用的网络中心或网络中枢。 使用以下过程创建或修改网络区域。 例如，如果已为一个语音功能创建网络区域，则不需要创建新的网络区域；其他高级企业语音功能也将使用这些网络区域。 但是，可能需要修改现有的网络区域定义，以应用特定于功能的设置。 例如，如果已为 E9-1-1（它不要求有关联的中央站点）创建网络区域，然后部署呼叫允许控制，则需要修改网络区域定义，以指定中央站点。 有关详细信息，请参阅 [在 Lync Server 2013 中配置 CAC 的网络区域](lync-server-2013-configure-network-regions-for-cac.md)。
 
 <div>
 
@@ -89,7 +91,7 @@ _**上次修改的主题：** 2012-10-19_
 
 ## <a name="to-create-a-network-region-using-lync-server-control-panel"></a>使用 Lync Server 控制面板创建网络区域
 
-1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 2.  在左侧导航栏中，单击“网络配置”****。
 
@@ -141,7 +143,7 @@ _**上次修改的主题：** 2012-10-19_
 
 ## <a name="to-modify-a-network-region-using-lync-server-control-panel"></a>使用 Lync Server 控制面板修改网络区域
 
-1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 2.  在左侧导航栏中，单击“网络配置”****。
 

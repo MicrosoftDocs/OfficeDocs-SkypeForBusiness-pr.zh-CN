@@ -12,20 +12,22 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58a054ba58ff7e1e839b0aeca88d0e61164e30b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f1f1fc7ca86c10fa9c409c73c2f4b54ee2777a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211640"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508509"
 ---
+# <a name="videometricsthreshold-table-in-lync-server-2013"></a>Lync Server 2013 中的 VideoMetricsThreshold 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videometricsthreshold-table-in-lync-server-2013"></a>Lync Server 2013 中的 VideoMetricsThreshold 表
+
 
 </div>
 
@@ -64,61 +66,61 @@ VideoMetricsThreshold 表包含用于视频呼叫的用户体验质量指标的�
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLROptimal</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>默认值为 0.05。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPostFECPLRAcceptable</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>默认值为 0.10。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoLocalFrameLostPercentageAverageOptimal</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>默认值为 5.0。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoLocalFrameLostPercentageAverageAcceptable</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>默认值为 10.0。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvFrameRateAverageOptimal</strong></p></td>
-<td><p>小数（9，4）</p></td>
+<td><p>十进制 (9、4) </p></td>
 <td></td>
 <td><p>默认值为 12.0000。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvFramerateAverageAcceptable</strong></p></td>
-<td><p>小数（9，4）</p></td>
+<td><p>十进制 (9、4) </p></td>
 <td></td>
 <td><p>默认值为 7.0000。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercentOptimal</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>默认值为 5.0。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowFrameRateCallPercentAcceptable</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>默认值为 10.0。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowResolutionCallPercentOptimal</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>默认值为 5.0。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowResolutionCallPercentAcceptable</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>默认值为 10.0。</p></td>
 </tr>
@@ -130,31 +132,31 @@ VideoMetricsThreshold 表包含用于视频呼叫的用户体验质量指标的�
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPacketLossRateAcceptable</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>默认值为 0.10。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoFrameRateAvgOptimal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>默认值为 12。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoFrameRateAvgAcceptable</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>默认值为 7。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DynamicCapabilityPercentOptimal</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>默认值为 5.00。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DynamicCapabilityPercentAcceptable</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>默认值为 10.00。</p></td>
 </tr>

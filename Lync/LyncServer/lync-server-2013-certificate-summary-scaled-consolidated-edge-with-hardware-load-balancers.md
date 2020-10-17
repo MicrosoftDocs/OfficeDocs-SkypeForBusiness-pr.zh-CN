@@ -12,20 +12,22 @@ ms:contentKeyID: 48184729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c522b72683bd07f92aa0442f8373458f43a7f62
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 305d7e02e9b123ead26f2d0dd77b247914b05470
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207030"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507929"
 ---
+# <a name="certificate-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013 中的证书摘要-使用硬件负载平衡器的扩展的合并边缘
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013 中的证书摘要-使用硬件负载平衡器的扩展的合并边缘
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-22_
 
 Microsoft Lync Server 2013 使用证书对其他服务器进行相互身份验证，并将数据从服务器和服务器加密到客户端。 证书要求与服务器关联的域名系统 (DNS) 记录的名称与证书上的使用者名称 (SN) 和使用者替代名称 (SAN) 匹配。 要成功映射服务器、DNS 记录和证书条目，您必须仔细规划在 DNS 中注册的目标服务器完全限定域名以及证书上的 SN 和 SAN 条目。
 
-从公共证书颁发机构（CA）请求为边缘服务器的外部接口分配的证书。 以下文章中列出了在为统一通信提供证书方面已成功展示的公共 CAs： [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)。 请求证书时，可以使用 Lync Server 部署向导生成的证书请求，也可以手动或由公共 CA 提供的进程创建请求。 分配证书时，会将证书分配给访问边缘服务接口、Web 会议边缘服务接口和音频/视频身份验证服务。 不应将音频/视频身份验证服务与 A/V 边缘服务相混淆，后者不使用证书来加密音频和视频流。 内部边缘服务器接口可以使用来自内部（到你的组织） CA 的证书或来自公共 CA 的证书。 内部接口证书仅使用 SN，无需或不会使用 SAN 条目。
+为边缘服务器的外部接口分配的证书是从 (CA) 的公共证书颁发机构请求的。 以下文章中列出了在为统一通信提供证书方面已成功展示的公共 CAs： [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) 。 请求证书时，可以使用 Lync Server 部署向导生成的证书请求，也可以手动或由公共 CA 提供的进程创建请求。 分配证书时，会将证书分配给访问边缘服务接口、Web 会议边缘服务接口和音频/视频身份验证服务。 不应将音频/视频身份验证服务与 A/V 边缘服务相混淆，后者不使用证书来加密音频和视频流。 内部边缘服务器接口可以使用从内部 (到组织) CA 或来自公共 CA 的证书的证书。 内部接口证书仅使用 SN，无需或不会使用 SAN 条目。
 
 <div>
 
@@ -68,12 +70,12 @@ Microsoft Lync Server 2013 使用证书对其他服务器进行相互身份验�
 <th>组件</th>
 <th>使用者名称</th>
 <th>使用者替代名称 (SAN)/顺序</th>
-<th>注释</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>单个合并边缘服务器（外部边缘）</p></td>
+<td><p>单个合并边缘服务器 (外部边缘) </p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>webcon.contoso.com</p>
 <p>sip.contoso.com</p>
@@ -87,7 +89,7 @@ Microsoft Lync Server 2013 使用证书对其他服务器进行相互身份验�
 <p>请注意，根据拓扑生成器中的定义，SAN 将自动添加到证书中。根据需要为其他 SIP 域和其他需要支持的条目添加 SAN 条目。将在 SAN 中复制使用者名称，并且该名称必须在正确的操作中显示。</p></td>
 </tr>
 <tr class="even">
-<td><p>单个合并边缘服务器（内部边缘）</p></td>
+<td><p>单个合并边缘服务器 (内部边缘) </p></td>
 <td><p>lsedge.contoso.net</p></td>
 <td><p>不需要 SAN</p></td>
 <td><p>证书可由公共或私有 CA 颁发，且必须包含服务器 EKU。 将证书分配给内部边缘服务器接口。</p></td>
@@ -115,7 +117,7 @@ Microsoft Lync Server 2013 使用证书对其他服务器进行相互身份验�
 <th>组件</th>
 <th>使用者名称</th>
 <th>使用者替代名称 (SAN)/顺序</th>
-<th>注释</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -156,7 +158,7 @@ Microsoft Lync Server 2013 使用证书对其他服务器进行相互身份验�
 <th>组件</th>
 <th>使用者名称</th>
 <th>使用者替代名称 (SAN)/顺序</th>
-<th>注释</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>

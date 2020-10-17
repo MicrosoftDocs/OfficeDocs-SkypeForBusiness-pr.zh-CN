@@ -12,20 +12,22 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f3e9afc3bd17f5cba4caa7619cb562be069942
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b67f1472bbb8225bf952b5b678bcae8401d211d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187255"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508969"
 ---
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013 的防病毒扫描排除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013 的防病毒扫描排除
+
 
 </div>
 
@@ -61,101 +63,101 @@ _**上次修改的主题：** 2015-11-02_
 
   - Lync Server 2013 进程：
     
-      - ABServer
+      - ABServer.exe
     
-      - AcpMcuSvc
+      - AcpMcuSvc.exe
     
-      - ASMCUSvc
+      - ASMCUSvc.exe
     
-      - AVMCUSvc
+      - AVMCUSvc.exe
     
-      - ChannelService
+      - ChannelService.exe
     
-      - ClsAgent
+      - ClsAgent.exe
     
-      - ComplianceService
+      - ComplianceService.exe
     
-      - DataMCUSvc
+      - DataMCUSvc.exe
     
-      - DataProxy
+      - DataProxy.exe
     
-      - FileTransferAgent
+      - FileTransferAgent.exe
     
-      - IMMCUSvc
+      - IMMCUSvc.exe
     
-      - LysSvc
+      - LysSvc.exe
     
-      - MasterReplicatorAgent
+      - MasterReplicatorAgent.exe
     
-      - MediaRelaySvc
+      - MediaRelaySvc.exe
     
-      - MediationServerSvc
+      - MediationServerSvc.exe
     
-      - MRASSvc
+      - MRASSvc.exe
     
-      - OcsAppServerHost
+      - OcsAppServerHost.exe
     
-      - ReplicaReplicatorAgent
+      - ReplicaReplicatorAgent.exe
     
-      - ReplicationApp
+      - ReplicationApp.exe
     
-      - RtcHost
+      - RtcHost.exe
     
-      - RTCSrv
+      - RTCSrv.exe
     
-      - XmppProxy
+      - XmppProxy.exe
     
-      - XmppTGW
+      - XmppTGW.exe
 
   - Windows Fabric 主机服务进程：
     
-      - Fabric .exe
+      - Fabric.exe
     
-      - FabricDCA
+      - FabricDCA.exe
     
-      - FabricHost
+      - FabricHost.exe
 
   - IIS 进程：
     
-      - % systemroot%\\system32\\inetsrv\\w3wp
+      - % systemroot% \\ system32 \\ inetsrv \\w3wp.exe
     
-      - % systemroot%\\SysWOW64\\inetsrv\\w3wp
+      - % systemroot% \\ SysWOW64 \\ inetsrv \\w3wp.exe
 
-  - SQL Server 后端进程：
+  - SQL Server Back-End 进程：
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。MSSQLSERVER\\MSSQL\\Binn\\SQLServr
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11。MSSQLSERVER \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11。MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\ReportingServicesService
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSRS11。MSSQLSERVER \\ Reporting Services \\ ReportServer \\ Bin \\ReportingServicesService.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11。MSSQLSERVER\\OLAP\\Bin\\msmdsrv.ini
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSAS11。MSSQLSERVER \\ OLAP \\ Bin \\MSMDSrv.exe
 
-  - SQL Server 前端进程：
+  - SQL Server Front-End 进程：
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。LYNCLOCAL\\MSSQL\\Binn\\SQLServr
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11。LYNCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。RTCLOCAL\\MSSQL\\Binn\\SQLServr
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11。RTCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
 
   - 目录和文件：
     
-      - % systemroot%\\System32\\日志日志
+      - % systemroot% \\ System32 \\ 日志日志
     
-      - % systemroot%\\SysWow64\\日志日志
+      - % systemroot% \\ SysWow64 \\ 日志日志
     
-      - % systemroot%\\Microsoft.NET\\程序\\集\_GAC MSIL
+      - % systemroot% \\ Microsoft.NET \\ 程序集 \\ GAC \_ MSIL
     
-      - % programfiles%\\Microsoft Lync Server 2013
+      - % programfiles% \\ Microsoft Lync Server 2013
     
-      - % programfiles%\\公共文件\\Microsoft Lync Server 2013\\观察程序节点
+      - % programfiles% \\ 公共文件 \\ Microsoft Lync Server 2013 \\ 观察程序节点
     
-      - % programfiles%\\通用文件\\Microsoft Lync Server 2013
+      - % programfiles% \\ 通用文件 \\ Microsoft Lync Server 2013
     
-      - % 系统驱动器%\\RtcReplicaRoot
+      - % 系统驱动器% \\ RtcReplicaRoot
     
       - 文件共享存储（在拓扑生成器中指定）。 文件存储在拓扑生成器中指定。
     
-      - SQL Server 数据和日志文件，包括后端数据库、用户存储、存档存储、监控存储和应用程序存储的这些文件。 可以在拓扑生成器中指定数据库和日志文件。 有关每个数据库的数据和日志文件的详细信息（包括默认名称），请参阅部署文档中[的适用于 Lync server 2013 的 SQL Server 数据和日志文件放置](lync-server-2013-sql-server-data-and-log-file-placement.md)。
+      - SQL Server 数据和日志文件，包括后端数据库、用户存储、存档存储、监控存储和应用程序存储的这些文件。 可以在拓扑生成器中指定数据库和日志文件。 有关每个数据库的数据和日志文件的详细信息（包括默认名称），请参阅部署文档中 [的适用于 Lync server 2013 的 SQL Server 数据和日志文件放置](lync-server-2013-sql-server-data-and-log-file-placement.md) 。
     
-      - SQL Server 数据和日志文件，包括用于前端数据库、Lync 存储和 RtcDatabase 存储的文件。 它们通常位于% localdrive%\\CSData。
+      - SQL Server 数据和日志文件，包括用于前端数据库、Lync 存储和 RtcDatabase 存储的文件。 它们通常位于% localdrive% \\ CSData。
 
 </div>
 

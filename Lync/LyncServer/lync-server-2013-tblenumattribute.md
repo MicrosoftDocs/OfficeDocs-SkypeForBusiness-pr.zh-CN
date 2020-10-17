@@ -12,20 +12,22 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67bce18c46b4286afe287ab04a76b71e73b7a5a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f3b015d1148c3c820c27cdbe48e191bd09d2f55e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207158"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509349"
 ---
+# <a name="tblenumattribute-in-lync-server-2013"></a>Lync Server 2013 中的 tblEnumAttribute
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblenumattribute-in-lync-server-2013"></a>Lync Server 2013 中的 tblEnumAttribute
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-12_
 
 tblEnumAttribute 是一个硬编码表，包含用于节点表的 Visibility 和 Behavior 属性。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>列数
 
 <table>
 <colgroup>

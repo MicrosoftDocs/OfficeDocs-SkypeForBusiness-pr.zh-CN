@@ -12,20 +12,22 @@ ms:contentKeyID: 48183366
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02995141dfad6e91089fb80c7e9b09e4ef554edb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bf372f3dfc39f3ca90cbe0019af09e8d9dd33d26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192105"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509509"
 ---
+# <a name="tbladcookie-in-lync-server-2013"></a>Lync Server 2013 中的 tblADCookie
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tbladcookie-in-lync-server-2013"></a>Lync Server 2013 中的 tblADCookie
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-06-25_
 
 tblADCookie 包含当前轻型目录访问协议 (LDAP) 同步 Cookie。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>列数
 
 <table>
 <colgroup>
@@ -51,7 +53,7 @@ tblADCookie 包含当前轻型目录访问协议 (LDAP) 同步 Cookie。
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -63,7 +65,7 @@ tblADCookie 包含当前轻型目录访问协议 (LDAP) 同步 Cookie。
 <tr class="even">
 <td><p>prinDCHost</p></td>
 <td><p>nvarchar (255)</p></td>
-<td><p>用于 Active Directory 域服务同步的当前域控制器的完全限定的域名（FQDN）。具有信息性值。</p></td>
+<td><p>用于 Active Directory 域服务同步的当前域控制器 (FQDN) 的完全限定的域名称。具有信息性值。</p></td>
 </tr>
 <tr class="odd">
 <td><p>adcContent</p></td>
@@ -93,8 +95,8 @@ tblADCookie 包含当前轻型目录访问协议 (LDAP) 同步 Cookie。
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
-<th>Description</th>
+<th>列 (s) </th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

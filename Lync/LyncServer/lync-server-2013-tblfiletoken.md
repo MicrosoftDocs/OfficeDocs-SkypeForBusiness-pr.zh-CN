@@ -12,20 +12,22 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23240588fae3895c7d4aa5b0ecbf642bd2db51a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 47531c91ec7fed7e758bd73285f4e995afa65941
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208108"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509329"
 ---
+# <a name="tblfiletoken-in-lync-server-2013"></a>Lync Server 2013 中的 tblFileToken
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblfiletoken-in-lync-server-2013"></a>Lync Server 2013 中的 tblFileToken
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-12_
 
 tblFileToken 包含用于文件传输的临时令牌。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>列数
 
 <table>
 <colgroup>
@@ -77,12 +79,12 @@ tblFileToken 包含用于文件传输的临时令牌。
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceFileUrl</p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>已传输文件的 URL（用于合规性服务）。</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceThumbnailUrl</p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>已传输文件的缩略图的 URL（用于合规性服务）。</p></td>
 </tr>
 <tr class="odd">

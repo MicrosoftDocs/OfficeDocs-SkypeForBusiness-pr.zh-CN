@@ -12,20 +12,22 @@ ms:contentKeyID: 48705999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c2818a66c219b25d66363a189b0ba74b2b902d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fcb3cbc7b73d895b6be2d7fe278bd4870af064c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200355"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509639"
 ---
+# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a>在 Lync Server 2013 中设置可以在大会堂聊天室中发布邮件的权限
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a>在 Lync Server 2013 中设置可以在大会堂聊天室中发布邮件的权限
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**上次修改的主题：** 2012-10-06_
 
 在大会堂聊天室中，只有被授予了演示者角色的用户可以发布消息。所有其他成员都只能阅读消息。大会堂聊天室的演示者必须是该聊天室的成员。
 
-有关使用 Windows PowerShell 命令行界面管理大会堂聊天室的详细信息，请参阅部署文档中的[管理聊天室](manage-rooms.md)。
+有关使用 Windows PowerShell 命令行界面管理大会堂聊天室的详细信息，请参阅部署文档中的 [管理聊天室](manage-rooms.md) 。
 
-尽管 Persistent 聊天室管理员和聊天室管理器可以管理聊天室设置，但他们无法在大会堂聊天室中进行发布，除非他们是**演示者**。
+尽管 Persistent 聊天室管理员和聊天室管理器可以管理聊天室设置，但他们无法在大会堂聊天室中进行发布，除非他们是 **演示者**。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184395
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfae4aef6e6f5ec0a33fe64d42ea7bfd093badee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f536f2d67010856259abf6b98936cd9e096fc93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208400"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509619"
 ---
+# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>Lync Server 2013 的 SQL Server 数据和日志文件放置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>Lync Server 2013 的 SQL Server 数据和日志文件放置
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42208400"
 
 _**上次修改的主题：** 2013-02-21_
 
-在为 Lync Server 2013 前端池规划和部署 Microsoft SQL Server 2012 或 Microsoft SQL Server 2008 R2 SP1 的过程中，重要的考虑因素是将数据和日志文件放置在物理硬盘上以提高性能。 建议的磁盘配置是使用6个心轴来实现 1 + 0 RAID 集。 将前端池和相关服务器角色和服务（即，存档和监控服务器、Lync Server Response Group service、Lync Server 呼叫寄存服务）使用的所有数据库和日志文件放在使用 Lync Server 的 RAID 驱动器集上部署向导将导致配置已测试为获得最佳性能。 下表详细介绍了这些数据库文件以及它们负责的内容。
+在为 Lync Server 2013 前端池规划和部署 Microsoft SQL Server 2012 或 Microsoft SQL Server 2008 R2 SP1 的过程中，重要的考虑因素是将数据和日志文件放置在物理硬盘上以提高性能。 建议的磁盘配置是使用6个心轴来实现 1 + 0 RAID 集。 将由前端池和相关服务器角色和 (服务使用的所有数据库和日志文件（即，存档和监控服务器、Lync Server 响应组服务、Lync Server 呼叫寄存服务) 使用 Lync server 部署向导）中的所有数据库和日志文件都放在使用 Lync Server 部署向导的 RAID 驱动器集上时，将导致配置已测试为获得最佳性能。 下表详细介绍了这些数据库文件以及它们负责的内容。
 
 <div>
 
 
 > [!NOTE]  
-> 如果您的策略和 SQL Server 配置需要更专用的安装，则可以使用 Lync Server 命令行管理程序将数据库和日志文件安装到任何预定义的位置。 有关更多详细信息，请参阅<A href="lync-server-2013-database-installation-using-lync-server-management-shell.md">使用 Lync Server 命令行管理程序在 Lync server 2013 中安装数据库</A>。
+> 如果您的策略和 SQL Server 配置需要更专用的安装，则可以使用 Lync Server 命令行管理程序将数据库和日志文件安装到任何预定义的位置。 有关更多详细信息，请参阅 <A href="lync-server-2013-database-installation-using-lync-server-management-shell.md">使用 Lync Server 命令行管理程序在 Lync server 2013 中安装数据库</A> 。
 
 
 
@@ -99,7 +101,7 @@ _**上次修改的主题：** 2013-02-21_
 <tbody>
 <tr class="odd">
 <td><p>Rtc</p></td>
-<td><p>持久性用户数据（例如，访问控制列表（Acl）、联系人、计划会议）</p></td>
+<td><p>持久性用户数据 (例如，访问控制列表 (Acl) 、联系人、安排的会议) </p></td>
 </tr>
 <tr class="even">
 <td><p>Rtc</p></td>
@@ -107,7 +109,7 @@ _**上次修改的主题：** 2013-02-21_
 </tr>
 <tr class="odd">
 <td><p>Rtcdyn</p></td>
-<td><p>维护瞬时用户数据（状态显示运行时数据）</p></td>
+<td><p>维护瞬时用户数据 (状态运行时数据) </p></td>
 </tr>
 <tr class="even">
 <td><p>Rtcdyn</p></td>
@@ -195,7 +197,7 @@ _**上次修改的主题：** 2013-02-21_
 <tbody>
 <tr class="odd">
 <td><p>LcsCdr</p></td>
-<td><p>监控服务器的呼叫详细信息记录（CDR）过程的数据存储</p></td>
+<td><p>监视服务器 (CDR) 流程的呼叫详细信息记录的数据存储</p></td>
 </tr>
 <tr class="even">
 <td><p>LcsCdr</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13026da5515615610c960fe4648d5c58f64f99fe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 555169f6de67ae23bc63d81aad549b0033a6696c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507739"
 ---
+# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中反向代理的配置要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中反向代理的配置要求
+
 
 </div>
 
@@ -55,25 +57,25 @@ Lync Server 2013 对来自外部客户端的通信（随后传递到控制器、
 
 Lync Server 2013 预期要执行反向代理的功能操作是：
 
-  - 使用安全套接字层（SSL）和传输层安全性（TLS），通过使用从公共证书颁发机构获取的证书连接到控制器、控制器池、前端服务器或前端池的已发布的外部 Web 服务来实现。 控制器和前端服务器可以使用硬件负载平衡器在负载平衡的池中。
+  - 使用安全套接字层 (SSL) 和传输层安全性 (TLS) 通过使用从公共证书颁发机构获取的证书连接到控制器、控制器池、前端服务器或前端池的已发布的外部 Web 服务来实现。 控制器和前端服务器可以使用硬件负载平衡器在负载平衡的池中。
 
   - 能够使用证书进行加密发布内部网站，或通过未加密的方式发布内部网站（如果需要）。
 
-  - 能够通过使用完全限定的域名（FQDN）在外部发布内部托管的网站。
+  - 可以通过使用完全限定的域名 (FQDN) 在外部发布内部托管的网站。
 
-  - 能够发布托管网站的所有内容。 默认情况下，您可以使用** / **此指令，大多数 web 服务器都可以识别该指令，以表示 "发布 web 服务器上的所有内容"。 您还可以修改指令（例如， **/Uwca/\***），这意味着 "在虚拟目录 Ucwa 下发布所有内容"。
+  - 能够发布托管网站的所有内容。 默认情况下，您可以使用此 **/\*** 指令，大多数 web 服务器都可以识别该指令，以表示 "发布 web 服务器上的所有内容"。 您还可以修改指令（例如， **/Uwca/ \* **），这意味着 "在虚拟目录 Ucwa 下发布所有内容"。
 
-  - 必须可配置为要求安全套接字层（SSL）和/或传输层安全性（TLS）连接与从已发布网站请求内容的客户端。
+  - 必须可配置为要求安全套接字层 (SSL) 和/或传输层安全性 (TLS) 与从已发布网站请求内容的客户端建立连接。
 
-  - 必须接受具有使用者可选名称（SAN）项的证书。
+  - 必须接受具有使用者可选名称 (SAN) 条目的证书。
 
   - 必须能够允许将证书绑定到侦听器或接口，外部 web 服务 FQDN 将解析该侦听器或接口。 侦听器配置优于接口。 可以在单个接口上配置多个侦听器。
 
   - 必须允许配置主机标头处理。 通常，发出请求的客户端发送的原始主机标头必须透明地传递，而不是由反向代理进行修改。
 
-  - 将 SSL 和 TLS 流量从一个外部定义的端口（例如，TCP 443）桥接到另一个定义的端口（例如，TCP 4443）。 反向代理可能会在接收时对数据包进行解密，然后在发送时重新加密数据包。
+  - 从一个外部定义的端口桥接 SSL 和 TLS 流量 (例如，TCP 443) 到另一个定义的端口 (例如，TCP 4443) 。 反向代理可能会在接收时对数据包进行解密，然后在发送时重新加密数据包。
 
-  - 将未加密的 TCP 流量从一个端口桥接（例如，TCP 80）到另一个端口（例如，TCP 8080）。
+  - 将未加密 TCP 流量从一个端口桥接 (例如，TCP 80) 到另一个 (（例如，TCP 8080) ）。
 
   - 允许配置或接受 NTLM 身份验证，无身份验证和传递身份验证。
 

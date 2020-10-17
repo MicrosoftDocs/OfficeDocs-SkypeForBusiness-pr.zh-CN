@@ -12,20 +12,22 @@ ms:contentKeyID: 48183486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd7ff808b766d7366e39595a46d1a2d7dfb75996
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c2b17d36756de3db0418fceb85f49535387bd138
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213038"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508709"
 ---
+# <a name="user-registration-report-in-lync-server-2013"></a>Lync Server 2013 中的用户注册报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-registration-report-in-lync-server-2013"></a>Lync Server 2013 中的用户注册报告
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42213038"
 
 _**上次修改的主题：** 2012-10-21_
 
-用户注册报告提供用户登录活动的概述，最值得注意的是，有关登录到 Microsoft Lync Server 2013 的用户数在指定时间段（每小时、每天、每周、每月）中的信息。 请注意，报告仅告知您登录的用户数。 它不会告知您登录*的*用户。 监视报告不提供有关哪些特定用户使用 Lync Server 2013 （以及哪些用户不是）的信息。 不过，您可以使用用户活动报告获取用户信息的粗略估计。
+用户注册报告概述了用户登录活动，最值得注意的是，有关登录到 Microsoft Lync Server 2013 的用户数的信息在指定时间段内 (每小时、每天、每周、每月) 。 请注意，报告仅告知您登录的用户数。 它不会告知您登录 *的* 用户。 监视报告不提供有关哪些特定用户使用 Lync Server 2013 (以及哪些用户未) 的信息。 不过，您可以使用用户活动报告获取用户信息的粗略估计。
 
-在提供有关用户登录的信息时，用户注册报告会进行两个重要区分。 首先，它将登录细分为两个主要类别：内部登录和外部登录。 内部登录表示从组织防火墙内登录（即，在连接至企业网络时）的用户。 外部登录代表从防火墙外部通过边缘服务器登录的用户（例如，从 Internet 咖啡馆登录的用户咖啡馆将计数为外部登录）。 如果需要了解从防火墙外登录的用户数，用户注册报告可为您提供此信息。
+在提供有关用户登录的信息时，用户注册报告会进行两个重要区分。 首先，它将登录细分为两个主要类别：内部登录和外部登录。 内部登录表示从组织防火墙内登录（即，在连接至企业网络时）的用户。 外部登录代表从防火墙外部通过边缘服务器登录的用户 (例如，从 Internet 咖啡馆登录的用户将计数为外部登录) 。 如果需要了解从防火墙外登录的用户数，用户注册报告可为您提供此信息。
 
-此外，用户注册报告还会记录在给定时间段内在线的*活动* 用户数。 活动用户是在即时消息（IM）会话中参与的用户，参与 Lync 会议、拨打或接听电话呼叫或在该时间段使用 Lync Server。 这与登录但从未实际使用系统的用户不同。
+此外，用户注册报告还会记录在给定时间段内在线的*活动* 用户数。 活动用户是在即时消息 (IM) 会话中参与的用户，参与 Lync 会议、拨打或接听电话呼叫，或在该时间段使用 Lync Server。 这与登录但从未实际使用系统的用户不同。
 
 <div>
 
@@ -104,7 +106,7 @@ _**上次修改的主题：** 2012-10-21_
 
     (Get-CsUser).Count
 
-如果前面的命令返回的值为1236，唯一的登录用户指标返回的平均值为667，表示为 Lync 启用了一半以上的用户每日实际登录系统（即667除以1236）。，约为54%。
+如果前面的命令返回值1236，且唯一的登录用户指标返回的平均值为667，则表示每日启用 Lync 的用户的一半实际上是每日登录系统 (即，667除以1236，即大约 54% ) 。
 
 <div>
 
@@ -203,7 +205,7 @@ _**上次修改的主题：** 2012-10-21_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

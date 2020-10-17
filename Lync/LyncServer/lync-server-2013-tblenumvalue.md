@@ -12,20 +12,22 @@ ms:contentKeyID: 48185040
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4166e25375c7ddd631b1ee7944ac703f21c9ba80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79d1b68cd10858812a1310ebbd1f2caae913da75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509319"
 ---
+# <a name="tblenumvalue-in-lync-server-2013"></a>Lync Server 2013 中的 tblEnumValue
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblenumvalue-in-lync-server-2013"></a>Lync Server 2013 中的 tblEnumValue
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-06-28_
 
 tblEnumValue 表是一个硬编码表，包含节点表使用的属性的“可见性”值和“行为”值。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>列数
 
 <table>
 <colgroup>
@@ -127,12 +129,12 @@ tblEnumValue 表是一个硬编码表，包含节点表使用的属性的“可�
 <td><p>范围</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>双面</p></td>
 <td><p>通用</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>双面</p></td>
 <td><p>大会堂</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb3ba0ecea87e1f595f86cb5706f7105ba8be210
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 675f5b8e2880303a99897da18f44047c73961e4a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191095"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508039"
 ---
+# <a name="central-management-store-failover-in-lync-server-2013"></a>Lync Server 2013 中的中央管理存储故障转移
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="central-management-store-failover-in-lync-server-2013"></a>Lync Server 2013 中的中央管理存储故障转移
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-10-18_
 
 修复灾难后，无需对中央管理存储进行故障回复。 修复后，原始备份池中的中央管理存储可以保留为活动主控形状。
 
-集中管理存储故障转移的工程目标为5分钟，恢复时间目标（RTO）和恢复点目标（RPO）为5分钟。
+集中管理存储故障转移的工程目标为5分钟，恢复时间目标 (RTO) ，5分钟用于恢复点目标 (RPO) 。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185108
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb35c064c304360adb27ecae73dd93c0e616711a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4bf8ebf2dd3da00adbd4719dd749c59eeeee82b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212568"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508619"
 ---
+# <a name="validate-addresses-in-lync-server-2013"></a>在 Lync Server 2013 中验证地址
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validate-addresses-in-lync-server-2013"></a>在 Lync Server 2013 中验证地址
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42212568"
 
 _**上次修改的主题：** 2012-09-17_
 
-在发布位置数据库之前，必须根据您的 SIP 中继或公用电话交换网（PSTN） E9-1-1 服务提供商维护的主街道地址指南（MSAG）验证新位置。
+在发布位置数据库之前，必须根据您的 SIP 中继或公用电话交换网 (PSTN) E9-1-1 服务提供商维护的主街道地址指南 (MSAG) 验证新位置。
 
-有关 SIP 中继 E9-1-1 服务提供商的详细信息，请参阅[为 Lync Server 2013 选择 E9-1-1 服务提供商](lync-server-2013-choosing-an-e9-1-1-service-provider.md)。
+有关 SIP 中继 E9-1-1 服务提供商的详细信息，请参阅 [为 Lync Server 2013 选择 E9-1-1 服务提供商](lync-server-2013-choosing-an-e9-1-1-service-provider.md)。
 
 有关验证地址的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
@@ -68,7 +70,7 @@ _**上次修改的主题：** 2012-09-17_
     
         Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
     
-    您还可以使用**CsLisCivicAddress** cmdlet 来验证各个地址。
+    您还可以使用 **CsLisCivicAddress** cmdlet 来验证各个地址。
 
 </div>
 

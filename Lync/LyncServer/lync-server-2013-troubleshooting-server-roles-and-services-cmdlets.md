@@ -12,20 +12,22 @@ ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 844b53a4671ef3544520309e501622863f850c89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5909fb8cdd2326d7c86bac5524a1ee02b5393b5c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508739"
 ---
+# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a>在 Lync Server 2013 中排除服务器角色和服务 cmdlet 的故障
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a>在 Lync Server 2013 中排除服务器角色和服务 cmdlet 的故障
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-08-27_
 
 
 > [!NOTE]
-> 有关 cmdlet 的其他信息，请参阅 Lync Server&nbsp;Windows PowerShell 博客 at <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A>。 每个博客的内容及其 URL 如有更改，恕不另行通知。
+> 有关 cmdlet 的其他信息，请参阅 Lync Server &nbsp; Windows PowerShell 博客 at <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A> 。 每个博客的内容及其 URL 如有更改，恕不另行通知。
 
 
 

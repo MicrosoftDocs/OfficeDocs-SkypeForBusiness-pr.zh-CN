@@ -12,20 +12,22 @@ ms:contentKeyID: 48184274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25c015397b1c29bec50f05feeab4f21d54d3f1e5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ecfca21d1cd7151cb48db8a165dbea00acdae560
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199026"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507819"
 ---
+# <a name="conferencing-in-lync-server-2013"></a>Lync Server 2013 中的会议
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencing-in-lync-server-2013"></a>Lync Server 2013 中的会议
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync 通过将视频集成到统一客户端来简化视频会议用户体验，
 
 Lync Server 使您只需单击一次即可轻松地将视频添加到标准电话呼叫中。 当视频呼叫或会议中有多个参与者时，每个用户最多能同时观看来自五个其他用户的视频，或者演示者只能选择一个要被所有人以独占方式观看的视频源。
 
-对于在高端计算机上运行 Lync 的用户之间的对等呼叫，支持高清晰度视频（分辨率 1270 x 720; 纵横比16:9）和 VGA 视频（分辨率 640 x 480; 纵横比4:3）。 单次对话中每个参与者所查看的分辨率可能有所不同，具体取决于每个用户的相应硬件的视频功能。
+高清晰度视频 (分辨率 1270 x 720;纵横比 16:9) 和 VGA 视频 (分辨率 640 x 480;对于在高端计算机上运行 Lync 的用户之间的对等呼叫，支持纵横比 4:3) 。 单次对话中每个参与者所查看的分辨率可能有所不同，具体取决于每个用户的相应硬件的视频功能。
 
 IT 管理员可以设置策略，限制或禁止在客户端上使用高清或 VGA 视频，具体取决于计算机功能、网络带宽以及可提供所需分辨率的摄像机的状态。通过带内设置实施这些策略。
 

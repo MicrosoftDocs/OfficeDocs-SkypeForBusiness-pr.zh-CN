@@ -12,20 +12,22 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e6975c37b201edf25bbe470de9bd00abdececcb
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: b5cd5ef156a61daa0c57ffbaf692f56af6691b76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756853"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509079"
 ---
+# <a name="setup"></a>设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a>设置
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2014-04-22_
 
 ## <a name="installing-the-stress-and-performance-tool"></a>安装压力和性能工具
 
-在将用于模拟用户流量的每台客户端计算机上运行 Windows Installer 文件**CapacityPlanningTool.msi**。 这些客户端计算机不得运行任何 Lync Server 组件。
+在将用于模拟用户流量的每台客户端计算机上运行 Windows Installer 文件 **CapacityPlanningTool.msi**。 这些客户端计算机不得运行任何 Lync Server 组件。
 
 </div>
 

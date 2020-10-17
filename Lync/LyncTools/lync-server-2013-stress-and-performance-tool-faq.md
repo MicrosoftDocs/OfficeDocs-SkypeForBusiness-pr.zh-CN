@@ -12,20 +12,22 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 590453f6270ebcd2beebbb26b8035f9e33cc2cd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 445448633bc35b8071455ccd0c8e6ff93c3862b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196185"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509209"
 ---
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Lync Server 2013 压力和性能工具常见问题解答
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Lync Server 2013 压力和性能工具常见问题解答
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-02-24_
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>我是否可以在生产中运行 LyncPerfTool？
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>我可以在生产中运行 LyncPerfTool.exe 吗？
 
 我们不建议这样做。 此工具将影响服务器的性能、安全性和用户体验。
 
@@ -79,13 +81,13 @@ _**上次修改的主题：** 2013-02-24_
 
 ## <a name="can-i-run-the-tool-on-the-server-itself"></a>我是否可以在服务器上运行该工具？
 
-否。 此方案不受支持，可能因二进制不匹配而失败。 此外，因为点是测量服务器上的资源消耗，所以运行该工具将导致度量无意义。
+不正确。 此方案不受支持，可能因二进制不匹配而失败。 此外，因为点是测量服务器上的资源消耗，所以运行该工具将导致度量无意义。
 
 </div>
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>我是否可以在虚拟服务器或 Microsoft Hyper-v Server 2008/2012 上运行 LyncPerfTool？
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>我是否可以在虚拟服务器或 Microsoft Hyper-v Server 2008/2012 上运行 LyncPerfTool.exe？
 
 是。
 
@@ -95,13 +97,13 @@ _**上次修改的主题：** 2013-02-24_
 
 ## <a name="what-does-mpop-mean"></a>MPOP 是什么意思？
 
-MPOP 代表多点状态。 它旨在模拟用户从多台计算机登录到 Lync 2013 的情况。 请注意，在 LyncPerfTool 中，每个终结点使用默认配置文件（即，不会在两个状态点之间拆分配置文件）。
+MPOP 代表多点状态。 它旨在模拟用户从多台计算机登录到 Lync 2013 的情况。 请注意，在 LyncPerfTool.exe 中，每个终结点使用默认配置文件 (也就是说，配置文件不会在两个状态点) 进行拆分。
 
 </div>
 
 <div>
 
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>我启动了 LyncPerfTool，但未发生任何情况。 这是怎么回事？
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>我 LyncPerfTool.exe 启动，但不会发生任何事情。 这是怎么回事？
 
 检查客户端上的活动终结点总数计数器，以查看用户是否正在连接。 如果用户未连接，请验证 Lync Server 2013 配置。 出现此问题的原因通常是服务器名称、用户前缀或密码不正确。 请注意，外部客户端应将访问代理指定为 TargetServer 值。 验证配置文件中的端口。
 
@@ -119,7 +121,7 @@ MPOP 代表多点状态。 它旨在模拟用户从多台计算机登录到 Lync
 
 ## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a>我安装了实时通信服务器 2007 R2 容量规划工具和/或 Lync Server 2010。 这是正常的吗？
 
-否。 存在互操作性问题，您必须卸载此产品的所有早期版本。
+不正确。 存在互操作性问题，您必须卸载此产品的所有早期版本。
 
 </div>
 
@@ -127,7 +129,7 @@ MPOP 代表多点状态。 它旨在模拟用户从多台计算机登录到 Lync
 
 ## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>压力和性能工具是否会设置 CAA 呼叫信息服务器拓扑？
 
-否。 工具只创建用户、联系人和通讯组列表，并模拟用户负载。
+不正确。 工具只创建用户、联系人和通讯组列表，并模拟用户负载。
 
 </div>
 

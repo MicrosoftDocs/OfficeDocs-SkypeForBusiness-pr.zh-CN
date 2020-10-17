@@ -12,20 +12,22 @@ ms:contentKeyID: 49733768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a36e92849c59760f831cdebaf59906b546b01d7f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: c5821cd8710b8493a29684d1b7ee695f5bf5c747
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508379"
 ---
+# <a name="verify-federation-and-remote-access-for-external-users"></a>验证联盟和外部用户的远程访问
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-federation-and-remote-access-for-external-users"></a>验证联盟和外部用户的远程访问
+
 
 </div>
 
@@ -45,13 +47,13 @@ _**上次修改的主题：** 2012-09-18_
 
   - 至少一个联盟域中的用户、Lync Server 2013 上的内部用户以及 Lync Server 2010 上的用户。 测试即时消息 (IM)、状态、音频/视频 (A/V) 和桌面共享。
 
-  - 您的组织支持的每个公共 IM 服务提供商的用户（已完成的设置）与 Lync server 2013 上的用户以及 Lync Server 2010 上的用户进行通信。
+  - 您的组织支持 (的每个公共 IM 服务提供商的用户和已完成的设置) 与 Lync Server 2013 上的用户通信，以及 Lync Server 2010 上的用户。
 
   - 验证匿名用户是否能够加入会议。
 
-  - 在 lync server 2010 上托管的用户（使用远程用户访问（从 intranet 外部，但不使用 VPN 登录到 Lync Server 2010）以及 lync server 2013 上的用户以及 Lync Server 2010 上的用户。 测试 IM、状态、A/V 和桌面共享。
+  - 在 Lync Server 2010 上托管的用户使用远程用户访问 (登录到 intranet 外部的 Lync Server 2010，但没有 VPN) 与 Lync Server 2013 上的用户以及 Lync Server 2010 上的用户。 测试 IM、状态、A/V 和桌面共享。
 
-  - 在 lync server 2013 上托管的用户（使用远程用户访问（从 intranet 外部，但不使用 VPN 登录到 Lync Server 2013）以及 lync server 2013 上的用户以及 Lync Server 2010 上的用户。 测试 IM、状态、A/V 和桌面共享。
+  - 在 Lync Server 2013 上托管的用户使用远程用户访问 (登录到 intranet 外部的 Lync Server 2013，但没有 VPN) 与 Lync Server 2013 上的用户以及 Lync Server 2010 上的用户。 测试 IM、状态、A/V 和桌面共享。
 
 </div>
 

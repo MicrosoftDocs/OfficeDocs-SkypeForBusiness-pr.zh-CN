@@ -12,20 +12,22 @@ ms:contentKeyID: 48183404
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a86a8b79678689b24980fd49322e1bb4aa2eda63
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da9f4f5f8789088f449e8e02d2470b0195c90a51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211078"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508499"
 ---
+# <a name="voice-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的语音应用程序 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的语音应用程序 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211078"
 
 _**上次修改的主题：** 2012-10-09_
 
-语音应用程序可在前端服务器的应用程序服务上运行。 这些应用程序通过允许您寄存呼叫、处理未分配号码、与 Exchange 统一消息（UM）以及运行响应组应用程序，来帮助您管理传入和传出电话呼叫。
+语音应用程序可在前端服务器的应用程序服务上运行。 这些应用程序通过允许您寄存呼叫、处理未分配号码、与 Exchange 统一消息进行协调 (UM) 以及运行响应组应用程序，来帮助您管理传入和传出电话呼叫。
 
 <div>
 

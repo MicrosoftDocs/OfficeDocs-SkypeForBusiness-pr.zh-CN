@@ -12,20 +12,22 @@ ms:contentKeyID: 48183992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33fed49b1174260e29f6badc4a3f994f888c1a4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c08fb5710e25bf4504d7cb2d10020138221b22c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206998"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507919"
 ---
+# <a name="certificate-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中的证书摘要-扩展的控制器池、硬件负载平衡器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中的证书摘要-扩展的控制器池、硬件负载平衡器
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-10-20_
 <th>组件</th>
 <th>使用者名称 (SN)</th>
 <th>使用者替代名称 (SAN)</th>
-<th>注释</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -67,7 +69,7 @@ _**上次修改的主题：** 2012-10-20_
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
 <p>（可选）*.contoso.com</p></td>
-<td><p>可以从内部托管的证书颁发机构（CA）或公用 CA 请求控制器证书。</p>
+<td><p>可以从内部托管的证书颁发机构 (CA) 或公共 CA 请求控制器证书。</p>
 <p>Director 响应来自周边或边缘服务器的反向代理的请求。</p>
 <p>或者，简单 URL 的通配符条目</p></td>
 </tr>

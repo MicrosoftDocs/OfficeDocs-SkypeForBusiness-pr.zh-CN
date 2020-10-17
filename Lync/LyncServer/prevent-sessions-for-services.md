@@ -12,20 +12,22 @@ ms:contentKeyID: 49733642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f85595acd38e69af9fb8108cab44f4839904799a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 47202d91fdf0020a7692a9ff7b0c346ee3cb7aef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756551"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509269"
 ---
+# <a name="prevent-sessions-for-services"></a>阻止服务的会话
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-sessions-for-services"></a>阻止服务的会话
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-04_
 
 ## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a>阻止计算机上所有 Lync Server 服务的新会话
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色，请登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
 2.  打开“Lync Server 控制面板”。
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2012-10-04_
 
 ## <a name="to-prevent-new-sessions-for-a-specific-service"></a>阻止特定服务的新会话
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色，请登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
 2.  打开“Lync Server 控制面板”。
 

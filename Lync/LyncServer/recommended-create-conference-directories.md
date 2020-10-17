@@ -1,5 +1,5 @@
 ---
-title: 适合创建会议目录
+title: " (建议) 创建会议目录"
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,20 +12,22 @@ ms:contentKeyID: 63146389
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5ce338c6eb67f545439bfe1e9f2134cd7f1e6d1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 6b053e4f09bdf5c497e1cbf929698c7084111cc7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757163"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509249"
 ---
+# <a name="recommended-create-conference-directories"></a> (建议) 创建会议目录
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="recommended-create-conference-directories"></a>适合创建会议目录
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2014-10-03_
 
     <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
 
-创建多个会议目录将确保会议 ID 将短暂停留，直到创建了大量会议。 在每个用户需要参与典型数量会议的组织中，建议您为池中的每 999 个用户创建一个会议目录。 通过使用此指南，通常可使会议 ID 保持较小数目。 但是，一旦会议目录数（在池中）超过9，会议 ID 长度将增长以支持其他会议。
+创建多个会议目录将确保会议 ID 将短暂停留，直到创建了大量会议。 在每个用户需要参与典型数量会议的组织中，建议您为池中的每 999 个用户创建一个会议目录。 通过使用此指南，通常可使会议 ID 保持较小数目。 但是，一旦池 (的会议目录数) 超过9，会议 ID 长度将增长以支持其他会议。
 
 <div>
 
