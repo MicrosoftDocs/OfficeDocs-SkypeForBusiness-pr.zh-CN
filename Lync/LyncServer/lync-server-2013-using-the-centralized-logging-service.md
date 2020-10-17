@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：使用集中日志记录服务
+description: Lync Server 2013：使用集中日志记录服务。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 276cc87d6ec943332fc30dc21c0906a03703382d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3f8b9edf839de889e9f0b01c10311f6b5c70ced8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529949"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548518"
 ---
-# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a><span data-ttu-id="3e71a-102">在 Lync Server 2013 中使用集中日志记录服务</span><span class="sxs-lookup"><span data-stu-id="3e71a-102">Using the Centralized Logging Service in Lync Server 2013</span></span>
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a><span data-ttu-id="6beba-103">在 Lync Server 2013 中使用集中日志记录服务</span><span class="sxs-lookup"><span data-stu-id="6beba-103">Using the Centralized Logging Service in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,56 +38,56 @@ ms.locfileid: "48529949"
 
 <span> </span>
 
-<span data-ttu-id="3e71a-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="3e71a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="6beba-104">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6beba-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="3e71a-104">集中日志记录服务是 Lync Server 2013 中的一项新功能。</span><span class="sxs-lookup"><span data-stu-id="3e71a-104">The Centralized Logging Service is a new feature in Lync Server 2013.</span></span> <span data-ttu-id="3e71a-105">这是以前版本中提供的 **OCSLogger** 和 **OCSTracer** 工具的增强替代。</span><span class="sxs-lookup"><span data-stu-id="3e71a-105">It is an enhanced replacement for the **OCSLogger** and **OCSTracer** tools that were provided in previous releases.</span></span> <span data-ttu-id="3e71a-106">您可以使用集中日志记录服务执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="3e71a-106">You can use the Centralized Logging Service to perform the following tasks:</span></span>
+<span data-ttu-id="6beba-105">集中日志记录服务是 Lync Server 2013 中的一项新功能。</span><span class="sxs-lookup"><span data-stu-id="6beba-105">The Centralized Logging Service is a new feature in Lync Server 2013.</span></span> <span data-ttu-id="6beba-106">这是以前版本中提供的 **OCSLogger** 和 **OCSTracer** 工具的增强替代。</span><span class="sxs-lookup"><span data-stu-id="6beba-106">It is an enhanced replacement for the **OCSLogger** and **OCSTracer** tools that were provided in previous releases.</span></span> <span data-ttu-id="6beba-107">您可以使用集中日志记录服务执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="6beba-107">You can use the Centralized Logging Service to perform the following tasks:</span></span>
 
-  - <span data-ttu-id="3e71a-107">从一个位置使用单个命令在一台或多台计算机和池上开始日志记录。</span><span class="sxs-lookup"><span data-stu-id="3e71a-107">Start logging on one or more computers and pools from a single location and command.</span></span>
+  - <span data-ttu-id="6beba-108">从一个位置使用单个命令在一台或多台计算机和池上开始日志记录。</span><span class="sxs-lookup"><span data-stu-id="6beba-108">Start logging on one or more computers and pools from a single location and command.</span></span>
 
-  - <span data-ttu-id="3e71a-108">从一个位置使用单个命令在一台或多台计算机和池上停止日志记录。</span><span class="sxs-lookup"><span data-stu-id="3e71a-108">Stop logging on one or more computers and pools from a single location and command.</span></span>
+  - <span data-ttu-id="6beba-109">从一个位置使用单个命令在一台或多台计算机和池上停止日志记录。</span><span class="sxs-lookup"><span data-stu-id="6beba-109">Stop logging on one or more computers and pools from a single location and command.</span></span>
 
-  - <span data-ttu-id="3e71a-p102">从一个位置使用单个命令在一台或多台计算机和池中搜索日志。您可以定制搜索命令以返回在所有计算机上捕获和存储的日志的整个聚合，或返回捕获特定数据的拼接结果。</span><span class="sxs-lookup"><span data-stu-id="3e71a-p102">Search logs on one or more computers and pools for a single location and command. You can tailor the search command to return the entire aggregation of logs that were captured and stored on all machines, or return a trimmed-down result that captures specific data.</span></span>
+  - <span data-ttu-id="6beba-p102">从一个位置使用单个命令在一台或多台计算机和池中搜索日志。您可以定制搜索命令以返回在所有计算机上捕获和存储的日志的整个聚合，或返回捕获特定数据的拼接结果。</span><span class="sxs-lookup"><span data-stu-id="6beba-p102">Search logs on one or more computers and pools for a single location and command. You can tailor the search command to return the entire aggregation of logs that were captured and stored on all machines, or return a trimmed-down result that captures specific data.</span></span>
 
-  - <span data-ttu-id="3e71a-111">按如下方式配置日志记录会话：</span><span class="sxs-lookup"><span data-stu-id="3e71a-111">Configure logging sessions as follows:</span></span>
+  - <span data-ttu-id="6beba-112">按如下方式配置日志记录会话：</span><span class="sxs-lookup"><span data-stu-id="6beba-112">Configure logging sessions as follows:</span></span>
     
-      - <span data-ttu-id="3e71a-112">定义一个**方案**，或使用默认方案。</span><span class="sxs-lookup"><span data-stu-id="3e71a-112">Define a **Scenario**, or use a default scenario.</span></span> <span data-ttu-id="3e71a-113">集中日志记录服务中的 *方案* 由作用域 (全局或站点) 组成，方案名称用于标识方案的用途和一个或多个提供程序。</span><span class="sxs-lookup"><span data-stu-id="3e71a-113">A *scenario* in Centralized Logging Service is made up of scope (global or site), a scenario name to identify the purpose of the scenario, and one or more providers.</span></span> <span data-ttu-id="3e71a-114">您在任何给定的时间都可以在一台计算机上运行两个方案。</span><span class="sxs-lookup"><span data-stu-id="3e71a-114">You can run two scenarios at any given time on a computer.</span></span>
+      - <span data-ttu-id="6beba-113">定义一个**方案**，或使用默认方案。</span><span class="sxs-lookup"><span data-stu-id="6beba-113">Define a **Scenario**, or use a default scenario.</span></span> <span data-ttu-id="6beba-114">集中日志记录服务中的 *方案* 由作用域 (全局或站点) 组成，方案名称用于标识方案的用途和一个或多个提供程序。</span><span class="sxs-lookup"><span data-stu-id="6beba-114">A *scenario* in Centralized Logging Service is made up of scope (global or site), a scenario name to identify the purpose of the scenario, and one or more providers.</span></span> <span data-ttu-id="6beba-115">您在任何给定的时间都可以在一台计算机上运行两个方案。</span><span class="sxs-lookup"><span data-stu-id="6beba-115">You can run two scenarios at any given time on a computer.</span></span>
     
-      - <span data-ttu-id="3e71a-p104">使用现有*提供程序* 或创建新提供程序。*提供程序* 定义日志记录会话收集的内容、详细信息级别、要跟踪的组件以及应用的标志。</span><span class="sxs-lookup"><span data-stu-id="3e71a-p104">Use an existing *provider* or create a new provider. A *provider* defines what the logging session collects, what level of detail, what components to trace, and what flags are applied.</span></span>
+      - <span data-ttu-id="6beba-p104">使用现有*提供程序* 或创建新提供程序。*提供程序* 定义日志记录会话收集的内容、详细信息级别、要跟踪的组件以及应用的标志。</span><span class="sxs-lookup"><span data-stu-id="6beba-p104">Use an existing *provider* or create a new provider. A *provider* defines what the logging session collects, what level of detail, what components to trace, and what flags are applied.</span></span>
         
         <div>
         
 
         > [!TIP]  
-        > <span data-ttu-id="3e71a-117">如果您熟悉 OCSLogger，那就知道术语<EM>提供程序</EM> 指的是<STRONG>组件</STRONG>（例如，S4、SIPStack）、<STRONG>日志记录类型</STRONG>（例如，WPP、EventLog 或 IIS 日志文件）、<STRONG>跟踪级别</STRONG>（例如，全部、详细、调试）和<STRONG>标志</STRONG>（例如，TF_COMPONENT、TF_DIAG）的集合。</span><span class="sxs-lookup"><span data-stu-id="3e71a-117">If you are familiar with OCSLogger, the term <EM>providers</EM> refers to the collection of <STRONG>components</STRONG> (for example, S4, SIPStack), a <STRONG>logging type</STRONG> (for example, WPP, EventLog, or IIS logfile), a <STRONG>tracing level</STRONG> (for example, All, verbose, debug), and <STRONG>flags</STRONG> (for example, TF_COMPONENT, TF_DIAG).</span></span> <span data-ttu-id="3e71a-118">这些项目在提供程序 (Windows PowerShell 变量) 并传递到集中日志记录服务命令中进行定义。</span><span class="sxs-lookup"><span data-stu-id="3e71a-118">These items are defined in the provider (a Windows PowerShell variable) and passed into the Centralized Logging Service command.</span></span>
+        > <span data-ttu-id="6beba-118">如果您熟悉 OCSLogger，那就知道术语<EM>提供程序</EM> 指的是<STRONG>组件</STRONG>（例如，S4、SIPStack）、<STRONG>日志记录类型</STRONG>（例如，WPP、EventLog 或 IIS 日志文件）、<STRONG>跟踪级别</STRONG>（例如，全部、详细、调试）和<STRONG>标志</STRONG>（例如，TF_COMPONENT、TF_DIAG）的集合。</span><span class="sxs-lookup"><span data-stu-id="6beba-118">If you are familiar with OCSLogger, the term <EM>providers</EM> refers to the collection of <STRONG>components</STRONG> (for example, S4, SIPStack), a <STRONG>logging type</STRONG> (for example, WPP, EventLog, or IIS logfile), a <STRONG>tracing level</STRONG> (for example, All, verbose, debug), and <STRONG>flags</STRONG> (for example, TF_COMPONENT, TF_DIAG).</span></span> <span data-ttu-id="6beba-119">这些项目在提供程序 (Windows PowerShell 变量) 并传递到集中日志记录服务命令中进行定义。</span><span class="sxs-lookup"><span data-stu-id="6beba-119">These items are defined in the provider (a Windows PowerShell variable) and passed into the Centralized Logging Service command.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="3e71a-119">配置要从中收集日志的计算机和池。</span><span class="sxs-lookup"><span data-stu-id="3e71a-119">Configure the computers and pools that you want to collect logs from.</span></span>
+      - <span data-ttu-id="6beba-120">配置要从中收集日志的计算机和池。</span><span class="sxs-lookup"><span data-stu-id="6beba-120">Configure the computers and pools that you want to collect logs from.</span></span>
     
-      - <span data-ttu-id="3e71a-120">从选项“站点”\*\*\*\*（仅在该站点中的计算机上运行日志记录捕获）或“全局”\*\*\*\*（在部署中的所有计算机上运行日志记录捕获）定义日志记录会话的作用域。</span><span class="sxs-lookup"><span data-stu-id="3e71a-120">Define the scope for the logging session from the options **Site** (run logging captures on computers in that site only), or **Global** (run logging capture on all computers in the deployment).</span></span>
+      - <span data-ttu-id="6beba-121">从选项“站点”\*\*\*\*（仅在该站点中的计算机上运行日志记录捕获）或“全局”\*\*\*\*（在部署中的所有计算机上运行日志记录捕获）定义日志记录会话的作用域。</span><span class="sxs-lookup"><span data-stu-id="6beba-121">Define the scope for the logging session from the options **Site** (run logging captures on computers in that site only), or **Global** (run logging capture on all computers in the deployment).</span></span>
 
-<span data-ttu-id="3e71a-121">集中式日志记录服务极其强大，可以满足几乎所有对解决问题的需求—大或小。</span><span class="sxs-lookup"><span data-stu-id="3e71a-121">The Centralized Logging Service is extremely powerful and can meet nearly all of the needs for troubleshooting problems—large or small.</span></span> <span data-ttu-id="3e71a-122">从根本原因分析到性能问题，集中日志记录服务可能是任何管理员的重要工具。</span><span class="sxs-lookup"><span data-stu-id="3e71a-122">From root cause analysis to performance problems, the Centralized Logging Service can be an important tool for any administrator.</span></span> <span data-ttu-id="3e71a-123">所有示例都是使用 Lync Server 命令行管理程序显示的。</span><span class="sxs-lookup"><span data-stu-id="3e71a-123">All examples are shown using the Lync Server Management Shell.</span></span> <span data-ttu-id="3e71a-124">有一个命令行组件，其中包含名为 **CLSController.exe**的集中日志记录服务。</span><span class="sxs-lookup"><span data-stu-id="3e71a-124">There is a command-line component for the Centralized Logging Service called **CLSController.exe**.</span></span> <span data-ttu-id="3e71a-125">通过命令行工具本身为其提供了帮助。</span><span class="sxs-lookup"><span data-stu-id="3e71a-125">Help is provided for the command-line tool through the tool itself.</span></span> <span data-ttu-id="3e71a-126">但是，您可以从命令行执行的功能集有限。</span><span class="sxs-lookup"><span data-stu-id="3e71a-126">However, there is a limited set of functions that you can execute from the command line.</span></span> <span data-ttu-id="3e71a-127">通过使用 Lync Server 命令行管理程序，可以访问更大和更多可配置的功能集。</span><span class="sxs-lookup"><span data-stu-id="3e71a-127">By using Lync Server Management Shell, you have access to a much larger and much more configurable set of features.</span></span> <span data-ttu-id="3e71a-128">在使用集中式日志记录服务时，应始终将 Lync Server 命令行管理程序视为第一个和最重要的方法。</span><span class="sxs-lookup"><span data-stu-id="3e71a-128">You should always consider Lync Server Management Shell as the first and foremost method when using the Centralized Logging Service.</span></span>
+<span data-ttu-id="6beba-122">集中式日志记录服务极其强大，可以满足几乎所有对解决问题的需求—大或小。</span><span class="sxs-lookup"><span data-stu-id="6beba-122">The Centralized Logging Service is extremely powerful and can meet nearly all of the needs for troubleshooting problems—large or small.</span></span> <span data-ttu-id="6beba-123">从根本原因分析到性能问题，集中日志记录服务可能是任何管理员的重要工具。</span><span class="sxs-lookup"><span data-stu-id="6beba-123">From root cause analysis to performance problems, the Centralized Logging Service can be an important tool for any administrator.</span></span> <span data-ttu-id="6beba-124">所有示例都是使用 Lync Server 命令行管理程序显示的。</span><span class="sxs-lookup"><span data-stu-id="6beba-124">All examples are shown using the Lync Server Management Shell.</span></span> <span data-ttu-id="6beba-125">有一个命令行组件，其中包含名为 **CLSController.exe**的集中日志记录服务。</span><span class="sxs-lookup"><span data-stu-id="6beba-125">There is a command-line component for the Centralized Logging Service called **CLSController.exe**.</span></span> <span data-ttu-id="6beba-126">通过命令行工具本身为其提供了帮助。</span><span class="sxs-lookup"><span data-stu-id="6beba-126">Help is provided for the command-line tool through the tool itself.</span></span> <span data-ttu-id="6beba-127">但是，您可以从命令行执行的功能集有限。</span><span class="sxs-lookup"><span data-stu-id="6beba-127">However, there is a limited set of functions that you can execute from the command line.</span></span> <span data-ttu-id="6beba-128">通过使用 Lync Server 命令行管理程序，可以访问更大和更多可配置的功能集。</span><span class="sxs-lookup"><span data-stu-id="6beba-128">By using Lync Server Management Shell, you have access to a much larger and much more configurable set of features.</span></span> <span data-ttu-id="6beba-129">在使用集中式日志记录服务时，应始终将 Lync Server 命令行管理程序视为第一个和最重要的方法。</span><span class="sxs-lookup"><span data-stu-id="6beba-129">You should always consider Lync Server Management Shell as the first and foremost method when using the Centralized Logging Service.</span></span>
 
-<span data-ttu-id="3e71a-129">本节中的主题介绍如何使用集中日志记录服务以及如何使用其多项功能的示例。</span><span class="sxs-lookup"><span data-stu-id="3e71a-129">The topics in this section explain how to use the Centralized Logging Service and examples of how to use its many features.</span></span>
+<span data-ttu-id="6beba-130">本节中的主题介绍如何使用集中日志记录服务以及如何使用其多项功能的示例。</span><span class="sxs-lookup"><span data-stu-id="6beba-130">The topics in this section explain how to use the Centralized Logging Service and examples of how to use its many features.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3e71a-130">本部分内容</span><span class="sxs-lookup"><span data-stu-id="3e71a-130">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6beba-131">本部分内容</span><span class="sxs-lookup"><span data-stu-id="6beba-131">In This Section</span></span>
 
-  - [<span data-ttu-id="3e71a-131">Lync Server 2013 中的集中日志记录服务概述</span><span class="sxs-lookup"><span data-stu-id="3e71a-131">Overview of the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-centralized-logging-service.md)
+  - [<span data-ttu-id="6beba-132">Lync Server 2013 中的集中日志记录服务概述</span><span class="sxs-lookup"><span data-stu-id="6beba-132">Overview of the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-centralized-logging-service.md)
 
-  - [<span data-ttu-id="3e71a-132">在 Lync Server 2013 中管理集中日志记录服务配置设置</span><span class="sxs-lookup"><span data-stu-id="3e71a-132">Managing the Centralized Logging Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)
+  - [<span data-ttu-id="6beba-133">在 Lync Server 2013 中管理集中日志记录服务配置设置</span><span class="sxs-lookup"><span data-stu-id="6beba-133">Managing the Centralized Logging Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)
 
-  - [<span data-ttu-id="3e71a-133">了解 Lync Server 2013 中的集中日志记录服务配置设置</span><span class="sxs-lookup"><span data-stu-id="3e71a-133">Understanding Centralized Logging Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-understanding-centralized-logging-service-configuration-settings.md)
+  - [<span data-ttu-id="6beba-134">了解 Lync Server 2013 中的集中日志记录服务配置设置</span><span class="sxs-lookup"><span data-stu-id="6beba-134">Understanding Centralized Logging Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-understanding-centralized-logging-service-configuration-settings.md)
 
-  - [<span data-ttu-id="3e71a-134">使用 Start 实现集中日志记录服务以在 Lync Server 2013 中捕获日志</span><span class="sxs-lookup"><span data-stu-id="3e71a-134">Using Start for the Centralized Logging Service to capture logs in Lync Server 2013</span></span>](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)
+  - [<span data-ttu-id="6beba-135">使用 Start 实现集中日志记录服务以在 Lync Server 2013 中捕获日志</span><span class="sxs-lookup"><span data-stu-id="6beba-135">Using Start for the Centralized Logging Service to capture logs in Lync Server 2013</span></span>](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)
 
-  - [<span data-ttu-id="3e71a-135">在 Lync Server 2013 中对集中日志记录服务使用停止</span><span class="sxs-lookup"><span data-stu-id="3e71a-135">Using Stop for the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-using-stop-for-the-centralized-logging-service.md)
+  - [<span data-ttu-id="6beba-136">在 Lync Server 2013 中对集中日志记录服务使用停止</span><span class="sxs-lookup"><span data-stu-id="6beba-136">Using Stop for the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-using-stop-for-the-centralized-logging-service.md)
 
-  - [<span data-ttu-id="3e71a-136">使用 Lync Server 2013 中的集中日志记录服务创建的捕获日志的搜索</span><span class="sxs-lookup"><span data-stu-id="3e71a-136">Using search on capture logs created by the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-using-search-on-capture-logs-created-by-the-centralized-logging-service.md)
+  - [<span data-ttu-id="6beba-137">使用 Lync Server 2013 中的集中日志记录服务创建的捕获日志的搜索</span><span class="sxs-lookup"><span data-stu-id="6beba-137">Using search on capture logs created by the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-using-search-on-capture-logs-created-by-the-centralized-logging-service.md)
 
-  - [<span data-ttu-id="3e71a-137">从 Lync Server 2013 中的集中日志记录服务读取捕获日志</span><span class="sxs-lookup"><span data-stu-id="3e71a-137">Reading capture logs from the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-reading-capture-logs-from-the-centralized-logging-service.md)
+  - [<span data-ttu-id="6beba-138">从 Lync Server 2013 中的集中日志记录服务读取捕获日志</span><span class="sxs-lookup"><span data-stu-id="6beba-138">Reading capture logs from the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-reading-capture-logs-from-the-centralized-logging-service.md)
 
 </div>
 

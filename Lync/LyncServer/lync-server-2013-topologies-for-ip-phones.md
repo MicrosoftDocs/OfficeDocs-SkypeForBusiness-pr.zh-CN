@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：用于 IP 电话的拓扑
+description: Lync Server 2013： IP 电话的拓扑。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85ffe6b610cfbeb50239b64d1ed7448af4fa41bb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7a151a83a69e1f7e14dcbed8d8ab1038157fa839
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523619"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549128"
 ---
-# <a name="topologies-for-ip-phones-in-lync-server-2013"></a><span data-ttu-id="542a2-102">Lync Server 2013 中的 IP 电话拓扑</span><span class="sxs-lookup"><span data-stu-id="542a2-102">Topologies for IP phones in Lync Server 2013</span></span>
+# <a name="topologies-for-ip-phones-in-lync-server-2013"></a><span data-ttu-id="9393c-103">Lync Server 2013 中的 IP 电话拓扑</span><span class="sxs-lookup"><span data-stu-id="9393c-103">Topologies for IP phones in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,47 +38,47 @@ ms.locfileid: "48523619"
 
 <span> </span>
 
-<span data-ttu-id="542a2-103">_**上次修改的主题：** 2012-06-21_</span><span class="sxs-lookup"><span data-stu-id="542a2-103">_**Topic Last Modified:** 2012-06-21_</span></span>
+<span data-ttu-id="9393c-104">_**上次修改的主题：** 2012-06-21_</span><span class="sxs-lookup"><span data-stu-id="9393c-104">_**Topic Last Modified:** 2012-06-21_</span></span>
 
-<span data-ttu-id="542a2-104">本节概述连接过程，并介绍 IP 电话在内部和外部网络中的连接方式之间的差异。</span><span class="sxs-lookup"><span data-stu-id="542a2-104">This section provides an overview of the connectivity process and explains the differences between how an IP phone connects in an internal and external network.</span></span>
+<span data-ttu-id="9393c-105">本节概述连接过程，并介绍 IP 电话在内部和外部网络中的连接方式之间的差异。</span><span class="sxs-lookup"><span data-stu-id="9393c-105">This section provides an overview of the connectivity process and explains the differences between how an IP phone connects in an internal and external network.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="542a2-105">Lync Server 支持以下 IP 电话： Aastra 6721ip 公共区域电话、Aastra 6725ip 办公桌电话、HP 4110 IP Phone (常见区域电话) 、HP 4120 IP 电话 (桌面电话) 、Polycom CX600 IP 桌面电话、Polycom CX700 IP 桌面电话、Polycom CX500 IP 公用区域电话和 Polycom CX3000 IP 会议电话。</span><span class="sxs-lookup"><span data-stu-id="542a2-105">Lync Server provides support for the following IP phones: the Aastra 6721ip common area phone, Aastra 6725ip desk phone, HP 4110 IP Phone (common area phone), HP 4120 IP Phone (desk phone), Polycom CX600 IP desk phone, Polycom CX700 IP desk phone, Polycom CX500 IP common area phone, and Polycom CX3000 IP conference phone.</span></span> <span data-ttu-id="542a2-106">在这些电话中，除 Polycom CX700 之外的所有其他电话都可以运行 Lync Phone Edition。</span><span class="sxs-lookup"><span data-stu-id="542a2-106">Of those phones, all but the Polycom CX700 can run Lync Phone Edition.</span></span>
+> <span data-ttu-id="9393c-106">Lync Server 支持以下 IP 电话： Aastra 6721ip 公共区域电话、Aastra 6725ip 办公桌电话、HP 4110 IP Phone (常见区域电话) 、HP 4120 IP 电话 (桌面电话) 、Polycom CX600 IP 桌面电话、Polycom CX700 IP 桌面电话、Polycom CX500 IP 公用区域电话和 Polycom CX3000 IP 会议电话。</span><span class="sxs-lookup"><span data-stu-id="9393c-106">Lync Server provides support for the following IP phones: the Aastra 6721ip common area phone, Aastra 6725ip desk phone, HP 4110 IP Phone (common area phone), HP 4120 IP Phone (desk phone), Polycom CX600 IP desk phone, Polycom CX700 IP desk phone, Polycom CX500 IP common area phone, and Polycom CX3000 IP conference phone.</span></span> <span data-ttu-id="9393c-107">在这些电话中，除 Polycom CX700 之外的所有其他电话都可以运行 Lync Phone Edition。</span><span class="sxs-lookup"><span data-stu-id="9393c-107">Of those phones, all but the Polycom CX700 can run Lync Phone Edition.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="542a2-107">下图介绍在企业环境下设备连接涉及的所有组件。</span><span class="sxs-lookup"><span data-stu-id="542a2-107">The following diagram describes all the components involved in device connectivity within the corporate environment.</span></span>
+<span data-ttu-id="9393c-108">下图介绍在企业环境下设备连接涉及的所有组件。</span><span class="sxs-lookup"><span data-stu-id="9393c-108">The following diagram describes all the components involved in device connectivity within the corporate environment.</span></span>
 
-<span data-ttu-id="542a2-108">**内部拓扑**</span><span class="sxs-lookup"><span data-stu-id="542a2-108">**Internal Topology**</span></span>
+<span data-ttu-id="9393c-109">**内部拓扑**</span><span class="sxs-lookup"><span data-stu-id="9393c-109">**Internal Topology**</span></span>
 
-<span data-ttu-id="542a2-109">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span><span class="sxs-lookup"><span data-stu-id="542a2-109">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span></span>
+<span data-ttu-id="9393c-110">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span><span class="sxs-lookup"><span data-stu-id="9393c-110">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="542a2-110">上图采用逻辑表示形式，而非物理概述。</span><span class="sxs-lookup"><span data-stu-id="542a2-110">The previous figure is a logical representation, not a physical overview.</span></span> <span data-ttu-id="542a2-111">例如，Active Directory 域服务 (AD DS) 很少与任何 Lync Server 组件位于同一台计算机上。</span><span class="sxs-lookup"><span data-stu-id="542a2-111">For example, Active Directory Domain Services (AD DS) is rarely located on the same machine as any Lync Server components.</span></span> <span data-ttu-id="542a2-112">用户存储可以位于后端服务器上，也可以位于存档服务器和监控服务器上。</span><span class="sxs-lookup"><span data-stu-id="542a2-112">The user store can be located on the Back End Server or on the Archiving and Monitoring Servers.</span></span> <span data-ttu-id="542a2-113">Lync Server 命令行管理程序、web 服务器和更新服务都是前端服务器角色的一部分。</span><span class="sxs-lookup"><span data-stu-id="542a2-113">The Lync Server Management Shell, web server, and update services are all part of the Front End Server role.</span></span>
+> <span data-ttu-id="9393c-111">上图采用逻辑表示形式，而非物理概述。</span><span class="sxs-lookup"><span data-stu-id="9393c-111">The previous figure is a logical representation, not a physical overview.</span></span> <span data-ttu-id="9393c-112">例如，Active Directory 域服务 (AD DS) 很少与任何 Lync Server 组件位于同一台计算机上。</span><span class="sxs-lookup"><span data-stu-id="9393c-112">For example, Active Directory Domain Services (AD DS) is rarely located on the same machine as any Lync Server components.</span></span> <span data-ttu-id="9393c-113">用户存储可以位于后端服务器上，也可以位于存档服务器和监控服务器上。</span><span class="sxs-lookup"><span data-stu-id="9393c-113">The user store can be located on the Back End Server or on the Archiving and Monitoring Servers.</span></span> <span data-ttu-id="9393c-114">Lync Server 命令行管理程序、web 服务器和更新服务都是前端服务器角色的一部分。</span><span class="sxs-lookup"><span data-stu-id="9393c-114">The Lync Server Management Shell, web server, and update services are all part of the Front End Server role.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="542a2-114">下图概述设备位于企业网络外部时涉及的组件。</span><span class="sxs-lookup"><span data-stu-id="542a2-114">The following diagram provides an overview of the components involved when the device is located outside the corporate network.</span></span>
+<span data-ttu-id="9393c-115">下图概述设备位于企业网络外部时涉及的组件。</span><span class="sxs-lookup"><span data-stu-id="9393c-115">The following diagram provides an overview of the components involved when the device is located outside the corporate network.</span></span>
 
-<span data-ttu-id="542a2-115">**外部拓扑**</span><span class="sxs-lookup"><span data-stu-id="542a2-115">**External Topology**</span></span>
+<span data-ttu-id="9393c-116">**外部拓扑**</span><span class="sxs-lookup"><span data-stu-id="9393c-116">**External Topology**</span></span>
 
-<span data-ttu-id="542a2-116">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span><span class="sxs-lookup"><span data-stu-id="542a2-116">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span></span>
+<span data-ttu-id="9393c-117">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span><span class="sxs-lookup"><span data-stu-id="9393c-117">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="542a2-117">设备更新 Web 服务提供外部和内部网站，但此处仅显示外部网站。</span><span class="sxs-lookup"><span data-stu-id="542a2-117">The Device Update Web service provides an external and internal website, but only the external one is shown here.</span></span><BR><span data-ttu-id="542a2-p103">如果要启用外部访问，则必须在 DNS 中发布注册器的位置和组织设备更新 Web 服务的 URL。此外，还必须部署和正确配置边缘服务器，以允许从设备到企业环境的往返外部通信。上图省略了该内容，因为边缘部署并非特定于设备连接。</span><span class="sxs-lookup"><span data-stu-id="542a2-p103">The location of the Registrar and the URL of the Device Update Web service for the organization must be published in DNS if external access is to be enabled. Additionally, the Edge Server must be deployed and correctly configured to allow external communications from the device to the corporate environment and back. This is omitted from the previous diagram because Edge deployment is not specific to device connectivity.</span></span>
+> <span data-ttu-id="9393c-118">设备更新 Web 服务提供外部和内部网站，但此处仅显示外部网站。</span><span class="sxs-lookup"><span data-stu-id="9393c-118">The Device Update Web service provides an external and internal website, but only the external one is shown here.</span></span><BR><span data-ttu-id="9393c-p103">如果要启用外部访问，则必须在 DNS 中发布注册器的位置和组织设备更新 Web 服务的 URL。此外，还必须部署和正确配置边缘服务器，以允许从设备到企业环境的往返外部通信。上图省略了该内容，因为边缘部署并非特定于设备连接。</span><span class="sxs-lookup"><span data-stu-id="9393c-p103">The location of the Registrar and the URL of the Device Update Web service for the organization must be published in DNS if external access is to be enabled. Additionally, the Edge Server must be deployed and correctly configured to allow external communications from the device to the corporate environment and back. This is omitted from the previous diagram because Edge deployment is not specific to device connectivity.</span></span>
 
 
 

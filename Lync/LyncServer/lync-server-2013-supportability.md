@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 可支持性
+description: Lync Server 2013 可支持性。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0d5db43e1ef9e18e06952dc00b7187b3444051b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1f1251d856f935b0c5a23b2127c0f50f8b13716a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519389"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549878"
 ---
-# <a name="supportability-for-lync-server-2013"></a><span data-ttu-id="7c901-102">Lync Server 2013 的可支持性</span><span class="sxs-lookup"><span data-stu-id="7c901-102">Supportability for Lync Server 2013</span></span>
+# <a name="supportability-for-lync-server-2013"></a><span data-ttu-id="fb8cb-103">Lync Server 2013 的可支持性</span><span class="sxs-lookup"><span data-stu-id="fb8cb-103">Supportability for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,29 +38,29 @@ ms.locfileid: "48519389"
 
 <span> </span>
 
-<span data-ttu-id="7c901-103">_**上次修改的主题：** 2012-04-23_</span><span class="sxs-lookup"><span data-stu-id="7c901-103">_**Topic Last Modified:** 2012-04-23_</span></span>
+<span data-ttu-id="fb8cb-104">_**上次修改的主题：** 2012-04-23_</span><span class="sxs-lookup"><span data-stu-id="fb8cb-104">_**Topic Last Modified:** 2012-04-23_</span></span>
 
-<span data-ttu-id="7c901-104">Microsoft Lync Server 2013 通信软件支持拓扑，这些拓扑旨在满足小型、中型或大型组织的需求，并且具有对性能、高可用性和可伸缩性的不同要求。</span><span class="sxs-lookup"><span data-stu-id="7c901-104">Microsoft Lync Server 2013 communications software supports topologies that are designed to meet the needs of organizations that are small, medium, or large and that have varying requirements for performance, high availability, and scalability.</span></span>
+<span data-ttu-id="fb8cb-105">Microsoft Lync Server 2013 通信软件支持拓扑，这些拓扑旨在满足小型、中型或大型组织的需求，并且具有对性能、高可用性和可伸缩性的不同要求。</span><span class="sxs-lookup"><span data-stu-id="fb8cb-105">Microsoft Lync Server 2013 communications software supports topologies that are designed to meet the needs of organizations that are small, medium, or large and that have varying requirements for performance, high availability, and scalability.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="7c901-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="7c901-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fb8cb-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="fb8cb-106">In This Section</span></span>
 
-  - [<span data-ttu-id="7c901-106">Lync Server 2013 中的 Active Directory 支持</span><span class="sxs-lookup"><span data-stu-id="7c901-106">Active Directory support in Lync Server 2013</span></span>](lync-server-2013-active-directory-support.md)
+  - [<span data-ttu-id="fb8cb-107">Lync Server 2013 中的 Active Directory 支持</span><span class="sxs-lookup"><span data-stu-id="fb8cb-107">Active Directory support in Lync Server 2013</span></span>](lync-server-2013-active-directory-support.md)
 
-  - [<span data-ttu-id="7c901-107">Lync Server 2013 中支持的拓扑</span><span class="sxs-lookup"><span data-stu-id="7c901-107">Supported topologies in Lync Server 2013</span></span>](lync-server-2013-supported-topologies.md)
+  - [<span data-ttu-id="fb8cb-108">Lync Server 2013 中支持的拓扑</span><span class="sxs-lookup"><span data-stu-id="fb8cb-108">Supported topologies in Lync Server 2013</span></span>](lync-server-2013-supported-topologies.md)
 
-  - [<span data-ttu-id="7c901-108">Lync Server 2013 中支持的服务器并置</span><span class="sxs-lookup"><span data-stu-id="7c901-108">Supported server collocation in Lync Server 2013</span></span>](lync-server-2013-supported-server-collocation.md)
+  - [<span data-ttu-id="fb8cb-109">Lync Server 2013 中支持的服务器并置</span><span class="sxs-lookup"><span data-stu-id="fb8cb-109">Supported server collocation in Lync Server 2013</span></span>](lync-server-2013-supported-server-collocation.md)
 
-  - [<span data-ttu-id="7c901-109">Lync Server 2013 中支持的迁移路径和共存方案</span><span class="sxs-lookup"><span data-stu-id="7c901-109">Supported migration paths and coexistence scenarios in Lync Server 2013</span></span>](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md)
+  - [<span data-ttu-id="fb8cb-110">Lync Server 2013 中支持的迁移路径和共存方案</span><span class="sxs-lookup"><span data-stu-id="fb8cb-110">Supported migration paths and coexistence scenarios in Lync Server 2013</span></span>](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md)
 
-  - [<span data-ttu-id="7c901-110">Lync Server 2013 支持的硬件</span><span class="sxs-lookup"><span data-stu-id="7c901-110">Supported hardware for Lync Server 2013</span></span>](lync-server-2013-supported-hardware.md)
+  - [<span data-ttu-id="fb8cb-111">Lync Server 2013 支持的硬件</span><span class="sxs-lookup"><span data-stu-id="fb8cb-111">Supported hardware for Lync Server 2013</span></span>](lync-server-2013-supported-hardware.md)
 
-  - [<span data-ttu-id="7c901-111">Lync Server 2013 中的服务器软件和基础结构支持</span><span class="sxs-lookup"><span data-stu-id="7c901-111">Server software and infrastructure support in Lync Server 2013</span></span>](lync-server-2013-server-software-and-infrastructure-support.md)
+  - [<span data-ttu-id="fb8cb-112">Lync Server 2013 中的服务器软件和基础结构支持</span><span class="sxs-lookup"><span data-stu-id="fb8cb-112">Server software and infrastructure support in Lync Server 2013</span></span>](lync-server-2013-server-software-and-infrastructure-support.md)
 
-  - [<span data-ttu-id="7c901-112">Lync Server 2013 中的其他服务器支持和要求</span><span class="sxs-lookup"><span data-stu-id="7c901-112">Additional server support and requirements in Lync Server 2013</span></span>](lync-server-2013-additional-server-support-and-requirements.md)
+  - [<span data-ttu-id="fb8cb-113">Lync Server 2013 中的其他服务器支持和要求</span><span class="sxs-lookup"><span data-stu-id="fb8cb-113">Additional server support and requirements in Lync Server 2013</span></span>](lync-server-2013-additional-server-support-and-requirements.md)
 
-  - [<span data-ttu-id="7c901-113">Lync Server 2013 中的客户端和设备软件和基础结构支持</span><span class="sxs-lookup"><span data-stu-id="7c901-113">Client and device software and infrastructure support in Lync Server 2013</span></span>](lync-server-2013-client-and-device-software-and-infrastructure-support.md)
+  - [<span data-ttu-id="fb8cb-114">Lync Server 2013 中的客户端和设备软件和基础结构支持</span><span class="sxs-lookup"><span data-stu-id="fb8cb-114">Client and device software and infrastructure support in Lync Server 2013</span></span>](lync-server-2013-client-and-device-software-and-infrastructure-support.md)
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： UserAgentDef 表
+description: Lync Server 2013： UserAgentDef 表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ef005350d5ed9a4dee3f108a4cf9e3349389d1c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a9b12239d0d6ba6e04a708708a1740dbf02c0e07
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530069"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548638"
 ---
-# <a name="useragentdef-table-in-lync-server-2013"></a><span data-ttu-id="d57a9-102">Lync Server 2013 中的 UserAgentDef 表</span><span class="sxs-lookup"><span data-stu-id="d57a9-102">UserAgentDef table in Lync Server 2013</span></span>
+# <a name="useragentdef-table-in-lync-server-2013"></a><span data-ttu-id="d11fd-103">Lync Server 2013 中的 UserAgentDef 表</span><span class="sxs-lookup"><span data-stu-id="d11fd-103">UserAgentDef table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48530069"
 
 <span> </span>
 
-<span data-ttu-id="d57a9-103">_**上次修改的主题：** 2014-03-25_</span><span class="sxs-lookup"><span data-stu-id="d57a9-103">_**Topic Last Modified:** 2014-03-25_</span></span>
+<span data-ttu-id="d11fd-104">_**上次修改的主题：** 2014-03-25_</span><span class="sxs-lookup"><span data-stu-id="d11fd-104">_**Topic Last Modified:** 2014-03-25_</span></span>
 
-<span data-ttu-id="d57a9-104">UserAgentDef 表将用户代理标识符映射到代理的描述性名称。</span><span class="sxs-lookup"><span data-stu-id="d57a9-104">The UserAgentDef table maps user agent identifiers to the agent’s descriptive names.</span></span> <span data-ttu-id="d57a9-105">用户代理是用于连接到 Microsoft Lync Server 2013 的软件客户端。</span><span class="sxs-lookup"><span data-stu-id="d57a9-105">User agents are software clients used to connect to Microsoft Lync Server 2013.</span></span> <span data-ttu-id="d57a9-106">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="d57a9-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="d11fd-105">UserAgentDef 表将用户代理标识符映射到代理的描述性名称。</span><span class="sxs-lookup"><span data-stu-id="d11fd-105">The UserAgentDef table maps user agent identifiers to the agent’s descriptive names.</span></span> <span data-ttu-id="d11fd-106">用户代理是用于连接到 Microsoft Lync Server 2013 的软件客户端。</span><span class="sxs-lookup"><span data-stu-id="d11fd-106">User agents are software clients used to connect to Microsoft Lync Server 2013.</span></span> <span data-ttu-id="d11fd-107">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="d11fd-107">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -50,206 +51,206 @@ ms.locfileid: "48530069"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d57a9-107">UAType</span><span class="sxs-lookup"><span data-stu-id="d57a9-107">UAType</span></span></th>
-<th><span data-ttu-id="d57a9-108">UAName</span><span class="sxs-lookup"><span data-stu-id="d57a9-108">UAName</span></span></th>
-<th><span data-ttu-id="d57a9-109">UACategory</span><span class="sxs-lookup"><span data-stu-id="d57a9-109">UACategory</span></span></th>
+<th><span data-ttu-id="d11fd-108">UAType</span><span class="sxs-lookup"><span data-stu-id="d11fd-108">UAType</span></span></th>
+<th><span data-ttu-id="d11fd-109">UAName</span><span class="sxs-lookup"><span data-stu-id="d11fd-109">UAName</span></span></th>
+<th><span data-ttu-id="d11fd-110">UACategory</span><span class="sxs-lookup"><span data-stu-id="d11fd-110">UACategory</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-110">1</span><span class="sxs-lookup"><span data-stu-id="d57a9-110">1</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-111">MediationServer</span><span class="sxs-lookup"><span data-stu-id="d57a9-111">MediationServer</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-112">MediationServer</span><span class="sxs-lookup"><span data-stu-id="d57a9-112">MediationServer</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-111">1</span><span class="sxs-lookup"><span data-stu-id="d11fd-111">1</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-112">MediationServer</span><span class="sxs-lookup"><span data-stu-id="d11fd-112">MediationServer</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-113">MediationServer</span><span class="sxs-lookup"><span data-stu-id="d11fd-113">MediationServer</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-113">双面</span><span class="sxs-lookup"><span data-stu-id="d57a9-113">2</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-114">AV-MCU</span><span class="sxs-lookup"><span data-stu-id="d57a9-114">AV-MCU</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-115">AV-MCU</span><span class="sxs-lookup"><span data-stu-id="d57a9-115">AV-MCU</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-114">双面</span><span class="sxs-lookup"><span data-stu-id="d11fd-114">2</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-115">AV-MCU</span><span class="sxs-lookup"><span data-stu-id="d11fd-115">AV-MCU</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-116">AV-MCU</span><span class="sxs-lookup"><span data-stu-id="d11fd-116">AV-MCU</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-116">4 </span><span class="sxs-lookup"><span data-stu-id="d57a9-116">4</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-117">OC</span><span class="sxs-lookup"><span data-stu-id="d57a9-117">OC</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-118">OC</span><span class="sxs-lookup"><span data-stu-id="d57a9-118">OC</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-117">4 </span><span class="sxs-lookup"><span data-stu-id="d11fd-117">4</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-118">OC</span><span class="sxs-lookup"><span data-stu-id="d11fd-118">OC</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-119">OC</span><span class="sxs-lookup"><span data-stu-id="d11fd-119">OC</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-119">8 </span><span class="sxs-lookup"><span data-stu-id="d57a9-119">8</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-120">OCPhone</span><span class="sxs-lookup"><span data-stu-id="d57a9-120">OCPhone</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-121">OCPhone</span><span class="sxs-lookup"><span data-stu-id="d57a9-121">OCPhone</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-120">8 </span><span class="sxs-lookup"><span data-stu-id="d11fd-120">8</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-121">OCPhone</span><span class="sxs-lookup"><span data-stu-id="d11fd-121">OCPhone</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-122">OCPhone</span><span class="sxs-lookup"><span data-stu-id="d11fd-122">OCPhone</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-122">16 </span><span class="sxs-lookup"><span data-stu-id="d57a9-122">16</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-123">LMC</span><span class="sxs-lookup"><span data-stu-id="d57a9-123">LMC</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-124">LMC</span><span class="sxs-lookup"><span data-stu-id="d57a9-124">LMC</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-123">16 </span><span class="sxs-lookup"><span data-stu-id="d11fd-123">16</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-124">LMC</span><span class="sxs-lookup"><span data-stu-id="d11fd-124">LMC</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-125">LMC</span><span class="sxs-lookup"><span data-stu-id="d11fd-125">LMC</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-125">32</span><span class="sxs-lookup"><span data-stu-id="d57a9-125">32</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-126">DVT</span><span class="sxs-lookup"><span data-stu-id="d57a9-126">DVT</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-127">DVT</span><span class="sxs-lookup"><span data-stu-id="d57a9-127">DVT</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-126">32</span><span class="sxs-lookup"><span data-stu-id="d11fd-126">32</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-127">DVT</span><span class="sxs-lookup"><span data-stu-id="d11fd-127">DVT</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-128">DVT</span><span class="sxs-lookup"><span data-stu-id="d11fd-128">DVT</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-128">64</span><span class="sxs-lookup"><span data-stu-id="d57a9-128">64</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-129">MM</span><span class="sxs-lookup"><span data-stu-id="d57a9-129">MM</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-130">MM</span><span class="sxs-lookup"><span data-stu-id="d57a9-130">MM</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-129">64</span><span class="sxs-lookup"><span data-stu-id="d11fd-129">64</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-130">MM</span><span class="sxs-lookup"><span data-stu-id="d11fd-130">MM</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-131">MM</span><span class="sxs-lookup"><span data-stu-id="d11fd-131">MM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-131">64</span><span class="sxs-lookup"><span data-stu-id="d57a9-131">64</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-132">EMC</span><span class="sxs-lookup"><span data-stu-id="d57a9-132">MC</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-133">MM</span><span class="sxs-lookup"><span data-stu-id="d57a9-133">MM</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-132">64</span><span class="sxs-lookup"><span data-stu-id="d11fd-132">64</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-133">EMC</span><span class="sxs-lookup"><span data-stu-id="d11fd-133">MC</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-134">MM</span><span class="sxs-lookup"><span data-stu-id="d11fd-134">MM</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-134">128</span><span class="sxs-lookup"><span data-stu-id="d57a9-134">128</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-135">助理版</span><span class="sxs-lookup"><span data-stu-id="d57a9-135">Attendant</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-136">助理版</span><span class="sxs-lookup"><span data-stu-id="d57a9-136">Attendant</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-135">128</span><span class="sxs-lookup"><span data-stu-id="d11fd-135">128</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-136">助理版</span><span class="sxs-lookup"><span data-stu-id="d11fd-136">Attendant</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-137">助理版</span><span class="sxs-lookup"><span data-stu-id="d11fd-137">Attendant</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-137">256</span><span class="sxs-lookup"><span data-stu-id="d57a9-137">256</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-138">Conferencing_Announcement_Service_1 0</span><span class="sxs-lookup"><span data-stu-id="d57a9-138">Conferencing_Announcement_Service_1.0</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-139">CAS</span><span class="sxs-lookup"><span data-stu-id="d57a9-139">CAS</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-138">256</span><span class="sxs-lookup"><span data-stu-id="d11fd-138">256</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-139">Conferencing_Announcement_Service_1 0</span><span class="sxs-lookup"><span data-stu-id="d11fd-139">Conferencing_Announcement_Service_1.0</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-140">CAS</span><span class="sxs-lookup"><span data-stu-id="d11fd-140">CAS</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-140">512</span><span class="sxs-lookup"><span data-stu-id="d57a9-140">512</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-141">Conferencing_Attendant_1 0</span><span class="sxs-lookup"><span data-stu-id="d57a9-141">Conferencing_Attendant_1.0</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-142">CAA</span><span class="sxs-lookup"><span data-stu-id="d57a9-142">CAA</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-141">512</span><span class="sxs-lookup"><span data-stu-id="d11fd-141">512</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-142">Conferencing_Attendant_1 0</span><span class="sxs-lookup"><span data-stu-id="d11fd-142">Conferencing_Attendant_1.0</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-143">CAA</span><span class="sxs-lookup"><span data-stu-id="d11fd-143">CAA</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-143">512</span><span class="sxs-lookup"><span data-stu-id="d57a9-143">512</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-144">Conference_Auto_Attendant_1 0</span><span class="sxs-lookup"><span data-stu-id="d57a9-144">Conference_Auto_Attendant_1.0</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-145">CAA</span><span class="sxs-lookup"><span data-stu-id="d57a9-145">CAA</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-144">512</span><span class="sxs-lookup"><span data-stu-id="d11fd-144">512</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-145">Conference_Auto_Attendant_1 0</span><span class="sxs-lookup"><span data-stu-id="d11fd-145">Conference_Auto_Attendant_1.0</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-146">CAA</span><span class="sxs-lookup"><span data-stu-id="d11fd-146">CAA</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-146">1024</span><span class="sxs-lookup"><span data-stu-id="d57a9-146">1024</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-147">Response_Group_Service</span><span class="sxs-lookup"><span data-stu-id="d57a9-147">Response_Group_Service</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-148">RGS</span><span class="sxs-lookup"><span data-stu-id="d57a9-148">RGS</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-147">1024</span><span class="sxs-lookup"><span data-stu-id="d11fd-147">1024</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-148">Response_Group_Service</span><span class="sxs-lookup"><span data-stu-id="d11fd-148">Response_Group_Service</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-149">RGS</span><span class="sxs-lookup"><span data-stu-id="d11fd-149">RGS</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-149">1032</span><span class="sxs-lookup"><span data-stu-id="d57a9-149">1032</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-150">Call_Park_Service_1 0</span><span class="sxs-lookup"><span data-stu-id="d57a9-150">Call_Park_Service_1.0</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-151">CPS</span><span class="sxs-lookup"><span data-stu-id="d57a9-151">CPS</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-150">1032</span><span class="sxs-lookup"><span data-stu-id="d11fd-150">1032</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-151">Call_Park_Service_1 0</span><span class="sxs-lookup"><span data-stu-id="d11fd-151">Call_Park_Service_1.0</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-152">CPS</span><span class="sxs-lookup"><span data-stu-id="d11fd-152">CPS</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-152">1040</span><span class="sxs-lookup"><span data-stu-id="d57a9-152">1040</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-153">Response_Group_Service Announcement_Service</span><span class="sxs-lookup"><span data-stu-id="d57a9-153">Response_Group_Service Announcement_Service</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-154">AS</span><span class="sxs-lookup"><span data-stu-id="d57a9-154">AS</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-153">1040</span><span class="sxs-lookup"><span data-stu-id="d11fd-153">1040</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-154">Response_Group_Service Announcement_Service</span><span class="sxs-lookup"><span data-stu-id="d11fd-154">Response_Group_Service Announcement_Service</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-155">AS</span><span class="sxs-lookup"><span data-stu-id="d11fd-155">AS</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-155">2048</span><span class="sxs-lookup"><span data-stu-id="d57a9-155">2048</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-156">Microsoft Ccs</span><span class="sxs-lookup"><span data-stu-id="d57a9-156">Microsoft.Rtc.Applications.Ccs</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-157">CCS</span><span class="sxs-lookup"><span data-stu-id="d57a9-157">CCS</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-156">2048</span><span class="sxs-lookup"><span data-stu-id="d11fd-156">2048</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-157">Microsoft Ccs</span><span class="sxs-lookup"><span data-stu-id="d11fd-157">Microsoft.Rtc.Applications.Ccs</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-158">CCS</span><span class="sxs-lookup"><span data-stu-id="d11fd-158">CCS</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-158">16386</span><span class="sxs-lookup"><span data-stu-id="d57a9-158">16386</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-159">CoMo</span><span class="sxs-lookup"><span data-stu-id="d57a9-159">CoMo</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-160">CoMo</span><span class="sxs-lookup"><span data-stu-id="d57a9-160">CoMo</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-159">16386</span><span class="sxs-lookup"><span data-stu-id="d11fd-159">16386</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-160">CoMo</span><span class="sxs-lookup"><span data-stu-id="d11fd-160">CoMo</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-161">CoMo</span><span class="sxs-lookup"><span data-stu-id="d11fd-161">CoMo</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-161">16387</span><span class="sxs-lookup"><span data-stu-id="d57a9-161">16387</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-162">CWA</span><span class="sxs-lookup"><span data-stu-id="d57a9-162">CWA</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-163">CWA</span><span class="sxs-lookup"><span data-stu-id="d57a9-163">CWA</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-162">16387</span><span class="sxs-lookup"><span data-stu-id="d11fd-162">16387</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-163">CWA</span><span class="sxs-lookup"><span data-stu-id="d11fd-163">CWA</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-164">CWA</span><span class="sxs-lookup"><span data-stu-id="d11fd-164">CWA</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-164">16388</span><span class="sxs-lookup"><span data-stu-id="d57a9-164">16388</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-165">InboundRouting</span><span class="sxs-lookup"><span data-stu-id="d57a9-165">InboundRouting</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-166">InboundRouting</span><span class="sxs-lookup"><span data-stu-id="d57a9-166">InboundRouting</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-165">16388</span><span class="sxs-lookup"><span data-stu-id="d11fd-165">16388</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-166">InboundRouting</span><span class="sxs-lookup"><span data-stu-id="d11fd-166">InboundRouting</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-167">InboundRouting</span><span class="sxs-lookup"><span data-stu-id="d11fd-167">InboundRouting</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-167">16389</span><span class="sxs-lookup"><span data-stu-id="d57a9-167">16389</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-168">ComoSvc</span><span class="sxs-lookup"><span data-stu-id="d57a9-168">ComoSvc</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-169">ComoSvc</span><span class="sxs-lookup"><span data-stu-id="d57a9-169">ComoSvc</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-168">16389</span><span class="sxs-lookup"><span data-stu-id="d11fd-168">16389</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-169">ComoSvc</span><span class="sxs-lookup"><span data-stu-id="d11fd-169">ComoSvc</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-170">ComoSvc</span><span class="sxs-lookup"><span data-stu-id="d11fd-170">ComoSvc</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-170">16393</span><span class="sxs-lookup"><span data-stu-id="d57a9-170">16393</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-171">MSExchangeUM</span><span class="sxs-lookup"><span data-stu-id="d57a9-171">MSExchangeUM</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-172">ExUM</span><span class="sxs-lookup"><span data-stu-id="d57a9-172">ExUM</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-171">16393</span><span class="sxs-lookup"><span data-stu-id="d11fd-171">16393</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-172">MSExchangeUM</span><span class="sxs-lookup"><span data-stu-id="d11fd-172">MSExchangeUM</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-173">ExUM</span><span class="sxs-lookup"><span data-stu-id="d11fd-173">ExUM</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-173">16395</span><span class="sxs-lookup"><span data-stu-id="d57a9-173">16395</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-174">ArchivingAgent</span><span class="sxs-lookup"><span data-stu-id="d57a9-174">ArchivingAgent</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-175">ARCHAGENT</span><span class="sxs-lookup"><span data-stu-id="d57a9-175">ARCHAGENT</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-174">16395</span><span class="sxs-lookup"><span data-stu-id="d11fd-174">16395</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-175">ArchivingAgent</span><span class="sxs-lookup"><span data-stu-id="d11fd-175">ArchivingAgent</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-176">ARCHAGENT</span><span class="sxs-lookup"><span data-stu-id="d11fd-176">ARCHAGENT</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-176">16396</span><span class="sxs-lookup"><span data-stu-id="d57a9-176">16396</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-177">圣保罗</span><span class="sxs-lookup"><span data-stu-id="d57a9-177">ST</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-178">圣保罗</span><span class="sxs-lookup"><span data-stu-id="d57a9-178">ST</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-177">16396</span><span class="sxs-lookup"><span data-stu-id="d11fd-177">16396</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-178">圣保罗</span><span class="sxs-lookup"><span data-stu-id="d11fd-178">ST</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-179">圣保罗</span><span class="sxs-lookup"><span data-stu-id="d11fd-179">ST</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-179">16397</span><span class="sxs-lookup"><span data-stu-id="d57a9-179">16397</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-180">applicationsharing</span><span class="sxs-lookup"><span data-stu-id="d57a9-180">applicationsharing</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-181">ASMCU</span><span class="sxs-lookup"><span data-stu-id="d57a9-181">ASMCU</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-180">16397</span><span class="sxs-lookup"><span data-stu-id="d11fd-180">16397</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-181">applicationsharing</span><span class="sxs-lookup"><span data-stu-id="d11fd-181">applicationsharing</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-182">ASMCU</span><span class="sxs-lookup"><span data-stu-id="d11fd-182">ASMCU</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-182">16398</span><span class="sxs-lookup"><span data-stu-id="d57a9-182">16398</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-183">WPLync</span><span class="sxs-lookup"><span data-stu-id="d57a9-183">WPLync</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-184">WPLync</span><span class="sxs-lookup"><span data-stu-id="d57a9-184">WPLync</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-183">16398</span><span class="sxs-lookup"><span data-stu-id="d11fd-183">16398</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-184">WPLync</span><span class="sxs-lookup"><span data-stu-id="d11fd-184">WPLync</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-185">WPLync</span><span class="sxs-lookup"><span data-stu-id="d11fd-185">WPLync</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-185">16399</span><span class="sxs-lookup"><span data-stu-id="d57a9-185">16399</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-186">iPhoneLync</span><span class="sxs-lookup"><span data-stu-id="d57a9-186">iPhoneLync</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-187">iPhoneLync</span><span class="sxs-lookup"><span data-stu-id="d57a9-187">iPhoneLync</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-186">16399</span><span class="sxs-lookup"><span data-stu-id="d11fd-186">16399</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-187">iPhoneLync</span><span class="sxs-lookup"><span data-stu-id="d11fd-187">iPhoneLync</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-188">iPhoneLync</span><span class="sxs-lookup"><span data-stu-id="d11fd-188">iPhoneLync</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-188">16400</span><span class="sxs-lookup"><span data-stu-id="d57a9-188">16400</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-189">AndroidLync</span><span class="sxs-lookup"><span data-stu-id="d57a9-189">AndroidLync</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-190">AndroidLync</span><span class="sxs-lookup"><span data-stu-id="d57a9-190">AndroidLync</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-189">16400</span><span class="sxs-lookup"><span data-stu-id="d11fd-189">16400</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-190">AndroidLync</span><span class="sxs-lookup"><span data-stu-id="d11fd-190">AndroidLync</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-191">AndroidLync</span><span class="sxs-lookup"><span data-stu-id="d11fd-191">AndroidLync</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-191">16401</span><span class="sxs-lookup"><span data-stu-id="d57a9-191">16401</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-192">iPadLync</span><span class="sxs-lookup"><span data-stu-id="d57a9-192">iPadLync</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-193">iPadLync</span><span class="sxs-lookup"><span data-stu-id="d57a9-193">iPadLync</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-192">16401</span><span class="sxs-lookup"><span data-stu-id="d11fd-192">16401</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-193">iPadLync</span><span class="sxs-lookup"><span data-stu-id="d11fd-193">iPadLync</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-194">iPadLync</span><span class="sxs-lookup"><span data-stu-id="d11fd-194">iPadLync</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-194">16402</span><span class="sxs-lookup"><span data-stu-id="d57a9-194">16402</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-195">NokiaLync</span><span class="sxs-lookup"><span data-stu-id="d57a9-195">NokiaLync</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-196">NokiaLync</span><span class="sxs-lookup"><span data-stu-id="d57a9-196">NokiaLync</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-195">16402</span><span class="sxs-lookup"><span data-stu-id="d11fd-195">16402</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-196">NokiaLync</span><span class="sxs-lookup"><span data-stu-id="d11fd-196">NokiaLync</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-197">NokiaLync</span><span class="sxs-lookup"><span data-stu-id="d11fd-197">NokiaLync</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-197">16403</span><span class="sxs-lookup"><span data-stu-id="d57a9-197">16403</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-198">LyncImm</span><span class="sxs-lookup"><span data-stu-id="d57a9-198">LyncImm</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-199">LyncImm</span><span class="sxs-lookup"><span data-stu-id="d57a9-199">LyncImm</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-198">16403</span><span class="sxs-lookup"><span data-stu-id="d11fd-198">16403</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-199">LyncImm</span><span class="sxs-lookup"><span data-stu-id="d11fd-199">LyncImm</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-200">LyncImm</span><span class="sxs-lookup"><span data-stu-id="d11fd-200">LyncImm</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-200">16404</span><span class="sxs-lookup"><span data-stu-id="d57a9-200">16404</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-201">电脑</span><span class="sxs-lookup"><span data-stu-id="d57a9-201">PCS</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-202">电脑</span><span class="sxs-lookup"><span data-stu-id="d57a9-202">PCS</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-201">16404</span><span class="sxs-lookup"><span data-stu-id="d11fd-201">16404</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-202">电脑</span><span class="sxs-lookup"><span data-stu-id="d11fd-202">PCS</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-203">电脑</span><span class="sxs-lookup"><span data-stu-id="d11fd-203">PCS</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-203">16405</span><span class="sxs-lookup"><span data-stu-id="d57a9-203">16405</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-204">LWA</span><span class="sxs-lookup"><span data-stu-id="d57a9-204">LWA</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-205">LWA</span><span class="sxs-lookup"><span data-stu-id="d57a9-205">LWA</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-204">16405</span><span class="sxs-lookup"><span data-stu-id="d11fd-204">16405</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-205">LWA</span><span class="sxs-lookup"><span data-stu-id="d11fd-205">LWA</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-206">LWA</span><span class="sxs-lookup"><span data-stu-id="d11fd-206">LWA</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-206">16406</span><span class="sxs-lookup"><span data-stu-id="d57a9-206">16406</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-207">OWA</span><span class="sxs-lookup"><span data-stu-id="d57a9-207">OWA</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-208">OWA</span><span class="sxs-lookup"><span data-stu-id="d57a9-208">OWA</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-207">16406</span><span class="sxs-lookup"><span data-stu-id="d11fd-207">16406</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-208">OWA</span><span class="sxs-lookup"><span data-stu-id="d11fd-208">OWA</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-209">OWA</span><span class="sxs-lookup"><span data-stu-id="d11fd-209">OWA</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-209">16407</span><span class="sxs-lookup"><span data-stu-id="d57a9-209">16407</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-210">AOC</span><span class="sxs-lookup"><span data-stu-id="d57a9-210">AOC</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-211">AOC</span><span class="sxs-lookup"><span data-stu-id="d57a9-211">AOC</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-210">16407</span><span class="sxs-lookup"><span data-stu-id="d11fd-210">16407</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-211">AOC</span><span class="sxs-lookup"><span data-stu-id="d11fd-211">AOC</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-212">AOC</span><span class="sxs-lookup"><span data-stu-id="d11fd-212">AOC</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-212">16408</span><span class="sxs-lookup"><span data-stu-id="d57a9-212">16408</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-213">GCC</span><span class="sxs-lookup"><span data-stu-id="d57a9-213">GCC</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-214">GCC</span><span class="sxs-lookup"><span data-stu-id="d57a9-214">GCC</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-213">16408</span><span class="sxs-lookup"><span data-stu-id="d11fd-213">16408</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-214">GCC</span><span class="sxs-lookup"><span data-stu-id="d11fd-214">GCC</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-215">GCC</span><span class="sxs-lookup"><span data-stu-id="d11fd-215">GCC</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-215">16409</span><span class="sxs-lookup"><span data-stu-id="d57a9-215">16409</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-216">IMMCU</span><span class="sxs-lookup"><span data-stu-id="d57a9-216">IMMCU</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-217">IMMCU</span><span class="sxs-lookup"><span data-stu-id="d57a9-217">IMMCU</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-216">16409</span><span class="sxs-lookup"><span data-stu-id="d11fd-216">16409</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-217">IMMCU</span><span class="sxs-lookup"><span data-stu-id="d11fd-217">IMMCU</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-218">IMMCU</span><span class="sxs-lookup"><span data-stu-id="d11fd-218">IMMCU</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-218">16410</span><span class="sxs-lookup"><span data-stu-id="d57a9-218">16410</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-219">XmppTGW</span><span class="sxs-lookup"><span data-stu-id="d57a9-219">XmppTGW</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-220">XmppGateway</span><span class="sxs-lookup"><span data-stu-id="d57a9-220">XmppGateway</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-219">16410</span><span class="sxs-lookup"><span data-stu-id="d11fd-219">16410</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-220">XmppTGW</span><span class="sxs-lookup"><span data-stu-id="d11fd-220">XmppTGW</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-221">XmppGateway</span><span class="sxs-lookup"><span data-stu-id="d11fd-221">XmppGateway</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d57a9-221">32769</span><span class="sxs-lookup"><span data-stu-id="d57a9-221">32769</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-222">网关</span><span class="sxs-lookup"><span data-stu-id="d57a9-222">Gateway</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-223">网关</span><span class="sxs-lookup"><span data-stu-id="d57a9-223">Gateway</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-222">32769</span><span class="sxs-lookup"><span data-stu-id="d11fd-222">32769</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-223">网关</span><span class="sxs-lookup"><span data-stu-id="d11fd-223">Gateway</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-224">网关</span><span class="sxs-lookup"><span data-stu-id="d11fd-224">Gateway</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d57a9-224">32770</span><span class="sxs-lookup"><span data-stu-id="d57a9-224">32770</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-225">GatewayMediationServerPair</span><span class="sxs-lookup"><span data-stu-id="d57a9-225">GatewayMediationServerPair</span></span></p></td>
-<td><p><span data-ttu-id="d57a9-226">GatewayMediationServerPair</span><span class="sxs-lookup"><span data-stu-id="d57a9-226">GatewayMediationServerPair</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-225">32770</span><span class="sxs-lookup"><span data-stu-id="d11fd-225">32770</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-226">GatewayMediationServerPair</span><span class="sxs-lookup"><span data-stu-id="d11fd-226">GatewayMediationServerPair</span></span></p></td>
+<td><p><span data-ttu-id="d11fd-227">GatewayMediationServerPair</span><span class="sxs-lookup"><span data-stu-id="d11fd-227">GatewayMediationServerPair</span></span></p></td>
 </tr>
 </tbody>
 </table>
