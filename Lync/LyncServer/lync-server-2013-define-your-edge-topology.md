@@ -12,20 +12,22 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dec463e960a60e1c6d0251bf0c77300626e57c66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ceba1f397493ac0ef6961099877643f802c11d93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209141"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504559"
 ---
+# <a name="define-your-edge-topology-in-lync-server-2013"></a>在 Lync Server 2013 中定义边缘拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-your-edge-topology-in-lync-server-2013"></a>在 Lync Server 2013 中定义边缘拓扑
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42209141"
 
 _**上次修改的主题：** 2012-09-28_
 
-必须使用拓扑生成器生成拓扑，并且必须至少设置一个内部前端池或 Standard Edition server，然后才能部署边缘服务器。 使用以下过程可为单个边缘服务器定义边缘拓扑，然后使用在[Lync server 2013 中发布拓扑中](lync-server-2013-publish-your-topology.md)的过程并[导出 lync server 2013 拓扑，并将其复制到外部媒体以进行边缘安装](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)，以发布拓扑并使其可用于边缘服务器。
+必须使用拓扑生成器生成拓扑，并且必须至少设置一个内部前端池或 Standard Edition server，然后才能部署边缘服务器。 使用以下过程可为单个边缘服务器定义边缘拓扑，然后使用在 [Lync server 2013 中发布拓扑中](lync-server-2013-publish-your-topology.md) 的过程并 [导出 lync server 2013 拓扑，并将其复制到外部媒体以进行边缘安装](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) ，以发布拓扑并使其可用于边缘服务器。
 
 <div>
 
@@ -49,9 +51,9 @@ _**上次修改的主题：** 2012-09-28_
 
 </div>
 
-若要在添加或删除服务器角色后成功发布、启用或禁用拓扑，必须以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。 您还可以授予向用户帐户添加服务器角色所需的管理员权限。 有关详细信息，请参阅 Standard Edition server 或 Enterprise Edition server Deployment 文档中的 "[在 Lync Server 2013 中委派安装程序权限](lync-server-2013-delegate-setup-permissions.md)"。 对于其他配置更改，只需要 RTCUniversalServerAdmins 组的成员身份。
+若要在添加或删除服务器角色后成功发布、启用或禁用拓扑，必须以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。 您还可以授予向用户帐户添加服务器角色所需的管理员权限。 有关详细信息，请参阅 Standard Edition server 或 Enterprise Edition server Deployment 文档中的 " [在 Lync Server 2013 中委派安装程序权限](lync-server-2013-delegate-setup-permissions.md) "。 对于其他配置更改，只需要 RTCUniversalServerAdmins 组的成员身份。
 
-如果在定义和发布内部拓扑时定义了边缘拓扑，且不需要对之前定义的边缘拓扑进行任何更改，则无需再次对其进行定义和发布。 仅当需要对边缘拓扑进行更改时才应使用以下过程。 您必须将之前定义和发布的拓扑提供给您的边缘服务器，这是通过使用 "[导出 Lync Server 2013 拓扑" 中的过程并将其复制到 "边缘安装" 的外部媒体](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)来实现的。
+如果在定义和发布内部拓扑时定义了边缘拓扑，且不需要对之前定义的边缘拓扑进行任何更改，则无需再次对其进行定义和发布。 仅当需要对边缘拓扑进行更改时才应使用以下过程。 您必须将之前定义和发布的拓扑提供给您的边缘服务器，这是通过使用 " [导出 Lync Server 2013 拓扑" 中的过程并将其复制到 "边缘安装" 的外部媒体](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)来实现的。
 
 <div>
 
@@ -75,15 +77,15 @@ _**上次修改的主题：** 2012-09-28_
 
 ## <a name="to-define-the-topology-for-a-single-edge-server"></a>为单台边缘服务器定义拓扑
 
-1.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+1.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 2.  在控制台树中，展开要在其中部署边缘服务器的站点。
 
-3.  右键单击 "**边缘池**"，然后单击 "**新建边缘池**"。
+3.  右键单击 " **边缘池**"，然后单击 " **新建边缘池**"。
 
 4.  在 **“定义新的边缘池”** 中，单击 **“下一步”**。
 
-5.  在 **“定义边缘池 FQDN”** 中，执行以下操作：
+5.  在“定义边缘池 FQDN”**** 中，执行以下操作：
     
       - 在“池 FQDN”**** 中，键入边缘服务器内部接口的完全限定域名 (FQDN)。
         
@@ -91,7 +93,7 @@ _**上次修改的主题：** 2012-09-28_
         
 
         > [!IMPORTANT]  
-        > 指定的名称必须与在服务器上配置的计算机名称相同。 默认情况下，未加入域的计算机的计算机名称是短名称，不是 FQDN。 拓扑生成器使用 FQDN，而不是短名称。 因此，如果要部署为边缘服务器的计算机未加入域，则必须为计算机名称配置 DNS 后缀。 分配 Lync Server、边缘服务器和池的 FQDN 时只能使用标准字符（包括 A–Z、a–z、0–9 和连字符）。 不要使用 Unicode 字符或下划线。 外部 DNS 和公共 CA 通常不支持在 FQDN 中使用非标准字符（当必须向证书中的 SN 分配 FQDN 时）。 有关向计算机名称添加 DNS 后缀的详细信息，请参阅<A href="lync-server-2013-configure-dns-for-edge-support.md">在 Lync Server 2013 中为边缘支持配置 dns</A>。
+        > 指定的名称必须与在服务器上配置的计算机名称相同。 默认情况下，未加入域的计算机的计算机名称是短名称，不是 FQDN。 拓扑生成器使用 FQDN，而不是短名称。 因此，如果要部署为边缘服务器的计算机未加入域，则必须为计算机名称配置 DNS 后缀。 分配 Lync Server、边缘服务器和池的 FQDN 时只能使用标准字符（包括 A–Z、a–z、0–9 和连字符）。 不要使用 Unicode 字符或下划线。 外部 DNS 和公共 CA 通常不支持在 FQDN 中使用非标准字符（当必须向证书中的 SN 分配 FQDN 时）。 有关向计算机名称添加 DNS 后缀的详细信息，请参阅 <A href="lync-server-2013-configure-dns-for-edge-support.md">在 Lync Server 2013 中为边缘支持配置 dns</A>。
 
         
         </div>
@@ -100,7 +102,7 @@ _**上次修改的主题：** 2012-09-28_
 
 6.  在“选择功能”**** 中，执行下列操作：
     
-      - 如果您计划对 SIP 访问服务、Lync Server 2013 Web 会议服务和 A/V 边缘服务使用一个 FQDN 和 IP 地址，请选中 "**使用一个 fqdn 和 Ip 地址**" 复选框。
+      - 如果您计划对 SIP 访问服务、Lync Server 2013 Web 会议服务和 A/V 边缘服务使用一个 FQDN 和 IP 地址，请选中 " **使用一个 fqdn 和 Ip 地址** " 复选框。
     
       - 如果您计划启用联盟，请选中“为此边缘池启用联盟(端口 5061)”**** 复选框。
         
@@ -142,7 +144,7 @@ _**上次修改的主题：** 2012-09-28_
     
       - 如果在“选择功能”**** 中未选择使用单个 FQDN 和 IP 地址，请键入“SIP 访问”****、“Web 会议”**** 和“音频视频”**** 的外部 FQDN，并保留默认端口。
 
-9.  单击“**下一步**”。
+9.  单击“下一步”****。
 
 10. 在“定义内部 IP 地址”**** 中，键入适合您需求的“内部 IPv4 地址”**** 和“内部 IPv6 地址”**** 中的边缘服务器的 IP 地址。单击“下一步”****。
 
@@ -210,7 +212,7 @@ _**上次修改的主题：** 2012-09-28_
 
 ## <a name="to-define-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>为 DNS 负载平衡边缘服务器池定义拓扑
 
-1.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+1.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 2.  在控制台树中，展开要在其中部署边缘服务器的站点。
 
@@ -235,7 +237,7 @@ _**上次修改的主题：** 2012-09-28_
 
 6.  在“选择功能”**** 中，执行下列操作：
     
-      - 如果您计划将单个 FQDN 和 IP 地址用于 SIP 访问、Lync Server 2013 Web 会议服务和 A/V 边缘服务，请选中 "**使用一个 FQDN 和 Ip 地址**" 复选框。
+      - 如果您计划将单个 FQDN 和 IP 地址用于 SIP 访问、Lync Server 2013 Web 会议服务和 A/V 边缘服务，请选中 " **使用一个 FQDN 和 Ip 地址** " 复选框。
     
       - 如果您计划启用联盟，请选中“为此边缘池启用联盟(端口 5061)”**** 复选框。单击“下一步”****。
         
@@ -250,7 +252,7 @@ _**上次修改的主题：** 2012-09-28_
     
       - 如果您计划支持适用于部署的可扩展消息传递和状态协议 (XMPP)，请选中“启用 XMPP 联盟(端口 5269)”**** 复选框。
 
-7.  单击“**下一步**”。
+7.  单击“下一步”****。
 
 8.  在“选择 IP 选项”**** 中，执行下列操作：
     
@@ -293,18 +295,18 @@ _**上次修改的主题：** 2012-09-28_
         
 
         > [!NOTE]  
-        > 指定的名称必须与在服务器上配置的计算机名称相同。 默认情况下，未加入域的计算机的计算机名称为短名称，而不是 FQDN。 拓扑生成器使用 FQDN，而不是短名称。 因此，您必须在要部署为域外边缘服务器的计算机的名称上配置 DNS 后缀。 在指定 Lync Server、边缘服务器、池和阵列的 FQDN 时，只应使用标准字符（包括 A-Z、a-z、0-9 和连字符）。 不要使用 Unicode 字符或下划线。 外部 DNS 和公共 CA 通常不支持在 FQDN 中使用非标准字符（当必须向证书中的 SN 分配 FQDN 时）。 有关向计算机名称添加 DNS 后缀的详细信息，请参阅<A href="lync-server-2013-configure-dns-for-edge-support.md">在 Lync Server 2013 中为边缘支持配置 dns</A>。
+        > 指定的名称必须与在服务器上配置的计算机名称相同。 默认情况下，未加入域的计算机的计算机名称为短名称，而不是 FQDN。 拓扑生成器使用 FQDN，而不是短名称。 因此，您必须在要部署为域外边缘服务器的计算机的名称上配置 DNS 后缀。 在指定 Lync Server、边缘服务器、池和阵列的 FQDN 时，只应使用标准字符（包括 A-Z、a-z、0-9 和连字符）。 不要使用 Unicode 字符或下划线。 外部 DNS 和公共 CA 通常不支持在 FQDN 中使用非标准字符（当必须向证书中的 SN 分配 FQDN 时）。 有关向计算机名称添加 DNS 后缀的详细信息，请参阅 <A href="lync-server-2013-configure-dns-for-edge-support.md">在 Lync Server 2013 中为边缘支持配置 dns</A>。
 
         
         </div>
 
-13. 单击 **“下一步”**。
+13. 单击“下一步”****。
 
 14. 在 **“定义外部 IP 地址”** 中，执行以下操作：
     
       - 如果选择将单个 FQDN 和 IP 地址用于 SIP 访问、Web 会议服务和 A/V 边缘服务，请在 **“SIP 访问”** 中键入边缘服务器的外部 IP 地址。
     
-      - 如果未选择将单个 FQDN 和 IP 地址用于 SIP 访问、Web 会议服务和 A/V 会议服务，则在 **“SIP 访问”** 中键入为该边缘池服务器的公共端选择的 IP 地址。在 **“Web 会议”** 中，键入为该边缘池服务器的公共端选择的 IP 地址。在 **“A/V 会议”** 中，键入为该边缘池服务器的公共端选择的 IP 地址。
+      - 如果未选择将单个 FQDN 和 IP 地址用于 SIP 访问、Web 会议服务和 A/V 会议服务，则在“SIP 访问”**** 中键入为该边缘池服务器的公共端选择的 IP 地址。在“Web 会议”**** 中，键入为该边缘池服务器的公共端选择的 IP 地址。在“A/V 会议”**** 中，键入为该边缘池服务器的公共端选择的 IP 地址。
 
 15. 单击“下一步”****。
 
@@ -371,7 +373,7 @@ _**上次修改的主题：** 2012-09-28_
     
     </div>
 
-23. 单击 **“完成”**。
+23. 单击“完成”****。
 
 24. 发布拓扑。
 
@@ -381,11 +383,11 @@ _**上次修改的主题：** 2012-09-28_
 
 ## <a name="to-define-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>为硬件负载平衡边缘服务器池定义拓扑
 
-1.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+1.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 2.  在控制台树中，展开要在其中部署边缘服务器的站点。
 
-3.  右键单击 "**边缘池**"，然后选择 "**新建边缘池**"。
+3.  右键单击 " **边缘池**"，然后选择 " **新建边缘池**"。
 
 4.  在 **“定义新的边缘池”** 中，单击 **“下一步”**。
 
@@ -404,11 +406,11 @@ _**上次修改的主题：** 2012-09-28_
     
     <!-- end list -->
     
-      - 单击 "**多个计算机池**"，然后单击 "**下一步**"。
+      - 单击 " **多个计算机池**"，然后单击 " **下一步**"。
 
 6.  在 **“选择功能”** 中，执行下列操作：
     
-      - 如果您计划对 SIP 访问服务、Lync Server Web 会议服务和 A/V 边缘服务使用一个 FQDN 和 IP 地址，请选中 "**使用单个 FQDN & IP 地址**" 复选框。
+      - 如果您计划对 SIP 访问服务、Lync Server Web 会议服务和 A/V 边缘服务使用一个 FQDN 和 IP 地址，请选中 " **使用单个 FQDN & IP 地址** " 复选框。
     
       - 如果您计划启用联盟，请选中 **“为此边缘池启用联盟(端口 5061)”** 复选框。
         
@@ -423,7 +425,7 @@ _**上次修改的主题：** 2012-09-28_
     
       - 如果您计划支持适用于部署的可扩展消息传递和状态协议 (XMPP)，请选中“启用 XMPP 联盟(端口 5269)”**** 复选框。
 
-7.  单击“**下一步**”。
+7.  单击“下一步”****。
 
 8.  在“选择 IP 选项”**** 中，执行下列操作：
     
@@ -468,7 +470,7 @@ _**上次修改的主题：** 2012-09-28_
         
         </div>
 
-10. 单击“**下一步**”。
+10. 单击“下一步”****。
 
 11. 在“定义此池中的计算机”**** 中，单击“添加”****。
 
@@ -532,7 +534,7 @@ _**上次修改的主题：** 2012-09-28_
     
     </div>
 
-20. 单击 **“完成”**。
+20. 单击“完成”****。
 
 21. 发布拓扑。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2aee3b01eaefa08bfa35ba7355debe347bc07ff0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f763fe840a630ffd7ff2ee132d3251b009be6f34
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505129"
 ---
+# <a name="accessing-monitoring-data-in-lync-server-2013"></a>在 Lync Server 2013 中访问监视数据
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="accessing-monitoring-data-in-lync-server-2013"></a>在 Lync Server 2013 中访问监视数据
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-09-05_
 
 如前所述，监控报告需要使用 SQL Server Reporting Service。SQL Server Reporting Service 可在安装 SQL Server 时安装，也可以在安装 SQL Server 后随时安装。
 
-有关详细信息，请参阅 Lync Server 2013 部署指南中的[安装 Lync server 2013 监视报告](lync-server-2013-installing-lync-server-2013-monitoring-reports.md)主题。
+有关详细信息，请参阅 Lync Server 2013 部署指南中的 [安装 Lync server 2013 监视报告](lync-server-2013-installing-lync-server-2013-monitoring-reports.md) 主题。
 
 </div>
 

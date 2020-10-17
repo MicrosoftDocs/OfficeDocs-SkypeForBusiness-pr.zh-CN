@@ -12,20 +12,22 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69dea9e2b75125740729f658e1c370838bb5d8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1d57659c93aa42392f5408721157df1d14b56b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504099"
 ---
+# <a name="testing-database-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中测试数据库配置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-database-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中测试数据库配置
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2016-07-07_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员，并且需要具有对 SQL Server 的管理员权限。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行<strong>CsDatabase</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 <strong>CsDatabase</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDatabase&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,7 +66,7 @@ _**上次修改的主题：** 2016-07-07_
 
 <div>
 
-## <a name="description"></a>Description
+## <a name="description"></a>说明
 
 **CsDatabase** cmdlet 验证与一个或多个 Lync Server 2013 数据库的连接。 在运行时， **CsDatabase** cmdlet 会读取 Lync Server 拓扑，尝试连接到相关数据库，然后报告每次尝试成功或失败。 如果可以建立连接，该 cmdlet 还将返回数据库名称、SQL Server 版本以及所有已安装的镜像数据库的位置等信息。
 
@@ -96,7 +98,7 @@ _**上次修改的主题：** 2016-07-07_
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果数据库连接配置正确，您将收到与以下内容类似的输出，其中 "成功" 属性被标记为**True**：
+如果数据库连接配置正确，您将收到与以下内容类似的输出，其中 "成功" 属性被标记为 **True**：
 
 SqlServerFqdn： atl-sql-001.litwareinc.com
 
@@ -138,7 +140,7 @@ InstalledVersion :
 
 成功： True
 
-如果数据库配置正确但仍可用，则 "成功" 字段将显示为**False**，并将提供其他警告和信息：
+如果数据库配置正确但仍可用，则 "成功" 字段将显示为 **False**，并将提供其他警告和信息：
 
 SqlServerFqdn： atl-sql-001.litwareinc.com
 
@@ -180,17 +182,17 @@ InstalledVersion :
 
 成功： False
 
-警告： CsDatabase 遇到错误。 请参阅日志文件获取
+警告： Test-CsDatabase 遇到错误。 请参阅日志文件获取
 
-详细分析，并确保解决所有错误（2）和警告（0）
+详细分析，并确保解决 (2) 的所有错误和警告 (0) 
 
 ，然后再继续。
 
 警告：详细结果可在以下位置找到：
 
-"C：\\用户\\测试\\AppData\\本地\\临时\\2\\测试-CsDatabase-b18d488a-8044-4679-bbf2-
+"C： \\ 用户 \\ 测试 \\ AppData \\ 本地 \\ 临时 \\ 2 \\ 测试-CsDatabase-b18d488a-8044-4679-bbf2-
 
-04d593cce8e6 "。
+04d593cce8e6.html "。
 
 </div>
 
@@ -198,7 +200,7 @@ InstalledVersion :
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是**测试 CsDatabase**可能失败的一些常见原因：
+以下是 **测试 CsDatabase** 可能失败的一些常见原因：
 
   - 提供的参数值不正确。 如果使用，则必须正确配置可选参数或测试将失败。 重新运行不带可选参数的命令，并查看是否成功。
 

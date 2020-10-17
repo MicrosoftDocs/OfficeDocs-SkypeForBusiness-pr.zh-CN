@@ -12,20 +12,22 @@ ms:contentKeyID: 63969610
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af4bd6dd911b43714dffa48c3b21d3329b2aaa01
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5879eaa10b128bedbc1e28fe85cee40aed27dddd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503909"
 ---
+# <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中测试 UCWA 会议
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中测试 UCWA 会议
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-11-03_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行<strong>test-csucwaconference</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 <strong>test-csucwaconference</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUcwaConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,11 +68,11 @@ _**上次修改的主题：** 2014-11-03_
 
 ## <a name="description"></a>说明
 
-**Test-csucwaconference** cmdlet 验证一对测试用户是否可以使用统一通信 Web API （UCWA）安排、加入并执行联机会议。 为此，该 cmdlet 使用 Lync Server web 票证服务对两个测试用户进行身份验证，并将其注册到 Lync Server。 然后，此 cmdlet 使用组织者凭据启动会议，并邀请参与者加入会议。 在加入会议后， **test-csucwaconference** cmdlet 将验证用户是否可以执行 exchange 即时消息和执行池操作，然后断开会议并注销这两个测试用户。 在测试完成后，也会删除计划的会议。
+**Test-csucwaconference** cmdlet 验证一对测试用户是否可以使用统一通信 Web API (UCWA) 计划、加入和执行联机会议。 为此，该 cmdlet 使用 Lync Server web 票证服务对两个测试用户进行身份验证，并将其注册到 Lync Server。 然后，此 cmdlet 使用组织者凭据启动会议，并邀请参与者加入会议。 在加入会议后， **test-csucwaconference** cmdlet 将验证用户是否可以执行 exchange 即时消息和执行池操作，然后断开会议并注销这两个测试用户。 在测试完成后，也会删除计划的会议。
 
 **Test-csucwaconference** cmdlet 还可用于确定匿名用户是否可以加入联机会议。
 
-请注意，除非在该池上安装了 UCWA，否则不应对 Microsoft Lync Server 2010 池运行**test-csucwaconference** cmdlet。 如果尚未安装 UCWA，则对**test-csucwaconference** cmdlet 的调用将失败。
+请注意，除非在该池上安装了 UCWA，否则不应对 Microsoft Lync Server 2010 池运行 **test-csucwaconference** cmdlet。 如果尚未安装 UCWA，则对 **test-csucwaconference** cmdlet 的调用将失败。
 
 </div>
 
@@ -82,9 +84,9 @@ _**上次修改的主题：** 2014-11-03_
 
     Test-CsUcwaConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-示例2中显示的命令测试一对用户（litwareinc\\pilar 和 litwareinc\\kenmyer）的功能，以参与 UCWA 会议。 为执行此操作，示例中的第一个命令使用 Get-Credential cmdlet 创建 Windows PowerShell 命令行接口 Credential 对象，该对象包含用户 Pilar Ackerman 的名称和密码。 （因为登录名（litwareinc\\pilar）包含为参数，所以 "Windows PowerShell 凭据请求" 对话框仅要求管理员输入 pilar Ackerman 帐户的密码。）然后，将生成的凭据对象存储在名为 $cred 1 的变量中。 第二个命令执行相同的操作，但这次返回的是 Ken Myer 帐户的凭据对象。
+示例2中显示的命令测试一对用户 (litwareinc \\ pilar 和 litwareinc \\ kenmyer) 参与 UCWA 会议的能力。 若要执行此操作，示例中的第一个命令使用 Get-Credential cmdlet 来创建 Windows PowerShell 命令行接口 credential 对象，该对象包含用户 Pilar Ackerman 的名称和密码。  (因为登录名 litwareinc \\ pilar 包含为参数，所以 "Windows PowerShell 凭据请求" 对话框仅要求管理员输入 Pilar Ackerman 帐户的密码。 ) 生成的凭据对象将存储在名为 $cred 1 的变量中。 第二个命令执行相同的操作，但这次返回的是 Ken Myer 帐户的凭据对象。
 
-使用这两个 credential 对象时，示例中的第三个命令确定两个用户是否可以参与 UCWA 会议。 若要运行此任务，请调用**test-csucwaconference** cmdlet 以及以下参数： TargetFqdn （注册器池的 FQDN）;OrganizerSipAddress （会议组织者的 SIP 地址）;OrganizerCredential （包含此同一用户的凭据的 Windows PowerShell 对象）;ParticipantSipAddress （其他测试用户的 SIP 地址）;和 ParticipantCredential （包含其他用户的凭据的 Windows PowerShell 命令行接口对象）。
+使用这两个 credential 对象时，示例中的第三个命令确定两个用户是否可以参与 UCWA 会议。 若要运行此任务，请调用 **test-csucwaconference** cmdlet 以及以下参数： TargetFqdn (注册器池的 FQDN) ;OrganizerSipAddress (会议组织者) 的 SIP 地址;OrganizerCredential (包含此同一用户的凭据的 Windows PowerShell 对象) ;ParticipantSipAddress (其他测试用户) 的 SIP 地址;和 ParticipantCredential (Windows PowerShell 命令行接口对象，其中包含其他用户) 的凭据。
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
@@ -96,7 +98,7 @@ _**上次修改的主题：** 2014-11-03_
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果正确配置了会议，则会收到类似于以下内容的输出，并将 Result 属性标记为**成功：**
+如果正确配置了会议，则会收到类似于以下内容的输出，并将 Result 属性标记为 **成功：**
 
 目标 Fqdn： atl-cs-001.litwareinc.com
 
@@ -112,11 +114,11 @@ Microsoft.com:443/CertProv/CertProvisiongService.svc
 
 诊断
 
-如果指定用户不能使用会议，则结果将显示为 "**失败**"，并在 "错误" 和 "诊断" 属性中记录其他信息：
+如果指定用户不能使用会议，则结果将显示为 " **失败**"，并在 "错误" 和 "诊断" 属性中记录其他信息：
 
 警告：无法读取给定的完全限定的注册器端口号
 
-域名（FQDN）。 使用默认注册器端口号。 异常
+ (FQDN) 的域名称。 使用默认注册器端口号。 异常
 
 InvalidOperationException：在拓扑中找不到匹配的群集。
 
@@ -124,23 +126,23 @@ InvalidOperationException：在拓扑中找不到匹配的群集。
 
 TryRetri 的 SipSyntheticTransaction。 SyntheticTransactions
 
-eveRegistrarPortFromTopology （Int32& registrarPortNumber）
+eveRegistrarPortFromTopology (Int32& registrarPortNumber) 
 
-测试-Test-csucwaconference：没有分配的测试用户
+Test-CsUcwaConference：没有分配的测试用户
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]。 验证测试用户配置。
+\[LyncTest.SelfHost.Corp.Microsoft.com \] 。 验证测试用户配置。
 
 位于第1行：1个字符：1
 
-\+Test-csucwaconference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
+\+ Test-CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\+CategoryInfo： ResourceUnavailable：（:)\[Test-test-csucwaconference\]
+\+ CategoryInfo： ResourceUnavailable： (： ) \[ Test-test-csucwaconference\]
 
 ，InvalidOperationException
 
-\+FullyQualifiedErrorId： NotFoundTestUsers、
+\+ FullyQualifiedErrorId： NotFoundTestUsers、
 
 eticTransactions.TestUcwaConferenceCmdlet
 
@@ -150,11 +152,11 @@ eticTransactions.TestUcwaConferenceCmdlet
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是**测试 test-csucwaconference**可能失败的一些常见原因：
+以下是 **测试 test-csucwaconference** 可能失败的一些常见原因：
 
   - 提供的参数值不正确。 如果使用，则必须正确配置可选参数或测试将失败。 重新运行不带可选参数的命令，并查看是否成功。
 
-  - 执行会议的能力取决于已分配给组织会议的用户的会议策略（如果是**test-csucwaconference** cmdlet，则为 "sender"）。 如果不允许组织者在他或她的会议中包含协作活动（例如，如果其会议策略将 EnableDataCollaboration 属性设置为 False），则**test-csucwaconference** cmdlet 将失败。
+  - 执行会议的能力取决于已分配给组织会议的用户的会议策略 (在 **test-csucwaconference** cmdlet 中，即 "sender" ) 的情况。 如果不允许组织者在他或她的会议中包含协作活动 (例如，如果其会议策略将 EnableDataCollaboration 属性设置为 False) 则 **test-csucwaconference** cmdlet 将失败。
 
   - 如果边缘服务器配置错误或尚未部署，则此命令将失败。
 

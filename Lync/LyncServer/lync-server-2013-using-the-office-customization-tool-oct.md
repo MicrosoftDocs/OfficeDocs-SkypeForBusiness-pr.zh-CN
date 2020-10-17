@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用 Office 自定义工具（OCT）
+title: 'Lync Server 2013：使用 Office 自定义工具 (OCT) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c55cfa8fd795feeca5e265f43823c4263512211f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8943712ff78dcc065a6a75e3756c1c689234eec2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212548"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503709"
 ---
+# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Office 自定义工具 (OCT) 
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Office 自定义工具（OCT）
+
 
 </div>
 
@@ -39,21 +41,21 @@ _**上次修改的主题：** 2012-10-02_
 
 Office 自定义工具 (OCT) 是安装程序的一部分，也是完成许多自定义操作的推荐工具。 使用 OCT 可以自定义 Office 并将您的自定义设置保存在安装程序自定义 .msp 文件中。 可将该文件放在网络安装点上的 Updates 文件夹中。 在安装 Office 时，安装程序会在 Updates 文件夹中查找安装程序自定义文件，并应用自定义设置。 Updates 文件夹仅可用于在 Office 2013 的初始安装过程中部署软件更新。
 
-OCT 是安装程序的一部分且包括在产品的批量许可版本中。 通过从包含 Office 2013 源文件`setup.exe /admin`的网络安装点的根目录中的命令行键入，可以运行 OCT。 例如，可使用以下命令：
+OCT 是安装程序的一部分且包括在产品的批量许可版本中。 通过 `setup.exe /admin` 从包含 Office 2013 源文件的网络安装点的根目录中的命令行键入，可以运行 OCT。 例如，可使用以下命令：
 
 `\\server\share\Office15\setup.exe /admin`
 
 管理员可使用 OCT 创建安装程序自定义 .msp 文件。 就像在 Microsoft Office 2010 年10月中一样，管理员可以自定义以下方面：
 
-  - **设置**用于指定客户端的默认安装位置和默认单位名称、其他网络安装源、产品密钥、最终用户许可协议、显示级别、Office 的早期版本、要删除的自定义程序、安装过程中要运行的自定义程序、安全设置和安装程序属性。
+  - **设置** 用于指定客户端的默认安装位置和默认单位名称、其他网络安装源、产品密钥、最终用户许可协议、显示级别、Office 的早期版本、要删除的自定义程序、安装过程中要运行的自定义程序、安全设置和安装程序属性。
 
-  - **功能**用于配置用户设置并自定义 Office 功能的安装方式。 管理员可以使用 OCT 为用户指定 Office 应用程序设置的初始默认值。 用户可以在安装后修改大多数设置。
+  - **功能** 用于配置用户设置并自定义 Office 功能的安装方式。 管理员可以使用 OCT 为用户指定 Office 应用程序设置的初始默认值。 用户可以在安装后修改大多数设置。
 
-  - **其他内容**用于添加或删除文件、添加或删除注册表项，以及配置快捷方式。
+  - **其他内容** 用于添加或删除文件、添加或删除注册表项，以及配置快捷方式。
 
-  - **Outlook**用于自定义用户的默认 Outlook 配置文件、指定 Exchange 设置、添加帐户、删除帐户和导出设置，以及指定发送\\和接收组。
+  - **Outlook** 用于自定义用户的默认 Outlook 配置文件、指定 Exchange 设置、添加帐户、删除帐户和导出设置，以及指定发送和 \\ 接收组。
 
-有关 OCT 的信息，请参阅<https://go.microsoft.com/fwlink/p/?linkid=267516>。
+有关 OCT 的信息，请参阅 <https://go.microsoft.com/fwlink/p/?linkid=267516> 。
 
 </div>
 

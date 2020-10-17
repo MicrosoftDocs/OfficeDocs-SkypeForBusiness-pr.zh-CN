@@ -12,20 +12,22 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f90e6cbb1afb9c4c2dd2b43e1448ca635899531b
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a911124af0ac4dc57eca01e0ef6e2a801a61caa5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755476"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505219"
 ---
+# <a name="create-users-and-contacts"></a>创建用户和联系人
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-users-and-contacts"></a>创建用户和联系人
+
 
 </div>
 
@@ -37,25 +39,25 @@ ms.locfileid: "44755476"
 
 _**上次修改的主题：** 2013-02-22_
 
-必须使用 Lync Server 2013 用户预配工具（UserProvisioningTool.exe）创建用户和联系人，以准备压力和性能负载测试。
+您必须使用 Lync Server 2013 用户预配工具 ( # A0) 在准备压力和性能负载测试的过程中创建用户和联系人。
 
 下面是您在阅读本主题时可能会用到的术语和定义的列表。
 
-  - 组织单位– Active Directory 域服务组织单位（OU）。
+  - 组织单位– Active Directory 域服务组织单位 (OU) 。
 
-  - 联合/跨池–将启用的用户与其他即时消息（IM）服务（如 Internet 服务的 MSN 网络、AOL®和 Yahoo®）进行通信 \! 。
+  - 联合/跨池–将启用的用户通过其他即时消息 (IM) 服务（如 Internet 服务的 MSN 网络、AOL®和 Yahoo®）与用户进行通信 \! 。
 
   - 通讯组列表–包含 Active Directory 域服务用户列表的 Active Directory 域服务中的对象，用于启动与一组用户的通信。
 
-  - Location Info Service – Lync Server 2013 服务，在每个电话启用和配置后，支持检索增强9-1-1 （E9-1-1）服务的物理位置。
+  - Location Info Service – Lync Server 2013 服务，在每个电话启用和配置该服务后，可以检索增强 9-1-1 (E9-1-1) 服务的物理位置。
 
-  - 美国电话号码–分配给用户的电话号码，以及用于路由入站和出站呼叫和反向号码查找（RNL）的 SIP URI。
+  - 美国电话号码–分配给用户的电话号码，以及用于路由入站和出站呼叫和反向号码查找 (RNL) 的 SIP URI。
 
 <div>
 
 ## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>使用 UserProvisioningTool.exe 创建用户和联系人
 
-必须使用 Lync Server 用户预配工具为负载模拟创建用户和联系人。 Lync Server 用户预配工具随 Lync Server 压力和性能工具包一起安装。 请确保已在前端服务器或 Standard Edition server 上运行程序包安装程序（CapacityPlanningTool.msi）。 通过在 \\ 前端服务器或 Standard Edition server 上运行文件 UserProvisioningTool.exe （位于% InstalledDirectory% LyncStressAndPerfTool LyncStress）来启动 Lync Server 用户预配工具。
+必须使用 Lync Server 用户预配工具为负载模拟创建用户和联系人。 Lync Server 用户预配工具随 Lync Server 压力和性能工具包一起安装。 请确保已在前端服务器或 Standard Edition server 上运行 ( # A0) 的程序包安装程序。 在 \\ 前端服务器或 Standard Edition 服务器上运行文件 UserProvisioningTool.exe (位于% InstalledDirectory% LyncStressAndPerfTool LyncStress) ，启动 Lync Server 用户预配工具。
 
 <div>
 
@@ -71,37 +73,37 @@ _**上次修改的主题：** 2013-02-22_
 
 
 > [!NOTE]  
-> 当您创建了大量用户（10000或更多）时，请从高端计算机运行 UserProvisioningTool.exe。 请注意，在创建用户时，域控制器也会遇到负载较高的情况。
+> 当您创建大量 (10000 或更多) 的用户时，请从高端计算机运行 UserProvisioningTool.exe。 请注意，在创建用户时，域控制器也会遇到负载较高的情况。
 
 
 
 </div>
 
-当 Lync Server 用户预配工具打开时，单击 "**配置**"，然后选择 "**加载配置**"。 若要开始配置用户和联系人，请加载程序包中包含的默认文件 SampleData.xml。 这将预填充包含您的系统需要修改的示例数据的字段。 如果已预配置的 XML 文件已包含自定义设置，则改为加载该文件。 填写 Lync Server 用户预配工具中的字段，如以下各节所述。
+当 Lync Server 用户预配工具打开时，单击 " **配置** "，然后选择 " **加载配置**"。 若要开始配置用户和联系人，请加载程序包中包含的默认文件 SampleData.xml。 这将预填充包含您的系统需要修改的示例数据的字段。 如果已预配置的 XML 文件已包含自定义设置，则改为加载该文件。 填写 Lync Server 用户预配工具中的字段，如以下各节所述。
 
 !["用户创建" 选项卡。](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg ""用户创建" 选项卡。")
 
 若要配置服务器选项，请按照以下步骤操作。
 
-1.  在 "**前端池 FQDN**" 中，键入要在其中承载用户的 Standard Edition Server 或前端池的完全限定域名（FQDN）。
+1.  在 " **前端池 FQDN**" 中，键入要在其中承载用户的 Standard Edition Server 或前端池 (FQDN) 的完全限定的域名称。
 
-2.  在 "**用户名前缀**" 中，键入要用于出于测试目的生成用户名的前缀。
+2.  在 " **用户名前缀**" 中，键入要用于出于测试目的生成用户名的前缀。
 
-3.  在 "**密码**" 中，指定将应用于所有测试用户帐户的密码。
+3.  在 " **密码**" 中，指定将应用于所有测试用户帐户的密码。
 
-4.  在 " **SIP 域**" 中，键入要用于测试用户的 SIP Uri （统一资源标识符）的域名。
+4.  在 " **SIP 域**" 中，键入要用于测试用户的 SIP Uri (统一资源标识符 ") 的域名。
 
-5.  在 "**帐户域**" 中，键入您要在其中创建测试用户的当前 Active Directory 域服务域的域名。
+5.  在 " **帐户域**" 中，键入您要在其中创建测试用户的当前 Active Directory 域服务域的域名。
 
-6.  在 "**组织单位**" 中，键入要在其中创建用户对象的 Active Directory 域服务 OU 的名称。 如果 OU 不存在，则会创建它。
+6.  在 " **组织单位**" 中，键入要在其中创建用户对象的 Active Directory 域服务 OU 的名称。 如果 OU 不存在，则会创建它。
 
-7.  在 "**电话区号**" 中，键入将用于测试用户帐户的三位数区域代码。 确保电话区号不会与 Active Directory 域服务中的任何其他用户的区号发生冲突。
+7.  在 " **电话区号**" 中，键入将用于测试用户帐户的三位数区域代码。 确保电话区号不会与 Active Directory 域服务中的任何其他用户的区号发生冲突。
 
-8.  如果要为测试用户启用企业语音，请选中 "**已启用语音**" 复选框。
+8.  如果要为测试用户启用企业语音，请选中 " **已启用语音** " 复选框。
 
-9.  在 "**用户数**" 中，指定要创建的测试用户的总数。
+9.  在 " **用户数**" 中，指定要创建的测试用户的总数。
 
-10. 在 "**起始索引**" 中，指定将用作用户名前缀的后缀的起始编号。
+10. 在 " **起始索引**" 中，指定将用作用户名前缀的后缀的起始编号。
 
 <div>
 
@@ -113,7 +115,7 @@ _**上次修改的主题：** 2013-02-22_
 
   - 如果所有输入值都是正确的，则会开始在 Active Directory 域服务中创建用户。 将在此窗体的底部显示一个进度栏。 我们建议您不要在进度栏处于活动状态时关闭应用程序。
 
-用户创建过程较慢。 可能需要几分钟的时间。 如果用户数量非常大，该过程甚至可能需要几个小时的时间。 如果用户已存在，则会使用任何更改对其进行更新。 您可以通过登录为范围中的用户之一来验证用户是否已创建。 使用用户前缀、用户号和 @sipDomain 作为用户名（例如，LyncUser10@contoso.net）以及指定的密码。
+用户创建过程较慢。 可能需要几分钟的时间。 如果用户数量非常大，该过程甚至可能需要几个小时的时间。 如果用户已存在，则会使用任何更改对其进行更新。 您可以通过登录为范围中的用户之一来验证用户是否已创建。 使用用户前缀、用户号和 @sipDomain 作为用户名 (例如，LyncUser10@contoso.net) ，以及指定的密码。
 
 </div>
 
@@ -133,9 +135,9 @@ _**上次修改的主题：** 2013-02-22_
 > [!NOTE]  
 > <OL>
 > <LI>
-> <P>仅支持美国格式的电话号码。 始终将电话号码分配给用户，并且由 UserProvisioningTool.exe 创建的所有用户均可为企业语音启用。 任何使用电话号码的方案（如会议自动助理或 UC-PSTN 呼叫），都可以使用此电话号码正确路由呼叫。 因此，每个用户必须具有唯一的电话号码。 如果您必须创建两次用户，则该命令将失败，除非您使用不同的区号，或者以前的用户已通过使用<STRONG>get-csuser</STRONG> cmdlet 禁用。</P>
+> <P>仅支持美国格式的电话号码。 始终将电话号码分配给用户，并且由 UserProvisioningTool.exe 创建的所有用户均可为企业语音启用。 任何使用电话号码的方案（如会议自动助理或 UC-PSTN 呼叫），都可以使用此电话号码正确路由呼叫。 因此，每个用户必须具有唯一的电话号码。 如果您必须创建两次用户，则该命令将失败，除非您使用不同的区号，或者以前的用户已通过使用 <STRONG>get-csuser</STRONG> cmdlet 禁用。</P>
 > <LI>
-> <P>在创建联系人之前，必须首先完成从 "用户" 选项卡执行的用户复制。如果你刚刚创建了用户，则必须等到 Lync Server 复制完成，并填充数据库中的用户帐户。 如果用户尚未完成复制，您将看到错误。 如果安装了 Lync Server 2013 前端服务，或者在最后一个用户上成功运行<STRONG>get-csuser</STRONG> cmdlet，您将知道用户何时完成复制。</P></LI></OL>
+> <P>在创建联系人之前，必须首先完成从 "用户" 选项卡执行的用户复制。如果你刚刚创建了用户，则必须等到 Lync Server 复制完成，并填充数据库中的用户帐户。 如果用户尚未完成复制，您将看到错误。 如果安装了 Lync Server 2013 前端服务，或者在最后一个用户上成功运行 <STRONG>get-csuser</STRONG> cmdlet，您将知道用户何时完成复制。</P></LI></OL>
 
 
 
@@ -184,7 +186,7 @@ _**上次修改的主题：** 2013-02-22_
     
 
     > [!NOTE]  
-    > 创建联系人后，此工具将重新启动目标池中的所有前端服务器。 它可能需要更长时间（最长为2小时）才能启动前端服务器，具体取决于此操作创建的联系人数量。
+    > 创建联系人后，此工具将重新启动目标池中的所有前端服务器。 它可能需要更长时间 (2 小时) 才能启动前端服务器，具体取决于此操作创建的联系人数量。
 
     
     </div>
@@ -195,7 +197,7 @@ _**上次修改的主题：** 2013-02-22_
 
 ## <a name="distribution-list"></a>通讯组列表
 
-Lync Server 2013 压力和性能工具的功能之一是在 Lync 2013 中模拟通讯组列表（DL）扩展功能。 如果您不打算在 UserProvisioningTool 中启用 DL 扩展，则可以跳过此步骤。
+Lync Server 2013 压力和性能工具的功能之一是在 Lync 2013 中模拟通讯组列表 (DL) 扩展功能。 如果您不打算在 UserProvisioningTool 中启用 DL 扩展，则可以跳过此步骤。
 
 !["通讯组列表创建" 选项卡。](images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg ""通讯组列表创建" 选项卡。")
 
@@ -203,7 +205,7 @@ Lync Server 2013 压力和性能工具的功能之一是在 Lync 2013 中模拟�
 
 若要配置通讯组列表，请执行以下步骤。
 
-1.  在 "通讯组列表数" 中，指定要创建的 Dl 的总数。 （我们建议您从用户数的两倍开始）。 它们的编号从0到 n-1。
+1.  在 "通讯组列表数" 中，指定要创建的 Dl 的总数。  (建议您从) 的用户数中启动两次。 它们的编号从0到 n-1。
 
 2.  在 "通讯组列表前缀" 中，指定 Dl 将具有的前缀。 例如，如果您指定 100 Dl 和 testDL 的前缀，则 Dl 将通过 testDL99 命名为 testDL0、testDL1 等。
 
@@ -229,7 +231,7 @@ Lync Server 2013 压力和性能工具的功能之一是为 Location 信息服�
 
 ![Location Info Service Config 选项卡。](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Location Info Service Config 选项卡。")
 
-如果选择测试此功能，则可以填写表单中提及的值，然后单击 "生成 IIS 配置文件" 按钮。 它将生成名为 .LIS \_Subnet.csv、iis \_Switches.csv、.Lis \_Ports.csv 和 .LISWAP.csv \_ 的 CSV 文件。 然后，您可以分别使用**CsLisSubnet** Cmdlet、 **CsLisSwitch** cmdlet、 **CsLisPort** CMDLET 和**CsWirelessAccessPoint** CMDLET 将这些 CSV 文件导入到 .lis 数据库中。
+如果选择测试此功能，则可以填写表单中提及的值，然后单击 "生成 IIS 配置文件" 按钮。 它将生成名为 .LIS \_Subnet.csv、iis \_Switches.csv、.Lis \_Ports.csv 和 .LISWAP.csv \_ 的 CSV 文件。 然后，您可以分别使用 **CsLisSubnet** Cmdlet、 **CsLisSwitch** cmdlet、 **CsLisPort** CMDLET 和 **CsWirelessAccessPoint** CMDLET 将这些 CSV 文件导入到 .lis 数据库中。
 
 </div>
 

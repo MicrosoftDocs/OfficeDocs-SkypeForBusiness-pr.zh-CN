@@ -12,20 +12,22 @@ ms:contentKeyID: 51541524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd6efce509283d59c5cecc7325c35c9cf1ab371e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 94cebbc9a11e1857bed419c97f52f065326b1772
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187075"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504869"
 ---
+# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a>Lync Server 2013 的备份和还原过程概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a>Lync Server 2013 的备份和还原过程概述
+
 
 </div>
 
@@ -43,13 +45,13 @@ _**上次修改的主题：** 2013-03-26_
 
   - 您将备份位置创建为独立计算机上的共享文件夹，该文件夹不是任何池的一部分。 备份的位置在 **$Backup**中引用。
 
-  - 在定期计划的基础上，您可以备份 lync server 2013 中的[备份和还原要求](lync-server-2013-backup-and-restoration-requirements-data.md)中描述的所有 lync server 数据库和所有文件存储区：数据按照[备份 lync server 2013](lync-server-2013-backing-up-lync-server.md)中所述的过程操作中央管理存储包括所有服务器设置和配置。
+  - 在定期计划的基础上，您可以备份 lync server 2013 中的 [备份和还原要求](lync-server-2013-backup-and-restoration-requirements-data.md) 中描述的所有 lync server 数据库和所有文件存储区：数据按照 [备份 lync server 2013](lync-server-2013-backing-up-lync-server.md) 中所述的过程操作中央管理存储包括所有服务器设置和配置。
 
-  - 每次运行后续备份时，都会创建一个新的共享文件夹，并更改 **$Backup**引用的路径。
+  - 每次运行后续备份时，都会创建一个新的共享文件夹，并更改 **$Backup** 引用的路径。
 
 通常情况下，还原过程的工作方式如下所示：
 
-  - 当发生故障或中断时，您将 **$Backup**引用的位置中的数据还原到新的或清理的计算机。
+  - 当发生故障或中断时，您将 **$Backup** 引用的位置中的数据还原到新的或清理的计算机。
     
     <div>
     
@@ -60,9 +62,9 @@ _**上次修改的主题：** 2013-03-26_
     
     </div>
 
-  - 若要使您的用户和会议信息能够恢复到故障点，您可以实施具有配对前端池的灾难恢复拓扑，如在[Lync Server 2013 中规划高可用性和灾难恢复中](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)所述。
+  - 若要使您的用户和会议信息能够恢复到故障点，您可以实施具有配对前端池的灾难恢复拓扑，如在 [Lync Server 2013 中规划高可用性和灾难恢复中](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)所述。
 
-  - 所有域名系统（DNS）配置、动态主机配置协议（DHCP）配置、域名、计算机完全限定域名（Fqdn）、文件存储路径等在还原时必须相同，因为它们的还原时间在退后。
+  - 所有域名系统 (DNS) 配置、动态主机配置协议 (DHCP) 配置、域名、计算机完全限定的域名 (Fqdn) 、文件存储路径等，在还原时，它们在备份时必须相同。
 
 如果运行 Lync Server 的服务器出现故障，恢复过程将包括以下步骤：
 
@@ -72,7 +74,7 @@ _**上次修改的主题：** 2013-03-26_
 
   - 如果服务器托管数据库，则安装 Microsoft SQL Server 2012 或 Microsoft SQL Server 2008 R2。
 
-  - 通常情况下，如果服务器托管数据库，则运行拓扑生成器以创建和安装数据库并设置访问控制列表（Acl）。
+  - 通常情况下，如果服务器托管数据库，请运行拓扑生成器以创建和安装数据库，并设置 (Acl) 中的访问控制列表。
 
   - 通常情况下，如果服务器托管服务器角色，请运行 Lync Server 部署向导的步骤1到步骤4以安装本地配置文件，安装服务器角色组件，分配证书，并启动服务。
     

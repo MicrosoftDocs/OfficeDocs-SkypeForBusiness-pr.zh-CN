@@ -12,20 +12,22 @@ ms:contentKeyID: 48185506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ee078a96350b2796cb3535ee4099a075cc0f622
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e72fd57b05e618f03382a19995beaf9c542dc859
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504169"
 ---
+# <a name="hosted-voice-mail-policies-in-lync-server-2013"></a>Lync Server 2013 中的托管语音邮件策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-voice-mail-policies-in-lync-server-2013"></a>Lync Server 2013 中的托管语音邮件策略
+
 
 </div>
 
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2012-10-01_
 
 语音邮件策略定义了 Lync Server 2013 ExUM 路由应用程序在发送到托管 Exchange UM 实现的邀请邮件的请求 URI 中插入的两个属性：
 
-  - **目标：** 托管 Exchange UM 服务的完全限定的域名（FQDN）。 本地 Lync Server 边缘服务器使用此值进行路由。
+  - **目标：** 托管 Exchange UM 服务 (FQDN) 的完全限定的域名称。 本地 Lync Server 边缘服务器使用此值进行路由。
     
     <div>
     
@@ -96,7 +98,7 @@ _**上次修改的主题：** 2012-10-01_
 
 
 > [!NOTE]  
-> 托管 Exchange UM 服务的租户管理员将为您的目标和组织属性设置提供必要的值。 若要配置策略，您必须运行 CsHostedVoicemailPolicy cmdlet 或使用 CsHostedVoicemailPolicy cmdlet 修改存在的项（例如，全局策略）。
+> 托管 Exchange UM 服务的租户管理员将为您的目标和组织属性设置提供必要的值。 若要配置策略，您必须运行 New-CsHostedVoicemailPolicy cmdlet 或使用 Set-CsHostedVoicemailPolicy cmdlet 修改存在的 (例如，全局策略) 。
 
 
 
@@ -104,25 +106,25 @@ _**上次修改的主题：** 2012-10-01_
 
 有关管理托管的语音邮件策略的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
-  - 新 CsHostedVoicemailPolicy
+  - New-CsHostedVoicemailPolicy
 
-  - CsHostedVoicemailPolicy
+  - Set-CsHostedVoicemailPolicy
 
-  - CsHostedVoicemailPolicy
+  - Get-CsHostedVoicemailPolicy
 
 </div>
 
 <div>
 
-## <a name="per-user-voice-mail-policy-assignment"></a>每用户语音邮件策略分配
+## <a name="per-user-voice-mail-policy-assignment"></a>Per-User 语音邮件策略分配
 
-如果托管的语音邮件策略是使用每用户作用域定义的，则必须显式分配它。 您可以运行 CsHostedVoicemailPolicy cmdlet，将策略分配给单个用户或组。
+如果托管的语音邮件策略是使用每用户作用域定义的，则必须显式分配它。 您可以运行 Grant-CsHostedVoicemailPolicy cmdlet，将策略分配给单个用户或组。
 
 有关分配或删除每用户托管语音邮件策略的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
   - Grant-CsHostedVoicemailPolicy
 
-  - CsHostedVoicemailPolicy
+  - Remove-CsHostedVoicemailPolicy
 
 </div>
 

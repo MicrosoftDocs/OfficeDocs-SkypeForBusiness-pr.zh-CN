@@ -12,20 +12,22 @@ ms:contentKeyID: 48183707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed4a5fb3e34192aab9c94d72a3bc79b733828e3e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27d280580f4d9cae1f6240b554be760d1689daa3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208898"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504479"
 ---
+# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中定义 E9-1-1 部署的范围
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中定义 E9-1-1 部署的范围
+
 
 </div>
 
@@ -50,7 +52,7 @@ _**上次修改的主题：** 2012-06-06_
 <!-- end list -->
 
   - **如何为分支站点部署 E9-1-1？**  
-    语音复原是在分支站点部署 E9-1-1 时需要理解的一个重要概念。 如果您有集中化的电子 9-1-1 SIP 中继，并且发生 WAN 中断，则登录的客户端可能无法从位置信息服务获取位置或连接到紧急服务服务提供商。 Lync Server 提供了几种用于在分支机构中处理语音弹性的策略，包括：具有可恢复的数据网络、在每个分支中部署 SIP 中继或在中断期间将紧急呼叫推送到本地网关。 有关详细信息，请参阅[Lync Server 2013 中的规划分支站点语音恢复](lync-server-2013-planning-for-branch-site-voice-resiliency.md)。
+    语音复原是在分支站点部署 E9-1-1 时需要理解的一个重要概念。 如果您有集中化的电子 9-1-1 SIP 中继，并且发生 WAN 中断，则登录的客户端可能无法从位置信息服务获取位置或连接到紧急服务服务提供商。 Lync Server 提供了几种用于在分支机构中处理语音弹性的策略，包括：具有可恢复的数据网络、在每个分支中部署 SIP 中继或在中断期间将紧急呼叫推送到本地网关。 有关详细信息，请参阅 [Lync Server 2013 中的规划分支站点语音恢复](lync-server-2013-planning-for-branch-site-voice-resiliency.md)。
 
 <!-- end list -->
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2012-06-06_
     
 
     > [!NOTE]  
-    > 使用 VPN 连接到组织网络的用户的 Lync 客户端可以选取内部 IP 地址信息，但由于这些地址不能用于标识用户的实际位置，因此必须将 VPN 子网排除在位置信息服务。
+    > 使用 VPN 连接到组织网络的用户的 Lync 客户端可以选取内部 IP 地址信息，但由于这些地址不能用于标识用户的实际位置，因此必须从 Location 信息服务中排除 VPN 子网。
 
     
     </div>

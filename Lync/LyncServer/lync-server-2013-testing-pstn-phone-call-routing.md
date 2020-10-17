@@ -12,20 +12,22 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abdb6796139ddc4be2b8ea24aa9bfeb19f745373
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe6f0b1da87cfff6033840d37f590922c0a3bd9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193917"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503999"
 ---
+# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>在 Lync Server 2013 中测试 PSTN 电话呼叫路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>在 Lync Server 2013 中测试 PSTN 电话呼叫路由
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-11-01_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行<strong>test-csintertrunkrouting</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 <strong>test-csintertrunkrouting</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsInterTrunkRouting&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -96,15 +98,15 @@ RedmondRoute LocalUsage {RedmondRoute}
 
 如果测试未成功，您将收到与以下内容类似的输出：
 
-测试-Test-csintertrunkrouting：无法处理参数上的参数转换
+Test-CsInterTrunkRouting：无法处理参数上的参数转换
 
-"为 microsoft.rtc.management.writableconfig.settings.trunkconfiguration.trunkconfiguration"。 无效的 TrunkConfigurationsetting （参数）。 指定一个
+"为 microsoft.rtc.management.writableconfig.settings.trunkconfiguration.trunkconfiguration"。 TrunkConfigurationsetting (参数) 无效。 指定一个
 
-有效设置（参数），然后重试。
+有效设置 (参数) 然后重试。
 
 行：1字符：79
 
-\+Test-csintertrunkrouting-TargetNumber "电话： + 12065551219"
+\+ Test-CsInterTrunkRouting TargetNumber "电话： + 12065551219"
 
 \-为 microsoft.rtc.management.writableconfig.settings.trunkconfiguration.trunkconfiguration $t .。。
 
@@ -112,11 +114,11 @@ RedmondRoute LocalUsage {RedmondRoute}
 
 ~~
 
-\+CategoryInfo： InvalidData：（:)\[Test-csintertrunkrouting\]，Par
+\+ CategoryInfo： InvalidData： (： ) \[ Test-test-csintertrunkrouting \] ，Par
 
 ameterBindingArgumentTransformationException
 
-\+FullyQualifiedErrorId： ParameterArgumentTransformationError，Microsoft。
+\+ FullyQualifiedErrorId： ParameterArgumentTransformationError，Microsoft。
 
 简.TestOcsInterTrunkRoutingCmdlet 的管理
 
@@ -126,7 +128,7 @@ ameterBindingArgumentTransformationException
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是**测试 test-csintertrunkrouting**可能失败的一些常见原因：
+以下是 **测试 test-csintertrunkrouting** 可能失败的一些常见原因：
 
   - 您指定的参数无效。 中继可能尚未正确配置，并且指定的目标号码可能不正确或无效。
 

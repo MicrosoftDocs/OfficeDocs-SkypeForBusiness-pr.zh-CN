@@ -12,20 +12,22 @@ ms:contentKeyID: 49733763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71d3a25d3b5bd1263ec2eba7e706d95161afd855
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d77562edd0b29bb176b7793b9f87efc717c2214
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198385"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504459"
 ---
+# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定义转换规则和规范化规则
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定义转换规则和规范化规则
+
 
 </div>
 

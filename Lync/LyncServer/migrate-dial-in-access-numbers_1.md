@@ -12,20 +12,22 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6654c084be4915d48c4148c90b3888295c887f08
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: bc96ef027d63c5d2020bd52d55f378fcf7dacf51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503519"
 ---
+# <a name="migrate-dial-in-access-numbers"></a>迁移拨入访问号码
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-dial-in-access-numbers"></a>迁移拨入访问号码
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44756973"
 
 _**上次修改的主题：** 2012-09-26_
 
-迁移拨入访问号码需要两个步骤：运行**CsLegacyConfiguration** cmdlet （在 "[导入策略和设置](import-policies-and-settings.md)" 中完成）以迁移拨号计划和其他电话拨入式访问号码设置，并运行**CsApplicationEndpoint** cmdlet 以迁移 contact 对象。
+迁移拨入访问号码需要两个步骤：在 "[导入策略和设置](import-policies-and-settings.md)" 中运行**CsLegacyConfiguration** cmdlet (之前完成) ，以迁移拨号计划和其他拨入访问号码设置，并运行**CsApplicationEndpoint** cmdlet 以迁移 contact 对象。
 
 <div>
 
@@ -57,7 +59,7 @@ _**上次修改的主题：** 2012-09-26_
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-7.  在 "Office 通信服务器 2007 R2 管理工具" 的 "**访问电话号码**" 选项卡上，验证您要从中迁移的 Office 通信服务器 2007 R2 池不保留拨入访问号码。
+7.  在 "Office 通信服务器 2007 R2 管理工具" 的 " **访问电话号码** " 选项卡上，验证您要从中迁移的 Office 通信服务器 2007 R2 池不保留拨入访问号码。
 
 </div>
 

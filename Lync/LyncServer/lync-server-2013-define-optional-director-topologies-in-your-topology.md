@@ -12,20 +12,22 @@ ms:contentKeyID: 48184808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0448ddfdb9988b791ff14dff89ab4c122df1d38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e53512d2d3c0bd99c4d5b23d20f21859ec974415
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209218"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504569"
 ---
+# <a name="define-optional-director-topologies-in-your-topology-for-lync-server-2013"></a>在拓扑中为 Lync Server 2013 定义可选控制器拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-optional-director-topologies-in-your-topology-for-lync-server-2013"></a>在拓扑中为 Lync Server 2013 定义可选控制器拓扑
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42209218"
 
 _**上次修改的主题：** 2012-09-08_
 
-Lync Server 2013 控制器可以是单实例服务器，也可以将其作为多个控制器的负载平衡池进行安装，以实现更高的可用性和容量。 硬件负载平衡和域名系统（DNS）负载平衡均受支持。 本主题介绍如何为控制器池配置 DNS 负载平衡。
+Lync Server 2013 控制器可以是单实例服务器，也可以将其作为多个控制器的负载平衡池进行安装，以实现更高的可用性和容量。 支持硬件负载平衡和域名系统 (DNS) 负载平衡。 本主题介绍如何为控制器池配置 DNS 负载平衡。
 
-要在添加或删除服务器角色后成功发布、启用或禁用拓扑，您应该以 **RTCUniversalServerAdmins** 和 **Domain Admins** 组成员的用户身份登录。 还可以委派适当的管理员权限，以添加服务器角色。 有关详细信息，请参阅 Standard Edition server 或 Enterprise Edition server Deployment 文档中的 "[在 Lync Server 2013 中委派安装程序权限](lync-server-2013-delegate-setup-permissions.md)"。 对于其他配置更改，只需要“RTCUniversalServerAdmins”**** 组的成员身份。
+要在添加或删除服务器角色后成功发布、启用或禁用拓扑，您应该以 **RTCUniversalServerAdmins** 和 **Domain Admins** 组成员的用户身份登录。 还可以委派适当的管理员权限，以添加服务器角色。 有关详细信息，请参阅 Standard Edition server 或 Enterprise Edition server Deployment 文档中的 " [在 Lync Server 2013 中委派安装程序权限](lync-server-2013-delegate-setup-permissions.md) "。 对于其他配置更改，只需要“RTCUniversalServerAdmins”**** 组的成员身份。
 
 本主题介绍为两个控制器拓扑定义和发布拓扑的步骤：
 
@@ -51,7 +53,7 @@ Lync Server 2013 控制器可以是单实例服务器，也可以将其作为多
 
 ## <a name="to-define-the-director-single-instance"></a>定义控制器（单实例）
 
-1.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+1.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 2.  在欢迎页上，单击“从现有部署下载拓扑”****。
 
@@ -95,7 +97,7 @@ Lync Server 2013 控制器可以是单实例服务器，也可以将其作为多
     
 
     > [!WARNING]  
-    > 如果您有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为<STRONG>pool01.contoso.com</STRONG>，则不能将<STRONG>pool01.contoso.com</STRONG>用于另一个前端池或前端服务器。 如果还部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器都是唯一的。 如果决定使用自定义的 FQDN 覆盖内部 web 服务，则每个 FQDN 必须与任何其他前端池、控制器或控制器池都是唯一的。
+    > 如果您有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 <STRONG>pool01.contoso.com</STRONG>，则不能将 <STRONG>pool01.contoso.com</STRONG> 用于另一个前端池或前端服务器。 如果还部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器都是唯一的。 如果决定使用自定义的 FQDN 覆盖内部 web 服务，则每个 FQDN 必须与任何其他前端池、控制器或控制器池都是唯一的。
 
     
     </div>
@@ -108,7 +110,7 @@ Lync Server 2013 控制器可以是单实例服务器，也可以将其作为多
 
 ## <a name="to-define-the-director-multiple-director-pool"></a>定义控制器（多控制器池）
 
-1.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+1.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 2.  在欢迎页上，单击“从现有部署下载拓扑”****。
 
@@ -158,7 +160,7 @@ Lync Server 2013 控制器可以是单实例服务器，也可以将其作为多
     
 
     > [!WARNING]  
-    > 如果您有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为<STRONG>pool01.contoso.com</STRONG>，则不能将<STRONG>pool01.contoso.com</STRONG>用于另一个前端池或前端服务器。 如果还部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器都是唯一的。 如果决定使用自定义的 FQDN 覆盖内部 web 服务，则每个 FQDN 必须与任何其他前端池、控制器或控制器池都是唯一的。
+    > 如果您有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 <STRONG>pool01.contoso.com</STRONG>，则不能将 <STRONG>pool01.contoso.com</STRONG> 用于另一个前端池或前端服务器。 如果还部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器都是唯一的。 如果决定使用自定义的 FQDN 覆盖内部 web 服务，则每个 FQDN 必须与任何其他前端池、控制器或控制器池都是唯一的。
 
     
     </div>

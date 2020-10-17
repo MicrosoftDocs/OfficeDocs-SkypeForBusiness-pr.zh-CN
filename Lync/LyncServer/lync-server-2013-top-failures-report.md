@@ -12,20 +12,22 @@ ms:contentKeyID: 48184021
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 972c9e97015f5a39ace3cf1fc68051cc0afcc988
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 47bb2a36d3d165150735a4b0e4b44907a0d86011
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193635"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503759"
 ---
+# <a name="top-failures-report-in-lync-server-2013"></a>Lync Server 2013 中的热门故障报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="top-failures-report-in-lync-server-2013"></a>Lync Server 2013 中的热门故障报告
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2012-10-01_
 
 ## <a name="accessing-the-top-failures-report"></a>访问主要故障报告
 
-可从监控报告主页访问主要故障报告。 单击报告的会话指标将转到[Lync Server 2013 中的故障分布报告](lync-server-2013-failure-distribution-report.md)。
+可从监控报告主页访问主要故障报告。 单击报告的会话指标将转到 [Lync Server 2013 中的故障分布报告](lync-server-2013-failure-distribution-report.md)。
 
 </div>
 
@@ -117,7 +119,7 @@ _**上次修改的主题：** 2012-10-01_
 <ul>
 <li><p>各种</p></li>
 <li><p>对等</p></li>
-<li><p>发布会</p></li>
+<li><p>Conference</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -135,7 +137,7 @@ _**上次修改的主题：** 2012-10-01_
 <li><p>预期失败和意外失败</p></li>
 <li><p>意外失败</p></li>
 </ul>
-<p>&quot;预期故障&quot;是预期发生的故障。 例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。 &quot;意外故障&quot;是指看起来好像是以其他正常运行的系统出现的故障。 例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。 如果终止，则会被标记为意外失败。</p></td>
+<p>&quot;预期故障 &quot; 是预期发生的故障。 例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。 &quot;意外故障 &quot; 是指看起来好像是以其他正常运行的系统出现的故障。 例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。 如果终止，则会被标记为意外失败。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>响应代码</strong></p></td>

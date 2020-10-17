@@ -12,20 +12,22 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28d9b55dff41e0013852b52eee97eb26fef3997e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ecd89ce28f1565e44c92ba543ccf992bb2a3c811
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504139"
 ---
+# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>如何在 Lync Server 2013 中实现 SIP 中继？
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>如何在 Lync Server 2013 中实现 SIP 中继？
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2013-03-18_
 
 若要实现 SIP 中继，您必须通过中介服务器路由连接，该服务器充当 Lync Server 2013 客户端与服务提供商和 transcodes 媒体之间的通信会话的代理（如有必要）。
 
-每个中介服务器都有一个内部网络接口和一个外部网络接口。 内部接口连接到前端服务器。 外部接口通常称为网关接口，因为它通常用于将中介服务器连接到公用交换电话网络（PSTN）网关或 ip-pbx。 若要实现 SIP 中继，请将中介服务器的外部接口连接到 ITSP 的外部边缘组件。
+每个中介服务器都有一个内部网络接口和一个外部网络接口。 内部接口连接到前端服务器。 外部接口通常称为网关接口，因为它通常用于将中介服务器连接到公开交换的电话网络， (PSTN) 网关或 ip-pbx。 若要实现 SIP 中继，请将中介服务器的外部接口连接到 ITSP 的外部边缘组件。
 
 <div>
 
@@ -51,19 +53,19 @@ _**上次修改的主题：** 2013-03-18_
 
 </div>
 
-有关中介服务器的详细信息，请参阅[Lync server 2013 中的中介服务器组件](lync-server-2013-mediation-server-component.md)。
+有关中介服务器的详细信息，请参阅 [Lync server 2013 中的中介服务器组件](lync-server-2013-mediation-server-component.md)。
 
 <div>
 
 ## <a name="centralized-vs-distributed-sip-trunking"></a>集中 SIP 中继和分布式 SIP 中继
 
-*集中*SIP 中继通过您的中央站点路由所有 Internet 协议（VoIP）通信，包括分支站点的流量。 集中部署模型简单、经济高效，通常是使用 Lync Server 2013 实现 SIP 中继的推荐方法。
+*集中* SIP 中继通过您的中心站点路由所有 Internet 协议 (VoIP) 流量，包括分支站点流量。 集中部署模型简单、经济高效，通常是使用 Lync Server 2013 实现 SIP 中继的推荐方法。
 
-*分布式*SIP 中继是一种部署模型，可在其中实现一个或多个分支站点的本地 SIP 中继。 然后，将 VoIP 流量从分支站点直接路由到服务提供商，而无需通过中央站点。
+*分布式* SIP 中继是一种部署模型，可在其中实现一个或多个分支站点的本地 SIP 中继。 然后，将 VoIP 流量从分支站点直接路由到服务提供商，而无需通过中央站点。
 
 仅在出现以下情况时才需要使用分布式 SIP 中继：
 
-  - 分支站点需要 survivable 电话连接（例如，如果 WAN 故障）。 应为每个分支站点分析此要求;某些分支可能需要冗余和故障转移，而其他分支可能不需要。
+  - 分支站点需要 survivable 电话连接 (例如，如果 WAN 向下) 。 应为每个分支站点分析此要求;某些分支可能需要冗余和故障转移，而其他分支可能不需要。
 
   - 两个中央站点之间需要弹性。 您需要确保 SIP 中继在每个中央站点终止。 例如，如果您有都柏林和 Tukwila 中心站点，并且两者都仅使用一个站点的 SIP 中继，则其他站点的用户不能发出 PSTN 呼叫。
 
@@ -71,7 +73,7 @@ _**上次修改的主题：** 2013-03-18_
 
 根据网站的地理位置和您在企业中预期的流量，您可能不希望通过中心 SIP 中继路由所有用户，也可以选择通过分支站点的 SIP 中继路由某些用户。 为分析您的需求，请回答以下问题：
 
-  - 每个网站有多大（即，为企业语音启用多少个用户）？
+  - 每个网站的大小是多少 (也就是说，为企业语音) 启用了多少个用户？
 
   - 每个站点中哪个外线直拨分机 (DID) 号码收到的电话呼叫最多？
 
@@ -81,7 +83,7 @@ _**上次修改的主题：** 2013-03-18_
 
 
 > [!NOTE]  
-> 有关分布式 SIP 中继的详细信息，请参阅<A href="lync-server-2013-branch-site-sip-trunking.md">Lync Server 2013 中的分支站点 SIP 中继</A>。
+> 有关分布式 SIP 中继的详细信息，请参阅 <A href="lync-server-2013-branch-site-sip-trunking.md">Lync Server 2013 中的分支站点 SIP 中继</A>。
 
 
 
@@ -153,7 +155,7 @@ Lync Server 2013 仅支持以下编解码器：
 
 ## <a name="internet-telephony-service-provider"></a>Internet 电话服务提供商
 
-SIP 中继连接的服务提供商端的实现方式因 ITSP 而异。 有关部署信息，请与服务提供商联系。 有关认证的 SIP 中继服务提供商的列表，请参阅[Microsoft 统一通信开放式互操作性计划网站](https://go.microsoft.com/fwlink/?linkid=287029)。
+SIP 中继连接的服务提供商端的实现方式因 ITSP 而异。 有关部署信息，请与服务提供商联系。 有关认证的 SIP 中继服务提供商的列表，请参阅 [Microsoft 统一通信开放式互操作性计划网站](https://go.microsoft.com/fwlink/?linkid=287029)。
 
 有关 Microsoft 认证的 SIP 中继提供商的详细信息，请与 Microsoft 代表联系。
 

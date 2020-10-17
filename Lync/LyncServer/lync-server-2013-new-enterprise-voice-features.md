@@ -12,20 +12,22 @@ ms:contentKeyID: 48185591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c18c766fbb1116ecad92e7122892abbb0d983d5c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea00bc092f12a81ca9804b60e31aa88858455657
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192365"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504129"
 ---
+# <a name="new-enterprise-voice-features-in-lync-server-2013"></a>Lync Server 2013 中新的企业语音功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-enterprise-voice-features-in-lync-server-2013"></a>Lync Server 2013 中新的企业语音功能
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2013-05-01_
 
 Lync Server 2013 引入了几个新的路由和呼叫管理功能，可增强企业语音。
 
-Lync Server 2013 支持中介服务器和网关之间的多个中继。 *中继*是端口号和中介服务器与端口号和网关之间的逻辑关联。 这意味着中介服务器可以有多个中继到不同的网关，并且一个网关可以有多个中继到不同的中介服务器。 中继间路由使 Lync Server 2013 能够将 ip-pbx 连接到公用电话交换网（PSTN）网关或与多个 IP-PBX 系统互连。 Lync Server 2013 充当不同电话系统之间的粘附（即，互连）。
+Lync Server 2013 支持中介服务器和网关之间的多个中继。 *中继*是端口号和中介服务器与端口号和网关之间的逻辑关联。 这意味着中介服务器可以有多个中继到不同的网关，并且一个网关可以有多个中继到不同的中介服务器。 中继间路由使 Lync Server 2013 能够将 IP-PBX 互连到公用电话交换网， (PSTN) 网关或互连多个 IP-PBX 系统。 Lync Server 2013 充当粘附 (也就是说，不同电话系统之间的互连) 。
 
 Microsoft Lync Server 2013 改进了呼叫转接、同时响铃、语音邮件处理和呼叫者 ID 演示的各个方面。 这些功能丰富了企业语音呼叫体验。
 

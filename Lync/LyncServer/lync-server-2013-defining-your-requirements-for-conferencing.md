@@ -12,20 +12,22 @@ ms:contentKeyID: 48184255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19f70df743e03494c0c54e180e2f23f960a752a1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9572317dc88d354f7df815be5dcb3cae4ffeba6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213792"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504369"
 ---
+# <a name="defining-your-requirements-for-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中定义会议要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中定义会议要求
+
 
 </div>
 
@@ -45,9 +47,9 @@ _**上次修改的主题：** 2012-09-30_
     
     与文档协作相比，应用程序共享要求使用更多的网络带宽。 Lync Server 2013 提供了用于控制每个应用程序共享会话的限制机制。 默认情况下，每个会话设置为 1.5 KB/秒。
     
-    如果您不希望启用应用程序共享，但希望启用文档协作，则可以启用会议并使用会议策略来禁用应用程序共享。 有关配置会议策略的详细信息，请参阅[Lync Server 2013 中的会议策略](lync-server-2013-conferencing-policies.md)。
+    如果您不希望启用应用程序共享，但希望启用文档协作，则可以启用会议并使用会议策略来禁用应用程序共享。 有关配置会议策略的详细信息，请参阅 [Lync Server 2013 中的会议策略](lync-server-2013-conferencing-policies.md)。
     
-    若要使用户能够共享 PowerPoint 演示文稿，您需要配置 Office Web Apps Server。 有关配置 Office Web Apps Server 的详细信息，请参阅[配置与 Office Web Apps server 和 Lync Server 2013 的集成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
+    若要使用户能够共享 PowerPoint 演示文稿，您需要配置 Office Web Apps Server。 有关配置 Office Web Apps Server 的详细信息，请参阅 [配置与 Office Web Apps server 和 Lync Server 2013 的集成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)。
 
   - **是否要启用 A/V 会议？**
     
@@ -76,11 +78,11 @@ _**上次修改的主题：** 2012-09-30_
     
     此外，通过部署边缘服务器，可以与其他组织（如您的客户或供应商）建立联盟关系，这样，来自这些组织的用户便可以更轻松地与您的用户协作。
     
-    有关部署边缘服务器的详细信息，请参阅在 lync server [2013 中规划外部用户访问](lync-server-2013-planning-for-external-user-access.md)和[在 lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)。 有关启用 Office Web Apps Server 外部访问的详细信息，请参阅[使用反向代理服务器在 Lync Server 2013 中发布 Office Web Apps server](lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md)。
+    有关部署边缘服务器的详细信息，请参阅在 lync server [2013 中规划外部用户访问](lync-server-2013-planning-for-external-user-access.md) 和 [在 lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)。 有关启用 Office Web Apps Server 外部访问的详细信息，请参阅 [使用反向代理服务器在 Lync Server 2013 中发布 Office Web Apps server](lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md)。
 
   - **是否要控制可加入 Lync Server 2013 会议的客户端？**
     
-    如果是，则应配置与会页面，以便只有要支持的客户端选项可用。 用户每次单击链接加入计划的会议时，Lync Server 2013 将检测是否已在计算机上安装了客户端。 然后，启动默认客户端，并打开包含备用客户端的链接的与会页面。 与会页面始终包含使用 Microsoft Lync Web App 的选项。 除了此选项之外，您还可以决定是否包括与会者的链接和以前版本的 Communicator。 有关详细信息，请参阅[在 Lync Server 2013 中配置会议加入页面](lync-server-2013-configuring-the-meeting-join-page.md)。
+    如果是，则应配置与会页面，以便只有要支持的客户端选项可用。 用户每次单击链接加入计划的会议时，Lync Server 2013 将检测是否已在计算机上安装了客户端。 然后，启动默认客户端，并打开包含备用客户端的链接的与会页面。 与会页面始终包含使用 Microsoft Lync Web App 的选项。 除了此选项之外，您还可以决定是否包括与会者的链接和以前版本的 Communicator。 有关详细信息，请参阅 [在 Lync Server 2013 中配置会议加入页面](lync-server-2013-configuring-the-meeting-join-page.md)。
 
 <div>
 

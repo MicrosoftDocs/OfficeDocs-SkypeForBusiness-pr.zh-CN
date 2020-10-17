@@ -12,20 +12,22 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cf7189df06549a3008fd86b9395617c6aea3e98
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 87b6fd59ed0efb3a775017af1effd7bd022071fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503869"
 ---
+# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>在 Lync Server 2013 中测试用户与 Exchange UM 的连接
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>在 Lync Server 2013 中测试用户与 Exchange UM 的连接
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-11-01_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行<strong>test-csexumconnectivity</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 <strong>test-csexumconnectivity</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExUMConnectivity&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -78,14 +80,14 @@ _**上次修改的主题：** 2014-11-01_
 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-以下示例中所示的命令测试用户 litwareinc\\Kenmyer 的 Exchange 统一消息连接。 若要执行此操作，示例中的第一个命令使用了**Get Credential** cmdlet 为用户 litwareinc\\kenmyer 创建 Windows PowerShell 命令行接口凭据对象。 请注意，您必须为此帐户提供密码才能创建有效的凭据对象，并确保**test-csexumconnectivity** cmdlet 可以运行其检查。
+以下示例中所示的命令测试用户 litwareinc kenmyer 的 Exchange 统一消息连接 \\ 。 若要执行此操作，示例中的第一个命令使用了 **Get Credential** cmdlet 为用户 litwareinc Kenmyer 创建 Windows PowerShell 命令行接口凭据对象 \\ 。 请注意，您必须为此帐户提供密码才能创建有效的凭据对象，并确保 **test-csexumconnectivity** cmdlet 可以运行其检查。
 
-该示例中的第二个命令使用提供的凭据对象（$x）和用户 litwareinc\\KENMYER 的 SIP 地址，以确定此用户是否可以连接到 Exchange 统一消息。
+该示例中的第二个命令使用提供的凭据对象 ($x) 和用户 litwareinc kenmyer 的 SIP 地址， \\ 以确定用户是否可以连接到 Exchange 统一消息。
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-下一个示例中所示的命令是刚刚显示的命令的变体。 在这种情况下，将包含 OutLoggerVariable 参数，以生成由**测试 test-csexumconnectivity**执行的每个步骤的详细日志，cmdletand 每个步骤的成功或失败。 若要执行此操作，请将 OutLoggerVariable 参数添加到参数值 ExumText 中。这会导致详细的日志记录信息存储在名为 $ExumTest 的变量中。 在示例的最后一个命令中，ToXML() 方法用于将日志信息转换为 XML 格式。 然后，将 XML 数据写入到一个名为 C：\\的文件中\\，并使用 Out file cmdlet 来记录 ExumTest。
+下一个示例中所示的命令是刚刚显示的命令的变体。 在这种情况下，将包含 OutLoggerVariable 参数，以生成由 **测试 test-csexumconnectivity** 执行的每个步骤的详细日志，cmdletand 每个步骤的成功或失败。 若要执行此操作，请将 OutLoggerVariable 参数添加到参数值 ExumText 中。这会导致详细的日志记录信息存储在名为 $ExumTest 的变量中。 在示例的最后一个命令中，ToXML() 方法用于将日志信息转换为 XML 格式。 然后，将 XML 数据写入名为 C： LogsExumTest.xml 的文件 \\ ， \\ 方法是使用 Out-File cmdlet。
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -OutLoggerVariable ExumTest 
@@ -97,7 +99,7 @@ _**上次修改的主题：** 2014-11-01_
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果已正确配置 Exchange 集成，则会收到类似于以下内容的输出，并将 Result 属性标记为**成功**：
+如果已正确配置 Exchange 集成，则会收到类似于以下内容的输出，并将 Result 属性标记为 **成功**：
 
 目标 Fqdn： atl-cs-001.litwareinc.com
 
@@ -109,7 +111,7 @@ _**上次修改的主题：** 2014-11-01_
 
 诊断
 
-如果指定的用户无法接收通知，则结果将显示为 "**失败**"，并且将在 "错误" 和 "诊断" 属性中记录其他信息：
+如果指定的用户无法接收通知，则结果将显示为 " **失败**"，并且将在 "错误" 和 "诊断" 属性中记录其他信息：
 
 目标 Fqdn： atl-cs-001.litwareinc.com
 
@@ -141,7 +143,7 @@ _**上次修改的主题：** 2014-11-01_
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是**测试 test-csexumconnectivity**可能失败的一些常见原因：
+以下是 **测试 test-csexumconnectivity** 可能失败的一些常见原因：
 
   - 提供的参数值不正确。 如果使用，则必须正确配置可选参数或测试将失败。 重新运行不带可选参数的命令，并查看是否成功。
 

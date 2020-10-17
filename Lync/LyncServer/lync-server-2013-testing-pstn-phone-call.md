@@ -12,20 +12,22 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c9c0b0441ea31e2419101aba188c33b0bbfd70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abc46703118d27533ac2afd2b4b448ad9516bdd6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193916"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503968"
 ---
+# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>在 Lync Server 2013 中测试 PSTN 电话呼叫
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>在 Lync Server 2013 中测试 PSTN 电话呼叫
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-06-05_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsRegistration cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsRegistration cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnOutboundCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**上次修改的主题：** 2014-06-05_
 
 ## <a name="description"></a>说明
 
-CsPstnOutboundCall cmdlet 测试用户对 PSTN 上的电话号码的呼叫的能力。 运行 CsPstnOutboundCall 时，cmdlet 将首先尝试将测试用户记录到 Lync Server。 如果登录成功，则 cmdlet 将尝试通过 PSTN 网关发出电话呼叫。 将使用拨号计划、语音策略以及分配给测试帐户的其他策略和设置进行此电话呼叫。 当应答呼叫时，cmdlet 通过网络发送双音多频（DTMF）代码以验证媒体连接性。
+Test-CsPstnOutboundCall cmdlet 测试用户拨打 PSTN 上的电话号码的能力。 运行 CsPstnOutboundCall 时，cmdlet 将首先尝试将测试用户记录到 Lync Server。 如果登录成功，则 cmdlet 将尝试通过 PSTN 网关发出电话呼叫。 将使用拨号计划、语音策略以及分配给测试帐户的其他策略和设置进行此电话呼叫。 当应答呼叫时，cmdlet 会通过网络发送双音多频 (DTMF) 代码，以验证媒体连接性。
 
 Test-CsPstnOutboundCall 在执行其测试时将发起真实的电话呼叫：目标电话将响铃，必须接电话测试才能成功。 此外，还必须由管理员手动终止此呼叫。
 
@@ -76,7 +78,7 @@ Test-CsPstnOutboundCall 在执行其测试时将发起真实的电话呼叫：�
 
 ## <a name="running-the-test"></a>运行测试
 
-可以使用预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何用户的帐户运行 CsPstnOutboundCall cmdlet。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 和要调用的 PSTN 电话号码。 例如：
+可以使用预配置的测试帐户运行 Test-CsPstnOutboundCall cmdlet (请参阅设置用于运行 Lync Server 测试的测试帐户) 或启用了 Lync Server 的任何用户的帐户。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 和要调用的 PSTN 电话号码。 例如：
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219"
 
@@ -85,7 +87,7 @@ Test-CsPstnOutboundCall 在执行其测试时将发起真实的电话呼叫：�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-有关详细信息，请参阅[CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall) Cmdlet 的帮助文档。
 
 </div>
 
@@ -93,7 +95,7 @@ Test-CsPstnOutboundCall 在执行其测试时将发起真实的电话呼叫：�
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果指定的用户可以进行呼叫，并且接听呼叫，您将收到与以下内容类似的输出，并将 Result 属性标记为**成功：**
+如果指定的用户可以进行呼叫，并且接听呼叫，您将收到与以下内容类似的输出，并将 Result 属性标记为 **成功：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -119,17 +121,17 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 策略不包含电话路由使用情况
 
-由于分配给指定用户的语音策略不包含电话使用情况，以前的输出表明测试失败。 （电话惯例将语音策略与语音路由关联。 如果没有语音策略和相应的语音路由，则无法通过 PSTN 进行呼叫。
+由于分配给指定用户的语音策略不包含电话使用情况，以前的输出表明测试失败。  (电话惯例将语音策略与语音路由关联。 如果没有语音策略和相应的语音路由，则无法通过 PSTN 进行呼叫。 ) 
 
-如果 CsPstnOutboundCall 失败，您可能需要重新运行测试，这一次包括 Verbose 参数：
+如果 Test-CsPstnOutboundCall 失败，您可能需要重新运行测试，这一次包括 Verbose 参数：
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -Verbose
 
-包含 Verbose 参数时，CsPstnOutboundCall 将返回其在检查指定用户登录到 Lync Server 的能力时所尝试的每个操作的分步帐户。 例如，以下输出表明网络问题阻止了与 PSTN 的连接：
+包含 Verbose 参数时，Test-CsPstnOutboundCall 将返回其在检查指定用户登录到 Lync Server 的能力时所尝试的每个操作的分步帐户。 例如，以下输出表明网络问题阻止了与 PSTN 的连接：
 
 为 "sip： + 12065551219@litwareinc .com; user = phone" 建立音频视频呼叫。
 
-从网络收到异常 "A 404 （未找到）" 响应，操作失败。
+找不到异常 "A 404 () 从网络收到响应，操作失败。
 
 </div>
 
@@ -137,7 +139,7 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是测试 CsPstnOutboundCall 可能失败的一些常见原因：
+下面是 Test-CsPstnOutboundCall 可能失败的一些常见原因：
 
   - 您指定的用户帐户无效。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     
@@ -153,7 +155,7 @@ TargetFqdn： atl-cs-001.litwareinc.com
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object VoicePolicy
     
-    然后，您可以使用类似如下的命令来确定分配给该策略的 PSTN 用法（如果有），该命令将检索有关每个用户的语音策略 RedmondVoicePolicy 的信息：
+    然后，如果使用如下所示的命令 RedmondVoicePolicy 分配给该策略的任何) ，则可以确定 PSTN (用法，该命令将检索有关每用户语音策略的信息：
     
         Get-CsVoicePolicy -Identity "RedmondVoicePolicy"
 

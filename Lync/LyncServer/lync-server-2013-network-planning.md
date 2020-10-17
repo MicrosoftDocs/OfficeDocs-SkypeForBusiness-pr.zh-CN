@@ -12,20 +12,22 @@ ms:contentKeyID: 49733817
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0feffa5971cff463eb4f8d70c6a2e629d4c8f7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 55a9c719d7a33e817024ed4bc8ff4d8e730a2e25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192535"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505529"
 ---
+# <a name="network-planning-for-lync-server-2013"></a>Lync Server 2013 的网络规划
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-planning-for-lync-server-2013"></a>Lync Server 2013 的网络规划
+
 
 </div>
 
@@ -49,13 +51,13 @@ _**上次修改的主题：** 2012-09-10_
 
   - [Lync Server 2013 的负载平衡要求](lync-server-2013-load-balancing-requirements.md)
 
-  - [Lync Server 2013 的域名系统（DNS）要求](lync-server-2013-domain-name-system-dns-requirements.md)
+  - [Lync Server 2013 (DNS) 要求的域名称系统](lync-server-2013-domain-name-system-dns-requirements.md)
 
   - [Lync Server 2013 的端口要求](lync-server-2013-port-requirements.md)
 
   - [Lync Server 2013 中媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)
 
-  - [在 Lync Server 2013 中管理服务质量（QoS）](lync-server-2013-managing-quality-of-service-qos.md)
+  - [在 Lync Server 2013 中管理服务质量 (QoS) ](lync-server-2013-managing-quality-of-service-qos.md)
 
 </div>
 

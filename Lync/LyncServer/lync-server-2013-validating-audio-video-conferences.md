@@ -12,20 +12,22 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb206930dae08d0c2fcf5fa6a26b427b28c03e1b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f0bfeef1abcf7b5859c365b7c64b4fcc84f49ae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212598"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503699"
 ---
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>在 Lync Server 2013 中验证音频/视频会议
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>在 Lync Server 2013 中验证音频/视频会议
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2014-06-05_
 <tr class="even">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsAVConference cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsAVConference cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,11 +72,11 @@ _**上次修改的主题：** 2014-06-05_
 
 ## <a name="description"></a>说明
 
-CsAVConference cmdlet 检查两个测试用户是否可以参与音频/视频（A/V）会议。 运行此 cmdlet 时，这两个用户将登录系统。 成功登录后，第一个用户会创建 A/V 会议，然后等待第二个用户加入该会议。 简单交换数据之后，删除此会议并注销这两个测试用户。
+Test-CsAVConference cmdlet 检查两个测试用户是否可以参与音频/视频 (A/V) 会议。 运行此 cmdlet 时，这两个用户将登录系统。 成功登录后，第一个用户会创建 A/V 会议，然后等待第二个用户加入该会议。 简单交换数据之后，删除此会议并注销这两个测试用户。
 
-请注意，CsAVConference 不会在两个测试用户之间进行实际的 A/V 会议。 相反，cmdlet 会验证两个用户是否可以建立执行此类会议所需的所有连接。
+请注意，Test-CsAVConference 不会在两个测试用户之间进行实际的 A/V 会议。 相反，cmdlet 会验证两个用户是否可以建立执行此类会议所需的所有连接。
 
-在[CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)中，可以找到此命令的更多示例。
+在 [CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)中，可以找到此命令的更多示例。
 
 </div>
 
@@ -82,17 +84,17 @@ CsAVConference cmdlet 检查两个测试用户是否可以参与音频/视频（
 
 ## <a name="running-the-test"></a>运行测试
 
-CsAVConference cmdlet 可使用一对预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或任何两个已启用 Lync Server 的用户的帐户运行。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
+可以使用一对预配置的测试帐户运行 Test-CsAVConference cmdlet (参阅设置用于运行 Lync Server 测试的测试帐户) 或已为其启用 Lync Server 的任意两个用户的帐户。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-若要使用实际用户帐户运行此检查，必须为每个帐户创建两个 Windows PowerShell 凭据对象（包含帐户名和密码的对象）。 然后，在调用 CsAVConference 时，必须包含两个帐户的凭据对象和 SIP 地址：
+若要使用实际用户帐户运行此检查，必须为每个帐户 (包含帐户名称和密码) 的对象创建两个 Windows PowerShell 凭据对象。 然后，在调用 CsAVConference 时，必须包含两个帐户的凭据对象和 SIP 地址：
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-有关详细信息，请参阅[CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) Cmdlet 的帮助文档。
 
 </div>
 
@@ -100,7 +102,7 @@ CsAVConference cmdlet 可使用一对预配置的测试帐户（请参阅设置�
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果指定用户可以成功完成 A/V 会议，则会收到与以下内容类似的输出，并将 Result 属性标记为 "**成功"：**
+如果指定用户可以成功完成 A/V 会议，则会收到与以下内容类似的输出，并将 Result 属性标记为 " **成功"：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -134,11 +136,11 @@ Microsoft DiagnosticHeader
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
-如果 CsAVConference 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
+如果 Test-CsAVConference 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-当包含 Verbose 参数时，CsAVConference 将返回其在检查指定用户是否参与 AV 会议的能力时所尝试的每个操作的分步帐户。 例如，假设您的测试失败，并且您收到以下诊断：
+当包含详细参数时 Test-CsAVConference 将返回其在检查指定用户是否参与 AV 会议的能力时所尝试的每个操作的分步帐户。 例如，假设您的测试失败，并且您收到以下诊断：
 
 ErrorCode = 1008，Source = accessproxy，Reason = 无法解析 DNS SRV 记录
 
@@ -178,7 +180,7 @@ ErrorCode = 1008，Source = accessproxy，Reason = 无法解析 DNS SRV 记录
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是测试 CsAVConference 可能失败的一些常见原因：
+下面是 Test-CsAVConference 可能失败的一些常见原因：
 
   - 您指定的用户帐户无效。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     

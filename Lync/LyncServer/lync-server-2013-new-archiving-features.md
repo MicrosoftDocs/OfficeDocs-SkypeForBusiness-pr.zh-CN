@@ -12,20 +12,22 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89a8969924acdf8268f059ae3b3660b70ca1dca7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3150d56bbd4935d6139c8584fcd69d721056317e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217049"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505379"
 ---
+# <a name="new-archiving-features-in-lync-server-2013"></a>Lync Server 2013 中的新存档功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-archiving-features-in-lync-server-2013"></a>Lync Server 2013 中的新存档功能
+
 
 </div>
 
@@ -47,13 +49,13 @@ Lync Server 2013 中的存档可以存档以下类型的内容：
 
 此外，Lync Server 2013 中的存档还提供了可提高部署和操作效率的新功能。 这些新功能包括：
 
-  - **并置前端服务器上的存档。**   Lync Server 2013 没有单独的存档服务器角色。 存档是 Enterprise Edition 部署中的所有前端服务器或可为池或站点实施并配置的 Standard Edition 服务器上所提供的一项可选功能。
+  - **并置前端服务器上的存档。**    Lync Server 2013 没有单独的存档服务器角色。 存档是 Enterprise Edition 部署中的所有前端服务器或可为池或站点实施并配置的 Standard Edition 服务器上所提供的一项可选功能。
 
-  - **Microsoft Exchange 集成。**   在部署存档时，您可以将数据存储与托管在 exchange 2013 上的所有用户的现有 Exchange 2013 存储集成在一起，并将其邮箱置于就地保留状态，因此无需部署单独的 SQL Server 数据库来存档 Lync 数据。 如果您没有 Exchange 2013 部署，或者您不希望与它集成，或者如果您有任何 Lync 2013 用户（这些用户未驻留在 Exchange 2013 中）并将其邮箱置于就地保留状态，则可以使用 SQL Server 将单独的存档数据库部署到 stor来自 Lync 通信的 e 存档数据。 如果要对部署中的某些而不是所有用户使用 Microsoft Exchange 集成，则可以使用 Microsoft Exchange 集成和 Lync Server 2013 存档数据库。 有关就地保留的详细信息，请参阅处[https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500)的 "就地保留"。
+  - **Microsoft Exchange 集成。**    在部署存档时，可以将数据存储与托管在 Exchange 2013 上的所有用户的现有 Exchange 2013 存储集成在一起，并将其邮箱置于 In-Place 保留状态，因此无需部署单独的 SQL Server 数据库来存档 Lync 数据。 如果您没有 Exchange 2013 部署，或者您不希望与它集成，或者如果您有任何 Lync 2013 用户未驻留在 Exchange 2013 上，并且其邮箱置于 In-Place 保留状态，则可以通过使用 SQL Server 来存储 Lync 通信中的存档数据来部署单独的存档数据库。 如果要对部署中的某些而不是所有用户使用 Microsoft Exchange 集成，则可以使用 Microsoft Exchange 集成和 Lync Server 2013 存档数据库。 有关 In-Place 保留的详细信息，请参阅处的 "就地保留" [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500) 。
 
-  - **SQL 存储镜像。**   在部署存档时，可以为存档数据库启用 SQL Server 数据库镜像。
+  - **SQL 存储镜像。**    在部署存档时，可以为存档数据库启用 SQL Server 数据库镜像。
 
-  - **白板和轮询的存档。**   存档的会议内容现在包含在会议期间共享的白板和投票。
+  - **白板和轮询的存档。**    存档的会议内容现在包含在会议期间共享的白板和投票。
 
 不存档以下类型的内容：
 

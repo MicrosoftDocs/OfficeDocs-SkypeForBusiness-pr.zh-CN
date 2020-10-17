@@ -12,20 +12,22 @@ ms:contentKeyID: 48183638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ffc7104024c3d4d8fd0aa409fa965d6a426cd34
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 289e3b2093bea001ee684945f17aee2ecb84927d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187145"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504989"
 ---
+# <a name="appliedbandwidthsource-table-in-lync-server-2013"></a>Lync Server 2013 中的 AppliedBandwidthSource 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appliedbandwidthsource-table-in-lync-server-2013"></a>Lync Server 2013 中的 AppliedBandwidthSource 表
+
 
 </div>
 
@@ -64,7 +66,7 @@ AppliedBandwidthSource 表是一个支持表。每条记录分别表示一个来
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthSource</strong></p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>独特</p></td>
 <td><p>这是所设定的带宽限制的来源。它描述带宽限制源自的位置（例如，“策略服务器”、“TURN 服务器”或“形式”）。</p></td>
 </tr>

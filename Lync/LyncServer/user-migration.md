@@ -12,20 +12,22 @@ ms:contentKeyID: 48184088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d71330ce67715ba9beb22cce25c13faa63ddbbea
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 16381bbe3372fe0b343e61eb56513e7871745300
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755646"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503499"
 ---
+# <a name="user-migration"></a>用户迁移
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a>用户迁移
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-19_
 
 一种普遍认可的迁移最佳做法是，创建几个测试用户，然后使用这些用户执行系统测试。在成功移动并测试这些帐户之后，应确定一组试生产用户，移动这些用户的帐户，然后对其执行验证测试。如果获得的结果令人满意，则可以将其余的用户移动到新部署。
 
-有关为用户启用 Lync Server 2013 的其他信息，请参阅部署 Lync Server 2013 文档中的主题 "[禁用或重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)" 主题。
+有关为用户启用 Lync Server 2013 的其他信息，请参阅部署 Lync Server 2013 文档中的主题 " [禁用或重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) " 主题。
 
 </div>
 

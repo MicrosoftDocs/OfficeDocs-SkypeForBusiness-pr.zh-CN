@@ -12,20 +12,22 @@ ms:contentKeyID: 49733843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 383fed15e2b67013ddd85356eb141a4c5dcf64e6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a6401d847c2e0993632ad655fb43f07b0a2731ef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503549"
 ---
+# <a name="migrate-dial-in-access-numbers"></a>迁移拨入访问号码
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-dial-in-access-numbers"></a>迁移拨入访问号码
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44756983"
 
 _**上次修改的主题：** 2012-10-19_
 
-若要将拨入访问号码从 Lync Server 2010 迁移到 Lync Server 2013，则需要运行**CsApplicationEndpoint** cmdlet 以迁移 contact 对象。 在 Lync Server 2010 和 Lync Server 2013 共存期间，您在 Lync Server 2013 中创建的拨入访问号码与您在 Lync Server 2010 中创建的拨入访问号码类似，如本节中所述。
+若要将拨入访问号码从 Lync Server 2010 迁移到 Lync Server 2013，则需要运行 **CsApplicationEndpoint** cmdlet 以迁移 contact 对象。 在 Lync Server 2010 和 Lync Server 2013 共存期间，您在 Lync Server 2013 中创建的拨入访问号码与您在 Lync Server 2010 中创建的拨入访问号码类似，如本节中所述。
 
 在迁移之前或之后，在 Lync Server 2010 中创建的电话拨入访问号码已移动到 Lync server 2013，或者在迁移过程中或迁移后2013创建，具有以下特征：
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-10-19_
 
   - 可以在 Lync Server 2013 控制面板中和 Lync Server 2013 命令行管理程序中查看和修改。
 
-  - 可以通过使用 Set-csdialinconferencingaccessnumber cmdlet 和 Priority 参数在区域内重新排序。
+  - 可以通过使用 Set-CsDialinConferencingAccessNumber cmdlet 和 Priority 参数在区域内重新排序。
 
 在停用 Lync Server 2010 池之前，您必须完成指向 Lync Server 2010 池的拨入访问号码的迁移。 如果您未按以下过程所述完成拨入访问号码迁移，则对访问号码的传入呼叫将失败。
 
@@ -89,7 +91,7 @@ _**上次修改的主题：** 2012-10-19_
 
 4.  在左侧导航栏中，单击“会议”****。
 
-5.  单击 "**拨入访问号码**" 选项卡。
+5.  单击 " **拨入访问号码** " 选项卡。
 
 6.  验证您要从中迁移的 Lync Server 2010 池没有保留的拨入访问号码。
     
@@ -104,13 +106,13 @@ _**上次修改的主题：** 2012-10-19_
 
 **使用 Lync Server 控制面板验证拨入访问号码迁移**
 
-1.  从分配给**CsUserAdministrator**角色或**CsAdministrator**角色的用户帐户中，登录到内部部署中的任何计算机。
+1.  从分配给 **CsUserAdministrator** 角色或 **CsAdministrator** 角色的用户帐户中，登录到内部部署中的任何计算机。
 
 2.  打开“Lync Server 控制面板”。
 
 3.  在左侧导航栏中，单击“会议”****。
 
-4.  单击 "**拨入访问号码**" 选项卡。
+4.  单击 " **拨入访问号码** " 选项卡。
 
 5.  验证是否已将所有拨入访问号码迁移到在 Lync Server 2013 上托管的池。
 

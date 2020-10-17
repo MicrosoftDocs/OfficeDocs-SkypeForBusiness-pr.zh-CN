@@ -12,20 +12,22 @@ ms:contentKeyID: 48185170
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58935c4043246a0c5a6c5d4d9cde19ca27627dcc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1dad115cb658289e20cf376c246c4e546bc0642
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217068"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505439"
 ---
+# <a name="networkconnectiondetail-table-in-lync-server-2013"></a>Lync Server 2013 中的 NetworkConnectionDetail 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="networkconnectiondetail-table-in-lync-server-2013"></a>Lync Server 2013 中的 NetworkConnectionDetail 表
+
 
 </div>
 
@@ -64,7 +66,7 @@ NetworkConnectionDetail 表可将网络连接类型映射到在体验质量数�
 </tr>
 <tr class="even">
 <td><p><strong>NetworkConnectionDetail</strong></p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>独特</p></td>
 <td><p>对应于 NetworkConnectionDetailKey 的网络连接类型。允许的值包括：</p>
 <ol>

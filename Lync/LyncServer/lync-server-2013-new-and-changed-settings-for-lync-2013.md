@@ -12,20 +12,22 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de4a1a82dbefb5a7f55a4c5872a6702933af08c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5aa98f8935a692f06b78db523e4e109e8cba9ddf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184576"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505429"
 ---
+# <a name="new-and-changed-settings-for-lync-2013"></a>Lync 2013 的新增和更改设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-and-changed-settings-for-lync-2013"></a>Lync 2013 的新增和更改设置
+
 
 </div>
 
@@ -52,7 +54,7 @@ _**上次修改的主题：** 2014-12-05_
 </colgroup>
 <thead>
 <tr class="header">
-<th>New</th>
+<th>新式</th>
 <th>Lync Server 命令行管理程序 Cmdlet</th>
 <th>说明</th>
 </tr>
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2014-12-05_
 <tr class="odd">
 <td><p>TracingLevel</p></td>
 <td><p>Set-csclientpolicy</p></td>
-<td><p>如果设置为 True，将在 Lync 中启用软件跟踪;如果设置为 False，软件跟踪将被禁用。 软件跟踪涉及对程序执行的所有操作（包括跟踪 API 调用）的详细记录进行维护。 跟踪主要适用于开发人员和应用程序支持人员。此设置等效于通信服务器 2007 R2 组策略设置&quot;启用对 Communicator 的跟踪。&quot;设置如下所示：</p>
+<td><p>如果设置为 True，将在 Lync 中启用软件跟踪;如果设置为 False，软件跟踪将被禁用。 软件跟踪涉及到对程序 (执行的所有操作（包括跟踪 API 调用) ）的详细记录进行维护。 跟踪主要适用于开发人员和应用程序支持人员。此设置等效于通信服务器 2007 R2 组策略设置 &quot; 启用对 Communicator 的跟踪。 &quot; 设置如下所示：</p>
 <ul>
 <li><p>关闭 = 禁用跟踪，用户无法更改此设置。</p></li>
 <li><p>简略 = 执行最低限度的跟踪，用户无法更改此设置。</p></li>
@@ -77,7 +79,7 @@ _**上次修改的主题：** 2014-12-05_
 <tr class="odd">
 <td><p>AllowLargeMeetings</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>如果设置为 True，则所有 Lync 会议将被&quot;视为大型会议。&quot;在大型会议中，对发送给参与者的通知数以及默认情况下传输的会议名单的大小进行了限制。</p></td>
+<td><p>如果设置为 True，则所有 Lync 会议将被视为 &quot; 大型会议。 &quot; 在大型会议中，对发送给参与者的通知数以及默认情况下传输的会议名单的大小进行了限制。</p></td>
 </tr>
 <tr class="even">
 <td><p>DisablePowerPointAnnotations</p></td>
@@ -150,8 +152,8 @@ _**上次修改的主题：** 2014-12-05_
 <tr class="odd">
 <td><p>EnableSQMData</p></td>
 <td><p>Set-csclientpolicy</p></td>
-<td><p>已在 Lync Server 2013 中删除 Set-csclientpolicy cmdlet 的 EnableSQMData 参数。 可以改为使用软件质量管理 (SQM) 数据的共享组策略设置，来确定 Lync 客户端“常规选项”页面中“客户体验改善”选项的用户界面：</p>
-<p>HKEY_CURRENT_USER \Software\Policies\Microsoft\Office\Common\QMEnable</p>
+<td><p>已在 Lync Server 2013 中删除 Set-CSClientPolicy cmdlet 的 EnableSQMData 参数。 可以改为使用软件质量管理 (SQM) 数据的共享组策略设置，来确定 Lync 客户端“常规选项”页面中“客户体验改善”选项的用户界面：</p>
+<p>HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</p>
 <p>值</p>
 <p>1 = 显示并选中复选框（用户可以清除该复选框）</p>
 <p>0 = 关闭并禁用复选框（用户无法覆盖）</p>
@@ -160,7 +162,7 @@ _**上次修改的主题：** 2014-12-05_
 <tr class="even">
 <td><p>AllowExchangeContactStore</p></td>
 <td><p>Set-csclientpolicy</p></td>
-<td><p>已删除此参数。 相反，当您部署 Lync Server 2013 并发布拓扑时，默认情况下会为所有用户启用统一联系人存储。 这意味着用户的所有联系人均保留在 Exchange 中并且在 Lync、Outlook 和 Outlook Web Access 中可用。 您可以使用 Set-CsUserServicesPolicy cmdlet 来自定义哪些用户具有可用的统一联系人存储。 可以全局、依站点、依租户或依个人或个人组为用户启用。 有关详细信息，请参阅<a href="lync-server-2013-enable-users-for-unified-contact-store.md">在 Lync Server 2013 中为统一联系人存储启用用户</a>。</p></td>
+<td><p>已删除此参数。 相反，当您部署 Lync Server 2013 并发布拓扑时，默认情况下会为所有用户启用统一联系人存储。 这意味着用户的所有联系人均保留在 Exchange 中并且在 Lync、Outlook 和 Outlook Web Access 中可用。 您可以使用 Set-CsUserServicesPolicy cmdlet 来自定义哪些用户具有可用的统一联系人存储。 可以全局、依站点、依租户或依个人或个人组为用户启用。 有关详细信息，请参阅 <a href="lync-server-2013-enable-users-for-unified-contact-store.md">在 Lync Server 2013 中为统一联系人存储启用用户</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p>MAPIPollInterval</p></td>
