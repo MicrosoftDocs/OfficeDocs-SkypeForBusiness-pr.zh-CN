@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： IMReportSummary 表
+description: Lync Server 2013： IMReportSummary 表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e750da3fd42a726012f089291d3e2c770e52b44
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dfafa81d1605845b29a3627321fcbc0f72ca7ac7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526629"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547738"
 ---
-# <a name="imreportsummary-table-in-lync-server-2013"></a><span data-ttu-id="6ace9-102">Lync Server 2013 中的 IMReportSummary 表</span><span class="sxs-lookup"><span data-stu-id="6ace9-102">IMReportSummary table in Lync Server 2013</span></span>
+# <a name="imreportsummary-table-in-lync-server-2013"></a><span data-ttu-id="43a94-103">Lync Server 2013 中的 IMReportSummary 表</span><span class="sxs-lookup"><span data-stu-id="43a94-103">IMReportSummary table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48526629"
 
 <span> </span>
 
-<span data-ttu-id="6ace9-103">_**上次修改的主题：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="6ace9-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="43a94-104">_**上次修改的主题：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="43a94-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="6ace9-104">IMReportSummaryTable 提供有关组织中进行的即时消息会话的总体报告。</span><span class="sxs-lookup"><span data-stu-id="6ace9-104">The IMReportSummaryTable provides an overall report on the instant messaging sessions held in an organization.</span></span> <span data-ttu-id="6ace9-105">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="6ace9-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="43a94-105">IMReportSummaryTable 提供有关组织中进行的即时消息会话的总体报告。</span><span class="sxs-lookup"><span data-stu-id="43a94-105">The IMReportSummaryTable provides an overall report on the instant messaging sessions held in an organization.</span></span> <span data-ttu-id="43a94-106">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="43a94-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -51,48 +52,48 @@ ms.locfileid: "48526629"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6ace9-106">列</span><span class="sxs-lookup"><span data-stu-id="6ace9-106">Column</span></span></th>
-<th><span data-ttu-id="6ace9-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="6ace9-107">Data Type</span></span></th>
-<th><span data-ttu-id="6ace9-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="6ace9-108">Key/Index</span></span></th>
-<th><span data-ttu-id="6ace9-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="6ace9-109">Details</span></span></th>
+<th><span data-ttu-id="43a94-107">列</span><span class="sxs-lookup"><span data-stu-id="43a94-107">Column</span></span></th>
+<th><span data-ttu-id="43a94-108">数据类型</span><span class="sxs-lookup"><span data-stu-id="43a94-108">Data Type</span></span></th>
+<th><span data-ttu-id="43a94-109">键/索引</span><span class="sxs-lookup"><span data-stu-id="43a94-109">Key/Index</span></span></th>
+<th><span data-ttu-id="43a94-110">详细信息</span><span class="sxs-lookup"><span data-stu-id="43a94-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6ace9-110"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="6ace9-110"><strong>StartTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="6ace9-111">datetime</span><span class="sxs-lookup"><span data-stu-id="6ace9-111">datetime</span></span></p></td>
-<td><p><span data-ttu-id="6ace9-112">主</span><span class="sxs-lookup"><span data-stu-id="6ace9-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="6ace9-113">即时消息会话开始的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="6ace9-113">Date and time that the instant messaging session began.</span></span></p></td>
+<td><p><span data-ttu-id="43a94-111"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="43a94-111"><strong>StartTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="43a94-112">datetime</span><span class="sxs-lookup"><span data-stu-id="43a94-112">datetime</span></span></p></td>
+<td><p><span data-ttu-id="43a94-113">主</span><span class="sxs-lookup"><span data-stu-id="43a94-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="43a94-114">即时消息会话开始的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="43a94-114">Date and time that the instant messaging session began.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6ace9-114"><strong>TimePeriod</strong></span><span class="sxs-lookup"><span data-stu-id="6ace9-114"><strong>TimePeriod</strong></span></span></p></td>
-<td><p><span data-ttu-id="6ace9-115">char (1) </span><span class="sxs-lookup"><span data-stu-id="6ace9-115">char(1)</span></span></p></td>
-<td><p><span data-ttu-id="6ace9-116">主</span><span class="sxs-lookup"><span data-stu-id="6ace9-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="43a94-115"><strong>TimePeriod</strong></span><span class="sxs-lookup"><span data-stu-id="43a94-115"><strong>TimePeriod</strong></span></span></p></td>
+<td><p><span data-ttu-id="43a94-116">char (1) </span><span class="sxs-lookup"><span data-stu-id="43a94-116">char(1)</span></span></p></td>
+<td><p><span data-ttu-id="43a94-117">主</span><span class="sxs-lookup"><span data-stu-id="43a94-117">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6ace9-117"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="6ace9-117"><strong>PoolFQDN</strong></span></span></p></td>
-<td><p><span data-ttu-id="6ace9-118">nvarchar (257) </span><span class="sxs-lookup"><span data-stu-id="6ace9-118">nvarchar(257)</span></span></p></td>
-<td><p><span data-ttu-id="6ace9-119">主</span><span class="sxs-lookup"><span data-stu-id="6ace9-119">Primary</span></span></p></td>
-<td><p><span data-ttu-id="6ace9-120">承载会话的池的完全限定域名。</span><span class="sxs-lookup"><span data-stu-id="6ace9-120">Fully qualified domain name of the pool hosting the session.</span></span></p></td>
+<td><p><span data-ttu-id="43a94-118"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="43a94-118"><strong>PoolFQDN</strong></span></span></p></td>
+<td><p><span data-ttu-id="43a94-119">nvarchar (257) </span><span class="sxs-lookup"><span data-stu-id="43a94-119">nvarchar(257)</span></span></p></td>
+<td><p><span data-ttu-id="43a94-120">主</span><span class="sxs-lookup"><span data-stu-id="43a94-120">Primary</span></span></p></td>
+<td><p><span data-ttu-id="43a94-121">承载会话的池的完全限定域名。</span><span class="sxs-lookup"><span data-stu-id="43a94-121">Fully qualified domain name of the pool hosting the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6ace9-121"><strong>AuthType</strong></span><span class="sxs-lookup"><span data-stu-id="6ace9-121"><strong>AuthType</strong></span></span></p></td>
-<td><p><span data-ttu-id="6ace9-122">int</span><span class="sxs-lookup"><span data-stu-id="6ace9-122">int</span></span></p></td>
-<td><p><span data-ttu-id="6ace9-123">主</span><span class="sxs-lookup"><span data-stu-id="6ace9-123">Primary</span></span></p></td>
-<td><p><span data-ttu-id="6ace9-124">呼叫的优先级（例如，紧急或非紧急）。</span><span class="sxs-lookup"><span data-stu-id="6ace9-124">Priority (for example, urgent or non-urgent) of the call.</span></span> <span data-ttu-id="6ace9-125">优先级信息存储在 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 的 CallPriorities 表中</a>。</span><span class="sxs-lookup"><span data-stu-id="6ace9-125">Priority information is stored in the <a href="lync-server-2013-callpriorities-table.md">CallPriorities table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="43a94-122"><strong>AuthType</strong></span><span class="sxs-lookup"><span data-stu-id="43a94-122"><strong>AuthType</strong></span></span></p></td>
+<td><p><span data-ttu-id="43a94-123">int</span><span class="sxs-lookup"><span data-stu-id="43a94-123">int</span></span></p></td>
+<td><p><span data-ttu-id="43a94-124">主</span><span class="sxs-lookup"><span data-stu-id="43a94-124">Primary</span></span></p></td>
+<td><p><span data-ttu-id="43a94-125">呼叫的优先级（例如，紧急或非紧急）。</span><span class="sxs-lookup"><span data-stu-id="43a94-125">Priority (for example, urgent or non-urgent) of the call.</span></span> <span data-ttu-id="43a94-126">优先级信息存储在 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 的 CallPriorities 表中</a>。</span><span class="sxs-lookup"><span data-stu-id="43a94-126">Priority information is stored in the <a href="lync-server-2013-callpriorities-table.md">CallPriorities table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6ace9-126"><strong>SessionCount</strong></span><span class="sxs-lookup"><span data-stu-id="6ace9-126"><strong>SessionCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="6ace9-127">bigint</span><span class="sxs-lookup"><span data-stu-id="6ace9-127">bigint</span></span></p></td>
+<td><p><span data-ttu-id="43a94-127"><strong>SessionCount</strong></span><span class="sxs-lookup"><span data-stu-id="43a94-127"><strong>SessionCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="43a94-128">bigint</span><span class="sxs-lookup"><span data-stu-id="43a94-128">bigint</span></span></p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6ace9-128"><strong>MsgCount</strong></span><span class="sxs-lookup"><span data-stu-id="6ace9-128"><strong>MsgCount</strong></span></span></p></td>
-<td><p><span data-ttu-id="6ace9-129">bigint</span><span class="sxs-lookup"><span data-stu-id="6ace9-129">bigint</span></span></p></td>
+<td><p><span data-ttu-id="43a94-129"><strong>MsgCount</strong></span><span class="sxs-lookup"><span data-stu-id="43a94-129"><strong>MsgCount</strong></span></span></p></td>
+<td><p><span data-ttu-id="43a94-130">bigint</span><span class="sxs-lookup"><span data-stu-id="43a94-130">bigint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6ace9-130">会话期间交换的即时消息总数。</span><span class="sxs-lookup"><span data-stu-id="6ace9-130">Total number of instant messages exchanged during the session.</span></span></p></td>
+<td><p><span data-ttu-id="43a94-131">会话期间交换的即时消息总数。</span><span class="sxs-lookup"><span data-stu-id="43a94-131">Total number of instant messages exchanged during the session.</span></span></p></td>
 </tr>
 </tbody>
 </table>
