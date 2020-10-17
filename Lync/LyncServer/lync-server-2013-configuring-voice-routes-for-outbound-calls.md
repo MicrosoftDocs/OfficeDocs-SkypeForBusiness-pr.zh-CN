@@ -12,20 +12,22 @@ ms:contentKeyID: 48183875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a697dae1be3d59692746303f230968782db4f38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2e3f8fed51dd671a3012f5488569b2e38232be5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195545"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536959"
 ---
+# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a>在 Lync Server 2013 中配置出站呼叫的语音路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a>在 Lync Server 2013 中配置出站呼叫的语音路由
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42195545"
 
 _**上次修改的主题：** 2012-11-01_
 
-Lync Server 2013 语音路由将目标电话号码与一个或多个公用电话交换网（PSTN）网关或 SIP 中继以及一个或多个 PSTN 用法记录相关联。
+Lync Server 2013 语音路由将目标电话号码与一个或多个公共交换电话网络（ (PSTN) 网关或 SIP 中继以及一个或多个 PSTN 用法记录关联。
 
 **使用 Lync Server 控制面板查看语音路由**
 
-1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 2.  单击“语音路由”****。
 
@@ -60,7 +62,7 @@ Lync Server 2013 语音路由将目标电话号码与一个或多个公用电话
 
 **使用 Windows PowerShell 查看语音路由**
 
-  - 启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。 可以使用 Windows PowerShell 和**CsVoiceRoute** cmdlet 查看语音路由。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+  - 启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。 可以使用 Windows PowerShell 和 **CsVoiceRoute** cmdlet 查看语音路由。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
     
     若要查看有关所有语音路由的信息，请在 Lync Server 命令行管理程序中键入以下命令，然后按 ENTER：
     
@@ -82,7 +84,7 @@ Lync Server 2013 语音路由将目标电话号码与一个或多个公用电话
 
 
 > [!NOTE]  
-> 有关详细信息，请参阅规划文档中的<A href="lync-server-2013-voice-routes.md">Lync Server 2013 中的语音路由</A>。
+> 有关详细信息，请参阅规划文档中的 <A href="lync-server-2013-voice-routes.md">Lync Server 2013 中的语音路由</A> 。
 
 
 

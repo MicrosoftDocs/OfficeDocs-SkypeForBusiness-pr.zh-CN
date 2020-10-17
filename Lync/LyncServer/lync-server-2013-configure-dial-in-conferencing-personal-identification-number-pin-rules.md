@@ -1,5 +1,5 @@
 ---
-title: 配置电话拨入式会议个人识别码（PIN）规则
+title: 将电话拨入式会议个人识别码 (PIN) 规则配置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16b56e1809f9ffefa37065a208340e1143e38487
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b446d38b3a2a2c054619373a605192ca05886174
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204888"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537199"
 ---
+# <a name="configure-dial-in-conferencing-personal-identification-number-pin-rules-in-lync-server-2013"></a>在 Lync Server 2013 中配置电话拨入式会议个人标识号码 (PIN) 规则
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dial-in-conferencing-personal-identification-number-pin-rules-in-lync-server-2013"></a>在 Lync Server 2013 中配置电话拨入式会议个人标识号码（PIN）规则
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204888"
 
 _**上次修改的主题：** 2012-06-19_
 
-在组织中具有 Active Directory 域服务（AD DS）凭据的 Lync Server 2013 用户可以通过使用个人标识号（PIN）将电话拨入式会议作为已验证用户加入电话拨入式会议。 PIN 策略定义电话拨入式会议 PIN 工作方式的规则。
+具有 Active Directory 域服务 (组织中的 AD DS) 凭据的 Lync Server 2013 用户可以通过使用 (PIN) 的个人标识号将电话拨入式会议作为经过身份验证的用户加入。 PIN 策略定义电话拨入式会议 PIN 工作方式的规则。
 
 如果要将特定策略应用于某个站点或某个用户组，可以创建新的 PIN 策略。如果要在整个组织中使用相同的 PIN 策略，则可以使用全局 PIN 策略并根据需要对其进行修改。PIN 策略既可以应用于少数用户，也可以应用于众多用户。如果为用户分配用户级别的 PIN 策略，则优先应用这些设置。如果没有分配用户策略，则将应用站点级别的 PIN 策略（如果存在）。如果未应用用户策略或站点策略，则全局 PIN 策略会提供默认设置。
 

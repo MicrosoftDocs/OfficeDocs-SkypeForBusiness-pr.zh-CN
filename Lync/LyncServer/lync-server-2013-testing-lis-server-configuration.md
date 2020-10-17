@@ -12,20 +12,22 @@ ms:contentKeyID: 63969614
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50b2908b3f2403cc59f4cb7ce26f176d366ce2e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8893964ce1982c67dc97ed93bca9ba19ec2f24e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194120"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536009"
 ---
+# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中测试 IIS 服务器配置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中测试 IIS 服务器配置
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-06-05_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsLisConfiguration cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsLisConfiguration cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,9 +66,9 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>Description
+## <a name="description"></a>说明
 
-CsLisConfiguration cmdlet 验证您是否能够联系 IIS web 服务。 如果可以联系到 web 服务，则会将测试视为成功，而不管是否找到了任何特定位置。
+Test-CsLisConfiguration cmdlet 可验证您是否能够联系 IIS web 服务。 如果可以联系到 web 服务，则会将测试视为成功，而不管是否找到了任何特定位置。
 
 </div>
 
@@ -74,7 +76,7 @@ CsLisConfiguration cmdlet 验证您是否能够联系 IIS web 服务。 如果�
 
 ## <a name="running-the-test"></a>运行测试
 
-可以使用预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何用户的帐户运行 CsLisConfguration cmdlet。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
+可以使用预配置的测试帐户运行 Test-CsLisConfguration cmdlet (请参阅设置用于运行 Lync Server 测试的测试帐户) 或启用了 Lync Server 的任何用户的帐户。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -83,7 +85,7 @@ CsLisConfiguration cmdlet 验证您是否能够联系 IIS web 服务。 如果�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-有关详细信息，请参阅[CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) Cmdlet 的帮助文档。
 
 </div>
 
@@ -91,9 +93,9 @@ CsLisConfiguration cmdlet 验证您是否能够联系 IIS web 服务。 如果�
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果已正确配置了 .LIS，则会收到与以下内容类似的输出，并将 Result 属性标记为 "**成功"：**
+如果已正确配置了 .LIS，则会收到与以下内容类似的输出，并将 Result 属性标记为 " **成功"：**
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/locationinformation/
+TargetUri https://atl-cs-001.litwareinc.com:443/locationinformation/
 
 liservice
 
@@ -123,19 +125,19 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 诊断
 
-CsLisConfiguration：在拓扑中找不到匹配的群集。
+Test-CsLisConfiguration：在拓扑中找不到匹配的群集。
 
 例如，上一个输出中包含 "没有匹配的群集在拓扑中找到" 这一说明。 这通常表明边缘服务器存在问题： IIS 使用边缘服务器连接到服务提供程序并验证地址。
 
-如果 CsLisConfiguration 失败，您可能需要重新运行测试，这一次包括 Verbose 参数：
+如果 Test-CsLisConfiguration 失败，您可能需要重新运行测试，这一次包括 Verbose 参数：
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-包含 Verbose 参数时，CsLisConfiguration 将返回其在检查指定用户登录到 Lync Server 的能力时所尝试的每个操作的分步帐户。 例如：
+包含 Verbose 参数时，Test-CsLisConfiguration 将返回其在检查指定用户登录到 Lync Server 的能力时所尝试的每个操作的分步帐户。 例如：
 
 调用位置信息服务。
 
-服务路径 =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
+服务路径 = https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
 
 子网 =
 
@@ -155,7 +157,7 @@ Mac
 
 BssId = 5
 
-这不是基本服务集标识符（BssID）的有效值。 相反，BssID 应如下所示：
+对于基本服务集标识符 (BssID) ，这并不是有效的值。 相反，BssID 应如下所示：
 
 12-34-56-78-90-ab
 
@@ -165,7 +167,7 @@ BssId = 5
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是测试 CsLisConfiguration 可能失败的一些常见原因：
+下面是 Test-CsLisConfiguration 可能失败的一些常见原因：
 
   - 提供的参数值不正确。 如前面的示例中所示，必须正确配置可选参数或测试将失败。 重新运行不带可选参数的命令，并查看是否成功。
 

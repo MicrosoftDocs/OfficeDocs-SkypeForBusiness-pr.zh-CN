@@ -12,20 +12,22 @@ ms:contentKeyID: 48184894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7b3dcb9693ed6ab58d2828570e81ef05709867e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e9ccf25c2bbaf6c77c72d35f1fa5ac82fd67d011
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208068"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537149"
 ---
+# <a name="configure-dns-for-edge-support-in-lync-server-2013"></a>在 Lync Server 2013 中为边缘支持配置 DNS
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-edge-support-in-lync-server-2013"></a>在 Lync Server 2013 中为边缘支持配置 DNS
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208068"
 
 _**上次修改的主题：** 2013-02-15_
 
-您必须为内部边缘接口和外部边缘接口配置域名系统 (DNS) 记录，同时包括边缘服务器和反向代理接口。 默认情况下，边缘服务器未加入域，并且不具有完全限定的域名（完全限定的域名称）。 边缘服务器仅由短（计算机）名称引用，而不是由完全限定的域名引用。 但是，拓扑生成器使用 Fqdn 而不是短名称。 边缘服务器的名称必须与拓扑生成器使用的 FQDN 相匹配。 为此，请定义一个 DNS 后缀，如果与计算机名称结合使用，则会生成预期的 FQDN。 使用下面的 "将 DNS 后缀添加到计算机名称和未加入域的边缘服务器" 中的过程将 DNS 后缀添加到计算机名称中。
+您必须为内部边缘接口和外部边缘接口配置域名系统 (DNS) 记录，同时包括边缘服务器和反向代理接口。 默认情况下，边缘服务器未加入域，并且不会有完全限定的域名 (完全限定的域名) 。 边缘服务器仅由短 (机器) 名称而不是完全限定的域名来引用。 但是，拓扑生成器使用 Fqdn 而不是短名称。 边缘服务器的名称必须与拓扑生成器使用的 FQDN 相匹配。 为此，请定义一个 DNS 后缀，如果与计算机名称结合使用，则会生成预期的 FQDN。 使用下面的 "将 DNS 后缀添加到计算机名称和未加入域的边缘服务器" 中的过程将 DNS 后缀添加到计算机名称中。
 
 <div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2013-02-15_
 
 </div>
 
-使用 "**创建 DNS srv 记录**" 中的以下过程创建并验证每个 DNS srv 记录。 使用 "**创建 DNS a 记录**" 中的过程定义外部用户访问所需的 DNS 记录。 若要确认记录已配置并正常运行，请参阅本主题中的 "**验证 DNS 记录**"。 有关支持外部用户访问所需的每条记录的详细信息，请参阅[确定 Lync Server 2013 的 DNS 要求](lync-server-2013-determine-dns-requirements.md)。
+使用 "**创建 DNS srv 记录**" 中的以下过程创建并验证每个 DNS srv 记录。 使用 "**创建 DNS a 记录**" 中的过程定义外部用户访问所需的 DNS 记录。 若要确认记录已配置并正常运行，请参阅本主题中的 "**验证 DNS 记录**"。 有关支持外部用户访问所需的每条记录的详细信息，请参阅 [确定 Lync Server 2013 的 DNS 要求](lync-server-2013-determine-dns-requirements.md)。
 
 <div>
 
@@ -79,12 +81,12 @@ _**上次修改的主题：** 2013-02-15_
     
 
     > [!IMPORTANT]  
-    > 您需要为远程用户和联盟伙伴配置 DNS，以便有：1）外部 DNS 查找的外部 DNS 条目;2）外围网络（也称为 DMZ、隔离区域和屏蔽子网）中的边缘服务器使用的用于 DNS 查找的条目，包括运行 Lync Server 2013 的内部服务器的记录;和3）内部 DNS 条目，用于由运行 Lync Server 2013 的内部客户端和服务器进行查找。
+    > 您需要将 DNS 配置为： 1) 远程用户和联盟伙伴外部 DNS 查找的外部 DNS 条目;2) 外围网络中的边缘服务器使用的用于 DNS 查找的条目 (也称为 DMZ、隔离区域和屏蔽子网) ，包括运行 Lync Server 2013 的内部服务器的记录;和 3) 运行 Lync Server 2013 的内部客户端和服务器的查找的内部 DNS 条目。
 
     
     </div>
 
-2.  在您的 SIP 域的控制台树中，展开 "**正向查找区域**"，然后右键单击安装了 Lync Server 2013 的域。
+2.  在您的 SIP 域的控制台树中，展开 " **正向查找区域**"，然后右键单击安装了 Lync Server 2013 的域。
 
 3.  单击 **“其他新记录”**。
 
@@ -100,7 +102,7 @@ _**上次修改的主题：** 2013-02-15_
 
 1.  在 DNS 服务器上，依次单击 **“开始”**、**“控制面板”**、**“管理工具”**，然后单击 **“DNS”**。
 
-2.  在您的 SIP 域的控制台树中，展开 "**正向查找区域**"，然后右键单击安装了 Lync Server 2013 的域。
+2.  在您的 SIP 域的控制台树中，展开 " **正向查找区域**"，然后右键单击安装了 Lync Server 2013 的域。
 
 3.  单击 **“新建主机 (A)”**。
 

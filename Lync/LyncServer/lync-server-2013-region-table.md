@@ -12,20 +12,22 @@ ms:contentKeyID: 48183518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f33df1146c4366169b4c8157503fba436a6d7ed8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d48217ff0daa62a8f528829b85620e173626ca06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201538"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536719"
 ---
+# <a name="region-table-in-lync-server-2013"></a>Lync Server 2013 中的区域表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="region-table-in-lync-server-2013"></a>Lync Server 2013 中的区域表
+
 
 </div>
 
@@ -64,7 +66,7 @@ _**上次修改的主题：** 2010-11-09_
 </tr>
 <tr class="even">
 <td><p><strong>RegionName</strong></p></td>
-<td><p>nvarchar</p></td>
+<td><p>nvarchar (128) </p></td>
 <td><p>独特</p></td>
 <td><p>国家/区域的名称。</p></td>
 </tr>

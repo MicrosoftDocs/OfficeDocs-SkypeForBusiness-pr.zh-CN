@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：启动或停止 Lync Server 服务
+description: Lync Server 2013：启动或停止 Lync Server 服务。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183554
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ab531875145315b6a505bd0b324e9fdb4d77d5d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1d6e6520cbf6fda38676beab984c2d006061b019
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532979"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541858"
 ---
 # <a name="start-or-stop-lync-server-2013-services"></a>启动或停止 Lync Server 2013 服务
 

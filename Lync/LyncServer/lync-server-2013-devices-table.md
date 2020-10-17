@@ -12,20 +12,22 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8906519253445ea67f3fa674a9a1315f8f6cf18b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5fdc4c3b20bdd60d2c8013b79a15bdfd30b56af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213498"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536929"
 ---
+# <a name="devices-table-in-lync-server-2013"></a>Lync Server 2013 中的 "设备" 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="devices-table-in-lync-server-2013"></a>Lync Server 2013 中的 "设备" 表
+
 
 </div>
 
@@ -66,13 +68,13 @@ Devices 表是一个支持表。每条记录存储有关一个设备（桌面电
 <td><p><strong>ManufacturerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>此设备的制造商。 有关详细信息，请参阅<a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的制造商表</a>。</p></td>
+<td><p>此设备的制造商。 有关详细信息，请参阅 <a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的制造商表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HardwareVersionId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>此设备的硬件版本。 有关详细信息，请参阅<a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表</a>。</p></td>
+<td><p>此设备的硬件版本。 有关详细信息，请参阅 <a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MacAddress</strong></p></td>

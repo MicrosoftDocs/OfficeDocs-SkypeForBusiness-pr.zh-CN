@@ -12,20 +12,22 @@ ms:contentKeyID: 48183298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a64bde9cabcae282be83b671115a5cda4e5580e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4c40fddd324cd687b54d0c3317edc533fa559c8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201498"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536689"
 ---
+# <a name="registration-table-in-lync-server-2013"></a>Lync Server 2013 中的注册表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="registration-table-in-lync-server-2013"></a>Lync Server 2013 中的注册表
+
 
 </div>
 
@@ -60,19 +62,19 @@ _**上次修改的主题：** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主、外</p></td>
-<td><p>会话请求的时间。 与 <strong>SessionIdSeq</strong> 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>会话请求的时间。 与 <strong>SessionIdSeq</strong> 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主、外</p></td>
-<td><p>用于标识会话的 ID 号。 与 <strong>SessionIdTime</strong> 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>用于标识会话的 ID 号。 与 <strong>SessionIdTime</strong> 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>用户 ID。 有关详细信息，请参阅<a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表</a>。</p></td>
+<td><p>用户 ID。 有关详细信息，请参阅 <a href="lync-server-2013-users-table.md">Lync Server 2013 中的 Users 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EndpointId</strong></p></td>
@@ -91,25 +93,25 @@ _**上次修改的主题：** 2012-09-28_
 <td><p><strong>ClientVersionId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>当前用户的客户端版本。 有关详细信息，请参阅<a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a>。</p></td>
+<td><p>当前用户的客户端版本。 有关详细信息，请参阅 <a href="lync-server-2013-clientversions-table.md">Lync Server 2013 中的 ClientVersions 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RegistrarId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>用于注册的注册服务器的 ID。 有关详细信息，请参阅<a href="lync-server-2013-servers-table.md">Lync Server 2013 中的 Servers 表</a>。</p></td>
+<td><p>用于注册的注册服务器的 ID。 有关详细信息，请参阅 <a href="lync-server-2013-servers-table.md">Lync Server 2013 中的 Servers 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>在其中捕获会话的池的 ID。 有关详细信息，请参阅<a href="lync-server-2013-pools-table.md">Lync Server 2013 中的 pool 表</a>。</p></td>
+<td><p>在其中捕获会话的池的 ID。 有关详细信息，请参阅 <a href="lync-server-2013-pools-table.md">Lync Server 2013 中的 pool 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EdgeServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>进行注册的边缘服务器。 有关详细信息，请参阅<a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 中的 EdgeServers 表</a>。</p></td>
+<td><p>进行注册的边缘服务器。 有关详细信息，请参阅 <a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 中的 EdgeServers 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsInternal</strong></p></td>
@@ -164,17 +166,17 @@ _**上次修改的主题：** 2012-09-28_
 <td><p><strong>DeviceId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>发出注册请求的设备。 有关详细信息，请参阅<a href="lync-server-2013-devices-table.md">Lync Server 2013 中</a>的 "设备" 表。</p></td>
+<td><p>发出注册请求的设备。 有关详细信息，请参阅 <a href="lync-server-2013-devices-table.md">Lync Server 2013 中</a> 的 "设备" 表。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeRegisterTypeId</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>对外</p></td>
-<td><p>注销原因，例如“用户已启动”、“注册已过期”、“客户端故障”等。 有关详细信息，请参阅<a href="lync-server-2013-deregistertype-table.md">Lync Server 2013 中的 DeRegisterType 表</a>。</p></td>
+<td><p>注销原因，例如“用户已启动”、“注册已过期”、“客户端故障”等。 有关详细信息，请参阅 <a href="lync-server-2013-deregistertype-table.md">Lync Server 2013 中的 DeRegisterType 表</a> 。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>址</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p><strong>IPAddress</strong></p></td>
+<td><p>nvarchar (256) </p></td>
 <td></td>
 <td><p>用户在其中注册的终结点的 IP 地址。 可以是 IPv4 地址或 IPv6 地址。</p>
 <p>此字段是在 Microsoft Lync Server 2013 中引入的。</p></td>

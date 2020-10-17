@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： (可选) 验证呼叫寄存部署
+description: Lync Server 2013： (可选) 验证呼叫寄存部署。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9a22d48e823526f3b4e4b7e6b321ed640328ecd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 772392a3a791ed57c3220d80e9bd510d8803debb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530809"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541928"
 ---
 # <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a> (可选) 在 Lync Server 2013 中验证呼叫寄存部署
 

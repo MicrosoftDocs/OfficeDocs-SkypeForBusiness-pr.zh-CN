@@ -12,20 +12,22 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c676247eabbce1d6453308bdbba5a7df0754caf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5cd477b02aa261b762f728ca15d296f49dfbac1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194105"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535989"
 ---
+# <a name="testing-location-policy-in-lync-server-2013"></a>在 Lync Server 2013 中测试位置策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-location-policy-in-lync-server-2013"></a>在 Lync Server 2013 中测试位置策略
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-06-05_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 New-cslocationpolicy cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsLocationPolicy cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLocationPolicy&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**上次修改的主题：** 2014-06-05_
 
 ## <a name="description"></a>说明
 
-New-cslocationpolicy cmdlet 验证是否已将位置策略分配给用户。 可以使用位置策略来应用与 E9-1-1 功能和客户端位置相关的设置。 位置策略确定是否为用户启用 E9-1-1，如果答案是 "是"，则是紧急呼叫的行为。 例如，可以使用位置策略定义发生紧急呼叫的号码（美国的911）、企业安全是否应自动通知以及应如何路由呼叫。
+Test-CsLocationPolicy cmdlet 验证是否已将位置策略分配给用户。 可以使用位置策略来应用与 E9-1-1 功能和客户端位置相关的设置。 位置策略确定是否为用户启用 E9-1-1，如果答案是 "是"，则是紧急呼叫的行为。 例如，您可以使用位置策略定义在美国) 的紧急呼叫 (911 的号码，是否应自动通知企业安全，以及应如何路由呼叫。
 
 可以测试用户或网络子网的位置策略。 如果通过指定 Subnet 参数的值对子网运行测试，则 cmdlet 将尝试解析该子网的位置策略。 如果没有位置策略分配到子网，则将检索配置用户的位置策略。 如果成功检索子网策略，则输出将包含以子网-tagid 开头的 LocationPolicyTagID 值。 如果未找到子网的位置策略，则 LocationPolicyTagID 将以 user-tagid 开头。
 
@@ -76,7 +78,7 @@ New-cslocationpolicy cmdlet 验证是否已将位置策略分配给用户。 可
 
 ## <a name="running-the-test"></a>运行测试
 
-可以使用预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何用户的帐户运行 New-cslocationpolicy cmdlet。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
+可以使用预配置的测试帐户运行 Test-CsLocationPolicy cmdlet (请参阅设置用于运行 Lync Server 测试的测试帐户) 或启用了 Lync Server 的任何用户的帐户。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -85,7 +87,7 @@ New-cslocationpolicy cmdlet 验证是否已将位置策略分配给用户。 可
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-有关详细信息，请参阅[new-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [new-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsLocationPolicy) Cmdlet 的帮助文档。
 
 </div>
 
@@ -93,7 +95,7 @@ New-cslocationpolicy cmdlet 验证是否已将位置策略分配给用户。 可
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果指定用户具有有效的位置策略，则将接收与以下内容类似的输出，并将 Result 属性标记为 "**成功"：**
+如果指定用户具有有效的位置策略，则将接收与以下内容类似的输出，并将 Result 属性标记为 " **成功"：**
 
 EnhancedEmergencyServicesEnabled： true
 
@@ -131,11 +133,11 @@ Microsoft DiagnosticHeader
 
     Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-如果 New-cslocationpolicy 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
+如果 Test-CsLocationPolicy 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-包含 Verbose 参数时，New-cslocationpolicy 将返回它在验证位置策略时尝试的每个操作的分步帐户。 例如，此输出指示 Lync Server 无法登录测试用户，可能是因为提供了无效密码：
+包含 Verbose 参数时，Test-CsLocationPolicy 将返回它在验证位置策略时尝试的每个操作的分步帐户。 例如，此输出指示 Lync Server 无法登录测试用户，可能是因为提供了无效密码：
 
 发送注册请求：
 
@@ -159,7 +161,7 @@ Microsoft DiagnosticHeader
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是测试 New-cslocationpolicy 可能失败的一些常见原因：
+下面是 Test-CsLocationPolicy 可能失败的一些常见原因：
 
   - 您指定的用户帐户无效。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     

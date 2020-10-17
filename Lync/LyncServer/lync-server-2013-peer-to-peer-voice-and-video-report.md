@@ -12,20 +12,22 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb58becb1b495c16338ef9590ede8fb4005bc2d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dc5d3905df971cf5ce09bfb026acc4838974ff18
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215658"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536799"
 ---
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Lync Server 2013 中的对等语音和视频报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Lync Server 2013 中的对等语音和视频报告
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42215658"
 
 _**上次修改的主题：** 2012-10-21_
 
-对等语音和视频报告提供了在指定时间段内语音和视频呼叫的分布的详细信息（例如，每小时的呼叫数或每天的呼叫数）。 该报告还提供了查看所有发出的语音和视频呼叫，或仅查看成功或失败呼叫的选项。 这些报告显示了从细分为以下分组的呼叫信息：
+对等语音和视频报告提供了在指定时间段内语音和视频呼叫的分布的详细介绍 (例如，每小时或每日呼叫数) 。 该报告还提供了查看所有发出的语音和视频呼叫，或仅查看成功或失败呼叫的选项。 这些报告显示了从细分为以下分组的呼叫信息：
 
   - 每个池的调用
 
-  - 每个呼叫类型的呼叫（例如，Lync to Lync 呼叫，以及对 PSTN 网络中某个人的 Lync 呼叫）
+  - 每个呼叫类型的呼叫 (例如，Lync to Lync call 与 PSTN 网络上的某个人的 Lync 呼叫) 
 
-  - 每种访问类型的呼叫数（登录到内部网络的用户数与登录到外部网络的用户数）
+  - 登录到内部网络的用户 (用户和登录到外部网络的用户的呼叫数（按每种访问类型) 
 
   - 每个中介服务器的呼叫数
 
@@ -67,7 +69,7 @@ _**上次修改的主题：** 2012-10-21_
 
 ## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a>最大限度地利用对等语音和视频报告
 
-您可以通过多种方式筛选对等语音和视频报告。 但是，默认情况下，这些筛选选项在视图中是隐藏的。 若要查看可用的筛选选项，请单击报告窗口右上角的 "**显示/隐藏参数**" 按钮。
+您可以通过多种方式筛选对等语音和视频报告。 但是，默认情况下，这些筛选选项在视图中是隐藏的。 若要查看可用的筛选选项，请单击报告窗口右上角的 " **显示/隐藏参数** " 按钮。
 
 </div>
 

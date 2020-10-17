@@ -12,20 +12,22 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31997276c95fb3908ab33d0a21017833f10fddcc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28751281bfbc8809c2be23e3bfdb6466b85d63f7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195075"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536189"
 ---
+# <a name="tblskippedaffiliations-in-lync-server-2013"></a>Lync Server 2013 中的 tblSkippedAffiliations
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblskippedaffiliations-in-lync-server-2013"></a>Lync Server 2013 中的 tblSkippedAffiliations
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42195075"
 
 _**上次修改的主题：** 2012-09-12_
 
-tblSkippedAffiliations 包含无法读取的隶属关系（通常是由于 Active Directory 域服务访问错误而引起的）。
+由于 Active Directory 域服务访问错误) ，tblSkippedAffiliations 包含无法读取的隶属关系 (。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>列数
 
 <table>
 <colgroup>
@@ -84,7 +86,7 @@ tblSkippedAffiliations 包含无法读取的隶属关系（通常是由于 Activ
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>列 (s) </th>
 <th>说明</th>
 </tr>
 </thead>

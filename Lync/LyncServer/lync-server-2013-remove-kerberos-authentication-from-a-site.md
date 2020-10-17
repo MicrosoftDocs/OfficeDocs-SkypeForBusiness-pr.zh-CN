@@ -12,20 +12,22 @@ ms:contentKeyID: 48184806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4f7fa1160e7ff0afbbc4d8d4cc5ec96ab08e0f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7fdf5a304d428efb3b1192d02ade0187f052171
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183128"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536409"
 ---
+# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a>在 Lync Server 2013 中，从站点中删除 Kerberos 身份验证
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a>在 Lync Server 2013 中，从站点中删除 Kerberos 身份验证
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-01-16_
 
 要成功完成此过程，应以 RTCUniversalServerAdmins 组成员的身份登录。
 
-如果需要从网站中删除 Kerberos 身份验证或淘汰网站，则必须使用**CsKerberosAccountAssignment** cmdlet 从网站中删除 kerberos 身份验证帐户分配。 使用以下过程可删除 Kerberos 身份验证帐户分配，这将从网站中的所有计算机中删除分配。
+如果需要从网站中删除 Kerberos 身份验证或淘汰网站，则必须使用 **CsKerberosAccountAssignment** cmdlet 从网站中删除 kerberos 身份验证帐户分配。 使用以下过程可删除 Kerberos 身份验证帐户分配，这将从网站中的所有计算机中删除分配。
 
 <div class=" ">
 
@@ -83,7 +85,7 @@ _**上次修改的主题：** 2012-01-16_
     
 
     > [!IMPORTANT]  
-    > 在对 Kerberos 身份验证（如添加帐户或删除帐户）进行任何更改之后，您必须从 Lync Server 命令行管理程序命令提示符处运行<STRONG>Enable-enable-cstopology</STRONG> 。
+    > 在对 Kerberos 身份验证（如添加帐户或删除帐户）进行任何更改之后，您必须从 Lync Server 命令行管理程序命令提示符处运行 <STRONG>Enable-enable-cstopology</STRONG> 。
 
     
     </div>

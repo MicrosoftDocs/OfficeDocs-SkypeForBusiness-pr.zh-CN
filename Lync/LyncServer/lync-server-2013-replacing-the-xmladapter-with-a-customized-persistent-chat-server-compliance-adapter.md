@@ -12,20 +12,22 @@ ms:contentKeyID: 49558152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e9cd9f2e950e835a113f64795022753e44e3ff5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6c90452edc96a424111fcaa8c99dcf60e55e0109
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536349"
 ---
+# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a>在 Lync Server 2013 中将 XmlAdapter 替换为自定义的持久聊天服务器合规性适配器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a>在 Lync Server 2013 中将 XmlAdapter 替换为自定义的持久聊天服务器合规性适配器
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="implementing-the-icomplianceadapter-interface"></a>实现 IComplianceAdapter 接口
 
-接口在命名空间`Microsoft.Rtc.Internal.Chat.Server.Compliance`中的合规 .dll 程序集中定义。 此接口定义您的自定义适配器必须实现的两种方法。
+接口是在命名空间中的 Compliance.dll 程序集中定义的 `Microsoft.Rtc.Internal.Chat.Server.Compliance` 。 此接口定义您的自定义适配器必须实现的两种方法。
 
     void SetConfig(AdapterConfig config)
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-11-01_
 
     void Translate(ConversationCollection conversations)
 
-只要有要翻译的新数据，持久聊天合规性服务器将定期调用此方法。 此时间间隔等于在持久聊天`RunInterval`合规性配置中设置的。
+只要有要翻译的新数据，持久聊天合规性服务器将定期调用此方法。 此时间间隔等于 `RunInterval` 在持久聊天合规性配置中设置的。
 
 `ConversationCollection`包含上次调用此方法时收集的对话信息。
 

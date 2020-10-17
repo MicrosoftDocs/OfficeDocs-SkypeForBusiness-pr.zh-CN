@@ -12,20 +12,22 @@ ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94999d2f3ce69308e38da1b261a4b0d96a2ef5cd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a7c3251ef5ff907dbf9964daaca222584953e75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194145"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536079"
 ---
+# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>在 Lync Server 2013 中测试电话拨入式会议会话
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>在 Lync Server 2013 中测试电话拨入式会议会话
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-06-05_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-csdialinconferencing cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsDialInConferencing cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialInConferencing&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,9 +66,9 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>Description
+## <a name="description"></a>说明
 
-Test-csdialinconferencing cmdlet 验证用户是否可以参与电话拨入式会议。 测试-Test-csdialinconferencing 通过尝试将测试用户登录到系统来工作。 如果登录成功，则 cmdlet 将使用用户的凭据和权限来尝试所有可用的电话拨入式会议访问号码。 将记录每个拨入尝试的成功或失败情况，然后将从 Lync Server 注销测试用户。测试 Test-csdialinconferencing 仅验证是否可以建立适当的连接。 Cmdlet 实际上不会进行任何电话呼叫，也不会创建任何其他用户可以加入的电话拨入式会议。
+Test-CsDialInConferencing cmdlet 验证用户是否可以参与电话拨入式会议。 Test-CsDialInConferencing 通过尝试将测试用户登录到系统来工作。 如果登录成功，则 cmdlet 将使用用户的凭据和权限来尝试所有可用的电话拨入式会议访问号码。 将记录每个拨入尝试的成功或失败情况，然后将从 Lync Server 注销测试用户。测试 Test-csdialinconferencing 仅验证是否可以建立适当的连接。 Cmdlet 实际上不会进行任何电话呼叫，也不会创建任何其他用户可以加入的电话拨入式会议。
 
 </div>
 
@@ -74,7 +76,7 @@ Test-csdialinconferencing cmdlet 验证用户是否可以参与电话拨入式�
 
 ## <a name="running-the-test"></a>运行测试
 
-可以使用预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何用户的帐户运行 Test-csdialinconferencing cmdlet。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
+可以使用预配置的测试帐户运行 Test-CsDialInConferencing cmdlet (请参阅设置用于运行 Lync Server 测试的测试帐户) 或启用了 Lync Server 的任何用户的帐户。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
 
     Test-CsDialInConferencing -TargetFqdn "atl-cs-001.litwareinc.com" 
 
@@ -83,7 +85,7 @@ Test-csdialinconferencing cmdlet 验证用户是否可以参与电话拨入式�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsDialInConferencing -TargetFqdn atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-有关详细信息，请参阅[test-csdialinconferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [test-csdialinconferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) Cmdlet 的帮助文档。
 
 </div>
 
@@ -91,7 +93,7 @@ Test-csdialinconferencing cmdlet 验证用户是否可以参与电话拨入式�
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果指定用户可以登录到 Lync Server，然后使用其中一个可用的电话拨入式会议访问号码进行连接，则会收到类似于以下内容的输出，并将 Result 属性标记为 "**成功"：**
+如果指定用户可以登录到 Lync Server，然后使用其中一个可用的电话拨入式会议访问号码进行连接，则会收到类似于以下内容的输出，并将 Result 属性标记为 " **成功"：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -121,7 +123,7 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 诊断
 
-以前的输出指示已拒绝测试用户对 Lync Server 本身的访问。 这通常意味着传递给 Test-Test-csdialinconferencing 的用户凭据无效。 反过来，您应该重新创建 Windows PowerShell 凭据对象。 虽然您可以检索用户帐户的密码，但您可以通过使用类似如下的命令来验证 SIP 地址：
+以前的输出指示已拒绝测试用户对 Lync Server 本身的访问。 这通常意味着传递给 Test-CsDialInConferencing 的用户凭据无效。 反过来，您应该重新创建 Windows PowerShell 凭据对象。 虽然您可以检索用户帐户的密码，但您可以通过使用类似如下的命令来验证 SIP 地址：
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress
 
@@ -131,7 +133,7 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是测试 Test-csdialinconferencing 可能失败的一些常见原因：
+下面是 Test-CsDialInConferencing 可能失败的一些常见原因：
 
   - 您指定的用户帐户无效。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f620712404fffe8e46f8f2a6f066c6ffa7b77d74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20a7b43056071ddc2322ff5147de72d818548b86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212876"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535879"
 ---
+# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>使用最佳实践分析工具扫描 Lync Server 2013 部署以发现潜在问题
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>使用最佳实践分析工具扫描 Lync Server 2013 部署以发现潜在问题
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**上次修改的主题：** 2012-10-21_
 
 要运行最佳做法分析器扫描，您必须指定以下项：
 
-  - **凭据**   若要运行扫描，您必须使用作为本地 Administrators 组成员的帐户登录到安装了最佳实践分析工具的计算机。 此外，您还需要使用具有运行适当扫描所需的用户权限的用户帐户登录，否则在运行最佳做法分析器时，必须指定具有适当用户权限的凭据。 有关详细信息，请参阅[Lync Server 2013 中的最佳实践分析工具组成员身份和用户权限要求](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)。
+  - **凭据**    若要运行扫描，您必须使用属于本地 Administrators 组成员的帐户登录到安装了最佳实践分析工具的计算机。 此外，您还需要使用具有运行适当扫描所需的用户权限的用户帐户登录，否则在运行最佳做法分析器时，必须指定具有适当用户权限的凭据。 有关详细信息，请参阅 [Lync Server 2013 中的最佳实践分析工具组成员身份和用户权限要求](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)。
 
-  - **扫描范围若**   要指定扫描范围，请选择要扫描的类别和服务器。 您可以在 Lync Server 环境中选择特定类别中的所有类别、一个或多个类别或一个或多个服务器。
+  - **扫描范围**    若要指定扫描范围，请选择要扫描的类别和服务器。 您可以在 Lync Server 环境中选择特定类别中的所有类别、一个或多个类别或一个或多个服务器。
 
-  - **扫描类型目前**   ，运行状况检查扫描是唯一可用的扫描类型（默认情况下处于选中状态）。 状况检查扫描生成的报告中包含有关范围中指定的所有服务器的错误、警告和其他信息。
+  - **扫描类型**    目前，运行状况检查扫描是默认情况下 (选择的唯一扫描类型) 。 状况检查扫描生成的报告中包含有关范围中指定的所有服务器的错误、警告和其他信息。
 
-  - **网络速度**   网络速度选项包括快速 lan （100 mbps 或更高）、LAN （10 Mbps）、Fast WAN （1.5 Mbps）或 WAN （64 kbps）。 估计完成扫描的时间基于此设置。 此设置还用于设置超时期限。 扫描期间，最佳做法分析器在指定时间内等待来自服务器的响应。 如果没有在指定超时期限内收到响应，它将移到扫描中的下一个服务器。 在速度较慢的网络上，考虑到网络延迟更长，所以此指定超时期限更长。 我们建议您为此参数选择拓扑中最慢的链接，以便该工具不会超时太快。
+  - **网络速度**    网络速度选项包括快速局域网 (100 Mbps 或更多) 、LAN (10 Mbps) 、快速 WAN (1.5 Mbps) 或 WAN (64 kbps) 。 估计完成扫描的时间基于此设置。 此设置还用于设置超时期限。 扫描期间，最佳做法分析器在指定时间内等待来自服务器的响应。 如果没有在指定超时期限内收到响应，它将移到扫描中的下一个服务器。 在速度较慢的网络上，考虑到网络延迟更长，所以此指定超时期限更长。 我们建议您为此参数选择拓扑中最慢的链接，以便该工具不会超时太快。
 
 <div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-10-21_
 
 1.  使用属于本地 Administrators 组成员并拥有其他所需用户权限的帐户登录安装有最佳做法分析器的计算机。
 
-2.  单击 "**开始**"，依次指向 "**所有程序**"、" **Microsoft Lync Server 2013**"，然后单击 "**最佳实践分析工具**"。
+2.  单击 " **开始**"，依次指向 " **所有程序**"、" **Microsoft Lync Server 2013**"，然后单击 " **最佳实践分析工具**"。
 
 3.  在“欢迎”**** 屏幕上，单击“为新扫描选择选项”****。
 
@@ -88,7 +90,7 @@ _**上次修改的主题：** 2012-10-21_
     
 
     > [!NOTE]
-    > 有关最佳实践分析工具报告和这些报告所识别的问题的详细信息，请参阅<A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">在 2013 lync server 2013 中查看并使用最佳实践分析工具创建的报告</A>，并<A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">分析和解决 lync server 中的最佳实践分析工具识别的问题</A>。
+    > 有关最佳实践分析工具报告和这些报告所识别的问题的详细信息，请参阅 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">在 2013 lync server 2013 中查看并使用最佳实践分析工具创建的报告</A> ，并 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">分析和解决 lync server 中的最佳实践分析工具识别的问题</A>。
 
     
     </div>

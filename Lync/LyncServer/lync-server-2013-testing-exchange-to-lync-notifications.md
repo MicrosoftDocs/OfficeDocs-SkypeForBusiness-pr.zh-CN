@@ -12,20 +12,22 @@ ms:contentKeyID: 63969665
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d186a41c8997f7e05a9bc9be93b44ff7b675b907
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e0d3354a71079f20d552aa3175083540744a5b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194116"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536015"
 ---
+# <a name="testing-exchange-to-lync-notifications-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Exchange to Lync 通知
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-exchange-to-lync-notifications-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Exchange to Lync 通知
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-11-01_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行<strong>CsExStorageNotification</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 <strong>CsExStorageNotification</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExStorageNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -84,7 +86,7 @@ _**上次修改的主题：** 2014-11-01_
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果已正确配置 Exchange 集成，则会收到类似于以下内容的输出，并将 Result 属性标记为**成功**：
+如果已正确配置 Exchange 集成，则会收到类似于以下内容的输出，并将 Result 属性标记为 **成功**：
 
 目标 Fqdn： atl-cs-001.litwareinc.com
 
@@ -128,7 +130,7 @@ _**上次修改的主题：** 2014-11-01_
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是**测试 CsExStorageNotification**可能失败的一些常见原因：
+以下是 **测试 CsExStorageNotification** 可能失败的一些常见原因：
 
   - 提供的参数值不正确。 如果使用，则必须正确配置可选参数或测试将失败。 重新运行不带可选参数的命令，并查看是否成功。
 

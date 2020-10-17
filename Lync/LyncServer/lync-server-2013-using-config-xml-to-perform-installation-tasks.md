@@ -12,20 +12,22 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2933da3fc52cc6a5c23f74806ff3a4e81dcb2ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 901d95797955c6f545c0d305e2c855829c92addf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212828"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535779"
 ---
+# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>使用 Config.xml 在 Lync Server 2013 中执行安装任务
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Config.xml 执行安装任务
+
 
 </div>
 
@@ -53,11 +55,11 @@ _**上次修改的主题：** 2012-10-02_
 
 建议使用 Config.xml 文件配置 Lync 2013 无提示安装。
 
-默认情况下，存储在核心产品文件夹（例如 product） \\中的 config.xml 文件。WW）指导安装程序安装该产品。 例如，以下文件夹中的 Config.xml 文件将安装 Lync 2013：
+默认情况下，存储在核心产品文件夹中的 Config.xml 文件 (例如 \\ product。WW) 指导安装程序安装该产品。 例如，以下文件夹中的 Config.xml 文件将安装 Lync 2013：
 
-  - \\\\服务器\\共享\\Lync15\\（Lync \\）
+  - \\\\服务器 \\ 共享 \\ Lync15 \\ Lync \\Config.xml
 
-下表列出了用于 Lync 2013 安装的最常用的 Config.xml 元素。
+下表列出了 Lync 2013 安装最常使用的 Config.xml 元素。
 
 ### <a name="configxml-elements"></a>Config.xml 元素
 
@@ -81,24 +83,24 @@ _**上次修改的主题：** 2012-10-02_
 <td><p>OptionState</p></td>
 <td><p>指定在安装期间如何处理特定产品功能。 使用以下属性可阻止安装 Business Connectivity Services，其中包括干扰 Outlook 2010 的共享组件：</p>
 <ul>
-<li><p>Id =&quot;LOBiMain&quot;</p></li>
-<li><p>State =&quot;缺少&quot;</p></li>
-<li><p>子级 =&quot;强制&quot;</p></li>
+<li><p>Id = &quot; LOBiMain&quot;</p></li>
+<li><p>State = &quot; 缺少&quot;</p></li>
+<li><p>子级 = &quot; 强制&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>显示</p></td>
 <td><p>安装程序向用户显示的 UI 级别。典型属性包括：</p>
 <ul>
-<li><p>CompletionNotice =&quot;是&quot; | &quot;No&quot;（默认值）</p></li>
-<li><p>AcceptEula =&quot;是&quot; | &quot;No&quot;（默认值）</p></li>
+<li><p>CompletionNotice = &quot; Yes &quot;  |  &quot; &quot; (不默认值) </p></li>
+<li><p>AcceptEula = &quot; Yes &quot;  |  &quot; &quot; (不默认值) </p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>日志记录</p></td>
 <td><p>安装程序执行的日志记录类型的选项。典型属性包括：</p>
 <ul>
-<li><p>键入 =&quot;Off&quot; | &quot;Standard&quot;（默认值） |&quot;详细&quot;</p></li>
+<li><p>键入 = &quot; Off &quot;  |  &quot; Standard &quot; (默认) | &quot;冗长&quot;</p></li>
 <li><p>Template=”filename.txt”（日志文件的名称）</p></li>
 </ul></td>
 </tr>
@@ -106,8 +108,8 @@ _**上次修改的主题：** 2012-10-02_
 <td><p>设置</p></td>
 <td><p>指定 Windows Installer 属性的值。典型属性包括：</p>
 <ul>
-<li><p>设置 Id =&quot;Name&quot; （Windows Installer 属性的名称）</p></li>
-<li><p>Value =&quot;value&quot; （要分配给属性的值）</p></li>
+<li><p>设置 Id = &quot; &quot; (Windows Installer 属性名称的名称) </p></li>
+<li><p>Value = &quot; value &quot; (要分配给属性的值) </p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -121,7 +123,7 @@ _**上次修改的主题：** 2012-10-02_
 </table>
 
 
-下面的示例展示了 Lync 2013 典型安装的 Config.xml 文件。
+下面的示例演示了 Lync 2013 典型无提示安装的 Config.xml 文件。
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -131,7 +133,7 @@ _**上次修改的主题：** 2012-10-02_
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-有关使用 Config.xml 文件执行 Office 安装和维护任务的详细信息，请访问<https://go.microsoft.com/fwlink/p/?linkid=267514>。
+有关使用 Config.xml 文件执行 Office 安装和维护任务的详细信息，请访问 <https://go.microsoft.com/fwlink/p/?linkid=267514> 。
 
 <div>
 
@@ -141,7 +143,7 @@ _**上次修改的主题：** 2012-10-02_
 
 2.  找到包含您要更改元素的行。
 
-3.  使用您需要的静默选项修改元素项。 请务必删除注释分隔符 "\<\!--" 和 "--\>"。 例如，使用以下语法：
+3.  使用您需要的静默选项修改元素项。 请务必删除注释分隔符 " \<\!--" and "--\> "。 例如，使用以下语法：
     
         < DistributionPoint Location="\\server\share\Lync15" />
 

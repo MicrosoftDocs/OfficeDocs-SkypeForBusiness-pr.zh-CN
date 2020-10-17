@@ -12,20 +12,22 @@ ms:contentKeyID: 48185602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 661d7899e90e28a5790351713335cade8ba0d25c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0e73869b70a571ca49026954f84d1111d57ddfbf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187045"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537249"
 ---
+# <a name="call-admission-control-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的呼叫允许控制 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的呼叫允许控制 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187045"
 
 _**上次修改的主题：** 2012-03-21_
 
-呼叫允许控制（CAC）确定是否有足够的网络带宽来建立可接受质量的实时音频或视频会话。 您可以通过 configuraing 网络、站点和子网以及它们之间的交互的限制和设置来管理 CAC。
+呼叫允许控制 (CAC) 确定是否有足够的网络带宽来建立可接受质量的实时音频或视频会话。 您可以通过 configuraing 网络、站点和子网以及它们之间的交互的限制和设置来管理 CAC。
 
 <div>
 

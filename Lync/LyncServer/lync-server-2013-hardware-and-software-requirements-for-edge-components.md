@@ -12,20 +12,22 @@ ms:contentKeyID: 48185273
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97c32668169b2e4d67b333fd2d5864d62f3598b5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 580016d6169f83d4264f744cff3cb6c64b404757
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214678"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536869"
 ---
+# <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a>Lync Server 2013 中边缘组件的硬件和软件要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a>Lync Server 2013 中边缘组件的硬件和软件要求
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42214678"
 
 _**上次修改的主题：** 2013-03-14_
 
-边缘组件的硬件和软件要求包括 Lync Server 2013 通信软件组件的硬件和软件要求，包括边缘服务器和可选控制器。 有关支持外部用户访问和受支持的拓扑所需的组件的详细信息，请参阅[Lync Server 2013 中的外部用户访问所需的组件](lync-server-2013-components-required-for-external-user-access.md)。
+边缘组件的硬件和软件要求包括 Lync Server 2013 通信软件组件的硬件和软件要求，包括边缘服务器和可选控制器。 有关支持外部用户访问和受支持的拓扑所需的组件的详细信息，请参阅 [Lync Server 2013 中的外部用户访问所需的组件](lync-server-2013-components-required-for-external-user-access.md)。
 
 <div>
 
 ## <a name="hardware-for-edge-servers-and-directors"></a>边缘服务器和控制器的硬件
 
-硬件建议和要求在可支持性部分中定义。 对于边缘服务器和可选控制器，以下主题中详细介绍了建议的硬件配置。 在规划中，请参阅[server 硬件平台 For Lync Server 2013](lync-server-2013-server-hardware-platforms.md)。
+硬件建议和要求在可支持性部分中定义。 对于边缘服务器和可选控制器，以下主题中详细介绍了建议的硬件配置。 在规划中，请参阅 [server 硬件平台 For Lync Server 2013](lync-server-2013-server-hardware-platforms.md)。
 
 </div>
 

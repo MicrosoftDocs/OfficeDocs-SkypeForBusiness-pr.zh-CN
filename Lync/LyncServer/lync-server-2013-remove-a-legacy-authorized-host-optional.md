@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：删除旧版授权主机（可选）
+title: 'Lync Server 2013：删除旧版授权主机 (可选) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183252
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b33c79b7105ef1e8df3cc0802ae68b7b30eaeb2c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d93129e8f549541386932b849213e9aca67a995a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215038"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536529"
 ---
+# <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a>在 Lync Server 2013 中删除旧版授权主机 (可选) 
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a>在 Lync Server 2013 中删除旧版授权主机（可选）
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42215038"
 
 _**上次修改的主题：** 2012-09-05_
 
-将远程呼叫控制迁移到 Lync Server 部署时，必须在旧版部署中删除任何 SIP/CSTA 网关的旧版授权主机条目（在 Lync Server 中称为 "*受信任的应用程序条目*"）。 您必须使用管理工具来分别删除这些部署中的授权主机条目。
+将远程呼叫控制迁移到 Lync Server 部署时，必须在 "Lync Server) 中删除旧版授权主机项 (在旧版部署中的任何 SIP/CSTA 网关中称为" *受信任的应用程序项* "。 您必须使用管理工具来分别删除这些部署中的授权主机条目。
 
 <div>
 

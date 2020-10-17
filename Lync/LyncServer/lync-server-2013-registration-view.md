@@ -12,20 +12,22 @@ ms:contentKeyID: 49733718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3683965562d01c5aff33000450182c83e4d4c7b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cdf0e0edd69685af866905fea08144de327c446c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215098"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536579"
 ---
+# <a name="registration-view-in-lync-server-2013"></a>Lync Server 2013 中的 "注册" 视图
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="registration-view-in-lync-server-2013"></a>Lync Server 2013 中的 "注册" 视图
+
 
 </div>
 
@@ -57,12 +59,12 @@ _**上次修改的主题：** 2012-10-01_
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RegisterTime</strong></p></td>
@@ -71,18 +73,18 @@ _**上次修改的主题：** 2012-10-01_
 </tr>
 <tr class="even">
 <td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>注册用户的 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>注册用户的 URI 的类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>注册用户的 URI 的类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>注册用户的租户。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>注册用户的租户。 有关详细信息，请参阅 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EndpointId</strong></p></td>
@@ -101,32 +103,32 @@ _**上次修改的主题：** 2012-10-01_
 </tr>
 <tr class="even">
 <td><p><strong>DeRegisterReason</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>取消注册的原因。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientVersion</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>注册用户使用的客户端版本。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>注册用户使用的客户端。 有关更多详细信息，请参阅<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</p></td>
+<td><p>注册用户使用的客户端。 有关更多详细信息，请参阅 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientCategory</strong></p></td>
-<td><p>nvarchar （64）</p></td>
+<td><p>nvarchar (64) </p></td>
 <td><p>注册用户使用的客户端的类别。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>址</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>用户注册使用的 IP 地址。 这可能是 IPv4 或 IPv6 地址。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogId</strong></p></td>
-<td><p>varstring （775）</p></td>
+<td><p>varstring (775) </p></td>
 <td><p>SIP 对话 ID。格式如下：</p>
 <p>对话框; 从-标签; 到-标记</p></td>
 </tr>
@@ -142,17 +144,17 @@ _**上次修改的主题：** 2012-10-01_
 </tr>
 <tr class="even">
 <td><p><strong>注册</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>注册器的 FQDN。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>已捕获会话的数据的池的 FQDN。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EdgeServer</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>注册用户使用的边缘服务器的 FQDN。</p></td>
 </tr>
 <tr class="odd">
@@ -177,13 +179,13 @@ _**上次修改的主题：** 2012-10-01_
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceManufacturer</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>已注册设备的制造商。 有关详细信息，请参阅<a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的制造商表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>已注册设备的制造商。 有关详细信息，请参阅 <a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的制造商表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceHardwareVersion</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>已注册设备的硬件版本。 有关详细信息，请参阅<a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>已注册设备的硬件版本。 有关详细信息，请参阅 <a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表</a> 。</p></td>
 </tr>
 </tbody>
 </table>

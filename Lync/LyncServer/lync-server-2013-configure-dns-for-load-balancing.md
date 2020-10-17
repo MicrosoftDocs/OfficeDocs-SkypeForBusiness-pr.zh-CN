@@ -12,20 +12,22 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8b2059048823c1a8f063d0d7832759ec64e6341
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 831968516ef155d6ad018f33bfa27226f58292dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204508"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537139"
 ---
+# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>在 Lync Server 2013 中为负载平衡配置 DNS
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>在 Lync Server 2013 中为负载平衡配置 DNS
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-01_
 
 若要成功完成此过程，至少应以 Domain Admins 组或 DnsAdmins 组成员的身份登录到服务器或域。
 
-域名系统（DNS）负载平衡将对 Lync Server 2013 所特有的网络流量进行平衡，如 SIP 流量和媒体流量。 前端池、边缘池、控制器池和独立的中介池都支持 DNS 负载平衡。 配置为使用 DNS 负载平衡的池必须定义两个完全限定的域名（Fqdn）： DNS 负载平衡使用的常规池 FQDN （例如，pool1.contoso.com），并解析为池中服务器的物理 Ip。，以及将解析为池的虚拟 IP 地址的池 Web 服务（例如，web1.contoso.net）的另一个 FQDN。 有关 DNS 负载平衡的详细信息，请参阅规划文档中的[Lync Server 2013 中的 DNS 负载平衡](lync-server-2013-dns-load-balancing.md)。
+域名系统 (DNS) 负载平衡将对 Lync Server 2013 所特有的网络流量（如 SIP 流量和媒体流量）进行平衡。 前端池、边缘池、控制器池和独立的中介池都支持 DNS 负载平衡。 配置为使用 DNS 负载平衡的池必须有两个完全限定的域名 (Fqdn) 定义： DNS 负载平衡使用的常规池 FQDN (例如，pool1.contoso.com) 并解析为池中服务器的物理 Ip 以及池的 Web 服务的另一个 FQDN (例如，web1.contoso.net) ，它将解析为池的虚拟 IP 地址。 有关 DNS 负载平衡的详细信息，请参阅规划文档中的 [Lync Server 2013 中的 DNS 负载平衡](lync-server-2013-dns-load-balancing.md) 。
 
 <div>
 
@@ -81,7 +83,7 @@ _**上次修改的主题：** 2012-10-01_
 
 ## <a name="to-override-internal-web-services-fqdn"></a>覆盖内部 Web 服务 FQDN
 
-1.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+1.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 2.  在控制台树中，展开 Enterprise Edition 前端池节点。
 
@@ -93,7 +95,7 @@ _**上次修改的主题：** 2012-10-01_
 
 6.  在“外部 Web 服务”**** 下面，键入解析为池的虚拟 IP 地址的外部池 FQDN，然后单击“确定”****。
 
-7.  在控制台树中，单击 " **Lync Server 2013**"，然后在 "**操作**" 窗格中，单击 "**发布拓扑**"。
+7.  在控制台树中，单击 " **Lync Server 2013**"，然后在 " **操作** " 窗格中，单击 " **发布拓扑**"。
 
 </div>
 
@@ -109,7 +111,7 @@ _**上次修改的主题：** 2012-10-01_
 
 4.  右键单击要向其中添加记录的 DNS 域，然后单击“新主机 (A 或 AAAA)”****。
 
-5.  在 "**名称**" 框中，键入主机记录的名称（将自动追加到域名称）。
+5.  在 " **名称** " 框中，键入主机记录的名称 (域名将自动追加) 。
 
 6.  在 IP 地址框中，键入单个前端服务器的 IP 地址，然后选择“创建关联的指针 (PTR) 记录”**** 或“允许所有经过身份验证的用户使用同一所有者名称更新 DNS 记录”****（如果适用）。
 
@@ -150,7 +152,7 @@ _**上次修改的主题：** 2012-10-01_
     </tbody>
     </table>
     
-    有关创建 DNS 主机（A）记录的详细信息，请参阅[CONFIGURE DNS host 记录 For Lync Server 2013](lync-server-2013-configure-dns-host-records.md)。
+    有关创建) 记录 (DNS 主机的详细信息，请参阅 [CONFIGURE DNS host 记录 For Lync Server 2013](lync-server-2013-configure-dns-host-records.md)。
 
 </div>
 

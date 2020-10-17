@@ -12,20 +12,22 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f572c120d86c5f89fb82e23066a6262e957e5e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f98a19e81ebf52d97b4c6807dbb97dc8110b0f34
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201508"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536559"
 ---
+# <a name="release-notes-for-lync-server-2013"></a>Lync Server 2013 发行说明
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="release-notes-for-lync-server-2013"></a>Lync Server 2013 发行说明
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2016-12-08_
 
 ## <a name="about-this-document"></a>关于本文档
 
-本文档包含在部署和使用 Lync Server 2013 之前应了解的重要信息。 有关 Lync Server 2013 的详细信息，请参阅[Microsoft Lync server 2013](microsoft-lync-server-2013.md)文档。
+本文档包含在部署和使用 Lync Server 2013 之前应了解的重要信息。 有关 Lync Server 2013 的详细信息，请参阅 [Microsoft Lync server 2013](microsoft-lync-server-2013.md) 文档。
 
 本文档包含以下各部分：
 
@@ -109,7 +111,7 @@ Lync Server Storage Service 使用 Windows Fabric 进行复制。 如果在主�
 
 **规避**
 
-若要\_解决此问题，如果已使用\_\_\_的事件 LYSS DB 空间错误（id = 32058）和\_在事件日志\_中使用了关键（id = 32059）的 LYSS db\_空间\_，则管理员应检查前端服务器上前端服务器上的性能计数器 **： LYSS-storage service API**中的名称为**LYSS-当前存储服务陈旧队列项目数**。 如果此性能计数器具有较高的值（例如，大于50000），则管理员应在 Lync Server 2013 资源工具包中运行 CleanuUpStorageServiceData 工具，这将从池中删除所有孤立的数据。 有关该工具的详细信息，请参阅 Lync Server 2013 资源工具包文档。
+若要解决此问题，如果使用的事件 \_ LYSS \_ DB \_ 空间 \_ 错误 (id = 32058) 和 LYSS \_ DB \_ 空间 \_ 使用 \_ 关键 (id = 32059) 在事件日志中生成，管理员应检查前端服务器上前端服务器的性能计数器 **： LYSS-Storage Service API** ，其名称为 **LYSS-当前存储服务陈旧队列项目数**。 如果此性能计数器具有较高的值（例如，大于50000），则管理员应在 Lync Server 2013 资源工具包中运行 CleanuUpStorageServiceData.exe 工具，这将从池中删除所有孤立数据。 有关该工具的详细信息，请参阅 Lync Server 2013 资源工具包文档。
 
 </div>
 
@@ -157,13 +159,13 @@ Lync Server 2013 管理包中不再提供电话拨入式会议综合事务 cmdle
 
 **问题**
 
-将集中日志记录服务配置为使用网络路径（ **new-csclsconfiguration** Cmdlet 的 CacheFileNetworkFolder 参数的值是有效的 UNC 路径）时，缓存的日志文件将被复制到网络共享。 如果在复制文件时网络流量出现中断，则会发生异常，从而导致集中日志记录服务停止。
+将集中日志记录服务配置为使用网络路径时 (**new-csclsconfiguration** Cmdlet 的 CacheFileNetworkFolder 参数的值是有效的 UNC 路径) ，缓存的日志文件将被复制到网络共享。 如果在复制文件时网络流量出现中断，则会发生异常，从而导致集中日志记录服务停止。
 
 该服务配置为自动重新启动三次，因此该服务将从前三个例外中恢复。
 
 **规避**
 
-此问题尚无解决方法。 若要确定问题，请从日志中 "Lync Server 集中式日志记录服务代理" 服务意外终止时日志的 "服务控制管理器" 中监视事件 ID 7031 的事件日志。 如果发生此情况超过三次，请使用**CsWindowService** cmdlet 手动重新启动该服务。
+此问题尚无解决方法。 若要确定问题，请从日志中 "Lync Server 集中式日志记录服务代理" 服务意外终止时日志的 "服务控制管理器" 中监视事件 ID 7031 的事件日志。 如果发生此情况超过三次，请使用 **CsWindowService** cmdlet 手动重新启动该服务。
 
 </div>
 
@@ -173,9 +175,9 @@ Lync Server 2013 管理包中不再提供电话拨入式会议综合事务 cmdle
 
 **问题**
 
-Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和呼叫详细信息记录（CDR））存储在每台前端服务器上的数据库中。 数据在处理过程中存储在数据库中，然后将其传递到预期的目标。 为了提高性能，Lync Server 2013 定期从本地数据库中导出未在一段较长时间内处理的队列项，并将其保存在文件存储区中。 如果文件存储不可用，项目将存储在每台前端服务器上。 在池故障转移期间，发生相同的操作以防止数据丢失。
+Lync Server 2013 在每台前端服务器上的数据库上存储有关会议和即时消息的数据，例如存档的邮件和呼叫详细信息记录 (CDR) 。 数据在处理过程中存储在数据库中，然后将其传递到预期的目标。 为了提高性能，Lync Server 2013 定期从本地数据库中导出未在一段较长时间内处理的队列项，并将其保存在文件存储区中。 如果文件存储不可用，项目将存储在每台前端服务器上。 在池故障转移期间，发生相同的操作以防止数据丢失。
 
-在导出操作过程中，Lync Server 存储服务会在事件日志中记录事件 Id 为32075（完全刷新操作已启动）、32076（完全刷新已完成）、32082（启动维护级别刷新）、32083（维护级别刷新）的每个阶段。已完成）、32089（因填充数据库而发生刷新）。 此数据不会自动导入回系统以进行处理并传递到最终目标（SQL Server 或 Exchange Server）。
+在导出操作过程中，Lync Server 存储服务会在事件日志中记录包含 32075 (完全刷新操作的事件日志中的每个阶段。) ，32076 (完全刷新已完成) ，32082 (维护级别刷新已完成) ，32083 (维护级别刷新已完成) ，由于填满数据库 (，32089) 刷新发生。 此数据不会自动导入回系统以进行处理并传递到其最终目标 (SQL Server 或 Exchange Server) 。
 
 **规避**
 
@@ -209,7 +211,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 3.  等待 CMS 复制在所有池上进行。
 
-4.  修改适用于您的部署的电话规范化规则文件以清除内容。 文件位于每个 Lync Server 2013 池的文件共享中。 如果该文件不存在，则创建一个名为 "\_Company Phone\_Number\_规范化\_Rules .txt" 的空文件。
+4.  修改适用于您的部署的电话规范化规则文件以清除内容。 文件位于每个 Lync Server 2013 池的文件共享中。 如果文件不存在，则创建一个名为 "公司 \_ 电话 \_ 号码 \_ 规范化Rules.txt" 的空文件 \_ 。
 
 5.  等待几分钟，让所有前端池都能读取新文件。
 
@@ -225,7 +227,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **问题**
 
-在每日执行日常维护时，Lync Server 2013 通讯簿服务器将在每天生成错误事件21054。 每当管理员运行**csAddressBook** cmdlet 时，也会生成错误，即使更新成功也是如此。 但是，当更新成功时，可以安全地忽略此错误事件。
+在每日执行日常维护时，Lync Server 2013 通讯簿服务器将在每天生成错误事件21054。 每当管理员运行 **csAddressBook** cmdlet 时，也会生成错误，即使更新成功也是如此。 但是，当更新成功时，可以安全地忽略此错误事件。
 
 **规避**
 
@@ -235,7 +237,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 如果 cmdlet 报告没有未索引或被放弃的对象，则可以安全地忽略错误事件21054。
 
-此外，应在 System Center Operations Manager 中禁用关键运行状况指示器（KHI） "已为用户正确编制索引" 的 "通讯簿用户"。
+此外，应在 System Center Operations Manager 中禁用 KHI) "通讯簿用户已正确编制索引" (的关键运行状况指示器。
 
 </div>
 
@@ -285,15 +287,15 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 <div>
 
-## <a name="administrators-cannot-get-licensee-count-by-using-the-get-csclientaccesslicense-cmdlet"></a>管理员无法使用 CsClientAccessLicense cmdlet 获取许可证持有人计数
+## <a name="administrators-cannot-get-licensee-count-by-using-the-get-csclientaccesslicense-cmdlet"></a>管理员不能使用 Get-CsClientAccessLicense cmdlet 获取许可证持有人计数
 
 **问题**
 
-管理员无法使用**CsClientAccessLicense** cmdlet 获取准确的客户端许可证使用情况。
+管理员无法使用 **CsClientAccessLicense** cmdlet 获取准确的客户端许可证使用情况。
 
 **规避**
 
-若要检查服务器许可证类型，可以运行**get-csservice** cmdlet 来检索所有数据库的完全限定域名（FDQNs）。 如果前端服务器的 FQDN 与后端数据库的 FQDN 相同，则许可证是标准版许可证。 否则，许可证为 Enterprise edition 许可证。
+若要检查服务器许可证类型，可以运行 **get-csservice** cmdlet 来检索所有数据库的 FDQNs)  (的完全限定的域名。 如果前端服务器的 FQDN 与后端数据库的 FQDN 相同，则许可证是标准版许可证。 否则，许可证为 Enterprise edition 许可证。
 
 </div>
 
@@ -313,7 +315,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
     
       - 如果用户连接到移动客户端，则将 undercounted 许可证，因为无法确定设备的 IP 地址。
 
-2.  **对 Lync 客户端的公共交换电话网络（PSTN）呼叫计数许可证两次，Lync 客户端呼叫 PSTN 线路，并将 Lync 呼叫转发到 PSTN 线路**
+2.  **对 Lync 客户端的公共交换电话网络 (PSTN) 呼叫（lync 客户端呼叫到 PSTN 线路）计算两次许可证，并将 Lync 呼叫转发到 PSTN 线路**
     
     在以下方案中，将计算两个附加许可证，而不是一个许可证，因为电话号码和 Lync 用户都将进行计数以确定所使用的许可证数量。 若要获取准确的许可数据，请手动删除由电话号码生成的许可证。
     
@@ -365,13 +367,13 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 若要解决此问题，请执行下列操作之一：
 
-  - 卸载 Silverlight 5，并从[https://go.microsoft.com/fwlink/p/?LinkID=149156](https://go.microsoft.com/fwlink/p/?linkid=149156)安装 silverlight 4。
+  - 卸载 Silverlight 5，并从安装 Silverlight 4 [https://go.microsoft.com/fwlink/p/?LinkID=149156](https://go.microsoft.com/fwlink/p/?linkid=149156) 。
 
   - 从不是 VMware 虚拟计算机的计算机访问 Lync Server "控制面板"。
     
-    为此，如果在计算机上安装了 Lync Server 管理工具，则可以从服务器上的 Windows "**开始**" 菜单启动 "Lync server 控制面板"。
+    为此，如果在计算机上安装了 Lync Server 管理工具，则可以从服务器上的 Windows " **开始** " 菜单启动 "Lync server 控制面板"。
     
-    您还可以使用 web 浏览器访问 Lync Server 控制面板。 该 URL 将类似于\<https://前端\_池\_fqdn/cscp.\>
+    您还可以使用 web 浏览器访问 Lync Server 控制面板。 该 URL 将类似于 https:// \<frontend\_pool\_fqdn\> /cscp。
 
 </div>
 
@@ -381,7 +383,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **问题**
 
-如果用户的可分辨名称（也称为 DN）在 Active Directory 域服务中发生更改，则任何其他更改将不会在通讯簿服务（ABS）中更新。 这不会影响用户的登录或状态，但如果 SIP 地址也发生更改，则会阻止用户通信，因为搜索将返回过期的 SIP 地址。
+如果用户的可分辨名称 (也称为 DN) 在 Active Directory 域服务中进行了更改，则任何其他更改都不会在通讯簿服务 (ABS) 中进行更新。 这不会影响用户的登录或状态，但如果 SIP 地址也发生更改，则会阻止用户通信，因为搜索将返回过期的 SIP 地址。
 
 **规避**
 
@@ -403,7 +405,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **问题**
 
-如果目标文件夹名称中包含非 ASCII 字符（包括 UNICODE、双字节字符集（DBCS）、UTF-8 和 UTF-16），安装程序将失败。 此外，安装程序可能会成功，但如果以下任一情况中包含非 ASCII 字符，则服务器将不会启动：
+如果目标文件夹名称中包含非 ASCII 字符 (包括 UNICODE、双字节字符集 (DBCS) 、UTF-8 和 UTF-16) ，安装程序将失败。 此外，安装程序可能会成功，但如果以下任一情况中包含非 ASCII 字符，则服务器将不会启动：
 
   - 计算机名称
 
@@ -427,11 +429,11 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **问题**
 
-当模块调用 IIS 7.5 （[https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)）中的 InsertEntityBody 方法（如 Microsoft 知识库文章264886（[https://go.microsoft.com/fwlink/p/?LinkId=268603](https://go.microsoft.com/fwlink/p/?linkid=268603)）中所述），在安装 Lync Server 2013 之前，必须先安装 "堆损坏" 的修补程序。
+当模块在 IIS 7.5 " ([https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)) （Microsoft 知识库文章 264886 () 中所述）中的模块调用了" 堆损坏 "时，在 [https://go.microsoft.com/fwlink/p/?LinkId=268603](https://go.microsoft.com/fwlink/p/?linkid=268603) 安装 Lync Server 2013 之前，必须先安装" 堆损坏 "的修补程序。
 
 **规避**
 
-从 Microsoft 下载中心下载并安装修补程序[https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602)。
+从 Microsoft 下载中心下载并安装修补程序 [https://go.microsoft.com/fwlink/p/?LinkId=268602](https://go.microsoft.com/fwlink/p/?linkid=268602) 。
 
 </div>
 
@@ -447,7 +449,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **规避**
 
-若要解决此问题，请在安装 Lync Server 2013 之前更新系统注册表。 需要更新的注册表项为： HKEY\_用户。\\默认\\控制面板\\国际\\sTimeFormat。 使用 Windows PowerShell 命令行界面将 sTimeFormat 的值更改为 HH： mm： ss，如下所示：
+若要解决此问题，请在安装 Lync Server 2013 之前更新系统注册表。 需要更新的注册表项为： HKEY \_ 用户 \\ 。默认 \\ 控制面板 \\ 国际 \\ sTimeFormat。 使用 Windows PowerShell 命令行界面将 sTimeFormat 的值更改为 HH： mm： ss，如下所示：
 
 1.  启动 Windows PowerShell 并运行以下 cmdlet：
     
@@ -471,7 +473,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 4.  成功安装 Lync Server 2013 后，通过运行以下 cmdlet 还原 sTimeFormat 的原始值：
     
-        - ItemProperty $a-Name sTimeFormat-Value "<值在步骤3中记下。 以上> "
+        - Set-ItemProperty 在步骤3中指出的 $a 名称 sTimeFormat "<值。 以上> "
 
 </div>
 
@@ -565,11 +567,11 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **问题**
 
-在移动客户端上为客户端版本配置使用**带 URL 的块**时，如果客户端版本不受支持，则可能会显示不正确的错误消息。
+在移动客户端上为客户端版本配置使用 **带 URL 的块** 时，如果客户端版本不受支持，则可能会显示不正确的错误消息。
 
 **规避**
 
-若要解决此问题，请将客户端版本配置配置为使用**block**而不是**block with URL**。
+若要解决此问题，请将客户端版本配置配置为使用 **block** 而不是 **block with URL**。
 
 </div>
 
@@ -587,23 +589,23 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **问题**
 
-防病毒软件可以触发应用程序域重启，这可能导致 Lync 移动服务2013和统一通信（UC） Web API 客户端应用程序（Lync Web App 2013、Lync Mobile 2010 和 Lync Mobile 2013）丢失其状态。
+防病毒软件可以触发应用程序域重启，这会导致 Lync 移动服务2013和统一通信 (UC) Web API 客户端应用程序 (Lync Web App 2013、Lync Mobile 2010 和 Lync Mobile 2013) 将丢失其状态。
 
 **规避**
 
-若要解决此问题，请从防病毒扫描中排除包含 Web 组件和 .NET framework 的文件夹。 有关详细信息，请参阅 Microsoft 知识库文章 312592 "PRB：在 ASP.NET 中使用应用程序重新启动时的随机应用程序重新启动[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592)" 错误 "at。
+若要解决此问题，请从防病毒扫描中排除包含 Web 组件和 .NET framework 的文件夹。 有关详细信息，请参阅 Microsoft 知识库文章 312592 "PRB：在 ASP.NET 中使用应用程序重新启动时的随机应用程序重新启动" 错误 "at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592) 。
 
 应排除以下文件夹：
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\Web 组件\\Mcx\\Ext
+  - % ProgramFiles% \\ Microsoft Lync Server 2013 \\ Web 组件 \\ Mcx \\ Ext
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\Web 组件\\Mcx\\Int
+  - % ProgramFiles% \\ Microsoft Lync Server 2013 \\ Web 组件 \\ Mcx \\ Int
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\Web 组件\\Ucwa\\Int
+  - % ProgramFiles% \\ Microsoft Lync Server 2013 \\ Web 组件 \\ Ucwa \\ Int
 
-  - % ProgramFiles%\\Microsoft Lync Server 2013\\Web 组件\\Ucwa\\Ext
+  - % ProgramFiles% \\ Microsoft Lync Server 2013 \\ Web 组件 \\ Ucwa \\ Ext
 
-  - % Windir%\\Microsoft.NET\\Framework64\\v 4.0.30319\\Config
+  - % Windir% \\ Microsoft.NET \\ Framework64 \\ v 4.0.30319 \\ Config
 
 </div>
 
@@ -627,7 +629,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **问题**
 
-如果启用了关键模式进行存档，则在发生系统故障时，关键模式将启动，并且会议将不再适用于参与者。 管理员修复系统故障（如修复数据库问题）后，数据会议服务不会自动恢复，管理员必须手动重新启动会议服务，会议才能继续。
+如果启用了关键模式进行存档，则在发生系统故障时，关键模式将启动，并且会议将不再适用于参与者。 管理员修复系统故障后 (例如解决数据库问题) ，数据会议服务不会自动恢复，管理员必须手动重新启动会议服务，会议才能继续。
 
 **规避**
 
@@ -641,7 +643,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **问题**
 
-如果您已将 Internet、外围网络和 Web 会议服务中的 "Web 会议" 服务外部的 Office Web Apps Server （即不在内部公司网络中的服务器）部署到此服务器，则需要一个 HTTP 代理来连接到此服务器，Office Web Apps Server 发现将失败。 Web 会议服务忽略 HTTP 代理设置，如在 Office Web Apps Server 安装程序的拓扑生成器中定义的那样。 因此，Lync 客户端将无法与会议中的其他参与者共享 Microsoft PowerPoint 2010。 如果要在内部部署 Lync Server 并在内部网络中配置 Office Web Apps Server 内部部署，则不需要代理配置。
+如果已将 Office Web Apps Server 外部部署到 Web 会议服务 (也就是说，Internet、外围网络和 Web 会议服务中不包含内部公司网络中) 的服务器，则 Office Web Apps Server 发现将会发生故障。 Web 会议服务忽略 HTTP 代理设置，如在 Office Web Apps Server 安装程序的拓扑生成器中定义的那样。 因此，Lync 客户端将无法与会议中的其他参与者共享 Microsoft PowerPoint 2010。 如果要在内部部署 Lync Server 并在内部网络中配置 Office Web Apps Server 内部部署，则不需要代理配置。
 
 **规避**
 
@@ -673,11 +675,11 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **规避**
 
-若要在通过 Lync Web App 加入会议时强制更新屏幕共享插件的最新版本，请将**MinSupportedBuildVersion**的值从 "4.0.7457.0" 修改为以下两个文件中的 "4.0.7577.380"：
+若要在通过 Lync Web App 加入会议时强制更新屏幕共享插件的最新版本，请将 **MinSupportedBuildVersion** 的值从 "4.0.7457.0" 修改为以下两个文件中的 "4.0.7577.380"：
 
-  - % ProgramFiles%\\Microsoft Lync Server 15\\Web 组件\\访问\\Int\\客户\\端\\插件 ReachAppShPluginProperties
+  - % ProgramFiles% \\ Microsoft Lync Server 15 \\ Web 组件 \\ 达到 \\ Int \\ 客户端 \\ 插件 \\ReachAppShPluginProperties.xml
 
-  - % ProgramFiles%\\Microsoft Lync Server 15\\Web 组件\\到达\\外部\\客户\\端\\插件 ReachAppShPluginProperties
+  - % ProgramFiles% \\ Microsoft Lync Server 15 \\ Web 组件 \\ 访问 \\ 外部的 \\ 客户端 \\ 插件 \\ReachAppShPluginProperties.xml
 
 </div>
 
@@ -767,7 +769,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **规避**
 
-若要部分解决此问题，请将 Skype for Business Online 用户的主服务器（msrtcsip-presencehomeserver）更改为指向 Lync Server 2013 本地池，而不是 Lync Server 2013 控制器。 您可以在本地前端服务器上修改此设置。
+若要部分解决此问题，请将 "Home Server (msrtcsip-presencehomeserver) 的 Skype for Business Online 用户更改为指向 Lync Server 2013 本地池，而不是 Lync Server 2013 控制器。 您可以在本地前端服务器上修改此设置。
 
 此替代方法将正确显示托管到 Office 通信服务器 2007 R2 的用户的状态到 Skype for business Online 用户状态。
 
@@ -941,7 +943,7 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **规避**
 
-这些问题没有解决方法。 有关规划工具的详细信息，请参阅[使用规划工具为 Lync Server 2013 设计拓扑](lync-server-2013-designing-the-topology-by-using-the-planning-tool.md)。
+这些问题没有解决方法。 有关规划工具的详细信息，请参阅 [使用规划工具为 Lync Server 2013 设计拓扑](lync-server-2013-designing-the-topology-by-using-the-planning-tool.md)。
 
 </div>
 
@@ -951,7 +953,7 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **问题**
 
-使用规划工具完成设计后，如果对边缘网络选项进行了更改，则可能会将其他 IP 地址添加到设计中，而不是更新现有的 IP 地址。 当您查看 Edge 网络图的详细信息时，可能会发生这种情况，请选择 "**单击此处以更新选项**"，然后在 "配置选项" 对话框中选择 "边缘网络 **"。我希望对我的边缘服务器上的边缘服务使用相同的 fqdn 和 IP 地址，而**不是不同的端口。 应用任何更改可能会导致新 IP 地址和边缘服务器添加到设计中。
+使用规划工具完成设计后，如果对边缘网络选项进行了更改，则可能会将其他 IP 地址添加到设计中，而不是更新现有的 IP 地址。 当您查看 Edge 网络图的详细信息时，可能会发生这种情况，请选择 " **单击此处以更新选项**"，然后在 "配置选项" 对话框中选择 "边缘网络 **"。我希望对我的边缘服务器上的边缘服务使用相同的 fqdn 和 IP 地址，而**不是不同的端口。 应用任何更改可能会导致新 IP 地址和边缘服务器添加到设计中。
 
 **规避**
 
@@ -965,13 +967,13 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **问题**
 
-使用 Lync Server 控制面板将所有用户从一个池移动到一个复杂的 Active Directory 环境中的另一个池（例如一个具有多个域控制器和父/子域的池）时，可能会返回错误消息 "指定的用户不是旧版用户，请改用 Get-csuser cmdlet"。 这是在复杂的 Active Directory 环境中复制时间较长的结果。
+在使用 Lync Server 控制面板将所有用户从一个池移动到一个复杂的 Active Directory 环境中的另一个池（例如一个具有多个域控制器和父/子域的池）时，可能会返回错误消息 "指定的用户不是旧版用户，请改用 Move-CsUser cmdlet"。 这是在复杂的 Active Directory 环境中复制时间较长的结果。
 
 **规避**
 
 若要解决此问题，请执行下列操作之一：
 
-  - 使用 Lync Server 控制面板中的筛选器搜索旧版用户，选择这些用户，然后使用 "**移动选定用户池" 命令**，而不是 "**将所有用户移动到池**"。
+  - 使用 Lync Server 控制面板中的筛选器搜索旧版用户，选择这些用户，然后使用 " **移动选定用户池" 命令** ，而不是 " **将所有用户移动到池**"。
 
   - 使用 Lync Server 命令行管理程序通过 Lync Server cmdlet 在批处理中移动旧版用户。
 
@@ -989,13 +991,13 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 若要解决此问题，请执行下列操作之一：
 
-  - 卸载 Silverlight 5，然后从[https://go.microsoft.com/fwlink/p/?LinkID=149156\&v=4.0](https://go.microsoft.com/fwlink/p/?linkid=149156%26v=4.0)安装 silverlight 4。
+  - 卸载 Silverlight 5，然后从安装 Silverlight 4 [https://go.microsoft.com/fwlink/p/?LinkID=149156\&v=4.0](https://go.microsoft.com/fwlink/p/?linkid=149156%26v=4.0) 。
 
   - 从不是 VMware 虚拟计算机的计算机打开 Lync Server "控制面板"。
     
-    若要从远程计算机打开 Lync Server 控制面板，请在计算机上安装 Lync Server 管理工具，然后从 Windows "**开始**" 菜单启动 "Lync server 控制面板"。
+    若要从远程计算机打开 Lync Server 控制面板，请在计算机上安装 Lync Server 管理工具，然后从 Windows " **开始** " 菜单启动 "Lync server 控制面板"。
     
-    您还可以通过在 web 浏览器中输入 URL 来打开 Lync Server "控制面板"。 该 URL 将类似于\<https://前端\_池\_fqdn/cscp.\>
+    您还可以通过在 web 浏览器中输入 URL 来打开 Lync Server "控制面板"。 该 URL 将类似于 https:// \<frontend\_pool\_fqdn\> /cscp。
 
 </div>
 
@@ -1005,7 +1007,7 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **问题**
 
-当管理员在拓扑生成器中禁用镜像数据库，然后在拓扑生成器中删除镜像数据库时，管理员可以在任务列表中显示一条消息，以运行**csMirrorDatabase** cmdlet 以删除 SQL Server 中的镜像。 当管理员尝试运行 cmdlet 时，它会失败。
+当管理员在拓扑生成器中禁用镜像数据库，然后在拓扑生成器中删除镜像数据库时，管理员可以在任务列表中显示一条消息，以运行 **csMirrorDatabase** cmdlet 以删除 SQL Server 中的镜像。 当管理员尝试运行 cmdlet 时，它会失败。
 
 **规避**
 
@@ -1021,7 +1023,7 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 1.  在拓扑生成器中，右键单击池并单击“编辑属性”****。
 
-2.  清除 "**启用 SQL 存储镜像**"，然后单击 **"确定"**。
+2.  清除 " **启用 SQL 存储镜像** "，然后单击 **"确定"**。
 
 3.  发布拓扑。
 
@@ -1043,7 +1045,7 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **问题**
 
-如果管理员尝试使用拓扑生成器中的 "**删除部署**" 命令来删除包含具有关联见证存储的前端池的部署，则在拓扑生成器中显示验证错误，并且该操作将不会继续。
+如果管理员尝试使用拓扑生成器中的 " **删除部署** " 命令来删除包含具有关联见证存储的前端池的部署，则在拓扑生成器中显示验证错误，并且该操作将不会继续。
 
 **规避**
 
@@ -1061,7 +1063,7 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **问题**
 
-在 Lync Server 2013 中，规划工具会在启用灾难恢复的情况下，为持久聊天服务器部署输出站点拓扑图。网站拓扑图包含多个（物理）网站，每个站点均已均匀分配持久聊天服务器网站. 在拓扑生成器中，所有持久聊天服务器都表示为属于单个（逻辑）站点，并在相同的 "持久聊天服务器池" 节点下列出。
+当启用灾难恢复的情况下，在 Lync Server 2013 中，规划工具会输出持久聊天服务器部署的站点拓扑图，网站拓扑图包含多个 (物理) 站点，在每个站点上均匀分配了持久聊天服务器。 在拓扑生成器中，所有持久聊天服务器都表示为属于单个 (逻辑) 网站，并列在同一个持久聊天服务器池节点下。
 
 **规避**
 
@@ -1087,7 +1089,7 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **问题**
 
-在将 "系统区域设置" 设置为 "东亚语言" 的操作系统中使用 Lync Server 2013 的东亚版本（例如，简体中文、繁体中文、日语或朝鲜语）时，"部署监控报告" 向导将显示问号或其他字符，而不是本地化的邮件。
+在使用东亚语言版本的 Lync Server 2013 时（例如，中文 (简化) 、中文 (传统) 、日语或朝鲜语）在 "系统区域设置" 未设置为东亚语言的操作系统中，"部署监控报告" 向导将显示问号或其他字符，而不是本地化的邮件。
 
 **规避**
 
@@ -1183,7 +1185,7 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **问题**
 
-在 web 浏览器（在 Internet Explorer 中）中选择非特定区域设置时，例如，如果语言名称没有进一步规范（ \[如\]"挪威语 no"）而不是指定语言、脚本和区域设置（如 "挪威语、 \[博克马尔语\]（挪威） nb-no"）的区域设置，则可能会导致在 Lync Web 计划程序、电话拨入、加入启动器、持久聊天室管理和 OCTab 中出现意外的显示行为。 例如，当选择以下任一种语言时，用户可能会看到英语页面：
+在 web 浏览器中选择非特定区域设置时 (在 Internet Explorer 中例如，没有进一步规范的语言名称（如 "挪威 \[ no \] " ) ，而不是指定语言、脚本和区域设置的区域设置 (例如 "挪威语、博克马尔语 (挪威) \[ nb-no \] " ) 可能会在 Lync Web 计划程序、电话拨入、加入启动器、持久聊天室管理和 OCTab 中导致意外的显示行为。 例如，当选择以下任一种语言时，用户可能会看到英语页面：
 
   - 挪威语
 
@@ -1193,7 +1195,7 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **规避**
 
-如果要选择具有非特定区域设置的语言，请始终确保还使用特定区域设置（带有脚本和/或国家/地区代码）将语言添加为浏览器语言首选项列表中的其他语言。
+如果要选择非特定区域设置的语言，请始终确保同时使用脚本和/或国家/地区代码在浏览器语言首选项列表中添加具有特定区域设置 (的语言，) 为其他语言。
 
 </div>
 
@@ -1213,11 +1215,11 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **问题**
 
-当您使用 Internet Explorer 8 或 Internet Explorer 9 并将浏览器语言设置为阿泽里语（拉丁语）或乌兹别克（拉丁语）时，将以英语或在浏览器中设置的首选语言显示拨入和加入联接启动器页面。
+当您使用 Internet Explorer 8 或 Internet Explorer 9，并将浏览器语言设置为阿塞里语 (拉丁语) 或乌兹别克 (拉丁) 时，将以英语或在浏览器中设置的首选语言显示 "拨入" 和 "联接启动器" 页面。
 
-当您使用 Firefox 或 Chrome 浏览器，并将浏览器语言设置为阿泽里语（拉丁语）或乌兹别克（拉丁语）时，Lync Web App、Lync Web 计划程序和 RGS OCTab 将显示为英语或浏览器的首选语言集。
+当您使用 Firefox 或 Chrome 浏览器，并将浏览器语言设置为阿塞拜疆语 (拉丁语) 或乌兹别克 (拉丁) ，Lync Web App、Lync Web 计划程序和 RGS OCTab 将显示为英语或浏览器的首选语言集。
 
-在 Safari 浏览器中不支持乌兹别克语（拉丁语）区域设置。
+在 Safari 浏览器中不支持乌兹别克 (拉丁语) 区域设置。
 
 **规避**
 
@@ -1233,15 +1235,15 @@ Lync Server 2013 响应组代理可以在 Lync server 2010 代理控制台中登
 
 **问题**
 
-使用罗马尼亚语版本的 Lync Web App 的用户执行以下步骤时，将不会在下拉列表中显示 "**加入会议**" 下拉箭头：
+使用罗马尼亚语版本的 Lync Web App 的用户执行以下步骤时，将不会在下拉列表中显示 " **加入会议** " 下拉箭头：
 
 1.  在 "**常规**" 选项卡上选择 "**在此计算机上保存我**"。
 
-2.  选择 "**电话**" 选项卡。
+2.  选择 " **电话** " 选项卡。
 
-3.  单击中的 "**加入会议**" 下拉列表。
+3.  单击中的 " **加入会议**" 下拉列表。
     
-    用户将看不到指示有更多选项的箭头，而不是默认的**Lync Web App**，其中包括：**不加入音频**（在罗马尼亚语中，"Nu se asociaža la componenta 音频"）和**新号码**（在罗马尼亚语中，"Număr nou"）。
+    用户将看不到指示具有默认 **Lync Web 应用程序**的更多选项的箭头，其中包括：不在罗马尼亚语中 **加入音频** (，罗马尼亚，"Număr nou" ) 中的 ") 和 **新数字**" (。
 
 **规避**
 

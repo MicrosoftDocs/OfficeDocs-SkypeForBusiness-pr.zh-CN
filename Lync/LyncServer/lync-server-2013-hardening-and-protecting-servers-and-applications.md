@@ -12,20 +12,22 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2a8de372a8ca0ae6ec8c80a147eb74ffb01d0a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3533bcf01338a056bab8c75d1409530fab7c901f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214728"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536879"
 ---
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>强化和保护 Lync Server 2013 的服务器和应用程序
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>强化和保护 Lync Server 2013 的服务器和应用程序
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2013-12-05_
 
 
 > [!NOTE]  
-> 您还可以加强和保护用于 Microsoft Lync Server 2013 部署的数据库。 有关详细信息，请参阅<A href="lync-server-2013-hardening-and-protecting-databases.md">强化和保护 Lync Server 2013 的数据库</A>。
+> 您还可以加强和保护用于 Microsoft Lync Server 2013 部署的数据库。 有关详细信息，请参阅 <A href="lync-server-2013-hardening-and-protecting-databases.md">强化和保护 Lync Server 2013 的数据库</A>。
 
 
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2013-12-05_
 
 ## <a name="securing-virtual-servers"></a>保护虚拟服务器
 
-虚拟服务器快照包含服务器的数据磁盘的副本，还包含内存中的数据的转储，这两种都可能包含可能导致攻击的敏感加密数据。 对于使用虚拟化实现的生产服务器，应禁用所有服务器快照或以受严格控制的方式管理它们。 有关保护 Hyper-v 虚拟服务器的详细信息，请参阅以下位置的 Hyper-v 安全指南： [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)。
+虚拟服务器快照包含服务器的数据磁盘的副本，还包含内存中的数据的转储，这两种都可能包含可能导致攻击的敏感加密数据。 对于使用虚拟化实现的生产服务器，应禁用所有服务器快照或以受严格控制的方式管理它们。 有关保护 Hyper-v 虚拟服务器的详细信息，请参阅以下位置的 Hyper-v 安全指南： [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176) 。
 
 </div>
 
@@ -85,7 +87,7 @@ _**上次修改的主题：** 2013-12-05_
 
 为了向管理员提供用于配置这些设置的用户界面，管理模板随操作系统版本、service pack 版本和一些应用程序（包括 Lync Server 2013）一起提供。
 
-Communicator .adm 文件是一个随 Lync Server 2013 提供的管理模板，安装在% windir%\\inf\\目录中，并提供组策略设置的接口。 Communicator.adm 中的每项设置均与注册表中影响应用程序行为的设置对应。
+Communicator .adm 文件是一个随 Lync Server 2013 提供的管理模板，安装在% windir% \\ inf \\ 目录中，并提供组策略设置的接口。 Communicator.adm 中的每项设置均与注册表中影响应用程序行为的设置对应。
 
 利用 Active Directory 用户和计算机控制台以及组策略管理控制台 (GPMC) 中提供的 GPedit.dll，可以访问这些设置。
 
@@ -95,7 +97,7 @@ Communicator .adm 文件是一个随 Lync Server 2013 提供的管理模板，�
 
 ## <a name="group-policy-security-settings"></a>组策略安全设置
 
-组策略包含 GPO 的安全设置，当通过 GPedit.dll 访问这些安全设置时，它们位于“计算机配置”/“Windows 设置”/“安全设置”下。 可以导入安全模板以配置 GPO 的安全设置。 Windows Server 2008 安全指南（网址[https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186)为）和 windows Server 2008 R2 安全合规性管理[https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882)工具包包含多个示例模板，可以对它们进行修改以满足您的需求。
+组策略包含 GPO 的安全设置，当通过 GPedit.dll 访问这些安全设置时，它们位于“计算机配置”/“Windows 设置”/“安全设置”下。 可以导入安全模板以配置 GPO 的安全设置。 Windows Server 2008 安全指南（网址为） [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) 和 Windows server 2008 R2 安全合规性管理工具包 [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) 包含多个示例模板，可以对它们进行修改以满足您的需求。
 
 </div>
 

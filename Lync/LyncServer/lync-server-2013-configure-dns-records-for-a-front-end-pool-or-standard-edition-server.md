@@ -12,20 +12,22 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5943bb1a813396f3435235d6fcbd3bcacd0aa4b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5048763ba239e161825d1250446ac60853499223
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204498"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537119"
 ---
+# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>在 Lync Server 2013 for a 前端池或 Standard Edition Server 中配置 DNS 记录
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>在 Lync Server 2013 for a 前端池或 Standard Edition Server 中配置 DNS 记录
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204498"
 
 _**上次修改的主题：** 2012-10-01_
 
-Lync Server 2013 使用域名系统（DNS）将记录注册并维护为 IP 地址解析的正确域名。 在运行 Standard Edition server 或前端池之前，您需要为您的部署配置所需的 DNS 记录。 以下链接将提供有关需要创建哪些记录以允许 Lync Server 2013 正确运行的指南。
+Lync Server 2013 使用域名系统 (DNS) 为正确的域名注册和维护记录以进行 IP 地址解析。 在运行 Standard Edition server 或前端池之前，您需要为您的部署配置所需的 DNS 记录。 以下链接将提供有关需要创建哪些记录以允许 Lync Server 2013 正确运行的指南。
 
 <div>
 

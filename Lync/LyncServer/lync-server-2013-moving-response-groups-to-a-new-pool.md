@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：将响应组移动到新池
+description: Lync Server 2013：将响应组移动到新池。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6b0af841385bff8b11d46dd24793de5cdcf81da
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b696963a28abbcd258f53fae12c3e281efa6ae4d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507099"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541979"
 ---
 # <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a>将响应组移动到 Lync Server 2013 中的新池
 

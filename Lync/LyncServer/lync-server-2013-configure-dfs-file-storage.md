@@ -12,20 +12,22 @@ ms:contentKeyID: 48185037
 ms.date: 05/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4a9c0bbce2ced36e9df99d7239c2f562b20edbd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f7d5dc3675f06aafed18ddd18e430e2c61dc670
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204918"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537219"
 ---
+# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>为 Lync Server 2013 配置 DFS 文件存储
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>为 Lync Server 2013 配置 DFS 文件存储
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204918"
 
 _**上次修改的主题：** 2016-05-23_
 
-Lync Server 2013 支持在分布式文件系统（DFS）上使用文件共享。 有关适用于 Windows Server 2008 的 DFS 的详细信息，请参阅 Windows Server 2008 at [https://go.microsoft.com/fwlink/p/?linkId=202835](https://go.microsoft.com/fwlink/p/?linkid=202835)的 Dfs 分步指南。若要使用 DFS，Lync Server 2013 需要满足以下条件：
+Lync Server 2013 支持在分布式文件系统上使用文件共享 (DFS) 。 有关适用于 Windows Server 2008 的 DFS 的详细信息，请参阅 Windows Server 2008 at 的 DFS 分步指南 [https://go.microsoft.com/fwlink/p/?linkId=202835](https://go.microsoft.com/fwlink/p/?linkid=202835) 。若要使用 DFS，Lync Server 2013 需要满足以下条件：
 
   - 命名空间基于域
 
@@ -45,13 +47,13 @@ Lync Server 2013 支持在分布式文件系统（DFS）上使用文件共享。
 
 Lync Server 2013 安装程序要求对共享文件夹的权限允许对管理员具有完全访问权限。 然后，Lync Server 2013 将使用 NTFS 文件权限对文件夹进行 ACL。 继承的 DFS 共享权限不会用于限制访问。
 
-有关文件共享要求的更多详细信息，请参阅可支持性文档中的[Lync Server 2013 中的文件存储支持](lync-server-2013-file-storage-support.md)。
+有关文件共享要求的更多详细信息，请参阅可支持性文档中的 [Lync Server 2013 中的文件存储支持](lync-server-2013-file-storage-support.md) 。
 
 <div>
 
 
 > [!NOTE]  
-> 您可能正在寻找有关配置非 DFS 共享的信息。 如果是，请查看<A href="lync-server-2013-hardware-setup.md">Lync Server 2013 的硬件设置</A>。
+> 您可能正在寻找有关配置非 DFS 共享的信息。 如果是，请查看 <A href="lync-server-2013-hardware-setup.md">Lync Server 2013 的硬件设置</A>。
 
 
 
@@ -75,9 +77,9 @@ Lync Server 2013 安装程序要求对共享文件夹的权限允许对管理员
     
       - “完全控制”****
     
-      - **更改**
+      - **Change**
     
-      - **读取**
+      - **Read**
 
 6.  单击“应用”****，然后单击“确定”****。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0de18da521bd4dadc63d5be592009bd60b643e7b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60fa841f7f88e0da2c428ae68c5007fb79e6c69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536319"
 ---
+# <a name="tblprincipaltype-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalType
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipaltype-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalType
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-12_
 
 tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主体类型。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>列数
 
 <table>
 <colgroup>
@@ -121,7 +123,7 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>未知类型的通用主体。不用于 tblPrincipal 表。</p></td>
 <td></td>
 </tr>
@@ -138,13 +140,13 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 <td></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>SystemUser</p></td>
 <td><p>持久聊天服务器在内部使用的主体。</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>用户</p></td>
 <td><p>常规用户。</p></td>
 <td><p>是</p></td>
@@ -162,7 +164,7 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 <td></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>Folder</p></td>
 <td><p>Active Directory 容器或组织单位。</p></td>
 <td></td>
