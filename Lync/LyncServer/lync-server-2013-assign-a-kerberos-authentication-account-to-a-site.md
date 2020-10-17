@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：将 Kerberos 身份验证帐户分配给站点
+description: Lync Server 2013：将 Kerberos 身份验证帐户分配给站点。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183929
 ms.date: 04/18/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6137224f313238dae33462298931167ba7bb810
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: edcd80ef3ae15ae91dfab73ee8789054d897fe5c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529519"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559968"
 ---
 # <a name="assign-a-kerberos-authentication-account-to-a-site-in-lync-server-2013"></a>在 Lync Server 2013 中向网站分配 Kerberos 身份验证帐户
 

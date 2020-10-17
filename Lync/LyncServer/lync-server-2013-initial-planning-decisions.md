@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 初始规划决策
+description: Lync Server 2013 初始规划决策。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fdc9b9e2494078a8db4b524e9ffb6b2794c545d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d3acbf33662d83372e463177fc3f0ab5568cf15b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512569"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559568"
 ---
 # <a name="initial-planning-decisions-for-lync-server-2013"></a>Lync Server 2013 的初始规划决策
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：分配每用户位置策略
+description: Lync Server 2013：分配每用户位置策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d66df7f2d0c8a2b8603f7c08312f5b8b6aaad56
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 81631740e0a6c908c392ccacb6b37d7033d9224c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134428"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559878"
 ---
 # <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户位置策略
 
@@ -30,15 +31,15 @@ ms.locfileid: "42134428"
 
 创建至少一个每用户位置策略之后，请使用本主题中的过程分配策略，该策略指定您希望服务器应用于特定用户发出的紧急呼叫的设置。
 
-有关所有可用位置策略设置的列表，请参阅[定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。
+有关所有可用位置策略设置的列表，请参阅 [定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。
 
-有关创建位置策略的详细信息，请参阅[在 Lync Server 2013 中创建位置策略](lync-server-2013-create-location-policies.md)。
+有关创建位置策略的详细信息，请参阅 [在 Lync Server 2013 中创建位置策略](lync-server-2013-create-location-policies.md)。
 
 ## <a name="to-assign-a-per-user-location-policy-with-the-lync-server-control-panel"></a>使用 Lync Server 控制面板分配每用户位置策略
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“用户”****。
 
@@ -77,7 +78,7 @@ ms.locfileid: "42134428"
     
 
     > [!NOTE]  
-    > 由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置，因此默认情况下会为对话框中的每个策略选择 " <STRONG> &lt;保持为&gt; </STRONG> "。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置，因此默认情况下会为对话框中的每个策略选择 " <STRONG> &lt; &gt; 保持为</STRONG>"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
 
     
       - 允许 Lync Server 2013 自动选择全局级别策略或子网级策略（如果已定义）。
@@ -92,9 +93,9 @@ ms.locfileid: "42134428"
 
 8.  完成后，单击“确定”****。
 
-## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>使用 Lync Server 命令行管理程序 Cmdlet 分配每用户位置策略
+## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>使用 Lync Server 命令行管理程序 Cmdlet 分配 Per-User 位置策略
 
-您可以使用 New-cslocationpolicy cmdlet 分配每用户位置策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 Grant-CsLocationPolicy cmdlet 分配每用户位置策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 ## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>将每用户位置策略分配给单个用户
 
@@ -104,7 +105,7 @@ ms.locfileid: "42134428"
 
 ## <a name="to-assign-a-per-user-location-policy-to-multiple-users"></a>将每用户位置策略分配给多个用户
 
-  - 此命令将每用户位置策略 AccountingDepartmentLocationPolicy 分配给就职于 Accounting 部门的所有用户。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅[get-csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
+  - 此命令将每用户位置策略 AccountingDepartmentLocationPolicy 分配给就职于 Accounting 部门的所有用户。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅 [get-csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
@@ -114,5 +115,5 @@ ms.locfileid: "42134428"
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-有关详细信息，请参阅[new-cslocationpolicy](https://technet.microsoft.com/library/gg413049\(v=ocs.15\)) cmdlet 的帮助主题。
+有关详细信息，请参阅 [new-cslocationpolicy](https://technet.microsoft.com/library/gg413049\(v=ocs.15\)) cmdlet 的帮助主题。
 

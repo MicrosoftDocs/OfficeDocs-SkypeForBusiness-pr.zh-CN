@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： CDR 表的列表
+description: Lync Server 2013： CDR 表的列表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fbcd509d0abd05c12bd3443fe35fdd8c3f8a8885
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 21d0f683ffeb0f5f1cbba5db4c45d248aa14e8e4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513969"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558698"
 ---
 # <a name="list-of-cdr-tables-in-lync-server-2013"></a>Lync Server 2013 中的 CDR 表的列表
 

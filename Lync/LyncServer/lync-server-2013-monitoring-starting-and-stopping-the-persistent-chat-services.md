@@ -1,5 +1,6 @@
 ---
 title: 监控、启动和停止持久聊天服务
+description: 监视、启动和停止持久聊天服务。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa87030a7ace7c1f47762bd0217c4a27317ef7df
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 54eaa7039cacbaa22320b20b7edeecfe2a13a0cf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500529"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559318"
 ---
 # <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a>在 Lync Server 2013 中监视、启动和停止持久聊天服务
 

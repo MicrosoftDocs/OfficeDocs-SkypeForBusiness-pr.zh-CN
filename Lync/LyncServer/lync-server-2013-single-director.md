@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：单个控制器
+description: Lync Server 2013：单个控制器。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92870654872dd207130fa76a02f6ad8f206e3ec2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ce7debaa560eadf41b2126a250095c8c47ae5b3e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519729"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559068"
 ---
 # <a name="single-director-in-lync-server-2013"></a>Lync Server 2013 中的单个控制器
 

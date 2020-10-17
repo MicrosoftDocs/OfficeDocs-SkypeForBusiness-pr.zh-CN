@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：媒体旁路的技术要求
+description: Lync Server 2013：媒体旁路的技术要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2789ecc6f72babf2b0267f70705fd41ecd1a7aaf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dee594139031966342fcec2bc1296a603055b4cc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533789"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559438"
 ---
 # <a name="technical-requirements-for-media-bypass-in-lync-server-2013"></a>Lync Server 2013 中媒体旁路的技术要求
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 直接 SIP 连接支持
+description: Lync Server 2013 直接 SIP 连接支持。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e500c26bac526998329843302aee68d34042bad5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 32461cbfd5b1e6371fee3fc92467c8430227f48c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519959"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559688"
 ---
 # <a name="direct-sip-connections-support-in-lync-server-2013"></a>Lync Server 2013 中的直接 SIP 连接支持
 

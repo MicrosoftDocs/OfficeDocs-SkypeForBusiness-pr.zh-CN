@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为 Lync 2013 部署联机会议外接程序
+description: Lync Server 2013：为 Lync 2013 部署联机会议外接程序。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7add4e9098366c57440950cbdc998184d22e8a1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 29992a9c5e28a2f96cf846230633ca8872e14edc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531389"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558628"
 ---
 # <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a>部署 Lync 2013 的联机会议加载项
 

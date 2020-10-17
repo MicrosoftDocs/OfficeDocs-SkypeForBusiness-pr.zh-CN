@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：呼叫寄存的概述
+description: Lync Server 2013：呼叫寄存的概述。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22811a0c55f0e0c7a7bfb7f3aeeb3ab5fcbc2653
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 373a758dcc64dc390255239c0d1fb628308080a7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530669"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559258"
 ---
 # <a name="overview-of-call-park-in-lync-server-2013"></a>Lync Server 2013 中的呼叫寄存概述
 

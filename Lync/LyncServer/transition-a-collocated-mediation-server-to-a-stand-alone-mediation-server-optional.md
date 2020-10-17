@@ -1,5 +1,6 @@
 ---
 title: '将并置中介服务器转换为独立中介服务器 (可选) '
+description: 将并置中介服务器转换为独立中介服务器 (可选) 。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20397cf75b5f1f33004865b7c3ac364b45ed2c66
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e99eb445e8377a52901f54f52ca3933babe15571
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514929"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559418"
 ---
 # <a name="transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional"></a>将并置中介服务器转换为独立中介服务器 (可选) 
 
