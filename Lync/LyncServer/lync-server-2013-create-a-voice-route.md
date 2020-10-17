@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：创建语音路由
+description: Lync Server 2013：创建语音路由。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185438
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e45404dcd280f4c4eb5337ba4e1a8c1337b409f3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9a9becac8b35967d7b7ff05014bd6b6600f62a06
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501789"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562428"
 ---
 # <a name="create-a-voice-route-in-lync-server-2013"></a>在 Lync Server 2013 中创建语音路由
 

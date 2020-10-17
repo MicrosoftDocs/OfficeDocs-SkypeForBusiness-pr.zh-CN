@@ -1,5 +1,6 @@
 ---
 title: 为 Lync Server 2013 准备 Active Directory
+description: 为 Lync Server 2013 准备 Active Directory。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185413
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65881ada1202fe9bc5e1ccdc403973fa95c2d552
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 75ca6476d82f755528f7d1c4341523d50722f796
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532789"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563708"
 ---
 # <a name="prepare-active-directory-for-lync-server-2013"></a>为 Lync Server 2013 准备 Active Directory
 

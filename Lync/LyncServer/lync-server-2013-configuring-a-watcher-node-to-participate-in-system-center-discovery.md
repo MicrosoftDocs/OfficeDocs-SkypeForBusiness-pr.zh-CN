@@ -1,5 +1,6 @@
 ---
 title: 配置观察程序节点以参与 System Center 发现
+description: 配置观察程序节点以参与 System Center 发现。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 49b34e623b885bb7e85afc258c1d533c2a8feb46
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d6a42ae77e0c8bde8b8e4de4461180ad00380a5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526999"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564358"
 ---
 # <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>在 Lync Server 2013 中配置观察程序节点以参与 System Center 发现
 

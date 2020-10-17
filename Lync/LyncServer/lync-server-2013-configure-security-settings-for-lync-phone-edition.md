@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为 Lync Phone Edition 配置安全设置
+description: Lync Server 2013：为 Lync Phone Edition 配置安全设置。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c06a4daac2fe78ba8d631890ab1f02ca5efe932
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 82e6a6488db66a8497930ee6b2d1aec6fc8b0b2d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520389"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564348"
 ---
 # <a name="configure-security-settings-for-lync-phone-edition-in-lync-server-2013"></a>在 Lync Server 2013 中配置 Lync Phone Edition 的安全设置
 

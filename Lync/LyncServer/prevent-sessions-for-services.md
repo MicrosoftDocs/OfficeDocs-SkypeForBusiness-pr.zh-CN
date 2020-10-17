@@ -1,5 +1,6 @@
 ---
 title: 阻止服务的会话
+description: 阻止服务的会话。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47202d91fdf0020a7692a9ff7b0c346ee3cb7aef
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a452f8091716daa0a15967e2a278e82c5bc8c4f3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509269"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563688"
 ---
 # <a name="prevent-sessions-for-services"></a>阻止服务的会话
 

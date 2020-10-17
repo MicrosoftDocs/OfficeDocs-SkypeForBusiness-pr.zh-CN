@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：修改现有的 PIN 策略
+description: Lync Server 2013：修改现有的 PIN 策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b11b9921d7eda940c5ad8debf48aeb6f2388bfda
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec67b2ff4cae02ef54a0d37d80ce55c53a9b8a5f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534379"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562948"
 ---
 # <a name="modify-an-existing-pin-policy-in-lync-server-2013"></a>在 Lync Server 2013 中修改现有 PIN 策略
 

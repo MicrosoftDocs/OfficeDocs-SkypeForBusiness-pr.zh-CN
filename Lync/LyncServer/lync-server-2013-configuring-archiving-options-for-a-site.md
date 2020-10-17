@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置网站的存档选项
+description: Lync Server 2013：配置网站的存档选项。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4e1a6480102c9cc4fe13e2cf651e0ab14bae7f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2db164d7c4c1cdda158387be62c0eb535fac662f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502269"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562558"
 ---
 # <a name="configuring-archiving-options-for-a-site-in-lync-server-2013"></a>在 Lync Server 2013 中配置网站的存档选项
 

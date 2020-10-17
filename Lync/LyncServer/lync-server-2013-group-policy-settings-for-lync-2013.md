@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： Lync 2013 的组策略设置
+description: Lync Server 2013： Lync 2013 的组策略设置。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72493338d854cc0aff63fde5eabb5d7a281fd50e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5c6f2b26fc19653b0098ed4775df1f9c8146986c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500709"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564178"
 ---
 # <a name="group-policy-settings-for-lync-2013"></a>Lync 2013 的组策略设置
 

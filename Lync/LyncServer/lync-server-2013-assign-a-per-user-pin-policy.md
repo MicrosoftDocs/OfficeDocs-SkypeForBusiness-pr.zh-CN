@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：分配每用户 PIN 策略
+description: Lync Server 2013：分配每用户 PIN 策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,31 +13,31 @@ ms:contentKeyID: 48185475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 889fbc962654edbd7b6d13523fc5dc43dc426de2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6b1148a015ba9b2c173f6e23ceeb4d3b37c6ac55
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134398"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563588"
 ---
 # <a name="assign-a-per-user-pin-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户 PIN 策略
 
  
 
 
-电话拨入式会议个人识别码（PIN）策略是可在 Lync Server 2013 控制面板中配置的用户帐户的个人设置之一。
+ (PIN) 策略的电话拨入式会议个人识别码是可在 Lync Server 2013 控制面板中配置的用户帐户的个人设置之一。
 
 部署一个或多个每用户 PIN 策略是可选的。还可以只部署一个全局级别的 PIN 策略或站点级别的 PIN 策略。如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。未分配特定的站点级别或每用户策略时，用户在电话拨入式会议中使用 PIN 的权限将自动默认为全局级别的 PIN 策略中定义的用户权限。
 
 创建至少一个每用户 PIN 策略之后，请使用本主题中的过程分配策略，该策略指定您希望服务器对特定用户创建和使用的 PIN 施加的约束。
 
-有关创建每用户电话拨入式会议 PIN 策略的详细信息，请参阅[在 Lync Server 2013 for a site or users 组中创建或修改电话拨入式会议 pin 设置](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)。
+有关创建每用户电话拨入式会议 PIN 策略的详细信息，请参阅 [在 Lync Server 2013 for a site or users 组中创建或修改电话拨入式会议 pin 设置](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)。
 
 ## <a name="to-assign-a-per-user-pin-policy"></a>分配每用户 PIN 策略
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“用户”****。
 
@@ -75,7 +76,7 @@ ms.locfileid: "42134398"
     
 
     > [!NOTE]  
-    > 由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置，因此默认情况下会为对话框中的每个策略选择 " <STRONG> &lt;保持为&gt; </STRONG> "。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置，因此默认情况下会为对话框中的每个策略选择 " <STRONG> &lt; &gt; 保持为</STRONG>"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
 
     
       - 允许 Lync Server 2013 自动选择全局级别策略或网站级别策略（如果已定义）。
@@ -90,9 +91,9 @@ ms.locfileid: "42134398"
 
 8.  完成后，单击“确定”****。
 
-## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户 PIN 策略
+## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配 Per-User PIN 策略
 
-您可以使用 Windows PowerShell 和**get-cspinpolicy** cmdlet 分配每用户 PIN 策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 Windows PowerShell 和 **get-cspinpolicy** cmdlet 分配每用户 PIN 策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 ## <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>为单个用户分配每用户 PIN 策略
 
@@ -102,7 +103,7 @@ ms.locfileid: "42134398"
 
 ## <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>为多个用户分配每用户 PIN 策略
 
-  - 以下命令为工作于 Redmond 市的所有用户分配每用户 PIN 策略 RedmondUsersPinPolicy。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅[get-csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))。
+  - 以下命令为工作于 Redmond 市的所有用户分配每用户 PIN 策略 RedmondUsersPinPolicy。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅 [get-csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))。
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 
@@ -112,7 +113,7 @@ ms.locfileid: "42134398"
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-有关详细信息，请参阅[get-cspinpolicy](https://technet.microsoft.com/library/gg398871\(v=ocs.15\))。
+有关详细信息，请参阅 [get-cspinpolicy](https://technet.microsoft.com/library/gg398871\(v=ocs.15\))。
 
 ## <a name="see-also"></a>另请参阅
 

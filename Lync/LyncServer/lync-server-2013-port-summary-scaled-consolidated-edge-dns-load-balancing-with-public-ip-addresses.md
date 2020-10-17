@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：端口摘要-扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）
+description: Lync Server 2013：端口摘要-扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5318f418c2bbd0876999aedcb33b559c5572b20a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8090435485b4b6a183702a608b139cec91ae26a7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534119"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563918"
 ---
 # <a name="port-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要-扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）
 

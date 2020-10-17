@@ -1,5 +1,6 @@
 ---
 title: 启用或禁用向联盟伙伴发送存档免责声明
+description: 启用或禁用向联盟伙伴发送存档免责声明。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185391
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0351fcd99a29718de3c585d597de1f145ac09134
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6c1523a19bc2758e170c044a306398bef45ec33f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528589"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563508"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-lync-server-2013"></a>在 Lync Server 2013 中启用或禁用向联盟伙伴发送存档免责声明
 

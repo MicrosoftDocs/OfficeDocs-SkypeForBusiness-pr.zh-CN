@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：将子网与 E9-1-1 的网络站点相关联
+description: Lync Server 2013：将子网与 E9-1-1 的网络站点相关联。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e083531e43108c03139083eecde8b81d1e6f817
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: edb87d352bb8553f701ac48b85434b387f28fae3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531579"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563568"
 ---
 # <a name="associate-subnets-with-network-sites-for-e9-1-1-in-lync-server-2013"></a>将子网与 Lync Server 2013 中的 E9-1-1 的网络站点相关联
 

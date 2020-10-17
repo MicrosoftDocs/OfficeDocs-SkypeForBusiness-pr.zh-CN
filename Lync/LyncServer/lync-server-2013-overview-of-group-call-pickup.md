@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：组呼叫装货概述
+description: Lync Server 2013：组呼叫装货的概述。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c618664cb696a149cb56252cac2fba31548808ed
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c968ac466c7242253cb5a9594e1942d86031494d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521019"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562878"
 ---
 # <a name="overview-of-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中的组内呼叫装货概述
 

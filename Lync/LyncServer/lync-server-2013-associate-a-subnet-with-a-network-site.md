@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：将子网与网络站点关联
+description: Lync Server 2013：将子网与网络站点关联。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f961fef4fb9323c0eef642e4b7e70ede5da4ccf2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ed8708b9280455355a010984d09fc91da3313f95
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532739"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563338"
 ---
 # <a name="associate-a-subnet-with-a-network-site-in-lync-server-2013"></a>在 Lync Server 2013 中将子网与网络站点关联
 

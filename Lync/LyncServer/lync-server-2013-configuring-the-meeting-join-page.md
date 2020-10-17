@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置会议加入页面
+description: Lync Server 2013：配置会议加入页面。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184037
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c191bbc8927790345e7f969c38e4bf1a74ec3bdb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0e7c9dde0fdb6829da7bd11e16261a4bd76b7554
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532319"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564298"
 ---
 # <a name="configuring-the-meeting-join-page-in-lync-server-2013"></a>在 Lync Server 2013 中配置会议加入页
 

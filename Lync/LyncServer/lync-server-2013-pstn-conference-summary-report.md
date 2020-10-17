@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： PSTN 会议摘要报告
+description: Lync Server 2013： PSTN 会议摘要报告。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dbb90d0776ee89fe9ab8b9f5796b182c5dc0457
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c3bc468e494577c229562a1cb7cfddaf839f946f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513109"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562768"
 ---
 # <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 会议摘要报告
 
