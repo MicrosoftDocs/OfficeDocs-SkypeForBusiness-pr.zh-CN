@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：管理组织的 SIP 联合提供程序
+description: Lync Server 2013：管理组织的 SIP 联合提供程序。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48679566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab021f95a8bb2fede5a8ce496063d9e25a8ebf4e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 36bb2ee1be9a479574cd2d7163565f724718f619
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500679"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556690"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a>在 Lync Server 2013 中管理组织的 SIP 联合提供程序
 

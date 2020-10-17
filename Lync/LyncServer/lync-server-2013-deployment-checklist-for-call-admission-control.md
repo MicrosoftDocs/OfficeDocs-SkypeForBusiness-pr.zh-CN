@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：呼叫允许控制的部署清单
+description: Lync Server 2013：呼叫允许控制的部署清单。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13d9591ad8dfed90373fedc8adfb3a3c3c44eb57
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ea5b16d41228faf01637e7e0d78f5ce56f950a19
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529139"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557688"
 ---
 # <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中呼叫允许控制的部署清单
 

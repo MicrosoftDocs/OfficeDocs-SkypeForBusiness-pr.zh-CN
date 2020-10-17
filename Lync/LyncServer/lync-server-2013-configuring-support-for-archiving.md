@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置对存档的支持
+description: Lync Server 2013：配置对存档的支持。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184187
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 150644107ceaf3715613aa02598bcd6c7f0b7852
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4209614ed1248ab0caf3cf438a922d569ba79630
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537029"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556948"
 ---
 # <a name="configuring-support-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中配置对存档的支持
 

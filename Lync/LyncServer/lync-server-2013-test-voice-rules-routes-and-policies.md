@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：测试语音规则、路由和策略
+description: Lync Server 2013：测试语音规则、路由和策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969661
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b903ff4453f15bc22b6715abe27cc045381c0e5b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cf205ac2585298dfc5347d93e382e8bbda9f3ff4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527849"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557038"
 ---
 # <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>在 Lync Server 2013 中测试语音规则、路由和策略
 

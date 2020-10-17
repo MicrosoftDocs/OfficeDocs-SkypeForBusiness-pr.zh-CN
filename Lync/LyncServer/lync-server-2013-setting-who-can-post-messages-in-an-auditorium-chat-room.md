@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：设置谁可以在大会堂聊天室中发布邮件
+description: Lync Server 2013：设置谁可以在大会堂聊天室中发布邮件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48705999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcb3cbc7b73d895b6be2d7fe278bd4870af064c0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0fba9e31a0cb5be9de66a9fc7185b5dea6c507cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509639"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556368"
 ---
 # <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a>在 Lync Server 2013 中设置可以在大会堂聊天室中发布邮件的权限
 

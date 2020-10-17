@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置自动发现支持
+description: Lync Server 2013：配置自动发现的支持。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3893ddd2282fd6abdfff716207f99102d09fac31
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 23991f2f9467035f4ba461ff1b6a84fa8ed1a11d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507539"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556908"
 ---
 # <a name="configuring-support-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中配置自动发现支持
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：管理 Lync Server 服务和服务器角色
+description: Lync Server 2013：管理 Lync Server 服务和服务器角色。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 333c1cf86c8d3f29ae912150acc307e8648529fe
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 42b430593331b9b4fd2c0a6e5f48b1bb49d4bb56
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498109"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557448"
 ---
 # <a name="managing-lync-server-2013-services-and-server-roles"></a>管理 Lync Server 2013 服务和服务器角色
 

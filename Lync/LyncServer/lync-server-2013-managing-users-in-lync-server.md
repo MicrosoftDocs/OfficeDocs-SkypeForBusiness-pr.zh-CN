@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：在 Lync Server 中管理用户
+description: Lync Server 2013：在 Lync Server 中管理用户。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7991d9cce31c2598e7374e9c80fcaf9dfdf13c41
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c906835f6a0e3af425a827aeac2e67758af44ea9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524819"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556658"
 ---
 # <a name="managing-users-in-lync-server-2013"></a>在 Lync Server 2013 中管理用户
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置默认图片选项
+description: Lync Server 2013：配置默认图片选项。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56280893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc6bb0368b97e41402f2e0abf0834cf23f078c08
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6261aca82b4c71eb8e0573e8d2adbfc008e743fc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514809"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557998"
 ---
 # <a name="configuring-default-picture-options-in-lync-server-2013"></a>在 Lync Server 2013 中配置默认图片选项
 

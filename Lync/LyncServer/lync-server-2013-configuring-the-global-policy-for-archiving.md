@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置全局策略以进行存档
+description: Lync Server 2013：配置用于存档的全局策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184192
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 589c249f772b130eeed80abb97e272b8053dfdc4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a8f8125f458c4269626e0b1c929f2acb1a8de0b9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532379"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556858"
 ---
 # <a name="configuring-the-global-policy-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中配置用于存档的全局策略
 

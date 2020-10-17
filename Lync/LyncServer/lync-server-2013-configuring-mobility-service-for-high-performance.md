@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置移动服务以实现高性能
+description: Lync Server 2013：配置移动服务以实现高性能。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d587444dfd1fbe4fae8898438a51bc9cfb2b5ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4732d9f6a92c383a105a6f0d7162c9b6c798de24
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526949"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556978"
 ---
 # <a name="configuring-mobility-service-for-high-performance-in-lync-server-2013"></a>在 Lync Server 2013 中配置移动服务以实现高性能
 

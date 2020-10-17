@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： Media 表
+description: Lync Server 2013： Media 表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 369e1ace7e0f3f9326896373a640597360ded81d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 31e30d1f91c59b8e3aa7915fc0d513618d0f709f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516169"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558028"
 ---
 # <a name="media-table-in-lync-server-2013"></a>Lync Server 2013 中的媒体表
 

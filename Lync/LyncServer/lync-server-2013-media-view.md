@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：媒体视图
+description: Lync Server 2013：媒体视图。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0e6cd8658278a8d7798153698355f5a73f2952b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 74643986b12a30b1055a46a37febf90eeb70c514
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516149"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558008"
 ---
 # <a name="media-view-in-lync-server-2013"></a>Lync Server 2013 中的媒体视图
 

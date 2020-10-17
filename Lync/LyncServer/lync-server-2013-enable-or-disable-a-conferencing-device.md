@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：启用或禁用会议设备
+description: Lync Server 2013：启用或禁用会议设备。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803981
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5ebbebde30d39a95879a766280d3f34a830683e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 761bc19536c889cced68ff586753f6800df0da59
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528649"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558078"
 ---
 # <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a>在 Lync Server 2013 中启用或禁用会议设备
 

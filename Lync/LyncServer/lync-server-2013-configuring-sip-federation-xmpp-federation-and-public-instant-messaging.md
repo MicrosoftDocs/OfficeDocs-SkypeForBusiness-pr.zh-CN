@@ -1,5 +1,6 @@
 ---
 title: 配置 SIP 联盟、XMPP 联盟和公共即时消息
+description: 配置 SIP 联盟、XMPP 联盟和公共即时消息。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f3fa4f3b78f53df101da42a2e6b7630cdfb71dd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7b83c29da75c99e7a338bfd7732aec8ec49cbf47
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537069"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556958"
 ---
 # <a name="configuring-sip-federation-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>在 Lync Server 2013 中配置 SIP 联盟、XMPP 联盟和公共即时消息
 
