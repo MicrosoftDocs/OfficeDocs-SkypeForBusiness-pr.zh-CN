@@ -1,5 +1,6 @@
 ---
 title: 验证联盟和外部用户的远程访问
+description: 验证外部用户的联盟和远程访问。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5821cd8710b8493a29684d1b7ee695f5bf5c747
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1ac36f2e1b6c5ddfd889810ba2a3ab4d82b7ae33
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508379"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555068"
 ---
-# <a name="verify-federation-and-remote-access-for-external-users"></a><span data-ttu-id="5dc2f-102">验证联盟和外部用户的远程访问</span><span class="sxs-lookup"><span data-stu-id="5dc2f-102">Verify federation and remote access for external users</span></span>
+# <a name="verify-federation-and-remote-access-for-external-users"></a><span data-ttu-id="9d0f1-103">验证联盟和外部用户的远程访问</span><span class="sxs-lookup"><span data-stu-id="9d0f1-103">Verify federation and remote access for external users</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48508379"
 
 <span> </span>
 
-<span data-ttu-id="5dc2f-103">_**上次修改的主题：** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="5dc2f-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="9d0f1-104">_**上次修改的主题：** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="9d0f1-104">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="5dc2f-104">将联合身份验证路由转换为 Lync Server 2013 边缘服务器后，应执行一些功能测试，以验证联合身份验证是否按预期执行。</span><span class="sxs-lookup"><span data-stu-id="5dc2f-104">After transitioning the federation route to the Lync Server 2013 Edge Server, you should perform some functional tests to verify that federation performs as expected.</span></span> <span data-ttu-id="5dc2f-105">外部用户访问测试应包括贵组织支持的每种类型的外部用户，包括下列任意部分或全部用户。</span><span class="sxs-lookup"><span data-stu-id="5dc2f-105">Tests for external user access should include each type of external user that your organization supports, including any or all of the following.</span></span>
+<span data-ttu-id="9d0f1-105">将联合身份验证路由转换为 Lync Server 2013 边缘服务器后，应执行一些功能测试，以验证联合身份验证是否按预期执行。</span><span class="sxs-lookup"><span data-stu-id="9d0f1-105">After transitioning the federation route to the Lync Server 2013 Edge Server, you should perform some functional tests to verify that federation performs as expected.</span></span> <span data-ttu-id="9d0f1-106">外部用户访问测试应包括贵组织支持的每种类型的外部用户，包括下列任意部分或全部用户。</span><span class="sxs-lookup"><span data-stu-id="9d0f1-106">Tests for external user access should include each type of external user that your organization supports, including any or all of the following.</span></span>
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="5dc2f-106">测试外部用户和外部访问的连接</span><span class="sxs-lookup"><span data-stu-id="5dc2f-106">Test Connectivity of External Users and External access</span></span>
+## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="9d0f1-107">测试外部用户和外部访问的连接</span><span class="sxs-lookup"><span data-stu-id="9d0f1-107">Test Connectivity of External Users and External access</span></span>
 
-  - <span data-ttu-id="5dc2f-107">至少一个联盟域中的用户、Lync Server 2013 上的内部用户以及 Lync Server 2010 上的用户。</span><span class="sxs-lookup"><span data-stu-id="5dc2f-107">Users from at least one federated domain, an internal user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="5dc2f-108">测试即时消息 (IM)、状态、音频/视频 (A/V) 和桌面共享。</span><span class="sxs-lookup"><span data-stu-id="5dc2f-108">Test instant messaging (IM), presence, audio/video (A/V), and desktop sharing.</span></span>
+  - <span data-ttu-id="9d0f1-108">至少一个联盟域中的用户、Lync Server 2013 上的内部用户以及 Lync Server 2010 上的用户。</span><span class="sxs-lookup"><span data-stu-id="9d0f1-108">Users from at least one federated domain, an internal user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="9d0f1-109">测试即时消息 (IM)、状态、音频/视频 (A/V) 和桌面共享。</span><span class="sxs-lookup"><span data-stu-id="9d0f1-109">Test instant messaging (IM), presence, audio/video (A/V), and desktop sharing.</span></span>
 
-  - <span data-ttu-id="5dc2f-109">您的组织支持 (的每个公共 IM 服务提供商的用户和已完成的设置) 与 Lync Server 2013 上的用户通信，以及 Lync Server 2010 上的用户。</span><span class="sxs-lookup"><span data-stu-id="5dc2f-109">Users of each public IM service provider that your organization supports (and for which provisioning has been completed) communicating with a user on Lync Server 2013 and a user on Lync Server 2010.</span></span>
+  - <span data-ttu-id="9d0f1-110">您的组织支持 (的每个公共 IM 服务提供商的用户和已完成的设置) 与 Lync Server 2013 上的用户通信，以及 Lync Server 2010 上的用户。</span><span class="sxs-lookup"><span data-stu-id="9d0f1-110">Users of each public IM service provider that your organization supports (and for which provisioning has been completed) communicating with a user on Lync Server 2013 and a user on Lync Server 2010.</span></span>
 
-  - <span data-ttu-id="5dc2f-110">验证匿名用户是否能够加入会议。</span><span class="sxs-lookup"><span data-stu-id="5dc2f-110">Verify that anonymous users are able to join conferences.</span></span>
+  - <span data-ttu-id="9d0f1-111">验证匿名用户是否能够加入会议。</span><span class="sxs-lookup"><span data-stu-id="9d0f1-111">Verify that anonymous users are able to join conferences.</span></span>
 
-  - <span data-ttu-id="5dc2f-111">在 Lync Server 2010 上托管的用户使用远程用户访问 (登录到 intranet 外部的 Lync Server 2010，但没有 VPN) 与 Lync Server 2013 上的用户以及 Lync Server 2010 上的用户。</span><span class="sxs-lookup"><span data-stu-id="5dc2f-111">A user hosted on Lync Server 2010 using remote user access (logging into Lync Server 2010 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="5dc2f-112">测试 IM、状态、A/V 和桌面共享。</span><span class="sxs-lookup"><span data-stu-id="5dc2f-112">Test IM, presence, A/V, and desktop sharing.</span></span>
+  - <span data-ttu-id="9d0f1-112">在 Lync Server 2010 上托管的用户使用远程用户访问 (登录到 intranet 外部的 Lync Server 2010，但没有 VPN) 与 Lync Server 2013 上的用户以及 Lync Server 2010 上的用户。</span><span class="sxs-lookup"><span data-stu-id="9d0f1-112">A user hosted on Lync Server 2010 using remote user access (logging into Lync Server 2010 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="9d0f1-113">测试 IM、状态、A/V 和桌面共享。</span><span class="sxs-lookup"><span data-stu-id="9d0f1-113">Test IM, presence, A/V, and desktop sharing.</span></span>
 
-  - <span data-ttu-id="5dc2f-113">在 Lync Server 2013 上托管的用户使用远程用户访问 (登录到 intranet 外部的 Lync Server 2013，但没有 VPN) 与 Lync Server 2013 上的用户以及 Lync Server 2010 上的用户。</span><span class="sxs-lookup"><span data-stu-id="5dc2f-113">A user hosted on Lync Server 2013 using remote user access (logging into Lync Server 2013 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="5dc2f-114">测试 IM、状态、A/V 和桌面共享。</span><span class="sxs-lookup"><span data-stu-id="5dc2f-114">Test IM, presence, A/V, and desktop sharing.</span></span>
+  - <span data-ttu-id="9d0f1-114">在 Lync Server 2013 上托管的用户使用远程用户访问 (登录到 intranet 外部的 Lync Server 2013，但没有 VPN) 与 Lync Server 2013 上的用户以及 Lync Server 2010 上的用户。</span><span class="sxs-lookup"><span data-stu-id="9d0f1-114">A user hosted on Lync Server 2013 using remote user access (logging into Lync Server 2013 from outside the intranet but without VPN) with a user on Lync Server 2013, and a user on Lync Server 2010.</span></span> <span data-ttu-id="9d0f1-115">测试 IM、状态、A/V 和桌面共享。</span><span class="sxs-lookup"><span data-stu-id="9d0f1-115">Test IM, presence, A/V, and desktop sharing.</span></span>
 
 </div>
 

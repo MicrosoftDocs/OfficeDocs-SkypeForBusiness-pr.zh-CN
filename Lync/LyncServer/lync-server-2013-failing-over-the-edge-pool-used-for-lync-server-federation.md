@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：对用于 Lync Server 联盟的边缘池进行故障转移
+description: Lync Server 2013：对用于 Lync Server 联盟的边缘池进行故障转移。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ed4849aff6dd65de524a99ac8fc6f886d7c4db5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f1e7e13ccd35a653d38174f55ace9dc6637ded04
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530919"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554908"
 ---
-# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a><span data-ttu-id="0c2bb-102">在 Lync Server 2013 中对用于 Lync Server 联盟的边缘池进行故障转移</span><span class="sxs-lookup"><span data-stu-id="0c2bb-102">Failing over the Edge pool used for Lync Server federation in Lync Server 2013</span></span>
+# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a><span data-ttu-id="b4e3f-103">在 Lync Server 2013 中对用于 Lync Server 联盟的边缘池进行故障转移</span><span class="sxs-lookup"><span data-stu-id="b4e3f-103">Failing over the Edge pool used for Lync Server federation in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,42 +38,42 @@ ms.locfileid: "48530919"
 
 <span> </span>
 
-<span data-ttu-id="0c2bb-103">_**上次修改的主题：** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="0c2bb-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="b4e3f-104">_**上次修改的主题：** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="b4e3f-104">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="0c2bb-104">如果配置了 Lync Server 联盟的边缘池不可用，则必须将联盟更改为使用其他边缘池，联盟才能正常运行。</span><span class="sxs-lookup"><span data-stu-id="0c2bb-104">If the Edge pool where you have Lync Server federation configured goes down, you must change federation to use a different Edge pool for federation to work.</span></span>
+<span data-ttu-id="b4e3f-105">如果配置了 Lync Server 联盟的边缘池不可用，则必须将联盟更改为使用其他边缘池，联盟才能正常运行。</span><span class="sxs-lookup"><span data-stu-id="b4e3f-105">If the Edge pool where you have Lync Server federation configured goes down, you must change federation to use a different Edge pool for federation to work.</span></span>
 
 <div>
 
-## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a><span data-ttu-id="0c2bb-105">对用于 Lync Server 联盟的边缘池进行故障转移</span><span class="sxs-lookup"><span data-stu-id="0c2bb-105">Failing Over the Edge Pool Used for Lync Server Federation</span></span>
+## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a><span data-ttu-id="b4e3f-106">对用于 Lync Server 联盟的边缘池进行故障转移</span><span class="sxs-lookup"><span data-stu-id="b4e3f-106">Failing Over the Edge Pool Used for Lync Server Federation</span></span>
 
-1.  <span data-ttu-id="0c2bb-p101">在前端服务器上，打开拓扑生成器。展开“边缘池”\*\*\*\*，然后右键单击当前为联盟配置的边缘服务器或边缘服务器池。选择“编辑属性”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0c2bb-p101">On a Front End server, open Topology Builder. Expand **Edge pools**, then right click the Edge server or Edge server pool that is currently configured for Federation. Select **Edit properties**.</span></span>
+1.  <span data-ttu-id="b4e3f-p101">在前端服务器上，打开拓扑生成器。展开“边缘池”\*\*\*\*，然后右键单击当前为联盟配置的边缘服务器或边缘服务器池。选择“编辑属性”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b4e3f-p101">On a Front End server, open Topology Builder. Expand **Edge pools**, then right click the Edge server or Edge server pool that is currently configured for Federation. Select **Edit properties**.</span></span>
 
-2.  <span data-ttu-id="0c2bb-p102">在“常规”\*\*\*\* 下的“编辑属性”\*\*\*\* 中，清除“为此边缘池启用联盟(端口 5061)”\*\*\*\*。单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0c2bb-p102">In **Edit Properties** under **General**, clear **Enable federation for this Edge pool (Port 5061)**. Click **OK**.</span></span>
+2.  <span data-ttu-id="b4e3f-p102">在“常规”\*\*\*\* 下的“编辑属性”\*\*\*\* 中，清除“为此边缘池启用联盟(端口 5061)”\*\*\*\*。单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b4e3f-p102">In **Edit Properties** under **General**, clear **Enable federation for this Edge pool (Port 5061)**. Click **OK**.</span></span>
 
-3.  <span data-ttu-id="0c2bb-p103">展开“边缘池”\*\*\*\*，然后右键单击现在要用于联盟的边缘服务器或边缘服务器池。选择“编辑属性”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0c2bb-p103">Expand **Edge pools**, then right click the Edge server or Edge server pool that you now want to use for Federation. Select **Edit properties**.</span></span>
+3.  <span data-ttu-id="b4e3f-p103">展开“边缘池”\*\*\*\*，然后右键单击现在要用于联盟的边缘服务器或边缘服务器池。选择“编辑属性”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b4e3f-p103">Expand **Edge pools**, then right click the Edge server or Edge server pool that you now want to use for Federation. Select **Edit properties**.</span></span>
 
-4.  <span data-ttu-id="0c2bb-p104">在“常规”\*\*\*\* 下的“编辑属性”\*\*\*\* 中，选择“为此边缘池启用联盟(端口 5061)”\*\*\*\*。单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0c2bb-p104">In **Edit Properties** under **General**, select **Enable federation for this Edge pool (Port 5061)**. Click **OK**.</span></span>
+4.  <span data-ttu-id="b4e3f-p104">在“常规”\*\*\*\* 下的“编辑属性”\*\*\*\* 中，选择“为此边缘池启用联盟(端口 5061)”\*\*\*\*。单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b4e3f-p104">In **Edit Properties** under **General**, select **Enable federation for this Edge pool (Port 5061)**. Click **OK**.</span></span>
 
-5.  <span data-ttu-id="0c2bb-p105">单击“操作”\*\*\*\*，选择“拓扑”\*\*\*\*，再选择“发布”\*\*\*\*。当“发布拓扑”\*\*\*\* 中出现提示时，单击“下一步”\*\*\*\*。完成发布后，单击“完成”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0c2bb-p105">Click **Action**, select **Topology**, select **Publish**. When prompted on **Publish the topology**, click **Next**. When the Publish is finished, click **Finish**.</span></span>
+5.  <span data-ttu-id="b4e3f-p105">单击“操作”\*\*\*\*，选择“拓扑”\*\*\*\*，再选择“发布”\*\*\*\*。当“发布拓扑”\*\*\*\* 中出现提示时，单击“下一步”\*\*\*\*。完成发布后，单击“完成”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b4e3f-p105">Click **Action**, select **Topology**, select **Publish**. When prompted on **Publish the topology**, click **Next**. When the Publish is finished, click **Finish**.</span></span>
 
-6.  <span data-ttu-id="0c2bb-p106">在边缘服务器上，打开 Lync Server 部署向导。单击“安装或更新 Lync Server 系统”\*\*\*\*，然后单击“安装或删除 Lync Server 组件”\*\*\*\*。单击“再次运行”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0c2bb-p106">On the Edge server, open the Lync Server Deployment wizard. Click **Install or Update Lync Server System**, then click **Setup or Remove Lync Server Components**. Click **Run Again**.</span></span>
+6.  <span data-ttu-id="b4e3f-p106">在边缘服务器上，打开 Lync Server 部署向导。单击“安装或更新 Lync Server 系统”\*\*\*\*，然后单击“安装或删除 Lync Server 组件”\*\*\*\*。单击“再次运行”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b4e3f-p106">On the Edge server, open the Lync Server Deployment wizard. Click **Install or Update Lync Server System**, then click **Setup or Remove Lync Server Components**. Click **Run Again**.</span></span>
 
-7.  <span data-ttu-id="0c2bb-p107">在“设置 Lync Server 组件”中，单击“下一步”\*\*\*\*。摘要屏幕将显示已执行的操作。部署完成后，单击“查看日志”\*\*\*\* 可查看可用日志文件。单击“完成”\*\*\*\* 以完成部署。</span><span class="sxs-lookup"><span data-stu-id="0c2bb-p107">At Setup Lync Server components, click **Next**. The summary screen will show actions as they are executed. Once the deployment is done, click **View Log** to view available log files. Click **Finish** to complete the deployment.</span></span>
+7.  <span data-ttu-id="b4e3f-p107">在“设置 Lync Server 组件”中，单击“下一步”\*\*\*\*。摘要屏幕将显示已执行的操作。部署完成后，单击“查看日志”\*\*\*\* 可查看可用日志文件。单击“完成”\*\*\*\* 以完成部署。</span><span class="sxs-lookup"><span data-stu-id="b4e3f-p107">At Setup Lync Server components, click **Next**. The summary screen will show actions as they are executed. Once the deployment is done, click **View Log** to view available log files. Click **Finish** to complete the deployment.</span></span>
     
-    <span data-ttu-id="0c2bb-125">如果包含故障边缘池的站点包含仍在运行的前端服务器，则必须更新这些前端池上的 Web 会议服务和 A/V 会议服务才能在仍在运行的远程站点中使用边缘池。</span><span class="sxs-lookup"><span data-stu-id="0c2bb-125">If the site containing the failed Edge pool contains Front End Servers that are still running, you must update the Web Conferencing Service and A/V Conferencing Service on these Front End pools to use an Edge pool in a remote site that is still running.</span></span> <span data-ttu-id="0c2bb-126">有关详细信息，请参阅 [在 Lync Server 2013 中更改与前端池关联的边缘池](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)。</span><span class="sxs-lookup"><span data-stu-id="0c2bb-126">For more information, see [Changing the Edge pool associated with a Front End pool in Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).</span></span>
+    <span data-ttu-id="b4e3f-126">如果包含故障边缘池的站点包含仍在运行的前端服务器，则必须更新这些前端池上的 Web 会议服务和 A/V 会议服务才能在仍在运行的远程站点中使用边缘池。</span><span class="sxs-lookup"><span data-stu-id="b4e3f-126">If the site containing the failed Edge pool contains Front End Servers that are still running, you must update the Web Conferencing Service and A/V Conferencing Service on these Front End pools to use an Edge pool in a remote site that is still running.</span></span> <span data-ttu-id="b4e3f-127">有关详细信息，请参阅 [在 Lync Server 2013 中更改与前端池关联的边缘池](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)。</span><span class="sxs-lookup"><span data-stu-id="b4e3f-127">For more information, see [Changing the Edge pool associated with a Front End pool in Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0c2bb-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0c2bb-127">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b4e3f-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b4e3f-128">See Also</span></span>
 
 
-[<span data-ttu-id="0c2bb-128">在 Lync Server 2013 中对用于 XMPP 联盟的边缘池进行故障转移</span><span class="sxs-lookup"><span data-stu-id="0c2bb-128">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
-[<span data-ttu-id="0c2bb-129">在 Lync Server 2013 中对用于 Lync Server 联盟或 XMPP 联盟的边缘池进行故障回复</span><span class="sxs-lookup"><span data-stu-id="0c2bb-129">Failing back the Edge pool used for Lync Server federation or XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)  
+[<span data-ttu-id="b4e3f-129">在 Lync Server 2013 中对用于 XMPP 联盟的边缘池进行故障转移</span><span class="sxs-lookup"><span data-stu-id="b4e3f-129">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
+[<span data-ttu-id="b4e3f-130">在 Lync Server 2013 中对用于 Lync Server 联盟或 XMPP 联盟的边缘池进行故障回复</span><span class="sxs-lookup"><span data-stu-id="b4e3f-130">Failing back the Edge pool used for Lync Server federation or XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)  
 
 
-[<span data-ttu-id="0c2bb-130">Lync Server 2013 中的边缘服务器灾难恢复</span><span class="sxs-lookup"><span data-stu-id="0c2bb-130">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)  
+[<span data-ttu-id="b4e3f-131">Lync Server 2013 中的边缘服务器灾难恢复</span><span class="sxs-lookup"><span data-stu-id="b4e3f-131">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)  
   
 
 </div>

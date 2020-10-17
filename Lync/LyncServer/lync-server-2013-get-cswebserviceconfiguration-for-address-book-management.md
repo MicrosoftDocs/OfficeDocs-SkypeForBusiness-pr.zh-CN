@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：用于通讯簿管理的 Get-CsWebServiceConfiguration
+description: Lync Server 2013：用于通讯簿管理的 Get-CsWebServiceConfiguration。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183372
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 143b4964de91c10f2fce0272d6e882ff68c9f862
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bb22d7607f9ac18cda9c8653374ae86839b033e0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512629"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554638"
 ---
-# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="9d60c-102">Lync Server 2013 中的通讯簿管理 Get-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="9d60c-102">Get-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="12f49-103">Lync Server 2013 中的通讯簿管理 Get-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="12f49-103">Get-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,24 +38,24 @@ ms.locfileid: "48512629"
 
 <span> </span>
 
-<span data-ttu-id="9d60c-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="9d60c-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="12f49-104">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="12f49-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="9d60c-p101">谁能运行此 cmdlet：默认情况下，以下各组的成员有权在本地运行 Get-CsWebServiceConfiguration cmdlet：RTCUniversalUserAdmins、RTCUniversalServerAdmins。要返回分配了此 cmdlet 的所有基于角色的访问控制 (RBAC) 角色列表（包括您自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="9d60c-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Get-CsWebServiceConfiguration cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="12f49-p101">谁能运行此 cmdlet：默认情况下，以下各组的成员有权在本地运行 Get-CsWebServiceConfiguration cmdlet：RTCUniversalUserAdmins、RTCUniversalServerAdmins。要返回分配了此 cmdlet 的所有基于角色的访问控制 (RBAC) 角色列表（包括您自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="12f49-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Get-CsWebServiceConfiguration cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsWebServiceConfiguration"}
 
-<span data-ttu-id="9d60c-p102">Get-CsWebServiceConfiguration 可返回有关组织中当前使用的 Web 服务配置的信息。对于通讯簿服务，值得关注的是通讯组列表扩展功能的状态。如果 EnableGroupExpansion 属性为 True，则您的组织当前允许组扩展。</span><span class="sxs-lookup"><span data-stu-id="9d60c-p102">Get-CsWebServiceConfiguration returns information of the Web Services configuration currently in use in your organization. Of interest to the Address Book Services is the status of Distribution List Expansion function. If the attribute EnableGroupExpansion is True, your organization currently allows group expansion.</span></span>
+<span data-ttu-id="12f49-p102">Get-CsWebServiceConfiguration 可返回有关组织中当前使用的 Web 服务配置的信息。对于通讯簿服务，值得关注的是通讯组列表扩展功能的状态。如果 EnableGroupExpansion 属性为 True，则您的组织当前允许组扩展。</span><span class="sxs-lookup"><span data-stu-id="12f49-p102">Get-CsWebServiceConfiguration returns information of the Web Services configuration currently in use in your organization. Of interest to the Address Book Services is the status of Distribution List Expansion function. If the attribute EnableGroupExpansion is True, your organization currently allows group expansion.</span></span>
 
-<span data-ttu-id="9d60c-109">例如：</span><span class="sxs-lookup"><span data-stu-id="9d60c-109">For example:</span></span>
+<span data-ttu-id="12f49-110">例如：</span><span class="sxs-lookup"><span data-stu-id="12f49-110">For example:</span></span>
 
     Get-CsWebServiceConfiguration -Identity site:Redmond
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9d60c-110">请参阅</span><span class="sxs-lookup"><span data-stu-id="9d60c-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="12f49-111">请参阅</span><span class="sxs-lookup"><span data-stu-id="12f49-111">See Also</span></span>
 
 
-[<span data-ttu-id="9d60c-111">CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="9d60c-111">Get-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
+[<span data-ttu-id="12f49-112">CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="12f49-112">Get-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsWebServiceConfiguration)  
   
 
 </div>

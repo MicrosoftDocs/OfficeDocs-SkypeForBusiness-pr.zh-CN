@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：测试对等音频/视频呼叫
+description: Lync Server 2013：测试对等音频/视频呼叫。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8522a1f3a8aedd44a6d39faa0ba6f59ba773677
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 03bab69d926a99c091a510ce64b78dbf505d4cbc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504079"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556288"
 ---
-# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a><span data-ttu-id="07a4d-102">在 Lync Server 2013 中测试对等音频/视频呼叫</span><span class="sxs-lookup"><span data-stu-id="07a4d-102">Testing peer to peer audio/video call in Lync Server 2013</span></span>
+# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a><span data-ttu-id="9e455-103">在 Lync Server 2013 中测试对等音频/视频呼叫</span><span class="sxs-lookup"><span data-stu-id="9e455-103">Testing peer to peer audio/video call in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +38,7 @@ ms.locfileid: "48504079"
 
 <span> </span>
 
-<span data-ttu-id="07a4d-103">_**上次修改的主题：** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="07a4d-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="9e455-104">_**上次修改的主题：** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="9e455-104">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -47,17 +48,17 @@ ms.locfileid: "48504079"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="07a4d-104">验证计划</span><span class="sxs-lookup"><span data-stu-id="07a4d-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="07a4d-105">每天</span><span class="sxs-lookup"><span data-stu-id="07a4d-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="9e455-105">验证计划</span><span class="sxs-lookup"><span data-stu-id="9e455-105">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="9e455-106">每天</span><span class="sxs-lookup"><span data-stu-id="9e455-106">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07a4d-106">测试工具</span><span class="sxs-lookup"><span data-stu-id="07a4d-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="07a4d-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="07a4d-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="9e455-107">测试工具</span><span class="sxs-lookup"><span data-stu-id="9e455-107">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="9e455-108">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="9e455-108">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="07a4d-108">所需的权限</span><span class="sxs-lookup"><span data-stu-id="07a4d-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="07a4d-109">在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="07a4d-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="07a4d-110">使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsP2PAV cmdlet 的权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="07a4d-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsP2PAV cmdlet.</span></span> <span data-ttu-id="07a4d-111">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="07a4d-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="9e455-109">所需的权限</span><span class="sxs-lookup"><span data-stu-id="9e455-109">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="9e455-110">在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="9e455-110">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="9e455-111">使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsP2PAV cmdlet 的权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="9e455-111">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsP2PAV cmdlet.</span></span> <span data-ttu-id="9e455-112">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="9e455-112">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,25 +67,25 @@ ms.locfileid: "48504079"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="07a4d-112">说明</span><span class="sxs-lookup"><span data-stu-id="07a4d-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="9e455-113">说明</span><span class="sxs-lookup"><span data-stu-id="9e455-113">Description</span></span>
 
-<span data-ttu-id="07a4d-113">Test-CsP2PAV 用于确定一对测试用户是否可以参与对等 A/V 对话。</span><span class="sxs-lookup"><span data-stu-id="07a4d-113">Test-CsP2PAV is used to determine whether a pair of test users can participate in a peer-to-peer A/V conversation.</span></span> <span data-ttu-id="07a4d-114">若要测试此方案，cmdlet 将通过在两个用户上登录到 Lync Server 来启动。</span><span class="sxs-lookup"><span data-stu-id="07a4d-114">To test this scenario, the cmdlet starts off by logging on the two users to Lync Server.</span></span> <span data-ttu-id="07a4d-115">假设这两个用户登录成功，然后第一个用户邀请第二个用户加入 A/V 呼叫。</span><span class="sxs-lookup"><span data-stu-id="07a4d-115">Assuming that the two logons succeed, the first user then invites the second user to join an A/V call.</span></span> <span data-ttu-id="07a4d-116">第二个用户接受呼叫，将测试两个用户之间的连接；然后呼叫结束，测试用户从系统中注销。</span><span class="sxs-lookup"><span data-stu-id="07a4d-116">The second user accepts the call, the connection between the two users is tested, and then the call is ended and the test users are logged off from the system.</span></span>
+<span data-ttu-id="9e455-114">Test-CsP2PAV 用于确定一对测试用户是否可以参与对等 A/V 对话。</span><span class="sxs-lookup"><span data-stu-id="9e455-114">Test-CsP2PAV is used to determine whether a pair of test users can participate in a peer-to-peer A/V conversation.</span></span> <span data-ttu-id="9e455-115">若要测试此方案，cmdlet 将通过在两个用户上登录到 Lync Server 来启动。</span><span class="sxs-lookup"><span data-stu-id="9e455-115">To test this scenario, the cmdlet starts off by logging on the two users to Lync Server.</span></span> <span data-ttu-id="9e455-116">假设这两个用户登录成功，然后第一个用户邀请第二个用户加入 A/V 呼叫。</span><span class="sxs-lookup"><span data-stu-id="9e455-116">Assuming that the two logons succeed, the first user then invites the second user to join an A/V call.</span></span> <span data-ttu-id="9e455-117">第二个用户接受呼叫，将测试两个用户之间的连接；然后呼叫结束，测试用户从系统中注销。</span><span class="sxs-lookup"><span data-stu-id="9e455-117">The second user accepts the call, the connection between the two users is tested, and then the call is ended and the test users are logged off from the system.</span></span>
 
-<span data-ttu-id="07a4d-117">Test-CsP2PAV 实际上不执行 A/V 调用。</span><span class="sxs-lookup"><span data-stu-id="07a4d-117">Test-CsP2PAV does not actually conduct an A/V call.</span></span> <span data-ttu-id="07a4d-118">不会在测试用户之间交换多媒体信息。</span><span class="sxs-lookup"><span data-stu-id="07a4d-118">Multimedia information is not exchanged between the test users.</span></span> <span data-ttu-id="07a4d-119">相反，cmdlet 仅验证是否可以建立适当的连接，以及两个用户是否可以执行此类调用。</span><span class="sxs-lookup"><span data-stu-id="07a4d-119">Instead, the cmdlet merely verifies that the appropriate connections can be made and that the two users can conduct such a call.</span></span>
+<span data-ttu-id="9e455-118">Test-CsP2PAV 实际上不执行 A/V 调用。</span><span class="sxs-lookup"><span data-stu-id="9e455-118">Test-CsP2PAV does not actually conduct an A/V call.</span></span> <span data-ttu-id="9e455-119">不会在测试用户之间交换多媒体信息。</span><span class="sxs-lookup"><span data-stu-id="9e455-119">Multimedia information is not exchanged between the test users.</span></span> <span data-ttu-id="9e455-120">相反，cmdlet 仅验证是否可以建立适当的连接，以及两个用户是否可以执行此类调用。</span><span class="sxs-lookup"><span data-stu-id="9e455-120">Instead, the cmdlet merely verifies that the appropriate connections can be made and that the two users can conduct such a call.</span></span>
 
-<span data-ttu-id="07a4d-120">有关详细信息，请参阅 [CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) Cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="07a4d-120">For more information, see the Help documentation for the [Test-CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) cmdlet.</span></span>
+<span data-ttu-id="9e455-121">有关详细信息，请参阅 [CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) Cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="9e455-121">For more information, see the Help documentation for the [Test-CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="07a4d-121">运行测试</span><span class="sxs-lookup"><span data-stu-id="07a4d-121">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="9e455-122">运行测试</span><span class="sxs-lookup"><span data-stu-id="9e455-122">Running the test</span></span>
 
-<span data-ttu-id="07a4d-122">可以使用一对预配置的测试帐户运行 Test-CsP2PAV cmdlet (参阅设置用于运行 Lync Server 测试的测试帐户) 或已为其启用 Lync Server 的任意两个用户的帐户。</span><span class="sxs-lookup"><span data-stu-id="07a4d-122">The Test-CsP2PAV cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="07a4d-123">若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。</span><span class="sxs-lookup"><span data-stu-id="07a4d-123">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="07a4d-124">例如：</span><span class="sxs-lookup"><span data-stu-id="07a4d-124">For example:</span></span>
+<span data-ttu-id="9e455-123">可以使用一对预配置的测试帐户运行 Test-CsP2PAV cmdlet (参阅设置用于运行 Lync Server 测试的测试帐户) 或已为其启用 Lync Server 的任意两个用户的帐户。</span><span class="sxs-lookup"><span data-stu-id="9e455-123">The Test-CsP2PAV cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="9e455-124">若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。</span><span class="sxs-lookup"><span data-stu-id="9e455-124">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="9e455-125">例如：</span><span class="sxs-lookup"><span data-stu-id="9e455-125">For example:</span></span>
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
-<span data-ttu-id="07a4d-125">若要使用实际用户帐户运行此检查，必须为每个帐户 (包含帐户名称和密码) 的对象创建两个 Lync Server 凭据对象。</span><span class="sxs-lookup"><span data-stu-id="07a4d-125">To run this check using actual user accounts, you must create two Lync Server credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="07a4d-126">在调用 CsP2PAV 时，必须包括这些凭据对象和两个帐户的 SIP 地址：</span><span class="sxs-lookup"><span data-stu-id="07a4d-126">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsP2PAV:</span></span>
+<span data-ttu-id="9e455-126">若要使用实际用户帐户运行此检查，必须为每个帐户 (包含帐户名称和密码) 的对象创建两个 Lync Server 凭据对象。</span><span class="sxs-lookup"><span data-stu-id="9e455-126">To run this check using actual user accounts, you must create two Lync Server credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="9e455-127">在调用 CsP2PAV 时，必须包括这些凭据对象和两个帐户的 SIP 地址：</span><span class="sxs-lookup"><span data-stu-id="9e455-127">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsP2PAV:</span></span>
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -94,81 +95,81 @@ ms.locfileid: "48504079"
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="07a4d-127">确定成功或失败</span><span class="sxs-lookup"><span data-stu-id="07a4d-127">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="9e455-128">确定成功或失败</span><span class="sxs-lookup"><span data-stu-id="9e455-128">Determining success or failure</span></span>
 
-<span data-ttu-id="07a4d-128">如果两个测试用户可以完成对等 A/V 呼叫，则会收到类似于以下内容的输出，并将 Result 属性标记为 **成功：**</span><span class="sxs-lookup"><span data-stu-id="07a4d-128">If the two test users can complete a peer-to-peer A/V call, then you'll receive output similar to this with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="9e455-129">如果两个测试用户可以完成对等 A/V 呼叫，则会收到类似于以下内容的输出，并将 Result 属性标记为 **成功：**</span><span class="sxs-lookup"><span data-stu-id="9e455-129">If the two test users can complete a peer-to-peer A/V call, then you'll receive output similar to this with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="07a4d-129">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="07a4d-129">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="9e455-130">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="9e455-130">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="07a4d-130">结果：成功</span><span class="sxs-lookup"><span data-stu-id="07a4d-130">Result : Success</span></span>
+<span data-ttu-id="9e455-131">结果：成功</span><span class="sxs-lookup"><span data-stu-id="9e455-131">Result : Success</span></span>
 
-<span data-ttu-id="07a4d-131">延迟：00：00：06.8630376</span><span class="sxs-lookup"><span data-stu-id="07a4d-131">Latency : 00:00:06.8630376</span></span>
+<span data-ttu-id="9e455-132">延迟：00：00：06.8630376</span><span class="sxs-lookup"><span data-stu-id="9e455-132">Latency : 00:00:06.8630376</span></span>
 
-<span data-ttu-id="07a4d-132">误差</span><span class="sxs-lookup"><span data-stu-id="07a4d-132">Error :</span></span>
+<span data-ttu-id="9e455-133">误差</span><span class="sxs-lookup"><span data-stu-id="9e455-133">Error :</span></span>
 
-<span data-ttu-id="07a4d-133">诊断</span><span class="sxs-lookup"><span data-stu-id="07a4d-133">Diagnosis :</span></span>
+<span data-ttu-id="9e455-134">诊断</span><span class="sxs-lookup"><span data-stu-id="9e455-134">Diagnosis :</span></span>
 
-<span data-ttu-id="07a4d-134">如果测试用户无法完成该调用，则结果将显示为 "失败"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：</span><span class="sxs-lookup"><span data-stu-id="07a4d-134">If the test users can't complete the call, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="9e455-135">如果测试用户无法完成该调用，则结果将显示为 "失败"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：</span><span class="sxs-lookup"><span data-stu-id="9e455-135">If the test users can't complete the call, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="07a4d-135">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="07a4d-135">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="9e455-136">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="9e455-136">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="07a4d-136">结果：失败</span><span class="sxs-lookup"><span data-stu-id="07a4d-136">Result : Failure</span></span>
+<span data-ttu-id="9e455-137">结果：失败</span><span class="sxs-lookup"><span data-stu-id="9e455-137">Result : Failure</span></span>
 
-<span data-ttu-id="07a4d-137">延迟：00:00:00</span><span class="sxs-lookup"><span data-stu-id="07a4d-137">Latency : 00:00:00</span></span>
+<span data-ttu-id="9e455-138">延迟：00:00:00</span><span class="sxs-lookup"><span data-stu-id="9e455-138">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="07a4d-138">错误：480，暂时不可用</span><span class="sxs-lookup"><span data-stu-id="07a4d-138">Error : 480, Temporarily Unavailable</span></span>
+<span data-ttu-id="9e455-139">错误：480，暂时不可用</span><span class="sxs-lookup"><span data-stu-id="9e455-139">Error : 480, Temporarily Unavailable</span></span>
 
-<span data-ttu-id="07a4d-139">诊断： ErrorCode = 15030，Source = atl-cs-001，Reason = Failed</span><span class="sxs-lookup"><span data-stu-id="07a4d-139">Diagnosis : ErrorCode=15030,Source=atl-cs-001.litwareinc.com,Reason=Failed</span></span>
+<span data-ttu-id="9e455-140">诊断： ErrorCode = 15030，Source = atl-cs-001，Reason = Failed</span><span class="sxs-lookup"><span data-stu-id="9e455-140">Diagnosis : ErrorCode=15030,Source=atl-cs-001.litwareinc.com,Reason=Failed</span></span>
 
-<span data-ttu-id="07a4d-140">路由到 Exchange Server</span><span class="sxs-lookup"><span data-stu-id="07a4d-140">to route to Exchange Server</span></span>
+<span data-ttu-id="9e455-141">路由到 Exchange Server</span><span class="sxs-lookup"><span data-stu-id="9e455-141">to route to Exchange Server</span></span>
 
-<span data-ttu-id="07a4d-141">Microsoft DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="07a4d-141">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
+<span data-ttu-id="9e455-142">Microsoft DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="9e455-142">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
 
-<span data-ttu-id="07a4d-142">例如，以前的输出表明由于无法联系 Microsoft Exchange Server 而导致测试失败。</span><span class="sxs-lookup"><span data-stu-id="07a4d-142">For example, the previous output states that the test failed because the Microsoft Exchange Server couldn't be contacted.</span></span> <span data-ttu-id="07a4d-143">此错误消息通常表明 Exchange 统一消息的配置存在问题。</span><span class="sxs-lookup"><span data-stu-id="07a4d-143">This error message typically indicates a problem the configuration of Exchange Unified Messaging.</span></span>
+<span data-ttu-id="9e455-143">例如，以前的输出表明由于无法联系 Microsoft Exchange Server 而导致测试失败。</span><span class="sxs-lookup"><span data-stu-id="9e455-143">For example, the previous output states that the test failed because the Microsoft Exchange Server couldn't be contacted.</span></span> <span data-ttu-id="9e455-144">此错误消息通常表明 Exchange 统一消息的配置存在问题。</span><span class="sxs-lookup"><span data-stu-id="9e455-144">This error message typically indicates a problem the configuration of Exchange Unified Messaging.</span></span>
 
-<span data-ttu-id="07a4d-144">如果 Test-CsP2PAV 失败，您可能需要重新运行测试，这一次包括 Verbose 参数：</span><span class="sxs-lookup"><span data-stu-id="07a4d-144">If Test-CsP2PAV fails then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="9e455-145">如果 Test-CsP2PAV 失败，您可能需要重新运行测试，这一次包括 Verbose 参数：</span><span class="sxs-lookup"><span data-stu-id="9e455-145">If Test-CsP2PAV fails then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
-<span data-ttu-id="07a4d-145">Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose</span><span class="sxs-lookup"><span data-stu-id="07a4d-145">Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose</span></span>
+<span data-ttu-id="9e455-146">Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose</span><span class="sxs-lookup"><span data-stu-id="9e455-146">Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose</span></span>
 
-<span data-ttu-id="07a4d-146">包含 Verbose 参数时，Test-CsP2PAV 将返回其尝试的每个操作的分步帐户，因为它检查指定用户登录到 Lync Server 的能力。</span><span class="sxs-lookup"><span data-stu-id="07a4d-146">When the Verbose parameter is included, Test-CsP2PAV will return a step-by-step account of each action it tried as it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="07a4d-147">例如，假设测试因以下诊断而失败：</span><span class="sxs-lookup"><span data-stu-id="07a4d-147">For example, suppose that your test failed with the following Diagnosis:</span></span>
+<span data-ttu-id="9e455-147">包含 Verbose 参数时，Test-CsP2PAV 将返回其尝试的每个操作的分步帐户，因为它检查指定用户登录到 Lync Server 的能力。</span><span class="sxs-lookup"><span data-stu-id="9e455-147">When the Verbose parameter is included, Test-CsP2PAV will return a step-by-step account of each action it tried as it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="9e455-148">例如，假设测试因以下诊断而失败：</span><span class="sxs-lookup"><span data-stu-id="9e455-148">For example, suppose that your test failed with the following Diagnosis:</span></span>
 
-<span data-ttu-id="07a4d-148">ErrorCode = 6003，Source = atl-cs-001，Reason = 不支持的对话框请求 litwareinc</span><span class="sxs-lookup"><span data-stu-id="07a4d-148">ErrorCode=6003,Source=atl-cs-001.litwareinc.com,Reason=Unsupported out of dialog request</span></span>
+<span data-ttu-id="9e455-149">ErrorCode = 6003，Source = atl-cs-001，Reason = 不支持的对话框请求 litwareinc</span><span class="sxs-lookup"><span data-stu-id="9e455-149">ErrorCode=6003,Source=atl-cs-001.litwareinc.com,Reason=Unsupported out of dialog request</span></span>
 
-<span data-ttu-id="07a4d-149">如果您重新运行 Test-CsP2PAV 并包含 Verbose 参数，您将获得类似如下所示的输出：</span><span class="sxs-lookup"><span data-stu-id="07a4d-149">If you rerun Test-CsP2PAV and include the Verbose parameter, you'll get output similar to this:</span></span>
+<span data-ttu-id="9e455-150">如果您重新运行 Test-CsP2PAV 并包含 Verbose 参数，您将获得类似如下所示的输出：</span><span class="sxs-lookup"><span data-stu-id="9e455-150">If you rerun Test-CsP2PAV and include the Verbose parameter, you'll get output similar to this:</span></span>
 
-<span data-ttu-id="07a4d-150">详细： "注册" 活动已启动。</span><span class="sxs-lookup"><span data-stu-id="07a4d-150">VERBOSE: 'Register' activity started.</span></span>
+<span data-ttu-id="9e455-151">详细： "注册" 活动已启动。</span><span class="sxs-lookup"><span data-stu-id="9e455-151">VERBOSE: 'Register' activity started.</span></span>
 
-<span data-ttu-id="07a4d-151">发送注册请求：</span><span class="sxs-lookup"><span data-stu-id="07a4d-151">Sending Registration request:</span></span>
+<span data-ttu-id="9e455-152">发送注册请求：</span><span class="sxs-lookup"><span data-stu-id="9e455-152">Sending Registration request:</span></span>
 
-<span data-ttu-id="07a4d-152">目标 Fqdn = atl-cs-011.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="07a4d-152">Target Fqdn = atl-cs-011.litwareinc.com</span></span>
+<span data-ttu-id="9e455-153">目标 Fqdn = atl-cs-011.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="9e455-153">Target Fqdn = atl-cs-011.litwareinc.com</span></span>
 
-<span data-ttu-id="07a4d-153">用户 Sip 地址 = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="07a4d-153">User Sip Address = sip:kenmyer@litwareinc.com</span></span>
+<span data-ttu-id="9e455-154">用户 Sip 地址 = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="9e455-154">User Sip Address = sip:kenmyer@litwareinc.com</span></span>
 
-<span data-ttu-id="07a4d-154">注册器端口 = 5062。</span><span class="sxs-lookup"><span data-stu-id="07a4d-154">Registrar Port = 5062.</span></span>
+<span data-ttu-id="9e455-155">注册器端口 = 5062。</span><span class="sxs-lookup"><span data-stu-id="9e455-155">Registrar Port = 5062.</span></span>
 
-<span data-ttu-id="07a4d-155">已选择身份验证类型 "IWA"。</span><span class="sxs-lookup"><span data-stu-id="07a4d-155">Auth Type 'IWA' is selected.</span></span>
+<span data-ttu-id="9e455-156">已选择身份验证类型 "IWA"。</span><span class="sxs-lookup"><span data-stu-id="9e455-156">Auth Type 'IWA' is selected.</span></span>
 
-<span data-ttu-id="07a4d-156">"终结点无法注册" 异常。</span><span class="sxs-lookup"><span data-stu-id="07a4d-156">An exception 'The endpoint was unable to register.</span></span> <span data-ttu-id="07a4d-157">有关具体原因，请参阅错误代码。</span><span class="sxs-lookup"><span data-stu-id="07a4d-157">See the ErrorCode for specific reason.'</span></span> <span data-ttu-id="07a4d-158">在工作流 STP2PAVWorkflow 执行过程中发生。</span><span class="sxs-lookup"><span data-stu-id="07a4d-158">occurred during workflow Microsoft.Rtc.SyntheticTransactions.Workflows.STP2PAVWorkflow execution.</span></span>
+<span data-ttu-id="9e455-157">"终结点无法注册" 异常。</span><span class="sxs-lookup"><span data-stu-id="9e455-157">An exception 'The endpoint was unable to register.</span></span> <span data-ttu-id="9e455-158">有关具体原因，请参阅错误代码。</span><span class="sxs-lookup"><span data-stu-id="9e455-158">See the ErrorCode for specific reason.'</span></span> <span data-ttu-id="9e455-159">在工作流 STP2PAVWorkflow 执行过程中发生。</span><span class="sxs-lookup"><span data-stu-id="9e455-159">occurred during workflow Microsoft.Rtc.SyntheticTransactions.Workflows.STP2PAVWorkflow execution.</span></span>
 
-<span data-ttu-id="07a4d-159">虽然这可能不是显而易见的，但如果仔细检查输出，将会发现 (端口 5062) 指定了不正确的注册器端口。</span><span class="sxs-lookup"><span data-stu-id="07a4d-159">Although it might not be immediately obvious, if you examine the output carefully you’ll see that an incorrect Registrar port (port 5062) was specified.</span></span> <span data-ttu-id="07a4d-160">进而导致测试失败。</span><span class="sxs-lookup"><span data-stu-id="07a4d-160">In turn, that caused the test to fail.</span></span>
+<span data-ttu-id="9e455-160">虽然这可能不是显而易见的，但如果仔细检查输出，将会发现 (端口 5062) 指定了不正确的注册器端口。</span><span class="sxs-lookup"><span data-stu-id="9e455-160">Although it might not be immediately obvious, if you examine the output carefully you’ll see that an incorrect Registrar port (port 5062) was specified.</span></span> <span data-ttu-id="9e455-161">进而导致测试失败。</span><span class="sxs-lookup"><span data-stu-id="9e455-161">In turn, that caused the test to fail.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="07a4d-161">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="07a4d-161">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="9e455-162">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="9e455-162">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="07a4d-162">下面是 Test-CsP2PAV 可能失败的一些常见原因：</span><span class="sxs-lookup"><span data-stu-id="07a4d-162">Here are some common reasons why Test-CsP2PAV might fail:</span></span>
+<span data-ttu-id="9e455-163">下面是 Test-CsP2PAV 可能失败的一些常见原因：</span><span class="sxs-lookup"><span data-stu-id="9e455-163">Here are some common reasons why Test-CsP2PAV might fail:</span></span>
 
-  - <span data-ttu-id="07a4d-163">您指定的用户帐户无效。</span><span class="sxs-lookup"><span data-stu-id="07a4d-163">You specified a user account that is not valid.</span></span> <span data-ttu-id="07a4d-164">您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：</span><span class="sxs-lookup"><span data-stu-id="07a4d-164">You can verify that a user account exists by running a command similar to this:</span></span>
+  - <span data-ttu-id="9e455-164">您指定的用户帐户无效。</span><span class="sxs-lookup"><span data-stu-id="9e455-164">You specified a user account that is not valid.</span></span> <span data-ttu-id="9e455-165">您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：</span><span class="sxs-lookup"><span data-stu-id="9e455-165">You can verify that a user account exists by running a command similar to this:</span></span>
     
-    <span data-ttu-id="07a4d-165">Get-CsUser "sip:kenmyer@litwareinc.com"</span><span class="sxs-lookup"><span data-stu-id="07a4d-165">Get-CsUser "sip:kenmyer@litwareinc.com"</span></span>
+    <span data-ttu-id="9e455-166">Get-CsUser "sip:kenmyer@litwareinc.com"</span><span class="sxs-lookup"><span data-stu-id="9e455-166">Get-CsUser "sip:kenmyer@litwareinc.com"</span></span>
 
-  - <span data-ttu-id="07a4d-166">用户帐户有效，但当前未对 Lync Server 启用该帐户。</span><span class="sxs-lookup"><span data-stu-id="07a4d-166">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="07a4d-167">若要验证是否已为 Lync Server 启用用户帐户，请运行与以下内容类似的命令：</span><span class="sxs-lookup"><span data-stu-id="07a4d-167">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
+  - <span data-ttu-id="9e455-167">用户帐户有效，但当前未对 Lync Server 启用该帐户。</span><span class="sxs-lookup"><span data-stu-id="9e455-167">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="9e455-168">若要验证是否已为 Lync Server 启用用户帐户，请运行与以下内容类似的命令：</span><span class="sxs-lookup"><span data-stu-id="9e455-168">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    <span data-ttu-id="07a4d-168">如果 Enabled 属性设置为 False，则表示当前未对 Lync Server 启用用户。</span><span class="sxs-lookup"><span data-stu-id="07a4d-168">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
+    <span data-ttu-id="9e455-169">如果 Enabled 属性设置为 False，则表示当前未对 Lync Server 启用用户。</span><span class="sxs-lookup"><span data-stu-id="9e455-169">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
 
 </div>
 
