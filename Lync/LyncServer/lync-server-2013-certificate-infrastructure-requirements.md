@@ -12,20 +12,22 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e8c96c6b4ad5e19abf2d1f41024932c710786cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18666f33becabcbdf61370a32900ae7a4819e0cb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191045"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508019"
 ---
+# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a><span data-ttu-id="ff85b-102">Lync Server 2013 的证书基础结构要求</span><span class="sxs-lookup"><span data-stu-id="ff85b-102">Certificate infrastructure requirements for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a><span data-ttu-id="9dc2b-102">Lync Server 2013 的证书基础结构要求</span><span class="sxs-lookup"><span data-stu-id="9dc2b-102">Certificate infrastructure requirements for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,64 +37,64 @@ ms.locfileid: "42191045"
 
 <span> </span>
 
-<span data-ttu-id="9dc2b-103">_**上次修改的主题：** 2016-06-23_</span><span class="sxs-lookup"><span data-stu-id="9dc2b-103">_**Topic Last Modified:** 2016-06-23_</span></span>
+<span data-ttu-id="ff85b-103">_**上次修改的主题：** 2016-06-23_</span><span class="sxs-lookup"><span data-stu-id="ff85b-103">_**Topic Last Modified:** 2016-06-23_</span></span>
 
-<span data-ttu-id="9dc2b-104">Lync Server 2013 需要一个公钥基础结构（PKI）来支持 TLS 和相互 TLS （MTLS）连接。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-104">Lync Server 2013 requires a public key infrastructure (PKI) to support TLS and mutual TLS (MTLS) connections.</span></span>
+<span data-ttu-id="ff85b-104">Lync Server 2013 要求 (PKI) 的公钥基础结构，以支持 TLS 和相互 TLS (MTLS) 连接。</span><span class="sxs-lookup"><span data-stu-id="ff85b-104">Lync Server 2013 requires a public key infrastructure (PKI) to support TLS and mutual TLS (MTLS) connections.</span></span>
 
-<span data-ttu-id="9dc2b-105">Lync Server 使用证书实现以下目的：</span><span class="sxs-lookup"><span data-stu-id="9dc2b-105">Lync Server uses certificates for the following purposes:</span></span>
+<span data-ttu-id="ff85b-105">Lync Server 使用证书实现以下目的：</span><span class="sxs-lookup"><span data-stu-id="ff85b-105">Lync Server uses certificates for the following purposes:</span></span>
 
-  - <span data-ttu-id="9dc2b-106">客户端和服务器之间的 TLS 连接</span><span class="sxs-lookup"><span data-stu-id="9dc2b-106">TLS connections between client and server</span></span>
+  - <span data-ttu-id="ff85b-106">客户端和服务器之间的 TLS 连接</span><span class="sxs-lookup"><span data-stu-id="ff85b-106">TLS connections between client and server</span></span>
 
-  - <span data-ttu-id="9dc2b-107">服务器之间的 MTLS 连接</span><span class="sxs-lookup"><span data-stu-id="9dc2b-107">MTLS connections between servers</span></span>
+  - <span data-ttu-id="ff85b-107">服务器之间的 MTLS 连接</span><span class="sxs-lookup"><span data-stu-id="ff85b-107">MTLS connections between servers</span></span>
 
-  - <span data-ttu-id="9dc2b-108">使用自动发现伙伴 DNS 的联盟</span><span class="sxs-lookup"><span data-stu-id="9dc2b-108">Federation using automatic DNS discovery of partners</span></span>
+  - <span data-ttu-id="ff85b-108">使用自动发现伙伴 DNS 的联盟</span><span class="sxs-lookup"><span data-stu-id="ff85b-108">Federation using automatic DNS discovery of partners</span></span>
 
-  - <span data-ttu-id="9dc2b-109">远程用户访问即时消息 (IM)</span><span class="sxs-lookup"><span data-stu-id="9dc2b-109">Remote user access for instant messaging (IM)</span></span>
+  - <span data-ttu-id="ff85b-109">远程用户访问即时消息 (IM)</span><span class="sxs-lookup"><span data-stu-id="ff85b-109">Remote user access for instant messaging (IM)</span></span>
 
-  - <span data-ttu-id="9dc2b-110">外部用户访问音频/视频 (A/V) 会话、应用程序共享和会议</span><span class="sxs-lookup"><span data-stu-id="9dc2b-110">External user access to audio/video (A/V) sessions, application sharing, and conferencing</span></span>
+  - <span data-ttu-id="ff85b-110">外部用户访问音频/视频 (A/V) 会话、应用程序共享和会议</span><span class="sxs-lookup"><span data-stu-id="ff85b-110">External user access to audio/video (A/V) sessions, application sharing, and conferencing</span></span>
 
-  - <span data-ttu-id="9dc2b-111">使用 Web 服务的自动发现的移动请求</span><span class="sxs-lookup"><span data-stu-id="9dc2b-111">Mobile requests using automatic discovery of Web Services</span></span>
+  - <span data-ttu-id="ff85b-111">使用 Web 服务的自动发现的移动请求</span><span class="sxs-lookup"><span data-stu-id="ff85b-111">Mobile requests using automatic discovery of Web Services</span></span>
 
-<span data-ttu-id="9dc2b-112">对于 Lync Server，以下常见要求适用：</span><span class="sxs-lookup"><span data-stu-id="9dc2b-112">For Lync Server, the following common requirements apply:</span></span>
+<span data-ttu-id="ff85b-112">对于 Lync Server，以下常见要求适用：</span><span class="sxs-lookup"><span data-stu-id="ff85b-112">For Lync Server, the following common requirements apply:</span></span>
 
-  - <span data-ttu-id="9dc2b-113">所有服务器证书都必须支持服务器授权（服务器 EKU）。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-113">All server certificates must support server authorization (Server EKU).</span></span>
+  - <span data-ttu-id="ff85b-113">所有服务器证书都必须支持服务器授权（服务器 EKU）。</span><span class="sxs-lookup"><span data-stu-id="ff85b-113">All server certificates must support server authorization (Server EKU).</span></span>
 
-  - <span data-ttu-id="9dc2b-114">所有服务器证书都必须包含一个 CRL 分发点 (CDP)。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-114">All server certificates must contain a CRL Distribution Point (CDP).</span></span>
+  - <span data-ttu-id="ff85b-114">所有服务器证书都必须包含一个 CRL 分发点 (CDP)。</span><span class="sxs-lookup"><span data-stu-id="ff85b-114">All server certificates must contain a CRL Distribution Point (CDP).</span></span>
 
-  - <span data-ttu-id="9dc2b-115">必须使用操作系统支持的签名算法对所有证书进行签名。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-115">All certificates must be signed using a signing algorithm supported by the operating system.</span></span> <span data-ttu-id="9dc2b-116">Lync Server 2013 支持 SHA-1 和 SHA-1 套件的摘要大小（224、256、384和512），并满足或超过操作系统要求。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-116">Lync Server 2013 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements.</span></span> <span data-ttu-id="9dc2b-117">有关操作系统支持，请参阅[https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002)。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-117">For operating system support, see [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002).</span></span>
+  - <span data-ttu-id="ff85b-115">必须使用操作系统支持的签名算法对所有证书进行签名。</span><span class="sxs-lookup"><span data-stu-id="ff85b-115">All certificates must be signed using a signing algorithm supported by the operating system.</span></span> <span data-ttu-id="ff85b-116">Lync Server 2013 支持 SHA-1 和 SHA-1 套件的摘要大小 (224、256、384和512位) ，并满足或超过操作系统要求。</span><span class="sxs-lookup"><span data-stu-id="ff85b-116">Lync Server 2013 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements.</span></span> <span data-ttu-id="ff85b-117">有关操作系统支持，请参阅 [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002) 。</span><span class="sxs-lookup"><span data-stu-id="ff85b-117">For operating system support, see [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="9dc2b-118">不支持使用 RSASSA-PSS 签名算法，这可能会导致登录和呼叫转发问题，以及其他问题中的错误。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-118">Using the RSASSA-PSS signature algorithm is unsupported, and may lead to errors on login and call forwarding issues, among other problems.</span></span>
+    > <span data-ttu-id="ff85b-118">不支持使用 RSASSA-PSS 签名算法，这可能会导致登录和呼叫转发问题，以及其他问题中的错误。</span><span class="sxs-lookup"><span data-stu-id="ff85b-118">Using the RSASSA-PSS signature algorithm is unsupported, and may lead to errors on login and call forwarding issues, among other problems.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="9dc2b-119">运行 Lync Server 的内部服务器支持自动注册。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-119">Auto-enrollment is supported for internal servers running Lync Server.</span></span>
+  - <span data-ttu-id="ff85b-119">运行 Lync Server 的内部服务器支持自动注册。</span><span class="sxs-lookup"><span data-stu-id="ff85b-119">Auto-enrollment is supported for internal servers running Lync Server.</span></span>
 
-  - <span data-ttu-id="9dc2b-120">Lync Server Edge 服务器不支持自动注册。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-120">Auto-enrollment is not supported for Lync Server Edge Servers.</span></span>
+  - <span data-ttu-id="ff85b-120">Lync Server Edge 服务器不支持自动注册。</span><span class="sxs-lookup"><span data-stu-id="ff85b-120">Auto-enrollment is not supported for Lync Server Edge Servers.</span></span>
 
-  - <span data-ttu-id="9dc2b-121">向 Windows Server 2003 CA 提交基于 Web 的证书请求时，必须在运行 Windows Server 2003 SP2 或 Windows XP 的计算机上进行提交。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-121">When you submit a web-based certificate request to a Windows Server 2003 CA, you must submit it from a computer running either Windows Server 2003 with SP2 or Windows XP.</span></span>
+  - <span data-ttu-id="ff85b-121">向 Windows Server 2003 CA 提交基于 Web 的证书请求时，必须在运行 Windows Server 2003 SP2 或 Windows XP 的计算机上进行提交。</span><span class="sxs-lookup"><span data-stu-id="ff85b-121">When you submit a web-based certificate request to a Windows Server 2003 CA, you must submit it from a computer running either Windows Server 2003 with SP2 or Windows XP.</span></span>
     
-    <span data-ttu-id="9dc2b-122">请注意，虽然 KB922706 针对 Windows Server 2003 证书服务 Web 注册为解决 Web 证书注册问题提供支持，但这并不意味着可以使用 Windows Server 2008、Windows Vista 或 Windows 7 从 Windows Server 2003 CA 请求证书。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-122">Note that although KB922706 provides support for resolving issues with enrolling web certificates against a Windows Server 2003 Certificate Services web enrollment, it does not make it possible to use Windows Server 2008, Windows Vista, or Windows 7 to request a certificate from a Windows Server 2003 CA.</span></span>
+    <span data-ttu-id="ff85b-122">请注意，虽然 KB922706 针对 Windows Server 2003 证书服务 Web 注册为解决 Web 证书注册问题提供支持，但这并不意味着可以使用 Windows Server 2008、Windows Vista 或 Windows 7 从 Windows Server 2003 CA 请求证书。</span><span class="sxs-lookup"><span data-stu-id="ff85b-122">Note that although KB922706 provides support for resolving issues with enrolling web certificates against a Windows Server 2003 Certificate Services web enrollment, it does not make it possible to use Windows Server 2008, Windows Vista, or Windows 7 to request a certificate from a Windows Server 2003 CA.</span></span>
 
-  - <span data-ttu-id="9dc2b-123">支持的加密密钥长度为1024、2048和4096。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-123">Encryption key lengths of 1024, 2048, and 4096 are supported.</span></span> <span data-ttu-id="9dc2b-124">建议使用大于或等于2048的密钥长度。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-124">Key lengths of 2048 and greater are recommended.</span></span>
+  - <span data-ttu-id="ff85b-123">支持的加密密钥长度为1024、2048和4096。</span><span class="sxs-lookup"><span data-stu-id="ff85b-123">Encryption key lengths of 1024, 2048, and 4096 are supported.</span></span> <span data-ttu-id="ff85b-124">建议使用大于或等于2048的密钥长度。</span><span class="sxs-lookup"><span data-stu-id="ff85b-124">Key lengths of 2048 and greater are recommended.</span></span>
 
-  - <span data-ttu-id="9dc2b-125">默认摘要或哈希签名算法为 RSA。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-125">The default digest, or hash signing, algorithm is RSA.</span></span> <span data-ttu-id="9dc2b-126">此外，\_还支持 ecdh\_P256、ecdh P384\_和 ECDH P521 算法。</span><span class="sxs-lookup"><span data-stu-id="9dc2b-126">The ECDH\_P256, ECDH\_P384, and ECDH\_P521 algorithms are also supported.</span></span> 
+  - <span data-ttu-id="ff85b-125">默认摘要或哈希签名算法为 RSA。</span><span class="sxs-lookup"><span data-stu-id="ff85b-125">The default digest, or hash signing, algorithm is RSA.</span></span> <span data-ttu-id="ff85b-126">此外， \_ 还支持 ecdh P256、ecdh \_ P384 和 ECDH \_ P521 算法。</span><span class="sxs-lookup"><span data-stu-id="ff85b-126">The ECDH\_P256, ECDH\_P384, and ECDH\_P521 algorithms are also supported.</span></span> 
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9dc2b-127">本部分内容</span><span class="sxs-lookup"><span data-stu-id="9dc2b-127">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ff85b-127">本部分内容</span><span class="sxs-lookup"><span data-stu-id="ff85b-127">In This Section</span></span>
 
-  - [<span data-ttu-id="9dc2b-128">Lync Server 2013 中的内部服务器的证书要求</span><span class="sxs-lookup"><span data-stu-id="9dc2b-128">Certificate requirements for internal servers in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-internal-servers.md)
+  - [<span data-ttu-id="ff85b-128">Lync Server 2013 中的内部服务器的证书要求</span><span class="sxs-lookup"><span data-stu-id="ff85b-128">Certificate requirements for internal servers in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
-  - [<span data-ttu-id="9dc2b-129">Lync Server 2013 中的外部用户访问的证书要求</span><span class="sxs-lookup"><span data-stu-id="9dc2b-129">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - [<span data-ttu-id="ff85b-129">Lync Server 2013 中的外部用户访问的证书要求</span><span class="sxs-lookup"><span data-stu-id="ff85b-129">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
-  - [<span data-ttu-id="9dc2b-130">Lync Server 2013 中持久聊天服务器的证书要求</span><span class="sxs-lookup"><span data-stu-id="9dc2b-130">Certificate requirements for Persistent Chat server in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-persistent-chat-server.md)
+  - [<span data-ttu-id="ff85b-130">Lync Server 2013 中持久聊天服务器的证书要求</span><span class="sxs-lookup"><span data-stu-id="ff85b-130">Certificate requirements for Persistent Chat server in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-persistent-chat-server.md)
 
-  - [<span data-ttu-id="9dc2b-131">Lync Server 2013 中的移动性证书要求</span><span class="sxs-lookup"><span data-stu-id="9dc2b-131">Certificate requirements for mobility in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-mobility.md)
+  - [<span data-ttu-id="ff85b-131">Lync Server 2013 中的移动性证书要求</span><span class="sxs-lookup"><span data-stu-id="ff85b-131">Certificate requirements for mobility in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-mobility.md)
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 964716509feb0bf1101181693e5ab777de6736ab
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f77c0bc46054cd3cb045c07be0d8aac99c81947a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508449"
 ---
+# <a name="manage-add-ins"></a><span data-ttu-id="f9c48-102">管理加载项</span><span class="sxs-lookup"><span data-stu-id="f9c48-102">Manage add-ins</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-add-ins"></a><span data-ttu-id="8cad5-102">管理加载项</span><span class="sxs-lookup"><span data-stu-id="8cad5-102">Manage add-ins</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "44757193"
 
 <span> </span>
 
-<span data-ttu-id="8cad5-103">_**上次修改的主题：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="8cad5-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="f9c48-103">_**上次修改的主题：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f9c48-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="8cad5-104">创建新的持久聊天服务器外接</span><span class="sxs-lookup"><span data-stu-id="8cad5-104">To create a new Persistent Chat Server Add-in</span></span>
+<span data-ttu-id="f9c48-104">创建新的持久聊天服务器外接</span><span class="sxs-lookup"><span data-stu-id="f9c48-104">To create a new Persistent Chat Server Add-in</span></span>
 
     New-CsPersistentChatAddin -Name Contoso -PersistentChatPoolFqdn client.contoso.com -Url http://contoso.com 
 
 <div>
 
-## <a name="create-get-set-or-remove-an-add-in"></a><span data-ttu-id="8cad5-105">创建、获取、设置或删除外接程序</span><span class="sxs-lookup"><span data-stu-id="8cad5-105">Create, Get, Set, or Remove an Add-in</span></span>
+## <a name="create-get-set-or-remove-an-add-in"></a><span data-ttu-id="f9c48-105">创建、获取、设置或删除外接程序</span><span class="sxs-lookup"><span data-stu-id="f9c48-105">Create, Get, Set, or Remove an Add-in</span></span>
 
-<span data-ttu-id="8cad5-106">创建新的外接程序</span><span class="sxs-lookup"><span data-stu-id="8cad5-106">To create a new Add-in</span></span>
+<span data-ttu-id="f9c48-106">创建新的外接程序</span><span class="sxs-lookup"><span data-stu-id="f9c48-106">To create a new Add-in</span></span>
 
     New-CsPersistentChatAddin -PersistentChatPoolFqdn <String> -Name <String> -Url<String>
 
@@ -53,33 +55,33 @@ ms.locfileid: "44757193"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="8cad5-107">&lt; &gt; 仅当存在多个持久聊天服务器池时，才需要 PersistentChatPoolFqdn 字符串。</span><span class="sxs-lookup"><span data-stu-id="8cad5-107">PersistentChatPoolFqdn &lt;String&gt; is required only if there is more than one Persistent Chat Server pool.</span></span>
+> <span data-ttu-id="f9c48-107">&lt; &gt; 仅当存在多个持久聊天服务器池时，才需要 PersistentChatPoolFqdn 字符串。</span><span class="sxs-lookup"><span data-stu-id="f9c48-107">PersistentChatPoolFqdn &lt;String&gt; is required only if there is more than one Persistent Chat Server pool.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="8cad5-108">获取外接程序</span><span class="sxs-lookup"><span data-stu-id="8cad5-108">To get an Add-in</span></span>
+<span data-ttu-id="f9c48-108">获取外接程序</span><span class="sxs-lookup"><span data-stu-id="f9c48-108">To get an Add-in</span></span>
 
     Get-CsPersistentChatAddin -Identity <String>]
 
-<span data-ttu-id="8cad5-109">或</span><span class="sxs-lookup"><span data-stu-id="8cad5-109">or</span></span>
+<span data-ttu-id="f9c48-109">或</span><span class="sxs-lookup"><span data-stu-id="f9c48-109">or</span></span>
 
     Get-CsPersistentChatAddin -PersistentChatPoolFqdn <String>
 
-<span data-ttu-id="8cad5-110">设置外接程序</span><span class="sxs-lookup"><span data-stu-id="8cad5-110">To set an Add-in</span></span>
+<span data-ttu-id="f9c48-110">设置外接程序</span><span class="sxs-lookup"><span data-stu-id="f9c48-110">To set an Add-in</span></span>
 
     Set-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="8cad5-111">或</span><span class="sxs-lookup"><span data-stu-id="8cad5-111">or</span></span>
+<span data-ttu-id="f9c48-111">或</span><span class="sxs-lookup"><span data-stu-id="f9c48-111">or</span></span>
 
     Set-CsPersistentChatAddIn -Identity <String> [-Name <String>] [-Url<String>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="8cad5-112">删除外接程序</span><span class="sxs-lookup"><span data-stu-id="8cad5-112">To remove an Add-in</span></span>
+<span data-ttu-id="f9c48-112">删除外接程序</span><span class="sxs-lookup"><span data-stu-id="f9c48-112">To remove an Add-in</span></span>
 
     Remove-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="8cad5-113">或</span><span class="sxs-lookup"><span data-stu-id="8cad5-113">or</span></span>
+<span data-ttu-id="f9c48-113">或</span><span class="sxs-lookup"><span data-stu-id="f9c48-113">or</span></span>
 
     Remove-CsPersistentChatAddIn -Identity <String> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

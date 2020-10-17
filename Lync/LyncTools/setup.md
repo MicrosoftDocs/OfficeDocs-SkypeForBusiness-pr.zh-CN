@@ -12,20 +12,22 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e6975c37b201edf25bbe470de9bd00abdececcb
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: b5cd5ef156a61daa0c57ffbaf692f56af6691b76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756853"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509079"
 ---
+# <a name="setup"></a><span data-ttu-id="dfef5-102">设置</span><span class="sxs-lookup"><span data-stu-id="dfef5-102">Setup</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a><span data-ttu-id="7a627-102">设置</span><span class="sxs-lookup"><span data-stu-id="7a627-102">Setup</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "44756853"
 
 <span> </span>
 
-<span data-ttu-id="7a627-103">_**上次修改的主题：** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="7a627-103">_**Topic Last Modified:** 2014-04-22_</span></span>
+<span data-ttu-id="dfef5-103">_**上次修改的主题：** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="dfef5-103">_**Topic Last Modified:** 2014-04-22_</span></span>
 
-<span data-ttu-id="7a627-104">若要安装作为 Lync Server 2013 压力和性能工具的一部分提供的工具，请按照以下说明操作。</span><span class="sxs-lookup"><span data-stu-id="7a627-104">To install the tools provided as part of Lync Server 2013 Stress and Performance Tool, follow these instructions.</span></span>
+<span data-ttu-id="dfef5-104">若要安装作为 Lync Server 2013 压力和性能工具的一部分提供的工具，请按照以下说明操作。</span><span class="sxs-lookup"><span data-stu-id="dfef5-104">To install the tools provided as part of Lync Server 2013 Stress and Performance Tool, follow these instructions.</span></span>
 
 <div>
 
-## <a name="installing-the-stress-and-performance-tool"></a><span data-ttu-id="7a627-105">安装压力和性能工具</span><span class="sxs-lookup"><span data-stu-id="7a627-105">Installing the Stress and Performance Tool</span></span>
+## <a name="installing-the-stress-and-performance-tool"></a><span data-ttu-id="dfef5-105">安装压力和性能工具</span><span class="sxs-lookup"><span data-stu-id="dfef5-105">Installing the Stress and Performance Tool</span></span>
 
-<span data-ttu-id="7a627-106">在将用于模拟用户流量的每台客户端计算机上运行 Windows Installer 文件**CapacityPlanningTool.msi**。</span><span class="sxs-lookup"><span data-stu-id="7a627-106">Run the Windows Installer file, **CapacityPlanningTool.msi**, on each client computer that you will be using to simulate user traffic.</span></span> <span data-ttu-id="7a627-107">这些客户端计算机不得运行任何 Lync Server 组件。</span><span class="sxs-lookup"><span data-stu-id="7a627-107">These client computers must not be running any Lync Server components.</span></span>
+<span data-ttu-id="dfef5-106">在将用于模拟用户流量的每台客户端计算机上运行 Windows Installer 文件 **CapacityPlanningTool.msi**。</span><span class="sxs-lookup"><span data-stu-id="dfef5-106">Run the Windows Installer file, **CapacityPlanningTool.msi**, on each client computer that you will be using to simulate user traffic.</span></span> <span data-ttu-id="dfef5-107">这些客户端计算机不得运行任何 Lync Server 组件。</span><span class="sxs-lookup"><span data-stu-id="dfef5-107">These client computers must not be running any Lync Server components.</span></span>
 
 </div>
 

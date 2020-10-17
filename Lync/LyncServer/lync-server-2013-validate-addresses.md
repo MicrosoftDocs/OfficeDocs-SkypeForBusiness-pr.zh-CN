@@ -12,20 +12,22 @@ ms:contentKeyID: 48185108
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb35c064c304360adb27ecae73dd93c0e616711a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4bf8ebf2dd3da00adbd4719dd749c59eeeee82b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212568"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508619"
 ---
+# <a name="validate-addresses-in-lync-server-2013"></a><span data-ttu-id="89ded-102">在 Lync Server 2013 中验证地址</span><span class="sxs-lookup"><span data-stu-id="89ded-102">Validate addresses in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validate-addresses-in-lync-server-2013"></a><span data-ttu-id="a3b06-102">在 Lync Server 2013 中验证地址</span><span class="sxs-lookup"><span data-stu-id="a3b06-102">Validate addresses in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,40 +37,40 @@ ms.locfileid: "42212568"
 
 <span> </span>
 
-<span data-ttu-id="a3b06-103">_**上次修改的主题：** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="a3b06-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="89ded-103">_**上次修改的主题：** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="89ded-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="a3b06-104">在发布位置数据库之前，必须根据您的 SIP 中继或公用电话交换网（PSTN） E9-1-1 服务提供商维护的主街道地址指南（MSAG）验证新位置。</span><span class="sxs-lookup"><span data-stu-id="a3b06-104">Before publishing the location database, you must validate new locations against the Master Street Address Guide (MSAG) that is maintained by your SIP trunk or public switched telephone network (PSTN) E9-1-1 service provider.</span></span>
+<span data-ttu-id="89ded-104">在发布位置数据库之前，必须根据您的 SIP 中继或公用电话交换网 (PSTN) E9-1-1 服务提供商维护的主街道地址指南 (MSAG) 验证新位置。</span><span class="sxs-lookup"><span data-stu-id="89ded-104">Before publishing the location database, you must validate new locations against the Master Street Address Guide (MSAG) that is maintained by your SIP trunk or public switched telephone network (PSTN) E9-1-1 service provider.</span></span>
 
-<span data-ttu-id="a3b06-105">有关 SIP 中继 E9-1-1 服务提供商的详细信息，请参阅[为 Lync Server 2013 选择 E9-1-1 服务提供商](lync-server-2013-choosing-an-e9-1-1-service-provider.md)。</span><span class="sxs-lookup"><span data-stu-id="a3b06-105">For details about SIP trunk E9-1-1 service providers, see [Choosing an E9-1-1 service provider for Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).</span></span>
+<span data-ttu-id="89ded-105">有关 SIP 中继 E9-1-1 服务提供商的详细信息，请参阅 [为 Lync Server 2013 选择 E9-1-1 服务提供商](lync-server-2013-choosing-an-e9-1-1-service-provider.md)。</span><span class="sxs-lookup"><span data-stu-id="89ded-105">For details about SIP trunk E9-1-1 service providers, see [Choosing an E9-1-1 service provider for Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).</span></span>
 
-<span data-ttu-id="a3b06-106">有关验证地址的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="a3b06-106">For details about validating addresses, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="89ded-106">有关验证地址的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="89ded-106">For details about validating addresses, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - <span data-ttu-id="a3b06-107">**CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="a3b06-107">**Get-CsLisServiceProvider**</span></span>
+  - <span data-ttu-id="89ded-107">**CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="89ded-107">**Get-CsLisServiceProvider**</span></span>
 
-  - <span data-ttu-id="a3b06-108">**CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="a3b06-108">**Set-CsLisServiceProvider**</span></span>
+  - <span data-ttu-id="89ded-108">**CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="89ded-108">**Set-CsLisServiceProvider**</span></span>
 
-  - <span data-ttu-id="a3b06-109">**CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="a3b06-109">**Remove-CsLisServiceProvider**</span></span>
+  - <span data-ttu-id="89ded-109">**CsLisServiceProvider**</span><span class="sxs-lookup"><span data-stu-id="89ded-109">**Remove-CsLisServiceProvider**</span></span>
 
-  - <span data-ttu-id="a3b06-110">**CsLisCivicAddress**</span><span class="sxs-lookup"><span data-stu-id="a3b06-110">**Get-CsLisCivicAddress**</span></span>
+  - <span data-ttu-id="89ded-110">**CsLisCivicAddress**</span><span class="sxs-lookup"><span data-stu-id="89ded-110">**Get-CsLisCivicAddress**</span></span>
 
-  - <span data-ttu-id="a3b06-111">**Test-CsLisCivicAddress**</span><span class="sxs-lookup"><span data-stu-id="a3b06-111">**Test-CsLisCivicAddress**</span></span>
+  - <span data-ttu-id="89ded-111">**Test-CsLisCivicAddress**</span><span class="sxs-lookup"><span data-stu-id="89ded-111">**Test-CsLisCivicAddress**</span></span>
 
 <div>
 
-## <a name="to-validate-addresses-located-in-the-location-database"></a><span data-ttu-id="a3b06-112">验证位于位置数据库中的地址</span><span class="sxs-lookup"><span data-stu-id="a3b06-112">To validate addresses located in the location database</span></span>
+## <a name="to-validate-addresses-located-in-the-location-database"></a><span data-ttu-id="89ded-112">验证位于位置数据库中的地址</span><span class="sxs-lookup"><span data-stu-id="89ded-112">To validate addresses located in the location database</span></span>
 
-1.  <span data-ttu-id="a3b06-113">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a3b06-113">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="89ded-113">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="89ded-113">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="a3b06-114">运行以下 cmdlet 以配置紧急服务提供程序连接。</span><span class="sxs-lookup"><span data-stu-id="a3b06-114">Run the following cmdlets to configure the emergency service provider connection.</span></span>
+2.  <span data-ttu-id="89ded-114">运行以下 cmdlet 以配置紧急服务提供程序连接。</span><span class="sxs-lookup"><span data-stu-id="89ded-114">Run the following cmdlets to configure the emergency service provider connection.</span></span>
     
         $pwd = Read-Host -AsSecureString <password>
         Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
 
-3.  <span data-ttu-id="a3b06-115">运行以下 cmdlet 以验证位置数据库中的地址。</span><span class="sxs-lookup"><span data-stu-id="a3b06-115">Run the following cmdlet to validate the addresses in the location database.</span></span>
+3.  <span data-ttu-id="89ded-115">运行以下 cmdlet 以验证位置数据库中的地址。</span><span class="sxs-lookup"><span data-stu-id="89ded-115">Run the following cmdlet to validate the addresses in the location database.</span></span>
     
         Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
     
-    <span data-ttu-id="a3b06-116">您还可以使用**CsLisCivicAddress** cmdlet 来验证各个地址。</span><span class="sxs-lookup"><span data-stu-id="a3b06-116">You can also use the **Test-CsLisCivicAddress** cmdlet to validate individual addresses.</span></span>
+    <span data-ttu-id="89ded-116">您还可以使用 **CsLisCivicAddress** cmdlet 来验证各个地址。</span><span class="sxs-lookup"><span data-stu-id="89ded-116">You can also use the **Test-CsLisCivicAddress** cmdlet to validate individual addresses.</span></span>
 
 </div>
 
