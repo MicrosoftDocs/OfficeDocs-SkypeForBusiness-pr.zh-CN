@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：备份和还原的最佳实践
+description: Lync Server 2013：备份和还原的最佳实践。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca14913d063a8691d0477af912e70e72b91143fa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3e8875f03a7b4445af8274ef059f3abad4d21ff8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535199"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552168"
 ---
 # <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a>Lync Server 2013 备份和还原的最佳实践
 

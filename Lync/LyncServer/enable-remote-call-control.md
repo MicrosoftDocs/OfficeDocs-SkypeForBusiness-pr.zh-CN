@@ -1,5 +1,6 @@
 ---
 title: 启用远程呼叫控制
+description: 启用远程呼叫控制。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183380
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa81c938d69aedbc599194c1d820fa4c40e3337
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8009ffc927ad3f7a4f83ad3505100f3a9d4e82d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502889"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551128"
 ---
 # <a name="enable-remote-call-control"></a>启用远程呼叫控制
 
@@ -55,7 +56,7 @@ _**上次修改的主题：** 2012-10-02_
 
 4.  通过启用远程呼叫控制并分配线路服务器统一资源标识符 (URI) 和线路 URI，为 Lync 2013 用户配置远程呼叫控制。 将用户从旧版部署迁移到 Lync Server 2013 时，远程呼叫控制设置将随其他用户设置一起迁移。
 
-5.  如果您在旧部署中自定义了通讯簿电话号码规范化规则，则完成策略和设置的自动迁移后，需要执行一些手动操作以迁移自定义的规范化规则。 如果未自定义规范化规则，通讯簿将随拓扑的其余部分一起迁移。 有关手动迁移自定义规范化规则的详细信息，请参阅[Migrate Address Book](migrate-address-book_1.md)。
+5.  如果您在旧部署中自定义了通讯簿电话号码规范化规则，则完成策略和设置的自动迁移后，需要执行一些手动操作以迁移自定义的规范化规则。 如果未自定义规范化规则，通讯簿将随拓扑的其余部分一起迁移。 有关手动迁移自定义规范化规则的详细信息，请参阅[Migrate Address Book](migrate-address-book.md)。
 
 </div>
 

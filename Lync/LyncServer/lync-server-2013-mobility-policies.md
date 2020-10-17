@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：移动策略
+description: Lync Server 2013：移动策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18df28fec6d7e38dd58aa2c9e9068bb2dee4b731
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4d6478fd622c424682dfa5e9325489dc4c2f54ef
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519889"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550518"
 ---
 # <a name="mobility-policies-in-lync-server-2013"></a>Lync Server 2013 中的移动策略
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：通知应用程序的技术要求
+description: Lync Server 2013：通知应用程序的技术要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54371acb29bcc7d9b6581cbfd26199888dcfe893
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: adc5019408b79301bbcda3993ceb7d96ee4d9b7d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536099"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550308"
 ---
 # <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 中通知应用程序的技术要求
 

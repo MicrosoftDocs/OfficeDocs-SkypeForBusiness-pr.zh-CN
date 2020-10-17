@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：修改拨号计划
+description: Lync Server 2013：修改拨号计划。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185099
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db84f9b353450419a8cc8029e4a24d01f0df76b5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9e173552970c6b1799076b3f3b05d59ed6f0719e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534409"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550498"
 ---
 # <a name="modify-a-dial-plan-in-lync-server-2013"></a>在 Lync Server 2013 中修改拨号计划
 

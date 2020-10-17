@@ -1,5 +1,6 @@
 ---
 title: 在 Lync Server 2013 中部署 SQL Server 非标准端口和别名
+description: 在 Lync Server 2013 中部署 SQL Server 非标准端口和别名。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8721cc82651710ab5fc8158eeb6f297f80847c33
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: da76db2b946a47e13fe3549d7184b0b12894a83a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502909"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551228"
 ---
 # <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SQL Server 非标准端口和别名
 

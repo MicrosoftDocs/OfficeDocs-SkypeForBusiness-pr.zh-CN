@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 服务器硬件平台
+description: Lync Server 2013 服务器硬件平台。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb5c5cbe1ef98a4028f8b05d96e4acc90cae7963
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d55deec50994d70cf305b794662a630c16c3af14
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510269"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551378"
 ---
 # <a name="server-hardware-platforms-for-lync-server-2013"></a>Lync Server 2013 的服务器硬件平台
 

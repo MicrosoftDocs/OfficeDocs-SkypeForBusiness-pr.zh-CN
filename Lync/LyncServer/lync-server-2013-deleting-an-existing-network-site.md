@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：删除现有网络站点
+description: Lync Server 2013：删除现有网络站点。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d37e08eddac5b6166043a45d7e669c7e0ecd71a3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7cef4774ee71aaf6851757d5b88d30138fc34997
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525379"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551068"
 ---
 # <a name="deleting-an-existing-network-site-in-lync-server-2013"></a>删除 Lync Server 2013 中的现有网络站点
 

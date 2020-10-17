@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：管理 PIN 策略
+description: Lync Server 2013：管理 PIN 策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 092ac9c50c70167331679055f4325ae867f04425
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5eec2670750a6bad496ac5b4af55072c1c237e5c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497919"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551508"
 ---
 # <a name="managing-pin-policies-in-lync-server-2013"></a>在 Lync Server 2013 中管理 PIN 策略
 

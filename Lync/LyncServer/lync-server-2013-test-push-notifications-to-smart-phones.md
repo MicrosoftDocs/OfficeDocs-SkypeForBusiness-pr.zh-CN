@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：测试向智能手机发出的推送通知
+description: Lync Server 2013：测试向智能手机发出的推送通知。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0e8d6198fc022c03e69e68475d77f513d577ad4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4b92ef444a5331c9a673fd2db506631554e96eea
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519199"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550838"
 ---
 # <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>在 Lync Server 2013 中测试到智能手机的推送通知
 

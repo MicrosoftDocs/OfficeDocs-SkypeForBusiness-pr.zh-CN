@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：反向代理的配置要求
+description: Lync Server 2013：反向代理的配置要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 555169f6de67ae23bc63d81aad549b0033a6696c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 75f3f5b9437ba4518e3feffc193853b446b702d0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507739"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552138"
 ---
 # <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中反向代理的配置要求
 

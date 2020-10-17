@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置管理
+description: Lync Server 2013：配置管理。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de390f21c76a9636fc9ba2d6a7d3ee017681b6ba
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f5999708811cc4a34cf846a1ddd481ba38e07c62
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507829"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552148"
 ---
 # <a name="configuration-management-in-lync-server-2013"></a>Lync Server 2013 中的配置管理
 
