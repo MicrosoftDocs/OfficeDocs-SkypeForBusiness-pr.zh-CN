@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online 中使用全局作用域和标记作用域的 cmdlet
+description: Skype for Business Online 中使用全局作用域和标签作用域的 cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,19 +14,19 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8063334f2cea6fcca768754197bacbd30869461
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ba89ebe7322159027c5de765117afd366cb3dc23
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755072"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545618"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>Skype for Business Online 中使用全局作用域和标记作用域的 cmdlet
 
  
 
 
-在 Skype for Business Online 中，可以在*全局范围*或在*标记范围*（或*每用户范围*）内配置策略。 使用**Cs** cmdlet 时，不必指定范围或标识。 如果调用其中一个不带任何参数的 cmdlet，则将返回所有相关项目。 例如，以下命令将返回有关所有外部访问策略的信息：
+在 Skype for Business Online 中，可以在 *全局作用域* 或在 *标记作用* 域 (或 *按用户范围*) 配置策略。 使用 **Cs** cmdlet 时，不必指定范围或标识。 如果调用其中一个不带任何参数的 cmdlet，则将返回所有相关项目。 例如，以下命令将返回有关所有外部访问策略的信息：
 
     Get-CsExternalAccessPolicy
 
@@ -39,15 +40,15 @@ ms.locfileid: "44755072"
 
 
 > [!NOTE]  
-> 在引用每用户策略时，标记<STRONG>前缀</STRONG>是可选的。 此语法（包括前缀）也有效：<BR>Set-csexternalaccesspolicy – Identity "标记： RedmondAccessPolicy"
+> 在引用每用户策略时，标记 <STRONG>前缀</STRONG> 是可选的。 此语法（包括前缀）也有效：<BR>Get-CsExternalAccessPolicy – Identity "标记： RedmondAccessPolicy"
 
 
 
-若要返回除全局策略之外的所有策略（即每个用户的所有策略），请使用以下命令：
+若要返回除全局策略 (的所有策略，即所有按用户的策略) ，请使用以下命令：
 
     Get-CsExternalAccessPolicy -Filter "tag:*"
 
-以下 cmdlet 对全局作用域和每用户（标记）作用域运行：
+以下 cmdlet 对全局作用域和每用户 (标记) 作用域进行操作：
 
   - [Set-csclientpolicy](https://technet.microsoft.com/library/gg398830\(v=ocs.15\))
 
@@ -65,7 +66,7 @@ ms.locfileid: "44755072"
 
 
 > [!NOTE]  
-> 尽管名称，但在功能上讲，拨号计划是策略。 使用 "<EM>拨号计划</EM>" 来代替（例如，拨号策略），以保留旧版 Lync Server 使用的术语。
+> 尽管名称，但在功能上讲，拨号计划是策略。 使用 " <EM>拨号计划</EM> " 来代替（例如，拨号策略），以保留旧版 Lync Server 使用的术语。
 
 
 

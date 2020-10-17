@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：在客户端计算机上配置个人联系人存储
+description: Lync Server 2013：在客户端计算机上配置个人联系人存储。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6020182c0083ecadcb65c07fa71be213f9458f0f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c1040b3eb9aa38e3e0c537d690b9292ab8f1ead2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532339"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544188"
 ---
 # <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>在客户端计算机上为 Lync Server 2013 配置个人联系人存储
 

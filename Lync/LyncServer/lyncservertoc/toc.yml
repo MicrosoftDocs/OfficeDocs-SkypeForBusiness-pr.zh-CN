@@ -29,7 +29,7 @@
               items:
                 - name: 拓扑生成器支持 SQL Server 镜像
                   href: ../lync-server-2013-topology-builder-supports-sql-server-mirroring.md
-                - name: 新的基于角色的访问控制（RBAC）功能
+                - name: ' (RBAC) 功能的新的基于角色的访问控制'
                   href: ../lync-server-2013-has-new-role-based-access-control-features.md
                 - name: 持久聊天管理工具的集成
                   href: ../lync-server-2013-integration-of-persistent-chat-management-tools.md
@@ -142,9 +142,9 @@
               href: ../lync-server-2013-certificate-infrastructure-support.md
             - name: 通配符证书支持
               href: ../lync-server-2013-wildcard-certificate-support.md
-            - name: 域名系统（DNS）基础结构支持
+            - name: 域名系统 (DNS) 基础结构支持
               href: ../lync-server-2013-dns-infrastructure-support.md
-            - name: Internet Information Services （IIS）支持
+            - name: Internet 信息服务 (IIS) 支持
               href: ../lync-server-2013-iis-support.md
             - name: IP 和网络协议支持
               href: ../lync-server-2013-ip-and-networking-protocol-support.md
@@ -159,7 +159,7 @@
                   href: ../lync-server-2013-sip-trunking-support.md
                 - name: 直接 SIP 连接支持
                   href: ../lync-server-2013-direct-sip-connections-support.md
-                - name: Exchange 统一消息（UM）支持
+                - name: Exchange 统一消息 (UM) 支持
                   href: ../lync-server-2013-exchange-unified-messaging-um-support.md
                   items:
                     - name: 本地统一消息的组件和拓扑
@@ -247,7 +247,7 @@
                   href: ../lync-server-2013-certificate-requirements-for-persistent-chat-server.md
                 - name: 移动性的证书要求
                   href: ../lync-server-2013-certificate-requirements-for-mobility.md
-            - name: Internet Information Services （IIS）要求
+            - name: Internet 信息服务 (IIS) 要求
               href: ../lync-server-2013-internet-information-services-iis-requirements.md
               items:
                 - name: 前端池和 Standard Edition 服务器的 IIS 要求
@@ -280,7 +280,7 @@
               items:
                 - name: 硬件负载平衡器要求
                   href: ../lync-server-2013-hardware-load-balancer-requirements.md
-            - name: 域名系统（DNS）要求
+            - name: 域名系统 (DNS) 要求
               href: ../lync-server-2013-domain-name-system-dns-requirements.md
               items:
                 - name: 确定 DNS 要求
@@ -316,7 +316,7 @@
                       href: ../lync-server-2013-dns-summary-reverse-proxy.md
                     - name: DNS 摘要-SIP、XMPP 联合身份验证和公共即时消息
                       href: ../lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md
-                    - name: DNS 摘要-可扩展消息传递和状态协议（XMPP）联盟
+                    - name: DNS 摘要-可扩展消息传递和状态协议 (XMPP) 联盟
                       href: ../lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md
             - name: 端口要求
               href: ../lync-server-2013-port-requirements.md
@@ -341,11 +341,11 @@
                   href: ../lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md
                 - name: 端口摘要-公共即时消息连接
                   href: ../lync-server-2013-port-summary-public-instant-messaging-connectivity.md
-                - name: 端口摘要-可扩展消息传递和状态协议（XMPP）联盟
+                - name: 端口摘要-可扩展消息传递和状态协议 (XMPP) 联盟
                   href: ../lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md
             - name: 媒体流量的网络带宽要求
               href: ../lync-server-2013-network-bandwidth-requirements-for-media-traffic.md
-            - name: 管理服务质量（QoS）
+            - name: '管理服务质量 (QoS) '
               href: ../lync-server-2013-managing-quality-of-service-qos.md
         - name: 容量规划
           href: ../lync-server-2013-capacity-planning.md
@@ -446,7 +446,7 @@
         - name: 规划可管理性和虚拟化
           href: ../lync-server-2013-planning-for-manageability-and-virtualization.md
           items:
-            - name: 规划基于角色的访问控制（RBAC）
+            - name: '规划基于角色的访问控制 (RBAC) '
               href: ../lync-server-2013-planning-for-role-based-access-control.md
             - name: 规划简单 Url
               href: ../lync-server-2013-planning-for-simple-urls.md
@@ -466,7 +466,7 @@
                       href: ../lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md
                     - name: 为用户注册智能卡身份验证
                       href: ../lync-server-2013-enrolling-users-for-smart-card-authentication.md
-                    - name: 配置 Active Directory 联合身份验证服务（AD FS 2.0）
+                    - name: '配置 Active Directory 联合身份验证服务 (AD FS 2.0) '
                       href: ../lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md
                     - name: 配置 AD FS 2.0 以支持客户端身份验证
                       href: ../lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md
@@ -669,14 +669,14 @@
                           href: ../lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md
                         - name: 端口摘要-公共即时消息连接
                           href: ../lync-server-2013-port-summary-public-instant-messaging-connectivity.md
-                    - name: 规划可扩展消息传递和状态协议（XMPP）联盟
+                    - name: 规划可扩展消息和状态协议 (XMPP) 联盟
                       href: ../lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md
                       items:
-                        - name: 证书摘要-可扩展消息传递和状态协议（XMPP）联盟
+                        - name: 证书摘要-可扩展消息传递和状态协议 (XMPP) 联盟
                           href: ../lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md
-                        - name: 端口摘要-可扩展消息传递和状态协议（XMPP）联盟
+                        - name: 端口摘要-可扩展消息传递和状态协议 (XMPP) 联盟
                           href: ../lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md
-                        - name: DNS 摘要-可扩展消息传递和状态协议（XMPP）联盟
+                        - name: DNS 摘要-可扩展消息传递和状态协议 (XMPP) 联盟
                           href: ../lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md
                     - name: 规划 Lync Server 和 Office 通信服务器联合
                       href: ../lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md
@@ -792,7 +792,7 @@
                       href: ../lync-server-2013-pstn-gateway-deployment-options.md
                 - name: 'M:N 中继'
                   href: ../lync-server-2013-m-n-trunk.md
-                - name: 中继间路由
+                - name: 内部中继路由
                   href: ../lync-server-2013-inter-trunk-routing.md
                 - name: 转换规则
                   href: ../lync-server-2013-translation-rules.md
@@ -836,7 +836,7 @@
                   href: ../lync-server-2013-hosted-exchange-contact-object-management.md
                 - name: 将托管 Exchange UM 与 Lync Server 集成的部署过程
                   href: ../lync-server-2013-deployment-process-for-integrating-hosted-exchange-um.md
-            - name: 规划呼叫允许控制（CAC）
+            - name: '规划呼叫允许控制 (CAC) '
               href: ../lync-server-2013-planning-for-call-admission-control.md
               items:
                 - name: 呼叫允许控制概述
@@ -861,7 +861,7 @@
                   href: ../lync-server-2013-best-practices-for-call-admission-control.md
                 - name: 呼叫允许控制的部署清单
                   href: ../lync-server-2013-deployment-checklist-for-call-admission-control.md
-            - name: 规划紧急服务（E9-1-1）
+            - name: '规划紧急服务 (E9-1-1) '
               href: ../lync-server-2013-planning-for-emergency-services-e9-1-1.md
               items:
                 - name: E9-1-1 概述
@@ -913,19 +913,19 @@
                   href: ../lync-server-2013-technical-requirements-for-media-bypass.md
             - name: 专用电话线路的规划
               href: ../lync-server-2013-planning-for-private-telephone-lines.md
-            - name: 规划基于位置的路由
+            - name: 规划 Location-Based 路由
               href: ../lync-server-2013-planning-for-location-based-routing.md
               items:
-                - name: 基于位置的路由概述
+                - name: Location-Based 路由概述
                   href: ../lync-server-2013-overview-of-location-based-routing.md
-                - name: 基于位置的路由指南
+                - name: Location-Based 路由的指南
                   href: ../lync-server-2013-guidance-for-location-based-routing.md
                   items:
                     - name: 用户的位置
                       href: ../lync-server-2013-user-s-location.md
                     - name: PSTN 网关的位置
                       href: ../lync-server-2013-pstn-gateway-s-location.md
-                - name: 基于位置的路由的方案
+                - name: Location-Based 路由的方案
                   href: ../lync-server-2013-scenarios-for-location-based-routing.md
                   items:
                     - name: 传出呼叫
@@ -940,24 +940,24 @@
                       href: ../lync-server-2013-delegation.md
                     - name: 团队呼叫
                       href: ../lync-server-2013-team-calling-with-location-based-routing.md
-                - name: 基于位置的路由的技术注意事项
+                - name: Location-Based 路由的技术注意事项
                   href: ../lync-server-2013-technical-considerations-for-location-based-routing.md
-                - name: 基于位置的路由的客户端和服务器支持
+                - name: Location-Based 路由的客户端和服务器支持
                   href: ../lync-server-2013-client-and-server-support-for-location-based-routing.md
-                - name: 基于位置的路由不支持的功能
+                - name: Location-Based 路由不支持的功能
                   href: ../lync-server-2013-capabilities-not-supported-by-location-based-routing.md
-                - name: 基于位置的路由的部署过程
+                - name: Location-Based 路由的部署过程
                   href: ../lync-server-2013-deployment-process-for-location-based-routing.md
-                - name: 会议的基于位置的路由
+                - name: 会议的 Location-Based 路由
                   href: ../lync-server-2013-location-based-routing-for-conferencing.md
                   items:
-                    - name: 会议的基于位置的路由概述
+                    - name: 会议 Location-Based 路由概述
                       href: ../lync-server-2013-overview-of-location-based-routing-for-conferencing.md
-                    - name: 基于位置的路由和咨询呼叫转移
+                    - name: Location-Based 路由和咨询式呼叫转移
                       href: ../lync-server-2013-location-based-routing-and-consultative-call-transfers.md
-                    - name: 会议的基于位置的路由要求
+                    - name: 会议 Location-Based 路由的要求
                       href: ../lync-server-2013-requirements-for-location-based-routing-for-conferencing.md
-                    - name: 会议的基于位置的路由的配置
+                    - name: 会议的 Location-Based 路由配置
                       href: ../lync-server-2013-configuration-of-location-based-routing-for-conferencing.md
             - name: 规划呼叫管理功能
               href: ../lync-server-2013-planning-for-call-management-features.md
@@ -990,7 +990,7 @@
                       href: ../lync-server-2013-clients-supported-for-group-call-pickup.md
                     - name: 组呼叫装货的容量规划
                       href: ../lync-server-2013-capacity-planning-for-group-call-pickup.md
-                    - name: 组呼叫应答的部署过程
+                    - name: 组内呼叫应答的部署流程
                       href: ../lync-server-2013-deployment-process-for-group-call-pickup.md
                 - name: 规划响应组
                   href: ../lync-server-2013-planning-for-response-groups.md
@@ -1005,7 +1005,7 @@
                       href: ../lync-server-2013-clients-supported-for-response-group.md
                     - name: 响应组的容量规划
                       href: ../lync-server-2013-capacity-planning-for-response-group.md
-                    - name: 响应组的部署过程
+                    - name: 响应组的部署流程
                       href: ../lync-server-2013-deployment-process-for-response-group.md
                 - name: 规划通知
                   href: ../lync-server-2013-planning-for-announcements.md
@@ -1246,7 +1246,7 @@
               items:
                 - name: Lync Server 2013 的 Active Directory 域服务
                   href: ../lync-server-2013-active-directory-domain-services-for-lync-server.md
-                - name: Lync Server 2013 的基于角色的访问控制（RBAC）
+                - name: 'Lync Server 2013 的基于角色的访问控制 (RBAC) '
                   href: ../lync-server-2013-role-based-access-control-rbac.md
                 - name: Lync Server 2013 的公钥基础结构
                   href: ../lync-server-2013-public-key-infrastructure.md
@@ -1329,7 +1329,7 @@
                       href: ../lync-server-2013-installing-windows-powershell-3-0.md
                     - name: 配置 DFS 文件存储
                       href: ../lync-server-2013-configure-dfs-file-storage.md
-                    - name: 提前请求证书（可选）
+                    - name: '提前请求证书 (可选) '
                       href: ../lync-server-2013-request-certificates-in-advance-optional.md
                     - name: 配置 IIS
                       href: ../lync-server-2013-configure-iis.md
@@ -1346,7 +1346,7 @@
                     - name: Active Directory 域服务准备概述
                       href: ../lync-server-2013-overview-of-active-directory-domain-services-preparation.md
                     - name: 准备 Active Directory 域服务
-                      href: ../lync-server-2013-preparing-active-directory-domain-services_1.md
+                      href: ../lync-server-2013-preparing-active-directory-domain-services.md
                       items:
                         - name: 准备 Active Directory 架构
                           href: ../lync-server-2013-preparing-the-active-directory-schema.md
@@ -1561,7 +1561,7 @@
                   href: ../lync-server-2013-start-services-on-the-director.md
                 - name: 测试控制器
                   href: ../lync-server-2013-test-the-director.md
-                - name: 配置自动客户端登录以使用控制器
+                - name: 将自动客户端 Sign-In 配置为使用控制器
                   href: ../lync-server-2013-configure-automatic-client-sign-in-to-use-the-director.md
             - name: 设置边缘服务器
               href: ../lync-server-2013-setting-up-edge-servers.md
@@ -1626,10 +1626,10 @@
                   href: ../lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md
             - name: 使用反向代理服务器发布 Office Web Apps Server
               href: ../lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md
-            - name: Lync 的预配指南-Skype 连接
+            - name: Lync-Skype 连接的设置指南
               href: ../lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md
               items:
-                - name: 有关 lync Online 的 Lync-Skype 连接的说明
+                - name: 有关 Lync Online 的 Lync-Skype 连接性的说明
                   href: ../lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md
                 - name: 访问 Lync Server 公共 IM 连接设置网站
                   href: ../lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md
@@ -1731,7 +1731,7 @@
                           href: ../lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md
                         - name: 手动创建或修改转换规则
                           href: ../lync-server-2013-create-or-modify-a-translation-rule-manually.md
-                - name: 中继间路由
+                - name: 内部中继路由
                   href: ../lync-server-2013-inter-trunk-routing.md
             - name: 配置拨号计划
               href: ../lync-server-2013-configuring-dial-plans.md
@@ -1916,14 +1916,14 @@
                           items:
                             - name: 将子网与网络站点关联以实现媒体旁路
                               href: ../lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md
-                - name: 配置基于位置的路由
+                - name: 配置 Location-Based 路由
                   href: ../lync-server-2013-configuring-location-based-routing.md
                   items:
                     - name: 配置企业语音
                       href: ../lync-server-2013-configuring-enterprise-voice.md
                     - name: 部署网络区域、站点和子网
                       href: ../lync-server-2013-deploying-network-regions-sites-and-subnets.md
-                    - name: 启用基于位置的路由
+                    - name: 启用 Location-Based 路由
                       href: ../lync-server-2013-enabling-location-based-routing.md
             - name: 部署呼叫管理功能
               href: ../lync-server-2013-deploying-call-management-features.md
@@ -1948,34 +1948,34 @@
                       href: ../lync-server-2013-enable-call-park-for-users.md
                     - name: 验证呼叫寄存的规范化规则
                       href: ../lync-server-2013-verify-normalization-rules-for-call-park.md
-                    - name: Optional验证呼叫寄存部署
+                    - name: （可选）验证呼叫寄存部署
                       href: ../lync-server-2013-optional-verify-call-park-deployment.md
                 - name: 配置组呼叫装货
                   href: ../lync-server-2013-configuring-group-call-pickup.md
                   items:
                     - name: 组呼叫装货配置先决条件和用户权限
                       href: ../lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md
-                    - name: 组呼叫应答的部署过程
+                    - name: 组内呼叫应答的部署流程
                       href: ../lync-server-2013-deployment-process-for-group-call-pickup.md
-                    - name: 部署 SEFAUtil 工具
+                    - name: 部署 SEFAUtil 池
                       href: ../lync-server-2013-deploy-the-sefautil-tool.md
                     - name: 配置呼叫应答组号码
                       href: ../lync-server-2013-configure-call-pickup-group-numbers.md
                       items:
-                        - name: 创建或修改组内呼叫装货号码范围
+                        - name: 创建或修改组内呼叫应答号码范围
                           href: ../lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md
-                    - name: 为用户启用组呼叫应答并分配组号码
+                    - name: 为用户启用组内呼叫应答并分配组号码
                       href: ../lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md
                     - name: 向用户传达组呼叫装货分配
                       href: ../lync-server-2013-communicate-group-call-pickup-assignment-to-users.md
-                    - name: Optional验证组调用装货部署
+                    - name: ' (可选) 验证组的呼叫应答部署'
                       href: ../lync-server-2013-optional-verify-the-group-call-pickup-deployment.md
                 - name: 配置响应组
                   href: ../lync-server-2013-configuring-response-group.md
                   items:
                     - name: 响应组配置权限和先决条件
                       href: ../lync-server-2013-response-group-configuration-permissions-and-prerequisites.md
-                    - name: 响应组的部署过程
+                    - name: 响应组的部署流程
                       href: ../lync-server-2013-deployment-process-for-response-group.md
                     - name: 工作流创建方案概述
                       href: ../lync-server-2013-overview-of-workflow-creation-scenarios.md
@@ -1989,9 +1989,9 @@
                       items:
                         - name: 创建或修改队列
                           href: ../lync-server-2013-create-or-modify-a-queue.md
-                    - name: Optional定义响应组工作时间
+                    - name: （可选）定义响应组工作时间
                       href: ../lync-server-2013-optional-define-response-group-business-hours.md
-                    - name: Optional定义响应组假日集
+                    - name: （可选）定义响应组假日集
                       href: ../lync-server-2013-optional-define-response-group-holiday-sets.md
                     - name: 创建响应组工作流
                       href: ../lync-server-2013-create-response-group-workflows.md
@@ -2004,7 +2004,7 @@
                           href: ../lync-server-2013-create-or-modify-an-interactive-workflow.md
                     - name: 管理应用程序级响应组设置
                       href: ../lync-server-2013-managing-application-level-response-group-settings.md
-                    - name: Optional验证响应组部署
+                    - name: （可选）验证响应组部署
                       href: ../lync-server-2013-optional-verify-response-group-deployment.md
                 - name: 配置未分配号码的通知
                   href: ../lync-server-2013-configuring-announcements-for-unassigned-numbers.md
@@ -2020,7 +2020,7 @@
                       items:
                         - name: 创建或修改未分配号码范围
                           href: ../lync-server-2013-create-or-modify-an-unassigned-number-range.md
-                    - name: Optional验证通知部署
+                    - name: （可选）验证通知部署
                       href: ../lync-server-2013-optional-verify-announcement-deployment.md
             - name: 为用户启用企业语音
               href: ../lync-server-2013-enable-users-for-enterprise-voice.md
@@ -2054,7 +2054,7 @@
                           href: ../lync-server-2013-create-or-modify-a-normalization-rule-manually.md
                 - name: 确保已为拨号计划分配区域
                   href: ../lync-server-2013-make-sure-dial-plans-have-assigned-regions.md
-                - name: Optional验证 PIN 策略设置
+                - name: ' (可选) 验证 PIN 策略设置'
                   href: ../lync-server-2013-optional-verify-pin-policy-settings.md
                   items:
                     - name: 修改默认电话拨入式会议 PIN 设置
@@ -2070,9 +2070,9 @@
                       href: ../lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md
                 - name: （可选）验证电话拨入式会议设置
                   href: ../lync-server-2013-optional-verify-dial-in-conferencing-settings.md
-                - name: Optional修改 DTMF 命令的键映射
+                - name: ' (可选) Modify DTMF 命令的键映射'
                   href: ../lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md
-                - name: Optional启用和禁用会议加入和离开通知
+                - name: ' (可选) 启用和禁用会议加入和离开通知'
                   href: ../lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md
                 - name: （可选）验证电话拨入式会议
                   href: ../lync-server-2013-optional-verify-dial-in-conferencing.md
@@ -2080,9 +2080,9 @@
                   href: ../lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md
                 - name: 配置用户帐户设置
                   href: ../lync-server-2013-configure-user-account-settings.md
-                - name: 适合创建会议目录
+                - name: ' (建议) 创建会议目录'
                   href: ../recommended-create-conference-directories.md
-                - name: Optional欢迎用户参加电话拨入式会议
+                - name: ' (可选) 欢迎用户加入电话拨入式会议'
                   href: ../lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md
             - name: 启用 Office Web Apps Server 和 Lync Server 2013
               href: ../lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md
@@ -2433,7 +2433,7 @@
                   href: ../lync-server-2013-migrate-users-to-unified-contact-store.md
                 - name: 回退迁移的用户
                   href: ../lync-server-2013-roll-back-migrated-users.md
-        - name: 管理服务器到服务器身份验证（OAuth）和合作伙伴应用程序
+        - name: 管理 (OAuth) 和合作伙伴应用程序的服务器到服务器身份验证
           href: ../lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
           items:
             - name: 将服务器到服务器身份验证证书分配给 Microsoft Lync Server 2013
@@ -2459,7 +2459,7 @@
               href: ../lync-server-2013-enable-lync-users-for-remote-call-control.md
             - name: 远程呼叫控制和电话号码规范化
               href: ../lync-server-2013-remote-call-control-and-phone-number-normalization.md
-            - name: 删除旧版授权主机（可选）
+            - name: '删除旧版授权主机 (可选) '
               href: ../lync-server-2013-remove-a-legacy-authorized-host-optional.md
         - name: 部署移动性
           href: ../lync-server-2013-deploying-mobility.md
@@ -2626,7 +2626,7 @@
                   items:
                     - name: 下载并安装 Skype for Business Online 连接器模块
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
-                    - name: 下载和安装 Microsoft Online Services 登录助手
+                    - name: 下载并安装 Microsoft Online Services Sign-In 助手
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                     - name: 下载并安装 Windows PowerShell 3。0
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
@@ -2711,9 +2711,9 @@
                 - name: 诊断和解决 Skype for Business Online 的连接问题
                   href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                   items:
-                    - name: Import-由于 Windows PowerShell 执行策略导致的模块错误
+                    - name: Windows PowerShell 执行策略导致的 Import-Module 错误
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
-                    - name: Import-因 Windows PowerShell 版本错误而导致的模块错误
+                    - name: 由于 Windows PowerShell 版本不正确而导致的 Import-Module 错误
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                     - name: 无法连接到 Live ID 服务器
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
@@ -2753,13 +2753,13 @@
                   href: ../migrating-archiving-and-monitoring-servers.md
                 - name: 迁移组聊天服务器
                   href: ../migrating-group-chat-servers.md
-                - name: 迁移后管理服务器
+                - name: 迁移后服务器的管理
                   href: ../administering-servers-after-migration.md
                 - name: 迁移多个站点和池
                   href: ../migrating-multiple-sites-and-pools.md
-                - name: 迁移 XMPP 联合
+                - name: 管理 XMPP 联盟
                   href: ../migrating-xmpp-federation.md
-            - name: 第2阶段：准备迁移
+            - name: 第 2 阶段：准备迁移
               href: ../phase-2-prepare-for-migration.md
               items:
                 - name: 应用 Lync Server 2010 更新
@@ -2783,9 +2783,9 @@
                   href: ../download-topology-from-existing-deployment.md
                 - name: 部署 Lync Server 2013 试点池
                   href: ../deploy-lync-server-2013-pilot-pool.md
-                - name: 验证与旧版池共存的引导池
+                - name: 验证试点池与旧池的共存情况
                   href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
-                - name: 将试点池连接到旧版边缘服务器
+                - name: 将试点池连接到旧 Edge Server
                   href: ../connect-pilot-pool-to-legacy-edge-servers.md
                 - name: 配置 XMPP 网关访问策略和证书
                   href: ../configure-xmpp-gateway-access-policies-and-certificates.md
@@ -2794,7 +2794,7 @@
               items:
                 - name: 在 Lync Server 2010 池中查看当前用户
                   href: ../view-current-users-in-lync-server-2010-pool.md
-                - name: 验证用户复制已完成
+                - name: 确认用户复制已完成
                   href: ../verify-user-replication-has-completed.md
                 - name: 将单个用户移动到引导池
                   href: ../move-a-single-user-to-the-pilot-pool.md
@@ -2807,20 +2807,20 @@
                   href: ../deploy-pilot-edge-server.md
                 - name: 验证配置设置
                   href: ../verify-configuration-settings.md
-            - name: 第6阶段：从试点部署移动到生产环境
+            - name: 第 6 阶段：从试点部署移动到生产中
               href: ../phase-6-move-from-pilot-deployment-into-production.md
               items:
                 - name: 配置联盟路由和媒体流量
                   href: ../configure-federation-routes-and-media-traffic.md
                 - name: 验证联盟和外部用户的远程访问
                   href: ../verify-federation-and-remote-access-for-external-users.md
-                - name: 迁移后更改简单 Url
+                - name: 迁移后更改简单 URL
                   href: ../change-simple-urls-after-migration.md
                 - name: 将其余用户移动到 Lync Server 2013
                   href: ../move-remaining-users-to-lync-server-2013.md
                 - name: 在 Lync Server 2013 上配置 XMPP 网关
                   href: ../configure-xmpp-gateway-on-lync-server-2013.md
-            - name: 第7阶段：完成迁移后任务
+            - name: 第 7 阶段：完成迁移后任务
               href: ../phase-7-complete-post-migration-tasks.md
               items:
                 - name: 迁移现有会议和会议内容
@@ -2833,23 +2833,23 @@
                   href: ../migrate-response-groups.md
                 - name: 迁移通讯簿
                   href: ../migrate-address-book.md
-                - name: 配置会议加入页面
+                - name: 配置与会页面
                   href: ../configure-the-meeting-join-page.md
-                - name: 删除旧的存档和监控服务器
+                - name: 删除旧存档和监控服务器
                   href: ../remove-legacy-archiving-and-monitoring-servers.md
                 - name: 配置受信任应用程序服务器
                   href: ../configure-trusted-application-servers.md
                 - name: 部署 Lync Server 2013 客户端
                   href: ../deploy-lync-server-2013-clients.md
-                - name: 连接 Survivable 分支设备
+                - name: 连接 Survivable Branch Appliance
                   href: ../connect-a-survivable-branch-appliance.md
-                - name: 配置 SCOM 监视
+                - name: 配置 SCOM 监控
                   href: ../configure-scom-monitoring.md
                 - name: 迁移公共区域电话
                   href: ../migrate-common-area-phones.md
                 - name: 迁移模拟设备
                   href: ../migrate-analog-devices.md
-            - name: 第8阶段：停止旧版池
+            - name: 第 8 阶段：停用旧池
               href: ../phase-8-decommission-legacy-pools.md
               items:
                 - name: 更新 DNS SRV 记录
@@ -2860,7 +2860,7 @@
                   href: ../move-lync-server-2010-conference-directories-to-lync-server-2013.md
                 - name: 删除存档服务器关联
                   href: ../remove-the-archiving-server-association.md
-                - name: 删除监视服务器关联
+                - name: 删除监控服务器关联
                   href: ../remove-the-monitoring-server-association.md
                 - name: 删除 Enterprise Edition 前端服务器或 Standard Edition 前端服务器
                   href: ../remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md
@@ -2873,7 +2873,7 @@
                       href: ../stop-lync-server-2010-services.md
                     - name: 从池中删除前端服务器
                       href: ../remove-a-front-end-server-from-a-pool.md
-                    - name: 删除前端池或 Standard Edition server
+                    - name: 删除前端池或 Standard Edition Server
                       href: ../remove-front-end-pool-or-standard-edition-server.md
                 - name: 删除后端服务器上的 SQL Server 实例和数据库
                   href: ../remove-sql-server-instances-and-databases-on-the-back-end-server.md
@@ -2888,51 +2888,51 @@
           href: ../migration-from-office-communications-server-2007-r2-to-lync-server-2013.md
           items:
             - name: 开始迁移之前的准备工作
-              href: ../before-you-begin-the-migration_1.md
+              href: ../before-you-begin-the-migration.md
               items:
                 - name: 迁移过程
-                  href: ../migration-process_1.md
+                  href: ../migration-process.md
                 - name: 迁移阶段
-                  href: ../migration-phases_1.md
+                  href: ../migration-phases.md
             - name: 第1阶段：规划从 Office 通信服务器 2007 R2 迁移
               href: ../phase-1-plan-your-migration-from-office-communications-server-2007-r2.md
               items:
                 - name: 用户迁移
-                  href: ../user-migration_1.md
+                  href: ../user-migration.md
                 - name: 迁移存档和监控服务器
-                  href: ../migrating-archiving-and-monitoring-servers_1.md
-                - name: 迁移后管理服务器
-                  href: ../administering-servers-after-migration_1.md
+                  href: ../migrating-archiving-and-monitoring-servers.md
+                - name: 迁移后服务器的管理
+                  href: ../administering-servers-after-migration.md
                 - name: 迁移多个站点和池
-                  href: ../migrating-multiple-sites-and-pools_1.md
-                - name: 迁移 XMPP 联合
-                  href: ../migrating-xmpp-federation_1.md
-            - name: 第2阶段：准备迁移
-              href: ../phase-2-prepare-for-migration_1.md
+                  href: ../migrating-multiple-sites-and-pools.md
+                - name: 管理 XMPP 联盟
+                  href: ../migrating-xmpp-federation.md
+            - name: 第 2 阶段：准备迁移
+              href: ../phase-2-prepare-for-migration.md
               items:
                 - name: 应用 Office 通信服务器 2007 R2 更新
                   href: ../apply-office-communications-server-2007-r2-updates.md
                 - name: 为试点池部署配置 DNS 记录
-                  href: ../configure-dns-records-for-pilot-pool-deployment_1.md
+                  href: ../configure-dns-records-for-pilot-pool-deployment.md
                 - name: 运行最佳做法分析器
-                  href: ../run-best-practices-analyzer_1.md
+                  href: ../run-best-practices-analyzer.md
                 - name: 备份系统和数据
-                  href: ../back-up-systems-and-data_1.md
+                  href: ../back-up-systems-and-data.md
                 - name: 配置客户端以进行迁移
-                  href: ../configure-clients-for-migration_1.md
+                  href: ../configure-clients-for-migration.md
                 - name: 验证 Office 通信服务器 2007 R2 环境
                   href: ../verify-office-communications-server-2007-r2-environment.md
             - name: 第3阶段：部署 Lync Server 2013 试点池
-              href: ../phase-3-deploy-lync-server-2013-pilot-pool_1.md
+              href: ../phase-3-deploy-lync-server-2013-pilot-pool.md
               items:
                 - name: 为 Lync Server 2013 准备 Active Directory
                   href: ../prepare-active-directory-for-lync-server-2013.md
                 - name: 安装 Lync Server 管理工具
                   href: ../install-lync-server-administration-tools.md
                 - name: 部署 Lync Server 2013 试点池
-                  href: ../deploy-lync-server-2013-pilot-pool_1.md
-                - name: 验证与旧版池共存的引导池
-                  href: ../verify-pilot-pool-coexistence-with-legacy-pool_1.md
+                  href: ../deploy-lync-server-2013-pilot-pool.md
+                - name: 验证试点池与旧池的共存情况
+                  href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
             - name: 第4阶段：合并拓扑
               href: ../phase-4-merge-topologies.md
               items:
@@ -2947,57 +2947,57 @@
             - name: 第5阶段：配置引导池
               href: ../phase-5-configure-the-pilot-pool.md
               items:
-                - name: 将试点池连接到旧版边缘服务器
-                  href: ../connect-pilot-pool-to-legacy-edge-servers_1.md
+                - name: 将试点池连接到旧 Edge Server
+                  href: ../connect-pilot-pool-to-legacy-edge-servers.md
                 - name: 授权与 Office 通信服务器 2007 R2 边缘服务器的连接
                   href: ../authorize-connection-to-office-communications-server-2007-r2-edge-server.md
                 - name: 验证配置设置
-                  href: ../verify-configuration-settings_1.md
+                  href: ../verify-configuration-settings.md
                 - name: 配置 XMPP 网关访问策略和证书
-                  href: ../configure-xmpp-gateway-access-policies-and-certificates_1.md
+                  href: ../configure-xmpp-gateway-access-policies-and-certificates.md
             - name: 第6阶段：将用户移动到引导池
               href: ../phase-6-move-users-to-the-pilot-pool.md
               items:
-                - name: 验证用户复制已完成
-                  href: ../verify-user-replication-has-completed_1.md
+                - name: 确认用户复制已完成
+                  href: ../verify-user-replication-has-completed.md
                 - name: 将单个用户移动到引导池
-                  href: ../move-a-single-user-to-the-pilot-pool_1.md
+                  href: ../move-a-single-user-to-the-pilot-pool.md
                 - name: 将多个用户移动到引导池
-                  href: ../move-multiple-users-to-the-pilot-pool_1.md
+                  href: ../move-multiple-users-to-the-pilot-pool.md
             - name: 第7阶段：将 Lync Server 2013 边缘服务器添加到引导池
               href: ../phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md
               items:
                 - name: 部署试点边缘服务器
-                  href: ../deploy-pilot-edge-server_1.md
+                  href: ../deploy-pilot-edge-server.md
                 - name: 验证配置设置的复制
                   href: ../validate-replication-of-configuration-settings.md
             - name: 第8阶段：从试点部署移动到生产环境
               href: ../phase-8-move-from-pilot-deployment-into-production.md
               items:
                 - name: 配置联盟路由和媒体流量
-                  href: ../configure-federation-routes-and-media-traffic_1.md
+                  href: ../configure-federation-routes-and-media-traffic.md
                 - name: 将其余用户移动到 Lync Server 2013
-                  href: ../move-remaining-users-to-lync-server-2013_1.md
+                  href: ../move-remaining-users-to-lync-server-2013.md
                 - name: 在 Lync Server 2013 上配置 XMPP 网关
-                  href: ../configure-xmpp-gateway-on-lync-server-2013_1.md
+                  href: ../configure-xmpp-gateway-on-lync-server-2013.md
             - name: 第9阶段：完成迁移后任务
               href: ../phase-9-complete-post-migration-tasks.md
               items:
                 - name: 迁移响应组
-                  href: ../migrate-response-groups_1.md
+                  href: ../migrate-response-groups.md
                 - name: 迁移拨入访问号码
-                  href: ../migrate-dial-in-access-numbers_1.md
+                  href: ../migrate-dial-in-access-numbers.md
                 - name: 启用 Exchange 2013 Outlook Web App 和 IM 集成
                   href: ../enable-exchange-2013-outlook-web-app-and-im-integration.md
                 - name: 迁移通讯簿
-                  href: ../migrate-address-book_1.md
+                  href: ../migrate-address-book.md
                 - name: 启用远程呼叫控制
                   href: ../enable-remote-call-control.md
                   items:
                     - name: 删除授权主机条目
                       href: ../remove-an-authorized-host-entry.md
-                - name: 删除旧的存档和监控服务器
-                  href: ../remove-legacy-archiving-and-monitoring-servers_1.md
+                - name: 删除旧存档和监控服务器
+                  href: ../remove-legacy-archiving-and-monitoring-servers.md
                 - name: 迁移中介服务器
                   href: ../migrate-mediation-server.md
                   items:
@@ -3005,14 +3005,14 @@
                       href: ../configure-mediation-server.md
                     - name: 将语音路由更改为使用新的 Lync Server 2013 中介服务器
                       href: ../change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md
-                    - name: 将并置中介服务器转换为独立的中介服务器（可选）
+                    - name: '将并置中介服务器转换为独立中介服务器 (可选) '
                       href: ../transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md
                 - name: 配置受信任应用程序服务器
-                  href: ../configure-trusted-application-servers_1.md
-                - name: 配置会议加入页面
-                  href: ../configure-the-meeting-join-page_1.md
+                  href: ../configure-trusted-application-servers.md
+                - name: 配置与会页面
+                  href: ../configure-the-meeting-join-page.md
                 - name: 部署 Lync Server 2013 客户端
-                  href: ../deploy-lync-server-2013-clients_1.md
+                  href: ../deploy-lync-server-2013-clients.md
                 - name: 移动 Exchange 统一消息联系人对象
                   href: ../move-exchange-unified-messaging-contact-objects.md
                 - name: 验证是否已从旧版池中删除所有 Exchange UM 联系人对象
@@ -3023,7 +3023,7 @@
                 - name: 移动会议目录
                   href: ../move-conference-directories.md
                 - name: 更新 DNS SRV 记录
-                  href: ../update-dns-srv-records_1.md
+                  href: ../update-dns-srv-records.md
                 - name: 退役服务器和池
                   href: ../decommissioning-servers-and-pools.md
                 - name: 删除 BackCompatSite
@@ -3037,7 +3037,7 @@
               href: ../migration-process-details.md
             - name: 共存注意事项
               href: ../coexistence-considerations.md
-    - name: 操作
+    - name: Operations
       href: ../lync-server-2013-operations.md
       items:
         - name: 操作指南
@@ -3335,7 +3335,7 @@
                     - name: 重置或删除外部用户访问策略
                       href: ../lync-server-2013-resetting-or-deleting-external-user-access-policies.md
                       items:
-                        - name: 删除用于外部用户访问的站点或用户策略
+                        - name: 删除外部用户访问的站点或用户策略
                           href: ../lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md
                         - name: 重置外部用户访问的全局策略
                           href: ../lync-server-2013-reset-the-global-policy-for-external-user-access.md
@@ -3381,14 +3381,14 @@
               href: ../lync-server-2013-add-or-remove-a-front-end-server.md
             - name: 升级或更新后端服务器或 Standard Edition server
               href: ../lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md
-            - name: 管理 Microsoft SIP 处理语言（MSPL）应用程序
+            - name: 管理 Microsoft SIP 处理语言 (MSPL) 应用程序
               href: ../lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md
               items:
-                - name: 查看 Microsoft SIP 处理语言（MSPL）服务器应用程序
+                - name: 查看 Microsoft SIP 处理语言 (MSPL) 服务器应用程序
                   href: ../lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md
-                - name: 将 Microsoft SIP 处理语言（MSPL）应用程序标记为关键或非关键应用程序
+                - name: 将 Microsoft SIP 处理语言 (MSPL) 应用程序标记为关键或非关键
                   href: ../lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md
-                - name: 启用或禁用 Microsoft SIP 处理语言（MSPL）服务器应用程序
+                - name: 启用或禁用 Microsoft SIP 处理语言 (MSPL) server 应用程序
                   href: ../lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md
             - name: 管理简单 Url
               href: ../lync-server-2013-managing-simple-urls.md
@@ -3400,7 +3400,7 @@
         - name: 管理 IM 和状态设置
           href: ../lync-server-2013-managing-im-and-presence-settings.md
           items:
-            - name: 为即时消息（IM）配置文件传输和 URL 筛选
+            - name: 为即时消息 (IM) 配置文件传输和 URL 筛选
               href: ../lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md
               items:
                 - name: 修改默认文件传输筛选器
@@ -3610,7 +3610,7 @@
                 - name: 配置组呼叫装货号码范围
                   href: ../lync-server-2013-configure-group-call-pickup-number-ranges.md
                   items:
-                    - name: 创建或修改组内呼叫装货号码范围
+                    - name: 创建或修改组内呼叫应答号码范围
                       href: ../lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md
                     - name: 删除组呼叫装货号码范围
                       href: ../lync-server-2013-delete-a-group-call-pickup-number-range.md
@@ -3647,9 +3647,9 @@
                   items:
                     - name: 设计交互式语音响应呼叫流
                       href: ../lync-server-2013-design-interactive-voice-response-call-flows.md
-                    - name: Optional定义响应组工作时间
+                    - name: （可选）定义响应组工作时间
                       href: ../lync-server-2013-optional-define-response-group-business-hours.md
-                    - name: Optional定义响应组假日集
+                    - name: （可选）定义响应组假日集
                       href: ../lync-server-2013-optional-define-response-group-holiday-sets.md
                     - name: 创建或修改工作流
                       href: ../lync-server-2013-create-or-modify-a-workflow.md
@@ -3704,7 +3704,7 @@
                   href: ../lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md
                 - name: 删除会议配置设置的现有集合
                   href: ../lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md
-            - name: 会议策略。
+            - name: 会议策略
               href: ../lync-server-2013-conferencing-policies.md
               items:
                 - name: 查看会议策略信息
@@ -3715,7 +3715,7 @@
                   href: ../lync-server-2013-delete-an-existing-conferencing-policy.md
                 - name: 会议策略设置参考
                   href: ../lync-server-2013-conferencing-policy-settings-reference.md
-            - name: 电话拨入式会议（配置/访问号码）
+            - name: ' (配置/访问号码) 的电话拨入式会议'
               href: ../lync-server-2013-dial-in-conferencing-configuration-access-numbers.md
               items:
                 - name: 启用或禁用会议的电话拨入式会议
@@ -3729,7 +3729,7 @@
                       href: ../lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md
                     - name: 删除电话拨入式会议访问号码
                       href: ../lync-server-2013-delete-a-dial-in-conferencing-access-number.md
-                - name: 配置电话拨入式会议个人识别码（PIN）规则
+                - name: 将电话拨入式会议个人识别码 (PIN) 规则配置
                   href: ../lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md
                   items:
                     - name: 修改默认电话拨入式会议 PIN 设置
@@ -3767,7 +3767,7 @@
                   href: ../lync-server-2013-enable-or-disable-a-conferencing-device.md
                 - name: 将会议设备移动到新的注册器池
                   href: ../lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md
-            - name: 移动电话（策略/推送通知）
+            - name: '移动电话 (策略/推送通知) '
               href: ../lync-server-2013-mobile-phones-policy-push-notification.md
               items:
                 - name: 移动性策略
@@ -3897,7 +3897,7 @@
                 - name: 重置或删除外部用户访问策略
                   href: ../lync-server-2013-resetting-or-deleting-external-user-access-policies.md
                   items:
-                    - name: 删除用于外部用户访问的站点或用户策略
+                    - name: 删除外部用户访问的站点或用户策略
                       href: ../lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md
                     - name: 重置外部用户访问的全局策略
                       href: ../lync-server-2013-reset-the-global-policy-for-external-user-access.md
@@ -3906,7 +3906,7 @@
               items:
                 - name: 启用或禁用联盟和公共 IM 连接
                   href: ../lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md
-                - name: 启用或禁用联合合作伙伴的发现
+                - name: 启用或禁用联盟伙伴发现
                   href: ../lync-server-2013-enable-or-disable-discovery-of-federation-partners.md
                 - name: 启用或禁用向联盟伙伴发送存档免责声明
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
@@ -3923,7 +3923,7 @@
                   href: ../lync-server-2013-configure-support-for-allowed-external-domains.md
                 - name: 配置对阻止的外部域的支持
                   href: ../lync-server-2013-configure-support-for-blocked-external-domains.md
-            - name: 管理组织的 SIP 联合提供程序
+            - name: 管理组织的 SIP 联盟提供程序
               href: ../lync-server-2013-manage-sip-federated-providers-for-your-organization.md
               items:
                 - name: 创建或编辑公共 SIP 联合提供程序
@@ -3995,9 +3995,9 @@
             - name: 管理操作过程的证书
               href: ../lync-server-2013-managing-certificates-for-operational-processes.md
               items:
-                - name: 在 Set-cscertificate 中使用-中间暂存 AV 和 OAuth 证书
+                - name: Set-CsCertificate 中使用的暂存 AV 和 OAuth 证书
                   href: 'https://technet.microsoft.com/library/Gg398518(v=OCS.15)'
-            - name: 管理服务器到服务器身份验证（OAuth）和合作伙伴应用程序
+            - name: 管理 (OAuth) 和合作伙伴应用程序的服务器到服务器身份验证
               href: ../lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
               items:
                 - name: 将服务器到服务器身份验证证书分配给 Microsoft Lync Server 2013
@@ -4031,7 +4031,7 @@
                       href: ../lync-server-2013-view-pin-policy-inforrmation.md
                     - name: 创建新的 PIN 策略
                       href: ../lync-server-2013-create-a-new-pin-policy.md
-                    - name: 修改现有的 PIN 策略
+                    - name: 修改现有 PIN 策略
                       href: ../lync-server-2013-modify-an-existing-pin-policy.md
                     - name: 删除 PIN 策略
                       href: ../lync-server-2013-delete-a-pin-policy.md
@@ -4049,7 +4049,7 @@
         - name: 管理 Lync Server 2013 网络基础结构
           href: ../lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md
           items:
-            - name: 管理服务质量（QoS）
+            - name: '管理服务质量 (QoS) '
               href: ../lync-server-2013-managing-quality-of-service-qos.md
               items:
                 - name: 不基于 Windows 的设备的 QoS
@@ -4186,33 +4186,33 @@
                 - name: 用于通讯簿管理的 Windows PowerShell cmdlet
                   href: ../lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
                   items:
-                    - name: CsAddressBookConfiguration 用于通讯簿管理的新的
+                    - name: 通讯簿管理 New-CsAddressBookConfiguration
                       href: ../lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md
-                    - name: CsAddressBookConfiguration 为通讯簿管理设置
+                    - name: 通讯簿管理 Set-CsAddressBookConfiguration
                       href: ../lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
-                    - name: 用于通讯簿管理的 CsAddressBookConfiguration
+                    - name: 通讯簿管理 Get-CsAddressBookConfiguration
                       href: ../lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md
-                    - name: CsAddressBookConfiguration 为通讯簿管理进行删除
+                    - name: 通讯簿管理 Remove-CsAddressBookConfiguration
                       href: ../lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md
-                    - name: CsAddressBookService 用于通讯簿管理的测试
+                    - name: 通讯簿管理 Test-CsAddressBookService
                       href: ../lync-server-2013-test-csaddressbookservice-for-address-book-management.md
-                    - name: CsAddressBookWebQuery 用于通讯簿管理的测试
+                    - name: 通讯簿管理 Test-CsAddressBookWebQuery
                       href: ../lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md
-                    - name: CsAddressBook 用于通讯簿管理的更新程序
+                    - name: 通讯簿管理 Update-CsAddressBook
                       href: ../lync-server-2013-update-csaddressbook-for-address-book-management.md
-                    - name: Set-csclientpolicy 用于通讯簿管理的新的
+                    - name: 通讯簿管理 New-CsClientPolicy
                       href: ../lync-server-2013-new-csclientpolicy-for-address-book-management.md
-                    - name: Set-csclientpolicy 为通讯簿管理设置
+                    - name: 通讯簿管理 Set-CsClientPolicy
                       href: ../lync-server-2013-set-csclientpolicy-for-address-book-management.md
-                    - name: 用于通讯簿管理的 Get-csservice
+                    - name: 通讯簿管理 Get-CsService
                       href: ../lync-server-2013-get-csservice-for-address-book-management.md
-                    - name: CsWebServiceConfiguration 用于通讯簿管理的新的
+                    - name: 通讯簿管理 New-CsWebServiceConfiguration
                       href: ../lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md
-                    - name: 用于通讯簿管理的 CsWebServiceConfiguration
+                    - name: 通讯簿管理 Get-CsWebServiceConfiguration
                       href: ../lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
-                    - name: CsWebServiceConfiguration 为通讯簿管理设置
+                    - name: 通讯簿管理 Set-CsWebServiceConfiguration
                       href: ../lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md
-                    - name: CsWebServiceConfiguration 为通讯簿管理进行删除
+                    - name: 通讯簿管理 Remove-CsWebServiceConfiguration
                       href: ../lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md
             - name: 更改 Web 服务 URL
               href: ../lync-server-2013-change-the-web-services-url.md
@@ -4221,7 +4221,7 @@
           items:
             - name: 配置新的受信任应用程序服务器
               href: ../lync-server-2013-configure-a-new-trusted-application-server.md
-            - name: 受信任的应用程序（应用程序/计算机/终结点/池）
+            - name: ' (应用程序/计算机/终结点/池) 的受信任应用程序'
               href: ../lync-server-2013-trusted-applications-application-computer-endpoint-pool.md
               items:
                 - name: 管理受信任的应用程序
@@ -4505,7 +4505,7 @@
     - name: 架构参考
       href: ../lync-server-2013-schema-reference.md
       items:
-        - name: 呼叫详细信息记录（CDR）数据库架构
+        - name: 呼叫详细记录 (CDR) 数据库架构
           href: ../lync-server-2013-call-detail-recording-cdr-database-schema.md
           items:
             - name: CDR 表的列表
@@ -4646,10 +4646,10 @@
                   href: ../lync-server-2013-user-view.md
                 - name: VoIPDetails 视图
                   href: ../lync-server-2013-voipdetails-view.md
-        - name: 体验质量（QoE）数据库架构
+        - name: 体验质量 (QoE) 数据库架构
           href: ../lync-server-2013-quality-of-experience-qoe-database-schema.md
           items:
-            - name: QoE 表的列表
+            - name: QoE 表列表
               href: ../lync-server-2013-list-of-qoe-tables.md
             - name: QoE 表详细信息
               href: ../lync-server-2013-qoe-table-details.md
@@ -4696,7 +4696,7 @@
                   href: ../lync-server-2013-payloaddescription-table.md
                 - name: Pool 表
                   href: ../lync-server-2013-pool-table.md
-                - name: PurgeSettings 表（QoE）
+                - name: 'PurgeSettings 表 (QoE) '
                   href: ../lync-server-2013-purgesettings-table-qoe.md
                 - name: 区域表
                   href: ../lync-server-2013-region-table.md
@@ -4714,7 +4714,7 @@
                   href: ../lync-server-2013-user-table.md
                 - name: UserAgent 表
                   href: ../lync-server-2013-useragent-table.md
-                - name: UserAgentDef 表（QoE）
+                - name: 'UserAgentDef 表 (QoE) '
                   href: ../lync-server-2013-useragentdef-table-qoe.md
                 - name: UserSite 表
                   href: ../lync-server-2013-usersite-table.md
@@ -4724,7 +4724,7 @@
                   href: ../lync-server-2013-videometricsthreshold-table.md
                 - name: VideoStream 表
                   href: ../lync-server-2013-videostream-table.md
-            - name: QoE 查看详细信息
+            - name: QoE 视图列表
               href: ../lync-server-2013-qoe-view-details.md
               items:
                 - name: AudioStreamDetail 视图
@@ -4739,14 +4739,14 @@
                   href: ../lync-server-2013-useragent-view.md
                 - name: VideoStreamDetail 视图
                   href: ../lync-server-2013-videostreamdetail-view.md
-            - name: 示例 QoE 数据库查询
+            - name: Sample QoE database queries
               href: ../lync-server-2013-sample-qoe-database-queries.md
         - name: 持久聊天数据库架构
           href: ../lync-server-2013-persistent-chat-database-schema.md
           items:
-            - name: 持久聊天服务器表的列表
+            - name: 持久聊天服务器表列表
               href: ../lync-server-2013-list-of-persistent-chat-server-tables.md
-            - name: 持久聊天服务器合规性表的列表
+            - name: 持久聊天服务器合规性表列表
               href: ../lync-server-2013-list-of-persistent-chat-server-compliance-tables.md
             - name: 持久聊天服务器表详细信息
               href: ../lync-server-2013-persistent-chat-server-table-details.md
@@ -4822,17 +4822,17 @@
               href: ../lync-server-2013-schema-changes-in-lync-server-2013.md
             - name: 架构类和说明
               href: ../lync-server-2013-schema-classes-and-descriptions.md
-            - name: 按类分类的架构属性
+            - name: 按类排列的架构属性
               href: ../lync-server-2013-schema-attributes-by-class.md
             - name: 架构属性和说明
               href: ../lync-server-2013-schema-attributes-and-descriptions.md
             - name: 林准备所做的更改
               href: ../lync-server-2013-changes-made-by-forest-preparation.md
-            - name: 由域准备进行的更改
+            - name: 域准备所做的更改
               href: ../lync-server-2013-changes-made-by-domain-preparation.md
-            - name: 由 Grant-CsSetupPermission 所做的更改
+            - name: Grant-CsSetupPermission 所做的更改
               href: 'https://technet.microsoft.com/library/Gg398569(v=OCS.15)'
-            - name: 由 Grant-CsOUPermission 所做的更改
+            - name: Grant-CsOUPermission 所做的更改
               href: 'https://technet.microsoft.com/library/Gg425739(v=OCS.15)'
     - name: Lync Server 命令行管理程序
       href: ../lync-server-2013-lync-server-management-shell.md

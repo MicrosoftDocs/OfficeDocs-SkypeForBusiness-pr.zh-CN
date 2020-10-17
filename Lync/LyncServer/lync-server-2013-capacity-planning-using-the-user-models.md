@@ -1,5 +1,6 @@
 ---
 title: 使用用户模型的 Lync Server 2013 容量规划
+description: 使用用户模型的 Lync Server 2013 容量规划。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d315de4f8b18a5ecbeabe7ba29231c70ff893e8a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6b710f7ec88dd75c872d704f2169fa2f161fc186
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508139"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544408"
 ---
 # <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>使用用户模型对 Lync Server 2013 进行容量规划
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置持久聊天的全局策略
+description: Lync Server 2013：配置持久聊天的全局策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b883a650a4430ee286c4824e49711e47e1509e26
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 830074c31791ee8ff489d9a67af189be609c7f4c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520329"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544938"
 ---
 # <a name="configure-the-global-policy-for-persistent-chat-in-lync-server-2013"></a>在 Lync Server 2013 中配置持久聊天的全局策略
 

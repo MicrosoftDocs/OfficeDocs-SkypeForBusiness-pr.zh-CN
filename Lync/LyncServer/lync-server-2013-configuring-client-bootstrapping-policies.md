@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置客户端引导策略
+description: Lync Server 2013：配置客户端引导策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 826f732f25996a9f8fcbd708f7e76157a5753a01
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3c03a9f7954d42f128dd6ae96296069ae5a515e9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512769"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545628"
 ---
 # <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>在 Lync Server 2013 中配置客户端引导策略
 

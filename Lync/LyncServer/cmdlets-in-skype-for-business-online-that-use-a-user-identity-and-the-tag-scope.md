@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online 中使用用户标识和标记作用域的 cmdlet
+description: Skype for Business Online 中使用用户标识和标记作用域的 cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,19 +14,19 @@ ms:contentKeyID: 56558838
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9adf86a6ec6d2bd859411005dcc67b0dcbe09c7f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 3e2ddbcc9c90096cea5fad4cb680f4ea1797ce48
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755114"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545608"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a>Skype for Business Online 中使用用户标识和标记作用域的 cmdlet
 
  
 
 
-**Grant-Cs** cmdlet （用于为用户分配策略）需要两个标识符：用户标识（identity 参数）和每用户策略的标识（PolicyName 参数）。 例如，若要向用户 Ken Myer 分配语音策略 RedmondVoicePolicy，请使用以下命令：
+ (用于向用户分配策略的 **Cs-Cs** cmdlet) 需要两个标识符： (identity 参数) 的用户标识和 PolicyName 参数 (中的每用户策略的标识。 例如，若要向用户 Ken Myer 分配语音策略 RedmondVoicePolicy，请使用以下命令：
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
@@ -37,16 +38,16 @@ ms.locfileid: "44755114"
 
 
 > [!NOTE]  
-> 如果已为用户分配每用户策略，并且您想要取消分配该策略并改为由全局策略管理的用户，该怎么办？ 在这种情况下，您将首先使用以下语法，它通过向该用户授予 null 策略来取消分配每个用户的策略：<BR>Set-csvoicepolicy – Identity "Ken Myer" – PolicyName $Null
+> 如果已为用户分配每用户策略，并且您想要取消分配该策略并改为由全局策略管理的用户，该怎么办？ 在这种情况下，您将首先使用以下语法，它通过向该用户授予 null 策略来取消分配每个用户的策略：<BR>Grant-CsVoicePolicy – Identity "Ken Myer" – PolicyName $Null
 
 
 
-其次，请记住，每个用户的策略是在标记作用域创建的。 但是，在指定策略名称时，可以省略标记**前缀**。 这两个命令相同：
+其次，请记住，每个用户的策略是在标记作用域创建的。 但是，在指定策略名称时，可以省略标记 **前缀** 。 这两个命令相同：
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "tag:RedmondVoicePolicy"
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-如果要返回所有每用户策略的标识（或者至少，指定类型的每个用户的所有策略，如语音策略），请使用与以下类似的命令：
+如果您想要返回所有按用户策略的标识 (或者至少，指定类型的所有每用户策略（如语音策略) ），请使用类似如下的命令：
 
     Get-CsVoicePolicy -Filter "tag:*"
 

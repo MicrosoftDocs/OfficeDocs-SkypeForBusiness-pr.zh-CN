@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：定义持久聊天服务器的要求
+description: Lync Server 2013：定义持久聊天服务器的要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e63e7af0dca758f6ac543bb0373d2cbb0d953ba0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6af3fab1d91b78a5993f723b8fc6b375e4ab7cee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504299"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545348"
 ---
 # <a name="defining-your-organizations-requirements-for-persistent-chat-server-in-lync-server-2013"></a>定义您的组织在 Lync Server 2013 中的持久聊天服务器的要求
 

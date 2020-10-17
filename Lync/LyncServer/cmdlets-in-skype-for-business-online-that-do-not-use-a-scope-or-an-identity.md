@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online 中不使用作用域或标识的 cmdlet
+description: Skype for Business Online 中不使用作用域或标识的 cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,19 +13,19 @@ ms:contentKeyID: 56558839
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ade4dee78fff151530e0d76279fdbfaeade720b
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: e7d893c4cf9203c8657dfbdfd7fb2bf46dbdfe4e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755312"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545718"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a>Skype for Business Online 中不使用作用域或标识的 cmdlet
 
  
 
 
-修改允许的列表和阻止的列表时使用的 cmdlet （用于确定允许用户与哪些外部组织通信的列表）不使用范围或标识。 事实上， **CsEdgeAllowAllKnownDomains** cmdlet 没有任何参数。 不使用作用域或标识的 cmdlet 为：
+在修改允许的列表和阻止的列表时使用的 cmdlet (列表，用于确定允许用户与) 通信的外部组织。不使用范围或标识。 事实上， **CsEdgeAllowAllKnownDomains** cmdlet 没有任何参数。 不使用作用域或标识的 cmdlet 为：
 
   - [新 CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/library/jj994088\(v=ocs.15\))
 
@@ -32,7 +33,7 @@ ms.locfileid: "44755312"
 
   - [新 CsEdgeDomainPattern](https://technet.microsoft.com/library/jj994040\(v=ocs.15\))
 
-请注意，同时使用**CsEdgeAllowList** Cmdlet 和**CsEdgeDomainPattern** Cmdlet，必须包括 Domain 参数。 例如：
+请注意，同时使用 **CsEdgeAllowList** Cmdlet 和 **CsEdgeDomainPattern** Cmdlet，必须包括 Domain 参数。 例如：
 
     $x = New-CsEdgeDomainPattern -Domain "fabrikam.com"
 

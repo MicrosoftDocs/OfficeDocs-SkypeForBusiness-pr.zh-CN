@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为您的会议、应用程序和中介服务器配置服务质量策略
+description: Lync Server 2013：为您的会议、应用程序和中介服务器配置服务质量策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ca1e1e243fe6957fdc5233b248c358d82817516
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0ee82c5f1f6b3025c4052b7e27c1013e0624b756
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508869"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545638"
 ---
 # <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>在 Lync Server 2013 中为您的会议、应用程序和中介服务器配置服务质量策略
 

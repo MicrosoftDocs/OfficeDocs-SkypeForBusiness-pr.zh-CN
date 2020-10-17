@@ -1,5 +1,6 @@
 ---
 title: 管理 Lync Server 2013 持久聊天服务器
+description: 管理 Lync Server 2013、持久聊天服务器。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 306d12d35bc73935467a9b29812a614fac21f8e9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fe5306c79c738d61b70c3dd079fb55650e6fdae9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527549"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544578"
 ---
 # <a name="managing-lync-server-2013-persistent-chat-server"></a>管理 Lync Server 2013 持久聊天服务器
 

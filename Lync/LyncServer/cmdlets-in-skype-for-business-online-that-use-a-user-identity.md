@@ -1,5 +1,6 @@
 ---
 title: Skype for Business Online 中使用用户标识的 cmdlet
+description: Skype for Business Online 中使用用户标识的 cmdlet。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558859
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8aee680c6e55de62ff9d49724d3e480c00159aa4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 29f838317f8b2779de862eb2df82ae1b348871e4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755104"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545648"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Skype for Business Online 中使用用户标识的 cmdlet
 
@@ -69,7 +70,7 @@ ms.locfileid: "44755104"
 
   - [CsUserAcp](https://technet.microsoft.com/library/gg413018\(v=ocs.15\))
 
-请注意，调用**Cs** cmdlet 之一时无需指定用户标识。 在这种情况下，cmdlet 将返回指定项目的所有实例。 例如，以下命令将返回已为 Skype for Business Online 启用的所有用户的相关信息：
+请注意，调用 **Cs** cmdlet 之一时无需指定用户标识。 在这种情况下，cmdlet 将返回指定项目的所有实例。 例如，以下命令将返回已为 Skype for Business Online 启用的所有用户的相关信息：
 
     Get-CsOnlineUser
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 容量规划
+description: Lync Server 2013 容量规划。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49352446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3b8a2a9bb70fe62bb2f7d4b74baecc22e77c0d3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 794966ee2de76d2470c6cc633853b25a50a406ef
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508119"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544398"
 ---
 # <a name="capacity-planning-for-lync-server-2013"></a>Lync Server 2013 的容量规划
 

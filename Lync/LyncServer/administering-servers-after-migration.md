@@ -1,5 +1,6 @@
 ---
 title: 迁移后服务器的管理
+description: 迁移后管理服务器。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5dfc5162e2a624f1937e4d1b2751398f57ba8e21
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 24ea310f02a7622fbf3b73160714520d3c47ac3b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499849"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544998"
 ---
 # <a name="administering-servers-after-migration"></a>迁移后服务器的管理
 

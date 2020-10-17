@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置中继
+description: Lync Server 2013：配置中继。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183389
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c2fd4a79937477edbe01f5550a81e92a663d3d8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 07d9503cd38419a7145796a6edf8484a14cdeb53
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517339"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544148"
 ---
 # <a name="configuring-trunks-in-lync-server-2013"></a>在 Lync Server 2013 中配置中继
 

@@ -1,5 +1,6 @@
 ---
 title: 迁移后更改简单 URL
+description: 迁移后更改简单 Url。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 029fe44d33d41b410d23068551203b1532893354
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b2f9974106d28bcfdc64c2255337baf721a937e7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499689"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545758"
 ---
 # <a name="change-simple-urls-after-migration"></a>迁移后更改简单 URL
 

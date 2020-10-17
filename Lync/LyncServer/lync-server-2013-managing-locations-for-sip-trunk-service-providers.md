@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：管理 SIP 中继服务提供商的位置
+description: Lync Server 2013：管理 SIP 中继服务提供程序的位置。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6aa7dce34aea04c851608f67d1412c1c3da4069
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 062c55f6e8484121c91b28f4926e37f85a25c0a7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498169"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545188"
 ---
 # <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>在 Lync Server 2013 中管理 SIP 中继服务提供商的位置
 
