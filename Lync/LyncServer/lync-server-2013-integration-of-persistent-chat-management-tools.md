@@ -12,20 +12,22 @@ ms:contentKeyID: 49733651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1a2d5bf8d3cc15051799f24895e7eb886cdfc08
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19814b3fb193ffb23c53c72929d7597f51ca046a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498499"
 ---
+# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a>在 Lync Server 2013 中集成持久聊天管理工具
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a>在 Lync Server 2013 中集成持久聊天管理工具
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-08-16_
 
 Lync Server 2013 通过将其管理工具与用于其他 Lync Server 的工具集成在一起，简化了持久聊天服务器的管理。
 
-持久聊天服务器包括与 Lync Server 控制面板集成的管理用户界面体验。 此外，持久聊天服务器还包括 Windows PowerShell cmdlet 的集合，用于管理和管理持久聊天服务器类别、会议室（包括删除聊天室和清除过时内容）和外接程序。
+持久聊天服务器包括与 Lync Server 控制面板集成的管理用户界面体验。 此外，持久聊天服务器还包括用于管理和管理持久聊天服务器类别的 Windows PowerShell cmdlet 的集合，会议室 (包括删除聊天室和清除过时内容) 和外接程序。
 
 <div>
 

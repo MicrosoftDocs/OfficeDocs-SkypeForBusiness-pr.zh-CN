@@ -12,20 +12,22 @@ ms:contentKeyID: 48185526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c57a737a272d8cdfd628dce394ecaffdb0c7e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34b6e60786d8e46549a3f1e8fed70a96d4d28d2c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198195"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499069"
 ---
+# <a name="deployment-process-overview-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中的企业语音部署过程概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-overview-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 中的企业语音部署过程概述
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-09-22_
 
   - [在 Lync Server 2013 中规划出站语音路由](lync-server-2013-planning-outbound-voice-routing.md)
 
-有关部署 Exchange 统一消息（UM）的概述，请参阅以下内容：
+有关部署 Exchange 统一消息 (UM) 的概述，请参阅以下内容：
 
   - [集成本地统一消息和 Lync Server 2013 的部署过程](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
 
@@ -67,9 +69,9 @@ _**上次修改的主题：** 2012-09-22_
 
   - [Lync Server 2013 中的 E9-1-1 的部署清单](lync-server-2013-deployment-checklist-for-e9-1-1.md)
 
-有关部署专用电话线路的概述，请参阅[规划专用电话线路和 Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md)中的 "混合部署中的专用电话线路" 一节。
+有关部署专用电话线路的概述，请参阅 [规划专用电话线路和 Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md)中的 "混合部署中的专用电话线路" 一节。
 
-有关配置呼叫处理功能（呼叫寄存、通知应用程序和响应组）的概述，请参阅以下内容：
+有关 (呼叫停车、通知应用程序和响应组) 的部署呼叫处理功能的概述，请参阅以下内容：
 
   - [Lync Server 2013 中呼叫寄存的部署过程](lync-server-2013-deployment-process-for-call-park.md)
 

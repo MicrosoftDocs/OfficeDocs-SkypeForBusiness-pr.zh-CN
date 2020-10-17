@@ -12,20 +12,22 @@ ms:contentKeyID: 48184969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6847c0e96da546d2387a66b9215e5c64b4743241
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 944aaf06ce81e5ba326841f6abe91614cdffd134
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213428"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498909"
 ---
+# <a name="dial-in-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 中的电话拨入式会议要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 中的电话拨入式会议要求
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**上次修改的主题：** 2012-09-30_
 
 </div>
 
-有关规划用于电话拨入式会议的中介服务器和 PSTN 网关的配置的详细信息，请参阅规划文档中的 "[在 Lync server 2013 中的中介服务器的组件和拓扑](lync-server-2013-components-and-topologies-for-mediation-server.md)"。
+有关规划用于电话拨入式会议的中介服务器和 PSTN 网关的配置的详细信息，请参阅规划文档中的 " [在 Lync server 2013 中的中介服务器的组件和拓扑](lync-server-2013-components-and-topologies-for-mediation-server.md) "。
 
 </div>
 
@@ -91,11 +93,11 @@ _**上次修改的主题：** 2012-09-30_
 
   - 默认情况下，区域的所有拨入访问号码都会包含在会议邀请中。
 
-  - 命名区域以使其清楚识别，这一点非常重要。 用户可以使用区域名称更改会议的区域，以便在邀请中包含不同的访问号码。 （当用户使用 Outlook 安排会议时，用户将使用 Lync 2013 的联机会议外接程序更改区域）。
+  - 命名区域以使其清楚识别，这一点非常重要。 用户可以使用区域名称更改会议的区域，以便在邀请中包含不同的访问号码。  (当用户使用 Outlook 安排会议时，用户使用 Lync 2013 的联机会议外接程序更改区域) 。
 
   - 应该对区域加以设计，以便想要拨入会议的被邀请者可以在会议邀请中看到本地访问号码。
 
-  - 您可以使用 Lync Server 命令行管理程序 cmdlet 配置区域中的访问号码在 "电话拨入式会议设置" 页上的显示顺序（因此，它们在会议邀请中的显示顺序）。
+  - 您可以配置区域中的访问号码在 "电话拨入式会议设置" 页上的显示顺序 (，因此，它们在会议邀请中的显示顺序) 通过使用 Lync Server 命令行管理程序 cmdlet。
 
   - 任何位置的任何用户均可拨打拨入访问号码来加入会议。
 

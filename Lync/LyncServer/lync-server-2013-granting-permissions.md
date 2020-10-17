@@ -12,20 +12,22 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20679f910ead1f1b7cab45fde658b38233c644f3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e69cb3c8638cb11ababac73d0f8fe4025bbda24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202188"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498879"
 ---
+# <a name="granting-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中授予权限
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="granting-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中授予权限
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202188"
 
 _**上次修改的主题：** 2012-10-15_
 
-对于安装程序，可以为特定 Active Directory 组织单位（OU）授予对 RTCUniversalServerAdmins 通用组的权限，从而使该 OU 中的 RTCUniversalServerAdmins 组成员能够在指定的域中安装 Lync Server 2013。 为 OU 授予权限时，授予的权限包括：
+对于安装程序，可以向 RTCUniversalServerAdmins 通用组授予对特定 Active Directory 组织单位 (OU) 的权限，从而启用该 OU 中 RTCUniversalServerAdmins 组的成员，以在指定的域中安装 Lync Server 2013。 为 OU 授予权限时，授予的权限包括：
 
   - 读取
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d088d07e5d49a916835da581af81ff7def581b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d91c455c1e4bfbb2b4fe7af827265a789c9ace68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214298"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498929"
 ---
+# <a name="overview-of-dial-in-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的电话拨入式会议概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-dial-in-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的电话拨入式会议概述
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214298"
 
 _**上次修改的主题：** 2012-09-30_
 
-如果贵组织的用户在外出时需要出席 Lync Server 2013 本地会议或无法访问计算机，则可以部署电话拨入式会议，以便他们可以使用公开交换电话加入会议网络（PSTN）电话。
+如果您的组织有用户在外出时需要出席 Lync Server 2013 本地会议或对计算机没有访问权限，则可以部署电话拨入式会议，以便他们可以使用公开交换的电话网络 (PSTN) 电话加入会议。
 
 电话拨入式会议是一项可选功能，可在部署 Lync Server 2013 会议时进行配置。 虽然电话拨入式会议使用企业语音使用的一些相同的 Lync Server 2013 组件，但即使不部署企业语音，也可以部署电话拨入式会议。
 
@@ -57,7 +59,7 @@ _**上次修改的主题：** 2012-09-30_
 
   - 一个或多个 PSTN 接入号码。
 
-  - 指向 "电话拨入式会议设置" 页的链接，其中包含访问号码及其关联语言的完整列表;用于创建、重置或取消阻止个人识别码（Pin）的位置;以及其他信息，如双音多频（DTMF）控件。
+  - 指向 "电话拨入式会议设置" 页的链接，其中包含访问号码及其关联语言的完整列表;用于创建、重置或取消阻止个人识别码 (Pin) 的位置;以及其他信息，如双音多频 (DTMF) 控件。
 
 电话拨入式会议支持企业用户和匿名用户。 企业用户在其组织中具有 Active Directory 域服务凭据和 Lync Server 2013 帐户。 匿名用户在组织内不具有企业凭据。 在电话拨入式会议环境中，联盟伙伴组织中使用 PSTN 连接至会议的用户被视为匿名用户。 对于电话拨入式会议（不同于其他环境），联盟用户都未经过身份验证。
 

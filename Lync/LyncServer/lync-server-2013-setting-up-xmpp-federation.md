@@ -12,20 +12,22 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e34e47eaa5cd4bf8ffc2fccbc2a8bcb3f4f2de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cb6b2904ee2a8883c492e570173e73bc001cc03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181945"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497519"
 ---
+# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中设置 XMPP 联盟
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>在 Lync Server 2013 中设置 XMPP 联盟
+
 
 </div>
 
@@ -70,7 +72,7 @@ _**上次修改的主题：** 2012-12-03_
 
 9.  在“延迟的请求或即时请求”页上，选中“立即准备请求，但是稍后发送”复选框。
 
-10. 在 "证书请求文件" 页上，键入要将请求保存到的文件的完整路径和文件名（例如，c：\\cert\_外部\_edge）。
+10. 在 "证书请求文件" 页上，键入要将请求保存到的文件的完整路径和文件名 (例如，c： \\ cert \_ 外部 \_ edge) 。
 
 11. 在“指定替代证书模板”页上，要使用除默认 WebServer 模板之外的模板，请选中“对选定的证书颁发机构使用替代证书模板”复选框。
 
@@ -88,7 +90,7 @@ _**上次修改的主题：** 2012-12-03_
 
 15. 在“使用者名称/使用者替代名称”页上，将显示向导自动填充的信息。 如果需要其他使用者替代名称，可以在接下来的两个步骤中指定
 
-16. 在 "使用者替代名称（San）的 SIP 域设置" 页上，选中 "域" 复选框以添加 sip。\<sipdomain\>条目到 "主题备用名称" 列表。
+16. 在 "使用者替代名称 (SANs) " 页上的 "SIP 域设置" 中，选中 "域" 复选框以添加 SIP。\<sipdomain\> "主题备用名称" 列表中的条目。
 
 17. 在 "配置其他使用者替换名称" 页上，指定所需的其他任何其他主题替代名称
     
@@ -119,7 +121,7 @@ _**上次修改的主题：** 2012-12-03_
         Start-CsWindowsService
        ```
 
-23. 若要为 XMPP 联盟配置 DNS，请将以下 SRV 记录添加到外部 DNS\_： XMPP-server。\_tcp。\<域名 SRV 记录将解析为边缘服务器的访问边缘 FQDN，端口值为\> 5269。 此外，您还可以配置指向访问边缘服务器的 IP 地址的 "A" 主机记录（例如，xmpp.contoso.com）。
+23. 若要为 XMPP 联盟配置 DNS，请将以下 SRV 记录添加到外部 DNS： \_ XMPP-server。 \_rdp-tcp.\<domain name\> SRV 记录将解析为边缘服务器的访问边缘 FQDN，端口值为5269。 此外，还可以配置 "A" 主机记录 (例如，指向访问边缘服务器的 IP 地址的 xmpp.contoso.com) 。
     
     <div class=" ">
     
@@ -164,7 +166,7 @@ _**上次修改的主题：** 2012-12-03_
         Netstat -ano | findstr 23456
        ```
     
-    Command **netstat – ano**是网络统计命令、参数 **– ano**请求 netstat 显示所有连接和侦听端口、地址和端口均以数字形式显示，并且拥有的进程 ID 与每个连接相关联。 该字符**|** 将管道定义为下一个命令、 **findstr**或查找字符串。 作为参数传递给 findstr 的数字5269和23456指示 findstr 搜索针对字符串5269和23456的 netstat 的输出。 如果正确配置了 XMPP，则命令的结果应导致侦听和建立的连接，这两个连接都在外部（端口5269）和边缘服务器的内部（端口23456）接口上。
+    Command **netstat – ano** 是网络统计命令、参数 **– ano** 请求 netstat 显示所有连接和侦听端口、地址和端口均以数字形式显示，并且拥有的进程 ID 与每个连接相关联。 该字符将 **|** 管道定义为下一个命令、 **findstr**或查找字符串。 作为参数传递给 findstr 的数字5269和23456指示 findstr 搜索针对字符串5269和23456的 netstat 的输出。 如果正确配置了 XMPP，则命令的结果应导致侦听和建立的连接，这两个连接都在外部 (端口 5269) 和边缘服务器的内部 (端口 23456) 接口上。
     
     如果命令未在5269和23456上返回已建立或正在侦听的端口，请检查以下各项：
 
@@ -178,25 +180,25 @@ _**上次修改的主题：** 2012-12-03_
 
 2.  以本地管理员组成员身份登录到运行 XMPP 代理服务的边缘服务器。
 
-3.  依次单击 "**开始**"、"**所有程序**"、"**管理工具**"、"**服务**
+3.  依次单击 " **开始**"、" **所有程序**"、" **管理工具**"、" **服务**
 
-4.  在 "服务" 中，找到 "Lync Server XMPP 转换网关代理"。 服务应处于 "**已启动**" 状态。 如果未启动，请单击工具栏中的 "**开始**" 图标。 图标以绿色的向右箭头形式显示。
+4.  在 "服务" 中，找到 "Lync Server XMPP 转换网关代理"。 服务应处于 " **已启动** " 状态。 如果未启动，请单击工具栏中的 " **开始** " 图标。 图标以绿色的向右箭头形式显示。
 
-5.  确认服务已更改为 "**已启动**"。 如果已成功启动，请关闭**服务**并继续。
+5.  确认服务已更改为 " **已启动**"。 如果已成功启动，请关闭 **服务** 并继续。
     
     如果为止服务尚未成功启动，请从 "管理工具" 中打开事件查看器，并在 "**应用程序和服务日志**" 下的**Lync Server**部分中引用错误和警告。
 
-6.  在**Lync SERVER XMPP 转换网关**服务运行后，重新检查以前使用的 netstat 命令。 如果你未看到已建立或正在侦听的会话，请检查并确保在拓扑生成器中正确配置了**XMPP 联合路由**
+6.  在 **Lync SERVER XMPP 转换网关** 服务运行后，重新检查以前使用的 netstat 命令。 如果你未看到已建立或正在侦听的会话，请检查并确保在拓扑生成器中正确配置了**XMPP 联合路由**
 
 7.  以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-8.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+8.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 9.  在拓扑生成器中，选择 XMPP 联盟路由和审阅的网站，以确认**XMPP 联合**的**站点联合路由分配**将边缘服务器或边缘池显示为选定的 XMPP 联合路由分配。
     
-    如果路由分配不正确或未设置，请右键单击网站，然后单击 "**编辑属性**"。 选中 "XMPP 联盟" 复选框，然后选择正确的边缘服务器或边缘池。
+    如果路由分配不正确或未设置，请右键单击网站，然后单击 " **编辑属性**"。 选中 "XMPP 联盟" 复选框，然后选择正确的边缘服务器或边缘池。
 
-10. 发布拓扑。 有关详细信息，请参阅[在 Lync Server 2013 中发布拓扑](lync-server-2013-publish-your-topology.md)
+10. 发布拓扑。 有关详细信息，请参阅 [在 Lync Server 2013 中发布拓扑](lync-server-2013-publish-your-topology.md)
     
     <div class=" ">
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85c43cb727b83b06d6427e2bf3b6027d78dc025e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d17715718d66530686009fdc4b2b9e2acebfceaf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498899"
 ---
+# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中授予组织单位权限
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>在 Lync Server 2013 中授予组织单位权限
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42199335"
 
 _**上次修改的主题：** 2012-05-14_
 
-您可以使用**CsOuPermission** cmdlet 向指定组织单位（ou）中的对象授予权限，以便林准备创建的 RTC 通用组的成员可以在不是 Domain Admins 组成员的情况下对其进行访问。 添加到指定 OU 的权限与**CsAdDomain** cmdlet 在域准备期间添加到计算机和用户容器的权限相同。
+您可以使用 **CsOuPermission** cmdlet 向指定组织单位 (ou 中的对象授予权限) 这样，由林准备创建的 RTC 通用组的成员就可以在不是 Domain Admins 组成员的情况下访问这些对象。 添加到指定 OU 的权限与 **CsAdDomain** cmdlet 在域准备期间添加到计算机和用户容器的权限相同。
 
-使用**CsOuPermission** cmdlet 可以验证您使用**CsOuPermission** cmdlet 设置的权限。
+使用 **CsOuPermission** cmdlet 可以验证您使用 **CsOuPermission** cmdlet 设置的权限。
 
-您可以使用**CsOuPermission** cmdlet 删除通过使用**CsOuPermission** cmdlet 授予的权限。
+您可以使用 **CsOuPermission** cmdlet 删除通过使用 **CsOuPermission** cmdlet 授予的权限。
 
 <div>
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2012-05-14_
 
 ## <a name="to-verify-ou-permissions"></a>验证 OU 权限
 
-1.  在要验证您使用**CsOuPermission** cmdlet 授予的 OU 权限的域中，登录到运行 Lync Server 2013 的计算机。 如果该 OU 位于不同的子域中，请使用 Domain Admins 组或 Enterprise Admins 组成员的帐户。
+1.  在要验证您使用 **CsOuPermission** cmdlet 授予的 OU 权限的域中，登录到运行 Lync Server 2013 的计算机。 如果该 OU 位于不同的子域中，请使用 Domain Admins 组或 Enterprise Admins 组成员的帐户。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2012-05-14_
 
 ## <a name="to-revoke-ou-permissions"></a>撤消 OU 权限
 
-1.  登录到要撤消**CsOuPermission** cmdlet 授予的 OU 权限的域中运行 Lync Server 2013 的计算机。 如果该 OU 位于不同的子域中，请使用 Domain Admins 组或 Enterprise Admins 组成员的帐户。
+1.  登录到要撤消 **CsOuPermission** cmdlet 授予的 OU 权限的域中运行 Lync Server 2013 的计算机。 如果该 OU 位于不同的子域中，请使用 Domain Admins 组或 Enterprise Admins 组成员的帐户。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 

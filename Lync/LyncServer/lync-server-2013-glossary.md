@@ -12,20 +12,22 @@ ms:contentKeyID: 48183930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d40e0c94733ca26768e2f72475ed0d66e37f20c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a241f67f524569a4e8bf0d61e2cb667dd018e0a8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498889"
 ---
+# <a name="glossary-for-lync-server-2013"></a>Lync Server 2013 术语表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="glossary-for-lync-server-2013"></a>Lync Server 2013 术语表
+
 
 </div>
 
@@ -49,18 +51,18 @@ _**上次修改的主题：** 2014-02-14_
 </colgroup>
 <thead>
 <tr class="header">
-<th>术语</th>
+<th>Term</th>
 <th>定义</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>A/V 边缘服务器</p></td>
-<td><p>允许内部用户与外部用户（即未登录到内部网络的用户）共享音频和视频数据。</p></td>
+<td><p>允许内部用户与外部用户共享音频和视频数据， (也就是未登录到内部网络) 的用户。</p></td>
 </tr>
 <tr class="even">
 <td><p>ACP</p></td>
-<td><p>通过公共交换电话网络（PSTN）提供音频会议服务的第三方组织。</p></td>
+<td><p>通过公共交换电话网络 (PSTN) 提供音频会议服务的第三方组织。</p></td>
 </tr>
 <tr class="odd">
 <td><p>主动监控</p></td>
@@ -68,7 +70,7 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="even">
 <td><p>音频会议提供商</p></td>
-<td><p>通过公共交换电话网络（PSTN）提供音频会议服务的第三方组织。</p></td>
+<td><p>通过公共交换电话网络 (PSTN) 提供音频会议服务的第三方组织。</p></td>
 </tr>
 <tr class="odd">
 <td><p>音频测试服务</p></td>
@@ -104,7 +106,7 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="odd">
 <td><p>中央管理服务器</p></td>
-<td><p>部署中的一个前端池上的服务器角色（每个组织一个），用于管理和部署运行 Lync Server 的所有服务器的基本配置数据。 此外，还提供 Lync Server 命令行管理程序和文件传输功能。</p></td>
+<td><p>每个组织) 的服务器角色在部署中的一个前端池上 (，可管理基本配置数据并将其部署到运行 Lync Server 的所有服务器。 此外，还提供 Lync Server 命令行管理程序和文件传输功能。</p></td>
 </tr>
 <tr class="even">
 <td><p>客户端版本筛选器</p></td>
@@ -148,7 +150,7 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="even">
 <td><p>边缘池</p></td>
-<td><p>默认情况下，单个计算机池或多台计算机池支持组织中使用虚拟专用网络（VPN）从防火墙外部登录 Lync Server 的远程用户。</p></td>
+<td><p>默认情况下，单个计算机池或多台计算机池通过使用虚拟专用网络 (VPN) ，支持从防火墙外部登录到 Lync Server 的组织中的远程用户。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Enhanced 9-1-1 － 增强型 9-1-1</p></td>
@@ -172,7 +174,7 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="even">
 <td><p>位置信息服务器</p></td>
-<td><p>最初在国家紧急号码关联 i2 网络体系结构中定义的网络节点，它解决了为 VoIP 电话用户提供增强型9-1-1 （E9-1-1）服务的中间解决方案。</p></td>
+<td><p>最初在国家紧急号码关联 i2 网络体系结构中定义的网络节点，它解决了为 VoIP 电话用户提供增强型 9-1-1 (E9-1-1) 服务的中间解决方案。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Location Information service － 位置信息服务</p></td>
@@ -180,11 +182,11 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="even">
 <td><p>长消息</p></td>
-<td><p>持久聊天室中超出字符数限制的邮件。 如果超出字符数限制，邮件将显示为&quot;长消息。&quot;</p></td>
+<td><p>持久聊天室中超出字符数限制的邮件。 如果超出字符数限制，邮件将显示为 &quot; 长消息。&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2013 VDI 插件</p></td>
-<td><p>提供在不出现延迟、抖动和数据包丢失的情况下，具有基于 softphone 的音频、视频和会议（对等）和会议（点对点和多方）的功能。</p></td>
+<td><p>能够在不存在延迟、抖动和数据包丢失的情况下，将基于 softphone 的音频、视频和会议 (的对) 等的音频、视频和会议提供。</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Meeting</p></td>
@@ -192,7 +194,7 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="odd">
 <td><p>Lync 会议窗口</p></td>
-<td><p>表示处理升级（对等会议）的对话窗口，以及在 Lync 会议中同时显示人员和内容的可缩放视图。</p></td>
+<td><p>表示处理 (对等到会议) 的升级和可显示 Lync 会议中共同的人员和内容的可扩展视图的对话窗口。</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server Management Shell － Lync Server 命令行管理程序</p></td>
@@ -212,7 +214,7 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="even">
 <td><p>Microsoft Lync Server 移动服务</p></td>
-<td><p>此服务支持 Lync 功能，例如即时消息（IM）、状态和以下移动设备上的联系人： iPhone、iPad、Android、Windows Phone 和 Nokia。</p></td>
+<td><p>此服务支持 Lync 功能，如即时消息 (IM) 、状态和以下移动设备上的联系人： iPhone、iPad、Android、Windows Phone 和 Nokia。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft 推送通知服务</p></td>
@@ -224,7 +226,7 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="odd">
 <td><p>网络站点间策略</p></td>
-<td><p>定义在呼叫允许控制（CAC）配置中直接链接的站点之间的带宽限制。</p></td>
+<td><p>定义直接链接到呼叫允许控制中的站点之间的带宽限制 (CAC) 配置。</p></td>
 </tr>
 <tr class="even">
 <td><p>网络区域</p></td>
@@ -244,7 +246,7 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="even">
 <td><p>出站转换规则</p></td>
-<td><p>将电话号码转换为本地拨号格式以与专用交换机（PBX）系统进行交互的规则。</p></td>
+<td><p>一种将电话号码转换为本地拨号格式以与专用分支 exchange (PBX) 系统进行交互的规则。</p></td>
 </tr>
 <tr class="odd">
 <td><p>持久聊天</p></td>
@@ -264,7 +266,7 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="odd">
 <td><p>PSTN 用法记录</p></td>
-<td><p>公共交换电话网络（PSTN）使用记录指定一类呼叫（如内部、本地或长途），可以由组织中的各种用户或用户组进行。</p></td>
+<td><p>公用电话交换网 (PSTN) 使用记录指定一类呼叫 (例如内部、本地或远距离) ，可以由组织中的不同用户或用户组进行。</p></td>
 </tr>
 <tr class="even">
 <td><p>公共云</p></td>
@@ -336,7 +338,7 @@ _**上次修改的主题：** 2014-02-14_
 </tr>
 <tr class="odd">
 <td><p>语音路由</p></td>
-<td><p>包含指示 Lync Server 如何将来自企业语音用户的呼叫路由到公共交换电话网络（PSTN）或专用交换机（PBX）上的电话号码的说明的路由。</p></td>
+<td><p>包含指示 Lync Server 如何将来自企业语音用户的呼叫路由到公共交换电话网络 (PSTN) 或专用分支 exchange (PBX) 的电话号码的路由。</p></td>
 </tr>
 <tr class="even">
 <td><p>web 会议</p></td>

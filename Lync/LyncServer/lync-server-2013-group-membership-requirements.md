@@ -12,20 +12,22 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8726d471b1db95aa67cca58a77452d9faa43df4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 041bba31a4c8225a4326e3409475210a46261a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200005"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498769"
 ---
+# <a name="group-membership-requirements-for-lync-server-2013"></a>Lync Server 2013 的组成员身份要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-membership-requirements-for-lync-server-2013"></a>Lync Server 2013 的组成员身份要求
+
 
 </div>
 
@@ -53,12 +55,12 @@ _**上次修改的主题：** 2012-10-05_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Setup.exe –启动</strong>安装 Lync Server 2013 管理工具的可执行文件。</p></td>
+<td><p><strong>Setup.exe</strong> –开始安装 Lync Server 2013 管理工具的可执行文件。</p></td>
 <td><p>运行可执行文件的计算机上本地 Administrators 组的成员。 "域用户" 组的成员，以读取 Active Directory 域服务中的信息。 需要该级别的权限是因为，在本地计算机上自动安装所需的 MSI 软件包需要允许读取和写入受保护的本地计算机资源（如 Program Files 目录）和受保护注册表（如 Local Machine 配置单元）的权限。</p>
 <div>
 
 > [!TIP]  
-> 您还可以将安装权限委派给那些不会获得 Domain Admins 组成员身份的用户或组。 有关详细信息，请参阅部署文档中的在<A href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 中授予安装程序权限</A>。
+> 您还可以将安装权限委派给那些不会获得 Domain Admins 组成员身份的用户或组。 有关详细信息，请参阅部署文档中的在 <A href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 中授予安装程序权限</A> 。
 
 
 </div></td>
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2012-10-05_
 <div>
 
 > [!NOTE]  
-> 如果运行的是 Windows Vista 操作系统或 Windows 7 操作系统，则系统会提示用户帐户控制（UAC）以继续安装。 如果使用标准用户帐户登录，那么在提示要求您提供具有软件安装权限的帐户时，就需要具有本地 Administrators 组成员身份的用户来提供凭据。
+> 如果您运行的是 Windows Vista 操作系统或 Windows 7 操作系统，则用户帐户控制将提示您 (UAC) 继续安装。 如果使用标准用户帐户登录，那么在提示要求您提供具有软件安装权限的帐户时，就需要具有本地 Administrators 组成员身份的用户来提供凭据。
 
 
 </div></td>
@@ -80,15 +82,15 @@ _**上次修改的主题：** 2012-10-05_
 </tr>
 <tr class="even">
 <td><p><strong>TopologyBuilder</strong> –用于创建、查看、调整和验证 Lync Server 2013 拓扑的向导驱动的用户界面。</p></td>
-<td><p>能在运行可执行文件的计算机上查看拓扑的本地 Administrators 组成员。 能更改配置设置的 RTCUniversalServerAdmins 组成员。 能发布拓扑的 RTCUniversalServerAdmins 组和 Domain Admins 组成员或 RTCUniversalServerAdmins 组（仅限于该组已授予代理人安装权限的情况）成员。 有关委派安装程序权限以允许 RTCUniversalServerAdmins 组的成员在不是 Domain Admins 组成员的情况下发布拓扑的详细信息，请参阅部署文档中的在<a href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 中授予安装程序权限</a>。</p></td>
+<td><p>能在运行可执行文件的计算机上查看拓扑的本地 Administrators 组成员。 能更改配置设置的 RTCUniversalServerAdmins 组成员。 能发布拓扑的 RTCUniversalServerAdmins 组和 Domain Admins 组成员或 RTCUniversalServerAdmins 组（仅限于该组已授予代理人安装权限的情况）成员。 有关委派安装程序权限以允许 RTCUniversalServerAdmins 组的成员在不是 Domain Admins 组成员的情况下发布拓扑的详细信息，请参阅部署文档中的在 <a href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 中授予安装程序权限</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AdminUIHost</strong> –用于管理 Lync Server 2013 的基于 Web 的图形用户界面。</p></td>
-<td><p>CsAdministrator 组成员或其他已分配特定管理任务的基于角色的访问控制 (RBAC) 角色成员。 Lync Server 2013 "控制面板" 通过运行 Lync Server 2013 命令行管理程序 cmdlet 实现配置更改。 有关预定义角色和允许运行的 cmdlet 成员的列表，请参阅规划文档中的在<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</a>。</p></td>
+<td><p>CsAdministrator 组成员或其他已分配特定管理任务的基于角色的访问控制 (RBAC) 角色成员。 Lync Server 2013 "控制面板" 通过运行 Lync Server 2013 命令行管理程序 cmdlet 实现配置更改。 有关预定义角色和允许运行的 cmdlet 成员的列表，请参阅规划文档中的在 <a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</a> 。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>加载了 Lync server 2013 模块的 PowerShell</strong> –具有专用于管理 Lync Server 2013 的 cmdlet 的命令行管理工具。</p></td>
-<td><p>CsAdministrator 组成员或其他已分配特定 cmdlet 的 RBAC 角色成员。 有关预定义角色和允许运行的 cmdlet 成员的列表，请参阅规划文档中的在<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</a>。</p>
+<td><p><strong> 使用已加载 Lync server 2013 模块的PowerShell.exe</strong> （具有特定于 lync Server 2013 管理的 cmdlet 的命令行管理工具）。</p></td>
+<td><p>CsAdministrator 组成员或其他已分配特定 cmdlet 的 RBAC 角色成员。 有关预定义角色和允许运行的 cmdlet 成员的列表，请参阅规划文档中的在 <a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 中规划基于角色的访问控制</a> 。</p>
 <p>或下列一组或多组中的成员，具体情况取决于 cmdlet：</p>
 <ul>
 <li><p>RTCUniversalServerAdmins</p></li>

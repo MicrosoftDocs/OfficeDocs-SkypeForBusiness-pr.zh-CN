@@ -12,20 +12,22 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce81d2005a9bbed5432f2c78f3d8df5507d6679
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5f56d856aa0a97125812f68ede9a2bff5b49f036
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191675"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498529"
 ---
+# <a name="installing-optional-software-in-lync-server-2013"></a>在 Lync Server 2013 中安装可选软件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-optional-software-in-lync-server-2013"></a>在 Lync Server 2013 中安装可选软件
+
 
 </div>
 
@@ -53,7 +55,7 @@ Microsoft Lync Server 2013，规划工具旨在导出到 Microsoft Excel 和 Mic
 
   - 硬件配置文件–显示有关拓扑中指定的服务器的建议硬件配置的报告，包括 CPU、内存、磁盘和网络接口。 此外，还包括服务器组件的数量和建议规格。 此外，每个服务器都由网站定义，以提供按站点的服务器要求的完整表示形式。
 
-  - 端口要求–显示已启用的所有端口以及与域名系统负载平衡（DNS LB）和硬件负载平衡器（HLB）的关联的报告。 您应使用此报告来规划防火墙和 DNS LB 和 HLB 配置。
+  - 端口要求–显示已启用的所有端口的报告，以及与域名系统负载平衡 (DNS LB) 和硬件负载平衡器 (HLB) 的关联。 您应使用此报告来规划防火墙和 DNS LB 和 HLB 配置。
 
   - 摘要报告–显示设置边缘服务器网络所需设置的一般摘要。
 
@@ -61,7 +63,7 @@ Microsoft Lync Server 2013，规划工具旨在导出到 Microsoft Excel 和 Mic
 
   - 防火墙报告–显示源和目标端口以及外部和内部接口的 IP 地址。
 
-  - DNS 报告–显示您创建的每个 DNS 条目所需的完全限定域名（FQDN）和 IP/VIP 地址。
+  - DNS 报告–显示您创建的每个 DNS 条目所需的完全限定域名 (FQDN) 和 IP/VIP 地址。
 
 </div>
 
@@ -83,9 +85,9 @@ Microsoft Lync Server 2013，规划工具旨在导出到 Microsoft Excel 和 Mic
 
   - 全局拓扑-配置的 Lync Server 2013 网站的关系图。
 
-  - "站点名称" 选项卡–显示具有边缘服务器、防火墙、公共交换电话网络（PSTN）和网关的站点配置拓扑，以及内部服务器部署。 内部部署包括已配置的服务器和池，包括前端池、基于 SQL Server 的服务器、Active Directory 域服务、控制器、Exchange 统一消息（UM）服务器、Exchange 邮箱服务器、Office Web Apps Server中介服务器和持久聊天服务器。
+  - "网站名称" 选项卡–显示具有边缘服务器、防火墙、公共交换电话网络的站点配置拓扑， (PSTN) 与网关，以及内部服务器部署。 内部部署包括已配置的服务器和池，包括前端池、基于 SQL Server 的服务器、Active Directory 域服务、控制器、Exchange 统一消息 (UM) 服务器、Exchange 邮箱服务器、Office Web Apps Server、中介服务器和持久聊天服务器。
 
-  - 边缘网络图–详细说明边缘服务器配置与关联的 IP 地址和 Fqdn 的图表。 此外，还包括了 DNS 负载平衡和硬件负载平衡器。 此外，还将显示 Director 和前端服务器或前端池，其中包含关联的 DNS LB 或 HLB 以及分配的 IP 地址（规划工具同时支持 IPv4 和 IPv6 地址）和 FQDN。
+  - 边缘网络图–详细说明边缘服务器配置与关联的 IP 地址和 Fqdn 的图表。 此外，还包括了 DNS 负载平衡和硬件负载平衡器。 此外，还将显示 Director 和前端服务器或前端池，并显示关联的 DNS LB 或 HLB 以及分配的 IP 地址 (规划工具支持 IPv4 和 IPv6 地址) 和 FQDN。
 
 </div>
 

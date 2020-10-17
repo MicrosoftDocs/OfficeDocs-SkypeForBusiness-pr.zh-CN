@@ -12,20 +12,22 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 489c5023ab995700762fa5e19ba361df1b49a6b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 917ffc5103617c04a989ec91043a68fcce9f0320
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214598"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498519"
 ---
+# <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42214598"
 
 _**上次修改的主题：** 2014-07-09_
 
-Exchange 和 Lync Server 的集成和兼容性历史记录较长。 此集成在其各自的客户端应用程序中最为明显。 例如，可以在 Microsoft Outlook 中报告 Lync 状态信息;同样，Lync 也可以使用 Outlook 日历自动更新该状态信息。 （例如，当您的日历显示您已安排会议时，Lync 可以随时将您的状态更改为 "忙碌"。）虽然您无需运行 Exchange 即可运行 Lync Server （反之亦然），但毫无疑问，使用这两个产品的 epitomizes 对术语 "更好地结合" 的定义。
+Exchange 和 Lync Server 的集成和兼容性历史记录较长。 此集成在其各自的客户端应用程序中最为明显。 例如，可以在 Microsoft Outlook 中报告 Lync 状态信息;同样，Lync 也可以使用 Outlook 日历自动更新该状态信息。  (例如，当您的日历显示您已安排会议时，Lync 可以随时将您的状态更改为 "忙碌"。 ) 尽管您无需运行 Exchange 即可运行 Lync Server (或者反过来) ，这两个产品的使用 epitomizes 的情况并不是很有疑问。
 
 这在 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013 发布时尤其如此。 除了在 Microsoft Exchange Server 2010 和 Microsoft Lync Server 2010 中找到的功能（如统一消息和 IM 和状态）之外，服务器产品的2013版本还包括许多新功能。 这些功能包括：
 
-  - **Lync 存档集成**。 在 Lync Server 2013 中，管理员仍可以选择将即时消息和 Web 会议脚本存档到 SQL Server （与在 Lync Server 2010 中存档这些脚本的方式相同）。 然而，管理员也可以选择将脚本存档为 Exchange 2013，并以与 Exchange 存档通信相同的方式将这些脚本存储在各个用户邮箱中。 这意味着您的所有电子通信（来自 Exchange 和 Lync Server）的单个存储库，这样就可以更轻松地搜索和检索这些已存档的通信，这是需要发生的。
+  - **Lync 存档集成**。 在 Lync Server 2013 中，管理员仍可以选择将即时消息和 Web 会议脚本存档到 SQL Server (与在 Lync Server 2010) 中存档这些脚本的方式相同。 然而，管理员也可以选择将脚本存档为 Exchange 2013，并以与 Exchange 存档通信相同的方式将这些脚本存储在各个用户邮箱中。 这意味着从 Exchange 和 Lync Server) 中 (所有电子通信的单个存储库，这样就可以更轻松地搜索和检索这些存档的通信（如果需要）。
 
   - **统一的联系人存储库**。 在 Lync Server 2010 中，用户必须在 Outlook 和 Lync 中维护单独的联系人列表;事实上，为了确保您必须在两个产品中都有相同的联系人，您必须维护重复的联系人列表，一个用于 Outlook，一个用于 Lync。 但是，使用 Lync Server 2013，用户联系人可以存储在 Exchange 2013 和统一联系人存储中。 使用单个联系人存储区使用户可以仅维护一组联系人，在 Lync 2013、Outlook 2013 和 Outlook Web Access 2013 中提供了相同的联系人集。
 
@@ -49,9 +51,9 @@ Exchange 和 Lync Server 的集成和兼容性历史记录较长。 此集成在
 
   - **高分辨率照片**。 Lync 2010 只能显示你的联系人的小照片;这是因为这些照片存储在 Active Directory 中，Active Directory 在存储的照片上的48像素大小限制为48像素。 但是，使用 Lync Server 2013，照片可以存储在 Microsoft Exchange 中;，可提供高分辨率的照片，最大为648像素 x 648 像素。 正如您所期望的那样，Lync 2013 已升级为允许显示这些高分辨率照片。
 
-请注意，这些新功能需要同时使用 Lync Server 2013 和 Exchange 2013。 此外，希望充分利用这些新功能的用户必须在 Lync Server 2013 和 Exchange 2013 上拥有帐户，并且必须使用最新版本的客户端软件（例如 Lync 2013）。 例如，统一联系人存储对驻留在 Lync Server 2010 上的用户不可用;同样，在 Lync 2010 中无法显示高分辨率照片。
+请注意，这些新功能需要同时使用 Lync Server 2013 和 Exchange 2013。 此外，希望充分利用这些新功能的用户必须在 Lync Server 2013 和 Exchange 2013 上拥有帐户，并且必须使用最新版本的客户端软件 (例如，Lync 2013) 。 例如，统一联系人存储对驻留在 Lync Server 2010 上的用户不可用;同样，在 Lync 2010 中无法显示高分辨率照片。
 
-本文档提供有关集成 Lync Server 2013 和 Exchange 2013 的信息。 其中包括有关启用新功能（如存档集成和统一的联系人存储库）的分步信息。 本文档不能执行的操作是讨论这两种产品的初始设置和配置。 有关部署 Lync Server 2013 的详细信息，请参阅 Lync Server 2013 技术[https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127)中心（网址为）。 有关部署 Exchange 2013 的详细信息，请参阅 Exchange 2013 技术[https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528)中心（网址为）。
+本文档提供有关集成 Lync Server 2013 和 Exchange 2013 的信息。 其中包括有关启用新功能（如存档集成和统一的联系人存储库）的分步信息。 本文档不能执行的操作是讨论这两种产品的初始设置和配置。 有关部署 Lync Server 2013 的详细信息，请参阅 Lync Server 2013 技术中心（网址为） [https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127) 。 有关部署 Exchange 2013 的详细信息，请参阅 Exchange 2013 技术中心（网址为） [https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528) 。
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aeebdf5e06c647172b0e1d00b2602855eca6bc1c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6b9aa4a51ed7e75b413b0712297d02f5e8050fa2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192115"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497369"
 ---
+# <a name="system-requirements-for-sql-server-in-lync-server-2013"></a>Lync Server 2013 中 SQL Server 的系统要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-sql-server-in-lync-server-2013"></a>Lync Server 2013 中 SQL Server 的系统要求
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42192115"
 
 _**上次修改的主题：** 2013-10-25_
 
-在部署 Enterprise Edition server 之前，请在满足硬件要求的专用计算机上安装 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012。 有关硬件要求的详细信息，请参阅可支持性文档中的[Lync server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md)。 有关软件要求的详细信息，请参阅可支持性文档中的[Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md)。 有关部署所需权限的信息，请参阅[Lync server 2013 中的 SQL Server 部署权限](lync-server-2013-deployment-permissions-for-sql-server.md)。
+在部署 Enterprise Edition server 之前，请在满足硬件要求的专用计算机上安装 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012。 有关硬件要求的详细信息，请参阅可支持性文档中的 [Lync server 2013 的服务器硬件平台](lync-server-2013-server-hardware-platforms.md) 。 有关软件要求的详细信息，请参阅可支持性文档中的 [Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md) 。 有关部署所需权限的信息，请参阅 [Lync server 2013 中的 SQL Server 部署权限](lync-server-2013-deployment-permissions-for-sql-server.md)。
 
-在创建前端池之前，还必须通过使用 SQL Server 配置管理器并在 Windows 防火墙中打开端口，将 Windows 防火墙配置为允许 Lync Server 2013 通过特定端口访问 SQL Server高级安全。
+在创建前端池之前，还必须通过使用 SQL Server 配置管理器并在具有高级安全性的 Windows 防火墙中打开端口，将 Windows 防火墙配置为允许 Lync Server 2013 通过特定端口访问 SQL Server。
 
 </div>
 

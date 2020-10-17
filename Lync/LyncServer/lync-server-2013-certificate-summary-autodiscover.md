@@ -12,20 +12,22 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7424d0c002e5b14335a6d0256fc72a3beff733cc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 196b3dacec792097a4760ef134ead91f267a53d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187475"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499309"
 ---
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>证书摘要-Lync Server 2013 中的自动发现
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>证书摘要-Lync Server 2013 中的自动发现
+
 
 </div>
 
@@ -41,9 +43,9 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 
 有关是否在反向代理上使用主题备用名称列表的决策取决于您是在端口80上还是在端口443上发布自动发现服务：
 
-  - **已在端口 80**   上发布如果对自动发现服务的初始查询在端口80上发生，则无需进行证书更改。 这是因为运行 Lync 的移动设备将在外部端口80上访问反向代理，然后在内部桥接到端口8080上的控制器或前端服务器。 有关详细信息，请参阅[Lync Server 2013 中的移动性技术要求](lync-server-2013-technical-requirements-for-mobility.md)一节中的 "使用端口80初始自动发现过程" 一节。
+  - **已在端口 80**     上发布如果对自动发现服务的初始查询在端口80上发生，则不需要进行证书更改。 这是因为运行 Lync 的移动设备将在外部端口80上访问反向代理，然后在内部桥接到端口8080上的控制器或前端服务器。 有关详细信息，请参阅 [Lync Server 2013 中的移动性技术要求](lync-server-2013-technical-requirements-for-mobility.md)一节中的 "使用端口80初始自动发现过程" 一节。
 
-  - **在端口 443**   上发布在外部 web 服务发布规则所使用的证书上的 "使用者备用名称" 列表中，必须包含一个*lyncdiscover.。\<组织\> *中每个 SIP 域的 sipdomain 条目。
+  - **已在端口 443**     上发布外部 web 服务发布规则所使用的证书上的 "主题备用名称" 列表必须包含*lyncdiscover. \<sipdomain\> 。* 组织中每个 SIP 域的条目。
     
     <div>
     
@@ -60,13 +62,13 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 
 
 > [!NOTE]  
-> 如果您的 Lync Server 2013 基础结构使用内部证书颁发机构（CA）颁发的内部证书，并且您计划支持通过无线方式连接的移动设备，则必须安装来自内部 CA 的根证书链在移动设备上，或者必须更改为 Lync Server 2013 基础结构上的公共证书。
+> 如果你的 Lync Server 2013 基础结构使用从内部证书颁发机构颁发的内部证书 (CA) ，并且计划支持通过无线方式连接的移动设备，则必须在移动设备上安装内部 CA 的根证书链，或者必须将其更改为 Lync Server 2013 基础结构上的公共证书。
 
 
 
 </div>
 
-本主题介绍了控制器、前端服务器和反向代理所需的已添加主题替代名称。 仅引用添加的使用者替代名称（SAN）。 有关证书的其他条目的指导，请参阅规划部分。 有关详细信息，请参阅 lync server [2013 中的 Director 方案](lync-server-2013-scenarios-for-the-director.md)、 [lync server 2013 中的外部用户访问](lync-server-2013-scenarios-for-external-user-access.md)方案和[lync server 2013 中的反向代理](lync-server-2013-scenarios-for-reverse-proxy.md)方案。
+本主题介绍了控制器、前端服务器和反向代理所需的已添加主题替代名称。 仅引用添加的主题替代名称 (SAN) 。 有关证书的其他条目的指导，请参阅规划部分。 有关详细信息，请参阅 lync server [2013 中的 Director 方案](lync-server-2013-scenarios-for-the-director.md)、 [lync server 2013 中的外部用户访问](lync-server-2013-scenarios-for-external-user-access.md)方案和 [lync server 2013 中的反向代理](lync-server-2013-scenarios-for-reverse-proxy.md)方案。
 
 下表定义了控制器池、前端池和反向代理的自动发现 SAN 条目：
 
@@ -79,18 +81,18 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 </colgroup>
 <thead>
 <tr class="header">
-<th>Description</th>
+<th>说明</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>内部自动发现服务 URL</p></td>
-<td><p>SAN = lyncdiscoverinternal.。&lt;内部域名&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal.。 &lt;内部域名&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>外部自动发现服务 URL</p></td>
-<td><p>SAN = lyncdiscover.。&lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover.。 &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +102,7 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 
 
 > [!NOTE]  
-> 将新更新的证书和新的 SAN 条目分配给默认证书。 或者，也可以使用 SAN = *。&lt;sipdomain&gt;。
+> 将新更新的证书和新的 SAN 条目分配给默认证书。 或者，也可以使用 SAN = *。 &lt;sipdomain &gt; 。
 
 
 
@@ -115,18 +117,18 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 </colgroup>
 <thead>
 <tr class="header">
-<th>Description</th>
+<th>说明</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>内部自动发现服务 URL</p></td>
-<td><p>SAN = lyncdiscoverinternal.。&lt;内部域名&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal.。 &lt;内部域名&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>外部自动发现服务 URL</p></td>
-<td><p>SAN = lyncdiscover.。&lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover.。 &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,7 +138,7 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 
 
 > [!NOTE]  
-> 将新更新的证书和新的 SAN 条目分配给默认证书。 或者，也可以使用 SAN = *。&lt;sipdomain&gt;
+> 将新更新的证书和新的 SAN 条目分配给默认证书。 或者，也可以使用 SAN = *。 &lt;sipdomain&gt;
 
 
 
@@ -151,14 +153,14 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 </colgroup>
 <thead>
 <tr class="header">
-<th>Description</th>
+<th>说明</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部自动发现服务 URL</p></td>
-<td><p>SAN = lyncdiscover.。&lt;sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover.。 &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78032a23fce6bb210ecec6eb828178aabddf9b52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 649d085253610002e7623872012a400ac0a1f079
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198135"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498939"
 ---
+# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>在 Lync Server 2013 中设计交互式语音响应呼叫流
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>在 Lync Server 2013 中设计交互式语音响应呼叫流
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**上次修改的主题：** 2013-02-25_
 
 ## <a name="working-with-speech-technologies"></a>使用语音技术
 
-语音识别和文本到语音转换等语音技术可以增强用户体验，并使用户能够更自然和更有效地获得信息。 但是，语音引擎在有些情况下无法正确识别所指定的文本或用户语音响应。 例如，"\#" 符号由文本到语音引擎转换为 "数字" 一词。 通过以下方式可以缓解这一问题：
+语音识别和文本到语音转换等语音技术可以增强用户体验，并使用户能够更自然和更有效地获得信息。 但是，语音引擎在有些情况下无法正确识别所指定的文本或用户语音响应。 例如，" \# " 符号由文本到语音引擎转换为 "数字" 一词。 通过以下方式可以缓解这一问题：
 
   - 语音引擎让呼叫者尝试回答问题五次。如果呼叫者回答问题有误（即答案不是所指定的响应之一）或根本未提供答案，则呼叫者将再获得一次回答问题的机会。呼叫者有五次机会来回答问题，然后才会被挂断。可以将 IVR 配置为呼叫者每次出错后播放自定义消息。每次都将重复该问题。
 
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2013-02-25_
 
   - 如果问题同时包括语音和 DTMF 响应，请将语音响应配置为表示具体概念的语句，而不是 DTMF 响应。例如，不要使用“请按或说 1”，而应使用“请按 1 或说出帐单”。
 
-  - 设计 IVR 之后，请呼叫工作流、收听提示、使用语音对每个提示做出响应，并确认 IVR 的声音和行为符合预期。 然后，可以修改 IVR 以更正任何释读问题。 在前面的示例中，如果需要引用\#键，可以重写 IVR 提示以使用项名称，而不是\#符号。 例如，“要与销售人员交谈，请按井号键”。
+  - 设计 IVR 之后，请呼叫工作流、收听提示、使用语音对每个提示做出响应，并确认 IVR 的声音和行为符合预期。 然后，可以修改 IVR 以更正任何释读问题。 在前面的示例中，如果需要引用 \# 键，可以重写 IVR 提示以使用项名称，而不是 \# 符号。 例如，“要与销售人员交谈，请按井号键”。
 
 </div>
 

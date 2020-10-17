@@ -12,20 +12,22 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c40a101d383686c6178c153a40ac0c6b5b26f9a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7ddf45fbeda6aa16c30ee1ff79536658c8d598f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202158"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497769"
 ---
+# <a name="planning-for-call-management-features-in-lync-server-2013"></a>在 Lync Server 2013 中规划呼叫管理功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-management-features-in-lync-server-2013"></a>在 Lync Server 2013 中规划呼叫管理功能
+
 
 </div>
 
@@ -52,7 +54,7 @@ _**上次修改的主题：** 2012-12-17_
     
     </div>
 
-  - **响应组**：通过使用智能寻线或互动语音响应（IVR）问题和答案，将传入呼叫路由到代理组。
+  - **响应组**：使用智能寻线或互动语音响应将传入呼叫路由到代理组 (IVR) 问题和解答。
 
   - **通知：**    为对未分配号码发出的呼叫播放消息，或将呼叫路由到其他位置，或同时进行这两种呼叫。
 

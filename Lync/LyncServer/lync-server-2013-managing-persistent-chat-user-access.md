@@ -12,20 +12,22 @@ ms:contentKeyID: 48184211
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5edcd8f49df6f4b5ead870a34875e6404f1e0f37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac2f1d45bbb6fe39703085721a23bed69f75314c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217878"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497959"
 ---
+# <a name="managing-persistent-chat-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中管理持久聊天用户访问
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-persistent-chat-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中管理持久聊天用户访问
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217878"
 
 _**上次修改的主题：** 2012-10-06_
 
-以下主题介绍如何使用 Lync Server 2013 控制面板和**持久聊天**页面管理持久聊天中的用户访问。 若要管理持久聊天服务器，您必须具有系统中的持久聊天管理员权限和权限。 当您安装持久聊天服务器时，您可以指定一个或多个具有必需的持久聊天管理员权限的用户。 若要向其他用户帐户授予管理员权限，请使用“管理用户和用户组”****。 有关详细信息，请参阅[Lync Server 2013 中的使用户能够管理类别、聊天室和用户权利和权限](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)。
+以下主题介绍如何使用 Lync Server 2013 控制面板和 **持久聊天** 页面管理持久聊天中的用户访问。 若要管理持久聊天服务器，您必须具有系统中的持久聊天管理员权限和权限。 当您安装持久聊天服务器时，您可以指定一个或多个具有必需的持久聊天管理员权限的用户。 若要向其他用户帐户授予管理员权限，请使用“管理用户和用户组”****。 有关详细信息，请参阅 [Lync Server 2013 中的使用户能够管理类别、聊天室和用户权利和权限](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)。
 
 <div>
 

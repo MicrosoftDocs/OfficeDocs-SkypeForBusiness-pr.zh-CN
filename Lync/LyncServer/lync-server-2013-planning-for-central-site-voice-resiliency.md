@@ -12,20 +12,22 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a61a07ae14f004b406aa38ef783a1c873f2128
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e81f314fd0746b5a3d47f1b17dfa8ab9380678c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497729"
 ---
+# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中规划中心站点语音恢复
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中规划中心站点语音恢复
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2013-10-30_
 
 1.  DNS SRV 记录
 
-2.  自动发现 Web 服务（Lync Server 2013 中的新增项）
+2.  自动发现 Web 服务 (Lync Server 2013 中的新增) 
 
 3.  DHCP 选项 120
 
@@ -100,7 +102,7 @@ Lync 客户端连接到前端池之后，它会被负载平衡器定向到池中
 
   - 每个中央站点必须包含由一个或多个注册器组成的注册器池。
 
-  - 每个注册器池都必须使用 DNS 负载平衡和/或硬件负载平衡进行负载平衡。 有关规划负载平衡配置的详细信息，请参阅[Lync Server 2013 的负载平衡要求](lync-server-2013-load-balancing-requirements.md)。
+  - 每个注册器池都必须使用 DNS 负载平衡和/或硬件负载平衡进行负载平衡。 有关规划负载平衡配置的详细信息，请参阅 [Lync Server 2013 的负载平衡要求](lync-server-2013-load-balancing-requirements.md)。
 
   - 必须使用 Lync Server Management Shell **get-csuser** Cmdlet 或 Lync server 控制面板将每个用户分配给主注册器池。
 
@@ -145,7 +147,7 @@ Lync Server 取决于以下基础结构和软件组件，以确保语音恢复�
 </tr>
 <tr class="odd">
 <td><p>DHCP 选项 120</p></td>
-<td><p>如果 DNS SRV 不可用，则客户端将尝试使用 DHCP 选项 120 来发现注册器。 为使其正常工作，必须配置 DHCP 服务器或启用 Lync Server 2013 DHCP。 有关详细信息，请参阅<a href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 的分支站点恢复要求</a>中的硬件和软件要求（针对分支站点恢复）部分。</p></td>
+<td><p>如果 DNS SRV 不可用，则客户端将尝试使用 DHCP 选项 120 来发现注册器。 为使其正常工作，必须配置 DHCP 服务器或启用 Lync Server 2013 DHCP。 有关详细信息，请参阅 <a href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 的分支站点恢复要求</a> 一节中 Branch-Site 复原的硬件和软件要求。</p></td>
 </tr>
 </tbody>
 </table>

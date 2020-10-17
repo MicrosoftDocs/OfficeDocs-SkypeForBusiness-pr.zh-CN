@@ -12,20 +12,22 @@ ms:contentKeyID: 48183806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 015f2e6b8692dd3ea2ea47dda0510f72202c1ebf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 11e0c0c022b1925831737d70a10c2a193b9732bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217918"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497949"
 ---
+# <a name="managing-response-group-agent-groups-in-lync-server-2013"></a>在 Lync Server 2013 中管理响应组代理组
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-agent-groups-in-lync-server-2013"></a>在 Lync Server 2013 中管理响应组代理组
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-01_
 
 
 > [!NOTE]  
-> 必须先为用户启用企业语音，然后才能将其添加到代理组。 有关如何为用户启用企业语音的详细信息，请参阅<A href="lync-server-2013-enable-users-for-enterprise-voice.md">enable users For Enterprise voice In Lync Server 2013</A>。
+> 必须先为用户启用企业语音，然后才能将其添加到代理组。 有关如何为用户启用企业语音的详细信息，请参阅 <A href="lync-server-2013-enable-users-for-enterprise-voice.md">enable users For Enterprise voice In Lync Server 2013</A>。
 
 
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-10-01_
 
 </div>
 
-必须登录和注销组（不同于登录或注销 Lync Server）的代理称为*正式代理*。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Lync 2013 中的菜单项来打开 Windows Internet Explorer Internet 浏览器并显示网页控制台，以登录和注销其组。
+必须登录和注销组（不同于登录或注销 Lync Server）的代理称为 *正式代理*。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Lync 2013 中的菜单项来打开 Windows Internet Explorer Internet 浏览器并显示网页控制台，以登录和注销其组。
 
 不登录到组或从组注销的代理称为*非正式代理*。 非正式代理在登录 Lync Server 时自动登录到组，并且无法注销组。
 

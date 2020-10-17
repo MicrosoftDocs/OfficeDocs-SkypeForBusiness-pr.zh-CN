@@ -12,20 +12,22 @@ ms:contentKeyID: 48184756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdc19a14b8aaa7c1fa4a3c45d01a5a00325996d9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d67c8d45138bed8933f3c05bd338f128e6dd24f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202148"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497899"
 ---
+# <a name="planning-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中规划存档
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中规划存档
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202148"
 
 _**上次修改的主题：** 2012-09-28_
 
-公司和其他组织需要服从数量不断增多的行业规定和政府法规，这些规定和法规要求保留特定类型的通信。 如果您的组织具有这些要求，则可以使用 Lync Server 2013 中的存档来存档即时消息（IM）和通过 Lync Server 发送的会议（会议）通信，以帮助支持某些符合性要求。
+公司和其他组织需要服从数量不断增多的行业规定和政府法规，这些规定和法规要求保留特定类型的通信。 如果您的组织具有这些要求，则可以使用 Lync Server 2013 中的存档来存档即时消息 (IM) 和会议 (会议) 通过 Lync Server 发送的通信，以帮助支持某些符合性要求。
 
 <div>
 

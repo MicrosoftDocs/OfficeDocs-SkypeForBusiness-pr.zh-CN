@@ -12,20 +12,22 @@ ms:contentKeyID: 49733876
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89c18076a2bbc34386872a7fbee92c26b8084598
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c935a27f737d8ec7fdb012f4e0c13930d20a1319
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185605"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498149"
 ---
+# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>管理 Lync Server 2013 灾难恢复、高可用性和备份服务
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>管理 Lync Server 2013 灾难恢复、高可用性和备份服务
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-11-12_
 
 本节其余部分中的灾难恢复过程假定以下内容：
 
-  - 您有一个具有成对前端池的部署，这些池位于不同的站点中，如在[Lync Server 2013 中规划高可用性和灾难恢复中](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)所述。 这些配对池中一直运行备份服务，以使其保持同步。
+  - 您有一个具有成对前端池的部署，这些池位于不同的站点中，如在 [Lync Server 2013 中规划高可用性和灾难恢复中](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)所述。 这些配对池中一直运行备份服务，以使其保持同步。
 
   - 如果中央管理存储托管在任一池上，则会在这两个配对的池上安装和运行它，其中一个托管活动主机的池和承载备用的其他池。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63a565a97cc3e18e8ff704c5b7c9aa5a956bb94d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d49d1f318e41941bce029705c4e8042f5aba812c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217978"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498139"
 ---
+# <a name="managing-lync-server-2013-authentication"></a>管理 Lync Server 2013 身份验证
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-authentication"></a>管理 Lync Server 2013 身份验证
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2012-10-15_
 
   - [在 Lync Server 2013 中管理操作进程的证书](lync-server-2013-managing-certificates-for-operational-processes.md)
 
-  - [在 Lync Server 2013 中管理服务器到服务器的身份验证（OAuth）和合作伙伴应用程序](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
+  - [在 Lync Server 2013 中管理服务器到服务器身份验证 (OAuth) 和合作伙伴应用程序](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
 
   - [在 Lync Server 2013 控制面板中配置身份验证](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)
 

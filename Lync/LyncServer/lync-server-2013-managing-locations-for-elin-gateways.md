@@ -12,20 +12,22 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88b27e325ba8990cf239548c689d4e021397858a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e33f05f0a05b1225f1687faa00cf48af02fa1410
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185615"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498159"
 ---
+# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>在 Lync Server 2013 中管理 ELIN 网关的位置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>在 Lync Server 2013 中管理 ELIN 网关的位置
+
 
 </div>
 
@@ -39,19 +41,19 @@ _**上次修改的主题：** 2012-10-02_
 
 若要让 Lync Server 自动为网络中的客户端提供位置，您需要执行以下任务：
 
-  - 使用网络线路映射填充 Location 信息服务数据库，并在 "公司名称" 字段中添加紧急位置标识号（Elin）。
+  - 使用网络线路映射填充 Location 信息服务数据库，并在 "公司名称" 字段中 (Elin) 中添加紧急位置标识号。
 
   - 发布位置，以供网络中的客户端使用。
 
   - 将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。
 
-有关如何执行这些任务的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置位置数据库](lync-server-2013-configure-the-location-database.md)。
+有关如何执行这些任务的详细信息，请参阅部署文档中的在 [Lync Server 2013 中配置位置数据库](lync-server-2013-configure-the-location-database.md) 。
 
 <div>
 
 
 > [!NOTE]  
-> 在使用 Lync Server 命令行管理程序命令发布并复制到池的本地存储区中之前，添加到中心位置数据库的位置对客户端不可用。 有关详细信息，请参阅部署文档中的<A href="lync-server-2013-publish-the-location-database.md">从 Lync Server 2013 发布位置数据库</A>。
+> 在使用 Lync Server 命令行管理程序命令发布并复制到池的本地存储区中之前，添加到中心位置数据库的位置对客户端不可用。 有关详细信息，请参阅部署文档中的 <A href="lync-server-2013-publish-the-location-database.md">从 Lync Server 2013 发布位置数据库</A> 。
 
 
 
@@ -69,11 +71,11 @@ _**上次修改的主题：** 2012-10-02_
 
 ## <a name="planning-location-names"></a>规划位置名称
 
-"位置信息服务**位置**" 字段用于存放建筑物内的特定位置，最大长度为20个字符（包括空格）。 在该限制长度内，尽量包括以下内容：
+"位置信息服务 **位置** " 字段用于存放建筑物内的特定位置，最大长度为20个字符 (包括空格) 。 在该限制长度内，尽量包括以下内容：
 
   - 一个容易理解的名称，用于标识 911 呼叫者的位置，以确保紧急响应者在到达市政地址后能迅速找到具体位置。此位置名称可包含建筑物编号、楼层、建筑物标识、房间号等。应避免使用仅对员工可知的昵称，以防紧急响应者去往错误的位置。
 
-  - 位置标识符，以帮助用户轻松了解他们的 Lync 客户端是否选择了正确的位置。 Lync 客户端自动连接并在其标头中显示发现的 **Location** 和 **City** 字段。 一种好的做法是将建筑物的街道地址添加到每个位置标识符（例如，"第一\<层街道\>号"）。 如果没有街道地址，那么通用的位置标识符（例如“1st Floor”）可以适用于城市中的所有建筑。
+  - 位置标识符，以帮助用户轻松了解他们的 Lync 客户端是否选择了正确的位置。 Lync 客户端自动连接并在其标头中显示发现的 **Location** 和 **City** 字段。 一种好的做法是将建筑物的街道地址添加到每个位置标识符 (例如，"第一层 \<street number\> " ) 。 如果没有街道地址，那么通用的位置标识符（例如“1st Floor”）可以适用于城市中的所有建筑。
 
   - 如果位置是由无线访问点确定的，则它可能不精确，此时可能需要添加词语 Near（例如，“Near 1st Floor 1234”）。
 
@@ -144,9 +146,9 @@ _**上次修改的主题：** 2012-10-02_
   - **是否具有已包含位置映射的第三方数据库？**  
     通过使用 Lync Server 的辅助位置信息服务选项连接到第三方数据库，可以使用脱机平台对位置进行分组和管理。 此方案的优势在于除了将位置与网络标识符关联外，还可以将位置与用户关联。 这意味着 Location 信息服务可将来自辅助位置信息服务的多个地址返回到 Lync Server 客户端。 然后用户可以选择最合适的位置。
     
-    若要与 Location 信息服务集成，第三方数据库必须遵循 Lync Server 位置请求/响应架构。 有关详细信息， <https://go.microsoft.com/fwlink/p/?linkid=213819>请参阅。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置辅助位置信息服务](lync-server-2013-configure-a-secondary-location-information-service.md)。
+    若要与 Location 信息服务集成，第三方数据库必须遵循 Lync Server 位置请求/响应架构。 有关详细信息，请参阅 <https://go.microsoft.com/fwlink/p/?linkid=213819> 。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的在 [Lync Server 2013 中配置辅助位置信息服务](lync-server-2013-configure-a-secondary-location-information-service.md) 。
 
-有关填充位置数据库的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置位置数据库](lync-server-2013-configure-the-location-database.md)。
+有关填充位置数据库的详细信息，请参阅部署文档中的在 [Lync Server 2013 中配置位置数据库](lync-server-2013-configure-the-location-database.md) 。
 
 </div>
 

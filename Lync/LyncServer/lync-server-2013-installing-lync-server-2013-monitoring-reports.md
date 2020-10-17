@@ -12,20 +12,22 @@ ms:contentKeyID: 48184445
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1a2694aaef4845b776b09f6c57fec65ca77b77b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ad28507f5b0da1758c2e29b9907bd017f922f692
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191665"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498539"
 ---
+# <a name="installing-lync-server-2013-monitoring-reports"></a>安装 Lync Server 2013 监控报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-server-2013-monitoring-reports"></a>安装 Lync Server 2013 监控报告
+
 
 </div>
 
@@ -51,9 +53,9 @@ Microsoft Lync Server 2013 监控报告为您提供了大量有关在组织中�
 
 Lync Server 监控报告包括30多个报告，旨在提供有关会议、对等 IM 会话、用户注册、响应组应用程序等详细信息。 对于2013版本，Lync Server 监控报告包含许多增强功能：
 
-  - **新增了语音质量报告**。 这些新报告包括[Lync Server 2013 中的媒体质量比较报告](lync-server-2013-media-quality-comparison-report.md)，这将比较不同类型的呼叫之间的质量（例如，有线呼叫与无线呼叫之间）;[Lync Server 2013 中的会议加入时间报告](lync-server-2013-conference-join-time-report.md)，提供有关用户加入会议所需的时间量的信息。
+  - **新增了语音质量报告**。 这些新报告包括 [Lync Server 2013 中的媒体质量比较报告](lync-server-2013-media-quality-comparison-report.md)，该报告将比较不同类型的呼叫之间的质量 (例如，有线呼叫和无线呼叫之间的质量) ; [Lync Server 2013 中的会议加入时间报告](lync-server-2013-conference-join-time-report.md)，提供有关用户加入会议所需的时间量的信息。
 
-  - **改进了用于分析视频和应用程序共享会话并对其进行故障排除的报告。** [Lync server 2013 中的媒体质量摘要报告](lync-server-2013-media-quality-summary-report.md)提供了一种方法来分析视频和应用程序共享呼叫，而[lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)将详细介绍生成这些呼叫的服务器的性能。 视频和应用程序共享指标现在也由[Lync server 2013 中的对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)和[lync server 2013 中的会议详细信息](lync-server-2013-conference-detail-report.md)报告报告。
+  - **改进了用于分析视频和应用程序共享会话并对其进行故障排除的报告。** [Lync server 2013 中的媒体质量摘要报告](lync-server-2013-media-quality-summary-report.md)提供了一种方法来分析视频和应用程序共享呼叫，而[lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)将详细介绍生成这些呼叫的服务器的性能。 视频和应用程序共享指标现在也由 [Lync server 2013 中的对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md) 和 [lync server 2013 中的会议详细信息](lync-server-2013-conference-detail-report.md)报告报告。
 
   - **改进了报告性能**。这包括更少的响应和数据检索时间，以及更快且更轻松的报告导航。
 
@@ -77,13 +79,13 @@ Lync Server 监控报告包括30多个报告，旨在提供有关会议、对等
 
 若要使用部署向导安装监控报告，请完成下列步骤：
 
-1.  依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 部署向导**"。
+1.  依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 部署向导**"。
 
 2.  在部署向导中，单击“部署监控报告”**** 以便启动部署监控报告向导。
 
 3.  在部署监控报告向导中的“指定监控数据库”**** 页上，确保承载您的监控存储的计算机的完全限定域名显示在“监控数据库”**** 下拉列表中。（如果您具有多个监控存储，则需要从该下拉列表中选择适当的服务器。）确认“SQL Server Reporting Services (SSRS)实例”**** 框中显示了正确的 SQL Server 实例（例如，“atl-sql-001.litwareinc.com/archinst”****），然后单击“下一步”****。
 
-4.  在 "**指定凭据**" 页上的 "**用户名**" 框中，键入要在访问监视报告时使用的帐户的域名和用户名（例如， **\\litwareinc kenmyer**）。 如果您不使用此格式（域\\用户名），将发生错误。
+4.  在 " **指定凭据** " 页上的 " **用户名** " 框中，键入访问监视报告时要使用的帐户的域名和用户名 (例如， **litwareinc \\ kenmyer**) 。 如果 (域用户名中不使用此格式 \\) 将发生错误。
     
     在“密码”**** 框中键入用户帐户密码，然后单击“下一步”****。 请注意，此帐户不需要任何特殊权限。 安装程序完成时，将自动向该帐户授予所需的登录和数据库权限。
 
@@ -91,7 +93,7 @@ Lync Server 监控报告包括30多个报告，旨在提供有关会议、对等
 
 6.  在“正在执行命令”**** 页上，单击“完成”****。
 
-通过运行脚本 DeployReports，还可以从 Lync Server 命令行管理程序中安装监控报告。此 Windows PowerShell 脚本可在\\安装\\ReportingSetup 文件夹中的 Lync Server 安装介质上找到。 若要使用 DeployReports.ps1 安装监控报告，请在命令行管理程序提示符处键入与以下内容类似的命令：
+还可以通过运行脚本 DeployReports.ps1 来从 Lync Server 命令行管理程序安装监控报告。此 Windows PowerShell 脚本可在 \\ 安装 ReportingSetup 文件夹中的 Lync Server 安装介质上找到 \\ 。 若要使用 DeployReports.ps1 安装监控报告，请在命令行管理程序提示符处键入与以下内容类似的命令：
 
     C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 
@@ -108,7 +110,7 @@ Lync Server 监控报告包括30多个报告，旨在提供有关会议、对等
 <tr class="header">
 <th>参数名称</th>
 <th>必需</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -158,7 +160,7 @@ Lync Server 监控报告包括30多个报告，旨在提供有关会议、对等
 
 3.  在“Reporting Services 配置管理器”中，单击“报告管理器 URL”。“报告管理器 URL”窗格中应显示一个或多个 URL。虽然可将其中的任一 URL 用作报告 URL，但再次建议 ReportingUrl 使用 HTTPS 协议。
 
-如果已为监控数据库设置镜像数据库，则还必须将监控报告与镜像数据库相关联。 有关详细信息，请参阅[在 Lync Server 2013 中将监控报告与镜像数据库相关联](lync-server-2013-associating-monitoring-reports-with-a-mirror-database.md)的文章。
+如果已为监控数据库设置镜像数据库，则还必须将监控报告与镜像数据库相关联。 有关详细信息，请参阅 [在 Lync Server 2013 中将监控报告与镜像数据库相关联](lync-server-2013-associating-monitoring-reports-with-a-mirror-database.md) 的文章。
 
 </div>
 

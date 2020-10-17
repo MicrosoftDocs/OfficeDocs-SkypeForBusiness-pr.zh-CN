@@ -12,20 +12,22 @@ ms:contentKeyID: 48185180
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5c95399aa7cccf28ec0c236c2882b6f44794e80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e16d4edfb53511712c58cb41510559fcf69cfa9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197085"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498569"
 ---
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>在 Lync Server 2013 中安装本地配置存储
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>在 Lync Server 2013 中安装本地配置存储
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2014-06-27_
 
 
 > [!IMPORTANT]  
-> 如果之前未在此服务器上运行 Lync Server 2013 安装程序，系统会提示你提供用于安装 Lync Server 2013 的驱动器和路径。 这将允许你安装到除系统驱动器之外的驱动器，如果你的组织需要，或者你有空间问题。 只需将 "安装程序" 对话框中的 Lync Server 文件的安装位置路径更改为新的可用驱动器即可。 如果将安装文件安装到此路径（包括 OCSCore），则其余的 Lync Server 2013 文件也将部署到该路径中。
+> 如果之前未在此服务器上运行 Lync Server 2013 安装程序，系统会提示你提供用于安装 Lync Server 2013 的驱动器和路径。 这将允许你安装到除系统驱动器之外的驱动器，如果你的组织需要，或者你有空间问题。 只需将 "安装程序" 对话框中的 Lync Server 文件的安装位置路径更改为新的可用驱动器即可。 如果将安装文件安装到此路径（包括 OCSCore.msi），则其余的 Lync Server 2013 文件也将部署到其中。
 
 
 
@@ -55,21 +57,21 @@ _**上次修改的主题：** 2014-06-27_
 
 ## <a name="to-install-the-local-configuration-store"></a>安装本地配置存储
 
-1.  在安装媒体中，浏览到\\"\\安装\\Amd64" Setup.exe，然后单击 **"确定"**。
+1.  在安装媒体中，浏览到 \\ setup \\ amd64 \\Setup.exe，然后单击 **"确定"**。
 
 2.  如果系统提示您安装 Microsoft Visual c + + 2012 可再发行组件，请单击 **"是"**。
 
 3.  在“Lync Server 2013 安装位置”**** 页上，单击“确定”****。
 
-4.  在 "**最终用户许可协议**" 页上，查看许可条款，您需要选择 "**我接受许可协议中的条款**"，然后单击 **"确定"** 才能继续。
+4.  在 " **最终用户许可协议** " 页上，查看许可条款，您需要选择 " **我接受许可协议中的条款**"，然后单击 **"确定"** 才能继续。
 
 5.  在“部署向导”页上，单击 **“安装或更新 Lync Server 系统”**。
 
 6.  在“Lync Server 2013”**** 页上，在“步骤 1: 安装本地配置存储”**** 旁边，单击“运行”****。
 
-7.  在 "**安装本地配置存储**" 页上，确保选择了 "**直接从中央管理存储区检索**" 选项，然后单击 "**下一步**"。
+7.  在 " **安装本地配置存储** " 页上，确保选择了 " **直接从中央管理存储区检索** " 选项，然后单击 " **下一步**"。
 
-8.  本地服务器配置安装完成后，应单击 "**完成**"。
+8.  本地服务器配置安装完成后，应单击 " **完成**"。
 
 </div>
 
