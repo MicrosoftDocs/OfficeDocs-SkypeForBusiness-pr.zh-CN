@@ -12,20 +12,22 @@ ms:contentKeyID: 48706008
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5c6292b38bbc02eb2230b8746ec331b7bd1e6ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6f0abaf45034918873a17adc8a0f396ddc5d6fb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213208"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516839"
 ---
+# <a name="creating-or-editing-a-new-room-in-lync-server-2013"></a>在 Lync Server 2013 中创建或编辑新聊天室
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-editing-a-new-room-in-lync-server-2013"></a>在 Lync Server 2013 中创建或编辑新聊天室
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42213208"
 
 _**上次修改的主题：** 2015-03-19_
 
-配置持久聊天室通常由用户处理;持久聊天管理员通常不配置或管理聊天室。 用于管理聊天室的 Windows PowerShell cmdlet 仅适用于**CsPersistentChatAdministrator**管理员。
+配置持久聊天室通常由用户处理;持久聊天管理员通常不配置或管理聊天室。 用于管理聊天室的 Windows PowerShell cmdlet 仅适用于 **CsPersistentChatAdministrator** 管理员。
 
-任何给定类别中的**创建者**的用户都可以使用 Lync 客户端来创建和管理会议室。 已被指定为特定聊天室的管理员的用户也可以对聊天室执行持续的管理，如编辑聊天室属性或成员身份。
+任何给定类别中的 **创建者** 的用户都可以使用 Lync 客户端来创建和管理会议室。 已被指定为特定聊天室的管理员的用户也可以对聊天室执行持续的管理，如编辑聊天室属性或成员身份。
 
 <div>
 
@@ -53,11 +55,11 @@ _**上次修改的主题：** 2015-03-19_
 
 （可选）如果您是持久聊天管理员，则可以使用用户界面来创建和管理聊天室，而不是使用 Windows PowerShell cmdlet。 为此，SIP 启用持久聊天服务器的管理员，然后使用 Lync 客户端来创建和管理聊天室。
 
-如果要为用户创建自定义会议室管理工作流，可以在持久聊天服务器配置上设置**RoomManagementUrl**属性，以将用户重定向到 Lync 客户端的自定义解决方案。
+如果要为用户创建自定义会议室管理工作流，可以在持久聊天服务器配置上设置 **RoomManagementUrl** 属性，以将用户重定向到 Lync 客户端的自定义解决方案。
 
-有关使用 Windows PowerShell 命令行界面配置聊天室的详细信息，请参阅[使用 Windows powershell Cmdlet 配置持久聊天服务器](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 "会议室管理"。
+有关使用 Windows PowerShell 命令行界面配置聊天室的详细信息，请参阅 [使用 Windows powershell Cmdlet 配置持久聊天服务器](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 "会议室管理"。
 
-有关配置聊天室的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置会议室](lync-server-2013-configure-rooms.md)。
+有关配置聊天室的详细信息，请参阅部署文档中的在 [Lync Server 2013 中配置会议室](lync-server-2013-configure-rooms.md) 。
 
 <div>
 

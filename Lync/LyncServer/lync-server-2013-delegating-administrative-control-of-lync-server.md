@@ -12,20 +12,22 @@ ms:contentKeyID: 48183418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e93985818c62b195227323f4c0f6d5030db1f16f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5bd0776468b4b5dbbca4c8d2c98f6be02491b6d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190876"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516339"
 ---
+# <a name="delegating-administrative-control-of-lync-server-2013"></a>委派 Lync Server 2013 的管理控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegating-administrative-control-of-lync-server-2013"></a>委派 Lync Server 2013 的管理控制
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190876"
 
 _**上次修改的主题：** 2013-02-22_
 
-在 Lync Server 2013 中，管理任务通过使用新的基于角色的访问控制（RBAC）功能委派给用户。 当您安装 Lync Server 时，将为您创建许多 RBAC 角色。 这些角色对应于 Active Directory 域服务中的通用安全组。 例如，RBAC 角色 CsHelpDesk 对应于 Active Directory 域服务中的用户容器中找到的 CsHelpDesk 组。 此外，每个 RBAC 角色都与一组 Lync Server Windows PowerShell cmdlet 相关联。 这些 cmdlet 代表已分配了给定 RBAC 角色的用户可以执行的任务。 例如，已为 CsHelpDesk 角色分配 Unlock-csclientpin 和 UnlockCsClientPin cmdlet。 这意味着分配了 CsHelpDesk 角色的用户可以锁定和解锁用户 PIN 号码。 但是，尚未为 CsHelpDesk 角色分配 Set-csvoicepolicy cmdlet。 这意味着分配了 CsHelpDesk 角色的用户不能创建新的语音策略。
+在 Lync Server 2013 中，管理任务通过使用新的基于角色的访问控制 (RBAC) 功能委派给用户。 当您安装 Lync Server 时，将为您创建许多 RBAC 角色。 这些角色对应于 Active Directory 域服务中的通用安全组。 例如，RBAC 角色 CsHelpDesk 对应于 Active Directory 域服务中的用户容器中找到的 CsHelpDesk 组。 此外，每个 RBAC 角色都与一组 Lync Server Windows PowerShell cmdlet 相关联。 这些 cmdlet 代表已分配了给定 RBAC 角色的用户可以执行的任务。 例如，已向 CsHelpDesk 角色分配了 Lock-CsClientPin 和 UnlockCsClientPin cmdlet。 这意味着分配了 CsHelpDesk 角色的用户可以锁定和解锁用户 PIN 号码。 但是，尚未向 CsHelpDesk 角色分配 New-CsVoicePolicy cmdlet。 这意味着分配了 CsHelpDesk 角色的用户不能创建新的语音策略。
 
 <div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2013-02-22_
 
     Get-CsAdminRole
 
-请注意，RBAC 角色的标识（例如，CsVoiceAdministrator）与 Active Directory 域服务中的用户容器中的安全组的直接映射相同。
+请记住，RBAC 角色的标识 (例如，CsVoiceAdministrator) 与 Active Directory 域服务中的用户容器中的安全组的直接映射相匹配。
 
 若要查看已分配给角色的 cmdlet 的列表，请使用类似如下的命令：
 
@@ -65,19 +67,19 @@ _**上次修改的主题：** 2013-02-22_
 
 1.  使用有权修改 Active Directory 组成员身份的帐户登录到已安装 Active Directory 用户和计算机的计算机。
 
-2.  依次单击 "**开始**"、"**所有程序**"、"**管理工具**" 和 " **Active Directory 用户和计算机**"。
+2.  依次单击 " **开始**"、" **所有程序**"、" **管理工具**" 和 " **Active Directory 用户和计算机**"。
 
-3.  在 "Active Directory 用户和计算机" 中，展开您的域的名称，然后单击 "**用户**" 容器。
+3.  在 "Active Directory 用户和计算机" 中，展开您的域的名称，然后单击 " **用户** " 容器。
 
-4.  右键单击安全组 " **CsLocationAdministrator**"，然后单击 "**属性**"。
+4.  右键单击安全组 " **CsLocationAdministrator**"，然后单击 " **属性**"。
 
-5.  在 "**属性**" 对话框中的 "**成员**" 选项卡上，单击 "**添加**"。
+5.  在 " **属性** " 对话框中的 " **成员** " 选项卡上，单击 " **添加**"。
 
-6.  在 "**选择用户、计算机、联系人或组**" 对话框中，在 "**输入要选择的对象名称**" 框中键入要添加到组的用户的用户名或显示名称（例如， **Ken Myer**），然后单击 **"确定"**。
+6.  在 " **选择用户、计算机、联系人或组** " 对话框中，键入要添加到组的用户的用户名或显示名称 (例如， **Ken Myer**) 在 " **输入要选择的对象名称** " 框中，然后单击 **"确定"**。
 
 7.  在“属性”**** 对话框中，单击“确定”****。
 
-若要验证是否已分配 RBAC 角色，请使用[CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) cmdlet 将 cmdlet 传递给用户的 SamAccountName （Active Directory 登录名）。 例如，在 Lync Server 命令行管理程序中运行以下命令：
+若要验证是否已分配 RBAC 角色，请使用 [CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) cmdlet，并将该 cmdlet 传递给用户的 SamAccountName (Active Directory 登录名) 。 例如，在 Lync Server 命令行管理程序中运行以下命令：
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

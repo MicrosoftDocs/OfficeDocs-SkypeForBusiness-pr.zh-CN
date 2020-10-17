@@ -12,20 +12,22 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cffed0c856577a60a9782850006b82f2c9d45374
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cbb7421f204ded840dc627354b0d66627840c594
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202918"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517529"
 ---
+# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中为 Lync Online 客户配置联合支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中为 Lync Online 客户配置联合支持
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**上次修改的主题：** 2012-11-01_
 
 可以通过以下任一方式为组织中的用户提供通信服务：
 
-  - 在组织中部署 Lync Server 2013 （称为*本地服务*）并在组织中设置 lync 2013 用户帐户。
+  - 在组织中部署 Lync Server 2013 (称为 *本地服务*) 并在组织中设置 lync 2013 用户帐户。
 
-  - 使用托管提供商设置 Microsoft Lync Online 2010 客户帐户，并使用托管提供商设置用户帐户（称为 "*联机服务*"）。
+  - 设置包含托管提供商的 Microsoft Lync Online 2010 客户帐户，并使用承载提供程序设置用户帐户 (称为 " *联机服务* ") 。
 
 如果您在组织中部署 Lync 2013，则可以与一个或多个 Microsoft Lync Online 2010 客户的域联盟。 若要在本地 Lync 2013 部署的用户与 Lync Online 2010 客户的用户之间启用联盟，必须为 Lync Online 客户的域和用户配置支持。
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2012-11-01_
 
 
 > [!NOTE]  
-> 本文档仅介绍配置组织以支持与 Lync Online 2010 客户联合的过程。 本文档不介绍配置 Lync Online 2010 客户以支持联合的过程。 有关 Lync Online 服务的详细信息，请参阅 Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>online at。
+> 本文档仅介绍配置组织以支持与 Lync Online 2010 客户联合的过程。 本文档不介绍配置 Lync Online 2010 客户以支持联合的过程。 有关 Lync Online 服务的详细信息，请参阅 Lync Online at <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A> 。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f68b4d884671de3ad4e46c7022df8ae0b3d5da09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fd9823ca211242e0fd317e8a62ea118ed91a82f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197805"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517459"
 ---
+# <a name="configuring-gallery-view-in-lync-server-2013"></a>在 Lync Server 2013 中配置库视图
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-gallery-view-in-lync-server-2013"></a>在 Lync Server 2013 中配置库视图
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-30_
 
 在 Lync Server 2013 中，配置库在会议策略中查看视频会议。 默认情况下，库视图处于打开状态。 如果您不希望允许使用库视图，或希望仅允许部分用户使用，则需要使用会议策略关闭此功能。
 
-当会议参与者的视频不可用时，如果部署高分辨率照片（Lync Server 2013 中的一项新功能），则用户的库视图体验会得到增强。 高分辨率照片为存储在 Active Directory 域服务中的较小、有限的分辨率联系人照片提供了另一种替代方案。 高分辨率照片存储在用户的 Exchange 2013 邮箱中，因此，需要将 Lync Server 2013 与 Exchange 2013 集成。 有关详细信息，请参阅 NextHop 博客文章 "集成 Exchange 2013 和 Lync Server 2013" [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987)。
+当会议参与者的视频不可用时，如果部署高分辨率照片（Lync Server 2013 中的一项新功能），则用户的库视图体验会得到增强。 高分辨率照片为存储在 Active Directory 域服务中的较小、有限的分辨率联系人照片提供了另一种替代方案。 高分辨率照片存储在用户的 Exchange 2013 邮箱中，因此，需要将 Lync Server 2013 与 Exchange 2013 集成。 有关详细信息，请参阅 NextHop 博客文章 "集成 Exchange 2013 和 Lync Server 2013" [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987) 。
 
 <div>
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2012-10-30_
 
 使用下列会议策略设置配置库视图：
 
-  - **AllowMultiview**   此参数控制是否允许用户组织库观看视频会议。 此参数适用于用户创建的已安排的会议和临时会议。
+  - **AllowMultiview**    此参数控制是否允许用户组织库观看视频会议。 此参数适用于用户创建的已安排的会议和临时会议。
     
     示例：
     
@@ -71,11 +73,11 @@ _**上次修改的主题：** 2012-10-30_
     
     此参数确定可组织允许多个视频流的会议的用户。允许多个视频流的会议中的参与者可能会也可能不会被允许接收多个视频流，这取决于他们各自的权限（请参阅 EnableMultiviewJoin 参数的描述）。
 
-  - **EnableMultiviewJoin**   此参数控制会议中的参与者是否在允许会议的会议中接收库观看视频体验。 此参数控制用户参与的所有会议中的用户体验。
+  - **EnableMultiviewJoin**    此参数控制会议中的参与者是否在允许会议的会议中接收库观看视频体验。 此参数控制用户参与的所有会议中的用户体验。
     
     示例：
     
-      - 对于用户 C，此参数设置为 True。当用户加入组织或启动的会议时，用户 c 可以收到多个视频流。用户 C 收到一个与 Lync Server 2010 提供的视频会议体验类似的单一视频流参与由用户 B 组织或启动的会议。
+      - 对于用户 C，此参数设置为 True。用户 C 在参与组织或由用户 A 启动的会议时，可以收到多个视频流。用户 C 接收与 Lync Server 2010 提供的视频会议体验类似的单一视频流，当用户参与组织或由用户 B 启动的会议时。
     
       - 对于用户 D，此参数设置为 False。用户 D 接收单个视频流，与 Lync Server 2010 在参与按用户 A 或用户 B 组织的任何会议时所提供的视频会议体验类似。
 

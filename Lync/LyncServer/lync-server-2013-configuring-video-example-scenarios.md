@@ -12,20 +12,22 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 128703a39563124f6abfc4ae44143d274fd3a7c5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf9570f3df344c26da3296904a8394f59f8a907d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195635"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516969"
 ---
+# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>为 Lync Server 2013 配置视频示例方案
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>为 Lync Server 2013 配置视频示例方案
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42195635"
 
 _**上次修改的主题：** 2012-10-02_
 
-Lync 2013 添加了新的视频功能，以支持 1920 x 1080 完整高清清晰度（HD）视频和库观看视频。 基于客户数据的度量显示典型视频带宽的增加仅与 Lync 2010 相比稍有不同，但由于完整的 HD 支持，最大视频流带宽增加了（有关详细信息，请参阅[media 流量对 Lync Server 2013 中的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)）中的 "媒体流量网络使用情况" 一节。 因此，管理员可能希望限制某些用户（如分支机构中网络容量较少的用户）的视频带宽，并帮助确保其他用户（如高级管理人员）可以获得最佳视频质量。
+Lync 2013 添加了新的视频功能，以支持 1920 x 1080 full high definition (HD) 视频和库观看视频。 基于客户数据的度量显示典型的视频带宽的增加仅与 Lync 2010 相比稍有不同，但由于完整的 HD (支持，最大视频流带宽增加了：有关详细信息，请参阅 [Lync Server 2013 中的媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)) 中的 "媒体流量网络使用情况" 部分。 因此，管理员可能希望限制某些用户 (的视频带宽，例如分支机构中网络容量较少的用户) 并帮助确保其他 (用户（如行政人员) ）可能获得最佳视频质量。
 
-下表提供了针对不同网络容量配置视频的推荐设置的列表。 这些设置将限制某些用户方案发送和接收更高的分辨率视频（请参阅最右边的专栏）。 由于最大的接收网络带宽不足，最小设置将导致库视频不可用。
+下表提供了针对不同网络容量配置视频的推荐设置的列表。 这些设置将限制某些用户方案发送和接收更高分辨率的视频 (请参阅最右边的列) 。 由于最大的接收网络带宽不足，最小设置将导致库视频不可用。
 
 ### <a name="recommended-video-settings"></a>建议的视频设置
 
@@ -82,7 +84,7 @@ Lync 2013 添加了新的视频功能，以支持 1920 x 1080 完整高清清晰
 <p>库视图：最高为 5 640 x 360 分辨率的视频</p></td>
 </tr>
 <tr class="odd">
-<td><p>中等</p></td>
+<td><p>中</p></td>
 <td><p>True</p></td>
 <td><p>True</p></td>
 <td><p>1000</p></td>
@@ -91,7 +93,7 @@ Lync 2013 添加了新的视频功能，以支持 1920 x 1080 完整高清清晰
 <p>库视图：最高为 5 424 x 240 分辨率的视频</p></td>
 </tr>
 <tr class="even">
-<td><p>最低</p></td>
+<td><p>最小值</p></td>
 <td><p>True</p></td>
 <td><p>False</p></td>
 <td><p>350</p></td>

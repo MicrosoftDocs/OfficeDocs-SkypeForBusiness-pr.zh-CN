@@ -12,20 +12,22 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dcbdb7ac12dcb8fc768a1f9e537622d01191b8f
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6f6399185e045afb56231550abc33ab514db0d04
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517379"
 ---
+# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>在跨界环境中配置 Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>在跨界环境中配置 Microsoft Lync Server 2013
+
 
 </div>
 
@@ -87,7 +89,7 @@ _**上次修改的主题：** 2017-02-21_
 
 
 > [!NOTE]  
-> 如果您尚未安装 Microsoft Online Services cmdlet，则您需要先完成两项操作，然后再继续。 首先，下载并安装 64 位版本的 Microsoft Online Services 登录助手。 安装完成后，下载并安装适用于 Windows PowerShell 的64位版本的 Microsoft Online Services 模块。 可以在 Microsoft 365 或 Office 365 网站上找到有关安装和使用 Microsoft Online Services 模块的详细信息。 这些说明还将告诉你如何在 Microsoft 365 或 Office 36 与 Active Directory 之间配置单一登录、联合和同步。<BR>如果尚未安装这些 cmdlet，则脚本将失败，因为 Get-cstenant cmdlet 将不可用。
+> 如果您尚未安装 Microsoft Online Services cmdlet，则您需要先完成两项操作，然后再继续。 首先，下载并安装 64 位版本的 Microsoft Online Services 登录助手。 安装完成后，下载并安装适用于 Windows PowerShell 的64位版本的 Microsoft Online Services 模块。 可以在 Microsoft 365 或 Office 365 网站上找到有关安装和使用 Microsoft Online Services 模块的详细信息。 这些说明还将告诉你如何在 Microsoft 365 或 Office 36 与 Active Directory 之间配置单一登录、联合和同步。<BR>如果尚未安装这些 cmdlet，则脚本将失败，因为 Get-CsTenant cmdlet 将不可用。
 
 
 
@@ -95,7 +97,7 @@ _**上次修改的主题：** 2017-02-21_
 
 配置 Microsoft 365 并在为 Lync Server 2013 和 Exchange 2013 创建 Microsoft 365 或 Office 365 服务主体之后，您需要使用这些服务主体注册您的凭据。 为此，您必须先获取另存为 .CER 文件的 X.509 Base64。 此证书将应用于 Microsoft 365 或 Office 365 服务主体。
 
-获取 x.509 证书后，启动 Microsoft Online Services 模块（依次单击 "**开始**"、"**所有程序**"、" **Microsoft Online Services**" 和 " **Windows PowerShell 的 microsoft online services 模块**"）。 在服务模块打开后，键入以下命令以导入包含可用于管理服务主体的 cmdlet 的 Microsoft Online Windows PowerShell 模块：
+获取 x.509 证书后，启动 Microsoft Online Services 模块 (依次单击 " **开始**"、" **所有程序**"、" **microsoft Online Services**" 和 " **Windows PowerShell) 的 microsoft online services 模块** "。 在服务模块打开后，键入以下命令以导入包含可用于管理服务主体的 cmdlet 的 Microsoft Online Windows PowerShell 模块：
 
     Import-Module MSOnlineExtended
 
@@ -127,7 +129,7 @@ _**上次修改的主题：** 2017-02-21_
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-在导入并编码证书后，您可以将证书分配给 Microsoft 365 服务主体。 为此，请先使用 Get-MsolServicePrincipal 检索针对 Lync Server 和 Microsoft Exchange 服务主体的 AppPrincipalId 属性的值；AppPrincipalId 属性的值将用于标识分配了证书的服务主体。 使用 Lync Server 2013 的 AppPrincipalId 属性值，使用以下命令将证书分配给 Microsoft 365 版本的 Lync Server （"开始时间" 和 "终止日期" 属性应对应证书的有效期）：
+在导入并编码证书后，您可以将证书分配给 Microsoft 365 服务主体。 为此，请先使用 Get-MsolServicePrincipal 检索针对 Lync Server 和 Microsoft Exchange 服务主体的 AppPrincipalId 属性的值；AppPrincipalId 属性的值将用于标识分配了证书的服务主体。 使用 Lync Server 2013 的 AppPrincipalId 属性值，使用以下命令将证书分配给 Microsoft 365 版本的 Lync Server ("起始日期" 和 "结束时间" 属性应对应于证书) 的有效期：
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 

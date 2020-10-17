@@ -12,20 +12,22 @@ ms:contentKeyID: 51541505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef62fc903e70c0ff60cd86d124fbd092d9b394c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b994415be41abe0f534f4120b2411b1f6b9beb0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206398"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517412"
 ---
+# <a name="configuring-group-call-pickup-in-lync-server-2013"></a>在 Lync Server 2013 中配置组呼叫装货
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-group-call-pickup-in-lync-server-2013"></a>在 Lync Server 2013 中配置组呼叫装货
+
 
 </div>
 
@@ -59,7 +61,7 @@ Lync Server 2013 的累积更新：2月2013将组呼叫应答引入为新的企�
 
 [在 Lync Server 2013 中向用户传达组呼叫装货分配](lync-server-2013-communicate-group-call-pickup-assignment-to-users.md)
 
-[Optional在 Lync Server 2013 中验证组内的 "呼叫装货" 部署](lync-server-2013-optional-verify-the-group-call-pickup-deployment.md)
+[ (可选) 在 Lync Server 2013 中验证组内呼叫应答部署](lync-server-2013-optional-verify-the-group-call-pickup-deployment.md)
 
 </div>
 

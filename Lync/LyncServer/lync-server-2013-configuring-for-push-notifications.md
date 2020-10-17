@@ -12,20 +12,22 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad1967bea18e0a03ac3a34bf187c1248ec5a1ab2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f68cafcfcc616bd6e467514704416f134de3665
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197791"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517489"
 ---
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>在 Lync Server 2013 中配置推送通知
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>在 Lync Server 2013 中配置推送通知
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197791"
 
 _**上次修改的主题：** 2013-02-12_
 
-即使移动应用程序处于非活动状态，也可以向移动设备发送推送通知（以徽章、图标或警告的形式）。 推送通知会将一些事件（例如，新的或错过的 IM 邀请和语音邮件）告知用户。 Lync Server 2013 移动服务将通知发送到基于云的 Lync Server 推送通知服务，后者随后会将通知发送到 Apple 推送通知服务（APNS）（对于运行 Lync 2010 移动客户端的 Apple 设备）或Microsoft 推送通知服务（MPNS）（适用于运行 Lync 2010 Mobile 或 Lync 2013 移动客户端的 Windows Phone 设备）。
+即使移动应用程序处于非活动状态，也可以向移动设备发送推送通知（以徽章、图标或警告的形式）。 推送通知会将一些事件（例如，新的或错过的 IM 邀请和语音邮件）告知用户。 Lync Server 2013 移动服务将通知发送到基于云的 Lync Server 推送通知服务，该服务随后会将通知发送到运行 Lync 2010 移动客户端的 Apple 推送通知服务 (APNS)  (for 运行 Lync 2010 移动或 Lync 2013 移动客户端 (的 Windows Phone 设备的) 或 Microsoft 推送通知服务) MPNS () 。
 
 <div>
 

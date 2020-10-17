@@ -12,20 +12,22 @@ ms:contentKeyID: 48183274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1f3265591b1beb7180864b8e3a613989dfca397
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7b46f3b9bd89df2594c7ca8a3b382839437e40eb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516289"
 ---
+# <a name="delete-a-workflow-in-lync-server-2013"></a>在 Lync Server 2013 中删除工作流
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-workflow-in-lync-server-2013"></a>在 Lync Server 2013 中删除工作流
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2012-11-01_
 
 1.  以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“响应组”****，然后单击“工作流”****。
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-11-01_
     
 
     > [!NOTE]  
-    > 将打开 "响应组配置工具" 网页。 您还可以通过连接到<STRONG>&lt;https://webPoolFqdn&gt;/RgsConfig</STRONG>直接从 Web 浏览器打开响应组配置工具网页。
+    > 将打开 "响应组配置工具" 网页。 您还可以通过连接到 <STRONG>Https:// &lt; webPoolFqdn &gt; /RgsConfig</STRONG>直接从 Web 浏览器打开响应组配置工具网页。
 
     
     </div>

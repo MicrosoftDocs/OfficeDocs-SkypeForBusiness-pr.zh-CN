@@ -12,20 +12,22 @@ ms:contentKeyID: 48184713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 888c66150ffd371925f911d23d0d2b9171d0bf30
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7081f05d48fa446627120f106df590b24f8834e5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190845"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516304"
 ---
+# <a name="delete-a-call-park-orbit-range-in-lync-server-2013"></a>在 Lync Server 2013 中删除呼叫寄存通道范围
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-call-park-orbit-range-in-lync-server-2013"></a>在 Lync Server 2013 中删除呼叫寄存通道范围
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**上次修改的主题：** 2013-02-20_
 
 ## <a name="to-use-lync-server-control-panel-to-delete-a-call-park-orbit-range"></a>使用 Lync Server 控制面板删除呼叫寄存轨道范围
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 [Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“语音功能”****，然后单击“呼叫寄存”****。
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2013-02-20_
 
 ## <a name="to-use-windows-powershell-to-delete-a-call-park-orbit-range"></a>使用 Windows PowerShell 删除呼叫寄存通道范围
 
-1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在 [Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
@@ -77,7 +79,7 @@ _**上次修改的主题：** 2013-02-20_
     
 
     > [!NOTE]  
-    > 有关更多选项的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">CsCallParkOrbit</A>。
+    > 有关更多选项的详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">CsCallParkOrbit</A>。
 
     
     </div>

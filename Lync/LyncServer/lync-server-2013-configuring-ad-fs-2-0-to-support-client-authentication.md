@@ -12,20 +12,22 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c48e474c511fd8d2e4b3e84bea0d74fcfeb650ac
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d2b713d109a72431e78e966258a84c084523a7a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517639"
 ---
+# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中配置 AD FS 2.0 以支持客户端身份验证
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中配置 AD FS 2.0 以支持客户端身份验证
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**上次修改的主题：** 2013-07-03_
 
 有两种可能的身份验证类型可配置为允许 AD FS 2.0 支持使用智能卡的身份验证：
 
-  - 基于表单的身份验证（FBA）
+  - 基于表单的身份验证 (FBA) 
 
   - 传输层安全性客户端身份验证
 
-使用基于表单的身份验证，您可以开发允许用户通过使用其用户名/密码或使用智能卡和 PIN 进行身份验证的网页。 本主题重点介绍如何使用 AD FS 2.0 实施传输层安全性客户端身份验证。 有关 AD FS 2.0 身份验证类型的详细信息，请参阅 AD FS 2.0：如何更改本地身份验证类型[https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384)。
+使用基于表单的身份验证，您可以开发允许用户通过使用其用户名/密码或使用智能卡和 PIN 进行身份验证的网页。 本主题重点介绍如何使用 AD FS 2.0 实施传输层安全性客户端身份验证。 有关 AD FS 2.0 身份验证类型的详细信息，请参阅 AD FS 2.0：如何更改本地身份验证类型 [https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384) 。
 
 <div>
 
@@ -54,15 +56,15 @@ _**上次修改的主题：** 2013-07-03_
 
 2.  启动 Windows 资源管理器。
 
-3.  浏览到 C：\\inetpub\\adfs\\ls
+3.  浏览到 C： \\ inetpub \\ adfs \\ ls
 
 4.  创建现有 web.config 文件的备份副本。
 
-5.  使用记事本打开现有的 web.config 文件。
+5.  使用记事本打开现有 web.config 文件。
 
-6.  从菜单栏中，选择 "**编辑**"，然后选择 "**查找**"。
+6.  从菜单栏中，选择 " **编辑** "，然后选择 " **查找**"。
 
-7.  搜索** \<localAuthenticationTypes\>**。
+7.  搜索 **\<localAuthenticationTypes\>** 。
     
     请注意，每行列出了四种身份验证类型。
 

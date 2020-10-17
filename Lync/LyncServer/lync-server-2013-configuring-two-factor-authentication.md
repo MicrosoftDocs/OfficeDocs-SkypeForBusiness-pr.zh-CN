@@ -12,20 +12,22 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 170c7564e53680f3c6971894ceee9997d20e63ef
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ed219dcc90ffb6527a25a39af9fcb8c4ba172d75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221806"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517319"
 ---
+# <a name="configuring-two-factor-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中配置双重身份验证
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-two-factor-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中配置双重身份验证
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2013-07-03_
 
 [在 Lync Server 2013 中为用户注册智能卡身份验证](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
 
-[为 Lync Server 2013 配置 Active Directory 联合身份验证服务（AD FS 2.0）](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
+[为 Lync Server 2013 配置 Active Directory 联合身份验证服务 (AD FS 2.0) ](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
 
 [在 Lync Server 2013 中配置 AD FS 2.0 以支持客户端身份验证](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
 

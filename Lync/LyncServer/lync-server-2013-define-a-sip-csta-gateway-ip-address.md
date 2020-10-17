@@ -12,20 +12,22 @@ ms:contentKeyID: 48185073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f59b2d236cc9a261f07b2f2e9dc26102efff908f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3a88aa2209617a93b0feebf7c1cc6d8cccd0cf7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516379"
 ---
+# <a name="define-a-sipcsta-gateway-ip-address-in-lync-server-2013"></a>在 Lync Server 2013 中定义 SIP/CSTA 网关 IP 地址
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-a-sipcsta-gateway-ip-address-in-lync-server-2013"></a>在 Lync Server 2013 中定义 SIP/CSTA 网关 IP 地址
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42205988"
 
 _**上次修改的主题：** 2012-09-21_
 
-如果 Lync Server 将连接到通过使用传输控制协议（TCP）连接为远程呼叫控制部署的 SIP/CSTA 网关，则必须在拓扑生成器中定义网关的 IP 地址。 对于支持传输层安全性 (TLS) 连接的网关来说，这一步不是必需的。 对于任何支持 TLS 连接的网关，您可以跳过此过程并继续部署远程呼叫控制，方法是按照在[Lync Server 2013 中为远程呼叫控制启用 lync 用户](lync-server-2013-enable-lync-users-for-remote-call-control.md)中的步骤。
+如果 Lync Server 将连接到您为远程呼叫控制部署的 SIP/CSTA 网关（使用 (TCP) 连接的传输控制协议），则必须在拓扑生成器中定义网关的 IP 地址。 对于支持传输层安全性 (TLS) 连接的网关来说，这一步不是必需的。 对于任何支持 TLS 连接的网关，您可以跳过此过程并继续部署远程呼叫控制，方法是按照在 [Lync Server 2013 中为远程呼叫控制启用 lync 用户](lync-server-2013-enable-lync-users-for-remote-call-control.md)中的步骤。
 
 <div>
 
@@ -45,13 +47,13 @@ _**上次修改的主题：** 2012-09-21_
 
 1.  以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-2.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+2.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 3.  选择相应的选项以下载现有拓扑。
 
 4.  展开“受信任的应用程序服务器”**** 节点。
 
-5.  右键单击您创建的受信任应用程序池，如在[Lync Server 2013 中为远程呼叫控制配置受信任的应用程序条目](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)中所述，然后单击**编辑属性**。
+5.  右键单击您创建的受信任应用程序池，如在 [Lync Server 2013 中为远程呼叫控制配置受信任的应用程序条目](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)中所述，然后单击 **编辑属性**。
 
 6.  清除“允许将配置数据复制到此池”**** 复选框。
 

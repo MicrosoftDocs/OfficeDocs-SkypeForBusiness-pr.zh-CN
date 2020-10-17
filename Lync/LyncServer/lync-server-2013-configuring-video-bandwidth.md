@@ -12,20 +12,22 @@ ms:contentKeyID: 48183984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8995f47ff1059921c324d71cbaca26fa47c50ca0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e3e1c4b0dab165c43e873c49039896f0af80f7f3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195645"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516979"
 ---
+# <a name="configuring-video-bandwidth-in-lync-server-2013"></a>在 Lync Server 2013 中配置视频带宽
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-video-bandwidth-in-lync-server-2013"></a>在 Lync Server 2013 中配置视频带宽
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 包括用于管理两方呼叫和多方会议的视频的多个
 
 验证会议策略中的下列设置：
 
-  - **VideoBitRateKb**   此设置指定用于用户发送的视频的最大视频比特率（以千位/秒（kbps）为单位）。 默认值为 50000 kbps。 有效值介于 0 和 50000 之间。
+  - **VideoBitRateKb**    此设置指定用于用户发送的视频) 的最大视频比特率，以 kb/秒为单位 (kbps。 默认值为 50000 kbps。 有效值介于 0 和 50000 之间。
     
     此设置单独应用于主要视频和全景视频。
     
@@ -59,12 +61,12 @@ Lync Server 2013 包括用于管理两方呼叫和多方会议的视频的多个
     
 
     > [!NOTE]  
-    > 对于用于全景视频的主视频和 2500 kbps，Lync 2013 终结点的最大视频网络带宽为 8000 kbps。 仅当接收或发送多个视频时才达到这些最大值。 有关详细信息，请参阅<A href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Lync Server 2013 中的媒体流量要求的网络带宽要求</A>中的 "媒体流量网络使用情况" 部分。 本节列出了所有受支持的分辨率的最大和典型视频流带宽。
+    > 对于用于全景视频的主视频和 2500 kbps，Lync 2013 终结点的最大视频网络带宽为 8000 kbps。 仅当接收或发送多个视频时才达到这些最大值。 有关详细信息，请参阅 <A href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Lync Server 2013 中的媒体流量要求的网络带宽要求</A>中的 "媒体流量网络使用情况" 部分。 本节列出了所有受支持的分辨率的最大和典型视频流带宽。
 
     
     </div>
 
-  - **TotalReceiveVideoBitRateKb**   此设置（在 Lync Server 2013 中为 "新建"），指定客户端接收的所有视频流的最大允许比特率（以千位/秒为单位）。 也就是说，此设置指定了客户端可接收的所有视频流（全景视频流除外）的合并总计。 例如，如果您指定 1500 kbps，则客户端最多可接收 1500 kbps 的视频，此视频可能包含多个视频流或单个视频流。 此设置仅适用于 Lync Server 2013 客户端。
+  - **TotalReceiveVideoBitRateKb**    此设置是 Lync Server 2013 中的新设置，指定客户端接收的所有视频流的最大允许比特率 (以千位/秒为单位的) 。 也就是说，此设置指定了客户端可接收的所有视频流（全景视频流除外）的合并总计。 例如，如果您指定 1500 kbps，则客户端最多可接收 1500 kbps 的视频，此视频可能包含多个视频流或单个视频流。 此设置仅适用于 Lync Server 2013 客户端。
     
     **TotalReceiveVideoBitRateKb** 的默认值是 50000 kbps。如果将库视图的 **EnableMultiviewJoin** 设置设为 True，则不得将 **TotalReceiveVideoBitRateKb** 设置为小于 420 kbps 的值。如果将库视图的 **EnableMultiviewJoin** 设置设为 False，则不得将 **TotalReceiveVideoBitRateKb** 设置为小于 100 kbps 的值。如果将 **EnableMultiviewJoin** 设为 True 并将值设置为小于 420 kbps 的值，则这些值将默认为阈值。此阈值可帮助阻止可能会导致极差的用户体验的意外配置错误。
     
@@ -72,12 +74,12 @@ Lync Server 2013 包括用于管理两方呼叫和多方会议的视频的多个
     
 
     > [!NOTE]  
-    > 有关<STRONG>EnableMultiviewJoin</STRONG>设置的详细信息，请参阅<A href="lync-server-2013-configuring-gallery-view.md">在 Lync Server 2013 中配置库视图</A>。
+    > 有关 <STRONG>EnableMultiviewJoin</STRONG> 设置的详细信息，请参阅 <A href="lync-server-2013-configuring-gallery-view.md">在 Lync Server 2013 中配置库视图</A>。
 
     
     </div>
 
-  - **MaxVideoConferencingResolution**   该参数不再用于 lync server 2013 会议中的 lync server 2013 客户端。 Lync Server 2013 会议使用此部分前面所述的比特率控件。 此设置仍用于加入 Lync Server 2013 会议的旧版客户端。 此参数确定在由驻留在 Lync Server 2013 上的用户组织的会议中允许的旧客户端的最大分辨率。 也就是说，旧客户端的处理方式与在以前版本的 Lync Server 或 Office 通信服务器中相同。
+  - **MaxVideoConferencingResolution**    此参数不再用于 Lync Server 2013 会议中的 Lync Server 2013 客户端。 Lync Server 2013 会议使用此部分前面所述的比特率控件。 此设置仍用于加入 Lync Server 2013 会议的旧版客户端。 此参数确定在由驻留在 Lync Server 2013 上的用户组织的会议中允许的旧客户端的最大分辨率。 也就是说，旧客户端的处理方式与在以前版本的 Lync Server 或 Office 通信服务器中相同。
 
 除了适用于用户的会议策略设置之外，还将评估媒体配置设置。可使用下列 cmdlet 之一来查看或修改这些设置：
 
@@ -89,7 +91,7 @@ Lync Server 2013 包括用于管理两方呼叫和多方会议的视频的多个
 
 验证以下设置：
 
-  - **MaxVideoRateAllowed**   此每池设置指定将在客户端终结点传输视频信号的最大速率。 它仅适用于早期版本的 Lync Server 客户端。
+  - **MaxVideoRateAllowed**    此每个池的设置指定将在客户端终结点传输视频信号的最大速率。 它仅适用于早期版本的 Lync Server 客户端。
     
     <div>
     

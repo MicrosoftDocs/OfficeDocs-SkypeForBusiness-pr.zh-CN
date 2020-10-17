@@ -12,20 +12,22 @@ ms:contentKeyID: 48183546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05342de92d3de7446feb42040a233a57b9a4f5a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ceb2543cece60a32c733d2efad6023fc30bb2bf6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207088"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517929"
 ---
+# <a name="certificate-summary---single-director-in-lync-server-2013"></a>证书摘要-Lync Server 2013 中的单个控制器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---single-director-in-lync-server-2013"></a>证书摘要-Lync Server 2013 中的单个控制器
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-09-08_
 <th>组件</th>
 <th>使用者名称 (SN)</th>
 <th>使用者替代名称 (SAN)</th>
-<th>注释</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -66,7 +68,7 @@ _**上次修改的主题：** 2012-09-08_
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
 <p>（可选）*.contoso.com</p></td>
-<td><p>可以从内部托管的证书颁发机构（CA）或公用 CA 请求控制器证书。</p>
+<td><p>可以从内部托管的证书颁发机构 (CA) 或公共 CA 请求控制器证书。</p>
 <p>Director 响应来自周边或边缘服务器的反向代理的请求。 内部客户端将不使用控制器。</p>
 <p>或者，简单 URL 的通配符条目</p></td>
 </tr>

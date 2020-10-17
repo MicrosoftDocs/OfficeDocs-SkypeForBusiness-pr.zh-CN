@@ -12,20 +12,22 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a7ba7e51e6dd1f6e42aeddfbbbd4ce7581d3fc
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 5f4107877c237abef92233dbca88cf7060fdca25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755576"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515939"
 ---
+# <a name="verify-office-communications-server-2007-r2-environment"></a>验证 Office 通信服务器 2007 R2 环境
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-office-communications-server-2007-r2-environment"></a>验证 Office 通信服务器 2007 R2 环境
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-10-16_
 
 2.  展开“林”**** 节点，展开“Standard Edition 服务器”**** 或“企业版池”**** 节点，然后展开池或服务器名称。
 
-3.  单击“用户”****。
+3.  单击“**用户**”。
 
 4.  验证 Office 通信服务器 2007 R2 用户的列表。
     

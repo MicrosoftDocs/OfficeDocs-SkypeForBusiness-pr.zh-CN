@@ -12,20 +12,22 @@ ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d95073a590b9e5ddde54df4f77cd15e936234d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c88ca28478cbd9d38e9e85c5a852fb93b49c0df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516719"
 ---
+# <a name="creating-or-modifying-network-sites-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改网络站点
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-sites-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改网络站点
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42200137"
 
 _**上次修改的主题：** 2012-10-08_
 
-网络站点是指在部署了呼叫允许控制 (CAC) 或增强型 9-1-1 的每个区域中配置的办公室或位置。 您可以使用 Microsoft Lync Server 2013 控制面板配置网站并将其与区域相关联。 例如，可将北美网络区域与 Chicago、Redmond 和 Vancouver 之类的网络站点关联。 必须为组织中的每个站点创建一个 CAC 网络站点，即使该站点没有带宽限制也应如此。 在 Lync Server 控制面板中，您可以创建、修改和删除网络站点。 使用下面的过程可创建或修改网络站点。 有关删除现有网络站点的详细信息，请参阅[在 Lync Server 2013 中删除现有网络站点](lync-server-2013-deleting-an-existing-network-site.md)。
+网络站点是指在部署了呼叫允许控制 (CAC) 或增强型 9-1-1 的每个区域中配置的办公室或位置。 您可以使用 Microsoft Lync Server 2013 控制面板配置网站并将其与区域相关联。 例如，可将北美网络区域与 Chicago、Redmond 和 Vancouver 之类的网络站点关联。 必须为组织中的每个站点创建一个 CAC 网络站点，即使该站点没有带宽限制也应如此。 在 Lync Server 控制面板中，您可以创建、修改和删除网络站点。 使用下面的过程可创建或修改网络站点。 有关删除现有网络站点的详细信息，请参阅 [在 Lync Server 2013 中删除现有网络站点](lync-server-2013-deleting-an-existing-network-site.md)。
 
 <div>
 
 ## <a name="to-create-a-network-site"></a>创建网络站点
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“网络配置”****，然后单击“站点”****。
 
@@ -70,7 +72,7 @@ _**上次修改的主题：** 2012-10-08_
     
 
     > [!NOTE]  
-    > 在“网络配置”<STRONG></STRONG>组的“策略配置文件”<STRONG></STRONG>页上，可以查看可用带宽策略配置文件的详细信息，或创建新的带宽策略配置文件。 有关详细信息，请参阅<A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">在 Lync Server 2013 中创建或修改带宽策略配置文件</A>。
+    > 在“网络配置”<STRONG></STRONG>组的“策略配置文件”<STRONG></STRONG>页上，可以查看可用带宽策略配置文件的详细信息，或创建新的带宽策略配置文件。 有关详细信息，请参阅 <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">在 Lync Server 2013 中创建或修改带宽策略配置文件</A>。
 
     
     </div>
@@ -81,7 +83,7 @@ _**上次修改的主题：** 2012-10-08_
     
 
     > [!NOTE]  
-    > 位置策略会将特定的增强型 9-1-1 (E9-1-1) 和客户端位置设置分配给站点。 在“网络配置”<STRONG></STRONG>组的“位置策略”<STRONG></STRONG>页上，可以查看可用位置策略的详细信息，或创建新的位置策略。 有关详细信息，请参阅<A href="lync-server-2013-viewing-location-policy-information.md">在 Lync Server 2013 中查看位置策略信息</A>。
+    > 位置策略会将特定的增强型 9-1-1 (E9-1-1) 和客户端位置设置分配给站点。 在“网络配置”<STRONG></STRONG>组的“位置策略”<STRONG></STRONG>页上，可以查看可用位置策略的详细信息，或创建新的位置策略。 有关详细信息，请参阅 <A href="lync-server-2013-viewing-location-policy-information.md">在 Lync Server 2013 中查看位置策略信息</A>。
 
     
     </div>
@@ -94,7 +96,7 @@ _**上次修改的主题：** 2012-10-08_
     
 
     > [!NOTE]  
-    > 创建新网络站点时，不要使用“关联子网”<STRONG></STRONG>表。 创建或修改子网时，会将子网与站点相关联。 有关详细信息，请参阅<A href="lync-server-2013-create-or-modify-network-subnets.md">在 Lync Server 2013 中创建或修改网络子网</A>。
+    > 创建新网络站点时，不要使用“关联子网”<STRONG></STRONG>表。 创建或修改子网时，会将子网与站点相关联。 有关详细信息，请参阅 <A href="lync-server-2013-create-or-modify-network-subnets.md">在 Lync Server 2013 中创建或修改网络子网</A>。
 
     
     </div>
@@ -105,9 +107,9 @@ _**上次修改的主题：** 2012-10-08_
 
 ## <a name="to-modify-a-network-site"></a>修改网络站点
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“网络配置”****，然后单击“站点”****。
 
@@ -127,9 +129,9 @@ _**上次修改的主题：** 2012-10-08_
 
 ## <a name="to-delete-a-network-site"></a>删除网络站点
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“网络配置”****，然后单击“站点”****。
 

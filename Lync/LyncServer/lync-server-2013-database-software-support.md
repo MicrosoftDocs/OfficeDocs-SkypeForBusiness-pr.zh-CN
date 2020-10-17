@@ -12,20 +12,22 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16c37644e07fd0dfd192867d7d8372d3630d13fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f7290a6d4e80c522d29c886b49723cca51d19e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187385"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516499"
 ---
+# <a name="database-software-support-in-lync-server-2013"></a>Lync Server 2013 中的数据库软件支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-software-support-in-lync-server-2013"></a>Lync Server 2013 中的数据库软件支持
+
 
 </div>
 
@@ -41,17 +43,17 @@ Lync Server 2013 支持以下数据库管理系统：
 
   - **前端池的后端数据库、存档数据库、监控数据库、持久聊天数据库和持久聊天合规性数据库**
     
-      - Microsoft SQL Server 2008 R2 企业版数据库软件（64-位版本）。 建议另外运行最新的 service pack。
+      - Microsoft SQL Server 2008 R2 企业版数据库软件 (64) 位版本。 建议另外运行最新的 service pack。
     
-      - Microsoft SQL Server 2008 R2 Standard （64-位版本）。 建议另外运行最新的 service pack。
+      - Microsoft SQL Server 2008 R2 Standard (64-位版本) 。 建议另外运行最新的 service pack。
     
-      - Microsoft SQL Server 2012 Enterprise （64-位版本）。 建议另外运行最新的 service pack。
+      - Microsoft SQL Server 2012 Enterprise (64-位版本) 。 建议另外运行最新的 service pack。
     
-      - Microsoft SQL Server 2012 Standard （64-位版本）。 建议另外运行最新的 service pack。
+      - Microsoft SQL Server 2012 Standard (64-位版本) 。 建议另外运行最新的 service pack。
 
   - **Standard Edition server 数据库和前端服务器数据库**
     
-      - Microsoft SQL Server 2012 Express （64位版本）。 建议另外运行最新的 service pack。
+      - Microsoft SQL Server 2012 Express (64-位版本) 。 建议另外运行最新的 service pack。
         
         我们支持对前端服务器和 Standard Edition 服务器上的 Microsoft SQL Server 进行修补和升级。 但是，当您在前端服务器上进行任何类型的升级或修补程序时，您必须考虑仲裁要求。 有关详细信息，请参阅在 lync server [2013 中升级或更新前端服务器](lync-server-2013-upgrade-or-update-front-end-servers.md) [，以及在 lync server 2013 中的前端服务器、即时消息和状态的拓扑和组件](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)。
     
@@ -59,7 +61,7 @@ Lync Server 2013 支持以下数据库管理系统：
     
 
     > [!NOTE]  
-    > Microsoft SQL Server 2012 Express （64-bit edition）由 Lync Server 2013 自动安装在每个 Standard Edition 服务器和每台前端服务器服务器上。
+    > Microsoft SQL Server 2012 Express (64-bit edition) 由 Lync Server 2013 自动安装在每个 Standard Edition server 和每台前端服务器服务器上。
 
     
     </div>
@@ -108,19 +110,19 @@ SQL 群集支持适用于主动/被动配置。 出于性能原因，被动节�
 
   - 针对以下各项的双节点故障转移群集：
     
-      - Microsoft SQL Server 2012 Standard （64-位版本）。 建议另外运行最新的 service pack。
+      - Microsoft SQL Server 2012 Standard (64-位版本) 。 建议另外运行最新的 service pack。
     
-      - Microsoft SQL Server 2008 R2 Standard （64-位版本）。 建议另外运行最新的 service pack。
+      - Microsoft SQL Server 2008 R2 Standard (64-位版本) 。 建议另外运行最新的 service pack。
 
   - 针对以下各项的最高配置十六个节点的故障转移群集：
     
-      - Microsoft SQL Server 2012 Enterprise （64-位版本）。 建议另外运行最新的 service pack。
+      - Microsoft SQL Server 2012 Enterprise (64-位版本) 。 建议另外运行最新的 service pack。
     
-      - Microsoft SQL Server 2008 R2 企业版数据库软件（64-位版本）。 建议另外运行最新的 service pack。
+      - Microsoft SQL Server 2008 R2 企业版数据库软件 (64) 位版本。 建议另外运行最新的 service pack。
 
-有关 SQL 镜像的详细信息，请参阅[Lync server 2013 中的后端服务器高可用性](lync-server-2013-back-end-server-high-availability.md)。 有关如何部署 SQL 群集的详细信息，请参阅[CONFIGURE SQL Server 集群 For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)。
+有关 SQL 镜像的详细信息，请参阅 [Lync server 2013 中的后端服务器高可用性](lync-server-2013-back-end-server-high-availability.md)。 有关如何部署 SQL 群集的详细信息，请参阅 [CONFIGURE SQL Server 集群 For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)。
 
-有关 SQL Server 2012 中故障转移群集的详细信息和最佳实践， <https://technet.microsoft.com/library/hh231721.aspx>请参阅。 有关 SQL Server 2008 中的故障转移群集<https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>，请参阅。
+有关 SQL Server 2012 中故障转移群集的详细信息和最佳实践，请参阅 <https://technet.microsoft.com/library/hh231721.aspx> 。 有关 SQL Server 2008 中的故障转移群集，请参阅 <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx> 。
 
 </div>
 

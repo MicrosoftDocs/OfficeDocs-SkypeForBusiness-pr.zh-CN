@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191695"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516629"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>在 Lync Server 2013 中自定义 XSLT 定义文件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>在 Lync Server 2013 中自定义 XSLT 定义文件
+
 
 </div>
 
@@ -153,7 +155,7 @@ _**上次修改的主题：** 2014-09-11_
 </tr>
 <tr class="odd">
 <td><p>电子邮件</p></td>
-<td><p>发送者的电子邮件地址。</p></td>
+<td><p>发件人的电子邮件地址。</p></td>
 <td><p>可选</p></td>
 </tr>
 <tr class="even">
@@ -183,7 +185,7 @@ _**上次修改的主题：** 2014-09-11_
 <thead>
 <tr class="header">
 <th>消息类型</th>
-<th>Description</th>
+<th>说明</th>
 <th>代码示例</th>
 </tr>
 </thead>

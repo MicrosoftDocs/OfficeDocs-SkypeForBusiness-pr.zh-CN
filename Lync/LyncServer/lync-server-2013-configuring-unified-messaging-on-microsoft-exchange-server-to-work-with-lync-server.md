@@ -12,20 +12,22 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3d90f738741c2815d01041a7d2293e978cd2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 462252b1826802ec424c6684e3a6347754095508
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195675"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517049"
 ---
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>在 Microsoft Exchange Server 上配置统一消息以使用 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>在 Microsoft Exchange Server 上配置统一消息以使用 Lync Server 2013
+
 
 </div>
 
@@ -41,15 +43,15 @@ _**上次修改的主题：** 2012-10-11_
 
 
 > [!IMPORTANT]  
-> 如果要使用 Exchange 统一消息（UM）为企业语音用户提供呼叫应答、Outlook Voice Access 或自动助理服务，请阅读规划文档中的<A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Lync Server 2013 中的 Exchange 统一消息集成规划</A>，然后按照本节中的说明进行操作。
+> 如果要使用 Exchange 统一消息 (UM) 为企业语音用户提供呼叫应答、Outlook Voice Access 或自动助理服务，请参阅规划文档中的在 <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Lync Server 2013 中规划 Exchange 统一消息集成</A> ，然后按照本节中的说明进行操作。
 
 
 
 </div>
 
-若要将 Exchange 统一消息（UM）配置为使用企业语音，您需要执行以下任务：
+若要配置 Exchange 统一消息 (UM) 以使用企业语音，则需要执行以下任务：
 
-  - 在运行 Exchange 统一消息（UM）服务的服务器上配置证书
+  - 在运行 Exchange 统一消息的服务器上配置证书 (UM) 服务
     
     <div>
     
@@ -62,7 +64,7 @@ _**上次修改的主题：** 2012-10-11_
 
   - 创建一个或多个 UM SIP URI 拨号计划，以及订阅者访问电话号码（根据需要），然后创建相应的 Lync Server 拨号计划。
 
-  - 使用**exchucutil.ps1**脚本执行以下操作：
+  - 使用 **exchucutil.ps1** 脚本执行以下操作：
     
       - 创建 UM IP 网关。
     
@@ -82,7 +84,7 @@ _**上次修改的主题：** 2012-10-11_
 
 在开始之前，本节中的文档假定您已部署以下 Exchange 2013 角色：客户端访问和邮箱。 在 Microsoft Exchange Server 2013 中，Exchange UM 在这些服务器上作为一项服务运行。
 
-有关部署 Exchange 2013 的详细信息，请参阅位于的 Exchange 2013 TechNet 库[https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
+有关部署 Exchange 2013 的详细信息，请参阅位于的 Exchange 2013 TechNet 库 [https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 另外还需注意以下事项：
 
@@ -94,7 +96,7 @@ _**上次修改的主题：** 2012-10-11_
     
 
     > [!NOTE]  
-    > 若要查看在哪些服务器和管理员角色上执行哪些集成步骤，请参阅<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">集成本地统一消息和 Lync Server 2013 的部署过程</A>。
+    > 若要查看在哪些服务器和管理员角色上执行哪些集成步骤，请参阅 <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">集成本地统一消息和 Lync Server 2013 的部署过程</A>。
 
     
     </div>

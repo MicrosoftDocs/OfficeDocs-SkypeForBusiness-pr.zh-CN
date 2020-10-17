@@ -12,20 +12,22 @@ ms:contentKeyID: 48184453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 007d6b21ab37aee16ae8c98b202bd3900f4dab45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31c2d15b8a50a67b70b320afc8da5dfdc83d2cc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215858"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516089"
 ---
+# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Lync Server 2013 中的响应组应用程序概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Lync Server 2013 中的响应组应用程序概述
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2012-09-11_
 
 在 Lync Server 2013 中，有两个管理角色可用于管理响应组：响应组管理器和响应组管理员。 响应组管理员可以管理任何响应组的任何方面。 响应组管理员只能管理某些方面，并且只能管理它们所拥有的响应组。 新的管理员角色有助于降低管理成本，因为您可以将特定响应组的有限责任委派给已启用企业语音的任何用户。
 
-为了适应新的经理角色，Lync Server 2013 响应组应用程序引入了托管或非托管的**工作流类型**。 下表介绍了托管响应组和非托管响应组。
+为了适应新的经理角色，Lync Server 2013 响应组应用程序引入了托管或非托管的 **工作流类型** 。 下表介绍了托管响应组和非托管响应组。
 
 ### <a name="managed-and-unmanaged-response-groups"></a>托管响应组和非托管响应组
 
@@ -118,7 +120,7 @@ _**上次修改的主题：** 2012-09-11_
 <tbody>
 <tr class="odd">
 <td><ul>
-<li><p>Agent</p></li>
+<li><p>Agents</p></li>
 <li><p>欢迎消息</p></li>
 <li><p>响应组名称</p></li>
 <li><p>说明</p></li>
@@ -159,7 +161,7 @@ _**上次修改的主题：** 2012-09-11_
 
   - Lync Server 命令行管理程序
 
-响应组可以很好地扩展到部门或工作组环境（有关详细信息，请参阅[Lync Server 2013 中的响应组容量规划](lync-server-2013-capacity-planning-for-response-group.md)），并且可以在全新的电话安装中部署。 它支持来自企业语音部署和本地运营商网络的传入呼叫。 代理可以使用 Lync 2013、Lync 2010、Lync 2010 助理或 Lync Phone Edition 将呼叫路由到它们。
+响应组可很好地扩展到部门或工作组环境 (有关详细信息，请参阅 [Lync Server 2013 中的响应组容量规划](lync-server-2013-capacity-planning-for-response-group.md)) 和可在全新的电话安装中部署。 它支持来自企业语音部署和本地运营商网络的传入呼叫。 代理可以使用 Lync 2013、Lync 2010、Lync 2010 助理或 Lync Phone Edition 将呼叫路由到它们。
 
 响应组应用程序是企业语音的一个组件。 部署企业语音时，会自动安装并激活响应组应用程序。
 

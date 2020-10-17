@@ -12,20 +12,22 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8272dc0097205749ca3c0e5d613bc3da853fc7ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1478e2b2153c1b6834629ab41ccd6cde5b272430
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191975"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517699"
 ---
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>在 Lync Server 2013 中配置观察程序节点以使用受信任的服务器身份验证
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>在 Lync Server 2013 中配置观察程序节点以使用受信任的服务器身份验证
+
 
 </div>
 
@@ -87,7 +89,7 @@ _**上次修改的主题：** 2012-10-22_
 
 **分配默认证书**
 
-1.  依次单击 "**开始**"、"**所有程序**"、" **Lync Server**" 和 " **lync server 部署向导**"。
+1.  依次单击 " **开始**"、" **所有程序**"、" **Lync Server**" 和 " **lync server 部署向导**"。
 
 2.  在 "Lync Server 部署向导" 中，单击 "**安装或更新 Lync Server 系统**"，然后在标题**请求、"安装" 或 "分配证书**" 下单击 "**运行**"。
     
@@ -112,13 +114,13 @@ _**上次修改的主题：** 2012-10-22_
 
 ## <a name="installing-and-configuring-a-watcher-node"></a>安装和配置观察程序节点
 
-在重新启动观察程序节点计算机并配置证书后，您需要运行文件 Watchernode.msi。 （必须在同时安装了 Operations Manager 代理文件和 Lync Server 2013 核心组件的计算机上运行 Watchernode.msi。）
+在重新启动观察程序节点计算机并配置证书后，您需要运行 Watchernode.msi 的文件。  (必须在安装了 Operations Manager 代理文件和 Lync Server 2013 core 组件的计算机上运行 Watchernode.msi。 ) 
 
 **安装和配置观察程序节点**
 
-1.  依次单击 "**开始**"、"**所有程序**"、" **lync server**"，然后单击 " **Lync Server Management Shell**"，打开 Lync Server 命令行管理程序。
+1.  依次单击 " **开始**"、" **所有程序**"、" **lync server**"，然后单击 " **Lync Server Management Shell**"，打开 Lync Server 命令行管理程序。
 
-2.  在 Lync Server 命令行管理程序中，键入以下命令，然后按 ENTER （指定 Watchernode.msi 副本的实际路径）：
+2.  在 Lync Server 命令行管理程序中，键入以下命令，然后按 ENTER (指定 Watchernode.msi) 副本的实际路径：
     
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
@@ -133,7 +135,7 @@ _**上次修改的主题：** 2012-10-22_
 
 请注意，上述命令 Authentication=TrustedServer 中的名称/值对是区分大小写的。您必须如上所示准确地键入该命令。以下命令就是由于没有使用正确的字母大小写而失败了：
 
-C：\\Tools\\watchernode.msi authentication = trustedserver
+C： \\ Tools \\Watchernode.msi authentication = trustedserver
 
 您只能对外围网络中的计算机使用 TrustedServer 模式。当观察程序节点在 TrustedServer 模式中运行时，管理员无需维护计算机上的测试用户密码。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36ddc8629d1d3ed303e45f6fe864e9d54b323674
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9984cb01635095d53240891c04352012f5d0fa76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195665"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517029"
 ---
+# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中为用户配置分支站点恢复能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中为用户配置分支站点恢复能力
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195665"
 
 _**上次修改的主题：** 2012-10-11_
 
-在[使用 Lync Server 2013-分支站点任务将 Survivable 分支设备或服务器](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)中成功完成任务后，请执行以下过程以启用企业语音的用户，并为其分配语音策略和语音邮件设置。 然后在[Lync Server 2013 中的 Survivable 分支设备或服务器上的家庭用户](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)中，将这些用户置于 Survivable 分支设备或服务器上。
+在 [使用 Lync Server 2013-分支站点任务将 Survivable 分支设备或服务器](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)中成功完成任务后，请执行以下过程以启用企业语音的用户，并为其分配语音策略和语音邮件设置。 然后在 [Lync Server 2013 中的 Survivable 分支设备或服务器上的家庭用户](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)中，将这些用户置于 Survivable 分支设备或服务器上。
 
 <div>
 

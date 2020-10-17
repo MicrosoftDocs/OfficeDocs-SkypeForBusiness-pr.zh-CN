@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：配置 Active Directory 联合身份验证服务（AD FS 2.0）
+title: 'Lync Server 2013：配置 Active Directory 联合身份验证服务 (AD FS 2.0) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9daaec9cbe32f031c7ee99731b1d7c7c9ec10ac1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac26f7ec2be8390ee913c810928cc99c4e20d53c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195715"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517649"
 ---
+# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>为 Lync Server 2013 配置 Active Directory 联合身份验证服务 (AD FS 2.0) 
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>为 Lync Server 2013 配置 Active Directory 联合身份验证服务（AD FS 2.0）
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42195715"
 
 _**上次修改的主题：** 2013-07-03_
 
-下一节介绍如何配置 Active Directory 联合身份验证服务（AD FS 2.0）以支持多重身份验证。 有关如何安装 AD FS 2.0 的信息，请参阅 AD FS 2.0 分步和操作方法指南[https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374)。
+下一节介绍如何配置 Active Directory 联合身份验证服务 (AD FS 2.0) 以支持多重身份验证。 有关如何安装 AD FS 2.0 的信息，请参阅 AD FS 2.0 分步和操作方法指南 [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374) 。
 
 <div class="">
 
 
 > [!NOTE]  
-> 安装 AD FS 2.0 时，请勿使用 Windows Server 管理器添加 Active Directory 联合身份验证服务角色。 请改为在上<A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>下载并安装 Active Directory 联合身份验证服务 2.0 RTW 包。
+> 安装 AD FS 2.0 时，请勿使用 Windows Server 管理器添加 Active Directory 联合身份验证服务角色。 请改为在上下载并安装 Active Directory 联合身份验证服务 2.0 RTW 包 <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A> 。
 
 
 
@@ -62,13 +64,13 @@ _**上次修改的主题：** 2013-07-03_
     ```powershell
     add-pssnapin Microsoft.Adfs.PowerShell
     ```
-4.  使用 Lync Server 2013 的累积更新建立与每个 Lync Server 2013 的合作关系：7月 2013 Director、Enterprise Pool 和 Standard Edition Server，通过运行以下命令将启用被动身份验证，并替换特定于您的部署的服务器名称：
+4.  使用 Lync Server 2013 的累积更新建立与每个 Lync Server 2013 的合作关系：7月 2013 Director、Enterprise Pool 和 Standard Edition Server，可通过运行以下命令替换特定于您的部署的服务器名称来启用被动身份验证：
     ```powershell
     Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
      ```
 5.  从 "管理工具" 菜单中，启动 AD FS 2.0 管理控制台。
 
-6.  展开 "**信任关系** \> "**信赖方信任**。
+6.  展开 " **信任关系**" \> **信赖方信任**。
 
 7.  验证是否已为你的 Lync Server 2013 创建了新的信任，并具有 Lync Server 2013 的累积更新：7月 2013 Enterprise Pool 或 Standard Edition Server。
 
@@ -93,11 +95,11 @@ _**上次修改的主题：** 2013-07-03_
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 
-10. 从 AD FS 2.0 管理控制台中，右键单击您的信赖方信任，然后选择 "**编辑声明规则**"。
+10. 从 AD FS 2.0 管理控制台中，右键单击您的信赖方信任，然后选择 " **编辑声明规则**"。
 
-11. 选择 "**颁发授权规则**" 选项卡，并验证是否已成功创建新的授权规则。
+11. 选择 " **颁发授权规则** " 选项卡，并验证是否已成功创建新的授权规则。
 
-12. 选择 "**颁发转换规则**" 选项卡，并验证是否已成功创建新的转换规则。
+12. 选择 " **颁发转换规则** " 选项卡，并验证是否已成功创建新的转换规则。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edeec17bccc4c2084f71d3a052d3a44a34f4ed94
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4080460083074f7ad74618034ab2e7910de5e53d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185177"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516179"
 ---
+# <a name="media-quality-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量摘要报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量摘要报告
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2016-06-29_
 
 媒体质量摘要报告可能最适合用来分析组织内部的呼叫质量，此报告提供了分为以下几个类别的详细的用户体验质量 (QoE) 呼叫指标：
 
-  - UC 对等呼叫（如 Microsoft Lync 2013 至 Microsoft Lync 2013 呼叫）
+  - UC 对等呼叫 (例如 Microsoft Lync 2013 to Microsoft Lync 2013 呼叫) 
 
   - UC 会议会话
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2016-06-29_
 
 ## <a name="accessing-the-media-quality-summary-report"></a>访问媒体质量摘要报告
 
-可从监控报告主页访问媒体质量摘要报告。 您可以通过单击以下任一指标深入到[Lync Server 2013 中的呼叫列表报告](lync-server-2013-call-list-report.md)：
+可从监控报告主页访问媒体质量摘要报告。 您可以通过单击以下任一指标深入到 [Lync Server 2013 中的呼叫列表报告](lync-server-2013-call-list-report.md) ：
 
   - 呼叫量
 
@@ -243,7 +245,7 @@ _**上次修改的主题：** 2016-06-29_
 <tr class="even">
 <td><p><strong>抖动(毫秒)</strong></p></td>
 <td><p>否</p></td>
-<td><p>在 RTP 数据包到达之间检查到的平均抖动率。 （抖动是对&quot;shakiness&quot;的衡量。高抖动值通常是由拥塞或过载的媒体服务器引起的，并导致音频失真或丢失。</p></td>
+<td><p>在 RTP 数据包到达之间检查到的平均抖动率。  (抖动是 shakiness 的衡量指标 &quot; &quot; 。 ) 高抖动值通常由拥塞或过载的媒体服务器引起，并导致音频失真或丢失。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>修复程序隐藏比率</strong></p></td>
@@ -421,7 +423,7 @@ _**上次修改的主题：** 2016-06-29_
 <tr class="odd">
 <td><p><strong>抖动(毫秒)</strong></p></td>
 <td><p>否</p></td>
-<td><p>在 RTP 数据包到达之间检查到的平均抖动率。 （抖动是对&quot;shakiness&quot;的衡量。高抖动值通常是由拥塞或过载的媒体服务器引起的，并导致音频失真或丢失。</p></td>
+<td><p>在 RTP 数据包到达之间检查到的平均抖动率。  (抖动是 shakiness 的衡量指标 &quot; &quot; 。 ) 高抖动值通常由拥塞或过载的媒体服务器引起，并导致音频失真或丢失。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>相对单向平均值</strong></p></td>

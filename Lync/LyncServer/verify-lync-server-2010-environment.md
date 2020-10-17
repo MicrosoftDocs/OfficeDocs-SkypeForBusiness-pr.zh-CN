@@ -12,20 +12,22 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72b04170df1a616aec595f72dce74cd15e8059b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a98bdaa5b97193ad20a78939560190a413a87161
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188945"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515969"
 ---
+# <a name="verify-lync-server-2010-environment"></a>验证 Lync Server 2010 环境
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-lync-server-2010-environment"></a>验证 Lync Server 2010 环境
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2012-10-19_
 
 **验证是否已启动 Lync Server 2010 服务**
 
-1.  在 Lync Server 2010 前端服务器中，导航到 "管理工具\\服务" 小程序。
+1.  在 Lync Server 2010 前端服务器中，导航到 "管理工具 \\ 服务" 小程序。
 
 2.  确认以下服务正在前端服务器上运行：
     
@@ -71,7 +73,7 @@ _**上次修改的主题：** 2012-10-19_
 
 2.  选择“用户”****，然后单击“查找”****。
 
-3.  验证 "**注册器池**" 列是否指向列出的每个用户的 Lync Server 2010 池。
+3.  验证 " **注册器池** " 列是否指向列出的每个用户的 Lync Server 2010 池。
     
     ![Lync Server 2010 控制面板，其中列出了用户](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010 控制面板，其中列出了用户")
 
@@ -99,7 +101,7 @@ _**上次修改的主题：** 2012-10-19_
 
 **确认旧的 XMPP 联盟伙伴配置**
 
-1.  在旧版 XMPP 服务器上，导航到 "管理工具\\服务" 小程序。
+1.  在旧版 XMPP 服务器上，导航到 "管理工具 \\ 服务" 小程序。
 
 2.  确认已启动 Office Communications Server XMPP 网关服务。
     

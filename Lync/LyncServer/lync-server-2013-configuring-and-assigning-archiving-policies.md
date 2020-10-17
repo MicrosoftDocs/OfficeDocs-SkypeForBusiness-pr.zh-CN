@@ -12,20 +12,22 @@ ms:contentKeyID: 48185121
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26b4e49bb6ba25fb9c7230cdf171dc7d31433619
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: af6a253de4d35b3505b5ffa8be42fae297221641
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517569"
 ---
+# <a name="configuring-and-assigning-archiving-policies-in-lync-server-2013"></a>在 Lync Server 2013 中配置和分配存档策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-and-assigning-archiving-policies-in-lync-server-2013"></a>在 Lync Server 2013 中配置和分配存档策略
+
 
 </div>
 
@@ -49,13 +51,13 @@ _**上次修改的主题：** 2012-10-01_
 
 
 > [!NOTE]  
-> 若要控制存档的实现，您必须在存档配置中指定选项，例如，是否存档 IM 或会议、关键模式的用法和清除选项。 默认情况下，在全局存档配置或任意站点或池存档配置中未启用任何选项。 您应在存档配置中指定所有适当的选项，然后在存档策略中为内部或外部通信启用存档。 有关详细信息，请参阅 Operations 文档中的在<A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 中管理存档配置选项（针对组织、网站和池</A>）。<BR>如果将 Lync Server 存储与 Exchange 2013 存储集成，则 Exchange 用户策略优先于 Lync Server 2013 存档策略，但仅适用于驻留在 Exchange 2013 的用户已将其邮箱置于就地保留状态的用户。
+> 若要控制存档的实现，您必须在存档配置中指定选项，例如，是否存档 IM 或会议、关键模式的用法和清除选项。 默认情况下，在全局存档配置或任意站点或池存档配置中未启用任何选项。 您应在存档配置中指定所有适当的选项，然后在存档策略中为内部或外部通信启用存档。 有关详细信息，请参阅 Operations 文档中的在 <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 中管理存档配置选项（针对组织、网站和池</A> ）。<BR>如果将 Lync Server 存储与 Exchange 2013 存储集成，则 Exchange 用户策略优先于 Lync Server 2013 存档策略，但仅适用于驻留在 Exchange 2013 的用户在其邮箱置于 In-Place 保留状态的用户。
 
 
 
 </div>
 
-有关如何实施策略（包括策略的层次结构）的详细信息，请参阅规划文档、部署文档或操作文档中的[存档在 Lync Server 2013 中的工作原理](lync-server-2013-how-archiving-works.md)。 有关如何在部署后管理策略的详细信息，请参阅操作文档中的在[Lync Server 2013 中管理内部和外部通信的存档](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)。
+有关如何实施策略（包括策略的层次结构）的详细信息，请参阅规划文档、部署文档或操作文档中的 [存档在 Lync Server 2013 中的工作原理](lync-server-2013-how-archiving-works.md) 。 有关如何在部署后管理策略的详细信息，请参阅操作文档中的在 [Lync Server 2013 中管理内部和外部通信的存档](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) 。
 
 <div>
 

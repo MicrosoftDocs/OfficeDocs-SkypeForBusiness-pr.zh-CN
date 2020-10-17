@@ -12,20 +12,22 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dda45706b8c55bf99120ec3776702060998a6921
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37494b3f8389709681ffc92a17d388b71baddd70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190995"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517949"
 ---
+# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部用户访问的证书要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部用户访问的证书要求
+
 
 </div>
 
@@ -41,13 +43,13 @@ Microsoft Lync Server 2013 通信软件支持对访问和 web 会议边缘外部
 
 以下是用于访问、Web 会议边缘外部接口以及 A/V 身份验证服务的公共证书的要求：
 
-  - 证书必须由经过批准的公共 CA 颁发，且该 CA 支持使用者替代名称。 有关详细信息，请参阅 Microsoft 知识库文章 929395 "Exchange Server 和通信服务器的统一通信证书合作伙伴"，网址[https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)为。
+  - 证书必须由经过批准的公共 CA 颁发，且该 CA 支持使用者替代名称。 有关详细信息，请参阅 Microsoft 知识库文章 929395 "Exchange Server 和通信服务器的统一通信证书合作伙伴"，网址为 [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) 。
 
   - 如果证书要在边缘池上使用，必须将其创建为可导出的证书，并在边缘池中的每台边缘服务器上使用相同的证书。可导出的私钥要求针对的是 A/V 身份验证服务，该服务必须在池中所有边缘服务器上使用同一私钥。
 
-  - 如果要最大限度地提高音频/视频服务的正常运行时间，请查看实现分离的 A/V 边缘服务证书（即，与其他外部边缘证书目的的单独 A/V 边缘服务证书）的证书要求。 有关详细信息，请参阅 lync server 2013 中的[更改，它会影响边缘服务器规划](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)、在 lync server [2013 中规划边缘服务器证书](lync-server-2013-plan-for-edge-server-certificates.md)，以及在[set-cscertificate 中使用-回滚在 LYNC server 2013 中暂存 AV 和 OAuth 证书](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)。
+  - 如果要最大限度地提高音频/视频服务的正常运行时间，请查看实现分离的 A/V 边缘服务证书的证书要求 (即，从其他外部边缘证书目的单独的 A/V 边缘服务证书) 。 有关详细信息，请参阅 lync server 2013 中的 [更改，它会影响边缘服务器规划](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)、在 lync server [2013 中规划边缘服务器证书](lync-server-2013-plan-for-edge-server-certificates.md) ，以及在 [set-cscertificate 中使用-回滚在 LYNC server 2013 中暂存 AV 和 OAuth 证书](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)。
 
-  - 证书的使用者名称是访问边缘服务外部接口完全限定的域名（FQDN）或硬件负载平衡器 VIP （例如，access.contoso.com）。 ). 使用者名称不能包含通配符，它必须是显式名称。
+  - 证书的使用者名称是访问边缘服务外部接口的外部接口 (FQDN) 或硬件负载平衡器 (VIP 的域名，例如，access.contoso.com) 。 ). 使用者名称不能包含通配符，它必须是显式名称。
     
     <div>
     
@@ -60,7 +62,7 @@ Microsoft Lync Server 2013 通信软件支持对访问和 web 会议边缘外部
 
   - 使用者替代名称列表包含以下各项的 FQDN：
     
-      - 访问边缘服务外部接口或硬件负载平衡器 VIP （例如，sip.contoso.com）。
+      - 访问边缘服务的外部接口或硬件负载平衡器 VIP (例如，sip.contoso.com) 。
         
         <div>
         
@@ -112,9 +114,9 @@ Microsoft Lync Server 2013 通信软件支持对访问和 web 会议边缘外部
 
   - 对设备更新服务的外部设备访问权并获取更新
 
-反向代理会发布内部服务器 Web 组件 URL。 Web 组件 Url 在控制器、前端服务器或前端池上定义为拓扑生成器中的**外部 Web 服务**。
+反向代理会发布内部服务器 Web 组件 URL。 Web 组件 Url 在控制器、前端服务器或前端池上定义为拓扑生成器中的 **外部 Web 服务** 。
 
-可以在分配给反向代理的证书的使用者替代名称字段中使用通配符条目。 有关如何为反向代理配置证书申请的详细信息，请参阅[在 Lync Server 2013 中为您的反向 HTTP 代理请求和配置证书](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md)。
+可以在分配给反向代理的证书的使用者替代名称字段中使用通配符条目。 有关如何为反向代理配置证书申请的详细信息，请参阅 [在 Lync Server 2013 中为您的反向 HTTP 代理请求和配置证书](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md)。
 
 <div>
 

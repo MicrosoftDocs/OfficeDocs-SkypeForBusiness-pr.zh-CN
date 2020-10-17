@@ -12,20 +12,22 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cad247f2643261e02e475c459e703db843f18fbe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3faf28bdd85f32de1560d35aaf35392fef9746
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195565"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516949"
 ---
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>在 Lync Server 2013 中配置语音邮件转义
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>在 Lync Server 2013 中配置语音邮件转义
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195565"
 
 _**上次修改的主题：** 2013-02-22_
 
-如果用户为移动电话配置同时响铃，则当移动电话关机、没电或没信号时，呼叫者通常将路由到用户的个人语音邮件。 借助 Lync Server 2013，用户可以选择将与业务相关的呼叫路由到其公司语音邮件系统。 具体来说，可以配置计时器，如果运营商的语音邮件在定义的时间范围内应答呼叫，Lync Server 将断开与运营商的语音邮件系统（和用户的个人语音邮件）的连接，同时用户的剩余公司系统中的终结点继续振铃。 这样以来，呼叫者将自动路由到用户的企业语音邮件。
+如果用户为移动电话配置同时响铃，则当移动电话关机、没电或没信号时，呼叫者通常将路由到用户的个人语音邮件。 借助 Lync Server 2013，用户可以选择将与业务相关的呼叫路由到其公司语音邮件系统。 具体来说，可以配置计时器，如果运营商的语音邮件在定义的时间范围内应答呼叫，Lync Server 将断开与运营商的语音邮件系统的连接 (和用户的个人语音邮件) ，而在公司系统中，用户的其余终结点将继续振铃。 这样以来，呼叫者将自动路由到用户的企业语音邮件。
 
 使用以下参数在语音策略级别使用 Lync Server 命令行管理程序 cmdlet （ **set-csvoicepolicy**）执行此配置。
 

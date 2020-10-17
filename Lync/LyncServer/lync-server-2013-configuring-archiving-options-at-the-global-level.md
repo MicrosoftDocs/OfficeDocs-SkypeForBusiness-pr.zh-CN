@@ -12,20 +12,22 @@ ms:contentKeyID: 48185303
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3798d64ba8a2252058756b04b51481e90bdf95c5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 939928b99c4372f3dafe9536365481fb737478a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188565"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517539"
 ---
+# <a name="configuring-archiving-options-at-the-global-level-in-lync-server-2013"></a>在 Lync Server 2013 中配置全局级别的存档选项
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-archiving-options-at-the-global-level-in-lync-server-2013"></a>在 Lync Server 2013 中配置全局级别的存档选项
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-10_
 
 当您向拓扑中添加存档并发布拓扑时，Lync Server 将为存档创建全局配置。 默认情况下，不会在全局配置中启用任何存档选项。 除非您自己设置站点或池配置（这将重写全局配置），否则全局配置将控制要为整个部署启用的选项。
 
-有关存档配置的工作原理（包括全局、站点和池配置的层次结构）的详细信息，请参阅规划文档、部署文档或操作文档中的[存档在 Lync Server 2013 中的工作原理](lync-server-2013-how-archiving-works.md)。
+有关存档配置的工作原理（包括全局、站点和池配置的层次结构）的详细信息，请参阅规划文档、部署文档或操作文档中的 [存档在 Lync Server 2013 中的工作原理](lync-server-2013-how-archiving-works.md) 。
 
 <div>
 
@@ -57,7 +59,7 @@ _**上次修改的主题：** 2012-10-10_
 
 1.  使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 Lync Server 2013 控制面板。 有关可用于启动 Lync Server 2013 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 Lync Server 2013 控制面板。 有关可用于启动 Lync Server 2013 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。
 
@@ -75,7 +77,7 @@ _**上次修改的主题：** 2012-10-10_
     
       - 要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息(IM)或 Web 会议会话”**** 复选框。
     
-      - 若要使用 Microsoft Exchange Server 存储存档数据，请单击 " **Microsoft exchange 集成**" 复选框。
+      - 若要使用 Microsoft Exchange Server 存储存档数据，请单击 " **Microsoft exchange 集成** " 复选框。
     
       - 若要启用数据清除，请选中“启用存档数据清除”**** 复选框，然后执行下列操作之一：
         

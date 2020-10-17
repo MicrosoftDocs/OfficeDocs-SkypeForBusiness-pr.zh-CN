@@ -12,20 +12,22 @@ ms:contentKeyID: 48183956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84aa652a51934a8b513392869a0875f60689f759
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 03f967b50c2fa9eae4f2599ce96dc9c592a57006
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516139"
 ---
+# <a name="medialine-table-in-lync-server-2013"></a>Lync Server 2013 中的 MediaLine 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="medialine-table-in-lync-server-2013"></a>Lync Server 2013 中的 MediaLine 表
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42192745"
 
 _**上次修改的主题：** 2014-02-21_
 
-每个记录代表一个媒体行。 （一个音频会话通常包含一个音频媒体线。 一个音频和视频（A/V）会话通常包含一个音频媒体线和一个视频媒体线，但如果使用了会议设备或者使用了库视图，则会话可能包含两个视频媒体线路。
+每个记录代表一个媒体行。  (一个音频会话通常包含一个音频媒体线。 一个音频和视频 (A/V) 会话通常包含一个音频媒体线和一个视频媒体线，但如果使用了会议设备或使用了 "库视图"，则该会话可能包含两个视频媒体线路。
 
 
 <table>
@@ -60,13 +62,13 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主</p></td>
-<td><p>从<a href="lync-server-2013-session-table.md">Lync Server 2013 中的会话表中</a>引用。</p></td>
+<td><p>从 <a href="lync-server-2013-session-table.md">Lync Server 2013 中的会话表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主</p></td>
-<td><p>从<a href="lync-server-2013-session-table.md">Lync Server 2013 中的会话表中</a>引用。</p></td>
+<td><p>从 <a href="lync-server-2013-session-table.md">Lync Server 2013 中的会话表中</a>引用。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
@@ -84,16 +86,16 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CallerIceWarningFlags</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>有关 bits 标志中所述的交互式连接建立（ICE）过程的信息。 有关详细信息，请参阅可供下载的<em>经验丰富的监视服务器协议规范的质量</em>。</p></td>
+<td><p>有关交互式连接建立 (ICE) 过程的信息，如 bits 标志中所述。 有关详细信息，请参阅可供下载的 <em>经验丰富的监视服务器协议规范的质量</em>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeIceWarningFlags</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>与 CallerIceWarningFlags 相同，但在被叫方的一侧。 有关详细信息，请参阅可供下载的<em>经验丰富的监视服务器协议规范的质量</em>。</p></td>
+<td><p>与 CallerIceWarningFlags 相同，但在被叫方的一侧。 有关详细信息，请参阅可供下载的 <em>经验丰富的监视服务器协议规范的质量</em>。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>安全</strong></p></td>
+<td><p><strong>安全性</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p> </p></td>
 <td><p>正在使用的安全配置文件。 0 为无，1 为 SRTP，2 为 V1。</p></td>
@@ -108,7 +110,7 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CallerIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫者的 IP 地址。 有关详细信息，请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a>。</p></td>
+<td><p>呼叫者的 IP 地址。 有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerPort</strong></p></td>
@@ -120,7 +122,7 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CallerSubnet</strong></p></td>
 <td><p>int</p></td>
 <td><p> 对外</p></td>
-<td><p>呼叫者的子网。 有关详细信息，请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a>。</p></td>
+<td><p>呼叫者的子网。 有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerInside</strong></p></td>
@@ -132,13 +134,13 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CallerMacAddress</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫者的 mac 地址，从<a href="lync-server-2013-macaddress-table.md">Lync Server 2013 中的 MacAddress 表</a>引用。</p></td>
+<td><p>呼叫者的 mac 地址，从 <a href="lync-server-2013-macaddress-table.md">Lync Server 2013 中的 MacAddress 表</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerRelayIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫者使用的 Lync Server A/V 边缘服务的 IP 地址。 有关详细信息，请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a>。</p></td>
+<td><p>呼叫者使用的 Lync Server A/V 边缘服务的 IP 地址。 有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRelayPort</strong></p></td>
@@ -150,31 +152,31 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CallerCaptureDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫者使用的捕获设备。 从<a href="lync-server-2013-device-table.md">Lync Server 2013 中的设备表中</a>引用。</p></td>
+<td><p>呼叫者使用的捕获设备。 从 <a href="lync-server-2013-device-table.md">Lync Server 2013 中的设备表中</a>引用。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRenderDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呈现由呼叫者使用的设备。 从<a href="lync-server-2013-device-table.md">Lync Server 2013 中的设备表中</a>引用。</p></td>
+<td><p>呈现由呼叫者使用的设备。 从 <a href="lync-server-2013-device-table.md">Lync Server 2013 中的设备表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerCaptureDevDriver</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫者捕获设备的驱动程序，从<a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 中的 DeviceDriver 表中</a>引用。</p></td>
+<td><p>呼叫者捕获设备的驱动程序，从 <a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 中的 DeviceDriver 表中</a>引用。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRenderDevDriver</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫者的呈现设备的驱动程序，从<a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 中的 DeviceDriver 表中</a>引用。</p></td>
+<td><p>呼叫者的呈现设备的驱动程序，从 <a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 中的 DeviceDriver 表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerNetworkConnectionType</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>对外</p></td>
-<td><p>指示呼叫者如何连接到网络。 值是从<a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表中</a>获取的。 对于 WiFi 连接，典型值为0（对于 WiFi 连接，为1）;对于以太网连接，为3。</p></td>
+<td><p>指示呼叫者如何连接到网络。 值是从 <a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表中</a>获取的。 对于 WiFi 连接，典型值为0（对于 WiFi 连接，为1）;对于以太网连接，为3。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerBssid</strong></p></td>
@@ -190,7 +192,7 @@ _**上次修改的主题：** 2014-02-21_
 </tr>
 <tr class="odd">
 <td><p><strong>CallerLinkSpeed</strong></p></td>
-<td><p>小数（18，0）</p></td>
+<td><p>十进制 (18，0) </p></td>
 <td></td>
 <td><p>呼叫者终结点的网络链接速度（以 bps 为单位）。</p></td>
 </tr>
@@ -198,7 +200,7 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CalleeIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫接收器的 IP 地址。 有关详细信息，请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a>。</p></td>
+<td><p>呼叫接收器的 IP 地址。 有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleePort</strong></p></td>
@@ -210,7 +212,7 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CalleeSubnet</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>被叫方的子网。 有关详细信息，请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a>。</p></td>
+<td><p>被叫方的子网。 有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeInside</strong></p></td>
@@ -228,7 +230,7 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CalleeRelayIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫接收器使用的 A/V 边缘服务的 IP 地址。 有关详细信息，请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a>。</p></td>
+<td><p>呼叫接收器使用的 A/V 边缘服务的 IP 地址。 有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRelayPort</strong></p></td>
@@ -240,13 +242,13 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CalleeCaptureDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>由呼叫接收器使用的捕获设备。 从<a href="lync-server-2013-device-table.md">Lync Server 2013 中的设备表中</a>引用。</p></td>
+<td><p>由呼叫接收器使用的捕获设备。 从 <a href="lync-server-2013-device-table.md">Lync Server 2013 中的设备表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRenderDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呈现呼叫接收器使用的设备。 从<a href="lync-server-2013-device-table.md">Lync Server 2013 中的设备表中</a>引用。</p></td>
+<td><p>呈现呼叫接收器使用的设备。 从 <a href="lync-server-2013-device-table.md">Lync Server 2013 中的设备表中</a>引用。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeCaptureDevDriver</strong></p></td>
@@ -256,7 +258,7 @@ _**上次修改的主题：** 2014-02-21_
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRenderDevDriver</strong></p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>对外</p></td>
 <td><p>呼叫接收器的呈现设备的驱动程序。 <a href="lync-server-2013-devicedriver-table.md">在 Lync Server 2013 中从 DeviceDriver 表</a>引用。</p></td>
 </tr>
@@ -264,7 +266,7 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CalleeNetworkConnectionType</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>对外</p></td>
-<td><p>指示被叫方如何连接到网络。 值是从<a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表中</a>获取的。 对于 WiFi 连接，典型值为0（对于 WiFi 连接，为1）;对于以太网连接，为3。</p></td>
+<td><p>指示被叫方如何连接到网络。 值是从 <a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表中</a>获取的。 对于 WiFi 连接，典型值为0（对于 WiFi 连接，为1）;对于以太网连接，为3。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeBssid</strong></p></td>
@@ -276,17 +278,17 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CalleeVPN</strong></p></td>
 <td><p>位</p></td>
 <td><p> </p></td>
-<td><p>呼叫接收器的链接;1是虚拟专用网络（VPN），0是非 VPN。</p></td>
+<td><p>呼叫接收器的链接;1是虚拟专用网络 (VPN) ，0是非 VPN。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeLinkSpeed</strong></p></td>
-<td><p>小数（18，0）</p></td>
+<td><p>十进制 (18，0) </p></td>
 <td><p> </p></td>
 <td><p>呼叫接收器终结点的网络链接速度（以 bps 为单位）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConversationalMOS</strong></p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p> </p></td>
 <td><p>音频会话的窄带交谈 MOS（基于两个音频流）。</p></td>
 </tr>
@@ -294,13 +296,13 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>AppliedBandwidthLimit</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>这是在给定各种策略设置（TURN、API、SDP、策略服务器等）时应用于给定发送方流的实际带宽。 不要将其与有效带宽混淆，因为根据带宽预估的不同，可能会降低带宽的有效性。 这基本上是发送流可禁止带宽预估设定的限制的最大带宽。</p></td>
+<td><p>这是在给定各种策略设置 (TURN、API、SDP、策略服务器等) 的情况下应用于给定发送方流的实际带宽。 不要将其与有效带宽混淆，因为根据带宽预估的不同，可能会降低带宽的有效性。 这基本上是发送流可禁止带宽预估设定的限制的最大带宽。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AppliedBandwidthSourceKey</strong></p></td>
 <td><p>smallint</p></td>
 <td></td>
-<td><p>这是所设定的带宽限制的来源。 它描述带宽限制来自何处（"策略服务器"、"轮流服务器"、"模态" 等）。 <a href="lync-server-2013-appliedbandwidthsource-table.md">在 Lync Server 2013 中从 AppliedBandwidthSource 表中</a>引用。</p></td>
+<td><p>这是所设定的带宽限制的来源。 它描述带宽限制来自 ( "策略服务器"、"轮流服务器"、"模态"，等等) 。 <a href="lync-server-2013-appliedbandwidthsource-table.md">在 Lync Server 2013 中从 AppliedBandwidthSource 表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Caller</strong></p></td>
@@ -325,7 +327,7 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>ClassifiedPoorCall</strong></p></td>
 <td><p>位</p></td>
 <td></td>
-<td><p>指示呼叫是否分类为较差呼叫（值为1）或正常呼叫（0）。</p>
+<td><p>指示是否将呼叫分类为较差的呼叫 (值为 1) 或 (0) 的正常呼叫。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
@@ -346,7 +348,7 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CallerReflexiveLocalIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>发出呼叫的用户的反身 IP 地址。 在使用 NAT （网络地址转换）的组织中，反身 IP 地址是代理服务器的 IP 地址。</p>
+<td><p>发出呼叫的用户的反身 IP 地址。 在使用 NAT (网络地址转换) 的组织中，反身 IP 地址是代理服务器的 IP 地址。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="odd">
@@ -367,7 +369,7 @@ _**上次修改的主题：** 2014-02-21_
 <td><p><strong>CalleReflexiveLocalIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>接收呼叫的用户的反身 IP 地址。 在使用 NAT （网络地址转换）的组织中，反身 IP 地址是代理服务器的 IP 地址。</p>
+<td><p>接收呼叫的用户的反身 IP 地址。 在使用 NAT (网络地址转换) 的组织中，反身 IP 地址是代理服务器的 IP 地址。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">

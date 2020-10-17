@@ -12,20 +12,22 @@ ms:contentKeyID: 48184063
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94424edc38cf1cc0eacac2638a4ed30a18f06779
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9eb2922913ee95bad11273b2e943812850da4402
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181455"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517810"
 ---
+# <a name="change-the-web-services-url-in-lync-server-2013"></a>在 Lync Server 2013 中更改 Web 服务 URL
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-the-web-services-url-in-lync-server-2013"></a>在 Lync Server 2013 中更改 Web 服务 URL
+
 
 </div>
 
@@ -57,9 +59,9 @@ _**上次修改的主题：** 2015-11-16_
 
 1.  以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-2.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+2.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
-3.  在拓扑生成器中，在 " **Standard Edition 前端服务器**"、" **Enterprise edition 前端池**" 和 "**目录池**" 下的控制台树中，选择池名称。 右键单击该名称，再单击“编辑属性”****，然后单击“Web 服务”****。
+3.  在拓扑生成器中，在 " **Standard Edition 前端服务器**"、" **Enterprise edition 前端池**" 和 " **目录池**" 下的控制台树中，选择池名称。 右键单击该名称，再单击“编辑属性”****，然后单击“Web 服务”****。
 
 4.  添加或编辑“外部 Web 服务 FQDN”****，然后单击“确定”****。
     
@@ -67,7 +69,7 @@ _**上次修改的主题：** 2015-11-16_
     
 
     > [!WARNING]  
-    > 如果您有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为<STRONG>pool01.contoso.com</STRONG>，则不能将<STRONG>pool01.contoso.com</STRONG>用于另一个前端池或前端服务器。 如果还部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器都是唯一的。
+    > 如果您有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 <STRONG>pool01.contoso.com</STRONG>，则不能将 <STRONG>pool01.contoso.com</STRONG> 用于另一个前端池或前端服务器。 如果还部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器都是唯一的。
 
     
     </div>

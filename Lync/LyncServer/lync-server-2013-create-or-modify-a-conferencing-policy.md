@@ -12,20 +12,22 @@ ms:contentKeyID: 49733844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 522f1d1240e73775ae1f0976556b882ba00fe1d3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4dc01c8bed503f06806c873431ef201e03c31811
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180069"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516889"
 ---
+# <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改会议策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改会议策略
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180069"
 
 _**上次修改的主题：** 2013-02-07_
 
-按照以下步骤创建用户级别或站点级别会议策略。 有关如何向用户分配用户级别策略的详细信息，请参阅[在 Lync Server 2013 中分配每用户会议策略](lync-server-2013-assign-a-per-user-conferencing-policy.md)。 有关所有可用会议策略设置的列表，请参阅[Lync Server 2013 的会议策略设置参考](lync-server-2013-conferencing-policy-settings-reference.md)。
+按照以下步骤创建用户级别或站点级别会议策略。 有关如何向用户分配用户级别策略的详细信息，请参阅 [在 Lync Server 2013 中分配每用户会议策略](lync-server-2013-assign-a-per-user-conferencing-policy.md)。 有关所有可用会议策略设置的列表，请参阅 [Lync Server 2013 的会议策略设置参考](lync-server-2013-conferencing-policy-settings-reference.md)。
 
 <div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-02-07_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“会议”****，然后单击“会议策略”****。
 
@@ -146,7 +148,7 @@ _**上次修改的主题：** 2013-02-07_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“会议”****，然后单击“会议策略”****。
 

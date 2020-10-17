@@ -12,20 +12,22 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57de37ff1ef0b43a8a6ea9c03b715d3ebe570a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b31224228a4f2fbdad879e43bab61292852e009c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190905"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516300"
 ---
+# <a name="delegation-in-lync-server-2013"></a>Lync Server 2013 中的委派
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegation-in-lync-server-2013"></a>Lync Server 2013 中的委派
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42190905"
 
 _**上次修改的主题：** 2013-03-09_
 
-Lync 中的委派功能受以下方式的基于位置的路由的影响：
+Lync 中的委派功能受按以下方式 Location-Based 路由的影响：
 
-  - 如果启用了基于位置的路由的代理代表经理发出呼叫，代理的语音策略将用于授权呼叫，代理的站点语音路由策略将用于路由呼叫
+  - 当启用 Location-Based 路由的代理代表经理发出呼叫时，代理的语音策略将用于授权呼叫，代理的站点语音路由策略将用于路由呼叫
 
   - 对于 manager 的传入 PSTN 呼叫，适用于呼叫转接或同时响铃的相同规则将按呼叫转移和转发和同时响铃主题中所述进行应用。
 
@@ -52,7 +54,7 @@ Lync 中的委派功能受以下方式的基于位置的路由的影响：
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server 2013 中基于位置的路由的方案](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013 中 Location-Based 路由的方案](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89f8fe84e046f49304d987fa51adf6dda61b8ce3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c352e7a4f062e6a9a1aab0bf52289c20102cc7fe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517549"
 ---
+# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中配置未分配号码的公告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中配置未分配号码的公告
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188575"
 
 _**上次修改的主题：** 2012-09-11_
 
-"通知应用程序" 是一种企业语音功能，可让您配置呼叫未分配的分机（对组织有效但未分配给个人或电话的分机）所发生的情况。 例如，可以将对未分配号码的呼叫配置为播放消息或转接至其他目标，或者同时执行这两种操作。
+"通知应用程序" 是一种企业语音功能，可让您配置对对组织有效但未分配给个人或电话) 的未分配的分机 (的呼叫。 例如，可以将对未分配号码的呼叫配置为播放消息或转接至其他目标，或者同时执行这两种操作。
 
 当您部署企业语音时，通知应用程序作为响应组应用程序在前端服务器或 Standard Edition Server 上的一项功能安装。 需要通过上载音频文件或配置文本到语音转换 (TTS) 和配置未分配号码表来配置通知。
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-09-11_
 
   - [在 Lync Server 2013 中配置未分配号码表](lync-server-2013-configure-the-unassigned-number-table.md)
 
-  - [Optional在 Lync Server 2013 中验证通知部署](lync-server-2013-optional-verify-announcement-deployment.md)
+  - [ (可选) 在 Lync Server 2013 中验证通知部署](lync-server-2013-optional-verify-announcement-deployment.md)
 
 </div>
 

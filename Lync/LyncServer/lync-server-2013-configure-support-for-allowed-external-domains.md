@@ -12,20 +12,22 @@ ms:contentKeyID: 48183943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33ca4ebfd56407bfd162bd7df76be98c890e2fbf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2eaa9da579561464c46776662cacaca80dafe016
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179839"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517679"
 ---
+# <a name="configure-support-for-allowed-external-domains-in-lync-server-2013"></a>在 Lync Server 2013 中配置对允许的外部域的支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-support-for-allowed-external-domains-in-lync-server-2013"></a>在 Lync Server 2013 中配置对允许的外部域的支持
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-19_
 
 
 > [!NOTE]  
-> 此过程描述如何配置对特定域的支持，但是实施对联盟用户的支持还需要组织启用对联盟用户的支持，并配置和应用策略以控制可与联盟用户协作的用户。 有关启用对联合用户的支持的详细信息，请参阅<A href="lync-server-2013-enable-or-disable-remote-user-access.md">在 Lync Server 2013 中启用或禁用远程用户访问</A>。 有关配置用于控制联合的策略的详细信息，请参阅<A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">在 Lync Server 2013 中配置用于控制联合用户访问的策略</A>。
+> 此过程描述如何配置对特定域的支持，但是实施对联盟用户的支持还需要组织启用对联盟用户的支持，并配置和应用策略以控制可与联盟用户协作的用户。 有关启用对联合用户的支持的详细信息，请参阅 <A href="lync-server-2013-enable-or-disable-remote-user-access.md">在 Lync Server 2013 中启用或禁用远程用户访问</A>。 有关配置用于控制联合的策略的详细信息，请参阅 <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">在 Lync Server 2013 中配置用于控制联合用户访问的策略</A>。
 
 
 
@@ -53,9 +55,9 @@ _**上次修改的主题：** 2012-10-19_
 
 ## <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a>将外部域添加到允许域列表中
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“外部用户访问”****，然后单击“联盟域”****。
 
@@ -82,9 +84,9 @@ _**上次修改的主题：** 2012-10-19_
 
 7.  对要允许的每个联盟伙伴域，重复步骤 4 至 6。
 
-若要启用联盟用户的访问，还必须在组织中启用对联盟用户访问的支持。 有关详细信息，请参阅[在 Lync Server 2013 中启用或禁用远程用户访问](lync-server-2013-enable-or-disable-remote-user-access.md)。
+若要启用联盟用户的访问，还必须在组织中启用对联盟用户访问的支持。 有关详细信息，请参阅 [在 Lync Server 2013 中启用或禁用远程用户访问](lync-server-2013-enable-or-disable-remote-user-access.md)。
 
-此外，还必须为希望能够与联盟用户协作的用户配置和应用策略。 有关详细信息，请参阅[在 Lync Server 2013 中配置用于控制联盟用户访问的策略](lync-server-2013-configure-policies-to-control-federated-user-access.md)。
+此外，还必须为希望能够与联盟用户协作的用户配置和应用策略。 有关详细信息，请参阅 [在 Lync Server 2013 中配置用于控制联盟用户访问的策略](lync-server-2013-configure-policies-to-control-federated-user-access.md)。
 
 </div>
 

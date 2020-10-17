@@ -12,20 +12,22 @@ ms:contentKeyID: 49733822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82520ea030dcfacdea1a5eb13608df8b827fe27a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb7f5df9a734fc248afbe0bf21739b95ecfba285
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190446"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516899"
 ---
+# <a name="create-or-modify-a-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改会议配置设置的集合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改会议配置设置的集合
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-02-23_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击 **“会议”**，然后单击 **“会议配置”**。
 
@@ -69,9 +71,9 @@ _**上次修改的主题：** 2013-02-23_
 
 8.  要阻止自动允许匿名（未经身份验证）用户参加会议，请清除 **“默认允许匿名用户”** 复选框。默认情况下，自动允许匿名用户参加会议。
 
-9.  若要自定义发送给参与者的会议邀请，请执行以下操作。 请注意，Url 和自定义页脚文本的最大长度为1KB。 除 "**帮助 URL**" 外，如果不指定自定义项的值，则不会将其包含在会议中。 如果不包含自定义帮助 URL，则会在邀请中显示 Lync 的默认帮助 URL。
+9.  若要自定义发送给参与者的会议邀请，请执行以下操作。 请注意，Url 和自定义页脚文本的最大长度为1KB。 除 " **帮助 URL**" 外，如果不指定自定义项的值，则不会将其包含在会议中。 如果不包含自定义帮助 URL，则会在邀请中显示 Lync 的默认帮助 URL。
     
-      - 若要自定义会议邀请中显示的徽标，请在 "**徽标 URL**" 中输入徽标的位置。
+      - 若要自定义会议邀请中显示的徽标，请在 " **徽标 URL**" 中输入徽标的位置。
         
         <div>
         
@@ -82,11 +84,11 @@ _**上次修改的主题：** 2013-02-23_
         
         </div>
     
-      - 若要自定义会议邀请中显示的帮助文本，请在 "**帮助 URL**" 中输入帮助文本的位置。
+      - 若要自定义会议邀请中显示的帮助文本，请在 " **帮助 URL**" 中输入帮助文本的位置。
     
-      - 若要自定义会议邀请中显示的法律文本，请在 "**合法文本 URL**" 中输入法律文本的位置。
+      - 若要自定义会议邀请中显示的法律文本，请在 " **合法文本 URL**" 中输入法律文本的位置。
     
-      - 若要自定义会议邀请中显示的页脚文本，请在 "**自定义页脚文本**" 中，输入文本。
+      - 若要自定义会议邀请中显示的页脚文本，请在 " **自定义页脚文本**" 中，输入文本。
 
 10. 单击“提交”****。
 
@@ -98,13 +100,13 @@ _**上次修改的主题：** 2013-02-23_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击 **“会议”**，然后单击 **“会议配置”**。
 
-4.  在会议配置列表中，单击要更改的配置，单击 "**编辑**"，然后单击 "**显示详细信息**"。
+4.  在会议配置列表中，单击要更改的配置，单击 " **编辑**"，然后单击 " **显示详细信息**"。
 
-5.  在 "**编辑会议配置**" 中，修改任何配置设置（无法修改的配置名称除外）。
+5.  在 " **编辑会议配置**" 中，修改任何配置设置（无法修改的配置名称除外）。
 
 6.  单击“提交”****。
 
@@ -114,7 +116,7 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="creating-new-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 创建新的会议配置设置
 
-可以使用 Windows PowerShell 和 Get-csmeetingconfiguration cmdlet 创建会议配置设置（仅限在网站范围内）。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+只能使用 Windows PowerShell 和 New-CsMeetingConfiguration cmdlet) 在网站范围内创建会议配置设置 (。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -124,7 +126,7 @@ _**上次修改的主题：** 2013-02-23_
     
         New-CsMeetingConfiguration -Identity "site:Redmond"
     
-    由于前面的命令中未指定任何参数（必需的 Identity 参数），因此新的会议配置设置将对其所有属性使用默认值。
+    由于前面的命令中未指定必需的 Identity 参数) ，因此新的会议配置设置将对其所有属性使用默认值 (。
 
 </div>
 
@@ -148,7 +150,7 @@ _**上次修改的主题：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[get-csmeetingconfiguration](https://technet.microsoft.com/library/Gg398065(v=OCS.15)) cmdlet 的帮助主题。
+有关详细信息，请参阅 [get-csmeetingconfiguration](https://technet.microsoft.com/library/Gg398065(v=OCS.15)) cmdlet 的帮助主题。
 
 </div>
 

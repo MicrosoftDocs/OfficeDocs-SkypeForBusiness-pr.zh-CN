@@ -12,20 +12,22 @@ ms:contentKeyID: 48183309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b35876d52e43579a147688fa53f83b5b2455369
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 996aec239a2aa94aaa6930fc0ff5edaeca1f102b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215838"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516049"
 ---
+# <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a>Lync Server 2013 中的工作流创建方案概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a>Lync Server 2013 中的工作流创建方案概述
+
 
 </div>
 

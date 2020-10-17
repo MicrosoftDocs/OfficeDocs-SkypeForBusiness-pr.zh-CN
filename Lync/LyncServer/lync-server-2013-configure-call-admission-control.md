@@ -12,20 +12,22 @@ ms:contentKeyID: 48185464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e318ac448aa046f001022d40bc5680fd62d37378
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1edac7fe7b3b56cdaa5324f1c6e976bfb0b746fe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205128"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517659"
 ---
+# <a name="configure-call-admission-control-in-lync-server-2013"></a>在 Lync Server 2013 中配置呼叫允许控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-call-admission-control-in-lync-server-2013"></a>在 Lync Server 2013 中配置呼叫允许控制
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42205128"
 
 _**上次修改的主题：** 2012-09-21_
 
-呼叫允许控制（CAC）是一种解决方案，它确定是否可以基于可用带宽来建立实时会话，以帮助防止拥挤的网络上的用户的音频/视频质量较差。 CAC 仅控制音频和视频的实时流量，不会影响数据流量。 如果默认 WAN 路径不具有所需的带宽，则 CAC 可以通过 Internet 路径路由呼叫。 有关详细信息，请参阅规划文档中的在[Lync Server 2013 中规划呼叫允许控制](lync-server-2013-planning-for-call-admission-control.md)。
+呼叫允许控制 (CAC) 是一种解决方案，它确定是否可以基于可用带宽来建立实时会话，以帮助防止拥挤的网络上用户的音频/视频质量不佳。 CAC 仅控制音频和视频的实时流量，不会影响数据流量。 如果默认 WAN 路径不具有所需的带宽，则 CAC 可以通过 Internet 路径路由呼叫。 有关详细信息，请参阅规划文档中的在 [Lync Server 2013 中规划呼叫允许控制](lync-server-2013-planning-for-call-admission-control.md) 。
 
 本节提供了一组示例过程，这些过程阐释了如何在网络中部署和管理 CAC。
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!IMPORTANT]  
-> 在部署 CAC 之前，必须收集企业网络拓扑所需的所有信息，如以下示例所述：在规划文档中<A href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">收集 Lync Server 2013</A>中的呼叫允许控制的要求。 此外，请确保已安装并激活 CAC 组件，如在部署文档中的在<A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync server 2013 中定义和配置前端池或 Standard Edition server</A>中所述。
+> 在部署 CAC 之前，必须收集企业网络拓扑所需的所有信息，如以下示例所述：在规划文档中 <A href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">收集 Lync Server 2013</A> 中的呼叫允许控制的要求。 此外，请确保已安装并激活 CAC 组件，如在部署文档中的在 <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync server 2013 中定义和配置前端池或 Standard Edition server</A> 中所述。
 
 
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!NOTE]  
-> 本节中的所有 CAC 部署和管理示例都是使用 Lync Server 命令行管理程序来执行的。 或者，也可以使用 Lync Server 控制面板的 "<STRONG>网络配置</STRONG>" 部分管理 CAC。
+> 本节中的所有 CAC 部署和管理示例都是使用 Lync Server 命令行管理程序来执行的。 或者，也可以使用 Lync Server 控制面板的 " <STRONG>网络配置</STRONG> " 部分管理 CAC。
 
 
 

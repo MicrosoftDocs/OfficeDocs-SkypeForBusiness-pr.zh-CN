@@ -12,20 +12,22 @@ ms:contentKeyID: 48183304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f684166c7a33f092ee9d7a00eb9582cb70e2606
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a19766eb4abf5a386155e5494accb1edd17afb14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516879"
 ---
+# <a name="create-or-modify-a-dial-in-conferencing-access-number-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改电话拨入式会议访问号码
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-dial-in-conferencing-access-number-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改电话拨入式会议访问号码
+
 
 </div>
 
@@ -55,15 +57,15 @@ _**上次修改的主题：** 2012-09-17_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“会议”****，然后单击“拨入访问号码”****。
 
-4.  在 "**拨入访问号码**" 页上，执行下列操作之一：
+4.  在 " **拨入访问号码** " 页上，执行下列操作之一：
     
-      - 单击 "**新建**" 打开 "**新建拨入访问号码**"。
+      - 单击 " **新建** " 打开 " **新建拨入访问号码**"。
     
-      - 单击列表中的某个拨入访问号码，再单击 "**编辑**"，然后单击 "**显示详细信息**"。
+      - 单击列表中的某个拨入访问号码，再单击 " **编辑**"，然后单击 " **显示详细信息**"。
         
         <div>
         
@@ -74,7 +76,7 @@ _**上次修改的主题：** 2012-09-17_
         
         </div>
 
-5.  在 "**显示号码**" 中，键入公共交换电话网络（PSTN）电话用户拨打以加入会议的电话号码。
+5.  在 " **显示号码**" 中，键入公开交换电话网络 (PSTN) 电话用户拨打以加入会议的电话号码。
     
     <div>
     
@@ -85,7 +87,7 @@ _**上次修改的主题：** 2012-09-17_
     
     </div>
 
-6.  在 "**显示名称**" 中，键入拨入访问号码的说明。 这是与 Lync 搜索结果中的电话拨入访问号码相关联的名称。
+6.  在 " **显示名称**" 中，键入拨入访问号码的说明。 这是与 Lync 搜索结果中的电话拨入访问号码相关联的名称。
     
     <div>
     
@@ -96,7 +98,7 @@ _**上次修改的主题：** 2012-09-17_
     
     </div>
 
-7.  在 "**线路 uri**" 中，使用电话 URI 格式键入拨入访问号码的 e.164 号码，包括号码前面的 + 符号，不包括空格。 例如电话： + 14255550200。
+7.  在 " **线路 uri**" 中，使用电话 URI 格式键入拨入访问号码的 e.164 号码，包括号码前面的 + 符号，不包括空格。 例如电话： + 14255550200。
     
     <div>
     
@@ -122,18 +124,18 @@ _**上次修改的主题：** 2012-09-17_
     
       - 在下拉列表框中，单击支持此拨入访问号码的会议助理应用程序所在的域。
 
-9.  在 "**池**" 中，单击运行支持此拨入访问号码的会议助理实例的池。
+9.  在 " **池**" 中，单击运行支持此拨入访问号码的会议助理实例的池。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果您在创建访问号码后需要更改池，则必须使用<STRONG>CsApplicationEndpoint</STRONG> cmdlet 或删除并重新创建访问号码。
+    > 如果您在创建访问号码后需要更改池，则必须使用 <STRONG>CsApplicationEndpoint</STRONG> cmdlet 或删除并重新创建访问号码。
 
     
     </div>
 
-10. 在 "**主要语言**" 中，单击针对此拨入访问号码播放提示时使用的语言。
+10. 在 " **主要语言**" 中，单击针对此拨入访问号码播放提示时使用的语言。
     
     <div>
     
@@ -144,7 +146,7 @@ _**上次修改的主题：** 2012-09-17_
     
     </div>
 
-11. Optional在**辅助语言（最多四个）** 中，单击 "**添加**"，选择要为呼叫者支持此拨入访问号码的一种或多种其他语言，然后单击 **"确定"**。
+11.  (**辅助语言中的可选)  (最多四) **中，单击 " **添加**"，选择要为呼叫者支持此拨入访问号码的一种或多种其他语言，然后单击 **"确定"**。
     
     <div>
     
@@ -155,9 +157,9 @@ _**上次修改的主题：** 2012-09-17_
     
     </div>
 
-12. 若要为拨入访问号码添加区域，请在 "**关联区域**" 下，单击 "**添加**"，单击与此拨入访问号码的拨号计划关联的一个或多个区域，然后单击 **"确定"**。
+12. 若要为拨入访问号码添加区域，请在 " **关联区域**" 下，单击 " **添加**"，单击与此拨入访问号码的拨号计划关联的一个或多个区域，然后单击 **"确定"**。
 
-13. 若要从拨入访问号码中删除某个区域，请在 "**关联区域**" 下，单击要删除的区域，然后单击 "**删除**"。
+13. 若要从拨入访问号码中删除某个区域，请在 " **关联区域**" 下，单击要删除的区域，然后单击 " **删除**"。
 
 14. 单击“提交”****。
 

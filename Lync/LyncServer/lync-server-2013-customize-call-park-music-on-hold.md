@@ -12,20 +12,22 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ec182619bca0cf6e52093a28a72f1f8bca077d5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18f7ac9793c8275caa20725d2d303c5fca7f534f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200136"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516709"
 ---
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>在 Lync Server 2013 中自定义呼叫寄存暂停音乐
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>在 Lync Server 2013 中自定义呼叫寄存暂停音乐
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-09-10_
 
 ## <a name="to-customize-the-music-file"></a>自定义音乐文件
 
-1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在 [Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
@@ -65,12 +67,12 @@ _**上次修改的主题：** 2012-09-10_
     
 
     > [!TIP]  
-    > 使用 <STRONG>Get-CsService</STRONG> cmdlet 可标识服务。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">get-csservice</A>。
+    > 使用 <STRONG>Get-CsService</STRONG> cmdlet 可标识服务。 有关详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">get-csservice</A>。
 
     
     </div>
     
-    以下示例说明了如何以字节数组的形式获取文件 soothingmusic.wma 的内容并将其分配给变量。 然后，将音频文件指定为呼叫寄存的保留音乐文件。 有关详细信息，请参阅[CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)。
+    以下示例说明了如何以字节数组的形式获取文件 soothingmusic.wma 的内容并将其分配给变量。 然后，将音频文件指定为呼叫寄存的保留音乐文件。 有关详细信息，请参阅 [CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)。
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
