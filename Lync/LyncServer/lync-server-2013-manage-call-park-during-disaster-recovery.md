@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：在灾难恢复期间管理呼叫寄存
+description: Lync Server 2013：在灾难恢复期间管理呼叫寄存。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a12abceb5972325f0843e8fb8500d7ac2b45c725
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ad7936dd28f749dc792505ec78d54857065957e2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525009"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556768"
 ---
-# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="38f35-102">在 Lync Server 2013 中的灾难恢复期间管理呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="38f35-102">Manage Call Park during disaster recovery in Lync Server 2013</span></span>
+# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="9a1e3-103">在 Lync Server 2013 中的灾难恢复期间管理呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="9a1e3-103">Manage Call Park during disaster recovery in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48525009"
 
 <span> </span>
 
-<span data-ttu-id="38f35-103">_**上次修改的主题：** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="38f35-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="9a1e3-104">_**上次修改的主题：** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="9a1e3-104">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="38f35-104">Lync Server 2013 支持在灾难恢复期间的备份池中的呼叫寄存。</span><span class="sxs-lookup"><span data-stu-id="38f35-104">Lync Server 2013 supports Call Park in the backup pool during disaster recovery.</span></span> <span data-ttu-id="38f35-105">本节介绍当您想要在中断期间支持呼叫寄存以及在中断期间寄存呼叫时所发生的情况时应考虑的事项。</span><span class="sxs-lookup"><span data-stu-id="38f35-105">This section describes things to consider if you want to support Call Park during an outage and what happens to parked calls during the stages of an outage.</span></span>
+<span data-ttu-id="9a1e3-105">Lync Server 2013 支持在灾难恢复期间的备份池中的呼叫寄存。</span><span class="sxs-lookup"><span data-stu-id="9a1e3-105">Lync Server 2013 supports Call Park in the backup pool during disaster recovery.</span></span> <span data-ttu-id="9a1e3-106">本节介绍当您想要在中断期间支持呼叫寄存以及在中断期间寄存呼叫时所发生的情况时应考虑的事项。</span><span class="sxs-lookup"><span data-stu-id="9a1e3-106">This section describes things to consider if you want to support Call Park during an outage and what happens to parked calls during the stages of an outage.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="38f35-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="38f35-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9a1e3-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="9a1e3-107">In This Section</span></span>
 
-  - [<span data-ttu-id="38f35-107">在 Lync Server 2013 中规划呼叫寄存灾难恢复</span><span class="sxs-lookup"><span data-stu-id="38f35-107">Planning for Call Park disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park-disaster-recovery.md)
+  - [<span data-ttu-id="9a1e3-108">在 Lync Server 2013 中规划呼叫寄存灾难恢复</span><span class="sxs-lookup"><span data-stu-id="9a1e3-108">Planning for Call Park disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park-disaster-recovery.md)
 
-  - [<span data-ttu-id="38f35-108">池故障期间 Lync Server 2013 中的呼叫寄存体验</span><span class="sxs-lookup"><span data-stu-id="38f35-108">Call Park experience in Lync Server 2013 during pool failure</span></span>](lync-server-2013-call-park-experience-during-pool-failure.md)
+  - [<span data-ttu-id="9a1e3-109">池故障期间 Lync Server 2013 中的呼叫寄存体验</span><span class="sxs-lookup"><span data-stu-id="9a1e3-109">Call Park experience in Lync Server 2013 during pool failure</span></span>](lync-server-2013-call-park-experience-during-pool-failure.md)
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：设置谁可以在大会堂聊天室中发布邮件
+description: Lync Server 2013：设置谁可以在大会堂聊天室中发布邮件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48705999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcb3cbc7b73d895b6be2d7fe278bd4870af064c0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0fba9e31a0cb5be9de66a9fc7185b5dea6c507cb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509639"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556368"
 ---
-# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a><span data-ttu-id="db0b0-102">在 Lync Server 2013 中设置可以在大会堂聊天室中发布邮件的权限</span><span class="sxs-lookup"><span data-stu-id="db0b0-102">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>
+# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a><span data-ttu-id="7f845-103">在 Lync Server 2013 中设置可以在大会堂聊天室中发布邮件的权限</span><span class="sxs-lookup"><span data-stu-id="7f845-103">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48509639"
 
 <span> </span>
 
-<span data-ttu-id="db0b0-103">_**上次修改的主题：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="db0b0-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="7f845-104">_**上次修改的主题：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="7f845-104">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="db0b0-p101">在大会堂聊天室中，只有被授予了演示者角色的用户可以发布消息。所有其他成员都只能阅读消息。大会堂聊天室的演示者必须是该聊天室的成员。</span><span class="sxs-lookup"><span data-stu-id="db0b0-p101">In an auditorium chat room, only users who have been granted the role of Presenter can post messages. All other members can only read messages. Presenters in an auditorium chat room must be members of the chat room.</span></span>
+<span data-ttu-id="7f845-p101">在大会堂聊天室中，只有被授予了演示者角色的用户可以发布消息。所有其他成员都只能阅读消息。大会堂聊天室的演示者必须是该聊天室的成员。</span><span class="sxs-lookup"><span data-stu-id="7f845-p101">In an auditorium chat room, only users who have been granted the role of Presenter can post messages. All other members can only read messages. Presenters in an auditorium chat room must be members of the chat room.</span></span>
 
-<span data-ttu-id="db0b0-107">有关使用 Windows PowerShell 命令行界面管理大会堂聊天室的详细信息，请参阅部署文档中的 [管理聊天室](manage-rooms.md) 。</span><span class="sxs-lookup"><span data-stu-id="db0b0-107">For details about using the Windows PowerShell command-line interface to manage auditorium chat rooms, see [Manage rooms](manage-rooms.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="7f845-108">有关使用 Windows PowerShell 命令行界面管理大会堂聊天室的详细信息，请参阅部署文档中的 [管理聊天室](manage-rooms.md) 。</span><span class="sxs-lookup"><span data-stu-id="7f845-108">For details about using the Windows PowerShell command-line interface to manage auditorium chat rooms, see [Manage rooms](manage-rooms.md) in the Deployment documentation.</span></span>
 
-<span data-ttu-id="db0b0-108">尽管 Persistent 聊天室管理员和聊天室管理器可以管理聊天室设置，但他们无法在大会堂聊天室中进行发布，除非他们是 **演示者**。</span><span class="sxs-lookup"><span data-stu-id="db0b0-108">Although Persistent Chat room administrators and chat room managers can manage chat room settings, they cannot post in an auditorium chat room unless they are **Presenters**.</span></span>
+<span data-ttu-id="7f845-109">尽管 Persistent 聊天室管理员和聊天室管理器可以管理聊天室设置，但他们无法在大会堂聊天室中进行发布，除非他们是 **演示者**。</span><span class="sxs-lookup"><span data-stu-id="7f845-109">Although Persistent Chat room administrators and chat room managers can manage chat room settings, they cannot post in an auditorium chat room unless they are **Presenters**.</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：在 Lync Server 中管理用户
+description: Lync Server 2013：在 Lync Server 中管理用户。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7991d9cce31c2598e7374e9c80fcaf9dfdf13c41
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c906835f6a0e3af425a827aeac2e67758af44ea9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524819"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556658"
 ---
-# <a name="managing-users-in-lync-server-2013"></a><span data-ttu-id="14256-102">在 Lync Server 2013 中管理用户</span><span class="sxs-lookup"><span data-stu-id="14256-102">Managing users in Lync Server 2013</span></span>
+# <a name="managing-users-in-lync-server-2013"></a><span data-ttu-id="d2892-103">在 Lync Server 2013 中管理用户</span><span class="sxs-lookup"><span data-stu-id="d2892-103">Managing users in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,24 +38,24 @@ ms.locfileid: "48524819"
 
 <span> </span>
 
-<span data-ttu-id="14256-103">_**上次修改的主题：** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="14256-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="d2892-104">_**上次修改的主题：** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="d2892-104">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="14256-104">您可以使用 Lync Server 2013 控制面板和 Lync Server 2013 命令行管理程序在 Lync Server 2013 中管理用户帐户。</span><span class="sxs-lookup"><span data-stu-id="14256-104">You can use the Lync Server 2013 Control Panel and Lync Server 2013 Management Shell to manage user accounts in Lync Server 2013.</span></span> <span data-ttu-id="14256-105">本节中的过程将向您介绍如何查看帐户信息和配置用户帐户的设置。</span><span class="sxs-lookup"><span data-stu-id="14256-105">The procedures in this section guide you through how to view account information and configure setting for user accounts.</span></span>
+<span data-ttu-id="d2892-105">您可以使用 Lync Server 2013 控制面板和 Lync Server 2013 命令行管理程序在 Lync Server 2013 中管理用户帐户。</span><span class="sxs-lookup"><span data-stu-id="d2892-105">You can use the Lync Server 2013 Control Panel and Lync Server 2013 Management Shell to manage user accounts in Lync Server 2013.</span></span> <span data-ttu-id="d2892-106">本节中的过程将向您介绍如何查看帐户信息和配置用户帐户的设置。</span><span class="sxs-lookup"><span data-stu-id="d2892-106">The procedures in this section guide you through how to view account information and configure setting for user accounts.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="14256-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="14256-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d2892-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="d2892-107">In This Section</span></span>
 
-  - [<span data-ttu-id="14256-107">为 Lync Server 2013 启用的用户帐户</span><span class="sxs-lookup"><span data-stu-id="14256-107">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)
+  - [<span data-ttu-id="d2892-108">为 Lync Server 2013 启用的用户帐户</span><span class="sxs-lookup"><span data-stu-id="d2892-108">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="14256-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="14256-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d2892-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d2892-109">See Also</span></span>
 
 
-[<span data-ttu-id="14256-109">Lync Server 2013 中的操作</span><span class="sxs-lookup"><span data-stu-id="14256-109">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
+[<span data-ttu-id="d2892-110">Lync Server 2013 中的操作</span><span class="sxs-lookup"><span data-stu-id="d2892-110">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
   
 
 </div>

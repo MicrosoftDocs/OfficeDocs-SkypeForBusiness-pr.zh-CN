@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：删除网络子网
+description: Lync Server 2013：删除网络子网。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 013de3ae58424473aa42aee767982fd84a9d651e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6635ec99b68c4ceb10d1cda343fef35c951bf152
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504269"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557878"
 ---
-# <a name="deleting-network-subnets-in-lync-server-2013"></a><span data-ttu-id="89ee2-102">在 Lync Server 2013 中删除网络子网</span><span class="sxs-lookup"><span data-stu-id="89ee2-102">Deleting network subnets in Lync Server 2013</span></span>
+# <a name="deleting-network-subnets-in-lync-server-2013"></a><span data-ttu-id="0b22e-103">在 Lync Server 2013 中删除网络子网</span><span class="sxs-lookup"><span data-stu-id="0b22e-103">Deleting network subnets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,45 +38,45 @@ ms.locfileid: "48504269"
 
 <span> </span>
 
-<span data-ttu-id="89ee2-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="89ee2-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="0b22e-104">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="0b22e-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="89ee2-104">您可以使用以下过程删除子网。</span><span class="sxs-lookup"><span data-stu-id="89ee2-104">You can use the following procedure to delete a subnet.</span></span> <span data-ttu-id="89ee2-105">在 Lync Server 控制面板中，您可以创建、修改或删除网络子网。</span><span class="sxs-lookup"><span data-stu-id="89ee2-105">From the Lync Server Control Panel, you can create, modify, or delete a network subnet.</span></span> <span data-ttu-id="89ee2-106">有关创建或修改网络子网的详细信息，请参阅 [在 Lync Server 2013 中创建或修改网络子网](lync-server-2013-create-or-modify-network-subnets.md)。</span><span class="sxs-lookup"><span data-stu-id="89ee2-106">For details on creating or modifying network subnets, see [Create or modify network subnets in Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).</span></span>
+<span data-ttu-id="0b22e-105">您可以使用以下过程删除子网。</span><span class="sxs-lookup"><span data-stu-id="0b22e-105">You can use the following procedure to delete a subnet.</span></span> <span data-ttu-id="0b22e-106">在 Lync Server 控制面板中，您可以创建、修改或删除网络子网。</span><span class="sxs-lookup"><span data-stu-id="0b22e-106">From the Lync Server Control Panel, you can create, modify, or delete a network subnet.</span></span> <span data-ttu-id="0b22e-107">有关创建或修改网络子网的详细信息，请参阅 [在 Lync Server 2013 中创建或修改网络子网](lync-server-2013-create-or-modify-network-subnets.md)。</span><span class="sxs-lookup"><span data-stu-id="0b22e-107">For details on creating or modifying network subnets, see [Create or modify network subnets in Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).</span></span>
 
-<span data-ttu-id="89ee2-107">在 Microsoft Lync Server 2013 的大多数部署中，呼叫允许控制 (CAC) ，通常会有大量子网。</span><span class="sxs-lookup"><span data-stu-id="89ee2-107">In most deployments of Microsoft Lync Server 2013 where call admission control (CAC) is implemented, there will typically be a large number of subnets.</span></span> <span data-ttu-id="89ee2-108">因此，通常最好从 Lync Server 命令行管理程序中配置子网。</span><span class="sxs-lookup"><span data-stu-id="89ee2-108">Because of this, it is often best to configure subnets from the Lync Server Management Shell.</span></span> <span data-ttu-id="89ee2-109">在这里，可以将 **CsNetworkSubnet** 与 Windows PowerShell Cmdlet **导入-CSV**结合在一起调用。</span><span class="sxs-lookup"><span data-stu-id="89ee2-109">From there you can call **New-CsNetworkSubnet** in conjunction with the Windows PowerShell cmdlet **Import-CSV**.</span></span> <span data-ttu-id="89ee2-110">通过将这些 cmdlet 配合使用，可以从逗号分隔值 (.csv) 文件读入子网设置，并且同时创建多个子网。</span><span class="sxs-lookup"><span data-stu-id="89ee2-110">By using these cmdlets together, you can read in subnet settings from a comma-separated values (.csv) file and create multiple subnets at the same time.</span></span> <span data-ttu-id="89ee2-111">有关如何从 .csv 文件创建子网的示例，请参阅 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)。</span><span class="sxs-lookup"><span data-stu-id="89ee2-111">For examples of how to create subnets from a .csv file, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).</span></span>
+<span data-ttu-id="0b22e-108">在 Microsoft Lync Server 2013 的大多数部署中，呼叫允许控制 (CAC) ，通常会有大量子网。</span><span class="sxs-lookup"><span data-stu-id="0b22e-108">In most deployments of Microsoft Lync Server 2013 where call admission control (CAC) is implemented, there will typically be a large number of subnets.</span></span> <span data-ttu-id="0b22e-109">因此，通常最好从 Lync Server 命令行管理程序中配置子网。</span><span class="sxs-lookup"><span data-stu-id="0b22e-109">Because of this, it is often best to configure subnets from the Lync Server Management Shell.</span></span> <span data-ttu-id="0b22e-110">在这里，可以将 **CsNetworkSubnet** 与 Windows PowerShell Cmdlet **导入-CSV**结合在一起调用。</span><span class="sxs-lookup"><span data-stu-id="0b22e-110">From there you can call **New-CsNetworkSubnet** in conjunction with the Windows PowerShell cmdlet **Import-CSV**.</span></span> <span data-ttu-id="0b22e-111">通过将这些 cmdlet 配合使用，可以从逗号分隔值 (.csv) 文件读入子网设置，并且同时创建多个子网。</span><span class="sxs-lookup"><span data-stu-id="0b22e-111">By using these cmdlets together, you can read in subnet settings from a comma-separated values (.csv) file and create multiple subnets at the same time.</span></span> <span data-ttu-id="0b22e-112">有关如何从 .csv 文件创建子网的示例，请参阅 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)。</span><span class="sxs-lookup"><span data-stu-id="0b22e-112">For examples of how to create subnets from a .csv file, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).</span></span>
 
 <div>
 
-## <a name="to-delete-a-network-subnet"></a><span data-ttu-id="89ee2-112">删除网络子网</span><span class="sxs-lookup"><span data-stu-id="89ee2-112">To delete a network subnet</span></span>
+## <a name="to-delete-a-network-subnet"></a><span data-ttu-id="0b22e-113">删除网络子网</span><span class="sxs-lookup"><span data-stu-id="0b22e-113">To delete a network subnet</span></span>
 
-1.  <span data-ttu-id="89ee2-113">从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="89ee2-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="0b22e-114">从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="0b22e-114">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="89ee2-114">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="89ee2-114">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="89ee2-115">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="89ee2-115">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="0b22e-115">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="0b22e-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0b22e-116">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="0b22e-116">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="89ee2-116">在左侧导航栏中，单击“网络配置”\*\*\*\*，然后单击“子网”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="89ee2-116">In the left navigation bar, click **Network Configuration** and then click **Subnet**.</span></span>
+3.  <span data-ttu-id="0b22e-117">在左侧导航栏中，单击“网络配置”\*\*\*\*，然后单击“子网”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0b22e-117">In the left navigation bar, click **Network Configuration** and then click **Subnet**.</span></span>
 
-4.  <span data-ttu-id="89ee2-117">在“子网”\*\*\*\* 页上，单击要删除的子网。</span><span class="sxs-lookup"><span data-stu-id="89ee2-117">On the **Subnet** page, click the subnet that you want to delete.</span></span>
+4.  <span data-ttu-id="0b22e-118">在“子网”\*\*\*\* 页上，单击要删除的子网。</span><span class="sxs-lookup"><span data-stu-id="0b22e-118">On the **Subnet** page, click the subnet that you want to delete.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="89ee2-p104">您可以一次删除多个子网。为执行此操作，请按住 CTRL 键，同时选择多个子网。或者，要选择所有子网，请单击“编辑”<STRONG></STRONG>菜单上的“全选”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="89ee2-p104">You can delete more than one subnet at a time. To do this, press CTRL and select multiple subnets while holding down the CTRL key. Or, to select all subnets, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
+    > <span data-ttu-id="0b22e-p104">您可以一次删除多个子网。为执行此操作，请按住 CTRL 键，同时选择多个子网。或者，要选择所有子网，请单击“编辑”<STRONG></STRONG>菜单上的“全选”<STRONG></STRONG>。</span><span class="sxs-lookup"><span data-stu-id="0b22e-p104">You can delete more than one subnet at a time. To do this, press CTRL and select multiple subnets while holding down the CTRL key. Or, to select all subnets, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="89ee2-121">在“编辑”\*\*\*\* 菜单中，单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="89ee2-121">On the **Edit** menu, click **Delete**.</span></span>
+5.  <span data-ttu-id="0b22e-122">在“编辑”\*\*\*\* 菜单中，单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0b22e-122">On the **Edit** menu, click **Delete**.</span></span>
 
-6.  <span data-ttu-id="89ee2-122">单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="89ee2-122">Click **OK**.</span></span>
+6.  <span data-ttu-id="0b22e-123">单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0b22e-123">Click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="89ee2-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="89ee2-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0b22e-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0b22e-124">See Also</span></span>
 
 
-[<span data-ttu-id="89ee2-124">在 Lync Server 2013 中创建或修改网络子网</span><span class="sxs-lookup"><span data-stu-id="89ee2-124">Create or modify network subnets in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-network-subnets.md)  
+[<span data-ttu-id="0b22e-125">在 Lync Server 2013 中创建或修改网络子网</span><span class="sxs-lookup"><span data-stu-id="0b22e-125">Create or modify network subnets in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-network-subnets.md)  
   
 
 </div>
