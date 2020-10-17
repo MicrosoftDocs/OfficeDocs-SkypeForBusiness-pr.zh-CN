@@ -12,20 +12,22 @@ ms:contentKeyID: 48183974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4175d92e8d94313cfe03fd7e87b511573e4e313c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54f24b79c9b06beaae2c0964b662e62f330a5061
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217898"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507219"
 ---
+# <a name="managing-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="4ae07-102">在 Lync Server 2013 中管理响应组工作流</span><span class="sxs-lookup"><span data-stu-id="4ae07-102">Managing Response Group workflows in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="d81b6-102">在 Lync Server 2013 中管理响应组工作流</span><span class="sxs-lookup"><span data-stu-id="d81b6-102">Managing Response Group workflows in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42217898"
 
 <span> </span>
 
-<span data-ttu-id="d81b6-103">_**上次修改的主题：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="d81b6-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="4ae07-103">_**上次修改的主题：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="4ae07-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="d81b6-104">响应组工作流定义从电话响铃到代理应答呼叫的时间的呼叫行为。</span><span class="sxs-lookup"><span data-stu-id="d81b6-104">A Response Group workflow defines the behavior of a call from the time that the phone rings to the time that an agent answers the call.</span></span> <span data-ttu-id="d81b6-105">工作流包括队列和路由信息，还包括智能寻线或互动语音响应 (IVR) 信息。</span><span class="sxs-lookup"><span data-stu-id="d81b6-105">The workflow includes queue and routing information, and includes either hunt group or interactive voice response (IVR) information.</span></span>
+<span data-ttu-id="4ae07-104">响应组工作流定义从电话响铃到代理应答呼叫的时间的呼叫行为。</span><span class="sxs-lookup"><span data-stu-id="4ae07-104">A Response Group workflow defines the behavior of a call from the time that the phone rings to the time that an agent answers the call.</span></span> <span data-ttu-id="4ae07-105">工作流包括队列和路由信息，还包括智能寻线或互动语音响应 (IVR) 信息。</span><span class="sxs-lookup"><span data-stu-id="4ae07-105">The workflow includes queue and routing information, and includes either hunt group or interactive voice response (IVR) information.</span></span>
 
-<span data-ttu-id="d81b6-106">本节中的主题确定了用于设计 IVR 工作流的最佳实践，并说明了如何创建自定义的工作时间和假日集、如何创建或修改工作流以及如何删除工作组。</span><span class="sxs-lookup"><span data-stu-id="d81b6-106">Topics in this section identify best practices for designing IVR workflows, and explain how to create customized business hours and holiday sets, how to create or modify workflows, and how to delete workgroups.</span></span>
+<span data-ttu-id="4ae07-106">本节中的主题确定了用于设计 IVR 工作流的最佳实践，并说明了如何创建自定义的工作时间和假日集、如何创建或修改工作流以及如何删除工作组。</span><span class="sxs-lookup"><span data-stu-id="4ae07-106">Topics in this section identify best practices for designing IVR workflows, and explain how to create customized business hours and holiday sets, how to create or modify workflows, and how to delete workgroups.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d81b6-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="d81b6-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4ae07-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="4ae07-107">In This Section</span></span>
 
-  - [<span data-ttu-id="d81b6-108">在 Lync Server 2013 中设计交互式语音响应呼叫流</span><span class="sxs-lookup"><span data-stu-id="d81b6-108">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [<span data-ttu-id="4ae07-108">在 Lync Server 2013 中设计交互式语音响应呼叫流</span><span class="sxs-lookup"><span data-stu-id="4ae07-108">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [<span data-ttu-id="d81b6-109">Optional在 Lync Server 2013 中定义响应组工作时间</span><span class="sxs-lookup"><span data-stu-id="d81b6-109">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [<span data-ttu-id="4ae07-109"> (可选) 在 Lync Server 2013 中定义响应组工作时间</span><span class="sxs-lookup"><span data-stu-id="4ae07-109">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [<span data-ttu-id="d81b6-110">Optional在 Lync Server 2013 中定义响应组假日集</span><span class="sxs-lookup"><span data-stu-id="d81b6-110">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [<span data-ttu-id="4ae07-110"> (可选) 在 Lync Server 2013 中定义响应组假日集</span><span class="sxs-lookup"><span data-stu-id="4ae07-110">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
-  - [<span data-ttu-id="d81b6-111">在 Lync Server 2013 中创建或修改工作流</span><span class="sxs-lookup"><span data-stu-id="d81b6-111">Create or modify a workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-workflow.md)
+  - [<span data-ttu-id="4ae07-111">在 Lync Server 2013 中创建或修改工作流</span><span class="sxs-lookup"><span data-stu-id="4ae07-111">Create or modify a workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-workflow.md)
 
-  - [<span data-ttu-id="d81b6-112">在 Lync Server 2013 中删除工作流</span><span class="sxs-lookup"><span data-stu-id="d81b6-112">Delete a workflow in Lync Server 2013</span></span>](lync-server-2013-delete-a-workflow.md)
+  - [<span data-ttu-id="4ae07-112">在 Lync Server 2013 中删除工作流</span><span class="sxs-lookup"><span data-stu-id="4ae07-112">Delete a workflow in Lync Server 2013</span></span>](lync-server-2013-delete-a-workflow.md)
 
 </div>
 
