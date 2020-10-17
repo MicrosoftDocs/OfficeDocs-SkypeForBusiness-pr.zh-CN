@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：删除聊天室或类别
+description: Lync Server 2013：删除聊天室或类别。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48706009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e395507984b0f9e6987212e1352e3232ea4394e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3ef89802171a1eeca7de18ff0a4eb8eb3895f1b9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525519"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555368"
 ---
 # <a name="deleting-a-chat-room-or-category-in-lync-server-2013"></a>在 Lync Server 2013 中删除聊天室或类别
 

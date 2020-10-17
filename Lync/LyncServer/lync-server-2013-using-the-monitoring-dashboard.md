@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：使用监控仪表板
+description: Lync Server 2013：使用监控仪表板。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91efa1e0431c86fa1918473d01021f68e4dc16b1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e8a68fa1e55b7d0b8305c53802ddabaa904fa214
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503739"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556038"
 ---
 # <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a>在 Lync Server 2013 中使用监控仪表板
 

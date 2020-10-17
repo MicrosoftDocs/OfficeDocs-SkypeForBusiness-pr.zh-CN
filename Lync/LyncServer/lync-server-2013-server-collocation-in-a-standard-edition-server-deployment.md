@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 server 并置 in Standard Edition Server 部署
+description: Lync Server 2013 server 并置 in Standard Edition server deployment。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183314
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e50aa9339d992e73cf4e5b32b1e49fc2a144e67
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: af44761d36c472de1a3da5cd3b3938dc1a130836
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510309"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555108"
 ---
 # <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>适用于 Lync Server 2013 的 Standard Edition server 部署中的服务器并置
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：在托管 Exchange UM 上提供 Lync Server 用户语音邮件
+description: Lync Server 2013：在托管 Exchange UM 上提供 Lync Server 用户语音邮件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0905fad737fe7da1cbc8ac36334700eb91409df7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: be4048e7fc2bd30a4ab670259a1871bd1b59483a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513179"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555858"
 ---
 # <a name="providing-lync-server-2013-users-voice-mail-on-hosted-exchange-um"></a>在托管 Exchange UM 上提供 Lync Server 2013 用户语音邮件
 

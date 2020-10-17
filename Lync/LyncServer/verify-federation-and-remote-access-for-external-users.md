@@ -1,5 +1,6 @@
 ---
 title: 验证联盟和外部用户的远程访问
+description: 验证外部用户的联盟和远程访问。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5821cd8710b8493a29684d1b7ee695f5bf5c747
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1ac36f2e1b6c5ddfd889810ba2a3ab4d82b7ae33
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508379"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555068"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>验证联盟和外部用户的远程访问
 

@@ -1,5 +1,6 @@
 ---
 title: 验证 Lync Server 2010 环境
+description: 验证 Lync Server 2010 环境。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a98bdaa5b97193ad20a78939560190a413a87161
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 570fd2a9efdc90899ff4f91146b7aeb1991f6764
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515969"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555578"
 ---
 # <a name="verify-lync-server-2010-environment"></a>验证 Lync Server 2010 环境
 

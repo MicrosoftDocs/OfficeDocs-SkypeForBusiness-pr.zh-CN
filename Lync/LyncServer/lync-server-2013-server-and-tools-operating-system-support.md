@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：服务器和工具操作系统支持
+description: Lync Server 2013：服务器和工具操作系统支持。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185214
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 495ac4ba1b09b6a58a146882d54e17a8f3dd70bb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 67cf2e39e0c8f9e66f755b16be03af37dd9a946e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510369"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555148"
 ---
 # <a name="server-and-tools-operating-system-support-in-lync-server-2013"></a>Lync Server 2013 中的服务器和工具操作系统支持
 

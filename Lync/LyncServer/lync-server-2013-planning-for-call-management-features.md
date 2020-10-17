@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：规划呼叫管理功能
+description: Lync Server 2013：规划呼叫管理功能。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7ddf45fbeda6aa16c30ee1ff79536658c8d598f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1ec990aad40baf33365e92e78ee8071216a2add1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497769"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554298"
 ---
 # <a name="planning-for-call-management-features-in-lync-server-2013"></a>在 Lync Server 2013 中规划呼叫管理功能
 

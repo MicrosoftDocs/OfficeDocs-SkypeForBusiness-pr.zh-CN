@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：删除设备更新规则
+description: Lync Server 2013：删除设备更新规则。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803977
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f89e932dbbbde0adbd972eb3bfd5c79e9026be0c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0f0ed7436331377200a5b8719cf32a8195179402
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536539"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555778"
 ---
 # <a name="remove-a-device-update-rule-in-lync-server-2013"></a>在 Lync Server 2013 中删除设备更新规则
 

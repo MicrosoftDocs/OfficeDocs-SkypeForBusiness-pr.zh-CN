@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为边缘支持配置 DNS
+description: Lync Server 2013：为边缘支持配置 DNS。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9ccf25c2bbaf6c77c72d35f1fa5ac82fd67d011
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 706f4915adda58dbb72b8dd8921e0cc612833718
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537149"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555888"
 ---
 # <a name="configure-dns-for-edge-support-in-lync-server-2013"></a>在 Lync Server 2013 中为边缘支持配置 DNS
 

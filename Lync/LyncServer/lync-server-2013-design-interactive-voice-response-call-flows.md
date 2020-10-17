@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：设计交互式语音响应呼叫流
+description: Lync Server 2013：设计交互式语音响应呼叫流。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 649d085253610002e7623872012a400ac0a1f079
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ccf80c1e3226052d952697a4d9fb967f3b681c95
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498939"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555308"
 ---
 # <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>在 Lync Server 2013 中设计交互式语音响应呼叫流
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：建立备份和还原计划
+description: Lync Server 2013：建立备份和还原计划。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541499
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64d9842ccb9d83fb7ce81c326008e36722e45764
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 06d93c713364bf6b5f230b255b68a2c1dfe1d04a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514219"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555048"
 ---
 # <a name="establishing-a-backup-and-restoration-plan-for-lync-server-2013"></a>为 Lync Server 2013 建立备份和还原计划
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：使用公用 IP 地址的单一合并边缘
+description: Lync Server 2013：使用公用 IP 地址的单一合并边缘。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb5d8af424aa334c19847c993ef338d4ba81d5b6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ac829cd15a592a86d2ba5fdfe174703d0c933037
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519759"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555638"
 ---
 # <a name="single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013 中具有公用 IP 地址的单一合并边缘
 

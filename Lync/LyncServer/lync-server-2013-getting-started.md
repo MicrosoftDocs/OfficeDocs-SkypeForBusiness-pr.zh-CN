@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：入门
+description: Lync Server 2013：入门。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184710
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 260bb7a241ee746e3a1374d6fc3e661edefccc68
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1208393fd24992c133445fdb7f3b39527611f88f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515359"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554578"
 ---
 # <a name="getting-started-with-lync-server-2013"></a>Lync Server 2013 入门
 

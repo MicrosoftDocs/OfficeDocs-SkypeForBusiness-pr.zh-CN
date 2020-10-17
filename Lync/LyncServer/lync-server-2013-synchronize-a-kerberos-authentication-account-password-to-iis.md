@@ -1,5 +1,6 @@
 ---
 title: 将 Kerberos 身份验证帐户密码同步到 IIS
+description: 将 Kerberos 身份验证帐户密码同步到 IIS。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ac886bf4eba4261a733241aa8d1d5396c4acc86
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 59555fc25088d0d932105f77051f959b4bcebb46
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523849"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556348"
 ---
 # <a name="synchronize-a-kerberos-authentication-account-password-to-iis-in-lync-server-2013"></a>在 Lync Server 2013 中将 Kerberos 身份验证帐户密码同步到 IIS
 

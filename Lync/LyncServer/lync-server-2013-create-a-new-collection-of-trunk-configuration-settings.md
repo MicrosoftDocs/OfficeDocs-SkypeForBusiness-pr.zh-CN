@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：创建新的中继配置设置集合
+description: Lync Server 2013：创建新的中继配置设置集合。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7d019bfe7bb1dbb1322281a50f393decc8e5cc3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 16ef4bb6393ec2385eaf7c642734bbc803d4dff6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507459"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554708"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建一个新的中继配置设置集合
 
