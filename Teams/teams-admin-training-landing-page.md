@@ -5,7 +5,6 @@ description: 获取管理组织中的 Microsoft 团队所需的管理员培训�
 author: lanachin
 manager: serdars
 audience: admin
-ms.custom: seo-marvel-mar2020
 ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: ''
@@ -14,17 +13,19 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection:
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: d6d6588e07d9ccf0a9e649a9086f3100a0af6115
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 8fac3f019a4fb5379e11c6afd09c51363f598ad7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534062"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535169"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
