@@ -12,20 +12,22 @@ ms:contentKeyID: 49733689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e01f5b0fb07477437de9af2acd7ad58e946e6c32
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 966182705fd3f18bfa10d1d6042e1c3c94204e9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189785"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500209"
 ---
+# <a name="move-remaining-users-to-lync-server-2013"></a>将其余用户移动到 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-remaining-users-to-lync-server-2013"></a>将其余用户移动到 Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42189785"
 
 _**上次修改的主题：** 2012-09-29_
 
-您可以使用 Lync Server 控制面板或 Lync Server 命令行管理程序将用户移动到新的 Lync Server 2013 部署。 您必须满足某些要求才能确保顺利过渡到 Lync Server 2013。 有关完成本主题中的过程的先决条件的详细信息，请参阅[Configure clients for 迁移](configure-clients-for-migration.md)。 有关移动用户的详细步骤，请参阅[第4阶段：将测试用户移动到试点池](phase-4-move-test-users-to-the-pilot-pool.md)。
+您可以使用 Lync Server 控制面板或 Lync Server 命令行管理程序将用户移动到新的 Lync Server 2013 部署。 您必须满足某些要求才能确保顺利过渡到 Lync Server 2013。 有关完成本主题中的过程的先决条件的详细信息，请参阅 [Configure clients for 迁移](configure-clients-for-migration.md)。 有关移动用户的详细步骤，请参阅 [第4阶段：将测试用户移动到试点池](phase-4-move-test-users-to-the-pilot-pool.md)。
 
 <div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-09-29_
 
 
 > [!IMPORTANT]  
-> 这包括由旧用户创建的活动会议。 例如，如果旧版用户配置了<STRONG>我的会议</STRONG>会议，则在用户移动后，新的 Lync Server 2013 池中仍将提供该会议。 访问该会议时仍要使用相同的<STRONG>会议 URL 和会议 ID</STRONG>。 唯一的区别是会议现在托管在 Lync Server 2013 池中，而不是在 Lync Server 2010 池中。
+> 这包括由旧用户创建的活动会议。 例如，如果旧版用户配置了 <STRONG>我的会议</STRONG> 会议，则在用户移动后，新的 Lync Server 2013 池中仍将提供该会议。 访问该会议时仍要使用相同的<STRONG>会议 URL 和会议 ID</STRONG>。 唯一的区别是会议现在托管在 Lync Server 2013 池中，而不是在 Lync Server 2010 池中。
 
 
 
@@ -81,7 +83,7 @@ _**上次修改的主题：** 2012-09-29_
 
 3.  允许匿名参与者的会议策略**允许参与者邀请**在 lync Server 2013 控制面板中选择的匿名用户，并在 Lync Server 命令行管理程序中的**set-csconferencingpolicy** cmdlet 的输出中将**AllowAnonymousParticipantsInMeetings**设置为**True** 。
 
-4.  有关使用 Lync Server 命令行管理程序配置会议策略的详细信息，请参阅 Lync Server 命令行管理程序文档中的[set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) 。
+4.  有关使用 Lync Server 命令行管理程序配置会议策略的详细信息，请参阅 Lync Server 命令行管理程序文档中的 [set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) 。
 
 </div>
 

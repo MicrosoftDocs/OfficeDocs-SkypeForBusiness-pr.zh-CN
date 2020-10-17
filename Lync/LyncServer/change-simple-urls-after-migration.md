@@ -13,20 +13,22 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c9f46944e80c5eb7a2d81de6f164d19aab64d29
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 029fe44d33d41b410d23068551203b1532893354
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755322"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499689"
 ---
+# <a name="change-simple-urls-after-migration"></a>迁移后更改简单 URL
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-simple-urls-after-migration"></a>迁移后更改简单 URL
+
 
 </div>
 
@@ -44,7 +46,7 @@ Lync Server 支持三个简单的 Url：
 
   - ****“拨入”允许访问“电话拨入式会议设置”网页。 拨入简单 URL 包含在所有会议邀请中，因此要拨号加入会议的用户可以访问所需的电话号码和 PIN 信息。
 
-  - **管理员**可以快速访问 Lync Server 控制面板。 管理简单 URL 是组织内部的。
+  - **管理员** 可以快速访问 Lync Server 控制面板。 管理简单 URL 是组织内部的。
 
 在迁移到 Lync Server 2013 之后，您必须了解更改如何影响简单 Url 的 DNS 记录和证书。 如果旧版 Lync Server 2010 控制器在拓扑中仍处于使用中，则不需要对简单 Url 进行任何更改。 如果在迁移后从拓扑中删除了 Lync Server 2010 控制器，则必须将简单 URL DNS 记录更新为指向某个 Lync Server 2013 池。 但是，每次更改简单 URL 名称时，都必须在每台控制器和前端服务器上运行 Enable-CsComputer，以注册该更改。
 
@@ -54,17 +56,17 @@ Lync Server 支持三个简单的 Url：
 
 **更新 "符合简单 URL"**
 
-1.  在拓扑生成器中，右键单击顶部节点**Lync Server**，然后单击 "**编辑属性**"。
+1.  在拓扑生成器中，右键单击顶部节点 **Lync Server**，然后单击 " **编辑属性**"。
 
-2.  在左窗格中选择 "**简单 url** "，然后单击 "**会议 url"：** 选择 "满足 url"，然后单击 "**编辑 URL**"。
+2.  在左窗格中选择 " **简单 url** "，然后单击 " **会议 url"：** 选择 "满足 url"，然后单击 " **编辑 URL**"。
 
 3.  将 URL 更新为所需的值，然后单击“确定”**** 保存已编辑的 URL。
 
 **更新管理员简单 URL**
 
-1.  在拓扑生成器中，右键单击顶部节点**Lync Server**，然后单击 "**编辑属性**"。
+1.  在拓扑生成器中，右键单击顶部节点 **Lync Server**，然后单击 " **编辑属性**"。
 
-2.  在左窗格中选择 "**简单 url** "，然后在 "**管理访问 URL** " 框下，输入要用于对 Lync Server 2013 控制面板的管理访问权限的简单 URL，然后单击 **"确定"**。
+2.  在左窗格中选择 " **简单 url** "，然后在 " **管理访问 URL** " 框下，输入要用于对 Lync Server 2013 控制面板的管理访问权限的简单 URL，然后单击 **"确定"**。
     
     <div>
     

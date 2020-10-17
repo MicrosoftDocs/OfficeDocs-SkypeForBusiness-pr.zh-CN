@@ -12,20 +12,22 @@ ms:contentKeyID: 49733694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ef9df56c094bb5d7a3972a7c062905cbc4a844a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0cfcd96d0663ca977c83cc90b56bcafd9359a038
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757153"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500159"
 ---
+# <a name="remove-a-front-end-server-from-a-pool"></a>从池中删除前端服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-front-end-server-from-a-pool"></a>从池中删除前端服务器
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-04_
 
 Microsoft Lync Server 2010 Enterprise Edition 前端服务器不能作为独立计算机存在。 必须将其定义为前端池，即使池中只有一台计算机也是如此。
 
-本主题将指导您完成从现有前端池删除单个前端服务器的过程。 如果前端服务器是池中的最后一台服务器，或者如果要完全删除池，请参阅[删除前端池或 Standard Edition Server](remove-front-end-pool-or-standard-edition-server.md)。 在删除前端池之前，无需删除单个前端服务器。 删除池时，会删除每个前端服务器。
+本主题将指导您完成从现有前端池删除单个前端服务器的过程。 如果前端服务器是池中的最后一台服务器，或者如果要完全删除池，请参阅 [删除前端池或 Standard Edition Server](remove-front-end-pool-or-standard-edition-server.md)。 在删除前端池之前，无需删除单个前端服务器。 删除池时，会删除每个前端服务器。
 
 <div>
 
@@ -49,7 +51,7 @@ Microsoft Lync Server 2010 Enterprise Edition 前端服务器不能作为独立�
 
 2.  导航到 "Lync Server 2010" 节点。
 
-3.  展开 " **Enterprise Edition 前端池**"，再展开要删除的前端服务器的前端池，右键单击要删除的前端服务器，然后单击 "**删除**"。
+3.  展开 " **Enterprise Edition 前端池**"，再展开要删除的前端服务器的前端池，右键单击要删除的前端服务器，然后单击 " **删除**"。
 
 </div>
 

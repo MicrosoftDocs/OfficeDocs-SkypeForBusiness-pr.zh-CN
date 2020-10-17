@@ -13,20 +13,22 @@ ms:contentKeyID: 49733666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3388fb148b4d4f4825432e6168b657405e337c35
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 63348a4e092953beede96a10d109ee5ba23daba4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754978"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499529"
 ---
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a>为试点池部署配置 DNS 记录
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-for-pilot-pool-deployment"></a>为试点池部署配置 DNS 记录
+
 
 </div>
 
@@ -44,7 +46,7 @@ _**上次修改的主题：** 2012-09-24_
 
 1.  在域名系统 (DNS) 服务器上，单击“开始”****，再单击“管理工具”****，然后单击“DNS”****。
 
-2.  在您的域的控制台树中，展开 "**正向查找区域**"，然后右键单击将在其中安装 Lync Server 2013 的域。
+2.  在您的域的控制台树中，展开 " **正向查找区域**"，然后右键单击将在其中安装 Lync Server 2013 的域。
 
 3.  单击“新建主机(A 或 AAAA)”****。
 

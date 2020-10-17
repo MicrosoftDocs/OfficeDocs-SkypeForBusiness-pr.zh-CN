@@ -12,20 +12,22 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 403a32798f84d2be6d045564e3a3e3803240f4a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e871b0bcd29d3a29a2a3a038529a530bc75e2a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205858"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499379"
 ---
+# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>在 Lync Server 2013 中备份核心数据和设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>在 Lync Server 2013 中备份核心数据和设置
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42205858"
 
 _**上次修改的主题：** 2014-04-23_
 
-以下过程使用 Lync Server 命令行管理程序 cmdlet 为核心服务的设置和数据创建备份文件。 有关此部分中使用的工具（包括它们位于何处）的详细信息，请参阅[Lync Server 2013 中的备份和还原要求：工具和权限](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)。 有关备份存档和监视数据的详细信息，请参阅[在 Lync Server 2013 中备份存档和监控数据库](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)。
+以下过程使用 Lync Server 命令行管理程序 cmdlet 为核心服务的设置和数据创建备份文件。 有关此部分中使用的工具（包括它们位于何处）的详细信息，请参阅 [Lync Server 2013 中的备份和还原要求：工具和权限](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)。 有关备份存档和监视数据的详细信息，请参阅 [在 Lync Server 2013 中备份存档和监控数据库](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)。
 
 <div>
 
@@ -78,7 +80,7 @@ _**上次修改的主题：** 2014-04-23_
     
     </div>
 
-5.  将备份的中央管理存储配置文件复制到 $Backup\\。
+5.  将备份的中央管理存储配置文件复制到 $Backup \\ 。
 
 6.  备份位置信息服务数据。在命令行中键入：
     
@@ -88,7 +90,7 @@ _**上次修改的主题：** 2014-04-23_
     
         Export-CsLisConfiguration -FileName "C:\E911Config.zip"
 
-7.  将备份的位置信息服务配置文件复制到 $Backup\\。
+7.  将备份的位置信息服务配置文件复制到 $Backup \\ 。
 
 8.  备份前端池和每个 Standard Edition 服务器的每个后端数据库上的用户数据。 在命令行中键入：
     
@@ -98,7 +100,7 @@ _**上次修改的主题：** 2014-04-23_
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
-9.  将已备份的用户文件复制到\\$Backup。
+9.  将已备份的用户文件复制到 $Backup \\ 。
 
 10. 在运行响应组应用程序的每个池中，备份响应组配置。 请执行以下操作：
     
@@ -110,7 +112,7 @@ _**上次修改的主题：** 2014-04-23_
         
             Export-CsRgsConfiguration -Source ApplicationServer:pool01.contoso.com -FileName C:\RgsConfiguration.zip
 
-11. 将已备份的响应组配置文件复制到\\$Backup。
+11. 将已备份的响应组配置文件复制到 $Backup \\ 。
 
 </div>
 

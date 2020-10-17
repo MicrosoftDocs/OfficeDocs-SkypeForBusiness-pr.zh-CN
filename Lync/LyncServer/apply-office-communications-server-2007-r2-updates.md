@@ -13,20 +13,22 @@ ms:contentKeyID: 48185546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14b792188537098bc46ce3e37871f554ca37a97c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ed7ec3bc2f73419b9ebb5fbd36f17769d847a67b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755144"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499769"
 ---
+# <a name="apply-office-communications-server-2007-r2-updates"></a>应用 Office 通信服务器 2007 R2 更新
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="apply-office-communications-server-2007-r2-updates"></a>应用 Office 通信服务器 2007 R2 更新
+
 
 </div>
 
@@ -40,7 +42,7 @@ _**上次修改的主题：** 2012-10-19_
 
 在迁移到 Lync Server 2013 之前，必须将更新应用到您的 Office 通信服务器 2007 R2 环境。 有关 Office 通信服务器 2007 R2 的最新信息，请参阅上的**通信服务器 2007 R2** **更新** [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) 。
 
-若要安装 Office 通信服务器 2007 R2 更新，我们建议您遵循 Microsoft 知识库文章968802中的**方法1累积服务器更新安装程序**过程中所述的 "通信服务器 2007 R2 的更新" [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) 。
+若要安装 Office 通信服务器 2007 R2 更新，我们建议您遵循 Microsoft 知识库文章968802中的 **方法1累积服务器更新安装程序** 过程中所述的 "通信服务器 2007 R2 的更新" [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) 。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aceb109d0f25ab65424046955ae3dfbb3ff75326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fa87030a7ace7c1f47762bd0217c4a27317ef7df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184615"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500529"
 ---
+# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a>在 Lync Server 2013 中监视、启动和停止持久聊天服务
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a>在 Lync Server 2013 中监视、启动和停止持久聊天服务
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42184615"
 
 _**上次修改的主题：** 2012-10-06_
 
-持久聊天服务和持久聊天合规性服务是 Lync Server 2013 拓扑的一部分，因此可以分别使用 Windows PowerShell cmdlet、 **start-cswindowsservice**、 **start-cswindowsservice**和**start-cswindowsservice**进行监视、停止和启动。
+持久聊天服务和持久聊天合规性服务是 Lync Server 2013 拓扑的一部分，因此可以分别使用 Windows PowerShell cmdlet、 **start-cswindowsservice**、 **start-cswindowsservice**和 **start-cswindowsservice**进行监视、停止和启动。
 
 </div>
 

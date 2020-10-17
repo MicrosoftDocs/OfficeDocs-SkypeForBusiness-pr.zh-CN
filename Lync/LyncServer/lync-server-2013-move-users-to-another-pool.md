@@ -12,20 +12,22 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b103e2911812932026799bda154190aa6f46fc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4ecadb2a487dc17f18e1956b6ac075e25b0b035
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192635"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500549"
 ---
+# <a name="move-users-to-another-pool-in-lync-server-2013"></a>在 Lync Server 2013 中将用户移动到另一个池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-another-pool-in-lync-server-2013"></a>在 Lync Server 2013 中将用户移动到另一个池
+
 
 </div>
 
@@ -55,9 +57,9 @@ _**上次修改的主题：** 2018-02-09_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击 **“用户”**。
+3.  在左侧导航栏中，单击“用户”****。
 
 4.  在“搜索用户”**** 框中，键入所需用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”****。
 
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2018-02-09_
     
 
     > [!Caution]  
-    > 如果选择 "<STRONG>强制</STRONG>"，则将移动用户帐户，但不会移动相关用户数据（例如，计划会议和联系人）。
+    > 如果选择 " <STRONG>强制</STRONG>"，则将移动用户帐户，但不会移动相关用户数据（例如，计划会议和联系人）。
 
     
     </div>
@@ -86,11 +88,11 @@ _**上次修改的主题：** 2018-02-09_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“用户”****。
 
-4.  在“操作”**** 菜单中，单击“将所有用户移动到池”****。
+4.  在“操作”**** 菜单上，单击“将所有用户移动到池”****。
 
 5.  在“移动用户”**** 的“源注册器池”**** 中，选择包含要移动的用户帐户的池。
 
@@ -102,7 +104,7 @@ _**上次修改的主题：** 2018-02-09_
     
 
     > [!Caution]  
-    > 如果选择 "<STRONG>强制</STRONG>"，则将移动用户帐户，但不会移动相关用户数据（例如，计划会议和联系人）。
+    > 如果选择 " <STRONG>强制</STRONG>"，则将移动用户帐户，但不会移动相关用户数据（例如，计划会议和联系人）。
 
     
     </div>
@@ -115,11 +117,11 @@ _**上次修改的主题：** 2018-02-09_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“用户”****。
 
-4.  在 "**用户搜索**" 中，单击 "**搜索**"，然后单击 "**添加筛选器**"。
+4.  在 " **用户搜索**" 中，单击 " **搜索**"，然后单击 " **添加筛选器**"。
 
 5.  在搜索条件中，依次选择“注册器池”****、“等于”**** 和“当前池 FQDN”****，然后单击“查找”****。
 
@@ -129,7 +131,7 @@ _**上次修改的主题：** 2018-02-09_
     
 
     > [!NOTE]  
-    > 将筛选器应用于现有用户集时，选项 "<STRONG>将所有用户移动到池</STRONG>" 位于已筛选的用户子集的上下文中，而不是<STRONG><EM>所有</EM></STRONG>可能的用户。
+    > 将筛选器应用于现有用户集时，选项 " <STRONG>将所有用户移动到池</STRONG> " 位于已筛选的用户子集的上下文中，而不是 <STRONG><EM>所有</EM></STRONG> 可能的用户。
 
     
     </div>
@@ -144,7 +146,7 @@ _**上次修改的主题：** 2018-02-09_
     
 
     > [!Caution]  
-    > 如果选择 "<STRONG>强制</STRONG>"，则将移动用户帐户，但不会移动相关用户数据（例如，计划会议和联系人）。
+    > 如果选择 " <STRONG>强制</STRONG>"，则将移动用户帐户，但不会移动相关用户数据（例如，计划会议和联系人）。
 
     
     </div>
@@ -155,11 +157,11 @@ _**上次修改的主题：** 2018-02-09_
 
 ## <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 将用户从一个池移动到另一个池
 
-1.  根据您运行 Windows PowerShell 命令（即本地或远程）的方式，您需要以正确的 Lync Server 2013 管理角色的成员身份登录，如下所示：
+1.  根据您在本地或远程) 运行 Windows PowerShell 命令的方式 (，您需要以正确的 Lync Server 2013 管理角色的成员身份登录，如下所示：
     
-    1.  如果要在本地计算机上运行命令（例如，直接登录到前端服务器），请登录到安装了 Lync Server 命令行管理程序的计算机上，以 RTCUniversalServerAdmins 组的成员身份或使用[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述的必要用户权限进行操作。
+    1.  如果您运行的是本地计算机上的命令 (例如，直接登录到前端服务器) ：登录到安装了 Lync Server 命令行管理程序的计算机，或使用 [Lync server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述的必要用户权限。
     
-    2.  如果您在另一台计算机上远程运行命令（例如，登录到您的计算机并在 Standard Edition 前端服务器上远程运行命令）：从分配给 CsUserAdministrator 角色或 CsAdministrator 的用户帐户。角色，请登录到内部部署中的任何计算机。
+    2.  如果您在另一台计算机上远程运行命令 (例如，您登录到计算机并在 Standard Edition 前端服务器上远程运行命令) ：从分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3be8be9c600fced3087f20fe70d137d759fb9d29
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05b157be6cc94f0b01dbefadfd89041118b944e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217668"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500659"
 ---
+# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量比较报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量比较报告
+
 
 </div>
 
@@ -88,7 +90,7 @@ _**上次修改的主题：** 2014-04-22_
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>呼叫</strong></p></td>
+<td><p><strong>通话</strong></p></td>
 <td><p>要用作主要比较项目的呼叫类型。允许的值包括：</p>
 <ul>
 <li><p>各种</p></li>
@@ -171,7 +173,7 @@ _**上次修改的主题：** 2014-04-22_
 <tr class="even">
 <td><p><strong>性能降低(MOS)</strong></p></td>
 <td><p>否</p></td>
-<td><p>通话过程中 MOS 的平均数量（平均意见得分）。 性能降低值的范围介于 0.0 和 5.0 之间；该值小于或等于 0.5 表示可接受的性能降低。 在过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为1到5）来计算得出的。 Lync Server 使用一组算法来预测用户对呼叫进行评级的方式。</p>
+<td><p>平均 MOS 量 (平均观点分数) 在呼叫过程中遇到的下降。 性能降低值的范围介于 0.0 和 5.0 之间；该值小于或等于 0.5 表示可接受的性能降低。 在过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为1到5）来计算得出的。 Lync Server 使用一组算法来预测用户对呼叫进行评级的方式。</p>
 <p>高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。</p></td>
 </tr>
 <tr class="odd">
@@ -193,7 +195,7 @@ _**上次修改的主题：** 2014-04-22_
 <tr class="even">
 <td><p><strong>抖动(毫秒)</strong></p></td>
 <td><p>否</p></td>
-<td><p>在 RTP 数据包到达之间检查到的平均抖动率。 （抖动是对&quot;shakiness&quot;的衡量。高抖动值通常是由拥塞或过载的媒体服务器引起的，并导致音频失真或丢失。</p></td>
+<td><p>在 RTP 数据包到达之间检查到的平均抖动率。  (抖动是 shakiness 的衡量指标 &quot; &quot; 。 ) 高抖动值通常由拥塞或过载的媒体服务器引起，并导致音频失真或丢失。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>修复程序隐藏比率</strong></p></td>

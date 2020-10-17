@@ -12,20 +12,22 @@ ms:contentKeyID: 48184177
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd64239460d76d63b28bb3a3abeb8c5cc8bb97d9
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1bad444821c352991c1befd184d91920dcd5d147
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757133"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500099"
 ---
+# <a name="remove-an-authorized-host-entry"></a>删除授权主机条目
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-an-authorized-host-entry"></a>删除授权主机条目
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44757133"
 
 _**上次修改的主题：** 2012-09-26_
 
-本主题介绍如何删除旧版授权主机条目（在 Lync Server 2013 中称为 "*受信任的应用程序" 条目*）。 当您将远程呼叫控制迁移到 Lync Server 2013 部署时，您必须删除 Office 通信服务器 2007 R2 部署中任何 SIP/CSTA 网关的现有授权主机条目。 您必须使用 Office 通信服务器 2007 R2 附带的管理工具删除现有的已授权主机项。
+本主题介绍如何删除旧版授权主机条目 (在 Lync Server 2013) 中称为 " *受信任的应用程序" 条目* 。 当您将远程呼叫控制迁移到 Lync Server 2013 部署时，您必须删除 Office 通信服务器 2007 R2 部署中任何 SIP/CSTA 网关的现有授权主机条目。 您必须使用 Office 通信服务器 2007 R2 附带的管理工具删除现有的已授权主机项。
 
 <div>
 

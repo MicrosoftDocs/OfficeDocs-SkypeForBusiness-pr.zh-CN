@@ -12,20 +12,22 @@ ms:contentKeyID: 49733837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87578bad234adfad254b45961b07180176f9b027
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: c3d9de311668bd43d913b0f746470235060bafe3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757253"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499969"
 ---
+# <a name="remove-the-archiving-server-association"></a>删除存档服务器关联
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-archiving-server-association"></a>删除存档服务器关联
+
 
 </div>
 
@@ -47,9 +49,9 @@ _**上次修改的主题：** 2012-10-04_
 
 2.  导航到 "Lync Server 2010" 节点。
 
-3.  在拓扑生成器中，根据在其中定义存档服务器的位置扩展**Enterprise Edition 前端池**、 **Standard edition 前端服务器**或**分支站点**。
+3.  在拓扑生成器中，根据在其中定义存档服务器的位置扩展 **Enterprise Edition 前端池**、 **Standard edition 前端服务器**或 **分支站点**。
 
-4.  如果你有与 Survivable 分支服务器相关联的，请展开 "**分支站点**"，展开分支站点名称，然后展开 " **Survivable 分支设备**"。
+4.  如果你有与 Survivable 分支服务器相关联的，请展开 " **分支站点**"，展开分支站点名称，然后展开 " **Survivable 分支设备**"。
     
     <div>
     
@@ -60,13 +62,13 @@ _**上次修改的主题：** 2012-10-04_
     
     </div>
 
-5.  右键单击与存档服务器关联的池、服务器或设备，然后单击 "**编辑属性**"。
+5.  右键单击与存档服务器关联的池、服务器或设备，然后单击 " **编辑属性**"。
 
 6.  在“编辑属性”**** 的“常规”**** 下的“关联”**** 下，清除“关联存档服务器”**** 复选框，然后单击“确定”****。
 
 7.  对与要删除的存档服务器关联的任何其他池、服务器或设备重复上述步骤。
 
-8.  右键单击存档服务器，然后单击 "**删除**"。
+8.  右键单击存档服务器，然后单击 " **删除**"。
 
 9.  在“删除相关存储”**** 上，单击“确定”****。
 

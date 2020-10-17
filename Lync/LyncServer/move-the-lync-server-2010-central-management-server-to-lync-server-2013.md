@@ -12,20 +12,22 @@ ms:contentKeyID: 49733602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90af32fce28d87b211a0829c5c863c9277129c86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53251e03c55d6d61ae360d7b0739c07ac44dccdc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209728"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500129"
 ---
+# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>将 Lync Server 2010 中央管理服务器移动到 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>将 Lync Server 2010 中央管理服务器移动到 Lync Server 2013
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**上次修改的主题：** 2013-11-25_
 
 从 Lync Server 2010 迁移到 Lync Server 2013 之后，您需要将 Lync Server 2010 中心管理服务器移动到 Lync Server 2013 前端服务器或池，然后才能删除旧版 Lync Server 2010 服务器。
 
-中央管理服务器是单个主/多副本系统，其中数据库的读/写副本由包含中央管理服务器的前端服务器保留。 拓扑中的每台计算机（包括包含中央管理服务器的前端服务器）在安装过程中安装在计算机上的 SQL Server 数据库中的中央管理存储数据的只读副本（默认情况下称为 "RTCLOCAL"）。部署. 本地数据库通过作为所有计算机上的服务运行的 Lync Server 副本复制器代理来接收副本更新。 中央管理服务器和本地副本上的实际数据库的名称为 XDS，它由 XDS 和 XDS 文件组成。 主数据库位置由 Active Directory 域服务中的服务控制点（SCP）引用。 使用中央管理服务器来管理和配置 Lync Server 的所有工具都使用 SCP 查找中央管理存储。
+中央管理服务器是单个主/多副本系统，其中数据库的读/写副本由包含中央管理服务器的前端服务器保留。 拓扑中的每台计算机（包括包含中央管理服务器的前端服务器）都具有 SQL Server (数据库中的中央管理存储数据的只读副本，默认情况下，RTCLOCAL 在安装和部署过程中) 安装在计算机上。 本地数据库通过作为所有计算机上的服务运行的 Lync Server 副本复制器代理来接收副本更新。 中央管理服务器和本地副本上的实际数据库的名称为 XDS，它由 XDS 和 XDS 文件组成。 主数据库位置由 Active Directory 域服务中 (SCP) 的服务控制点引用。 使用中央管理服务器来管理和配置 Lync Server 的所有工具都使用 SCP 查找中央管理存储。
 
-成功移动中央管理服务器后，应从原始前端服务器中删除中央管理服务器数据库。 有关删除中央管理服务器数据库的信息，请参阅[删除前端池的 SQL Server 数据库](remove-the-sql-server-database-for-a-front-end-pool.md)。
+成功移动中央管理服务器后，应从原始前端服务器中删除中央管理服务器数据库。 有关删除中央管理服务器数据库的信息，请参阅 [删除前端池的 SQL Server 数据库](remove-the-sql-server-database-for-a-front-end-pool.md)。
 
-在 Lync Server 命令行管理**程序**中使用 Windows PowerShell cmdlet move-csmanagementserver 在 Lync Server 命令行管理程序中，将数据库从 lync SERVER 2010 sql server 数据库移动到 lync SERVER 2013 sql server 数据库，然后将 SCP 更新为指向 lync Server 2013 中央管理服务器位置。
+在 Lync Server 命令行管理 **程序** 中使用 Windows PowerShell cmdlet move-csmanagementserver 在 Lync Server 命令行管理程序中，将数据库从 lync SERVER 2010 sql server 数据库移动到 lync SERVER 2013 sql server 数据库，然后将 SCP 更新为指向 lync Server 2013 中央管理服务器位置。
 
 <div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2013-11-25_
 
 ## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>准备企业版前端池
 
-1.  在要重定位中央管理服务器的 Lync Server 2013 Enterprise Edition 前端池上：登录到安装了 Lync Server 命令行管理程序的计算机作为**RTCUniversalServerAdmins**组的成员。 此外，还必须在要安装中央管理存储的数据库上具有 SQL Server 数据库 sysadmin 用户权限和权限。
+1.  在要重定位中央管理服务器的 Lync Server 2013 Enterprise Edition 前端池上：登录到安装了 Lync Server 命令行管理程序的计算机作为 **RTCUniversalServerAdmins** 组的成员。 此外，还必须在要安装中央管理存储的数据库上具有 SQL Server 数据库 sysadmin 用户权限和权限。
 
 2.  打开 Lync Server 命令行管理程序。
 
@@ -71,13 +73,13 @@ _**上次修改的主题：** 2013-11-25_
 
 ## <a name="to-prepare-a-standard-edition-front-end-server"></a>准备标准版前端服务器
 
-1.  在要重新定位中央管理服务器的 Lync Server 2013 Standard Edition 前端服务器上：登录到安装了 Lync Server 命令行管理程序的计算机作为**RTCUniversalServerAdmins**组的成员。
+1.  在要重新定位中央管理服务器的 Lync Server 2013 Standard Edition 前端服务器上：登录到安装了 Lync Server 命令行管理程序的计算机作为 **RTCUniversalServerAdmins** 组的成员。
 
 2.  打开“Lync Server 部署向导”。
 
-3.  在 "Lync Server 部署向导" 中，单击 "**准备第一个 Standard Edition Server**"。
+3.  在 "Lync Server 部署向导" 中，单击 " **准备第一个 Standard Edition Server**"。
 
-4.  在 "**正在执行命令**" 页上，SQL Server Express 安装为中央管理服务器。 创建必需的防火墙规则。 安装数据库和必备软件后，单击“完成”****。
+4.  在 " **正在执行命令** " 页上，SQL Server Express 安装为中央管理服务器。 创建必需的防火墙规则。 安装数据库和必备软件后，单击“完成”****。
     
     <div>
     
@@ -102,7 +104,7 @@ _**上次修改的主题：** 2013-11-25_
 
 ## <a name="to-move-the-lync-server-2010central-management-server-to-lync-server-2013"></a>将 Lync Server 2010 中央管理服务器移动到 Lync Server 2013
 
-1.  在将成为中央管理服务器的 Lync Server 2013 服务器上：登录到安装了 Lync Server 命令行管理程序的计算机作为**RTCUniversalServerAdmins**组的成员。 您还必须具有 SQL Server 数据库管理员用户权限。
+1.  在将成为中央管理服务器的 Lync Server 2013 服务器上：登录到安装了 Lync Server 命令行管理程序的计算机作为 **RTCUniversalServerAdmins** 组的成员。 您还必须具有 SQL Server 数据库管理员用户权限。
 
 2.  打开 Lync Server 命令行管理程序。
 
@@ -114,7 +116,7 @@ _**上次修改的主题：** 2013-11-25_
     
 
     > [!WARNING]  
-    > 如果<CODE>Enable-CsTopology</CODE>未成功，请先解决阻止命令完成的问题，然后再继续。 如果<STRONG>enable-cstopology</STRONG>不成功，移动将会失败，并且可能会使拓扑处于没有中央管理存储的状态。
+    > 如果 <CODE>Enable-CsTopology</CODE> 未成功，请先解决阻止命令完成的问题，然后再继续。 如果 <STRONG>enable-cstopology</STRONG> 不成功，移动将会失败，并且可能会使拓扑处于没有中央管理存储的状态。
 
     
     </div>
@@ -129,11 +131,11 @@ _**上次修改的主题：** 2013-11-25_
 
 7.  在 Lync Server 2013 服务器上，打开 "Lync Server 部署向导"。
 
-8.  在 "Lync Server 部署向导" 中，依次单击 "**安装或更新 Lync Server 系统**"、"**步骤2：设置" 或 "删除 Lync server 组件**"，单击 "**下一步**"，查看摘要，然后单击 "**完成**"。
+8.  在 "Lync Server 部署向导" 中，依次单击 " **安装或更新 Lync Server 系统**"、" **步骤2：设置" 或 "删除 Lync server 组件**"，单击 " **下一步**"，查看摘要，然后单击 " **完成**"。
 
 9.  在 Lync Server 2010 服务器上，打开 "Lync Server 部署向导"。
 
-10. 在 "Lync Server 部署向导" 中，依次单击 "**安装或更新 Lync Server 系统**"、"**步骤2：设置" 或 "删除 Lync server 组件**"，单击 "**下一步**"，查看摘要，然后单击 "**完成**"。
+10. 在 "Lync Server 部署向导" 中，依次单击 " **安装或更新 Lync Server 系统**"、" **步骤2：设置" 或 "删除 Lync server 组件**"，单击 " **下一步**"，查看摘要，然后单击 " **完成**"。
 
 11. 重新启动 Lync Server 2013 服务器。 这是必需的，因为对 access 中央管理服务器数据库进行组成员资格更改。
 
@@ -156,7 +158,7 @@ _**上次修改的主题：** 2013-11-25_
 
 ## <a name="to-remove-lync-server-2010central-management-store-files-after-a-move"></a>移动后删除 Lync Server 2010 中央管理存储文件
 
-1.  在 Lync Server 2010 服务器上：登录到安装了 Lync Server 命令行管理程序的计算机作为**RTCUniversalServerAdmins**组的成员。 您还必须具有 SQL Server 数据库管理员用户权限。
+1.  在 Lync Server 2010 服务器上：登录到安装了 Lync Server 命令行管理程序的计算机作为 **RTCUniversalServerAdmins** 组的成员。 您还必须具有 SQL Server 数据库管理员用户权限。
 
 2.  打开 Lync Server 命令行管理程序
     
@@ -177,7 +179,7 @@ _**上次修改的主题：** 2013-11-25_
     
         Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
     
-    其中， \<SQL Server\>的 FQDN 是企业版部署中的 Lync Server 2010 后端服务器或 STANDARD edition 服务器的 fqdn。
+    其中， \<FQDN of SQL Server\> 是企业版部署中的 Lync server 2010 后端服务器或 Standard edition 服务器的 FQDN。
 
 </div>
 

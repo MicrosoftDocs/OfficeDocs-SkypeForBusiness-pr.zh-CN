@@ -12,20 +12,22 @@ ms:contentKeyID: 49733872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 076cfd8b787c85ba94d3538c5510d7c12ca11b22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f58ab7d0f3d47da8bae3df94c3c83b1eae0059e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197185"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501079"
 ---
+# <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中启用或禁用匿名用户访问
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中启用或禁用匿名用户访问
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-02-23_
 
 
 > [!NOTE]  
-> 仅为组织启用匿名用户访问，将指定运行访问边缘服务的服务器支持匿名用户访问。 在至少配置一个会议策略并将其应用于一个或多个用户或用户组之前，匿名用户将无法参加组织中的任何会议。 只有分配了配置为支持匿名用户的会议策略的那些用户才能邀请匿名用户参加会议。 有关配置会议策略以支持邀请匿名用户的详细信息，请参阅<A href="lync-server-2013-conferencing-policies.md">Lync Server 2013 中的会议策略</A>。
+> 仅为组织启用匿名用户访问，将指定运行访问边缘服务的服务器支持匿名用户访问。 在至少配置一个会议策略并将其应用于一个或多个用户或用户组之前，匿名用户将无法参加组织中的任何会议。 只有分配了配置为支持匿名用户的会议策略的那些用户才能邀请匿名用户参加会议。 有关配置会议策略以支持邀请匿名用户的详细信息，请参阅 <A href="lync-server-2013-conferencing-policies.md">Lync Server 2013 中的会议策略</A>。
 
 
 
@@ -55,9 +57,9 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>为组织启用或禁用匿名用户访问
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“外部用户访问”****，然后单击“访问边缘配置”****。
 
@@ -77,7 +79,7 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 启用或禁用匿名用户访问
 
-您可以使用 Windows PowerShell 和**set-csaccessedgeconfiguration** cmdlet 管理匿名用户访问。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 Windows PowerShell 和 **set-csaccessedgeconfiguration** cmdlet 管理匿名用户访问。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 

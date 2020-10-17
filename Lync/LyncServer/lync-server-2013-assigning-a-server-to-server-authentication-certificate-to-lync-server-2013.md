@@ -12,20 +12,22 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 952f4c1b14ce7260d4b320ea7feacddb9a85a8f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec8ac614cdc829ab2b1efd7d6ff9179c33d5a33e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203298"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499469"
 ---
+# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>将服务器到服务器身份验证证书分配给 Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>将服务器到服务器身份验证证书分配给 Microsoft Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2013-10-24_
 
     Get-CsCertificate -Type OAuthTokenIssuer
 
-如果没有返回任何证书信息，则必须在分配令牌颁发者证书后才能使用服务器到服务器身份验证。 作为一般规则，任何 Lync Server 2013 证书都可用作 OAuthTokenIssuer 证书;例如，你的 Lync Server 2013 默认证书也可以用作 OAuthTokenIssuer 证书。 （OAUthTokenIssuer 证书也可以是在 "Subject" 字段中包含您的 SIP 域名称的任何 Web 服务器证书。）用于服务器到服务器身份验证的证书的主要要求如下：1）必须在所有前端服务器上将相同的证书配置为 OAuthTokenIssuer 证书;和2）证书必须至少为2048位。
+如果没有返回任何证书信息，则必须在分配令牌颁发者证书后才能使用服务器到服务器身份验证。 作为一般规则，任何 Lync Server 2013 证书都可用作 OAuthTokenIssuer 证书;例如，你的 Lync Server 2013 默认证书也可以用作 OAuthTokenIssuer 证书。  (OAUthTokenIssuer 证书也可以是在 "Subject" 字段中包含您的 SIP 域名称的任何 Web 服务器证书。 ) 用于服务器到服务器身份验证的证书的主要两个要求如下： 1) 在所有前端服务器上必须将同一证书配置为 OAuthTokenIssuer 证书;和 2) 证书必须至少为2048位。
 
 如果没有可用于服务器到服务器身份验证的证书，则可以获取新证书，导入新证书，然后将该证书用于服务器到服务器身份验证。在请求并获取新证书后，可以登录到任一前端服务器并使用类似如下的 Windows PowerShell 命令导入和分配该证书：
 
@@ -56,7 +58,7 @@ _**上次修改的主题：** 2013-10-24_
 
 在上述命令中，所检索的证书配置为用作全局服务器到服务器身份验证证书；这意味着该证书将被复制到所有前端服务器并被这些服务器使用。再强调一次，此命令只应在其中一台前端服务器上运行一次。尽管所有前端服务器都必须使用相同证书，但您不应在每台前端服务器上都配置 OAuthTokenIssuer 证书。相反，只需配置该证书一次，然后让 Lync Server 的复制服务器负责将该证书复制到每台服务器。
 
-Set-cscertificate cmdlet 接受有问题的证书，并立即将该证书配置为充当当前的 OAuthTokenIssuer 证书。 （Lync Server 2013 保留证书类型的两个副本：当前证书和以前的证书。）如果您需要新证书立即开始充当 OAuthTokenIssuer 证书，则应使用 Set-cscertificate cmdlet。
+Set-CsCertificate cmdlet 接受有问题的证书，并立即将该证书配置为充当当前的 OAuthTokenIssuer 证书。  (Lync Server 2013 保留证书类型的两个副本：当前证书和以前的证书。 ) 如果需要新证书立即开始充当 OAuthTokenIssuer 证书，则应使用 Set-CsCertificate cmdlet。
 
 您还可以使用 Set-CsCertificate cmdlet“滚动”新证书。“滚动”证书仅意味着在指定时间点将新证书配置为成为当前 OAuthTokenIssuer 证书。例如，以下命令将检索默认证书，然后将该证书配置为从 2012 年 7 月 1 日起成为当前 OAuthTokenIssuer 证书：
 
@@ -83,7 +85,7 @@ Set-cscertificate cmdlet 接受有问题的证书，并立即将该证书配置�
 
 2.  在部署向导中，单击“安装或更新 Lync Server 系统”****。
 
-3.  在 "Microsoft Lync Server 2013" 页上，单击 "标题**步骤3：请求、安装或分配证书**" 下的 "**运行**" 按钮。 （注意：如果已在此计算机上安装了证书，则 "**运行**" 按钮将被标记为 "**再次运行**"。）
+3.  在 "Microsoft Lync Server 2013" 页上，单击 "标题**步骤3：请求、安装或分配证书**" 下的 "**运行**" 按钮。  (注意：如果已在此计算机上安装了证书，则 " **运行** " 按钮将被标记为 " **再次运行**"。 ) 
 
 4.  在证书向导中，选择 OAuthTokenIssuer**** 证书，然后单击“分配”****。
 

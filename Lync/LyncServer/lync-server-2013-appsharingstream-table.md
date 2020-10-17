@@ -12,20 +12,22 @@ ms:contentKeyID: 48183852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34f3ea8a5b25a4eaa3345249c8c7847dd4a3f2bd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b729112aa0fb064a518c50212a6a041a6661be3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204708"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499499"
 ---
+# <a name="appsharingstream-table-in-lync-server-2013"></a>Lync Server 2013 中的 AppSharingStream 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appsharingstream-table-in-lync-server-2013"></a>Lync Server 2013 中的 AppSharingStream 表
+
 
 </div>
 
@@ -90,13 +92,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 <td><p><strong>JitterInterArrival</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>在 RTP 数据包到达之间检测到的平均抖动率。 （抖动是对&quot;shakiness&quot;的衡量。高抖动值通常是由拥塞或过载的媒体服务器引起的，并导致音频失真或丢失。</p></td>
+<td><p>在 RTP 数据包到达之间检测到的平均抖动率。  (抖动是 shakiness 的衡量指标 &quot; &quot; 。 ) 高抖动值通常由拥塞或过载的媒体服务器引起，并导致音频失真或丢失。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>在 RTP 数据包到达之间检测到的最大抖动率。 （抖动是对&quot;shakiness&quot;的衡量。高抖动值通常是由拥塞或过载的媒体服务器引起的，并导致音频失真或丢失。</p></td>
+<td><p>在 RTP 数据包到达之间检测到的最大抖动率。  (抖动是 shakiness 的衡量指标 &quot; &quot; 。 ) 高抖动值通常由拥塞或过载的媒体服务器引起，并导致音频失真或丢失。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>工程</strong></p></td>
@@ -114,13 +116,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="odd">
 <td><p><strong>PacketLossRate</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>平均实时传输协议 (RTP) 数据包丢失率。（当 RTP 数据包（一项用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时，即发生数据包丢失。）高丢失率通常是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器超载造成的。数据包丢失通常导致音频失真或丢失。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PacketLossRateMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>最大实时传输协议 (RTP) 数据包丢失率。（当 RTP 数据包（一项用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时，即发生数据包丢失。）高丢失率通常是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器超载造成的。数据包丢失通常导致音频失真或丢失。</p></td>
 </tr>
@@ -144,19 +146,19 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayTotal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向延迟的总量。相对单向延迟用于度量客户端和服务器之间的延迟。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向延迟的平均量。相对单向延迟用于度量客户端和服务器之间的延迟。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向延迟的最大量。相对单向延迟用于度量客户端和服务器之间的延迟。</p></td>
 </tr>
@@ -168,13 +170,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向突发总密度。“突发”传输是指数据流以不可预知的突发方式进行的传输（与稳定流相反）。此指标用于度量客户端和服务器之间的数据流。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向突发总持续时间。“突发”传输是指数据流以不可预知的突发方式进行的传输（与稳定流相反）。此指标用于度量客户端和服务器之间的数据流。</p></td>
 </tr>
@@ -186,37 +188,37 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向间隙总密度。“突发”传输是指数据流以不可预知的突发方式进行的传输（与稳定流相反）；间隙是指各个突发之间的延迟。此指标用于度量客户端和服务器之间的数据流。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向间隙总持续时间。“突发”传输是指数据流以不可预知的突发方式进行的传输（与稳定流相反）；间隙是指各个突发之间的延迟。此指标用于度量客户端和服务器之间的数据流。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ApplicationSharingType</strong></p></td>
-<td><p>varChar （256）</p></td>
+<td><p>varChar (256) </p></td>
 <td></td>
 <td><p>应用程序角色（共享者或查看者）和内容类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyTotal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>远程桌面协议 (RDP) 图块的总处理时间。总时间量越大，查看体验的延迟就越长。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>远程桌面协议 (RDP) 图块的平均处理时间。总时间量越大，查看体验的延迟就越长。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>远程桌面协议 (RDP) 图块的最大处理时间。总时间量越大，查看体验的延迟就越长。</p></td>
 </tr>
@@ -228,13 +230,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyBurstDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>远程桌面协议 (RDP) 图块的处理时间中的突发密度。“突发”传输是指数据流以不可预知的突发方式进行的传输（与稳定流相反）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyBurstDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>远程桌面协议 (RDP) 图块的处理时间中的突发持续时间。“突发”传输是指数据流以不可预知的突发方式进行的传输（与稳定流相反）。</p></td>
 </tr>
@@ -246,31 +248,31 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyGapDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>远程桌面协议 (RDP) 图块的处理时间中的间隙密度。间隙密度越低，查看体验就越佳。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyGapDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>远程桌面协议 (RDP) 图块的处理时间中的间隙持续时间。间隙持续时间越短，查看体验就越佳。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateTotal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>图块的总捕获率（以每秒的图块数为单位）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CaptureTileRateAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>图块的平均捕获率（以每秒的图块数为单位）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>图块的最大捕获率（以每秒的图块数为单位）。</p></td>
 </tr>
@@ -282,13 +284,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateBurstDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>图块的捕获率的突发密度（以每秒的图块数为单位）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CaptureTileRateBurstDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>图块的捕获率的突发持续时间（以每秒的图块数为单位）。</p></td>
 </tr>
@@ -300,31 +302,31 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="even">
 <td><p><strong>CaptureTileRateGapDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>图块的捕获率的间隙密度（以每秒的图块数为单位）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CaptureTileRateGapDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>图块的捕获率的间隙持续时间（以每秒的图块数为单位）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentTotal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>未送达给查看者但已被丢弃和已被新鲜内容覆盖的内容的总百分比。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>未送达给查看者但已被丢弃和已被新鲜内容覆盖的内容的平均百分比。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>未送达给查看者但已被丢弃和已被新鲜内容覆盖的内容的最大百分比。</p></td>
 </tr>
@@ -336,13 +338,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentBurstDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>未送达给查看者但已被丢弃和已被新鲜内容覆盖的内容的突发密度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentBurstDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>未送达给查看者但已被丢弃和已被新鲜内容覆盖的内容的突发持续时间。</p></td>
 </tr>
@@ -354,31 +356,31 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentGapDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>未送达给查看者但已被丢弃和已被新鲜内容覆盖的内容的间隙密度。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentGapDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>未送达给查看者但已被丢弃和已被新鲜内容覆盖的内容的间隙持续时间。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateTotal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>从图形源擦除的总帧数。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ScrapingFrameRateAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>从图形源擦除的平均帧数。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>从图形源擦除的最大帧数。</p></td>
 </tr>
@@ -390,13 +392,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateBurstDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>从图形源擦除的帧数的突发密度。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ScrapingFrameRateBurstDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>从图形源擦除的帧数的突发持续时间。</p></td>
 </tr>
@@ -408,31 +410,31 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="even">
 <td><p><strong>ScrapingFrameRateGapDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>从图形源擦除的帧数的间隙密度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ScrapingFrameRateGapDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>从图形源擦除的帧数的间隙持续时间。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IncomingTileRateTotal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的总传入帧速率。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingTileRateAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的平均传入帧速率。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IncomingTileRateMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的最大传入图块速率。</p></td>
 </tr>
@@ -444,13 +446,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="even">
 <td><p><strong>IncomingTileRateBurstDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的传入图块速率的突发密度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingTileRateBurstDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的传入图块速率的突发持续时间。</p></td>
 </tr>
@@ -462,31 +464,31 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingTileRateGapDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的传入图块速率的间隙密度。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IncomingTileRateGapDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的传入图块速率的间隙持续时间。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingFrameRateTotal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的总传入帧速率。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IncomingFrameRateAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的平均传入帧速率。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingFrameRateMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的最大传入帧速率。</p></td>
 </tr>
@@ -498,13 +500,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingFrameRateBurstDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的传入帧速率的突发密度。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IncomingFrameRateBurstDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的传入帧速率的突发持续时间。</p></td>
 </tr>
@@ -516,31 +518,31 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="even">
 <td><p><strong>IncomingFrameRateGapDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的传入帧速率的间隙密度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IncomingFrameRateDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>查看者收到的传入帧速率的间隙持续时间。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingTileRateTotal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的总传出图块速率。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingTileRateAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的平均传出图块速率。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingTileRateMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的最大传出图块速率。</p></td>
 </tr>
@@ -552,13 +554,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingTileRateBurstDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的传出图块速率的突发密度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingTileRateBurstDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的传出图块速率的突发持续时间。</p></td>
 </tr>
@@ -570,31 +572,31 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingTileRateGapDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的传出图块速率的间隙密度。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingTileRateGapDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的传出图块速率的间隙持续时间。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingFrameRateTotal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的总传出帧速率。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingFrameRateAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的平均传出帧速率。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingFrameRateMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的最大传出帧速率。</p></td>
 </tr>
@@ -606,13 +608,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingFrameRateBurstDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的传出帧速率的突发密度。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingFrameRateBurstDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的传出帧速率的突发持续时间。</p></td>
 </tr>
@@ -624,13 +626,13 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 </tr>
 <tr class="even">
 <td><p><strong>OutgoingFrameRateGapDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的传出帧速率的间隙密度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutgoingFrameRateGapDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发送者的传出帧速率的间隙持续时间。</p></td>
 </tr>

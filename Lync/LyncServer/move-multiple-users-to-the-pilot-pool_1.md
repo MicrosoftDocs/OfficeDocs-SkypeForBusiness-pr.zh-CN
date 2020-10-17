@@ -12,20 +12,22 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41c663566605529b25d9890bb31cba462364c813
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ffd0fbebffea5553cc461f71cf67843dae0a8ae6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756461"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500219"
 ---
+# <a name="move-multiple-users-to-the-pilot-pool"></a>将多个用户移动到引导池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-multiple-users-to-the-pilot-pool"></a>将多个用户移动到引导池
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-10-02_
 
 4.  创建一个筛选器，其中的 **Office Communications Server 用户**等于 **True**。
 
-5.  单击 "**查找**" 以搜索旧版 Office 通信服务器 2007 R2 用户。
+5.  单击 " **查找** " 以搜索旧版 Office 通信服务器 2007 R2 用户。
 
 6.  选择要移至 Lync Server 2013 池的两个用户。 在本例中，我们将移动用户 Chen Yang 和 Claus Hansen。
     
@@ -65,7 +67,7 @@ _**上次修改的主题：** 2012-10-02_
     
     !["移动用户，目标注册器池" 对话框](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png ""移动用户，目标注册器池" 对话框")  
 
-10. 确认用户的 "**注册器池**" 列现在包含 Lync Server 2013 池，这表明已成功移动用户。
+10. 确认用户的 " **注册器池** " 列现在包含 Lync Server 2013 池，这表明已成功移动用户。
 
 </div>
 
@@ -87,7 +89,7 @@ _**上次修改的主题：** 2012-10-02_
 
 4.  **注册器池**标识现在应指向您在上一步中指定为**池 \_ FQDN**的池。 存在该标识即可确认已成功移动用户。 重复此步骤以确认 **User2** 已移动。
     
-    ![PowerShell UsUser cmdlet 的输出](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell UsUser cmdlet 的输出")  
+    ![PowerShell Get-UsUser 标识 cmdlet 的输出](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser 标识 cmdlet 的输出")  
 
 </div>
 
@@ -95,9 +97,9 @@ _**上次修改的主题：** 2012-10-02_
 
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-lync-server-2013-management-shell"></a>使用 Lync Server 2013 命令行管理程序同时移动所有用户
 
-在此示例中，所有用户都已返回到 Office 通信服务器 2007 R2 池（pool01.contoso.net）。 使用 Lync Server 2013 命令行管理程序，我们将同时将所有用户移动到 Lync Server 2013 池（pool02.contoso.net）。
+在此示例中，所有用户都已返回到 Office 通信服务器 2007 R2 池 (pool01.contoso.net) 。 使用 Lync Server 2013 命令行管理程序，我们将同时将所有用户同时移动到 Lync Server 2013 池 (pool02.contoso.net) 。
 
-1.  打开**Lync Server 2013 命令行管理**程序。
+1.  打开 **Lync Server 2013 命令行管理**程序。
 
 2.  在命令行中键入：
     
@@ -109,7 +111,7 @@ _**上次修改的主题：** 2012-10-02_
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  每个用户的**注册器池**标识现在指向您 \_ 在上一步中指定为 "池 FQDN" 的池。 存在该标识即可确认已成功移动用户。
+4.  每个用户的 **注册器池** 标识现在指向您 \_ 在上一步中指定为 "池 FQDN" 的池。 存在该标识即可确认已成功移动用户。
 
 5.  此外，我们还可以查看 Lync Server 2013 控制面板中的用户列表，并验证注册器池值是否现在指向 Lync Server 2013 池。
     

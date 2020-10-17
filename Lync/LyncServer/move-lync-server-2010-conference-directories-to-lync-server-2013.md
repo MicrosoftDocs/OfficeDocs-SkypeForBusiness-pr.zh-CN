@@ -12,20 +12,22 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 049472022a26d7a3a6e8e78e20a20ccaa46ff5fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d1a080f7183bbab62cae679c911c76261694406
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209758"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500269"
 ---
+# <a name="move-conference-directories"></a>移动会议目录
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-conference-directories"></a>移动会议目录
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2014-05-28_
     
         Get-CsConferenceDirectory
     
-    上述命令将返回组织中的所有会议目录。 因此，您可能希望将结果限制为即将停止的池。 例如，如果您要使用完全限定的域名（FQDN） pool01.contoso.net 取消池，请使用以下命令将返回的数据限制为来自该池的会议目录：
+    上述命令将返回组织中的所有会议目录。 因此，您可能希望将结果限制为即将停止的池。 例如，如果您要使用完全限定的域名来取消池 (FQDN) pool01.contoso.net，请使用以下命令将返回的数据限制为来自该池的会议目录：
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
@@ -67,7 +69,7 @@ _**上次修改的主题：** 2014-05-28_
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-有关解除启用 Lync 2010 池的完整、分步说明，请参阅文档 "卸载 Microsoft Lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)并删除服务器角色" （可从中下载）。
+[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)有关解除启用 Lync 2010 池的完整、分步说明，请参阅 "卸载 Microsoft Lync Server 2010 和删除服务器角色" 文档中的 " (可从) 下载。
 
 移动会议目录时，您可能会遇到以下错误：
 

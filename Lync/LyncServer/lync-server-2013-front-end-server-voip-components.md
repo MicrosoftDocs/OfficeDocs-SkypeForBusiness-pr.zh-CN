@@ -12,20 +12,22 @@ ms:contentKeyID: 48183765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 762b7a43343e10fe4d6bec601954474ba3a44b90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 62261a4d4651e38941f5068b58636b82d0151965
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206488"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500699"
 ---
+# <a name="front-end-server-voip-components-for-lync-server-2013"></a>Lync Server 2013 的前端服务器 VoIP 组件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-server-voip-components-for-lync-server-2013"></a>Lync Server 2013 的前端服务器 VoIP 组件
+
 
 </div>
 
@@ -81,7 +83,7 @@ _**上次修改的主题：** 2012-10-01_
 
 ## <a name="exchange-um-routing-component"></a>Exchange UM 路由组件
 
-Exchange UM 路由组件处理 Lync Server 和运行 Exchange 统一消息（UM）的服务器之间的路由，以将 Lync Server 与统一消息功能集成。
+Exchange UM 路由组件处理在运行 Exchange 统一消息 (UM) 的 Lync Server 和服务器之间的路由，以将 Lync Server 与统一消息功能集成。
 
 如果 Exchange UM 服务器不可用，则 Exchange UM 路由组件还会通过 PSTN 处理语音邮件的重新路由。 如果您的企业语音用户在没有到中央站点的弹性 WAN 链接的分支站点上，则您在分支站点部署的 Survivable 分支设备在 WAN 中断期间为分支用户提供语音邮件留存。 WAN 链路不可用时，Survivable 分支设备将执行以下操作：
 
@@ -91,9 +93,9 @@ Exchange UM 路由组件处理 Lync Server 和运行 Exchange 统一消息（UM�
 
   - 使错过的呼叫通知排队，然后在 WAN 链路还原时将其上载到 Exchange UM 服务器。
 
-若要启用语音邮件重新路由，建议您的 Exchange 管理员将 Exchange UM 自动助理（AA）配置为仅接受邮件。
+若要启用语音邮件重新路由，我们建议您的 Exchange 管理员将 Exchange UM 自动助理配置 (AA) 仅接受邮件。
 
-有关这些功能的详细信息，请参阅在 lync server [2013 中规划 Exchange 统一消息集成](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)和[在 lync Server 2013 中规划企业语音恢复](lync-server-2013-planning-for-enterprise-voice-resiliency.md)。
+有关这些功能的详细信息，请参阅在 lync server [2013 中规划 Exchange 统一消息集成](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) 和 [在 lync Server 2013 中规划企业语音恢复](lync-server-2013-planning-for-enterprise-voice-resiliency.md)。
 
 </div>
 

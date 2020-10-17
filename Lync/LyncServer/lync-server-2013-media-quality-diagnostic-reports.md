@@ -12,20 +12,22 @@ ms:contentKeyID: 48185935
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6c2a11be8baabd74d8928fcb805ecf7367d23d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 058c12ed9f1b07df885e9e7b90f43780043cdf56
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185195"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500688"
 ---
+# <a name="media-quality-diagnostic-reports-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量诊断报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-diagnostic-reports-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量诊断报告
+
 
 </div>
 
@@ -43,25 +45,25 @@ _**上次修改的主题：** 2013-02-22_
 
 ## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   中的媒体质量摘要报告提供了不同终结点类型的总体质量数据，包括企业语音对等呼叫、企业语音会议呼叫以及公共交换电话网络（PSTN）上至少依赖的呼叫。
+  - [Lync Server 2013](lync-server-2013-media-quality-summary-report.md)     中的媒体质量摘要报告为不同的终结点类型（包括企业语音对等呼叫、企业语音会议呼叫以及在公开交换的电话网络 (PSTN) 上至少依赖的呼叫提供总体质量数据。
 
-  - [Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   中的媒体质量比较报告可比较不同类型音频呼叫的呼叫质量值（例如，通过无线网络进行的呼叫与通过有线连接进行的呼叫）。
+  - [Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)     中的媒体质量比较报告对不同类型的音频呼叫的通话质量值进行比较 (例如，通过无线网络进行的呼叫与通过有线连接进行的呼叫) 。
 
-  - [Lync server 2013](lync-server-2013-server-performance-report.md)   中的 Server Performance Report 列出遇到最多问题的服务器，具体取决于此类关键质量指标在性能下降、数据包丢失和抖动等方面的指标。
+  - [Lync server 2013](lync-server-2013-server-performance-report.md)     中的服务器性能报告列出遇到最多问题的服务器，具体取决于此类关键质量指标在性能下降、数据包丢失和抖动等方面的度量。
 
-  - [Lync Server 2013](lync-server-2013-location-report.md)   中的位置报告提供了网络位置的列表，以及每个位置上发生的呼叫的媒体质量摘要。 出于此报告的目的，位置基于 IP 子网。
+  - [Lync Server 2013](lync-server-2013-location-report.md)     中的位置报告提供网络位置的列表，以及每个位置上发生的呼叫的媒体质量摘要。 出于此报告的目的，位置基于 IP 子网。
 
-  - [Lync Server 2013](lync-server-2013-device-report.md)   中的设备报告提供用于企业语音呼叫的设备的摘要，其中包括设备呼叫的平均媒体质量。
+  - [Lync Server 2013](lync-server-2013-device-report.md)     中的设备报告提供用于企业语音呼叫的设备的摘要，并包括设备呼叫的平均媒体质量。
 
-  - [Lync Server 2013](lync-server-2013-call-list-report.md)   中的呼叫清单报告提供有关在组织中发出或接收的电话呼叫的详细信息。
+  - [Lync Server 2013](lync-server-2013-call-list-report.md)     中的呼叫列表报告提供有关在贵组织中拨打或接收的电话呼叫的详细信息。
 
-  - [Lync Server 2013](lync-server-2013-call-detail-report.md)   中的呼叫详细信息报告提供了有关在组织内发送或接收的电话呼叫的详细信息。
+  - [Lync Server 2013](lync-server-2013-call-detail-report.md)     中的呼叫详细信息报告提供有关在贵组织中拨打或接收的电话呼叫的详细信息。
 
-  - [Lync server 2013](lync-server-2013-server-media-quality-trend-report.md)   中的服务器媒体质量趋势报告为您提供了一种方式，以图形方式比较最大5台服务器的体验质量指标（如呼叫量、较差的呼叫百分比、数据包丢失和抖动）。
+  - [Lync server 2013 中的服务器媒体质量趋势报告](lync-server-2013-server-media-quality-trend-report.md)    提供了一种方式，以图形方式比较最大5台服务器的体验质量指标，如呼叫量、较差的呼叫百分比、数据包丢失和抖动等。
 
-  - [Lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   中的媒体质量指标分布报告提供了显示 "体验质量" 指标（如抖动或数据包丢失）的分布值的图形。
+  - [Lync Server 2013 中的媒体质量指标分布报告](lync-server-2013-media-quality-metrics-distribution-report.md)    提供显示 "体验质量" 指标（如抖动或数据包丢失）的分布值的图。
 
-  - [Lync Server 2013](lync-server-2013-location-trend-report.md)   中的位置趋势报告提供了网络位置的呼叫质量趋势信息。
+  - [Lync Server 2013](lync-server-2013-location-trend-report.md)     中的位置趋势报告提供网络位置的呼叫质量趋势信息。
 
 </div>
 

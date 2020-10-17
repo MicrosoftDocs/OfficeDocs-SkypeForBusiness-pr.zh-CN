@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：域名系统（DNS）要求
+title: Lync Server 2013：域名系统 (DNS) 要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13fcb074ea5ce90bbe7097bf5c2f1f975de809c8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d7ddbab6e4d0b1a0654c91027cbf0676ad6445f1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214658"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501129"
 ---
+# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 (DNS) 要求的域名称系统
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 的域名系统（DNS）要求
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214658"
 
 _**上次修改的主题：** 2012-06-18_
 
-若要部署 Lync Server，您必须创建可启用客户端和服务器发现的域名系统（DNS）记录，如果您的组织想要支持自动客户端登录，也可以选择支持它。
+若要部署 Lync Server，您必须创建域名系统 (DNS) 记录，这些记录支持客户端和服务器的发现，如果您的组织想要支持自动客户端登录，也可以选择支持自动客户端登录。
 
 Lync Server 通过以下方式使用 DNS：
 
@@ -45,9 +47,9 @@ Lync Server 通过以下方式使用 DNS：
 
   - 允许客户端发现用于各种 SIP 事务的前端池或 Standard Edition 服务器。
 
-  - 允许未登录的统一通信（UC）设备发现运行设备更新 Web 服务的前端池或 Standard Edition 服务器，获取更新和发送日志。
+  - 若要允许统一通信 (UC) 未登录的设备，以发现运行设备更新 Web 服务的前端池或 Standard Edition 服务器，获取更新并发送日志。
 
-  - 允许外部服务器和客户端连接到边缘服务器或 HTTP 反向代理，以实现即时消息（IM）或会议。
+  - 若要允许外部服务器和客户端连接到边缘服务器或 HTTP 反向代理以获取即时消息 (IM) 或会议。
 
   - 允许外部 UC 设备通过边缘服务器或 HTTP 反向代理连接到设备更新 Web 服务，并获取更新。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b437b9da1abaa62d34a177c0188396c30bf7a3e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ced3de74542edc65de68ab5f803934aa671575cc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499479"
 ---
+# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>在 Lync Server 2013 中向用户分配组呼叫装货号码
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>在 Lync Server 2013 中向用户分配组呼叫装货号码
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42203348"
 
 _**上次修改的主题：** 2013-01-30_
 
-将组呼叫应答组号码添加到呼叫寄存通道表后，可以将组分配给用户。 使用辅助扩展功能激活（SEFAUtil）资源工具包工具向用户分配呼叫应答组。
+将组呼叫应答组号码添加到呼叫寄存通道表后，可以将组分配给用户。 使用辅助扩展功能激活 (SEFAUtil ) 资源工具包工具将呼叫应答组分配给用户。
 
 <div>
 

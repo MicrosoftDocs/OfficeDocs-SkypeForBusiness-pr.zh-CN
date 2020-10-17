@@ -13,20 +13,22 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f66f53b5c1aa25324dbd316ad2d72e7d04c42e0f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 6181f3d42facaf49b84b7c07776dc8717e88b271
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755134"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499759"
 ---
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>授权与 Office 通信服务器 2007 R2 边缘服务器的连接
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>授权与 Office 通信服务器 2007 R2 边缘服务器的连接
+
 
 </div>
 
@@ -44,7 +46,7 @@ _**上次修改的主题：** 2012-09-28_
 
 ## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>授权与 Office 通信服务器 2007 R2 边缘服务器的连接
 
-1.  从 "Office 通信服务器 2007 R2 边缘服务器" 的 "**管理工具**" 组中，打开 "**计算机管理**" 管理单元。
+1.  从 "Office 通信服务器 2007 R2 边缘服务器" 的 " **管理工具** " 组中，打开 " **计算机管理** " 管理单元。
 
 2.  在控制台树中，展开“服务和应用程序”****。
 
@@ -56,11 +58,11 @@ _**上次修改的主题：** 2012-09-28_
 
 6.  在“添加 Office Communications Server”**** 对话框中，输入相应信息：
     
-      - 指定每个 Lync Server 2013 前端服务器或 Standard Edition server，以及 Lync Server 2013 池的完全限定域名（FQDN）。
+      - 指定每个 Lync Server 2013 前端服务器或 Standard Edition server 和 Lync Server 2013 池的完全限定的域名 (FQDN) 。
     
       - 如果已在通过其 FQDN 指定下一跃点计算机的池中配置了静态路由，请指定 Lync Server 2013 控制器的 FQDN。
 
-7.  为每个 Lync Server 2013、前端服务器、Standard Edition Server、pool 和 Director 添加了一个条目后，单击 "**应用**"，然后单击 **"确定"** 以关闭 "属性" 页。
+7.  为每个 Lync Server 2013、前端服务器、Standard Edition Server、pool 和 Director 添加了一个条目后，单击 " **应用** "，然后单击 **"确定"** 以关闭 "属性" 页。
 
 </div>
 

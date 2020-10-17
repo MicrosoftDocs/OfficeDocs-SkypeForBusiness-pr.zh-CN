@@ -12,20 +12,22 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f60ded6539f6d984662449562d0f978e98dc3078
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa82180853e8835782d1e39d56fe595e5c7b09b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206548"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500799"
 ---
+# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Lync Server 2013 中的前端池 ABC 故障转移过程
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a>Lync Server 2013 中的前端池 ABC 故障转移过程
+
 
 </div>
 
@@ -45,21 +47,21 @@ _**上次修改的主题：** 2014-05-22_
 
 ## <a name="to-perform-an-abc-failover"></a>执行 ABC 故障转移
 
-1.  检查池 A 是否是中央管理服务器（CMS）的主机。
+1.  检查池 A 是否是中央管理服务器 (CMS) 的主机。
     
       - 运行以下 cmdlet：
         
             Get-CsService -CentralManagement
         
-        如果活动 CMS 的 Identity 字段指向池 A 的完全限定的域名（FQDN），则使用此过程中的步骤2和步骤3先对中央管理服务器进行故障转移。 否则，请跳到步骤4。
+        如果活动 CMS 的 Identity 字段指向池 A 的 (FQDN) 的完全限定的域名，则可以使用此过程中的步骤2和步骤3先对中央管理服务器进行故障转移。 否则，请跳到步骤4。
 
 2.  通过运行以下 cmdlet，在灾难恢复模式下将 CMS 故障转移到 Pool B：
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    执行此操作后，我们建议您将 CMS 从池 B 移到另一个现有配对池，以实现额外的恢复。 有关详细信息，请参阅[move-csmanagementserver](https://docs.microsoft.com/powershell/module/skype/Move-CsManagementServer)。。
+    执行此操作后，我们建议您将 CMS 从池 B 移到另一个现有配对池，以实现额外的恢复。 有关详细信息，请参阅 [move-csmanagementserver](https://docs.microsoft.com/powershell/module/skype/Move-CsManagementServer)。。
 
-3.  如果池 A 包含 CMS，则将 .LIS 配置从池 A 导入到池 B 的 .LIS 数据库（.Lis .mdf）中。 仅当您定期备份 IIS 数据时，这才有效。 若要导入 .LIS 配置，请运行以下 cmdlet：
+3.  如果池 A 包含 CMS，请将 .LIS 配置从 pool A 导入到 pool B 的 .LIS 数据库中 (.Lis) 中。 仅当您定期备份 IIS 数据时，这才有效。 若要导入 .LIS 配置，请运行以下 cmdlet：
     
         Import-CsLisConfiguration -FileName <String> 
         Publish-CsLisConfiguration
@@ -70,7 +72,7 @@ _**上次修改的主题：** 2014-05-22_
     
 
     > [!NOTE]  
-    > 目前， <STRONG>CsRgsConfiguration</STRONG> cmdlet 要求池 A 上的队列和工作流名称与池 B 上的队列和工作流名称不同。如果名称不是唯一的，您将在运行<STRONG>CsRgsConfiguration</STRONG> cmdlet 时收到错误，在继续执行<STRONG>CsRgsConfiguration</STRONG> cmdlet 之前，将需要在 pool B 中重命名队列和工作流。
+    > 目前， <STRONG>CsRgsConfiguration</STRONG> cmdlet 要求池 A 上的队列和工作流名称与池 B 上的队列和工作流名称不同。如果名称不是唯一的，您将在运行 <STRONG>CsRgsConfiguration</STRONG> cmdlet 时收到错误，在继续执行 <STRONG>CsRgsConfiguration</STRONG> cmdlet 之前，将需要在 pool B 中重命名队列和工作流。
 
     
     </div>
@@ -89,7 +91,7 @@ _**上次修改的主题：** 2014-05-22_
     
 
     > [!WARNING]  
-    > 请注意，如果您不想使用主池（池 B）的设置覆盖备份池（池 B）的应用程序级别设置，池 A 的应用程序级别设置将会丢失（如果池 A 丢失），因为响应组应用程序可以每个池仅存储一组应用程序级设置。 部署池 C 以替换池 A 时，必须重新配置应用程序级别的设置，包括默认的保持音乐的音频文件。
+    > 请注意，如果您不想覆盖备份池的应用程序级别设置 (池 B) 使用主池的设置 (池 A) ，池 A 的应用程序级设置将会丢失（如果池 A 丢失），因为响应组应用程序只能为每个池存储一组应用程序级别的设置。 部署池 C 以替换池 A 时，必须重新配置应用程序级别的设置，包括默认的保持音乐的音频文件。
 
     
     </div>
@@ -104,7 +106,7 @@ _**上次修改的主题：** 2014-05-22_
 
 6.  对于未分配号码，请将使用 "公告" 的未分配号码范围作为选定的宣告服务从池 A 移动到 pool B。为此，请执行以下操作：
     
-      - 重新创建在池 B 上的池 A 中部署的所有通知。如果在池 A 中部署通知时使用了任何音频文件，则需要这些文件来重新创建池 B 中的通知。若要在 pool B 中重新创建通知，请使用**CsAnnouncement** cmdlet，并将 pool b 用作父服务。
+      - 重新创建在池 B 上的池 A 中部署的所有通知。如果在池 A 中部署通知时使用了任何音频文件，则需要这些文件来重新创建池 B 中的通知。若要在 pool B 中重新创建通知，请使用 **CsAnnouncement** cmdlet，并将 pool b 用作父服务。
     
       - 将作为池 A 中的公告的所有未分配号码范围重新设定为 pool B 中新部署的宣告。为目标为池 A 的公告的每个未分配号码范围运行以下 cmdlet：
         
@@ -119,7 +121,7 @@ _**上次修改的主题：** 2014-05-22_
     
     </div>
 
-7.  通过运行以下 cmdlet，将池 A 故障转移到灾难恢复（DR）模式中的 Pool B：
+7.  通过运行以下 cmdlet，将灾难恢复中的池 A 故障转移到 Pool B (DR) 模式：
     
         Invoke-CsPoolFailover -PoolFqdn <Pool A FQDN> -DisasterMode
 
@@ -137,7 +139,7 @@ _**上次修改的主题：** 2014-05-22_
     
         Move-CsConferenceDirectory -Identity <Conference Directory ID of Pool A> -TargetPool <Pool C FQDN> -Force
 
-11. 通过运行以下 cmdlet，强制会议自动助理（CAA） Contact 对象从池 A 移到池 C：
+11. 通过运行以下 cmdlet，强制会议自动助理 (CAA) Contact 对象从池 A 移到池 C：
     
         Move-csApplicationEndpoint -Identity "<Pool A CAA Uri>" -targetApplicationPool <Pool C FQDN> -force
 
@@ -150,7 +152,7 @@ _**上次修改的主题：** 2014-05-22_
 
 14. 将已备份的呼叫寄存应用程序数据从池 A 还原到池 C，并将池 A 的呼叫寄存轨道范围分配给 pool C。
     
-      - 您可以通过 Lync Server 控制面板或 Lync Server 命令行管理程序，将池 A 的呼叫寄存轨道范围重新分配到池 C。 对于 Lync Server 命令行管理程序，请为分配到池 A 的每个呼叫寄存通道范围运行以下 cmdlet （请注意，Identity 参数引用属于池 A 的呼叫寄存通道范围）：
+      - 您可以通过 Lync Server 控制面板或 Lync Server 命令行管理程序，将池 A 的呼叫寄存轨道范围重新分配到池 C。 对于 Lync Server 命令行管理程序，请为分配给池 A (的每个呼叫寄存通道范围运行以下 cmdlet。请注意，Identity 参数引用属于池 A) 的呼叫寄存轨道范围：
         
             Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Pool C FQDN>"
     
@@ -162,11 +164,11 @@ _**上次修改的主题：** 2014-05-22_
         
             Xcopy "Source Path" "<Pool C File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"
     
-      - 最后，使用**CsCpsConfiguration** cmdlet 在 pool C 上重新配置呼叫寄存设置。 呼叫寄存应用程序只能为每个池存储一组设置和一个自定义的音乐保留音频文件，并且在发生灾难时不会备份或保留这些设置。
+      - 最后，使用 **CsCpsConfiguration** cmdlet 在 pool C 上重新配置呼叫寄存设置。 呼叫寄存应用程序只能为每个池存储一组设置和一个自定义的音乐保留音频文件，并且在发生灾难时不会备份或保留这些设置。
 
 15. 如果用于持久聊天的下一个跃点池指向池 A，请发出并发布拓扑更改，以便下一个跃点服务器指向池 C。
     
-      - 在拓扑生成器中，将持久聊天池更改为指向池 C 作为其下一个跃点。 为此，请右键单击 "持久聊天" 池，然后单击 "**常规**" 选项卡，然后在 "**下一个跃点池**" 中键入 pool C 的名称。
+      - 在拓扑生成器中，将持久聊天池更改为指向池 C 作为其下一个跃点。 为此，请右键单击 "持久聊天" 池，然后单击 " **常规** " 选项卡，然后在 " **下一个跃点池**" 中键入 pool C 的名称。
     
       - 通过运行以下 cmdlet 启动 pool C 上的服务：
         
@@ -194,7 +196,7 @@ _**上次修改的主题：** 2014-05-22_
     
 
     > [!WARNING]  
-    > 请注意，如果您不想使用备份池（池 B）的设置覆盖池 C 的应用程序级别设置，则池 B 的应用程序级别设置将会丢失，因为响应组应用程序只能存储一组应用程序级别每个池的设置。
+    > 请注意，如果您不想使用备份池的设置覆盖池 C 的应用程序级别设置 (池 B) ，池 B 的应用程序级别设置将丢失，因为响应组应用程序只能为每个池存储一组应用程序级别的设置。
 
     
     </div>
@@ -213,13 +215,13 @@ _**上次修改的主题：** 2014-05-22_
 
 20. 移动到池 C 从池 A 移至池 B 的未分配号码范围。
     
-      - 在池 C 中重新创建从池 B 中的池 A 重新创建的所有通知。如果在部署要移动的通知时使用了任何音频文件，则需要使用这些文件在 pool C 中重新创建通知。若要在 pool C 中重新创建通知，请使用**CsAnnouncement** cmdlet，将 pool c 用作父服务。
+      - 在池 C 中重新创建从池 B 中的池 A 重新创建的所有通知。如果在部署要移动的通知时使用了任何音频文件，则需要使用这些文件在 pool C 中重新创建通知。若要在 pool C 中重新创建通知，请使用 **CsAnnouncement** cmdlet，将 pool c 用作父服务。
     
       - 从池 C 重新定位到池 B 的所有未分配号码范围。为需要重定目标的每个未分配号码范围运行以下 cmdlet：
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool C FQDN>" -AnnouncementName "<New Announcement in pool C>"
     
-      - Optional从池 B 中删除如果已不再在池 B 中使用，则在池 C 中重新创建的通知。若要删除通知，请使用**CsAnnouncement** cmdlet。
+      -  (可选) 从池 B 中删除如果它们不再在池 B 中使用，则在池 C 中重新创建的通知。若要删除通知，请使用 **CsAnnouncement** cmdlet。
         
         <div>
         
@@ -238,11 +240,11 @@ _**上次修改的主题：** 2014-05-22_
     
       - Unpair 池 A 和池 B 对池 B 和池 C。然后，从拓扑中删除池 A 并发布它。 为此，请执行以下操作：
         
-          - 在拓扑生成器中，右键单击 "池 B"，然后单击 "**编辑属性**"。
+          - 在拓扑生成器中，右键单击 "池 B"，然后单击 " **编辑属性**"。
         
-          - 在左窗格中单击 "**弹性**"。
+          - 在左窗格中单击 " **弹性** "。
         
-          - 在 "关联的**备份池**" 下面的框中，选择 "池 C"。请注意，"关联的备份池" 选择框最初将显示池 A，这是因为以前与此池相关联的池 B。
+          - 在 "关联的 **备份池**" 下面的框中，选择 "池 C"。请注意，"关联的备份池" 选择框最初将显示池 A，这是因为以前与此池相关联的池 B。
         
           - 选择“语音的自动故障转移和故障回复”****，然后单击“确定”****。
             
@@ -262,7 +264,7 @@ _**上次修改的主题：** 2014-05-22_
         Stop-CsWindowsService -name LyncBackup
         Start-CsWindowsService -name LyncBackup
 
-25. 如果 pool C 是标准版（SE）池，并且 pool B 有 CMS，请运行以下 cmdlet，在池 C 上手动安装 CMS 数据库：
+25. 如果 pool C 是标准版 (SE) 池和池 B 拥有 CMS，请通过运行以下 cmdlet 在池 C 上手动安装 CMS 数据库：
     
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <Pool C FQDN> -SqlInstanceName rtc
 
@@ -310,9 +312,9 @@ _**上次修改的主题：** 2014-05-22_
 
 28. 在拓扑生成器中，对于之前与池 A 关联的每个 SBA X，请执行以下操作：
     
-      - 将关联更改为池 C。为此，请单击分支站点，展开 "Survivable Branch 器具" 或 "Servers" 节点，然后单击 " **Survivable Branch 设备**"。 然后选择 "Survivable" 分支设备将作为池 C 连接到的 "**用户服务" 池**，然后单击 "**下一步**"。
+      - 将关联更改为池 C。为此，请单击分支站点，展开 "Survivable Branch 器具" 或 "Servers" 节点，然后单击 " **Survivable Branch 设备**"。 然后选择 "Survivable" 分支设备将作为池 C 连接到的 " **用户服务" 池** ，然后单击 " **下一步**"。
     
-      - 发布拓扑。 若要执行此操作，请在控制台树中，右键单击新的**Survivable 分支设备**，单击 "**拓扑**"，然后单击 "**发布**"。
+      - 发布拓扑。 若要执行此操作，请在控制台树中，右键单击新的 **Survivable 分支设备**，单击 " **拓扑**"，然后单击 " **发布**"。
 
 29. 对于现在与池 C 关联的每个 SBA X：
     

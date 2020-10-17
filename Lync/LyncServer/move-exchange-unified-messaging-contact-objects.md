@@ -12,20 +12,22 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3b3091a342b46b5c1aad1d456aa9159d951a4ba
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 42abb209eaf59be66c8516401616dcac4f1c94ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756611"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500289"
 ---
+# <a name="move-exchange-unified-messaging-contact-objects"></a>移动 Exchange 统一消息联系人对象
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-exchange-unified-messaging-contact-objects"></a>移动 Exchange 统一消息联系人对象
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44756611"
 
 _**上次修改的主题：** 2012-10-19_
 
-若要将自动助理（AA）和订阅者访问（SA）联系人对象迁移到新的 Lync Server 2013 部署，您首先要使用**CsExUmContact**和**CsExUmContact** cmdlet 将对象从旧版 Office 通信服务器 2007 R2 部署移动到新的 lync server 2013 部署。 在 Exchange 服务器上，您可以运行**Exchucutil.ps1** Windows PowerShell 脚本，为新部署的 Lync pool 执行以下操作：
+若要将自动助理 (AA) 和订阅者访问 (SA) 的联系人对象迁移到新的 Lync Server 2013 部署，请首先使用 **CsExUmContact** 和 **CsExUmContact** cmdlet 将对象从旧版 Office 通信服务器 2007 R2 部署移动到新的 lync server 2013 部署。 在 Exchange 服务器上，您可以运行 **Exchucutil.ps1** Windows PowerShell 脚本，为新部署的 Lync pool 执行以下操作：
 
   - 将其添加到统一消息 IP 网关。
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-10-19_
 
 1.  打开 Lync Server 命令行管理程序。
 
-2.  对于在 Exchange UM 中注册的每个池（其中 pool1.contoso.net 是 Office 通信服务器 2007 R2 部署中的池，而 pool2.contoso.net 是来自 Lync Server 2013 部署的池），请键入以下命令：
+2.  对于在 Exchange UM 中注册的每个池 (其中 pool1.contoso.net 是 Office 通信服务器 2007 R2 部署的池，pool2.contoso.net 是来自 Lync Server 2013) 部署的池。在命令行中，键入以下命令：
     
         Get-CsExUmContact -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsExUmContact -Target pool02.contoso.net
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 447c19b96e2189953db81db6ce4f022e4d0f6e6f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e9fe6364e92fc6416a78ec49001e94193ae9731e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207671"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500929"
 ---
+# <a name="enabling-qos-in-lync-server-2013-for-devices-that-are-not-based-on-windows"></a>在 Lync Server 2013 中为不基于 Windows 的设备启用 QoS
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-qos-in-lync-server-2013-for-devices-that-are-not-based-on-windows"></a>在 Lync Server 2013 中为不基于 Windows 的设备启用 QoS
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42207671"
 
 _**上次修改的主题：** 2012-11-01_
 
-安装 Microsoft Lync Server 2013 时，将不会为组织中使用 Windows 以外的操作系统的任何设备启用服务质量（QoS）。 您可以通过在 Lync Server 2013 命令行管理程序中运行以下命令来验证这一点：
+安装 Microsoft Lync Server 2013 时，将不会为您的组织中使用 Windows 以外的操作系统的任何设备启用服务质量 (QoS) 。 您可以通过在 Lync Server 2013 命令行管理程序中运行以下命令来验证这一点：
 
     Get-CsMediaConfiguration
 
@@ -52,7 +54,7 @@ _**上次修改的主题：** 2012-11-01_
     EnableH264Codec                   : True
     EnableAdaptiveBandwidthEstimation : True
 
-如果将 EnableQoS 属性设置为 False （如前面的输出中所示），这意味着没有为使用 Windows 之外的操作系统的计算机和设备启用服务质量。 默认情况下为 Lync Phone Edition 设备启用了 QoS;但是，可以禁用 Lync Phone Edition 的服务质量。
+如果将 EnableQoS 属性设置为 False (如前面的输出) 意味着不会为使用 Windows 之外的操作系统的计算机和设备启用服务质量。 默认情况下为 Lync Phone Edition 设备启用了 QoS;但是，可以禁用 Lync Phone Edition 的服务质量。
 
 若要在全局范围内启用服务质量，请在 Lync Server 命令行管理程序中运行以下命令：
 
@@ -72,7 +74,7 @@ _**上次修改的主题：** 2012-11-01_
 
 </div>
 
-如果要同时为所有媒体配置设置启用 QoS （不考虑作用域），请在 Lync Server 命令行管理程序中运行以下命令：
+如果要同时为所有媒体配置设置启用 QoS (而不考虑作用域) 则在 Lync Server 命令行管理程序中运行以下命令：
 
     Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
 

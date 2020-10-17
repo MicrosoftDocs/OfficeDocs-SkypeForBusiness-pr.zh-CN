@@ -12,20 +12,22 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48ee62d2eee4ab6e18b3c0c07b46f79b779bcce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3823f65d5bc565f01b55b08259a4482c97bbd43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217678"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500649"
 ---
+# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量指标分布报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量指标分布报告
+
 
 </div>
 
@@ -48,7 +50,7 @@ _**上次修改的主题：** 2012-06-06_
 <thead>
 <tr class="header">
 <th>呼叫号码</th>
-<th>往返时间（毫秒）</th>
+<th>往返时间 (毫秒) </th>
 </tr>
 </thead>
 <tbody>
@@ -65,11 +67,11 @@ _**上次修改的主题：** 2012-06-06_
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
@@ -89,18 +91,18 @@ _**上次修改的主题：** 2012-06-06_
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>50</p></td>
 </tr>
 </tbody>
 </table>
 
 
-这些往返时间的平均值是500毫秒（5000除以10）。 500毫秒是往返时间非常长;因此，您可能认为网络拥塞存在严重问题。 （长时间往返通常是超载网络的结果。）
+这些往返时间的平均值是500毫秒 (5000 除以 10) 。 500毫秒是往返时间非常长;因此，您可能认为网络拥塞存在严重问题。  (长往返时间通常是超载网络的结果。 ) 
 
 当然，事实上，90% 的呼叫中有很好的往返时间;您只是有一个错误的呼叫，它会将整体结果引起扭曲。 如果您仅查看平均往返时间，可能会跳转到一个非常错误的结论。
 
-媒体质量指标分布报告通过向您显示指定指标（如往返行程时间）的图形分布，帮助您避免跳转到错误结论。 这些关系图可帮助您清楚您有九个良好的呼叫和一个非常坏的呼叫。 无可否认，您可能仍希望进一步调查一个呼叫;但是，10个呼叫中的9个事实非常良好，这意味着没有理由对网络进行任何重大更改（至少在此时间点）。
+媒体质量指标分布报告通过向您显示指定 (指标的图形分布（如往返行程时间) ），帮助您避免跳转到错误的结论。 这些关系图可帮助您清楚您有九个良好的呼叫和一个非常坏的呼叫。 无可否认，您可能仍希望进一步调查一个呼叫;但是，10个呼叫中的9个事实非常良好，这意味着没有理由对网络进行任何重大更改（至少在此时间点）。
 
 <div>
 

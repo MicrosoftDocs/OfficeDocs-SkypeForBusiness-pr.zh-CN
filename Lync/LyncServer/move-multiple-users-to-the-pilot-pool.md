@@ -12,20 +12,22 @@ ms:contentKeyID: 48184838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a5a92b0438e72be0ecb5acaa1b8e1886768ad59
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: be7fd473b858c6a35b23f8aaa0c525875218d3f7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755396"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500229"
 ---
+# <a name="move-multiple-users-to-the-pilot-pool"></a>将多个用户移动到引导池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-multiple-users-to-the-pilot-pool"></a>将多个用户移动到引导池
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-10-02_
     
     !["移动用户，目标注册器池" 对话框](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png ""移动用户，目标注册器池" 对话框")  
 
-7.  确认用户的 "**注册器池**" 列现在包含 Lync Server 2013 池，这表明已成功移动用户。
+7.  确认用户的 " **注册器池** " 列现在包含 Lync Server 2013 池，这表明已成功移动用户。
 
 </div>
 
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2012-10-02_
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
     
-    ![PowerShell Get-csuser cmdlet 示例](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "PowerShell Get-csuser cmdlet 示例")  
+    ![PowerShell Get-CsUser cmdlet 的示例](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "PowerShell Get-CsUser cmdlet 的示例")  
 
 3.  在命令行中键入：
     
@@ -81,7 +83,7 @@ _**上次修改的主题：** 2012-10-02_
 
 4.  **注册器池**标识现在应指向您在上一步中指定为**池 \_ FQDN**的池。 存在该标识即可确认已成功移动用户。 重复此步骤以确认 **User2** 已移动。
     
-    ![PowerShell UsUser cmdlet 的输出](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell UsUser cmdlet 的输出")  
+    ![PowerShell Get-UsUser 标识 cmdlet 的输出](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser 标识 cmdlet 的输出")  
 
 </div>
 
@@ -89,9 +91,9 @@ _**上次修改的主题：** 2012-10-02_
 
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-lync-server-2013-management-shell"></a>使用 Lync Server 2013 命令行管理程序同时移动所有用户
 
-在此示例中，所有用户都已返回到 Lync Server 2010 池（pool01.contoso.net）。 使用 Lync Server 2013 命令行管理程序，我们将同时将所有用户移动到 Lync Server 2013 池（pool02.contoso.net）。
+在此示例中，所有用户都已返回到 Lync Server 2010 池 (pool01.contoso.net) 。 使用 Lync Server 2013 命令行管理程序，我们将同时将所有用户同时移动到 Lync Server 2013 池 (pool02.contoso.net) 。
 
-1.  打开**Lync Server 2013 命令行管理**程序。
+1.  打开 **Lync Server 2013 命令行管理**程序。
 
 2.  在命令行中键入：
     
@@ -103,7 +105,7 @@ _**上次修改的主题：** 2012-10-02_
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  每个用户的**注册器池**标识现在指向您 \_ 在上一步中指定为 "池 FQDN" 的池。 存在该标识即可确认已成功移动用户。
+4.  每个用户的 **注册器池** 标识现在指向您 \_ 在上一步中指定为 "池 FQDN" 的池。 存在该标识即可确认已成功移动用户。
 
 5.  此外，我们还可以查看 Lync Server 2013 控制面板中的用户列表，并验证注册器池值是否现在指向 Lync Server 2013 池。
     

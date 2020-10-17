@@ -12,20 +12,22 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 810a49a35f9b2597e8a84427e513217ff35efefb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 145a2849d8b87f0f19559583e94edb5e895f89db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500489"
 ---
+# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>在 Lync Server 2013 中的两个用户之间测试 IM 的功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>在 Lync Server 2013 中的两个用户之间测试 IM 的功能
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-06-05_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsIM cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsIM cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,11 +66,11 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>Description
+## <a name="description"></a>说明
 
-CsIM cmdlet 验证一对测试用户是否可以交换即时消息。 调用 CsIM cmdlet 时，将通过尝试将一对测试用户登录到 Lync Server 来启动测试。 假定两次登录成功，则 cmdlet 将在两个测试用户之间启动 IM 会话。 （用户1邀请用户2到 IM 会话，而用户2接受邀请。）在验证了是否可以在两个用户之间交换邮件之后，CsIM 随后将结束 IM 会话并将这两个用户从系统注销。
+Test-CsIM cmdlet 验证一对测试用户是否可以交换即时消息。 调用后，Test-CsIM cmdlet 将通过尝试将一对测试用户登录到 Lync Server 来启动。 假定两次登录成功，则 cmdlet 将在两个测试用户之间启动 IM 会话。  (User 1 邀请用户2到 IM 会话，而用户2接受邀请。 ) 在验证是否可以在两个用户之间交换邮件之后，Test-CsIM 将结束 IM 会话并将这两个用户从系统注销。
 
-有关详细信息，请参阅[CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) Cmdlet 的帮助文档。
 
 </div>
 
@@ -76,17 +78,17 @@ CsIM cmdlet 验证一对测试用户是否可以交换即时消息。 调用 CsI
 
 ## <a name="running-the-test"></a>运行测试
 
-CsIM cmdlet 可使用一对预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或任何两个已启用 Lync Server 的用户的帐户运行。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
+可以使用一对预配置的测试帐户运行 Test-CsIM cmdlet (参阅设置用于运行 Lync Server 测试的测试帐户) 或已为其启用 Lync Server 的任意两个用户的帐户。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
-若要使用实际用户帐户运行此检查，必须为每个帐户创建两个 Windows PowerShell 凭据对象（包含帐户名和密码的对象）。 在调用 CsIM 时，必须包括这些凭据对象和两个帐户的 SIP 地址：
+若要使用实际用户帐户运行此检查，必须为每个帐户 (包含帐户名称和密码) 的对象创建两个 Windows PowerShell 凭据对象。 在调用 CsIM 时，必须包括这些凭据对象和两个帐户的 SIP 地址：
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsIm -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-有关详细信息，请参阅[CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) Cmdlet 的帮助文档。
 
 </div>
 
@@ -94,7 +96,7 @@ CsIM cmdlet 可使用一对预配置的测试帐户（请参阅设置运行 Lync
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果两个用户可以完成即时消息会话，您将收到与以下内容类似的输出，并将 Result 属性标记为 "**成功"：**
+如果两个用户可以完成即时消息会话，您将收到与以下内容类似的输出，并将 Result 属性标记为 " **成功"：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -122,15 +124,15 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 Microsoft DiagnosticHeader
 
-例如，以前的输出表明由于找不到指定的用户而导致测试失败。 可以通过运行以下命令来确定 SIP 地址是否有效（以及用户为其分配了该 SIP 地址的用户是否已启用 Lync Server）：
+例如，以前的输出表明由于找不到指定的用户而导致测试失败。 您可以通过运行以下命令来确定 SIP 地址是否有效 (以及用户是否已为 Lync Server) 启用了该 SIP 地址：
 
     Get-CsUser "Ken Myer" | Select-Object SipAddress, Enabled
 
-如果 CsIM 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
+如果 Test-CsIM 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-包含 Verbose 参数时，CsIM 将返回它在检查了两个测试用户要参与 IM 会话的能力时所尝试的每个操作的分步帐户。 例如，以下是在为 CsIM 提供不正确的一组用户凭据（在此示例中为不正确的密码）时发生的示例输出：
+包含 Verbose 参数时，Test-CsIM 将返回它在检查了两个测试用户参与 IM 会话的能力时所尝试的每个操作的分步帐户。 例如，以下是当一组错误的用户凭据 (在这种情况下，在为 CsIM 提供不正确的密码) 的情况下会发生的示例输出：
 
 发送注册请求：
 
@@ -154,7 +156,7 @@ Microsoft DiagnosticHeader
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是测试 CsIM 可能失败的一些常见原因：
+下面是 Test-CsIM 可能失败的一些常见原因：
 
   - 您指定的用户帐户无效。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     

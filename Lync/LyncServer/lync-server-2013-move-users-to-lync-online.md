@@ -12,20 +12,22 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dcc72c0f9934aebf28838cfd79899e1ce7aa2bc
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 189bf46da6c6bdaa6749f899d2a672967680cc45
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221202"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500568"
 ---
+# <a name="move-users-to-lync-online-in-lync-server-2013"></a>在 Lync Server 2013 中将用户移动到 Lync Online
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-lync-online-in-lync-server-2013"></a>在 Lync Server 2013 中将用户移动到 Lync Online
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44221202"
 
 _**上次修改的主题：** 2014-05-29_
 
-在开始将用户迁移到 Lync Online 之前，应备份与要移动的帐户关联的用户数据。 并不是所有用户数据都与用户帐户一起移动。 有关信息，请参阅[Lync Server 2013： data 中的备份和还原要求](lync-server-2013-backup-and-restoration-requirements-data.md)。
+在开始将用户迁移到 Lync Online 之前，应备份与要移动的帐户关联的用户数据。 并不是所有用户数据都与用户帐户一起移动。 有关信息，请参阅 [Lync Server 2013： data 中的备份和还原要求](lync-server-2013-backup-and-restoration-requirements-data.md)。
 
 <div>
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2014-05-29_
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-为**HostedMigrationOverrideUrl**参数指定的 url 的格式必须是运行托管迁移服务的池的 url，格式如下： HTTPS:// \< 池 FQDN \> /hostedmigration/hostedmigrationservice.svc。
+为 **HostedMigrationOverrideUrl** 参数指定的 url 的格式必须是运行托管迁移服务的池的 url，格式如下： Https:// \<Pool FQDN\> /hostedmigration/hostedmigrationservice.svc。
 
 您可以通过查看适用于 Microsoft 365 或 Office 365 组织帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。
 
@@ -71,13 +73,13 @@ _**上次修改的主题：** 2014-05-29_
 
 1.  以管理员身份登录到你的 Microsoft 365 或 Office 365 组织。
 
-2.  打开**Lync 管理中心**。
+2.  打开 **Lync 管理中心**。
 
-3.  在 " **Lync 管理中心**" 显示的情况下，选择并将地址栏中的 URL 复制到**lync.com**。 示例 URL 的外观类似于以下内容：
+3.  在 " **Lync 管理中心** " 显示的情况下，选择并将地址栏中的 URL 复制到 **lync.com**。 示例 URL 的外观类似于以下内容：
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  将 URL 中的**webdir**替换为**admin**，从而产生以下结果：
+4.  将 URL 中的 **webdir** 替换为 **admin**，从而产生以下结果：
     
     `https://admin0a.online.lync.com`
 
@@ -93,7 +95,7 @@ _**上次修改的主题：** 2014-05-29_
 
 ## <a name="moving-users-to-lync-online"></a>将用户移动到 Lync Online
 
-您可以使用带有– Filter 参数的[get-csuser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet 来移动多个用户，以选择具有分配给用户帐户的特定属性的用户，如 RegistrarPool。 然后，您可以通过管道将返回的用户通过管道传递到[get-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) cmdlet，如以下示例所示。
+您可以使用带有– Filter 参数的 [get-csuser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet 来移动多个用户，以选择具有分配给用户帐户的特定属性的用户，如 RegistrarPool。 然后，您可以通过管道将返回的用户通过管道传递到 [get-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) cmdlet，如以下示例所示。
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

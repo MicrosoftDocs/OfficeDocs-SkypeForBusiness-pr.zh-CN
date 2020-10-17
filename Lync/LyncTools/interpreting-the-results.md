@@ -12,20 +12,22 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d02f69f8ea1c8eb7df004e063dba39f03bbe8b7
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f3a15880de861b850d3e0355491e85219ba3579d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755466"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499909"
 ---
+# <a name="interpreting-the-results"></a>解释结果
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="interpreting-the-results"></a>解释结果
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755466"
 
 _**上次修改的主题：** 2013-02-24_
 
-Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数器，您可以使用这些计数器来了解客户端正在执行的操作以及它是否遇到问题。
+Lync Server 2013 的压力和性能工具 ( # A0) 具有许多计数器，您可以使用这些计数器来了解客户端正在执行的操作以及它是否遇到问题。
 
 <div>
 
@@ -113,7 +115,7 @@ Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数�
 <tbody>
 <tr class="odd">
 <td><p>SetPresence 调用</p></td>
-<td><p>状态更改尝试的总数。 有关不同类型的状态更改，请参阅 SetPresence （状态类型）调用性能计数器。</p></td>
+<td><p>状态更改尝试的总数。 有关不同类型的状态更改，请参阅 SetPresence (状态类型) Calls Performance Counter。</p></td>
 </tr>
 <tr class="even">
 <td><p>SetPresence 的 NNN 响应</p></td>
@@ -133,7 +135,7 @@ Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数�
 
 **通讯簿服务信息**
 
-此类别包括用于监视通讯簿服务（ABS）文件下载和通讯簿 Web 查询服务请求的计数器。
+此类别包括用于监视通讯簿服务 (ABS) 文件下载和通讯簿 Web 查询服务请求的计数器。
 
 
 <table>
@@ -176,7 +178,7 @@ Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数�
 </table>
 
 
-**通讯组列表（DL）信息**
+**通讯组列表 (DL) 信息**
 
 
 <table>
@@ -193,7 +195,7 @@ Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数�
 <tbody>
 <tr class="odd">
 <td><p>尝试的呼叫</p></td>
-<td><p>尝试的通讯组列表展开（DLX） web 服务请求总数。</p></td>
+<td><p>尝试的通讯组列表展开 (DLX) web 服务请求的总数。</p></td>
 </tr>
 <tr class="even">
 <td><p>呼叫成功</p></td>
@@ -209,7 +211,7 @@ Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数�
 
 **VoIP 基本信息**
 
-在启用这些方案时，下面列出了所有 IP 语音（VoIP）呼叫的报告编号，包括对中介服务器、A/V 会议服务器、边缘服务器、响应组应用程序和会议自动助理的呼叫。
+在启用这些方案时，以下列出的性能计数器将列出所有 IP 语音 (VoIP) 呼叫的报告编号，包括对中介服务器、A/V 会议服务器、边缘服务器、响应组应用程序和会议自动助理的呼叫。
 
 
 <table>
@@ -249,7 +251,7 @@ Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数�
 <td><p>从服务器接收的 nnn 响应代码总数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>VoIP 传递率（%）</p></td>
+<td><p>VoIP 传递速率 (% ) </p></td>
 <td><p>已建立的呼叫总数/尝试的总呼叫数。</p></td>
 </tr>
 </tbody>
@@ -283,7 +285,7 @@ Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数�
 </table>
 
 
-**即时消息（IM）呼叫信息**
+**即时消息 (IM) 呼叫信息**
 
 
 <table>
@@ -386,7 +388,7 @@ Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数�
 <tbody>
 <tr class="odd">
 <td><p>活动呼叫</p></td>
-<td><p>当前正在进行的传入/传出公用电话交换网（PSTN）呼叫总数。</p></td>
+<td><p>当前正在进行的 (PSTN) 呼叫的传入/传出公用交换电话网络总数。</p></td>
 </tr>
 <tr class="even">
 <td><p>呼叫已终止</p></td>
@@ -425,7 +427,7 @@ Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数�
 </tr>
 <tr class="even">
 <td><p>活动的音频/视频会议</p></td>
-<td><p>正在进行的音频/视频（A/V）会议总数。</p></td>
+<td><p> (A/V) 会议的现行音频/视频总数。</p></td>
 </tr>
 <tr class="odd">
 <td><p>活动应用程序共享会议</p></td>

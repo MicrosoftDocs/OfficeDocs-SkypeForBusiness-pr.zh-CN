@@ -12,20 +12,22 @@ ms:contentKeyID: 48185919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 836edd026e6b80404b9a85a3d5a0f53fa2ba574a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c0975f6be3d78ec7634859b26e7ed35e7efee5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187805"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501029"
 ---
+# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>在 Lync Server 2013 中为用户启用托管语音邮件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>在 Lync Server 2013 中为用户启用托管语音邮件
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "42187805"
 
 _**上次修改的主题：** 2012-09-24_
 
-按照在托管 Exchange 统一消息（UM）服务上为语音邮件启用 Lync Server 2013 用户的过程操作。
+按照在托管 Exchange 统一消息 (UM) 服务上启用 "语音邮件" 的过程中启用 "Lync Server 2013 用户" 的过程。
 
-有关详细信息，请参阅规划文档中的在[Lync Server 2013 中托管 Exchange 用户管理](lync-server-2013-hosted-exchange-user-management.md)。
+有关详细信息，请参阅规划文档中的在 [Lync Server 2013 中托管 Exchange 用户管理](lync-server-2013-hosted-exchange-user-management.md) 。
 
-有关[get-csuser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档。
+有关 [get-csuser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 在可以对 Lync Server 2013 用户启用托管语音邮件之前，必须部署适用于其用户帐户的托管语音邮件策略。 有关详细信息，请参阅<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。
+> 在可以对 Lync Server 2013 用户启用托管语音邮件之前，必须部署适用于其用户帐户的托管语音邮件策略。 有关详细信息，请参阅 <A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。
 
 
 
@@ -59,13 +61,13 @@ _**上次修改的主题：** 2012-09-24_
 
 1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-2.  运行 Get-csuser cmdlet 以配置托管语音邮件的用户帐户。 例如，运行：
+2.  运行 Set-CsUser cmdlet 以配置托管语音邮件的用户帐户。 例如，运行：
     
         Set-CsUser -HostedVoiceMail $True -Identity "contoso\kenmyer"
     
     上述示例设置了以下参数：
     
-      - **HostedVoiceMail**允许将用户的语音邮件呼叫路由到托管 Exchange UM。 它还向 Microsoft Lync 2013 发出信号，以亮出 "呼叫语音邮件" 指示器。
+      - **HostedVoiceMail** 允许将用户的语音邮件呼叫路由到托管 Exchange UM。 它还向 Microsoft Lync 2013 发出信号，以亮出 "呼叫语音邮件" 指示器。
     
       - **Identity** 指定要修改的用户帐户。可以使用以下任意格式指定 Identity 值：
         
@@ -73,9 +75,9 @@ _**上次修改的主题：** 2012-09-24_
         
           - 用户的 Active Directory 用户主体名称
         
-          - 用户的域\\登录名（例如，contoso\\kenmyer）
+          - 用户的域 \\ 登录名 (例如，contoso \\ kenmyer) 
         
-          - 用户的 Active Directory 域服务显示名称（例如，Ken Myer）。 如果使用显示名称作为标识值，则可以使用星号（\*）通配符。 例如，标识 "\* smith" 将返回显示名称以字符串值 "smith" 结尾的所有用户。
+          - 用户的 Active Directory 域服务显示名称（例如，Ken Myer）。 如果使用 Display-Name 作为 Identity 值，则可以使用星号 (\*) 通配符。 例如，标识 " \* smith" 将返回其 Display-Name 以字符串值 "smith" 结尾的所有用户。
         
         <div>
         

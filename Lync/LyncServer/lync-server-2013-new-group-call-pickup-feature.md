@@ -12,20 +12,22 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cdab88634cb0687efbe5012d841b19f4bba6b31
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89e7c8f096c7cfabd1a46a67c91b9514d73055ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500499"
 ---
+# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Lync Server 2013 中的新组呼叫装货功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Lync Server 2013 中的新组呼叫装货功能
+
 
 </div>
 

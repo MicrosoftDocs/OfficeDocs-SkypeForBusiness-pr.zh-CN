@@ -12,20 +12,22 @@ ms:contentKeyID: 48185800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d954fcd121bff2dbc77f390b5cdad1116bb7e7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d03f47cbe637e2c6fe6a0466b73a3588b842d6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187825"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501039"
 ---
+# <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中为用户启用企业语音
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中为用户启用企业语音
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2012-11-01_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“用户”****。
 
@@ -77,9 +79,9 @@ _**上次修改的主题：** 2012-11-01_
 
 9.  单击“提交”****。
 
-若要为用户启用企业语音，请确保为用户分配了语音策略和拨号计划，无论是全局的（默认分配的）还是特定于用户的。
+若要为用户启用企业语音，请确保为该用户分配了语音策略和拨号计划，无论默认情况下是分配全局 () 还是特定于用户。
 
-默认情况下，会为所有用户分配一个全局语音策略和一个拨号计划。 如果语音策略或拨号计划的站点级别与承载用户帐户的站点相同，则这些站点策略将自动应用于用户。 要对用户应用每用户语音策略或拨号计划，您必须运行 **Grant-CsVoicePolicy** 和 **Grant-CsDialPlan** cmdlet。 有关详细信息，请参阅[Lync Server 2013 命令行管理](lync-server-2013-lync-server-management-shell.md)程序文档。
+默认情况下，会为所有用户分配一个全局语音策略和一个拨号计划。 如果语音策略或拨号计划的站点级别与承载用户帐户的站点相同，则这些站点策略将自动应用于用户。 要对用户应用每用户语音策略或拨号计划，您必须运行 **Grant-CsVoicePolicy** 和 **Grant-CsDialPlan** cmdlet。 有关详细信息，请参阅 [Lync Server 2013 命令行管理](lync-server-2013-lync-server-management-shell.md) 程序文档。
 
 </div>
 
@@ -105,7 +107,7 @@ _**上次修改的主题：** 2012-11-01_
     
         Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
     
-    在此示例中，显示名称为 Bob 凯利的用户被分配了名称为**VoicePolicyJapan**的语音策略。
+    在此示例中，显示名称为 Bob 凯利的用户被分配了名称为 **VoicePolicyJapan**的语音策略。
 
 有关分配特定于用户的语音策略或运行 Set-csvoicepolicy cmdlet 的详细信息，请参阅[Lync Server 2013 命令行管理](lync-server-2013-lync-server-management-shell.md)**程序**文档。
 
@@ -137,7 +139,7 @@ _**上次修改的主题：** 2012-11-01_
     
         Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
     
-    在此示例中，显示名称为小明凯利的用户被分配了名称为**DialPlanJapan**的用户拨号计划。
+    在此示例中，显示名称为小明凯利的用户被分配了名称为 **DialPlanJapan**的用户拨号计划。
 
 有关分配用户拨号计划或运行 Grant-csdialplan cmdlet 的详细信息，请参阅[Lync Server 2013 命令行管理](lync-server-2013-lync-server-management-shell.md)**程序**文档。
 

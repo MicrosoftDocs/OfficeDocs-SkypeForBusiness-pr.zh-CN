@@ -12,20 +12,22 @@ ms:contentKeyID: 51541469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 225702f30aa19bf53c8b3f65c9731ea29b16a686
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dfc137b6dfd8fa33e3826f7d6b59f1bb649a3189
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501099"
 ---
+# <a name="editing-the-network-configuration-diagram-in-lync-server-2013"></a>在 Lync Server 2013 中编辑网络配置图
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="editing-the-network-configuration-diagram-in-lync-server-2013"></a>在 Lync Server 2013 中编辑网络配置图
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197345"
 
 _**上次修改的主题：** 2013-02-21_
 
-在 Lync Server 2013 中，设计人员在 Lync Server 中执行的大部分工作都包含为 "网络图" 上的条目定义 IP 地址和完全限定域名（Fqdn）的条目。 在此页上输入的信息将包含在规划工具中的报告和其他信息中。
+在 Lync Server 2013 中，规划器在 Lync Server 中执行的大部分工作由 "网络图" 上条目的 IP 地址和完全限定域名的条目定义 (Fqdn) 组成。 在此页上输入的信息将包含在规划工具中的报告和其他信息中。
 
 ![规划工具网络图](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "规划工具网络图")
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2013-02-21_
 
 完成所有编辑后，通过完成以下步骤来保存拓扑：
 
-若要保存规划工具设计，请单击 "**文件**"，然后单击 "**保存拓扑**" 或 "**将拓扑另存为**"。 如果出现 **“将规划工具另存为”** 对话框，请在 **“文件名”** 中键入文件的名称，然后单击 **“保存”**。
+若要保存规划工具设计，请单击 " **文件**"，然后单击 " **保存拓扑** " 或 " **将拓扑另存为**"。 如果出现 **“将规划工具另存为”** 对话框，请在 **“文件名”** 中键入文件的名称，然后单击 **“保存”**。
 
 <div>
 

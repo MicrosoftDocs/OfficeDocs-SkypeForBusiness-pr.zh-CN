@@ -12,20 +12,22 @@ ms:contentKeyID: 49733582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e97346929851bec53ab228988d72fb4813316d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b71678b9fbd19cfd52c81976de0955ea39ce9e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207288"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500819"
 ---
+# <a name="focusjoinsandleaves-view-in-lync-server-2013"></a>Lync Server 2013 中的 FocusJoinsAndLeaves 视图
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="focusjoinsandleaves-view-in-lync-server-2013"></a>Lync Server 2013 中的 FocusJoinsAndLeaves 视图
+
 
 </div>
 
@@ -57,27 +59,27 @@ FocusJoinsAndLeaves 视图存储有关加入和离开某会议的信息。 每�
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>会议实例的时间。 与 SessionIdSeq 结合使用来唯一地标识会议实例。 有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
+<td><p>会议实例的时间。 与 SessionIdSeq 结合使用来唯一地标识会议实例。 有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a> 的 "会议" 表。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>用于标识会议实例的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会议实例。 有关详细信息，请参阅<a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a>的 "会议" 表。</p></td>
+<td><p>用于标识会议实例的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会议实例。 有关详细信息，请参阅 <a href="lync-server-2013-conferences-table.md">Lync Server 2013 中</a> 的 "会议" 表。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>已捕获其会议加入/离开信息的用户的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>已捕获其会议加入/离开信息的用户的 URI 类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>已捕获其会议加入/离开信息的用户的 URI 类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>已捕获其会议加入/离开信息的用户的租户。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>已捕获其会议加入/离开信息的用户的租户。 有关详细信息，请参阅 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserEndpointId</strong></p></td>
@@ -86,17 +88,17 @@ FocusJoinsAndLeaves 视图存储有关加入和离开某会议的信息。 每�
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientVersion</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>由已捕获其会议加入/离开信息的用户使用的客户端版本。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>由已捕获其会议加入/离开信息的用户使用的客户端。 有关更多详细信息，请参阅<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</p></td>
+<td><p>由已捕获其会议加入/离开信息的用户使用的客户端。 有关更多详细信息，请参阅 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientCategory</strong></p></td>
-<td><p>nvarchar （64）</p></td>
+<td><p>nvarchar (64) </p></td>
 <td><p>由已捕获其会议加入/离开信息的用户使用的客户端的类别名称。</p></td>
 </tr>
 <tr class="even">
@@ -112,7 +114,7 @@ FocusJoinsAndLeaves 视图存储有关加入和离开某会议的信息。 每�
 <tr class="even">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
@@ -121,7 +123,7 @@ FocusJoinsAndLeaves 视图存储有关加入和离开某会议的信息。 每�
 </tr>
 <tr class="even">
 <td><p><strong>DialogId</strong></p></td>
-<td><p>varchar （775）</p></td>
+<td><p>varchar (775) </p></td>
 <td><p>会话的 SIP 对话 ID。格式为：dialog;from-tag;to-tag。</p></td>
 </tr>
 <tr class="odd">
@@ -136,7 +138,7 @@ FocusJoinsAndLeaves 视图存储有关加入和离开某会议的信息。 每�
 </tr>
 <tr class="odd">
 <td><p><strong>UserRole</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>用户在会议中的角色，如演示者或与会者。</p></td>
 </tr>
 </tbody>

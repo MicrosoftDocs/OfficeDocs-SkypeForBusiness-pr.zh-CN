@@ -12,20 +12,22 @@ ms:contentKeyID: 48185662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e2712859aa3268b70db9bd126f1ea17463955db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0074b1739cd571db46fc704d4863ac4f0462c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216363"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500579"
 ---
+# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 域服务准备概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 域服务准备概述
+
 
 </div>
 
@@ -117,7 +119,7 @@ Lync Server 2013 （如 Lync Server 2010）将大部分配置信息存储在中�
 
 <!-- end list -->
 
-  - **数据**（存储在 Lync Server 扩展架构和现有架构类中）：
+  - 存储在 Lync Server 扩展架构和现有架构类中的**数据** () ：
     
       - 用户 SIP 统一资源标识符 (URI) 和其他用户设置
     
@@ -127,7 +129,7 @@ Lync Server 2013 （如 Lync Server 2010）将大部分配置信息存储在中�
     
       - Kerberos 身份验证帐户（可选计算机对象）
 
-在 Lync Server 2013 中，通过向 RTCUniversalServerAdmins 通用组授予安装程序权限来委派安装和管理，以便该组的成员可以在本地服务器上安装和激活 Lync Server 2013 （在将服务器添加到拓扑、已发布和已启用）。 委派用户必须是安装和激活 Lync Server 2013 的计算机上的本地管理员，但不需要是 Domain Admins 组的成员。 您也可以授予对特定组织单位 (OU) 中的对象的权限，以便在林准备期间创建的通用组成员无需是 Domain Admins 组成员即可访问这些对象。
+在 Lync Server 2013 中，通过向 RTCUniversalServerAdmins 通用组授予安装程序权限来委派安装和管理，以便该组的成员可以在本地服务器 (上安装和激活 Lync Server 2013，在将服务器添加到拓扑中并已发布并启用) 之后。 委派用户必须是安装和激活 Lync Server 2013 的计算机上的本地管理员，但不需要是 Domain Admins 组的成员。 您也可以授予对特定组织单位 (OU) 中的对象的权限，以便在林准备期间创建的通用组成员无需是 Domain Admins 组成员即可访问这些对象。
 
 对于 Lync Server 2013 的新部署，全局设置必须存储在配置容器中。 如果您的组织从早期版本升级，但在系统容器中仍有全局设置，则系统容器仍受支持。
 
