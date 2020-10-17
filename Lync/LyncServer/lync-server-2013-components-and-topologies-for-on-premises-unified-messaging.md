@@ -12,20 +12,22 @@ ms:contentKeyID: 48183619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a21f24e87f889213a92123886a871dd1f5209ed1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da7b4c62daf2ed5bdc7416a704e2c70f18802419
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208098"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502509"
 ---
+# <a name="components-and-topologies-for-on-premises-unified-messaging-in-lync-server-2013"></a>Lync Server 2013 中的本地统一消息的组件和拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-on-premises-unified-messaging-in-lync-server-2013"></a>Lync Server 2013 中的本地统一消息的组件和拓扑
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42208098"
 
 _**上次修改的主题：** 2012-09-25_
 
-本主题介绍了向 Lync Server 2013 部署提供 Exchange 统一消息（UM）功能所需的 Microsoft Exchange Server 2013 组件。 此外，它还介绍了本地 Exchange UM 集成支持的拓扑。
+本主题介绍了向 Lync Server 2013 部署提供 Exchange 统一消息 (UM) 功能所需的 Microsoft Exchange Server 2013 组件。 此外，它还介绍了本地 Exchange UM 集成支持的拓扑。
 
 <div>
 
 ## <a name="exchange-server-components"></a>Exchange Server 组件
 
-若要将[集成统一消息和 Lync Server 2013 的功能](lync-server-2013-features-of-integrated-unified-messaging.md)中所述的 Exchange UM 功能和服务提供给组织中的企业语音用户，您必须部署 Microsoft Exchange 邮箱服务器和客户端访问服务器，以承载用户邮箱并为电子邮件和语音邮件提供一个存储位置。 Exchange UM 在 Exchange 邮箱和客户端访问服务器上作为一项服务运行。
+若要将 [集成统一消息和 Lync Server 2013 的功能](lync-server-2013-features-of-integrated-unified-messaging.md) 中所述的 Exchange UM 功能和服务提供给组织中的企业语音用户，您必须部署 Microsoft Exchange 邮箱服务器和客户端访问服务器，以承载用户邮箱并为电子邮件和语音邮件提供一个存储位置。 Exchange UM 在 Exchange 邮箱和客户端访问服务器上作为一项服务运行。
 
-有关 Microsoft Exchange Server 2007 和 Microsoft Exchange Server 2010 中 Exchange UM 组件的详细信息，请参阅部署文档中的[部署本地 EXCHANGE um 以提供 Lync Server 2013 语音邮件](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)。
+有关 Microsoft Exchange Server 2007 和 Microsoft Exchange Server 2010 中 Exchange UM 组件的详细信息，请参阅部署文档中的 [部署本地 EXCHANGE um 以提供 Lync Server 2013 语音邮件](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) 。
 
 </div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-09-25_
 
 ## <a name="supported-topologies"></a>支持的拓扑
 
-您可以在同一个林中或多个林中部署 Lync Server 2013 和 Exchange 统一消息（UM）。 如果部署跨越多个林，则必须为每个 Exchange UM 林执行 Exchange 集成步骤。 此外，还必须将每个 Microsoft Exchange 林配置为信任 Lync Server 2013 林，并将 Lync Server 2013 林配置为信任每个 Exchange UM 林。 除了此林信任之外，还必须对 Lync Server 2013 林中的用户对象设置所有用户的 Exchange UM 设置。
+您可以在同一林中或多个林中部署 Lync Server 2013 和 Exchange 统一消息 (UM) 。 如果部署跨越多个林，则必须为每个 Exchange UM 林执行 Exchange 集成步骤。 此外，还必须将每个 Microsoft Exchange 林配置为信任 Lync Server 2013 林，并将 Lync Server 2013 林配置为信任每个 Exchange UM 林。 除了此林信任之外，还必须对 Lync Server 2013 林中的用户对象设置所有用户的 Exchange UM 设置。
 
 Lync Server 2013 支持 Exchange UM 集成的以下拓扑：
 

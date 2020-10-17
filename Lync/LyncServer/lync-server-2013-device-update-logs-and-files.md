@@ -12,20 +12,22 @@ ms:contentKeyID: 51804004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cba816ad31039f1ed535ac15d5545ada1f9db45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23dd149a16a89e3ffbb11f5553cda3ab6e4530b8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197935"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501469"
 ---
+# <a name="device-update-logs-and-files-in-lync-server-2013"></a>Lync Server 2013 中的设备更新日志和文件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-update-logs-and-files-in-lync-server-2013"></a>Lync Server 2013 中的设备更新日志和文件
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2013-02-20_
 
 
 > [!NOTE]  
-> 有关设备更新日志文件的详细信息，请参阅 Lync Server 2010 TechNet 库中的<A href="https://technet.microsoft.com/library/gg398250(v=ocs.14).aspx">日志文件类型和位置</A>。 （请注意，与 lync Server 2010 一样，设备更新 Web 服务（如所有 Lync Phone Edition 组件）的工作方式与 lync server 2013 相同。
+> 有关设备更新日志文件的详细信息，请参阅 Lync Server 2010 TechNet 库中的 <A href="https://technet.microsoft.com/library/gg398250(v=ocs.14).aspx">日志文件类型和位置</A> 。  (请注意，与 lync Server 2010 一样，设备更新 Web 服务（如所有 Lync Phone Edition 组件）的工作方式与 lync server 2013 相同。 ) 
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66f2489b0ffaabc3744d92b38bcbf71ffcd84591
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 173f63fce60215ca0bc68791b0bc051136d931a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205698"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501699"
 ---
+# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>在 Lync Server 2013 中创建带宽策略配置文件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>在 Lync Server 2013 中创建带宽策略配置文件
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-19_
 
 **“带宽策略”定义对实时音频和视频内容的带宽使用量的限制。带宽策略应用于**“带宽策略配置文件”，后者可以应用于多个网络站点以进行呼叫允许控制。
 
-有关应在 CAC 部署中设置的带宽限制的准则，请参阅规划文档中的在[Lync Server 2013 中定义呼叫允许控制的要求](lync-server-2013-defining-your-requirements-for-call-admission-control.md)。
+有关应在 CAC 部署中设置的带宽限制的准则，请参阅规划文档中的在 [Lync Server 2013 中定义呼叫允许控制的要求](lync-server-2013-defining-your-requirements-for-call-admission-control.md) 。
 
 有关使用带宽策略和策略配置文件的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-10-19_
 
   - [CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。 例如，5Mb\_链路带宽策略配置文件将设置以下限制：
+以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。 例如，5Mb \_ 链路带宽策略配置文件将设置以下限制：
 
   - 音频限制：2,000 kbps
 
@@ -101,7 +103,7 @@ _**上次修改的主题：** 2012-10-19_
 
 ## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板创建带宽策略配置文件
 
-1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 2.  在左侧导航栏中，单击“网络配置”****。
 

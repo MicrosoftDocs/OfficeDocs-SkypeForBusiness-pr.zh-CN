@@ -13,20 +13,22 @@ ms:contentKeyID: 48185030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a63354b9e0b0cf44ed44f53c91061578e01fecb5
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 464b690709444c540d9a1b06809a751b5b15d82a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754500"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503309"
 ---
+# <a name="configure-the-meeting-join-page"></a>配置与会页面
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-meeting-join-page"></a>配置与会页面
+
 
 </div>
 
@@ -72,7 +74,7 @@ _**上次修改的主题：** 2012-12-14_
 
 ## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>使用 Lync Server 2013 命令行管理程序配置会议加入页
 
-1.  启动 Lync Server 2013 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management Shell**"。
+1.  启动 Lync Server 2013 命令行管理程序：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management Shell**"。
 
 2.  运行以下 cmdlet：
     
@@ -80,7 +82,7 @@ _**上次修改的主题：** 2012-12-14_
     
     此 cmdlet 将返回 Web 服务配置设置。
 
-3.  运行以下命令，将参数设置为 True 或 False，具体取决于你的首选项（有关此 cmdlet 的参数的详细信息，请参阅 Lync Server 2013 命令行管理程序文档）：
+3.  运行以下命令，将参数设置为 True 或 False，具体取决于您的首选项 (有关此 cmdlet 的参数的详细信息，请参阅 Lync Server 2013 命令行管理程序文档) ：
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 

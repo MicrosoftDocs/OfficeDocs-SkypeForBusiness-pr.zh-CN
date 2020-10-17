@@ -12,20 +12,22 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 313d2201be5f5919aeec37087a02bf7f400d7ceb
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8d12a67b0ba102fdacea66b6196bafe32d89c9d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751284"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503099"
 ---
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>将试点池连接到旧 Edge Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>将试点池连接到旧 Edge Server
+
 
 </div>
 
@@ -53,13 +55,13 @@ _**上次修改的主题：** 2012-09-29_
 
 4.  在左侧窗格中，选择“联盟路由”****。
 
-5.  在 "**站点联合路由分配**" 下，选择 "**启用 SIP 联盟**"，然后选择 lync server 2010 控制器，如果未列出控制器，则选择 Lync server 2010 边缘服务器。
+5.  在 " **站点联合路由分配**" 下，选择 " **启用 SIP 联盟**"，然后选择 lync server 2010 控制器，如果未列出控制器，则选择 Lync server 2010 边缘服务器。
     
     !["编辑属性"、"联盟路由" 页面](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg ""编辑属性"、"联盟路由" 页面")  
 
 6.  单击“确定”**** 关闭“编辑属性”**** 页。
 
-7.  在拓扑生成器中，在 "Lync Server 2013" 节点下，导航到**Standard edition server**或**Enterprise Edition 前端池**，右键单击该池，然后单击 "**编辑属性**"。
+7.  在拓扑生成器中，在 "Lync Server 2013" 节点下，导航到 **Standard edition server** 或 **Enterprise Edition 前端池**，右键单击该池，然后单击 " **编辑属性**"。
 
 8.  在“关联”**** 下，选中“关联边缘池(用于媒体组件)”**** 旁边的复选框。
 

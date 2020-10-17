@@ -12,20 +12,22 @@ ms:contentKeyID: 48183979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9fac6f65d1bb1c04b8d8597454df775f8545d2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da110d7e3bfb7188384163cb572591d0bf7f8ff3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501769"
 ---
+# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>在 Lync Server 2013 中创建语音路由测试用例
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-voice-routing-test-case-in-lync-server-2013"></a>在 Lync Server 2013 中创建语音路由测试用例
+
 
 </div>
 
@@ -41,9 +43,9 @@ _**上次修改的主题：** 2014-02-07_
 
 ## <a name="to-create-a-test-case"></a>创建测试用例
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 [Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“语音路由”****，然后单击“测试语音路由”****。
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2014-02-07_
 
 5.  在“名称”**** 字段中，键入测试用例的唯一名称。
     
-    此名称在企业语音部署中的所有语音路由测试用例中必须是唯一的。 它的长度最高为32个字符，并且可以包含任何字母数字字符，除了反斜杠（\\）、句点（.）或下划线（\_）。
+    此名称在企业语音部署中的所有语音路由测试用例中必须是唯一的。 它的长度最高为32个字符，并且可以包含任何字母数字字符，除了反斜杠 (\\) 、句点 ( ) 或下划线 (\_) 。
 
 6.  在“要测试的拨打号码”**** 中，键入要用于测试为此测试用例指定的路由配置的拨打号码。基于拨号计划、路由和语音策略，将对此号码进行规范化，并作为输出内容予以显示。
 
@@ -75,12 +77,12 @@ _**上次修改的主题：** 2014-02-07_
     
 
     > [!NOTE]  
-    > 只要您创建语音路由测试用例，就必须运行“全部提交”<STRONG></STRONG>命令以发布配置更改。 有关详细信息，请参阅操作文档中的在<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中发布待处理的语音路由配置的更改</A>。
+    > 只要您创建语音路由测试用例，就必须运行“全部提交”<STRONG></STRONG>命令以发布配置更改。 有关详细信息，请参阅操作文档中的在 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中发布待处理的语音路由配置的更改</A> 。
 
     
     </div>
     
-    如果在测试中使用的拨号计划规范化以加号（例如，+ 12065551219）开头的电话号码，则该计划可能会导致语音路由测试失败。 （拨号计划和语音路由将正常运行，实际上，Grant-csdialplan 将会成功。 但是，语音路由测试可能会失败。在测试语音路由时，需要记住这一点。
+    如果在测试中使用的拨号计划规范化以加号 (开头的电话号码（例如，+ 12065551219) ），则该计划可能会导致语音路由测试失败。  (拨号计划和语音路由将正常运行;事实上，Test-CsDialPlan 将会成功。 但是，语音路由测试可能会失败。 ) 在测试语音路由时必须记住这一点。
 
 </div>
 

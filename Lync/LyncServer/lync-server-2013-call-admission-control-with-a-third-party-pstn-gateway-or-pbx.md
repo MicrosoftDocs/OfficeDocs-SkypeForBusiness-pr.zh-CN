@@ -12,20 +12,22 @@ ms:contentKeyID: 48184850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e9223722b37fa703bcc0410092ebdf933beb5d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7abd33af2dd2a7a5858fd8b888201b6471d0cf9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181495"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502809"
 ---
+# <a name="call-admission-control-in-lync-server-2013-with-a-third-party-pstn-gateway-or-pbx"></a>使用第三方 PSTN 网关或 PBX 的 Lync Server 2013 中的呼叫允许控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-in-lync-server-2013-with-a-third-party-pstn-gateway-or-pbx"></a>使用第三方 PSTN 网关或 PBX 的 Lync Server 2013 中的呼叫允许控制
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42181495"
 
 _**上次修改的主题：** 2012-10-20_
 
-本主题介绍如何在中介服务器的网关接口和第三方公用电话交换电话网络（PSTN）网关或专用交换机（PBX）之间的链路上部署呼叫允许控制（CAC）的示例。
+本主题介绍如何在中介服务器的网关接口和第三方公共交换电话网络 (PSTN) 网关或专用分支 exchange (PBX) 之间的链接上部署呼叫允许控制 (CAC) 。
 
 <div>
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2012-10-20_
 
 
 > [!NOTE]
-> 请确保 PSTN 网关所属的 IP 子网已配置并与网络站点2相关联。<BR>确保中介服务器的两个接口所属的 IP 子网已配置并与网络站点1相关联。<BR>有关详细信息，请参阅<A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中将子网与网络站点关联</A>。
+> 请确保 PSTN 网关所属的 IP 子网已配置并与网络站点2相关联。<BR>确保中介服务器的两个接口所属的 IP 子网已配置并与网络站点1相关联。<BR>有关详细信息，请参阅 <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中将子网与网络站点关联</A>。
 
 
 
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2012-10-20_
 
 ## <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>示例2：中介服务器与具有媒体终结点的第三方 PBX 之间的 CAC
 
-此配置类似于 Case 1。 在这两种情况下，中介服务器都知道在 WAN 链路的另一端终止媒体的设备，并且将中介服务器上的 PSTN 网关或 PBX 的 IP 地址配置为下一个跃点（MTP）。
+此配置类似于 Case 1。 在这两种情况下，中介服务器都知道在 WAN 链路的另一端终止媒体的设备，以及使用媒体终结点的 PSTN 网关或 PBX 的 IP 地址 (MTP) 在中介服务器上配置为下一个跃点。
 
 **示例2：中介服务器与具有 MTP 的第三方 PBX 之间的 CAC**
 
@@ -91,7 +93,7 @@ _**上次修改的主题：** 2012-10-20_
 
 
 > [!NOTE]
-> 确保 MTP 所属的 IP 子网已配置并与网络站点2相关联。<BR>确保中介服务器的两个接口所属的 IP 子网已配置并与网络站点1相关联。<BR>有关详细信息，请参阅<A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中将子网与网络站点关联</A>。
+> 确保 MTP 所属的 IP 子网已配置并与网络站点2相关联。<BR>确保中介服务器的两个接口所属的 IP 子网已配置并与网络站点1相关联。<BR>有关详细信息，请参阅 <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中将子网与网络站点关联</A>。
 
 
 
@@ -109,7 +111,7 @@ Case 3 与前两个事例略有不同。 如果第三方 PBX 没有 MTP，则对
 
 ![示例3：中介服务器 PBX 之间的 CAC 无 MTP](images/Gg398762.f4bcf800-3a68-4037-bb3f-adb2fdf50d32(OCS.15).jpg "示例3：中介服务器 PBX 之间的 CAC 无 MTP")
 
-在此示例中，如果网络站点1上的 Lync 客户端用户通过 PBX 向用户发出呼叫，中介服务器只能在代理端（Lync 客户端应用程序和中介服务器之间）执行 CAC 检查。 由于中介服务器在请求会话时没有终结点设备的相关信息，因此在建立呼叫之前，不能在 WAN 链路（中介服务器和第三方终结点之间）上执行 CAC 检查。 但是，在建立会话之后，中介服务器将为中继上使用的带宽简化记帐。
+在此示例中，如果网络站点1上的 Lync 客户端用户通过 PBX 向用户发出呼叫，中介服务器只能在 Lync 客户端应用程序和中介服务器之间的代理 (之间执行 CAC 检查) 。 由于中介服务器在请求会话时没有终结点设备的相关信息，因此在建立呼叫之前，不能在中介服务器和第三方终结) 点之间的 WAN 链接 (上执行 CAC 检查。 但是，在建立会话之后，中介服务器将为中继上使用的带宽简化记帐。
 
 对于源自第三方终结点的呼叫，有关该终结点设备的信息在会话请求时可用，并且可以在中介服务器的双方执行 CAC 检查。
 
@@ -117,7 +119,7 @@ Case 3 与前两个事例略有不同。 如果第三方 PBX 没有 MTP，则对
 
 
 > [!NOTE]
-> 确保终结点设备所属的 IP 子网已配置并与网络站点2相关联。<BR>确保中介服务器的两个接口所属的 IP 子网已配置并与网络站点1相关联。<BR>有关详细信息，请参阅<A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中将子网与网络站点关联</A>。
+> 确保终结点设备所属的 IP 子网已配置并与网络站点2相关联。<BR>确保中介服务器的两个接口所属的 IP 子网已配置并与网络站点1相关联。<BR>有关详细信息，请参阅 <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">在 Lync Server 2013 中将子网与网络站点关联</A>。
 
 
 

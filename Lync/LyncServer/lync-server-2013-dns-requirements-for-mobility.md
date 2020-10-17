@@ -12,20 +12,22 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85ceddef859ebc24168c12fdf0721448c6d2b658
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 508e9c8e030de7aeb496a1285ff7b965e43c2a6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501429"
 ---
+# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>具有 Lync Server 2013 的移动性的 DNS 要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>具有 Lync Server 2013 的移动性的 DNS 要求
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208871"
 
 _**上次修改的主题：** 2012-11-13_
 
-在部署 Lync Server 2013 移动功能时，可以使用 Microsoft Lync Server 2013 自动发现服务中提供的新 Url，也可以使用现有的 Web 服务 Url。 如果您使用现有的 Url，则用户需要在其移动设备设置中手动输入 Url。 此选项通常用于故障排除。 使用新 Url 时，移动客户端可以自动发现 Lync Server 2013 资源。 当您支持自动发现时，您需要添加新的域名系统（DNS）记录。 本节介绍了自动发现所需的 DNS 记录。
+在部署 Lync Server 2013 移动功能时，可以使用 Microsoft Lync Server 2013 自动发现服务中提供的新 Url，也可以使用现有的 Web 服务 Url。 如果您使用现有的 Url，则用户需要在其移动设备设置中手动输入 Url。 此选项通常用于故障排除。 使用新 Url 时，移动客户端可以自动发现 Lync Server 2013 资源。 当您支持自动发现时，您需要将新的域名系统添加 (DNS) 记录。 本节介绍了自动发现所需的 DNS 记录。
 
 若要支持自动发现，您需要为每个 SIP 域创建以下 DNS 记录：
 
@@ -70,13 +72,13 @@ DNS 记录可以是 CNAME 记录或 A（主机）记录。
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscoverinternal..&lt;sipdomain&gt;</p></td>
-<td><p>如果你拥有控制器池的内部 Web 服务完全限定域名（FQDN）（如果有），或者对于你的前端池，如果你没有控制器，则为该域名（FQDN）。</p></td>
+<td><p>lyncdiscoverinternal.。 &lt;sipdomain&gt;</p></td>
+<td><p>内部 Web 服务完全限定的域名 (FQDN) 为控制器池（如果有），或者如果你没有控制器，则为你的前端池。</p></td>
 </tr>
 <tr class="even">
 <td><p>A（主机）</p></td>
-<td><p>lyncdiscoverinternal..&lt;sipdomain&gt;</p></td>
-<td><p>如果你拥有控制器池的内部 Web 服务 IP 地址（虚拟 IP （VIP）地址）（如果你有一个或多个前端池）（如果你没有控制器），则为该地址（VIP）地址）。</p></td>
+<td><p>lyncdiscoverinternal.。 &lt;sipdomain&gt;</p></td>
+<td><p>内部 Web 服务 IP 地址 (虚拟 IP (VIP) 地址如果您拥有控制器池的负载平衡器) （如果有），或者如果您没有控制器，则使用前端池</p></td>
 </tr>
 </tbody>
 </table>
@@ -109,12 +111,12 @@ DNS 记录可以是 CNAME 记录或 A（主机）记录。
 <tr class="even">
 <td><p>A（主机）</p></td>
 <td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
-<td><p>反向代理的外部或公共 IP 地址（如果使用负载平衡器，则为 VIP 地址）</p></td>
+<td><p> (VIP 地址的外部或公用 IP 地址（如果使用反向代理的负载平衡器) ）</p></td>
 </tr>
 <tr class="odd">
 <td><p>SRV</p></td>
-<td><p>_sipfederationtls _tcp。 &lt;sipdomain&gt;</p>
-<p>解析为访问边缘服务的主机（A 或 AAAA）记录</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp。 &lt;sipdomain&gt;</p>
+<p>解析为访问边缘服务的主机 (A 或 AAAA) 记录</p></td>
 <td><p>若要支持推送通知服务和 Apple 推送通知服务，请为拥有 Microsoft Lync 移动客户端的每个 SIP 域创建一个 SRV 记录。</p>
 <div>
 

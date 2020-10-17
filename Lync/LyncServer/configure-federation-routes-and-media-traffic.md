@@ -12,20 +12,22 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5e9b7ad3f08d9ebf129c478bbcf94bed7845ef1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1b07e0bfe62fe6d09521d1f9d5dc2d84aa975d5e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503349"
 ---
+# <a name="configure-federation-routes-and-media-traffic"></a>配置联盟路由和媒体流量
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-routes-and-media-traffic"></a>配置联盟路由和媒体流量
+
 
 </div>
 
@@ -83,7 +85,7 @@ _**上次修改的主题：** 2012-10-15_
 
 4.  在左窗格中，选择“联盟路由”****。
 
-5.  在 "**站点联盟路由分配**" 下，清除 "**启用 SIP 联盟**" 复选框以禁用通过旧版 Lync Server 2010 环境的联盟路由。
+5.  在 " **站点联盟路由分配**" 下，清除 " **启用 SIP 联盟** " 复选框以禁用通过旧版 Lync Server 2010 环境的联盟路由。
     
     !["编辑属性" 对话框（"联合路由" 页）](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg ""编辑属性" 对话框（"联合路由" 页）")
 
@@ -167,13 +169,13 @@ _**上次修改的主题：** 2012-10-15_
 
 2.  展开节点，右键单击列出的边缘服务器，然后单击“编辑属性”****。
 
-3.  在 "**常规**" 页上的 "**下一跃点选择**" 下，从下拉列表中选择 "Lync Server 2013 池"。
+3.  在 " **常规** " 页上的 " **下一跃点选择**" 下，从下拉列表中选择 "Lync Server 2013 池"。
     
     !["编辑属性" 对话框，下一跃点页](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg ""编辑属性" 对话框，下一跃点页")
 
 4.  单击“确定”**** 关闭“编辑属性”页。
 
-5.  从**拓扑生成器**中，选择顶部节点**Lync Server** 。
+5.  从 **拓扑生成器**中，选择顶部节点 **Lync Server** 。
 
 6.  从“操作”**** 菜单中，单击“发布拓扑”**** 并完成向导。
 
@@ -183,7 +185,7 @@ _**上次修改的主题：** 2012-10-15_
 
 ## <a name="to-configure-lync-server-2013-edge-server-outbound-media-path"></a>配置 Lync Server 2013 边缘服务器出站媒体路径
 
-1.  从拓扑生成器的左侧窗格中，导航到 " **Lync Server 2013** " 节点，然后导航到 "低于**Standard edition 前端服务器**或**Enterprise edition 前端池**" 的池。
+1.  从拓扑生成器的左侧窗格中，导航到 " **Lync Server 2013** " 节点，然后导航到 "低于 **Standard edition 前端服务器** 或 **Enterprise edition 前端池**" 的池。
 
 2.  右键单击该池，然后单击“编辑属性”****。
 
@@ -226,7 +228,7 @@ _**上次修改的主题：** 2012-10-15_
 
 7.  在左窗格中，单击“联盟路由”****。
 
-8.  在 "**站点联合路由分配**" 下，选择 "**启用 SIP 联盟**"，然后从列表中选择列出的 Lync server 2013 边缘服务器。
+8.  在 " **站点联合路由分配**" 下，选择 " **启用 SIP 联盟**"，然后从列表中选择列出的 Lync server 2013 边缘服务器。
     
     !["编辑属性"、"联盟路由" 页面](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg ""编辑属性"、"联盟路由" 页面")
 
@@ -240,7 +242,7 @@ _**上次修改的主题：** 2012-10-15_
 
 ## <a name="to-publish-edge-server-configuration-changes"></a>发布边缘服务器配置更改
 
-1.  从**拓扑生成器**中，选择顶部节点**Lync Server** 。
+1.  从 **拓扑生成器**中，选择顶部节点 **Lync Server** 。
 
 2.  从“操作”**** 菜单中，选择“发布拓扑”**** 并完成向导。
 
@@ -263,7 +265,7 @@ _**上次修改的主题：** 2012-10-15_
 
 1.  使所有 Lync Server 2013 边缘服务器联机。
 
-2.  更新外部防火墙路由规则或硬件负载平衡器设置以将外部访问的 SIP 通信（通常是端口443）和联合身份验证（通常是端口5061）发送到 Lync Server 2013 边缘服务器，而不是旧边缘服务器。
+2.  更新外部防火墙路由规则或硬件负载平衡器设置以发送外部访问 (的 SIP 通信。通常端口 443) 和联合身份验证 (通常端口 5061) 到 Lync Server 2013 边缘服务器，而不是旧版边缘服务器。
     
     <div>
     
@@ -274,7 +276,7 @@ _**上次修改的主题：** 2012-10-15_
     
     </div>
 
-3.  接下来，从每台边缘服务器计算机停止**Lync Server 访问边缘**。
+3.  接下来，从每台边缘服务器计算机停止 **Lync Server 访问边缘** 。
 
 4.  从每个旧边缘服务器计算机上，从 "**管理工具**" 中打开 "**服务**" 小程序。
 

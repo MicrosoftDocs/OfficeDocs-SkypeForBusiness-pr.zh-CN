@@ -12,20 +12,22 @@ ms:contentKeyID: 48185466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67712f981d8061b8dd3c90de812092e01dc5d1b5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bbf4d45edce186819241ce6244e1ea1cd6677bfa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195435"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501969"
 ---
+# <a name="create-a-device-to-test-update-functionality-in-lync-server-2013"></a>在 Lync Server 2013 中创建用于测试更新功能的设备
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-device-to-test-update-functionality-in-lync-server-2013"></a>在 Lync Server 2013 中创建用于测试更新功能的设备
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42195435"
 
 _**上次修改的主题：** 2013-02-23_
 
-可将测试设备添加到“测试设备”**** 页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 您可以在全局范围内（在整个 Lync Server 环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在 Lync Server 控制面板的 "**测试设备**" 页上的列表中。
+可将测试设备添加到“测试设备”**** 页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 您可以在整个 Lync Server 环境中全局 () 或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在 Lync Server 控制面板的 " **测试设备** " 页上的列表中。
 
 <div>
 
 ## <a name="to-add-a-test-device"></a>添加测试设备
 
-1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 2.  在左侧导航栏中，单击“客户端”****，然后单击“测试设备”****。
 
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="creating-test-devices-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 创建测试设备
 
-可以使用 Windows PowerShell 和 CsTestDevice cmdlet 创建测试设备。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+可以使用 Windows PowerShell 和 New-CsTestDevice cmdlet 创建测试设备。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 使用此 cmdlet 创建测试设备时，必须执行以下两个操作：
 
@@ -103,7 +105,7 @@ _**上次修改的主题：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[CsTestDevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice) cmdlet 的帮助主题。
+有关详细信息，请参阅 [CsTestDevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice) cmdlet 的帮助主题。
 
 </div>
 

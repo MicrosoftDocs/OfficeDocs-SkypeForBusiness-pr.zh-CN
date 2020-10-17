@@ -13,20 +13,22 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cbaba4f59a22de6fcee38ee51845d551033cfea
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0474e3e75998e43965bd57ef4ed1f67ef8058a0b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754480"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503269"
 ---
+# <a name="configure-trusted-application-servers"></a>配置受信任应用程序服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-trusted-application-servers"></a>配置受信任应用程序服务器
+
 
 </div>
 
@@ -48,19 +50,19 @@ _**上次修改的主题：** 2012-10-04_
 
 2.  在左窗格中，右键单击“受信任的应用程序服务器”****，然后单击“新建受信任的应用程序池”****。
 
-3.  输入受信任的应用程序池的**池 FQDN** ，并选择它是单服务器部署还是多服务器部署。
+3.  输入受信任的应用程序池的 **池 FQDN** ，并选择它是单服务器部署还是多服务器部署。
 
 4.  单击“**下一步**”。
 
-5.  在 "**选择下一个跃点**" 页上的列表中，选择 "Lync Server 2013 前端池"。
+5.  在 " **选择下一个跃点** " 页上的列表中，选择 "Lync Server 2013 前端池"。
     
     !["定义新的受信任应用程序池" 对话框](images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg ""定义新的受信任应用程序池" 对话框")  
 
 6.  单击“完成”****。
 
-7.  选择顶部节点**Lync Server** ，然后从 "**操作**" 窗格中选择 "**发布**"。
+7.  选择顶部节点 **Lync Server** ，然后从 " **操作** " 窗格中选择 " **发布**"。
 
-8.  验证**受信任的应用程序池**是否已成功创建并与正确的前端池相关联。
+8.  验证 **受信任的应用程序池** 是否已成功创建并与正确的前端池相关联。
 
 </div>
 

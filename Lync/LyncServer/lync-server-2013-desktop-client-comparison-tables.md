@@ -12,20 +12,22 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0e8b1a6713a8a8a4b3ac980679e7f98266338268
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219712"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501499"
 ---
+# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的桌面客户端比较表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的桌面客户端比较表
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2018-01-23_
 
 
 > [!IMPORTANT]  
-> 有关 Lync 2013 移动客户端中的功能可用性的详细信息，请参阅<A href="lync-server-2013-mobile-client-comparison-tables.md">Lync Server 2013 的移动客户端比较表</A>。
+> 有关 Lync 2013 移动客户端中的功能可用性的详细信息，请参阅 <A href="lync-server-2013-mobile-client-comparison-tables.md">Lync Server 2013 的移动客户端比较表</A> 。
 
 
 
@@ -77,7 +79,7 @@ _**上次修改的主题：** 2018-01-23_
 > <LI>
 > <P>Lync Server 2013 支持以前发布的以下客户端： Lync 2010、Lync 2010 Mobile、Lync Phone Edition 和 Lync 2010 助理。 有关这些客户端的信息，请参阅位于的客户端比较表的 Lync 2010 版本 <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A> 。</P>
 > <LI>
-> <P>Lync 2013 客户端支持虚拟桌面基础结构（VDI）环境中的音频和视频。 有关 VDI 环境中的 Lync 2013 功能的详细信息，请参阅<A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">受支持的虚拟化技术和 Lync Server 2013 中的已知限制</A>。</P></LI></UL>
+> <P>Lync 2013 客户端支持虚拟桌面基础结构中的音频和视频 (VDI) 环境。 有关 VDI 环境中的 Lync 2013 功能的详细信息，请参阅 <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">受支持的虚拟化技术和 Lync Server 2013 中的已知限制</A>。</P></LI></UL>
 
 
 
@@ -406,7 +408,7 @@ _**上次修改的主题：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>按组、关系或新用户（已将您添加到联系人列表中的人员）对联系人进行排序</p></td>
+<td><p>按组、关系或将用户添加到联系人列表的新 (人员对联系人进行排序) </p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -420,7 +422,7 @@ _**上次修改的主题：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>按状态（可用性）对联系人进行排序</p></td>
+<td><p>按状态 (可用性对联系人进行排序) </p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -566,7 +568,7 @@ _**上次修改的主题：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>技能搜索（包含 SharePoint Server 集成）</p></td>
+<td><p>与 SharePoint Server 集成) 的技能搜索 (</p></td>
 <td><p>●2</p></td>
 <td> </td>
 <td><p>●2</p></td>
@@ -580,7 +582,7 @@ _**上次修改的主题：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>持久聊天（群聊）集成</p></td>
+<td><p>持久聊天 (组聊天) 集成</p></td>
 <td><p>●3</p></td>
 <td> </td>
 <td><p>●3</p></td>
@@ -761,7 +763,7 @@ _**上次修改的主题：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>查看多方视频（库视图）</p></td>
+<td><p>查看多方视频 (库视图) </p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -923,7 +925,7 @@ _**上次修改的主题：** 2018-01-23_
 <td><p>●</p></td>
 <td></td>
 <td></td>
-<td><p>仅编辑（不添加）</p></td>
+<td><p>仅编辑 (不添加) </p></td>
 <td> </td>
 <td></td>
 <td></td>
@@ -1071,7 +1073,7 @@ _**上次修改的主题：** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>在 UNRESOLVED_TOKEN_VAL （skypeforbusiness）和 Outlook 之间同步委托</p></td>
+<td><p>在 UNRESOLVED_TOKEN_VAL (skypeforbusiness) 和 Outlook 之间同步委派</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1085,7 +1087,7 @@ _**上次修改的主题：** 2018-01-23_
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>设置视频焦点（锁定视频）</p></td>
+<td><p>将视频聚焦设置 (锁定视频) </p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1130,7 +1132,7 @@ _**上次修改的主题：** 2018-01-23_
 
 <div>
 
-## <a name="voice-telephony-support"></a>语音（电话）支持
+## <a name="voice-telephony-support"></a>语音 (电话) 支持
 
 <div>
 
@@ -1274,7 +1276,7 @@ _**上次修改的主题：** 2018-01-23_
 <td></td>
 </tr>
 <tr class="even">
-<td><p>支持紧急服务（E911）</p></td>
+<td><p>支持紧急服务 (E911) </p></td>
 <td><p>●3</p></td>
 <td><p>●</p>
 <p>需要 Lync Server 2013 CU8 HF1 或更高版本</p></td>
@@ -1289,7 +1291,7 @@ _**上次修改的主题：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>针对 E-911 呼叫的 SIP URI 的 IM 通知</p></td>
+<td><p>发送到911呼叫的 SIP URI (s) 的 IM 通知</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1702,7 +1704,7 @@ _**上次修改的主题：** 2018-01-23_
 
 1对于 Skype for Business Online、Microsoft 365 或 Office 365 用户，不支持 Lync 2010 助理。
 
-2对于 Skype for Business Online、Microsoft 365 或 Office 365 用户，此功能需要 Exchange Online，并且由用户的 Exchange 邮箱就地保留属性控制。
+2对于 Skype for Business Online、Microsoft 365 或 Office 365 用户，此功能需要 Exchange Online，并且由用户的 Exchange 邮箱 In-Place 保留属性控制。
 
 3对于 Skype for Business Online、Microsoft 365 或 Office 365 用户，文件传输、共享 OneNote 页面和 PowerPoint 注释的存档不可用。
 
@@ -1752,7 +1754,7 @@ _**上次修改的主题：** 2018-01-23_
 
   - 联系人：搜索响应组
 
-  - IM 支持：持久聊天（组聊天）集成
+  - IM 支持：持久聊天 (组聊天) 集成
 
   - IM 支持：通过一次点击将持久聊天室升级到会议
 

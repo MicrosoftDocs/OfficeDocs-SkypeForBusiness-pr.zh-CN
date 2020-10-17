@@ -12,20 +12,22 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b83877505bfc9c2accc2057a9ebb1fb62355b3d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 62ea7da56e77264a7d8c730d44e7a6ca0372d3f8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751274"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503079"
 ---
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>将试点池连接到旧 Edge Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>将试点池连接到旧 Edge Server
+
 
 </div>
 
@@ -51,13 +53,13 @@ _**上次修改的主题：** 2012-10-02_
 
 3.  在“操作”**** 菜单上，单击“编辑属性”****。
 
-4.  在 "**站点联合路由分配**" 下，选择 "**启用 SIP 联盟**"，然后选择 Office 通信服务器 2007 R2 控制器或 Office 通信服务器 2007 r2 边缘服务器（如果未列出控制器）。
+4.  在 " **站点联合路由分配**" 下，选择 " **启用 SIP 联盟**"，然后选择 Office 通信服务器 2007 R2 控制器或 Office 通信服务器 2007 r2 边缘服务器（如果未列出控制器）。
     
     !["编辑属性" 对话框（"联合路由" 页）](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg ""编辑属性" 对话框（"联合路由" 页）")  
 
 5.  单击“确定”**** 关闭“编辑属性”**** 页。
 
-6.  在拓扑生成器中，在 "Lync Server 2013" 节点下，导航到**Standard edition server**或**Enterprise Edition 前端池**，右键单击该池，然后单击 "**编辑属性**"。
+6.  在拓扑生成器中，在 "Lync Server 2013" 节点下，导航到 **Standard edition server** 或 **Enterprise Edition 前端池**，右键单击该池，然后单击 " **编辑属性**"。
 
 7.  在“关联”**** 下，选中“关联边缘池(用于媒体组件)”**** 旁的复选框。
 

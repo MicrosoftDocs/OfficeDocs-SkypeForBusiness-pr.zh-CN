@@ -12,20 +12,22 @@ ms:contentKeyID: 48184027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b2f06999b3f7dad3a6dfd92e5e2246b95105fbd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da6866565df12ff4484124836f9164d2bf8c35c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502879"
 ---
+# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>启用 Exchange 2013 Outlook Web App 和 IM 集成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>启用 Exchange 2013 Outlook Web App 和 IM 集成
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180335"
 
 _**上次修改的主题：** 2012-10-19_
 
-若要启用与 Lync Server 2013 的 Exchange 2013 Outlook Web Access （OWA）和即时消息（IM）集成，您必须将 Exchange 2013 客户端访问服务器（CAS）服务器作为受信任的应用程序服务器添加到 Lync Server 2013 拓扑中。
+若要启用 Exchange 2013 Outlook Web Access (OWA) 和即时消息 (IM) 与 Lync Server 2013 集成，则必须将 Exchange 2013 客户端访问服务器 (CAS) server 作为受信任的应用程序服务器添加到 Lync Server 2013 拓扑中。
 
 <div>
 
@@ -49,13 +51,13 @@ _**上次修改的主题：** 2012-10-19_
     
         Get-CsSite
     
-    这将返回要在其中创建池的 siteName 的 siteID。 有关详细信息，请参阅 Lync Server 2013 命令行管理程序文档中的[get-cssite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) 。
+    这将返回要在其中创建池的 siteName 的 siteID。 有关详细信息，请参阅 Lync Server 2013 命令行管理程序文档中的 [get-cssite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) 。
 
 3.  运行以下 cmdlet：
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    有关详细信息，请参阅 Lync Server 2013 命令行管理程序文档中的[CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) 。
+    有关详细信息，请参阅 Lync Server 2013 命令行管理程序文档中的 [CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) 。
     
     应将 Exchange Server FQDN 配置为 Exchange OWA 证书使用者名称 (SN) 或使用者替代名称 (SAN)。
     
@@ -65,7 +67,7 @@ _**上次修改的主题：** 2012-10-19_
     
 
     > [!IMPORTANT]  
-    > 如果您的 CAS 服务器<EM>未</EM>在运行 Exchange 2013 统一消息（UM）的同一台服务器上并置，请跳过此过程中的其余步骤并执行本主题后面的 "为 EXCHANGE 2013 CAS 服务器创建受信任的应用程序" 过程。 如果 CAS 服务器在运行 Exchange 2013 统一消息（UM）的同一台服务器上并置，请完成此过程中的步骤，不要执行本主题后面部分的 "为 Exchange 2013 CAS 服务器创建受信任的应用程序" 过程。
+    > 如果 CAS 服务器 <EM>未</EM> 在运行 Exchange 2013 统一消息 (UM) 的同一台服务器上并置，请跳过此过程中的其余步骤并执行本主题后面的 "为 EXCHANGE 2013 CAS 服务器创建受信任的应用程序" 过程。 如果 CAS 服务器在运行 Exchange 2013 统一消息 (UM) 的同一台服务器上并置，请完成此过程中的步骤，不要执行本主题后面部分的 "为 Exchange 2013 CAS 服务器创建受信任的应用程序" 过程。
 
     
     </div>
@@ -88,7 +90,7 @@ _**上次修改的主题：** 2012-10-19_
 
 1.  启动 Lync Server 2013 命令行管理程序。
 
-2.  如果 CAS 服务器*不*是在运行 Exchange 2013 统一消息（UM）的同一台服务器上并置，请运行以下 cmdlet：
+2.  如果 CAS 服务器 *未* 在运行 Exchange 2013 统一消息 (UM) 的同一台服务器上并置，请运行以下 cmdlet：
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     

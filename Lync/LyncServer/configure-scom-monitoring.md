@@ -13,20 +13,22 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95bc54defed596dfa8a8d801908b281abf06ead3
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: de0ca4d569c8a67eb134c5a1bd018ed143041046
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754520"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503359"
 ---
+# <a name="configure-scom-monitoring"></a>配置 SCOM 监控
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-scom-monitoring"></a>配置 SCOM 监控
+
 
 </div>
 
@@ -52,7 +54,7 @@ _**上次修改的主题：** 2012-10-04_
 
 1.  选择安装了 System Center Operations Manager 代理文件且配置为候选发现节点的服务器。
 
-2.  将 Lync Server 2010 更新应用到此服务器。 请参阅[应用 Lync Server 2010 更新](apply-lync-server-2010-updates.md)主题。
+2.  将 Lync Server 2010 更新应用到此服务器。 请参阅 [应用 Lync Server 2010 更新](apply-lync-server-2010-updates.md)主题。
 
 **更新中央发现候选服务器注册表项。**
 

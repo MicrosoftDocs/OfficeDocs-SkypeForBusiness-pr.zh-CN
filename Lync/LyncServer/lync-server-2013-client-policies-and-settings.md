@@ -12,20 +12,22 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82ce84f2b3f5f27e25aceccbf7452f7707b8eb52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34e67a16b6f4d76d36684f8e80919271853150cc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502649"
 ---
+# <a name="client-policies-and-settings-in-lync-server-2013"></a>Lync Server 2013 中的客户端策略和设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-policies-and-settings-in-lync-server-2013"></a>Lync Server 2013 中的客户端策略和设置
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**上次修改的主题：** 2012-06-18_
 
 本主题概述了您可以在 Lync Server 2013 中配置的客户端相关设置和策略。 Lync Server 2013 包括用于管理和配置客户端的以下工具：
 
-  - **Lync Server 2013 控制面板**   用于管理和配置服务器、用户、客户端和设备的基于 web 的图形用户界面。
+  - **Lync Server 2013 控制面板**    一个基于 web 的图形用户界面，用于管理和配置服务器、用户、客户端和设备。
 
-  - **Lync Server management Shell**   a Management interface，其中包含一组丰富的 Windows PowerShell 命令行接口 cmdlet 和多个预定义脚本。
+  - **Lync Server 命令行**     管理程序具有一组丰富的 Windows PowerShell 命令行接口 cmdlet 和大量预定义脚本的管理界面。
 
-  - **Lync 2013 组策略**   可以使用 Office 组策略管理模板为客户端配置的一组策略。 在部署 Lync 2013 客户端之前，必须配置某些客户端引导策略。 Lync 2010 中的其他可选设置继续在 Lync 2013 中生效。
+  - **Lync 2013 组策略**    您可以使用 Office 组策略管理模板为客户端配置的一组策略。 在部署 Lync 2013 客户端之前，必须配置某些客户端引导策略。 Lync 2010 中的其他可选设置继续在 Lync 2013 中生效。
 
 本部分介绍了对 Lync Server 2013 中客户端相关设置的更改。
 

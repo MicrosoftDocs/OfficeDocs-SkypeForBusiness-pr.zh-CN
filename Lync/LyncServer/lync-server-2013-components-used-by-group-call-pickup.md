@@ -12,20 +12,22 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e868ecc20dcafbb5da12c91deb26a91f4efacb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 062dc114534abb7d2a011c31b9747c2d6a0a45bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213178"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502359"
 ---
+# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a>由 Lync Server 2013 中的组呼叫应答使用的组件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a>由 Lync Server 2013 中的组呼叫应答使用的组件
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**上次修改的主题：** 2013-01-30_
 
 当您部署企业语音和呼叫寄存应用程序时，将自动部署组间呼叫应答。 您可以通过将呼叫寄存通道表配置为指定为呼叫应答组号码的不同号码区域，然后将用户分配给呼叫应答组并为用户启用组内呼叫应答，从而启用组呼叫装货。 以下 Lync Server 组件支持组呼叫装货：
 
-  - **Application service**   Application service 提供用于部署、托管和管理统一通信应用程序（如呼叫寄存应用程序）的平台。 应用程序服务将自动安装在前端池和每个 Standard Edition 服务器上的每台前端服务器上。
+  - **应用程序服务**    应用程序服务提供了用于部署、托管和管理统一通信应用程序（如呼叫寄存应用程序）的平台。 应用程序服务将自动安装在前端池和每个 Standard Edition 服务器上的每台前端服务器上。
 
-  - **呼叫寄存应用**   程序呼叫寄存应用程序是由应用程序服务托管的统一通信应用程序之一。 组呼叫应答基于呼叫寄存应用程序。
+  - **呼叫寄存应用程序**    呼叫寄存应用程序是由应用程序服务承载的统一通信应用程序之一。 组呼叫应答基于呼叫寄存应用程序。
 
-  - **Lync server 命令行**   管理程序使用 lync server 命令行管理程序管理组呼叫应答组。
+  - **Lync Server 命令行**     管理程序您可以使用 Lync Server 命令行管理程序管理组呼叫应答组。
 
-  - **SEFAUtil 资源工具包工具**   使用辅助扩展功能激活实用程序（SEFAUtil）将用户分配到呼叫应答组，并为用户启用或禁用呼叫应答。
+  - **SEFAUtil 资源工具包工具**    您可以使用辅助扩展功能激活实用工具 (SEFAUtil) 将用户分配给呼叫应答组，并为用户启用或禁用呼叫应答。
 
 </div>
 

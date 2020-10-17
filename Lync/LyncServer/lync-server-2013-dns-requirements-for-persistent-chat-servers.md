@@ -12,20 +12,22 @@ ms:contentKeyID: 48185857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea581eb04f2899ecafd49364b38a1064303bdcdc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 055a55498247cdde540ceca44cc33187e2b9baca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214328"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501379"
 ---
+# <a name="dns-requirements-for-persistent-chat-servers-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的 DNS 要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-persistent-chat-servers-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的 DNS 要求
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214328"
 
 _**上次修改的主题：** 2012-06-28_
 
-本节介绍部署持久聊天服务器所需的域名系统（DNS）记录。
+本节介绍部署持久聊天服务器所需的 (DNS) 记录的域名系统。
 
 <div>
 

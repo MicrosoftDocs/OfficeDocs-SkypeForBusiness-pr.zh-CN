@@ -12,20 +12,22 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5198416e3c06dfd83cf7d1cf5bf3c6002ebe72ca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea3269b9594df0597220648313ec79acfa329cf9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195475"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502099"
 ---
+# <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>为 Lync 会议室系统管理 Web 门户配置 Lync Server 2013 环境
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>为 Lync 会议室系统管理 Web 门户配置 Lync Server 2013 环境
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42195475"
 
 _**上次修改的主题：** 2014-05-22_
 
-若要使用 Lync 会议室系统（LRS）管理 Web 门户，您将需要安装或配置以下必备组件。
+若要使用 Lync 会议室系统 (LRS) 管理 Web 门户，您将需要安装或配置以下必备组件。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果服务器配置了 Kerberos 和 NTLM 身份验证，并且 LRS 在未加入域的计算机上运行，则 Kerberos 身份验证将失败，并且用户将不会在管理门户中看到 LRS 的状态。 若要解决此问题，请将服务器配置为使用 NTLM 身份验证或 NTLM 和 TLS DSK 身份验证（不使用 Kerberos），或将 LRS 计算机加入域。
+> 如果服务器配置了 Kerberos 和 NTLM 身份验证，并且 LRS 在未加入域的计算机上运行，则 Kerberos 身份验证将失败，并且用户将不会在管理门户中看到 LRS 的状态。 若要解决此问题，请将服务器配置为使用 NTLM 身份验证或 NTLM 和 TLS DSK 身份验证 (没有 Kerberos) ，或将 LRS 计算机加入域。
 
 
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2014-05-22_
 
 1.  Install Lync Server 2013 累积更新： Lync Server 拓扑中的7月2013。
     
-    若要获取更新或查看它所包含的内容，请参阅[Lync Server 2013 更新](https://go.microsoft.com/fwlink/p/?linkid=323959)。
+    若要获取更新或查看它所包含的内容，请参阅 [Lync Server 2013 更新](https://go.microsoft.com/fwlink/p/?linkid=323959)。
 
 2.  创建启用了 SIP 的 Active Directory 用户。
     
@@ -83,7 +85,7 @@ _**上次修改的主题：** 2014-05-22_
     
      
 
-7.  安装 ASP.NET MVC 4 for Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 （可从 Microsoft 下载中心处[https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967)获取）。
+7.  安装 ASP.NET MVC 4 for Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 （可从 Microsoft 下载中心处获取） [https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967) 。
 
 </div>
 

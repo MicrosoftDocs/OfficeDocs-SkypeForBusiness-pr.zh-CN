@@ -12,20 +12,22 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0fcba962129353ddeb5e5f4c77520cf6d127733
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 95831fc6b6c43c6b4a1944187447fe3ff83f1d14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754440"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503109"
 ---
+# <a name="connect-a-survivable-branch-appliance"></a>连接 Survivable Branch Appliance
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-a-survivable-branch-appliance"></a>连接 Survivable Branch Appliance
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44754440"
 
 _**上次修改的主题：** 2012-10-19_
 
-每个 Survivable 分支设备（SBA）都与一个前端池相关联，该前端池充当 SBA 的备份注册器。 当将前端池迁移到 Lync Server 2013 时，在升级池时，SBA 必须与 Lync Server 2010 前端池解除关联，一旦将池迁移到 Lync Server 2013，则 SBA 可以与升级后的前端池重新关联。 这包括从拓扑生成器中的旧版 Lync Server 2010 拓扑中删除 SBA，然后将 SBA 添加到 Lync Server 2013 拓扑。 驻留在旧 Lync Server 2010 SBA 上的用户必须先移到另一个前端池，然后才能从拓扑中删除 SBA。 将 SBA 添加到 Lync Server 2013 拓扑后，这些用户即可移回 SBA。 这些步骤概括如下：
+每个 Survivable 分支设备 (SBA) 都与一个前端池相关联，该前端池充当 SBA 的备份注册器。 当将前端池迁移到 Lync Server 2013 时，在升级池时，SBA 必须与 Lync Server 2010 前端池解除关联，一旦将池迁移到 Lync Server 2013，则 SBA 可以与升级后的前端池重新关联。 这包括从拓扑生成器中的旧版 Lync Server 2010 拓扑中删除 SBA，然后将 SBA 添加到 Lync Server 2013 拓扑。 驻留在旧 Lync Server 2010 SBA 上的用户必须先移到另一个前端池，然后才能从拓扑中删除 SBA。 将 SBA 添加到 Lync Server 2013 拓扑后，这些用户即可移回 SBA。 这些步骤概括如下：
 
 1.  将驻留在旧版 SBA Lync Server 2010 的分支用户移动到另一个前端池。
 
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2012-10-19_
     
     3.  单击“Survivable Branch Appliance…”****
 
-9.  按照打开的向导中的说明执行操作。 有关向导项的信息，请参阅[在 Lync Server 2013 中定义 Survivable 分支设备或服务器](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)。
+9.  按照打开的向导中的说明执行操作。 有关向导项的信息，请参阅 [在 Lync Server 2013 中定义 Survivable 分支设备或服务器](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)。
     
     <div>
     

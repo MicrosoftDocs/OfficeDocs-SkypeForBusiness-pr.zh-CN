@@ -12,20 +12,22 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772ece86803f9fc499b38299621ccd491221f84b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d4390c2f3aa18820668415543496dfdcfd5aa79e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213068"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502349"
 ---
+# <a name="conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的会议摘要报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的会议摘要报告
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42213068"
 
 _**上次修改的主题：** 2014-09-03_
 
-会议摘要报告提供了联机会议会话的整体视图。 会议通常涉及2个以上的用户，并且需要使用 Microsoft Lync Server 2013 会议服务。 相比之下，对等会话一般仅涉及 2 个用户并且不需要使用 Lync Server 的会议服务。 对等活动在[Lync Server 2013 中的对等活动摘要报告](lync-server-2013-peer-to-peer-activity-summary-report.md)上报告。
+会议摘要报告提供了联机会议会话的整体视图。 会议通常涉及2个以上的用户，并且需要使用 Microsoft Lync Server 2013 会议服务。 相比之下，对等会话一般仅涉及 2 个用户并且不需要使用 Lync Server 的会议服务。 对等活动在 [Lync Server 2013 中的对等活动摘要报告](lync-server-2013-peer-to-peer-activity-summary-report.md)上报告。
 
-会议摘要报告不仅告诉你在指定时间段（每小时、每天、每周、每月）期间召开了多少会议，还告诉你参与这些会议的人员总数以及唯一会议的总数者.
+会议摘要报告不仅告诉您在指定时间段 (内每小时、每天、每周、每月) 召开了多少会议，还告诉您参与这些会议的人员总数，以及唯一会议组织者的总数。
 
 “唯一”组织者是计划了至少一场会议的任何人。例如，如果 Pilar Ackerman 计划了一场会议，则她将算为一个唯一组织者。如果 Ken Myer 计划了 148 场会议，则他也将算为一个唯一组织者。例如，下表显示了计划的 8 场会议，但仅 3 个唯一组织者（Ken Myer、Pilar Ackerman 和 David Ahs）。
 
@@ -242,7 +244,7 @@ _**上次修改的主题：** 2014-09-03_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

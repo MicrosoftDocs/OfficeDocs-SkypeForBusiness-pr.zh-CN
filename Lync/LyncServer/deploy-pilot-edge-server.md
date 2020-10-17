@@ -12,20 +12,22 @@ ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ba616f6a5ce86e0f94c3b52afd60aaba34b7635
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 37f2d51480567d1f775e9fb4b2161c9e54f8dfe7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751264"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502951"
 ---
+# <a name="deploy-pilot-edge-server"></a>部署试点边缘服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-pilot-edge-server"></a>部署试点边缘服务器
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44751264"
 
 _**上次修改的主题：** 2012-10-19_
 
-本主题重点介绍在部署 Lync Server 2013 边缘服务器之前应注意的配置设置。 Lync Server 2013 的部署和配置过程与 Lync Server 2010 非常相似。 本节仅重点介绍了应作为试点池部署的一部分考虑的关键点。 有关详细步骤，请参阅部署文档中的在[Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)，它介绍了部署过程，同时提供了外部用户访问的配置信息。
+本主题重点介绍在部署 Lync Server 2013 边缘服务器之前应注意的配置设置。 Lync Server 2013 的部署和配置过程与 Lync Server 2010 非常相似。 本节仅重点介绍了应作为试点池部署的一部分考虑的关键点。 有关详细步骤，请参阅部署文档中的在 [Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md) ，它介绍了部署过程，同时提供了外部用户访问的配置信息。
 
 在“定义新的边缘池”**** 向导中导航时，查看以下步骤中显示的关键配置设置。请注意，仅显示了“定义新的边缘池”**** 向导的部分页面。
 
@@ -57,21 +59,21 @@ _**上次修改的主题：** 2012-10-19_
     
     !["选择功能" 对话框](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg ""选择功能" 对话框")
 
-5.  接下来，继续完成以下向导页：**外部 fqdn**、**定义内部 Ip 地址**和**定义外部 ip 地址**。
+5.  接下来，继续完成以下向导页： **外部 fqdn**、 **定义内部 Ip 地址**和 **定义外部 ip 地址**。
 
-6.  在 "**定义下一个跃点**" 页上，选择 Lync Server 2010 边缘池的下一个跃点的控制器。
+6.  在 " **定义下一个跃点** " 页上，选择 Lync Server 2010 边缘池的下一个跃点的控制器。
     
     !["定义下一跃点" 对话框](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg ""定义下一跃点" 对话框")
 
-7.  在 "**关联前端或中介池**" 页上，此时不要将池与此边缘池相关联。 外部媒体流量当前通过旧版 Lync Server 2010 边缘服务器路由。 将在迁移的稍后阶段中配置此设置。
+7.  在 " **关联前端或中介池** " 页上，此时不要将池与此边缘池相关联。 外部媒体流量当前通过旧版 Lync Server 2010 边缘服务器路由。 将在迁移的稍后阶段中配置此设置。
     
     !["关联前端池" 对话框](images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg ""关联前端池" 对话框")
 
 8.  单击“完成”****，然后**发布**拓扑。
 
-9.  按照部署文档中的安装边缘服务器上的[Lync Server 2013](lync-server-2013-install-edge-servers.md)中的步骤操作，将文件安装在新的边缘服务器上，配置证书，并启动这些服务。
+9.  按照部署文档中的安装边缘服务器上的 [Lync Server 2013](lync-server-2013-install-edge-servers.md) 中的步骤操作，将文件安装在新的边缘服务器上，配置证书，并启动这些服务。
 
-请务必遵循部署文档中的 "在[Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)" 主题中的准则。 本节仅提供了一些有关安装这些服务器角色时的配置设置的指南。
+请务必遵循部署文档中的 "在 [Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md) " 主题中的准则。 本节仅提供了一些有关安装这些服务器角色时的配置设置的指南。
 
 现在，您应该已与 Lync Server 2013 Edge 服务器部署并行部署了旧版 Lync Server 2010 边缘服务器。 在进入下一个阶段之前，确认这两个部署都正常运行，服务已启动，并且您可以管理每个部署。
 

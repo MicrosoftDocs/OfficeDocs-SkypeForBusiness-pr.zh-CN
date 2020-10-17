@@ -12,20 +12,22 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f2c57f56f1f82b94b20feb7aa801ca26f0ae022
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6f39bf16a9d0ecf57a5617774395af477a67c2d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180269"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502129"
 ---
+# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置呼叫详细信息记录和体验质量设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置呼叫详细信息记录和体验质量设置
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180269"
 
 _**上次修改的主题：** 2012-10-17_
 
-将监控存储与前端池关联之后，将其设置为监控存储，然后安装并配置 SQL Server Reporting Services 和监控报告，以管理呼叫详细信息记录（CDR）和体验质量（QoE）使用 Lync Server 命令行管理程序进行监控。 Lync Server 命令行管理程序 cmdlet 允许您为特定站点或整个 Lync Server 部署启用和禁用 CDR 和/或 QoE 监控;为此，可以使用如下所示的命令来完成：
+将监控存储与前端池关联之后，设置监控存储，然后安装并配置 SQL Server Reporting Services 和监视报告，可以使用 Lync Server 命令行管理程序管理 QoE) 监控，从而管理呼叫详细记录 (CDR) 和体验质量 (。 Lync Server 命令行管理程序 cmdlet 允许您为特定站点或整个 Lync Server 部署启用和禁用 CDR 和/或 QoE 监控;为此，可以使用如下所示的命令来完成：
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 

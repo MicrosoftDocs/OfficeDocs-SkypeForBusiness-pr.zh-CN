@@ -12,20 +12,22 @@ ms:contentKeyID: 48183843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb57cde990e4c4218297c69aeb3c8933f9a3fd92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6ef309873ef51e06903123dfb5a1b6ecf68b4ea8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196365"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502749"
 ---
+# <a name="call-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫详细信息报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫详细信息报告
+
 
 </div>
 
@@ -67,17 +69,17 @@ _**上次修改的主题：** 2014-02-05_
 
 可以从下列任意报告中访问呼叫详情报告：
 
-  - [Lync Server 2013 中的位置报告](lync-server-2013-location-report.md)（单击 "呼叫量" 或 "较差呼叫百分比" 指标）
+  - [Lync Server 2013 (中的位置报告](lync-server-2013-location-report.md)，方法是单击 "呼叫量" 或 "低差呼叫百分比" 指标) 
 
-  - [Lync Server 2013 中的媒体质量摘要报告](lync-server-2013-media-quality-summary-report.md)（通过单击 "呼叫量" 或 "不良呼叫百分比" 指标）
+  - [Lync Server 2013 中的媒体质量摘要报告](lync-server-2013-media-quality-summary-report.md) (单击 "呼叫量" 或 "差呼叫百分比" 指标) 
 
-  - [Lync server 2013 中的媒体质量比较报告](lync-server-2013-media-quality-comparison-report.md)（通过单击[lync server 2013 中的呼叫列表报告](lync-server-2013-call-list-report.md)，然后单击详细信息指标）。
+  - [Lync server 2013 (中的媒体质量比较报告](lync-server-2013-media-quality-comparison-report.md)，方法是单击[lync server 2013 中的 "通话清单报告](lync-server-2013-call-list-report.md)"，然后单击 "详细信息" 指标) 。
 
-  - [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)（单击 "呼叫量" 或 "较差的呼叫百分比" 指标）
+  - [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)通过单击 "呼叫量" 或 "差的呼叫百分比" 指标 () 
 
-  - [Lync Server 2013 中的呼叫列表报告](lync-server-2013-call-list-report.md)（通过单击 "详细信息" 指标）
+  - 通过单击 "详细信息" 指标， [Lync Server 2013 (中的呼叫列表报告](lync-server-2013-call-list-report.md)) 
 
-从呼叫详细信息报告中，可通过单击以下任一指标[在 Lync Server 2013 中访问设备报告](lync-server-2013-device-report.md)：
+从呼叫详细信息报告中，可通过单击以下任一指标 [在 Lync Server 2013 中访问设备报告](lync-server-2013-device-report.md) ：
 
   - 捕获设备
 

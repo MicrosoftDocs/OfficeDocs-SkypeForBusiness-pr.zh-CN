@@ -12,20 +12,22 @@ ms:contentKeyID: 48185693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7596a9efb95436452144cf2cf0cacc53cd89a9be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cbf6a0c8e6d1d2e72ba7381af41fe86f645b827d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191755"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501829"
 ---
+# <a name="create-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a>在 Lync Server 2013 中创建语音策略和配置 PSTN 用法记录
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a>在 Lync Server 2013 中创建语音策略和配置 PSTN 用法记录
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42191755"
 
 _**上次修改的主题：** 2012-11-01_
 
-如果要创建新的语音策略，请执行以下步骤。 如果要编辑语音策略，请参阅[在 Lync Server 2013 中修改语音策略和配置 PSTN 用法记录中](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)的过程。
+如果要创建新的语音策略，请执行以下步骤。 如果要编辑语音策略，请参阅 [在 Lync Server 2013 中修改语音策略和配置 PSTN 用法记录中](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md) 的过程。
 
 <div>
 
 
 > [!NOTE]  
-> 每个语音策略必须至少有一个关联的公用电话交换网（PSTN）用法记录。 若要查看企业语音部署中提供的所有 PSTN 用法记录的列表并查看其属性，请参阅<A href="lync-server-2013-view-pstn-usage-records.md">在 Lync Server 2013 中查看 pstn 用法记录</A>。
+> 每个语音策略必须至少有一个相关联的公共交换电话网络 (PSTN) 使用记录。 若要查看企业语音部署中提供的所有 PSTN 用法记录的列表并查看其属性，请参阅 <A href="lync-server-2013-view-pstn-usage-records.md">在 Lync Server 2013 中查看 pstn 用法记录</A>。
 
 
 
@@ -53,19 +55,19 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-create-a-voice-policy"></a>创建语音策略
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 [Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击 "**语音路由**"，然后单击 "**语音策略**"。
+3.  在左侧导航栏中，单击 " **语音路由** "，然后单击 " **语音策略**"。
 
-4.  在 "**语音策略**" 页上，单击 "**新建**"，然后选择新策略的范围：
+4.  在 " **语音策略** " 页上，单击 " **新建** "，然后选择新策略的范围：
     
-      - **网站策略**适用于整个网站，但分配给用户策略的任何用户或组除外。 如果为策略作用域选择 "站点"，请从 "**选择站点**" 对话框中选择站点。 如果已为网站创建了语音策略，则该网站不会显示在 "**选择网站**" 对话框中。
+      - **网站策略** 适用于整个网站，但分配给用户策略的任何用户或组除外。 如果为策略作用域选择 "站点"，请从 " **选择站点** " 对话框中选择站点。 如果已为网站创建了语音策略，则该网站不会显示在 " **选择网站** " 对话框中。
     
-      - **用户策略**可应用于指定的用户或组。
+      - **用户策略** 可应用于指定的用户或组。
 
-5.  如果语音策略作用域为 User，请在 "**名称**" 字段中为策略输入一个描述性名称。
+5.  如果语音策略作用域为 User，请在 " **名称** " 字段中为策略输入一个描述性名称。
     
     <div>
     
@@ -76,9 +78,9 @@ _**上次修改的主题：** 2012-11-01_
     
     </div>
 
-6.  Optional输入语音策略的其他描述性信息。
+6.   (可选) 输入语音策略的其他描述性信息。
 
-7.  选中或清除以下复选框以启用或禁用此语音策略的每个**呼叫功能**：
+7.  选中或清除以下复选框以启用或禁用此语音策略的每个 **呼叫功能** ：
     
       - **语音邮件规避**可在配置了同时响铃且移动电话已关机、没电或接收不到信号时，阻止将呼叫立即路由到用户移动电话的语音邮件系统。
         
@@ -97,7 +99,7 @@ _**上次修改的主题：** 2012-11-01_
     
       - 通过**呼叫转移**，用户可以将呼叫转移到其他用户。 默认为启用。
     
-      - 通过**呼叫寄存**，用户可以寄存呼叫处于保留状态，然后从其他电话或客户端接听呼叫。 默认情况下处于禁用状态。
+      - 通过**呼叫寄存**，用户可以寄存呼叫处于保留状态，然后从其他电话或客户端接听呼叫。 默认为禁用。
     
       - **同时响铃**使传入呼叫可以在其他电话（如手机）或其他终结点设备上响铃。 Lync Server 2013 为同时响铃提供了更为广泛的配置选项。 默认为启用。
     
@@ -116,7 +118,7 @@ _**上次修改的主题：** 2012-11-01_
         
         </div>
     
-      - 通过**恶意呼叫跟踪**，用户可以通过使用客户端 UI 报告恶意呼叫（如炸弹威胁），后者又对呼叫详细信息记录（cdr）中的呼叫进行了标记。 默认情况下处于禁用状态。
+      - 通过**恶意呼叫跟踪**，用户可以使用客户端 UI 报告恶意呼叫 (例如炸弹威胁) ，后者又将呼叫详细信息记录中的呼叫标记 (cdr) 中。 默认为禁用。
 
 8.  要为此语音策略关联和配置 PSTN 用法记录，请执行以下任意操作：
     
@@ -128,7 +130,7 @@ _**上次修改的主题：** 2012-11-01_
         
         1.  单击“新建”****。
         
-        2.  在“名称”**** 字段中，输入记录的唯一描述性名称。 例如，您可能希望为位于 Redmond 的全职员工创建名为**redmond**的 PSTN 用法记录，并为临时员工创建另一个已命名的**RedmondTemps** 。
+        2.  在“名称”**** 字段中，输入记录的唯一描述性名称。 例如，您可能希望为位于 Redmond 的全职员工创建名为 **redmond** 的 PSTN 用法记录，并为临时员工创建另一个已命名的 **RedmondTemps** 。
             
             <div>
             
@@ -143,27 +145,27 @@ _**上次修改的主题：** 2012-11-01_
             
               - 要从企业语音部署中提供的所有路由列表中选择一个或多个路由，请单击“选择”****，突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”****。
             
-              - 若要从 PSTN 用法记录中删除路由，请突出显示该路由，然后单击 "**删除**"。
+              - 若要从 PSTN 用法记录中删除路由，请突出显示该路由，然后单击 " **删除**"。
             
-              - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。
+              - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅 [在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。
             
-              - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 有关详细信息，请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。
+              - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 有关详细信息，请参阅 [在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。
         
-        4.  单击“确定”。
+        4.  单击“确定”****。
     
       - 要编辑已经与此语音策略相关联的 PSTN 用法记录，请执行以下操作：
         
-        1.  突出显示要编辑的 PSTN 用法记录，然后单击 "**显示详细信息**"。
+        1.  突出显示要编辑的 PSTN 用法记录，然后单击 " **显示详细信息**"。
         
         2.  使用以下任意方法为此 PSTN 用法记录关联和配置路由：
             
               - 要从企业语音部署中提供的所有路由列表中选择一个或多个路由，请单击“选择”****，突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”****。
             
-              - 若要从此 PSTN 用法记录中删除路由，请突出显示该路由，然后单击 "**删除**"。
+              - 若要从此 PSTN 用法记录中删除路由，请突出显示该路由，然后单击 " **删除**"。
             
-              - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。
+              - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅 [在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。
             
-              - 若要编辑已与此 PSTN 用法记录相关联的路由，请突出显示该路由并单击**显示详细信息**。 有关详细信息，请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。
+              - 若要编辑已与此 PSTN 用法记录相关联的路由，请突出显示该路由并单击 **显示详细信息**。 有关详细信息，请参阅 [在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。
         
         3.  单击“确定”****。
 
@@ -182,9 +184,9 @@ _**上次修改的主题：** 2012-11-01_
     
       - 若要对呼叫转接和同时响铃使用与此语音策略相同的 PSTN 用法记录，请从下拉菜单中选择“使用呼叫 PSTN 用法进行路由”****。
     
-      - 若要仅允许呼叫转接和同时响铃到内部 Lync 用户，请从下拉菜单中选择 "**仅发送到内部 lync 用户**" 的选项。 呼叫将不会转接到外部 PSTN 号码。
+      - 若要仅允许呼叫转接和同时响铃到内部 Lync 用户，请从下拉菜单中选择 " **仅发送到内部 lync 用户** " 的选项。 呼叫将不会转接到外部 PSTN 号码。
     
-      - 若要为呼叫转接和同时响铃指定不同的 PSTN 用法记录，而不是用于此语音策略，请从下拉菜单中选择 "**使用自定义 PSTN**使用的选项" 路由。 此选项显示用于选择现有 PSTN 用法记录或创建专用于呼叫转接和同时响铃的新 PSTN 用法记录的控件。
+      - 若要为呼叫转接和同时响铃指定不同的 PSTN 用法记录，而不是用于此语音策略，请从下拉菜单中选择 " **使用自定义 PSTN** 使用的选项" 路由。 此选项显示用于选择现有 PSTN 用法记录或创建专用于呼叫转接和同时响铃的新 PSTN 用法记录的控件。
         
           - 要从呼叫转接和同时响铃的 PSTN 用法记录列表中选择一个或多个记录，请单击“选择”****。突出显示要与此呼叫转接和同时响铃策略关联的记录，然后单击“确定”****。
         
@@ -211,15 +213,15 @@ _**上次修改的主题：** 2012-11-01_
                 
                   - 要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
                 
-                  - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。
+                  - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅 [在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。
                 
-                  - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 有关详细信息，请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。
+                  - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 有关详细信息，请参阅 [在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。
             
-            4.  单击“确定”。
+            4.  单击“确定”****。
         
           - 要编辑已经与此语音策略相关联的 PSTN 用法记录，请执行以下操作：
             
-            1.  突出显示要编辑的 PSTN 用法记录，然后单击 "**显示详细信息**"。
+            1.  突出显示要编辑的 PSTN 用法记录，然后单击 " **显示详细信息**"。
             
             2.  使用以下任意方法为此 PSTN 用法记录关联和配置路由：
                 
@@ -227,11 +229,11 @@ _**上次修改的主题：** 2012-11-01_
                 
                   - 要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
                 
-                  - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。
+                  - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”****。 有关详细信息，请参阅 [在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。
                 
-                  - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 有关详细信息，请参阅[在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。
+                  - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。 有关详细信息，请参阅 [在 Lync Server 2013 中修改语音路由](lync-server-2013-modify-a-voice-route.md)。
             
-            3.  单击“确定”。
+            3.  单击“确定”****。
 
 11. （可选）输入一个号码来测试语音策略，然后单击“执行”****。测试结果会显示在“要测试的转换号码”**** 下。
     
@@ -239,7 +241,7 @@ _**上次修改的主题：** 2012-11-01_
     
 
     > [!NOTE]  
-    > 您可以保存尚未通过测试的语音策略，并在稍后对其进行重新配置。 有关详细信息，请参阅<A href="lync-server-2013-test-voice-routing.md">在 Lync Server 2013 中测试语音路由</A>。
+    > 您可以保存尚未通过测试的语音策略，并在稍后对其进行重新配置。 有关详细信息，请参阅 <A href="lync-server-2013-test-voice-routing.md">在 Lync Server 2013 中测试语音路由</A>。
 
     
     </div>
@@ -252,12 +254,12 @@ _**上次修改的主题：** 2012-11-01_
     
 
     > [!NOTE]  
-    > 无论何时创建或修改语音策略，都必须运行 "<STRONG>全部提交</STRONG>" 命令以发布配置更改。 有关详细信息，请参阅操作文档中的在<A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中发布待处理的语音路由配置的更改</A>。
+    > 无论何时创建或修改语音策略，都必须运行 " <STRONG>全部提交</STRONG> " 命令以发布配置更改。 有关详细信息，请参阅操作文档中的在 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 中发布待处理的语音路由配置的更改</A> 。
 
     
     </div>
 
-14. （可选）语音邮件规避检测到用户的手机语音邮件立即应答了一个呼叫，因此将断开至移动电话语音邮件的呼叫。 这将允许此呼叫继续在用户的其他终结点上响铃，以使用户能够应答呼叫。 有关如何配置语音邮件策略的详细信息，请参阅[Lync Server 2013 中的配置语音邮件转义](lync-server-2013-configuring-voice-mail-escape.md)。
+14. （可选）语音邮件规避检测到用户的手机语音邮件立即应答了一个呼叫，因此将断开至移动电话语音邮件的呼叫。 这将允许此呼叫继续在用户的其他终结点上响铃，以使用户能够应答呼叫。 有关如何配置语音邮件策略的详细信息，请参阅 [Lync Server 2013 中的配置语音邮件转义](lync-server-2013-configuring-voice-mail-escape.md)。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45707cafca4a7ed9da7cdeb5e162128ccd73468d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 586a24f4cfacd2ed28947102a7d5a129159a26bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191505"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502499"
 ---
+# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的组件和拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的组件和拓扑
+
 
 </div>
 
@@ -55,12 +57,12 @@ _**上次修改的主题：** 2012-10-05_
     
 
     > [!IMPORTANT]  
-    > 在 Lync Server 2013 中，用于文件上载/下载的持久聊天 Web 服务现在并置使用 Lync Server 2013&nbsp;前端服务器。<BR>聊天室管理的持久聊天 Web 服务也与 Lync Server 2013&nbsp;前端服务器并置。
+    > 在 Lync Server 2013 中，用于文件上载/下载的持久聊天 Web 服务现在并置使用 Lync Server 2013 &nbsp; 前端服务器。<BR>聊天室管理的持久聊天 Web 服务也与 Lync Server 2013 &nbsp; 前端服务器并置。
 
     
     </div>
 
-  - 服务器（如果使用了镜像，则使用多台服务器）承载 SQL Server 后端数据库，以托管聊天室内容、聊天室和类别的持久聊天内容数据库。
+  - 服务器 (s)  (多个服务器（如果使用镜像）) 承载用于承载聊天室内容、聊天室和类别的持久聊天内容数据库的 SQL Server 后端数据库。
     
     <div>
     
@@ -71,11 +73,11 @@ _**上次修改的主题：** 2012-10-05_
     
     </div>
 
-  - 如果启用了合规性，则为托管持久聊天合规性数据库的服务器（如果使用了多个服务器）承载 SQL Server 后端数据库，其中存储了合规性事件和用于合规性的聊天内容。
+  - 如果启用了合规性，则在存储用于承载持久聊天合规性数据库的 SQL Server 后端数据库的) 中，服务器 (s)  (多台服务器，其中存储了合规性事件和用于实现合规性的聊天内容。
 
-若要从单独的计算机（如管理控制台）管理持久聊天服务器，请使用计算机上的 Lync Server 控制面板。 此计算机必须部署在 Active Directory 域服务域中，林根中至少有一个全局编录服务器。
+若要从单独的计算机管理持久聊天服务器 (如管理控制台) ，请使用计算机上的 Lync Server 控制面板。 此计算机必须部署在 Active Directory 域服务域中，林根中至少有一个全局编录服务器。
 
-有关持久聊天服务器的硬件和软件要求的详细信息，请参阅可支持性文档中的 lync server [2013 中的 "持久聊天服务器" 的技术要求](lync-server-2013-technical-requirements-for-persistent-chat-server.md)、lync server [2013 支持的硬件](lync-server-2013-supported-hardware.md)以及[Lync server 2013 中的服务器软件和基础结构支持](lync-server-2013-server-software-and-infrastructure-support.md)。
+有关持久聊天服务器的硬件和软件要求的详细信息，请参阅可支持性文档中的 lync server [2013 中的 "持久聊天服务器" 的技术要求](lync-server-2013-technical-requirements-for-persistent-chat-server.md)、lync server [2013 支持的硬件](lync-server-2013-supported-hardware.md)以及 [Lync server 2013 中的服务器软件和基础结构支持](lync-server-2013-server-software-and-infrastructure-support.md) 。
 
 </div>
 
@@ -83,11 +85,11 @@ _**上次修改的主题：** 2012-10-05_
 
 ## <a name="supported-collocation"></a>支持的并置
 
-Lync Server 2013 支持各种并置方案，使您能够通过在一台服务器（如果有小型组织）上运行多个组件来节省硬件成本，或在不同的服务器上运行单个组件（如果您有需要可伸缩性和性能的更大的组织）。 在决定是否并置组件之前，一定要考虑可伸缩性因素。
+Lync Server 2013 支持各种并置方案，使您可以通过在一台服务器 (上运行多个组件来节省硬件成本) 如果您有一个小型组织或在不同的服务器上运行单个组件 (如果您有需要可伸缩性和性能) 的大型组织。 在决定是否并置组件之前，一定要考虑可伸缩性因素。
 
 如果合规性已启用，则持久聊天合规性服务将与 Lync Server 2013 前端服务器并置。
 
-可以在 Standard Edition server 上部署持久聊天服务器。 可以在本地 SQL Server Express 后端服务器上的 Standard Edition server 上并置持久聊天服务器后端服务器和持久聊天合规性数据库。 有关可在其中并置的组件的详细信息，请参阅可支持性文档中的[Lync server 2013 中的支持的服务器并置](lync-server-2013-supported-server-collocation.md)。
+可以在 Standard Edition server 上部署持久聊天服务器。 可以在本地 SQL Server Express 后端服务器上的 Standard Edition server 上并置持久聊天服务器后端服务器和持久聊天合规性数据库。 有关可在其中并置的组件的详细信息，请参阅可支持性文档中的 [Lync server 2013 中的支持的服务器并置](lync-server-2013-supported-server-collocation.md) 。
 
 对于 Lync Server 2013 Enterprise Edition，不能在 Enterprise Edition Server 上并置持久聊天服务器。 持久聊天服务器的 SQL Server 数据库可与 Enterprise Edition 前端池的后端服务器数据库并置。 用于持久聊天合规性的 SQL Server 数据库也可以与 Enterprise Edition 池的后端服务器数据库并置。
 
@@ -105,7 +107,7 @@ Lync Server 2013 支持各种并置方案，使您能够通过在一台服务器
 
   - 每个 SQL Server 实例只能包含一个后端数据库和一个持久聊天数据库。
 
-有关所有服务器角色和数据库的并置的详细信息，请参阅可支持性文档中的[Lync server 2013 中的支持的服务器并置](lync-server-2013-supported-server-collocation.md)。
+有关所有服务器角色和数据库的并置的详细信息，请参阅可支持性文档中的 [Lync server 2013 中的支持的服务器并置](lync-server-2013-supported-server-collocation.md) 。
 
 </div>
 
@@ -139,7 +141,7 @@ Lync Server 2013 支持各种并置方案，使您能够通过在一台服务器
 
 ## <a name="single-server-topology"></a>单服务器拓扑
 
-持久聊天服务器的最小配置和最简单部署是一个持久聊天服务器前端服务器拓扑。 此部署需要运行持久聊天服务器（如果合规性已启用）的一台服务器、承载 SQL Server 数据库的服务器，以及如果需要合规性，则为 SQL Server 数据库存储合规性数据。
+持久聊天服务器的最小配置和最简单部署是一个持久聊天服务器前端服务器拓扑。 此部署需要运行持久聊天服务器 (的单个服务器，如果符合性已启用，则可以选择运行合规性服务) 、承载 SQL Server 数据库的服务器以及是否需要合规性，以存储合规性数据的 SQL Server 数据库为依据。
 
 <div>
 
@@ -163,7 +165,7 @@ Lync Server 2013 支持各种并置方案，使您能够通过在一台服务器
 
 ## <a name="multiple-server-topology"></a>多服务器拓扑
 
-若要提供更大的容量和可靠性，可以部署多服务器拓扑，如在[Lync server 2013 中规划持久聊天服务器中](lync-server-2013-planning-for-persistent-chat-server.md)所述。 多服务器拓扑可以包括多达四个运行持久聊天服务器的活动计算机（高可用性和灾难恢复配置允许最多八个，但只有四个活动，并且在待机时剩下四个）。 每个服务器最多可以支持多达20000个并发用户，共80000个并发用户连接到具有4台服务器的持久聊天服务器池。 多服务器拓扑与单服务器拓扑相同，不同之处在于多个服务器承载持久聊天服务器，并且可以扩展到更高级别。 运行持久聊天服务器的多台计算机应驻留在与 Lync Server 和合规性服务相同的 Active Directory 域服务域中。
+若要提供更大的容量和可靠性，可以部署多服务器拓扑，如在 [Lync server 2013 中规划持久聊天服务器中](lync-server-2013-planning-for-persistent-chat-server.md)所述。 多服务器拓扑可以包含多达四个运行持久聊天服务器的活动计算机 (高可用性和灾难恢复配置最多允许8个，但只有四个活动可以处于活动状态，并且在待机) 的其余四个。 每个服务器最多可以支持多达20000个并发用户，共80000个并发用户连接到具有4台服务器的持久聊天服务器池。 多服务器拓扑与单服务器拓扑相同，不同之处在于多个服务器承载持久聊天服务器，并且可以扩展到更高级别。 运行持久聊天服务器的多台计算机应驻留在与 Lync Server 和合规性服务相同的 Active Directory 域服务域中。
 
 下图显示了多个服务器拓扑的所有组件，其中包含多个运行持久聊天服务器、可选合规性服务和独立合规性数据库的计算机。
 

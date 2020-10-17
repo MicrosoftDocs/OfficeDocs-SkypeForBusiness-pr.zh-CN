@@ -12,20 +12,22 @@ ms:contentKeyID: 48184213
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ca674be0059a235439df637f07cb4ca834806d4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec153b237df086f3622acc70c104bddc64fef28a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209428"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502609"
 ---
+# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Lync Server 2013 中用于存档的组件和拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Lync Server 2013 中用于存档的组件和拓扑
+
 
 </div>
 
@@ -49,13 +51,13 @@ _**上次修改的主题：** 2012-10-09_
 
   - **存档数据存储**。 Lync Server 2013 的数据存储可以是以下两种情况之一：
     
-      - Exchange 2013 存储。 如果启用了 Microsoft Exchange 集成选项，则驻留在 Exchange 2013 服务器上的用户邮箱将 Exchange 2013 存储用于存档的数据，但前提是这些邮箱已置于就地保留状态。
+      - Exchange 2013 存储。 如果启用了 Microsoft Exchange 集成选项，则驻留在 Exchange 2013 服务器上的用户邮箱将 Exchange 2013 存储用于存档的数据，但仅当邮箱已置于 In-Place 保留状态时才使用。
     
       - SQL Server 存储。 如果您的部署中有用户托管在 Lync Server 2013 上，则可以设置存档数据库，以运行受支持的 SQL Server 版本，以便为这些用户启用存档。
 
 存档还需要文件存储，但是存档使用与前端服务器或 Standard Edition 服务器相同的文件存储。
 
-有关存档的硬件和软件要求的列表，请参阅可支持性文档中的 lync server [2013 支持的硬件](lync-server-2013-supported-hardware.md)和[lync server 2013 中的服务器软件和基础结构支持](lync-server-2013-server-software-and-infrastructure-support.md)。
+有关存档的硬件和软件要求的列表，请参阅可支持性文档中的 lync server [2013 支持的硬件](lync-server-2013-supported-hardware.md) 和 [lync server 2013 中的服务器软件和基础结构支持](lync-server-2013-server-software-and-infrastructure-support.md) 。
 
 </div>
 
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2012-10-09_
 
   - 使用单独的 SQL Server 数据库部署
 
-如果您的 Exchange 2013 部署不包括 Lync Server 部署中的所有用户，则您必须为其邮箱位于 Exchange 2013 服务器上的用户使用 Microsoft Exchange 集成，并且您必须为所有其他服务器部署单独的 SQL Server 数据库。用于存档的 Lync 用户。
+如果您的 Exchange 2013 部署不包括 Lync Server 部署中的所有用户，则必须对其邮箱位于 Exchange 2013 服务器上的用户使用 Microsoft Exchange 集成，并且您必须为所有其他 Lync 用户部署单独的 SQL Server 数据库，以便用于存档。
 
 </div>
 
@@ -77,9 +79,9 @@ _**上次修改的主题：** 2012-10-09_
 
 ## <a name="supported-collocation"></a>支持的并置
 
-Lync Server 2013 支持各种并置方案，从而可以灵活地通过在一台服务器（如果有小型组织）上运行多个组件来节省硬件成本，或在不同的服务器上运行单个组件（如果有更大的需要可伸缩性和性能的组织）。 在决定是否并置组件之前，一定要考虑可伸缩性因素。
+Lync Server 2013 支持各种并置方案，使您可以通过在一台服务器 (上运行多个组件来灵活地节省硬件成本，如果您有一个小型组织) 或在不同的服务器上运行单个组件 (如果您有更大的组织需要可伸缩性和性能) 。 在决定是否并置组件之前，一定要考虑可伸缩性因素。
 
-存档部署在池或 Standard Edition 服务器的前端服务器上。 有关可在其中并置的组件的详细信息，请参阅可支持性文档中的[Lync server 2013 中的支持的服务器并置](lync-server-2013-supported-server-collocation.md)。
+存档部署在池或 Standard Edition 服务器的前端服务器上。 有关可在其中并置的组件的详细信息，请参阅可支持性文档中的 [Lync server 2013 中的支持的服务器并置](lync-server-2013-supported-server-collocation.md) 。
 
 如果将单独的 SQL Server 数据库用于存档，而不是或除了将存储与 Exchange 2013 存储集成，则可以使用以下任一项对存档数据库进行并置：
 
@@ -101,7 +103,7 @@ Lync Server 2013 支持各种并置方案，从而可以灵活地通过在一台
 
   - 每个 SQL 实例只能包含一个后端数据库，一个监控数据库和一个存档数据库。
 
-有关所有服务器角色和数据库的并置的详细信息，请参阅可支持性文档中的[Lync server 2013 中的支持的服务器并置](lync-server-2013-supported-server-collocation.md)。
+有关所有服务器角色和数据库的并置的详细信息，请参阅可支持性文档中的 [Lync server 2013 中的支持的服务器并置](lync-server-2013-supported-server-collocation.md) 。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3319b7c99def298d617fdc4711b9f346f40212a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a94b7183be9927267796d3e2adaed12b3b71eaf6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199495"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501629"
 ---
+# <a name="create-quality-of-experience-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建体验质量配置设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-quality-of-experience-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建体验质量配置设置
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**上次修改的主题：** 2013-02-23_
 
 用户体验质量 (QoE) 指标跟踪组织中发出的语音和视频呼叫的质量，包括网络数据包丢失数目、背景噪音、“抖动”量（数据包延迟的差异）等。这些指标与其他数据（如呼叫详细信息记录）分开存储在一个数据库中，这样您就可以独立于其他数据记录启用和禁用 QoE。
 
-安装 Microsoft Lync Server 2013 时，将为您创建一个 QoE 配置设置的单一全局集合。 管理员还可以选择在站点范围创建自定义设置。 无论何时使用这些站点范围的设置，它们都优先于全局设置。 例如，如果您为 Redmond 站点创建网站范围的设置，则这些设置（而不是全局设置）将用于管理 Redmond 中的 QoE。
+安装 Microsoft Lync Server 2013 时，将为您创建一个 QoE 配置设置的单一全局集合。 管理员还可以选择在站点范围创建自定义设置。 无论何时使用这些站点范围的设置，它们都优先于全局设置。 例如，如果您为 Redmond 站点创建了站点作用域设置，则这些设置 (而不是全局设置) 将用于管理 Redmond 中的 QoE。
 
-可以使用 Lync Server 控制面板或[new-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) Cmdlet 创建 QoE 配置设置。 如果您使用 Lync Server 控制面板创建新设置，以下选项将对您可用：
+可以使用 Lync Server 控制面板或 [new-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) Cmdlet 创建 QoE 配置设置。 如果您使用 Lync Server 控制面板创建新设置，以下选项将对您可用：
 
 
 <table>
@@ -71,10 +73,10 @@ _**上次修改的主题：** 2013-02-23_
 <tr class="odd">
 <td><p>启用清除 QoE 数据</p></td>
 <td><p>EnablePurging</p></td>
-<td><p>指定在 "<strong>保持 QoE 数据的最长持续时间（天）</strong> " 属性中定义的持续时间后是否清除记录。</p></td>
+<td><p>指定在 "保持 QoE 数据" 中定义的持续时间 <strong> (天) </strong> 属性已过，是否将清除记录。</p></td>
 </tr>
 <tr class="even">
-<td><p>保留 QoE 数据的最长持续时间（天）</p></td>
+<td><p>保留 QoE 数据的最长持续时间 (天) </p></td>
 <td><p>KeepQoEDataForDays</p></td>
 <td><p>QoE 数据在从数据库中清除之前将存储的天数。 如果禁用清除，则忽略此值。</p></td>
 </tr>
@@ -86,7 +88,7 @@ _**上次修改的主题：** 2013-02-23_
 
 
 > [!NOTE]  
-> New-csqoeconfiguration cmdlet 包括 Lync Server 控制面板中不可用的其他选项。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration">new-csqoeconfiguration</A>帮助主题。
+> New-CsQoEConfiguration cmdlet 包括 Lync Server 控制面板中不可用的其他选项。 有关详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration">new-csqoeconfiguration</A> 帮助主题。
 
 
 
@@ -96,23 +98,23 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="to-create-qoe-configuration-settings-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板创建 QoE 配置设置
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 [Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“监控和存档”****，然后单击“用户体验质量数据”****。
 
-4.  在 "**体验质量数据**" 页上，单击 "**新建**"。
+4.  在 " **体验质量数据** " 页上，单击 " **新建**"。
 
-5.  在 "**选择站点**" 中，单击要应用该策略的站点，然后单击 **"确定"**。
+5.  在 " **选择站点**" 中，单击要应用该策略的站点，然后单击 **"确定"**。
 
-6.  在 "**新体验质量设置**" 中，执行以下操作：
+6.  在 " **新体验质量设置**" 中，执行以下操作：
     
-      - 选择 "**启用对 QoE 数据的监视**" 以启用监控。
+      - 选择 " **启用对 QoE 数据的监视** " 以启用监控。
     
-      - 选择 "**启用对 QoE 数据的清除**" 以启用清除。
+      - 选择 " **启用对 QoE 数据的清除** " 以启用清除。
     
-      - 在 "**保持 QoE 最长持续时间（天）**" 中，选择应保留 QoE 记录的最大天数。
+      - 在 " **保持 QoE 的最长持续时间 (天) **中，选择应保留 QoE 记录的最大天数。
 
 7.  单击“提交”****。
 
@@ -122,7 +124,7 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 创建 QoE 配置设置
 
-您可以使用 Windows PowerShell 和 New-csqoeconfiguration cmdlet 创建 QoE 配置设置。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 Windows PowerShell 和 New-CsQoEConfiguration cmdlet 创建 QoE 配置设置。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -154,7 +156,7 @@ _**上次修改的主题：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[new-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) cmdlet 的帮助主题。
+有关详细信息，请参阅 [new-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) cmdlet 的帮助主题。
 
 </div>
 

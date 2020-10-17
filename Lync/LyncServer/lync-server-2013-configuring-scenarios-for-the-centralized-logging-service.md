@@ -12,20 +12,22 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc58e0f29ca0a562a94f771857d88da49d616064
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 505ae775e2735ba01bd02cd0104240ad8781f968
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199685"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502069"
 ---
+# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中配置集中日志记录服务的方案
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中配置集中日志记录服务的方案
+
 
 </div>
 
@@ -37,19 +39,19 @@ ms.locfileid: "42199685"
 
 _**上次修改的主题：** 2014-02-05_
 
-方案定义了范围（即全局、站点、池或计算机）以及要在集中日志记录服务中使用的提供程序。 通过使用方案，可以启用或禁用对提供程序进行的跟踪（例如，S4、SIPStack、IM 和 Presence）。 通过配置方案，可将针对给定逻辑集合的、满足某个特定问题条件的所有提供程序组合在一起。 如果发现需要修改某个方案以满足故障排除和日志记录需求，Lync Server 2013 调试工具会为您提供一个名为*ClsController*的 Windows PowerShell 模块，其中包含名为*Edit-new-csclsscenario*的函数。 此模块的用途是编辑命名的方案的属性。 本主题提供了此模块的工作方式的示例。 从以下链接下载 Lync Server 2013 调试工具：[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
+方案定义了作用域 (即全局、站点、池或计算机) 以及要在集中日志记录服务中使用的提供程序。 通过使用方案，可以启用或禁用对提供程序进行的跟踪（例如，S4、SIPStack、IM 和 Presence）。 通过配置方案，可将针对给定逻辑集合的、满足某个特定问题条件的所有提供程序组合在一起。 如果发现需要修改某个方案以满足故障排除和日志记录需求，Lync Server 2013 调试工具会为您提供一个名为 *ClsController* 的 Windows PowerShell 模块，其中包含名为 *Edit-new-csclsscenario*的函数。 此模块的用途是编辑命名的方案的属性。 本主题提供了此模块的工作方式的示例。 从以下链接下载 Lync Server 2013 调试工具： [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
 
 > [!IMPORTANT]  
-> 对于任何给定的范围（站点、全局、池或计算机），您可以在任何给定时间最多运行两个方案。 若要确定当前正在运行的方案，请使用 Windows PowerShell 和<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario">new-csclsscenario</A>。 通过使用 Windows PowerShell 和<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario">new-csclsscenario</A>，您可以动态更改正在运行的方案。 可以在日志记录会话期间修改正在运行的方案，以调整或优化所收集的数据以及源提供程序。
+> 对于任何给定的范围（站点、全局、池或计算机），您可以在任何给定时间最多运行两个方案。 若要确定当前正在运行的方案，请使用 Windows PowerShell 和 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario">new-csclsscenario</A>。 通过使用 Windows PowerShell 和 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario">new-csclsscenario</A>，您可以动态更改正在运行的方案。 可以在日志记录会话期间修改正在运行的方案，以调整或优化所收集的数据以及源提供程序。
 
 
 
 </div>
 
-若要使用 Lync Server 命令行管理程序运行集中式日志记录服务功能，您必须是 CsAdministrator 或 CsServerAdministrator 基于角色的访问控制（RBAC）安全组的成员，或者是包含以下任一项的自定义 RBAC 角色：这两个组。 若要返回此 cmdlet 已分配到的所有 RBAC 角色的列表，包括您自己创建的任何自定义 RBAC 角色，请从 Lync Server 命令行管理程序或 Windows PowerShell 提示符处运行以下命令：
+若要使用 Lync Server 命令行管理程序运行集中式日志记录服务功能，您必须是 CsAdministrator 或 CsServerAdministrator 基于角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组中任一组的自定义 RBAC 角色。 若要返回此 cmdlet 已分配到的所有 RBAC 角色的列表，包括您自己创建的任何自定义 RBAC 角色，请从 Lync Server 命令行管理程序或 Windows PowerShell 提示符处运行以下命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -57,13 +59,13 @@ _**上次修改的主题：** 2014-02-05_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-本主题的其余部分重点说明了如何定义方案、修改方案、检索正在运行的方案、删除方案以及指定方案为优化故障排除而包含的内容。 有两种方法可以发出集中式日志记录服务命令。 默认情况\\下，您可以使用目录 C： Program Files\\Common Files\\the Microsoft Lync Server 2013\\CLSAgent 中的 CLSController。 或者，您可以使用 Lync Server 命令行管理程序发出 Windows PowerShell 命令。 重要区别在于，在命令行上使用 CLSController.exe 时，可供选择的可用方案是有限的。 使用 Windows PowerShell 时，可以定义在日志记录会话中使用的新方案。
+本主题的其余部分重点说明了如何定义方案、修改方案、检索正在运行的方案、删除方案以及指定方案为优化故障排除而包含的内容。 有两种方法可以发出集中式日志记录服务命令。 默认情况下，您可以使用目录 C： \\ Program files \\ Common files The \\ Microsoft Lync Server 2013 CLSAgent 中的 CLSController.exe \\ 。 或者，您可以使用 Lync Server 命令行管理程序发出 Windows PowerShell 命令。 重要区别在于，在命令行上使用 CLSController.exe 时，可供选择的可用方案是有限的。 使用 Windows PowerShell 时，可以定义在日志记录会话中使用的新方案。
 
-如[Lync Server 2013 中的集中日志记录服务概述](lync-server-2013-overview-of-the-centralized-logging-service.md)中所述，方案的元素为：
+如 [Lync Server 2013 中的集中日志记录服务概述](lync-server-2013-overview-of-the-centralized-logging-service.md)中所述，方案的元素为：
 
-  - **提供程序**   如果您熟悉 OCSLogger，则提供程序是您选择的组件，用于告诉 OCSLogger 跟踪引擎应从什么方面收集日志。 提供程序是一些相同的组件，在许多情况下，它们的名称与 OCSLogger 中组件的名称相同。 如果您不熟悉 OCSLogger，则提供程序是集中式日志记录服务可从中收集日志的特定于服务器角色的组件。 有关提供程序配置的详细信息，请参阅[在 Lync Server 2013 中配置集中日志记录服务的提供程序](lync-server-2013-configuring-providers-for-centralized-logging-service.md)。
+  - **提供程序**    如果您熟悉 OCSLogger，则提供程序是您选择的组件，用于告诉 OCSLogger 跟踪引擎应从什么方面收集日志。 提供程序是一些相同的组件，在许多情况下，它们的名称与 OCSLogger 中组件的名称相同。 如果您不熟悉 OCSLogger，则提供程序是集中式日志记录服务可从中收集日志的特定于服务器角色的组件。 有关提供程序配置的详细信息，请参阅 [在 Lync Server 2013 中配置集中日志记录服务的提供程序](lync-server-2013-configuring-providers-for-centralized-logging-service.md)。
 
-  - **Identity**   参数– identity 设置方案的范围和名称。 例如，您可以设置“全局”范围并使用“LyssServiceScenario”标识方案。 在将二者组合在一起时，可以定义 Identity（例如“global/LyssServiceScenario”）。
+  - **标识**    参数– Identity 设置方案的范围和名称。 例如，您可以设置“全局”范围并使用“LyssServiceScenario”标识方案。 在将二者组合在一起时，可以定义 Identity（例如“global/LyssServiceScenario”）。
     
     （可选）可以使用 –Name 和 –Parent 参数。定义 Name 参数可对方案进行唯一标识。如果使用 Name，则还必须使用 Parent 将方案添加到全局或站点范围中。
     
@@ -114,7 +116,7 @@ _**上次修改的主题：** 2014-02-05_
     
 
     > [!NOTE]  
-    > 在 Windows PowerShell 中，创建使用<CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE>的值的哈希表的约定称为 "<EM>展开</EM>"。 有关 Windows PowerShell 中的展开的详细信息<A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A>，请参阅。
+    > 在 Windows PowerShell 中，创建使用的值的哈希表的约定 <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> 称为 " <EM>展开</EM>"。 有关 Windows PowerShell 中的展开的详细信息，请参阅 <A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A> 。
 
     
     </div>
@@ -190,7 +192,7 @@ _**上次修改的主题：** 2014-02-05_
     
 
     > [!TIP]  
-    > 成功加载该模块后，将返回到 Windows PowerShell 命令提示符。 若要确认模块已加载并且 New-csclsscenario 可用，请键入<CODE>Get-Help Edit-CsClsScenario</CODE>。 您应看到 EditCsClsScenario 的语法的基本概要。
+    > 成功加载该模块后，将返回到 Windows PowerShell 命令提示符。 若要确认模块已加载且 Edit-CsClsScenario 可用，请键入 <CODE>Get-Help Edit-CsClsScenario</CODE> 。 您应看到 EditCsClsScenario 的语法的基本概要。
 
     
     </div>
@@ -203,7 +205,7 @@ _**上次修改的主题：** 2014-02-05_
     
 
     > [!TIP]  
-    > 成功卸载该模块后，将返回到 Windows PowerShell 命令提示符。 若要确认模块已卸载，请键入<CODE>Get-Help Edit-CsClsScenario</CODE>。 Windows PowerShell 将尝试查找 cmdlet 的帮助并失败。
+    > 成功卸载该模块后，将返回到 Windows PowerShell 命令提示符。 若要确认模块已卸载，请键入 <CODE>Get-Help Edit-CsClsScenario</CODE> 。 Windows PowerShell 将尝试查找 cmdlet 的帮助并失败。
 
     
     </div>
@@ -246,7 +248,7 @@ _**上次修改的主题：** 2014-02-05_
     
         Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
     
-    \-Loglevel 可以是 "致命"、"错误"、"警告"、"信息"、"详细"、"调试" 或 "全部"。 – Flags 可以是提供程序支持的任何标志，如 TF\_COMPONENT、tf\_诊断。 –Flags 的值可以为 ALL
+    \-Loglevel 可以是 "致命"、"错误"、"警告"、"信息"、"详细"、"调试" 或 "全部"。 – Flags 可以是提供程序支持的任何标志，如 TF \_ COMPONENT、tf \_ 诊断。 –Flags 的值可以为 ALL
     
     还可以使用 cmdlet 的定位功能键入上一个示例。例如，若要将提供程序 ChatServer 添加到 AlwaysOn 方案，请键入：
     

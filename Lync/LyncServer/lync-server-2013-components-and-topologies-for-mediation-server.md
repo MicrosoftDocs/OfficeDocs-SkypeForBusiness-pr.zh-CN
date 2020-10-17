@@ -12,20 +12,22 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b6c824da8eccaec0cb48450b0d81dddcc60f99
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ac46c8aba06bdfedaafa7846142d5a584c703c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187985"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502559"
 ---
+# <a name="components-and-topologies-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013 中的中介服务器的组件和拓扑
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013 中的中介服务器的组件和拓扑
+
 
 </div>
 
@@ -71,7 +73,7 @@ Lync Server 2013 （中介服务器）默认情况下并置具有 Standard Editi
 
 您可以使用 Microsoft Lync Server 2013、规划工具来评估您要并置中介服务器的前端池是否可以处理负载。 如果您的环境不能满足这些要求，则必须部署独立的中介服务器池。
 
-有关要部署的拓扑的详细信息，请参阅[Lync server 2013 中的中介服务器部署指南](lync-server-2013-deployment-guidelines-for-mediation-server.md)。
+有关要部署的拓扑的详细信息，请参阅 [Lync server 2013 中的中介服务器部署指南](lync-server-2013-deployment-guidelines-for-mediation-server.md)。
 
 下图显示了由通过 WAN 链路连接的两个站点组成的简单拓扑。 中介服务器与在站点1的前端池上的注册器并置。 站点1上的中介服务器控制站点1和站点2上的网关的 PSTN 网关。 在此拓扑中，已在全局范围内启用媒体旁路以使用站点和区域信息，并且到每个 PSTN 网关（GW1 和 GW2）的中继都已启用旁路。
 
@@ -85,9 +87,9 @@ Lync Server 2013 （中介服务器）默认情况下并置具有 Standard Editi
 
 ![语音拓扑中介服务器 WAN PBX](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "语音拓扑中介服务器 WAN PBX")
 
-有关规划 PBX 拓扑的详细信息，请参阅 lync server [2013 中的中介服务器部署指南](lync-server-2013-deployment-guidelines-for-mediation-server.md)和[lync server 2013 中的直接 SIP 部署选项](lync-server-2013-direct-sip-deployment-options.md)。
+有关规划 PBX 拓扑的详细信息，请参阅 lync server [2013 中的中介服务器部署指南](lync-server-2013-deployment-guidelines-for-mediation-server.md) 和 [lync server 2013 中的直接 SIP 部署选项](lync-server-2013-direct-sip-deployment-options.md)。
 
-本主题中的最后一个图显示了中介服务器连接到 Internet 电话服务提供商的 SBC 的拓扑。 有关 SIP 中继拓扑的详细信息，请参阅[Lync Server 2013 中的 SIP 中继](lync-server-2013-sip-trunking.md)。
+本主题中的最后一个图显示了中介服务器连接到 Internet 电话服务提供商的 SBC 的拓扑。 有关 SIP 中继拓扑的详细信息，请参阅 [Lync Server 2013 中的 SIP 中继](lync-server-2013-sip-trunking.md)。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51d102c6a810730d6c748dafc6a4fcdc3dd6821e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8721cc82651710ab5fc8158eeb6f297f80847c33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180396"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502909"
 ---
+# <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SQL Server 非标准端口和别名
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SQL Server 非标准端口和别名
+
 
 </div>
 
@@ -45,7 +47,7 @@ Microsoft Lync Server 2013 支持在 SQL Server 中使用非标准端口和别�
 
 ## <a name="deploying-a-sql-server-non-standard-port-and-alias-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SQL Server 非标准端口和别名
 
-Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL Server 别名作为完全限定的域名（FQDN），而不是实际的 SQL Server FQDN。 这样，就可以从任何恶意攻击者中隐藏实际的 SQL Server FQDN。 此外，如果使用非标准端口遮盖实际端口，攻击者可能会试图攻击标准端口1433上的数据库，如下图所示。
+Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL Server 别名作为完全限定的域名 (FQDN) 而不是实际的 SQL Server FQDN。 这样，就可以从任何恶意攻击者中隐藏实际的 SQL Server FQDN。 此外，如果使用非标准端口遮盖实际端口，攻击者可能会试图攻击标准端口1433上的数据库，如下图所示。
 
 ![黑客不知道要攻击的端口号。](images/Dn776290.2f3923e0-2bdc-416b-a66b-bf56599eb14e(OCS.15).jpg "黑客不知道要攻击的端口号。")
 
@@ -55,13 +57,13 @@ Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL S
 
 
 > [!NOTE]  
-> SQL Server 提供两种容错方法（故障转移群集和镜像）。 使用 SQL Server 的非标准端口和使用 Lync Server 2013 的别名都支持这两种 SQL Server 容错方法。 如果池使用的 SQL Server 后端位于镜像配置中，则 SQL Server 后端服务器上的 SQL 浏览器服务应运行，以便前端服务器在数据库故障转移到镜像 SQL 时连接到镜像数据库。服务器主板.
+> SQL Server 在故障转移群集和镜像) 中提供了两种容错方法 (。 使用 SQL Server 的非标准端口和使用 Lync Server 2013 的别名都支持这两种 SQL Server 容错方法。 如果池使用的 SQL Server 后端在镜像配置中，则当数据库故障转移到镜像 SQL Server 时，SQL Server 后端服务器上的 SQL browser service 应运行，以便前端服务器连接到镜像数据库。
 
 
 
 </div>
 
-在拓扑生成器中配置 SQL Server 数据库连接时，或者在使用 CsDatabase cmdlet 时，不可能显式定义 SQL Server 非标准端口号，并将其与 SQL 实例关联。 若要设置非标准端口，需要使用 SQL Server 和 Windows Server 实用程序。
+在拓扑生成器中配置 SQL Server 数据库连接时，或者在使用 Install-CsDatabase cmdlet 时，不可能显式定义 SQL Server 非标准端口号，并将其与 SQL 实例关联。 若要设置非标准端口，需要使用 SQL Server 和 Windows Server 实用程序。
 
 若要设置与 Lync Server 2013 一起使用的 SQL Server 非标准端口和别名，您需要完成三个主要步骤。 这些步骤是：
 
@@ -77,7 +79,7 @@ Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL S
 
 ## <a name="confirm-that-lync-server-2013-has-the-latest-updates-applied"></a>确认 Lync Server 2013 已应用最新的更新
 
-将 Lync Server 2013 保持为最新状态非常重要。 若要查看有关如何应用这些更新的最新更新和信息，请参阅[Lync Server 2013 更新](https://support.microsoft.com/kb/2809243)。
+将 Lync Server 2013 保持为最新状态非常重要。 若要查看有关如何应用这些更新的最新更新和信息，请参阅 [Lync Server 2013 更新](https://support.microsoft.com/kb/2809243)。
 
 </div>
 
@@ -91,37 +93,37 @@ Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL S
 
   - 创建和配置 SQL Server 别名。
 
-  - 创建域名系统（DNS）规范名称（CNAME）资源记录。
+  -  (DNS) 规范名称 (CNAME) 资源记录中创建域名系统。
 
 **修改默认的 TCP/IP 协议值**
 
-1.  选择 "**开始**"，然后选择 " **SQL Server 配置管理器**"，如下图所示。
+1.  选择 " **开始**"，然后选择 " **SQL Server 配置管理器**"，如下图所示。
     
     ![SQL Server Management Studio 图标](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "SQL Server Management Studio 图标")
 
-2.  在导航窗格中，选择展开 " **sql server" 实例**，选择展开 " **sql server 网络配置**"，然后选择 "**用于实例\>名称的\<协议**"，如下图所示。
+2.  在导航窗格中，选择展开 " **Sql server" 实例**，选择展开 " **Sql server 网络配置**"，然后** \<instance name\> **选择 "协议"，如下图所示。
     
     ![导航到 "TCP/IP 属性"](images/Dn776290.3d7a964c-f17e-47fd-8f0c-535453da7fad(OCS.15).jpg "导航到 "TCP/IP 属性"")
 
-3.  在右窗格中，右键单击 " **tcp/ip**"，然后选择 "**属性**"。 将显示 "TCP/IP 属性" 对话框。
+3.  在右窗格中，右键单击 " **tcp/ip**"，然后选择 " **属性**"。 将显示 "TCP/IP 属性" 对话框。
 
-4.  选择 " **IP 地址**" 选项卡。"IP 地址" 选项卡显示服务器上的所有活动 IP 地址。 这些格式的格式为 IP1、IP2、最高为 IPAll，如下图所示。
+4.  选择 " **IP 地址** " 选项卡。"IP 地址" 选项卡显示服务器上的所有活动 IP 地址。 这些格式的格式为 IP1、IP2、最高为 IPAll，如下图所示。
     
     ![打开 "TCP/IP 属性"。](images/Dn776290.ed2fd70d-1836-4ebf-80fe-09191d96585e(OCS.15).jpg "打开 "TCP/IP 属性"。")
 
-5.  清除所有 IP 地址的 " **TCP 动态端口**" 字段。 如果该字段包含零个字符，则表示 SQL Server 正在侦听动态端口。 请确保这些字段已清除且不包含零。
+5.  清除所有 IP 地址的 " **TCP 动态端口** " 字段。 如果该字段包含零个字符，则表示 SQL Server 正在侦听动态端口。 请确保这些字段已清除且不包含零。
 
-6.  对于 Lync Server 将用于连接到数据库的 IP 地址，请确保 "**已启用**" 设置为 **"是"**，如下图所示。
+6.  对于 Lync Server 将用于连接到数据库的 IP 地址，请确保 " **已启用** " 设置为 **"是"**，如下图所示。
     
     ![对于正确的 IP，请将启用设置为 Yes。](images/Dn776290.7f818b91-0793-4594-8932-90447270fad9(OCS.15).jpg "对于正确的 IP，请将启用设置为 Yes。")
 
-7.  在对话框底部的 " **IPAll** " 部分中，在 " **TCP 端口**" 字段中输入所需的端口，如下图所示。 在此示例中，我们使用端口50062，但你可以使用49152和65535之间的任何端口。 这些端口分配给动态和专用用途，这样可确保您不会与 Lync Server 2013 部署中使用的其他端口发生冲突。
+7.  在对话框底部的 " **IPAll** " 部分中，在 " **TCP 端口** " 字段中输入所需的端口，如下图所示。 在此示例中，我们使用端口50062，但你可以使用49152和65535之间的任何端口。 这些端口分配给动态和专用用途，这样可确保您不会与 Lync Server 2013 部署中使用的其他端口发生冲突。
     
     ![在 "IPAll" 部分中设置端口。](images/Dn776290.b5af53e2-7961-4664-b586-3ca8f3a17f06(OCS.15).jpg "在 "IPAll" 部分中设置端口。")
 
 8.  选择 **"确定"** 退出 "tcp/ip 属性" 对话框。
 
-9.  在 "SQL Server 配置管理器" 的左窗格中选择 " **Sql Server 服务**"，以重新启动 sql server 实例。 然后在右侧窗格中右键单击 " **SQL Server \<实例\>名称**"，然后选择 "**重新启动**"，如下图所示。
+9.  在 "SQL Server 配置管理器" 的左窗格中选择 " **Sql Server 服务** "，以重新启动 sql server 实例。 然后，在右侧窗格中右键单击 " **SQL Server \<instance name\> ** "，然后选择 "**重新启动**"，如下图所示。
     
     ![为实例重置 SQL Server 服务。](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "为实例重置 SQL Server 服务。")
 
@@ -137,17 +139,17 @@ Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL S
 
 **创建和配置 SQL Server 别名**
 
-1.  选择 "**开始**"，然后选择 " **SQL Server 配置管理器**"，如下图所示。
+1.  选择 " **开始**"，然后选择 " **SQL Server 配置管理器**"，如下图所示。
     
     ![SQL Server Management Studio 图标](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "SQL Server Management Studio 图标")
 
-2.  在左窗格中，选择展开 " **Sql Server 实例**"，选择展开 " **sql Native \<Client\>版本配置**"，然后选择 "**别名**"，如下图所示。
+2.  在左窗格中，选择展开 " **Sql Server 实例**"，选择展开 " **sql Native Client \<version\> 配置**"，然后选择 " **别名**"，如下图所示。
     
     ![SQL Server 配置管理器中的别名。](images/Dn776290.95341826-55d7-425f-ae19-d47d6668c5d8(OCS.15).jpg "SQL Server 配置管理器中的别名。")
 
-3.  右键单击 "**别名**"，然后选择 "**新建别名 ...**"。
+3.  右键单击 " **别名**"，然后选择 " **新建别名 ...**"。
 
-4.  输入**别名名称**、**端口号**、**协议**和**服务器**，如下图所示。
+4.  输入 **别名名称**、 **端口号**、 **协议**和 **服务器**，如下图所示。
     
     ![创建新别名](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "创建新别名")
     
@@ -164,21 +166,21 @@ Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL S
 
 1.  登录到管理 DNS 的计算机。
 
-2.  选择 "**开始**"，然后选择 "**服务器管理器**"，如下图所示。
+2.  选择 " **开始**"，然后选择 " **服务器管理器**"，如下图所示。
     
     ![打开服务器管理器](images/Dn776290.3e4bd8ad-2a65-4a05-af40-c8dd3583bc8f(OCS.15).jpg "打开服务器管理器")
 
-3.  选择 "**工具**" 下拉下拉箭头，然后选择 " **DNS**"，如下图所示。
+3.  选择 " **工具** " 下拉下拉箭头，然后选择 " **DNS**"，如下图所示。
     
     ![从服务器管理器打开 DNS。](images/Dn776290.415e1da1-7c9a-4a4e-a896-ca34a76aaeff(OCS.15).jpg "从服务器管理器打开 DNS。")
 
 4.  在左窗格中，展开 "服务器名称" 节点，展开 "正向查找区域" 节点，然后选择相关域。
 
-5.  右键单击域，然后选择 "**新建别名（CNAME） ...**"，如下图所示。
+5.  右键单击域，然后选择 " **新建别名 (CNAME) ...**"，如下图所示。
     
     ![选择创建新的别名 CNAME 的选项](images/Dn776290.abe66cca-b53c-427a-9094-1a59dc6840ca(OCS.15).jpg "选择创建新的别名 CNAME 的选项")
 
-6.  输入 "**别名**" 和 " **SQL Server 的 FQDN**"，如下图所示。
+6.  输入 " **别名** " 和 " **SQL Server 的 FQDN**"，如下图所示。
     
     ![填写 "新建别名 CNAME" 对话框。](images/Dn776290.dd0ebd2d-3407-4459-8bd9-2b389a7bc440(OCS.15).jpg "填写 "新建别名 CNAME" 对话框。")
 
@@ -190,7 +192,7 @@ Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL S
 
 ## <a name="validate-database-connectivity"></a>验证数据库连接
 
-有多种不同的方法可确保其正常工作。 您希望确保 SQL Server 数据库使用别名在指定的端口上进行侦听。 可以使用**netstat**和**telnet**命令完成快速检查。
+有多种不同的方法可确保其正常工作。 您希望确保 SQL Server 数据库使用别名在指定的端口上进行侦听。 可以使用 **netstat** 和 **telnet** 命令完成快速检查。
 
 <div>
 
@@ -204,21 +206,21 @@ Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL S
 
 **使用 netstat 和 telnet 验证数据库连接**
 
-1.  选择 "**开始**"，然后键入**cmd**以打开命令提示符。
+1.  选择 " **开始**"，然后键入 **cmd** 以打开命令提示符。
 
-2.  键入**netstat-a-f**，并确认 SQL Server 正在使用正确的端口运行，如下图所示。
+2.  键入 **netstat-a-f**，并确认 SQL Server 正在使用正确的端口运行，如下图所示。
     
     ![使用 netstat 验证端口。](images/Dn776290.4ff3a1b2-c5eb-4496-8be7-374c351fa027(OCS.15).jpg "使用 netstat 验证端口。")
 
-3.  键入 **" \<telnet 别名\> \<name \# port** " 以确认与 SQL Server 实例的连接。 如果连接成功，telnet 将会连接，并且您不会看到错误。 这表明 SQL Server 实例正在使用正确的别名在正确的端口上侦听。 如果连接到 SQL Server 数据库时出现问题，telnet 将显示一条错误消息，指出无法建立连接。 现在您已经检查了数据库服务器上的数据库连接，您可以从 Lync Server （通过网络）执行相同的操作，并确保没有任何防火墙阻止访问。
+3.  键入**telnet \<alias name\> \<port \#\> **以确认与 SQL Server 实例的连接。 如果连接成功，telnet 将会连接，并且您不会看到错误。 这表明 SQL Server 实例正在使用正确的别名在正确的端口上侦听。 如果连接到 SQL Server 数据库时出现问题，telnet 将显示一条错误消息，指出无法建立连接。 现在您已经检查了数据库服务器上的数据库连接，您可以通过网络) 从 Lync Server (中执行相同的操作，并确保没有任何防火墙阻止访问。
 
 </div>
 
 <div>
 
-## <a name="conclusion"></a>结论
+## <a name="conclusion"></a>总结
 
-一旦配置了 SQL Server 别名，便可使用它在拓扑生成器工具中创建 Lync Server 2013 拓扑。 有关拓扑的详细信息，请参阅[在 Lync Server 2013 中定义和配置拓扑](lync-server-2013-defining-and-configuring-the-topology.md)。
+一旦配置了 SQL Server 别名，便可使用它在拓扑生成器工具中创建 Lync Server 2013 拓扑。 有关拓扑的详细信息，请参阅 [在 Lync Server 2013 中定义和配置拓扑](lync-server-2013-defining-and-configuring-the-topology.md)。
 
 </div>
 
@@ -229,8 +231,8 @@ Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL S
 ## <a name="see-also"></a>另请参阅
 
 
-[Microsoft lync server 2013](microsoft-lync-server-2013.md) 
-[在 Lync server 2013 中规划安全性](lync-server-2013-planning-for-security.md)  
+[Microsoft Lync Server 2013](microsoft-lync-server-2013.md)  
+[在 Lync Server 2013 中规划安全性](lync-server-2013-planning-for-security.md)  
 [在 Lync Server 2013 中定义和配置拓扑](lync-server-2013-defining-and-configuring-the-topology.md)  
 [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md)  
   
