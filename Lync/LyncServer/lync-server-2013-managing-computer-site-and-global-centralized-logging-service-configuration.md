@@ -1,5 +1,6 @@
 ---
 title: 管理计算机、站点和全局集中日志记录服务配置
+description: 管理计算机、站点和全局集中日志记录服务配置。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8b7dfb9d96e452fc18dc5a7a962a18802388410
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 37dee125d69e17664fddd0c32feb3048ffcf91b5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505849"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570378"
 ---
 # <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中管理计算机、站点和全局集中日志记录服务配置
 

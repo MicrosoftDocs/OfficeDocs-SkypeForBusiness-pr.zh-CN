@@ -1,5 +1,6 @@
 ---
 title: 从 Office Communications Server 2007 R2 迁移至 Lync Server 2013
+description: 从 Office 通信服务器 2007 R2 迁移到 Lync Server 2013。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a71ac7e0e1291dedfa45e4e358b5b3495d8a623b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d0afdc754ae691bc674c200addb9fb97c1eb4199
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527249"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569588"
 ---
 # <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>从 Office Communications Server 2007 R2 迁移至 Lync Server 2013
 
@@ -77,15 +78,15 @@ _**上次修改的主题：** 2012-10-19_
 
 ## <a name="in-this-section"></a>本节内容
 
-  - [开始迁移之前的准备工作](before-you-begin-the-migration_1.md)
+  - [开始迁移之前的准备工作](before-you-begin-the-migration.md)
 
-  - [迁移阶段](migration-phases_1.md)
+  - [迁移阶段](migration-phases.md)
 
   - [第1阶段：规划从 Office 通信服务器 2007 R2 迁移](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [第 2 阶段：准备迁移](phase-2-prepare-for-migration_1.md)
+  - [第 2 阶段：准备迁移](phase-2-prepare-for-migration.md)
 
-  - [第3阶段：部署 Lync Server 2013 试点池](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [第3阶段：部署 Lync Server 2013 试点池](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
   - [第4阶段：合并拓扑](phase-4-merge-topologies.md)
 

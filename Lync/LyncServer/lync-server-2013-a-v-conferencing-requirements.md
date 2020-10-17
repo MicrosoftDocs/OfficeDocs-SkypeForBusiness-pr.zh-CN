@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 A/V 会议要求
+description: Lync Server 2013 A/V 会议要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c98e608a4cc555bd2a62c4a495b8ce994c4de6c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5ab18c996350aad0773659ec24b74e5b27f14d18
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523239"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568948"
 ---
 # <a name="av-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 A/V 会议要求
 

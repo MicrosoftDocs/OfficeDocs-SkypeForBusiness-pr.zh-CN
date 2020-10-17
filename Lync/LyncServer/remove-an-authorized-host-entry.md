@@ -1,5 +1,6 @@
 ---
 title: 删除授权主机条目
+description: 删除授权主机条目。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184177
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bad444821c352991c1befd184d91920dcd5d147
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 95aa8df1745ad3108654fcb9b441b5919d42ec40
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500099"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570278"
 ---
 # <a name="remove-an-authorized-host-entry"></a>删除授权主机条目
 
