@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：持久聊天服务器合规性表的列表
+description: Lync Server 2013：持久聊天服务器合规性表的列表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48706007
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70d8b61b67b8c6156b3875d2a9c0d5c9b6870459
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 47cb28a0ca4180327c2adc48d80e9e41171a7bfc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513949"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550068"
 ---
 # <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器合规性表的列表
 

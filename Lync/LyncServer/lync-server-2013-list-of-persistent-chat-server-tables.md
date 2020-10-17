@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：持久聊天服务器表的列表
+description: Lync Server 2013：持久聊天服务器表的列表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da3069fdd039cb394308f3901ae9805b9023e15d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 838e6d8f83b137923075851b29df4c602a487391
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513879"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550048"
 ---
 # <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器表的列表
 
