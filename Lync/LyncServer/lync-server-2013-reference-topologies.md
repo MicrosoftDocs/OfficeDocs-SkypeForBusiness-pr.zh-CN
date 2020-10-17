@@ -12,20 +12,22 @@ ms:contentKeyID: 48183544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13481f67433f4633357f9a44bc1d30f5195fa5f9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a902a996ad713cfc1d3b4dddd72a5bc3a96b76a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511989"
 ---
+# <a name="reference-topologies-in-lync-server-2013"></a><span data-ttu-id="bb329-102">Lync Server 2013 中的参考拓扑</span><span class="sxs-lookup"><span data-stu-id="bb329-102">Reference topologies in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reference-topologies-in-lync-server-2013"></a><span data-ttu-id="c8744-102">Lync Server 2013 中的参考拓扑</span><span class="sxs-lookup"><span data-stu-id="c8744-102">Reference topologies in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42183168"
 
 <span> </span>
 
-<span data-ttu-id="c8744-103">_**上次修改的主题：** 2012-05-21_</span><span class="sxs-lookup"><span data-stu-id="c8744-103">_**Topic Last Modified:** 2012-05-21_</span></span>
+<span data-ttu-id="bb329-103">_**上次修改的主题：** 2012-05-21_</span><span class="sxs-lookup"><span data-stu-id="bb329-103">_**Topic Last Modified:** 2012-05-21_</span></span>
 
-<span data-ttu-id="c8744-104">最理想的 Lync Server 拓扑取决于组织的规模、要部署的工作负荷以及高可用性与投资成本的首选项。</span><span class="sxs-lookup"><span data-stu-id="c8744-104">The ideal Lync Server topology depends on your organization’s size, the workloads you want to deploy, and your preferences for high availability versus cost of investment.</span></span>
+<span data-ttu-id="bb329-104">最理想的 Lync Server 拓扑取决于组织的规模、要部署的工作负荷以及高可用性与投资成本的首选项。</span><span class="sxs-lookup"><span data-stu-id="bb329-104">The ideal Lync Server topology depends on your organization’s size, the workloads you want to deploy, and your preferences for high availability versus cost of investment.</span></span>
 
-<span data-ttu-id="c8744-105">以下主题概述了三种参考拓扑，包括多种决策背后的推论，这些决策推动了对每个拓扑的要求。</span><span class="sxs-lookup"><span data-stu-id="c8744-105">The following topics outline three reference topologies, including the reasoning behind many of the decisions that drive the requirements for each topology.</span></span>
+<span data-ttu-id="bb329-105">以下主题概述了三种参考拓扑，包括多种决策背后的推论，这些决策推动了对每个拓扑的要求。</span><span class="sxs-lookup"><span data-stu-id="bb329-105">The following topics outline three reference topologies, including the reasoning behind many of the decisions that drive the requirements for each topology.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c8744-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="c8744-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bb329-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="bb329-106">In This Section</span></span>
 
-  - [<span data-ttu-id="c8744-107">小型组织中 Lync Server 2013 的参考拓扑</span><span class="sxs-lookup"><span data-stu-id="c8744-107">Reference topology for Lync Server 2013 in small organizations</span></span>](lync-server-2013-reference-topology-for-small-organizations.md)
+  - [<span data-ttu-id="bb329-107">小型组织中 Lync Server 2013 的参考拓扑</span><span class="sxs-lookup"><span data-stu-id="bb329-107">Reference topology for Lync Server 2013 in small organizations</span></span>](lync-server-2013-reference-topology-for-small-organizations.md)
 
-  - [<span data-ttu-id="c8744-108">中型组织中 Lync Server 2013 的参考拓扑</span><span class="sxs-lookup"><span data-stu-id="c8744-108">Reference topology for Lync Server 2013 in medium-size organizations</span></span>](lync-server-2013-reference-topology-for-medium-size-organizations.md)
+  - [<span data-ttu-id="bb329-108">中型组织中 Lync Server 2013 的参考拓扑</span><span class="sxs-lookup"><span data-stu-id="bb329-108">Reference topology for Lync Server 2013 in medium-size organizations</span></span>](lync-server-2013-reference-topology-for-medium-size-organizations.md)
 
-  - [<span data-ttu-id="c8744-109">具有多个数据中心的大型组织中 Lync Server 2013 的参考拓扑</span><span class="sxs-lookup"><span data-stu-id="c8744-109">Reference topology for Lync Server 2013 in large organizations with multiple data centers</span></span>](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
+  - [<span data-ttu-id="bb329-109">具有多个数据中心的大型组织中 Lync Server 2013 的参考拓扑</span><span class="sxs-lookup"><span data-stu-id="bb329-109">Reference topology for Lync Server 2013 in large organizations with multiple data centers</span></span>](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
 
 </div>
 
