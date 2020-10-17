@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：将 Lync Online 用户迁移到 Lync 本地
+description: Lync Server 2013：将 Lync Online 用户迁移到本地 Lync。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a2be7414dbdc48c9e245db33e57b8238cfb2ee9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 620bc07def8e3c1f6b761c6398b452b4dbcd3b04
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520989"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560998"
 ---
 # <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>将 Lync Online 用户迁移到 Lync Server 2013 中的 Lync 本地
 

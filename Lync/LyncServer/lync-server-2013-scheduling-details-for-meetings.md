@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：会议的计划详细信息
+description: Lync Server 2013：会议的计划详细信息。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183910
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54b1756d61ce2e21def08b28d5f08adc658e2983
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ef7a6907aedbc880731b3fb474c9294c1c111b80
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510789"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561978"
 ---
 # <a name="scheduling-details-for-meetings-in-lync-server-2013"></a>Lync Server 2013 中会议的日程安排详细信息
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：创建体验质量配置设置
+description: Lync Server 2013：创建经验丰富的配置设置的质量。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a94b7183be9927267796d3e2adaed12b3b71eaf6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 279265f396fc8fcbfba80d195fc587924a2979f5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501629"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562188"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建体验质量配置设置
 

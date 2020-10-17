@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：附录 B：管理 Survivable 分支设备
+description: Lync Server 2013：附录 B：管理 Survivable 分支设备。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20a766ae86d4c74d874f1db747c137f54cf568d9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e66d97f538ee751d7bf12b0d0f70ff3a3f5576b2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523219"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561828"
 ---
 # <a name="appendix-b-managing-a-survivable-branch-appliance-in-lync-server-2013"></a>附录 B：在 Lync Server 2013 中管理 Survivable 分支设备
 

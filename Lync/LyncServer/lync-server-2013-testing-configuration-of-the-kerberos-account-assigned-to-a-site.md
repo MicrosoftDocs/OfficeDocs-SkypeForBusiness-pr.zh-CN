@@ -1,5 +1,6 @@
 ---
 title: 测试分配给站点的 Kerberos 帐户的配置
+description: 测试分配给网站的 Kerberos 帐户的配置。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969637
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08477e9902a1410a98516a79fe5fdd01c5e94214
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0eab1618474a19753a4c6064d59aa4f8a856fceb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504119"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560688"
 ---
 # <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>在 Lync Server 2013 中测试分配给某个站点的 Kerberos 帐户的配置
 

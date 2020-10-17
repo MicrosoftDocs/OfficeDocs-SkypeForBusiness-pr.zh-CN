@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： ConferenceUris 视图
+description: Lync Server 2013： ConferenceUris 视图。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733750
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5c2ff93d4c3230991f4b9d0d4d746754a42ac44
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cba643a1992462d501800b4b2fc36b93a2740e72
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507839"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561188"
 ---
 # <a name="conferenceuris-view-in-lync-server-2013"></a>Lync Server 2013 中的 ConferenceUris 视图
 

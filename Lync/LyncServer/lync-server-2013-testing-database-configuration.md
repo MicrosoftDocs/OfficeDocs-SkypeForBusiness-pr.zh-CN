@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：测试数据库配置
+description: Lync Server 2013：测试数据库配置。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1d57659c93aa42392f5408721157df1d14b56b0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2b9f88eee99c4a2d523cc84df401dcc1d7b9fe59
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504099"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560678"
 ---
 # <a name="testing-database-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中测试数据库配置
 

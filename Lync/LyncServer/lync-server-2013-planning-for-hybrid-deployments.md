@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：规划混合部署
+description: Lync Server 2013：规划混合部署。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2595d1d1e73b3078050682acc8154c227a9d2aef
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 919f6058059fc9bfcb6bcb4f4c38140e53be6274
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522059"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561298"
 ---
 # <a name="planning-for-lync-server-2013-hybrid-deployments"></a>规划 Lync Server 2013 混合部署
 

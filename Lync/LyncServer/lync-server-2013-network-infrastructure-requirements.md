@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 网络基础结构要求
+description: Lync Server 2013 网络基础结构要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 338e2387b08898694bd621e220d7f889a8d25e0a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6f7ff21c2f936ef8e048f6831d55408994055400
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505539"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561498"
 ---
 # <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 的网络基础结构要求
 

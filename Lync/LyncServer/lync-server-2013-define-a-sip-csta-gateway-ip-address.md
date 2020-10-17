@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：定义 SIP/CSTA 网关 IP 地址
+description: Lync Server 2013：定义 SIP/CSTA 网关 IP 地址。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3a88aa2209617a93b0feebf7c1cc6d8cccd0cf7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 23286b2748df3af06f905a791bf0ee80c6f0a919
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516379"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560428"
 ---
 # <a name="define-a-sipcsta-gateway-ip-address-in-lync-server-2013"></a>在 Lync Server 2013 中定义 SIP/CSTA 网关 IP 地址
 

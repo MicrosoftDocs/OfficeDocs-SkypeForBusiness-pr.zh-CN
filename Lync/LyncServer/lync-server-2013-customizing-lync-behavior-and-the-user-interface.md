@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：自定义 Lync 行为和用户界面
+description: Lync Server 2013：自定义 Lync 行为和用户界面。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db076a3ad0bfcf9647e2b509dd0bf19400e5fea8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7ae0a201aa8edd82b08c522c4b615094ececd6cc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516679"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561108"
 ---
 # <a name="customizing-lync-behavior-and-the-user-interface-in-lync-server-2013"></a>在 Lync Server 2013 中自定义 Lync 行为和用户界面
 

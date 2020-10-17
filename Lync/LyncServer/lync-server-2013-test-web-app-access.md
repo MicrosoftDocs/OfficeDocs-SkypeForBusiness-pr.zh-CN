@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：测试 Web 应用程序访问
+description: Lync Server 2013：测试 Web 应用访问。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969584
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cdf0c4d974732b75a7ff83022c6bfbf1c4d8e80
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fc3bbc8008df4fe47fc5a39571356383fe5a6035
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532929"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560828"
 ---
 # <a name="test-web-app-access-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Web 应用程序访问
 
