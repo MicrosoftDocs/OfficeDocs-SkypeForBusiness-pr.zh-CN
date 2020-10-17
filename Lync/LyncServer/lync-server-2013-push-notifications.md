@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：推送通知
+description: Lync Server 2013：推送通知。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53a442816d2543b93faef8d2e328c8a63932be36
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7b899a70997dd5e8cab34ff73986db3eae7adc74
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512189"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563898"
 ---
-# <a name="push-notifications-in-lync-server-2013"></a><span data-ttu-id="1f64f-102">Lync Server 2013 中的推送通知</span><span class="sxs-lookup"><span data-stu-id="1f64f-102">Push notifications in Lync Server 2013</span></span>
+# <a name="push-notifications-in-lync-server-2013"></a><span data-ttu-id="4313e-103">Lync Server 2013 中的推送通知</span><span class="sxs-lookup"><span data-stu-id="4313e-103">Push notifications in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,28 +38,28 @@ ms.locfileid: "48512189"
 
 <span> </span>
 
-<span data-ttu-id="1f64f-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="1f64f-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="4313e-104">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="4313e-104">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="1f64f-104">您可以从 "Lync Server 2013 控制面板" 的 " **客户端** " 部分管理推送通知。</span><span class="sxs-lookup"><span data-stu-id="1f64f-104">You can manage push notifications from the **Clients** section of Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="4313e-105">您可以从 "Lync Server 2013 控制面板" 的 " **客户端** " 部分管理推送通知。</span><span class="sxs-lookup"><span data-stu-id="4313e-105">You can manage push notifications from the **Clients** section of Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1f64f-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="1f64f-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4313e-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="4313e-106">In This Section</span></span>
 
-  - [<span data-ttu-id="1f64f-106">在 Lync Server 2013 中为 Iphone 启用或禁用推送通知</span><span class="sxs-lookup"><span data-stu-id="1f64f-106">Enabling or disabling push notifications for iPhones in Lync Server 2013</span></span>](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
+  - [<span data-ttu-id="4313e-107">在 Lync Server 2013 中为 Iphone 启用或禁用推送通知</span><span class="sxs-lookup"><span data-stu-id="4313e-107">Enabling or disabling push notifications for iPhones in Lync Server 2013</span></span>](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
 
-  - [<span data-ttu-id="1f64f-107">在 Lync Server 2013 中为 Windows phone 启用或禁用推送通知</span><span class="sxs-lookup"><span data-stu-id="1f64f-107">Enabling or disabling push notifications for Windows Phones in Lync Server 2013</span></span>](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
+  - [<span data-ttu-id="4313e-108">在 Lync Server 2013 中为 Windows phone 启用或禁用推送通知</span><span class="sxs-lookup"><span data-stu-id="4313e-108">Enabling or disabling push notifications for Windows Phones in Lync Server 2013</span></span>](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
 
-  - [<span data-ttu-id="1f64f-108">查看 Lync Server 2013 中的推送通知设置的相关信息</span><span class="sxs-lookup"><span data-stu-id="1f64f-108">Viewing information about push notification settings in Lync Server 2013</span></span>](lync-server-2013-viewing-information-about-push-notification-settings.md)
+  - [<span data-ttu-id="4313e-109">查看 Lync Server 2013 中的推送通知设置的相关信息</span><span class="sxs-lookup"><span data-stu-id="4313e-109">Viewing information about push notification settings in Lync Server 2013</span></span>](lync-server-2013-viewing-information-about-push-notification-settings.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1f64f-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1f64f-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4313e-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4313e-110">See Also</span></span>
 
 
-[<span data-ttu-id="1f64f-110">在 Lync Server 2013 中配置推送通知</span><span class="sxs-lookup"><span data-stu-id="1f64f-110">Configuring for push notifications in Lync Server 2013</span></span>](lync-server-2013-configuring-for-push-notifications.md)  
+[<span data-ttu-id="4313e-111">在 Lync Server 2013 中配置推送通知</span><span class="sxs-lookup"><span data-stu-id="4313e-111">Configuring for push notifications in Lync Server 2013</span></span>](lync-server-2013-configuring-for-push-notifications.md)  
   
 
 </div>

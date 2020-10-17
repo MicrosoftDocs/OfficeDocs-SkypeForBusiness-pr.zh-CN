@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：在 Lync Server 控制面板中配置身份验证
+description: Lync Server 2013：在 Lync Server 控制面板中配置身份验证。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d77e0cf27ec0bd8040e918fcbcd54c3229fd046b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5819c6fd52fcf1146b63350a8abbc3e79753e696
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502219"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562498"
 ---
-# <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a><span data-ttu-id="e49a6-102">在 Lync Server 2013 控制面板中配置身份验证</span><span class="sxs-lookup"><span data-stu-id="e49a6-102">Configuring authentication in the Lync Server 2013 Control Panel</span></span>
+# <a name="configuring-authentication-in-the-lync-server-2013-control-panel"></a><span data-ttu-id="61bc2-103">在 Lync Server 2013 控制面板中配置身份验证</span><span class="sxs-lookup"><span data-stu-id="61bc2-103">Configuring authentication in the Lync Server 2013 Control Panel</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,34 +38,34 @@ ms.locfileid: "48502219"
 
 <span> </span>
 
-<span data-ttu-id="e49a6-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="e49a6-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="61bc2-104">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="61bc2-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="e49a6-104">本节中的主题提供了可使用 Lync Server 2013 控制面板中的 **安全** 组执行的任务的分步过程。</span><span class="sxs-lookup"><span data-stu-id="e49a6-104">Topics in this section provide step-by-step procedures for tasks you can perform using the **Security** group in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="61bc2-105">本节中的主题提供了可使用 Lync Server 2013 控制面板中的 **安全** 组执行的任务的分步过程。</span><span class="sxs-lookup"><span data-stu-id="61bc2-105">Topics in this section provide step-by-step procedures for tasks you can perform using the **Security** group in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e49a6-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="e49a6-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="61bc2-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="61bc2-106">In This Section</span></span>
 
-  - [<span data-ttu-id="e49a6-106">在 Lync Server 2013 中创建注册器配置设置</span><span class="sxs-lookup"><span data-stu-id="e49a6-106">Create Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-registrar-configuration-settings.md)
+  - [<span data-ttu-id="61bc2-107">在 Lync Server 2013 中创建注册器配置设置</span><span class="sxs-lookup"><span data-stu-id="61bc2-107">Create Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-registrar-configuration-settings.md)
 
-  - [<span data-ttu-id="e49a6-107">在 Lync Server 2013 中修改现有的注册器配置设置</span><span class="sxs-lookup"><span data-stu-id="e49a6-107">Modify existing Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-modify-existing-registrar-configuration-settings.md)
+  - [<span data-ttu-id="61bc2-108">在 Lync Server 2013 中修改现有的注册器配置设置</span><span class="sxs-lookup"><span data-stu-id="61bc2-108">Modify existing Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-modify-existing-registrar-configuration-settings.md)
 
-  - [<span data-ttu-id="e49a6-108">在 Lync Server 2013 中删除现有的注册器配置设置</span><span class="sxs-lookup"><span data-stu-id="e49a6-108">Delete existing Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-existing-registrar-configuration-settings.md)
+  - [<span data-ttu-id="61bc2-109">在 Lync Server 2013 中删除现有的注册器配置设置</span><span class="sxs-lookup"><span data-stu-id="61bc2-109">Delete existing Registrar configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-existing-registrar-configuration-settings.md)
 
-  - [<span data-ttu-id="e49a6-109">在 Lync Server 2013 中创建新的 Web 服务配置设置</span><span class="sxs-lookup"><span data-stu-id="e49a6-109">Create new Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-new-web-service-configuration-settings.md)
+  - [<span data-ttu-id="61bc2-110">在 Lync Server 2013 中创建新的 Web 服务配置设置</span><span class="sxs-lookup"><span data-stu-id="61bc2-110">Create new Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-new-web-service-configuration-settings.md)
 
-  - [<span data-ttu-id="e49a6-110">在 Lync Server 2013 中修改现有的 Web 服务配置设置</span><span class="sxs-lookup"><span data-stu-id="e49a6-110">Modify existing Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-modify-existing-web-service-configuration-settings.md)
+  - [<span data-ttu-id="61bc2-111">在 Lync Server 2013 中修改现有的 Web 服务配置设置</span><span class="sxs-lookup"><span data-stu-id="61bc2-111">Modify existing Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-modify-existing-web-service-configuration-settings.md)
 
-  - [<span data-ttu-id="e49a6-111">在 Lync Server 2013 中删除现有的 Web 服务配置设置</span><span class="sxs-lookup"><span data-stu-id="e49a6-111">Delete existing Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-existing-web-service-configuration-settings.md)
+  - [<span data-ttu-id="61bc2-112">在 Lync Server 2013 中删除现有的 Web 服务配置设置</span><span class="sxs-lookup"><span data-stu-id="61bc2-112">Delete existing Web Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-existing-web-service-configuration-settings.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e49a6-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e49a6-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="61bc2-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="61bc2-113">See Also</span></span>
 
 
-[<span data-ttu-id="e49a6-113">在 Lync Server 2013 中管理会议和会议</span><span class="sxs-lookup"><span data-stu-id="e49a6-113">Managing meetings and conferences in Lync Server 2013</span></span>](lync-server-2013-managing-meetings-and-conferences.md)  
+[<span data-ttu-id="61bc2-114">在 Lync Server 2013 中管理会议和会议</span><span class="sxs-lookup"><span data-stu-id="61bc2-114">Managing meetings and conferences in Lync Server 2013</span></span>](lync-server-2013-managing-meetings-and-conferences.md)  
   
 
 </div>

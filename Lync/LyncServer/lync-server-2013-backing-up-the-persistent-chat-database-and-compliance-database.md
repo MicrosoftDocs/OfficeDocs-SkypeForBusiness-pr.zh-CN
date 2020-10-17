@@ -1,5 +1,6 @@
 ---
 title: 备份持久聊天数据库和合规性数据库
+description: 备份持久聊天数据库和合规性数据库。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1b498c0f34ebd361f390be732684f3b03f6b93
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: db832872f61ee6f18273433884618372aafbaa85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504899"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563208"
 ---
-# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a><span data-ttu-id="28518-102">在 Lync Server 2013 中备份持久聊天数据库和合规性数据库</span><span class="sxs-lookup"><span data-stu-id="28518-102">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>
+# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a><span data-ttu-id="b7e00-103">在 Lync Server 2013 中备份持久聊天数据库和合规性数据库</span><span class="sxs-lookup"><span data-stu-id="b7e00-103">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48504899"
 
 <span> </span>
 
-<span data-ttu-id="28518-103">_**上次修改的主题：** 2012-08-01_</span><span class="sxs-lookup"><span data-stu-id="28518-103">_**Topic Last Modified:** 2012-08-01_</span></span>
+<span data-ttu-id="b7e00-104">_**上次修改的主题：** 2012-08-01_</span><span class="sxs-lookup"><span data-stu-id="b7e00-104">_**Topic Last Modified:** 2012-08-01_</span></span>
 
-<span data-ttu-id="28518-104">应定期备份持久聊天数据库和合规性数据库。</span><span class="sxs-lookup"><span data-stu-id="28518-104">You should regularly back up the Persistent Chat database and the compliance database.</span></span> <span data-ttu-id="28518-105">若要确定如何以最适合所在环境的方式执行备份，请与数据库管理员联系。</span><span class="sxs-lookup"><span data-stu-id="28518-105">Contact the database administrator to determine the best way to do this in your environment.</span></span>
+<span data-ttu-id="b7e00-105">应定期备份持久聊天数据库和合规性数据库。</span><span class="sxs-lookup"><span data-stu-id="b7e00-105">You should regularly back up the Persistent Chat database and the compliance database.</span></span> <span data-ttu-id="b7e00-106">若要确定如何以最适合所在环境的方式执行备份，请与数据库管理员联系。</span><span class="sxs-lookup"><span data-stu-id="b7e00-106">Contact the database administrator to determine the best way to do this in your environment.</span></span>
 
 </div>
 
