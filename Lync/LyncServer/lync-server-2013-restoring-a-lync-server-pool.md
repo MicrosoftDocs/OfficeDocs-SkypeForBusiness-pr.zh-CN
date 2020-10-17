@@ -12,20 +12,22 @@ ms:contentKeyID: 51541488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 294b276dbfe12af7b6b2fbd1bca285920431ce9c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e4612fb48c2e526fa501ebc5f7342d7797ca47b8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208728"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511599"
 ---
+# <a name="restoring-a-lync-server-pool-in-lync-server-2013"></a>在 Lync Server 2013 中还原 Lync Server 池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-lync-server-pool-in-lync-server-2013"></a>在 Lync Server 2013 中还原 Lync Server 池
+
 
 </div>
 
@@ -49,9 +51,9 @@ _**上次修改的主题：** 2013-02-18_
 
 如果整个池遇到中断现象，请对池中的每个成员服务器执行以下过程。
 
-  - 对于前端池，先还原后端服务器，然后还原每台前端服务器。 有关详细信息，请参阅在 lync server [2013 中还原企业版后端服务器](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)和[在 lync Server 2013 中还原企业版成员服务器](lync-server-2013-restoring-an-enterprise-edition-member-server.md)。
+  - 对于前端池，先还原后端服务器，然后还原每台前端服务器。 有关详细信息，请参阅在 lync server [2013 中还原企业版后端服务器](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) 和 [在 lync Server 2013 中还原企业版成员服务器](lync-server-2013-restoring-an-enterprise-edition-member-server.md)。
 
-  - 对于所有其他类型的池，还原每个成员服务器。 有关详细信息，请参阅[在 Lync server 2013 中还原企业版的成员服务器](lync-server-2013-restoring-an-enterprise-edition-member-server.md)。
+  - 对于所有其他类型的池，还原每个成员服务器。 有关详细信息，请参阅 [在 Lync server 2013 中还原企业版的成员服务器](lync-server-2013-restoring-an-enterprise-edition-member-server.md)。
 
 </div>
 

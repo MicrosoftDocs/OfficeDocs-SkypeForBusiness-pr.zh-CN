@@ -12,20 +12,22 @@ ms:contentKeyID: 48183314
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1122605aabea32d86fbacd1f23675fcdef687539
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8e50aa9339d992e73cf4e5b32b1e49fc2a144e67
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200828"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510309"
 ---
+# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>适用于 Lync Server 2013 的 Standard Edition server 部署中的服务器并置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>适用于 Lync Server 2013 的 Standard Edition server 部署中的服务器并置
+
 
 </div>
 
@@ -77,7 +79,7 @@ _**上次修改的主题：** 2013-01-20_
 
   - 每个 SQL 实例只能包含一个后端数据库（用于 Enterprise Edition 前端池）、一个监控数据库、一个存档数据库、一个持久聊天数据库以及一个持久聊天合规性数据库。
 
-  - 数据库服务器无法支持多个 Enterprise Edition 前端池、一台运行存档的服务器、一台运行监控的服务器、单个持久聊天数据库和单个持久聊天合规性数据库，但它可以支持其中一种无论数据库是使用相同的 SQL Server 实例还是使用单独的 SQL Server 实例。
+  - 数据库服务器无法支持多个 Enterprise Edition 前端池、一台运行存档的服务器、一个持久聊天数据库和单个持久聊天合规性数据库，但它可以支持其中一个，而不管数据库是使用相同的 SQL Server 实例还是使用单独的 SQL Server 实例。
 
 还可以将文件共享与数据库并置，如本节后面所述。
 

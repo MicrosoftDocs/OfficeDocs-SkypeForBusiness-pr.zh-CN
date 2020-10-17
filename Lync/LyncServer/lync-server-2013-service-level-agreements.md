@@ -12,20 +12,22 @@ ms:contentKeyID: 63969580
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f902a946d272ce3a16db5f032b74ec031c7e3a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7dbc961068a0b0efe0e9d540d1e95540d9dd88cd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510109"
 ---
+# <a name="service-level-agreements-in-lync-server-2013"></a>Lync Server 2013 中的服务级别协议
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="service-level-agreements-in-lync-server-2013"></a>Lync Server 2013 中的服务级别协议
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200788"
 
 _**上次修改的主题：** 2014-08-18_
 
-SLA 是一个文档，用于定义客户期望您的服务。 此文档的复杂性和内容很大程度上取决于客户是内部的客户（在您的环境中）还是外部的。
+SLA 是一个文档，用于定义客户期望您的服务。 此文档的复杂性和内容很大程度上取决于客户是否在您的环境中) 或外部的内部 (。
 
 <div>
 
@@ -63,11 +65,11 @@ SLA 是一个文档，用于定义客户期望您的服务。 此文档的复杂
 
 Sla 包括定义最低级别可用性、支持和容量的条件的各个部分。
 
-  - **可用性**   定义网站和其他 Lync services 将在其上可用的时间和操作系统。 应定义任何影响服务可用性的定期维护。 定义影响服务的外部因素，例如，Internet 连接丢失。
+  - **可用性**    定义网站和其他 Lync 服务将在其上可用的小时数和操作系统。 应定义任何影响服务可用性的定期维护。 定义影响服务的外部因素，例如，Internet 连接丢失。
 
-  - **支持**   定义对系统提供支持时的小时数。 指定客户联系支持人员的方法、事件的分组方式以及目标时间以响应和解决事件。 定义反馈给客户的频率和内容。
+  - **支持**    定义对系统提供支持的时间（以小时为单位）。 指定客户联系支持人员的方法、事件的分组方式以及目标时间以响应和解决事件。 定义反馈给客户的频率和内容。
 
-  - **容量**   定义了 Lync 网站的最大启用大小以及超出限制时要采取的步骤。 定义要执行标准任务的最大启用时间，如从文档库中检索文档的时间。 定义每个 Lync 池的最大用户数，并同意在添加更多用户时增加容量的过程。
+  - **容量**    如果超出限制，则定义 Lync 网站的最大启用大小和要执行的步骤。 定义要执行标准任务的最大启用时间，如从文档库中检索文档的时间。 定义每个 Lync 池的最大用户数，并同意在添加更多用户时增加容量的过程。
 
 </div>
 

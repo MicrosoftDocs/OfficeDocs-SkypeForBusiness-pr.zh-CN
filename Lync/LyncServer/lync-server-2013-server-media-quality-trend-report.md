@@ -12,20 +12,22 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35e7e0f3cfe38a7a1c4802eca16c37a62013cecb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b40f2c316216b01415b3e58d5d59c97421439d2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182395"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510299"
 ---
+# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Lync Server 2013 中的服务器媒体质量趋势报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Lync Server 2013 中的服务器媒体质量趋势报告
+
 
 </div>
 
@@ -45,9 +47,9 @@ _**上次修改的主题：** 2012-11-12_
 
 服务器媒体质量趋势报告可从下列任一报告进行访问：
 
-  - [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)（单击 "趋势" 指标）
+  - [Lync server 2013 (中的 "服务器性能" 报告](lync-server-2013-server-performance-report.md) 单击 "趋势" 指标) 
 
-  - [Lync Server 2013 中的呼叫详细信息报告](lync-server-2013-call-detail-report.md)（通过单击 A/V 边缘服务器指标）。 如果呼叫者或被叫方是服务器，则还可以通过单击终结点名称来到达服务器质量媒体趋势报告。
+  - 通过单击 A/V 边缘服务器指标， [Lync Server 2013 (中的呼叫详细信息报告](lync-server-2013-call-detail-report.md)。 如果呼叫者或被叫方是服务器，则还可以通过单击终结点名称来访问服务器质量媒体趋势报告。 ) 
 
 </div>
 
@@ -55,9 +57,9 @@ _**上次修改的主题：** 2012-11-12_
 
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>充分利用服务器媒体质量趋势报告
 
-当您单击特定服务器的 " [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md)" 上的 "趋势跃点数" 时，将打开 "服务器媒体质量趋势" 报告。 但是，您只会看到该报告的一个空白实例；您在服务器性能报告上选择的服务器将不会显示在屏幕上。 相反，您需要从“服务器”下拉列表中选择服务器。 还要注意，“服务器”下拉列表包含“全选”选项。 此选项在您具有 5 台以上的服务器时不起作用；服务器媒体质量趋势报告一次最多只能显示 5 台服务器的数据。
+当您单击特定服务器的 " [Lync server 2013 中的服务器性能报告](lync-server-2013-server-performance-report.md) " 上的 "趋势跃点数" 时，将打开 "服务器媒体质量趋势" 报告。 但是，您只会看到该报告的一个空白实例；您在服务器性能报告上选择的服务器将不会显示在屏幕上。 相反，您需要从“服务器”下拉列表中选择服务器。 还要注意，“服务器”下拉列表包含“全选”选项。 此选项在您具有 5 台以上的服务器时不起作用；服务器媒体质量趋势报告一次最多只能显示 5 台服务器的数据。
 
-在服务器媒体质量趋势报告显示的关系图上，标记为 "呼叫音量" 和 "差呼叫百分比" 的点为 hotlinks。单击图上的点将[在 Lync Server 2013 中打开呼叫列表报告](lync-server-2013-call-list-report.md)的一个实例，显示指定时间段的总呼叫数（或较差的呼叫）。
+在服务器媒体质量趋势报告显示的关系图上，标记为 "呼叫音量" 和 "差呼叫百分比" 的点为 hotlinks。单击图上的点将 [在 Lync Server 2013 中打开呼叫列表报告](lync-server-2013-call-list-report.md) 的一个实例，其中显示在指定时间段内 (或较差呼叫) 的总呼叫数。
 
 </div>
 
@@ -124,7 +126,7 @@ _**上次修改的主题：** 2012-11-12_
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>服务器</strong></p></td>
+<td><p><strong>Servers</strong></p></td>
 <td><p>会话中涉及的服务器的名称；此下拉列表将基于服务器类型筛选器的值自动为您填充。编译报告时最多可选择 5 台不同的服务器。</p></td>
 </tr>
 <tr class="even">
@@ -212,7 +214,7 @@ _**上次修改的主题：** 2012-11-12_
 <tr class="even">
 <td><p><strong>抖动(毫秒)</strong></p></td>
 <td><p>否</p></td>
-<td><p>在 RTP 数据包到达之间检查到的平均抖动率。 （抖动是对&quot;shakiness&quot;的衡量。高抖动值通常是由拥塞或过载的媒体服务器引起的，并导致音频失真或丢失。</p></td>
+<td><p>在 RTP 数据包到达之间检查到的平均抖动率。  (抖动是 shakiness 的衡量指标 &quot; &quot; 。 ) 高抖动值通常由拥塞或过载的媒体服务器引起，并导致音频失真或丢失。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>修复程序隐藏比率</strong></p></td>

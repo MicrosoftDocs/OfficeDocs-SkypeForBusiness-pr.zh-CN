@@ -12,20 +12,22 @@ ms:contentKeyID: 51541516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38fe2e05629dea4b9194fdc0102d89232c3f6309
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4dfe3a6c23e9de159c9024d660caf3f04fe648b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201378"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511405"
 ---
+# <a name="restoring-persistent-chat-data-in-lync-server-2013"></a>在 Lync Server 2013 中还原持久聊天数据
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-persistent-chat-data-in-lync-server-2013"></a>在 Lync Server 2013 中还原持久聊天数据
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42201378"
 
 _**上次修改的主题：** 2013-02-18_
 
-持久聊天聊天室内容存储在持久聊天数据库（mgc）中。 这是应定期备份的关键业务数据。 除了聊天室内容之外，主体（如用户和组）以及必须与聊天室和聊天室内容聊天的角色和访问也存储在持久聊天数据库中。
+持久聊天聊天室内容存储在持久聊天数据库 (mgc) 中。 这是应定期备份的关键业务数据。 除了聊天室内容之外，主体 (（如用户和组) 以及他们对聊天室和聊天室内容的聊天的角色和访问）也存储在持久聊天数据库中。
 
 还原持久聊天数据的方式取决于您用于备份持久聊天数据的方法。
 
   - 如果您使用的是 SQL Server 备份过程，则必须使用 SQL Server 还原过程。
 
-  - 如果您使用**export-cspersistentchatdata** cmdlet 来备份持久聊天数据，则必须使用**export-cspersistentchatdata** cmdlet 来还原数据。
+  - 如果您使用 **export-cspersistentchatdata** cmdlet 来备份持久聊天数据，则必须使用 **export-cspersistentchatdata** cmdlet 来还原数据。
 
 </div>
 

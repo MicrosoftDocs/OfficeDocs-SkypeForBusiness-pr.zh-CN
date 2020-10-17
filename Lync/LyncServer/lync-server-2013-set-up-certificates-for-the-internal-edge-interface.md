@@ -12,20 +12,22 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c34e1d0d4e87bffbf28ba600ab23d849fd664423
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8f8c5c41eba828cb6514ba6963167d708ed203d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182185"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509889"
 ---
+# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>在 Lync Server 2013 中为内部边缘接口设置证书
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>在 Lync Server 2013 中为内部边缘接口设置证书
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2013-11-07_
 
 每台边缘服务器的内部接口都需要一个证书。内部接口的证书可以由内部企业证书颁发机构 (CA) 或公共 CA 颁发。如果组织已部署内部 CA，则通过使用内部 CA 为内部接口颁发证书可以节省使用公用证书的开支。可以使用内部 Windows Server 2008 CA 或 Windows Server 2008 R2 CA 创建这些证书。
 
-有关此证书和其他证书要求的详细信息，请参阅[Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
+有关此证书和其他证书要求的详细信息，请参阅 [Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
 
 要设置某个站点的内部边缘接口上的证书，请使用本节中的过程执行以下操作：
 
@@ -71,7 +73,7 @@ _**上次修改的主题：** 2013-11-07_
 
 
 > [!NOTE]  
-> 本节中的过程步骤基于以下各项：使用 Windows Server&nbsp;2008 Ca、windows server&nbsp;2008&nbsp;R2 ca、Windows server 2012 CA 或 windows Server 2012 R2 ca 为每个边缘服务器创建证书。 有关任何其他 CA 的分步指南，请参考该 CA 的文档。 默认情况下，所有通过身份验证的用户都具有请求证书的适当用户权限。<BR>本节中的过程是以在部署边缘服务器的过程中在边缘服务器上创建证书请求为前提的。可以使用前端服务器创建证书请求。可以在开始部署边缘服务器之前执行此操作，以在规划和部署过程早期完成证书请求。为此，必须确保请求的证书是使用可导出的私钥定义的。<BR>本节中的过程介绍使用 .cer 和 .p7b 文件作为证书。如果使用其他类型的文件，请根据需要修改这些过程。
+> 本节中的过程步骤基于以下各项：使用 Windows Server &nbsp; 2008 ca、Windows server &nbsp; 2008 &nbsp; R2 Ca、WINDOWS server 2012 Ca 或 Windows SERVER 2012 R2 ca 为每个边缘服务器创建证书。 有关任何其他 CA 的分步指南，请参考该 CA 的文档。 默认情况下，所有通过身份验证的用户都具有请求证书的适当用户权限。<BR>本节中的过程是以在部署边缘服务器的过程中在边缘服务器上创建证书请求为前提的。可以使用前端服务器创建证书请求。可以在开始部署边缘服务器之前执行此操作，以在规划和部署过程早期完成证书请求。为此，必须确保请求的证书是使用可导出的私钥定义的。<BR>本节中的过程介绍使用 .cer 和 .p7b 文件作为证书。如果使用其他类型的文件，请根据需要修改这些过程。
 
 
 
@@ -81,7 +83,7 @@ _**上次修改的主题：** 2013-11-07_
 
 ## <a name="to-download-the-ca-certification-chain-for-the-internal-interface-using-certsrv-web-site"></a>使用 certsrv 网站为内部接口下载 CA 证书链
 
-1.  以**Administrators**组成员的身份登录到内部网络（即，不是边缘服务器）中的 Lync server 2013 服务器。
+1.  登录到内部网络中的 Lync Server 2013 服务器 (即，不是边缘服务器) 为 **Administrators** 组的成员。
 
 2.  在命令提示符下运行以下命令，方法是单击“开始”****，再单击“运行”****，然后键入以下命令：
     
@@ -123,7 +125,7 @@ _**上次修改的主题：** 2013-11-07_
 
 ## <a name="to-export-the-ca-certification-chain-for-the-internal-interface-using-mmc"></a>使用 MMC 为内部接口下载 CA 证书链
 
-1.  您可以使用 Microsoft 管理控制台（MMC）从任何加入域的计算机导出 CA 根证书。 单击“开始”****，单击“运行”****，然后键入 **MMC**。
+1.  您可以使用 Microsoft 管理控制台 (MMC) 从任何已加入域的计算机导出 CA 根证书。 单击“开始”****，单击“运行”****，然后键入 **MMC**。
 
 2.  在 MMC 控制台中，单击“文件”****，再单击“添加/删除”****。
 
@@ -135,7 +137,7 @@ _**上次修改的主题：** 2013-11-07_
 
 6.  在“证书导出向导”**** 中，单击“下一步”****。
 
-7.  打开“导出文件格式”**** 对话框，选择要导出到的格式。 建议**加密邮件语法 Standard – PKCS \#7 证书（。P7B）**。 如果选择**加密邮件语法标准– PKCS \#7 证书（。P7B）**，请选中 "**如果可能，请包含证书路径中的所有证书**" 复选框以导出证书链，包括根 ca 证书和任何中间 CA 证书。 单击“下一步”****。
+7.  打开“导出文件格式”**** 对话框，选择要导出到的格式。 建议将 **加密邮件语法标准– PKCS \# 7 证书 (。P7B) **。 如果选择 " **加密邮件语法标准– PKCS \# 7 证书 ("。P7B) **，选择 " **如果可能，则包含证书路径中的所有证书** " 复选框以导出证书链，包括根 ca 证书和任何中间 CA 证书。 单击“下一步”****。
 
 8.  在“要导出的文件”**** 对话框的文件名条目中，为导出的证书键入路径和文件名（默认扩展名为 .p7b）。或者，也可以单击“浏览”****，找到放置导出的证书的目录并为导出的证书提供名称。单击“保存”****。单击“下一步”****。
 
@@ -188,7 +190,7 @@ _**上次修改的主题：** 2013-11-07_
 
 4.  在“延迟的请求或即时请求”**** 页上，单击“现在准备请求，但稍后发送”****。
 
-5.  在 "**证书请求文件**" 页上，键入要将请求保存到的完整路径和文件名（例如， **c：\\cert\_internal\_edge .cer**）。
+5.  在 " **证书请求文件** " 页上，键入请求要保存到的完整路径和文件名 (例如， **c： \\ cert \_ internal \_ edge .cer**) 。
 
 6.  在“指定替代证书模板”**** 页上，要使用除默认 WebServer 模板之外的模板，请选中“使用选定证书颁发机构的备用证书模板”**** 复选框。
 
@@ -291,7 +293,7 @@ _**上次修改的主题：** 2013-11-07_
     
     </div>
 
-9.  在 "导出文件格式" 对话框中，选择 "**个人信息\#交换– PKCS 12 （。PFX）** ，然后选择以下内容：
+9.  在 "导出文件格式" 对话框中，选择 " **个人信息交换– PKCS \# 12 ("。PFX) ** 然后选择以下命令：
     
       - 如果可能，则数据包括证书路径中的所有证书
     
@@ -316,7 +318,7 @@ _**上次修改的主题：** 2013-11-07_
 
 13. 在成功导出对话框中单击“确定”****。
 
-14. 按照[为 Lync Server 2013 过程的外部边缘接口设置证书](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)中所述的步骤，将导出的证书文件导入其他边缘服务器。
+14. 按照 [为 Lync Server 2013 过程的外部边缘接口设置证书](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md) 中所述的步骤，将导出的证书文件导入其他边缘服务器。
 
 </div>
 

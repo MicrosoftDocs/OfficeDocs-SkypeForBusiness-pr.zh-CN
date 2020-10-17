@@ -12,20 +12,22 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772646b8122e228aa43818aa5fe7fe2fb6689366
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01d3912402b48ce8aede4a53efea208c96bff825
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201358"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511389"
 ---
+# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>在 Lync Server 2013 中还原承载中央管理存储的服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>在 Lync Server 2013 中还原承载中央管理存储的服务器
+
 
 </div>
 
@@ -39,15 +41,15 @@ _**上次修改的主题：** 2013-02-21_
 
 Lync Server 部署具有一个中央管理存储，该存储将复制到运行 Lync Server 服务器角色的每台服务器。 本主题介绍如何还原承载中央管理存储的后端服务器或 Standard Edition 服务器。
 
-若要查找中央管理服务器所在的池，请打开拓扑生成器，单击 " **Lync Server**"，并在 "**中央管理服务器**" 下查找右侧窗格。
+若要查找中央管理服务器所在的池，请打开拓扑生成器，单击 " **Lync Server**"，并在 " **中央管理服务器**" 下查找右侧窗格。
 
-如果承载中央管理存储的后端服务器在镜像安装中，并且镜像数据库仍正常运行，我们建议您对此仍正常运行的镜像进行备份，然后在主数据库和服务器上执行完整还原。按照下面的还原步骤使用此备份镜像数据库。 这是必要的，因为后端还原需要修改和发布拓扑，并且只能在主数据库托管 CMS 运行时执行此操作。 另请注意，如果无法发布拓扑，主数据库角色和镜像数据库角色将无法互换。
+如果承载中央管理存储的后端服务器在镜像安装中，并且镜像数据库仍正常运行，我们建议您对此仍正常的镜像进行备份，然后通过执行以下还原过程，对主数据库和镜像数据库执行完全还原。 这是必要的，因为后端还原需要修改和发布拓扑，并且只能在主数据库托管 CMS 运行时执行此操作。 另请注意，如果无法发布拓扑，主数据库角色和镜像数据库角色将无法互换。
 
 <div>
 
 
 > [!NOTE]  
-> 如果未承载中央管理存储的后端服务器或 Standard Edition 服务器出现故障，请参阅<A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">在 lync server 2013 中还原企业版后端服务器</A>或<A href="lync-server-2013-restoring-a-standard-edition-server.md">在 lync Server 2013 中还原 Standard edition server</A>。 如果承载中央管理存储的后端服务器在镜像配置中，并且只有镜像失败，请参阅<A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">在 Lync Server 2013-镜像中还原镜像的企业版后端服务器</A>。 如果任何其他服务器发生故障，请参阅<A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">在 Lync server 2013 中还原企业版成员服务器</A>。
+> 如果未承载中央管理存储的后端服务器或 Standard Edition 服务器出现故障，请参阅 <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">在 lync server 2013 中还原企业版后端服务器</A> 或 <A href="lync-server-2013-restoring-a-standard-edition-server.md">在 lync Server 2013 中还原 Standard edition server</A>。 如果承载中央管理存储的后端服务器在镜像配置中，并且只有镜像失败，请参阅 <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">在 Lync Server 2013-镜像中还原镜像的企业版后端服务器</A>。 如果任何其他服务器发生故障，请参阅 <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">在 Lync server 2013 中还原企业版成员服务器</A>。
 
 
 
@@ -67,7 +69,7 @@ Lync Server 部署具有一个中央管理存储，该存储将复制到运行 L
 
 ## <a name="to-restore-the-central-management-store"></a>还原中央管理存储
 
-1.  从具有与故障计算机相同的完全限定域名（FQDN）的干净或新服务器开始，安装操作系统，然后还原或重新注册证书。
+1.  从具有相同完全限定的域名 (FQDN) 为故障计算机的干净或新服务器开始，安装操作系统，然后还原或重新注册证书。
     
     <div>
     
@@ -93,7 +95,7 @@ Lync Server 部署具有一个中央管理存储，该存储将复制到运行 L
 
 4.  执行下列操作之一：
     
-      - 如果要安装 Standard Edition server，请浏览到 Lync Server 安装文件夹或媒体，然后启动安装程序\\\\Amd64\\Setup.exe 处的 lync server 部署向导。 在部署向导中，单击 "**准备第一个 Standard Edition server** "，然后按照向导安装中央管理存储。
+      - 如果要安装 Standard Edition server，请浏览到 Lync Server 安装文件夹或媒体，然后启动位于 \\ setup amd64Setup.exe 的 Lync Server 部署向导 \\ \\ 。 在部署向导中，单击 " **准备第一个 Standard Edition server** "，然后按照向导安装中央管理存储。
     
       - 如果要安装企业后端服务器，请安装 SQL Server 2012 或 SQL Server 2008 R2，并保持实例名称与故障前相同。
         
@@ -106,7 +108,7 @@ Lync Server 部署具有一个中央管理存储，该存储将复制到运行 L
         
         </div>
 
-5.  在前端服务器中，启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management Shell**"。
+5.  在前端服务器中，启动 Lync Server 命令行管理程序：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management Shell**"。
 
 6.  重新创建中央管理存储。 在命令行中键入：
     
@@ -158,15 +160,15 @@ Lync Server 部署具有一个中央管理存储，该存储将复制到运行 L
     
     通过执行以下操作来安装独立数据库：
     
-    1.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+    1.  启动拓扑生成器：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
     
     2.  单击“从现有部署下载拓扑”****，然后单击“确定”****。
     
     3.  选择拓扑，然后单击“保存”****。单击“是”**** 确认您的选择。
     
-    4.  右键单击 " **Lync Server 2013** " 节点，然后单击 "**安装数据库**"。
+    4.  右键单击 " **Lync Server 2013** " 节点，然后单击 " **安装数据库**"。
     
-    5.  按照 "**安装数据库**" 向导操作。 如果要在此服务器上还原中央管理存储之外的数据库，请在 "**创建数据库**" 页上，选择要重新创建的数据库。
+    5.  按照 " **安装数据库** " 向导操作。 如果要在此服务器上还原中央管理存储之外的数据库，请在 " **创建数据库** " 页上，选择要重新创建的数据库。
         
         <div>
         
@@ -185,16 +187,16 @@ Lync Server 部署具有一个中央管理存储，该存储将复制到运行 L
     
 
     > [!TIP]  
-    > 除了运行拓扑生成器之外，您还可以使用<STRONG>CsDatabase</STRONG> cmdlet 来创建每个数据库，并使用<STRONG>CsMirrorDatabase</STRONG> cmdlet 来配置镜像。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Install-CsDatabase">install-CsDatabase</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsMirrorDatabase">install-CsMirrorDatabase</A>。
+    > 除了运行拓扑生成器之外，您还可以使用 <STRONG>CsDatabase</STRONG> cmdlet 来创建每个数据库，并使用 <STRONG>CsMirrorDatabase</STRONG> cmdlet 来配置镜像。 有关详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsDatabase">install-CsDatabase</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsMirrorDatabase">install-CsMirrorDatabase</A>。
 
     
     </div>
 
-11. 如果要还原 Standard Edition server，请浏览到 Lync Server 安装文件夹或媒体，并启动安装程序\\\\Amd64\\Setup.exe 处的 lync server 部署向导。 使用 Lync Server 部署向导执行以下操作：
+11. 如果要还原 Standard Edition server，请浏览到 Lync Server 安装文件夹或媒体，然后启动位于 \\ setup amd64Setup.exe 的 Lync Server 部署向导 \\ \\ 。 使用 Lync Server 部署向导执行以下操作：
     
     1.  运行“步骤 1: 安装本地配置存储”**** 以安装本地配置文件。
     
-    2.  运行**步骤2：安装或删除 Lync Server 组件**以安装 lync server 服务器角色。
+    2.  运行 **步骤2：安装或删除 Lync Server 组件** 以安装 lync server 服务器角色。
     
     3.  运行“步骤 3: 请求、安装或分配证书”**** 以分配证书。
     
@@ -204,7 +206,7 @@ Lync Server 部署具有一个中央管理存储，该存储将复制到运行 L
 
 12. 执行以下操作以还原用户数据：
     
-    1.  将 ExportedUserData 从 $Backup\\复制到本地目录。
+    1.  将 ExportedUserData.zip 从 $Backup 复制 \\ 到本地目录。
     
     2.  在还原用户数据之前，必须停止 Lync 服务。 为此，请键入：
         
@@ -230,9 +232,9 @@ Lync Server 部署具有一个中央管理存储，该存储将复制到运行 L
     
         Import-CsLisConfiguration -FileName "D:\E911Config.zip"
 
-14. 如果已在此池或 Standard Edition server 上部署响应组，请还原响应组配置数据。 有关详细信息，请参阅[在 Lync Server 2013 中还原响应组设置](lync-server-2013-restoring-response-group-settings.md)。
+14. 如果已在此池或 Standard Edition server 上部署响应组，请还原响应组配置数据。 有关详细信息，请参阅 [在 Lync Server 2013 中还原响应组设置](lync-server-2013-restoring-response-group-settings.md)。
 
-15. 如果要还原包括存档或监控数据库的后端服务器，请使用 SQL Server 管理工具（如 SQL Server Management Studio）还原存档或监视数据。 有关详细信息，请参阅[在 Lync Server 2013 中还原监视或存档数据](lync-server-2013-restoring-monitoring-or-archiving-data.md)。
+15. 如果要还原包括存档或监控数据库的后端服务器，请使用 SQL Server 管理工具（如 SQL Server Management Studio）还原存档或监视数据。 有关详细信息，请参阅 [在 Lync Server 2013 中还原监视或存档数据](lync-server-2013-restoring-monitoring-or-archiving-data.md)。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c7a4e6ede9afe8d521d8dea3bd9350801588b90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 99e5bf87e02dbcdebeb8b1bb5a7a360c2c91ab00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182195"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509869"
 ---
+# <a name="set-up-certificates-for-the-reverse-proxy-in-lync-server-2013"></a>在 Lync Server 2013 中为反向代理设置证书
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-reverse-proxy-in-lync-server-2013"></a>在 Lync Server 2013 中为反向代理设置证书
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**上次修改的主题：** 2012-09-08_
 
 每台反向代理服务器都需要一个 Web 服务器证书，以供侦听服务使用。该 Web 服务器证书必须是由公共证书颁发机构 (CA) 颁发的。
 
-有关此证书和其他证书要求的详细信息，请参阅[Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
+有关此证书和其他证书要求的详细信息，请参阅 [Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
 
 <div>
 
 ## <a name="to-set-up-a-web-services-certificate-for-the-reverse-proxy"></a>为反向代理设置 Web 服务证书
 
-  - 您应该已经设置了反向代理，包括设置 Web 服务证书。 如果在启动边缘服务器的部署之前未执行此操作，请使用为[Lync Server 2013 设置反向代理服务器](lync-server-2013-setting-up-reverse-proxy-servers.md)中的过程来创建请求并安装 web 服务证书，然后创建每个 web 发布规则并将其配置为使用证书。
+  - 您应该已经设置了反向代理，包括设置 Web 服务证书。 如果在启动边缘服务器的部署之前未执行此操作，请使用为 [Lync Server 2013 设置反向代理服务器](lync-server-2013-setting-up-reverse-proxy-servers.md) 中的过程来创建请求并安装 web 服务证书，然后创建每个 web 发布规则并将其配置为使用证书。
 
 </div>
 

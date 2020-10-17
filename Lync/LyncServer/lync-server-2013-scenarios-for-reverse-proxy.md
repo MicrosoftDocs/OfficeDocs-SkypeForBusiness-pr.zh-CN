@@ -12,20 +12,22 @@ ms:contentKeyID: 48183468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af3b987cfc1a982139aa0151e43918f0ed082034
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 767df1e427cd29e9437b4bd04d2859b382b48267
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200972"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510829"
 ---
+# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的反向代理方案
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的反向代理方案
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200972"
 
 _**上次修改的主题：** 2013-01-21_
 
-Lync Server 2013 中需要反向代理，以提供对服务和资源（如会议和拨入式简单 Url、通讯簿、会议内容、通讯组列表展开、移动服务等）的访问权限。 Lync Server 2013 中的典型反向代理方案是允许外部客户端（例如，桌面客户端或 Lync Web App 客户端）访问控制器或前端服务器的外部 Web 服务。
+Lync Server 2013 中需要反向代理，以提供对服务和资源（如会议和拨入式简单 Url、通讯簿、会议内容、通讯组列表展开、移动服务等）的访问权限。 Lync Server 2013 中的典型反向代理方案是允许外部客户端 (例如，桌面客户端或 Lync Web App 客户端) 对控制器或前端服务器外部 Web 服务的访问权限。
 
 **反向代理和外部 web 服务**
 
@@ -55,9 +57,9 @@ Lync Server 2013 中需要反向代理，以提供对服务和资源（如会议
 
 在规划 Lync Server 2013 部署时，您需要将 Lync Server 2013 的实际要求映射到反向代理功能。
 
-1.  外部客户端将连接到端口 TCP 443 上的反向代理，并将使用安全套接字层（SSL）或传输层安全性（TLS）。 Microsoft Lync 移动客户端可以在端口 TCP 80 上进行连接，但仅当执行到 Lync 发现服务的初始连接时，管理员已配置了正确的域名系统（DNS） CNAME （或别名）记录，并接受此通信不会加密。
+1.  外部客户端将连接到端口 TCP 443 上的反向代理，并将使用安全套接字层 (SSL) 或传输层安全性 (TLS) 。 Microsoft Lync 移动客户端可以在端口 TCP 80 上进行连接，但仅当执行到 Lync 发现服务的初始连接时，管理员已将正确的域名系统配置 (DNS) CNAME (或别名) 记录，并接受此通信不会加密。
 
-2.  Lync Server 2013 外部 web 服务（部署在前端服务器和/或控制器上）预期从端口 TCP 4443 上的反向代理进行连接，并且预期该连接将为 SSL/TLS。
+2.  Lync Server 2013 在前端服务器和/或) 控制器上部署的外部 web 服务 (预期从端口 TCP 4443 上的反向代理进行连接，并且预期该连接将为 SSL/TLS。
     
     <div>
     
@@ -70,7 +72,7 @@ Lync Server 2013 中需要反向代理，以提供对服务和资源（如会议
 
 3.  Lync Server 2013 外部 web 服务需要来自客户端的未修改的主机标头，以标识客户端尝试使用的服务和 web 服务器目录。 请求应像来自反向代理一样显示
 
-4.  外部 web 服务使用定义的 web 服务器虚拟目录（vDir），这些目录提供了向客户端提供的服务。 特定的外部身份 web 服务包括：
+4.  外部 web 服务使用已定义的 web 服务器虚拟目录 (vDir) ，提供向客户端提供的服务。 特定的外部身份 web 服务包括：
     
       - "开会" vDir for web 会议会议
     
@@ -78,7 +80,7 @@ Lync Server 2013 中需要反向代理，以提供对服务和资源（如会议
     
       - Lync Windows 应用商店应用、Lync Mobile 和桌面客户端 Lync 2013 的 "自动发现" vDir。 Lync Server 2013 中的自动发现由 DNS 名称 "lyncdiscover." 识别
     
-      - 未定义的服务通过直接调用外部 web 服务的外部客户端进行访问。 例如，通讯组展开（DLX）和通讯簿服务（ABS）通过直接调用外部 web 服务和关联的 vDirs 来访问。 客户端知道 vDir 的实际路径，并根据此信息构造统一记录定位器（URL）。 客户端将使用类似于的 URL 访问通讯簿服务`https://externalweb.contoso.com/abs/handler`
+      - 未定义的服务通过直接调用外部 web 服务的外部客户端进行访问。 例如，通讯组扩展 (DLX) 和通讯簿服务 (ABS) 通过直接调用外部 web 服务和关联的 vDirs 来访问。 客户端知道 vDir 的实际路径，并根据此信息构造一个统一的记录定位器 (URL) 。 客户端将使用类似于的 URL 访问通讯簿服务 `https://externalweb.contoso.com/abs/handler`
     
       - 会议被定义并配置为 Lync Server 拓扑的一部分时的 Office Web Apps Server
         

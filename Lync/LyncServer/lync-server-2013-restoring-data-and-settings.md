@@ -12,20 +12,22 @@ ms:contentKeyID: 51541503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d34d62aa5a27a3f59bae0893c4004ca25c2cb039
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 396899d636572e89782112ca7fa445ef1cb255e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201368"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511429"
 ---
+# <a name="restoring-data-and-settings-in-lync-server-2013"></a>在 Lync Server 2013 中还原数据和设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-data-and-settings-in-lync-server-2013"></a>在 Lync Server 2013 中还原数据和设置
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42201368"
 
 _**上次修改的主题：** 2013-02-17_
 
-如果已通过配对池实施了灾难恢复拓扑，并且其中一个前端池已关闭，需要快速将服务还原到用户，请参阅[在 Lync Server 2013 中通过池进行故障转移](lync-server-2013-failing-over-a-pool.md)。 否则，请使用以下主题中的信息以及[Lync server 2013 备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中的工作表，以便在发生故障或中断后还原 Lync server。
+如果已通过配对池实施了灾难恢复拓扑，并且其中一个前端池已关闭，需要快速将服务还原到用户，请参阅 [在 Lync Server 2013 中通过池进行故障转移](lync-server-2013-failing-over-a-pool.md)。 否则，请使用以下主题中的信息以及 [Lync server 2013 备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中的工作表，以便在发生故障或中断后还原 Lync server。
 
 <div>
 

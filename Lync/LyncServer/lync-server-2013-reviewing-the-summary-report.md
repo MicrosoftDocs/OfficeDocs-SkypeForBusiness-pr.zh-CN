@@ -12,20 +12,22 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06cac750e1f63ab580cb771b201a8614e2eaa687
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 63b500fba5b93cf0503b115458d38616b74ddf09
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201218"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511289"
 ---
+# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>在 Lync Server 2013 中查看摘要报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>在 Lync Server 2013 中查看摘要报告
+
 
 </div>
 
@@ -47,7 +49,7 @@ Lync Server 管理员报告是详细记录设计的四个有价值的报告中�
 
   - DNS 报告
 
-摘要报告列出了与边缘网络关联的常规配置信息。 记录位置、完全限定的域名（FQDN）和 IP 地址、网络类型以及特定于给定角色的注释。
+摘要报告列出了与边缘网络关联的常规配置信息。 将记录位置、完全限定的域名 (FQDN) 和 IP 地址、网络类型以及特定于指定角色的注释。
 
 设计人员和每个要部署、管理和维护基础结构的团队应检查摘要报告的准确性，并确保至少有错误。
 

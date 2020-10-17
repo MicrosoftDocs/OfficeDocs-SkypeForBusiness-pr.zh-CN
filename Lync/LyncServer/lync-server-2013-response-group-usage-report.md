@@ -12,20 +12,22 @@ ms:contentKeyID: 48183811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d19d95b9c3e18be662a912221b097fc5ab5b91ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 649fb55f6c7b698986c4c31057b3a0a8f1b00a76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214858"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511619"
 ---
+# <a name="response-group-usage-report-in-lync-server-2013"></a>Lync Server 2013 中的响应组使用情况报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-usage-report-in-lync-server-2013"></a>Lync Server 2013 中的响应组使用情况报告
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214858"
 
 _**上次修改的主题：** 2013-02-22_
 
-响应组应用程序为 Microsoft Lync Server 2013 提供了一种方法，以根据拨打的号码和呼叫者对一系列问题的响应（可选）应答和路由电话呼叫。 通常，响应组呼叫不路由到单个人员，而是路由到称为代理组的一组人员。 例如，如果有人呼叫帮助台的电话号码，Lync Server 2013 可以自动将该呼叫路由到第一个可用的技术支持代理。 或者，Lync Server 可以询问一系列问题（"如果遇到硬件问题，请按1。 如果您有软件问题，请按 2。 如果遇到网络问题，请按3。），然后根据这些问题的答案将呼叫路由到最合适的技术支持代理。
+响应组应用程序为 Microsoft Lync Server 2013 提供了一种方法，以根据拨打的号码和呼叫者对一系列问题的响应（可选）应答和路由电话呼叫。 通常，响应组呼叫不路由到单个人员，而是路由到称为代理组的一组人员。 例如，如果有人呼叫帮助台的电话号码，Lync Server 2013 可以自动将该呼叫路由到第一个可用的技术支持代理。 或者，如果遇到硬件问题，Lync Server 可以 ( "请按1来提出一系列问题。 如果您有软件问题，请按 2。 如果遇到网络问题，请按3。) ，然后根据这些问题的答案将呼叫路由到最合适的技术支持代理。
 
 响应组使用情况报告提供所有响应组工作流接收到的电话呼叫数的详细信息，然后将这些呼叫细分为更多有限类别，例如发起的呼叫、应答的呼叫和放弃的呼叫。
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2013-02-22_
 
 ## <a name="accessing-the-response-group-usage-report"></a>访问响应组使用情况报告
 
-可从监控报告主页访问响应组使用情况报告。 您可以通过单击以下任一指标深入到[Lync Server 2013 中的响应组呼叫列表报告](lync-server-2013-response-group-call-list-report.md)：
+可从监控报告主页访问响应组使用情况报告。 您可以通过单击以下任一指标深入到 [Lync Server 2013 中的响应组呼叫列表报告](lync-server-2013-response-group-call-list-report.md) ：
 
   - 收到的呼叫
 
@@ -87,7 +89,7 @@ _**上次修改的主题：** 2013-02-22_
 
 
 > [!WARNING]  
-> 响应组工作流基本上是一组指示用户拨打特定电话号码时的 Lync Server 应执行的操作的说明。 为此，每个工作流都与一个电话号码唯一关联。 当某人调用该号码时，工作流会确定如何处理呼叫。 例如，工作流可能会导致呼叫路由到一系列互动语音响应（IVR）问题，提示呼叫者输入其他信息（"按1表示硬件支持。 按 2 以获取软件支持”）。 或者，工作流可能会导致呼叫放置在队列中，呼叫者将保留在队列中，直到有代理可用于应答呼叫。 工作流也可指示是否有代理能够应答呼叫：工作流用于配置工作时间（代理在一周中的哪几天、一天中的哪些时段能够应答呼叫）和假日（代理无法应答呼叫的日期）。 无论何时拨打属于响应组应用程序的电话号码，实际上都会调用响应组工作流。
+> 响应组工作流基本上是一组指示用户拨打特定电话号码时的 Lync Server 应执行的操作的说明。 为此，每个工作流都与一个电话号码唯一关联。 当某人调用该号码时，工作流会确定如何处理呼叫。 例如，工作流可能会导致呼叫路由到一系列互动语音响应 (IVR) 提示呼叫者输入其他信息的问题 ( "按1以获得硬件支持。 按 2 以获取软件支持”）。 或者，工作流可能会导致呼叫放置在队列中，呼叫者将保留在队列中，直到有代理可用于应答呼叫。 工作流也可指示是否有代理能够应答呼叫：工作流用于配置工作时间（代理在一周中的哪几天、一天中的哪些时段能够应答呼叫）和假日（代理无法应答呼叫的日期）。 无论何时拨打属于响应组应用程序的电话号码，实际上都会调用响应组工作流。
 
 
 

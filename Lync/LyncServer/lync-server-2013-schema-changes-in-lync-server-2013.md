@@ -12,20 +12,22 @@ ms:contentKeyID: 48185575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d70b090f59c0a0f8510d778ef659def77cfd0747
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1c3733eee90fb1ea0bb3e0a67be88243dee56aa7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182685"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510779"
 ---
+# <a name="schema-changes-in-lync-server-2013"></a>Lync Server 2013 中的架构更改
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-changes-in-lync-server-2013"></a>Lync Server 2013 中的架构更改
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 需要几个新的类和属性，并修改一些现有的类和
 
 <!-- end list -->
 
-  - **数据**（存储在 Lync Server 扩展架构和现有架构类中）：
+  - 存储在 Lync Server 扩展架构和现有架构类中的**数据** () ：
     
       - 用户 SIP 统一资源标识符 (URI) 和其他用户设置
     
@@ -59,7 +61,7 @@ Lync Server 2013 需要几个新的类和属性，并修改一些现有的类和
     
       - Kerberos 身份验证帐户（可选计算机对象）
 
-本主题介绍 Lync Server 2013 所需的 Active Directory 架构更改。 它不会描述由早期版本的 Office 通信服务器引入的架构更改。 有关类及其说明的列表，请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关属性及其说明的列表，请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。 有关它们可能包含的属性的类的列表，请参阅[在 Lync Server 2013 中按类列出的架构属性](lync-server-2013-schema-attributes-by-class.md)。
+本主题介绍 Lync Server 2013 所需的 Active Directory 架构更改。 它不会描述由早期版本的 Office 通信服务器引入的架构更改。 有关类及其说明的列表，请参阅 [Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关属性及其说明的列表，请参阅 [Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。 有关它们可能包含的属性的类的列表，请参阅 [在 Lync Server 2013 中按类列出的架构属性](lync-server-2013-schema-attributes-by-class.md)。
 
 MsRTCSIP 前缀标识特定于 Lync Server 的类和属性。
 

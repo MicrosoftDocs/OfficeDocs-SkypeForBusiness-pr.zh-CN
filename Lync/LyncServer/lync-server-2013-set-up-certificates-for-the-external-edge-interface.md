@@ -12,20 +12,22 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec2bad8f01e773d50f8d722ddbbf4be0757cb31d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a190c50ece2b2e5be0f8597851541c71cfbb4e49
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200600"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509879"
 ---
+# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>为 Lync Server 2013 的外部边缘接口设置证书
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>为 Lync Server 2013 的外部边缘接口设置证书
+
 
 </div>
 
@@ -49,9 +51,9 @@ _**上次修改的主题：** 2012-09-08_
 
 每台边缘服务器都要求外围网络和 Internet 之间的接口上有一个公共证书，且证书的使用者替代名称必须包含访问边缘服务的外部名称和 Web 会议边缘服务的完全限定的域名 (FQDN)。
 
-有关此证书和其他证书要求的详细信息，请参阅[Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
+有关此证书和其他证书要求的详细信息，请参阅 [Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
 
-有关公共证书颁发机构（Ca）的列表，该列表提供符合统一通信证书特定要求的证书，并已与 Microsoft 建立了合作，以确保它们使用 Lync Server 2013 证书向导，请参阅 Microsoft 知识库文章 929395 "Exchange Server 的统一通信证书合作伙伴和通信服务器"，网址[https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)为。
+有关 (CAs) 的公共证书颁发机构列表，该 Ca 提供符合统一通信证书特定要求的证书，并已与 Microsoft 合作以确保它们使用 Lync Server 2013 证书向导，请参阅 Microsoft 知识库文章 929395 "Exchange Server 的统一通信证书合作伙伴和通信服务器"，网址为 at [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) 。
 
 <div>
 
@@ -96,7 +98,7 @@ _**上次修改的主题：** 2012-09-08_
 
 4.  在“延迟的请求或即时请求”**** 页上，选中“立即准备请求，但是稍后发送”**** 复选框。
 
-5.  在 "**证书请求文件**" 页上，键入要将请求保存到的文件的完整路径和文件名（例如，c：\\cert\_外部\_edge）。
+5.  在 " **证书请求文件** " 页上，键入要将请求保存到的文件的完整路径和文件名 (例如，c： \\ cert \_ 外部 \_ edge) 。
 
 6.  在“指定替代证书模板”**** 页上，要使用除默认 WebServer 模板之外的模板，请选中“对选定的证书颁发机构使用替代证书模板”**** 复选框。
 
@@ -114,7 +116,7 @@ _**上次修改的主题：** 2012-09-08_
 
 10. 在“使用者名称/使用者替代名称”**** 页上，将显示向导自动填充的信息。如果需要其他使用者替代名称，可以在接下来的两个步骤中指定。
 
-11. 在 "**使用者替代名称（san）的 SIP 域设置**" 页上，选中 "域" 复选框以添加 sip。\<sipdomain\>条目到 "主题备用名称" 列表。
+11. 在 " **使用者替代名称 (SANs) ** " 页上的 "SIP 域设置" 中，选中 "域" 复选框以添加 SIP。\<sipdomain\> "主题备用名称" 列表中的条目。
 
 12. 在 **“配置其他使用者替代名称”** 页上，指定所需的任何其他使用者替代名称。
 
@@ -144,7 +146,7 @@ _**上次修改的主题：** 2012-09-08_
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Lync Server 2013 中提供的模板的默认证书名称是 Web 服务器。 仅当需要\<使用与\>默认模板不同的模板时，才指定模板名称。
+    Lync Server 2013 中提供的模板的默认证书名称是 Web 服务器。 仅 \<template name\> 当需要使用与默认模板不同的模板时才指定。
     
     <div>
     
@@ -239,7 +241,7 @@ _**上次修改的主题：** 2012-09-08_
     
     </div>
 
-9.  在 "导出文件格式" 对话框中，选择 "**个人信息\#交换– PKCS 12 （。PFX）** ，然后选择以下内容：
+9.  在 "导出文件格式" 对话框中，选择 " **个人信息交换– PKCS \# 12 ("。PFX) ** 然后选择以下命令：
     
       - 如果可能，则数据包括证书路径中的所有证书
     

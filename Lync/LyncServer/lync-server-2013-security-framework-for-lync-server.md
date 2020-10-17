@@ -12,20 +12,22 @@ ms:contentKeyID: 59893866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7871d662d76f47685a58384804dfc6dee3b7b1d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f84b7eaf3476624479d1ecb7c7bb564a4eae8ad9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200908"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510439"
 ---
+# <a name="security-framework-for-lync-server-2013"></a>Lync Server 2013 的安全框架
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="security-framework-for-lync-server-2013"></a>Lync Server 2013 的安全框架
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**上次修改的主题：** 2013-11-08_
 
   - Active Directory 域服务 (AD DS) 为用户帐户和网络资源提供一个受信任的后端存储库。
 
-  - 基于角色的访问控制（RBAC）使您能够在保持高标准安全性的同时委派管理任务。
+  - Role-Based 访问控制 (RBAC) 使您能够在保持高标准安全性的同时委派管理任务。
 
-  - 公钥基础结构（PKI）使用受信任的证书颁发机构（Ca）颁发的证书对服务器进行身份验证，并确保数据完整性。
+  - 公钥基础结构 (PKI) 使用受信任的证书颁发机构 (CAs 颁发的证书) 对服务器进行身份验证，并确保数据完整性。
 
   - 传输层安全性 (TLS)、HTTPS over SSL (HTTPS) 和相互 TLS (MTLS) 可实现终结点身份验证和 IM 加密。点对点音频、视频和应用程序共享流使用安全实时传输协议 (SRTP) 进行加密。
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2013-11-08_
 
   - [Lync Server 2013 的 Active Directory 域服务](lync-server-2013-active-directory-domain-services-for-lync-server.md)
 
-  - [Lync Server 2013 的基于角色的访问控制（RBAC）](lync-server-2013-role-based-access-control-rbac.md)
+  - [Lync Server 2013 的基于角色的访问控制 (RBAC) ](lync-server-2013-role-based-access-control-rbac.md)
 
   - [Lync Server 2013 的公钥基础结构](lync-server-2013-public-key-infrastructure.md)
 

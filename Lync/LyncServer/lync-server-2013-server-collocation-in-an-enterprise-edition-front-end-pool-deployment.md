@@ -12,20 +12,22 @@ ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ccfb87966008d471d879e2c25a73e098fb28f19
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0162a4338a1504ed425015e5b9391fca9903d4ab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182415"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510279"
 ---
+# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>适用于 Lync Server 2013 的 Enterprise Edition 前端池部署中的服务器并置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>适用于 Lync Server 2013 的 Enterprise Edition 前端池部署中的服务器并置
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2013-11-11_
 
   - 边缘服务器
 
-  - 中介服务器（如果未与前端服务器并置）
+  - 如果没有与前端服务器并置的中介服务器 () 
 
   - Office Web Apps Server
 
@@ -143,7 +145,7 @@ _**上次修改的主题：** 2013-11-11_
 
 您不能并置不是 Lync Server 2013 组件的反向代理服务器，但如果您想要支持使用任何 Lync Server 2013 服务器角色的联合用户共享 web 内容，则您的部署中也是必需的。 不过，您可以通过在组织中对其他应用程序使用的现有反向代理服务器上配置支持，来实现对 Lync Server 2013 部署的反向代理支持。
 
-您不能并置任何 Exchange 统一消息（UM）组件或 SharePoint 组件与任何 SharePoint Server 角色。
+您不能并置任何 Exchange 统一消息 (UM) 组件或具有任何 SharePoint Server 角色的 SharePoint 组件。
 
 </div>
 

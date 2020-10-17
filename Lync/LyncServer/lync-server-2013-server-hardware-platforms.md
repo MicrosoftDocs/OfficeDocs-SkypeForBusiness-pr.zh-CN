@@ -12,20 +12,22 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddcfc08ff983ec080bd2382394bfc4b8c3bae3a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb5c5cbe1ef98a4028f8b05d96e4acc90cae7963
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200808"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510269"
 ---
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Lync Server 2013 的服务器硬件平台
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a>Lync Server 2013 的服务器硬件平台
+
 
 </div>
 
@@ -51,13 +53,13 @@ Lync Server 2013 服务器角色和运行 Lync Server 管理工具的计算机�
 
 
 > [!NOTE]  
-> 支持 NIC 组合，并且对于 Lync Server 而言应是透明的。 有关详细信息，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=389910">通信服务器或 Lync server 和网络适配器组合</A>。
+> 支持 NIC 组合，并且对于 Lync Server 而言应是透明的。 有关详细信息，请参阅 <A href="https://go.microsoft.com/fwlink/p/?linkid=389910">通信服务器或 Lync server 和网络适配器组合</A>。
 
 
 
 </div>
 
-### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a>适用于前端服务器、后端服务器、Standard Edition 服务器、持久聊天服务器以及持久聊天服务器和持久聊天合规存储（持久聊天服务器的后端服务器角色）的推荐硬件
+### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a>为持久聊天服务器) 的前端服务器、后端服务器、Standard Edition 服务器、持久聊天服务器以及持久聊天存储和持久聊天合规性存储 (的建议硬件
 
 <table>
 <colgroup>
@@ -73,26 +75,26 @@ Lync Server 2013 服务器角色和运行 Lync Server 管理工具的计算机�
 <tbody>
 <tr class="odd">
 <td><p>CPU</p></td>
-<td><p>64位双处理器、hex-core、2.26 千兆赫兹（GHz）或更高版本。</p>
+<td><p>64位双处理器、hex-core、2.26 千兆 (GHz) 或更高版本。</p>
 <p>Lync Server 服务器角色不支持 Intel Itanium 处理器。</p></td>
 </tr>
 <tr class="even">
 <td><p>内存</p></td>
-<td><p>32千兆字节（GB）。</p></td>
+<td><p>32 gb (GB) 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>磁盘</p></td>
 <td><ul>
 <li><p>8 个或 8 个以上具有至少 72 GB 可用磁盘空间的 10,000 RPM 硬盘驱动器</p>
 <p>其中两个磁盘驱动器应使用 RAID 1，另外六个磁盘驱动器应使用 RAID 10。</p>
-<p>-和</p></li>
+<p>- 和</p></li>
 <li><p>性能类似于 8 个 10,000 RPM 机械磁盘驱动器的固态驱动器 (SSD)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>网络</p></td>
 <td><ul>
-<li><p>1个双端口网络适配器，1 Gbps 或更高（建议2个，这需要使用一个 MAC 地址和一个 IP 地址进行分组）。</p>
+<li><p>1个双端口网络适配器，1 Gbps 或更高 (2 建议，这需要使用单个 MAC 地址和单个 IP 地址进行分组) 。</p>
 <div>
 
 > [!NOTE]  
@@ -123,29 +125,29 @@ Lync Server 2013 服务器角色和运行 Lync Server 管理工具的计算机�
 <tr class="odd">
 <td><p>CPU</p></td>
 <td><ul>
-<li><p>64位双处理器、四核、2.0 千兆位（GHz）或更高版本。</p>
-<p>-和</p></li>
+<li><p>64位双处理器、四核、2.0 千兆 (GHz) 或更高版本。</p>
+<p>- 和</p></li>
 <li><p>64位4路处理器、双核、2.0 GHz 或更高版本。</p></li>
 </ul>
 <p>Lync Server 服务器角色不支持 Intel Itanium 处理器。</p></td>
 </tr>
 <tr class="even">
 <td><p>内存</p></td>
-<td><p>16千兆字节（GB）。</p></td>
+<td><p>16 gb (GB) 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>磁盘</p></td>
 <td><ul>
 <li><p>4个或更多 10000 RPM 硬盘，至少有 72 GB 的可用磁盘空间。</p>
 <p>磁盘应采用 2x RAID 1 配置。</p>
-<p>-和</p></li>
+<p>- 和</p></li>
 <li><p>性能类似于 8 个 10,000 RPM 机械磁盘驱动器的固态驱动器 (SSD)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>网络</p></td>
 <td><ul>
-<li><p>1个双端口网络适配器，1 Gbps 或更高（建议2个，这需要使用一个 MAC 地址和一个 IP 地址进行分组）。 两个网络接口在边缘服务器上是必需的，并且在独立中介服务器上受支持。</p></li>
+<li><p>1个双端口网络适配器，1 Gbps 或更高 (2 建议，这需要使用单个 MAC 地址和单个 IP 地址进行分组) 。 两个网络接口在边缘服务器上是必需的，并且在独立中介服务器上受支持。</p></li>
 </ul>
 <div>
 
@@ -154,8 +156,8 @@ Lync Server 2013 服务器角色和运行 Lync Server 管理工具的计算机�
 
 
 </div>
-<p>边缘服务器需要两个分别为双端口网络适配器、1 Gbps 或更高（或两个配对的网络适配器）的网络接口（或两个配对的网络适配器），每个端口包含一个 MAC 地址和一个 IP 地址，共有两对。</p>
-<p>安装其他网络接口卡（Nic）以允许在独立中介服务器上支持特定 PSTN IP 地址的配置。</p></td>
+<p>边缘服务器需要两个网络接口，分别为双端口网络适配器、1 Gbps 或更高级别的 (或两个配对的网络适配器（总共为四个），每个配对包含一个 MAC 地址和一个 IP 地址，共有两对) 。</p>
+<p>安装其他网络接口卡 (Nic) 以允许在独立中介服务器上支持特定 PSTN IP 地址的配置。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e9a2f60b2273cf8d43833226ede66a2a90478a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8404a48ae4a8fce5f0d0a85fd5aa36824152c9d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182698"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510849"
 ---
+# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部用户访问方案
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部用户访问方案
+
 
 </div>
 
@@ -41,19 +43,19 @@ _**上次修改的主题：** 2012-09-08_
 
 如果需要比单个边缘服务器更大的容量，或者如果您的边缘服务器部署需要高可用性，则可以在负载平衡池中配置负载平衡和部署多台边缘服务器。 如果您的组织具有多个数据中心，则可以在多个位置进行边缘服务器或边缘池部署。 但是，只有一台边缘服务器部署可以指定为联合路由。
 
-本部分定义了边缘服务器部署的方案，并将规划部分映射到可能的方案。 例如，如果您的部署需要高可用性、具有可扩展消息和状态（XMPP）联系人的联盟以及 Lync 移动性，则应选择下表中将满足这些要求的匹配项，并使用引用的规划部分来定义您的部署，如以下流程图所示。
+本部分定义了边缘服务器部署的方案，并将规划部分映射到可能的方案。 例如，如果您的部署需要高可用性、具有可扩展邮件功能的联盟和状态 (XMPP) 联系人和 Lync 移动性，您可以在下表中选择满足这些要求的匹配条目，并使用引用的规划部分来定义您的部署，如下面的流程图所示。
 
 **边缘服务器部署方案选择流程**
 
 ![示例部署流程图](images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "示例部署流程图")
 
-通过使用此过程，可以规划和记录您打算为用户部署的所有潜在功能的配置。 但是，您可以在部署边缘服务器后添加联盟和移动服务，并在添加其他功能之前确认了正确的操作。 将功能添加到现有边缘服务器部署的过程将在 "部署" 部分介绍。 有关部署的详细信息，请参阅在初始规划过程中，通过[在 Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)，可以为添加的功能准备 dns、防火墙和证书要求，从而使您能够提前获取证书并配置 dns 和端口/协议要求。
+通过使用此过程，可以规划和记录您打算为用户部署的所有潜在功能的配置。 但是，您可以在部署边缘服务器后添加联盟和移动服务，并在添加其他功能之前确认了正确的操作。 将功能添加到现有边缘服务器部署的过程将在 "部署" 部分介绍。 有关部署的详细信息，请参阅在初始规划过程中，通过 [在 Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md) ，可以为添加的功能准备 dns、防火墙和证书要求，从而使您能够提前获取证书并配置 dns 和端口/协议要求。
 
 <div>
 
 
 > [!TIP]  
-> 如果您计划安装边缘服务器和反向代理，然后在以后添加功能（例如，联盟和移动），请确定部署后所有服务所需的证书。 提前规划和获取所有功能的证书（首次部署时），让您不必订购新证书来满足联盟（即，在边缘服务器上）或反向代理（即移动性的要求）的要求。服务）。
+> 如果您计划安装边缘服务器和反向代理，然后在稍后添加功能 (例如，联盟和移动) ，请确定部署后所有服务所需的证书。 预先部署和获取所有功能的证书，并在最初部署的情况下，使您不必订购新证书来满足联合 (的要求，即在边缘服务器上) 或反向代理 (（即移动服务) ）。
 
 
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2012-09-08_
 
 
 > [!NOTE]  
-> 所有边缘服务在每台边缘服务器上运行。 无法在两台不同的边缘服务器之间拆分服务。 如果部署边缘池以实现可伸缩性，则会在池中的每台边缘服务器上部署所有边缘服务。 XMPP 联合身份验证、Office 通信服务器和 Lync Server 联盟，公用 IM 连接和客户移动性是部署第一台边缘服务器或边缘池后可部署的其他服务。 移动服务是一项使用反向代理的功能。 移动服务的安装不会将功能添加到边缘服务器，但会要求重新配置反向代理。 在安装和配置边缘服务器时，列出这些功能的 "<STRONG>安装目标</STRONG>" 列在 "<STRONG>边缘服务器规划" 部分</STRONG>下的 "相关列" 中提供了规划指南，以用于同时规划要部署的这些功能。
+> 所有边缘服务在每台边缘服务器上运行。 无法在两台不同的边缘服务器之间拆分服务。 如果部署边缘池以实现可伸缩性，则会在池中的每台边缘服务器上部署所有边缘服务。 XMPP 联合身份验证、Office 通信服务器和 Lync Server 联盟，公用 IM 连接和客户移动性是部署第一台边缘服务器或边缘池后可部署的其他服务。 移动服务是一项使用反向代理的功能。 移动服务的安装不会将功能添加到边缘服务器，但会要求重新配置反向代理。 在安装和配置边缘服务器时，列出这些功能的 " <STRONG>安装目标</STRONG> " 列在 " <STRONG>边缘服务器规划" 部分</STRONG> 下的 "相关列" 中提供了规划指南，以用于同时规划要部署的这些功能。
 
 
 
@@ -123,7 +125,7 @@ _**上次修改的主题：** 2012-09-08_
 <ul>
 <li><p><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">规划 Lync Server 2013 和 Office 通信服务器联盟</a></p></li>
 <li><p><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">在 Lync Server 2013 中规划公共即时消息连接</a></p></li>
-<li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">在 Lync Server 2013 中规划可扩展消息和状态协议（XMPP）联盟</a></p></li>
+<li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">在 Lync Server 2013 中规划可扩展消息和状态协议 (XMPP) 联盟</a></p></li>
 </ul></td>
 </tr>
 <tr class="odd">

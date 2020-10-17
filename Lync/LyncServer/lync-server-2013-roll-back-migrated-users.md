@@ -12,20 +12,22 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05678690718563dac9187ee275d3809016b78d33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: deda1ec30ef5267acd8b3826b77077e7902d98e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208483"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511259"
 ---
+# <a name="roll-back-migrated-users-in-lync-server-2013"></a>在 Lync Server 2013 中回滚已迁移的用户
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="roll-back-migrated-users-in-lync-server-2013"></a>在 Lync Server 2013 中回滚已迁移的用户
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42208483"
 
 _**上次修改的主题：** 2012-10-07_
 
-如果需要回滚统一联系人存储功能，请仅在将用户移回 Exchange 2010 或 Lync Server 2010 时才回滚联系人。 要进行回滚，请针对用户禁用该策略，然后运行 **Invoke-CsUcsRollback** cmdlet。 只是单独运行 **Invoke-CsUcsRollback** 并不足以确保永久回滚，因为如果未禁用该策略，统一联系人存储迁移将再次发生。 例如，如果由于 Exchange 2013 回滚到 Exchange 2010 而回滚用户，然后将用户的邮箱移动到 Exchange 2013，则在回滚之后的七天内将再次启动统一联系人存储迁移（只要是统一联系人存储）。在用户服务策略中仍为用户启用。
+如果需要回滚统一联系人存储功能，请仅在将用户移回 Exchange 2010 或 Lync Server 2010 时才回滚联系人。 要进行回滚，请针对用户禁用该策略，然后运行 **Invoke-CsUcsRollback** cmdlet。 只是单独运行 **Invoke-CsUcsRollback** 并不足以确保永久回滚，因为如果未禁用该策略，统一联系人存储迁移将再次发生。 例如，如果由于 Exchange 2013 回滚到 Exchange 2010 而回滚用户，然后将用户邮箱移动到 Exchange 2013，则在回滚之后的七天内将再次启动统一联系人存储迁移，只要用户服务策略中仍为用户启用统一联系人存储库，就会再次启动统一联系人存储迁移。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 在下列情况下，Get-csuser cmdlet 会自动<STRONG>将</STRONG>用户的联系人存储从 Exchange 2013 回滚到 Lync Server 2013： 
+> 在下列情况下，Get-csuser cmdlet 会自动 <STRONG>将</STRONG> 用户的联系人存储从 Exchange 2013 回滚到 Lync Server 2013： 
 > <UL>
 > <LI>
 > <P>将用户从 Lync Server 2013 移动到 Lync Server 2010 时。</P>
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2012-10-07_
 
 </div>
 
-以下过程介绍如何回滚用户联系人。 如果使用**get-csuser** Cmdlet 在 lync server 2013 和 lync server 2010 之间移动用户，则可以跳过这些步骤，因为**get-csuser** cmdlet 会在将用户从 Lync Server 2013 移动到 lync server 2010 时自动回退 unifed 联系人存储库。 **Get-csuser**不会禁用统一联系人存储策略，因此如果用户移回到 Lync Server 2013 中，则迁移到统一联系人存储将会重现。
+以下过程介绍如何回滚用户联系人。 如果使用 **get-csuser** Cmdlet 在 lync server 2013 和 lync server 2010 之间移动用户，则可以跳过这些步骤，因为 **get-csuser** cmdlet 会在将用户从 Lync Server 2013 移动到 lync server 2010 时自动回退 unifed 联系人存储库。 **Get-csuser** 不会禁用统一联系人存储策略，因此如果用户移回到 Lync Server 2013 中，则迁移到统一联系人存储将会重现。
 
 <div>
 

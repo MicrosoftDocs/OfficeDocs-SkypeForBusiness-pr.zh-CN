@@ -12,20 +12,22 @@ ms:contentKeyID: 48184626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f927957f21c67a8cfca6b169b99f7de9275740fe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d74d2732d2f8ad293450f4945eef00bccb9a572d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200778"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510079"
 ---
+# <a name="session-table-in-lync-server-2013"></a>Lync Server 2013 中的会话表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="session-table-in-lync-server-2013"></a>Lync Server 2013 中的会话表
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200778"
 
 _**上次修改的主题：** 2013-09-09_
 
-每个记录代表一个涉及音频或音频和视频的会话。 它包含有关会话的总体信息。 会话定义为两个终结点之间的音频或视频会话初始协议（SIP）对话框。
+每个记录代表一个涉及音频或音频和视频的会话。 它包含有关会话的总体信息。 会话在两个终结点之间定义为 (SIP) 对话的音频或视频会话初始协议。
 
 
 <table>
@@ -60,19 +62,19 @@ _**上次修改的主题：** 2013-09-09_
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>主</p></td>
-<td><p>从<a href="lync-server-2013-dialog-table.md">Lync Server 2013 的对话框表中</a>引用。</p></td>
+<td><p>从 <a href="lync-server-2013-dialog-table.md">Lync Server 2013 的对话框表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>主</p></td>
-<td><p>从<a href="lync-server-2013-dialog-table.md">Lync Server 2013 的对话框表中</a>引用。</p></td>
+<td><p>从 <a href="lync-server-2013-dialog-table.md">Lync Server 2013 的对话框表中</a>引用。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>会议密钥。 从<a href="lync-server-2013-conference-table.md">Lync Server 2013 中的会议表中</a>引用。</p></td>
+<td><p>会议密钥。 从 <a href="lync-server-2013-conference-table.md">Lync Server 2013 中的会议表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CorrelationKey</strong></p></td>
@@ -115,19 +117,19 @@ _**上次修改的主题：** 2013-09-09_
 <td><p><strong>CallerPool</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫者的池。 从<a href="lync-server-2013-pool-table.md">Lync Server 2013 的 Pool 表中</a>引用。</p></td>
+<td><p>呼叫者的池。 从 <a href="lync-server-2013-pool-table.md">Lync Server 2013 的 Pool 表中</a>引用。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleePool</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫接收器的池。 从<a href="lync-server-2013-pool-table.md">Lync Server 2013 的 Pool 表中</a>引用。</p></td>
+<td><p>呼叫接收器的池。 从 <a href="lync-server-2013-pool-table.md">Lync Server 2013 的 Pool 表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleePAI</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>接收终结点的 SIP p 声明标识（PAI）中的 SIP URI。 <a href="lync-server-2013-user-table.md">在 Lync Server 2013 的用户表中</a>引用。</p></td>
+<td><p>SIP p-声明标识 (PAI) 中接收终结点的 SIP URI。 <a href="lync-server-2013-user-table.md">在 Lync Server 2013 的用户表中</a>引用。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerURI</strong></p></td>
@@ -139,7 +141,7 @@ _**上次修改的主题：** 2013-09-09_
 <td><p><strong>CallerEndpoint</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>调用方的终结点。 从<a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表中</a>引用。</p></td>
+<td><p>调用方的终结点。 从 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表中</a>引用。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerUserAgent</strong></p></td>
@@ -157,13 +159,13 @@ _**上次修改的主题：** 2013-09-09_
 <td><p><strong>ClassifiedPoorCall</strong></p></td>
 <td><p>位</p></td>
 <td></td>
-<td><p>此列已弃用，并且在 Microsoft Lync Server 2013 中未使用。 而是在每个媒体的行基上报告此信息。 有关详细信息，请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p>此列已弃用，并且在 Microsoft Lync Server 2013 中未使用。 而是在每个媒体的行基上报告此信息。 有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerPAI</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>P-声明-发出呼叫的用户的标识。 P 声明标识（PAI）用于传达发出呼叫的用户的真实标识。</p></td>
+<td><p>P-声明-发出呼叫的用户的标识。 P 声明标识 (PAI) 用于传达发出呼叫的用户的真实标识。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeEndpoint</strong></p></td>

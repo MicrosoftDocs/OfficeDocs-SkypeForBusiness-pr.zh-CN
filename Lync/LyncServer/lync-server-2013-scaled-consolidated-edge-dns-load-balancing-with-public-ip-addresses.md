@@ -12,20 +12,22 @@ ms:contentKeyID: 48183698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8db90455704fcfd3337db3d5ade2bea7e32b844c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2b6f34a3af58e7c52d9728b7678be745d911cbc1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182712"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510990"
 ---
+# <a name="scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>在 Lync Server 2013 中，扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>在 Lync Server 2013 中，扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）
+
 
 </div>
 
@@ -41,21 +43,21 @@ _**上次修改的主题：** 2012-09-08_
 
 如果您的组织需要支持超过15000个访问边缘服务客户端连接，则1000个活动 Lync Server Web 会议服务客户端连接，或500并发 A/V 边缘会话以及/或边缘服务器的高可用性。此拓扑提供了可伸缩性和故障转移支持的优势。
 
-该图不显示控制器，即在边缘服务器与前端池或服务器之间部署在内部网络中的可选服务器角色。 有关控制器拓扑的详细信息，请参阅[Lync Server 2013 中的控制器所需的组件](lync-server-2013-components-required-for-the-director.md)。 此图表示一个反向代理。
+该图不显示控制器，即在边缘服务器与前端池或服务器之间部署在内部网络中的可选服务器角色。 有关控制器拓扑的详细信息，请参阅 [Lync Server 2013 中的控制器所需的组件](lync-server-2013-components-required-for-the-director.md)。 此图表示一个反向代理。
 
 <div>
 
 
 > [!NOTE]
-> 所显示的图适用于方向和示例 IP 寻址，但并不旨在代表具有正确传入和传出流量的实际通信流。 该图代表可能流量的高级视图。 与传入（至侦听端口）和传出（至目标服务器或客户端）相关的通信流的详细信息显示在每个方案的“端口摘要”图中。 例如，TCP 443 实际上仅限入站（至边缘或反向代理），而且从协议 (TCP) 的角度来看只是一种双向流。 此外，该图显示流量的特性，因为在发生 NAT（网络地址转换）时它会发生更改（目标地址在入站上更改，源地址在出站上更改）。 显示的外部和内部防火墙示例以及服务器界面仅供参考。 最后，显示默认网关和路由关系示例（如果适用）。 另请注意，该图表使用<EM>.Com</EM> dns 区域表示反向代理服务器和边缘服务器的外部 DNS 区域，而<EM>.net</EM> DNS 区域引用内部 dns 区域。
+> 所显示的图适用于方向和示例 IP 寻址，但并不旨在代表具有正确传入和传出流量的实际通信流。 该图代表可能流量的高级视图。 与传入（至侦听端口）和传出（至目标服务器或客户端）相关的通信流的详细信息显示在每个方案的“端口摘要”图中。 例如，TCP 443 实际上仅限入站（至边缘或反向代理），而且从协议 (TCP) 的角度来看只是一种双向流。 此外，该图显示流量的特性，因为在发生 NAT（网络地址转换）时它会发生更改（目标地址在入站上更改，源地址在出站上更改）。 显示的外部和内部防火墙示例以及服务器界面仅供参考。 最后，显示默认网关和路由关系示例（如果适用）。 另请注意，该图表使用 <EM>.Com</EM> dns 区域表示反向代理服务器和边缘服务器的外部 DNS 区域，而 <EM>.net</EM> DNS 区域引用内部 dns 区域。
 
 
 
 </div>
 
-Microsoft Lync Server 2013 的新增支持 IPv6 寻址。 与 IPv4 寻址非常相似，必须以一种适当的方式分配 IPv6 地址，使这些地址属于所分配的 IPv6 地址空间的一部分。 本主题中的地址仅用作示例。 您必须获取将在您的部署中正常运行、提供正确的范围并将与内部和外部寻址进行互操作的 IPv6 地址。 Windows Server 提供了一项功能，这一点对将 IPv6 操作和 IPv4 转换为称作*双重堆栈*的 ipv6 通信非常重要。 双协议栈是面向 IPv4 和 IPv6 的一种单独且独特的网络堆栈。 双协议栈可允许您同时为 IPv4 和 IPv6 分配寻址，并允许服务器根据其他主机和客户端的要求与这些主机和客户端进行通信。
+Microsoft Lync Server 2013 的新增支持 IPv6 寻址。 与 IPv4 寻址非常相似，必须以一种适当的方式分配 IPv6 地址，使这些地址属于所分配的 IPv6 地址空间的一部分。 本主题中的地址仅用作示例。 您必须获取将在您的部署中正常运行、提供正确的范围并将与内部和外部寻址进行互操作的 IPv6 地址。 Windows Server 提供了一项功能，这一点对将 IPv6 操作和 IPv4 转换为称作 *双重堆栈*的 ipv6 通信非常重要。 双协议栈是面向 IPv4 和 IPv6 的一种单独且独特的网络堆栈。 双协议栈可允许您同时为 IPv4 和 IPv6 分配寻址，并允许服务器根据其他主机和客户端的要求与这些主机和客户端进行通信。
 
-将用于 IPv6 寻址的典型地址类型将是 IPv6 全局地址（类似于公用 IPv4 地址）、IPv6 唯一本地地址（类似于专用 IPv4 地址范围）和 IPv6 链路本地地址（类似于自动专用 IP）适用于 IPv4 的 Windows Server 中的地址）
+将用于 IPv6 寻址的典型地址类型将是 IPv6 全局地址 (类似于公用 IPv4 地址) 、IPv6 唯一本地地址 (类似于专用 IPv4 地址范围) 和 IPv6 链路本地地址 (类似于 Windows Server 中 IPv4 的自动专用 IP 地址) 
 
 存在 IPv6 的网络地址转换技术 (NAT)，以允许 NAT IPv6 转换为 IPv4（通常称为 NAT64）以及 NAT IPv6 转换为 IPv6（通常称为 NAT66）。 NAT 技术的存在意味着为 Lync Server Edge 服务器提供的五种方案仍然有效。
 
@@ -75,7 +77,7 @@ Microsoft Lync Server 2013 的新增支持 IPv6 寻址。 与 IPv4 寻址非常�
 
 
 > [!IMPORTANT]
-> 如果使用的是呼叫允许控制（CAC），仍必须向边缘服务器的内部接口分配 IPv4 地址。 CAC 使用 IPv4 地址并且必须使它们可用于操作。
+> 如果使用呼叫允许控制 (CAC) ，仍必须向边缘服务器的内部接口分配 IPv4 地址。 CAC 使用 IPv4 地址并且必须使它们可用于操作。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aba7d5f1b279ba83a5a6053d2197c90253dd84ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1432480cbe62aedfc5c05362cc322d971c3cb321
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182732"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510859"
 ---
+# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>在 Lync Server 2013 中扫描病毒和检查病毒定义
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>在 Lync Server 2013 中扫描病毒和检查病毒定义
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2014-05-01_
 
 
 > [!IMPORTANT]  
-> 在运行 lync server 2013 的服务器和 Lync Server 的 Forefront Security 的服务器上使用第三方文件级防病毒软件时，请确保未扫描 Lync Server 和 Lync Server 的 Forefront Security 的安装文件夹，以防止它们的损坏。 有关排除项的完整列表，请<A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>参阅。
+> 在运行 lync server 2013 的服务器和 Lync Server 的 Forefront Security 的服务器上使用第三方文件级防病毒软件时，请确保未扫描 Lync Server 和 Lync Server 的 Forefront Security 的安装文件夹，以防其损坏。 有关排除项的完整列表，请参阅 <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A> 。
 
 
 

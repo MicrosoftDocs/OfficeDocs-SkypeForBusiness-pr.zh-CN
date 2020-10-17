@@ -12,20 +12,22 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d95ca6af9a3e762a39142fcaf754d810050d83d3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ebfc08cd5a27527d5afebdae8b2fea8335f93dcb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200768"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510229"
 ---
+# <a name="server-table-in-lync-server-2013"></a>Lync Server 2013 中的服务器表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-table-in-lync-server-2013"></a>Lync Server 2013 中的服务器表
+
 
 </div>
 
@@ -64,7 +66,7 @@ Server 表是一个支持表。每个记录表示一台服务器。
 </tr>
 <tr class="even">
 <td><p><strong>FQDNOrIP</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>index</p></td>
 <td><p>MAC 地址字符串。</p></td>
 </tr>
@@ -77,7 +79,7 @@ Server 表是一个支持表。每个记录表示一台服务器。
 </tr>
 <tr class="even">
 <td><p><strong>PoolName</strong></p></td>
-<td><p>nvarchar （512）</p></td>
+<td><p>nvarchar (512) </p></td>
 <td></td>
 <td><p>服务器所属的池。仅适用于 A/V 会议服务器。</p></td>
 </tr>

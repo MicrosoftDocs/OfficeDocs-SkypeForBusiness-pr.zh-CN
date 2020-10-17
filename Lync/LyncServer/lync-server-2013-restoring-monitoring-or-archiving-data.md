@@ -12,20 +12,22 @@ ms:contentKeyID: 51541483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e44bf1fe66aa7c03caea2ba367f425f1094a9a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e908792e8a2563094b11bcce73d4ac6ce6c7121
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511419"
 ---
+# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a>在 Lync Server 2013 中还原监视或存档数据
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a>在 Lync Server 2013 中还原监视或存档数据
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2013-02-18_
 
 1.  以本地计算机上 Administrators 组的成员或具有同等用户权限的组的成员身份登录到要还原的服务器。
 
-2.  打开 SQL Server Management Studio：依次单击 "**开始**"、"**所有程序**"、" **Microsoft sql Server 2012** " 或 " **microsoft sql server 2008 R2**"，然后单击 " **SQL server management Studio**"。
+2.  打开 SQL Server Management Studio：依次单击 " **开始**"、" **所有程序**"、" **Microsoft sql Server 2012** " 或 " **microsoft sql server 2008 R2**"，然后单击 " **SQL server management Studio**"。
 
 3.  在“连接到服务器”**** 中，至少提供服务器的名称和身份验证信息，以连接到 SQL Server 实例。
 
@@ -71,17 +73,17 @@ _**上次修改的主题：** 2013-02-18_
 
 <div>
 
-## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a>确保访问控制列表（Acl）正确
+## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a>确保 (Acl) 的访问控制列表正确
 
 1.  依次展开“数据库”****、存档数据库或监控数据库、“安全”****，然后展开“用户”****。
 
 2.  确认域组 RTCComponentUniversalServices 作为用户存在。
 
-3.  如果 "**用户**" 下不存在 RTCComponentUniversalServices，请执行以下操作：
+3.  如果 " **用户**" 下不存在 RTCComponentUniversalServices，请执行以下操作：
     
     1.  右键单击“用户”****，然后单击“新建用户”****。
     
-    2.  在 "**登录名**" 中，键入缺少的组名称 RTCComponentUniversalServices。
+    2.  在 " **登录名**" 中，键入缺少的组名称 RTCComponentUniversalServices。
     
     3.  在“数据库角色成员身份”**** 中，选择“ServerRole”**** 权限，然后单击“确定”****。
     

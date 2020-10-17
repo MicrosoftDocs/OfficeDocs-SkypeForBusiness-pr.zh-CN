@@ -12,20 +12,22 @@ ms:contentKeyID: 48185214
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 757091b8f3c8155134fa1cc3e984e28093d49843
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 495ac4ba1b09b6a58a146882d54e17a8f3dd70bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182425"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510369"
 ---
+# <a name="server-and-tools-operating-system-support-in-lync-server-2013"></a>Lync Server 2013 中的服务器和工具操作系统支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-and-tools-operating-system-support-in-lync-server-2013"></a>Lync Server 2013 中的服务器和工具操作系统支持
+
 
 </div>
 
@@ -45,11 +47,11 @@ Lync Server 2013 仅适用于64位，这需要 64-bit 硬件和适用于 Windows
 
 Lync Server 2013 支持 Lync Server 2013 中的所有服务器角色的以下操作系统的64位版本：
 
-  - Windows Server 2008 R2 Service Pack 1 （SP1） Standard 操作系统（必需）或最新的 service pack （推荐）
+  - Windows Server 2008 R2 Service Pack 1 (SP1) 标准操作系统 (必需的) 或最新的 service Pack (建议的) 
 
-  - Windows Server 2008 R2 SP1 Enterprise 操作系统（必需）或最新的 service pack （推荐）
+  - Windows Server 2008 R2 SP1 Enterprise 操作系统 (必需的) 或最新的 service pack (建议) 
 
-  - Windows Server 2008 R2 with SP1 Datacenter 操作系统（必需）或最新的 service pack （推荐）
+  - Windows Server 2008 R2 with SP1 Datacenter 操作系统 (必需的) 或最新的 service pack (建议) 
 
   - Windows Server 2012 标准操作系统
 
@@ -71,13 +73,13 @@ Lync Server 2013 在以下情况下不受支持：
 
 ## <a name="additional-operating-systems-for-administrative-tools"></a>管理工具对应的其他操作系统
 
-Lync Server 2013 默认情况下，在运行 Lync Server 2013 的服务器上安装管理工具，但您可以在运行 Windows 操作系统的其他计算机上单独安装管理工具。 其中包括以下64位版本的操作系统，以及支持部署服务器角色的操作系统的64位版本（如上一节中所述）。
+Lync Server 2013 默认情况下，在运行 Lync Server 2013 的服务器上安装管理工具，但您可以在运行 Windows 操作系统的其他计算机上单独安装管理工具。 其中包括以下64位版本的操作系统，以及在部署服务器角色时支持的操作系统的64位版本 (，如上一节) 中所述。
 
-  - 带有 SP1 操作系统（必需）的 Windows 7 操作系统或最新的 service pack （推荐）
+  - Windows 7 操作系统（SP1 操作系统） (必需的) 或最新的 service pack (建议) 
 
-  - Windows 8 操作系统或最新 service pack （推荐）
+  - 建议的 Windows 8 操作系统或最新的 service pack () 
 
-  - Windows 8.1 操作系统或最新的 service pack （推荐）
+  - Windows 8.1 操作系统或最新的 service pack (建议的) 
 
 </div>
 
@@ -85,11 +87,11 @@ Lync Server 2013 默认情况下，在运行 Lync Server 2013 的服务器上安
 
 ## <a name="operating-systems-for-other-servers-in-your-deployment"></a>部署中的其他服务器的操作系统
 
-  - 有关后端服务器和其他数据库服务器的要求的详细信息，请参阅[Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md)。
+  - 有关后端服务器和其他数据库服务器的要求的详细信息，请参阅 [Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md)。
 
-  - 有关反向代理服务器（用于边缘部署）的要求的详细信息，请参阅[Lync Server 2013 中的 IIS 支持](lync-server-2013-iis-support.md)。
+  - 有关 (边缘部署) 的反向代理服务器的要求的详细信息，请参阅 [Lync Server 2013 中的 IIS 支持](lync-server-2013-iis-support.md)。
 
-  - 有关其他软件要求（包括基础结构和虚拟化支持）的详细信息，请参阅[Lync Server 2013 中的服务器软件和基础结构支持](lync-server-2013-server-software-and-infrastructure-support.md)中的其他主题。
+  - 有关其他软件要求（包括基础结构和虚拟化支持）的详细信息，请参阅 [Lync Server 2013 中的服务器软件和基础结构支持](lync-server-2013-server-software-and-infrastructure-support.md)中的其他主题。
 
 </div>
 

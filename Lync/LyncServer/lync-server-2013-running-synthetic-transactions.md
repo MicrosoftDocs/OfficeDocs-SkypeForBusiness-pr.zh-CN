@@ -12,20 +12,22 @@ ms:contentKeyID: 63969593
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 476223c1c81f6927a1b5f96a78091e0f3c57ea12
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 297e1ee6416fb534791a2459e10acaa87f86e205
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182755"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511089"
 ---
+# <a name="running-synthetic-transactions-in-lync-server-2013"></a>在 Lync Server 2013 中运行综合事务
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-synthetic-transactions-in-lync-server-2013"></a>在 Lync Server 2013 中运行综合事务
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42182755"
 
 _**上次修改的主题：** 2014-08-18_
 
-通常通过两种方式执行综合事务。 您可以使用 CsHealthMonitoringConfiguration cmdlet 为每个注册器池设置测试用户。 这些测试用户是已预配置为与综合事务一起使用的一对用户。 （通常，这些是测试帐户，而不是属于实际用户的帐户。）使用为池配置的测试用户，可以对该池运行综合事务，而无需为测试中涉及的用户帐户指定（并提供凭据）的标识。
+通常通过两种方式执行综合事务。 您可以使用 CsHealthMonitoringConfiguration cmdlet 为每个注册器池设置测试用户。 这些测试用户是已预配置为与综合事务一起使用的一对用户。  (通常是测试帐户，而不是属于实际用户的帐户。 ) 在配置了池的测试用户的情况下，可以对该池运行综合事务，而无需指定 (的标识，并提供用于) 测试中所涉及的用户帐户的凭据。
 
-或者，您可以使用实际用户帐户运行综合事务。 例如，如果两个用户不能交换即时消息，则可以使用这两个用户帐户（而不是一对一对测试帐户）运行一个综合事务，然后尝试诊断并解决该问题。 如果您决定使用实际用户帐户执行综合事务，则必须为每个用户提供登录名和密码。
+或者，您可以使用实际用户帐户运行综合事务。 例如，如果两个用户不能交换即时消息，则可以使用这两个用户帐户运行一个综合事务 (而不是一对测试帐户) ，然后尝试诊断并解决该问题。 如果您决定使用实际用户帐户执行综合事务，则必须为每个用户提供登录名和密码。
 
 <div>
 

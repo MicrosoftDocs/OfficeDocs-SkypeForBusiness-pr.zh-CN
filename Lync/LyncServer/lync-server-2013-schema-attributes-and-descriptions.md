@@ -12,20 +12,22 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1c8259312e3ba4e939bd784e189f5aae495605d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcd4c3f3da44be2721d1c6bfc1c1ceece47b6232
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182665"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510869"
 ---
+# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Lync Server 2013 中的架构属性和说明
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Lync Server 2013 中的架构属性和说明
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42182665"
 
 _**上次修改的主题：** 2012-10-06_
 
-本节介绍 Lync Server 2013 使用的所有架构属性。 对于与属性相关联的类，请参阅[在 Lync Server 2013 中按类架构属性](lync-server-2013-schema-attributes-by-class.md)。 有关 Lync Server 2013 中新增的类和属性的列表，请参阅[Lync server 2013 中的架构更改](lync-server-2013-schema-changes-in-lync-server-2013.md)。
+本节介绍 Lync Server 2013 使用的所有架构属性。 对于与属性相关联的类，请参阅 [在 Lync Server 2013 中按类架构属性](lync-server-2013-schema-attributes-by-class.md)。 有关 Lync Server 2013 中新增的类和属性的列表，请参阅 [Lync server 2013 中的架构更改](lync-server-2013-schema-changes-in-lync-server-2013.md)。
 
 将链接为一对的属性指定为正向链接或反向链接。指向另一个对象的属性为正向链接；向回指向第一个对象的其他对象的属性为反向链接。正向链接可更新，而反向链接为只读。
 
@@ -65,13 +67,13 @@ _**上次修改的主题：** 2012-10-06_
 <tr class="header">
 <th>属性</th>
 <th>说明</th>
-<th>备注</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>dnsHostName</p></td>
-<td><p>Active Directory 域服务中当前与<strong>msRTCSIP</strong>和<strong>msRTCSIP</strong>类关联的现有属性。 此属性指定池或监视服务器的完全限定的域名（FQDN）。</p>
+<td><p>Active Directory 域服务中当前与 <strong>msRTCSIP</strong> 和 <strong>msRTCSIP</strong> 类关联的现有属性。 此属性指定池或监视服务器 (FQDN) 的完全限定的域名。</p>
 <p>每段的有效值为 63 个字符；整个 FQDN 的有效值为 255 个字符。</p></td>
 <td><p>Microsoft Office Live 通信服务器2005中的新增项。</p></td>
 </tr>
@@ -83,7 +85,7 @@ _**上次修改的主题：** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>msExchUCVoiceMailSettings</p></td>
-<td><p>此多值属性保存语音邮件设置。 此属性与 Exchange 统一消息（UM）共享。</p></td>
+<td><p>此多值属性保存语音邮件设置。 此属性与 Exchange 统一消息 (UM) 共享。</p></td>
 <td><p>Microsoft Lync Server 2010 中的新增项。</p></td>
 </tr>
 <tr class="even">
@@ -188,7 +190,7 @@ _**上次修改的主题：** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP-ArchivingEnabled</p></td>
 <td><p>此属性是一个用作位字段的整数，用于控制是否要对单个用户的通信进行存档。这种控制由存档代理层强制执行。此属性标记为进行全局编录复制。</p>
-<p>此属性的作用域特定于单个用户或联系人。 Lync Server 中的有效值（以及关联的位位置）如下所示：</p>
+<p>此属性的作用域特定于单个用户或联系人。 Lync Server 中的有效值 (和关联的位位置) 如下所示：</p>
 <ul>
 <li><p>0: 不存档（未设置位）</p></li>
 <li><p>1: 已撤销（第 0 位）</p></li>
@@ -342,7 +344,7 @@ _**上次修改的主题：** 2012-10-06_
 <div>
 
 > [!NOTE]  
-> Live 通信服务器2003不支持 BENOTIFY 请求。 若要与在实时通信服务器2005和第三方服务器上运行的实时通信服务器2003服务器 API 编写的服务器应用程序互操作，可以通过将 BENOTIFY 请求的值设置为<STRONG>FALSE</STRONG>来禁用这些请求。 BENOTIFY 目前不是 IETF（Internet 工程任务组）SIP 标准化过程的一部分。
+> Live 通信服务器2003不支持 BENOTIFY 请求。 若要与在实时通信服务器2005和第三方服务器上运行的实时通信服务器2003服务器 API 编写的服务器应用程序互操作，可以通过将 BENOTIFY 请求的值设置为 <STRONG>FALSE</STRONG>来禁用这些请求。 BENOTIFY 目前不是 IETF（Internet 工程任务组）SIP 标准化过程的一部分。
 
 
 </div></td>
@@ -385,7 +387,7 @@ _**上次修改的主题：** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP-FederationEnabled</p></td>
 <td><p>此属性控制是否为单个用户启用联盟。它由企业服务层强制执行。此属性标记为进行全局编录复制。</p>
-<p>有效值为<strong>TRUE</strong>或<strong>FALSE</strong>。</p></td>
+<p>有效值为 <strong>TRUE</strong> 或 <strong>FALSE</strong>。</p></td>
 <td><p>Live 通信服务器2005中的新增项。</p></td>
 </tr>
 <tr class="even">
@@ -413,7 +415,7 @@ _**上次修改的主题：** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-HomeServer（作废）</p></td>
 <td><p>-</p></td>
-<td><p>Live 通信服务器2003中的新增（未使用）。</p>
+<td><p>Live 通信服务器2003中的新增 (未使用) 。</p>
 <p>在 Live 通信服务器2005中已过时。</p></td>
 </tr>
 <tr class="odd">
@@ -425,7 +427,7 @@ _**上次修改的主题：** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-HomeUsers（作废）</p></td>
 <td><p>-</p></td>
-<td><p>Live 通信服务器2003中的新增（未使用）。</p>
+<td><p>Live 通信服务器2003中的新增 (未使用) 。</p>
 <p>在 Live 通信服务器2005中已过时。</p></td>
 </tr>
 <tr class="odd">
@@ -442,7 +444,7 @@ _**上次修改的主题：** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-行</p></td>
-<td><p>此单值属性包含 Lync for 电话服务使用的设备 ID （用户控制的电话的 SIP URI 或电话 URI）。 此属性标记为进行全局编录复制，并且已编入索引。 如果为用户启用了企业语音，则此属性存储该用户的电话号码的 E.164 规范化版本。</p></td>
+<td><p>此单值属性包含设备 ID (由 Lync for 电话服务) 用户控制的电话的 SIP URI 或电话 URI。 此属性标记为进行全局编录复制，并且已编入索引。 如果为用户启用了企业语音，则此属性存储该用户的电话号码的 E.164 规范化版本。</p></td>
 <td><p>Microsoft Office Live 通信服务器2005中的新增 SP1</p></td>
 </tr>
 <tr class="even">
@@ -546,7 +548,7 @@ _**上次修改的主题：** 2012-10-06_
 <td><p>msRTCSIP-MCUFactoryData</p></td>
 <td><p>此属性是多字符串保留属性。存储在此属性中的设置表示为“名称=值”对。当前定义的“名称=值”对如下：</p>
 <ul>
-<li><p>FactoryURL = &lt;URL&gt;</p></li>
+<li><p>FactoryURL = &lt; URL&gt;</p></li>
 </ul></td>
 <td><p>Office 通信服务器2007中的新增项。</p></td>
 </tr>
@@ -559,7 +561,7 @@ _**上次修改的主题：** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-MCUFactoryProviderID</p></td>
-<td><p>此属性为单值字符串，用于指定 MCU 中心提供程序的 GUID。 根据该 GUID 值，MCU 中心进程可确定是否向此 MCU 类型提供服务。 如果 GUID 值为<strong>{F0810510-424F-46ef-84FE-6CC720DF1791}</strong>，则 MCU 工厂进程（在 Lync Server 中默认可用）将对其进行处理。 对于任何其他 GUID 值，MCU 中心进程不会向该 MCU 类型提供服务。</p></td>
+<td><p>此属性为单值字符串，用于指定 MCU 中心提供程序的 GUID。 根据该 GUID 值，MCU 中心进程可确定是否向此 MCU 类型提供服务。 如果 GUID 值为 <strong>{F0810510-424F-46ef-84FE-6CC720DF1791}</strong>，则默认情况下，在 Lync Server 中 (提供 MCU factory 过程) 将对其进行处理。 对于任何其他 GUID 值，MCU 中心进程不会向该 MCU 类型提供服务。</p></td>
 <td><p>Office 通信服务器2007中的新增项。</p></td>
 </tr>
 <tr class="even">
@@ -592,7 +594,7 @@ _**上次修改的主题：** 2012-10-06_
 <p>此属性的有效值（和相关位的位置）如下：</p>
 <ul>
 <li><p>0: AllowOrganizeMeetingWithAnonymousParticipants 为 None（不允许用户邀请匿名用户加入会议）（未设置位）</p></li>
-<li><p>4： AllowOrganizeMeetingWithAnonymousParticipants 为 Everyone （允许所有用户邀请匿名用户参加会议）（bit 位置2）</p></li>
+<li><p>4： AllowOrganizeMeetingWithAnonymousParticipants 是每个人 (允许所有用户邀请匿名用户加入会议)  (位位置 2) </p></li>
 <li><p>8: AllowOrganizeMeetingWithAnonymousParticipants 为 UsePerUserSetting（根据每用户设置允许用户邀请匿名用户加入会议）（第 3 位）</p></li>
 <li><p>16: UserPerUserMeetingPolicy（按用户定义会议策略）（第 4 位）</p></li>
 </ul></td>
@@ -779,8 +781,8 @@ _**上次修改的主题：** 2012-10-06_
 <p>可能的有效值类型如下：</p>
 <ul>
 <li><p>未定义：IM 和状态服务（Live Communications Server 2005 和 2003）</p></li>
-<li><p>1： IM 和状态服务（Lync Server）</p></li>
-<li><p>2： IM 和状态和会议服务（Lync Server）</p></li>
+<li><p>1： IM 和状态服务 (Lync Server) </p></li>
+<li><p>2： (Lync Server) 的 IM 和状态和会议服务</p></li>
 </ul></td>
 <td><p>Office 通信服务器2007中的新增项。</p></td>
 </tr>
@@ -843,7 +845,7 @@ _**上次修改的主题：** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP</p></td>
-<td><p>此属性是一个布尔属性，用于确定是否已授权 Lync Server 使用其 GRUU 地址路由到此服务。 如果此值设置为<strong>TRUE</strong>，则表示已授权 Lync Server 路由到此服务。 如果此值设置为<strong>FALSE</strong>，则 Lync Server 无权路由到此服务。</p></td>
+<td><p>此属性是一个布尔属性，用于确定是否已授权 Lync Server 使用其 GRUU 地址路由到此服务。 如果此值设置为 <strong>TRUE</strong>，则表示已授权 Lync Server 路由到此服务。 如果此值设置为 <strong>FALSE</strong>，则 Lync Server 无权路由到此服务。</p></td>
 <td><p>Office 通信服务器2007中的新增项。</p></td>
 </tr>
 <tr class="odd">
@@ -1021,7 +1023,7 @@ _**上次修改的主题：** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-TrustedServiceLinks</p></td>
-<td><p>此多值属性包含可分辨名称 (DN) 的列表，这些名称引用受信任的服务对象，如媒体中继身份验证服务。 媒体中继身份验证服务（运行 A/V 会议服务的边缘服务器上的物理并置）必须与一个池相关联，以支持远程用户的音频方案。</p>
+<td><p>此多值属性包含可分辨名称 (DN) 的列表，这些名称引用受信任的服务对象，如媒体中继身份验证服务。 媒体中继身份验证服务在运行 A/V 会议服务的边缘服务器上 (物理并置) 必须与一个池关联，以支持远程用户的音频方案。</p>
 <p>此正向链接属性相应的反向链接为 <strong>msRTCSIP-ServerBL</strong>。</p></td>
 <td><p>全</p></td>
 </tr>
@@ -1082,7 +1084,7 @@ _**上次修改的主题：** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-UserExtension</p></td>
-<td><p>此多值属性包含名称 = 值格式&quot;的名称-值对列表。&quot;此属性被标记为要进行全局编录复制。</p></td>
+<td><p>此多值属性包含名称 = 值格式的名称-值对列表 &quot; 。 &quot; 此属性被标记为要进行全局编录复制。</p></td>
 <td><p>使用 SP1 的 Live 通信服务器2005中的新增项。</p></td>
 </tr>
 <tr class="odd">
@@ -1148,7 +1150,7 @@ _**上次修改的主题：** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>ProxyAddresses</p></td>
-<td><p>此现有 Active Directory 多值属性是 Windows 2000 中引入的基本 Active Directory 架构的一部分。 此属性包含用户电子邮件的各种 X400、X500 和 SMTP 地址。 在 Live 通信服务器2003及更高版本中，将使用&quot;sip：&quot;标记将用户的 SIP URI 添加到此列表中。</p>
+<td><p>此现有 Active Directory 多值属性是 Windows 2000 中引入的基本 Active Directory 架构的一部分。 此属性包含用户电子邮件的各种 X400、X500 和 SMTP 地址。 在 Live 通信服务器2003及更高版本中，将使用 sip：标记将用户的 SIP URI 添加到此列表中 &quot; &quot; 。</p>
 <p>下列应用程序从此属性搜索用户的 SIP URI：</p>
 <ul>
 <li><p>Microsoft Office Outlook 2003 消息和协作客户端</p></li>

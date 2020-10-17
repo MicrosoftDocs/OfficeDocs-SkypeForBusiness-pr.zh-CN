@@ -12,20 +12,22 @@ ms:contentKeyID: 51541477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c751de439ef84e718ed1d21e43c11be89cc28fe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 78460666e588ca60249e0c9d8aed8b5870256445
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201278"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511339"
 ---
+# <a name="reviewing-the-certificates-report-in-lync-server-2013"></a>在 Lync Server 2013 中查看证书报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-certificates-report-in-lync-server-2013"></a>在 Lync Server 2013 中查看证书报告
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2013-02-21_
 
 仔细查看并确保了解部署中每个证书的用途和用途。 如果有关于证书用途的问题，请确定哪个服务器或服务正在与其通信。 Lync Server 2013 中的证书用于两个主要用途：
 
-  - 相互传输层安全性（MTLS）–通信中涉及的每台计算机都提供了向另一台计算机证明身份的证书。 这称为 "服务器身份验证"。 只有在每台计算机信任另一台计算机的身份后，才能开始通信。
+  - 相互传输层安全性 (MTLS) –通信中涉及的计算机都提供了向另一台计算机证明身份的证书。 这称为 "服务器身份验证"。 只有在每台计算机信任另一台计算机的身份后，才能开始通信。
 
   - 加密 – 加密（安全套接字层 (SSL) 和传输层安全性 (TLS)）是帮助保护通信安全、确保隐私以及创建受信任通信与协作系统的重要途径。
 

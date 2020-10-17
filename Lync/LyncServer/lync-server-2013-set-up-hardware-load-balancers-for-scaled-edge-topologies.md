@@ -12,20 +12,22 @@ ms:contentKeyID: 48184563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41d7fd1fb26e7c44bad7d3c88123f8504ff003c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d77f1fba35cbb2d2ef089177d9824f070c26c71b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509839"
 ---
+# <a name="set-up-hardware-load-balancers-for-scaled-edge-topologies-in-lync-server-2013"></a>在 Lync Server 2013 中为扩展的边缘拓扑设置硬件负载平衡器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-hardware-load-balancers-for-scaled-edge-topologies-in-lync-server-2013"></a>在 Lync Server 2013 中为扩展的边缘拓扑设置硬件负载平衡器
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42182155"
 
 _**上次修改的主题：** 2012-09-08_
 
-如果使用硬件负载平衡器配置扩展的边缘拓扑，请参阅规划文档中的在[Lync Server 2013 中使用硬件负载平衡器的扩展合并边缘](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)。
+如果使用硬件负载平衡器配置扩展的边缘拓扑，请参阅规划文档中的在 [Lync Server 2013 中使用硬件负载平衡器的扩展合并边缘](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) 。
 
 </div>
 

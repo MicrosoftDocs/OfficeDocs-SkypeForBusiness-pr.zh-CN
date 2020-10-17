@@ -12,20 +12,22 @@ ms:contentKeyID: 48184968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8325f8b153a4f1927b4a37136c1cc68c7112168
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d7ba707c613bcfafb23dd158025d253f9a03ac9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182505"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510449"
 ---
+# <a name="security-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的安全 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="security-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的安全 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42182505"
 
 _**上次修改的主题：** 2012-10-09_
 
-Microsoft Lync Server 2013 中包含的安全 cmdlet 主要用于管理身份验证，以及用户权限和权限。 多种 cmdlet 可用于管理身份验证，包括用于证书和个人标识号 (PIN) 身份验证的 cmdlet。 此外，许多 cmdlet 使您可以使用新的基于角色的访问控制（RBAC）功能委派 Lync Server 的管理控制。
+Microsoft Lync Server 2013 中包含的安全 cmdlet 主要用于管理身份验证，以及用户权限和权限。 多种 cmdlet 可用于管理身份验证，包括用于证书和个人标识号 (PIN) 身份验证的 cmdlet。 此外，许多 cmdlet 使您可以使用新的基于角色的访问控制 (RBAC) 功能来委派 Lync Server 的管理控制。
 
 <div>
 

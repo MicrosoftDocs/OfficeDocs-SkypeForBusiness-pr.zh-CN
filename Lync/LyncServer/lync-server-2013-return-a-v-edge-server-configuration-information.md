@@ -12,20 +12,22 @@ ms:contentKeyID: 49733783
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50cfd257e387c48af8446adc43b25d4fd0818ea5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b73a6460b6045d5f1f2e35afcf91af0ebdd9e2b9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201318"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511379"
 ---
+# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>在 Lync Server 2013 中返回 A/V 边缘服务器配置信息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>在 Lync Server 2013 中返回 A/V 边缘服务器配置信息
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-11-01_
 
 A/V 边缘服务为您的内部用户（已登录到您的组织网络的用户）提供一种与外部用户（未登录到您的组织网络的用户）共享音频和视频的方法。A/V 边缘服务主要通过使用 A/V 边缘配置设置进行管理，即可在站点范围或服务范围进行配置（也就是，可以针对个别 A/V 边缘服务器进行配置）的设置。
 
-若要返回有关组织中使用的 A/V 边缘配置设置的信息，必须使用 Windows PowerShell 和 CsAVEdgeConfiguration cmdlet。 有关详细信息，请参阅[CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) cmdlet 的帮助主题。
+若要返回有关组织中使用的 A/V 边缘配置设置的信息，必须使用 Windows PowerShell 和 Get-CsAVEdgeConfiguration cmdlet。 有关详细信息，请参阅 [CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) cmdlet 的帮助主题。
 
 从 Get-CsAVEdgeConfiguration cmdlet 返回的信息将看起来与以下类似：
 
@@ -87,7 +89,7 @@ A/V 边缘服务为您的内部用户（已登录到您的组织网络的用户�
 [在 Lync Server 2013 中删除 A/V 边缘服务器配置设置的现有集合](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
 
 
-[Lync Server 2013 中的音频/视频（A/V）边缘服务器](lync-server-2013-audio-video-a-v-edge-servers.md)  
+[Lync Server 2013 中的音频/视频 (A/V) 边缘服务器](lync-server-2013-audio-video-a-v-edge-servers.md)  
   
 
 </div>

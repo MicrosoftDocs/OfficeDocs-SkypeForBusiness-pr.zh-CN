@@ -12,20 +12,22 @@ ms:contentKeyID: 48185585
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 178408e29e794fe39241920d715e271fc84f1c17
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c812f1276a4f8ac9a23298e3b747e9ba97085378
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510949"
 ---
+# <a name="scaled-director-pool---hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中的扩展控制器池-硬件负载平衡器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool---hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中的扩展控制器池-硬件负载平衡器
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-08_
 
 一个扩展的控制器池，在其中部署了多个控制器以处理更多容量并提供高可用性时，需要使用负载平衡将客户端和服务器通信分发到池的所有成员。 控制器承载 web 服务的方式与前端池非常相似。 Web 服务需要实现硬件负载平衡。
 
-下列主题介绍了使用硬件负载平衡部署控制器池时的规划注意事项。 如果打算使用控制器池的硬件负载平衡和 DNS 负载平衡，请参阅[Lync Server 2013 中的主题扩展的控制器池池-DNS 负载平衡和硬件负载平衡器](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)，它描述了该拓扑的规划要求。
+下列主题介绍了使用硬件负载平衡部署控制器池时的规划注意事项。 如果打算使用控制器池的硬件负载平衡和 DNS 负载平衡，请参阅 [Lync Server 2013 中的主题扩展的控制器池池-DNS 负载平衡和硬件负载平衡器](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md) ，它描述了该拓扑的规划要求。
 
 ![cfa892b9-5b24-4245-b5bd-c5da21984eeb](images/JJ205316.cfa892b9-5b24-4245-b5bd-c5da21984eeb(OCS.15).jpg "cfa892b9-5b24-4245-b5bd-c5da21984eeb")
 

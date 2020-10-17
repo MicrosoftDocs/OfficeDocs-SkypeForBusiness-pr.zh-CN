@@ -12,20 +12,22 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73ba97ccadcc5cb34a5dbc3963d80620da8e516
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd1984c6e51866b1ace707f305fb2a6cc356a132
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214818"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511609"
 ---
+# <a name="restoring-a-file-store-in-lync-server-2013"></a>在 Lync Server 2013 中还原文件存储
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-file-store-in-lync-server-2013"></a>在 Lync Server 2013 中还原文件存储
+
 
 </div>
 
@@ -43,7 +45,7 @@ Standard Edition 的文件存储通常位于 Standard Edition server 上。 Ente
 
 ## <a name="to-restore-a-file-store"></a>还原文件存储
 
-1.  如果文件存储失败，请将相应的文件存储从 $Backup\\复制到文件服务器或 Standard Edition 服务器上的文件存储位置，然后共享该文件夹。
+1.  如果文件存储失败，请将相应的文件存储从 $Backup 复制 \\ 到文件服务器或 Standard Edition 服务器上的文件存储位置，然后共享该文件夹。
     
     <div>
     
@@ -54,7 +56,7 @@ Standard Edition 的文件存储通常位于 Standard Edition server 上。 Ente
     
     </div>
 
-2.  如有必要，为文件存储设置访问控制列表（Acl）。 在命令行中键入：
+2.  如有必要，请设置文件存储 (Acl) 的访问控制列表。 在命令行中键入：
     
         Enable-CsTopology
     

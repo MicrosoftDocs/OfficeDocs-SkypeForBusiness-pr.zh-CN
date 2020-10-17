@@ -12,20 +12,22 @@ ms:contentKeyID: 48185971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47c01108bbdf7f9619f8318de36d1d35d49e8ac1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 41b8d2de39f3aa6cce5b192147c2844e5d0f0f81
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510249"
 ---
+# <a name="server-roles-and-services-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的服务器角色和服务 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-roles-and-services-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的服务器角色和服务 cmdlet
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2013-07-29_
 
 ## <a name="server-roles-and-services-cmdlets"></a>服务器角色和服务 Cmdlet
 
-适用于服务器和服务角色的许多（但不是所有）管理任务都可以从 Lync Server 控制面板中执行。 例如，可以使用 Lync Server 控制面板管理存档服务器设置，但不能管理通讯簿服务器设置。 但是，可以使用 Lync Server 命令行管理程序或脚本中的 cmdlet 执行所有这些任务;使用脚本，可以自动执行某些任务。 以下是与管理服务器角色和服务直接相关的 cmdlet 的列表：
+许多 (（但不是所有适用于服务器和服务角色的管理任务) 都可以从 Lync Server 控制面板中执行。 例如，可以使用 Lync Server 控制面板管理存档服务器设置，但不能管理通讯簿服务器设置。 但是，可以使用 Lync Server 命令行管理程序或脚本中的 cmdlet 执行所有这些任务;使用脚本，可以自动执行某些任务。 以下是与管理服务器角色和服务直接相关的 cmdlet 的列表：
 
 **[Lync Server 2013 中的通讯簿服务器 cmdlet](lync-server-2013-address-book-server-cmdlets.md)**
 

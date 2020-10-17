@@ -12,20 +12,22 @@ ms:contentKeyID: 48185152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 267db7062c19a0b1344d11f27205a51bf1e750ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5b7eee448ffd5176797ebfbb0fb43afc4c9e41a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182145"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509819"
 ---
+# <a name="set-up-network-interfaces-for-edge-servers-in-lync-server-2013"></a>在 Lync Server 2013 中设置边缘服务器的网络接口
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-network-interfaces-for-edge-servers-in-lync-server-2013"></a>在 Lync Server 2013 中设置边缘服务器的网络接口
+
 
 </div>
 
@@ -85,7 +87,7 @@ _**上次修改的主题：** 2012-09-08_
 
 3.  在内部接口上，在内部外围网络子网上配置一个静态 IP 地址，但不要设置默认网关。配置适配器 DNS 设置，以指向至少一台 DNS 服务器（最好是一对外围 DNS 服务器）。
 
-4.  在内部接口上为客户端、Lync Server 2013 和 Exchange 统一消息（UM）服务器所驻留的所有内部网络创建永久静态路由。
+4.  在内部接口上创建指向所有内部网络（客户端、Lync Server 2013 和 Exchange 统一消息 (UM) 服务器所驻留的所有内部网络）的永久静态路由。
 
 </div>
 
@@ -119,7 +121,7 @@ _**上次修改的主题：** 2012-09-08_
 
 4.  在内部接口上为运行 Lync Server 2013 的 Lync 客户端或服务器所驻留的所有内部网络创建永久静态路由。
 
-5.  编辑每台边缘服务器上的主机文件，以包含下一个跃点服务器或虚拟 IP （VIP）的记录（该记录将是 Director、Standard Edition 服务器或在拓扑生成器中配置为边缘服务器下一跃点地址的前端池）。 如果正在使用 DNS 负载平衡，请包含下一个跃点池中所有成员的行。
+5.  编辑每台边缘服务器上的主机文件，以包含下一个跃点服务器或虚拟 IP (VIP) 的记录 (该记录将是 Director、Standard Edition Server 或在拓扑生成器) 中配置为边缘服务器下一个跃点地址的前端池。 如果正在使用 DNS 负载平衡，请包含下一个跃点池中所有成员的行。
 
 </div>
 

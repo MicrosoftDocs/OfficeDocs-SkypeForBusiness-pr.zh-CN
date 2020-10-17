@@ -12,20 +12,22 @@ ms:contentKeyID: 48184991
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d9f0f1bc18cf7c0a54a5bacc9257e4264b7b93c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e4ed33466e9b31fbabb3432927baea8f087ea1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208458"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511119"
 ---
+# <a name="running-forest-preparation-for-lync-server-2013"></a>为 Lync Server 2013 运行林准备
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-forest-preparation-for-lync-server-2013"></a>为 Lync Server 2013 运行林准备
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-10-29_
 
 1.  以目录林级根域的 Enterprise Admins 组成员的身份登录到加入域的计算机。
 
-2.  从 Lync Server 2013 安装文件夹或媒体中，运行 Setup.exe 以启动部署向导。
+2.  在 Lync Server 2013 安装文件夹或媒体中，运行 Setup.exe 以启动部署向导。
 
 3.  单击“准备 Active Directory”****，然后等待确定部署状态。
 
@@ -66,7 +68,7 @@ _**上次修改的主题：** 2012-10-29_
 
 6.  在“正在执行命令”**** 页上，查找“任务状态: 已完成”****，然后单击“查看日志”****。
 
-7.  在 "**操作**" 列下，展开 "**林准备**"，在每个任务的末尾查找** \<\>成功**执行结果，以验证是否已成功完成林准备，关闭日志，然后单击 "**完成**"。
+7.  在 " **操作** " 列下，展开 " **林准备**"，查找 **\<Success\>** 每个任务末尾的 "执行结果"，以验证是否已成功完成 "林准备"，然后关闭日志，然后单击 " **完成**"。
 
 8.  等待 Active Directory 复制完成，或者强制向目录林根级域控制器的“Active Directory 站点和服务”**** 管理单元中列出的所有域控制器进行复制，然后再运行域准备。在所有 Active Directory 站点中的域控制器之间强制进行复制，以使几分钟内就在站点中进行复制操作。
 
@@ -80,7 +82,7 @@ _**上次修改的主题：** 2012-10-29_
 
 2.  安装 Lync Server Core 组件，如下所示：
     
-    1.  从 Lync Server 2013 安装文件夹或媒体中，运行 Setup.exe 以启动 Lync Server 部署向导。
+    1.  在 Lync Server 2013 安装文件夹或媒体中，运行 Setup.exe 以启动 Lync Server 部署向导。
     
     2.  如果提示您安装 Microsoft Visual C++ 可再发行软件产品，单击“是”****。
     
@@ -106,7 +108,7 @@ _**上次修改的主题：** 2012-10-29_
     
         Get-CsAdForest 
     
-    如果林准备成功，则此 cmdlet 将返回**\_LC FORESTSETTINGS\_状态\_** 为 "就绪" 的值。
+    如果林准备成功，则此 cmdlet 将返回 **LC \_ FORESTSETTINGS \_ 状态 \_ ** 为 "就绪" 的值。
 
 </div>
 

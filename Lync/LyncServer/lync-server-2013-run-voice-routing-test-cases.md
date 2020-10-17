@@ -12,20 +12,22 @@ ms:contentKeyID: 48185948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b13ed9c5f9f4e42216877f7d117f5659425848b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 06c7119d8b011a805ffbc19c3b63f8832f302556
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182805"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511139"
 ---
+# <a name="run-voice-routing-test-cases-in-lync-server-2013"></a>在 Lync Server 2013 中运行语音路由测试用例
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-voice-routing-test-cases-in-lync-server-2013"></a>在 Lync Server 2013 中运行语音路由测试用例
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**上次修改的主题：** 2013-02-24_
 
 ## <a name="to-run-all-voice-routing-test-cases"></a>运行所有语音路由测试用例
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 [Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“语音路由”****，然后单击“测试语音路由”****。
 
@@ -57,11 +59,11 @@ _**上次修改的主题：** 2013-02-24_
     
     1.  **测试结果：** 测试用例运行的整体 pass 或 fail 状态。
     
-    2.  **规范化规则：** 为此测试用例选择的拨号计划中的第一个规范化规则与所拨打的号码相匹配（"**要测试的数字**" 字段中的值）。
+    2.  **规范化规则：** 为此测试用例选择的拨号计划中的第一个规范化规则与所拨打的号码相匹配 (" **要测试的数字** " 字段) 中的值。
     
     3.  **正常化的数字：** 规范化规则翻译后拨叫的号码的值。
     
-    4.  **第一个 PSTN 用法：** 为此测试用例选择的语音策略中的第一个公用电话交换网（PSTN）用法记录与所拨打的号码匹配。
+    4.  **第一个 PSTN 用法：** 在为此测试用例选择的语音策略中，第一个公用电话交换网 (PSTN) 使用情况记录与所拨打的号码相匹配。
     
     5.  **第一个路由：** 第一个与所拨打的号码相匹配的 PSTN 用法记录中的第一个语音路由。
         
@@ -80,9 +82,9 @@ _**上次修改的主题：** 2013-02-24_
 
 ## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a>运行一个或多个所选语音路由测试用例
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 [Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“语音路由”****，然后单击“测试语音路由”****。
 
@@ -96,7 +98,7 @@ _**上次修改的主题：** 2013-02-24_
     
     1.  **测试结果：** 测试用例运行的整体 pass 或 fail 状态。
     
-    2.  **规范化规则：** 为此测试用例选择的拨号计划中的第一个规范化规则与所拨打的号码相匹配（"**要测试的数字**" 字段中的值）。
+    2.  **规范化规则：** 为此测试用例选择的拨号计划中的第一个规范化规则与所拨打的号码相匹配 (" **要测试的数字** " 字段) 中的值。
     
     3.  **正常化的数字：** 规范化规则翻译后拨叫的号码的值。
     
