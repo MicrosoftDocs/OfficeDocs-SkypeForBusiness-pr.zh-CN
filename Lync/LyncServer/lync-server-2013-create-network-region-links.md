@@ -12,20 +12,22 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1af9c2d6b651fd127986d89d521e99745e1af384
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72e8c3d0fd254ba780b91d554402ca38d30f7073
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515559"
 ---
+# <a name="create-network-region-links-in-lync-server-2013"></a><span data-ttu-id="4fb17-102">在 Lync Server 2013 中创建网络区域链接</span><span class="sxs-lookup"><span data-stu-id="4fb17-102">Create network region links in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-region-links-in-lync-server-2013"></a><span data-ttu-id="004f0-102">在 Lync Server 2013 中创建网络区域链接</span><span class="sxs-lookup"><span data-stu-id="004f0-102">Create network region links in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42205588"
 
 <span> </span>
 
-<span data-ttu-id="004f0-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="004f0-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="4fb17-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="4fb17-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="004f0-p101">网络内的区域通过物理 WAN 连接进行链接。*网络区域链接* 在为呼叫允许控制 (CAC) 配置的两个区域之间创建链接，并为这两个区域之间的音频和视频流量设置带宽限制。</span><span class="sxs-lookup"><span data-stu-id="004f0-p101">Regions within a network are linked through physical WAN connectivity. A *network region link* creates a link between two regions configured for call admission control (CAC) and sets the bandwidth limitations on audio and video traffic between these regions.</span></span>
+<span data-ttu-id="4fb17-p101">网络内的区域通过物理 WAN 连接进行链接。*网络区域链接* 在为呼叫允许控制 (CAC) 配置的两个区域之间创建链接，并为这两个区域之间的音频和视频流量设置带宽限制。</span><span class="sxs-lookup"><span data-stu-id="4fb17-p101">Regions within a network are linked through physical WAN connectivity. A *network region link* creates a link between two regions configured for call admission control (CAC) and sets the bandwidth limitations on audio and video traffic between these regions.</span></span>
 
-<span data-ttu-id="004f0-106">有关使用网络区域链接的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="004f0-106">For details about working with network region links, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="4fb17-106">有关使用网络区域链接的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="4fb17-106">For details about working with network region links, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - [<span data-ttu-id="004f0-107">新 CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="004f0-107">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)
+  - [<span data-ttu-id="4fb17-107">新 CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="4fb17-107">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)
 
-  - [<span data-ttu-id="004f0-108">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="004f0-108">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
+  - [<span data-ttu-id="4fb17-108">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="4fb17-108">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [<span data-ttu-id="004f0-109">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="004f0-109">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)
+  - [<span data-ttu-id="4fb17-109">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="4fb17-109">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)
 
-  - [<span data-ttu-id="004f0-110">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="004f0-110">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)
+  - [<span data-ttu-id="4fb17-110">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="4fb17-110">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)
 
-<span data-ttu-id="004f0-111">示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。</span><span class="sxs-lookup"><span data-stu-id="004f0-111">The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions.</span></span> <span data-ttu-id="004f0-112">每个区域链接都受 WAN 带宽的限制，如示例中的 "区域链接带宽信息" 表中所述：在规划文档的 " [Lync Server 2013 中收集对呼叫允许控制的要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)" 一节。</span><span class="sxs-lookup"><span data-stu-id="004f0-112">Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in the [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) section of the Planning documentation.</span></span>
+<span data-ttu-id="4fb17-111">示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。</span><span class="sxs-lookup"><span data-stu-id="4fb17-111">The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions.</span></span> <span data-ttu-id="4fb17-112">每个区域链接都受 WAN 带宽的限制，如示例中的 "区域链接带宽信息" 表中所述：在规划文档的 " [Lync Server 2013 中收集对呼叫允许控制的要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) " 一节。</span><span class="sxs-lookup"><span data-stu-id="4fb17-112">Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in the [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) section of the Planning documentation.</span></span>
 
 <div>
 
-## <a name="to-create-network-region-links-by-using-lync-server-management-shell"></a><span data-ttu-id="004f0-113">使用 Lync Server 命令行管理程序创建网络区域链接</span><span class="sxs-lookup"><span data-stu-id="004f0-113">To create network region links by using Lync Server Management Shell</span></span>
+## <a name="to-create-network-region-links-by-using-lync-server-management-shell"></a><span data-ttu-id="4fb17-113">使用 Lync Server 命令行管理程序创建网络区域链接</span><span class="sxs-lookup"><span data-stu-id="4fb17-113">To create network region links by using Lync Server Management Shell</span></span>
 
-1.  <span data-ttu-id="004f0-114">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="004f0-114">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="4fb17-114">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4fb17-114">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="004f0-p103">运行 New-CsNetworkRegionLink cmdlet 创建区域链接并应用相应的带宽策略配置文件。例如，运行：</span><span class="sxs-lookup"><span data-stu-id="004f0-p103">Run the New-CsNetworkRegionLink cmdlet to create the region links and apply appropriate bandwidth policy profiles. For example, run:</span></span>
+2.  <span data-ttu-id="4fb17-p103">运行 New-CsNetworkRegionLink cmdlet 创建区域链接并应用相应的带宽策略配置文件。例如，运行：</span><span class="sxs-lookup"><span data-stu-id="4fb17-p103">Run the New-CsNetworkRegionLink cmdlet to create the region links and apply appropriate bandwidth policy profiles. For example, run:</span></span>
     
       ```powershell
         New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
@@ -71,36 +73,36 @@ ms.locfileid: "42205588"
 
 <div>
 
-## <a name="to-create-network-region-links-by-using-lync-server-control-panel"></a><span data-ttu-id="004f0-117">使用 Lync Server 控制面板创建网络区域链接</span><span class="sxs-lookup"><span data-stu-id="004f0-117">To create network region links by using Lync Server Control Panel</span></span>
+## <a name="to-create-network-region-links-by-using-lync-server-control-panel"></a><span data-ttu-id="4fb17-117">使用 Lync Server 控制面板创建网络区域链接</span><span class="sxs-lookup"><span data-stu-id="4fb17-117">To create network region links by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="004f0-118">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="004f0-118">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="004f0-119">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="004f0-119">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+1.  <span data-ttu-id="4fb17-118">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="4fb17-118">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="4fb17-119">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="4fb17-119">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  <span data-ttu-id="004f0-120">在左侧导航栏中，单击“网络配置”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="004f0-120">In the left navigation bar, click **Network Configuration**.</span></span>
+2.  <span data-ttu-id="4fb17-120">在左侧导航栏中，单击“网络配置”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4fb17-120">In the left navigation bar, click **Network Configuration**.</span></span>
 
-3.  <span data-ttu-id="004f0-121">单击“区域链接”\*\*\*\* 导航按钮。</span><span class="sxs-lookup"><span data-stu-id="004f0-121">Click the **Region Link** navigation button.</span></span>
+3.  <span data-ttu-id="4fb17-121">单击“区域链接”\*\*\*\* 导航按钮。</span><span class="sxs-lookup"><span data-stu-id="4fb17-121">Click the **Region Link** navigation button.</span></span>
 
-4.  <span data-ttu-id="004f0-122">单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="004f0-122">Click **New**.</span></span>
+4.  <span data-ttu-id="4fb17-122">单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4fb17-122">Click **New**.</span></span>
 
-5.  <span data-ttu-id="004f0-123">在“新建区域链接”\*\*\*\* 页上，单击“名称”\*\*\*\*，然后键入网络区域链接的名称。</span><span class="sxs-lookup"><span data-stu-id="004f0-123">On the **New Region Link** page, click **Name** and then type a name for the network region link.</span></span>
+5.  <span data-ttu-id="4fb17-123">在“新建区域链接”\*\*\*\* 页上，单击“名称”\*\*\*\*，然后键入网络区域链接的名称。</span><span class="sxs-lookup"><span data-stu-id="4fb17-123">On the **New Region Link** page, click **Name** and then type a name for the network region link.</span></span>
 
-6.  <span data-ttu-id="004f0-124">单击 "**网络\#区域 1**"，然后在列表中单击要链接到 "网络区域\#2" 的网络区域。</span><span class="sxs-lookup"><span data-stu-id="004f0-124">Click **Network Region \#1**, and then click the network region in the list that you want to link to Network Region \#2.</span></span>
+6.  <span data-ttu-id="4fb17-124">单击 " **网络区域 \# 1**"，然后在列表中单击要链接到 "网络区域 2" 的网络区域 \# 。</span><span class="sxs-lookup"><span data-stu-id="4fb17-124">Click **Network Region \#1**, and then click the network region in the list that you want to link to Network Region \#2.</span></span>
 
-7.  <span data-ttu-id="004f0-125">单击 "**网络\#区域 2**"，然后在列表中单击要链接到 "网络区域\#1" 的网络区域。</span><span class="sxs-lookup"><span data-stu-id="004f0-125">Click **Network Region \#2**, and then click a network region in the list that you want to link to Network Region \#1.</span></span>
+7.  <span data-ttu-id="4fb17-125">单击 " **网络区域 \# 2**"，然后在列表中单击要链接到 "网络区域 1" 的网络区域 \# 。</span><span class="sxs-lookup"><span data-stu-id="4fb17-125">Click **Network Region \#2**, and then click a network region in the list that you want to link to Network Region \#1.</span></span>
 
-8.  <span data-ttu-id="004f0-126">也可以选择单击“带宽策略”\*\*\*\*，然后选择要应用于网络区域链接的带宽策略配置文件。</span><span class="sxs-lookup"><span data-stu-id="004f0-126">Optionally, click **Bandwidth policy**, and then select the bandwidth policy profile that you want to apply to the network region link.</span></span>
+8.  <span data-ttu-id="4fb17-126">也可以选择单击“带宽策略”\*\*\*\*，然后选择要应用于网络区域链接的带宽策略配置文件。</span><span class="sxs-lookup"><span data-stu-id="4fb17-126">Optionally, click **Bandwidth policy**, and then select the bandwidth policy profile that you want to apply to the network region link.</span></span>
     
     <div class=" ">
     
 
     > [!NOTE]  
-    > <span data-ttu-id="004f0-127">仅在网络区域链接受带宽限制，并且您希望使用 CAC 控制该链接上的媒体流量时，应用带宽策略。</span><span class="sxs-lookup"><span data-stu-id="004f0-127">Apply a bandwidth policy only if the network region link is bandwidth-constrained and you want to use CAC to control media traffic on that link.</span></span>
+    > <span data-ttu-id="4fb17-127">仅在网络区域链接受带宽限制，并且您希望使用 CAC 控制该链接上的媒体流量时，应用带宽策略。</span><span class="sxs-lookup"><span data-stu-id="4fb17-127">Apply a bandwidth policy only if the network region link is bandwidth-constrained and you want to use CAC to control media traffic on that link.</span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="004f0-128">单击“提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="004f0-128">Click **Commit**.</span></span>
+9.  <span data-ttu-id="4fb17-128">单击“提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4fb17-128">Click **Commit**.</span></span>
 
-10. <span data-ttu-id="004f0-129">要为拓扑完成网络区域链接的创建，请使用其他区域的设置重复步骤 4 至 9。</span><span class="sxs-lookup"><span data-stu-id="004f0-129">To finish creating network region links for your topology, repeat steps 4 through 9 with settings for other regions.</span></span>
+10. <span data-ttu-id="4fb17-129">要为拓扑完成网络区域链接的创建，请使用其他区域的设置重复步骤 4 至 9。</span><span class="sxs-lookup"><span data-stu-id="4fb17-129">To finish creating network region links for your topology, repeat steps 4 through 9 with settings for other regions.</span></span>
 
 </div>
 
