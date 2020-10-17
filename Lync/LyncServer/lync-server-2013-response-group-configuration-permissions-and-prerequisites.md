@@ -12,20 +12,22 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8e27d3495ce2152dee67a5f176c4a0d9f7e7f82
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7289b8818a6193efa867ab0a8671abf6d4701f7c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182960"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511739"
 ---
+# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a><span data-ttu-id="17a6e-102">Lync Server 2013 中的响应组配置权限和先决条件</span><span class="sxs-lookup"><span data-stu-id="17a6e-102">Response Group configuration permissions and prerequisites in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a><span data-ttu-id="d5617-102">Lync Server 2013 中的响应组配置权限和先决条件</span><span class="sxs-lookup"><span data-stu-id="d5617-102">Response Group configuration permissions and prerequisites in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42182960"
 
 <span> </span>
 
-<span data-ttu-id="d5617-103">_**上次修改的主题：** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="d5617-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="17a6e-103">_**上次修改的主题：** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="17a6e-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="d5617-p101">响应组是一种企业语音呼叫管理功能。本主题介绍配置响应组、管理凭据和执行配置任务所需权限之前的准备事项。</span><span class="sxs-lookup"><span data-stu-id="d5617-p101">Response Group is an Enterprise Voice call management feature. This topic describes what you need to have in place before you can configure Response Group and the administrative credentials and permissions you need to perform configuration tasks.</span></span>
+<span data-ttu-id="17a6e-p101">响应组是一种企业语音呼叫管理功能。本主题介绍配置响应组、管理凭据和执行配置任务所需权限之前的准备事项。</span><span class="sxs-lookup"><span data-stu-id="17a6e-p101">Response Group is an Enterprise Voice call management feature. This topic describes what you need to have in place before you can configure Response Group and the administrative credentials and permissions you need to perform configuration tasks.</span></span>
 
-<span data-ttu-id="d5617-106">本节假定您已经阅读过与响应组相关的规划文档。</span><span class="sxs-lookup"><span data-stu-id="d5617-106">This section assumes that you have read the planning documentation related to Response Group.</span></span> <span data-ttu-id="d5617-107">有关详细信息，请参阅规划文档中的在[Lync Server 2013 中规划呼叫管理功能](lync-server-2013-planning-for-call-management-features.md)。</span><span class="sxs-lookup"><span data-stu-id="d5617-107">For details, see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md) in the Planning documentation.</span></span>
+<span data-ttu-id="17a6e-106">本节假定您已经阅读过与响应组相关的规划文档。</span><span class="sxs-lookup"><span data-stu-id="17a6e-106">This section assumes that you have read the planning documentation related to Response Group.</span></span> <span data-ttu-id="17a6e-107">有关详细信息，请参阅规划文档中的在 [Lync Server 2013 中规划呼叫管理功能](lync-server-2013-planning-for-call-management-features.md) 。</span><span class="sxs-lookup"><span data-stu-id="17a6e-107">For details, see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md) in the Planning documentation.</span></span>
 
 <div>
 
-## <a name="configuration-tools-and-administrative-roles"></a><span data-ttu-id="d5617-108">配置工具和管理角色</span><span class="sxs-lookup"><span data-stu-id="d5617-108">Configuration Tools and Administrative Roles</span></span>
+## <a name="configuration-tools-and-administrative-roles"></a><span data-ttu-id="17a6e-108">配置工具和管理角色</span><span class="sxs-lookup"><span data-stu-id="17a6e-108">Configuration Tools and Administrative Roles</span></span>
 
-<span data-ttu-id="d5617-109">可以使用以下管理工具配置响应组：</span><span class="sxs-lookup"><span data-stu-id="d5617-109">You can use the following administrative tools to configure Response Group:</span></span>
+<span data-ttu-id="17a6e-109">可以使用以下管理工具配置响应组：</span><span class="sxs-lookup"><span data-stu-id="17a6e-109">You can use the following administrative tools to configure Response Group:</span></span>
 
-  - <span data-ttu-id="d5617-110">Lync 服务器控制面板</span><span class="sxs-lookup"><span data-stu-id="d5617-110">Lync Server Control Panel</span></span>
+  - <span data-ttu-id="17a6e-110">Lync 服务器控制面板</span><span class="sxs-lookup"><span data-stu-id="17a6e-110">Lync Server Control Panel</span></span>
 
-  - <span data-ttu-id="d5617-111">响应组配置工具</span><span class="sxs-lookup"><span data-stu-id="d5617-111">Response Group Configuration Tool</span></span>
+  - <span data-ttu-id="17a6e-111">响应组配置工具</span><span class="sxs-lookup"><span data-stu-id="17a6e-111">Response Group Configuration Tool</span></span>
 
-  - <span data-ttu-id="d5617-112">Lync Server 命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="d5617-112">Lync Server Management Shell</span></span>
+  - <span data-ttu-id="17a6e-112">Lync Server 命令行管理程序</span><span class="sxs-lookup"><span data-stu-id="17a6e-112">Lync Server Management Shell</span></span>
 
-<span data-ttu-id="d5617-113">若要配置响应组，您必须至少成为以下管理角色之一的成员：</span><span class="sxs-lookup"><span data-stu-id="d5617-113">To configure response groups, you must be a member of at least one of the following administrative roles:</span></span>
+<span data-ttu-id="17a6e-113">若要配置响应组，您必须至少成为以下管理角色之一的成员：</span><span class="sxs-lookup"><span data-stu-id="17a6e-113">To configure response groups, you must be a member of at least one of the following administrative roles:</span></span>
 
 
 <table style="width:100%;">
@@ -68,67 +70,67 @@ ms.locfileid: "42182960"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d5617-114"><strong>Active Directory 安全组 (1)</strong></span><span class="sxs-lookup"><span data-stu-id="d5617-114"><strong>Active Directory Security Group (1)</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5617-115">创建工作流</span><span class="sxs-lookup"><span data-stu-id="d5617-115">Create Workflow</span></span></p></td>
-<td><p><span data-ttu-id="d5617-116">分派管理者</span><span class="sxs-lookup"><span data-stu-id="d5617-116">Assign Manager</span></span></p></td>
-<td><p><span data-ttu-id="d5617-117">创建/分派代理、队列</span><span class="sxs-lookup"><span data-stu-id="d5617-117">Create /assign agents, queues</span></span></p></td>
-<td><p><span data-ttu-id="d5617-118">创建/管理假日和工作时间</span><span class="sxs-lookup"><span data-stu-id="d5617-118">Create / manage holiday and business hours</span></span></p></td>
-<td><p><span data-ttu-id="d5617-119">激活/停用工作流</span><span class="sxs-lookup"><span data-stu-id="d5617-119">Activate / deactivate workflow</span></span></p></td>
-<td><p><span data-ttu-id="d5617-120">配置工作流（IVR 或智能寻线）</span><span class="sxs-lookup"><span data-stu-id="d5617-120">Configure workflow (IVR or Hunt Group)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-114"><strong>Active Directory 安全组 (1)</strong></span><span class="sxs-lookup"><span data-stu-id="17a6e-114"><strong>Active Directory Security Group (1)</strong></span></span></p></td>
+<td><p><span data-ttu-id="17a6e-115">创建工作流</span><span class="sxs-lookup"><span data-stu-id="17a6e-115">Create Workflow</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-116">分派管理者</span><span class="sxs-lookup"><span data-stu-id="17a6e-116">Assign Manager</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-117">创建/分派代理、队列</span><span class="sxs-lookup"><span data-stu-id="17a6e-117">Create /assign agents, queues</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-118">创建/管理假日和工作时间</span><span class="sxs-lookup"><span data-stu-id="17a6e-118">Create / manage holiday and business hours</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-119">激活/停用工作流</span><span class="sxs-lookup"><span data-stu-id="17a6e-119">Activate / deactivate workflow</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-120">配置工作流（IVR 或智能寻线）</span><span class="sxs-lookup"><span data-stu-id="17a6e-120">Configure workflow (IVR or Hunt Group)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d5617-121"><strong>CsResponseGroupAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="d5617-121"><strong>CsResponseGroupAdministrator</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5617-122">√</span><span class="sxs-lookup"><span data-stu-id="d5617-122">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-123">√</span><span class="sxs-lookup"><span data-stu-id="d5617-123">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-124">√</span><span class="sxs-lookup"><span data-stu-id="d5617-124">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-125">√</span><span class="sxs-lookup"><span data-stu-id="d5617-125">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-126">√</span><span class="sxs-lookup"><span data-stu-id="d5617-126">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-127">√</span><span class="sxs-lookup"><span data-stu-id="d5617-127">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-121"><strong>CsResponseGroupAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="17a6e-121"><strong>CsResponseGroupAdministrator</strong></span></span></p></td>
+<td><p><span data-ttu-id="17a6e-122">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-122">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-123">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-123">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-124">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-124">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-125">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-125">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-126">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-126">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-127">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-127">√</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d5617-128"><strong>CsResponseGroupManager</strong></span><span class="sxs-lookup"><span data-stu-id="d5617-128"><strong>CsResponseGroupManager</strong></span></span></p></td>
+<td><p><span data-ttu-id="17a6e-128"><strong>CsResponseGroupManager</strong></span><span class="sxs-lookup"><span data-stu-id="17a6e-128"><strong>CsResponseGroupManager</strong></span></span></p></td>
 <td> </td>
-<td><p><span data-ttu-id="d5617-129">√（2）</span><span class="sxs-lookup"><span data-stu-id="d5617-129">√(2)</span></span></p></td>
-<td><p><span data-ttu-id="d5617-130">√（3）</span><span class="sxs-lookup"><span data-stu-id="d5617-130">√(3)</span></span></p></td>
-<td><p><span data-ttu-id="d5617-131">√（3）</span><span class="sxs-lookup"><span data-stu-id="d5617-131">√(3)</span></span></p></td>
-<td><p><span data-ttu-id="d5617-132">√（3）</span><span class="sxs-lookup"><span data-stu-id="d5617-132">√(3)</span></span></p></td>
-<td><p><span data-ttu-id="d5617-133">√（3）</span><span class="sxs-lookup"><span data-stu-id="d5617-133">√(3)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-129">√ (2) </span><span class="sxs-lookup"><span data-stu-id="17a6e-129">√(2)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-130">√ (3) </span><span class="sxs-lookup"><span data-stu-id="17a6e-130">√(3)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-131">√ (3) </span><span class="sxs-lookup"><span data-stu-id="17a6e-131">√(3)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-132">√ (3) </span><span class="sxs-lookup"><span data-stu-id="17a6e-132">√(3)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-133">√ (3) </span><span class="sxs-lookup"><span data-stu-id="17a6e-133">√(3)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d5617-134"><strong>CsVoiceAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="d5617-134"><strong>CsVoiceAdministrator</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5617-135">√</span><span class="sxs-lookup"><span data-stu-id="d5617-135">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-136">√</span><span class="sxs-lookup"><span data-stu-id="d5617-136">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-137">√</span><span class="sxs-lookup"><span data-stu-id="d5617-137">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-138">√</span><span class="sxs-lookup"><span data-stu-id="d5617-138">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-139">√</span><span class="sxs-lookup"><span data-stu-id="d5617-139">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-140">√</span><span class="sxs-lookup"><span data-stu-id="d5617-140">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-134"><strong>CsVoiceAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="17a6e-134"><strong>CsVoiceAdministrator</strong></span></span></p></td>
+<td><p><span data-ttu-id="17a6e-135">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-135">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-136">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-136">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-137">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-137">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-138">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-138">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-139">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-139">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-140">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-140">√</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d5617-141"><strong>CsServerAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="d5617-141"><strong>CsServerAdministrator</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5617-142">√</span><span class="sxs-lookup"><span data-stu-id="d5617-142">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-143">√</span><span class="sxs-lookup"><span data-stu-id="d5617-143">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-144">√</span><span class="sxs-lookup"><span data-stu-id="d5617-144">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-145">√</span><span class="sxs-lookup"><span data-stu-id="d5617-145">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-146">√</span><span class="sxs-lookup"><span data-stu-id="d5617-146">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-147">√</span><span class="sxs-lookup"><span data-stu-id="d5617-147">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-141"><strong>CsServerAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="17a6e-141"><strong>CsServerAdministrator</strong></span></span></p></td>
+<td><p><span data-ttu-id="17a6e-142">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-142">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-143">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-143">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-144">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-144">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-145">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-145">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-146">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-146">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-147">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-147">√</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d5617-148"><strong>CsAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="d5617-148"><strong>CsAdministrator</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5617-149">√</span><span class="sxs-lookup"><span data-stu-id="d5617-149">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-150">√</span><span class="sxs-lookup"><span data-stu-id="d5617-150">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-151">√</span><span class="sxs-lookup"><span data-stu-id="d5617-151">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-152">√</span><span class="sxs-lookup"><span data-stu-id="d5617-152">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-153">√</span><span class="sxs-lookup"><span data-stu-id="d5617-153">√</span></span></p></td>
-<td><p><span data-ttu-id="d5617-154">√</span><span class="sxs-lookup"><span data-stu-id="d5617-154">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-148"><strong>CsAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="17a6e-148"><strong>CsAdministrator</strong></span></span></p></td>
+<td><p><span data-ttu-id="17a6e-149">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-149">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-150">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-150">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-151">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-151">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-152">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-152">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-153">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-153">√</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-154">√</span><span class="sxs-lookup"><span data-stu-id="17a6e-154">√</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d5617-155"><strong>CsViewOnlyAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="d5617-155"><strong>CsViewOnlyAdministrator</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5617-156">√（4）</span><span class="sxs-lookup"><span data-stu-id="d5617-156">√(4)</span></span></p></td>
-<td><p><span data-ttu-id="d5617-157">√（4）</span><span class="sxs-lookup"><span data-stu-id="d5617-157">√(4)</span></span></p></td>
-<td><p><span data-ttu-id="d5617-158">√（4）</span><span class="sxs-lookup"><span data-stu-id="d5617-158">√(4)</span></span></p></td>
-<td><p><span data-ttu-id="d5617-159">√（4）</span><span class="sxs-lookup"><span data-stu-id="d5617-159">√(4)</span></span></p></td>
-<td><p><span data-ttu-id="d5617-160">√（4）</span><span class="sxs-lookup"><span data-stu-id="d5617-160">√(4)</span></span></p></td>
-<td><p><span data-ttu-id="d5617-161">√（4）</span><span class="sxs-lookup"><span data-stu-id="d5617-161">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-155"><strong>CsViewOnlyAdministrator</strong></span><span class="sxs-lookup"><span data-stu-id="17a6e-155"><strong>CsViewOnlyAdministrator</strong></span></span></p></td>
+<td><p><span data-ttu-id="17a6e-156">√ (4) </span><span class="sxs-lookup"><span data-stu-id="17a6e-156">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-157">√ (4) </span><span class="sxs-lookup"><span data-stu-id="17a6e-157">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-158">√ (4) </span><span class="sxs-lookup"><span data-stu-id="17a6e-158">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-159">√ (4) </span><span class="sxs-lookup"><span data-stu-id="17a6e-159">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-160">√ (4) </span><span class="sxs-lookup"><span data-stu-id="17a6e-160">√(4)</span></span></p></td>
+<td><p><span data-ttu-id="17a6e-161">√ (4) </span><span class="sxs-lookup"><span data-stu-id="17a6e-161">√(4)</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -138,7 +140,7 @@ ms.locfileid: "42182960"
 
 
 > [!NOTE]  
-> <span data-ttu-id="d5617-162"><STRONG>（1）</STRONG> Active Directory 域服务用户对象必须是列出的指定 Active directory 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="d5617-162"><STRONG>(1)</STRONG> An Active Directory Domain Services user object must be a member of the specified Active Directory security group listed.</span></span> <span data-ttu-id="d5617-163">管理员或其他委派的 Active Directory 组成员若要将用户添加到安全组（例如，管理员、帐户操作员），必须将用户对象添加到列出的安全组或组中，这样用户才能执行列出的函数。</span><span class="sxs-lookup"><span data-stu-id="d5617-163">An administrator or other delegated Active Directory group member with appropriate permissions to add users to a security group (For example, Administrator, Account Operators) must add a user object to the listed security group or group for the user to be able to perform the functions listed.</span></span> <span data-ttu-id="d5617-164"><STRONG>（2）</STRONG>仅适用于 CsResponseGroupAdministrator 已分配给 CsResponseGroupManager 的工作流。</span><span class="sxs-lookup"><span data-stu-id="d5617-164"><STRONG>(2)</STRONG> Only for workflows that the CsResponseGroupAdministrator has assigned to the CsResponseGroupManager.</span></span> <span data-ttu-id="d5617-165"><STRONG>（3）</STRONG>响应组管理器可以将 CsResponseGroupManager 的另一个成员分配给当前管理者已管理的工作流。</span><span class="sxs-lookup"><span data-stu-id="d5617-165"><STRONG>(3)</STRONG> A Response Group Manager can assign another member of CsResponseGroupManager to a workflow that the current manager already manages.</span></span> <span data-ttu-id="d5617-166"><STRONG>（4）</STRONG> CsViewOnlyAdministrator 只能运行动词 "Get" Lync Server Management Shell cmdlet。</span><span class="sxs-lookup"><span data-stu-id="d5617-166"><STRONG>(4)</STRONG> CsViewOnlyAdministrator can only run verb "Get" Lync Server Management Shell cmdlets.</span></span>
+> <span data-ttu-id="17a6e-162"><STRONG> (1) </STRONG> Active Directory 域服务用户对象必须是所列的指定 Active Directory 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="17a6e-162"><STRONG>(1)</STRONG> An Active Directory Domain Services user object must be a member of the specified Active Directory security group listed.</span></span> <span data-ttu-id="17a6e-163">管理员或其他委派的 Active Directory 组成员，并具有将用户添加到安全组的适当权限 (例如，管理员、帐户操作员) 必须将用户对象添加到列出的安全组或组中，以便用户能够执行列出的函数。</span><span class="sxs-lookup"><span data-stu-id="17a6e-163">An administrator or other delegated Active Directory group member with appropriate permissions to add users to a security group (For example, Administrator, Account Operators) must add a user object to the listed security group or group for the user to be able to perform the functions listed.</span></span> <span data-ttu-id="17a6e-164"><STRONG> (2) </STRONG> 仅适用于 CsResponseGroupAdministrator 已分配给 CsResponseGroupManager 的工作流。</span><span class="sxs-lookup"><span data-stu-id="17a6e-164"><STRONG>(2)</STRONG> Only for workflows that the CsResponseGroupAdministrator has assigned to the CsResponseGroupManager.</span></span> <span data-ttu-id="17a6e-165"><STRONG> (3) </STRONG> 响应组管理器可以将 CsResponseGroupManager 的另一个成员分配给当前管理者已管理的工作流。</span><span class="sxs-lookup"><span data-stu-id="17a6e-165"><STRONG>(3)</STRONG> A Response Group Manager can assign another member of CsResponseGroupManager to a workflow that the current manager already manages.</span></span> <span data-ttu-id="17a6e-166"><STRONG> (4) </STRONG> CsViewOnlyAdministrator 仅可运行动词 "Get" Lync Server Management Shell cmdlet。</span><span class="sxs-lookup"><span data-stu-id="17a6e-166"><STRONG>(4)</STRONG> CsViewOnlyAdministrator can only run verb "Get" Lync Server Management Shell cmdlets.</span></span>
 
 
 
@@ -148,59 +150,59 @@ ms.locfileid: "42182960"
 
 <div>
 
-## <a name="response-group-configuration-prerequisites"></a><span data-ttu-id="d5617-167">响应组配置的先决条件</span><span class="sxs-lookup"><span data-stu-id="d5617-167">Response Group Configuration Prerequisites</span></span>
+## <a name="response-group-configuration-prerequisites"></a><span data-ttu-id="17a6e-167">响应组配置的先决条件</span><span class="sxs-lookup"><span data-stu-id="17a6e-167">Response Group Configuration Prerequisites</span></span>
 
-<span data-ttu-id="d5617-168">响应组需要以下组件：</span><span class="sxs-lookup"><span data-stu-id="d5617-168">Response Group requires the following components:</span></span>
+<span data-ttu-id="17a6e-168">响应组需要以下组件：</span><span class="sxs-lookup"><span data-stu-id="17a6e-168">Response Group requires the following components:</span></span>
 
-  - <span data-ttu-id="d5617-169">应用程序服务</span><span class="sxs-lookup"><span data-stu-id="d5617-169">Application service</span></span>
+  - <span data-ttu-id="17a6e-169">应用程序服务</span><span class="sxs-lookup"><span data-stu-id="17a6e-169">Application service</span></span>
 
-  - <span data-ttu-id="d5617-170">响应组应用程序</span><span class="sxs-lookup"><span data-stu-id="d5617-170">Response Group application</span></span>
+  - <span data-ttu-id="17a6e-170">响应组应用程序</span><span class="sxs-lookup"><span data-stu-id="17a6e-170">Response Group application</span></span>
 
-  - <span data-ttu-id="d5617-171">语言包</span><span class="sxs-lookup"><span data-stu-id="d5617-171">Language packs</span></span>
+  - <span data-ttu-id="17a6e-171">语言包</span><span class="sxs-lookup"><span data-stu-id="17a6e-171">Language packs</span></span>
 
-  - <span data-ttu-id="d5617-172">文件存储（用于保存音频文件）</span><span class="sxs-lookup"><span data-stu-id="d5617-172">File store (to hold audio files)</span></span>
+  - <span data-ttu-id="17a6e-172">文件存储（用于保存音频文件）</span><span class="sxs-lookup"><span data-stu-id="17a6e-172">File store (to hold audio files)</span></span>
 
-  - <span data-ttu-id="d5617-173">Web 服务（包括响应组配置工具和代理的登录和注销控制台）</span><span class="sxs-lookup"><span data-stu-id="d5617-173">Web Services (includes the Response Group Configuration Tool and the agents' sign-in and sign-out console)</span></span>
+  - <span data-ttu-id="17a6e-173">Web 服务 (包括响应组配置工具和代理的登录和注销控制台) </span><span class="sxs-lookup"><span data-stu-id="17a6e-173">Web Services (includes the Response Group Configuration Tool and the agents' sign-in and sign-out console)</span></span>
 
-<span data-ttu-id="d5617-174">部署企业语音时，默认安装上述所有组件。</span><span class="sxs-lookup"><span data-stu-id="d5617-174">All of these components are installed by default when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="17a6e-174">部署企业语音时，默认安装上述所有组件。</span><span class="sxs-lookup"><span data-stu-id="17a6e-174">All of these components are installed by default when you deploy Enterprise Voice.</span></span>
 
-<span data-ttu-id="d5617-175">在配置响应组之前，可能需要执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="d5617-175">You might need to perform the following tasks before configuring Response Group:</span></span>
+<span data-ttu-id="17a6e-175">在配置响应组之前，可能需要执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="17a6e-175">You might need to perform the following tasks before configuring Response Group:</span></span>
 
-  - <span data-ttu-id="d5617-176">为用户启用 Lync Server 2013 和企业语音。</span><span class="sxs-lookup"><span data-stu-id="d5617-176">Enable users for Lync Server 2013 and Enterprise Voice.</span></span>
+  - <span data-ttu-id="17a6e-176">为用户启用 Lync Server 2013 和企业语音。</span><span class="sxs-lookup"><span data-stu-id="17a6e-176">Enable users for Lync Server 2013 and Enterprise Voice.</span></span>
 
-  - <span data-ttu-id="d5617-177">修改配置文件以符合联邦信息处理标准 (FIPS)。</span><span class="sxs-lookup"><span data-stu-id="d5617-177">Modify a configuration file to be compliant with Federal Information Processing Standards (FIPS).</span></span>
+  - <span data-ttu-id="17a6e-177">修改配置文件以符合联邦信息处理标准 (FIPS)。</span><span class="sxs-lookup"><span data-stu-id="17a6e-177">Modify a configuration file to be compliant with Federal Information Processing Standards (FIPS).</span></span>
 
-  - <span data-ttu-id="d5617-178">修改数据库排序规则以支持队列名称和代理组名称的 Yi、Meng 和 Zang 字符。</span><span class="sxs-lookup"><span data-stu-id="d5617-178">Modify the database collation to support Yi, Meng, and Zang characters for queue names and agent group names.</span></span>
+  - <span data-ttu-id="17a6e-178">修改数据库排序规则以支持队列名称和代理组名称的 Yi、Meng 和 Zang 字符。</span><span class="sxs-lookup"><span data-stu-id="17a6e-178">Modify the database collation to support Yi, Meng, and Zang characters for queue names and agent group names.</span></span>
 
 <div>
 
-## <a name="enabling-users"></a><span data-ttu-id="d5617-179">启用用户</span><span class="sxs-lookup"><span data-stu-id="d5617-179">Enabling Users</span></span>
+## <a name="enabling-users"></a><span data-ttu-id="17a6e-179">启用用户</span><span class="sxs-lookup"><span data-stu-id="17a6e-179">Enabling Users</span></span>
 
-<span data-ttu-id="d5617-180">配置响应组的第一步是创建代理组。</span><span class="sxs-lookup"><span data-stu-id="d5617-180">The first step in configuring Response Group is to create agent groups.</span></span> <span data-ttu-id="d5617-181">在创建代理组之前，必须为将成为 Lync Server 2013 和企业语音的响应组的代理启用这些用户。</span><span class="sxs-lookup"><span data-stu-id="d5617-181">Before you can create an agent group, you must enable the users who will be agents for Response Group for Lync Server 2013 and Enterprise Voice.</span></span> <span data-ttu-id="d5617-182">为 Lync Server 2013 启用用户通常是企业版 server 或 Standard Edition server 部署中的一个步骤。</span><span class="sxs-lookup"><span data-stu-id="d5617-182">Enabling users for Lync Server 2013 is typically a step in the Enterprise Edition server or Standard Edition server deployment.</span></span> <span data-ttu-id="d5617-183">有关为用户启用 Lync Server 2013 的详细信息，请参阅[Disable or 重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。</span><span class="sxs-lookup"><span data-stu-id="d5617-183">For details about enabling users for Lync Server 2013, see [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span></span> <span data-ttu-id="d5617-184">为用户启用企业语音通常是企业语音部署中的一个步骤。</span><span class="sxs-lookup"><span data-stu-id="d5617-184">Enabling users for Enterprise Voice is typically a step in the Enterprise Voice deployment.</span></span> <span data-ttu-id="d5617-185">有关详细信息，请参阅[在 Lync Server 2013 中为用户启用企业语音](lync-server-2013-enable-users-for-enterprise-voice.md)。</span><span class="sxs-lookup"><span data-stu-id="d5617-185">For details, see [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span></span>
+<span data-ttu-id="17a6e-180">配置响应组的第一步是创建代理组。</span><span class="sxs-lookup"><span data-stu-id="17a6e-180">The first step in configuring Response Group is to create agent groups.</span></span> <span data-ttu-id="17a6e-181">在创建代理组之前，必须为将成为 Lync Server 2013 和企业语音的响应组的代理启用这些用户。</span><span class="sxs-lookup"><span data-stu-id="17a6e-181">Before you can create an agent group, you must enable the users who will be agents for Response Group for Lync Server 2013 and Enterprise Voice.</span></span> <span data-ttu-id="17a6e-182">为 Lync Server 2013 启用用户通常是企业版 server 或 Standard Edition server 部署中的一个步骤。</span><span class="sxs-lookup"><span data-stu-id="17a6e-182">Enabling users for Lync Server 2013 is typically a step in the Enterprise Edition server or Standard Edition server deployment.</span></span> <span data-ttu-id="17a6e-183">有关为用户启用 Lync Server 2013 的详细信息，请参阅 [Disable or 重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。</span><span class="sxs-lookup"><span data-stu-id="17a6e-183">For details about enabling users for Lync Server 2013, see [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md).</span></span> <span data-ttu-id="17a6e-184">为用户启用企业语音通常是企业语音部署中的一个步骤。</span><span class="sxs-lookup"><span data-stu-id="17a6e-184">Enabling users for Enterprise Voice is typically a step in the Enterprise Voice deployment.</span></span> <span data-ttu-id="17a6e-185">有关详细信息，请参阅 [在 Lync Server 2013 中为用户启用企业语音](lync-server-2013-enable-users-for-enterprise-voice.md)。</span><span class="sxs-lookup"><span data-stu-id="17a6e-185">For details, see [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="complying-with-fips-requirements"></a><span data-ttu-id="d5617-186">符合 FIPS 要求</span><span class="sxs-lookup"><span data-stu-id="d5617-186">Complying with FIPS requirements</span></span>
+## <a name="complying-with-fips-requirements"></a><span data-ttu-id="17a6e-186">符合 FIPS 要求</span><span class="sxs-lookup"><span data-stu-id="17a6e-186">Complying with FIPS requirements</span></span>
 
-<span data-ttu-id="d5617-187">仅当您的组织需要符合联邦信息处理标准 (FIPS) 时，本节才适用。</span><span class="sxs-lookup"><span data-stu-id="d5617-187">This section applies to you only if your organization needs to comply with Federal Information Processing Standards (FIPS).</span></span>
+<span data-ttu-id="17a6e-187">仅当您的组织需要符合联邦信息处理标准 (FIPS) 时，本节才适用。</span><span class="sxs-lookup"><span data-stu-id="17a6e-187">This section applies to you only if your organization needs to comply with Federal Information Processing Standards (FIPS).</span></span>
 
-<span data-ttu-id="d5617-188">要符合 FIPS，安装 Web 服务后需要修改应用程序级别 Web.config 文件，以使用不同的加密算法。</span><span class="sxs-lookup"><span data-stu-id="d5617-188">To be compliant with FIPS, you need to modify the application-level Web.config file to use a different cryptography algorithm after you install Web Services.</span></span> <span data-ttu-id="d5617-189">需要指定 ASP.NET 使用三重数据加密标准 (3DES) 算法，来处理视图状态数据。</span><span class="sxs-lookup"><span data-stu-id="d5617-189">You need to specify that ASP.NET use the Triple Data Encryption Standard (3DES) algorithm to process view state data.</span></span> <span data-ttu-id="d5617-190">对于响应组应用程序，此要求适用于响应组配置工具和代理登录和注销控制台。</span><span class="sxs-lookup"><span data-stu-id="d5617-190">For the Response Group application, this requirement applies to the Response Group Configuration Tool and the agent sign-in and sign-out console.</span></span> <span data-ttu-id="d5617-191">有关此要求的详细信息，请参阅 Microsoft 知识库文章911722。当您访问在从 ASP.NET 1.1 升级到 ASP.NET 2.0 之后启用了 ViewState 的 ASP.NET 网页时，您可能会收到错误消息， [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)"at"。</span><span class="sxs-lookup"><span data-stu-id="d5617-191">For details about this requirement, see Microsoft Knowledge Base article 911722, "You may receive an error message when you access ASP.NET webpages that have ViewState enabled after you upgrade from ASP.NET 1.1 to ASP.NET 2.0," at [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183).</span></span>
+<span data-ttu-id="17a6e-188">要符合 FIPS，安装 Web 服务后需要修改应用程序级别 Web.config 文件，以使用不同的加密算法。</span><span class="sxs-lookup"><span data-stu-id="17a6e-188">To be compliant with FIPS, you need to modify the application-level Web.config file to use a different cryptography algorithm after you install Web Services.</span></span> <span data-ttu-id="17a6e-189">需要指定 ASP.NET 使用三重数据加密标准 (3DES) 算法，来处理视图状态数据。</span><span class="sxs-lookup"><span data-stu-id="17a6e-189">You need to specify that ASP.NET use the Triple Data Encryption Standard (3DES) algorithm to process view state data.</span></span> <span data-ttu-id="17a6e-190">对于响应组应用程序，此要求适用于响应组配置工具和代理登录和注销控制台。</span><span class="sxs-lookup"><span data-stu-id="17a6e-190">For the Response Group application, this requirement applies to the Response Group Configuration Tool and the agent sign-in and sign-out console.</span></span> <span data-ttu-id="17a6e-191">有关此要求的详细信息，请参阅 Microsoft 知识库文章911722。当您访问在从 ASP.NET 1.1 升级到 ASP.NET 2.0 之后启用了 ViewState 的 ASP.NET 网页时，您可能会收到错误消息，"at" [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183) 。</span><span class="sxs-lookup"><span data-stu-id="17a6e-191">For details about this requirement, see Microsoft Knowledge Base article 911722, "You may receive an error message when you access ASP.NET webpages that have ViewState enabled after you upgrade from ASP.NET 1.1 to ASP.NET 2.0," at [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183).</span></span>
 
-<span data-ttu-id="d5617-192">要修改 Web.config 文件，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="d5617-192">To modify the Web.config file, do the following:</span></span>
+<span data-ttu-id="17a6e-192">要修改 Web.config 文件，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="17a6e-192">To modify the Web.config file, do the following:</span></span>
 
-1.  <span data-ttu-id="d5617-193">在文本编辑器（如记事本）中，打开应用程序级别 Web.config 文件。</span><span class="sxs-lookup"><span data-stu-id="d5617-193">In a text editor such as Notepad, open the application-level Web.config file.</span></span>
+1.  <span data-ttu-id="17a6e-193">在文本编辑器（如记事本）中，打开应用程序级别 Web.config 文件。</span><span class="sxs-lookup"><span data-stu-id="17a6e-193">In a text editor such as Notepad, open the application-level Web.config file.</span></span>
 
-2.  <span data-ttu-id="d5617-194">在 web.config 文件中，找到相应的`<system.web>`部分。</span><span class="sxs-lookup"><span data-stu-id="d5617-194">In the Web.config file, locate the `<system.web>` section.</span></span>
+2.  <span data-ttu-id="17a6e-194">在 Web.config 文件中，找到相应的 `<system.web>` 部分。</span><span class="sxs-lookup"><span data-stu-id="17a6e-194">In the Web.config file, locate the `<system.web>` section.</span></span>
 
-3.  <span data-ttu-id="d5617-195">将以下`<machineKey>`部分添加到 "" `<system.web>`部分中的 "" 部分：</span><span class="sxs-lookup"><span data-stu-id="d5617-195">Add the following `<machineKey>` section to in the `<system.web>` section:</span></span>
+3.  <span data-ttu-id="17a6e-195">将以下 `<machineKey>` 部分添加到 "" 部分中的 "" `<system.web>` 部分：</span><span class="sxs-lookup"><span data-stu-id="17a6e-195">Add the following `<machineKey>` section to in the `<system.web>` section:</span></span>
     
         <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
 
-4.  <span data-ttu-id="d5617-196">保存 Web.config 文件。</span><span class="sxs-lookup"><span data-stu-id="d5617-196">Save the Web.config file.</span></span>
+4.  <span data-ttu-id="17a6e-196">保存 Web.config 文件。</span><span class="sxs-lookup"><span data-stu-id="17a6e-196">Save the Web.config file.</span></span>
 
-5.  <span data-ttu-id="d5617-197">通过在命令提示符处运行以下命令来重新启动 Internet Information Services （IIS）服务：</span><span class="sxs-lookup"><span data-stu-id="d5617-197">Restart the Internet Information Services (IIS) service by running the following command at a command prompt:</span></span>
+5.  <span data-ttu-id="17a6e-197">通过在命令提示符处运行以下命令，重新启动 Internet 信息服务 (IIS) 服务：</span><span class="sxs-lookup"><span data-stu-id="17a6e-197">Restart the Internet Information Services (IIS) service by running the following command at a command prompt:</span></span>
     
         iisreset
 
@@ -208,43 +210,43 @@ ms.locfileid: "42182960"
 
 <div>
 
-## <a name="supporting-yi-meng-and-zang-characters"></a><span data-ttu-id="d5617-198">支持 Yi、Meng 和 Zang 字符</span><span class="sxs-lookup"><span data-stu-id="d5617-198">Supporting Yi, Meng, and Zang Characters</span></span>
+## <a name="supporting-yi-meng-and-zang-characters"></a><span data-ttu-id="17a6e-198">支持 Yi、Meng 和 Zang 字符</span><span class="sxs-lookup"><span data-stu-id="17a6e-198">Supporting Yi, Meng, and Zang Characters</span></span>
 
-<span data-ttu-id="d5617-199">仅当您的组织需要支持 Yi、Meng 或 Zang 字符时，本节才适用。</span><span class="sxs-lookup"><span data-stu-id="d5617-199">This section applies to you only if your organization needs to support Yi, Meng, or Zang characters.</span></span>
+<span data-ttu-id="17a6e-199">仅当您的组织需要支持 Yi、Meng 或 Zang 字符时，本节才适用。</span><span class="sxs-lookup"><span data-stu-id="17a6e-199">This section applies to you only if your organization needs to support Yi, Meng, or Zang characters.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d5617-200">若要了解什么是 Yi、Meng 和 Zang 字符以及它们可能对您的部署很重要的原因，请参阅 GB18030 字符集的相关信息<A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>。</span><span class="sxs-lookup"><span data-stu-id="d5617-200">For information on what the Yi, Meng, and Zang characters are and why they may be important to your deployment, see the information on the GB18030 character sets <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>.</span></span>
+> <span data-ttu-id="17a6e-200">若要了解什么是 Yi、Meng 和 Zang 字符以及它们可能对您的部署很重要的原因，请参阅 GB18030 字符集的相关信息 <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A> 。</span><span class="sxs-lookup"><span data-stu-id="17a6e-200">For information on what the Yi, Meng, and Zang characters are and why they may be important to your deployment, see the information on the GB18030 character sets <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="d5617-p106">要支持 Yi、Meng 或 Zang 字符，需要修改 Rgsconfig 数据库的排序规则。在每个 Rgsconfig 数据库的下列各表中更改 **“Name”** 列的排序规则：</span><span class="sxs-lookup"><span data-stu-id="d5617-p106">To support Yi, Meng, or Zang characters, you need to modify the collation for the Rgsconfig database. Change the collation of the **Name** column in the following tables in each Rgsconfig database:</span></span>
+<span data-ttu-id="17a6e-p106">要支持 Yi、Meng 或 Zang 字符，需要修改 Rgsconfig 数据库的排序规则。在每个 Rgsconfig 数据库的下列各表中更改 **“Name”** 列的排序规则：</span><span class="sxs-lookup"><span data-stu-id="17a6e-p106">To support Yi, Meng, or Zang characters, you need to modify the collation for the Rgsconfig database. Change the collation of the **Name** column in the following tables in each Rgsconfig database:</span></span>
 
-  - <span data-ttu-id="d5617-203">所有者.AgentGroups</span><span class="sxs-lookup"><span data-stu-id="d5617-203">dbo.AgentGroups</span></span>
+  - <span data-ttu-id="17a6e-203">所有者.AgentGroups</span><span class="sxs-lookup"><span data-stu-id="17a6e-203">dbo.AgentGroups</span></span>
 
-  - <span data-ttu-id="d5617-204">所有者.BusinessHours</span><span class="sxs-lookup"><span data-stu-id="d5617-204">dbo.BusinessHours</span></span>
+  - <span data-ttu-id="17a6e-204">所有者.BusinessHours</span><span class="sxs-lookup"><span data-stu-id="17a6e-204">dbo.BusinessHours</span></span>
 
-  - <span data-ttu-id="d5617-205">所有者.HolidaySets</span><span class="sxs-lookup"><span data-stu-id="d5617-205">dbo.HolidaySets</span></span>
+  - <span data-ttu-id="17a6e-205">所有者.HolidaySets</span><span class="sxs-lookup"><span data-stu-id="17a6e-205">dbo.HolidaySets</span></span>
 
-  - <span data-ttu-id="d5617-206">所有者.队列</span><span class="sxs-lookup"><span data-stu-id="d5617-206">dbo.Queues</span></span>
+  - <span data-ttu-id="17a6e-206">所有者.队列</span><span class="sxs-lookup"><span data-stu-id="17a6e-206">dbo.Queues</span></span>
 
-  - <span data-ttu-id="d5617-207">所有者.流会</span><span class="sxs-lookup"><span data-stu-id="d5617-207">dbo.Workflows</span></span>
+  - <span data-ttu-id="17a6e-207">所有者.流会</span><span class="sxs-lookup"><span data-stu-id="17a6e-207">dbo.Workflows</span></span>
 
-<span data-ttu-id="d5617-208">对于 SQL Server 2008 R2 和 SQL Server 2012，请使用拉丁语\_通用\_100 （区分重音）排序规则。</span><span class="sxs-lookup"><span data-stu-id="d5617-208">For SQL Server 2008 R2 and SQL Server 2012, use the Latin\_General\_100 (Accent Sensitive) collation.</span></span> <span data-ttu-id="d5617-209">如果使用此排序规则，则所有对象名称不区分大小写。</span><span class="sxs-lookup"><span data-stu-id="d5617-209">If you use this collation, all object names are not case-sensitive.</span></span>
+<span data-ttu-id="17a6e-208">对于 SQL Server 2008 R2 和 SQL Server 2012，请使用拉丁语 \_ 常规 \_ 100 (区分重音) 排序规则。</span><span class="sxs-lookup"><span data-stu-id="17a6e-208">For SQL Server 2008 R2 and SQL Server 2012, use the Latin\_General\_100 (Accent Sensitive) collation.</span></span> <span data-ttu-id="17a6e-209">如果使用此排序规则，则所有对象名称不区分大小写。</span><span class="sxs-lookup"><span data-stu-id="17a6e-209">If you use this collation, all object names are not case-sensitive.</span></span>
 
-<span data-ttu-id="d5617-210">可以使用 Microsoft SQL Server Management Studio 来更改排序规则。</span><span class="sxs-lookup"><span data-stu-id="d5617-210">You can change the collation by using Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="d5617-211">有关使用此工具的详细信息，请参阅中的 "Using SQL Server [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)Management Studio"。</span><span class="sxs-lookup"><span data-stu-id="d5617-211">For details about using this tool, see "Using SQL Server Management Studio" at [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184).</span></span> <span data-ttu-id="d5617-212">执行下列步骤可更改排序规则：</span><span class="sxs-lookup"><span data-stu-id="d5617-212">Follow these steps to change the collation:</span></span>
+<span data-ttu-id="17a6e-210">可以使用 Microsoft SQL Server Management Studio 来更改排序规则。</span><span class="sxs-lookup"><span data-stu-id="17a6e-210">You can change the collation by using Microsoft SQL Server Management Studio.</span></span> <span data-ttu-id="17a6e-211">有关使用此工具的详细信息，请参阅中的 "Using SQL Server Management Studio" [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184) 。</span><span class="sxs-lookup"><span data-stu-id="17a6e-211">For details about using this tool, see "Using SQL Server Management Studio" at [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184).</span></span> <span data-ttu-id="17a6e-212">执行下列步骤可更改排序规则：</span><span class="sxs-lookup"><span data-stu-id="17a6e-212">Follow these steps to change the collation:</span></span>
 
-1.  <span data-ttu-id="d5617-213">确保 SQL Server Management Studio 配置为允许要求重新创建表的更改。</span><span class="sxs-lookup"><span data-stu-id="d5617-213">Be sure that SQL Server Management Studio is configured to allow changes that require tables to be recreated.</span></span> <span data-ttu-id="d5617-214">有关详细信息，请参阅中[https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186)的 "保存（不允许）" 对话框。</span><span class="sxs-lookup"><span data-stu-id="d5617-214">For details, see "Save (Not Permitted) Dialog Box" at [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186).</span></span> <span data-ttu-id="d5617-215">有关设置列排序规则的详细信息，请参阅中[https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185)的 "如何：设置列排序规则（可视化数据库工具）"。</span><span class="sxs-lookup"><span data-stu-id="d5617-215">For details about setting a column collation, see "How to: Set Column Collation (Visual Database Tools)" at [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185).</span></span>
+1.  <span data-ttu-id="17a6e-213">确保 SQL Server Management Studio 配置为允许要求重新创建表的更改。</span><span class="sxs-lookup"><span data-stu-id="17a6e-213">Be sure that SQL Server Management Studio is configured to allow changes that require tables to be recreated.</span></span> <span data-ttu-id="17a6e-214">有关详细信息，请参阅中的 "保存 (不允许) 对话框" [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186) 。</span><span class="sxs-lookup"><span data-stu-id="17a6e-214">For details, see "Save (Not Permitted) Dialog Box" at [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186).</span></span> <span data-ttu-id="17a6e-215">有关设置列排序规则的详细信息，请参阅中的 "如何：设置列排序规则 (可视化数据库工具) " [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185) 。</span><span class="sxs-lookup"><span data-stu-id="17a6e-215">For details about setting a column collation, see "How to: Set Column Collation (Visual Database Tools)" at [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185).</span></span>
 
-2.  <span data-ttu-id="d5617-216">使用 Microsoft SQL Server Management Studio 连接到 Rgsconfig 数据库。</span><span class="sxs-lookup"><span data-stu-id="d5617-216">Using Microsoft SQL Server Management Studio, connect to the Rgsconfig database.</span></span>
+2.  <span data-ttu-id="17a6e-216">使用 Microsoft SQL Server Management Studio 连接到 Rgsconfig 数据库。</span><span class="sxs-lookup"><span data-stu-id="17a6e-216">Using Microsoft SQL Server Management Studio, connect to the Rgsconfig database.</span></span>
 
-3.  <span data-ttu-id="d5617-217">在 Rgsconfig 数据库中查找要更改的表，右键单击该表，然后单击 **“设计”**。</span><span class="sxs-lookup"><span data-stu-id="d5617-217">Find the table you want to change in the Rgsconfig database, right-click the table, and click **Design**.</span></span>
+3.  <span data-ttu-id="17a6e-217">在 Rgsconfig 数据库中查找要更改的表，右键单击该表，然后单击 **“设计”**。</span><span class="sxs-lookup"><span data-stu-id="17a6e-217">Find the table you want to change in the Rgsconfig database, right-click the table, and click **Design**.</span></span>
 
-4.  <span data-ttu-id="d5617-218">更改\*\*\*\*“名称”列的排序规则并保存该表。</span><span class="sxs-lookup"><span data-stu-id="d5617-218">Change the collation of the **Name** column and save the table.</span></span>
+4.  <span data-ttu-id="17a6e-218">更改\*\*\*\*“名称”列的排序规则并保存该表。</span><span class="sxs-lookup"><span data-stu-id="17a6e-218">Change the collation of the **Name** column and save the table.</span></span>
 
 </div>
 
