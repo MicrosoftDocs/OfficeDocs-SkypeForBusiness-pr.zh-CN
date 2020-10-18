@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： tblActivePeers
+description: Lync Server 2013： tblActivePeers。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185176
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c49ddc7a1355e7108f1bcb9c13394dd3305190c9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f274f82a280883e38e8e02409305982b64c18e4a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509549"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573738"
 ---
-# <a name="tblactivepeers-in-lync-server-2013"></a><span data-ttu-id="11206-102">Lync Server 2013 中的 tblActivePeers</span><span class="sxs-lookup"><span data-stu-id="11206-102">tblActivePeers in Lync Server 2013</span></span>
+# <a name="tblactivepeers-in-lync-server-2013"></a><span data-ttu-id="3ce8a-103">Lync Server 2013 中的 tblActivePeers</span><span class="sxs-lookup"><span data-stu-id="3ce8a-103">tblActivePeers in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48509549"
 
 <span> </span>
 
-<span data-ttu-id="11206-103">_**上次修改的主题：** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="11206-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="3ce8a-104">_**上次修改的主题：** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="3ce8a-104">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="11206-104">tblActivePeers 包含聊天服务之间当前对等连接。</span><span class="sxs-lookup"><span data-stu-id="11206-104">tblActivePeers contains the current peer-to-peer connections between chat services.</span></span>
+<span data-ttu-id="3ce8a-105">tblActivePeers 包含聊天服务之间当前对等连接。</span><span class="sxs-lookup"><span data-stu-id="3ce8a-105">tblActivePeers contains the current peer-to-peer connections between chat services.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="11206-105">列数</span><span class="sxs-lookup"><span data-stu-id="11206-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="3ce8a-106">列数</span><span class="sxs-lookup"><span data-stu-id="3ce8a-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,27 +52,27 @@ ms.locfileid: "48509549"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="11206-106">列</span><span class="sxs-lookup"><span data-stu-id="11206-106">Column</span></span></th>
-<th><span data-ttu-id="11206-107">类型</span><span class="sxs-lookup"><span data-stu-id="11206-107">Type</span></span></th>
-<th><span data-ttu-id="11206-108">说明</span><span class="sxs-lookup"><span data-stu-id="11206-108">Description</span></span></th>
+<th><span data-ttu-id="3ce8a-107">列</span><span class="sxs-lookup"><span data-stu-id="3ce8a-107">Column</span></span></th>
+<th><span data-ttu-id="3ce8a-108">类型</span><span class="sxs-lookup"><span data-stu-id="3ce8a-108">Type</span></span></th>
+<th><span data-ttu-id="3ce8a-109">说明</span><span class="sxs-lookup"><span data-stu-id="3ce8a-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="11206-109">aplServerID</span><span class="sxs-lookup"><span data-stu-id="11206-109">aplServerID</span></span></p></td>
-<td><p><span data-ttu-id="11206-110">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="11206-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="11206-111">发布条目的服务器的 ID。</span><span class="sxs-lookup"><span data-stu-id="11206-111">ID of the server that posted the entry.</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-110">aplServerID</span><span class="sxs-lookup"><span data-stu-id="3ce8a-110">aplServerID</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-111">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="3ce8a-111">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-112">发布条目的服务器的 ID。</span><span class="sxs-lookup"><span data-stu-id="3ce8a-112">ID of the server that posted the entry.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11206-112">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="11206-112">aplPeerID</span></span></p></td>
-<td><p><span data-ttu-id="11206-113">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="11206-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="11206-114">发布服务器连接到的对等方的 ID。</span><span class="sxs-lookup"><span data-stu-id="11206-114">ID of the peer that the posting server is connected to.</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-113">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="3ce8a-113">aplPeerID</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-114">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="3ce8a-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-115">发布服务器连接到的对等方的 ID。</span><span class="sxs-lookup"><span data-stu-id="3ce8a-115">ID of the peer that the posting server is connected to.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="11206-115">Keys</span><span class="sxs-lookup"><span data-stu-id="11206-115">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="3ce8a-116">Keys</span><span class="sxs-lookup"><span data-stu-id="3ce8a-116">Keys</span></span>
 
 <table>
 <colgroup>
@@ -80,22 +81,22 @@ ms.locfileid: "48509549"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="11206-116">列</span><span class="sxs-lookup"><span data-stu-id="11206-116">Column</span></span></th>
-<th><span data-ttu-id="11206-117">说明</span><span class="sxs-lookup"><span data-stu-id="11206-117">Description</span></span></th>
+<th><span data-ttu-id="3ce8a-117">列</span><span class="sxs-lookup"><span data-stu-id="3ce8a-117">Column</span></span></th>
+<th><span data-ttu-id="3ce8a-118">说明</span><span class="sxs-lookup"><span data-stu-id="3ce8a-118">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="11206-118">&lt;aplServerID, aplPeerID&gt;</span><span class="sxs-lookup"><span data-stu-id="11206-118">&lt;aplServerID, aplPeerID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="11206-119">主键。</span><span class="sxs-lookup"><span data-stu-id="11206-119">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-119">&lt;aplServerID, aplPeerID&gt;</span><span class="sxs-lookup"><span data-stu-id="3ce8a-119">&lt;aplServerID, aplPeerID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-120">主键。</span><span class="sxs-lookup"><span data-stu-id="3ce8a-120">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11206-120">aplServerID</span><span class="sxs-lookup"><span data-stu-id="11206-120">aplServerID</span></span></p></td>
-<td><p><span data-ttu-id="11206-121">其查找包含在 tblServerIdentity.serverID 表中的外键。</span><span class="sxs-lookup"><span data-stu-id="11206-121">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-121">aplServerID</span><span class="sxs-lookup"><span data-stu-id="3ce8a-121">aplServerID</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-122">其查找包含在 tblServerIdentity.serverID 表中的外键。</span><span class="sxs-lookup"><span data-stu-id="3ce8a-122">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="11206-122">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="11206-122">aplPeerID</span></span></p></td>
-<td><p><span data-ttu-id="11206-123">其查找包含在 tblServerIdentity.serverID 表中的外键。</span><span class="sxs-lookup"><span data-stu-id="11206-123">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-123">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="3ce8a-123">aplPeerID</span></span></p></td>
+<td><p><span data-ttu-id="3ce8a-124">其查找包含在 tblServerIdentity.serverID 表中的外键。</span><span class="sxs-lookup"><span data-stu-id="3ce8a-124">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

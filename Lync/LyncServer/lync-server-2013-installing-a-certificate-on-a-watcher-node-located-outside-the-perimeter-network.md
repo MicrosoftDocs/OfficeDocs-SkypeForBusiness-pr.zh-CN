@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：在位于外围网络外部的观察程序节点上安装证书
+description: Lync Server 2013：在位于外围网络外部的观察程序节点上安装证书。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2bf4519995abf75db7807f8cd80f07ea477c8d4b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 66f40886e9784b5bd4182a60b955745b5daf2034
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498549"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574028"
 ---
-# <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network-of-lync-server-2013"></a><span data-ttu-id="34a4d-102">在 Lync Server 2013 外围网络外部的观察程序节点上安装证书</span><span class="sxs-lookup"><span data-stu-id="34a4d-102">Installing a certificate on a watcher node located outside the perimeter network of Lync Server 2013</span></span>
+# <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network-of-lync-server-2013"></a><span data-ttu-id="eb3a3-103">在 Lync Server 2013 外围网络外部的观察程序节点上安装证书</span><span class="sxs-lookup"><span data-stu-id="eb3a3-103">Installing a certificate on a watcher node located outside the perimeter network of Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48498549"
 
 <span> </span>
 
-<span data-ttu-id="34a4d-103">_**上次修改的主题：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="34a4d-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="eb3a3-104">_**上次修改的主题：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="eb3a3-104">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="34a4d-104">在外围网络中运行的 System Center Operations Manager 代理 (如 Lync Server Edge Server) 、企业外 (（例如外部综合事务观察程序节点) 或跨 Active Directory 域服务信任边界）的情况下，可能需要配置 System Center Operations Manager 网关服务器。</span><span class="sxs-lookup"><span data-stu-id="34a4d-104">System Center Operations Manager agents running in a perimeter network (such as a Lync Server Edge Server), outside of the enterprise (such as an external synthetic transaction watcher node), or across an Active Directory Domain Services trust boundary, might require the configuration of a System Center Operations Manager Gateway Server.</span></span> <span data-ttu-id="34a4d-105">此服务器角色允许与根管理服务器没有信任关系的代理发出警报。</span><span class="sxs-lookup"><span data-stu-id="34a4d-105">This server role allows agents that do not have a trust relationship with the Root Management Server to raise alerts.</span></span> <span data-ttu-id="34a4d-106">有关详细信息，请参阅位于的 System Center Operations Manager TechNet Library 中的 "管理 Operations Manager 2007 中的网关服务器" [https://go.microsoft.com/fwlink/p/?LinkId=268703](https://go.microsoft.com/fwlink/p/?linkid=268703) 。</span><span class="sxs-lookup"><span data-stu-id="34a4d-106">For details, see "Managing Gateway Servers in Operations Manager 2007" in the System Center Operations Manager TechNet Library at [https://go.microsoft.com/fwlink/p/?LinkId=268703](https://go.microsoft.com/fwlink/p/?linkid=268703).</span></span>
+<span data-ttu-id="eb3a3-105">在外围网络中运行的 System Center Operations Manager 代理 (如 Lync Server Edge Server) 、企业外 (（例如外部综合事务观察程序节点) 或跨 Active Directory 域服务信任边界）的情况下，可能需要配置 System Center Operations Manager 网关服务器。</span><span class="sxs-lookup"><span data-stu-id="eb3a3-105">System Center Operations Manager agents running in a perimeter network (such as a Lync Server Edge Server), outside of the enterprise (such as an external synthetic transaction watcher node), or across an Active Directory Domain Services trust boundary, might require the configuration of a System Center Operations Manager Gateway Server.</span></span> <span data-ttu-id="eb3a3-106">此服务器角色允许与根管理服务器没有信任关系的代理发出警报。</span><span class="sxs-lookup"><span data-stu-id="eb3a3-106">This server role allows agents that do not have a trust relationship with the Root Management Server to raise alerts.</span></span> <span data-ttu-id="eb3a3-107">有关详细信息，请参阅位于的 System Center Operations Manager TechNet Library 中的 "管理 Operations Manager 2007 中的网关服务器" [https://go.microsoft.com/fwlink/p/?LinkId=268703](https://go.microsoft.com/fwlink/p/?linkid=268703) 。</span><span class="sxs-lookup"><span data-stu-id="eb3a3-107">For details, see "Managing Gateway Servers in Operations Manager 2007" in the System Center Operations Manager TechNet Library at [https://go.microsoft.com/fwlink/p/?LinkId=268703](https://go.microsoft.com/fwlink/p/?linkid=268703).</span></span>
 
-<span data-ttu-id="34a4d-107">如果在其中一个位置中部署代理，则还需要请求和配置一个允许观察程序节点向 System Center Operations Manager 发送警报的证书。</span><span class="sxs-lookup"><span data-stu-id="34a4d-107">If you deploy an agent in one of these locations, you will also need to request and configure a certificate that enables the watcher node to send alerts to System Center Operations Manager.</span></span> <span data-ttu-id="34a4d-108">为了简化此过程，Operations Manager 团队创建了一系列实用程序，使您能在观察程序节点计算机上请求和安装正确类型的证书。</span><span class="sxs-lookup"><span data-stu-id="34a4d-108">To simplify this process, the Operations Manager team has created a set of utilities that enable you to request and install the correct type of certificate on the watcher node computer.</span></span> <span data-ttu-id="34a4d-109">有关详细信息和下载这些实用程序的详细信息，请参阅中的 "使用证书生成向导获取用于非域加入代理的证书"。中的博客文章 [https://go.microsoft.com/fwlink/p/?LinkId=267421](https://go.microsoft.com/fwlink/p/?linkid=267421) 。</span><span class="sxs-lookup"><span data-stu-id="34a4d-109">For details, and to download these utilities, see the "Obtaining Certificates for Non-Domain Joined Agents Made Easy With Certificate Generation Wizard" blog article at [https://go.microsoft.com/fwlink/p/?LinkId=267421](https://go.microsoft.com/fwlink/p/?linkid=267421).</span></span>
+<span data-ttu-id="eb3a3-108">如果在其中一个位置中部署代理，则还需要请求和配置一个允许观察程序节点向 System Center Operations Manager 发送警报的证书。</span><span class="sxs-lookup"><span data-stu-id="eb3a3-108">If you deploy an agent in one of these locations, you will also need to request and configure a certificate that enables the watcher node to send alerts to System Center Operations Manager.</span></span> <span data-ttu-id="eb3a3-109">为了简化此过程，Operations Manager 团队创建了一系列实用程序，使您能在观察程序节点计算机上请求和安装正确类型的证书。</span><span class="sxs-lookup"><span data-stu-id="eb3a3-109">To simplify this process, the Operations Manager team has created a set of utilities that enable you to request and install the correct type of certificate on the watcher node computer.</span></span> <span data-ttu-id="eb3a3-110">有关详细信息和下载这些实用程序的详细信息，请参阅中的 "使用证书生成向导获取用于非域加入代理的证书"。中的博客文章 [https://go.microsoft.com/fwlink/p/?LinkId=267421](https://go.microsoft.com/fwlink/p/?linkid=267421) 。</span><span class="sxs-lookup"><span data-stu-id="eb3a3-110">For details, and to download these utilities, see the "Obtaining Certificates for Non-Domain Joined Agents Made Easy With Certificate Generation Wizard" blog article at [https://go.microsoft.com/fwlink/p/?LinkId=267421](https://go.microsoft.com/fwlink/p/?linkid=267421).</span></span>
 
 </div>
 

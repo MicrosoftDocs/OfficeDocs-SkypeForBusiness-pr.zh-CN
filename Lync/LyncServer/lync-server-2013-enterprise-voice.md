@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 企业版语音
+description: Lync Server 2013 企业版语音。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185404
 ms.date: 04/08/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39179f1db1c547081e059d9b3ee275c924621cab
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e11f2497cf99319317a75b81f02ed0d8ca797fbf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533169"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574228"
 ---
-# <a name="enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="263e4-102">Lync Server 2013 中的企业语音</span><span class="sxs-lookup"><span data-stu-id="263e4-102">Enterprise Voice in Lync Server 2013</span></span>
+# <a name="enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="6fb97-103">Lync Server 2013 中的企业语音</span><span class="sxs-lookup"><span data-stu-id="6fb97-103">Enterprise Voice in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,77 +38,77 @@ ms.locfileid: "48533169"
 
 <span> </span>
 
-<span data-ttu-id="263e4-103">_**上次修改的主题：** 2015-04-08_</span><span class="sxs-lookup"><span data-stu-id="263e4-103">_**Topic Last Modified:** 2015-04-08_</span></span>
+<span data-ttu-id="6fb97-104">_**上次修改的主题：** 2015-04-08_</span><span class="sxs-lookup"><span data-stu-id="6fb97-104">_**Topic Last Modified:** 2015-04-08_</span></span>
 
-<span data-ttu-id="263e4-104">使用企业语音，Lync Server 可提供独立的 Internet 协议 (VoIP) 产品，以增强或替换传统专用交换机 (PBX) 系统。</span><span class="sxs-lookup"><span data-stu-id="263e4-104">With Enterprise Voice, Lync Server delivers a stand-alone Voice over Internet Protocol (VoIP) offering to enhance or replace traditional private branch exchange (PBX) systems.</span></span> <span data-ttu-id="263e4-105">企业语音用户可以呼叫组织的 VoIP 网络或 PBX 上的同事，也可以呼叫组织外部的传统电话号码。</span><span class="sxs-lookup"><span data-stu-id="263e4-105">Enterprise Voice users can call colleagues on your organization’s VoIP network or PBX, and they can call traditional phone numbers outside your organization.</span></span> <span data-ttu-id="263e4-106">企业语音解决方案包含常见的呼叫功能，如解答、转发、转移、保留、转移、释放和寄存以及增强的 9-1-1 (E9-1-1) 呼叫 (E9-1-1 仅适用于美国。 ) 的企业语音还支持各种当前和较旧的 IP 和 USB 设备。</span><span class="sxs-lookup"><span data-stu-id="263e4-106">The Enterprise Voice solution includes common calling features such as answer, forward, transfer, hold, divert, release and park, and Enhanced 9-1-1 (E9-1-1) calling (E9-1-1 is available only in the United States.) Enterprise Voice also supports a broad range of current and older IP and USB devices.</span></span>
+<span data-ttu-id="6fb97-105">使用企业语音，Lync Server 可提供独立的 Internet 协议 (VoIP) 产品，以增强或替换传统专用交换机 (PBX) 系统。</span><span class="sxs-lookup"><span data-stu-id="6fb97-105">With Enterprise Voice, Lync Server delivers a stand-alone Voice over Internet Protocol (VoIP) offering to enhance or replace traditional private branch exchange (PBX) systems.</span></span> <span data-ttu-id="6fb97-106">企业语音用户可以呼叫组织的 VoIP 网络或 PBX 上的同事，也可以呼叫组织外部的传统电话号码。</span><span class="sxs-lookup"><span data-stu-id="6fb97-106">Enterprise Voice users can call colleagues on your organization’s VoIP network or PBX, and they can call traditional phone numbers outside your organization.</span></span> <span data-ttu-id="6fb97-107">企业语音解决方案包含常见的呼叫功能，如解答、转发、转移、保留、转移、释放和寄存以及增强的 9-1-1 (E9-1-1) 呼叫 (E9-1-1 仅适用于美国。 ) 的企业语音还支持各种当前和较旧的 IP 和 USB 设备。</span><span class="sxs-lookup"><span data-stu-id="6fb97-107">The Enterprise Voice solution includes common calling features such as answer, forward, transfer, hold, divert, release and park, and Enhanced 9-1-1 (E9-1-1) calling (E9-1-1 is available only in the United States.) Enterprise Voice also supports a broad range of current and older IP and USB devices.</span></span>
 
 <div>
 
-## <a name="placing-and-receiving-calls"></a><span data-ttu-id="263e4-107">发起和接收呼叫</span><span class="sxs-lookup"><span data-stu-id="263e4-107">Placing and Receiving Calls</span></span>
+## <a name="placing-and-receiving-calls"></a><span data-ttu-id="6fb97-108">发起和接收呼叫</span><span class="sxs-lookup"><span data-stu-id="6fb97-108">Placing and Receiving Calls</span></span>
 
-<span data-ttu-id="263e4-108">通过使用 Lync，用户可以通过在其键盘上键入姓名或电话号码，或使用屏幕上显示的拨号垫来发出呼叫。</span><span class="sxs-lookup"><span data-stu-id="263e4-108">Using Lync, users can place calls by typing a name or phone number on their keyboard, or using a dial pad displayed on their screen.</span></span> <span data-ttu-id="263e4-109">用户还可以直接从联系人列表中发起呼叫。</span><span class="sxs-lookup"><span data-stu-id="263e4-109">Users can also initiate calls directly from their Contacts list.</span></span> <span data-ttu-id="263e4-110">您还可以部署 Lync Phone Edition 设备，这是由 Microsoft 合作伙伴提供的独立 IP 电话设备。</span><span class="sxs-lookup"><span data-stu-id="263e4-110">You can also deploy Lync Phone Edition devices, which are stand-alone IP phone devices provided by Microsoft partners.</span></span>
+<span data-ttu-id="6fb97-109">通过使用 Lync，用户可以通过在其键盘上键入姓名或电话号码，或使用屏幕上显示的拨号垫来发出呼叫。</span><span class="sxs-lookup"><span data-stu-id="6fb97-109">Using Lync, users can place calls by typing a name or phone number on their keyboard, or using a dial pad displayed on their screen.</span></span> <span data-ttu-id="6fb97-110">用户还可以直接从联系人列表中发起呼叫。</span><span class="sxs-lookup"><span data-stu-id="6fb97-110">Users can also initiate calls directly from their Contacts list.</span></span> <span data-ttu-id="6fb97-111">您还可以部署 Lync Phone Edition 设备，这是由 Microsoft 合作伙伴提供的独立 IP 电话设备。</span><span class="sxs-lookup"><span data-stu-id="6fb97-111">You can also deploy Lync Phone Edition devices, which are stand-alone IP phone devices provided by Microsoft partners.</span></span>
 
-<span data-ttu-id="263e4-111">用户可以使用 Lync Server 注册多个电话设备，并且可以轻松地在它们之间进行切换。</span><span class="sxs-lookup"><span data-stu-id="263e4-111">Users can have multiple phone devices registered with Lync Server, and can switch between them easily.</span></span>
+<span data-ttu-id="6fb97-112">用户可以使用 Lync Server 注册多个电话设备，并且可以轻松地在它们之间进行切换。</span><span class="sxs-lookup"><span data-stu-id="6fb97-112">Users can have multiple phone devices registered with Lync Server, and can switch between them easily.</span></span>
 
-<span data-ttu-id="263e4-112">来电时将同时在用户的所有设备上通知用户，IP 电话设备上将播放可自定义的铃声，PC 上将显示类似即时消息的通知。</span><span class="sxs-lookup"><span data-stu-id="263e4-112">Users are alerted to incoming calls on all their devices simultaneously, with customizable ringtones on IP phone devices and a notification similar to an instant message on their PC.</span></span>
+<span data-ttu-id="6fb97-113">来电时将同时在用户的所有设备上通知用户，IP 电话设备上将播放可自定义的铃声，PC 上将显示类似即时消息的通知。</span><span class="sxs-lookup"><span data-stu-id="6fb97-113">Users are alerted to incoming calls on all their devices simultaneously, with customizable ringtones on IP phone devices and a notification similar to an instant message on their PC.</span></span>
 
-<span data-ttu-id="263e4-113">用户还可以设置与桌面电话、PC 和移动电话连接的单个电话号码，以便能够随时随地接听电话。</span><span class="sxs-lookup"><span data-stu-id="263e4-113">Users can also set a single telephone number that connects to their desk phone, PC and mobile phone, so they can be reached no matter where they are.</span></span>
+<span data-ttu-id="6fb97-114">用户还可以设置与桌面电话、PC 和移动电话连接的单个电话号码，以便能够随时随地接听电话。</span><span class="sxs-lookup"><span data-stu-id="6fb97-114">Users can also set a single telephone number that connects to their desk phone, PC and mobile phone, so they can be reached no matter where they are.</span></span>
 
 </div>
 
 <div>
 
-## <a name="basic-call-features"></a><span data-ttu-id="263e4-114">基本呼叫功能</span><span class="sxs-lookup"><span data-stu-id="263e4-114">Basic Call Features</span></span>
+## <a name="basic-call-features"></a><span data-ttu-id="6fb97-115">基本呼叫功能</span><span class="sxs-lookup"><span data-stu-id="6fb97-115">Basic Call Features</span></span>
 
-<span data-ttu-id="263e4-p103">在通话过程中，用户可以应答其他传入呼叫或发起传出呼叫，现有的活动呼叫将自动置于保持状态。可以直接或在第一个用户与第二个用户私下通话后，将呼叫从一个用户转接至另一个用户。用户还可以将呼叫转接至其他设备；例如，用户在办公室外接听电话时可以将活动呼叫转接至移动电话。</span><span class="sxs-lookup"><span data-stu-id="263e4-p103">While on a call, a user can answer additional incoming calls or initiate outgoing calls, and the existing active call is automatically put on hold. Calls can be transferred from one user to another, either directly or after the first user speaks privately with the second user. Users can also transfer calls to another device; for example, they could transfer an active call to their mobile phone as they walk out the door of their office.</span></span>
-
-</div>
-
-<div>
-
-## <a name="richer-communications"></a><span data-ttu-id="263e4-118">更丰富的通信</span><span class="sxs-lookup"><span data-stu-id="263e4-118">Richer Communications</span></span>
-
-<span data-ttu-id="263e4-119">当使用 Lync 与其他用户对话时，用户可以轻松地向呼叫中添加文本、视频或桌面共享。</span><span class="sxs-lookup"><span data-stu-id="263e4-119">When talking to another user with Lync, users can easily add text, video, or desktop sharing to the call.</span></span> <span data-ttu-id="263e4-120">"请勿打扰" 功能与 Lync 中的状态设置集成在一起。</span><span class="sxs-lookup"><span data-stu-id="263e4-120">The Do-Not-Disturb feature is integrated with the presence settings in Lync.</span></span>
-
-<span data-ttu-id="263e4-121">使用 Exchange 统一消息 (UM) ，Lync 和 Lync Server 与 Microsoft Exchange Server 2013 和 Microsoft Outlook 2013 集成。</span><span class="sxs-lookup"><span data-stu-id="263e4-121">With Exchange Unified Messaging (UM), Lync and Lync Server integrate with Microsoft Exchange Server 2013 and Microsoft Outlook 2013.</span></span> <span data-ttu-id="263e4-122">用户可以查看他们的 Lync 窗口和电子邮件中是否有新的语音邮件。</span><span class="sxs-lookup"><span data-stu-id="263e4-122">Users can see if they have new voice mail both in their Lync window and in email.</span></span> <span data-ttu-id="263e4-123">在电子邮件中，用户可以通过单击播放电子邮件中的语音邮件音频，或查看语音邮件的脚本。</span><span class="sxs-lookup"><span data-stu-id="263e4-123">While in email they can click to play the voice mail audio in an email message, or view a transcript of the voice mail message.</span></span>
+<span data-ttu-id="6fb97-p103">在通话过程中，用户可以应答其他传入呼叫或发起传出呼叫，现有的活动呼叫将自动置于保持状态。可以直接或在第一个用户与第二个用户私下通话后，将呼叫从一个用户转接至另一个用户。用户还可以将呼叫转接至其他设备；例如，用户在办公室外接听电话时可以将活动呼叫转接至移动电话。</span><span class="sxs-lookup"><span data-stu-id="6fb97-p103">While on a call, a user can answer additional incoming calls or initiate outgoing calls, and the existing active call is automatically put on hold. Calls can be transferred from one user to another, either directly or after the first user speaks privately with the second user. Users can also transfer calls to another device; for example, they could transfer an active call to their mobile phone as they walk out the door of their office.</span></span>
 
 </div>
 
 <div>
 
-## <a name="advanced-calling-features"></a><span data-ttu-id="263e4-124">高级呼叫功能</span><span class="sxs-lookup"><span data-stu-id="263e4-124">Advanced Calling Features</span></span>
+## <a name="richer-communications"></a><span data-ttu-id="6fb97-119">更丰富的通信</span><span class="sxs-lookup"><span data-stu-id="6fb97-119">Richer Communications</span></span>
 
-<span data-ttu-id="263e4-125">企业语音还包括几种高级呼叫功能，如 Lync 呼叫委派、团队呼叫、组呼叫应答和响应组。</span><span class="sxs-lookup"><span data-stu-id="263e4-125">Enterprise Voice includes several advanced calling features as well, such as Lync call delegation, team calling, Group Call Pickup, and Response Groups.</span></span>
+<span data-ttu-id="6fb97-120">当使用 Lync 与其他用户对话时，用户可以轻松地向呼叫中添加文本、视频或桌面共享。</span><span class="sxs-lookup"><span data-stu-id="6fb97-120">When talking to another user with Lync, users can easily add text, video, or desktop sharing to the call.</span></span> <span data-ttu-id="6fb97-121">"请勿打扰" 功能与 Lync 中的状态设置集成在一起。</span><span class="sxs-lookup"><span data-stu-id="6fb97-121">The Do-Not-Disturb feature is integrated with the presence settings in Lync.</span></span>
 
-<span data-ttu-id="263e4-126">通过 Lync 呼叫委派，用户可以将呼叫处理委派给一个或多个助理，方法是转到 " **工具**" \> **选项**" \> **呼叫转接设置**"。</span><span class="sxs-lookup"><span data-stu-id="263e4-126">Lync call delegation enables users to delegate call handling to one or more assistants, by going to **Tools** \> **Options** \> **Call Forwarding Settings**.</span></span> <span data-ttu-id="263e4-127">代理人可以代表用户执行多项呼叫任务，包括筛选呼叫、发起呼叫和发起会议。</span><span class="sxs-lookup"><span data-stu-id="263e4-127">The delegate can perform multiple calling tasks on behalf of the user, including screening calls, placing calls, and initiating conferences.</span></span>
+<span data-ttu-id="6fb97-122">使用 Exchange 统一消息 (UM) ，Lync 和 Lync Server 与 Microsoft Exchange Server 2013 和 Microsoft Outlook 2013 集成。</span><span class="sxs-lookup"><span data-stu-id="6fb97-122">With Exchange Unified Messaging (UM), Lync and Lync Server integrate with Microsoft Exchange Server 2013 and Microsoft Outlook 2013.</span></span> <span data-ttu-id="6fb97-123">用户可以查看他们的 Lync 窗口和电子邮件中是否有新的语音邮件。</span><span class="sxs-lookup"><span data-stu-id="6fb97-123">Users can see if they have new voice mail both in their Lync window and in email.</span></span> <span data-ttu-id="6fb97-124">在电子邮件中，用户可以通过单击播放电子邮件中的语音邮件音频，或查看语音邮件的脚本。</span><span class="sxs-lookup"><span data-stu-id="6fb97-124">While in email they can click to play the voice mail audio in an email message, or view a transcript of the voice mail message.</span></span>
+
+</div>
+
+<div>
+
+## <a name="advanced-calling-features"></a><span data-ttu-id="6fb97-125">高级呼叫功能</span><span class="sxs-lookup"><span data-stu-id="6fb97-125">Advanced Calling Features</span></span>
+
+<span data-ttu-id="6fb97-126">企业语音还包括几种高级呼叫功能，如 Lync 呼叫委派、团队呼叫、组呼叫应答和响应组。</span><span class="sxs-lookup"><span data-stu-id="6fb97-126">Enterprise Voice includes several advanced calling features as well, such as Lync call delegation, team calling, Group Call Pickup, and Response Groups.</span></span>
+
+<span data-ttu-id="6fb97-127">通过 Lync 呼叫委派，用户可以将呼叫处理委派给一个或多个助理，方法是转到 " **工具**" \> **选项**" \> **呼叫转接设置**"。</span><span class="sxs-lookup"><span data-stu-id="6fb97-127">Lync call delegation enables users to delegate call handling to one or more assistants, by going to **Tools** \> **Options** \> **Call Forwarding Settings**.</span></span> <span data-ttu-id="6fb97-128">代理人可以代表用户执行多项呼叫任务，包括筛选呼叫、发起呼叫和发起会议。</span><span class="sxs-lookup"><span data-stu-id="6fb97-128">The delegate can perform multiple calling tasks on behalf of the user, including screening calls, placing calls, and initiating conferences.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="263e4-128">您可能正在寻找其他名称相似的功能，即 Lync 日历委派。</span><span class="sxs-lookup"><span data-stu-id="263e4-128">You may be looking for another similarly named feature, Lync calendar delegation.</span></span> <span data-ttu-id="263e4-129">它不需要企业语音功能，允许用户安排 Outlook 中的联机 Lync 会议。</span><span class="sxs-lookup"><span data-stu-id="263e4-129">It doesn't require the Enterprise Voice feature and does allow users to schedule online Lync meetings from Outlook.</span></span> <span data-ttu-id="263e4-130">如果你已经在这里查找此信息，我们建议检查 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">set-csclientpolicy</A> 以了解有关启用 Exchange 委派同步的信息。</span><span class="sxs-lookup"><span data-stu-id="263e4-130">If you've come here looking for that info, we recommend checking out <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A> for information on enabling Exchange delegate sync.</span></span>
+> <span data-ttu-id="6fb97-129">您可能正在寻找其他名称相似的功能，即 Lync 日历委派。</span><span class="sxs-lookup"><span data-stu-id="6fb97-129">You may be looking for another similarly named feature, Lync calendar delegation.</span></span> <span data-ttu-id="6fb97-130">它不需要企业语音功能，允许用户安排 Outlook 中的联机 Lync 会议。</span><span class="sxs-lookup"><span data-stu-id="6fb97-130">It doesn't require the Enterprise Voice feature and does allow users to schedule online Lync meetings from Outlook.</span></span> <span data-ttu-id="6fb97-131">如果你已经在这里查找此信息，我们建议检查 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">set-csclientpolicy</A> 以了解有关启用 Exchange 委派同步的信息。</span><span class="sxs-lookup"><span data-stu-id="6fb97-131">If you've come here looking for that info, we recommend checking out <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A> for information on enabling Exchange delegate sync.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="263e4-131">团队呼叫使用户可以让传入呼叫同时拨打团队的电话，以便团队中的任何人都能接听呼叫。</span><span class="sxs-lookup"><span data-stu-id="263e4-131">Team calling enables a user to have incoming calls simultaneously ring the phones of teammates so that anyone on the team can answer the call.</span></span>
+<span data-ttu-id="6fb97-132">团队呼叫使用户可以让传入呼叫同时拨打团队的电话，以便团队中的任何人都能接听呼叫。</span><span class="sxs-lookup"><span data-stu-id="6fb97-132">Team calling enables a user to have incoming calls simultaneously ring the phones of teammates so that anyone on the team can answer the call.</span></span>
 
-<span data-ttu-id="263e4-132">组呼叫应答（Lync Server 2013 的累积更新中的新功能：2月2013）允许用户将传入呼叫从其自己的电话应答给其同事。</span><span class="sxs-lookup"><span data-stu-id="263e4-132">Group Call Pickup, a new feature in Cumulative Updates for Lync Server 2013: February 2013, lets users answer incoming calls to their colleagues from their own phones.</span></span> <span data-ttu-id="263e4-133">组内呼叫应答与团队呼叫的不同之处在于，在预期收件人的电话中，传入呼叫只会响铃，但任何其他用户都可以通过拨打呼叫应答组号码来选择应答。</span><span class="sxs-lookup"><span data-stu-id="263e4-133">Group Call Pickup differs from team calling primarily in that an incoming call rings only at the intended recipient's phone, but any other user can choose to answer it by dialing a call pickup group number.</span></span>
+<span data-ttu-id="6fb97-133">组呼叫应答（Lync Server 2013 的累积更新中的新功能：2月2013）允许用户将传入呼叫从其自己的电话应答给其同事。</span><span class="sxs-lookup"><span data-stu-id="6fb97-133">Group Call Pickup, a new feature in Cumulative Updates for Lync Server 2013: February 2013, lets users answer incoming calls to their colleagues from their own phones.</span></span> <span data-ttu-id="6fb97-134">组内呼叫应答与团队呼叫的不同之处在于，在预期收件人的电话中，传入呼叫只会响铃，但任何其他用户都可以通过拨打呼叫应答组号码来选择应答。</span><span class="sxs-lookup"><span data-stu-id="6fb97-134">Group Call Pickup differs from team calling primarily in that an incoming call rings only at the intended recipient's phone, but any other user can choose to answer it by dialing a call pickup group number.</span></span>
 
-<span data-ttu-id="263e4-p109">可以对响应组进行设置，以便将呼叫排队并智能路由至指定的代理。常见用途包括 IT 技术支持、人力资源热线和其他内部联络中心。</span><span class="sxs-lookup"><span data-stu-id="263e4-p109">Response Groups can be set up for queuing and intelligently routing calls to designated agents. Common uses include IT helpdesks, human resources hotlines, and other internal contact centers.</span></span>
+<span data-ttu-id="6fb97-p109">可以对响应组进行设置，以便将呼叫排队并智能路由至指定的代理。常见用途包括 IT 技术支持、人力资源热线和其他内部联络中心。</span><span class="sxs-lookup"><span data-stu-id="6fb97-p109">Response Groups can be set up for queuing and intelligently routing calls to designated agents. Common uses include IT helpdesks, human resources hotlines, and other internal contact centers.</span></span>
 
 </div>
 
 <div>
 
-## <a name="enterprise-voice-administration"></a><span data-ttu-id="263e4-136">企业语音管理</span><span class="sxs-lookup"><span data-stu-id="263e4-136">Enterprise Voice Administration</span></span>
+## <a name="enterprise-voice-administration"></a><span data-ttu-id="6fb97-137">企业语音管理</span><span class="sxs-lookup"><span data-stu-id="6fb97-137">Enterprise Voice Administration</span></span>
 
-<span data-ttu-id="263e4-137">Lync Server 使用标准和已发布的接口与现有的基础结构进行互操作。</span><span class="sxs-lookup"><span data-stu-id="263e4-137">Lync Server uses standards and published interfaces to interoperate with existing infrastructure.</span></span> <span data-ttu-id="263e4-138">它支持用于与 IP PBX 系统和 PSTN 网络进行互联的网关和 SIP 选项（如 SIP 中继），以便以后可以将用户迁移至企业语音，同时最大限度地减少中断。</span><span class="sxs-lookup"><span data-stu-id="263e4-138">It supports both gateway and SIP options (such as SIP trunking) for interconnection to IP PBX systems and the PSTN networks, so that you can migrate users to Enterprise Voice over time, while minimizing disruption.</span></span> <span data-ttu-id="263e4-139">Lync Server 支持传统的编解码器，如 g.711、g.722 和 g.723.1，以实现与传统 VoIP 解决方案的互操作性。</span><span class="sxs-lookup"><span data-stu-id="263e4-139">Lync Server supports traditional codecs such as G.711, G.722, and G.723.1 for interoperability with traditional VoIP solutions.</span></span>
+<span data-ttu-id="6fb97-138">Lync Server 使用标准和已发布的接口与现有的基础结构进行互操作。</span><span class="sxs-lookup"><span data-stu-id="6fb97-138">Lync Server uses standards and published interfaces to interoperate with existing infrastructure.</span></span> <span data-ttu-id="6fb97-139">它支持用于与 IP PBX 系统和 PSTN 网络进行互联的网关和 SIP 选项（如 SIP 中继），以便以后可以将用户迁移至企业语音，同时最大限度地减少中断。</span><span class="sxs-lookup"><span data-stu-id="6fb97-139">It supports both gateway and SIP options (such as SIP trunking) for interconnection to IP PBX systems and the PSTN networks, so that you can migrate users to Enterprise Voice over time, while minimizing disruption.</span></span> <span data-ttu-id="6fb97-140">Lync Server 支持传统的编解码器，如 g.711、g.722 和 g.723.1，以实现与传统 VoIP 解决方案的互操作性。</span><span class="sxs-lookup"><span data-stu-id="6fb97-140">Lync Server supports traditional codecs such as G.711, G.722, and G.723.1 for interoperability with traditional VoIP solutions.</span></span>
 
-<span data-ttu-id="263e4-140">通过呼叫允许控制 (CAC) ，管理员可以对受约束的网络链接上传输的 Lync Server 语音和视频流量设置限制，并指定在新呼叫超过限制时要采取的操作。</span><span class="sxs-lookup"><span data-stu-id="263e4-140">With call admission control (CAC), administrators can set limits on the amount of Lync Server voice and video traffic carried on constrained network links, and specify the action to be taken if a new call would exceed the limit.</span></span> <span data-ttu-id="263e4-141">这些操作包括使用备用路径路由或拒绝呼叫。</span><span class="sxs-lookup"><span data-stu-id="263e4-141">The actions could include routing by an alternate path, or refusing the call.</span></span>
+<span data-ttu-id="6fb97-141">通过呼叫允许控制 (CAC) ，管理员可以对受约束的网络链接上传输的 Lync Server 语音和视频流量设置限制，并指定在新呼叫超过限制时要采取的操作。</span><span class="sxs-lookup"><span data-stu-id="6fb97-141">With call admission control (CAC), administrators can set limits on the amount of Lync Server voice and video traffic carried on constrained network links, and specify the action to be taken if a new call would exceed the limit.</span></span> <span data-ttu-id="6fb97-142">这些操作包括使用备用路径路由或拒绝呼叫。</span><span class="sxs-lookup"><span data-stu-id="6fb97-142">The actions could include routing by an alternate path, or refusing the call.</span></span>
 
-<span data-ttu-id="263e4-142">Lync Server 与第三方 Survivable 分支装置配合使用，以提供本地呼叫服务并连接到分支机构的 PSTN，以防 WAN 在中央站点出现故障。</span><span class="sxs-lookup"><span data-stu-id="263e4-142">Lync Server works with third-party Survivable Branch Appliances to provide local calling services and connection to PSTN at branch offices, in case of WAN failure at the central site.</span></span>
+<span data-ttu-id="6fb97-143">Lync Server 与第三方 Survivable 分支装置配合使用，以提供本地呼叫服务并连接到分支机构的 PSTN，以防 WAN 在中央站点出现故障。</span><span class="sxs-lookup"><span data-stu-id="6fb97-143">Lync Server works with third-party Survivable Branch Appliances to provide local calling services and connection to PSTN at branch offices, in case of WAN failure at the central site.</span></span>
 
 </div>
 

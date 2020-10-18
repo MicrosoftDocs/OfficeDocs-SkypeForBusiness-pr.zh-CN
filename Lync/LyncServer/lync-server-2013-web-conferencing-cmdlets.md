@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： Web 会议 cmdlet
+description: Lync Server 2013： Web 会议 cmdlet。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a387760cbb7770a199b85c0e891c510fbdb2e72b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: be86ff4487dcd2cdc79499a81e2454d7629ea49e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535389"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573618"
 ---
-# <a name="web-conferencing-cmdlets-in-lync-server-2013"></a><span data-ttu-id="5eca6-102">Lync Server 2013 中的 Web 会议 cmdlet</span><span class="sxs-lookup"><span data-stu-id="5eca6-102">Web conferencing cmdlets in Lync Server 2013</span></span>
+# <a name="web-conferencing-cmdlets-in-lync-server-2013"></a><span data-ttu-id="095c5-103">Lync Server 2013 中的 Web 会议 cmdlet</span><span class="sxs-lookup"><span data-stu-id="095c5-103">Web conferencing cmdlets in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,117 +38,117 @@ ms.locfileid: "48535389"
 
 <span> </span>
 
-<span data-ttu-id="5eca6-103">_**上次修改的主题：** 2013-07-29_</span><span class="sxs-lookup"><span data-stu-id="5eca6-103">_**Topic Last Modified:** 2013-07-29_</span></span>
+<span data-ttu-id="095c5-104">_**上次修改的主题：** 2013-07-29_</span><span class="sxs-lookup"><span data-stu-id="095c5-104">_**Topic Last Modified:** 2013-07-29_</span></span>
 
-<span data-ttu-id="5eca6-104">会议和联机会议是 Microsoft Lync Server 2013 中的重要元素。</span><span class="sxs-lookup"><span data-stu-id="5eca6-104">Conferencing and online meetings are important elements in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="5eca6-105">CsConferencingConfiguration 和 Set-csconferencingpolicy cmdlet 是使用 Windows PowerShell 管理会议的主要管理工具。</span><span class="sxs-lookup"><span data-stu-id="5eca6-105">The CsConferencingConfiguration and CsConferencingPolicy cmdlets are the primary administrative tools for managing conferences by using Windows PowerShell.</span></span>
+<span data-ttu-id="095c5-105">会议和联机会议是 Microsoft Lync Server 2013 中的重要元素。</span><span class="sxs-lookup"><span data-stu-id="095c5-105">Conferencing and online meetings are important elements in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="095c5-106">CsConferencingConfiguration 和 Set-csconferencingpolicy cmdlet 是使用 Windows PowerShell 管理会议的主要管理工具。</span><span class="sxs-lookup"><span data-stu-id="095c5-106">The CsConferencingConfiguration and CsConferencingPolicy cmdlets are the primary administrative tools for managing conferences by using Windows PowerShell.</span></span>
 
 <div>
 
-## <a name="web-conferencing-cmdlets"></a><span data-ttu-id="5eca6-106">Web Conferencing Cmdlets</span><span class="sxs-lookup"><span data-stu-id="5eca6-106">Web Conferencing Cmdlets</span></span>
+## <a name="web-conferencing-cmdlets"></a><span data-ttu-id="095c5-107">Web Conferencing Cmdlets</span><span class="sxs-lookup"><span data-stu-id="095c5-107">Web Conferencing Cmdlets</span></span>
 
-<span data-ttu-id="5eca6-107">[Set-csclientpolicy](https://technet.microsoft.com/library/Gg425949(v=OCS.15))和[set-csclientpolicy](https://technet.microsoft.com/library/Gg398300(v=OCS.15)) cmdlet 提供了其他配置和管理 Lync Server 2013 的方法。</span><span class="sxs-lookup"><span data-stu-id="5eca6-107">The [New-CsClientPolicy](https://technet.microsoft.com/library/Gg425949(v=OCS.15)) and [Set-CsClientPolicy](https://technet.microsoft.com/library/Gg398300(v=OCS.15)) cmdlets provide additional ways to configure and manage Lync Server 2013.</span></span>
+<span data-ttu-id="095c5-108">[Set-csclientpolicy](https://technet.microsoft.com/library/Gg425949(v=OCS.15))和[set-csclientpolicy](https://technet.microsoft.com/library/Gg398300(v=OCS.15)) cmdlet 提供了其他配置和管理 Lync Server 2013 的方法。</span><span class="sxs-lookup"><span data-stu-id="095c5-108">The [New-CsClientPolicy](https://technet.microsoft.com/library/Gg425949(v=OCS.15)) and [Set-CsClientPolicy](https://technet.microsoft.com/library/Gg398300(v=OCS.15)) cmdlets provide additional ways to configure and manage Lync Server 2013.</span></span>
 
-<span data-ttu-id="5eca6-108">**Web 会议**</span><span class="sxs-lookup"><span data-stu-id="5eca6-108">**Web Conferencing**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="5eca6-109">[CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg425714(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-109">[Get-CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg425714(v=OCS.15))</span></span>
+<span data-ttu-id="095c5-109">**Web 会议**</span><span class="sxs-lookup"><span data-stu-id="095c5-109">**Web Conferencing**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-110">[CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg398243(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-110">[Remove-CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg398243(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-110">[CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg425714(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-110">[Get-CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg425714(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-111">[CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg398776(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-111">[Set-CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg398776(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-111">[CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg398243(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-111">[Remove-CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg398243(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="095c5-112">[CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg398776(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-112">[Set-CsConferenceDisclaimer](https://technet.microsoft.com/library/Gg398776(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5eca6-112">[CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-112">[Set-CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-113">[CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-113">[Set-CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5eca6-113">[CsConferencingConfiguration](https://technet.microsoft.com/library/Gg398965(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-113">[Get-CsConferencingConfiguration](https://technet.microsoft.com/library/Gg398965(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-114">[CsConferencingConfiguration](https://technet.microsoft.com/library/Gg398965(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-114">[Get-CsConferencingConfiguration](https://technet.microsoft.com/library/Gg398965(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-114">[新 CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412967(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-114">[New-CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412967(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-115">[新 CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412967(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-115">[New-CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412967(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-115">[CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412767(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-115">[Remove-CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412767(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-116">[CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412767(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-116">[Remove-CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412767(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-116">[CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412969(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-116">[Set-CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412969(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-117">[CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412969(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-117">[Set-CsConferencingConfiguration](https://technet.microsoft.com/library/Gg412969(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5eca6-117">[Set-csconferencingpolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-117">[Get-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-118">[Set-csconferencingpolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-118">[Get-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398293(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-118">[Grant-Set-csconferencingpolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-118">[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-119">[Grant-Set-csconferencingpolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-119">[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/Gg425937(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-119">[新 Set-csconferencingpolicy](https://technet.microsoft.com/library/Gg413019(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-119">[New-CsConferencingPolicy](https://technet.microsoft.com/library/Gg413019(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-120">[新 Set-csconferencingpolicy](https://technet.microsoft.com/library/Gg413019(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-120">[New-CsConferencingPolicy](https://technet.microsoft.com/library/Gg413019(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-120">[Set-csconferencingpolicy](https://technet.microsoft.com/library/Gg398728(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-120">[Remove-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398728(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-121">[Set-csconferencingpolicy](https://technet.microsoft.com/library/Gg398728(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-121">[Remove-CsConferencingPolicy](https://technet.microsoft.com/library/Gg398728(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-121">[Set-csconferencingpolicy](https://technet.microsoft.com/library/Gg425788(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-121">[Set-CsConferencingPolicy](https://technet.microsoft.com/library/Gg425788(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-122">[Set-csconferencingpolicy](https://technet.microsoft.com/library/Gg425788(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-122">[Set-CsConferencingPolicy](https://technet.microsoft.com/library/Gg425788(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5eca6-122">[Get-csmeetingconfiguration](https://technet.microsoft.com/library/Gg425875(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-122">[Get-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg425875(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-123">[Get-csmeetingconfiguration](https://technet.microsoft.com/library/Gg425875(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-123">[Get-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg425875(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-123">[新 Get-csmeetingconfiguration](https://technet.microsoft.com/library/Gg398065(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-123">[New-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398065(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-124">[新 Get-csmeetingconfiguration](https://technet.microsoft.com/library/Gg398065(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-124">[New-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398065(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-124">[Get-csmeetingconfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-124">[Remove-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-125">[Get-csmeetingconfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-125">[Remove-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-125">[Get-csmeetingconfiguration](https://technet.microsoft.com/library/Gg398648(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-125">[Set-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398648(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-126">[Get-csmeetingconfiguration](https://technet.microsoft.com/library/Gg398648(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-126">[Set-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg398648(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="5eca6-126">[Disable-Disable-csmeetingroom](https://technet.microsoft.com/library/JJ204723(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-126">[Disable-CsMeetingRoom](https://technet.microsoft.com/library/JJ204723(v=OCS.15))</span></span>
+  - <span data-ttu-id="095c5-127">[Disable-Disable-csmeetingroom](https://technet.microsoft.com/library/JJ204723(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-127">[Disable-CsMeetingRoom](https://technet.microsoft.com/library/JJ204723(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="5eca6-127">[Enable-Disable-csmeetingroom](https://technet.microsoft.com/library/JJ205062(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-127">[Enable-CsMeetingRoom](https://technet.microsoft.com/library/JJ205062(v=OCS.15))</span></span>
+  - <span data-ttu-id="095c5-128">[Enable-Disable-csmeetingroom](https://technet.microsoft.com/library/JJ205062(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-128">[Enable-CsMeetingRoom](https://technet.microsoft.com/library/JJ205062(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="5eca6-128">[Disable-csmeetingroom](https://technet.microsoft.com/library/JJ205277(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-128">[Get-CsMeetingRoom](https://technet.microsoft.com/library/JJ205277(v=OCS.15))</span></span>
+  - <span data-ttu-id="095c5-129">[Disable-csmeetingroom](https://technet.microsoft.com/library/JJ205277(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-129">[Get-CsMeetingRoom](https://technet.microsoft.com/library/JJ205277(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="5eca6-129">[移动-Disable-csmeetingroom](https://technet.microsoft.com/library/JJ204889(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-129">[Move-CsMeetingRoom](https://technet.microsoft.com/library/JJ204889(v=OCS.15))</span></span>
+  - <span data-ttu-id="095c5-130">[移动-Disable-csmeetingroom](https://technet.microsoft.com/library/JJ204889(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-130">[Move-CsMeetingRoom](https://technet.microsoft.com/library/JJ204889(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="5eca6-130">[Disable-csmeetingroom](https://technet.microsoft.com/library/JJ204831(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-130">[Set-CsMeetingRoom](https://technet.microsoft.com/library/JJ204831(v=OCS.15))</span></span>
+  - <span data-ttu-id="095c5-131">[Disable-csmeetingroom](https://technet.microsoft.com/library/JJ204831(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-131">[Set-CsMeetingRoom](https://technet.microsoft.com/library/JJ204831(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="5eca6-131">[Test-CsASConference](https://technet.microsoft.com/library/JJ205227(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-131">[Test-CsASConference](https://technet.microsoft.com/library/JJ205227(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-132">[Test-CsASConference](https://technet.microsoft.com/library/JJ205227(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-132">[Test-CsASConference](https://technet.microsoft.com/library/JJ205227(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-132">[Test-CsAVConference](https://technet.microsoft.com/library/Gg412749(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-132">[Test-CsAVConference](https://technet.microsoft.com/library/Gg412749(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-133">[Test-CsAVConference](https://technet.microsoft.com/library/Gg412749(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-133">[Test-CsAVConference](https://technet.microsoft.com/library/Gg412749(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-133">[Test-CsDataConference](https://technet.microsoft.com/library/JJ205219(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-133">[Test-CsDataConference](https://technet.microsoft.com/library/JJ205219(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-134">[Test-CsDataConference](https://technet.microsoft.com/library/JJ205219(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-134">[Test-CsDataConference](https://technet.microsoft.com/library/JJ205219(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-134">[Test-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-134">[Test-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-135">[Test-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-135">[Test-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-135">[Test-CsWebAppAnonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-135">[Test-CsWebAppAnonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-136">[Test-CsWebAppAnonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-136">[Test-CsWebAppAnonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="5eca6-136">[Test-CsWebScheduler](https://technet.microsoft.com/library/JJ204829(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="5eca6-136">[Test-CsWebScheduler](https://technet.microsoft.com/library/JJ204829(v=OCS.15))</span></span>
+    <span data-ttu-id="095c5-137">[Test-CsWebScheduler](https://technet.microsoft.com/library/JJ204829(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="095c5-137">[Test-CsWebScheduler](https://technet.microsoft.com/library/JJ204829(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5eca6-137">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5eca6-137">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="095c5-138">另请参阅</span><span class="sxs-lookup"><span data-stu-id="095c5-138">See Also</span></span>
 
 
-[<span data-ttu-id="5eca6-138">Lync Server PowerShell 博客</span><span class="sxs-lookup"><span data-stu-id="5eca6-138">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="095c5-139">Lync Server PowerShell 博客</span><span class="sxs-lookup"><span data-stu-id="095c5-139">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：将用户和用户组的域添加到聊天室类别
+description: Lync Server 2013：将用户和用户组的域添加到聊天室类别中。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48706013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f330f05f6b47a147e8b0b8f97948870305a890c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 196a795547d5caa6dfd1732c3d6b4630ef79438a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521309"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573518"
 ---
-# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a><span data-ttu-id="1bd17-102">在 Lync Server 2013 中将用户和用户组的域添加到聊天室类别</span><span class="sxs-lookup"><span data-stu-id="1bd17-102">Adding domains of users and user groups to the room category in Lync Server 2013</span></span>
+# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a><span data-ttu-id="6dc85-103">在 Lync Server 2013 中将用户和用户组的域添加到聊天室类别</span><span class="sxs-lookup"><span data-stu-id="6dc85-103">Adding domains of users and user groups to the room category in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48521309"
 
 <span> </span>
 
-<span data-ttu-id="1bd17-103">_**上次修改的主题：** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="1bd17-103">_**Topic Last Modified:** 2014-02-07_</span></span>
+<span data-ttu-id="6dc85-104">_**上次修改的主题：** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="6dc85-104">_**Topic Last Modified:** 2014-02-07_</span></span>
 
-<span data-ttu-id="1bd17-104">若要向聊天室添加更多用户组，请参阅在 [Lync Server 2013 中配置类别](lync-server-2013-configure-categories.md) 和在部署文档中 [管理类别](manage-categories.md) 。</span><span class="sxs-lookup"><span data-stu-id="1bd17-104">To add larger groups of users to a chat room, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span> <span data-ttu-id="1bd17-105">例如，此命令将 active Directory 中的 NorthAmericaUsers OU 中的所有用户添加到 "北美" 聊天室：</span><span class="sxs-lookup"><span data-stu-id="1bd17-105">For example, this command adds all the users from the NorthAmericaUsers OU in active Directory to the NorthAmerica chat room:</span></span>
+<span data-ttu-id="6dc85-105">若要向聊天室添加更多用户组，请参阅在 [Lync Server 2013 中配置类别](lync-server-2013-configure-categories.md) 和在部署文档中 [管理类别](manage-categories.md) 。</span><span class="sxs-lookup"><span data-stu-id="6dc85-105">To add larger groups of users to a chat room, see [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) and [Manage categories](manage-categories.md) in the Deployment documentation.</span></span> <span data-ttu-id="6dc85-106">例如，此命令将 active Directory 中的 NorthAmericaUsers OU 中的所有用户添加到 "北美" 聊天室：</span><span class="sxs-lookup"><span data-stu-id="6dc85-106">For example, this command adds all the users from the NorthAmericaUsers OU in active Directory to the NorthAmerica chat room:</span></span>
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=litwareinc,DC=com"}
 
-<span data-ttu-id="1bd17-106">他的命令将财务通讯组中的所有成员添加到同一个聊天室：</span><span class="sxs-lookup"><span data-stu-id="1bd17-106">His command adds all the members from the Finance distribution group to the same chat room:</span></span>
+<span data-ttu-id="6dc85-107">他的命令将财务通讯组中的所有成员添加到同一个聊天室：</span><span class="sxs-lookup"><span data-stu-id="6dc85-107">His command adds all the members from the Finance distribution group to the same chat room:</span></span>
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=litwareinc,DC=com"}
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： tblPrincipalMembers
+description: Lync Server 2013： tblPrincipalMembers。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4098b3ea8c9a5dda2cdee7d05f71b940ffcb0325
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8bbb8be0b83d09b1bd54ea98655558581e6df834
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523629"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573178"
 ---
-# <a name="tblprincipalmembers-in-lync-server-2013"></a><span data-ttu-id="2d0b5-102">Lync Server 2013 中的 tblPrincipalMembers</span><span class="sxs-lookup"><span data-stu-id="2d0b5-102">tblPrincipalMembers in Lync Server 2013</span></span>
+# <a name="tblprincipalmembers-in-lync-server-2013"></a><span data-ttu-id="1b76c-103">Lync Server 2013 中的 tblPrincipalMembers</span><span class="sxs-lookup"><span data-stu-id="1b76c-103">tblPrincipalMembers in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48523629"
 
 <span> </span>
 
-<span data-ttu-id="2d0b5-103">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="2d0b5-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="1b76c-104">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="1b76c-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="2d0b5-104">tblPrincipalMembers 包含主体成员身份。</span><span class="sxs-lookup"><span data-stu-id="2d0b5-104">tblPrincipalMembers contains principal memberships.</span></span>
+<span data-ttu-id="1b76c-105">tblPrincipalMembers 包含主体成员身份。</span><span class="sxs-lookup"><span data-stu-id="1b76c-105">tblPrincipalMembers contains principal memberships.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="2d0b5-105">列数</span><span class="sxs-lookup"><span data-stu-id="2d0b5-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="1b76c-106">列数</span><span class="sxs-lookup"><span data-stu-id="1b76c-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,27 +52,27 @@ ms.locfileid: "48523629"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2d0b5-106">列</span><span class="sxs-lookup"><span data-stu-id="2d0b5-106">Column</span></span></th>
-<th><span data-ttu-id="2d0b5-107">类型</span><span class="sxs-lookup"><span data-stu-id="2d0b5-107">Type</span></span></th>
-<th><span data-ttu-id="2d0b5-108">说明</span><span class="sxs-lookup"><span data-stu-id="2d0b5-108">Description</span></span></th>
+<th><span data-ttu-id="1b76c-107">列</span><span class="sxs-lookup"><span data-stu-id="1b76c-107">Column</span></span></th>
+<th><span data-ttu-id="1b76c-108">类型</span><span class="sxs-lookup"><span data-stu-id="1b76c-108">Type</span></span></th>
+<th><span data-ttu-id="1b76c-109">说明</span><span class="sxs-lookup"><span data-stu-id="1b76c-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2d0b5-109">prinID</span><span class="sxs-lookup"><span data-stu-id="2d0b5-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="2d0b5-110">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="2d0b5-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="2d0b5-111">主体 ID。</span><span class="sxs-lookup"><span data-stu-id="2d0b5-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="1b76c-110">prinID</span><span class="sxs-lookup"><span data-stu-id="1b76c-110">prinID</span></span></p></td>
+<td><p><span data-ttu-id="1b76c-111">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="1b76c-111">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="1b76c-112">主体 ID。</span><span class="sxs-lookup"><span data-stu-id="1b76c-112">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2d0b5-112">memberADPath</span><span class="sxs-lookup"><span data-stu-id="2d0b5-112">memberADPath</span></span></p></td>
-<td><p><span data-ttu-id="2d0b5-113">nvarchar (384)，不为 null</span><span class="sxs-lookup"><span data-stu-id="2d0b5-113">nvarchar (384), not null</span></span></p></td>
-<td><p><span data-ttu-id="2d0b5-p101">成员的可分辨名称。成员不必是主体（在 tblPrincipal 表中）。</span><span class="sxs-lookup"><span data-stu-id="2d0b5-p101">Distinguished name of a member. A member does not have to be a principal (in tblPrincipal table).</span></span></p></td>
+<td><p><span data-ttu-id="1b76c-113">memberADPath</span><span class="sxs-lookup"><span data-stu-id="1b76c-113">memberADPath</span></span></p></td>
+<td><p><span data-ttu-id="1b76c-114">nvarchar (384)，不为 null</span><span class="sxs-lookup"><span data-stu-id="1b76c-114">nvarchar (384), not null</span></span></p></td>
+<td><p><span data-ttu-id="1b76c-p101">成员的可分辨名称。成员不必是主体（在 tblPrincipal 表中）。</span><span class="sxs-lookup"><span data-stu-id="1b76c-p101">Distinguished name of a member. A member does not have to be a principal (in tblPrincipal table).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="2d0b5-116">Keys</span><span class="sxs-lookup"><span data-stu-id="2d0b5-116">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="1b76c-117">Keys</span><span class="sxs-lookup"><span data-stu-id="1b76c-117">Keys</span></span>
 
 <table>
 <colgroup>
@@ -80,18 +81,18 @@ ms.locfileid: "48523629"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2d0b5-117">列</span><span class="sxs-lookup"><span data-stu-id="2d0b5-117">Column</span></span></th>
-<th><span data-ttu-id="2d0b5-118">说明</span><span class="sxs-lookup"><span data-stu-id="2d0b5-118">Description</span></span></th>
+<th><span data-ttu-id="1b76c-118">列</span><span class="sxs-lookup"><span data-stu-id="1b76c-118">Column</span></span></th>
+<th><span data-ttu-id="1b76c-119">说明</span><span class="sxs-lookup"><span data-stu-id="1b76c-119">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2d0b5-119">&lt;prinID, memberADPath&gt;</span><span class="sxs-lookup"><span data-stu-id="2d0b5-119">&lt;prinID, memberADPath&gt;</span></span></p></td>
-<td><p><span data-ttu-id="2d0b5-120">主键。</span><span class="sxs-lookup"><span data-stu-id="2d0b5-120">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="1b76c-120">&lt;prinID, memberADPath&gt;</span><span class="sxs-lookup"><span data-stu-id="1b76c-120">&lt;prinID, memberADPath&gt;</span></span></p></td>
+<td><p><span data-ttu-id="1b76c-121">主键。</span><span class="sxs-lookup"><span data-stu-id="1b76c-121">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2d0b5-121">prinID</span><span class="sxs-lookup"><span data-stu-id="2d0b5-121">prinID</span></span></p></td>
-<td><p><span data-ttu-id="2d0b5-122">在 tblPrincipal.prinID 中查找的外键。</span><span class="sxs-lookup"><span data-stu-id="2d0b5-122">Foreign key with lookup in tblPrincipal.prinID.</span></span></p></td>
+<td><p><span data-ttu-id="1b76c-122">prinID</span><span class="sxs-lookup"><span data-stu-id="1b76c-122">prinID</span></span></p></td>
+<td><p><span data-ttu-id="1b76c-123">在 tblPrincipal.prinID 中查找的外键。</span><span class="sxs-lookup"><span data-stu-id="1b76c-123">Foreign key with lookup in tblPrincipal.prinID.</span></span></p></td>
 </tr>
 </tbody>
 </table>
