@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: ae0583225de5eabfd6cad77895859f9c7159276f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367562"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508079"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -102,7 +102,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 频道名称不得包含以下字符或字词。
 
-|||
+|类型|示例|
 |---------|---------|
 |字符     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |下述范围内的字符    | 0 到 1F<br>80 到 9F        |
