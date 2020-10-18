@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：使用 Microsoft SQL Server 2008 R2 作为 System Center Operations Manager 数据库
+description: Lync Server 2013：使用 Microsoft SQL Server 2008 R2 作为 System Center Operations Manager 数据库。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51dbff3748f342bd630c33fc867a4249b386c00c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 870c079e7e5e871fc62358e9bdd21653193fad7c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518819"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580348"
 ---
 # <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a>使用 Microsoft SQL Server 2008 R2 作为 Lync Server 2013 的 System Center Operations Manager 数据库
 

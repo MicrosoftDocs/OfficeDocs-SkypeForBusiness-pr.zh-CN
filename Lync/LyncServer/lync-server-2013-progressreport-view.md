@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： ProgressReport 视图
+description: Lync Server 2013： ProgressReport 视图。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 492f7f5e34631de5ff843a00dd3fdf75b6f32f00
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b95086012f254499644e778e43cafdf70ffc8f9c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513219"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579788"
 ---
 # <a name="progressreport-view-in-lync-server-2013"></a>Lync Server 2013 中的 ProgressReport 视图
 

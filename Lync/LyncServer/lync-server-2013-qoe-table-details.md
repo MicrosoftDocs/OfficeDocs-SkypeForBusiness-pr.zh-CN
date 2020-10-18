@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： QoE 表详细信息
+description: Lync Server 2013： QoE 表详细信息。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f2c97842308a7e61106de9472380aa7093c02cc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 128872ae7df2096b08bf4f1b7ed91d6f7282eeee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512169"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579148"
 ---
 # <a name="qoe-table-details-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 表详细信息
 

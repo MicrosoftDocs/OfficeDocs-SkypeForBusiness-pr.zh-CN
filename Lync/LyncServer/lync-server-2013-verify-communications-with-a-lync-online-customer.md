@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：验证与 Lync Online 客户的通信
+description: Lync Server 2013：验证与 Lync Online 客户的通信。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0269c66ad88f7be7f34874a8e4370fb65b954ccf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 867b0f7ffffd563c869b9bcd5443a3cb91b156af
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518659"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579438"
 ---
 # <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中验证与 Lync Online 客户的通信
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：查看设备更新配置设置
+description: Lync Server 2013：查看设备更新配置设置。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f7f3d6ae80aa83d7edcf6d64a13c4cbda90c9ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e686562d99da679149b6b977bd3cb9feb5c9a7fc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506449"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579418"
 ---
 # <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中查看设备更新配置设置
 

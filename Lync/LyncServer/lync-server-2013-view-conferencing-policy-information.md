@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：查看会议策略信息
+description: Lync Server 2013：查看会议策略信息。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f2417af7b1258a1b0bd9fce1bd5aafb6c691c59
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5e463c500e48f4032c8dab3a3787715f7265be9c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506519"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579428"
 ---
 # <a name="view-conferencing-policy-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看会议策略信息
 

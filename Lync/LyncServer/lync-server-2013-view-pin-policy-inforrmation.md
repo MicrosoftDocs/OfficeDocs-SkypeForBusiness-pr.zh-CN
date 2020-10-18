@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：查看 PIN 策略信息
+description: Lync Server 2013：查看 PIN 策略信息。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f73d3ccf2ebf1083b834ab711ae43f582063520c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d60125663bed2b79921de62663865c56b6a27786
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518449"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579638"
 ---
 # <a name="view-pin-policy-inforrmation-in-lync-server-2013"></a>在 Lync Server 2013 中查看 PIN 策略信息
 

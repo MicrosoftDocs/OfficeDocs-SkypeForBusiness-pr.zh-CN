@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：规划和部署双因素身份验证
+description: Lync Server 2013：规划和部署双因素身份验证。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 54973686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0043e99e01c8d0c7b16036ed7824aa7cdd7faad1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e1e04fa7a0c1184152328882a7c7b4bea8e42ec0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526549"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579498"
 ---
 # <a name="two-factor-authentication-in-lync-server-2013"></a>Lync Server 2013 中的双重身份验证
 

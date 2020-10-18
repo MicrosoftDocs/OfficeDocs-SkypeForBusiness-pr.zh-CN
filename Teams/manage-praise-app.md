@@ -8,20 +8,23 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: 了解 Microsoft 团队管理中心中的表扬应用中的管理员设置
-ms.openlocfilehash: 9d293ebc0a9a8776f21bc0e4d1301380a50186a6
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 27206f48de9c219996f8dcfd631e6640e175fb18
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328201"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580448"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理表扬应用
 
-Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示感激。 通过选择要从中选择的锁屏提醒集和创建您自己的徽章的选项，表扬旨在帮助您认识到团队用户在团队用户执行的工作范围内，从教师到第一行员工的工作。
+> [!NOTE]
+> 管理员必须拥有团队许可证才能访问此功能。 如果您尝试在没有团队许可证的情况下访问此功能，您将收到一条错误消息。
+
+Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示感激。 通过选择要选择的锁屏提醒集和创建您自己的徽章的选项，表扬旨在帮助您认识到团队用户在团队用户执行的工作范围内，从教师到一线工作人员的工作量。
 
 管理员可以从团队管理中心控制哪些徽章对其组织可用。 在左侧导航中，选择 " **团队应用" > "管理应用**"。 在 [租户应用目录](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)中打开表扬，然后转到 " **设置**"。
 
-> [!Note]
+> [!NOTE]
 > 表扬应用功能不适用于美国政府云。
 
 ## <a name="use-built-in-badge-sets"></a>使用内置的锁屏提醒集
