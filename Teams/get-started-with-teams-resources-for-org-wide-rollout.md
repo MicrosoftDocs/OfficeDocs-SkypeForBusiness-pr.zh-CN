@@ -9,7 +9,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
 description: 建立首批团队后，了解在何处可以找到适用于 Microsoft Teams 的深入部署和采用资源。
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-mar2020
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57075758e7b956323283ff8fa9dcb433e3e63b3c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8576560d6ec20cde4bae4ff6f10fc0474392ecf0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583179"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499889"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>选择在组织范围内部署 Microsoft Teams 的途径
 
