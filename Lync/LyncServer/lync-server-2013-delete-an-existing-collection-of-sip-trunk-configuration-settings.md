@@ -1,5 +1,6 @@
 ---
 title: 删除现有的 SIP 中继配置设置集合
+description: 删除现有的 SIP 中继配置设置集合。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733614
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bd2dd62116f0d48a2a3169c91d8d04486c86418
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 98acede458d34eb30202d898414b2e17076d32d2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514669"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572818"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-lync-server-2013"></a>删除 Lync Server 2013 中现有的 SIP 中继配置设置集合
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 IM 和状态
+description: Lync Server 2013 IM 和状态。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26e4b9c2814b8e9e5bf57e2e798b4b803d7401fb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f0d04f0ee6decc03db1a6b5aa44cfedd7515c2d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507259"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573278"
 ---
 # <a name="im-and-presence-in-lync-server-2013"></a>Lync Server 2013 中的 IM 和状态
 

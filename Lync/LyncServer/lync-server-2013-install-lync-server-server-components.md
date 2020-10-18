@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：安装 Lync Server server 组件
+description: Lync Server 2013：安装 Lync Server server 组件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9237ed0b60e14383f69ff1e7ef0b0927afe49c98
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1930926f3a46be868d838abf646eb8702c9713a8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498699"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574118"
 ---
 # <a name="install-server-components-for-lync-server-2013"></a>安装 Lync Server 2013 的服务器组件
 

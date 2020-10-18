@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：移动性的 DNS 要求
+description: Lync Server 2013：移动性的 DNS 要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 508e9c8e030de7aeb496a1285ff7b965e43c2a6b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e2a8377dc7c856bb7250817cb3b8b66ed7789d3b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501429"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574298"
 ---
 # <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>具有 Lync Server 2013 的移动性的 DNS 要求
 

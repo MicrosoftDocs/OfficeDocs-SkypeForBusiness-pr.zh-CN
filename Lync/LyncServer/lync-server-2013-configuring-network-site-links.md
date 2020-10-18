@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置网络站点链接
+description: Lync Server 2013：配置网络站点链接。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33461781f0392d0e6e4fbfa21bdde8948e7a9a1e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 68b4ecce15b8f3ba5a5717c73a8f97f8a0633b58
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532579"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572928"
 ---
 # <a name="configuring-network-site-links-in-lync-server-2013"></a>在 Lync Server 2013 中配置网络站点链接
 

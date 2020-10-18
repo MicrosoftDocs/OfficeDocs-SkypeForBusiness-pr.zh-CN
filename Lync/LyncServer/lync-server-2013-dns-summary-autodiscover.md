@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： DNS 摘要-自动发现
+description: Lync Server 2013： DNS 摘要-自动发现。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc30b787d938825f229f28b10d54907ad26a4d35
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: eef9bd6a2489561145718c7bbf2f710ab0b1f248
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501319"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574278"
 ---
 # <a name="dns-summary---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-自动发现
 

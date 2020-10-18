@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：启用和禁用媒体旁路
+description: Lync Server 2013：启用和禁用媒体旁路。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a108635471bda126343d7b3f49248d920732498
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec2b7521be1cd3cceb37e96d50a32f650010628e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522379"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572678"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-lync-server-2013"></a>在 Lync Server 2013 中启用和禁用媒体旁路
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：安装 Operation Manager 代理文件
+description: Lync Server 2013：安装 Operation Manager 代理文件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0216c05dd039f907d0ac54ff8afa13f6015a923d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 61bba93549e4831b65657a1fe80c918bbcb45572
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534799"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573778"
 ---
 # <a name="installing-the-operation-manager-agent-files-in-lync-server-2013"></a>在 Lync Server 2013 中安装 Operation Manager 代理文件
 

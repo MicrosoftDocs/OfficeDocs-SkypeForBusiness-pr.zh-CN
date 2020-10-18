@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：安装可选软件
+description: Lync Server 2013：安装可选软件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f56d856aa0a97125812f68ede9a2bff5b49f036
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7423c0d54b762fb4af7cedc8d7ba8745fd94bdf7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498529"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573908"
 ---
 # <a name="installing-optional-software-in-lync-server-2013"></a>在 Lync Server 2013 中安装可选软件
 

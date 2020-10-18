@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为 Lync Server 启用和禁用用户
+description: Lync Server 2013：为 Lync Server 启用和禁用用户。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96dd52b546029c04e25c4c20f31e921ed7b1f766
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 48c2d2f58b25b69e0a06276addad3cf47fe7d886
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532009"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572658"
 ---
 # <a name="enabling-and-disabling-users-for-lync-server-2013"></a>为 Lync Server 2013 启用和禁用用户
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：安装 Lync 会议室系统管理 Web 门户
+description: Lync Server 2013：安装 Lync 会议室系统管理 Web 门户。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54b772311865a36ba17699fc876c32c5504214e5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0fba239346d75142bb4009c58e0ac67e8e1f3bcb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534899"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573868"
 ---
 # <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>在 Lync Server 2013 中安装 Lync 会议室系统管理 Web 门户
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： Standard Edition 服务器的 DNS 要求
+description: Lync Server 2013： Standard Edition 服务器的 DNS 要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c88a76939e07a3b2306f46dc4930fa2b180404df
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8ea0c7219563d62a9d99bd85655b3d3fcb0c551f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528909"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574428"
 ---
 # <a name="dns-requirements-for-a-standard-edition-server-in-lync-server-2013"></a>Lync Server 2013 中的 Standard Edition server 的 DNS 要求
 

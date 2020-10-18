@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为用户启用托管语音邮件
+description: Lync Server 2013：为用户启用托管语音邮件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c0975f6be3d78ec7634859b26e7ed35e7efee5a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3853a70d433c09029a02f2ca6256b5988defdcb2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501029"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572738"
 ---
 # <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>在 Lync Server 2013 中为用户启用托管语音邮件
 
