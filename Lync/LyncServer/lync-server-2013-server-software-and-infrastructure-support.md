@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：服务器软件和基础结构支持
+description: Lync Server 2013：服务器软件和基础结构支持。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7906d381c49fe3514683989fd725d9d29802f81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4a141f40b3ebee84fade10dfbfb8c8b96ef67434
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510239"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580148"
 ---
-# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="e860b-102">Lync Server 2013 中的服务器软件和基础结构支持</span><span class="sxs-lookup"><span data-stu-id="e860b-102">Server software and infrastructure support in Lync Server 2013</span></span>
+# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="c938e-103">Lync Server 2013 中的服务器软件和基础结构支持</span><span class="sxs-lookup"><span data-stu-id="c938e-103">Server software and infrastructure support in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,37 +38,37 @@ ms.locfileid: "48510239"
 
 <span> </span>
 
-<span data-ttu-id="e860b-103">_**上次修改的主题：** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="e860b-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="c938e-104">_**上次修改的主题：** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="c938e-104">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="e860b-104">服务器组件的软件支持，包括所有 Lync Server 2013 服务器角色和存储，其中包括支持的操作系统、数据库软件、基础结构软件以及支持特定功能所需的其他软件。</span><span class="sxs-lookup"><span data-stu-id="e860b-104">Software support for server components, including all Lync Server 2013 server roles and storage, includes supported operating systems, database software, infrastructure software, and other software required to support specific functionality.</span></span> <span data-ttu-id="e860b-105">还包括服务器组件的虚拟化。</span><span class="sxs-lookup"><span data-stu-id="e860b-105">It also includes virtualization of server components.</span></span>
+<span data-ttu-id="c938e-105">服务器组件的软件支持，包括所有 Lync Server 2013 服务器角色和存储，其中包括支持的操作系统、数据库软件、基础结构软件以及支持特定功能所需的其他软件。</span><span class="sxs-lookup"><span data-stu-id="c938e-105">Software support for server components, including all Lync Server 2013 server roles and storage, includes supported operating systems, database software, infrastructure software, and other software required to support specific functionality.</span></span> <span data-ttu-id="c938e-106">还包括服务器组件的虚拟化。</span><span class="sxs-lookup"><span data-stu-id="c938e-106">It also includes virtualization of server components.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e860b-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="e860b-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c938e-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="c938e-107">In This Section</span></span>
 
-  - [<span data-ttu-id="e860b-107">Lync Server 2013 中的服务器和工具操作系统支持</span><span class="sxs-lookup"><span data-stu-id="e860b-107">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [<span data-ttu-id="c938e-108">Lync Server 2013 中的服务器和工具操作系统支持</span><span class="sxs-lookup"><span data-stu-id="c938e-108">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
 
-  - [<span data-ttu-id="e860b-108">Lync Server 2013 中的数据库软件支持</span><span class="sxs-lookup"><span data-stu-id="e860b-108">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
+  - [<span data-ttu-id="c938e-109">Lync Server 2013 中的数据库软件支持</span><span class="sxs-lookup"><span data-stu-id="c938e-109">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
 
-  - [<span data-ttu-id="e860b-109">Lync Server 2013 中的 Exchange Server 和 SharePoint 集成支持</span><span class="sxs-lookup"><span data-stu-id="e860b-109">Exchange Server and SharePoint integration support in Lync Server 2013</span></span>](lync-server-2013-exchange-and-sharepoint-integration-support.md)
+  - [<span data-ttu-id="c938e-110">Lync Server 2013 中的 Exchange Server 和 SharePoint 集成支持</span><span class="sxs-lookup"><span data-stu-id="c938e-110">Exchange Server and SharePoint integration support in Lync Server 2013</span></span>](lync-server-2013-exchange-and-sharepoint-integration-support.md)
 
-  - [<span data-ttu-id="e860b-110">Lync Server 2013 中的证书基础结构支持</span><span class="sxs-lookup"><span data-stu-id="e860b-110">Certificate infrastructure support in Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-support.md)
+  - [<span data-ttu-id="c938e-111">Lync Server 2013 中的证书基础结构支持</span><span class="sxs-lookup"><span data-stu-id="c938e-111">Certificate infrastructure support in Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-support.md)
 
-  - [<span data-ttu-id="e860b-111">Lync Server 2013 中的通配符证书支持</span><span class="sxs-lookup"><span data-stu-id="e860b-111">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)
+  - [<span data-ttu-id="c938e-112">Lync Server 2013 中的通配符证书支持</span><span class="sxs-lookup"><span data-stu-id="c938e-112">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)
 
-  - [<span data-ttu-id="e860b-112">Lync Server 2013 中的 DNS 基础结构支持</span><span class="sxs-lookup"><span data-stu-id="e860b-112">DNS infrastructure support in Lync Server 2013</span></span>](lync-server-2013-dns-infrastructure-support.md)
+  - [<span data-ttu-id="c938e-113">Lync Server 2013 中的 DNS 基础结构支持</span><span class="sxs-lookup"><span data-stu-id="c938e-113">DNS infrastructure support in Lync Server 2013</span></span>](lync-server-2013-dns-infrastructure-support.md)
 
-  - [<span data-ttu-id="e860b-113">Lync Server 2013 中的 IIS 支持</span><span class="sxs-lookup"><span data-stu-id="e860b-113">IIS support in Lync Server 2013</span></span>](lync-server-2013-iis-support.md)
+  - [<span data-ttu-id="c938e-114">Lync Server 2013 中的 IIS 支持</span><span class="sxs-lookup"><span data-stu-id="c938e-114">IIS support in Lync Server 2013</span></span>](lync-server-2013-iis-support.md)
 
-  - [<span data-ttu-id="e860b-114">Lync Server 2013 中的 IP 和网络协议支持</span><span class="sxs-lookup"><span data-stu-id="e860b-114">IP and networking protocol support in Lync Server 2013</span></span>](lync-server-2013-ip-and-networking-protocol-support.md)
+  - [<span data-ttu-id="c938e-115">Lync Server 2013 中的 IP 和网络协议支持</span><span class="sxs-lookup"><span data-stu-id="c938e-115">IP and networking protocol support in Lync Server 2013</span></span>](lync-server-2013-ip-and-networking-protocol-support.md)
 
-  - [<span data-ttu-id="e860b-115">Lync Server 2013 中的公共即时消息支持</span><span class="sxs-lookup"><span data-stu-id="e860b-115">Public instant messaging support in Lync Server 2013</span></span>](lync-server-2013-public-instant-messaging-support.md)
+  - [<span data-ttu-id="c938e-116">Lync Server 2013 中的公共即时消息支持</span><span class="sxs-lookup"><span data-stu-id="c938e-116">Public instant messaging support in Lync Server 2013</span></span>](lync-server-2013-public-instant-messaging-support.md)
 
-  - [<span data-ttu-id="e860b-116">Lync Server 2013 控制面板的浏览器支持</span><span class="sxs-lookup"><span data-stu-id="e860b-116">Browser support for Lync Server 2013 Control Panel</span></span>](lync-server-2013-browser-support-for-lync-server-control-panel.md)
+  - [<span data-ttu-id="c938e-117">Lync Server 2013 控制面板的浏览器支持</span><span class="sxs-lookup"><span data-stu-id="c938e-117">Browser support for Lync Server 2013 Control Panel</span></span>](lync-server-2013-browser-support-for-lync-server-control-panel.md)
 
-  - [<span data-ttu-id="e860b-117">Lync Server 2013 中的语音支持</span><span class="sxs-lookup"><span data-stu-id="e860b-117">Voice support in Lync Server 2013</span></span>](lync-server-2013-voice-support.md)
+  - [<span data-ttu-id="c938e-118">Lync Server 2013 中的语音支持</span><span class="sxs-lookup"><span data-stu-id="c938e-118">Voice support in Lync Server 2013</span></span>](lync-server-2013-voice-support.md)
 
-  - [<span data-ttu-id="e860b-118">Lync Server 2013 中的虚拟化支持</span><span class="sxs-lookup"><span data-stu-id="e860b-118">Virtualization support in Lync Server 2013</span></span>](lync-server-2013-virtualization-support.md)
+  - [<span data-ttu-id="c938e-119">Lync Server 2013 中的虚拟化支持</span><span class="sxs-lookup"><span data-stu-id="c938e-119">Virtualization support in Lync Server 2013</span></span>](lync-server-2013-virtualization-support.md)
 
 </div>
 

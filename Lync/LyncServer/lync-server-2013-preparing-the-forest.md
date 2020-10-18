@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：准备林
+description: Lync Server 2013：准备林。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183926
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35438969d8876875bef3d22b2d0ab676c146189
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 275d861ebfe7e0350e7baf120b6e6f2bae6a26ad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506859"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579998"
 ---
-# <a name="preparing-the-forest-for-lync-server-2013"></a><span data-ttu-id="ef532-102">准备 Lync Server 2013 的林</span><span class="sxs-lookup"><span data-stu-id="ef532-102">Preparing the forest for Lync Server 2013</span></span>
+# <a name="preparing-the-forest-for-lync-server-2013"></a><span data-ttu-id="e2d82-103">准备 Lync Server 2013 的林</span><span class="sxs-lookup"><span data-stu-id="e2d82-103">Preparing the forest for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,33 +38,33 @@ ms.locfileid: "48506859"
 
 <span> </span>
 
-<span data-ttu-id="ef532-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="ef532-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="e2d82-104">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="e2d82-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="ef532-104">林准备创建 Active Directory 全局设置和对象以及由 Lync Server 2013 使用的 Active Directory 通用组，并授予对 Active Directory 对象的适当访问权限。</span><span class="sxs-lookup"><span data-stu-id="ef532-104">Forest preparation creates Active Directory global settings and objects and Active Directory universal groups for use by Lync Server 2013, and grants suitable access permissions on the Active Directory objects.</span></span> <span data-ttu-id="ef532-105">有关通用组以及由林准备创建的全局设置和对象的说明，请参阅 [Lync Server 2013 中的林准备所做的更改](lync-server-2013-changes-made-by-forest-preparation.md)。</span><span class="sxs-lookup"><span data-stu-id="ef532-105">For a description of the universal groups and the global settings and objects created by forest preparation, see [Changes made by forest preparation in Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md).</span></span>
+<span data-ttu-id="e2d82-105">林准备创建 Active Directory 全局设置和对象以及由 Lync Server 2013 使用的 Active Directory 通用组，并授予对 Active Directory 对象的适当访问权限。</span><span class="sxs-lookup"><span data-stu-id="e2d82-105">Forest preparation creates Active Directory global settings and objects and Active Directory universal groups for use by Lync Server 2013, and grants suitable access permissions on the Active Directory objects.</span></span> <span data-ttu-id="e2d82-106">有关通用组以及由林准备创建的全局设置和对象的说明，请参阅 [Lync Server 2013 中的林准备所做的更改](lync-server-2013-changes-made-by-forest-preparation.md)。</span><span class="sxs-lookup"><span data-stu-id="e2d82-106">For a description of the universal groups and the global settings and objects created by forest preparation, see [Changes made by forest preparation in Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md).</span></span>
 
-<span data-ttu-id="ef532-106">林准备还会创建包含由 Lync Server 2013 使用的属性集和显示说明符的对象，并将它们存储在配置容器中。</span><span class="sxs-lookup"><span data-stu-id="ef532-106">Forest preparation also creates objects that contain property sets and display specifiers that are used by Lync Server 2013, and stores them in the Configuration container.</span></span>
+<span data-ttu-id="e2d82-107">林准备还会创建包含由 Lync Server 2013 使用的属性集和显示说明符的对象，并将它们存储在配置容器中。</span><span class="sxs-lookup"><span data-stu-id="e2d82-107">Forest preparation also creates objects that contain property sets and display specifiers that are used by Lync Server 2013, and stores them in the Configuration container.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="ef532-107">在执行林准备过程之前，请确保架构准备更改已复制到所有域控制器。</span><span class="sxs-lookup"><span data-stu-id="ef532-107">Make sure that schema preparation changes have replicated to all domain controllers before performing the forest preparation procedure.</span></span> <span data-ttu-id="ef532-108">如果复制尚未完成，则会出错。</span><span class="sxs-lookup"><span data-stu-id="ef532-108">If replication is not completed, an error occurs.</span></span>
+> <span data-ttu-id="e2d82-108">在执行林准备过程之前，请确保架构准备更改已复制到所有域控制器。</span><span class="sxs-lookup"><span data-stu-id="e2d82-108">Make sure that schema preparation changes have replicated to all domain controllers before performing the forest preparation procedure.</span></span> <span data-ttu-id="e2d82-109">如果复制尚未完成，则会出错。</span><span class="sxs-lookup"><span data-stu-id="e2d82-109">If replication is not completed, an error occurs.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="ef532-109">如果您正在执行新的 Lync Server 部署，则必须将全局设置存储在配置容器中。</span><span class="sxs-lookup"><span data-stu-id="ef532-109">If you are performing a new Lync Server deployment, you must store global settings in the Configuration container.</span></span> <span data-ttu-id="ef532-110">如果要从早期版本进行升级，并且仍将全局设置存储在系统容器中，则可以继续使用系统容器。</span><span class="sxs-lookup"><span data-stu-id="ef532-110">If you are upgrading from an earlier version and you still store global settings in the System container, you can continue to use the System container.</span></span>
+<span data-ttu-id="e2d82-110">如果您正在执行新的 Lync Server 部署，则必须将全局设置存储在配置容器中。</span><span class="sxs-lookup"><span data-stu-id="e2d82-110">If you are performing a new Lync Server deployment, you must store global settings in the Configuration container.</span></span> <span data-ttu-id="e2d82-111">如果要从早期版本进行升级，并且仍将全局设置存储在系统容器中，则可以继续使用系统容器。</span><span class="sxs-lookup"><span data-stu-id="e2d82-111">If you are upgrading from an earlier version and you still store global settings in the System container, you can continue to use the System container.</span></span>
 
-<span data-ttu-id="ef532-111">只有林根目录域的 Enterprise Admins 组或 Domain Admins 组的成员才能执行此过程。</span><span class="sxs-lookup"><span data-stu-id="ef532-111">You must be a member of the Enterprise Admins or Domain Admins group for the forest root domain to perform this procedure.</span></span>
+<span data-ttu-id="e2d82-112">只有林根目录域的 Enterprise Admins 组或 Domain Admins 组的成员才能执行此过程。</span><span class="sxs-lookup"><span data-stu-id="e2d82-112">You must be a member of the Enterprise Admins or Domain Admins group for the forest root domain to perform this procedure.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ef532-112">本部分内容</span><span class="sxs-lookup"><span data-stu-id="ef532-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e2d82-113">本部分内容</span><span class="sxs-lookup"><span data-stu-id="e2d82-113">In This Section</span></span>
 
-  - [<span data-ttu-id="ef532-113">为 Lync Server 2013 运行林准备</span><span class="sxs-lookup"><span data-stu-id="ef532-113">Running forest preparation for Lync Server 2013</span></span>](lync-server-2013-running-forest-preparation.md)
+  - [<span data-ttu-id="e2d82-114">为 Lync Server 2013 运行林准备</span><span class="sxs-lookup"><span data-stu-id="e2d82-114">Running forest preparation for Lync Server 2013</span></span>](lync-server-2013-running-forest-preparation.md)
 
-  - [<span data-ttu-id="ef532-114">使用 cmdlet 对 Lync Server 2013 反向林准备</span><span class="sxs-lookup"><span data-stu-id="ef532-114">Using cmdlets to reverse forest preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-forest-preparation.md)
+  - [<span data-ttu-id="e2d82-115">使用 cmdlet 对 Lync Server 2013 反向林准备</span><span class="sxs-lookup"><span data-stu-id="e2d82-115">Using cmdlets to reverse forest preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-forest-preparation.md)
 
 </div>
 

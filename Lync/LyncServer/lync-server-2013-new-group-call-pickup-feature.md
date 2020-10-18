@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：新组呼叫装货功能
+description: Lync Server 2013：新组呼叫装货功能。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89e7c8f096c7cfabd1a46a67c91b9514d73055ad
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0b919ad746f1a3f0726d15904f6f77d6221ebc86
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500499"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578798"
 ---
-# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a><span data-ttu-id="5bcc9-102">Lync Server 2013 中的新组呼叫装货功能</span><span class="sxs-lookup"><span data-stu-id="5bcc9-102">New Group Call Pickup feature in Lync Server 2013</span></span>
+# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a><span data-ttu-id="e041b-103">Lync Server 2013 中的新组呼叫装货功能</span><span class="sxs-lookup"><span data-stu-id="e041b-103">New Group Call Pickup feature in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,18 +38,18 @@ ms.locfileid: "48500499"
 
 <span> </span>
 
-<span data-ttu-id="5bcc9-103">_**上次修改的主题：** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="5bcc9-103">_**Topic Last Modified:** 2013-02-12_</span></span>
+<span data-ttu-id="e041b-104">_**上次修改的主题：** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="e041b-104">_**Topic Last Modified:** 2013-02-12_</span></span>
 
-<span data-ttu-id="5bcc9-104">Lync Server 2013 的累积更新：2月2013将组呼叫应答引入为新的企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="5bcc9-104">Cumulative Updates for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="5bcc9-105">通过使用组内呼叫应答，可以将用户分配到组，以便其他用户可以将传入呼叫应答为来自他们自己的电话的组中的用户。</span><span class="sxs-lookup"><span data-stu-id="5bcc9-105">With Group Call Pickup, you can assign users to groups so that other users can answer incoming calls to users who are in the group from their own phones.</span></span>
+<span data-ttu-id="e041b-105">Lync Server 2013 的累积更新：2月2013将组呼叫应答引入为新的企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="e041b-105">Cumulative Updates for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="e041b-106">通过使用组内呼叫应答，可以将用户分配到组，以便其他用户可以将传入呼叫应答为来自他们自己的电话的组中的用户。</span><span class="sxs-lookup"><span data-stu-id="e041b-106">With Group Call Pickup, you can assign users to groups so that other users can answer incoming calls to users who are in the group from their own phones.</span></span>
 
-<span data-ttu-id="5bcc9-106">组呼叫应答基于呼叫寄存应用程序。</span><span class="sxs-lookup"><span data-stu-id="5bcc9-106">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="5bcc9-107">对于组呼叫应答，与呼叫寄存一样，您设置要用作组编号的虚拟号码的范围。</span><span class="sxs-lookup"><span data-stu-id="5bcc9-107">For Group Call Pickup, as with Call Park, you set up a range of virtual numbers to be used as group numbers.</span></span> <span data-ttu-id="5bcc9-108">用户拨打组号码以接听呼叫，该呼叫将被组中的另一个用户拨打。</span><span class="sxs-lookup"><span data-stu-id="5bcc9-108">A user dials the group number to pick up a call that is ringing for another user who is in the group.</span></span>
+<span data-ttu-id="e041b-107">组呼叫应答基于呼叫寄存应用程序。</span><span class="sxs-lookup"><span data-stu-id="e041b-107">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="e041b-108">对于组呼叫应答，与呼叫寄存一样，您设置要用作组编号的虚拟号码的范围。</span><span class="sxs-lookup"><span data-stu-id="e041b-108">For Group Call Pickup, as with Call Park, you set up a range of virtual numbers to be used as group numbers.</span></span> <span data-ttu-id="e041b-109">用户拨打组号码以接听呼叫，该呼叫将被组中的另一个用户拨打。</span><span class="sxs-lookup"><span data-stu-id="e041b-109">A user dials the group number to pick up a call that is ringing for another user who is in the group.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5bcc9-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5bcc9-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e041b-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e041b-110">See Also</span></span>
 
 
-[<span data-ttu-id="5bcc9-110">在 Lync Server 2013 中规划组内呼叫应答</span><span class="sxs-lookup"><span data-stu-id="5bcc9-110">Planning for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-planning-for-group-call-pickup.md)  
+[<span data-ttu-id="e041b-111">在 Lync Server 2013 中规划组内呼叫应答</span><span class="sxs-lookup"><span data-stu-id="e041b-111">Planning for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-planning-for-group-call-pickup.md)  
   
 
 </div>
