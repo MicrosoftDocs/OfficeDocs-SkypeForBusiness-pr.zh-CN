@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 技术图表
+description: Lync Server 2013 技术图表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5af9d3702d3d93b0926efe37d9ede6f1c928091
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d4dee8dab089de924317d6979e6d085072b0beab
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533969"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577198"
 ---
 # <a name="technical-diagrams-for-lync-server-2013"></a>Lync Server 2013 的技术图表
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置对阻止的外部域的支持
+description: Lync Server 2013：配置对阻止的外部域的支持。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1be998071bc0cad49d3e96c3c82cf395b2da7ca1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 81c2c76dc32dd5e8d458dad4e91ff375d2ab005c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515679"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576678"
 ---
 # <a name="configure-support-for-blocked-external-domains-in-lync-server-2013"></a>在 Lync Server 2013 中配置对阻止的外部域的支持
 

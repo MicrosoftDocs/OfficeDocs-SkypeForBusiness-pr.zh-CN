@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置用户帐户设置
+description: Lync Server 2013：配置用户帐户设置。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71628f056298965f4033dc6bbecbe75b47b678a1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e6ab4c57ba3d3e8c084314e1093736334312d0c1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520199"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577508"
 ---
 # <a name="configure-user-account-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置用户帐户设置
 

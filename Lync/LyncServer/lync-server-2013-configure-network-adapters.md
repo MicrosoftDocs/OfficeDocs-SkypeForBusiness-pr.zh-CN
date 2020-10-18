@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置网络适配器
+description: Lync Server 2013：配置网络适配器。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 662ad7425a248148e9e2dde0c8f18ccea5add0c5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8fa6aaa76c7815c3c14f711bf79eca82c44551ce
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520559"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577588"
 ---
 # <a name="configure-network-adapters-in-lync-server-2013"></a>在 Lync Server 2013 中配置网络适配器
 

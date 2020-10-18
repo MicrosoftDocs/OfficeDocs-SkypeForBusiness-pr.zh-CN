@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：运行域准备
+description: Lync Server 2013：运行域准备。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cf14c4b566d6c6447776d3251004f5d508220e3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2f2c4ebe94d07ed2d1fd9be013cd8e88204312f8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511109"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577778"
 ---
 # <a name="running-domain-preparation-for-lync-server-2013"></a>为 Lync Server 2013 运行域准备
 

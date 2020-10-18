@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：扩展的合并边缘（使用 NAT 通过专用 IP 地址进行 DNS 负载平衡）
+description: Lync Server 2013：扩展的合并边缘（使用 NAT 通过专用 IP 地址进行 DNS 负载平衡）。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185369
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 744b446edc4c59fc55dbefe3bd1d124d6aa6676e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3a1b668902059ef2680525b884d8b2c5e8486260
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510979"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577698"
 ---
 # <a name="scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>在 Lync Server 2013 中，扩展的合并边缘（使用 NAT 通过专用 IP 地址进行 DNS 负载平衡）
 

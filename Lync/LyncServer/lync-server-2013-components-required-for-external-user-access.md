@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：外部用户访问所需的组件
+description: Lync Server 2013：外部用户访问所需的组件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a97635c66d66703fc2e9879024004a95c2c09eb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d75ef0c7f2000353a35acefa0b177c90bdcc879b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502449"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576778"
 ---
 # <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部用户访问所需的组件
 

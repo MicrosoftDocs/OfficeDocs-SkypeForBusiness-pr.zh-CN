@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：媒体绕过模式
+description: Lync Server 2013：媒体旁路模式。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183898
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35aa8e8a5097be8a4cc90922f014d66b2d8fe2aa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3a7f1a71930df7ef92a29087f42bdb9382b3904c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524589"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577898"
 ---
 # <a name="media-bypass-modes-in-lync-server-2013"></a>Lync Server 2013 中的媒体旁路模式
 

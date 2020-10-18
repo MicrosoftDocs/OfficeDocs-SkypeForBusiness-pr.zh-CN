@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为公用提供程序配置媒体加密
+description: Lync Server 2013：为公用提供程序配置媒体加密。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185036
 ms.date: 12/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45a6a3dcccc766e9905017c0b35949ab4ff6894d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 177c19f151b67d741c7e26506f7ebc98b3ce831a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520599"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577618"
 ---
 # <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a>在 Lync Server 2013 中为公用提供程序配置媒体加密
 

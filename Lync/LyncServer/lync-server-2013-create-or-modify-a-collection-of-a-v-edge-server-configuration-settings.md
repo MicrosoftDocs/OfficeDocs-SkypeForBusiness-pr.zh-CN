@@ -1,5 +1,6 @@
 ---
 title: 创建或修改 A/V 边缘服务器配置设置的集合
+description: 创建或修改 A/V 边缘服务器配置设置的集合。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733630
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ec601a9c51e1b8d5785e91bae1f1f82c13bf245
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3cdf7dca19446f4eac584564eed776f7fde47bfe
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514769"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578338"
 ---
 # <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改 A/V 边缘服务器配置设置的集合
 

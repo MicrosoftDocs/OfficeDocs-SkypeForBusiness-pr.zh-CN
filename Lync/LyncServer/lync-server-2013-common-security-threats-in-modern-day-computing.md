@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：常见安全威胁在现代日计算中
+description: Lync Server 2013：新式计算中的常见安全威胁。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60197a65bb0362b1bbdcf3fee779ed503af00eb6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 47284d91ea9f14e3bafadb1a285f6e98d9ea7ded
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526129"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576988"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>现代的日期计算中的常见安全威胁
 
