@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置集中日志记录服务的方案
+description: Lync Server 2013：配置集中日志记录服务的方案。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 505ae775e2735ba01bd02cd0104240ad8781f968
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1bf3f569ae8d2596f735851ae3d5d6c55f022b09
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502069"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575858"
 ---
 # <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中配置集中日志记录服务的方案
 

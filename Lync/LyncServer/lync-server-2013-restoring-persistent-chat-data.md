@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：还原持久聊天数据
+description: Lync Server 2013：还原持久聊天数据。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dfe3a6c23e9de159c9024d660caf3f04fe648b7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7c75683e151daaadab8374ed5b41886da9a3aea3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511405"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575510"
 ---
 # <a name="restoring-persistent-chat-data-in-lync-server-2013"></a>在 Lync Server 2013 中还原持久聊天数据
 

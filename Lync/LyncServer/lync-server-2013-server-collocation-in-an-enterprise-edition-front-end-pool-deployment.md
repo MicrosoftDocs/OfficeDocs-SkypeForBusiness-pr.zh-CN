@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Server 并置 in Enterprise Edition 前端池部署
+description: Lync Server 2013 Server 并置在 Enterprise Edition 前端池部署中。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0162a4338a1504ed425015e5b9391fca9903d4ab
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1a937cd2d58e41d56fec3c7898ebcf6725086d51
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510279"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576548"
 ---
 # <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>适用于 Lync Server 2013 的 Enterprise Edition 前端池部署中的服务器并置
 

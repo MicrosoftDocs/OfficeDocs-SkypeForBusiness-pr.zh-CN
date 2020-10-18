@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置视频示例方案
+description: Lync Server 2013：配置视频示例方案。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf9570f3df344c26da3296904a8394f59f8a907d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 625899887926de9afe2e6ff94df70ab725c0190a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516969"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575138"
 ---
 # <a name="configuring-video-example-scenarios-for-lync-server-2013"></a>为 Lync Server 2013 配置视频示例方案
 

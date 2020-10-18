@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：创建或修改新的客户端版本策略
+description: Lync Server 2013：创建或修改新的客户端版本策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 50873756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfb78150097fe7bde3b72338b3d1c9c37dc2a9b6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d4d100e21591a27646784161614ff6c248dc6ae6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506109"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574608"
 ---
 # <a name="create-or-modify-a-new-client-version-policy-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改新的客户端版本策略
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：测试 Standard Edition server
+description: Lync Server 2013：测试 Standard Edition server。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f822297ed5a66189e42110167f70cf63e2d3d1db
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 35dc13fc01979cc8b293d0647a7886b7d65d7669
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519039"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576005"
 ---
 # <a name="test-the-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Standard Edition 服务器
 

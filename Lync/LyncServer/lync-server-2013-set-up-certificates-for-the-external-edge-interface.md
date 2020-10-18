@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：为外部边缘接口设置证书
+description: Lync Server 2013：为外部边缘接口设置证书。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a190c50ece2b2e5be0f8597851541c71cfbb4e49
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: aeca6edf0a3b50ab5dcaf9ecdbaea931d7bdf947
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509879"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575408"
 ---
 # <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>为 Lync Server 2013 的外部边缘接口设置证书
 

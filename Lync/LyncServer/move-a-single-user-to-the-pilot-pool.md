@@ -1,5 +1,6 @@
 ---
 title: 将单个用户移动到引导池
+description: 将单个用户移动到试点池。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185905
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af6c9892b717b43d3f19804b640245bc8d183b76
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f5f7396ed2d92c7015f01ff6cd6e90fd3998219d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514979"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574728"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>将单个用户移动到引导池
 

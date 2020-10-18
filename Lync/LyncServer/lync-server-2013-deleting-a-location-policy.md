@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：删除位置策略
+description: Lync Server 2013：删除位置策略。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d046b344c294475dffcc0a10ee8972475f7e903
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 88935c00a60de377c9812a4d119708fd610338ab
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525459"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575838"
 ---
 # <a name="deleting-a-location-policy-in-lync-server-2013"></a>在 Lync Server 2013 中删除位置策略
 

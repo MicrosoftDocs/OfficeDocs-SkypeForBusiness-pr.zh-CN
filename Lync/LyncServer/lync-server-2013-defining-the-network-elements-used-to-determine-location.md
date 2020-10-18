@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：定义用于确定位置的网络元素
+description: Lync Server 2013：定义用于确定位置的网络元素。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cfedb09cdcdebdc12cdd2aed69e56532dcca5ad
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a77ad0a7d704bf2cc43118db45d9bcfb89daa327
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504499"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576278"
 ---
 # <a name="defining-the-network-elements-used-to-determine-location-in-lync-server-2013"></a>定义用于确定 Lync Server 2013 中的位置的网络元素
 

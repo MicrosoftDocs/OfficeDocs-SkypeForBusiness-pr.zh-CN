@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：示例 QoE 数据库查询
+description: Lync Server 2013：示例 QoE 数据库查询。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 441384c2ed8dae6f03aa6034ceba2248710e9d3c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d9bd789cabc4773e96351fa653170bef474060a1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511019"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574868"
 ---
 # <a name="sample-qoe-database-queries-in-lync-server-2013"></a>Lync Server 2013 中的示例 QoE 数据库查询
 
