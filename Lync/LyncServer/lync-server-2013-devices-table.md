@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：设备表
+description: Lync Server 2013：设备表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5fdc4c3b20bdd60d2c8013b79a15bdfd30b56af
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 763e1788e2874f9f9831c089ffe8fa077621b030
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536929"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576238"
 ---
-# <a name="devices-table-in-lync-server-2013"></a><span data-ttu-id="48daf-102">Lync Server 2013 中的 "设备" 表</span><span class="sxs-lookup"><span data-stu-id="48daf-102">Devices table in Lync Server 2013</span></span>
+# <a name="devices-table-in-lync-server-2013"></a><span data-ttu-id="23058-103">Lync Server 2013 中的 "设备" 表</span><span class="sxs-lookup"><span data-stu-id="23058-103">Devices table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48536929"
 
 <span> </span>
 
-<span data-ttu-id="48daf-103">_**上次修改的主题：** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="48daf-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="23058-104">_**上次修改的主题：** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="23058-104">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="48daf-p101">Devices 表是一个支持表。每条记录存储有关一个设备（桌面电话）的信息。</span><span class="sxs-lookup"><span data-stu-id="48daf-p101">The Devices table is a supporting table. Each record stores information about one device (desk phone).</span></span>
+<span data-ttu-id="23058-p101">Devices 表是一个支持表。每条记录存储有关一个设备（桌面电话）的信息。</span><span class="sxs-lookup"><span data-stu-id="23058-p101">The Devices table is a supporting table. Each record stores information about one device (desk phone).</span></span>
 
 
 <table>
@@ -51,36 +52,36 @@ ms.locfileid: "48536929"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="48daf-106">列</span><span class="sxs-lookup"><span data-stu-id="48daf-106">Column</span></span></th>
-<th><span data-ttu-id="48daf-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="48daf-107">Data Type</span></span></th>
-<th><span data-ttu-id="48daf-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="48daf-108">Key/Index</span></span></th>
-<th><span data-ttu-id="48daf-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="48daf-109">Details</span></span></th>
+<th><span data-ttu-id="23058-107">列</span><span class="sxs-lookup"><span data-stu-id="23058-107">Column</span></span></th>
+<th><span data-ttu-id="23058-108">数据类型</span><span class="sxs-lookup"><span data-stu-id="23058-108">Data Type</span></span></th>
+<th><span data-ttu-id="23058-109">键/索引</span><span class="sxs-lookup"><span data-stu-id="23058-109">Key/Index</span></span></th>
+<th><span data-ttu-id="23058-110">详细信息</span><span class="sxs-lookup"><span data-stu-id="23058-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="48daf-110"><strong>DeviceId</strong></span><span class="sxs-lookup"><span data-stu-id="48daf-110"><strong>DeviceId</strong></span></span></p></td>
-<td><p><span data-ttu-id="48daf-111">int</span><span class="sxs-lookup"><span data-stu-id="48daf-111">int</span></span></p></td>
-<td><p><span data-ttu-id="48daf-112">主</span><span class="sxs-lookup"><span data-stu-id="48daf-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="48daf-113">用于标识此硬件版本的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="48daf-113">Unique number identifying this hardware version.</span></span></p></td>
+<td><p><span data-ttu-id="23058-111"><strong>DeviceId</strong></span><span class="sxs-lookup"><span data-stu-id="23058-111"><strong>DeviceId</strong></span></span></p></td>
+<td><p><span data-ttu-id="23058-112">int</span><span class="sxs-lookup"><span data-stu-id="23058-112">int</span></span></p></td>
+<td><p><span data-ttu-id="23058-113">主</span><span class="sxs-lookup"><span data-stu-id="23058-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="23058-114">用于标识此硬件版本的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="23058-114">Unique number identifying this hardware version.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="48daf-114"><strong>ManufacturerId</strong></span><span class="sxs-lookup"><span data-stu-id="48daf-114"><strong>ManufacturerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="48daf-115">int</span><span class="sxs-lookup"><span data-stu-id="48daf-115">int</span></span></p></td>
-<td><p><span data-ttu-id="48daf-116">对外</span><span class="sxs-lookup"><span data-stu-id="48daf-116">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="48daf-117">此设备的制造商。</span><span class="sxs-lookup"><span data-stu-id="48daf-117">Manufacturer of this device.</span></span> <span data-ttu-id="48daf-118">有关详细信息，请参阅 <a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的制造商表</a> 。</span><span class="sxs-lookup"><span data-stu-id="48daf-118">See the <a href="lync-server-2013-manufacturers-table.md">Manufacturers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="23058-115"><strong>ManufacturerId</strong></span><span class="sxs-lookup"><span data-stu-id="23058-115"><strong>ManufacturerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="23058-116">int</span><span class="sxs-lookup"><span data-stu-id="23058-116">int</span></span></p></td>
+<td><p><span data-ttu-id="23058-117">对外</span><span class="sxs-lookup"><span data-stu-id="23058-117">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="23058-118">此设备的制造商。</span><span class="sxs-lookup"><span data-stu-id="23058-118">Manufacturer of this device.</span></span> <span data-ttu-id="23058-119">有关详细信息，请参阅 <a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的制造商表</a> 。</span><span class="sxs-lookup"><span data-stu-id="23058-119">See the <a href="lync-server-2013-manufacturers-table.md">Manufacturers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="48daf-119"><strong>HardwareVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="48daf-119"><strong>HardwareVersionId</strong></span></span></p></td>
-<td><p><span data-ttu-id="48daf-120">int</span><span class="sxs-lookup"><span data-stu-id="48daf-120">int</span></span></p></td>
-<td><p><span data-ttu-id="48daf-121">对外</span><span class="sxs-lookup"><span data-stu-id="48daf-121">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="48daf-122">此设备的硬件版本。</span><span class="sxs-lookup"><span data-stu-id="48daf-122">Hardware version of this device.</span></span> <span data-ttu-id="48daf-123">有关详细信息，请参阅 <a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表</a> 。</span><span class="sxs-lookup"><span data-stu-id="48daf-123">See the <a href="lync-server-2013-hardwareversions-table.md">HardwareVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="23058-120"><strong>HardwareVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="23058-120"><strong>HardwareVersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="23058-121">int</span><span class="sxs-lookup"><span data-stu-id="23058-121">int</span></span></p></td>
+<td><p><span data-ttu-id="23058-122">对外</span><span class="sxs-lookup"><span data-stu-id="23058-122">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="23058-123">此设备的硬件版本。</span><span class="sxs-lookup"><span data-stu-id="23058-123">Hardware version of this device.</span></span> <span data-ttu-id="23058-124">有关详细信息，请参阅 <a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表</a> 。</span><span class="sxs-lookup"><span data-stu-id="23058-124">See the <a href="lync-server-2013-hardwareversions-table.md">HardwareVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="48daf-124"><strong>MacAddress</strong></span><span class="sxs-lookup"><span data-stu-id="48daf-124"><strong>MacAddress</strong></span></span></p></td>
-<td><p><span data-ttu-id="48daf-125">bigint</span><span class="sxs-lookup"><span data-stu-id="48daf-125">bigint</span></span></p></td>
+<td><p><span data-ttu-id="23058-125"><strong>MacAddress</strong></span><span class="sxs-lookup"><span data-stu-id="23058-125"><strong>MacAddress</strong></span></span></p></td>
+<td><p><span data-ttu-id="23058-126">bigint</span><span class="sxs-lookup"><span data-stu-id="23058-126">bigint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="48daf-126">MAC 地址</span><span class="sxs-lookup"><span data-stu-id="48daf-126">MAC Address</span></span></p></td>
+<td><p><span data-ttu-id="23058-127">MAC 地址</span><span class="sxs-lookup"><span data-stu-id="23058-127">MAC Address</span></span></p></td>
 </tr>
 </tbody>
 </table>

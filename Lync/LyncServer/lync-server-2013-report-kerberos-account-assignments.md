@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：报告 Kerberos 帐户分配
+description: Lync Server 2013：报告 Kerberos 帐户分配。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 608757b71903ce5290f5f75936b5e5a3904f07fb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 23e40dddfc4538db70e2101b1bfcbbce2fe3fa8b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536329"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576118"
 ---
-# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a><span data-ttu-id="be6e5-102">在 Lync Server 2013 中报告 Kerberos 帐户分配</span><span class="sxs-lookup"><span data-stu-id="be6e5-102">Report Kerberos account assignments in Lync Server 2013</span></span>
+# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a><span data-ttu-id="97f7e-103">在 Lync Server 2013 中报告 Kerberos 帐户分配</span><span class="sxs-lookup"><span data-stu-id="97f7e-103">Report Kerberos account assignments in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,39 +38,39 @@ ms.locfileid: "48536329"
 
 <span> </span>
 
-<span data-ttu-id="be6e5-103">_**上次修改的主题：** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="be6e5-103">_**Topic Last Modified:** 2012-01-16_</span></span>
+<span data-ttu-id="97f7e-104">_**上次修改的主题：** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="97f7e-104">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-<span data-ttu-id="be6e5-104">要成功完成此过程，应以 RTCUniversalServerAdmins 组成员的身份登录。</span><span class="sxs-lookup"><span data-stu-id="be6e5-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
+<span data-ttu-id="97f7e-105">要成功完成此过程，应以 RTCUniversalServerAdmins 组成员的身份登录。</span><span class="sxs-lookup"><span data-stu-id="97f7e-105">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
 
-<span data-ttu-id="be6e5-105">可以使用 **Get-CsKerberosAccountAssignment** cmdlet 来查询有关 Kerberos 身份验证帐户分配的信息和报告部署中的当前分配的相关信息。</span><span class="sxs-lookup"><span data-stu-id="be6e5-105">You can use the **Get-CsKerberosAccountAssignment** cmdlet to query information about the Kerberos authentication account assignments and report information about the current assignments in your deployment.</span></span>
+<span data-ttu-id="97f7e-106">可以使用 **Get-CsKerberosAccountAssignment** cmdlet 来查询有关 Kerberos 身份验证帐户分配的信息和报告部署中的当前分配的相关信息。</span><span class="sxs-lookup"><span data-stu-id="97f7e-106">You can use the **Get-CsKerberosAccountAssignment** cmdlet to query information about the Kerberos authentication account assignments and report information about the current assignments in your deployment.</span></span>
 
 <div>
 
-## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a><span data-ttu-id="be6e5-106">查询某个站点的 Kerberos 身份验证帐户分配</span><span class="sxs-lookup"><span data-stu-id="be6e5-106">To query Kerberos authentication account assignments for a site</span></span>
+## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a><span data-ttu-id="97f7e-107">查询某个站点的 Kerberos 身份验证帐户分配</span><span class="sxs-lookup"><span data-stu-id="97f7e-107">To query Kerberos authentication account assignments for a site</span></span>
 
-1.  <span data-ttu-id="be6e5-107">作为 RTCUniversalServerAdmins 组的成员，登录到运行 Lync Server 2013 的域中的计算机或登录到安装了管理工具的计算机。</span><span class="sxs-lookup"><span data-stu-id="be6e5-107">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
+1.  <span data-ttu-id="97f7e-108">作为 RTCUniversalServerAdmins 组的成员，登录到运行 Lync Server 2013 的域中的计算机或登录到安装了管理工具的计算机。</span><span class="sxs-lookup"><span data-stu-id="97f7e-108">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
 
-2.  <span data-ttu-id="be6e5-108">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="be6e5-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="97f7e-109">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="97f7e-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="be6e5-109">从命令行运行下列命令之一：</span><span class="sxs-lookup"><span data-stu-id="be6e5-109">From the command line, run one of the following commands:</span></span>
+3.  <span data-ttu-id="97f7e-110">从命令行运行下列命令之一：</span><span class="sxs-lookup"><span data-stu-id="97f7e-110">From the command line, run one of the following commands:</span></span>
     
-      - <span data-ttu-id="be6e5-110">要查询组织中的所有 Kerberos 身份验证帐户分配并返回每一个的相关分配信息，请运行不带任何参数的 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="be6e5-110">To query all Kerberos authentication account assignments in your organization and return assignment information about each of them, run the cmdlet without any parameters:</span></span>
+      - <span data-ttu-id="97f7e-111">要查询组织中的所有 Kerberos 身份验证帐户分配并返回每一个的相关分配信息，请运行不带任何参数的 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="97f7e-111">To query all Kerberos authentication account assignments in your organization and return assignment information about each of them, run the cmdlet without any parameters:</span></span>
         
             Get-CsKerberosAccountAssignment
     
-      - <span data-ttu-id="be6e5-111">要查询部署中的所有 Kerberos 身份验证帐户分配并返回每一个的相关站点分配信息，请运行带有 Identity 参数的 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="be6e5-111">To query all Kerberos authentication account assignments in your deployment and return site assignment information about each of them, run the cmdlet with the Identity parameter:</span></span>
+      - <span data-ttu-id="97f7e-112">要查询部署中的所有 Kerberos 身份验证帐户分配并返回每一个的相关站点分配信息，请运行带有 Identity 参数的 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="97f7e-112">To query all Kerberos authentication account assignments in your deployment and return site assignment information about each of them, run the cmdlet with the Identity parameter:</span></span>
         
             Get-CsKerberosAccountAssignment -Identity "site:SiteName"
         
-        <span data-ttu-id="be6e5-112">例如：</span><span class="sxs-lookup"><span data-stu-id="be6e5-112">For example:</span></span>
+        <span data-ttu-id="97f7e-113">例如：</span><span class="sxs-lookup"><span data-stu-id="97f7e-113">For example:</span></span>
         
             Get-CsKerberosAccountAssignment -Identity "site:Redmond"
     
-      - <span data-ttu-id="be6e5-113">要查询单个站点中的所有 Kerberos 身份验证帐户分配并返回每一个的相关分配信息，请运行带有 Filter 参数的 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="be6e5-113">To query all Kerberos authentication account assignments in a single site and return assignment information about each of them, run the cmdlet with the Filter parameter:</span></span>
+      - <span data-ttu-id="97f7e-114">要查询单个站点中的所有 Kerberos 身份验证帐户分配并返回每一个的相关分配信息，请运行带有 Filter 参数的 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="97f7e-114">To query all Kerberos authentication account assignments in a single site and return assignment information about each of them, run the cmdlet with the Filter parameter:</span></span>
         
             Get-CsKerberosAccountAssignment -Filter "SiteName"
         
-        <span data-ttu-id="be6e5-114">例如：</span><span class="sxs-lookup"><span data-stu-id="be6e5-114">For example:</span></span>
+        <span data-ttu-id="97f7e-115">例如：</span><span class="sxs-lookup"><span data-stu-id="97f7e-115">For example:</span></span>
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
@@ -77,7 +78,7 @@ ms.locfileid: "48536329"
         
 
         > [!NOTE]  
-        > <span data-ttu-id="be6e5-115">指定 Filter 参数的 \*SiteName 将返回有关在站点标识符的任何位置包含指定的站点名称的所有站点（例如，在站点标识符中包含字符串 Redmond 的所有站点）的相关信息。</span><span class="sxs-lookup"><span data-stu-id="be6e5-115">Specifying \*SiteName for the Filter parameter returns information about all sites that contain the specified site name anywhere in the site identifier (for example, all sites that contain the string Redmond in the site identifier).</span></span>
+        > <span data-ttu-id="97f7e-116">指定 Filter 参数的 \*SiteName 将返回有关在站点标识符的任何位置包含指定的站点名称的所有站点（例如，在站点标识符中包含字符串 Redmond 的所有站点）的相关信息。</span><span class="sxs-lookup"><span data-stu-id="97f7e-116">Specifying \*SiteName for the Filter parameter returns information about all sites that contain the specified site name anywhere in the site identifier (for example, all sites that contain the string Redmond in the site identifier).</span></span>
 
         
         </div>
