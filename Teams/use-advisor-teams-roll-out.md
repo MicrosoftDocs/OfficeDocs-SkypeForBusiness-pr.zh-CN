@@ -17,14 +17,15 @@ appliesto:
 localization_priority: Priority
 f1.keywords:
 - CSH
-ms.custom: ''
+ms.custom:
+- ms.teamsadmincenter.deploymentadvisor.overview
 description: 使用 Advisor for Teams 帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: 4315ab438131e6b7e119a3e0dc48fee661190552
-ms.sourcegitcommit: 272995feb5661712668404ba57ce7afdf3b848be
+ms.openlocfilehash: 00ec8303c73df100b93808f5fdc1e775f80ec289
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2020
-ms.locfileid: "47474641"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503419"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
