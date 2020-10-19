@@ -20,7 +20,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 10/17/2020
 ms.locfileid: "48567048"
 ---
-# <a name="frontend-table-in-lync-server-2013"></a><span data-ttu-id="30f70-103">Lync Server 2013 中的前端表</span><span class="sxs-lookup"><span data-stu-id="30f70-103">FrontEnd table in Lync Server 2013</span></span>
+# <a name="frontend-table-in-lync-server-2013"></a><span data-ttu-id="61185-103">Lync Server 2013 中的前端表</span><span class="sxs-lookup"><span data-stu-id="61185-103">FrontEnd table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,9 +38,9 @@ ms.locfileid: "48567048"
 
 <span> </span>
 
-<span data-ttu-id="30f70-104">_**上次修改的主题：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="30f70-104">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="61185-104">_**上次修改的主题：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="61185-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="30f70-105">FrontEnd 表仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="30f70-105">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="30f70-106">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="30f70-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="61185-105">FrontEnd 表仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="61185-105">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="61185-106">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="61185-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 
