@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解如何从 Microsoft 365 合规中心中的审核日志检索 Microsoft 团队数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: df628d772992ed434f79f436c624c3672b1746eb
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897702"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599477"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -49,7 +49,9 @@ ms.locfileid: "46897702"
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>从审核日志检索 Teams 数据
 
 1. 要检索审核日志，请转到[安全与合规中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 " **搜索**" 下，选择 " **审核日志搜索**"。
+
 2. 使用“**搜索**”按活动、日期和你要审核的用户进行筛选。
+
 3. 将结果导出到 Excel 以供进一步分析。
 
 > [!IMPORTANT]
@@ -63,8 +65,9 @@ ms.locfileid: "46897702"
 
 ![审核日志搜索页面的屏幕截图](media/audit-log-search-page.png)
 
-- 你可以通过单击活动名称来选择要搜索的特定活动。 或者，您可以通过单击组名称来搜索组中的所有活动 (例如 **文件和文件夹活动**) 。 如果已选择活动，则可以单击它以取消选择。 你还可以使用搜索框显示包含你键入的关键字的活动。<br>
-    ![审核日志搜索的屏幕截图](media/audit-log-search.png)
+- 你可以通过单击活动名称来选择要搜索的特定活动。 或者，您可以通过单击组名称来搜索组中的所有活动 (例如 **文件和文件夹活动**) 。 如果已选择活动，则可以单击它以取消选择。 你还可以使用搜索框显示包含你键入的关键字的活动。
+
+  ![审核日志搜索的屏幕截图](media/audit-log-search.png)
 
 - 若要显示使用 cmdlet 运行的活动事件，请在 "**活动**" 列表中选择 "**显示所有活动的结果**"。 如果您知道这些活动的操作的名称，请搜索所有活动，然后通过在 " **活动** " 列的框中键入操作的名称来筛选结果。 若要了解详细信息，请参阅 [步骤3：筛选搜索结果](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)。
 
@@ -133,7 +136,7 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 |已添加选项卡    |TabAdded         |用户将选项卡添加到频道。        |
 |已更改频道设置    |ChannelSettingChanged         |当团队成员执行以下活动时，将记录 ChannelSettingChanged 操作。 对于这些活动中的每个活动，在审核日志搜索结果的 " **项目** " 列中显示已更改 (括号中所更改设置的说明。 <ul><li>更改团队频道 (**频道名称** 的名称) </li><li> (**频道描述**) 的 "更改团队频道" 说明</li> </ul>      |
 |已更改的组织设置   |TeamsTenantSettingChanged         |当 Microsoft 365 管理中心中的全局管理员执行以下活动时，将记录 TeamsTenantSettingChanged 操作。 这些活动影响组织范围的团队设置。 若要了解详细信息，请参阅 [管理你的组织的团队设置](enable-features-office-365.md)。 <br>对于这些活动中的每个活动，在审核日志搜索结果的 " **项目** " 列中显示已更改 () 中显示的设置的说明。<ul><li>启用或禁用 (**Microsoft 团队**) 的组织团队。</li><li>为组织 (**skype For business 互操作性**) 启用或禁用 Microsoft 团队和 skype for business 之间的互操作性。</li><li>启用或禁用 "Microsoft 团队客户" 中的组织结构图视图 (**组织结构图视图** ") 。</li><li>允许或禁止团队成员安排私人会议 (**私人会议安排**) 的功能。</li><li>启用或禁用团队成员 (**频道会议安排**) 安排频道会议的功能。</li><li>启用或禁用) **Skype 会议 (视频的** 团队会议中的视频通话。</li><li>在 Microsoft 团队聚会中启用或禁用) **Skype 会议 (屏幕共享** 的 "屏幕共享"。</li><li>允许或禁止 (名为 Giphy) 的动画图像添加到团队对话 (**动画图像**) 。</li><li>更改组织 (**内容分级**) 的内容评级设置。 内容分级限制可在对话中显示的动画图像的类型。</li><li>允许或禁止团队成员将可自定义的图像添加 (称为自定义 meme) 从 internet 到团队对话 (来自 Internet 的自 **定义图像**) 。</li><li>允许或禁止团队成员将可编辑的图像添加 (称为贴纸) 到团队对话 (**可编辑的图像**) 。</li><li>启用或禁用团队成员在 Microsoft 团队聊天和频道中使用机器人的功能， (**组织范围内的 bot) **。</li><li>为 Microsoft 团队启用特定的 bot。 这不包括 T-机器人，在为组织 (**单个 bot**) 中启用了机器人的情况下，这些功能是团队帮助机器人。</li><li>启用或禁用团队成员 (**扩展名或选项** 卡添加) 的扩展或选项卡的功能。</li><li>启用或禁用用于 Microsoft 团队的专用 bot 的侧面加载) 的 (**面加载** 。</li><li>启用或禁用用户将电子邮件发送到 Microsoft 团队频道 (**频道电子邮件**) 的功能。</li></ul>|
-|已更改团队成员的角色    |MemberRoleChanged         |团队所有者更改团队成员的角色。 以下值表示分配给用户的角色类型。 <br><br>**1** -指示所有者角色。<br>**2** -指示成员角色。<br>**3** -指示来宾角色。<br><br>Members 属性还包括您的组织的名称和成员的电子邮件地址。        |
+|已更改团队成员的角色    |MemberRoleChanged         |团队所有者更改团队成员的角色。 以下值表示分配给用户的角色类型。 <br><br>**1** -指示成员角色。<br>**2** -指示所有者角色。<br>**3** -指示来宾角色。<br><br>Members 属性还包括您的组织的名称和成员的电子邮件地址。        |
 |已更改的团队设置    |TeamSettingChanged        |当团队所有者执行以下活动时，将记录 TeamSettingChanged 操作。 对于这些活动中的每个活动，在审核日志搜索结果的 " **项目** " 列中显示已更改 () 中显示的设置的说明。<ul><li>更改团队的访问权限类型。 团队可以设置为私人或公共 (**团队访问类型**) 。 当团队 (默认设置) 时，用户只能通过邀请访问团队。 当团队是公共团队时，它会被任何人发现。</li><li>更改团队 (**团队分类**) 的信息分类。 例如，可以将团队数据分类为高业务影响、中型企业影响或低业务影响。</li><li>更改团队 (**团队名称**) 的名称。</li><li> (**团队描述**) 更改团队说明。</li><li>对团队设置所做的更改。 若要访问这些设置，团队所有者可以右键单击团队，选择 " **管理团队**"，然后单击 " **设置** " 选项卡。对于这些活动，已更改的设置的名称将显示在审核日志搜索结果的 " **项目** " 列中。</li></ul>         |
 |已创建团队    |TeamCreated         |用户创建团队。         |
 |已删除所有组织应用|DeletedAllOrganizationApps           |已从目录中删除所有组织应用。     |

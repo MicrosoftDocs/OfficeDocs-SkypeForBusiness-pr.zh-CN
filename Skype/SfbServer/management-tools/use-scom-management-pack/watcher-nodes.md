@@ -15,11 +15,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 摘要：为 Skype for business Server 综合事务安装和配置观察程序节点。
 ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640939"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48599634"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>安装和配置观察程序节点
  
@@ -27,13 +27,13 @@ ms.locfileid: "46640939"
   
 观察程序节点是定期运行 Skype for Business Server 合成事务的计算机。 综合事务是用于验证关键用户方案（如登录或 exchange 即时消息的功能）是否按预期工作的 Windows PowerShell cmdlet。 对于 Skype for business Server 2015，System Center Operations Manager 可以运行下表中所示的综合事务，其中包括三个综合事务类型：
   
-- **默认值**默认情况下，观察程序节点运行的综合事务。 在创建新的观察程序节点时，可以指定将运行该节点的合成事务。  (New-cswatchernodeconfiguration cmdlet 使用的测试参数的用途。 ) 如果在创建观察程序节点时不使用测试参数，它将自动运行所有默认的综合事务，并且不会运行任何非默认的综合事务。 例如，这意味着观察程序节点将配置为运行 CsAddressBookService 测试，但不会配置为运行测试 Test-csexumconnectivity 测试。
+- **默认值** 默认情况下，观察程序节点运行的综合事务。 在创建新的观察程序节点时，可以指定将运行该节点的合成事务。  (New-CsWatcherNodeConfiguration cmdlet 使用的测试参数的用途。 ) 如果在创建观察程序节点时不使用测试参数，则它将自动运行所有默认的综合事务，且不会运行任何非默认的综合事务。 例如，这意味着观察程序节点将配置为运行 Test-CsAddressBookService 测试，但不会配置为运行 Test-CsExumConnectivity 测试。
     
-- **非默认**测试观察程序节点是否在默认情况下不运行。  (有关详细信息，请参阅默认类型的说明。 ) 但是，可以启用观察程序节点以运行任何非默认的综合事务。 在使用 New-cswatchernodeconfiguration cmdlet) 创建观察程序节点 (时，或者在创建观察程序节点之后的任何时间，都可以执行此操作。 请注意，许多非默认的综合事务需要额外的安装步骤。 有关这些步骤的更多详细信息，请参阅[专用的综合事务设置说明](test-users-and-settings.md#special_synthetictrans)。
+- **非默认** 测试观察程序节点是否在默认情况下不运行。  (有关详细信息，请参阅默认类型的说明。 ) 但是，可以启用观察程序节点以运行任何非默认的综合事务。 在创建观察程序节点 (时，可以使用 New-CsWatcherNodeConfiguration cmdlet) ，或在创建观察程序节点之后的任何时间创建该程序。 请注意，许多非默认的综合事务需要额外的安装步骤。 有关这些步骤的更多详细信息，请参阅 [专用的综合事务设置说明](test-users-and-settings.md#special_synthetictrans)。
     
-- **扩展**一种特殊类型的非默认综合事务。 与其他综合事务不同，扩展测试可在每次通过的情况下运行多次。 这在验证行为（如多个公开交换的电话网络） (PSTN) 语音路由以用于池时非常有用。 只需将扩展测试的多个实例添加到观察程序节点即可配置此设置。
+- **扩展** 一种特殊类型的非默认综合事务。 与其他综合事务不同，扩展测试可在每次通过的情况下运行多次。 这在验证行为（如多个公开交换的电话网络） (PSTN) 语音路由以用于池时非常有用。 只需将扩展测试的多个实例添加到观察程序节点即可配置此设置。
     
-有关将其他综合事务添加到观察程序节点的过程的详细信息，请参阅[Configure a 观察程序节点以运行综合事务](watcher-nodes.md#enable_synthetic_trans)。 您还可以使用 Skype for Business Server 命令行管理程序从观察程序节点中删除综合事务。
+有关将其他综合事务添加到观察程序节点的过程的详细信息，请参阅 [Configure a 观察程序节点以运行综合事务](watcher-nodes.md#enable_synthetic_trans)。 您还可以使用 Skype for Business Server 命令行管理程序从观察程序节点中删除综合事务。
   
 可用于观察程序节点的综合事务包括：
   
@@ -42,8 +42,8 @@ ms.locfileid: "46640939"
 |Test-CsAddressBookService (ABS)  <br/> |确认用户能够查找不在其联系人列表中的用户。  <br/> |
 |Test-CsAddressBookWebQuery (ABWQ)  <br/> |确认用户能够通过 HTTP 查找不在其联系人列表中的用户。  <br/> |
 |Test-CsAVConference (AvConference)   <br/> |确保用户能够创建和参与音频/视频会议。  <br/> |
-|CsGroupIM (IM 会议) 的测试-  <br/> |确保用户能够在会议中发送即时消息并且可参与三个或三个以上的人员组成的即时消息对话。  <br/> |
-|CsIM (P2P IM)   <br/> |确保用户能够发送对等即时消息。  <br/> |
+|Test-CsGroupIM (IM 会议)   <br/> |确保用户能够在会议中发送即时消息并且可参与三个或三个以上的人员组成的即时消息对话。  <br/> |
+|Test-CsIM (P2P IM)   <br/> |确保用户能够发送对等即时消息。  <br/> |
 |Test-CsP2PAV (P2PAV)   <br/> |确保用户能够发出对等音频呼叫（仅信号）。  <br/> |
 |Test-CsPresence (Presence)  <br/> |确认用户能够查看其他用户的状态。  <br/> |
 |Test-CsRegistration (Registration)  <br/> |确认用户能够登录 Skype for Business。  <br/> |
@@ -51,15 +51,15 @@ ms.locfileid: "46640939"
 |Test-CsASConference (ASConference)   <br/> |确认用户能够创建和参与应用程序共享会议。  <br/> |
 |Test-CsAVEdgeConnectivity (AVEdgeConnectivity)   <br/> |确认音频视频边缘服务器能够接受对等呼叫和会议呼叫的连接。  <br/> |
 |Test-CsDataConference (DataConference)   <br/> |确认用户可以参与数据协作会议 (包含诸如白板和轮询等活动的联机会议) 。  <br/> |
-|Test-Test-csdialinconferencing (DialinConferencing)   <br/> |确认用户能够拨打电话号码以加入会议。  <br/> |
-|Test-Test-csdialinconferencing (DialinConferencing)   <br/> |确认用户能够拨打电话号码以加入会议。  <br/> |
-|Test-Test-csexumconnectivity (ExumConnectivity)   <br/> |确认用户可以连接到 Exchange 统一消息 (UM) 。  <br/> |
-|CsGroupIM-TestJoinLauncher (JoinLauncher)   <br/> |确认用户能够创建和加入 web 地址链接)  (的计划会议。  <br/> |
-|Test-Test-csmcxp2pim (MCXP2PIM)   <br/> |确保移动设备用户能够注册和发送即时消息。  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)   <br/> |确认用户能够拨打电话号码以加入会议。  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)   <br/> |确认用户能够拨打电话号码以加入会议。  <br/> |
+|Test-CsExumConnectivity (ExumConnectivity)   <br/> |确认用户可以连接到 Exchange 统一消息 (UM) 。  <br/> |
+|Test-CsGroupIM-TestJoinLauncher (JoinLauncher)   <br/> |确认用户能够创建和加入 web 地址链接)  (的计划会议。  <br/> |
+|Test-CsMCXP2PIM (MCXP2PIM)   <br/> |确保移动设备用户能够注册和发送即时消息。  <br/> |
 |Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)   <br/> |确认视频互操作服务器已启动，并且可以通过视频 SIP 中继处理传入连接。  <br/> **注意：** MCX 对旧版移动客户端的支持不再在 Skype for Business Server 2019 中可用。 |
 |Test-CsPersistentChatMessage (PersistentChatMessage)   <br/> |确认用户可以使用持久聊天服务交换邮件。  <br/> |
-|Test-Test-csucwaconference (UcwaConference)   <br/> |确认用户可以通过 web 加入会议。  <br/> |
-|Test-Test-csunifiedcontactstore (UnifiedContactStore)   <br/> |确保可通过统一的联系人存储库访问用户的联系人。 统一联系人存储为用户提供了一种方法来维护一组可通过使用 Skype for Business Server 2015、Outlook 消息传递和协作客户端和/或 Outlook Web Access 访问的联系人。  <br/> |
+|Test-CsUcwaConference (UcwaConference)   <br/> |确认用户可以通过 web 加入会议。  <br/> |
+|Test-CsUnifiedContactStore (UnifiedContactStore)   <br/> |确保可通过统一的联系人存储库访问用户的联系人。 统一联系人存储为用户提供了一种方法来维护一组可通过使用 Skype for Business Server 2015、Outlook 消息传递和协作客户端和/或 Outlook Web Access 访问的联系人。  <br/> |
 |Test-CsXmppIM (XmppIM)   <br/> |确认即时消息可以通过可扩展消息和状态协议 (XMPP) 网关发送。  <br/> XMPP 网关和代理在 Skype for business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。  |
 
 您无需安装观察程序节点即可使用 System Center Operations Manager。 如果不安装这些节点，则在出现问题时，您仍可以获取 Skype for Business Server 2015 组件的实时警报。  (组件和用户管理包不使用观察程序节点。 ) 但是，如果要使用活动监视管理包监视端到端方案，则需要观察程序节点。
@@ -80,7 +80,7 @@ Lync Server 2013 观察程序节点可以部署在企业内部或外部，以帮
     
 - 在企业内部和通过外围网络连接到 Lync Server 2013。
     
-为了帮助简化管理，企业内部和外部提供了不同的身份验证选项。 有关详细信息，请参阅[Configure a 观察程序节点以运行综合事务](watcher-nodes.md#enable_synthetic_trans)。
+为了帮助简化管理，企业内部和外部提供了不同的身份验证选项。 有关详细信息，请参阅 [Configure a 观察程序节点以运行综合事务](watcher-nodes.md#enable_synthetic_trans)。
   
 若要配置计算机充当观察程序节点，必须首先完成以下先决条件： 
   
@@ -102,7 +102,7 @@ Lync Server 2013 观察程序节点可以部署在企业内部或外部，以帮
     
 3. 运行 Watchernode.msi 的可执行文件。
     
-4. 使用**new-cswatchernodeconfiguration** cmdlet 可以配置要由观察程序节点使用的测试用户帐户。
+4. 使用 **new-cswatchernodeconfiguration** cmdlet 可以配置要由观察程序节点使用的测试用户帐户。
     
 ## <a name="install-the-skype-for-business-server-2015-core-files-and-the-rtclocal-database"></a>安装 Skype for Business Server 2015 Core 文件和 RTCLocal 数据库
 
@@ -112,7 +112,7 @@ Lync Server 2013 观察程序节点可以部署在企业内部或外部，以帮
   
 1. 在观察程序节点计算机上，依次单击“开始”、“所有程序”和“附件”，再右键单击“命令提示符”，然后单击“以管理员身份运行”。
     
-2. 在控制台窗口中，键入以下命令，然后按 ENTER 键。 请务必输入 Skype for business Server 安装程序文件的相应路径： D:\Setup.exe/BootstrapLocalMgmtTo 验证是否已成功安装核心 Skype for business Server 组件，请依次单击 "**开始**"、"**所有程序**"、" **skype for business server 2015**"，然后单击 " **skype for business server Management Shell**"。 在 Skype for Business Server 命令行管理程序中，键入以下 Windows PowerShell 命令，然后按 ENTER：
+2. 在控制台窗口中，键入以下命令，然后按 ENTER 键。 请务必输入 Skype for business Server 安装程序文件的相应路径： D:\Setup.exe/BootstrapLocalMgmtTo 验证是否已成功安装核心 Skype for business Server 组件，请依次单击 " **开始**"、" **所有程序**"、" **skype for business server 2015**"，然后单击 " **skype for business server Management Shell**"。 在 Skype for Business Server 命令行管理程序中，键入以下 Windows PowerShell 命令，然后按 ENTER：
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
@@ -123,7 +123,7 @@ Get-CsWatcherNodeConfiguration
   
 如果您的观察程序节点计算机位于您的外围网络中，则可以运行以下命令来验证 Skype for Business Server 2015 的安装：
   
-CsPinPolicyYou 将接收与此类似的信息，具体取决于配置为在组织中使用的 PIN 策略数：
+Get-CsPinPolicyYou 将接收与此类似的信息，具体取决于配置为在组织中使用的 PIN 策略数：
   
 标识：全局
   
@@ -145,7 +145,7 @@ MaximumLogonAttempts :
 
 与用于报告组件警报的 Skype for business Server 安装程序类似，Skype for business Server 2015 观察程序节点需要安装 System Center Operations Manager 代理文件。 这样，就可以运行合成事务，并将警报报告给 System Center Operations Manager 根管理服务器。
   
-若要安装代理文件，请按照[配置将受监视的 Skype for Business Server 计算机](configure-computers-to-monitor.md)中列出的过程操作。
+若要安装代理文件，请按照 [配置将受监视的 Skype for Business Server 计算机](configure-computers-to-monitor.md)中列出的过程操作。
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>配置观察程序节点以运行综合事务
 <a name="enable_synthetic_trans"> </a>
@@ -182,13 +182,13 @@ New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
-在创建受信任的应用程序池之后，可以使用**CsTrustedApplication** cmdlet 和类似如下的命令，将观察程序节点计算机配置为将综合事务作为受信任的应用程序运行：
+在创建受信任的应用程序池之后，可以使用 **CsTrustedApplication** cmdlet 和类似如下的命令，将观察程序节点计算机配置为将综合事务作为受信任的应用程序运行：
   
 ```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
-完成此命令并创建受信任的应用程序后，您必须运行**enable-cstopology** cmdlet，以确保更改生效：
+完成此命令并创建受信任的应用程序后，您必须运行 **enable-cstopology** cmdlet，以确保更改生效：
   
 ```PowerShell
 Enable-CsTopology
@@ -254,7 +254,7 @@ TrustedServer 模式只能用于位于外围网络内部的计算机。 当观�
 
 如果您的观察程序节点计算机位于外围网络之外，则您必须执行略微不同的过程，以便将该观察程序节点配置为运行综合事务：尤其是，您不应创建受信任的应用程序池或受信任的应用程序。 这意味着您需要完成接下来的两个任务。
   
-### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>更新 RTC 本地只读 Administrators 组中的成员身份
+### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>更新 RTC Local Read-Only Administrators 组中的成员身份
 
 如果您的观察程序节点位于外围网络之外，则必须通过在观察程序节点上完成以下过程，将网络服务帐户添加到观察程序节点计算机上的 RTC 本地只读 Administrators 组中：
   

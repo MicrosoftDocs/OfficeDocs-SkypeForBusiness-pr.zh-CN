@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解如何在小型企业或中型企业中为需要使用电话拨入会议的用户设置音频会议。 '
-ms.openlocfilehash: 13dd6812d6eaf51d2f88ac6d8831552cb63d5a9d
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: b692654a0a874ea0c07f074daefe203aef2f80bc
+ms.sourcegitcommit: 764605e226bc7d9cf45e9833c758d30da29132c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389940"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594643"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>为中小型企业设置音频会议
 
@@ -86,7 +86,7 @@ ms.locfileid: "48389940"
 
 ## <a name="audio-conferencing-phone-numbers"></a>音频会议电话号码
 
-您可以使用两种类型的号码作为您的会议桥。 您可以使用本文前面部分所述 (**共享号码**) 或 **专用号码**。 下面是有关每个的详细信息。
+您可以使用两种类型的号码作为您的会议桥。 可以使用 " **共享号码** " (，如本文前面的 " [设置音频会议](#set-up-audio-conferencing) " 部分) 或 " **专用号码**"。 下面是有关每个的详细信息。
 
 ### <a name="shared-numbers"></a>共享号码
 

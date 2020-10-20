@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae0583225de5eabfd6cad77895859f9c7159276f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b0d3e656ae8d102199e0dcb7ebd61a4d5d15c2f
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508079"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599467"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -35,7 +35,7 @@ ms.locfileid: "48508079"
 |-----------|---------------|
 |用户可创建的团队数 | 限制为 250 个对象&sup1;         |
 |用户可以成为其成员的团队数|1,000&sup2;|
-|团队中的成员数 | 10,000       |
+|团队中的成员数 | 10,000<sup>5</sup>     |
 |每个团队的所有者数 | 100   |
 |租户中允许的组织范围内的团队数 | 5     |
 |[组织范围内的团队](create-an-org-wide-team.md)中的成员数 | 5,000       |
@@ -44,17 +44,18 @@ ms.locfileid: "48508079"
 |每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
 |各团队专用频道数    |30| （包括已删除的频道）&sup3;
 |专用频道中的成员数    |250|
-|Office 365 组中最多可以有多少名成员以转换为团队    |10,000|
+|Office 365 组中最多可以有多少名成员以转换为团队    |10,000<sup>5</sup>     |
 |频道对话文章大小 | 每篇文章约 28 KB<sup>4</sup> |
 
 <sup>1</sup> Azure Active Directory 中的目录对象均计入此限额。 如同使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
 
-<sup>2</sup> 此限制涵盖已存档的团队。 若要超出最大限制，你必须联系 Microsoft 支持部门。
+<sup>2</sup> 此限制涵盖已存档的团队。
 
 <sup>3</sup> 已删除的频道可在删除后 30 天内还原。 在这 30 天内，已删除的频道仍然计入每个团队 200 个频道或 30 个专用频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队的限额内。
 
 <sup>4</sup> 28 KB 是一个近似限制，因为它包含消息本身（文本和图像链接等）、@提及、连接器数量和回应。
 
+<sup>5</sup> GCC 的 团队中仅可容纳 5000 名成员，而 GCCH/DoD 的团队只能容纳 2500 名成员。
 ## <a name="messaging"></a>消息传递
 
 ### <a name="chat"></a>聊天

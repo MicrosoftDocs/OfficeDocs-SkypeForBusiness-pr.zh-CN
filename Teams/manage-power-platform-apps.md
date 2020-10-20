@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队管理中心中管理对 Power Platform 应用的访问权限。
-ms.openlocfilehash: 74bfabaff0ec7ed5f27c08ac86b325164d9dad10
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171440"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599547"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理 Power Platform 应用
 
@@ -78,6 +78,13 @@ ms.locfileid: "48171440"
 例如，若要阻止特定用户访问在 Power Apps 中创建的应用，请创建一个自定义应用权限策略来阻止 **共享的 Power 应用**，然后为这些用户分配策略。
 
 :::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="已阻止共享 Power 应用的示例自定义应用权限策略的屏幕截图":::
+
+### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>使用审核日志检查 Power Platform 安装活动
+
+你可以使用团队的审核日志来调查用户从团队中的 "应用" 页面的 " **由你的同事构建** 的" 部分中安装了 Power Platform 应用的事件。 若要执行此操作，请在 " **AppInstalled**) 操作" 下为给定用户或一组用户搜索 "**已安装的应用**团队事件" (的[审核日志](https://docs.microsoft.com/microsoftteams/audit-log-events)。 若要查找从 "**同事构建**的" 部分安装的应用，请在给定记录的详细信息中的**AppDistributionMode**属性下查找**TemplatedInstance**值。 
+
+> [!NOTE]
+> 你可以以 CSV 格式导出审核记录，以便更轻松地进行筛选。
 
 ## <a name="related-topics"></a>相关主题
 
