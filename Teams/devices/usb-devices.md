@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 Microsoft 团队认证了哪些 USB 外围设备和设备，如耳机、免提、网络摄像头和监视器。
-ms.openlocfilehash: 446518d9221cd9f484b47f3f098d95db3997dd3d
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 94cad46104cd3c9c225abeac673d9ad17130b801
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427687"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625098"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>为 Microsoft 团队认证的 USB 音频和视频设备
 
@@ -74,10 +74,12 @@ ms.locfileid: "48427687"
 
 ## <a name="certified-devices"></a>认证的设备
 
-*2020年8月更新的表格*
+*2020年10月更新的表*
 
 | 制造商        | 型                                                     | 获      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |升级到 Microsoft 团队的 Skype for Business      |
 |Jabra evolve                |演化80耳机                                          |8/23/2020       |升级到 Microsoft 团队的 Skype for Business      |
 |Jabra evolve                |演化40耳机                                          |8/23/2020       |升级到 Microsoft 团队的 Skype for Business      |
 |Jabra evolve                |发展30个 II 耳机                                       |8/23/2020       |升级到 Microsoft 团队的 Skype for Business      |

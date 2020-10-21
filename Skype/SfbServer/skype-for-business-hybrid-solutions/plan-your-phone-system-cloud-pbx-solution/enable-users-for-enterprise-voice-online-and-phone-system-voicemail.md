@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 了解如何为你的 Skype for Business 用户启用电话系统语音服务。
-ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359178"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625108"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>为用户启用联机企业语音和 电话系统语音邮件
  
@@ -41,14 +41,18 @@ ms.locfileid: "47359178"
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>为用户启用电话系统语音和语音邮件
 
-1. 在开始之前，请检查是否在前端服务器上部署了 Skype for Business Online 连接器 (Windows PowerShell module) 。 如果不是，则可以从 [下载中心](https://www.microsoft.com/download/details.aspx?id=39366)下载它。 您可以在 [为计算机配置 Skype for Business Online 管理](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)中找到有关使用此模块的详细信息。
+> [!NOTE]
+> Skype for Business Online 连接器当前是最新团队 PowerShell 模块的一部分。
+> 如果您使用的是最新的 [团队 PowerShell 公开发布](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
+
+1. 在开始之前，请检查团队 PowerShell 模块是否已安装在前端服务器上。 如果不是，请按照 [工作组 PowerShell 模块安装](https://docs.microsoft.com/microsoftteams/teams-powershell-install)中的说明进行安装。
     
 2. 以管理员身份启动 Windows PowerShell。
     
 3. 键入以下命令，然后按 Enter：
     
    ```powershell
-   Import-Module skypeonlineconnector
+   Import-Module MicrosoftTeams
    ```
 
 4. 键入以下命令，然后按 Enter：
@@ -75,7 +79,7 @@ ms.locfileid: "47359178"
 
     在 Skype for business 服务器上运行 PowerShell 时，在打开 PowerShell 时，本地 Skype for Business cmdlet 已加载。 您必须指定-AllowClobber 参数，以允许联机 cmdlet 覆盖具有相同名称的本地 cmdlet。
     
-8. 使用 Get-csuser cmdlet 将 $EnterpriseVoiceEnabled 和 $HostedVoiceMail 属性分配给用户，如下所示：
+8. 使用 Set-CsUser cmdlet 将 $EnterpriseVoiceEnabled 和 $HostedVoiceMail 属性分配给您的用户，如下所示：
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -172,7 +176,7 @@ ms.locfileid: "47359178"
   
 ### <a name="to-unassign-a-per-user-voice-routing-policy"></a>取消分配每用户语音路由策略
 
-- 使用 Grant-csvoiceroutingpolicy 可取消分配之前分配给 Ken Myer 的任何每用户语音路由策略。 在未分配每用户语音路由策略之后，将自动使用全局语音路由策略管理 Ken Myer。
+- 使用 Grant-CsVoiceRoutingPolicy 取消分配之前分配给 Ken Myer 的任何每用户语音路由策略。 在未分配每用户语音路由策略之后，将自动使用全局语音路由策略管理 Ken Myer。
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
