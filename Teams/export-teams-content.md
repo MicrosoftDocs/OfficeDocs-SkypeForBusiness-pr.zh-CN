@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbb03fc030361419e5f42b2e792e752f2007e6d2
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 026b7f238b059b4e310fa2216b482c68f2528780
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333488"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650975"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>将内容与 Microsoft 团队导出 Api 一起导出
 

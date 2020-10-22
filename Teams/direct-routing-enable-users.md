@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何启用 Microsoft 手机系统直接路由用户。
-ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5739797649c639e3259c6972da665ae0ced4b4bf
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814541"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655479"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>为用户启用直接路由、语音和语音邮件
 
@@ -91,7 +91,7 @@ ms.locfileid: "47814541"
 2. 发出命令： 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     
     例如，若要为用户 "Spencer Low" 添加电话号码，请输入以下内容： 
@@ -99,9 +99,18 @@ ms.locfileid: "47814541"
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
+    如果用户 "Spencer Low" 和 "Stacy Quinn" 与唯一扩展名共享相同的基本号码，请输入以下
+    
+    ```PowerShell
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-    使用的电话号码必须配置为完整的 E-164 个国家/地区代码的电话号码。 
-
+    建议使用的电话号码配置为完整的 E-164 电话号码（国家/地区代码）。 支持使用扩展配置电话号码，当基础号码的查找结果超过一个时，将用于查找用户。 这允许公司配置具有相同基本号码和唯一扩展名的电话号码。 为使查找成功，邀请必须包含带扩展名的完整号码，如下所示：
+    ```PowerShell
+    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    ```
+    
     > [!NOTE]
     > 如果用户的电话号码是在本地管理的，请使用本地 Skype for Business Management Shell 或控制面板配置用户的电话号码。 
 

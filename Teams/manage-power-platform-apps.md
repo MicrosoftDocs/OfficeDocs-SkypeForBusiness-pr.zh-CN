@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队管理中心中管理对 Power Platform 应用的访问权限。
-ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: 687d8df929150cdc38795a13ba06687ed7e42b2b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599547"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650955"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理 Power Platform 应用
 
@@ -32,7 +32,7 @@ ms.locfileid: "48599547"
 
 [Power Apps](https://powerapps.microsoft.com) 是低代码/无代码应用程序开发环境，你的组织中的开发者可以使用它来生成连接到你的业务数据的自定义应用。 [Power Virtual agent](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) 是一个无代码 bot 构建环境，用于创建功能强大的 bot。 通过将 Power Platform 应用集成到团队中，组织可以优化业务流程、更快地响应不断变化的业务需求，以提高协作能力，并创建和共享自定义解决方案以提高工作效率。  
 
-由你的组织中的由决策者创建的 Power Platform 应用将自动添加到团队。 通过使用 power [Apps 中的共享功能](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) 和 [power Virtual agent 中的共享功能](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)，制造商可以控制哪些人可以访问其应用。 
+由你的组织中的由决策者创建的 Power Platform 应用将自动添加到团队。 通过使用 power [Apps 中的共享功能](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) 和 [power Virtual agent 中的共享功能](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)，制造商可以控制哪些人可以访问其应用。
 
 当创建或共享 Power Platform 应用时，用户可以通过面向你的同事构建的***组织名称***，在 "应用" 页面上查看和安装该应用  >  **Built by your colleagues**。  (在创建或共享应用后，可能需要几分钟的时间才能在此处显示。 ) 
 
@@ -77,11 +77,13 @@ ms.locfileid: "48599547"
 
 例如，若要阻止特定用户访问在 Power Apps 中创建的应用，请创建一个自定义应用权限策略来阻止 **共享的 Power 应用**，然后为这些用户分配策略。
 
-:::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="已阻止共享 Power 应用的示例自定义应用权限策略的屏幕截图":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="已阻止共享 Power 应用的示例自定义应用权限策略的屏幕截图":::
 
 ### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>使用审核日志检查 Power Platform 安装活动
 
-你可以使用团队的审核日志来调查用户从团队中的 "应用" 页面的 " **由你的同事构建** 的" 部分中安装了 Power Platform 应用的事件。 若要执行此操作，请在 " **AppInstalled**) 操作" 下为给定用户或一组用户搜索 "**已安装的应用**团队事件" (的[审核日志](https://docs.microsoft.com/microsoftteams/audit-log-events)。 若要查找从 "**同事构建**的" 部分安装的应用，请在给定记录的详细信息中的**AppDistributionMode**属性下查找**TemplatedInstance**值。 
+你可以使用团队的审核日志来调查用户从团队中的 "应用" 页面的 " **由你的同事构建** 的" 部分中安装了 Power Platform 应用的事件。 若要执行此操作，请在**AppInstalled**操作) 下为用户或用户组搜索**已安装应用**团队事件 (的[审核日志](https://docs.microsoft.com/microsoftteams/audit-log-events)。 若要查找**由你的同事自构建**的应用，请在给定记录的详细信息的**AppDistributionMode**属性中查找**TemplatedInstance**值。 
+
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="AppDistributionMode 属性中的 TemplatedInstance 值的屏幕截图":::
 
 > [!NOTE]
 > 你可以以 CSV 格式导出审核记录，以便更轻松地进行筛选。

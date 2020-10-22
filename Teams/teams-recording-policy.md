@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db0c7b0d151a12852adffafeda9d84475b82e055
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: af369a04836fd12c032f468324bbaf920417878d
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320787"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650965"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 会议的基于团队政策的录制简介
 
@@ -114,7 +114,7 @@ ms.locfileid: "48320787"
 合规性录制解决方案的核心组件是录像机。
 录音机是以可伸缩的基于 Azure 的服务构建的， (机器人) [<span class="underline">利用 microsoft 的通信平台</span>](https://docs.microsoft.com/graph/cloud-communications-concept-overview) ，并使用 microsoft Graph 注册为应用程序。 记录器提供与团队通话和会议 [<span class="underline">通信平台 api</span>](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 的直接交互，并提供媒体接收的终结点。
 
-提供了一个 [<span class="underline">示例合规性记录器应用程序，该应用程序</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) 显示如何配置 bot、创建应用实例并分配合规性策略。 该示例还包含用于录制特定交互（如处理[<span class="underline">传入呼叫</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)   路由、[<span class="underline">更改录制状态</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)和[<span class="underline">删除正在录制的用户</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)）的 API 用法的示例。
+提供了一个 [<span class="underline">示例合规性记录器应用程序，该应用程序</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) 显示如何配置 bot、创建应用实例并分配合规性策略。 该示例还包含用于录制特定交互（如处理 [<span class="underline">传入呼叫</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) 路由、 [<span class="underline">更改录制状态</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)和 [<span class="underline">删除正在录制的用户</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)）的 API 用法的示例。
 有关 [<span class="underline">updateRecordingStatus</span>](https://docs.microsoft.com/graph/api/call-updaterecordingstatus?view=graph-rest-1.0&tabs=http) 和 [<span class="underline">incomingContext</span>](https://docs.microsoft.com/graph/api/resources/incomingcontext?view=graph-rest-1.0)，可在此处找到有关特定 api 的图形文档。
 
 记录器服务的确切实现因合作伙伴而异，但必须设计为支持多个刻录机才能实现高可用性和部署的地理位置分布，以减少团队与记录器之间的延迟。 此外，该刻录机自身的设计应考虑恢复性和冗余。
@@ -206,15 +206,19 @@ IT 管理员可以通过创建和分配合规性录制策略来确定要录制�
 
 除了发布可供合作伙伴开发和集成 CCaaS 解决方案的公共 Api 之外，我们还制定了 Microsoft 团队认证计划的合规性录制，以确保每个参与合作伙伴的解决方案都经过测试和验证，以提供他们所期望的各种 Microsoft 解决方案的质量、兼容性和可靠性。  
 
-以下合作伙伴正在验证其 Microsoft 团队解决方案的过程。  
+以下合作伙伴正在验证其 Microsoft 团队解决方案的过程。
 
 |配偶|解决方案网站 |
 |:--|:--|
 |ASC 技术 |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 |AudioCodes |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
+|Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
+|Landis 技术 |[https://landistechnologies.com/](https://landistechnologies.com/) |
+|Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |良好 |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
+|橡木创新 |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |红色框 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 

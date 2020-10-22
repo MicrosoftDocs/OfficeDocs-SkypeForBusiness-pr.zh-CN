@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766756"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650825"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================
@@ -90,11 +90,11 @@ ms.locfileid: "47766756"
 <a name="media-logs"></a>媒体日志
 ---------------------------
 
-媒体日志包含有关团队会议中的音频、视频和屏幕共享的诊断数据。 仅当要求时支持案例才需要它们，且只能由 Microsoft 检查。 
+媒体日志包含有关团队会议中的音频、视频和屏幕共享的诊断数据。 它们对于链接到调用相关问题的支持案例是必需的。
 
-默认情况下，媒体日志记录处于关闭状态。 若要记录团队会议的诊断数据，用户必须打开团队客户端中的选项。 转到 "**设置**  >  **常规**"，选中 "**启用会议诊断的日志记录 (需要重新启动团队**) 复选框，然后重新启动团队。
+默认情况下，媒体日志记录处于关闭状态。 若要记录团队会议的诊断数据，用户必须打开团队客户端中的选项。 转到 "**设置**  >  **常规**"，选中 "**为会议诊断启用日志记录" (需要重新启动团队**) 复选框，然后重新启动团队并重现该问题。 
 
-下表列出了日志位置。
+下表列出了媒体日志位置。 将日志文件发送给 Microsoft 支持时，请验证日志文件的时间戳，以确保在重现问题时日志覆盖了时间范围。
 
 |客户端 |位置 |
 |---------|---------|
@@ -143,4 +143,3 @@ Mac OsX：
 ## <a name="related-topics"></a>相关主题
 
 [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
-

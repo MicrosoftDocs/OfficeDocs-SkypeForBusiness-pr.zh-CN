@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 993cabc7139edeb971f60f1cdf44428fb4083db9
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424712"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655509"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>在管理中心中使用团队政府模板
 
@@ -44,7 +44,7 @@ ms.locfileid: "48424712"
 
 集中管理危机管理或事件响应团队的沟通和关键资源。 在此团队中，你可以包含许多不同类型的文件，以便为你的所有文档创建一个中心位置。 使用联机会议改善信息流和形势意识。
 
-| 基本模板类型 | | 此基本模板附带的属性 |
-| ------------------|-- |----------------------------------------------------- |
+| 基本模板类型 |baseTemplateId | 此基本模板附带的属性 |
+|-------------------|-------|---------------------------------------------------------------------------|
 |协调事件响应|`com.microsoft.teams.template.CoordinateIncidentResponse` |信道 <ul><li>常规<li>宣告</li><li>后勤工作</li><li>规划</li><li>恢复</li><li>急需</li></ul> 识别 <ul><li>源自</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||

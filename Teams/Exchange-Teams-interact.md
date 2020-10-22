@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35c020d981fba9827f10753a04b9b5629a9939df
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: ae03611a684f7f596c185873585c844e30d4330b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177202"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650875"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -49,8 +49,8 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 |---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
 | **Exchange Online**                                                 | 是 <sup>1</sup> | 是 <sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
 | **Exchange Online Dedicated vNext**                                 | 是 <sup>1</sup> | 是 <sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
-| **Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）  | 是 <sup>1</sup> | 是 <sup>1，2</sup> | 是 <sup> 3 | 是                   | 否                                | 否                          | 是          | 是             | 否                      | 是 <sup> 4 | 是 <sup> 5                   | 是                    | 是                    |
-| **Exchange 本地** (同步到 Azure AD)  | 是 <sup>1</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>         | 否                          | 是          | 是             | 否                      | 是 <sup> 4 | 是 <sup> 5                   | 是                    | 是                    |
+| **Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）  | 是 <sup>1</sup> | 是 <sup>1，2</sup> | 是 <sup>3</sup> | 是                   | 否                                | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
+| **Exchange 本地** (同步到 Azure AD)  | 是 <sup>1</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>         | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
 
 所有托管选项均支持<sup>1</sup>个电子数据展示和针对通道消息的合规性保留。
 
@@ -80,8 +80,8 @@ Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为�
 
 - 必须为用户启用 Microsoft 365 组创建，才能在 Microsoft 团队中创建团队。
 
-> [!IMPORTANT]
-> 如果你在将用户移动到 " **仅团队** " 模式后卸载 Skype for business 客户端，则在 Outlook 和其他 Office 应用中，联机状态可能会停止工作。 状态在 Teams 中显示良好。 若要解决此问题，请在 Microsoft 团队的右上角选择您的个人资料图片，然后选择 " **设置**"。 在 "**应用程序**" 下的 "**常规**" 选项卡上，选择 "将**团队注册为 Office 的聊天应用 (需要重新启动 office 应用程序) **。 选择此选项后，关闭并重新打开所有 Office 应用（包括 Outlook）。 打开 Outlook 后，状态信息将可用。
+  > [!IMPORTANT]
+  > 如果你在将用户移动到 " **仅团队** " 模式后卸载 Skype for business 客户端，则在 Outlook 和其他 Office 应用中，联机状态可能会停止工作。 状态在 Teams 中显示良好。 若要解决此问题，请在 Microsoft 团队的右上角选择您的个人资料图片，然后选择 " **设置**"。 在 "**应用程序**" 下的 "**常规**" 选项卡上，选择 "将**团队注册为 Office 的聊天应用 (需要重新启动 office 应用程序) **。 选择此选项后，关闭并重新打开所有 Office 应用（包括 Outlook）。 打开 Outlook 后，状态信息将可用。
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>针对本地托管邮箱创建和查看会议的要求
 
@@ -97,19 +97,19 @@ Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为�
 
 - OAuth 身份验证是通过 Exchange 混合配置向导（运行经典或新式)  (完整混合配置）配置的。 如果无法使用混合配置向导，请按照在 [Exchange 和 Exchange Online 组织之间配置 oauth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述配置 OAuth。
 
- > [!NOTE]
- > Exchange 信任来自团队服务的 OAuth 令牌，称为 EvoSTS。 步骤1应该足够，但只是 EvoSTS;ACS 用于 "日历" 中的 "闲/忙" 查找。
+  > [!NOTE]
+  > Exchange 信任来自团队服务的 OAuth 令牌，称为 EvoSTS。 步骤1应该足够，但只是 EvoSTS;ACS 用于 "日历" 中的 "闲/忙" 查找。
 
 - 设置了 Azure AD Connect 中 Exchange 混合部署功能的复选框。
 
-- 对于适用于 Mac 的日历应用支持和团队 Outlook 外接程序，Exchange Web 服务 Url 必须在 Exchange 服务主体的租户 Azure AD 中配置为 Spn。 此步骤通过混合配置向导或遵循 [混合新式身份验证的手动步骤](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)完成。
+- 对于适用于 Mac 的日历应用支持和团队 Outlook Add-In，Exchange Web 服务 Url 必须在 Exchange Service 主体的租户 Azure AD 中配置为 Spn。 此步骤通过混合配置向导或遵循 [混合新式身份验证的手动步骤](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)完成。
 
 若要为这些用户启用日历委派，请执行以下操作：
 
 - 您还必须按照在 [Skype For Business Online 和 Exchange 服务器之间配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的说明，完成步骤2-3。这些步骤将向团队安排应用程序提供确认委派权限所需的权限。
  
- > [!NOTE]
- > 步骤2包括 ArchiveApplication 的角色分配，这不是委派所必需的。
+  > [!NOTE]
+  > 步骤2包括 ArchiveApplication 的角色分配，这不是委派所必需的。
 
 - 工作组计划外接程序当代表某人安排会议时需要 Exchange 2013 CU19 或更高版本时，为 Outlook 安排外接程序。 这是为了通过我们的服务对委托人进行通话邮箱检查委派权限来支持邮箱未经身份验证的发现。 代理人和委托人进行通话位置可以是 Exchange 2013 或更高版本，或者是 Exchange online，但自动发现必须解析为 Exchange 2013 CU19 或更高版本。
 
@@ -119,7 +119,7 @@ Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为�
 
 - 在 Microsoft Teams 中，安全性和合规性功能（例如，电子数据展示、内容搜索、存档和法定保留）在 Exchange Online 和 SharePoint Online 环境中完全正常。 对于频道对话，消息会记录到 Exchange Online 中的组邮箱，它们在此可用于电子数据展示。 如果在组织中为用户启用了 SharePoint Online 和 OneDrive for Business（使用工作帐户或学校帐户），也可以对 Teams 中的所有文件使用这些合规性功能。
 
-- 使用条件访问控制和保护团队和 Exchange 中合规性策略的配置。 有关详细信息，请参阅 [如何为团队工作条件访问策略？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
+- 使用条件访问控制和保护团队和 Exchange 中合规性策略的配置。 有关详细信息，请参阅 [如何为团队工作条件访问策略？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
 - 如果你的组织具有合规性要求以确保所有会议讨论均可发现，则应禁用私人会议（如果组织者具有 Exchange 本地邮箱）。 有关详细信息，请参阅 [允许安排私人会议](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings)。
 

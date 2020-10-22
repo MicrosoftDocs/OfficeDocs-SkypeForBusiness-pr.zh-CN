@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2905fe25d3051f322630d75473597e69425e2dc0
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: a158850a70a0410c9be7cb434d6f0868d68218f5
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424702"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655499"
 ---
 # <a name="use-general-teams-templates-in-the-admin-center"></a>在管理中心中使用常规团队模板
 
@@ -44,8 +44,8 @@ ms.locfileid: "48424702"
 
 跨业务单元对危机团队协作，并帮助创建业务连续性计划、共享远程工作提示、跟踪客户通信，以及使用公告和新闻让每个人都保持联系。
 
-| 基本模板类型 |baseTemplateId | 此基本模板附带的属性 |
-| ------------------ |--|----------------------------------------------------- |
+| 基本模板类型 |baseTemplateId| 此基本模板附带的属性 |
+| ------------------ |--|----------------------------------------------------------|
 | 协作处理全球危机或活动 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |信道 <ul><li>常规<li>宣告</li><li>世界新闻</li><li>业务连续性</li><li>远程工作</li><li>内部 comms</li><li>外部 comms</li><li>客户投诉</li><li>Kudos</li><li>执行更新</li></ul>识别 <ul><li>表扬</li><li>源自</li><li>网站</li></ul>|
 ||||
 
@@ -53,17 +53,17 @@ ms.locfileid: "48424702"
 
 通过宣传和帮助你的同行使用新技术，帮助构建、扩大和维持你的拥护者社区推出。
 
-| 基本模板类型 |baseTemplateId | 此基本模板附带的属性 |
-| ------------------|-- |----------------------------------------------------- |
-| 采纳 Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  信道 <ul><li>常规</li> <li>宣告</li> <li>拥护方角落</li> <li>工作组表单</li></ul> 识别 <ul><li>源自</li>  <li>日历</li> |li><li>技能发展</li><li>借贷处理</li><li>客户投诉</li><li>Kudos</li><li>有趣的资料</li><li>合规性</li></ul>|
+| 基本模板类型 |baseTemplateId| 此基本模板附带的属性 |
+| ------------------|--|-----------------------------------------------------------|
+| 采纳 Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  信道 <ul><li>常规</li> <li>宣告</li> <li>拥护方角落</li> <li>工作组表单</li></ul> 识别 <ul><li>源自</li>  <li>日历</li><li>技能发展</li><li>借贷处理</li><li>客户投诉</li><li>Kudos</li><li>有趣的资料</li><li>合规性</li></ul>|
 ||||
 
 ## <a name="manage-a-project"></a>管理项目
 
 通过此模板管理任务、共享文档、开展项目会议和记录风险和决策，以实现常规项目管理。
 
-| 基本模板类型| baseTemplateId | 此基本模板附带的属性 |
-| ------------------|-- |----------------------------------------------------- |
+| 基本模板类型| baseTemplateId| 此基本模板附带的属性 |
+| ------------------|--|-----------------------------------------------------------|
 | 管理项目| ManageAProject 中的 .com  | 信道 <ul><li>常规</li> <li>宣告</li> <li>.Resources</li> <li>规划</li></ul> 识别<ul><li>源自</li><li>OneNote</li></ul> |
 ||||
 
@@ -74,7 +74,7 @@ ms.locfileid: "48424702"
 你可能无法访问基于你的应用权限策略的某些应用。
 
 | 基本模板类型 | baseTemplateId| 此基本模板附带的属性 |
-| ------------------ |--|----------------------------------------------------- |
+| ------------------ |--|-----------------------------------------------------------|
 | 管理事件| `com.microsoft.teams.template.ManageAnEvent` | 信道 <ul><li>常规</li> <li>宣告</li> <li>预算</li> <li>内容</li><li>后勤工作</li> <li>规划</li> <li> 市场营销和 PR</li></ul> 识别<ul><li>源自</li><li>网站</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
 ||||
 
@@ -82,8 +82,8 @@ ms.locfileid: "48424702"
 
 利用此中心团队改进您的文化，为您的资源、问题和乐趣，简化您的工作。
 
-| 基本模板类型 |baseTemplateId | 此基本模板附带的属性 |
-| ------------------|- |----------------------------------------------------- |
+| 基本模板类型 |baseTemplateId| 此基本模板附带的属性 |
+| ------------------|--|-----------------------------------------------------------|
 |板载员工|`com.microsoft.teams.template.OnboardEmployees`  | 信道 <ul><li>常规</li> <li>宣告</li> <li>员工聊天</li> <li>培训</li></ul>识别<ul><li>源自</li><li>社区</li></ul>|
 ||||
 
@@ -91,7 +91,7 @@ ms.locfileid: "48424702"
 
 协作处理支持帮助台的文档、政策和流程。 集成您的现有票证发放系统或使用我们的模板管理请求。
 
-| 基本模板类型 | | 此基本模板附带的属性 |
-| ------------------|-- |----------------------------------------------------- |
+| 基本模板类型 |baseTemplateId| 此基本模板附带的属性 |
+| ------------------|--|------------------------------------------------------------|
 |组织技术支持|`com.microsoft.teams.template.OrganizeHelpDesk`| 信道<ul><li>常规</li><li>宣告</li><li>常见问题</li></ul>识别<ul><li>源自</li><li>OneNote</li></ul> |
 ||||
