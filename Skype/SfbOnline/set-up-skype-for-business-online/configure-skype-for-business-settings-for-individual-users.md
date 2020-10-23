@@ -23,27 +23,30 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 5247d814429d8d1f62fe9ea963aa76b7aafe40df
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 546e693dd1fb6e9becf7119c35d7b00875eda99a
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776317"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739170"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理员：为单个用户配置 Skype for Business 设置
+
+> [!IMPORTANT]
+> Microsoft 团队管理中心已将 Skype for Business 管理中心替换 (旧版门户) 。 管理 Skype for Business 的所有设置现在均位于团队管理中心。 若要了解详细信息，请参阅 [在 Microsoft 团队管理中心中管理 Skype For business 设置](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)。
 
 本文介绍了管理员如何为少量用户配置 Skype for Business。 若要批量执行这些步骤，我们提供了指向你可以使用的 Windows PowerShell cmdlet 的链接。
   
 要允许（或阻止）企业中的所有人与外部人员通信，请参阅：
   
-- [允许用户联系外部 skype For business 用户](allow-users-to-contact-external-skype-for-business-users.md)：你可以让你的组织使用高级 Skype for business 功能（共享桌面、查找谁在线等），与特定的受信任（联合）业务中的人员进行通信。 本文还介绍了如何阻止与特定域的通信。
+- [允许用户联系外部 skype For business 用户](allow-users-to-contact-external-skype-for-business-users.md)：你可以让你的组织使用高级 skype for business 功能 (共享桌面、查找联机用户等 ) 与特定的受信任 (联合) 业务中的人员进行通信。 本文还介绍了如何阻止与特定域的通信。
     
 - [让 skype For business 用户添加 skype 联系人](let-skype-for-business-users-add-skype-contacts.md)。 可以让你的组织使用 Skype for Business 搜索使用 Skype 这一免费应用的用户，并向其发送即时消息。
     
 ## <a name="configure-general-settings-for-one-user"></a>为一个用户配置常规设置
 <a name="__toc325019204"> </a>
 
-您必须具有[管理员权限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行这些步骤。
+您必须具有 [管理员权限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 才能执行这些步骤。
 
 ![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
   
@@ -65,18 +68,18 @@ ms.locfileid: "43776317"
     
 |**选项**|**详细信息**|
 |:-----|:-----|
-|音频和 HD 视频  <br/> |允许此人录制音频会议、音频和视频会议，或不允许他们安排任何会议（无）。  <br/> |
+|音频和 HD 视频  <br/> |允许此人录制音频会议、音频和视频会议，或者不允许他们安排任何会议 ("无") 。  <br/> |
 |录制对话和会议  <br/> |选择此人可以记录的内容。  <br/> Skype for Business Basic 不支持此选项。  <br/> |
-|为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项将关闭在 Exchange 管理中心内设置了[就地保留](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx)时不捕获的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
+|为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项将关闭在 Exchange 管理中心内设置了 [就地保留](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx) 时不捕获的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
    
-若要批量配置这些设置，请使用 PowerShell。 请参阅[设置适用于 Windows PowerShell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+若要批量配置这些设置，请使用 PowerShell。 请参阅 [设置适用于 Windows PowerShell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 ## <a name="block-external-communications"></a>阻止外部通信
 <a name="__toc325019206"> </a>
 
 为公司中的所有人[允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)后，你可以使用这些步骤选择性地阻止指定个人与外部的通信。
   
-1. 选择 "**用户**"，选择要禁用其设置的用户，然后选择 "**编辑** ![编辑](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)"。
+1. 选择 " **用户**"，选择要禁用其设置的用户，然后选择 " **编辑** ![ 编辑" ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
     
 2. 选择" **外部通信**"，然后根据需要清除选项：
     
@@ -86,21 +89,21 @@ ms.locfileid: "43776317"
     
 3. 单击" **保存**"。
     
-若要批量配置这些设置，请使用 PowerShell。 请参阅[设置适用于 Windows PowerShell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+若要批量配置这些设置，请使用 PowerShell。 请参阅 [设置适用于 Windows PowerShell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>编辑一个用户的音频会议设置
 <a name="__toc314837483"> </a>
 
-1. 选择 "**用户**"，选择您想要编辑其音频会议设置的用户，然后选择 "**编辑** ![编辑](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)"。
+1. 选择 " **用户**"，选择您想要编辑其音频会议设置的用户，然后选择 " **编辑** ![ 编辑" ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
     
-2. 选择 "**音频会议**"，选择您的音频会议提供商，键入或更改请求的信息，然后单击 "**保存**"。
+2. 选择 " **音频会议**"，选择您的音频会议提供商，键入或更改请求的信息，然后单击 " **保存**"。
     
 |**音频会议设置**|**说明**|
 |:-----|:-----|
 |**提供商名称** <br/> |从列表中选择您的提供商。  <br/> |
 |**长途电话号码**（必需） <br/> |对于第三方 ACP，这些电话号码是您从音频会议提供商处收到的电话号码。 如果用户正在使用 Microsoft 作为音频会议提供商，则这些将是在音频会议桥上设置的数字。 将数字的格式设置为您希望在 Skype for Business 和 Microsoft 团队会议请求中显示的数字。  <br/> |
 |**免费电话号码** <br/> |对于第三方 ACP，这些电话号码是您从音频会议提供商处收到的电话号码。 如果用户正在使用 Microsoft 作为音频会议提供商，则这些将是在音频会议桥上设置的数字。 将数字的格式设置为您希望在 Skype for Business 和 Microsoft 团队会议请求中显示的数字。  <br/> |
-|**会议 ID 和 PIN** （必需） <br/> |参与者 PIN 或会议代码，用于加入由该用户安排的会议，并由第三方音频会议提供商提供。 如果用户使用 Microsoft 作为音频会议提供商，则不需要此功能。  <br/> |
+|**会议 ID 和 PIN** (必需)  <br/> |参与者 PIN 或会议代码，用于加入由该用户安排的会议，并由第三方音频会议提供商提供。 如果用户使用 Microsoft 作为音频会议提供商，则不需要此功能。  <br/> |
    
 若要批量配置这些设置，请使用 PowerShell。 请参阅[设置邀请附带的电话号码](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)[设置你的 Windows PowerShell 计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
 

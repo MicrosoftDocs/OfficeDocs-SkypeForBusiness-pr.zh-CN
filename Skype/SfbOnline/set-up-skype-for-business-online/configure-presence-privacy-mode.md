@@ -20,28 +20,31 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: '了解如何为你的用户设置隐私模式，以便他们能够更好地控制用户查看其可用性的方式。 '
-ms.openlocfilehash: 6ad7485d24854bfdb9aef9244164bf5180e8c7d2
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f0f9237f701be219a9cbce9a44704cbb582f48d4
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769715"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739180"
 ---
 # <a name="configure-presence-privacy-mode"></a>配置状态隐私模式
 
-Skype for Business Online 状态设置使用户可以更好地控制哪些人可以查看他们的可用、会议或外出。 有关 Skype for business 状态和隐私设置的详细信息，请参阅[在 Skype For Business Online 中配置状态](configure-presence-in-skype-for-business-online.md)。 
+> [!IMPORTANT]
+> Microsoft 团队管理中心已将 Skype for Business 管理中心替换 (旧版门户) 。 管理 Skype for Business 的所有设置现在均位于团队管理中心。 若要了解详细信息，请参阅 [在 Microsoft 团队管理中心中管理 Skype For business 设置](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)。
+
+Skype for Business Online 状态设置使用户可以更好地控制哪些人可以查看他们的可用、会议或外出。 有关 Skype for business 状态和隐私设置的详细信息，请参阅 [在 Skype For Business Online 中配置状态](configure-presence-in-skype-for-business-online.md)。 
   
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>为组织中的每个人选择默认的联机状态设置
 <a name="__top"> </a>
 
-1. 转到 Skype for Business Online 管理中心 >**组织 > "常规**"。
+1. 转到 Skype for Business Online 管理中心 > **组织 > "常规**"。
     
-2. 在 "**状态隐私模式**" 下，选择设置，然后单击 "**保存**"。
+2. 在 " **状态隐私模式**" 下，选择设置，然后单击 " **保存**"。
     
 |**设置**|**谁可以查看用户的状态**|
 |:-----|:-----|
-|**自动显示联机状态信息** <br/> |任何不属于 "**外部**" 或 "已**阻止**" 隐私组的 Skype for business 用户。 <br/> |
-|**仅向用户的联系人显示状态信息** <br/> |用户联系人列表中任何不属于 "**外部**" 或 "已**阻止**" 隐私组的人。 <br/> 单个用户可在 "Skype for Business**选项**" 对话框中更改此设置。 <br/> |
+|**自动显示联机状态信息** <br/> |任何不属于 " **外部** " 或 "已 **阻止** " 隐私组的 Skype for business 用户。 <br/> |
+|**仅向用户的联系人显示状态信息** <br/> |用户联系人列表中任何不属于 " **外部** " 或 "已 **阻止** " 隐私组的人。 <br/> 单个用户可在 "Skype for Business **选项** " 对话框中更改此设置。 <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
