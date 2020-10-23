@@ -15,12 +15,12 @@ description: 通过确定市场活动的关键利益干系人、业务成果、�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 15bf9c37dd205cb95133f157a6b9fe9cc2549f2a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a65e60923414618fc19f43e81fb2b2a085b0978b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581783"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739090"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 =======================================================
@@ -40,7 +40,7 @@ Teams 变更管理最佳实践：
     a.  内部认知材料，例如，海报、数字标志牌和活动
 
     b.  位于一个位置的自助和培训信息
-    
+
     c.  既定的反馈机制
 
     d.  预先定义的成功度量标准（解决方案采用、关键材料查看次数、课程出席情况）
@@ -58,11 +58,11 @@ Teams 变更管理最佳实践：
 
 成功采用的首要规则是创建一个动态团队，该团队由关键利益干系人和可以在其他人当中推动和引起变更的合适人员组成。 采用策略要取得成功，首先要有一个由尽心尽力的个人组成的团队，这些个人代表了贵组织中典型的一群人。 关键利益干系人角色包括执行发起人、服务所有者、IT 专业人士和支持者。
 
-|  |  |
+|按钮  |说明  |
 |---------|---------|
 |![执行发起人图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**执行发起人**是组织中的关键领导者，在推动员工采用过程中，他们的参与必不可少。 他们对公司文化的影响最大，可以积极传达新技术和方式的价值和优势。         |
 |![服务所有者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服务所有者**负责确保大家使用服务并从中获得价值。 在组织内设置服务所有者对确保已实现为 Microsoft 365 或 Office 365 设置的业务目标非常重要。         |
-|![支持者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |得到组织中每个用户的认可是一项挑战。 **拥护**程序可帮助缓解此挑战，并在采用 Microsoft 365 或 Office 365 时扮演重要角色。 他们拥有丰富的知识、积极充实其专业知识且愿意提供同伴指导和协助。 它们有助于将 Microsoft 365 或 Office 365 转换为其部门或团队的现实。         |
+|![支持者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |得到组织中每个用户的认可是一项挑战。 **拥护** 程序可帮助缓解此挑战，并在采用 Microsoft 365 或 Office 365 时扮演重要角色。 他们拥有丰富的知识、积极充实其专业知识且愿意提供同伴指导和协助。 它们有助于将 Microsoft 365 或 Office 365 转换为其部门或团队的现实。         |
 
 我们建议与这些利益干系人定期召开会议，使其及时了解你的计划的进度。 启动 "协作委员会" 以允许反馈和讨论可能是一个非常有用的工具，具体取决于您的公司文化。
 
@@ -156,6 +156,6 @@ Teams 变更管理最佳实践：
 
 在组织中推动变更是一项持续性的活动，而不是一次性活动。 启动会议只是鼓励用户更高效地协作的开端。 在此旅程中安排时间，以突出显示你的成功、引入新功能以及与你的 IT 部门将创建的整个 Microsoft 365 或 Office 365 服务策略进行连接，这一点非常重要。 确保你的用户非常投入而不是不知所措，这将减少他们的变更疲劳，并支持他们放弃旧习惯（例如通过电子邮件发送附件），接受新做法（例如将文档存储在云中）。
 
-在 Microsoft 技术社区网站上的 "[推动采纳社区](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)" 中分享有关团队和 microsoft 365 或 Office 365 的服务采纳的问题。 我们将在你的采用旅程中随时倾听你的意见并为你提供帮助。  
+在 Microsoft 技术社区网站上的 " [推动采纳社区](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) " 中分享有关团队和 microsoft 365 或 Office 365 的服务采纳的问题。 我们将在你的采用旅程中随时倾听你的意见并为你提供帮助。  
 
 

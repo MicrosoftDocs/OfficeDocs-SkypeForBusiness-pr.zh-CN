@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006c1a446708c5773abc2b63720846900051bfdf
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: bc85b682ee24b466514e297532dc9ac0deb56924
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581393"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739280"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
 =================================================
@@ -34,7 +34,7 @@ ms.locfileid: "46581393"
 下表显示了所有者与成员之间的权限差异。
 
 
-|                                   | 团队所有者 | 工作组成员 |
+|    任务                               | 团队所有者 | 工作组成员 |
 |-----------------------------------|------------|-------------|
 |          **创建团队**          |    是<sup>1</sup>     |     否      |
 |          **离开团队**           |    是     |     是     |
@@ -43,9 +43,9 @@ ms.locfileid: "46581393"
 |          **添加标准频道**          |    是     |    是<sup>2</sup>|
 | **编辑标准频道名称/说明** |    是     |    是<sup>2</sup>|
 |        **删除标准频道**         |    是     |    是<sup>2</sup>|
-|          ***添加专用频道**          |    是     |    是<sup>2</sup>|
-| ***编辑专用频道名称/说明** |    否     |    不适用|
-|        ***删除专用频道**         |    是     |    否|
+|          **_添加专用频道_*          |    是     |    是<sup>2</sup>|
+| **_编辑专用频道名称/说明_* |    否     |    不适用|
+|        **_删除专用频道_*         |    是     |    否|
 |          **添加成员**          |  是<sup>3</sup>   |     否<sup>4</sup>    |
 |          **请求添加成员**          |  不适用   |     是<sup>5</sup>     |
 |           **添加应用**            |    是     |    是<sup>2</sup>|
@@ -56,7 +56,7 @@ ms.locfileid: "46581393"
 <sup>4</sup> 团队成员可以向公共团队中添加其他成员。<br>
 <sup>5</sup> 尽管团队成员无法直接将成员添加到私人团队，但可以请求将某人添加到他们所属的团队。 当成员请求将某人添加到团队时，团队所有者将收到通知，告知他们有一个可接受或拒绝的待定请求。
 
-* 若要了解有关专用频道的权限的详细信息，请参阅[团队中的专用频道](private-channels.md)。
+* 若要了解有关专用频道的权限的详细信息，请参阅 [团队中的专用频道](private-channels.md)。
 
 > [!NOTE]
 > 所有者可以在“查看团队”**** 选项中将其他成员设为所有者。 一个团队可以拥有最多 100 个所有者。 建议至少指定几个所有者以帮助管理团队；这样也可以防止当唯一的所有者离开贵组织时出现孤立的群组。 有关孤立组的详细信息，请参阅[将新的所有者分配到孤立组](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)。
@@ -75,10 +75,10 @@ ms.locfileid: "46581393"
 
 ## <a name="permissions-to-create-teams"></a>创建团队的权限
 
-默认情况下，在 Exchange Online 中拥有邮箱的所有用户都具有创建 Microsoft 365 组的权限，因此在 Microsoft 团队内有一个团队。 你可以通过将组创建和管理权限委派给一组用户，让你更严格地控制和限制新团队的创建，从而创建新的 Microsoft 365 组。 有关说明，请参阅[管理可创建 Microsoft 365 组的人员](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
+默认情况下，在 Exchange Online 中拥有邮箱的所有用户都具有创建 Microsoft 365 组的权限，因此在 Microsoft 团队内有一个团队。 你可以通过将组创建和管理权限委派给一组用户，让你更严格地控制和限制新团队的创建，从而创建新的 Microsoft 365 组。 有关说明，请参阅 [管理可创建 Microsoft 365 组的人员](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
 
 
-||||
+|按钮|标题|描述|
 |---------|---------|---------|
 | ![代表决策点的图标](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |决策点         |是否所有 Microsoft Teams 用户都将能够创建团队（建议）？         |
 | ![表示后续步骤的图标](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |后续步骤         |如果需要限制可以创建团队的人员，请修改可创建 Microsoft 365 组的用户的默认权限         |

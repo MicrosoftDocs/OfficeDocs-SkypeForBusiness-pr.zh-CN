@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af369a04836fd12c032f468324bbaf920417878d
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650965"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739330"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 会议的基于团队政策的录制简介
 
@@ -50,7 +50,7 @@ ms.locfileid: "48650965"
 
 每个类别都需要对启动录制的方式有不同的要求、录制的内容、录制的位置、通知的人员、控制访问的人员以及如何处理保留。
 
-|                        | 参考        | 功能         | 组织-常规      | 组织级管控 | 合法截距   |
+| 类型                   | 参考        | 功能         | 组织-常规      | 组织级管控 | 合法截距   |
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | 启动              | 用户               | 应用/解决方案       | 管理员 (系统)      | 管理员 (系统)   | LEA                |
 | 目标                 | 每次通话/会议 | 每次通话/会议 | 每次通话/会议 | 每用户        | 每个终结点/已完成 |

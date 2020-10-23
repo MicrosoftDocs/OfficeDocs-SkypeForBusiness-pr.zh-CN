@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
-ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
+ms.openlocfilehash: 295bee65120e3c349efe1aa5fbc1e7b42c8da87a
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429364"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739380"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -40,7 +40,7 @@ ms.locfileid: "45429364"
 下文所列大写字母的权限（例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE）未出现在 [Microsoft Teams 开发人员文档](https://aka.ms/teamsdevdocs)或 [Microsoft Graph 的权限](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)中的任何地方。 使用它们只是为了在本文中进行简要说明。
 
 
-|    |     |
+| 标题   | 描述    |
 |-----------|------------|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>使用下表作为指南，了解正在调查的应用所请求的权限。</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>研究应用或服务本身，确定是否希望允许在组织内访问它。 例如，bot 从用户发送和接收消息，除了企业自定义机器人外，它们位于合规性边界之外。 因此，任何包含机器人的应用都需要这些权限，并且至少具有该风险配置文件。 </li></ul>|
@@ -59,9 +59,9 @@ ms.locfileid: "45429364"
 
 - 应用必须公开它所使用的数据以及数据在其使用条款和隐私策略链接中的用途。
 
-- [特定于资源的同意](resource-specific-consent.md)提供了一组应用可以请求的权限，这些权限显示在应用的安装屏幕上。 若要了解有关特定于资源的同意权限的详细信息，请参阅[图表权限参考](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)。
+- [特定于资源的同意](resource-specific-consent.md) 提供了一组应用可以请求的权限，这些权限显示在应用的安装屏幕上。 若要了解有关特定于资源的同意权限的详细信息，请参阅 [图表权限参考](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)。
 
-- 应用还可能需要除特定于资源的同意权限之外的权限。 安装应用后，应用可能会通过同意提示请求 Graph 权限。 若要了解详细信息，请参阅[了解 AZURE AD 应用程序同意体验](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)。 你可以在 Azure 门户中配置 API 权限和同意。 若要了解详细信息，请参阅[Azure Active Directory 同意框架](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)。
+- 应用还可能需要除特定于资源的同意权限之外的权限。 安装应用后，应用可能会通过同意提示请求 Graph 权限。 若要了解详细信息，请参阅 [了解 AZURE AD 应用程序同意体验](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)。 你可以在 Azure 门户中配置 API 权限和同意。 若要了解详细信息，请参阅 [Azure Active Directory 同意框架](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)。
 
 ## <a name="bots-and-messaging-extensions"></a>机器人和消息扩展
 
@@ -69,15 +69,15 @@ ms.locfileid: "45429364"
 
 - RECEIVE_MESSAGE，REPLYTO_MESSAGE。 机器人可以接收来自用户的消息并回复。<sup>1</sup>
 
-- POST_MESSAGE_USER。 用户将消息发送到 bot 后，机器人可以随时发送用户直接消息（也称为*主动消息*）。
+- POST_MESSAGE_USER。 在用户向 bot 发送邮件后，bot 可以随时向用户发送直接消息 (也称为 " *主动邮件* "。
 
 - GET_CHANNEL_LIST。 添加到团队的智能机器人可以获取团队中频道的名称和 Id 列表。
 
 ### <a name="optional-permissions"></a>可选权限
 
-- 3x3. 当它在频道中使用时，应用的智能机器人可以访问团队成员的基本标识信息（名字、姓氏、用户主体名称 [UPN]、电子邮件地址）;在个人或群组聊天中使用时，机器人可以访问这些用户的相同信息。
+- 3x3. 当它在频道中使用时，应用的智能机器人可以访问团队成员的基本标识信息 (名字、姓氏、用户主体名称 [UPN]、电子邮件地址) ;在个人或群组聊天中使用时，机器人可以访问这些用户的相同信息。
 
-- POST_MESSAGE_TEAM。 允许应用的 bot 随时向任何团队成员发送（主动）消息，即使用户以前从未与 bot 聊天。
+- POST_MESSAGE_TEAM。 允许应用的 bot 随时向任何团队成员发送 (主动) 消息，即使用户以前从未与 bot 聊天。
 
 - 以下内容不是显式权限，而是通过 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 以及可以使用机器人的范围（在清单中声明）进行隐含：
  
@@ -85,7 +85,7 @@ ms.locfileid: "45429364"
     - RECEIVE_MESSAGE_GROUPCHAT，REPLYTO_MESSAGE_GROUPCHAT
     - RECEIVE_MESSAGE_TEAM，REPLYTO_MESSAGE_TEAM
 
-- SEND_FILES，RECEIVE_FILES。<sup>2</sup>控制机器人是否可以在个人聊天中发送和接收文件（对于群组聊天或频道尚不支持）。
+- SEND_FILES，RECEIVE_FILES。<sup>2</sup> 控制 bot 是否可以在个人聊天中发送和接收文件 (尚不支持群组聊天或频道) 。
 
 ### <a name="considerations"></a>注意事项
 
@@ -99,9 +99,9 @@ ms.locfileid: "45429364"
 
 - 从理论上讲，bot 邮件包含指向网络钓鱼或恶意网站的链接，但用户可以通过 Microsoft、租户管理员或由 Microsoft 全局阻止。
 
-- Bot 可以为应用添加到的团队成员或个人或群组聊天中的单个用户检索和存储非常基本的标识信息。 若要获取有关这些用户的详细信息，机器人必须要求他们登录到 Azure Active Directory （Azure AD）。
+- Bot 可以检索 (，并且可能会存储应用添加到的团队成员) 非常基本的标识信息，或者存储个人或群组聊天中单个用户的基本标识信息。 若要获取有关这些用户的详细信息，机器人必须要求他们登录到 Azure Active Directory (Azure AD) 。
 
-- 机器人可以检索团队中的频道列表，并可以存储这些频道的列表;此数据将离开公司网络。
+- 机器人可以检索 (，并且可能会将) 的频道列表存储在团队中;此数据将离开公司网络。
 
 - 将文件发送到机器人时，该文件将离开公司网络。 发送和接收文件需要对每个文件进行用户审批。 
 
@@ -109,20 +109,20 @@ ms.locfileid: "45429364"
 
 - 只要向团队中添加或删除用户，就会通知机器人。
 
-- Bot 看不到用户的 IP 地址或其他引用信息。 所有信息均来自 Microsoft。 （有一个例外：如果机器人实现自己的登录体验，登录用户界面将看到用户的 IP 地址和引用信息。）
+- Bot 看不到用户的 IP 地址或其他引用信息。 所有信息均来自 Microsoft。  (有一个例外：如果机器人实现自己的登录体验，登录用户界面将看到用户的 IP 地址和引用信息。 ) 
 
 - 另一方面，邮件扩展功能请参阅用户的 IP 地址和引用信息。
 
-- 应用指南（和我们的 AppSource 审查流程）需要在向用户发布个人聊天消息（通过 POST_MESSAGE_TEAM 权限）时决定是否有效。 在滥用的情况下，用户可以阻止机器人，租户管理员可以阻止该应用，并且 Microsoft 可以在必要时集中阻止机器人。
+- 应用指南 (和我们的 AppSource 审阅流程) 需要在向用户发布个人聊天消息时需要有相应的决定， (通过 POST_MESSAGE_TEAM 权限) 来实现有效目的。 在滥用的情况下，用户可以阻止机器人，租户管理员可以阻止该应用，并且 Microsoft 可以在必要时集中阻止机器人。
 
-<sup>1</sup>某些机器人仅发送邮件（POST_MESSAGE_USER）。 它们称为 "仅通知" 功能人员，但术语没有指允许或不允许机器人执行的操作，这意味着机器人不希望公开会话体验。 团队使用此字段在 UI 中禁用通常启用的功能;与确实公开会话体验的 bot 相比，机器人不受允许的功能。
+<sup>1</sup> 某些机器人仅 (POST_MESSAGE_USER) 发送消息。 它们称为 "仅通知" 功能人员，但术语没有指允许或不允许机器人执行的操作，这意味着机器人不希望公开会话体验。 团队使用此字段在 UI 中禁用通常启用的功能;与确实公开会话体验的 bot 相比，机器人不受允许的功能。
 
-<sup>2</sup>由 supportsFiles 的 "应用程序" 文件 manifest.js中的 "bot" 对象上的 "" 布尔属性控制。
+<sup>2</sup> 由 supportsFiles 的 "应用程序" 文件 manifest.js中的 "bot" 对象上的 "" 布尔属性控制。
 
 > [!NOTE]
 > 如果机器人有自己的登录，则在用户第一次登录时有另一种不同的同意体验。
 >
->目前，与团队应用（机器人、选项卡、连接器或消息扩展）内的任何功能相关联的 Azure AD 权限完全独立于此处列出的团队权限。
+>目前，与团队应用中的任何功能相关联的 Azure AD 权限 (bot、选项卡、连接器或消息扩展) 完全独立于此处列出的团队权限。
 
 ## <a name="tabs"></a>选项卡
 
@@ -134,13 +134,13 @@ SEND_AND_RECEIVE_WEB_DATA
 
 ### <a name="optional-permissions"></a>可选权限
 
-无（当前）
+当前没有 () 
 
 ### <a name="considerations"></a>注意事项
 
 - 选项卡的风险配置文件与在浏览器选项卡中运行的同一网站几乎完全相同。 
 
-- 选项卡还获取正在运行的上下文，包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、当前用户所驻留的 Microsoft 365 组的 ID （如果是团队）、租户 ID 和用户的当前区域设置。 但是，若要将这些 Id 映射到用户的信息，选项卡将必须使用户登录到 Azure AD。
+- 选项卡还获取正在运行的上下文，包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、当前用户的 Azure AD 对象 ID、它所在的 Microsoft 365 组的 ID (（如果是团队) 、租户 ID 和用户的当前区域设置）。 但是，若要将这些 Id 映射到用户的信息，选项卡将必须使用户登录到 Azure AD。
 
 ## <a name="connectors"></a>连接器
 
@@ -156,11 +156,11 @@ REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作的消息，这些消
 
 ### <a name="considerations"></a>注意事项
 
-- 发布连接器消息的系统不知道它的发件人或接收邮件的人员：不透露有关该收件人的任何信息。 （Microsoft 是实际的收件人，而不是租户;Microsoft 会向该频道发送实际帖子。）
+- 发布连接器消息的系统不知道它的发件人或接收邮件的人员：不透露有关该收件人的任何信息。  (Microsoft 是实际的收件人，而不是租户;Microsoft 会将实际帖子发送至频道。 ) 
 
 - 将连接器消息发送到频道时，任何数据都不会离开公司网络。
 
-- 支持可操作消息的连接器（REPLYTO_CONNECTOR_MESSAGE 权限）也看不到 IP 地址和引用信息;此信息将发送到 Microsoft，然后路由到以前在连接器门户中注册到 Microsoft 的 HTTP 终结点。
+- 支持可操作消息 (REPLYTO_CONNECTOR_MESSAGE 权限的连接器) 也看不到 IP 地址和引用信息;此信息将发送到 Microsoft，然后路由到以前在连接器门户中注册到 Microsoft 的 HTTP 终结点。
 
 - 每次为通道配置连接器时，都会创建该连接器实例的唯一 URL。 如果该连接器实例已删除，则无法再使用该 URL。
 
@@ -171,11 +171,11 @@ REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作的消息，这些消
 - 如果发送连接器消息的服务遭到破坏并开始发送垃圾邮件/网络钓鱼/恶意软件链接，租户管理员可以阻止创建新的连接器实例，并且 Microsoft 可以集中阻止它们。
 
 > [!NOTE]
-> 目前尚不能知道哪些连接器支持可操作的消息（REPLYTO_CONNECTOR_MESSAGE 权限）。
+> 目前尚不能知道哪些连接器支持可操作的消息 (REPLYTO_CONNECTOR_MESSAGE 权限) 。
 
 ## <a name="outgoing-webhooks"></a>传出 webhooks
 
-*传出 webhooks*由团队所有者或团队成员动态创建。 它们不是团队应用的功能;包含此信息是为了实现完整性。
+*传出 webhooks* 由团队所有者或团队成员动态创建。 它们不是团队应用的功能;包含此信息是为了实现完整性。
 
 ### <a name="required-permissions"></a>所需权限
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc024491ee289717b9028969544ae179a72e3d0e
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: ce6c5cc546c3c2e8b8369247de38e0f734b9b467
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599557"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739220"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -66,6 +66,9 @@ Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsof
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>为 OneDrive for business 和 SharePoint 设置会议录制选项
+
+> [!Note]
+> "会议录制" 选项是 "团队" 策略级别的一个设置。 以下示例显示了如何设置全局策略。 请确保为你分配给用户的策略设置了 "会议录制" 选项。 团队会议策略更改需要一段时间才能传播。 在设置后的几个小时后再次查看，然后注销并再次登录。
 
 1. 安装 Skype For Business Online PowerShell。 
 **注意**： Skype For Business Online 连接器目前是最新团队 PowerShell 模块的一部分。 如果您使用的是最新的团队 PowerShell 公共版本，则无需安装 Skype for Business Online 连接器。 请参阅 [管理与 PowerShell 的 Skype for Business Online](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)。
