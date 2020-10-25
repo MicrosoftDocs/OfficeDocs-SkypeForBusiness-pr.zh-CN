@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队管理中心中管理 Skype for business 功能的设置。
-ms.openlocfilehash: 7248d57c5a2efb49714bf9e43c4e367ef454bfd0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 18f1de99964a36485e69a210c71b6350313aa1cb
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739230"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753557"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理 Skype for Business 设置
 
@@ -37,10 +37,12 @@ ms.locfileid: "48739230"
 
 作为管理员，Microsoft 团队管理中心是你在其中管理你的组织中 Skype for business 用户的 Skype for business 功能的地方。 你可以在 " **skype** for business" 页面上管理[你的组织](#manage-skype-for-business-settings-for-your-organization)的设置，并在用户详细信息页面的 " **skype for business** " 选项卡上管理[单个用户](#manage-skype-for-business-settings-for-individual-users)的设置。
 
-如果你的组织的共存模式未设置为 "**仅限团队**"，你将只能在 Microsoft 团队管理中心中看到 " **Skype for** business" 页面。 同样，如果用户的共存模式不是**团队成员**，你将只能看到用户的 " **Skype for business** " 选项卡。 若要了解有关共存模式的详细信息，请参阅 [了解团队和 Skype for business 共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md) ，并 [设置你的共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)。
+如果你的组织的共存模式未设置为 "**仅限团队**"，你将仅看到 " **Skype for business** " 页面。 同样，如果用户的共存模式不是**团队成员**，你将只能看到用户的 " **Skype for business** " 选项卡。 若要了解有关共存模式的详细信息，请参阅 [了解团队和 Skype for business 共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md) ，并 [设置你的共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)。
 
 > [!NOTE]
 > Skype for Business 设置以前位于 Microsoft 团队管理中心的 **旧版门户** 中。 在停用旧版门户后，我们会将这些新位置的设置迁移到 Skype for business 管理的团队管理中心。
+
+你必须分配有全局管理员或 Skype for Business 管理员的 [AZURE AD 管理员角色](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) ，才能在 Microsoft 团队管理中心中管理 Skype for business 功能。
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>管理你的组织的 Skype for Business 设置
 

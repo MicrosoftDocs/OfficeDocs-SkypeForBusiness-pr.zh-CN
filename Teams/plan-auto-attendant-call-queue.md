@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和通话队列以及如何使用它们帮助呼叫者在菜单系统中移动以联系组织中的人员或部门。
-ms.openlocfilehash: 3e1a7fe6b5f059236e0fafd64dbf87b7cebbeecf
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: ece138b3e3513273b57d980442f46f683aaddda4
+ms.sourcegitcommit: 5a013b4c0a8d23d33ab9e9147991f2b3b7247693
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209979"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48748894"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划团队自动助理和通话队列
 
@@ -136,13 +136,13 @@ ms.locfileid: "48209979"
 > [!NOTE]
 > 单个自动助理只能支持单个 "拨号方式" 方法。  若要允许呼叫者按姓名和按号码拨号，您需要创建一个自动助理，该助理具有按名称拨号的选项，另一种是通过分机号码拨入。  这些选项中的每一个都将路由到为这些 "拨号方式" 方案配置的单独的自动 attenants。 
 
-当呼叫由自动助理重定向时，您可以从下列呼叫路由目标中进行选择：
+当呼叫由自动助理或呼叫队列重定向时，您可以从下列呼叫路由目标中进行选择：
 
 - **组织中的人员** -您的组织中能够接收语音呼叫的人员。 这可以是联机用户，也可以是使用 Skype for Business 服务器内部托管的用户。
 - **语音应用** -另一个自动助理或呼叫队列。 选择与目标相关联的资源帐户。
 - **外部电话号码** -任何电话号码。  (参阅 [外部转接技术详细信息](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)) 。
 - **语音邮件** -与你指定的 Microsoft 365 组相关联的语音邮箱。
-- **Operator** -为自动助理定义的操作员。 定义运算符是可选的。 操作员可以是此列表中的任何其他目标。
+- **运算符** (仅限自动助理) -为自动助理定义的操作员。 定义运算符是可选的。 操作员可以是此列表中的任何其他目标。
 
 自动助理提供单独的呼叫传送选项，用于在工作时间之外和假期内接收的呼叫。 下班后呼叫路由允许以上列出的所有选项，而假日呼叫路由只允许重定向或断开呼叫，但不允许拨号键选项。
 
