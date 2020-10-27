@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 适用于团队管理员的患者应用
-ms.openlocfilehash: 9e4ec8179fda091fcd2ecd047d633b5bda6026b6
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 0bec3373781a6facd69bda19876397261f68dc71
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367692"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766875"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者应用的审核日志
 
@@ -29,7 +29,7 @@ ms.locfileid: "48367692"
 >
 >患者应用数据存储在支持团队的 Office 365 组的组邮箱中。 当患者应用停用时，与之关联的所有数据将保留在此组中，但不能再通过用户界面进行访问。 当前用户可以使用 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新创建其列表。
 >
->" [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 为所有团队用户预安装，可在每个团队和频道中用作选项卡。 使用 "列表"，"护理团队" 可以使用内置患者模板、从头开始或通过将数据导入 Excel 来创建患者列表。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
+>" [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 为所有团队用户预安装，可在每个团队和频道中用作选项卡。 使用列表，运行状况团队可以使用内置患者模板、从头开始或通过将数据导入 Excel 来创建患者列表。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
 
 患者应用活动的审核日志允许事件响应团队查看患者的电子医疗记录更改 (EMR) 或患者医疗保健信息 (PHI) ，并确定是否需要在生产力工具中进行更改或改进以支持 PHI 访问。 审核日志事件涵盖通过患者应用用户界面执行的操作。
 

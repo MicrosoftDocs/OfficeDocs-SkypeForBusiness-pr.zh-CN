@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 通过提供设置、频道和应用的预定义模板，使用 Microsoft 团队模板快速轻松地创建团队。
+description: 通过提供设置、频道和应用的预定义模板，将 Microsoft 团队模板与 Microsoft Graph 配合使用来快速轻松地创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 63376c68d8267aaa49b4bdf4033d5ebfaa0a446f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294429"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766695"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>使用 Microsoft Graph 的医疗保健组织的团队模板入门
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>面向医疗保健组织的团队模板入门
 
 Microsoft 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 
@@ -35,7 +35,7 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
 ## <a name="ward-template"></a>拖动模板
 
-拖动模板适用于拖动、pod 或部门中的通信和协作。 该模板可用于促进患者管理，以及拖动的运行需要。 例如，可以在 *公告* 频道中发布拖动公告，并且可以在 *人员配备*中管理班次。 如果你想要简化拖动操作，则此模板适用于你。
+拖动模板适用于拖动、pod 或部门中的通信和协作。 该模板可用于促进患者管理，以及拖动的运行需要。 例如，可以在 *公告* 频道中发布拖动公告，并且可以在 *人员配备* 中管理班次。 如果你想要简化拖动操作，则此模板适用于你。
 
 |基本模板类型 |baseTemplateId |基线模板通道|
 |:--- |:---|:---|
@@ -46,7 +46,7 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
 ## <a name="hospital-template"></a>医院模板
 
-医院模板旨在在医院中的多个 wards、箱和部门之间进行通信和协作。 此模板包含多个操作通道，包括 *公告*、 *Custodial*和 *药房*，但我们还提供以下脚本，它将使用您可以添加到、删除或编辑的各种其他部门或以专业为中心的频道来扩展模板。 例如，如果您有一个 *Endocrinology* 部门，但不需要 *Ophthalmology*的频道，则可以改编该脚本以包括 *Endocrinology* 频道和删除 *Ophthalmology* 频道。 我们建议，这些专业或拖动建模的通道不是自动收藏，以免出现通知饱和。 用户通常喜欢他们找到的任何频道。
+医院模板旨在在医院中的多个 wards、箱和部门之间进行通信和协作。 此模板包含多个操作通道，包括 *公告* 、 *Custodial* 和 *药房* ，但我们还提供以下脚本，它将使用您可以添加到、删除或编辑的各种其他部门或以专业为中心的频道来扩展模板。 例如，如果您有一个 *Endocrinology* 部门，但不需要 *Ophthalmology* 的频道，则可以改编该脚本以包括 *Endocrinology* 频道和删除 *Ophthalmology* 频道。 我们建议，这些专业或拖动建模的通道不是自动收藏，以免出现通知饱和。 用户通常喜欢他们找到的任何频道。
 
 |基本模板类型 |baseTemplateId |基线模板通道|
 |:--- |:---|:---|

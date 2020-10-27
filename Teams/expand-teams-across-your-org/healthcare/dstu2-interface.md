@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: 了解团队中的 DSTU2 界面规范，包括设置或重新配置 FHIR 服务器以使用 Microsoft 团队患者应用。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ab502f66785af7947185fb0fbee0d3a55dd70c67
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: d29dab88f6ee53eb4c758f6c95f71278e20ecdbe
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367602"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766975"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 接口规范
 
@@ -32,7 +32,7 @@ ms.locfileid: "48367602"
 >
 >患者应用数据存储在支持团队的 Office 365 组的组邮箱中。 当患者应用停用时，与之关联的所有数据将保留在此组中，但不能再通过用户界面进行访问。 当前用户可以使用 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新创建其列表。
 >
->" [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 为所有团队用户预安装，可在每个团队和频道中用作选项卡。 使用 "列表"，"护理团队" 可以使用内置患者模板、从头开始或通过将数据导入 Excel 来创建患者列表。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
+>" [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 为所有团队用户预安装，可在每个团队和频道中用作选项卡。 使用列表，运行状况团队可以使用内置患者模板、从头开始或通过将数据导入 Excel 来创建患者列表。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -58,12 +58,14 @@ ms.locfileid: "48367602"
 
  FHIR 服务器必须实现一致性声明，才能为我们提供其功能的实际摘要。 我们期望 DSTU2 FHIR 服务器中的以下参数：
 
-1. 余下
-   1. 众
-   2. 相交
-   3. 资源：类型
-   4. 安全性： [OAuth uri 的扩展](https://hl7.org/fhir/extension-oauth-uris.html)
-2. FhirVersion (我们的代码需要此内容，以了解我们支持多个版本时应透视到的版本。 ) 
+ - 余下
+
+    - 众
+    - 相交
+    - 资源：类型
+    - 安全性： [OAuth uri 的扩展](https://hl7.org/fhir/extension-oauth-uris.html)
+   
+ - FhirVersion (我们的代码需要此内容，以了解我们支持多个版本时应透视到的版本。 ) 
 
 [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)有关此字段集的其他详细信息，请参阅。
 
@@ -71,38 +73,66 @@ ms.locfileid: "48367602"
 
 以下是 " [Argonaut" 患者档案](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) 字段子集的最少必填字段：
 
-1. 名称。家庭
-2. 名称。给定
-3. 性别
-4. BirthDate
-5. MRN (标识符) 
+ - 名称。家庭
+ - 名称。给定
+ - 性别
+ - BirthDate
+ - MRN (标识符) 
 
 除了 Argonaut 字段，为患者应用提供出色的用户体验还会读取以下字段：
 
-1. 名称。使用
-2. 名称。前缀
-3. CareProvider (对患者资源的此参考应包括以下示例中所示的显示字段。 ) 
+ - 名称。使用
+ - 名称。前缀
+ - CareProvider (对患者资源的此参考应包括以下示例中所示的显示字段。 ) 
 
-* * *
-
-    请求：获取 <fhir-服务器>/Patient/<患者 id>
+    ```
+    Request:
+    GET <fhir-server>/Patient/<patient-id>
     
-    回复： {"resourceType"： "患者"，"id"： "<患者 id>"，。
+    Response:
+    {
+      "resourceType": "Patient",
+      "id": "<patient-id>",
       .
       .
-      "名称"： [{"使用"： "官方"，"prefix"： ["Mr"]，"family"： ["Chau"]，"Hugh"： [""]}]，"标识符"： [{"使用"： "官方"，"类型"： {"编码"： [{"system" https://hl7.org/fhir/v2/0203 ： "？"，"1234567"}]，"性别"： "男"，"出生日期"： "1957-06-05"，"careProvider"： [{"显示"： "Jane Doe"}]，}
-
-* * *
+      .
+      "name": [
+        {
+          "use": "official",
+          "prefix": [ "Mr" ],
+          "family": [ "Chau" ],
+          "given": [ "Hugh" ]
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "type": {
+            "coding": [
+              {
+                "system": "https://hl7.org/fhir/v2/0203",
+                "code": "MR"
+              }
+            ]
+          },
+          "value": "1234567"
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1957-06-05",
+      "careProvider": [{ "display": "Jane Doe" }],
+    }
+    ```
 
 资源搜索在/Patient/_search 使用 POST 方法，并使用以下参数：
 
-1. 标识号
-2. 系列：包含 = (搜索其系列名称包含值的所有患者。 ) 
-3. 给定 =\<substring>
-4. 名称 =\<substring>
-5. 出生日期 = (完全匹配) 
-6. \_计数 (应返回的最大结果数)  <br> 该响应应包含作为搜索结果返回的记录的总数， \_ PatientsApp 将使用该计数来限制返回的记录数。
-7. 标识符 =\<mrn>
+ - 标识号
+ - 系列：包含 = (搜索其系列名称包含值的所有患者。 ) 
+ - 给定 =\<substring>
+ - 名称 =\<substring>
+ - 出生日期 = (完全匹配) 
+ - \_计数 (应返回的最大结果数)  <br> 该响应应包含作为搜索结果返回的记录的总数， \_ PatientsApp 将使用该计数来限制返回的记录数。
+ - 标识符 =\<mrn>
 
 目标是能够搜索和筛选患者，如下所示：
 
@@ -113,16 +143,41 @@ ms.locfileid: "48367602"
 
 请参阅下面的此通话示例。
 
-* * *
+```
+Request:
+POST <fhir-server>/Patient/_search
+Request Body:
+given=hugh&family=chau
 
-    请求： POST <fhir-server>/Patient/_search 请求正文：给定 = hugh&家族 = chau
-    
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，。
-      .
-      .
-      "entry"： [{"资源"： {"resourceType"： "患者"，"id"： "<患者 id>"，"名称"： [{"文本"： "Hugh Chau"，"family"： ["Hugh"]，""： [""]}]，"性别"： "男"，"出生日期"： "1957-06-05
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  .
+  .
+  .
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "<patient-id>",
+        "name": [
+          {
+            "text": "Hugh Chau",
+            "family": [ "Chau" ],
+            "given": [ "Hugh" ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1957-06-05"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html)有关此字段集的其他详细信息，请参阅。
 
@@ -130,34 +185,66 @@ ms.locfileid: "48367602"
 
 以下是最少的必填字段，这些字段是 Argonaut 的重要符号配置文件的子集：
 
- 1. 有效 (日期时间或期间) 
- 2. 编码代码
- 3. ValueQuantity 值
+ - 有效 (日期时间或期间) 
+ - 编码代码
+ - ValueQuantity 值
 
 除了 Argonaut 字段，为患者应用提供出色的用户体验还会读取以下字段：
 
- 1. 代码编码。显示
- 2. ValueQuantity 单位
+ - 代码编码。显示
+ - ValueQuantity 单位
 
 如果使用组件观测值，则相同的逻辑适用于每个组件观察。
 
 资源搜索使用 GET 方法和以下参数：
 
-1. 患者 =\<patient id\>
-2. 排序： desc =\<field ex. date\>
+ - 患者 =\<patient id\>
+ - 排序： desc =\<field ex. date\>
 
 目标是能够检索患者的最新重要标志 [VitalSigns] (观察？ ) 。
 
-* * *
+```
+Request:
+GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&category=vital-signs
 
-    请求：获取 <fhir-服务器>/Observation？患者 =<患者 id>&_sort:d esc = 日期&category = 重要标志
-    
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"键入"： "searchset"，"total"：20，"entry"： [{"resource"： "<资源 id>"，"类别"： {"编码"： [{code "：" 关键签名 "}]，}，" code "： {" 编码 "： [{" system "：" http://loinc.org "，" 代码 "：" 39156-5 "，" display "：" bmi "}]，}，" effectiveDateTime "：" 2009-12-01 "，" valueQuantity "： {" 值 "：34.4，" unit "：" 公斤/m2 "，" system "：" http://unitsofmeasure.org "，" 代码 "：" 公斤/m2 "}}，}。
-        .
-        .
-      ] }
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 20,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "<resource-id>",
+        "category": {
+          "coding": [ { code": "vital-signs" } ],
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "bmi"
+            }
+          ],
+        },
+        "effectiveDateTime": "2009-12-01",
+        "valueQuantity": {
+          "value": 34.4,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+    },
+    .
+    .
+    .
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html)有关此字段集的其他详细信息，请参阅。
 
@@ -169,23 +256,55 @@ ms.locfileid: "48367602"
 
 除了 Argonaut 字段外，还可以为患者应用提供出色的用户体验，还可以读取以下字段：
 
-1. 录制日期
-2. 严重性
+ - 录制日期
+ - 严重性
 
 资源搜索使用 GET 方法和以下参数：
 
-1. 患者 =\<patient id>
-2. _count =\<max results>
+ - 患者 =\<patient id>
+ - _count =\<max results>
 
 请参阅下面的此呼叫示例：
 
-* * *
+```
+Request:
+GET <fhir-server>/Condition?patient=<patient-id>&_count=10
 
-    请求：获取 <fhir-服务器>/Condition？患者 =<患者 id>&_count = 10
-    
-    响应： {"resourceType"： "捆绑包"，"id"> <： "searchset"： ""，"total"：1，"entry"： [{"资源"： {""： "Condition"，"id"： "<资源 id>"，"代码"： {"编码"： [{"系统"： " http://snomed.info/sct "，"代码"： "386033004"，"显示"： "Neuropathy (nerve 损坏) "}]}，"dateRecorded"： "2018-09-17"，"严重性"： {"编码"： [{"system"： " http://snomed.info/sct "，"代码"： "24484000"，"显示"： "严重"}]}}，}]}
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "<resource-id>",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386033004",
+              "display": "Neuropathy (nerve damage)"
+            }
+          ]
+        },
+        "dateRecorded": "2018-09-17",
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ]
+        }
+      },
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html)有关此字段集的其他详细信息，请参阅。
 
@@ -193,28 +312,55 @@ ms.locfileid: "48367602"
 
 以下是最少必填字段，这些字段是 "美国核心" 基本配置文件 "必须具有" 字段的子集：
 
-1. 状态栏
-2. 键入 [0]。编码 [0]。画面
+ - 状态栏
+ - 键入 [0]。编码 [0]。画面
 
 此外，美国核心的以下字段会遇到配置文件的 "必须支持" 字段
 
-1. 句号。开始
-2. 位置 [0]。位置。显示
+ - 句号。开始
+ - 位置 [0]。位置。显示
 
 资源搜索使用 GET 方法和以下参数：
 
-1. 患者 =\<patient id>
-2. _sort： desc =\<field ex. date>
-3. _count =\<max results>
+ - 患者 =\<patient id>
+ - _sort： desc =\<field ex. date>
+ - _count =\<max results>
 
 目标是能够检索患者的最后一个已知位置。 每个遇到的都引用一个位置资源。 该引用还应包含位置的显示字段。 请参阅下面的此通话示例。
-* * *
 
-    请求：获取 <fhir-服务器>/Encounter？患者 =<患者 id>&_sort:d esc = 日期&_count = 1
-    
-    响应： {"resourceType"： "捆绑包"，"类型"： "searchset"，"total"：1，"entry"： [{"id"： "" 遇到 ""，"id"： "<资源 id>"，"标识符"： [{"使用"： "官方"，"值"： " <id> "}]，"状态"： "已到达"，"类型"： [{"编码"： [{"显示"： "约会"}]，}]，"患者"： {"参考"： "患者/<患者 id>"}，"时间段"： {"start"： "09/17/2018 1:00:00 PM"}，"位置"： [{"位置"： {"display"： [{"位置"： {"display"： "ENT"}，}]}}]}
+```
+Request:
+GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1
 
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "<resource-id>",
+        "identifier": [{ "use": "official", "value": "<id>" }],
+        "status": "arrived",
+        "type": [
+          {
+            "coding": [{ "display": "Appointment" }],
+          }
+        ],
+        "patient": { "reference": "Patient/<patient-id>" },
+        "period": { "start": "09/17/2018 1:00:00 PM" },
+        "location": [
+          {
+            "location": { "display": "Clinic - ENT" },
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm)有关此字段集的其他详细信息，请参阅。
 
@@ -222,31 +368,61 @@ ms.locfileid: "48367602"
 
 以下是最少的必填字段，它们是 Argonaut AllergyIntolerance 配置文件的子集：
 
-1. 代码。文本
-2. 代码。编码 [0]。画面
-3. 状态栏
+ - 代码。文本
+ - 代码。编码 [0]。画面
+ - 状态栏
 
 除了 Argonaut 字段，为患者应用提供出色的用户体验还会读取以下字段：
 
-1. RecordedDate
-2. 备注。文本
-3. 反应 [...]。物质。文本
-4. 反应 [...]。表现形式 [...]。文本
-5. 文本 Div
+ - RecordedDate
+ - 备注。文本
+ - 反应 [...]。物质。文本
+ - 反应 [...]。表现形式 [...]。文本
+ - 文本 Div
 
 资源搜索使用 GET 方法和以下参数：
 
-1. 患者 =  \<patient id>
+ - 患者 =  \<patient id>
 
 请参阅下面的此呼叫示例：
 
-* * *
+```
+Request:
+GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
 
-    请求：获取 <fhir-服务器>/AllergyIntolerance？患者 =<患者 id>
-    
-    响应： {"resourceType"： "捆绑包"，"id"> <： "searchset"： ""，"total"：1，"entry"： [{"资源"： {"resourceType"： "AllergyIntolerance"，"id"： "<资源 id>"，"recordedDate"： "2018 日-17T07：00： 00.000 Z"，"物质"： {"text"： "Cashew 螺母"}，"status"： "已确认"，"反应"： [{"物质"： {"文本"： "Cashew 螺母 allergenic 提取 Injectable 产品"}，"表现形式"： [{"文本"： "Anaphylactic 反应"}]}]}
-
-* * *
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "<resource-id>",
+        "recordedDate": "2018-09-17T07:00:00.000Z",
+        "substance": {
+          "text": "Cashew nuts"
+        },
+        "status": "confirmed",
+        "reaction": [
+          {
+            "substance": {
+              "text": "cashew nut allergenic extract Injectable Product"
+            },
+            "manifestation": [
+              {
+                "text": "Anaphylactic reaction"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html)有关此字段集的其他详细信息，请参阅。
 
@@ -254,31 +430,56 @@ ms.locfileid: "48367602"
 
 以下是最少的必填字段，它们是 Argonaut MedicationOrder 配置文件的子集：
 
-1. DateWritten
-2. Prescriber 显示
-3. 药物。如果引用) ，则显示 (
-4.  () 概念的 "药物" 文本
+ - DateWritten
+ - Prescriber 显示
+ - 药物。如果引用) ，则显示 (
+ -  () 概念的 "药物" 文本
 
 除了 Argonaut 字段外，还可以为患者应用提供出色的用户体验，还可以读取以下字段：
 
-1. DateEnded
-2. DosageInstruction
-3. 文本 Div
+ - DateEnded
+ - DosageInstruction
+ - 文本 Div
 
 资源搜索使用 GET 方法和以下参数：
 
-1. 患者 =\<patient id>
-2. _count =\<max results>
+ - 患者 =\<patient id>
+ - _count =\<max results>
 
 请参阅下面的此呼叫示例：
 
-* * *
+```
+Request:
+GET <fhir-server>/MedicationOrder?patient=<patient-id>&_count=10
 
-    请求：获取 <fhir-服务器>/MedicationOrder？患者 =<患者 id>&_count = 10
-    
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"type"： "searchset"，"total"：1，"entry"： [{"资源"： {"resourceType"： "MedicationOrder"，"id"： "<资源 id>"，"dateWritten"： "2018-09-17"，"medicationCodeableConcept"： {"text"： "Lisinopril 20 MG 平板电脑"}，"prescriber"： {"display"： "Jane Doe"}，"dosageInstruction"： [{"文本"： "1 天"}]}}]}
-
-* * *  
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "id": "<resource-id>",
+        "dateWritten": "2018-09-17",
+        "medicationCodeableConcept": {
+          "text": "Lisinopril 20 MG Oral Tablet"
+        },
+        "prescriber": {
+          "display": "Jane Doe"
+        },
+        "dosageInstruction": [
+          {
+            "text": "1 daily"
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
 [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html)有关此字段集的其他详细信息，请参阅。
 
@@ -286,22 +487,36 @@ ms.locfileid: "48367602"
 
 以下是 "最少必填字段"，不包含在美国 Core 或 Argonaut 配置文件中：
 
-1. Payor
+ - Payor
 
 资源搜索使用 GET 方法和以下参数：
 
-1. 患者 =\<patient id>
+ - 患者 =\<patient id>
 
 请参阅下面的此呼叫示例：
 
-* * *
+```
+Request:
+GET <fhir-server>/Coverage?patient=<patient-id>
 
-    请求：获取 <fhir-服务器>/Coverage？患者 =<患者 id>
+Response:
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "<resource-id>",
+        "plan": "No Primary Insurance",
+        "subscriber": { "reference": "Patient/<patient-id>" }
+      }
+    }
+  ]
+}
+```
     
-    响应： {"resourceType"： "捆绑包"，"键入"： "searchset"，"total"：1，"entry"： [{"resource"： "<资源 id>"，"计划"： "没有主保险"，"订阅"： {"reference"： "患者/<患者 id>"}}]}
-
-* * *
-
 [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html)有关此字段集的其他详细信息，请参阅。
 
 ## <a name="location"></a>位置

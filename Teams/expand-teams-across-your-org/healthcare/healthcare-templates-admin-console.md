@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 通过提供设置、频道和应用的预定义模板，使用管理中心中的 Microsoft 团队模板快速轻松地创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d030d19cbd3c11283649ffb7fa02124854bfce23
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5d20006645caede9d780bbcb9b462d71e396a205
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424732"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766705"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>在管理中心中使用团队医疗保健模板
 

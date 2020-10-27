@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b10127dd403059d21e8ab54c1267b85d77bf29f8
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: d8225198a3d56c731193d72e98d4ebebe2954a2f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469558"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766731"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 团队中管理你的组织的列表应用
 
@@ -44,7 +44,7 @@ Microsoft 团队中的 "列表" 应用可帮助你的组织中的用户跟踪信
 
 - 使用 "问题跟踪器" 模板跟踪问题并使其关闭。
 - 通过 "活动路线" 模板整理您的所有活动详细信息。
-- 使用病人模板记录患者的需求和状态，以供您的医疗组织中的护理团队监视和协调护理。
+- 使用病人模板记录医疗保健组织中的患者在医疗保健组织中的需求和状况，以监控和协调护理。
 - 通过贷款模板跟踪贷款申请的状态。
 
 ## <a name="example-scenario"></a>示例方案
@@ -88,11 +88,11 @@ Huddle 后，邮件运营商将选择其邮件并开始送达路线。 事件可
 
 默认情况下，将为组织中的所有团队用户启用列表。 你可以在 Microsoft 团队管理中心的 " [管理应用](manage-apps.md) " 页面上，关闭或打开组织级别的应用。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **管理应用**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **团队应用**  >  **管理应用** "。
 2. 执行下列操作之一：
 
-    - 若要为你的组织关闭列表，请搜索 "列表" 应用，将其选中，然后单击 " **阻止**"。
-    - 若要为你的组织打开列表，请搜索 "列表" 应用，将其选中，然后单击 " **允许**"。
+    - 若要为你的组织关闭列表，请搜索 "列表" 应用，将其选中，然后单击 " **阻止** "。
+    - 若要为你的组织打开列表，请搜索 "列表" 应用，将其选中，然后单击 " **允许** "。
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>为组织中的特定用户启用或禁用列表
 
@@ -112,7 +112,7 @@ Huddle 后，邮件运营商将选择其邮件并开始送达路线。 事件可
 
 ## <a name="give-feedback-or-report-an-issue"></a>提供反馈或报告问题
   
-若要向我们发送反馈或报告问题，请单击 "团队" 左侧导航底部附近的 " **帮助** "，然后选择 " **报告问题**"。 选择 " **列表**"，然后输入您的反馈或有关您所遇到的问题的详细信息。
+若要向我们发送反馈或报告问题，请单击 "团队" 左侧导航底部附近的 " **帮助** "，然后选择 " **报告问题** "。 选择 " **列表** "，然后输入您的反馈或有关您所遇到的问题的详细信息。
 
 ## <a name="related-topics"></a>相关主题
 

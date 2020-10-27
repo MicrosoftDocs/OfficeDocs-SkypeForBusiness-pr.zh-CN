@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f7818102426f38279caac5c4532a22e53f1673e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514939"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766765"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 上的团队会话
 
@@ -96,7 +96,7 @@ ms.locfileid: "48514939"
 | 标题 | 抽象化            | 等级| 说话 |
 |---|----------|---|---|---|
 |[教育团队的部署和管理](https://aka.ms/PR103) |了解你需要了解的所有内容，以便了解你的教育机构的整体监管。 在此会话中，我们将介绍聊天策略、会议策略、应用策略、通过组进行的工作分配、如何配置学生安全性以及自动化团队类创建的方法。 |300|Jethro Seghers|
-|[在医疗保健中与 Microsoft 团队进行虚拟运行状况和协作](https://aka.ms/PR116)|了解医疗保健组织如何帮助帮助团队更好地为 Microsoft 团队提供最佳护理。 此讲座重点介绍虚拟运行状况和护理团队协作，以及 dives 深入了解医疗保健、虚拟访问、客户案例等方面的团队的最新通知等方面。 您还将了解如何将 Microsoft 团队用作解决各种当前医疗保健方案的平台。|200|Evan Westenberger、Tom McGuinness、Kristina Behr、Daniel Canning|
+|[在医疗保健中与 Microsoft 团队进行虚拟运行状况和协作](https://aka.ms/PR116)|了解医疗保健组织如何帮助运行状况团队为 Microsoft 团队提供最佳护理。 此讲座重点介绍虚拟运行状况和运行状况团队协作以及 dives 深入了解医疗保健、虚拟访问、客户案例等领域中的团队最新公告。 您还将了解如何将 Microsoft 团队用作解决各种当前医疗保健方案的平台。|200|Evan Westenberger、Tom McGuinness、Kristina Behr、Daniel Canning|
 |[为你的行业定制 Microsoft 团队](https://aka.ms/PR117)|在此会话中，我们将通过我们的行业库共享有关如何通过模板引导协作体验的详细信息，自定义这些模板，并将其部署到组织中的各个部分，并且只需通过策略程序包进行管理。|200|本地 Kuchi，李建 Glick|
 |[在政府中使用 Microsoft 团队协作和沟通](https://aka.ms/PR118) |省/市/自治区、本地和联邦机构利用 Microsoft 团队提高他们协作和改进响应时间和公民参与的能力。  了解如何最大程度地利用现有功能、下一步，以及我们未来对政府中的 Microsoft 团队的看法。 |200|Rima Reyes、Karuana Gatimu、Roxy Ndebumadu、Sarah 吉尔伯特|
 |[与 Microsoft 团队教育版应用平台集成](https://aka.ms/PR120)|团队是用于集成应用和创建自定义工作流的教育机构的开放平台。  在此会话中，我们将介绍团队应用商店如何跨课堂教学使用，以便与 IT 帮助办公桌集成。 了解第三方应用管理、开放源代码应用模板和一个动手应用的示例，以便为你的机构创建快速自定义网站应用。|300|Dominic Williamson|

@@ -20,28 +20,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a83a18810268d3eb8317eb541f7eb06ff812c9c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 52b1d03be3e5d54260084bbf44ad6695404607c9
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582089"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766575"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实施服务质量 (QoS) 
 
-Microsoft 团队中的服务质量 (QoS) 是一种允许实时网络流量对网络延迟敏感的方式 (例如，语音或视频流) 到不太敏感的流量 (（如下载新应用程序），要下载更多的内容) 。 QoS 通过使用 Windows 组策略对象和一个名为基于端口的访问控制列表的路由功能来标识和标记实时流中的所有数据包，有关这些功能的详细信息，请在下面) ，从而帮助你的网络为你的网络带宽的专用部分提供语音、视频和屏幕共享流。 (。
+Microsoft 团队中的服务质量 (QoS) 允许对网络延迟敏感的实时网络流量 (例如，语音或视频流) 在不太敏感的流量 (（如下载新应用）的情况下进行 "在行中剪切"，这种情况不是很大的交易) 。 QoS 使用 Windows 组策略对象和基于端口的访问控制列表来标识和标记实时流中的所有数据包。 这可帮助你的网络为语音、视频和屏幕共享提供特定的网络带宽部分的流。
 
-如果你支持一组大型用户，并且遇到下面所述的任何问题，则可能需要实现 QoS。 用户数较少的小型企业可能不需要 QoS，但甚至应该有帮助。
+如果你支持的大型用户组遇到本文所述的任何问题，则你可能需要实现 QoS。 用户数较少的小型企业可能不需要 QoS，但甚至应该有帮助。
 
 如果没有某种形式的 QoS，您可能会在语音和视频中看到以下质量问题：
 
 - 抖动-媒体数据包以不同的费率收取，这可能会导致通话中缺少单词或音节
 - 数据包丢失-丢弃的数据包，还可能导致更低的语音质量，并且难以理解语音
-- 延迟的往返行程时间 (RTT) -媒体数据包在到达其目标时花费很长时间，从而导致对话中两方之间出现明显延迟，从而导致用户相互通话
+- 延迟的往返时间 (RTT) -媒体数据包在到达其目标时花费很长时间，从而导致对话中两方之间出现明显延迟，并使用户相互通话
 
 解决这些问题的最简单的方法是在内部和 internet 上增加数据连接的大小。 由于这通常是成本不受影响的，因此 QoS 提供了一种更高效地管理您所拥有的资源（而不是增加带宽）的方法。 若要解决质量问题，我们建议你首先使用 QoS，然后仅在必要时才添加带宽。
 
-为了使 QoS 有效，你将在整个组织中应用一致的 QoS 设置，因为无法支持 QoS 优先级的路径的任何部分可能会降低呼叫、视频和屏幕共享的质量。 这包括将设置应用到所有用户电脑或设备、网络交换机、互联网路由器以及团队服务。
+为使 QoS 有效，您必须在整个组织中应用一致的 QoS 设置。 无法支持 QoS 优先级的路径的任何部分可能会降低呼叫、视频和屏幕共享的质量。 这包括将设置应用到所有用户电脑或设备、网络交换机、互联网路由器以及团队服务。
 
 _图1。组织的网络与 Microsoft 365 或 Office 365 服务之间的关系_
 
@@ -58,8 +58,8 @@ _图1。组织的网络与 Microsoft 365 或 Office 365 服务之间的关系_
 1. [为每种媒体类型选择初始端口范围](#choose-initial-port-ranges-for-each-media-type)
 
 1. 实施 QoS 设置：
-   1. 在使用 GPO[设置客户端设备端口范围和标记](QoS-in-Teams-clients.md)的客户端上
-   2. 在路由器 (查看制造商文档) 或其他网络设备。 这可能包括基于端口的 Acl，或者仅定义 QoS 队列和 DSCP 标记，或者所有这些操作。
+   1. 在使用组策略对象的客户端 (GPO) [设置客户端设备端口范围和标记](QoS-in-Teams-clients.md)
+   2. 在路由器 (查看制造商文档) 或其他网络设备。 这可能包括基于端口的访问控制列表 (Acl) 或者简单地定义 QoS 队列和 DSCP 标记，或者所有这些操作。
 
       > [!IMPORTANT]
       > 我们建议使用客户端源端口和来源和目标 IP 地址 "any" 实现这些 QoS 策略。 这将在内部网络上捕获传入和传出媒体流量。  
@@ -78,14 +78,13 @@ _图1。组织的网络与 Microsoft 365 或 Office 365 服务之间的关系_
   - ISP 到 Microsoft network edge –3个跃点
   - Microsoft 网络边缘到最终目标-不相关
 
-有关配置防火墙端口的信息，请转到[Office 365 url 和 IP 范围](office-365-urls-ip-address-ranges.md)。
-
+有关配置防火墙端口的信息，请转到 [Office 365 url 和 IP 范围](office-365-urls-ip-address-ranges.md)。
 
 ## <a name="make-sure-your-network-is-ready"></a>请确保您的网络已准备就绪
 
-如果你正在考虑 QoS 实施，你应该已确定带宽要求和其他[网络要求](prepare-network.md)。 
+如果你正在考虑 QoS 实施，你应该已确定带宽要求和其他 [网络要求](prepare-network.md)。
   
-网络上的流量拥塞将显著影响媒体质量。 缺少带宽会导致性能下降和用户体验较差。 当团队采纳和使用增加时，请使用 "报告"、"[每用户呼叫分析](use-call-analytics-to-troubleshoot-poor-call-quality.md)" 和 "[呼叫质量" 仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)识别问题，然后使用 QoS 和选择性带宽增加进行调整。
+网络上的流量拥塞将显著影响媒体质量。 缺少带宽会导致性能下降和用户体验较差。 当团队采纳和使用增加时，请使用 "报告"、" [每用户呼叫分析](use-call-analytics-to-troubleshoot-poor-call-quality.md)" 和 " [呼叫质量" 仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md) 识别问题，然后使用 QoS 和选择性带宽增加进行调整。
 
 ### <a name="vpn-considerations"></a>VPN 注意事项
 
@@ -99,7 +98,7 @@ _图1。组织的网络与 Microsoft 365 或 Office 365 服务之间的关系_
 
 当网络流量进入路由器时，流量将放入队列中。 如果未配置 QoS 策略，则仅有一个队列，所有数据将按具有相同优先级的第一项处理。 这意味着语音通信 (这对延迟非常敏感，) 可能会陷入通信量不足的情况，但延迟额外的毫秒不会出现问题。
 
-当你实现 QoS 时，你可以使用以下几个拥塞管理功能中的一种来定义多个队列 (例如 Cisco 的优先级队列和[基于类别的加权公平队列 (CBWFQ) ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)) 和拥塞避免功能 (如[加权随机检测 (WRED) ](https://en.wikipedia.org/wiki/Weighted_random_early_detection)) 。
+当你实现 QoS 时，你可以使用以下几个拥塞管理功能之一定义多个队列，例如 Cisco 的优先级队列和 [基于类的加权公平队列 (CBWFQ) ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641) 和拥塞避免功能，例如 [加权随机检测 (WRED) ](https://en.wikipedia.org/wiki/Weighted_random_early_detection)。
 
 _图2。QoS 队列的示例_
 
@@ -109,11 +108,11 @@ _图2。QoS 队列的示例_
 
 ## <a name="select-a-qos-implementation-method"></a>选择 QoS 实现方法
 
-你可以通过基于端口的标记实现 QoS，使用网络路由器上 (Acl) 访问控制列表。 基于端口的标记是最可靠的方法，因为它在混合的 Windows、Mac 和 Linux 环境中工作，并且最容易实现。 移动客户端不提供使用 DSCP 值标记流量的机制，因此它们将需要此方法。  
+你可以通过基于端口的标记实现 QoS，使用网络路由器上 (Acl) 访问控制列表。 基于端口的标记是最可靠的方法，因为它在混合的 Windows、Mac 和 Linux 环境中工作，并且最容易实现。 移动客户端不提供使用 DSCP 值标记流量的机制，因此需要使用此方法。  
 
-使用基于端口的标记，你的网络路由器将检查传入的数据包，如果该数据包使用特定的端口或端口范围接收，则它将其标识为特定媒体类型，并将其放入该类型的队列中，将预定义的[DSCP](https://tools.ietf.org/html/rfc2474)标记添加到 IP 数据包标头，以便其他设备可以识别其流量类型，并在其队列中授予其优先级
+使用基于端口的标记，你的网络路由器将检查传入的数据包，如果该数据包使用特定的端口或端口范围接收，则它将其标识为特定媒体类型，并将其放入该类型的队列中，将预定义的 [DSCP](https://tools.ietf.org/html/rfc2474) 标记添加到 IP 数据包标头，以便其他设备可以识别其流量类型，并在其队列中授予其优先级
 
-尽管这在多个平台上有效，但它仅将流量标记在 WAN edge 中 (客户端计算机的所有方式) 并创建管理开销。 您应该参考路由器制造商提供的文档，获取有关实施此方法的说明。
+虽然基于端口的标记可跨平台使用，但它仅将流量标记在 WAN edge 中 (客户端计算机不会一直) ，并会产生管理开销。 有关实施此方法的说明，请参阅路由器制造商提供的文档。
 
 ### <a name="insert-dscp-markers"></a>插入 DSCP 标记
 
@@ -125,15 +124,15 @@ _图2。QoS 队列的示例_
 
 ### <a name="best-practice"></a>最佳做法
 
-我们建议在路由器上的终结点和基于端口的 Acl 中使用 DSCP 标记组合（如有可能）。 使用组策略对象捕获大多数客户端，并且还使用基于端口的 DSCP 标记，可确保移动、Mac 和其他客户端仍可 (至少部分) 的 QoS 处理。
+我们建议在路由器上的终结点和基于端口的 Acl 中使用 DSCP 标记组合（如有可能）。 使用 GPO 捕获大多数客户端，并且还使用基于端口的 DSCP 标记，可确保移动设备、Mac 和其他客户端仍可 (至少部分) 中获得 QoS 处理。
 
 DSCP 标记可以是 likened 到邮票，用于向邮政标志指明邮政的重要程度，以及如何对其进行排序以实现快速交付。 将您的网络配置为为实时媒体流提供优先级后，丢失数据包和后期数据包应该会显著降低。
 
-一旦网络中的所有设备使用相同的分类、标记和优先级，就可以通过更改分配给每个流量类型使用的队列的端口范围的大小来减少或消除延迟、丢弃的数据包和抖动。 从 "团队" 角度来看，最重要的配置步骤是对数据包进行分类和标记，但要使端到端 QoS 成功，还需要将应用程序的配置与基础网络配置仔细对齐。 当 QoS 完全实施后，持续管理是根据组织的需求和实际使用情况调整分配给每个流量类型的端口范围的问题。
+一旦网络中的所有设备使用相同的分类、标记和优先级，就可以通过更改分配给每个流量类型使用的队列的端口范围的大小来减少或消除延迟、丢弃的数据包和抖动。 从 "团队" 角度来看，最重要的配置步骤是数据包的分类和标记。 但是，为了使端到端 QoS 成功，你还需要将应用程序的配置与基础网络配置仔细对齐。 当 QoS 完全实施后，持续管理是根据组织的需求和实际使用情况调整分配给每个流量类型的端口范围的问题。
 
 ## <a name="choose-initial-port-ranges-for-each-media-type"></a>为每种媒体类型选择初始端口范围
 
-DSCP 值会将相应的配置的网络通知到相应配置的网络，提供数据包或流的优先级，无论是由客户还是基于 ACL 设置为网络本身分配了 DSCP 标记。 每个媒体工作负荷获取自己的唯一 DSCP 值 (其他服务可能允许工作负荷共享 DSCP 标记，团队不) 和用于每种媒体类型的定义的单独端口范围。 其他环境可能具有现有的 QoS 策略，这将帮助你确定网络工作负荷的优先级。
+DSCP 值会将相应的配置的网络通知到相应配置的网络，提供数据包或流的优先级，无论是由客户还是基于 ACL 设置为网络本身分配了 DSCP 标记。 每个媒体工作负荷获取自己的唯一 DSCP 值 (其他服务可能允许工作负荷共享 DSCP 标记，团队不) 以及用于每种媒体类型的已定义和单独端口范围。 其他环境可能具有现有的 QoS 策略，这将帮助你确定网络工作负荷的优先级。
 
 不同实时流工作负荷的端口范围的相对大小设置专用于该工作负荷的总可用带宽的比例。 若要返回到我们以前的邮政编码，请执行以下操作：带有 "Air Mail" 图章的信函可能会在一个小时内进入最接近的机场，而标记为 "大宗邮件" 的小程序包可以在一天前等待一天。
 
@@ -149,38 +148,69 @@ _推荐的初始端口范围_
 使用这些设置时，请注意以下事项：
 
 - 如果你计划在将来实施 ExpressRoute，但尚未实现 QoS，我们建议你按照指南进行操作，以便从发送方到接收方的 DSCP 值相同。
-- 所有客户（包括移动客户端和团队设备）将使用这些端口范围，并且将受到你使用这些源端口范围实现的任何 DSCP 策略的影响。 将继续使用动态端口的客户端仅是基于浏览器的客户端 (也就是允许参与者使用其浏览器加入会议的客户端) 。
+- 所有客户（包括移动客户端和团队设备）将使用这些端口范围，并且将受到你使用这些源端口范围实现的任何 DSCP 策略的影响。 将继续使用动态端口的客户端仅是基于浏览器的客户端 (客户端，让参与者使用其浏览器加入会议) 。
 - 虽然 Mac 客户端使用相同的端口范围，但它还会对音频 (EF 使用硬编码的值，) 和视频 (AF41) 。 这些值不可配置。
 - 如果稍后需要调整端口范围以提高用户体验，则端口范围不会重叠，并且应彼此相邻。
 
 ## <a name="migrate-qos-to-teams"></a>将 QoS 迁移到团队
 
-如果你以前已部署 Skype for business Online，包括 QoS 标记和端口范围，并且现在部署团队，团队将考虑现有配置，并将使用相同的端口范围和标记作为 Skype for Business 客户端。 在大多数情况下，不需要额外的配置。
+如果你以前已部署 Skype for business Online，包括 QoS 标记和端口范围，并且现在正在部署。 团队、团队将尊重现有配置，并且将使用相同的端口范围，并将其标记为 Skype for Business 客户端。 在大多数情况下，不需要额外的配置。
 
 > [!NOTE]
 > 如果你通过组策略使用应用程序名称 QoS 标记，则必须添加 Teams.exe 作为应用程序名称。
 
+### <a name="implement-qos-in-teams-on-windows-using-powershell"></a>使用 PowerShell 在 Windows 上的团队中实施 QoS
+
+**设置音频的 QoS**
+
+```powershell
+new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000
+-IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
+```
+
+**设置视频的 QoS**
+
+```powershell
+new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020
+-IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
+```
+
+**设置共享的 QoS**
+
+```powershell
+new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040
+-IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
+```
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>管理团队管理中心中的源端口
 
-在团队中，不同工作负荷使用的 QoS 源端口应处于主动管理状态，并根据需要进行调整。 在[选择每个媒体类型的初始端口范围](#choose-initial-port-ranges-for-each-media-type)中引用表，可调整端口范围，但无法配置 DSCP 标记。 实现这些设置后，你可能会发现给定媒体类型需要更多或更少的端口。 [每用户呼叫分析](use-call-analytics-to-troubleshoot-poor-call-quality.md)和[通话质量仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)应该用于决定在团队实施后调整端口范围，以及按需定期进行更改。
+在团队中，不同工作负荷使用的 QoS 源端口应处于主动管理状态，并根据需要进行调整。 在 [选择每个媒体类型的初始端口范围](#choose-initial-port-ranges-for-each-media-type)中引用表，可调整端口范围，但无法配置 DSCP 标记。 实现这些设置后，你可能会发现给定媒体类型需要更多或更少的端口。 [每用户呼叫分析](use-call-analytics-to-troubleshoot-poor-call-quality.md) 和 [通话质量仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md) 应该用于决定在团队实施后调整端口范围，以及按需定期进行更改。
 
 > [!NOTE]
-> 如果你已基于 Skype for business Online 的源端口范围和 DSCP 标记配置了 QoS，则同一配置将应用到团队，并且不需要进一步的客户端或网络更改，但你可能需要[将团队中使用的区域](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)与 skype For business Online 配置相匹配。
+> 如果你已基于 Skype for business Online 的源端口范围和 DSCP 标记配置了 QoS，则同一配置将应用到团队，并且不需要进一步的客户端或网络更改，但你可能需要 [将团队中使用的区域](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) 与 skype For business Online 配置相匹配。
 
-如果以前已部署了本地 Skype for business 服务器，你可能需要重新检查 QoS 策略并对其进行调整，以匹配已验证的端口范围设置为团队提供了高质量的用户体验。
+如果以前已部署了本地 Skype for business 服务器，你可能需要重新检查 QoS 策略。 调整策略以匹配已验证的端口范围设置为团队提供了高质量的用户体验。
 
 ## <a name="validate-your-qos-implementation"></a>验证你的 QoS 实施
 
-为了使 QoS 有效，组策略对象设置的 DSCP 值需要存在于调用的两端。 通过分析由团队客户端生成的流量，可以验证当团队工作负载流量通过网络移动时，DSCP 值不会更改或去除。
+为了使 QoS 有效，由 GPO 设置的 DSCP 值需要存在于调用的两端。 通过分析由团队客户端生成的流量，可以验证当团队工作负载流量通过网络移动时，DSCP 值不会更改或去除。
 
 最好是在网络出口点处捕获流量。 可以在交换机或路由器上使用端口镜像来帮助解决此情况。
 
+## <a name="implement-qos-for-other-devices"></a>为其他设备实现 QoS
+
+阅读以下主题，了解有关如何实现 Intune、Surface、iOS、Android 和 Mac 的 QoS 的信息
+
+- [Surface Hub 2 的 QoS](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune)
+
+- [Surface Hub 的 QoS](https://docs.microsoft.com/surface-hub/surface-hub-qos)
+
+- [IOS、Android 和 Mac 的 QoS](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 
 ## <a name="related-topics"></a>相关主题
 
-[视频：网络规划](https://aka.ms/teams-networking)
+- [视频：网络规划](https://aka.ms/teams-networking)
 
-[为 Microsoft Teams 准备组织的网络](prepare-network.md)
+- [为 Microsoft Teams 准备组织的网络](prepare-network.md)
 
-[在团队客户端中实施 QoS](QoS-in-Teams-clients.md)
+- [在团队客户端中实施 QoS](QoS-in-Teams-clients.md)

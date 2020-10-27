@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: 了解如何使用 FHIR Api 将电子医疗保健记录集成到 Microsoft 团队患者应用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa8978596a8d386e2ec615a4eb84bab49edb3249
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: ad490820ac764e70f5dbdf17c2cfe5dffaea7ac8
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367681"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766945"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>将电子医疗记录集成到 Microsoft Teams 中
 
@@ -32,13 +32,14 @@ ms.locfileid: "48367681"
 >
 >患者应用数据存储在支持团队的 Office 365 组的组邮箱中。 当患者应用停用时，与之关联的所有数据将保留在此组中，但不能再通过用户界面进行访问。 当前用户可以使用 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新创建其列表。
 >
->" [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 为所有团队用户预安装，可在每个团队和频道中用作选项卡。 使用 "列表"，"护理团队" 可以使用内置患者模板、从头开始或通过将数据导入 Excel 来创建患者列表。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
+>" [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 为所有团队用户预安装，可在每个团队和频道中用作选项卡。 使用列表，运行状况团队可以使用内置患者模板、从头开始或通过将数据导入 Excel 来创建患者列表。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 本文适用于使用 FHIR Api 在医疗信息系统上连接到 Microsoft 团队的一般医疗保健 IT 开发人员。 这将启用符合医疗保健组织的需求的护理协调方案。
 
 链接的文章介绍 Microsoft 团队患者应用的 FHIR 界面规范，并且以下各节介绍了设置 FHIR 服务器以及连接到你的开发环境或租户中的患者应用所需的内容。 您还需要熟悉所选 FHIR 服务器的文档，该文档必须是受支持的选项之一：
+
 - Datica (通过其 [CMI](https://datica.com/compliant-managed-integration/) 服务) 
 - Infor Cloverleaf ([INFOR FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)) 
 - Redox (通过 [R ^ FHIR 服务器](https://www.redoxengine.com/fhir/)) 
@@ -68,38 +69,76 @@ ms.locfileid: "48367681"
 
 ### <a name="authentication"></a>身份验证  
 
-*使用不支持用户级授权*的应用级授权是更常用的方法来执行数据转换并通过 FHIR 公开连接来 EHR 数据，即使 EHR 系统可能会实现用户级授权。 互操作服务 (合作伙伴) 提升对 EHR 数据的访问权限，并且当它们公开与相应 FHIR 资源相同的数据时，不会将授权上下文传递到互操作服务使用者 (患者应用) 与互操作服务或平台集成。 患者应用将不能强制实施用户级授权，但支持应用程序进行患者应用和互操作合作伙伴的服务之间的应用程序身份验证。
+*使用不支持用户级授权* 的应用级授权是更常用的方法来执行数据转换并通过 FHIR 公开连接来 EHR 数据，即使 EHR 系统可能会实现用户级授权。 互操作服务 (合作伙伴) 提升对 EHR 数据的访问权限，并且当它们公开与相应 FHIR 资源相同的数据时，不会将授权上下文传递到互操作服务使用者 (患者应用) 与互操作服务或平台集成。 患者应用将不能强制实施用户级授权，但支持应用程序进行患者应用和互操作合作伙伴的服务之间的应用程序身份验证。
 
 应用程序身份验证模型如下所述：
 
 应通过 OAuth 2.0 [客户端凭据流](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)执行服务身份验证。 合作伙伴服务需要提供以下内容：
 
 1. 合作伙伴服务使患者应用可以创建合作伙伴的帐户，从而使患者应用能够生成并拥有 client_id 和 client_secret，通过合作伙伴身份验证服务器上的身份验证注册门户进行管理。
+
 2. 合作伙伴服务拥有身份验证/授权系统，该系统接受和验证 (身份验证) 提供的客户端凭据，并在范围内向后提供租户提示的访问令牌，如下所述。
+
 3. 出于安全原因或在机密遭到破坏的情况下，患者应用可以重新生成机密，从而使 Azure 门户中的 (（AAD 应用注册) 中提供相同的机密示例。
+
 4. 托管一致性语句的元数据终结点应取消身份验证，它应该在没有身份验证令牌的情况下可以访问。
-5. 合作伙伴服务提供患者应用的令牌终结点，以使用客户端凭据流请求访问令牌。 按授权服务器的令牌 url 应该是从 FHIR 服务器上的元数据中提取的 FHIR 一致性 (功能) 语句的一部分，如下例所示：
 
-* * *
-    {"resourceType"： "CapabilityStatement"，。
+5. 合作伙伴服务提供患者应用的令牌终结点，以使用客户端凭据流请求访问令牌。 按授权服务器的令牌 URL 应该是从 FHIR 服务器上的元数据中提取的 FHIR 一致性 (功能) 语句的一部分，如下例所示：
+
+    ```
+    {
+        "resourceType": "CapabilityStatement",
         .
         .
-        "剩余"： [{"模式"： "服务器"，"安全性"： {"extension"： [{"extension"： [{"扩展名"： [{"" url "：" 标记 "，" valueUri "：" https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token "}，{" url "：" 授权 "，" valueUri "：" https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize "}]，" url "：" http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris "}]，" 服务 "： [{" 系统 "：" https://hl7.org/fhir/ValueSet/restful-security-service ""，"代码"： "OAuth"}]}]}。
+        .
+        "rest": [
+            {
+                "mode": "server",
+                "security": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "token",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"
+                                },
+                                {
+                                    "url": "authorize",
+                                    "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"
+                                }
+                            ],
+                            "url": "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"
+                        }
+                    ],
+                    "service": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "https://hl7.org/fhir/ValueSet/restful-security-service",
+                                    "code": "OAuth"
+                                }
+                            ]
+                        }
+                    ]
+                },
                 .
                 .
-            } ] }
-
-* * *
+                .
+            }
+        ]
+    }
+    ```
 
 访问令牌的请求包含以下参数：
 
-* * *
+```http
+POST /token HTTP/1.1
+Host: authorization-server.com
 
-    POST/token HTTP/1.1 主机： authorization-server.com
-
-    grant-type = client_credentials &client_id = xxxxxxxxxx &client_secret = xxxxxxxxxx
-
-* * *
+grant-type=client_credentials
+&client_id=xxxxxxxxxx
+&client_secret=xxxxxxxxxx
+```
 
 合作伙伴服务提供患者应用的 client_id 和 client_secret，通过合作伙伴的身份验证注册门户进行管理。 合作伙伴服务提供终结点以使用客户端凭据流请求访问令牌。 成功的响应必须包括 token_type、access_token 和 expires_in 参数。
 
@@ -115,21 +154,27 @@ ms.locfileid: "48367681"
 
 1. 通过发送以下内容请求应用访问令牌：
  
-        {   grant_type: client_credentials,
-            client_id: xxxxxx, 
-            client_secret: xxxxxx,
-            scope: {Provider Identifier, Ex: tenant ID}
-        }
+    ```
+    {   grant_type: client_credentials,
+        client_id: xxxxxx, 
+        client_secret: xxxxxx,
+        scope: {Provider Identifier, Ex: tenant ID}
+    }
+    ```
 
 2. 使用应用令牌进行答复：
 
-        {  access_token: {JWT, with scope: tenant ID},
-           expires_in: 156678,
-           token_type: "Bearer",
-        }
+    ```
+    {  access_token: {JWT, with scope: tenant ID},
+       expires_in: 156678,
+       token_type: "Bearer",
+    }
+    ```
 
 3. 使用访问令牌请求受保护的数据。
-4. 授权消息：选择要从作用域中的租户 ID 路由到的相应 FHIR 服务器
+
+4. 授权消息：选择要从作用域中的租户 ID 路由到的相应 FHIR 服务器。
+
 5. 在对应用令牌进行身份验证后，从授权的 FHIR 服务器发送受保护的数据。
 
 ## <a name="interfaces"></a>交互

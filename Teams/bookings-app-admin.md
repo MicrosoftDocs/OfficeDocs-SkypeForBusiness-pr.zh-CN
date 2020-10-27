@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队中的预订应用和虚拟访问
+title: 与 Microsoft 团队和预定应用的虚拟访问
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: ''
 ms.reviewer: ''
 description: 通过预定应用进行 Microsoft 团队和虚拟访问
-ms.openlocfilehash: c60993b57233c0c526e1770c1d3d414a73fcc42a
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 0c88feec8a90b2794e93fb9c51bffafabf942748
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427677"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766955"
 ---
-# <a name="bookings-app-and-virtual-visits-in-microsoft-teams"></a>Microsoft 团队中的预订应用和虚拟访问
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>与 Microsoft 团队和预定应用的虚拟访问
 
 Microsoft 团队中的 "预定" 应用提供了一种简单的方式来安排人员和虚拟约会，例如医疗保健走访、财务咨询、访谈、客户支持、教育办公时间等。
 
@@ -51,13 +51,13 @@ Microsoft 团队中的 "预定" 应用提供了一种简单的方式来安排人
 
 ## <a name="recommended-meeting-policy-settings"></a>建议的会议策略设置
 
-若要启用预订的最佳体验，请创建一个 "员工会议策略" 以自动 **授予组织中的每个人**。 这将允许教职员工自动加入约会，并为外部与会者启用会议厅体验。 你可以了解有关 [自动 admitting 人员加入会议](meeting-policies-in-teams.md#automatically-admit-people)的详细信息。
+若要启用预订的最佳体验，请创建一个 "员工会议策略" 以自动 **授予组织中的每个人** 。 这将允许教职员工自动加入约会，并为外部与会者启用会议厅体验。 你可以了解有关 [自动 admitting 人员加入会议](meeting-policies-in-teams.md#automatically-admit-people)的详细信息。
 
 ### <a name="optional-staff-approvals-setting"></a>可选的员工批准设置
 
 作为额外的隐私设置，你可以选择在计划的计划可用性信息通过预定共享之前以及可以为其预定约会之前，选择需要员工加入。  
 
-若要启用此设置，请转到 **Microsoft 365 管理中心** \> **设置** \> **设置**，然后选择 " **预定**"。
+若要启用此设置，请转到 **Microsoft 365 管理中心** \> **设置** \> **设置** ，然后选择 " **预定** "。
 
 启用此设置后，员工将收到一封电子邮件，其中要求他们向预定日历批准成员身份。  
 
@@ -88,7 +88,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   - 功能缺口或缺少功能
   - Bug 或问题
   
-若要发送反馈，请单击团队左侧导航栏旁边的 "**帮助**" 按钮，然后单击 "报告**所有**问题的**问题**"。 请注意，你正在发送有关 "预定" 反馈的反馈报告的开始处，因此我们可以轻松地确定预订问题。
+若要发送反馈，请单击团队左侧导航栏旁边的 " **帮助** " 按钮，然后单击 "报告 **所有** 问题的 **问题** "。 请注意，你正在发送有关 "预定" 反馈的反馈报告的开始处，因此我们可以轻松地确定预订问题。
 
 ## <a name="related-topics"></a>相关主题
 

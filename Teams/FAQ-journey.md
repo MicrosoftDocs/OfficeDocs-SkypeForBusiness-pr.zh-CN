@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320897"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766585"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 
@@ -57,7 +57,7 @@ Microsoft 还提供实时互动研讨会，我们将分享指导、最佳实践�
 
 
 **如果我有升级过程方面的问题，可以联系谁？**<br>
-如果你有与升级有关的问题，请联系你当前的联系点，可能包括为你分配的 Microsoft 帐户团队、合作伙伴或 [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1)。 或者，你可以从 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)内通过单击“**需要帮助**”按钮来开立一个帮助票证。
+如果你有与升级有关的问题，请联系你当前的联系点，可能包括为你分配的 Microsoft 帐户团队、合作伙伴或 [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1)。 或者，你可以从 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)内通过单击“ **需要帮助** ”按钮来开立一个帮助票证。
 
 ![“需要帮助”按钮](media/need-help-button.png)
 
@@ -68,7 +68,7 @@ Microsoft 还提供实时互动研讨会，我们将分享指导、最佳实践�
 
 **我的用户升级后会发生什么情况？**<br>
 
-在你的用户升级到 Teams（**仅 Teams** 模式）后：
+在你的用户升级到 Teams（ **仅 Teams** 模式）后：
 
 - 其 Skype for Business 客户端将被禁用，因为所有聊天和通话都将在 Teams 中进行。 此客户端将继续用于以前安排的 Skype for Business 会议。 如果此桌面客户端已卸载，用户将被重定向到通过 Skype for Business Web 应用访问以前安排的 Skype for Business 会议。
 
@@ -114,7 +114,7 @@ Teams 专为高度可扩展的微服务架构中的云构建，它可减少带�
 
 
 
-## <a name="calling-capabiities"></a>通话功能
+## <a name="calling-capabilities"></a>通话功能
 
 **Microsoft 的联机语音功能的计划是什么？**<br>
 我们语音解决方案的核心是现已推出的电话系统。 客户还可以添加 Microsoft 通话套餐，它为呼叫提供全面支持，包括直接在 Microsoft 365 中进行号码获取和分配。 希望保留其电信电话干线的客户可以使用直接路由功能 – 它包含在电话系统中。 根据组织的需要将两者混合使用，以便拥有完整的语音解决方案。
