@@ -678,28 +678,24 @@
 ### [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ### [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
 ## 适用于医疗保健业的 Teams
 ### [适用于医疗保健组织的 Teams 入门](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [预订应用和虚拟参观](bookings-app-admin.md)
-### [Teams 医疗保健策略包](policy-packages-healthcare.md)
-### 安全消息传递策略
-#### [适用于医疗保健组织的安全消息传递](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### 虚拟访问
+#### [与 Teams 进行虚拟访问 - 集成到 EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
+#### [通过 Bookings 和 Teams 进行虚拟访问](bookings-app-admin.md)
+### [创建 Teams 策略包](policy-packages-healthcare.md)
+### 安全消息传递
+#### [安全消息传递](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [消息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### 适用于医疗保健组织的 Teams 模板
-#### [在管理中心中使用 Teams 医疗保健模板](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-#### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
-### [管理 Lists 应用](manage-lists-app.md)
+### Teams 模板
+#### [使用 Teams 医疗保健模板](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [适用于医疗保健的 Teams 模板](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [管理列表应用](manage-lists-app.md)
+### [管理任务应用](manage-tasks-app.md)
 ### Teams 中的班次
 #### [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [管理 Shifts 应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-### 患者应用
-#### [患者应用概述](expand-teams-across-your-org/healthcare/patients-app-overview.md)
-#### 将电子医疗记录集成到患者应用中
-##### [使用 FHIR API 将电子医疗记录集成到患者应用中](expand-teams-across-your-org/healthcare/patients-app.md)
-##### [患者应用的 DSTU2 界面规范](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-##### [患者应用的 STU3 界面规范](expand-teams-across-your-org/healthcare/stu3-interface.md)
-##### [将患者应用连接到 Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
-#### [患者应用的审核日志](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
