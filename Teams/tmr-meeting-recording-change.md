@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6245c78b66bde710ea6c03839cc98de8ec8f3f
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753547"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778855"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -34,7 +34,6 @@ ms.locfileid: "48753547"
 |第4季度早些 CY20|**OneDrive for business 和 SharePoint 上的团队会议录制可供选择加入或选择退出。**<br> 租户管理员可以选择加入或退出 OneDrive for Business 和 SharePoint 设置 PowerShell 中的团队策略|
 |第4季度中旬 CY20|**OneDrive for business 和 SharePoint 上的团队会议录制设置为未选择的租户的默认设置**<br> 这是适用于大多数客户的推荐途径|
 |第1季度 CY21|**不再允许将团队会议录制保存到经典流**<br>所有租户均可将团队会议录制内容保存到 OneDrive for business 和 SharePoint|
-
 
 Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsoft Stream 过渡到 [新流](https://docs.microsoft.com/stream/streamnew/new-stream)的第一阶段，此方法将录制存储在 microsoft 365 中的 microsoft OneDrive for Business 和 SharePoint 中，并提供许多好处。
 
@@ -68,12 +67,13 @@ Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsof
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>为 OneDrive for business 和 SharePoint 设置会议录制选项
 
 > [!Note]
-> "会议录制" 选项是 "团队" 策略级别的一个设置。 以下示例显示了如何设置全局策略。 请确保为你分配给用户的策略设置了 "会议录制" 选项。 团队会议策略更改需要一段时间才能传播。 在设置后的几个小时后再次查看，然后注销并再次登录。
+> "会议录制" 选项是 "团队" 策略级别的一个设置。 以下示例显示了如何设置全局策略。 请确保为你分配给用户的策略设置了 "会议录制" 选项。
+> 团队会议策略更改需要一段时间才能传播。 在设置后的几个小时后再次查看，然后注销并再次登录。
 
-1. 安装 Skype For Business Online PowerShell。 
-**注意**： Skype For Business Online 连接器目前是最新团队 PowerShell 模块的一部分。 如果您使用的是最新的团队 PowerShell 公共版本，则无需安装 Skype for Business Online 连接器。 请参阅 [管理与 PowerShell 的 Skype for Business Online](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)。
+1. 安装 Skype For Business Online PowerShell。
+**注意** ： Skype For Business Online 连接器目前是最新团队 PowerShell 模块的一部分。 如果您使用的是最新的团队 PowerShell 公共版本，则无需安装 Skype for Business Online 连接器。 请参阅 [管理与 PowerShell 的 Skype for Business Online](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)。
 
-    a. 下载 [Skype For Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)。 
+    a. 下载 [Skype For Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)。
 
     b. 按照提示进行安装。
 
@@ -97,14 +97,13 @@ Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsof
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>选择退出 OneDrive for Business 和 SharePoint 以继续使用流
 
-即使策略指示它已设置为 **流**，它也可能不会设置。 通常情况下，如果未设置策略，则默认设置为 " **流**"。 但是，如果你想要取消使用 SharePoint 或 OneDrive，请使用此新更改，然后必须将策略重置为 **流** ，以确保它是默认设置。
+即使策略指示它已设置为 **流** ，它也可能不会设置。 通常情况下，如果未设置策略，则默认设置为 " **流** "。 但是，如果你想要选择退出使用 SharePoint 或 OneDrive for Business，则必须将策略重置为 **流** ，以确保它是默认设置。
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
 ## <a name="permissions-or-role-based-access"></a>权限或基于角色的访问
-
 
 |会议类型                               | 单击 "记录"| 录制的土地在哪里？                               |谁有权访问？ R/W、R 或共享                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -124,11 +123,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **会议录制将存储在何处？**
 
-- 对于非频道会议，录制内容存储在属于开始会议录制人员**Recordings**的 OneDrive for business 的最高级别的文件夹中。 上例
+- 对于非频道会议，录制内容存储在属于开始会议录制人员 **Recordings** 的 OneDrive for business 的最高级别的文件夹中。 上例
 
   <i>录像机的 OneDrive For business</i> /**录制**
 
-- 对于频道会议，录制内容存储在名为 " **录制**" 的文件夹中的 "团队网站" 文档库中。 上例
+- 对于频道会议，录制内容存储在名为 " **录制** " 的文件夹中的 "团队网站" 文档库中。 上例
 
   <i>团队名称-频道名称</i> /**文档** /**录制**
 
@@ -152,7 +151,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 录制会议时，从录制会议的60天起，团队会议录制支持隐藏式字幕。
 
-如果团队会议录制从其原始位置移动或复制到 OneDrive 或 SharePoint 上的原始位置，则不会完全支持隐藏式字幕。
+如果团队会议录制在 OneDrive for business 或 SharePoint 上的原始位置移动或复制，则隐藏式字幕不完全受支持。
 
 **我的存储配额将受到怎样的影响**
 
@@ -164,4 +163,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **如果你计划将会弃用添加到 Stream，现有视频是否保持原样和持续多长时间？**
 
-作为平台的流在不久的将来不会被弃用。 在开始迁移之前，当前实时流中的视频将一直保留。 迁移后，这些视频也将迁移到 ODSP。 有关详细信息，请查看 [此处](https://docs.microsoft.com/stream/streamnew/classic-migration) 。
+作为平台的流在不久的将来不会被弃用。 在开始迁移之前，当前实时流中的视频将一直保留。 迁移后，这些视频也将迁移到 OneDrive for business 或 SharePoint。 有关详细信息，请查看 [此处](https://docs.microsoft.com/stream/streamnew/classic-migration) 。
+
+**如何应用保留标签？**
+
+请参阅 [如何自动应用保留标签](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)。

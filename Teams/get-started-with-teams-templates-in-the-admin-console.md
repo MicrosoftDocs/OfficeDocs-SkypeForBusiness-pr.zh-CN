@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618c1a2949dc00e1257e3fef56c41b3bf2be567c
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5b17ae74c03cd6e74f08cddede6757d1937464cc
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424652"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772223"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>管理中心中的团队模板入门
 
@@ -68,7 +68,7 @@ ms.locfileid: "48424652"
 > Microsoft 团队中提供的预定义的基本模板可以重复，但不能编辑。
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
-| ------------------ |----|----------------------------------------------------- |
+| ------------------ | -------------- | ----------------------------------------------------- |
 | 采纳 Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  信道 <ul><li>常规</li> <li>宣告</li> <li>拥护方角落</li> <li>工作组表单</li></ul> 识别 <ul><li>源自</li>  <li>日历</li> |
 | 管理项目 |`com.microsoft.teams.template.ManageAProject`| 信道 <ul><li>常规</li> <li>宣告</li> <li>.Resources</li> <li>规划</li></ul> 识别<ul><li>源自</li><li>OneNote</li></ul> |
 | 管理事件|`com.microsoft.teams.template.ManageAnEvent` | 信道 <ul><li>常规</li> <li>宣告</li> <li>预算</li> <li>内容</li><li>后勤工作</li> <li>规划</li> <li> 市场营销和 PR</li></ul> 识别<ul><li>源自</li><li>网站</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |

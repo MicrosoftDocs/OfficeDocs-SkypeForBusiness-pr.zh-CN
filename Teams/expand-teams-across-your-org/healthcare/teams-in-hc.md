@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 了解医疗保健的功能，包括护理协调、安全消息、虚拟访问、EHR 集成和一线 worker 系统集成。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab34d5da83a189c3d135c330bbe2fe015d248349
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766836"
+ms.locfileid: "48772293"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>面向医疗保健组织的团队入门
 
@@ -94,6 +94,9 @@ Microsoft 团队使医生、临床医生、护士和其他员工能够以 Micros
 - 通过 "倒班" 应用创建、管理和共享日程安排
 
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>通过 "列表" 应用共享列表和跟踪信息
+
+> [!NOTE]
+> 2020年10月30日，患者应用将停用并由团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 利用 "列表"，医疗保健组织中的 "护理团队" 可以创建各种方案的患者列表，包括从倒圆角和 interdisciplinary 团队会议到常规患者监控。
 
 团队中的 "列表" 应用可帮助团队跟踪信息和组织工作。 为所有团队用户预安装应用，并且该应用在每个团队和频道中均可用作选项卡。 可以从预定义的模板或将数据导入到 Excel 中从头开始创建列表。
 

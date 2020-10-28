@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 使用 Microsoft 团队设置你的虚拟访问系统
-ms.openlocfilehash: dcf852486d6a7fbace23bea5fb8610c62bdc7e4f
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 3d5d68e7c4ba3cc203df33604a7210e67b402938
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766715"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778885"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>与团队的虚拟访问-集成到 EHR
 
@@ -35,6 +35,10 @@ Microsoft 团队电子医疗记录 (EHR) 连接器使临床医生能够轻松地
 - 在连接和断开连接事件上写回 EHR 元数据，以启用自动审核和记录保留。
 
 - 集成到现有 clinician 和患者工作流，同时允许他们使用 Microsoft 团队。
+
+  观看有关如何从 EHR 门户管理虚拟访问的视频。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## <a name="before-you-begin"></a>开始之前
 

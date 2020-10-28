@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0d7d20c9faa8dd214c73e1ea759d32c931c7442
-ms.sourcegitcommit: 4f7870f0958a3c73bbf57ad4d4f6b228f8dead73
+ms.openlocfilehash: 51b3333723624dc0c250ce3e4de9a3af88ad84f1
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48286108"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778895"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -46,10 +46,10 @@ ms.locfileid: "48286108"
 
 在虚拟化环境中使用团队需要以下组件。
 
-- **虚拟化代理**：针对虚拟化提供程序的资源和连接管理器，例如 Azure
-- **虚拟桌面**：运行 Microsoft 团队的虚拟机 (VM) 堆栈
-- **瘦客户端**：用户使用物理接口的终结点
-- **团队桌面应用**：团队桌面客户端应用程序
+- **虚拟化代理** ：针对虚拟化提供程序的资源和连接管理器，例如 Azure
+- **虚拟桌面** ：运行 Microsoft 团队的虚拟机 (VM) 堆栈
+- **瘦客户端** ：用户使用物理接口的终结点
+- **团队桌面应用** ：团队桌面客户端应用程序
 
 ## <a name="teams-on-vdi-requirements"></a>VDI 要求的团队
 
@@ -186,10 +186,13 @@ VMware 范围是一种现代平台，用于在混合云上安全地传递虚拟�
         下一个交互式登录会话将启动团队并要求提供凭据。
 
         > [!NOTE]
-        > 这些示例还使用 **ALLUSERS = 1** 参数。 设置此参数时，团队计算机范围的安装程序将显示在 "控制面板" 的 "程序和功能" 和 "应用程序" 中的 "Windows 设置" 中的 "应用 & 功能" 中。 如果团队拥有管理员凭据，则所有用户都可以卸载团队。
-        了解 **ALLUSERS = 1** 和 **ALLUSER = 1**之间的区别非常重要。 **ALLUSERS = 1**参数可在非 VDI 和 vdi 环境中使用，而**ALLUSER = 1**参数仅在 VDI 环境中用于指定每计算机安装。
+        > 这些示例还使用 **ALLUSERS = 1** 参数。 设置此参数时，团队 Machine-Wide 安装程序的 "程序和功能" 将显示在 "控制面板" 的 "程序和功能" 和 "适用于计算机的所有用户的 Windows 设置" & 功能中。 如果团队拥有管理员凭据，则所有用户都可以卸载团队。
+        了解 **ALLUSERS = 1** 和 **ALLUSER = 1** 之间的区别非常重要。 **ALLUSERS = 1** 参数可在非 VDI 和 vdi 环境中使用，而 **ALLUSER = 1** 参数仅在 VDI 环境中用于指定每计算机安装。
 
-3. 从 VDI VM 卸载 MSI。
+3. 从 VDI VM 卸载 MSI。 可通过两种方式卸载团队。
+
+    - PowerShell 脚本：你可以使用 [此 PowerShell 脚本](scripts/powershell-script-deployment-cleanup.md) 卸载团队并删除用户的 "团队" 文件夹。 对计算机上安装了团队的每个用户配置文件运行脚本。
+    - 命令行：运行以下命令。
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -257,27 +260,27 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
 
 要将 DisallowCalling 呼叫策略和 AllOff 会议策略分配给用户，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户**"。
-2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户** "。
+2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。 
 3. 执行以下操作：
-    1.  在 " **呼叫策略**" 下，单击 " **DisallowCalling**"。
-    2.  在 " **会议策略**" 下，单击 " **AllOff**"。
-4. 单击“**应用**”。
+    1.  在 " **呼叫策略** " 下，单击 " **DisallowCalling** "。
+    2.  在 " **会议策略** " 下，单击 " **AllOff** "。
+4. 单击“ **应用** ”。
 
 若要一次向多个用户分配策略，请执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
-2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
-3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“ **用户** ”，然后搜索用户或筛选视图，以显示所需的用户。
+2. 在 **&#x2713;** （复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
+3. 单击“ **编辑设置** ”，执行所需的更改，然后单击“ **应用** ”。
 
 或者，您也可以执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。 例如：
-    - 转到 "**语音**  >  **呼叫策略**"，然后单击 " **DisallowCalling**"。
-    - 转到 "**会议**  >  **会议策略**"，然后单击 " **AllOff**"。
-2. 选择“管理用户”****。
-3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
-4. 添加完用户后，单击 " **保存**"。
+    - 转到 " **语音**  >  **呼叫策略** "，然后单击 " **DisallowCalling** "。
+    - 转到 " **会议**  >  **会议策略** "，然后单击 " **AllOff** "。
+2. 选择“管理用户”  。
+3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。  对想要添加的每一个用户重复此步骤。
+4. 添加完用户后，单击 " **保存** "。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
 
@@ -313,27 +316,27 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 要将 AllowCalling 呼叫策略和 AllOn 会议策略分配给用户，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户**"。
-2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户** "。
+2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。 
 3. 执行以下操作：
-    1.  在 " **呼叫策略**" 下，单击 " **AllowCalling**"。
-    2.  在 " **会议策略**" 下，单击 " **AllOn**"。
-4. 单击“**应用**”。
+    1.  在 " **呼叫策略** " 下，单击 " **AllowCalling** "。
+    2.  在 " **会议策略** " 下，单击 " **AllOn** "。
+4. 单击“ **应用** ”。
 
 若要一次向多个用户分配策略，请执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
-2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择 "所有用户"，请单击表格顶部的 " **&#x2713;** " (复选标记) 。
-3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“ **用户** ”，然后搜索用户或筛选视图，以显示所需的用户。
+2. 在 **&#x2713;** （复选标记）列，选择用户。 若要选择 "所有用户"，请单击表格顶部的 " **&#x2713;** " (复选标记) 。
+3. 单击“ **编辑设置** ”，执行所需的更改，然后单击“ **应用** ”。
 
 或者，您也可以执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。 例如：
-    - 转到 "**语音**  >  **呼叫策略**"，然后单击 " **AllowCalling**"。
-    - 转到 "**会议**  >  **会议策略**"，然后单击 " **AllOn**"。
-2. 选择“管理用户”****。
-3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
-4. 添加完用户后，单击 " **保存**"。
+    - 转到 " **语音**  >  **呼叫策略** "，然后单击 " **AllowCalling** "。
+    - 转到 " **会议**  >  **会议策略** "，然后单击 " **AllOn** "。
+2. 选择“管理用户”  。
+3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。  对想要添加的每一个用户重复此步骤。
+4. 添加完用户后，单击 " **保存** "。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
 
@@ -357,10 +360,10 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 当用户从不受支持的终结点进行连接时，用户处于回退模式，而 AV 未进行优化。 你可以通过设置以下注册表 DWORD 值之一来禁用或启用回退模式：
 
-- HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Teams\DisableFallback
-- HKEY_CURRENT_USER \SOFTWARE\Microsoft\Office\Teams\DisableFallback
+- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
 
-若要禁用回退模式，请将值设置为 **1**。 若要仅启用音频，请将值设置为 **2**。 如果值不存在或设置为 **0** (零) ，则启用回退模式。
+若要禁用回退模式，请将值设置为 **1** 。 若要仅启用音频，请将值设置为 **2** 。 如果值不存在或设置为 **0** (零) ，则启用回退模式。
 
 此功能在团队版本1.3.00.13565 及更高版本中可用。
 
@@ -382,7 +385,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 团队应用和设备之间的 HID 按钮和 LED 控件
 - 背景模糊和效果
 - 广播和实时事件制造者和演示者角色
-- 基于位置的路由 (LBR) 
+- Location-Based 路由 (LBR) 
 - 呼叫寄存
 - 通话队列
 - 共享系统音频/计算机声音
@@ -403,7 +406,6 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
     - 在屏幕共享或应用程序共享会话期间不受支持。
     - 在 PowerPoint 共享会话期间受支持。
 - 仅限 Citrix 的限制
-    - 双音调多频率 (DTMF) 目前不支持与电话系统进行交互。
     - 在多监视器设置中进行屏幕共享时，仅共享主监视器。
     - 不支持 CWA 上的高 DPI 缩放。
 

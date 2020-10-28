@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86c5b324e2e240f0d30123e8a3cd2c1767205c81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f3eb845321a13e7701f7a8d49b975fe077fa2e14
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504959"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778785"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "48504959"
 
 - 在64位操作系统上安装64位版本的团队。 如果你尝试在32位操作系统上安装64位版本的团队，则安装将不会成功，并且当前不会收到错误消息。
 
-- 如果客户租户位于 GCCH 或 DoD 云上，客户应通过将 **CloudType** 值添加到注册表中的 **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** 键来设置注册表中的初始终结点。 **CloudType**的类型为**DWORD**值，值为 (0 = Unset，1 = 商业，2 = GCC，3 = GCCH，4 = DOD) 。 将终结点设置为注册表项会限制团队连接到正确的云终结点，以便与团队进行预登录连接。
+- 如果客户租户位于 GCCH 或 DoD 云上，客户应通过将 **CloudType** 值添加到注册表中的 **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** 键来设置注册表中的初始终结点。 **CloudType** 的类型为 **DWORD** 值，值为 (0 = Unset，1 = 商业，2 = GCC，3 = GCCH，4 = DOD) 。 将终结点设置为注册表项会限制团队连接到正确的云终结点，以便与团队进行预登录连接。
 
 - 团队也可以包含在适用于企业的 Microsoft 365 应用的部署中。 有关详细信息，请参阅 [通过适用于企业的 microsoft 365 应用部署 Microsoft 团队](https://docs.microsoft.com/deployoffice/teams-install)。
 
@@ -91,13 +91,16 @@ Teams MSI 会将安装程序放置在“Program Files”中。 无论用户何�
 3. 删除 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 注册表值。
 4. 将 MSI 程序包重新部署到该特定计算机。
 
+> [!TIP]
+> 您也可以使用我们的 [团队部署清理脚本](scripts/powershell-script-deployment-cleanup.md) 来完成步骤1和2。  
+
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>阻止 Teams 在安装后自动启动
 
 MSI 的默认行为是在用户登录时立即安装 Teams 应用，然后自动启动 Teams。 如果不希望 Teams 在安装之后对用户自动启动，则可以使用组策略设置策略设置，或者禁用 MSI 安装程序自动启用。
 
 ### <a name="use-group-policy-recommended"></a>使用组策略（推荐）
 
-启用**阻止 Microsoft Teams 在安装后自动启动**组策略设置。 可在 User Configuration\Policies\Administrative Templates\Microsoft Teams 中找到此策略设置。 推荐使用此方法，因为你可以根据组织需要关闭或启用策略设置。
+启用 **阻止 Microsoft Teams 在安装后自动启动** 组策略设置。 可在 User Configuration\Policies\Administrative Templates\Microsoft Teams 中找到此策略设置。 推荐使用此方法，因为你可以根据组织需要关闭或启用策略设置。
 
 如果在安装 Teams 前启用此策略设置，则Teams 将不会在用户登录 Windows 时自动启动。 用户首次登录 Teams 之后，Teams 将在用户下次登录时自动启动。
 

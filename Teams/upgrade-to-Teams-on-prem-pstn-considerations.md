@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b27694c476fc1ab571716939ad57cc3f2dae20e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ee76c4955ba1eaaef3ff5c31b925d133b22a5365
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533549"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772213"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>为 IT 管理员升级到团队时的 PSTN 注意事项 &mdash;
 
@@ -45,7 +45,7 @@ ms.locfileid: "48533549"
 
  > [!NOTE]
  > - 仅当用户处于 TeamsOnly 模式时，才支持将电话系统与团队配合使用。  如果用户处于 "孤岛" 模式，则只有 Skype for Business 才支持电话系统。 
- > - Skype for Business 中的任何呼叫转接和委派设置均不会迁移，并且需要为团队重新创建。
+ > - Skype for Business 中的任何呼叫转接、团队呼叫组和委派设置均不会迁移，并且将需要为团队重新创建。
 
 
 ## <a name="pstn-calling-scenarios"></a>PSTN 呼叫方案

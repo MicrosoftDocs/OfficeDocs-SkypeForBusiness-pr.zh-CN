@@ -16,22 +16,19 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: 适用于团队管理员的患者应用
-ms.openlocfilehash: b15336f939cefefeaebb77c2ca92b73373bc249e
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+description: 了解团队管理员的患者应用
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: b86c180bc809fa10b261738ae5b324737006f541
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766925"
+ms.locfileid: "48772183"
 ---
 # <a name="patients-app-overview"></a>患者应用概述
 
-> [!IMPORTANT]
-> **2020年10月30日生效，患者应用将被否决，用户将无法再从团队应用商店安装。我们鼓励你立即开始使用团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
->
->患者应用数据存储在支持团队的 Office 365 组的组邮箱中。 当患者应用停用时，与之关联的所有数据将保留在此组中，但不能再通过用户界面进行访问。 当前用户可以使用 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新创建其列表。
->
->" [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 为所有团队用户预安装，可在每个团队和频道中用作选项卡。 使用列表，运行状况团队可以使用内置患者模板、从头开始或通过将数据导入 Excel 来创建患者列表。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
+> [!NOTE]
+> 2020年10月30日，患者应用已停用，并已由团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 利用 "列表"，医疗保健组织中的 "护理团队" 可以创建各种方案的患者列表，包括从倒圆角和 interdisciplinary 团队会议到常规患者监控。 查看列表中的患者模板以开始使用。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)
 
 患者应用程序是适用于所有团队用户的 Microsoft 团队应用商店应用程序。 该应用支持由临床工作者组成的患者运行状况团队 (例如，护士、医生、社会工作者) 可以策展和查看患者的列表，包括从倒圆角和 interdisciplinary 团队会议到常规患者监控的情形。
 
