@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文介绍针对 microsoft 团队认证的手机的列表，以及 Microsoft 团队的手机认证中支持的功能。
-ms.openlocfilehash: cd38586b67f728febb4a43d3f018875b378cffd8
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: a4fc3a6516881d6f865b22cbf92d85af6859cb14
+ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962843"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48787026"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
@@ -33,6 +33,7 @@ Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 
 要管理电话，您必须是全局管理员、团队服务管理员或团队设备管理员。有关管理员角色的详细信息，请参阅 [使用 Microsoft 团队管理员角色管理团队](../using-admin-roles.md)。
 
 ## <a name="features-supported-by-teams-phones"></a>团队手机支持的功能
+
 团队认证的手机具有广泛的功能，可帮助你的用户完成工作，并帮助你管理其使用。 下面是团队认证的手机中可用的功能摘要：
 
 - **身份验证** 手机使用新式身份验证简化登录和提高安全性。 用户可以通过在手机上输入用户名和密码，或通过其他设备（如 PC/智能手机）登录来登录。
@@ -50,40 +51,29 @@ Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 
 
 除了上述功能，您还可以根据分配给登录到手机的用户的许可证和电话策略的类型来控制可用的功能。 例如，使用个人帐户登录到手机的用户可以访问各种功能-通话、会议、语音邮件等。 如果帐户分配了登录到手机的通用区域电话许可证，则只能访问有限范围的功能;例如，通话记录和会议计划可能无法保留，例如保护用户的隐私。
 
-## <a name="required-licenses"></a>需要的许可证
+## <a name="required-licenses"></a>所需的许可证
 
-Microsoft 团队许可证可以作为其 [microsoft 365 和 Office 365 订阅](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的 [电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
+团队许可证可以作为其 [Microsoft 365 和 Office 365 订阅](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)的一部分进行购买。 若要了解有关使用手机上的团队所需的许可证的详细信息，请参阅可用的 [电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
 有关获取团队的详细信息，请查看 [如何获取 Microsoft 团队的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-## <a name="deploy-your-phones-via-intune"></a>通过 Intune 部署你的手机
+## <a name="deploy-your-phones-using-intune"></a>使用 Intune 部署手机
 
-### <a name="conditional-access"></a>条件访问
-
-条件访问是一种 Azure Active Directory 功能，可帮助你确保访问 Office 365 资源的设备正确管理且安全。  如果你将条件访问策略应用到团队服务，则 Android 设备 (包括团队电话) 需要将访问团队注册到 Intune 且其设置需要遵守你的策略。  如果设备未注册到 Intune，或者它已注册，但其设置不符合你的策略，则条件访问将阻止用户登录或使用设备上的 "团队" 应用。
-
-通常，在 Intune 中定义的合规性策略将分配给用户组。  这意味着，如果你将 Android 合规性策略分配给 user@contoso.com，该策略将同等地应用于其 Android 智能手机和 user@contoso.com 登录的任何基于 Android 的团队设备。
-
-如果使用条件访问（需要强制执行 Intune 注册），则需要设置以下几项才能允许成功完成 Intune 注册：
-
-- **Intune 许可证** 登录到 Microsoft 团队手机的用户必须获得 Intune 许可。  只要 Microsoft 团队手机登录到具有有效 Intune 许可证的用户帐户，手机将在登录过程中自动注册到 Microsoft Intune 中。
-- **配置 Intune** 你必须为 Android 设备管理员注册设置正确配置的 Intune 租户。
-
-### <a name="configure-intune-to-enroll-teams-android-based-devices"></a>将 Intune 配置为基于 Android 的设备注册团队
-
-基于 Android 的团队设备通过 Android 设备管理员 (DA) 管理在 Intune 中管理。 在设备可以注册到 Intune 之前，需要执行一些基本步骤。  如果你现在已使用 Intune 管理设备，你可能已经完成了所有这些操作。  如果不是，请执行以下操作：
-
-1. 将 Intune MDM (移动设备管理) 机构。  如果你以前从未使用过 Intune，则需要先设置 MDM 机构，然后才能注册设备。 有关详细信息，请参阅 [设置移动设备管理机构](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set)。  这是在创建新的 Intune 租户时必须执行的一次性步骤。
-2. 启用 Android 设备管理员注册。 基于 Android 的团队设备通过 Intune 作为设备管理员设备进行管理。  默认情况下，对于新创建的租户，设备管理员注册处于关闭状态。  有关详细信息，请参阅 [Android 设备管理员注册](https://docs.microsoft.com/intune/enrollment/android-enroll-device-administrator)。
-3. 为用户分配许可证。 必须为要注册到 Intune 的团队设备用户分配一个有效的 Intune 许可证。 有关详细信息，请参阅 [为用户分配许可证，以便他们可以在 Intune 中注册设备](https://docs.microsoft.com/intune/fundamentals/licenses-assign)。
-4. 分配设备管理员合规性策略。  创建一个 Android 设备管理员合规性策略，并将其分配给 Azure Active Directory 组，其中包含将登录到团队设备的用户。 有关详细信息，请参阅 [使用合规性策略为使用 Intune 管理的设备设置规则](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started)。
+若要了解有关如何使用 Intune 部署团队的详细信息，请参阅 [部署团队手机和团队显示](phones-displays-deploy.md)。
 
 ## <a name="manage-your-phones"></a>管理您的手机
 
-租户管理员可以通过团队管理中心管理所有团队设备并使其保持最新状态。 有关详细信息，请参阅 [在 Microsoft 团队中管理设备](https://docs.microsoft.com/microsoftteams/devices/device-management)。 
+使用 Microsoft 团队管理中心管理和保持团队的电话是最新的。 有关详细信息，请参阅 [管理团队中的设备](device-management.md)。
+
+## <a name="upgrade-your-phones-to-teams-displays"></a>将您的手机升级到团队显示
+
+[Microsoft 团队显示](teams-displays.md) 是一种由多人专用团队设备组成的类别，这些设备提供了一个环境触摸屏和一个由 Cortana 提供支持的无人参与体验。 随着团队的显示，用户可以使用麦克风、相机和扬声器 (或蓝牙耳机) 进行可靠的通话和会议体验。 团队显示与用户的 Windows 电脑集成，以提供支持无缝跨设备交互的配套体验
+
+你可以将组织中的手机升级到 Microsoft 团队管理中心中显示的团队。 此选项仅适用于支持升级到团队的电话。 若要了解详细信息，请参阅 [将团队手机升级到团队显示](upgrade-phones-to-displays.md)。
 
 ## <a name="see-also"></a>另请参阅
 
 [团队市场](https://office.com/teamsdevices)
 
-[适用于 Microsoft 团队的 IP 手机认证](teams-ip-phones.md)
+[Microsoft Teams 认证的 IP 电话](teams-ip-phones.md)
+

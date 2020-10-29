@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何使用手机系统直接路由规划媒体旁路，这使你能够缩短媒体流量的路径并提高性能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabbfd62ecc1a86d6e893d8d26ecdbe6cbbe7dbb
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: efd6d4275d1e83df7821f178ddac8027039b6fce
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469578"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790654"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -42,11 +42,11 @@ ms.locfileid: "48469578"
 
 但是，假设用户与 SBC 位于同一建筑物或网络中。 例如，假设法兰克福中的大楼的用户拨打 PSTN 用户的电话： 
 
-- 如果**没有媒体绕过**，则媒体将通过阿姆斯特丹或都柏林 (进行通信，其中 Microsoft 数据中心) 部署到法兰克福中的 SBC。 
+- 如果 **没有媒体绕过** ，则媒体将通过阿姆斯特丹或都柏林 (进行通信，其中 Microsoft 数据中心) 部署到法兰克福中的 SBC。 
 
   由于 SBC 位于欧洲，Microsoft 使用最接近 SBC 的数据中心，因此已选中 "欧洲数据中心"。 虽然此方法不会影响在大多数地理区域内的 Microsoft 网络中的流量流量优化时的通话质量，但流量有不必要的循环。     
 
-- **通过媒体绕过**，媒体将直接保留在团队用户和 SBC 之间，如下图所示：
+- **通过媒体绕过** ，媒体将直接保留在团队用户和 SBC 之间，如下图所示：
 
   > [!div class="mx-imgBorder"]
   > ![显示媒体绕过的信号和媒体流](media/direct-routing-media-bypass-2.png)
@@ -193,7 +193,7 @@ IP 范围包括：
 - 在将来自 SBC 的连接建立到遇到暂时性问题的数据中心时提供故障转移。 有关详细信息，请参阅下面的故障转移机制。
 
 
-Fqdn " **sip.pstnhub.microsoft.com**"、" **sip2.pstnhub.microsoft.com**" 和 " **sip3.pstnhub.microsoft.com** " 将解析为以下 IP 地址之一：
+Fqdn " **sip.pstnhub.microsoft.com** "、" **sip2.pstnhub.microsoft.com** " 和 " **sip3.pstnhub.microsoft.com** " 将解析为以下 IP 地址之一：
 - 52.114.148.0
 - 52.114.132.46
 - 52.114.16.74
@@ -352,7 +352,7 @@ UDP/SRTP | 媒体处理器 | SBC | 3478、3479和 49 152-53 247    | 在 SBC 上
 具有非媒体旁路主干的用户 | 980 | sbc1.contoso.com:5060 | true
 具有媒体绕过主干的用户 | 名 | sbc2.contoso.com:5061 | false | 
 
-这两个中继都可以指向具有相同公共 IP 地址的同一 SBC。 SBC 的 TLS 信号端口必须不同，如下图所示。 注意你需要确保你的证书支持这两个中继。 在 SAN 中，你需要具有两个名称 (**sbc1.contoso.com** 和 **sbc2.contoso.com**) 或拥有通配符证书。
+这两个中继都可以指向具有相同公共 IP 地址的同一 SBC。 SBC 的 TLS 信号端口必须不同，如下图所示。 注意你需要确保你的证书支持这两个中继。 在 SAN 中，你需要具有两个名称 ( **sbc1.contoso.com** 和 **sbc2.contoso.com** ) 或拥有通配符证书。
 
 > [!div class="mx-imgBorder"]
 > ![显示两个中继都可以指向具有相同公共 IP 的同一 SBC](media/direct-routing-media-bypass-7.png)
@@ -366,9 +366,9 @@ UDP/SRTP | 媒体处理器 | SBC | 3478、3479和 49 152-53 247    | 在 SBC 上
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>媒体绕过支持的客户端终结点
 
-所有团队的桌面客户端和团队电话设备均支持媒体绕过。 
+所有独立团队桌面客户端、Android 和 iOS 客户端和团队电话设备均支持媒体绕过。 
 
-对于不支持媒体绕过的所有其他终结点，我们会将该调用转换为非旁路，即使它是绕过呼叫启动的也是如此。 这会自动发生，不需要管理员执行任何操作。 这包括 Skype for Business 3PIP 手机和团队 Web 客户端，这些客户支持直接路由呼叫， (基于 Chromium、Google Chrome、Mozilla Firefox) 的新 Microsoft Edge。 
+对于不支持媒体绕过的所有其他终结点，我们会将调用转换为非旁路，即使它是绕过呼叫启动的。 这会自动发生，不需要管理员执行任何操作。 这包括 Skype for Business 3PIP 手机和团队 Web 客户端，这些客户支持直接路由调用 (WebRTC 基于 Microsoft Edge、Google Chrome、Mozilla Firefox) 的客户端运行。 
  
 ## <a name="see-also"></a>另请参阅
 

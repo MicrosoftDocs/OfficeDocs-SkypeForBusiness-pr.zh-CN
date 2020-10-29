@@ -8,21 +8,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 description: 了解如何在团队中针对组织中的用户管理列表应用。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: d8225198a3d56c731193d72e98d4ebebe2954a2f
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 56197394d4b4edbe714b5edab62f905e1c520ede
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766731"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790474"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 团队中管理你的组织的列表应用
 

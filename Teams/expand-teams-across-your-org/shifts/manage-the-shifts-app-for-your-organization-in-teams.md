@@ -8,6 +8,9 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 description: 了解如何在组织中的一线工作人员的团队中设置和管理倒班应用。
 f1.keywords:
 - NOCSH
@@ -15,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 405c918dfe71fce02ab19f3ccf49cc124877da41
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: d89ca8938c80b2afb8c1b32a395ab4a984327dcc
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820466"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790504"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
@@ -56,11 +60,11 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 
 默认情况下，将为组织中的所有团队用户启用倒班。 你可以在 Microsoft 团队管理中心的 " [管理应用](../../manage-apps.md) " 页面上，关闭或打开组织级别的应用。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **管理应用**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **团队应用**  >  **管理应用** "。
 2. 在应用列表中，执行下列操作之一：
 
-    - 若要为你的组织关闭班次，请搜索 "倒班" 应用，选择它，然后单击 " **阻止**"。
-    - 若要为你的组织启用倒班，请搜索 "倒班" 应用，选择它，然后单击 " **允许**"。
+    - 若要为你的组织关闭班次，请搜索 "倒班" 应用，选择它，然后单击 " **阻止** "。
+    - 若要为你的组织启用倒班，请搜索 "倒班" 应用，选择它，然后单击 " **允许** "。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>启用或禁用组织中特定用户的班次
 
@@ -72,7 +76,7 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
  
 团队包括一个内置的 FirstlineWorker 应用设置策略，可分配给你的组织中的一线工作人员。 默认情况下，该策略包括活动、班次、聊天和呼叫应用。 
 
-若要查看 FirstlineWorker 策略，请在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **应用" 设置策略**。
+若要查看 FirstlineWorker 策略，请在 Microsoft 团队管理中心的左侧导航中，转到 " **团队应用**  >  **应用" 设置策略** 。
 
 ![FirstlineWorker 应用设置策略的屏幕截图](../../media/firstline-worker-app-setup-policy.png "Microsoft 团队管理中心中的 FirstlineWorker 应用设置策略的屏幕截图")
 

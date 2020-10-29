@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: dd1a94ab587b21fce5a455300826632ffd508042
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ee63c3d49a8c4b4bf047f0df3910bec39a4d5541
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581533"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790414"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 ======================================================
@@ -34,7 +34,7 @@ ms.locfileid: "46581533"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>什么是新的 Microsoft 团队管理中心  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>什么是新的 Microsoft 团队管理中心  
 
 新的管理中心体验将为你提供统一的体验来管理团队和 Skype for business。 我们正在提供其他功能、端到端见解以及管理用户级别的团队设置的功能。
 
@@ -52,7 +52,7 @@ ms.locfileid: "46581533"
 |电子邮件集成     |允许发件人列表         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |租户         |
 |自定义云存储     |箱         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |自定义云存储     |Dropbox        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|自定义云存储     |Egnyte (即将推出)         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|自定义云存储     |Egnyte        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |自定义云存储     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |自定义云存储     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |按用户/许可证类型设置     |为所有用户打开或关闭 Microsoft 团队          |已弃用<sup>1</sup>        |         |
@@ -78,14 +78,14 @@ ms.locfileid: "46581533"
 |消息传递     |允许用户删除自己的邮件         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
 |消息传递     |允许用户私下聊天         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |用户         |
 
-<sup>1</sup>已弃用来宾。 现在可以在 Microsoft 团队管理中心中管理启用/禁用来宾。 启用/禁用团队 for Business 企业版、教育机构学生版和教育机构教职员工将很快被弃用。 这应该通过在 Microsoft 365 管理中心分配许可证来管理。 请参阅[管理用户对 Microsoft 团队的访问权限](user-access.md)。
+<sup>1</sup> 已弃用来宾。 现在可以在 Microsoft 团队管理中心中管理启用/禁用来宾。 启用/禁用团队 for Business 企业版、教育机构学生版和教育机构教职员工将很快被弃用。 这应该通过在 Microsoft 365 管理中心分配许可证来管理。 请参阅 [管理用户对 Microsoft 团队的访问权限](user-access.md)。
 <br><br>
-<sup>2</sup>个旁加载按如下方式拆分：
+<sup>2</sup> 个旁加载按如下方式拆分：
 
-- 允许用户在[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)中的用户级别上管理可管理的应用旁加载应用。
+- 允许用户在 [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)中的用户级别上管理可管理的应用旁加载应用。
 - 允许租户中的用户与可在组织范围内应用设置中的租户级别管理的自定义应用交互。
 
-<sup>3</sup>在 TeamsAppPermissionPolicy 中的用户级别上，可以启用和禁用默认应用和外部应用。 此外，可以在组织范围内应用设置中的租户级别阻止应用，这些应用会覆盖任何用户和租户级别的设置。
+<sup>3</sup> 在 TeamsAppPermissionPolicy 中的用户级别上，可以启用和禁用默认应用和外部应用。 此外，可以在组织范围内应用设置中的租户级别阻止应用，这些应用会覆盖任何用户和租户级别的设置。
 
 > [!NOTE]
 > 对于与团队和频道相关的配置，您将继续使用 Microsoft 365 管理中心中的组仪表板。 应用的设置将保留在 Microsoft 365 管理中心的 "团队" 区域中，稍后将进行迁移。

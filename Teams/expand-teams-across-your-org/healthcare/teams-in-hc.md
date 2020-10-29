@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 了解医疗保健的功能，包括护理协调、安全消息、虚拟访问、EHR 集成和一线 worker 系统集成。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772293"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790634"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>面向医疗保健组织的团队入门
 
@@ -35,7 +39,14 @@ Microsoft 团队提供了许多适用于医院和其他医疗保健组织的功�
 - 团队模板
 - 护理协调和协作
 
-本部分中的内容假设您已经在组织中部署了团队。 如果尚未推出团队，请先阅读 [如何展示 Microsoft 团队](../../How-to-roll-out-teams.md)。
+此功能是适用于医疗保健的 Microsoft 云的一部分。 了解有关使用此解决方案的详细信息，该解决方案通过 [适用于医疗保健的 Microsoft 云](https://docs.microsoft.com/industry/healthcare)从 Azure、Dynamics 365 和 microsoft 365 集中功能。
+
+观看以下视频，了解有关在 Microsoft 团队中使用 "医疗保健" 集合增强运行状况团队协作的详细信息。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
+
+> [!NOTE]
+> 本部分中的内容假设您已经在组织中部署了团队。 如果尚未推出团队，请先阅读 [如何展示 Microsoft 团队](../../How-to-roll-out-teams.md)。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虚拟访问和电子医疗保健记录 (EHR) 集成
 
@@ -65,13 +76,13 @@ Microsoft 团队提供了许多适用于医院和其他医疗保健组织的功�
 
 结合这些功能，可以更快地注意紧急邮件，并确保邮件已接收和阅读。 使用这些功能的新运行状况团队可以在每个患者的基础上创建。 这些功能是基于策略的，可分配给个人或整个团队。
 
-有关 [医疗保健组织的安全邮件策略](messaging-policies-hc.md) 的详细信息，请参阅入门。
+若要了解详细信息，请参阅 [面向医疗保健组织的安全邮件策略入门](messaging-policies-hc.md)。
 
 同时与安全消息相关的功能是拥有受医疗保健组织联盟的其他租户，从而实现了更丰富的租户间通信。  (请参阅 [管理 Microsoft 团队) 中的 "管理外部访问 (联合身份验证") ](../../manage-external-access.md) 。
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>医疗保健组织的团队模板
 
-创建团队的新模板已开发为适用于医院的设置，并且预计会更多。 这使您可以更轻松地创建医疗保健工作者在各种部门或 wards 中协调病人的护理。 请参阅 [面向医疗保健组织的团队模板入门](healthcare-templates.md)。 团队可以为内部部门（如心脏病科）或用于护理 wards 的团队开始，并且更多模板位于开发中。
+创建团队的新模板已开发为适用于医院的设置，并且预计会更多。 这使您可以更轻松地创建医疗保健工作者在各种部门或 wards 中协调病人的护理。 若要了解详细信息，请参阅 [面向医疗保健组织的团队模板入门](healthcare-templates.md)。 团队可以为内部部门（如心脏病科）或用于护理 wards 的团队开始，并且更多模板位于开发中。
 
 ## <a name="care-coordination-and-collaboration"></a>护理协调和协作
 

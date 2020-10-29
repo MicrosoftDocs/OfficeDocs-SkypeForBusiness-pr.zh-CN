@@ -21,43 +21,43 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: d2e334269dd31b876dd18b62a9b61ae1b583c504
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739240"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790524"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
 ## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心内的“Teams 应用”设置
 
-可在 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)内的“**Teams 应用**”中管理你组织的应用。 例如，可以设置策略来控制什么应用在组织范围内可用或对特定 Teams 用户可用，并能通过固定对用户最重要的应用来自定义 Teams。
+可在 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)内的“ **Teams 应用** ”中管理你组织的应用。 例如，可以设置策略来控制什么应用在组织范围内可用或对特定 Teams 用户可用，并能通过固定对用户最重要的应用来自定义 Teams。
 
 若要了解详细信息，请参阅 [Teams 中适用于应用的管理员设置](admin-settings.md)。  
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心中的 Teams 组织范围设置
 
-你可以在 Microsoft Teams 管理中心中控制组织范围内的用户设置。若要编辑组织范围内的设置，请转到 Microsoft Teams 管理中心，然后选择“**组织范围的设置**”。你可以配置以下设置。
+你可以在 Microsoft Teams 管理中心中控制组织范围内的用户设置。若要编辑组织范围内的设置，请转到 Microsoft Teams 管理中心，然后选择“ **组织范围的设置** ”。你可以配置以下设置。
 
 ### <a name="external-access"></a>外部访问
 
-利用**外部访问**功能，你的 Teams 和 Skype for Business 用户可以与你的组织或域之外的用户通信。 若要配置外部访问，请访问[让你的 Teams 用户与其他 Teams 组织中的用户聊天和通信](let-your-teams-users-communicate-with-other-people.md)。
+利用 **外部访问** 功能，你的 Teams 和 Skype for Business 用户可以与你的组织或域之外的用户通信。 若要配置外部访问，请访问[让你的 Teams 用户与其他 Teams 组织中的用户聊天和通信](let-your-teams-users-communicate-with-other-people.md)。
 
 要添加或阻止某个域：
 
-1. 选择“**添加域**”。
+1. 选择“ **添加域** ”。
 2. 在“添加域”窗格中，输入域名，然后单击空格键保存名称。
-3. 选择“**已允许**”或“**已阻止**”。
-4. 选择“**完成**”以保存更改。 
+3. 选择“ **已允许** ”或“ **已阻止** ”。
+4. 选择“ **完成** ”以保存更改。 
 
 ### <a name="guest-access"></a>来宾访问权限
 
-利用 Microsoft Teams 中的**来宾访问**功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。有关详细信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。
+利用 Microsoft Teams 中的 **来宾访问** 功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。有关详细信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。
 
 ### <a name="teams-settings"></a>Teams 设置
 
-在“**Teams 设置**”中，你可以为团队设置各种功能，包括通知和源、电子邮件集成、云存储选项和设备。
+在“ **Teams 设置** ”中，你可以为团队设置各种功能，包括通知和源、电子邮件集成、云存储选项和设备。
 
 #### <a name="notifications-and-feeds"></a>通知和源
 
@@ -69,17 +69,17 @@ ms.locfileid: "48739240"
 
 #### <a name="email-integration"></a>电子邮件集成
 
-开启此功能，以便用户可以使用频道电子邮件地址向 Teams 中的频道发送电子邮件。用户可以对属于其所属团队的任何频道执行此操作。用户还可以向为团队成员启用了添加连接器的团队中的任何频道发送电子邮件。要启用电子邮件集成，请确保“**允许用户向频道电子邮件地址发送电子邮件**”为“**打开**”
+开启此功能，以便用户可以使用频道电子邮件地址向 Teams 中的频道发送电子邮件。用户可以对属于其所属团队的任何频道执行此操作。用户还可以向为团队成员启用了添加连接器的团队中的任何频道发送电子邮件。要启用电子邮件集成，请确保“ **允许用户向频道电子邮件地址发送电子邮件** ”为“ **打开** ”
 
 #### <a name="files"></a>文件
 
 你可以在此处打开或关闭文件共享和云文件存储选项。
 
-用户可以在 Teams 频道和聊天中从云存储服务上载和共享文件。当前 Teams 中的云存储选项包括 Dropbox、Box、ShareFile、Google Drive 和 Egnyte（即将推出）。请将组织要使用的云存储提供商切换为开启。
+用户可以在 Teams 频道和聊天中从云存储服务上载和共享文件。当前 Teams 中的云存储选项包括 Dropbox、Box、ShareFile、Google Drive 和 Egnyte。可将组织要使用的云存储提供商切换为开启。
 
 #### <a name="organization"></a>组织
 
-你可以在此处打开“**组织**”选项卡，其中显示用户组织的详细组织结构图。有关详细信息，请参阅[在 Teams 中使用“组织”选项卡](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894)。
+你可以在此处打开“ **组织** ”选项卡，其中显示用户组织的详细组织结构图。有关详细信息，请参阅 [在 Teams 中使用“组织”选项卡](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894)。
 
 #### <a name="devices"></a>设备
 
@@ -87,7 +87,7 @@ ms.locfileid: "48739240"
 
 - **要求进行辅助形式的身份验证才能访问会议内容** - 选择用户输入内容 PIN 时拥有的访问级别。
 - **设置内容 PIN** - 要求用户输入此 PIN 以防止未经授权访问文档。这可防止未经授权的用户加入即将召开的会议以及浏览附件。
-- **资源帐户可以发送消息** - **启用**此设置将允许 Surface Hub 资源帐户发送消息。
+- **资源帐户可以发送消息** - **启用** 此设置将允许 Surface Hub 资源帐户发送消息。
 
 #### <a name="search-by-name"></a>按名称搜索
 
@@ -96,7 +96,7 @@ Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许�
 - 贵组织的租户中有多家你要保持独立的公司。 
 - 贵学校要限制教职员工与学生之间的聊天。 
 
-**启用**此设置将启用范围目录搜索。
+**启用** 此设置将启用范围目录搜索。
 
 ### <a name="skype-for-business"></a>Skype for Business
 
@@ -110,10 +110,10 @@ Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许�
 你可以指定共存模式： 
 
 - **仅 Teams**
-- **孤岛**（Teams 和 Skype for Business 将共存）
+- **孤岛** （Teams 和 Skype for Business 将共存）
 - **仅 Skype for Business**
-- **Skype for Business，通过 Teams 协作**（用户在 Skype for Business 中收到聊天和呼叫并安排会议，但使用 Teams 进行团队协作）
-- **Skype for Business，通过 Teams 协作和安排会议**（用户在 Skype for Business 中收到聊天和呼叫，但使用 Teams 进行团队协作和安排会议）
+- **Skype for Business，通过 Teams 协作** （用户在 Skype for Business 中收到聊天和呼叫并安排会议，但使用 Teams 进行团队协作）
+- **Skype for Business，通过 Teams 协作和安排会议** （用户在 Skype for Business 中收到聊天和呼叫，但使用 Teams 进行团队协作和安排会议）
 
 你选择的共存模式将决定传入通话和聊天的路由方式，以及用户用于启动聊天和通话或安排会议的应用。 有关共存模式的详细信息，请访问[了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
 

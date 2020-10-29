@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 通过提供设置、频道和应用的预定义模板，使用管理中心中的 Microsoft 团队模板快速轻松地创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5d20006645caede9d780bbcb9b462d71e396a205
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 102c9db47ba9a79acf64338d2fab0cb1ddc49392
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766705"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790424"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>在管理中心中使用团队医疗保健模板
 
