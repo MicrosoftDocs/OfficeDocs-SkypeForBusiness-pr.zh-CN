@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40e21687aa3d14b0cb9d51d4ba5f856eada3c538
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: a24e1f440702f10785e42b83c39a53cb14da8739
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424562"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800575"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>在管理中心中使用团队零售模板
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 

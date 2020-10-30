@@ -22,22 +22,20 @@ appliesto:
 ms.reviewer: ''
 description: 通过提供设置、频道和应用的预定义模板，使用管理中心中的 Microsoft 团队模板快速轻松地创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 102c9db47ba9a79acf64338d2fab0cb1ddc49392
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790424"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800665"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>在管理中心中使用团队医疗保健模板
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 
 对于医疗保健组织而言，模板非常强大，因为它们为用户提供了如何有效地利用团队的结构。 模板还允许管理员在其组织中部署一致的团队。 本文适用于你负责在整个医疗保健组织中规划、部署和管理多个团队的情况。
 
-我们目前提供两个第一方医疗保健模板，您可以在各种情况下利用这些模板。 若要深入了解有关团队模板的详细信息，请参阅 [管理中心中的团队模板入门](../../get-started-with-teams-templates-in-the-admin-console.md)。
+我们当前提供两个第一方医疗保健模板，可用于各种情况。 若要深入了解有关团队模板的详细信息，请参阅 [管理中心中的团队模板入门](../../get-started-with-teams-templates-in-the-admin-console.md)。
 
 ## <a name="collaborate-on-patient-care"></a>协作处理患者护理
 

@@ -18,17 +18,19 @@ appliesto:
 ms.reviewer: anach
 description: 了解如何将 Microsoft 团队中的患者应用连接到 FHIR (快速医疗保健互操作性资源) 的 Azure API。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e3ff2f42953d59d1eecbc96179759f2ad9024f82
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: 29447791a8ba169bfc50173b249b3f8b987c7a17
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772253"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803550"
 ---
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>将患者应用连接到 Azure API for FHIR
 
 > [!NOTE]
-> 2020年10月30日，患者应用已停用，并已由团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 利用 "列表"，医疗保健组织中的 "护理团队" 可以创建各种方案的患者列表，包括从倒圆角和 interdisciplinary 团队会议到常规患者监控。 查看列表中的患者模板以开始使用。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)
+> 2020年10月30日，患者应用已停用，并已由团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 患者应用数据存储在支持团队的 Office 365 组的组邮箱中。 与病人应用关联的所有数据都将保留在此组中，但不能再通过用户界面进行访问。 用户可以使用 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新创建其列表。
+>
+>利用 "列表"，医疗保健组织中的 "护理团队" 可以创建各种方案的患者列表，包括从倒圆角和 interdisciplinary 团队会议到常规患者监控。 查看列表中的患者模板以开始使用。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
 
 按照以下步骤，允许 Microsoft 团队中的患者应用访问 FHIR 实例的 Azure API。 本文假定你在租户中设置和配置了 [FHIR 实例的 AZURE API](https://azure.microsoft.com/services/azure-api-for-fhir/) 。  如果尚未在租户中为 FHIR 实例创建 Azure API，请参阅 [快速入门：使用 azure 门户部署 FHIR 的 AZURE api](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart)。
 
