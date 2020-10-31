@@ -16,22 +16,83 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 团队管理员功能的发行说明。
-ms.openlocfilehash: 5e3abb22f3ac5e8cd830ea367ab259422d88e8a6
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336991"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816102"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 团队管理员功能的发行说明
 
 这些发行说明提供有关 Microsoft 团队的新管理员功能的信息。
 
+## <a name="october-28-2020"></a>2020年10月28日
+
+### <a name="get-started-with-teams-in-healthcare"></a>医疗保健中的团队入门
+
+Microsoft 团队提供了许多适用于医院和其他医疗保健组织的功能，包括：
+
+- 虚拟访问和电子医疗保健记录 (EHR) 集成
+- 团队策略程序包
+- 安全消息
+- 团队模板
+- 护理协调和协作
+
+此功能是适用于医疗保健的 Microsoft 云的一部分。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc)。
+
+## <a name="october-27-2020"></a>2020年10月27日
+
+### <a name="teams-displays"></a>团队显示
+
+Microsoft 团队显示是一种由多人专用团队设备组成的类别，这些设备提供了一个环境触摸屏和一个由 Cortana 提供支持的无人参与体验。 [了解详细信息](https://docs.microsoft.com/microsoftteams/devices/teams-displays)。
+
+## <a name="october-22-2020"></a>2020年10月22日
+
+### <a name="manage-skype-for-business-settings-for-your-users"></a>管理用户的 Skype for Business 设置
+
+你可以在 Microsoft 团队管理中心的组织中管理 Skype for business 用户的 Skype for business 设置。  转到 "用户详细信息" 页面上的 "Skype for Business" 选项卡。 在此处，你可以管理单个用户的外部访问和会议设置。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+
+### <a name="manage-skype-for-business-settings-for-your-organization"></a>管理你的组织的 Skype for Business 设置
+
+你可以在 Microsoft 团队管理中心为你的组织中的 Skype for business 用户管理 Skype for business 功能。 转到 **组织范围的设置**  >  **Skype for** business。 在这里，您可以管理 Skype 会议直播、状态和手机通知。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+
+## <a name="october-16-2020"></a>2020年10月16日
+
+### <a name="manage-shift-based-access-for-firstline-workers"></a>管理一线工作者的基于班次的访问
+
+作为管理员，你可以将团队配置为显示组织中的一线工作人员的一组基于班次的状态，以指示它们何时处于 "开" 和 "关" 班次。 使用基于班次的访问，您可以在一线工作人员停止班次时管理团队的访问权限。 例如，您可以将团队设置为显示一条消息，一线工作人员必须在他们使用团队而不是计划班次时才可以使用它们。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
+
+## <a name="october-15-2020"></a>2020年10月15日
+
+### <a name="custom-policy-packages"></a>自定义策略程序包
+
+*此功能在私人预览版中*
+
+通过自定义策略程序包，你可以为你的组织中具有类似角色的用户捆绑你自己的策略集。 通过添加所需的策略类型和策略来创建自己的策略程序包。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages)。
+
+### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>将应用添加到 Microsoft 团队管理中心中的团队
+
+在 Microsoft 团队管理中心的 "管理应用" 页面上，你可以使用 " **添加到团队** " 按钮将应用安装到团队。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/manage-apps)。
+
 ## <a name="october-1-2020"></a>2020年10月1日
+
+### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 进行会议录制
+
+Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsoft Stream 过渡到新流的第一阶段，此方法将录制存储在 Microsoft 365 中的 Microsoft OneDrive for Business 和 SharePoint 中，并提供许多好处。 [了解详细信息](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)。
+
+### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>适用于中小型企业的免费音频会议
+
+如果你是最多300个用户的小型企业或中等规模的企业，并且当前没有任何音频会议许可证，则可以免费获取一年的音频会议。 从2020年10月1日起可提供此免费优惠。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)。
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>查看应用权限并授予 Microsoft 团队管理中心的管理员同意
 
 现在，在团队中，全局管理员可以查看和授予同意在 Azure Active Directory 中注册的图形 API 权限，代表应用正在请求的权限（如读取存储在团队中的信息或代表用户发送电子邮件）的整个租户。 现在，IT 管理员将能够查看团队管理中心内应用的特定于资源的同意 (RSC) 权限。 使用该管理员将能够取消阻止其用户在其组织中已查看和同意使用的第三方应用。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
+
+### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>对奥地利、丹麦、意大利、葡萄牙、瑞典和瑞士的通话计划支持
+
+我们最近为奥地利、丹麦、意大利、葡萄牙、瑞典和瑞士添加了通话计划支持。  [了解详细信息](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+
 ## <a name="september-29-2020"></a>2020年9月29日
 
 ### <a name="meeting-policy-settings"></a>会议策略设置
@@ -116,7 +177,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 工作组移动应用中的 Cortana 语音技能可帮助用户执行会议、通信和协作任务，只需使用语音自然语言即可。 用户可以通过单击 "团队" 应用中的麦克风按钮来向 Cortana 讲话，并将 "呼叫 Megan" 或 "发送一条消息发送到我的下一次会议" 之类的请求连接到其他人，因为他们需要与其他人进行联系，而不是在使用生活或旅行中。 用户只需说 "加入我的下一个会议" 即可加入会议，或通过询问 "我对早上有什么" 来查看他们的日历。 在会议或呼叫中，他们可以从会议容器中的 "溢出" 菜单调用 Cortana，并执行典型的会议任务，例如按姓名或号码添加人员 ( "向 ( ) 呼叫添加 Megan" ) 或导航幻灯片 ( "转到附录幻灯片" ) 。 此功能支持的其他功能是查找和共享文件、搜索和在 "团队" 应用内导航 ( "与 John 一起打开我的聊天"，请转到我的 "未读活动"，然后转到 "我的提及" 等 ) 。
 
-团队中的 cortana 为 Cortana 企业服务提供了相同的企业级隐私、安全性和合规性承诺，如 [联机服务条款 (OST) ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)中所示。
+团队中的 cortana 为 Cortana 企业服务提供了相同的企业级隐私、安全性和合规性承诺，如 [联机服务条款 (OST) ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)中所示。 [了解详细信息](https://docs.microsoft.com/microsoftteams/cortana-in-teams)。
 
 ### <a name="teams-devices-administrator"></a>团队设备管理员
 
@@ -126,7 +187,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="lists-app-in-teams"></a>在团队中列出应用
 
-团队用户现在可以使用 "列表应用" 选项卡直接管理、创建和维护其列表。"列表" 应用在所有团队客户端上工作，并支持列表项目之间的协作和通信。 有关如何管理列表应用的详细信息，请参阅 [管理你的组织的列表应用](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)。
+团队用户现在可以使用 "列表应用" 选项卡直接管理、创建和维护其列表。"列表" 应用在所有团队客户端上工作，并支持列表项目之间的协作和通信。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)。
 
 ## <a name="august-6-2020"></a>2020年8月6日
 
@@ -144,12 +205,6 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 开发人员可以使用团队应用提交 API 将自定义应用直接提交到 Microsoft 团队管理中心供管理员查看和批准。 [了解详细信息](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps)。
 
-## <a name="july-31-2020"></a>2020年7月31日
-
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>管理员可以在班次上配置基于班次的状态 (，对他们的一线工作者关闭 shift) 
-
-管理员可以将其一线的工作人员配置为具有基于班次的状态：在 shift 时，在) 移动时，繁忙的 (可以切换，并且关闭 shift。
-
 ## <a name="july-29-2020"></a>2020年7月29日
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>使用设备标记功能增强的可管理性
@@ -158,7 +213,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="view-only-in-meetings"></a>在会议中仅查看
 
-查看-仅允许最多20000个侦听参与者加入会议，其中组织者具有高级通信加载项 SKU 的许可证。1这是预览或早期版本功能。 [了解更多信息](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)
+查看-仅允许最多20000个侦听参与者加入会议，其中组织者具有高级通信加载项 SKU 的许可证。1这是预览或早期版本功能。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)。
 
 ## <a name="july-28-2020"></a>2020年7月28日
 
@@ -176,13 +231,13 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="ndi-out-for-teams-meetings"></a>团队会议 NDI
 
-我们添加了使 NDI 退出团队会议的功能。 NDI-Out 允许视频生产工具使用会议的音频和视频。 [了解详细信息](../use-ndi-in-meetings.md)。
+我们添加了启用团队会议 NDI-Out 的功能。 NDI-Out 允许视频生产工具使用会议的音频和视频。 [了解详细信息](../use-ndi-in-meetings.md)。
 
 ## <a name="july-15-2020"></a>2020年7月15日
 
 ### <a name="enable-suggested-replies"></a>启用建议的答复
 
-启用此设置以启用聊天消息的建议答复。 [了解更多信息](../messaging-policies-in-teams.md)
+启用此设置以启用聊天消息的建议答复。 [了解详细信息](../messaging-policies-in-teams.md)。
 
 ## <a name="july-9-2020"></a>2020年7月9日
 
@@ -194,7 +249,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="policy-packaging-batch-assignment"></a>策略打包批处理作业
 
-我们允许使用 PowerShell 为用户和组批处理分配策略包。
+我们允许使用 PowerShell 为用户和组批处理分配策略包。 [了解详细信息](https://docs.microsoft.com/microsoftteams/manage-policy-packages)。
 
 ## <a name="july-7-2020"></a>2020年7月7日
 
@@ -210,7 +265,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="transferring-incoming-calls"></a>转移来电
 
-我们添加了自动助理和呼叫队列传入呼叫转移到外部 PSTN 电话号码的功能。  [了解详细信息](../business-voice/set-up-auto-attendants.md)。
+我们添加了自动助理和呼叫队列传入呼叫转移到外部 PSTN 电话号码的功能。 [了解详细信息](../business-voice/set-up-auto-attendants.md)。
 
 ## <a name="june-30-2020"></a>2020年6月30日
 
@@ -226,7 +281,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft 团队中的 Walkie Talkie 应用
 
-使用推入式通话即时语音通信。
+使用推入式通话即时语音通信。 [了解详细信息](https://docs.microsoft.com/microsoftteams/walkie-talkie)。
 
 ## <a name="june-25-2020"></a>2020年6月25日
 
@@ -248,7 +303,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="monitor-shifts-with-audit-logs"></a>通过审核日志监控班次
 
-您可以在您的组织中搜索 "审核日志" 以查看倒班活动。 [了解详细信息] (<https://docs.microsoft.com/microsoftteams/audit-log-events> 。
+您可以在您的组织中搜索 "审核日志" 以查看倒班活动。 [了解详细信息](https://docs.microsoft.com/microsoftteams/audit-log-events)。
 
 ## <a name="june-11-2020"></a>2020年6月11日
 
@@ -318,7 +373,7 @@ Microsoft 团队客户端 for RealWear 支持一线工作人员使用 RealWear �
 
 ### <a name="tag-youre-it"></a>标记，您就是
 
-创建标记并将人员分配给他们，以便您可以 @mention 组、角色、部门等。团队所有者，请尝试自己负责。 转到团队，选择 "**更多选项**"  >  **管理标记**。 [了解详细信息](../manage-tags.md)。
+创建标记并将人员分配给他们，以便您可以 @mention 组、角色、部门等。团队所有者，请尝试自己负责。 转到团队，选择 " **更多选项** "  >  **管理标记** 。 [了解详细信息](../manage-tags.md)。
 
 ## <a name="march-30-2020"></a>2020年3月30日
 

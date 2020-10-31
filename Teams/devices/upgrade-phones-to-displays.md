@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 了解如何将团队中的电话升级到团队显示在 Microsoft 团队管理中心中。
-ms.openlocfilehash: b1cb1e94092d833cdf80c3fa9b73e5180b66d063
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: e741374ceb377dfec2f7b8a78f0d67b8e5a70bd1
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787603"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816112"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>将团队的电话升级到团队显示
 
@@ -70,7 +70,13 @@ ms.locfileid: "48787603"
 
 ## <a name="known-issues"></a>已知问题
 
-团队显示的深色主题支持将在将来的更新中提供。 使用深色主题的团队手机将在升级后获取默认主题。
+### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>团队显示具有默认主题，而不是深色主题
+
+团队显示的深色主题支持将在将来的更新中提供。 使用深色主题的团队电话将在 "升级到团队" 显示后获取默认主题。
+
+### <a name="some-apps-are-missing-from-the-home-screen"></a>主屏幕中缺少某些应用
+
+如果升级后主屏幕中缺少某些应用，请注销并再次登录。 此功能的修补程序将在将来的更新中提供。
 
 ## <a name="see-also"></a>另请参阅
 

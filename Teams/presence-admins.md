@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd066fe06126043475a7264b3b2c4501c7ac3ae
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650945"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818832"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -45,9 +45,9 @@ ms.locfileid: "48650945"
 || ![带白线的红色圆圈，表示正在演示](media/Presence_DND.png) 正在演示|
 || ![带白线的红色圆圈，表示专注](media/Presence_DND.png) 介绍. 当用户在日历中的 MyAnalytics/见解中安排焦点时间时，焦点将发生。|
 | ![黄色时钟图标，表示离开](media/Presence_Away.png) 离开| ![黄色时钟图标，表示离开](media/Presence_Away.png) 离开|
-|| ![黄色时钟图标，表示离开](media/Presence_Away.png)上次上线*时间*离开|
+|| ![黄色时钟图标，表示离开](media/Presence_Away.png)上次上线 *时间* 离开|
 |![黄色时钟图标，表示离开但马上回来](media/Presence_Away.png) 马上回来| |
-|![带 x 的灰色圆圈，表示离线](media/Presence_Offline.png) 显示为脱机。 团队即将推出。|![带 x 的灰色圆圈，表示离线](media/Presence_Offline.png) 脱机.  当用户没有在任何设备上登录时，它们将显示为离线。 | |
+|![带 x 的灰色圆圈，表示离线](media/Presence_Offline.png) 显示为脱机|![带 x 的灰色圆圈，表示离线](media/Presence_Offline.png) 脱机.  当用户没有在任何设备上登录时，它们将显示为离线。 | |
 || ![空心灰色圆圈，表示未知状态](media/Presence_Unknown.png) 未知状态|
 || ![带箭头的紫色圆圈，表示外出](media/Presence_OOF.png) 外出。 当设置自动答复时，将使用外出。  (仅在 Outlook 中可用。 )  |
 |||
@@ -60,7 +60,7 @@ ms.locfileid: "48650945"
 
 用户接收除 "请勿打扰" 之外的所有状态的呼叫，传入呼叫转到语音邮件。 如果呼叫接收人屏蔽了呼叫方，来电不会转接，且呼叫方会看到呼叫接收人的状态为“离线”。
 
-用户可以在 Teams 中依次转到“设置”**** > “隐私”****，向自己的优先访问列表添加人员。 如果用户的状态设置为 "请勿打扰"，则具有优先级访问权限的人员可以联系用户。
+用户可以在 Teams 中依次转到“设置”  > “隐私”  ，向自己的优先访问列表添加人员。 如果用户的状态设置为 "请勿打扰"，则具有优先级访问权限的人员可以联系用户。
 
 ### <a name="dual-presence"></a>双重状态
 
@@ -84,10 +84,10 @@ ms.locfileid: "48650945"
 以下管理员设置在 Skype for Business 和 Teams 中是不同的：
 
 - 在 Teams 中，状态共享对组织中的用户始终是启用的。 隐私 (，您可以在其中定义哪些人可以查看状态) 配置在团队中不可用。
-- 在 Teams 中，“与所有人(包括联合服务)共享状态”对用户始终是启用的。 在“聊天”>“联系人”**** 或“通话”>“联系人”**** 下，可以看到用户的联系人列表（如果 Skype for Business 中有）。
+- 在 Teams 中，“与所有人(包括联合服务)共享状态”对用户始终是启用的。 在“聊天”>“联系人”  或“通话”>“联系人”  下，可以看到用户的联系人列表（如果 Skype for Business 中有）。
 - 在 Teams 中，“客户端请勿打扰”和“特许”功能对用户始终是启用的。
 - 如果 Teams 已与 Outlook 集成，“日历(包括外出和其他日历信息)集成”对用户始终是启用的。
-- 如果组织还使用 Skype for Business，在 Teams 中“上次上线”** 或“离开时间”** 指示器对用户始终是启用的。
+- 如果组织还使用 Skype for Business，在 Teams 中“上次上线”  或“离开时间”  指示器对用户始终是启用的。
 
 > [!NOTE]
 > 暂不支持 Teams 管理员自定义这些设置。

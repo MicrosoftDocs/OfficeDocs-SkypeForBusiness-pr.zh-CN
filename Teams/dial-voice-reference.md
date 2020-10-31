@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解团队中的自动助理和通话队列拨号和语音识别选项。
-ms.openlocfilehash: bf520fa4dffe258da523c8815449f1e71279d7f2
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800565"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818802"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自动助理和通话队列拨号和语音识别参考
 
@@ -100,7 +100,7 @@ ms.locfileid: "48800565"
 
 以下语言适用于与传出提示一起使用的文本到语音转换：
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |阿拉伯语 (EG)  |英语 (NZ)  |韩语 (KO)  |
 |中文 (HK)  |英语 (UK) |挪威语 (NO)  |
@@ -114,7 +114,7 @@ ms.locfileid: "48800565"
 
 自动助理的语音识别输入适用于以下语言：
   
-|||
+|-|-|
 |:-----|:-----|
 |中文 (ZH)  |法语 (FR)  |
 |英语 (AU)  |德语 (DE)  |
