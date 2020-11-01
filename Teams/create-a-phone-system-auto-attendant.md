@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试自动助理。
-ms.openlocfilehash: 513950c51035496ec1691fd9ac584467fe734827
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803800"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820035"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -48,7 +48,7 @@ ms.locfileid: "48803800"
 
 ## <a name="general-info"></a>常规信息
 
-![](media/auto-attendant-general-info-page-new.png)
+![名称、操作员、时区、语言和语音输入的自动助理设置的屏幕截图](media/auto-attendant-general-info-page-new.png)
 
 1. 在顶部的框中键入自动助理的名称。
 
@@ -64,7 +64,7 @@ ms.locfileid: "48803800"
 
 ## <a name="call-flow"></a>通话流
 
-![](media/auto-attendant-call-flow-greeting-message.png)
+![问候邮件设置的屏幕截图](media/auto-attendant-call-flow-greeting-message.png)
 
 选择在自动助理接听呼叫时是否要播放问候语。
 
@@ -72,7 +72,7 @@ ms.locfileid: "48803800"
 
 如果选择 " **键入问候语** "，系统将在自动助理接听呼叫时，读取您键入的文本 (最多为1000个字符的文本) 。
 
-![](media/auto-attendant-call-flow-route-call-message.png)
+![呼叫路由设置的屏幕截图](media/auto-attendant-call-flow-route-call-message.png)
 
 选择您希望路由呼叫的方式。
 
@@ -84,7 +84,7 @@ ms.locfileid: "48803800"
 
 ### <a name="menu-options"></a>菜单选项
 
-![](media/auto-attendant-call-flow-menu-options-complete.png)
+![拨号键选项的屏幕截图](media/auto-attendant-call-flow-menu-options-complete.png)
 
 对于拨号选项，您可以将电话键盘上的0-9 键分配给其中一个呼叫传送目的地。  (键 \* (重复) ， \# (后) 由系统保留，并且不能重新分配。 ) 
 
@@ -129,7 +129,7 @@ ms.locfileid: "48803800"
 
 ## <a name="call-flow-for-after-hours"></a>下班后的通话流程
 
-![](media/auto-attendant-business-hours.png)
+![小时数天和时间设置的屏幕截图](media/auto-attendant-business-hours.png)
 
 可以为每个自动助理设置工作时间。 如果没有设置营业时间，所有日期以及每天的所有时间均视为营业时间，因为默认情况下设置为全天候时间表。 可以在一天内通过休息时间设置工作时间，并且未设置为工作时间的所有小时都将被认为是在小时后。 你可以设置不同的传入呼叫处理选项和问候语。
 
@@ -143,7 +143,7 @@ ms.locfileid: "48803800"
 
 ## <a name="call-flows-during-holidays"></a>假期期间的通话流
 
-![](media/auto-attendant-holiday-greeting.png)
+![节日和节日问候设置的屏幕截图](media/auto-attendant-holiday-greeting.png)
 
 您的自动助理可以为 [您设置](set-up-holidays-in-teams.md)的每个假日提供一个呼叫流。 可以为每个自动助理添加最多 20 个计划假日。
 
@@ -155,7 +155,7 @@ ms.locfileid: "48803800"
 
 4. 选择要使用的问候语类型。
 
-    ![](media/auto-attendant-holiday-actions.png)
+    ![节日呼叫操作设置的屏幕截图](media/auto-attendant-holiday-actions.png)
 
 5. 选择是否要 **断开连接** 或 **重定向** 呼叫。
 
@@ -163,7 +163,7 @@ ms.locfileid: "48803800"
 
 7. 单击“ **保存** ”。
 
-![](media/auto-attendant-holiday-call-settings.png)
+![已列出假日设置的假日设置的屏幕截图](media/auto-attendant-holiday-call-settings.png)
 
 根据需要为每个额外的假日重复该过程。
 
@@ -171,7 +171,7 @@ ms.locfileid: "48803800"
 
 ## <a name="dial-scope"></a>拨号作用域
 
-![](media/auto-attendant-dial-scope.png)
+![拨入范围包括和排除选项的屏幕截图](media/auto-attendant-dial-scope.png)
 
 当呼叫者使用按名称拨号或按扩展方式拨号时， *拨号作用域* 定义哪些用户在目录中可用。 **所有联机用户** 的默认值包括您的组织中的所有用户，这些用户是使用电话系统许可证的联机用户或使用 Skype For business 服务器内部托管的用户。
 
@@ -186,11 +186,11 @@ ms.locfileid: "48803800"
 
 所有自动助理都必须具有关联的资源帐户。  第一级自动助理至少需要一个具有关联服务号码的资源帐户。 如果需要，您可以将多个资源帐户分配给自动助理，每个帐户都有一个单独的服务编号。
 
-![](media/auto-attendant-add-resource-account.png)
+![资源帐户 "添加帐户" 面板的屏幕截图](media/auto-attendant-add-resource-account.png)
 
 若要添加资源帐户，请单击 " **添加帐户** "，然后搜索要添加的帐户。 单击 " **添加** "，然后单击 " **添加** "。
 
-![](media/auto-attendant-resource-account-assigned.png)
+![资源帐户列表的屏幕截图，显示分配的服务号码的资源帐户](media/auto-attendant-resource-account-assigned.png)
 
 添加完服务帐户后，单击 " **提交** "。 这将完成自动助理配置。
 
@@ -216,23 +216,23 @@ ms.locfileid: "48803800"
 
 您也可以使用 PowerShell 创建和设置自动助理。 下面是管理自动助理所需的 cmdlet：
 
-- [新-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps)
-- [CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
-- [新-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
-- [新-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
-- [新-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
-- [CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
-- [新-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
-- [新-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
+- [新-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
+- [CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
+- [CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
+- [新-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
+- [新-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
+- [新-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
+- [CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [新-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
+- [新-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 
 ## <a name="related-topics"></a>相关主题
