@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a79e123ca25715fdc33456fa5d566f5a3e8c3e99
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171106"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800615"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -39,13 +39,13 @@ ms.locfileid: "48171106"
 > [!NOTE]
 > 如果你是教师、教育机构领导或 IT 专业人员，那么这些资源可能会有所帮助：
 >
-> - 借助[**入门单页报告**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)，可让整个教育机构快速在 Teams 上运行。
-> - 下载[**如何开始使用团队**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)：面向IT专业人员的指南，其中包含有关安全性和变更管理的有用实践。
-> - 面向教师的文章集合，包括[**在 Teams 中进行教学的首要步骤**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的操作方法。
+> - 借助 [**入门单页报告**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)，可让整个教育机构快速在 Teams 上运行。
+> - 下载 [**如何开始使用团队**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)：面向IT专业人员的指南，其中包含有关安全性和变更管理的有用实践。
+> - 面向教师的文章集合，包括 [**在 Teams 中进行教学的首要步骤**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的操作方法。
 > - Microsoft 教师中心中的 1 小时在线课程介绍了教师在职业生活中如何使用 Teams。 [**与 Microsoft Teams 一起转变学习方法**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Microsoft 教师中心中的 1 小时在线课程将指导教师完成班级团队的教学。 [**与班级团队一起营造协作学习环境**](https://education.microsoft.com/course/b1e15cfc/overview)。
-> - 如果你是教师、学生或家长或监护人，请获取有关[**使用 Office 365 进行远程教学**](https://aka.ms/RemoteLearningHelp)的更多指导。
-> - 家长和监护人也可以转到我们的[**家长支持页面**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，获得有关远程学习的帮助。
+> - 如果你是教师、学生或家长或监护人，请获取有关 [**使用 Office 365 进行远程教学**](https://aka.ms/RemoteLearningHelp)的更多指导。
+> - 家长和监护人也可以转到我们的 [**家长支持页面**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，获得有关远程学习的帮助。
 
 不要错过 2020 年 3 月 4 日的博客，[学校如何通过 Microsoft Teams 快速启动远程学习计划](https://aka.ms/teamseduremoteblog)。
 
@@ -78,7 +78,7 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 允许用户创建团队
 
-当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 **默认情况下，每个人都可创建 Microsoft 365 组和团队**。 有时，此功能可能并不适用。例如，一些客户可能想限制中小学生创建团队。 如果需要，可在你的环境中将 Microsoft 365 组和团队的创建范围[限制在某些安全组内](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
+当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 **默认情况下，每个人都可创建 Microsoft 365 组和团队** 。 有时，此功能可能并不适用。例如，一些客户可能想限制中小学生创建团队。 如果需要，可在你的环境中将 Microsoft 365 组和团队的创建范围[限制在某些安全组内](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
 当你允许每个人（包括学生）为班级、研究、小组项目和学习小组创建团队时，高等教育机构将会受益。 中小学学校则可能希望限制学生创建团队，确保所有学生与学生之间的交流都在包含成人的论坛内进行。 在这种情况下，可将 Microsoft 365 组和团队的创建人员限制为所有教师和行政人员。
 
@@ -94,14 +94,14 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 > [!IMPORTANT]
 > 可在[教育的团队策略和策略包](policy-packages-edu.md)中找到我们针对学生和教师相关策略的最新指南。
 
-**高等教育行政人员、教师和学生**可通过默认（全局）策略所含的功能受益。 你可以启用某些附加策略设置来向 Teams 添加更多功能，包括[在消息传递策略中启用翻译功能](messaging-policies-in-teams.md#messaging-policy-settings)以及在会议策略中[允许自动进行会议转录](meeting-policies-in-teams.md#allow-transcription)。
+**高等教育行政人员、教师和学生** 可通过默认（全局）策略所含的功能受益。 你可以启用某些附加策略设置来向 Teams 添加更多功能，包括[在消息传递策略中启用翻译功能](messaging-policies-in-teams.md#messaging-policy-settings)以及在会议策略中[允许自动进行会议转录](meeting-policies-in-teams.md#allow-transcription)。
 
-**中小学学校的学生**需要的则可能是面向学生提供的限制功能。 策略可设置学生可执行操作的边界。 由于学生通常是最大的用户群体，并且通常适用限制性最强的设置，因此建议针对“全局（默认为组织范围）”策略进行学生策略更改。
+**中小学学校的学生** 需要的则可能是面向学生提供的限制功能。 策略可设置学生可执行操作的边界。 由于学生通常是最大的用户群体，并且通常适用限制性最强的设置，因此建议针对“全局（默认为组织范围）”策略进行学生策略更改。
 
 > [!IMPORTANT]
 > 对于分配给任何用户的会议策略，我们建议将“自动管理人员”设置设为“组织中的每个人”。 此设置将确保未经身份验证的用户必须经过会议厅的允许才可参加 Teams 会议。 有关详细信息，请参阅[管理 Teams 中的会议策略](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)。
 
-**小学的行政人员和教师**分配得到的策略应能够授予学生可能受到限制的核心功能。 创建允许进行私人聊天和会议安排的新策略（新策略的默认设置）。 [向员工和教师批量分配这些策略](batch-group-policy-assignment-edu.md)。
+**小学的行政人员和教师** 分配得到的策略应能够授予学生可能受到限制的核心功能。 创建允许进行私人聊天和会议安排的新策略（新策略的默认设置）。 [向员工和教师批量分配这些策略](batch-group-policy-assignment-edu.md)。
 
 ## <a name="start-using-teams"></a>开始使用 Teams
 
@@ -113,6 +113,7 @@ Microsoft Teams 教育版提供了针对教育用途的  [特定团队类型](
 - 分数
 - OneNote 课堂笔记本  
 - [课堂材料文件夹](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) 确保学生只读内容
+- [见解](https://docs.microsoft.com/microsoftteams/class-insights)，可提供有关每课堂的学生参与度、作业和幸福感的实时数据。 
 - [教师提前访问](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)先设置班级，再添加学生 
 - 可以静音处理捣乱的学生及其他特殊权限  
 
@@ -156,7 +157,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 如果你想让教师轻松快速地创建他们需要的课堂，那么创建由教师领导的团队是一种很好的部署方法。 我们还建议拥有50万个团队的机构使用这种方法来最小化外部创建的团队的数量。  
 
-这种混合方法允许你使用 SDS 为每个课程创建组（推荐），或者使用[Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes)自己创建组。 在课堂组准备好之后，教育者可以使用建议的**班级图标**将他们的群组转换成小组。
+这种混合方法允许你使用 SDS 为每个课程创建组（推荐），或者使用[Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes)自己创建组。 在课堂组准备好之后，教育者可以使用建议的 **班级图标** 将他们的群组转换成小组。
 
 :::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="显示建议课堂图标的屏幕截图":::
 
@@ -276,7 +277,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>禁止用户更改个人资料照片
 
-Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果已关闭“-SetPhotoEnabled”**** 设置，则用户不能添加、更改或删除个人资料图片。 若要防止学生或员工更改或删除个人资料图片，请在分配给他们的 Outlook 网页版邮箱策略中关闭此设置。
+Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果已关闭“-SetPhotoEnabled”  设置，则用户不能添加、更改或删除个人资料图片。 若要防止学生或员工更改或删除个人资料图片，请在分配给他们的 Outlook 网页版邮箱策略中关闭此设置。
 
 例如，如果某位学生上传了由教育机构 IT 或 HR 部门批准的个人资料图片，则无需执行任何操作。 但是，如果某位学生上传了不当的图片，请根据教育机构的内部策略更改图片。
 
