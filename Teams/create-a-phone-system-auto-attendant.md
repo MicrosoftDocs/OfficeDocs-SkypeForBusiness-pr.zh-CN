@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试自动助理。
-ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48820035"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48840411"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -199,7 +199,10 @@ ms.locfileid: "48820035"
 将呼叫转移到外部电话号码时，与自动助理或呼叫队列关联的资源帐户必须具有电话号码和 Microsoft 365 Phone System-虚拟用户许可证。 进一步
 
 - 对于带有呼叫计划编号的资源帐户，请分配 [呼叫计划](calling-plans-for-office-365.md) 许可证。
+  - 必须以164格式输入外部转帐电话号码 (+ CC + phone_number) 。
+
 - 对于具有直接路由号码的资源帐户，请分配 [联机语音路由策略](manage-voice-routing-policies.md)。
+  - 外部传送电话号码格式取决于你的 [会话边界控制器 (SBC) ](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) 设置。
 
 显示的出站电话号码按如下方式确定：
 

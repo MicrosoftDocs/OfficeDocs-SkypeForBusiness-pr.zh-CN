@@ -13,12 +13,12 @@ f1.keywords:
 description: 作为服务的集成联系人中心概述 (CCaaS) Microsoft 团队的解决方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f0989c8fade3461418e86713dfb758bc7dfbbcc
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 0fb65edc260c5a91ee51a32c6c3796e2773ba179
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424622"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827736"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 团队的联系中心集成
 
@@ -54,6 +54,7 @@ Api 允许合作伙伴开发和集成团队的 CCaaS 解决方案。 此外，�
 | Landis 技术 | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | 真 inContact | https://www.niceincontact.com/microsoft-teams                                                            |
+| Novomind | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 此列表将随着更多合作伙伴加入和满足认证标准而更新。
@@ -90,19 +91,19 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 
 虽然以下内容不是此集成模型的一个完整功能列表，但焦点区域包括：
 
-  - Office 365 authN for agent 允许代理从其集成的 CCaaS 客户端连接到其 Microsoft 租户 
+  - Office 365 authN for agent 允许代理从其集成的 CCaaS 客户端连接到其 Microsoft 租户 
 
-  - 来自团队用户的状态指示 
+  - 来自团队用户的状态指示 
 
-  - 按测试计划中的指示，通过直接路由 (进行呼叫流程)  
+  - 按测试计划中的指示，通过直接路由 (进行呼叫流程)  
 
-  - 支持与团队用户进行转移和群组通话 
+  - 支持与团队用户进行转移和群组通话 
 
-  - 团队图形 Api 和云通信 Api 与团队集成 
+  - 团队图形 Api 和云通信 Api 与团队集成 
 
-  - 能够支持多租户 SIP 中继以支持合作伙伴的 SBC 的多个客户。  
+  - 能够支持多租户 SIP 中继以支持合作伙伴的 SBC 的多个客户。  
 
-  - 合作伙伴实现[ <span class="underline">Microsoft 认证会话边界控制器 (SBC) </span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - 合作伙伴实现[ <span class="underline">Microsoft 认证会话边界控制器 (SBC) </span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>连接和扩展
 
@@ -116,11 +117,11 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 
 虽然以下不是此集成模型的功能的完整列表，但它确实突出显示了主要重点领域：
 
-  - 团队图形 Api 和云通信 Api 与团队集成 
+  - 团队图形 Api 和云通信 Api 与团队集成 
 
-  - 针对代理体验的基于团队的应用 
+  - 针对代理体验的基于团队的应用 
 
-  - 作为代理的主调用终结点的团队 
+  - 作为代理的主调用终结点的团队 
 
   - 团队客户端呼叫所有呼叫控件
 
@@ -128,9 +129,9 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 
   - 针对团队内 CCaaS 应用中的代理的分析、工作流管理、基于角色的体验
 
-  - 与团队客户集成的聊天和协作体验 
+  - 与团队客户集成的聊天和协作体验 
 
-  - 保留团队的性能和质量在所有应用中的客户体验  
+  - 保留团队的性能和质量在所有应用中的客户体验  
 
 ### <a name="extend-and-power"></a>延长和增强
 
@@ -144,13 +145,13 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 
 虽然以下内容不是此集成模型的功能的完整列表，但除了连接模型和扩展模型提供的功能之外，这些突出显示区域。
 
-  - 正式代理通过团队 SDK 通过 "全频道通信" 体验 
+  - 正式代理通过团队 SDK 通过 "全频道通信" 体验 
 
-  - 利用团队协作服务进行代理协作和客户交互  
+  - 利用团队协作服务进行代理协作和客户交互  
 
-  - 快速调配云服务，随时随地部署 
+  - 快速调配云服务，随时随地部署 
 
-  - 团队对话期间与用户进行直接对话控制和交互 
+  - 团队对话期间与用户进行直接对话控制和交互 
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>比较连接的联系人中心集成模型
 
@@ -160,10 +161,10 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 <thead>
 <tr class="header">
 <th></th>
-<th><strong>团队语音应用</strong></th>
-<th><strong>联系</strong></th>
-<th><strong>Connect + extend</strong></th>
-<th><strong>延长 + power</strong></th>
+<th>团队语音应用</th>
+<th>联系</th>
+<th>拓展</th>
+<th>电涌</th>
 </tr>
 </thead>
 <tbody>
@@ -210,7 +211,8 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 <td>平台<br />
  (通话计划 + DR) </td>
 <td>直接路由</td>
-<td>直接路由</td>
+<td>平台<br />
+ (通话计划 + DR) </td>
 <td>平台<br />
  (通话计划 + DR) </td>
 </tr>

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778855"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827746"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -110,7 +110,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |与内部团体的1:1 通话             |呼叫者                 |呼叫者的 OneDrive for business 帐户                        |呼叫方是所有者，具有完全权限 <br /><br />被调用方 (如果在同一租户) 中具有只读访问权限，则没有共享访问权限 <br /><br /> 如果在不同租户) 中没有访问权限，则被调用方 (。 调用方必须将其共享给被呼叫方|
 |与内部团体的1:1 通话             |被叫方                 |被呼叫者的 OneDrive for business 帐户                        |被呼叫方是所有者，具有完全权限 <br /><br />如果在同一租户中具有 "只读" 访问权限，则呼叫者 (，将无法进行共享访问 <br /><br />如果不同租户) 中没有访问权限，则调用方 (。 被呼叫方必须将其共享给被呼叫方|
 |使用外部通话的1:1 通话             |呼叫者                 |呼叫者的 OneDrive for business 帐户                        |呼叫方是所有者，具有完全权限<br /> <br />被调用方没有访问权限。 调用方必须将其共享给被呼叫方|
-|使用外部通话的1:1 通话             |被叫方                 |呼叫者的 OneDrive for business 帐户                        | 被呼叫方是所有者，具有完全权限<br /><br />呼叫方没有访问权限。 被呼叫方必须将其共享给呼叫方|
+|使用外部通话的1:1 通话             |被叫方                 |被呼叫者的 OneDrive for business 帐户                        | 被呼叫方是所有者，具有完全权限<br /><br />呼叫方没有访问权限。 被呼叫方必须将其共享给呼叫方|
 |群组通话                                 |任何呼叫成员 |单击记录的 OneDrive for Business 帐户的成员  |单击 "记录" 的成员具有完全权限 <br /><br /> 来自同一租户的其他成员具有读取权限 <br /><br /> 来自不同租户的其他成员没有权限。|
 |即席/计划会议                    |组织者              |组织者的 OneDrive for Business 帐户                     | 组织者对录制具有完全的权限 <br /><br /> 会议的所有其他成员都具有 "读取" 访问权限|
 |即席/计划会议                    |其他会议成员   |单击记录的成员                                  | 单击 "记录" 的成员对录制具有完全的权限 <br />组织者具有编辑权限，并且可以共享 <br /><br /> 所有其他成员都具有读取访问权限|
