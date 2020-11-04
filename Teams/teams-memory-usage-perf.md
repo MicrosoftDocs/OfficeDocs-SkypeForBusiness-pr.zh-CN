@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
-description: Microsoft 团队如何使用系统内存，以及为什么桌面应用程序和 web 应用程序之间的内存使用率相同。
+description: 了解 Microsoft 团队系统内存使用情况，以及桌面应用程序和 web 应用程序之间的内存使用情况。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,30 +16,31 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59940eafcdb6f86961b3cd6805cb9c5bb40f9fb2
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: d218c71a0e3ecdde40559d67e1ad3a408d65a5d9
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033396"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878716"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams 如何使用内存
 
-某些 Microsoft 团队用户对团队使用内存的方式有疑问。 本文介绍团队如何使用内存，以及团队桌面应用程序（应用）和团队 web 应用不阻止同一台计算机上的其他应用和工作负荷以最佳运行的内存。 团队设计为使用新式 web 技术。 为了实现此目的，已在电子上开发了团队桌面客户端，该客户端使用 Chromium 进行呈现。 这是当今大多数最热门的浏览器（包括边缘和 Chrome）中的相同呈现引擎。
+某些 Microsoft 团队用户对团队使用内存的方式有疑问。 本文介绍团队如何使用内存，以及团队桌面应用程序 (应用) 和团队 web app 不阻止同一台计算机上的其他应用和工作负荷以最佳运行的内存。 团队设计为使用新式 web 技术。 为了实现此目的，已在电子上开发了团队桌面客户端，该客户端使用 Chromium 进行呈现。 这是当今大多数最热门的浏览器（包括边缘和 Chrome）中的相同呈现引擎。
 
 ## <a name="how-teams-works"></a>团队的工作方式
 
-在电子上设计的团队允许更快地进行开发，并且它还会在不同操作系统（Windows、Mac 和 Linux）的团队版本之间保持奇偶校验。 这种奇偶校验是可行的，因为电子和 Chromium 在所有版本中维护类似的基本代码。 此体系结构的另一个优点是，团队 web 应用和桌面版本之间存在类似的内存使用率配置文件。 Web 应用和桌面版本使用内存的方式与浏览器使用内存的方式类似。 有关电子的详细信息可在[其网站](https://electronjs.org/)上使用。
+在电子上设计的团队允许更快地进行开发，并且它还会在不同操作系统 (Windows、Mac 和 Linux) 之间保持不同团队版本之间的奇偶。 这种奇偶校验是可行的，因为电子和 Chromium 在所有版本中维护类似的基本代码。 此体系结构的另一个优点是，团队 web 应用和桌面版本之间存在类似的内存使用率配置文件。 Web 应用和桌面版本使用内存的方式与浏览器使用内存的方式类似。 有关电子的详细信息可在 [其网站](https://electronjs.org/)上使用。
 
 有关详细信息，请参阅[Chrome 内存中](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md)的[Chromium 内存使用](https://www.chromium.org/developers/memory-usage-backgrounder)和关键概念。
 
-下图显示了适用于 Windows 和团队 Web 应用（在本示例中，在 Google Chrome 中运行）的团队桌面应用的并行内存使用情况。
+下图显示了 Windows 和团队 Web app 的团队桌面应用的并行内存使用情况 (在本示例中，在 Google Chrome) 中运行。
 
-![团队桌面应用和 Web 应用内存使用情况](media/teams-memory-clientweb.png)
+![桌面应用和 Web 应用的团队内存使用情况](media/teams-memory-clientweb.png)
 
 ## <a name="memory-usage-in-teams"></a>团队中的内存使用情况
 
-了解团队在系统内存方面的*预期*行为并了解真正有问题的系统内存问题的症状非常重要。
+了解团队在系统内存方面的 *预期* 行为并了解真正有问题的系统内存问题的症状非常重要。
 
 ### <a name="expected-memory-usage-by-teams"></a>团队预期的内存使用情况
 
@@ -47,7 +48,7 @@ ms.locfileid: "43033396"
 
 这样，类似的 Chromium 工作负荷可以利用不同数量的内存，具体取决于可用的系统内存量。
 
-下图介绍了两个独立系统上的团队内存使用情况，每个系统具有不同的可用内存量。 每个系统都处理类似的工作负荷（打开和运行相同的应用）。
+下图介绍了两个独立系统上的团队内存使用情况，每个系统具有不同的可用内存量。 每个系统都处理类似的工作负荷 (相同的应用打开并运行) 。
 
 ![团队跨不同系统的内存使用量](media/teams-memory-usage.png)
 

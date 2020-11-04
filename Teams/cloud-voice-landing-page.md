@@ -16,16 +16,17 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 - seo-marvel-apr2020
+- seo-marvel-may2020
 search.appverid: MET150
-description: 通过 Microsoft Phone System 和 PSTN 连接选项（包括呼叫计划和直接路由）了解有关 Microsoft 语音解决方案的详细信息。
+description: 了解有关 Microsoft 团队云语音功能的详细信息以及你将为组织制定的部署决策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513525448112fbb9b2b0bf4beacfec46bfb1d76a
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 243c4d9f7cc2987fa796b7d21a5a37a49d4db7ec
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308345"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878556"
 ---
 # <a name="plan-your-teams-voice-solution"></a>规划团队语音解决方案 
 
@@ -57,7 +58,7 @@ ms.locfileid: "48308345"
 | [**电话系统**](#phone-system) | Microsoft 365 cloud 中与 Microsoft 团队 (PBX) 功能的 microsoft 的技术，用于启用呼叫控制和专用分支 Exchange。 |
 | [**公共交换电话网络 (PSTN) 连接选项**](#public-switched-telephone-network-connectivity-options) | 在使用 Microsoft 作为电话运营商，或使用直接路由将您自己的电话运营商连接到 Microsoft 团队之间的选择。 通过结合使用手机系统，PSTN 连接选项使你的用户可以拨打世界各地的电话。|
 
-**具体取决于你的需求。** 本文中的部分内容取决于您的现有部署和要求。 例如，仅当直接路由客户的地理位置不允许使用 "免长途电话" 时，才需要基于位置的路由。
+**具体取决于你的需求。** 本文中的部分内容取决于您的现有部署和要求。 例如，仅在不允许进行收费跳过的地理位置直接路由客户的情况下，才需要 Location-Based 路由。
 
 
 | 根据您的要求 | 说明 |
@@ -65,8 +66,8 @@ ms.locfileid: "48308345"
 | [**Microsoft 的电话号码**](#phone-numbers-from-microsoft) | 如何从 Microsoft 获取和管理电话号码，以及如何将现有号码转移到 Microsoft。 如果需要获取 Microsoft 通话计划的电话号码、转移现有号码、获取服务号码等，请阅读此项。 |
 | [**拨号计划和呼叫路由**](#dial-plans-and-call-routing) | 如何配置和管理将已拨打的电话号码转换为备用格式的拨号计划 (一般情况下，) 用于呼叫授权和呼叫路由的 E：164格式。 如果需要了解拨号计划以及是否需要为你的组织指定拨号计划，请阅读此内容。|
 | [**紧急电话**](#emergency-calling) | 如何根据 PSTN 连接选项管理和配置紧急呼叫 &mdash; 。 如果您使用的是 Microsoft 通话计划或直接路由，并且需要了解如何管理您的组织的紧急呼叫，请阅读本部分。 |
-| [**直接路由的基于位置的路由**](#location-based-routing-for-direct-routing) |如何使用基于位置的路由 (LBR) 根据其地理位置限制 Microsoft 团队用户进行收费跳过。 如果你的组织在不允许使用免收费的位置使用直接路由，请阅读本部分。
-| [**云语音功能的网络拓扑**](#network-topology-for-voice-features) | 如果你的组织正在部署基于位置的路由 (LBR) 用于直接路由或动态紧急呼叫，则必须配置用于 Microsoft 团队中的这些功能的网络设置。 如果你要为直接路由实现 LBR，或者如果你要通过呼叫计划或直接路由实施动态紧急呼叫，请阅读本部分。 |
+| [**直接路由的基于位置的路由**](#location-based-routing-for-direct-routing) |如何使用 Location-Based 路由 (LBR) 根据地理位置限制 Microsoft 团队用户进行收费跳过。 如果你的组织在不允许使用免收费的位置使用直接路由，请阅读本部分。
+| [**云语音功能的网络拓扑**](#network-topology-for-voice-features) | 如果你的组织正在部署 Location-Based 路由 (LBR) 用于直接路由或动态紧急呼叫，则必须在 Microsoft 团队中配置用于这些功能的网络设置。 如果你要为直接路由实现 LBR，或者如果你要通过呼叫计划或直接路由实施动态紧急呼叫，请阅读本部分。 |
 | [**迁移现有的语音解决方案**](#migrate-your-existing-voice-solution-to-teams) | 将语音解决方案迁移到团队时需要考虑的内容。  如果要从现有语音解决方案迁移到团队，请阅读本部分。 
 
 
@@ -253,19 +254,19 @@ Microsoft 有两种类型的电话号码可用： *订户* (用户) 号码（可
 - [Contoso 案例研究：紧急电话](voice-case-study-emergency-calling.md)<br>
   介绍一个虚构的多国企业（Contoso）如何为其组织实现紧急呼叫。
 
-## <a name="location-based-routing-for-direct-routing"></a>直接路由的基于位置的路由
+## <a name="location-based-routing-for-direct-routing"></a>直接路由的 Location-Based 路由
 
-在某些国家和地区，不能绕过公共交换电话网络 (PSTN) 提供商减少长途通话成本。 直接路由的基于位置的路由使你能够基于其地理位置限制 Microsoft 团队用户进行收费跳过。 有关如何规划和配置基于位置的路由 (LBR) 的详细信息，请参阅以下文章：
+在某些国家和地区，不能绕过公共交换电话网络 (PSTN) 提供商减少长途通话成本。 通过 "Location-Based 路由选择直接路由"，你可以根据其地理位置限制 Microsoft 团队用户的收费跳过。 有关如何规划和配置 Location-Based 路由 (LBR) 的详细信息，请参阅以下文章：
 
 - [为直接路由计划基于位置的路由](location-based-routing-plan.md)
 - [为基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)
 - [为直接路由启用基于位置的路由](location-based-routing-enable.md)
-- [Contoso 个案研究：基于位置的路由](voice-case-study-location-based-routing.md)<br>
-  介绍一个虚构的多国企业（Contoso）如何为其组织实现基于位置的路由。
+- [Contoso 案例研究： Location-Based 路由](voice-case-study-location-based-routing.md)<br>
+  介绍虚构的多国公司（Contoso）如何为其组织实施 Location-Based 路由。
 
 ## <a name="network-topology-for-voice-features"></a>语音功能的网络拓扑
 
-如果要为直接路由部署动态紧急呼叫或基于位置的路由，则必须在 Microsoft 团队中配置用于这些功能的网络设置。 若要了解如何配置网络区域、网络站点、网络子网和受信任的 IP 地址的网络设置，请参阅以下文章：
+如果要为直接路由部署动态紧急呼叫或 Location-Based 路由，则必须在 Microsoft 团队中配置用于这些功能的网络设置。 若要了解如何配置网络区域、网络站点、网络子网和受信任的 IP 地址的网络设置，请参阅以下文章：
 
 - [Microsoft 团队中云语音功能的网络设置-概念和术语](cloud-voice-network-settings.md)
 - [在 Microsoft 团队中管理云语音功能的网络拓扑](manage-your-network-topology.md)
@@ -282,11 +283,11 @@ Microsoft 有两种类型的电话号码可用： *订户* (用户) 号码（可
 
 - [**Skype For Business Online 中使用 Microsoft 通话计划的用户**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)。 升级后，此用户将继续拥有 Microsoft 通话计划。
 
-- ** [Skype For business Online 中的用户，](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)通过 skype for Business 本地或云连接器版本使用本地语音功能**。 用户对团队的升级需要与用户迁移以直接路由，以确保 TeamsOnly 用户具有 PSTN 功能。
+- **[Skype For business Online 中的用户，](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)通过 skype for Business 本地或云连接器版本使用本地语音功能** 。 用户对团队的升级需要与用户迁移以直接路由，以确保 TeamsOnly 用户具有 PSTN 功能。
 
-- **[使用企业语音的 Skype for business Online 中的用户](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)，这些用户将移动到联机状态并保持本地 PSTN 连接**。 将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并通过将用户迁移到直接路由来协调该用户。 
+- **[使用企业语音的 Skype for business Online 中的用户](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)，这些用户将移动到联机状态并保持本地 PSTN 连接** 。 将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并通过将用户迁移到直接路由来协调该用户。 
 
-- **[使用企业语音的 Skype for business Online 中的用户](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)，这些用户将移动到联机并使用 Microsoft 通话计划**。  将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并使用) 该用户电话号码的端口与 Microsoft 通话计划或 B 进行协调，) 从可用区域分配新的订户号码。
+- **[使用企业语音的 Skype for business Online 中的用户](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)，这些用户将移动到联机并使用 Microsoft 通话计划** 。  将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并使用) 该用户电话号码的端口与 Microsoft 通话计划或 B 进行协调，) 从可用区域分配新的订户号码。
 
 有关如何为每种情况实现您的语音迁移的详细信息 &mdash; ，包括有关何时需要设置混合连接的信息以及如何将具有本地语音功能的用户迁移到直接路由， &mdash; 请参阅以下文章：
 

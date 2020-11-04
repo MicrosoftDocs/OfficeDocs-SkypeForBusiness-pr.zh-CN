@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 了解如何使用和管理你的医疗保健组织的团队策略包。
-ms.openlocfilehash: 6c14cc82a7e2e16780eb50c04064955aad4e4eb7
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 28db6a594fd8ea579623975c20e96a2ce0189885
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790644"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852203"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>医疗保健的团队策略程序包
 
@@ -60,7 +60,7 @@ Microsoft 团队中的 [策略包](manage-policy-packages.md) 是预定义策略
 
 ## <a name="get-started-with-policy-packages"></a>策略程序包入门
 
-若要开始使用医疗保健策略程序包，请在 Microsoft 管理中心的 "加入中心" 中选择 " **医疗保健基础知识** "，然后选择 " **按角色分配策略设置** "。 准备好开始使用后，请确定你想要为组织中的个人分配哪些策略包。
+若要开始使用医疗保健策略程序包，请在 Microsoft 管理中心的 "加入中心" 中选择 " **医疗保健** "，然后选择 " **按角色分配策略设置** "。 准备好开始使用后，请确定你想要为组织中的个人分配哪些策略包。
 
 选择 " **查看策略详细信息** " 以了解有关程序包中的特定策略及其各自的设置的详细信息。 这些可在团队管理中心中分配后 [进行自定义](manage-policy-packages.md#customize-policies-in-a-policy-package) 。
 

@@ -13,16 +13,16 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5986a730ed678d45360d89efbd35693134c2a6a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 12360110df90fb5de2e3e4547534c8569cc5537a
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814361"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852153"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft 团队 PowerShell 概述
 
-Microsoft 团队 PowerShell 是一组用于直接从 PowerShell 命令行管理团队的 cmdlet。 在 .NET 标准版中，团队 PowerShell 在 Windows、PowerShell 6 和更高版本上的 PowerShell 5.1 上工作，包括 Azure 外壳程序。
+Microsoft 团队 PowerShell 是一组用于直接从 PowerShell 命令行管理团队的 cmdlet。 在 .NET 标准版中，团队 PowerShell 在 Windows、PowerShell 6 和更高版本上的 PowerShell 5.1 上运行，包括 Azure 云外壳。
 
 在开始使用 PowerShell 之前，你需要 [安装它](teams-powershell-install.md)。 
 
@@ -34,9 +34,9 @@ Microsoft 团队 PowerShell 是一组用于直接从 PowerShell 命令行管理�
 
 在两种版本类型中，团队 PowerShell 在 [PowerShell 库](https://www.powershellgallery.com/packages/MicrosoftTeams) 中可用。
 
-- ** (GA) 的常规可用性 **：生产的 cmdlet，每月更新。
+- **(GA) 的常规可用性** ：生产的 cmdlet，每月更新。
 
-- **公共预览版**：及早访问功能。 更新频率可能比 GA 更频繁。
+- **公共预览版** ：及早访问功能。 更新频率可能比 GA 更频繁。
 
 有关两个版本的功能添加和改进的详细信息，请阅读 [团队 PowerShell 发行说明](teams-powershell-release-notes.md)。
 

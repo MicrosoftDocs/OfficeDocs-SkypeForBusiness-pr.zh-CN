@@ -20,18 +20,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 了解医疗保健的功能，包括护理协调、安全消息、虚拟访问、EHR 集成和一线 worker 系统集成。
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+description: 了解 Microsoft 团队 telehealth、EHR 集成、一线工作者系统集成和患者应用等健康护理功能。
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803530"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878706"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>面向医疗保健组织的团队入门
 
-Microsoft 团队提供了许多适用于医院和其他医疗保健组织的功能，包括：
+Microsoft 团队提供了许多适用于医院和其他医疗保健组织的 telemedicine 功能。 团队功能正在开发中，可帮助医院帮助医院：
 
 - 虚拟访问和电子医疗保健记录 (EHR) 集成
 - 团队策略程序包

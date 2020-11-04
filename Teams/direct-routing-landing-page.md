@@ -14,16 +14,18 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 了解有关直接路由的详细信息，并了解你将面临的必要部署决策。
-ms.custom: seo-marvel-apr2020
+description: 了解有关直接路由的详细信息，如配置、必要的核心部署决策和语音路由注意事项。
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c988670a17a9ba2f803c11740d97404de52d4d5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 172253f0c1fe99043a21bf70309d81f71e392d4c
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497299"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878516"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 

@@ -13,12 +13,12 @@ ms.collection:
 description: 了解团队 PowerShell 中的最新更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b5120ad981ba695f02f7c6403c9254e266501
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814411"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852163"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 团队 PowerShell 发行说明
 
@@ -31,14 +31,15 @@ ms.locfileid: "47814411"
 
 | 日期 | 版本 | 端更新 |
 |------- | -------------------- | ------------------------------ |
+| 2020年11月 | [1.1.7-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>使用 MSAL 进行身份验证 & 授权</li><li>重构策略包 cmdlet 并添加组包分配</li><li>重构的目标层次结构上载命令以使用异步模型</li> |
 | 2020年9月 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype for Business Online 连接器集成</li> |
 | 2020年9月 | [1.1.5-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype for Business Online 连接器集成</li> |
 | 2020年7月 | [类库](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>已添加 [组策略分配 cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
-| 2020年6月 | [1.1.3-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype for Business Online 连接器集成<li>获取团队优化<li>增强的可靠性</li> |
+| 2020年6月 | [1.1.3-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype for Business Online 连接器集成<li>Get-Team 优化<li>增强的可靠性</li> |
 | 2020年6月 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>已添加 Cmdlet 预加载<li>.Net Framework 优化</li>   |
-| 2020年4月 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>验证码和程序集签名<li>已添加 CsPolicyPackage<li>已添加 CsUserPolicyPackage<li>已添加 CsUserPolicyPackageRecommendation<li>已添加授予 CsUserPolicyPackage<li>新增-CsBatchPolicyPackageAssignmentOperation<li>已添加 TeamArchivedState<li>已添加 TeamPicture<li>已删除 TeamHelp</li>  |
-| 2020年3月 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>新增-CsBatchPolicyAssignmentOperation</li> |
-| 2020年2月 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>获取团队优化</li>  |
+| 2020年4月 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>验证码和程序集签名<li>已添加 Get-CsPolicyPackage<li>已添加 Get-CsUserPolicyPackage<li>已添加 Get-CsUserPolicyPackageRecommendation<li>已添加 Grant-CsUserPolicyPackage<li>已添加 New-CsBatchPolicyPackageAssignmentOperation<li>已添加 Set-TeamArchivedState<li>已添加 Set-TeamPicture<li>已删除 Get-TeamHelp</li>  |
+| 2020年3月 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>已添加 New-CsBatchPolicyAssignmentOperation</li> |
+| 2020年2月 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team 优化</li>  |
 
 ### <a name="cmdlet-availability"></a>Cmdlet 可用性
 

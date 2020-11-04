@@ -16,17 +16,16 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 规划在 Skype for business Server 和 Skype for business Online 或团队之间实施混合连接的注意事项。
-ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: 计划通过配置 Skype for Business 混合模式实现 Skype for business Server 和团队或 Skype for business Online 之间的混合连接。
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 856172d5fba3df96b2456f0ceca1c661120e84e4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359058"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878576"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>规划 Skype for Business Server 与 Microsoft 365 或 Office 365 之间的混合连接
-
-## <a name="overview"></a>概述
 
 阅读本主题，了解如何规划 Skype for Business Server 和团队或 Skype for business Online 之间的混合连接。 设置混合连接是将本地环境迁移到云的第一步。
 
@@ -49,7 +48,7 @@ ms.locfileid: "47359058"
 
 此类型的配置依赖于共享的 SIP 地址空间功能，有时也称为 "拆分域"--即域的用户（如 contoso.com）在使用 Skype for Business Server on on-premises and team 或 Skype for business Online 之间进行拆分，如下图所示：
 
-![SfB 混合连接-拆分域](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![Skype for Business 混合连接-拆分域](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 配置共享 SIP 地址空间时：
 
@@ -61,7 +60,7 @@ ms.locfileid: "47359058"
 
 在用户可以联机移动之前，必须为用户分配 Skype for Business Online (Plan 2) 许可证。 如果用户将使用团队，则还必须向该用户分配团队许可证 (，并且 Skype for Business 许可证必须保持启用状态) 。 如果您的用户想要利用其他在线功能（如音频会议或电话系统），您需要在 Microsoft 365 或 Office 365 中为他们分配适当的许可证。
 
-## <a name="infrastructure-requirements"></a>基础结构要求
+## <a name="hybrid-connectivity-infrastructure-requirements"></a>混合连接基础结构要求
 
 <a name="BKMK_Infrastructure"> </a>
 
@@ -75,8 +74,8 @@ ms.locfileid: "47359058"
     
 - Azure Active Directory Connect 用于将本地目录与 Microsoft 365 或 Office 365 同步。 有关详细信息，请参阅 [AZURE AD Connect：帐户和权限](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
-- Skype for Business Server 管理工具。  这是将用户从本地迁移到云所必需的。 必须在具有本地部署和 internet 访问权限的服务器上安装这些工具。
-- 联机管理工具。  您可以使用团队管理员中心或 Windows PowerShell 管理团队和 Skype for Business Online。 若要使用 PowerShell 管理团队或 Skype for business Online，请下载并安装 Skype for Business Online 连接器。
+- Skype for Business Server 管理工具。 这是将用户从本地迁移到云所必需的。 必须在具有本地部署和 internet 访问权限的服务器上安装这些工具。
+- 联机管理工具。 您可以使用团队管理员中心或 Windows PowerShell 管理团队和 Skype for Business Online。 若要使用 PowerShell 管理团队或 Skype for business Online，请下载并安装 Skype for Business Online 连接器。
 - 必须启用共享 SIP 地址空间，并且必须将本地部署配置为使用 Microsoft 365 或 Office 365 作为托管提供商。 有关配置混合连接所需步骤的详细信息，请参阅 [配置混合连接](configure-hybrid-connectivity.md)。
 
 配置混合连接后，可以将用户移动到团队或 Skype for Business Online。 有关详细信息，请参阅 [将用户从本地移动到团队](move-users-from-on-premises-to-teams.md) 和 [将用户从本地移动到 Skype for business Online](move-users-from-on-premises-to-skype-for-business-online.md)。
@@ -85,7 +84,7 @@ ms.locfileid: "47359058"
 
 <a name="BKMK_Topology"> </a>
 
-若要配置与 **团队或 Skype For Business Online**的混合部署，您需要具有以下受支持的拓扑之一：
+若要配置与 **团队或 Skype For Business Online** 的混合部署，您需要具有以下受支持的拓扑之一：
 
 - Skype for Business Server 2019 部署（所有服务器都运行 Skype for Business Server 2019）。
 - Skype for Business Server 2015 部署（所有服务器都运行 Skype for Business Server 2015）。
@@ -95,9 +94,9 @@ ms.locfileid: "47359058"
   - Lync Server 2013 和 Skype for Business Server 2019
   - Lync Server 2013 和 Skype for Business Server 2015
 
-*如果任何拓扑中都需要混合语音*，则被指定为联盟边缘的边缘服务器以及与 SIP 联合关联的池必须运行 Skype for business 2015 或更高版本。 用户可以保留在 Lync 2013 池（如果存在）。 有关更多详细信息，请参阅 [在 Skype For Business Server 中规划带有 PSTN 连接的电话系统](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。
+*如果任何拓扑中都需要混合语音* ，则被指定为联盟边缘的边缘服务器以及与 SIP 联合关联的池必须运行 Skype for business 2015 或更高版本。 用户可以保留在 Lync 2013 池（如果存在）。 有关更多详细信息，请参阅 [在 Skype For Business Server 中规划带有 PSTN 连接的电话系统](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。
 
-包含 Lync Server 2010 的以下拓扑支持用于即时消息和会议的 **Skype For Business Online** 。  **混合语音和团队不支持包含 Lync Server 2010**的拓扑。
+包含 Lync Server 2010 的以下拓扑支持用于即时消息和会议的 **Skype For Business Online** 。 **混合语音和团队不支持包含 Lync Server 2010** 的拓扑。
 
 - 混合 Lync Server 2010 和 Skype for Business Server 2015 部署
 - 混合 Lync Server 2010 和 Lync Server 2013 部署
@@ -126,7 +125,7 @@ Microsoft 支持以下类型的多林混合方案：
 
 <a name="BKMK_Federation"> </a>
 
-在配置混合时，您必须确保您的内部部署和联机环境可以相互联盟。  默认情况下，联机环境具有开放联盟;默认情况下，内部部署环境通常具有关闭的联合身份验证。  
+配置 Skype for Business 混合模式时，必须确保您的内部部署和联机环境可以相互联盟。  默认情况下，联机环境具有开放联盟;默认情况下，内部部署环境通常具有关闭的联合身份验证。  
 
 若要成功配置混合部署，必须满足以下要求：
 
@@ -142,7 +141,7 @@ Microsoft 支持以下类型的多林混合方案：
 - DNS 设置
 - 防火墙注意事项
 
-### <a name="dns-settings"></a>DNS 设置
+### <a name="dns-settings-for-hybrid-deployments"></a>混合部署的 DNS 设置
 
 <a name="BKMK_DNS"> </a>
 
@@ -152,12 +151,12 @@ Microsoft 支持以下类型的多林混合方案：
 
 |DNS 记录  <br/> |可解析者  <br/> |DNS 要求  <br/> |
 |:-----|:-----|:-----|
-|_Sipfederationtls _tcp 的 DNS SRV 记录。\<sipdomain.com\> 对于所有受支持的 SIP 域，解析为访问边缘外部 IP (s)   <br/> |边缘服务器 (s)   <br/> |在混合配置中启用联合通信。 边缘服务器需要知道为在本地和联机之间拆分的 SIP 域路由联盟流量的位置。  <br/> 必须在用户名和 SRV 记录中使用域之间的严格 DNS 名称匹配。  <br/> |
+|_Tcp 的 DNS SRV 记录。 _sipfederationtls\<sipdomain.com\> 对于所有受支持的 SIP 域，解析为访问边缘外部 IP (s)   <br/> |边缘服务器 (s)   <br/> |在混合配置中启用联合通信。 边缘服务器需要知道为在本地和联机之间拆分的 SIP 域路由联盟流量的位置。  <br/> 必须在用户名和 SRV 记录中使用域之间的严格 DNS 名称匹配。  <br/> |
 |DNS A 记录 (s) 用于边缘 Web 会议服务 FQDN，例如，webcon.contoso.com 解析为 Web 会议边缘外部 IP (s)   <br/> |连接到用户计算机的内部公司网络  <br/> |使联机用户能够在本地托管会议中显示或查看内容。 内容包括 PowerPoint 文件、白板、投票和共享便笺。  <br/> |
 
 根据组织中配置 DNS 的方式，您可能需要将这些记录添加到内部托管的 DNS 区域，以供相应的 SIP 域 (s) ，以提供对这些记录的内部 DNS 解析。
 
-### <a name="firewall-considerations"></a>防火墙注意事项
+### <a name="firewall-considerations-for-hybrid-deployments"></a>混合部署的防火墙注意事项
 
 <a name="BKMK_Firewall"> </a>
 

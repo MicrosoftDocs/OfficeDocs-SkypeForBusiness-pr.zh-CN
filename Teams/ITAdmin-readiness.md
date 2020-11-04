@@ -19,12 +19,12 @@ ms.custom:
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: d6aee7356a682dcef8d052d450e6ae8809b4b20f
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48426927"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878366"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 团队的管理员培训入门
 
@@ -33,7 +33,7 @@ ms.locfileid: "48426927"
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
 | ![描述手形和向上箭头的图标](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [使用几个团队和频道快速入门](/MicrosoftTeams/get-started-with-teams-quick-start) | ![描述两个用户的图标](https://docs.microsoft.com/office/media/icons/users-people.png) | [获取用户培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![描述复选标记的图标](https://docs.microsoft.com/office/media/icons/success-teams.png) | [在 YouTube 上的云频道的咖啡中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![任务剪贴板符号](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30天内的团队： IT 管理员和更改管理负责人的培训系列，可在30天内实施团队](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+| ![描述复选标记的图标](https://docs.microsoft.com/office/media/icons/success-teams.png) | [在 YouTube 上的云频道的咖啡中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![任务剪贴板符号](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [粉笔粉笔团队：了解有关常见团队方案的最佳做法和实践指南](https://aka.ms/TeamsChalkTalks) |
 
 <h2>技术培训</h2>
 

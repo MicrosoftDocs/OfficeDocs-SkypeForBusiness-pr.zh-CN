@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 会议室
+title: Microsoft 团队虚拟会议室
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,13 +12,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: 部署 Microsoft 团队聊天室以及如何部署和管理系统的相关规划注意事项。
-ms.openlocfilehash: 4474d5f7c5e273fccc52e077907017c073e3a7b5
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+description: 了解如何设置 Microsoft 团队会议室，包括规划、部署和管理系统，以创建理想的虚拟会议室。
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: 3f2aba78baf1933f2f0104a8cadd568b685964fd
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405799"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878676"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 会议室
 

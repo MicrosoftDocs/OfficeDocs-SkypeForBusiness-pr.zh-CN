@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
 audience: admin
-description: Microsoft 团队的安全和合规性功能概述，包括审核和报告、合规性内容搜索、eDiscovery 等。
+description: Microsoft 团队安全和合规性功能概述，包括隐私和加密、审核和报告等。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,19 +18,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 - seo-marvel-apr2020
+- seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c4e8905eaa3f77dd3c92ac26411bf5e5ebd05bf
-ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
+ms.openlocfilehash: 29b01d7418a194233f3205502134645526351dc4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429348"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878486"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 团队中的安全和合规性
 
 > [!IMPORTANT]
-> 若要了解如何在 **COVID-19 病毒发作期间让所有人在家里工作**，请阅读以下文章：
+> 若要了解如何在 **COVID-19 病毒发作期间让所有人在家里工作** ，请阅读以下文章：
 >  - [安全团队为支持在家办公需完成的 12 大任务](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 >  - [使用 VPN 分离隧道为远程用户优化 Microsoft 365 或 Office 365 连接性](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - 已更新2020年4月2日： [团队安全指南](teams-security-guide.md)
@@ -135,7 +136,7 @@ Microsoft 团队中的数据丢失防护 (DLP) 以及 Microsoft 365 或 Office 3
 
 在诉讼期间，你可能需要与用户相关联的所有数据 (保管人) 或团队保留为不可变，以便它可以用作案例的证据。 你可以通过将 (用户放在用户邮箱) 或法律封存的团队中来执行此操作。 对于团队法律封存，可以将团队的邮箱置于以下保留状态：
 
-- 就地保留 (通过目标查询或筛选内容保留的邮箱或网站集的子集) 或
+- In-Place 通过目标查询或筛选内容保留 (的邮箱或网站集的子集) 或
 - 诉讼封存 (将整个邮箱或网站集置于保持状态) 。
 
 在任何一种情况下，设置保留后，它可确保即使最终用户删除或编辑组邮箱中的频道消息，也可通过电子数据展示搜索维护和提供该内容的不可变副本。 法律封存通常在电子数据展示事例的上下文中应用。
@@ -157,7 +158,11 @@ Microsoft 团队中的数据丢失防护 (DLP) 以及 Microsoft 365 或 Office 3
 
 ## <a name="privacy"></a>隐私
 
-在 Microsoft，保护您的数据是我们的最高优先级。 若要了解我们的隐私做法，请阅读 [Microsoft 的隐私](https://www.microsoft.com/trust-center/privacy)。
+在 Microsoft，保护您的数据是我们的最高优先级。 若要了解我们的隐私实践，请阅读：  
+
+- [Microsoft 的隐私](https://www.microsoft.com/trust-center/privacy)
+- [对 Microsoft 团队隐私和安全的承诺](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
+- [面向 IT 专业人士： Microsoft 团队中的隐私和安全](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
 
 ## <a name="information-protection-architecture"></a>信息保护体系结构
 
@@ -183,9 +188,9 @@ Microsoft 团队中的数据丢失防护 (DLP) 以及 Microsoft 365 或 Office 3
 
 ## <a name="location-of-data-in-teams"></a>Teams 中的数据的位置
 
-团队中的数据位于与 Microsoft 365 或 Office 365 组织相关联的地理区域中。 若要查看当前受支持的区域，请查看 [Microsoft 团队中数据的位置](location-of-data-in-teams.md)。
+Teams 中的数据位于与 Microsoft 365 或 Office 365 组织关联的地理区域中。 若要查看当前受支持的区域，请查看 [Microsoft 团队中数据的位置](location-of-data-in-teams.md)。
 
-如果需要查看哪个区域驻留你的租户的数据，请转到[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)  >  **设置**  >  **组织配置文件**。 向下滚动到“**数据位置**”。
+如果需要查看哪个区域驻留你的租户的数据，请转到 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)  >  **设置**  >  **组织配置文件** 。 向下滚动到 **数据位置** 。
 
 ![数据位置表的屏幕截图，其中包括管理中心中的团队](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

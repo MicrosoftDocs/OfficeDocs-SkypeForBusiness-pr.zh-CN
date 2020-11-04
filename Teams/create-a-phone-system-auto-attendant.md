@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试自动助理。
-ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48840411"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48878183"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -213,7 +213,7 @@ ms.locfileid: "48840411"
 
 不支持在通话计划中继和直接路由中继之间转移。
 
-在混合环境中，若要通过 Skype for Business PSTN 集成将自动助理呼叫转移到 PSTN，请使用设置为 PSTN 号码的呼叫转接来创建新的本地用户。 必须为用户启用企业语音并分配语音策略。 若要了解详细信息，请参阅 [自动助理呼叫转接到 PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
+在 Skype for business 混合环境中，若要将自动助理呼叫转移到 PSTN，请创建一个新的本地用户，并将呼叫转接设置为 PSTN 号码。 必须为用户启用企业语音并分配语音策略。 若要了解详细信息，请参阅 [自动助理呼叫转接到 PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>使用 PowerShell 创建自动助理
 
