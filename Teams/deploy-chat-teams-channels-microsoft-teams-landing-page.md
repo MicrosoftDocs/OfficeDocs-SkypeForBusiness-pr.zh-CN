@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 根据组织的配置文件和业务要求在 Microsoft Teams 中部署聊天、团队、频道和应用的分步指导。
+description: 包含有关在 Microsoft Teams 中配置聊天、团队、应用和频道的 Teams 设置的分步指南。
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+- seo-marvel-may2020
+ms.openlocfilehash: ac9c1d78c7960ebadfc590b87a6007286bc43209
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820506"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878526"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -80,7 +81,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 ### <a name="messaging-policies"></a>消息策略
 
-消息策略控制为 Teams 中的用户提供哪些聊天和频道消息功能。 例如，谁可以编辑和删除已发送的消息、谁可以使用聊天、谁可以在对话中使用 Meme，等等。 默认情况下，会为用户分配全局消息策略，所有功能均**开启**。 可以使用默认全局策略，或者为组织中的人员创建一个或多个自定义消息策略。 
+消息策略控制为 Teams 中的用户提供哪些聊天和频道消息功能。 例如，谁可以编辑和删除已发送的消息、谁可以使用聊天、谁可以在对话中使用 Meme，等等。 默认情况下，会为用户分配全局消息策略，所有功能均 **开启** 。 可以使用默认全局策略，或者为组织中的人员创建一个或多个自定义消息策略。 
 
 |询问你自己|操作 |
 |------------|-------|
@@ -91,7 +92,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 ### <a name="external-access"></a>外部访问
 
-利用外部访问功能（以前称为联合），你的 Teams 和 Skype for Business 用户可以与组织外部的用户通信。 通过启用此功能并将域添加到允许的列表，你的用户将能与其他域和组织中的用户通信。外部访问与来宾访问的不同之处在于，将为整个域（而不是个人）授予访问权限。 默认情况下会关闭外部访问。
+利用外部访问功能（以前称为联合），你的 Teams 和 Skype for Business 用户可以与组织外部的用户通信。 通过启用此功能并将域添加到允许的列表，你的用户将能与其他域和组织中的用户通信。 外部访问与来宾访问的不同之处在于，将为整个域（而不是个人）授予访问权限。 默认情况下会关闭外部访问。
 
 |询问你自己|操作 |
 |------------|-------|
@@ -114,7 +115,7 @@ Teams 中的来宾访问可让组织外部的个人访问团队和频道。 可�
 
 ### <a name="teams-settings"></a>Teams 设置
 
-Teams 设置允许你针对诸如电子邮件集成、云存储选项、组织选项卡、会议室设备设置和搜索范围等功能设置团队。 更改这些设置时，所做更改将应用于组织中的所有团队。若要了解详细信息，请参阅 [Teams 设置](enable-features-office-365.md#teams-settings)。
+Teams 设置允许你针对诸如电子邮件集成、云存储选项、组织选项卡、会议室设备设置和搜索范围等功能设置团队。 更改这些设置时，所做更改将应用于组织中的所有团队。 若要了解详细信息，请参阅 [Teams 设置](enable-features-office-365.md#teams-settings)。
 
 |询问你自己|操作 |
 |------------|-------|
@@ -123,7 +124,7 @@ Teams 设置允许你针对诸如电子邮件集成、云存储选项、组织�
 
 ### <a name="teams-clients"></a>Teams 客户端
 
-Teams 支持从 Web 到桌面直至移动客户端的多种客户端，默认配置允许用户选择所需的任一客户端。若要了解详细信息，请参阅[获取 Teams 客户端](get-clients.md)。
+Teams 支持从 Web 到桌面直至移动客户端的多种客户端，默认配置允许用户选择所需的任一客户端。 若要了解详细信息，请参阅[获取 Teams 客户端](get-clients.md)。
 
 |询问你自己|操作 |
 |------------|-------|
@@ -199,7 +200,7 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。 �
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 应用程序策略（侧边栏控制）
 
-固定的应用显示在 Teams 的侧边栏中。 通过创建 Teams 应用程序策略，你可以预先配置一组固定的 Teams 应用，以便针对经过挑选的用户组个性化 Teams。 默认情况下，“**在 Microsoft Teams 中允许外部应用**”设置处于启用状态。
+固定的应用显示在 Teams 的侧边栏中。 通过创建 Teams 应用程序策略，你可以预先配置一组固定的 Teams 应用，以便针对经过挑选的用户组个性化 Teams。 默认情况下，“ **在 Microsoft Teams 中允许外部应用** ”设置处于启用状态。
 
 | 询问你自己 | 操作 |
 |--------------|--------|
@@ -209,7 +210,7 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。 �
 
 ### <a name="archiving-and-compliance"></a>存档与合规性 
 
-你的组织可能要求你对团队的存档方式以及某些类型的团队中包含的数据类型加以控制。 请阅读 [Teams 中的的安全性和合规性概述](security-compliance-overview.md)，了解哪些设置默认情况下已启用。
+你的组织可能要求你对团队的存档方式以及某些类型的团队中包含的数据类型加以控制。 请阅读 [Teams 中的安全性和合规性概述](security-compliance-overview.md)，了解哪些 Teams 设置默认情况下已启用。
 
 | 询问你自己 | 操作 |
 |--------------|--------|

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 管理员培训
 ms.reviewer: ''
-description: 这些最终用户、管理员和讲师指导培训资源可帮助你充分利用组织中的 Microsoft Teams。
+description: 这些最终用户、管理员和讲师指导培训资源和教程视频可帮助你在组织中充分利用 Microsoft Teams。
 ms.topic: overview
 author: msdmaguire
 ms.author: dmaguire
@@ -18,12 +18,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: f1215838081d6cab919999b7ccd91d061ce87321
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336971"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878346"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 

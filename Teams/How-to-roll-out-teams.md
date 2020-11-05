@@ -1,7 +1,7 @@
 ---
 title: 如何部署 Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,19 +19,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 - seo-marvel-mar2020
+- seo-marvel-may2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 761f94e34afacb487ac9ce85f5da36d4ca6b866a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 06c4ad76b8a10e25f4efe0105fbee59cbfa53a30
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637911"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878686"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>如何部署 Microsoft Teams
 
 ## <a name="start-here"></a>从这里开始
-不管是小型企业还是跨国企业，都可以通过[入门](get-started-with-teams-quick-start.md)来开始部署 Teams。 它将指导你小规模地部署 Teams，如果你是一家小型企业，或者要快速部署 Teams 作为你的第一个 Microsoft 365 或 Office 365 工作负载以支持**远程工作者**，那么你可能只需这样做即可。 如果是较大的组织，请使用[入门](get-started-with-teams-quick-start.md)让一小部分早期采用者试用 Teams，以便能够了解 Teams，并开始规划在组织范围内部署。 
+不管是小型企业还是跨国企业，都可以通过[入门](get-started-with-teams-quick-start.md)来开始部署 Teams。 它将指导你小规模地部署 Teams，如果你是一家小型企业，或者要快速部署 Teams 作为你的第一个 Microsoft 365 或 Office 365 工作负载以支持 **远程工作者** ，那么你可能只需这样做即可。 如果是较大的组织，请使用[入门](get-started-with-teams-quick-start.md)让一小部分早期采用者试用 Teams，以便能够了解 Teams，并开始规划在组织范围内部署。 
 
 ## <a name="recommended-path-to-teams"></a>建议的 Teams 部署途径
 

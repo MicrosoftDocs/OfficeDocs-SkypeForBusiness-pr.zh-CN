@@ -1,7 +1,7 @@
 ---
 title: 管理员快速入门 - Microsoft Teams 中的会议和实时事件
 ms.reviewer: ''
-description: Microsoft Teams 中的会议和实时事件快速入门。
+description: 管理员快速入门指南，介绍如何为 Microsoft Teams 获取许可证、在其中部署和配置在线会议和实时事件。
 ms.topic: article
 author: SerdarSoysal
 ms.author: serdars
@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 4a825518748ec4c755b966f43a27027779bc69ea
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739390"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878656"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理员快速入门 - Microsoft Teams 中的会议和实时事件
 
@@ -31,13 +31,13 @@ ms.locfileid: "48739390"
 > [!Note]
 > 有关在不同平台上快速配置 Teams 会议和事件的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
- - Teams 中的**会议**包括音频、视频和屏幕共享，最多可容纳 300 人。 它们是在 Teams 中进行协作的关键方式之一。 而且，你无需成为组织成员（甚至无需拥有 Teams 帐户！）即可参加 Teams 会议，只需查看邀请中有关呼叫的说明即可。
+ - Teams 中的 **会议** 包括音频、视频和屏幕共享，最多可容纳 300 人。 它们是在 Teams 中进行协作的关键方式之一。 而且，你无需成为组织成员（甚至无需拥有 Teams 帐户！）即可参加 Teams 会议，只需查看邀请中有关呼叫的说明即可。
 
- - **实时事件**是 Teams 会议的扩展，使你能够安排和制作流向大型在线受众（最多 10,000 人）的事件。 如果你需要召开超过 300 人的会议，请使用实时事件。
+ - **实时事件** 是 Teams 会议的扩展，使你能够安排和制作流向大型在线受众（最多 10,000 人）的事件。 如果你需要召开超过 300 人的会议，请使用实时事件。
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>获取会议和实时事件的许可证
 
-任何人都可以免费参加 Teams 会议或公共实时事件，无需许可证。 与会者可通过单击 Teams 或会议邀请中的“**加入**”按钮来参加 Teams 会议或实时事件。 会议音频是 Teams 会议的一部分，但如果你希望其他人可以通过电话拨入会议，则需要提供拨入号码。
+任何人都可以免费参加 Teams 会议或公共实时事件，无需许可证。 与会者可通过单击 Teams 或会议邀请中的“ **加入** ”按钮来参加 Teams 会议或实时事件。 会议音频是 Teams 会议的一部分，但如果你希望其他人可以通过电话拨入会议，则需要提供拨入号码。
 
 对于将组织、安排和主持会议或实时事件的人员，他们将需要下表中列出的其中一个 Microsoft 365 或 Office 365 许可证。 如果你已在使用 Teams，那么你可能拥有组织和主持会议和实时事件所需的许可证。
 
@@ -45,13 +45,13 @@ ms.locfileid: "48739390"
 
 > <sup>1</sup>  会议组织者需要具有[音频会议附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)才能发送包含拨入式会议的邀请。
 >
-> <sup>2</sup>  会议拨出至[**拨打**号码](set-up-the-call-me-feature-for-your-users.md)呼叫我要求组织者拥有 E5 或 [音频会议加载项许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 可能还需要[拨号计划](what-are-dial-plans.md)。
+> <sup>2</sup>  会议拨出至 [**拨打** 号码](set-up-the-call-me-feature-for-your-users.md)呼叫我要求组织者拥有 E5 或 [音频会议加载项许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 可能还需要[拨号计划](what-are-dial-plans.md)。
 
 若要了解有关许可的详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="make-sure-your-networks-ready"></a>请确保网络已准备就绪
 
-如果你在推出 Microsoft 365 或 Office 365 时已准备好网络，则可能已准备就绪。 无论是哪种情况，尤其是如果你要快速推出 Teams 作为你的第一个 Office 365 工作负载以支持**远程工作者** - 请阅读[准备适用于 Teams 的组织网络](prepare-network.md)，以确保一切就绪。
+如果你在推出 Microsoft 365 或 Office 365 时已准备好网络，则可能已准备就绪。 无论是哪种情况，尤其是如果你要快速推出 Teams 作为你的第一个 Office 365 工作负载以支持 **远程工作者** - 请阅读 [准备适用于 Teams 的组织网络](prepare-network.md)，以确保一切就绪。
 
 ## <a name="meetings-and-conferencing"></a>会话和电话会议
 

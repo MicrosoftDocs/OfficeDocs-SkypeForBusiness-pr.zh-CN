@@ -17,12 +17,12 @@ description: 了解 Microsoft Teams 中的公共预览版。 试用新功能并�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a13e5499cb00d95d685b493db1365e9dc08ff43f
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: a2b06c58396db0e8fdb976037696b7a782d581cd
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816216"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852183"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 
@@ -48,8 +48,8 @@ Microsoft Teams 的公共预览版可让用户抢先体验 Teams 中的未发布
 若要在桌面或 Web 客户端上启用公共预览版，你需要执行以下任务：
 
 1. 选择你的个人资料以显示 Teams 菜单。
-2. 选择“ **关于** ”→“ **开发人员预览版** ”。
-3. 选择“ **切换到开发人员预览版** ”。
+2. 选择“ **关于** ”→“ **公共预览版** ”。
+3. 选择“ **切换到公共预览版** ”。
 
 ## <a name="related-topics"></a>相关主题
 

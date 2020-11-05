@@ -14,15 +14,16 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Microsoft 365 商业语音的概述，并介绍它如何帮助中小型企业更高效地沟通。
+description: Microsoft 365 商务语音是用于语音呼叫的廉价选项，使中小型企业可以更有效地进行通信。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0c05df37c54fb63b885c4e67fda36a1f000b92f
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: d94af2d1e02f7d0443436189466fdb4976f912a2
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170611"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878596"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什么是 Microsoft 365 商务语音？
 
@@ -79,3 +80,4 @@ ms.locfileid: "45170611"
 </table>
 
 可通过访问 [Microsoft 365 商务语音服务说明](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)，查看商务语音中包含的所有内容。
+
