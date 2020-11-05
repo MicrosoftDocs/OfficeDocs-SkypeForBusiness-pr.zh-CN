@@ -258,6 +258,7 @@
 ### 参考
 #### [音频会议支持的语言](audio-conferencing-supported-languages.md)
 #### [音频会议电话号码](phone-numbers-for-audio-conferencing-in-teams.md)
+#### [音频会议的国家和地区划分](audio-conferencing-zones.md)
 #### [Teams 中的视频 - 音频会议](audio-conferencing-videos.md)
 
 
@@ -681,9 +682,9 @@
 ## 适用于医疗保健业的 Teams
 ### [适用于医疗保健组织的 Teams 入门](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### 虚拟访问
-#### [与 Teams 进行虚拟访问 - 集成到 EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
+#### [通过 Teams 进行虚拟访问 - 集成到 EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
 #### [通过 Bookings 和 Teams 进行虚拟访问](bookings-app-admin.md)
-### [创建 Teams 策略包](policy-packages-healthcare.md)
+### [查看和分配策略包](policy-packages-healthcare.md)
 ### 安全消息传递
 #### [安全消息传递](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [消息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -930,7 +931,6 @@
 ### [Finland（芬兰）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
 ### [France（法国）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
 ### [格鲁吉亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-### [加纳](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Germany（德国）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
 ### [加纳](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [希腊](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
