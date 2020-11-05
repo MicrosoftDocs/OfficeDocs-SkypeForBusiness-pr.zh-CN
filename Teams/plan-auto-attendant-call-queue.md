@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和通话队列以及如何使用它们帮助呼叫者在菜单系统中移动以联系组织中的人员或部门。
-ms.openlocfilehash: 7407b9a2bbcd8d8b3fb5d15202d1bba518953f07
-ms.sourcegitcommit: 6c24c77f0aad693d45dd5657c12bf876f62c495b
+ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2020
-ms.locfileid: "48765939"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908601"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划团队自动助理和通话队列
 
@@ -70,11 +70,21 @@ ms.locfileid: "48765939"
 
 - 每个自动助理和每个通话队列的资源帐户
 - 免费电话系统-每个资源帐户的虚拟用户许可证
-- 要直接拨打的每个自动助理或呼叫队列的服务编号
-- 将接收呼叫队列呼叫的每个人的通话计划
+- 您希望直接拨出的每个资源帐户至少有一个 [Microsoft 服务号码](getting-service-phone-numbers.md)、直接路由号码或混合号码
+ - 服务号码可能是收费或免费电话号码
+
+从通话队列接收呼叫的工程师必须是联机或本地用户启用的企业语音。 
+
+如果你的代理正在使用 Microsoft 团队应用进行呼叫队列呼叫，则他们必须处于 TeamsOnly 模式。
+
+将呼叫转移到外部电话号码时，执行传输 (（即与自动助理或呼叫) 队列关联的资源帐户）必须具有电话号码和 Microsoft 365 电话系统虚拟用户许可证。 进一步
+
+- 对于带有呼叫计划编号的资源帐户，请分配 [呼叫计划](calling-plans-for-office-365.md) 许可证。
+- 对于具有直接路由号码的资源帐户，请分配 [联机语音路由策略](manage-voice-routing-policies.md)。
 
 > [!NOTE]
-> 只有 Microsoft 团队用户和呼叫代理才支持自动助理和呼叫队列的直接路由服务号码。
+> 只有 Microsoft 团队用户和呼叫代理才支持自动助理和呼叫队列的直接路由服务号码。<br>
+> 不支持在通话计划中继和直接路由中继之间转移。
 
 ## <a name="business-decisions"></a>业务决策
 
@@ -180,18 +190,6 @@ ms.locfileid: "48765939"
 - 首先描述服务，然后选择按 (的选项：对于销售额按 1) ，而不是 (例如的其他方式。 按1查看销售) 。
 - 您的呼叫方将理解的用户术语，而不是您内部可能使用的内容。
 - 避免频繁更新呼叫路由。 如果将来更改自动助理的菜单选项，请在 "语音提示" 中拨出前30天。
-
-## <a name="resource-accounts-and-phone-numbers"></a>资源帐户和电话号码
-
-团队使用 *[资源帐户](manage-resource-accounts.md)* 连接自动助理和呼叫队列，并根据需要为其分配电话号码。
-
-- 每个通话队列和自动助理都需要至少一个资源帐户。
-- 每个资源帐户都需要一个免费的电话系统-虚拟用户许可证。
-- 可以选择为资源帐户分配一个或多个服务号码。  (这是将电话号码分配给自动助理和呼叫队列的方式。 ) 
-
-您可以为资源帐户分配 [Microsoft 服务号码](getting-service-phone-numbers.md)、直接路由号码或混合号码。
-
-您可以使用收费电话或免费服务号码。 您不能将用户电话号码用于自动助理或呼叫队列。
 
 ## <a name="getting-started"></a>入门
 

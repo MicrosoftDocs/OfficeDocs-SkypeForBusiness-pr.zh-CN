@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解团队中的自动助理和通话队列拨号和语音识别选项。
-ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: b63235409418f7ff05b8d34973d2390e6b18df36
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818802"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908701"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自动助理和通话队列拨号和语音识别参考
 
@@ -78,7 +78,7 @@ ms.locfileid: "48818802"
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>按名字拨叫 - 使用语音识别姓名
 
-用户可以通过语音 (语音识别) 搜索其组织中的其他人。 他们还可以通过说出用户正在尝试查找的人员的姓名，与 Active Directory 中的任何人联系。 使用语音输入可以识别各种格式的名称，包括 "名字"、"姓氏"、"名字"、"姓氏" 或 "姓氏 + 名字"。
+用户可以通过语音 (语音识别) 搜索其组织中的其他人。 他们还可以通过说出您想要查找的人员的全名或部分名称，与 Active Directory 中的任何人联系。 使用语音输入可以识别各种格式的名称，包括 "名字"、"姓氏"、"名字"、"姓氏" 或 "姓氏 + 名字"。
   
 你可以启用自动助理的语音识别，但电话键盘条目 (DTMF) 不会禁用。 即使自动助理上已启用语音识别，也可以随时使用电话键盘条目。
   
@@ -92,6 +92,9 @@ ms.locfileid: "48818802"
 |姓氏 + 名字 |完整  |Marble Amos |Amos Marble |
 |名 |完整 |Amos |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Amos Jones |
 |姓名 |完整 |Marble |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Ben Marble |
+|名字或姓氏 |部分 |年 |对 Mary 大理石按下或说出1  <br/> 按或说 "2" 表示 "张薇"  <br/> 对 Amos Marcus 按下或说出3 |
+|名字 + 姓氏 |部分 |Amos 三月 |按或报 1 选择 Amos Marble  <br/> 按下或说 Amos Marcus 的2 |
+
 
 > [!NOTE]
 > 由于 Active Directory 复制延迟，新用户可能需要长达36小时才能将其名称列在目录中，以便通过语音识别按名称进行拨号。

@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 了解如何在通话质量仪表板中上载租户和构建数据 (CQD) 。
-ms.openlocfilehash: 37499cf2715a3cabb05ab5039a19190190253b07
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 50a059f78a2d719d5d9106a755dbcf6ac8044d1b
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897832"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908691"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>在通话质量仪表板中上载租户和构建数据 (CQD) 
 
@@ -35,9 +35,9 @@ ms.locfileid: "46897832"
 
 你可以 [在此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)下载示例租户数据模板。 有关生成映射的帮助，请参阅为 [CQD 创建构建地图](CQD-building-mapping.md)。
 
-在 "CQD 摘要报告" 仪表板中，从 "CQD**设置**" 菜单中选择 "**租户数据上传**"， (位于 CQD ") 顶部的齿轮图标。 在此，管理员可以上载其组织的建筑物和终结点信息，例如 IP 地址和地理信息的映射、映射每个无线访问点及其 MAC 地址等。
+在 "CQD 摘要报告" 仪表板中，从 "CQD **设置** " 菜单中选择 " **租户数据上传** "， (位于 CQD ") 顶部的齿轮图标。 在此，管理员可以上载其组织的建筑物和终结点信息，例如 IP 地址和地理信息的映射、映射每个无线访问点及其 MAC 地址等。
 
-1. 从团队管理中心打开 CQD (，或在) 中 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) ，选择右上角的齿轮图标，然后从 "**摘要报告**" 页面中选择 "**租户数据上传**"。
+1. 从团队管理中心打开 CQD (，或在) 中 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) ，选择右上角的齿轮图标，然后从 " **摘要报告** " 页面中选择 " **租户数据上传** "。
 
    ![在上载数据时出现的对话框的屏幕截图](media/qerguide-image-tenantdataupload.png)
     
@@ -49,7 +49,7 @@ ms.locfileid: "46897832"
 
 4. 选择数据文件后，指定 " **开始日期** "，（可选）指定结束日期。
 
-5. 选择 " **开始日期**" 后，选择 " **上传** " 将文件上传到 CQD。 <br><br>在上载文件之前，它将经过验证。 如果验证失败，则会显示一条错误消息，要求你更正该文件。 下图显示了当数据文件中的列数不正确时出现的错误。
+5. 选择 " **开始日期** " 后，选择 " **上传** " 将文件上传到 CQD。 <br><br>在上载文件之前，它将经过验证。 如果验证失败，则会显示一条错误消息，要求你更正该文件。 下图显示了当数据文件中的列数不正确时出现的错误。
 
    ![显示生成数据上载错误的对话框示例](media/qerguide-image-buildingdatauploaderror.png)
  
@@ -111,7 +111,7 @@ CQD 中的第一种类型的租户数据文件是 **生成** 数据文件。 通
 
 ### <a name="supernetting"></a>Supernetting
 
-你可以使用 supernetting，通常称为无类别的域间路由 (CIDR，) 代替定义每个子网。 *Supernet*是共享单个路由前缀的若干子网的组合。 你可以使用 supernetted 地址，而不是为每个子网添加条目。 支持 Supernetting，但我们不建议使用它。
+你可以使用 supernetting （通常称为无类别 Inter-Domain 路由 (CIDR），) 代替定义每个子网。 *Supernet* 是共享单个路由前缀的若干子网的组合。 你可以使用 supernetted 地址，而不是为每个子网添加条目。 支持 Supernetting，但我们不建议使用它。
 
 例如，Contoso 的市场营销大楼由以下子网组成：
 
@@ -161,7 +161,7 @@ CQD 中的第一种类型的租户数据文件是 **生成** 数据文件。 通
 
 - 数据文件的内容不包含表格标题。 数据文件的第一行应为真实数据，而不是标题标签（如 "终结点"）。
 
-- 所有六列仅使用字符串数据类型。 允许的最大长度为64个字符。
+- 所有七列仅使用字符串数据类型。 允许的最大长度为64个字符。
 
 - 数据字段可以为空，但仍须由制表符或逗号分隔。 空数据字段只是分配一个空字符串值。
 
@@ -169,15 +169,15 @@ CQD 中的第一种类型的租户数据文件是 **生成** 数据文件。 通
 
 - EndpointLabel1、EndpointLabel2 和 EndpointLabel3 是可自定义的标签。 它们可以是空字符串或值，如 "IT 部门指定的2018膝上型计算机" 或 "资产标签 5678"。
 
-- 每行必须有六列，并且列必须按以下顺序排列：
+- 每行必须有七列，并且列必须按以下顺序排列：
 
   **字段顺序：**
 
-  终结点、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
+  终结点、EndpointMake、EndpointModel、EndpointType、EndpointLabel1、EndpointLabel2、EndpointLabel3
 
   **示例行：**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
 
 ## <a name="update-a-building-file"></a>更新生成文件
@@ -203,7 +203,7 @@ CQD 中的第一种类型的租户数据文件是 **生成** 数据文件。 通
 
 ## <a name="add-missing-subnets"></a>添加缺少的子网
 
-在上载托管网络的生成信息后，每个托管网络都应具有一个建筑物关联。 但是，这并不总是这样。通常，缺少几个子网。 若要查找这些缺少的网络，请查看 CQD 中的 "**体验质量报告**" 页面上**缺少的子网报告**。 这将显示包含10个或更多音频流的所有子网，这些流在建筑物数据文件中未定义且标记为外部。 确保此列表中没有托管网络。 如果缺少子网，请使用以下过程更新原始生成数据文件，并将其重新上载到 CQD。
+在上载托管网络的生成信息后，每个托管网络都应具有一个建筑物关联。 但是，这并不总是这样。通常，缺少几个子网。 若要查找这些缺少的网络，请查看 CQD 中的 " **体验质量报告** " 页面上 **缺少的子网报告** 。 这将显示包含10个或更多音频流的所有子网，这些流在建筑物数据文件中未定义且标记为外部。 确保此列表中没有托管网络。 如果缺少子网，请使用以下过程更新原始生成数据文件，并将其重新上载到 CQD。
 
 1. 转到 CQD 中的 **租户数据上传** 页面。
 
@@ -220,7 +220,7 @@ CQD 中的第一种类型的租户数据文件是 **生成** 数据文件。 通
 > 你需要将租户 ID 作为 **第二租户 id** 的查询筛选器添加到此报表，以筛选报表以仅查看你的组织的租户数据。 否则，报表将显示联合子网。
 
 > [!NOTE] 
-> 请确保将 "月" 报表筛选器调整为当前月份。 选择 " **编辑**"，然后调整 " **月** " 报表筛选器以保存新的默认月份。
+> 请确保将 "月" 报表筛选器调整为当前月份。 选择 " **编辑** "，然后调整 " **月** " 报表筛选器以保存新的默认月份。
 
 
 ## <a name="related-topics"></a>相关主题

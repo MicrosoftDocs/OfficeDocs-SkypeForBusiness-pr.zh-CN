@@ -18,21 +18,21 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
-ms.openlocfilehash: e74152bc61bdf0bb793338b50ddcd5da62e9b2d0
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 1040d548140d0fbb781e9cc9296be3d374b7b314
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346183"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48918984"
 ---
 # <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 
 为了满足组织的要求，您可以通过四种不同的授权级别管理团队来宾访问功能和功能。 所有授权级别均适用于您的 Microsoft 365 组织。 每个授权级别按如下所示控制来宾体验：
 
-- **Azure Active Directory**：团队中的来宾访问依赖于 Azure AD 企业到企业 (B2B) 平台。 此授权级别控制目录、租户和应用程序级别的来宾体验。
-- **团队**：仅在团队中控制来宾体验。
-- **Microsoft 365 组**：控制 Microsoft 365 组和团队中的来宾体验。
-- **Sharepoint 和 onedrive**：控制 SharePoint、OneDrive、Microsoft 365 组和团队中的来宾体验。
+- **Azure Active Directory** ：团队中的来宾访问依赖于 Azure AD 企业到企业 (B2B) 平台。 此授权级别控制目录、租户和应用程序级别的来宾体验。
+- **团队** ：仅在团队中控制来宾体验。
+- **Microsoft 365 组** ：控制 Microsoft 365 组和团队中的来宾体验。
+- **Sharepoint 和 onedrive** ：控制 SharePoint、OneDrive、Microsoft 365 组和团队中的来宾体验。
 
 这些不同的授权级别可让你灵活选择为组织设置来宾访问的方式。 例如，如果你不想允许团队中的来宾用户，但想要允许组织在你的组织中整体，只需关闭团队中的来宾访问。 另一个示例：您可以在 Azure AD、团队和组级别启用来宾访问，但随后 [禁用与一个或多个条件匹配的选定团队的来宾用户，如数据分类等于机密](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。 SharePoint 和 OneDrive 具有自己的不依赖于 Microsoft 365 组的来宾访问设置。
 
@@ -43,11 +43,13 @@ ms.locfileid: "48346183"
 
 下图显示了如何在 Azure Active Directory、团队和 Microsoft 365 之间授予和集成来宾访问授权相关性。
 
-![用于来宾访问的授权相关性示意图。](media/teams_dependencies_image1.png)
+> [!div class="mx-imgBorder"]
+> ![用于来宾访问的授权相关性示意图。](media/teams_dependencies_image1.png)
 
 下一张示意图概括性地显示了用户体验如何通过典型的来宾访问邀请和兑换流程与权限模型结合使用。
 
-![显示邀请和兑换流程的示意图](media/authorize-guest-image1.png)
+> [!div class="mx-imgBorder"]
+> ![显示邀请和兑换流程的示意图](media/authorize-guest-image1.png)
 
 请务必注意，应用、bot 和连接器可能需要自己的一组特定于用户帐户的权限和/或同意。 这些可能需要单独授予。 同样，SharePoint 可能针对特定用户、用户组，甚至在站点级别设置了额外的外部共享界限。
 
@@ -63,11 +65,9 @@ Azure AD 包含用于配置外部用户的以下设置：
 
 - [来宾用户访问限制](https://docs.microsoft.com/azure/active-directory/users-groups-roles/users-restrict-guest-permissions)
 
-- **管理员和具有“来宾邀请者”角色的用户可以邀请**：“**是**”表示管理员和具有“来宾邀请者”角色的用户将能够邀请来宾加入租户。 “**否**”表示管理员和用户不可邀请来宾加入租户。
-- **成员可邀请**：要允许目录的非管理员成员邀请来宾，请将此策略设置为**是**（建议设置）。 如果你希望仅管理员能够添加来宾，可以将此策略设置为**否**。 请记住，设置为**否**将会限制非管理员团队所有者的来宾体验；他们只能向管理员已在 AAD 中添加的团队添加来宾。
-- **来宾可邀请**：“**是**”表示目录中的来宾可邀请其他来宾协作处理受到 Azure AD 保护的资源，例如 SharePoint 网站或 Azure 资源。 “**否**”表示来宾不可邀请其他来宾与你的组织协作。
-    > [!IMPORTANT]
-    > 目前，Teams 不支持来宾邀请者角色，因此即使你将“**来宾可邀请**”设置为“**是**”，来宾也不能邀请 Teams 中的其他来宾。
+- **管理员和具有“来宾邀请者”角色的用户可以邀请** ：“ **是** ”表示管理员和具有“来宾邀请者”角色的用户将能够邀请来宾加入租户。 “ **否** ”表示管理员和用户不可邀请来宾加入租户。
+- **成员可邀请** ：要允许目录的非管理员成员邀请来宾，请将此策略设置为 **是** （建议设置）。 如果你希望仅管理员能够添加来宾，可以将此策略设置为 **否** 。 请记住，设置为 **否** 将会限制非管理员团队所有者的来宾体验；他们只能向管理员已在 AAD 中添加的团队添加来宾。
+- **来宾可邀请** ：“ **是** ”表示目录中的来宾可邀请其他来宾协作处理受到 Azure AD 保护的资源，例如 SharePoint 网站或 Azure 资源。 “ **否** ”表示来宾不可邀请其他来宾与你的组织协作。 即使设置为 **"是"** ，来宾也无法邀请团队中的其他来宾。
  
 有关控制哪些人可以邀请来宾的详细信息，请参阅 [启用 B2B 外部协作和管理可邀请来宾的人员](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 

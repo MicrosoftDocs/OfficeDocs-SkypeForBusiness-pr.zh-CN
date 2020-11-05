@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: 了解 microsoft 团队中 Microsoft 365 或 Office 365 通话计划和 Office 365 音频会议的免费拨出期。
-ms.openlocfilehash: 842e496b242237bfc67b1adead73afd0a3653ddd
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 112283bc971c1dbfd3ddd4a7baefa02eba693179
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739250"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908501"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
@@ -44,76 +44,29 @@ ms.locfileid: "48739250"
 
 ### <a name="complimentary-dial-out-period-details"></a>免费拨出期的详细信息
 
-对于采用 Microsoft 365 或 Office 365 音频会议服务的客户，Microsoft 将提供与通过用户分配的 Microsoft 365 或 Office 365 音频会议订阅许可证通过11月2019组织的会议相关的额外优惠优势。 在此免费试用期内，Microsoft 允许会议组织者或已授权的与会者在会议策略设置中定义，以便从会议内部拨出电话到以下列出的 44 "区域 A" 中的非高级电话号码。 此优势适用于每月套餐的音频会议许可证，并且不会延长到音频会议每分钟付费许可证。
+对于采用 Microsoft 365 或 Office 365 音频会议服务的客户，Microsoft 将提供与通过用户分配的 Microsoft 365 或 Office 365 音频会议订阅许可证通过11月2019组织的会议相关的额外优惠优势。 在此免费试用期内，Microsoft 允许会议组织者或已授权的与会者在会议策略设置中定义，以便从会议内部拨出电话到 44  [区域](audio-conferencing-zones.md)中的非高级电话号码。 此优势适用于每月套餐的音频会议许可证，并且不会延长到音频会议每分钟付费许可证。
 
 此外，在拨出期内有900分钟上限限制，如下所示：
 
-使用许可证使用位置的用户 (这是在 Microsoft 365 管理中心的 "授权" 区域中定义的用户国家/地区的位置，在任何国家/地区的 "Microsoft) 管理中心" 的 "授权" 区域中，您可以从电话会议拨出任何国家和地区的44区域。 每个用户每月在租户级别共用的国家和地区每个用户收到900分钟。 例如，客户购买了115音频会议套餐，有10名用户，在美国，英国和5名用户中的100用户均已分配给其用户的音频会议订阅许可证。
+使用许可证使用位置的用户 (这是在 Microsoft 365 管理中心的 "授权" 区域中定义的用户国家/地区的位置，在任何国家/地区的 "Microsoft) 管理中心" 的 "授权" 区域中，您可以从电话会议拨出任何国家 [和地区](audio-conferencing-zones.md)的44区域。 每个用户每月在租户级别共 [用的国家和地区](audio-conferencing-zones.md) 每个用户收到900分钟。 例如，客户购买了115音频会议套餐，有10名用户，在美国，英国和5名用户中的100用户均已分配给其用户的音频会议订阅许可证。
 
 > [!NOTE]
 > 池大小基于分配的许可证，而不是已购买的许可证。
  
-- 所有115用户共享一个 (115 用户的池 X 900 最小) = 每个日历月的103500会议拨出分钟数，可用于将出站呼叫置于国家和地区的任何区域。
+- 所有115用户共享一个 (115 用户的池 X 900 最小) = 每个日历月的103500会议拨出分钟数，可用于将出站呼叫置于 [国家和地区](audio-conferencing-zones.md)的任何区域。
 - 每个日历月超过103500分钟的所有通话均按分钟计费，使用通信信用点数按我们的已发布费率传输到目标。  (注意：租户必须设置通讯信用点数，并将通讯信用许可证分配给会议组织者) 。
-- 对不在区域中的目标的所有出站呼叫均按分钟计费，使用通讯信用点数以我们的发布费率发送到该目标 (提供的租户已设置通讯信用点数，并为会议组织者) 分配了通讯信用许可证。
+- 对不在 [区域](audio-conferencing-zones.md) 中的目标的所有出站呼叫均按分钟计费，使用通信信用点数以我们的发布费率发送到该目标 (提供的租户已设置通讯信用点数，并为会议组织者) 分配通讯信用许可证。
 
 > [!NOTE]
-> 你可以在 Skype for business 管理中心内监视拨出分钟池的使用情况。 在 "Microsoft 团队 & Skype 管理中心" 中，转到**旧版门户**  >  **报告**  >  **PSTN 分钟池**。 此免费的分钟数池将在报告中标记为 "对国家和地区进行出站通话"。
+> 你可以在 Skype for business 管理中心内监视拨出分钟池的使用情况。 在 "Microsoft 团队 & Skype 管理中心" 中，转到 **旧版门户**  >  **报告**  >  **PSTN 分钟池** 。 此免费的分钟数池将在报告中标记为 "对国家和地区进行出站通话"。
 
 当租户的拨出分钟池利用率达到80% 和100% 时，将向给定客户的所有租户管理员发送电子邮件通知。
 
-对于每分钟计费的拨出呼叫 (呼叫超过租户拨出分钟池，或未在 "国家和地区") 列表的区域中调用目的地时，通话及其相关费率主要基于呼叫目的地，而不是组织者或发起拨出呼叫的参与者的国家或地区。 例如，如果由美国的会议参与者或在法国的会议参与者发起电话，则对法国电话号码的通话将以相同费率计费。
+对于每分钟计费的拨出呼叫 (呼叫超过租户拨出分钟池，或未在 [区域中的 "国家和地区](audio-conferencing-zones.md) ") 列表中调用目的地时，通话及其相关费率主要基于呼叫目的地，而不是由组织者或参与者发起拨出呼叫的国家或地区。 例如，如果由美国的会议参与者或在法国的会议参与者发起电话，则对法国电话号码的通话将以相同费率计费。
 
 有关通讯信用点数的其他信息，请参阅 [通讯信用点数](what-are-communications-credits.md)。
-
-**对国家和地区进行分区**
-
-|该国    |
-|-----|
-|澳大利亚  <br/> |
-|奥地利  <br/> |
-|比利时  <br/> |
-|巴西  <br/> |
-|保加利亚  <br/> |
-|加拿大  <br/> |
-|中国  <br/> |
-|克罗地亚  <br/> |
-|捷克共和国  <br/> |
-|丹麦  <br/> |
-|爱沙尼亚  <br/> |
-|芬兰  <br/> |
-|法国  <br/> |
-|德国  <br/> |
-|希腊  <br/> |
-|香港特别行政区  <br/> |
-|匈牙利  <br/> |
-|印度  <br/> |
-|爱尔兰  <br/> |
-|意大利  <br/> |
-|日本  <br/> |
-|卢森堡  <br/> |
-|马来西亚  <br/> |
-|墨西哥  <br/> |
-|荷兰  <br/> |
-|新西兰  <br/> |
-|挪威  <br/> |
-|波兰  <br/> |
-|葡萄牙  <br/> |
-|波多黎各  <br/> |
-|罗马尼亚  <br/> |
-|俄罗斯  <br/> |
-|新加坡  <br/> |
-|斯洛伐克共和国  <br/> |
-|斯洛文尼亚  <br/> |
-|南非  <br/> |
-|韩国  <br/> |
-|西班牙  <br/> |
-|瑞典  <br/> |
-|瑞士  <br/> |
-|台湾  <br/> |
-|泰国  <br/> |
-|英国  <br/> |
-|美国  <br/> |
      
 ## <a name="related-topics"></a>相关主题
-[音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+- [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- [音频会议的国家和地区区域](audio-conferencing-zones.md)

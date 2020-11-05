@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解组织中的团队用户与 Skype (消费者) 用户之间的互操作性功能。
 localization_priority: Normal
-ms.openlocfilehash: b05724f7ddb860d4b135fad5834ea851403c1490
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766896"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919034"
 ---
 # <a name="teams-and-skype-interoperability"></a>团队和 Skype 互操作性
 
@@ -47,9 +47,9 @@ Skype 用户可能选择不在搜索结果中显示。 在这种情况下，不�
 
 Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊天。 将通知团队用户收到来自 Skype 用户的新邮件，并且必须首先接受邮件，然后他们才能回复。
 
-- 如果团队用户选择 " **接受**"，则接受对话，并且这两个用户都可以互相聊天和通话。
-- 如果团队用户选择 " **阻止**"，则对话会被阻止，并且将阻止来自该 Skype 用户的后续消息和呼叫。
-- 如果团队用户选择 " **查看邮件**"，则邮件将显示在 "团队" 中，帮助用户决定是接受还是阻止对话。
+- 如果团队用户选择 " **接受** "，则接受对话，并且这两个用户都可以互相聊天和通话。
+- 如果团队用户选择 " **阻止** "，则对话会被阻止，并且将阻止来自该 Skype 用户的后续消息和呼叫。
+- 如果团队用户选择 " **查看邮件** "，则邮件将显示在 "团队" 中，帮助用户决定是接受还是阻止对话。
 
 > [!NOTE]
 > 如果您从 Skype for Business 升级到团队，并且您的用户在 "仅限工作组" 模式下，则 Skype 用户与团队用户之间的聊天和通话将发送给团队。 如果你的用户处于 "孤岛" 模式，Skype 用户的聊天和呼叫将发送到 Skype for business。
@@ -73,13 +73,20 @@ Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊�
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>设置团队用户是否可以与 Skype 用户进行通信
 
-作为管理员，你可以使用 Microsoft 团队管理中心或 PowerShell 设置外部访问设置，以控制你的组织中的团队用户是否可以与 Skype 用户通信。 默认情况下，对于新租户，此功能处于打开状态。
+作为管理员，你可以使用 Microsoft 团队管理中心或 PowerShell 设置外部访问设置，以控制你的组织中的团队用户是否可以与 Skype 用户通信。 默认情况下，对于新租户，此功能处于打开状态。 但是，如果您的域尚未提供以下 DNS SRV 记录，则需要由 IT 管理员对其进行配置，例如 _sipfederationtls .com。  
+
+**服务** ： sipfederationtls<br/>
+**协议** ： TCP<br/>
+**优先级** ：100<br/>
+**重量** ：1<br/>
+**端口** ：5061<br/>
+**目标** ： sipfed.online.lync.com
 
 如果您从 Skype for Business 升级到团队，您在 Skype for business 管理中心配置的外部通信设置将迁移到团队。
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心
 
-在 "Microsoft 团队管理中心" 中，转到 "**组织范围的设置**  >  **外部访问**"，然后打开 "**用户可以与 Skype 用户通信**"。 有关如何配置此和其他外部访问设置的分步指导，请参阅 [管理团队中的外部访问](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
+在 "Microsoft 团队管理中心" 中，转到 " **组织范围的设置**  >  **外部访问** "，然后打开 " **用户可以与 Skype 用户通信** "。 有关如何配置此和其他外部访问设置的分步指导，请参阅 [管理团队中的外部访问](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理策略程序包，以便在管理用户组策略时简化、简化和帮助提供一致性。
-ms.openlocfilehash: 140b67ae8df01d29b8e6d37c6fe1a36afebbd949
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 986d64b11420877e146abc68f9f65c0503f49ff0
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48488386"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48918642"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 团队中的策略程序包
 
@@ -89,12 +89,12 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 
 要创建新的自定义策略程序包，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，选择 " **策略包**"，然后单击 " **添加**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，选择 " **策略包** "，然后单击 " **添加** "。
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心中 "策略程序包" 页面上的 "添加" 按钮的屏幕截图":::
 2. 输入程序包的名称和说明。
     :::image type="content" source="media/policy-packages-add-custom.png" alt-text="添加新的自定义策略程序包的屏幕截图":::
 3. 选择要包括在程序包中的策略类型和策略名称。
-4. 单击“**保存**”。
+4. 单击“ **保存** ”。
 
 ## <a name="how-to-use-policy-packages"></a>如何使用策略程序包
 
@@ -102,13 +102,13 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 
 ![如何使用策略程序包概述](media/manage-policy-packages-overview.png)
 
-- **[查看](#view-the-settings-of-a-policy-in-a-policy-package)**：查看策略包中的策略。 然后，在分配程序包之前查看程序包中每个策略的设置。 请确保你了解每个设置。 确定预定义的值是否适合你的组织，或者你是否需要根据组织的需要将其更改为更具限制性或 lenient 的值。
+- **[查看](#view-the-settings-of-a-policy-in-a-policy-package)** ：查看策略包中的策略。 然后，在分配程序包之前查看程序包中每个策略的设置。 请确保你了解每个设置。 确定预定义的值是否适合你的组织，或者你是否需要根据组织的需要将其更改为更具限制性或 lenient 的值。
 
     如果删除策略，您仍然可以查看设置，但不能更改任何设置。 分配策略包时，将使用预定义的设置重新创建已删除的策略。
 
-- **[自定义](#customize-policies-in-a-policy-package)**：自定义策略包中的策略设置以满足组织的需求。
+- **[自定义](#customize-policies-in-a-policy-package)** ：自定义策略包中的策略设置以满足组织的需求。
 
-- **[分配](#assign-a-policy-package)**：将策略包分配给用户。  
+- **[分配](#assign-a-policy-package)** ：将策略包分配给用户。  
 
 > [!NOTE]
 > 你还可以在分配程序包后更改策略包中的策略设置。 对策略设置所做的任何更改都将自动应用到分配了该程序包的用户。
@@ -117,7 +117,7 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>查看策略包中的策略设置
 
-1. 在 "Microsoft 团队管理中心" 的左侧导航中，选择 " **策略程序包**"，然后单击程序包名称左侧的 "策略包" 进行选择。
+1. 在 "Microsoft 团队管理中心" 的左侧导航中，选择 " **策略程序包** "，然后单击程序包名称左侧的 "策略包" 进行选择。
 2. 单击要查看的策略。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自定义策略包中的策略
@@ -125,25 +125,33 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 你可以通过 " **策略包** " 页面编辑策略的设置，或直接转到 Microsoft 团队管理中心中的 "策略" 页面。
 
 1. 在 Microsoft 团队管理中心的左侧导航中，执行下列操作之一：
-    - 单击 " **策略程序包**"，然后单击 "程序包名称" 左侧的 "策略程序包" 进行选择。
-    - 单击 "策略类型"。  例如，单击 " **邮件策略**"。
+    - 单击 " **策略程序包** "，然后单击 "程序包名称" 左侧的 "策略程序包" 进行选择。
+    - 单击 "策略类型"。  例如，单击 " **邮件策略** "。
 2. 选择要编辑的策略。 链接到策略包的策略与策略包的名称相同。
-3. 进行所需的更改，然后单击 " **保存**"。
+3. 进行所需的更改，然后单击 " **保存** "。
 
-### <a name="assign-a-policy-package"></a>分配策略包
+### <a name="assign-a-policy-package"></a>分配策略包 
 
 #### <a name="assign-a-policy-package-to-one-user"></a>为一个用户分配策略包
 
-1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
-2. 在用户的页面上，单击 " **策略**"，然后单击 " **策略程序包**" 旁边的 " **编辑**"。
-3. 在 " **分配策略包** " 窗格中，选择要分配的程序包，然后单击 " **保存**"。
+1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。
+2. 在用户的页面上，单击 " **策略** "，然后单击 " **策略程序包** " 旁边的 " **编辑** "。
+3. 在 " **分配策略包** " 窗格中，选择要分配的程序包，然后单击 " **保存** "。
 
 #### <a name="assign-a-policy-package-to-multiple-users"></a>向多个用户分配策略包
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **策略程序包**"，然后通过单击程序包名称左侧的 "选择要分配的策略包"。
-2. 单击 " **管理用户**"。
-3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
-4. 添加完用户后，单击 " **保存**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **策略程序包** "，然后通过单击程序包名称左侧的 "选择要分配的策略包"。
+2. 单击 " **管理用户** "。
+3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。 对想要添加的每一个用户重复此步骤。
+4. 添加完用户后，单击 " **保存** "。
+
+#### <a name="assign-a-policy-package-to-a-group"></a>为组分配策略包
+
+**此功能在私人预览版中**
+
+通过将策略包分配给组，你可以将多个策略分配给一组用户，如安全组或通讯组列表。 根据优先级规则，策略分配将传播到组的成员。 将成员添加到组或从组中删除成员后，将相应地更新其继承的策略分配。 对于多达50000用户的组，建议使用此方法，但也可使用较大的组。
+
+若要了解详细信息，请参阅向 [组分配策略包](assign-policies.md#assign-a-policy-package-to-a-group)。
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>将策略包分配给大型集 (批处理) 用户
 
