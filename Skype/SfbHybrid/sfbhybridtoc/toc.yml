@@ -1,0 +1,35 @@
+- name: 适合于 Teams 和 Skype for Business 的混合解决方案
+  items:
+    - name: 规划混合连接
+      href: ../hybrid/plan-hybrid-connectivity.md
+    - name: 配置混合连接
+      href: ../hybrid/configure-hybrid-connectivity.md
+      items:
+        - name: 配置混合环境的 Azure AD Connect
+          href: ../hybrid/configure-azure-ad-connect.md
+        - name: 配置 Skype for Business 混合
+          href: ../hybrid/configure-federation-with-skype-for-business-online.md
+    - name: 在本地与云之间移动用户
+      href: ../hybrid/move-users-between-on-premises-and-cloud.md
+      items:
+        - name: 将用户从本地移至团队
+          href: ../hybrid/move-users-from-on-premises-to-teams.md
+        - name: 将用户从本地迁移至 Skype for Business Online
+          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
+        - name: 将用户从云中移动到本地
+          href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
+        - name: 管理会议迁移
+          href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
+    - name: 禁用混合以完成云迁移
+      href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+    - name: 部署资源林拓扑
+      href: ../hybrid/configure-a-multi-forest-environment-for-hybrid.md
+    - name: 针对 Teams 和 Skype for Business 的云整合
+      href: ../hybrid/cloud-consolidation.md
+      items:
+        - name: 更新 Microsoft Edge 证书
+          href: ../hybrid/cloud-consolidation-edge-certificates.md
+        - name: 将 AAD Connect 更新为包含多个林
+          href: ../hybrid/cloud-consolidation-aad-connect.md
+    - name: 与 Exchange 和 SharePoint 集成
+      href: ../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md
