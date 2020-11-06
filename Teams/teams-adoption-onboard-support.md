@@ -21,21 +21,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81b6552f976c6a780ba01349c0ff4995b4b728c4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 76f7cdc48fdea339bfbef81f56eba629e8937abf
+ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904407"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48929513"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>为 Microsoft Teams 上线支持
 
 要确保早期的使用情况和拥护程序团队在开始使用团队时拥有相应的支持，请与您的支持人员会面并查看团队的功能。 支持组织的关键成员可能希望加入您的先期采用计划。 鼓励他们在自己的方案中使用团队。 通过使用我们的在线培训资源，让他们完成产品的基本加入。  
 
-- [Microsoft 团队基础](https://youtu.be/xJBvJTDiQqg)
+- [基础-Microsoft 团队核心组件](https://youtu.be/V6B4KraD-FM)
 - [团队疑难解答](https://youtu.be/0KNh9KNpXcA)
-- [已知问题列表](https://aka.ms/TeamsKnownIssues)
-- [#ThisisTeams 介绍性网络研讨会](https://microsoftteams.eventbuilder.com/This%20is%20Teams) 
-- [启用 Microsoft 团队 IT 专业人士课程](https://www.edx.org/course/enabling-teamwork-microsoft-teams-1)
+- [已知问题和疑难解答](https://aka.ms/TeamsKnownIssues)
+- [Microsoft Teams 培训](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
 
-![表示下一步骤](media/teams-adoption-next-icon.png)的图标： [Microsoft 团队采纳阶段3：缩放](teams-adoption-phase3-enable.md)。
+![表示下一步骤的图标 ](media/teams-adoption-next-icon.png) ： [Microsoft 团队采纳阶段3：缩放](teams-adoption-phase3-enable.md)。

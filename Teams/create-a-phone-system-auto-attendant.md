@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试自动助理。
-ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48878183"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48922431"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -118,7 +118,7 @@ ms.locfileid: "48878183"
 - TelephoneNumber/电话号码
 - OtherTelephone
 
-在 "用户电话号码" 字段中输入扩展名所需的格式为 *+ <phone number> ext = <extension>* 或 *+ <phone number> x <extension>* 。
+在 "用户电话号码" 字段中输入扩展名所需的格式为 *+ \<phone number> ext = \<extension>* 或 *+ \<phone number> x \<extension>* 。
 
 你可以在 [Microsoft 365 管理中心](https://admin.microsoft.com/) 或 [Azure Active Directory 管理中心](https://aad.portal.azure.com)中设置扩展。 在自动助理和呼叫队列中进行更改前，最多可能需要12小时。
 

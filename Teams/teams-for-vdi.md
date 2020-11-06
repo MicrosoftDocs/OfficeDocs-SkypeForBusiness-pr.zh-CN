@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51b3333723624dc0c250ce3e4de9a3af88ad84f1
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 28d5c9b318c2ce098d1f361f8af4b074260aaf98
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778895"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48925464"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -229,7 +229,6 @@ VMware 范围是一种现代平台，用于在混合云上安全地传递虚拟�
 
 如果你要从 VDI 的 Skype for Business 迁移到 VDI 上的团队，除了两个应用程序之间的区别之外，还有一些差异。 Skype for Business VDI 中的团队 VDI 目前不支持的某些功能如下所示：
 
-- 利用限制媒体比特率的策略控制 VDI 呼叫体验
 - 用于禁用 VDI 中的某些 AV 功能的每个平台策略
 - 在应用共享时提供和获取控制权
 - 不带音频聊天的屏幕共享
@@ -261,7 +260,7 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
 要将 DisallowCalling 呼叫策略和 AllOff 会议策略分配给用户，请执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户** "。
-2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。 
+2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。
 3. 执行以下操作：
     1.  在 " **呼叫策略** " 下，单击 " **DisallowCalling** "。
     2.  在 " **会议策略** " 下，单击 " **AllOff** "。
@@ -278,8 +277,8 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。 例如：
     - 转到 " **语音**  >  **呼叫策略** "，然后单击 " **DisallowCalling** "。
     - 转到 " **会议**  >  **会议策略** "，然后单击 " **AllOff** "。
-2. 选择“管理用户”  。
-3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。  对想要添加的每一个用户重复此步骤。
+2. 选择“管理用户”。
+3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。 对想要添加的每一个用户重复此步骤。
 4. 添加完用户后，单击 " **保存** "。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
@@ -317,7 +316,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 要将 AllowCalling 呼叫策略和 AllOn 会议策略分配给用户，请执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户** "。
-2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。 
+2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。
 3. 执行以下操作：
     1.  在 " **呼叫策略** " 下，单击 " **AllowCalling** "。
     2.  在 " **会议策略** " 下，单击 " **AllOn** "。
@@ -334,8 +333,8 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。 例如：
     - 转到 " **语音**  >  **呼叫策略** "，然后单击 " **AllowCalling** "。
     - 转到 " **会议**  >  **会议策略** "，然后单击 " **AllOn** "。
-2. 选择“管理用户”  。
-3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。  对想要添加的每一个用户重复此步骤。
+2. 选择“管理用户”。
+3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。 对想要添加的每一个用户重复此步骤。
 4. 添加完用户后，单击 " **保存** "。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略

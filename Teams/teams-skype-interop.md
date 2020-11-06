@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解组织中的团队用户与 Skype (消费者) 用户之间的互操作性功能。
 localization_priority: Normal
-ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 18031f9d1f4ae9a4e42525f8c722259590349c24
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919034"
+ms.locfileid: "48925424"
 ---
 # <a name="teams-and-skype-interoperability"></a>团队和 Skype 互操作性
 
@@ -90,7 +90,10 @@ Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊�
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-将 [CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet 与参数结合使用 ```EnablePublicCloudAccess``` ，以控制用户是否可以与 Skype 用户进行通信。 设置参数以 ```true``` 允许团队用户与 Skype 用户进行通信。 可以使用该 ```EnablePublicCloudAudioVideoAccess``` 参数启用/禁用音频/视频呼叫。
+执行以下操作： 
+1. 将 [CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet 与参数结合使用 ```EnablePublicCloudAccess``` ，以控制用户是否可以与 Skype 用户进行通信。 设置参数以 ```true``` 允许团队用户与 Skype 用户进行通信。 可以使用该 ```EnablePublicCloudAudioVideoAccess``` 参数启用/禁用音频/视频呼叫。
+
+2. 将 [CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) cmdlet 与设置的参数结合使用， ```Provider``` ```"WindowsLive"``` 以便团队用户可以与 Skype 用户通信。
 
 ## <a name="related-topics"></a>相关主题
 
