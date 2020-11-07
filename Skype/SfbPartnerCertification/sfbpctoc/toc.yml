@@ -1,0 +1,138 @@
+- name: Skype for Business 和 Teams 认证计划
+  href: ../certification/overview.md
+  items:
+    - name: 如何加入
+      href: ../certification/how-to-join.md
+    - name: Skype 和 Lync 测试规范
+      href: ../certification/test-spec.md
+    - name: 电话和设备
+      items:
+        - name: 'Skype for Business 的 IP 电话 '
+          href: ../certification/devices-ip-phones.md
+        - name: Teams 的 IP 电话
+          href: /microsoftteams/teams-ip-phones
+        - name: USB 音频和视频设备
+          href: ../certification/devices-usb-devices.md
+        - name: 电脑
+          href: ../certification/devices-pcs.md
+        - name: 会议室设备和解决方案
+          href: ../certification/devices-meeting-rooms.md
+    - name: 基础结构
+      items:
+        - name: 网关
+          href: ../certification/infra-gateways.md
+        - name: IP PBX
+          href: ../certification/infra-ip-pbxs.md
+        - name: 可存活的分支设备
+          href: ../certification/infra-sba.md
+        - name: 会话边界控制器
+          href: ../certification/infra-sbc.md
+        - name: 反向代理
+          href: ../certification/infra-rev-proxy.md
+        - name: 负载均衡器
+          href: ../certification/infra-load-balancers.md
+    - name: 网络
+      items:
+        - name: Skype for business 的 Wi-Fi
+          href: ../certification/networking-wifi.md
+          items:
+            - name: Wi-Fi 的计划
+              href: ../certification/plan-wifi.md
+        - name: Skype for Business 的有线电视
+          href: ../certification/networking-wired.md
+        - name: Skype for Business 的 SDN
+          href: ../certification/networking-sdn.md
+    - name: 服务
+      items:
+        - name: SIP 中继服务
+          href: ../certification/services-sip-trunking.md
+        - name: E-911 服务提供方
+          href: ../certification/services-e911.md
+        - name: 音频会议提供商
+          href: ../certification/services-acps.md
+        - name: 统一通信证书合作伙伴
+          href: ../certification/services-ssl.md
+    - name: IT 专业人士
+      href: ../certification/it-pro-tools.md
+      items:
+        - name: 网络预评估
+          href: ../certification/it-pro-tools-pre-assessment.md
+        - name: 迁移
+          href: ../certification/it-pro-tools-migration.md
+        - name: 用户和策略配置
+          href: ../certification/it-pro-tools-user-policy.md
+        - name: 监控和疑难解答
+          href: ../certification/it-pro-tools-monitor-troubleshoot.md
+        - name: 报告
+          href: ../certification/it-pro-tools-reporting.md
+    - name: 视频
+      href: ../certification/video.md
+    - name: ISV
+      href: ../certification/isv-overview.md
+    - name: Lync 合作伙伴资格
+      href: ../lync-cert/partner-qualification.md
+      items:
+        - name: 应用程序
+          href: ../lync-cert/qualified-lync-apps.md
+          items:
+            - name: Lync ISV 资格计划参与
+              href: ../lync-cert/participation.md
+            - name: 助理控制台应用程序
+              href: ../lync-cert/attendant-console-apps.md
+            - name: 账单及增强型报告应用
+              href: ../lync-cert/billing-reporting-apps.md
+            - name: 联系中心应用程序
+              href: ../lync-cert/contact-center-apps.md
+            - name: Lync 可扩展性应用程序
+              href: ../lync-cert/lync-extensibility-apps.md
+            - name: 持续性聊天应用程序
+              href: ../lync-cert/persistent-chat-apps.md
+            - name: 录制应用程序
+              href: ../lync-cert/recording-apps.md
+            - name: 软件定义的网络应用
+              href: ../lync-cert/software-defined-network-apps.md
+            - name: 已验证的Lync应用程序
+              href: ../lync-cert/validated-lync-apps.md
+        - name: 设备
+          items:
+            - name: 适用于 Lync 的手机和设备
+              href: ../lync-cert/ip-phones.md
+            - name: USB 音频和视频设备
+              href: ../lync-cert/usb-and-video.md
+            - name: Lync 会议室系统
+              href: ../lync-cert/room-systems.md
+            - name: 会议室设备和解决方案
+              href: ../lync-cert/meeting-room-devices.md
+            - name: 电脑
+              href: ../lync-cert/pcs-optimized-for-lync.md
+        - name: 基础结构
+          href: ../lync-cert/infrastructure-qualified-node.md
+          items:
+            - name: IP PBX 和网关
+              href: ../lync-cert/qualified-ip-pbx-gateway.md
+            - name: 受支持的 IP PBX
+              href: ../lync-cert/supported-ip-pbxs.md
+            - name: 可存活的分支设备
+              href: ../lync-cert/survivable-branch-appliances.md
+            - name: 会话边界控制器
+              href: ../lync-cert/sbcs-lync-server.md
+            - name: 网络
+              href: ../lync-cert/networking-lync-server-2010-2013.md
+            - name: 负载均衡器
+              href: ../lync-cert/hardware-load-balancers.md
+            - name: 逆向代理
+              href: ../lync-cert/reverse-proxies.md
+            - name: 虚拟桌面基础结构
+              href: ../lync-cert/virtual-desktop-lync-server.md
+        - name: 服务
+          href: ../lync-cert/sip-trunking-services.md
+          items:
+            - name: E-911 服务
+              href: ../lync-cert/e-911-service-providers.md
+            - name: Lync Online 专用版
+              href: ../lync-cert/online-dedicated.md
+        - name: 视频
+          href: ../lync-cert/video-solutions-qualified.md
+          items:
+            - name: 会议室设备和解决方案
+              href: ../lync-cert/meeting-room-devices.md
