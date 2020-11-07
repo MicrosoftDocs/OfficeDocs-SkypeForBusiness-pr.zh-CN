@@ -1209,7 +1209,7 @@
           href: teams-sentinel-guide.md
         - name: 标识模型和身份验证
           href: identify-models-authentication.md
-        - name: 使用新式验证登录 Teams
+        - name: 登录到 Microsoft 团队
           href: sign-in-teams.md
         - name: 团队中的安全链接
           href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
@@ -1612,6 +1612,8 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md
         - name: 新西兰
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md
+        - name: 尼加拉瓜
+          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md
         - name: 尼日利亚
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md
         - name: 北马里亚纳群岛

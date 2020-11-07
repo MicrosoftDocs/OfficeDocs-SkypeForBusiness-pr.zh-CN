@@ -13,12 +13,12 @@ ms.collection:
 description: 了解团队 PowerShell 中的最新更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 41aa6cdf05901756bb2bcd13dbb8b9ad2cedabf6
+ms.sourcegitcommit: a6c7a0cdbedf6cf32213d7636da52db71b4bac3d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852163"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48937741"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 团队 PowerShell 发行说明
 
@@ -31,7 +31,7 @@ ms.locfileid: "48852163"
 
 | 日期 | 版本 | 端更新 |
 |------- | -------------------- | ------------------------------ |
-| 2020年11月 | [1.1.7-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>使用 MSAL 进行身份验证 & 授权</li><li>重构策略包 cmdlet 并添加组包分配</li><li>重构的目标层次结构上载命令以使用异步模型</li> |
+| 2020年11月 | [1.1.7-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>使用 MSAL 进行身份验证 & 授权</li><li>重构策略包 cmdlet 并添加组包分配</li><li>重构的目标层次结构上载命令以使用异步模型</li> <li>当用户不使用-credential 参数时，将在初始身份验证期间收到两次。 用户可以使用-credential 参数传递凭据，以避免重复提示。 此行为将在下一个版本中修复。</li> |
 | 2020年9月 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype for Business Online 连接器集成</li> |
 | 2020年9月 | [1.1.5-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype for Business Online 连接器集成</li> |
 | 2020年7月 | [类库](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>已添加 [组策略分配 cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
