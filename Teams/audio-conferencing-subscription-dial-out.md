@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 拨出并以分钟为单位给我打电话。 从2019年12月1日起，每个音频会议套餐为每个月的用户提供60分钟数以对国家/地区进行分区。
-ms.openlocfilehash: a7834b279b5e4246d3233405c1ab0a87df21ff8f
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 0f5b4ea3dd59e4a6a9c957f4ec397c9ceb5cc660
+ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908491"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993458"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>音频会议订阅 "拨出"/"呼叫我" 分钟数的好处
 
@@ -67,10 +67,27 @@ ms.locfileid: "48908491"
 - 每个日历月超过6900分钟的所有拨出通话均按分钟计费，使用通信信用点数按我们的已发布费率传输到目标。  (注意：客户必须设置 [通讯信用点数](what-are-communications-credits.md) ，并向会议组织者分配通讯信用许可证。 ) 
 - 对不在 [区域](audio-conferencing-zones.md) 中的目的地的所有拨出呼叫均按分钟计费，使用通讯信用点数在我们的发布费率和目标 (，前提是客户已经设置了通讯信用点数，并为会议组织者分配了通讯信用许可证) 。
 
-## <a name="how-can-i-monitor-minute-pool-usage"></a>如何监视分钟池使用情况？
+## <a name="how-can-i-monitor-minute-my-pool-usage"></a>如何监控我的池使用情况？
 
-- 你可以在 "旧版" Skype for business 管理中心中监控拨出分钟池的使用情况。 在 "Microsoft 团队管理中心" 中，导航到 " **旧版门户** "  >  **报告**  >  **PSTN 分钟池** 。 在报告中，"拨出" 分钟池的区域将标记为 "对国家区域的出站呼叫"。
-- 当租户的拨出分钟池利用率达到80% 和100% 时，将向给定客户的所有租户管理员发送电子邮件通知。
+- 你可以使用 Microsoft 团队管理中心中的拨出分钟池监视使用情况。 在左侧导航中，转到 " **分析" & 报告**  >  **使用情况报表** ，然后选择 " **PSTN 分钟池** "。 在报告中，"拨出" 分钟池的区域将标记为 "对国家区域的出站呼叫"。
+- 当组织的拨出分钟池利用率达到80% 和100% 时，将向以下管理员发送电子邮件通知：
+
+  - 帐单管理员
+  - Skype for Business 管理员
+  - 公司管理员
+  - 用户帐户管理员
+  - 帮助台管理员
+  - 服务支持管理员
+  - 设备管理员
+  - 应用程序管理员
+  - 许可证管理员
+  - 云设备管理员
+  - 身份验证管理员
+  - 特权身份验证管理员
+  - Teams 通信管理员
+  - Teams 通信支持工程师
+  - 团队沟通支持专家
+  - Teams 服务管理员
 
 有关通讯信用点数的其他信息，请参阅 [通讯信用点数](what-are-communications-credits.md)。
 

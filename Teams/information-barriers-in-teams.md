@@ -16,12 +16,12 @@ description: 本文介绍 Microsoft 团队中的哪些信息障碍以及他们�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 519e216a8736ca214f65f11ca5b3509541c09860
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
+ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508349"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988319"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
@@ -44,7 +44,7 @@ ms.locfileid: "48508349"
 - 教育：一学校学生无法查找其他学校的学生的联系人详情。
 - 法律：保留由一位客户的律师为同一事务所获取的不同客户的律师所获得的数据的机密性。
 - 政府：信息访问和控制限制在部门和群组之间。
-- 专业服务：公司中的一组人员只能在客户服务期间通过联盟或来宾访问与客户或特定客户聊天。
+- 专业服务：公司中的一组人员只能在客户服务期间通过来宾访问与客户或特定客户聊天。
 
 例如，Enrico 属于 "银行" 段，Pradeep 属于财务顾问段。 Enrico 和 Pradeep 无法互相通信，因为组织的 IB 策略阻止这两个网段之间的通信和协作。 但是，Enrico 和 Pradeep 可以与 HR 中的和进行通信。
 
@@ -64,7 +64,7 @@ ms.locfileid: "48508349"
 信息屏障策略在 Microsoft 365 合规性中心 (SCC) 使用 PowerShell cmdlet 进行管理。 有关详细信息，请参阅 [定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 > [!IMPORTANT]
-> 在设置或定义策略之前， **必须在 Microsoft 团队中启用范围的目录搜索**。 在设置或定义信息障碍策略之前，请至少等待几小时后再启用范围目录搜索。 [了解有关信息障碍的先决条件的详细信息](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)。
+> 在设置或定义策略之前， **必须在 Microsoft 团队中启用范围的目录搜索** 。 在设置或定义信息障碍策略之前，请至少等待几小时后再启用范围目录搜索。 [了解有关信息障碍的先决条件的详细信息](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)。
 
 ## <a name="information-barriers-administrator-role"></a>信息障碍管理员角色
 
@@ -74,7 +74,7 @@ IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详�
 
 当以下团队事件发生时，将激活信息屏障策略：
 
-- 将**成员添加到团队**-每当您将用户添加到团队时，用户的策略必须根据其他团队成员的信息屏障策略进行评估。 成功添加用户后，用户可以执行团队中的所有功能，而无需进一步检查。 如果用户的策略阻止将他们添加到团队，则该用户将不会显示在 "搜索" 中。
+- 将 **成员添加到团队** -每当您将用户添加到团队时，用户的策略必须根据其他团队成员的信息屏障策略进行评估。 成功添加用户后，用户可以执行团队中的所有功能，而无需进一步检查。 如果用户的策略阻止将他们添加到团队，则该用户将不会显示在 "搜索" 中。
 
     ![显示群组聊天的屏幕截图](media/information-barriers-add-members.png)
 
@@ -102,7 +102,7 @@ IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详�
 
     ![显示具有阻止的设置的用户 char 的屏幕截图](media/ib-after-screen-share-policy.png)
 
-- **用户将电话呼叫 (团队中的 VOIP) ** -只要用户向另一个用户或一组用户发起语音呼叫，就会评估呼叫以确保它不违反其他团队成员的信息屏障策略。 如果存在任何冲突，将阻止语音通话。
+- **用户将电话呼叫 (团队中的 VOIP)** -只要用户向另一个用户或一组用户发起语音呼叫，就会评估呼叫以确保它不违反其他团队成员的信息屏障策略。 如果存在任何冲突，将阻止语音通话。
 - **团队中的来宾用户** -信息障碍策略也适用于团队中的来宾用户。 如果您的组织的全球通讯簿中需要发现来宾用户，请参阅 [管理 Microsoft 365 组中的来宾访问](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 一旦来宾用户可发现，你可以 [定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>策略更改如何影响现有聊天
@@ -137,7 +137,7 @@ Enrico 无法再向群组聊天发送消息。
 
 当前，如果信息障碍策略阻止其他用户，则用户会遇到以下情况：
 
-- "**人员" 选项卡**-用户在 "**人员**" 选项卡上看不到被阻止的用户。
+- " **人员" 选项卡** -用户在 " **人员** " 选项卡上看不到被阻止的用户。
 - **人员选取器** -阻止的用户将在人员选取器中不可见。
 
     ![显示群组聊天的屏幕截图](media/information-barriers-people-picker.png)
@@ -167,9 +167,9 @@ Enrico 无法再向群组聊天发送消息。
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>团队策略和 SharePoint 网站
 
-创建团队后，SharePoint 网站将预配并与 Microsoft 团队的文件体验相关联。 默认情况下，信息障碍策略不会在此 SharePoint 网站和文件上生效。 若要启用信息障碍策略，管理员已填写一个表单，请求在 SharePoint 和 OneDrive 上启用 IB 策略 (请参阅[信息障碍](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)中的*先决条件*部分) 。 如果信息屏障策略在 SharePoint 和 OneDrive 中处于打开状态，则在使用 Microsoft 团队创建团队时，IB 策略将在预配 SharePoint 网站上工作。
+创建团队后，SharePoint 网站将预配并与 Microsoft 团队的文件体验相关联。 默认情况下，信息障碍策略不会在此 SharePoint 网站和文件上生效。 若要启用信息障碍策略，管理员已填写一个表单，请求在 SharePoint 和 OneDrive 上启用 IB 策略 (请参阅 [信息障碍](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)中的 *先决条件* 部分) 。 如果信息屏障策略在 SharePoint 和 OneDrive 中处于打开状态，则在使用 Microsoft 团队创建团队时，IB 策略将在预配 SharePoint 网站上工作。
 
-**团队的 SharePoint 网站上的 IB 策略示例**：在 Contoso Bank corporation 中，用户 "Sesha@contosobank.onmicrosoft.com" 属于投资银行段，而用户 "Nikita@contosobank.onmicrosoft.com" 属于 "部门咨询"。 组织的 IB 策略阻止这两个网段之间的通信和协作。
+**团队的 SharePoint 网站上的 IB 策略示例** ：在 Contoso Bank corporation 中，用户 "Sesha@contosobank.onmicrosoft.com" 属于投资银行段，而用户 "Nikita@contosobank.onmicrosoft.com" 属于 "部门咨询"。 组织的 IB 策略阻止这两个网段之间的通信和协作。
 当用户 Sesha 为投资银行段创建团队时，团队和支持它的 SharePoint 网站将仅供投资银行段用户访问。 用户 Nikita 无法访问该网站，即使她拥有网站链接也是如此。
 
 有关详细信息，请参阅 [信息障碍](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) 文章。
@@ -179,7 +179,9 @@ Enrico 无法再向群组聊天发送消息。
 有关详细信息（包括计划和定价），请参阅 [许可指南](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
 
 ## <a name="known-issues"></a>已知问题
-- **用户无法加入会议**：如果启用了 IB 策略，则不允许用户加入会议（如果会议名单的大小超过 [会议出席限额](limits-specifications-teams.md)。 根本原因是 IB 检查依赖于用户是否可以添加到会议聊天名单并接受该信号以允许用户加入会议。 加入会议一次会将该用户添加到名单，因此对于定期会议，名单将快速充满。 达到 [会议出席限制](limits-specifications-teams.md)后，将不允许向会议聊天名单添加其他用户。 如果启用了 IB，则不允许用户加入会议，但如果未启用 IB，则允许用户加入会议，但不会将其添加到会议聊天名单。 短期解决方案是从会议聊天名单中删除非活动成员，为新用户腾出空间。 但是，我们将在更晚的日期增加会议聊天海报的大小。
+- **用户无法加入临时会议** ：如果启用了 IB 策略，则不允许用户加入会议（如果会议名单的大小超过 [会议出席限额](limits-specifications-teams.md)。 根本原因是 IB 检查依赖于用户是否可以添加到会议聊天名单并接受该信号以允许用户加入会议。 加入会议一次会将该用户添加到名单，因此对于定期会议，名单将快速充满。 达到 [会议出席限制](limits-specifications-teams.md)后，将不允许向会议聊天名单添加其他用户。 如果为租户启用了 IB，并且聊天名单对于会议已满，则不允许新用户 (名单) 的用户加入会议。 但是，如果没有为租户启用 IB，并且会议聊天名单已满，则允许新用户 (名单) 中的用户加入会议，尽管他们在会议中看不到聊天选项。 短期解决方案是从会议聊天名单中删除非活动成员，为新用户腾出空间。 但是，我们将在更晚的日期增加会议聊天海报的大小。
+
+- **用户无法加入频道会议** ：如果启用了 IB 策略，则不允许用户加入频道会议（如果他们不是团队的成员）。 根本原因是 IB 检查依赖于用户是否可以添加到会议聊天名单并接受该信号以允许用户加入会议。 频道会议中的聊天线程仅适用于团队/信道成员，非成员无法查看/访问聊天线程。 如果为租户启用了 IB，而非团队成员尝试加入频道会议，则不允许用户加入会议。 但是，如果没有为租户启用 IB，并且非团队成员尝试加入频道会议，则允许用户加入会议，但是他们在会议中将看不到聊天选项。
 
 ## <a name="more-information"></a>更多信息
 
