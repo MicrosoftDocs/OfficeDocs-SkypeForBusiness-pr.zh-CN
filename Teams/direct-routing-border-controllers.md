@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解 (SBCs) 已认证直接路由的会话边框控制器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45695462228ad675add26eeb9cad74dfed72f616
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 0d5671740e5ecf64bb676f222625c2ee42e78347
+ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778865"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "48999246"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -79,6 +79,7 @@ Microsoft 与每位供应商协作：
 |                                 |     1000系列聚合服务路由器 (多维数据集) 的 Cisco 统一边框元素      |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    适用于企业 ( ASBCE 的 Avaya 会话边框控制器)     |     &#10004;     |           |       发布8.1。1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 会话边界控制器    |     &#10004;     |           |       19.5 (1908)        |     |    | 
+|                     [Italtel](https://www.italtel.com/)|    NetMatch CI     |     &#10004;     |           |       5.0       |     |    | 
 
 <br/>
 <br/>

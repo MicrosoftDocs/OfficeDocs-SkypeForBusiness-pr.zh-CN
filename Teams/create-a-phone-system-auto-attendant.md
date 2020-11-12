@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试自动助理。
-ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 00cf80578564db122d4eaf206456b465a21668af
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48922431"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48999223"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -196,13 +196,11 @@ ms.locfileid: "48922431"
 
 ## <a name="external-phone-number-transfers---technical-details"></a>外部电话号码传输-技术详细信息
 
-将呼叫转移到外部电话号码时，与自动助理或呼叫队列关联的资源帐户必须具有电话号码和 Microsoft 365 Phone System-虚拟用户许可证。 进一步
+请参考 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) ，以便允许自动助理在外部转移呼叫。  另外：
 
-- 对于带有呼叫计划编号的资源帐户，请分配 [呼叫计划](calling-plans-for-office-365.md) 许可证。
-  - 必须以164格式输入外部转帐电话号码 (+ CC + phone_number) 。
+- 对于带有 [呼叫计划](calling-plans-for-office-365.md) 编号的资源帐户，必须使用 E：164格式输入外部转帐电话号码 (+ [国家代码] [区号] [电话号码] ) 。
 
-- 对于具有直接路由号码的资源帐户，请分配 [联机语音路由策略](manage-voice-routing-policies.md)。
-  - 外部传送电话号码格式取决于你的 [会话边界控制器 (SBC) ](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) 设置。
+- 对于具有直接路由号码的资源帐户，外部转移电话号码格式取决于 [ (SBC) 设置的会话边界控制器 ](direct-routing-connect-the-sbc.md) 。
 
 显示的出站电话号码按如下方式确定：
 
@@ -210,8 +208,6 @@ ms.locfileid: "48922431"
   - 对于直接路由号码，发送的号码基于 P 宣称的身份 (PAI 在 SBC 上) 设置，如下所示：
     - 如果设置为 "已禁用"，将显示原始呼叫者的电话号码。 这是默认和推荐的设置。
     - 如果设置为 "启用"，则显示资源帐户电话号码。
-
-不支持在通话计划中继和直接路由中继之间转移。
 
 在 Skype for business 混合环境中，若要将自动助理呼叫转移到 PSTN，请创建一个新的本地用户，并将呼叫转接设置为 PSTN 号码。 必须为用户启用企业语音并分配语音策略。 若要了解详细信息，请参阅 [自动助理呼叫转接到 PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
 

@@ -16,12 +16,12 @@ description: 本文介绍 Microsoft 团队中的哪些信息障碍以及他们�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
-ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
+ms.openlocfilehash: c545b6289cd1a40fdf9ca967ebd44cd2d781605d
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988319"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48996013"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
@@ -29,7 +29,7 @@ ms.locfileid: "48988319"
 
 > [!NOTE]
 > - 不能跨租户创建信息障碍组。
-> - 版本1不支持使用机器人添加用户。
+> - 版本1不支持使用 bot、AAD 应用和某些 Api 添加用户。
 > - 专用频道符合您配置的信息屏障策略。
 > - 新增：有关连接到团队的 SharePoint 网站的障碍支持的信息，请单击 [此处](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
