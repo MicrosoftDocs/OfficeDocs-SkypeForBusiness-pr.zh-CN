@@ -9,6 +9,7 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +20,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40ddf36c27a8fbc3aadfddaddee886d1906bab82
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: d6996b0980ae7305a7517a71645ba823a588e2f8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793532"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49032986"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>在 Microsoft Teams 中管理设备
 
@@ -91,7 +92,7 @@ ms.locfileid: "48793532"
 #### <a name="create-a-configuration-profile"></a>创建配置文件
 
 1. 在左侧导航中，转到 " **设备**  >  **配置文件** "。
-2. 单击“添加”  。
+2. 单击“添加”。
 3. 输入配置文件的名称，如果需要，请添加一个友好描述。
 4. 为配置文件指定所需的设置，然后单击 " **保存** "。
 

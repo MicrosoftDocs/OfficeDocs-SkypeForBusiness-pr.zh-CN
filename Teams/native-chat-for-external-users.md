@@ -9,26 +9,27 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 了解 Microsoft 团队中的外部 access (联盟) 用户在 TeamsOnly 升级模式下可用的外部用户之间的本地团队聊天体验。
-ms.openlocfilehash: 1274e71f5854e05049c8d766bd3456a0792b1032
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d3ff414420f8d1d68965307e9303aed4b5cf00ff
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583841"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030598"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft 团队中的外部 (联盟) 用户的本机聊天体验
 ======================================
 
 当 Microsoft 团队用户与外部 (联合) 用户聊天时，聊天体验仅限于文本。 但是，如果你的团队用户和外部用户都在 TeamsOnly 升级模式下，你可以拥有 "本机团队聊天体验"，其中包括丰富的格式、@mentions 和其他聊天功能。 换句话说，你可以与符合条件的外部用户进行相同的丰富的1:1 团队聊天体验，就像在你的组织中的用户一样。 与外部用户的本机团队聊天仅限于1:1 聊天 (外部用户无法) 群组聊天。
 
-适用于外部用户的本机聊天体验已针对所有团队租户启用，但并非所有用户都符合资格。 若要提供本机聊天体验，需要为 TeamsOnly 升级模式配置发送方和接收方。 若要了解有关升级策略的详细信息，请阅读[设置你的共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)。
+适用于外部用户的本机聊天体验已针对所有团队租户启用，但并非所有用户都符合资格。 若要提供本机聊天体验，需要为 TeamsOnly 升级模式配置发送方和接收方。 若要了解有关升级策略的详细信息，请阅读 [设置你的共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)。
 
-若要查看团队外部 access 用户的功能列表，请参阅[比较外部和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。
+若要查看团队外部 access 用户的功能列表，请参阅 [比较外部和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>如何知道我是否正在进行本机聊天？
 

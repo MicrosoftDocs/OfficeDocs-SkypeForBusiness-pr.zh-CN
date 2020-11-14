@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 61fbce79fc528f4b69baed9c08a8dabc9d40ed4a
+ms.sourcegitcommit: 76fc38fe1fbbd93bf2815c57e66fc479df34d929
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908571"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002194"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 会议的基于团队政策的录制简介
 
@@ -40,7 +40,7 @@ ms.locfileid: "48908571"
 
 - 针对合规性录制的新管理策略，包括与现有团队的集成管理呼叫和会议工具和策略
 
-合规性录制可在 Microsoft 365 A3/A5/E3/E5 和 Office 365 A3/A5/E3/E5 用户上启用。 
+合规性录制可在 Microsoft 365 A3/A5/E3/E5/Business Premium 和 Office 365 A3/A5/E3 用户上启用。 
 
 合规性录制解决方案集成功能还在 [<span class="underline">合规性录制和 Microsoft 团队会话</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)的 Ignite 2019 中查看。
 

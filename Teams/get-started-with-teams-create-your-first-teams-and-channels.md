@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
+ms.reviewer: serdars
 description: 了解如何在 Microsoft Teams 客户端或 Microsoft Teams 管理中心中创建首批团队和频道。
 localization_priority: Priority
 search.appverid: MET150
@@ -14,15 +14,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1387d81c8ed54868f83f2439ec8f4db91505b3be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 63b612431e716bdba5d27e43e2756a56ec30e9dc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904647"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031578"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团队和频道
 
@@ -60,17 +61,17 @@ ms.locfileid: "43904647"
 
 ### <a name="create-a-team"></a>创建团队
 
-在 Teams 的左侧, 单击“**团队**”，在团队列表底部单击“**加入或创建团队**”，然后单击“**创建新团队**”。
+在 Teams 的左侧, 单击“ **团队** ”，在团队列表底部单击“ **加入或创建团队** ”，然后单击“ **创建新团队** ”。
 
 创建团队后，邀请人加入其中。 可以添加单个用户、 组，甚至可添加整个联系人组 （以前称为“通讯组列表”）。 
 
 ![示例团队的屏幕截图，显示团队名称和说明](media/get-started-with-teams-create-team.png "“了解 Teams”示例团队的屏幕截图，显示团队名称和说明") 
 
 ### <a name="add-a-team-owner"></a>添加团队所有者
-找到你创建的团队，单击“**更多选项˙˙˙**” > “**管理团队**”。 然后转到“**成员**”选项卡。找到想要指定为团队所有者的人。 在“**角色**”下，单击“**所有者**”。
+找到你创建的团队，单击“ **更多选项˙˙˙** ” > “ **管理团队** ”。 然后转到“ **成员** ”选项卡。找到想要指定为团队所有者的人。 在“ **角色** ”下，单击“ **所有者** ”。
 
 ### <a name="create-a-channel-in-a-team"></a>在团队中创建频道
-找到你创建的团队，单击“**更多选项˙˙˙**” > “**添加频道**”。 也可以单击“**管理团队**”，并在“**频道**”选项卡中添加频道。 
+找到你创建的团队，单击“ **更多选项˙˙˙** ” > “ **添加频道** ”。 也可以单击“ **管理团队** ”，并在“ **频道** ”选项卡中添加频道。 
 
 ![打击“更多选项”时可用的选项的屏幕截图](media/get-started-with-teams-add-channel.png "在团队上单击“更多选项”时可用的“添加频道”选项、“管理团队”选项和其他选项的屏幕截图") 
 

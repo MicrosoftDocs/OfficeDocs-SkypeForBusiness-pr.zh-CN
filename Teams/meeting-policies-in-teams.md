@@ -11,6 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -23,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 11f3a0f585a3fad2d2fbb653496a151bfd75160d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486817"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030708"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -53,20 +54,20 @@ ms.locfileid: "48486817"
 
 ## <a name="create-a-custom-meeting-policy"></a>创建自定义会议策略
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**会议**  >  **会议策略**"。
-2. 单击“添加”****。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **会议**  >  **会议策略** "。
+2. 单击“添加”。
 3. 输入策略的名称和说明。 名称不能包含特殊字符或超过 64 个字符。
 4. 选择所需的设置。
-5. 单击“**保存**”。
+5. 单击“ **保存** ”。
 
 例如，假设你有一组用户并且你想要限制这组用户的会议所需的带宽量。 你要创建新的自定义策略并命名为“带宽限制”，然后禁用以下设置：
 
-在“音频和视频”中：****
+在“音频和视频”中：
 
 - 禁用“允许云录制”。
 - 禁用“允许 IP 视频”。
 
-在“内容共享”中：****
+在“内容共享”中：
 
 - 禁用屏幕共享模式。
 - 禁用“允许白板”。
@@ -78,10 +79,10 @@ ms.locfileid: "48486817"
 
 你可以编辑全局策略和你创建的任何自定义策略。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**会议**  >  **会议策略**"。
-2. 通过单击策略名称左侧，然后单击 " **编辑**"，选择策略。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **会议**  >  **会议策略** "。
+2. 通过单击策略名称左侧，然后单击 " **编辑** "，选择策略。
 3. 在此处进行所需的更改。
-4. 单击“**保存**”。
+4. 单击“ **保存** ”。
 
 > [!NOTE]
 > 一次只能向一个用户分配一个会议策略。
@@ -144,15 +145,15 @@ ms.locfileid: "48486817"
 
 在 "频道发布" 页面中，将禁用以下内容：
 
-- "频道答复撰写" 框中的 "**安排会议**" 按钮。
+- "频道答复撰写" 框中的 " **安排会议** " 按钮。
   ![显示 "日历" 选项的屏幕截图，用于选择要在其中安排会议的频道。](media/schedule-meeting-disabled-in-chat2.png)
   
-- "在频道标题上**安排会议**" 按钮。
+- "在频道标题上 **安排会议** " 按钮。
   ![显示 "日历" 选项的屏幕截图，用于选择要在其中安排会议的频道。](media/schedule-now-in-header.png)
 
 在频道日历中：
 
-- 将禁用频道日历标题上的 "**添加新事件**" 按钮。
+- 将禁用频道日历标题上的 " **添加新事件** " 按钮。
   ![显示 "日历" 选项的屏幕截图，用于选择要在其中安排会议的频道。](media/add-new-event-disabled.png)
 
 - 用户将无法在频道日历上拖动和选择时间段以创建渠道会议。
@@ -169,7 +170,7 @@ ms.locfileid: "48486817"
 
 这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队中安排私人会议。 当会议未发布到团队中的频道时，它是私有的。
 
-请注意，如果关闭 " **允许安排私人会议** " 和 " **允许频道会议计划**"，则会为团队中的用户禁用 " **添加必需与会者** " 和 " **添加频道** " 选项。 默认情况下，此设置处于打开状态。
+请注意，如果关闭 " **允许安排私人会议** " 和 " **允许频道会议计划** "，则会为团队中的用户禁用 " **添加必需与会者** " 和 " **添加频道** " 选项。 默认情况下，此设置处于打开状态。
 
 ### <a name="allow-meet-now-in-private-meetings"></a>允许在私人会议中立即开会
 
@@ -303,7 +304,7 @@ ms.locfileid: "48486817"
 将应用会议组织者策略和用户策略之间限制性最严格的策略。 例如，如果组织者具有限制视频的策略，并且用户的策略不限制视频，则会议参与者继承会议组织者的策略，并且在会议中无法访问视频。 这意味着他们只能通过音频加入会议。
 
 > [!NOTE]
-> 当用户通过电话启动组呼叫时，不显示 " **使用电话语音** 通话" 屏幕。 这是我们正在解决的已知问题。 若要解决此问题，请选择 "**其他联接选项**" 下的 "**电话音频**"。  
+> 当用户通过电话启动组呼叫时，不显示 " **使用电话语音** 通话" 屏幕。 这是我们正在解决的已知问题。 若要解决此问题，请选择 " **其他联接选项** " 下的 " **电话音频** "。  
 
 #### <a name="teams-mobile-clients"></a>团队移动客户端
 
@@ -478,7 +479,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 |设置值 |行为  |
 |---------|---------|
-|**已禁用，但用户可以替代**     | 会议期间不会为用户自动打开实时字幕。 用户可以在 "溢出 () **...** " 菜单中看到 "**打开实时标题**" 选项，将其打开。 这是默认设置。 |
+|**已禁用，但用户可以替代**     | 会议期间不会为用户自动打开实时字幕。 用户可以在 "溢出 () **...** " 菜单中看到 " **打开实时标题** " 选项，将其打开。 这是默认设置。 |
 |**已禁用**     | 会议期间，用户已禁用实时字幕。 用户不能选择将其打开。          |
 
 <a name="bkcontentsharing"> </a>
@@ -491,7 +492,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 ## <a name="meeting-policy-settings---designated-presenter-role-mode"></a>会议策略设置-指定的演示者角色模式
 
-这是每个用户的策略。 此设置允许你更改团队客户端的 "**会议选项**" 中的 "**可以显示的人员**" 的默认值。 此策略设置影响所有会议，包括 "立即开会" 会议。
+这是每个用户的策略。 此设置允许你更改团队客户端的 " **会议选项** " 中的 " **可以显示的人员** " 的默认值。 此策略设置影响所有会议，包括 "立即开会" 会议。
 
 " **可以显示的人员** " 设置让会议组织者可以选择哪些人可以在会议中成为演示者。 若要了解详细信息，请参阅更改[团队会议中](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)团队会议和角色的[参与者设置](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。
 
@@ -499,9 +500,9 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 若要指定 **可显示的人员** 的默认值？在团队中设置，请将 **DesignatedPresenterRoleMode** 参数设置为下列之一：
 
-- **EveryoneUserOverride**：所有会议参与者都可以是演示者。 此值为默认值。 此参数对应于团队中的 " **所有人** " 设置。
-- **EveryoneInCompanyUserOverride**：组织中的经过身份验证的用户（包括来宾用户）可以是演示者。 此参数对应于团队中的 " **我的组织** " 设置中的人员。
-- **OrganizerOnlyUserOverride**：只有会议组织者可以是演示者，并且所有会议参与者都指定为 "与会者"。 此参数对应于 "团队" 中的 " **仅我** " 设置。
+- **EveryoneUserOverride** ：所有会议参与者都可以是演示者。 此值为默认值。 此参数对应于团队中的 " **所有人** " 设置。
+- **EveryoneInCompanyUserOverride** ：组织中的经过身份验证的用户（包括来宾用户）可以是演示者。 此参数对应于团队中的 " **我的组织** " 设置中的人员。
+- **OrganizerOnlyUserOverride** ：只有会议组织者可以是演示者，并且所有会议参与者都指定为 "与会者"。 此参数对应于 "团队" 中的 " **仅我** " 设置。
 
 请记住，在设置默认值后，会议组织者仍可以在团队中更改此设置，并选择哪些人可以在他们计划的会议中显示。
 
@@ -511,13 +512,13 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 目前，您只能使用 PowerShell 配置此策略设置。 你可以使用 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有团队会议策略。 或者，使用 CsTeamsMeetingPolicy cmdlet 创建新 [的](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 团队会议策略，并将其分配给用户。
 
-若要使会议组织者能够下载会议出席报告，请将 **AllowEngagementReport** 参数设置为 " **已启用**"。 启用后，用于下载报告的选项将显示在 " **参与者** " 窗格中。
+若要使会议组织者能够下载会议出席报告，请将 **AllowEngagementReport** 参数设置为 " **已启用** "。 启用后，用于下载报告的选项将显示在 " **参与者** " 窗格中。
 
-若要阻止会议组织者下载报表，请将该参数设置为 " **已禁用**"。 默认情况下，此设置处于禁用状态，无法使用下载报表的选项。
+若要阻止会议组织者下载报表，请将该参数设置为 " **已禁用** "。 默认情况下，此设置处于禁用状态，无法使用下载报表的选项。
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>会议策略设置-岛模式的会议提供商
 
-这是每个用户的策略。 此设置控制将哪些 Outlook 会议加载项用于 *以孤岛模式*使用的用户。 你可以指定用户是否只能使用团队会议加载项或团队会议和 Skype for business 会议加载项在 Outlook 中安排会议。
+这是每个用户的策略。 此设置控制将哪些 Outlook 会议加载项用于 *以孤岛模式* 使用的用户。 你可以指定用户是否只能使用团队会议加载项或团队会议和 Skype for business 会议加载项在 Outlook 中安排会议。
 
 你只能将此策略应用到处于孤岛模式的用户，并在其团队会议策略中将 **AllowOutlookAddIn** 参数设置为 **True** 。
 
@@ -528,7 +529,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 - 将参数设置为 **TeamsAndSfB** 可在 Outlook 中启用团队会议加载项和 Skype for business 加载项。 此值为默认值。
 - 将该参数设置为 " **团队** "，仅在 Outlook 中启用团队会议外接程序。 此策略设置可确保所有未来会议都有团队会议加入链接。 它不会将现有 Skype for Business 会议加入链接迁移到团队。 此政策设置不会影响 Skype for Business 中的状态、聊天、PSTN 呼叫或任何其他功能，这意味着用户将继续使用 Skype for Business 进行这些功能。
 
-  如果你将参数设置为 " **团队**"，然后切换回 **TeamsAndSfB**，则将启用这两个会议加载项。 但是，请注意，现有团队会议联接链接不会迁移到 Skype for business。 只有在更改后安排的 Skype for Business 会议才会有 Skype for business 会议加入链接。
+  如果你将参数设置为 " **团队** "，然后切换回 **TeamsAndSfB** ，则将启用这两个会议加载项。 但是，请注意，现有团队会议联接链接不会迁移到 Skype for business。 只有在更改后安排的 Skype for Business 会议才会有 Skype for business 会议加入链接。
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>会议策略设置-视频筛选器模式
 

@@ -9,6 +9,7 @@ ms.topic: reference
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 localization_priority: Normal
 search.appverid: MET150
 description: 在本文中，你将了解安装和运行 Microsoft 团队所需的硬件要求。
@@ -19,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5aeeee4bf16a05b24056a6602f008b5ecaee12bb
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 90d59bb7753cfd26cf6d0b90835cf8cf27661641
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766755"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030268"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 

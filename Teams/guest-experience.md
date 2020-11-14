@@ -14,16 +14,17 @@ localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 本文介绍了适用于来宾用户的 Microsoft 团队功能。
-ms.openlocfilehash: 95d0fec7a1af8f735c66cc76fc27ecd3cf8bf956
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346203"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030288"
 ---
 # <a name="guest-experience-in-teams"></a>团队中的来宾体验
 
@@ -31,7 +32,7 @@ ms.locfileid: "48346203"
     
 ![显示欢迎电子邮件示例的屏幕截图](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标签表示团队的来宾数，以及每个来宾的名称旁边显示 ** (来宾) ** 标签。
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标签表示团队的来宾数，以及每个来宾的名称旁边显示 **(来宾)** 标签。
 
 ![显示指示团队中的来宾数的标记的屏幕截图](media/guest-experience-image2.png)
 
@@ -100,9 +101,9 @@ ms.locfileid: "48346203"
 
 > [!NOTE]
 > Azure Active Directory 中的 **来宾用户访问限制** 策略 (azure AD) 确定你的目录中的来宾的权限。 有三种政策选择。
->  - "**来宾用户拥有与成员（最包容）相同的访问权限**"设置表示来宾与目录中的普通用户一样具有相同的目录数据访问权限。
->  - "**来宾用户对目录对象的属性和成员身份拥有有限的访问权限** "设置表示来宾对某些目录任务没有权限，如枚举用户、组或其他使用 Microsoft Graph的目录资源。
->  - "**来宾用户访问权限仅限于其自己的目录对象属性和成员身份（最严格）**"设置表示来宾仅可访问自己的目录对象。
+>  - " **来宾用户拥有与成员（最包容）相同的访问权限** "设置表示来宾与目录中的普通用户一样具有相同的目录数据访问权限。
+>  - " **来宾用户对目录对象的属性和成员身份拥有有限的访问权限** "设置表示来宾对某些目录任务没有权限，如枚举用户、组或其他使用 Microsoft Graph的目录资源。
+>  - " **来宾用户访问权限仅限于其自己的目录对象属性和成员身份（最严格）** "设置表示来宾仅可访问自己的目录对象。
 >
 >要了解详细信息，请参阅[Azure Active Directory 中的默认用户权限是什么？?](https://go.microsoft.com/fwlink/?linkid=2135493)
 

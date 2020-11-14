@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 172253f0c1fe99043a21bf70309d81f71e392d4c
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 1c5120f60778879be0978cb80c56daf99e5b5a38
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878516"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031818"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 
@@ -53,7 +54,7 @@ ms.locfileid: "48878516"
 
 以下是直接路由的核心决策。 
 
-|询问你自己|操作 |
+|询问你自己|Action |
 | :------------|:-------|
 |哪些用户将启用直接路由？ | 有关详细信息，请参阅 [为直接路由服务启用用户](direct-routing-configure.md)。 |
 是否有直接路由所需的许可证？ | 有关详细信息，请参阅 [许可和其他要求](direct-routing-plan.md#licensing-and-other-requirements)。
@@ -63,7 +64,7 @@ ms.locfileid: "48878516"
 
 通过直接路由，你可以将自己的会话边界控制器 (SBC) 直接连接到电话系统。  有关已验证的 SBCs 的列表，请参阅 [支持的会话边界控制器](direct-routing-border-controllers.md)。
 
-|询问你自己|操作 |
+|询问你自己|Action |
 |:------------|:-------|
 | 我将在哪里以及如何部署 SBCs？ | 有关详细信息，请参阅 [配置直接路由](direct-routing-configure.md) | 
 我有多个租户吗？ | 有关详细信息，请参阅 [为多个租户配置会话边框控制器](direct-routing-sbc-multiple-tenants.md)。|
@@ -73,7 +74,7 @@ ms.locfileid: "48878516"
 
 您需要配置电话系统以将呼叫路由到特定的 SBCs。
 
-|询问你自己|操作 |
+|询问你自己|Action |
 |:------------|:-------|
 | 我需要创建哪些语音路由策略、PSTN 使用和语音路由？ | 有关语音路由信息，请参阅 [配置语音路由](direct-routing-configure.md)。
 | 哪些用户将分配给我定义的语音路由策略？ | 请参阅 [配置语音路由](direct-routing-configure.md)中的示例。 |
@@ -83,7 +84,7 @@ ms.locfileid: "48878516"
 
 直接路由仅受 Microsoft 团队支持。 要通过直接路由接收 PSTN 呼叫，您需要配置 TeamsUpgradePolicy 以确保在团队中接收传入呼叫。 用户必须位于 "仅团队" 模式下，你可以通过为其分配 TeamsUpgradePolicy 的 "UpgradeToTeams" 实例来执行此操作。 
 
-|询问你自己|操作 |
+|询问你自己|Action |
 |:------------|:-------|
 |团队的唯一模式意味着什么？ | 有关详细信息，请参阅 [与 Skype For business 一起使用团队的组织的迁移和互操作指南](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)。|
 |||
@@ -92,7 +93,7 @@ ms.locfileid: "48878516"
 
 根据组织的需要和配置，您可能需要考虑以下事项：
 
-| 询问你自己| 操作 |
+| 询问你自己| Action |
 | :------------|:-------|
 | 是否有配置了混合连接的现有 Skype for Business 服务器部署？ |  若要了解如何设置和管理混合环境中的用户帐户，请参阅 [具有 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)。| 
 | 您是否正在迁移以直接从呼叫计划或 Skype for business 内部部署环境中路由？ | 若要了解有关从现有环境迁移到直接路由的详细信息，请参阅 [迁移到直接路由](direct-routing-migrating.md)。 |

@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -24,30 +25,30 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 了解紧急电话，包括有关紧急地址、紧急呼叫路由和动态紧急呼叫的信息。
-ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 4f2ef86d05537a147a459fd6bc121f0680b534bd
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665154"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031598"
 ---
 # <a name="manage-emergency-calling"></a>管理紧急电话
 
 本文介绍管理紧急呼叫时需要了解的概念 &mdash; ，其中包括有关紧急地址、动态紧急地址和紧急呼叫路由的信息。 本文使用以下术语：
 
-- **紧急地址**-市政地址您的组织中的 &mdash; 企业位置的物理地址或街道地址。
+- **紧急地址** -市政地址您的组织中的 &mdash; 企业位置的物理地址或街道地址。
 
-  例如，地址 12345 "北卡罗来纳州"、 *"雷德蒙"、"WA" 和 "WA 98052* " 用于将紧急呼叫路由到相应的派遣机构，并帮助查找紧急呼叫方。
+  例如，地址 12345 "北卡罗来纳州"、  *"雷德蒙"、"WA" 和 "WA 98052* " 用于将紧急呼叫路由到相应的派遣机构，并帮助查找紧急呼叫方。
 
-- **置入**-通常为楼层、建筑物、翼形或办公室号码。 "地点" 与紧急地址相关联，以便在大楼内提供更准确的位置。 您可以拥有与紧急地址相关联的无限位数。 例如，如果您的组织有多个建筑物，您可能希望在每个建筑物内包括每个建筑物和每个楼层的位置信息。  
+- **置入** -通常为楼层、建筑物、翼形或办公室号码。 "地点" 与紧急地址相关联，以便在大楼内提供更准确的位置。 您可以拥有与紧急地址相关联的无限位数。 例如，如果您的组织有多个建筑物，您可能希望在每个建筑物内包括每个建筑物和每个楼层的位置信息。  
 
-- **紧急位置**-位置是 &mdash; 带有可选位置的市政地址。 如果您的企业有多个物理位置，则可能需要多个紧急位置。 
+- **紧急位置** -位置是 &mdash; 带有可选位置的市政地址。 如果您的企业有多个物理位置，则可能需要多个紧急位置。 
 
   创建紧急地址时，系统会自动为此地址创建一个唯一的位置 ID。  如果向建筑物地址添加一个位置 &mdash; ，例如，如果将楼层添加到建筑物地址，则会为 " &mdash; 紧急地址" 和 "地点" 的组合创建一个 "位置 ID"。  在此示例中，将有两个位置 Id：一个用于市政地址;一个用于加入的市政地址和关联位置。
 
   将紧急位置分配给用户或网站时，它是与用户或网站相关联的唯一位置 ID。
 
-- **已注册地址**-分配给每个呼叫计划用户的紧急地址;它有时被称为静态紧急地址或记录地址。  （注册的地址不适用于直接路由用户。）
+- **已注册地址** -分配给每个呼叫计划用户的紧急地址;它有时被称为静态紧急地址或记录地址。   (注册地址不适用于直接路由用户。 ) 
 
 使用团队管理中心为呼叫计划用户创建紧急地址。  
 
@@ -63,7 +64,7 @@ ms.locfileid: "44665154"
 
 ## <a name="emergency-address-geo-codes"></a>紧急地址地域代码
 
-每个紧急地址都可以具有与其关联的地域代码（纬度和经度）。 这些地理代码用于某些国家/地区，用动态位置帮助您路由紧急电话。 
+每个紧急地址都可以有地理代码 (纬度和经度) 与之关联的纬度和经度。 这些地理代码用于某些国家/地区，用动态位置帮助您路由紧急电话。 
 
 如果您通过使用 "团队管理中心" 中的地址映射搜索功能来定义紧急地址，则 geo 代码将自动与紧急地址相关联。 如果使用 PowerShell 定义地址，还可以将地域代码与地址相关联。 但是，Microsoft 建议使用团队管理中心中的 "映射搜索" 功能为通话计划创建紧急地址，这将确保地址已设置格式、验证，并具有相应的 geo 代码。  
 
@@ -73,7 +74,7 @@ ms.locfileid: "44665154"
 
 ## <a name="considerations-for-calling-plans"></a>通话计划的注意事项
 
-要了解您所在区域是否有通话计划，请参阅[电话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+要了解您所在区域是否有通话计划，请参阅 [电话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
 
 ### <a name="emergency-call-enablement"></a>紧急电话支持
@@ -84,19 +85,19 @@ ms.locfileid: "44665154"
 
 - 例如，在美国和加拿大，如果向用户分配了一个号码，则需要紧急位置。
 
-- 对于其他国家/地区（例如在欧洲、中东和非洲（EMEA）），当您获得来自 Microsoft 365 或 Office 365 的电话号码时，或者从另一个服务提供商或运营商处转移电话号码时，需要紧急位置。
+- 对于其他国家/地区（如欧洲、中东和非洲 (EMEA) ），当您从 Microsoft 365 或 Office 365 获取电话号码或从其他服务提供商或运营商处转移时，需要紧急位置。
 
 ### <a name="dynamic-emergency-calling"></a>动态紧急电话
 
-Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前位置配置和路由紧急呼叫的功能。 自动路由到相应的公共安全应答点（PSAP）或通知安全桌面人员的能力会有所不同，具体取决于团队用户使用的国家/地区。  
+Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前位置配置和路由紧急呼叫的功能。 自动路由到相应的公共安全应答点的能力 (PSAP) 或通知安全桌面人员取决于团队用户使用的国家/地区。  
 
-对于呼叫计划用户，仅在美国才支持用于路由紧急呼叫的动态位置，如下所示。 （有关动态紧急呼叫和直接路由的信息，请参阅[直接路由的注意事项](#considerations-for-direct-routing)。
+对于呼叫计划用户，仅在美国才支持用于路由紧急呼叫的动态位置，如下所示。  (有关动态紧急呼叫和直接路由的信息，请参阅 [直接路由的注意事项](#considerations-for-direct-routing)。
 
 - 如果美国呼叫计划的团队客户在美国动态获取紧急地址，则该地址将用于紧急路由，而不是注册地址，并且呼叫将自动路由到地址的服务区域中的 PSAP。
 
 - 如果美国通话计划的团队客户端不会动态获取美国内的紧急地址，则注册的紧急地址将用于帮助屏幕和路由呼叫。 但是，在将呼叫者连接到相应的 PSAP 之前，将对呼叫进行筛选以确定是否需要更新的地址。
 
-在美国，您必须配置属于紧急位置的市政地址，该地址是分配给网络标识符的紧急位置的一部分， &mdash; 并包含相关联的地域代码。 有关详细信息，请参阅[规划和配置动态紧急呼叫](configure-dynamic-emergency-calling.md)。
+在美国，您必须配置属于紧急位置的市政地址，该地址是分配给网络标识符的紧急位置的一部分， &mdash; 并包含相关联的地域代码。 有关详细信息，请参阅 [规划和配置动态紧急呼叫](configure-dynamic-emergency-calling.md)。
 
 
 ### <a name="emergency-call-routing"></a>紧急呼叫路由
@@ -117,15 +118,15 @@ Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前�
 
   - 如果紧急呼叫方无法将其紧急位置更新到 "筛选中心"，则该呼叫将转到服务于呼叫者的注册地址的 PSAP。
 
-  **在加拿大、爱尔兰和**英国，紧急电话先进行筛选，以便在将呼叫连接到相应的派遣中心之前确定用户的当前位置。 
+  **在加拿大、爱尔兰和** 英国，紧急电话先进行筛选，以便在将呼叫连接到相应的派遣中心之前确定用户的当前位置。 
 
-  **在法国、德国和西班牙**，紧急呼叫直接路由到 PSAP 与号码关联的紧急地址的服务，无论呼叫者的位置如何。
+  **在法国、德国和西班牙** ，紧急呼叫直接路由到 PSAP 与号码关联的紧急地址的服务，无论呼叫者的位置如何。
 
-  **在荷兰**，无论呼叫者的位置如何，都可以将紧急呼叫直接路由到号码的本地区号 PSAP。
+  **在荷兰** ，无论呼叫者的位置如何，都可以将紧急呼叫直接路由到号码的本地区号 PSAP。
 
-  **在澳大利亚**，由运营商合作伙伴配置和路由紧急地址。
+  **在澳大利亚** ，由运营商合作伙伴配置和路由紧急地址。
 
-  **在日本**，不支持紧急通话。
+  **在日本** ，不支持紧急通话。
 
 
 有关详细信息，请参阅：
@@ -138,11 +139,11 @@ Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前�
 
 ## <a name="considerations-for-direct-routing"></a>直接路由的注意事项
 
-如果您所在区域没有通话计划，或者您想要保留现有运营商，请考虑[直接路由](direct-routing-landing-page.md)。 有关详细信息，请参阅[配置直接路由](direct-routing-configure.md)和[管理紧急呼叫路由策略](manage-emergency-call-routing-policies.md)。
+如果您所在区域没有通话计划，或者您想要保留现有运营商，请考虑 [直接路由](direct-routing-landing-page.md)。 有关详细信息，请参阅 [配置直接路由](direct-routing-configure.md) 和 [管理紧急呼叫路由策略](manage-emergency-call-routing-policies.md)。
 
 ### <a name="emergency-call-enablement-and-configuration"></a>紧急电话支持和配置
 
-你必须使用团队紧急呼叫路由策略（TeamsEmergencyCallRoutingPolicy）为直接路由用户定义紧急呼叫策略，以定义紧急号码及其关联的路由目标。 （请注意，直接路由用户不支持注册的紧急位置。）
+你必须使用团队紧急呼叫路由策略 (TeamsEmergencyCallRoutingPolicy) 定义直接路由用户的紧急呼叫策略，以定义紧急号码及其关联的路由目标。  (请注意直接路由用户不支持注册的紧急位置。 ) 
 
 您可以将紧急呼叫路由策略分配给团队直接路由用户帐户和/或网络网站。 当团队客户端启动或更改网络连接时，团队将执行客户端所在的网络站点的查找，如下所示：
 
@@ -154,33 +155,33 @@ Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前�
 
 ### <a name="dynamic-emergency-calling"></a>动态紧急电话
 
-直接路由用户的团队客户可以获取动态紧急地址，该地址可用于根据呼叫者的位置动态路由呼叫。 有关详细信息，请参阅[配置动态紧急呼叫](configure-dynamic-emergency-calling.md)。
+直接路由用户的团队客户可以获取动态紧急地址，该地址可用于根据呼叫者的位置动态路由呼叫。 有关详细信息，请参阅 [配置动态紧急呼叫](configure-dynamic-emergency-calling.md)。
 
 ### <a name="emergency-call-routing"></a>紧急呼叫路由
 
-"紧急呼叫路由策略" 将引用联机 PSTN 使用，它必须具有适当的直接路由配置，才能将紧急呼叫正确路由到相应的 PSTN 网关。 特别是，必须确保紧急拨号字符串有 OnlineVoiceRoute。 有关详细信息，请参阅[配置直接路由](direct-routing-configure.md)。 
+"紧急呼叫路由策略" 将引用联机 PSTN 使用，它必须具有适当的直接路由配置，才能将紧急呼叫正确路由到相应的 PSTN 网关 (s) 。 特别是，必须确保紧急拨号字符串有 OnlineVoiceRoute。 有关详细信息，请参阅 [配置直接路由](direct-routing-configure.md)。 
 
-（注意：团队客户在紧急号码之前预置 "+" 登录，其方式与 Skype for Business 客户端的功能类似，即 + 911。 将在未来的几个月内修改此行为，这样，进行紧急通话的团队将不再发送号码前面的 "+";即911。）
+ (注意：团队客户在紧急号码之前预置 "+" 以与 Skype for Business 客户端相同的方式登录;即 + 911。 将在未来的几个月内修改此行为，这样，进行紧急通话的团队将不再发送号码前面的 "+";即，911. ) 
 
 为直接路由用户动态路由紧急电话的功能会有所不同，具体取决于给定国家内的紧急呼叫网络。 提供两种解决方案：
 
-- 紧急路由服务提供商（仅限美国） 
-- 紧急位置标识号码（ELIN）网关应用程序
+- 仅 (美国的紧急路线服务提供商)  
+-  (ELIN) 网关应用程序的紧急位置标识号码
 
 #### <a name="emergency-routing-service-providers"></a>紧急路由服务提供商
 
-在美国，有许多认证的紧急路线服务提供商（ERSPs）可以根据呼叫方的位置自动路由紧急电话。
+在美国，有许多认证的紧急路线服务提供商 (ERSPs) ，可根据呼叫者的位置自动路由紧急电话。
 
-- 如果将紧急路线服务提供商集成到直接路由部署中，则会将带有动态获取位置的紧急呼叫自动路由到服务该位置的公共安全应答点（PSAP）。
+- 如果将紧急路线服务提供商集成到直接路由部署中，则会将带有动态获取位置的紧急呼叫自动路由到公共安全应答点 (PSAP) 该位置。
 
 -  在将呼叫连接到基于更新的位置之前，没有动态获取的位置的紧急电话将首先进行筛选以确定用户的当前位置。
 
-有关详细信息，请参阅[为直接路由认证的会话边框控制器](direct-routing-border-controllers.md)。
+有关详细信息，请参阅 [为直接路由认证的会话边框控制器](direct-routing-border-controllers.md)。
 
 
-#### <a name="emergency-location-identification-number-elin-applications"></a>紧急位置标识号码（ELIN）应用程序
+#### <a name="emergency-location-identification-number-elin-applications"></a> (ELIN) 应用程序的紧急位置标识号码
 
-会话边框控制器（SBCs）可以包含紧急位置标识号（ELIN）应用程序。 如果将 SBC ELIN 应用程序集成到直接路由部署，则必须在 ELIN 应用程序中配置紧急地址和关联的电话号码，然后将 ELIN 记录上载到各自 PSTN 中的紧急调用数据库。  使用 ELIN 标识符的团队紧急位置必须匹配 ELIN 应用程序中的位置。
+会话边界控制器 (SBCs) 可以包括紧急位置标识号码 (ELIN) 应用程序。 如果将 SBC ELIN 应用程序集成到直接路由部署，则必须在 ELIN 应用程序中配置紧急地址和关联的电话号码，然后将 ELIN 记录上载到各自 PSTN 中的紧急调用数据库。  使用 ELIN 标识符的团队紧急位置必须匹配 ELIN 应用程序中的位置。
 
 当带有动态获取位置的紧急呼叫被路由到相应的 SBC 时，ELIN 应用程序：
 
@@ -191,14 +192,14 @@ Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前�
 
 在回拨紧急号码后，ELIN 应用程序将对原始紧急呼叫方执行反向拨叫的号码替换。 
 
-有关详细信息，请参阅[为直接路由认证的会话边框控制器](direct-routing-border-controllers.md)。
+有关详细信息，请参阅 [为直接路由认证的会话边框控制器](direct-routing-border-controllers.md)。
 
 
 ## <a name="security-desk-notification"></a>安全桌面通知
 
 Microsoft 通话计划和电话系统直接路由都提供了安全桌面通知。
 
-使用团队紧急呼叫政策（TeamsEmergencyCallingPolicy）来配置应在紧急呼叫期间收到通知的人员，以及通知方式：仅聊天、conferenced 或静音，以及取消静音的功能。  你还可以指定用户或组的外部 PSTN 号码呼叫并加入紧急呼叫。 
+使用团队紧急呼叫策略 (TeamsEmergencyCallingPolicy) 来配置应在紧急呼叫期间收到通知的人员，以及通知方式：仅限聊天、conferenced 或静音，但具有取消静音功能。  你还可以指定用户或组的外部 PSTN 号码呼叫并加入紧急呼叫。 
 
 紧急呼叫策略可授予团队用户帐户、分配给网络站点或两者。  当团队客户端启动或更改网络连接时，团队会执行客户端所在的网络站点的查找：
 
@@ -214,7 +215,7 @@ Microsoft 通话计划和电话系统直接路由都提供了安全桌面通知�
 ## <a name="related-topics"></a>相关主题
 
 - [管理紧急呼叫策略](manage-emergency-calling-policies.md)
-- [管理紧急呼叫路由策略](manage-emergency-call-routing-policies.md)
+- [管理紧急呼叫路由策略 ](manage-emergency-call-routing-policies.md)
 - [为你的组织添加、更改或删除紧急位置](add-change-remove-emergency-location-organization.md)
 - [为用户分配或更改紧急位置](assign-change-emergency-location-user.md)
 - [规划和配置动态紧急呼叫](configure-dynamic-emergency-calling.md)

@@ -14,23 +14,24 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
+- m365initiative-meetings
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a08a646ed2f89a857d2126ef9551bc84e6389a11
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: c6019c72d54ad48406060178389a66f8cdd9cee7
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203825"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030798"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
 > [!NOTE]
-> - 有关转换到远程学习和资源以帮助入门的概述，请参阅我们的[**远程学习主页**](https://www.microsoft.com/education/remote-learning)。
-> - 关于帮助教师和学生进行远程学习的资源，请访问[**在 Office 365 教育版中进行远程教学和学习**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)。
+> - 有关转换到远程学习和资源以帮助入门的概述，请参阅我们的 [**远程学习主页**](https://www.microsoft.com/education/remote-learning)。
+> - 关于帮助教师和学生进行远程学习的资源，请访问 [**在 Office 365 教育版中进行远程教学和学习**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)。
 
 
 你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 现在你准备添加会议工作负载，其中包括[音频会议](deploy-audio-conferencing-teams-landing-page.md)、视频和分享。 本文将引导你推广会议和音频会议。 首先观看我们的 Teams 会议、音频会议和设备视频（3:28 分钟）：
@@ -40,9 +41,9 @@ ms.locfileid: "48203825"
 要了解有关你的用户的会议体验的更多信息，请参阅[会议和通话](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。 
 
 
-*2020 年 4 月中的新增功能*：会议组织者可以通过单击会议中会议控件“**结束会议**”，结束 Teams 中所有会议参与者的会议。  
+*2020 年 4 月中的新增功能* ：会议组织者可以通过单击会议中会议控件“ **结束会议** ”，结束 Teams 中所有会议参与者的会议。  
 
-*2019 年 11 月的新增功能*：你现在可以[使用 Advisor for Teams（预览版）帮助推广 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams（预览版）将引导你推广 Teams（包括会议和音频会议）。 它将评估 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功在 Teams 中推广会议和音频会议。
+*2019 年 11 月的新增功能* ：你现在可以 [使用 Advisor for Teams（预览版）帮助推广 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams（预览版）将引导你推广 Teams（包括会议和音频会议）。 它将评估 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功在 Teams 中推广会议和音频会议。
 
  > [!Note]
 > 有关不同平台上 Teams 会议的详细信息，请参阅 [Teams功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -59,7 +60,7 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 
 在整个组织中大规模部署会议之前，请花时间检查并确认你的环境已准备好为用户提供最佳体验。 查看以下信息，并根据需要对你的环境进行任何必需的更改。
 
-若要获得最佳 Teams 体验，你的组织必须部署了 Exchange Online 和 SharePoint Online，并且你必须有适用于 O365 的已验证域（例如，*contoso.com*）。
+若要获得最佳 Teams 体验，你的组织必须部署了 Exchange Online 和 SharePoint Online，并且你必须有适用于 O365 的已验证域（例如， *contoso.com* ）。
 
 为了在整个组织中大规模部署会议，你应确保所有用户地点都有权访问 Internet，以便连接到 Office 365 服务。 至少应确保以下常用端口从用户的位置向 Internet 开放：-
 

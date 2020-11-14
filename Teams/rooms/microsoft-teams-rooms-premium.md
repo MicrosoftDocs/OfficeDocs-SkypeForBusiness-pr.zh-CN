@@ -10,18 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft 团队聊天室托管服务。
 f1keywords: ''
-ms.openlocfilehash: c7331b40f9aaf5b039da4bf76ae707734f885a82
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 73c23ec114044a1af212cf0ce7a7077531c566c0
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788326"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031398"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft 团队聊天室托管服务
 
@@ -82,7 +83,7 @@ Microsoft 团队聊天室托管服务通过专用 Microsoft 团队聊天室托�
 |**Microsoft 团队聊天室托管服务 SOC 的初始响应时间**   |  4 小时       |
 |**在客户不活动情况下自动关闭票证**    |客户发起的票证：3个工作日<br>系统启动的票证：15个工作日</li>   </ul>      |
 |**重定向到更广泛的 Microsoft 支持**   |与 Microsoft 团队聊天室托管服务范围之外的其他 Microsoft 产品相关的问题将定向到相应的支持团队。         |
-|** (OEM) 支持重定向到原始设备制造商**    |Microsoft 团队聊天室托管服务 SOC 适用于了解该问题以及在适用的位置，帮助与 OEM 协调支持。 在某些情况下，您可能负责直接与您的 OEM 直接合作。         |
+|**(OEM) 支持重定向到原始设备制造商**    |Microsoft 团队聊天室托管服务 SOC 适用于了解该问题以及在适用的位置，帮助与 OEM 协调支持。 在某些情况下，您可能负责直接与您的 OEM 直接合作。         |
 
 此外，请记住 Microsoft 团队聊天室托管服务 SOC 将帮助你的组织中的 IT 操作，而不是面向你的最终用户的帮助桌面服务的替代项。
 

@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: 从 Slack 迁移到 Microsoft Teams 的完整指南。
-ms.openlocfilehash: 142a573acaaf9b2d7da50ec2516fbc6c30f4ed2b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8b4fc90cde4bb438eee421459cf2c26672555b09
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581433"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030638"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>从 Slack 迁移到 Microsoft Teams
 
@@ -38,7 +39,7 @@ ms.locfileid: "46581433"
 ### <a name="what-you-can-and-cant-migrate"></a>可以迁移和无法迁移的内容
 Slack 服务计划将明确可以迁移和无法迁移的内容。 例如，某些 Slack 服务计划只允许你导出公共频道历史记录和文件，而其他计划则必须通过 DocuSign 请求将专用频道和直接消息纳入导出内容。 
 
-若要确定你的 Slack 工作区服务级别，请登录 Slack 并记下**关于此工作区**页面上的计划类型。
+若要确定你的 Slack 工作区服务级别，请登录 Slack 并记下 **关于此工作区** 页面上的计划类型。
 
 若要详细了解 Slack 导出选项，请转至 Slack 网站：https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
@@ -86,7 +87,7 @@ Slack 中的应用与 Teams 中的应用相差无几。 获得工作区中的应
 ### <a name="users"></a>用户
 你在 Slack 中使用的身份方案可能不会直接映射到 Microsoft 365 或 Office 365。 例如，Slack 用户的电子邮件地址可能不会映射到 Microsoft 365 或 Office 365 的工作或学校帐户。 开始规划 Teams 部署之前，你应创建用户 ID 映射。
 
-如果你使用的是 Slack 付费服务计划，可以转至 *<your Slack workspace>.slack.com/admin/stats#members*，获取每位用户的电子邮件地址和帐户类型等成员详细信息（例如，单频道来宾还是多频道来宾）。
+如果你使用的是 Slack 付费服务计划，可以转至 *<your Slack workspace>.slack.com/admin/stats#members* ，获取每位用户的电子邮件地址和帐户类型等成员详细信息（例如，单频道来宾还是多频道来宾）。
 
 你可以使用下面的脚本，将从 Slack 导出的电子邮件地址与 Azure AD 中的内容进行对比，以解决名称不明确的问题。 此外，它还会报告是否为用户启用了 Teams。 如需 PowerShell 方面的帮助，请参阅 [Azure PowerShell 入门](https://docs.microsoft.com/powershell/azure/get-started-azureps)。
 

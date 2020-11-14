@@ -17,21 +17,22 @@ ms.custom:
 - seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1bc33f681ce23eb98306e4bf8e375847f816e4e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 78fe1c8ad5da4203e5b04330c94c6cdb9914eedc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583711"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030998"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>免费升级 Microsoft 团队订阅版本
 
 如果你的组织使用的是免费版本的 Microsoft 团队，则可以通过购买适用于你的用户的 Microsoft 365 或 Office 365 订阅计划轻松升级到完整版本。 完整版本提供了更多团队功能，如计划、音频会议、增强的管理和安全功能——免费版本不提供。 Microsoft 365 和 Office 365 将熟悉的 Microsoft Office 桌面套件与基于云的 Microsoft 下一代通信和协作服务（包括 Exchange Online、SharePoint Online 和 Office）结合使用，以帮助用户从几乎任何地方通过 internet 进行工作。 升级团队时，现有团队数据将不会丢失;你的所有团队、频道、聊天、文件和权限都将随你提供。 
 
 > [!NOTE]
-> 如果您已有 Microsoft 365 或 Office 365 订阅，则有资格获得团队试用版 (与您的企业标识) ，而不是免费版本。 团队试用版在有限的时间段里提供团队的完整版本。 有关详细信息，请参阅[管理 Microsoft 团队商业版云试用版优惠](iw-trial-teams.md)。
+> 如果您已有 Microsoft 365 或 Office 365 订阅，则有资格获得团队试用版 (与您的企业标识) ，而不是免费版本。 团队试用版在有限的时间段里提供团队的完整版本。 有关详细信息，请参阅 [管理 Microsoft 团队商业版云试用版优惠](iw-trial-teams.md)。
 
 ## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>团队与团队的完全版本有何区别？
 
@@ -39,7 +40,7 @@ ms.locfileid: "46583711"
 
 - 500000最大用户数
 - 无限制聊天消息和搜索
-- 来宾访问
+- 来宾访问权限
 - 与应用和服务集成，包括 Word、Excel、PowerPoint 和 OneNote 的联机版本
 - 每个用户 2 GB 的存储空间和 10 GB 的共享存储空间
 - 1:1 和群组在线音频和视频通话
@@ -57,7 +58,7 @@ ms.locfileid: "46583711"
 - 增强的安全性和合规性功能，包括多重身份验证、单一登录和高级审核和报告
 - 管理控制和支持功能，包括 24 x 7 电话和 web 支持、用于管理用户和应用的管理工具、Microsoft 365 或 Office 365 服务的使用情况报告、服务级别协议以及可配置的用户设置和策略
 
-有关团队免费和团队功能的详细比较，请参阅[比较团队计划](https://products.office.com/microsoft-teams/free)。
+有关团队免费和团队功能的详细比较，请参阅 [比较团队计划](https://products.office.com/microsoft-teams/free)。
 
 ## <a name="upgrade-requirements"></a>升级要求
 
@@ -75,25 +76,25 @@ ms.locfileid: "46583711"
 
 - 升级后，您不能再切换回团队。
 - 无法将多个团队免费租户合并到单个付费租户中。
-- 所有用户都必须位于同一个域中。  (所有用户都将通过格式*用户名* @ *domain.com*获取登录。 ) 
+- 所有用户都必须位于同一个域中。  (所有用户都将通过格式 *用户名* @ *domain.com* 获取登录。 ) 
 - 必须升级所有用户：不支持与同一租户中的免费和付费订阅用户混合的团队。
 
 ## <a name="how-do-i-upgrade-my-organization"></a>如何升级我的组织？
 
-若要升级到团队的完整版本，请选择 "在团队中**升级**"。
+若要升级到团队的完整版本，请选择 "在团队中 **升级** "。
 
 ![显示 "升级" 按钮的屏幕截图](media/teams-freemium-upgrade-image1.png)
 
-输入用于登录团队的电子邮件地址，然后购买 Microsoft 365 商业标准计划。 如果您想要购买 Microsoft 365 商业基本版或 Office 365 的企业版，请[联系支持人员](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)。
+输入用于登录团队的电子邮件地址，然后购买 Microsoft 365 商业标准计划。 如果您想要购买 Microsoft 365 商业基本版或 Office 365 的企业版，请 [联系支持人员](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)。
 
 ## <a name="whats-next"></a>下一步做什么？
 
-升级完成后，请参阅[Microsoft 团队开始使用](get-started-with-teams-quick-start.md)的第一步，并[采纳 microsoft 团队](adopt-microsoft-teams-landing-page.md)以分阶段方式使用组织中的团队采纳。
+升级完成后，请参阅 [Microsoft 团队开始使用](get-started-with-teams-quick-start.md) 的第一步，并 [采纳 microsoft 团队](adopt-microsoft-teams-landing-page.md) 以分阶段方式使用组织中的团队采纳。
 
 ## <a name="more-information"></a>更多信息
 
-- 若要了解有关团队版本及其功能的详细信息，请参阅[比较团队计划](https://products.office.com/microsoft-teams/free)。
-- 有关升级到团队的完整版的详细信息，请参阅[从团队免费升级到团队](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)。
-- 有关与升级用户相关联的其他管理员任务，包括添加用户许可证、更改用户名和分配临时密码，请参阅[用于从团队免费升级到付费订阅的管理员](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)。
-- 有关在组织中管理团队免费的信息，请参阅[管理 Microsoft 团队的免费版本](manage-freemium.md)。
+- 若要了解有关团队版本及其功能的详细信息，请参阅 [比较团队计划](https://products.office.com/microsoft-teams/free)。
+- 有关升级到团队的完整版的详细信息，请参阅 [从团队免费升级到团队](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)。
+- 有关与升级用户相关联的其他管理员任务，包括添加用户许可证、更改用户名和分配临时密码，请参阅 [用于从团队免费升级到付费订阅的管理员](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)。
+- 有关在组织中管理团队免费的信息，请参阅 [管理 Microsoft 团队的免费版本](manage-freemium.md)。
 

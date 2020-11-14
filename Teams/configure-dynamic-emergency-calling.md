@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +18,12 @@ description: 了解如何配置 Microsoft 通话计划和电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 06153eccd343ef8731af38ff4e3b45cea334fcb2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269646"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031008"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -147,9 +148,9 @@ Azure 映射用于基于位置的服务。  使用 Microsoft 团队管理中心�
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在左侧导航中，转到 "**位置**  >  **网络" & 位置**。
-2. 单击表示要添加的网络标识符的选项卡。 例如，单击 " **子网**"、" **wi-fi 访问点**"、" **交换机**" 或 " **端口**"。 然后单击 " **添加**"。
-3. 填写字段，添加紧急位置，然后单击 " **应用**"。
+1. 在左侧导航中，转到 " **位置**  >  **网络" & 位置** 。
+2. 单击表示要添加的网络标识符的选项卡。 例如，单击 " **子网** "、" **wi-fi 访问点** "、" **交换机** " 或 " **端口** "。 然后单击 " **添加** "。
+3. 填写字段，添加紧急位置，然后单击 " **应用** "。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

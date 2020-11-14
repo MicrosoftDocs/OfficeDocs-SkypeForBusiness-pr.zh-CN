@@ -17,34 +17,35 @@ ms.custom:
 - seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bfd1e9ece85ff6bc5bce0791e1e82225894fdd1
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: e6c779499a03538fe245ef458892530cfe5eaf0e
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583851"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031788"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>管理 Microsoft Teams 的免费版本
 ==========================================
 
-在 Microsoft 团队的免费版本中，第一个注册组织的人员具有有限的管理员角色。 具有此受限角色的人员可以添加和删除团队成员，并指定任何人是否可以邀请其他成员，但此用户没有高级管理功能，也不能访问 Microsoft 团队管理中心。 若要了解详细信息，请参阅[邀请他人加入团队 (免费) ](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)。
+在 Microsoft 团队的免费版本中，第一个注册组织的人员具有有限的管理员角色。 具有此受限角色的人员可以添加和删除团队成员，并指定任何人是否可以邀请其他成员，但此用户没有高级管理功能，也不能访问 Microsoft 团队管理中心。 若要了解详细信息，请参阅 [邀请他人加入团队 (免费) ](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)。
 
-若要获取完整的团队功能集（包括增强的管理），您需要通过购买适用于您的用户的 Microsoft 365 或 Office 365 订阅计划来[升级到团队的完整版本](upgrade-freemium.md)。 
+若要获取完整的团队功能集（包括增强的管理），您需要通过购买适用于您的用户的 Microsoft 365 或 Office 365 订阅计划来 [升级到团队的完整版本](upgrade-freemium.md) 。 
 
-若要了解有关团队版本及其功能的详细信息，请参阅[比较团队计划](https://products.office.com/microsoft-teams/free)。
+若要了解有关团队版本及其功能的详细信息，请参阅 [比较团队计划](https://products.office.com/microsoft-teams/free)。
 
 
 
 ## <a name="more-information"></a>更多信息
 
-- 有关团队和团队之间的差异的快速摘要，请参阅[Microsoft 团队和 Microsoft 团队免费之间的差异](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c)。 
-- 有关升级到团队的完整版的详细信息，请参阅[从团队免费升级到团队](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39)和[升级 Microsoft 团队免费订阅版本](upgrade-freemium.md)。
-- 若要开始使用与升级用户相关联的其他管理任务（包括添加用户许可证、更改用户名和分配临时密码），请参阅[用于从团队免费升级到付费订阅的管理员](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52)。
+- 有关团队和团队之间的差异的快速摘要，请参阅 [Microsoft 团队和 Microsoft 团队免费之间的差异](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c)。 
+- 有关升级到团队的完整版的详细信息，请参阅 [从团队免费升级到团队](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) 和 [升级 Microsoft 团队免费订阅版本](upgrade-freemium.md)。
+- 若要开始使用与升级用户相关联的其他管理任务（包括添加用户许可证、更改用户名和分配临时密码），请参阅 [用于从团队免费升级到付费订阅的管理员](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52)。
 
 ## <a name="get-the-right-teams-trial"></a>获得合适的团队试用版
 
-- 作为免费团队的备用方案，请查看[团队探索性](teams-exploratory.md)。
+- 作为免费团队的备用方案，请查看 [团队探索性](teams-exploratory.md)。
 
-- 教育机构客户应使用免费的[Office 365 A1 许可证](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)。
+- 教育机构客户应使用免费的 [Office 365 A1 许可证](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)。

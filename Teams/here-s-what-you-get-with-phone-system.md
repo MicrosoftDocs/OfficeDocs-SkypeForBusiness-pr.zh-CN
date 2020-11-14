@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解功能、可用性以及如何为你的企业规划和设置 Microsoft Phone 系统。 '
-ms.openlocfilehash: 32c094860ee5ff102a541062616e038cf2f37be6
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b3a3da0a2cfd8038b3af84352c754c9014a1ad6c
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820566"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030398"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>电话系统的功能
 

@@ -12,24 +12,25 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 9212c096323eb57754e0a8a47b61649bec42de87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177567"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49033024"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备组织的网络 
 
 ## <a name="network-requirements"></a>网络要求
 
-如果您已经针对 [microsoft 365 或 Office 365 优化了](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)您的网络，您可能已经准备好参加 microsoft 团队。 在任何情况下，尤其是在开始团队推出之前，如果你作为第一个 Microsoft 365 或 Office 365 工作**remote workers**负荷快速推出，请检查以下事项：
+如果您已经针对 [microsoft 365 或 Office 365 优化了](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)您的网络，您可能已经准备好参加 microsoft 团队。 在任何情况下，尤其是在开始团队推出之前，如果你作为第一个 Microsoft 365 或 Office 365 工作 **remote workers** 负荷快速推出，请检查以下事项：
 
 1.  您的所有位置是否都有 internet 访问权限 (以便他们可以连接到 Microsoft 365 或 Office 365) ？ 除了普通 web 流量之外，请确保已针对团队中的媒体打开以下内容：
 
@@ -59,9 +60,9 @@ ms.locfileid: "48177567"
 验证满足这些网络要求后，您可能已准备好 [推出团队](How-to-roll-out-teams.md)。 如果你是大型跨国企业版，或者如果你知道你有一些网络限制，请继续阅读，了解如何评估和优化团队的网络。
 
 > [!IMPORTANT]
-> **对于教育机构**：如果你的组织是教育机构，并且你使用学生信息系统 (SIS) ，请在部署团队之前 [部署学校数据同步](https://docs.microsoft.com/schooldatasync/) 。
+> **对于教育机构** ：如果你的组织是教育机构，并且你使用学生信息系统 (SIS) ，请在部署团队之前 [部署学校数据同步](https://docs.microsoft.com/schooldatasync/) 。
 >  
-> **运行本地 skype for Business 服务器**：如果你的组织运行的是本地 skype For business server (或 Lync Server) ，则必须 [将 Azure AD Connect 配置](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) 为将本地目录与 Microsoft 365 或 Office 365 同步。
+> **运行本地 skype for Business 服务器** ：如果你的组织运行的是本地 skype For business server (或 Lync Server) ，则必须 [将 Azure AD Connect 配置](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) 为将本地目录与 Microsoft 365 或 Office 365 同步。
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>最佳做法：使用 CQD 和 call analytics 监控您的网络 
 

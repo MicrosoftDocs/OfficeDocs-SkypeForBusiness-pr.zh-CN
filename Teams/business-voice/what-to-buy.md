@@ -13,6 +13,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: ''
 appliesto:
@@ -24,18 +25,18 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 13c2e6dcb2f3f26fc016a96d9acabba4029d91ae
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: e80c54ef46c72769e7a3b0d4e6e696fba1202e70
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096827"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030788"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>若要使用 Microsoft 365 商务语音，需要购买什么？
 
 ## <a name="microsoft-365-business-voice-licenses"></a>Microsoft 365 商务语音许可证
 
-若要在 Microsoft Teams 中拨打或接听*外部*电话号码，用户需要 Microsoft 365 商务语音许可证。 该许可证为他们提供拨打或接听电话、主持音频会议等所需的所有功能。
+若要在 Microsoft Teams 中拨打或接听 *外部* 电话号码，用户需要 Microsoft 365 商务语音许可证。 该许可证为他们提供拨打或接听电话、主持音频会议等所需的所有功能。
 
 如果用户不需要拨打或接听外部电话号码，则只需要 Teams。 这种情况下，他们不需要 Microsoft 365 商务语音许可证。
 
@@ -43,7 +44,7 @@ ms.locfileid: "43096827"
 
 ### <a name="business-voice-license-types"></a>商务语音许可证类型
 
-商务语音许可证有两种类型：**包含**通话套餐的商务语音和**不包含**通话套餐的商务语音。 适用的商务语音许可证的类型取决于 Microsoft 365 租户的位置。 许可证类型确定是否可以自行设置商务语音，是否需要 Microsoft 合作伙伴或经销商的帮助，由谁来管理您的电话号码等。
+商务语音许可证有两种类型： **包含** 通话套餐的商务语音和 **不包含** 通话套餐的商务语音。 适用的商务语音许可证的类型取决于 Microsoft 365 租户的位置。 许可证类型确定是否可以自行设置商务语音，是否需要 Microsoft 合作伙伴或经销商的帮助，由谁来管理您的电话号码等。
 
 - **包含通话套餐的商务语音** 可以从 Microsoft 购买商务语音，使用“入门”向导设置商务语音，然后将现有电话号码设置或转移到 Microsoft。 [使用“入门”向导设置商务语音](use-getting-started-wizard.md)一文介绍了如何为租户设置商务语音。 
 
@@ -56,9 +57,9 @@ ms.locfileid: "43096827"
 
 ## <a name="business-voice-with-calling-plan"></a>包含通话套餐的商务语音
 
-含通话套餐的商务语音包含一个国内通话套餐，每个月提供一定数量的分钟数，可以在你所在国家/地区或区域内拨打电话。 如果想拨打其他国家或地区的电话，可以购买国际通话套餐。 你可以使用*通信点数*来支付国际通话套餐、国内通话套餐的每月额外分钟数以及免费电话的费用。 本文后面部分将提供有关通话套餐和通信点数的详细信息。
+含通话套餐的商务语音包含一个国内通话套餐，每个月提供一定数量的分钟数，可以在你所在国家/地区或区域内拨打电话。 如果想拨打其他国家或地区的电话，可以购买国际通话套餐。 你可以使用 *通信点数* 来支付国际通话套餐、国内通话套餐的每月额外分钟数以及免费电话的费用。 本文后面部分将提供有关通话套餐和通信点数的详细信息。
 
-若要购买含通话套餐的 Microsoft 365 商务语音许可证，请登录[管理中心](https://admin.microsoft.com/Adminportal/Home#/homepage)，然后转到“**帐单**” > “**购买服务**”。
+若要购买含通话套餐的 Microsoft 365 商务语音许可证，请登录 [管理中心](https://admin.microsoft.com/Adminportal/Home#/homepage)，然后转到“ **帐单** ” > “ **购买服务** ”。
 
 ### <a name="calling-plans"></a>通话套餐
 

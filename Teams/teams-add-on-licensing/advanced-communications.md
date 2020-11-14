@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d596bb890ad2976ec16179f845397df5e27bc38
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 591ab2f93212e518c89b3cbacda82332b4c4957d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321655"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031208"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>适用于 Microsoft 团队的高级通信加载项
 
@@ -33,9 +34,9 @@ ms.locfileid: "48321655"
 
 高级通信提供增强的呼叫和会议功能，可满足一系列通信需求，包括以下内容：
 
-- **访问更**20000 多的受众：帮助您的用户与1000参与者的活动活动保持联系，最多可在仅查看的会议体验中支持最多20000个参与者。
-- **定制和自定义会议**：针对内部和自定义方案（如自定义品牌的会议厅等功能）在会议中推动标准化。 在组织的各个部门中实施灵活性。 
-- **管理组织通信**：监控、跟踪和分析用户和设备上的数据，以确保体验顺利。
+- **访问更** 20000 多的受众：帮助您的用户与1000参与者的活动活动保持联系，最多可在仅查看的会议体验中支持最多20000个参与者。
+- **定制和自定义会议** ：针对内部和自定义方案（如自定义品牌的会议厅等功能）在会议中推动标准化。 在组织的各个部门中实施灵活性。 
+- **管理组织通信** ：监控、跟踪和分析用户和设备上的数据，以确保体验顺利。
 
 高级通信可在所有 Microsoft 365 市场中作为任何付费的 Microsoft 365 或 Office 365 订阅的加载项。 高级通信中包含的功能不会添加到其他 Microsoft 365 或 Office 365 计划，也不能单独购买。 若要获取这些功能，必须购买加载项。
 

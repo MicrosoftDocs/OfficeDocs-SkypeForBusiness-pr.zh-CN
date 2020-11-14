@@ -8,16 +8,17 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解组织中的团队用户与 Skype (消费者) 用户之间的互操作性功能。
 localization_priority: Normal
-ms.openlocfilehash: 18031f9d1f4ae9a4e42525f8c722259590349c24
-ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
+ms.openlocfilehash: 9bb38fa33e7ef3692f5946fef4769bb45f782f1a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48925424"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030968"
 ---
 # <a name="teams-and-skype-interoperability"></a>团队和 Skype 互操作性
 

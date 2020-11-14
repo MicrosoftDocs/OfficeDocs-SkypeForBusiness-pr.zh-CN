@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: 631adf514044f67db5691513d231af28cc817d90
+ms.sourcegitcommit: f378b07dd9e57454d8614fcb529d364e9269c375
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827746"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021139"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -30,10 +30,14 @@ ms.locfileid: "48827746"
 
 
 |日期|活动|
-|---|-----------------|
-|第4季度早些 CY20|**OneDrive for business 和 SharePoint 上的团队会议录制可供选择加入或选择退出。**<br> 租户管理员可以选择加入或退出 OneDrive for Business 和 SharePoint 设置 PowerShell 中的团队策略|
-|第4季度中旬 CY20|**OneDrive for business 和 SharePoint 上的团队会议录制设置为未选择的租户的默认设置**<br> 这是适用于大多数客户的推荐途径|
-|第1季度 CY21|**不再允许将团队会议录制保存到经典流**<br>所有租户均可将团队会议录制内容保存到 OneDrive for business 和 SharePoint|
+|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+|2020年10月5日| 你可以启用团队会议策略以将会议录制保存到 OneDrive for business 和 SharePoint，而不是 Microsoft Stream (经典) |
+|从2021年1月11日开始推出|所有新团队会议录制都将保存到 OneDrive for business 和 SharePoint，除非你通过修改组织的团队会议策略并将其显式设置为 **流** 来延迟此更改。 以流的形式查看策略报告不足。 你需要将策略值显式设置为 " **流** "。|
+|从2021年3月1日开始推出|**企业客户**<br>不能将新会议录制保存到 Microsoft Stream (经典) ;所有客户都将自动将会议录制保存到 OneDrive for business 和 SharePoint，即使他们已将其团队会议策略更改为 " **流** "。 我们建议客户在此日期之前滚出此功能，以便他们可以控制发布的计时。 |
+|从2021年7月7日开始推出|**教育客户**<br>不能将新会议录制保存到 Microsoft Stream (经典) ;所有客户都将自动将会议录制保存到 OneDrive for business 和 SharePoint，即使他们已将其团队会议策略更改为 " **流** "。 我们建议客户在此日期之前滚出此功能，以便他们可以控制发布的计时。 我们已更新此计划，让教育客户能够完成正在进行的学期。 |
+
+> [!Note]
+> 我们建议让企业和教育客户更好地控制你的组织中的更改，无论何时对更改感到满意，而不是等待它发生时，都可以选择加入。 
 
 Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsoft Stream 过渡到 [新流](https://docs.microsoft.com/stream/streamnew/new-stream)的第一阶段，此方法将录制存储在 microsoft 365 中的 microsoft OneDrive for Business 和 SharePoint 中，并提供许多好处。
 

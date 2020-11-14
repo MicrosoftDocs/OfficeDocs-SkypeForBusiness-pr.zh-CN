@@ -7,7 +7,7 @@ ms.date: 01/28/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
+ms.reviewer: dstrome
 description: 通过推出你的第一个团队和频道来开始使用 Teams，以便能够在组织中部署之前建立你的 Teams 体验。
 localization_priority: Priority
 search.appverid: MET150
@@ -15,20 +15,21 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ee5abda84737a75b539fdc808f30abf78dd797d4
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 0d59a3dbecb10a1666949273023112fa09961639
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583189"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030428"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
 > [!IMPORTANT]
-> 如果你要快速部署 Microsoft Teams 来应对增长的支持**远程办公**的需求，请使用这份入门指南向你的整个组织部署 Teams。 即使 Teams 已经是你的第一个 Microsoft 365 或 Office 365 工作负载，也可使用本指南。
+> 如果你要快速部署 Microsoft Teams 来应对增长的支持 **远程办公** 的需求，请使用这份入门指南向你的整个组织部署 Teams。 即使 Teams 已经是你的第一个 Microsoft 365 或 Office 365 工作负载，也可使用本指南。
 
 若要快速开始使用 Teams，我们建议为挑选出的一组早期采用者创建两三个团队和频道。 通过首先小规模部署 Teams，你将通过使用 Teams 来学习 Teams，并获得宝贵的见解来了解如何在整个组织中部署 Teams。 如果是小型企业，你只需通过本快速入门指南便可将 Teams 部署到整个组织。
 
@@ -44,9 +45,9 @@ Teams 使你能将组织内外的人员快速集中到一起形成一个团队�
 - 步骤 3：[监视使用情况和反馈](get-started-with-teams-monitor-usage-and-feedback.md)
 - 步骤 4：[获取资源，计划在组织范围内进行部署](get-started-with-teams-resources-for-org-wide-rollout.md)
 
-如果是大型组织、拥有混合或本地 Skype for Business 配置、有严格的规章或合规性要求，或者你想要部署会议或语音功能（例如呼叫计划或电话系统），请首先阅读[如何部署 Teams](how-to-roll-out-teams.md)。 我们建议你仍然从**入门**这一部分着手，并开始规划组织范围内的部署。 “用 Teams 来规划 Teams。” 首先利用聊天、团队、频道和应用小规模部署 Teams，然后逐步扩大规模。 这些最初的经验将帮助你宣传 Teams，在整个组织内激发兴奋情绪，为你的下一投放阶段做好准备。 
+如果是大型组织、拥有混合或本地 Skype for Business 配置、有严格的规章或合规性要求，或者你想要部署会议或语音功能（例如呼叫计划或电话系统），请首先阅读[如何部署 Teams](how-to-roll-out-teams.md)。 我们建议你仍然从 **入门** 这一部分着手，并开始规划组织范围内的部署。 “用 Teams 来规划 Teams。” 首先利用聊天、团队、频道和应用小规模部署 Teams，然后逐步扩大规模。 这些最初的经验将帮助你宣传 Teams，在整个组织内激发兴奋情绪，为你的下一投放阶段做好准备。 
 
-如果你是一家小型企业，或者**你要快速部署 Teams 来支持新出现的远程工作者**，请使用这份入门指南在你的组织中全面部署 Teams。 请务必查看专为小型业务提供、便于在组织中更轻松更简便地进行部署的模板。 请参阅[适用于中小型企业的 Teams 模板](https://docs.microsoft.com/microsoftteams/smb-templates)。
+如果你是一家小型企业，或者 **你要快速部署 Teams 来支持新出现的远程工作者** ，请使用这份入门指南在你的组织中全面部署 Teams。 请务必查看专为小型业务提供、便于在组织中更轻松更简便地进行部署的模板。 请参阅[适用于中小型企业的 Teams 模板](https://docs.microsoft.com/microsoftteams/smb-templates)。
 
 ## <a name="before-you-get-started"></a>开始之前
 

@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '了解如何为 Microsoft 365 或 Office 365 (PSTN 会议) 许可证设置用户可以拨入的电话会议的试用或购买音频会议。 '
-ms.openlocfilehash: a1492d7adc67be8fcac100f179514a1e9a2c948a
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 8f2aa7d8fdbf6c3088c483e4d5f941625e2a8da8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788436"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031268"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 Microsoft 团队的 Microsoft 365 中试用或购买音频会议
 
@@ -46,11 +47,11 @@ ms.locfileid: "46788436"
 
 1. 了解你所在国家/地区是否提供 **音频会议** 。 [音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-2. 获取**音频会议**许可证。 如果想要：
+2. 获取 **音频会议** 许可证。 如果想要：
 
-   - 在购买之前**试用**它：您可以注册一个包括音频会议的 Office 365 企业版 E5 免费试用版。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
+   - 在购买之前 **试用** 它：您可以注册一个包括音频会议的 Office 365 企业版 E5 免费试用版。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-   - **购买**：请参阅 [Microsoft 团队附加许可] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 。
+   - **购买** ：请参阅 [Microsoft 团队附加许可] https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 。
 
 3. [将许可证分配](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 给组织中打算安排或主持会议的用户。
 
@@ -62,7 +63,7 @@ ms.locfileid: "46788436"
   
 1. 了解你所在国家/地区是否提供 **音频会议** 。 [音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-2. 获取**音频会议**许可证。 若要获取按分钟付费音频会议许可证，请联系你的客户代表。
+2. 获取 **音频会议** 许可证。 若要获取按分钟付费音频会议许可证，请联系你的客户代表。
 
 3. 为你的组织[设置通信信用点数](set-up-communications-credits-for-your-organization.md)。 若要设置通信点数，请参阅[什么是通信点数？](what-are-communications-credits.md)
 
@@ -82,7 +83,7 @@ ms.locfileid: "46788436"
 
 ## <a name="step-3-other-admin-tasks"></a>第 3 步：其他管理任务
 
-以下步骤为**可选**步骤，但很多管理员喜欢执行这些操作：
+以下步骤为 **可选** 步骤，但很多管理员喜欢执行这些操作：
 
 1. [自定义会议邀请](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)。 为用户设置的拨入号码将自动添加到要发送给与会者的会议邀请中。 但是，你也可以添加自己的帮助和法律链接、文本消息和比较小的公司图形。
 

@@ -15,16 +15,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 06b79bc049d25493e2fc6e221dca5f298f55e18d
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 05e1f03d260fe9ee5fc3af21f8d67dd905419358
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656263"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030568"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft 团队中创建团队时规划 Microsoft 365 组
 ==========================================================
@@ -44,7 +45,7 @@ ms.locfileid: "46656263"
 > [!NOTE]
 > 此功能在私人预览版中，这意味着如果你不是此预览的一部分，则团队还不会遵守此 Microsoft 365 组命名策略。
 
-若要了解详细信息，请阅读[团队中的 Microsoft 365 组命名策略](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
+若要了解详细信息，请阅读 [团队中的 Microsoft 365 组命名策略](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
 以下文章是查找 Microsoft 365 组的准备情况和采纳内容的好地方：
 

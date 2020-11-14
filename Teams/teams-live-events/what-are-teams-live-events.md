@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
@@ -18,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a70986ad8329d9f90485f59aeac1f61d3309fd31
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 4b873c7f6f2b53ee0111ee628851050092467b28
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800647"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031448"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什么是 Microsoft 团队实时事件
 
