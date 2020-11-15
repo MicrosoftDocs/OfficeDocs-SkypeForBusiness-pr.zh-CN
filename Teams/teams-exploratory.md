@@ -15,19 +15,20 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a266d9d3ea8fd572cca171768174d86094a8c945
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: f27dc7e8772e25b6dcc91622cabec421e058af7b
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766965"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031478"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams 探索许可证
 =======================================================
 
-借助 Microsoft Teams 探索体验，组织中拥有 Azure Active Directory (AAD) 且未获得 Teams 许可的用户可以启用 Teams 的探索体验。 管理员可以为组织中的用户打开或关闭此功能。 以前的 [Microsoft 商业云试用版](iw-trial-teams.md)现在替换为 Teams 探索体验。
+Microsoft Teams 探索性体验让组织中拥有 Azure 域服务（Azure AD）但未获得 Teams 许可的用户可以启动 Teams 的探索性体验。管理员可以为其组织中的用户开启或关闭此功能。The Teams Exploratory体验现在已取代了早期的 [Microsoft 商业云试用版](iw-trial-teams.md)。
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams 探索体验中包含哪些服务
 
@@ -48,11 +49,11 @@ ms.locfileid: "48766965"
 - 适用于 Microsoft 365 或 Office 365 的 PowerApps
 - SharePoint Online（计划 1）
 - Sway
-- 微软待办（计划 1）
+- 待办事项（计划 1）
 - Whiteboard（计划 1）
 - Yammer Enterprise
 
-  <sup>1</sup> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](tmr-meeting-recording-change.md) 将是一种分阶段的方法。 启动时，你可以选择加入此体验。 在 11 月，如果想继续使用 Stream，你将必须选择退出。 2021 年初，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+  <sup>1</sup> 从使用 Microsoft Stream 到使用 [OneDrive for Business 和 SharePoint for meeting 进行会议录制](tmr-meeting-recording-change.md)到改变将是一个分阶段的方式。 在发布时，你将可以选择加入这种体验。在11月，如果你必须选择是否要继续使用Stream。在2021年初，我们将要求所有客户使用OneDrive for Business 和 SharePoint 获取新的会议录制。
 
 ## <a name="whos-eligible"></a>谁有资格使用
 
@@ -61,7 +62,7 @@ ms.locfileid: "48766965"
 - 具有托管 Azure AD 域电子邮件地址。
 - 属于付费订阅的租户。
 
-必须允许用户注册应用和试用版（在 Microsoft 365 管理中心中）。 有关详细信息，请参阅本文后面部分的[管理 Teams 探索体验](#manage-the-teams-exploratory-experience)。
+必须启用用户注册应用程序和试用版（在 Microsoft 365 管理中心）。有关更多信息，请参见稍后在本文出现的[管理团队探索性体验](#manage-the-teams-exploratory-experience)。
 
 ## <a name="who-isnt-eligible"></a>谁没有资格使用
 
@@ -74,13 +75,13 @@ ms.locfileid: "48766965"
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>如何注册 Teams 探索体验？
 
-符合条件的用户可通过登录到 Teams ([teams.microsoft.com](https://teams.microsoft.com)) 注册 Teams 探索体验。 将自动向其分配此许可证，并且租户管理员会在组织中有人首次启动 Teams 探索体验时收到一封电子邮件通知。
+符合条件的用户可以通过登录 Teams（[teams.microsoft.com ](https://teams.microsoft.com)）来注册 Teams Exploratory 体验。将自动向他们分配此许可证，并且当组织中有人首次启动 Teams Exploratory 体验时，租户管理员将收到电子邮件通知。
 
 ## <a name="manage-the-teams-exploratory-experience"></a>管理 Teams 探索体验
 
 Teams 探索体验设计为由单独的最终用户启动，你不能代表最终用户员工启动此服务。
 
-Teams 探索体验附带 Exchange Online 许可证，但它不会在管理员进行分配前分配给用户。 如果用户没有 Exchange 许可证并且管理员尚未分配 Exchange Online 许可证，则用户将无法在 Teams 中计划会议，并且可能无法使用其他 Teams 功能。
+Teams Exploratory 体验自带 Exchange Online 许可证，但在管理员分配之前将不会分配给用户。如果用户还没有 Exchange 许可证，而管理员也未分配 Exchange Online 许可证，那么用户将无法在 Teams 中安排会议，并且可能会错过其他 Teams 功能。
 
 管理员可以通过使用 **试用版应用和服务** 开关，禁用最终用户在其组织内运行 Teams 探索体验的功能。
 
@@ -101,7 +102,7 @@ Teams 探索体验附带 Exchange Online 许可证，但它不会在管理员进
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>为拥有包含 Teams 的许可证的用户管理可用性
 
-分配了包含 Teams 的许可证的用户不符合获取 Teams 探索体验的条件。 启用 Teams 服务计划时，用户可登录并使用 Teams。 如果禁用服务计划，则用户无法登录，并且 Teams 探索体验不可用。 必须具有管理员权限。
+已分配到包含 Teams 许可证的用户尚无资格获得 Teams 探索体验。当 Teams 服务计划开启时，用户可以登录并使用 Teams。如果已禁用服务计划，则用户无法登录，并且无法使用 Teams 探索体验。你必须拥有管理员权限。
 
 关闭对 Teams 的访问：
 
@@ -117,7 +118,7 @@ Teams 探索体验附带 Exchange Online 许可证，但它不会在管理员进
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>为已在使用 Teams 探索体验的用户管理 Teams 可用性
 
-如果用户运行 Teams 探索体验，则可以通过删除许可证或服务计划将其关闭。 必须具有管理员权限。
+如果用户正在运行 Teams Exploratory 体验，你可通过删除许可证或服务计划将其关闭。你必须拥有管理员权限。
 
 若要关闭 Teams 探索体验许可证，请执行以下操作：
 
@@ -130,11 +131,11 @@ Teams 探索体验附带 Exchange Online 许可证，但它不会在管理员进
 4. 在“ **产品许可证** ”窗格中，将此探索许可证的开关切换为“ **关** ”。
 
     >[!Note]
-    >组织中的第一位用户启动 Teams 探索体验后，将显示 Teams 探索切换开关。
+    >组织中的第一位用户启动 Teams Exploratory 体验后，将显示 Teams Exploratory 切换开关。
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>为拥有 Teams 探索许可证的用户管理 Teams
 
-你可以管理拥有 Teams 探索许可证的用户，就像管理具有常规付费许可证的用户一样。 有关详细信息，请参阅[为你的组织管理 Teams 设置](enable-features-office-365.md)。
+可以像管理拥有普通付费许可证的用户一样管理拥有 Teams Exploratory 许可证的用户。有关更多信息，请参见[为你的组织管理Teams 设置](enable-features-office-365.md)。
 
 ### <a name="upgrade-users-from-the-teams-exploratory-license"></a>从 Teams 探索许可证升级用户
 
@@ -142,20 +143,20 @@ Teams 探索体验附带 Exchange Online 许可证，但它不会在管理员进
 
 1. 购买包含 Teams 的订阅。
 
-2. 删除用户的 Teams 探索订阅。
+2. 删除用户的 Teams Exploratory 订阅。
 
 3. 分配新购买的许可证。
 
 有关详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 > [!NOTE]
-> 如果 Teams Exploratory 许可证结束，并且用户没有立即升级到包含 Teams 的订阅，那么他们有 30 天的宽限期，然后再过 30 天后数据将被删除。 用户仍存在于 Azure Active Directory 中。 一旦将新的许可证分配给用户以再次启用 Teams 功能，则如果在宽限期时间范围内添加用户，则所有内容仍将存在。
+> 如果 Teams Exploratory 许可证已结束，而用户没有立即升级到包含 Teams 的订阅，则他们有 30 天的宽限期，在这 30 天之后就要删除数据。用户仍然存在于 Azure 域服务中。如果用户在宽限期内添加订阅，则一旦为用户分配了新的许可证以再次启用 Teams 功能，所有内容将仍然存在。
 
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>这对旧版 Microsoft Teams 商业云试用版许可证有何影响
 
-从 2020 年 2 月起，符合条件的用户可开始使用最新的 Microsoft Teams 探索体验。 所有旧版 Teams 商业云试用版许可证将在试用版到期前自动转换为新的服务。
+从2020年2月起，符合条件的用户可以开始使用最新的 Microsoft Teams 探索版体验。所有遗留的 Teams 商业云试用许可证将在试用版期满前自动转换为新的优惠。
 
-当用户首次登录到其过期的 Teams 商业云试用版时，我们会自动向该用户分配 Teams 探索体验许可证。 用户在登录前不会进行转换。
+当用户首次登录过期的 Teams 商业云试用版时，我们会自动为这些用户分配一个 Teams 探索版体验授权。在用户在登录前不会转换。
 
 ### <a name="remove-a-teams-exploratory-license"></a>删除 Teams 探索许可证
 
@@ -169,7 +170,7 @@ Teams 探索体验附带 Exchange Online 许可证，但它不会在管理员进
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams 探索体验持续多长时间
 
-在 2021 年 1 月或之后的下一个 **协议周年日** 或 **续订** 前，使用 Microsoft Teams 探索体验都是免费的。 届时，Microsoft 探索体验许可证的最终用户需要迁移到包含 Teams 的付费许可证。 此后启动的任何 Microsoft 探索体验许可证在下一个 **周年日** 或 **续订** 周期前一直都是免费的。
+在下一个 **协议周年纪念日** 或 2021 年 1 月或之后的 **续约** 之前，Microsoft Teams 探索体验无需支付额外费用。届时，使用 Microsoft 探索体验许可证的最终用户将需要转为包含 Teams 的付费许可证。在此后启动的任何 Microsoft 探索体验许可证将始终可用，且在你的下一个 **周年纪念日** 或 **续约周期** 之前无需支付额外费用。
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>如果最终用户刚好在我的周年纪念或续订日期前启动 Microsoft Teams 探索体验，会发生什么情况
 
@@ -177,7 +178,7 @@ Teams 探索体验附带 Exchange Online 许可证，但它不会在管理员进
 
 ### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>如果我的协议没有周年日或每年的续约日期（例如逐月协议），该怎么办
 
-对于无周年日或年度续订日期的协议，第一位最终用户后面的年份激活 Microsoft Teams 探索体验许可证将被视为周年日或续订日期。 根据上述策略，必须在每年的此日期之前将拥有 Microsoft Teams 探索许可证的用户转换为付费许可证。
+对于没有周年纪念日或年度续约日期的协议，将会将第一个最终用户激活 Microsoft Teams 探索体验许可证后的下一年视为周年纪念日或续约日。Microsoft Teams 探索许可证上的用户必须根据本文中概述的政策，在每年的该日期之前转换为付费许可证。
 
 例如，如果第一位最终用户在 2020 年 6 月 19 日激活了 Microsoft Teams 探索，则他们和客户租户中的所有其他符合条件的用户必须在 2021 年 6月 19 日之前转换为 Teams 付费许可证。
 
