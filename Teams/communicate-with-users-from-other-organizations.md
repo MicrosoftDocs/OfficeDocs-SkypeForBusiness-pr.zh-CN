@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
@@ -17,17 +18,17 @@ description: 了解如何使用外部访问（联合身份验证）和来宾访�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 0535798a506adf839391c9e9075ff1e68398e341
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 401b63aad667d355516486deb6f056e0995dbe26
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878666"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031808"
 ---
 <a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>在 Microsoft Teams 中与其他组织的用户进行通话和聊天
 ======================================================
 
-当需要与组织外部的人员进行通信和协作时，Microsoft Teams 为你提供了两种不同的方法来实现这一目的。 第一个 – **外部访问** （联合身份验证）– 可用于查找、呼叫和与其他域（例如 contoso.com）中的用户进行聊天。 第二个 – **来宾访问** – 允许你使用个人的电子邮件地址将其作为来宾添加到团队中。 你可以像与组织中的其他任何用户一样与来宾协作。
+当你需要与组织外部人员进行沟通和协作时，Microsoft Teams 提供了两种不同的方法来实现这一目的。第一 – **外部访问** （联合身份验证） – 可用于查找、呼叫和与其他域（例如 contoso.com）中的用户聊天。第二 – **访客访问** – 使你可以使用其电子邮件地址将个人作为来并添加到你的团队中。可以像与组织中的其他任何用户一样与访客协作。
 
 如果需要，可同时使用外部访问和来宾访问（它们彼此之间不相排斥）。
 
@@ -35,21 +36,21 @@ ms.locfileid: "48878666"
 
 ## <a name="external-access"></a>外部访问
 
-当需要允许其他域中的外部用户查找、呼叫你、与你聊天和安排会议的解决方案时，可使用 **外部访问** （联合身份验证）。 外部用户无权访问贵组织的团队或团队资源。 当你要与仍在 Skype for Business（在线或本地）或 Skype（将在 2020 年初推出）上的阻止外部用户进行通信时，请选择外部访问。 
+当需要允许其他域中的外部用户查找、呼叫、聊天和安排会议的解决方案时，可使用 **外部访问** （联盟）。外部用户无法访问你组织的团队或团队资源。当你想要与仍在使用 Skype for Business（在线或本地）或 Skype （将于2020年年初推出）的组织外部用户进行沟通时，请选择外部访问。 
 
-默认情况下，Teams 中的外部访问处于启用状态，这意味着你的组织可以与所有外部域进行通信。 Teams 管理员可以将其关闭，也可以指定要包含（或排除）的域。 要了解详细信息，请参阅[管理外部访问](manage-external-access.md)。 
+外部访问在 Teams 中默认为开启，这意味着你的组织可以与所有外部域进行通信。Teams 管理员可以将其关闭或指定要包括（或排除）的域。若要了解更多信息，请参阅[管理外部访问](manage-external-access.md)。 
 
 如果希望外部用户拥有访问团队和频道的权限，则选择使用[来宾访问](#guest-access)可能是更好的方法。 
 
 
-## <a name="guest-access"></a>来宾访问
+## <a name="guest-access"></a>来宾访问权限
 
-使用 **来宾访问** 将单个用户（无论来自哪个域）添加到团队，以便他们可以聊天、呼叫、召开会议和使用Microsoft 365 或 Office 365 应用（如 Word、Excel 或 PowerPoint）就组织文件（存储在 SharePoint 或 OneDrive for Business）进行协作。 可以为来宾用户提供与本机团队成员几乎所有相同的 Teams 功能。 要了解详细信息，请阅读 [Teams 中的来宾访问](guest-access.md)。
+使用 **来宾访问** 将个人用户（无论域）添加到团队中，以便他们可以使用 Microsoft 365 或者 Office 365 应用程序（例如 Word、Excel 或 PowerPoint）就组织文件（存储在 SharePoint 或 OneDrive for Business中）进行聊天、通话、开会和协作。来宾用户可以获得与本地团队成员几乎相同的所有团队功能。要了解更多信息，请阅读 [Teams 中的访客访问](guest-access.md)。
 
 - 来宾已添加到组织的 Active Directory 中。
-- 要与来宾通信，来宾必须使用其来宾帐户登录到 Teams。 这意味着，来宾可能必须注销自己的 Teams 帐户才能登录到你的 Teams 帐户，如果它们是同一个帐户请切换组织。
+- 要与访客沟通，访客必须使用他们的访客账户登录到 Teams。这意味着访客可能需要从自己的 Teams 账户中注销才能登录到你的 Teams 账户，如果是同一个账户，则需要切换组织。
 - 与外部访问（联合）用户相比，来宾用户有权访问 Teams 中的更多资源（例如文件、团队和频道）。
-- Teams 管理员在 Teams 管理中心中控制来宾可以（或不可）执行的所有操作。 要了解详细信息，请阅读[管理来宾访问](manage-guests.md)。
+- Teams 管理员在 Teams 管理中心中控制来宾可以（或无法）执行的所有操作。要了解更多信息，请阅读[管理访客访问](manage-guests.md)。 
 
 如果你已准备好在组织中启用来宾访问，请从[在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)开始。
 
@@ -88,7 +89,7 @@ ms.locfileid: "48878666"
 <sup>2</sup> 仅通过电子邮件或会话初始协议 (SIP) 地址。<br>
 <sup>3</sup> 外部（联合）聊天仅可为一对一。<br>
 <sup>4</sup> 支持来自两个不同组织的仅 Teams 对仅 Teams 用户的一对一聊天。 <br>
-<sup>5</sup> 默认情况下，外部参与者看不到拨入参与者的电话号码。 如果想要保持这些电话号码的隐私，请选择“ **进入/退出公告类型** ”的“ **提示音** ”（这会阻止 Teams 读出电话号码）。 若要了解详细信息，请参阅[在 Microsoft Teams 中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
+<sup>5</sup> 默认情况下，外部参与者无法看到已拨入的参与者的电话号码。如果想要维持这些电话号码的隐私，请选择 **进入/退出公告类型** （这会阻止Teams读取号码）的 **音调** 。若要了解更多详细信息，请参阅 [在Microsoft Teams中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
 
 ## <a name="related-topics"></a>相关主题
 
