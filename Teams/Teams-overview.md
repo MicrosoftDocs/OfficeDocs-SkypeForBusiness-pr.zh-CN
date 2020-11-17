@@ -6,24 +6,25 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: LolaJ
+ms.reviewer: serdars
 description: 找到在组织中部署 Microsoft Teams 的正确途径。 了解 Teams 基础结构以及如何与 Microsoft 365 或 Office 365 配合使用。
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11fe80ef9ee96b0eb1c4c9f4ebc1613549efc059
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582459"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030978"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
@@ -34,7 +35,7 @@ ms.locfileid: "46582459"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-若要获取最终用户 Teams 帮助，请单击应用左侧的“帮助”****，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。 有关培训，请访问 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。 
+若要获取最终用户 Teams 帮助，请单击应用左侧的“帮助”，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。 有关培训，请访问 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。 
 
 ## <a name="teams-architecture"></a>Teams 体系结构
 
@@ -92,7 +93,7 @@ Teams 是 Microsoft 365 和 Office 365 中的主要智能通信客户端，它�
 
 - **Yammer** 用于整个组织中的人员进行联系。 可推动公司范围的计划、共享最佳做法以及就共同的兴趣、领域或做法主题进行交流。 可汇聚众人的想法来提倡整个公司的人员进行开放式讨论。
 
-- **Office 应用**是大家都知道并经常使用的所有熟悉的工具，包括 Word、Excel、PowerPoint 和 OneNote。 
+- **Office 应用** 是大家都知道并经常使用的所有熟悉的工具，包括 Word、Excel、PowerPoint 和 OneNote。 
 
 ## <a name="teams-content-updates"></a>Teams 内容更新
 
