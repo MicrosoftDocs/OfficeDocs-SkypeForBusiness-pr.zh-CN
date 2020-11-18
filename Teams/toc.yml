@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: 准备环境
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: 要求
               href: rooms/requirements.md
             - name: 联机许可
               href: rooms/rooms-licensing.md
@@ -504,6 +504,8 @@
               href: aa-cq-cqd-historical-reports.md
             - name: 拨号和语音参考
               href: dial-voice-reference.md
+            - name: Reporting
+              href: aa-cq-cqd-historical-reports.md
         - name: 阻止拨入通话
           href: block-inbound-calls.md
         - name: 呼叫寄存和检索
