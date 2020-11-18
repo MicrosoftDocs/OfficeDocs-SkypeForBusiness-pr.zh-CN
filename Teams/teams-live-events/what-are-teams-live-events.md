@@ -19,18 +19,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b873c7f6f2b53ee0111ee628851050092467b28
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031448"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085556"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什么是 Microsoft 团队实时事件
 
 ## <a name="overview"></a>概述
 
-有了团队生活中的活动，您的组织中的用户可以将视频和会议内容广播给大型在线受众。
+通过团队实时事件，你组织中的用户可以将视频和会议内容广播到大型在线受众。
 
 Microsoft 365 实时事件将实时视频流传送到新级别。 实时事件通过在实时事件之前、期间和之后的与会者鼓励整个服务生命周期中的连接。 你可以使用 Microsoft Stream、团队或 Yammer 在你的受众、团队或社区所驻留的任何位置创建实时事件。  
 
@@ -48,7 +48,7 @@ Microsoft 365 实时事件将实时视频流传送到新级别。 实时事件�
 
 ## <a name="key-components"></a>关键组件
 
-您可以从上面的图片中看到，有四个关键组件与团队中的实时事件一起使用。
+从上图中，你可以看到与团队中的实时事件一起使用的五个关键组件。
 
 > [!NOTE]
 > 有关如何设置实时事件和与会者体验的概述，请查看这些简短 [视频](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)。
@@ -63,11 +63,11 @@ Microsoft 365 实时事件将实时视频流传送到新级别。 实时事件�
 
 视频输入是实时事件的基础，它可能会因单个网络摄像头而异。 Microsoft 365 中的实时事件支持各种生产方案，包括使用网络摄像头或在外部应用或设备中生成的事件在团队中生成的事件。 您可以根据其项目要求和预算选择这些选项。 可通过两种方式生成事件：
 
-- **团队** ：此生产方法允许用户使用其网络摄像头在团队中生成活动事件，或使用来自团队室系统的/V 输入。 如果你想要使用连接到电脑或邀请远程演示者参与事件的音频和视频设备，此选项是最佳和最快的选项。 此选项允许用户轻松使用其网络摄像头并在事件中共享其屏幕作为输入。
+- **团队**：此生产方法允许用户使用其网络摄像头在团队中生成活动事件，或使用来自团队室系统的/V 输入。 如果你想要使用连接到电脑或邀请远程演示者参与事件的音频和视频设备，此选项是最佳和最快的选项。 此选项允许用户轻松使用其网络摄像头并在事件中共享其屏幕作为输入。
 
     ![使用 "快速入门" 方法生成的实时事件](../media/teams-live-events-quick-start.png "屏幕截图显示使用快速入门生产方法生成的实时事件")
 
-- **外部应用或设备** ：外部编码器允许用户直接从具有 [流](https://stream.microsoft.com)的外部硬件或基于软件的编码器生成实时事件。 如果你已经有了录音室 quality 设备，则最好使用此选项 (例如，media mixers) 支持 (RTMP) 服务流的实时消息传递协议。 这种类型的生产通常在大规模事件（如 executive 城镇 halls）中使用，即将媒体混合器中的单个流广播给观众的位置。
+- **外部应用或设备**：外部编码器允许用户直接从具有 [流](https://stream.microsoft.com)的外部硬件或基于软件的编码器生成实时事件。 如果你已经有了录音室 quality 设备，则最好使用此选项 (例如，media mixers) 支持 (RTMP) 服务流的实时消息传递协议。 这种类型的生产通常在大规模事件（如 executive 城镇 halls）中使用，即将媒体混合器中的单个流广播给观众的位置。
 
     ![使用外部应用或设备生成的实时事件](../media/teams-live-events-external-encoder.png "显示使用外部应用或设备生产方法生成的实时事件的屏幕截图")
 
@@ -78,8 +78,8 @@ Microsoft 365 实时事件将实时视频流传送到新级别。 实时事件�
 
 实时事件流平台由以下部分组成：
 
-- **Azure 媒体服务** ：  [azure 媒体服务](https://docs.microsoft.com/azure/media-services/previous/) 为你提供了一种广播质量的视频流服务，可在当今最常用的移动设备上与更大的受众联系。 媒体服务增强了辅助功能、分发和可伸缩性，并让您能够轻松、经济高效地将内容流式传输给您的本地或全球受众，同时保护内容。
-- **Azure 内容交付网络 (CDN)** ：一旦你的流投入使用，它将通过 [Azure 内容交付网络 (CDN)](https://docs.microsoft.com/azure/cdn/)提供。 Azure 媒体服务为流式处理终结点提供集成的 CDN。 这允许在全球查看流，无缓冲。
+- **Azure 媒体服务**：  [azure 媒体服务](https://docs.microsoft.com/azure/media-services/previous/) 为你提供了一种广播质量的视频流服务，可在当今最常用的移动设备上与更大的受众联系。 媒体服务增强了辅助功能、分发和可伸缩性，并让您能够轻松、经济高效地将内容流式传输给您的本地或全球受众，同时保护内容。
+- **Azure 内容交付网络 (CDN)**：一旦你的流投入使用，它将通过 [Azure 内容交付网络 (CDN)](https://docs.microsoft.com/azure/cdn/)提供。 Azure 媒体服务为流式处理终结点提供集成的 CDN。 这允许在全球查看流，无缓冲。
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络 (eCDN) 
 

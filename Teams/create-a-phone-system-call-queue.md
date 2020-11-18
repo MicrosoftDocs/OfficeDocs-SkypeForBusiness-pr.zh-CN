@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何为具有 Microsoft 团队的呼叫队列设置电话系统，这些团队提供问候语、举行音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: b9c611a31550be8dbae541ef24c63c746d5edb86
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49033007"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49089340"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
-通话队列提供了一种将呼叫者路由到组织中的人员的方法，可帮助解决特定问题。 通话将一次分发给队列中的人员， (称为 *代理* ) 的人员。 
+通话队列提供了一种将呼叫者路由到组织中的人员的方法，可帮助解决特定问题。 通话将一次分发给队列中的人员， (称为 *代理*) 的人员。 
 
 通话队列提供：
 
@@ -47,7 +47,7 @@ ms.locfileid: "49033007"
 
 请确保你拥有 [团队自动助理和呼叫队列](plan-auto-attendant-call-queue.md) 的阅读计划，然后按照本文中的步骤操作，然后按照 [入门步骤](plan-auto-attendant-call-queue.md#getting-started) 操作。
 
-若要设置呼叫队列，请在 "团队管理中心" 中，展开 " **语音** "，单击 " **呼叫队列** "，然后单击 " **添加** "。
+若要设置呼叫队列，请在 "团队管理中心" 中，展开 " **语音**"，单击 " **呼叫队列**"，然后单击 " **添加**"。
 
 ## <a name="resource-account-and-language"></a>资源帐户和语言
 
@@ -55,11 +55,11 @@ ms.locfileid: "49033007"
 
 1. 键入呼叫队列的名称。 当代理接收来自队列的传入呼叫时，将看到此名称。
 
-2. 单击 " **添加帐户** "，搜索要与此通话队列一起使用的资源帐户，单击 " **添加** "，然后单击 " **添加** "。
+2. 单击 " **添加帐户**"，搜索要与此通话队列一起使用的资源帐户，单击 " **添加**"，然后单击 " **添加**"。
 
 3. 选择一种语言。 此语言将用于系统生成的语音提示和语音邮件操作 (如果启用这些功能) 。
 
-## <a name="greetings-and-hold-music"></a>问候语和定格音乐
+## <a name="greetings-and-music-on-hold-in-queue"></a>在队列中保留的问候语和音乐
 
 指定是否希望在呼叫者到达队列时向其播放问候语。 必须上载包含要播放的问候语的 MP3、WAV 或 WMA 文件。
 
@@ -71,20 +71,15 @@ ms.locfileid: "49033007"
 
 ## <a name="call-agents"></a>呼叫代理
 
-所选呼叫代理必须是以下各项之一： 
-
-- 使用电话系统许可证和启用企业语音的联机用户
-- 使用呼叫计划的在线用户
-- 本地 Skype for Business 服务器用户
-- 如果你的代理正在使用 Microsoft 团队应用进行呼叫队列呼叫，则他们必须处于 TeamsOnly 模式。
+请参考 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) ，以便能够将代理添加到呼叫队列。
 
 ![呼叫队列的用户和组设置的屏幕截图](media/call-queue-users-groups.png)
 
 你可以通过组将多达20个代理分别和最多添加到200个代理。
 
-若要将用户添加到队列，请依次单击 " **添加用户** "、"搜索用户"、" **添加** "，然后单击 " **添加** "。
+若要将用户添加到队列，请依次单击 " **添加用户**"、"搜索用户"、" **添加**"，然后单击 " **添加**"。
 
-若要将组添加到队列，请依次单击 " **添加组** "、"搜索组"、" **添加** "，然后单击 " **添加** "。 你可以使用通讯组列表、安全组和 Microsoft 365 组或 Microsoft 团队团队。
+若要将组添加到队列，请依次单击 " **添加组**"、"搜索组"、" **添加**"，然后单击 " **添加**"。 你可以使用通讯组列表、安全组和 Microsoft 365 组或 Microsoft 团队团队。
 
 > [!NOTE]
 > 添加到组的新用户最多可能需要八个小时才能达到首次通话的时间。
@@ -93,7 +88,7 @@ ms.locfileid: "49033007"
 
 ![会议模式和路由方法设置的屏幕截图](media/call-queue-conference-mode-routing-method.png)
 
-在代理接受呼叫后， **会议模式** 会显著减少呼叫者连接到代理所需的时间量。 若要使会议模式正常工作，呼叫队列中的代理必须使用下列客户端之一：
+在代理接受呼叫后，**会议模式** 会显著减少呼叫者连接到代理所需的时间量。 若要使会议模式正常工作，呼叫队列中的代理必须使用下列客户端之一：
 
   - Microsoft 团队桌面客户端、Android 应用或 iOS 应用的最新版本
   - Microsoft 团队手机版本 1449/1.0.94.2020051601 或更高版本
@@ -116,7 +111,7 @@ ms.locfileid: "49033007"
 !["路由"、"退出" 和 "警报时间" 设置的屏幕截图](media/call-queue-presence-agents-time.png)
 
 
-**基于状态的路由** 使用呼叫代理的可用性状态来确定是否应将代理包括在所选路由方法的 "呼叫路由" 列表中。 其可用性状态设置为 " **可用** " 的呼叫代理包括在 "呼叫" 传送列表中，并且可以接收呼叫。 其可用性状态设置为任何其他状态的代理将从呼叫路由列表中排除，并且在其可用性状态更改为 " **可用** " 之前不会收到呼叫。 
+**基于状态的路由** 使用呼叫代理的可用性状态来确定是否应将代理包括在所选路由方法的 "呼叫路由" 列表中。 其可用性状态设置为 " **可用** " 的呼叫代理包括在 "呼叫" 传送列表中，并且可以接收呼叫。 其可用性状态设置为任何其他状态的代理将从呼叫路由列表中排除，并且在其可用性状态更改为 " **可用**" 之前不会收到呼叫。 
 
 你可以使用任何路由方法启用基于状态的呼叫路由。
 
@@ -140,7 +135,7 @@ ms.locfileid: "49033007"
 
 **队列中的最大通话** 次数指定可在任何给定时间在队列中等待的最大通话次数。 默认值为50，但范围可以从0到200。 达到此限制时，将按照 **当达到最大调用次数时** 指定的方式处理调用。
 
-您可以选择断开呼叫或将其重定向到除操作员之外的任何 [呼叫传送目的地](create-a-phone-system-auto-attendant.md#call-routing-options) 。 例如，您可能会让呼叫者在队列中留下有关代理的语音邮件。  (如果您要转移到外部号码，请注意 [这些详细信息](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) 。 ) 
+您可以选择断开呼叫或将其重定向到任何呼叫传送目的地。 例如，您可能会让呼叫者在队列中留下有关代理的语音邮件。 对于外部传输，请参阅 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) 和 [外部电话号码传输-数字格式的技术详细信息](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 。
 
 > [!NOTE]
 > 如果将最大通话次数设置为0，则不会播放问候语。
@@ -149,11 +144,11 @@ ms.locfileid: "49033007"
 
 ![通话超时设置的屏幕截图](media/call-queue-timeout-handling.png)
 
-**呼叫超时：最长等待时间** 指定呼叫在重定向或断开连接之前可以在队列中保留的最长时间。 你可以指定从15秒到45分钟的值。
+**呼叫超时：最长等待时间** 指定呼叫在重定向或断开连接之前可以在队列中保留的最长时间。 你可以指定从0秒到45分钟的值。
 
-您可以选择断开呼叫或将其重定向到呼叫传送目的地之一。 例如，您可能会让呼叫者在队列中留下有关代理的语音邮件。
+您可以选择断开呼叫或将其重定向到呼叫传送目的地之一。 例如，您可能会让呼叫者在队列中留下有关代理的语音邮件。 对于外部传输，请参阅 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) 和 [外部电话号码传输-数字格式的技术详细信息](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 。
 
-选择您的通话超时选项后，单击 " **保存** "。
+选择您的通话超时选项后，单击 " **保存**"。
 
 ## <a name="caller-id-for-outbound-calls"></a>用于出站呼叫的来电显示
 

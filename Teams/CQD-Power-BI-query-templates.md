@@ -16,22 +16,22 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 分析 Microsoft 团队的 CQD 数据。
-ms.openlocfilehash: 256b2264cef4b84dc4f9d9881c960d357cee28e5
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908641"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085566"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 分析 Microsoft 团队的 CQD 数据
 
-2020年1月 [的新增功能：下载 CQD 的 POWER BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 可用于分析和报告 CQD 数据的自定义 Power BI 模板。
+2020年1月 [的新增功能：下载 CQD 的 POWER BI 查询模板](https://www.microsoft.com/download/details.aspx?id=102291)。 可用于分析和报告 CQD 数据的自定义 Power BI 模板。
 
 对于通话质量仪表板 (CQD) 团队中的报表，如果你希望使用 Power BI 查询和报告数据，请下载我们的 CQD Power BI 模板。 打开 Power BI 中的模板时，系统将提示你通过 CQD 管理员凭据登录。 你可以自定义这些查询模板，并将其分发给你组织中具有 Power BI 许可证和 CQD 管理员权限的任何人。
 
-在你可以使用这些 PBIT 文件之前，你需要使用 [下载](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的 *MicrosoftCallQuality* 文件 [安装 Microsoft CQD 的 Power BI 连接器](CQD-Power-BI-connector.md)。 
+在你可以使用这些 PBIT 文件之前，你需要使用 [下载](https://www.microsoft.com/download/details.aspx?id=102291)中包含的 *MicrosoftCallQuality* 文件 [安装 Microsoft CQD 的 Power BI 连接器](CQD-Power-BI-connector.md)。 
 
-请确保你拥有访问 Power BI 报表的正确 [CQD 访问角色](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) 。 
+请确保你拥有访问 Power BI 报表的正确 [CQD 访问角色](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 。 
 
 |  |  |
 |---------|---------|
