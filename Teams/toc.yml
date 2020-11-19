@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: 准备环境
               href: rooms/rooms-prep.md
-            - name: 要求
+            - name: Requirements
               href: rooms/requirements.md
             - name: 联机许可
               href: rooms/rooms-licensing.md
@@ -490,10 +490,6 @@
               href: create-a-phone-system-auto-attendant.md
             - name: 呼叫队列设置
               href: create-a-phone-system-call-queue.md
-            - name: 小型企业示例 - 设置自动助理
-              href: tutorial-org-aa.yml
-            - name: 小型企业示例 - 设置呼叫队列
-              href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
             - name: 管理 Teams 资源帐户
               href: manage-resource-accounts.md
             - name: 设置假日
@@ -1063,16 +1059,20 @@
           href: business-voice/customize-business-voice.md
         - name: 转移电话号码
           href: business-voice/port-phone-numbers.md
-        - name: 设置自动助理
-          href: business-voice/set-up-auto-attendants.md
         - name: 设置通话策略
           href: business-voice/set-up-policies.md
         - name: 管理策略包
           href: business-voice/policy-packages.md
         - name: 创建其他用户
           href: business-voice/create-users.md
+        - name: 示例-设置呼叫队列
+          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 设置呼叫队列
           href: business-voice/set-up-call-queues.md
+        - name: 示例-设置自动助理
+          href: tutorial-org-aa.yml
+        - name: 设置自动助理
+          href: business-voice/set-up-auto-attendants.md
     - name: 管理设置
       items:
         - name: 创建一个或多个用户
@@ -1285,7 +1285,7 @@
               href: CQD-data-and-reports.md
             - name: 使用 CQD 管理通话和会议质量
               href: quality-of-experience-review-guide.md
-            - name: 常见问题
+            - name: 常见问题解答
               href: CQD-frequently-asked-questions.md
             - name: CQD 中可用的维度和衡量指标
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
