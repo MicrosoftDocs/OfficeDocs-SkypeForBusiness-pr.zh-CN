@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 591ab2f93212e518c89b3cbacda82332b4c4957d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 6502f73d39c61eaa933d126cebb71f3123bdd541
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031208"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130383"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>适用于 Microsoft 团队的高级通信加载项
 
@@ -35,8 +35,8 @@ ms.locfileid: "49031208"
 高级通信提供增强的呼叫和会议功能，可满足一系列通信需求，包括以下内容：
 
 - **访问更** 20000 多的受众：帮助您的用户与1000参与者的活动活动保持联系，最多可在仅查看的会议体验中支持最多20000个参与者。
-- **定制和自定义会议** ：针对内部和自定义方案（如自定义品牌的会议厅等功能）在会议中推动标准化。 在组织的各个部门中实施灵活性。 
-- **管理组织通信** ：监控、跟踪和分析用户和设备上的数据，以确保体验顺利。
+- **定制和自定义会议**：针对内部和自定义方案（如自定义品牌的会议厅等功能）在会议中推动标准化。 在组织的各个部门中实施灵活性。 
+- **管理组织通信**：监控、跟踪和分析用户和设备上的数据，以确保体验顺利。
 
 高级通信可在所有 Microsoft 365 市场中作为任何付费的 Microsoft 365 或 Office 365 订阅的加载项。 高级通信中包含的功能不会添加到其他 Microsoft 365 或 Office 365 计划，也不能单独购买。 若要获取这些功能，必须购买加载项。
 
@@ -72,10 +72,10 @@ ms.locfileid: "49031208"
 通过高级通信，任何有超过300个与会者的会议都将提供一种方法，让多达1000参与者拥有交互式体验，最多可让20000参与者加入会议，只需查看仅查看的体验。 实时事件启用其他功能。 在实时事件中，20000与会者可以观看广播，并与问答&A 内团队、Yammer 中的对话或 Microsoft Stream 中的 "仅限查看" 进行交互。 此外，我们还将实时事件的长度从4小时增加到16小时，并为每个租户启用最多50并发实时事件。 
 
 >[!Note]
-> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+> 从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](../tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 > [!NOTE]
-> 企业和教育 Sku 可以暂时保留多达20000个与会者的活动事件，每个广播的事件持续时间为16小时，而租户中的50个并发事件在年10月 1 2020 日之前。
+> 企业和教育 Sku 可以暂时保留多达20000个与会者的活动事件，每个广播的事件持续时间为16小时，而租户中的50个并发事件截至年1月 2021 1 日。
 
 ## <a name="related-topics"></a>相关主题
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解 (SBCs) 已认证直接路由的会话边框控制器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d5671740e5ecf64bb676f222625c2ee42e78347
-ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
+ms.openlocfilehash: c092df13f2bde66286f9971ff9969e10cc198271
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999246"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130443"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -80,6 +80,7 @@ Microsoft 与每位供应商协作：
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    适用于企业 ( ASBCE 的 Avaya 会话边框控制器)     |     &#10004;     |           |       发布8.1。1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 会话边界控制器    |     &#10004;     |           |       19.5 (1908)        |     |    | 
 |                     [Italtel](https://www.italtel.com/)|    NetMatch CI     |     &#10004;     |           |       5.0       |     |    | 
+|                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 
 <br/>
 <br/>

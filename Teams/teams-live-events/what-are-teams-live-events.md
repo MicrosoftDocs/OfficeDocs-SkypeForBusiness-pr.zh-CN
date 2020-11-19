@@ -1,31 +1,16 @@
 ---
-title: Microsoft Teams 实时事件是什么？
-author: lanachin
-ms.author: v-lanac
-manager: serdars
-ms.topic: conceptual
-ms.service: msteams
-ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-ms.reviewer: sonua
-audience: admin
-search.appverid: MET150
-description: 了解实时事件如何使用户能够将视频和内容广播到团队、Yammer 和流中的大型在线受众。
-f1.keywords:
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
-appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085556"
+标题：什么是 Microsoft 团队实时事件？作者： lanachin： lanac 管理器： serdars ms. 主题：概念 ms. 服务： msteams ms. 集合： 
+  - M365-协作
+  - m365initiative-会议
+  - m365solution-spcomms
+- m365solution： sonua 受众：管理员搜索。 appverid： MET150 说明：了解实时事件如何使用户能够将视频和内容广播到团队、Yammer 和流中的大型在线受众。
+f1 关键字： 
+- CSH ms. 自定义：
+  - helparticle liveevents 的 teamsadmincenter
+  - teamsadmincenter 和 liveevents 的 appliesto： 
+  - Microsoft Teams
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>什么是 Microsoft 团队实时事件
 
 ## <a name="overview"></a>概述
@@ -72,7 +57,7 @@ Microsoft 365 实时事件将实时视频流传送到新级别。 实时事件�
     ![使用外部应用或设备生成的实时事件](../media/teams-live-events-external-encoder.png "显示使用外部应用或设备生产方法生成的实时事件的屏幕截图")
 
 >[!Note]
-> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+> 从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](../tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 ### <a name="streaming-platform"></a>流式处理平台
 

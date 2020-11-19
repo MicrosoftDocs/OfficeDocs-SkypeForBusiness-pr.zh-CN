@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- enabler-strategic
 description: 了解如何管理组织中保留的团队实时事件的设置。
 f1.keywords:
 - CSH
@@ -20,18 +21,18 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afbcd90db9a17f509076bae1271bf541dfb93fd4
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: f3731a43e16b7853a4370a61b848499383d51ffc
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030888"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130613"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
 使用团队实时事件设置来配置你的组织中保留的实时事件的设置。 您可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在你的组织中创建的所有实时事件。
 
-你可以在 Microsoft 团队管理中心中轻松管理这些设置。 在左侧导航中，转到 " **会议**  >  **实时事件" 设置** 。
+你可以在 Microsoft 团队管理中心中轻松管理这些设置。 在左侧导航中，转到 "**会议**  >  **实时事件" 设置**。
 
 ![团队实时事件设置的屏幕截图](../media/teams-live-events-settings.png "团队实时事件设置的屏幕截图，可在 Microsoft 团队管理中心进行配置")
 
@@ -41,8 +42,8 @@ ms.locfileid: "49030888"
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
-1. 在左侧导航中，转到 " **会议**  >  **实时事件设置** "。
-2. 在 " **支持 url** " 下，输入您的组织的支持 url。
+1. 在左侧导航中，转到 "**会议**  >  **实时事件设置**"。
+2. 在 " **支持 url**" 下，输入您的组织的支持 url。
 
     ![管理中心中实时事件的支持 URL 设置](../media/teams-live-events-settings-supporturl.png "团队实时事件的支持 URL 设置的屏幕截图")
 
@@ -60,7 +61,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
-1. 在左侧导航中，转到 " **会议**  >  **实时事件设置** "。
+1. 在左侧导航中，转到 "**会议**  >  **实时事件设置**"。
 2. 在 **第三方视频分发提供商** 下，完成以下操作： 
 
     ![管理中心中的第三方视频分发提供商设置](../media/teams-live-events-settings-distribution-provider.png "实时事件的第三方视频分发提供商设置的屏幕截图")
@@ -92,7 +93,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > 如果你计划使用外部应用或设备创建实时事件，你还需要 [使用 Microsoft Stream 配置 eCDN 提供程序](https://docs.microsoft.com/stream/network-caching)。 
 
 >[!Note]
-> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+> 从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](../tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 ### <a name="related-topics"></a>相关主题
 - [什么是 Teams 实时事件？](what-are-teams-live-events.md)

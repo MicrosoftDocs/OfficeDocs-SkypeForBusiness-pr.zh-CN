@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 了解如何使用呼叫质量仪表板 Power BI 报表查看自动助理和呼叫队列历史记录数据。
-ms.openlocfilehash: 23d9f9db7668195bba4e964e8c5ac5607038f197
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: c74e7fed254dda24ec404cbebfa0702498f46f21
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085707"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130403"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理 & 呼叫队列历史报告
 
@@ -54,23 +54,31 @@ CQD 团队自动助理 & 呼叫队列历史报告 Power BI 模板提供以下三
 以下步骤假设你已在计算机上安装了 Power BI Desktop，并且你的帐户具有访问 CQD 数据管道所需的权限。
 
 请执行以下步骤：
+
 - 下载 [CQD POWER BI 查询模板](https://www.microsoft.com/download/details.aspx?id=102291) ，并将 zip 文件保存到计算机上的目录中。
+
 - 双击 zip 文件将其打开。
+
 - 双击 "CQ 和 AA 组合分析 20201105 pbit" 模板文件和 Power BI Desktop。
+
 - 系统将提示你选择 CQD 数据管道区域。 选择你的租户所在的地区。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="选择 CQD 数据管道区域的屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="选择 CQD 数据管道区域的屏幕截图":::
 
- - 你可以使用 Skype for Business Online cmdlet (CsTenant) 查看区域。ServiceInstance 输出。 
- 该区域将在此示例中按如下方式显示：此示例中的 "microsoftcommunicationsonline/noam-4a-s7" 区域为 noam。
+ - 你可以使用 Skype for Business Online PowerShell cmdlet (CsTenant) 查看区域。ServiceInstance 输出。 
+ 该区域将在此示例中按如下方式显示：
+
+   microsoftcommunicationsonline/noam-s7，地区为 noam。
+ 
  - 报表将启动并提供示例数据。
+ 
  - 若要查看自己的数据，请单击 "开始" 选项卡中 "Power BI Desktop 中的查询" 下的 " **刷新** "。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="选择 "刷新" 选项的屏幕截图":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="选择 "刷新" 选项的屏幕截图":::
 
 - 系统将提示您登录。 选择 " **组织帐户** "，然后选择 **"登录"**。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="显示登录的屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="显示登录的屏幕截图":::
 
 - 选择 " **连接** " 并查看数据刷新。
 
@@ -93,9 +101,11 @@ CQD 团队自动助理 & 呼叫队列历史报告 Power BI 模板提供以下三
 请执行以下步骤：
 - 在功能区上选择 " **视图" 选项卡** 。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="选择 "视图" 选项卡以更改配色方案的屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="选择 "视图" 选项卡以更改配色方案的屏幕截图":::
 
 - 从下拉列表中选择颜色架构。
+
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="显示各种配色方案的屏幕截图":::
 
 ## <a name="cqd-fields-description"></a>CQD 域说明
 
@@ -121,11 +131,11 @@ CQD 团队自动助理 & 呼叫队列历史报告 Power BI 模板提供以下三
 |涉及通话队列                  |Boolean                  |如果呼叫队列涉及到此呼叫等于1 |
 
 
-### <a name="powerbi-data-model-dimensions"></a>PowerBI 数据模型维度
+### <a name="power-bi-data-model-dimensions"></a>Power BI 数据模型维度
 
 |名称                                    |数据类型                |说明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA 名称                                   |型                   |自动助理 Id (资源帐户 Id)  |
+|AA 名称                                   |型                   |自动助理 ID (资源帐户 ID)  |
 |AACallFlow                              |型                   |封装自动助理呼叫的不同状态<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>第节公告 |
 |AACallResult                            |型                   |自动助理呼叫的结果：<br>§未知<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – AA 配置的错误<br>§ service_terminated-内部 AA 错误<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
 |AAChainDuration                         |型                   |自动助理通话的持续时间（秒）  |
@@ -189,5 +199,6 @@ CQD 团队自动助理 & 呼叫队列历史报告 Power BI 模板提供以下三
 
 ## <a name="known-issues"></a>已知问题
 
-- 目前，呼叫队列和自动助理显示资源帐户 Id，而不是呼叫队列/自动助理名称。  若要显示自动助理或呼叫队列的所有流量，必须选择分配给自动助理或呼叫队列的所有资源帐户。
+- 目前，呼叫队列和自动助理显示资源帐户的 ID，而不是呼叫队列/自动助理名称。  若要显示自动助理或呼叫队列的所有流量，必须选择分配给自动助理或呼叫队列的所有资源帐户。
+
 - 当前，仪表板中仅有28天的历史记录，因为通话队列/自动助理数据被视为最终用户身份信息，并且受数据隐私保留策略制约。

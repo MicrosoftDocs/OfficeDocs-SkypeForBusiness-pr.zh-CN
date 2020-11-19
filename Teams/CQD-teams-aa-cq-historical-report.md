@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解如何使用呼叫质量仪表板 Power BI 报表查看自动助理和呼叫队列历史记录数据。
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 16f8682e8f1bc444e2694a0586ff21cf442288cd
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085576"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130423"
 ---
 # <a name="what-are-the-requirements"></a>有哪些要求？ 
 您需要安装 Power BI Desktop。 你可以从 [Microsoft Windows 应用商店](https://aka.ms/pbidesktopstore)安装它。
@@ -43,21 +43,27 @@ ms.locfileid: "49085576"
 
 请执行以下步骤：
 - 下载 [CQD 团队自动助理 & 呼叫队列历史报告模板](https://aka.ms/TAPAACQAnalytics) ，并将其保存到计算机上的目录中。
+
 - 双击该模板，然后启动 Power BI Desktop。
+
 - 系统将提示你选择 CQD 数据管道区域。 选择你的租户所在的地区。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="团队管理中心中的 "呼叫质量" 仪表板按钮的屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="团队管理中心中的 "呼叫质量" 仪表板按钮的屏幕截图":::
 
  - 你可以使用 Skype for Business Online cmdlet (CsTenant) 查看区域。ServiceInstance 输出。 
- 该区域将在此示例中按如下方式显示：此示例中的 "microsoftcommunicationsonline/noam-4a-s7" 区域为 noam。
+ 该区域将在此示例中按如下方式显示： 
+ 
+   microsoftcommunicationsonline/noam-s7，地区为 noam。
+   
  - 报表将启动并提供示例数据。
+ 
  - 若要查看自己的数据，请单击 "开始" 选项卡中 "Power BI Desktop 中的查询" 下的 " **刷新** "。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="团队管理中心中的 "呼叫质量" 仪表板按钮的屏幕截图":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="团队管理中心中的 "呼叫质量" 仪表板按钮的屏幕截图":::
 
 - 系统将提示您登录。 选择 " **组织帐户** "，然后选择 **"登录"**。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="团队管理中心中的 "呼叫质量" 仪表板按钮的屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="团队管理中心中的 "呼叫质量" 仪表板按钮的屏幕截图":::
 
 - 选择 " **连接** " 并查看数据刷新。
 
@@ -77,11 +83,11 @@ ms.locfileid: "49085576"
 请执行以下步骤：
 - 在功能区上选择 " **视图" 选项卡** 。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="团队管理中心中的 "呼叫质量" 仪表板按钮的屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="团队管理中心中的 "呼叫质量" 仪表板按钮的屏幕截图":::
 
 - 从下拉列表中选择颜色架构。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="团队管理中心中的 "呼叫质量" 仪表板按钮的屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="团队管理中心中的 "呼叫质量" 仪表板按钮的屏幕截图":::
 
 
 ## <a name="cqd-fields-description"></a>CQD 域说明
@@ -176,4 +182,5 @@ ms.locfileid: "49085576"
 
 ## <a name="known-issues"></a>已知问题
 - 目前，呼叫队列和自动助理显示资源帐户 Id，而不是呼叫队列/自动助理名称。  若要显示自动助理或呼叫队列的所有流量，必须选择分配给自动助理或呼叫队列的所有资源帐户。
+
 - 当前，仪表板中仅有28天的历史记录，因为通话队列/自动助理数据被视为最终用户身份信息，并且受数据隐私保留策略制约。

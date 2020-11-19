@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解 Microsoft Phone 系统直接路由如何让你连接受支持的客户提供的会话边界控制器 (SBC) Microsoft Phone System。
-ms.openlocfilehash: 59fecbdc741cdbc104e41883423165000ff1b327
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030698"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130633"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -235,6 +235,8 @@ Fqdn （sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.
 
 您需要在防火墙中打开所有这些 IP 地址的端口，以允许传入和传出通信发送和接收来自地址的发送信号。  如果你的防火墙支持 DNS 名称，FQDN **sip-all.pstnhub.microsoft.com** 将解析为所有这些 IP 地址。 
 
+> [!IMPORTANT]
+>  作为团队的一部分直接路由扩展和服务改进，我们已在澳大利亚中部署了直接路由基础结构的新实例。 这会反映在两个额外的 IP 地址中， (52.114.16.74 和 52.114.20.29) 将为澳大利亚客户（sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com）解析以下 Fqdn。 你需要将这两个 IP 地址 (52.114.16.74 和 52.114.20.29) 添加到你的 IP 访问控制列表中，以便为防火墙中的所有这些 IP 地址 (Acl) 和打开端口，以允许传入和传出地址的传入和传出流量。
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH 和 DoD 环境
 

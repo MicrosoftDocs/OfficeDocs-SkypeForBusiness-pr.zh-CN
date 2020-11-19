@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1372dd4e997d2ebc263afdb2b4b692e9b9deb8c
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 18af74a2a62f8282ee9b39c998db803235cc4ff0
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790444"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130493"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 团队中管理组织的 "任务" 应用
 
@@ -33,7 +33,7 @@ ms.locfileid: "48790444"
 "任务" 应用为 Microsoft 团队带来了一种内聚的任务管理体验，将由 [microsoft](https://todo.microsoft.com/tasks/) 支持的单个任务与由 Planner 提供的团队任务集成在一个位置。 用户可以将任务作为应用访问到团队的左侧，以及在单个团队中的频道中作为选项卡。 **"任务" 中的 "我的任务" 和 "** **共享计划** " 允许用户查看和管理其所有个人和工作组任务，并确定其工作优先级。 任务在团队桌面版、web 版和移动客户端中可用。 
 
 > [!NOTE]
-> 当我们推出团队桌面客户端的任务体验时，应用名称最初将显示为用户的 **Planner** 。 该名称随后会暂时更改为 " **按 Planner" 和 "待办事项** "，稍后将重命名为 " **任务** "。 在团队移动客户端上，用户将始终看到应用名称为 " **任务** "。 桌面体验推出后，移动体验的可用性可能会出现短暂延迟。
+> 当我们推出团队桌面客户端的任务体验时，应用名称最初将显示为用户的 **Planner** 。 该名称随后会暂时更改为 " **按 Planner" 和 "待办事项**"，稍后将重命名为 " **任务**"。 在团队移动客户端上，用户将始终看到应用名称为 " **任务**"。 桌面体验推出后，移动体验的可用性可能会出现短暂延迟。
 
    ![团队列表上任务列表视图的屏幕截图](media/manage-tasks-app-tasks.png)
 
@@ -60,11 +60,14 @@ ms.locfileid: "48790444"
 
 默认情况下，将为组织中的所有团队用户启用任务。 你可以在 Microsoft 团队管理中心的 " [管理应用](manage-apps.md) " 页面上，关闭或打开组织级别的应用。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **团队应用**  >  **管理应用** "。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **管理应用**"。
 2. 在应用列表中，执行下列操作之一：
 
-    - 若要为你的组织关闭任务，请搜索 "任务" 应用，选择它，然后单击 " **阻止** "。
-    - 若要为你的组织启用任务，请搜索 "任务" 应用，选择它，然后单击 " **允许** "。
+    - 若要为你的组织关闭任务，请搜索 "任务" 应用，选择它，然后单击 " **阻止**"。
+    - 若要为你的组织启用任务，请搜索 "任务" 应用，选择它，然后单击 " **允许**"。
+
+> [!NOTE]
+> 如果找不到 "任务" 应用，请在本文的第一个笔记中搜索名称。 该应用可能仍处于重命名过程中。
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>为组织中的特定用户启用或禁用任务
 
@@ -78,7 +81,7 @@ ms.locfileid: "48790444"
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>如果用户已获得 Exchange Online 许可，用户的 "我的任务" 将可见
 
-如果不希望用户看到 **我的任务** ，您可以将其隐藏。 若要执行此操作，请 [删除用户的 Exchange Online 许可证](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)。 请务必注意，在删除 Exchange Online 许可证后，用户将不再有权访问其邮箱。  邮箱数据保留30天，在此之后将删除数据，并且不能恢复，除非邮箱被置于 [现场保留或诉讼保留](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)。
+如果不希望用户看到 **我的任务**，您可以将其隐藏。 若要执行此操作，请 [删除用户的 Exchange Online 许可证](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)。 请务必注意，在删除 Exchange Online 许可证后，用户将不再有权访问其邮箱。  邮箱数据保留30天，在此之后将删除数据，并且不能恢复，除非邮箱被置于 [现场保留或诉讼保留](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)。
 
 我们不建议为信息工作者提供此信息，但可能会出现这种情况，例如适用于不依赖电子邮件的一线工作人员。
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何为具有 Microsoft 团队的呼叫队列设置电话系统，这些团队提供问候语、举行音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49089340"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135933"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -156,7 +156,7 @@ ms.locfileid: "49089340"
 
 ## <a name="supported-clients"></a>支持的客户端
 
-- 呼叫队列中的呼叫代理支持下列客户端：
+呼叫队列中的呼叫代理支持下列客户端：
 
   - Skype for Business 桌面客户端 2016 (32 位和64位版本) 
   - Lync 桌面客户端 2013 (32 位和64位版本) 
