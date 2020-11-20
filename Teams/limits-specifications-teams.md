@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aded7fefd977d3f3437f15a97296be083d43359
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
+ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085466"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349108"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -68,7 +68,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 |功能  | 最大限制  |
 |---------|---------|
-|私人聊天中的人员数<sup>1</sup>  | 350 |
+|私人聊天中的人员数<sup>1</sup>  | 250 |
 |通过视频或音频通话聊天的人员数 | 20 |
 |文件附件数<sup>2</sup>  |10     |
 |聊天大小 | 每篇文章约 28 KB<sup>3</sup> |
@@ -191,7 +191,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 |------------------------|---------|---------|---------|---------|---------|---------|
 |存储空间                 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。   |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 空间           |
 |Teams 文件存储空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |
-|文件上传限制（每个文件）    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|文件上传限制（每个文件）    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
 频道由 SharePoint Online 网站集中专为团队创建的文件夹提供支持，因此频道中的文件选项卡共同享有其所属的团队的存储空间限额。
 

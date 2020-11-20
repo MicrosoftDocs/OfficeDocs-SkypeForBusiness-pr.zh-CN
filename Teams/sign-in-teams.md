@@ -1,5 +1,5 @@
 ---
-title: 使用新式验证登录 Teams
+title: 登录 Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d931c41fb3da345be124ddef570e0f4bda53474
-ms.sourcegitcommit: 98c5bcfad4ded89ac7b3604367e43a28663828bb
+ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944186"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350564"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登录 Microsoft Teams
 ==========================
@@ -57,7 +57,7 @@ Microsoft Teams 使用新式验证保持登录体验简单而安全。 若要了
 
 ### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>完成新式验证后注销 Teams
 
-若要注销 Teams，用户可以单击应用顶部的个人资料图片，然后选择“ **注销** ”。他们还可以右键单击任务栏中的应用图标，然后选择“ **注销** ”。注销 Teams 后，他们需要再次输入凭据才能启动该应用。
+若要注销 Teams，用户可以单击应用顶部的个人资料图片，然后选择“**注销**”。他们还可以右键单击任务栏中的应用图标，然后选择“**注销**”。注销 Teams 后，他们需要再次输入凭据才能启动该应用。
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>在加入域的计算机上登录到另一个帐户
 
@@ -102,7 +102,7 @@ Teams for iOS 和 Android 提供 IT 管理员将帐户配置推送到 Microsoft 
 
 |平台 |密钥  |值  |
 |---------|---------|---------|
-|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **启用** ：唯一允许的帐户是 IntuneMAMUPN 密钥定义的托管用户帐户。<br> **禁用** （或者与 **启用** 不匹配的任何区分大小写的值）：允许任何帐户。        |
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **启用**：唯一允许的帐户是 IntuneMAMUPN 密钥定义的托管用户帐户。<br> **禁用**（或者与 **启用** 不匹配的任何区分大小写的值）：允许任何帐户。        |
 |iOS     |   **IntuneMAMUPN**      |   允许登录到 Teams 的帐户的 UPN。<br> 对于注册 Intune 的设备，{{userprincipalname}}令牌可用于代表已注册的用户帐户。       |
 |Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    仅允许的账户是此密钥定义的托管用户账户。<br> 一个或多个分号；] - 分隔的UPN。<br> 对于注册 Intune 的设备，{{userprincipalname}}令牌可用于代表已注册的用户帐户。
 
