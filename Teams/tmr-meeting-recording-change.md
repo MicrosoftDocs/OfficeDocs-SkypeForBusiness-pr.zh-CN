@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9fcc4475b7f06b427dbc73de4b00b09b08755a
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: bb045a6bf6a950e1b3d822a0e3b8a9389affbf64
+ms.sourcegitcommit: 7387d631cf895992906a46d3b7576a2ac76f5b4d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085546"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49366911"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -70,8 +70,9 @@ Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsof
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>为 OneDrive for business 和 SharePoint 设置会议录制选项
 
+"会议录制" 选项是 "团队" 策略级别的一个设置。 以下示例显示了如何设置全局策略。 请确保为你分配给用户的策略设置了 "会议录制" 选项。
+
 > [!Note]
-> "会议录制" 选项是 "团队" 策略级别的一个设置。 以下示例显示了如何设置全局策略。 请确保为你分配给用户的策略设置了 "会议录制" 选项。
 > 团队会议策略更改需要一段时间才能传播。 在设置后的几个小时后再次查看，然后注销并再次登录。
 
 1. 安装 Skype For Business Online PowerShell。
@@ -108,6 +109,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
 ## <a name="permissions-or-role-based-access"></a>权限或基于角色的访问
+
+> [!Note]
+> 我们建议在共享团队会议录制时，收件人必须是已登录的用户。 通过在 "[共享 SharePoint 文件或文件夹](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US)" 中所述的方式共享文件时，选择 " **(您的组织中的人员")** 选项即可达到此目的。 外部共享不是为大型文件或大量文件的分发而设计的。 为了防止欺诈和滥用情况，当向外部用户共享大量数据时，可能会遇到问题。
 
 |会议类型                               | 单击 "记录"| 录制的土地在哪里？                               |谁有权访问？ R/W、R 或共享                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

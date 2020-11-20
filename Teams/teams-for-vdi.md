@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8670b7a1a2ba8393f6afddb9546cd01c276808f
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 53a4fca44e63f76875205726b4d145b815b9ee9c
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031258"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350634"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -40,17 +40,17 @@ ms.locfileid: "49031258"
 
 若要确保获得最佳的用户体验，请按照本文中的指南操作。
 
- > [!Note]
+> [!Note]
 > 有关不同平台上的团队 VDI 的详细信息，请参阅 [团队功能按平台](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="teams-on-vdi-components"></a>VDI 组件上的团队
 
 在虚拟化环境中使用团队需要以下组件。
 
-- **虚拟化代理** ：针对虚拟化提供程序的资源和连接管理器，例如 Azure
-- **虚拟桌面** ：运行 Microsoft 团队的虚拟机 (VM) 堆栈
-- **瘦客户端** ：用户使用物理接口的终结点
-- **团队桌面应用** ：团队桌面客户端应用程序
+- **虚拟化代理**：针对虚拟化提供程序的资源和连接管理器，例如 Azure
+- **虚拟桌面**：运行 Microsoft 团队的虚拟机 (VM) 堆栈
+- **瘦客户端**：用户使用物理接口的终结点
+- **团队桌面应用**：团队桌面客户端应用程序
 
 ## <a name="teams-on-vdi-requirements"></a>VDI 要求的团队
 
@@ -161,8 +161,11 @@ VMware 范围是一种现代平台，用于在混合云上安全地传递虚拟�
 
 1. 使用以下链接之一下载与你的 VDI VM 操作系统匹配的团队 MSI 程序包：
 
-    - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
-    - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
+    - [32位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [64位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
+    > [!NOTE]
+    > 对于政府群，请参阅 [使用 Microsoft 终结点配置管理器安装 Microsoft 团队](msi-deployment.md) ，获取指向 MSI 文件的下载链接。
 
     所需的团队桌面应用的最低版本是1.3.00.4461 版本。 在早期版本中不支持 (PSTN 保留。 ) 
 
@@ -260,27 +263,27 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
 
 要将 DisallowCalling 呼叫策略和 AllOff 会议策略分配给用户，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户** "。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户**"。
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。
 3. 执行以下操作：
-    1.  在 " **呼叫策略** " 下，单击 " **DisallowCalling** "。
-    2.  在 " **会议策略** " 下，单击 " **AllOff** "。
-4. 单击“ **应用** ”。
+    1.  在 " **呼叫策略**" 下，单击 " **DisallowCalling**"。
+    2.  在 " **会议策略**" 下，单击 " **AllOff**"。
+4. 单击“**应用**”。
 
 若要一次向多个用户分配策略，请执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“ **用户** ”，然后搜索用户或筛选视图，以显示所需的用户。
-2. 在 **&#x2713;** （复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
-3. 单击“ **编辑设置** ”，执行所需的更改，然后单击“ **应用** ”。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
+2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
+3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。
 
 或者，您也可以执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。 例如：
-    - 转到 " **语音**  >  **呼叫策略** "，然后单击 " **DisallowCalling** "。
-    - 转到 " **会议**  >  **会议策略** "，然后单击 " **AllOff** "。
+    - 转到 "**语音**  >  **呼叫策略**"，然后单击 " **DisallowCalling**"。
+    - 转到 "**会议**  >  **会议策略**"，然后单击 " **AllOff**"。
 2. 选择“管理用户”。
 3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。 对想要添加的每一个用户重复此步骤。
-4. 添加完用户后，单击 " **保存** "。
+4. 添加完用户后，单击 " **保存**"。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
 
@@ -316,27 +319,27 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 要将 AllowCalling 呼叫策略和 AllOn 会议策略分配给用户，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户** "。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户**"。
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。
 3. 执行以下操作：
-    1.  在 " **呼叫策略** " 下，单击 " **AllowCalling** "。
-    2.  在 " **会议策略** " 下，单击 " **AllOn** "。
-4. 单击“ **应用** ”。
+    1.  在 " **呼叫策略**" 下，单击 " **AllowCalling**"。
+    2.  在 " **会议策略**" 下，单击 " **AllOn**"。
+4. 单击“**应用**”。
 
 若要一次向多个用户分配策略，请执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“ **用户** ”，然后搜索用户或筛选视图，以显示所需的用户。
-2. 在 **&#x2713;** （复选标记）列，选择用户。 若要选择 "所有用户"，请单击表格顶部的 " **&#x2713;** " (复选标记) 。
-3. 单击“ **编辑设置** ”，执行所需的更改，然后单击“ **应用** ”。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
+2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择 "所有用户"，请单击表格顶部的 " **&#x2713;** " (复选标记) 。
+3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。
 
 或者，您也可以执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。 例如：
-    - 转到 " **语音**  >  **呼叫策略** "，然后单击 " **AllowCalling** "。
-    - 转到 " **会议**  >  **会议策略** "，然后单击 " **AllOn** "。
+    - 转到 "**语音**  >  **呼叫策略**"，然后单击 " **AllowCalling**"。
+    - 转到 "**会议**  >  **会议策略**"，然后单击 " **AllOn**"。
 2. 选择“管理用户”。
 3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。 对想要添加的每一个用户重复此步骤。
-4. 添加完用户后，单击 " **保存** "。
+4. 添加完用户后，单击 " **保存**"。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
 
@@ -363,7 +366,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
 - HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
 
-若要禁用回退模式，请将值设置为 **1** 。 若要仅启用音频，请将值设置为 **2** 。 如果值不存在或设置为 **0** (零) ，则启用回退模式。
+若要禁用回退模式，请将值设置为 **1**。 若要仅启用音频，请将值设置为 **2**。 如果值不存在或设置为 **0** (零) ，则启用回退模式。
 
 此功能在团队版本1.3.00.13565 及更高版本中可用。
 
@@ -400,6 +403,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 会议或群组通话仅支持单个传入视频流。 当多人发送视频时，在任何给定时间仅显示主要演讲者的视频。
 - 传入和传出视频流分辨率仅限于720p 分辨率。 这是一个 WebRTC 限制。
 - 仅支持来自传入相机或屏幕共享流的一个视频流。 当存在传入屏幕共享时，将显示该屏幕共享，而不是主扬声器的视频。
+- 如果设备断开连接，然后重新连接，团队不会切换到使用用户选择的最后一个音频设备。
 - 出站屏幕共享：
     - 不支持应用程序共享。
 - 授予控制权并获得控制权：
