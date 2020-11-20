@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是用于 Skype for business 和适用于危地马拉的 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: c86ffbaf3c8d3f01f691a05c2591423f8e9d5701
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 1963d5e2df5f9e75dc1ba520293e6965f6ee5197
+ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877972"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349138"
 ---
 # <a name="availability-in-guatemala"></a>在危地马拉中的可用性
 
@@ -44,16 +44,16 @@ ms.locfileid: "44877972"
 |是否可购买音频会议？  <br/> |是。 仅按分钟付费。  <br/> |
 |是否自动分配音频会议的电话号码？  <br/> | 否 |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用点数 <br/> |
-   
+
 ## <a name="phone-system"></a>电话系统
 
 |**功能**|**Details**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-|自动助理 <br/> |在线  <br/> |
-|呼叫队列  <br/> |在线  <br/> |
+|自动助理 <br/> |可用  <br/> |
+|呼叫队列  <br/> |可用  <br/> |
 |语音邮件  <br/> |可用  <br/> |
-   
+
 ## <a name="calling-plans"></a>通话套餐
 
 |**功能**|**Details**|
@@ -63,23 +63,23 @@ ms.locfileid: "44877972"
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
 如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
-   
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>适用于服务的免费电话号码和免费电话号码
 
 |**功能**|**Details**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | Cuidad de<br/> |
-|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> 只能从国家/地区内访问收费电话号码。|
 |是否提供免费电话号码？  <br/> |否  <br/> |
-   
- 如果您希望为音频会议、自动助理和呼叫队列获取收费和免费电话号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+
+ 如果您希望为音频会议、自动助理和呼叫队列获取收费和免费电话号码，请参阅 [获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通信点数
 
 |**功能**|**Details**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |是  <br/> |
-   
+
 如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相关主题
@@ -87,4 +87,3 @@ ms.locfileid: "44877972"
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

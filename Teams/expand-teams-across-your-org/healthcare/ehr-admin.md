@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 使用 Microsoft 团队设置你的虚拟访问系统
-ms.openlocfilehash: ed952f678fb353ae623a0020ac565ee4e8288445
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 808d957cd86273852e7c2c98ec223b1988e5bd0d
+ms.sourcegitcommit: cbf87fc914a19088af8ec08fb0976db9f838a45d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790454"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49355962"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>与团队的虚拟访问-集成到 EHR
 
@@ -91,7 +91,7 @@ Microsoft 团队电子医疗记录 (EHR) 连接器使临床医生能够轻松地
 
 若要完成此步骤，Microsoft 365 管理员必须收到一个有效的快速运行状况互操作性资源 (FHIR 来自 Microsoft 365 管理员的) 基 URL，以及将审批配置的长篇管理员的用户名。 Microsoft 365 管理员必须启动连接器配置页面，并以 Microsoft 凭据登录才能启动配置过程。
 
-- FHIR 基 URL 是对应于服务器 FHIR API 终结点的静态地址。 示例 URL 是 [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST) 。
+- FHIR 基 URL 是对应于服务器 FHIR API 终结点的静态地址。 示例 URL 是 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` 。
 
 - 配置审批者名称是将负责审批配置的长篇故事系统管理员的名称。
 

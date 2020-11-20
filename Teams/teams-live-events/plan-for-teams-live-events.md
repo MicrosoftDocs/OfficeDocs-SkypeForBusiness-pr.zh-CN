@@ -14,41 +14,42 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- enabler-strategic
 search.appverid: MET150
 description: 在本文中，你将了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c9a91db8009cc87c05eb2324507ec4ee69dae3a
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: e1be13bb3e92a7ccd927696061ba20d3e4513080
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031568"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130583"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
 计划 Teams 实时事件时，若要在组织中召开大型会议，则在开始设置之前，需要考虑几个因素。
 
- > [!Note]
-> 有关不同平台上的 Teams 实时事件的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。 请参阅[让你的组织做好准备](../prepare-network.md)，了解 Teams 直播活动的带宽要求。
+> [!Note]
+> 有关不同平台上的 Teams 实时事件的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。请参阅[让你的组织做好准备](../prepare-network.md)，了解 Teams 直播活动的带宽要求。
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>谁可以参加、创建和计划实时事件
 
-任何人都可以在没有许可证的情况下参加实时事件。 请阅读[管理员快速入门 - 会议和实时事件](../quick-start-meetings-live-events.md)。
+任何人都可以在没有许可证的情况下参加实时事件。请阅读[管理员快速入门 - 会议和实时事件](../quick-start-meetings-live-events.md)。
 
 若要安排 Teams 实时事件，用户必须满足以下前提条件。
 
 以下是制作或呈现 Teams 现场活动必须分配的许可证：  
 
-- Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，或 Office 365 教育版 A3 或 A5 许可证。 此要求的例外情况是：如果满足 [来宾用户](plan-for-teams-live-events.md#guest-to-present) 的其他条件，来宾用户无需许可证即可出席。
+- Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，或 Office 365 教育版 A3 或 A5 许可证。此要求的例外情况是：如果满足 [来宾用户](plan-for-teams-live-events.md#guest-to-present) 的其他条件，来宾用户无需许可证即可出席。
 - Microsoft Teams 许可证 - 包含在第一个项目符号列出的许可证中。
 - 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](https://docs.microsoft.com/stream/license-overview)。
 
   如果你希望用户仅进行录制和下载录制的内容，那么这些用户无需拥有 Microsoft Stream 许可证。这意味着录制的内容不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务 (AMS) 中，且存储 180 天后被删除。目前，管理员无法控制或管理此设置来包含删除这些内容的功能。
 
 >[!Note]
-> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行会议录制。
+> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行会议录制。
 
 > [!NOTE]
 > 目前，没有任何 Microsoft 365 小型企业版计划可用于创建和保留 Teams 实时事件。
@@ -65,12 +66,12 @@ ms.locfileid: "49031568"
 
 用户必须：
 
-- Teams 中已启用私人会议安排（ *TeamsMeetingPolicy -AllowPrivateMeetingScheduling 参数 = True* ）。
-- Teams 会议中已启用视频共享（ *TeamsMeetingPolicy -AllowIPVideo 参数 = True* ）。
-- Teams 会议中启用屏幕共享（ *TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen* ）。
-- Teams 中启用实时会议安排（ *TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling 参数 = True* ）。
+- Teams 中已启用私人会议安排（*TeamsMeetingPolicy -AllowPrivateMeetingScheduling 参数 = True*）。
+- Teams 会议中已启用视频共享（*TeamsMeetingPolicy -AllowIPVideo 参数 = True*）。
+- Teams 会议中启用屏幕共享（*TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*）。
+- Teams 中启用实时会议安排（*TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling 参数 = True*）。
 - 使用 Stream 创建实时事件的权限（适用于外部应用或设备制作）。
-- 配置了共存模式，以能够安排 Teams 会议（ *并行、会议优先或仅 Teams* ）。
+- 配置了共存模式，以能够安排 Teams 会议（*并行、会议优先或仅 Teams*）。
 
 > [!IMPORTANT]
 > 未经身份验证的匿名用户不能被邀请为 Teams 实时事件中的“制作者”或“演示者”。
@@ -83,11 +84,11 @@ ms.locfileid: "49031568"
 2. 让该用户接受来宾邀请并加入团队。
 3. [安排直播活动并将来宾添加到活动组](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-作为最佳做法，我们建议你为直播活动的制作者和演示者创建一个频道，以便他们可以在活动前聊天和共享信息。 没有 Microsoft 365 凭据的来宾将无法在 Teams 中看到日历。 为便于用户加入活动，制作者可将活动链接发布到相应频道。 演示者随后可以打开 Teams，转到该频道，然后单击链接以加入该活动。
+作为最佳做法，我们建议你为直播活动的制作者和演示者创建一个频道，以便他们可以在活动前聊天和共享信息。没有 Microsoft 365 凭据的来宾将无法在 Teams 中看到日历。为便于用户加入活动，制作者可将活动链接发布到相应频道。演示者随后可以打开 Teams，转到该频道，然后单击链接以加入该活动。
 
 ## <a name="who-can-watch-live-events"></a>谁可以观看实时事件
 
-|**参加者可见性**       |**Teams 制作**  |**外部应用或设备制作**  |
+| 与会者可见性 | Teams 制作 | 外部应用或设备制作 |
 |------------------------------|-----------------|----------------------|
 |公共（匿名用户）      |  是            |  否                  |
 |来宾用户                   |  是            |  否                  |
@@ -104,15 +105,15 @@ ms.locfileid: "49031568"
 > [!IMPORTANT]
 > **Microsoft 365 实时事件限制的增加**
 >
-> **为帮助支持我们的客户，从 2021 年 1 月 1 日起，我们将为 Teams、Stream 和 Yammer 中托管的直播活动扩展临时人数上限，包括** ：
+> **为帮助支持我们的客户，从 2021 年 1 月 1 日起，我们将为 Teams、Stream 和 Yammer 中托管的直播活动扩展临时人数上限，包括**：
 >
 >- 每场活动最多可容纳 2 万名参考者
 >- 每个 Teams 租户最多可同时举行 50 场活动
 >- 每次直播最多持续 16 个小时
 >
-> 此外，可通过 Microsoft 365 直播活动辅助计划来安排最多有 10 万名参与者的直播活动。 团队将评估每个请求，并与共同确定可能的选项。 [了解详细信息](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日之后，需要这样提高这些上限的客户将需要购买 [高级通信附加产品](../teams-add-on-licensing/advanced-communications.md)。**
+> 此外，可通过 Microsoft 365 实时事件辅助计划来安排最多有 10 万名与会者的实时事件。团队将评估每个请求，并与你确定可用选项。[了解详情](https://aka.ms/Stream/Blog/LiveEventOptions)。**2021 年 1 月 1 日后，要提高上述人数上限的客户需购买 [高级通信加载项](../teams-add-on-licensing/advanced-communications.md)。**
 
-|**功能**   |**Skype 会议直播** |**在 Teams 中制作的事件** |**使用外部应用或设备制作的事件** |
+| 功能 | Skype 会议直播 | 在 Teams 中制作的事件 | 使用外部应用或设备制作的事件 |
 |---------|---------|---------|---------|
 |最大受众规模 |10,000 名与会者 |10,000 名与会者<sup>1</sup> |10,000 名与会者<sup>1</sup> |
 |实时事件最大持续时间 |4 小时 |4 小时 |4 小时 |
@@ -141,12 +142,12 @@ ms.locfileid: "49031568"
 |制作者直播后受众报告 |&#x2714; |&#x2714; |&#x274C; |
 |受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> 设定的限制可能会更改。 查看 [Teams 限制和规范](../limits-specifications-teams.md)。<br/>
+<sup>1</sup> 设定的限制可能会更改。查看 [Teams 限制和规范](../limits-specifications-teams.md)。<br/>
 <sup>2</sup> 可在实时事件中拥有多达 250 位演示者和制作者，但列表中仅显示最后 10 位发言的人员。
 
 ## <a name="regional-availability"></a>区域可用性
 
-可在全球中的多个区域实用 Teams 实时事件。 以下信息显示事件团队成员和参与者的空闲时间。
+可在全球中的多个区域实用 Teams 实时事件。以下信息显示事件团队成员和参与者的空闲时间。
 
 > [!IMPORTANT]
 > 将根据组织者和 Microsoft 365 租户的位置自动选择事件的区域。
@@ -182,7 +183,7 @@ ms.locfileid: "49031568"
 **例外和注意事项**
 
 - **数据位置：** 暂不支持除以上所列国家/地区之外的其他任何 Teams 数据位置。
-- **中国：** 事件团队成员和参与者将无法使用 Teams 事件，因为 Azure CDN 在中国不可访问。 解决方法是使用公司 VPN 连接，后者通过客户的公司网络获取连接到 CDN 的客户端。
+- **中国：**  事件团队成员和参与者将无法使用 Teams 事件，因为 Azure CDN 在中国不可访问。解决方法是使用公司 VPN 连接，后者通过客户的公司网络获取连接到 CDN 的客户端。
 
 ## <a name="next-steps"></a>后续步骤
 
