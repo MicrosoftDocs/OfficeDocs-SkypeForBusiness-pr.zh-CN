@@ -1,16 +1,33 @@
 ---
-标题：什么是 Microsoft 团队实时事件？作者： lanachin： lanac 管理器： serdars ms. 主题：概念 ms. 服务： msteams ms. 集合： 
-  - M365-协作
-  - m365initiative-会议
-  - m365solution-spcomms
-- m365solution： sonua 受众：管理员搜索。 appverid： MET150 说明：了解实时事件如何使用户能够将视频和内容广播到团队、Yammer 和流中的大型在线受众。
-f1 关键字： 
-- CSH ms. 自定义：
-  - helparticle liveevents 的 teamsadmincenter
-  - teamsadmincenter 和 liveevents 的 appliesto： 
-  - Microsoft Teams
+title: Microsoft Teams 实时事件是什么？
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+ms.collection:
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
+ms.reviewer: sonua
+audience: admin
+search.appverid: MET150
+description: 了解实时事件如何使用户能够将视频和内容广播到团队、Yammer 和流中的大型在线受众。
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373468"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>什么是 Microsoft 团队实时事件
 
 ## <a name="overview"></a>概述
@@ -49,8 +66,6 @@ Microsoft 365 实时事件将实时视频流传送到新级别。 实时事件�
 视频输入是实时事件的基础，它可能会因单个网络摄像头而异。 Microsoft 365 中的实时事件支持各种生产方案，包括使用网络摄像头或在外部应用或设备中生成的事件在团队中生成的事件。 您可以根据其项目要求和预算选择这些选项。 可通过两种方式生成事件：
 
 - **团队**：此生产方法允许用户使用其网络摄像头在团队中生成活动事件，或使用来自团队室系统的/V 输入。 如果你想要使用连接到电脑或邀请远程演示者参与事件的音频和视频设备，此选项是最佳和最快的选项。 此选项允许用户轻松使用其网络摄像头并在事件中共享其屏幕作为输入。
-
-    ![使用 "快速入门" 方法生成的实时事件](../media/teams-live-events-quick-start.png "屏幕截图显示使用快速入门生产方法生成的实时事件")
 
 - **外部应用或设备**：外部编码器允许用户直接从具有 [流](https://stream.microsoft.com)的外部硬件或基于软件的编码器生成实时事件。 如果你已经有了录音室 quality 设备，则最好使用此选项 (例如，media mixers) 支持 (RTMP) 服务流的实时消息传递协议。 这种类型的生产通常在大规模事件（如 executive 城镇 halls）中使用，即将媒体混合器中的单个流广播给观众的位置。
 
