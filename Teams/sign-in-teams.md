@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: anwara
-description: 了解新式验证的工作原理、如何切换帐户，以及如何解决新式验证中的问题。 包括如何告诉 Teams 在登录时忽略用户名 (UPN) 的预填充。
+description: 了解新式身份验证的工作方式、如何切换帐户，以及如何排除新式身份验证故障，以及如何在登录时告诉团队忽略预先填充的用户名称（UPN）。
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection:
@@ -17,26 +17,27 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
-ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
+ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
+ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350564"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376015"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登录 Microsoft Teams
 ==========================
 
 ## <a name="windows-users"></a>Windows 用户
-Microsoft 建议组织使用带有“混合域加入”或“Azure AD 加入”配置的最新版 Windows 10。 使用最近的版本可以确保用户的账户在Windows的Web账户管理器中处于预先准备状态，从而实现单点登录到Teams和其他Microsoft应用程序。 单点登录提供了更好的用户体验（无声登录）和更好的安全状况。
 
-Microsoft Teams 使用新式验证保持登录体验简单而安全。 若要了解用户如何登录 Teams，请阅读[登录 Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
+Microsoft 建议组织使用具有混合域Join或 Azure AD Join 配置的最新版本 Windows 10。使用最新版本可确保在 Windows 的 Web 帐户管理器中准备好用户帐户，进而支持团队和其他 Microsoft 应用程序的单一登录。单一登录可提供更好的用户体验（静默式登录）和更好的安全态势。
+
+Microsoft Teams 使用新式身份验证使登录体验简单而安全。若要了解用户如何登录Teams，请参阅 [登录Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
 
 ### <a name="how-modern-authentication-works"></a>新式验证的工作原理
 
-新式验证是一种过程。 使 Teams 知道用户已在其他位置输入其凭据，如工作电子邮件和密码，而不再需要再次输入凭据即可启动应用。 体验的不同因几个因素而异，如用户在 Windows 上还是在 Mac 上工作异。 具体取决于你的组织是否启用了单因素身份验证还是多重身份验证。 多重身份验证通常涉及通过电话验证凭据、提供唯一代码、输入 PIN 或者出示拇指指纹。 下面是每个新式身份验证应用场景的描述。
+新式身份验证过程可以让Teams知道用户已经输入凭据，例如其工作邮件和密码，并且在启动应用时无需再次输入。受几个因素影响，验证体验可有所不同，例如在 Windows 或Mac上工作时所获得的不同体验。另外，你的组织使用单因素身份验证或多重身份验证也会对此产生影响。多重身份验证通常需要通过手机验证凭据、提供唯一代码、输入PIN、或使用指纹等方式。下面是每个新式身份验证方案的简要介绍。
 
-每个使用 Teams 的组织都可以使用现代身份验证。 如果用户无法完成此过程，则你的组织的 Azure AD 配置可能存在基础问题。 有关详细信息，请参阅[为什么我无法登录 Microsoft Teams？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
+每个使用 Teams 的组织都可以使用新式身份验证。 如果用户无法完成此过程，则你的组织的 Azure AD 配置可能存在基础问题。 有关详细信息，请参阅[为什么我无法登录 Microsoft Teams？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
 - 如果用户已通过其工作或学校帐户登录到 Windows 或其他 Office 应用，则当他们启动 Teams 时，会直接转到该应用。 他们无需输入凭据。
 
@@ -55,9 +56,9 @@ Microsoft Teams 使用新式验证保持登录体验简单而安全。 若要了
     > [!NOTE]
     > 默认情况下会跳过或忽略以“.local”或“.corp”结尾的用户名的用户名预填充，因此无需设置注册表项来关闭该功能。
 
-### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>完成新式验证后注销 Teams
+### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>完成新式身份验证后注销 Teams
 
-若要注销 Teams，用户可以单击应用顶部的个人资料图片，然后选择“**注销**”。他们还可以右键单击任务栏中的应用图标，然后选择“**注销**”。注销 Teams 后，他们需要再次输入凭据才能启动该应用。
+若要注销 Teams，用户可以选择应用顶部的个人资料图片，然后选择 **注销**。他们还可以右键单击任务栏中的应用图标，然后选择 **注销**。注销 Teams 后，他们需要再次输入凭据才能启动该应用。
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>在加入域的计算机上登录到另一个帐户
 
@@ -121,7 +122,8 @@ Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策�
 >1. 该策略仅限制登录。它不限制用户在其他 Azure AD 租户中被邀请为来宾，或切换到其他租户。
 >2. 该策略要求 Teams for Windows 版本1.3.00.30866 或更高版本以及Teams for MacOS 版本1.3.00.30882 （发布时间为 2020 年 11 月中）。
 
-**Windows 的策略** 可以在 Windows 注册表中手动设置密钥：
+可从 [下载中心](https://www.microsoft.com/download/details.aspx?id=49030)获取 **Windows适用策略** 管理模板文件（ADMX/ADML）。 另外，你可以在 Windows 注册表中手动设置密钥：
+
 - 值名称： RestrictTeamsSignInToAccountsFromTenantList
 - 值类型：字符串
 - 值数据：租户 ID 或以逗号分隔的租户 ID 列表
@@ -131,9 +133,7 @@ Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策�
 
 示例： SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 或 SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 1,Tenant ID 2,Tenant ID 3
 
-我们将在接下来的几天中更新此文档，详细介绍如何使用管理模板文件（ADMX/ADML）。
-
-**MacOS 的策略** 对于MacOS 的托管设备，使用 .plist 来部署登录限制。 配置文件是一个 plist 文件，其中包含由键标识的项（表示首选项名称），后跟一个值（该值取决于首选项的特性）。 值可以是简单的（如数值）或复杂的（如首选项的嵌套列表）。
+**MacOS适用策略** 对于MacOS 的托管设备，使用 .plist 来部署登录限制。 配置文件是一个 plist 文件，其中包含由键标识的项（表示首选项名称），后跟一个值（该值取决于首选项的特性）。 值可以是简单的（如数值）或复杂的（如首选项的嵌套列表）。
 
 - 域：com.microsoft.teams
 - 密钥： RestrictTeamsSignInToAccountsFromTenantList
