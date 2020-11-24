@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818832"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385639"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -38,7 +38,7 @@ ms.locfileid: "48818832"
 | ![实心绿色复选标记，表示在线状态](media/Presence_Available.png) 在线|![实心绿色复选标记，表示在线状态](media/Presence_Available.png) 在线|
 || ![空心绿色复选标记，表示在线但外出](media/Presence_Available_OOF.png) 可用，外出。 注意：在用户设置 "自动答复" 的时间段内，将自动设置外出。 如果用户在这些时间段内使用应用，则可能会显示双重状态，例如 "外出，可用"。 |
 |  ![实心红色圆圈，表示忙碌](media/Presence_Busy.png) 忙碌 |  ![实心红色圆圈，表示忙碌](media/Presence_Busy.png) 忙碌  |
-|| ![实心红色圆圈，表示通话忙](media/Presence_Busy.png) 通话中|
+|| ![实心红色圆圈，表示通话忙](media/Presence_Busy.png) 在通话中|
 || ![实心红色圆圈，表示开会忙](media/Presence_Busy.png) 会议中 |
 || ![空心红色圆圈，表示忙碌](media/Presence_Busy_OOF.png) 通话中但外出|
 |  ![带白线的红色圆圈，表示请勿打扰](media/Presence_DND.png) 请勿打扰 ||
@@ -60,7 +60,7 @@ ms.locfileid: "48818832"
 
 用户接收除 "请勿打扰" 之外的所有状态的呼叫，传入呼叫转到语音邮件。 如果呼叫接收人屏蔽了呼叫方，来电不会转接，且呼叫方会看到呼叫接收人的状态为“离线”。
 
-用户可以在 Teams 中依次转到“设置”  > “隐私”  ，向自己的优先访问列表添加人员。 如果用户的状态设置为 "请勿打扰"，则具有优先级访问权限的人员可以联系用户。
+用户可以在 Teams 中依次转到“设置” > “隐私”，向自己的优先访问列表添加人员。 如果用户的状态设置为 "请勿打扰"，则具有优先级访问权限的人员可以联系用户。
 
 ### <a name="dual-presence"></a>双重状态
 
@@ -84,10 +84,10 @@ ms.locfileid: "48818832"
 以下管理员设置在 Skype for Business 和 Teams 中是不同的：
 
 - 在 Teams 中，状态共享对组织中的用户始终是启用的。 隐私 (，您可以在其中定义哪些人可以查看状态) 配置在团队中不可用。
-- 在 Teams 中，“与所有人(包括联合服务)共享状态”对用户始终是启用的。 在“聊天”>“联系人”  或“通话”>“联系人”  下，可以看到用户的联系人列表（如果 Skype for Business 中有）。
+- 在 Teams 中，“与所有人(包括联合服务)共享状态”对用户始终是启用的。 在“聊天”>“联系人”或“通话”>“联系人”下，可以看到用户的联系人列表（如果 Skype for Business 中有）。
 - 在 Teams 中，“客户端请勿打扰”和“特许”功能对用户始终是启用的。
 - 如果 Teams 已与 Outlook 集成，“日历(包括外出和其他日历信息)集成”对用户始终是启用的。
-- 如果组织还使用 Skype for Business，在 Teams 中“上次上线”  或“离开时间”  指示器对用户始终是启用的。
+- 如果组织还使用 Skype for Business，在 Teams 中“上次上线”或“离开时间”指示器对用户始终是启用的。
 
 > [!NOTE]
 > 暂不支持 Teams 管理员自定义这些设置。

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb045a6bf6a950e1b3d822a0e3b8a9389affbf64
-ms.sourcegitcommit: 7387d631cf895992906a46d3b7576a2ac76f5b4d
+ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
+ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49366911"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49385619"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -116,7 +116,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |会议类型                               | 单击 "记录"| 录制的土地在哪里？                               |谁有权访问？ R/W、R 或共享                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |与内部团体的1:1 通话             |呼叫者                 |呼叫者的 OneDrive for business 帐户                        |呼叫方是所有者，具有完全权限。 <br /><br />被调用方 (如果在同一租户) 中具有只读访问权限。 没有共享访问权限。 <br /><br /> 如果在不同租户) 中没有访问权限，则被调用方 (。 调用方必须将其共享给被调用方。|
-|与内部团体的1:1 通话             |被叫方                 |被呼叫者的 OneDrive for business 帐户                        |被呼叫方是所有者，具有完全权限。 <br /><br />如果在同一租户中具有只读访问权限，则调用方 (。 没有共享访问权限。 <br /><br />如果不同租户) 中没有访问权限，则调用方 (。 被调用方必须将其与被调用方共享。|
+|与内部团体的1:1 通话             |被叫方                 |被呼叫者的 OneDrive for business 帐户                        |被呼叫方是所有者，具有完全权限。 <br /><br />如果在同一租户中具有只读访问权限，则调用方 (。 没有共享访问权限。 <br /><br />如果不同租户) 中没有访问权限，则调用方 (。 被调用方必须将其共享给呼叫方。|
 |使用外部通话的1:1 通话             |呼叫者                 |呼叫者的 OneDrive for business 帐户                        |呼叫方是所有者，具有完全权限。<br /> <br />被调用方没有访问权限。 调用方必须将其共享给被调用方。|
 |使用外部通话的1:1 通话             |被叫方                 |被呼叫者的 OneDrive for business 帐户                        |被呼叫方是所有者，具有完全权限。<br /><br />呼叫方没有访问权限。 被调用方必须将其共享给呼叫方。|
 |群组通话                                 |任何呼叫成员 |单击记录的 OneDrive for Business 帐户的成员  |单击 "记录" 的成员具有完全权限。 <br /><br /> 来自同一租户的其他成员具有 "读取" 权限。 <br /><br /> 来自不同租户的其他成员没有权限。|
