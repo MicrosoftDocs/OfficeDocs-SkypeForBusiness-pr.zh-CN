@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385619"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477041"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -94,11 +94,14 @@ Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsof
    Import-PSSession $sfbSession
    ```
 
-4. 使用 [csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps&preserve-view=true) 将团队会议策略设置为从流存储过渡到 OneDrive for Business 和 SharePoint。
+4. 使用 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 将团队会议策略设置为从流存储过渡到 OneDrive for Business 和 SharePoint。
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
+   
+> [!Note]
+> 如果你的某些用户分配有每个组织者或每用户策略，则你必须在此策略中设置此设置（如果你希望他们还将会议录制存储在 OneDrive for business 和 SharePoint 中）。 有关详细信息，请参阅 [管理团队中的会议策略](meeting-policies-in-teams.md)。
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>选择退出 OneDrive for Business 和 SharePoint 以继续使用流
 

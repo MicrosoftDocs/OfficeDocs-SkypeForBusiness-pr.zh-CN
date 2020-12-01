@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-ms.openlocfilehash: cab51fd9cf0a81c849a0baf379150ccb2e08d818
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 266830f29f98d517450f4062ff23de9a7582a24f
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030278"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49476991"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 
@@ -32,12 +32,14 @@ ms.locfileid: "49030278"
 
 来宾是贵组织的员工、学生和成员以外的任何人。 他们在贵组织没有学校或工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。 不属于你的组织的任何人都可作为来宾添加到 Teams 中。 这意味着拥有商业帐户 (的任何人（如 Azure Active Directory 帐户) 或使用者电子邮件帐户 (具有 Outlook.com、Gmail.com 或其他) ）都可以通过访问团队和频道体验加入到团队中的来宾。
 
-作为团队管理员，你可以 [控制来宾可以 (和不能在团队中) 使用的功能](manage-guests.md)。 团队中的来宾受与 Microsoft 365 其余部分相同的合规性和审核保护涵盖，并且可以在 Azure AD 中托管。 来宾访问受到 Azure AD 和 Microsoft 365 或 Office 365 服务限制的约束。
+团队中的来宾受与 Microsoft 365 其余部分相同的合规性和审核保护涵盖，并且可以在 Azure AD 中托管。 来宾访问受到 Azure AD 和 Microsoft 365 或 Office 365 服务限制的约束。
 
 来宾体验体验在设计上有限制。 有关来宾可以和不能在团队中执行哪些操作的完整列表，请参阅 [团队成员和来宾功能的比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)。
 
 > [!IMPORTANT]
 > 来宾用户遵循 Teams 组织范围内的共存升级模式设置。 此选项无法更改。
+
+若要设置来宾访问权限，请参阅 [在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。 
 
 要将外部访问（联合身份验证）与来宾访问进行比较（并决定应使用哪个），请阅读[与 Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)。
 

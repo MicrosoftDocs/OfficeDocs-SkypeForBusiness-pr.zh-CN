@@ -16,16 +16,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 团队管理员功能的发行说明。
-ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816102"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477031"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 团队管理员功能的发行说明
 
 这些发行说明提供有关 Microsoft 团队的新管理员功能的信息。
+
+## <a name="november-25-2020"></a>2020年11月25日
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>设置 Google Workspace 的 Microsoft 团队会议加载项
+
+使用 Microsoft 团队会议加载项，可让 Google 日历用户直接从 Google Workspace 安排和加入 Microsoft 团队会议。 用户将能够访问团队会议功能，包括视频和音频会议、屏幕共享、会议聊天、数字白板等。 保持连接和组织，以便在工作、学校和生活中共同完成更多工作。
+
+对于 Google Workspace，Microsoft 团队会议加载项必须由团队管理员启用，租户用户才能访问该应用。 [了解详细信息](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad)。
 
 ## <a name="october-28-2020"></a>2020年10月28日
 
@@ -67,7 +75,7 @@ Microsoft 团队显示是一种由多人专用团队设备组成的类别，这�
 
 ### <a name="custom-policy-packages"></a>自定义策略程序包
 
-*此功能在私人预览版中*
+*此功能在私有预览版中*
 
 通过自定义策略程序包，你可以为你的组织中具有类似角色的用户捆绑你自己的策略集。 通过添加所需的策略类型和策略来创建自己的策略程序包。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages)。
 
@@ -373,7 +381,7 @@ Microsoft 团队客户端 for RealWear 支持一线工作人员使用 RealWear �
 
 ### <a name="tag-youre-it"></a>标记，您就是
 
-创建标记并将人员分配给他们，以便您可以 @mention 组、角色、部门等。团队所有者，请尝试自己负责。 转到团队，选择 " **更多选项** "  >  **管理标记** 。 [了解详细信息](../manage-tags.md)。
+创建标记并将人员分配给他们，以便您可以 @mention 组、角色、部门等。团队所有者，请尝试自己负责。 转到团队，选择 "**更多选项**"  >  **管理标记**。 [了解详细信息](../manage-tags.md)。
 
 ## <a name="march-30-2020"></a>2020年3月30日
 
