@@ -1,4 +1,4 @@
-- name: Skype for Business Online 管理
+- name: Skype for Business Online 管理员
   href: ../skype-for-business-online.yml
   items:
     - name: 音频会议和通话套餐的国家/地区可用性
@@ -18,7 +18,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 伯利兹
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 伊朗
+        - name: 波斯尼亚 & 黑塞哥维那
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 巴西
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -154,7 +154,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 瑞士
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 台湾
+        - name: 中国台湾
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 泰国
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -191,9 +191,9 @@
           href: /microsoftteams/change-the-settings-for-an-audio-conferencing-bridge?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 更改音频会议网桥中的电话号码
           href: /microsoftteams/change-the-phone-numbers-on-your-audio-conferencing-bridge?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 从会议拨出，以便其他人可以加入会议
+        - name: 从会议拨出，以便其他人加入会议
           href: ../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md
-        - name: 禁用特定用户的免费电话号码
+        - name: 为特定用户禁用免费电话号码
           href: ../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md
         - name: 用户设置更改时向其发送的电子邮件
           href: ../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md
@@ -207,17 +207,17 @@
           href: ../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user.md
         - name: 音频会议和用户 PSTN 通话的出站通话限制策略
           href: /microsoftteams/outbound-calling-restriction-policies?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 音频会议的电话号码
+        - name: 音频会议电话号码
           href: ../audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md
         - name: 重置用户的会议 ID
           href: ../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md
         - name: 重置音频会议 PIN
           href: ../audio-conferencing-in-office-365/reset-the-audio-conferencing-pin.md
-        - name: 请参阅、 更改和重置会议 ID 分配给用户
+        - name: 查看、更改和重置分配给用户的会议 ID
           href: ../audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user.md
         - name: 查看音频会议号码列表
           href: ../audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers.md
-        - name: 请参阅启用了音频会议的用户列表
+        - name: 查看启用了音频会议的用户列表
           href: ../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md
         - name: 以电子邮件形式向用户发送拨入信息
           href: ../audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md
@@ -254,7 +254,7 @@
           href: /microsoftteams/set-the-caller-id-for-a-user?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 设置通话套餐
           href: /microsoftteams/set-up-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 阻止入站呼叫
+        - name: 阻止拨入通话
           href: ../what-is-phone-system-in-office-365/block-inbound-calls.md
         - name: 免费电话号码的限制
           href: /microsoftteams/toll-free-dialing-limitations-and-restrictions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -267,7 +267,7 @@
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: 伯利兹
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 伊朗
+            - name: 波斯尼亚 & 黑塞哥维那
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: 巴西
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -365,7 +365,7 @@
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: 瑞典
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 台湾
+            - name: 中国台湾
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: 泰国
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -386,7 +386,7 @@
     - name: Office 365 中的电话系统
       href: /microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
       items:
-        - name: 获取适用于 Skype for Business Online 的电话
+        - name: 获取适用于 Skype for Business Online 的手机
           href: ../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md
           items:
             - name: 部署 Skype for Business Online 电话
@@ -397,11 +397,11 @@
           href: /microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 云语音邮件
           items:
-            - name: 更改组织中的语音信箱问候语和电子邮件的默认语言
+            - name: 更改组织中的语音邮件问候语和电子邮件的默认语言
               href: /microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 语音邮件问候语和消息的语言
+            - name: 语音邮件问候和消息所使用的语言
               href: /microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 设置云语音邮件 - 管理员帮助
+            - name: 设置云语音邮件 - 管理帮助
               href: /microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 设置组织内的电话系统
           href: /microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -410,10 +410,6 @@
           items:
             - name: 设置云自动助理
               href: /microsoftteams/create-a-phone-system-auto-attendant?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 小型企业示例 - 设置自动助理
-              href: /microsoftteams/tutorial-org-aa?toc=/SkypeForBusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 小型企业示例 - 设置呼叫队列
-              href: ../what-is-phone-system-in-office-365/tutorial-cq.yml?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 创建云呼叫队列
           href: /microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
     - name: 设置 Skype 会议直播网络
@@ -427,14 +423,14 @@
           href: ../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md
         - name: 更改 Skype 会议直播设置
           href: ../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md
-    - name: Skype for Business 附加许可
+    - name: Skype for Business 加载项授权
       href: ../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md
       items:
         - name: 基于计划的许可证选项
           items:
             - name: Microsoft 365 商业标准版
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md
-            - name: Microsoft 365 商业标准版、Microsoft 365 应用程序或 Skype for business Online 计划2
+            - name: Microsoft 365 商业标准版、Microsoft 365 企业应用版或 Skype for Business Online 计划 2
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md
             - name: Office 365 企业版 E1、E3 和 E4
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md
@@ -442,7 +438,7 @@
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md
             - name: Office 365 Enterprise E5（不含音频会议）
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md
-            - name: 政府、教育机构和非营利性组织
+            - name: GOV、EDU 和非营利性组织
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md
             - name: Skype for Business Online（计划 1）停用
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
@@ -467,7 +463,7 @@
           href: ../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md
         - name: 配置状态隐私模式
           href: ../set-up-skype-for-business-online/configure-presence-privacy-mode.md
-        - name: 允许用户联系外部 Skype for Business 用户
+        - name: 允许用户连接外部 Skype for Business 用户
           href: ../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md
         - name: 为单个用户配置 Skype for Business 设置
           href: ../set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md
@@ -475,7 +471,7 @@
           href: ../set-up-skype-for-business-online/customize-meeting-invitations.md
         - name: 部署 Skype for Business 客户端
           href: ../set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md
-        - name: 让人员可以录制其音频和视频会议
+        - name: 让联系人可以录制其音频和视频会议
           href: ../set-up-skype-for-business-online/let-people-record-their-audio-and-video-conferences.md
         - name: 允许 Skype for Business 用户添加 Skype 联系人
           href: ../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md
@@ -495,11 +491,11 @@
           href: ../set-up-skype-for-business-online/turn-on-or-off-preloading-content-for-meetings-using-outlook.md
         - name: 打开或关闭脱机消息（面向管理员）
           href: ../set-up-skype-for-business-online/turn-on-or-off-offline-messages-for-admins.md
-        - name: 设置 Skype for Business Online 安装
+        - name: 测试 Skype for Business Online 安装
           href: ../set-up-skype-for-business-online/test-your-skype-for-business-online-installation.md
         - name: 打开或关闭移动电话通知
           href: ../set-up-skype-for-business-online/turn-on-or-off-mobile-phone-notifications.md
-        - name: 开启或关闭 Skype for Business 客户端反馈报告
+        - name: 打开或关闭 Skype for Business 客户端反馈报告
           href: ../set-up-skype-for-business-online/turn-on-or-off-skype-for-business-client-feedback-reporting.md
         - name: 视频：Skype for Business Online 外部通信
           href: ../set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md
@@ -539,7 +535,7 @@
           href: /microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 打开并使用通话质量仪表板
           href: /microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 使用通话分析来排查通话质量不良问题
+        - name: 使用呼叫分析解决较差的呼叫质量
           href: /microsoftteams/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 通话质量仪表板中的流分类
           href: /microsoftteams/stream-classification-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -575,7 +571,7 @@
           href: ../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md
         - name: 管理 Exchange 统一消息和托管语音邮件
           href: ../set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md
-        - name: 管理用户帐户
+        - name: "\t管理用户帐户"
           href: ../set-up-your-computer-for-windows-powershell/manage-user-accounts.md
         - name: 使用 Skype for Business Online 连接器管理组织
           href: ../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md

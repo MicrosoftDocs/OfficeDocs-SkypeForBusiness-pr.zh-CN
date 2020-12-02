@@ -80,7 +80,7 @@
       href: migrate-slack-to-teams.md
     - name: 使用 Teams 模板
       items:
-        - name: 在管理中心中使用 Teams 模板
+        - name: 使用管理中心中的团队模板
           href: get-started-with-teams-templates-in-the-admin-console.md
         - name: 适用于中小型企业的 Graph 内置 Teams 模板
           href: smb-templates.md
@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: 准备环境
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: 要求
               href: rooms/requirements.md
             - name: 联机许可
               href: rooms/rooms-licensing.md
@@ -364,6 +364,8 @@
           href: Tutorial-Audio-Conferencing.yml
         - name: 试用或购买 Microsoft 365 中的音频会议
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: 适用于美国和加拿大的延长拨出分钟数
+          href: dial-out-minutes-canada-us.md
         - name: 音频会议免费播出时段
           href: complimentary-dial-out-period.md
         - name: 音频会议订阅“拨出”/“给我打电话”的好处
@@ -434,7 +436,7 @@
               href: audio-conferencing-supported-languages.md
             - name: 音频会议电话号码
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: 音频会议的国家和地区划分
+            - name: 音频会议的国家/地区区域
               href: audio-conferencing-zones.md
             - name: Teams 中的视频 - 音频会议
               href: audio-conferencing-videos.md
@@ -486,7 +488,7 @@
               href: more-about-calling-line-id-and-calling-party-name.md
         - name: 自动助理和呼叫队列
           items:
-            - name: 规划
+            - name: 计划
               href: plan-auto-attendant-call-queue.md
             - name: 自动助理设置
               href: create-a-phone-system-auto-attendant.md
@@ -522,8 +524,6 @@
           href: calling-plan-landing-page.md
         - name: 如何购买通话套餐
           href: calling-plans-for-office-365.md
-        - name: 适用于美国和加拿大的延长拨出分钟数
-          href: dial-out-minutes-canada-us.md
         - name: 为组织设置通话套餐
           href: set-up-calling-plans.md
         - name: 快速入门指南：配置通话套餐
@@ -879,7 +879,7 @@
       href: teams-adoption-get-started.md
     - name: 第 1 阶段 - 开始
       items:
-        - name: 开始
+        - name: Start
           href: teams-adoption-phase1.md
         - name: 了解团队和频道
           href: teams-adoption-understand-teams-and-channels.md
@@ -1102,31 +1102,31 @@
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 适用于医疗保健业的 Teams
       items:
-        - name: 适用于医疗保健组织的 Teams 入门
+        - name: 开始为医疗保健组织准备团队
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: 虚拟访问
           items:
-            - name: 通过 Teams 进行虚拟访问 - 集成到 EHR
+            - name: 与团队的虚拟访问-集成到 EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: 通过 Bookings 和 Teams 进行虚拟访问
+            - name: 与预订和团队的虚拟访问
               href: bookings-app-admin.md
         - name: 查看和分配策略包
           href: policy-packages-healthcare.md
-        - name: 安全消息传递
+        - name: 安全邮件
           items:
-            - name: 安全消息传递
+            - name: 安全邮件
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: 消息委派
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Teams 模板
+        - name: 团队模板
           items:
-            - name: 使用 Teams 医疗保健模板
+            - name: 使用团队医疗保健模板
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 适用于医疗保健的 Teams 模板
+            - name: 适用于医疗保健的团队模板
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: 管理列表应用
+        - name: 管理 Lists 应用
           href: manage-lists-app.md
-        - name: 管理任务应用
+        - name: 管理任务应用程序
           href: manage-tasks-app.md
         - name: Teams 中的班次
           items:
@@ -1169,7 +1169,7 @@
           href: firstline-workers-quickstart.yml
         - name: 一线员工脚本化部署
           href: flw-scripted-deployment.md
-        - name: 为一线工作者管理基于班次的访问
+        - name: 管理 FirstLine 工作人员的基于班次的访问
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear for Microsoft Teams
           href: flw-realwear.md
@@ -1180,7 +1180,7 @@
     - name: 适用于零售业的 Teams
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: 管理中心中的 Teams 零售模板入门
+        - name: 在管理中心中开始使用零售团队模板
           href: retail-teams-templates-in-the-admin-console.md
         - name: Teams 零售模板入门
           href: get-started-with-retail-teams-templates.md
@@ -1418,7 +1418,7 @@
           items:
             - name: 配置 Exchange 混合组织以配合使用 Teams
               href: exchange-hybrid-organization.md
-            - name: 通过 Exchange 使用邮件流规则
+            - name: 将邮件流规则与 Exchange 结合使用
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
         - name: SharePoint Online 和 OneDrive for Business 与 Teams 如何交互
           href: sharepoint-onedrive-interact.md
@@ -1434,11 +1434,11 @@
           href: devices/manage-device-tags.md
         - name: Teams 电话
           href: devices/phones-for-teams.md
-        - name: Teams 显示
+        - name: 团队显示
           href: devices/teams-displays.md
-        - name: 将 Teams 手机升级至 Teams 显示
+        - name: 将团队中的电话升级到团队显示
           href: devices/upgrade-phones-to-displays.md
-        - name: 使用 Intune 部署 Teams 和 Teams 显示
+        - name: 部署团队使用 Intune 显示电话和团队
           href: devices/phones-displays-deploy.md
         - name: USB 音频和视频设备
           href: devices/usb-devices.md
@@ -1460,7 +1460,7 @@
           href: teams-powershell-managing-teams.md
         - name: Teams PowerShell 发行说明
           href: teams-powershell-release-notes.md
-        - name: 从 Skype for Business Online 连接器移动到 Teams PowerShell 模块
+        - name: 从 Skype for Business Online 连接器移动到团队 PowerShell 模块
           href: teams-powershell-move-from-sfbo.md
         - name: Teams 的 Cmdlet 参考
           href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
@@ -1720,5 +1720,5 @@
       href: export-teams-content.md
     - name: Teams 管理员功能的发行说明
       href: release-notes/release-notes.md
-    - name: Microsoft Teams 中的公共预览版
+    - name: Microsoft 团队中的公共预览版
       href: public-preview-doc-updates.md

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何通过 Microsoft Phone 系统直接路由配置语音路由。
-ms.openlocfilehash: 37343ad177e3408f94103296509e4b9bfc8ea759
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: e87d7d04f9b2477d65e08f461ac3ff113b4d0e7c
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359408"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530989"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>为直接路由配置语音路由
 
@@ -66,11 +66,11 @@ SBCs 可以指定为 "活动" 和 "备份"。 当配置为活动的 SBC 不能�
 
 **通话流 1 (左侧) ：** 如果用户拨打 + 1 425 XXX xx 或 + 1 206 XXX xx xx，则该呼叫将路由到 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果 sbc1.contoso.biz 和 sbc2.contoso.biz 都不可用，则呼叫将被丢弃。 
 
-** (右侧) 的 "呼叫流程 2"：** 如果用户拨打 + 1 425 XXX xx 或 + 1 206 XXX xx xx，则该调用首先路由到 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果两个 SBC 均不可用，将尝试使用较低优先级的路由 (sbc3.contoso.biz 和 sbc4.contoso.biz) 。 如果没有 SBCs 可用，将丢弃呼叫。 
+**(右侧) 的 "呼叫流程 2"：** 如果用户拨打 + 1 425 XXX xx 或 + 1 206 XXX xx xx，则该调用首先路由到 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果两个 SBC 均不可用，将尝试使用较低优先级的路由 (sbc3.contoso.biz 和 sbc4.contoso.biz) 。 如果没有 SBCs 可用，将丢弃呼叫。 
 
 ![显示语音路由策略示例](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-在这两个示例中，虽然为语音路由分配了优先级，但路由中的 SBCs 按随机顺序尝试。
+在这两个示例中，虽然为语音路由分配了优先级，但路由中的 SBCs 按随机顺序尝试。 当两个 SBC 在一个路由中配置时，必须能够在 SBC 或 media 之间路由网络流量，因为可能会在传输中将新的邀请发送到路由中的不同 SBC。
 
   > [!NOTE]
   > 除非用户也有 Microsoft 通话计划许可证，否则将删除示例配置中除与模式 + 1 425 XXX xx xx 或 + 1 206 XXX xx 之间的任何号码。 如果用户有呼叫计划许可证，则会根据 Microsoft 通话计划的政策自动路由呼叫。 Microsoft 通话计划将自动应用为具有 Microsoft 呼叫计划许可证的所有用户的最后一个路由，并且不需要其他呼叫路由配置。
@@ -119,14 +119,14 @@ SBCs 可以指定为 "活动" 和 "备份"。 当配置为活动的 SBC 不能�
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **直接路由**"，然后选择 "**语音路由**" 选项卡。
 2. 单击 " **添加**"，然后输入语音路线的名称和说明。
 3. 设置优先级并指定拨出的号码模式。
-4. 若要将 SBC 注册到语音路由，请在 " **SBCs 注册 (可选) **中，单击" **添加 sbcs**"，选择要注册的 SBCs，然后单击" **应用**"。
-5. 要添加 PSTN 使用记录，请在 " **PSTN 使用记录 (可选) **下，单击" **添加 PSTN 使用情况**"，选择要添加的 PSTN 记录，然后单击" **应用**"。
+4. 若要将 SBC 注册到语音路由，请在 " **SBCs 注册 (可选)** 中，单击" **添加 sbcs**"，选择要注册的 SBCs，然后单击" **应用**"。
+5. 要添加 PSTN 使用记录，请在 " **PSTN 使用记录 (可选)** 下，单击" **添加 PSTN 使用情况**"，选择要添加的 PSTN 记录，然后单击" **应用**"。
 6. 单击“**保存**”。
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>步骤3：创建名为 "仅美国" 的语音路由策略，并向策略添加 "美国和加拿大" PSTN 使用情况
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **语音路由策略**"，然后单击 "**添加**"。
-2. **仅键入 US**作为名称，然后添加说明。
+2. **仅键入 US** 作为名称，然后添加说明。
 3. 在 " **PSTN 使用记录**" 下，单击 " **添加 PSTN 使用情况**"，选择 "美国和加拿大" PSTN 使用记录，然后单击 " **应用**"。
 4. 单击“**保存**”。
 
@@ -134,7 +134,7 @@ SBCs 可以指定为 "活动" 和 "备份"。 当配置为活动的 SBC 不能�
 
 #### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>步骤4：将语音路由策略分配给名为 Spencer Low 的用户
 
-1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
+1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。
 2. 单击 " **策略**"，然后单击 " **分配的策略**" 旁边的 " **编辑**"。
 3. 在 " **语音路由策略**" 下，选择 "仅美国" 策略，然后单击 " **保存**"。
 
@@ -350,8 +350,8 @@ US Only
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **直接路由**"，然后选择 "**语音路由**" 选项卡。
 2. 单击 " **添加**"，输入 "国际" 作为名称，然后添加说明。
 3. 将 "优先级" 设置为 "4"，然后将 "拨打的号码" 模式设置为 "\d +"。
-4. 在 " **SBCs 注册 (可选) **中，单击" **添加 SBCs**"，选择" sbc2.contoso.biz "和" sbc5.contoso.biz "，然后单击" **应用**"。
-5. 在 " **PSTN 使用记录 (可选) **" 下，单击 " **添加 PSTN 使用情况**"，选择 "国际" PSTN 使用记录，然后单击 " **应用**"。
+4. 在 " **SBCs 注册 (可选)** 中，单击" **添加 SBCs**"，选择" sbc2.contoso.biz "和" sbc5.contoso.biz "，然后单击" **应用**"。
+5. 在 " **PSTN 使用记录 (可选)**" 下，单击 " **添加 PSTN 使用情况**"，选择 "国际" PSTN 使用记录，然后单击 " **应用**"。
 6. 单击“**保存**”。
 
 #### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions-and-add-the-us-and-canada-and-international-pstn-usages-to-the-policy"></a>步骤3：创建名为 "无限制" 的语音路由策略，并将 "美国和加拿大" 和 "国际" PSTN 使用情况添加到策略
@@ -374,7 +374,7 @@ PSTN 使用 "美国和加拿大" 将在此语音路由策略中重复使用，�
 
 #### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-john-woods"></a>步骤4：将语音路由策略分配给名为 John 的的用户
 
-1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
+1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。
 2. 单击 " **策略**"，然后单击 " **分配的策略**" 旁边的 " **编辑**"。
 3. 在 " **语音路由策略**" 下，选择 "无限制" 策略，然后单击 " **保存**"。
 

@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试自动助理。
-ms.openlocfilehash: 1d19483fe458c38d01a9c46c982101eeab6546c2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 203a05e19ffce4154c123cbb700ca59e0b75a63a
+ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49033020"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49530597"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
-自动助理允许用户呼叫你的组织，并导航菜单系统以与右部门通话、呼叫队列、人员或操作员。 你可以通过 Microsoft 团队管理中心或通过 PowerShell 为你的组织创建自动助理。 
+自动助理允许用户呼叫你的组织，并导航菜单系统以与右部门通话、呼叫队列、人员或操作员。 你可以通过 Microsoft 团队管理中心或通过 PowerShell 为你的组织创建自动助理。
 
 请确保你拥有 [团队自动助理和呼叫队列](plan-auto-attendant-call-queue.md) 的阅读计划，然后按照本文中的步骤操作，然后按照 [入门步骤](plan-auto-attendant-call-queue.md#getting-started) 操作。
 
@@ -45,7 +45,7 @@ ms.locfileid: "49033020"
 
 设置自动助理时，系统会提示你在各个阶段选择其中一个选项。
 
-若要设置自动助理，请在 "团队管理中心" 中，展开 " **语音** "，单击 " **自动助理** "，然后单击 " **添加** "。
+若要设置自动助理，请在 "团队管理中心" 中，展开 " **语音**"，单击 " **自动助理**"，然后单击 " **添加**"。
 
 ## <a name="general-info"></a>常规信息
 
@@ -61,7 +61,7 @@ ms.locfileid: "49033020"
 
 5. 选择是否要启用语音输入。 启用后，每个菜单选项的名称将变为语音识别关键字。 例如，呼叫者可以说 "One" 以选择映射到键1的菜单选项，或者说 "销售额" 以选择名为 "Sales" 的菜单选项。
 
-6. 单击" **下一步** "。
+6. 单击" **下一步**"。
 
 ## <a name="call-flow"></a>通话流
 
@@ -77,11 +77,11 @@ ms.locfileid: "49033020"
 
 选择您希望路由呼叫的方式。
 
-如果您选择 " **断开连接** "，自动助理将挂起呼叫。
+如果您选择 " **断开连接**"，自动助理将挂起呼叫。
 
-如果选择 " **重定向呼叫** "，则可以选择其中一个呼叫传送目的地。
+如果选择 " **重定向呼叫**"，则可以选择其中一个呼叫传送目的地。
 
-如果选择 " **播放菜单" 选项** ，则可以选择 **播放音频文件** 或 **键入问候语** ，然后在菜单选项和目录搜索之间进行选择。
+如果选择 " **播放菜单" 选项**，则可以选择 **播放音频文件** 或 **键入问候语** ，然后在菜单选项和目录搜索之间进行选择。
 
 ### <a name="menu-options"></a>菜单选项
 
@@ -91,11 +91,11 @@ ms.locfileid: "49033020"
 
 键映射不必是连续的。 例如，可以创建一个映射到选项的键为0、1和3的菜单，而不使用2键。
 
-如果已配置，我们建议将0键映射到操作员。 如果运算符未设置为任何键，则语音命令 "Operator" 也会被禁用。 
+如果已配置，我们建议将0键映射到操作员。 如果运算符未设置为任何键，则语音命令 "Operator" 也会被禁用。
 
 对于每个菜单选项，请指定以下内容：
 
-- " **拨号键** "-电话键盘上的键以访问此选项。 如果语音输入可用，呼叫方还可以使用此号码访问该选项。
+- "**拨号键**"-电话键盘上的键以访问此选项。 如果语音输入可用，呼叫方还可以使用此号码访问该选项。
 
 - **语音命令** -定义当语音输入已启用时，呼叫者可以提供的语音命令来访问此选项。 它可以包含多个词语，如 "客户服务" 或 "操作和用户"。 例如，呼叫者可以按2、说出 "二" 或说 "销售额" 以选择映射到2键的选项。 此文本还会由用于服务确认提示的文本（如 "将您的呼叫转移到销售人员"）呈现为语音。
 
@@ -103,13 +103,13 @@ ms.locfileid: "49033020"
 
 ### <a name="directory-search"></a>目录搜索
 
-如果为目的地分配了拨号键，我们建议您选择 " **无** " 进行 **目录搜索** 。 如果呼叫者尝试使用分配给特定目的地的密钥来拨打名称或分机，则它们可能会在完成输入名称或扩展名之前意外地路由到目标。 我们建议你为目录搜索创建单独的自动助理，并让你的主自动助理通过拨号键链接到它。
+如果为目的地分配了拨号键，我们建议您选择 " **无** " 进行 **目录搜索**。 如果呼叫者尝试使用分配给特定目的地的密钥来拨打名称或分机，则它们可能会在完成输入名称或扩展名之前意外地路由到目标。 我们建议你为目录搜索创建单独的自动助理，并让你的主自动助理通过拨号键链接到它。
 
 如果您没有分配拨号键，请选择 **目录搜索** 选项。
 
 **按名称拨号** -如果启用此选项，呼叫者可以说出用户的姓名或在电话键盘上键入它。 任何带电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，可通过 "按名称拨号" 找到。  (你可以设置 " [拨号作用域](#dial-scope) " 页面上的目录中和未包含的人员。 ) 
 
-**按分机号码拨号** -如果启用此选项，则呼叫者可以通过拨打电话分机与您的组织中的用户联系。 任何具有电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，并且可以 **通过 "通过分机拨入** " 找到。  (你可以设置 " [拨号作用域](#dial-scope) " 页面上的目录中和未包含的人员。 ) 
+**按分机号码拨号** -如果启用此选项，则呼叫者可以通过拨打电话分机与您的组织中的用户联系。 任何具有电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，并且可以 **通过 "通过分机拨入**" 找到。  (你可以设置 " [拨号作用域](#dial-scope) " 页面上的目录中和未包含的人员。 ) 
 
 希望可供拨号使用的用户需要将扩展指定为在 Active Directory 或 Azure Active Directory 中定义的以下某个电话属性的一部分 (请参阅 [单独或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 以了解详细信息。 ) 
 
@@ -119,14 +119,15 @@ ms.locfileid: "49033020"
 - TelephoneNumber/电话号码
 - OtherTelephone
 
-在 "用户电话号码" 字段中输入扩展名所需的格式为 *+ \<phone number> ext = \<extension>* 或 *+ \<phone number> x \<extension>* 。
+在 "用户电话号码" 字段中输入扩展名所需的格式是 *+ \<phone number> ; ext = \<extension>* 或 *+ \<phone number> x \<extension>*。
+示例： Set-MsolUser-UserPrincipalName usern@domain.com-电话号码 "+ 15555555678; ext = 5678"。
 
 你可以在 [Microsoft 365 管理中心](https://admin.microsoft.com/) 或 [Azure Active Directory 管理中心](https://aad.portal.azure.com)中设置扩展。 在自动助理和呼叫队列中进行更改前，最多可能需要12小时。
 
 > [!NOTE]
-> 如果想要同时使用 " **按姓名** 拨号" 和 " **按分机号码拨号** " 功能，您可以在您的主自动助理上分配一个拨号键，以到达启用 " **按名称拨号** " 的自动助理。 在该自动助理中，你可以分配一个没有与之关联的字母 (的键) **通过分机** 自动助理到达拨号。
+> 如果想要同时使用 " **按姓名** 拨号" 和 " **按分机号码拨号** " 功能，您可以在您的主自动助理上分配一个拨号键，以到达启用 " **按名称拨号**" 的自动助理。 在该自动助理中，你可以分配一个没有与之关联的字母 (的键) **通过分机** 自动助理到达拨号。
 
-选择 **目录搜索** 选项后，单击 " **下一步** "。
+选择 **目录搜索** 选项后，单击 " **下一步**"。
 
 ## <a name="call-flow-for-after-hours"></a>下班后的通话流程
 
@@ -148,7 +149,7 @@ ms.locfileid: "49033020"
 
 您的自动助理可以为 [您设置](set-up-holidays-in-teams.md)的每个假日提供一个呼叫流。 可以为每个自动助理添加最多 20 个计划假日。
 
-1. 在 "假日呼叫设置" 页面上，单击 " **添加** "。
+1. 在 "假日呼叫设置" 页面上，单击 " **添加**"。
 
 2. 键入此假日设置的名称。
 
@@ -162,13 +163,13 @@ ms.locfileid: "49033020"
 
 6. 如果您选择重定向，请选择呼叫的呼叫传送目的地。
 
-7. 单击“ **保存** ”。
+7. 单击“**保存**”。
 
 ![已列出假日设置的假日设置的屏幕截图](media/auto-attendant-holiday-call-settings.png)
 
 根据需要为每个额外的假日重复该过程。
 
-添加完所有假日后，单击 " **下一步** "。
+添加完所有假日后，单击 " **下一步**"。
 
 ## <a name="dial-scope"></a>拨号作用域
 
@@ -176,12 +177,12 @@ ms.locfileid: "49033020"
 
 当呼叫者使用按名称拨号或按扩展方式拨号时， *拨号作用域* 定义哪些用户在目录中可用。 **所有联机用户** 的默认值包括您的组织中的所有用户，这些用户是使用电话系统许可证的联机用户或使用 Skype For business 服务器内部托管的用户。
 
-通过选择 " **包含** " 或 " **排除** " 下的 " **自定义用户组** "，然后选择一个或多个 Microsoft 365 组、通讯组列表或安全组，可以包含或排除特定用户。 例如，您可能希望从 "拨号目录" 中将组织中的主管排除在您的组织中。  (如果用户在两个列表中，则会将其从目录中排除。 ) 
+通过选择 "**包含**" 或 "**排除**" 下的 "**自定义用户组**"，然后选择一个或多个 Microsoft 365 组、通讯组列表或安全组，可以包含或排除特定用户。 例如，您可能希望从 "拨号目录" 中将组织中的主管排除在您的组织中。  (如果用户在两个列表中，则会将其从目录中排除。 ) 
 
 > [!NOTE]
 > 新用户可能需要长达36小时才能在目录中列出其名称。
 
-设置完拨号作用域后，单击 " **下一步** "。
+设置完拨号作用域后，单击 " **下一步**"。
 
 ## <a name="resource-accounts"></a>资源帐户
 
@@ -189,11 +190,11 @@ ms.locfileid: "49033020"
 
 ![资源帐户 "添加帐户" 面板的屏幕截图](media/auto-attendant-add-resource-account.png)
 
-若要添加资源帐户，请单击 " **添加帐户** "，然后搜索要添加的帐户。 单击 " **添加** "，然后单击 " **添加** "。
+若要添加资源帐户，请单击 " **添加帐户** "，然后搜索要添加的帐户。 单击 " **添加**"，然后单击 " **添加**"。
 
 ![资源帐户列表的屏幕截图，显示分配的服务号码的资源帐户](media/auto-attendant-resource-account-assigned.png)
 
-添加完服务帐户后，单击 " **提交** "。 这将完成自动助理配置。
+添加完服务帐户后，单击 " **提交**"。 这将完成自动助理配置。
 
 ## <a name="external-phone-number-transfers---technical-details"></a>外部电话号码传输-技术详细信息
 
@@ -234,7 +235,6 @@ ms.locfileid: "49033020"
 - [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
 - [新-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-
 ## <a name="related-topics"></a>相关主题
 
 [电话系统的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
@@ -243,6 +243,6 @@ ms.locfileid: "49033020"
 
 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[小型企业版示例-设置自动助理](/microsoftteams/tutorial-org-aa) 
+[小型企业版示例-设置自动助理](/microsoftteams/tutorial-org-aa)
 
 [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
