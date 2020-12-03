@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解 (SBCs) 已认证直接路由的会话边框控制器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c092df13f2bde66286f9971ff9969e10cc198271
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 1637d71269cdacc4e48de98f210a4c6ce4c56c13
+ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130443"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561038"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -38,7 +38,7 @@ Microsoft 与每位供应商协作：
 
 
   > [!NOTE]
-  > 只有经过认证的设备或设备通过直接路由连接时，Microsoft 才支持电话系统。 Microsoft 保留拒绝未验证设备通过直接路由连接到手机系统的支持案例的权利。 
+  > 只有经过认证的设备或设备通过直接路由连接时，Microsoft 才支持电话系统。 Microsoft 保留拒绝未验证设备通过直接路由连接到手机系统的支持案例的权利。 如果 Microsoft 确定客户的直接路由问题与供应商的 SBC 设备有关，客户将需要与 SBC 供应商联系以获取支持。
 
 下表列出了经认证可用于直接路由的设备。  (有关 SBC 供应商支持本地媒体优化的信息，请参阅为 [直接路由配置本地媒体优化](direct-routing-media-optimization-configure.md)。 ) 
 

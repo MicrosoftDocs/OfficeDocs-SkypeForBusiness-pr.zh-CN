@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385639"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557946"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -78,6 +78,9 @@ ms.locfileid: "49385639"
 | 请勿打扰|1天|
 | 则|7天|
 |||
+
+> [!NOTE]
+> 用户还可以为她的状态手动配置持续时间。 例如，用户可以将自己设置为在明天早上才显示为脱机。
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>比较 Teams 与 Skype for Business 中的管理员设置
 
