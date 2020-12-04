@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于意大利的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: f5731c6580a30c689c71115390ad865aeeb75b44
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 43cc354db2206eabe5b57f16758ab025f5537c2f
+ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321875"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49570901"
 ---
 # <a name="availability-in-italy"></a>在意大利的可用性
 
@@ -45,7 +45,7 @@ ms.locfileid: "48321875"
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> Milan</ul>如果您需要专用电话号码，请参阅 [获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
-   
+
 ## <a name="phone-system"></a>电话系统
 
 |**功能**|**Details**|
@@ -54,16 +54,16 @@ ms.locfileid: "48321875"
 | 自动助理 <br/> |可用  <br/> |
 |呼叫队列  <br/> |可用  <br/> |
 |语音邮件  <br/> |可用  <br/> |
-   
+
 ## <a name="calling-plans"></a>通话套餐
 
 |**功能**|**Details**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话计划可用的分钟数。 |每个日历月提供四个计划选项： <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>1200分钟国内通话计划 </li></li><li>国内和国际长途计划：拨打 (天的1200分钟（国际通话的600分钟）) </li></li> |
+|通话计划可用的分钟数。 |每个日历月提供四个计划选项： <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>1200分钟国内通话计划 </li></li><li>国内和国际长途计划：拨打 (天的1200分钟（国际通话的600分钟）) </li></li></ul>[ (的关税透明性) ](https://www.microsoft.com/download/details.aspx?id=102426)<br>[ (EN) 的关税透明性 ](https://www.microsoft.com/download/details.aspx?id=102426) |
 |是否可以拨出电话拨出收费号码？  <br/> | 目前不支持。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
-   
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**Details**|
@@ -71,7 +71,7 @@ ms.locfileid: "48321875"
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |Milan  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
-   
+
  如果您想要为音频会议、自动助理和通话队列获取收费和免费电话号码，请参阅 [获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   
 ## <a name="communications-credits"></a>通信点数
@@ -79,7 +79,7 @@ ms.locfileid: "48321875"
 |**功能**|**Details**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |是  <br/> |
-   
+
 如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。
   
 ## <a name="related-topics"></a>相关主题
@@ -87,7 +87,3 @@ ms.locfileid: "48321875"
 [获取服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-  
- 
-
