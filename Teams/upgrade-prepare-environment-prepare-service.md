@@ -1,7 +1,7 @@
 ---
-title: 准备 Microsoft 团队升级 | 加入推出清单
-author: lanachin
-ms.author: v-lanac
+title: 准备要升级到 Microsoft 团队的服务
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: e02b210de118c9eb2a984ed0790fd5e127ba47e9
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158680"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578375"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>准备要升级到团队的服务
 
@@ -61,9 +61,9 @@ ms.locfileid: "45158680"
 
 使用提供的清单跟踪每个单独的活动和任务的状态，并确保未跳过任何关键步骤。 每个活动都包括所需操作的详细说明和可用于完成该活动的其他信息的参考。
 
-尽管我们建议按顺序跟踪检查表，但具体顺序将取决于你的部署的范围以及你的环境的配置和复杂程度。 它们被组织为支持 "全新" 团队部署（没有以前的 Skype for Business Online 状态）或从 Skype for business Online 升级到团队。 如果您是从 Skype for Business Online 升级，那么您可能已经完成了这些活动中的一部分，并且现在可以忽略它们。
+尽管我们建议按顺序跟踪检查表，但具体顺序将取决于你的部署的范围以及你的环境的配置和复杂程度。 它们被组织为支持 "全新" 团队部署 (一个没有以前的 Skype for Business Online 状态) 或从 Skype for business Online 升级到团队。 如果您是从 Skype for Business Online 升级，那么您可能已经完成了这些活动中的一部分，并且现在可以忽略它们。
 
-如果您是在每个网站的基础上加入用户，我们强烈建议您使用[网站支持行动手册（如 "行动手册"）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)作为这些清单的辅助指南。
+当您在每个网站的基础上加入用户时，我们强烈建议您使用 " [网站支持行动手册" 来获取语音 (行动手册) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 作为这些清单的补充指南。
 
 >[!NOTE]
 >大多数配置设置在团队和 Skype for business Online 之间通用。 使用 Microsoft 团队管理中心配置这些设置。
@@ -77,7 +77,7 @@ ms.locfileid: "45158680"
 
 ## <a name="continue-onboarding"></a>继续加入
 
-完成此清单后，请继续执行下一步操作：[执行用户试点](pilot-essentials.md)
+完成此清单后，请继续执行下一步操作： [执行用户试点](pilot-essentials.md)
 
 [//]: # (@Turgay，我注释掉下一个段落，因为它是特定于云的云语音。)
 <!--

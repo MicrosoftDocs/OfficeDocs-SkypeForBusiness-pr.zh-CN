@@ -1,7 +1,7 @@
 ---
-title: Microsoft 团队培训 |IT 支持管理员问题
-author: lanachin
-ms.author: v-lanac
+title: 为 Microsoft 团队准备 IT 员工
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15c7c38b31586d0eec73e34702d873514938020e
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 680106618d610d0adc3f93658e3a522d63850e24
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085898"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578455"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>为 Microsoft 团队准备 IT 员工
 
@@ -53,4 +53,4 @@ ms.locfileid: "45085898"
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否有可能涉及部署和支持团队的所有支持人员？</li><li>在升级过程中，你是否制定了加入其他教职员工的培训计划？</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>验证 IT 人员是否拥有所需的信息。</li><li>在新功能发布时，请重新访问你的培训和准备计划。</li></ul>|
 
-为团队准备好 IT 员工后，请验证你的环境是否满足所有[先决条件](upgrade-plan-journey-prerequisites.md)。
+为团队准备好 IT 员工后，请验证你的环境是否满足所有 [先决条件](upgrade-plan-journey-prerequisites.md)。

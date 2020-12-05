@@ -1,7 +1,7 @@
 ---
 title: 准备要升级到团队的环境
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec46cfed6c39593dc32b155374f5cf9478d73ad0
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: cb736a0398d1ab77ed67919f02a80400bd2ae19e
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666044"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578245"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>准备要升级到团队的环境
 
@@ -43,7 +43,7 @@ ms.locfileid: "44666044"
 与你的用户准备就绪准备并行完成这些活动：
 
 - 让[您的 IT 员工做好准备](upgrade-prepare-IT-pros.md)，帮助确保他们有成功升级旅行所需的内容。
-- 验证你的环境是否满足所有[先决条件](upgrade-plan-journey-prerequisites.md)，并了解 Microsoft 365 或 Office 365 服务和团队之间的依赖关系。
+- 验证你的环境是否满足所有 [先决条件](upgrade-plan-journey-prerequisites.md)，并了解 Microsoft 365 或 Office 365 服务和团队之间的依赖关系。
 - 通过使用示例调查表来执行环境发现来[评估你的环境](upgrade-plan-journey-evaluate-environment.md)，以确认你的组织准备成功升级到团队。
 - 通过规划、准备和采取任何必要的补救步骤来为你的网络[准备](prepare-network.md)支持团队工作负荷。
 - 通过使用 "加入" 检查表确保你的团队配置准备好支持将你的用户从 Skype for Business 迁移到团队，准备要推出的[服务](upgrade-prepare-environment-prepare-service.md)。

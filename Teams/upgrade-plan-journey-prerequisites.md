@@ -1,13 +1,13 @@
 ---
-title: Microsoft 团队先决条件 |依赖关系采用升级
-author: lanachin
-ms.author: v-lanac
+title: 升级到团队的先决条件和环境依赖关系
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 使用本指南了解在组织中部署团队的先决条件和环境相关性
+description: 使用本指南了解在组织中部署团队的先决条件和环境依赖关系
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: bcd3de45954ea500a6be0d325370ab0660604a65
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158730"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578275"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>团队的先决条件和环境依赖关系
 
@@ -42,22 +42,22 @@ ms.locfileid: "45158730"
 
 请参阅以下文章，了解有关先决条件以及团队如何与其他技术交互的方法：
 
-- 如果你的组织尚未部署任何 Microsoft 365 或 Office 365 工作负荷，请参阅[入门](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)。
+- 如果你的组织尚未部署任何 Microsoft 365 或 Office 365 工作负荷，请参阅 [入门](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)。
 
-- 如果你的组织尚未为 Microsoft 365 或 Office 365 添加或配置验证的域，请参阅[域常见问题解答](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)。
+- 如果你的组织尚未为 Microsoft 365 或 Office 365 添加或配置验证的域，请参阅 [域常见问题解答](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)。
 
-- 如果你的组织尚未将身份与 Azure Active Directory 同步，请参阅[Microsoft 团队中的身份模型和身份验证](identify-models-authentication.md)。
+- 如果你的组织尚未将身份与 Azure Active Directory 同步，请参阅 [Microsoft 团队中的身份模型和身份验证](identify-models-authentication.md)。
 
-- 如果你的组织没有 Exchange Online，请参阅[了解 exchange 和 Microsoft 团队如何交互](Exchange-Teams-interact.md)。
+- 如果你的组织没有 Exchange Online，请参阅 [了解 exchange 和 Microsoft 团队如何交互](Exchange-Teams-interact.md)。
 
-- 如果你的组织没有 SharePoint Online，请参阅[了解 Sharepoint online 和 OneDrive For business 如何与 Microsoft 团队进行交互](SharePoint-OneDrive-interact.md)。
+- 如果你的组织没有 SharePoint Online，请参阅 [了解 Sharepoint online 和 OneDrive For business 如何与 Microsoft 团队进行交互](SharePoint-OneDrive-interact.md)。
 
-- 了解[microsoft 365 组和 Microsoft 团队如何交互](Office-365-groups.md)。
+- 了解 [microsoft 365 组和 Microsoft 团队如何交互](Office-365-groups.md)。
 
-- 如果您的组织是教育机构，并且您使用的是学生信息系统，请参阅部署 Microsoft 团队之前的 "[欢迎使用 Microsoft School 数据同步](https://docs.microsoft.com/schooldatasync)"。
+- 如果您的组织是教育机构，并且您使用的是学生信息系统，请参阅部署 Microsoft 团队之前的 " [欢迎使用 Microsoft School 数据同步](https://docs.microsoft.com/schooldatasync) "。
 
-- 如果你的组织正在考虑公共交换电话网络（PSTN）呼叫选项，请参阅[语音电话系统和 PSTN 连接](cloud-voice-landing-page.md)（[通话计划适合你](calling-plan-landing-page.md)）和[手机系统直接路由](direct-routing-landing-page.md)。
+- 如果您的组织正在考虑公共交换式电话网络 (PSTN) 呼叫选项，请参阅 [语音电话系统和 PSTN 连接](cloud-voice-landing-page.md)， [其中的通话计划适合您](calling-plan-landing-page.md)，而 [电话系统直接路由](direct-routing-landing-page.md)。
 
-- 为确保在推出团队之前满足所有网络要求，请参阅为[Microsoft 团队准备组织的网络](prepare-network.md)。
+- 为确保在推出团队之前满足所有网络要求，请参阅为 [Microsoft 团队准备组织的网络](prepare-network.md)。
 
-验证你的环境满足所有适用的先决条件后，请[评估团队的当前环境](upgrade-plan-journey-evaluate-environment.md)。
+验证你的环境满足所有适用的先决条件后，请 [评估团队的当前环境](upgrade-plan-journey-evaluate-environment.md)。

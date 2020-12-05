@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: 46d3b53f62a3bb497f173c9efd418b7ed88444c7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477041"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578505"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -99,7 +99,7 @@ Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsof
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
-   
+
 > [!Note]
 > 如果你的某些用户分配有每个组织者或每用户策略，则你必须在此策略中设置此设置（如果你希望他们还将会议录制存储在 OneDrive for business 和 SharePoint 中）。 有关详细信息，请参阅 [管理团队中的会议策略](meeting-policies-in-teams.md)。
 
@@ -153,7 +153,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **如何管理脚本？**
 
-选择加入此预览的客户将不会在其团队会议录制中提供隐藏字幕，这些标题将迁移到 OneDrive for Business 和 SharePoint。我们正在努力在2020年10月向会议录制添加字幕，以英文隐藏的字幕开始。
+选择加入此预览的客户将不会在其团队会议录制中提供隐藏字幕，这些标题将迁移到 OneDrive for Business 和 SharePoint。我们正在努力在第4季度 CY2020 中使用隐藏字幕（以英语开始）添加字幕来录制会议。
 
 对于已选择加入以允许在[团队云录制](cloud-recording.md)中介绍的内容的客户，将在团队会议录制中提供隐藏式字幕
 
@@ -180,3 +180,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 **如何应用保留标签？**
 
 请参阅 [如何自动应用保留标签](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)。
+
+**如何向 Microsoft 团队中的用户分配策略以及哪些策略优先？**
+
+查看 [哪种策略优先？](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence)。

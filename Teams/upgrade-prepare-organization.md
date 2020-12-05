@@ -1,7 +1,7 @@
 ---
-title: 准备将 Skype for Business 升级到团队
-author: lanachin
-ms.author: v-lanac
+title: 为您的组织准备从 Skype for Business 升级到团队
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f355e57e71ff59a5927a697aeb75e559e3615aa
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: bf4cd0fcadc87b690b21d91a7e1d4621fc15c85b
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523005"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578215"
 ---
 # <a name="prepare-your-organization"></a>准备您的组织
 
@@ -41,7 +41,7 @@ ms.locfileid: "44523005"
 若要实现团队的最大价值，用户必须实际使用它，但让用户更改其工作方式始终很简单。 花时间了解你的用户并设计正确的准备情况计划有助于帮助更改和加速团队的采纳。 这些活动应与你的技术准备工作并行完成：
 
 - [评估组织更改准备情况](https://aka.ms/OrgReadiness)：这包括了解你的用户的身份、他们使用新技术的方式以及更改的难易程度。 这也是识别特定用户配置文件的机会，这些配置文件将受益于重点加入。
-- [准备用户准备情况计划](https://aka.ms/UserReadinessPlan)：包括 "感知"、"培训" 和 "支持" 活动，准备情况计划应满足你的广泛用户基本配置文件，如[评估更改准备情况](https://aka.ms/OrgReadiness)文章中所述。
+- [准备用户准备情况计划](https://aka.ms/UserReadinessPlan)：包括 "感知"、"培训" 和 "支持" 活动，准备情况计划应满足你的广泛用户基本配置文件，如 [评估更改准备情况](https://aka.ms/OrgReadiness) 文章中所述。
 
 > [!Tip]
-> 除了示例升级项目计划和试点测试计划之外，下载模板用户准备材料（如通信和用户调查）的[升级成功套件](https://aka.ms/UpgradeSuccessKit)。
+> 除了示例升级项目计划和试点测试计划之外，下载模板用户准备材料（如通信和用户调查）的 [升级成功套件](https://aka.ms/UpgradeSuccessKit) 。

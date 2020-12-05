@@ -1,7 +1,7 @@
 ---
-title: 升级到 Microsoft 团队 |Skype for Business 团队路线图
-author: CarolynRowe
-ms.author: crowe
+title: Microsoft 团队实施升级概述
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,14 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a0e8ca9356704d471320e4474f48270375aea2d
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0db2e752bb163f806c5dcba7aa56fc36bae7c2ef
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868489"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578355"
 ---
-# <a name="overview"></a>概述
+# <a name="overview-of-implementing-your-upgrade"></a>实施升级概述
 
 ![升级旅程的阶段，重点介绍部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段，重点介绍部署和实施阶段")
 
@@ -38,7 +38,7 @@ ms.locfileid: "44868489"
 ## <a name="prerequisite-planning-activities"></a>先决条件计划活动
 
 > [!IMPORTANT]
-> 在继续升级实施之前，请确认您已阅读计划内容（从[规划升级](upgrade-plan-journey.md)开始），确保您已完成所有先决条件计划活动。
+> 在继续升级实施之前，请确认您已阅读计划内容（从 [规划升级](upgrade-plan-journey.md) 开始），确保您已完成所有先决条件计划活动。
 
 
 - [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
@@ -55,9 +55,9 @@ ms.locfileid: "44868489"
 
 根据当前环境，选择您的起始点：  
 
-- **如果要从 skype For Business online 升级到团队**，请按照[从 Skype For business Online 升级到团队](https://aka.ms/SkypeToTeams-UpgradeOnline)中的步骤操作。
+- **如果要从 skype For Business online 升级到团队**，请按照 [从 Skype For business Online 升级到团队](https://aka.ms/SkypeToTeams-UpgradeOnline)中的步骤操作。
 
--  **如果要从 Skype For business 本地环境升级**，则需要执行一些额外的步骤，以便在你的本地和联机环境之间设置连接，然后再将你的用户移动到团队。 有关详细信息，请参阅[将本地 Skype for Business 升级到团队](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)。
+-  **如果要从 Skype For business 本地环境升级**，则需要执行一些额外的步骤，以便在你的本地和联机环境之间设置连接，然后再将你的用户移动到团队。 有关详细信息，请参阅 [将本地 Skype for Business 升级到团队](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)。
 
 
 

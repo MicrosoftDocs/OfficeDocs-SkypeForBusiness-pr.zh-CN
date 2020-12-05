@@ -1,7 +1,7 @@
 ---
-title: 关于升级框架
-author: lanachin
-ms.author: v-lanac
+title: 关于升级框架-面向团队的 Skype for business
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b49d1d20e31a9c3051a89f62e7238eac73595a26
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: a4e94b5ef774f0fccaa6bb84d78d2018c1d31e34
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158650"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578515"
 ---
 # <a name="about-the-upgrade-framework"></a>关于升级框架
 
 为了帮助您从升级的旅程中获得猜测，我们已为实施更改而使用了一个经验证的框架。 如下所示，框架中的每个步骤在之前的步骤上生成，为了获得最佳结果，我们建议按照顺序执行这些步骤。  
 
-首先将正确的利益干系人汇集在一起，定义升级计划（例如，范围、目标和日程表）。 在制定一个计划后，确认你的技术环境和最终用户已做好团队准备。 然后，在阶段实施升级，在准备时从试验转到组织范围的升级。 组织在团队中后，建立可用于监控质量和加速用户使用的操作计划。
+首先将正确的利益干系人和定义升级计划 (例如 "范围"、"目标" 和 "日程表) "。 在制定一个计划后，确认你的技术环境和最终用户已做好团队准备。 然后，在阶段实施升级，在准备时从试验转到组织范围的升级。 组织在团队中后，建立可用于监控质量和加速用户使用的操作计划。
 
 ![升级历程框架的插图](media/upgrade-banner-main.png "确保您的项目已针对合适的项目团队进行了成功设置。定义项目范围、目标和日程表。确认技术和用户准备情况。执行推出计划。保持动量以最大化结果。")
 
@@ -51,7 +51,7 @@ ms.locfileid: "45158650"
 **为团队准备组织**。 为帮助确保成功升级团队，请务必为准备工作分配充足的时间。 你的组织不仅能够快速开始实现团队的价值，还可以在团队准备好随时从 Skype for Business 加速升级。 如果你已启用 Skype for Business 的团队，请使用这些预升级活动作为检查点，以在将用户升级到团队之前验证你的组织的准备情况。 
 
 > [!TIP]
->  [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)   除了示例升级项目计划和试点测试计划之外，下载模板用户准备材料（如通信和用户调查）的升级成功套件。 工具包中可用的项目在下面的列表中标有星号（*）。
+>  [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)   除了示例升级项目计划和试点测试计划之外，下载模板用户准备材料（如通信和用户调查）的升级成功套件。 工具包中可用的项目在以下列表中使用星号 ( * ) 进行标记。
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>计划：创建升级计划以帮助确保你的组织已设置为长期成功
 
@@ -126,7 +126,7 @@ ms.locfileid: "45158650"
 
 
 > [!Note]
-> 我们的升级内容不断发展。 请务必查看最新指南，并阅读[团队博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
+> 我们的升级内容不断发展。 请务必查看最新指南，并阅读 [团队博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
 
 > [!Important]
 > Skype for Business Online 将于 2021 年 7 月 31 日停用，在此日期之后它将不再可用或受支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级，我们鼓励你立即开始迁移到 Microsoft 团队。 请记住，成功升级会使技术和用户准备相一致，因此，在您向 Microsoft 团队导航旅行时，请务必利用本指南。

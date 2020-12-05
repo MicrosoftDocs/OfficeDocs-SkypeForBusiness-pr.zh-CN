@@ -1,13 +1,13 @@
 ---
-title: Skype for business 和 Microsoft 团队之间的互操作性
-author: lanachin
-ms.author: v-lanac
+title: Skype for Business 和 Microsoft 团队之间的互操作性
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Skype for business 和 Microsoft 团队共存选项以及 Skype for Business 和团队之间的互操作性的详细信息。
+description: Skype for business 和 Microsoft 团队共存选项的详细信息，以及 Skype for Business 和团队之间产生的互操作性。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff315ba578d74939e533912f696da6b6eb7abf34
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e648c821de3efcf092993bc9daf8503109bfc9fd
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515889"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578495"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype for business 共存和互操作性
 
@@ -66,11 +66,11 @@ ms.locfileid: "48515889"
 > 在 " **孤岛** " 模式下，所有来自联盟用户的邮件和呼叫都 (组织外的人员) 将发送到 Skype for business。 升级到 " **仅限团队** " 模式后，您的组织外部的所有消息和呼叫都将发送给团队。
 
 > [!Tip]
-> Skype for Business Online 客户推荐的路径是从默认的 **孤岛** 模式开始，推动团队在组织中采用饱和，然后快速转到 " **仅团队** " 模式。 在本地和混合客户（尤其是复杂的客户）中，**使用团队协作模式将 Skype For business**部署为一个起点（而不是 "**岛**" 模式），并通过**使用团队协作和会议模式从 Skype for** business 部署到 Skype for Business，例如会议优先和会议模式 (也就是说，在组织准备好采纳团队时，会议) 优先和会议模式。 **Teams Only**
+> Skype for Business Online 客户推荐的路径是从默认的 **孤岛** 模式开始，推动团队在组织中采用饱和，然后快速转到 " **仅团队** " 模式。 在本地和混合客户（尤其是复杂的客户）中，**使用团队协作模式将 Skype For business** 部署为一个起点（而不是 "**岛**" 模式），并通过 **使用团队协作和会议模式从 Skype for** business 部署到 Skype for Business，例如会议优先和会议模式 (也就是说，在组织准备好采纳团队时，会议) 优先和会议模式。 **Teams Only**
 
 ### <a name="teams-only"></a>仅限团队
 
-**仅团队**用户 (也称为已*升级*用户) 有权访问团队中的所有功能。 他们可以保留 Skype for Business 客户端，以便在已由非升级用户或外部团体组织的 Skype for business 上加入会议。 通过使用团队和 Skype for business (中的互操作性功能，已升级的用户可以继续与仍在使用 Skype for business 的组织中的其他用户进行通信，前提是这些 Skype for business 用户不在 **孤岛** 模式下) 。 但是，升级后的用户无法启动 Skype for Business 聊天、通话或会议。
+**仅团队** 用户 (也称为已 *升级* 用户) 有权访问团队中的所有功能。 他们可以保留 Skype for Business 客户端，以便在已由非升级用户或外部团体组织的 Skype for business 上加入会议。 通过使用团队和 Skype for business (中的互操作性功能，已升级的用户可以继续与仍在使用 Skype for business 的组织中的其他用户进行通信，前提是这些 Skype for business 用户不在 **孤岛** 模式下) 。 但是，升级后的用户无法启动 Skype for Business 聊天、通话或会议。
 
 一旦你的组织准备好让部分或所有用户使用团队作为唯一的通信和协作工具，你可以将这些用户升级到 " **仅团队** " 模式。 如果你从 **孤岛** 模式升级，我们建议你首先让团队在开始升级过程之前饱和整个组织中的团队。 这可避免由于 **孤岛** 模式不提供互操作而导致的通信方案中断。
 
@@ -117,7 +117,7 @@ ms.locfileid: "48515889"
 互操作性由 "共存模式" 管理 (也称为接收方的升级模式) 。 接收器处于 **孤岛** 模式时，没有互操作性。
 
 > [!Note]
-> 在除 **孤岛**之外的任何共存模式下部署时，团队和 Skype for business 可以 [互操作](#interoperability-of-teams-and-skype-for-business)，使用户能够与他人进行聊天，并确保在升级到团队期间通信在整个组织内保持流畅。 共存模式控制互操作性。 接收方的共存模式确定互操作是否可用。 例如，如果接收方处于一种模式下，聊天仅在一台客户端中可用 (假设团队) ，则在此情况下，如果发起人使用其他客户端 (，则 "聊天" 互操作性通常可用，在这种情况下，Skype for business) 开始聊天。 另一方面，如果接收器处于同时在两个客户端中都可用的模式 (孤岛模式) ，则互操作性对聊天不可用。 接收方将在发起聊天的同一客户端中接收消息。 因此，在 " **孤岛** " 模式下正确通信需要团队采用饱和。也就是说，所有用户主动使用和监视这两个客户端。
+> 在除 **孤岛** 之外的任何共存模式下部署时，团队和 Skype for business 可以 [互操作](#interoperability-of-teams-and-skype-for-business)，使用户能够与他人进行聊天，并确保在升级到团队期间通信在整个组织内保持流畅。 共存模式控制互操作性。 接收方的共存模式确定互操作是否可用。 例如，如果接收方处于一种模式下，聊天仅在一台客户端中可用 (假设团队) ，则在此情况下，如果发起人使用其他客户端 (，则 "聊天" 互操作性通常可用，在这种情况下，Skype for business) 开始聊天。 另一方面，如果接收器处于同时在两个客户端中都可用的模式 (孤岛模式) ，则互操作性对聊天不可用。 接收方将在发起聊天的同一客户端中接收消息。 因此，在 " **孤岛** " 模式下正确通信需要团队采用饱和。也就是说，所有用户主动使用和监视这两个客户端。
 
 > [!Note]
 > **若要获得最新的共存体验，客户端版本必须是用户的 Office 部署频道中的最新可用客户端。**
@@ -127,7 +127,7 @@ ms.locfileid: "48515889"
 有两种类型的互操作体验：本机和互操作提升。
 
 - 用户当前正在使用的客户端中出现 _本机互操作_ 体验。 一个用户将位于 Skype for Business 客户端，另一个用户位于团队中。 本机互操作体验不会将它们转到另一个客户端进行通信，用户将能够在当前使用的客户端中执行其对话。 本机互操作体验是一对一的聊天和通话。
-- _互操作提升_体验意味着作为帮助用户执行高级操作 (（如共享桌面) ）的一部分，客户可以方便地创建用户可以加入的会议，以便在该会议中继续体验。 将在操作发起人的平台上创建会议。 不在该平台上的用户将收到会议加入链接。 当他们单击此链接时，将在兼容的客户端 (浏览器、web app 或完全客户端中加入会议，具体取决于配置) 。 Skype for Business 的互操作性提升需要最近的客户端。 来自团队的互操作性提升现已推出。 两者均受租户中的互操作性体验和联合通信交叉租户支持。
+- _互操作提升_ 体验意味着作为帮助用户执行高级操作 (（如共享桌面) ）的一部分，客户可以方便地创建用户可以加入的会议，以便在该会议中继续体验。 将在操作发起人的平台上创建会议。 不在该平台上的用户将收到会议加入链接。 当他们单击此链接时，将在兼容的客户端 (浏览器、web app 或完全客户端中加入会议，具体取决于配置) 。 Skype for Business 的互操作性提升需要最近的客户端。 来自团队的互操作性提升现已推出。 两者均受租户中的互操作性体验和联合通信交叉租户支持。
 
 ### <a name="native-interop-experiences"></a>本机互操作体验
 
@@ -144,7 +144,7 @@ Skype for Business 用户可以与团队用户进行一对一的语音和视频�
 > [!Important]
 > 使用 Skype for Business 的本地部署的互操作体验要求本地环境与 Microsoft 365 或 Office 365 Skype for business 采用混合模式。 有关详细信息，请参阅 [迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)。
 
-这些互操作体验在以下情况下适用于已分配以下共存模式之一的用户： **skype for business 与团队协作**、 **使用团队协作和会议的 skype**for business、 **仅 Skype**for business 或 **仅限团队**。 在 **孤岛** 模式下不存在与用户的互操作性。
+这些互操作体验在以下情况下适用于已分配以下共存模式之一的用户： **skype for business 与团队协作**、 **使用团队协作和会议的 skype** for business、 **仅 Skype** for business 或 **仅限团队**。 在 **孤岛** 模式下不存在与用户的互操作性。
 
 ### <a name="native-interop-experience-limitations"></a>本机互操作体验限制
 

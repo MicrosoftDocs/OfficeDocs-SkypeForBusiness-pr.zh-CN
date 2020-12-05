@@ -1,13 +1,13 @@
 ---
-title: 将 Skype for business 计划升级到 Microsoft 团队升级 |采纳框架
-author: lanachin
-ms.author: v-lanac
+title: 规划 Skype for business 到 Microsoft 团队升级
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 了解如何通过首先登记利益干系人来规划升级，然后设置项目范围。
+description: 了解如何通过登记利益干系人来规划升级，然后设置项目范围。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 76bf5c09a90bc426db2eaa85918fd7e711f5b13d
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868449"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578435"
 ---
 # <a name="plan-for-your-upgrade"></a>规划升级
 
@@ -44,4 +44,4 @@ ms.locfileid: "44868449"
 > [!TIP]
 > 加入我们的现场互动式研讨会，我们将分享指导、最佳做法和资源，旨在开始升级规划和实施。
 >
-> 首先加入[升级](https://aka.ms/SkypeToTeamsPlanning)会话的计划以开始使用。
+> 首先加入 [升级](https://aka.ms/SkypeToTeamsPlanning) 会话的计划以开始使用。

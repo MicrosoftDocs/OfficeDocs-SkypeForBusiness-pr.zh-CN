@@ -1,13 +1,13 @@
 ---
-title: 将 Skype for Business Online 升级到 Microsoft 团队 |部署
-author: lanachin
-ms.author: v-lanac
+title: 从 Skype for Business Online 升级到 Microsoft 团队
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 了解如何从 Skype for Business Online deployement 将组织升级到 Microsoft 团队。
+description: 了解如何从 Skype for Business Online 部署将组织升级到 Microsoft 团队。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: ca99c193a17547943018eba75004f0ec0a1a92f3
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940502"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578255"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>从 Skype for Business Online 升级到 Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "47940502"
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>分配共存和升级模式
 
-你可以通过分配 TeamsUpgradePolicy 的 UpgradeToTeams 实例将你的用户升级到 TeamsOnly 模式，这可以通过使用 Microsoft 团队管理中心或 Skype for business 远程 Windows Powershell 会话来执行。 你可以基于每个用户执行此操作，也可以在租户范围内执行此操作，前提是要在一个步骤中升级整个租户。 
+你可以通过分配 TeamsUpgradePolicy 的 UpgradeToTeams 实例将你的用户升级到 TeamsOnly 模式，这可以通过使用 Microsoft 团队管理中心或 Skype for business 远程 Windows PowerShell 会话来执行。 你可以基于每个用户执行此操作，也可以在租户范围内执行此操作，前提是要在一个步骤中升级整个租户。 
 
 有关详细信息，请参阅 [设置共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence) 和 [TeamsUpgradePolicy：管理迁移和共存](upgrade-to-teams-on-prem-tools.md)。
 
@@ -64,7 +64,7 @@ ms.locfileid: "47940502"
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>步骤2：将组织的共存模式设置为 TeamsOnly
 
 1. 在 "Microsoft 团队管理中心" 中，选择 " **组织范围的设置**"。
-2. 从 "**共存模式**" 下拉列表中选择 "**仅团队**模式"。
+2. 从 "**共存模式**" 下拉列表中选择 "**仅团队** 模式"。
 
 ## <a name="upgrade-users-in-stages"></a>分阶段升级用户
 

@@ -1,13 +1,13 @@
 ---
-title: Microsoft 团队升级 |环境评估，发现问题
-author: lanachin
-ms.author: v-lanac
+title: 升级到团队之前先评估你的环境
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 使用本指南了解有关正确评估当前环境以便升级到团队的要求。
+description: 了解有关正确评估当前环境以便升级到团队的要求。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 799d348f05c8fece6684d01768934faedcb7603f
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: c783934128e2c1d3f971948c41e3481839ff0aa1
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158740"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578235"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>升级到团队之前先评估你的环境
 
@@ -40,13 +40,13 @@ ms.locfileid: "45158740"
 
 ## <a name="introduction-to-the-discovery-questionnaire"></a>发现问卷问卷简介
 
-为了实现客观的关键结果（OKRs），您以前已做出关键服务决策。 下一步是执行环境发现以评估与你的 IT 基础结构、网络和操作相关的所有方面，以确认你的组织已准备好实施解决方案。 发现是在为团队进行规划时，首先要执行的关键步骤之一。 环境发现必须包含网络准备情况评估，以确保你的网络可以支持升级到团队。 你可以对你的环境执行详细的发现，以更好地了解其当前状态，并揭示任何困难，甚至更重要的是，在团队推出的执行中可能会发生阻止。
+为了实现客观的关键结果 (OKRs) ，您以前已做出关键服务决策。 下一步是执行环境发现以评估与你的 IT 基础结构、网络和操作相关的所有方面，以确认你的组织已准备好实施解决方案。 发现是在为团队进行规划时，首先要执行的关键步骤之一。 环境发现必须包含网络准备情况评估，以确保你的网络可以支持升级到团队。 你可以对你的环境执行详细的发现，以更好地了解其当前状态，并揭示任何困难，甚至更重要的是，在团队推出的执行中可能会发生阻止。
 
 你可以将技术风险标识为环境评估和采纳准备情况评估的一部分，并针对每个确定的风险制定一个缓解计划。 您应将此信息合并到风险注册中。
 
 环境发现问卷问卷中包括与您的现有协作基础结构和 Microsoft 365 或 Office 365 组织、网络、终结点、操作以及采纳和准备情况相关的所有事项。 与你的项目团队协作，尽可能详细地提供所需的信息，以促进你的规划活动。
 
-[调查表](upgrade-plan-journey-discovery-questionnaire.md)划分为以下部分，以在以下几个主要方面确认您的组织准备好团队部署：
+[调查表](upgrade-plan-journey-discovery-questionnaire.md) 划分为以下部分，以在以下几个主要方面确认您的组织准备好团队部署：
 
 - Microsoft 365 或 Office 365 组织详细信息
 - 现有协作平台摘要
@@ -67,6 +67,6 @@ ms.locfileid: "45158740"
 
 ## <a name="project-team"></a>项目团队
 
-确保您已为您的项目团队预定了合适的人员。 验证在[登记项目利益干系人](upgrade-enlist-stakeholders.md)时完成的步骤。
+确保您已为您的项目团队预定了合适的人员。 验证在 [登记项目利益干系人](upgrade-enlist-stakeholders.md)时完成的步骤。
 
-评估你的环境后，请继续下一步：[准备你的服务](upgrade-prepare-environment-prepare-service.md)。
+评估你的环境后，请继续下一步： [准备你的服务](upgrade-prepare-environment-prepare-service.md)。

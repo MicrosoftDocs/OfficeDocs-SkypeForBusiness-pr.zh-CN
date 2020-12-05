@@ -1,7 +1,7 @@
 ---
 title: 登记利益干系人 |Skype for Business 到团队升级计划
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22fe71ec94ffec24f1a06846e51981db957c15f8
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 2b57608b6db645ad48ab372b6bb390b4bc4a1bcb
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522585"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578325"
 ---
 # <a name="enlist-your-project-stakeholders"></a>登记项目干系人
 
@@ -33,17 +33,17 @@ ms.locfileid: "44522585"
 
 本文是你的升级过程的项目利益干系人阶段的一部分，你为项目成功完成的第一个和最基本的活动。
 
-从实施项目可交付结果到促进责任，您的利益干系人持有项目成功的关键。 您要分配的利益干系人组：（1）一个_赞助联盟_，其中包括负责确保技术和用户准备工作的人员和项目发起_人，包括_负责确保技术和用户准备工作的人员，这些人员将在项目计划中完成各种任务。 这两个组之间的常见线程是_项目经理_，其工作方式是确保项目任务按时完成，并将项目状态报告回联盟。
+从实施项目可交付结果到促进责任，您的利益干系人持有项目成功的关键。 您要分配的风险承担者组有两组： (1) 一个 _赞助联盟_ ，其中包括对项目的)  (成功有 vested 兴趣并影响项目 _团队_ 的经理和项目发起人，包括负责确保技术和用户准备工作的人员，这些人员将完成项目计划中的各种任务。 这两个组之间的常见线程是 _项目经理_，其工作方式是确保项目任务按时完成，并将项目状态报告回联盟。
 
 > [!Tip]
 > 请花一些时间来确定理想的总经理主办方，这些人可以帮助设置你的项目的语气、示例中的潜在顾客，并让其他人拥有责任。 这应该是对项目范围和愿景拥有授权的高级经理或主管。 他们还应成为删除阻止程序和解决冲突的最终决策制定者，以帮助保持项目按时和预算。
 
-或者，您可以创建一个筹划指导委员会。 有时，大型或更复杂的项目最终与 "厨房中的 cooks 过多"，导致风险承担者组之间的连接断开。 对于这些项目，您可能希望形成一个筹划指导委员会。 筹划指导委员会负责推动决策、提供战略监管、支持项目计划，以及在必要时删除阻止程序。 您可以在《[筹划指导委员会指南》](https://aka.ms/SteeringCommittee)中找到有关实施筹划指导委员会的详细信息。
+或者，您可以创建一个筹划指导委员会。 有时，大型或更复杂的项目最终与 "厨房中的 cooks 过多"，导致风险承担者组之间的连接断开。 对于这些项目，您可能希望形成一个筹划指导委员会。 筹划指导委员会负责推动决策、提供战略监管、支持项目计划，以及在必要时删除阻止程序。 您可以在《 [筹划指导委员会指南》](https://aka.ms/SteeringCommittee)中找到有关实施筹划指导委员会的详细信息。
 
 | | |
 |---|---|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点 | <ul><li>哪些人可以充当此项目的利益干系人团队？</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>考虑项目的范围并分配相关的利益干系人。</li><li>使用下表作为指南，但请注意，此列表并不包含在内。<br><strong>提示</strong><br>构建一个有责任的、有障碍的[（RACI）矩阵](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)，以进一步区分那些只需在项目的特定区域中进行通知的人员的责任。</li> |
+| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>考虑项目的范围并分配相关的利益干系人。</li><li>使用下表作为指南，但请注意，此列表并不包含在内。<br><strong>提示</strong><br>构建有责任的有责任的 [ (RACI) 矩阵](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) ，以进一步区分那些只需在项目的特定区域中进行通知的人员。</li> |
 | <li>确定是否创建筹划指导委员会，并根据需要分配角色。</li></ul> | |
 
 | 角色 | 起 |
@@ -69,4 +69,4 @@ ms.locfileid: "44522585"
 | 市场营销组长 | 设计和实施通信活动 |
 | 培训负责人 | 设计和实施培训计划 |
 
-收集利益干系人后，请继续执行下一步操作：[定义项目范围](https://aka.ms/SkypetoTeams-Scope)。
+收集利益干系人后，请继续执行下一步操作： [定义项目范围](https://aka.ms/SkypetoTeams-Scope)。
