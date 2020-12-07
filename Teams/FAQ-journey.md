@@ -1,7 +1,7 @@
 ---
 title: 从 Skype for Business 升级到 Teams 的常见问题解答
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 77233c2678b8349d416a28e7a62525897f9d3f9f
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766585"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578365"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 
@@ -57,7 +57,7 @@ Microsoft 还提供实时互动研讨会，我们将分享指导、最佳实践�
 
 
 **如果我有升级过程方面的问题，可以联系谁？**<br>
-如果你有与升级有关的问题，请联系你当前的联系点，可能包括为你分配的 Microsoft 帐户团队、合作伙伴或 [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1)。 或者，你可以从 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)内通过单击“ **需要帮助** ”按钮来开立一个帮助票证。
+如果你有与升级有关的问题，请联系你当前的联系点，可能包括为你分配的 Microsoft 帐户团队、合作伙伴或 [FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1)。 或者，你可以从 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)内通过单击“**需要帮助**”按钮来开立一个帮助票证。
 
 ![“需要帮助”按钮](media/need-help-button.png)
 
@@ -68,7 +68,7 @@ Microsoft 还提供实时互动研讨会，我们将分享指导、最佳实践�
 
 **我的用户升级后会发生什么情况？**<br>
 
-在你的用户升级到 Teams（ **仅 Teams** 模式）后：
+在你的用户升级到 Teams（**仅 Teams** 模式）后：
 
 - 其 Skype for Business 客户端将被禁用，因为所有聊天和通话都将在 Teams 中进行。 此客户端将继续用于以前安排的 Skype for Business 会议。 如果此桌面客户端已卸载，用户将被重定向到通过 Skype for Business Web 应用访问以前安排的 Skype for Business 会议。
 
