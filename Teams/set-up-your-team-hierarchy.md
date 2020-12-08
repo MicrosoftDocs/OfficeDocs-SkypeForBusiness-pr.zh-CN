@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78d507a7ab15cfa43e10d51e13f36749f11a7cb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cab89e7d3e1c2956c79a4013edd254167c990f9b
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526389"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588305"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>设置团队目标层次结构
 
@@ -51,7 +51,7 @@ ms.locfileid: "48526389"
 
 ### <a name="add-required-columns"></a>添加所需的列
 
-CSV 文件必须包含以下三列，顺序从第一列开始。 必须将节点链接到团队才能接收任务。 在私人预览版中，我们支持500节点。 在启动时，我们有望默认支持至少2000节点。 我们计划与客户协作，为大型组织提高此限额。
+CSV 文件必须包含以下三列，顺序从第一列开始。 必须将节点链接到团队才能接收任务。 在私人预览版中，我们支持2000节点。 在启动时，我们有望默认支持至少15000节点。 我们计划与客户协作，为大型组织提高此限额。
 
 | 列名称   | 是否必需 | 描述   |
 ----------------|----------|---------------|
@@ -154,7 +154,7 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 检查以确保你的架构 CSV 文件中的团队使用的是正确的 TeamId。 TeamId 应与支持团队的 Microsoft 365 组的组 ID 相同。 你可以在 Microsoft 团队管理中心中查找团队的组 ID。 
 
-1. 在[Microsoft 团队管理中心](https://admin.teams.microsoft.com/)的左侧导航中，转到团队 " **Teams**  >  **管理团队**"。
+1. 在 [Microsoft 团队管理中心](https://admin.teams.microsoft.com/)的左侧导航中，转到团队 " **Teams**  >  **管理团队**"。
 2. 如果表中未显示 " **组 ID** " 列，请选择表右上角的 " **编辑列** "，然后打开 " **组 id**"。
 3. 在列表中找到团队，然后找到 "组 ID"。
 

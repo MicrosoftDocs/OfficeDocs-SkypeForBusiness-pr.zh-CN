@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 分析 Microsoft 团队的 CQD 数据。
-ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: a06a3cb76cd778c132b3e8745b279035e875f16e
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085566"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588325"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 分析 Microsoft 团队的 CQD 数据
 
@@ -35,7 +35,7 @@ ms.locfileid: "49085566"
 
 |  |  |
 |---------|---------|
-|<strong> (New！ ) </strong> CQD 团队自动助理 & 呼叫队列历史报告。 pbit     |  此模板提供以下三个报表：</p><li>自动助理-显示进入自动助理的通话的分析。</li><li>呼叫队列–显示进入通话队列的通话的分析。</li><li>代理日程表–显示呼叫队列呼叫中处于活动状态的代理的日程表视图。</li><br>若要了解详细信息，请参阅 [使用 CQD POWER BI 报表查看自动助理 & 呼叫队列历史记录报告](CQD-teams-aa-cq-historical-report.md)。        |
+|<strong> (New！ ) </strong> CQD 团队自动助理 & 呼叫队列历史报告。 pbit     |  此模板提供以下三个报表：</p><li>自动助理-显示进入自动助理的通话的分析。</li><li>呼叫队列–显示进入通话队列的通话的分析。</li><li>代理日程表–显示呼叫队列呼叫中处于活动状态的代理的日程表视图。</li><br>若要了解详细信息，请阅读 [自动助理 & 呼叫队列历史记录报告](aa-cq-cqd-historical-reports.md)。        |
 |CQD 帮助台报告。 pbit     |集成生成和 EUII 数据时，此报表旨在让你从单个用户向上钻取，以查找该用户的不良通话质量的上游根本原因 (例如，用户在遇到网络问题的大楼中) 。         |
 |CQD Location 增强的报告。 pbit     | Imagining CQD SPD 位置报告。 包括9个报表，提供通话质量、建筑物 WiFi、可靠性以及通过 RMC) 信息，使用其他 thrus 通过构建或用户进行 (呼叫。  请确保上载建筑物数据以最大化报告体验。        |
 |CQD 移动设备报表。 pbit     | 提供专门针对移动设备用户进行调整的见解，包括通话质量、可靠性和费率我的通话。 查看 (Android、iOS) 的移动网络、WiFi 网络和移动操作系统报告。        |
