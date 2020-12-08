@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: 准备环境
               href: rooms/rooms-prep.md
-            - name: 要求
+            - name: Requirements
               href: rooms/requirements.md
             - name: 联机许可
               href: rooms/rooms-licensing.md
@@ -604,6 +604,8 @@
                   href: direct-routing-protocols-media.md
             - name: 管理语音路由策略
               href: manage-voice-routing-policies.md
+            - name: 直接路由 Survivable 分支设备
+              href: direct-routing-survivable-branch-appliance.md
     - name: 电话号码
       items:
         - name: 管理组织的电话号码
