@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d877a4c6534c76b894583401dc5dba0936c3c75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9d370bec6eb8a3319427c934593016f2b85d6c26
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521379"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611456"
 ---
 # <a name="manage-user-access-to-teams"></a>管理用户对 Teams 的访问管理
 
-通过分配或删除 Microsoft 团队产品许可证，可在用户级别管理对团队的访问。 组织中的每个用户都必须拥有一个团队许可证，然后他们才能使用团队。 当创建新用户帐户或使用现有帐户向用户分配新用户帐户时，您可以为新用户分配团队许可证。
+通过分配或删除 Microsoft 团队产品许可证，可在用户级别管理对团队的访问。 除了匿名加入团队会议外，组织中的每个用户都必须具有团队许可证，然后他们才能使用团队。 当创建新用户帐户或使用现有帐户向用户分配新用户帐户时，您可以为新用户分配团队许可证。
 
 默认情况下，当 (授权计划时，将为用户分配 Microsoft 365 企业版 E3 或 Microsoft 365 Business Premium) ，将自动分配团队许可证，并为团队启用用户。 你可以随时删除或分配许可证，为用户禁用或启用团队。
 
@@ -46,7 +46,7 @@ ms.locfileid: "48521379"
 > 管理员必须具有全局管理员权限或用户管理管理员权限才能管理 Microsoft 团队许可证。
 使用 Microsoft 365 管理中心管理单个用户或一次小型用户组的团队许可证。 您可以在 "许可证" 页面上管理多达20个用户的 " **许可证** " 页面 (，) 或 " **活动用户** " 页面。 你选择的方法取决于你是要为特定用户管理产品许可证还是管理特定产品的用户许可证。
 
-如果需要管理大量用户（如成百上千用户）的团队许可证，请 [使用](#using-powershell) [azure Active Directory 中的 Powershell 或基于组的许可 (azure AD) ](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)。 
+如果需要管理大量用户（如成百上千用户）的团队许可证，请 [使用](#using-powershell) [azure Active Directory 中的 PowerShell 或基于组的许可 (azure AD) ](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)。 
 
 ### <a name="assign-a-teams-license"></a>分配团队许可证
 
@@ -89,16 +89,23 @@ ms.locfileid: "48521379"
 
 运行以下命令以显示你的组织中的所有可用授权计划。 若要了解详细信息，请参阅 [通过 PowerShell 查看许可证和服务](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)。
 
-      Get-MsolAccountSku
+
+```powershell
+Get-MsolAccountSku
+```
 
 运行以下命令，其中 \<CompanyName:License> 是你的组织名称和你在之前步骤中检索的授权计划的标识符。 例如，ContosoSchool： ENTERPRISEPACK_STUDENT。
 
-      $acctSKU="<CompanyName:License>
-      $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+```powershell
+$acctSKU="<CompanyName:License>
+$x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+```
 
 运行以下命令，为具有许可计划的活动许可证的所有用户禁用团队。
 
-      Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
+```powershell
+Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
+```
 
 ## <a name="manage-teams-at-the-organization-level"></a>管理组织级别的团队
 

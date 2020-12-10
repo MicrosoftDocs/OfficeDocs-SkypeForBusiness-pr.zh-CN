@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e648c821de3efcf092993bc9daf8503109bfc9fd
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: b952d11c5ebe4b2da7620cc6ed8dd650be0d6bc5
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578495"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611766"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype for business 共存和互操作性
 
@@ -66,7 +66,7 @@ ms.locfileid: "49578495"
 > 在 " **孤岛** " 模式下，所有来自联盟用户的邮件和呼叫都 (组织外的人员) 将发送到 Skype for business。 升级到 " **仅限团队** " 模式后，您的组织外部的所有消息和呼叫都将发送给团队。
 
 > [!Tip]
-> Skype for Business Online 客户推荐的路径是从默认的 **孤岛** 模式开始，推动团队在组织中采用饱和，然后快速转到 " **仅团队** " 模式。 在本地和混合客户（尤其是复杂的客户）中，**使用团队协作模式将 Skype For business** 部署为一个起点（而不是 "**岛**" 模式），并通过 **使用团队协作和会议模式从 Skype for** business 部署到 Skype for Business，例如会议优先和会议模式 (也就是说，在组织准备好采纳团队时，会议) 优先和会议模式。 **Teams Only**
+> Skype for Business Online 客户推荐的路径是从默认的 **孤岛** 模式开始，推动团队在组织中采用饱和，然后快速转到 " **仅团队** " 模式。 在本地和混合客户（尤其是复杂的客户）中，**使用团队协作模式将 Skype For business** 部署为一个起点（而不是 "**岛**" 模式），并通过 **使用团队协作和会议模式从 Skype for** business 部署到 Skype for Business，例如会议优先和会议模式 (也就是说，在组织准备好采纳团队时，会议) 优先和会议模式。 
 
 ### <a name="teams-only"></a>仅限团队
 
@@ -82,7 +82,7 @@ ms.locfileid: "49578495"
 
 ### <a name="skype-for-business-only"></a>仅 Skype for Business
 
-在此共存模式下，用户将保留在 Skype for Business 中，而不是团队-用于聊天、会议和呼叫功能，并且不使用团队和频道团队。 目前可以使用此模式;但是，在当前实现中，团队和频道不会自动为用户关闭。 可通过使用应用权限策略隐藏团队和频道来实现此目的。
+在此共存模式下，用户将保留在 Skype for Business 中，而不是团队-用于聊天、会议和呼叫功能，并且不使用团队和频道团队。 目前可以使用此模式;但是，在当前实现中，团队和频道不会自动为用户关闭。 可通过使用应用设置策略隐藏团队和文件来实现此操作。
 
 此模式可以在启动团队的托管部署之前使用，以防止用户开始使用团队准备好使用团队，如果用户已获得团队许可，则为对 Skype for business 用户启用团队会议的已验证参与。
 

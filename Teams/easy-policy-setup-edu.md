@@ -1,7 +1,7 @@
 ---
 title: 适用于 "教育策略的团队" 向导，轻松地为安全学习应用策略
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -18,12 +18,12 @@ search.appverid: MET150
 description: 了解如何使用 "用于教育版的团队策略" 向导轻松地为学生和教育版应用策略，让您的学习环境保持安全。
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d72ef20a8ae56fba67534944d229d01468531207
-ms.sourcegitcommit: 80c1ec1d5a43b9259a4da6db3e462f6d4257bfa7
+ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49564249"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616916"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>使用 "团队 for 教育策略" 向导轻松地为安全的学习环境应用策略
 
@@ -68,17 +68,17 @@ Microsoft "适用于教育版的团队策略" 向导简化了对学生和教育�
 
 <a name="polwiz_run"> </a>
 
-按照以下步骤运行向导。 
+按照以下步骤运行向导。
 
 1. 如果您不熟悉团队，向导将自动启动。 否则，你可以从仪表板随时启动向导。 在 Microsoft 团队管理中心的左侧导航中，转到 **仪表板**，然后在 **安全学习环境磁贴的简易策略设置** 中，选择 " **快速设置**"。
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="仪表板中的向导的屏幕截图":::
 
-2. 选择教育机构类型 (**主要或辅助** 或 **更高版本的教育**) ，然后单击 " **下一步**"。
+2. 选择教育机构类型 (**主要或辅助** 或 **更高版本的教育**) ，然后选择 " **下一步**"。
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="向导中的页面的屏幕截图，用于选择机构类型":::
 
-3. 搜索并选择包含教师和教职员工的组，然后单击 " **下一步**"。 如果尚未为教师和员工设置任何组，请 [创建一个组](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)，然后重新运行该向导。 <br/><br/>目前，您只能选择一个组。 将为你选择的组中的教育版和员工分配 [一组自定义策略](#policies-applied-by-the-wizard) ，以满足其需求。 请记住，此策略集与学生应用的策略不同。
+3. 搜索并选择包含教师和教职员工的组，然后选择 " **下一步**"。 如果尚未为教师和员工设置任何组，请 [创建一个组](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)，然后重新运行该向导。 <br/><br/>目前，您只能选择一个组。 将为你选择的组中的教育版和员工分配 [一组自定义策略](#policies-applied-by-the-wizard) ，以满足其需求。 请记住，此策略集与学生应用的策略不同。
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="向导中的页面的屏幕截图，用于选择 "教师和教职员工" 组":::
 
@@ -130,7 +130,7 @@ Microsoft "适用于教育版的团队策略" 向导简化了对学生和教育�
 
 ### <a name="step-2-check-for-additional-measures-that-you-can-take-for-student-safety"></a>步骤2：检查是否可以为学生安全执行的其他措施
 
-该向导将自动调整和应用 [这些策略](#policies-applied-by-the-wizard)。 根据您的机构的需求保持安全，您可能还需要执行一些其他措施。
+该向导将自动调整和应用 [这些策略](#policies-applied-by-the-wizard)。 还有一些其他措施，根据您的机构的需求保持安全，您可能需要执行这些措施。
 
 请参阅 [让学生保持安全，同时使用团队进行距离学习](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) 以了解其他安全建议。
 
@@ -140,7 +140,7 @@ Microsoft "适用于教育版的团队策略" 向导简化了对学生和教育�
 
 当前，向导在运行时应用我们推荐的策略。 请务必知道，随着新策略在团队中可用，"全局 (组织范围的默认) 设置" 学生安全不会由向导自动添加。 此功能将在未来版本中提供。
 
-在此功能可用之前，请查看 Microsoft 365) 管理中心中的 " [消息中心](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) " (，以了解有关团队中的新策略和策略设置的最新信息。 新功能推出后，您可能需要手动更新策略，以确保您的学习环境安全。
+在此功能可用之前，请查看 Microsoft 365) 管理中心中的 " [消息中心](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) " (，以了解团队中新策略和策略设置的最新信息。 新功能推出后，您可能需要手动更新策略，以确保您的学习环境安全。
 
 ## <a name="make-changes-in-the-wizard"></a>在向导中进行更改
 

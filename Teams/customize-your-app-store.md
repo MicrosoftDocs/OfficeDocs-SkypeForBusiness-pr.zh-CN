@@ -18,24 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft 团队中的自定义应用商店。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: da1f2fc30157588df034aa5d3da44eae14fc2f2a
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: 9a7652550e34dc40e6e6d315f1c5c3b590067610
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818813"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611827"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 团队中的自定义应用商店
 
-[!INCLUDE [template](includes/preview-feature.md)]
-
-现在，你可以通过添加你的徽标、自定义背景和自定义文本颜色，将团队应用商店与你的组织品牌进行自定义，以使其更吸引最终用户。
+现在，你可以通过添加徽标、自定义背景和自定义文本颜色，在团队中自定义你的组织的应用商店，以使其更吸引最终用户。
 
 > [!Note]
 > 对品牌所做的更改将需要24小时才能生效。
 
-可以通过选择 " **团队应用**  >  **自定义存储** " 来访问管理中心中的 "自定义" 存储。
+可以通过选择 "**团队应用**  >  **自定义存储**" 来访问管理中心中的 "自定义" 存储。
 
   ![突出显示 "管理控制台自定义存储" 功能](media/customize-app-store.png)
 
@@ -47,7 +44,7 @@ ms.locfileid: "48818813"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-你可以在此处上载你的组织徽标。 所选徽标将显示在 " **Apps**  >  **为租户生成的** 应用的团队客户端" 页面中。
+你可以在此处上载你的组织徽标。 所选徽标将显示在 "   >  **为租户生成的** 应用的团队客户端" 页面中。
 
 选择 " **选择图片** " 选项后，您可以上传所选的文件。 徽标应为240x60，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式为：
 
@@ -79,7 +76,7 @@ ms.locfileid: "48818813"
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-确保背景与文本具有足够的对比度，以便用户可以清楚地阅读文本。 背景将显示在 **Apps**  >  **为租户标题生成的** 应用的团队客户端中。
+确保背景与文本具有足够的对比度，以便用户可以清楚地阅读文本。 背景将显示在  >  **为租户标题生成的** 应用的团队客户端中。
 
 选项如下：
 
@@ -88,7 +85,7 @@ ms.locfileid: "48818813"
   - svg
   - .png
   - .jpg
-- 选择自定义背景。 选择 " **选择自定义颜色** " 时，将打开颜色选择器。 通过调整颜色选择器的缩放比例，选择所需的颜色。
+- 选择自定义背景。 选择 " **选择自定义颜色**" 时，将打开颜色选择器。 通过调整颜色选择器的缩放比例，选择所需的颜色。
 
 背景图像或颜色用作团队租户应用程序目录中顶部横幅的背景。
 
@@ -98,9 +95,9 @@ ms.locfileid: "48818813"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-请确保文本颜色与背景有足够的对比度，以便用户可以清楚地阅读组织的名称。 文本将显示在 **Apps**  >  **为租户标题生成的** 应用的团队客户端中。
+请确保文本颜色与背景有足够的对比度，以便用户可以清楚地阅读组织的名称。 文本将显示在  >  **为租户标题生成的** 应用的团队客户端中。
 
-选择 " **选择自定义颜色** " 时，将打开颜色选择器。 通过调整颜色选择器的缩放比例，选择所需的颜色。
+选择 " **选择自定义颜色**" 时，将打开颜色选择器。 通过调整颜色选择器的缩放比例，选择所需的颜色。
 
  ![颜色选择器的图像](media/choose-a-custom-color.png)
 
@@ -108,6 +105,8 @@ ms.locfileid: "48818813"
 
 完成自定义应用商店后，请确保选择 " **保存** " 以保存所做的更改。
 若要预览所做的更改，请选择 " **预览应用商店** " 以查看自定义应用商店的表示形式。
+
+ ![自定义应用商店的预览](media/app-store1.jpg)
 
 > [!Note]
 > 该表示形式可能不同于自定义的应用商店的最终版本，因为某些默认颜色基于用户的团队客户端版本。

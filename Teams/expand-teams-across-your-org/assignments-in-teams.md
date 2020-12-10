@@ -1,7 +1,7 @@
 ---
 title: Teams 的分配
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,12 +21,12 @@ description: 了解如何在 "团队教育版" 的 "Microsoft 团队管理中心
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64be355da30feb3c629569f583897353c21cfa37
-ms.sourcegitcommit: 481d18b76304adfa340b5f1b2f1b7965e9ff4993
+ms.openlocfilehash: f283a4fb2d49778f4b0e8b31f46dada46f900e6f
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49586615"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616906"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的分配
 

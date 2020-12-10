@@ -1,7 +1,7 @@
 ---
 title: 通过 Microsoft 365 或 Office 365 部署 Microsoft 团队聊天室
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何在 Microsoft 365 或 Office 365 （团队或 Skype for Business 和 Exchange 均在线）上部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: ee1f4da5cbcb65ab58c032ac651e0b563167a35b
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 4b5bd3967d3a1fcc8859cf4da8b039418819cb4e
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814791"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616886"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>通过 Microsoft 365 或 Office 365 部署 Microsoft 团队聊天室
 
@@ -84,7 +84,6 @@ ms.locfileid: "47814791"
 
    有关详细的语法和参数信息，请参阅 [新邮箱](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) 和 [设置邮箱](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)。
 
-
 3. 在 Exchange Online PowerShell 中，在聊天室邮箱上配置以下设置以改进会议体验：
 
    - AutomateProcessing： AutoAccept (会议组织者直接收到会议室保留决策，无需人工干预：闲 = 接受;占线 = 拒绝。 ) 
@@ -109,16 +108,17 @@ ms.locfileid: "47814791"
 
    有关详细的语法和参数信息，请参阅 [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
-4. 通过运行 PowerShell cmdlet 连接到 MS Online PowerShell 以进行 Active Directory 设置 `Connect-MsolService -Credential $cred` 。   有关 Active Directory 的详细信息，请参阅 [Azure ActiveDirectory (import-module msonline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+4. 通过运行 PowerShell cmdlet 连接到 MS Online PowerShell 以进行 Active Directory 设置 `Connect-MsolService -Credential $cred` 。 有关 Active Directory 的详细信息，请参阅 [Azure ActiveDirectory (import-module msonline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 不受支持。 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 不受支持。
 
 5. 如果不希望密码过期，请使用以下语法：
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
    ```
+
    <!--
    ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
@@ -127,12 +127,12 @@ ms.locfileid: "47814791"
    此示例将帐户 Rigel1@contoso.onmicrosoft.com 的密码设置为永不过期。
 
    ```PowerShell
-   $acctUpn="Rigel1@contoso.onmicrosoft.com"
-   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -PasswordNeverExpires $true
    ```
+
    <!-- 
    ```PowerShell
-   Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
+   Set-AzureADUserPassword -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -EnforceChangePasswordPolicy $false
    ``` -->
 
    您也可以通过运行以下命令为帐户设置电话号码：
@@ -140,6 +140,7 @@ ms.locfileid: "47814791"
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
+
    <!-- 
    ```PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
@@ -150,32 +151,37 @@ ms.locfileid: "47814791"
    ```Powershell
    Get-MsolAccountSku
    ```
+
    <!--
    ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   接下来，你可以使用 `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. 在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。
+   接下来，你可以使用 `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. 此示例向帐户添加会议室许可证：
 
    ```PowerShell
-   $acctUpn="Rigel1@contoso.onmicrosoft.com"
-   Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-   ``` 
+   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses "Contoso:MEETING_ROOM"
+   ```
+
    <!-- 
    ```Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
    ```   -->
 
    有关详细说明，请参阅 [使用 Office 365 PowerShell 向用户帐户分配许可证](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
 
+   您还可以将电话系统功能添加到此帐户，但必须首先进行配置。 请参阅 [什么是电话系统？](../what-is-phone-system-in-office-365.md) 了解更多详细信息。 此示例添加 PSTN 国内和国际呼叫计划：
+
+   ```PowerShell
+   Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
+   ```
+
 7. 接下来，你需要启用 Skype for Business 设备帐户。 请确保你的环境满足 [Microsoft 团队会议室要求](requirements.md)中定义的要求。
 
    按如下方式启动远程 [Windows PowerShell 会话](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) (确保 [安装 Skype For business Online PowerShell 组件](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)) ：
-   
+
 > [!NOTE]
 > Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
 >
@@ -183,78 +189,24 @@ ms.locfileid: "47814791"
 
    ``` Powershell
    Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
+   $cssess = New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
+   ```
+
+   从正在设置的新用户帐户获取 RegistrarPool 信息，如下例所示：
+
+   ``` Powershell
+    Get-CsOnlineUser -Identity "Rigel1@contoso.onmicrosoft.com" | Select -Expand RegistrarPool
    ```
 
    接下来，通过运行以下 cmdlet 为 Skype for business 服务器启用 Microsoft 团队聊天室帐户：
 
    ``` Powershell
-   $rm="Rigel1@contoso.onmicrosoft.com"
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity "Rigel1@contoso.onmicrosoft.com" -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   从正在设置的新用户帐户获取 RegistrarPool 信息，如下例所示：
-
-    ``` Powershell
-    $rm="Rigel1@contoso.onmicrosoft.com"
-    Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
-    ```
-
-    > [!NOTE]
-    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
-
-### <a name="assign-a-license-to-your-account"></a>向你的帐户分配许可证
-
-1. 以租户管理员身份登录，打开 Microsoft 365 管理中心，然后单击 "管理" 应用。
-
-2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。
-
-3. 选择 "Microsoft 团队聊天室帐户"，然后单击或点击 "笔" 图标，这意味着 "编辑"。
-
-4. 单击“**许可证**”选项。
-
-5. 在 " **分配许可证** " 部分中，你需要选择 "Skype For business online" (计划 2) 或 skype For business Online (计划 3) ，具体取决于你的许可以及你在需要企业语音方面确定的内容。 如果要在 Microsoft 团队聊天室使用云 PBX，则必须使用计划3许可证。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。 有关详细信息，请参阅 [Microsoft 团队聊天室许可证](rooms-licensing.md) 。
-
-6. 单击“**保存**”完成任务。
-
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a>示例： Exchange Online 和 Skype for business Online 中的房间帐户设置
-
-Exchange Online PowerShell 命令：
-
-``` Powershell
-New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
--AdditionalResponse "This is a Rigel room!"
-```
-
-Azure Active Directory PowerShell 命令：
-
-``` PowerShell
-Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
-```
-
-<!-- 
-``` PowerShell
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
-```  -->
-
-Skype for business PowerShell 命令：
-
-``` PowerShell
-Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sippooldm21a05.infra.lync.com
--SipAddressType EmailAddress
-```
-
-> [!NOTE]
-> 这将添加 CloudPBX 和 PSTNCallingDomesticAndInternational。 此外，你需要使用管理员界面分配电话号码。
+   > [!NOTE]
+   > 新用户帐户可能不会在与租户中的现有用户帐户相同的注册机构池中创建。 上面的命令将防止由于此情况而导致帐户设置出错。
 
 ## <a name="validate"></a>复核
 

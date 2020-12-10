@@ -23,12 +23,12 @@ search.appverid: MET150
 description: 了解有关 Microsoft 团队云语音功能的详细信息以及你将为组织制定的部署决策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 464f3591d86879db5830ca0abbea1bfbff538cec
-ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
+ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071763"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611694"
 ---
 # <a name="plan-your-teams-voice-solution"></a>规划团队语音解决方案 
 
@@ -36,7 +36,7 @@ ms.locfileid: "49071763"
 
 您可能希望最简单的解决方案 &mdash; 电话系统具有通话计划。 这是 Microsoft 的所有云解决方案，它提供了专用分支 Exchange (PBX) 功能以及对公共交换电话网络 (PSTN) 的调用，如下图所示。 通过此解决方案，Microsoft 是你的 PSTN 运营商。
 
-![图1显示了带有呼叫计划的电话系统](media/msft-voice-solutions-1.png)
+![图1显示了带有呼叫计划的电话系统](media/voice-solutions-simple.png)
 
 如果对以下项回答 "是"，则带有呼叫计划的电话系统是适合你的解决方案：
 
@@ -62,6 +62,9 @@ ms.locfileid: "49071763"
 
 **具体取决于你的需求。** 本文中的部分内容取决于您的现有部署和要求。 例如，仅在不允许进行收费跳过的地理位置直接路由客户的情况下，才需要 Location-Based 路由。
 
+考虑你可能需要以下哪些其他配置：
+
+![图2显示了其他语音组件，如 Microsoft 的电话号码、拨号计划和呼叫路由等。](media/voice-consider-additional-components.png)
 
 | 根据您的要求 | 说明 |
 | :------------|:-------|
@@ -91,6 +94,8 @@ ms.locfileid: "49071763"
 - [自动助理和呼叫队列](#auto-attendants-and-call-queues)
 - [云语音邮件](#cloud-voicemail)
 - [通话标识](#calling-identity)
+
+![图3显示电话系统包含自动助理和呼叫查询、云语音邮件和呼叫标识](media/phone-system-contains.png)
 
 有关所有电话系统功能以及如何设置电话系统的信息，请参阅以下文章：
 
@@ -145,7 +150,7 @@ ms.locfileid: "49071763"
 
 如本文前面所述，带有呼叫计划的电话系统是适用于团队用户的 Microsoft 的所有云语音解决方案。 这是将 Microsoft Phone 系统连接到公共交换电话网络 (PSTN) 的最简单选项，可拨打世界各地的座机和移动电话。 通过此选项，Microsoft 为你的组织提供专用分支 Exchange (PBX) 功能，并充当 PSTN 运营商，如下图所示：
 
-![图1显示了带有呼叫计划的电话系统](media/msft-voice-solutions-1a.png)
+![图4显示了带有自动助理、呼叫队列、来电显示等的电话系统，以及 Microsoft 作为 PSTN 运营商](media/voice-solution-microsoft-complete.png)
 
 如果对以下项回答 "是"，则带有呼叫计划的电话系统是适合你的解决方案：
 
@@ -175,7 +180,7 @@ ms.locfileid: "49071763"
 
 此选项通过直接路由将 Microsoft Phone 系统连接到电话网络，如下图所示： 
 
-![图2显示了带有直接路由的电话系统](media/msft-voice-solutions-2.png)
+![图5显示带有直接路由的电话系统](media/voice-solution-with-direct-routing.png)
 
 如果对以下问题回答 "是"，则带有直接路由的电话系统是适合你的解决方案：
 
@@ -212,7 +217,6 @@ ms.locfileid: "49071763"
 - [管理用于直接路由的语音路由策略](manage-voice-routing-policies.md)
 - [为直接路由计划基于位置的路由](location-based-routing-plan.md)
 - [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
-
 
 ## <a name="phone-numbers-from-microsoft"></a>Microsoft 的电话号码
 
@@ -285,11 +289,11 @@ Microsoft 有两种类型的电话号码可用： *订户* (用户) 号码（可
 
 - [**Skype For Business Online 中使用 Microsoft 通话计划的用户**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)。 升级后，此用户将继续拥有 Microsoft 通话计划。
 
-- **[Skype For business Online 中的用户，](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)通过 skype for Business 本地或云连接器版本使用本地语音功能** 。 用户对团队的升级需要与用户迁移以直接路由，以确保 TeamsOnly 用户具有 PSTN 功能。
+- **[Skype For business Online 中的用户，](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)通过 skype for Business 本地或云连接器版本使用本地语音功能**。 用户对团队的升级需要与用户迁移以直接路由，以确保 TeamsOnly 用户具有 PSTN 功能。
 
-- **[使用企业语音的 Skype for business Online 中的用户](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)，这些用户将移动到联机状态并保持本地 PSTN 连接** 。 将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并通过将用户迁移到直接路由来协调该用户。 
+- **[使用企业语音的 Skype for business Online 中的用户](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)，这些用户将移动到联机状态并保持本地 PSTN 连接**。 将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并通过将用户迁移到直接路由来协调该用户。 
 
-- **[使用企业语音的 Skype for business Online 中的用户](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)，这些用户将移动到联机并使用 Microsoft 通话计划** 。  将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并使用) 该用户电话号码的端口与 Microsoft 通话计划或 B 进行协调，) 从可用区域分配新的订户号码。
+- **[使用企业语音的 Skype for business Online 中的用户](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)，这些用户将移动到联机并使用 Microsoft 通话计划**。  将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并使用) 该用户电话号码的端口与 Microsoft 通话计划或 B 进行协调，) 从可用区域分配新的订户号码。
 
 有关如何为每种情况实现您的语音迁移的详细信息 &mdash; ，包括有关何时需要设置混合连接的信息以及如何将具有本地语音功能的用户迁移到直接路由， &mdash; 请参阅以下文章：
 

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 8d701f32cbaf133b03573394d48772b12488b8fe
-ms.sourcegitcommit: eaab12a7a760f8a197632e1d28773728b5d1dcef
+ms.openlocfilehash: 406a2e42a73b8bb92f3b6036de63177f4b81a434
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2020
-ms.locfileid: "49429393"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611776"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -551,6 +551,16 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 > [!NOTE]
 > 用户上载的图像不会由团队进行筛选。 使用 **AllFilters** 设置时，你应具有内部组织策略，以防止用户上传攻击性或不合适的图像，或者你的组织无权使用团队会议背景的图像。
+
+## <a name="meeting-policy-settings---allow-breakout-rooms"></a>会议策略设置-允许有专题讨论的会议室
+
+这是每个用户的策略。 团队中的 "分解"[会议室](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d)用于将会议拆分为单独的小型会议会议室。 此设置控制会议组织者是否可以选择在其计划或开始的会议中创建和管理专题讨论聊天室。 此策略设置影响所有会议，包括 "立即开会" 会议。
+
+目前，您只能使用 PowerShell 配置此策略设置。 你可以使用 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有团队会议策略。 或者，使用 CsTeamsMeetingPolicy cmdlet 创建新 [的](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 团队会议策略，并将其分配给用户。
+
+默认情况下，将 **AllowBreakOutRooms** 参数设置为 **True** ，并且分配了此策略的用户可以选择在他们安排或开始的会议中创建和管理 "专题讨论" 会议室。 用户还可以将参与者分配给会议室，并在会议室之间移动参与者。 请记住，在会议中创建和管理破断会议室目前仅在团队桌面客户端中可用。 若要了解详细信息，请参阅 [在课堂会议期间创建和管理破断会议室](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d)。
+
+若要防止用户创建破断的聊天室，请将 **AllowBreakOutRooms** 参数设置为 **False**。 分配了此策略的用户没有创建或管理破断会议室的选项。
 
 ## <a name="related-topics"></a>相关主题
 

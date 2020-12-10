@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
-ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
+ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49557946"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616946"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -97,7 +97,7 @@ ms.locfileid: "49557946"
 
 ## <a name="admin-settings-in-teams-compared-to-microsoft-outlook"></a>团队中与 Microsoft Outlook 相比的管理员设置
 
-Outlook 2013 桌面版及更高版本支持 Outlook 中的 Teams 状态。
+Outlook 中的团队状态在 Outlook 2013 桌面应用和更高版本上受同一组织中的联系人支持。
 
 如果用户帐户的 "升级模式" 策略设置为 "TeamsOnly"，Outlook 将与团队进行合作以获取状态。 如果用户帐户未设置为 TeamsOnly，则 Outlook 将与 Skype for business 进行交谈。
 

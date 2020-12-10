@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d3928bd15ab5b023c025024f2dbf05c404adeee6
-ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
+ms.openlocfilehash: a23d9f5196f2d537e00c6e049377f9a7d7488654
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341097"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611596"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -35,7 +35,7 @@ ms.locfileid: "48341097"
 
 - 自定义 Teams 以突出显示对用户最为重要的应用。 你可以选择要固定的应用，并设置它们的显示顺序。 固定应用允许你展示你的组织需要的用户所需的应用，包括由第三方或你组织中的开发人员构建的应用。
 - 控制用户是否可以将应用固定到 Teams。
-- **在预览) 中**代表用户安装应用 (。 在用户启动团队时，选择默认为用户安装的应用。 请记住，如果分配给应用的 [应用权限策略](teams-app-permission-policies.md) 允许，用户仍然可以自行安装应用。
+- **在预览) 中** 代表用户安装应用 (。 在用户启动团队时，选择默认为用户安装的应用。 请记住，如果分配给应用的 [应用权限策略](teams-app-permission-policies.md) 允许，用户仍然可以自行安装应用。
 
 应用程序将固定到应用栏，它是团队桌面客户端和团队移动客户端 (iOS 和 Android) 的栏。
 
@@ -59,36 +59,50 @@ ms.locfileid: "48341097"
 你可以使用 Microsoft 团队管理中心创建自定义策略。
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **设置策略**"。
-2. 选择 " **添加**"。
-    !["添加应用设置策略" 页面](media/app-setup-policies-add.png)
+
+2. 选择“**添加**”。
+
+   !["添加应用设置策略" 页面](media/app-setup-policies-add.png)
+    
 3. 输入策略的名称和说明。
+
 4. 打开或关闭 " **上载自定义应用程序**"，具体取决于是否希望允许用户将自定义应用程序上载到团队。 如果 " **允许第三方应用** " 在 [组织范围的应用设置](manage-apps.md#manage-org-wide-app-settings)中处于关闭状态，则不能更改此设置。
+
 5. 打开或关闭 " **允许用户固定**"，具体取决于是否希望让用户通过将应用固定到应用栏来对其应用栏进行个性化设置。
-6. 若要为用户安装应用 ** (在 "预览) 中 **，请执行以下任务：
+
+   > [!NOTE]
+   > Microsoft 365 政府社区中的 " **允许用户固定** " 设置适用于 Microsoft 政府社区中的团队管理中心 (gcc) 环境 (GCC、gcc 高和 DoD) ，但当前它不起作用。
+
+6. 若要为用户安装应用 **(在 "预览) 中**，请执行以下任务：
 
     1. 在 " **已安装的应用**" 下，选择 " **添加应用**"。
+    
     2. 在 " **添加已安装的应用** " 窗格中，搜索你希望在用户启动团队时为用户自动安装的应用。 你还可以按应用权限策略筛选应用。 选择应用列表后，选择 " **添加**"。
 
-        !["添加已安装的应用" 窗格](media/app-setup-policies-add-installed-apps.png)
+       !["添加已安装的应用" 窗格](media/app-setup-policies-add-installed-apps.png)
 
 7. 若要固定应用，请执行下列操作：
 
     1. 在 " **固定应用**" 下，选择 " **添加应用**"。
+    
     2. 在 " **添加固定的应用** " 窗格中，搜索要添加的应用，然后选择 " **添加**"。 你还可以按应用权限策略筛选应用。 选择要固定的应用列表后，选择 " **添加**"。
 
-         !["添加固定的应用" 窗格](media/app-setup-policies-add-apps.png)
+       !["添加固定的应用" 窗格](media/app-setup-policies-add-apps.png)
 
     3. 按希望在团队中显示的顺序排列应用，然后选择 " **保存**"。
 
-        !["固定应用" 部分](media/app-setup-policies-new-policy-setup.png)
+       !["固定应用" 部分](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>编辑应用设置策略
 
 你可以使用 Microsoft 团队管理中心编辑策略，包括全局 (组织范围的默认) 策略和你创建的自定义策略。
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **设置策略**"。
+
 2. 单击策略名称左侧的 "选择"，然后选择 " **编辑**"。
+
 3. 在此处进行所需的更改。
+
 4. 选择 " **保存**"。
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>向用户分配自定义应用设置策略
@@ -101,7 +115,8 @@ ms.locfileid: "48341097"
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft 团队管理中心中包含哪些内置应用设置策略
 
-- **全局 (组织范围默认) **：此默认策略适用于你的组织中的所有用户，除非你分配其他策略。 编辑全局策略以固定对你的用户最重要的应用。
+- **全局 (组织范围默认)**：此默认策略适用于你的组织中的所有用户，除非你分配其他策略。 编辑全局策略以固定对你的用户最重要的应用。
+
 - **FirstLineWorker**：此政策适用于一线工作者。 你可以将其分配给你的组织中的一线工作人员。 请务必知道，例如你创建的自定义策略，你必须将策略分配给用户才能使设置处于活动状态。 有关详细信息，请转到本文的 "向 [用户分配自定义应用设置策略](#assign-a-custom-app-setup-policy-to-users) " 部分。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>为什么在 "添加固定的应用" 窗格中找不到应用
