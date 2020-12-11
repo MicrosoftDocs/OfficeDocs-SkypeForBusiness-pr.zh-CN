@@ -22,43 +22,43 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
 - seo-marvel-mar2020
-description: 呼叫共享和群组通话分拣允许用户与同事共享传入呼叫，以便可以在用户不可用时捕获呼叫。
-ms.openlocfilehash: 6c97c2710e7dd5e9be896e0c79db786f3a4d81b2
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+description: 呼叫共享和群组呼叫取件允许用户与同事共享传入呼叫，以便当用户不可用时可以捕获呼叫。
+ms.openlocfilehash: 825e174a6b6f68adcc7b5aade212689b01309c24
+ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582639"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49620717"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 
-Microsoft 团队的呼叫共享和组呼叫功能允许用户与同事共享传入呼叫，以便同事可以接听在用户不可用时出现的呼叫。
+Microsoft Teams 的呼叫共享和群组呼叫取件功能允许用户与同事共享其传入呼叫，以便同事可以应答在用户不可用时发生的呼叫。
 
-组呼叫对收件人的干扰比其他呼叫共享 (（例如呼叫转接或同时拨打) ）的干扰较少，因为用户可以通过音频和视觉通知、仅直观或横幅在 "团队" 应用) 中配置接收共享 (呼叫的通知，他们可以决定是否应答。
+与其他形式的呼叫共享 (（例如呼叫转发或同时拨打) ）相比，组呼叫取件对收件人的干扰更少，因为用户可以配置如何通过音频和视觉通知、仅可视或 Teams 应用) 中的横幅来接收传入共享呼叫 (的通知，并且他们可决定是否接听。
 
-若要与其他人共享呼叫，用户将创建呼叫组，并添加他们想要与之共享其通话的用户。 然后选择 "同时拨打" 或 "转发" 设置。 有关详细信息，请参阅有关[团队的呼叫转接和同时拨打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)的详细信息。
+若要与其他人共享呼叫，用户创建一个呼叫组并添加他们希望与用户共享其呼叫的用户。 然后，选择同时响铃或前进设置。 有关详细信息 [，请参阅 Teams 中的呼叫转发和](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) 同时拨打。 请注意，只有当移动设备设置为横幅和铃声时，它们才收到通知。
 
 > [!IMPORTANT]
-> 用户、呼叫组所有者和呼叫组成员必须位于 "仅限团队" 部署模式。 有关团队部署模式的更多详细信息，请参阅[了解 Microsoft 团队和 Skype For business 共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> 用户、呼叫组所有者和呼叫组的成员必须进入"仅 Teams"部署模式。 有关 Teams 部署模式的更多详细信息，请参阅 ["了解 Microsoft Teams 和 Skype for Business 共存和互操作性"](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>需要许可证
 
-用户必须是启用企业语音才能设置和使用呼叫共享和组呼叫装货。 有关许可模型的其他详细信息，请参阅[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+必须允许用户企业语音，以便设置和使用呼叫共享和群组呼叫取件。 有关许可模型的其他详细信息，请参阅 Microsoft [Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
-## <a name="configure-group-call-pickup"></a>配置组呼叫装货
+## <a name="configure-group-call-pickup"></a>配置组呼叫取件
 
-若要设置组呼叫装货，用户首先配置呼叫组 (这与安全组或 Microsoft 365 组) 不同，然后添加他们想要与其进行共享通话的用户。 然后，选择 "同时拨打" 或 "呼叫转接" 设置。 有关详细信息和分步过程，请参阅[团队中的呼叫转接和同时拨打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)。
+要设置组呼叫取件，用户首先配置呼叫组 (这不与安全组或 Microsoft 365 组) 相同，然后添加要与用户共享其呼叫的用户。 然后，选择同时拨打或呼叫转发设置。 有关详细信息和分步过程，请参阅 Teams 中的 [呼叫转发和同时拨打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)。
 
-呼叫组创建和通知首选项是用户驱动的功能;管理员不必为其用户配置这些功能。 无法从安全组或 Microsoft 365 组创建呼叫组;它们必须在团队中创建。
+呼叫组创建和通知首选项是用户驱动的功能;管理员不需要为用户配置这些功能。 无法从安全组或 Microsoft 365 组创建呼叫组;必须在 Teams 中创建它们。
 
-管理员应通过用户的**TeamsCallingPolicy AllowCallGroups**设置启用呼叫组。 管理员还可以通过团队管理员门户启用此操作。  此外，已配置的用户还可以直接通过客户端配置其呼叫组。 管理员或最终用户不能互相阻止配置，但团队管理员门户和团队客户应在这两个位置准确地显示这种关系。 
+管理员应该通过 **TeamsCallingPolicy AllowCallGroups 设置为用户** 启用呼叫组。 管理员还可通过 Teams 管理门户启用此功能。  此外，配置的用户还可以直接通过客户端配置其呼叫组。 管理员或最终用户无法相互阻止配置，但 Teams 管理门户和 Teams 客户端应在两处准确显示此关系。 
 
-重要提示：当管理员为用户关闭呼叫组时 (，并且呼叫组关系配置) 后，管理员必须清理团队管理中心中的用户的呼叫组关系，以避免不正确的呼叫路由。 
+重要提示：当管理员为 (用户关闭呼叫组且呼叫组关系已配置) 时，管理员必须清理 Teams 管理中心中用户的呼叫组关系，以避免不正确的呼叫路由。 
 
-## <a name="limitations"></a>优缺点
+## <a name="limitations"></a>限制
 
-一个租户最多可以包含32768个呼叫组。 每个呼叫组中最多只能有25个用户。 
+一个租户最多可以包含 32，768 个呼叫组。 每个呼叫组中最多可以有 25 个用户。 
 
 ## <a name="more-information"></a>更多信息
 
-[团队中的呼叫转接和同时拨打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+[Teams 中的呼叫转发和同时拨打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
