@@ -1,7 +1,7 @@
 ---
 title: 已知问题
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 管理员可以了解 Microsoft 团队聊天室的已知问题列表，包括更新、用户界面、硬件、限制和预期行为。
+description: 管理员可以了解 Microsoft Teams 会议室的已知问题列表，包括更新、用户界面、硬件、限制和预期行为。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 73eab767d7b30182efb204fb8cfb8ceb06137c0b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 6c32e35f0ea95d81fcb597c18a12a8f48fe4c7b2
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177361"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662627"
 ---
 # <a name="known-issues"></a>已知问题 
  
@@ -31,10 +31,10 @@ ms.locfileid: "48177361"
 
 | 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
-| 应用程序不启动 |  更新到应用程序版本4.4.41.0 后，系统将启动到黑屏，或在几分钟后转到登录屏幕。 | 请按照 [Microsoft 团队聊天室应用程序在更新到版本4.4.41.0 后无法启动](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) 的步骤来解决此问题。  | 无 |
-|  SfB 会议内容共享不显示全屏         |    在 Skype for Business 会议中，使用较高 DPI 设置显示正面的会议室会出现问题，即共享到会议中的内容不会显示会议室显示的全屏显示。 这是由 Windows 10 远程桌面协议 (RDP) API 中的基础问题导致的。 | 使用 `<WinRTRdpEnabled>` XML 设置禁用 Windows 10 RDP API 以解决此问题。 若要禁用，你需要将值指定为 `false` 。 有关详细信息，请参阅 [使用 XML 配置文件管理控制台设置](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file)。 | 无 |
+| 应用程序未启动 |  更新到应用程序版本 4.4.41.0 后，系统会启动到黑屏，或者几分钟后转到登录屏幕。 | 按照 Microsoft Teams 会议室应用程序中的步骤在更新到 [版本 4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) 后无法启动以修复此问题。  | 无 |
+|  SfB 会议内容共享未全屏显示         |    在 Skype for Business 会议中，使用高 DPI 设置显示房间的会议室可能会遇到共享到会议的内容在会议室显示前不显示全屏的问题。 这是由 Windows 10 远程桌面协议和 RDP (API) 问题造成的。 | 使用 `<WinRTRdpEnabled>` XML 设置禁用 Windows 10 RDP API 来解决此问题。 若要禁用，需要将值指定为 `false` 。 有关详细信息，请参阅["使用 XML 配置文件管理控制台设置"。](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file) | 无 |
 |  应用已过期         |    Microsoft Teams 会议室控制台显示“系统配置已过期”错误。                |   [使用 Microsoft Teams 会议室恢复工具](recovery-tool.md)             |  无 |
-|  设备更新为不受支持的 Windows 10 版本   |    Windows 10 设备从版本1803更新到版本1809，不受支持。 支持的版本为1903。 |   如果 DeferFeatureUpdatesPeriodinDays 设置的 [组策略或 MDM 设置](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) （允许您将功能更新推迟到指定的天数内），则可能会发生这种情况，最大为365天。 <br><br> Microsoft 团队聊天室不支持 Windows 10 版本1809，但支持版本1903。 但是，从2020年3月27日起，版本1809超过365天。 如果此设置未更改，Windows 将尝试安装版本1809，这可能会导致 Microsoft 团队聊天室出现问题。<br><br>为避免这种情况，请 **删除** 延迟更新的任何组策略或 MDM 设置。 这允许 Windows 更新到最新的受支持的操作系统版本。 <br><br>**重要提示** 必须 **删除** "组策略" 或 "MDM" 设置 (保留未配置的) ，并且 **未设置为 0**。 如果该策略设置为0，则 Windows 会获得可能不受支持的最新可用版本。 |  无 |
+|  设备已更新到不受支持的 Windows 10 版本   |    Windows 10 设备从版本 1803 更新到版本 1809，不受支持。 支持的版本为 1903。 |   如果 [DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) 设置的组策略或 MDM 设置（允许您将功能更新延迟指定天数）设置为最多 365 天，则可能会发生这种情况。 <br><br> Microsoft Teams 会议室不支持 Windows 10 版本 1809，而版本 1903 受支持。 但是，截至 2020 年 3 月 27 日，版本 1809 已超过 365 天。 如果未更改此设置，Windows 会尝试安装版本 1809，这可能会导致 Microsoft Teams 会议室问题。<br><br>若要避免这种情况， **请删除** 任何组策略或 MDM 设置以推迟更新。 这允许 Windows 更新到受支持的最新 OS 版本。 <br><br>**重要** 必须删除组策略或 MDM **设置 (未** 配置) **不设置为 0。** 如果策略设置为 0，Windows 会采用可能不支持的最新可用版本。 |  无 |
 
 
 <a name="OS-conflicts"> </a>  
@@ -42,7 +42,7 @@ ms.locfileid: "48177361"
 
 | 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
-|虚拟键盘缺失   | 当你需要在 Microsoft Teams 会议室中输入信息时，不显示虚拟键盘。 此问题出现在 Windows 10 版本1903中。 | 通过 Windows 更新为基于 x64 的系统的 Windows 10 版本1903安装2020-04 累积更新。  | 无 | 
+|虚拟键盘缺失   | 当你需要在 Microsoft Teams 会议室中输入信息时，不显示虚拟键盘。 此问题出现在 Windows 10 版本 1903 中。 | 通过 Windows 更新为基于 x64 的系统安装 Windows 10 版本 1903 的 2020-04 累积更新。  | 无 | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>硬件
@@ -54,25 +54,23 @@ ms.locfileid: "48177361"
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>限制和预期行为
 
-***
+**_
 
 Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采集功能（视频、音频）出现问题。 请确保连接到 Microsoft Teams 会议室的交换机禁用了 HDCP 选项。 
 
-***
+_*_
 
-如果你希望将会议室显示的正面自动切换到活动视频源 (例如 MTR 控制台) 从待机模式唤醒源时，必须满足某些条件。 此功能是可选的，但 Microsoft 团队工作室软件支持此功能，但提供的基础硬件支持此功能。 在室内屏幕正面使用的消费者电视需要支持消费电子设备 (CEC) 的部件。  根据所选 (（可能不支持 CEC），请参阅制造商支持文档) 从 Extron Crestron 或 Extron HD CTL 100 （如 [HD 201-](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 [hd CTL](https://www.extron.com/article/hdctl100ad) ）启用所需的行为。 
+如果希望会议室前显示器自动切换到活动视频源 (例如当源从备用模式唤醒时) 的一个功能区，则必须满足某些条件。 此功能是可选的，但 Microsoft Teams 会议室软件支持此功能，但基础硬件支持此功能。 用作房间显示前端的消费者电视需要支持 HDMI 的 CEC (控制) 功能。  根据选择的扩展坞或主机 (可能不支持 CEC，请参阅制造商支持文档) ，可能需要一个控制器（例如，来自 Crestron 的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 Extron 的 [Extron HD CTL 100）](https://www.extron.com/article/hdctl100ad) 才能启用所需行为。 
 
-***
+_*_
 
-始终使用有线1至 Gbps 网络连接，确保您有所需的带宽。 
+始终使用有线 1 Gbps 网络连接，以确保拥有所需的带宽。 
 
-***
+_*_
 
-如果你的 Microsoft 团队聊天室设备失去了与域的信任，你将无法在设备上进行身份验证并打开 "设置"。 例如，如果在域加入域后从域中删除 Microsoft 团队聊天室，则信任将丢失。 解决方法是使用本地管理员帐户登录。 
-***
-Microsoft 团队会议室是一个多窗口应用程序，需要将房间内的正面显示连接到设备的 HDMI 端口，才能使应用正常运行。 请确保你已连接 HDMI 显示器，或者使用虚拟 HDMI 插头（如果你正在测试，并且尚未购买显示器）。
-***
-<a name="See"> </a>  
+如果 Microsoft Teams 会议室设备失去对域的信任，将无法在设备上进行身份验证并打开"设置"。 例如，如果在加入域后从域中删除 Microsoft Teams 会议室，则信任会丢失。 解决方法是使用本地管理员帐户登录。 
+_*_ Microsoft Teams 会议室是一个多窗口应用程序，需要将房间的前面显示连接到设备的 HDMI 端口，使应用正常工作。 如果你正在测试并且尚未购买显示器，请确保你已连接 HDMI 显示器或使用虚拟 HDMI 插头。
+_** <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅
 
 [Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)

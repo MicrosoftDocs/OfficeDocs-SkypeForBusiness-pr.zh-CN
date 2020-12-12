@@ -1,5 +1,5 @@
 ---
-title: 管理中心中的团队制造模板入门
+title: 管理中心中的 Teams 制造模板入门
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用。 团队模板：通过使用管理中心提供预定义的设置、信道和预安装应用来创建为制造需求设计的团队结构。
+description: 了解如何使用。 使用管理中心提供预定义的设置、频道和预安装的应用，创建专为制造需求设计的团队结构的团队模板。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,30 +19,30 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9013bda2f83a63776dfbf9110a0863dcf68c0ddb
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 51a28e997e5c7c0b36fb49cd0bb46768b7808a29
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800595"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662217"
 ---
-# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>在管理中心中使用团队制造模板
+# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>在管理中心使用 Teams 制造模板
 
-团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
+Teams 模板提供预定义的设置、频道和预安装应用模板，让你可以快速轻松地创建团队。
 
-团队模板具有围绕制造需求设计的团队结构的预建定义。 您还可以扩展团队模板以创建根据您的特定组织需求量身定制的团队。
+Teams 模板具有围绕制造需求设计的团队结构的预构建定义。 还可以扩展 Teams 模板，创建根据特定组织需求定制的团队。
 
-在本文中，我们将介绍每个团队模板并建议如何使用它们。
+本文介绍每个 Teams 模板，并推荐其使用方法。
 
-本文适用于你负责在你的制造组织中规划、部署和管理多个团队的情况。 你已在你的组织中部署团队服务。 如果尚未推出团队，请先阅读 [如何展示 Microsoft 团队](How-to-roll-out-teams.md)。
+本文适用于负责规划、部署和管理整个制造组织的多个团队。 你已在组织中部署了 Teams 服务。 如果尚未推出 Teams，请首先阅读"如何推出[Microsoft Teams"。](How-to-roll-out-teams.md)
 
-若要深入了解有关团队模板的详细信息，请参阅 [团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)。
+若要了解有关团队模板的一般信息，请参阅 [Teams 模板入门](get-started-with-teams-templates-in-the-admin-console.md)。
 
-## <a name="quality-and-safety"></a>质量和安全性
+## <a name="quality-and-safety"></a>质量和安全
 
-使用制造工厂团队集中沟通、访问资源和车间运营。 包括政策和流程文档、培训视频、安全通知、倒班移交流程。
+与制造工厂团队集中通信、访问资源和工厂运营。 包括策略和过程文档、培训视频、安全通知、轮班流程。
 
-| 基本模板类型|baseTemplateId | 此基本模板附带的属性 |
+| 基本模板类型|baseTemplateId| 此基本模板提供的属性 |
 | ------------------|-- |----------------------------------------------------- |
-|质量和安全性|`com.microsoft.teams.template.QualitySafety` |信道 <ul><li>常规<li>宣告</li><li>第1行</li><li>第2行</li><li>第3行</li><li>引起</li><li>培训</li><li>维护</li><li>有趣的资料</li></ul> 识别 <ul><li>源自</li></ul>|
+|质量和安全|`com.microsoft.teams.template.QualitySafety` |频道： <ul><li>常规<li>公告</li><li>第 1 行</li><li>第 2 行</li><li>第 3 行</li><li>安全</li><li>培训</li><li>维护</li><li>有趣的内容</li></ul> 应用： <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||

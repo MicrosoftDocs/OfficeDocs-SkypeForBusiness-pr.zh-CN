@@ -13,106 +13,106 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解需要执行电子数据展示时需要执行的操作，如需要提交所有电子存储的法律程序存储信息。
+description: 了解需要执行电子数据展示时（例如，需要提交所有电子数据存储信息进行法律诉讼时）应执行的操作。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53f3f1f3d8146b06b69a70dbbf7c00bdb979c43c
-ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
+ms.openlocfilehash: 25729dea68d2d8ea75fae894387316dfbcd1975a
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570821"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661907"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
-大型企业经常面临高处罚的法律诉讼，要求提交所有电子存储的信息 (ESI) 。 Microsoft 团队内容可在电子数据展示调查期间进行搜索和使用。
+大型企业通常面临高损失的诉讼，这些诉讼要求提交所有电子 (ESI) 。 可在电子数据展示调查期间搜索和使用 Microsoft Teams 内容。
 
 ## <a name="overview"></a>概述
 
-将向相应用户的邮箱中记录所有 Microsoft 团队1:1 或群组聊天。 所有标准频道消息都将记录到代表团队的组邮箱。 在标准频道中上载的文件包含在 SharePoint Online 和 OneDrive for business 的电子数据展示功能下方。
+所有 Microsoft Teams 1：1 或群组聊天都记录在相应用户的邮箱中。 所有标准频道邮件都记录在代表团队的组邮箱中。 在标准频道中上传的文件包括在 SharePoint Online 和 OneDrive for Business 的电子数据展示功能下。
 
-电子数据展示 [专用频道](private-channels.md) 中的消息和文件的工作方式与在标准信道中的工作方式不同。 若要了解详细信息，请参阅 [电子数据展示专用频道](#ediscovery-of-private-channels)。
+私人频道中 [消息和文件](private-channels.md) 电子数据展示的工作方式与标准通道中的工作方式不同。 若要了解有关详细信息，请参阅 [专用通道的电子数据展示](#ediscovery-of-private-channels)。
 
-并非所有团队内容都是 eDiscoverable。 下表显示了可以通过电子数据展示找到的内容类型。
+并非所有 Teams 内容都是可电子数据展示的。 下表显示了可通过电子数据展示查找的内容类型。
 
-| 内容类型 | eDiscoverable | 注释 |
+| 内容类型 | 电子数据展示 | 注释 |
 |:--- | --- |:--- |
-| 团队聊天消息 | 是 |  |
+| Teams 聊天消息 | 是 |  |
 | 专用频道消息 | 是 | |
-| 频道的名称 | 否 | |
+| 频道名称 | 否 | |
 | 会议 IM 对话 | 是 | |
 | 会议元数据<sup>1</sup> | 是 |  |
-| 已编辑邮件 | 是 | 如果用户处于保留状态，将保留已编辑邮件的以前版本。 |
-| 表情符号、Gif、贴纸 | 是 | |
+| 已编辑的邮件 | 是 | 如果用户保持保留状态，将保留以前版本的已编辑消息。 |
+| 表情符号、GIF、贴纸 | 是 | |
 | 代码片段 | 否 | |
 | 聊天链接 | 是 | |
-| 对赞、红心大战等的反应 ()  | 否 | |
+| 反应 (点子、心声等)  | 否 | |
 | 内联图像 | 是 | |
-| 题注 | 是 | |
+| 表 | 是 | |
 | 主题 | 是 | |
-| 引述 | 是 | 已引用内容可搜索。 但是，搜索结果不表示内容已加引号。 |
+| 引号 | 是 | 引用的内容是可搜索的。 但是，搜索结果不会指示内容已引用。 |
 | 录音 | 否 | |
 
-<sup>1</sup> 会议元数据包括以下内容：
+<sup>1</sup> 会议 (呼叫) 元数据包括以下内容：
 
-- 会议或呼叫开始和结束时间以及持续时间
-- 通话/会议加入和离开每位参与者的活动
-- VOIP 加入/通话
-- 匿名联接
-- 联盟用户加入
+- 会议开始时间和结束时间以及持续时间
+- 每个参与者的会议加入和离开事件
+- VOIP 加入/呼叫
+- 匿名加入
+- 联合用户加入
 - 来宾用户加入
 
-此图像显示了元数据的一个示例。
+该图像显示了元数据的示例。
 
 > [!div class="mx-imgBorder"]
-> ![图像属于 CVR 记录会议元数据。](media/conversationOption3.png)
+> ![图像是 CVR 记录会议元数据的图像。](media/conversationOption3.png)
 
-下面是会议期间参与者之间的 IM 对话的示例。
+下面是会议期间参与者之间的即时消息对话示例。
 
-![团队中的参与者之间的对话。](media/MeetingIMConversations.png)
+![Teams 中参与者之间的对话。](media/MeetingIMConversations.png)
 
 > [!div class="mx-imgBorder"]
-> ![电子数据展示搜索结果中参与者之间的对话。](media/MeetingImConversation2.png)
+> ![电子数据展示搜索结果中的参与者之间的对话。](media/MeetingImConversation2.png)
 
-若要使用 Microsoft 团队内容执行电子数据展示调查，请查看 [内核电子数据展示入门](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)中的步骤1。
+有关执行电子数据展示调查详细信息，请参阅核心 [电子数据展示入门](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)。
 
-Microsoft 团队数据将在 Excel 电子数据展示导出输出中显示为即时消息或对话。 可以 `.pst` 在 Outlook 中打开文件以在导出后查看这些邮件。
+Microsoft Teams 数据将在 Excel 电子数据展示导出输出中显示为 IM 或对话。 导出后， `.pst` 可以在 Outlook 中打开该文件以查看这些邮件。
 
-查看团队的 .pst 文件时，所有对话都保存在 "对话历史记录" 下的 "工作组聊天" 文件夹中。 邮件标题包含团队名称和频道名称。 例如，下面的图像显示来自 Bob 的一条消息，messaged 制造规范团队的项目7标准频道。
+查看团队的 .pst 文件时，所有对话都保存在"对话历史记录"下的"团队聊天"文件夹中。 消息的标题包含团队名称和频道名称。 例如，下图显示了 Bob 发来的消息，他向制造规范团队的 Project 7 标准频道发送消息。
 
-![Outlook 中的用户邮箱中的工作组聊天文件夹的屏幕截图](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Outlook 中用户邮箱中的"团队聊天"文件夹的屏幕截图](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
-用户邮箱中的私人聊天存储在 "对话历史记录" 下的 "工作组聊天" 文件夹中。
+用户邮箱中的私人聊天存储在"对话历史记录"下的"团队聊天"文件夹中。
 
-## <a name="ediscovery-of-private-channels"></a>专用频道的电子数据展示
+## <a name="ediscovery-of-private-channels"></a>专用通道电子数据展示
 
 在私人频道中发送的消息记录将传递到所有私人频道成员的邮箱，而不是传递到组邮箱。 记录的标题已格式化为指示它们是从哪个私人频道发送的。
 
-由于每个专用频道都有自己的 SharePoint 网站集，独立于父团队网站，因此专用通道中的文件独立于父团队进行管理。
+由于每个专用频道都有自己的 SharePoint 网站，该网站独立于父团队网站，因此专用频道中的文件独立于父团队进行管理。
 
-团队不支持团队中的单个频道的电子数据展示搜索，因此必须搜索整个团队。 若要在专用频道中执行电子数据展示搜索，请在团队中搜索与专用频道相关联的网站集 (以包括) 的文件，以及专用频道成员的邮箱 (包括) 的邮件。
+Teams 不支持对团队中的单个频道进行电子数据展示搜索，因此必须搜索整个团队。 若要在专用频道中对内容执行电子数据展示搜索，请在整个团队中搜索、与专用频道 (关联的网站集以包含文件) 以及专用频道成员的邮箱 (以包含消息) 。
 
-使用以下步骤标识要包括在电子数据展示搜索中的专用通道中的文件和邮件。
+使用以下步骤识别专用通道中要包括在电子数据展示搜索中的文件和消息。
 
-### <a name="include-private-channel-files-in-an-ediscovery-search"></a>在电子数据展示搜索中包括专用信道文件
+### <a name="include-private-channel-files-in-an-ediscovery-search"></a>在电子数据展示搜索中包括专用频道文件
 
-在执行这些步骤之前，请安装 [Sharepoint Online 命令行管理程序并连接到 SharePoint online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)。
+执行这些步骤之前，请安装[SharePoint Online 命令行管理程序并连接到 SharePoint Online。](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
-1. 运行以下操作以获取与团队中的专用通道相关联的所有 SharePoint 网站集的列表。
+1. 运行以下代码，获取与团队中的专用频道关联的所有 SharePoint 网站集的列表。
 
     ```PowerShell
     Get-SPOSite
     ```
 
-2. 运行以下 PowerShell 脚本，获取与团队和父团队组 ID 中的专用通道相关联的所有 SharePoint 网站集 Url 的列表。
+2. 运行以下 PowerShell 脚本，获取与团队中的专用频道关联的所有 SharePoint 网站集 URL 的列表和父团队组 ID。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. 对于每个团队或组 ID，运行以下 PowerShell 脚本来标识所有相关专用通道网站，其中 $groupID 是团队的组 ID。
+3. 对于每个团队或组 ID，请运行以下 PowerShell 脚本来识别所有相关专用频道站点，其中$groupID是团队的组 ID。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -120,127 +120,178 @@ Microsoft 团队数据将在 Excel 电子数据展示导出输出中显示为即
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>在电子数据展示搜索中包括专用信道消息
+### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>在电子数据展示搜索中包括私人频道消息
 
-在执行这些步骤之前，请确保安装了 [最新版本的团队 PowerShell 模块](teams-powershell-overview.md) 。
+执行这些步骤之前，请确保已安装最新版本的 Teams [PowerShell 模块](teams-powershell-overview.md) 。
 
-1. 运行以下操作以获取团队中的专用通道的列表。
+1. 运行以下命令，获取团队中的专用频道列表。
 
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 
-2. 运行以下操作以获取专用通道成员的列表。
+2. 运行以下命令获取专用通道成员的列表。
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. 将团队中每个专用频道的所有成员的邮箱添加为电子数据展示搜索查询的一部分。
+3. 在电子数据展示搜索查询中包括团队中每个专用频道中所有成员 [的邮箱](https://docs.microsoft.com/microsoft-365/compliance/search-for-content-in-core-ediscovery)。
+
+## <a name="search-for-content-for-guest-users"></a>搜索来宾用户的内容
+
+可以使用电子数据展示工具搜索与组织中来宾用户相关的 Teams 内容。 与来宾用户关联的 Teams 聊天内容保留在基于云的存储位置，并且可以使用电子数据展示进行搜索。 这包括在 1：1 和 1：N 聊天对话中搜索内容，其中来宾用户是组织中其他用户的参与者。 还可以搜索来宾用户是参与者的私人频道消息，在来宾 *：* 来宾聊天对话中搜索内容，其中只有参与者是来宾用户。
+
+搜索来宾用户的内容：
+
+1. 连接到 Azure AD PowerShell。 有关说明，请参阅"使用 PowerShell 连接到 Microsoft 365"中的"使用 Azure Active Directory [PowerShell 进行连接"部分](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。 请务必完成上一主题中的步骤 1 和步骤 2。
+
+2. 成功连接到 Azure AD PowerShell 后，请运行以下命令，为组织的所有来宾 (UPN) 用户显示用户主体名称。 在步骤 4 创建搜索时，您必须使用来宾用户的 UPN。
+
+   ```powershell
+   Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
+   ```
+
+   > [!TIP]
+   > 可以将命令的输出重定向到文本文件，而不是在计算机屏幕上显示用户主体名称列表。 为此，可以追加到上 `> filename.txt` 一命令。 具有用户主体名称的文本文件将保存到当前文件夹。
+
+3. 在不同的安全Windows PowerShell，连接到安全&中心 PowerShell。 有关说明，请参阅["连接到安全&中心 PowerShell"。](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 可以使用或不使用多重身份验证进行连接。
+
+4. 通过运行以下命令创建内容搜索 (，例如聊天消息和电子邮件) 指定来宾用户是参与者）。
+
+   ```powershell
+   New-ComplianceSearch <search name> -ExchangeLocation <guest user UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   ```
+
+   例如，若要搜索与来宾用户 Sara Sara 关联的内容，请运行以下命令。
+
+   ```powershell
+   New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   ```
+
+    有关使用 PowerShell 创建内容搜索详细信息，请参阅[New-ComplianceSearch。](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)
+
+5. 运行以下命令，启动在步骤 4 中创建的内容搜索：
+
+   ```powershell
+   Start-ComplianceSearch <search name>
+   ```
+
+6. 转到， [https://compliance.microsoft.com](https://compliance.microsoft.com) 然后单击"显示 **所有**  >  **内容搜索"。**
+
+7. 在搜索列表中，选择在步骤 4 中创建的搜索以显示飞出页。
+
+8. 在"飞出"页上，可以执行以下操作：
+
+   - 单击 **"查看** 结果"以查看搜索结果并预览内容。
+
+   - 在" **查询"字段** 旁边，单击 **"编辑** "进行编辑，然后重新运行搜索。 例如，可以添加搜索查询来缩小结果范围。
+
+   - 单击 **"导出结果** "导出并下载搜索结果。
 
 ## <a name="advanced-ediscovery"></a>高级电子数据展示
 
-还可以使用 [高级电子数据展示工作流](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20)搜索和保留某些 Microsoft 团队内容。 虽然电子数据展示提供了一系列搜索、保留和导出功能，但高级电子数据展示为合规性管理员提供了更多用于识别数据源和分析其内容的工具。
+也可使用高级电子数据展示工作流搜索和保留某些 Microsoft Teams [内容](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20)。 虽然电子数据展示提供了一系列搜索、保留和导出功能，但高级电子数据展示为合规性管理员提供了更多工具来识别数据源并分析其内容。
 
-### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>工作组内容的高级电子数据展示保管人工作流
+### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Teams 内容的高级电子数据展示管理员工作流
 
-保管人可能是各种团队的成员。 你可以捕获与这些保管人相关的团队内容。 有关保管人工作流的背景和说明，请参阅 [高级电子数据展示工作流](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20)。
+管理员可能是各种团队的成员。 你可以捕获与这些管理员相关的 Teams 内容。 有关监管员工作流的说明，请参阅"[将管理员添加到高级电子数据展示案例"。](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case)
 
-添加保管人后，单击 " **下一步** " 按钮，然后单击 " **添加** " 按钮。 此时将显示一个窗口，提示你选择其他位置，这将向你显示所有保管人成员的成员身份以及对应的 SharePoint 网站位置。 从所有这些数据源和团队中，你可以选择要用于电子数据展示的内容，然后将该用户和你已标识的所有数据源置于保持状态。
+添加管理员后，单击"下 **一步"** 按钮，然后单击" **添加"** 按钮。 随后将显示一个窗口，提示您选择其他位置，该窗口将显示管理员的所有成员身份及其数据的相应 SharePoint 网站位置。 从所有这些数据源和团队中，您可以选择要用于电子数据展示的内容，然后将该用户和已标识的所有数据源放在保留状态。
 
-你可以选择是否包括 Exchange 内容、其 OneDrive 内容或两者。 Exchange 内容包括用户邮箱中的所有应用程序内容，例如其电子邮件、存储在其邮箱中的团队内容等。 OneDrive 内容不仅包括用户的内容，还包括存储在 OneDrive 中的所有团队内容，如1:1 聊天、1： N 聊天和聊天中共享的文件。
+可以选择是包括 Exchange 内容、OneDrive 内容还是两者。 Exchange 内容包括用户邮箱中所有应用程序内容，例如其电子邮件、存储在其邮箱中的 Teams 内容，等等。 OneDrive 内容不仅包括用户的内容，还包括 OneDrive 中存储的所有 Teams 内容，例如 1：1 聊天、1：N 聊天和聊天中共享的文件。
 
-你还可以选择将保管人成员与保管人成员相关联，以便包括保管人对其具有访问权限的频道聊天消息和文件。 此外，任何其他团队都可以与管理员关联。 有关详细信息，请参阅 [将保管人添加到高级电子数据展示事例](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case)。
+您还可以选择关联监管员是其中成员的任何团队，以便包括监管员有权访问的频道聊天消息和文件。 此外，任何其他团队都可以与监管员相关联。
 
 > [!NOTE]
-> 电子数据展示 [专用频道](private-channels.md) 中的消息和文件的工作方式与在标准信道中的工作方式不同。 若要了解详细信息，请参阅 [电子数据展示专用频道](#ediscovery-of-private-channels)。
+> 私人频道中 [消息和文件](private-channels.md) 电子数据展示的工作方式与标准通道中的工作方式不同。 若要了解有关详细信息，请参阅 [专用通道的电子数据展示](#ediscovery-of-private-channels)。
 
-### <a name="placing-a-data-source-on-hold"></a>将数据源置于保持状态
+### <a name="placing-a-data-source-on-hold"></a>保留数据源
 
-如果没有特定用户指定为保管人，则可以将整个数据源置于保持状态。 有关保留的详细信息，请参阅 [管理高级电子数据展示中的保留](https://docs.microsoft.com/microsoft-365/compliance/managing-holds)。
+如果没有特定用户指定为监管员，您可以保留整个数据源。 有关保留详细信息，请参阅["管理高级电子数据展示中的保留"。](https://docs.microsoft.com/microsoft-365/compliance/managing-holds)
 
-为团队内容创建保留时，可以选择要包含在保留中的所有位置。 即使用户正在删除或更改内容，保留仍将保留该内容所有以前版本的副本。
+为 Teams 内容创建保留时，可以选择要包括在保留中的所有位置。 即使用户正在删除或更改内容，保留也将保留该内容的所有以前版本的副本。
 
-你还可以使用可选查询基于关键字、日期范围、作者和许多其他条件设置保留条件。 如果不指定关键字，则来自该数据源的所有内容都将受到保留。
+还可使用可选查询，根据关键字、日期范围、作者和许多其他条件设置保留条件。 如果未指定关键字，则来自该数据源的所有内容都将受到保留。
 
 ### <a name="advanced-ediscovery-searches"></a>高级电子数据展示搜索
 
-还可以搜索团队内容。 有关搜索的详细信息，请参阅 [在高级电子数据展示中收集事例的数据](https://docs.microsoft.com/microsoft-365/compliance/collecting-data-for-ediscovery)。 如果即使一条消息与搜索查询匹配，搜索也会返回整个对话。
+还可以搜索 Teams 内容。 有关搜索详细信息，请参阅["在高级电子数据展示中收集案例的数据"。](https://docs.microsoft.com/microsoft-365/compliance/collecting-data-for-ediscovery) 即使一条消息与搜索查询匹配，搜索也将返回整个对话。
 
-创建搜索查询时，可以选择 "保管人"，以便搜索已选择的所有源。 您还可以搜索非 custodial 源，如未映射到用户的团队网站。 还可使用可选查询缩小团队内容中的搜索范围。
+创建搜索查询时，可以选择监管员，以便搜索已选择的所有源。 还可以搜索非监管源，例如未映射到用户的 Teams 网站。 还可使用可选查询缩小 Teams 内容中的搜索范围。
 
-创建搜索并选中它后，将显示一个窗口，其中包含可在所选搜索上执行的其他详细信息和操作。 如果单击 " **统计** " 按钮，则可以查看有关搜索的统计信息，包括根据位置类型、内容的原始源以及内容位于组邮箱、单个用户邮箱还是 SharePoint 网站中的细目。 因此，你可以查看搜索结果中对哪些源的影响。 还有可用的 " **查询** " 视图，以便你可以查看哪些单个关键字对你的结果有影响。
+创建并选中搜索后，会显示一个窗口，该窗口包含对所选搜索可以执行的其他详细信息和操作。 如果单击"统计信息"按钮，您可以查看有关搜索的统计信息，包括根据位置类型、内容的原始源以及内容位于组邮箱、单个用户邮箱还是 SharePoint 网站中的细分。 因此，可以看到哪些源对搜索结果有贡献。 还有一 **个"查询** "视图，可用于查看哪些单个关键字对结果有影响。
 
-完成搜索后，您可以单击 " **将结果添加到审阅集** " 按钮并将其添加到审阅集。 有关审阅集的详细信息，请参阅本文后面的[管理高级电子数据展示和审阅中的审阅集](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets)[工作流](#review-sets-workflow)。
+完成搜索后，可以单击"添加结果 **以审阅集** "按钮，并将其添加到审阅集。 有关评审集详细信息，请参阅本文稍后在 ["管理高级电子](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) 数据展示和 [审阅](#review-sets-workflow) 集"工作流中的审阅集。
 
-#### <a name="normal-review-sets-and-conversation-review-sets"></a>常规审阅集和对话审阅集
+#### <a name="normal-review-sets-and-conversation-review-sets"></a>普通审阅集和会话审阅集
 
-向审阅集添加搜索时，可以从 "常规" 审阅集或 "对话审阅" 集进行选择。
+将搜索添加到评论集时，可以从普通审阅集或对话评审集进行选择。
 
-常规审阅集类似于导出;它 `.msg` 为团队内容提供单个文件，并在基本视图中显示内容。 当你计划使用其他软件工具稍后重新处理文件时，通常会使用常规的审阅集。
+普通审阅集类似于导出;它提供 Teams `.msg` 内容的单个文件，并且以基本视图显示内容。 如果计划以后使用其他软件工具重新处理文件，通常使用普通审阅集。
 
-对话审核集提供了更直观的对话视图;它以正确的顺序显示相关邮件。
+对话审阅集提供更直观、更线程的对话视图;它以正确的顺序一起显示相关消息。
 
 > [!div class="mx-imgBorder"]
 > ![对话审阅集的屏幕截图](media/conversationOptions2.png)
 
-在两种类型的审阅集中都提供了密文之类的功能。 有关审阅集的详细信息，请参阅 [在高级电子数据展示中查看对话](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)。
+两种类型的评审集都提供修订等功能。 有关评审集详细信息，请参阅高级电子数据展示[中的"审阅对话"。](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
 
-#### <a name="collection-options"></a>收集选项
+#### <a name="collection-options"></a>集合选项
 
-添加到审阅集时，窗口的 " **集合选项** " 部分下有多个选项可用作复选框，包括 **对话检索选项** 和 **团队对话**。 如果你启用这些选项，则属于你的审阅集的任何单个团队邮件也将显示在其上下文中的其他消息周围。 例如，如果你的查询是特定的，并且只返回一条消息，则启用这些选项还将返回指向和关注与查询匹配的消息的多条消息。
+添加到评审集时，窗口的"集合选项"部分下有几个选项作为复选框提供 **，包括"** 对话检索选项"和 **"Teams 对话"。** 如果启用这些选项，则作为审阅集的一部分的任何单独的 Teams 消息也将随其周围的其他消息一起显示，以便进行上下文处理。 例如，如果查询是特定的，因此只返回一条消息，则启用这些选项还会返回多条消息，导致并遵循与查询匹配的消息。
 
-许多逻辑条件用于确定其他消息是否提供与查询匹配的消息的上下文。 例如，对于团队内容，启用这些选项将检索父消息和所有子消息，因为消息的串接方式。
+许多逻辑条件用于确定其他消息是否为匹配查询的消息提供上下文。 例如，对于 Teams 内容，启用这些选项将检索父消息以及所有子消息，因为消息的线程处理方式。
 
-还会检查消息时间戳。 如果某条消息与你的查询相匹配，则在4小时以内或在4小时范围内关注它的相邻消息将被视为对话的一部分，并且也包含在结果中。
+还会检查邮件时间戳。 如果消息与查询匹配，则 4 小时内位于其前的相邻消息或 4 小时内的相邻消息被视为聊天的一部分，并且也会包含在结果中。
 
-如果你必须确定将返回哪些上下文消息与搜索查询匹配项，则无需使用这些选项。 你可以收集所有内容，也可以放宽搜索的日期范围，以便更多邮件作为查询结果返回。
+如果必须确定将返回哪些上下文消息，但与搜索查询匹配，则不需要使用这些选项。 可以收集所有内容，也可以扩大搜索的日期范围，以便查询后返回更多消息。
 
 ### <a name="review-sets-workflow"></a>审阅集工作流
 
-通过单击 " **审阅集** " 选项卡，可以查看现有的审阅集或创建新的审阅集。有关审阅集的详细信息，请参阅 [在高级电子数据展示中管理审阅集](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets)。
+可以通过单击"审阅集"选项卡查看现有审阅集 **或创建新** 审阅集。有关评审集详细信息，请参阅"[管理高级电子数据展示中的审阅集"。](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets)
 
-除了文档之外，您还可以将电子邮件、团队邮件、Yammer 邮件和其他内容添加到你的审阅集。 在审阅集内，你也可以执行可以在其他上下文中执行的许多相同的操作，例如搜索内容和创建自定义查询。 这些操作仅适用于已添加到审阅集的项目。
+除了文档，您还可以向审阅集添加电子邮件、Teams 消息、Yammer 消息和其他内容。 在评审集内，还可以执行可在其他上下文中执行的许多相同操作，例如搜索内容和创建自定义查询。 这些操作仅适用于已添加到评审集的项。
 
-" **管理审阅集** " 按钮提供其他选项，例如 "分析"、"摘要报告"、已添加的加载集等。
+" **管理审阅集** "按钮提供了其他选项，例如分析、摘要报告、已添加的负载集数等。
 
-若要访问数据的可视化效果和图表， **请单击** \> 右上角的 " **搜索个人资料" 视图** 。 可以单击这些图表中的楔形，以交互方式选择要查询的内容类型。 例如，您可以选择仅查询团队内容。 您也可以像保存手动编写的查询一样保存这些查询。
+若要访问数据的可视化效果和图表，请单击右上角的"单个结果搜索 \> 配置文件"视图。 可以单击这些图表中的"拨片"以交互方式选择要查询的内容类型。 例如，可以选择仅查询 Teams 内容。 也可以保存这些查询，就像保存手动写入的查询一样。
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>摘要视图、文本视图和批注视图
 
-如果您单击 "审阅" 集中的团队对话，它将显示 " **摘要" 视图**，其中显示整个团队对话，作为可单独与之交互的消息列表。 单击消息右侧的向下箭头以显示上下文菜单，可在其中查看消息详细信息或下载单个 `.msg` 文件。 单击 "消息详细信息" 将显示元数据的摘要或消息的完整元数据。
+如果在评论集内单击 Teams 对话，它将显示"摘要"视图，该视图将整个 Teams 对话显示为可单独交互的消息列表。 单击邮件右侧向下箭头可显示一个上下文菜单，允许您查看消息详细信息或下载单个 `.msg` 文件。 单击消息详细信息会显示元数据摘要或消息的完整元数据。
 
-若要下载 PDF，请单击 "摘要" 视图右上角的 "下载" 按钮。
+若要下载 PDF，请单击摘要视图右上角的下载按钮。
 
-单击 " **文本视图** " 选项卡以显示 "团队对话" 的提取文本的纯文本视图。 此纯文本内容适用于导出，你可以使用其他软件工具轻松处理它。
+单击 **"文本视图** "选项卡可显示 Teams 对话提取文本的纯文本视图。 此纯文本内容适用于导出，可以使用其他软件工具轻松使用它。
 
-单击 " **批注视图** " 选项卡以访问 "批注" 功能。 此选项卡以类似团队对话的格式显示内容，但还有其他编辑选项。 有一个铅笔工具可用于在邮件上进行笔记、绘制邮件或进行细化的 scratching，以供密文使用。 还有一种 **区域密文** 工具，可用于绘制黑色缩小区域的矩形，并将其标记为 "Redacted"。
+单击" **批注视图"选项卡** 访问批注功能。 此选项卡以类似于 Teams 对话的格式显示内容，但还有其他编辑选项。 有一个铅笔工具可用于做笔记、在邮件上绘图或执行精细的划掉以用于修订。 还有 **一个"** 区域修订"工具，可用于绘制一个矩形，用于将该区域标记为"修订"。
 
-下面是一个 redacted 文件的示例，用于在用户之间进行线程对话。
+下面是用户之间线程聊天的修订文件示例。
 
 > [!div class="mx-imgBorder"]
-> ![Redacted 文件的屏幕截图](media/RedactedFileExample.png)
+> ![已修订文件的屏幕截图](media/RedactedFileExample.png)
 
-" **批注视图** " 选项卡底部是 " **标记文档** " 按钮，用于显示 "标记" 面板。 在此面板中，你可以将标记应用到团队对话中的所有邮件。 你可以将对话标记为 "响应" 或 "无响应"、"特权" 或 "无权限"，无论它是否包含 "感兴趣的项目"、是否应包括在导出中以及是否需要进一步查看。 您还可以管理和应用其他可自定义的标记。
+"批注视图"选项卡的底部是"**标记文档**"按钮，它显示标记面板。 在此面板中，可以将标记应用于 Teams 对话内的所有消息。 可以将会话标记为响应性或非响应性、特权或非特权，包括是否包含"有趣项"、是否应包含在导出中，以及是否需要进一步评审。 还可以管理和应用其他可自定义的标记。
 
 #### <a name="action-menu"></a>操作菜单
 
-在 "审阅集" 窗口中，可以通过单击 "**操作** 导出" 来导出内容 \> **Export**。 导出时有许多选项可供使用。
+在"审阅集"窗口中，可以通过单击"操作导出" **导出** \> **内容**。 导出时有许多选项可用。
 
-若要导出包含所有团队邮件的所有元数据的文件，请单击以选中 " **加载文件** " 复选框。 若要将已应用于内容的任何标记包含在您的文件中，请单击以选中 " **标记** " 复选框。
+若要导出包含所有 Teams 消息的所有元数据的文件，请单击以选中"加载 **文件"** 复选框。 若要在文件中包括已应用到内容的任何标记，请单击以选中"标记 **"** 复选框。
 
-使用 " **本机文件** " 选项以其本机格式导出文件。 你可以选择将对话作为一个文件或所有单独的聊天消息导出到各自的单独文件中。
+使用 **"本机文件"** 选项以本机格式导出文件。 您可以选择将对话导出为一个文件，或者将单个聊天消息导出到它们自己的单独文件中。
 
-" **文本文件** " 选项允许保存纯文本版本的内容。 有关如何在审阅集中获取团队对话的纯文本视图的详细信息，请参阅上面的 " [摘要视图"、"文本视图" 和 "批注" 视图](#summary-view-text-view-and-annotate-view) 。
+" **文本文件"** 选项允许您保存纯文本版本的内容。 若要详细了解如何在评论集内获取 Teams 对话的纯文本视图，请参阅上面的摘要视图、文本视图和 [批注](#summary-view-text-view-and-annotate-view) 视图。
 
-如果在上面的 " [摘要视图"、"文本视图" 和 "批注视图](#summary-view-text-view-and-annotate-view) " 部分中所述对内容应用了任何密文，则可以选择 "将 **redacted natives 替换为转换的 pdf** " 选项，以将本机文件替换为 PDF 中的已转换副本。
+如果按照上述"摘要视图、文本视图"和"批注视图[](#summary-view-text-view-and-annotate-view)"部分中所述对内容应用了任何修订，可以选择"将修订的本机文件替换为转换后的 PDF"选项，以 PDF 格式将本机文件替换为转换后的副本。
 
-你可以选择导出到 Microsoft 提供的 Azure blob 存储容器，或者你可以提供你自己的 Azure Blob 存储容器。
+可以选择导出到 Microsoft 提供的 Azure Blob 存储容器，也可以提供自己的 Azure Blob 存储容器。
 
-准备好开始导出过程时，请单击 " **导出** " 按钮。 有关如何在导出完成后访问 Azure blob 存储容器和下载导出的内容的详细信息，请参阅 [下载导出作业](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) 。
+准备好开始导出过程时，请单击"导出 **"** 按钮。 请参阅 ["下载导出](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) 作业"，详细了解如何在导出完成后访问 Azure Blob 存储容器并下载导出的内容。
 
 > [!NOTE]
-> 导出可能会延长一段时间。 若要跟踪导出过程的状态，请退出 " **审阅集** " 选项卡，然后单击 " **导出** " 选项卡。
+> 导出可能需要很长时间。 若要跟踪导出过程的状态，请退出"审阅集 **"选项卡，** 然后单击"导出 **"** 选项卡。
 
 ## <a name="related-topics"></a>相关主题
 

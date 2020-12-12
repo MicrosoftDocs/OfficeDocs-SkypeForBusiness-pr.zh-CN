@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队中的来宾体验
+title: Microsoft Teams 中的来宾体验
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,33 +18,33 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: 本文介绍了适用于来宾用户的 Microsoft 团队功能。
-ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: 本文介绍来宾可用的 Microsoft Teams 功能。
+ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030288"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661887"
 ---
-# <a name="guest-experience-in-teams"></a>团队中的来宾体验
+# <a name="guest-experience-in-teams"></a>Teams 中的来宾体验
 
-当来宾被邀请加入团队时，他们将收到欢迎电子邮件。 此消息包括有关团队的一些信息，以及现在所期望的成员。 来宾必须先通过在电子邮件中选择 " **打开 Microsoft 团队** " 来接受邀请，然后才能访问团队及其频道。
+当邀请来宾加入团队时，他们将收到欢迎电子邮件。 此消息包含有关团队的一些信息，以及现在他们成为成员后预期的结果。 来宾必须接受邀请，在电子邮件中选择"打开 **Microsoft Teams"，** 然后他们才能访问团队及其频道。
     
 ![显示欢迎电子邮件示例的屏幕截图](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标签表示团队的来宾数，以及每个来宾的名称旁边显示 **(来宾)** 标签。
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记表示团队中的来宾数，每个来宾的姓名旁边会显示 (来宾) 标签。 
 
-![显示指示团队中的来宾数的标记的屏幕截图](media/guest-experience-image2.png)
+![显示标记的屏幕截图，指示团队中的来宾数](media/guest-experience-image2.png)
 
-查看有关团队中的来宾体验的这些视频：
+观看以下有关 Teams 中的来宾体验的视频：
 - [作为来宾加入团队](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [加入与来宾的团队会议](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+- [与来宾一起加入 Teams 会议](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
-## <a name="comparison-of-team-member-and-guest-capabilities"></a>工作组成员和来宾功能的比较
+## <a name="comparison-of-team-member-and-guest-capabilities"></a>团队成员和来宾功能的比较
 
-下表比较了适用于组织的团队成员及其来宾的团队功能。 团队管理员控制来宾可使用的功能。
+下表比较了可供组织的团队成员及其来宾使用的团队功能。 Teams 管理员控制来宾可用的功能。
 
-|**Teams 中的功能**|**组织中的 Teams 用户**|**来宾用户**|
+| Teams 中的功能 | 组织中的 Teams 用户 | 来宾 |
 |:-----|:-----|:-----|
 |创建通道  <br/>  *团队所有者控制此设置。*  <br/> |&#x2713;|&#x2713;|
 |参与私人聊天  <br/> |&#x2713;|&#x2713;|
@@ -52,7 +52,7 @@ ms.locfileid: "49030288"
 |发布、删除和编辑消息  <br/> |&#x2713;|&#x2713;|
 |共享频道文件  <br/> |&#x2713;|&#x2713;|
 |访问 SharePoint 文件<br/> |&#x2713;|&#x2713;|
-|附加文件<br/> |&#x2713;|&#x2713;|
+|附加文件<br/> |&#x2713;|仅团队聊天|
 |下载私人聊天文件<br/> |&#x2713;|&#x2713;|
 |在文件中搜索<br/> |&#x2713;||
 |共享聊天文件  <br/> |&#x2713;||
@@ -64,12 +64,12 @@ ms.locfileid: "49030288"
 |创建团队  <br/> |&#x2713;||
 |发现和加入公用团队  <br/> |&#x2713;||
 |查看组织结构图  <br/> |&#x2713;||
-|使用内联转换  <br/> |&#x2713;||
+|使用内联翻译  <br/> |&#x2713;||
 |成为团队所有者  <br/> |&#x2713;||
 
-下表显示了与其他类型的用户相比，来宾可使用的呼叫和会议功能。
+下表显示了与其他类型的用户相比，来宾可用的呼叫和会议功能。
 
-| 呼叫功能 | 来宾 | E1 和 E3 用户 | E5 和企业语音用户 |
+| 呼叫功能 | 来宾 | E1 和 E3 用户 | E5 和 企业语音 用户 |
 | --------------- | ----- | -------------- | -------------- |
 | VOIP 呼叫 | 是 | 是 | 是 |
 | 群组通话 | 是 | 是 | 是 |
@@ -100,13 +100,13 @@ ms.locfileid: "49030288"
 <sup>1</sup>即将推出此功能。
 
 > [!NOTE]
-> Azure Active Directory 中的 **来宾用户访问限制** 策略 (azure AD) 确定你的目录中的来宾的权限。 有三种政策选择。
->  - " **来宾用户拥有与成员（最包容）相同的访问权限** "设置表示来宾与目录中的普通用户一样具有相同的目录数据访问权限。
->  - " **来宾用户对目录对象的属性和成员身份拥有有限的访问权限** "设置表示来宾对某些目录任务没有权限，如枚举用户、组或其他使用 Microsoft Graph的目录资源。
->  - " **来宾用户访问权限仅限于其自己的目录对象属性和成员身份（最严格）** "设置表示来宾仅可访问自己的目录对象。
+> Azure AD **门户** 中的 Azure Active Directory (访问) 策略确定目录中来宾的权限。 有三种政策选择。
+>  - "**来宾用户拥有与成员（最包容）相同的访问权限**"设置表示来宾与目录中的普通用户一样具有相同的目录数据访问权限。
+>  - "**来宾用户对目录对象的属性和成员身份拥有有限的访问权限** "设置表示来宾对某些目录任务没有权限，如枚举用户、组或其他使用 Microsoft Graph的目录资源。
+>  - "**来宾用户访问权限仅限于其自己的目录对象属性和成员身份（最严格）**"设置表示来宾仅可访问自己的目录对象。
 >
 >要了解详细信息，请参阅[Azure Active Directory 中的默认用户权限是什么？?](https://go.microsoft.com/fwlink/?linkid=2135493)
 
 ## <a name="related-topics"></a>相关主题
 
-[将组织保留为来宾用户](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[将组织保留为来宾](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

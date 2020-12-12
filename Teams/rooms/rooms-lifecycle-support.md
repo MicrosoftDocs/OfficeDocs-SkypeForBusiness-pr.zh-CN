@@ -1,7 +1,7 @@
 ---
 title: 版本支持
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,66 +12,66 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 了解 Microsoft 团队聊天室的生命周期支持，包括动态支持结构及其阶段。
+description: 了解 Microsoft Teams 会议室的生命周期支持，包括动态支持结构及其阶段。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17e1dcd3c473b31754ac29d98db04747798d581f
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 584f4661a39d21f916b2097c242f71b996c568e6
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650915"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662447"
 ---
-# <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 团队聊天室应用版本支持
+# <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 会议室应用版本支持
  
-Microsoft 团队聊天室应用每年更新几次。 每个更新均支持 12 (12) 个月，其常规可用性 (GA) 发布日期。 为整个 12 (12) 个月提供技术支持。 但是，支持结构是动态的，具有两个不同的阶段，它们依赖于最新版本的可用性：
+Microsoft Teams 会议室应用每年获取几次更新。 自 GA 发行日期起 (12) ，支持每个更新 (12) 更新。 为 12 个月或 12 个月 (12 个) 技术支持。 但是，支持结构是动态的，有两个不同的阶段依赖于最新版本的可用性：
 
-- **服务和关键更新阶段** \- 当你运行最新版本的 Microsoft 团队聊天室应用时，你将收到包含 *安全和服务* 更新的定期更新。
+- **"服务"和"关键更新"阶段** \- 运行最新版本的 Microsoft Teams 会议室应用时，会收到包含安全和服务更新 *的定期更新* 。
 
-- **仅安全更新阶段** \- 当新版本的 Microsoft 团队聊天室应用发布时，较早版本的应用的支持级别将仅适用于 12 (12) 月生命周期的其余部分的 *安全更新* 。
+- **"仅安全更新"阶段** \-当新版本的 Microsoft Teams 会议室应用发布时，较旧版本的应用的支持级别会减少，仅支持 12 个月或 12 个月 (剩余的) 安全更新。 
 
 > [!NOTE]
-> 最新版本始终位于 "服务" 和 "关键更新" 阶段。 如果遇到可保证关键更新的代码缺陷，还必须安装最新版本才能接收修补程序。 所有其他支持的版本仅有资格接收安全更新。
+> 最新版本始终在"服务"和"关键更新"阶段。 遇到需要关键更新的代码缺陷时，还必须安装最新版本，以接收修补程序。 所有其他支持的版本将仅有资格接收安全更新。
 
-所有支持将在某版本的 12 (12) 个月生命周期后终止，或者自那时起发布了两个以上的更新。 然后，客户必须更新到受支持的版本。
+版本生命周期 (12) 或此后发布的更新超过 12 个后，所有支持将结束。 然后，客户必须更新到支持的版本。
 
-所有版本均在 [Microsoft 团队聊天室发行说明](rooms-release-note.md)中列出。
+Microsoft Teams 会议室发行说明 [中列出了所有版本](rooms-release-note.md)。
 
 ## <a name="windows-10-release-support"></a>Windows 10 版本支持
 
-Microsoft 团队聊天室需要 Windows 10 IoT Enterprise 或 Windows 10 企业版 Sku Semi-Annual 通道服务选项 "。 不支持以下其他 Windows 10 版本：
+Microsoft Teams 会议室需要 Windows 10 IoT 企业版或 Windows 10 企业版 SKUS Semi-Annual频道服务选项下。 不支持以下其他 Windows 10 版本：
 
-- Windows 10 企业长期服务分支 (LTSB) /长期服务通道 (LTSC) 版本
-- Windows 10 Internet (IoT) Enterprise LTSB/LTSC 版本
-- 任何其他 Windows 版本（如 Windows 10 专业版或家庭版）
+- Windows 10 企业长期服务分支 (LTSB) /长期服务渠道 (LTSC) 版本
+- Windows 10 物联网 (IoT) Enterprise LTSB/LTSC 版本
+- 任何其他版本的 Windows，例如 Windows 10 专业版或家庭版
 
-Microsoft 团队聊天室设备上不会立即提供或更新 Windows 10 功能更新。 在 [Windows 10 发布信息](https://docs.microsoft.com/windows/release-information/) 页面上发布的常规可用日期后的六个月内的有意延迟。 延迟时间用于验证 Microsoft 团队聊天室应用程序、设备硬件和经过认证的音频视频外设的 Windows 10 发布兼容性。 在 Windows 10 的每个主要版本的活动开发期间，验证开始和继续。 需要额外的时间来验证所有设备制造商是否已为其设备生成了更新的图像，以及 Microsoft 团队验证并测试这些图像。 在验证周期内，Microsoft 团队聊天室应用使用  [Windows 更新 For Business 组策略](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) 延迟 windows 10 功能更新。 找到并解决任何兼容性问题后，将通过 Windows 应用商店中的新应用版本更新组策略来提升该块。 运行 Microsoft 团队聊天室应用的设备会在夜间维护重启期间自动更新到相应的 Windows 10 版本。 MSI 版本可供希望手动管理更新的客户使用。  
+Microsoft Teams 会议室设备不会立即提供或更新 Windows 10 功能更新。 在 [Windows 10](https://docs.microsoft.com/windows/release-information/) 发布信息页上发布的公开发布日期之后，有意延迟最多六个月。 延迟时间用于验证 Microsoft Teams 会议室应用程序、设备硬件和经过认证的音频视频外围设备的 Windows 10 版本兼容性。 验证在每个 Windows 10 主要版本的活动开发期间开始并继续。 需要额外时间验证所有设备制造商是否都为设备生成了更新的图像，以及 Microsoft Teams 验证和测试这些图像。 在验证期间，Microsoft Teams Room 应用使用  [Windows 更新 for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) 组策略来延迟 Windows 10 功能更新。 找到并解决任何兼容性问题后，会通过 Windows 应用商店中的新应用版本更新组策略来解除阻止。 在夜间维护重新启动期间，运行 Microsoft Teams 会议室应用的设备会自动更新到相应的 Windows 10 版本。 MSI 版本适用于想要手动管理更新的客户。  
 
 > [!IMPORTANT]
-> 在验证周期内，Microsoft 团队会议室设备 **不** 应通过任何方式更新到下一版本的 Windows 10。 这包括替代组策略，或使用 System Center 或其他第三方设备管理服务。 任何这些都可能导致 Microsoft 团队聊天室应用程序出现问题，或者可能导致设备无法使用。  
+> 在验证期间，Microsoft Teams 会议室 **设备不应通过** 任何方式更新到下一个 Windows 10 版本。 这包括就地重写组策略，或者使用 System Center 或其他第三方设备管理服务。 其中任何一种都可能会导致 Microsoft Teams Room 应用程序问题，或使设备不可用。  
 
-下表显示了受支持的 Windows 10 版本和支持的 Windows 10 版本，这些版本经过验证以支持 Microsoft 团队聊天室。 所有日期均以 ISO 8601 格式列出： YYYY MM。
+下表显示了经验证支持 Microsoft Teams 会议室的建议和受支持的 Windows 10 版本。 所有日期都按 ISO 8601 格式列出：YYYY-MM-DD。
 
-|版本  |可用性日期   |Microsoft 团队会议室支持状态   |Microsoft 团队会议室最小应用程序版本 | 推荐的操作系统内部版本  |
+|版本  |可用性日期   |Microsoft Teams 会议室支持状态   |Microsoft Teams 会议室最低应用程序版本 | 建议的 OS 版本  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 20H2 |2020-10-20 |在 "验证" 下， <br/>尚不支持|&#x2014; |19042.572 |
-| 2004 |2020-05-27 |路经 <br/> 不推荐|&#x2014; |19041.264 |
-| 1909 |2019-11-12 |能 <br/>推荐 |4.5.33.0 |18363.418  |
+| 20H2 |2020-10-20 |在验证下， <br/>尚不支持|&#x2014; |19042.572 |
+| 2004 |2020-05-27 |已跳过， <br/> 不建议|&#x2014; |19041.264 |
+| 1909 |2019-11-12 |支持， <br/>推荐 |4.5.33.0 |18363.418  |
 | 1903 |2019-05-21 |支持  |4.2.4.0 |18362.356 |
-| 1809 |2019-03-28 |不支持， <br/>已知兼容性问题 &#x2780;|&#x2014; |&#x2014; |
+| 1809 |2019-03-28 |不支持， <br/>已知兼容性问题&#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |否                             |&#x2014;  |&#x2014; |
 | 1709 |2018-01-18 |不支持                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |否                         |&#x2014; |&#x2014; |
 
-由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，因此建议不要 &#x2780; Windows 10 版本1809。 此特定问题导致在夜间重启后 Microsoft 团队聊天室应用程序无法启动。 此问题已在 Windows 10 版本1903中解决。  
+&#x2780; Microsoft Teams 会议室应用程序中的兼容性问题，不建议使用 Windows 10 版本 1809。 此特定问题会导致 Microsoft Teams 会议室应用程序在夜间重新启动后无法启动。 此问题在 Windows 10 版本 1903 中已解决。  
 
-由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，因此建议不要 &#x2781; Windows 10 版本2004。 此特定问题导致在夜间重启后 Microsoft 团队聊天室应用程序无法启动。 
+&#x2781; Microsoft Teams 会议室应用程序中的兼容性问题，不建议使用 Windows 10 版本 2004。 此特定问题会导致 Microsoft Teams 会议室应用程序在夜间重新启动后无法启动。 
 
-使用受支持的 Windows 10 版本时，你将始终获取适用于 Microsoft 团队聊天室应用的最新应用程序更新。  
+使用受支持的 Windows 10 版本时，始终会获得 Microsoft Teams 会议室应用的最新应用程序更新。  
 
 ## <a name="related-topics"></a>相关主题
 
 [Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Microsoft 团队聊天室发行说明](rooms-release-note.md)
+[Microsoft Teams 会议室发行说明](rooms-release-note.md)
 
 [Microsoft Teams 会议室规划](rooms-plan.md)
