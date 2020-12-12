@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420922"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611466"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -45,6 +45,7 @@ ms.locfileid: "49420922"
 |每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
 |各团队专用频道数    |30| （包括已删除的频道）&sup3;
 |专用频道中的成员数    |250|
+|可导入到团队中的通讯组列表、安全组或 Office 365 组的最大大小    |3,500|
 |Office 365 组中最多可以有多少名成员以转换为团队    |10,000<sup>5</sup>     |
 |频道对话文章大小 | 每篇文章约 28 KB<sup>4</sup> |
 
@@ -127,7 +128,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |功能     | 最大限制 |
 |------------|---------------|
 |会议中的人数（可聊天和通话）  | 350 |
-|通过视频或音频通话聊天的人员数 | 20 |
+|从聊天选项卡启动的视频或音频呼叫中的人员数 | 20 |
 |PowerPoint 文件的最大大小 | 2 GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
 
@@ -179,7 +180,7 @@ Outlook 2013 桌面应用及更高版本支持 Outlook 中的 Teams 状态。若
 Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个频道在默认团队网站文档库中都有一个文件夹。对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。
 
 > [!NOTE]
-> 每个[私人频道](https://docs.microsoft.com/microsoftteams/private-channels)都拥有自己的 SharePoint 网站集。
+> 每个[专用频道](https://docs.microsoft.com/microsoftteams/private-channels)都拥有自己的 SharePoint 网站（以前称为“网站集”）。
 
 如果你的租户中未启用 SharePoint Online，则 Microsoft Teams 用户有时无法在团队中共享文件。此外，由于该功能需要 OneDrive for Business（它与 SharePoint 许可证关联），因此私人聊天中的用户无法共享文件。
 
@@ -190,10 +191,10 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 |功能                 |Microsoft 365 商业基础版  |Microsoft 365 商业标准版   |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |存储空间                 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。   |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 空间           |
-|Teams 文件存储空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |
+|Teams 文件存储空间 |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |
 |文件上传限制（每个文件）    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
-频道由 SharePoint Online 网站集中专为团队创建的文件夹提供支持，因此频道中的文件选项卡共同享有其所属的团队的存储空间限额。
+频道由 SharePoint Online 网站（以前称为“网站集”）中专为团队创建的文件夹提供支持，因此频道中的文件选项卡共同享有其所属的团队的存储空间限额。
 
 有关详细信息，请参阅 [SharePoint Online 限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
 
