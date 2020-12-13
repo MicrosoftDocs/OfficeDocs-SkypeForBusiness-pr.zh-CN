@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a79e123ca25715fdc33456fa5d566f5a3e8c3e99
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 391f93ba69cb10cb892b398d213a5ba04e692b32
+ms.sourcegitcommit: 481d18b76304adfa340b5f1b2f1b7965e9ff4993
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800615"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586600"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -65,7 +65,7 @@ Teams 拥有台式机（Windows、Mac 和 Linux）、网络和移动（Android �
 
 Teams 利用 Microsoft 365 功能对用户进行身份验证并提供服务。 行政人员、讲师和学生应建立身份标识，以便进行协作。 如果标识尚不存在，请按照以下过程建立。
 
-[需要为用户启用团队许可证](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)，然后[需要向用户分配许可证](teams-edu-licensing.md)，然后他们才能使用 Teams 功能。 Teams 依赖于其他 Microsoft 365 功能（如 [Microsoft 365 组](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md)）来实现协作。 如果同时启用了所有这些服务，用户将可获得最佳 Teams 体验。 [由 Google 托管电子邮件服务的用户可以使用 Teams](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
+[需要向用户分配许可证](teams-edu-licensing.md)，然后他们才能使用 Teams 功能。 Teams 依赖于其他 Microsoft 365 功能（如 [Microsoft 365 组](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md)）来实现协作。 如果同时启用了所有这些服务，用户将可获得最佳 Teams 体验。 [由 Google 托管电子邮件服务的用户可以使用 Teams](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
 Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费的。 有关如何部署 Office 365 并让整个教育机构开始在 Teams 上使用的 IT 指南，请参阅[此页面](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 要获得支持，你可以在[此处](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提交票证，如需获取有关 Teams 的培训，请访问当地的 Microsoft Store 以与专家交谈。
 
@@ -78,7 +78,7 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 允许用户创建团队
 
-当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 **默认情况下，每个人都可创建 Microsoft 365 组和团队** 。 有时，此功能可能并不适用。例如，一些客户可能想限制中小学生创建团队。 如果需要，可在你的环境中将 Microsoft 365 组和团队的创建范围[限制在某些安全组内](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
+当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 **默认情况下，每个人都可创建 Microsoft 365 组和团队**。 有时，此功能可能并不适用。例如，一些客户可能想限制中小学生创建团队。 如果需要，可在你的环境中将 Microsoft 365 组和团队的创建范围[限制在某些安全组内](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
 当你允许每个人（包括学生）为班级、研究、小组项目和学习小组创建团队时，高等教育机构将会受益。 中小学学校则可能希望限制学生创建团队，确保所有学生与学生之间的交流都在包含成人的论坛内进行。 在这种情况下，可将 Microsoft 365 组和团队的创建人员限制为所有教师和行政人员。
 
@@ -86,13 +86,12 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 ### <a name="2-configure-user-experiences-using-policies"></a>2. 使用策略配置用户体验
 
-> [!IMPORTANT]
-> 要深入了解需要采取哪些行动来保护学生，请参阅[Teams 远程学习时保证学生安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。 若要深入了解我们的管理员 EDU 策略建议，请转到 [Teams 教育专用策略和策略包](policy-packages-edu.md)。
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
-[Teams 策略](teams-policies.md)可用于控制可向特定用户或用户组提供的选项。 通过应用策略，可以定义允许哪些用户使用私人聊天、私人呼叫、会议安排以及可共享的内容类型等。
+> [!NOTE]
+> 要深入了解必须采取哪些行动来保护学生，请参阅[使用 Teams 进行远程学习时保证学生安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。 若要深入了解我们的管理员 EDU 策略建议，请转到 [面向教育的 Teams 策略和策略包](policy-packages-edu.md)。
 
-> [!IMPORTANT]
-> 可在[教育的团队策略和策略包](policy-packages-edu.md)中找到我们针对学生和教师相关策略的最新指南。
+Teams 策略可用于控制可向特定用户或用户组提供的选项。 通过应用策略，可以定义允许哪些用户使用私人聊天、私人呼叫、会议安排以及可共享的内容类型等。
 
 **高等教育行政人员、教师和学生** 可通过默认（全局）策略所含的功能受益。 你可以启用某些附加策略设置来向 Teams 添加更多功能，包括[在消息传递策略中启用翻译功能](messaging-policies-in-teams.md#messaging-policy-settings)以及在会议策略中[允许自动进行会议转录](meeting-policies-in-teams.md#allow-transcription)。
 
@@ -277,7 +276,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>禁止用户更改个人资料照片
 
-Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果已关闭“-SetPhotoEnabled”  设置，则用户不能添加、更改或删除个人资料图片。 若要防止学生或员工更改或删除个人资料图片，请在分配给他们的 Outlook 网页版邮箱策略中关闭此设置。
+Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果已关闭“-SetPhotoEnabled”设置，则用户不能添加、更改或删除个人资料图片。 若要防止学生或员工更改或删除个人资料图片，请在分配给他们的 Outlook 网页版邮箱策略中关闭此设置。
 
 例如，如果某位学生上传了由教育机构 IT 或 HR 部门批准的个人资料图片，则无需执行任何操作。 但是，如果某位学生上传了不当的图片，请根据教育机构的内部策略更改图片。
 
