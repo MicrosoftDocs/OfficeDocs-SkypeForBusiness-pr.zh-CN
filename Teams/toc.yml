@@ -1,6 +1,6 @@
 - name: 欢迎使用 Teams
   href: teams-overview.md
-- name: 体系结构 & 电话解决方案海报
+- name: 体系结构&电话解决方案海报
   href: teams-architecture-solutions-posters.md
 - name: 支持远程工作人员 (WFH)
   href: support-remote-work-with-teams.md
@@ -80,7 +80,7 @@
       href: migrate-slack-to-teams.md
     - name: 使用 Teams 模板
       items:
-        - name: 使用管理中心中的团队模板
+        - name: 使用管理中心中的 Teams 模板
           href: get-started-with-teams-templates-in-the-admin-console.md
         - name: 适用于中小型企业的 Graph 内置 Teams 模板
           href: smb-templates.md
@@ -108,7 +108,7 @@
               href: native-chat-for-external-users.md
             - name: Teams 和 Skype 的互操作性
               href: teams-skype-interop.md
-        - name: 来宾访问权限
+        - name: 来宾访问
           items:
             - name: 关于来宾访问权限
               href: guest-access.md
@@ -210,7 +210,7 @@
           href: manage-power-platform-apps.md
         - name: 通过上载应用包来发布自定义应用
           href: upload-custom-apps.md
-        - name: 自定义应用商店
+        - name: 自定义应用存储
           href: customize-your-app-store.md
     - name: 应用认证
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
@@ -232,6 +232,8 @@
       href: manage-praise-app.md
     - name: 将 Skype 会议应用配置为与 Teams 配合使用
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: Teams 审批应用可用性
+      href: approval-admin.md
 - name: 会话和电话会议
   items:
     - name: 快速入门 - 会议和实时事件
@@ -242,7 +244,7 @@
       items:
         - name: 概述
           href: rooms/index.md
-        - name: 计划
+        - name: 规划
           items:
             - name: Microsoft Teams 会议室规划概述
               href: rooms/rooms-plan.md
@@ -604,7 +606,7 @@
                   href: direct-routing-protocols-media.md
             - name: 管理语音路由策略
               href: manage-voice-routing-policies.md
-            - name: 直接路由 Survivable 分支设备
+            - name: 直接路由 Survivable Branch Appliance
               href: direct-routing-survivable-branch-appliance.md
     - name: 电话号码
       items:
@@ -740,7 +742,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
             - name: 伯利兹
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: 波斯尼亚 & 黑塞哥维那
+            - name: 波斯尼亚和黑塞哥维那&
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
             - name: 巴西
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
@@ -917,7 +919,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: 升级到 Teams
   items:
-    - name: 开始行动
+    - name: 入门
       href: upgrade-start-here.md
     - name: 关于升级框架
       href: upgrade-framework.md
@@ -1055,7 +1057,7 @@
           href: business-voice/prepare-users.md
     - name: 运行“入门”向导
       href: business-voice/use-getting-started-wizard.md
-    - name: 要尝试的操作
+    - name: 要尝试的方面
       href: business-voice/things-to-try.md
     - name: 自定义设置
       items:
@@ -1069,11 +1071,11 @@
           href: business-voice/policy-packages.md
         - name: 创建其他用户
           href: business-voice/create-users.md
-        - name: 示例-设置呼叫队列
+        - name: 示例 - 设置呼叫队列
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 设置呼叫队列
           href: business-voice/set-up-call-queues.md
-        - name: 示例-设置自动助理
+        - name: 示例 - 设置自动助理
           href: tutorial-org-aa.yml
         - name: 设置自动助理
           href: business-voice/set-up-auto-attendants.md
@@ -1104,37 +1106,37 @@
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 适用于医疗保健业的 Teams
       items:
-        - name: 开始为医疗保健组织准备团队
+        - name: 针对医疗保健组织的 Teams 入门
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: 虚拟访问
           items:
-            - name: 与团队的虚拟访问-集成到 EHR
+            - name: 使用 Teams 进行虚拟访问 - 集成到 EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: 与预订和团队的虚拟访问
+            - name: 使用 Bookings 和 Teams 进行虚拟访问
               href: bookings-app-admin.md
         - name: 查看和分配策略包
           href: policy-packages-healthcare.md
         - name: 安全邮件
           items:
-            - name: 安全邮件
+            - name: 安全消息
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: 消息委派
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: 团队模板
+        - name: Teams 模板
           items:
-            - name: 使用团队医疗保健模板
+            - name: 使用 Teams 医疗保健模板
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 适用于医疗保健的团队模板
+            - name: 用于医疗保健的 Teams 模板
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
         - name: 管理列表应用程序
           href: manage-lists-app.md
-        - name: 管理任务应用程序
+        - name: 管理"任务"应用
           href: manage-tasks-app.md
         - name: Teams 中的排班
           items:
             - name: Teams 中的排班
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: 管理倒班应用程序
+            - name: 管理 Shifts 应用
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: Teams 教育版
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1171,7 +1173,7 @@
           href: firstline-workers-quickstart.yml
         - name: 一线员工脚本化部署
           href: flw-scripted-deployment.md
-        - name: 管理 FirstLine 工作人员的基于班次的访问
+        - name: 管理一线工作人员基于班次的访问
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear for Microsoft Teams
           href: flw-realwear.md
@@ -1182,7 +1184,7 @@
     - name: 适用于零售业的 Teams
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: 在管理中心中开始使用零售团队模板
+        - name: 在管理中心开始使用零售 Teams 模板
           href: retail-teams-templates-in-the-admin-console.md
         - name: Teams 零售模板入门
           href: get-started-with-retail-teams-templates.md
@@ -1217,7 +1219,7 @@
           href: teams-sentinel-guide.md
         - name: 标识模式和身份验证
           href: identify-models-authentication.md
-        - name: 登录 Microsoft 团队
+        - name: 登录到 Microsoft Teams
           href: sign-in-teams.md
         - name: Teams 中安全链接
           href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
@@ -1233,7 +1235,7 @@
           href: retention-policies.md
         - name: 通信合规性
           href: communication-compliance.md
-        - name: Callings & 会议的基于策略的录制
+        - name: 基于策略的通话记录&会议
           href: teams-recording-policy.md
         - name: 数据丢失防护
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
@@ -1285,7 +1287,7 @@
               href: CQD-data-and-reports.md
             - name: 使用 CQD 管理通话和会议质量
               href: quality-of-experience-review-guide.md
-            - name: 常见问题
+            - name: 常见问题解答
               href: CQD-frequently-asked-questions.md
             - name: CQD 中可用的维度和衡量指标
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
@@ -1416,7 +1418,7 @@
           items:
             - name: 配置 Exchange 混合组织以配合使用 Teams
               href: exchange-hybrid-organization.md
-            - name: 将邮件流规则与 Exchange 结合使用
+            - name: 将邮件流规则与 Exchange 一同使用
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
         - name: SharePoint Online 和 OneDrive for Business 与 Teams 如何交互
           href: sharepoint-onedrive-interact.md
@@ -1432,11 +1434,11 @@
           href: devices/manage-device-tags.md
         - name: Teams 电话
           href: devices/phones-for-teams.md
-        - name: 团队显示
+        - name: Teams 显示
           href: devices/teams-displays.md
-        - name: 将团队中的电话升级到团队显示
+        - name: 将 Teams 电话升级到 Teams 显示器
           href: devices/upgrade-phones-to-displays.md
-        - name: 部署团队使用 Intune 显示电话和团队
+        - name: 使用 Intune 部署 Teams 手机和 Teams 显示器
           href: devices/phones-displays-deploy.md
         - name: USB 音频和视频设备
           href: devices/usb-devices.md
@@ -1458,7 +1460,7 @@
           href: teams-powershell-managing-teams.md
         - name: Teams PowerShell 发行说明
           href: teams-powershell-release-notes.md
-        - name: 从 Skype for Business Online 连接器移动到团队 PowerShell 模块
+        - name: 从 Skype for Business Online 连接器移动到 Teams PowerShell 模块
           href: teams-powershell-move-from-sfbo.md
         - name: Teams 的 Cmdlet 参考
           href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
@@ -1504,7 +1506,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
         - name: 百慕大
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: 波斯尼亚 & 黑塞哥维那
+        - name: 波斯尼亚和黑塞哥维那&
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
         - name: 巴西
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
@@ -1676,7 +1678,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
         - name: 泰国
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: '& 多巴哥的特立尼达'
+        - name: 特立尼达和多巴哥&特立尼达和多巴哥
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
         - name: 突尼斯
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
@@ -1718,5 +1720,5 @@
       href: export-teams-content.md
     - name: Teams 管理员功能的发行说明
       href: release-notes/release-notes.md
-    - name: Microsoft 团队中的公共预览版
+    - name: Microsoft Teams 中的公共预览版
       href: public-preview-doc-updates.md
