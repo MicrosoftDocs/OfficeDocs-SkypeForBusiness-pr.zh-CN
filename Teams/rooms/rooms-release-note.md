@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft Teams 会议室的发行说明，其中列出了 Microsoft Teams 会议室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1f64bc6ddb34f2dc8b926e51db6b417fd2547df
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: c8efc437b36748768807a11d392bddcd41b0eb12
+ms.sourcegitcommit: 413aa915f74b997358b54f39842b60fe757094f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662397"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49670746"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -75,12 +75,16 @@ ms.locfileid: "49662397"
 在此更新中引入：
 
 - 在 Teams 会议中将 HDMI 音频共享给会议参与者
-- 当 Teams 会议室作为与会者加入时，防止基于音频权限取消静音。 有关详细信息，请参阅["管理 Teams 会议中与会者的音频权限"。](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
+- Cortana 语音技能 (预览版) 
+- 当 Teams 会议室作为与会者加入时，防止基于音频权限取消静音。 有关详细信息，请参阅["在 Teams 会议中管理与会者音频权限"。](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
 - 从 Teams 会议室控制台聚焦某人的视频，在会议室显示器上使用聚焦视频
+
+> [!NOTE]
+> Cortana 语音技能适用于位于美国的租户的精选音频外围设备。 将来会添加其他国家和地区。 有关详细信息，请参阅 [Teams 中的 Cortana 语音协助](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
 
 ### <a name="46230-10192020"></a>2020/10/19 (4.6.23.0) 
 
-此更新中引入：
+在此更新中引入：
 
 - 修复了在 Teams 会议中调用屏幕键盘时白半屏幕的问题
 
@@ -89,7 +93,7 @@ ms.locfileid: "49662397"
 在此更新中引入：
 
 - 在会议室显示前查看更多带 3x3 视频库的视频  
-- 从一家企业启动本地实时隐藏式字幕
+- 从一个本地实时隐藏式字幕启动来自一个功能区
 - 使用直接来宾加入功能从 Teams 会议室加入缩放会议 (预览版) 
 
 > [!NOTE]
@@ -219,7 +223,7 @@ ms.locfileid: "49662397"
 在此更新中引入：
 
 - 用于 Microsoft Teams P2P 会议和 PSTN 呼叫的 DTMF 键盘。 若要将 Microsoft Teams 设为默认呼叫客户端，管理员必须将 IsTeamsDefaultClient 设置为 true
-- 将远程参与者的传入视频固定到会议室显示器前面的全屏。 使用主机上参与者名单的"固定"命令
+- 将远程参与者的传入视频固定到会议室显示器前面的全屏。 使用主机上参与者名单中的"固定"命令
 - 改进了大厅通知，并新增了"会议室前端"通知
 - 未在 Microsoft Teams 会议室设备上启用Bluetooth时，会议室显示转换图标的前面已删除
 - 修复了 Teams 会议中的音量控制问题
@@ -249,7 +253,7 @@ ms.locfileid: "49662397"
 在此更新中引入：
 
 - 为以后的 Windows 10 版本 1803 升级准备 Microsoft Teams 会议室应用所需的代码更改
-- 修复本地化 EUL 格式问题， (挪威语) ，从而阻止超过 EULA OOBE 设置窗口
+- 修复了本地化 EUL（特别是挪威 (）的格式) 阻止超过 EULA OOBE 设置窗口
 - 使 Microsoft Teams 会议室应用程序在旧版 Lync Room Systems 中运行所需的代码更改。 在此处查看 [更多信息](https://aka.ms/lrsupgrade)。
 
 ### <a name="40190-8312018"></a>2018/8/31 (4.0.19.0) 
@@ -333,7 +337,7 @@ ms.locfileid: "49662397"
 
 在此更新中引入：
 
-- 支持 [Polycom MSR 系列扩展](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) 坞硬件
+- 支持 [Polycom MSR 系列](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) 扩展坞硬件
 - 对 [Logitech Brio 的支持](https://www.logitech.com/product/brio)
 - 解决了当 (没有活动时，) 主机和房间前显示无法进入睡眠模式的问题
 
