@@ -43,7 +43,7 @@ ms.locfileid: "49031808"
 如果希望外部用户拥有访问团队和频道的权限，则选择使用[来宾访问](#guest-access)可能是更好的方法。 
 
 
-## <a name="guest-access"></a>来宾访问权限
+## <a name="guest-access"></a>来宾访问
 
 使用 **来宾访问** 将个人用户（无论域）添加到团队中，以便他们可以使用 Microsoft 365 或者 Office 365 应用程序（例如 Word、Excel 或 PowerPoint）就组织文件（存储在 SharePoint 或 OneDrive for Business中）进行聊天、通话、开会和协作。来宾用户可以获得与本地团队成员几乎相同的所有团队功能。要了解更多信息，请阅读 [Teams 中的访客访问](guest-access.md)。
 
@@ -89,7 +89,7 @@ ms.locfileid: "49031808"
 <sup>2</sup> 仅通过电子邮件或会话初始协议 (SIP) 地址。<br>
 <sup>3</sup> 外部（联合）聊天仅可为一对一。<br>
 <sup>4</sup> 支持来自两个不同组织的仅 Teams 对仅 Teams 用户的一对一聊天。 <br>
-<sup>5</sup> 默认情况下，外部参与者无法看到已拨入的参与者的电话号码。如果想要维持这些电话号码的隐私，请选择 **进入/退出公告类型** （这会阻止Teams读取号码）的 **音调** 。若要了解更多详细信息，请参阅 [在Microsoft Teams中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
+<sup>5</sup> 默认情况下，外部参与者无法看到已拨入的参与者的电话号码。如果想要维持这些电话号码的隐私，请选择 **进入/退出公告类型** （这会阻止Teams读取号码）的 **音调**。若要了解更多详细信息，请参阅 [在Microsoft Teams中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
 
 ## <a name="related-topics"></a>相关主题
 

@@ -35,9 +35,9 @@ Microsoft Teams 使用新式身份验证使登录体验简单而安全。若要�
 
 ### <a name="how-modern-authentication-works"></a>新式验证的工作原理
 
-新式身份验证过程可以让Teams知道用户已经输入凭据，例如其工作邮件和密码，并且在启动应用时无需再次输入。受几个因素影响，验证体验可有所不同，例如在 Windows 或Mac上工作时所获得的不同体验。另外，你的组织使用单因素身份验证或多重身份验证也会对此产生影响。多重身份验证通常需要通过手机验证凭据、提供唯一代码、输入PIN、或使用指纹等方式。下面是每个新式身份验证方案的简要介绍。
+新式验证是一种使 Teams 知道用户已在其他位置输入其凭据，如工作电子邮件和密码，而不再需要再次输入凭据即可启动应用。 体验的不同因几个因素而异，如用户在 Windows 上还是在 Mac 上工作异。 具体取决于你的组织是否启用了单因素身份验证还是多重身份验证。 多重身份验证通常涉及通过电话验证凭据、提供唯一代码、输入 PIN 或者出示拇指指纹。 下面是每个新式身份验证应用场景的描述。
 
-每个使用 Teams 的组织都可以使用新式身份验证。 如果用户无法完成此过程，则你的组织的 Azure AD 配置可能存在基础问题。 有关详细信息，请参阅[为什么我无法登录 Microsoft Teams？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
+每个使用 Teams 的组织都可以使用现代身份验证。 如果用户无法完成此过程，则你的组织的 Azure AD 配置可能存在基础问题。 有关详细信息，请参阅[为什么我无法登录 Microsoft Teams？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
 - 如果用户已通过其工作或学校帐户登录到 Windows 或其他 Office 应用，则当他们启动 Teams 时，会直接转到该应用。 他们无需输入凭据。
 

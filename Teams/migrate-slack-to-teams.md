@@ -87,7 +87,7 @@ Slack 中的应用与 Teams 中的应用相差无几。 获得工作区中的应
 ### <a name="users"></a>用户
 你在 Slack 中使用的身份方案可能不会直接映射到 Microsoft 365 或 Office 365。 例如，Slack 用户的电子邮件地址可能不会映射到 Microsoft 365 或 Office 365 的工作或学校帐户。 开始规划 Teams 部署之前，你应创建用户 ID 映射。
 
-如果你使用的是 Slack 付费服务计划，可以转至 *<your Slack workspace>.slack.com/admin/stats#members* ，获取每位用户的电子邮件地址和帐户类型等成员详细信息（例如，单频道来宾还是多频道来宾）。
+如果你使用的是 Slack 付费服务计划，可以转至 *<your Slack workspace>.slack.com/admin/stats#members*，获取每位用户的电子邮件地址和帐户类型等成员详细信息（例如，单频道来宾还是多频道来宾）。
 
 你可以使用下面的脚本，将从 Slack 导出的电子邮件地址与 Azure AD 中的内容进行对比，以解决名称不明确的问题。 此外，它还会报告是否为用户启用了 Teams。 如需 PowerShell 方面的帮助，请参阅 [Azure PowerShell 入门](https://docs.microsoft.com/powershell/azure/get-started-azureps)。
 

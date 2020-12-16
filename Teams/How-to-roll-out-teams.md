@@ -33,7 +33,7 @@ ms.locfileid: "49071753"
 # <a name="how-to-roll-out-microsoft-teams"></a>如何部署 Microsoft Teams
 
 ## <a name="start-here"></a>从这里开始
-无论你是小型企业还是跨国企业，推出 Teams 的起点都是 [入门](get-started-with-teams-quick-start.md)。如果你是一家小型企业，或者如果即将推出 Teams 作为你的第一个 Microsoft 365 或 Office 365 工作负载，它将引导你完成小规模的 Teams 推广，以支持 **远程工作人员** ，这可能就是所有所需要的。如果你是一个较大的组织，使用 [入门](get-started-with-teams-quick-start.md)与一小批早期采用者一起的试点 Teams，即可以了解 Teams 并开始规划组织范围内的部署。 
+无论你是小型企业还是跨国企业，推出 Teams 的起点都是 [入门](get-started-with-teams-quick-start.md)。如果你是一家小型企业，或者如果即将推出 Teams 作为你的第一个 Microsoft 365 或 Office 365 工作负载，它将引导你完成小规模的 Teams 推广，以支持 **远程工作人员**，这可能就是所有所需要的。如果你是一个较大的组织，使用 [入门](get-started-with-teams-quick-start.md)与一小批早期采用者一起的试点 Teams，即可以了解 Teams 并开始规划组织范围内的部署。 
 
 ## <a name="recommended-path-to-teams"></a>建议的 Teams 部署途径
 

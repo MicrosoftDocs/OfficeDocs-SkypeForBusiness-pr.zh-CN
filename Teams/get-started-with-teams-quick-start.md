@@ -47,7 +47,7 @@ Teams 使你能将组织内外的人员快速集中到一起形成一个团队�
 
 如果是大型组织、拥有混合或本地 Skype for Business 配置、有严格的规章或合规性要求，或者你想要部署会议或语音功能（例如呼叫计划或电话系统），请首先阅读[如何部署 Teams](how-to-roll-out-teams.md)。 我们建议你仍然从 **入门** 这一部分着手，并开始规划组织范围内的部署。 “用 Teams 来规划 Teams。” 首先利用聊天、团队、频道和应用小规模部署 Teams，然后逐步扩大规模。 这些最初的经验将帮助你宣传 Teams，在整个组织内激发兴奋情绪，为你的下一投放阶段做好准备。 
 
-如果你是一家小型企业，或者 **你要快速部署 Teams 来支持新出现的远程工作者** ，请使用这份入门指南在你的组织中全面部署 Teams。 请务必查看专为小型业务提供、便于在组织中更轻松更简便地进行部署的模板。 请参阅[适用于中小型企业的 Teams 模板](https://docs.microsoft.com/microsoftteams/smb-templates)。
+如果你是一家小型企业，或者 **你要快速部署 Teams 来支持新出现的远程工作者**，请使用这份入门指南在你的组织中全面部署 Teams。 请务必查看专为小型业务提供、便于在组织中更轻松更简便地进行部署的模板。 请参阅[适用于中小型企业的 Teams 模板](https://docs.microsoft.com/microsoftteams/smb-templates)。
 
 ## <a name="before-you-get-started"></a>开始之前
 

@@ -41,9 +41,9 @@ ms.locfileid: "49030798"
 要了解有关你的用户的会议体验的更多信息，请参阅[会议和通话](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。 
 
 
-*2020 年 4 月中的新增功能* ：会议组织者可以通过单击会议中会议控件“ **结束会议** ”，结束 Teams 中所有会议参与者的会议。  
+*2020 年 4 月中的新增功能*：会议组织者可以通过单击会议中会议控件“**结束会议**”，结束 Teams 中所有会议参与者的会议。  
 
-*2019 年 11 月的新增功能* ：你现在可以 [使用 Advisor for Teams（预览版）帮助推广 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams（预览版）将引导你推广 Teams（包括会议和音频会议）。 它将评估 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功在 Teams 中推广会议和音频会议。
+*2019 年 11 月的新增功能*：你现在可以 [使用 Advisor for Teams（预览版）帮助推广 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams（预览版）将引导你推广 Teams（包括会议和音频会议）。 它将评估 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功在 Teams 中推广会议和音频会议。
 
  > [!Note]
 > 有关不同平台上 Teams 会议的详细信息，请参阅 [Teams功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -60,7 +60,7 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 
 在整个组织中大规模部署会议之前，请花时间检查并确认你的环境已准备好为用户提供最佳体验。 查看以下信息，并根据需要对你的环境进行任何必需的更改。
 
-若要获得最佳 Teams 体验，你的组织必须部署了 Exchange Online 和 SharePoint Online，并且你必须有适用于 O365 的已验证域（例如， *contoso.com* ）。
+若要获得最佳 Teams 体验，你的组织必须部署了 Exchange Online 和 SharePoint Online，并且你必须有适用于 O365 的已验证域（例如，*contoso.com*）。
 
 为了在整个组织中大规模部署会议，你应确保所有用户地点都有权访问 Internet，以便连接到 Office 365 服务。 至少应确保以下常用端口从用户的位置向 Internet 开放：-
 
@@ -78,7 +78,7 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 
 ### <a name="teams-administrators"></a>Teams 管理员
 
-Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色。 这些角色为管理员提供各种能力。 
+Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色。这些角色为管理员提供各种能力。 
 
 | 询问你自己 | 操作 |
 |--------------|--------|
@@ -151,7 +151,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 用户可以录制其会议和组内呼叫，以便捕获音频、视频和屏幕共享活动。 还有一个用于为录像添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制在云中进行，并保存在 Microsoft Stream 中，因此用户可以安全地在组织中共享录像。 若要查找会议录像，请转到会议对话。
 
 >[!Note]
-> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+> 从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 若要了解详细信息，请参阅 [Teams 云会议录制](cloud-recording.md)。
 

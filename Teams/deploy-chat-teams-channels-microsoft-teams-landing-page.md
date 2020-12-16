@@ -36,9 +36,9 @@ Teams 为组织提供了现成的出色协作体验，并且大多数组织发�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*2019 年 11 月新增功能*
+*2019年11月新增功能*
  - 现在可[使用 Advisor for Teams（预览版）帮助你推出 Microsoft Teams](use-advisor-teams-roll-out.md)。Advisor for Teams（预览版）为你提供 Teams 推出的分步指导。它将评估 Microsoft 365 或 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功推出 Teams。
- - [Microsoft Teams IT 基础知识 YouTube 频道](https://aka.ms/MicrosoftTeamsforIT)，包括简短（8-10 分钟）的视频，显示如何推出、配置和管理 Teams。
+ - [Microsoft YouTube 频道 IT 团队基础知识](https://aka.ms/MicrosoftTeamsforIT)，包括简短（8-10 分钟）的视频，显示如何推出、配置和管理团队。
 
 > [!TIP]
 > 我们建议你在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。在推动 Teams 采用的过程中添加其他[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)。
@@ -80,9 +80,9 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 |如何分配用户角色？ | 若要分配或更改角色，请参阅[分配用户角色](assign-roles-permissions.md#assign-a-user-role)。
 |我是否需要控制谁可以在频道中发布和答复？ | 若要配置审核，请参阅[在 Microsoft Teams 中设置和管理频道审核](manage-channel-moderation-in-teams.md)。
 
-### <a name="messaging-policies"></a>消息传递策略
+### <a name="messaging-policies"></a>消息策略
 
-消息传递策略控制为 Teams 中的用户提供哪些聊天和频道消息功能。例如，谁可以编辑和删除已发送的消息、谁可以使用聊天、谁可以在对话中使用 Meme，等等。默认情况下，会为用户分配全局消息策略，所有功能均 **开启** 。可以使用默认全局策略，或者为组织中的人员创建一个或多个自定义消息传递策略。 
+消息传递策略控制为 Teams 中的用户提供哪些聊天和频道消息功能。例如，谁可以编辑和删除已发送的消息、谁可以使用聊天、谁可以在对话中使用 Meme，等等。默认情况下，会为用户分配全局消息策略，所有功能均 **开启**。可以使用默认全局策略，或者为组织中的人员创建一个或多个自定义消息传递策略。 
 
 |询问你自己|操作 |
 |------------|-------|
@@ -105,7 +105,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 Teams 中的来宾访问可让组织外部的个人访问团队和频道。可以使用来宾访问设置来控制来宾用户能够使用或无法使用哪些功能。默认情况下会关闭来宾访问。若要了解详细信息，请参阅 [Teams 中的来宾访问](https://docs.microsoft.com/microsoftteams/guest-access)。
 
 > [!NOTE]
-> 有关外部访问和来宾访问的详细信息，请参阅此处 - [与 Microsoft Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)
+> 有关外部访问和来宾访问的详细信息，请参阅此处 — [与 Microsoft Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)
 
 
 |询问你自己|操作 |
@@ -201,7 +201,7 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。�
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 应用程序策略（侧边栏控制）
 
-固定的应用显示在 Teams 的侧边栏中。通过创建 Teams 应用程序策略，你可以预先配置一组固定的 Teams 应用，以便针对经过挑选的用户组个性化。默认情况下，“ **在 Microsoft Teams 中允许外部应用** ”设置处于启用状态。
+固定的应用显示在 Teams 的侧边栏中。通过创建 Teams 应用程序策略，你可以预先配置一组固定的 Teams 应用，以便针对经过挑选的用户组个性化。默认情况下，“**在 Microsoft Teams 中允许外部应用**”设置处于启用状态。
 
 | 询问你自己 | 操作 |
 |--------------|--------|

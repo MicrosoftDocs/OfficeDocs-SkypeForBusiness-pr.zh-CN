@@ -34,7 +34,7 @@ ms.locfileid: "49030608"
 
 Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsoft Teams 中拨打和接听电话。 如果是一家刚创立的小型企业，此向导可在几分钟内启动并运行电话号码、呼叫菜单、问候语等。 如果是已创建电话解决方案的大型企业，此向导可帮助设置试点，这样可以让一些用户先试用它，然后再面向所有人推出。 无论你的企业是哪种规模，都可以在完成向导后立刻开始使用商务语音！
 
-启动向导前，建议先阅读本文。 当你做好运行此向导的准备后，请选择“ [开始使用 Microsoft 365 商务语音](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)”页面上的“ **入门** ”。 请使用创建订阅所用的帐户或作为全局管理员的其他帐户登录。
+启动向导前，建议先阅读本文。 当你做好运行此向导的准备后，请选择“[开始使用 Microsoft 365 商务语音](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)”页面上的“**入门**”。 请使用创建订阅所用的帐户或作为全局管理员的其他帐户登录。
 
 > [!IMPORTANT]
 > 只有在用户的邮箱位于 Microsoft 365 中时，Microsoft Teams 和商务语音才可用。  不支持本地 Exchange Server 上的邮箱。

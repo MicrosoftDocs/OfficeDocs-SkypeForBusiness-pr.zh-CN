@@ -39,16 +39,16 @@ ms.locfileid: "49030488"
 
 Microsoft Teams 管理中心中的 Teams 报告能让你了解组织中 Teams 的使用情况。 使用这些报告来了解组织中的 Teams 使用情况、用户活动和设备使用情况。 
 
-若要查看这些报告，你必须是 Microsoft 365 或 Office 365 中的全局管理员、Teams 服务管理员或 Skype for Business 管理员。转到 Microsoft Teams 管理中心，在左侧导航栏中，选择“ **分析和报告** ”，然后在“ **报告** ”下选择想要运行的报告。
+若要查看这些报告，你必须是 Microsoft 365 或 Office 365 中的全局管理员、Teams 服务管理员或 Skype for Business 管理员。转到 Microsoft Teams 管理中心，在左侧导航栏中，选择“**分析和报告**”，然后在“**报告**”下选择想要运行的报告。
 
-- **Teams 使用情况报告** ：此报告提供 Teams 中使用情况活动的概览，其中包括活跃用户和频道总数，以及每个团队中活跃用户和频道、来宾和消息的数量。 
+- **Teams 使用情况报告**：此报告提供 Teams 中使用情况活动的概览，其中包括活跃用户和频道总数，以及每个团队中活跃用户和频道、来宾和消息的数量。 
 
     ![Teams 使用情况报告的屏幕截图](media/teams-reports-teams-usage.png "Microsoft Teams 管理中心内 Teams 使用情况报告的屏幕截图")     
-- **Teams 用户活动报告** ：此报告使你能深入了解用户参与的活动类型，例如多少人通过一对一通话、频道消息和私人聊天消息进行通信。 
+- **Teams 用户活动报告**：此报告使你能深入了解用户参与的活动类型，例如多少人通过一对一通话、频道消息和私人聊天消息进行通信。 
 
     ![Teams 用户活动报告的屏幕截图](media/teams-reports-user-activity.png "Microsoft Teams 管理中心内 Teams 用户活动报告的屏幕截图") 
 `
-- **Teams 设备使用情况报告** ：此报告显示用户连接到 Teams 的方式，包括有多少人在外出时在其移动设备上使用 Teams。 
+- **Teams 设备使用情况报告**：此报告显示用户连接到 Teams 的方式，包括有多少人在外出时在其移动设备上使用 Teams。 
 
     ![Teams 设备使用情况报告的屏幕截图](media/teams-reports-device-usage.png "Microsoft Teams 管理中心内 Teams 设备使用情况报告的屏幕截图")
 
@@ -57,7 +57,7 @@ Microsoft Teams 管理中心中的 Teams 报告能让你了解组织中 Teams �
 ### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Teams 活动报告（Microsoft 365 管理中心）
 你还可以通过 Microsoft 365 管理中心提供的报告查看 Teams 活动。 这些报告是 Microsoft 365 管理中心中 Microsoft 365 报告的一部分，提供有关用户活动和设备使用情况的信息。 
 
-若要查看这些报告，请转到 Microsoft 365 管理中心，单击“ **报告** ” > “ **使用情况** ”。 在“ **选择报告** ”下，单击“ **Microsoft Teams** ”。 从这里选择要查看的报告。
+若要查看这些报告，请转到 Microsoft 365 管理中心，单击“**报告**” > “**使用情况**”。 在“**选择报告**”下，单击“**Microsoft Teams**”。 从这里选择要查看的报告。
 
 若要了解详细信息，请转到 [使用 Teams 活动报告](teams-activity-reports.md)。
 
