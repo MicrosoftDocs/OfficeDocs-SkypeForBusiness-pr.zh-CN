@@ -244,7 +244,7 @@
       items:
         - name: 概述
           href: rooms/index.md
-        - name: 规划
+        - name: 计划
           items:
             - name: Microsoft Teams 会议室规划概述
               href: rooms/rooms-plan.md
@@ -254,7 +254,7 @@
               href: rooms/rooms-release-note.md
             - name: 准备环境
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: 要求
               href: rooms/requirements.md
             - name: 联机许可
               href: rooms/rooms-licensing.md
@@ -883,7 +883,7 @@
       href: teams-adoption-get-started.md
     - name: 第 1 阶段 - 开始
       items:
-        - name: Start
+        - name: 开始
           href: teams-adoption-phase1.md
         - name: 了解团队和频道
           href: teams-adoption-understand-teams-and-channels.md
@@ -935,8 +935,8 @@
               href: upgrade-define-project-scope.md
             - name: 了解共存和互操作性
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: 了解手机系统和 PSTN 连接选项
-              href: cloud-voice-landing-page.md
+            - name: PSTN 注意事项
+              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: 选择升级旅程
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
             - name: 规划用户试点
@@ -991,8 +991,6 @@
               href: upgrade-to-teams-on-prem-implement.md
             - name: Teams 和 Skype for Business 共存
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: PSTN 注意事项
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: 共存模式 - 参考
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Teams 客户端体验和共存模式的一致性
