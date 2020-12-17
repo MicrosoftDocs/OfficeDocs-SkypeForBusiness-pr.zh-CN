@@ -12,6 +12,7 @@ ms.collection:
 - M365-voice
 - m365initiative-voice
 - m365solution-voice
+- m365solution-scenario
 ms.reviewer: crowe
 f1.keywords:
 - CSH
@@ -23,12 +24,12 @@ search.appverid: MET150
 description: 了解有关 Microsoft Teams 云语音功能以及你将为组织做出部署决策的信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 213950b808d781e8566e1ffae6f6075bb7b3371b
-ms.sourcegitcommit: b816ae9de91f3d01e795a69a00465a70003069b2
+ms.openlocfilehash: e16a2aea0d367c720cf36c8010670a34472ab43a
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49686448"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701330"
 ---
 # <a name="plan-your-teams-voice-solution"></a>规划 Teams 语音解决方案 
 
@@ -58,7 +59,7 @@ ms.locfileid: "49686448"
 **全部必需。** 本文中的某些部分适用于所有组织。 例如，每个人都应阅读有关电话系统的信息，并了解用于连接到 PSTN 公用电话交换 (PSTN) 。 
 
 
-| 全部必需 | 说明 |
+| 全部必需 | 描述 |
 | :------------|:-------|
 | [**电话系统**](#phone-system) | Microsoft 的技术，用于通过 Microsoft Teams 在 Microsoft 365 云 (PBX) 实现呼叫控制和专用交换机交换功能。 |
 | [**公用电话交换网 (PSTN) 连接选项**](#public-switched-telephone-network-connectivity-options) | 可以选择使用 Microsoft 作为电话运营商，还是使用直接路由将你自己的电话运营商连接到 Microsoft Teams。 PSTN 连接选项与电话系统相结合，可让用户进行全球电话呼叫。|
@@ -69,7 +70,7 @@ ms.locfileid: "49686448"
 
 ![图 2 显示了其他语音组件，例如来自 Microsoft 的电话号码、拨号计划和呼叫路由等。](media/voice-consider-additional-components.png)
 
-| 根据要求 | 说明 |
+| 根据要求 | 描述 |
 | :------------|:-------|
 | [**Microsoft 提供的电话号码**](#phone-numbers-from-microsoft) | 如何从 Microsoft 获取和管理电话号码，以及如何将现有号码转移到 Microsoft。 如果需要获取 Microsoft 呼叫计划的电话号码、转移现有号码、获取服务号码等，请阅读此内容。 |
 | [**拨号计划和呼叫路由**](#dial-plans-and-call-routing) | 如何配置和管理将拨号电话号码转换为备用格式的拨号计划 (通常为 E.164 格式) 呼叫授权和呼叫路由。 如果你需要了解什么是拨号计划以及是否需要为组织指定拨号计划，请阅读此说明。|

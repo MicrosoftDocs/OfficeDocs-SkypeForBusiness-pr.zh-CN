@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 786ec8d911ae21f3cb379eceefb1b7c202890a3d
+ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611466"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49682351"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -117,13 +117,13 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 > [!IMPORTANT]
 > **Microsoft 365 实时事件限制的增加**
 >
-> **为帮助支持我们的客户，从 2021 年 1 月 1 日起，我们将为 Teams、Stream 和 Yammer 中托管的实时事件扩展临时人数上限，包括**：
+> **若要继续支持客户的需求，直至2021年6月30日，我们将扩展现场活动的临时增加限额，包括**：
 >
->- 每场活动最多可容纳 2 万名参考者
->- 每个 Teams 租户最多可同时举行 50 场活动
->- 每次直播最多持续 16 个小时
+>- 可为多达20,000名与会者提供活动支持
+>- 一个租户可同时举办50场活动
+>- 每次广播的活动持续时间为16小时
 >
-> 此外，可通过 Microsoft 365 辅助计划来安排最多有 10 万名参与者的实时事件。团队将评估每个请求，并与共同确定可能的选项。[了解详情](https://aka.ms/Stream/Blog/LiveEventOptions)。**2021 年 1 月 1 日之后，需要提高上述人数上限的客户将需要购买 [高级通信加载项](teams-add-on-licensing/advanced-communications.md)。**
+> 此外，可通过 Microsoft 365 辅助计划规划最多 100,000 名与会者的实时活动。团队将评估每个请求，并共同确定可能可用的选项。[了解详情](https://aka.ms/Stream/Blog/LiveEventOptions)。
 
 |功能     | 最大限制 |
 |------------|---------------|
@@ -163,13 +163,13 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 > [!IMPORTANT]
 > **Microsoft 365 实时事件限制的增加**
 >
-> **为帮助支持我们的客户，从 2021 年 1 月 1 日起，我们将为 Teams、Stream 和 Yammer 中托管的实时事件扩展临时人数上限，包括**：
+> **若要继续支持客户的需求，直至2021年6月30日，我们将扩展现场活动的临时增加限额，包括**：
 >
-> - 每场活动最多可容纳 2 万名参考者
-> - 每个 Teams 租户最多可同时举行 50 场活动
-> - 每次直播最多持续 16 个小时
+>- 可为多达20,000名与会者提供活动支持
+>- 一个租户可同时举办50场活动
+>- 每次广播的活动持续时间为16小时
 >
-> 此外，可通过 Microsoft 365 辅助计划来安排最多有 10 万名参与者的实时事件。团队将评估每个请求，并与共同确定可能的选项。[了解详情](https://aka.ms/Stream/Blog/LiveEventOptions)。**2021 年 1 月 1 日之后，需要提高上述人数上限的客户将需要购买 [高级通信加载项](teams-add-on-licensing/advanced-communications.md)。**
+> 此外，可通过 Microsoft 365 辅助计划来安排最多有 10 万名参与者的实时事件。 团队将评估每个请求，并与共同确定可能的选项。 [了解详细信息](https://aka.ms/Stream/Blog/LiveEventOptions)。 
 
 ## <a name="presence-in-outlook"></a>Outlook 中的状态
 
@@ -192,7 +192,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 |------------------------|---------|---------|---------|---------|---------|---------|
 |存储空间                 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。   |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 空间           |
 |Teams 文件存储空间 |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |
-|文件上传限制（每个文件）    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
+|文件上传限制（每个文件）    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
 
 频道由 SharePoint Online 网站（以前称为“网站集”）中专为团队创建的文件夹提供支持，因此频道中的文件选项卡共同享有其所属的团队的存储空间限额。
 
