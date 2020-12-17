@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa8e733aeb3828bb1815001ba0299a9ee1aaf78
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 4f13cdd1d62a31178f7aed922b3bc55b87cd59db
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852143"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701230"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 和 Microsoft Teams
 
