@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 实时事件是什么？
+title: 什么是 Microsoft Teams 实时事件？
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,7 +13,7 @@ ms.collection:
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: 了解实时事件如何使用户能够将视频和内容广播到团队、Yammer 和流中的大型在线受众。
+description: 了解实时事件如何让用户广播视频和内容，以增加 Teams、Yammer 和 Stream 中的在线受众。
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,90 +23,90 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
 ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/20/2020
 ms.locfileid: "49373468"
 ---
-# <a name="what-are-microsoft-teams-live-events"></a>什么是 Microsoft 团队实时事件
+# <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么
 
 ## <a name="overview"></a>概述
 
-通过团队实时事件，你组织中的用户可以将视频和会议内容广播到大型在线受众。
+借助 Teams 实时事件，组织中的用户可以向大量在线受众广播视频和会议内容。
 
-Microsoft 365 实时事件将实时视频流传送到新级别。 实时事件通过在实时事件之前、期间和之后的与会者鼓励整个服务生命周期中的连接。 你可以使用 Microsoft Stream、团队或 Yammer 在你的受众、团队或社区所驻留的任何位置创建实时事件。  
+Microsoft 365 实时事件将实时视频流式处理带到了新高度。 实时事件鼓励在整个预订周期内，与参会者在实时事件前、中、后建立连接。 无论受众、团队或社区驻留在何处，都可以使用 Microsoft Stream、Teams 或 Yammer 创建实时事件。  
 
-团队提供基于聊天的协作、通话、会议和实时事件，因此您可以展开您的会议的受众。 团队活动事件是团队会议的扩展，使用户能够将视频和会议内容广播给较大的联机受众。 实时事件适用于一对多的通信，其中，事件的宿主由交互和受众参与的主要目的是查看由主机共享的内容。 与会者可以在 Yammer、团队和/或流中观看实时或录制的事件，并可使用 "& A" 或 "Yammer 对话" 与演示者进行交互。
+Teams 可以实现基于聊天的协作、呼叫、会议和实时事件，这样你可以展开会议的受众。 Teams 实时事件是 Teams 会议的拓展，它使得用户能够向大体量网络受众广播视频和会议内容。 实时事件是一种一对多的通信，事件主持人领导交互，受众参与主要参与方式是查看主持人共享的内容。 与会者可以在 Yammer、Teams 和/或 Stream 中观看实时事件或录制事件，并能使用受到监管的问答或 Yammer 对话与演示者进行互动。
 
-团队活动事件被视为下一版本的 Skype 会议直播，最终将替换 Skype 会议直播中提供的功能。 在此情况下，Microsoft 将继续为在其组织中使用 Skype for Business 的用户继续支持 Skype 会议直播，而不会中断新事件或将来事件的服务。 但是，我们鼓励你尝试使用团队实时事件来利用所有全新的激动人心的功能，包括屏幕共享和对外部硬件/软件编码器的支持。
+Teams 实时事件是 Skype 会议直播的下一版本，会最终代替 Skype 会议直播中的功能。 目前，Microsoft 将继续支持 Skype 会议直播，以及正在在组织中使用 Skype for Business 的用户，不会中断新的或未来事件的服务。 但是，我们鼓励你尝试 Teams 实时事件，来利用所有包括屏幕共享和外部硬件/软件编码器在内的新颖且令人激动的功能。
 
-因此，让我们开始吧。 首先，看看下图显示了 Microsoft 365 实时事件中涉及的高级组件以及它们的连接方式。
+所以，让我们开始吧。 首先，看看下面的关系图，它显示了 Microsoft 365 实时事件中的高级组件及它们之间联系的方式。
 
-![实时事件的关键组件](../media/live-event-flow-diagram.png  "实时事件、计划、生产、流平台、经过认证的第三方 eCDN 提供商的关键组件")
+![实时事件的主要组件](../media/live-event-flow-diagram.png  "实时事件的主要组件，日程安排、生成、数据流平台和认证第三方 eCDN 提供商")
 
-### <a name="event-group-roles"></a>事件组角色
+### <a name="event-group-roles"></a>活动组角色
 
-团队中的实时事件使多个角色 (组织者、制造者、演示者和与会者) 成功广播并参与事件。 若要了解详细信息，请参阅 [事件组角色](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)。
+Teams 中的实时事件让多种角色（组织者、制作者、演示者和与会者）能成功地广播和参与到事件中。 了解更多信息，请参阅[事件组角色](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)。
 
-## <a name="key-components"></a>关键组件
+## <a name="key-components"></a>主要组件
 
-从上图中，你可以看到与团队中的实时事件一起使用的五个关键组件。
+你可以看到上方的图片，在 Teams 中，有五个主要组件用于实时事件。
 
 > [!NOTE]
-> 有关如何设置实时事件和与会者体验的概述，请查看这些简短 [视频](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)。
+> 要查看关于设置实时事件以及与会者体验的概述，请查看此段[视频](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)。
 
-### <a name="scheduling"></a>级
+### <a name="scheduling"></a>安排
 
-团队使组织者能够使用相应的与会者权限创建事件、指定事件团队成员、选择生产方法和邀请与会者。 如果实时事件是从 Yammer 组内创建的，则实时事件参与者将能够使用 Yammer 对话与事件中的人员交互。
+Teams 允许组织者创建具有相应与会者权限的事件、指定事件团队成员、选择制作方法和邀请与会者。 如果实时事件是在 Yammer 组中创建的，实时事件与会者可以使用 Yammer 对话与事件中的人员进行交互。
 
-![新的实时事件屏幕](../media/teams-live-events-schedule.png "显示 "新建实时事件" 屏幕以创建和安排新实时事件的屏幕截图")
+![新的实时事件屏幕](../media/teams-live-events-schedule.png "显示新实时事件屏幕的屏幕截图，显示新实时事件的创建和日程安排。")
 
-### <a name="production"></a>生成
+### <a name="production"></a>制作
 
-视频输入是实时事件的基础，它可能会因单个网络摄像头而异。 Microsoft 365 中的实时事件支持各种生产方案，包括使用网络摄像头或在外部应用或设备中生成的事件在团队中生成的事件。 您可以根据其项目要求和预算选择这些选项。 可通过两种方式生成事件：
+此视频输入是实时事件的基础，它可以是单一网络摄像头，也可以是多摄像头专业视频制作设备。 Microsoft 365 中的实时事件支持多种生成场景，包括在 Teams 中用网络摄像头制作的事件或由外部应用或设备制作的事件。 你可以根据项目要求和预算选择不同选项。 有两种方法可以生成事件：
 
-- **团队**：此生产方法允许用户使用其网络摄像头在团队中生成活动事件，或使用来自团队室系统的/V 输入。 如果你想要使用连接到电脑或邀请远程演示者参与事件的音频和视频设备，此选项是最佳和最快的选项。 此选项允许用户轻松使用其网络摄像头并在事件中共享其屏幕作为输入。
+- **Teams**：此制作方法允许用户从 Teams 房间系统使用网络摄像头或 A/V 输入生成实时事件。 当你想要使用连接到电脑的音频或视频设备或正在邀请远程演示者参与事件时，此选项是最好和最快的。 此选项允许用户轻松地通过输入的方式在事件中使用他们的网络摄像头并共享屏幕。
 
-- **外部应用或设备**：外部编码器允许用户直接从具有 [流](https://stream.microsoft.com)的外部硬件或基于软件的编码器生成实时事件。 如果你已经有了录音室 quality 设备，则最好使用此选项 (例如，media mixers) 支持 (RTMP) 服务流的实时消息传递协议。 这种类型的生产通常在大规模事件（如 executive 城镇 halls）中使用，即将媒体混合器中的单个流广播给观众的位置。
+- **外部应用或设备**：外部编码器允许用户直接通过[ Stream](https://stream.microsoft.com) 从外部硬件或基于软件的编码器生成实时事件。 当你已经具有工作室质量的设备（例如，媒体混合器），此设备需支持流式处理到实时消息协议 (RTMP) 服务，此选项是最好的。 此类制作经常用于大规模事件，例如行政会议 - 此场景下来自媒体混合器的单一数据流被广播给受众。
 
-    ![使用外部应用或设备生成的实时事件](../media/teams-live-events-external-encoder.png "显示使用外部应用或设备生产方法生成的实时事件的屏幕截图")
+    ![使用外部应用或设备生成的实时事件](../media/teams-live-events-external-encoder.png "使用外部应用或设备生成方法生成的实时事件的屏幕截图")
 
 >[!Note]
 > 从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](../tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 ### <a name="streaming-platform"></a>流式处理平台
 
-实时事件流平台由以下部分组成：
+实时事件流式处理平台由以下部分组成：
 
-- **Azure 媒体服务**：  [azure 媒体服务](https://docs.microsoft.com/azure/media-services/previous/) 为你提供了一种广播质量的视频流服务，可在当今最常用的移动设备上与更大的受众联系。 媒体服务增强了辅助功能、分发和可伸缩性，并让您能够轻松、经济高效地将内容流式传输给您的本地或全球受众，同时保护内容。
-- **Azure 内容交付网络 (CDN)**：一旦你的流投入使用，它将通过 [Azure 内容交付网络 (CDN)](https://docs.microsoft.com/azure/cdn/)提供。 Azure 媒体服务为流式处理终结点提供集成的 CDN。 这允许在全球查看流，无缓冲。
+- **Microsoft Azure 媒体服务**：[Microsoft Azure 媒体服务](https://docs.microsoft.com/azure/media-services/previous/)提供给你广播质量的视频流式处理服务，以帮助你在现在最常用的移动设备上触及更大的受众群。 媒体服务强化可及性、分发和可伸缩性，使得数据流内容能够轻松且低成本地传输到本地和世界的受众 - 同时保护你的内容。
+- **Azure 内容交付网络 (CDN)**：当你的数据流实时后，它将通过 [Azure 内容交付网络 (CDN)](https://docs.microsoft.com/azure/cdn/) 交付。 Microsoft Azure 媒体服务提供集成的 CDN 作为流式处理端点。 这允许数据流在世界范围内无需缓冲就能查看。
 
-### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络 (eCDN) 
+### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络 (eCDN)
 
-ECDN 的目标是从 internet 获取视频内容，并在整个企业中分发内容，而不会影响网络性能。 您可以使用以下认证的 eCDN 合作伙伴之一来优化您的网络，以便在您的组织内保持实时事件：
+eCDN 的目标是从 Internet 上获取视频内容，然后将内容分发到你的企业中而不受网络性能的影响。 你可以使用下列认证的 eCDN 合作伙伴之一来优化你的网络，以支持组织内主持的实时事件：
 
-- [配置单元](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
+- [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
-- [渐变](https://rampecdn.com)
+- [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
 
 ### <a name="attendee-experience"></a>与会者体验
 
-与会者体验是实时事件的最重要的方面，并且很重要的是与会者无需任何问题即可参与实时事件。 对于在外部应用或设备中生成的事件，与会者体验使用流播放器 (为团队) 和 Azure Media Player () 并在桌面版、浏览器和移动 (iOS) 上工作。 Microsoft 365 和 Office 365 将 Yammer 和团队作为两个协作中心提供，并将实时与会者体验集成到这些协作工具中。
+与会者体验是实时事件最重要的方面，让与会者参与实时事件而不遇到任何问题非常关键。 与会者体验使用 Stream 播放器（用于 Teams 中生成的事件）和 Azure Media Player（用于外部应用或设备生成的事件），且支持桌面、浏览器和移动端 (iOS、Android)。 Microsoft 365 和 Office 365 提供 Yammer 和 Teams 作为两个协作中心，实时与会者体验集合到这些协作工具中。
 
-![实时事件与会者体验的示例](../media/teams-live-events-attendee.png "显示实时事件与会者体验的屏幕截图")
+![实时事件与会者体验的例子](../media/teams-live-events-attendee.png "实时事件与会者体验的视频截图")
 
-### <a name="live-event-usage-report"></a>实时事件使用率报告
+### <a name="live-event-usage-report"></a>实时事件使用情况报告
 
-租户管理员可在 Microsoft 团队管理中心中查看实时事件的实时使用情况分析。  [实时事件使用情况报表](../teams-analytics-and-reports/teams-live-event-usage-report.md)显示组织中保留的实时事件的活动概述。  管理员可以查看事件使用信息，包括事件状态、开始时间、视图和生产类型。  
+租户管理员可以在 Microsoft Teams 管理中心查看实时事件的实时使用情况分析。  [实时事件使用情况报告](../teams-analytics-and-reports/teams-live-event-usage-report.md)显示了组织内主持的实时事件的活动概述。  管理员可以查看使用情况信息，包括事件状态、开始时间、查看量和生成类型。  
 
-## <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>下一步
 
-转到 " [规划团队实时事件](plan-for-teams-live-events.md)"。
+转到 [Teams 实时事件计划](plan-for-teams-live-events.md)。
 
 ### <a name="related-topics"></a>相关主题
 
-- [Yammer、Microsoft 团队和 Microsoft Stream 中跨 Microsoft 365 的实时事件](https://docs.microsoft.com/stream/live-event-m365)
+- [在 Yammer、Microsoft Teams 和 Microsoft Stream 之间的 Microsoft 365 实时事件](https://docs.microsoft.com/stream/live-event-m365)
 - [Microsoft Teams 直播活动入门](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Yammer 中的实时事件](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
 - [Microsoft Stream 中的实时事件](https://docs.microsoft.com/stream/live-event-overview)
