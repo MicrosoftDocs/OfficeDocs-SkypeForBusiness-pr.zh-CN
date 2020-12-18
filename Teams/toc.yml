@@ -490,7 +490,7 @@
               href: more-about-calling-line-id-and-calling-party-name.md
         - name: 自动助理和呼叫队列
           items:
-            - name: 计划
+            - name: 规划
               href: plan-auto-attendant-call-queue.md
             - name: 自动助理设置
               href: create-a-phone-system-auto-attendant.md
@@ -506,7 +506,7 @@
               href: aa-cq-cqd-historical-reports.md
             - name: 拨号和语音参考
               href: dial-voice-reference.md
-            - name: Reporting
+            - name: 报告
               href: aa-cq-cqd-historical-reports.md
         - name: 阻止拨入通话
           href: block-inbound-calls.md
@@ -742,7 +742,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
             - name: 伯利兹
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: 波斯尼亚和黑塞哥维那&
+            - name: 波斯尼亚和黑塞哥维那
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
             - name: 巴西
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
@@ -788,9 +788,9 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
             - name: 爱尔兰
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
-            - name: 以色列
+            - name: Israel（以色列）
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
-            - name: 意大利
+            - name: Italy（意大利）
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
             - name: 日本
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
@@ -816,7 +816,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
             - name: 菲律宾
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
-            - name: 波兰
+            - name: Poland（波兰）
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
             - name: 葡萄牙
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
@@ -830,7 +830,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
             - name: 新加坡
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
-            - name: 斯洛伐克
+            - name: Slovakia（斯洛伐克）
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
             - name: 斯洛文尼亚
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
@@ -842,9 +842,9 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
             - name: 瑞典
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
-            - name: 瑞士
+            - name: Switzerland（瑞士）
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
-            - name: 中国台湾
+            - name: Taiwan（台湾）
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
             - name: 泰国
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
@@ -974,7 +974,7 @@
     - name: Skype for Business Online 停用
       href: skype-for-business-online-retirement.md
     - name: 常见问题
-      href: FAQ-journey.md
+      href: FAQ-journey.yml
     - name: 技术库
       items:
         - name: 适用于 IT 管理员的升级指南
@@ -1007,9 +1007,9 @@
       items:
         - name: 概述
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-        - name: 配置混合环境的 Azure AD Connect
+        - name: 配置混合环境的 Azure AD 连接
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-        - name: 配置 Skype for Business 混合
+        - name: 配置 Skype for Business 混合环境
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
     - name: 在本地与云之间移动用户
       items:
@@ -1019,11 +1019,11 @@
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
         - name: 将用户从本地迁移至 Skype for Business Online
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-        - name: 将用户从云中移动到本地
+        - name: 将用户从云移动到本地
           href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
         - name: 管理会议迁移
           href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-    - name: 禁用混合以完成云迁移
+    - name: 禁用混合以完成到云的迁移
       href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
     - name: 部署资源林拓扑
       href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
@@ -1504,7 +1504,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
         - name: 百慕大
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: 波斯尼亚和黑塞哥维那&
+        - name: 波斯尼亚和黑塞哥维那
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
         - name: 巴西
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
@@ -1578,9 +1578,9 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md
         - name: 爱尔兰
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md
-        - name: 以色列
+        - name: Israel（以色列）
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md
-        - name: 意大利
+        - name: Italy（意大利）
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md
         - name: 牙买加
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jamaica.md
@@ -1598,7 +1598,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md
         - name: 卢森堡
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md
-        - name: 马其顿
+        - name: 北马其顿
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md
         - name: 马来西亚
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md
@@ -1634,7 +1634,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md
         - name: 菲律宾
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md
-        - name: 波兰
+        - name: Poland（波兰）
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md
         - name: 葡萄牙
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md
@@ -1656,7 +1656,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md
         - name: 新加坡
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md
-        - name: 斯洛伐克
+        - name: Slovakia（斯洛伐克）
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md
         - name: 斯洛文尼亚
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md
@@ -1670,13 +1670,13 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md
         - name: 瑞典
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md
-        - name: 瑞士
+        - name: Switzerland（瑞士）
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md
-        - name: 中国台湾
+        - name: Taiwan（台湾）
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
         - name: 泰国
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: 特立尼达和多巴哥&特立尼达和多巴哥
+        - name: 特立尼达和多巴哥
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
         - name: 突尼斯
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
