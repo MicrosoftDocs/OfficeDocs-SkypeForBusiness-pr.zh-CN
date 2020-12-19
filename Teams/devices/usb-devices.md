@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 外围设备和设备（如耳机、免提电话、摄像头和监视器）已通过 Microsoft Teams 认证。
-ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 75e9b8e901114d41d3e10bd00b0b81a4b4a2a2e8
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712300"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718576"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -78,6 +78,13 @@ ms.locfileid: "49712300"
 
 | 制造商        | 模型                                                     | 限定      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve 75e Headset                                         |12/16/2020      |升级到 Microsoft Teams 的 Skype for Business      |
+|Jabra                |Evolve 65e Headset                                         |12/16/2020      |升级到 Microsoft Teams 的 Skype for Business      |
+|Dell                 |C3422WE 监视器                                            |12/11/2020      |Microsoft Teams 认证                           |
+|Dell                 |C2722DE 监视器                                            |12/11/2020      |Microsoft Teams 认证                           |
+|Dell                 |C2422HE 监视器                                            |12/11/2020      |Microsoft Teams 认证                           |
+|Poly                 |将 20 + 免提电话与 Poly BT600 USB 适配器同步          |11/9/2020       |Microsoft Teams 认证                           |
+|Poly                 |同步 20 免提电话                                       |11/9/2020       |Microsoft Teams 认证                           |
 |Jabra                |Evolve 65t Headset                                         |10/31/2020      |升级到 Microsoft Teams 的 Skype for Business      |
 |EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |升级到 Microsoft Teams 的 Skype for Business      |
 |EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |升级到 Microsoft Teams 的 Skype for Business      |
