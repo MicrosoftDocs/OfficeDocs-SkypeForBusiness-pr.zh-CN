@@ -1,7 +1,7 @@
 - name: Skype for Business Server 2015
   href: ../skype-for-business-server-2015.yml
   items:
-    - name: 技术图表
+    - name: 技术图示
       href: ../technical-diagrams.md
     - name: Skype for Business Server 中的新增功能
       href: ../what-s-new-in-skype-for-business-server.md
@@ -10,12 +10,12 @@
       items:
         - name: 客户端更新
           href: ../sfb-client-updates.md
-        - name: Server 更新
+        - name: 服务器更新
           href: ../sfb-server-updates.md
     - name: Microsoft 电话解决方案
       href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
       items:
-        - name: ' Skype for Business Server 中本地 PSTN 连接的计划电话系统'
+        - name: Skype for Business Server 中本地 PSTN 连接的计划电话系统
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md
         - name: 在 Skype for Business Server 中使用本地 PSTN 连接启用电话系统用户
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md
@@ -24,7 +24,7 @@
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md
             - name: 分配语音路由策略
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md
-            - name: 为用户启用联机企业语音和 电话系统语音邮件
+            - name: 为用户启用联机企业语音和电话系统语音邮件
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md
         - name: 规划 Skype for Business 云连接器版本
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md
@@ -140,7 +140,7 @@
     - name: 规划部署
       href: ../plan-your-deployment/plan-your-deployment.md
       items:
-        - name: 拓扑基础知识
+        - name: 拓扑基本信息
           href: ../plan-your-deployment/topology-basics/topology-basics.md
           items:
             - name: 参考拓扑
@@ -160,7 +160,7 @@
               items:
                 - name: IP 地址类型
                   href: ../plan-your-deployment/network-requirements/ip-address-types.md
-            - name: 负载均衡
+            - name: 负载平衡
               href: ../plan-your-deployment/network-requirements/load-balancing.md
             - name: DNS
               href: ../plan-your-deployment/network-requirements/dns.md
@@ -169,7 +169,7 @@
                   href: ../plan-your-deployment/network-requirements/basics.md
                 - name: 简单 URL
                   href: ../plan-your-deployment/network-requirements/simple-urls.md
-                - name: 高级 Edge Server DNS
+                - name: 高级边缘服务器 DNS
                   href: ../plan-your-deployment/network-requirements/advanced-edge-server-dns.md
             - name: 端口和协议
               href: ../plan-your-deployment/network-requirements/ports-and-protocols.md
@@ -201,7 +201,7 @@
               href: ../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md
             - name: VDI 环境
               href: ../plan-your-deployment/clients-and-devices/vdi-environments.md
-        - name: 高额用型和灾难恢复
+        - name: 高可用型和灾难恢复
           href: ../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md
           items:
             - name: 高可用性
@@ -225,7 +225,7 @@
               href: ../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md
             - name: 拓扑
               href: ../plan-your-deployment/persistent-chat-server/topology.md
-            - name: 高额用型和灾难恢复
+            - name: 高可用型和灾难恢复
               href: ../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md
             - name: 容量规划
               href: ../plan-your-deployment/persistent-chat-server/capacity-planning.md
@@ -234,7 +234,7 @@
         - name: 企业语音解决方案
           href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
           items:
-            - name: Enterprise Voice
+            - name: 企业语音
               href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md
               items:
                 - name: 企业语音所需的组件
@@ -242,14 +242,14 @@
                   items:
                     - name: 中介服务器
                       href: ../plan-your-deployment/enterprise-voice-solution/mediation-server.md
-                    - name: PSTN connectivity － PSTN 连接
+                    - name: PSTN 连接
                       href: ../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md
                     - name: 前端服务器 VoIP
                       href: ../plan-your-deployment/enterprise-voice-solution/front-end-server-voip.md
-                - name: PSTN connectivity － PSTN 连接
+                - name: PSTN 连接
                   href: ../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md
                   items:
-                    - name: SIP trunking － SIP 中继
+                    - name: SIP 中继
                       href: ../plan-your-deployment/enterprise-voice-solution/sip-trunking.md
                       items:
                         - name: 分支站点
@@ -297,7 +297,7 @@
                           href: ../plan-your-deployment/enterprise-voice-solution/design-the-sip-trunk.md
                         - name: 安全服务台
                           href: ../plan-your-deployment/enterprise-voice-solution/security-desk.md
-                        - name: 选择服务提供程序
+                        - name: 选择服务提供商
                           href: ../plan-your-deployment/enterprise-voice-solution/choose-a-service-provider.md
                         - name: 位置策略
                           href: ../plan-your-deployment/enterprise-voice-solution/location-policies.md
@@ -305,7 +305,7 @@
                           href: ../plan-your-deployment/enterprise-voice-solution/location-policy-scope.md
                     - name: 多个紧急号码
                       href: ../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md
-                - name: 媒体绕过
+                - name: 媒体旁路
                   href: ../plan-your-deployment/enterprise-voice-solution/media-bypass.md
                 - name: 专用电话线路
                   href: ../plan-your-deployment/enterprise-voice-solution/private-telephone-lines.md
@@ -317,19 +317,19 @@
                 - name: 呼叫管理功能
                   href: ../plan-your-deployment/enterprise-voice-solution/call-management-features.md
                   items:
-                    - name: Call Park － 呼叫寄存
+                    - name: 呼叫寄存
                       href: ../plan-your-deployment/enterprise-voice-solution/call-park.md
-                    - name: 组内呼叫应答
+                    - name: 群组代接
                       href: ../plan-your-deployment/enterprise-voice-solution/group-call-pickup.md
-                    - name: Response Group － 响应组
+                    - name: 响应组
                       href: ../plan-your-deployment/enterprise-voice-solution/response-group.md
                     - name: 公告
                       href: ../plan-your-deployment/enterprise-voice-solution/announcement.md
                 - name: 共享线路外观
                   href: ../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md
-                - name: 忙选项
+                - name: 忙碌选项
                   href: ../plan-your-deployment/enterprise-voice-solution/busy-options.md
-            - name: 通过工号拨号
+            - name: 单位电话呼叫
               href: ../plan-your-deployment/enterprise-voice-solution/call-via-work.md
             - name: 远程呼叫控制
               href: ../plan-your-deployment/enterprise-voice-solution/remote-call-control.md
@@ -363,19 +363,19 @@
               href: ../plan-your-deployment/conferencing/hardware-and-software-requirements.md
             - name: 会议拓扑
               href: ../plan-your-deployment/conferencing/conferencing-topology.md
-            - name: 电话拨入式会议
+            - name: 拨入式会议
               href: ../plan-your-deployment/conferencing/dial-in-conferencing.md
             - name: 大型会议
               href: ../plan-your-deployment/conferencing/large-meetings.md
-        - name: Edge Server 部署
+        - name: 边缘服务器部署
           href: ../plan-your-deployment/edge-server-deployments/edge-server-deployments.md
           items:
             - name: 系统要求
               href: ../plan-your-deployment/edge-server-deployments/system-requirements.md
-            - name: Edge 环境要求
+            - name: 边缘环境要求
               href: ../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md
               items:
-                - name: 高级 Edge Server DNS
+                - name: 高级边缘服务器 DNS
                   href: ../plan-your-deployment/network-requirements/advanced-edge-server-dns.md
             - name: 应用场景
               href: ../plan-your-deployment/edge-server-deployments/scenarios.md
@@ -428,7 +428,7 @@
         - name: 安装
           href: ../deploy/install/install.md
           items:
-            - name: 安装必备组件
+            - name: 安装先决条件
               href: ../deploy/install/install-prerequisites.md
             - name: 创建文件共享
               href: ../deploy/install/create-a-file-share.md
@@ -479,7 +479,7 @@
         - name: 部署监控
           href: ../deploy/deploy-monitoring/deploy-monitoring.md
           items:
-            - name: 关联监视存储情况
+            - name: 关联监控存储
               href: ../deploy/deploy-monitoring/associate-a-monitoring-store.md
             - name: 安装 SQL Server Reporting Services
               href: ../deploy/deploy-monitoring/install-sql-server-reporting-services.md
@@ -487,9 +487,9 @@
               href: ../deploy/deploy-monitoring/install-monitoring-reports.md
             - name: 监控报告与镜像数据库
               href: ../deploy/deploy-monitoring/monitoring-reports-with-a-mirror-database.md
-            - name: 呼叫详细信息记录和 QoE
+            - name: 呼叫详细记录和 QoE
               href: ../deploy/deploy-monitoring/call-detail-recording-and-qoe.md
-            - name: 清除呼叫详细信息记录和 QoE
+            - name: 清除呼叫详细记录和 QoE
               href: ../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md
         - name: 部署视频互操作服务器
           href: ../deploy/deploy-video-interop-server/deploy-video-interop-server.md
@@ -540,9 +540,9 @@
                   href: ../deploy/deploy-enterprise-voice/test-sip-trunk-configuration.md
                 - name: 查看 SIP 信息
                   href: ../deploy/deploy-enterprise-voice/view-sip-info.md
-            - name: 来电显示规则
+            - name: 来电 ID 显示规则
               href: ../deploy/deploy-enterprise-voice/caller-id-presentation-rules.md
-            - name: 去电显示规则
+            - name: 去电 ID 显示规则
               href: ../deploy/deploy-enterprise-voice/called-id-presentation-rules.md
             - name: 规范化规则
               href: ../deploy/deploy-enterprise-voice/normalization-rules.md
@@ -553,7 +553,7 @@
               items:
                 - name: 语音策略和 PSTN 用法记录
                   href: ../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md
-                - name: 配置语义邮件转义
+                - name: 配置语音邮件转义
                   href: ../deploy/deploy-enterprise-voice/configure-voice-mail-escape.md
                 - name: 查看 PSTN 用法记录
                   href: ../deploy/deploy-enterprise-voice/view-pstn-usage-records.md
@@ -612,7 +612,7 @@
             - name: 部署呼叫管理功能
               href: ../deploy/deploy-enterprise-voice/deploy-call-management-features.md
               items:
-                - name: 呼叫寄存的部署过程
+                - name: 呼叫寄存的部署流程
                   href: ../deploy/deploy-enterprise-voice/deployment-process-for-call-park.md
                   items:
                     - name: 创建或修改呼叫寄存通道范围
@@ -627,14 +627,14 @@
                       href: ../deploy/deploy-enterprise-voice/verify-normalization-rules-for-call-park.md
                     - name: （可选）验证呼叫寄存部署
                       href: ../deploy/deploy-enterprise-voice/optional-verify-call-park-deployment.md
-                - name: 组内呼叫应答的部署流程
+                - name: 群组代接的部署流程
                   href: ../deploy/deploy-enterprise-voice/deployment-process-for-group-call-pickup.md
                   items:
                     - name: 部署 SEFAUtil 池
                       href: ../deploy/deploy-enterprise-voice/deploy-the-sefautil-tool.md
-                    - name: 创建或修改组内呼叫应答号码范围
+                    - name: 创建或修改群组代接号码范围
                       href: ../deploy/deploy-enterprise-voice/create-or-modify-a-group-call-pickup-number-range.md
-                    - name: 为用户启用组内呼叫应答并分配组号码
+                    - name: 为用户启用群组代接并分配组号码
                       href: ../deploy/deploy-enterprise-voice/enable-group-call-pickup-for-users-and-assign-a-group-number.md
                 - name: 响应组的部署流程
                   href: ../deploy/deploy-enterprise-voice/deployment-process-for-response-group.md
@@ -664,7 +664,7 @@
                       href: ../deploy/deploy-enterprise-voice/optional-verify-announcement-deployment.md
             - name: 部署共享线路外观
               href: ../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md
-            - name: 安装和配置忙选项
+            - name: 安装和配置忙碌选项
               href: ../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md
         - name: 与 Exchange Server 集成
           href: ../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md
@@ -696,18 +696,18 @@
           items:
             - name: Office Web 应用服务器
               href: ../deploy/deploy-conferencing/office-web-app-server.md
-            - name: 电话拨入式会议
+            - name: 拨入式会议
               href: ../deploy/deploy-conferencing/dial-in-conferencing.md
             - name: 会议室系统 v1 管理 Web 门户
               href: ../deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md
-        - name: 部署 Edge Server
+        - name: 部署边缘服务器
           href: ../deploy/deploy-edge-server/deploy-edge-server.md
           items:
-            - name: Create your Edge topology
+            - name: 创建边缘拓扑
               href: ../deploy/deploy-edge-server/create-your-edge-topology.md
-            - name: Deploy Edge Servers
+            - name: 部署边缘服务器
               href: ../deploy/deploy-edge-server/deploy-edge-servers.md
-            - name: 验证 Edge 部署
+            - name: 验证边缘部署
               href: ../deploy/deploy-edge-server/validate-edge-deployment.md
         - name: 部署和配置移动功能
           href: ../deploy/deploy-and-configure-mobility.md
@@ -734,24 +734,24 @@
             - name: 配置智能联系人列表
               href: ../deploy/deploy-clients/configure-smart-contacts-list.md
               items:
-                - name: Skype 会议室系统交换和 Skype 帐户
+                - name: Skype 会议室系统交换和 Skype 账户
                   href: ../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md
                   items:
-                    - name: 单林本地部署
+                    - name: 单个林本地部署
                       href: ../deploy/deploy-clients/single-forest-on-premises-deployments.md
-                    - name: 多林本地部署
+                    - name: 多个林本地部署
                       href: ../deploy/deploy-clients/multiple-forest-on-premises-deployments.md
-                    - name: 在 Office 365 中预配 Skype 会议室系统帐户
+                    - name: 在 Office 365 中设置 Skype 会议系统账户
                       href: ../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md
                     - name: 混合部署
                       href: ../deploy/deploy-clients/hybrid-deployments.md
-                    - name: 会议室系统和联盟伙伴
+                    - name: 会议系统和联盟合作伙伴
                       href: ../deploy/deploy-clients/room-system-and-federated-partners.md
-                    - name: 管理 Skype 会议室系统帐户
+                    - name: 管理 Skype 会议室系统账户
                       href: ../deploy/deploy-clients/manage-skype-room-system-accounts.md
                 - name: 会议策略
                   href: ../deploy/deploy-clients/conferencing-policy.md
-                - name: 受信任域
+                - name: 受信任的域
                   href: ../deploy/deploy-clients/trusted-domains.md
                 - name: 迁移注意事项
                   href: ../deploy/deploy-clients/migration-considerations.md
@@ -761,18 +761,18 @@
                   href: ../deploy/deploy-clients/skype-for-business-software-liicense.md
                 - name: 可管理性和工具
                   href: ../deploy/deploy-clients/manageability-and-tools.md
-                - name: 会议室设置脚本
+                - name: 会议室安装脚本
                   href: ../deploy/deploy-clients/room-setup-scripts.md
             - name: 会议室系统 v2
               href: ../deploy/deploy-clients/room-systems-v2.md
               items:
                 - name: 使用 Office 365
                   href: ../deploy/deploy-clients/with-office-365.md
-                - name: 与 Skype for Business Server 2015
+                - name: 使用 Skype for Business Server 2015
                   href: ../deploy/deploy-clients/with-skype-for-business-server-2015.md
-                - name: 与 Exchange Online
+                - name: 使用 Exchange Online
                   href: ../deploy/deploy-clients/with-exchange-online.md
-                - name: 与 Exchange 本地
+                - name: 使用 本地 Exchange
                   href: ../deploy/deploy-clients/with-exchange-on-premises.md
                 - name: 控制台
                   href: ../deploy/deploy-clients/console.md
@@ -833,7 +833,7 @@
               href: ../manage/persistent-chat/configure-compliance.md
             - name: 备份和还原数据库
               href: ../manage/persistent-chat/back-up-and-restore-databases.md
-            - name: 高额用型和灾难恢复
+            - name: 高可用型和灾难恢复
               href: ../manage/persistent-chat/high-availability-and-disaster-recovery.md
             - name: 监视、启动和停止服务
               href: ../manage/persistent-chat/monitor-start-and-stop-services.md
@@ -842,7 +842,7 @@
           items:
             - name: 访问监控数据
               href: ../manage/health-and-monitoring/access-monitoring-data.md
-            - name: 呼叫详细信息记录 (CDR)
+            - name: 呼叫详细记录 (CDR)
               href: ../manage/health-and-monitoring/call-detail-recording-cdr.md
               items:
                 - name: 查看配置信息
@@ -855,7 +855,7 @@
                   href: ../manage/health-and-monitoring/create-or-modify-a-collection-of-settings.md
                 - name: 删除现有 CDR 配置设置集合
                   href: ../manage/health-and-monitoring/delete-configuration-settings.md
-            - name: Quality of Experience － 用户体验质量
+            - name: 体验质量
               href: ../manage/health-and-monitoring/quality-of-experience.md
               items:
                 - name: 创建 QoE 配置设置
@@ -950,7 +950,7 @@
                   items:
                     - name: 摘要
                       href: ../manage/health-and-monitoring/summary.md
-                    - name: Comparison
+                    - name: 比较
                       href: ../manage/health-and-monitoring/comparison.md
                     - name: 服务器性能
                       href: ../manage/health-and-monitoring/server-performance.md
@@ -976,9 +976,9 @@
             - name: 选项
               href: ../manage/archiving/options.md
               items:
-                - name: 创建配置文件
+                - name: 创建配置
                   href: ../manage/archiving/create-a-configuration.md
-                - name: 删除配置文件
+                - name: 删除配置
                   href: ../manage/archiving/delete-a-configuration.md
                 - name: 启用或禁用存档
                   href: ../manage/archiving/enable-or-disable-archiving.md
@@ -1020,7 +1020,7 @@
             - name: 会议配置设置
               href: ../manage/conferencing/meeting-configuration-settings.md
               items:
-                - name: 视图设置
+                - name: 查看设置
                   href: ../manage/conferencing/view-settings.md
                 - name: 创建设置
                   href: ../manage/conferencing/create-settings.md
@@ -1030,7 +1030,7 @@
                   href: ../manage/conferencing/delete-settings.md
             - name: 会议服务器配置设置
               href: ../manage/conferencing/conferencing-server-configuration-settings.md
-            - name: 电话拨入式会议
+            - name: 拨入式会议
               href: ../manage/conferencing/dial-in-conferencing.md
               items:
                 - name: 启用或禁用
@@ -1073,7 +1073,7 @@
                   href: ../manage/federation-and-external-access/external-access-policies/delete-a-site-or-user-policy-for-external-user-access.md
                 - name: 重置外部用户访问的全局策略
                   href: ../manage/federation-and-external-access/external-access-policies/reset-the-global-policy-for-external-user-access.md
-            - name: 管理您的组织的访问边缘配置
+            - name: 管理你的组织的访问边缘配置
               href: ../manage/federation-and-external-access/access-edge/manage-access-edge-configuration-for-your-organization.md
               items:
                 - name: 启用或禁用联盟和公共 IM 连接
@@ -1094,7 +1094,7 @@
               href: ../manage/federation-and-external-access/sip-providers/manage-sip-federated-providers-for-your-organization.md
             - name: 为 Skype for Business Online 客户配置联合身份验证支持
               href: ../manage/federation-and-external-access/federation-support/configuring-federation-support.md
-        - name: 网络
+        - name: Network
           items:
             - name: 服务质量 (QoS)
               href: ../manage/network-management/qos/managing-quality-of-service-qos.md
@@ -1103,7 +1103,7 @@
                   href: ../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md
                 - name: 配置会议、应用程序和中介服务器的端口范围和 QoS 策略
                   href: ../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md
-                - name: 为 Edge Server 配置端口范围和 QoS 策略
+                - name: 为边缘服务器配置端口范围和 QoS 策略
                   href: ../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md
                 - name: 为 Skype for Business Server 客户端配置端口范围和 QoS 策略
                   href: ../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md
@@ -1159,7 +1159,7 @@
                   href: ../manage/authentication/delete-a-pin-policy.md
                 - name: 分配每用户 PIN 策略
                   href: ../manage/authentication/assign-a-per-user-pin-policy.md
-                - name: 设置用户的电话拨入式会议 PIN
+                - name: 设置用户的拨入式会议 PIN
                   href: ../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md
                 - name: 查看用户 PIN 信息
                   href: ../manage/authentication/view-user-pin-information.md
@@ -1170,7 +1170,7 @@
               items:
                 - name: 配置双因素身份验证
                   href: ../manage/authentication/configure-two-factor.md
-                - name: 使用双重身份验证
+                - name: 使用双因素身份验证
                   href: ../manage/authentication/use-two-factor.md
         - name: 增强型 9-1-1 和位置服务
           href: ../manage/enhanced-9-1-1-and-location-service.md
@@ -1210,7 +1210,7 @@
       items:
         - name: 安装和打开管理工具
           href: ../management-tools/install-and-open-administrative-tools.md
-        - name: 呼叫质量仪表板
+        - name: 通话质量仪表板
           href: ../management-tools/call-quality-dashboard/call-quality-dashboard.md
           items:
             - name: 计划
@@ -1306,7 +1306,7 @@
               href: ../management-tools/statistics-manager/deploy.md
             - name: 升级
               href: ../management-tools/statistics-manager/upgrade.md
-            - name: 疑难解答
+            - name: 排除故障
               href: ../management-tools/statistics-manager/troubleshoot.md
         - name: 资源套件工具
           href: ../management-tools/resource-kit-tools.md
@@ -1334,7 +1334,7 @@
                   href: ../management-tools/planning-tool/dial-in-conferencing.md
                 - name: Web 会议
                   href: ../management-tools/planning-tool/web-conferencing.md
-                - name: Enterprise Voice
+                - name: 企业语音
                   href: ../management-tools/planning-tool/enterprise-voice.md
                 - name: Exchange 统一消息设置
                   href: ../management-tools/planning-tool/exchange-unified-messaging-settings.md
@@ -1360,7 +1360,7 @@
                   href: ../management-tools/planning-tool/exchange-unified-messaging.md
                 - name: 负载平衡器
                   href: ../management-tools/planning-tool/load-balancer.md
-                - name: 控制器
+                - name: 主管
                   href: ../management-tools/planning-tool/director.md
                 - name: 客户端设置
                   href: ../management-tools/planning-tool/client-settings.md
@@ -1370,9 +1370,9 @@
                   href: ../management-tools/planning-tool/archiving.md
                 - name: 分支站点
                   href: ../management-tools/planning-tool/branch-sites.md
-                - name: Edge 网络
+                - name: 边缘网络
                   href: ../management-tools/planning-tool/edge-network.md
-                - name: 媒体绕过
+                - name: 媒体旁路
                   href: ../management-tools/planning-tool/media-bypass.md
                 - name: 语音基础结构
                   href: ../management-tools/planning-tool/voice-infrastructure.md
@@ -1417,7 +1417,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencejointimethresholds.md
                 - name: ConferenceMessageCount
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencemessagecount.md
-                - name: Conferences
+                - name: 会议
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferences.md
                 - name: ConferenceSessionDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencesessiondetails-0.md
@@ -1437,15 +1437,15 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/errorcategory.md
                 - name: ErrorDef
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/errordef.md
-                - name: ErrorReport
+                - name: error.report
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/errorreport.md
                 - name: FileTransfers
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/filetransfers-0.md
                 - name: FocusJoinsAndLeaves
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/focusjoinsandleaves.md
-                - name: 前端
+                - name: FrontEnd
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/frontend.md
-                - name: Gateways
+                - name: 网关
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/gateways.md
                 - name: HardwareVersions
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/hardwareversions.md
@@ -1459,7 +1459,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mcujoinsandleaves.md
                 - name: Mcus
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mcus.md
-                - name: 媒体
+                - name: Media
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/media.md
                 - name: MediaList
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/medialist.md
@@ -1467,19 +1467,19 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mediationservers.md
                 - name: MSMQProcessing
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/msmqprocessing.md
-                - name: 手机
+                - name: 电话
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/phones.md
-                - name: Pools
+                - name: 池
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/pools.md
                 - name: ProgressReport
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/progressreport.md
                 - name: PurgeSettings
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/purgesettings.md
-                - name: Registration
+                - name: 注册
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/registration.md
                 - name: 角色
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/roles.md
-                - name: Servers
+                - name: 服务器
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/servers.md
                 - name: SessionDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/sessiondetails.md
@@ -1499,7 +1499,7 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/users.md
                 - name: UserAgentDef
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/useragentdef.md
-                - name: VoipDetails
+                - name: VoIPDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/voipdetails-0.md
                 - name: UserStatistics
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/userstatistics.md
@@ -1510,13 +1510,13 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/clientversions-0.md
                 - name: ConferenceMessageCount
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencemessagecount-0.md
-                - name: Conferences
+                - name: 会议
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferences-0.md
                 - name: ConferenceSessionDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencesessiondetails.md
                 - name: ConferenceUris
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/conferenceuris-0.md
-                - name: ErrorReport
+                - name: error.report
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/errorreport-0.md
                 - name: FileTransfers
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/filetransfers.md
@@ -1526,11 +1526,11 @@
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mcus-0.md
                 - name: McuJoinsAndLeaves
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/mcujoinsandleaves-0.md
-                - name: 媒体
+                - name: Media
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/media-0.md
                 - name: ProgressReport
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/progressreport-0.md
-                - name: Registration
+                - name: 注册
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/registration-0.md
                 - name: SessionDetails
                   href: ../schema-reference/call-detail-recording-cdr-database-schema/sessiondetails-0.md
@@ -1560,7 +1560,7 @@
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/audiostream.md
                 - name: CodecDescription
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/codecdescription.md
-                - name: Conference
+                - name: 会议
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/conference.md
                 - name: 设备
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/device.md
@@ -1568,7 +1568,7 @@
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/devicedriver.md
                 - name: 对话框
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/dialog.md
-                - name: Endpoint
+                - name: 终结点
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/endpoint.md
                 - name: EndpointSubnet
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/endpointsubnet.md
@@ -1586,11 +1586,11 @@
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/networkconnectiondetail.md
                 - name: PayloadDescription
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/payloaddescription.md
-                - name: Pool
+                - name: 池
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/pool.md
                 - name: PurgeSettings (QoE)
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/purgesettings-qoe.md
-                - name: 区域
+                - name: 地区
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/region.md
                 - name: 服务器
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/server.md
@@ -1631,7 +1631,7 @@
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/useragent-0.md
                 - name: VideoStreamDetail
                   href: ../schema-reference/quality-of-experience-qoe-database-schema/videostreamdetail.md
-            - name: Sample QoE database queries
+            - name: 示例 QoE 数据库查询
               href: ../schema-reference/quality-of-experience-qoe-database-schema/sample-qoe-database-queries.md
         - name: 持久聊天数据库架构
           href: ../schema-reference/persistent-chat-database-schema/persistent-chat-database-schema.md
@@ -1776,7 +1776,7 @@
               href: ../help-topics/help-depwiz/certificate-request-certificate-signing-request.md
             - name: 证书请求（已生成证书签名请求）
               href: ../help-topics/help-depwiz/certificate-request-certificate-signing-request-generated.md
-            - name: C证书请求（地理位置）
+            - name: 证书请求（地理位置）
               href: ../help-topics/help-depwiz/certificate-request-geography.md
             - name: 证书请求（简介）
               href: ../help-topics/help-depwiz/certificate-request-intro.md
@@ -1930,7 +1930,7 @@
               href: ../help-topics/help-lscp/sip-federated-providers-create-new-or-edit-existing.md
             - name: SIP 联盟提供商
               href: ../help-topics/help-lscp/sip-federated-providers.md
-            - name: Skype for Business Server 控制面板的首次运行检查表
+            - name: Skype for Business Server 控制面板的首次运行清单
               href: ../help-topics/help-lscp/first-run-checklist-for-skype-for-business-server-control-panel.md
             - name: 管理角色和 Lync Server 控制面板
               href: ../help-topics/help-lscp/administrative-roles-and-lync-server-control-panel.md
@@ -2100,7 +2100,7 @@
               href: ../help-topics/help-lscp/select-normalization-rules.md
             - name: 呼叫寄存：创建新的或编辑现有的
               href: ../help-topics/help-lscp/call-park-create-new-or-edit-existing.md
-            - name: Call Park － 呼叫寄存
+            - name: 呼叫寄存
               href: ../help-topics/help-lscp/call-park.md
             - name: 选择通知服务
               href: ../help-topics/help-lscp/select-an-announcement-service.md
@@ -2130,7 +2130,7 @@
               href: ../help-topics/help-lscp/prefix-edit.md
             - name: 规范化规则：键入正则表达式
               href: ../help-topics/help-lscp/normalization-rule-type-a-regular-expression.md
-            - name: 选择 Trunk
+            - name: 选择中继
               href: ../help-topics/help-lscp/select-trunk.md
             - name: 转换规则：键入正则表达式
               href: ../help-topics/help-lscp/translation-rule-type-a-regular-expression.md
@@ -2222,13 +2222,13 @@
               href: ../management-tools/planning-tool/client-settings.md
             - name: 电话拨入式会议
               href: ../management-tools/planning-tool/dial-in-conferencing.md
-            - name: 控制器
+            - name: 主管
               href: ../management-tools/planning-tool/director.md
             - name: 灾难恢复
               href: ../management-tools/planning-tool/disaster-recovery.md
-            - name: Edge 网络
+            - name: 边缘网络
               href: ../management-tools/planning-tool/edge-network.md
-            - name: Enterprise Voice
+            - name: 企业语音
               href: ../management-tools/planning-tool/enterprise-voice.md
             - name: Exchange 统一消息
               href: ../management-tools/planning-tool/exchange-unified-messaging.md
@@ -2244,7 +2244,7 @@
               href: ../management-tools/planning-tool/ip-version.md
             - name: 负载平衡器
               href: ../management-tools/planning-tool/load-balancer.md
-            - name: 媒体绕过
+            - name: 媒体旁路
               href: ../management-tools/planning-tool/media-bypass.md
             - name: 中介并置
               href: ../management-tools/planning-tool/mediation-collocation.md
@@ -2278,7 +2278,7 @@
               href: ../help-topics/help-topobld/add-survivable-branch-appliance-pool.md
             - name: 添加 Survivable Branch Appliance PSTN
               href: ../help-topics/help-topobld/add-survivable-branch-appliance-pstn.md
-            - name: 添加分支机构详细信息
+            - name: 添加分支站点详细信息
               href: ../help-topics/help-topobld/add-branch-site-details.md
             - name: 添加分支站点名称
               href: ../help-topics/help-topobld/add-branch-site-name.md
@@ -2342,7 +2342,7 @@
               href: ../help-topics/help-topobld/add-edge-server-support.md
             - name: 添加受信任的应用程序计算机
               href: ../help-topics/help-topobld/add-trusted-application-machine.md
-            - name: 添加下一跃点受信任的应用程序服务器
+            - name: 添加 NextHop 受信任应用程序服务器
               href: ../help-topics/help-topobld/add-nexthop-trusted-application-server.md
             - name: 添加信任的应用程序池 FQDN
               href: ../help-topics/help-topobld/add-trusted-application-pool-fqdn.md
@@ -2412,7 +2412,7 @@
               href: ../help-topics/help-topobld/define-the-pstn-gateway-fqdn.md
             - name: 定义 IP 或 PSTN 网关的 IP 地址
               href: ../help-topics/help-topobld/define-the-ip-address-of-the-ip-or-pstn-gateway.md
-            - name: 定义新 IP 或 PSTN 网关的根 Trunk
+            - name: 定义新 IP 或 PSTN 网关的根中继
               href: ../help-topics/help-topobld/define-the-root-trunk-for-a-new-ip-or-pstn-gateway.md
             - name: 添加简单 URL
               href: ../help-topics/help-topobld/add-simple-url.md
@@ -2422,7 +2422,7 @@
               href: ../help-topics/help-topobld/add-site-name.md
             - name: 添加 SQL 存储
               href: ../help-topics/help-topobld/add-sql-store.md
-            - name: 定义新的 Trunk
+            - name: 定义新中继
               href: ../help-topics/help-topobld/define-a-new-trunk.md
             - name: 存档服务器常规设置扩展器
               href: ../help-topics/help-topobld/archiving-server-general-settings-expander.md
@@ -2444,7 +2444,7 @@
               href: ../help-topics/help-topobld/associate-front-end-with-edge.md
             - name: 将前端与监控关联
               href: ../help-topics/help-topobld/associate-front-end-with-monitoring.md
-            - name: 将前端与 Office Web Apps 服务器关联页面
+            - name: 将前端与 Office Web Apps Server 页面关联
               href: ../help-topics/help-topobld/associate-front-end-with-office-web-apps-server-page.md
             - name: 将中介服务器与边缘关联
               href: ../help-topics/help-topobld/associate-mediation-server-with-edge.md
@@ -2496,7 +2496,7 @@
               href: ../help-topics/help-topobld/edge-servers-scope-node.md
             - name: 边缘设置扩展器
               href: ../help-topics/help-topobld/edge-settings-expander.md
-            - name: 编辑 Lync Server 2010 的边缘设置扩展器
+            - name: 编辑适合于 Lync Server 2010 的边缘设置扩展器
               href: ../help-topics/help-topobld/edit-edge-settings-expander-for-lync-server-2010.md
             - name: 外部应用程序常规设置扩展器
               href: ../help-topics/help-topobld/external-application-general-settings-expander.md
@@ -2510,7 +2510,7 @@
               href: ../help-topics/help-topobld/federation-route-settings-expander.md
             - name: 中介服务设置扩展器
               href: ../help-topics/help-topobld/mediation-service-settings-expander.md
-            - name: Lync Server 2010 的前端中介服务设置扩展器
+            - name: 适合于 Lync Server 2010 的前端中介服务设置扩展器
               href: ../help-topics/help-topobld/front-end-mediation-service-settings-expander-for-lync-server-2010.md
             - name: 文件存储范围节点
               href: ../help-topics/help-topobld/file-store-scope-node.md
@@ -2520,7 +2520,7 @@
               href: ../help-topics/help-topobld/file-stores-scope-node.md
             - name: 前端常规设置扩展器
               href: ../help-topics/help-topobld/front-end-general-settings-expander.md
-            - name: Lync Server 2010 的前端常规设置扩展器
+            - name: 适合于 Lync Server 2010 的前端常规设置扩展器
               href: ../help-topics/help-topobld/front-end-general-settings-expander-for-lync-server-2010.md
             - name: 前端服务器范围节点
               href: ../help-topics/help-topobld/front-end-server-scope-node.md
@@ -2542,7 +2542,7 @@
               href: ../help-topics/help-topobld/legacy-merge-add-machine.md
             - name: 旧版合并
               href: ../help-topics/help-topobld/legacy-merge.md
-            - name: 旧版合并 Edge 类型
+            - name: 旧版合并边缘类型
               href: ../help-topics/help-topobld/legacy-merge-edge-type.md
             - name: 旧版合并 FQDN
               href: ../help-topics/help-topobld/legacy-merge-fqdn.md
@@ -2572,7 +2572,7 @@
               href: ../help-topics/help-topobld/mediation-next-hop-settings-expander.md
             - name: 中介服务器常规设置扩展器
               href: ../help-topics/help-topobld/mediation-server-general-settings-expander.md
-            - name: Lync Server 2010 的中介服务器常规设置扩展器
+            - name: 适合于 Lync Server 2010 的中介服务器常规设置扩展器
               href: ../help-topics/help-topobld/mediation-server-general-settings-expander-for-lync-server-2010.md
             - name: 中介服务器范围节点
               href: ../help-topics/help-topobld/mediation-server-scope-node.md
@@ -2592,11 +2592,11 @@
               href: ../help-topics/help-topobld/topology-builder-lync-node.md
             - name: Office Communications Server 范围节点
               href: ../help-topics/help-topobld/office-communications-server-scope-node.md
-            - name: Office Web Apps 服务器范围节点扩展器
+            - name: Office Web Apps Server 范围节点扩展器
               href: ../help-topics/help-topobld/office-web-apps-server-scope-node-expander.md
-            - name: 编辑 Office Web Apps 服务器设置
+            - name: 编辑 Office Web Apps Server 设置
               href: ../help-topics/help-topobld/edit-office-web-apps-server-settings.md
-            - name: Office Web Apps 服务器范围节点
+            - name: Office Web Apps Server 范围节点
               href: ../help-topics/help-topobld/office-web-apps-servers-scope-node.md
             - name: 呼叫允许控制设置扩展器
               href: ../help-topics/help-topobld/call-admission-control-settings-expander.md
@@ -2634,7 +2634,7 @@
               href: ../help-topics/help-topobld/registrar-sba-settings-expander.md
             - name: 注册器设置扩展器
               href: ../help-topics/help-topobld/registrar-settings-expander.md
-            - name: Lync Server for 2010 的注册器设置扩展器
+            - name: 适合于 Lync Server for 2010 的注册器设置扩展器
               href: ../help-topics/help-topobld/registrar-settings-expander-for-lync-server-for-2010.md
             - name: 删除部署
               href: ../help-topics/help-topobld/remove-deployment.md
@@ -2654,17 +2654,17 @@
               href: ../help-topics/help-topobld/sql-store-settings-expander.md
             - name: 拓扑生成器启动对话框
               href: ../help-topics/help-topobld/topology-builder-startup-dialog.md
-            - name: Trunk 范围节点
+            - name: 中继范围节点
               href: ../help-topics/help-topobld/trunk-scope-node.md
-            - name: Trunk 设置扩展器
+            - name: 中继设置扩展器
               href: ../help-topics/help-topobld/trunk-settings-expander.md
-            - name: Trunk 范围节点
+            - name: 中继范围节点
               href: ../help-topics/help-topobld/trunks-scope-node.md
             - name: Web 服务设置扩展器
               href: ../help-topics/help-topobld/web-services-settings-expander.md
-            - name: 添加 Lync Server 2010 的控制器关联
+            - name: 为 Lync Server 2010 添加控制器关联
               href: ../help-topics/help-topobld/add-director-association-for-lync-server-2010.md
-            - name: 将控制器与 Lync Server 2010 的监控页关联
+            - name: 将控制器与 Lync Server 2010 监控页面关联
               href: ../help-topics/help-topobld/associate-director-with-monitoring-page-for-lync-server-2010.md
             - name: 添加前端 Web 服务 2010
               href: ../help-topics/help-topobld/add-front-end-web-services-2010.md
@@ -2682,9 +2682,9 @@
               href: ../help-topics/help-topobld/add-vis-machine.md
             - name: 添加 VIS 下一个跃点
               href: ../help-topics/help-topobld/add-vis-next-hop.md
-            - name: 添加 VIS 使用
+            - name: 添加 VIS 用法
               href: ../help-topics/help-topobld/add-vis-usage.md
-            - name: 将 VIS 与 Edge 关联
+            - name: 将 VIS 与边缘关联
               href: ../help-topics/help-topobld/associate-vis-with-edge.md
             - name: Lync Server 2013 范围节点
               href: ../help-topics/help-topobld/lync-server-2013-scope-node.md
@@ -2712,7 +2712,7 @@
               href: ../help-topics/help-topobld/video-interop-serverscope-the-node.md
             - name: 视频互操作服务器 - 范围节点
               href: ../help-topics/help-topobld/video-interop-serversscope-the-node.md
-            - name: 添加带有单个 FQDN 页面的 Edge Server
+            - name: 添加带有单个 FQDN 的边缘服务器页面
               href: ../help-topics/help-topobld/add-edge-server-with-single-fqdn-page.md
             - name: 测试 - Skype for Business Server 站点范围节点
               href: ../help-topics/help-topobld/testskype-for-business-server-site-scope-node.md
