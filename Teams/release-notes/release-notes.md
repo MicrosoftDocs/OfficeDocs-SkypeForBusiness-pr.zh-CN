@@ -16,24 +16,36 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 管理员功能的发行说明。
-ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: f81ba33f75a7b94618b0344ce2136009b42e8402
+ms.sourcegitcommit: ef88694f6015ed2ff840ae78657b84700ce16815
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701310"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49728162"
 ---
-# <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 管理员功能发行说明
+# <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 管理员功能的发行说明
 
 这些发行说明提供有关 Microsoft Teams 的新管理员功能的信息。
 
-## <a name="november-25-2020"></a>2020 年 11 月 25 日
+## <a name="december-21-2020"></a>2020 年 12 月 21 日
 
-### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>为 Google Workspace 设置 Microsoft Teams 会议加载项
+### <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>通话套餐支持的费率中心和覆盖范围
 
-使用 Microsoft Teams 会议加载项，Google 日历用户可以直接从 Google Workspace 安排和加入 Microsoft Teams 会议。 用户可以访问 Teams 会议功能，包括视频和音频会议、屏幕共享、会议聊天、数字绘图板等。 保持连接和井井有条，以在工作、学校及生活之间共同完成更多工作。
+费率中心是一个地理区域的行业术语，传统上，该地理区域定义公共电话交换网和 PSTN (的本地呼叫、计费费率和) 。 [了解详细信息](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix)。
 
-必须先由 Teams 管理员启用适用于 Google Workspace 的 Microsoft Teams 会议加载项，租户用户才能访问该应用。 [了解详细信息](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad)。
+## <a name="december-18-2020"></a>2020 年 12 月 18 日
+
+### <a name="updated-meeting-settings-policies-for-breakout-rooms"></a>更新了"分组讨论室"的会议设置策略
+
+ Teams 中的分组会议室用于将会议拆分为单独的小型会议室。 此设置控制会议组织者是否可选择在安排或启动的会议中创建和管理分组讨论室。 此策略设置会影响所有会议，包括"现在开会"会议。 [了解详细信息](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms)。
+
+## <a name="december-9-2020"></a>2020 年 12 月 9 日
+
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Microsoft 365 学习路径 Teams 顾问
+
+Microsoft 365 学习途径是一种按需学习解决方案，你可以自定义该解决方案来培训用户，并提高组织中 Teams 的使用率和采用率。 将学习途径与 Teams 顾问配合使用，让你的用户能够快速启动和运行，并推动采用。
+
+学习途径为你提供了 SharePoint Online 网站模板，并让你能够轻松地为你的用户构建学习网站。 你可以自定义学习路径培训门户，以包含特定于用户需求的培训和支持内容。 使用 Microsoft 联机目录中的 Teams 播放列表并添加你自己的播放列表。 [了解详细信息](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#advisor-for-teams-and-microsoft-365-learning-pathways)。
 
 ## <a name="october-28-2020"></a>2020 年 10 月 28 日
 
@@ -53,13 +65,13 @@ Microsoft Teams 提供许多对医院和其他医疗保健组织有用的功能�
 
 ### <a name="teams-displays"></a>Teams 显示
 
-Microsoft Teams 显示器是一类一体式专用 Teams 设备，具有环境触摸屏和 Cortana 支持的免费免提体验。 [了解详细信息](https://docs.microsoft.com/microsoftteams/devices/teams-displays)。
+Microsoft Teams 显示器是一类一体式专用 Teams 设备，具有环境触摸屏和 Cortana 提供的免费体验。 [了解详细信息](https://docs.microsoft.com/microsoftteams/devices/teams-displays)。
 
 ## <a name="october-22-2020"></a>2020 年 10 月 22 日
 
 ### <a name="manage-skype-for-business-settings-for-your-users"></a>管理用户的 Skype for Business 设置
 
-可以在 Microsoft Teams 管理中心管理组织中 Skype for Business 用户的 Skype for Business 设置。  转到用户详细信息页上的 Skype for Business 选项卡。 在这里，你可以管理单个用户的外部访问和会议设置。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+可以在 Microsoft Teams 管理中心管理组织中 Skype for Business 用户的 Skype for Business 设置。  转到用户详细信息页上的"Skype for Business"选项卡。 在这里，您可以管理单个用户的外部访问和会议设置。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>管理组织的 Skype for Business 设置
 
@@ -69,7 +81,7 @@ Microsoft Teams 显示器是一类一体式专用 Teams 设备，具有环境触
 
 ### <a name="manage-shift-based-access-for-firstline-workers"></a>管理一线员工基于班次的访问
 
-作为管理员，你可以将 Teams 配置为为组织中一线员工显示一组基于班次的显示状态，以指示他们何时上班和关班。 使用基于班次的访问，可以在一线员工轮班时管理对 Teams 的访问权限。 例如，可以将 Teams 设置为显示一条消息，一线员工必须先确认消息，然后他们才能在未安排班次时使用 Teams。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
+作为管理员，你可以将 Teams 配置为为组织中一线员工显示一组基于班次的显示状态，以指示他们何时上班和下班。 使用基于班次的访问，可以在一线员工轮班时管理对 Teams 的访问权限。 例如，可以将 Teams 设置为显示一条消息，一线员工必须先确认该消息，然后他们才能在未安排班次时使用 Teams。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
 
 ## <a name="october-15-2020"></a>2020 年 10 月 15 日
 
@@ -95,7 +107,7 @@ Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Micro
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心查看应用权限并授予管理员许可
 
-现在，在 Teams 管理中心中，全局管理员将能够代表整个租户查看并许可在 Azure Active Directory 中注册的图形 API 权限，以便应用请求的权限，例如读取存储在团队中的信息或代表用户发送电子邮件。 现在，IT 管理员将能够查看特定于资源的许可 (RSC) Teams 管理中心内应用的权限。 这样，管理员就可以取消阻止其用户使用已查看并批准在组织中使用的第三方应用。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
+现在，在 Teams 管理中心中，全局管理员将能够代表整个租户查看并授予许可在 Azure Active Directory 中注册的图形 API 权限，这些权限适用于应用所请求的权限，例如读取存储在团队中的信息或代表用户发送电子邮件。 现在，IT 管理员将能够查看 RSC (资源) Teams 管理中心内应用的权限。 这样，管理员就可以取消阻止其用户使用已查看并批准在组织中使用的第三方应用。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
 
 ### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>对奥地利、丹麦、意大利、葡萄牙、瑞典和瑞士的通话套餐支持
 
@@ -105,7 +117,7 @@ Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Micro
 
 ### <a name="meeting-policy-settings"></a>会议策略设置
 
-在 Teams 会议策略中为 IP 音频和 IP 视频添加两个策略设置：IP 音频模式和 IP 视频模式。 现在可以在 Teams 会议策略中设置传入和传出 IP 音频和 IP 视频。 [了解详细信息](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
+在 Teams 会议策略中为 IP 音频和 IP 视频添加两个策略设置：IP 音频模式和 IP 视频模式。 现在可以在 Teams 会议策略中设置传入和传出 IP 音频与 IP 视频。 [了解详细信息](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
 
 ## <a name="september-27-2020"></a>2020 年 9 月 27 日
 
@@ -123,19 +135,19 @@ Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Micro
 
 ### <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Microsoft Power Platform 应用
 
-作为管理员，你可以控制用户是否可以在 Teams 的"应用"页面上查看和安装同事构建的 Microsoft Power Platform 应用。 可以统一阻止或允许 Power Apps 中创建的所有应用，或者"管理应用"页面上组织级别的 Power Virtual [](../manage-apps.md) Agents 中创建的所有应用，或者使用应用权限策略为特定用户创建[的所有应用](../teams-app-permission-policies.md)。 [了解详细信息](../manage-power-platform-apps.md)。
+作为管理员，你可以控制用户是否可以在 Teams 的"应用"页面上查看和安装同事构建的 Microsoft Power Platform 应用。 可以统一阻止或允许 Power Apps 中创建的所有应用，或者"管理应用"页面上组织级别的 Power Virtual [](../manage-apps.md) Agents 中创建的所有应用，或者针对使用应用权限策略的特定[用户创建的所有应用](../teams-app-permission-policies.md)。 [了解详细信息](../manage-power-platform-apps.md)。
 
 ## <a name="september-19-2020"></a>2020 年 9 月 19 日
 
 ### <a name="sharing-files-in-microsoft-teams"></a>在 Microsoft Teams 中共享文件
 
-在 Microsoft Teams 中，用户可以与组织内外的其他 Teams 用户共享内容。 Teams 中的共享基于 SharePoint 和 OneDrive 中配置的设置，因此，为 SharePoint 和 OneDrive 设置的任何设置都将控制 Teams 中的共享。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)。
+在 Microsoft Teams 中，用户可以与组织内外的其他 Teams 用户共享内容。 Teams 中的共享基于在 SharePoint 和 OneDrive 中配置的设置，因此你为 SharePoint 和 OneDrive 设置的任何内容也将控制 Teams 中的共享。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)。
 
 ## <a name="september-16-2020"></a>2020 年 9 月 16 日
 
 ### <a name="new-third-party-video-provider-riverbed"></a>新的第三方视频提供商 Riverbed
 
-使用 Teams 实时事件设置来配置组织中举行实时事件的设置。 可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在组织中创建的所有实时事件。 Riverbed 是新的第三方提供商。 [了解详细信息](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider)。
+使用 Teams 实时事件设置为组织中举行实时事件配置设置。 可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在组织中创建的所有实时事件。 Riverbed 是新的第三方提供商。 [了解详细信息](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider)。
 
 ## <a name="september-15-2020"></a>2020 年 9 月 15 日
 
@@ -147,7 +159,7 @@ Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Micro
 
 ### <a name="porting-pin"></a>移植 PIN
 
-我们添加了设置和管理用于转转或转移电话号码的 PIN 的能力。 当你想要将号码从 Microsoft 移植到服务提供商时，你将向 PSTN 服务台提供此 PIN。 [了解详细信息](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。
+我们添加了设置和管理用于转转或转移电话号码的 PIN 的能力。 当您想要将号码从 Microsoft 移植到服务提供商时，您将向 PSTN 服务台提供此 PIN。 [了解详细信息](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。
 
 ## <a name="september-3-2020"></a>2020 年 9 月 3 日
 
@@ -183,7 +195,7 @@ Microsoft Teams 中的"表扬"应用可帮助用户向组织或课堂成员表�
 
 ### <a name="cortana-voice-skills-in-teams"></a>Teams 中的 Cortana 语音技能
 
-Teams 移动应用中的 Cortana 语音技能可帮助用户直接使用说出的自然语言执行会议、通信和协作任务。 用户可以通过单击 Teams 应用中的麦克风按钮来与 Cortana 通话，并发出请求，例如"呼叫 Megan"或"向我下一次会议发送消息"（如果他们需要与某人联系，同时处理家庭琐事或步行去狗或通常在路旁）。 用户只需说"加入我的下一个会议"就可以加入会议，或者通过询问"我早上拥有什么"来查看他们的日历。 进入会议或通话后，他们可以从会议台的溢出菜单中调用 Cortana 并执行典型的会议内任务，例如按姓名或编号添加人员 ("将 Megan 添加到呼叫") ，幻灯片演示文稿 ("演示季度评论幻灯片") 或导航幻灯片 ("转到附录幻灯片") 。 该功能支持的其他功能包括查找和共享文件、搜索和在 Teams 应用中导航 ("打开与 John 的聊天，转到我的未读活动，转到我的提及内容) 。
+Teams 移动应用中的 Cortana 语音技能可帮助用户直接使用说出的自然语言执行会议、通信和协作任务。 用户可以通过单击 Teams 应用中的麦克风按钮来与 Cortana 通话，并发出请求，例如"呼叫 Megan"或"向我下一次会议发送消息"（如果他们需要与某人联系，同时处理家庭琐事或走狗或一般在路中）。 用户只需说"加入我的下一个会议"就可以加入会议，或者通过询问"我早上拥有什么"来查看他们的日历。 进入会议或通话后，他们可以从会议台的溢出菜单中调用 Cortana 并执行典型的会议内任务，例如按姓名或编号添加人员 ("将 Megan 添加到呼叫") 、幻灯片演示文稿 ("演示季度评论幻灯片") 或导航幻灯片 ("转到附录幻灯片") 。 该功能支持的其他功能包括查找和共享文件、搜索和在 Teams 应用中导航 ("打开与 John 的聊天，转到我的未读活动，转到我的提及内容) 。
 
 Teams 中的 Cortana 满足 Cortana 企业服务的企业级隐私、安全性和符合性承诺，如联机服务条款 ([OST) 。 ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [了解详细信息](https://docs.microsoft.com/microsoftteams/cortana-in-teams)。
 
@@ -227,7 +239,7 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ### <a name="create-your-own-teams-template"></a>创建自己的 Teams 模板
 
-现在，可以使用管理控制台中的模板创建自己的 Teams 模板，或基于现有模板创建 Teams 模板。 [了解详细信息](../get-started-with-teams-templates-in-the-admin-console.md)。
+现在，可以使用管理控制台中的模板创建自己的 Teams 模板，或者从现有模板创建 Teams 模板。 [了解详细信息](../get-started-with-teams-templates-in-the-admin-console.md)。
 
 ## <a name="july-20-2020"></a>2020 年 7 月 20 日
 
@@ -283,7 +295,7 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ### <a name="screen-sharing-on-behalf-of-others"></a>代表他人进行屏幕共享
 
-许多 IT 管理员抱怨在禁用 AllowPrivateCalling 策略时无法让员工进行屏幕共享。 此功能工作将启动屏幕的功能与 AllowPrivateCalling 策略分离，但它仍然阻止用户在禁用 AllowPrivateCalling 策略时将音频/视频添加到屏幕共享会话。
+许多 IT 管理员抱怨在禁用 AllowPrivateCalling 策略时无法通过聊天共享员工屏幕。 此功能工作使从 AllowPrivateCalling 策略中启动屏幕的功能与聊天分离，但它仍然阻止用户在禁用 AllowPrivateCalling 策略时将音频/视频添加到屏幕共享会话。
 
 ## <a name="june-29-2020"></a>2020 年 6 月 29 日
 
@@ -329,13 +341,13 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ### <a name="raise-hand-in-meetings"></a>在会议中举手
 
-现在，用户可以在会议中举手！ 其他参与者将在会议台中您的姓名旁边和花名册中您的姓名旁边看到您的举手。 [了解详细信息](../raise-hand-meetings.md)。
+用户现在可以在会议中举手！ 其他参与者将在会议台中您的姓名旁边和花名册中您的姓名旁边看到您的举手。 [了解详细信息](../raise-hand-meetings.md)。
 
 ## <a name="may-15-2020"></a>2020 年 5 月 15 日
 
 ### <a name="add-more-people-to-a-chat"></a>向聊天添加更多人员
 
-我们现在可以将最多 350 人添加到单个聊天线程。
+我们现在可以将多达 350 人添加到单个聊天线程。
 
 ## <a name="may-5-2020"></a>2020 年 5 月 5 日
 
@@ -351,7 +363,7 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ### <a name="include-system-audio-in-live-events"></a>在实时事件中包括系统音频
 
-实时事件的演示者和制作者现在可以在实时事件期间共享桌面或窗口屏幕时包含系统音频。 这将允许用户听到你正在共享的内容的任何音频部分。
+实时事件的演示者和制作者现在可以在实时事件期间共享桌面或窗口屏幕时包含系统音频。 这将允许你的用户听到你正在共享的内容的任何音频部分。
 
 ## <a name="april-24-2020"></a>2020 年 4 月 24 日
 
@@ -375,11 +387,11 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ### <a name="teams-for-realwear"></a>Teams for Real一
 
-Real在 Real在 Microsoft Teams 客户端中，一线员工能够使用 Real一线员工通过真实化的头安装式可操作设备操作 Teams 100% 免提，并借助 Teams 视频通话寻求专家的远程协助。 [了解详细信息](../flw-realwear.md)。
+适用于 Real一线工作者的 Microsoft Teams 客户端使一线员工能够使用 Real一线员工通过实际化的头安装式可操作设备操作 Teams 100% 免提，并借助 Teams 视频通话寻求专家的远程协助。 [了解详细信息](../flw-realwear.md)。
 
 ## <a name="march-31-2020"></a>2020 年 3 月 31 日
 
-### <a name="tag-youre-it"></a>标记，你已
+### <a name="tag-youre-it"></a>标记，你已创建
 
 创建标记并为其分配人员，以便@mention组、角色、部门等。团队所有者，请自己尝试一下。 转到团队，选择"更多 **选项管理**  >  **标记"。** [了解详细信息](../manage-tags.md)。
 
@@ -387,7 +399,7 @@ Real在 Real在 Microsoft Teams 客户端中，一线员工能够使用 Real一�
 
 ### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>Teams 通话和会议的基于策略的录制
 
-此功能可通过 Microsoft 认证的软件供应商自动录制 Teams 通话和会议的基于策略的自动录制。
+此功能允许通过 Microsoft 认证的软件供应商自动录制 Teams 通话和会议的基于策略的录制。
 
 ## <a name="march-25-2020"></a>2020 年 3 月 25 日
 
