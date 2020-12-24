@@ -1,6 +1,6 @@
 ---
 title: 从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用
-author: LanaChin
+author: cichur
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -14,20 +14,20 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 获取现有 SharePoint Online 网站或页面，并创建一个可用作组织 Intranet 门户的独立静态选项卡。
 localization_priority: Priority
-ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083162"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731110"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用
 
 使用本文中的步骤，在 Teams 内创建一个链接到组织 Intranet 网站的独立和静态应用。
 
-你的 SharePoint Intranet 网站 *Teams 个人应用*创建完成，并在 Teams 内显示为一个选项卡。 此选项卡中可能包含对所有团队用户非常重要的信息。 只需单击一下选项卡，Teams 用户就可以快速方便地获取更新。
+你的 SharePoint Intranet 网站 *Teams 个人应用* 创建完成，并在 Teams 内显示为一个选项卡。 此选项卡中可能包含对所有团队用户非常重要的信息。 只需单击一下选项卡，Teams 用户就可以快速方便地获取更新。
 
-注意显示的过程**必须使用***新式* SharePoint 网站或页面才能正常工作。 此过程适用于*经典*网站或页面。
+注意显示的过程 **必须使用***新式* SharePoint 网站或页面才能正常工作。 此过程适用于 *经典* 网站或页面。
 
 > [!IMPORTANT]
 > 确保已为租户启用了旁加载 Teams 应用。 根据在 Teams Admin 门户迁移过程中所处的位置，在上一版本门户中，可能需要在Teams > “管理员” 或在 “管理员” > “设置” > “服务和加载项” > Microsoft Teams> “应用” > “外部应用”下进行启用！
@@ -42,9 +42,10 @@ ms.locfileid: "45083162"
 2. 需要知道在占位符 **{{subdomain}}** 中使用的租户子域。
 
 3. 本文将使用占位符 **{{siteUrl}}** 作为所选网站或页面的 *URL*。
-    - 示例 *URLs*：   https://contoso.sharepoint.com/teams/Contoso   *或* https://contoso.sharepoint.com/sites/Contoso
-4. 此外，**{{sitePath}}** 将用于表示 URL 的*路径*（例如： /teams/Contoso）。
-    - 示例*路径*：   /teams/Contoso   *或* /sites/Contoso
+    - 示例 *URL*：`https://contoso.sharepoint.com/teams/Contoso`
+        *或* `https://contoso.sharepoint.com/sites/Contoso`
+4. 此外，**{{sitePath}}** 将用于表示 URL 的 *路径*（例如： /teams/Contoso）。
+    - 示例 *路径*：   /teams/Contoso   *或* /sites/Contoso
 
 首先按照以下步骤进行操作：
 
@@ -71,19 +72,19 @@ ms.locfileid: "45083162"
 - **contentUrl**： {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
 - **websiteUrl**： {{siteUrl}}
 
-    示例 **contentURL**： https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+    示例 **contentURL**： `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. 导航至“**域和权限**”。 确保有效的域部分包含你的 SharePoint online 域名。
 
-    示例：contoso.sharepoint.com
+    示例：`contoso.sharepoint.com`
 
-12. 添加下列 web 应用**单一登录**属性：
+12. 添加下列 web 应用 **单一登录** 属性：
 
      示例：**AAD application ID**：00000003-0000-0ff1-ce00-000000000000  **资源 Url**：{{subdomain}}.sharepoint.com
 
     ![Web 应用单一登录（使用 ID 和 URL）。](media/personal-app.png)
 
-13. **保存**这些属性，然后导航到“**测试并分发**”。
+13. **保存** 这些属性，然后导航到“**测试并分发**”。
 
 14. 安装此应用以亲自测试。
 
