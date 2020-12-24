@@ -1,7 +1,7 @@
 ---
-title: Microsoft 团队附加设备许可证
-ms.author: v-lanac
-author: LanaChin
+title: Microsoft Teams 附加许可证
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -19,182 +19,182 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-mar2020
-description: 了解 Microsoft 团队的加载项许可证以及使用每个许可证获得的功能。
-ms.openlocfilehash: 2706f66259adb3bf6689eecd287331e899a89be1
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+description: 了解 Microsoft Teams 的附加许可证以及每个许可证获得的功能。
+ms.openlocfilehash: fdd9a85cb2856606c5083fcc8f6f7b89a23a2b67
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328261"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731140"
 ---
-# <a name="microsoft-teams-add-on-licenses"></a>Microsoft 团队附加设备许可证
+# <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 附加许可证
 
 ## <a name="what-are-add-on-licenses"></a>什么是附加许可证？
 
-附加许可证是针对特定 Microsoft Teams 功能的许可证。 它们让你可以灵活地为组织中需要这些功能的用户添加功能。 若要添加功能，为每个将使用该功能的用户购买一个附加许可证。
+附加许可证是针对特定 Microsoft Teams 功能的许可证。 它们可让你灵活地仅为组织中需要这些功能的用户添加功能。 若要添加功能，为每个将使用该功能的用户购买一个附加许可证。
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>通过附加许可证可获得哪些功能？
 
-下面是可使用团队附加许可证添加的功能列表。 你可以使用的附加许可选项取决于你拥有的 Microsoft 365 或 Office 365 计划。
+下面是可以使用 Teams 附加许可证添加的功能列表。 可用的附加许可选项取决于你拥有 Microsoft 365 或 Office 365 计划。
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**功能** <br/> |**说明** <br/> |**小型企业 ( # B0 300 用户) **|**大型企业 ( # B0 300 用户) **|
-**Microsoft 365 商务语音** <br/> | [商业语音](../business-voice/whats-business-voice.md) 是专为最多300用户（捆绑电话系统、音频会议、国内呼叫计划等）的中小型企业设计的电话解决方案。 您将获得的电话系统功能包括语音邮件、来电显示、呼叫寄存、呼叫转接、自动助理和通话队列。 <br> 要了解您所在国家或地区是否可以使用商业语音，请参阅 [企业语音的国家和地区可用性](../business-voice/country-region-availability.md)。 有关定价信息，请参阅 [商业语音定价](https://go.microsoft.com/fwlink/?linkid=2127221)。 <br/> |&#x2713;||
-|**音频会议** <br/> |有时，您的组织中的人员将需要使用手机呼叫团队会议，而不是计算机。 为安排或领导会议的用户设置 [音频会议](../audio-conferencing-in-office-365.md) 。 <br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>如果你是最多300个用户的小型企业或中型企业，并且当前没有音频会议许可证，则可以免费获取一年的音频会议。 从2020年10月1日开始，拥有 Microsoft 365 Business Basic、Business Standard、Business Premium、企业版 E1 或企业版 E3 许可证的用户可以使用免费音频会议优惠。 若要了解详细信息，请参阅 [为小型企业和中型企业设置音频会议](../audio-conferencing-smb.md)。|&#x2713;|&#x2713;|
-|**免费电话号码** |如果想要为音频会议、自动助理或呼叫队列设置免费电话号码，必须 [设置通讯信用点数](../set-up-communications-credits-for-your-organization.md)。 <br/> |&#x2713;|&#x2713;|
-|**电话系统** <br/> |[电话系统](../what-is-phone-system-in-office-365.md) 是一种托管电话服务，可为你提供呼叫控制和专用分支 EXCHANGE (PBX) 功能，以及连接到公共交换电话网络 (PSTN) 的选项。 电话系统功能包括云语音邮件、呼叫方 ID、呼叫寄存、呼叫转接、自动助理、呼叫队列、呼叫转接、来电显示等。 <br>若要了解详细信息，请参阅 [使用手机系统获取的功能](../here-s-what-you-get-with-phone-system.md)。 有关定价信息，请参阅 [电话系统定价](https://go.microsoft.com/fwlink/?linkid=799763)。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
-|**通话套餐** <br/> |如果您希望用户能够呼叫您组织外部的电话号码，请获取 [呼叫计划](../calling-plans-for-office-365.md)。 有国内通话计划和国内和国际通话计划。 有关定价信息，请参阅 [通话计划定价](https://go.microsoft.com/fwlink/?linkid=799761 )。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
-|**Microsoft Teams 会议室** <br/> |[Microsoft 团队会议室](../rooms/index.md) 不是加载项，而是将视频、音频和内容共享带入会议室的功能。 请参阅 [团队会议室许可](../rooms/rooms-licensing.md)。  <br/> |&#x2713;|&#x2713;|
-|**高级通信** <br/> |[高级通信](advanced-communications.md) 包括增强的通话和会议功能，例如大型会议、会议自定义、通信集成和用于通信管理的高级工具。 为1000参与者提供最多20000参与者和交互式会议的活动活动的更大受众。 其他功能包括自定义品牌的会议厅，用于定制你的会议、集成会议和调用工作流的功能，以及用于监视、跟踪和分析用户和设备上的数据的工具。   |&#x2713;|&#x2713;|
+|**功能** <br/> |**说明** <br/> |**小型企业 (（300)**|**大型企业 (>300)**|
+**Microsoft 365 商务语音** <br/> | [Business Voice](../business-voice/whats-business-voice.md) 是一种电话解决方案，专为多达 300 名用户的中小型企业设计，这些用户捆绑了电话系统、音频会议、国内呼叫计划等。 你将获得的电话系统功能包括语音邮件、呼叫者 ID、呼叫公园、呼叫转发、自动助理和呼叫队列。 <br> 若要了解业务语音在你的国家/地区是否可用，请参阅"业务语音["的"国家/地区"和"区域可用性"。](../business-voice/country-region-availability.md) 有关定价信息，请参阅["Business Voice 定价"。](https://go.microsoft.com/fwlink/?linkid=2127221) <br/> |&#x2713;||
+|**音频会议** <br/> |有时，您的组织中的人员将需要使用电话来呼叫 Teams 会议，而不是其计算机。 为 [安排或](../audio-conferencing-in-office-365.md) 领导会议的用户设置音频会议。 <br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>如果你是一家拥有多达 300 名用户的小型企业或中型企业，并且当前没有音频会议许可证，则你可以免费使用音频会议一年。 从 2020 年 10 月 1 日起，拥有 Microsoft 365 商业版基本版、商业版标准版、商业高级版、企业版 E1 或企业版 E3 许可证的用户可以使用免费的音频会议优惠。 若要了解有关详细信息，请参阅["为中小型企业设置音频会议"。](../audio-conferencing-smb.md)|&#x2713;|&#x2713;|
+|**免费电话号码** |如果你希望音频会议、自动助理或呼叫队列使用免费号码，则必须 [设置通信积分](../set-up-communications-credits-for-your-organization.md)。 <br/> |&#x2713;|&#x2713;|
+|**电话系统** <br/> |[电话系统](../what-is-phone-system-in-office-365.md) 是一种托管电话服务，可为你提供呼叫控制和专用交换机 (PBX) 功能，以及用于连接到公共电话交换网 (PSTN) 的选项。 电话系统功能包括云语音邮件、呼叫者 ID、呼叫公园、呼叫转接、自动助理、呼叫队列、呼叫转接、呼叫者 ID 等。 <br>若要了解有关详细信息， [请参阅"手机系统"获取的以下功能](../here-s-what-you-get-with-phone-system.md)。 有关定价信息，请参阅["手机系统定价"。](https://go.microsoft.com/fwlink/?linkid=799763)  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**通话套餐** <br/> |如果希望用户能够呼叫组织外部的电话号码，请获取呼叫 [计划](../calling-plans-for-office-365.md)。 存在国内呼叫计划以及国内和国际呼叫计划。 有关定价信息，请参阅 [通话计划的定价](https://go.microsoft.com/fwlink/?linkid=799761 )。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Microsoft Teams 会议室** <br/> |[Microsoft Teams 会议室](../rooms/index.md) 不是附加内容，而是一项功能，可以将视频、音频和内容共享引入会议室。 请参阅 [Teams 会议室许可](../rooms/rooms-licensing.md)。  <br/> |&#x2713;|&#x2713;|
+|**高级通信** <br/> |[高级通信](advanced-communications.md) 包括增强的呼叫和会议功能，例如大型会议、会议自定义、通信集成和通信管理的高级工具。 通过直播活动（最多 20，000 位参与者）和 1，000 名参与者的交互式会议，接触更多受众。 其他功能包括自定义品牌会议大厅以定制会议、将会议和呼叫集成到工作流的功能，以及用于监视、跟踪和分析用户和设备上数据的工具。   |&#x2713;|&#x2713;|
 
-<sup>1</sup> 如果您是具有 Microsoft 365 企业版计划的小型企业或中型企业，您仍然可以购买这些语音功能的附加许可证，但我们建议您考虑 [Microsoft 365 商业](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) 版计划和 [商业语音](https://www.microsoft.com/microsoft-365/business/business-voice)。
+<sup>1</sup> 如果你是拥有 Microsoft 365 企业版计划的中小型企业，仍可以购买这些语音功能的附加许可证，但我们建议你考虑 [使用 Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) 商业版计划和 [商务](https://www.microsoft.com/microsoft-365/business/business-voice)语音。
 
-## <a name="what-voice-features-are-available-with-my-plan"></a>我的计划中提供了哪些语音功能？
+## <a name="what-voice-features-are-available-with-my-plan"></a>我的计划提供哪些语音功能？
 
-查看在团队中获取语音功能所需的附加许可证，具体取决于你拥有的计划。
+查看在 Teams 中获取语音功能所需的附加许可证，具体取决于你拥有的计划。
 
-根据所需的语音功能，我们建议比较是否更经济高效地切换到包含这些功能的计划。 例如，对于大多数大型组织，在 Microsoft 365 企业版计划中购买软件捆绑软件将导致总成本降低。 通常，当单独购买多个加载项许可证而不是计划的一部分时，最终可能会有更高的组合成本。
+根据你需要的语音功能，我们建议比较切换到包含这些功能的计划是否更具成本效益。 例如，对于大多数大型组织，在 Microsoft 365 企业版计划中购买一系列软件可以降低总体成本。 通常，单独购买多个附加许可证而不是作为计划的一部分购买时，最终的合并成本可能会更高。
 
-#### <a name="small-business"></a>[**小型企业版**](#tab/small-business/)
+#### <a name="small-business"></a>[**小型企业**](#tab/small-business/)
 
-如果你是小型企业版 (小于300用户) ，则可以通过四种方式获得语音功能：
+如果你是小型或中型企业用户 (用户不到 300) ，则有四种方法可获取语音功能：
 
-- 购买 Microsoft 365 商业版计划和 Microsoft 365 业务语音。
-- 购买企业版 E1 或 E3 计划以及 Microsoft 365 业务语音。
-- 购买企业版 E1 或 E3 计划，并单独添加语音功能。
-- 购买企业版 E5 计划，其中包括语音功能。
+- 购买 Microsoft 365 商业版计划和 Microsoft 365 商业语音。
+- 购买企业版 E1 或 E3 计划以及 Microsoft 365 商业语音。
+- 购买企业版 E1 或 E3 计划并单独添加语音功能。
+- 购买包括语音功能的企业 E5 计划。
 
-对于 Microsoft 365 商业语音，您有两个选项可供选择：
+对于 Microsoft 365 商业语音，有两个选项可供选择：
 
-- **带有呼叫计划的 Microsoft 365 商业语音**：如果您希望由 Microsoft 处理所有电话号码管理和帐单，请执行此操作。
-- **没有呼叫计划 (直接路由) 的 Microsoft 365 商务语音 **：如果你希望由第三方电话提供商处理所有电话号码管理和帐单，请执行此操作。 你需要设置和部署 [直接路由](../direct-routing-landing-page.md) ，以将本地会话边界控制器连接到 Microsoft 365 或 Office 365 (SBCs) 。
+- **具有呼叫计划的 Microsoft 365 Business Voice：** 如果希望由 Microsoft 处理所有电话号码管理和计费，请获取此套餐。
+- 没有呼叫计划的 **Microsoft 365 Business Voice (直接路由) ：** 如果您希望您的第三方电话提供商处理所有电话号码管理和计费，请获取此语音。 需要设置和部署直接路由，以将[](../direct-routing-landing-page.md)本地会话边界控制器 (SDC) Microsoft 365 或 Office 365。
 
-若要了解详细信息，请参阅 [使用 Microsoft 365 商业语音需要购买哪些内容？](../business-voice/what-to-buy.md)。
+若要了解有关详细信息，请参阅 ["使用 Microsoft 365 商业](../business-voice/what-to-buy.md)语音需要购买什么？"。
 
 下面是基于许可计划的摘要。
 
-  ![小型企业版计划选项](../media/licensing-smallbusiness-options.png)
+  ![小型企业计划选项](../media/licensing-smallbusiness-options.png)
 
-如果您所在的国家或地区不支持音频会议，则可以选择在没有音频会议计划或没有音频会议计划的情况下，获取没有音频会议计划或 Office 365 企业版 E5 的 Microsoft 365 企业版 e5。
+如果您的国家/地区或区域不支持音频会议，您可以选择获取不带音频会议计划的 Microsoft 365 企业版 E5 或不带音频会议计划的 Office 365 企业版 E5。
 
-如果您已有 Microsoft 365 企业版或 Office 365 企业版计划，您仍然可以为单个语音功能购买附加许可证。 但是，你可以选择切换到 [microsoft 365 商业](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) 版计划和 [Microsoft 365 business Voice](https://www.microsoft.com/microsoft-365/business/business-voice)。 在某些情况下，根据你所需的功能，使用 Microsoft 365 商业语音获取 Microsoft 365 商业版计划可能会更经济高效。
+如果已有 Microsoft 365 企业版或 Office 365 企业版计划，仍可以购买单个语音功能的附加许可证。 但是，可以选择切换到 [Microsoft 365 商业](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) 版计划和 Microsoft [365 商业语音](https://www.microsoft.com/microsoft-365/business/business-voice)。 在某些情况下，根据你需要的功能，使用 Microsoft 365 商业语音获取 Microsoft 365 商业版计划可能更具成本效益。
 
 > [!NOTE]
-> 如果您需要使用第三方电话服务， [直接路由](../direct-routing-landing-page.md) 会在您的组织中部署，或者，如果您所在的国家或地区没有通话计划，则需要使用直接路由才能使用语音功能。
+> 如果需要使用第三方电话服务，则直接路由部署[](../direct-routing-landing-page.md)在组织中;如果呼叫计划在你的国家/地区或区域不可用，则需要使用直接路由作为语音功能。
 
 #### <a name="enterprise"></a>[**Enterprise**](#tab/enterprise/)
 
-如果您是大型企业或企业组织 (超过300个用户) ，则可以通过两种方式获取语音功能：
+如果你是一家大型企业或企业组织， (用户超过 300) ，则有两种方法可获取语音功能：
 
-- 购买企业版 E1 或 E3 计划，并单独添加语音功能。
-- 购买企业版 E5 计划，其中包括语音功能。
+- 购买企业版 E1 或 E3 计划并单独添加语音功能。
+- 购买包括语音功能的企业 E5 计划。
 
 下面是基于许可计划的摘要。
 
   ![基于企业的计划选项](../media/licensing-enterprise-options.png)
 
-如果您所在的国家或地区不支持音频会议，则可以选择在没有音频会议计划或没有音频会议计划的情况下，获取没有音频会议计划或 Office 365 企业版 E5 的 Microsoft 365 企业版 e5。
+如果您的国家/地区或区域不支持音频会议，您可以选择获取不带音频会议计划的 Microsoft 365 企业版 E5 或不带音频会议计划的 Office 365 企业版 E5。
 
-若要了解详细信息，请参阅 [Microsoft 365 企业版计划](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) 和 [Office 365 企业版计划](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)。
+有关详细信息，请参阅 [Microsoft 365 企业版计划和](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) Office [365 企业版计划](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)。
 
 > [!NOTE]
-> 如果您需要使用第三方电话服务， [直接路由](../direct-routing-landing-page.md) 会在您的组织中部署，或者，如果您所在的国家或地区没有通话计划，则需要使用直接路由才能使用语音功能。
+> 如果需要使用第三方电话服务，则直接路由部署[](../direct-routing-landing-page.md)在组织中;如果呼叫计划在你的国家/地区或区域不可用，则需要使用直接路由作为语音功能。
 
-#### <a name="education"></a>[**教育版**](#tab/education/)
+#### <a name="education"></a>[**教育**](#tab/education/)
 
-对于学校和其他学术组织，您可以通过三种方式获得语音功能。
+对于学校和其他学术组织，有三种方法可获取语音功能。
 
-- 购买教育机构 A1 或 A3 计划以及 Microsoft 365 Business Voice。
-- 购买教育机构 A1 或 A3 计划，并单独添加语音功能。
-- 购买教育机构 A5 计划，其中包括语音功能。
+- 购买 EDU A1 或 A3 计划以及 Microsoft 365 商业语音。
+- 购买 EDU A1 或 A3 计划并单独添加语音功能。
+- 购买包括语音功能的 EDU A5 计划。
 
 下面是基于许可计划的摘要。
 
-  ![教育机构计划选项](../media/licensing-education-options.png)
+  ![EDU 计划选项](../media/licensing-education-options.png)
 
-  <sup>1</sup> 仅适用于少于300用户的组织。
+  <sup>1</sup> 仅适用于用户数少于 300 的组织。
 
-若要了解详细信息，请参阅 [Microsoft 365 教育](https://www.microsoft.com/education/buy-license/microsoft365) 和 [Office 365 教育计划](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan)。
+有关详细信息，请参阅 [Microsoft 365 教育版和](https://www.microsoft.com/education/buy-license/microsoft365) [Office 365 教育版计划](https://www.microsoft.com/education/products/office)。
 
 > [!NOTE]
-> 如果您需要使用第三方电话服务， [直接路由](../direct-routing-landing-page.md) 会在您的组织中部署，或者，如果您所在的国家或地区没有通话计划，则需要使用直接路由才能使用语音功能。
+> 如果需要使用第三方电话服务，则直接路由部署[](../direct-routing-landing-page.md)在组织中;如果呼叫计划在你的国家/地区或区域不可用，则需要使用直接路由作为语音功能。
 
-#### <a name="government"></a>[**官方**](#tab/government/)
+#### <a name="government"></a>[**政府**](#tab/government/)
 
-对于美国政府组织 (GCC 仅) ，有三种方法可以获得语音功能。
+对于美国政府组织 (GCC) ，有三种方法可获取语音功能。
 
-- 购买用于政府 G1 或 G3 计划和 Microsoft 365 Business Voice。
-- 购买用于政府 G1 或 G3 计划，并单独添加云语音功能。
-- 购买用于政府 G5 计划，其中包括语音功能。
+- 购买 GOV G1 或 G3 计划以及 Microsoft 365 商业语音。
+- 购买 GOV G1 或 G3 计划并单独添加云语音功能。
+- 购买 GOV G5 计划，其中包括语音功能。
 
 下面是基于许可计划的摘要。
 
-  ![基于用于政府的选项](../media/licensing-government-options.png)
+  ![基于 Gov 的选项](../media/licensing-government-options.png)
 
-  <sup>1</sup> 仅适用于少于300用户的组织。
+  <sup>1</sup> 仅适用于用户数少于 300 的组织。
 
-若要了解详细信息，请参阅 [Microsoft 365 政府](https://www.microsoft.com/microsoft-365/government/) 和 [Office 365 政府计划](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)。
+有关详细信息，请参阅 [Microsoft 365 政府版和](https://www.microsoft.com/microsoft-365/government/) Office [365 政府版计划](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)。
 
 > [!NOTE]
-> 如果您需要使用第三方电话服务， [直接路由](../direct-routing-landing-page.md) 会在您的组织中部署，或者，如果您所在的国家或地区没有通话计划，则需要使用直接路由才能使用语音功能。
+> 如果需要使用第三方电话服务，则直接路由部署[](../direct-routing-landing-page.md)在组织中;如果呼叫计划在你的国家/地区或区域不可用，则需要使用直接路由作为语音功能。
 
-#### <a name="nonprofit"></a>[**机构**](#tab/nonprofit/)
+#### <a name="nonprofit"></a>[**非营利组织**](#tab/nonprofit/)
 
-如果您是非赢利组织，则可以通过四种方式获得语音功能。
+如果你是非营利组织，则有四种方法可获取语音功能。
 
-- 购买 Microsoft 365 非赢利企业基本或 Microsoft 365 非赢利企业标准计划和 Microsoft 365 业务语音。
-- 购买非赢利的 E1 或 E3 计划和 Microsoft 365 业务语音。
-- 购买非盈利性的 E1 或 E3 计划，并单独添加语音功能。
-- 购买非赢利的 E5，其中包括语音功能。
+- 购买 Microsoft 365 非营利组织商业基础版或 Microsoft 365 非营利组织商业标准版计划和 Microsoft 365 商业语音。
+- 购买非营利组织版 E1 或 E3 计划以及 Microsoft 365 商业语音。
+- 购买非营利组织版 E1 或 E3 计划并单独添加语音功能。
+- 购买非营利组织版 E5，其中包含语音功能。
 
 下面是基于许可计划的摘要。
 
-  ![基于非赢利的选项](../media/licensing-nonprofit-options.png)
+  ![基于非营利组织的选项](../media/licensing-nonprofit-options.png)
 
-  <sup>1</sup> 仅适用于少于300用户的组织。
+  <sup>1</sup> 仅适用于用户数少于 300 的组织。
 
-若要了解详细信息，请参阅 [Microsoft 365 和 Office 365 非盈利性优惠优惠](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)。
+若要了解有关详细信息，请参阅 [Microsoft 365 和 Office 365 非营利组织版产品/服务](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)。
 
 > [!NOTE]
-> 如果您需要使用第三方电话服务， [直接路由](../direct-routing-landing-page.md) 会在您的组织中部署，或者，如果您所在的国家或地区没有通话计划，则需要使用直接路由才能使用语音功能。
+> 如果需要使用第三方电话服务，则直接路由部署[](../direct-routing-landing-page.md)在组织中;如果呼叫计划在你的国家/地区或区域不可用，则需要使用直接路由作为语音功能。
 
-#### <a name="trial-offers"></a>[**试用版优惠**](#tab/trial/)
+#### <a name="trial-offers"></a>[**试用产品/服务**](#tab/trial/)
 
-### <a name="trial-offers-for-licensing-plans"></a>许可证计划的试用版优惠
+### <a name="trial-offers-for-licensing-plans"></a>许可计划的试用产品/服务
 
-为了提高用户在远程工作 (或在家) 工作的增加需求，Microsoft 为政府、教育和非盈利性组织提供了多个免费的团队试用版。 可通过以下计划试用试用版：
+为了响应人们越来越需要远程工作或 (在家) 工作，Microsoft 为政府、教育机构和非营利组织提供了多个免费的 Teams 试用版产品。 以下计划提供试用版：
 
-- Office 365 企业 [版 E1 试用版](../e1-trial-license.md) (停止于7月1日、2020) 、E3 试用版和 E5 试用版
+- Office 365 企业 [版 E1](../e1-trial-license.md) (2020 年 7 月 1 日停用，) E3 试用版和 E5 试用版
 - Office 365 教育 [版 A1 试用版](../teams-edu-licensing.md)
-- 从365年7月1日起2020，Office 政府 [G1 试用版](../g1-trial-license.md) (中止) 
+- Office 365 政府 [版 G1](../g1-trial-license.md) 试用版 (2020 年 7 月 1 日起) 
 
-若要注册试用版优惠，请参阅 [注册试用优惠](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)。
+若要注册试用产品/服务，请参阅["注册试用产品/服务"。](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)
 
-### <a name="trial-offers-for-voice-features"></a>语音功能的试用优惠
+### <a name="trial-offers-for-voice-features"></a>语音功能的试用产品/服务
 
-下面是语音功能试用优惠的摘要。
+下面是语音功能试用产品/服务摘要。
 
-  ![基于试用的选项](../media/licensing-trial-offers.png)
+  ![基于试用版的选项](../media/licensing-trial-offers.png)
 
- 您的基础计划不必是试用版，即可使用任何语音功能试验。 您可以使用 Microsoft 365 商业版计划或企业、政府、教育或非盈利性计划和语音功能的任何试用版。 若要查看可用的试用版和加载项，请在 Microsoft 365 管理中心中，转到 "**帐单**  >  **购买服务**"，选择**可能感兴趣的其他类别**，然后选择 "**加载项**"。
+ 基本计划不一定就是试用版产品/服务，可以使用这些试用版中的任一语音功能。 可以将 Microsoft 365 商业版计划或企业、政府、教育或非营利组织计划与语音功能的任何试用产品/服务一同使用。 若要查看可用的试用产品/服务和附加内容，请在 Microsoft 365 管理中心转到"计费购买服务"，选择可能感兴趣的其他类别，然后选择"附加内容  >  **"。** 
 
-  对于每个语音和会议选项，如果您有收费电话号码，或者您需要为用户添加额外的分钟数以拨打国内和国际 PSTN 呼叫，则需要 [通讯信用点数](../set-up-communications-credits-for-your-organization.md) 。
+  对于每个语音和会议选项，如果您有免费[](../set-up-communications-credits-for-your-organization.md)电话号码，或者如果您需要为用户添加额外的分钟数以便从会议拨出，或者用户进行国内和国际 PSTN 呼叫，则需要使用通信积分。
 
- 另外，请参阅：
+ 另请查看：
 
-- [团队的免费版本](../manage-freemium.md)
-- [团队探索体验](../teams-exploratory.md) -当前没有与团队探索体验配合使用的语音功能的试用版优惠。
-- [Microsoft Phone 系统-虚拟用户](virtual-user.md) 许可证
+- [Teams 的免费版本](../manage-freemium.md)
+- [Teams 探索体验](../teams-exploratory.md) - 当前没有适用于语音功能的试用产品/服务用于 Teams 探索体验。
+- [Microsoft Phone 系统 - 虚拟用户](virtual-user.md) 许可证
 
 * * *
 
 ## <a name="need-help"></a>需要帮助？
 
-需要与某人联系以了解附加选项？ [联系商业产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+需要与某人讨论附加内容选项？ [联系商业产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 ## <a name="related-topics"></a>相关主题
 
-- [分配团队附加设备许可证](assign-teams-add-on-licenses.md)
+- [分配 Teams 附加许可证](assign-teams-add-on-licenses.md)
 - [管理用户对 Teams 的访问管理](../user-access.md)
-- [团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+- [Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
