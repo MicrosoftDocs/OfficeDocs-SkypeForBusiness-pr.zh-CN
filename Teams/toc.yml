@@ -288,6 +288,8 @@
               href: rooms/with-exchange-on-premises.md
             - name: 配置控制台
               href: rooms/console.md
+            - name: 手动更新设备
+              href: rooms/manual-update.md
             - name: 配置身份验证
               href: rooms/rooms-authentication.md
             - name: 加入第三方会议
