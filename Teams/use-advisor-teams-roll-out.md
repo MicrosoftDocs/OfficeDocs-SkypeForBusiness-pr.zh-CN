@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 使用 Advisor for Teams 帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616926"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731130"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -200,7 +200,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 
 有关为 Teams 准备技术支持人员和支持者的指导和资源，请参阅[培训你的组织](https://adoption.microsoft.com/microsoft-teams/#train-your-org)和[培养支持者](https://adoption.microsoft.com/microsoft-teams/#build-champions)。
 
-作为你的用户“操作方法”问题的联系人，你的技术支持人员和支持者可以使用学习途径网站来培训用户以及作为创建支持服务票证的替代方法。 鼓励你的技术支持人员和支持者通过构建培训和支持页面来[自定义你的学习路径网站](https://docs.microsoft.comoffice365/customlearning/custom_overview)，然后[将其作为选项卡添加到团队中的频道](#add-your-site-to-teams)，以便用户自助服务。
+作为你的用户“操作方法”问题的联系人，你的技术支持人员和支持者可以使用学习途径网站来培训用户以及作为创建支持服务票证的替代方法。 鼓励你的技术支持人员和支持者通过构建培训和支持页面来[自定义你的学习路径网站](https://docs.microsoft.com/office365/customlearning/)，然后[将其作为选项卡添加到团队中的频道](#add-your-site-to-teams)，以便用户自助服务。
 
 ### <a name="drive-adoption"></a>推动采纳
 
