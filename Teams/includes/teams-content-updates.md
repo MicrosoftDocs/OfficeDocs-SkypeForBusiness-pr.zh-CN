@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-december-21-2020"></a>2020 年 12 月 21 日周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 12/22/2020 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
+| 12/22/2020 | [在 Teams 使用分组讨论室](/MicrosoftTeams/using-breakout-rooms) | 修改内容 |
+| 12/23/2020 | [将患者应用连接到 Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 修改内容 |
+| 12/23/2020 | [管理组织的"列表"应用](/MicrosoftTeams/manage-lists-app) | 修改内容 |
+| 12/23/2020 | [载入清单 - 配置云语音工作负荷 - Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | 修改内容 |
+| 12/23/2020 | [使用 Teams 应用提交 API 提交和批准自定义应用](/MicrosoftTeams/submit-approve-custom-apps) | 修改内容 |
+| 12/23/2020 | [Microsoft Teams 附加许可证](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 修改内容 |
+| 12/23/2020 | [从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 修改内容 |
+| 12/23/2020 | [Microsoft Teams 操作\|服务管理\|质量](/MicrosoftTeams/upgrade-operate-my-service) | 修改内容 |
+| 12/23/2020 | [使用 Advisor for Teams 帮助你推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 修改内容 |
+
+
 ## <a name="week-of-december-14-2020"></a>2020 年 12 月 14 日周
 
 
@@ -17,7 +34,7 @@
 | 12/15/2020 | [从 Skype for Business 本地部署升级到 Teams 时 PSTN 注意事项](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | 修改内容 |
 | 12/16/2020 | [规划 Teams 自动助理和呼叫队列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 修改内容 |
 | 12/16/2020 | [在 Microsoft Teams 中规划语音解决方案](/MicrosoftTeams/cloud-voice-landing-page) | 修改内容 |
-| 12/16/2020 | [维度和度量 - CQD (呼叫质量) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
+| 12/16/2020 | [维度和度量 - 呼叫质量仪表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
 | 12/16/2020 | [配置直接路由](/MicrosoftTeams/direct-routing-configure) | 修改内容 |
 | 12/16/2020 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
 | 12/16/2020 | [设置通话套餐](/MicrosoftTeams/set-up-calling-plans) | 修改内容 |
@@ -64,7 +81,7 @@
 | 12/3/2020 | [在意大利的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | 修改内容 |
 | 12/3/2020 | [Teams 的电话和设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
 | 12/3/2020 | [对内容进行电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改内容 |
-| 12/3/2020 | [将 Microsoft Teams 用户或团队置于法律上的暂停状态](/MicrosoftTeams/legal-hold) | 修改内容 |
+| 12/3/2020 | [将 Microsoft Teams 用户或团队置于法律上的暂停状态](/MicrosoftTeams/legal-hold) | 修改日期 |
 | 12/4/2020 | [从 Skype for Business 升级到 Teams 的常见问题解答](/MicrosoftTeams/faq-journey) | 修改内容 |
 | 12/4/2020 | [如何有效地使用 Microsoft Teams](/MicrosoftTeams/continue-journey) | 修改内容 |
 | 12/4/2020 | [开展用户试点，评估并测试 Microsoft Teams 在组织中如何工作](/MicrosoftTeams/pilot-essentials) | 修改内容 |
@@ -102,48 +119,3 @@
 | 11/25/2020 | [为直接路由设置环回机器人](/MicrosoftTeams/direct-routing-ringback-bot) | 修改内容 |
 | 11/25/2020 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
 | 11/25/2020 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
-
-
-## <a name="week-of-november-16-2020"></a>2020 年 11 月 16 日周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 11/16/2020 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
-| 11/16/2020 | [Teams 联系中心](/MicrosoftTeams/teams-contact-center) | 修改内容 |
-| 11/16/2020 | [使用 OneDrive for Business 和 SharePoint 录制会议](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
-| 11/16/2020 | [使用 Power BI 分析 Microsoft Teams 的 CQD 数据](/MicrosoftTeams/cqd-power-bi-query-templates) | 修改内容 |
-| 11/16/2020 | [使用 CQD Power BI 报表查看自动助理 &队列历史报告](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | 修改内容 |
-| 11/16/2020 | [向 Microsoft Teams 中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
-| 11/16/2020 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 11/16/2020 | [Microsoft 365 政府版 - GCC 部署](/MicrosoftTeams/plan-for-government-gcc) | 修改内容 |
-| 11/16/2020 | [Microsoft Teams 实时事件是什么？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 修改内容 |
-| 11/16/2020 | [Teams 与 Microsoft Power Platform 集成](/MicrosoftTeams/teams-power-platfom-integration) | 修改内容 |
-| 11/17/2020 | [使用 CQD Power BI 报表查看自动助理 &队列历史报告](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | 修改内容 |
-| 11/17/2020 | [自动助理 &队列历史报告](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 修改内容 |
-| 11/17/2020 | [针对 Microsoft 365 的通话套餐](/MicrosoftTeams/calling-plans-for-office-365) | 修改内容 |
-| 11/17/2020 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 11/17/2020 | [通过直接路由认证的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
-| 11/17/2020 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改内容 |
-| 11/17/2020 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
-| 11/17/2020 | [加拿大的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 修改内容 |
-| 11/17/2020 | [美国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 修改内容 |
-| 11/17/2020 | [在 Microsoft Teams 中为组织管理"任务"应用](/MicrosoftTeams/manage-tasks-app) | 修改内容 |
-| 11/17/2020 | [管理员快速入门 - Microsoft Teams 中的会议和实时事件](/MicrosoftTeams/quick-start-meetings-live-events) | 修改内容 |
-| 11/17/2020 | [Microsoft Teams 中的保留策略](/MicrosoftTeams/retention-policies) | 修改内容 |
-| 11/17/2020 | [Microsoft Teams 的高级通信加载项](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 修改内容 |
-| 11/17/2020 | [Microsoft Teams 会议出席情况报告](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | 修改内容 |
-| 11/17/2020 | [在 Microsoft Teams 中配置实时事件设置](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 修改内容 |
-| 11/17/2020 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
-| 11/17/2020 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改内容 |
-| 11/17/2020 | [Microsoft Teams 实时事件是什么？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 修改内容 |
-| 11/17/2020 | [埃及的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | 修改内容 |
-| 11/18/2020 | [委内瑞拉的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala) | 修改内容 |
-| 11/18/2020 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
-| 11/18/2020 | [Teams 虚拟访问](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 修改内容 |
-| 11/18/2020 | [登录 Microsoft Teams](/MicrosoftTeams/sign-in-teams) | 修改内容 |
-| 11/18/2020 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
-| 11/19/2020 | [Teams 虚拟访问](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 修改内容 |
-| 11/19/2020 | [使用 OneDrive for Business 和 SharePoint 录制会议](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
-| 11/20/2020 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
-| 11/20/2020 | [登录 Microsoft Teams](/MicrosoftTeams/sign-in-teams) | 修改内容 |

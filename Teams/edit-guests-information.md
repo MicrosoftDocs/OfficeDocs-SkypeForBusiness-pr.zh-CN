@@ -14,37 +14,37 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 在本文中，你将了解管理员如何在 Azure Active Directory 门户中编辑有关来宾用户的信息。
+description: 本文介绍管理员如何在 Azure Active Directory 门户中编辑有关来宾用户的信息。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: e7036a8ba15719df50d609e7b1ca499cf5edf328
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: feffdb827c33628749e16083c858b03c9837efd1
+ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030588"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734260"
 ---
 # <a name="edit-guest-user-information"></a>编辑来宾用户信息
 
-您可以从 Microsoft 365 管理中心或 Azure Directory 门户中编辑来宾信息。
+可以从 Microsoft 365 管理中心或 Azure Active Directory 门户编辑来宾信息。
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Microsoft 365 管理员中的来宾用户
 
-1. 若要在 [Microsoft 365 管理中心](https://admin.microsoft.com)中编辑来宾信息，请选择 " **用户**  >  **来宾用户** "。
+1. 若要在 [Microsoft 365](https://admin.microsoft.com)管理中心编辑来宾信息，请选择"**用户**  >  **来宾用户"。**
 
    ![正在编辑的来宾用户信息](media/access-guest-user.png)
 
-2. 选择 " **来宾用户** " 中的用户。
+2. 从来宾用户 **中选择用户**。
 
-3. 在 "来宾用户信息" 中，选择 " **管理联系人信息** "。
+3. 在来宾用户信息中，选择"**管理联系人信息"。**
 
    ![管理联系人信息 ](media/guest-user-data1.png)
 
-4. 在 " **管理联系人信息** " 中编辑除 " **显示名称** " 之外选择的任何字段，然后选择 " **保存更改** "。
+4. 编辑选择的任何字段（"管理联系人信息"中的"显示名称"除外），然后选择"保存 **更改"。**
 
-   ![编辑来宾用户联系人信息](media/manage-guest-contact.png)
+   ![编辑来宾用户联系信息](media/manage-guest-contact.png)
 
-您也可以从 [Azure Active Directory 门户](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)编辑来宾用户。
+还可以从 [Azure Active Directory](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)门户编辑来宾用户。
