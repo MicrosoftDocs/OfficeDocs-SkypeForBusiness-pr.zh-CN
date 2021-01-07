@@ -20,12 +20,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1cfcf52531e5a3a0cecafe5310304a299bf04c5
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682401"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757757"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -91,12 +91,12 @@ ms.locfileid: "49682401"
 | 与会者可见性 | Teams 制作 | 外部应用或设备制作 |
 |------------------------------|-----------------|----------------------|
 |公共（匿名用户）      |  是            |  否                  |
-|来宾用户                   |  是            |  否                  |
+|来宾用户                   |  是<sup>1</sup>            |  否                  |
 |外部访问（联盟）公司中的任何人 |  是<sup>1</sup>|  否                  |
 |公司中的所有人           |  是            |  是                 |
 |指定组/人员      |  是            |  是                 |
 
-<sup>1</sup>只能通过“人员和组”邀请外部访问（联盟）与会者。 <br>
+<sup>1</sup> 只能通过“人员和组”邀请 <br>
 
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 实时事件和Skype 会议直播
 
