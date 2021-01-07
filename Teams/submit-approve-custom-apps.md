@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何批准使用 Microsoft Teams 中的 Teams 应用提交 API 提交的自定义应用。
-ms.openlocfilehash: 5b6c8512943527a82b3477579e535bcc151331c0
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 058911d2d84d71ca6175e2bdeb6866807c218631
+ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731090"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49776883"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>发布通过 Teams 应用提交 API 提交的自定义应用
 
@@ -47,7 +47,7 @@ ms.locfileid: "49731090"
 
 ### <a name="submit-the-app"></a>提交应用
 
-当应用准备好在生产环境中使用时，开发人员可以使用 Teams 应用提交 <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">API（可以从图形 API、</a>集成开发环境 (IDE) （如 Visual Studio Code）或平台（如 Power Apps 和 Power Virtual Agents）调用该应用。 这样，应用就可以在 Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> Teams 管理中心的"管理应用"页面上使用，你（管理员）可以在其中查看和批准该应用。
+当应用准备好在生产环境中使用时，开发人员可以使用 Teams 应用提交 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">API（可以从图形 API、</a>集成开发环境 (IDE) （如 Visual Studio Code）或平台（如 Power Apps 和 Power Virtual Agents）调用该应用。 这样，应用就可以在 Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> Teams 管理中心的"管理应用"页面上使用，你（管理员）可以在其中查看和批准该应用。
 
 构建在 <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-1.0&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph</a>上的 Teams 应用提交 API 允许组织在选择的平台上进行开发，并自动执行 Teams 上自定义应用的提交到审批过程。
 
