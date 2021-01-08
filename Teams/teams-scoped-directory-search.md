@@ -12,51 +12,51 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何使用 Microsoft 团队范围的目录搜索以提供目录的自定义视图。
+description: 了解如何使用 Microsoft Teams 范围目录搜索提供目录的自定义视图。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4152a2ac9ee50372dbc0fdb423d0d85c3026433
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: e4f478bba8c396f0f20b95f69f56c2ded556224d
+ms.sourcegitcommit: 2300595db7779da7a127ae9ee16e474452df02d3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584071"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49779926"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
 
-Microsoft 团队范围目录搜索允许组织创建虚拟边界，以控制用户如何与组织中的其他用户进行查找和通信。 
+Microsoft Teams 目录搜索允许组织创建虚拟边界，控制用户如何查找组织中其他用户并与他人通信。 
 
-Microsoft 团队允许组织向其用户提供目录的自定义视图。 Microsoft 团队使用[信息障碍策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)来支持这些自定义视图。 启用策略后，搜索其他用户所返回的结果 (例如，启动聊天或将成员添加到团队) 将根据配置的策略确定范围。 当范围搜索生效时，用户将无法搜索或发现团队。 
+Microsoft Teams 允许组织向用户提供目录的自定义视图。 Microsoft Teams 使用 [信息屏障策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) 来支持这些自定义视图。 启用策略后，搜索其他用户返回的结果 (例如，启动聊天或将成员添加到团队) 将按配置的策略进行范围。 当范围搜索生效时，用户将无法搜索或发现团队。 
 
 > [!NOTE]
-> 在 Exchange 混合环境中，此功能仅适用于 Exchange Online 邮箱，而不适用于本地邮箱。
+> 在 Exchange 混合环境中，此功能仅适用于 Exchange Online 邮箱，而与本地邮箱不同。
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>何时应使用目录搜索范围？
+## <a name="when-should-you-use-scoped-directory-searches"></a>何时应该使用范围目录搜索？
 
-从作用域目录搜索中受益的方案类似于通讯簿策略方案。 例如，你可能希望在以下情况下使用限定的目录搜索：
+受益于范围目录搜索的方案类似于通讯簿策略方案。 例如，在下列情况下，可能需要使用范围目录搜索：
 
 - 贵组织的租户中有多家你要保持独立的公司。 
 - 贵学校要限制教职员工与学生之间的聊天。 
  
-若要了解如何使用通讯簿策略，请参阅[Exchange Online 中的信息屏障策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)。
+若要了解如何使用通讯簿策略，请阅读 Exchange [Online 中的信息屏障策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)。
 
 > [!IMPORTANT]
-> 通讯簿策略仅提供用户从目录角度进行虚拟分离。 通过提供完整的电子邮件地址，用户仍然可以发起与其他人的通信。 另外，请务必注意，在实施新的或更新的通讯簿策略之前，已缓存的任何用户数据在30天内仍可供用户使用。
+> 通讯簿策略仅从目录角度提供用户虚拟分离。 另请注意，在强制执行新的或更新的通讯簿策略之前，已缓存的任何用户数据将保留给用户最多 30 天。
 
-## <a name="turn-on-scoped-directory-search"></a>打开范围的目录搜索
+## <a name="turn-on-scoped-directory-search"></a>启用作用域目录搜索
 
-1. 使用信息屏障策略将组织配置为虚拟子组。 有关详细信息，请参阅[定义信息屏障策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)。
+1. 使用信息屏障策略将组织配置为虚拟子组。 有关详细信息，请参阅"定义[信息屏障策略"。](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)
 
-2. 在 "Microsoft 团队管理中心" 中，选择 "**组织范围设置**"  >  **团队设置**。
+2. 在 Microsoft Teams 管理中心中，选择 **"组织范围的设置**  >  **Teams 设置"。**
 
-3. 在 "**搜索**" 下，**使用 Exchange 通讯簿策略 (团队中的 "范围目录搜索" 旁边 ABP) **"，打开 **" 打开 "。**
+3. 在 **"搜索**"下，在 Teams 中使用 Exchange 通讯簿策略搜索范围目录 (**ABP) ，** 打开 **开关**。
 
-    ![Microsoft 团队管理中心中的范围目录搜索](media/teams-scoped-directory-search-image1.png)
+    ![Microsoft Teams 管理中心内的范围目录搜索](media/teams-scoped-directory-search-image1.png)
 
 
 > [!IMPORTANT]
-> 此更改可能需要几个小时才能进行复制。
+> 此更改可能需要几个小时才能复制。
