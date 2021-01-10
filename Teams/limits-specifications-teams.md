@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b64042a318e6967523e80e62d1cca429bc7f7e88
-ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
+ms.openlocfilehash: dc3a2597c82bfce0f920f511677f9d6a0bf7e6fa
+ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49776843"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49786784"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -51,7 +51,7 @@ ms.locfileid: "49776843"
 
 <sup>1</sup> Azure Active Directory 中的目录对象均计入此限额。与使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
 
-<sup>2</sup> 此限制包含已存档的团队。 若要超出 Microsoft 365 或 Office 365 组织可拥有的最大团队数量，必须联系 Microsoft 支持部门。
+<sup>2</sup> 此限制包含已存档的团队。 若要突破 Microsoft 365 或 Office 365 组织内团队的最高数量，必须联系 Microsoft 支持部门并请求增加租户内 Azure Active Directory 对象的数量。
 
 <sup>3</sup> 已删除的频道可在删除后 30 天内还原。在这 30 天内，已删除的频道仍然计入每个团队 200 个频道或 30 个专用频道的限额内。30 天后，已删除的频道及其内容将被永久删除，此频道也不再计入每个团队的限额内。
 
