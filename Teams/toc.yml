@@ -1155,6 +1155,8 @@
           href: scripts/powershell-script-security-groups-edu.md
         - name: 教育版管理员低带宽指南
           href: edu-remote-low-bandwidth.md
+        - name: 适用教育的 Teams 策略向导
+          href: easy-policy-setup-edu.md
         - name: 见解入门
           href: class-insights.md
         - name: Teams 教育版中的分配
