@@ -50,7 +50,7 @@ ms.locfileid: "49806272"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，单击"**位置**  >  **紧急地址"。**
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，单击 **"位置**  >  **紧急地址"。**
 2. 在列表中，单击要更改位置的位置的名称。
 3. 在"**位置**"选项卡上，选择要更改的位置，然后单击"编辑 **"。**
 4. 更新地点信息，然后单击"应用 **"。**

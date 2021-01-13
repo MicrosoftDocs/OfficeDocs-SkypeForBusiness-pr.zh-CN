@@ -22,13 +22,13 @@ ms.locfileid: "49827532"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心查看应用权限并授予管理员许可
 
-Microsoft [Teams](manage-apps.md) 管理中心中的"管理应用"页面是查看和管理组织的所有 Teams 应用的地方。 例如，可以看到应用的组织级状态和属性、批准新的自定义应用或将其上载到组织的应用商店、在组织级别阻止或允许应用，以及管理组织范围内的应用设置。
+在 [Microsoft](manage-apps.md) Teams 管理中心的"管理应用"页中，可以查看和管理组织的所有 Teams 应用。 例如，可以看到应用的组织级状态和属性、批准新的自定义应用或将其上载到组织的应用商店、在组织级别阻止或允许应用，以及管理组织范围内的应用设置。
 
 在这里，还可以向请求数据访问权限的应用授予组织范围的管理员许可，以及查看 RSC (资源) 权限。
 
 ## <a name="grant-org-wide-admin-consent-to-an-app"></a>向应用授予组织范围的管理员许可
 
-如果你是全局管理员，你可以查看并许可代表组织中所有用户请求权限的应用。 这样做是让用户在启动应用时不必查看并接受应用请求的权限。 此外，根据 Azure Active [](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent) Directory (Azure AD) 中的用户许可设置，可能不允许某些用户向访问公司数据的应用授予许可。
+如果你是全局管理员，你可以查看并许可代表组织中所有用户请求权限的应用。 这样做是让用户在启动应用时不必查看并接受应用请求的权限。 此外，根据 Azure Active [](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent) Directory (Azure AD) 中的用户同意设置，可能不允许某些用户向访问公司数据的应用授予许可。
 
 应用请求的权限示例包括读取团队中存储的信息、读取用户的个人资料以及代表用户发送电子邮件的能力。 若要了解有关详细信息，请参阅 Microsoft 标识平台终结点 [中的权限和许可](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。 
 

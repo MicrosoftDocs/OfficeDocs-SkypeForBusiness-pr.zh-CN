@@ -38,7 +38,7 @@ ms.locfileid: "49806122"
 - [在 Teams 上设置第一个团队](teams-adoption-your-first-teams.md) 以建立技术知识。
 - [评估组织的更改准备情况](teams-adoption-assess-readiness.md)。
 
-此阶段的主要目标是确保做好试验阶段的准备。 你还将确定你是否需要 Microsoft 或我们经验丰富的合作伙伴网络的帮助。  
+此阶段的主要目标是确保做好试验阶段的准备。 你还将确定你是否需要 Microsoft 或我们经验丰富的合作伙伴网络的协助。  
 
 ## <a name="validate-adoption-prerequisites"></a>验证采用先决条件
 

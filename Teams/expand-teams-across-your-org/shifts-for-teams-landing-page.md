@@ -30,7 +30,7 @@ ms.locfileid: "49815732"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的排班
 
-Teams 为组织中一线员工提供了有效沟通和协作以及完成最佳工作所需的工具。 在这里，你将找到在 Teams 中设置和管理日程安排管理工具 Shifts 所需的管理员指南。
+Teams 为组织中一线员工提供有效沟通和协作以及完成最佳工作所需的工具。 在这里，你将找到在 Teams 中设置和管理日程安排管理工具 Shifts 所需的管理员指导。
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>为组织设置和管理班次
 

@@ -25,9 +25,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49809062"
 ---
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>升级后，从 Teams 中实现最大功能
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>升级后，在 Teams 中实现最大功能
 
-![升级过程图，强调"运营优化"阶段](media/upgrade-banner-op-excellence.png "升级旅程的阶段，侧重于"运营优化"阶段")
+![升级过程图，强调"运营优化"阶段](media/upgrade-banner-op-excellence.png "升级旅程的阶段，侧重于"操作优化"阶段")
 
 本文是升级旅程的操作优化阶段的一部分，完成从 Skype for Business 到 Teams 的升级后，即会立即开始。
 

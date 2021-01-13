@@ -31,7 +31,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49799872"
 ---
-# <a name="availability-in-kazakhstan"></a>在哈萨克斯坦的可用性
+# <a name="availability-in-kazakhstan"></a>在乌兹别克斯坦的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 

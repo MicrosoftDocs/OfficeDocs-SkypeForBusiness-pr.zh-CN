@@ -22,7 +22,7 @@ ms.locfileid: "49802352"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams 和 Skype 互操作性
 
-本文概述了 Microsoft Teams 与 Skype (Consumer) 之间的互操作性) 。 了解 Teams 用户和 Skype 用户如何通过聊天和通话以及适用管理控件进行通信。
+本文概述了 Microsoft Teams 与 Skype (Consumer) 之间的互操作性) 。 了解 Teams 用户和 Skype 用户如何通过聊天和通话以及应用的管理控件进行通信。
 
 你组织的 Teams 用户可以使用其电子邮件地址与 Skype 用户聊天和呼叫 Skype 用户，反之亦然。
 
@@ -42,14 +42,14 @@ ms.locfileid: "49802352"
 
 Teams 用户可以通过在新聊天或搜索栏中键入其电子邮件地址来搜索 Skype 用户。  然后，Teams 用户可以在搜索结果中选择 Skype 用户以开始聊天或呼叫他们。
 
-Skype 用户可能会选择不在搜索结果中显示。 在这种情况下，它们不会显示在 Teams 的搜索结果中，而 Teams 用户无法找到它们。
+Skype 用户可能会选择不在搜索结果中显示。 在这种情况下，它们不会显示在 Teams 的搜索结果中，Teams 用户无法找到它们。
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype 用户启动与 Teams 用户的聊天或通话
 
 Skype 用户可以使用 Teams 用户的电子邮件地址搜索并开始与 Teams 用户聊天。 Teams 用户收到来自 Skype 用户的新消息的通知，并且必须首先接受该消息，然后才能回复消息。
 
 - 如果 Teams 用户选择 **"接受**"，则接受对话，并且两个用户都可以聊天和呼叫对方。
-- 如果 Teams 用户选择"阻止"，则对话将被阻止，来自该 Skype 用户的后续消息和呼叫将被阻止。
+- 如果 Teams **用户选择"** 阻止"，则对话将被阻止，来自该 Skype 用户的后续消息和呼叫将被阻止。
 - 如果 Teams 用户选择" **查看** 消息"，消息会显示在 Teams 中，这有助于用户决定是接受还是阻止对话。
 
 > [!NOTE]
@@ -57,7 +57,7 @@ Skype 用户可以使用 Teams 用户的电子邮件地址搜索并开始与 Tea
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Teams 用户阻止或取消阻止 Skype 用户
 
-Teams 用户接受或阻止 Skype 用户的初始对话请求后，他们可以选择随时阻止或取消阻止该用户。 他们可以在对话中或在 Teams 的隐私设置中执行此操作。 Skype 用户不会知道他们已被阻止。
+Teams 用户接受或阻止 Skype 用户的初始对话请求后，他们可以选择随时阻止或取消阻止该用户。 他们可以在对话中或在 Teams 中的隐私设置中执行此操作。 Skype 用户不会知道他们已被阻止。
 
 Teams 中已阻止的 Skype 用户以及其他人和公共电话交换网 (PSTN) 电话号码将列在 Teams 中用户阻止的联系人列表中。
 
@@ -67,7 +67,7 @@ Teams 中已阻止的 Skype 用户以及其他人和公共电话交换网 (PSTN)
 - 对话是一对一的。 不支持群组聊天。
 - Teams 用户和 Skype 用户无法看到彼此的存在状态。
 - 不支持使用 Skype ID 或电话号码搜索 Skype 用户。
-- Skype 用户无法呼叫设置了呼叫转发到其他用户号码、代理人号码或 PSTN 呼叫号码的公共电话交换 (Teams) 号码。  仅支持语音邮件。
+- Skype 用户无法呼叫设置了呼叫转发到其他用户号码、代理人号码或公用电话交换网的 Teams 用户 (PSTN) 号码。  仅支持语音邮件。
 - 不支持互操作升级、组呼叫和会议。
 - 不支持代理人代表 Teams 用户呼叫 Skype 用户。
 - 不支持通过聊天进行屏幕共享。
@@ -87,7 +87,7 @@ Teams 中已阻止的 Skype 用户以及其他人和公共电话交换网 (PSTN)
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心
 
-在 Microsoft Teams 管理中心，转到 **组织范围的** 设置"外部访问"，然后打开"用户可以与  >  **Skype 用户通信"。** 有关如何配置此设置和其他外部访问设置的分步指南，请参阅"在 Teams 中管理[外部访问"。](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)
+在 Microsoft Teams 管理中心，转到 **组织范围的** 设置"外部访问"，然后打开"用户可以与  >  **Skype 用户通信"。** 有关如何配置此和其他外部访问设置的分步指南，请参阅"在 Teams 中管理[外部访问"。](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

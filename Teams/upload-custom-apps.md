@@ -27,7 +27,7 @@ ms.locfileid: "49831162"
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>通过上传应用包发布自定义应用
 
 > [!NOTE]
-> 发布自定义 Teams 应用时，该应用可供组织应用商店中的用户使用。 有两种方法可以发布自定义应用，使用方式取决于获取应用的方式。 **本文重点介绍如何发布自定义** 应用，将应用包 (.zip 格式) 开发人员发送给你的应用包。 当开发人员通过 Teams 应用提交 API 将应用直接提交到"管理应用"<a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a>页面时，会使用另一种方法（即审批自定义应用）。 若要详细了解该方法，请参阅"发布通过 Teams 应用提交 API 提交的自定义<a href="https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps" target="_blank">应用"。</a>
+> 发布自定义 Teams 应用时，该应用可供组织应用商店中的用户使用。 有两种方法可以发布自定义应用，使用方式取决于获取应用的方式。 **本文重点介绍如何发布自定义** 应用，将应用包 (.zip 格式) 开发人员发送给你的应用包。 当开发人员通过 Teams 应用提交 API 将应用直接提交到"管理应用"<a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a>页面时，会使用另一种方法（即批准自定义应用）。 若要详细了解该方法，请参阅"发布通过 Teams 应用提交 API 提交的自定义<a href="https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps" target="_blank">应用"。</a>
 
 本文提供有关如何将 Teams 应用从开发到部署到发现的端到端指南。 本指南重点介绍应用的 Teams 方面，面向管理员和 IT 专业人员。 有关开发 Teams 应用的信息，请参阅 <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">Teams 开发人员文档</a>。
 
@@ -60,11 +60,11 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/platform/publishing
     1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"Teams 应用** 管理应用"，然后单击"  >  **组织范围的应用设置"。**
     2. 在 **"自定义应用**"下，打开 **"允许与自定义应用交互**"，然后单击"保存 **"。**
 2. 关闭全局 **应用设置策略中的** "上传自定义应用"设置。 要执行此操作：
-    1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **Teams** 应用设置策略，然后单击"全局 (组织范围内的默认  >  **)** 策略。
+    1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **Teams** 应用设置策略，然后单击"全局 (组织范围内的默认)  >  策略。 
     2. 关闭"**上传自定义应用"，** 然后单击"保存 **"。**
-3. 创建新的应用设置策略，允许上传自定义应用并将其分配给受信任的用户集。 要执行此操作：
-    1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **Teams 应用** 设置  >  **策略**，然后单击"添加 **"。** 为新策略指定名称和说明，打开"上传 **自定义应用**"，然后单击"保存 **"。**
-    2. 选择创建的新策略，并单击"管理 **用户"。** 搜索用户，单击"添加 **"，** 然后单击"应用 **"。** 重复此步骤，将策略分配给所有受信任的用户。
+3. 创建允许上传自定义应用并将其分配给受信任用户集的新应用设置策略。 要执行此操作：
+    1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **Teams 应用** 设置策略，然后单击"添加  >  **"。** 为新策略指定名称和说明，打开"上传 **自定义** 应用"，然后单击"保存 **"。**
+    2. 选择创建的新策略，并单击"**管理用户"。** 搜索用户，单击"添加 **"，** 然后单击"应用 **"。** 重复此步骤，将策略分配给所有受信任的用户。
 
         !["添加应用设置策略"页的屏幕截图](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -83,7 +83,7 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/platform/publishing
 
 ### <a name="control-access-to-the-app"></a>控制对应用的访问
 
-默认情况下，你组织的所有用户都可以访问组织应用商店中的应用。 若要限制和控制谁有权使用应用，可以创建并分配应用权限策略。 若要了解有关详细信息，请参阅<a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">"在 Teams 中管理应用权限策略"。</a>
+默认情况下，组织中的所有用户都可以访问组织应用商店中的应用。 若要限制和控制谁有权使用应用，可以创建并分配应用权限策略。 若要了解有关详细信息，请参阅<a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">"在 Teams 中管理应用权限策略"。</a>
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>固定并安装应用供用户发现
 

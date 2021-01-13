@@ -33,7 +33,7 @@ ms.locfileid: "49815712"
 
 ## <a name="adoption-content"></a>采用内容
 
-通过电子邮件、海报、讲义和现在可随意使用的更多资源，让学校对 Microsoft Teams 感到兴奋。 还可使用填充了横幅、GIF 和视频的新数字工具包在线和跨校园接触学生。 从今天开始！
+通过电子邮件、海报、讲义和现在可随意使用的更多资源，让学校对 Microsoft Teams 感到兴奋。 您还可以使用填充了横幅、GIF 和视频的新数字工具包在线和整个校园与学生交流。 从今天开始！
 
 请在使用这些 [材料之前](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) 阅读条款和条件。
 
@@ -41,7 +41,7 @@ ms.locfileid: "49815712"
 
 | |  |
 |---------|---------|
-|海报 -[可自定义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)[且打印就绪](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![海报的屏幕截图](media/edu-adoption-posters.png)     |[讲义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![讲义的屏幕截图](media/edu-adoption-handouts.png)|
+|海报 -[可自定义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)[且可打印](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![海报的屏幕截图](media/edu-adoption-posters.png)     |[讲义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![讲义的屏幕截图](media/edu-adoption-handouts.png)|
 |[传单](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![传单的屏幕截图](media/edu-adoption-flyers.png)   |[书籍](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![书籍的屏幕截图](media/edu-adoption-book-adverts.png)         |
 |["提示和技巧"小册子](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![屏幕截图](media/edu-adoption-get-started.png)    |
 

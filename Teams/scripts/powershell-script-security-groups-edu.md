@@ -26,9 +26,9 @@ ms.locfileid: "49809462"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
 
-使用此 PowerShell 脚本创建在学校中管理 Microsoft Teams 策略所需的安全组。 Teams [中的组策略](../assign-policies.md#assign-a-policy-to-a-group) 分配功能允许你向一组用户（例如安全组）分配策略。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
+使用此 PowerShell 脚本创建管理学校中的 Microsoft Teams 策略所需的安全组。 Teams [中的组策略](../assign-policies.md#assign-a-policy-to-a-group) 分配功能允许你将策略分配给一组用户，例如安全组。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
 
-此 PowerShell 脚本基于许可证类型创建两个安全组，一个组用于教职员工和教师，另一个组用于学校中的学生。 然后，可以将策略分配到创建的安全组。 有关使用此脚本的信息，请参阅"将策略分配给学校[中的大量用户"。](../batch-group-policy-assignment-edu.md)
+此 PowerShell 脚本基于许可证类型创建两个安全组，一个组用于教职员工和教师，另一个组用于学校中的学生。 然后，可以将策略分配到创建的安全组。 有关使用此脚本的信息，请参阅"为学校中的[大量用户分配策略"。](../batch-group-policy-assignment-edu.md)
 
 此脚本执行以下操作：
 

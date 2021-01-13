@@ -66,4 +66,4 @@ ms.locfileid: "49806082"
 
 开始使用 Teams 时，你和项目团队的其余部分必须承诺使用 Teams 聊天、频道和资源来运行项目。 你自己的 Teams 使用情况对于采用项目的质量至关重要。 我们建议你通过继续在电子邮件中与核心项目团队对话来抵御项目碎片化。 切换到 Teams 后，你将为最终希望员工接受的行为建模。 设置语气，首先开始享受将项目信息放在一个地方！  
 
-![一个图标，描述下一 ](media/teams-adoption-next-icon.png) 步：你的组织对 [Microsoft Teams 的就绪状态如何？](teams-adoption-assess-readiness.md)
+![一个图标，描述下一 ](media/teams-adoption-next-icon.png) 步： [你的组织对 Microsoft Teams 的就绪状态如何？](teams-adoption-assess-readiness.md)

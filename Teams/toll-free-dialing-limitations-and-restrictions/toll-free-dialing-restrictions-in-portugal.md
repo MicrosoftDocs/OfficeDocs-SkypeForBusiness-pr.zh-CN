@@ -21,7 +21,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入国家/地区特定的页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示拨打免费电话号码所需的每个国家/地区内的访问代码。
+description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示拨打免费电话号码所需的每个国家/地区内的访问代码。
 ms.openlocfilehash: cdaa8761e55ac2ad85775c81c4726bb42c5ba489
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT

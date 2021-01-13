@@ -1,14 +1,14 @@
 ---
 title: 为直接路由计划基于位置的路由
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: 了解如何为直接路由规划基于位置的路由。
+description: 了解如何规划直接Location-Based路由。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,256 +16,256 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec48927559f5b10cbd8fec98966f1c55d0297fd2
-ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
+ms.openlocfilehash: f05049cdc181aef72f9ed018f20cd8d2e3264909
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46864576"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822922"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 
-## <a name="overview-of-location-based-routing"></a>基于位置的路由概述
+## <a name="overview-of-location-based-routing"></a>路由Location-Based概述
 
-在某些国家和地区，不能绕过公共交换电话网络 (PSTN) 提供商减少长途通话成本。 本文介绍了如何使用基于位置的路由，根据其地理位置限制 Microsoft 团队用户进行收费跳过。 本文仅适用于 "电话系统直接路由"。
+在某些国家和地区，绕过公用电话交换网和 PSTN (PSTN) 降低远程呼叫成本是非法的。 本文介绍如何使用"Location-Based路由"根据用户的地理位置限制 Microsoft Teams 用户的通行费绕过。 本文仅适用于电话系统直接路由。
 
-在这里，你将大致了解基于位置的路由和指南，以帮助你进行规划。 准备好应用和启用基于位置的路由时，请参阅：
+此处将概述路由Location-Based指南，以帮助你进行规划。 准备好应用并启用路由Location-Based，请参阅：
 
-- [部署基于位置的路由的网络设置](location-based-routing-configure-network-settings.md)
+- [部署用于路由Location-Based设置](location-based-routing-configure-network-settings.md)
 - [为直接路由启用基于位置的路由](location-based-routing-enable.md)
 
 > [!NOTE]
-> 基于位置的路由在 Microsoft 365 政府社区云中不可用 (GCC) 高或 DoD 部署。
+> Location-Based高或 DoD 部署中的 Microsoft 365 政府社区云 (GCC) 不可用。
 
-基于位置的路由功能允许您在入站或出站 PSTN 呼叫时限制基于策略和用户地理位置的收费跳过。 基于位置的路由旨在提供一种阻止收费绕过的机制。 不应将它用作基于用户位置或意外结果的动态路由 PSTN 呼叫的机制。
+Location-Based路由是一项功能，可用于在入站或出站 PSTN 呼叫时根据策略和用户的地理位置限制通行费绕过。 Location-Based路由旨在提供一种机制来防止通行费绕过。 它不应用作基于用户位置动态路由 PSTN 呼叫的机制，否则可能会导致意外后果。
 
-当团队用户启用基于位置的路由时，以下内容适用：
+为 Teams 用户启用Location-Based时，以下条件适用：
 
-- 要发出出站 PSTN 呼叫，必须满足以下条件之一：
-    - 用户终结点位于启用了基于位置的路由的网络网站中，并通过针对基于位置的路由启用的相应网关呼叫传出。 
-    - 用户终结点位于未启用基于位置的路由的网络网站中，并且通过未启用基于位置的路由的网关呼叫传出。
+- 若要进行出站 PSTN 呼叫，以下条件之一必须为 true：
+    - 用户的终结点位于启用了 Location-Based 路由的网络站点中，并通过为 Location-Based 路由启用的相应网关调用出口。 
+    - 用户的终结点位于未启用 Location-Based 路由的网络站点中，并且通过未为 Location-Based 路由启用的网关调用出口。
 
-    任何其他方案中都不允许出站呼叫。
+    在任何其他方案中都不允许出站调用。
 
-- 若要接收入站 PSTN 呼叫，用户的应答终结点必须位于呼叫 ingresses 通过启用了基于位置的路由的网关的同一网络站点中。 在任何其他方案（如用户是漫游的情况）中，不允许呼叫，并且路由到用户的呼叫转接设置， (通常) 语音邮件。
-- 若要将 PSTN 呼叫转移到另一个团队用户，目标用户的终结点必须与发起传输的用户位于同一网络站点。 任何其他方案中都不允许传输。 
-- 若要将其他团队用户转移到 PSTN，必须通过与初始呼叫者位于同一网络站点的基于位置的支持路由的网关转移呼叫。 任何其他方案中都不允许传输。
+- 要接收入站 PSTN 呼叫，用户的应答终结点必须位于呼叫通过为路由启用的网关Location-Based站点。 在任何其他方案中（例如，如果用户正在漫游）中，不允许呼叫，并且被路由到用户的呼叫转发设置， (语音邮件) 。
+- 若要将 PSTN 呼叫转接给其他 Teams 用户，目标用户的终结点必须与发起传输的用户位于同一网络站点中。 任何其他方案都不允许传输。 
+- 若要将另一个 Teams 用户转移到 PSTN，必须通过与初始呼叫方位于同一网络站点Location-Based已启用路由的网关转移呼叫。 任何其他方案都不允许传输。
 
-基于位置的路由使用 Skype for Business 服务器使用的相同网络区域、站点和子网定义。 如果限制了某个位置的收费旁路，管理员会将该位置的每个 IP 子网和每个 PSTN 网关关联到一个网络站点。 用户的位置由用户的团队终结点在 PSTN 呼叫时连接到的 IP 子网确定。 用户可能有多个团队客户端位于不同的网站，在这种情况下，基于位置的路由会根据其终结点的位置单独强制执行每个客户端的路由。 
+Location-Based路由使用 Skype for Business Server 使用的相同网络区域、站点和子网定义。 当对一个位置限制通行费绕过时，管理员将该位置的每个 IP 子网和每个 PSTN 网关关联到网络站点。 用户的位置由用户的 Teams 终结点在 PSTN 呼叫时连接到的 IP 子网确定。 用户可能有多个位于不同站点中的 Teams 客户端，在这种情况下，Location-Based路由会根据其终结点的位置单独强制实施每个客户端的路由。 
 
-若要熟悉本文中使用的一些网络术语，请参阅 [团队中的云语音功能的网络设置](cloud-voice-network-settings.md)。
+若要熟悉本文中使用的一些网络术语，请参阅 Teams 中云语音 [功能的网络设置](cloud-voice-network-settings.md)。
 
-## <a name="apply-location-based-routing"></a>应用基于位置的路由
+## <a name="apply-location-based-routing"></a>应用Location-Based路由
 
-您必须将基于位置的路由应用到用户、网络站点和 PSTN 网关。  
+必须将路由Location-Based用户、网络站点和 PSTN 网关。  
 
-### <a name="apply-location-based-routing-at-the-user-location"></a>在用户位置应用基于位置的路由
+### <a name="apply-location-based-routing-at-the-user-location"></a>在Location-Based位置应用路由
 
-正如前面所述，基于位置的路由仅适用于设置直接路由的用户。 基于位置的路由不适用于为通话计划设置的用户。 如果用户位于 "收费旁路限制" 下，则必须为其启用基于位置的路由，这样就可以控制他们可以拨打和接收 PSTN 呼叫的条件以及可以使用的 PSTN 网关。 如果启用了基于位置的路由的用户位于为基于位置的路由启用的网站上，则用户必须通过连接到该网站的基于位置的路由网关进行呼叫。 
+如前所述，Location-Based路由仅适用于为直接路由设置的用户。 Location-Based路由不适用于为呼叫计划设置的用户。 如果用户受到收费Location-Based，则必须为用户启用自动路由，该限制控制他们可以拨打和接听 PSTN 呼叫的条件以及可以使用的 PSTN 网关。 当启用了 Location-Based 路由的用户位于启用了 Location-Based 路由的站点时，用户必须通过连接到站点的已启用 Location-Based 路由的网关进行调用。 
 
-基于位置的路由通过基于用户的团队终结点的 IP 地址确定用户的当前位置，并相应地应用规则来进行工作。 可通过以下方式对启用了基于位置的路由的用户的位置进行分类： 
-- **用户位于与分配了其所在的 PSTN 网关相同的基于位置的启用路由的网站上。**<br>在此方案中，用户位于为基于位置的路由启用的已知网络网站中，用户的直接向内拨号 (已) 号码在同一网络站点的 PSTN 网关上终止。 例如，用户位于其办公室。 
-- **用户位于其他基于位置的启用路由的站点，该站点未关联到 PSTN 网关（已分配它们的位置）。**<br>在此方案中，用户位于为基于位置的路由启用的已知网络站点中，并且该站点未与用户的已分配的 PSTN 网关相关联。 例如，用户将传播到另一个 office。  
-- **用户位于不支持基于位置的路由的内部站点。** <br>在此方案中，用户位于不支持基于位置的路由的已知内部网络站点。 
-- **用户位于未知网站。** 
+Location-Based路由的工作原理是基于用户的 Teams 终结点的 IP 地址确定用户的当前位置，并相应地应用规则。 可以按以下方式对启用了Location-Based路由的用户的位置进行分类： 
+- **用户位于与为其分配了 DID 的 PSTN Location-Based已启用路由的站点相同。**<br>在此方案中，用户位于已启用 Location-Based 路由的已知网络站点中，用户的直接向内拨号 (DID) 号码在同一网络站点的 PSTN 网关上终止。 例如，用户位于其办公室。 
+- **用户位于启用了路由Location-Based站点，与分配了 DID 的 PSTN 网关不关联。**<br>在此方案中，用户位于已启用 Location-Based 路由的已知网络站点中，并且该网站未与分配了用户的 DID 编号的 PSTN 网关相关联。 例如，用户出差到另一个办公室。  
+- **用户位于未启用自动路由Location-Based站点。** <br>在此方案中，用户位于未启用自动路由的已知内部Location-Based站点。 
+- **用户位于未知站点。** 
     - 用户位于未定义为网络站点的内部网络中。 
-    - 用户位于内部网络外部。 例如，用户在家中或在咖啡店中使用 Internet。 
+    - 用户位于内部网络外部。 例如，用户位于家里或咖啡店的 Internet 上。 
 
-### <a name="apply-location-based-routing-at-the-network-site"></a>在网络站点应用基于位置的路由 
-必须为基于位置的路由启用网络站点，以帮助确定在漫游时为基于位置的路由启用用户路由的网关。 如果启用了基于位置的路由的用户漫游到为基于位置的路由启用的网站，则仅在该网站上启用基于位置的路由的 PSTN 网关才可用于出站呼叫。 如果启用了基于位置的路由的用户漫游到未启用基于位置的路由的网站，则没有为基于位置的路由启用的任何网关均可用于出站呼叫。  
+### <a name="apply-location-based-routing-at-the-network-site"></a>在Location-Based应用路由 
+必须启用网络站点Location-Based，以帮助确定哪些网关在漫游时路由Location-Based路由启用路由的用户。 如果启用了 Location-Based 路由的用户漫游到启用了 Location-Based 路由的站点，则只有该站点上启用了 Location-Based 路由的 PSTN 网关才能用于出站呼叫。 如果启用了 Location-Based 路由的用户漫游到未启用 Location-Based 路由的站点，则未为 Location-Based 路由启用的任何网关都可以用于出站调用。  
 
-### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>在 PSTN 网关上应用基于位置的路由 
+### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>在 PSTN Location-Based应用路由 
 
-网关与网站相关联，以确定在其进行或接收 PSTN 呼叫时，可以使用基于位置的路由的用户所在的位置。 必须为基于位置的路由启用网关，以确保其位于 "收费回避" 限制下，并且不能由没有启用基于位置的路由的用户使用。 同一个网关可能与多个网站相关联，并且可以配置为启用基于位置的路由或不启用基于位置的路由，具体取决于网站。
+网关与网站相关联，以确定启用自动路由Location-Based用户进行或接收 PSTN 呼叫时可以位于何处。 必须为网关启用Location-Based路由，以确保它受通行费绕过限制，并且无法由未启用自动路由Location-Based使用。 同一网关可以关联到多个站点，并且可以配置为为 Location-Based 路由启用，或者不为 Location-Based 路由启用，具体取决于站点。
 
 ## <a name="scenarios-for-location-based-routing"></a>基于位置的路由的方案
 
-本部分介绍了通过基于位置的路由来限制免收长途电话的不同方案，以及如何为没有启用基于位置路由的用户的基于位置的路由的用户路由呼叫。
+本部分介绍使用 Location-Based 路由限制通行费绕过的不同方案，并将未启用 Location-Based 路由的用户的呼叫路由方式与启用了 Location-Based 路由的用户进行比较。
 
-- [团队用户将出站呼叫置于 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)
-- [团队用户从 PSTN 接收入站呼叫](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [团队用户将呼叫转移或转发给另一个团队用户](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [团队用户将呼叫转移或转发到 PSTN 终结点](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [Teams 用户向 PSTN 拨打出站呼叫](#teams-user-places-an-outbound-call-to-the-pstn)
+- [Teams 用户从 PSTN 接收入站呼叫](#teams-user-receives-an-inbound-call-from-the-pstn)
+- [Teams 用户将呼叫转接或转接给其他 Teams 用户](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [Teams 用户将呼叫转接或转接到 PSTN 终结点](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [同时响铃](#simultaneous-ringing)
 - [委派](#delegation)
 
-下图显示了每个方案中基于位置的路由启用的限制。 为基于位置的路由启用的用户、网络站点和网关在其周围有边框。 将图表用作指南，帮助你了解基于位置的路由在每个方案中的工作方式。  
+下图显示了每种方案中Location-Based路由启用的限制。 为路由启用的用户、网络站点和Location-Based周围有一个边框。 使用图表作为指南，帮助了解每个Location-Based路由的工作原理。  
 
-![显示基于位置的路由的方案的图表](media/lbr-direct-routing.png "显示基于位置的路由的方案的图表")
+![显示路由方案Location-Based示意图](media/lbr-direct-routing.png "显示路由方案Location-Based示意图")
 
-### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>团队用户将出站呼叫置于 PSTN
+### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams 用户向 PSTN 拨打出站呼叫
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>用户未启用基于位置的路由
+#### <a name="user-not-enabled-for-location-based-routing"></a>未为用户启用Location-Based路由
 
-未启用基于位置的路由的用户可以使用任何网站上的任何网关进行出站呼叫，而不是通过其分配的语音路由策略启用基于位置的路由。 但是，如果为基于位置的路由启用了网关，则用户不能通过网关发出出站呼叫，即使已将其分配给其语音路由策略也是如此。 如果用户漫游到启用了基于位置的路由的网站，则他们只能通过其不支持基于位置的路由的常规路由网关进行呼叫。
+未启用 Location-Based 路由的用户可以使用未通过其分配的语音路由策略启用 Location-Based 路由的任何站点的任何网关进行出站呼叫。 但是，如果为网关启用了Location-Based路由，则用户无法通过网关进行出站调用，即使该网关已分配到其语音路由策略。 如果用户漫游到已启用 Location-Based 路由的站点，则他们只能通过其未为 Location-Based 路由启用的正常路由网关进行调用。
  
-#### <a name="user-enabled-for-location-based-routing"></a>用户启用了基于位置的路由
-比较而言，对启用了基于位置的路由的用户的出站呼叫的路由受用户终结点的网络位置的影响。 下表显示了基于位置的路由如何影响对 User1 的出站调用的路由，具体取决于 User1 的位置。 
+#### <a name="user-enabled-for-location-based-routing"></a>为用户启用Location-Based路由
+相比之下，为启用了自动路由Location-Based用户的出站调用路由受用户终结点的网络位置影响。 下表显示了路由Location-Based用户 1 的出站调用路由，具体取决于用户 1 的位置。 
 
-|User1 终结点位置  |对 User1 的出站呼叫进行路由  |
+|User1 终结点位置  |User1 的出站调用路由  |
 |---------|---------|
-|已分配用户的同一网站，为基于位置的路由 (Site1 "启用网站")       |呼叫通过网关进行路由，该网关支持基于位置的路由 (GW1) 在 Site1，基于用户的语音路由策略         |
-|与用户所分配的位置不同的网站，为基于位置的路由启用网站 (Site2)     |呼叫通过网关进行路由，该网关支持基于位置的路由 (GW2 在漫游 Site2 上根据用户的语音路由策略在漫游时)         |
-|与用户所分配的位置不同的网站，网站不支持基于位置的路由 (Site3)   |通过未启用基于位置的路由 (GW3) （基于用户的语音路由策略）的基于位置的路由的呼叫路由到网关       |
-|未知的内部网络 (Location4)     |  不允许 PSTN 呼叫       |
-|未知的外部网络 (Location5)     | 不允许 PSTN 呼叫        |
+|分配了用户的 DID 的同一站点，为 site1 Location-Based路由 (站点)       |通过基于用户的语音路由策略Location-Based Site1 (GW1) 网关路由的呼叫         |
+|与分配用户的 DID 的站点不同，为 Site2 Location-Based路由启用 (站点)     |基于用户的语音路由策略，通过Location-Based路由 (GW2) 路由的网关路由的呼叫        |
+|与分配用户的 DID 的站点不同，未为站点启用Location-Based Site3 (路由)   |通过未基于用户的语音路由策略为 Location-Based 路由 (GW3) 启用的站点中未启用 Location-Based 路由的网关路由的呼叫       |
+|位置 4 (未知)     |  不允许 PSTN 呼叫       |
+|位置 5 (未知)     | 不允许 PSTN 呼叫        |
 
-### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>团队用户从 PSTN 接收入站呼叫
+### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams 用户从 PSTN 接收入站呼叫
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>用户未启用基于位置的路由
+#### <a name="user-not-enabled-for-location-based-routing"></a>未为用户启用Location-Based路由
 
-未启用基于位置的路由的用户可以接收来自未启用其分配的基于位置的路由的网关的入站呼叫。 ingresses。 如果用户漫游到未启用基于位置的路由的网站，他们仍然可以通过其正常的 PSTN 网关接收呼叫。
+未启用 Location-Based 路由的用户可以从未为其分配 DID 编号入口的 Location-Based 路由启用的网关接收入站呼叫。 如果用户漫游到未启用自动路由Location-Based站点，他们仍可通过其普通的 PSTN 网关接收呼叫。
   
-#### <a name="user-enabled-for-location-based-routing"></a>用户启用了基于位置的路由
+#### <a name="user-enabled-for-location-based-routing"></a>为用户启用Location-Based路由
 
-相比之下，为基于位置的路由启用的用户只能从 PSTN 网关接收来自 PSTN 网关的入站呼叫，这些呼叫是在位于同一站点时分配的。 下表显示了当 User1 移动到不同网络位置时，User1 如何接收入站呼叫。 如果呼叫未路由到用户的终结点，则它将转到用户的呼叫转接设置（如果设置已配置）。 通常，这是语音邮件。  
+相比之下，为路由启用Location-Based只能从 PSTN 网关接收来自 PSTN 网关的入站呼叫，当这些用户位于同一站点时，其 DID 被分配到该网关。 下表显示了 User1 如何在 User1 移动到不同的网络位置时接收入站呼叫。 如果呼叫未路由到用户的终结点，它将转到用户的呼叫转发设置（如果这些设置已配置）。 通常，这是语音邮件。  
 
-|User1 终结点位置  |将入站呼叫路由到 User1  |
+|User1 终结点位置  |将入站调用路由到 User1  |
 |---------|---------|
-|与用户所分配的位置相同的网站，为基于位置的路由启用网站 (Site1)    | 在 Site1 中路由到 User1's 终结点的通话        |
-|与用户所分配的位置不同的网站，为基于位置的路由启用网站 (Site2)     | 在 Site2 中未路由到终结点的调用        |
-|与用户所分配的位置不同的网站，网站不支持基于位置的路由 (Site3)     | 在 Site3 中未路由到终结点的调用        |
-|未知的内部网络 (Location4)    | 在 Location4 中未路由到终结点的调用        |
-|未知的外部网络 (Location5)      | 在 Location5 中未路由到终结点的调用        |
+|与分配了用户的 DID 的站点相同，为站点 1 Location-Based路由 (站点)    | 在 Site1 中路由到 User1 终结点的调用        |
+|与分配用户的 DID 的站点不同，为 Site2 Location-Based路由启用 (站点)     | 未路由到 Site2 中的终结点的调用        |
+|与分配用户的 DID 的站点不同，未为站点启用Location-Based Site3 (路由)     | 未路由到 Site3 中的终结点的调用        |
+|位置 4 (未知)    | 未路由到 Location4 中的终结点的调用        |
+|位置 5 (未知)      | 未路由到 Location5 中的终结点的调用        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>团队用户将呼叫转移或转发给另一个团队用户
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams 用户将呼叫转接或转接给其他 Teams 用户
 
-当涉及 PSTN 终结点时，基于位置的路由会分析是否为基于位置的路由启用一个或两个用户，并确定是否应转移或转发呼叫，具体取决于两个终结点的位置。 
+当涉及 PSTN 终结点时，Location-Based 路由会分析是否同时为一个或两个用户启用了 Location-Based 路由，并确定是应该根据两个终结点的位置转移还是转接呼叫。 
  
-呼叫转接要求启动用户接听呼叫时，呼叫转移不需要应答初始呼叫。 这意味着即使 User1 不在某个位置即可接收入站呼叫，也可以转移呼叫 (请参阅 [团队用户从 PSTN 部分接收入站呼叫](#teams-user-receives-an-inbound-call-from-the-pstn)) ，并且如果 User1 无法接收入站呼叫，则无法转移呼叫。 
+呼叫转接要求发起用户接听呼叫，而呼叫转接不需要应答初始呼叫。 这意味着，即使 User1 不在接收入站呼叫的位置 (也可以转接呼叫 (请参阅 Teams 用户从 [PSTN](#teams-user-receives-an-inbound-call-from-the-pstn) 部分) 接收的入站呼叫，并且如果用户 1 无法接收入站呼叫，则呼叫无法转移。 
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>用户未启用基于位置的路由
+#### <a name="user-not-enabled-for-location-based-routing"></a>未为用户启用Location-Based路由
 
-未启用基于位置的路由的用户可以将 PSTN 呼叫转移或转发到未启用基于位置的路由的其他用户。 用户通常不允许用户将 PSTN 呼叫转移或转发到启用了基于位置的路由的用户，因为基于位置的路由用户通常仅在基于位置的支持路由的连接网关（适用于 PSTN 呼叫）之间共存。 例外情况是，启用基于位置的路由用户漫游到未启用基于位置的路由的网站。 在此方案中，允许转移的通话。  
+未启用自动路由Location-Based可以将 PSTN 呼叫转接到未启用自动路由Location-Based其他用户。 通常不允许用户将 PSTN 呼叫转接或转接给启用了 Location-Based 路由的用户，因为启用 Location-Based 路由的用户通常只能在已启用 Location-Based 路由的网关上共同进行 PSTN 呼叫。 例外情况是，启用Location-Based路由的用户漫游到未启用路由Location-Based站点。 在此方案中，允许转接的呼叫。  
 
-同样，没有为基于位置的路由启用的用户只能接收来自另一个未启用位置路由的用户的转移或转发 PSTN 呼叫。 
+同样，未启用 Location-Based 路由的用户只能接收未启用自动路由的其他用户的转接或转发 PSTN Location-Based呼叫。 
 
-#### <a name="user-enabled-for-location-based-routing"></a>用户启用了基于位置的路由
+#### <a name="user-enabled-for-location-based-routing"></a>为用户启用Location-Based路由
 
-通常，仅当目标用户已启用基于位置的路由并位于同一网站时，才允许从启用基于位置的路由的网关转移和转发入站 PSTN 呼叫。 否则，不允许转移和转发呼叫。 
+通常，只有当目标用户启用了 Location-Based 路由并位于同一站点时，才允许从已启用 Location-Based 路由的网关转移和转发入站 PSTN 呼叫。 否则，不允许转移和转接呼叫。 
 
-下表显示了是否允许呼叫转接和呼叫转移，具体取决于目标用户的位置。 在此表中，位于 Site1 中的 User1 启动传输或转发给其他团队用户，这些用户也启用了基于位置的路由和位于不同位置的人员。  
+下表显示了是否允许呼叫转接和呼叫转接，具体取决于目标用户的位置。 在此表中，位于 Site1 中的 User1 启动传输或转发给其他 Teams 用户，这些用户也启用了 Location-Based 路由，并且这些用户位于不同的位置。  
 
-|目标用户终结点位置|User1 启动呼叫转移 |User1 发起呼叫转发|
+|目标用户终结点位置|User1 启动呼叫转接 |User1 启动呼叫转发|
 |---------|---------|---------|
-|与发起方 (网络 2) 的网络站点相同|有|有|
-|不同的网络站点，为基于位置的路由 (User3 "已启用网站") |不允许|不允许|
-|不同的网络站点，没有为基于位置的路由 (的网站启用 User4) |不允许|不允许|
-|未知的内部网络 (User5) | 不允许|不允许|
-|未知的外部网络 (User6) | 不允许|不允许|
+|与 User2 (发起程序相同的网络) |允许|允许|
+|不同的网络站点、为用户 3 Location-Based路由 (站点) |不允许|不允许|
+|不同的网络站点，未为用户 4 Location-Based路由 (站点) |不允许|不允许|
+|User5 (未知) | 不允许|不允许|
+|User6 (未知) | 不允许|不允许|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>团队用户将呼叫转移或转发到 PSTN 终结点
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams 用户将呼叫转接或转接到 PSTN 终结点
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>用户未启用基于位置的路由
+#### <a name="user-not-enabled-for-location-based-routing"></a>未为用户启用Location-Based路由
 
-- 允许将 PSTN 呼叫转移和转发到另一个 PSTN 号码。 
-- 将入站 VOIP 呼叫转移和转发到 PSTN 必须遵守呼叫者的收费绕过限制。 
-    - 如果呼叫者未启用基于位置的路由，则可以将其转移到未启用基于位置的路由的任何 PSTN 网关。
-    - 如果呼叫者启用了基于位置的路由，则只能将其转移到位于同一网络站点的基于位置的路由启用的网关。 
+- 允许将 PSTN 呼叫转接和转接到另一个 PSTN 号码。 
+- 将入站 VOIP 呼叫转移和转接到 PSTN 时，必须遵守呼叫者的收费绕过限制。 
+    - 如果未为呼叫方启用Location-Based路由，可以将呼叫者转移到未启用自动路由的任何 PSTN Location-Based网关。
+    - 如果调用方启用了Location-Based路由，则只能将其传输到位于同一网络Location-Based已启用路由的网关。 
 
-#### <a name="user-enabled-for-location-based-routing"></a>用户启用了基于位置的路由
+#### <a name="user-enabled-for-location-based-routing"></a>为用户启用Location-Based路由
 
-- 将 PSTN 呼叫转移和转发到另一个 PSTN 号码的情况必须路由到已启用入站呼叫的基于位置的基于路由的网关。 
-- 转移和转发到 PSTN 的入站 VOIP 呼叫必须同时接受呼叫方和呼叫用户的收费绕过限制。 
-    - 如果呼叫者未启用基于位置的路由，则可以将其转移到未启用基于位置的路由的任何 PSTN 网关。
-    - 如果呼叫者启用了基于位置的路由，则只能将其转移到位于同一网络站点的基于位置的路由启用的网关。
+- 必须将 PSTN 呼叫的入站呼叫转接和转接到另一 PSTN 号码Location-Based呼叫到达的已启用路由的网关。 
+- 将入站 VOIP 呼叫转移和转接到 PSTN 时，必须同时遵守呼叫方和被呼叫用户的通行费绕过限制。 
+    - 如果未为呼叫方启用Location-Based路由，可以将呼叫者转移到未启用自动路由的任何 PSTN Location-Based网关。
+    - 如果调用方启用了Location-Based路由，则只能将其传输到位于同一网络Location-Based已启用路由的网关。
  
-下表显示了基于位置的路由如何影响来自 User1 的从 Site1 到不同位置的 VOIP 呼叫的路由，这些用户将呼叫转移或转发到 PSTN 终结点。  
+下表显示了路由Location-Based将 VoIP 呼叫从 Site1 上的 User1 路由到不同位置将呼叫转接或转接到 PSTN 终结点的用户。  
 
-|用户启动呼叫转移或转发  |转接至 PSTN  |转发到 PSTN  |
+|用户发起呼叫转接或转接  |转移到 PSTN  |转发到 PSTN  |
 |---------|---------|---------|
-|相同的网络站点，为基于位置的路由 (服务2的网站启用)    |呼叫转移只能通过基于位置的 Gateway1 在 Site1 上启用基于位置的路由，并基于 User2's 的语音路由策略来进行路由         |根据 User2's 语音路由策略，呼叫转接只能通过基于位置启用的 Gateway1 在 Site1 上路由         |
-|不同的网络站点，为基于位置的路由 (User3 "已启用网站")     |呼叫转移只能通过基于位置的 Gateway1 在 Site1 上启用基于位置的路由，并基于 User3's 的语音路由策略来进行路由         |呼叫转接只能通过基于位置的 Gateway1 在 Site1 上启用基于位置的路由，并基于 User3's 的语音路由策略来进行路由         |
-|不同的网络站点，没有为基于位置的路由 (的网站启用 User4)     |呼叫转移只能通过基于位置的 Gateway1 在 Site1 上启用基于位置的路由，并基于 User4's 的语音路由策略来进行路由         |呼叫转接只能通过基于位置的 Gateway1 在 Site1 上启用基于位置的路由，并基于 User4's 的语音路由策略来进行路由         |
-|未知的内部网络 (User5)      |呼叫转移只能通过基于位置的 Gateway1 在 Site1 上启用基于位置的路由，并基于 User5's 的语音路由策略来进行路由         |呼叫转接只能通过基于位置的 Gateway1 在 Site1 上启用基于位置的路由，并基于 User5's 的语音路由策略来进行路由         |
-|未知的外部网络 (User6)    |呼叫转移只能通过基于位置的 Gateway1 在 Site1 上启用基于位置的路由，并基于 User6's 的语音路由策略来进行路由        |呼叫转接只能通过基于位置的 Gateway1 在 Site1 上启用基于位置的路由，并基于 User6's 的语音路由策略来进行路由         |
+|同一网络站点，为 User2 Location-Based路由 (站点)    |基于 User2 的语音路由策略，Location-Based Site1 上已启用路由的 Gateway1 路由呼叫转移         |基于 User2 的语音路由策略，Location-Based在 Site1 上通过已启用路由的 Gateway1 路由呼叫         |
+|不同的网络站点、为用户 3 Location-Based路由 (站点)     |基于 User3 的语音路由策略，Location-Based Site1 上已启用路由的 Gateway1 路由呼叫转移         |基于 User3 的语音路由策略，Location-Based Site1 上已启用路由的 Gateway1 路由呼叫转发         |
+|不同的网络站点，未为用户 4 Location-Based路由 (站点)     |基于 User4 的语音路由策略，Location-Based Site1 上已启用路由的 Gateway1 路由呼叫转移         |基于 User4 的语音路由策略，Location-Based Site1 上已启用路由的 Gateway1 路由呼叫转发         |
+|User5 (未知)      |基于 User5 的语音路由策略，Location-Based Site1 上已启用路由的 Gateway1 路由呼叫转移         |基于 User5 的语音路由策略，Location-Based Site1 上已启用路由的 Gateway1 路由呼叫转发         |
+|User6 (未知)    |基于 User6 的语音路由策略，Location-Based Site1 上已启用路由的 Gateway1 路由呼叫转移        |基于 User6 的语音路由策略，Location-Based Site1 上已启用路由的 Gateway1 路由呼叫转发         |
 
 ### <a name="simultaneous-ringing"></a>同时响铃
 
-如果启用了基于位置的路由的用户收到呼叫且同时启用了同时拨打，则基于位置的路由会分析呼叫方的位置和被呼叫方的终结点，以确定是否应路由呼叫。 同时拨打的规则与呼叫转移和转发的基于位置的规则相同。 
+如果已启用 Location-Based 路由的用户收到呼叫并启用了同时拨打，Location-Based 路由将分析呼叫方的位置和被调用方终结点，确定是否应路由呼叫。 同时拨打遵循与呼叫Location-Based和转接相同的规则。 
 
-#### <a name="simultaneous-ringing-for-another-teams-user"></a>同时拨打另一个团队用户
+#### <a name="simultaneous-ringing-for-another-teams-user"></a>同时为其他 Teams 用户响铃
 
-下表显示了对于 User1 的入站 PSTN 呼叫，基于位置的路由是否允许不同用户同时拨打到不同用户。
+下表显示了用户Location-Based用户 1 的入站 PSTN 呼叫是否允许同时拨打不同的用户。
 
-|目标用户终结点位置|同时拨打  |
+|目标用户终结点位置|同时响铃  |
 |---------|---------|
-|与发起方 (网络 2) 的网络站点相同   |有         |
-|为基于位置的路由 (User3) 启用不同的漫游网络网站   |不允许         |
-|漫游网络网站未启用基于位置的路由 (User4)    |不允许        |
-|未知的内部网络 (User5)     | 不允许        |
-|未知的外部网络 (User6)     |不允许        |
-|目标用户是 PSTN 号码    |呼叫只能通过基于位置的路由启用 Gateway1 at Site1，基于 User1's 的语音路由策略进行路由      |
+|与 User2 (发起程序相同的网络)    |允许         |
+|为用户 3 路由路由Location-Based不同的 (站点)    |不允许         |
+|未为用户 4 路由Location-Based漫游 (站点)    |不允许        |
+|User5 (未知)     | 不允许        |
+|User6 (未知)     |不允许        |
+|目标用户是 PSTN 号码    |基于 User1 的语音路由Location-Based，只能通过 Site1 上已启用路由的 Gateway1 路由呼叫      |
 
-#### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>同时拨打 PSTN 终结点
+#### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>同时响铃到 PSTN 终结点
 
-下表显示了从 Site1 到不同位置的入站 VOIP 呼叫的入站 VOIP 呼叫的基于位置的路由行为，同时拨打设置为 PSTN 号码的不同位置的用户。 
+下表显示了Location-Based位于 Site1 的用户 1 到不同位置同时拨打设置为 PSTN 号码的用户的入站 VOIP 呼叫的路由行为。 
 
-|名为用户终结点位置  |同时拨打的目标为 PSTN 终结点 |
+|调用的用户终结点位置  |同时响铃目标是 PSTN 终结点 |
 |---------|---------|
-|相同的网络站点，为基于位置的路由 (服务2的网站启用)     |呼叫只能通过基于位置的路由 Gateway1 在 Site1 上进行路由，基于 User2's 的语音路由策略       |
-|为基于位置的路由 (User3) 启用不同的网络站点    |呼叫只能通过基于位置的路由 Gateway1 在 Site1 上进行路由，基于 User3's 的语音路由策略        |
-|没有为基于位置的路由 (User4) 启用不同的网络站点    |呼叫只能通过基于位置的路由 Gateway1 在 Site1 上进行路由，基于 User4's 的语音路由策略         |
-|未知的内部网络 (User5)     |呼叫只能通过基于位置的路由 Gateway1 在 Site1 上进行路由，基于 User5's 的语音路由策略         |
-|未知的外部网络 (User6)    |呼叫只能通过基于位置的路由 Gateway1 在 Site1 上进行路由，基于 User6's 的语音路由策略         |
+|同一网络站点，为 User2 Location-Based路由 (站点)     |基于 User2 的语音路由策略，Location-Based Site1 上的路由网关 1 路由呼叫       |
+|为 User3 Location-Based路由 (不同的网络)     |基于 User3 的语音路由策略，Location-Based Site1 上的路由网关 1 路由呼叫        |
+|不同网络站点未为用户 4 Location-Based路由 (启用)     |根据 User4 的语音路由Location-Based，只能通过 Site1 上的路由网关 1 路由呼叫         |
+|User5 (未知)     |根据 User5 的语音路由Location-Based，只能通过 Site1 上的路由网关 1 路由呼叫         |
+|User6 (未知)    |基于 User6 的语音路由Location-Based，只能通过 Site1 上的路由网关 1 路由呼叫         |
 
-#### <a name="inbound-calls-through-voice-app-auto-attendant-or-call-queue"></a>通过语音应用拨入电话 (自动助理或呼叫队列) 
+#### <a name="inbound-calls-through-voice-app-auto-attendant-or-call-queue"></a>通过语音应用呼叫或 (自动助理呼叫队列呼叫) 
 
-允许来自基于位置的启用路由的网关的入站 PSTN 呼叫连接到自动助理或呼叫队列。 如果用户位于与入站 PSTN 呼叫来自同一站点的同一站点，则启用基于位置的路由的用户只能接收来自这些应用程序的入站呼叫转移。 
+允许来自已启用路由Location-Based网关的入站 PSTN 呼叫连接到自动助理或呼叫队列。 启用自动Location-Based路由的用户只能从这些应用程序接收入站呼叫传输，因为他们位于入站 PSTN 呼叫源自的同一站点。 
  
-语音应用传输允许呼叫转接和同时拨打用户和 PSTN。 完成对目标的调用取决于前面列出的基于位置的路由规则。  
+允许呼叫转接和同时拨打用户和 PSTN 进行语音应用传输。 完成目标调用需要遵守前面列出的Location-Based规则。  
  
 还允许转发到语音邮件。  
 
 ### <a name="delegation"></a>委派
 
-团队用户可以选择代表自己进行呼叫和接听呼叫的代理人。 团队中的委派功能受基于位置的路由影响，如下所示： 
-- 对于代表委托人进行通话的基于位置的路由启用委派的出站呼叫，应用相同的规则。 呼叫路由基于代理人的呼叫授权策略、语音路由策略和位置。 有关详细信息，请参阅 [团队用户将出站呼叫放置到 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)。 
-- 对于入站 PSTN 呼叫委托人进行通话，用于呼叫转接或同时拨打给其他用户的基于位置的路由规则也适用于代理人。 有关详细信息，请参阅 [团队用户将呼叫转移或转发给另一个团队用户](#teams-user-transfers-or-forwards-call-to-another-teams-user)， [团队用户将呼叫转移或转移到 PSTN 终结点](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)， [同时拨打](#simultaneous-ringing)。 当代理人将 PSTN 终结点设置为同时拨打的目标时，将使用该代理的语音路由策略将呼叫路由到 PSTN。 
-- 对于委派，建议委托人进行通话和关联的委派位于同一网络站点。 
+Teams 用户可以选择可以代表他们拨打和接听电话的代理人。 Teams 中的委派功能受 Location-Based路由的影响，如下所示： 
+- 对于代表委派Location-Based已启用路由的代理的出站调用，适用相同的规则。 呼叫路由基于代理的呼叫授权策略、语音路由策略和位置。 有关详细信息，请参阅 [Teams 用户向 PSTN 拨打出站呼叫](#teams-user-places-an-outbound-call-to-the-pstn)。 
+- 对于对代理人的入站 PSTN 呼叫，Location-Based呼叫转发或同时拨打的相同路由规则也适用于代理人。 有关详细信息，请参阅 Teams 用户将呼叫转接或转接给其他 [Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user)用户 [、Teams](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)用户将呼叫转接或转接到 PSTN 终结点以及同时 [拨打](#simultaneous-ringing)。 当代理人将 PSTN 终结点设置为同时拨打目标时，代理的语音路由策略用于将呼叫路由到 PSTN。 
+- 对于委派，建议委派方和关联的代理人位于同一个网络网站中。 
 
 ## <a name="other-planning-considerations"></a>其他规划考虑事项
 
-### <a name="changes-from-an-on-premises-location-based-routing-deployment"></a>基于本地位置的路由部署的更改
+### <a name="changes-from-an-on-premises-location-based-routing-deployment"></a>从本地路由部署Location-Based更改
 
-不再使用网络站点语音路由策略。 而是使用用户的语音路由策略。 这意味着，若要允许用户漫游到其他网站，语音路由策略必须包含漫游网站的网关。 
+不再使用网络站点语音路由策略。 而是使用用户的语音路由策略。 这意味着，若要允许用户漫游到其他站点，语音路由策略必须包含漫游站点网关。 
 
 ### <a name="technical-considerations-for-location-based-routing"></a>基于位置的路由的技术注意事项
 
-支持 IPv4 和 IPv6 子网，但是在检查匹配项时，IPv6 优先。
+支持 IPv4 和 IPv6 子网，但在检查匹配时，IPv6 优先。
 
-### <a name="client-support-for-location-based-routing"></a>基于位置的路由的客户端支持
+### <a name="client-support-for-location-based-routing"></a>客户端支持Location-Based路由
 
-支持以下团队客户端：
--  (Windows 和 Mac 的团队桌面客户端) 
--  (iOS 和 Android) 的团队移动客户端
-- 团队 IP 电话
+支持以下 Teams 客户端：
+- Windows 和 Mac (Teams 桌面客户端) 
+- iOS 和 Android (Teams 移动客户端) 
+- Teams IP 电话
 
-不支持团队 web 客户端和 Skype for Business 客户端。
+不支持 Teams Web 客户端和 Skype for Business 客户端。
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>基于位置的路由不支持的功能
 
-基于位置的路由不适用于以下类型的交互。 当团队终结点在以下情况下与 PSTN 终结点交互时，不会强制执行基于位置的路由： 
+Location-Based路由不适用于以下类型的交互。 Location-Based以下情况中，Teams 终结点与 PSTN 终结点交互时，不会强制实施路由： 
 - 通过呼叫寄存对 PSTN 呼叫进行呼叫寄存或检索 
-- 本地 Skype for Business 用户或 Skype for business Online 用户呼叫团队用户  
+- 本地 Skype for Business 用户或 Skype for Business Online 用户呼叫 Teams 用户  
 
-### <a name="location-based-routing-for-conferencing"></a>会议的基于位置的路由
+### <a name="location-based-routing-for-conferencing"></a>Location-Based会议路由
 
-不允许在 PSTN 呼叫上启用基于位置的路由用户与其他用户或 PSTN 号码开始会议。 允许连接到自动助理或呼叫队列。 如果用户拥有会议许可证，则用户必须启动与相关用户的会议并通过会议桥呼叫 PSTN 才能开始电话会议。  
+不允许Location-Based PSTN 呼叫的已启用呼叫路由的用户启动具有其他用户或 PSTN 号码的会议。 允许连接到自动助理或呼叫队列。 如果用户具有会议许可证，用户必须与相关用户开始会议，并通过会议网桥呼叫 PSTN 以开始电话会议。  
 
-### <a name="media-bypass-requirement-for-location-based-routing"></a>基于位置的路由的媒体绕过要求
+### <a name="media-bypass-requirement-for-location-based-routing"></a>网络路由的媒体Location-Based要求
 
-如果要在印度中部署基于位置的路由，则还需要配置 "绕过媒体"。 若要了解详细信息，请参阅使用直接路由和[本地媒体优化进行](direct-routing-media-optimization.md)[媒体绕过的计划](direct-routing-plan-media-bypass.md)，直接路由。
+如果正在印度部署Location-Based路由，则还需要配置媒体旁路。 若要了解有关详细信息，请参阅["使用直接路由规划媒体](direct-routing-plan-media-bypass.md)旁路"和"直接路由[的本地媒体优化"。](direct-routing-media-optimization.md)
 
-### <a name="direct-voice-over-ip-voip"></a>直接通过 IP (VoIP) 进行语音通话
+### <a name="direct-voice-over-ip-voip"></a>通过 IP 直接语音 (VoIP) 
 
-直接通过 IP (VoIP) 不得与印度的任何电话设备一起部署。
+不得使用印度 (电话设备) VoIP 设备直接通过 IP 进行语音通信。
 
 ## <a name="next-steps"></a>后续步骤
 
-转到为 [基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)。
+转到" [配置网络设置"进行Location-Based路由](location-based-routing-configure-network-settings.md)。
 
 ## <a name="related-topics"></a>相关主题
 
 - [为直接路由启用基于位置的路由](location-based-routing-enable.md)
-- [团队中云语音功能的网络设置](cloud-voice-network-settings.md)
+- [Teams 中云语音功能的网络设置](cloud-voice-network-settings.md)

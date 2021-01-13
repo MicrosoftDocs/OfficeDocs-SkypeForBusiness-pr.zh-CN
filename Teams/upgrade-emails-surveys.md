@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>电子邮件，要求用户试用团队和频道，步骤 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>电子邮件，要求用户在步骤 10 中尝试团队和频道
 
 主题行：
 

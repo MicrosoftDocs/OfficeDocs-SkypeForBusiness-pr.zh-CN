@@ -32,11 +32,11 @@ ms.locfileid: "49827512"
 环回机器人可帮助避免此方案中可能会发生意外的静音。 对于从 PSTN 到 Teams 客户端的入站呼叫，环回机器人向呼叫者播放独特的音频信号，指示 Teams 正在建立呼叫。
 
 > [!NOTE]
-> 环回机器人从 Teams 后端生成早期媒体。 在一些国家和地区，当媒体开始流动时，你可能需要支付通话费用。
+> 环回机器人从 Teams 后端生成早期媒体。 在某些国家和地区，当媒体开始流动时，你可能需要支付通话费用。
 
 ## <a name="configure-the-ringback-bot"></a>配置环回机器人
 
-使用 [Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlet 修改以前定义的会话边界控制器 (SBC) 配置，或使用 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet 创建新的 SBC 配置，以及 **GenerateRingingWhileLocatingUser** 参数配置环回机器人：
+使用 [Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) cmdlet 修改以前定义的会话边界控制器 (SBC) 配置，或使用 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet 创建新的 SBC 配置，以及 **GenerateRingingWhileLocatingUser** 参数来配置环回机器人：
 
 - 若要打开环回机器人，将 **GenerateRingingWhileLocatingUser** 参数设置为 **$True。** 此值为默认值。 
 

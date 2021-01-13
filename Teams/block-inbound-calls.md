@@ -36,7 +36,7 @@ ms.locfileid: "49799902"
 
 ## <a name="call-blocking-powershell-commands"></a>调用阻止 PowerShell 命令
 
-使用 New、Get、Set、Remove      - **CsInboundBlockedNumberPattern** cmdlet 管理数字模式。 可以使用这些 cmdlet 来管理给定的模式，包括切换给定模式激活的能力。
+使用 New、Get、Set、Remove      - **CsInboundBlockedNumberPattern** cmdlet 管理数字模式。 可以使用这些 cmdlet 来管理给定的模式，包括切换给定模式的激活功能。
 
 - [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) 返回添加到租户列表的所有阻止数字模式的列表，包括名称、说明、已启用 (True/False) 和每个模式。
 - [New-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern) 将阻止的编号模式添加到租户列表。
@@ -97,9 +97,9 @@ Get-CsInboundBlockedNumberPattern
 
 ### <a name="examples"></a>示例
 
-#### <a name="add-a-number-exception"></a>添加数字异常
+#### <a name="add-a-number-exception"></a>添加数字例外
 
-本示例将创建一个新的数字异常模式，默认情况下，该模式将添加为"已启用"。 Enabled 和 **Description** 参数是可选的。
+本示例将创建一个新的数字异常模式，默认情况下，该模式将添加为已启用。 Enabled 和 **Description** 参数是可选的。
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>

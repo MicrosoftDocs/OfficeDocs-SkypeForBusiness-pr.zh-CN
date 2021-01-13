@@ -30,7 +30,7 @@ ms.locfileid: "49806132"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>为 Microsoft Teams 上线支持
 
-为确保早期采用者团队和团队在开始使用 Teams 时获得相应的支持，请与支持人员会面并查看 Teams 的功能。 支持组织的关键成员可能希望加入早期采用者计划。 鼓励他们在其自己的方案中使用 Teams。 使用我们的在线培训资源，让他们完成产品的基本载入。  
+为确保早期采用者团队和团队在开始使用 Teams 时获得相应的支持，请与支持人员会面并查看 Teams 的功能。 支持组织的关键成员可能希望加入早期采用者计划。 鼓励在其自己的方案中使用 Teams。 使用我们的在线培训资源，让他们完成产品的基本载入。  
 
 - [基础 - Microsoft Teams 的核心组件](https://youtu.be/V6B4KraD-FM)
 - [Teams 疑难解答](https://youtu.be/0KNh9KNpXcA)

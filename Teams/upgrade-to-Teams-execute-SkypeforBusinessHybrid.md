@@ -52,7 +52,7 @@ ms.locfileid: "49802342"
 
 ## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>步骤 2：分配共存和升级模式
 
-将用户移动到 Skype for Business Online 后，你可以根据组织选择的升级旅程为其分配适当的共存模式。 有关详细信息，请参阅["设置共存和](https://aka.ms/SkypeToTeams-SetCoexistence)升级设置"和["TeamsUpgradePolicy：管理迁移和共存"。](upgrade-to-teams-on-prem-tools.md)
+将用户移动到 Skype for Business Online 后，你可以根据组织选择的升级旅程为其分配适当的共存模式。 有关详细信息，请参阅 ["设置共存](https://aka.ms/SkypeToTeams-SetCoexistence) 和升级设置"和 [TeamsUpgradePolicy：管理迁移和共存](upgrade-to-teams-on-prem-tools.md)。
 
 > [!NOTE]
 > 使用 Skype for Business Server 2019 和 Skype for Business Server 2015 的未来累积更新，你将能够执行步骤 1 (将用户移动到 Skype for Business Online) ，并且步骤 2 (通过单个步骤将用户升级到 Teams) 。 发布 Skype for Business Server 2019 后，将提供更多信息。

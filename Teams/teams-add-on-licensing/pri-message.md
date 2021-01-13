@@ -33,4 +33,4 @@ ms.locfileid: "49799862"
 
 最初于 2019 年[](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)6 月宣布，Microsoft Teams 的优先级通知授予用户持续发送通知的能力，对于标记为紧急的所有邮件，这些通知每两分钟重复一次，最多 20 分钟。 优先级通知已作为促销提供给所有 Teams 客户，直到 2020 年下半月。
 
-我们立即结束此次促销，并作为基本功能向所有 Teams 客户提供优先级通知。 用户现在将能够发送和接收无限紧急消息和优先级通知。 [详细了解如何管理优先级通知](../messaging-policies-in-teams.md)。
+我们立即结束此次促销，并作为基本功能向所有 Teams 客户提供优先级通知。 用户现在能够发送和接收无限紧急消息，并收到优先级通知。 [详细了解如何管理优先级通知](../messaging-policies-in-teams.md)。

@@ -1,5 +1,5 @@
 ---
-title: Dominica 中的可用性
+title: 多米尼加的可用性
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -44,7 +44,7 @@ ms.locfileid: "49804712"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费  <br/> |
 |是否自动分配音频会议的电话号码？  <br/> |否 <br> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信积分  <br/> |
    
    
 ## <a name="phone-system"></a>电话系统

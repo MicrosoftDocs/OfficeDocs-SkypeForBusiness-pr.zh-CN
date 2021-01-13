@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何在组织的 Teams 中为一线员工管理基于班次的访问。
+description: 了解如何在 Teams 中管理组织中一线员工基于班次的访问。
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -33,9 +33,9 @@ ms.locfileid: "49823012"
 
 Microsoft Teams 中的状态向其他用户指示用户的当前可用性和状态。 一线员工的存在通常不如其他员工预测，因为每天的工作时间通常不同。 作为管理员，你可以将 Teams 配置为为组织中一线员工显示一组基于班次的显示状态，以指示他们何时上班和下班。
 
-这些基于班次的显示状态为纯绿色对号，表示"上班"，灰色圆圈表示 &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ x，表示 ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; [](../../presence-admins.md)"关班"，红色实心圆圈表示"忙碌"与 Teams 中的默认状态集分开。 通过这两组状态，你可以根据用户的角色为组织成员配置不同的体验。
+这些基于班次的显示状态为纯绿色对号，表示"上班"，灰色圆圈表示 &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ x，表示 ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; [](../../presence-admins.md)"关班"，红色实心圆圈表示"忙碌"与 Teams 中的默认状态集分开。 通过这两组状态，你可以根据用户的角色为组织中人员配置不同的体验。
 
-使用基于班次的访问，可以在一线员工轮班时管理对 Teams 的访问权限。 例如，可以将 Teams 设置为显示一条消息，一线员工必须先确认该消息，然后他们才能在未安排班次时使用 Teams。  
+使用基于班次的访问，可以在一线员工轮班时管理对 Teams 的访问权限。 例如，可以将 Teams 设置为显示一条消息，一线员工必须先确认消息，然后他们才能在未安排班次时使用 Teams。  
 
 ## <a name="scenario"></a>使用场景
 
@@ -43,7 +43,7 @@ Microsoft Teams 中的状态向其他用户指示用户的当前可用性和状�
 
 您的组织中的一线员工应仅为其经理安排和批准的排班工作小时数付费。 不应为在计划排班（包括使用 Teams 应用）外工作的时间付费。 你设置了一条自定义消息，显示"你在 Teams 上轮班的时间不计入应付时间"，当一线员工在轮班时尝试访问 Teams 时，会显示此消息。 如果他们选择使用 Teams，他们单击" **我** 接受"，了解这一次不会付费。
 
-您的组织中还有一些信息工作者，这些员工是工资工，不工作轮班。 将信息工作者配置为在 Teams 中使用默认状态，同时提供一线员工基于班次的显示。
+您的组织中还有一些信息工作者，这些员工是工资工，不工作轮班。 将信息工作者配置为使用 Teams 中的默认状态，同时提供一线员工基于班次的显示。
 
 ## <a name="shift-based-presence-states"></a>基于班次的状态
 
@@ -57,13 +57,13 @@ Microsoft Teams 中的状态向其他用户指示用户的当前可用性和状�
 
 ## <a name="off-shift-access-to-teams"></a>不轮班访问 Teams
 
-此功能允许你在一线员工轮班时管理对 Teams 的访问权限。 如果一线员工在轮班时访问 Teams，可以将 Teams 设置为显示一条消息。 一线员工必须 **单击"我接受** "才能确认消息，才能使用 Teams。
+此功能允许你在一线员工上班时管理对 Teams 的访问权限。 如果一线员工在轮班时访问 Teams，可以将 Teams 设置为显示一条消息。 一线员工必须 **单击"我接受** "才能确认消息，才能使用 Teams。
 
 可以使用默认消息、从一组预定义邮件中选择，或自定义邮件以显示任何需要的文本。 下面是默认消息：
 
 ![默认消息的屏幕截图](../../media/shifts-presence-message.png)
 
-还可以设置消息的显示频率，并设置第一个班次开始或最后一个轮班结束与限制 Teams 访问之间的宽限期。
+还可以设置显示消息的频率，并设置第一个班次开始或最后一个轮班结束与限制 Teams 访问之间的宽限期。
 
 ## <a name="manage-shift-based-access"></a>管理基于班次的访问
 
@@ -99,7 +99,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -Enabl
 ```
 
 > [!NOTE]
-> 使用 **ShiftNoticeMessageType** 参数设置要显示的消息。 有关详细信息，请参阅[New-CsTeamsShiftsPolicy。](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
+> 使用 **ShiftNoticeMessageType** 参数设置要显示的消息。 若要了解有关详细信息，请参阅[New-CsTeamsShiftsPolicy。](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 
 ### <a name="example-3"></a>示例 3
 

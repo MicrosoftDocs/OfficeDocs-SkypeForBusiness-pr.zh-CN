@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 在 Teams 或 Skype for Business 中实现云语音功能时，使用模板向用户发送电子邮件。
+description: 当你在 Teams 或 Skype for Business 中实现云语音功能时，使用模板向用户发送电子邮件。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -25,7 +25,7 @@ ms.locfileid: "49812642"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>促进用户采用新的在线电话系统
 
-手机可以是用户的生命线。 从传统电话系统切换到在线电话系统意味着用户工作方式的显著变化，并且可能会对工作效率产生负面影响。 通过此更改，花时间通知、指导和支持用户有助于确保积极的用户体验并最大程度地提高投资回报。
+电话可以是用户的生命线。 从传统电话系统切换到在线电话系统意味着用户工作方式的显著变化，可能会对工作效率产生负面影响。 通过此更改，花时间通知、指导和支持用户有助于确保积极的用户体验并最大程度地提高投资回报。
 
 本文包含可自定义的电子邮件模板，可帮助用户了解其新电话系统。 自定义并发送适当的电子邮件，以便与特定语音部署保持一致。 我们使用了括号来指示易于个性化的各个部分，但我们建议添加特定于组织的消息，使公告最适用于用户。 如果适用于部署，请将对"Teams"的所有引用替换为"Skype for Business"。
 

@@ -55,7 +55,7 @@ Count  Name                               Group
 
 ## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>取消为用户分配 RestrictedAnonymous 会议策略
 
-若要从用户中删除 RestrictedAnonymous 会议策略，可以使用 [Grant-CSTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet，但用户数较少 (例如，用户数少于 100) 。 如果拥有大量用户 (例如，超过 100 个用户) ，则使用  [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet 提交批处理操作会更有效。
+若要从用户中删除 RestrictedAnonymous 会议策略，可以使用 [Grant-CSTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet，如果用户数较少 (例如，少于 100 个用户) 。 如果拥有大量用户 (例如，超过 100 个用户) ，则使用  [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet 提交批处理操作会更有效。
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>使用 Grant-CsTeamsMeeting Policy cmdlet
 

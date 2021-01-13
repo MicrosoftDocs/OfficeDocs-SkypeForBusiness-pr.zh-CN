@@ -43,7 +43,7 @@ ms.locfileid: "49812942"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费  <br/> |
 |是否自动分配音频会议的电话号码？  <br/> |否 <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> | 需要通信积分 <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用额度 <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -72,7 +72,7 @@ ms.locfileid: "49812942"
 |是否提供收费电话号码？  <br/> |是 <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅"获取 Skype for Business 和 Microsoft Teams 的服务电话号码["。](/microsoftteams/getting-service-phone-numbers)
+ 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅"获取 Skype for Business 和 Microsoft Teams 的服务电话号码["。](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>通信点数
 

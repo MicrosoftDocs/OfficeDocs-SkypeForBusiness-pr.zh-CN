@@ -35,7 +35,7 @@ ms.locfileid: "49802502"
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>哪些国家/地区支持号码移植？
 
-您可以在所有受支持的国家/地区转转或转移电话号码，但如何提交转口订单请求取决于电话号码来自的国家和地区。 有关支持号码移植的国家和地区的列表，请参阅"[管理组织的电话号码"。](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)  
+您可以在所有受支持的国家/地区转转或转移电话号码，但提交转单请求方式取决于电话号码的发送国家/地区。 有关支持号码移植的国家和地区的列表，请参阅"[管理组织的电话号码"。](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)  
 
 目前 [，Microsoft](transfer-phone-numbers-to-teams.md) Teams 管理中心中的移植向导支持获取英国、美国和加拿大的电话号码。 若要获取其他国家/地区的电话号码，可以 [手动提交移植订单](manually-submit-port-order.md)。
   
@@ -67,7 +67,7 @@ ms.locfileid: "49802502"
 
 - Skype for Business 混合电话号码。 如果要转移这些号码，请通过以下地址向我们发送电子邮件 <ptn@microsoft.com> ：
 
-  **无法转移：**
+  **无法传输：**
   
     > [!NOTE]
     > 目前，你无法转移任何来自受支持国家/地区的电话号码，包括来自 VoIP 电话提供商的电话号码。 有关支持的国家/地区列表，请参阅音频会议和通话计划的国家和地区 [可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -85,7 +85,7 @@ ms.locfileid: "49802502"
   
 ## <a name="what-information-do-i-need-to-provide"></a>我需要提供哪些信息？
 
-你需要拥有当前运营商的所有帐户信息。 在移植订单中输入的信息主要位于当前服务提供商的最新帐单或发票上。 还需要知道帐户上的姓名以及要移植的号码。
+你需要拥有当前运营商的所有帐户信息。 在移植订单中输入的信息主要位于当前服务提供商的最新帐单或发票上。 您还需要知道帐户上的姓名以及要移植的号码。
   
 ## <a name="what-are-full-port-and-partial-port-transfers"></a>什么是完整转网和部分转网？
 
@@ -118,7 +118,7 @@ ms.locfileid: "49802502"
   
 - **不同运营商** 提供的电话号码要求每个运营商提供唯一的号码移植请求。
 
-- **带** 区号（如：800、844、855、866、877 和 888）的免费号码不能包含在其他类型的号码的号码移植请求中。 若要移植这些免费电话号码，必须 [手动提交移植订单](manually-submit-port-order.md)。 你无法将这些数字移植到 Microsoft Teams 管理中心。 有关详细信息，请参阅[为你的组织管理电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+- **带** 区号（如：800、844、855、866、877 和 888）的免费电话号码不能包含在其他类型的号码的号码移植请求中。 若要移植这些免费电话号码，必须 [手动提交移植订单](manually-submit-port-order.md)。 你无法将这些数字移植到 Microsoft Teams 管理中心。 有关详细信息，请参阅[为你的组织管理电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
     对于要转网的电话号码的国家/ (类型， (LOA) 授权书非常重要。 可[在此处下载所需的 LOA。](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
@@ -138,7 +138,7 @@ ms.locfileid: "49802502"
 
 可以。 你只需要提交一个服务请求，在请求中提供你组织的租户 GUID 和你要转换的电话号码。 为此，请参阅["管理组织的电话号码"。](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>能否将我的号码从 Teams 移植到其他电话服务提供商或运营商？
+## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我能否将我的号码从 Teams 移植到其他电话服务提供商或运营商？
 
 若要将你的号码从 Teams 移植到其他运营商，你必须向新运营商提交请求。 还需要在 Microsoft Teams 管理中心设置移植 PIN。
 

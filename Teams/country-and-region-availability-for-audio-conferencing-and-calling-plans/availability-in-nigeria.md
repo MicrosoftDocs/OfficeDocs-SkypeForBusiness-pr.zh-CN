@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务（适用于尼日利亚）。
+description: 以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
 ms.openlocfilehash: bd624c3b61fb29d5eb5bcdd795fc4c1abe217976
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "49809532"
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务（适用于尼日利亚）。
+以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

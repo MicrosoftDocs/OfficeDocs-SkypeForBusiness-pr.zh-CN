@@ -69,7 +69,7 @@ ms.locfileid: "49809352"
 
 ## <a name="difference-between-overflow-meetings-and-live-events"></a>溢出会议和实时事件的差异
 
-借助高级通信，任何与会者超过 300 人的会议都将为最多 1，000 名参与者提供一种交互式体验，以及最多 20，000 名参与者以仅查看体验加入会议。 实时事件可实现其他功能。 在实时活动中，20，000 名与会者可以观看直播，并与 Teams 中的 Q&A、Yammer 中的对话或仅查看 Microsoft Stream 中的问答进行交互。 此外，我们正在将实时事件的长度从 4 小时增大到 16 小时，并且每个租户最多支持 50 个并发实时事件。 
+借助高级通信，任何与会者超过 300 人的会议都将为最多 1，000 名参与者提供一种交互式体验，以及最多 20，000 名参与者以仅查看体验加入会议。 实时事件可实现其他功能。 在实时活动中，20，000 名与会者可以观看直播，并与 Teams 中的 Q&A、Yammer 中的对话或 Microsoft Stream 中的仅查看进行交互。 此外，我们正在将实时事件的长度从 4 小时增大到 16 小时，并且每个租户最多支持 50 个并发实时事件。 
 
 >[!Note]
 > 从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](../tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
