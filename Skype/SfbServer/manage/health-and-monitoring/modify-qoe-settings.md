@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中修改体验质量设置
+title: 修改 Skype for Business Server 中的用户体验质量设置
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,44 +11,44 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: 摘要：了解如何在 Skype for Business 服务器中指定 QoE 数据的保留。
-ms.openlocfilehash: a7f8173518d12daffb23658f5b81fa35b39d13da
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解如何在 Skype for Business Server 中指定 QoE 数据的保留。
+ms.openlocfilehash: 18776e9b8eec9dcff6ced9f654d8153d7fa01777
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817841"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827792"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中修改体验质量设置
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>修改 Skype for Business Server 中的用户体验质量设置
 
-**摘要：** 了解如何在 Skype for Business 服务器中指定 QoE 数据的保留。
+**摘要：** 了解如何在 Skype for Business Server 中指定 QoE 数据的保留。
 
-默认情况下，用户体验质量 (QoE) 数据会在 60 天后清除。可以使用“**用户体验质量数据**”页上的设置将该数据保留更长或更短的时间。如果禁用 QoE，则在启用 QoE 之前捕获的数据也将清除。
+默认情况下，用户体验质量 (QoE) 数据会在 60 天后清除。可以使用“用户体验质量数据”页上的设置将该数据保留更长或更短的时间。如果禁用 QoE，则在启用 QoE 之前捕获的数据也将清除。
 
 > [!NOTE]
 > 应该对呼叫详细信息记录 (CDR) 和 QoE 进行配置，使二者保留数据的天数相同。监控报告主页上提供的呼叫详细信息报告 (CDR) 中的每个呼叫均包括 CDR 和 QoE 信息。如果 CDR 和 QoE 的清除期限不同，则某些呼叫可能只包含 CDR 数据，而其他呼叫可能只包含 QoE 数据。
 
 以下过程介绍如何配置 QoE 数据的清除设置。
 
-### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>使用 "Skype for Business 服务器" 控制面板指定 QoE 数据的保留
+### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板指定 QoE 数据的保留
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅**Delegate Setup Permissions**。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 **Delegate Setup Permissions**。
 
-2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
 
-3. 在左侧导航栏中，单击“**监控和存档**”，然后单击“**用户体验质量数据**”。
+3. 在左侧导航栏中，单击“监控和存档”，然后单击“用户体验质量数据”。
 
-4. 在“**用户体验质量数据**”页上，单击表中的相应站点，再单击“**编辑**”，然后单击“**显示详细信息**”。
+4. 在“用户体验质量数据”页上，单击表中的相应站点，再单击“编辑”，然后单击“显示详细信息”。
 
-5. 要打开清除，请选择“**启用 QoE 清除**”。
+5. 要打开清除，请选择“启用 QoE 清除”。
 
-6. 在“**QoE 最长保留期限（天）**”中选择 QoE 数据的最长保留天数。
+6. 在“QoE 最长保留期限(天)”中选择 QoE 数据的最长保留天数。
 
-7. 单击“**提交**”。
+7. 单击“提交”。
 
-## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指定 QoE 保留
+## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 指定 QoE 保留Windows PowerShell Cmdlet
 
-你可以使用 Windows PowerShell 和**CsQoEConfiguration** Cmdlet 创建 QoE 保留设置。 你可以从 Skype for Business Server Management Shell 或 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息，请参阅博客文章["快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"](https://go.microsoft.com/fwlink/p/?linkId=255876)。 在 Skype for Business 服务器中，此过程是相同的。
+可以使用 Windows PowerShell **和 Set-CsQoEConfiguration** cmdlet 创建 QoE 保留设置。 可以从 Skype for Business Server 命令行管理程序 或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>为特定位置指定 QoE 保留
 
@@ -66,8 +66,8 @@ ms.locfileid: "41817841"
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-有关详细信息，请参阅[CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) cmdlet 的帮助主题。
 
 ## <a name="see-also"></a>另请参阅
 
-[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[部署监控](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

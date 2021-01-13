@@ -1,8 +1,8 @@
 ---
-title: 编辑 Office Web Apps Server 设置
+title: 编辑 Office Web Apps 服务器设置
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 编辑已配置的 Office Web Apps 服务器的属性。 可编辑以下属性：
-ms.openlocfilehash: a1daf223be19e713a3c8c9848d65391b16baa22f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 编辑已配置的 Office Web Apps Server 的属性。 可编辑以下属性：
+ms.openlocfilehash: 97435749a5eb6aa818ff4bb49d7a9142f6834c1e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797263"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829922"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>编辑 Office Web Apps Server 设置
 
-编辑已配置的 Office Web Apps 服务器的属性。 可编辑以下属性：
+编辑已配置的 Office Web Apps Server 的属性。 可编辑以下属性：
 
- **Office Web Apps 服务器 FQDN**：此属性定义 Office Web apps 服务器的完全限定的域名，并且应匹配域名系统（DNS）主机 a 或 AAAA （如果正在使用 IPv6）记录。
+ **Office Web Apps Server FQDN：** 此属性定义 Office Web Apps Server 的完全限定域名，如果 IPv6 用于) 记录，则应该与域名系统 (DNS) 主机 A 或 AAAA (匹配。
 
- **Office Web Apps 服务器发现 URL**：用于客户端访问 Office Web apps 服务器的统一资源定位符（URL），如果服务器放置在部署的内部网络以外的其他网络区域中，可能需要从其默认值中编辑此地址。
+ **Office Web Apps Server** 发现 URL：用于客户端访问 Office Web Apps Server 的统一资源定位器 (URL) ，如果服务器位于部署的内部网络外的其他网络区域中，您可能需要从默认 URL 编辑此地址。
 
-如果此服务器部署在外围网络中或部署在将外围网络、低信任度网络和互联网与你的内部部署隔离的内部防火墙外部的其他网络区域中，则选中“**在外部网络中部署 Office Web Apps Server**”复选框。
+如果此服务器部署在外围网络或将外围网络、信任度低的网络和互联网与您内部部署隔离的内部防火墙外部的其他网络区域中，则选中“Office Web Apps 服务器部署在外部网络中”复选框。
 
 ![Office Web Apps 设置扩展器](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>另请参阅
 
-[Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[用于会议的组件和拓扑](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

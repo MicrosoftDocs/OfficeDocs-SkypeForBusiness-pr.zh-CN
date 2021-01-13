@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services（调用）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
-description: 在为将监视服务器报告部署到 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报表服务提供所需的信息后，"执行页面" 命令将显示为安装该程序所发出命令的摘要报告到 SQL Server Reporting Services。
-ms.openlocfilehash: ba0b1b70d3dc1d0dbcc68931fc8bf601b7693efd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 向 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报告服务提供部署监控服务器报告所需的信息后，"执行命令"页将显示为将报告安装到 SQL Server Reporting Services 而发出的命令摘要。
+ms.openlocfilehash: eac8b7884859c0b5b14218471054533eedb6d481
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823336"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829532"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services（调用）
  
-在为将监视服务器报告部署到 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报表服务提供所需的信息后，"执行页面" 命令将显示为安装该程序所发出命令的摘要报告到 SQL Server Reporting Services。
+向 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报告服务提供部署监控服务器报告所需的信息后，"执行命令"页将显示为将报告安装到 SQL Server Reporting Services 而发出的命令摘要。
   
-检查命令摘要，注意这些命令中显示的任何错误或警告消息。如果生成了日志文件，请从摘要窗口下的下拉列表中选择日志文件，然后单击“**查看日志**”以显示日志文件。
+检查命令摘要，注意这些命令中显示的任何错误或警告消息。如果生成了日志文件，请从摘要窗口下的下拉列表中选择日志文件，然后单击 **“查看日志”** 以显示日志文件。
   
 > [!IMPORTANT]
-> 为了使 Reporting Services 报表能够成功部署，并且在部署完成后访问报告，你必须具有 TCP/IP 端口80（如果你将证书分配到 Reporting Services，则还必须使用 TCP 端口443）在 SQL Server 上使用高级安全性的 Windows 防火墙中打开。 有关详细信息，请参阅[将 Windows 防火墙配置为允许](https://go.microsoft.com/fwlink/p/?linkId=218031)Microsoft sql Server 2008 R2 的 SQL server Access。
+> 若要使 Reporting Services 报告成功部署，且在部署完成后访问报告，您必须具有 TCP/IP 端口 80 (，并且（可选）TCP 端口 443 用于 SSL（如果将证书分配给 Reporting Services) ，则 SQL Server 上的 Windows 防火墙中打开了该证书。 有关详细信息，请参阅 [配置 Windows 防火墙](https://go.microsoft.com/fwlink/p/?linkId=218031) 以允许 SQL Server 2008 R2 Microsoft SQL Server访问。
   
-查看摘要后，单击 "**完成**" 以完成报表到 SQL Server Reporting Services 的安装。
+查看摘要后，单击"完成"以完成报告到 SQL Server Reporting Services 的安装。
   
 

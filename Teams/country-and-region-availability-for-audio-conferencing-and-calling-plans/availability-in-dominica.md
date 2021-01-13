@@ -1,7 +1,7 @@
 ---
 title: Dominica 中的可用性
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于 Dominica 的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 079486a0927e5fafc5dd3b9e4e360fed38489a1c
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: 下面是适用于 Dominica 的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 11b2f5fe51629fdac22425f9c045dcdb02252f50
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230270"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804712"
 ---
-# <a name="availability-in-dominica"></a>Dominica 中的可用性
+# <a name="availability-in-dominica"></a>多米尼加的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于 Dominica 的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+下面是适用于 Dominica 的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**Details**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |是，仅[按分钟付费](../audio-conferencing-pay-per-minute.md)  <br/> |
+|是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费  <br/> |
 |是否自动分配音频会议的电话号码？  <br/> |否 <br> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
    
 ## <a name="phone-system"></a>电话系统
@@ -52,8 +52,8 @@ ms.locfileid: "44230270"
 |**功能**|**Details**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> | 是 <br/> |
-|自动助理 <br/> | 在线  <br/> |
-|呼叫队列  <br/> | 在线 <br/> |
+|自动助理 <br/> | 可用  <br/> |
+|呼叫队列  <br/> | 可用 <br/> |
 |语音邮件  <br/> | 可用 <br/> |
    
 ## <a name="calling-plans"></a>通话套餐

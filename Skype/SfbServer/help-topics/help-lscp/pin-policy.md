@@ -1,8 +1,8 @@
 ---
 title: PIN 策略
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,31 +14,31 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
-description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: c310a28fdb27cdfacb2e0d813ff880e6f3f789e9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 要执行什么操作？ 单击要执行的任务的链接。
+ms.openlocfilehash: 0a363520e029015d8ca72c738a018aa16e943e39
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822485"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829382"
 ---
 # <a name="pin-policy"></a>PIN 策略
 
-您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+要执行什么操作？ 单击要执行的任务的链接。
 
- **使用 IP 电话的 PIN 策略**此个人识别码（PIN）策略支持使用 IP 电话连接到 Skype for business 服务器的用户的身份验证。
+ **使用 IP 电话的 PIN 策略** 此个人标识号 (PIN) 策略支持使用 IP 电话连接到 Skype for Business Server 的用户进行身份验证。
 - [在 Skype for Business Server 2015 中创建新的 PIN 策略](../../manage/authentication/create-a-new-pin-policy.md)
 
-- [在 Skype for Business Server 2015 中修改现有 PIN 策略](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [修改 Skype for Business Server 2015 中的现有 PIN 策略](../../manage/authentication/modify-an-existing-pin-policy.md)
 
 - [在 Skype for Business Server 2015 中删除 PIN 策略](../../manage/authentication/delete-a-pin-policy.md)
 
-  **处理电话拨入式会议的 PIN 策略**此引脚策略允许在你的组织中拥有 Active Directory 域服务凭据的用户通过输入 PIN 将电话拨入式会议作为经过身份验证的用户加入电话拨入式会议。
-- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+  **使用电话拨入式会议 PIN 策略** 此 PIN 策略允许组织中具有 Active Directory 域服务凭据的用户通过输入 PIN 以经过身份验证的用户身份加入电话拨入式会议。
+- [创建或修改站点或用户组的电话拨入式会议 PIN 设置](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [修改默认电话拨入式会议 PIN 设置](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [删除站点或用户组的电话拨入式会议 PIN 设置](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
-有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
 

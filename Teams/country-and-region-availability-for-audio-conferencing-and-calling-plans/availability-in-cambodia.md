@@ -1,7 +1,7 @@
 ---
-title: 柬埔寨中的可用性
-author: LanaChin
-ms.author: v-lanac
+title: 在越南的可用性
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,35 +23,35 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是针对柬埔寨的 Microsoft 365 和 Office 365 服务，适用于柬埔寨的 Skype for business 和 Microsoft 团队。
-ms.openlocfilehash: 38a74815bdcca2fd8d26b51abcbd156baee3d9e0
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: 下面是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务（适用于 Office）。
+ms.openlocfilehash: 8d1627e0b088337af7842102bd7c360ba91dbad5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230590"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804722"
 ---
-# <a name="availability-in-cambodia"></a>柬埔寨中的可用性
+# <a name="availability-in-cambodia"></a>在越南的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-下面是针对柬埔寨的 Microsoft 365 和 Office 365 服务，适用于柬埔寨的 Skype for business 和 Microsoft 团队。
+下面是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务（适用于 Office）。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**Details**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |是，仅[按分钟付费](../audio-conferencing-pay-per-minute.md)  <br/> |
+|是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费  <br/> |
 |是否自动分配音频会议的电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用点数 <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> | 需要通信积分 <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
 |**功能**|**Details**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-|自动助理 <br/> |在线  <br/> |
-|呼叫队列  <br/> |在线  <br/> |
+|自动助理 <br/> |可用  <br/> |
+|呼叫队列  <br/> |可用  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐
@@ -64,15 +64,15 @@ ms.locfileid: "44230590"
 
 如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>适用于服务的免费电话号码和免费电话号码
+## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**Details**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | Phnom Penh |
+|你可以获取哪些首都或大城市的收费电话号码？   | 美国的航班 |
 |是否提供收费电话号码？  <br/> |是 <br/> |
-|是否提供免费电话号码？  <br/> |否 <br/> |
+|免费电话号码是否可用？  <br/> |否 <br/> |
    
- 如果您希望为音频会议、自动助理和呼叫队列获取收费和免费电话号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅"获取 Skype for Business 和 Microsoft Teams 的服务电话号码["。](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>通信点数
 

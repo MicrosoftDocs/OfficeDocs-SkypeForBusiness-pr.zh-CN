@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中创建首批团体
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何通过使用团队管理 Microsoft 365 或 Office 365 部署来推动团队采用，包括如何将密钥资源作为选项卡固定在相应频道中。
+description: 了解如何通过使用 Teams 管理 Microsoft 365 或 Office 365 部署来推动 Teams 采用，包括如何将关键资源固定为相应频道中的选项卡。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,49 +21,49 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59b42c0f464c377b1a4e320fc01e6466fde99f3b
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 27a54501ff05c85c675987e68240ddd58ce91ab6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350216"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806082"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团体
 
-推动团队采纳的最佳方式是使用产品。 我们建议你通过团队管理 Microsoft 365 或 Office 365 部署。 您还应创建一个侧重于团队成员和工作效率的员工社区。 （这些初始团队可能会随着时间的推移而改变。）某些建议的团队包括：
+推动 Teams 采用的最佳方法就是使用该产品。 我们建议使用 Teams 管理 Microsoft 365 或 Office 365 部署。 还应创建专注于团队合作和工作效率的员工社区。  (这些初始团队可能会随着时间而改变。) 建议的团队包括：
 
 | 团队名称 | 建议的频道名称 |
 | --------- | ---------------------- |
-| 了解团队 | 常规</br> 打招呼</br> 我该怎么办？</br>反馈 </br> 将来团队的理念 </br> 支持 |
-| Microsoft 团队实现 | 常规 <br/> 意识和采纳 <br/> 商务服务 <br/> 先期采用计划 <br/> 反馈和见解 <br/> 安全性和合规性 <br/> 战略和规划 <br/> 服务运行状况和事件 <br/> 培训 <br/> Watercooler 聊天 |
-| 团队拥护 | 常规 <br/> 最佳做法、培训以及如何 <br/> 拥护者角落 <br/> 反馈和支持 <br/> 计划主管 <br/> 社交中心 |
+| 了解 Teams | 常规</br> 打招呼</br> 如何？</br>反馈 </br> 将来团队的理念 </br> 支持 |
+| Microsoft Teams 实现 | 常规 <br/> 认知和采用 <br/> Business Engagement <br/> 早期采用者计划 <br/> 反馈和见解 <br/> 安全性和符合性 <br/> 策略和规划 <br/> 服务运行状况和事件 <br/> 培训 <br/> Watercooler 聊天 |
+| Teamwork 支持团队 | 常规 <br/> 最佳做法、培训和操作方法 <br/> "金牌角" <br/> 反馈和支持 <br/> 计划潜在顾客 <br/> 社交中心 |
 
-在 Microsoft 团队中，[选项卡库](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview)让你可以访问管理员已启用的所有 Microsoft 365 或 Office 365 和第三方应用。 为了从你的产品中获取最大价值，我们建议将关键资源固定为每个相应频道中的选项卡。 请参阅下面的示例。
+在 Microsoft Teams[](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview)中，选项卡库使您可以访问管理员已打开的所有 Microsoft 365 或 Office 365 和第三方应用。 若要从产品获得最大价值，我们建议在每个相应频道中将关键资源固定为选项卡。 请参阅以下示例。
 
 ![显示默认选项卡和自定义选项卡的屏幕截图](media/teams-adoption-tab-example.png)
 
-在你的初始团队中，我们建议固定以下项目，以便在你的团队频道中轻松参考。 这些资产是您的 OneNote 笔记本分区的补充。 如果您正在与我们的 FastTrack 团队合作，他们将帮助您配置第一个团队。 
+在初始团队中，建议固定以下项目，便于在团队频道中参考。 这些资产是 OneNote 笔记本分区的新增功能。 如果你正在与 FastTrack 团队协作，他们将帮助你配置这些第一个团队。 
 
-|团队/频道名称 | 固定选项卡 |
+|团队/频道名称 | "固定"选项卡 |
 |----------------- | ---------- |
-| **Microsoft 团队部署** ||
-| 常规 | Web 选项卡：[团队文档](https://aka.ms/SuccessWithTeams) |
-| 意识和采纳 | [团队采用中心](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
-| 商务服务 | Wiki –交往指南<br/>表单–团队咨询请求<br/>列表-预订请求 |
-|早期采纳者 | 已固定的反馈社区 <br/> OneNote for 常见问题和常见主题 |
-| 反馈和报告 | 已固定的 Microsoft 365 或 Office 365 使用情况报告（仅适用于 Microsoft 365 或 Office 365 管理员） |
-| 安全性和合规性 | Microsoft 信任门户 <br/> [安全性和合规性文档](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [路线图](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
-| 战略和规划 | 协作北星型 PowerPoint <br/> 服务采纳项目计划 |
-| 培训 | 自定义学习培训门户 <br/> [团队在线培训](https://aka.ms/TeamsTraining) |
-| **团队拥护**|  |
-| 常规 | 用于程序公告 <br/> 引脚拥护者计划概述 |
-| 最佳做法 | 团队、频道和聊天的最佳做法 PowerPoint <br/> 团队生命周期 |
-| 拥护者角落 | 会议笔记和演示文稿 |
-| 社交中心 | RSS 连接器：团队博客和推动采纳的博客 |
-| 培训以及如何 | 您的培训门户链接 |
+| **Microsoft Teams 部署** ||
+| 常规 | "Web"选项卡 [：Teams 文档](https://aka.ms/SuccessWithTeams) |
+| 认知和采用 | [Teams 采用中心](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
+| 业务参与 | Wiki - Engagement 指南<br/>表单 - 请求 Teams 咨询<br/>列表 - Engagement 请求 |
+|早期采用者 | 固定的反馈社区 <br/> OneNote 常见问题解答和常见主题 |
+| 反馈和报告 | 仅适用于 Microsoft 365 或 Office 365 (的固定 Microsoft 365 或 Office 365 使用情况)  |
+| 安全性和合规性 | Microsoft 信任门户 <br/> [安全性和符合性文档](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [路线图](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| 策略和规划 | 协作 North Star PowerPoint <br/> 服务采用项目计划 |
+| 培训 | 自定义学习培训门户 <br/> [Teams 联机培训](https://aka.ms/TeamsTraining) |
+| **Teamwork 支持团队**|  |
+| 常规 | 用于计划公告 <br/> 固定得主计划概述 |
+| 最佳做法 | 有关团队、频道和聊天 PowerPoint 的最佳实践 <br/> 团队生命周期 |
+| "金牌角" | 会议笔记和演示文稿 |
+| 社交中心 | RSS 连接器：Teams 博客和推动采用博客 |
+| 培训和方法 | 培训门户链接 |
 
-## <a name="making-the-switch-to-microsoft-teams"></a>向 Microsoft 团队进行切换
+## <a name="making-the-switch-to-microsoft-teams"></a>转换到 Microsoft Teams
 
-开始使用团队时，项目团队的其余部分将对你和其他项目团队进行承诺，以便使用团队聊天、频道和资源来运行你的项目。 你自己的团队用途对你的采纳项目质量非常重要。 我们建议你通过电子邮件继续与核心项目团队进行对话来 fragmenting 项目。 通过切换到团队，你将对你希望员工接受的行为进行建模。 设置语气，首先转到一个位置，让你的项目信息更加轻松！  
+开始使用 Teams 时，你和项目团队的其余部分必须承诺使用 Teams 聊天、频道和资源来运行项目。 你自己的 Teams 使用情况对于采用项目的质量至关重要。 我们建议你通过继续在电子邮件中与核心项目团队对话来抵御项目碎片化。 切换到 Teams 后，你将为最终希望员工接受的行为建模。 设置语气，首先开始享受将项目信息放在一个地方！  
 
-![描述下一步骤的图标 ](media/teams-adoption-next-icon.png) 下：[你的组织 For Microsoft 团队的准备工作？](teams-adoption-assess-readiness.md)
+![一个图标，描述下一 ](media/teams-adoption-next-icon.png) 步：你的组织对 [Microsoft Teams 的就绪状态如何？](teams-adoption-assess-readiness.md)

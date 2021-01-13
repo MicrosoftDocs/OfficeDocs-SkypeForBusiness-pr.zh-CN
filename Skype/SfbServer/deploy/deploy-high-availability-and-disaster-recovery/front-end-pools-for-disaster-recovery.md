@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for business Server 中部署用于灾难恢复的配对的前端池
+title: 在 Skype for Business Server 中部署配对前端池进行灾难恢复
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,39 +11,39 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-description: 你可以决定使用配对的前端池来提供灾难恢复保护，但这并不是必需满足的要求。
-ms.openlocfilehash: 63b9c55aad2b31e01eec506ce28e54d2145ee636
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您可能决定使用配对的前端池来提供灾难恢复保护，但这不是一项要求。
+ms.openlocfilehash: 7d066de60bf3ab98d73d8aeee08044803fad983c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790080"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830602"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在 Skype for business Server 中部署用于灾难恢复的配对的前端池
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在 Skype for Business Server 中部署配对前端池进行灾难恢复
  
-你可以决定使用配对的前端池来提供灾难恢复保护，但这并不是必需满足的要求。
+您可能决定使用配对的前端池来提供灾难恢复保护，但这不是一项要求。
   
-你可以使用拓扑生成器轻松部署配对的前端池的灾难恢复拓扑。 
+您可以使用拓扑生成器轻松部署配对前端池的灾难恢复拓扑。 
   
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>部署配对前端池
 
-1. 如果池是新的且尚未定义，请使用拓扑生成器创建池。
+1. 如果池是新的且尚未定义，则使用拓扑生成器创建池。
     
-2. 在拓扑生成器中，右键单击两个池之一，然后单击 "**编辑属性**"。
+2. 在拓扑生成器中，右键单击两个池之一，然后单击"编辑 **属性"。**
     
-3. 在左侧窗格中单击“**复原**”，然后在右侧窗格中选择“**关联的备份池**”。
+3. 在左侧窗格中单击“复原”，然后在右侧窗格中选择“关联的备份池”。
     
-4. 在“**关联的备份池**”下方的框中，选择要与该池配对的池。仅可以选择尚未与其他池配对的现有池。
+4. 在“关联的备份池”下方的框中，选择要与该池配对的池。仅可以选择尚未与其他池配对的现有池。
     
-5. 选择“**语音的自动故障转移和故障回复**”，然后单击“**确定**”。
+5. 选择“语音的自动故障转移和故障回复”，然后单击“确定”。
     
-    当你查看该池的详细信息时，此时关联的池显示在“**复原**”下的右窗格中。 
+    当您查看该池的详细信息时，关联的池现在显示在“复原”下的右窗格中。 
     
 6. 使用拓扑生成器发布拓扑。
     
-7. 如果尚未部署两个池，请立即部署它们，配置随即完成。 你可以跳过此过程中的最后一个步骤。
+7. 如果尚未部署两个池，请立即部署它们，配置随即完成。 可以跳过此过程的最后步骤。
     
-    但是，如果在定义配对关系之前已部署了池，则必须完成以下最后步骤。
+    但是，如果在定义配对关系之前已部署池，则必须完成以下最终步骤。
     
 8. 在两个池的每个前端服务器上，运行以下命令：
     
@@ -53,15 +53,15 @@ ms.locfileid: "41790080"
 
     这将配置确保备份配对正常运行所需的其他服务。
     
-9. 在两个池中的每台前端服务器上，一旦引导程序完成安装备份配对所需的组件，请确保重新应用之前在两个池中的这些前端服务器上应用的任何现有累积更新，然后继续下一步行动。
+9. 一旦引导程序完成在两个池中每个前端服务器上安装备份配对所需的组件后，请确保重新应用之前在两个池中这些前端服务器上应用的任何现有累积更新，然后继续执行下一步。
 
-10. 从 Skype for Business 服务器管理外壳命令提示符处，运行以下命令： 
+10. 在 Skype for Business Server 命令行管理程序 命令提示符下，运行以下命令： 
     
    ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-11. 使用以下 cmdlet 强制两个池的用户和会议数据相互同步：
+11. 通过以下 cmdlet 强制两个池的用户和会议数据相互同步：
     
     ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -71,7 +71,7 @@ ms.locfileid: "41790080"
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     ```
 
-    同步数据可能需要一些时间。你可以使用以下 cmdlet 检查同步状态。确保两个方向的状态均保持稳定。
+    同步数据可能需要一些时间。 您可以使用以下 cmdlet 检查同步状态。 确保两个方向的状态都稳定。
     
     ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -82,8 +82,8 @@ ms.locfileid: "41790080"
     ```
 
 > [!NOTE]
-> 语音选项和拓扑生成器中的相关时间间隔的**自动故障转移和故障**切换仅适用于 Lync Server 中引入的语音恢复功能。 选择此选项并不意味着会自动执行本文档中讨论的池故障转移。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
+> " **语音的** 自动故障转移和故障回复"选项以及拓扑生成器中的关联时间间隔仅适用于 Lync Server 中引入的语音恢复功能。 选择此选项并不意味着本文档中讨论的池故障转移将自动执行。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
   
 ## <a name="see-also"></a>另请参阅
 
-[Skype for Business 服务器中的前端池灾难恢复](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[Skype for Business Server 中的前端池灾难恢复](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

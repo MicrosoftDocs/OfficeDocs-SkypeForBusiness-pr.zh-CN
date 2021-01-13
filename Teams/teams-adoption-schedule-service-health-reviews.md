@@ -1,7 +1,7 @@
 ---
 title: 为 Microsoft Teams 采用安排服务运行状况检查
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用你的团队中的服务运行状况评审，以共享有关使用情况、运行状况、功能/项目路线图和其他更新的见解。
+description: 了解如何使用 Teams 采用中的服务运行状况评审来分享有关使用情况、运行状况、功能/项目路线图和其他更新的见解。
 f1.keywords:
 - CSH
 ms.custom: Adopt
@@ -20,20 +20,20 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1279d9f9d9b8afc66dc64ac9ded524d1340c2a1f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 6447404b0fe7944808e02b2a73ebee03c2393f53
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905074"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806092"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用安排服务运行状况检查
 
-与你的技术实施团队协作，计划为团队举行每月服务运行状况审核。 在这些评论中，你将分享以下措施的见解：
+与技术实施团队协作，计划每月举行一次 Teams 服务运行状况评审。 在这些评论中，你将分享有关以下措施的见解：
 
-- **服务使用**–活动使用数据，并且可能包括有关已弃用的服务或因迁移到团队而减少的消耗量的信息。 通常由服务经理或产品所有者负责协作服务。
-- **服务运行状况**-通话质量、会议运行状况和整体服务运行状况。 查看任何支持事件和帮助台票证级别。 安全和管理主题。 通常由信息保护和支持团队打头阵。 
-- **功能/项目路线图**-剩余员工加入或更多协作改进项目的计划是什么？ 您的组织要启用哪些其他功能？ 通常由服务经理或产品所有者发起协作服务，与关键业务利益干系人协作。
-- **认知活动和培训成功测量更新**-包括 "达到"、"参与"、"关键反馈" 主题和开放问题。 包括关键的 wins 和成功案例。 
+- **服务使用情况** - 活动使用情况数据，可能包括因迁移到 Teams 而弃用或减少的服务的信息。 通常由协作服务的服务经理或产品所有者领导。
+- **服务运行状况** - 呼叫质量、会议运行状况和总体服务运行状况。 查看任何支持事件和支持人员票证级别。 安全和治理主题。 通常由信息保护和支持团队领导。 
+- **功能/项目路线图** - 剩余员工入职或进一步协作改进项目的计划是什么？ 组织将启用哪些附加功能？ 通常由服务经理或产品所有者领导，负责协作服务，与关键业务利益干系人协作。
+- **意识活动和培训成功措施更新** - 包括市场宣传、参与、关键反馈主题和未解决问题。 包括关键胜出和成功案例。 
 
-此每月评论在大型组织或小型公司中的虚拟组织中可能非常正式。 共享和监视此数据非常重要，以确保 Microsoft 团队的运行状况和每个日益生动的实现。 
+在大型组织中或小型公司中，此月度评审可能相当正式。 必须共享和监视此数据，以确保 Microsoft Teams 实现健康且每一种日益生动的实现。 

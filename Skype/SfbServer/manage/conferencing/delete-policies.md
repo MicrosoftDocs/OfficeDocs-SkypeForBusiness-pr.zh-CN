@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中删除会议策略
+title: 删除 Skype for Business Server 中的会议策略
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 摘要：了解如何在 Skype for Business Server 中删除会议策略。
-ms.openlocfilehash: 3fe5b8c2bb12f48cb6e904df2fe43c6c8a01e3f6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: eedb0b3676f0cc046e6096dca2cb1ec5ced5d6ec
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818593"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828192"
 ---
-# <a name="delete-conferencing-policies-in-skype-for-business-server"></a>在 Skype for Business 服务器中删除会议策略
+# <a name="delete-conferencing-policies-in-skype-for-business-server"></a>删除 Skype for Business Server 中的会议策略
  
-**摘要：** 了解如何在 Skype for Business Server 中删除会议策略。
+**摘要：** 了解如何删除 Skype for Business Server 中的会议策略。
   
-你可以使用 Skype for Business Server 控制面板或使用 Skype for business Server 命令行管理器删除会议策略。
+可以使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序删除会议策略。
   
-## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server "控制面板" 删除会议策略
+## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板删除会议策略
 
-1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
     
-2.  打开 "Skype for Business 服务器" 控制面板。
+2.  打开 Skype for Business Server 控制面板。
     
-3. 在左侧导航栏中，单击“**会议**”，然后单击“**会议策略**”。
+3. 在左侧导航栏中，单击 **"会议"，** 然后单击 **"会议策略"。**
     
-4. 在会议策略列表中，单击要删除的站点策略或用户策略，再单击“**编辑**”，然后单击“**删除**”。
+4. 在会议策略列表中，单击要删除的站点或用户策略，单击"编辑"，然后单击"删除 **"。**
     
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序删除会议策略
 
@@ -45,12 +45,12 @@ ms.locfileid: "41818593"
 Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 ```
 
-下一个命令删除允许外部用户记录会议的所有会议策略：
+下一个命令将删除允许外部用户录制会议的任何会议策略：
   
 ```PowerShell
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 
-有关详细信息，包括完整语法和参数列表，请参阅[Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps)。
+有关详细信息，包括完整语法和参数列表，请参阅 [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps)。
   
 

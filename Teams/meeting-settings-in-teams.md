@@ -1,7 +1,7 @@
 ---
 title: 管理会议设置
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,16 +22,16 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 0c2d37adb185f873b0208ff422aa7ee8aac9a81c
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 447aa83af836eefb854f3917738020badee2f33c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030658"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806212"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
-作为管理员，你可以使用 Teams 会议设置来控制匿名用户是否可以加入 Teams 会议、自定义会议邀请，并在想要启用服务质量 (QoS) 的情况下设置实时流量端口范围。 这些设置适用于用户在组织中安排的所有 Teams 会议。 可以在 Microsoft Teams 管理中心的“ **会议** ” > “ **会议设置** ”中管理这些设置。
+作为管理员，你可以使用 Teams 会议设置来控制匿名用户是否可以加入 Teams 会议、自定义会议邀请，并在想要启用服务质量 (QoS) 的情况下设置实时流量端口范围。 这些设置适用于用户在组织中安排的所有 Teams 会议。 可以在 Microsoft Teams 管理中心的“**会议**” > “**会议设置**”中管理这些设置。
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>允许匿名用户加入会议
 
@@ -39,13 +39,13 @@ ms.locfileid: "49030658"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-您必须是团队服务管理员才能进行这些更改。 请参阅 [使用团队管理员角色管理团队](https://docs.microsoft.com/microsoftteams/using-admin-roles) ，了解如何获取管理员角色和权限。
+只有 Teams 服务管理员才能进行这些更改。 请参阅 ["使用 Teams 管理员角色管理 Teams"，](https://docs.microsoft.com/microsoftteams/using-admin-roles) 了解获取管理员角色和权限。
 
 1. 转到管理中心。
 
-2. 在左侧导航中，转到“ **会议** ” > “ **会议设置** ”。
+2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
 
-3. 在“ **参与者** ”下，打开“ **匿名用户可以加入会议** ”。
+3. 在“**参与者**”下，打开“**匿名用户可以加入会议**”。
 
     ![管理中心会议的参与者设置的屏幕截图](media/meeting-settings-participants.png "Microsoft Teams 管理中心 Teams 会议的参与者设置的屏幕截图")
 
@@ -69,8 +69,8 @@ ms.locfileid: "49030658"
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 转到管理中心。
-2. 在左侧导航中，转到“ **会议** ” > “ **会议设置** ”。
-3. 在“ **电子邮件邀请** ”下，执行以下操作：
+2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
+3. 在“**电子邮件邀请**”下，执行以下操作：
 
     ![可自定义的会议邀请设置的屏幕截图](media/meeting-settings-invitation.png "可以为 Teams 会议自定义的会议邀请设置的屏幕截图")
 
@@ -78,35 +78,35 @@ ms.locfileid: "49030658"
     - **法律 URL** 如果你的组织有一个法律网站，并且你希望其他人转至该网站了解任何法律问题，请在此处输入其 URL。
     - **帮助 URL** 如果你的组织有一个支持网站，并且你希望人们在遇到问题时转至该网站，请在此处输入其 URL。
     - **页脚** 输入要作为页脚包含在内的文本。
-4. 单击“ **预览邀请** ”可查看会议邀请的预览。
-5. 完成时单击“ **保存** ”。
+4. 单击“**预览邀请**”可查看会议邀请的预览。
+5. 完成时单击“**保存**”。
 6. 等待一个小时左右，以便传播所作的更改。 然后，安排一次 Teams 会议，查看会议邀请的外观。  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>设置你希望如何处理 Teams 会议的实时媒体流量
 
 <a name="bknetwork"> </a>
 
-如果你使用的是服务质量 (QoS) 确定网络流量的优先级，则可以为每种类型的媒体流量启用 QoS 标记和设置端口范围。 为不同流量类型设置端口范围只是处理实时媒体的其中一个步骤；有关详细信息，请参阅 [Teams 中的服务质量 (QoS)](qos-in-teams.md)。
+如果你使用服务质量 (QoS) 确定网络流量的优先级，你可以启用 QoS 标记并设置每种类型的媒体流量的端口范围。 为不同流量类型设置端口范围只是处理实时媒体的其中一个步骤；有关详细信息，请参阅 [Teams 中的服务质量 (QoS)](qos-in-teams.md)。
 
 > [!IMPORTANT]
-> 如果为团队服务启用 QoS 或更改 Microsoft 团队管理中心中的设置，你还需要 [将匹配设置应用到所有用户设备](QoS-in-Teams-clients.md) 和所有内部网络设备，以完全实现团队中的 QoS 的更改。
+> 如果在 Teams 服务的 Microsoft Teams 管理中心中启用 QoS 或更改设置，则还需要将匹配[](QoS-in-Teams-clients.md)设置应用到所有用户设备和所有内部网络设备，以在 Teams 中完全实现 QoS 更改。
 
  ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 1. 转到管理中心。
-2. 在左侧导航中，转到“ **会议** ” > “ **会议设置** ”。
-3. 在“ **网络** ”下，执行以下操作：
+2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
+3. 在“**网络**”下，执行以下操作：
 
     ![管理中心会议的网络设置的屏幕截图](media/meeting-settings-network.png "Microsoft Teams 管理中心 Teams 会议的网络设置的屏幕截图")
 
-    - 要允许对 QoS 使用 DSCP 标记，请打开 **插入实时媒体流量的服务质量 (QoS) 标记** 。 你只能选择是否使用标记；不能为每种流量类型设置自定义标记。 有关 DSCP 标记的更多信息，请参阅[选择 QoS 实施方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
+    - 要允许对 QoS 使用 DSCP 标记，请打开 **插入实时媒体流量的服务质量 (QoS) 标记**。 你只能选择是否使用标记；不能为每种流量类型设置自定义标记。 有关 DSCP 标记的更多信息，请参阅[选择 QoS 实施方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
         > [!NOTE]
-        > DSCP 标记通常通过源端口完成，并且 UDP 流量默认情况下路由到目标端口为3478的传输中继。 如果您的公司需要在目标端口上标记，请联系支持人员以启用与传输中继的通信，使用 UDP 端口 3479 (音频) 、3480 (视频) 和 3481 (共享) 。
-    - 要指定端口范围，请在“ **选择每种媒体实时流量的端口范围** ”旁选择“ **指定端口范围** ”，然后输入音频、视频和屏幕共享的起始和结束端口。 要实施 QoS，必须选择此选项。 
+        > DSCP 标记通常通过源端口完成，UDP 流量将路由到目标端口为 3478 的传输中继。 如果您的公司要求在目标端口上标记，请联系支持人员以启用与 UDP 端口 3479 (Audio) 、3480 (Video) 和 3481 (Sharing) 的通信。
+    - 要指定端口范围，请在“**选择每种媒体实时流量的端口范围**”旁选择“**指定端口范围**”，然后输入音频、视频和屏幕共享的起始和结束端口。 要实施 QoS，必须选择此选项。 
         > [!Note]
-        > 如果 **实时媒体流量的服务质量 (QoS) 标记** 已打开，则你必须管理端口设置。 它们不会自动管理。
+        > 如果 **服务质量 (QoS) 实时媒体** 流量的标记已打开，则你必须管理端口设置。 它们不会自动管理。
         
         > [!IMPORTANT]
-        > 如果你选择了 **自动使用任何可用的端口** ，则将使用 1024 和 65535 之间的可用端口。 仅在未实施 QoS 的情况下使用此选项。
+        > 如果你选择了 **自动使用任何可用的端口**，则将使用 1024 和 65535 之间的可用端口。 仅在未实施 QoS 的情况下使用此选项。
         >
         > 选择的端口范围过窄会导致通话中断或通话质量不佳。 下面的建议只是最低要求。
 
@@ -121,6 +121,6 @@ ms.locfileid: "49030658"
 |应用程序/屏幕共享| 50,040–50,059      |TCP/UDP |18        |保证转发 (AF21)|
 | | | | |
 
-\* 您分配的端口范围不能重叠，并且应该彼此相邻。
+\* 分配的端口范围不能重叠，并且应当彼此相邻。
 
 在 QoS 使用过一段时间后，你将获得这三种工作负载中每一种的需求信息，并且可以根据特定需求选择要进行的更改。 [通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)将非常有用。

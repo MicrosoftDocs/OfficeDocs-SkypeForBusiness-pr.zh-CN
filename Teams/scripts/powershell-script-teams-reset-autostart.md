@@ -1,13 +1,13 @@
 ---
-title: PowerShell 脚本示例-重置团队中的自动启动设置
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell 脚本示例 - 在 Teams 中重置自动启动设置
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本重置团队中每个用户的 "自动启动" 设置。
+description: 使用此 PowerShell 脚本可基于每个用户重置 Teams 中的自动启动设置。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be1073d628f137b4c2063849bcdab413ce0d2b87
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 02f21fcc642f33b17efa6ef44878bce567695b4d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951037"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827502"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 脚本示例-重置团队中的自动启动设置
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 脚本示例 - 在 Teams 中重置自动启动设置
 
-使用此脚本，在每个用户的基础上重置团队自动启动设置。 这包括由用户或团队应用设置的所有值。 默认情况下，当用户在安装后登录到其计算机时，团队会自动启动。
+使用此脚本可基于每个用户重置 Teams 自动启动设置。 这包括用户或 Teams 应用设置的任何值。 默认情况下，当用户在安装后登录到其计算机时，Teams 会自动启动。
 
-如果已部署团队并希望设置 "[阻止 Microsoft 团队在安装组策略设置后自动启动" 策略设置](../msi-deployment.md#use-group-policy-recommended)以禁用团队 autostart，则需要先将组策略设置设置为所需的值，然后运行此脚本。
+如果已部署 Teams，并且想要将"阻止 [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) 在安装后自动启动组策略"设置设置为禁用 Teams 自动启动，则需要先将"组策略"设置设置为所需的值，然后运行此脚本。
 
-为用户启动团队后，无法使用组策略禁用 "自动启动" 设置。
+为用户启动 Teams 后，无法通过使用组策略禁用自动启动设置。
 
 ## <a name="sample-script"></a>示例脚本
 
@@ -150,4 +150,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>相关主题
 
 - [使用 MSI 安装 Teams](../msi-deployment.md)
-- [通过适用于企业的 Microsoft 365 应用部署团队](https://docs.microsoft.com/deployoffice/teams-install)
+- [使用适用于企业的 Microsoft 365 应用部署 Teams](https://docs.microsoft.com/deployoffice/teams-install)
