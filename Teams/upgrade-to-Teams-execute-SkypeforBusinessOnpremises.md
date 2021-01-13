@@ -29,7 +29,7 @@ ms.locfileid: "49820942"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>从 Skype for Business 本地部署升级到 Teams
 
-![升级旅程的阶段，侧重于部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段，侧重于部署和实施阶段")
+![升级过程阶段，侧重于部署和实施阶段](media/upgrade-banner-deployment.png "升级过程阶段，侧重于部署和实施阶段")
 
 本文是升级旅程的部署和实施阶段的一部分。 在继续之前，请确认已完成以下活动：
 
@@ -50,9 +50,9 @@ ms.locfileid: "49820942"
 
 将用户升级到 Teams 的关键先决条件是部署混合连接。
 
-有关详细信息，请参阅"在 Skype for Business Server 与 Skype for Business Online 之间[部署混合连接](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)"
+有关详细信息，请参阅"在 Skype for Business Server 和 Skype for Business Online 之间[部署混合连接](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)"
 
-## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步骤 2：为组织实现所选的升级旅程
+## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步骤 2：为组织实施所选的升级过程
 
 完成混合设置后，可以计划将用户移动到 Microsoft 365 或 Office 365。
 

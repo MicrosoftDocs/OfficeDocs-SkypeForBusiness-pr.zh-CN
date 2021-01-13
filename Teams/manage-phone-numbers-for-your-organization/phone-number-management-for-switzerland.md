@@ -1,7 +1,7 @@
 ---
 title: 瑞士的电话号码管理
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -18,27 +18,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 使用此表查找有关在瑞士 for Microsoft 团队中获取和管理电话号码的信息。
-ms.openlocfilehash: e1fcc1de08256d0bc1ab0a8da95ebf9bc0f1450d
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+description: 使用此表查找有关在瑞士获取和管理 Microsoft Teams 的电话号码的信息。
+ms.openlocfilehash: 6f9574b2e32a4bd5bc3544b98b31dba8c8c2385d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361532"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831282"
 ---
 # <a name="phone-number-management-for-switzerland"></a>瑞士的电话号码管理
 
-使用此表查找有关在瑞士 for Microsoft 团队中获取和管理电话号码的信息。 
+使用此表查找有关在瑞士获取和管理 Microsoft Teams 的电话号码的信息。 
   
 有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization.md)。
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在 Microsoft 团队管理中心中列出的新用户或服务电话号码。   <br/> |下载其中一个表单。 <br/>  [新电话号码请求瑞士 (v.)  (取消通话) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[新电话号码请求瑞士 (v.)  (fr-fr) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[对瑞士的新电话号码请求 (v.)  (它) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/>  [新电话号码请求瑞士 (v.)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。|
-|获取转接给我们的电话号码。  <br/> | 下载其中一个表单。 <br/>[ (LOA) 的授权信函 (所有号码)  (v)  () ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(de-ch).pdf?raw=true)<br/>[ (LOA) 的授权信函 (所有号码)  (v.)  (fr) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(fr-ch).pdf?raw=true)<br/>[ (LOA) 的授权信函 (所有号码)  (v)  () ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(it-ch).pdf?raw=true) <br/> <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/> |
-|发布/取消发布国家电话目录中)  (s 的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。      <br/> |
+|获取未在 Microsoft Teams 管理中心中列出的新用户和服务电话号码。   <br/> |下载这些表单之一。 <br/>  [针对瑞士的新电话号码请求 (v.5.0)  (de-de-de) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[针对瑞士的新电话号码请求 (v.5.0)  (fr-fr) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[针对瑞士的新电话号码请求 (v.5.0)  (it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/>  [针对瑞士的新电话号码请求 (v.5.0)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。|
+|将电话号码转移给我们。  <br/> | 下载这些表单之一。 <br/>[瑞士的 (LOA) 授权书 ()  (v.5.0)  (de-ch) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(de-ch).pdf?raw=true)<br/>[瑞士的 LOA (授权书)  (v.5.0)  (fr-ch)  (的所有) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(fr-ch).pdf?raw=true)<br/>[瑞士的 (LOA) 授权书 ()  (v.5.0)  (it-ch) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(it-ch).pdf?raw=true) <br/> <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/> |
+|发布/取消发布电话号码 () /省/市/县电话目录中。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。      <br/> |
 |将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
-|将目录服务更新设置为呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务支持人员](contact-pstn-service-desk.md)。 |
+|对目录服务进行更新以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |
 
 
 ## <a name="related-topics"></a>相关主题
