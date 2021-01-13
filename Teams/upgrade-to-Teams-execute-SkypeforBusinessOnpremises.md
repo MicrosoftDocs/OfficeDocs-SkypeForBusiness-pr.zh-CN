@@ -1,13 +1,13 @@
 ---
 title: 将本地 Skype for Business 升级到 Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 了解如何从 Skype for Business 内部部署将组织切换到 Microsoft 团队。
+description: 了解如何将组织从 Skype for Business 本地部署过渡到 Microsoft Teams。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,52 +20,52 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f88d3ee5fb4d953fb1516fc19d559d2ad9c5e36a
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 90542f680c1d3992f5f318bfedad8a12470d282b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940472"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820942"
 ---
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a><span data-ttu-id="79baa-103">从 Skype for Business 内部部署升级到团队</span><span class="sxs-lookup"><span data-stu-id="79baa-103">Upgrade from a Skype for Business on-premises deployment to Teams</span></span>
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a><span data-ttu-id="3a261-103">从 Skype for Business 本地部署升级到 Teams</span><span class="sxs-lookup"><span data-stu-id="3a261-103">Upgrade from a Skype for Business on-premises deployment to Teams</span></span>
 
-<span data-ttu-id="79baa-104">![升级旅程的阶段，重点介绍部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段，重点介绍部署和实施阶段")</span><span class="sxs-lookup"><span data-stu-id="79baa-104">![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")</span></span>
+<span data-ttu-id="3a261-104">![升级旅程的阶段，侧重于部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段，侧重于部署和实施阶段")</span><span class="sxs-lookup"><span data-stu-id="3a261-104">![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")</span></span>
 
-<span data-ttu-id="79baa-105">本文是升级过程的部署和实施阶段的一部分。</span><span class="sxs-lookup"><span data-stu-id="79baa-105">This article is part of the Deployment and Implementation stage of your upgrade journey.</span></span> <span data-ttu-id="79baa-106">继续之前，请确认你已完成以下活动：</span><span class="sxs-lookup"><span data-stu-id="79baa-106">Before proceeding, confirm that you've completed the following activities:</span></span>
+<span data-ttu-id="3a261-105">本文是升级旅程的部署和实施阶段的一部分。</span><span class="sxs-lookup"><span data-stu-id="3a261-105">This article is part of the Deployment and Implementation stage of your upgrade journey.</span></span> <span data-ttu-id="3a261-106">在继续之前，请确认已完成以下活动：</span><span class="sxs-lookup"><span data-stu-id="3a261-106">Before proceeding, confirm that you've completed the following activities:</span></span>
 
-- [<span data-ttu-id="79baa-107">已登记项目利益干系人</span><span class="sxs-lookup"><span data-stu-id="79baa-107">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
-- [<span data-ttu-id="79baa-108">已定义项目范围</span><span class="sxs-lookup"><span data-stu-id="79baa-108">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
-- [<span data-ttu-id="79baa-109">了解 Skype for Business 和团队的共存和互操作性</span><span class="sxs-lookup"><span data-stu-id="79baa-109">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
-- [<span data-ttu-id="79baa-110">已选择升级旅程</span><span class="sxs-lookup"><span data-stu-id="79baa-110">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [<span data-ttu-id="79baa-111">准备好你的环境</span><span class="sxs-lookup"><span data-stu-id="79baa-111">Prepared your environment</span></span>](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [<span data-ttu-id="79baa-112">准备好您的组织</span><span class="sxs-lookup"><span data-stu-id="79baa-112">Prepared your organization</span></span>](https://aka.ms/SkypeToTeams-UserReadiness)
-- [<span data-ttu-id="79baa-113">开展了一个试验</span><span class="sxs-lookup"><span data-stu-id="79baa-113">Conducted a pilot</span></span>](https://aka.ms/SkypeToTeams-Pilot)
+- [<span data-ttu-id="3a261-107">已登记项目利益干系人</span><span class="sxs-lookup"><span data-stu-id="3a261-107">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
+- [<span data-ttu-id="3a261-108">定义项目范围</span><span class="sxs-lookup"><span data-stu-id="3a261-108">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
+- [<span data-ttu-id="3a261-109">了解 Skype for Business 和 Teams 的共存和互操作性</span><span class="sxs-lookup"><span data-stu-id="3a261-109">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
+- [<span data-ttu-id="3a261-110">选择了升级旅程</span><span class="sxs-lookup"><span data-stu-id="3a261-110">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [<span data-ttu-id="3a261-111">准备好环境</span><span class="sxs-lookup"><span data-stu-id="3a261-111">Prepared your environment</span></span>](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [<span data-ttu-id="3a261-112">为组织做好准备</span><span class="sxs-lookup"><span data-stu-id="3a261-112">Prepared your organization</span></span>](https://aka.ms/SkypeToTeams-UserReadiness)
+- [<span data-ttu-id="3a261-113">开展试点</span><span class="sxs-lookup"><span data-stu-id="3a261-113">Conducted a pilot</span></span>](https://aka.ms/SkypeToTeams-Pilot)
 
-<span data-ttu-id="79baa-114">如果你已部署 Skype for business 或 Microsoft Lync 本地版，并且你的组织希望通过使用多个共存模式（或全部）升级到 Microsoft 团队，请按照本文中的指南操作。</span><span class="sxs-lookup"><span data-stu-id="79baa-114">Follow the guidance in this article if you've deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Microsoft Teams either selectively—by using multiple coexistence modes—or all-in.</span></span> 
+<span data-ttu-id="3a261-114">如果你已在本地部署了 Skype for Business 或 Microsoft Lync，并且你的组织想要选择性地升级到 Microsoft Teams，或者使用多个共存模式或全部升级，请按照本文中的指导操作。</span><span class="sxs-lookup"><span data-stu-id="3a261-114">Follow the guidance in this article if you've deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Microsoft Teams either selectively—by using multiple coexistence modes—or all-in.</span></span> 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-deploy-hybrid-connectivity"></a><span data-ttu-id="79baa-115">步骤1：部署混合连接</span><span class="sxs-lookup"><span data-stu-id="79baa-115">Step 1: Deploy hybrid connectivity</span></span>
+## <a name="step-1-deploy-hybrid-connectivity"></a><span data-ttu-id="3a261-115">步骤 1：部署混合连接</span><span class="sxs-lookup"><span data-stu-id="3a261-115">Step 1: Deploy hybrid connectivity</span></span>
 
-<span data-ttu-id="79baa-116">将用户升级到团队的关键先决条件是部署混合连接。</span><span class="sxs-lookup"><span data-stu-id="79baa-116">The key prerequisite for upgrading your users to Teams is to deploy hybrid connectivity.</span></span>
+<span data-ttu-id="3a261-116">将用户升级到 Teams 的关键先决条件是部署混合连接。</span><span class="sxs-lookup"><span data-stu-id="3a261-116">The key prerequisite for upgrading your users to Teams is to deploy hybrid connectivity.</span></span>
 
-<span data-ttu-id="79baa-117">有关详细信息，请参阅 [在 skype for Business 服务器与 skype for Business Online 之间部署混合连接](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)</span><span class="sxs-lookup"><span data-stu-id="79baa-117">For more information, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)</span></span>
+<span data-ttu-id="3a261-117">有关详细信息，请参阅"在 Skype for Business Server 与 Skype for Business Online 之间[部署混合连接](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)"</span><span class="sxs-lookup"><span data-stu-id="3a261-117">For more information, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)</span></span>
 
-## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a><span data-ttu-id="79baa-118">步骤2：为你的组织实施所选升级旅程</span><span class="sxs-lookup"><span data-stu-id="79baa-118">Step 2: Implement your chosen upgrade journey for your organization</span></span>
+## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a><span data-ttu-id="3a261-118">步骤 2：为组织实现所选的升级旅程</span><span class="sxs-lookup"><span data-stu-id="3a261-118">Step 2: Implement your chosen upgrade journey for your organization</span></span>
 
-<span data-ttu-id="79baa-119">完成混合设置后，您可以计划将用户移动到 Microsoft 365 或 Office 365。</span><span class="sxs-lookup"><span data-stu-id="79baa-119">After you've completed your hybrid setup, you can plan to move your users to Microsoft 365 or Office 365.</span></span>
+<span data-ttu-id="3a261-119">完成混合设置后，可以计划将用户移动到 Microsoft 365 或 Office 365。</span><span class="sxs-lookup"><span data-stu-id="3a261-119">After you've completed your hybrid setup, you can plan to move your users to Microsoft 365 or Office 365.</span></span>
 
-<span data-ttu-id="79baa-120">有关详细信息，请参阅：</span><span class="sxs-lookup"><span data-stu-id="79baa-120">For more information, see:</span></span>
+<span data-ttu-id="3a261-120">有关详细信息，请参阅：</span><span class="sxs-lookup"><span data-stu-id="3a261-120">For more information, see:</span></span>
 
-- <span data-ttu-id="79baa-121">[TeamsUpgradePolicy：管理迁移和共存](upgrade-to-teams-on-prem-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="79baa-121">[TeamsUpgradePolicy: managing migration and coexistence](upgrade-to-teams-on-prem-tools.md).</span></span>
+- <span data-ttu-id="3a261-121">[TeamsUpgradePolicy：管理迁移和共存](upgrade-to-teams-on-prem-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="3a261-121">[TeamsUpgradePolicy: managing migration and coexistence](upgrade-to-teams-on-prem-tools.md).</span></span>
 
-- <span data-ttu-id="79baa-122">[将用户从本地移动到 Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。</span><span class="sxs-lookup"><span data-stu-id="79baa-122">[Move users from on premises to Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).</span></span>
+- <span data-ttu-id="3a261-122">[将用户从本地移动到 Skype for Business Online。](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)</span><span class="sxs-lookup"><span data-stu-id="3a261-122">[Move users from on premises to Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).</span></span>
 
-## <a name="phone-system-and-teams-upgrade"></a><span data-ttu-id="79baa-123">电话系统和团队升级</span><span class="sxs-lookup"><span data-stu-id="79baa-123">Phone System and Teams upgrade</span></span>
+## <a name="phone-system-and-teams-upgrade"></a><span data-ttu-id="3a261-123">手机系统和 Teams 升级</span><span class="sxs-lookup"><span data-stu-id="3a261-123">Phone System and Teams upgrade</span></span>
 
-<span data-ttu-id="79baa-124">从本地电话系统过渡到团队将允许你充分利用手机系统直接路由 ( "直接路由" ) 或 microsoft 提供的 Microsoft 365 或 Office 365 通话计划。</span><span class="sxs-lookup"><span data-stu-id="79baa-124">Transitioning from on-premises phone systems to Teams will allow you to take advantage of Phone System Direct Routing ("Direct Routing") or the Microsoft-provided Calling Plans for Microsoft 365 or Office 365.</span></span>
+<span data-ttu-id="3a261-124">从本地电话系统转换到 Teams 将允许您利用电话系统直接路由 ("直接路由") 或 Microsoft 提供的 Microsoft 365 或 Office 365 呼叫计划。</span><span class="sxs-lookup"><span data-stu-id="3a261-124">Transitioning from on-premises phone systems to Teams will allow you to take advantage of Phone System Direct Routing ("Direct Routing") or the Microsoft-provided Calling Plans for Microsoft 365 or Office 365.</span></span>
 
-<span data-ttu-id="79baa-125">如果未使用通话计划，则需要将企业语音部署转换为手机系统直接路由，作为团队的升级的一部分。</span><span class="sxs-lookup"><span data-stu-id="79baa-125">If you're not using Calling Plans, you need to transition your enterprise voice deployment to Phone System Direct Routing as part of your upgrade to Teams.</span></span>
+<span data-ttu-id="3a261-125">如果不使用呼叫计划，则需要在升级到 Teams 期间将企业语音部署转换为电话系统直接路由。</span><span class="sxs-lookup"><span data-stu-id="3a261-125">If you're not using Calling Plans, you need to transition your enterprise voice deployment to Phone System Direct Routing as part of your upgrade to Teams.</span></span>
 
-<span data-ttu-id="79baa-126">有关详细信息，请参阅 [手机系统直接路由的其他注意事项](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)。</span><span class="sxs-lookup"><span data-stu-id="79baa-126">For more information, see [additional considerations for Phone System Direct Routing](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing).</span></span> <span data-ttu-id="79baa-127">如果您计划使用通话计划，请参阅我们关于将 [电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)的指南。</span><span class="sxs-lookup"><span data-stu-id="79baa-127">If you are planning to use Calling Plans, please refer to our guidance for [transferring your phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>
+<span data-ttu-id="3a261-126">有关详细信息，请参阅 [电话系统直接路由的其他注意事项](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)。</span><span class="sxs-lookup"><span data-stu-id="3a261-126">For more information, see [additional considerations for Phone System Direct Routing](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing).</span></span> <span data-ttu-id="3a261-127">如果你计划使用通话计划，请参阅我们的指南，将你的电话号码转移到[Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)</span><span class="sxs-lookup"><span data-stu-id="3a261-127">If you are planning to use Calling Plans, please refer to our guidance for [transferring your phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span>
