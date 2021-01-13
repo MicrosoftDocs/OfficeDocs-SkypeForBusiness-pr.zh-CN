@@ -1,7 +1,7 @@
 ---
-title: 音频会议的国家和地区区域
-ms.author: v-lanac
-author: lanachin
+title: 音频会议的国家/地区和地区区域
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: conceptual
@@ -19,19 +19,19 @@ f1.keywords:
 - CSH
 ms.custom:
 - seo-marvel-mar2020
-description: 列出每个区域中的音频会议和国家和地区的区域。
-ms.openlocfilehash: cf3e1df5b89fcf287d1c5c79faa8d1c6a48914d5
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+description: 列出音频会议的区域以及每个区域中的国家和地区。
+ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908762"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821272"
 ---
-# <a name="country-and-region-zones-for-audio-conferencing"></a>音频会议的国家和地区区域
+# <a name="country-and-region-zones-for-audio-conferencing"></a>音频会议的国家/地区和地区区域
 
-本文列出了用于音频会议的国家和地区区域。
+本文列出了音频会议的国家/地区和地区。
 
-## <a name="zone-a-countries-and-regions"></a>对国家和地区进行分区
+## <a name="zone-a-countries-and-regions"></a>区域 A 国家和地区
 
 |国家或地区    |
 |-----|
@@ -84,6 +84,6 @@ ms.locfileid: "48908762"
 
 - [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [音频会议免费拨出期](complimentary-dial-out-period.md)
-- [音频会议订阅 "拨出"/"呼叫我" 分钟数的好处](audio-conferencing-subscription-dial-out.md)
+- [音频会议订阅"拨出"/"呼叫我"分钟权益](audio-conferencing-subscription-dial-out.md)
 - [音频会议和用户 PSTN 通话的出站通话限制策略](outbound-calling-restriction-policies.md)
 - [什么是通信点数？](what-are-communications-credits.md)
