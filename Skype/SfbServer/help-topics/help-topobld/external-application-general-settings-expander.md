@@ -1,8 +1,8 @@
 ---
 title: 外部应用程序常规设置扩展器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 若要编辑已定义的受信任应用程序服务器的属性，请遵循以下说明。
-ms.openlocfilehash: 9a9ed62040724d08ebcd711551cd1ce6e831d683
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 55f6bfee68370f8f341080e54953120e48f628f8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218133"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804762"
 ---
 # <a name="external-application-general-settings-expander"></a>外部应用程序常规设置扩展器
  
@@ -36,14 +36,14 @@ ms.locfileid: "48218133"
 
 可以修改受信任应用程序服务器池的当前完全限定域名 (FQDN)。编辑池的 FQDN。新条目必须具有域名系统 (DNS) 主机 (A) 记录，客户端或服务器才能连接到新池名称。
   
-如果需要该池配置数据的副本，请选中“允许将配置数据复制到此池”****。如果不希望复制配置数据，请清除复选标记。
+如果需要该池配置数据的副本，请选中“允许将配置数据复制到此池”。如果不希望复制配置数据，请清除复选标记。
   
 ## <a name="next-hop-settings"></a>下一跃点设置
 
-通过从下拉列表中选择定义的 Enterprise Edition 前端池或 Standard Edition 前端服务器，可以指定受信任的应用程序服务器池的下一个跃点服务器。 控制器或控制器池不是受信任应用程序服务器下一跃点的有效选择，不会显示在列表中。
+通过从下拉列表中选择定义的 Enterprise Edition 前端池或 Standard Edition 前端服务器，可以指定受信任应用程序服务器池的下一个跃点服务器。 控制器或控制器池不是受信任应用程序服务器下一跃点的有效选择，不会显示在列表中。
   
 
 
-单击 **"确定"** 接受并保存更改。 单击“取消”**** 将放弃所做的更改并退出属性页面。
+单击 **"** 确定"接受并保存更改。 单击“取消”将放弃所做的更改并退出属性页面。
   
 

@@ -1,8 +1,8 @@
 ---
-title: 混合向导登录到 Microsoft 365 或 Office 365
+title: 混合向导登录 Microsoft 365 或 Office 365
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -18,22 +18,22 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用 Skype for Business Server 混合管理向导可帮助您配置与 Skype for business Online 的混合环境。
-ms.openlocfilehash: 57b9a19fb66a11bec527083bf107e4f967b867e8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 使用 Skype for Business Server 混合可管理性向导帮助你配置环境以与 Skype for Business Online 进行混合。
+ms.openlocfilehash: 4646754d5893f2509645443342b2cface0d7ce67
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779839"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801492"
 ---
-# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>混合向导：登录到 Microsoft 365 或 Office 365
+# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>混合向导：登录 Microsoft 365 或 Office 365
 
-使用 Skype for Business Server 混合管理向导可帮助您配置与 Skype for business Online 的混合环境。
+使用 Skype for Business Server 混合可管理性向导帮助你配置环境以与 Skype for Business Online 进行混合。
 
 ## <a name="sign-in-to-microsoft-365-or-office-365"></a>登录到 Microsoft 365 或 Office 365
 
-输入 Microsoft 365 或 Office 365 组织的用户名和密码，以登录并将本地部署与 Microsoft 365 或 Office 365 组织连接。 您需要使用在注册 Microsoft 365 或 Office 365 时为 .onmicrosoft 域创建的管理员帐户，例如，admin@contoso.onmicrosoft.com。
+输入 Microsoft 365 或 Office 365 组织的用户名和密码，以登录本地部署，并与 Microsoft 365 或 Office 365 组织连接。 你需要使用在注册 Microsoft 365 或 Office 365 时为 onmicrosoft 域创建的管理员帐户，例如admin@contoso.onmicrosoft.com。
 
-有关如何配置混合环境的详细信息，请参阅[混合部署概述](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)。
+若要详细了解如何配置混合环境，请参阅 [混合部署概述](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)。
 
 

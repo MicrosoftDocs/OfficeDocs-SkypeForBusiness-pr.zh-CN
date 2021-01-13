@@ -1,8 +1,8 @@
 ---
 title: Media 表
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,27 +12,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
-description: 每条记录表示对等会话中使用的一种媒体类型。 如果使用多个媒体类型，则表中的多个记录将表示一个会话。
-ms.openlocfilehash: b96f1e9fccf2ac3416e505eb19a54a5e227bb01f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 每条记录表示一个用于点对点会话的媒体类型。如果使用多个媒体类型，则一个会话由表中的多条记录表示。
+ms.openlocfilehash: ce5b5a2b312307e608367279e4e871ed03063860
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815040"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800102"
 ---
 # <a name="media-table"></a>Media 表
  
-每条记录表示对等会话中使用的一种媒体类型。 如果使用多个媒体类型，则表中的多个记录将表示一个会话。
+每条记录表示一个用于点对点会话的媒体类型。如果使用多个媒体类型，则一个会话由表中的多条记录表示。
   
 > [!NOTE]
-> 不应使用 Media 表计算会话的媒体持续时间。 此表包含会话中媒体交换的信号详细信息。 媒体交换由邀请请求完成，并且 StartTime 指示发送邀请的时间。邀请时间不一定表示媒体开始时间，因为媒体仅在 sessionee 接受会话后才开始。 "结束时间" 通常表示本次会话的结束时间。 
+> 不应使用媒体表计算会话的媒体持续时间。该表包含会话中的媒体交换信号详情。媒体交换通过 INVITE 请求实现，StartTime 指示发出 INVITE 的时间。邀请时间不一定表示媒体的启动时间，因为仅在会话接收方接受会话后，媒体才启动。EndTime 通常表示该会话的结束时间。 
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |主、外部  <br/> |会话请求的时间。 与**SessionIdSeq**结合使用以唯一标识会话。 有关详细信息，请参阅[Skype For Business Server 2015 中的对话框表](dialogs.md)。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |主、外部  <br/> |标识会话的 ID 号。 与**SessionIdTime**结合使用以唯一标识会话。 有关详细信息，请参阅[Skype For Business Server 2015 中的对话框表](dialogs.md)。 <br/> |
-|**MediaId** <br/> |tinyint  <br/> |主、外部  <br/> |标识此媒体类型的唯一号码。 有关详细信息，请参阅[MediaList 表](medialist.md)。 <br/> |
-|**StartTime** <br/> |datetime  <br/> |Primary  <br/> |这是发送媒体请求的时间，而不是真正的媒体开始时间。 **StartTime**包括会话设置时间。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |主、外  <br/> |会话请求的时间。 与 **SessionIdSeq** 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主、外  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**MediaId** <br/> |tinyint  <br/> |主、外  <br/> |标识媒体类型的唯一编号。 有关详细信息， [请参阅 MediaList](medialist.md) 表。 <br/> |
+|**StartTime** <br/> |datetime  <br/> |主  <br/> |这是发出媒体请求的时间，而不是实际的媒体启动时间。**StartTime** 包括会话建立时间。<br/> |
 |**EndTime** <br/> |datetime  <br/> ||这是会话的结束时间。  <br/> |
    
 

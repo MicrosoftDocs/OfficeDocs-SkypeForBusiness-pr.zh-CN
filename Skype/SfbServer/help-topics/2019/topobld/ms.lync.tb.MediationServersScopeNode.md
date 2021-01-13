@@ -1,8 +1,8 @@
 ---
 title: 中介服务器范围节点
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
 description: “中介池”节点列出了拓扑中的中介池。 可以执行以下操作：
-ms.openlocfilehash: 19a52e1e228de4c9d7e24fec9d3f09a06d285bb0
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: f806cb62f4e56b3676e0e379ea619da4a627af60
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796201"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804232"
 ---
 # <a name="mediation-servers-scope-node"></a>中介服务器范围节点
  
-“**中介池**”节点列出了拓扑中的中介池。可以执行以下操作：
+**“中介池”** 节点列出了拓扑中的中介池。可以执行以下操作：
   
-- **新建中介池**。启动“**定义新的中介池**”向导，以向拓扑中添加新的中介池。
+- **新建中介池**。启动 **“定义新的中介池”** 向导，以向拓扑中添加新的中介池。
     
 除了中介池选项之外，还可以执行以下常规任务：
   
-- **拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
+- **拓扑**。 可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
     
 - **视图**。可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。
     

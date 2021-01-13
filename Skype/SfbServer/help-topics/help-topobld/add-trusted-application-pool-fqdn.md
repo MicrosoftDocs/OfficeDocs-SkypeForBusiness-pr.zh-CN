@@ -1,8 +1,8 @@
 ---
 title: 添加信任的应用程序池 FQDN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 description: 要定义受信任应用程序池的完全限定的域名 (FQDN)，请指定以下内容：
-ms.openlocfilehash: 94cf0f611d754dc614111add734bf231c92c5a81
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: acbae42e5bd37e8fcdb009a033bdf583eab00a5f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217003"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803552"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>添加信任的应用程序池 FQDN
  
@@ -28,7 +28,7 @@ ms.locfileid: "48217003"
   
 将托管受信任应用程序的服务器或服务器池的 FQDN。
   
-如果要部署受信任应用程序服务器池以获取负载平衡和高可用性，请选择“多计算机池”****，如果不需要负载平衡或高可用性，请选择“单计算机池”****。
+如果要部署受信任应用程序服务器池以获取负载平衡和高可用性，请选择“多计算机池”，如果不需要负载平衡或高可用性，请选择“单计算机池”。
   
 > [!IMPORTANT]
 > 以后无法将单个受信任应用程序服务器转换成服务器池。如果认为将来可能需要池，则现在可以部署包含单个计算机的多服务器池并在需要时添加服务器。 

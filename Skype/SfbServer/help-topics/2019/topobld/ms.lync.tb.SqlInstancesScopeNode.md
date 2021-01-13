@@ -1,8 +1,8 @@
 ---
 title: SQL 实例范围节点
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: SQL "存储" 节点列出拓扑中的 SQL Server 数据库。 可以执行以下操作：
-ms.openlocfilehash: 4c138cb24f7b6c213da41f67563dce4863347b69
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 存储SQL节点列出了SQL Server中的数据库。 可以执行以下操作：
+ms.openlocfilehash: d443e08339c416f6b00208b4ecbd6e64eecf697d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794301"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805522"
 ---
 # <a name="sql-instances-scope-node"></a>SQL 实例范围节点
  
-**Sql "存储**" 节点列出拓扑中的 SQL Server 数据库。 可以执行以下操作：
+存储 **SQL** 节点列出了SQL Server中的数据库。 可以执行以下操作：
   
-- **新建 SQL 存储**。 启动 "**定义新的 Sql 应用商店**" 向导，用于向拓扑添加新的 sql Server 数据库。
+- **新建 SQL 存储**。 启动 **"定义SQL** 存储"向导，以向拓扑SQL Server数据库。
     
-除了 SQL Server 数据库选项之外，您还可以执行以下常规任务：
+除了数据库SQL Server，还可以执行以下常规任务：
   
-- **拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
+- **拓扑**。 可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
     
 - **视图**。可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。
     
