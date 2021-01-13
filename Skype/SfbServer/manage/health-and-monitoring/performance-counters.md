@@ -1,8 +1,8 @@
 ---
-title: Skype for Business 服务器中的移动性能计数器
+title: Skype for Business Server 中的移动性能计数器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,81 +11,81 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 摘要：了解可用于监视运行统一通信 Web API （UCWA）和 Skype for Business Server Mcx 移动服务的服务器的性能计数器。
-ms.openlocfilehash: e9a3ade40694ef18e1022388d48838822d409625
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解可用于监视运行统一通信 Web API (UCWA) 和 Skype for Business Server Mcx Mobility Service 的服务器的性能计数器。
+ms.openlocfilehash: d711ada11cee9cb12a5cde25cab583f8b174ac50
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817761"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814402"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Skype for Business 服务器中的移动性能计数器
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Skype for Business Server 中的移动性能计数器
  
-**摘要：** 了解可用于监视运行统一通信 Web API （UCWA）和 Skype for Business Server Mcx 移动服务的服务器的性能计数器。
+**摘要：** 了解可用于监视运行统一通信 Web API (UCWA) 和 Skype for Business Server Mcx Mobility Service 的服务器的性能计数器。
   
-下表列出了可用于监视运行统一通信 Web API （UCWA）和 Skype for business Server Mcx 移动服务的服务器的性能计数器的名称和说明。 
+下表列出了可用于监视运行统一通信 Web API (UCWA) 和 Skype for Business Server Mcx Mobility Service 的服务器的性能计数器的名称和说明。 
   
-UCWA 表中计数器的类别名称是**LS： WEB-UCWA**。
+UCWA 表中的计数器的类别名称为 **LS：WEB - UCWA。**
   
-Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communication Service**。
+Mcx Mobility Service 表中计数器的类别名称为 **LS：WEB - Mobile Communication Service。**
 
 > [!NOTE]
-> 在 Skype for Business Server 2019 中，MCX （移动服务）对旧式移动客户端的支持不再可用。 所有当前 Skype for business 移动客户端都已使用统一通信 Web API （UCWA）来支持即时消息（IM）、状态和联系人。 具有使用 MCX 的旧客户端的用户将需要升级到当前客户端。
+> SKYPE (Server 2019 中不再提供对) 移动客户端的 MCX 移动服务支持。 所有当前的 Skype for Business 移动客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
   
-## <a name="performance-counters-for-ucwa"></a>UCWA 性能计数器
+## <a name="performance-counters-for-ucwa"></a>UCWA 的性能计数器
 
 |计数器|描述|
 |:-----|:-----|
-|Active Application Count  <br/> |当前应用程序数目  <br/> |
-|Active Application Sharing Modality Count  <br/> |当前应用程序共享形式数目  <br/> |
-|Active Audio Modality Count  <br/> |当前音频形式数目  <br/> |
-|Active Data Collaboration Modality Count  <br/> |当前数据协作形式数目  <br/> |
-|Active Directory Photo Get Latency (ms)  <br/> |此计数器显示从 Active Directory 检索照片所花的平均时间（以毫秒为单位）  <br/> |
-|Active Messaging Modality Count  <br/> |当前消息传递形式数目  <br/> |
-|Active Panoramic Video Modality Count  <br/> |当前全景视频形式数目  <br/> |
-|Active Pending Get Count  <br/> |当前活动待处理项数；与服务器长期保持连接  <br/> |
-|Active Session Count  <br/> |当前在 UCWA 中按应用程序注册的终结点数和总数  <br/> |
-|Active User Instance Count  <br/> |当前用户实例数  <br/> |
-|Active User Instances without Application  <br/> |当前用户实例数（无应用程序）  <br/> |
-|Active Video Modality Count  <br/> |当前视频形式数目  <br/> |
-|Application Creation Requests Received/Second  <br/> |应用程序创建请求的每秒接收速率  <br/> |
-|AS MCU Join Failures  <br/> |AS MCU 联接失败数  <br/> |
-|AV MCU Join Failures  <br/> |AV MCU 联接失败数  <br/> |
-|Average Application Startup Time (ms)  <br/> |应用程序平均启动时间（以毫秒为单位）  <br/> |
-|Average Lifetime for Session (ms)  <br/> |会话的平均生存时间（以毫秒为单位）  <br/> |
-|Data MCU Join Failures  <br/> |Data MCU 联接失败数  <br/> |
-|Exchange Contact Search Latency (ms)  <br/> |此计数器显示在 Exchange 中搜索联系人所花的平均时间（以毫秒为单位）  <br/> |
-|Exchange HD Photo Get Latency (ms)  <br/> |此计数器显示从 Exchange 中检索照片所花的平均时间（以毫秒为单位）  <br/> |
-|HTTP 4xx Responses/Second  <br/> |HTTP 4xx 代码的每秒响应速率  <br/> |
-|HTTP 5xx Responses/Second  <br/> |HTTP 5xx 代码的每秒响应速率  <br/> |
-|IM MCU Join Failures  <br/> |IM MCU 联接失败数  <br/> |
-|Number of Active Directory Photo Get Failures  <br/> |从 Active Directory 中检索照片的总失败次数  <br/> |
-|Number of Contact Search failures  <br/> |在 Exchange 中搜索联系人的总失败次数  <br/> |
-|Number of Deserialization Failures  <br/> |反序列化的总失败次数  <br/> |
-|HD 照片获取失败的次数  <br/> |从 Exchange 中检索 HD 照片的总失败次数  <br/> |
-|Over The Maximum Subscriptions Per Application  <br/> |允许的每应用程序最大订阅请求数  <br/> |
-|Over The Maximum Subscriptions Per Batch  <br/> |允许的每批次最大订阅请求数  <br/> |
-|Presence Subscription Failures  <br/> |订阅状态失败次数  <br/> |
-|Registering Endpoint Failures  <br/> |注册终结点的失败次数  <br/> |
+|活动应用程序计数  <br/> |当前应用程序数  <br/> |
+|活动应用程序共享形式计数  <br/> |当前应用程序共享形式的数量  <br/> |
+|活动音频形式计数  <br/> |当前音频形式数  <br/> |
+|活动数据协作形式计数  <br/> |当前数据协作形式的数量  <br/> |
+|Active Directory 照片获取延迟 (毫秒)   <br/> |此计数器显示从 active directory (照片) 的平均时间（以毫秒为单位）  <br/> |
+|Active Messaging Modality Count  <br/> |当前邮件形式数量  <br/> |
+|活动全景视频形式计数  <br/> |当前全景视频形式的数量  <br/> |
+|Active Pending Get Count  <br/> |当前处于活动状态的待处理获取数;与服务器的长期连接  <br/> |
+|活动会话计数  <br/> |每个应用程序在 UCWA 中注册的当前终结点数和总数  <br/> |
+|活动用户实例计数  <br/> |当前用户实例数  <br/> |
+|没有应用程序的活动用户实例  <br/> |当前没有应用程序的用户实例数  <br/> |
+|活动视频形式计数  <br/> |当前视频形式数  <br/> |
+|应用程序创建请求接收/秒  <br/> |每秒收到的应用程序创建请求数  <br/> |
+|AS MCU 联接失败  <br/> |AS MCU 联接失败次数  <br/> |
+|AV MCU 加入失败  <br/> |AV MCU 联接失败次数  <br/> |
+|平均应用程序启动 (毫秒)   <br/> |应用程序启动平均时间（以毫秒为单位）  <br/> |
+|会话会话的平均 (毫秒)   <br/> |会话的平均生存时间（以毫秒为单位）  <br/> |
+|Data MCU Join Failures  <br/> |Data MCU 联接失败次数  <br/> |
+|Exchange 联系人搜索延迟 (毫秒)   <br/> |此计数器显示在 Exchange 中 (联系人) 的平均时间（以毫秒为单位）  <br/> |
+|Exchange HD Photo Get Latency (ms)   <br/> |此计数器显示从 Exchange (照片) 的平均时间（以毫秒为单位）  <br/> |
+|HTTP 4xx 响应/秒  <br/> |具有 HTTP 4xx 代码的每秒响应速率  <br/> |
+|HTTP 5xx 响应/秒  <br/> |具有 HTTP 5xx 代码的每秒响应速率  <br/> |
+|IM MCU 加入失败  <br/> |IM MCU 加入失败次数  <br/> |
+|Active Directory 照片获取失败次数  <br/> |从 Active Directory 检索照片的失败总数  <br/> |
+|联系人搜索失败次数  <br/> |在 Exchange 中搜索联系人的失败总数  <br/> |
+|反序列化失败次数  <br/> |反序列化失败总数  <br/> |
+|HD 照片获取失败次数  <br/> |从 Exchange 中检索 HD 照片的失败总数  <br/> |
+|超过每个应用程序的最大订阅数  <br/> |每个应用程序允许的最大订阅请求数  <br/> |
+|超过每个批次的最大订阅数  <br/> |每个批次允许的最大订阅请求数  <br/> |
+|状态订阅失败  <br/> |订阅状态失败次数  <br/> |
+|注册终结点故障  <br/> |注册终结点的失败次数  <br/> |
 |Requests Received/Second  <br/> |每秒收到的请求数  <br/> |
-|Requests Succeeded/Second  <br/> |每秒的成功请求数（HTTP 2xx/3xx 响应代码）  <br/> |
-|Succeeded Create Application Requests/Second  <br/> |成功应用程序创建请求的每秒接收速率  <br/> |
-|Timed Out Pending Get Count  <br/> |超时的待处理项数  <br/> |
-|Total Application Creation Requests Received  <br/> |自启动服务以来收到的应用程序创建请求总数  <br/> |
-|Total HTTP 4xx Responses  <br/> |HTTP 4xx 响应总数  <br/> |
-|Total HTTP 5xx Responses  <br/> |HTTP 5xx 响应总数  <br/> |
-|Total Requests Received on the Command Channel  <br/> |命令通道上收到的请求总数  <br/> |
+|Requests Succeeded/Second  <br/> |每秒成功请求数 (HTTP 2xx/3xx 响应代码)   <br/> |
+|已成功创建应用程序请求/秒  <br/> |每秒成功的应用程序创建请求数  <br/> |
+|Timed Out Pending Get Count  <br/> |已暂停的待处理数  <br/> |
+|收到的应用程序创建请求总数  <br/> |自服务启动以来收到的应用程序创建请求总数  <br/> |
+|HTTP 4xx 响应总数  <br/> |HTTP 4xx 响应总数  <br/> |
+|HTTP 5xx 响应总数  <br/> |HTTP 5xx 响应总数  <br/> |
+|在命令通道上收到的请求总数  <br/> |命令通道上收到的请求总数  <br/> |
 |Total Requests Succeeded  <br/> |成功的请求总数  <br/> |
-|Total Sessions Initiated  <br/> |自启动服务以来启动的会话总数  <br/> |
-|Total Sessions Terminated Because of Idle Timeout  <br/> |因用户空闲超时终止的会话总数  <br/> |
-|Total Throttled Applications  <br/> |阻止的应用程序数  <br/> |
+|启动会话总数  <br/> |自服务启动以来启动的会话总数  <br/> |
+|因空闲超时而终止的会话总数  <br/> |因用户空闲超时终止的会话总数  <br/> |
+|Total Throttled Applications  <br/> |受限制的应用程序数  <br/> |
    
-**Mcx Mobility Service 性能计数器**
+**Mcx Mobility Service 的性能计数器**
 
-|**计数器**|**说明**|
+|**计数器**|**描述**|
 |:-----|:-----|
 |Average Lifetime for a Session in Milliseconds  <br/> |会话的平均生存时间（以毫秒为单位）  <br/> |
-|Current Push Notification Subscriptions  <br/> |当前推送通知订阅数。此数目与 Currently Active Session Count 结合在一起表示为 Windows Mobile 或 iPhone 设备注册的当前活动会话的子集。  <br/> |
+|Current Push Notification Subscriptions  <br/> |当前推送通知订阅数。 此数字与当前活动会话计数一起表示为 Windows Mobile 或 iPhone 设备注册的当前活动会话的子集。  <br/> |
 |Currently Active Network Timeout Poll Count  <br/> |超时的网络投票数  <br/> |
 |Currently Active Poll Count  <br/> |当前活动投票数（与服务器的长期连接）  <br/> |
 |Currently Active Session Count  <br/> |当前注册到 Mobility Service 中的终结点的数目  <br/> |
@@ -117,4 +117,4 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 |Total Successful Outbound Voice Calls  <br/> |成功的出站语音呼叫总数  <br/> |
    
 > [!NOTE]
-> 在 Skype for Business Server 2019 中，MCX （移动服务）对旧式移动客户端的支持不再可用。 所有当前 Skype for business 移动客户端都已使用统一通信 Web API （UCWA）来支持即时消息（IM）、状态和联系人。 具有使用 MCX 的旧客户端的用户将需要升级到当前客户端。
+> SKYPE (Server 2019 中不再提供对) 移动客户端的 MCX 移动服务支持。 所有当前的 Skype for Business 移动客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。

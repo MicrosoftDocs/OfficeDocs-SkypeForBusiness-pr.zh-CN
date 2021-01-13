@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中验证 Edge 部署
+title: 在 Skype for Business Server 中验证边缘部署
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
@@ -14,50 +14,50 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: 摘要：了解如何验证 Edge 服务器或 Edge 服务器池的部署是否在 Skype for Business 服务器中工作。
-ms.openlocfilehash: c73b77fd0171afe20f9e40b48c47ef4304df4c66
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 摘要：了解如何验证边缘服务器或边缘服务器池的部署在 Skype for Business Server 中是否正常工作。
+ms.openlocfilehash: 1da2bed1bc9df7cb118d47c2b27e190546838e1b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768295"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804352"
 ---
-# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>在 Skype for Business 服务器中验证 Edge 部署
+# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>在 Skype for Business Server 中验证边缘部署
  
-**摘要：** 了解如何验证 Edge 服务器或 Edge 服务器池的部署是否在 Skype for Business 服务器中工作。
+**摘要：** 了解如何验证边缘服务器或边缘服务器池的部署在 Skype for Business Server 中是否正常工作。
   
-部署 Edge 服务器或边缘服务器池后，您需要知道它是否正常工作。 下面是一些可帮助确保你的边缘环境已连接到内部服务器，并且你的外部用户可以通过你的边缘连接到 Skype for Business 服务器环境的一些内容。
+部署边缘服务器或边缘服务器池后，需要知道其是否正常工作。 下面是一些有助于确认边缘环境已连接到内部服务器，以及外部用户可以通过边缘连接到 Skype for Business Server 环境的一些内容。
   
-## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>验证内部服务器与边缘服务器之间的连接
+## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>验证内部服务器和边缘服务器之间的连接
 
-在安装边缘服务器时自动在边缘服务器或边缘服务器池中完成连接验证时，你仍然可以通过 Windows PowerShell 确认此操作。 在具有中央管理存储的内部服务器上运行 CsManagementStoreReplicationStatus cmdlet，或在已安装 Skype for business Server Core 组件（OcsCore）的任何加入域的计算机上运行。
+在安装边缘服务器后，在边缘服务器或边缘服务器池中自动完成连接验证时，仍可以使用 Windows PowerShell。 在具有中央Get-CsManagementStoreReplicationStatus存储的内部服务器上运行 Get-CsManagementStoreReplicationStatus cmdlet，或在安装了 Skype for Business Server 核心组件 (OcsCore.msi) 的任何加入域的计算机上运行。
   
-初次运行此命令的结果可能给出复制状态为 False，而不是 True。如果发生这种情况，请运行 Invoke-CsManagementStoreReplication cmdlet。留些时间让其完成复制，然后再次运行 Get-CsManagementStoreReplicationStatus cmdlet。
+运行此命令的初始结果可能为复制提供 False 状态，而不是 True。 如果发生这种情况，运行 Invoke-CsManagementStoreReplication cmdlet。 请给它一些时间来完成复制，然后再次运行 Get-CsManagementStoreReplicationStatus cmdlet。
   
-## <a name="verify-connectivity-for-your-external-users"></a>验证外部用户连接
+## <a name="verify-connectivity-for-your-external-users"></a>验证外部用户的连接性
 
-我们确实有一个很好的工具可用于确认你的 Edge 服务器配置，并且能够为 Edge 服务器方案连接、发送和接收正确的消息。 这是[远程连接 Anaylzer 网站](https://testconnectivity.microsoft.com/)。 这是由 Microsoft 管理和维护的站点。 若要使用此工具，请通过浏览找到该网站，然后按照指示选择适合你的正确方案。
+我们提供了一个出色的工具，用于确认边缘服务器配置，以及连接、发送和接收边缘服务器方案的正确消息的能力。 它是远程 [连接分析分析站点](https://testconnectivity.microsoft.com/)。 这是一个由 Microsoft 支持人员管理和维护的网站。 若要使用此工具，请浏览到网站并按照说明选择适合你的方案。
   
-### <a name="things-to-consider-when-testing-external-user-connectivity"></a>测试外部用户连接时应考虑的事项
+### <a name="things-to-consider-when-testing-external-user-connectivity"></a>测试外部用户连接时要考虑的一些因素
 
-任何外部用户访问测试应包括贵组织支持的每种类型的内部用户，这可能包括下列任意部分或全部用户：
+任何外部用户访问测试都需要包括组织支持的每种类型的内部用户，其中可能包括以下任一或全部：
   
-- 来自至少一个联盟域的用户（尽管我们建议测试所有这些域）。
+- 来自至少一个联盟域的用户 (我们建议通过这些域测试) 。
     
 - 匿名用户。
     
-- 您的组织中远程登录到 Skype for Business 但没有使用 VPN 的用户。
+- 组织中远程登录到 Skype for Business 但没有使用 VPN 的用户。
     
-这些测试将确定你的边缘服务器是否：
+这些测试将确定边缘服务器是否：
   
 - 使用 Telnet 客户端从网络外侦听所需端口。
     
   - 例如：telnet sip.contoso.com 443
     
-  - 你应该针对你在 Edge 服务器或 Edge 服务器池中使用的端口执行上述测试，具体取决于你的部署。
+  - 您应对边缘服务器或边缘服务器池上使用的端口执行上述测试，具体取决于您的部署。
     
 - 执行准确的外部 DNS 解析。
     
-  - 从您的网络外部，ping 一下 Edge 服务器或边缘服务器池中的每个外部 Fqdn。 即使 ping 失败，您也可以看到 IP 地址，您可以比较以前分配的 IP 地址。
+  - 从网络外部 ping 边缘服务器或边缘服务器池的每个外部 FQDN。 即使 ping 失败，您也会看到 IP 地址，可以比较之前分配的 IP 地址。
     
 

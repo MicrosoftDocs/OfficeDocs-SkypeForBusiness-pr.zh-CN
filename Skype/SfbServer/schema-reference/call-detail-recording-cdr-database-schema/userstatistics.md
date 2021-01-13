@@ -1,8 +1,8 @@
 ---
 title: UserStatistics 表
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
-description: UserStatistics 表是支持表。 表中的每条记录存储有关系统的单个用户使用情况的信息。 此表是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 048c26279deb6f89e69784d754567dfde84d9983
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: UserStatistics 表是一个支持表。 表中的每条记录存储有关单个用户对系统使用情况的信息。 此表在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: 65017c9f807b272097b39bac88c80cc81e617ff4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814790"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813102"
 ---
 # <a name="userstatistics-table"></a>UserStatistics 表
  
-UserStatistics 表是支持表。 表中的每条记录存储有关系统的单个用户使用情况的信息。 此表是在 Microsoft Lync Server 2013 中引入的。
+UserStatistics 表是一个支持表。 表中的每条记录存储有关单个用户对系统使用情况的信息。 此表在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**UserId** <br/> |int  <br/> |Primary  <br/> |标识此用户的唯一号码。  <br/> |
-|**LastLogInTime** <br/> |datetime  <br/> ||上次登录用户的时间。  <br/> |
-|**LastConfOrganizedTime** <br/> |datetime  <br/> ||上次用户组织会议的时间。  <br/> |
-|**LastCallOrganizerCallFailureTime** <br/> |datetime  <br/> ||上次用户遇到通话失败的时间。  <br/> |
-|**LastConfOrganizerCallFailureTime** <br/> |datetime  <br/> ||上次用户遇到作为会议组织者的呼叫失败的时间。  <br/> |
+|**UserId** <br/> |int  <br/> |主  <br/> |用于标识此用户的唯一编号。  <br/> |
+|**LastLogInTime** <br/> |datetime  <br/> ||用户上次登录时间。  <br/> |
+|**LastConfOrganizedTime** <br/> |datetime  <br/> ||用户上次组织会议的时间。  <br/> |
+|**LastCallOrganizerCallFailureTime** <br/> |datetime  <br/> ||用户上次遇到呼叫失败的时间。  <br/> |
+|**LastConfOrganizerCallFailureTime** <br/> |datetime  <br/> ||用户上次以会议组织者身份遇到呼叫失败的时间。  <br/> |
    
 

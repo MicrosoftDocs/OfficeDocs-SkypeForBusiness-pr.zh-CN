@@ -5,8 +5,8 @@ ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,31 +14,31 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本文介绍如何为在 Windows 10 上运行的客户端配置 Skype for Business Server 中的客户端端口范围和配置服务质量策略。
-ms.openlocfilehash: 95fe768333a01aff165e74eec334f14bf23d69dc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 本文介绍如何为客户端配置端口范围，以及如何在 Skype for Business Server 中为在 Windows 10 上运行的客户端配置服务质量策略。
+ms.openlocfilehash: b2961193bef799742ac3b79a4f421a7aa50c5a03
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045885"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814198"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>为 Skype for Business Server 中的客户端配置端口范围和服务质量策略
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>在 Skype for Business Server 中为客户端配置端口范围和服务质量策略
 
-本文介绍如何为在 Windows 10 上运行的客户端配置 Skype for Business Server 中的客户端端口范围和配置服务质量策略。
+本文介绍如何为客户端配置端口范围，以及如何在 Skype for Business Server 中为在 Windows 10 上运行的客户端配置服务质量策略。
 
 ## <a name="configure-port-ranges"></a>配置端口范围
 
-默认情况下，Skype for Business 客户端应用程序可以在通信会话中参与时使用端口1024和65535之间的任何端口;这是因为不会为客户端自动启用特定端口范围。 但是，若要使用服务质量，您将需要为一系列特定端口范围重新分配各种通信类型（音频、视频、媒体、应用程序共享和文件传输）。 可使用 Set-CsConferencingConfiguration cmdlet 完成此操作。
+默认情况下，当参与通信会话时，Skype for Business 客户端应用程序可以使用端口 1024 和 65535 之间的任意端口;这是因为不会自动为客户端启用特定端口范围。 但是，若要使用服务质量，您将需要为一系列特定端口范围重新分配各种通信类型（音频、视频、媒体、应用程序共享和文件传输）。 可使用 Set-CsConferencingConfiguration cmdlet 完成此操作。
 
 > [!NOTE]  
-> 最终用户不能自行进行这些更改。 仅使用 CsConferencingConfiguration cmdlet 的管理员才能进行端口更改。
+> 最终用户无法自行进行这些更改。 端口更改只能由管理员使用 Set-CsConferencingConfiguration cmdlet 进行。
 
 
-您可以通过在 Skype for Business Server 命令行管理程序中运行以下命令，来确定当前用于通信会话的端口范围：
+通过从 Skype for Business Server 命令行管理程序 中运行以下命令，可以确定当前用于通信会话的端口范围：
 
     Get-CsConferencingConfiguration
 
-假定您在安装 Skype for Business Server 后未对会议设置进行任何更改，则应返回包含这些属性值的信息：
+假定自安装 Skype for Business Server 后未对会议设置进行任何更改，应返回包含以下属性值的信息：
 
     ClientMediaPortRangeEnabled : False
     ClientAudioPort             : 5350
@@ -54,7 +54,7 @@ ms.locfileid: "42045885"
 
     ClientMediaPortRangeEnabled : False
 
-这一点很重要，因为当此属性设置为 False 时，Skype for Business 客户端将在通信会话中涉及时使用端口1024和65535之间的任何可用端口;无论任何其他端口设置（例如，ClientMediaPort 或 ClientVideoPort），都是如此。 如果要将使用率限制为一组指定的端口（如果计划实施服务质量，您需要执行此操作），则必须首先启用客户端媒体端口范围。 可以使用以下 Windows PowerShell 命令来执行此操作：
+这一点很重要，因为当此属性设置为 False 时，当参与通信会话时，Skype for Business 客户端将使用端口 1024 和 65535 之间的任何可用端口;无论使用任何其他端口设置， (例如 ClientMediaPort 或 ClientVideoPort) 。 如果要将用法限制为一组指定的端口 (并且如果您计划实施服务质量) ，则必须先启用客户端媒体端口范围。 可以使用以下命令完成Windows PowerShell操作：
 
     Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True
 
@@ -114,11 +114,11 @@ ms.locfileid: "42045885"
 </table>
 
 
-在上表中，客户端端口范围表示为您的服务器配置的端口范围的一部分。 例如，在服务器上，应用程序共享已配置为使用 40803 和 49151 之间的端口；在客户端计算机上，应用程序共享配置为使用 42000 和 42019 之间的端口。 这也主要是为了简化 QoS 的管理：客户端端口不一定表示服务器上使用的端口的子集。 （例如，在客户端计算机上，您可以配置要使用的应用程序共享，如端口10000至10019。）但是，建议将客户端端口范围设置为服务器端口范围的子集。
+在上表中，客户端端口范围表示为您的服务器配置的端口范围的一部分。 例如，在服务器上，应用程序共享已配置为使用 40803 和 49151 之间的端口；在客户端计算机上，应用程序共享配置为使用 42000 和 42019 之间的端口。 这主要用于简化 QoS 管理：客户端端口不需要表示服务器上使用的端口的子集。  (例如，在客户端计算机上，可以将应用程序共享配置为使用端口 10000 到 10019。) 但是，建议您使客户端端口范围成为服务器端口范围的子集。
 
-另外，您可能已注意到，为服务器上的应用程序共享留出了 8348 个端口，但为客户端上的应用程序共享只留出了 20 个端口。 建议这样做，但这并不是一个很快的规则。 通常情况下，您可以考虑每个可用的端口表示单个通信会话：如果端口范围中有100个端口，则表示有问题的计算机可能会在任何给定时间参与（最多有100个通信会话）。 因为服务器参与的会话数可能多于客户端，所以在服务器上打开的端口数应多于在客户端上打开的端口数。 为客户端上的应用程序共享留出 20 个端口意味着用户可以参与指定设备上的 20 个应用程序共享会话，并且所有会话是同时进行的。 对于您的大多数用户来说，这样做应该足够了。
+另外，您可能已注意到，为服务器上的应用程序共享留出了 8348 个端口，但为客户端上的应用程序共享只留出了 20 个端口。 这也是建议这样做的，但这不是一种硬性规则。 通常，您可以考虑每个可用端口来表示单个通信会话：如果端口范围内有 100 个可用端口，这意味着有关计算机在任何给定时间最多可以参与 100 个通信会话。 因为服务器参与的会话数可能多于客户端，所以在服务器上打开的端口数应多于在客户端上打开的端口数。 为客户端上的应用程序共享留出 20 个端口意味着用户可以参与指定设备上的 20 个应用程序共享会话，并且所有会话是同时进行的。 对于您的大多数用户来说，这样做应该足够了。
 
-若要将上述端口范围分配给全局会议配置设置集合，您可以使用以下 Skype for Business Server 命令行管理程序命令：
+若要将上述端口范围分配给会议配置设置的全局集合，可以使用以下 Skype for Business Server 命令行管理程序命令：
 
     Set-CsConferencingConfiguration -Identity global -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
 
@@ -126,14 +126,14 @@ ms.locfileid: "42045885"
 
     Get-CsConferencingConfiguration | Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
 
-单个用户必须从 Skype for Business 注销，然后重新登录才能使这些更改实际生效。
+个别用户必须从 Skype for Business 注销，然后重新登录，这些更改才能实际生效。
 
 > [!NOTE]  
 > 您还可以启用客户端媒体端口范围，然后使用单个命令分配这些端口范围。 例如：<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
 
-## <a name="configure-quality-of-service-policies-for-clients-running-on-windows-10"></a>为运行在 Windows 10 上的客户端配置服务质量策略
+## <a name="configure-quality-of-service-policies-for-clients-running-on-windows-10"></a>为在 Windows 10 上运行的客户端配置服务质量策略
 
-除了指定用于 Skype for Business 客户端的端口范围之外，还必须创建将应用于客户端计算机的单独服务策略质量。 （不应将为会议、应用程序和中介服务器创建的服务质量策略应用于客户端计算机。）此信息仅适用于运行 Skype for Business 客户端和 Windows 10 的计算机。
+除了指定供 Skype for Business 客户端使用的端口范围外，还必须创建将应用于客户端计算机的单独服务质量策略。  (为会议、应用程序和中介服务器创建的服务质量策略不应应用于客户端计算机。) 此信息仅适用于运行 Skype for Business 客户端和 Windows 10 的计算机。
 
 以下示例使用此端口范围的设置创建音频策略和视频策略：
 
@@ -175,95 +175,95 @@ ms.locfileid: "42045885"
 </tbody>
 </table>
 
-若要为 Windows 10 计算机创建服务质量音频策略，请首先登录到已安装组策略管理的计算机。 打开 "组策略管理" （单击 "**开始**"，指向 "**管理工具**"，然后单击 "**组策略管理**"），然后完成以下过程：
+若要为 Windows 10 计算机创建服务质量音频策略，请首先登录到安装了组策略管理的计算机。 打开组策略 **(单击"** 开始"，指向"管理工具"，然后单击"组策略管理 **) ，** 然后完成以下过程：
 
-1.  在组策略管理中，找到其中应创建新策略的容器。 例如，如果所有客户端计算机都位于名为客户端的 OU 中，则应在客户端 OU 中创建新策略。
+1.  在组策略管理中，找到其中应创建新策略的容器。 例如，如果所有客户端计算机都位于名为"客户端"的 OU 中，应在客户端 OU 中创建新策略。
 
-2.  右键单击相应的容器，然后单击 "**在此域中创建一个 GPO" 并将其链接到此处**。
+2.  右键单击相应的容器，然后单击"在此域中创建 **GPO"，并在此处链接它**。
 
-3.  在 "**新建 GPO** " 对话框中，在 "**名称**" 框中键入新组策略对象的名称，然后单击 **"确定"**。
+3.  在 **"新建 GPO"** 对话框中，在"名称"框中键入新组策略对象 **的名称，** 然后单击"**确定"。**
 
-4.  右键单击新创建的策略，然后单击 "**编辑**"。
+4.  右键单击新建的策略，然后单击"编辑 **"。**
 
-5.  在组策略管理编辑器中，展开 "**计算机配置**"，展开 " **Windows 设置**"，右键单击 "**基于策略的 QoS**"，然后单击 "**创建新策略**"。
+5.  在组策略管理编辑器中，展开"**计算机** 配置"，展开 **"Windows 设置**"，右键单击"基于策略的 **QoS"，** 然后单击"**创建新策略"。**
 
-6.  在 "**基于策略的 QoS** " 对话框的 "名称" 框中，在 "开始" 页上的 "**名称**" 框中键入新策略的名称。 选择“指定 DSCP 值”****，并将该值设置为“46”****。 将“指定出站调节率”**** 保留为未选中状态，然后单击“下一步”****。
+6.  在 **基于策略的 QoS** 对话框中的打开页上，在"名称"框中键入新 **策略** 的名称。 选择“指定 DSCP 值”，并将该值设置为“46”。 将“指定出站调节率”保留为未选中状态，然后单击“下一步”。
 
-7.  在下一页上，选择 "**仅限具有此可执行名称的应用程序**"，输入 " **Lync.** " 作为名称，然后单击 "**下一步**"。 此设置指示策略仅优先排列与 Skype for Business 客户端中匹配的流量。
+7.  On the next page， select **Only applications with this executable name，** enter **Lync.exe** as the name， and then click **Next**. 此设置指示策略仅对来自 Skype for Business 客户端的匹配流量设置优先级。
 
-8.  在第三页上，确保选择了 "**所有源 ip 地址**" 和 "**任何目标 ip 地址**"，然后单击 "**下一步**"。 这两个设置确保将管理这些数据包，与哪台计算机（IP 地址）发送这些数据包及哪台计算机（IP 地址）将接收这些数据包无关。
+8.  第三页上，确保同时选择"任何 **源 IP** 地址"和"任何目标 **IP** 地址"，然后单击"下一 **步"。** 这两个设置确保将管理这些数据包，与哪台计算机（IP 地址）发送这些数据包及哪台计算机（IP 地址）将接收这些数据包无关。
 
-9.  在第四页上，从“选择此 QoS 策略所适用的协议”**** 下拉列表中选择“TCP 和 UDP”****。 TCP （传输控制协议）和 UDP （用户数据报协议）是 Skype for Business Server 及其客户端应用程序最常使用的两种网络协议。
+9.  在第四页上，从“选择此 QoS 策略所适用的协议”下拉列表中选择“TCP 和 UDP”。 TCP (传输控制协议) 和 UDP (用户数据报协议) 是 Skype for Business Server 及其客户端应用程序最常使用的两种网络协议。
 
-10. 在标题“指定源端口号”**** 下，选择“从此源端口或范围”****。在附带的文本框中，键入为音频传输保留的端口范围。例如，如果您为音频流量保留端口 50020 到端口 50039，则使用以下格式输入端口范围：“50020:50039”****。单击“完成”****。
+10. 在标题“指定源端口号”下，选择“从此源端口或范围”。在附带的文本框中，键入为音频传输保留的端口范围。例如，如果您为音频流量保留端口 50020 到端口 50039，则使用以下格式输入端口范围：“50020:50039”。单击“完成”。
 
 在您为音频创建了 QoS 策略后，然后应该为视频创建第二个策略。要为视频创建策略，请按照您创建音频策略时遵循的相同基本过程，进行下列替换项：
 
-  - 使用不同的（且唯一的）策略名称。
+  - 使用不同的策略 (和唯) 策略名称。
 
-  - 将 DSCP 值设置为“34”**** 代替 46。（如先前所述，您不必使用为 34 的 DSCP 值；只是必须分配一个与用于音频不同的 DSCP 值。）
+  - 将 DSCP 值设置为“34”代替 46。（如先前所述，您不必使用为 34 的 DSCP 值；只是必须分配一个与用于音频不同的 DSCP 值。）
 
-  - 对视频流量使用以前配置的端口范围。 例如，如果您已为视频保留端口58000到58019，请将端口范围设置为： **58000:58019**。
+  - 将以前配置的端口范围用于视频流量。 例如，如果为视频保留端口 58000 到 58019，请设置端口范围 **：58000：58019。**
 
-如果决定创建用于管理应用程序共享流量的策略，请进行以下替换：
+如果您决定创建用于管理应用程序共享通信的策略，请进行以下替换：
 
-  - 使用不同的（且唯一的）策略名称（例如， **Skype For Business Server 应用程序共享**）。
+  - 使用不同的 (和) 策略名称 (例如 **，Skype for Business Server 应用程序共享**) 。
 
-  - 将 DSCP 设置为“24”**** 代替 46。（另外，此值不必为 24；只是必须用于不同于音频和视频的 DSCP 值。）
+  - 将 DSCP 设置为“24”代替 46。（另外，此值不必为 24；只是必须用于不同于音频和视频的 DSCP 值。）
 
-  - 对视频流量使用以前配置的端口范围。 例如，如果您已为应用程序共享保留端口42000到42019，请将端口范围设置为： **42000:42019**。
+  - 将以前配置的端口范围用于视频流量。 例如，如果为应用程序共享保留端口 42000 到 42019，请设置端口范围 **：42000：42019。**
 
 对于文件传输策略：
 
-  - 使用不同的（且唯一的）策略名称（例如， **Skype For Business Server 文件传输**）。
+  - 使用不同的 (和) 策略 (例如 **，Skype for Business Server 文件** 传输) 。
 
-  - 将 DSCP 值设置为**14**。 （同样，此值不一定为 14; 它只是一个唯一的 DSCP 代码。）
+  - 将 DSCP 值设置为 **14。**  (，此值不一定为 14;它只是一个唯一的 DSCP 代码。) 
 
-  - 对应用程序使用以前配置的端口范围。 例如，如果您已为应用程序共享保留端口42020到42039，请将端口范围设置为： **42020:42039**。
+  - 对应用程序使用以前配置的端口范围。 例如，如果为应用程序共享保留端口 42020 到 42039，则端口范围设置为 **：42020：42039。**
 
 在客户端计算机上刷新组策略之前，已创建的新策略不会生效。尽管组策略会定期自行刷新，但是您可以通过在需要刷新的组策略所在的每台计算机上运行下列命令来强制立即刷新：
 
     Gpupdate.exe /force
 
-可从在管理员凭据下运行的任何命令窗口运行此命令。要在管理员凭据下运行命令窗口，请单击“开始”****，右键单击“命令提示符”****，然后单击“以管理员身份运行”****。
+可从在管理员凭据下运行的任何命令窗口运行此命令。要在管理员凭据下运行命令窗口，请单击“开始”，右键单击“命令提示符”，然后单击“以管理员身份运行”。
 
-请记住，应该将这些策略指向客户端计算机目标。 不应将它们应用于运行 Skype for Business Server 的服务器。
+请记住，应该将这些策略指向客户端计算机目标。 它们不应应用于运行 Skype for Business Server 的服务器。
 
 要确保将网络数据包标记为相应的 DSCP 值，还应该通过完成以下过程在每台计算机上创建新的注册表项：
 
-1.  单击“开始”****，再单击“运行”****。
+1.  单击“开始”，然后单击“运行”。
 
-2.  在 "**运行**" 对话框中，键入 " **regedit**"，然后按 enter。
+2.  在 **"运行** "对话框中，键入 **regedit，** 然后按 Enter。
 
-3.  在注册表编辑器中，展开 **"\_HKEY\_本地计算机**"，展开 "**系统**"，展开 " **CurrentControlSet**"，展开 "**服务**"，然后展开 " **Tcpip**"。
+3.  在注册表编辑器中，展开 **HKEY \_ LOCAL \_ MACHINE，** 展开 **系统**，展开 **CurrentControlSet，** 展开 **服务**，然后展开 **Tcpip。**
 
-4.  右键单击“Tcpip”****，指向“新建”****，然后单击“项”****。 创建新注册表项后，键入**QoS**，然后按 enter 重命名该项。
+4.  右键单击“Tcpip”，指向“新建”，然后单击“项”。 新建注册表项后，键入 **QoS，** 然后按 Enter 重命名该注册表项。
 
-5.  右键单击“QoS”****，指向“新建”****，然后单击“字符串值”****。 创建新的注册表值后，键入 "**不使用 NLA**"，然后按 enter 以重命名该值。
+5.  右键单击“QoS”，指向“新建”，然后单击“字符串值”。 创建新注册表值后，键入 **"不使用 NLA"，** 然后按 Enter 重命名该值。
 
-6.  双击“不使用 NLA”****。 在 "**编辑字符串**" 对话框中，在 "**值数据**" 框中键入**1** ，然后单击 **"确定"**。
+6.  双击“不使用 NLA”。 在 **"编辑字符串**"对话框中，在"值"数据框中键入 **1，** 然后单击"**确定"。**
 
-7.  关闭注册表编辑器并 eboot 您的计算机。
+7.  关闭注册表编辑器并引导计算机。
 
 ### <a name="configure-quality-of-service-on-computers-with-multiple-network-adapters"></a>在具有多个网络适配器的计算机上配置服务质量
 
-如果计算机具有多个网络适配器，则有时可能会遇到问题，其中 DSCP 值显示为0x00 而不是配置的值。 此错误通常会发生在一个或多个网络适配器无法访问 Active Directory 域的计算机上（例如，如果这些适配器用于专用网络）。 如果出现这种情况，则将 DSCP 值标记为使这些适配器可以访问该域，但不会标记为使这些适配器无法访问该域。
+如果计算机具有多个网络适配器，则有时可能会遇到 DSCP 值显示为 0x00 而不是配置值的问题。 此错误通常会发生在一个或多个网络适配器无法访问 Active Directory 域的计算机上（例如，如果这些适配器用于专用网络）。 如果出现这种情况，则将 DSCP 值标记为使这些适配器可以访问该域，但不会标记为使这些适配器无法访问该域。
 
-如果要为计算机中的所有网络适配器标记 DSCP 值（包括不具有对您的域的访问权限的适配器），则需要在注册表中添加和配置值。 这可通过执行下列过程来完成：
+如果要标记计算机中所有网络适配器（包括无法访问域的适配器）的 DSCP 值，则需要在注册表中添加和配置值。 这可通过执行下列过程来完成：
 
-1.  单击“开始”****，再单击“运行”****。
+1.  单击“开始”，然后单击“运行”。
 
-2.  在 "**运行**" 对话框中，键入 " **regedit**"，然后按 enter。
+2.  在 **"运行** "对话框中，键入 **regedit，** 然后按 Enter。
 
-3.  在注册表编辑器中，展开 **"\_HKEY\_本地计算机**"，展开 "**系统**"，展开 " **CurrentControlSet**"，展开 "**服务**"，然后展开 " **Tcpip**"。
+3.  在注册表编辑器中，展开 **HKEY \_ LOCAL \_ MACHINE，** 展开 **系统**，展开 **CurrentControlSet，** 展开 **服务**，然后展开 **Tcpip。**
 
-4.  如果没有看到标记为“QoS”**** 的注册表项，则右键单击“Tcpip”****，指向“新建”****，然后单击“项”****。 创建新密钥后，键入**QoS**，然后按 enter 来重命名该项。
+4.  如果没有看到标记为“QoS”的注册表项，则右键单击“Tcpip”，指向“新建”，然后单击“项”。 创建新密钥后，键入 **QoS，** 然后按 Enter 重命名该密钥。
 
-5.  右键单击“QoS”****，指向“新建”****，然后单击“字符串值”****。 创建新的注册表值后，键入 "**不使用 NLA**"，然后按 enter 以重命名该值。
+5.  右键单击“QoS”，指向“新建”，然后单击“字符串值”。 创建新注册表值后，键入 **"不使用 NLA"，** 然后按 Enter 重命名该值。
 
-6.  双击“不使用 NLA”****。 在 "**编辑字符串**" 对话框中，在 "**值数据**" 框中键入**1** ，然后单击 **"确定"**。
+6.  双击“不使用 NLA”。 在 **"编辑字符串**"对话框中，在"值"数据框中键入 **1，** 然后单击"**确定"。**
 
-创建并配置新的注册表值后，需要重新启动计算机，以使更改生效。
+创建并配置新注册表值后，需要重新启动计算机，更改才能生效。
 
 ## <a name="see-also"></a>另请参阅
 

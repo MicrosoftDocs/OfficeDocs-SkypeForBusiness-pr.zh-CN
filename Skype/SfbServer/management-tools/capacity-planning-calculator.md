@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 容量规划计算器
+title: Skype for Business Server 容量计划计算器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 2/1/2018
 manager: serdars
 audience: ITPro
@@ -14,107 +14,107 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 摘要：如何使用容量计算器工具。
-ms.openlocfilehash: 1bb1c9cde82c1f2d6e487c3bc28520b630d59210
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ca7266f5a18e21dbb964f18a791de9b8903a7f0c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031076"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802992"
 ---
-# <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype for Business Server 容量规划计算器
+# <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype for Business Server 容量计划计算器
  
 **摘要：** 如何使用容量计算器工具。
 
 > [!NOTE]
-> 本文引用 Skype for business Server 2015 下载，但它适用于：
+> 本文引用 Skype for Business Server 2015 下载，但它适用于：
 > - Skype for Business Server 2019。
 > - Skype for Business Server 2015。
   
-[Skype For Business server 2015 容量计算器](https://www.microsoft.com/download/details.aspx?id=51196)和[Skype for Business Server 2019 容量计算器](https://www.microsoft.com/download/details.aspx?id=57509)增强了[skype for business 规划工具](https://www.microsoft.com/download/details.aspx?id=50357)和部署文档（[规划 Skype For business server 2015 部署](../plan-your-deployment/plan-your-deployment.md)并[规划 skype for business server 2019 部署](../../SfBServer2019/plan/plan-your-deployment-2019.md)）。 在您查看指南并使用规划工具创建推荐的拓扑之后，使用计算器。
+[Skype for Business Server 2015 容量](https://www.microsoft.com/download/details.aspx?id=51196)计算器和 Skype for Business Server [2019 容量](https://www.microsoft.com/download/details.aspx?id=57509)计算器分别扩充了 Skype for Business[规划](https://www.microsoft.com/download/details.aspx?id=50357)工具和部署文档 (Plan for your Skype for Business [Server 2015 deployment](../plan-your-deployment/plan-your-deployment.md) and Plan for your Skype for Business Server [2019 deployment](../../SfBServer2019/plan/plan-your-deployment-2019.md) respectively) . 查看指南并使用规划工具创建推荐的拓扑后，使用计算器。
   
-Skype for Business Server 容量计算器可帮助您根据您的组织使用的用户数和通信工具来确定服务器要求。 确定您的用户配置文件和要为用户启用的功能之后，请使用计算器确定所需的服务器、内存和带宽的数量。 此版本的计算器不会提供磁盘 i/o 要求指南。
+Skype for Business Server 容量计算器可帮助你根据组织使用的用户数和通信工具确定服务器要求。 确定用户配置文件和要为用户启用的功能后，使用计算器确定所需的服务器数、内存和带宽。 此版本的计算器不提供磁盘 I/O 要求的指南。
   
-如果您具有有关特定用户配置文件的准确、详细信息，则可以从计算器中获益最多。 例如，启用了语音的用户的百分比、每个用户每小时平均呼叫数、呼叫持续时间以及会议中并发用户的百分比可能会对服务器的要求产生巨大的影响。 计算器所创建的建议的准确性取决于您提供的信息的准确性。
+如果你拥有有关特定用户配置文件的准确、详细信息，则可以从计算器中获益最多。 例如，启用语音的用户百分比、每个用户每小时的平均呼叫数、呼叫持续时间以及会议中的并发用户的百分比可能会对服务器要求产生巨大差异。 计算器创建的建议的准确性取决于您提供的信息的准确性。
   
-在使用规划工具和容量规划计算器后，应模拟建议和计划的负载，以确保已充分设置 Skype for business Server。 若要在模拟负载下执行压力测试，请使用 Skype for business [Server 压力和性能工具](https://technet.microsoft.com/library/mt631400.aspx)中记录的[Skype For business Server 压力和性能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
+使用规划工具和容量规划计算器后，应模拟建议和计划的负载，以确保充分预配 Skype for Business Server。 若要在模拟负载下执行压力测试，请使用 [Skype for Business Server](https://www.microsoft.com/download/details.aspx?id=50367) 压力和性能工具（在 Skype for Business Server 压力和性能工具 [中记录](https://technet.microsoft.com/library/mt631400.aspx)）。
   
 ## <a name="using-the-capacity-calculator"></a>使用容量计算器
 
-计算器是 Microsoft Excel 电子表格。 您的输入单元格的颜色为橙色。 默认值在单元格中输入（对于在具有十二台前端服务器的一个池中的 Skype for Business Server 2015、80000用户），而对于 Skype for Business Server 2019，则使用一个池中的106000用户进行16台前端服务器，但应将这些值更改为满足组织的需求。
+计算器是 Microsoft Excel 电子表格。 输入单元格的颜色为橙色。 默认值在单元格 (For Skype for Business Server 2015 中输入，一个池中有 80，000 个用户具有 12 台前端服务器，而对于 Skype for Business Server 2019，一个池中有 106，000 个用户具有 16 个前端服务器) ，但应更改这些值以满足组织的需求。
   
-使用模型包含以下部分。 若要计算您的容量要求，请按照工作表顶部的说明输入数据，并逐行工作： 
+使用模型包含以下部分。 若要计算容量要求，请按如下所述输入数据：从工作表顶部开始并按行向下工作： 
   
  **即时消息和状态**
   
-- 在 "**用户数**" 下，键入将一次性登录的用户数。 此数字通常为已设置的用户总数的80%。 在大多数情况下，将对100% 的并发用户启用 IM 和状态。 默认值为80000（适用于 Skype for business Server 2015）和106000适用于 Skype for business Server 2019 的用户。
+- 在 **"用户数"** 下，键入将同时登录的用户数。 此数字通常是已设置用户总数的 80%。 在大多数情况下，将为 100% 的并发用户启用 IM 和状态。 Skype for Business Server 2015 的默认值为 80，000，Skype for Business Server 2019 的默认值为 106，000 个用户。
     
-- **联系人列表中的平均联系人数**表示用于验证您的系统要求的联系人数量。 此号码是固定的，不是应该更改的内容。
+- **联系人列表中的平均联系人** 数指示我们用于验证系统要求的联系人数量。 此数字是固定的，不应更改。
     
   **企业语音**
   
-- 在 "**启用企业语音的用户**" 中，键入启用了企业语音的用户的百分比。 默认值为60%。 
+- 在 **"启用企业语音** 中，键入为用户启用企业语音。 默认值为 60%。 
     
-- 在 "每个**用户每小时的平均呼叫数（峰值）**" 中，键入预计在高峰负载期间平均用户参与的每小时的呼叫数。 默认值为 4。 
+- 在 **每个用户** 每小时呼叫数 (峰值) 中，键入预计平均用户在高峰负载期间参与的每小时呼叫数。 默认值为 4。 
     
-- 在 "**使用媒体旁路的呼叫百分比**" 中，键入用户发出的将绕过中介服务器的呼叫百分比。 默认值为65%，但如果分散在不同地理位置或拥有在家工作的大量用户，则可能会降低。
+- 在 **"使用媒体旁路的** 呼叫百分比"中，键入将绕过中介服务器的用户所呼叫的百分比。 默认值为 65%，但如果分散在地理位置或拥有大量在家工作的用户，则可能会较低。
     
-- 在**与 uc-pstn 呼叫相关的语音用户的百分比**中，键入组织的呼叫的百分比，即 UC-pstn 电话呼叫。 默认值为60%。
+- 在 **UC-PSTN** 呼叫中涉及的语音用户的百分比中，键入组织的呼叫（即 UC-PSTN 电话呼叫）的百分比。 默认值为 60%。
     
-- **Uc-uc 呼叫中涉及的语音用户所占的百分比**显示为企业语音启用的、仅对 uc uc 呼叫启用的用户的百分比。 根据**为 UC-PSTN 呼叫启用的语音用户百分比**输入的内容计算此数字。 
+- **UC-UC** 呼叫中涉及的语音用户的百分比显示为仅启用 UC-UC 呼叫企业语音的用户的百分比。 此号码是根据您为启用 **UC-PSTN** 呼叫的语音用户百分比输入的。 
     
   **会议**
   
-- 在 "**并发会议的用户百分比**" 中，键入将同时参与会议的用户的百分比。 默认值为5%。 
+- 在 **并发会议的用户百分比中**，键入将同时参与会议的用户百分比。 默认值为 5%。 
     
-- 在 "**仅限组 IM （无语音）的会议百分比**" 中，键入将仅涉及即时消息且不包含音频的会议所占的百分比。 默认值为10%
+- 在 **仅包含组 IM** 的会议的百分比 (没有语音) ，请键入仅涉及即时消息且不包括音频的会议百分比。 默认值为 10%
     
-- 在**使用电话拨入式会议的用户百分比**中，键入会议中一次使用电话拨入式会议的参与者的百分比。 默认值为15%。
+- 在 **"使用电话拨入** 式会议的用户百分比"中，键入一次使用电话拨入式会议的会议参与者的百分比。 默认值为 15%。
     
-- 在 "**使用语音的会议百分比**" 中，键入将包含音频的会议所占的百分比。 
+- 在 **"使用语音的会议百分比"** 中，键入将包含音频的会议百分比。 
     
-  - 如果20% 的语音会议也将包含常规视频，请选中 "**包含视频（无多视图）** " 复选框。
+  - 如果 20% 的语音会议还将包含常规视频，请选中"包括视频 (**无** 多视图) 复选框。
     
-  - 如果20% 的会议也将包含多视图视频，请选中 "**包含多个视图**" 复选框。
+  - 如果 20% 的会议还将包含多视图视频，请选中" **包括多视图"** 复选框。
     
-  - 如果50% 的语音会议也将包含应用程序共享，请选中 "**包括应用程序共享**" 复选框。
+  - 如果 50% 的语音会议还将包含应用程序共享，请选中" **包括应用程序共享"** 复选框。
     
-  - 如果20% 的语音会议包括数据上载（如 PowerPoint 演示文稿），请选中 "**包括 web 会议**" 复选框。
+  - 如果 20% 的语音会议包括数据上载（如 PowerPoint 演示文稿），请选中"包括 **Web 会议"** 复选框。
     
   **移动性**
   
-- 在 "**已启用移动性的用户百分比**" 中，键入将启用使用移动设备连接到 Skype For business Server 的用户的百分比。 默认值为40%。 
+- 在 **启用移动功能的用户的** 百分比中，键入将允许使用移动设备连接到 Skype for Business Server 的用户百分比。 默认值为 40%。 
     
-输入所有必要的信息后，容量计算器估计您的要求。 黄色单元格根据在 Skype for Business Server 性能实验室中执行的测试，显示 CPU、内存和带宽要求的计算值。 这些数字作为指南提供，并不是每个单独的变体都经过测试和验证。 将计算以下值： 
+输入所有必需信息后，容量计算器会估计您的要求。 黄色单元格根据 Skype for Business Server 性能实验室中执行的测试显示 CPU、内存和带宽要求的计算值。 这些数字作为指南提供，不是每个变体都经过测试和验证。 计算以下值： 
   
-- **前端 cpu**：如果整个负载与测试中使用的服务器具有相同规范的一台前端服务器的处理，则 cpu 使用率的百分比（请参阅本文末尾的说明）。
+- **前端 CPU：** 如果整个负载由与测试中使用的服务器规格相同的一台前端服务器处理，则 CPU 使用率的百分比 (请参阅本文末尾的说明) 。
     
-- **网络（以 mbps**为单位）：带宽要求对应工作负载的带宽要求为每秒兆位（Mbps）。
+- **网络（以 Mbps** 表示）：相应工作负荷的带宽要求 (Mbps) 兆位。
     
-- **内存（gb**）：针对相应工作负荷的内存，以千兆字节（GB）为单位。
+- **内存（以 GB** 为单位）：对应工作负荷所需的内存 (GB) GB。
     
-绿色单元格显示有关您输入的使用情况模型的建议。 
+绿色单元格显示您输入的使用模型的建议。 
   
-- **前端服务器总数**：所需的物理服务器数基于运行 Skype For business server 2015 的专用服务器，使用双处理器、hex-core、2260兆周期或 Skype For business server 2019 与 Intel 2673 v3、双处理器、hex-core。
+- 前端服务器总数：所需的物理服务器数量基于运行 Skype for Business Server 2015（具有双处理器、十六核、2，260 兆周）或 Skype for Business Server 2019（Intel Xeon E5-2673 v3、双处理器、十六核）的专用服务器。
     
-    请注意，建议启用超线程，并已证明可提高支持音频/视频的服务器的性能。
+    请注意，建议启用超线程，并且已证明为支持音频/视频的服务器提高性能。
     
-- **边缘服务器**：根据所有并发用户通过边缘服务器通信时所需的边缘服务器的数量。 计算器中不能更改此百分比。 
+- **边缘服务器**：所需的边缘服务器数量，基于通过边缘服务器进行通信的所有并发用户的 30%。 计算器中无法更改此百分比。 
     
-- **存档/呼叫详细记录/高级服务存储**：存档或监控功能所需的存储数量（如果在组织中已启用）。
+- **存档/呼叫详细信息记录/用户体验** 质量服务存储：存档或监控功能所需的存储数量（如果在你的组织中已启用）。
     
-- **必需的后端数据库服务器（需要池）**：支持所选工作负荷所需的后端数据库服务器的数量。
+- **后端数据库服务器 (池必需) ：** 支持所选工作负荷所需的后端数据库服务器的数量。
     
-此外，在前端服务器总数的第一行中，提供了有关服务器和网络上的负载的更多信息，用于组合所有计划的工作负载。
+此外，在前端服务器总数旁边的行中，还提供了有关所有计划工作负荷组合在一起的服务器和网络负载详细信息。
   
-- **平均 Cpu 负载**：每个前端服务器的平均 cpu 使用率。
+- **平均 CPU 负载**：每个前端服务器的平均 CPU 使用率。
     
-- **网络（以 Mbps 为单位**）：支持所需的带宽分配以支持您输入的使用模式。
+- **网络（以 Mbps** 表示）：支持您输入的使用模型所需的带宽分配。
     
-- **内存（gb**）：每个前端服务器所需的内存（以 gb 为单位）。
+- **内存（GB）：** 每个前端服务器所需的内存（以 GB 为单位）。
     
 ### <a name="adjusting-for-your-processors"></a>针对处理器进行调整
 
-电子表格中的所有 CPU 使用情况图假定每个 Skype for Business Server 2015 服务器都具有双处理器、16 GHz 16 2.26 进制的内存、至少有 32 GB 的内存以及8个或更多个至少具有 72 GB 可用磁盘空间的 10000 RPM 硬盘。 对于每个 Skype for Business Server 2019 服务器，电子表格中的所有 CPU 使用情况图都会假定每台服务器都有双处理器、hex-core 和英特尔至强 2673 v3、至少 64 GB 的内存以及至少有 72 GB 可用磁盘的8个或更多 10000 RPM 的硬盘驱动器复杂.
+电子表格中所有 CPU 使用率数据都假定每个 Skype for Business Server 2015 服务器都有一个双处理器、2.26 GHz 的十六核、至少 32 GB 的内存以及 8 个或多个 10，000 RPM 硬盘驱动器，其中至少具有 72 GB 的可用磁盘空间。 对于每个 Skype for Business Server 2019 服务器，电子表格中所有 CPU 使用率数据都假设每个服务器都有一个双处理器、具有 Intel Xeon E5-2673 v3 的十六核、至少 64 GB 的内存以及 8 个或多个 10，000 RPM 硬盘驱动器，其中至少具有 72 GB 的可用磁盘空间。
   
-如果你的服务器具有不同的处理器，则可以调整这些数字以匹配你的硬件。
+如果您的服务器具有不同的处理器，您可以调整数字以匹配您的硬件。
   

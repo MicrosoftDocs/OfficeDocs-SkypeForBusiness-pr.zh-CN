@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for business 服务器中规划高可用性和灾难恢复
+title: 在 Skype for Business Server 中规划高可用性和灾难恢复
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,42 +14,42 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
-description: Skype for Business 服务器提供高可用性：服务器池、具有池配对的灾难恢复以及后台服务器高可用性的几种模式，包括 AlwaysOn 可用性组、数据库镜像和 SQL 故障转移群集。
-ms.openlocfilehash: 521ddaa9878ba660e509f248d2f2ffb944608d87
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server 通过服务器池、通过池配对进行灾难恢复以及多种模式的后端服务器高可用性（包括 AlwaysOn 可用性组、数据库镜像和 SQL群集）提供高可用性。
+ms.openlocfilehash: 61b720bc9dce5bc8dc54a6c493429b0a3c9b27d2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815920"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802812"
 ---
-# <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>在 Skype for business 服务器中规划高可用性和灾难恢复
+# <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>在 Skype for Business Server 中规划高可用性和灾难恢复
  
-Skype for Business 服务器提供高可用性：服务器池、具有池配对的灾难恢复以及后台服务器高可用性的几种模式，包括 AlwaysOn 可用性组、数据库镜像和 SQL 故障转移群集。 
+Skype for Business Server 通过服务器池、通过池配对进行灾难恢复以及多种模式的后端服务器高可用性（包括 AlwaysOn 可用性组、数据库镜像和 SQL群集）提供高可用性。 
   
-高可用性指确保 Skype for business 服务器服务可用，即使一个或多个服务器出现故障。 Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible.
+高可用性是指确保 Skype for Business Server 服务可用，即使一台或多台服务器不可用。 灾难恢复是指在自然或人为灾难时使服务继续工作，并尽可能保留灾难之前尽可能多的数据。
   
-在 Lync Server 的早期版本中，Skype for Business 服务器中大多数服务器角色的主高可用性功能是通过池进行服务器冗余。 如果运行特定服务器角色的服务器发生故障，则池中运行相同角色的其他服务器将承担该服务器的负载。 这适用于前端服务器、边缘服务器、中介服务器和控制器。
+与早期版本的 Lync Server 一样，Skype for Business Server 中大多数服务器角色的主要高可用性功能是通过池实现服务器冗余。 如果运行特定服务器角色的服务器发生故障，那么池中运行同一角色的其他服务器将接纳该服务器的负荷。 这适用于前端服务器、边缘服务器、中介服务器和控制器。
   
-Skype for business 服务器还提供前端池的灾难恢复选项。 你可以在不同的地区设置两个池以相互充当备用池。 然后，如果你的整个池或站点出现故障，备用池可以继续为两个站点的用户提供服务。
+Skype for Business Server 还为前端池提供灾难恢复选项。 您可以在不同的地理区域设置两个池，以用作彼此的备份。 然后，如果整个池或站点关闭，备份池可以继续为两个站点的用户提供服务。
   
-Skype for Business 服务器还支持后端服务器的四种高可用性模式： SQL 镜像、AlwaysOn 可用性组、AlwaysOn 故障转移群集实例（FCI）和 SQL 故障转移群集。
+Skype for Business Server 还支持后端服务器的四种高可用性模式：SQL 镜像、AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集。
   
 > [!NOTE]
-> 在 Skype for Business Server 2015 中可以使用 SQL 镜像，但 Skype for Business Server 2019 不再支持该功能。 对于 Skype for Business Server 2019，首选 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法。
+> SQL镜像在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法是 Skype for Business Server 2019 的首选。
 
 > [!NOTE]
-> 永久聊天服务器不支持 AlwaysOn 可用性组。 
+> 持久聊天服务器不支持 AlwaysOn 可用性组。 
   
-本节对这些功能进行了说明，还介绍了为其他一些服务器角色实现高可用性和灾难恢复所需执行的步骤。 
+本节介绍这些功能，还介绍了您可以为某些其他服务器角色实现高可用性和灾难恢复所执行的步骤。 
   
 ## <a name="see-also"></a>另请参阅
 
 [前端池高可用性和管理](high-availability.md)
   
-[Skype for Business 服务器中的前端池灾难恢复](disaster-recovery.md)
+[Skype for Business Server 中的前端池灾难恢复](disaster-recovery.md)
   
-[Skype for Business 服务器的池故障期间的用户体验](user-experience.md)
+[Skype for Business Server 中的池故障期间用户体验](user-experience.md)
   
-[Skype for Business 服务器中的后端服务器高可用性](back-end-server.md)
+[Skype for Business Server 中的后端服务器高可用性](back-end-server.md)
   
-[Skype for Business 服务器中的文件共享高可用性](file-sharing.md)
+[Skype for Business Server 中的文件共享高可用性](file-sharing.md)

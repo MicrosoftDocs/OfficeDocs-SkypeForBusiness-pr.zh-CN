@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中规划边缘服务器部署
+title: 在 Skype for Business Server 中规划边缘服务器部署
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,50 +15,50 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
-description: 摘要：规划 Skype for business Server Edge 环境。 本主题向你介绍边缘概念，让你可以使用更深入的主题进行组织。
-ms.openlocfilehash: f19f00aab393ed94735f47f2e66ab0a2869d2d7a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：规划 Skype for Business Server 边缘环境。 本主题向你介绍 Edge 概念，并让你通过我们更深入的主题进行组织。
+ms.openlocfilehash: 277e344448f5229d15addf965695f19ec2884649
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803362"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813802"
 ---
-# <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>在 Skype for Business 服务器中规划边缘服务器部署
+# <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>在 Skype for Business Server 中规划边缘服务器部署
  
-**摘要：** 规划 Skype for business Server Edge 环境。 本主题向你介绍边缘概念，让你可以使用更深入的主题进行组织。
+**摘要：** 规划 Skype for Business Server 边缘环境。 本主题向你介绍 Edge 概念，并让你通过我们更深入的主题进行组织。
   
-如果您的 Skype for Business Server 环境在内部工作良好，则下一步可能是向环境引入边缘服务器或边缘池。 如果你希望 Skype for Business 服务器提供的服务由内部网络外部的用户使用，此角色将非常重要。 这些人可能包括：
+当你的 Skype for Business Server 环境在内部运行良好时，下一步可能是向该环境引入边缘服务器或边缘池。 如果希望 Skype for Business Server 提供的服务由内部网络外部的人员使用，此角色将非常重要。 这些可能包括：
   
-- 远程用户：临时或一直不在现场的员工。
+- 远程用户：临时或持续离开的员工。
     
-- 联盟用户：您的合作伙伴组织的员工。
+- 联盟用户：合作伙伴组织的员工。
     
 - 移动用户。
     
-- 你想邀请其加入会议和演示会的潜在客户、合作伙伴，甚至是匿名用户。
+- 要邀请参加会议和演示文稿的潜在客户、合作伙伴甚至匿名用户。
     
-外部用户访问，这是服务器提供的边缘，允许所有这些操作发生。 你的内部用户将能够享受 Skype for Business Server 部署托管的以下服务：
+外部用户访问（边缘服务器提供）允许进行所有这些操作。 内部用户将能够享受由 Skype for Business Server 部署托管的以下服务：
   
-- IM 和通信状态：获得授权的外部用户可加入 IM 对话和会议。 他们可获得其他用户的状态信息（这些用户也获得他们的状态）。 如果您使用的是公共 IM 提供商，则不能执行多方会议，这是完全对等通信。 但是支持 SIP 和 XMPP 两种协议。
+- 用于通信的 IM 和状态：授权的外部用户可以加入 IM 对话和会议。 他们可以获取其他用户状态信息 (获取其状态信息) 。 如果使用公共 IM 提供程序，则不能进行多方会议，这完全就是对等通信。 但支持 SIP 和 XMPP 协议。
     
-- 音频/视频（A/V）会议：授权外部用户可以参与 Skype for Business 服务器音频和视频会议。
+- A/V (音频/) 会议：授权外部用户可以参加 Skype for Business Server 音频和视频会议。
     
-- 网络会议：您授权的外部用户可以参与您的 Skype for Business 会议。 如果您愿意，也可以为远程用户、联盟用户和匿名用户启用参与。 公共 IM 用户不能参与会议。 此外还有让这些用户参与应用程序和桌面共享，甚至担任会议组织者或演示者的选项。
+- Web 会议：你的授权外部用户可以参加你的 Skype for Business 会议。 如果需要，您还可以允许远程用户、联盟用户和匿名用户参与。 公共 IM 用户不能参加会议。 还有一些选项允许这些用户参与应用程序和桌面共享，甚至充当会议组织者或演示者。
     
-由于企业语音，支持移动设备访问。 可以将外部用户邀请到你希望他们参加的那些会议，甚至是匿名用户（如果希望将权限授予他们）。
+支持移动设备访问，就像支持企业语音。 如果要向外部用户授予权限，可以邀请外部用户参加你希望他们参加的会议，甚至是匿名用户。
   
-如果这听上去符合你组织的需求，那么规划边缘环境对于部署该环境会有很大帮助。如需阅读更多资料，下面列出了有关主题。
+如果这看起来像是组织所需的内容，那么规划边缘环境对于部署边缘环境将大有帮助。 为了进一步阅读，我们在下面列出了主题。
 
 > [!NOTE]
-> XMPP 网关和代理在 Skype for business Server 2015 中可用，但 Skype for business Server 2019 不再支持。 有关详细信息，请参阅[迁移 XMPP 联合身份验证](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。 
+> XMPP 网关和代理在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 有关详细信息 [，请参阅"迁移 XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 联盟"。 
   
 ## <a name="planning-topics"></a>规划主题：
 
-规划文章有：
+规划文章包括：
   
-- [Skype for Business Server 2015 的边缘服务器系统要求](system-requirements.md)
+- [Skype for Business Server 2015 中的边缘服务器系统要求](system-requirements.md)
     
-- [Skype for Business Server 2015 的边缘服务器环境要求](edge-environmental-requirements.md)
+- [Skype for Business Server 2015 中的边缘服务器环境要求](edge-environmental-requirements.md)
     
 - [Skype for Business Server 2015 中的边缘服务器方案](scenarios.md)
     

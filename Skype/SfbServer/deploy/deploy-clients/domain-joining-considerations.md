@@ -1,7 +1,7 @@
 ---
 title: Skype 会议室系统域加入注意事项
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,39 +11,39 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
-description: 阅读本主题，了解如何将 Skype 会议室系统家用电脑加入你的域。
-ms.openlocfilehash: 49e8c89ed9ddbbd579e7ed30fec6b98a933e3a3f
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 阅读本主题，了解如何将 Skype 会议室系统设备电脑加入你的域。
+ms.openlocfilehash: 6d6decf689b1a38615851911b42676050a823e4d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768925"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805912"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype 会议室系统域加入注意事项
  
-阅读本主题，了解如何将 Skype 会议室系统家用电脑加入你的域。
+阅读本主题，了解如何将 Skype 会议室系统设备电脑加入你的域。
   
 ## <a name="domain-joining-considerations"></a>域加入注意事项
 
-您可以将 Skype 会议室系统设备电脑加入到 Active Directory 域或将其留在工作组中。 做此决定之前请考虑以下事项：
+你可以将 Skype 会议室系统设备电脑加入 Active Directory 域或将电脑留在工作组中。 在做出此决定之前，请考虑以下几点：
   
-- 域-加入 Skype 会议室系统设备电脑有助于自动导入组织的专用根证书链。
+- 加入 Skype 会议室系统设备电脑的域有助于自动导入组织的专用根证书链。
     
-- 域-加入 Skype 会议室系统设备电脑使您能够授予域用户和组管理权限。 这样做，你不必记住本地计算机级别的管理员帐户密码。
+- 通过加入 Skype 会议室系统设备电脑，可以授予域用户和组管理权限。 这样，您就不需要记住本地计算机级别的管理员帐户密码。
     
-- 当你将 Skype 会议室系统设备电脑加入域时，需要创建单独的组织单元（OU），以便你可以为所有 Skype 会议室系统计算机对象所在的 OU 提供组策略对象（GPO）排除项。 执行此操作时，先在 OU 中创建计算机对象，然后再将 Skype 会议室系统设备电脑加入域。
+- 将 Skype 会议室系统设备电脑加入域时，需要创建单独的组织单位 (OU) ，以便你可以在所有 Skype 会议室系统计算机对象所在的 OU 中提供组策略对象 (GPO) 排除项。 当你这样做时，在 OU 中创建计算机对象，然后再将 Skype 会议室系统设备电脑加入域。
     
-- 许多组织拥有以下 Gpo，这些 Gpo 会影响 Skype 会议室系统设备电脑功能。 确保在 Skype 会议室系统 OU 中覆盖或阻止这些 Gpo 的继承： 
+- 许多组织都有以下 GPO，这会影响 Skype 会议室系统设备电脑的功能。 确保在 Skype 会议室系统 OU 中覆盖或阻止这些 GPO 的继承： 
     
-  - 登录会话的超时（自动锁定）
+  - 登录会话超时 (自动锁定) 
     
-  - 电源管理相关的策略
+  - 与电源管理相关的策略
     
-  - 需要附加身份验证步骤
+  - 需要其他身份验证步骤
     
   - 拒绝访问本地驱动器
     
-  - 提示用户网络连接较慢
+  - 提示用户网络连接缓慢
     
   - 登录时启动特定程序
     
@@ -51,9 +51,9 @@ ms.locfileid: "41768925"
     
   - 将 Windows 更新推送到 Skype 会议室系统
     
-- 或者，你可能决定将家用电脑留在工作组中。 与桌面版 Skype for Business 客户端一样，这要求你手动导入 Skype 会议室 System 设备电脑上的根证书链。 如果您的 Skype for Business 部署使用公共证书（例如，Entrust、VeriSign 等），则无需导入根证书链。 
+- 或者，你可能会决定将设备电脑留在工作组中。 与桌面 Skype for Business 客户端一样，这需要你在 Skype 会议室系统设备电脑上手动导入根证书链。 如果你的 Skype for Business 部署使用公共证书（例如， (、VeriSign 等）) ，则无需导入根证书链。 
     
-如果你计划将 Skype 会议室系统计算机加入到域，以避免将 Skype 会议室系统计算机从无意中加入非有意的 OU （这可能并非来自 Gpo），请确保加入正确的 OU。 你可以使用 Skype 会议室系统计算机中的以下 cmdlet 加入正确的 OU，并且不会收到可能会阻止 LRS 功能的 Gpo。 请联系你的系统管理员或 OEM 合作伙伴以运行这些 cmdlet：
+如果你计划将 Skype 会议室系统计算机加入域，以避免无意中将 Skype 会议室系统计算机加入意外的 OU（可能无法从 GPO 中释放）中，请确保你加入正确的 OU。 你可以从 Skype 会议室系统计算机使用以下 cmdlet 加入正确的 OU，并且不会收到可能会阻止 LRS 功能的 GPO。 请与系统管理员或 OEM 合作伙伴联系以运行以下 cmdlet：
   
 ```powershell
 $username = "contso.local\LRS01"
@@ -62,9 +62,9 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-即使你创建单独的 OU 并阻止集成，但是有些策略可能会在较高级别引起问题。 具有“禁止替代”设置的组策略会打败具有“阻止策略继承”设置的 OU。 有关详细信息，请参阅有关组策略文档中的 "[阻止策略继承](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10))" 的文章没有替代。
+即使您创建单独的 OU 并阻止继承，某些策略也可能导致较高级别的问题。 具有"无替代"设置的组策略会通过阻止策略继承设置来阻止 OU。 有关详细信息，请参阅组策略文档中的文章 [No Override as Compared to Block](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) Policy Inheritance。
   
-你可能有多种方法来解决这些问题。 我们建议你咨询 Active Directory 专家来确保为你提供的 OU 具有合适的 GPO 设置或者至少其中不存在上面所述的策略。 建议为 Skype 会议室系统设备启用服务质量（QoS）。
+你可能有多种方法来解决这些问题。 我们建议您咨询 Active Directory 专家，以确保为您提供具有相应 GPO 设置的 OU，或至少为您提供了不存在上述策略的 OU。 建议为 Skype 会议室系统设备 (QoS) 服务质量。
 
 ## <a name="see-also"></a>另请参阅
   

@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 2015 中的 CDR 表格详细信息
+title: Skype for Business Server 2015 中的 CDR 表详细信息
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
-description: 以下主题详细介绍每个 "呼叫详细记录" （CDR）数据库架构表中的列。
-ms.openlocfilehash: e10140e9c64c96935019a522991d699ae5265e79
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 以下主题详细介绍了每个呼叫详细记录 (CDR) 数据库架构表中的列。
+ms.openlocfilehash: 5b271d336cfe5dd17a83cf318debf7eb2675d344
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815420"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813372"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 CDR 表格详细信息
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 CDR 表详细信息
  
-以下主题详细介绍每个 "呼叫详细记录" （CDR）数据库架构表中的列。
+以下主题详细介绍了每个呼叫详细记录 (CDR) 数据库架构表中的列。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [Skype for Business Server 2015 中的应用程序表](application.md)
+- [Skype for Business Server 2015 中的 Application 表](application.md)
     
 - [Skype for Business Server 2015 中的 CallPriorities 表](callpriorities.md)
     
@@ -38,7 +38,7 @@ ms.locfileid: "41815420"
     
 - [Skype for Business Server 2015 中的 ConferenceMessageCount 表](conferencemessagecount.md)
     
-- [Skype for Business Server 2015 中的 "会议" 表](conferences.md)
+- [Skype for Business Server 2015 中的 Conferences 表](conferences.md)
     
 - [Skype for Business Server 2015 中的 ConferenceSessionDetails 表](conferencesessiondetails-0.md)
     
@@ -48,9 +48,9 @@ ms.locfileid: "41815420"
     
 - [Skype for Business Server 2015 中的 DeRegisterType 表](deregistertype.md)
     
-- [Skype for Business Server 2015 中的 "设备" 表](devices.md)
+- [Skype for Business Server 2015 中的 Devices 表](devices.md)
     
-- [Skype for Business Server 2015 中的对话框表](dialogs.md)
+- [Skype for Business Server 2015 中的 Dialogs 表](dialogs.md)
     
 - [Skype for Business Server 2015 中的 EdgeServers 表](edgeservers.md)
     
@@ -64,17 +64,17 @@ ms.locfileid: "41815420"
     
 - [Skype for Business Server 2015 中的 FocusJoinsAndLeaves 表](focusjoinsandleaves.md)
     
-- [Skype for Business Server 2015 中的前端表](frontend.md)
+- [Skype for Business Server 2015 中的 FrontEnd 表](frontend.md)
     
-- [Skype for Business Server 2015 中的网关表](gateways.md)
+- [Skype for Business Server 2015 中的 Gateways 表](gateways.md)
     
 - [Skype for Business Server 2015 中的 HardwareVersions 表](hardwareversions.md)
     
 - [Skype for Business Server 2015 中的 IMReportSummary 表](imreportsummary.md)
     
-- [Skype for Business Server 2015 中的 "位置" 表](locations.md)
+- [Skype for Business Server 2015 中的位置表](locations.md)
     
-- [Skype for Business Server 2015 中的制造商表](manufacturers.md)
+- [Skype for Business Server 2015 中的 Manufacturers 表](manufacturers.md)
     
 - [Skype for Business Server 2015 中的 McuJoinsAndLeaves 表](mcujoinsandleaves.md)
     
@@ -96,7 +96,7 @@ ms.locfileid: "41815420"
     
 - [PurgeSettings 表](purgesettings.md)
     
-- [Registration 表](registration.md)
+- [注册表](registration.md)
     
 - [Roles 表](roles.md)
     

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 中按类分类的架构属性
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-description: 此部分列出了可包含在每个 Skype for Business 服务器类中的架构属性和可包含在其他类中的类。 有关所有类及其说明的列表，请参阅 Skype for Business 服务器中的架构类和说明。 有关所有属性及其说明的列表，请参阅 Skype for Business 服务器中的架构属性和说明。
-ms.openlocfilehash: 93598f1cc54ec76ccc59649ec97fd7ac57cd39f6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 本部分列出了可包含在每个 Skype for Business Server 类中的架构属性以及可包含在其他类中的类。 有关所有类及其说明的列表，请参阅 Skype for Business Server 中的架构类和说明。 有关所有属性及其说明的列表，请参阅 Skype for Business Server 中的架构属性和说明。
+ms.openlocfilehash: 00f524fce7e786c9d30c9442eb964c5356db5e16
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815490"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813582"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Skype for Business Server 中按类分类的架构属性
  
-此部分列出了可包含在每个 Skype for Business 服务器类中的架构属性和可包含在其他类中的类。 有关所有类及其说明的列表，请参阅[Skype For Business 服务器中的架构类和说明](schema-classes-and-descriptions.md)。 有关所有属性及其说明的列表，请参阅[Skype For Business 服务器中的架构属性和说明](schema-attributes-and-descriptions.md)。
+本部分列出了可包含在每个 Skype for Business Server 类中的架构属性以及可包含在其他类中的类。 有关所有类及其说明的列表，请参阅 Skype for Business Server 中的架构类 [和说明](schema-classes-and-descriptions.md)。 有关所有属性及其说明的列表，请参阅 Skype for Business Server 中的架构属性 [和说明](schema-attributes-and-descriptions.md)。
   
-## <a name="attributes-by-class"></a>按类分类的属性
+## <a name="attributes-by-class"></a>按类分组的属性
 
-|**种类**|**可能包含这些属性**|
+|**Class**|**可包含以下属性**|
 |:-----|:-----|
-|联系人  <br/> |SourceObjectDN  <br/> msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationDestination  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ApplicationPrimaryLanguage  <br/> msRTCSIP-ApplicationSecondaryLanguages  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-行  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-ProxyAddresses  <br/> msRTCSIP-SourceObjectType  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
-|邮件-收件人  <br/> |msExchUCVoiceMailSettings  <br/> msExchUserHoldPolicies  <br/> |
+|Contact  <br/> |msDS-SourceObjectDN  <br/> msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationDestination  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ApplicationPrimaryLanguage  <br/> msRTCSIP-ApplicationSecondaryLanguages  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-ProxyAddresses  <br/> msRTCSIP-SourceObjectType  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|Mail-Recipient  <br/> |msExchUCVoiceMailSettings  <br/> msExchUserHoldPolicies  <br/> |
 |msRTCSIP-ApplicationServerService  <br/> |msRTCSIP-ApplicationServerBL  <br/> |
 |msRTCSIP-ApplicationServerSettings  <br/> |msRTCSIP-ApplicationList  <br/> msRTCSIP-ApplicationServerPoolLink  <br/> msRTCSIP-ExtensionData  <br/> msRTCSIP-ServerVersion  <br/> |
 |msRTCSIP-ConferenceDirectory  <br/> |msRTCSIP-ConferenceDirectoryHomePool  <br/> msRTCSIP-ConferenceDirectoryId  <br/> msRTCSIP-ConferenceDirectoryTargetPool  <br/> msRTCSIP-ExtensionData  <br/> |
 |msRTCSIP-DefaultCWABank  <br/> |msRTCSIP-DefaultCWAExternalURL  <br/> msRTCSIP-DefaultCWAInternalURL  <br/> |
-|msRTCSIP-域  <br/> |msRTCSIP-默认值  <br/> msRTCSIP-DomainData  <br/> msRTCSIP-域名  <br/> |
+|msRTCSIP-Domain  <br/> |msRTCSIP-Default  <br/> msRTCSIP-DomainData  <br/> msRTCSIP-DomainName  <br/> |
 |msRTCSIP-EdgeProxy  <br/> |msRTCSIP-EdgeProxyData  <br/> msRTCSIP-EdgeProxyFQDN  <br/> |
 |msRTCSIP-EnterpriseMCUSettings  <br/> |msRTCSIP-MCUData  <br/> msRTCSIP-MCUFactoryAddress  <br/> msRTCSIP-ServerVersion  <br/> |
 |msRTCSIP-EnterpriseMediationServerSettings  <br/> |msRTCSIP-ExtensionData  <br/> msRTCSIP-ServerVersion  <br/> msRTCSIP-TrustedServiceLinks  <br/> |
@@ -45,28 +45,28 @@ ms.locfileid: "41815490"
 |msRTCSIP-LocationProfile  <br/> |msRTCSIP-ExternalAccessCode  <br/> msRTCSIP-LocationProfileOptions  <br/> |
 |msRTCSIP-MCUFactory  <br/> |msRTCSIP-MCUFactoryData  <br/> msRTCSIP-MCUFactoryProviderID  <br/> msRTCSIP-MCUServers  <br/> msRTCSIP-MCUType  <br/> msRTCSIP-MCUVendor  <br/> msRTCSIP-PoolAddresses  <br/> msRTCSIP-ServerVersion  <br/> |
 |msRTCSIP-MCUFactoryService  <br/> |msRTCSIP-MCUFactoryPath  <br/> |
-|msRTCSIP-移动性  <br/> |msRTCSIP-MobilityFlags  <br/> msRTCSIP-MobilityPolicy  <br/> |
+|msRTCSIP-Mobility  <br/> |msRTCSIP-MobilityFlags  <br/> msRTCSIP-MobilityPolicy  <br/> |
 |msRTCSIP-MonitoringServer  <br/> |dnsHostName  <br/> msRTCSIP-ExtensionData  <br/> msRTCSIP-ServerVersion  <br/> |
 |msRTCSIP-Pool  <br/> |msRTCSIP-ApplicationList  <br/> msRTCSIP-BackEndServer  <br/> msRTCSIP-dnsHostName  <br/> msRTCSIP-PoolData  <br/> msRTCSIP-PoolDisplayName  <br/> msRTCSIP-PoolDomainFQDN  <br/> msRTCSIP-PoolFunctionality  <br/> msRTCSIP-PoolType  <br/> msRTCSIP-PoolVersion  <br/> msRTCSIP-TrustedServiceLinks  <br/> |
 |msRTCSIP-PoolService  <br/> |msRTCSIP-FrontEndServers  <br/> |
-|msRTCSIP-状态  <br/> |msRTCSIP-PresenceFlags  <br/> msRTCSIP-PresencePolicy  <br/> |
+|msRTCSIP-Presence  <br/> |msRTCSIP-PresenceFlags  <br/> msRTCSIP-PresencePolicy  <br/> |
 |msRTCSIP-TrustedMCU  <br/> |msRTCSIP-MCUType  <br/> msRTCSIP-MCUVendor  <br/> msRTCSIP-RoutingPoolDN  <br/> msRTCSIP-TrustedMCUData  <br/> msRTCSIP-TrustedMCUFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
 |msRTCSIP-TrustedProxy  <br/> |msRTCSIP-TrustedProxyData  <br/> msRTCSIP-TrustedProxyFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
 |msRTCSIP-TrustedServer  <br/> |msRTCSIP-TrustedServerData  <br/> msRTCSIP-TrustedServerFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
-|msRTCSIP-TrustedService  <br/> |msRTCSIP-ExtensionData  <br/> msRTCSIP-可路由  <br/> msRTCSIP-RoutingPoolDN  <br/> msRTCSIP-ServerBL  <br/> msRTCSIP-TrustedServerFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> msRTCSIP-TrustedServiceFlags  <br/> msRTCSIP-TrustedServicePort  <br/> msRTCSIP-TrustedServiceType  <br/> |
+|msRTCSIP-TrustedService  <br/> |msRTCSIP-ExtensionData  <br/> msRTCSIP-Routable  <br/> msRTCSIP-RoutingPoolDN  <br/> msRTCSIP-ServerBL  <br/> msRTCSIP-TrustedServerFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> msRTCSIP-TrustedServiceFlags  <br/> msRTCSIP-TrustedServicePort  <br/> msRTCSIP-TrustedServiceType  <br/> |
 |msRTCSIP-TrustedWebComponentsServer  <br/> |msRTCSIP-TrustedWebComponentsServerData  <br/> msRTCSIP-TrustedWebComponentsServerFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
 |msRTCSIP-WebComponentsService  <br/> |msRTCSIP-WebComponentsServers  <br/> |
 |msRTCSIP-WebComponentSettings  <br/> |msRTCSIP-WebComponentsData  <br/> msRTCSIP-WebComponentsPoolAddress  <br/> msRTCSIP-ServerVersion  <br/> |
-|用户  <br/> |msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-行  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|用户  <br/> |msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
    
 ### <a name="classes-contained-in-other-classes"></a>包含在其他类中的类
 
-|**种类**|**可能包含此类**|
+|**Class**|**可包含以下类**|
 |:-----|:-----|
-|serviceConnectionPoint  <br/> |msRTCSIP-服务器  <br/> msRTCSIP-PoolService  <br/> msRTCSIP-MCU  <br/> msRTCSIP-MCUFactoryService  <br/> msRTCSIP-WebComponents  <br/> msRTCSIP-WebComponentsService  <br/> msRTCSIP-ApplicationServerService  <br/> msRTCSIP-服务  <br/> msRTCSIP-ConnectionPoint  <br/> msRTCSIP-MediationServer  <br/> msRTCSIP-ApplicationServer  <br/> |
-|msRTCSIP-服务  <br/> |msRTCSIP-GlobalContainer  <br/> msRTCSIP-池  <br/> msRTCSIP-MCUFactories  <br/> msRTCSIP-TrustedMCUs  <br/> msRTCSIP-TrustedWebComponentsServers  <br/> msRTCSIP-TrustedProxies  <br/> msRTCSIP-TrustedServices  <br/> msRTCSIP-ApplicationContacts  <br/> msRTCSIP-LocationContactMappings  <br/> msRTCSIP-ConferenceDirectories  <br/> msRTCSIP-GlobalTopologySettings  <br/> |
-|msRTCSIP-GlobalContainer  <br/> |msRTCSIP-域  <br/> msRTCSIP-TrustedServer  <br/> msRTCSIP-EdgeProxy  <br/> msRTCSIP-MonitoringServer  <br/> |
-|msRTCSIP-池  <br/> |msRTCSIP-Pool  <br/> |
+|serviceConnectionPoint  <br/> |msRTCSIP-Server  <br/> msRTCSIP-PoolService  <br/> msRTCSIP-MCU  <br/> msRTCSIP-MCUFactoryService  <br/> msRTCSIP-WebComponents  <br/> msRTCSIP-WebComponentsService  <br/> msRTCSIP-ApplicationServerService  <br/> msRTCSIP-Service  <br/> msRTCSIP-ConnectionPoint  <br/> msRTCSIP-MediationServer  <br/> msRTCSIP-ApplicationServer  <br/> |
+|msRTCSIP-Service  <br/> |msRTCSIP-GlobalContainer  <br/> msRTCSIP-Pools  <br/> msRTCSIP-MCUFactories  <br/> msRTCSIP-TrustedMCUs  <br/> msRTCSIP-TrustedWebComponentsServers  <br/> msRTCSIP-TrustedProxies  <br/> msRTCSIP-TrustedServices  <br/> msRTCSIP-ApplicationContacts  <br/> msRTCSIP-LocationContactMappings  <br/> msRTCSIP-ConferenceDirectories  <br/> msRTCSIP-GlobalTopologySettings  <br/> |
+|msRTCSIP-GlobalContainer  <br/> |msRTCSIP-Domain  <br/> msRTCSIP-TrustedServer  <br/> msRTCSIP-EdgeProxy  <br/> msRTCSIP-MonitoringServer  <br/> |
+|msRTCSIP-Pools  <br/> |msRTCSIP-Pool  <br/> |
 |msRTCSIP-MCUFactories  <br/> |msRTCSIP-MCUFactory  <br/> |
 |msRTCSIP-TrustedMCUs  <br/> |msRTCSIP-TrustedMCU  <br/> |
 |msRTCSIP-TrustedWebComponentsServers  <br/> |msRTCSIP-TrustedWebComponentsServer  <br/> |
