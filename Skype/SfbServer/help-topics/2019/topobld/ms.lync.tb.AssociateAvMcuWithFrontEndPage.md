@@ -1,8 +1,8 @@
 ---
 title: 将 AV MCU 与前端关联
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a436e41-c902-4968-8d6e-8e7c0adf9f40
 ROBOTS: NOINDEX, NOFOLLOW
-description: 所有启用了会议的企业版前端池必须具有 A/V 会议服务 collocated，或者必须使用独立的 A/V 会议池。 任何当前具有 A/V 会议服务 collocated 的现有企业版前端池都可能被选中以使用此新的独立 A/V 会议池。
-ms.openlocfilehash: 9929144727fa014866c20f34021cfb06d7766b6a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 所有启用会议的 Enterprise Edition 前端池都必须具有并置的 A/V 会议服务或使用独立的 A/V 会议池。可以选择当前具有并置的 A/V 会议服务的任何现有 Enterprise Edition 前端池以改用新的独立 A/V 会议池。
+ms.openlocfilehash: 3fe02d171b65472c0dee3fc8e6368638d9e77e35
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794040"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811482"
 ---
-# <a name="associate-av-mcu-with-front-end"></a><span data-ttu-id="1fdcf-104">将 AV MCU 与前端关联</span><span class="sxs-lookup"><span data-stu-id="1fdcf-104">Associate AV MCU With Front End</span></span>
+# <a name="associate-av-mcu-with-front-end"></a><span data-ttu-id="ef27f-104">将 AV MCU 与前端关联</span><span class="sxs-lookup"><span data-stu-id="ef27f-104">Associate AV MCU With Front End</span></span>
  
-<span data-ttu-id="1fdcf-105">所有启用了会议的企业版前端池必须具有 A/V 会议服务 collocated，或者必须使用独立的 A/V 会议池。</span><span class="sxs-lookup"><span data-stu-id="1fdcf-105">All Enterprise Edition Front End pools with Conferencing enabled must have an A/V Conferencing service collocated, or must use a stand-alone A/V Conferencing pool.</span></span> <span data-ttu-id="1fdcf-106">任何当前具有 A/V 会议服务 collocated 的现有企业版前端池都可能被选中以使用此新的独立 A/V 会议池。</span><span class="sxs-lookup"><span data-stu-id="1fdcf-106">Any existing Enterprise Edition Front End pools that currently have an A/V Conferencing service collocated may be selected to use this new stand-alone A/V Conferencing pool instead.</span></span>
+<span data-ttu-id="ef27f-p102">所有启用会议的 Enterprise Edition 前端池都必须具有并置的 A/V 会议服务或使用独立的 A/V 会议池。可以选择当前具有并置的 A/V 会议服务的任何现有 Enterprise Edition 前端池以改用新的独立 A/V 会议池。</span><span class="sxs-lookup"><span data-stu-id="ef27f-p102">All Enterprise Edition Front End pools with Conferencing enabled must have an A/V Conferencing service collocated, or must use a stand-alone A/V Conferencing pool. Any existing Enterprise Edition Front End pools that currently have an A/V Conferencing service collocated may be selected to use this new stand-alone A/V Conferencing pool instead.</span></span>
   
 

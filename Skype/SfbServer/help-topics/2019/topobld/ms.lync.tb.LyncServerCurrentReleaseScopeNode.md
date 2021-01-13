@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2013 创建新的扩展器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
-description: 你可以在拓扑生成器的 Lync Server 2013 节点中创建新的服务器角色，方法是右键单击 Lync Server 2013，选择 "新建"，然后选择要创建的服务器角色。
-ms.openlocfilehash: 67a8416e02f98fc396237c3601b2208a2557396b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 可以通过右键单击 Lync Server 2013，选择"新建"，然后选择要创建的服务器角色，在拓扑生成器的 Lync Server 2013 节点中创建新的服务器角色。
+ms.openlocfilehash: 851c457598f1abf21e19f6c391ce85164991d84b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796261"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811122"
 ---
-# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="19cff-103">Skype for Business 服务器创建新的展开器</span><span class="sxs-lookup"><span data-stu-id="19cff-103">Skype for Business Server Create New Expander</span></span>
+# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="f17fa-103">Skype for Business Server 创建新的扩展器</span><span class="sxs-lookup"><span data-stu-id="f17fa-103">Skype for Business Server Create New Expander</span></span>
  
-<span data-ttu-id="19cff-104">通过右键单击 " **Skype For Business 服务器**"，选择 "**新建**"，然后选择要创建的服务器角色，可以在拓扑生成器中创建新的服务器角色。</span><span class="sxs-lookup"><span data-stu-id="19cff-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
+<span data-ttu-id="f17fa-104">可以通过右键单击 **Skype for Business Server、** 选择"新建"并选择要创建的服务器角色，在拓扑生成器中创建新的服务器角色。</span><span class="sxs-lookup"><span data-stu-id="f17fa-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
   
 
