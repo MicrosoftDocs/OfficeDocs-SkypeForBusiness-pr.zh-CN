@@ -1,8 +1,8 @@
 ---
-title: 可选在 Skype for Business 中定义响应组工作时间
+title: " (Skype for Business) 定义响应组工作时间的可选选项"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: 在 Skype for Business Server 企业版中，创建或修改响应组工作时间。
-ms.openlocfilehash: f6a7d6bb8154d3113282a603ab39b45cf92d5556
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在 Skype for Business Server 服务中创建或修改响应组企业语音。
+ms.openlocfilehash: dcd2f7174a75eb68ef8d35759a1e454ede976bde
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767295"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830992"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>可选在 Skype for Business 中定义响应组工作时间 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a> (Skype for Business) 定义响应组工作时间的可选选项 
  
-在 Skype for Business Server 企业版中，创建或修改响应组工作时间。
+在 Skype for Business Server 服务中创建或修改响应组企业语音。
   
 ## <a name="defining-business-hours"></a>定义工作时间
 
 工作时间设置定义工作流何时可以应答呼叫并指定对非工作时间的呼叫所采取的操作。 响应组管理员可以使用 **New-CsRgsHoursOfBusiness** cmdlet 来创建可用于任意数目的响应组的预定义日程表。
   
 > [!TIP]
-> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息，请参阅[在 Skype For business 中设计和创建响应组工作流](designing-and-creating-response-group-workflows.md)。 
+> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息，请参阅在 Skype for Business 中 [设计和创建响应组工作流](designing-and-creating-response-group-workflows.md)。 
   
 > [!NOTE]
 > 如果已将某个工作流定义为托管工作流，则被分配 CsResponseGroupManager 角色的任何用户均可设置和修改其管理的工作流的工作时间。 
@@ -39,9 +39,9 @@ ms.locfileid: "41767295"
   
 ### <a name="to-create-a-predefined-business-hours-collection"></a>创建预定义工作时间集合
 
-1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 3. 对于要定义的每个唯一时间范围，请运行：
     
@@ -66,6 +66,6 @@ ms.locfileid: "41767295"
 
 ## <a name="see-also"></a>另请参阅
 
-[新-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[新-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

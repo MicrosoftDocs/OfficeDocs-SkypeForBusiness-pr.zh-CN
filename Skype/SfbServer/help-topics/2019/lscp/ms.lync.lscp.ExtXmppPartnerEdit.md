@@ -1,8 +1,8 @@
 ---
-title: XMPP 联盟合作伙伴新建或编辑现有
+title: XMPP 联盟伙伴创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 2ca59a2c8815dad8b4f5e55b37b4f4b8a38b1b53
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 要执行什么操作？ 单击要执行的任务的链接。
+ms.openlocfilehash: 8bb7e7cd0b9273d4c6635444eea75af6b791cdc2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797653"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833712"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP 联盟伙伴：创建新的或编辑现有的
 
 > [!NOTE]
-> XMPP 网关和代理在 Skype for business Server 2015 中可用，但 Skype for business Server 2019 不再支持。 有关详细信息，请参阅[迁移 XMPP 联合身份验证](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)。
+> XMPP 网关和代理在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 有关详细信息 [，请参阅"迁移 XMPP](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) 联盟"。
 
-您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+要执行什么操作？ 单击要执行的任务的链接。
 
 - [创建或编辑 XMPP 合作伙伴配置](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
 
-- [XMPP 联盟合作伙伴的协商设置表](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
+- [XMPP 联盟伙伴的协商设置表](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
 

@@ -1,8 +1,8 @@
 ---
-title: 管理 Skype for Business 中的应用程序级响应组设置
+title: 在 Skype for Business 中管理应用程序级响应组设置
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: 在 Skype for Business Server 企业版中管理应用程序级别的响应组设置，如 "音乐暂停" 和 "ringback 设置"。
-ms.openlocfilehash: 99a3d6bc82cffd39608d2da0be013d4fbb8389e8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在 Skype for Business Server 企业语音 中管理应用程序级响应组设置，如保持音乐设置和回企业语音。
+ms.openlocfilehash: d41211b83e5ce0c27bb9efe1d3d15a6289ae38fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767105"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830782"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>管理 Skype for Business 中的应用程序级响应组设置
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>在 Skype for Business 中管理应用程序级响应组设置
  
-在 Skype for Business Server 企业版中管理应用程序级别的响应组设置，如 "音乐暂停" 和 "ringback 设置"。
+在 Skype for Business Server 企业语音 中管理应用程序级响应组设置，如保持音乐设置和回企业语音。
   
-响应组应用程序的应用程序级别设置包括默认的 "保留音乐" 配置、默认的 "保留音乐" 音频文件、代理 ringback 宽限期和 "呼叫上下文配置"。 你只能针对每个池定义一组应用程序级别设置。 若要查看应用程序级别设置，请使用 **Get-CsRgsConfiguration** cmdlet。 若要修改应用程序级别设置，请使用 **Set-CsRgsConfiguration** cmdlet。
+响应组应用程序的应用程序级别设置包括默认的保持音乐配置、默认的保持音乐音频文件、代理回响宽限期和呼叫上下文配置。 您只能针对每个池定义一组应用程序级别设置。 要查看应用程序级别设置，请使用 **Get-CsRgsConfiguration** cmdlet。 要修改应用程序级别设置，请使用 **Set-CsRgsConfiguration** cmdlet。
   
 只有未定义任何自定义保持音乐时，才会在呼叫处于呼叫等待状态时播放默认保持音乐。呼叫上下文仅适用于分配给互动工作流的队列。如果启用呼叫上下文，则代理可以在收到呼叫时查看呼叫者等待时间或工作流问题和解答等信息。
   
-### <a name="to-modify-response-group-application-level-settings"></a>修改响应组应用程序级别设置
+### <a name="to-modify-response-group-application-level-settings"></a>修改响应组应用程序级设置
 
-1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 3. 在命令行中运行：
     
@@ -58,7 +58,7 @@ ms.locfileid: "41767105"
 
 ## <a name="see-also"></a>另请参阅
 
-[CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
+[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
 [Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   

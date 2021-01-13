@@ -1,13 +1,13 @@
 ---
-title: 用于测试直接路由会话边框控制器连接的 PowerShell 脚本
-author: LanaChin
-ms.author: v-lanac
+title: 用于测试直接路由会话边界控制器连接的 PowerShell 脚本
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本示例测试 Microsoft 团队中的直接路由会话边界控制器连接。
+description: 使用此 PowerShell 脚本示例在 Microsoft Teams 中测试直接路由会话边界控制器连接。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,29 +16,29 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d1514eff811461ac8b6ad73f7c2a215205f4e3
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c52febae3d734af49d1b23c7c65ceb0c2f746f7a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951257"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834272"
 ---
-# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>用于测试直接路由会话边框控制器连接的 PowerShell 脚本
+# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>用于测试直接路由会话边界控制器连接的 PowerShell 脚本
 
-SIP 测试客户端是一个示例 PowerShell 脚本，可用于测试 Microsoft 团队中的直接路由会话边界控制器（SBC）连接。 此脚本通过直接路由测试客户配对的会话初始协议（SIP）干线的基本功能。
+SIP 测试器客户端是一个示例 PowerShell 脚本，可用于测试 Microsoft Teams 中的直接路由会话边界 (SBC) 连接。 此脚本使用直接路由测试客户配对会话启动协议 (SIP) 的基本功能。
 
-该脚本将 SIP 测试提交给测试运行程序，等待结果，然后以可读的格式呈现。 你可以使用此脚本测试以下方案：
+该脚本将 SIP 测试提交到测试运行程序，等待结果，然后以人工可读的格式显示它。 可以使用此脚本测试以下方案：
 
 - 出站和入站呼叫
-- 同时拨打
+- 同时响铃
 - 媒体升级
-- 顾问式转移
+- 咨询转接
 
 ## <a name="download-the-script-and-documentation"></a>下载脚本和文档
 
-下载[SIP 测试器客户端脚本和文档](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)。
+下载 [SIP Tester 客户端脚本和文档](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)。
 
   > [!NOTE]
-  > SIP 测试客户端脚本仅支持 adal.ps 版本3.19.8.1。 如果使用 adal.ps 的更高版本，则会返回错误。
+  > SIP 测试器客户端脚本仅adal.ps 3.19.8.1 版。 如果使用更高版本的更高版本的 adal.ps将返回错误。
   
   

@@ -1,8 +1,8 @@
 ---
-title: 可选在 Skype for Business 中定义响应组假日集
+title: " (Skype for Business) 定义响应组假日集的可选选项"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: 在 Skype for Business Server 企业版中创建或修改响应组假日集。
-ms.openlocfilehash: 5d38814a8e4e9e50634b6d63b1db4c8230c496ea
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在 Skype for Business Server 企业语音 创建或修改响应组假日企业语音。
+ms.openlocfilehash: dd3144c687329f82542d5b658c47212dd390c9fb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767315"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830982"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>可选在 Skype for Business 中定义响应组假日集
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (Skype for Business) 定义响应组假日集的可选选项
  
-在 Skype for Business Server 企业版中创建或修改响应组假日集。
+在 Skype for Business Server 企业语音 创建或修改响应组假日企业语音。
   
 假日设置定义响应组停止办公的日期并指定在这些日期采取的操作。假日集是指适用于响应组的假日的集合。
   
@@ -31,9 +31,9 @@ ms.locfileid: "41767315"
   
 ### <a name="to-create-a-holiday-set"></a>创建假日集
 
-1. 以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 3. 对于要定义的每个假日，请运行：
     
@@ -59,6 +59,6 @@ ms.locfileid: "41767315"
 
 [在 Skype for Business 中设计和创建响应组工作流](designing-and-creating-response-group-workflows.md)
 
-[新-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
 [New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

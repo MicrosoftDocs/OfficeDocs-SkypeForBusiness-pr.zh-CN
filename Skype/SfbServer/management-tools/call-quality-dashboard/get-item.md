@@ -1,8 +1,8 @@
 ---
 title: 获取项目
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,41 +12,41 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
-description: 摘要：了解 "获取项目" 操作，该操作是项目服务的一部分。 项目服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: 295276e6f3b0f577dae9a43c4c0f62e23b8582f4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解作为项目服务的一部分的 Get Item 操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+ms.openlocfilehash: 896540c4572fb3991356ce055f01690ed702c6f2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816791"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832562"
 ---
 # <a name="get-item"></a>获取项目
  
-**摘要：** 了解 "获取项目" 操作，该操作是项目服务的一部分。 项目服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
+**摘要：** 了解作为项目服务的一部分的 Get Item 操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
   
-获取项目操作是 "知识库 API for 通话质量" 仪表板中的项目服务的一部分。
+Get Item 操作是呼叫质量仪表板的存储库 API 中的项目服务的一部分。
   
 ## <a name="get-item"></a>获取项目
 
-获取项目返回存储库中的特定项目。
+Get Item 返回存储库中的特定项。
   
-|**种**|**请求 URI**|**HTTP 版本**|
+|**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|获取  <br/> |https://\<portal\>/QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1。1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
- **URI 参数**-无。
+ **URI 参数** - 无。
   
- **请求标题**-无其他标题。
+ **请求标头** - 无其他标头。
   
- **请求正文**-无。
+ **请求正文** - 无。
   
- **响应**-响应包括 HTTP 状态代码和一组响应标头。
+ **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码**-成功的操作返回状态代码200（OK）。 如果找不到指定的项目 ID，则会返回状态代码404（未找到）。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。 如果找不到指定的项目 ID，则返回状态代码 404 (未找到) 。
   
- **响应标题**-无其他标题。
+ **响应标头** - 无其他标头。
   
- **响应正文**-下面是 JSON 中的示例响应负载。
+ **响应正文** - 下面是 JSON 中的示例响应负载。
   
 ```json
 {
@@ -58,14 +58,14 @@ ms.locfileid: "41816791"
 }
 ```
 
- *itemId* -项目的 ID。
+ *itemId*  - 项目的 ID。
   
- *userId* -拥有此项目的用户的 ID。
+ *userId*  - 拥有此项目的用户的 ID。
   
- *内容*-特定于应用程序的内容。
+ *content*  - 特定于应用程序的内容。
   
- *type* -内容的类型。 此字段由应用程序设置。
+ *type*  - 内容的类型。 此字段由应用程序设置。
   
- *subItemIds* -子项目的 id （如果有）。 这是一个用于保存调用的 "获取子项目" 操作的简短电路。 应用程序也可以使用 "获取子项目" 操作获取相同的信息。
+ *subItemIds*  - 子项的 ID（如果有）。 这是 Get Sub-Items 操作以保存呼叫的短电路。 此外，应用程序可以使用 Get Sub-Items获取相同的信息。
   
 

@@ -1,8 +1,8 @@
 ---
 title: 定义新的 Trunk
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 通过提供以下信息定义一个新的会话初始协议 (SIP) Trunk：
-ms.openlocfilehash: 4addcfbdb854de223f7942f55e2e2180136f9bbc
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: bbed07920bdeddb78217e435e8813c89231cdcc9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218553"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833042"
 ---
-# <a name="define-a-new-trunk"></a>定义新的 Trunk
+# <a name="define-a-new-trunk"></a>定义新中继
 
 通过提供以下信息定义一个新的会话初始协议 (SIP) Trunk：
 
@@ -40,6 +40,6 @@ ms.locfileid: "48218553"
 
 ## <a name="see-also"></a>另请参阅
 
-[Skype for Business Server 2015 中的 M:N 中继](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
+[Skype for Business Server 2015 中的 M：N 中继](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[如何实现 SIP 中继？](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[如何实施 SIP 中继？](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)

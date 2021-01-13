@@ -1,8 +1,8 @@
 ---
 title: tblScopePrincipal
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
-description: tblScopePrincipal 包含分配给节点的作用域。
-ms.openlocfilehash: 24a38ef4acf3e0d500c7652f5ca418af585343b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblScopePrincipal 包含分配至节点的作用域。
+ms.openlocfilehash: efda792ab6f6c6cc7b188a9dffdaa7c324b24797
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812440"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831512"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  
-tblScopePrincipal 包含分配给节点的作用域。
+tblScopePrincipal 包含分配至节点的作用域。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|scopeNodeID  <br/> |int，not null  <br/> |作用域所适用的节点 ID。  <br/> |
-|scopePrinID  <br/> |int，not null  <br/> |主体 ID。  <br/> |
-|scopeIsDenied  <br/> |位，not null  <br/> |如果范围的类型为 "拒绝"，则为 True;如果允许，则为 False。  <br/> |
-|scopeUpdatedBy  <br/> |int，not null  <br/> |上次更新此条目的主体的 ID。  <br/> |
+|scopeNodeID  <br/> |int，不为 null  <br/> |作用域适用的节点 ID。  <br/> |
+|scopePrinID  <br/> |int，不为 null  <br/> |主体 ID。  <br/> |
+|scopeIsDenied  <br/> |bit，不为 null  <br/> |如果作用域的类型为 Deny，则为 True；如果作用域的类型为 Allow，则为 False。  <br/> |
+|scopeUpdatedBy  <br/> |int, 不为 null  <br/> |上次更新此项的主体的 ID。  <br/> |
    
-**标示**
+**Keys**
 
 |**列**|**说明**|
 |:-----|:-----|
 |\<scopeNodeID, scopePrinID\>  <br/> |主键。  <br/> |
-|scopeNodeID  <br/> |带有 tblNode 表中的 lookup 的外键。  <br/> |
-|scopePrinID  <br/> |TblPrincipal 表中的 lookup 的外键。  <br/> |
+|scopeNodeID  <br/> |其查找包含在 tblNode.nodeID 表中的外键。  <br/> |
+|scopePrinID  <br/> |其查找包含在 tblPrincipal.prinID 表中的外键。  <br/> |
    
 

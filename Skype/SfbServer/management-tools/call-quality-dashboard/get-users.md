@@ -1,8 +1,8 @@
 ---
 title: 获取用户
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
-description: 摘要：了解 "获取用户" 操作（这是用户服务的一部分）。 用户服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: 81d261a49798ef49d4a1d693681b4497652cf395
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解作为用户服务的一部分的"获取用户"操作。 用户服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+ms.openlocfilehash: a830663fc97d8fda727d1ebb008d97407796cc7c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816721"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832422"
 ---
 # <a name="get-users"></a>获取用户
  
-**摘要：** 了解 "获取用户" 操作，这是用户服务的一部分。 用户服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
+**摘要：** 了解作为用户服务的一部分的"获取用户"操作。 用户服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
   
-"获取用户" 操作是 "资源库 API for 通话质量" 仪表板中的用户服务的一部分。
+Get Users 操作是呼叫质量仪表板的存储库 API 中的用户服务的一部分。
   
 ## <a name="get-users"></a>获取用户
 
-获取用户返回存储库中的用户列表。
+Get Users returns a list of users in the repository.
   
-|**种**|**请求 URI**|**HTTP 版本**|
+|**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|获取  <br/> |https://\<portal\>/QoERepositoryService/repository/user  <br/> |HTTP/1。1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user  <br/> |HTTP/1.1  <br/> |
    
- **URI 参数**-无。
+ **URI 参数** - 无。
   
- **请求标题**-无其他标题。
+ **请求标头** - 无其他标头。
   
- **请求正文**-无。
+ **请求正文** - 无。
   
- **响应**-响应包括 HTTP 状态代码和一组响应标头。
+ **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码**-成功的操作返回状态代码200（OK）。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。
   
- **响应标题**-无其他标题。
+ **响应标头** - 无其他标头。
   
- **响应正文**-下面是 JSON 中的示例响应负载。
+ **响应正文** - 下面是 JSON 中的示例响应负载。
   
 > [!NOTE]
-> 返回一个用户对象数组。 有关用户对象的详细信息，请参阅获取用户。 
+> 返回 User 对象的数组。 有关 User 对象的详细信息，请参阅"获取用户"。 
   
 ```json
 [{

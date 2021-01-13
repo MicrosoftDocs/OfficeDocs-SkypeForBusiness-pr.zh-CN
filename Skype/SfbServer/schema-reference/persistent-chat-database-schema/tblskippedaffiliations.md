@@ -1,8 +1,8 @@
 ---
 title: tblSkippedAffiliations
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
-description: tblSkippedAffiliations 包含无法读取的隶属关系（通常是由于 Active Directory 域服务访问错误）。
-ms.openlocfilehash: 8a138993e12a49f72842808d720a5f778195c6ff
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblSkippedAffiliations 包含通常由于 Active Directory 域服务访问错误 (无法读取的附属) 。
+ms.openlocfilehash: 3061a399de804898d3dc2c616fb3766206c2d624
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812010"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831422"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  
-tblSkippedAffiliations 包含无法读取的隶属关系（通常是由于 Active Directory 域服务访问错误）。
+tblSkippedAffiliations 包含通常由于 Active Directory 域服务访问错误 (无法读取的附属) 。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int，not null  <br/> |主体 ID。  <br/> |
-|affDescription  <br/> |nvarchar （256），not null  <br/> |标识隶属关系的字符串。  <br/> 格式为： guid： _{0}_ uri： _{1}_> id：_{2}_ <br/> |
-|updatedBy  <br/> |int，not null  <br/> |已更新此行的主体的 ID。 由于 Active Directory 同步是这些条目的唯一源，因此始终为1（系统用户）。  <br/> |
+|prinID  <br/> |int，不为 null  <br/> |主体 ID。  <br/> |
+|affDescription  <br/> |nvarchar (256)，不为 null  <br/> |标识隶属项的字符串。  <br/> 格式为： guid：  _{0}_ uri： _{1}_> id：  _{2}_ <br/> |
+|updatedBy  <br/> |int，不为 null  <br/> |更新此行的主体的 ID。该值始终为 1（系统用户），因为 Active Directory 同步是这些条目的唯一来源。  <br/> |
    
-**标示**
+**Keys**
 
-|**列**|**说明**|
+|**列 ()**|**说明**|
 |:-----|:-----|
 |\<prinID, affDescription\>  <br/> |主键。  <br/> |
-|prinID  <br/> |TblPrincipal 表中的 lookup 的外键。  <br/> |
+|prinID  <br/> |其查找包含在 tblPrincipal.prinID 表中的外键。  <br/> |
    
 

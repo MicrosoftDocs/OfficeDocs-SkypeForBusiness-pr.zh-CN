@@ -1,8 +1,8 @@
 ---
 title: 获取项目
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,44 +12,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
-description: 摘要：了解有关 "获取项目" 操作（这是项目服务的一部分）的信息。 项目服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: 6345201fe3843e3fe8cf6671f01d2db30fb4e22e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解作为项目服务的一部分的 Get Items 操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+ms.openlocfilehash: 7da3ba77e782abe44896a7c1eb51a458d9a7e0b8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816781"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832532"
 ---
 # <a name="get-items"></a>获取项目
  
-**摘要：** 了解 "获取项目" 操作，该操作是项目服务的一部分。 项目服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
+**摘要：** 了解"获取项目"操作，该操作是项服务的一部分。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
   
-获取项目操作是 "知识库 API for 通话质量" 仪表板中的项目服务的一部分。
+Get Items 操作是呼叫质量仪表板的存储库 API 中的项目服务的一部分。
   
 ## <a name="get-items"></a>获取项目
 
 获取项目将返回存储库中的所有项目。
   
-|**种**|**请求 URI**|**HTTP 版本**|
+|**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|获取  <br/> |https://\<portal\>/QoERepositoryService/repository/item  <br/> |HTTP/1。1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
    
- **URI 参数**-无。
+ **URI 参数** - 无。
   
- **请求标题**-无其他标题。
+ **请求标头** - 无其他标头。
   
- **请求正文**-无。
+ **请求正文** - 无。
   
- **响应**-响应包括 HTTP 状态代码和一组响应标头。
+ **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码**-成功的操作返回状态代码200（OK）。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。
   
- **响应标题**-无其他标题。
+ **响应标头** - 无其他标头。
   
- **响应正文**-下面是 JSON 中的示例响应负载。
+ **响应正文** - 下面是 JSON 中的示例响应负载。
   
 > [!NOTE]
-> 返回 Item 对象的数组。 有关项目对象的详细信息，请参阅获取项目。 
+> 返回 Item 对象的数组。 有关 Item 对象的详细信息，请参阅"获取项目"。 
   
 ```json
 [{

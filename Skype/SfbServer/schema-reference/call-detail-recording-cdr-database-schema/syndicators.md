@@ -1,8 +1,8 @@
 ---
 title: Syndicators 表
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
-description: SyndicatorsTable 仅供内部使用。 此表是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 907af7bbc7563a8867fa0a2380df255b8aad2b47
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: SyndicatorsTable 仅供内部使用。 此表在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: c1aaadba404a1f3a82ef5a4e7b4b0108697ef79a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814880"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831786"
 ---
 # <a name="syndicators-table"></a>Syndicators 表
  
-SyndicatorsTable 仅供内部使用。 此表是在 Microsoft Lync Server 2013 中引入的。
+SyndicatorsTable 仅供内部使用。 此表在 Microsoft Lync Server 2013 中引入。
   
 

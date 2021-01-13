@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 中的域准备所做的更改
+title: 由 Skype for Business Server 中的域准备所做的更改
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,39 +12,39 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
-description: 下表列出了域准备在域根上创建的访问控制条目（Ace）。 除非另有说明，否则将继承所有 Ace。
-ms.openlocfilehash: 8a087dfbbd8b670467727803f996694a816cc065
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 下表列出域准备在域根上创建的访问控制项 (ACE)。除非另行说明，否则所有 ACE 都是继承的。
+ms.openlocfilehash: 46eaedb25ca245a5426314a8118be7443fb612e1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815540"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831902"
 ---
-# <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Skype for Business Server 中的域准备所做的更改
+# <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>由 Skype for Business Server 中的域准备所做的更改
  
-下表列出了域准备在域根上创建的访问控制条目（Ace）。 除非另有说明，否则将继承所有 Ace。
+下表列出域准备在域根上创建的访问控制项 (ACE)。除非另行说明，否则所有 ACE 都是继承的。
   
-**添加到域根的 Ace**
+**添加到域根的 ACE**
 
-|**棒**|**RTCUniversal-UserReadOnly**|**RTCUniversal-ServerReadOnly**|**RTCUniversal-UserAdmins**|**RTCHSUniversal-服务**|**已验证-用户**|
+|**ACE**|**RTCUniversal-UserReadOnly-Group**|**RTCUniversal-ServerReadOnly-Group**|**RTCUniversal-UserAdmins**|**RTCHSUniversal-Services**|**Authenticated-Users**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|读取容器（不是继承的）  <br/> |**是的** <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |
-|阅读用户 PropertySet 用户帐户-限制  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|阅读用户 PropertySet 个人信息  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|阅读用户 PropertySet 常规信息  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|读取用户 PropertySet 公共信息  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|Read User PropertySet RTCUserSearchProperty-Set  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |**是** <br/> |
-|阅读用户 PropertySet RTCPropertySet  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
-|编写用户属性代理-地址  <br/> |否  <br/> |否  <br/> |**是** <br/> |否  <br/> |否  <br/> |
-|编写用户 PropertySet RTCUserSearchProperty-Set  <br/> |否  <br/> |否  <br/> |**是** <br/> |否  <br/> |否  <br/> |
-|编写用户 PropertySet RTCPropertySet  <br/> |否  <br/> |否  <br/> |**是** <br/> |否  <br/> |否  <br/> |
-|读取 PropertySet DS-复制-对所有 Active Directory 对象的获取更改  <br/> |否  <br/> |否  <br/> |否  <br/> |**是** <br/> |否  <br/> |
+|读取容器（非继承）  <br/> |**是** <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |
+|读取用户属性集 User-Account-Restrictions  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
+|读取用户属性集 Personal-Information  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
+|读取用户属性集 General-Information  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
+|读取用户属性集 Public-Information  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
+|读取用户属性集 RTCUserSearchProperty-Set  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |**是** <br/> |
+|读取用户属性集 RTCPropertySet  <br/> |**是** <br/> |否  <br/> |否  <br/> |否  <br/> |否  <br/> |
+|写入用户属性 Proxy-Addresses  <br/> |否  <br/> |否  <br/> |**是** <br/> |否  <br/> |否  <br/> |
+|写入用户属性集 RTCUserSearchProperty-Set  <br/> |否  <br/> |否  <br/> |**是** <br/> |否  <br/> |否  <br/> |
+|写入用户属性集 RTCPropertySet  <br/> |否  <br/> |否  <br/> |**是** <br/> |否  <br/> |否  <br/> |
+|读取所有 Active Directory 对象的属性集 DS-Replication-Get-Changes  <br/> |否  <br/> |否  <br/> |否  <br/> |**是** <br/> |否  <br/> |
    
-下表列出了域准备在三个内置容器中创建的 Ace：用户、计算机和域控制器。 除非另有说明，否则将继承所有 Ace。
-**添加到内置容器的 Ace**
+下表列出域准备在以下三个内置容器中创建的 ACE：用户、计算机和域控制器。 除非另行说明，否则所有 ACE 都是继承的。
+**添加到内置容器的 ACE**
 
-|**棒**|**RTCUniversal-UserReadOnly**|**RTCUniversal-ServerReadOnly**|
+|**ACE**|**RTCUniversal-UserReadOnly-Group**|**RTCUniversal-ServerReadOnly-Group**|
 |:-----|:-----|:-----|
-|读取容器（不是继承的）  <br/> |**是的** <br/> |**是** <br/> |
+|读取容器（非继承）  <br/> |**是** <br/> |**是** <br/> |
    
 

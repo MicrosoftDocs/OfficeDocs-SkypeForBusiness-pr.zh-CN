@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalRole
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,33 +13,33 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 description: tblPrincipalRole 包含分配给节点的显式角色。
-ms.openlocfilehash: 1cc606ec3825bb664d4123154e97fabb15678cfd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 13c9c25db9ba1dbe281947468bbd834e80417899
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813360"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831552"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
 tblPrincipalRole 包含分配给节点的显式角色。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|prinRoleNodeID  <br/> |int，not null  <br/> |角色所应用的节点 ID。  <br/> |
-|prinRolePrinID  <br/> |int，not null  <br/> |主体 ID。  <br/> |
-|prinRoleTypeID  <br/> |int，not null  <br/> |角色类型 ID （来自 tblRoleType）。  <br/> |
-|prinRoleUpdatedBy  <br/> |int，not null  <br/> |上次更新此条目的主体的 ID。  <br/> |
+|prinRoleNodeID  <br/> |int，不为 null  <br/> |角色应用于的节点 ID。  <br/> |
+|prinRolePrinID  <br/> |int，不为 null  <br/> |主体 ID。  <br/> |
+|prinRoleTypeID  <br/> |int，不为 null  <br/> |角色类型 ID (tblRoleType) 。  <br/> |
+|prinRoleUpdatedBy  <br/> |int, 不为 null  <br/> |上次更新此项的主体的 ID。  <br/> |
    
-**标示**
+**Keys**
 
 |**列**|**说明**|
 |:-----|:-----|
 |\<prinRoleNodeID, prinRolePrinID, prinRoleTypeID\>  <br/> |主键。  <br/> |
-|prinRoleNodeID  <br/> |带有 tblNode 表中的 lookup 的外键。  <br/> |
-|prinRolePrinID  <br/> |TblPrincipal 表中的 lookup 的外键。  <br/> |
-|prinRoleTypeID  <br/> |TblRoleType 表中的 lookup 的外键。  <br/> |
+|prinRoleNodeID  <br/> |其查找包含在 tblNode.nodeID 表中的外键。  <br/> |
+|prinRolePrinID  <br/> |其查找包含在 tblPrincipal.prinID 表中的外键。  <br/> |
+|prinRoleTypeID  <br/> |在 tblRoleType.rtypeID 表中查找的外键。  <br/> |
    
 

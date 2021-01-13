@@ -1,8 +1,8 @@
 ---
 title: CQD 开发示例
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,59 +12,59 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 摘要：查看通话质量仪表板的教程和开发示例。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: 22b0e44ca3bf2e80d8d2674d0af1e6a8f157dc23
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：查看通话质量仪表板的教程和开发示例。 通话质量仪表板是 Skype for Business Server 的工具。
+ms.openlocfilehash: 193a03662d6f771b19c57017d909cc6574a755ef
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816871"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832722"
 ---
 # <a name="cqd-development-samples"></a>CQD 开发示例
 
-**摘要：** 查看通话质量仪表板的教程和开发示例。 通话质量仪表板是 Skype for business 服务器的工具。
+**摘要：** 查看通话质量仪表板的教程和开发示例。 通话质量仪表板是 Skype for Business Server 的工具。
 
-本文提供开发呼叫质量仪表板 (CQD) 的教程和示例。
+本文提供了有关通话质量仪表板和 CQD (的) 。
 
-## <a name="call-quality-dashboard-cqd-development-samples"></a>呼叫质量仪表板 (CQD) 开发示例
+## <a name="call-quality-dashboard-cqd-development-samples"></a>通话质量仪表板 (CQD) 示例
 
-教程：使用 CQD 数据服务和存储库服务 API 生成自定义报告表示。
+教程：使用 CQD 数据服务和存储库服务 API 生成自定义报表演示文稿。
 
 ### <a name="introduction-to-cqd"></a>CQD 简介
 
-通过 CQD，可以快速轻松地访问本地 Skype for Business Server 部署的聚合呼叫质量信息。 CQD 由三个组件组成：QoE 存档数据库、多维数据集和门户。 门户是主要表示层，可以再进一步分成以下三个组件：
+CQD 提供快速而轻松地访问本地 Skype for Business Server 部署的聚合呼叫质量信息。 CQD 由三个组件组成：QoE 存档数据库、多维数据集和门户。 门户是主表示层，可以进一步划分为以下三个组件：
 
-1. 数据服务，可通过[Skype For Business Server 中的 "呼叫质量" 仪表板（CQD）的数据 API](data-api.md)访问已通过身份验证的用户。
+1. 数据服务，可通过 Skype for Business Server 中 [CQD (CQD](data-api.md)) 数据 API 供经过身份验证的用户访问。
 
-2. 存储库服务，可通过[Skype For Business Server 中的 "知识库 API For 通话质量" 仪表板（CQD）](repository-api.md)访问经过身份验证的用户。
+2. 存储库服务，可通过 Skype for Business Server 中的呼叫质量仪表板存储库 API ([CQD](repository-api.md)) 用户访问。
 
-3. Web 门户，这是基于 HTML5 的界面，CQD 用户会看到此界面，并与之交互。 通过身份验证的用户可以访问 Web 门户。
+3. Web 门户，它是 CQD 用户查看并与之交互的基于 HTML5 的界面。 这可供经过身份验证的用户访问。
 
-Web 门户上显示的报表被分组为 "报表集"。 图中显示了有两份报告的报告集。 以下仪表板中的每个报告显示了在应用不同的筛选器后得到的查询结果，这些结果反映了多个月内质量良好呼叫和质量欠佳呼叫的数量，以及质量欠佳呼叫所占的百分比。 
+Web 门户上显示的报告分为"报告集"。 下图显示了一个报告集，其中具有两个报告。 下面此仪表板中的每个报表都显示有关好通话数、质量欠佳的呼叫数和几个月内质量欠佳的呼叫百分比的查询结果，并应用了各种筛选器。 
 
 ![CQD 示例报告](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
-CQD 是按照呼叫质量方法 (CQM) 创建的，所以默认报告集设计为与 CQM 引入的调查流程一致。用户也可以灵活编辑或创建自定义报告来满足自己的需求。然而，由于有多种方式可用来可视化呈现数据，因此 CQD 提供的可视化可能无法完全满足每个用户的需求。在这样的情况下，用户可以利用数据 API 和存储库 API 来创建自定义报告页。我们将在本教程中介绍一系列示例。
+CQD 是按照 CQM (方法) 创建的，因此默认报告集旨在与 CQM 引入的调查流保持一致。 用户还可以灵活地编辑或创建自定义报告以满足其需求。 但是，由于有多种可视化数据的方法，CQD 提供的可视化可能无法完全满足每个用户的需求。 在这种情况下，用户可以利用数据 API 和存储库 API 创建自定义报告页面。 我们将在本教程中介绍一系列示例。
 
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>仪表板如何使用数据服务
 
-导航到 CQD 主页时（例如http://localhost/cqd)，将从存储库服务中检索经过身份验证和授权的用户的报告集和相应报告。 完整的 URL 将从报表集 ID 和年月（报表集 ID 是 URL 中 "/#/" 部分后面的整数，默认情况下，在报表集 ID 的结尾处追加当前的年数后）。 报告定义以 JSON 格式存储，在从存储库服务检索到该定义后，该定义将随后作为数据服务的输入。 数据服务根据该输入生成多维表达式 (MDX) 查询，然后对多维数据集运行这些 MDX 查询来为每个报告检索数据。 
+导航到 CQD 主页 (例如，从存储库服务检索经过身份验证和授权的用户的报告集和相应 http://localhost/cqd) 报告。 完整 URL 将基于报告集 ID 构建，而年-月 (报告集 ID 是 URL 中"/#/"部分后的整数，默认情况下，当前年份的追加位置为斜杠) 后的报告集 ID 的末尾。 报告定义以 JSON 格式存储，从存储库服务检索时，将用作数据服务的输入。 数据服务根据输入 (MDX) 生成多维表达式，然后针对多维数据集运行这些 MDX 查询以检索每个报告的数据。 
 
 ### <a name="building-customized-reports"></a>生成自定义报告
 
-在自定义报告方面，CQD 已经具备了极高的灵活性，但是有些情况下，用户可能想聚合在 CQD 中创建的多个报告的数据。例如，有人可能需要创建这样的报告，该报告在一个表中显示质量欠佳呼叫在所有可能的有线呼叫组合中所占的百分比（类似下图的结果）：
+CQD 在自定义报告方面已经具有很大的灵活性，但在某些情况下，用户可能希望聚合 CQD 中创建的多个报告的数据。 例如，可能需要创建一个报告，该报告显示表中所有可能组合的有线呼叫的欠佳呼叫百分比， (结果如下所示：) ：
 
 ![CQD 表](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
-如果使用 CQD 提供的门户，用户将必须转到多个报告来提取和记录每个报告的质量欠佳呼叫百分比，如果需要采集很多数据点，那么工作量就会很大。数据 API 为用户提供了从数据服务检索数据（例如，通过 AJAX 调用）的编程方法来完成此任务。 
+使用 CQD 提供的门户，用户必须导航到多个报告，以提取并记录每个报告质量欠佳的呼叫百分比，如果有许多需要收集的数据点，这将非常费时。 数据 API 为用户提供了一种编程方式来完成此操作，方法为从数据服务应用程序检索数据 (例如，通过 AJAX) 。 
 
  **示例 1：简单报告示例**
 
-我们先给出一个简单示例。如果要像下图那样，在 HTML 页中显示 2015 年 2 月质量良好音频流与质量欠佳音频流的计数：
+让我们首先看一个简单的示例。 如果我们希望在如下所示的 HTML 页面上显示 2015 年 2 月的音频良好流和音频错误流计数：
 
 ![CQD 示例报告](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
-我们所要做的是，以正确的参数向数据服务发出调用，然后在 HTML 表中显示查询结果。下面是 JavaScript 示例代码：
+我们需要使用正确的参数向数据服务发送调用，并将查询结果显示在 HTML 表中。 下面是 JavaScript 代码的示例：
 
 ```javascript        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
@@ -98,41 +98,41 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
         });
 ```
 
-此示例可进一步解构成三个步骤：
+此示例可以进一步解构为三个步骤：
 
-1. 构造查询（在此示例中，在变量 "query" 中定义了此查询）。 query 定义为 JSON 对象，它包含以下数据：
+1. 构造该 ("查询"变量中定义的查询) 。 查询定义为 JSON 对象，其中包含以下数据：
 
-   a. 零个或更多维度。 每个维度由 DataModelName 表示。
+   a. 零个或多个维度。 每个维度由 DataModelName 指示。
 
-   b. 零个或更多筛选器。 每个筛选器包含：
+   b. 零个或多个筛选器。 每个筛选器具有：
 
-   - DataModelName（将设置筛选器的维度）。
+   - DataModelName (将设置筛选器的维度) 。
 
-   - Value（将由操作数比较的值）。
+   - 值 (操作数值进行比较的值) 。
 
-   - 操作数（比较类型，0表示 "等于"）。
+   - 操作 (类型，0 表示"等于") 。
 
-     c. 一项或多项指标。
+     c. 一个或多个度量。
 
-2. 通过 AJAX 调用将查询发给数据服务。 需要提供以下 request 参数：
+2. 通过 AJAX 调用将查询发送到数据服务。 需要提供以下请求参数：
 
-   a. url（应为 http://[ServerName]/QoEDataService/RunQuery）。
+   a. url (应为 http：//[ServerName]/QoEDataService/RunQuery) 。
 
-   b. 数据（这是 "查询" 变量中定义的 JSON 对象的字符串表示形式）。 数据服务将查询结果作为查询成功时调用的回调函数的参数返回。
+   b. data (这是在"query"变量中定义的 JSON 对象的字符串) 。 数据服务将返回查询结果作为调用回叫函数的一个参数以成功。
 
-   c. type （对于 QoEDataService，RunQuery 仅接受 "POST" 请求）。
+   c. type (For QoEDataService， RunQuery only accepts 'POST' requests) .
 
-   d. async（指出 AJAX 调用应该为同步还是异步的标志）。
+   d. 异步 (一个标志，指示 AJAX 调用是同步调用还是异步) 。
 
-   e.i. contentType （应为 "application/json"）。
+   e. contentType (应为"application/json") 。
 
-   f. success（AJAX 调用成功完成时调用的回调函数）。
+   f. 成功 (AJAX 调用何时成功完成) 。
 
-   7. error（AJAX 调用失败时调用的错误处理函数）。
+   g. 错误 (AJAX 调用失败时的错误处理) 。
 
-3. 将数据放入 HTML 中的 div 元素（在示例代码中，这是通过在 AJAX 请求成功完成后调用的匿名函数调用来完成的）。
+3. 将数据放入 HTML (代码示例中的 div 元素中，这是在 AJAX 请求成功完成之后通过匿名函数调用) 。
 
-将 JavaScript 代码包含到 HTML 页面中，页面就会显示类似图中所示的报告。完整 html 如下：
+将 JavaScript 代码包含在 HTML 页中，该页面将显示如图所示的报告。 完整的 html 如下所示：
 
 ```javascript
 <!DOCTYPE html>
@@ -191,19 +191,19 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 </html>
 ```
 
-目前为止，报告仍然显得非常简单。用户可以添加更多指标、维度或筛选器来自定义报告。例如，如果要显示 AppSharing 质量欠佳呼叫百分比，那么需要添加有关 AppSharing 的新指标。如果要显示所有 TCP 呼叫与 UDP 呼叫的对比，那么应添加有关传输类型的新维度。如果要显示特定大楼内质量欠佳呼叫的数量，那么应添加新的筛选器来选择进出该大楼的呼叫。
+到目前为止，报告仍然非常简单。 用户可以添加更多度量、维度或筛选器来自定义报表。 例如，如果你想要显示 AppSharing 质量欠佳的呼叫百分比，那么需要添加关于 AppSharing 的新度量。 如果要显示所有 TCP 调用 v.s。 UDP 调用，应添加与交通类型有关的新维度。 如果要显示特定建筑物内质量欠佳的呼叫数，应添加一个新筛选器，以选择该建筑物的呼叫。
 
  **示例 2：报告定义示例**
 
-在构造查询时，可能很难想出如何编写指标/维度/筛选器的完整列表及其对应的值。这种情况下，可以转至门户，使用报告编辑器生成报告，然后查看表示报告定义的 JSON 字符串，再将这些定义复制到自定义报告中。 
+在构造查询时，可能很难找出如何编写度量/维度/筛选器及其对应值的完整列表。 在这种情况下，您可以转到门户，使用报告编辑器生成报表，并查看报告定义的 JSON 字符串，然后将定义复制到自定义报告中。 
 
-本例中，我们将创建类似下图所示的网页，在该网页中，用户可输入任何现有报告集（或报告）的 ID，然后在网页上显示该报告集或报告的定义。而后，用户可将每个报告的 JSON 字符串插入类似示例 1 所示的代码中，从而构造用户所要的任何自定义报告。 
+本示例中，我们将创建一个网页，如图所示，用户可以输入任何现有报告集 (或报表) 的 ID，并在此网页上显示报告集或报表的定义。 然后，用户可以将每个报告的 JSON 字符串插入类似于示例 1 中所示的代码，并构造用户期望的任何自定义报告。 
 
 ![CQD 示例](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
-为了创建报告定义查看器工具，我们需要向存储库服务发出调用，以检索我们所要的每个报告集定义的 JSON 字符串表示形式。存储库 API 将根据给定的报告集 ID 返回报告集定义。 
+若要创建报告定义查看器工具，我们需要向存储库服务发送调用，以检索所需的每个报告集定义的 JSON 字符串表示形式。 存储库 API 将基于给定的报告集 ID 返回报告集定义。 
 
-快速示例如下，代码所含的代码块是一个简单示例，它向存储库服务发出查询，以根据存储库项的标识符获取该项的内容。 下一段代码（processReportSetData 方法）发出 AJAX 调用来获取该报告集内每个报告的定义。 由于 CQD Web 门户中的 ID 是报告集的 ID，因此 AJAX 调用将返回报告集项。 有关知识库 API 的更多详细信息，尤其是 GetItems，可以在 "[获取项目](get-items.md)" 中找到。 
+一个快速示例如下所示，代码包含一个块，该块是一个简单示例，用于向存储库服务发送查询，以基于存储库项的标识符获取存储库项的内容。 下一部分代码 (processReportSetData 方法) 发送 AJAX 调用，获取该报表集内每个报告的定义。 由于 CQD Web 门户中的 ID 是报告集的 ID，因此 AJAX 调用将返回报告集项。 有关存储库 API（特别是 GetItems）的更多详细信息，可以在"获取项目" [中找到](get-items.md)。 
 
 ```html
 <!DOCTYPE html>
@@ -312,27 +312,27 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 </html>
 ```
 
-上述示例将生成一个网页，类似于图中的网页（在初始访问时没有报表定义）。 从 CQD 门户获取报表集 ID （在 CQD 门户 URL 中为 "/#/" 登录）（例如 在第一个图中，报告集 ID 为3024），并将此报告集 ID 放入此网页的输入部分。 按 "加载" 按钮，查看报表集的完整定义（度量、维度、筛选器列表）。
+上述内容将导致网页（如图所示） (首次访问时没有报告) 。 从 CQD 门户获取报告集 ID (/#/> 登录 CQD 门户 URL 之后，例如 (ID。 第一个图的报表集 ID 为 3024) ，将此报告集 ID 放入此网页的输入部分。 按"加载"按钮，查看 (、维度、筛选器列表) 报告集的完整定义。
 
-总而言之，为了快速获取报表/报表集的完整定义。 步骤包括：
+总之，为了快速获取报告/报告集的完整定义。 步骤如下：
 
-1. 转到门户并使用查询编辑器自定义报表（单击报表上方的 "编辑" 按钮以编辑、添加、删除度量/维度/筛选器），然后保存报表。
+1. 转到门户并使用查询编辑器自定义报表 (单击报表上方的"编辑"按钮以编辑、添加、删除度量/维度/筛选器，然后将报表) 。
 
-2. 从 URL 获取报表集 ID （"/#/" 登录 URL 后面的整数）。
+2. 从 URL 获取报告集 ID， ("/#/"登录 URL 之后获取) 。
 
-3. 启动示例 2 中创建的报告定义网页，输入报告集 ID，检索报告集的完整定义（将在数据 API 调用中使用）。
+3. 启动在示例 2 中创建的此报告定义网页，并输入报告集 ID，并检索要用于数据 API 调用 (报告集) 。
 
    **示例 3：记分卡示例**
 
-现在我们来看一个更复杂的任务。如果我们想创建一个类似图中的网页，该怎么办？我们需要更新示例 1（借助示例 2 生成的网页来检索任何报告的完整定义），以便处理更大量的数据。
+更复杂的任务的时间。 如果我们希望创建如图所示的网页，该做什么？ 我们需要更新示例 1， (在示例 2 中生成的网页的帮助下，检索任何报表) 的完整定义，以便我们可以处理更多的数据。
 
-此例中，我们需要更新指标和维度列表。遵循示例 2 中的说明弄清如何添加/编辑指标和/或维度，然后检索完整的报告定义，包括完整的指标和维度列表。将完整报告定义插入示例代码。 
+在这种情况下，我们需要更新度量和维度列表。 若要了解如何添加/编辑度量和/或维度，请按照示例 2 中的说明操作，并检索完整的报告定义，包括完整的度量和维度列表。 将完整的报告定义插入示例代码中。 
 
-以下是基于示例 1 提供的示例，获得图中的记分卡页所需的详细步骤：
+下面是从示例 1 中提供的示例获取图中记分卡页面的详细步骤：
 
-1. 将 "查询" 变量中的度量值`[Measures].[Audio Good Streams JPDR Count]`更新`[Measures].[Audio Poor Streams JPDR Count]`为`[Measures].[AudioPoorJPDRPercentage]`"从" 到 "到"。 
+1. 将"query"变量中的度量从和  `[Measures].[Audio Good Streams JPDR Count]` 更新 `[Measures].[Audio Poor Streams JPDR Count]` 到 `[Measures].[AudioPoorJPDRPercentage]` 。 
 
-2. 更新筛选器。 示例1中的筛选器的 JSON 数据具有一个筛选器，该筛选器在`[StartDate].[Month]`维度上设置。 由于 Filters 是 JSON 数组，因此其他维度可添加到筛选器列表中。 例如，若要为 "currentMonth" 获取服务器客户端内部有线呼叫，我们应具有以下筛选器：
+2. 更新筛选器。 示例 1 中 Filters 的 JSON 数据具有一个筛选器，该筛选器在维度上设置  `[StartDate].[Month]` 。 由于 Filters 是 JSON 数组，因此可以将其他维度添加到筛选器列表中。 例如，若要在"currentMonth"的有线呼叫内获取服务器-客户端，应具有以下筛选器：
 
    ```javascript
    Filters: [
@@ -349,18 +349,18 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
    ],
    ```
 
-   此处的维度`[Scenarios].[ScenarioPair]`设置为 "等于`[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`"。 `[Scenario.][ScenarioPair]`是为简化报表创建而创建的特殊维度。 它有六个对应的`[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`值。 因此，我们只需要使用 1 个筛选器，而无需使用 6 个筛选器的组合来定义方案。 在我们的示例中， `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`此值转换为：第一次为服务器、第二个不是服务器、第二个为 "服务器"、"第二个"、"第二个连接类型" 和 "第二个连接类型是有线的"，这是 "服务器-客户端-内部有线" 的确切定义。
+   此处将维度  `[Scenarios].[ScenarioPair]` 设置为相等 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 。 这是  `[Scenario.][ScenarioPair]` 为简化报表创建而创建的特殊维度。 它对应六个值 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` 。 因此，我们只需要使用 1 个筛选器，而不是使用 6 个筛选器的组合来定义方案。 在我们的示例中，值转换为以下方案：第一个为服务器，第二个不是服务器，第一个位于内部，第一个连接类型为有线，第二个连接类型为有线，这是  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` "Server-Client-Inside Wired"的确切定义。
 
-3. 每个方案创建一个筛选器集。图中记分卡的每一行表示一个不同的方案，这些方案将成为不同的筛选器（虽然维度和指标保持不变）。 
+3. 每个方案创建一个筛选器集。 图中记分卡的每一行表示不同的方案，即不同的筛选器 (而维度和度量保持不变) 。 
 
-4. 解析从 AJAX 调用获得的结果，将其放入表格的正确位置。由于这主要是 HTML 和 JavaScript 处理，因此这里我们不深入研究细节，而是在附录 A 中提供相关代码。
+4. 分析 AJAX 调用的结果，将它们放在表的正确位置。 由于这主要是 HTML 和 JavaScript 操作，因此我们不会在此处了解详细信息。 相反，代码在附录 A 中提供。
 
     > [!NOTE]
-    >  如果启用了跨源资源共享（CORS），用户可能会遇到错误，如 "没有" 访问控制-源 "标头在所请求的资源上。 因此，原始 "null" 不允许访问 "。 若要解决此问题，请将 HTML 文件放在安装门户的文件夹下（默认情况下，应为`%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`。 然后通过使用 URL `http://<servername>/cqd/<html_file_name>`的任何浏览器访问 html。 （本地 CQD 仪表板的默认 URL 为`http://<servername>/cqd.`） 
+    >  如果启用了跨源资源 (CORS) ，则用户可能会遇到"请求的资源上不存在"Access-Control-Allow-Origin"标头等错误。 因此，不允许访问原点"null"。 若要解决此问题，将 HTML 文件放在默认情况下安装门户 (文件夹下，它应该是 `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` 。 然后，通过具有 URL 的任何浏览器访问  `http://<servername>/cqd/<html_file_name>` html。  (本地 CQD 仪表板的默认 URL 为  `http://<servername>/cqd.`)  
 
 ### <a name="appendix-a"></a>附录 A
 
-示例 3 的 HTML 代码（记分卡示例）：
+示例 3 的 HTML 代码 (记分卡示例) ：
 
 ```html
 <!DOCTYPE html>

@@ -1,8 +1,8 @@
 ---
 title: tblSystemRevision
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
-description: tblSystemRevision 包含与 tblAdminLock 表一起使用的修订号，以实现多个管理员客户端之间的一致性。
-ms.openlocfilehash: f08c8c98e9e4dd78e394268859032a4fe598b361
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblSystemRevision 包含用于 tblAdminLock 表的修订号，以实现多个管理员客户端的一致性。
+ms.openlocfilehash: 5bbcf547d6e6f31cc3e9d71415fed6f351c82910
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41811900"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831412"
 ---
 # <a name="tblsystemrevision"></a>tblSystemRevision
  
-tblSystemRevision 包含与 tblAdminLock 表一起使用的修订号，以实现多个管理员客户端之间的一致性。
+tblSystemRevision 包含用于 tblAdminLock 表的修订号，以实现多个管理员客户端的一致性。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|sysRevision  <br/> |bigint，not null  <br/> |修订号。  <br/> |
+|sysRevision  <br/> |bigint，不为 null  <br/> |修订次数。  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: tblRoleType
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,27 +12,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
-description: tblRoleType 是一个具有角色类型及其关联权限集的静态查找表。
-ms.openlocfilehash: 888628c1aca01e90694ed946569a81b1b7394b95
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblRoleType 是一个静态查找表，其中包含角色类型及其关联的权限集。
+ms.openlocfilehash: c440463d822b908a89c84eb9c85b70e9daf442be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812900"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831522"
 ---
 # <a name="tblroletype"></a>tblRoleType
  
-tblRoleType 是一个具有角色类型及其关联权限集的静态查找表。
+tblRoleType 是一个静态查找表，其中包含角色类型及其关联的权限集。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|rtypeID  <br/> |int，not null  <br/> |角色类型 ID。  <br/> |
-|rtypeDesc  <br/> |nvarchar （256），not null  <br/> | 角色类型说明。 有四个可用的角色： <br/>  成员：聊天室成员 <br/>  管理器：聊天室管理器 <br/>  浊音：演示者使用 auditorium 聊天室 <br/>  创建者：可以创建聊天室 <br/> |
-|rtypeAllowedPermSet  <br/> |bigint，not null  <br/> | 角色的权限集。 所用位为： <br/>  2：如果角色可以管理节点，则为 True。 <br/>  4：如果角色可以创建子节点，则为 True。 <br/>  7：如果角色可以加入聊天室（或类别的子聊天室），则为 True。 <br/>  8：如果角色可以在聊天室中（或在子类别的子聊天室中）聊天，则为 True。 <br/>  10：如果角色可以读取聊天历史记录（即使未加入聊天室），则为 True。 <br/>  11：如果角色可以查看聊天室，则为 True。 （这将通过范围和可见性等因素进一步改进。） <br/>  12：如果角色可以在 auditorium 聊天室中聊天，则为 True。 <br/>  13：如果角色在查看节点时可以绕过可见性规则，则为 True。 <br/> |
+|rtypeID  <br/> |int，不为 null  <br/> |角色类型 ID。  <br/> |
+|rtypeDesc  <br/> |nvarchar (256)，不为 null  <br/> | 角色类型描述。可用角色有四种： <br/>  成员：聊天室成员 <br/>  管理员：聊天室管理员 <br/>  有发布权的人：大会堂聊天室的演讲者 <br/>  创建者：可以创建聊天室 <br/> |
+|rtypeAllowedPermSet  <br/> |bigint，不为 null  <br/> | 角色的权限集。使用的位为： <br/>  2：在角色可以管理节点时为 True。 <br/>  4：在角色可以创建子节点时为 True。 <br/>  7：在角色可以加入聊天室（或某类别的子聊天室）时为 True。 <br/>  8：在角色可以在聊天室中（或某类别的子聊天室中）聊天时为 True。 <br/>  10：在角色即使不加入聊天室也可读取聊天历史记录时为 True。 <br/>  11：在角色可以看到聊天室时为 True。（该值可通过作用域和可见性等因素进一步优化。） <br/>  12：在角色可以在大会堂聊天室中聊天时为 True。 <br/>  13：在角色查看节点后可以绕过可见性规则时为 True。 <br/> |
    
-**Key**
+**注册表项**
 
 |**列**|**说明**|
 |:-----|:-----|

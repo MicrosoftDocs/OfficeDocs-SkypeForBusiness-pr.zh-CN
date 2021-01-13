@@ -1,8 +1,8 @@
 ---
-title: Skype for Business 服务器中的灾难恢复测试
+title: Skype for Business Server 中的灾难恢复测试
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,50 +10,50 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 为 Skype for business 服务器池服务器执行系统恢复，以测试已记录的灾难恢复过程
-ms.openlocfilehash: f3eba25d59c56f085b9bd6d347fcde910f11a00d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 对 Skype for Business Server 池服务器执行系统恢复以测试记录灾难恢复过程
+ms.openlocfilehash: 92515a59f4ada2589a371cc9384c63a376e96cf8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817298"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832812"
 ---
-# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Skype for Business 服务器中的灾难恢复测试
+# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Skype for Business Server 中的灾难恢复测试
 
-为 Skype for business 服务器池服务器执行系统恢复，以测试已记录的灾难恢复过程。 此测试将模拟一台服务器的完整硬件故障，并将帮助确保资源、计划和数据可用于恢复。 请尝试每月轮转测试焦点，以便您的组织每次测试不同服务器或其他设备的故障。 
+对 Skype for Business Server 池服务器执行系统恢复，以测试记录灾难恢复过程。 此测试将模拟一台服务器的完整硬件故障，并帮助保证资源、计划和数据可用于恢复。 尝试每月轮换测试的焦点，以便组织每次测试不同服务器或其他设备的故障。 
 
-请注意，组织执行灾难恢复测试时所遵循的计划将有所不同。非常重要的是，不得忽略灾难恢复测试。 
+请注意，组织执行灾难恢复测试的计划将有所不同。 不要忽略或忽略灾难恢复测试，这一点非常重要。 
 
-将 Skype for Business 服务器拓扑、策略和配置设置导出到文件。 在升级、硬件故障或一些其他问题导致数据丢失后，此文件的功能之一是可用于将该信息恢复到中央管理存储。
+将 Skype for Business Server 拓扑、策略和配置设置导出到文件中。 此外，此文件还可用于在升级、硬件故障或其他导致数据丢失的问题后将此信息还原到中央管理存储。
 
-将 Skype for Business 服务器拓扑、策略和配置设置导入中央管理存储或本地计算机，如以下命令所示： 
+将 Skype for Business Server 拓扑、策略和配置设置导入中央管理存储或本地计算机，如以下命令所示： 
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]` 
 
-要备份生产数据，请执行以下操作：
+备份生产数据：
 
-- 通过使用标准 SQL Server 备份过程来备份 RTC 和 LCSLog 数据库，以将数据库转储到文件或磁带转储设备。
+- 使用标准备份过程备份 RTC 和 LCSLog 数据库SQL Server将数据库转储到文件或磁带转储设备。
 - 使用第三方备份应用程序将数据备份到文件或磁带。
 - 使用 Export-CsUserData cmdlet 创建整个 RTC 数据库的 XML 导出。
-- 使用文件系统备份或第三方备份备份会议内容和合规性日志。
-- 使用 Export-CsConfiguration 命令行工具备份 Skype for Business 服务器设置。
+- 使用文件系统备份或第三方备份来备份会议内容和合规性日志。
+- 使用 Export-CsConfiguration 命令行工具来备份 Skype for Business Server 设置。
 
-故障转移过程的第一个步骤包括强制性地将用户从生产池移动到灾难恢复池。 之所以称为强制性移动是因为生产池并不接受用户重新定位。
+故障转移过程中的第一步包括强制将用户从生产池移动到灾难恢复池。 这是强制移动，因为生产池将不能接受用户重定位。
 
-除了 RTC SQL 数据库上的记录更新之外，Skype for Business 服务器移动用户进程对用户帐户对象上的属性的更改很有效。 通过使用标准 SQL Server 还原过程或使用第三方备份/还原实用工具，可以从生产 SQL Server 中的原始备份转储设备还原此数据。
+除了 RTC 数据库上的记录更新之外，Skype for Business Server 移动用户过程实际上是对用户帐户对象上的SQL更改。 可以使用标准 SQL Server SQL Server 还原过程，或者使用第三方备份/还原实用工具从生产环境中从原始备份转储设备还原此数据。
 
-还原此数据后，用户可以有效地连接到灾难恢复池，并照常运行。 若要使用户能够连接到灾难恢复池，则需要更改 DNS 记录。
+还原此数据后，用户可以有效地连接到灾难恢复池，并像往常一样运行。 若要使用户能够连接到灾难恢复池，需要更改 DNS 记录。
 
-使用以下各项的自动配置和 DNS SRV 记录，客户端将引用生产版 Skype for Business 池：
+使用自动配置和 DNS SRV 记录的客户端将引用生产 Skype for Business 池：
 
-- SRV： _sip _tls。\<域>/CNAME： SIP。\<域>
-- CNAME： SIP。\<域>/cvc-pool-1。\<域>
+- SRV：_sip._tls。\<domain> /CNAME：SIP。\<domain>
+- CNAME：SIP。\<domain> /cvc-pool-1.\<domain>
 
-为促进故障转移，必须更新此 CNAME 记录以引用 DROCSPool FQDN：
+为了便于进行故障转移，必须更新此 CNAME 记录以引用 DROCSPool FQDN：
 
-- CNAME： SIP。<domain> /DROCSPool.\<域>
-- Sip.\<域>
-- > 的\<AV 域
-- webconf.\<域>
+- CNAME：SIP。<domain> /DROCSPool。\<domain>
+- Sip。\<domain>
+- AV。\<domain>
+- webconf。\<domain>

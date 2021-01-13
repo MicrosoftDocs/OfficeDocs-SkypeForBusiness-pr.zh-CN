@@ -1,8 +1,8 @@
 ---
 title: Region 表
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
-description: 区域表是支持表。 每条记录表示在 "网络配置" 设置中定义的一个国家/地区。
-ms.openlocfilehash: 8e3a0bbe37b1197bae1f35b8fc2ac05f54c5846d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 区域表是一个支持表。 每条记录代表网络配置设置中定义的一个国家/区域。
+ms.openlocfilehash: fe38d71c433e540a381e87d7952a8eb6d57ecb5b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806220"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834402"
 ---
 # <a name="region-table"></a>Region 表
  
-区域表是支持表。 每条记录表示在 "网络配置" 设置中定义的一个国家/地区。
+区域表是一个支持表。每条记录代表网络配置设置中定义的一个国家/区域。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**RegionKey** <br/> |int  <br/> |Primary  <br/> |标识国家/地区的唯一号码。  <br/> |
-|**RegionName** <br/> |nvarchar  <br/> |唯一  <br/> |国家/地区的名称。  <br/> |
+|**RegionKey** <br/> |int  <br/> |主  <br/> |标识国家/区域的唯一编号。  <br/> |
+|**RegionName** <br/> |nvarchar (128)   <br/> |独特  <br/> |国家/区域的名称。  <br/> |
    
 

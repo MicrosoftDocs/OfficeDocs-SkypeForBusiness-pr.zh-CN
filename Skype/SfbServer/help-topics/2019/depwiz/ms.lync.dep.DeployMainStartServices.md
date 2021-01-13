@@ -1,8 +1,8 @@
 ---
 title: 启动服务
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要在已部署的服务器角色上启动服务，请单击步骤4：启动服务中的 "运行"。 您必须以本地管理员组的成员或同等身份登录。
-ms.openlocfilehash: 2f80e613d79613fb3e03837a9059306196638b84
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '要启动部署的服务器角色上的服务，请单击“步骤 4: 启动服务”中的“运行”。 必须以本地 Administrators 组的成员或等效身份登录。'
+ms.openlocfilehash: 73dd906ff5cc86a5c3606d82ca665bb6c689a928
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794781"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833762"
 ---
 # <a name="start-services"></a>启动服务
  
-若要在已部署的服务器角色上启动服务，请单击**步骤4：启动服务**中的 "**运行**"。 您必须以本地管理员组的成员或同等身份登录。 
+要启动部署的服务器角色上的服务，请单击“步骤 4: 启动服务”中的“运行”。必须以本地 Administrators 组的成员或等效身份登录。 
   
 > [!NOTE]
-> 如果 "**启动服务**" 已运行，则可以通过再次单击 "**运行**" 来重新运行该命令。 
+> 如果已运行“启动服务”，可以单击“再次运行”来重新运行此命令。 
   
 

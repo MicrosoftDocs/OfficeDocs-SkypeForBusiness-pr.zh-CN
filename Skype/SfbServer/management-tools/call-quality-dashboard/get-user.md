@@ -1,8 +1,8 @@
 ---
 title: 获取用户
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,41 +12,41 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: 摘要：了解 "获取用户" 操作（这是用户服务的一部分）。 用户服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: e07a232b61e5ef0bb7462b3fff58d642a14496ec
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解作为用户服务的一部分的"获取用户"操作。 用户服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+ms.openlocfilehash: dd2bb5e46ddbe3e65faf441a11e39cbc5429e473
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816731"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832412"
 ---
 # <a name="get-user"></a>获取用户
  
-**摘要：** 了解 "获取用户" 操作，该操作是用户服务的一部分。 用户服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
+**摘要：** 了解作为用户服务的一部分的"获取用户"操作。 用户服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
   
-"获取用户" 操作是 "资源库 API for 通话质量" 仪表板中的用户服务的一部分。
+Get Users 操作是呼叫质量仪表板的存储库 API 中的用户服务的一部分。
   
 ## <a name="get-user"></a>获取用户
 
-获取用户从存储库返回用户记录。
+Get User 从存储库返回用户记录。
   
-|**种**|**请求 URI**|**HTTP 版本**|
+|**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|获取  <br/> |https://\<portal\>/QoERepositoryService/repository/user/{userId}  <br/> |HTTP/1。1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}  <br/> |HTTP/1.1  <br/> |
    
- **URI 参数**-无。
+ **URI 参数** - 无。
   
- **请求标题**-无其他标题。
+ **请求标头** - 无其他标头。
   
- **请求正文**-无。
+ **请求正文** - 无。
   
- **响应**-响应包括 HTTP 状态代码和一组响应标头。
+ **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码**-成功的操作返回状态代码200（OK）。 如果找不到指定的用户 ID，将返回状态代码404（未找到）。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。 如果找不到指定的用户 ID，它将返回状态代码 404 (未找到) 。
   
- **响应标题**-无其他标题。
+ **响应标头** - 无其他标头。
   
- **响应正文**-下面是 JSON 中的示例响应负载。
+ **响应正文** - 下面是 JSON 中的示例响应负载。
   
 ```json
 {
@@ -56,13 +56,13 @@ ms.locfileid: "41816731"
 }
 ```
 
- *userId* -用户 ID。
+ *userId*  - 用户的 ID。
   
- *loginName* -常规用户的外部用户标识。 如果使用 Windows 身份验证对用户进行身份验证，则这可能是用户的 FQDN。
+ *loginName*  - 常规用户的外部用户标识。 如果 Windows 身份验证用于验证用户，则这可能是用户的 FQDN。
   
- *defaultItemId* -此用户的默认项目的 ID。 默认项目是与用户关联的最顶部的项目。 此用户拥有的所有其他项目都可以从 "默认" 项目中进行导航。
+ *defaultItemId*  - 此用户的默认项目的 ID。 默认项目是与用户关联的最顶层项目。 此用户拥有的所有其他项目都可以从默认项目导航。
   
 > [!NOTE]
-> 提供用于`defaultItemId`获取项目操作的值以检索默认项目的详细信息。
+> 提供  `defaultItemId` 获取项目操作的值以检索默认项目的详细信息。
   
 

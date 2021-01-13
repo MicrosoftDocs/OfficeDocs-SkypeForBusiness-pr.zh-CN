@@ -1,7 +1,7 @@
 ---
-title: 管理 Microsoft 团队聊天室的 Windows 更新
-ms.author: v-lanac
-author: lanachin
+title: 管理 Microsoft Teams 会议室的 Windows 更新
+ms.author: v-cichur
+author: cichur
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 10/10/2018
@@ -13,41 +13,41 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
-description: 管理 Microsoft 团队聊天室的 Windows 更新
-ms.openlocfilehash: 9b195b4158f234146c362b65642d53960c9f5c24
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 管理 Microsoft Teams 会议室的 Windows 更新
+ms.openlocfilehash: 4f7fd6d49c78b229a3909e88689423dc95ce2c48
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817193"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832872"
 ---
 # <a name="manage-windows-updates"></a>管理 Windows 更新
 
-Microsoft 团队聊天室在 Windows 10 企业版 IoT 或 Windows 10 企业版（VL）上运行，并作为标准桌面接收相同的 Windows 更新和 OS 版本。
+Microsoft Teams 会议室在 Windows 10 企业版 IoT 或 Windows 10 企业版 (VL) 上运行，并接收与标准桌面相同的 Windows 更新和操作系统版本。
 
-可通过几种不同的方式管理 Windows 更新：
+可通过几种不同方式管理 Windows 更新：
 
-## <a name="hands-off-approach"></a>免提做法 
-- 更新可以直接从 Windows 更新下载并在下班期间安装。 如果未对配置进行任何更改，则这是默认状态。
-- 不可推迟的更新将会自动安装1天内的版本。 
+## <a name="hands-off-approach"></a>动手方法 
+- 可以直接从 Windows 更新下载更新，并可在非工作时间安装更新。 如果未对配置做出任何更改，则这是默认状态。
+- 不可延迟的更新将自动安装第一天发布。 
 - 质量更新和驱动程序将自动下载并安装第一天。 
 - 功能更新。 请参阅下面的其他说明。 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[适用于企业的 Windows 更新](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)（GPO 或 Intune）   
-- 从 WU 或你的 WSUS 下载更新，但已配置的延迟超过 KB 的原始发布日期。 
-- 与多个 OU 或筛选的策略相结合，这允许创建部署 "震铃"，管理员可在其中指定首先安装质量更新的设备，以及哪些设备将在以后安装。 这允许在跨整个部署中滚动更新之前对系统子集执行可靠性和性能测试，而无需在 Microsoft 终结点配置管理器中管理 Windows 更新的开销。
-- 如果你希望带宽管理和适用于企业的 Windows 更新的控件提供，则可以[同时配置](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb)WSUS 和 windows 更新 for business。
+## <a name="windows-updates-for-business-gpo-or-intune"></a>[适用于企业 (](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) GPO 或 Intune)    
+- 更新从 WU 或 WSUS 下载，但配置的延迟已过 KB 的原始发布日期。 
+- 结合多个 OU 或筛选的策略，这允许创建部署"圈"，其中管理员可以指定哪些设备先安装质量更新，哪些设备稍后安装。 这样，可以在整个部署中推出更新之前，在系统子集上进行可靠性和性能测试，而无需管理 Microsoft Endpoint Configuration Manager 中的 Windows 更新（例如）。
+- 如果你同时需要带宽管理和适用于企业 Windows[](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb)更新提供的控制，可以同时配置适用于 Business 的 WSUS 和 Windows 更新。
 - 功能更新。 请参阅下面的其他说明。
 
-## <a name="wsusconfiguration-managerhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/配置管理器](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
-- 与面向企业的 Windows 更新非常相似，但具有针对每个 "铃声" 或整个部署中特定的 KB 的附加选项。 每个更新都可以单独部署和测试，而不只是依赖于延迟。 
+## <a name="wsusconfiguration-manager"></a>[WSUS/Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+- 与适用于 Business 的 Windows 更新非常类似，但具有在每个"圈"或整个部署中定位特定 KB 的其他选项。 可以单独部署和测试每个更新，而不是仅依赖延迟。 
 - 功能更新。 请参阅下面的其他说明。
 
 
 ### <a name="feature-updates"></a>功能更新
 
-与 Quality 和非 Deferable 更新不同，Windows 10 "功能更新" （主要 OS 版本）将仅在 Microsoft 团队聊天室测试和验证给定更新功能之后安装。 即使已将其发布到半年频道（或目标系统将系统设置为用于测试的系统），或者甚至手动按您自己的尝试或配置手动推送，它也不会允许安装，直到删除端点上的块。
+与质量和非延迟更新不同，Windows 10"功能更新" (主要操作系统版本) 仅在 Microsoft 测试和验证 Microsoft Teams 会议室的给定更新功能后安装。 即使将其发布至 Semi-Annual Channel (或 Targeted（如果你将系统设置为该通道以测试) ，甚至手动推送到你自己的尝试或配置中，它将不会允许安装，直到我们端上的阻止被删除。
 
-Microsoft 团队聊天室 "开箱"，使用 "退出" 方法，将不会因 Windows 更新而自动安装 Windows 更新或重启设备。 但是，系统可能会下载更新并等待下一次重新启动进行安装。 除非有人手动重新启动，否则在每次自动重新启动时，安装应会发生。 在聊天室中，windows 更新应该是透明的，UI 永远不会被 Windows 更新中断。
+Microsoft Teams 会议室"开箱即用"使用"开箱即用"方法，将不会由于 Windows 更新而安装 Windows 更新或自动重新启动设备。 但是，系统可能会下载更新并等待下一次重启以安装它。 除非有人手动重新启动它，否则应在自动夜间重启时进行安装。 Windows 更新在聊天室中应该是透明的，并且 UI 永远不应被 Windows 更新中断。
 
-如果你选择加入域，请使用 Microsoft 终结点配置管理器或 WSUS，请特别注意可能导致设备安装更新或在工作时间强制重启的策略或操作。 如果你的部署在使用期间重启系统或通过 UI 发出有关 Windows 更新的警报，你将希望查看你的配置。
+如果选择加入域，请使用 Microsoft Endpoint Configuration Manager 或 WSUS，请特别注意可能导致设备在营业时间安装更新或强制重启的策略或操作。 如果你在使用期间或在 UI 上提醒 Windows 更新时部署重启系统，你将希望查看你的配置。

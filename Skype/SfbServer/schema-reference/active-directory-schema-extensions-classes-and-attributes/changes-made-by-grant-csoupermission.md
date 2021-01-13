@@ -1,8 +1,8 @@
 ---
-title: 由 Skype for Business Server 中的 "授权 CsOUPermission" 所做的更改
+title: Skype for Business Server Grant-CsOUPermission所做的更改
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,90 +12,90 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
-description: 要委派 Skype for Business 服务器管理，您可以向指定的组织单位（Ou）添加权限，以便林准备创建的 RTC 通用组的成员无需成为域管理员组的成员即可访问 Ou。
-ms.openlocfilehash: 8342d1801d2df91f940f02e8bfc05c3c5b91c4ff
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要委派 Skype for Business Server 管理，您可以向指定的组织单位 (OUs) 添加权限，以便林准备所创建的 RTC 通用组的成员无需是 Domain Admins 组的成员即可访问该 US。
+ms.openlocfilehash: 09a6d6baf554b18db0a388619ffb74c85c6963fd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815520"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831842"
 ---
-# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>由 Skype for Business Server 中的 "授权 CsOUPermission" 所做的更改
+# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Skype for Business Server Grant-CsOUPermission所做的更改
  
-要委派 Skype for Business 服务器管理，您可以向指定的组织单位（Ou）添加权限，以便林准备创建的 RTC 通用组的成员无需成为域管理员组的成员即可访问 Ou。 
+若要委派 Skype for Business Server 管理，您可以向指定的组织单位 (OUs) 添加权限，以便林准备所创建的 RTC 通用组的成员无需是 Domain Admins 组的成员即可访问该 US。 
   
-**CsOuPermission** cmdlet 按下表中指定的方式向指定 OU 中的对象授予权限。
+**Grant-CsOuPermission** cmdlet 向指定 OU 中的对象授予权限，如下表所示。
   
 ## <a name="granting-permission-for-user-objects"></a>为用户对象授予权限
 
-在 OU 上运行用户对象的**CsOuPermission** cmdlet 时，将向组授予下表中所示的权限。
+在对 OU 上的用户对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。
   
 **为用户对象授予的权限**
 
-|**团队**|**权限**|**适用于**|
+|**组**|**权限**|**适用于**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅此对象  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |列表内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅此对象  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |列表内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅此对象  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |阅读 RTCUserSearchPropertySet  <br/> 阅读 RTCUserProvisioningPropertySet  <br/> 阅读 RTCPropertySet  <br/> 阅读公共信息  <br/> 阅读常规信息  <br/> 阅读用户-帐户限制  <br/> |子代用户对象  <br/> |
-|RTCUniversalUserAdmins  <br/> |写 RTCUserSearchPropertySet  <br/> 写 msExchUCVoiceMailSettings  <br/> 写 RTCUserProvisioningPropertySet  <br/> 写 RTCPropertySet  <br/> 写 proxyAddresses  <br/> |子代用户对象  <br/> |
+|RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅限此对象  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |读取 RTCUserSearchPropertySet  <br/> 读取 RTCUserProvisioningPropertySet  <br/> 读取 RTCPropertySet  <br/> 读取 Public-Information  <br/> 读取 General-Information  <br/> 读取 User-Account-Restrictions  <br/> |后代用户对象  <br/> |
+|RTCUniversalUserAdmins  <br/> |写入 RTCUserSearchPropertySet  <br/> 写入 msExchUCVoiceMailSettings  <br/> 写入 RTCUserProvisioningPropertySet  <br/> 写入 RTCPropertySet  <br/> 写入 proxyAddresses  <br/> |后代用户对象  <br/> |
    
 ## <a name="granting-permission-for-computer-objects"></a>为计算机对象授予权限
 
-在 OU 上运行计算机对象的**CsOuPermission** cmdlet 时，将向组授予下表中所示的权限。
+在对 OU 上的计算机对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。
   
 **为计算机对象授予的权限**
 
-|**团队**|**权限**|**适用于**|
+|**组**|**权限**|**适用于**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅此对象  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |列表内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅此对象  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |列表内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅此对象  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |阅读公共信息  <br/> 读取已验证的 DNS 主机名  <br/> |子体计算机对象  <br/> |
-|RTCUniversalUserAdmins  <br/> |阅读公共信息  <br/> 读取已验证的 DNS 主机名  <br/> |子体计算机对象  <br/> |
+|RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅限此对象  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |读取 Public-Information  <br/> 读取 Validated-DNS-Host-Name  <br/> |后代计算机对象  <br/> |
+|RTCUniversalUserAdmins  <br/> |读取 Public-Information  <br/> 读取 Validated-DNS-Host-Name  <br/> |后代计算机对象  <br/> |
    
-## <a name="granting-permission-for-contact-or-appcontact-objects"></a>授予联系人或 AppContact 对象的权限
+## <a name="granting-permission-for-contact-or-appcontact-objects"></a>为联系人或 AppContact 对象授予权限
 
-当你为某个 OU 上的 Contact 对象或 AppContact 对象运行**CsOuPermission** cmdlet 时，将向组授予下表中所示的权限。
+在对 OU 上的联系人或 AppContact 对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。
   
-**为联系人或 AppContact 对象授予的权限**
+**为联系人对象或 AppContact 对象授予的权限**
 
-|**团队**|**权限**|**适用于**|
+|**组**|**权限**|**适用于**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅此对象  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |列表内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅此对象  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |列表内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅此对象  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |阅读 RTCUserSearchPropertySet  <br/> 阅读 RTCUserProvisioningPropertySet  <br/> 阅读 RTCPropertySet  <br/> 阅读公共信息  <br/> 阅读常规信息  <br/> 阅读个人信息  <br/> 阅读用户-帐户限制  <br/> |子代联系人对象  <br/> |
-|RTCUniversalUserAdmins  <br/> |写 RTCUserSearchPropertySet  <br/> 写 otherIpPhone  <br/> 写入 displayName  <br/> 写入说明  <br/> 写 telephoneNumber  <br/> 写 msExchUCVoiceMailSettings  <br/> 写 RTCUserProvisioningPropertySet  <br/> 写 RTCPropertySet  <br/> 写 proxyAddresses  <br/> |子代联系人对象  <br/> |
+|RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅限此对象  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |读取 RTCUserSearchPropertySet  <br/> 读取 RTCUserProvisioningPropertySet  <br/> 读取 RTCPropertySet  <br/> 读取 Public-Information  <br/> 读取 General-Information  <br/> 读取 Personal-Information  <br/> 读取 User-Account-Restrictions  <br/> |后代联系人对象  <br/> |
+|RTCUniversalUserAdmins  <br/> |写入 RTCUserSearchPropertySet  <br/> 写入 otherIpPhone  <br/> 写入 displayName  <br/> 写入 description  <br/> 写入 telephoneNumber  <br/> 写入 msExchUCVoiceMailSettings  <br/> 写入 RTCUserProvisioningPropertySet  <br/> 写入 RTCPropertySet  <br/> 写入 proxyAddresses  <br/> |后代联系人对象  <br/> |
    
 ## <a name="granting-permission-for-device-objects"></a>为设备对象授予权限
 
-在 OU 上运行设备对象的**CsOuPermission** cmdlet 时，将向组授予下表中所示的权限。
+在对 OU 上的设备对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。
   
 **为设备对象授予的权限**
 
-|**团队**|**权限**|**适用于**|
+|**组**|**权限**|**适用于**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅此对象  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |列表内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅此对象  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |列表内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅此对象  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |阅读 RTCUserSearchPropertySet  <br/> 阅读 RTCUserProvisioningPropertySet  <br/> 阅读 RTCPropertySet  <br/> 阅读公共信息  <br/> 阅读个人信息  <br/> 阅读常规信息  <br/> 阅读用户-帐户限制  <br/> |子代联系人对象  <br/> |
-|RTCUniversalUserAdmins  <br/> |创建子元素  <br/> 删除子元素  <br/> 删除树  <br/> |联系人  <br/> |
-|RTCUniversalUserAdmins  <br/> |写入 displayName  <br/> 写入说明  <br/> 写 telephoneNumber  <br/> |子代用户对象  <br/> |
-|RTCUniversalUserAdmins  <br/> |写 RTCUserSearchPropertySet  <br/> 写 otherIpPhone  <br/> 写入 displayName  <br/> 写入说明  <br/> 写 telephoneNumber  <br/> 写 msExchUCVoiceMailSettings  <br/> 写 RTCUserProvisioningPropertySet  <br/> 写 RTCPropertySet  <br/> 写 proxyAddresses  <br/> |子代联系人对象  <br/> |
+|RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅限此对象  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |读取 RTCUserSearchPropertySet  <br/> 读取 RTCUserProvisioningPropertySet  <br/> 读取 RTCPropertySet  <br/> 读取 Public-Information  <br/> 读取 Personal-Information  <br/> 读取 General-Information  <br/> 读取 User-Account-Restrictions  <br/> |后代联系人对象  <br/> |
+|RTCUniversalUserAdmins  <br/> |创建子级  <br/> 删除子级  <br/> 删除树  <br/> |Contact  <br/> |
+|RTCUniversalUserAdmins  <br/> |写入 displayName  <br/> 写入 description  <br/> 写入 telephoneNumber  <br/> |后代用户对象  <br/> |
+|RTCUniversalUserAdmins  <br/> |写入 RTCUserSearchPropertySet  <br/> 写入 otherIpPhone  <br/> 写入 displayName  <br/> 写入 description  <br/> 写入 telephoneNumber  <br/> 写入 msExchUCVoiceMailSettings  <br/> 写入 RTCUserProvisioningPropertySet  <br/> 写入 RTCPropertySet  <br/> 写入 proxyAddresses  <br/> |后代联系人对象  <br/> |
    
 ## <a name="granting-permission-for-inetorgperson-objects"></a>为 InetOrgPerson 对象授予权限
 
-当你针对 OU 上的 InetOrgPerson 对象运行**CsOuPermission** cmdlet 时，将向组授予下表中所示的权限。
+在对 OU 上的 InetOrgPerson 对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。
   
 **为 InetOrgPerson 对象授予的权限**
 
-|**团队**|**权限**|**适用于**|
+|**组**|**权限**|**适用于**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅此对象  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |列表内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅此对象  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |列表内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅此对象  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |阅读 RTCUserSearchPropertySet  <br/> 阅读 RTCUserProvisioningPropertySet  <br/> 阅读 RTCPropertySet  <br/> 阅读个人信息  <br/> 阅读公共信息  <br/> 阅读常规信息  <br/> 阅读用户-帐户限制  <br/> |子代 inetOrgPerson 对象  <br/> |
-|RTCUniversalUserAdmins  <br/> |写 RTCUserSearchPropertySet  <br/> 写 RTCUserProvisioningPropertySet  <br/> 写 RTCPropertySet  <br/> 写 proxyAddresses  <br/> |子代 inetOrgPerson 对象  <br/> |
+|RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅限此对象  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |读取 RTCUserSearchPropertySet  <br/> 读取 RTCUserProvisioningPropertySet  <br/> 读取 RTCPropertySet  <br/> 读取 Personal-Information  <br/> 读取 Public-Information  <br/> 读取 General-Information  <br/> 读取 User-Account-Restrictions  <br/> |后代 InetOrgPerson 对象  <br/> |
+|RTCUniversalUserAdmins  <br/> |写入 RTCUserSearchPropertySet  <br/> 写入 RTCUserProvisioningPropertySet  <br/> 写入 RTCPropertySet  <br/> 写入 proxyAddresses  <br/> |后代 InetOrgPerson 对象  <br/> |
    
 

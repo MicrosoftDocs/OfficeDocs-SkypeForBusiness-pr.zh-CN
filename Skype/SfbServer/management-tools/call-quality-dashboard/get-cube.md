@@ -1,8 +1,8 @@
 ---
 title: 获取多维数据集
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,45 +12,45 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: 摘要：了解有关 "获取多维数据集" 操作（这是 "调用质量" 仪表板的数据 API 的一部分）的信息。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: 1d8327439d79e7d02182dc7195bc0052bf6c923c
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 摘要：了解 Get Cube 操作，该操作是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+ms.openlocfilehash: a3527f21bc1751c23bba088ae06c3e6702cb8c8e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888821"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832622"
 ---
 # <a name="get-cube"></a>获取多维数据集
  
-**摘要：** 了解 "获取多维数据集" 操作，该操作是 "调用质量" 仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
+**摘要：** 了解"获取多维数据集"操作，该操作是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
   
-"获取多维数据集" 操作是 "调用质量" 仪表板的数据 API 的一部分。
+Get Cube 操作是通话质量仪表板的数据 API 的一部分。
   
 ## <a name="get-cube"></a>获取多维数据集
 
-获取多维数据集操作返回可用的维度和度量的列表。
+获取多维数据集操作返回可用维度和度量的列表。
   
 
-|**种**|**请求 URI**|**HTTP 版本**|
+|**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|获取  <br/> |https://\<portal\>/QoEDataService/CubeStructure  <br/> |HTTP/1。1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
    
- **URI 参数**-无。
+ **URI 参数** - 无。
   
- **请求标题**-无其他标题。
+ **请求标头** - 无其他标头。
   
- **请求正文**-无。
+ **请求正文** - 无。
   
- **响应**-响应包括 HTTP 状态代码和一组响应标头。
+ **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码**-成功的操作返回状态代码200（OK）。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。
   
- **响应标题**-无其他标题。
+ **响应标头** - 无其他标头。
   
- **响应正文**-下面是 JSON 中的示例响应负载。
+ **响应正文** - 下面是 JSON 中的示例响应负载。
   
 > [!NOTE]
-> 此示例仅显示每组多维数据集元素的前两个元素。 
+> 此示例只显示每个 Cube 元素组的前两个元素。 
   
 ```json
 {
@@ -93,10 +93,10 @@ ms.locfileid: "41888821"
 }
 ```
 
- *Kpi* -已保留。 请求负载的 "Kpi" 部分允许运行查询操作为多维数据集中定义的 Kpi 返回值。 QoE 多维数据集中尚无 Kpi。
+ *KPI*  - 保留。 请求有效负载的 KPI 部分允许运行查询操作返回多维数据集中定义的 KPI 的值。 QoE 多维数据集中尚不存在 KPI。
   
- *维度*-可用于运行查询操作的请求负载的筛选器和维度部分中的维度列表。 若要在筛选表达式中使用维度，需要指定维度成员，该成员可使用 "获取维度成员" 操作获取。
+ *Dimensions*  - 可用于运行查询操作的请求负载的"筛选器"和"维度"部分中的维度列表。 若要在筛选器表达式中使用维度，需要指定一维度成员，可以使用 Get Dimension Members 操作获取该维度。
   
- *度量*-可在运行查询操作的请求负载的度量部分中使用的度量的列表。
+ *度量*  - 运行查询操作的请求有效负载的"度量"部分可能使用的度量列表。
   
 

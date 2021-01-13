@@ -1,8 +1,8 @@
 ---
-title: 将 Skype for Business 服务器与 Exchange Server 集成
+title: 将 Skype for Business Server 与 Exchange Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -13,43 +13,43 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
-description: 摘要：查看 Exchange Server 2016 或 Exchange Server 2013 和 Skype for business 服务器的集成步骤。
-ms.openlocfilehash: ad8921c9c4c5c54809aa8323f60314dfc0826061
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 摘要：查看 Exchange Server 2016 或 Exchange Server 2013 和 Skype for Business Server 的集成步骤。
+ms.openlocfilehash: 6b5c63c0ad6783c11fd8fde25d1b00dc84d7e15a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41791650"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833732"
 ---
-# <a name="integrate-skype-for-business-server-with-exchange-server"></a>将 Skype for Business 服务器与 Exchange Server 集成
+# <a name="integrate-skype-for-business-server-with-exchange-server"></a>将 Skype for Business Server 与 Exchange Server
 
-**摘要：** 查看 Exchange Server 2013 或更高版本以及 Skype for business 服务器的集成步骤。
+**摘要：** 查看适用于 Exchange Server 2013 或更高版本和 Skype for Business Server 的集成步骤。
 
-Exchange Server 2013 或更高版本以及 Skype for business 服务器兼容并良好集成。 例如，可以在 Microsoft Outlook 中报告 Skype for Business 用户状态信息。同样，Skype for Business 可以访问用户的 Outlook 日历，请注意用户安排了会议，并在会议期间将用户的状态显示为 "忙碌"。 虽然您不必运行 Exchange Server 即可运行 Skype for Business 服务器（反之亦然），但这两个产品一起增强了用户体验。
+Exchange Server 2013 或更高版本与 Skype for Business Server 兼容且集成良好。 例如，Skype for Business 用户状态信息可以在 Microsoft Outlook 中报告;同样，Skype for Business 可以访问用户的 Outlook 日历，注意用户已安排会议，在会议期间将用户状态显示为忙碌。 尽管不需要运行 Exchange Server 运行 Skype for Business Server (反之亦然) 这两种产品共同增强了彼此的用户体验。
 
-本文档提供有关集成 Skype for Business Server 和 Exchange Server 2016 或 Exchange Server 2013 的信息，但假定这两种产品的初始设置和配置已经发生。 有关部署 Skype for Business 服务器的详细信息，请参阅[Skype for Business Server 技术中心](https://go.microsoft.com/fwlink/p/?LinkId=246127)。 有关部署 Exchange Server 的详细信息，请参阅 Exchange 版本的部署文档。
+本文档提供有关集成 Skype for Business Server 和 Exchange Server 2016 或 Exchange Server 2013 的信息，但它假定这两种产品的初始安装和配置已经发生。 有关部署 Skype for Business Server 的详细信息，请参阅 [Skype for Business Server 技术中心](https://go.microsoft.com/fwlink/p/?LinkId=246127)。 有关部署此Exchange Server请参阅 Exchange 版本的部署文档。
 
-如果你要将 Skype for business Server 的内部部署安装与 Microsoft Exchange Online 集成，请参阅[配置本地 skype for Business 服务器和 Outlook Web App 之间的集成](outlook-web-app.md)。
+如果要将 Skype for Business Server 本地安装与 Microsoft Exchange Online 集成，请参阅配置本地 [Skype for Business Server](outlook-web-app.md)与 Outlook Web App。
 
-如果你要将 Skype for Business Online 与内部部署 Exchange Server 集成，请参阅[在 skype For Business online 和 Exchange Online 之间配置 OAuth](oauth-with-online-and-on-premises.md)。
+如果要将 Skype for Business Online 与本地Exchange Server集成，请参阅在 Skype for Business Online 和本地 Exchange 之间[配置 OAuth。](oauth-with-online-and-on-premises.md)
 
 ## <a name="in-this-section"></a>本节内容
 
-[在 Skype for Business Server 和 Exchange Server 中配置合作伙伴应用程序](configure-partner-applications.md)
+[在 Skype for Business Server 和 Exchange Server](configure-partner-applications.md)
 
-[配置 Skype for Business 服务器以使用 Exchange Server 存档](use-exchange-archiving.md)
+[配置 Skype for Business Server 以使用Exchange Server存档](use-exchange-archiving.md)
 
 [配置 SharePoint Server 以搜索存档的 Skype for Business 数据](sharepoint-to-search-for-archived-data.md)
 
-[配置 Skype for Business Server 以使用统一联系人存储](use-the-unified-contact-store.md)
+[配置 Skype for Business Server 以使用统一的联系人存储](use-the-unified-contact-store.md)
 
-[在 Skype for Business 服务器中配置高分辨率照片的使用](high-resolution-photos.md)
+[在 Skype for Business Server 中配置高分辨率照片的使用](high-resolution-photos.md)
 
-[为 Skype for Business Server 语音邮件配置 Exchange Server 统一消息](exchangeunified-messaging-for-voice-mail.md)
+[为Exchange Server Skype for Business Server 语音邮件配置统一消息](exchangeunified-messaging-for-voice-mail.md)
 
-[集成 Skype for Business 服务器和 Microsoft Outlook Web App 2013](https://technet.microsoft.com/library/513d4cc7-aa87-4f68-b99d-d58b63bdf242.aspx)
+[集成 Skype for Business Server 和 Microsoft Outlook Web App 2013](https://technet.microsoft.com/library/513d4cc7-aa87-4f68-b99d-d58b63bdf242.aspx)
 
-[在客户端计算机上为 Skype for Business 服务器配置个人联系人存储](personal-contacts-store.md)
+[在客户端计算机上为 Skype for Business Server 配置个人联系人存储](personal-contacts-store.md)
 
 ## <a name="see-also"></a>另请参阅
 

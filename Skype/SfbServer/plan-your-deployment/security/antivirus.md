@@ -1,8 +1,8 @@
 ---
-title: Skype for business 服务器的防病毒扫描排除项
+title: Skype for Business Server 的防病毒扫描排除项
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Skype for business Server 的防病毒扫描程序互操作概述。
-ms.openlocfilehash: 10d296e36324fdbc8bca8f7da48370d619774501
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 防病毒扫描程序与 Skype for Business Server 的互操作概述。
+ms.openlocfilehash: b59a5c474a96d312ebe3a648536ebe827e684931
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815690"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832262"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Skype for business 服务器的防病毒扫描排除项
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Skype for Business Server 的防病毒扫描排除项
 
-Skype for business Server 的防病毒扫描程序互操作概述。
+防病毒扫描程序与 Skype for Business Server 的互操作概述。
 
-为确保防病毒扫描程序不会干扰 Skype for Business Server 的操作，您必须为运行防病毒扫描程序的每个 Skype for business 服务器或服务器角色排除特定的流程和目录。 应排除以下进程和目录：
+若要确保防病毒扫描程序不会干扰 Skype for Business Server 的操作，必须排除运行防病毒扫描程序的每个 Skype for Business Server 服务器或服务器角色的特定进程和目录。 应排除以下进程和目录：
 
 > [!NOTE]
-> 以下列出的文件夹和文件位置是 Skype for business 服务器的默认位置。 对于您没有使用默认值的任何位置，排除您为组织指定的位置，而不是本主题中指定的默认位置。
+> 下面列出的文件夹和文件位置是 Skype for Business Server 的默认位置。 对于您没有使用默认值的任何位置，排除您为组织指定的位置，而不是本主题中指定的默认位置。
 
 > [!IMPORTANT]
-> 请注意，某些防病毒程序可能需要对排除列表使用绝对路径而不是相对路径。
+> 请注意，某些防病毒程序可能需要绝对路径（而非相对路径）作为排除列表。
 
-- Skype for business 服务器流程：
+- Skype for Business Server 进程：
 
   - ABServer.exe
 
@@ -56,7 +56,7 @@ Skype for business Server 的防病毒扫描程序互操作概述。
 
   - IMMCUSvc.exe
   
-  - LyncBackupService
+  - LyncBackupService.exe
 
   - LysSvc.exe
 
@@ -82,7 +82,7 @@ Skype for business Server 的防病毒扫描程序互操作概述。
 
   - XmppTGW.exe
 
-- Windows Fabric Host Service 进程：
+- Windows Fabric 主机服务进程：
 
   - Fabric.exe
 
@@ -96,18 +96,18 @@ Skype for business Server 的防病毒扫描程序互操作概述。
 
   - %systemroot%\SysWOW64\inetsrv\w3wp.exe
 
-- SQL Server 后端进程：
+- SQL Server Back-End过程：
 
     > [!NOTE]
-    > 请注意，这些路径特定于 SQL Server 版本。
+    > 请注意，这些路径特定于SQL Server版本。
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\Binn\SQLServr.exe
 
-  - %ProgramFiles%\Microsoft SQL Server\MSRS11.MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
+  - %ProgramFiles%\Microsoft SQL Server\MSRS11。MSSQLSERVER\Reporting Services\ReportServer\Bin\ReportingServicesService.exe
 
   - %ProgramFiles%\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Bin\MSMDSrv.exe
 
-- SQL Server 前端进程：
+- SQL Server Front-End过程：
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.LYNCLOCAL\MSSQL\Binn\SQLServr.exe
 
@@ -126,9 +126,9 @@ Skype for business Server 的防病毒扫描程序互操作概述。
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > 请注意，这些路径特定于 Skype for business 服务器版本。
+    > 请注意，这些路径特定于 Skype for Business Server 版本。
 
-  - Skype for Business Server 2015
+  - %programfiles%\Skype for Business Server 2015
 
   - %programfiles%\Common Files\Skype for Business Server 2015\Watcher Node
 
@@ -140,8 +140,8 @@ Skype for business Server 的防病毒扫描程序互操作概述。
 
   - 文件共享存储（在拓扑生成器中指定）。文件存储在拓扑生成器中指定。
 
-  - SQL Server 数据和日志文件，包括后端数据库、用户存储、存档存储、监控存储和应用程序存储的这些文件。可以在拓扑生成器中指定数据库和日志文件。有关每个数据库的数据和日志文件的详细信息（包括默认名称），请参阅部署文档中的 [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)。
+  - SQL Server 数据和日志文件，包括后端数据库、用户存储、存档存储、监控存储和应用程序存储的这些文件。 可以在拓扑生成器中指定数据库和日志文件。 有关每个数据库的数据和日志文件的详细信息（包括默认名称），请参阅部署文档中的 [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)。
 
-  - SQL Server 数据和日志文件，包括前端数据库、Skype for Business 应用商店和 RtcDatabase 应用商店的文件。 它们通常位于 %localdrive%\CSData 下。
+  - SQL Server数据和日志文件，包括前端数据库、Skype for Business 存储和 RtcDatabase 存储的数据和日志文件。 它们通常在 %localdrive%\CSData 下。
 
 

@@ -1,8 +1,8 @@
 ---
 title: 示例 QoE 数据库查询
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
-description: 本部分包含适用于体验质量（QoE）数据库的示例查询。
-ms.openlocfilehash: 099e0ed179ab22e3610aaf8b00d3745a315bb734
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 本节包含用户体验质量 (QoE) 数据库的示例查询。
+ms.openlocfilehash: efc26064e52464ffc2e92e24d5af8dd848368b56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888651"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834362"
 ---
 # <a name="sample-qoe-database-queries"></a>示例 QoE 数据库查询
  
-本部分包含适用于体验质量（QoE）数据库的示例查询。 
+本节包含用户体验质量 (QoE) 数据库的示例查询。 
   
-使用以下示例获取所有音频流的抖动和数据包平均损失。
+下面的示例用于获取所有音频流的抖动和丢包平均值。
   
 ```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-使用以下示例查找使用会议控制台的会议总数。
+下面的示例用于查找使用 Meeting Console 的会议总数。
   
 ```SQL
 select avg(ConversationalMOS)
@@ -43,7 +43,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and s.CalleeUserAgentType = 4 -- Lync
 ```
 
-使用以下示例获取每个捕获设备的 ConversstionalMOS、SendingMOS 和 ListendingMOS。
+下面的示例用于获取每个捕获设备的 ConversstionalMOS、SendingMOS 和 ListendingMOS。
   
 ```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
