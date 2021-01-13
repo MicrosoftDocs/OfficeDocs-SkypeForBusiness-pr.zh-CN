@@ -1,8 +1,8 @@
 ---
 title: 证书请求（组织信息）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
-description: 通过 "组织信息" 窗格，你可以指定你的组织的名称和请求证书的组织单位（OU）（通常为部门或部门）。 在 "组织" 和 "组织单位" 文本框中键入的信息将显示在证书上，并用于标识证书被其他人查看时申请证书的用户。
-ms.openlocfilehash: 4df368d7138a4613ebb7a6032103b714bc6f9b86
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 通过“组织信息”窗格，可以指定组织和请求证书的组织单位 (OU)（通常是分部或部门）的名称。 在“组织”和“组织单位”文本框中键入的信息显示在证书上，用于在其他人查看证书时标识请求证书的用户。
+ms.openlocfilehash: 8156466c46affff59d07f4418eb2af11676a820f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823816"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805152"
 ---
-# <a name="certificate-request-organization-information"></a><span data-ttu-id="93023-104">证书请求（组织信息）</span><span class="sxs-lookup"><span data-stu-id="93023-104">Certificate Request (Organization Information)</span></span>
+# <a name="certificate-request-organization-information"></a><span data-ttu-id="cd9c9-104">证书请求（组织信息）</span><span class="sxs-lookup"><span data-stu-id="cd9c9-104">Certificate Request (Organization Information)</span></span>
  
-<span data-ttu-id="93023-105">通过 "**组织信息**" 窗格，你可以指定你的组织的名称和请求证书的组织单位（OU）（通常为部门或部门）。</span><span class="sxs-lookup"><span data-stu-id="93023-105">The **Organization Information** pane enables you to specify the name of your organization and an organizational unit (OU) (usually the division or department) that requests the certificate.</span></span> <span data-ttu-id="93023-106">在 "**组织**" 和 "**组织单位**" 文本框中键入的信息将显示在证书上，并用于标识证书被其他人查看时申请证书的用户。</span><span class="sxs-lookup"><span data-stu-id="93023-106">The information that you type in the **Organization** and the **Organizational Unit** text boxes appears on the certificate and is used to identify who requested the certificate, when the certificate is viewed by others.</span></span>
+<span data-ttu-id="cd9c9-p102">通过“组织信息”窗格，可以指定组织和请求证书的组织单位 (OU)（通常是分部或部门）的名称。在“组织”和“组织单位”文本框中键入的信息显示在证书上，用于在其他人查看证书时标识请求证书的用户。</span><span class="sxs-lookup"><span data-stu-id="cd9c9-p102">The **Organization Information** pane enables you to specify the name of your organization and an organizational unit (OU) (usually the division or department) that requests the certificate. The information that you type in the **Organization** and the **Organizational Unit** text boxes appears on the certificate and is used to identify who requested the certificate, when the certificate is viewed by others.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="93023-107">证书上的 OU 名称不一定与 Active Directory 域服务中的 OU 相同。</span><span class="sxs-lookup"><span data-stu-id="93023-107">The OU name on a certificate is not necessarily the same as an OU in Active Directory Domain Services.</span></span> <span data-ttu-id="93023-108">根据您配置的 Active Directory 的不同，您使用的名称可能是或不相同。</span><span class="sxs-lookup"><span data-stu-id="93023-108">Depending on how you have configured Active Directory, the name that you use may or may not be the same.</span></span> 
+> <span data-ttu-id="cd9c9-107">证书上的 OU 名称不一定与 Active Directory 域服务中的 OU 相同。</span><span class="sxs-lookup"><span data-stu-id="cd9c9-107">The OU name on a certificate is not necessarily the same as an OU in Active Directory Domain Services.</span></span> <span data-ttu-id="cd9c9-108">根据 Active Directory 的配置方式，使用的名称可能相同，也可能不同。</span><span class="sxs-lookup"><span data-stu-id="cd9c9-108">Depending on how you have configured Active Directory, the name that you use may or may not be the same.</span></span> 
   
 

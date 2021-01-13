@@ -1,8 +1,8 @@
 ---
 title: 验证林准备的复制
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要在林准备中确认全局编录和创建对象的复制是否成功，请执行下列操作：
-ms.openlocfilehash: 371846c77c2a41278edaddd753906b46668e7699
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要确认在林准备期间成功复制全局编录和创建对象，请执行下列操作：
+ms.openlocfilehash: 299b738bbfa14ad13825e5c08e87c03167c9f4cc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794751"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801592"
 ---
-# <a name="verify-replication-of-forest-preparation"></a><span data-ttu-id="76249-103">验证林准备的复制</span><span class="sxs-lookup"><span data-stu-id="76249-103">Verify Replication of Forest Preparation</span></span>
+# <a name="verify-replication-of-forest-preparation"></a><span data-ttu-id="f5860-103">验证林准备的复制</span><span class="sxs-lookup"><span data-stu-id="f5860-103">Verify Replication of Forest Preparation</span></span>
  
-<span data-ttu-id="76249-104">若要在林准备中确认全局编录和创建对象的复制是否成功，请执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="76249-104">To confirm that the replication of the Global Catalog and the creation of objects during Forest Preparation have been successful, do the following:</span></span>
+<span data-ttu-id="f5860-104">若要确认在林准备期间成功复制全局编录和创建对象，请执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="f5860-104">To confirm that the replication of the Global Catalog and the creation of objects during Forest Preparation have been successful, do the following:</span></span>
   
-1. <span data-ttu-id="76249-105">在运行林准备的林中的域控制器上（最好在其他域控制器的远程站点中），打开“**Active Directory 用户和计算机**”。</span><span class="sxs-lookup"><span data-stu-id="76249-105">On a domain controller (preferably in a remote site from the other domain controllers), in the forest where the Forest Preparation was run, open **Active Directory Users and Computers**.</span></span>
+1. <span data-ttu-id="f5860-105">在域控制器 (最好在其他域控制器) 的远程站点中，在运行林准备的林中，打开 **Active Directory 用户和计算机**。</span><span class="sxs-lookup"><span data-stu-id="f5860-105">On a domain controller (preferably in a remote site from the other domain controllers), in the forest where the Forest Preparation was run, open **Active Directory Users and Computers**.</span></span>
     
-2. <span data-ttu-id="76249-106">在“**Active Directory 用户和计算机**”中，展开林或子域的域名。</span><span class="sxs-lookup"><span data-stu-id="76249-106">In **Active Directory Users and Computers**, expand the domain name of your forest or a child domain.</span></span>
+2. <span data-ttu-id="f5860-106">在 **“Active Directory 用户和计算机”** 中，展开林或子域的域名。</span><span class="sxs-lookup"><span data-stu-id="f5860-106">In **Active Directory Users and Computers**, expand the domain name of your forest or a child domain.</span></span>
     
-3. <span data-ttu-id="76249-107">单击左侧窗格中的 "**用户**" 容器，然后在右侧窗格中查找 "通用组" CsAdministrator。</span><span class="sxs-lookup"><span data-stu-id="76249-107">Click the **Users** container on the left side pane and look for the Universal group CsAdministrator in the right side pane.</span></span> <span data-ttu-id="76249-108">如果 CsAdministrator （在八个其他以 Cs 开头的新通用组中）存在，则林准备复制已成功。</span><span class="sxs-lookup"><span data-stu-id="76249-108">If CsAdministrator (among eight other new Universal groups that begin with Cs) is present, replication of the Forest Preparation has been successful.</span></span>
+3. <span data-ttu-id="f5860-107">单击 **左侧窗格** 上的"用户"容器，在右侧窗格中查找通用组 CsAdministrator。</span><span class="sxs-lookup"><span data-stu-id="f5860-107">Click the **Users** container on the left side pane and look for the Universal group CsAdministrator in the right side pane.</span></span> <span data-ttu-id="f5860-108">如果 CsAdministrator (以 Cs) 开头的其他八个新通用组，则林准备复制已成功完成。</span><span class="sxs-lookup"><span data-stu-id="f5860-108">If CsAdministrator (among eight other new Universal groups that begin with Cs) is present, replication of the Forest Preparation has been successful.</span></span>
     
-4. <span data-ttu-id="76249-109">如果组尚不存在，则可以强制执行复制或等待15分钟，并刷新右侧窗格。</span><span class="sxs-lookup"><span data-stu-id="76249-109">If the group(s) is not yet present, you can force the replication or wait 15 minutes and refresh the right side pane.</span></span> <span data-ttu-id="76249-110">显示组后，表明复制完成。</span><span class="sxs-lookup"><span data-stu-id="76249-110">When the groups are present, replication is complete.</span></span>
+4. <span data-ttu-id="f5860-p102">如果未显示这些组，可以强制复制或等待 15 分钟后再刷新右侧窗格。显示组后，表明复制完成。</span><span class="sxs-lookup"><span data-stu-id="f5860-p102">If the group(s) is not yet present, you can force the replication or wait 15 minutes and refresh the right side pane. When the groups are present, replication is complete.</span></span>
     
 > [!TIP]
-> <span data-ttu-id="76249-111">如果您想要查看由 Skype for Business 服务器部署向导创建的日志文件，可以在运行该步骤的 Active Directory 域服务用户的用户目录中的 "部署向导" 计算机上找到它们。</span><span class="sxs-lookup"><span data-stu-id="76249-111">If you want to review the log files that are created by the Skype for Business Server Deployment Wizard, you can find them on the computer where the Deployment Wizard was run, in the Users directory of the Active Directory Domain Services user who ran the step.</span></span> <span data-ttu-id="76249-112">例如，如果用户在域 Contoso.net 中以域管理员身份登录，则日志文件位于： C:\Users\Administrator.Contoso\AppData\Local\Temp</span><span class="sxs-lookup"><span data-stu-id="76249-112">For example, if the user logged in as the domain administrator in the domain Contoso.net, the log files are located in: C:\Users\Administrator.Contoso\AppData\Local\Temp</span></span> 
+> <span data-ttu-id="f5860-111">如果要查看由 Skype for Business Server 部署向导创建的日志文件，可以在运行部署向导的计算机上找到这些文件，位于运行该步骤的 Active Directory 域服务用户的 Users 目录中。</span><span class="sxs-lookup"><span data-stu-id="f5860-111">If you want to review the log files that are created by the Skype for Business Server Deployment Wizard, you can find them on the computer where the Deployment Wizard was run, in the Users directory of the Active Directory Domain Services user who ran the step.</span></span> <span data-ttu-id="f5860-112">例如，如果用户以域 Contoso.net 域管理员身份登录，则日志文件位于：C：\Users\Administrator.Contoso\AppData\Local\Temp</span><span class="sxs-lookup"><span data-stu-id="f5860-112">For example, if the user logged in as the domain administrator in the domain Contoso.net, the log files are located in: C:\Users\Administrator.Contoso\AppData\Local\Temp</span></span> 
   
 

@@ -1,8 +1,8 @@
 ---
 title: 混合可管理性向导
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
-description: 你可以使用混合管理向导执行一些配置任务，这些任务是使用 Skype for Business Online 设置混合部署所必需的。 有关如何配置混合部署的详细信息，请参阅通过混合管理向导配置你的环境。
-ms.openlocfilehash: 3d377a9e3928e62eaf8ab88281ca6e533cfeca9f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 可以使用混合可管理性向导执行设置 Skype for Business Online 混合部署所需的一些配置任务。 若要详细了解如何配置混合部署，请参阅"使用混合可管理性"向导配置环境。
+ms.openlocfilehash: ca10abaf9f5249b3265ada08024f91c755d72712
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822745"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804072"
 ---
-# <a name="hybrid-manageability-wizard"></a><span data-ttu-id="23eed-104">混合可管理性向导</span><span class="sxs-lookup"><span data-stu-id="23eed-104">Hybrid Manageability wizard</span></span>
+# <a name="hybrid-manageability-wizard"></a><span data-ttu-id="dac99-104">混合可管理性向导</span><span class="sxs-lookup"><span data-stu-id="dac99-104">Hybrid Manageability wizard</span></span>
 
-<span data-ttu-id="23eed-105">你可以使用混合管理向导执行一些配置任务，这些任务是使用 Skype for Business Online 设置混合部署所必需的。</span><span class="sxs-lookup"><span data-stu-id="23eed-105">You can use the Hybrid Manageability wizard to perform some of the configuration tasks necessary to set up a hybrid deployment with Skype for Business Online.</span></span> <span data-ttu-id="23eed-106">有关如何配置混合部署的详细信息，请参阅[通过混合管理向导配置你的环境](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。</span><span class="sxs-lookup"><span data-stu-id="23eed-106">For more information about how to configure your deployment for hybrid, see [Configure your environment with the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="dac99-105">可以使用混合可管理性向导执行设置 Skype for Business Online 混合部署所需的一些配置任务。</span><span class="sxs-lookup"><span data-stu-id="dac99-105">You can use the Hybrid Manageability wizard to perform some of the configuration tasks necessary to set up a hybrid deployment with Skype for Business Online.</span></span> <span data-ttu-id="dac99-106">若要详细了解如何配置混合部署，请参阅"使用混合可管理性"向导 [配置环境](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。</span><span class="sxs-lookup"><span data-stu-id="dac99-106">For more information about how to configure your deployment for hybrid, see [Configure your environment with the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

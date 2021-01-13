@@ -1,8 +1,8 @@
 ---
 title: 持久聊天外接程序
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,54 +14,54 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
-description: 你可以使用持久聊天页面的加载项部分将 Url 与持久聊天室相关联。 这些 URL 将显示在对话可扩展性窗格的聊天室中的客户端中。 管理员必须将外接程序添加到注册的外接程序列表中，且聊天室管理员/创建者必须将聊天室与其中一个注册的外接程序相关联，这样用户才能在其客户端中看到此升级。
-ms.openlocfilehash: 2122f07bb51167dbaea6eb7d0881443e1ff44575
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 您可以使用"持久聊天"页的"外接程序"部分将 URL 与持久聊天室关联。 这些 URL 显示在对话扩展性窗格中聊天室的客户端中。 管理员必须将外接程序添加到已注册的外接程序列表中，并且聊天室管理员/创建者必须将聊天室与其中一个已注册的外接程序关联，用户才能在客户端中查看此升级。
+ms.openlocfilehash: 306cd54864400362a869db34d79f1fe6241d81ef
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822565"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803772"
 ---
-# <a name="persistent-chat-add-in"></a><span data-ttu-id="e7871-105">持久聊天外接程序</span><span class="sxs-lookup"><span data-stu-id="e7871-105">Persistent Chat Add-in</span></span>
+# <a name="persistent-chat-add-in"></a><span data-ttu-id="32010-105">持久聊天外接程序</span><span class="sxs-lookup"><span data-stu-id="32010-105">Persistent Chat Add-in</span></span>
 
-<span data-ttu-id="e7871-106">你可以使用**持久聊天**页面的**加载项**部分将 url 与持久聊天室相关联。</span><span class="sxs-lookup"><span data-stu-id="e7871-106">You can use the **Add-in** section of the **Persistent Chat** page to associate URLs with Persistent Chat rooms.</span></span> <span data-ttu-id="e7871-107">这些 URL 将显示在对话可扩展性窗格的聊天室中的客户端中。</span><span class="sxs-lookup"><span data-stu-id="e7871-107">These URLs appear in the client in the chat room in the conversation extensibility pane.</span></span> <span data-ttu-id="e7871-108">管理员必须将外接程序添加到注册的外接程序列表中，且聊天室管理员/创建者必须将聊天室与其中一个注册的外接程序相关联，这样用户才能在其客户端中看到此升级。</span><span class="sxs-lookup"><span data-stu-id="e7871-108">An administrator must add Add-ins to the list of registered add-ins, and chat room managers/Creators must associate rooms with one of the registered add-ins before users can see this upgrade in their client.</span></span>
+<span data-ttu-id="32010-106">您可以使用" **持久聊天"** 页的"外接程序" **部分将** URL 与持久聊天室关联。</span><span class="sxs-lookup"><span data-stu-id="32010-106">You can use the **Add-in** section of the **Persistent Chat** page to associate URLs with Persistent Chat rooms.</span></span> <span data-ttu-id="32010-107">这些 URL 显示在对话扩展性窗格中聊天室的客户端中。</span><span class="sxs-lookup"><span data-stu-id="32010-107">These URLs appear in the client in the chat room in the conversation extensibility pane.</span></span> <span data-ttu-id="32010-108">管理员必须将外接程序添加到已注册的外接程序列表中，并且聊天室管理员/创建者必须将聊天室与其中一个已注册的外接程序关联，用户才能在客户端中查看此升级。</span><span class="sxs-lookup"><span data-stu-id="32010-108">An administrator must add Add-ins to the list of registered add-ins, and chat room managers/Creators must associate rooms with one of the registered add-ins before users can see this upgrade in their client.</span></span>
 
-<span data-ttu-id="e7871-109">外接程序用于扩展聊天室内体验。</span><span class="sxs-lookup"><span data-stu-id="e7871-109">Add-ins are used to extend the in-room experience.</span></span> <span data-ttu-id="e7871-110">典型外接程序可能包含指向 Silverlight 应用程序的 URL，该应用程序在将股票行情滚动到聊天室时进行截获，并在 "扩展性" 窗格中显示股票历史记录。</span><span class="sxs-lookup"><span data-stu-id="e7871-110">A typical add-in might include a URL pointing to a Silverlight application that intercepts when a stock ticker is posted to a chat room, and shows the stock history in the extensibility pane.</span></span> <span data-ttu-id="e7871-111">其他示例包括将 OneNote 2013 URL 作为外接程序嵌入聊天室，以包括一些共享上下文，如“指导思想”或“今日主题”。</span><span class="sxs-lookup"><span data-stu-id="e7871-111">Other examples include embedding a OneNote 2013 URL in the chat room as an add-in to include some shared context, such as "Top of mind" or "Topic of the day."</span></span>
+<span data-ttu-id="32010-109">外接程序用于扩展聊天室内体验。</span><span class="sxs-lookup"><span data-stu-id="32010-109">Add-ins are used to extend the in-room experience.</span></span> <span data-ttu-id="32010-110">典型的外接程序可能包括指向 Silverlight 应用程序的 URL，该应用程序在将股票代码张贴到聊天室时截获，在可扩展性窗格中显示股票历史记录。</span><span class="sxs-lookup"><span data-stu-id="32010-110">A typical add-in might include a URL pointing to a Silverlight application that intercepts when a stock ticker is posted to a chat room, and shows the stock history in the extensibility pane.</span></span> <span data-ttu-id="32010-111">其他示例包括将 OneNote 2013 URL 作为外接程序嵌入聊天室，以包括一些共享上下文，例如“第一个想到的品牌”(Top of mind) 或“今日主题”(Topic of the day)。</span><span class="sxs-lookup"><span data-stu-id="32010-111">Other examples include embedding a OneNote 2013 URL in the chat room as an add-in to include some shared context, such as "Top of mind" or "Topic of the day."</span></span>
 
-<span data-ttu-id="e7871-112">若要为持久聊天室创建外接程序，请参阅[在 Skype for Business Server 2015 中配置持久聊天室的加载项](../../manage/persistent-chat/configure-add-ins.md)。</span><span class="sxs-lookup"><span data-stu-id="e7871-112">To create Add-ins for Persistent Chat rooms, see [Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015](../../manage/persistent-chat/configure-add-ins.md).</span></span> <span data-ttu-id="e7871-113">如果您是持久的聊天管理员，则可以使用控制面板或 Windows PowerShell cmdlet 创建外接程序。</span><span class="sxs-lookup"><span data-stu-id="e7871-113">If you are a Persistent Chat Administrator, you can create add-ins by using the control panel or Windows PowerShell cmdlets.</span></span>
+<span data-ttu-id="32010-112">若要为持久聊天室创建外接程序，请参阅在 Skype [for Business Server 2015](../../manage/persistent-chat/configure-add-ins.md)中为持久聊天室配置外接程序。</span><span class="sxs-lookup"><span data-stu-id="32010-112">To create Add-ins for Persistent Chat rooms, see [Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015](../../manage/persistent-chat/configure-add-ins.md).</span></span> <span data-ttu-id="32010-113">如果您是持久聊天管理员，可以使用控制面板或 Windows PowerShell cmdlet 创建外接程序。</span><span class="sxs-lookup"><span data-stu-id="32010-113">If you are a Persistent Chat Administrator, you can create add-ins by using the control panel or Windows PowerShell cmdlets.</span></span>
 
-## <a name="tasks-that-you-can-perform"></a><span data-ttu-id="e7871-114">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="e7871-114">Tasks that you can perform</span></span>
+## <a name="tasks-that-you-can-perform"></a><span data-ttu-id="32010-114">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="32010-114">Tasks that you can perform</span></span>
 
-<span data-ttu-id="e7871-115">您可以在“**外接程序**”页上执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="e7871-115">You can perform the following tasks on the **Add-in** page:</span></span>
+<span data-ttu-id="32010-115">您可以在“外接程序”页上执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="32010-115">You can perform the following tasks on the **Add-in** page:</span></span>
 
-- [<span data-ttu-id="e7871-116">在 Skype for Business Server 2015 中配置持久聊天室的加载项</span><span class="sxs-lookup"><span data-stu-id="e7871-116">Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015</span></span>](../../manage/persistent-chat/configure-add-ins.md)
+- [<span data-ttu-id="32010-116">在 Skype for Business Server 2015 中为持久聊天室配置外接程序</span><span class="sxs-lookup"><span data-stu-id="32010-116">Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015</span></span>](../../manage/persistent-chat/configure-add-ins.md)
 
-## <a name="to-configure-add-ins-for-chat-rooms"></a><span data-ttu-id="e7871-117">配置聊天室外接程序</span><span class="sxs-lookup"><span data-stu-id="e7871-117">To configure Add-ins for chat rooms</span></span>
+## <a name="to-configure-add-ins-for-chat-rooms"></a><span data-ttu-id="32010-117">配置聊天室外接程序</span><span class="sxs-lookup"><span data-stu-id="32010-117">To configure Add-ins for chat rooms</span></span>
 
-<span data-ttu-id="e7871-118">下表介绍了该页上的菜单、命令、字段和属性。</span><span class="sxs-lookup"><span data-stu-id="e7871-118">The following lists describe the menus, command, fields, and properties on the page.</span></span>
+<span data-ttu-id="32010-118">下表介绍了该页上的菜单、命令、字段和属性。</span><span class="sxs-lookup"><span data-stu-id="32010-118">The following lists describe the menus, command, fields, and properties on the page.</span></span>
 
-1. <span data-ttu-id="e7871-119">使用分配给 CsPersistentChatAdministrator 或 CsAdministrator 角色的用户帐户登录您的本地部署中的任一计算机。</span><span class="sxs-lookup"><span data-stu-id="e7871-119">From a user account that is assigned to the CsPersistentChatAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="32010-119">使用分配给 CsPersistentChatAdministrator 或 CsAdministrator 角色的用户帐户登录到您的本地部署中的任一计算机。</span><span class="sxs-lookup"><span data-stu-id="32010-119">From a user account that is assigned to the CsPersistentChatAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2. <span data-ttu-id="e7871-120">从 "**开始**" 菜单中，选择 "Skype For business 服务器" 控制面板或打开一个浏览器窗口，然后输入管理员 URL。</span><span class="sxs-lookup"><span data-stu-id="e7871-120">From the **Start** menu, select the Skype for Business Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="e7871-121">有关可用于启动控制面板的不同方法的详细信息，请参阅[Open Lync Server Administrative Tools](https://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx)。</span><span class="sxs-lookup"><span data-stu-id="e7871-121">For details about the different methods that you can use to start the control panel, see [Open Lync Server Administrative Tools](https://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx).</span></span>
+2. <span data-ttu-id="32010-120">从 **"开始** "菜单中，选择 Skype for Business Server 控制面板或打开浏览器窗口，然后输入管理 URL。</span><span class="sxs-lookup"><span data-stu-id="32010-120">From the **Start** menu, select the Skype for Business Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="32010-121">有关可用于启动控制面板的不同方法的详细信息，请参阅["打开 Lync Server 管理工具"。](https://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx)</span><span class="sxs-lookup"><span data-stu-id="32010-121">For details about the different methods that you can use to start the control panel, see [Open Lync Server Administrative Tools](https://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx).</span></span>
 
-3. <span data-ttu-id="e7871-122">在左侧导航栏中，单击“**持久聊天**”，然后单击“**外接程序**”。</span><span class="sxs-lookup"><span data-stu-id="e7871-122">In the left navigation bar, click **Persistent Chat**, and then click **Add-in**.</span></span>
+3. <span data-ttu-id="32010-122">在左侧导航栏中，单击“持久聊天”，然后单击“外接程序”。</span><span class="sxs-lookup"><span data-stu-id="32010-122">In the left navigation bar, click **Persistent Chat**, and then click **Add-in**.</span></span>
 
-    <span data-ttu-id="e7871-123">对于多个持久聊天服务器池部署，从下拉列表中选择相应的池。</span><span class="sxs-lookup"><span data-stu-id="e7871-123">For multiple Persistent Chat Server pool deployments, select the appropriate pool from the drop-down list.</span></span>
+    <span data-ttu-id="32010-123">对于多个持久聊天服务器池部署，请从下拉列表中选择相应的池。</span><span class="sxs-lookup"><span data-stu-id="32010-123">For multiple Persistent Chat Server pool deployments, select the appropriate pool from the drop-down list.</span></span>
 
-4. <span data-ttu-id="e7871-124">在“**外接程序**”页上，单击“**新建**”。</span><span class="sxs-lookup"><span data-stu-id="e7871-124">On the **Add-in** page, click **New**.</span></span>
+4. <span data-ttu-id="32010-124">在“外接程序”页上，单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="32010-124">On the **Add-in** page, click **New**.</span></span>
 
-5. <span data-ttu-id="e7871-125">在 "**选择服务**" 中，选择与需要在其中创建外接程序的持久聊天服务器池对应的服务。</span><span class="sxs-lookup"><span data-stu-id="e7871-125">In **Select a Service**, select the service corresponding to the Persistent Chat Server pool where you need to create the Add-in.</span></span> <span data-ttu-id="e7871-126">外接程序无法从一个池移到另一个池，或者在不同池之间共享。</span><span class="sxs-lookup"><span data-stu-id="e7871-126">Add-ins cannot be moved from one pool to another or shared between different pools.</span></span>
+5. <span data-ttu-id="32010-125">在 **"选择服务**"中，选择与需要创建外接程序的持久聊天服务器池对应的服务。</span><span class="sxs-lookup"><span data-stu-id="32010-125">In **Select a Service**, select the service corresponding to the Persistent Chat Server pool where you need to create the Add-in.</span></span> <span data-ttu-id="32010-126">外接程序无法从一个池移到另一个池，或者在不同池之间共享。</span><span class="sxs-lookup"><span data-stu-id="32010-126">Add-ins cannot be moved from one pool to another or shared between different pools.</span></span>
 
-6. <span data-ttu-id="e7871-127">在“**新建外接程序**”中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="e7871-127">In **New Add-in**, do the following:</span></span>
+6. <span data-ttu-id="32010-127">在“新建外接程序”中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="32010-127">In **New Add-in**, do the following:</span></span>
 
-   - <span data-ttu-id="e7871-128">在“**名称**”中，指定新外接程序的名称。</span><span class="sxs-lookup"><span data-stu-id="e7871-128">In **Name**, specify a name for the new add-in.</span></span>
+   - <span data-ttu-id="32010-128">在“名称”中，指定新外接程序的名称。</span><span class="sxs-lookup"><span data-stu-id="32010-128">In **Name**, specify a name for the new add-in.</span></span>
 
-   - <span data-ttu-id="e7871-p107">在“**URL**”中，指定与外接程序关联的 URL。URL 将限制为 http 和 https 协议。</span><span class="sxs-lookup"><span data-stu-id="e7871-p107">In **URL**, specify the URL to be associated with the add-in. URLs are limited to http and https protocols.</span></span>
+   - <span data-ttu-id="32010-p107">在“URL”中，指定与外接程序关联的 URL。URL 限制为 http 和 https 协议。</span><span class="sxs-lookup"><span data-stu-id="32010-p107">In **URL**, specify the URL to be associated with the add-in. URLs are limited to http and https protocols.</span></span>
 
-7. <span data-ttu-id="e7871-131">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="e7871-131">Click **Commit**.</span></span>
+7. <span data-ttu-id="32010-131">单击“提交”。</span><span class="sxs-lookup"><span data-stu-id="32010-131">Click **Commit**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e7871-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e7871-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="32010-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="32010-132">See also</span></span>
 
-<span data-ttu-id="e7871-133">有关持久聊天服务器功能和功能的详细信息，请参阅在 skype for business [server 2015 中规划持久聊天服务器](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、在 skype For business [server 2015 中部署持久](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)聊天服务器以及[在 skype For Business Server 2015 中管理持久聊天服务器](../../manage/persistent-chat/persistent-chat.md)。</span><span class="sxs-lookup"><span data-stu-id="e7871-133">For details about Persistent Chat Server features and capabilities, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md), and [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).</span></span>
+<span data-ttu-id="32010-133">有关持久聊天服务器特性和功能的详细信息，请参阅规划 [Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)中的持久聊天服务器、在 Skype for Business Server [2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)中部署持久聊天服务器以及管理 [Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md)中的持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="32010-133">For details about Persistent Chat Server features and capabilities, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md), and [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).</span></span>
 
 
