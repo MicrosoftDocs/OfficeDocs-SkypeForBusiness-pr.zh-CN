@@ -1,7 +1,7 @@
 ---
 title: 解决 Windows 上的 Microsoft Teams 安装和更新问题
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: lenatarhun
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何解决 Windows 上 Teams 桌面客户端应用的安装和更新问题。
-ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
-ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
-ms.translationtype: HT
+ms.openlocfilehash: 4183a04458147e63f8168f703bf16682b3bea9e0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/28/2020
-ms.locfileid: "47300276"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804552"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>解决 Windows 上的 Microsoft Teams 安装和更新问题
 

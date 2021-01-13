@@ -1,8 +1,8 @@
 ---
-title: 删除 Skype for Business 服务器中的存档配置
+title: 删除 Skype for Business Server 中的存档配置
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,63 +11,63 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 摘要：了解如何在 Skype for Business Server 中删除存档配置。
-ms.openlocfilehash: 82415e2cac7293d991280c3fcee6e64d684f5c26
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解如何删除 Skype for Business Server 中的存档配置。
+ms.openlocfilehash: a9d24a17ec769f5686502beb325e021c8b0f39c3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818934"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817622"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>删除 Skype for Business 服务器中的存档配置
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>删除 Skype for Business Server 中的存档配置
 
-**摘要：** 了解如何在 Skype for Business 服务器中删除存档配置。
+**摘要：** 了解如何删除 Skype for Business Server 中的存档配置。
   
-可以删除站点配置或池配置，但无法删除全局配置。如果删除全局配置，该配置将自动重置为默认值。
+您可以删除站点配置或池配置，但无法删除全局配置。 如果删除全局配置，该配置将自动重置为默认值。
   
 ## <a name="delete-an-archiving-configuration-by-using-the-control-panel"></a>使用控制面板删除存档配置
 
-要使用控制面板删除存档配置
+使用控制面板删除存档配置：
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
     
-3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
+3. 在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。
     
-4. 在存档配置的列表中，单击要删除的站点或池配置，单击“**编辑**”，然后单击“**删除**”。
+4. 在存档配置列表中，单击要删除的站点或池配置，再单击"编辑"，然后单击"**删除"。**
     
     > [!NOTE]
-    > 您也可以单击全局配置，但仅在希望将全局配置重置为默认值时选择此选项。 
+    > 还可以单击"全局"配置，但仅在希望将全局配置重置为默认值时选择此选项。 
   
-5. 单击“**提交**”。
+5. 单击“提交”。
     
-## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a>使用 Windows PowerShell 删除存档配置
+## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a>使用配置删除存档Windows PowerShell
 
-您也可以使用**CsArchivingConfiguration** cmdlet 删除存档配置。
+您还可以使用 **Remove-CsArchivingConfiguration** cmdlet 删除存档配置。
   
-例如，以下命令可删除应用于 Redmond 站点的存档配置设置。删除在站点范围内配置的策略后，先前受站点策略管理的用户将自动受到全局存档策略的管理：
+例如，以下命令将删除应用于 Redmond 站点的存档配置设置。 删除在站点范围配置的策略后，之前由站点策略管理的用户将自动受到全局存档策略的管理：
   
 ```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
-以下命令会删除应用到服务范围的所有存档配置设置：
+以下命令删除应用于服务范围的所有存档配置设置：
   
 ```PowerShell
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
-下一条命令会删除在其中已禁用 Exchange 存档的所有存档配置设置：
+下一个命令将删除已禁用 Exchange 存档的所有存档配置设置：
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
-您也可以使用 **Remove-CsArchivingConfiguration** cmdlet 将全局设置重置为默认值。 例如，假设您已在全局级别启用 IM 会话存档；以下命令会将该值重置为默认值 None，这将在全局级别禁用存档：
+您还可以使用 **Remove-CsArchivingConfiguration** cmdlet 将全局设置重置为默认值。 例如，假设您在全局级别启用了 IM 会话存档;以下命令将该值重置为默认值 None，这将在全局级别禁用存档：
   
 ```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-有关详细信息，请参阅[CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet 的帮助主题。

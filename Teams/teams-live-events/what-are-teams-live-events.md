@@ -1,7 +1,7 @@
 ---
 title: 什么是 Microsoft Teams 实时事件？
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
-ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
-ms.translationtype: HT
+ms.openlocfilehash: 7133c5a1a0cf9fd67ec23b51f8e177aeb80532fa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49373468"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802422"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么
 
@@ -67,7 +67,7 @@ Teams 允许组织者创建具有相应与会者权限的事件、指定事件�
 
 - **Teams**：此制作方法允许用户从 Teams 房间系统使用网络摄像头或 A/V 输入生成实时事件。 当你想要使用连接到电脑的音频或视频设备或正在邀请远程演示者参与事件时，此选项是最好和最快的。 此选项允许用户轻松地通过输入的方式在事件中使用他们的网络摄像头并共享屏幕。
 
-- **外部应用或设备**：外部编码器允许用户直接通过[ Stream](https://stream.microsoft.com) 从外部硬件或基于软件的编码器生成实时事件。 当你已经具有工作室质量的设备（例如，媒体混合器），此设备需支持流式处理到实时消息协议 (RTMP) 服务，此选项是最好的。 此类制作经常用于大规模事件，例如行政会议 - 此场景下来自媒体混合器的单一数据流被广播给受众。
+- **外部应用或设备**：外部编码器允许用户直接通过 [ Stream](https://stream.microsoft.com) 从外部硬件或基于软件的编码器生成实时事件。 当你已经具有工作室质量的设备（例如，媒体混合器），此设备需支持流式处理到实时消息协议 (RTMP) 服务，此选项是最好的。 此类制作经常用于大规模事件，例如行政会议 - 此场景下来自媒体混合器的单一数据流被广播给受众。
 
     ![使用外部应用或设备生成的实时事件](../media/teams-live-events-external-encoder.png "使用外部应用或设备生成方法生成的实时事件的屏幕截图")
 

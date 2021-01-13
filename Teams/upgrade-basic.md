@@ -1,13 +1,13 @@
 ---
-title: 升级清单 |与团队的 Skype 企业版升级 |基本步骤
-author: lanachin
-ms.author: v-lanac
+title: 升级清单|Skype Business 到 Teams 升级 |基本步骤
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 按照此加速的10步操作计划从基本的 Skype for Business 设置切换到 Microsoft 团队设置。
+description: 按照这个加速的十步操作计划从基本的 Skype for Business 设置过渡到 Microsoft Teams 设置。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef27d9faac30003edbb4c21ee7d9060d41ea454b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 37cc9f3940eb08a4df092042c016b194b01c64e6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666224"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809082"
 ---
 # <a name="upgrade-basic"></a>升级基本信息
 
@@ -36,21 +36,21 @@ ms.locfileid: "44666224"
 
 升级基本清单是面向小型组织或使用 Skype for Business Online 传递即时消息（聊天）和召开会议的组织的加速行动计划，包括实现成功从 Skype for Business 迁移到 Teams 的核心建议活动及关联资源。
 
-这十个易于执行的步骤提供了成功升级所需的各方面内容。 它们设计为在30至45天内完成，但你应该根据组织的升级计划调整任务完成日期。
+这十个易于执行的步骤提供了成功升级所需的各方面内容。 它们设计为在大约 30 到 45 天内完成，但应基于组织的升级计划调整任务完成日期。
 
 > [!IMPORTANT]
-> 2021将于年7月31日停用 Skype for business Online。 此后，Skype for Business Online 服务将无法再访问或支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级，我们鼓励你立即开始迁移到 Microsoft 团队。
+> Skype for Business Online 将于 2021 年 7 月 31 日停用。 此后，Skype for Business Online 服务将不再可访问或不再受支持。 为了最大程度地实现权益并确保组织有适当的时间来实施升级，我们建议你立即开始使用 Microsoft Teams。
 
 升级后，Skype for Business 会发生什么情况？ 在你的用户升级到 Teams（**仅 Teams** 模式）后：
 
 - 其 Skype for Business 客户端将被禁用，所有聊天和通话都将在 Teams 中进行。 请注意，这不会卸载其桌面上的客户端。
-- 升级之前安排的任何 Skype for Business 会议都将正常进行，但所有新会议都在 Teams 中安排。 Outlook 的 Skype for Business 插件将不再可用。 
-- 如果用户尝试登录到 Skype for business，他们将收到客户已升级到团队的通知。
+- 升级之前安排的任何 Skype for Business 会议都将正常进行，但所有新会议都在 Teams 中安排。 Skype for Business 插件在 Outlook 中不再可用。 
+- 如果用户尝试登录 Skype for Business，他们从客户端收到通知，表明他们已升级到 Teams。
 - 用户需要手动卸载其移动设备上的 Skype for Business 客户端。
 
 有关升级的其他问题，请参见我们的[常见问题解答](https://aka.ms/SkypeToTeams-FAQ)。
 
-不熟悉 Teams？ [了解团队如何](https://products.office.com/microsoft-teams/group-chat-software)将对话、会议、文件、Office 应用和第三方集成结合在一起，为 Microsoft 365 和 Office 365 中的协作提供单个中心。
+不熟悉 Teams？ [了解 Teams 如何将对话](https://products.office.com/microsoft-teams/group-chat-software) 、会议、文件、Office 应用和第三方集成汇集在一起，为 Microsoft 365 和 Office 365 中的团队合作提供单个中心。
 
 <!--ENDOFSECTION-->
 
@@ -60,7 +60,7 @@ ms.locfileid: "44666224"
 
 *（在升级前的大约四到六周）*
 
-高层领导对公司的成功负责；务必要让其了解技术变化。 由于可能不是每个人收到或阅读升级资格的通知，因此你需要在开始规划升级之前通知你的利益干系人（例如，CEO、IT 专业人员、市场营销和帮助台潜在顾客）。
+高层领导对公司的成功负责；务必要让其了解技术变化。 由于并非所有用户都收到或阅读了升级资格通知，因此在开始规划升级之前 (需要先通知利益干系人（例如 CEO、IT 专业人员、营销) 支持领导）。
 
 **资源：**
 
@@ -79,7 +79,7 @@ ms.locfileid: "44666224"
 Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传递（聊天）和会议），而且还提供更多其他功能。 作为名副其实的团队合作中心，工作组通过 Teams 可以在一个位置管理项目、文件、对话和应用程序。 默认情况下，会为所有组织开启 Teams。 决定贵组织如何使用 Teams 以及配置环境以获得成功。 
 
 > [!Note]
-> 作为现有的 Skype for Business 客户，你当前的网络基础结构可能已配置为适合 Teams。 若要确认这一点，可以按照链接到下面的 "完整技术规划" 指南进行操作（这是可选操作）。
+> 作为现有的 Skype for Business 客户，你当前的网络基础结构可能已配置为适合 Teams。 若要确认这一点，可以遵循下面链接的"完成技术规划"指南 (可选) 。
 
 **资源：**
 
@@ -108,14 +108,14 @@ Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>第 4 步 通知用户他们将从 Skype for Business 升级到团队
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>第 4 步 通知用户他们将从 Skype for Business 升级到 Teams
 
 *（在升级前的大约两周到三周）*
 
-早早地提前通知你的用户，让其有时间熟悉 Teams，而不会对其工作效率造成负面影响，从而获得比较积极的用户体验。 发送一种通信，告诉他们更改内容、更改的原因以及他们可以为其做哪些准备。
+早早地提前通知你的用户，让其有时间熟悉 Teams，而不会对其工作效率造成负面影响，从而获得比较积极的用户体验。 发送通信，告知他们正在改变什么、更改的原因，以及他们可以如何做好准备。
 
 > [!Note]
-> 如果需要，您可以通过 Microsoft 365 管理中心为用户启用团队。
+> 如果需要，你目前可以通过 Microsoft 365 管理中心为用户启用 Teams。
 
 **资源：**
 
@@ -144,7 +144,7 @@ Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传
 
 <a name="step-6"></a>
 
-## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>第 6 步 提醒用户他们将从 Skype for Business 升级到团队
+## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>第 6 步 提醒用户他们将从 Skype for Business 升级到 Teams
 
 *（在升级前的大约五天）*
 
@@ -164,7 +164,7 @@ Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传
 
 *（升级当天）*
 
-今天贵组织正式升级到 Teams，将其作为通信和协作解决方案。 在 Microsoft 团队管理中心，通过将 "共存模式" 设置为 "**仅限团队**" 来激活升级切换器。 （在管理中心中，转到**组织范围的设置**  > **团队升级**。）用户将在其 Skype for Business 客户端中收到通知，他们已升级到团队。
+今天贵组织正式升级到 Teams，将其作为通信和协作解决方案。 在 Microsoft Teams 管理中心中，将共存模式设置为"仅 **Teams"来激活升级开关**。  (在管理中心中，转到组织范围的设置Teams 升级 。) 用户将在其 Skype for Business 客户端中收到通知，表明他们已升级到  >  Teams。
 
 我们建议在所有人都升级后，发送一封欢迎大家使用 Teams 的电子邮件。
 
@@ -183,7 +183,7 @@ Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传
 
 *（在升级后的大约一周或两周）*
 
-适应新技术可能需要一段时间。 检查使用情况以确认用户使用 Teams 的程度是否达到或超过使用 Skype for Business 的程度。 与未在预期级别使用团队的用户进行签入。
+适应新技术可能需要一段时间。 检查使用情况以确认用户使用 Teams 的程度是否达到或超过使用 Skype for Business 的程度。 与未在预期级别使用 Teams 的用户核实。
 
 **资源：**
 

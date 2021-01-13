@@ -1,8 +1,8 @@
 ---
 title: 简单 URL 设置扩展器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 要指定新的简单 URL、删除现有简单 URL 或更改活动的简单 URL，请执行以下操作：
-ms.openlocfilehash: 79a5bba3cf16ae8e3a57b80947f5157978c9d3ef
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 4a6f01dde6259171c1c31669f7f87adf5261acc9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219747"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818252"
 ---
 # <a name="simple-url-settings-expander"></a>简单 URL 设置扩展器
 
@@ -30,16 +30,16 @@ ms.locfileid: "48219747"
 
 要修改或定义简单 URL，请首先确定要编辑或更改三种简单 URL 中的哪一种。可以从电话访问 URL、会议 URL 和管理访问 URL 中进行选择。
 
-要修改电话访问 URL 或会议 URL，请选择需要更改的 URL。单击“编辑 URL”****。编辑该 URL，并单击“确定”**** 保存该 URL。单击“取消”**** 将放弃所有更改并关闭对话框。
+要修改电话访问 URL 或会议 URL，请选择需要更改的 URL。单击“编辑 URL”。编辑该 URL，并单击“确定”保存该 URL。单击“取消”将放弃所有更改并关闭对话框。
 
-要添加新 URL，请单击“添加”****。在“添加简单 URL”**** 对话框中，指定 URL，并单击“确定”**** 保存该 URL。如果需要将新的 URL 设置为活动 URL，请选择“使其成为所选域的活动 URL”****。单击“取消”**** 将放弃所有更改。
+要添加新 URL，请单击“添加”。在“添加简单 URL”对话框中，指定 URL，并单击“确定”保存该 URL。如果需要将新的 URL 设置为活动 URL，请选择“使其成为所选域的活动 URL”。单击“取消”将放弃所有更改。
 
-要将其他 URL 设为活动 URL（URL 旁边有绿色复选标记），请选择相应的 URL，然后单击“变为活动状态”****。
+要将其他 URL 设为活动 URL（URL 旁边有绿色复选标记），请选择相应的 URL，然后单击“变为活动状态”。
 
 > [!NOTE]
 > 每个会话初始协议 (SIP) 域只能有一个活动 URL。
 
-要删除 URL，请选择相应的 URL，并单击“删除”****。
+要删除 URL，请选择相应的 URL，并单击“删除”。
 
 > [!CAUTION]
 > 务必仔细阅读简单 URL 设置对话框页面上的信息。删除会议 URL 会导致无法再访问用户安排的现有会议。请考虑在将新的会议 URL 设为活动状态后保留现有 URL。在确保用户不再使用旧的会议 URL 后，可以安全地删除该 URL。

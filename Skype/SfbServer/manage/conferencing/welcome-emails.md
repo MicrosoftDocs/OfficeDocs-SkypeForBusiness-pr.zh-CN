@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for business Server 中向拨入用户发送欢迎电子邮件
+title: 在 Skype for Business Server 中向拨入用户发送欢迎电子邮件
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 摘要：了解如何在 Skype for Business 服务器中欢迎用户拨入式会议。
-ms.openlocfilehash: 6228d0636e878ccf9a208edf9afeee3fe1e808f3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解如何在 Skype for Business Server 中欢迎用户参加电话拨入式会议。
+ms.openlocfilehash: dea63f02bcdd3fab323f7f4eff8f420bf012e9a7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818433"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817492"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>在 Skype for business Server 中向拨入用户发送欢迎电子邮件
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>在 Skype for Business Server 中向拨入用户发送欢迎电子邮件
  
-**摘要：** 了解如何在 Skype for Business 服务器中欢迎用户拨入式会议。
+**摘要：** 了解如何在 Skype for Business Server 中欢迎用户参加电话拨入式会议。
   
-配置电话拨入式会议并进行测试以验证其是否正常工作后，应为用户设置初始个人标识号 (PIN) 并通知用户功能是否可用。 可以包括介绍性说明，如初始 PIN 以及指向“电话拨入式会议设置”网页的链接。 
+配置电话拨入式会议并进行测试以验证其是否正常工作后，应为用户设置初始个人标识号 (PIN) ，并通知用户该功能的可用性。 你可以包括介绍性说明，如初始 PIN 和指向电话拨入式会议设置网页的链接。 
   
-通常，你可以使用**CsClientPin** cmdlet 重置 pin，但如果你想要使用 PIN 信息发送介绍性欢迎电子邮件，则可以使用本主题中的过程。 如果不想发送电子邮件，则可以改用 **Set-CsClientPin**。
+通常，使用 **Set-CsClientPin** cmdlet 重置 PIN，但如果要发送包含 PIN 信息的介绍性欢迎电子邮件，可以使用本主题中的过程。 如果不想发送电子邮件，则可以改用 **Set-CsClientPin**。
   
-可以使用 **Set-CsPinSendCAWelcomeMail** 脚本来设置 PIN 并向单个用户发送欢迎电子邮件。默认情况下，该脚本不重置已设置的 PIN，但是可以使用 Force 参数强制重置 PIN。电子邮件使用简单邮件传输协议 (SMTP) 发送。
+可以使用 **Set-CsPinSendCAWelcomeMail** 脚本来设置 PIN 并向单个用户发送欢迎电子邮件。 默认情况下，该脚本不重置已设置的 PIN，但是可以使用 Force 参数强制重置 PIN。 电子邮件使用简单邮件传输协议 (SMTP) 发送。
   
-可以创建反复运行 **Set-CsPinSendCAWelcomeMail** 脚本的脚本以设置 PIN 并向用户组发送电子邮件。可以修改电子邮件模板（即 CAWelcomeEmailTemplate.html 文件）以将更多链接添加到 Intranet 网页或者修改电子邮件文本。
+可以创建反复运行 **Set-CsPinSendCAWelcomeMail** 脚本的脚本以设置 PIN 并向用户组发送电子邮件。 可以修改电子邮件模板（即 CAWelcomeEmailTemplate.html 文件）以将更多链接添加到 Intranet 网页或者修改电子邮件文本。
   
 
 
@@ -37,7 +37,7 @@ ms.locfileid: "41818433"
 
 1. 以 RTCUniversalServerAdmins 组成员的身份登录。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 3. 在命令提示符下，运行以下内容：
     
@@ -54,18 +54,18 @@ ms.locfileid: "41818433"
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer**默认情况下，脚本对此参数使用 reserved 环境变量的值 **$PSEmailServer** 。 如果未设置 **$PSEmailServer**变量，则必须指定此参数。
+**SmtpServer** 默认情况下，脚本使用此参数的保留 **$PSEmailServer变量的值** 。 如果未 **$PSEmailServer** 变量，则必须指定此参数。
     
-**凭据**默认情况下，脚本使用当前用户的凭据。 如果当前用户没有代表指定的发件人地址发送电子邮件的权限，则必须指定此参数。 作为一般规则，如果您不将电子邮件地址指定为 "发件人" 地址，请指定此参数。
+**凭据** 默认情况下，脚本使用当前用户的凭据。 如果当前用户无权代表指定的"发送者"地址发送电子邮件，则必须指定此参数。 一般而言，如果不将电子邮件地址指定为"发送地址"，请指定此参数。
     
-下面的示例创建一个新的 PIN，然后从 Marco 向 Bob 发送欢迎电子邮件。此示例使用默认模板中的电子邮件文本，并创建 HTML 格式的电子邮件。默认主题为“欢迎参加电话拨入式会议”：
+以下示例创建一个新的 PIN，然后从 Marco 向 Bob 发送欢迎电子邮件。 此示例使用默认模板中的电子邮件文本，并创建 HTML 格式的电子邮件。 默认主题为"欢迎参加电话拨入式会议"：
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
-下一个示例强制为 Bob 使用值为“383042650”的新 PIN（即使 Bob 已有一个 PIN），然后从 Marco 向 Bob 发送欢迎电子邮件。由于已指定 Credential 参数，因此系统会提示运行命令的人员输入密码。电子邮件使用安全套接字层 (SSL) 发送：
+下一个示例为 Bob 强制使用值为"383042650"的新 PIN，即使 Bob 已有 PIN，然后从 Marco 向 Bob 发送欢迎电子邮件。 由于已指定 Credential 参数，因此系统会提示运行命令的人员输入密码。 电子邮件使用安全套接字层和 SSL (发送) ：
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"

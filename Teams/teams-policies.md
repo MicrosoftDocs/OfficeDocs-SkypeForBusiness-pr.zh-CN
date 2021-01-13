@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中管理团队策略
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: 了解如何使用和管理组织中团队策略来控制用户可在团队和频道中执行哪些操作。
-ms.openlocfilehash: 0b4664c36f24a057a7c8237823b7eafaad8ea6ba
-ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
+ms.openlocfilehash: a05aaf65418e46f7b631bac6f7d88d8bbdf4c806
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772017"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802362"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理团队策略
 

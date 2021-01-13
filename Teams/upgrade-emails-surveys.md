@@ -1,13 +1,13 @@
 ---
-title: Microsoft 团队过渡电子邮件和调查 |基本升级
-author: lanachin
-ms.author: v-lanac
+title: Microsoft Teams 过渡电子邮件和调查 |基本升级
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 在 conjunciton 中使用的电子邮件和调查示例，以及从 Skype for Business 升级到团队的加速10步行动计划
+description: 要与加速的十步操作计划（从 Skype for Business 升级到 Teams）一起使用的示例电子邮件和调查
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31dfb96d4ad883593e49b71aa8ec86a86b25e660
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665944"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809072"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升级基本通信的电子邮件和调查示例
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升级基本通信的示例电子邮件和调查
 
-## <a name="sample-emails"></a>电子邮件示例
+## <a name="sample-emails"></a>示例电子邮件
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>利益干系人电子邮件，适用于步骤1
+### <a name="stakeholder-email-for-step-1"></a>适用于步骤 1 的利益干系人电子邮件
 
 主题行：
 
@@ -49,11 +49,11 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
 
-[返回到步骤1](upgrade-basic.md#step-1)
+[返回到步骤 1](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>在步骤4中通知用户电子邮件
+### <a name="notify-users-email-for-step-4"></a>通知用户有关步骤 4 的电子邮件
 
 主题行：
 
@@ -78,13 +78,13 @@ CALL TO ACTION: Get started with Teams today
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
 
-[返回到步骤4](upgrade-basic.md#step-4)
+[返回到步骤 4](upgrade-basic.md#step-4)
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>在步骤6中提醒用户电子邮件
+### <a name="remind-users-email-for-step-6"></a>提醒用户电子邮件，步骤 6
 
-主题行：提醒：准备好升级到团队
+主题行：提醒：准备好升级到 Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -109,11 +109,11 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact <<insert alias or contact info>>.
 ````
 
-[返回步骤6](upgrade-basic.md#step-6)
+[返回到步骤 6](upgrade-basic.md#step-6)
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>欢迎用户从总经理主办方发送电子邮件，步骤7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>对于步骤 7，欢迎来自执行发起人的用户电子邮件
 
 主题行：
 
@@ -144,11 +144,11 @@ Regards,
 <<insert executive sponsor name>>
 ````
 
-[返回到步骤7](upgrade-basic.md#step-7)
+[返回到步骤 7](upgrade-basic.md#step-7)
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a>步骤9的签入电子邮件
+### <a name="check-in-email-for-step-9"></a>步骤 9 的签入电子邮件
 
 主题行：
 
@@ -166,11 +166,11 @@ Share your feedback (see sample below) and transition experience with us. Your i
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[返回到步骤9](upgrade-basic.md#step-9)
+[返回到步骤 9](upgrade-basic.md#step-9)
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>通过电子邮件向用户提供团队和频道 a 试用，步骤10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>电子邮件，要求用户试用团队和频道，步骤 10
 
 主题行：
 
@@ -193,7 +193,7 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[返回到步骤10](upgrade-basic.md#step-10)
+[返回到步骤 10](upgrade-basic.md#step-10)
 
 <!--ENDOFSECTION-->
 
@@ -201,34 +201,34 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>示例调查
 
-指明你在团队中执行以下活动的熟练程度以及你想要深入了解的一个或多个活动。
+指示你在 Teams 中执行以下活动的能力，以及是否有一个或多个活动需要了解更多信息。
 
-| &nbsp; | 非常熟练 | 稍有技能 | 根本不擅长 | 希望了解详细信息 | 不适用 | 不确定/不熟悉 | | | | |
+| &nbsp; | 非常熟练 | 技能稍高 | 完全不熟练 | 想要了解更多信息 | 不适用 | 不确定/不熟悉 | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 使用团队进行 IM 通话/与他人聊天 | | | | | | | | | | |
-| 为联机会议使用团队 | | | | | | | | | | |
-| 使用团队协作（团队和频道） | | | | | | | | | | |
-| 在我的移动设备上使用团队 | | | | | | | | | | |
+| 使用 Teams 进行即时消息/与其他人聊天 | | | | | | | | | | |
+| 使用 Teams 召开联机会议 | | | | | | | | | | |
+| 使用 Teams (团队和频道进行协作)  | | | | | | | | | | |
+| 在我的移动设备上使用 Teams | | | | | | | | | | |
 
-| **如果有任何内容，将阻止你使用 Microsoft 团队？** | **选择所有适用的** |
+| **什么（如果有）会阻止你使用 Microsoft Teams？** | **选择所有适用项** |
 |---|---|
 | 我从未听说过它 | &#9744; |
-| 我的计算机上没有安装它 | &#9744; |
-| 我不知道它对我的好处或我使用的人 | &#9744; |
-| 我没有时间针对我的需求进行评估 | &#9744; |
-| 我已经使用了其他满足通信和协作需求的应用程序 | &#9744; |
-| 我需要培训才能使用 | &#9744; |
-| 我尝试使用它，但遇到技术问题或不好的体验 | &#9744; |
-| 我们的支持台无法帮助我解决问题 | &#9744; |
-| 我目前没有使用它 | &#9744; |
-| 其他（请注明） | &#9744; |
+| 我的计算机上未安装它 | &#9744; |
+| 我不知道它如何为我或我合作的人带来好处 | &#9744; |
+| 我没有时间评估它以满足我的需求 | &#9744; |
+| 我已使用满足通信和协作需求的其他应用程序 | &#9744; |
+| 在使用它之前，我需要培训 | &#9744; |
+| 我尝试使用过它，但遇到技术问题或体验不佳 | &#9744; |
+| 我们的支持人员无法帮助我解决我的问题 | &#9744; |
+| 没有，我当前使用它 | &#9744; |
+| 其他 (请指定)  | &#9744; |
 
-**你向朋友/同事推荐 Microsoft 团队的可能性有多大？（0 = 根本不可能 .。。10 = 极有可能）**
+**你向朋友/同事推荐 Microsoft Teams 的可能性有多大？ (0=完全不可能...10=很有可能)**
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 个 | db-9 | 10 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
-[返回到步骤9](upgrade-basic.md#step-9)
+[返回到步骤 9](upgrade-basic.md#step-9)
 
 <!--ENDOFSECTION-->

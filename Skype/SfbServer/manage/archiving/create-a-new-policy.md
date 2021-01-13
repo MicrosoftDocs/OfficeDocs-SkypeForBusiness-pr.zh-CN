@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中创建新的存档策略
+title: 在 Skype for Business Server 中创建新的存档策略
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,56 +11,56 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 摘要：了解如何为 Skype for Business 服务器创建新的存档策略。
-ms.openlocfilehash: 4d6590ffdb2263783e89d842acf4ba5460259a35
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解如何为 Skype for Business Server 创建新的存档策略。
+ms.openlocfilehash: 3e1f538aba26025f5868a09babd3b67df36f9a3f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819044"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817642"
 ---
-# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建新的存档策略
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>在 Skype for Business Server 中创建新的存档策略
 
-**摘要：** 了解如何为 Skype for Business 服务器创建新的存档策略。
+**摘要：** 了解如何为 Skype for Business Server 创建新的存档策略。
   
-您可以使用控制面板或 Windows PowerShell cmdlet 创建新的存档策略。
+您可以使用控制面板或 cmdlet 创建新的存档Windows PowerShell策略。
   
 ## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a>使用控制面板创建新的存档策略
 
-要使用控制面板创建新的存档策略：
+若要使用控制面板创建新的存档策略，请执行以下操作：
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
     
-3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档策略”****。
+3. 在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档策略”**。
     
-4. 单击“**新建**”，然后执行以下操作之一： 
+4. 单击“新建”，然后执行以下操作之一： 
     
-   - 若要创建站点级别的存档策略，请单击“**站点策略**”，然后在“**选择站点**”中，单击要应用该策略的站点。
+   - 若要创建站点级别的存档策略，请单击"站点策略"，然后在"选择站点"中单击要应用该策略的站点。
     
-   - 若要创建用户级别的存档策略，请单击“**用户策略**”。
+   - 若要创建用户级别的存档策略，请单击“用户策略”。
     
-5. 在“**新建存档策略**”中，执行下列操作：
+5. 在“新建存档策略”中，执行下列操作：
     
-   - 在“**名称**”中，指定新策略的名称（例如，externalContoso）。
+   - 在“名称”中，指定新策略的名称（例如，externalContoso）。
     
-   - 在“**说明**”中，提供有关该策略内容的详细信息（例如，Contoso 的外部用户存档策略）。
+   - 在“说明”中，提供有关该策略内容的详细信息（例如，Contoso 的外部用户存档策略）。
     
-   - 要控制内部用户通信的存档，请选中或清除“**存档内部通信**”复选框。
+   - 要控制内部用户通信的存档，请选中或清除“存档内部通信”复选框。
     
-   - 要控制外部用户通信的存档，请选中或清除“**存档外部通信**”复选框。
+   - 要控制外部用户通信的存档，请选中或清除“存档外部通信”复选框。
     
-6. 单击“**提交**”。
+6. 单击“提交”。
     
     > [!IMPORTANT]
-    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[将存档策略应用于 Skype for Business 服务器中的用户](apply-a-policy-to-users.md)。 
+    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅 [在 Skype for Business Server 中向用户应用存档策略](apply-a-policy-to-users.md)。 
   
-## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>使用 Windows PowerShell 创建新的存档策略
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>使用策略创建新的存档Windows PowerShell
 
-也可以使用 Windows PowerShell **New-CsArchivingPolicy** cmdlet 创建新的存档策略。 有关详细信息，请参阅[CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet 的帮助主题。
+您还可以使用 **New-CsArchivingPolicy** cmdlet Windows PowerShell创建新的存档策略。 有关详细信息，请参阅 [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet 的帮助主题。
   
-### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>要在站点级别创建新的存档策略
+### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>在站点级别创建新的存档策略
 
 此命令可为 Redmond 站点创建新的存档策略：
   
@@ -68,25 +68,25 @@ ms.locfileid: "41819044"
 New-CsArchivingPolicy -Identity "site:Redmond"
 ```
 
-### <a name="to-create-a-new-archiving-policy-at-the-per-user-level"></a>要在每用户级别创建新的存档策略
+### <a name="to-create-a-new-archiving-policy-at-the-per-user-level"></a>在每用户级别创建新的存档策略
 
-若要在每用户级别创建新的存档策略，只需在创建策略时指定唯一标识即可：
+若要在每用户级别创建新的存档策略，只需在创建策略时指定唯一标识：
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>要创建允许对内部通信会话进行存档的新存档策略
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>创建新的存档策略以启用内部通信会话的存档
 
-由于前面的命令中未指定参数（必需的 Identity 参数之外），因此新策略将对其所有属性使用默认值。 若要创建使用其他属性值的策略，只需包括适当的参数和参数值。 例如，以下命令将创建允许存档内部即时消息会话的存档策略： 
+由于前面的命令中未指定参数（必需的 Identity 参数之外），因此新策略将对其所有属性使用默认值。 若要创建使用其他属性值的策略，只需包括适当的参数和参数值。 例如，以下命令创建允许对内部即时消息会话进行存档的存档策略： 
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a>要创建允许对内部和外部通信会话进行存档的新存档策略
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a>创建启用内部和外部通信会话存档的新存档策略
 
-可通过包含多个参数来修改多个属性值。例如，此命令将配置新策略以便对内部和外部即时消息会话进行存档：
+可以通过包含多个参数来修改多个属性值。 例如，此命令将新策略配置为对内部和外部即时消息会话进行存档：
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True

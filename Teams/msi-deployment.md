@@ -1,13 +1,13 @@
 ---
-title: 使用 Microsoft 终结点配置管理器安装团队
-author: lanachin
-ms.author: v-lanac
+title: 使用 Microsoft 终结点配置管理器安装 Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jhreddy
 audience: admin
-description: 使用 Microsoft 终结点配置管理器批量部署 Microsoft 团队以选择用户或计算机。
+description: 使用 Microsoft 终结点配置管理器批量部署 Microsoft Teams 以选择用户或计算机。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,38 +18,38 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61b55a8cd734d4f63db4e3d6e1379c0ed235c038
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 23bec0ff2e320da917fbdde122913a56f31b6d1c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030408"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802322"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 
 > [!Tip]
-> 观看以下会话，了解 Windows 桌面客户端的优点、如何规划它以及如何部署它： [团队 Windows 桌面客户端](https://aka.ms/teams-clients)。
+> 观看以下会话，了解 Windows 桌面客户端的好处、如何规划它以及如何部署它 [：Teams Windows 桌面客户端](https://aka.ms/teams-clients)。
 
 为了使用 Microsoft Endpoint Configuration Manager 或组策略或任何第三方分发机制以进行广泛部署，Microsoft 提供了 MSI 文件（32 位和 64 位），供管理员用于将 Teams 批量部署至选定的用户或计算机。 管理员可以使用这些文件远程部署 Teams，使用户无需手动下载 Teams 应用。 部署后，对于登录至计算机上的所有用户，Teams 将会自动启用。 （你可以在安装此应用之后禁用自动启用。 [请参阅下面的](#disable-auto-launch-for-the-msi-installer)。）建议你将程序包部署至计算机，以便该计算机上的所有新用户均可从此部署中受益。
 
 以下是 MSI 文件的链接：
 
-|实体  |32位      |64位      | ARM64 |
+|实体  |32 位      |64 位      | ARM64 |
 |---------|---------|---------|-----------|
-|商用     | [32位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
-|联邦政府 - GCC     | [32位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|联邦政府 - GCC High    | [32位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|联邦政府 - DoD     | [32位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|商用     | [32 位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|联邦政府 - GCC     | [32 位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|联邦政府 - GCC High    | [32 位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|联邦政府 - DoD     | [32 位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
 **若要确保部署成功，请注意以下事项：**
 
-- 在64位操作系统上安装64位版本的团队。 如果你尝试在32位操作系统上安装64位版本的团队，则安装将不会成功，并且当前不会收到错误消息。
+- 在 64 位操作系统上安装 64 位版本的 Teams。 如果尝试在 32 位操作系统上安装 64 位版本的 Teams，安装不会成功，并且当前不会收到错误消息。
 
-- 如果客户租户位于 GCCH 或 DoD 云上，客户应通过将 **CloudType** 值添加到注册表中的 **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** 键来设置注册表中的初始终结点。 **CloudType** 的类型为 **DWORD** 值，值为 (0 = Unset，1 = 商业，2 = GCC，3 = GCCH，4 = DOD) 。 将终结点设置为注册表项会限制团队连接到正确的云终结点，以便与团队进行预登录连接。
+- 如果客户租户位于 GCCH 或 DoD 云上，则客户应该通过将 **CloudType** 值添加到注册表中的HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams密钥，在注册表中设置初始终结点。 **CloudType** 的类型为 **DWORD，** 值为 (0 = 未设置，1 = 商业，2 = GCC，3 = GCCH，4 = DOD) 。 使用注册表项设置终结点会限制 Teams 连接到正确的云终结点，以与 Teams 建立预登录连接。
 
-- 团队也可以包含在适用于企业的 Microsoft 365 应用的部署中。 有关详细信息，请参阅 [通过适用于企业的 microsoft 365 应用部署 Microsoft 团队](https://docs.microsoft.com/deployoffice/teams-install)。
+- Teams 还可以包含在适用于企业的 Microsoft 365 应用部署中。 有关详细信息，请参阅"[使用适用于企业的 Microsoft 365 应用部署 Microsoft Teams"。](https://docs.microsoft.com/deployoffice/teams-install)
 
-- 若要了解有关 Microsoft 终结点配置管理器的详细信息，请参阅 [什么是配置管理器？](https://docs.microsoft.com/configmgr/core/understand/introduction)
+- 若要详细了解 Microsoft 终结点配置管理器，请参阅" [什么是配置管理器？"](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>部署过程（推荐）
 
@@ -66,7 +66,7 @@ Teams MSI 会将安装程序放置在“Program Files”中。 无论用户何�
 请勿使用 MSI 部署更新，因为当客户端从服务中检测到可用的新版本时将会自动更新。 要冲虚部署最新的安装程序，请使用下述重新部署 MSI 流程。 如果部署的是旧版的 MSI 程序包，则除了在 VDI 环境中以外，客户端将为用户自动更新（如可能）。 如果部署的是非常旧的版本，则在用户能够使用 Teams 之前，MSI 将会触发应用更新。
 
 > [!IMPORTANT]
-> 默认位置是64位操作系统上的 (x86) \Teams 安装程序和32位操作系统上 C:\Program Files\Teams 安装程序的 C:\Program 文件。
+> 默认位置为 C：\Program Files (x86) \Teams Installer（在 64 位操作系统上）和 C：\Program Files\Teams Installer（在 32 位操作系统上）。
 > 不建议更改默认安装位置，因为这可能会中断更新流。 版本太旧最终会阻止用户访问服务。
 
 #### <a name="target-computer-requirements"></a>目标计算机要求
@@ -82,18 +82,18 @@ Teams MSI 会将安装程序放置在“Program Files”中。 无论用户何�
 
 ## <a name="clean-up-and-redeployment-procedure"></a>清理和重新部署过程
 
-如果用户从其用户配置文件中卸载团队，则 MSI 安装程序将跟踪用户已卸载团队应用，并且不再为该用户配置文件安装团队。 要为此用户在已从其中卸载 Teams 的特定计算机上重新部署 Teams，请执行以下操作：
+如果用户从用户配置文件中卸载 Teams，MSI 安装程序将跟踪该用户已卸载 Teams 应用，并且不再为该用户个人资料安装 Teams。 要为此用户在已从其中卸载 Teams 的特定计算机上重新部署 Teams，请执行以下操作：
 
 > [!IMPORTANT]
-> 接下来的步骤包含有关如何修改注册表的信息。 请确保在修改注册表之前对其进行备份，如果出现问题，您知道如何还原注册表。 有关如何备份、还原和修改注册表的详细信息，请参阅 [高级用户的 Windows 注册表信息](https://support.microsoft.com/help/256986)。
+> 接下来的步骤包含有关如何修改注册表的信息。 请确保在修改注册表之前对其进行备份，并且知道在出现问题时如何还原注册表。 若要详细了解如何备份、还原和修改注册表，请参阅高级用户的 [Windows 注册表信息](https://support.microsoft.com/help/256986)。
 
-1. 卸载为每个用户配置文件安装的团队应用。 有关详细信息，请参阅 [卸载 Microsoft 团队](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)。
-2. 在下递归删除目录 `%localappdata%\Microsoft\Teams\` 。
+1. 卸载针对每个用户配置文件安装的 Teams 应用。 有关详细信息，请参阅"[卸载 Microsoft Teams"。](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)
+2. 以递归式删除目录 `%localappdata%\Microsoft\Teams\` 。
 3. 删除 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 注册表值。
 4. 将 MSI 程序包重新部署到该特定计算机。
 
 > [!TIP]
-> 您也可以使用我们的 [团队部署清理脚本](scripts/powershell-script-deployment-cleanup.md) 来完成步骤1和2。  
+> 还可使用 Teams 部署 [清理脚本完成](scripts/powershell-script-deployment-cleanup.md) 步骤 1 和步骤 2。  
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>阻止 Teams 在安装后自动启动
 
@@ -114,13 +114,13 @@ MSI 的默认行为是在用户登录时立即安装 Teams 应用，然后自动
 
 可以使用如下所示的 **OPTIONS="noAutoStart=true"** 参数禁用 MSI 安装程序自动启动。  
 
-对于32位版本：
+对于 32 位版本：
 
 ```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-对于64位版本：
+对于 64 位版本：
 
 ```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
@@ -128,7 +128,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 当用户登录 Windows 时，Teams 已通过 MSI 安装并且启动 Teams 的快捷方式已添加至用户桌面。 在用户手动启动 Teams 之前，它不会启动。 用户手动启动 Teams 之后，无论用户何时登录，Teams 均会自动启动。
 
-请注意，这些示例还使用 **ALLUSERS = 1** 参数。 设置此参数时，团队 Machine-Wide 安装程序的 "程序和功能" 将显示在 "控制面板" 的 "程序和功能" 和 "适用于计算机的所有用户的 Windows 设置" & 功能中。 如果团队拥有计算机上的管理员凭据，则所有用户都可以卸载团队。
+请注意，这些示例还使用 **ALLUSERS=1** 参数。 设置此参数时，Teams Machine-Wide 安装程序会显示在"控制面板"中的"程序和功能"中，以及"应用& Windows 设置中针对计算机的所有用户显示的功能。 然后，如果用户的计算机上有管理员凭据，则所有用户都可以卸载 Teams。
 
 > [!Note]
 > 如果手动运行 MSI，请确保使用已提升的权限运行它。 即便以管理员身份而不是使用已提升的权限运行 MSI，安装程序也无法将选项配置为禁用自动启动。

@@ -1,8 +1,8 @@
 ---
 title: 添加服务器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 向现有服务器池添加新的服务器，其中池为以下几项之一：
-ms.openlocfilehash: 5e6d1772b1cb18fe8c392e3ad9fa4f131415e522
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e40cf71b0ab52e66a3a28e0362de4f9106ddd831
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216403"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818622"
 ---
 # <a name="add-server"></a>添加服务器
  
@@ -44,15 +44,15 @@ ms.locfileid: "48216403"
     
 - 选择 **“使用所有配置 IP 地址”**，这意味着可以使用计算机上定义的任何 IP 地址。此外，还可以选择 **“服务仅供选定 IP 地址使用”**，然后在新服务器上输入特定的地址。输入的 IP 地址是唯一响应托管服务的 IP 地址。
     
-- 如果在前端服务器上并置中介服务器，则定义“PSTN IP 地址”****。
+- 如果在前端服务器上并置中介服务器，则定义“PSTN IP 地址”。
     
-- 选择“启用 IPv6”**** 为此服务器启用 IPv6。
+- 选择“启用 IPv6”为此服务器启用 IPv6。
     
   **控制器服务器**
   
 - DNS 中定义的新服务器的 FQDN。
     
-- 选择“使用所有已配置的 IP 地址”****，这意味着将使用计算机上定义的任何 IP 地址。此外，还可以选择“将服务用途限制为所选 IP 地址”****，然后在新服务器上输入特定的 IP 地址。输入的 IP 地址是唯一响应托管服务的 IP 地址。
+- 选择“使用所有已配置的 IP 地址”，这意味着将使用计算机上定义的任何 IP 地址。此外，还可以选择“将服务用途限制为所选 IP 地址”，然后在新服务器上输入特定的 IP 地址。输入的 IP 地址是唯一响应托管服务的 IP 地址。
     
   **中介服务器**
   
@@ -67,7 +67,7 @@ ms.locfileid: "48216403"
   
 - DNS 中定义的新服务器的 FQDN。
     
-- 选择“使用所有已配置的 IP 地址”****，这意味着可以使用计算机上定义的任何 IP 地址。此外，还可以选择“将服务用途限制为所选 IP 地址”****，然后在新服务器上输入特定的地址。输入的 IP 地址是唯一响应托管服务的 IP 地址。
+- 选择“使用所有已配置的 IP 地址”，这意味着可以使用计算机上定义的任何 IP 地址。此外，还可以选择“将服务用途限制为所选 IP 地址”，然后在新服务器上输入特定的地址。输入的 IP 地址是唯一响应托管服务的 IP 地址。
     
   **受信任应用程序服务器**
   

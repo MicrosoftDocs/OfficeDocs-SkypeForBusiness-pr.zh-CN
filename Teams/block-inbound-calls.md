@@ -1,7 +1,7 @@
 ---
-title: 阻止 Microsoft 团队中的入站呼叫
-ms.author: v-lanac
-author: lanachin
+title: 在 Microsoft Teams 中阻止入站呼叫
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -14,67 +14,67 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 3bb1222f0662228e5c0de7b2253cbac162571b1e
-ms.sourcegitcommit: a36514c7c8ea47bde4edb09c11ff99061b1f74c0
+ms.openlocfilehash: ca2f8de5962572a08ab2a0ae7127446d14334c83
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094678"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799902"
 ---
 # <a name="block-inbound-calls"></a>阻止入站呼叫
 
-电话系统直接路由和通话计划支持阻止来自公共交换电话网络 (PSTN) 的入站呼叫。 此功能允许定义用于数字模式的租户全局列表，以便可以针对该列表检查与该租户的每个传入 PSTN 呼叫的呼叫方 ID。 如果进行了匹配，则会拒绝传入呼叫。
+电话系统直接路由和呼叫计划支持阻止来自公用电话交换网和 PSTN (的) 。 此功能允许定义一个租户全局数字模式列表，以便可以针对列表检查每个传入到租户的 PSTN 呼叫的呼叫者 ID 是否匹配。 如果进行了匹配，将拒绝传入呼叫。
 
-此入站呼叫阻止功能仅适用于从 PSTN 发起的入站呼叫，并且仅适用于租户-全球基础。 它在每用户基础上不可用。  
+此入站呼叫阻止功能仅适用于源自 PSTN 的入站呼叫，并且仅适用于租户全局。 它并非按用户提供。  
 
 >[!NOTE]
-> 被阻止的呼叫者在被阻止后可能会遇到稍有不同的行为。 该行为基于被阻止的呼叫者的运营商的运营商如何处理不允许成功完成呼叫的通知。 例如，可能包括一条指示呼叫无法通过拨号完成的载波消息，或只是断开通话。
+> 被阻止的呼叫者在被阻止时可能遇到略有不同的行为。 此行为基于被阻止呼叫者的运营商如何处理不允许成功完成呼叫的通知。 示例可能包括运营商消息，指出无法将呼叫作为已拨叫完成，或只是丢弃呼叫。
 
-## <a name="call-blocking-admin-controls-and-information"></a>呼叫阻止管理员控制和信息
+## <a name="call-blocking-admin-controls-and-information"></a>呼叫阻止管理员控件和信息
 
-阻止号码的管理员控制仅使用 PowerShell 提供。 数字块模式定义为正则表达式模式。 表达式的顺序是不重要的-列表中的第一个模式将导致调用被阻止。 在 "阻止的呼叫者" 列表中添加或删除的新号码或图案可能需要长达24小时才能使模式变为活动状态。
+阻止号码的管理控件仅使用 PowerShell 提供。 数字块模式定义为正则表达式模式。 表达式的顺序不重要 – 列表中匹配的第一个模式会导致调用被阻止。 在阻止的呼叫者列表中添加或删除的新号码或模式可能需要多达 24 小时才能激活模式。
 
-## <a name="call-blocking-powershell-commands"></a>呼叫阻止 PowerShell 命令
+## <a name="call-blocking-powershell-commands"></a>调用阻止 PowerShell 命令
 
-你可以使用**新**的、**获取**、**设置**、**删除**  - **CsInboundBlockedNumberPattern** cmdlet 管理数字模式。 你可以使用这些 cmdlet 管理给定模式，包括切换给定模式的激活的功能。
+使用 New、Get、Set、Remove      - **CsInboundBlockedNumberPattern** cmdlet 管理数字模式。 可以使用这些 cmdlet 来管理给定的模式，包括切换给定模式激活的能力。
 
-- [CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern)返回添加到租户列表的所有阻止的数字模式的列表，包括名称、说明、已启用 (True/False) 和模式。
-- [New-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern)将阻止的数字模式添加到租户列表。
-- [Remove-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/remove-csinboundblockednumberpattern)从租户列表中删除阻止的数字模式。
-- [Set-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern)修改租户列表中被阻止的数字模式的一个或多个参数。
+- [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) 返回添加到租户列表的所有阻止数字模式的列表，包括名称、说明、已启用 (True/False) 和每个模式。
+- [New-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern) 将阻止的编号模式添加到租户列表。
+- [Remove-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/remove-csinboundblockednumberpattern) 从租户列表中删除阻止的编号模式。
+- [Set-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern) 修改租户列表中的被阻止数字模式的一个或多个参数。
 
-查看和激活整个呼叫阻止功能是通过**Get**、 **Set**  - **CsTenantBlockingCallingNumbers** cmdlet 进行管理的。
+通过 **Get、Set**   - **CsTenantBlockingCallingNumbers** cmdlet 管理查看和激活整个呼叫阻止功能。
 
-- [CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers)返回全局被阻止的号码列表的参数，其中包括已启用 (True/False) 。 只有在打开或关闭该功能时，才能手动修改单个全局租户策略。
-- [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers)允许将全局租户阻止的通话修改为在租户级别启用和禁用。
+- [Get-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) 返回全局阻止编号列表的参数，包括 Enabled (True/False) 。 只有打开或关闭该功能，才能手动修改单个全局租户策略。
+- [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) 允许修改全局租户阻止的调用以在租户级别启用和关闭。
 
 ### <a name="examples"></a>示例
 
 #### <a name="block-a-number"></a>阻止号码
 
-在此示例中，"**已启用**" 和 "**说明**" 参数是可选的。
+此示例中 **，Enabled** 和 **Description** 参数是可选的。
 
 ```powershell
 New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description “<description>” -Pattern “^[+]?13125550000”
 ```
 
-创建新模式会将模式添加为默认启用。 说明是提供详细信息的可选字段。
+创建新模式会添加默认已启用的模式。 说明是一个可选字段，用于提供详细信息。
 
-我们建议你提供一个有意义的名称，以便轻松了解添加模式的原因。 如果只是阻止垃圾邮件号码，请考虑将规则命名为与正在匹配的数字模式相同，并根据需要在描述中添加其他信息。
+我们建议提供一个有意义的名称，以便轻松了解添加模式的原因。 如果只是阻止垃圾邮件号码，请考虑将规则命名为匹配的数字模式，并根据需要在说明中添加其他信息。
 
-使用正则表达式 (Regex) 匹配模式。 在测试和验证之前，留出复制时间。
+模式使用正则表达式和正则表达式 (正则表达式) 。 在测试和验证之前，请留出时间进行复制。
 
 #### <a name="allow-a-number"></a>允许数字
 
-在此示例中，需要**标识**参数。
+此示例中 **，Identity** 参数是必需的。
 
 ```powershell
 Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 ```
  
-如果身份未知，请使用**CsInboundBlockedNumberPattern** cmdlet 首先找到正确的模式，并记下标识。 然后，运行 CsTenantBlockedNumberPattern cmdlet 并传递相应**的**标识值。
+如果标识未知，请使用 **Get-CsInboundBlockedNumberPattern** cmdlet 先找到正确的模式并记下标识。 然后，运行 **Remove-CsTenantBlockedNumberPattern** cmdlet 并传递相应的标识值。
 
-在测试和验证之前，留出复制时间。
+在测试和验证之前，请留出时间进行复制。
 
 #### <a name="view-all-number-patterns"></a>查看所有数字模式
 
@@ -84,22 +84,22 @@ Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 Get-CsInboundBlockedNumberPattern
 ```
 
-使用内置 PowerShell 筛选功能根据需要分析返回的值。
+使用内置的 PowerShell 筛选功能，可分析所需的返回值。
 
-## <a name="add-number-exceptions"></a>添加号码例外
+## <a name="add-number-exceptions"></a>添加数字例外
 
-你可以使用 "**新建**"、"**获取**"、"**设置**" 和 "**删除**  - **CsTenantBlockNumberExceptionPattern** " cmdlet 将例外添加到阻止的数字模式。
+可以使用New、Get、Set、Remove     - **CsTenantBlockNumberExceptionPattern** cmdlet 向被阻止的编号模式添加异常。
 
-- [New-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/new-cstenantblockednumberexceptionpattern)将数字异常模式添加到租户列表。 
-- [Get-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern)返回添加到租户列表的所有数字异常模式的列表。
-- [Set-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockednumberexceptionpattern)将一个或多个参数修改为租户列表中的数字异常模式。
-- [Remove-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/remove-cstenantblockednumberexceptionpattern)从租户列表中删除数字异常模式。
+- [New-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/new-cstenantblockednumberexceptionpattern) 将数字异常模式添加到租户列表。 
+- [Get-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern) 返回添加到租户列表的所有数字异常模式的列表。
+- [Set-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockednumberexceptionpattern) 将一个或多个参数修改为租户列表中的数字异常模式。
+- [Remove-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/remove-cstenantblockednumberexceptionpattern) 从租户列表中删除数字异常模式。
 
 ### <a name="examples"></a>示例
 
-#### <a name="add-a-number-exception"></a>添加数字例外
+#### <a name="add-a-number-exception"></a>添加数字异常
 
-在此示例中，创建新的数字异常模式，并将在默认情况下将模式添加为 "已启用"。 "**启用**" 和 "**说明**" 参数是可选的。
+本示例将创建一个新的数字异常模式，默认情况下，该模式将添加为"已启用"。 Enabled 和 **Description** 参数是可选的。
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>
@@ -109,9 +109,9 @@ New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> 
 New-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant daacb588-18ef-4f77-8c83-955af9615930 -Pattern "^011(\d*)$" -Description "Allow international prefix in US"  
 ```
 
-#### <a name="view-all-number-exceptions"></a>查看所有号码的例外情况
+#### <a name="view-all-number-exceptions"></a>查看所有数字异常
 
-在此示例中， **Identity**参数是可选的。 如果未指定**Identity**参数，此 cmdlet 将返回为租户输入的所有数字异常模式的列表。
+本示例中的 **Identity** 参数是可选的。 如果 **未指定 Identity** 参数，此 cmdlet 将返回为租户输入的所有数字异常模式的列表。
  
 ```powershell
 Get-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -123,7 +123,7 @@ Get-CsTenantBlockedNumberExceptionPattern -Tenant daacb588-18ef-4f77-8c83-955af9
 
 #### <a name="modify-a-number-exception"></a>修改数字异常
 
-在此示例中， **Identity**参数是必需的。 **CsTenantBlockedNumberExceptionPattern** cmdlet 允许你为给定的数字模式标识修改一个或多个参数。
+此示例中 **，Identity** 参数是必需的。 **Set-CsTenantBlockedNumberExceptionPattern** cmdlet 允许修改给定数字模式标识的一个或多个参数。
  
 ```powershell
 Set-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Enabled <bool> -Description <string> -Pattern <string> 
@@ -135,7 +135,7 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="remove-a-number-exception"></a>删除数字异常
 
-在此示例中，需要**标识**参数。 此 cmdlet 将从租户列表中删除给定的数字模式。  如果身份未知，请使用**CsInboundBlockedNumberPattern** cmdlet 首先找到正确的模式，并记下标识。 然后，运行 CsTenantBlockedNumberExceptionPattern cmdlet 并传递相应**的**标识值。在测试和验证之前，留出复制时间。  
+此示例中 **，Identity** 参数是必需的。 此 cmdlet 将删除租户列表中的给定数字模式。  如果标识未知，请使用 **Get-CsInboundBlockedNumberPattern** cmdlet 先找到正确的模式并记下标识。 然后，运行 **Remove-CsTenantBlockedNumberExceptionPattern** cmdlet 并传递相应的标识值。在测试和验证之前，请留出时间进行复制。  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -145,11 +145,11 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentit
 Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant daacb588-18ef-4f77-8c83-955af9615930
 ```
 
-### <a name="test-whether-a-number-is-blocked"></a>测试是否阻止了某个号码
+### <a name="test-whether-a-number-is-blocked"></a>测试是否阻止了数字
 
-使用**CsInboundBlockedNumberPattern** cmdlet 验证租户中的某个数字是否已被阻止。
+使用 **Test-CsInboundBlockedNumberPattern** cmdlet 验证是否在租户中阻止了数字。
  
-在此示例中，需要**电话号码**和**租户**参数。 **电话号码**参数应为不带任何其他字符的数字字符串，如 + 或-。 在 TRPS 中，**租户参数**是可选的。 如果该数字在租户中被阻止，则所得到的**isNumberBlocked**参数将返回 True 值，如果该数字未被阻止，则返回 False。
+此示例中 **，PhoneNumber 和** **Tenant** 参数是必需的。 **PhoneNumber** 参数应为不带任何其他字符（如 + 或 -）的数字字符串。 在 TRPS 中 **，Tenant 参数** 是可选的。 如果租户中阻止了数字，则生成的 **isNumberBlocked** 参数返回值 True;如果未阻止，则返回 False。
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
@@ -171,6 +171,6 @@ Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 
 |---------|---------|---------|
 |200    | False        |         |
 
-## <a name="a-note-about-regex"></a>有关 Regex 的笔记
+## <a name="a-note-about-regex"></a>有关正则表达式的注释
 
-如前面所述，阻止调用方的模式匹配是使用 Regex 完成的。 可联机使用多个工具来帮助验证 Regex 模式匹配。 如果你不熟悉 Regex 模式，我们建议你花一些时间来熟悉基础知识。 若要确保获得预期的结果，请使用用于验证模式匹配的工具，然后再将新的阻止数字匹配添加到你的租户。
+如前面所述，阻止调用方的模式匹配是使用正则表达式完成。 在线提供了多个工具来帮助验证正则表达式模式匹配。 如果不熟悉正则表达式模式，建议你花一些时间熟悉基础知识。 若要确保获得预期的结果，请使用验证模式匹配项的工具，然后再向租户添加新的阻止编号匹配项。
