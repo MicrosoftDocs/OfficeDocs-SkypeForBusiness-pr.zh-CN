@@ -1,8 +1,8 @@
 ---
 title: 证书请求（证书颁发机构）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 在“选择证书颁发机构 (CA)”页面上向联机证书颁发机构 (CA)（通常是内部网络中的服务器）发出证书请求时，将看到两个选项：
-ms.openlocfilehash: 6c52a46bf40211d05ea47205d2573627910d3ba6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 在“选择证书颁发机构(CA)”页面上向联机证书颁发机构 (CA)（通常是内部网络中的服务器）发出证书请求时，将看到两个选项：
+ms.openlocfilehash: 8744471569c76e8f8196cda41ca398c48205fea8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796753"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830362"
 ---
-# <a name="certificate-request-certificate-authority"></a><span data-ttu-id="de716-103">证书请求（证书颁发机构）</span><span class="sxs-lookup"><span data-stu-id="de716-103">Certificate Request (Certificate Authority)</span></span>
+# <a name="certificate-request-certificate-authority"></a><span data-ttu-id="5515c-103">证书请求（证书颁发机构）</span><span class="sxs-lookup"><span data-stu-id="5515c-103">Certificate Request (Certificate Authority)</span></span>
  
-<span data-ttu-id="de716-104">在“**选择证书颁发机构 (CA)**”页面上向联机证书颁发机构 (CA)（通常是内部网络中的服务器）发出证书请求时，将看到两个选项：</span><span class="sxs-lookup"><span data-stu-id="de716-104">When making a certificate request to an online certification authority (CA) (typically, these are servers that are on your internal network) on the **Choose a Certification Authority (CA)** page, you are presented with two options:</span></span>
+<span data-ttu-id="5515c-104">在“选择证书颁发机构(CA)”页面上向联机证书颁发机构 (CA)（通常是内部网络中的服务器）发出证书请求时，将看到两个选项：</span><span class="sxs-lookup"><span data-stu-id="5515c-104">When making a certificate request to an online certification authority (CA) (typically, these are servers that are on your internal network) on the **Choose a Certification Authority (CA)** page, you are presented with two options:</span></span>
   
-1. <span data-ttu-id="de716-105">从在您的环境中检测到的列表中选择一个 CA。</span><span class="sxs-lookup"><span data-stu-id="de716-105">Select a CA from the list detected in your environment.</span></span>
+1. <span data-ttu-id="5515c-105">从在您的环境中检测到的列表中选择一个 CA。</span><span class="sxs-lookup"><span data-stu-id="5515c-105">Select a CA from the list detected in your environment.</span></span>
     
-2. <span data-ttu-id="de716-106">指定其他证书颁发机构。</span><span class="sxs-lookup"><span data-stu-id="de716-106">Specify another certification authority.</span></span>
+2. <span data-ttu-id="5515c-106">指定其他证书颁发机构。</span><span class="sxs-lookup"><span data-stu-id="5515c-106">Specify another certification authority.</span></span>
     
-<span data-ttu-id="de716-107">如果您选择第一个选项，您将看到一个下拉列表，其中包含在您的环境中检测到的所有基于 Windows 服务器的证书颁发机构。</span><span class="sxs-lookup"><span data-stu-id="de716-107">If you select the first option, you'll see a drop-down list that contains all Windows Server-based certification authorities that are detected in your environment.</span></span> <span data-ttu-id="de716-108">选择证书相应的证书颁发机构。</span><span class="sxs-lookup"><span data-stu-id="de716-108">Select the certification authority that is appropriate for your certificate.</span></span> <span data-ttu-id="de716-109">您可能需要咨询 CA 管理员以了解应选择哪个 CA。</span><span class="sxs-lookup"><span data-stu-id="de716-109">You may need to consult with your CA administrator to know which CA to choose.</span></span>
+<span data-ttu-id="5515c-107">如果选择第一个选项，你将看到一个下拉列表，其中包含环境中检测到的所有基于 Windows Server 的证书颁发机构。</span><span class="sxs-lookup"><span data-stu-id="5515c-107">If you select the first option, you'll see a drop-down list that contains all Windows Server-based certification authorities that are detected in your environment.</span></span> <span data-ttu-id="5515c-108">选择证书相应的证书颁发机构。</span><span class="sxs-lookup"><span data-stu-id="5515c-108">Select the certification authority that is appropriate for your certificate.</span></span> <span data-ttu-id="5515c-109">您可能需要咨询 CA 管理员以了解应选择哪个 CA。</span><span class="sxs-lookup"><span data-stu-id="5515c-109">You may need to consult with your CA administrator to know which CA to choose.</span></span>
   
-<span data-ttu-id="de716-p102">如果选择第二个选项，则需键入要用于证书的证书颁发机构的完全限定域名 (FQDN) 以及 CA 实例。如果要使用的 CA 不是基于 Windows Server 的 CA，但适用于基于 Windows Server 的 CA，则此选项适用。</span><span class="sxs-lookup"><span data-stu-id="de716-p102">If you select the second option, type in the fully qualified domain name (FQDN) and CA instance for the certification authority that you will use for your certificate. This option is appropriate if the CA that you want to use is not a Windows Server-based CA, but will work for Windows Server-based CAs.</span></span>
+<span data-ttu-id="5515c-p102">如果选择第二个选项，则需键入要用于证书的证书颁发机构的完全限定域名 (FQDN) 以及 CA 实例。如果要使用的 CA 不是基于 Windows Server 的 CA，但适用于基于 Windows Server 的 CA，则此选项适用。</span><span class="sxs-lookup"><span data-stu-id="5515c-p102">If you select the second option, type in the fully qualified domain name (FQDN) and CA instance for the certification authority that you will use for your certificate. This option is appropriate if the CA that you want to use is not a Windows Server-based CA, but will work for Windows Server-based CAs.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="de716-112">应首先确认所需的组成员身份以确保证书请求能够成功。</span><span class="sxs-lookup"><span data-stu-id="de716-112">Be sure to confirm the group memberships that you need to be successful with the certificate request.</span></span> <span data-ttu-id="de716-113">通常，证书颁发机构对在服务器上安装 Skype for Business 服务器的要求具有不同的权限要求。</span><span class="sxs-lookup"><span data-stu-id="de716-113">Typically, certification authorities have a different permission requirement from the requirements for installing Skype for Business Server on servers.</span></span> <span data-ttu-id="de716-114">请与 CA 管理员确认请求证书的要求。</span><span class="sxs-lookup"><span data-stu-id="de716-114">Confirm the requirements for requesting the certificate with your CA administrator.</span></span> 
+> <span data-ttu-id="5515c-112">应首先确认所需的组成员身份以确保证书请求能够成功。</span><span class="sxs-lookup"><span data-stu-id="5515c-112">Be sure to confirm the group memberships that you need to be successful with the certificate request.</span></span> <span data-ttu-id="5515c-113">通常，证书颁发机构的权限要求与在服务器上安装 Skype for Business Server 的要求不同。</span><span class="sxs-lookup"><span data-stu-id="5515c-113">Typically, certification authorities have a different permission requirement from the requirements for installing Skype for Business Server on servers.</span></span> <span data-ttu-id="5515c-114">请与 CA 管理员确认请求证书的要求。</span><span class="sxs-lookup"><span data-stu-id="5515c-114">Confirm the requirements for requesting the certificate with your CA administrator.</span></span> 
   
 

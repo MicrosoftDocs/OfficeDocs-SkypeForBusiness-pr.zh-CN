@@ -1,8 +1,8 @@
 ---
 title: 证书分配（简介）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
-description: 若要开始分配用于 Skype for Business 服务器的证书，请单击 "下一步"。
-ms.openlocfilehash: 9d199c5e4e0225c13453cbc620a5289fd9498897
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要开始分配证书以在 Skype for Business Server 中使用，请单击"下一步"。
+ms.openlocfilehash: d5190aad2f91f078edad73699aad5386785f0ed4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823956"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827422"
 ---
-# <a name="certificate-assignment-intro"></a><span data-ttu-id="46086-103">证书分配（简介）</span><span class="sxs-lookup"><span data-stu-id="46086-103">Certificate Assignment (Intro)</span></span>
+# <a name="certificate-assignment-intro"></a><span data-ttu-id="09b57-103">证书分配（简介）</span><span class="sxs-lookup"><span data-stu-id="09b57-103">Certificate Assignment (Intro)</span></span>
  
-<span data-ttu-id="46086-104">若要开始分配用于 Skype for Business 服务器的证书，请单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="46086-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
+<span data-ttu-id="09b57-104">若要开始分配证书以在 Skype for Business Server 中使用，请单击"下 **一步"。**</span><span class="sxs-lookup"><span data-stu-id="09b57-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
   
 

@@ -1,13 +1,13 @@
 ---
-title: PowerShell 脚本示例-重置团队中的自动启动设置
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell 脚本示例 - 在 Teams 中重置自动启动设置
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本重置团队中每个用户的 "自动启动" 设置。
+description: 使用此 PowerShell 脚本可基于每个用户重置 Teams 中的自动启动设置。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,22 +16,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be1073d628f137b4c2063849bcdab413ce0d2b87
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 02f21fcc642f33b17efa6ef44878bce567695b4d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951037"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827502"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a><span data-ttu-id="47577-103">PowerShell 脚本示例-重置团队中的自动启动设置</span><span class="sxs-lookup"><span data-stu-id="47577-103">PowerShell script sample - Reset the autostart setting in Teams</span></span>
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a><span data-ttu-id="019b0-103">PowerShell 脚本示例 - 在 Teams 中重置自动启动设置</span><span class="sxs-lookup"><span data-stu-id="019b0-103">PowerShell script sample - Reset the autostart setting in Teams</span></span>
 
-<span data-ttu-id="47577-104">使用此脚本，在每个用户的基础上重置团队自动启动设置。</span><span class="sxs-lookup"><span data-stu-id="47577-104">Use this script to reset the Teams autostart setting on a per-user basis.</span></span> <span data-ttu-id="47577-105">这包括由用户或团队应用设置的所有值。</span><span class="sxs-lookup"><span data-stu-id="47577-105">This includes any values set by the user or the Teams app.</span></span> <span data-ttu-id="47577-106">默认情况下，当用户在安装后登录到其计算机时，团队会自动启动。</span><span class="sxs-lookup"><span data-stu-id="47577-106">By default, Teams automatically starts when a user logs in to their computer after it's installed.</span></span>
+<span data-ttu-id="019b0-104">使用此脚本可基于每个用户重置 Teams 自动启动设置。</span><span class="sxs-lookup"><span data-stu-id="019b0-104">Use this script to reset the Teams autostart setting on a per-user basis.</span></span> <span data-ttu-id="019b0-105">这包括用户或 Teams 应用设置的任何值。</span><span class="sxs-lookup"><span data-stu-id="019b0-105">This includes any values set by the user or the Teams app.</span></span> <span data-ttu-id="019b0-106">默认情况下，当用户在安装后登录到其计算机时，Teams 会自动启动。</span><span class="sxs-lookup"><span data-stu-id="019b0-106">By default, Teams automatically starts when a user logs in to their computer after it's installed.</span></span>
 
-<span data-ttu-id="47577-107">如果已部署团队并希望设置 "[阻止 Microsoft 团队在安装组策略设置后自动启动" 策略设置](../msi-deployment.md#use-group-policy-recommended)以禁用团队 autostart，则需要先将组策略设置设置为所需的值，然后运行此脚本。</span><span class="sxs-lookup"><span data-stu-id="47577-107">If you've already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.</span></span>
+<span data-ttu-id="019b0-107">如果已部署 Teams，并且想要将"阻止 [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) 在安装后自动启动组策略"设置设置为禁用 Teams 自动启动，则需要先将"组策略"设置设置为所需的值，然后运行此脚本。</span><span class="sxs-lookup"><span data-stu-id="019b0-107">If you've already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.</span></span>
 
-<span data-ttu-id="47577-108">为用户启动团队后，无法使用组策略禁用 "自动启动" 设置。</span><span class="sxs-lookup"><span data-stu-id="47577-108">After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.</span></span>
+<span data-ttu-id="019b0-108">为用户启动 Teams 后，无法通过使用组策略禁用自动启动设置。</span><span class="sxs-lookup"><span data-stu-id="019b0-108">After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.</span></span>
 
-## <a name="sample-script"></a><span data-ttu-id="47577-109">示例脚本</span><span class="sxs-lookup"><span data-stu-id="47577-109">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="019b0-109">示例脚本</span><span class="sxs-lookup"><span data-stu-id="019b0-109">Sample script</span></span>
 
 ````powershell
 <#
@@ -147,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="47577-110">相关主题</span><span class="sxs-lookup"><span data-stu-id="47577-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="019b0-110">相关主题</span><span class="sxs-lookup"><span data-stu-id="019b0-110">Related topics</span></span>
 
-- [<span data-ttu-id="47577-111">使用 MSI 安装 Teams</span><span class="sxs-lookup"><span data-stu-id="47577-111">Install Teams using MSI</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="47577-112">通过适用于企业的 Microsoft 365 应用部署团队</span><span class="sxs-lookup"><span data-stu-id="47577-112">Deploy Teams with Microsoft 365 Apps for enterprise</span></span>](https://docs.microsoft.com/deployoffice/teams-install)
+- [<span data-ttu-id="019b0-111">使用 MSI 安装 Teams</span><span class="sxs-lookup"><span data-stu-id="019b0-111">Install Teams using MSI</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="019b0-112">使用适用于企业的 Microsoft 365 应用部署 Teams</span><span class="sxs-lookup"><span data-stu-id="019b0-112">Deploy Teams with Microsoft 365 Apps for enterprise</span></span>](https://docs.microsoft.com/deployoffice/teams-install)

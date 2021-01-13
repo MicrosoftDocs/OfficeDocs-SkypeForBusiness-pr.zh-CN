@@ -1,8 +1,8 @@
 ---
 title: 在 Skype for Business Server 中配置无 PIN 会议加入
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,58 +11,58 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 摘要：了解如何在 Skype for Business 服务器中配置 PIN 更少的会议加入选项。
-ms.openlocfilehash: a52738f2ca679838ab7687cde2c017e3364542a7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解如何在 Skype for Business Server 中配置无 PIN 会议加入选项。
+ms.openlocfilehash: 794bf13d92857a18254f903a1c5dcca98d0a1ec0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818483"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827982"
 ---
-# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a><span data-ttu-id="4f84e-103">在 Skype for Business Server 中配置无 PIN 会议加入</span><span class="sxs-lookup"><span data-stu-id="4f84e-103">Configure PIN-less meeting join in Skype for Business Server</span></span>
+# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a><span data-ttu-id="f2e59-103">在 Skype for Business Server 中配置无 PIN 会议加入</span><span class="sxs-lookup"><span data-stu-id="f2e59-103">Configure PIN-less meeting join in Skype for Business Server</span></span>
  
-<span data-ttu-id="4f84e-104">**摘要：** 了解如何在 Skype for Business 服务器中配置 PIN 更少的会议加入选项。</span><span class="sxs-lookup"><span data-stu-id="4f84e-104">**Summary:** Learn how to configure the PIN-less meeting join option in Skype for Business Server.</span></span>
+<span data-ttu-id="f2e59-104">**摘要：** 了解如何在 Skype for Business Server 中配置无 PIN 会议加入选项。</span><span class="sxs-lookup"><span data-stu-id="f2e59-104">**Summary:** Learn how to configure the PIN-less meeting join option in Skype for Business Server.</span></span>
   
-<span data-ttu-id="4f84e-105">当拨入呼叫者尝试加入会议时，会议自动助理（CAA）服务会将呼叫者置于与会议厅不同的保留笔中 &#x2014; 如果演示者尚未在呼叫中，并且拨入呼叫方未输入引线引脚。</span><span class="sxs-lookup"><span data-stu-id="4f84e-105">When a dial-in caller attempts to join a meeting, the Conference Auto Attendant (CAA) service places the caller in a holding pen that is different from the Lobby &#x2014; if a presenter is not already on a call, and the dial-in caller has not entered a leader PIN.</span></span> <span data-ttu-id="4f84e-106">无 PIN 会议加入选项使拨入呼叫方无需输入主持人 PIN 就能加入会议，即使他们是第一个从加入通话的人也是如此。</span><span class="sxs-lookup"><span data-stu-id="4f84e-106">The PIN-less meeting join option allows dial-in callers to join a meeting without entering a leader PIN even if they are the first person on a call.</span></span> 
+<span data-ttu-id="f2e59-105">当拨入呼叫者尝试加入会议时，会议 自动助理 (CAA) 服务将呼叫者放在一个与会议厅 &#x2014; 不同的长笔（如果演示者尚未呼叫，并且拨入呼叫者尚未输入主持人 PIN）。</span><span class="sxs-lookup"><span data-stu-id="f2e59-105">When a dial-in caller attempts to join a meeting, the Conference Auto Attendant (CAA) service places the caller in a holding pen that is different from the Lobby &#x2014; if a presenter is not already on a call, and the dial-in caller has not entered a leader PIN.</span></span> <span data-ttu-id="f2e59-106">无 PIN 会议加入选项允许拨入呼叫者加入会议，无需输入领导者 PIN，即使他们是第一个呼叫者。</span><span class="sxs-lookup"><span data-stu-id="f2e59-106">The PIN-less meeting join option allows dial-in callers to join a meeting without entering a leader PIN even if they are the first person on a call.</span></span> 
   
-<span data-ttu-id="4f84e-107">配置此功能时，请记住以下几点：</span><span class="sxs-lookup"><span data-stu-id="4f84e-107">Keep the following in mind when configuring this feature:</span></span>
+<span data-ttu-id="f2e59-107">配置此功能时，请牢记以下事项：</span><span class="sxs-lookup"><span data-stu-id="f2e59-107">Keep the following in mind when configuring this feature:</span></span>
   
-- <span data-ttu-id="4f84e-108">仅适用于秘密会议。</span><span class="sxs-lookup"><span data-stu-id="4f84e-108">Applies to private meetings only.</span></span>
+- <span data-ttu-id="f2e59-108">仅适用于私人会议。</span><span class="sxs-lookup"><span data-stu-id="f2e59-108">Applies to private meetings only.</span></span>
     
-- <span data-ttu-id="4f84e-109">允许 PSTN 呼叫方保持在不包含经过身份验证的用户的私密会议中。</span><span class="sxs-lookup"><span data-stu-id="4f84e-109">Allows PSTN callers to stay in private meetings without the presence of authenticated users.</span></span>
+- <span data-ttu-id="f2e59-109">允许 PSTN 呼叫者在没有经过身份验证的用户的情况下留在私人会议中。</span><span class="sxs-lookup"><span data-stu-id="f2e59-109">Allows PSTN callers to stay in private meetings without the presence of authenticated users.</span></span>
     
-- <span data-ttu-id="4f84e-110">在设置发生更改后，它适用于所有现有和新的私密会议。</span><span class="sxs-lookup"><span data-stu-id="4f84e-110">After the setting is changed, it applies to all existing and new private meetings.</span></span>
+- <span data-ttu-id="f2e59-110">更改设置后，它适用于所有现有和新的私人会议。</span><span class="sxs-lookup"><span data-stu-id="f2e59-110">After the setting is changed, it applies to all existing and new private meetings.</span></span>
     
-- <span data-ttu-id="4f84e-111">既可以在组织者网站也可以在全局级别启用。</span><span class="sxs-lookup"><span data-stu-id="4f84e-111">Can be enabled either at the site of the organizer or at the global level.</span></span>
+- <span data-ttu-id="f2e59-111">可在组织者的站点或全局级别启用。</span><span class="sxs-lookup"><span data-stu-id="f2e59-111">Can be enabled either at the site of the organizer or at the global level.</span></span>
     
-- <span data-ttu-id="4f84e-112">可以为以下各项设置能够绕过大厅的人员的选项：</span><span class="sxs-lookup"><span data-stu-id="4f84e-112">Options for who can bypass the lobby can be set for either of the following:</span></span> 
+- <span data-ttu-id="f2e59-112">可以针对以下任一项设置可以绕过大厅的选项：</span><span class="sxs-lookup"><span data-stu-id="f2e59-112">Options for who can bypass the lobby can be set for either of the following:</span></span> 
     
-  - <span data-ttu-id="4f84e-113">**我的组织中的任何人和呼叫者都可以直接参加**</span><span class="sxs-lookup"><span data-stu-id="4f84e-113">**Anyone from my Organization with Callers get in directly**</span></span>
+  - <span data-ttu-id="f2e59-113">**来自我的组织的任何人与呼叫者直接进入**</span><span class="sxs-lookup"><span data-stu-id="f2e59-113">**Anyone from my Organization with Callers get in directly**</span></span>
     
-  - <span data-ttu-id="4f84e-114">**任何人（没有限制）和呼叫者可以直接参加**（这是默认设置。）</span><span class="sxs-lookup"><span data-stu-id="4f84e-114">**Anyone (no restrictions) with Callers get in directly** (This is the default setting.)</span></span>
+  - <span data-ttu-id="f2e59-114">**对 (没有**) 呼叫者的任何用户 (这是默认设置。) </span><span class="sxs-lookup"><span data-stu-id="f2e59-114">**Anyone (no restrictions) with Callers get in directly** (This is the default setting.)</span></span>
     
-- <span data-ttu-id="4f84e-115">当配置为启用无 PIN 加入时，CAA 服务仍会提示提供主持人 PIN。</span><span class="sxs-lookup"><span data-stu-id="4f84e-115">When configured to enable PIN-less join, the CAA service still prompts for a leader PIN.</span></span> <span data-ttu-id="4f84e-116">无论是否输入 PIN，用户都可以加入会议。</span><span class="sxs-lookup"><span data-stu-id="4f84e-116">Users can join the meeting whether or not a PIN is entered.</span></span> <span data-ttu-id="4f84e-117">但是，保持引线引脚的功能允许拨入呼叫者作为领导者进行身份验证，如有必要，请管理会议。</span><span class="sxs-lookup"><span data-stu-id="4f84e-117">However, retaining the ability to enter a leader PIN allows a dial-in caller to authenticate as a leader and manage the meeting if necessary.</span></span>
+- <span data-ttu-id="f2e59-115">当配置为启用无 PIN 加入时，CAA 服务仍提示输入领导者 PIN。</span><span class="sxs-lookup"><span data-stu-id="f2e59-115">When configured to enable PIN-less join, the CAA service still prompts for a leader PIN.</span></span> <span data-ttu-id="f2e59-116">无论输入了 PIN，用户都可以加入会议。</span><span class="sxs-lookup"><span data-stu-id="f2e59-116">Users can join the meeting whether or not a PIN is entered.</span></span> <span data-ttu-id="f2e59-117">但是，保留输入领导者 PIN 的能力允许拨入呼叫者以领导者身份进行身份验证，并在必要时管理会议。</span><span class="sxs-lookup"><span data-stu-id="f2e59-117">However, retaining the ability to enter a leader PIN allows a dial-in caller to authenticate as a leader and manage the meeting if necessary.</span></span>
     
-## <a name="configure-pin-less-meeting-join"></a><span data-ttu-id="4f84e-118">配置无 PIN 会议加入</span><span class="sxs-lookup"><span data-stu-id="4f84e-118">Configure PIN-less meeting join</span></span>
+## <a name="configure-pin-less-meeting-join"></a><span data-ttu-id="f2e59-118">配置无 PIN 会议加入</span><span class="sxs-lookup"><span data-stu-id="f2e59-118">Configure PIN-less meeting join</span></span>
 
-<span data-ttu-id="4f84e-119">若要为你的用户启用 PIN 更少加入会议，请将[CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) Cmdlet 与 AllowAnonymousPstnActivation 参数配合使用，如下所示：</span><span class="sxs-lookup"><span data-stu-id="4f84e-119">To enable PIN-less meeting join for your users, use the [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet with the AllowAnonymousPstnActivation parameter as follows:</span></span>
+<span data-ttu-id="f2e59-119">若要为用户启用无 PIN 会议加入，请使用带 AllowAnonymousPstnActivation 参数的 [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet，如下所示：</span><span class="sxs-lookup"><span data-stu-id="f2e59-119">To enable PIN-less meeting join for your users, use the [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet with the AllowAnonymousPstnActivation parameter as follows:</span></span>
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
 ```
 
-<span data-ttu-id="4f84e-120">例如，以下命令可为站点 Redmond 启用无 PIN 会议加入：</span><span class="sxs-lookup"><span data-stu-id="4f84e-120">For example, the following command enables PIN-less meeting join for the site Redmond:</span></span>
+<span data-ttu-id="f2e59-120">例如，以下命令为站点 Redmond 启用无 PIN 会议加入：</span><span class="sxs-lookup"><span data-stu-id="f2e59-120">For example, the following command enables PIN-less meeting join for the site Redmond:</span></span>
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
-<span data-ttu-id="4f84e-121">为安全起见，当启用无 PIN 会议加入时，你可能需要通过确保 ConferencingPolicy 设置如下来限制匿名用户拨出：</span><span class="sxs-lookup"><span data-stu-id="4f84e-121">For security purposes, when PIN-less meeting join is turned on, you might want to restrict anonymous users from dialing out by ensuring the ConferencingPolicy is set as follows:</span></span>
+<span data-ttu-id="f2e59-121">出于安全考虑，当启用无 PIN 会议加入时，您可能希望通过确保 ConferencingPolicy 设置如下来限制匿名用户拨出：</span><span class="sxs-lookup"><span data-stu-id="f2e59-121">For security purposes, when PIN-less meeting join is turned on, you might want to restrict anonymous users from dialing out by ensuring the ConferencingPolicy is set as follows:</span></span>
   
 ```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-<span data-ttu-id="4f84e-122">有关详细信息，请参阅[设置 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="4f84e-122">For more information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="f2e59-122">有关详细信息，请参阅 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。</span><span class="sxs-lookup"><span data-stu-id="f2e59-122">For more information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).</span></span>
   
 
