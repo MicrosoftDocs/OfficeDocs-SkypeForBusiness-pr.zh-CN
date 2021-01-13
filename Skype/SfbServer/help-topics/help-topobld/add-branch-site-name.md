@@ -1,8 +1,8 @@
 ---
 title: 添加分支站点名称
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 description: 若要定义新的分支站点，请指定以下内容：
-ms.openlocfilehash: 0d94b426cf9b43819bedf45849d660fb6cacdf49
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: d8416006b80bff3c146dd6a694e04bd6df2f9c99
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217353"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810342"
 ---
 # <a name="add-branch-site-name"></a>添加分支站点名称
 

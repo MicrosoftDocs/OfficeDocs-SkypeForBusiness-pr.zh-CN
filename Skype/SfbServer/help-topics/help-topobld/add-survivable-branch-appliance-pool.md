@@ -1,8 +1,8 @@
 ---
 title: 添加 Survivable Branch Appliance 池
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
-description: '若要定义 Survivable 分支装置 FQDN，请在 "FQDN" 文本框中键入 Survivable Branch 设备或 Survivable 分支服务器的 "域名系统 (DNS) # A5" 中的 "完全限定域名" (FQDN)  (。 单击"下一步"继续。'
-ms.openlocfilehash: f5654e8713f98f3a5cbbb23fea46651826c2242c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 要定义 Survivable Branch Appliance FQDN，请键入 FQDN 文本框中 Survivable Branch Appliance 或 Survivable Branch Server 的域名系统 (DNS) ) 中定义的完全限定域名 (FQDN)  (。 单击"下一步"继续。
+ms.openlocfilehash: 79af47f476ab84dcd724300625b96a069370ee67
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217093"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810332"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>添加 Survivable Branch Appliance 池
  
-若要 **定义 Survivable 分支装置 FQDN**，请在 " **fqdn** " 文本框中键入 Survivable Branch 设备或 Survivable 分支服务器的 "域名系统 (DNS) # A5" 中的 "完全限定域名" (FQDN)  (。 单击“下一步”**** 即可继续。
+要定义 **Survivable Branch Appliance FQDN，** 请键入 FQDN 文本框中 Survivable Branch Appliance 或 Survivable Branch Server 的域名系统 (DNS) ) 中定义的完全限定域名 (**FQDN**)  (。 单击“下一步”即可继续。
   
 > [!NOTE]
-> 除非另有说明，否则定义 Survivable 分支机构或 Survivable 分支服务器的过程是相同的。 
+> 除非另有说明，否则定义 Survivable Branch Appliance 或 Survivable Branch Server 的过程相同。 
   
 

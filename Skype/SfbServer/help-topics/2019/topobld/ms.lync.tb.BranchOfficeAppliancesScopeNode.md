@@ -1,8 +1,8 @@
 ---
 title: 分支机构设备范围节点
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
-description: Survivable 分支装置节点列出了此分支站点上的 Survivable 分支装置。 可以执行以下操作：
-ms.openlocfilehash: 9c664ac38d23c0b5b6f5367f16c8e221148d1c16
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: “Survivable Branch Appliance”节点列出了此分支站点中的 Survivable Branch Appliance。 可以执行以下操作：
+ms.openlocfilehash: 6d6971fafe3385ef8a972e0156e77bc587807968
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793880"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811252"
 ---
 # <a name="branch-office-appliances-scope-node"></a>分支机构设备范围节点
  
-**Survivable 分支装置**节点列出了此分支站点上的 Survivable 分支装置。 可以执行以下操作：
+“Survivable Branch Appliance”节点列出了此分支站点中的 Survivable Branch Appliance。 可以执行以下操作：
   
-- **新建 Survivable Branch Appliance**。 启动 "**定义新的 Survivable 分支装置**" 向导，用于将新的 Survivable 分支装置添加到此网站。
+- **新建 Survivable Branch Appliance**。 启动" **定义新的 Survivable Branch Appliance"** 向导，以向此站点添加新 Survivable Branch Appliance。
     
-除了 Survivable 分支装置选项之外，您还可以执行以下常规任务：
+除了 Survivable Branch Appliance 选项之外，还可以执行以下常规任务：
   
-- **拓扑**。可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
+- **拓扑**。 可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
     
 - **视图**。可以使用此选项通过在控制台树视图中选择要显示和隐藏的项目来自定义拓扑生成器视图。
     

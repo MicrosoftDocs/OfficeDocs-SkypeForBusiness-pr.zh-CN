@@ -1,8 +1,8 @@
 ---
 title: tblEnumAttribute
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,26 +12,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
-description: tblEnumAttribute 是一个硬编码表，其中包含在节点表中使用的 Visibility 和行为属性。
-ms.openlocfilehash: 8244e2fb6ace6c4ed73f017f52df0c85d1f02315
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblEnumAttribute 是一个硬编码表，包含用于节点表的 Visibility 和 Behavior 属性。
+ms.openlocfilehash: 698eda1e6e815ad4de4042312be1738a3a41d1f2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814610"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809712"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
-tblEnumAttribute 是一个硬编码表，其中包含在节点表中使用的 Visibility 和行为属性。
+tblEnumAttribute 是一个硬编码表，包含用于节点表的 Visibility 和 Behavior 属性。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|attributeID  <br/> |smallint，not null  <br/> |属性的 ID。  <br/> |
-|attributeName  <br/> |nvarchar （256），not null  <br/> |属性的名称。  <br/> |
+|attributeID  <br/> |smallint，不为 null  <br/> |属性的 ID。  <br/> |
+|attributeName  <br/> |nvarchar (256)，不为 null  <br/> |属性的名称。  <br/> |
    
-**Key**
+**注册表项**
 
 |**列**|**说明**|
 |:-----|:-----|
@@ -41,8 +41,8 @@ tblEnumAttribute 是一个硬编码表，其中包含在节点表中使用的 Vi
 
 |**attributeID**|**attributeName**|
 |:-----|:-----|
-|1  <br/> |了解.  <br/> |
-|ppls-2  <br/> |现象.  <br/> |
+|1   <br/> |可见性。  <br/> |
+|2   <br/> |行为。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

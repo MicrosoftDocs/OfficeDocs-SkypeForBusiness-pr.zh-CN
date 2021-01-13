@@ -1,8 +1,8 @@
 ---
 title: 添加分支机构详细信息
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
-description: 要指定站点的站点详细信息，请执行下列操作：
-ms.openlocfilehash: 33e593a763a1bd9095bee7cbb2b0dce6e83a908c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要指定网站的网站详细信息，请执行下列操作：
+ms.openlocfilehash: 8efb8225e725dbadc3bb6e82f22a6845e58c0c4c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796643"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811932"
 ---
-# <a name="add-branch-site-details"></a>添加分支机构详细信息
+# <a name="add-branch-site-details"></a>添加分支站点详细信息
 
-要指定站点的站点详细信息，请执行下列操作：
+若要指定网站的网站详细信息，请执行下列操作：
 
 指定新分支站点的城市名称。“城市”值是可选条目。
 
@@ -32,6 +32,6 @@ ms.locfileid: "41796643"
 
 指定新分支站点的国家/地区代码名称。“国家/地区代码”值是可选条目。
 
-有关其他信息，请参阅 [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)。
+有关其他信息，请参阅[站点](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)。
 
 

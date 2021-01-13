@@ -1,8 +1,8 @@
 ---
 title: 添加 Survivable Branch Appliance PSTN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要为分支站点上的 Survivable 分支装置定义公共交换电话网络（PSTN）网关，请指定以下内容：
-ms.openlocfilehash: da6a87bf3a4e68f88ef47c7ea4dd31ac544350eb
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要在分支站点为 Survivable Branch Appliance 定义公用电话交换网 (PSTN) 网关，请指定以下内容：
+ms.openlocfilehash: 30b5922e3d18b4dfe57bef23ddb0f00a25df7f9f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796653"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811942"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>添加 Survivable Branch Appliance PSTN
  
-若要为分支站点上的 Survivable 分支装置定义公共交换电话网络（PSTN）网关，请指定以下内容： 
+若要在分支站点为 Survivable Branch Appliance 定义公用电话交换网 (PSTN) 网关，请指定以下内容： 
   
-- 网关对等的完全限定的域名（FQDN）或 IP 地址 Survivable 分支装置或 Survivable 分支服务器与路由入站和出站 PSTN 呼叫相关联。
+- 与 Survivable Branch Appliance 或 Survivable Branch Server 关联且用于路由入站和出站 PSTN 呼叫的对等网关的完全限定域名 (FQDN) 或 IP 地址。
     
     > [!IMPORTANT]
-    > 如果你要定义 Survivable 分支设备，这是 Survivable 分支设备中的中介服务器将连接到 PSTN 连接的网关。 
+    > 如果要定义 Survivable Branch Appliance，这是 Survivable Branch Appliance 内的中介服务器为实现 PSTN 连接而连接的网关。 
   
 - 将用于会话初始协议 (SIP) 消息的侦听端口。默认情况下，网关、专用交换机 (PBX) 或会话边界控制器 (SBC) 上的传输控制协议 (TCP) 端口为 5066，传输层安全性 (TLS) 的端口为 5067。在分支站点的 Survivable Branch Appliance 上，TCP 的默认端口为 5081，TLS 的默认端口为 5082。
     
-- 出于安全考虑，强烈建议使用 TLS。 如果你要定义 Survivable 分支设备，请参阅 Survivable 分支设备供应商文档，以验证你的 Survivable 分支设备是否支持 TLS 协议。
+- 出于安全考虑，强烈建议使用 TLS。如果要定义 Survivable Branch Appliance，请参考 Survivable Branch Appliance 供应商文档，以验证 Survivable Branch Appliance 是否支持 TLS 协议。
     
     > [!IMPORTANT]
     > 出于安全考虑，强烈建议部署可以使用 TLS 的网关。 

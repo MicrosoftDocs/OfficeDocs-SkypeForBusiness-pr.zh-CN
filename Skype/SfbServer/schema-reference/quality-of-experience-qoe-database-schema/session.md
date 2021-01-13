@@ -1,8 +1,8 @@
 ---
-title: Session 表
+title: 会话表
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,40 +12,40 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-description: 每条记录表示一个包含音频或音频和视频的会话。 它包含有关会话的整体信息。 会话在两个终结点之间定义为音频或视频会话初始协议（SIP）对话框。
-ms.openlocfilehash: f48857f826a4e85519d7dc7d2942d48967df8b01
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 每条记录表示一个涉及音频或音频和视频的会话。 它包含有关会话的总体信息。 会话定义为两个终结点之间的 SIP (对话) 音频或视频会话初始协议。
+ms.openlocfilehash: cdf639e7360248e02378c66eb68a60d49acb9749
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41805770"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802672"
 ---
-# <a name="session-table"></a>Session 表
+# <a name="session-table"></a>会话表
  
-每条记录表示一个包含音频或音频和视频的会话。 它包含有关会话的整体信息。 会话在两个终结点之间定义为音频或视频会话初始协议（SIP）对话框。
+每条记录表示一个涉及音频或音频和视频的会话。 它包含有关会话的总体信息。 会话定义为两个终结点之间的 SIP (对话) 音频或视频会话初始协议。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |从[对话框表](dialog.md)中引用。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |从[对话框表](dialog.md)中引用。  <br/> |
-|**ConferenceKey** <br/> |int  <br/> |外表  <br/> |会议密钥。 从[会议表](conference.md)中引用。  <br/> |
-|**CorrelationKey** <br/> |int  <br/> |外表  <br/> |相关密钥。 从[SessionCorrelation 表](sessioncorrelation.md)中引用。  <br/> |
-|**DialogCategory** <br/> |bit  <br/> | <br/> |对话框类别;0是 Skype for business 服务器，用于采集服务器腿;1是中介服务器到 PSTN 网关腿。  <br/> |
-|**MediationServerBypassFlag** <br/> |bit  <br/> ||指示是否已绕过呼叫的标志。  <br/> |
-|**MediaBypassWarningFlag** <br/> |int  <br/> ||此字段（如果存在）指示无法跳过呼叫的原因，即使旁路 Id 匹配也是如此。 对于 Skype for Business 服务器，仅定义了一个值。  <br/> 0x0001-默认网络适配器的旁路 ID 未知。  <br/> |
-|**StartTime** <br/> |datetime  <br/> | <br/> |通话开始时间。  <br/> |
-|**EndTime** <br/> |datetime  <br/> | <br/> |通话结束时间。  <br/> |
-|**CallerPool** <br/> |int  <br/> |外表  <br/> |呼叫方的池。 从[Pool 表](pool.md)中引用。  <br/> |
-|**CalleePool** <br/> |int  <br/> |外表  <br/> |呼叫接收器的池。 从[Pool 表](pool.md)中引用。  <br/> |
-|**CalleePAI** <br/> |int  <br/> |外表  <br/> |接收终结点的 SIP p 声明标识（PAI）中的 SIP URI。 从[用户表](user-0.md)中引用。  <br/> |
-|**CallerURI** <br/> |int  <br/> |外表  <br/> |调用方的 URI。 从[用户表](user-0.md)中引用。  <br/> |
-|**CallerEndpoint** <br/> |int  <br/> |外表  <br/> |调用方的终结点。 从[终结点表](endpoint.md)中引用。  <br/> |
-|**CallerUserAgent** <br/> |bit  <br/> |外表  <br/> |呼叫方的用户代理。 从[UserAgent 表](useragent.md)中引用。  <br/> |
-|**CallPriority** <br/> |smallint  <br/> ||此通话的优先级。  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||此列已弃用，并且不在 Skype for Business 服务器中使用。 而是报告每个媒体行基础上的此信息。 有关详细信息，请参阅[MediaLine 表](medialine-0.md)。 <br/> |
-|**CallerPAI** <br/> |int  <br/> |外表  <br/> |P-声明-发出呼叫的用户的标识。 P 声明的标识（PAI）用于传达发出呼叫的用户的真实标识。  <br/> |
-|**CalleeEndpoint** <br/> |int  <br/> |外表  <br/> |接收呼叫的终结点。  <br/> |
-|**CalleeUserAgent** <br/> |int  <br/> |外表  <br/> |接收呼叫的用户所使用的用户代理。 用户代理代表客户端终结点设备。  <br/> |
-|**CalleeUri** <br/> |int  <br/> |外表  <br/> |接收呼叫的用户的 SIP URI。  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |主  <br/> |从 Dialog 表 [引用](dialog.md)。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |主  <br/> |从 Dialog 表 [引用](dialog.md)。  <br/> |
+|**ConferenceKey** <br/> |int  <br/> |Foreign  <br/> |会议密钥。 从会议表 [引用](conference.md)。  <br/> |
+|**CorrelationKey** <br/> |int  <br/> |Foreign  <br/> |相关键。 从 [SessionCorrelation 表引用](sessioncorrelation.md)。  <br/> |
+|**DialogCategory** <br/> |bit  <br/> | <br/> |对话框类别;0 表示 Skype for Business Server 到中介服务器;1 是中介服务器到 PSTN 网关的通道。  <br/> |
+|**MediationServerBypassFlag** <br/> |bit  <br/> ||指示呼叫是否绕过的标志。  <br/> |
+|**MediaBypassWarningFlag** <br/> |int  <br/> ||如果存在，此字段指示即使绕过 ID 相匹配也没有绕过呼叫的原因。 对于 Skype for Business Server，只定义了一个值。  <br/> 0x0001 - 默认网络适配器的未知绕过 ID。  <br/> |
+|**StartTime** <br/> |datetime  <br/> | <br/> |呼叫开始时间。  <br/> |
+|**EndTime** <br/> |datetime  <br/> | <br/> |呼叫结束时间。  <br/> |
+|**CallerPool** <br/> |int  <br/> |Foreign  <br/> |呼叫者的池。 从 Pool 表 [引用](pool.md)。  <br/> |
+|**CalleePool** <br/> |int  <br/> |Foreign  <br/> |呼叫接收器的池。 从 Pool 表 [引用](pool.md)。  <br/> |
+|**CalleePAI** <br/> |int  <br/> |Foreign  <br/> |接收终结点的 SIP p 断言标识 (PAI) SIP URI。 从用户表 [引用](user-0.md)。  <br/> |
+|**CallerURI** <br/> |int  <br/> |Foreign  <br/> |呼叫者的 URI。 从用户表 [引用](user-0.md)。  <br/> |
+|**CallerEndpoint** <br/> |int  <br/> |Foreign  <br/> |呼叫者的终结点。 从 Endpoint 表 [引用](endpoint.md)。  <br/> |
+|**CallerUserAgent** <br/> |bit  <br/> |Foreign  <br/> |呼叫者的用户代理。 从 [UserAgent 表引用](useragent.md)。  <br/> |
+|**CallPriority** <br/> |smallint  <br/> ||此调用的优先级。  <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||此列已被弃用，未在 Skype for Business Server 中使用。 相反，此信息基于每媒体行进行报告。 有关详细信息， [请参阅 MediaLine](medialine-0.md) 表。 <br/> |
+|**CallerPAI** <br/> |int  <br/> |Foreign  <br/> |拨打呼叫的用户的 P-Asserted-Identity。 P-Asserted-Identity (PAI) 用于传达拨打呼叫的用户的真实身份。  <br/> |
+|**CalleeEndpoint** <br/> |int  <br/> |Foreign  <br/> |收到呼叫的终结点。  <br/> |
+|**CalleeUserAgent** <br/> |int  <br/> |Foreign  <br/> |接收呼叫的用户使用的用户代理。 用户代理表示客户端终结点设备。  <br/> |
+|**CalleeUri** <br/> |int  <br/> |Foreign  <br/> |收到呼叫的用户的 SIP URI。  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
-title: Director (Planning Tool)
+title: '控制器 (规划工具) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -15,22 +15,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: Director 是运行 Skype for Business Server 2015 通信软件的服务器，可对用户请求进行身份验证，但不会在家任何用户帐户。
-ms.openlocfilehash: 2abb3cac867771ecd46c233be5864779512d39da
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 控制器是运行 Skype for Business Server 2015 通信软件的服务器，可以对用户请求进行身份验证，但不提供任何用户帐户。
+ms.openlocfilehash: 9809a6293c212a52dd87476069125540848ee2a2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821514"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810542"
 ---
-# <a name="director-planning-tool"></a>Director (Planning Tool)
+# <a name="director-planning-tool"></a>控制器 (规划工具) 
  
-Director 是运行 Skype for Business Server 2015 通信软件的服务器，可对用户请求进行身份验证，但不会在家任何用户帐户。 
+控制器是运行 Skype for Business Server 2015 通信软件的服务器，可以对用户请求进行身份验证，但不提供任何用户帐户。 
   
-此角色是可选的，你可以选择在以下两种方案中部署控制器：
+此角色是可选的，您可以选择在下列两种方案中部署控制器：
   
-- 如果通过部署边缘服务器启用外部用户访问，则还应部署 Director。 在此方案中，控制器对外部用户进行身份验证，然后将其流量传递到内部服务器。 当使用 Director 对外部用户进行身份验证时，它将从执行这些用户的身份验证的开销中免除前端池服务器。 它还有助于将内部前端池与恶意流量（如拒绝服务攻击）隔离。 如果网络被此类攻击中的无效外部通信所淹没，则该流量将在 Director 处结束。
+- 如果通过部署边缘服务器启用外部用户访问，则还应部署控制器。 在此方案中，控制器对外部用户进行身份验证，然后将他们的流量传递给内部服务器。 当控制器用于对外部用户进行身份验证时，它可减轻前端池服务器执行这些用户的身份验证的开销。 它还有助于使内部前端池免受恶意流量（如拒绝服务攻击）的攻击。 如果网络受到此类攻击中无效外部流量的攻击，则这些流量将终止于控制器。
     
-- 如果在中心网站上部署多个前端池，则通过向该网站添加 Director，可以简化身份验证请求并提高性能。 在此方案中，所有请求首先转到 Director，然后将其路由到正确的前端池。
+- 如果在中央站点部署多个前端池，则通过向该站点添加控制器，可以简化身份验证请求并提高性能。 在此方案中，所有请求首先转到控制器，然后控制器将其路由到正确的前端池。
     
 

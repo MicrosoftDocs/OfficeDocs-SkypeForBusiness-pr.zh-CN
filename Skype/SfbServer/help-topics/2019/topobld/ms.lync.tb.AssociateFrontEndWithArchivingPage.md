@@ -1,8 +1,8 @@
 ---
 title: 将前端与存档关联
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 ROBOTS: NOINDEX, NOFOLLOW
-description: 每个前端池和 Survivable 分支设备只能有一个与其关联的存档服务器。 在为网站启用存档后，存档服务器将收集和记录即时消息（IM）消息内容以及来自关联的池和 Survivable 分支装置上的用户的 web 会议内容。
-ms.openlocfilehash: a372ef7cdb3bc94d9effac1fbea83b2db0de019e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 每个前端池和 Survivable Branch Appliance 都只能具有一个关联的存档服务器。为站点启用存档后，存档服务器将收集和记录涉及关联池和 Survivable Branch Appliance 上驻留的用户的对话中的即时消息 (IM) 内容和 Web 会议内容。
+ms.openlocfilehash: 544f1da8d69903209e44bdd4cbc378aa727c64f6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794010"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811452"
 ---
 # <a name="associate-front-end-with-archiving"></a>将前端与存档关联
  
-每个前端池和 Survivable 分支设备只能有一个与其关联的存档服务器。 在为网站启用存档后，存档服务器将收集和记录即时消息（IM）消息内容以及来自关联的池和 Survivable 分支装置上的用户的 web 会议内容。 
+每个前端池和 Survivable Branch Appliance 都只能具有一个关联的存档服务器。为站点启用存档后，存档服务器将收集和记录涉及关联池和 Survivable Branch Appliance 上驻留的用户的对话中的即时消息 (IM) 内容和 Web 会议内容。 
   
-如果使用情况不超过存档服务器的容量，则站点上的所有池和多个中心网站的池都可以使用相同的存档服务器。 
+站点中的所有池和多个中央站点的池可以使用相同的存档服务器，前提是使用量不超过存档服务器的容量。 
   
 

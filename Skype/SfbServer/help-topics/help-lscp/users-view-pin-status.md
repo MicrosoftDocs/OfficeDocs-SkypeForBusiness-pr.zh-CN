@@ -1,8 +1,8 @@
 ---
 title: 用户查看 PIN 状态
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
-description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: b6ce34331982ac454ed2e471fa72139ff13bbbaf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 要执行什么操作？ 单击要执行的任务的链接。
+ms.openlocfilehash: f7aeeafe6997047789c773ddcd43c116ef16794d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821704"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810732"
 ---
 # <a name="users-view-pin-status"></a>用户：查看 PIN 状态
  
-您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+要执行什么操作？ 单击要执行的任务的链接。
   
 - [在 Skype for Business Server 2015 中设置用户的电话拨入式会议 PIN](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
-有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
 

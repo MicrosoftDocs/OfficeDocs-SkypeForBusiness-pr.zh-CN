@@ -1,8 +1,8 @@
 ---
-title: Voice Traffic (Planning Tool)
+title: '语音流量 (规划工具) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,16 +15,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
-description: 规划工具使用有关用户流量的信息来确定要在部署中使用的端口数。 此数字依次确定所需中介服务器和网关的数量。 有关详细信息，请参阅估计 Skype for business Server 2015 的语音使用和流量。
-ms.openlocfilehash: d9efc382bb0d6dbdba419a868fa1c40a79c3b636
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 规划工具使用有关用户流量的信息来确定部署中要使用的端口数。 此数字反过来决定所需的中介服务器和网关的数量。 有关详细信息，请参阅估计 Skype for Business Server 2015 的语音使用情况和流量。
+ms.openlocfilehash: f2d6edf73e8ff2f76b0d63467362c61d9047a811
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821354"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810492"
 ---
-# <a name="voice-traffic-planning-tool"></a>Voice Traffic (Planning Tool)
+# <a name="voice-traffic-planning-tool"></a>语音流量 (规划工具) 
  
-规划工具使用有关用户流量的信息来确定要在部署中使用的端口数。 此数字依次确定所需中介服务器和网关的数量。 有关详细信息，请参阅[估计 Skype for Business Server 2015 的语音使用和流量](../../plan-your-deployment/capacity/estimating-voice-traffic.md)。
+规划工具使用有关用户流量的信息来确定部署中要使用的端口数。 此数字反过来决定所需的中介服务器和网关的数量。 有关详细信息，请参阅 [估计 Skype for Business Server 2015](../../plan-your-deployment/capacity/estimating-voice-traffic.md)的语音使用情况和流量。
   
 

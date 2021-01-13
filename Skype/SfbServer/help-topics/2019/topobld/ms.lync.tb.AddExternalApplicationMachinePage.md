@@ -1,8 +1,8 @@
 ---
-title: 添加受信任应用程序机器
+title: 添加受信任的应用程序计算机
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 指定要添加为此池中的受信任的应用服务器的每台计算机的完全限定的域名（FQDN）。 将计算机添加到列表中后，可以更新计算机的 FQDN 或在发布拓扑前随时将其从池中删除。 发布拓扑后，更改 FQDN 需要先在拓扑生成器中删除服务器，然后使用新的 FQDN 将新服务器添加到池中。
-ms.openlocfilehash: 74c9c4881e32fb0182243ca4bad1facb32364253
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 指定要添加为此池中受信任应用程序服务器的每台计算机的完全限定域名 (FQDN)。将计算机添加到列表中后，可以更新计算机的 FQDN 或在发布拓扑前随时将其从池中删除。发布拓扑后，更改 FQDN 要求在拓扑生成器中删除相应的服务器，然后向池中添加具有新 FQDN 的新服务器。
+ms.openlocfilehash: a108987a8a9063e51917d4946f4331d3c838c83e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798119"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811832"
 ---
-# <a name="add-trusted-application-machine"></a>添加受信任应用程序机器
+# <a name="add-trusted-application-machine"></a>添加受信任的应用程序计算机
  
-指定要添加为此池中的受信任的应用服务器的每台计算机的完全限定的域名（FQDN）。 将计算机添加到列表中后，可以更新计算机的 FQDN 或在发布拓扑前随时将其从池中删除。 发布拓扑后，更改 FQDN 需要先在拓扑生成器中删除服务器，然后使用新的 FQDN 将新服务器添加到池中。 
+指定要添加为此池中受信任应用程序服务器的每台计算机的完全限定域名 (FQDN)。将计算机添加到列表中后，可以更新计算机的 FQDN 或在发布拓扑前随时将其从池中删除。发布拓扑后，更改 FQDN 要求在拓扑生成器中删除相应的服务器，然后向池中添加具有新 FQDN 的新服务器。 
   
 

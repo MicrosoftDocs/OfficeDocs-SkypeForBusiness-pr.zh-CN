@@ -1,8 +1,8 @@
 ---
-title: Server 表
+title: 服务器表
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
-description: 服务器表是支持表。 每条记录代表一台服务器。
-ms.openlocfilehash: e57bb96fd715d67a5b6676a2399dc520f08bac96
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Server 表是一个支持表。 每个记录表示一台服务器。
+ms.openlocfilehash: 7f26ed9053c65acb8cfd2e586edbd77fdfa7472b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806130"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802702"
 ---
-# <a name="server-table"></a>Server 表
+# <a name="server-table"></a>服务器表
  
-服务器表是支持表。 每条记录代表一台服务器。 
+Server 表是一个支持表。每个记录表示一台服务器。 
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ServerKey** <br/> |int  <br/> |Primary  <br/> |标识服务器的唯一号码。  <br/> |
-|**FQDNOrIP** <br/> |nvarchar(256)  <br/> |食指  <br/> |MAC 地址字符串。  <br/> |
-|**ServerType** <br/> |int  <br/> |外表  <br/> |1：中介服务器  <br/> 2： a/V 会议 Server16394： A/V 边缘 service32769： Gateway  <br/> |
-|**PoolName** <br/> |nvarchar （512）  <br/> ||服务器所属的池。 仅适用于 A/V 会议服务器。  <br/> |
+|**ServerKey** <br/> |int  <br/> |主  <br/> |标识服务器的唯一编号。  <br/> |
+|**FQDNOrIP** <br/> |nvarchar (256)   <br/> |index  <br/> |MAC 地址字符串。  <br/> |
+|**ServerType** <br/> |int  <br/> |Foreign  <br/> |1：中介服务器  <br/> 2：A/V 会议服务器 16394：A/V 边缘服务 32769：网关  <br/> |
+|**PoolName** <br/> |nvarchar (512)   <br/> ||服务器所属的池。仅适用于 A/V 会议服务器。  <br/> |
 |**NextUpdateTS** <br/> |datetime  <br/> ||仅供内部使用。  <br/> |
    
 

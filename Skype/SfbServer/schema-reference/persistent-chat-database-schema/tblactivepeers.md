@@ -1,8 +1,8 @@
 ---
 title: tblActivePeers
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
-description: tblActivePeers 包含聊天服务之间的当前点对点连接。
-ms.openlocfilehash: 4604c13dbff9565748dd59e5917a5c133bd71947
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblActivePeers 包含聊天服务之间当前对等连接。
+ms.openlocfilehash: befba4086a78281fbfbec1e270b7c8e3f8174752
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814710"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812932"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  
-tblActivePeers 包含聊天服务之间的当前点对点连接。
+tblActivePeers 包含聊天服务之间当前对等连接。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|aplServerID  <br/> |int，not null  <br/> |已发布条目的服务器的 ID。  <br/> |
-|aplPeerID  <br/> |int，not null  <br/> |过帐服务器连接到的对等的 ID。  <br/> |
+|aplServerID  <br/> |int，不为 null  <br/> |发布条目的服务器的 ID。  <br/> |
+|aplPeerID  <br/> |int，不为 null  <br/> |发布服务器连接到的对等方的 ID。  <br/> |
    
-**标示**
+**Keys**
 
 |**列**|**说明**|
 |:-----|:-----|
 |\<aplServerID, aplPeerID\>  <br/> |主键。  <br/> |
-|aplServerID  <br/> |TblServerIdentity 表中的 lookup 的外键。  <br/> |
-|aplPeerID  <br/> |TblServerIdentity 表中的 lookup 的外键。  <br/> |
+|aplServerID  <br/> |其查找包含在 tblServerIdentity.serverID 表中的外键。  <br/> |
+|aplPeerID  <br/> |其查找包含在 tblServerIdentity.serverID 表中的外键。  <br/> |
    
 
