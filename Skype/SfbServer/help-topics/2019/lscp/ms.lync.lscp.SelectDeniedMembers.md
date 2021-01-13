@@ -1,8 +1,8 @@
 ---
 title: 选择被拒绝的成员
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 ROBOTS: NOINDEX, NOFOLLOW
-description: 持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别的过程中，持久聊天管理员可以配置主体（Active Directory 域服务组/容器/用户），该主体具有特定类别的聊天室成员/创建者的访问权限。 持久聊天管理员还可以将 DeniedMembers 添加到类别中，并将它们显式排除在 "允许列表" 中。 DeniedMembers 替代 AllowedMembers 中的内容。
-ms.openlocfilehash: 061c7f32cad0362b23eab6c9dcaeca5f7edc973f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 持久聊天管理员可以创建和管理聊天室类别。 作为创建和管理聊天室类别的一部分，持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户) ，这些主体有权访问为特定类别的聊天室的成员/创建者。 持久聊天管理员还可以将 DeniedMembers 添加到类别，这些类别将成为允许列表的显式排除项。 DeniedMembers 会覆盖 AllowedMembers 中的功能。
+ms.openlocfilehash: 49fcd254df5849cda7217c95bd7ae90592d6622b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797443"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836322"
 ---
-# <a name="select-denied-members"></a><span data-ttu-id="5fe63-106">选择被拒绝的成员</span><span class="sxs-lookup"><span data-stu-id="5fe63-106">Select Denied Members</span></span>
+# <a name="select-denied-members"></a><span data-ttu-id="ef814-106">选择被拒绝的成员</span><span class="sxs-lookup"><span data-stu-id="ef814-106">Select Denied Members</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="5fe63-107">Skype for business Server 2015 中提供了持久聊天，但 Skype for business Server 2019 不再支持此功能。</span><span class="sxs-lookup"><span data-stu-id="5fe63-107">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="5fe63-108">团队中提供了相同的功能。</span><span class="sxs-lookup"><span data-stu-id="5fe63-108">The same functionality is available in Teams.</span></span> <span data-ttu-id="5fe63-109">有关详细信息，请参阅[Skype for business 到 Microsoft 团队升级](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。</span><span class="sxs-lookup"><span data-stu-id="5fe63-109">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="5fe63-110">如果需要使用持久聊天，您可以选择将需要此功能的用户迁移到团队或继续使用 Skype for Business Server 2015。</span><span class="sxs-lookup"><span data-stu-id="5fe63-110">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="ef814-107">持久聊天在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。</span><span class="sxs-lookup"><span data-stu-id="ef814-107">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="ef814-108">Teams 中也提供相同的功能。</span><span class="sxs-lookup"><span data-stu-id="ef814-108">The same functionality is available in Teams.</span></span> <span data-ttu-id="ef814-109">有关详细信息，请参阅 [Skype for Business 到 Microsoft Teams 的升级](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。</span><span class="sxs-lookup"><span data-stu-id="ef814-109">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="ef814-110">如果你需要使用持久聊天，你的选择是：将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。</span><span class="sxs-lookup"><span data-stu-id="ef814-110">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

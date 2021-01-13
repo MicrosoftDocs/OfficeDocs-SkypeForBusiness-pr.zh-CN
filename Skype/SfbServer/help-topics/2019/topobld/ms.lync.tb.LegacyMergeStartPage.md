@@ -1,8 +1,8 @@
 ---
 title: 旧版合并启动
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要开始使用 Skype for Business 服务器合并传统部署，请单击 "下一步"。
-ms.openlocfilehash: a22a54aed078ff9327ec21c4d8f28e0ed6e20b82
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要开始将旧部署与 Skype for Business Server 合并，请单击"下一步"。
+ms.openlocfilehash: 0518b045fc5b7333fc092391a03e53f1854e535d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796281"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835642"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="b61ab-103">旧版合并启动</span><span class="sxs-lookup"><span data-stu-id="b61ab-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="e7419-103">旧版合并启动</span><span class="sxs-lookup"><span data-stu-id="e7419-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="b61ab-104">若要开始使用 Skype for Business 服务器合并传统部署，请单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="b61ab-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
+<span data-ttu-id="e7419-104">若要开始将旧部署与 Skype for Business Server 合并，请单击"下 **一步"。**</span><span class="sxs-lookup"><span data-stu-id="e7419-104">To begin merging a legacy deployment with Skype for Business Server, click **Next**.</span></span> 
   
 
