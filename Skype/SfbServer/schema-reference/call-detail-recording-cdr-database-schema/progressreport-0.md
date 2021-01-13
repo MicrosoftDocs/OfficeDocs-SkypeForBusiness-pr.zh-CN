@@ -1,8 +1,8 @@
 ---
 title: ProgressReport 视图
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
-description: ProgressReport 视图存储有关已完成会话的信息。 将仅写入 Lync Server 2013 确定可能对诊断目的有用的通话和会话的进度报告。 此视图已在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: c07b9db8ebd9f898ab9d8feb5b07c4723209522c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ProgressReport 视图会存储有关已完成的会话的信息。 只会针对 Lync Server 2013 判定可能对诊断有用的呼叫和会话编写进度报告。 此视图是在 Microsoft Lync Server 2013 中引入的。
+ms.openlocfilehash: 6cc8295e73463fff9d4913efbf9d4844f9316149
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814980"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823182"
 ---
 # <a name="progressreport-view"></a>ProgressReport 视图
  
-ProgressReport 视图存储有关已完成会话的信息。 将仅写入 Lync Server 2013 确定可能对诊断目的有用的通话和会话的进度报告。 此视图已在 Microsoft Lync Server 2013 中引入。
+ProgressReport 视图会存储有关已完成的会话的信息。 只会针对 Lync Server 2013 判定可能对诊断有用的呼叫和会话编写进度报告。 此视图是在 Microsoft Lync Server 2013 中引入的。
   
 > [!NOTE]
-> "ErrorTime"、"ErrorReportSeq" 和 "ProgressReportSeq" 字段不一定是指错误，而是指示调用状态或消息的消息。 
+> ErrorTime、ErrorReportSeq 和 ProgressReportSeq 字段不一定指错误，而是指指示呼叫或消息状态的消息。 
   
-|**列**|**数据类型**|**详细信息**|
+|**列**|**数据类型**|**Details**|
 |:-----|:-----|:-----|
-|**ErrorTime** <br/> |datetime  <br/> |出现错误的时间。 与 ErrorReportSeq 结合使用以唯一标识错误。  <br/> |
-|**ErrorReportSeq** <br/> |int  <br/> |标识错误的 ID 号。 与 ErrorTime 结合使用以唯一标识错误。  <br/> |
-|**ProgressReportSeq** <br/> |int  <br/> |标识进度报表的 ID。 用于区分同一错误报告的进度报告。  <br/> |
+|**ErrorTime** <br/> |datetime  <br/> |发生错误的时间。与 ErrorReportSeq 结合使用来唯一地标识错误。  <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |用于标识错误的 ID 号。与 ErrorTime 结合使用来唯一地标识错误。  <br/> |
+|**ProgressReportSeq** <br/> |int  <br/> |用于标识进度报告的 ID。 用来区分相同错误报告的进度报告。  <br/> |
 |**MsDiagId** <br/> |int  <br/> |错误报告的诊断 ID。  <br/> |
-|**来源** <br/> |nvarchar(256)  <br/> |产生错误的服务器的名称（如果报表是从服务器组件发送的）。  <br/> |
-|**Application** <br/> |nvarchar(256)  <br/> |发出错误的应用程序的名称（如果报表是从服务器组件发送的）。  <br/> |
-|**TelemetryId** <br/> |标识符  <br/> |关联会议中涉及的不同组件的加入时间信息的唯一标识符。  <br/> |
+|**Source** <br/> |nvarchar (256)   <br/> |导致出错的服务器的名称（如果报告发送自服务器组件）。  <br/> |
+|**应用程序** <br/> |nvarchar (256)   <br/> |产生错误的应用程序的名称（如果报告是从服务器组件发送的）。  <br/> |
+|**TelemetryId** <br/> |uniqueidentifier  <br/> |关联会议中所涉及不同组件的加入时间信息的唯一标识符。  <br/> |
 |**SessionSetupTime** <br/> |int  <br/> |特定组件加入会议所需的时间（以毫秒为单位）。  <br/> |
-|**MsDiagHeader** <br/> |varchar （max）  <br/> |其他错误信息。  <br/> |
+|**MsDiagHeader** <br/> |varchar (max)   <br/> |其他错误信息。  <br/> |
    
 

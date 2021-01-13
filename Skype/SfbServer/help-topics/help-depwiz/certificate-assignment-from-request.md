@@ -1,8 +1,8 @@
 ---
 title: 证书分配（根据请求）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
-description: The Certificate Assignment page starts the process of assigning a certificate to the requested usages on the role server. Click the View Certificate Details to view the certificate. 你可以选择 "常规" 选项卡、"详细信息" 选项卡或 "证书路径" 选项卡。"常规" 选项卡将显示有关证书的基本信息，例如证书颁发机构和私钥的状态。 The Details tab will display certificate information such as the subject name, subject alternative names, and other details. "证书路径" 选项卡将通过任何颁发或中间证书颁发机构（如果存在）向根证书颁发机构显示证书 trustfrom 的 certificatechain。
-ms.openlocfilehash: 994b3f3c215b7b887730077437e4922a95760354
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: "\"证书分配\"页将启动向角色服务器上请求的用法分配证书的过程。 单击“查看证书详细信息”查看证书。 可以选择\"常规\"选项卡、\"详细信息\"选项卡或\"证书路径\"选项卡。\"常规\"选项卡将显示有关证书的基本信息，例如颁发证书颁发机构以及私钥的状态。 “详细信息”选项卡将显示证书的使用者名称、使用者替代名称以及其他详细信息。 \"证书路径\"选项卡将显示通过任何证书颁发机构或中间证书颁发机构 (信任证书链) 根证书颁发机构。"
+ms.openlocfilehash: f2f7e520720aba1872fc56696c87ef717ac1c6be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823966"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824412"
 ---
 # <a name="certificate-assignment-from-request"></a>证书分配（根据请求）
  
-The **Certificate Assignment** page starts the process of assigning a certificate to the requested usages on the role server. Click the **View Certificate Details** to view the certificate. You can select the **General** tab, the **Details** tab, or the **Certification Path** tab. The **General** tab will display basic information about the certificate, such as the issuing certification authority and the status of a private key. The Details tab will display certificate information such as the subject name, subject alternative names, and other details. The **Certification Path** tab will display the certificate "chain of trust" from the certificate through any issuing or intermediate certification authorities (if they are present) to the root certification authority.
+" **证书分配** "页将启动向角色服务器上请求的用法分配证书的过程。 单击“查看证书详细信息”查看证书。 可以选择"常规 **"****选项卡、"** 详细信息"选项卡或"证书 **路径"** 选项卡。"**常规**"选项卡将显示有关证书的基本信息，例如颁发证书颁发机构以及私钥的状态。 “详细信息”选项卡将显示证书的使用者名称、使用者替代名称以及其他详细信息。 " **证书路径** "选项卡将显示证书通过任何颁发机构或中间证书颁发机构颁发的证书"信任链" (如果证书颁发机构) 根证书颁发机构。
   
-单击“**下一步**”继续。
+单击“下一步”继续。
   
 

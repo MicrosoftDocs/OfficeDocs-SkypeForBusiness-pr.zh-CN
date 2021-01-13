@@ -1,8 +1,8 @@
 ---
 title: 添加前端服务器并置
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,28 +15,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: 对于 Enterprise Edition 部署，A/V 会议服务并置在前端池上。还可以在前端池上并置中介服务器，或者可以将其部署为独立服务器。如果启用了会议，则始终并置 A/V 会议服务。
-ms.openlocfilehash: 015570d42482b0e4f34e6679bab27aa2c40f2f88
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: ee92856e640a8637020ba97b952ae8ec5a50396e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216503"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824092"
 ---
 # <a name="add-front-end-server-collocations"></a>添加前端服务器并置
 
 对于 Enterprise Edition 部署，A/V 会议服务并置在前端池上。还可以在前端池上并置中介服务器，或者可以将其部署为独立服务器。如果启用了会议，则始终并置 A/V 会议服务。
 
 > [!NOTE]
-> 如果在“选择功能”**** 页上选择了“会议”****，则需要使用 A/V 会议服务。Enterprise Edition 前端池使用并置的 A/V 会议服务。如果未选择“会议”，则“并置 A/V 会议”服务将不可用。
+> 如果在“选择功能”页上选择了“会议”，则需要使用 A/V 会议服务。Enterprise Edition 前端池使用并置的 A/V 会议服务。如果未选择“会议”，则“并置 A/V 会议”服务将不可用。
 
-您可以在 Standard Edition 前端服务器或 Enterprise Edition 前端池上并置中介服务器角色。 如果将直接 SIP 连接部署到合格的公开交换电话网络 (PSTN) 网关支持媒体旁路和域名系统 (DNS) 负载平衡，则无需使用独立中介服务器池。 若要将直接 SIP 连接部署到支持媒体旁路和 DNS 负载平衡的合格的 PSTN 网关，则不需要独立的中介服务器池，因为合格的网关能够将 DNS 负载平衡到中介服务器池，并且可以从池中的任何中介服务器接收通信。 我们还建议您在部署并置时，在前端池上中介服务器，或连接到 Internet 电话服务器提供程序的会话边界控制器 (SBC) ，前提是满足以下任一条件：
-
-- IP-PBX 或 SBC 已配置为接收来自池中的任何中介服务器的通信，并且可将通信统一路由到池中的所有中介服务器。
+可以将中介服务器角色并排在 Standard Edition 前端服务器或 Enterprise Edition 前端池上。 如果将直接 SIP 连接部署到支持媒体旁路和域名系统 (DNS) 负载平衡的限定公用电话交换网 (PSTN) 网关，则不需要独立的中介服务器池。 若要将直接 SIP 连接部署到支持媒体旁路和 DNS 负载平衡的合格的 PSTN 网关，则不需要独立的中介服务器池，因为合格的网关能够将 DNS 负载平衡到中介服务器池，并且可以从池中的任何中介服务器接收通信。 我们还建议您在部署 IP-PBXs 或连接到 Internet 电话服务提供商的会话边界控制器 (SBC) （只要满足以下任一条件）时，将中介服务器并排在前端池上：
 
 - IP-PBX 或 SBC 已配置为接收来自池中的任何中介服务器的通信，并且可将通信统一路由到池中的所有中介服务器。
 
-您可以使用 Microsoft Lync Server 2013、规划工具来评估您要并置中介服务器的前端池是否可以处理负载。 如果您的环境不能满足这些要求，则必须部署独立的中介服务器池。
+- IP-PBX 或 SBC 已配置为接收来自池中的任何中介服务器的通信，并且可将通信统一路由到池中的所有中介服务器。
 
-总而言之，如果组织具有高可用性和可伸缩性要求，则不建议并置中介服务器。 有关在 Enterprise Edition 部署的前端池中并置这些服务器角色的详细信息，请参阅部署文档中的[Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)。 有关 A/V 会议功能和组件的详细信息，请参阅规划文档中的[Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx)。 有关企业语音功能和组件（包括中介服务器）的详细信息，请参阅规划文档中的在 [Skype For Business Server 2015 中规划企业语音](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) 。
+可以使用 Microsoft Lync Server 2013 规划工具评估要并集中介服务器的前端池是否可以处理负载。 如果您的环境不能满足这些要求，则必须部署独立的中介服务器池。
+
+总而言之，如果组织具有高可用性和可伸缩性要求，则不建议并置中介服务器。 有关在 Enterprise Edition 部署的前端池中并置这些服务器角色的详细信息，请参阅部署文档中的[Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)。 有关 A/V 会议功能和组件的详细信息，请参阅规划文档中的[Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx)。 有关中介企业语音组件的详细信息，请参阅规划文档中的企业语音 Skype for [Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) 中的规划。
 
 

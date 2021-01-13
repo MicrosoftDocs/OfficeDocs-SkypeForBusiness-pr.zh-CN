@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中分配位置策略范围
+title: 在 Skype for Business Server 中分配位置策略作用域
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
-description: 为 Skype for Business Server Enterprise Voice 中的 E9 部署规划位置策略。
-ms.openlocfilehash: 3865db146676ed64da9422d2a8731e44451ec6ac
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 规划 Skype for Business Server 企业语音 中的 E9-1-1 部署的位置企业语音。
+ms.openlocfilehash: 586aabe919ea4236dc724446da717b5f300d88e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802752"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825522"
 ---
-# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>在 Skype for Business 服务器中分配位置策略范围
+# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>在 Skype for Business Server 中分配位置策略作用域
  
-为 Skype for Business Server Enterprise Voice 中的 E9 部署规划位置策略。
+规划 Skype for Business Server 企业语音 中的 E9-1-1 部署的位置企业语音。
   
-与其他 Skype for Business 服务器策略一样，位置策略可以在多个作用域级别分配：全局、网站和用户。 但是，用户级位置策略的作用与其他 Skype for Business 服务器策略的行为略有不同。 每个用户的位置策略不仅可以应用于终结点对象（如用户和常用的区域电话联系人对象），也可以应用于 Skype for business 服务器网络网站。 网络站点是地理位置关联的客户端子网的分组（但可能不需要所有子网位于一个中央站点或分支站点）。 连接到一个网络站点的子网的所有客户端将自动挑选分配给该网络站点的位置策略。 在将用户级别的位置策略分配给一个用户和一个网络站点的情况下，基于网络站点的位置策略将覆盖每用户策略设置。
+与其他 Skype for Business Server 策略一样，可在多个范围级别分配位置策略：全局、站点和用户。 但是，用户级别位置策略的范围与其他 Skype for Business Server 策略的行为有点不同。 不仅可以将每用户位置策略应用于终结点对象 (例如用户和公用区域电话联系对象) ，还可以应用于 Skype for Business Server 网络站点。 网络站点是与地理位置关联的客户端子网的分组（但是不一定全部都为整个中央站点或分支站点中的子网）。 任何连接到网络站点子网的客户端都自动拾取分配给该网络站点的位置策略。 如果用户级别的位置策略同时分配给用户和网络站点，则基于网络站点的位置策略将覆盖任何每用户策略设置。
   
-每个网络站点均分配有一个位置策略，并且每个策略均分配有不同的 PSTN 用法、通知 URI 和会议 URI 值。
+每个网络站点都有为其分配的位置策略，而且每个策略都有为其分配的不同 PSTN 用途、通知 URI 和会议 URI 值。
   
 > [!NOTE]
-> 此特定策略作用域行为的原因是当驻留在 office 网站的池中的用户访问另一个站点并发出紧急呼叫时，无论该用户分配到的池或站点如何，都将应用与该网络站点对应的 E9-1-1 呼叫路由设置。 
+> 此特殊策略作用域行为的原因是，当一个位于一个办公室站点的池中的用户访问另一个站点并必须进行紧急呼叫时，无论用户分配到了哪一个池或站点，适用于该网络站点的 E9-1-1 呼叫路由设置都将适用。 
   
 

@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中创建或删除公告
+title: 在 Skype for Business Server 中创建或删除通知
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,36 +15,36 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: 在 Skype for Business Server Enterprise Voice 中创建或删除公告应用程序的公告。 这将影响如何处理打给未分配号码的呼叫。
-ms.openlocfilehash: 7cde8c268c66d19e6806a4b6c3e585a7271ef2ff
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在 Skype for Business Server 应用程序中创建或删除通知企业语音。 这会影响如何处理对未分配号码的呼叫。
+ms.openlocfilehash: 9f2b4fcda8e98d4b939b6b443da875dbe153546c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767955"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824902"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建或删除公告
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>在 Skype for Business Server 中创建或删除通知
 
-在 Skype for Business Server Enterprise Voice 中创建或删除公告应用程序的公告。 这将影响如何处理打给未分配号码的呼叫。
+在 Skype for Business Server 应用程序中创建或删除通知企业语音。 这会影响如何处理对未分配号码的呼叫。
 
 配置通知的同时，实际也配置了对未分配号码的呼叫的处理方式。可以播放提示（可以是音频文件或文本到语音转换 (TTS) 文件），或者在不播放提示的情况下直接将呼叫转接到指定目标。
 
 在您定义未分配的数字表前需要创建通知。您需要为使用音频提示、TTS 提示或无提示的所有公告执行此步骤。
 
-本主题介绍如何导入和创建通知。有关在未分配号码表中分配通知的详细信息，请参阅 [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)。
+本主题介绍如何导入和创建通知。 有关在未分配号码表中分配通知的详细信息，请参阅"[配置未分配号码表"。](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)
 
-## <a name="create-a-new-announcement-for-unassigned-numbers"></a>创建未分配号码的新通知
+## <a name="create-a-new-announcement-for-unassigned-numbers"></a>为未分配号码创建新通知
 
-要创建新的通知，您需要执行以下步骤：
+若要创建新通知，需要执行以下步骤：
 
-1. 对于音频提示，使用喜欢的音频录制应用程序来录制音频文件。
+1. 对于音频提示，使用你最喜爱的音频录制应用程序录制音频文件。
 
-2. 对于音频提示，运行 **Import-CsAnnouncementFile** cmdlet 将音频文件的内容导入文件存储。
+2. 对于音频提示，请运行 **Import-CsAnnouncementFile** cmdlet 将音频文件的内容导入文件存储。
 
-3. 运行  **New-CsAnnouncement** cmdlet 创建并命名通知。 执行此步骤，以创建具有音频提示、文本到语音转换 (TTS) 提示或无提示的通知。
+3. 运行 **New-CsAnnouncement** cmdlet 以创建通知并命名通知。 执行此步骤可创建具有音频提示、文本到语音 (TTS) 或无提示通知。
 
     > [!TIP]
-    > 您可能要创建无提示的通知（例如，要在不播放消息的情况下将呼叫转接到指定目标时）。
+    > 例如，如果要在不播放消息 (将呼叫转接到特定目标，可能需要创建无提示通知) 。
 
 4. 将新通知分配给未分配号码表中的号码范围。
 
@@ -52,11 +52,11 @@ ms.locfileid: "41767955"
 
 1. 对于音频提示，创建音频文件。
 
-2. 登录到将 Skype for Business Server Management Shell 作为 RTCUniversalServerAdmins 组的成员或必要的用户权限（如 "**委派设置权限**" 中所述）进行安装的计算机。
+2. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 的计算机 **。**
 
-3. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+3. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
 
-4. 对于音频提示，运行：
+4. 对于音频提示，请运行：
 
    ```powershell
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
@@ -68,9 +68,9 @@ ms.locfileid: "41767955"
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
-    要将呼叫转接到语音邮件，请键入 sip:username@domainname;opaque=app:voicemail 格式的 SIPAddress（例如 sip:bob@contoso.com;opaque=app:voicemail）。要将呼叫转接到电话号码，请键入 sip:number@domainname;user=phone 格式的 SIPAddress（例如 sip:+ 14255550121@contoso.com;user=phone）。
+    若要将呼叫转接到语音邮件，请键入 sip：username@domainname;opaque=app：voicemail (格式的 SIPAddress，例如 sip：bob@contoso.com;opaque=app：voicemail) 。 若要将呼叫转接到电话号码，请键入 sip：number@domainname;user=phone (格式的 SIPAddress，例如 sip：+ 14255550121@contoso.com;user=phone) 。
 
-    例如，要指定音频提示，请运行：
+    例如，若要指定音频提示：
 
    ```powershell
    $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
@@ -78,21 +78,21 @@ ms.locfileid: "41767955"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
    ```
 
-    例如，要指定 TTS 提示，请运行：
+    例如，若要指定 TTS 提示：
 
    ```powershell
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   有关这些 cmdlet 的更多详细信息，以及要查看在**TextToSpeechPrompt**参数中使用的语言代码的列表，请参阅[CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)。
+   有关这些 cmdlet 的更多详细信息，以及要用于 **TextToSpeechPrompt** 参数的语言代码的列表，请参阅 [New-CsAnnouncement。](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 
-## <a name="delete-an-announcement-for-unassigned-numbers"></a>删除未分配号码的通知
+## <a name="delete-an-announcement-for-unassigned-numbers"></a>删除未分配号码通知
 
 ### <a name="to-delete-an-announcement"></a>删除通知
 
-1. 登录到将 Skype for Business Server Management Shell 作为 RTCUniversalServerAdmins 组的成员或必要的用户权限（如 "**委派设置权限**" 中所述）进行安装的计算机。
+1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 的计算机 **。**
 
-2. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
 
 3. 列出组织中的所有通知。在命令行运行：
 
@@ -113,17 +113,17 @@ ms.locfileid: "41767955"
    ```
 
     > [!NOTE]
-    > 有关更多选项的详细信息，请参阅[CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)和[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)。
+    > 有关更多选项的详细信息，请参阅[Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)和[Remove-CsAnnouncement。](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business 服务器中创建或删除公告](create-an-announcement.md)
+[在 Skype for Business Server 中创建或删除通知](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[新-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 
 [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
-[CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
+[Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
 

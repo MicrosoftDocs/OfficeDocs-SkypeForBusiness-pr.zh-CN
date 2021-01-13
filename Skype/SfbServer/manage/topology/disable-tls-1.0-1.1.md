@@ -1,8 +1,8 @@
 ---
 title: 在 Skype for Business Server 2015 中禁用 TLS 1.0/1.1
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要：准备和实施在环境中禁用 TLS 1.0 和 1.1。
-ms.openlocfilehash: 06ebc3f5821e8daa1c80633b25140a852f72097d
-ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
+ms.openlocfilehash: da76280540f9d18435ed929aace6cf6fc439a4cf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734290"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826392"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中禁用 TLS 1.0/1.1
 
@@ -43,9 +43,9 @@ Microsoft 已制作一份有关此处提供的[](https://cloudblogs.microsoft.co
 
 - Skype for Business Server 2019 CU1 17.0.2046.123 (2019 年 6 月) 或更高版本
 - skype for Business Server 2015 CU9 6.0.9319.548 (May 2019) or higher on Windows Server 2012 (with KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) or superseded update) ， 2012 R2 or 2016.
-- In-place Upgraded Skype for Business Server 2015， with CU9 6.0.9319.548 (May 2019) or higher on Windows Server 2008 R2， 2012 (with KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) or superseded update) ， or 2012 R2.
+- 在 Windows Server 2008 R2、2012)  (KB [为 3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) 或取代更新) 或 2012 R2 的 Windows Server 2008 R2、2012 (中，CU9 6.0.9319.548 (2019 年 5 月或更高版本就地升级的 Skype for Business Server 2015。
 - Exchange Connectivity and Outlook Web App with Exchange Server 2010 SP3 RU19 or higher， guidance [here](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
-- Survivable Branch Appliance (SBA) with Skype for Business Server 2015 CU6 IBM2 或更高版本 (向供应商确认他们打包了相应的更新，并且已可用于你的) 
+- Survivable Branch Appliance (SBA) With Skype for Business Server 2015 CU6 版 (或更高版本向供应商确认他们打包了相应的更新，并且已可用于你的) 
 - Survivable Branch Server (SBS) Skype for Business Server 2015 CU6 版</) 或更高版本
 - 仅 Lync Server 2013 边缘角色，这是因为边缘角色对 Windows Fabric 1.0 没有依赖关系。
 
@@ -76,7 +76,7 @@ Microsoft 已制作一份有关此处提供的[](https://cloudblogs.microsoft.co
 - Lync for Mac 2011
 - Lync 2013 移动版 - iOS、iPad、Android 或 Windows Phone
 - Lync "MX" Windows 应用商店客户端
-- Lync 会议室 (。。 SRSv1) 。 LRS 于 2018 年 10 月 9 日终止支持，不会进行更新以支持 TLS 1.2。
+- Lync Room System (.k.a. SRSv1) 。 LRS 于 2018 年 10 月 9 日终止支持，不会进行更新以支持 TLS 1.2。
 - 所有 Lync 2010 客户端
 - Lync Phone Edition - 此处更新 [了指南](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035)。
 - 基于 2013 的 Survivable Branch Appliance (SBA) 或 Survivable Branch Server (SBS) 
@@ -121,7 +121,7 @@ PIC (公共 IM) Skype 消费者服务：我们预计禁用 TLS 1.0/1.1 不会影
 
 除非如上所述，一旦禁用了 TLS 1.0 和 1.1 的作用域外服务器，客户端和设备将更长地正常运行，或一切正常。 这可能意味着你需要暂停并等待来自 Microsoft 的更新指导。 一旦满足所有要求并计划解决差距，请继续。
 
-在高级别上，虽然 Skype for Business Server 2019 已做好安装过程准备，但 Skype for Business Server 2015 将要求您安装 CU9、将必备更新应用到 .NET 和 SQL、部署必备注册表项，最后是单独一轮操作系统配置更新 (即通过注册表文件导入) 禁用 TLS 1.0 和 1.1。 在环境中的任何服务器上禁用 TLS 1.0 和 1.1 之前，必须完成所有必备组件（包括 Skype for Business Server 2015 CU6 IBM2）的安装，这一点至关重要。 每个 Skype for Business 服务器（包括边缘角色SQL后端）都需要更新。 此外，请确保所有 (范围内) 客户端已更新为所需的最低版本。 不要忘记更新管理工作站。
+在高级别上，虽然 Skype for Business Server 2019 已做好安装过程准备，但 Skype for Business Server 2015 将要求您安装 CU9，将先决条件更新应用到 .NET 和 SQL，部署必备注册表项，最后是单独一轮操作系统配置更新 (即通过注册表文件导入) 禁用 TLS 1.0 和 1.1。 在环境中的任何服务器上禁用 TLS 1.0 和 1.1 之前，必须完成所有必备组件（包括 Skype for Business Server 2015 CU6 IBM2）的安装，这一点至关重要。 每个 Skype for Business 服务器（包括边缘角色SQL后端）都需要更新。 此外，请确保所有 (范围内) 客户端已更新为所需的最低版本。 不要忘记更新管理工作站。
 
 我们希望遵循"从内到外"的常规操作顺序来升级 Skype for Business 服务器。 以通常相同的方式处理控制器池、持久聊天和配对池。 此处和此处介绍了升级[的顺序](topology.md)[和方法](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)。
 
@@ -135,7 +135,7 @@ PIC (公共 IM) Skype 消费者服务：我们预计禁用 TLS 1.0/1.1 不会影
 6. 确保所有作用域内客户端已更新。
 7. 通过注册表导入禁用 TLS 1.0 和 1.1。
 8. 验证工作负荷是否正常工作。
-    - 如果遇到问题，请进行故障排除和解决，或者
+    - 如果遇到问题，则进行故障排除和解决，或者
     - 从步骤 2 还原注册表以重新启用 TLS 1.0 和 1.1
 9. 验证是否仅使用了 TLS 1.2。
 
@@ -145,7 +145,7 @@ PIC (公共 IM) Skype 消费者服务：我们预计禁用 TLS 1.0/1.1 不会影
 
 - Skype for Business Server 2015 CU9 6.0.9319.548 (2019 年 5 月) 或更高版本
 - [.NET Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167) 或更高版本，在注册表中启用 SchUseStrongCrypto， (提供如下) 
-- SQL必须在所有 Skype for Business 2015 服务器和后端上进行更新。 首先更新 Enterprise Edition Pool SQL后端，然后更新其各自的 FEs。 
+- SQL必须在所有 Skype for Business 2015 服务器和后端上进行更新。 首先更新 Enterprise Edition Pool SQL后端，然后更新其各自的 FES。 
     - [SQL Server 2014 SP1 + CU5](https://support.microsoft.com/help/3130926)或更高版本/ SQL Server 2012 SP2 + CU16 或更高版本/ [SQL Server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)或更高版本/ SQL Server 2014 SP2
      - [SQL Server 2012 SQL Server Native Client](https://www.microsoft.com/download/details.aspx?id=50402)
      - [Microsoft ODBC Driver 11 for SQL Server](https://www.microsoft.com/download/details.aspx?id=36434)或更高版本
@@ -177,7 +177,7 @@ PIC (公共 IM) Skype 消费者服务：我们预计禁用 TLS 1.0/1.1 不会影
     5. 打开管理命令提示符，并升级所有已安装的组件和实例 
         - 示例：C:\01_2014SqlSp2\SQLServer2014SP2-KB3171021-x64-ENU.exe /qs /IAcceptSQLServerLicenseTerms /Action=Patch /AllInstances
 4. 更新SQL客户端。 
-    1. 参考 [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server) ：.
+    1. 参考 [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server) ：。
     2. 下载自 [https://www.microsoft.com/download/details.aspx?id=50402](https://www.microsoft.com/download/details.aspx?id=50402)
     3. 确保前端服务器上已停止 Skype for Business Server 2015 服务。 
         - 例如 (Standard Edition) ： ```Stop-CsWindowsServices```
@@ -461,7 +461,7 @@ Windows Registry Editor Version 5.00
 4. 在 **"设置**"下，滚动到底部。
 5. 验证是否已启用 TLS 1.0、TLS 1.1 和 TLS 1.2。
 6. 浏览 SfB 2015 池的内部 Web 服务 URL， (连接成功) 。
-7. 返回到Internet Explorer并禁用"仅 **使用 TLS 1.2"** 选项。
+7. 返回到Internet Explorer并禁用"仅使用 **TLS 1.2"** 选项。
 8. 再次浏览 SfB 2015 池的内部 Web 服务 URL， (连接失败) 。
 
 ![Internet 选项](../../media/internet-options.jpg)
@@ -474,13 +474,13 @@ Windows Registry Editor Version 5.00
 
 **选项 1：** 使用 [SmartSetup](../../deploy/install/install-skype-for-business-server.md)。 请注意，我们将更新 SmartSetup 以适应SQL CU 中更新的二进制文件，并在将来更新本文。
 
-**选项 2：** 在 RTCLOCAL SQL LYNCLOCAL (预安装本地) 
+**选项 2：** 在 RTCLOCAL SQL LYNCLOCAL (预安装本地实例) 
 
-1. 下载 Express 2014 SP2 SQL， (SQLEXPR_x64.exe) 复制到 FE 上的本地文件夹中。 假设文件夹路径为 <SQL_FOLDER_PATH>。
+1. 下载 Express 2014 SP2 SQL， (SQLEXPR_x64.exe) 复制到 FE 上的本地文件夹。 假设文件夹路径为 <SQL_FOLDER_PATH>。
 2. 启动 PowerShell 或命令提示符并导航到 <SQL_FOLDER_PATH>。
 3. 通过运行以下SQL创建 RTCLOCAL 实例。 请等待SQLEXPR_x64.exe完成，然后再继续：
 
-    SQLEXPR_x64.exe /Q /IACCEPTSQLSERVERLICENSETERMS /UPDATEENABLED=0 /HIDECONSOLE /ACTION=Install /FEATURES=SQLEngine，Tools /INSTANCENAME=RTCLOCAL /TCPENABLED=1 /SQLSVCACCOUNT=1 "NT AUTHORITY\NetworkService" /SQLSYSADMINACCOUNTS="Builtin\Administrators" /BROWSERSVCSTARTUPTYPE="Automatic" /AGTSVCACCOUNT="NTAUTHORITY\NetworkService" /SQLSVCSTARTUPTYPE=Automati
+    SQLEXPR_x64.exe /Q /IACCEPTSQLSERVERLICENSETERMS /UPDATEENABLED=0 /HIDECONSOLE /ACTION=Install /FEATURES=SQLEngine，Tools /INSTANCENAME=RTCLOCAL /TCPENABLED=1 /SQLSVCACCOUNT="NT AUTHORITY\NetworkService" /SQLSYSADMINACCOUNTS="Builtin\Administrators" /BROWSERSVCSTARTUPTYPE="Automatic" /AGTSVCACCOUNT="NTAUTHORITY\NetworkService" /SQLSVCSTARTUPTYPE=Automati
 1. 通过运行以下SQL创建 LYNCLOCAL 实例。 请等待SQLEXPR_x64.exe完成，然后再继续下一步：
 
     SQLEXPR_x64.exe /Q /IACCEPTSQLSERVERLICENSETERMS /UPDATEENABLED=0 /HIDECONSOLE /ACTION=Install /FEATURES=SQLEngine，Tools /INSTANCENAME=LYNCLOCAL /TCPENABLED=1 /SQLSVCACCOUNT=1 "NT AUTHORITY\NetworkService" /SQLSYSADMINACCOUNTS="Builtin\Administrators" /BROWSERSVCSTARTUPTYPE="Automatic" /AGTSVCACCOUNT="NTAUTHORITY\NetworkService" /SQLSVCSTARTUPTYPE=Automatic
@@ -491,7 +491,7 @@ Windows Registry Editor Version 5.00
 
 1. [安装 Skype for Business Server 的先决条件](../../deploy/install/install-prerequisites.md)  
 2. 安装 .NET 4.7： 
-      - **注意：** 我们首先在 Skype for Business Server 2015 CU5 (6.0.9319.281 中引入了对 .NET 4.7 的支持) 。 因此，在下面的步骤中，我们将在主要安装之前更新核心组件。
+      - **注意：** 我们首先在 Skype for Business Server 2015 CU5 (6.0.9319.281) 中引入了对 .NET 4.7 的支持。 因此，在下面的步骤中，我们将在主要安装之前更新核心组件。
       - 下载： https://www.microsoft.com/download/details.aspx?id=55167 。 
       - 参考[：应在 Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)部署之前安装的软件
 3. 复制 ISO 文件/文件夹： 

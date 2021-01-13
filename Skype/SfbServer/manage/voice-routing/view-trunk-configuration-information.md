@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中查看中继配置信息
+title: 在 Skype for Business Server 中查看中继配置信息
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,37 +10,37 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络（PSTN）网关、IP 公共分支 exchange （PBX）或会话边界控制器（SBC）之间的关系和能力。
-ms.openlocfilehash: 40820729727ec02e5494e69c773d7fbd3d7b1154
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。
+ms.openlocfilehash: c473c3fc19138ac91b44dff8552555418d36533f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888480"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826162"
 ---
-# <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>在 Skype for Business 服务器中查看中继配置信息
+# <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>在 Skype for Business Server 中查看中继配置信息
 
-SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络（PSTN）网关、IP 公共分支 exchange （PBX）或会话边界控制器（SBC）之间的关系和能力。
+SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。
 
-- 是否在中继上启用媒体旁路功能。
-- 发送实时传输控制协议（RTCP）数据包的条件。
-- 每个主干上是否需要安全的实时协议（SRTP）加密。
+- 是否应对中继启用媒体旁路。
+- 发送实时传输控制协议 (RTCP) 数据包的条件。
+- 每个中继上是否需要安全实时协议 (SRTP) 加密。
 
-安装 Skype for Business 服务器时，将为你创建一个全局 SIP 中继配置设置集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
+安装 Skype for Business Server 时，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。
 
-**使用 "Skype for Business 服务器" 控制面板查看 SIP 中继配置信息**
+**使用 Skype for Business Server 控制面板查看 SIP 中继配置信息**
 
-1. 在 "Skype for Business 服务器" 控制面板中，单击 "**语音路由**"，然后单击 "**中继配置**"。
-2. 在 "**中继配置**" 选项卡上，你将看到所有中继配置设置集合的列表;对于每个集合，你将看到 "**名称**"、"**作用域**"、"**状态**" 和 "**媒体绕过**" 属性的值，以及**PSTN 用法**的数量、**调用编号规则**，以及与集合关联的已**调用编号规则**。 若要查看有关主干配置设置集合的其他详细信息，请单击感兴趣的集合，单击 "**编辑**"，然后单击 "**显示详细信息**"。 请注意，每次只能查看一个主干配置设置集合的详细信息。
+1. 在 Skype for Business Server 控制面板中，单击 **"语音路由**"，然后单击 **"中继配置"。**
+2. 在 **"中继配置**"选项卡上，你将看到所有中继配置设置集合的列表;对于每个集合，你将看到名称、范围、状态和媒体旁路属性的值，以及与集合关联的 **PSTN** 用法、呼叫号码规则和被叫号码规则的数量。  要查看有关中继配置设置集合的其他详细信息，请单击有兴趣的集合，单击“编辑”，再单击“显示详细信息”。 请注意，一次仅可查看中继配置设置的一个集合的详细信息。
 
-## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 查看 SIP 中继配置信息
+## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看 SIP 中继Windows PowerShell信息
 
-可以使用 Skype for Business Server PowerShell 和 New-cstrunkconfiguration cmdlet 查看 SIP 中继配置设置。 此 cmdlet 既可以从 Skype for Business 服务器管理外壳运行，也可以从远程会话 Windows PowerShell 运行。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" https://go.microsoft.com/fwlink/p/?linkId=255876。 替换或删除此链接。
+可以使用 Skype for Business Server PowerShell 和 Get-CsTrunkConfiguration cmdlet 查看 SIP 中继配置设置。 此 cmdlet 可以从 Skype for Business Server 命令行管理程序或远程会话命令行管理程序Windows PowerShell。 有关使用远程 Windows PowerShell 连接到 Skype for Business Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章"快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。 https://go.microsoft.com/fwlink/p/?linkId=255876 替换或删除此链接。
 
 
 **查看 SIP 中继配置信息**
 
-若要查看有关所有 SIP 中继配置设置的信息，请在 Skype for Business Server 命令行管理程序中键入以下命令，然后按 ENTER：
+若要查看有关所有 SIP 中继配置设置的信息，请在 Skype for Business Server 命令行管理程序 中键入以下命令，然后按 Enter：
 
 ```powershell
 Get-CsTrunkConfiguration
@@ -74,7 +74,7 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-有关详细信息，请参阅[new-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet 的帮助主题。
 
 
 

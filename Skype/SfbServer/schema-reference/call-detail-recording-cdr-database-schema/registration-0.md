@@ -1,8 +1,8 @@
 ---
 title: 注册视图
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,45 +12,45 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
-description: "\"注册\" 视图存储有关用户注册的信息。 此视图已引入 Lync Server 2013。"
-ms.openlocfilehash: 0ee19d4addae9ee7318828c4ab294dc15bd72f86
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 注册视图存储有关用户注册的信息。 Lync Server 2013 中引入了此视图。
+ms.openlocfilehash: 12508e7efcd96bdb9e3956b4e62c1065235a3f60
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814950"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823122"
 ---
 # <a name="registration-view"></a>注册视图
  
-"注册" 视图存储有关用户注册的信息。 此视图已引入 Lync Server 2013。
+注册视图存储有关用户注册的信息。 Lync Server 2013 中引入了此视图。
   
-|**列**|**数据类型**|**详细信息**|
+|**列**|**数据类型**|**Details**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用以唯一标识会话。 有关详细信息，请参阅[Skype For Business Server 2015 中的对话框表](dialogs.md)。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |标识会话的 ID 号。 与 SessionIdTime 结合使用以唯一标识会话。 有关详细信息，请参阅[Skype For Business Server 2015 中的对话框表](dialogs.md)。 <br/> |
-|**RegisterTime** <br/> |datetime  <br/> |发生注册的时间。  <br/> |
-|**UserUri** <br/> |nvarchar （450）  <br/> |注册用户的 URI。  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |注册用户的 URI 的类型。 有关详细信息，请参阅[UriTypes 表](uritypes.md)。 <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |注册用户的租户。 有关详细信息，请参阅[租户表](tenants.md)。 <br/> |
-|**EndpointId** <br/> |标识符  <br/> |注册的用户终结点的唯一标识符。  <br/> |
-|**EndpointEra** <br/> |标识符  <br/> |唯一标识符，用于区分涉及同一用户和同一终结点的注册。  <br/> |
-|**DeRegisterType** <br/> |datetime  <br/> |发生取消注册的时间。  <br/> |
-|**DeRegisterReason** <br/> |nvarchar(256)  <br/> |取消注册的原因。  <br/> |
-|**ClientVersion** <br/> |nvarchar(256)  <br/> |注册用户使用的客户端版本。  <br/> |
-|**ClientType** <br/> |int  <br/> |注册用户使用的客户端。 有关详细信息，请参阅[UserAgentDef 表](useragentdef.md)。 <br/> |
-|**ClientCategory** <br/> |nvarchar （64）  <br/> |注册用户使用的客户端的类别。  <br/> |
-|**地址** <br/> |nvarchar(256)  <br/> |用户注册使用的 IP 地址。 这可能是 IPv4 或 IPv6 地址。  <br/> |
-|**DialogId** <br/> |varstring （775）  <br/> |SIP 对话框 ID。 的格式为：  <br/> 对话框; 从-标签; 到-标记  <br/> |
-|**ResponseCode** <br/> |int  <br/> |会议邀请的 SIP 响应代码。 此字段通常由会话中的初始邀请消息所生成的数据填充。 如果没有邀请消息，则该字段将填充第一个相关 SIP 邮件的日期和时间（再见、取消、消息或信息）。  <br/> |
-|**DiagnosticId** <br/> |int  <br/> |从 SIP 标题捕获的诊断 ID。  <br/> |
-|**注册器** <br/> |nvarchar(256)  <br/> |注册机构的 FQDN。  <br/> |
-|**Pool** <br/> |nvarchar(256)  <br/> |捕获会话的数据的池的 FQDN。  <br/> |
-|**EdgeServer** <br/> |nvarchar(256)  <br/> |注册用户使用的边缘服务器的 FQDN。  <br/> |
-|**IsInternal** <br/> |bit  <br/> |指示用户是否从内部网络登录。  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**RegisterTime** <br/> |datetime  <br/> |注册发生的时间。  <br/> |
+|**UserUri** <br/> |nvarchar (450)   <br/> |注册用户的 URI。  <br/> |
+|**UserUriType** <br/> |nvarchar (256)   <br/> |注册用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
+|**UserTenant** <br/> |nvarchar (256)   <br/> |注册用户的租户。 有关详细信息 [，请参阅"租户](tenants.md) "表。 <br/> |
+|**EndpointId** <br/> |uniqueidentifier  <br/> |用户注册使用的终结点的唯一标识符。  <br/> |
+|**EndpointEra** <br/> |uniqueidentifier  <br/> |用于区分涉及相同用户和相同终结点的注册的唯一标识符。  <br/> |
+|**DeRegisterType** <br/> |datetime  <br/> |取消注册发生的时间。  <br/> |
+|**DeRegisterReason** <br/> |nvarchar (256)   <br/> |取消注册的原因。  <br/> |
+|**ClientVersion** <br/> |nvarchar (256)   <br/> |注册用户使用的客户端版本。  <br/> |
+|**ClientType** <br/> |int  <br/> |注册用户使用的客户端。 有关详细信息， [请参阅 UserAgentDef](useragentdef.md) 表。 <br/> |
+|**ClientCategory** <br/> |nvarchar (64)   <br/> |注册用户使用的客户端的类别。  <br/> |
+|**IpAddress** <br/> |nvarchar (256)   <br/> |用户注册使用的 IP 地址。 这可能是 IPv4 或 IPv6 地址。  <br/> |
+|**DialogId** <br/> |varstring (775)   <br/> |SIP 对话 ID。格式如下：  <br/> dialog;from-tag;to-tag  <br/> |
+|**ResponseCode** <br/> |int  <br/> |会话邀请的 SIP 响应代码。此字段通常由来自会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则该字段由第一个相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。  <br/> |
+|**DiagnosticId** <br/> |int  <br/> |从 SIP 标头捕获的诊断 ID。  <br/> |
+|**注册器** <br/> |nvarchar (256)   <br/> |注册器的 FQDN。  <br/> |
+|**Pool** <br/> |nvarchar (256)   <br/> |已捕获会话的数据的池的 FQDN。  <br/> |
+|**EdgeServer** <br/> |nvarchar (256)   <br/> |注册用户使用的边缘服务器的 FQDN。  <br/> |
+|**IsInternal** <br/> |bit  <br/> |指示用户是否是从内部网络登录的。  <br/> |
 |**IsUserServiceAvailable** <br/> |bit  <br/> |指示 UserService 在注册时是否可用。  <br/> |
-|**IsPrimaryRegistrar** <br/> |bit  <br/> |指示注册是否与主注册机构一起注册。  <br/> |
-|**DeviceMacAddress** <br/> |bigint  <br/> |注册的设备的 MAC 地址。  <br/> |
-|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |注册设备的制造商。 有关详细信息，请参阅[Skype For Business Server 2015 中的制造商表](manufacturers.md)。 <br/> |
-|**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |注册设备的硬件版本。 有关详细信息，请参阅[Skype For Business Server 2015 中的 HardwareVersions 表](hardwareversions.md)。 <br/> |
+|**IsPrimaryRegistrar** <br/> |bit  <br/> |指示注册是否是使用主注册器的注册。  <br/> |
+|**DeviceMacAddress** <br/> |bigint  <br/> |已注册设备的 MAC 地址。  <br/> |
+|**DeviceManufacturer** <br/> |nvarchar (256)   <br/> |已注册设备的制造商。 有关详细信息 [，请参阅 Skype for Business Server 2015 中的](manufacturers.md) 制造商表。 <br/> |
+|**DeviceHardwareVersion** <br/> |nvarchar (256)   <br/> |已注册设备的硬件版本。 有关详细信息， [请参阅 Skype for Business Server 2015 中的 HardwareVersions](hardwareversions.md) 表。 <br/> |
    
 

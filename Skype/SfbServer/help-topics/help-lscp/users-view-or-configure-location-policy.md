@@ -1,8 +1,8 @@
 ---
 title: 用户查看或配置位置策略
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
-description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: ec129f83d6a321a9a6688a7e213680ce579325cb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 要执行什么操作？ 单击要执行的任务的链接。
+ms.openlocfilehash: 93a297afaa35a8c5918ea98b3d67015106fc8342
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821734"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824312"
 ---
 # <a name="users-view-or-configure-location-policy"></a>用户：查看或配置位置策略
 
-您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+要执行什么操作？ 单击要执行的任务的链接。
 
 - [向用户分配位置策略](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
 

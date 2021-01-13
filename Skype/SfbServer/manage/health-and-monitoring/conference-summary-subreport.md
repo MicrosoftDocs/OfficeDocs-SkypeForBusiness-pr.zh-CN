@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 中的 "会议摘要" 子报告
+title: Skype for Business Server 中的会议摘要子报告
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 摘要：了解 Skype for Business 服务器中的 "会议摘要" 子报告。
-ms.openlocfilehash: 0d0b8fdc3971d60e326e59dd5417458533a10a31
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解 Skype for Business Server 中的会议摘要子报告。
+ms.openlocfilehash: 9a42e16bc22f01f196274f1e25396d8516e26af2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818062"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826472"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Skype for Business Server 中的 "会议摘要" 子报告
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Skype for Business Server 中的会议摘要子报告
  
-**摘要：** 了解 Skype for Business 服务器中的 "会议摘要" 子报告。
+**摘要：** 了解 Skype for Business Server 中的会议摘要子报告。
   
 会议摘要子报告提供了失败的会议会话的总体概述。这些失败的会话按以下会话类型进一步细分：焦点会话和 MCU 会话。
   
@@ -31,11 +31,11 @@ ms.locfileid: "41818062"
   
 **会议摘要子报告筛选器**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
+|**名称**|**说明**|
 |:-----|:-----|
-|**从** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 2015/7/7 13:00  <br/> 如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 2015/7/7  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 2015/7/3  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**到** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 2015/7/7 13:00  <br/> 如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 2015/7/7  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 2015/7/3  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**池** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“**[所有]**”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。<br/> |
+|**From** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
+|"自" <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
+|**Pool** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。<br/> |
    
 ## <a name="metrics"></a>指标
 
@@ -43,14 +43,15 @@ ms.locfileid: "41818062"
   
 **会议摘要子报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
+|**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**会议总数** <br/> |否  <br/> |举行的会议总数。  <br/> |
 |**会议会话总数** <br/> |否  <br/> |会议会话总数。单个会议可以具有多个会话；例如，会议可能同时包括焦点会话和 MCU 会话。  <br/> |
 |**总体会话故障率** <br/> |否  <br/> |所有失败会议的百分比。  <br/> |
 |**焦点会话** <br/> |否  <br/> |焦点会话总数。  <br/> |
 |**焦点故障率** <br/> |否  <br/> |失败的焦点会话的百分比。  <br/> |
-|MCU 会话  <br/> |否  <br/> |MCU 会话总数。  <br/> |
+|MCU 会话  <br/> |否  <br/> |MCU 会话总数。
+  <br/> |
 |**MCU 故障率** <br/> |否  <br/> |失败的 MCU 会话的百分比。  <br/> |
 |**按形式列出的 MCU 会话** <br/> |否  <br/> |按形式分组的 MCU 会话总数（例如，IM 会议）。  <br/> |
 |**按形式列出的故障率** <br/> |否  <br/> |按形式分组的失败的 MCU 会话的百分比（例如，IM 会议）。  <br/> |

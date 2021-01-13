@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中管理运行状况和监视
+title: 在 Skype for Business Server 中管理运行状况和监视
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,29 +11,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
-description: 摘要：了解 Skype for Business 服务器中的监视和运行状况配置任务。
-ms.openlocfilehash: 52f342fca5ccf6cc66e5d857118e5b18f3be0706
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解 Skype for Business Server 中的监视和运行状况配置任务。
+ms.openlocfilehash: 443f3a959832c471142912a9f9fb36496a3432c4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817932"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823512"
 ---
-# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>在 Skype for Business 服务器中管理运行状况和监视
+# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>在 Skype for Business Server 中管理运行状况和监视
 
-**摘要：** 了解 Skype for Business 服务器中的监视和运行状况配置任务。
+**摘要：** 了解 Skype for Business Server 中的监视和运行状况配置任务。
 
-本部分中的主题提供了在 Skype for Business 服务器控制面板和 Skype for business Server Management Shell 中可以执行的监视和运行状况配置任务的分步过程。
+本部分中的主题提供了可在 Skype for Business Server 控制面板和 Skype for Business Server 命令行管理程序 中执行监视和运行状况配置任务的分步过程。
 
 ## <a name="in-this-section"></a>本节内容
 
-- [Skype for Business 服务器中的呼叫详细记录（CDR）](call-detail-recording-cdr.md)
+- [Skype for Business Server (CDR) 记录呼叫详细信息](call-detail-recording-cdr.md)
 
-- [Skype for Business 服务器中的体验质量（QoE）](quality-of-experience.md)
+- [Skype for Business Server (QoE) 用户体验质量](quality-of-experience.md)
 
-- [监视移动版 Skype for business 服务器的性能](monitor-mobility-performance.md)
+- [监视 Skype for Business Server 中的移动性能](monitor-mobility-performance.md)
 
-- [在 Skype for Business 服务器中使用监视报告](monitoring-reports.md)
+- [在 Skype for Business Server 中使用监控报告](monitoring-reports.md)
 
 ## <a name="see-also"></a>另请参阅
 

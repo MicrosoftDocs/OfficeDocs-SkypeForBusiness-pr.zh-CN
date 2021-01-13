@@ -1,8 +1,8 @@
 ---
-title: 存档策略新建或编辑现有
+title: 存档策略创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,41 +14,41 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
-description: 对于托管在 Skype for business 服务器上的用户，使用存档策略控制部署内部和外部通信的存档。 存档策略包括全局策略以及可选的一个或多个站点和用户策略：
-ms.openlocfilehash: e37d4365af0c817d49d4314987ee41392a0d80cb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 使用存档策略控制在部署中为位于 Skype for Business Server 上的用户存档内部和外部通信。 存档策略包括全局策略以及可选的一个或多个站点和用户策略：
+ms.openlocfilehash: 9c852c592776f9e529c11dd46272715af52e8111
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823195"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826962"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>存档策略：创建新的或编辑现有的
  
-对于托管在 Skype for business 服务器上的用户，使用存档策略控制部署内部和外部通信的存档。 存档策略包括全局策略以及可选的一个或多个站点和用户策略：
+使用存档策略控制在部署中为位于 Skype for Business Server 上的用户存档内部和外部通信。 存档策略包括全局策略以及可选的一个或多个站点和用户策略：
   
-- **全局策略**默认情况下，全局策略在所有 Skype for Business 服务器部署中创建。 您可以编辑全局策略，但无法删除此策略。 如果您尝试将其删除，则所有选项将重置为默认值。
+- **全局策略** 默认情况下，全局策略在所有 Skype for Business Server 部署中创建。 您可以编辑全局策略，但无法删除此策略。 如果您尝试将其删除，则所有选项将重置为默认值。
     
-- **网站策略（可选）** 你可以指定一个或多个网站存档策略，每个策略都可以配置为为特定网站启用和禁用内部或外部通信的存档。 站点策略会覆盖全局策略，但仅限于在存档策略中指定的站点。 可以编辑或删除站点策略。
+- **网站策略 (可选)** 可以指定一个或多个站点存档策略，每个存档策略都可以配置为启用和禁用对特定站点的内部或外部通信的存档。 站点策略会覆盖全局策略，但仅限于在存档策略中指定的站点。 可以编辑或删除站点策略。
     
-- **用户策略（可选）** 你可以指定一个或多个用户存档策略，每个策略都可以配置为针对特定用户启用和禁用内部或外部通信的存档。 用户策略会覆盖全局策略和站点策略，但仅限于分配了用户策略的用户。 可以编辑或删除用户策略。
+- **用户策略 (可选)** 可以指定一个或多个用户存档策略，每个存档策略都可以配置为为特定用户的内部或外部通信启用和禁用存档。 用户策略会覆盖全局策略和站点策略，但仅限于分配了用户策略的用户。 可以编辑或删除用户策略。
     
 > [!NOTE]
-> 如果你使用 Exchange 集成将存档数据存储在 Microsoft Exchange 中，则 Exchange 2013 策略将控制托管在 Exchange 2013 上的用户的存档。 若要为这些用户启用存档，用户的邮箱必须放置在原地保留。 
+> 如果使用 Exchange 集成在 Microsoft Exchange 中存储存档数据，则 Exchange 2013 策略将控制 Exchange 2013 上用户存档。 若要为这些用户启用存档，必须将用户的邮箱置于In-Place保留状态。 
   
 若要为新的存档策略或现有的存档策略配置设置，请指定以下选项：
-- **名称**每个存档策略都需要一个名称。 该名称由你要添加或编辑的策略类型确定：
+- **名称** 每个存档策略都需要一个名称。 该名称由要添加或编辑的策略类型确定：
     
-  - **全局策略**默认名称为全局名称。 可以将该名称更改成一个更具描述性的名称。 例如，Contoso 北美机构。
+  - **全局策略** 默认名称为 Global。 可以将该名称更改成一个更具描述性的名称。 例如，Contoso 北美机构。
     
-  - **网站策略**此对话框中列出的网站包括部署中的所有可用网站。 单击某个站点即可将其选中。 例如，Redmond 数据中心。
+  - **站点策略** 此对话框中列出的站点包括部署中所有可用的网站。 单击某个站点将其选中。 例如，Redmond 数据中心。
     
-  - **用户策略**指定一个合适的名称，例如特定用户的姓名或组织中的用户组或团队的名称。 例如，法律部门。
+  - **用户策略** 指定适当的名称，例如特定用户的名称或组织中用户组或团队的名称。 例如，法律部门。
     
-- **说明**这是可选操作。 使用它提供其他详细信息，如策略的范围或使用。 例如，与其他网站的法律部门协调。
+- **说明** 这是可选的。 使用它提供其他详细信息，例如策略的范围或使用。 例如，与其他网站的法律部门协调。
     
-- **存档内部通信**选中此复选框以启用内部网络上的通信存档。 默认情况下，不会在任何策略中启用此功能。
+- **存档内部通信** 选中此复选框可启用内部网络上通信的存档。 默认情况下，这在任何策略中都未启用。
     
-- **存档外部通信**选中此复选框以启用包括外部用户（如远程用户）（包括匿名和 PIC 设置用户）和联盟合作伙伴的通信的存档。 默认情况下，不会在任何策略中启用此功能。
+- **存档外部通信** 选中此复选框可启用包括外部用户（如远程用户、 (匿名用户和 PIC 设置用户) 联盟伙伴）的存档。 默认情况下，这在任何策略中都未启用。
     
-有关存档功能和功能（包括 Exchange 集成）的详细信息，请参阅[在 skype for Business server 2015 中规划存档](../../plan-your-deployment/archiving/archiving.md)、[部署 Skype for business server 2015 存档](../../deploy/deploy-archiving/deploy-archiving.md)和[管理 skype for business server 2015 中的存档](../../manage/archiving/archiving.md)。
+有关存档特性和功能的详细信息，包括 Exchange 集成，请参阅规划 [Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md)中的存档、 [部署 Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)的存档以及管理 Skype for Business Server [2015](../../manage/archiving/archiving.md)中的存档。
 

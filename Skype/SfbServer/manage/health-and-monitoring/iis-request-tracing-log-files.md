@@ -1,8 +1,8 @@
 ---
 title: 在 Skype for Business Server 2015 中监视 IIS 请求跟踪日志文件
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,24 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
-description: 摘要：了解 Skype for Business Server 2015 中的移动服务（Mcx）对旧客户端的支持。
-ms.openlocfilehash: 982e5842499e5cb2f6ff21ff884d1baa45075627
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解 Skype for Business Server 2015 中对旧客户端 (Mc) x 服务支持。
+ms.openlocfilehash: 5fb9e66efa468e8755fe369c3ce4f2a4b8979e57
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817922"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823502"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中监视 IIS 请求跟踪日志文件
  
-**摘要：** 了解 Skype for Business Server 2015 中的移动服务（Mcx）是否支持旧版客户端。
+**摘要：** 了解 Skype for Business Server 2015 (Mcx) 2015 中对旧版客户端的支持。
   
-本主题仅适用于支持 Lync 2010 Lync Mobile 客户端的部署，面向的是 Mobility Service (Mcx)。
+本主题仅适用于支持 Lync 2010 Lync Mobile 客户端的部署，适用于 Mobility Service (Mcx) 。
 
 > [!NOTE]
-> 在 Skype for Business Server 2019 中，MCX （移动服务）对旧式移动客户端的支持不再可用。 所有当前 Skype for business 移动客户端都已使用统一通信 Web API （UCWA）来支持即时消息（IM）、状态和联系人。 具有使用 MCX 的旧客户端的用户将需要升级到当前客户端。
+> SKYPE (Server 2019 中不再提供对) 移动客户端的 MCX 移动服务支持。 所有当前的 Skype for Business 移动客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
   
-为 Skype for Business Server 移动服务（Mcx）启用 Internet 信息服务（IIS）请求跟踪时，生成的日志文件最多可以消耗 3 gb 的磁盘空间。 默认情况下，IIS 跟踪日志记录已启用。 应监视前端服务器，以确保它们不会用尽磁盘空间。 
+为 Skype for Business Server Mobility Service (Mcx) 启用 Internet Information Services (IIS) 请求跟踪时，生成的日志文件每天最多会占用 3 GB 的磁盘空间。 默认情况下，IIS 跟踪日志记录已启用。 您应监视前端服务器，以确保它们不会用完磁盘空间。 
   
 默认情况下，IIS 将在 %SystemDrive%\inetpub\logs\LogFiles 中存储日志文件。
   
@@ -38,6 +38,6 @@ ms.locfileid: "41817922"
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-有关**httpLogging**命令的详细信息，请参阅[命令参考](https://go.microsoft.com/fwlink/p/?linkId=234927)。
+有关 **httpLogging 命令** 的详细信息，请参阅 [命令参考](https://go.microsoft.com/fwlink/p/?linkId=234927)。
   
 
