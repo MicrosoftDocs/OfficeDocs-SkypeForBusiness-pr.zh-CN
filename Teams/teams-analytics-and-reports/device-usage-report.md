@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 设备使用情况报告
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,38 +13,38 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何使用 Microsoft 团队管理中心中的 "团队设备使用情况" 报表来查看组织中的用户如何连接到团队。
+description: 了解如何使用 Microsoft Teams 管理中心中的 Teams 设备使用情况报告来查看组织中用户如何连接到 Teams。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc36ccca5145bdfdd21e5b398954aec79cd12127
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 292632972396f5d4300fa2526f01e69a5555ff45
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533859"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815642"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams 设备使用情况报告
 
-Microsoft 团队管理中心中的 "团队设备使用情况" 报表为你提供有关用户如何连接到团队的信息。 你可以使用报表查看你的组织中使用的设备，包括在旅途中使用的多个团队使用的移动设备。  
+Microsoft Teams 管理中心中的 Teams 设备使用情况报告提供有关用户如何连接到 Teams 的信息。 可以使用报表查看整个组织使用的设备，包括移动时有多少设备从移动设备使用 Teams。  
 
 ## <a name="view-the-device-usage-report"></a>查看设备使用情况报表
 
-1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告**  >  **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队设备使用情况**"。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，单击 **"分析&报告**  >  **使用情况报告**。 在"**查看报表"** 选项卡上的 **"** 报表"下，**选择"Teams 设备使用情况"。**
 2. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。
 
-    ![团队管理员中心中使用标注的团队设备使用情况报告的屏幕截图](../media/teams-reports-device-usage-with-callouts.png "团队管理员中心中使用标注的团队设备使用情况报告的屏幕截图")
+    ![Teams 管理中心中带标注的 Teams 设备使用情况报告的屏幕截图](../media/teams-reports-device-usage-with-callouts.png "Teams 管理中心中带标注的 Teams 设备使用情况报告的屏幕截图")
 
 ## <a name="interpret-the-report"></a>解释报告
 
 |标注 |说明  |
 |--------|-------------|
-|**1**   |可以查看 "团队设备使用情况" 报表，了解过去7天或30天的趋势。  |
-|**2**   |每个报表都具有生成报表的日期。 报告通常反映来自活动时间的24小时延迟。 |
-|**3**   |<ul><li>图表上的 X 轴表示用于连接到团队的不同设备（**Windows**、 **Mac**、 **Linux**、 **iOS**、 **Android 手机**、 **Web**）。 </li><li>Y 轴是在选定时间段内使用设备的用户数。</li> </ul>将鼠标悬停在表示设备的栏上，可查看使用设备连接到团队的用户数。|
-|**4**   |此表提供了用户的设备使用情况的细目。 <ul><li>**用户名**是用户的显示名称。 你可以单击 "显示名称" 以转到 Microsoft 团队管理中心中的用户设置页面。 </li><li>如果用户在基于 Windows 的计算机上的团队桌面客户端中处于活动状态，则选择 " **Windows** "。</li><li>如果用户在 macOS 计算机上的团队桌面客户端中处于活动状态，则会选择**Mac** 。 </li> <li>如果用户在 Linux 计算机上的团队桌面客户端中处于活动状态，则选择**linux** 。 </li> <li>如果用户在 iOS 的团队移动客户端上处于活动状态，则选择**ios** 。</li><li>如果用户在 Android 的团队移动客户端上处于活动状态，则选择 " **Android 手机**"。 <li><li>如果用户在团队 Web 客户端上处于活动状态，则会选中 " **web** "。 <li>"**上次活动**" 是用户参与团队活动的最后日期（UTC）。</li> </ul> 请注意，如果用户帐户在 Azure AD 中不再存在，则用户名在表中显示为 "-"。 <br><br>要查看希望在表格中显示的信息，请确保向表格添加了相关列。 |
+|**1**   |可以查看 Teams 设备使用情况报告，了解过去 7 天或 30 天的趋势。  |
+|**2**   |每个报表都有一个生成报告的日期。 报告通常反映活动时间为 24 小时的延迟。 |
+|**3**   |<ul><li>图表上的 X 轴表示用于连接到 Teams (Windows、Mac、Linux、iOS、Android     **Phone、Web**) 设备。  </li><li>Y 轴表示所选时段内使用设备的用户数。</li> </ul>将鼠标悬停在表示设备的栏上，以查看使用该设备连接到 Teams 的用户数。|
+|**4**   |下表提供了按用户分类的设备使用情况。 <ul><li>**用户名** 是显示名称的用户名。 可以单击显示名称转到 Microsoft Teams 管理中心中的用户设置页面。 </li><li>**如果用户** 在基于 Windows 的电脑上的 Teams 桌面客户端中处于活动状态，则选择 Windows。</li><li>**如果用户在 macOS** 计算机的 Teams 桌面客户端中处于活动状态，则选择 Mac。 </li> <li>**如果用户** 在 Linux 计算机的 Teams 桌面客户端中处于活动状态，则选择 Linux。 </li> <li>**如果用户在适用于 iOS** 的 Teams 移动客户端上处于活动状态，则选择 iOS。</li><li>**如果用户在 Android** 版 Teams 移动客户端上处于活动状态，则选择 Android 手机。 <li><li>**如果用户** 在 Teams Web 客户端上处于活动状态，则选择 Web。 <li>**上次活动** 是用户 (Utc) 的最后一天。</li> </ul> 请注意，如果 Azure AD 中不再存在用户帐户，则用户名在表中显示为"--"。 <br><br>要查看希望在表格中显示的信息，请确保向表格添加了相关列。 |
 |**5**   |选择“**编辑列**”可在表格中添加或删除列。 |
-|**6**   |你可以将报表导出到 CSV 文件，以便脱机分析。 单击 "**导出到 Excel**"，然后在 "**下载**" 选项卡上，单击 "**下载**" 以在准备就绪后下载报告。<br><br>![显示导出报表的 "下载" 选项卡的屏幕截图](../media/teams-reports-export-to-csv.png)|
+|**6**   |可以将报表导出到 CSV 文件进行脱机分析。 单击 **"导出到 Excel"，** 然后在"下载"选项卡上单击"下载"，在报表准备就绪后下载报表。<br><br>![显示导出报表的"下载"选项卡的屏幕截图](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>相关主题
 

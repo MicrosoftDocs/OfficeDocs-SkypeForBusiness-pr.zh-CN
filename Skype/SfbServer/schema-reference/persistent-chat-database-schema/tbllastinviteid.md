@@ -1,8 +1,8 @@
 ---
 title: tblLastInviteId
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 222b3508-5963-4ddc-b4f3-e8412767e61b
-description: tblLastInviteId 包含为每位用户生成（并在 tblPrincipalInvites 表中使用）的最后一个邀请 ID。
-ms.openlocfilehash: 17d1b725da034f79f8efc9ff9071c36430efde7d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblLastInviteId 包含上次为每个用户生成的并且在 tblPrincipalInvites 表中使用的邀请 ID。
+ms.openlocfilehash: 9d5ec67a4f5c3db8558c58834582d489fde00ab6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814570"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815962"
 ---
 # <a name="tbllastinviteid"></a>tblLastInviteId
  
-tblLastInviteId 包含为每位用户生成（并在 tblPrincipalInvites 表中使用）的最后一个邀请 ID。
+tblLastInviteId 包含上次为每个用户生成的并且在 tblPrincipalInvites 表中使用的邀请 ID。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int，not null  <br/> |主体 ID。  <br/> |
-|lastInviteID  <br/> |int，not null  <br/> |上次使用的邀请 ID。  <br/> |
+|prinID  <br/> |int，不为 null  <br/> |主体 ID。  <br/> |
+|lastInviteID  <br/> |int，不为 null  <br/> |上次使用的邀请 ID。  <br/> |
    
-**标示**
+**Keys**
 
 |**列**|**说明**|
 |:-----|:-----|
 |prinID  <br/> |主键。  <br/> |
-|prinID  <br/> |TblPrincipal 表中的 lookup 的外键。  <br/> |
+|prinID  <br/> |其查找包含在 tblPrincipal.prinID 表中的外键。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

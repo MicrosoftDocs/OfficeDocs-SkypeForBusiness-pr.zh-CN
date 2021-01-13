@@ -1,8 +1,8 @@
 ---
 title: 管理网络区域
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,48 +10,48 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 网络区域 * 是呼叫许可控制、E9-1 和媒体旁路的配置中使用的网络中心或 backbones。
-ms.openlocfilehash: c08232e455edb4388a052c2859b35e6c137b890a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 网络区域* 是呼叫允许控制、E9-1-1 和媒体旁路配置中使用的网络中心或中枢。
+ms.openlocfilehash: 14c8004ddd14c0a37c25d700edae845ac9adfe29
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817481"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816412"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络区域
 
-*网络区域*是用于配置呼叫许可控制、E9-1 和媒体旁路的网络中心或 backbones。 使用以下过程查看、创建或修改网络区域。 例如，如果已为一个语音功能创建了网络区域，则不需要创建新的网络区域;其他高级企业语音功能将使用相同的网络区域。 但是，可能需要修改现有的网络区域定义，以应用特定于功能的设置。 例如，如果已为 E9-1-1（它不要求有关联的中央站点）创建网络区域，然后部署呼叫允许控制，则需要修改网络区域定义，以指定中央站点。 
+*网络区域* 是在呼叫允许控制、E9-1-1 和媒体旁路的配置中使用的网络中心或网络中枢。 使用以下过程可查看、创建或修改网络区域。 例如，如果已为一个语音功能创建网络区域，则不需要创建新的网络区域；其他高级企业语音功能也将使用相同的网络区域。 但是，可能需要修改现有的网络区域定义，以应用特定于功能的设置。 例如，如果已为 E9-1-1（它不要求有关联的中央站点）创建网络区域，然后部署呼叫允许控制，则需要修改网络区域定义，以指定中央站点。 
 
-使用本文中的过程查看网络区域信息或创建、修改或删除网络区域。 
+使用本文中的过程可查看网络区域信息，或创建、修改或删除网络区域。 
 
 ## <a name="view-network-region-information"></a>查看网络区域信息 
 
 
-网络区域跨多个地理区域互连网络的各个部分。 每个网络区域必须与一个中心网站相关联。 中心网站是运行呼叫许可控制（CAC）带宽策略服务的数据中心网站。 您可以使用 Skype for Business 服务器控制面板查看网络区域。 网络区域包括用于确定音频和视频连接是否允许通过 Internet 的备用路径的设置。 使用本主题查看现有的网络区域。 
+网络区域将跨多个地理区域的网络的各个部分相互连接起来。 每个网络区域都必须与中央站点关联。 中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。 可以使用 Skype for Business Server 控制面板查看网络区域。 网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。 使用本主题可查看现有网络区域。 
 
-### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>使用 Skype for Business 服务器控制面板查看有关网络区域的信息
+### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板查看有关网络区域的信息
 
-1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 "**网络配置**"，然后单击 "**区域**"。
+3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **"。**
 
-4.  在 "**区域**" 页面上，单击要查看的区域。
+4.  在“区域”页上，单击要查看的区域。
   
     > [!NOTE]  
-    > 一次只能查看一个区域。
+    > 您一次只能查看一个区域。
 
-5.  在“编辑”**** 菜单上，单击“显示详细信息”****。
+5.  在“编辑”菜单上，单击“显示详细信息”。
 
 
-### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 查看网络区域信息
+### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络Windows PowerShell信息
 
-你可以使用 Windows PowerShell 和**CsNetworkRegion** cmdlet 查看网络区域信息。 你可以从 Skype for Business Server Management Shell 或 Windows PowerShell 的远程会话中运行此 cmdlet。 
+您可以使用 Windows PowerShell **和 Get-CsNetworkRegion** cmdlet 查看网络区域信息。 可以从 Skype for Business Server 命令行管理程序 或远程会话运行此 cmdlet Windows PowerShell。 
 
 ### <a name="to-view-network-region-information"></a>查看网络区域信息
 
-  - 若要查看有关所有网络区域的信息，请在 Skype for Business Server 命令行管理器中键入以下命令，然后按 ENTER：
+  - 若要查看有关所有网络区域的信息，请在 Skype for Business Server 命令行管理程序 中键入以下命令，然后按 Enter：
     
         Get-CsNetworkRegion
     
@@ -65,80 +65,80 @@ ms.locfileid: "41817481"
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-有关详细信息，请参阅[CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet 的帮助主题。
 
 
 ## <a name="create-or-modify-network-regions"></a>创建或修改网络区域 
 
-网络区域跨多个地理区域互连网络的各个部分。 每个网络区域必须与一个中心网站相关联。 中心网站是运行呼叫许可控制（CAC）带宽策略服务的数据中心网站。 您可以使用 Skype for Business 服务器控制面板配置网络区域。 网络区域包括用于确定音频和视频连接是否允许通过 Internet 的备用路径的设置。 在 "Skype for Business 服务器" 控制面板中，可以创建、修改或删除网络区域。 使用本主题创建和修改网络区域。 
+网络区域将跨多个地理区域的网络的各个部分相互连接起来。 每个网络区域都必须与中央站点关联。 中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。 可以使用 Skype for Business Server 控制面板配置网络区域。 网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。 在 Skype for Business Server 控制面板中，可以创建、修改或删除网络区域。 使用本主题创建和修改网络区域。 
 
 ### <a name="to-create-a-network-region"></a>创建网络区域
 
-1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 "**网络配置**"，然后单击 "**区域**"。
+3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **"。**
 
-4.  在 "**区域**" 页面上，单击 "**新建**"。
+4.  在"**区域"** 页上，单击"**新建"。**
 
-5.  在 "**新区域**" 页面上，在 "**名称**" 字段中键入值。 此值在 Skype for Business 服务器部署中必须是唯一的。
+5.  在 **"新建区域** "页的"名称 **"字段中键入** 值。 此值在 Skype for Business Server 部署中必须是唯一的。
 
-6.  从 "**中心站点**" 下拉列表中，选择此网络区域的中心网站。
+6.  从 **中央站点** 下拉列表中，选择此网络区域的中央站点。
 
-7.  默认情况下，"**启用音频备用路径**" 复选框处于选中状态。 此字段确定当主路径中不存在足够带宽时是否将通过备用路径路由音频呼叫。 仅当需要关闭将卸载到 Internet 时，请清除此复选框。 如果你的任何呼叫将是 Internet 呼叫，则必须选中此复选框，无论带宽设置如何。
+7.  默认情况下 **选中"启用音频** 备用路径"复选框。 如果主路径中不存在足够的带宽，此字段确定是否将通过备用路径路由音频呼叫。 仅在需要关闭到 Internet 的卸载时清除此复选框。 如果任何呼叫将是 Internet 呼叫，则无论带宽设置如何，都必须选中此复选框。
 
-8.  默认情况下，"**启用视频备用路径**" 复选框处于选中状态。 此字段确定当主路径中不存在足够带宽时，是否会通过备用路径路由视频呼叫。 仅当需要关闭将卸载到 Internet 时，请清除此复选框。 如果你的任何呼叫将是 Internet 呼叫，则必须选中此复选框，无论带宽设置如何。
+8.  默认情况下 **选中"** 启用视频备用路径"复选框。 如果主路径中不存在足够的带宽，此字段确定是否将通过备用路径路由视频呼叫。 仅在需要关闭到 Internet 的卸载时清除此复选框。 如果任何呼叫将是 Internet 呼叫，则无论带宽设置如何，都必须选中此复选框。
 
-9.  可选在 "**说明**" 字段中键入一个值，以提供有关无法单独使用名称表示的此区域的详细信息。
+9.   (可选) 在"说明"字段中键入值，以提供无法单独用名称表示的此区域详细信息。
 
-10. 单击“**提交**”。
+10. 单击“提交”。
 
-**关联的网站**表不用于创建网络区域。 创建或修改网站时，将网站与区域相关联。 有关详细信息，请参阅[管理网站的呼叫许可控制](managing-call-admission-control-for-sites.md)。
+关联 **站点** 表不用于创建网络区域。 创建或修改网站时，可以将网站与区域关联。 有关详细信息，请参阅 [管理网站的呼叫允许控制](managing-call-admission-control-for-sites.md)。
 
 ### <a name="to-modify-a-network-region"></a>修改网络区域
 
-1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 "**网络配置**"，然后单击 "**区域**"。
+3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **"。**
 
-4.  在 "**区域**" 页面上，单击要修改的区域。
+4.  在 **"** 区域"页上，单击要修改的区域。
 
-5.  在“编辑”**** 菜单上，单击“显示详细信息”****。
+5.  在“编辑”菜单上，单击“显示详细信息”。
 
-6.  在 "**编辑区域**" 页面上，您可以修改启用和禁用音频和视频备用路径的设置，并更改说明（有关详细信息，请参阅本主题前面的 "创建网络区域" 一节。
+6.  在"编辑区域"页上，您可以修改用于启用和禁用音频和视频备用路径的设置，并更改说明 (了解详细信息，请参阅本主题前面介绍的"创建网络区域"部分。
 
-7.  单击“**提交**”。
+7.  单击“提交”。
 
-您不能修改此页面上的**相关网站**。 将提供相关网站的列表以供参考，以便你知道在修改区域设置时将受到哪些网站的影响。
+不能修改 **此页上的** 关联网站。 提供关联网站列表供参考，以便了解在修改区域设置时哪些网站将受到影响。
 
 
 ## <a name="delete-existing-network-regions"></a>删除现有网络区域 
 
-网络区域跨多个地理区域互连网络的各个部分。 每个网络区域必须与一个中心网站相关联。 中心网站是运行呼叫许可控制（CAC）带宽策略服务的数据中心网站。 您可以使用 Skype for Business 服务器控制面板配置网络区域。 网络区域包括用于确定音频和视频连接是否允许通过 Internet 的备用路径的设置。 在 "Skype for Business 服务器" 控制面板中，可以创建、修改或删除网络区域。 使用本主题删除现有网络区域。 
+网络区域将跨多个地理区域的网络的各个部分相互连接起来。 每个网络区域都必须与中央站点关联。 中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。 可以使用 Skype for Business Server 控制面板配置网络区域。 网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。 在 Skype for Business Server 控制面板中，可以创建、修改或删除网络区域。 使用此主题可删除现有网络区域。 
 
 ### <a name="to-delete-a-network-region"></a>删除网络区域
 
-1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 "**网络配置**"，然后单击 "**区域**"。
+3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **"。**
 
-4.  在 "**区域**" 页面上，单击要删除的区域。
+4.  在“区域”页上，单击要删除的区域。
   
     > [!NOTE]  
-    > 您可以一次删除多个区域。 若要执行此操作，请在按住 CTRL 键的同时按 CTRL 并选择多个区域。 或者，若要选择所有区域，请单击 "**编辑**" 菜单上的 "**全选**"。
+    > 可一次性删除多个区域。要执行此操作，请按住 Ctrl 键，同时选择多个区域。或者，要选择全部区域，请单击“编辑”菜单中的“全选”。
 
-5.  在 "**编辑**" 菜单上，单击 "**删除**"。
+5.  在“编辑”菜单上，单击“删除”。
 
-6.  单击“**确定**”。
+6.  单击“确定”。
 
 
     > [!WARNING]  
-    > 如果网络区域与网络网站相关联，则无法将其删除。 如果您尝试删除与网站相关联的区域，您将收到一条错误消息。 若要查看某个区域是否与任何网站相关联，请选择该区域，然后单击 "**编辑**" 菜单上的 "**显示详细信息**"。
+    > 如果网络区域与某个网络站点关联，则不能删除该网络区域。 如果您尝试删除与网站关联的区域，您将收到一条错误消息。 要查看区域是否与任何站点关联，请选择相应的区域，然后单击“编辑”菜单中的“显示详细信息”。
 
 
 ## <a name="see-also"></a>另请参阅

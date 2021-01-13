@@ -1,8 +1,8 @@
 ---
 title: QoE 表详细信息
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: 以下部分详细介绍了每个体验质量（QoE）数据库架构表中的列。
-ms.openlocfilehash: a09e39bc0e942b68a0b53d6c8718ab8973d7ba7f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 以下各节详细介绍每个用户体验质量 (QoE) 数据库架构表中的列。
+ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807190"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815752"
 ---
 # <a name="qoe-table-details"></a>QoE 表详细信息
  
-以下部分详细介绍了每个体验质量（QoE）数据库架构表中的列。
+以下各节详细介绍每个用户体验质量 (QoE) 数据库架构表中的列。
   
 - [AppliedBandwidthSource 表](appliedbandwidthsource.md)
     
@@ -40,7 +40,7 @@ ms.locfileid: "41807190"
     
 - [Conference 表](conference.md)
     
-- [Device 表](device.md)
+- [设备表](device.md)
     
 - [DeviceDriver 表](devicedriver.md)
     
@@ -64,15 +64,15 @@ ms.locfileid: "41807190"
     
 - [PayloadDescription 表](payloaddescription.md)
     
-- [Pool 表](pool.md)
+- [池表](pool.md)
     
-- [PurgeSettings table （QoE）](purgesettings-qoe.md)
+- [QoE (PurgeSettings) ](purgesettings-qoe.md)
     
 - [Region 表](region.md)
     
-- [Server 表](server.md)
+- [服务器表](server.md)
     
-- [Session 表](session.md)
+- [会话表](session.md)
     
 - [SessionCorrelation 表](sessioncorrelation.md)
     
@@ -80,11 +80,11 @@ ms.locfileid: "41807190"
     
 - [TraceRoute 表](traceroute.md)
     
-- [User 表](user-0.md)
+- [用户表](user-0.md)
     
 - [UserAgent 表](useragent.md)
     
-- [UserAgentDef table （QoE）](useragentdef-qoe.md)
+- [UserAgentDef 表 (QoE) ](useragentdef-qoe.md)
     
 - [UserSite 表](usersite.md)
     

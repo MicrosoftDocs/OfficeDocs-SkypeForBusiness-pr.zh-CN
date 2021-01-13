@@ -1,8 +1,8 @@
 ---
 title: 添加边缘服务器 NAT IP
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: 公共 IP 地址是网络地址转换 (NAT) 使用的 IP 地址。 IP 地址必须为公共可路由的地址。 由于在此向导的“选择功能”页上选择了“此边缘池的外部 IP 地址由 NAT 转换”选项，因此这一点是必需的。
-ms.openlocfilehash: 12749d3bcaec2478481fc1a4bc5597fb9693c5c4
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 42972caf9254eb4a7382b6f7066d2c781403616f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216543"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815212"
 ---
 # <a name="add-edge-server-nat-ip"></a>添加边缘服务器 NAT IP
 
-公共 IP 地址是网络地址转换 (NAT) 使用的 IP 地址。IP 地址必须为公共可路由的地址。由于在此向导的“选择功能”**** 页上选择了“此边缘池的外部 IP 地址是由 NAT 转换的”**** 选项，因此这一点是必需的。
+公共 IP 地址是网络地址转换 (NAT) 使用的 IP 地址。IP 地址必须为公共可路由的地址。由于在此向导的“选择功能”页上选择了“此边缘池的外部 IP 地址是由 NAT 转换的”选项，因此这一点是必需的。
 
 > [!NOTE]
 > 网络地址转换 (NAT) 允许专用网络（例如 192.168.0.0 范围）上的客户端或服务器通过公共 Internet 网络与远程网络上的系统进行通信。NAT 通过使用外部接口上的单个公共 IP 地址并将内部 IP 地址与一个公共 IP 地址相关联而起作用。NAT 映射可将内部地址映射到外部公共 IP 地址。远程系统只能看到源的公共地址。远程系统响应源，而源将参考 NAT 映射来确定应当将响应返回到哪个内部 IP 地址。

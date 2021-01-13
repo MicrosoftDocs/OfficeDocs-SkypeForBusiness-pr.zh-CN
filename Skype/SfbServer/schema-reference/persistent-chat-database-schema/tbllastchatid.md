@@ -1,8 +1,8 @@
 ---
 title: tblLastChatId
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
-description: tblLastChatId 包含为每位用户生成（并在 tblChat 表中使用）的最后一个聊天 ID。
-ms.openlocfilehash: 95498f077948e1b400d0a370762c121def703e8c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: LastChatId 包含上次为每个用户生成的并且在 tblChat 表中使用的聊天 ID。
+ms.openlocfilehash: 80664d6b296fce9b4909674f9d21b1aa13285826
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814580"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816002"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
-tblLastChatId 包含为每位用户生成（并在 tblChat 表中使用）的最后一个聊天 ID。
+LastChatId 包含上次为每个用户生成的并且在 tblChat 表中使用的聊天 ID。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|a  <br/> |int，not null  <br/> |节点 ID （聊天室-仅类型）。  <br/> |
-|lastChatID  <br/> |bigint，not null  <br/> |上次使用的聊天 ID。  <br/> |
+|nodeID  <br/> |int，不为 null  <br/> |节点 ID（仅限聊天室类型）。  <br/> |
+|lastChatID  <br/> |bigint，不为 null  <br/> |上次使用的聊天 ID。  <br/> |
    
-**标示**
+**Keys**
 
 |**列**|**说明**|
 |:-----|:-----|
-|\<lastChatID\>  <br/> |主关键字（仅一个参数 a 足以处理）。  <br/> |
-|a  <br/> |带有 tblNode 表中的 lookup 的外键。  <br/> |
+|\<nodeID, lastChatID\>  <br/> |主键（只有 nodeID 足以进行处理）。  <br/> |
+|nodeID  <br/> |其查找包含在 tblNode.nodeID 表中的外键。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

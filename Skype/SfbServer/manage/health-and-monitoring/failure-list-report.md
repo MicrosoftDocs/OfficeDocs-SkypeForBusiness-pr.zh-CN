@@ -1,8 +1,8 @@
 ---
-title: Skype for Business 服务器中的故障列表报告
+title: Skype for Business Server 中的故障列表报告
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 摘要：了解 Skype for Business 服务器中的 "故障列表" 报表。
-ms.openlocfilehash: 8d0ca503f1a7883ab9ec1dd4ded8556b2ee3ab0f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解 Skype for Business Server 中的故障列表报告。
+ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817942"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816842"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Skype for Business 服务器中的故障列表报告 
+# <a name="failure-list-report-in-skype-for-business-server"></a>Skype for Business Server 中的故障列表报告 
  
-**摘要：** 了解 Skype for Business 服务器中的 "故障列表" 报表。
+**摘要：** 了解 Skype for Business Server 中的故障列表报告。
   
-故障列表报告提供有关参加失败的对等会话或会议会话的各个参与者的信息。此信息包括遇到问题的用户的 URI，以及与故障相关联的 SIP 响应代码和诊断 ID。
+故障列表报告提供有关参与失败的对等会话或会议会话的单个参与者的信息。 此信息包括遇到问题的用户的 URI，以及与故障关联的 SIP 响应代码和诊断 ID。
   
 ## <a name="accessing-the-failure-list-report"></a>访问故障列表报告
 
-通过[在 Skype For Business Server 的 "失败分配" 报告中](failure-distribution-report.md)单击以下任一指标可访问 "故障列表" 报告：
+通过单击 Skype for Business Server 中的故障分布报告上的以下任一指标可以访问故障 [列表报告](failure-distribution-report.md)：
   
 - 主要诊断原因（会话）
     
@@ -45,22 +45,22 @@ ms.locfileid: "41817942"
     
 - 主要来源用户代理（会话）
     
-从 "故障列表" 报告，你可以通过单击对等会话的会话详细信息指标，[在 Skype For Business 服务器中访问对等会话详细信息报告](peer-to-peer-session-detail-report.md)。 也可以单击会议的”会议“指标，以访问会议详细信息报告。
+从故障列表报告中，可以通过单击对等会话的会话详细信息指标来访问 [Skype for Business Server](peer-to-peer-session-detail-report.md) 中的对等会话详细信息报告。 您还可以通过单击会议的"会议"指标来访问会议详细信息报告。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>充分利用故障列表报告
 
-在故障列表报告中，您只需将鼠标置于每个响应代码或每个诊断 ID 上，即可查看它们的说明。例如，如果您将鼠标置于诊断 ID 7025 上，则将会看到在工具提示中显示以下内容：
+在故障列表报告中，只需将鼠标悬停在该值上即可查看每个响应代码或每个诊断 ID 的说明。 例如，如果你将鼠标悬停在诊断 ID 7025 上，你将在工具提示中看到以下内容：
   
-为用户创建媒体时发生内部服务器错误。
+为用户创建媒体时出现内部服务器错误。
   
-务必注意，故障列表报告并未提供一种简单直观的方式来直接检索至少参加一次失败会话的所有用户列表，也未提供一种用来确定失败会话中最常涉及哪些用户的方法。 （对于一种情况，"失败列表" 报表没有筛选功能。）但是，如果你导出数据，然后将其转换为逗号分隔值文件，则可以使用 Windows PowerShell 查找类似问题的答案。 例如，假设将数据保存到名为 C:\Data\Failure_List.csv 的 .CSV 文件。 根据该文件中所保存的数据，以下命令会列出至少一次失败会话中所涉及的所有用户： 
+值得注意的是，故障列表报告不提供直接检索至少参与一个失败会话的所有用户列表的直观方法，也不提供用于确定失败会话通常涉及哪些用户的方法。  (首先，故障列表报告没有筛选功能。) 但是，如果您导出数据，然后将数据转换为逗号分隔值文件，您可以使用 Windows PowerShell 查找类似这些问题的解答。 例如，假设将数据保存到一个 。名为 C:\Data\Failure_List.csv 的 CSV 文件。 根据该文件中保存的数据，此命令将列出参与至少一个失败会话的所有用户： 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
 
-该命令将返回与以下类似的列表：
+该命令将返回类似于以下的列表：
   
 <pre>
     From user
@@ -72,14 +72,14 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
     Ken.Myer@litwareinc.com
 </pre>
 
-以下两个命令将返回涉及每个用户的失败会话总数：
+以下两个命令将报告每个用户参与的失败会话总数：
   
 ```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
 $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 ```
 
-这将返回与以下类似的数据：
+这将返回与以下内容类似的数据：
   
 <pre>
 Count    Name
@@ -93,23 +93,23 @@ Count    Name
 
 ## <a name="filters"></a>筛选器
 
-无。您无法筛选故障列表报告。
+无。 无法筛选故障列表报告。
   
 ## <a name="metrics"></a>指标
 
-下表列出了各失败呼叫的故障列表报告中提供的信息。
+下表列出了每个失败呼叫的故障列表报告中提供的信息。
   
 **故障列表报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
+|**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**报告时间** <br/> |否  <br/> |记录报告的日期和时间。  <br/> |
-|**请求** <br/> |否  <br/> |失败的 SIP 请求类型。例如 INVITE 或 BYE。  <br/> |
+|**报告的时间** <br/> |否  <br/> |记录报告的日期和时间。  <br/> |
+|**请求** <br/> |否  <br/> |失败的 SIP 请求类型。 例如 INVITE 或 BYE。  <br/> |
 |**响应代码** <br/> |否  <br/> |会议失败时发送的 SIP 响应代码。  <br/> |
 |**诊断 ID** <br/> |否  <br/> |附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。  <br/> |
-|**加入成本时间（毫秒）** <br/> |否  <br/> |用户加入会议所需的时间量（以毫秒为单位）。  <br/> |
+|**加入成本时间 (毫秒)** <br/> |否  <br/> |用户 (会议) 所需时间（以毫秒为单位）。  <br/> |
 |**来源用户** <br/> |否  <br/> |发起呼叫的用户的 SIP 地址。  <br/> |
-|**源用户代理** <br/> |否  <br/> |呼叫发起用户的终结点使用的软件。  <br/> |
-|**目标用户** <br/> |否  <br/> |被呼叫用户的 SIP 地址。  <br/> |
+|**源用户代理** <br/> |否  <br/> |发起呼叫的用户的终结点使用的软件。  <br/> |
+|**目标用户** <br/> |否  <br/> |被叫用户的 SIP 地址。  <br/> |
    
 

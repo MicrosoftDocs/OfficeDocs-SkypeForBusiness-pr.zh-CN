@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalInvites
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: tblPrincipalInvites 包含所有已预配用户的带有自动邀请的所有节点的邀请。
-ms.openlocfilehash: dfa41ec5715c7c5255b26fcdb32561e74c4f08df
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalInvites 包含打开自动邀请的所有节点的所有已设置用户的邀请。
+ms.openlocfilehash: 5bbccd582442001bd2122dcbacdbe3634fcfd649
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814180"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815852"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
-tblPrincipalInvites 包含所有已预配用户的带有自动邀请的所有节点的邀请。
+tblPrincipalInvites 包含打开自动邀请的所有节点的所有已设置用户的邀请。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int，not null  <br/> |主体 ID。  <br/> |
-|invID  <br/> |int，not null  <br/> |从 tblLastInviteId 表生成的唯一序列号（每个主体 ID）。  <br/> |
-|a  <br/> |int，not null  <br/> |节点 ID （仅聊天室）。  <br/> |
-|createdOn  <br/> |datetime，not null  <br/> |创建时间。  <br/> |
+|prinID  <br/> |int，不为 null  <br/> |主体 ID。  <br/> |
+|invID  <br/> |int，不为 null  <br/> |从 tblLastInviteId 表中生成的唯一连续数字（每个主体 ID）。  <br/> |
+|nodeID  <br/> |int，不为 null  <br/> |节点 ID（仅聊天室）。  <br/> |
+|createdOn  <br/> |datetime，不为 null  <br/> |创建的时间。  <br/> |
    
-**标示**
+**Keys**
 
 |**列**|**说明**|
 |:-----|:-----|
-|\<prinID、\>  <br/> |主键。  <br/> |
-|prinID  <br/> |TblPrincipal 表中的 lookup 的外键。  <br/> |
-|a  <br/> |带有 tblNode 表中的 lookup 的外键。  <br/> |
+|\<prinID, nodeID\>  <br/> |主键。  <br/> |
+|prinID  <br/> |其查找包含在 tblPrincipal.prinID 表中的外键。  <br/> |
+|nodeID  <br/> |其查找包含在 tblNode.nodeID 表中的外键。  <br/> |
    
 

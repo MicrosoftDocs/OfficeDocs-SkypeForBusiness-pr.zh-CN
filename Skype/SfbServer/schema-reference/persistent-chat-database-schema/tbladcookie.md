@@ -1,8 +1,8 @@
 ---
 title: tblADCookie
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
-description: tblADCookie 包含当前的轻型目录访问协议（LDAP）同步 cookie。
-ms.openlocfilehash: c9a4c666a5fe4a76ecb3685f60f1208ec3ea88ed
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblADCookie 包含当前轻型目录访问协议 (LDAP) 同步 Cookie。
+ms.openlocfilehash: 78a477399da811e674bb5a4493e61100acdd4782
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814700"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814752"
 ---
 # <a name="tbladcookie"></a>tblADCookie
  
-tblADCookie 包含当前的轻型目录访问协议（LDAP）同步 cookie。
+tblADCookie 包含当前轻型目录访问协议 (LDAP) 同步 Cookie。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|prinGuid  <br/> |GUID，not null  <br/> |正在监视的域的主体 GUID。  <br/> |
-|prinDCHost  <br/> |nvarchar （255）  <br/> |用于 Active Directory 域服务同步的当前域控制器的完全限定的域名（FQDN）。有信息值。  <br/> |
-|adcContent  <br/> |图像（二进制）  <br/> |Active Directory 同步 cookie。  <br/> |
-|lastUpdated  <br/> |datetime  <br/> |带有行更新时间的时间戳。  <br/> |
-|lockedUntil  <br/> |datetime  <br/> |对行进行更改锁定的时间。 这是一种软件互操作机制的一部分，可确保每次只有一个聊天服务执行 Active Directory 同步。  <br/> |
+|prinGuid  <br/> |GUID，不为 null  <br/> |要监控的域的主体 GUID。  <br/> |
+|prinDCHost  <br/> |nvarchar (255)  <br/> |用于 Active Directory 域 () 当前域控制器的 FQDN 的完全限定域名。具有信息性值。  <br/> |
+|adcContent  <br/> |image (binary)  <br/> |Active Directory 同步 Cookie。  <br/> |
+|lastUpdated  <br/> |datetime  <br/> |具有行更新时间的时间戳。  <br/> |
+|lockedUntil  <br/> |datetime  <br/> |为更改锁定行的截止时间。此时间是软件联锁机制的一部分，可确保一次仅使其中一个聊天服务执行 Active Directory 同步。  <br/> |
    
-**标示**
+**Keys**
 
-|**列**|**说明**|
+|**列 ()**|**说明**|
 |:-----|:-----|
 |prinGuid  <br/> |主键。  <br/> |
-|prinGuid  <br/> |PrinGuid 表中的 lookup 的外键。  <br/> |
+|prinGuid  <br/> |其查找包含在 Principal.prinGuid 表中的外键。  <br/> |
    
 

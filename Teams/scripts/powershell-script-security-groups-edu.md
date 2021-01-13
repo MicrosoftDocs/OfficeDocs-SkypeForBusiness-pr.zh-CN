@@ -1,13 +1,13 @@
 ---
-title: PowerShell 脚本示例-创建适用于你所在学校的教育版和学生的安全组
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本创建用于管理你的学校中的教师和学生的团队策略所需的安全组。
+description: 使用此 PowerShell 脚本创建为学校教师和学生管理 Teams 策略所需的安全组。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,35 +17,35 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b468ae05139571f395962b96f2963c7bb77b2e6
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 4eb7e482552b5013b6b220c4244ee4ecf114780c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534063"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809462"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 脚本示例-创建适用于你所在学校的教育版和学生的安全组
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
 
-使用此 PowerShell 脚本创建管理你的学校中的 Microsoft 团队策略所需的安全组。 团队中的 "[策略分配到组](../assign-policies.md#assign-a-policy-to-a-group)" 功能允许你向一组用户（如安全组）分配策略。 根据优先级规则，策略分配将传播到组的成员。 将成员添加到组或从组中删除成员后，将相应地更新其继承的策略分配。
+使用此 PowerShell 脚本创建在学校中管理 Microsoft Teams 策略所需的安全组。 Teams [中的组策略](../assign-policies.md#assign-a-policy-to-a-group) 分配功能允许你向一组用户（例如安全组）分配策略。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
 
-此 PowerShell 脚本创建两个安全组，一个用于教职员工和教育版，另一个用于你所在学校的学生，基于许可证类型。 然后，你可以将策略分配给你创建的安全组。 有关使用此脚本的详细信息，请参阅为[你的学校中的大型用户分配策略](../batch-group-policy-assignment-edu.md)。
+此 PowerShell 脚本基于许可证类型创建两个安全组，一个组用于教职员工和教师，另一个组用于学校中的学生。 然后，可以将策略分配到创建的安全组。 有关使用此脚本的信息，请参阅"将策略分配给学校[中的大量用户"。](../batch-group-policy-assignment-edu.md)
 
-此脚本将执行下列操作：
+此脚本执行以下操作：
 
-- 标识分配教职员 SKU、创建安全组，然后将员工和教育人数添加到组的人员和教师。
+- 标识分配有教职员工 SKU 的员工和教师，创建安全组，然后将教职员工和教师添加到该组。
 - 标识分配有学生 SKU 的学生，创建安全组，然后将学生添加到该组。
-- 根据用户是否有许可证，更新每个安全组的成员身份，以添加或删除人员、教师和学生。
+- 更新每个安全组的成员身份，以根据员工、教师和学生是否拥有许可证来添加或删除他们。
 
-您需要定期运行此脚本以使安全组保持最新和最新状态。
+需要定期运行此脚本，使安全组保持最新状态。
 
 > [!IMPORTANT]
-> 在向组分配策略时，了解[优先级规则](../assign-policies.md#precedence-rules)和[组分配级别](../assign-policies.md#group-assignment-ranking)非常重要。 请确保阅读并理解[有关对组的策略分配所需了解](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)的概念。
+> 将策略[分配到组时](../assign-policies.md#precedence-rules)，必须了解优先级[](../assign-policies.md#group-assignment-ranking)规则和组分配排名。 请确保阅读并了解有关组的策略分配的信息 [中的概念](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
 ## <a name="before-you-start"></a>开始前
 
-下载并安装[Skype For Business Online PowerShell 模块](https://www.microsoft.com/download/details.aspx?id=39366)，如果出现提示，请重新启动计算机。
+下载并安装 [Skype for Business Online PowerShell 模块](https://www.microsoft.com/download/details.aspx?id=39366)，然后在系统提示时重启计算机。
 
-若要了解详细信息，请参阅管理 Office 365 PowerShell 和[团队 PowerShell 概述](../teams-powershell-overview.md)中[的 Skype for business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 。
+若要了解更多内容，请参阅 ["使用 Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 和 Teams PowerShell 管理 Skype for Business [Online"概述](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>示例脚本
@@ -275,4 +275,4 @@ Stop-Transcript
 
 ## <a name="related-topics"></a>相关主题
 
-[向团队中的用户分配策略](../assign-policies.md)
+[在 Teams 中向用户分配策略](../assign-policies.md)

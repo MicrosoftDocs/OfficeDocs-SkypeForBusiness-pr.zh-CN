@@ -1,8 +1,8 @@
 ---
 title: 配置和监控备份服务
 ms.reviewer: ''
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,20 +10,20 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 你可以使用 Skype for Business Server Management Shell 命令来配置和监视备份服务。
-ms.openlocfilehash: 80b15b2306807fe5bfc36449e16953466e3af75c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 可以使用 Skype for Business Server 命令行管理程序命令配置和监视备份服务。
+ms.openlocfilehash: d38c9d0b0261fb7e1da89b3422496d94307a791d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818213"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817192"
 ---
-# <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置和监视备份服务
+# <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>在 Skype for Business Server 中配置和监视备份服务
 
-你可以使用以下 Skype for Business 服务器管理外壳命令来配置和监视备份服务。 若要还原存储在前端池的文件存储中的会议信息，请参阅下面[的使用备份服务还原会议内容](#restore-conference-contents-using-the-backup-service)。
+可以使用以下 Skype for Business Server 命令行管理程序命令配置和监视备份服务。 若要还原存储在前端池的文件存储中的会议信息，请参阅下面的"使用备份服务[](#restore-conference-contents-using-the-backup-service)还原会议内容"。
 
 > [!NOTE]  
-> RTCUniversalServerAdmins 组是唯一具有运行**CsBackupServiceStatus**默认权限的组。 若要使用此 cmdlet，请以该组的成员身份登录。 或者，你可以使用**CsBackupServiceConfiguration** cmdlet 将对此命令的访问权限授予其他组（例如 CSAdministrator）。
+> 默认情况下，RTCUniversalServerAdmins 组是唯一具有运行 **Get-CsBackupServiceStatus** 的权限的组。 要使用此 cmdlet，请以该组的成员身份登录。 或者，可通过使用 **Set-CsBackupServiceConfiguration** cmdlet 向其他组（如 CSAdministrator）授予对此命令的访问权。
 
 ## <a name="to-see-the-backup-service-configuration"></a>查看备份服务配置
 
@@ -31,7 +31,7 @@ ms.locfileid: "41818213"
 
     Get-CsBackupServiceConfiguration
 
-SyncInterval 的默认值是2分钟。
+SyncInterval 的默认值为 2 分钟。
 
 ## <a name="to-set-the-backup-service-sync-interval"></a>设置备份服务同步间隔
 
@@ -39,22 +39,22 @@ SyncInterval 的默认值是2分钟。
 
     Set-CsBackupServiceConfiguration -SyncInterval interval
 
-例如，下面的时间间隔设置为3分钟。
+例如，下面将此间隔设置为 3 分钟。
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
 
 > [!IMPORTANT]  
-> 虽然你可以使用此 cmdlet 更改备份服务的默认同步间隔，但除非绝对必要，否则不应执行此操作，因为同步间隔对备份服务性能和恢复点目标（RPO）有很高的影响。
+> 尽管可使用此 cmdlet 更改备份服务的默认同步间隔，但除非绝对有必要，否则您不应这样做，因为同步间隔对备份服务的性能和恢复点目标 (RPO) 有很大的影响。
 
-## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>获取特定池的备份服务状态
+## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>获取特殊池的备份服务状态
 
 运行以下 cmdlet：
 
     Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
 
 > [!NOTE]  
-> 备份服务同步状态是从池（P1） unidirectionally 到其备份池（P2）定义的。 从 P1 到 P2 的同步状态可能与从 P2 到 P1 的同步状态不同。 对于 P2 到 P2，如果在 P1 中进行的所有更改都在同步间隔内完全复制到 P2，则备份服务处于 "稳定" 状态。 如果没有其他更改要从 P1 同步到 P2，它将处于 "最终状态" 状态。 这两种状态表示执行 cmdlet 时备份服务的快照。 这并不意味着返回的状态将保持为后的状态。 特别是，仅当在执行 cmdlet 后 P1 不会生成任何更改时，"最终" 状态才会继续保持。 在将 p1 置于只读模式（作为**CsPoolfailover**执行逻辑的一部分）之后，p1 被置于只读模式下时，此情况为 true。
+> 备份服务的同步状态是从一个池 (P1) 到其备份池 (P2) 进行单向定义的。 从 P1 到 P2 的同步状态与从 P2 到 P1 的同步状态不同。 对于 P1 到 P2，如果在同步间隔内将 P1 中所做的所有更改完全复制到 P2，则备份服务将处于“稳定”状态。 如果不再将更改从 P1 同步到 P2，则备份服务处于“最终”状态。 这两个状态均指示执行 cmdlet 时备份服务的快照。 它不表示返回的状态之后将继续保持下去。 特别是，仅在执行 cmdlet 后 P1 未生成任何更改的情况下，才一直保持“最终”状态。 当作为 **Invoke-CsPoolfailover** 执行逻辑的一部分将 P1 置于只读模式后，P1 到 P2 的同步失败时才会出现此种情况。
 
 ## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>获取有关特定池的备份关系的信息
 
@@ -70,16 +70,16 @@ SyncInterval 的默认值是2分钟。
 
 ## <a name="restore-conference-contents-using-the-backup-service"></a>使用备份服务还原会议内容 
 
-如果在前端池的文件存储中存储的会议信息不可用，则必须还原此信息，以便驻留在该池中的用户保留其会议数据。 如果已丢失会议数据的前端池与另一个前端池配对，则可以使用备份服务还原数据。
+如果存储在前端池的文件存储中的会议信息变得不可用，则必须还原此信息，以便池中的用户保留其会议数据。 如果丢失会议数据的前端池与另一个前端池配对，您可以使用备份服务还原数据。
 
-如果整个池出现故障，并且你必须将其用户故障转移到备份池，还必须执行此任务。 当这些用户故障恢复到其原始池时，必须使用此过程将其会议内容复制回其原始池。
+此外，如果整个池已失败并且您必须将其用户故障转移到备份池，则也必须执行此任务。在将这些用户故障转移回其原始池时，您也必须使用此过程将其会议内容复制回其原始池。
 
-假设 Pool1 与 Pool2 配对，并且 Pool1 中的会议数据丢失。 你可以使用以下 cmdlet 调用备份服务来还原内容：
+假定将 Pool1 与 Pool2 配对且 Pool1 中的会议数据已丢失。 可以使用以下 cmdlet 调用备份服务来还原内容：
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-还原会议内容可能需要一些时间，具体取决于它们的大小。 你可以使用以下 cmdlet 检查进程状态：
+还原会议内容可能需要一些时间，具体取决于该内容的大小。您可以使用以下 cmdlet 检查过程状态：
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-当此 cmdlet 为数据会议模块返回稳定状态的值时，将执行此过程。
+当此 cmdlet 为数据会议模块返回值“稳定状态”时，表示此过程已完成。

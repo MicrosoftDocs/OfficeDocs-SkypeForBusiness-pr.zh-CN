@@ -1,8 +1,8 @@
 ---
 title: tblEnumValue
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,42 +12,42 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-description: tblEnumValue 是一个硬编码表，其中包含在节点表中使用的属性的可见性和行为值。
-ms.openlocfilehash: accb9cb4801984bd4b3839cd44e5b7feb8d06baa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblEnumValue 表是一个硬编码表，包含节点表使用的属性的“可见性”值和“行为”值。
+ms.openlocfilehash: a13bfbe79d1eb118f0727f390816a26d35a508d0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814600"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816022"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
-tblEnumValue 是一个硬编码表，其中包含在节点表中使用的属性的可见性和行为值。
+tblEnumValue 表是一个硬编码表，包含节点表使用的属性的“可见性”值和“行为”值。
   
-**多**
+**Columns**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|valueID  <br/> |smallint，not null  <br/> |值的 ID。  <br/> |
-|attributeID  <br/> |smallint，not null  <br/> |属性的 ID。  <br/> |
-|attributeValue  <br/> |nvarchar （256），not null  <br/> |值的名称。  <br/> |
+|valueID  <br/> |smallint，不为 null  <br/> |值的 ID。  <br/> |
+|attributeID  <br/> |smallint，不为 null  <br/> |属性的 ID。  <br/> |
+|attributeValue  <br/> |nvarchar  (256)，不为 null  <br/> |值名称。  <br/> |
    
-**标示**
+**Keys**
 
 |**列**|**说明**|
 |:-----|:-----|
 |valueID  <br/> |主键。  <br/> |
-|attributeID  <br/> |TblEnumAttribute 表中的 lookup 的外键。  <br/> |
+|attributeID  <br/> |其查找包含在 tblEnumAttribute.attributeID 表中的外键。  <br/> |
    
 **表值**
 
 |**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
-|ppls-2  <br/> |1  <br/> |专用  <br/> |
-|3  <br/> |1  <br/> |范畴  <br/> |
-|4  <br/> |ppls-2  <br/> |垂直  <br/> |
-|5  <br/> |ppls-2  <br/> |auditorium  <br/> |
-|6  <br/> |1  <br/> |公开  <br/> |
+|2   <br/> |1   <br/> |private  <br/> |
+|3   <br/> |1   <br/> |范围  <br/> |
+|4   <br/> |2   <br/> |normal  <br/> |
+|5   <br/> |2   <br/> |大会堂  <br/> |
+|6   <br/> |1   <br/> |open  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

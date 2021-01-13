@@ -1,8 +1,8 @@
 ---
 title: 部署 Skype for Business Server 的统计信息管理器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,164 +13,164 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：阅读本主题，了解如何为 Skype for Business Server 部署统计信息管理器。
-ms.openlocfilehash: 008e9d56dd4c795f7e524ac927402d99261f3e75
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 79e07c29a5df4a5da239687708a9bb52e995d191
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888421"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814812"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署 Skype for Business Server 的统计信息管理器
  
 **摘要：** 阅读本主题，了解如何为 Skype for Business Server 部署统计信息管理器。
   
- Skype for Business Server 统计信息管理器是一个功能强大的工具，可让你实时查看 Skype for Business Server 运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并且在统计信息管理器网站上立即查看结果。
+ Skype for Business Server 统计信息管理器是一个强大的工具，允许你实时查看 Skype for Business Server 运行状况和性能数据。 您可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。
   
-在尝试安装统计信息管理器之前，请确保你已了解软件、网络和硬件要求。 有关详细信息，请参阅 [Skype for Business Server 统计信息管理器规划](plan.md)。
-  
-> [!NOTE]
-> 如果你要从以前版本的统计信息管理器升级，请参阅 [Skype for Business Server 统计信息管理器升级](upgrade.md)。 
+在尝试安装统计信息管理器之前，请确保你熟悉软件、网络和硬件要求。 有关详细信息，请参阅[Plan for Statistics Manager for Skype for Business Server。](plan.md)
   
 > [!NOTE]
-> 统计信息管理器网站已经过测试，可以在 Internet Explorer 11+、Microsoft Edge 20.10240+ 和 Chrome 46+（当前 Evergreen 版本）上正常运行。 
+> 如果要从早期版本的统计信息管理器升级，请参阅 Upgrade Statistics [Manager for Skype for Business Server。](upgrade.md) 
   
-可以在 [ https://aka.ms/StatsManDownload ](https://aka.ms/StatsManDownload) 上找到可下载的统计信息管理器。 
+> [!NOTE]
+> 统计信息管理器网站已经过测试，在 Internet Explorer 11+、Edge 20.10240+ 和 Chrome 46+ (当前常青版本) 。 
   
-本主题包括以下部分：
+您可以在以下网站找到统计信息管理器：可下载 [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) 。 
+  
+本主题包含以下各部分：
   
 - [部署统计信息管理器](deploy.md#BKMK_Deploy)
     
-- [对你的部署进行故障排除](deploy.md#BKMK_Troubleshoot)
+- [部署疑难解答](deploy.md#BKMK_Troubleshoot)
     
 - [创建自签名证书](deploy.md#BKMK_SelfCert)
     
 ## <a name="deploy-statistics-manager"></a>部署统计信息管理器
 <a name="BKMK_Deploy"> </a>
 
-要部署统计信息管理器，请按照以下步骤操作：
+若要部署统计信息管理器，请按照以下步骤操作：
   
-1. 通过安装 Redis 内存中缓存系统，并确保你已安装合适的证书，准备侦听器主机。
+1. 通过安装 Redis 内存中缓存系统以及确保已安装相应的证书来准备侦听器主机。
     
 2. 在主机上安装侦听器服务。 
     
 3. 在主机上安装网站。
     
-4. 在你希望监视的每台 Skype for Business Server 机器上安装代理。
+4. 在你希望监视的每个 Skype for Business Server 计算机上安装代理。
     
-5. 为你监视的服务器导入拓扑。
+5. 导入要监控的服务器的拓扑。
     
 > [!NOTE]
-> Redis、侦听器服务和网站必须安装在同一台主机上。 请确保主机没有安装 Skype for Business Server。 
+> Redis、侦听器服务和网站必须全部安装在同一台主机上。 请确保主机未安装 Skype for Business Server。 
   
-### <a name="prepare-the-listener-host-machine"></a>准备侦听器主机。
+### <a name="prepare-the-listener-host-machine"></a>准备侦听器主机
 
-要准备主机，你将需要安装 Redis 内存中缓存系统，并确保该计算机上存在有效证书。 Microsoft 建议安装稳定的最新 Redis 3.0 内部版本。 使用 Redis 3.2.100 测试了统计信息管理器 2.0 版。 
+若要准备主机，您需要安装 Redis 内存中缓存系统，并确保计算机上有有效的证书。 Microsoft 建议你安装 Redis 3.0 的最新稳定内部版本。 统计信息管理器版本 2.0 已使用 Redis 3.2.100 进行了测试。 
   
-1. 从以下站点下载 Redis: [ https://github.com/MSOpenTech/redis ](https://github.com/MSOpenTech/redis)。 
+1. 从以下网站下载 Redis： [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) 
     
-    可以从 [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases) 下载未签名安装程序
+    可以从中下载未签名的安装程序 [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    如果需要，可以通过热门的包管理器 [Nuget](https://www.nuget.org/packages/Redis-64/) 和 [Chocolatey](https://chocolatey.org/packages/redis-64) 获得签名的二进制文件。
+    如果需要，通过热门程序包管理器提供已签名的二进制文件[：Nuget](https://www.nuget.org/packages/Redis-64/)和[Choclatey。](https://chocolatey.org/packages/redis-64)
     
-   - 运行提供的 msi 并按照提示操作。
+   - 运行提供的 msi 并按照提示执行。
     
-   - 请勿选中用于添加防火墙规则的复选框。
+   - 不要选中添加防火墙规则的框。
     
-2. 侦听器服务要求有证书。 Microsoft 强烈建议你使用受信任的证书颁发机构签发的证书。 
+2. 侦听器服务需要证书。 Microsoft 强烈建议你拥有由受信任的证书颁发机构签名的证书。 
     
-    如果你要使用自签名证书（例如，用于在实验室中进行测试），请参阅[创建自签名证书](deploy.md#BKMK_SelfCert)。
+    如果要使用自签名证书，例如在实验室中进行测试，请参阅"[创建自签名证书"。](deploy.md#BKMK_SelfCert)
     
-    请注意，代理使用证书指纹验证（而不是链验证）。由于可能使用自签名证书，因此它不会执行完整证书验证。
+    请注意，代理使用证书指纹验证 (而不是链验证) 。 它将不会执行完整证书验证，因为可以使用自签名证书。
     
 ### <a name="install-the-listener-service"></a>安装侦听器服务
 
-通过运行 StatsManPerfAgentListener.msi 并指定以下内容，在主机上安装侦听器服务：
+通过运行安装程序并指定以下内容，在StatsManPerfAgentListener.msi安装侦听器服务：
   
-1. 阅读许可协议，如果同意条款，请选择“**我接受许可协议中的条款**”，然后单击“**下一步**”。 
+1. 查看许可协议，如果同意，请选择 **"我接受** 许可协议中的条款"，然后单击"下一 **步"。** 
     
-2. 在下一页上，指定以下信息：
+2. 下一页上，指定以下信息：
     
-   - **服务密码：** 这是远程代理将用于向侦听服务进行身份验证的密码。
+   - **服务密码：** 这是远程代理用于向侦听器服务进行身份验证的密码。
     
-   - **服务端口：** 这是侦听器将用于与代理通信的 HTTPS 端口号。 在安装过程中，将允许通过此端口穿过本地防火墙，创建 URL ACL，以及将 SSL 证书绑定到此端口。 默认值为 8443。
+   - **服务端口：** 这是侦听器用于与代理通信的 HTTPS 端口号。 在安装过程中，将允许通过本地防火墙访问此端口，将创建 URL ACL，并且 SSL 证书将绑定到此端口。 默认值为 8443。
     
-   - **证书指纹：** 这是侦听器将用于加密 HTTPS 协议的证书指纹。 网络服务必须具有私钥的读取权限。
+   - **证书指纹：** 这是侦听器用于加密 HTTPS 协议的证书指纹。 网络服务必须具有私钥的读取权限。
     
-     单击“**选择...**”按钮选择指纹。
+     单击 **"选择..."** 按钮以选择指纹。
     
-     可以通过使用证书管理器或通过使用以下 PowerShell 命令来查找证书指纹：
+     可以使用证书管理器或以下 PowerShell 命令查找证书指纹：
     
        ```PowerShell
        Get-ChildItem -path cert:\LocalMachine\My
        ```
 
-   - **安装目录：** 这是将安装二进制文件的目录。 你可以使用**浏览...** 按钮将其默认值更改为其他目录。
+   - **安装目录：** 这是将安装二进制文件的目录。 可以使用"浏览..."按钮从默认值 **更改** 它。
     
-   - **AppData 目录：** 这是将存储日志文件夹和其他数据的目录。  你可以将其默认值更改为其他目录。 卸载时不会删除该目录。
+   - **AppData 目录：** 这是将存储 Logs 文件夹和其他数据的目录。 你可以从默认值更改它。 卸载时不会将其删除。
     
 3. 单击“**安装**”。
     
-要验证安装，请执行以下步骤：
+若要验证安装，请执行以下步骤：
   
-1. 打开浏览器，导航到 https://localhost:\<service-port\>/healthcheck/。
+1. 打开浏览器并导航到 https://localhost: \<service-port\> /healthcheck/
     
-    默认情况下，服务端口为 8443（除非你指定了其他端口）。
+    默认情况下，服务端口为 8443 (，除非您指定了其他端口) 。
     
-2. 为了确保正确安装了侦听器，请查看以下内容：
+2. 若要确保侦听器安装正确，请查找以下内容：
     
-   - 如果运行状况检查页面显示，则表示已成功安装侦听器。
+   - 如果显示运行状况检查页，则侦听器安装成功。
     
-   - 如果 KnownServerCount 为1或更高，则建立与 Redis 的连接。
+   - 如果 KnownServerCount 为 1 或更高，则建立与 Redis 的连接。
     
-   - 等待几分钟，且至少安装了一个代理后，检查 ValuesWritten 计数器是否在递增。
+   - 等待几分钟，并安装至少一个代理后，请检查 ValuesWritten 计数器是否正在递增。
     
 ### <a name="install-the-website"></a>安装网站
 
-通过运行 StatsManWebSite.msi（随附在 [Skype for Business Server，实时统计信息管理器 (64-bit)](https://www.microsoft.com/en-in/download/details.aspx?id=57518) 中）并指定以下内容，在主机上安装网站：
+通过运行 Skype for Business Server StatsManWebSite.msi (、Real-Time 统计信息管理器 [ (64 ](https://www.microsoft.com/en-in/download/details.aspx?id=57518) 位) ) 并指定以下内容，在主机上安装网站：
   
-1. 阅读许可协议，如果同意条款，请选择“**我接受许可协议中的条款**”，然后单击“**下一步**”。 
+1. 查看许可协议，如果同意，请选择 **"我接受** 许可协议中的条款"，然后单击"下一 **步"。** 
     
-2. 在下一页上，指定以下信息：
+2. 下一页上，指定以下信息：
     
-   - **服务端口：** 这是网站将用于侦听的端口号。 你可在以后使用 IIS 管理器绑定来更改此端口。 在安装过程中，将允许通过此端口穿过本地防火墙。
+   - **服务端口：** 这是网站将侦听的端口号。 稍后可以使用 IIS 管理器绑定更改它。 在安装过程中，允许通过本地防火墙访问此端口。
     
-   - **安装目录：** 这是将安装二进制文件的目录。 你可以使用**浏览...** 按钮将其默认值更改为其他目录。
+   - **安装目录：** 这是将安装二进制文件的目录。 可以使用"浏览..."按钮从默认值 **更改** 它。
     
-   - **AppData 目录：** 这是将存储日志文件夹和其他数据的目录。  你可以将其默认值更改为其他目录。 卸载时不会删除该目录。
+   - **AppData 目录：** 这是将存储 Logs 文件夹和其他数据的目录。 你可以从默认值更改它。 卸载时不会将其删除。
     
 3. 单击“**安装**”。
     
-要查看网站，请打开浏览器并导航到：http://localhost,webport\>/。
+若要查看网站，请打开浏览器，然后导航到 http://localhost ：.webport \> /。
   
-要仅查看运行状况信息，请打开浏览器并导航到：http://localhost:\<webport\>/healthcheck/。
+若要仅查看运行状况信息，请打开浏览器，然后导航到 http://localhost: \<webport\> ：/healthcheck/。
   
-默认情况下，Web 端口号为 8080。 你可以使用 IIS 管理器更改网站的端口绑定。
+默认情况下，Web 端口号为 8080。 可以使用 IIS 管理器更改网站的端口绑定。
   
-Web 安装程序会添加名为 StatsManWebSiteUsers 的本地安全组。 你可以向此安全组添加帐户以授予对网站的访问权限。 
+Web 安装程序添加本地安全组，称为 StatsManWebSiteUsers。 你可以向此安全组添加帐户以授予对网站的访问权限。 
   
 ### <a name="install-the-agents"></a>安装代理
 
-通过运行 StatsManPerfAgent.msi 并指定以下内容在你希望监视的每个 Skype for Business Server 上安装代理：
+通过运行代理并指定以下内容，在你希望监视的每个 Skype for Business Server StatsManPerfAgent.msi代理：
   
-1. 阅读许可协议，如果同意条款，请选择“**我接受许可协议中的条款**”，然后单击“**下一步**”。 
+1. 查看许可协议，如果同意，请选择 **"我接受** 许可协议中的条款"，然后单击"下一 **步"。** 
     
-2. 在下一页上，指定以下信息：
+2. 下一页上，指定以下信息：
     
-   - **服务密码：** 这是远程代理将用于向侦听器服务进行身份验证的密码。
+   - **服务密码：** 这是远程代理用于向侦听器服务进行身份验证的密码。
     
-   - **服务 URI：** 这是侦听器所在的 URI。 应使用 https://name:port 格式。
+   - **服务 URI：** 这是侦听器所在的 URI。 它应使用该 https://name:port 格式。
     
-     可以使用 NETBIOS 名称或 FQDN。 也可以使用指定为侦听器服务上证书的**使用者名称**或**使用者替代名称**的名称，但这不是必需的。
+     可以使用 NETBIOS 名称或 FQDN。 您可以使用指定为侦听器服务上证书的"主题"或"主题备用名称"的名称，但这不是一项要求。
     
-   - **服务指纹：** 这是侦听器使用的 SSL 证书的指纹。 代理将使用此指纹向侦听器进行身份验证。 （由于可能使用自签名证书，因此它不会执行完整证书验证。）
+   - **服务指纹：** 这是侦听器使用的 SSL 证书的指纹。 代理将使用此指纹向侦听器进行身份验证。  (不会执行完整证书验证，因为可以使用自签名证书。) 
     
-   - **安装目录：** 这是将安装二进制文件的目录。 你可以使用**浏览...** 按钮将其默认值更改为其他目录。
+   - **安装目录：** 这是将安装二进制文件的目录。 可以使用"浏览..."按钮从默认值 **更改** 它。
     
-   - **AppData 目录：** 这是将存储日志文件夹和加密的 password.txt 文件的目录。 你可以将其默认值更改为其他目录。 卸载时不会删除该目录。
+   - **AppData 目录：** 这是将存储 Logs 文件夹和加密password.txt目录。 你可以从默认值更改它。 卸载时不会将其删除。
     
 3. 单击“**安装**”。
     
-如果你要在多台计算机上安装代理，你可能想以无人参与模式进行。例如： 
+如果要在多台计算机中安装代理，你可能希望以无人参与模式进行安装。 例如： 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
@@ -179,18 +179,18 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>导入拓扑
 <a name="BKMK_ImportTopology"> </a>
 
-安装并运行统计信息管理器后，你需要导入 Skype for Business Server 拓扑，以使统计信息管理器获知每台服务器的站点、池和角色。 要导入你的 Skype for Business Server 拓扑，请使用 [Get-CSPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) cmdlet 检索贵公司使用的每个池的相关信息，然后将此信息导入统计信息管理器。
+安装并运行统计信息管理器后，需要导入 Skype for Business Server 拓扑，以便统计信息管理器知道每个服务器的站点、池和角色。 若要导入 Skype for Business Server 拓扑，将使用 [Get-CsPool](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) cmdlet 检索有关组织使用的每个池的信息，然后将此信息导入统计信息管理器。
   
-要导入 Skype for Business Server 拓扑，请按照下列步骤操作：
+若要导入 Skype for Business Server 拓扑，请按照以下步骤操作：
   
-1. 在具有 Skype for Business Server PowerShell cmdlets 的主机上：
+1. 在具有 Skype for Business Server PowerShell cmdlet 的主机上：
     
     a. 运行以下命令： 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
-    b. 将“mypoolinfo.xml”文件复制到运行侦听器的服务器上。
+    b. 将"mypoolinfo.xml"文件复制到运行侦听器的服务器。
     
 2. 在运行侦听器的主机上：
     
@@ -202,25 +202,25 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-3. 要确认添加和更新哪些服务器，请运行以下命令：
+3. 若要确认要添加和更新的服务器，请运行以下命令：
     
    ```console
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
-使用以下命令可以查看所有选项：
+通过以下命令可以查看所有选项：
   
 ```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-要查看你当前导入的服务器信息，请运行以下脚本： 
+若要查看当前导入的服务器信息，请运行以下脚本： 
   
 ```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
-如果你要监视不在你的 Skype for Business Server PowerShell cmdlets 拓扑中的服务器（例如，Exchange Server），可以在运行侦听器的主机上执行单服务器导入操作。 要执行单服务器导入操作，请按照下列步骤操作：
+如果要监视不在 Skype for Business Server 拓扑中的服务器（例如 Exchange Server，可以在运行侦听器的主机上执行单服务器导入。 若要执行单服务器导入，请按照以下步骤操作：
   
 1. 导航到安装侦听器的目录。 默认值为： 
     
@@ -234,26 +234,26 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
    ```
 
-## <a name="troubleshoot-your-deployment"></a>对你的部署进行故障排除
+## <a name="troubleshoot-your-deployment"></a>部署疑难解答
 <a name="BKMK_Troubleshoot"> </a>
 
-如果代理无法启动，请检查以下各项： 
+如果代理无法启动，请检查以下内容： 
   
-- 是否在统计信息管理器中注册了代理？
+- 代理是否注册到统计信息管理器中？
     
-    1. 	确保遵循导入拓扑的说明。请参阅[导入拓扑](deploy.md#BKMK_ImportTopology)。  
+    1. 确保按照导入拓扑的说明进行操作。 请参阅["导入拓扑"。](deploy.md#BKMK_ImportTopology)
         
-    2. 如果代理位于拓扑中未列出的服务器上（例如，SQL AlwaysOn 群集内的节点），你将需要按照[导入拓扑](deploy.md#BKMK_ImportTopology)中的说明手动添加代理。
+    2. 如果代理位于拓扑 (中未列出的服务器上，例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加[代理。](deploy.md#BKMK_ImportTopology)
     
-- 代理是否可以联系侦听器？
+- 代理能否与侦听器联系？
     
     1. 确保侦听器服务正在运行。 
         
-        如果侦听器服务未运行，请确保 Redis 正在运行，然后尝试重新启动侦听器。
+        如果未运行，请确保 Redis 正在运行，然后尝试重新启动侦听器。
         
-    2. 确保端口向侦听器服务开放，且代理计算机可以与该端口通信。
+    2. 确保端口对侦听器服务开放，并且代理计算机可以与端口通信。
     
-- 确保统计信息管理器在收集数据，你可以按如下所示检查 CSV 文件。 
+- 若要确保统计信息管理器正在收集数据，可以按如下方式检查 CSV 文件。 
     
     以下命令检索计数器存储名称： 
     
@@ -267,42 +267,42 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-有关你可以在应用程序事件日志中看到的所有事件的信息，请参阅[对 Skype for Business Server 的统计信息管理器进行故障排除](troubleshoot.md)。
+有关你可能在应用程序事件日志中看到的所有事件的信息，请参阅 Skype for Business Server 的统计信息 [管理器疑难解答](troubleshoot.md)。
   
-## <a name="create-a-self-signed-certificate"></a>创建自签名证书
+## <a name="create-a-self-signed-certificate"></a>"创建自签名证书"
 <a name="BKMK_SelfCert"> </a>
 
-Microsoft 强烈建议你使用受信任的证书颁发机构签发的证书。 但是，如果你要使用自签名证书以进行测试，请执行以下操作： 
+Microsoft 强烈建议你使用由受信任的证书颁发机构签名的证书。 但是，如果要将自签名证书用于测试目的，请执行下列操作： 
   
-1. 以管理员身份登录时，在 PowerShell 控制台中键入以下内容：
+1. 以管理员身份登录时，从 PowerShell 控制台中键入以下内容：
     
    ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
-2. `certlm.msc` 类型。 这将为本地计算机打开证书管理器。
+2. 类型  `certlm.msc` 。 这将打开本地计算机证书管理器。
     
-3. 导航到**个人**，然后打开**证书**。
+3. 导航到 **"个人**"，然后打开 **"证书"。**
     
-4. 右键单击 **StatsManListener-\>所有任务-\>管理私钥…**
+4. 右键单击 **StatsManListener- \> 所有任务 - \> 管理私钥...**
     
-5. 单击“添加”****。
+5. 单击“**添加**”。
     
-6. 在“**输入要选择的对象名称**”框中，键入以下内容：网络服务
+6. 在 **"输入要选择的对象名称"框中** ，键入以下内容：网络服务
     
-7. 单击**确定**。
+7. 单击“确定”。
     
-8. 在“**完全控制**”下方，取消选中“**允许**”复选框。（只需要读取权限。）
+8. 在 **"完全控制**"下，取消选中 **"允许** "复选框。  (只读访问权限是必需的。) 
     
-9. 单击“**确定**”。
+9. 单击“确定”。
     
-## <a name="for-more-information"></a>有关详细信息
+## <a name="for-more-information"></a>更多详细信息
 <a name="BKMK_SelfCert"> </a>
 
 有关详细信息，请参阅：
   
-- [Skype for Business Server 统计信息管理器规划](plan.md)
+- [Skype for Business Server 的统计信息管理器规划](plan.md)
     
-- [更新 Skype for Business Server 统计信息管理器](upgrade.md)
+- [更新 Skype for Business Server 的统计信息管理器](upgrade.md)
     
-- [对 Skype for Business Server 统计信息管理器进行故障排除](troubleshoot.md) ß
+- [Skype for Business Server](troubleshoot.md) 统计信息管理器疑难解答

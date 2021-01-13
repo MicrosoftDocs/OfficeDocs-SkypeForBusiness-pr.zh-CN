@@ -1,8 +1,8 @@
 ---
 title: 部署向导管理工具
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
-description: 有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅安装 Skype for business Server 2015。
-ms.openlocfilehash: c99936a4ab9dbef0c8da5b079337f8323d6a18ef
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅安装 Skype for Business Server 2015。
+ms.openlocfilehash: 41b8130b3d49e7175b361495d170bab644304c13
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823736"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815452"
 ---
 # <a name="deployment-wizard-admin-tools"></a>部署向导：管理工具
  
-有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅[安装 skype for Business server 2015](../../deploy/install/install.md)。
+有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅[安装 Skype for Business Server 2015。](../../deploy/install/install.md)
   
 

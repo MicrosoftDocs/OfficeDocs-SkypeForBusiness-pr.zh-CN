@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 中的对等会话详细信息报告
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 摘要：了解 Skype for Business 服务器中的对等会话详细信息报表。
-ms.openlocfilehash: 4c6b05e6e4e4110a43c21dbdbbc7f190ecae98ac
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解 Skype for Business Server 中的对等会话详细信息报告。
+ms.openlocfilehash: 4dfa2b87b1fbba72282b52fa2ca58ca0f1e70630
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817771"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816762"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等会话详细信息报告
  
-**摘要：** 了解 Skype for Business 服务器中的对等会话详细信息报表。
+**摘要：** 了解 Skype for Business Server 中的对等会话详细信息报告。
   
-对等会话详细信息报告返回有关对等会话的详细信息。例如，如果您选择即时消息会话，则此报告将告知您会话中两个用户各自发送的消息数。
+点对点会话详细信息报告返回有关点对点会话的详细信息。例如，如果您选择即时消息会话，则此报告将告知您会话中两个用户各自发送的消息数。
   
-## <a name="accessing-the-peer-to-peer-session-detail-report"></a>访问对等会话详细信息报告
+## <a name="accessing-the-peer-to-peer-session-detail-report"></a>访问点对点会话详细信息报告
 
-可以从下列任一报告（可从监控报告主页中访问所有这些报告）访问对等会话详细信息报告：
+可以从下列任一报告（可从监控报告主页中访问所有这些报告）访问点对点会话详细信息报告：
   
 - IP 电话清单报告
     
@@ -37,31 +37,31 @@ ms.locfileid: "41817771"
     
 - 故障列表报告 
     
-从对等会话详细信息报告中，您可以通过单击诊断报告（详细信息）指标来访问[Skype For Business 服务器中的诊断报告](diagnostic-report.md)。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
+在点对点会话详细信息报告中，可以通过单击诊断报告 (详细信息"指标来访问 [Skype for Business Server](diagnostic-report.md)) 报告。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
   
 - 响应
     
 - 诊断 ID
     
-## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>最充分地利用对等会话详细信息报告
+## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>最充分地利用点对点会话详细信息报告
 
-对等会话详细信息报告包括大量指标，其中有许多指标是系统管理员所不熟悉的。不过，通常您只需将鼠标指针悬停在指标标签的上方即可查看提供了指标的简要说明的工具提示。
+点对点会话详细信息报告包括大量指标，其中有许多指标是系统管理员所不熟悉的。不过，通常您只需将鼠标指针悬停在指标标签的上方即可查看提供了指标的简要说明的工具提示。
   
-请注意，给定报告上显示的实际指标将取决于您所选的对等会话的类型。音频/视频会话将报告一组与即时消息会话不同的指标。
+请注意，给定报告上显示的实际指标将取决于您所选的点对点会话的类型。音频/视频会话将报告一组与即时消息会话不同的指标。
   
 还可以将鼠标指针悬停在响应代码和诊断 ID 指标的上方来获取这些值的描述：
   
 ## <a name="filters"></a>筛选器
 
-无。无法筛选对等会话详细信息报告。
+无。无法筛选点对点会话详细信息报告。
   
 ## <a name="session-information-metrics"></a>会话信息指标
 
-下表列出了每个会话的对等会话详细信息报告中提供的信息。
+下表列出了每个会话的点对点会话详细信息报告中提供的信息。
   
 **会话信息指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**说明**|
+|**名称**|**说明**|
 |:-----|:-----|
 |**池 FQDN** <br/> |会话中涉及的注册器池或边缘服务器的完全限定域名 (FQDN)。  <br/> |
 |**邀请时间** <br/> |最初发送会话邀请的日期和时间。  <br/> |
@@ -84,11 +84,11 @@ ms.locfileid: "41817771"
    
 ## <a name="metrics-for-modalities"></a>形式指标
 
-下表列出了每种会话形式的对等会话详细信息报告中提供的信息。
+下表列出了每种会话形式的点对点会话详细信息报告中提供的信息。
   
 **形式指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
+|**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**形式** <br/> |否  <br/> |会话中使用的形式。例如，即时消息 (IM) 或文件传输。  <br/> |
 |**源用户消息** <br/> |否  <br/> |启动会话的用户发送的消息数。  <br/> |
@@ -96,13 +96,13 @@ ms.locfileid: "41817771"
    
 ## <a name="metrics-for-diagnostic-reports"></a>诊断报告指标
 
-下表列出了每个诊断报告的对等会话详细信息报告中提供的信息。
+下表列出了每个诊断报告的点对点会话详细信息报告中提供的信息。
   
 **诊断报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
+|**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**详情** <br/> |否  <br/> |当您单击此项时，报告显示会话的诊断报告。  <br/> |
+|**详细信息** <br/> |否  <br/> |当您单击此项时，报告显示会话的诊断报告。  <br/> |
 |**报告时间** <br/> |否  <br/> |记录报告的日期和时间。  <br/> |
 |**请求** <br/> |否  <br/> |SIP 请求类型。例如 INVITE 或 BYE。  <br/> |
 |**诊断 ID** <br/> |否  <br/> |附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。  <br/> |

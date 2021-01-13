@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 中的诊断报告
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 摘要：了解 Skype for Business Server 中的诊断报告。
-ms.openlocfilehash: f1a8d9a0c027019708f2be75fec14634197c4e2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 89639c0c00081fa4dd01211cc33074585061ff57
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041989"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816892"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server 中的诊断报告
  
@@ -33,7 +33,7 @@ ms.locfileid: "42041989"
     
 ## <a name="accessing-the-diagnostic-report"></a>访问诊断报告
 
-可以通过单击[Skype For Business Server 中的对等会话详细信息报告](peer-to-peer-session-detail-report.md)或会议详细信息报告中的 "诊断报告（详细信息）" 指标来访问诊断报告。
+可通过单击 [Skype for Business Server](peer-to-peer-session-detail-report.md) 中的对等会话详细信息报告或会议详细信息报告的诊断报告 (详细信息) 指标来访问诊断报告。
   
 ## <a name="filters"></a>筛选器
 
@@ -55,11 +55,11 @@ ms.locfileid: "42041989"
 |**源用户代理** <br/> |否  <br/> |发起会话的用户的终结点使用的软件。  <br/> |
 |**诊断 ID** <br/> |否  <br/> |附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。  <br/> |
 |**内容类型** <br/> |否  <br/> |失败的媒体内容类型。例如，常见内容类型为 Application/sdp。会话描述协议 (SDP) 是用于会话公告、会话邀请及其他形式的多媒体会话启动的标准 Internet 协议。  <br/> |
-|**Application** <br/> |否  <br/> |错误涉及的应用程序。  <br/> |
+|**应用程序** <br/> |否  <br/> |错误涉及的应用程序。  <br/> |
 |**目标用户 URI** <br/> |否  <br/> |受邀加入会话的用户的 SIP 地址。  <br/> |
 |**会议加入时间（毫秒）** <br/> |否  <br/> |用户加入会议所需的时间量（以毫秒为单位）。  <br/> |
 |**诊断标头** <br/> |否  <br/> |诊断 ID 描述  <br/> |
    
-可以在 " [Ms-诊断" 标头页](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)上找到诊断错误列表。
+可在 [Ms-Diagnostics](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)标头页上找到诊断错误列表。
   
 
