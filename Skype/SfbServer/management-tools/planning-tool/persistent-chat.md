@@ -1,29 +1,30 @@
 ---
-title: Persistent Chat (Planning Tool)
+title: '持久聊天 (规划工具) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.PersistentChat
+- ms.lync.plan.PersistentChat
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
-description: 持久聊天服务器使用户能够参与在一段时间内保持的基于主题的多方聊天。
-ms.openlocfilehash: 7b7ea1e1b78ed31e6aaf599b47381a4768645452
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 持久聊天服务器使用户能够参与多方、基于主题的持久对话。
+ms.openlocfilehash: 867bfe3a1d56beaf4579f5dbdf6c49b24d254d0a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816311"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814102"
 ---
-# <a name="persistent-chat-planning-tool"></a><span data-ttu-id="88f76-103">Persistent Chat (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="88f76-103">Persistent Chat (Planning Tool)</span></span>
+# <a name="persistent-chat-planning-tool"></a><span data-ttu-id="76676-103">持久聊天 (规划工具) </span><span class="sxs-lookup"><span data-stu-id="76676-103">Persistent Chat (Planning Tool)</span></span>
  
-<span data-ttu-id="88f76-104">持久聊天服务器使用户能够参与在一段时间内保持的基于主题的多方聊天。</span><span class="sxs-lookup"><span data-stu-id="88f76-104">Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.</span></span>
+<span data-ttu-id="76676-104">持久聊天服务器使用户能够参与多方、基于主题的持久对话。</span><span class="sxs-lookup"><span data-stu-id="76676-104">Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.</span></span>
   
-<span data-ttu-id="88f76-105">有关为持久聊天服务器准备环境的更多详细信息，请参阅[在 Skype For Business server 2015 中规划持久聊天服务器](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)。</span><span class="sxs-lookup"><span data-stu-id="88f76-105">For more details about preparing your environment for Persistent Chat Server, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).</span></span>
+<span data-ttu-id="76676-105">有关为持久聊天服务器准备环境的更多详细信息，请参阅 Plan [for Persistent Chat Server in Skype for Business Server 2015。](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)</span><span class="sxs-lookup"><span data-stu-id="76676-105">For more details about preparing your environment for Persistent Chat Server, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).</span></span>
   
 

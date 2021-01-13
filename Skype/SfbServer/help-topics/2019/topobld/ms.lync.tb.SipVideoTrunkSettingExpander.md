@@ -1,8 +1,8 @@
 ---
 title: SIP 视频中继设置扩展器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 ROBOTS: NOINDEX, NOFOLLOW
-description: 在 "拓扑生成器" 中定义新的 VIS 或视频网关所需的步骤在 Skype for Business 服务器的 "创建 VIS" 池中进行联机描述。
-ms.openlocfilehash: 20c91a80336418cce255f9a18949df235ebb1566
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Skype for Business Server 中的"创建 VIS 池"中联机介绍了在拓扑生成器中定义新的 VIS 或视频网关所需的步骤。
+ms.openlocfilehash: 0019fa835a4904482f913484f8c048da0dbf2465
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796071"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805682"
 ---
-# <a name="sip-video-trunk-setting-expander"></a><span data-ttu-id="d9c0d-103">SIP 视频中继设置扩展器</span><span class="sxs-lookup"><span data-stu-id="d9c0d-103">SIP Video Trunk Setting Expander</span></span>
+# <a name="sip-video-trunk-setting-expander"></a><span data-ttu-id="af208-103">SIP 视频中继设置扩展器</span><span class="sxs-lookup"><span data-stu-id="af208-103">SIP Video Trunk Setting Expander</span></span>
  
-<span data-ttu-id="d9c0d-104">在 "拓扑生成器" 中定义新的 VIS 或视频网关所需的步骤在[Skype For Business 服务器的 "创建 VIS" 池中](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)进行联机描述。</span><span class="sxs-lookup"><span data-stu-id="d9c0d-104">The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).</span></span>
+<span data-ttu-id="af208-104">在 Skype for Business Server 的"创建 VIS 池"中联机介绍了在拓扑生成器中定义新的 VIS 或 [视频网关所需的步骤](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)。</span><span class="sxs-lookup"><span data-stu-id="af208-104">The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).</span></span>
   
-<span data-ttu-id="d9c0d-105">在使用 Windows PowerShell 的服务器上分配视频互操作服务器角色所需的步骤在[Skype For Business server 中部署 VIS 服务器角色中](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)进行了联机描述</span><span class="sxs-lookup"><span data-stu-id="d9c0d-105">The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)</span></span>
+<span data-ttu-id="af208-105">在 Skype for Business Server 中部署 VIS 服务器角色时Windows PowerShell在服务器上分配视频互操作 [服务器角色所需的步骤](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)</span><span class="sxs-lookup"><span data-stu-id="af208-105">The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)</span></span>
   
-<span data-ttu-id="d9c0d-106">有关使用 Windows PowerShell 的新视频互操作服务器的配置步骤，请参阅在[Skype For Business 服务器的 "配置视频互操作服务器" 中](../../../deploy/deploy-video-interop-server/configure-the-vis.md)进行联机介绍。</span><span class="sxs-lookup"><span data-stu-id="d9c0d-106">The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).</span></span>
+<span data-ttu-id="af208-106">在 Skype for Business Server 中配置视频互操作服务器Windows PowerShell联机描述使用视频 [互操作服务器的配置步骤](../../../deploy/deploy-video-interop-server/configure-the-vis.md)。</span><span class="sxs-lookup"><span data-stu-id="af208-106">The configuration steps for a new Video Interop Server using Windows PowerShell are described online at [Configure the Video Interop Server in Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).</span></span>
   
- <span data-ttu-id="d9c0d-107">要在 Cisco GUI 中为与 VIS 互操作而设置的视频网关设置，请在[配置 CUCM 以便与 Skype for Business Server 进行互操作](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)时进行联机描述。</span><span class="sxs-lookup"><span data-stu-id="d9c0d-107">The settings for a video gateway that need to be set in the Cisco GUI for interoperation with a VIS are described online at [Configure CUCM for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).</span></span>
+ <span data-ttu-id="af208-107">在配置 CUCM 以与 Skype for Business Server 进行互操作时，联机描述了需要在 Cisco GUI 中设置以与 VIS 互操作的视频 [网关的设置](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)。</span><span class="sxs-lookup"><span data-stu-id="af208-107">The settings for a video gateway that need to be set in the Cisco GUI for interoperation with a VIS are described online at [Configure CUCM for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).</span></span>
   
- <span data-ttu-id="d9c0d-108">为与视频网关和 VIS 进行互操作时需要在 Cisco GUI 中设置的 VTC 的设置，在[配置 VTC 以与 Skype for Business Server 进行互操作](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)时进行介绍。</span><span class="sxs-lookup"><span data-stu-id="d9c0d-108">The settings for a VTC that need to be set in the Cisco GUI for interoperation with a Video Gateway and a VIS are described online at [Configure a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).</span></span>
+ <span data-ttu-id="af208-108">需要在 Cisco GUI 中设置以与视频网关和 VIS 进行互操作所需的 VTC 设置将在配置 VTC 以与 Skype for Business Server 进行互操作时进行 [联机描述](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)。</span><span class="sxs-lookup"><span data-stu-id="af208-108">The settings for a VTC that need to be set in the Cisco GUI for interoperation with a Video Gateway and a VIS are described online at [Configure a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="d9c0d-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d9c0d-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="af208-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="af208-109">See also</span></span>
 
-[<span data-ttu-id="d9c0d-110">Skype for business Server 中的视频互操作服务器计划</span><span class="sxs-lookup"><span data-stu-id="d9c0d-110">Plan for Video Interop Server in Skype for Business Server</span></span>](../../../plan-your-deployment/video-interop-server.md)
+[<span data-ttu-id="af208-110">在 Skype for Business Server 中规划视频互操作服务器</span><span class="sxs-lookup"><span data-stu-id="af208-110">Plan for Video Interop Server in Skype for Business Server</span></span>](../../../plan-your-deployment/video-interop-server.md)
