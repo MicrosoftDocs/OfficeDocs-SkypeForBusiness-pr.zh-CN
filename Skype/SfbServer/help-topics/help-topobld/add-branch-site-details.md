@@ -1,8 +1,8 @@
 ---
 title: 添加分支机构详细信息
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
-description: 若要指定网站的网站详细信息，请执行以下操作：
-ms.openlocfilehash: 30e4629332b732d7a873b2b39b33d64b3c70d7a3
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 若要指定网站的网站详细信息，请执行下列操作：
+ms.openlocfilehash: acc33e2a08ae4c0232ccff92f8ce1e800178b1c0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217356"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835548"
 ---
-# <a name="add-branch-site-details"></a>添加分支机构详细信息
+# <a name="add-branch-site-details"></a>添加分支站点详细信息
 
-若要指定网站的网站详细信息，请执行以下操作：
+若要指定网站的网站详细信息，请执行下列操作：
 
 指定新分支站点的城市名称。“城市”值是可选条目。
 

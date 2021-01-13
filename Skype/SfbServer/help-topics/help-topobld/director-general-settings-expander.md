@@ -1,8 +1,8 @@
 ---
 title: 控制器常规设置扩展器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 要编辑现有控制器的设置，可参考以下各节内容：
-ms.openlocfilehash: 261593cd7b1f8f79588462cb57eb8ecc517dd4a3
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: b7478779e54a7860726ae967eb1e203625c8b17b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218983"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835332"
 ---
 # <a name="director-general-settings-expander"></a>控制器常规设置扩展器
  
@@ -36,9 +36,9 @@ ms.locfileid: "48218983"
 
 控制器池的完全限定域名 (FQDN)。编辑服务器的 FQDN 以更改该值。必须具有与新值一致的域名系统 (DNS) 主机 (A) 记录。
   
-在“关联”**** 中，可以编辑或指定以下内容：
+在“关联”中，可以编辑或指定以下内容：
   
-控制器池使用的文件共享。 选择已在拓扑生成器中定义的现有文件共享，或单击 " **新建** " 创建新的文件共享定义。
+控制器池使用的文件共享。 选择已在拓扑生成器中定义的现有文件共享，或单击"新建"以创建新的文件共享定义。
   
 监控 SQL Server 存储。
   
@@ -49,16 +49,16 @@ ms.locfileid: "48218983"
 
 要为控制器池中的 Web 服务编辑或指定其他设置，请在内部 Web 服务和外部 Web 服务中修改或指定设置。
   
-对于“内部 Web 服务”****，可以指定以下内容：
+对于“内部 Web 服务”，可以指定以下内容：
   
 > [!CAUTION]
-> 如果您有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 **pool01.contoso.com**，则不能将 **pool01.contoso.com** 用于另一个前端池或前端服务器。 如果还部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器都是唯一的。 如果决定使用自定义的 FQDN 覆盖内部 web 服务，则每个 FQDN 必须与任何其他前端池、控制器或控制器池都是唯一的。
+> 如果您具有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 **pool01.contoso.com，** 则不能将 pool01.contoso.com **用于另** 一个前端池或前端服务器。 如果还要部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器是唯一的。 如果您决定使用自定义的 FQDN 覆盖内部 Web 服务，则每个 FQDN 都必须与任何其他前端池、控制器或控制器池是唯一的。
   
 如果选择“覆盖 FQDN”，则可以为池上的内部 Web 服务标识指定不同的 FQDN。默认情况下，该设置是为控制器池定义的当前池名称。
   
 可以为部署所需的 HTTP 和 HTTPS 指定侦听端口和已发布端口。端口 80（对于 HTTP）和端口 443（对于 HTTPS）的默认设置是最常见的设置，通常不需要更改，除非在您的组织和基础结构设计中有具体的要求。
   
-对于“外部 Web 服务”****，可以指定以下内容：
+对于“外部 Web 服务”，可以指定以下内容：
   
 可以定义外部 Web 服务的 FQDN。此处指定的 FQDN 通常由外部连接要求（如反向代理）定义。
   

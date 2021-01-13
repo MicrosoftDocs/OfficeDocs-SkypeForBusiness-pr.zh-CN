@@ -1,8 +1,8 @@
 ---
-title: 添加 Edge Server FQDN
+title: 添加边缘服务器 FQDN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
-description: 你必须为访问边缘服务指定完全限定的域名（FQDN）。 如果未在 "选择功能" 页面上选择&amp; "使用单个 FQDN IP 地址" 选项，则还必须为 Web 会议 Edge 服务和 a/V 边缘服务指定一个 fqdn。
-ms.openlocfilehash: 2c7434331185006dd0c3b146872634ee7b9a40d8
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 必须指定访问边缘服务的完全限定域名 (FQDN)。 如果未在"选择功能"页上选择"使用单个 FQDN IP 地址"选项，则还必须为 Web 会议边缘服务和 A/V 边缘服务指定 &amp; FQDN。
+ms.openlocfilehash: b54e496ca90372c815b850bf87800e73dd354a11
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798209"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835922"
 ---
-# <a name="add-edge-server-fqdn"></a>添加 Edge Server FQDN
+# <a name="add-edge-server-fqdn"></a>添加边缘服务器 FQDN
  
-你必须为访问边缘服务指定完全限定的域名（FQDN）。 如果未在 "**选择功能**" 页面上选择 "**使用单个&amp; FQDN IP 地址**" 选项，则还必须为 Web 会议 Edge 服务和 A/V 边缘服务指定一个 fqdn。
+必须指定访问边缘服务的完全限定域名 (FQDN)。 如果未在"选择功能"页上选择"使用单个 **FQDN &amp; IP** 地址"选项，则还必须为 Web 会议边缘服务和 A/V 边缘服务指定 FQDN。 
   
-同样，如果你选择 "**使用单个 FQDN &amp; IP 地址**" 选项，则必须为每个 Edge 服务指定不同的端口号（推荐的端口设置：444用于访问边缘服务，8057用于 Web 会议 Edge 服务，443用于 a/V 边缘服务）。 如果未选择此选项，则可以对所有三种服务使用相同的端口号（如443）。
+此外，如果选择"使用单个 **FQDN &amp; IP** 地址"选项，则必须为每个边缘服务指定不同的端口号 (推荐的端口设置：访问边缘服务为 444，Web 会议边缘服务为 8057，A/V 边缘服务) 为 443。 如果未选择此选项，则可以为所有三个服务使用相同的端口号（如 443）。
   
 

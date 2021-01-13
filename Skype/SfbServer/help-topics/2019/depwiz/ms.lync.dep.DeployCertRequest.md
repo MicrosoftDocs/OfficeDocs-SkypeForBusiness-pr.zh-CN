@@ -1,8 +1,8 @@
 ---
 title: 部署向导请求证书
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 有关使用部署向导安装 Skype for Business 服务器的详细信息，请参阅安装 Skype for business 服务器。
-ms.openlocfilehash: 89bbdb336b83cb01e52851f71796b8322bb7841d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 有关使用部署向导安装 Skype for Business Server 的详细信息，请参阅"安装 Skype for Business Server"。
+ms.openlocfilehash: fc4ed9685f2048c84f87082c090bd38852174d81
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796773"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836872"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>部署向导：请求证书
  
-有关使用部署向导安装 Skype for Business 服务器的详细信息，请参阅[安装 skype](../../../deploy/install/install.md)For business 服务器。
+有关使用部署向导安装 Skype for Business Server 的详细信息，请参阅["安装 Skype for Business Server"。](../../../deploy/install/install.md)
   
 

@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2010 的控制器常规设置扩展器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,29 +14,29 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
-description: 若要配置控制器或控制器池的常规属性，请执行以下操作：
-ms.openlocfilehash: d61bc52500c254ed43a1804d3094623dd0c8be1b
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 配置控制器或控制器池的常规属性：
+ms.openlocfilehash: e31dcf72297bfcbc9afd4f45e232de71c5620b7b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219023"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835352"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的控制器常规设置扩展器
  
-若要配置控制器或控制器池的 **常规** 属性，请执行以下操作：
+配置控制器 **或** 控制器池的常规属性：
   
- **FQDN**：键入控制器或控制器池的完全限定的域名称
+ **FQDN：** 键入控制器或控制器池的完全限定域名
   
- **群体**
+ **关联**
   
- **文件存储**：从列表中选择控制器或控制器池的文件存储区
+ **文件存储**：从列表中选择控制器或控制器池的文件存储
   
-单击“新建”**** 以定义一个新的文件存储
+单击“新建”以定义一个新的文件存储
   
-选中 " **关联监视服务器** " 复选框，然后从列表中选择监视服务器
+选中 **"关联监控服务器** "复选框，然后从列表中选择监控服务器
   
-单击 " **新建** " 以定义一个新的监视服务器
+单击 **"** 新建"以定义新的监控服务器
   
  **确定** 接受更改并通过对话框提交更改。
   

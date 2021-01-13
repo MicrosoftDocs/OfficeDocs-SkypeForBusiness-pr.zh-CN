@@ -1,8 +1,8 @@
 ---
 title: 混合向导编辑用户
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用“编辑用户”向导修改您的部署中的用户帐户。 有关更多信息，请参阅Use the Hybrid Manageability wizard。
-ms.openlocfilehash: cdea63adb2a5899fdd5d10e5da6c72bb996e0e03
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 使用"编辑用户"向导修改部署中的用户帐户。 有关详细信息，请参阅"使用混合可管理性"向导。
+ms.openlocfilehash: 1dc7c62c5f10032df5b2915972f1ac9a4bfa6c75
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796471"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836562"
 ---
 # <a name="hybrid-wizard-edit-users"></a>混合向导：编辑用户
 
-使用“编辑用户”向导修改您的部署中的用户帐户。有关更多信息，请参阅[Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。
+使用"编辑用户"向导修改部署中的用户帐户。 有关详细信息，请参阅" [使用混合可管理性"向导](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。
 
 

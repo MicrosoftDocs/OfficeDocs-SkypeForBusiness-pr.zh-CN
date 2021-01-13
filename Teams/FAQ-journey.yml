@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 35f947233e9b6cdc713b05e6bc9ebe78d404e1a4
-  ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
+  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 12/18/2020
-  ms.locfileid: "49712618"
+  ms.lasthandoff: 01/13/2021
+  ms.locfileid: "49841473"
 title: 常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 summary: ''
 sections:
@@ -35,6 +35,8 @@ sections:
   - question: 客户从 Skype for Business Online 迁移至 Teams 是否有严格的最后期限？
     answer: >
       是。 [Skype for Business Online 将于 2021 年 7 月 31 日停用](skype-for-business-online-retirement.md)，在此日期之后它将不再可用或受支持。 我们鼓励 Skype for Business Online 客户立即开始使用 Teams 并开始计划他们的升级，以便有充足的时间在停用日期之前完成升级。
+  - question: Skype 会议直播是否与 Skype for Business Online 同时停用？
+    answer: "是。 Teams 实时事件是 Skype 会议直播的后继解决方案。    \n"
   - question: 我的组织升级到 Teams 需要多长时间？
     answer: >
       贵组织从 Skype for Business 到 Teams 的旅程可由你制定。 为了帮助你规划和执行升级，我们基于经验证的框架制定了全面的升级指南，旨在帮助你了解变更的技术和组织要素。 通过熟悉我们的[升级成功框架](upgrade-framework.md)和相关资源开启你的旅程，这些资源是开启从 Skype for Business 到 Teams 迁移之旅的基石。

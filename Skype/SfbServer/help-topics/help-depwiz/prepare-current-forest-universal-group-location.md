@@ -1,8 +1,8 @@
 ---
 title: 准备当前林（通用组位置）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
-description: 你必须指明需要在林中创建通用组的位置。 通用组位置页面使用您登录到的计算机所属的域作为默认值。 如果您希望在除默认本地域之外的域中创建通用组，请选择 "域 FQDN"，然后在文本框中键入完全限定的域名（FQDN）。 如果从要创建通用组的域以外的域运行林准备任务，则提供备用域将很有帮助。 单击 "下一步" 继续。
-ms.openlocfilehash: d70e7ed5657a7d6efedf68a44c220626dc58945d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 必须指示需要在林中创建通用组的位置。 “通用组位置”页使用您登录的计算机所属的域作为默认位置。 如果希望在默认“本地域”之外的域中创建通用组，请选择“域 FQDN”，并在文本框中键入完全限定的域名 (FQDN)。 如果从中运行林准备任务的域不同于要在其中创建通用组的域，提供替代域将很有帮助。 单击"下一步"继续。
+ms.openlocfilehash: 2d2bae702482cdf1efb18fdb5462c8ba6fa2664f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823536"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835582"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>准备当前林（通用组位置）
  
-你必须指明需要在林中创建通用组的位置。 **通用组位置**页面使用您登录到的计算机所属的域作为默认值。 如果您希望在除默认**本**地域之外的域中创建通用组，请选择 "**域 FQDN** "，然后在文本框中键入完全限定的域名（FQDN）。 如果从要创建通用组的域以外的域运行林准备任务，则提供备用域将很有帮助。 单击“**下一步**”继续。
+必须指示需要在林中创建通用组的位置。“通用组位置”页使用您登录的计算机所属的域作为默认位置。如果希望在默认“本地域”之外的域中创建通用组，请选择“域 FQDN”，并在文本框中键入完全限定的域名 (FQDN)。如果从中运行林准备任务的域不同于要在其中创建通用组的域，提供替代域将很有帮助。单击“下一步”继续。
   
 

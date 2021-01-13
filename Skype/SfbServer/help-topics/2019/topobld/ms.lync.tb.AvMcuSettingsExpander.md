@@ -1,8 +1,8 @@
 ---
 title: AV MCU 设置扩展器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要编辑已定义的 A/V 会议服务器池的属性，请执行下列操作：
-ms.openlocfilehash: ce06468396ed936ffe47fa5848f6c3128ce390b6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 要编辑已定义的 A/V 会议服务器池的属性，请执行以下操作：
+ms.openlocfilehash: d3e725b1905726272df515ee93a402cb488a6652
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793910"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835772"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 设置扩展器
  
-若要编辑已定义的 A/V 会议服务器池的属性，请执行下列操作：
+要编辑已定义的 A/V 会议服务器池的属性，请执行以下操作：
   
 ## <a name="general-settings"></a>常规设置
 
-若要更新 A/V 会议服务器池的完全限定的域名（FQDN），请键入在域名系统（DNS）中定义的池的名称。 您必须有一个与 A/V 会议服务器池名称对应的 DNS 主机（A）记录。
+键入在域名系统 (DNS) 中定义的池名称以更新 A/V 会议服务器池的完全限定域名 (FQDN)。必须具有对应于 A/V 会议服务器池名称的 DNS 主机 (A) 记录。
   
 ## <a name="av-conferencing-service"></a>A/V 会议服务
 
-若要关联 A/V 会议服务器池，请选择您必须与 A/V 会议服务器池关联的前端池或池。
+要关联 A/V 会议服务器池，请选择一个或多个必须与 A/V 会议服务器池关联的前端池。
   
 > [!NOTE]
-> 如果在**选择要与此 A/v 会议池窗格相关联的前端池**中没有显示任何前端池，则你可以 Collocated 具有前端池的 A/v 会议服务器，或者未选择在前端池属性的 "**功能和功能**" 部分中添加会议。
+> 如果“选择要与此 A/V 会议池相关联的前端池”窗格中未显示前端池，则可能已将 A/V 会议服务器与前端池并置，或者未在前端池属性的“特性和功能”部分中选择添加会议。
   
 
-完成后，单击 **"确定"** 以完成对 A/V 会议服务器池设置的编辑。 单击“**取消**”将放弃所有更改。
+完成后，单击“确定”以完成 A/V 会议服务器池设置的编辑。单击“取消”将放弃所做的任何更改。
   
 

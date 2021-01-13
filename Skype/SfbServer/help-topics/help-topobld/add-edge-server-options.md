@@ -1,8 +1,8 @@
 ---
 title: 添加边缘服务器选项
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
-description: 选择要为边缘池启用的每个功能。 默认情况下，边缘池支持组织中通过使用虚拟专用网络 (VPN) 登录到防火墙外部的远程用户。 此外，还具有以下边缘池功能选项：
-ms.openlocfilehash: dfcaafce36d525b676a606db4f164dfdd05f26ba
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 选择要为边缘池启用的每个功能。 默认情况下，边缘池支持组织中使用虚拟专用网络通过 VPN (从防火墙外部登录) 。 此外，还具有以下边缘池功能选项：
+ms.openlocfilehash: f653f6a5b2c242416d6c644d5c7a5fc4daffc441
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216563"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835492"
 ---
 # <a name="add-edge-server-options"></a>添加边缘服务器选项
 
-选择要为边缘池启用的每个功能。 默认情况下，边缘池支持组织中通过使用虚拟专用网络 (VPN) 登录到防火墙外部的远程用户。 此外，还具有以下边缘池功能选项：
+选择要为边缘池启用的每个功能。 默认情况下，边缘池支持组织中使用虚拟专用网络通过 VPN (从防火墙外部登录) 。 此外，还具有以下边缘池功能选项：
 
 - 为所有边缘服务（包括访问边缘服务、Web 会议边缘服务和 A/V 边缘服务）使用单个完全限定域名 (FQDN) 和 IP 地址。 如果不选择使用单个 FQDN 和 IP 地址的选项，则需要在部署过程中分别为这三个边缘服务指定单独的 FQDN 和 IP 地址。 有关边缘服务的详细信息，请参阅规划文档中的[外部用户访问所需的组件](https://technet.microsoft.com/library/2d0f9817-14e7-4109-95dc-62420e3c29e2.aspx)。
 
