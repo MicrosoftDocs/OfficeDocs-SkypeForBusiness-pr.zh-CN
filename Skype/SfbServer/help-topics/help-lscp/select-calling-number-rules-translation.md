@@ -1,8 +1,8 @@
 ---
 title: 选择呼叫号码规则转换
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
-description: “选择呼叫号码转换规则”对话框显示为部署配置的转换规则。 有关转换规则的详细信息，请参阅以下主题：
-ms.openlocfilehash: 6545e91e016815e466d86e8573a878f4887b0512
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: “选择呼叫号码转换规则”对话框显示为部署配置的转换规则。有关转换规则的详细信息，请参阅以下主题：
+ms.openlocfilehash: e29d0306641f7323942bd21137fffd66410406f5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822275"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821962"
 ---
 # <a name="select-calling-number-rules-translation"></a>选择呼叫号码规则转换
 
-“**选择呼叫号码转换规则**”对话框显示为部署配置的转换规则。有关转换规则的详细信息，请参阅以下主题：
+" **选择呼叫号码转换规则** "对话框显示为部署配置的转换规则。 有关转换规则的详细信息，请参阅以下主题：
 
 1. [Skype for Business Server 2015 中的转换规则](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
 
-2. [Trunk Configuration and Translation Rules](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+2. [中继配置和转换规则](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
 
-3. [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+3. [在 Skype for Business Server 2015 中为被叫 ID 演示文稿创建或修改转换规则](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
 

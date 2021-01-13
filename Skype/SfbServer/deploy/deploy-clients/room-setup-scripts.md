@@ -1,7 +1,7 @@
 ---
 title: Skype 会议室系统会议室设置脚本
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: 阅读本主题，了解如何查找用于设置 Skype 会议室系统帐户的示例脚本。
-ms.openlocfilehash: a24de087eeeb20c8093101c23ffd20dec19f25e3
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 阅读本主题可查找用于预配 Skype 会议室系统帐户的示例脚本。
+ms.openlocfilehash: 0ea4466787099bfe24e6ddf53fac40073892aea8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768705"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820822"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype 会议室系统会议室设置脚本
  
-阅读本主题，了解如何查找用于设置 Skype 会议室系统帐户的示例脚本。
+阅读本主题可查找用于预配 Skype 会议室系统帐户的示例脚本。
   
-本部分介绍了可用于设置 Skype 会议室系统帐户的示例脚本。 这些脚本仅用于说明目的，并且只应在咨询你的 IT 专家或域管理员之后使用。
+本部分演示可用于预配 Skype 会议室系统帐户的示例脚本。 这些脚本仅用于说明目的，应仅在咨询 IT 专家或域管理员后使用。
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>示例安装脚本： Skype for business 和 Exchange Server （内部部署）
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>示例安装脚本：Skype for Business 和 Exchange Server (本地) 
 
 ```powershell
 # On Exchange 
@@ -39,17 +39,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>示例安装脚本： Skype for business 和 Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>示例安装脚本：Skype for Business 和 Exchange Server Online
 
-在运行脚本之前，请务必查看以下先决条件：
+在运行脚本之前，请确保已查看以下先决条件：
   
-- 适用于 IT 专业人员 BETA 的 Microsoft Online Services 登录助手
+- Microsoft Online Services Sign-In IT 专业人员 BETA 的助理
     
-- 用于 Windows PowerShell 的 Windows Azure Active Directory 模块（64 位版本）或（32 位版本）
+- Windows Azure 64 位Windows PowerShell (或 32 位) 或 32 (的 Active Directory 模块) 
     
-- 用于 Lync Online 的 Windows PowerShell 模块
+- Windows PowerShell Lync Online 的模块
     
-- 根据需要重启
+- 如果需要，请重启
     
 ```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment

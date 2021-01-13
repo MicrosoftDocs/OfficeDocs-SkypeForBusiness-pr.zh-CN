@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中创建网络区域链接
+title: 在 Skype for Business Server 中创建网络区域链接
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: 创建或修改网络区域链接，这些链接由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。
-ms.openlocfilehash: 20fdbca9eb56fad9b69c6299177301e82fbf115a
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 创建或修改网络区域链接，这些链接企业语音 Skype for Business Server 中的呼叫允许控制。
+ms.openlocfilehash: 1b891a299e85836e4a69b4a6c6e9df9a52cb0cdc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767905"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822462"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建网络区域链接
+# <a name="create-network-region-links-in-skype-for-business-server"></a>在 Skype for Business Server 中创建网络区域链接
  
-创建或修改网络区域链接，这些链接由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。 
+创建或修改网络区域链接，这些链接企业语音 Skype for Business Server 中的呼叫允许控制。 
   
-网络内的区域通过物理 WAN 连接进行链接。 网络区域链接在为呼叫允许控制 (CAC) 配置的两个区域之间创建链接，并为这两个区域之间的音频和视频流量设置带宽限制。
+网络内的区域通过物理 WAN 连接进行链接。 网络区域链接在为呼叫允许控制 (CAC) 配置的两个区域之间创建一个链接，并设置这些区域之间的音频和视频流量的带宽限制。
   
-示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。 其中每个区域链接均受 WAN 带宽的约束，如区域链接带宽信息表中所述[：在 Skype For Business 服务器中收集呼叫许可控制的要求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
+示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。 每个区域链接都受 WAN 带宽限制，如示例：收集 Skype for Business Server 中的呼叫允许控制要求的区域链接 [带宽信息表中所述](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business 服务器命令行管理程序创建网络区域链接
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序创建网络区域链接
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+1. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 2. 运行 New-CsNetworkRegionLink cmdlet 创建区域链接并应用相应的带宽策略配置文件。 例如，运行：
     
@@ -45,28 +45,28 @@ ms.locfileid: "41767905"
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>使用 "Skype for Business 服务器" 控制面板创建网络区域链接
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板创建网络区域链接
 
-1. 打开 "Skype for Business 服务器" 控制面板。
+1. 打开 Skype for Business Server 控制面板。
     
-2. 在左侧导航栏中，单击“网络配置”****。
+2. 在左侧导航栏中，单击“网络配置”。
     
-3. 单击“区域链接”**** 导航按钮。
+3. 单击“区域链接”导航按钮。
     
-4. 单击“新建”****。
+4. 单击“新建”。
     
-5. 在“新建区域链接”**** 页上，单击“名称”****，然后键入网络区域链接的名称。
+5. 在“新建区域链接”页上，单击“名称”，然后键入网络区域链接的名称。
     
-6. 单击“网络区域 #1”****，然后在列表中单击要链接到“网络区域 #2”的网络区域。
+6. 单击“网络区域 #1”，然后在列表中单击要链接到“网络区域 #2”的网络区域。
     
-7. 单击“网络区域 #2”****，然后在列表中单击要链接到“网络区域 #1”的网络区域。
+7. 单击“网络区域 #2”，然后在列表中单击要链接到“网络区域 #1”的网络区域。
     
-8. 也可以选择单击“带宽策略”****，然后选择要应用于网络区域链接的带宽策略配置文件。
+8. 也可以选择单击“带宽策略”，然后选择要应用于网络区域链接的带宽策略配置文件。
     
     > [!NOTE]
     > 仅在网络区域链接受带宽限制，并且您希望使用 CAC 控制该链接上的媒体流量时，应用带宽策略。 
   
-9. 单击“**提交**”。
+9. 单击“提交”。
     
 10. 要为拓扑完成网络区域链接的创建，请使用其他区域的设置重复步骤 4 至 9。
     

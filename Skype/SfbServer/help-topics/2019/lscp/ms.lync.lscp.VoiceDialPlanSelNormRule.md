@@ -1,8 +1,8 @@
 ---
 title: 选择规范化规则
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 ROBOTS: NOINDEX, NOFOLLOW
-description: 规范化规则使用 .NET Framework 正则表达式将拨打的电话号码转换为 E.164 格式。必须将每个拨号计划分配给一个或多个规范化规则。
-ms.openlocfilehash: d5e8e01d318082199919b193fa48aea0cbe1b355
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 规范化规则使用 .NET Framework 正则表达式将拨打的电话号码转换为 E.164 格式。 必须将每个拨号计划分配给一个或多个规范化规则。
+ms.openlocfilehash: dda49bb8ae3a1ebce7eeb5b63877bd2cea323e86
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797829"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820102"
 ---
 # <a name="select-normalization-rules"></a>选择规范化规则
  
-规范化规则使用 .NET Framework 正则表达式将拨打的电话号码转换为 E.164 格式。必须将每个拨号计划分配给一个或多个规范化规则。
+规范化规则使用 .NET Framework 正则表达式将拨打的电话号码转换为 E.164 格式。 必须将每个拨号计划分配给一个或多个规范化规则。
   
-要使用现有的规范化规则，请单击列表中的某个规则，然后单击“**确定**”。
+要使用现有的规范化规则，请单击列表中的某个规则，然后单击“确定”。
   
  
   

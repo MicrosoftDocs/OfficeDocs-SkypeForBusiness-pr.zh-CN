@@ -1,8 +1,8 @@
 ---
 title: 示例持久聊天数据库查询
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
-description: 本部分包含持久聊天数据库的示例查询。
-ms.openlocfilehash: f161deb55cb9ecb0e42eb23e71cd842aa8f3d99a
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 本节包含持久聊天数据库的示例查询。
+ms.openlocfilehash: 74cb6c1029cdeaabcd74a34898731b44c71f05a7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887711"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823102"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>示例持久聊天数据库查询
  
-本部分包含持久聊天数据库的示例查询。
+本节包含持久聊天数据库的示例查询。
   
 使用以下示例获取特定日期后最活跃的持久聊天室的列表。
   
@@ -34,7 +34,7 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-使用以下示例，获取特定日期后最活跃的用户的列表。
+使用以下示例可获得某个日期后多数活动用户的列表。
   
 ```SQL
 SELECT prinName as Name, count(*) as ChatMessages
@@ -44,7 +44,7 @@ SELECT prinName as Name, count(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-使用以下示例获取曾经使用 "Hello World" 发送邮件的所有人的列表。
+使用以下示例可获得曾经发送其中包含“Hello World”的消息的每位用户的列表。
   
 ```SQL
 SELECT nodeName as ChatRoom, prinName as Name, content as Message
@@ -52,7 +52,7 @@ SELECT nodeName as ChatRoom, prinName as Name, content as Message
   WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 ```
 
-使用以下示例获取特定主体的组成员身份列表。
+使用以下示例可获得某个主体的组成员身份的列表。
   
 ```SQL
 SELECT prinName as Name    
@@ -60,7 +60,7 @@ SELECT prinName as Name
   where principalID = 7 and affiliationID = prinID
 ```
 
-使用以下示例获取用户（Jane 道琼斯）的每个聊天室的列表，该列表是的直接成员。
+使用以下示例可获得用户 Jane Dow 属于其直接成员的每个聊天室的列表。
   
 ```SQL
 SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
@@ -68,7 +68,7 @@ SELECT DISTINCT nodeName as ChatRoom, prinName as Name
   WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 ```
 
-使用以下示例获取用户已收到的邀请列表。
+使用以下示例可获得用户已接收的邀请的列表。
   
 ```SQL
 SELECT prinName

@@ -1,13 +1,13 @@
 ---
-title: PowerShell 脚本示例-团队部署清理
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell 脚本示例 - Teams 部署清理
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本卸载团队并删除用户的 "团队" 文件夹。
+description: 使用此 PowerShell 脚本卸载 Teams 并删除用户的 Teams 文件夹。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7245e3cfee88beb51389f20bc99bbcc312f55b0
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: f4b0bac09e18a9c6378623066889d6b1a891a4a2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778906"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809482"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell 脚本示例-团队部署清理
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell 脚本示例 - Teams 部署清理
 
-使用此脚本删除团队。 此脚本将卸载团队并删除用户的 "团队" 文件夹。 对计算机上安装了团队的每个用户配置文件运行此脚本。
+使用此脚本删除 Teams。 此脚本卸载 Teams 并删除用户的 Teams 文件夹。 针对计算机上安装 Teams 的每个用户配置文件运行此脚本。
 
 
 ## <a name="sample-script"></a>示例脚本
@@ -65,4 +65,4 @@ catch
 ## <a name="related-topics"></a>相关主题
 
 - [使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams](../msi-deployment.md)
-- [通过 Microsoft 365 应用部署团队](https://docs.microsoft.com/deployoffice/teams-install)
+- [使用 Microsoft 365 应用部署 Teams](https://docs.microsoft.com/deployoffice/teams-install)

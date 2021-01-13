@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams 的 CCaaS (解决方案集成) 中心服务概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6691b246e294db5b1d356431aa2a52f9b67d3446
-ms.sourcegitcommit: 6f1e245ac9a026468432a041a7255104191ae7d3
+ms.openlocfilehash: e48cac3e556c6bb99e29ad07f3d875362ad42489
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49716963"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820992"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
@@ -26,15 +26,15 @@ ms.locfileid: "49716963"
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>什么是 Microsoft Teams 的联系人中心集成？
 
-如今的联系中心提供的不仅仅是支持 – 它们充当交互的主要工具之一，并且未筛选有关客户品牌体验的反馈。 由于当今客户喜欢跨多种渠道（电话、电子邮件、文本、社交）参与，并且与当前购买流程相关的触摸点数量增加，许多组织实现了另外两项改进：
+如今的联系中心提供的不仅仅是支持 – 它们充当交互的主要工具之一，并且未筛选有关客户品牌体验的反馈。 由于当今客户喜欢跨多种渠道（电话、电子邮件、文本、社交）参与，并且与当前购买流程相关的触摸点数量增加，许多组织实现了另外两个改进：
 
 1. 组织的每一个成员都有可能直接与客户互动，因此需要配备相应的工具。
 
 2. 这种扩展的客户交互范围需要有助于促进一致性、持续改进和缩放的工具。
 
-Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通话）进行内部和外部客户连接的中心，支持客户交互工作流。 对于一些公司，Microsoft Teams[的云](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)语音功能（包括[](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)[自动](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)助理和呼叫队列）提供功能和配置来满足其需求。
+Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通话）的内部和外部客户连接的中心，支持客户交互工作流。 对于一些公司，Microsoft Teams[的云](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)语音功能（包括[](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)[自动](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)助理和呼叫队列）提供功能和配置来满足其需求。
 
-对于想要将解决方案与业务工具和工作流集成以驱动客户旅程的其他人，Microsoft Teams 还集成了一些行业领先的"联系中心" (CCaaS) 解决方案提供商。
+对于想要将解决方案与业务工具和工作流集成以驱动客户旅程的其他人，Microsoft Teams 还集成了一些行业领先的联系中心 (CCaaS) 解决方案提供商。
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 认证计划的已连接联系中心
 
@@ -53,6 +53,7 @@ Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通�
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
+| "Geomant" | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
@@ -74,19 +75,19 @@ Microsoft Teams 提供了一系列功能来支持第三方语音解决方案的�
 
 4. Teams SDK
 
-这些功能共同支持 3 种集成模型：
+这些功能共同支持三种集成模型：
 
   - **通过** (路由连接) 
 
   - **连接和扩展** (直接路由、图形 API 和 Teams 应用平台) 
 
-  - **扩展和 power** (将 Teams SDK 嵌入到 3p 应用中，实现本机 Teams) 
+  - **扩展和 power** (Teams SDK 嵌入到 3p 应用中，实现本机 Teams) 
 
 ### <a name="connect"></a>连接
 
 此模型将 CCaaS 合作伙伴与 Microsoft Teams 手机系统基础结构相连接，实现增强的路由、配置和系统见解。 在此模型中，联系中心合作伙伴解决方案还可以为所选号码和用户提供电话服务。
 
-使用基于 Connect 模型构建的解决方案的代理可以收集信息&见解，并在必要时直接将呼叫转接给主题专家，利用 SME 在 Teams 中的存在来确保其可用性。
+使用基于 Connect 模型构建的解决方案的代理可以收集信息&见解，并在必要时直接将呼叫转接给主题专家，使用 SME 在 Teams 中的存在来确保其可用性。
 
 组织可以通过设置自动化虚拟助手和基于技能的路由队列，确保将呼叫路由到最佳代理。
 
@@ -106,13 +107,13 @@ Microsoft Teams 提供了一系列功能来支持第三方语音解决方案的�
 
   - 能够支持多租户 SIP 中继，以支持合作伙伴 SBC 上的多个客户。  
 
-  - 实施 Microsoft 认证的 [<span class="underline">会话边界控制器的合作伙伴 (SBC) </span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - 在 [<span class="underline">SBC 中实现 Microsoft 认证的会话边界控制器 (合作伙伴) </span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>连接和扩展
 
 此模型通过使用[Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)中的 Teams 客户端平台[、Teams Graph API](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)和云通信 API 与[Teams](https://docs.microsoft.com/microsoftteams/platform/overview)客户端集成，扩展了联系中心人员和代理体验，并使用 Teams 电话系统进行所有联系中心呼叫和呼叫控制体验。 在此模型中，联系中心合作伙伴与 Microsoft 365 一起充当电话运营商。
 
-利用基于连接和扩展的解决方案，代理可以在启动参与之前从多个系统关联数据的动态上下文笔记受益，然后通过本机在 Teams 中为内部协作和外部通信工作来避免代价高昂的上下文切换。
+通过使用基于连接和扩展的解决方案，代理可以在启动参与之前从多个系统关联数据的动态上下文笔记受益，然后通过本机在 Teams 中为内部协作和外部通信工作来避免代价高昂的上下文切换。
 
 组织可以设计工作流和高级路由配置（向下到个人）并测量其系统和交互的质量。
 
@@ -138,11 +139,11 @@ Microsoft Teams 提供了一系列功能来支持第三方语音解决方案的�
 
 ### <a name="extend-and-power"></a>扩展和电源
 
-此模型使合作伙伴能够利用 Teams 呼叫基础结构和客户端平台创建基于 Azure 的本机语音应用程序，为协作客户和代理连接提供现代智能解决方案。 扩展和 Power 的目标是培养开发人员的创造力，并提升客户工作效率。
+此模型使合作伙伴能够使用 Teams 呼叫基础结构和客户端平台创建基于 Azure 的本机语音应用程序，以提供用于协作客户和代理连接的现代智能解决方案。 扩展和 Power 的目标是培养开发人员的创造力，并提升客户工作效率。
 
 通过直接在 Azure 上构建，合作伙伴可以跨所有 Teams 区域与地理位置快速部署和预配其解决方案，从共享的全球通信网络受益，同时利用 Azure 的存储、计算和分析&认知服务。
 
-借助扩展和 Power 集成模型，合作伙伴可以提供具有全通道通信体验的联系人中心代理，同时整合人工智能，以自定义参与者或其他服务利用 Microsoft Graph 中的云 [通信 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)参与呼叫的方法和时间。
+借助扩展和 Power 集成模型，合作伙伴可以提供具有全通道通信体验的联系人中心代理，同时整合人工智能，以自定义参与者或其他服务在 [Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)中应用云通信 API 的通话方式和时间。
 
 **功能亮点：**
 
@@ -150,7 +151,7 @@ Microsoft Teams 提供了一系列功能来支持第三方语音解决方案的�
 
   - 通过 Teams SDK 以本机方式为全通道通信启用的正式代理体验 
 
-  - 利用 Teams 协作服务进行代理协作和客户交互  
+  - 使用 Teams 协作服务进行代理协作和客户交互  
 
   - 快速预配云服务，随时随地部署 
 

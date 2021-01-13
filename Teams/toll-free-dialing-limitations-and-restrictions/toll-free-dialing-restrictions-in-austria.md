@@ -1,7 +1,7 @@
 ---
 title: 奥地利的免费拨号限制
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -21,29 +21,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 "拨号格式" 或 "格式" 显示每个国家或地区内所需的访问代码，以拨打免费电话号码。
-ms.openlocfilehash: f918f94df2a5346987a4d5fc684fdff20e80eff5
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式显示拨打免费电话号码所需的每个国家/地区内所需的访问代码。
+ms.openlocfilehash: 510792e131a89ac09a0de0c537f8a742d4ee9b5b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321541"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815612"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>奥地利的免费拨号限制
 
-[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
+[查找另一个国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和局限性的更多内容。
 
 
 |**Details**|**说明**|
 |:-----|:-----|
-|是否可以免费通话？  <br/> |是  <br/> |
-| (s 的拨号格式)   <br/> | 0 800 XX XXX <br>|
-|国家/地区 ISO 代码  <br/> |看  <br/> |
-|已覆盖的岛/地区  <br/> |不适用  <br/> |
-|未覆盖的岛/区域  <br/> | 不适用  <br/>  |
+|是否提供免费呼叫？  <br/> |是  <br/> |
+|按 (拨号)   <br/> | 0 800 XX XXX <br>|
+|国家/地区 ISO 代码  <br/> |AT  <br/> |
+|涵盖的岛屿/区域  <br/> |不适用  <br/> |
+|未涵盖的岛屿/区域  <br/> | 不适用  <br/>  |
 |有线/固定线路可用性  <br/> |是  <br/> |
-|移动网络可用性  <br/> | 是 (某些号码可能是 premium)  <br/> |
-|批注、限制和访问问题  <br/> |无  <br/> |
+|移动网络可用性  <br/> | 可以 (某些数字可能是高级)  <br/> |
+|注释、限制和访问问题  <br/> |无  <br/> |
 
 ## <a name="related-topics"></a>相关主题
 

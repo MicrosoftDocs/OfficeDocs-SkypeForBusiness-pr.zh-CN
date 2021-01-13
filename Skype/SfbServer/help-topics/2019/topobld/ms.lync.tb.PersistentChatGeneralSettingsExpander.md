@@ -1,8 +1,8 @@
 ---
 title: 持久聊天常规设置扩展器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 ROBOTS: NOINDEX, NOFOLLOW
-description: 通过配置或定义这些属性，可以编辑持久聊天服务器或持久聊天服务器池的常规设置：
-ms.openlocfilehash: 4b2e1a01310a612b001d51a99159e6702b9bb005
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 通过配置或定义以下属性编辑持久聊天服务器或持久聊天服务器池的常规设置：
+ms.openlocfilehash: 33a5f3ad5866608faff07b3e8d56776e5411628a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794811"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819392"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>持久聊天常规设置扩展器
 
 > [!NOTE] 
-> Skype for business Server 2015 中提供了持久聊天，但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息，请参阅[Skype for business 到 Microsoft 团队升级](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果需要使用持久聊天，您可以选择将需要此功能的用户迁移到团队或继续使用 Skype for Business Server 2015。
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 Teams 中也提供相同的功能。 有关详细信息，请参阅 [Skype for Business 到 Microsoft Teams 的升级](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 如果你需要使用持久聊天，你的选择是：将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。

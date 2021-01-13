@@ -1,7 +1,7 @@
 ---
 title: 登记早期采用者并收集反馈
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 选择团队采纳的实验阶段的早期采纳者，然后收集项目的反馈。
+description: 为 Teams 采用实验阶段选择早期采用者，然后收集项目的反馈。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,32 +21,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: ba82d305d48471e414c8da18aadf598d42445d6d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350236"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821072"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>为早期采用者上线 Microsoft Teams 并收集反馈
 
-返回到在您的先期使用者计划中表达兴趣的员工的列表。 确定这些人员中的哪些人员应参与团队的初始实验。 这可能是所有感兴趣的人或部分。 即使你没有为这些初始项目选择它们，也可以继续与他们进行通信，以便他们有兴趣，并愿意参与未来的参与。 根据您与业务利益干系人、技术团队和上述 "优先顺序" 练习所选项目，他们将成为您选择的项目的加入过程的一部分。 
+返回到对早期采用者计划感兴趣的员工列表。 确定这些人员中哪些人应参与 Teams 的初始试验。 它可能是所有或部分感兴趣的人员。 即使你未为这些初始项目选择它们，也请继续与它们沟通，以便他们保持兴趣并愿意参与将来的项目。 根据与业务利益干系人、技术团队的讨论以及上面所示的优先级设置，他们将是所选项目的载入过程的一部分。 
 
-通过这些早期采纳者完成以下步骤：
+使用这些早期采用者完成以下步骤：
 
-1. 向他们发送邀请电子邮件，邀请他们加入社区
-2. 主持一个启动呼叫，以便与他们分享早期使用计划计划的目标和结果
-3. 确保访问团队拥护团队的反馈频道和你可能使用的任何其他内部社交网络工具。 
-4. 考虑为他们创建定期调查，以完成将收集目标信息的操作。
+1. 向他们发送邀请电子邮件以邀请他们加入社区，
+2. 主持启动呼叫，与它们分享早期采用者计划的目标与结果，
+3. 确保访问团队的反馈渠道以及可以使用的其他任何内部社交网络工具。 
+4. 请考虑创建定期调查，让他们完成收集目标信息。
 
 ## <a name="gather-feedback"></a>收集反馈
 
-使用 Microsoft 365 或 Office 365 的组件收集有关你的项目的反馈。
+使用 Microsoft 365 或 Office 365 的组件收集项目的反馈。
   
-![代表决策点的图标](media/teams-adoption-decision-icon.png) 决策：如果你的组织已在 Yammer 网络中拥有投资，则可以将其用作你的早期使用计划计划的反馈论坛。 如果不是，并且您的早期使用程序计划的成员少于5000个，请在团队中创建团队以收集反馈和提供培训。
+![代表决策点的图标](media/teams-adoption-decision-icon.png) 决策：如果您的组织已在 Yammer 网络方面投资，您可以将它用作早期采用者计划的反馈论坛。 如果没有，并且早期采用者计划的成员少于 5000 人，在 Teams 中创建一个团队来收集反馈并提供培训。
   
 > [!Note]
-> 某些组织会将早期的先期采用反馈的渠道合并到团队成员拥护团队中。 这是一种很好的方法，因为许多早期使用者可能会在将来成为拥护者，并且将构建更强大的社区。 
+> 某些组织将早期采用者反馈的渠道合并到团队团队支持计划团队中。 这是一个不错的方法，因为许多早期采用者将来可能会成为支持者，并且它将构建一个更强大的社区。 
 
 
-![表示下一步骤的图标 ](media/teams-adoption-next-icon.png) ：[板载支持](teams-adoption-onboard-support.md)。
+![表示下一步"下一步 ](media/teams-adoption-next-icon.png) ： [载入支持"的图标](teams-adoption-onboard-support.md)。

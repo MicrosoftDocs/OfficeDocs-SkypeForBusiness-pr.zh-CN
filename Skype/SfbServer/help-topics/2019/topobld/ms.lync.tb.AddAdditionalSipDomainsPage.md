@@ -1,8 +1,8 @@
 ---
 title: 添加其他 SIP 域
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece37fc3-365a-439e-ad03-800f8e7a33eb
 ROBOTS: NOINDEX, NOFOLLOW
-description: 指定要在部署中支持的每个其他域的域名。 例如，如果你已将 contoso.net 指定为主会话初始协议（SIP）域，并且你还希望为你的部署中的 SIP 流量支持 fabrikam.net，请将 fabrikam.net 指定为其他受支持的域。
-ms.openlocfilehash: d92d20cf3df2aa54c169028708d00a1e438c5f4c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 指定要在部署中支持的每个其他域的域名。例如，如果指定了 contoso.net 作为主会话初始协议 (SIP) 域，并且要针对部署中的 SIP 流量支持 fabrikam.net，则指定 fabrikam.net 作为其他支持域。
+ms.openlocfilehash: 3df82f2a870d57aa6f6a0b5ada5391f649536dad
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794441"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819592"
 ---
 # <a name="add-additional-sip-domains"></a>添加其他 SIP 域
  
-指定要在部署中支持的每个其他域的域名。 例如，如果你已将 contoso.net 指定为主会话初始协议（SIP）域，并且你还希望为你的部署中的 SIP 流量支持 fabrikam.net，请将 fabrikam.net 指定为其他受支持的域。
+指定要在部署中支持的每个其他域的域名。例如，如果指定了 contoso.net 作为主会话初始协议 (SIP) 域，并且要针对部署中的 SIP 流量支持 fabrikam.net，则指定 fabrikam.net 作为其他支持域。
   
 

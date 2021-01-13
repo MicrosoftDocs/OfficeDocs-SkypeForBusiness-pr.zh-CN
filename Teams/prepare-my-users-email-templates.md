@@ -1,14 +1,14 @@
 ---
-title: 用于在线电话系统推出的用户通知电子邮件模板
-author: lanachin
-ms.author: v-lanac
+title: 用于在线电话系统推广的用户通知电子邮件模板
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 当您在团队或 Skype for business 中实施云语音功能时，请使用模板向用户发送电子邮件。
+description: 在 Teams 或 Skype for Business 中实现云语音功能时，使用模板向用户发送电子邮件。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,20 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0382f8033d9faf925d5d5cd4023bf43e543b7b86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e224f12a2c2aa7f41ee772980ffea24a907197c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137512"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812642"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>帮助用户采用全新的在线电话系统
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>促进用户采用新的在线电话系统
 
-电话可以是用户的生命线。 从传统的电话系统切换到联机电话系统表示用户工作方式的重大更改，并且可能会对工作效率产生负面影响。 通过此更改来通知、指导和支持用户需要花费一些时间，从而有助于确保积极的用户体验并最大限度地提高投资回报。
+手机可以是用户的生命线。 从传统电话系统切换到在线电话系统意味着用户工作方式的显著变化，并且可能会对工作效率产生负面影响。 通过此更改，花时间通知、指导和支持用户有助于确保积极的用户体验并最大程度地提高投资回报。
 
-本文包含可自定义的电子邮件模板，可帮助用户了解其新电话系统。 自定义和发送相应的电子邮件以与特定的语音部署保持一致。 我们已使用方括号指示分区以轻松进行个性化设置，但我们建议你添加特定于组织的消息，以使通知与你的用户最相关。 如果适用于你的部署，请将对 "团队" 的所有引用替换为 "Skype for Business"。
+本文包含可自定义的电子邮件模板，可帮助用户了解其新电话系统。 自定义并发送适当的电子邮件，以便与特定语音部署保持一致。 我们使用了括号来指示易于个性化的各个部分，但我们建议添加特定于组织的消息，使公告最适用于用户。 如果适用于部署，请将对"Teams"的所有引用替换为"Skype for Business"。
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>电子邮件号码1：启动前三周发送
+## <a name="email-number-1-send-three-weeks-before-launch"></a>电子邮件编号 1：在启动前三周发送
 
 主题行：
 
@@ -94,7 +94,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>电子邮件号码2：在开始之前发送一周
+## <a name="email-number-2-send-one-week-before-launch"></a>电子邮件编号 2：在启动前一周发送
 
 主题行：
 
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>电子邮件号码3：在启动日时发送
+## <a name="email-number-3-send-on-launch-day"></a>电子邮件编号 3：在启动日发送
 
 主题行：
 
@@ -175,7 +175,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>电子邮件号码4：启动后发送两周
+## <a name="email-number-4-send-two-weeks-after-launch"></a>电子邮件编号 4：在启动后两周发送
 
 主题行：
 

@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 2015 中的制造商表
+title: Skype for Business Server 2015 中的 Manufacturers 表
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
-description: 制造商表是支持表。 每条记录存储有关一个设备（桌面电话）制造商的信息。
-ms.openlocfilehash: 9d7c23db061e5c307340c9a2d93a53d715de3b2e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Manufacturers 表是一个支持表。 每条记录都存储有关桌面电话 (制造商) 的信息。
+ms.openlocfilehash: f3cdd6e33732eb226cc2d99ff403495ac19f5567
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815100"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821482"
 ---
-# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的制造商表
+# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 Manufacturers 表
  
-制造商表是支持表。 每条记录存储有关一个设备（桌面电话）制造商的信息。
+Manufacturers 表是一个支持表。 每条记录都存储有关桌面电话 (制造商) 的信息。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ManufacturerId** <br/> |int  <br/> |Primary  <br/> |标识此制造商的唯一号码。  <br/> |
-|**制造商** <br/> |nvarchar(256)  <br/> | <br/> |制造商名称。  <br/> |
+|**ManufacturerId** <br/> |int  <br/> |主  <br/> |标识此制造商的唯一编号。  <br/> |
+|**制造商** <br/> |nvarchar (256)   <br/> | <br/> |制造商名称。  <br/> |
    
 

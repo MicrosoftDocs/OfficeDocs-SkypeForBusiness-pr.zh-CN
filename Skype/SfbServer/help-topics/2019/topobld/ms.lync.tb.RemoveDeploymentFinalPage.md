@@ -1,8 +1,8 @@
 ---
 title: 删除部署
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
 ROBOTS: NOINDEX, NOFOLLOW
-description: 单击“完成”以创建空拓扑，这是停用整个部署的第一步。
-ms.openlocfilehash: 0efb8caa1092f542c247d1eb37d839ac9019b3b2
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 单击"完成"以创建空拓扑作为停用整个部署的第一步。
+ms.openlocfilehash: e824c7d946b7d23f0dc48ff6231957c527740019
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797223"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822102"
 ---
 # <a name="remove-deployment"></a>删除部署
  
-单击“**完成**”以创建空拓扑，这是停用整个部署的第一步。
+单击 **"** 完成"以创建空拓扑作为停用整个部署的第一步。
   
 > [!CAUTION]
 > 不能撤消此步骤。 

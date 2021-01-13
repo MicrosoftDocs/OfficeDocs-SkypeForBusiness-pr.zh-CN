@@ -1,8 +1,8 @@
 ---
 title: 准备单个 Standard Edition Server（调用）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 ROBOTS: NOINDEX, NOFOLLOW
-description: 在 "执行命令" 页面上，安装 SQL Server Express 和配置以充当中央管理存储的任务可以在任务窗格中查看。 默认情况下，将创建名为 "RTC" 的基于 SQL Server 的数据库实例。 还会创建防火墙规则，以允许服务器和客户端与数据库和实例通信的入站和出站访问。 任务完成后，您可以从下拉列表中选择日志文件。 日志文件被命名为 "引导本地计算机"。 选择日志文件后，单击 "查看日志"。 查看日志文件，查看是否有任何错误和警告。 准备好继续时，单击 "完成"。 现在，你应该使用拓扑生成器定义拓扑（如果尚未执行此操作）。
-ms.openlocfilehash: 0a1b8245df8e50ba4da73c98e9dcb865446a0ecc
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 在"正在执行命令"页上，可以在任务窗格中查看安装 SQL Server Express 并配置为充当中央管理存储的任务。 默认情况下，将创建一SQL Server名为 RTC 的基于数据库的实例。 还会创建防火墙规则，以允许对服务器和客户端的入站和出站访问，从而与数据库和实例进行通信。 完成任务后，可从下拉列表中选择日志文件。 日志文件名为“Bootstrap local machine”。 选择此日志文件后，单击“查看日志”。 在日志文件中查看任何错误和警告信息。 准备好继续操作时，单击“完成”。 如果尚未定义拓扑生成器，现在应该使用拓扑生成器定义拓扑。
+ms.openlocfilehash: c3e6e01f7aed0471d8f1eed0ad79f8ef6320f86a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796963"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820612"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>准备单个 Standard Edition Server（调用）
  
-在 "**执行命令**" 页面上，安装 SQL Server Express 和配置以充当中央管理存储的任务可以在任务窗格中查看。 默认情况下，将创建名为 "RTC" 的基于 SQL Server 的数据库实例。 还会创建防火墙规则，以允许服务器和客户端与数据库和实例通信的入站和出站访问。 任务完成后，您可以从下拉列表中选择日志文件。 日志文件被命名为 "**引导本地计算机**"。 选择日志文件后，单击 "**查看日志**"。 查看日志文件，查看是否有任何错误和警告。 准备好继续时，单击 "**完成"。** 现在，你应该使用拓扑生成器定义拓扑（如果尚未执行此操作）。
+在 **"正在执行命令** "页上，可以在任务窗格中查看安装 SQL Server Express 并配置为充当中央管理存储的任务。 默认情况下，将创建一SQL Server名为 RTC 的基于数据库的实例。 还会创建防火墙规则，以允许对服务器和客户端的入站和出站访问，从而与数据库和实例进行通信。 完成任务后，可从下拉列表中选择日志文件。 日志文件名为“Bootstrap local machine”。 选择此日志文件后，单击“查看日志”。 在日志文件中查看任何错误和警告信息。 准备好继续操作时，单击“完成”。 如果尚未定义拓扑生成器，现在应该使用拓扑生成器定义拓扑。
   
 > [!IMPORTANT]
-> SQL Server Express 安装可能需要一些时间才能完成。 在安装期间，屏幕或任务窗格上不显示进度。 若要监视安装，应使用 Windows 任务管理器，查找 MSIExec 进程和 SQL Server 的安装文件。 通过这种方式，您可以查看安装的状态，并确保安装正在继续。 根据本帮助主题范围之外的因素，安装 SQL Server 实例最多可能需要15分钟的时间才能完成。 
+> 安装 SQL Server Express 可能需要一些时间才能完成。 安装期间，屏幕或任务窗格上不会显示安装进度。 若要监视安装，您应使用 Windows 任务管理器并查找 MSIExec 进程和安装程序文件SQL Server。 这样就可以查看安装状态并确保安装正在进行。 根据此帮助主题范围以外的因素，可能需要 15 分钟或SQL Server安装实例。 
   
 

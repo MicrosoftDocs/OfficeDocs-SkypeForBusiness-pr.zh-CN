@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 2015 中的 "位置" 表
+title: Skype for Business Server 2015 中的位置表
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
-description: 每条记录代表紧急呼叫中的一个位置引用，如 E9-1-1 通话。
-ms.openlocfilehash: a1dd7dfdf84ef196b24fa97b1b24950c326b0241
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 每条记录均表示紧急呼叫（例如 E9-1-1 呼叫）中的一个位置引用。
+ms.openlocfilehash: b177e79217f8586d7655b2a4645a603bd8e2f97f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815110"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821512"
 ---
-# <a name="locations-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 "位置" 表
+# <a name="locations-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的位置表
  
-每条记录代表紧急呼叫中的一个位置引用，如 E9-1-1 通话。
+每条记录均表示紧急呼叫（例如 E9-1-1 呼叫）中的一个位置引用。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |主、外部  <br/> |会话请求的时间。 与**SessionIdSeq**结合使用以唯一标识会话。 有关详细信息，请参阅[Skype For Business Server 2015 中的对话框表](dialogs.md)。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |主、外部  <br/> |标识会话的 ID 号。 与**SessionIdTime**结合使用以唯一标识会话。 有关详细信息，请参阅[Skype For Business Server 2015 中的对话框表](dialogs.md)。 <br/> |
-|**位置** <br/> |nvarchar （max）  <br/> ||紧急电话的位置。  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |主、外  <br/> |会话请求的时间。 与 **SessionIdSeq** 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主、外  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**位置** <br/> |nvarchar (max)   <br/> ||紧急呼叫的位置。  <br/> |
    
 

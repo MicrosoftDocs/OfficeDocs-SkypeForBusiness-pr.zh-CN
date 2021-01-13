@@ -1,8 +1,8 @@
 ---
 title: 更新 Skype for Business Server 的统计信息管理器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,99 +12,99 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 摘要：阅读本主题，了解如何升级 Skype for business 服务器的统计管理器。
-ms.openlocfilehash: 6d54261ce9148986df5342bc228fe70b1477e17a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：阅读本主题，了解如何升级 Skype for Business Server 的统计信息管理器。
+ms.openlocfilehash: 6f2f0b885faad7bd650b3ff90650b64af98e9eee
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816201"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821762"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>更新 Skype for Business Server 的统计信息管理器
  
-**摘要：** 阅读本主题，了解如何升级 Skype for Business 服务器的统计管理器。
+**摘要：** 阅读本主题，了解如何升级 Skype for Business Server 的统计信息管理器。
   
-本主题介绍了如何升级适用于 Skype for Business 服务器的统计信息管理器的现有安装，这是一种功能强大的工具，允许你实时查看 Skype for business Server 运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并且在统计信息管理器网站上立即查看结果。 
+本主题介绍如何升级 Skype for Business Server 统计信息管理器的现有安装，这是一个功能强大的工具，可让你实时查看 Skype for Business Server 运行状况和性能数据。 您可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。 
   
-有关统计信息管理器和版本2.0 中的新功能的详细信息，请参阅规划适用于 Skype for business[服务器的统计管理器](plan.md)和[部署 Skype for Business 服务器的统计信息管理器](deploy.md)。
+有关统计信息管理器和 2.0 版中的新功能，请参阅 Plan [for Statistics Manager for Skype for Business Server](plan.md) and Deploy Statistics Manager for Skype for Business [Server。](deploy.md)
   
-升级方法有两种：
+有两种升级方法：
   
-- **自动升级**。 此方法使用自动脚本。 这是最简单的方法，并且应适用于所有升级方案。
+- **自动升级。** 此方法使用自动化脚本。 这是最简单的方法，应适用于所有升级方案。
     
-- **手动升级**。 此方法在自动升级失败的异常情况下作为备份计划提供。
+- **手动升级。** 此方法在自动升级失败这一异常情况下作为备份计划提供。
     
 ## <a name="prerequisites"></a>先决条件
 
-在升级之前，务必获得以下信息：
+在升级之前，请确保你拥有以下信息：
   
 - 活动侦听器证书指纹
     
-- 侦听器服务密码（在安装侦听器和每个代理时输入）
+- 侦听器服务密码 (侦听器和每个代理安装时输入) 
     
 - 网站的 SSL 证书配置
     
 ## <a name="automated-upgrade"></a>自动升级
 
-脚本将收集您的当前证书信息和侦听器密码，请卸载产品的旧版本，然后安装产品的新版本。 服务器上安装的 Redis 实例将不受影响，因此缓存中存储的任何数据在升级过程中将会保留。
+该脚本将收集当前证书信息和侦听器密码，卸载产品的旧版本，然后安装产品的新版本。 不会触摸服务器上安装的 Redis 实例，因此缓存中存储的任何数据都将在升级过程中保留。
   
-1. 将代理、监听器和网站的新版本的 MSI 文件以及 Update-StatsMan 脚本连同脚本一起放置到侦听器计算机上的单个文件夹中。
+1. 将新版本的代理、侦听器和网站的 MSI 文件以及 Update-StatsMan.ps1 脚本放在侦听器计算机的单个文件夹中。
     
-2. 打开 PowerShell 管理窗口。 升级侦听器组件：
+2. 打开管理 PowerShell 窗口。 升级侦听器组件：
     
    ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
 > [!NOTE]
-> 统计信息管理器服务密码将在传递到安装程序的命令行中以明文形式显示。 必要时请务必遮蔽显示器。 
+> 统计信息管理器服务密码在传递到安装程序时，将在命令行上以纯文本显示。 请务必根据需要保护监视器。 
   
-1. 在运行脚本时，系统将提示您卸载产品的旧版本。 请单击“是”。
+1. 运行脚本时，应提示您卸载产品的旧版本。 回答是。
     
-2. 如果侦听器服务正在运行，系统将提示你关闭该应用程序，然后再继续。 允许应用程序关闭（统计信息管理器侦听器服务将停止）。
+2. 如果侦听器服务正在运行，系统将提示您关闭应用程序，然后再继续。 允许应用程序关闭 (将停止统计信息管理器侦听器服务) 。
     
-3. 继续执行安装过程。 您应该会注意到服务密码和证书指纹已预先填充。 如果不是，请添加您保存的值，然后继续。
+3. 继续安装过程。 您应该注意到服务密码和证书指纹已预填充。 如果没有，请添加您保存的值，然后再继续。
     
-4. 打开 PowerShell 管理窗口。 升级网站组件：
+4. 打开管理 PowerShell 窗口。 升级网站组件：
     
    ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
    ```
 
-5. 在运行脚本时，系统将提示您卸载产品的旧版本。 请单击“是”。
+5. 运行脚本时，应提示您卸载产品的旧版本。 回答是。
     
-6. 如果代理服务正在运行，系统将提示你关闭该应用程序，然后再继续。 允许该应用程序关闭（StatsMan 代理服务将停止）。
+6. 如果代理服务正在运行，系统将提示您关闭应用程序，然后再继续。 允许应用程序关闭 (StatsMan 代理服务将停止) 。
     
-7. 继续执行安装过程。 您应该会注意到服务密码和证书指纹已预先填充。 如果不是，请添加您保存的值，然后继续。
+7. 继续安装过程。 您应该注意到服务密码和证书指纹已预填充。 如果没有，请添加您保存的值，然后再继续。
     
-8. 打开 PowerShell 管理窗口。 升级代理组件：
+8. 打开管理 PowerShell 窗口。 升级代理组件：
     
    ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent
    ```
 
-9. 在运行脚本时，系统将提示您卸载产品的旧版本。 请单击“是”。
+9. 运行脚本时，应提示您卸载产品的旧版本。 回答是。
     
-10. 继续执行安装过程。 您应该会注意到网站端口已预先填充。 如果不是，请添加您保存的值，然后继续。
+10. 继续安装过程。 您应注意到网站端口已预填充。 如果没有，请添加您保存的值，然后再继续。
     
-11. 验证是否能够使用浏览器正常浏览该网站。
+11. 使用浏览器验证网站是否正常工作。
     
 > [!NOTE]
-> 代理升级时可使用 -NoPrompt 开关。 这将允许卸载/安装过程在无提示的情况下运行，让 PSExec 等工具能够在许多服务器上远程运行升级。 
+> 代理升级可以与 -NoPrompt 开关一起使用。 这将允许卸载/安装过程以静默方式运行，从而允许 PSExec 等工具在大量服务器上远程运行升级。 
   
 ### <a name="manual-upgrade"></a>手动升级
 
-如果由于某些原因，自动升级失败，您始终可以执行手动升级，如下所示：
+如果由于某种原因，自动升级失败，则始终可以按如下方式执行手动升级：
   
-1. 	在侦听器计算机上，通过“程序和功能”控制面板卸载侦听器、网站和代理（如果安装在此服务器上）。 
+1. 在侦听器计算机上，如果侦听器、网站和代理 (通过"程序和功能"控制面板) 安装在此服务器上，请卸载它。 
     
     > [!NOTE]
-    >   保留安装的 Redis，以便在升级过程中维护缓存中的数据。
+    >  保留 Redis 安装，以便缓存中的数据随后在升级过程中得到维护。
   
-2. 	安装组件的新版本，包括在前面的步骤中出现提示时保存的值。有关安装组件的更多信息，请参阅[部署统计信息管理器](deploy.md#BKMK_Deploy)
+2. 安装组件的新版本，包括在系统提示时保存的值。 有关安装组件的信息，请参阅部署 [统计信息管理器](deploy.md#BKMK_Deploy)
 
     
-## <a name="for-more-information"></a>有关详细信息
+## <a name="for-more-information"></a>更多详细信息
 <a name="BKMK_Fixed"> </a>
 
 有关详细信息，请参阅：

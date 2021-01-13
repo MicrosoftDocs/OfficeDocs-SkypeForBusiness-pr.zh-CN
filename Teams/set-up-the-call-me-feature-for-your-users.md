@@ -1,14 +1,14 @@
 ---
 title: 为用户设置“致电我”功能
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: macai, phedry
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 了解如何设置团队中的 "呼叫我" 功能，以便用户在使用其计算机音频时可以通过电话加入音频部分。
+description: 了解如何在 Teams 中设置"呼叫我"功能，以便用户在将计算机用于音频时通过电话加入音频部分。
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -17,60 +17,60 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d29a517b8df194fe19b9e16554f7c57964177c90
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 6b78edc01f68df19e850a85eb0ffa99163b9edae
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138012"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821092"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>为用户设置“致电我”功能
 
-在 Microsoft 团队中，"**呼叫我**" 功能为用户提供了一种通过电话加入会议音频部分的方式。 这在可能无法使用计算机音频的情况下很方便。 用户通过其手机或土地线以及会议的内容部分 &mdash; （如另一个会议参与者共享他们的屏幕或通过其计算机播放视频）获取会议的音频部分 &mdash; 。
+在 Microsoft Teams 中 **，"呼叫我** "功能为用户提供了通过电话加入会议音频部分的方法。 如果无法将计算机用于音频，则此功能非常方便。 用户通过其移动电话或座机获取会议的音频部分和会议的内容部分，例如当其他会议参与者共享其屏幕或通过其计算机 &mdash; &mdash; 播放视频时。
 
 > [!IMPORTANT]
 > 
-> 在高会议音量（我们已与 COVID 病毒发作）的期间，我们建议用户通过单击 "<strong>加入团队会议</strong>" 按钮而不是通过使用 PSTN 会议号码或使用 "<strong>呼叫我</strong>" 来加入会议。 这有助于在高容量会议造成 PSTN 网络拥堵时确保音频质量。 
+> 在会议容量较高期间（随着新型冠状肺炎 (COVID-19) 爆发，我们一直面临此问题），建议用户通过单击“加入团队会议”按钮来加入会议，而不是使用 PSTN 会议号码或“给我打电话”。<strong></strong><strong></strong> 这有助于在高容量会议造成 PSTN 网络拥堵时确保音频质量。 
 
 > [!IMPORTANT]
 > 在新型冠状肺炎（COVID-19） 爆发期间，建议用户通过单击“**加入团队会议**”按钮来加入会议，而不是使用 PSTN 会议号码或 **给我打电话**</strong>。 这主要是由于新型冠状病毒（COVID-19）所影响国家/地区的电话基础设施拥堵而导致。 通过避免 PSTN 通话，您可能会体验到更好的音频质量。 
 
 ## <a name="the-user-experience"></a>用户体验
 
-### <a name="join-a-meeting-by-using-phone-for-audio"></a>通过使用手机 for 音频加入会议
+### <a name="join-a-meeting-by-using-phone-for-audio"></a>使用电话进行音频加入会议
 
-单击 "**加入**" 加入会议，然后单击 "**选择您的音频和视频设置**" 屏幕上的 "**电话音频**"。 在此，用户可以进行会议呼叫并加入会议或手动拨入会议。
+单击 **"** 加入"以加入会议，然后在"选择 **音频和视频设置"** 屏幕上单击"电话音频"。 在这里，用户可以进行会议呼叫并加入会议或手动拨入会议。
 
-![电话音频选项的屏幕截图](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+!["电话"音频选项的屏幕截图](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
-**允许团队会议通话**
+**让 Teams 会议通话**
 
-在 "**使用电话语音通话**" 屏幕上，用户输入其电话号码，然后单击 "**呼叫我**"。 会议将调用用户并将其加入会议。
+在"**将电话用于音频**"屏幕上，用户输入其电话号码，然后单击"呼叫 **我"。** 会议将呼叫用户并加入会议。
 
-!["使用电话语音电话" 屏幕上的 "呼叫我" 选项的屏幕截图](media/set-up-the-call-me-feature-for-your-users-call-me.png)
+!["将电话用于音频"屏幕上的"呼叫我"选项的屏幕截图](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
 **手动拨入**
 
-加入的另一种方法是直接拨入会议。 在 "**使用电话语音音频**" 屏幕上，单击 "**手动拨入**" 以获取用于拨入会议的电话号码列表。
+另一种加入方法就是直接拨入会议。 在 **"将电话用于音频**"屏幕上，单击"手动拨入"，获取用于拨入会议的电话号码列表。
 
-![手动拨入选项的屏幕截图](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
+!["手动拨入"选项的屏幕截图](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
-### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>在会议期间有音频出现问题时，您可以取回来电
+### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>在会议期间音频出现问题时进行回电
 
-如果用户在会议期间使用计算机时遇到音频问题，用户可以轻松地切换到使用手机进行音频。 团队检测到出现音频或设备问题时，通过显示 "**呼叫我**回电" 选项，重定向用户以使用其电话。
+如果用户在会议期间使用计算机时遇到音频问题，用户可以轻松地切换到使用电话进行音频处理。 Teams 检测何时发生音频或设备问题，通过显示"回叫我"选项将用户重定向为使用 **其** 电话。
 
-下面是在团队未检测到麦克风时显示的消息和 "**呼叫我回电**" 选项的示例。
+下面是当 Teams 未检测到麦克风时显示的消息和"回电"选项的示例。
 
-!["呼叫我回电" 选项的屏幕截图](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
+!["回叫我"选项的屏幕截图](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-用户单击 "**回拨**"，这将显示 "**使用电话进行音频**" 屏幕。 在这里，他们可以输入自己的电话号码并让团队会议呼叫，并将他们加入会议或手动拨入会议。
+用户单击 **"回电"，** 显示"使用电话 **进行音频"** 屏幕。 在这里，他们可以输入其电话号码，让 Teams 会议呼叫并加入会议或手动拨入会议。
 
-## <a name="set-up-the-call-me-feature"></a>设置 "呼叫我" 功能
+## <a name="set-up-the-call-me-feature"></a>设置"呼叫我"功能
 
-若要为组织中的用户启用 "呼叫我" 功能，必须配置以下内容：
+若要为贵组织的用户启用"呼叫我"功能，必须配置以下各项：
 
-- 为组织中安排会议的用户（会议组织者）启用音频会议。 若要了解详细信息，请参阅[为团队设置音频会议](set-up-audio-conferencing-in-teams.md)和[管理团队中用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)。
+- 为组织中安排会议的用户启用音频会议 (会议组织者) 。 若要了解有关详细信息，请参阅"为[Teams](set-up-audio-conferencing-in-teams.md)设置音频会议"和"在 Teams 中管理用户的音频[会议设置"。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-- 用户可以从会议拨出。 若要了解详细信息，请参阅[管理团队用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)。
+- 用户可以从会议拨出。 若要了解有关详细信息，请参阅["在 Teams 中管理用户的音频会议设置"。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-如果用户未启用 "从会议拨出"，则 "**呼叫我**" 选项不可用，并且用户将不会收到将其加入会议的呼叫。 相反，用户可以在 "**使用电话语音**" 屏幕上看到电话号码的列表，他们可以使用它们在手机上手动拨入会议。
+如果用户未启用会议拨出功能，则"呼叫我"选项不可用，并且用户不会收到用于加入会议的呼叫。 相反，用户在"将电话用于音频"屏幕上看到电话号码列表，他们可以使用该列表手动拨入其电话上的会议。

@@ -1,13 +1,13 @@
 ---
-title: 先开会-Microsoft 团队
-author: lanachin
-ms.author: v-lanac
+title: 会议第一 - Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: francoid
-description: 首先了解会议，用户可在其中在团队中创建会议，同时继续使用 Skype for Business 进行聊天、通话和联机状态。
+description: 了解会议第一，用户可以在 Teams 中创建会议，同时继续使用 Skype for Business 进行聊天、通话和状态。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,106 +19,106 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 34b32a1d421941e4e9c3bd743c5db1026d88a2ac
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868469"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809502"
 ---
 # <a name="meetings-first"></a>会议优先
 
-"会议优先" 面向具有企业内部部署的 Skype for business 服务器组织，并针对希望尽可能快地开始使用团队会议的 Skype for business 服务器组织进行优化。 对于这些组织，会议优先的另一种方法是使用**孤岛**模式来排定团队会议体验的优先级。
+"会议第一"针对 Skype for Business Server 组织进行了优化，企业语音希望尽快开始使用 Teams 会议的本地用户。 对于这些组织，会议优先是使用 **以** Teams 会议体验为优先级的岛屿模式的替代方式。
 
-## <a name="what-is-meetings-first"></a>会议首先是什么？
+## <a name="what-is-meetings-first"></a>什么是会议第一？
 
-会议优先基于**SfBWithTeamsCollabAndMeetings**共存模式。 会议优先不是一种产品或功能，它是一种可利用团队和 Skype for business 的功能和 Skype for business 提供唯一量身定制的共存体验的配置。
+Meetings First 基于 **SfBWithTeamsCollabAndMeetings** 共存模式。 "会议第一"不是一种产品或功能，而是利用 Teams 和 Skype for Business 的功能提供独特定制共存体验的配置。
 
-首先，在会议中，用户在团队中创建会议，同时继续使用 Skype for Business 进行聊天、通话和联机状态。 团队和 Skype for business 之间无形式重叠。 Skype for Business 中的 "聊天"、"通话" 和 "状态" 均为 "在团队中"。 这使得在共存期间增强用户体验的 Skype for Business 和团队之间的 "更好结合" 方案，以及与**团队仅**有用户的互操作方案。
+在"会议第一"中，用户在 Teams 中创建会议，同时继续使用 Skype for Business 进行聊天、通话和状态。 Teams 和 Skype for Business 之间不存在形式重叠的情况。 聊天、通话和状态在 Skype for Business 中打开，Teams 中则关闭。 这样，Skype for Business 和 Teams 之间就可实现独特的"更好的协作"方案，从而增强用户共存期间的体验，以及与 Teams 用户之间的 **互操作性** 方案。
 
-![与团队和 Skype for business 一起更好地结合方案的屏幕截图](media/meetings-first-meeting-in-meeting.png)
+![Teams 和 Skype for Business 的更佳协作方案的屏幕截图](media/meetings-first-meeting-in-meeting.png)
 
 > [!Important]
-> 会议优先对于没有或几乎没有活动团队聊天用户的组织而言是更好的匹配。 活动团队聊天用户不应切换到会议第一种模式，因为他们将失去在团队中聊天和访问其聊天历史记录的功能。 这些用户应 grandfathered 为 "**岛**" 模式，而首先仅授予用户在团队聊天中尚未激活的用户。
+> 对于没有或没有活动 Teams 聊天用户的组织，"会议第一"是更好的选择。 不应将活动 Teams 聊天用户切换到会议第一模式，因为他们将失去在 Teams 中聊天和访问其聊天历史记录的能力。 这些用户应改为以 **群岛** 模式注册，而会议第一次仅授予尚未在 Teams 中聊天的用户。
 
 ## <a name="who-should-consider-meetings-first"></a>谁应该先考虑会议？
 
-会议优先适用于使用具有企业语音的 Skype for Business 服务器的组织，该服务器希望加速其移动到团队会议，尤其是那些想要为团队进行托管、确定性的升级途径的高 IT 学科的组织。
+会议第一个方案专为将 Skype for Business Server 与 企业语音 一起使用的组织所设计，这些组织希望加速移动到 Teams 会议，尤其是具有强 IT 规则、需要 Teams 的托管、确定性升级路径的组织。
 
-对于复杂或大型组织，语音迁移通常在逐个网站完成，可能需要花费很长时间，这种情况下可能会产生较长的共存方案。 如果该共存处于 "**孤岛**" 模式，则用户始终可以选择两个会议解决方案（Skype for Business 和团队），这可能导致混乱或不够理想的情况。 与语音迁移不同，会议迁移通常可以在整个公司的一段时间内完成。 希望尽快完全切换到团队会议（且无需等待完成语音迁移）的组织应首先考虑会议。
+对于复杂组织或大型组织，语音迁移通常按站点执行，并且可能需要很长时间，可能可能需要数年，从而导致扩展的共存方案。 如果该共存模式为 **"** 群岛"模式，则用户始终可以选择两种会议解决方案 (Skype for Business 和 Teams) ，这可能会导致混乱或情况不最佳。 与语音迁移不同，会议迁移通常可以在短时间内在整个公司内完成。 希望尽快完全切换到 Teams 会议且无需等待语音迁移完成 (组织应考虑先) 会议。
 
-只有没有企业语音用户的组织才有可能无法使用会议。 只有当这些组织能够采用团队会议后，这些组织才能升级到**团队**。 他们应考虑先跳过会议。
+对于没有用户或用户的组织，"会议第一企业语音有用。 这些组织应能够在能够采用 **Teams** 会议时尽快升级到 Teams。 他们应考虑跳过"会议第一"。
 
-此外，会议优先对于范围是一种纯粹扮演的会议解决方案的组织非常有用，例如，当发出 "仅会议" RFP 时。
+此外，"会议第一"对于其范围为纯会议解决方案的组织很有用，例如，当发出"仅会议"RFP 时。
 
-## <a name="capabilities-in-meetings-first"></a>会议中的功能优先
+## <a name="capabilities-in-meetings-first"></a>会议第一中的功能
 
-会议首先将以下功能结合在一起：
+Meeting First 将以下功能汇集在一起：
 
-- 使用[团队音频会议](tutorial-audio-conferencing.yml)[设置 Skype for business 服务器（本地）用户](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3)。
-- [会议迁移服务](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)：用户组织的会议将迁移到云并在用户首先升级到会议时转换为团队会议（需要 Exchange Online）。
-- 简化了团队中的用户体验，可在团队会议和团队和频道（可选）中使用[应用权限策略](teams-app-permission-policies.md)进行隐藏;[工作组私人聊天、通话和自我展示](teams-client-experience-and-conformance-to-coexistence-modes.md)不会首先在会议中公开，从而实现部署和采用工作，以充分关注会议。
-- 出色的[团队会议体验](tutorial-meetings-in-teams.yml)。
-- 团队和 Skype for business 之间的 "更好地协作"： 
-  - 自动保留：当在团队中的会议中，在 Skype for Business 中进入呼叫将使团队会议保持不动，反之亦然。 这可防止用户通过会议参与者 overheard 私人通话。
-    ![与团队和 Skype for business 一起更好地结合方案的屏幕截图](media/meetings-first-better-together-hold.png)
-  - 状态协调：团队中的活动反映在用户的状态中，因为聊天和通话都在 Skype for business 中，这是 Skype for business 的状态。 尤其是，当会议第一位用户在团队会议中时，其状态将更新为 "反映"。 当用户显示屏幕时，其状态将更新为 "请勿打扰" （基于其在 Skype for Business 中的设置）。
-  - USB 设备 HID 控件对帐（也可以在 Mac 上使用）：当团队会议中和在所有其他情况下，在团队会议和 Skype for Business 中，HID 控件均由团队接受。
-  - 除非另有说明，但更好地将功能组合在一起需要最新的 Windows 桌面客户端。
+- [使用 Teams 音频 (](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) 将 Skype for Business Server) 本地 [用户](tutorial-audio-conferencing.yml)。
+- [会议迁移服务](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)：由用户组织的会议将迁移到云，并转换为 Teams 会议，因为用户被提升为"会议第一 (需要 Exchange Online) 。
+- Teams 中以 Teams 会议和团队和频道为中心的简化用户体验 (（可选）使用应用权限策略选项隐藏) ; [](teams-app-permission-policies.md)[Teams 私人聊天、通话](teams-client-experience-and-conformance-to-coexistence-modes.md)和自我状态不会在"会议第一"中公开，从而使部署和采用工作能够完全专注于会议。
+- 高级 [团队会议体验](tutorial-meetings-in-teams.yml)。
+- Teams 与 Skype for Business 之间的"更好地协作"： 
+  - 自动保留：在 Teams 中参加会议时，在 Skype for Business 中加入通话将暂停 Teams 会议，反之亦然。 这可以防止用户被会议参与者听其私人呼叫。
+    ![Teams 和 Skype for Business 的更佳协作方案的屏幕截图](media/meetings-first-better-together-hold.png)
+  - 状态对帐：Teams 中的活动反映在用户状态中，这是 Skype for Business 状态，因为聊天和通话在 Skype for Business 中。 具体而言，当"会议第一"用户参加 Teams 会议时，其状态将更新以反映这一点。 当他们显示屏幕时，他们的状态将更新为 (Skype for Business) 中的设置显示"请勿打扰) 。
+  - MAC) 上也提供 USB 设备 HID (控件对帐：在 Teams 会议中，Teams 会遵守 HID 控件，在所有其他情况下，Skype for Business 将遵守 HID 控件。
+  - 除非另有说明，否则 Better Together 功能目前需要最新的 Windows 桌面客户端。
 
-## <a name="prerequisites-for-meetings-first"></a>首先参加会议的先决条件
+## <a name="prerequisites-for-meetings-first"></a>会议第一先决条件
 
-会议的唯一硬性要求与具有本地 Active Directory 和 Skype for business 内部部署的团队的要求相同：
+"会议第一"的唯一硬性要求与使用本地 Active Directory 和 Skype for Business 本地部署的 Teams 的要求相同：
 
-- [团队的一般预备先决条件](upgrade-plan-journey-prerequisites.md)，包括
-- [团队和中的身份和身份验证](identify-models-authentication.md)
-- [配置团队和 Skype for business 的 Azure Active Directory](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect)。
+- [Teams 的一般先决条件](upgrade-plan-journey-prerequisites.md)，包括
+- [Teams 中的标识和身份验证](identify-models-authentication.md) 以及
+- 为 Teams 和 Skype for Business 配置[Azure Active Directory。](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect)
 
-不需要[Skype for business 混合拓扑](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online)，但建议使用。 某些功能（如会议迁移服务和互操作性）依赖于该拓扑。
+不需要 [Skype for Business 混合](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online) 拓扑，但建议这样做。 某些功能（如会议迁移服务和互操作性）依赖于该拓扑。
 
-任何版本的 Skype for Business 服务器（和不再支持的 Lync 服务器）都支持会议优先。 任何受支持的 Skype for Business 客户端都支持它，但是更好的功能需要最新的客户端。
+会议第一版支持任何版本的 Skype for Business Server (已知适用于不再支持的 Lync Server) 。 支持的任何 Skype for Business 客户端都支持它，但 Better Together 功能需要最新的客户端。
 
-一旦满足这些要求（而不是之前），用户可以[获得 Microsoft 365 或 Office 365 和团队的许可](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)。
+一旦满足这些要求 (而不是在) ，用户就可以获得 [Microsoft 365 或 Office 365](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)和 Teams 的许可。
 
-为获得最佳会议首次体验，应为用户启用[Exchange Online](exchange-teams-interact.md)、 [SharePoint online 和 OneDrive For](sharepoint-onedrive-interact.md)business 以及 Microsoft 365 组创建。 只有邮箱位于本地 Exchange 的用户或没有 SharePoint Online 或 OneDrive for Business 的用户或 Microsoft 365 组创建时，才支持会议优先。 但是，其体验将不会很完整。 特别是，对于使用 Exchange Server 本地版的组织，可能有一些限制：创建和查看来自团队客户的会议以及与合规性功能相关。
+为获得最佳会议第一体验，应允许用户创建 [Exchange Online、SharePoint](exchange-teams-interact.md)Online 和 [OneDrive for Business](sharepoint-onedrive-interact.md)以及 Microsoft 365 组。 邮箱位于 Exchange 本地、没有 SharePoint Online、OneDrive For Business 或 Microsoft 365 组创建的用户支持"会议第一"。 但是，他们的体验将不太完整。 特别是，对于在本地使用 Exchange Server 的组织， (根据 Exchange Server) 的版本，从 Teams 客户端创建和查看会议存在一些限制，以及合规性功能方面的限制。
 
-至少，用户必须获得[团队许可](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。 此外，如果需要，可以为[音频会议](set-up-audio-conferencing-in-teams.md)授权。
+用户至少必须获得 [Teams 许可](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。 此外，如果需要， [他们可以获得音频](set-up-audio-conferencing-in-teams.md)会议许可。
 
-我们建议你在为用户授权时，将[ **SfBOnly**或**SfBWithTeamsCollab**模式授予](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)租户默认值。 这可确保在你准备好开始会议之前，用户将不会在默认的 "**岛**" 模式下使用团队。
+我们建议在向用户授予许可证时，将 [**SfBOnly** 或 **SfBWithTeamsCollab**](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)模式授予为租户默认值。 这可确保在准备好启动"会议优先"之前，用户不会在默认岛屿模式下自行开始使用 Teams。
 
-在完整桌面客户端（Windows 和 Mac）、浏览器客户端和移动客户端上支持会议优先。 它还与[Microsoft 团队聊天室](https://docs.microsoft.com/microsoftteams/room-systems/)兼容。 更好地进行协作需要完整的桌面客户端。
+Windows 和 Mac (、浏览器客户端) 移动客户端上支持"会议第一"功能。 它还与 Microsoft [Teams 会议室兼容](https://docs.microsoft.com/microsoftteams/room-systems/)。 Better Together 需要完整的桌面客户端。
 
-## <a name="prepare-for-teams-meetings-in-meetings-first"></a>首先在会议中准备团队会议
+## <a name="prepare-for-teams-meetings-in-meetings-first"></a>在"会议第一"中准备 Teams 会议
 
-为了让你的用户能够在团队会议中获得最佳体验，你应该：
+若要让用户在 Teams 会议中获得最佳体验，应：
 
-- 尤其是，请按照[Microsoft 团队会议和会议](deploy-meetings-microsoft-teams-landing-page.md)中的步骤进行操作。
-- [评估你的环境](3-envision-evaluate-my-environment.md)。
-- [为 Microsoft 团队准备组织的网络](prepare-network.md)。
-- 使用支持团队的会议室[设备和解决方案](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)升级会议室，或使用[Microsoft 团队的云视频互操作](cloud-video-interop.md)来支持现有的第三方会议室和设备加入团队会议。
-- 通过[经认证的 USB 音频和视频设备](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)为你的用户提供。
-- 准备[推动团队会议的认识和采纳](adopt-microsoft-teams-landing-page.md)。
+- 请尤其按照 [Microsoft Teams 的会议和会议](deploy-meetings-microsoft-teams-landing-page.md)中的步骤操作。
+- [评估环境](3-envision-evaluate-my-environment.md)。
+- [为 Microsoft Teams 准备组织的网络](prepare-network.md)。
+- 使用支持 Teams 的会议室[](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)设备和解决方案升级会议室，或使用 Microsoft [Teams](cloud-video-interop.md)的云视频互操作，使现有第三方会议室和设备能够加入 Teams 会议。
+- 为用户配置 [经过认证的 USB 音频和视频设备](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。
+- 准备 [提高 Teams 会议的认知和采用率](adopt-microsoft-teams-landing-page.md)。
 - [规划服务管理](4-envision-plan-my-service-management.md)。
-- 熟悉丰富的呼叫分析报告，以[解决较差的通话质量](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
+- 熟悉丰富的呼叫分析报告，解决 [通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
 
-您可能会考虑在此阶段运行中等比例生产试用版试点。
+可以考虑在此阶段运行中等规模生产就绪试点。
 
-## <a name="configure-users-for-meetings-first"></a>首先为会议配置用户
+## <a name="configure-users-for-meetings-first"></a>为"会议第一"配置用户
 
-一旦您的用户已获得授权，并且为团队会议准备好组织后，就可以先为您的用户启用会议。 我们做得非常简单：一种单一的设置即可完成所有任务！
+获得用户许可并准备好组织参加 Teams 会议后，可以先为用户启用"会议第一"。 我们让操作变得简单：一个设置将全部实现！
 
-首先，会议中的所有功能和用户体验（包括团队客户端配置和用户体验的[自动一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)、会议迁移服务以及更好的功能）通过在[Microsoft 团队管理中心](manage-teams-in-modern-portal.md)或使用[PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)授予用户（或用户组或租户默认值）的[SfBWithTeamsCollabAndMeetings 共存模式](setting-your-coexistence-and-upgrade-settings.md)进行配置。
+"会议第一"中的所有功能和用户体验（包括 Teams 客户端配置[](teams-client-experience-and-conformance-to-coexistence-modes.md)和用户体验的自动一致性、会议迁移服务和 Better Together 功能）都是通过向用户 (或用户组或租户默认) 在[Microsoft Teams](manage-teams-in-modern-portal.md)管理中心或[PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)中授予[SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md)共存模式来配置的。
 
-![用于首先启用会议的管理员设置的屏幕截图](media/teams-meeting-admin-settings.png)
+![用于启用"会议第一"的管理员设置的屏幕截图](media/teams-meeting-admin-settings.png)
 
-或者，你希望从用户团队客户端的左侧导航中隐藏 "团队和频道" 应用程序，以便进一步集中关注他们在会议上的体验，可通过使用[应用权限策略](teams-app-permission-policies.md)来实现。
+（可选）如果你希望从用户 Teams 客户端的左侧导航中隐藏 Teams 和频道应用程序，以进一步将他们的体验集中在会议上，可以使用应用权限策略实现这些 [体验](teams-app-permission-policies.md)。
 
-## <a name="reporting-and-call-analytics"></a>报告和调用分析
+## <a name="reporting-and-call-analytics"></a>报告和呼叫分析
 
-会议中团队会议的报告和调用分析不会与其他模式中的内容保持联系。
+"会议第一"中 Teams 会议的报告和呼叫分析与其他模式中的报告和呼叫分析没有变化。
 
 ## <a name="related-links"></a>相关链接
 
-查看本文后，您可能需要参阅[选择升级旅行](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[迁移和互操作性指南](migration-interop-guidance-for-teams-with-skype.md)以及[与 Skype for business 共存](coexistence-chat-calls-presence.md)的详细信息。
+查看本文后，可能需要查阅"选择升级过程、[](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)迁移和互操作性指南"，以及与[Skype for Business](coexistence-chat-calls-presence.md)共存，了解更多详细信息。 [](migration-interop-guidance-for-teams-with-skype.md)
 
 
