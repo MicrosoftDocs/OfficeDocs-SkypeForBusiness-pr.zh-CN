@@ -1,7 +1,7 @@
 ---
-title: 优化 Microsoft 团队采纳的反馈和报告
-author: lanachin
-ms.author: v-lanac
+title: 针对 Microsoft Teams 采用优化反馈和报告
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何获取用户反馈并使用团队采纳中的服务运行状况报告。
+description: 了解如何在 Teams 采用中获取用户反馈和使用服务运行状况报告。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,43 +21,43 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e883a71d22a8af6c2af6eee8cdbd30e5b618f4dc
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0f8c929eefb8aad83ee4a838b51cb39da6749221
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868639"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821062"
 ---
-# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a><span data-ttu-id="b004a-103">为 Microsoft Teams 采用优化反馈和报告功能</span><span class="sxs-lookup"><span data-stu-id="b004a-103">Optimize feedback and reporting for your Microsoft Teams adoption</span></span>
+# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a><span data-ttu-id="f96bf-103">为 Microsoft Teams 采用优化反馈和报告功能</span><span class="sxs-lookup"><span data-stu-id="f96bf-103">Optimize feedback and reporting for your Microsoft Teams adoption</span></span>
 
-<span data-ttu-id="b004a-104">通过关注用户反馈和服务运行状况报告的最佳做法，确保您从您的服务和员工那里获得信号。</span><span class="sxs-lookup"><span data-stu-id="b004a-104">Ensure that you are getting signals back from your service and your employees by following our best practices for user feedback and service health reporting.</span></span>  <span data-ttu-id="b004a-105">在某些情况下，你可能需要管理员权限才能访问某些服务使用情况和运行状况报告。</span><span class="sxs-lookup"><span data-stu-id="b004a-105">In some cases, you may need administrator rights to access certain service usage and health reports.</span></span> <span data-ttu-id="b004a-106">如果您不是您的组织的 Microsoft 365 或 Office 365 管理员，请与该人员合作，在 Microsoft 365 管理中心授予 "报表读者" 角色以访问其中的某些数据。</span><span class="sxs-lookup"><span data-stu-id="b004a-106">If you are not the Microsoft 365 or Office 365 administrator for your organization, work with that individual to be granted the report reader role in the Microsoft 365 admin center to access some of this data.</span></span>
+<span data-ttu-id="f96bf-104">确保按照用户反馈和服务运行状况报告最佳实践，从服务和员工处收到信号。</span><span class="sxs-lookup"><span data-stu-id="f96bf-104">Ensure that you are getting signals back from your service and your employees by following our best practices for user feedback and service health reporting.</span></span>  <span data-ttu-id="f96bf-105">在某些情况下，可能需要管理员权限才能访问某些服务使用情况和运行状况报告。</span><span class="sxs-lookup"><span data-stu-id="f96bf-105">In some cases, you may need administrator rights to access certain service usage and health reports.</span></span> <span data-ttu-id="f96bf-106">如果你不是组织的 Microsoft 365 或 Office 365 管理员，请与在 Microsoft 365 管理中心中向该人员授予报告读取者角色，以访问其中一些数据。</span><span class="sxs-lookup"><span data-stu-id="f96bf-106">If you are not the Microsoft 365 or Office 365 administrator for your organization, work with that individual to be granted the report reader role in the Microsoft 365 admin center to access some of this data.</span></span>
 
-## <a name="incorporating-feedback"></a><span data-ttu-id="b004a-107">合并反馈</span><span class="sxs-lookup"><span data-stu-id="b004a-107">Incorporating feedback</span></span> 
+## <a name="incorporating-feedback"></a><span data-ttu-id="f96bf-107">合并反馈</span><span class="sxs-lookup"><span data-stu-id="f96bf-107">Incorporating feedback</span></span> 
 
-<span data-ttu-id="b004a-108">在实验阶段，你将捕获有关用户如何使用产品及其体验的信息。</span><span class="sxs-lookup"><span data-stu-id="b004a-108">Throughout your experiment phase you will be capturing information about how people have used the product and their experience.</span></span> <span data-ttu-id="b004a-109">请立即使用此信息调整你的意识和培训计划，以便在你的业务单元中扩展其使用。</span><span class="sxs-lookup"><span data-stu-id="b004a-109">Use this information now to adjust your awareness and training programs as you plan to expand its use across your business units.</span></span> <span data-ttu-id="b004a-110">一些常见的示例问题可能是：</span><span class="sxs-lookup"><span data-stu-id="b004a-110">Some common example questions might be:</span></span>
+<span data-ttu-id="f96bf-108">在整个试验阶段，您将捕获有关用户如何使用该产品及其体验的信息。</span><span class="sxs-lookup"><span data-stu-id="f96bf-108">Throughout your experiment phase you will be capturing information about how people have used the product and their experience.</span></span> <span data-ttu-id="f96bf-109">现在，在计划跨业务部门扩展其使用范围时，请使用此信息来调整意识和培训计划。</span><span class="sxs-lookup"><span data-stu-id="f96bf-109">Use this information now to adjust your awareness and training programs as you plan to expand its use across your business units.</span></span> <span data-ttu-id="f96bf-110">一些常见的示例问题可能是：</span><span class="sxs-lookup"><span data-stu-id="f96bf-110">Some common example questions might be:</span></span>
 
-- <span data-ttu-id="b004a-111">何时使用此新工具和现有的技术？</span><span class="sxs-lookup"><span data-stu-id="b004a-111">When do I use this new tool alongside my existing technology?</span></span>
-- <span data-ttu-id="b004a-112">谁同意与我一起使用此工具？</span><span class="sxs-lookup"><span data-stu-id="b004a-112">Who is approved to use this tool with me?</span></span>
-- <span data-ttu-id="b004a-113">对高度保密的信息是否安全？</span><span class="sxs-lookup"><span data-stu-id="b004a-113">Is it safe for highly confidential information?</span></span> 
-- <span data-ttu-id="b004a-114">我与谁交谈以了解有关 Microsoft 团队的详细信息？</span><span class="sxs-lookup"><span data-stu-id="b004a-114">Who do I speak with to learn more about Microsoft Teams?</span></span>
-- <span data-ttu-id="b004a-115">某些功能无法正常工作。</span><span class="sxs-lookup"><span data-stu-id="b004a-115">Something's not working.</span></span> <span data-ttu-id="b004a-116">如何获得帮助？</span><span class="sxs-lookup"><span data-stu-id="b004a-116">How do I get help?</span></span>
+- <span data-ttu-id="f96bf-111">何时将这个新工具与现有的技术一起使用？</span><span class="sxs-lookup"><span data-stu-id="f96bf-111">When do I use this new tool alongside my existing technology?</span></span>
+- <span data-ttu-id="f96bf-112">谁获准将此工具用于我？</span><span class="sxs-lookup"><span data-stu-id="f96bf-112">Who is approved to use this tool with me?</span></span>
+- <span data-ttu-id="f96bf-113">高度机密的信息是否安全？</span><span class="sxs-lookup"><span data-stu-id="f96bf-113">Is it safe for highly confidential information?</span></span> 
+- <span data-ttu-id="f96bf-114">我与谁说话以了解有关 Microsoft Teams 的更多信息？</span><span class="sxs-lookup"><span data-stu-id="f96bf-114">Who do I speak with to learn more about Microsoft Teams?</span></span>
+- <span data-ttu-id="f96bf-115">有一些功能无法工作。</span><span class="sxs-lookup"><span data-stu-id="f96bf-115">Something's not working.</span></span> <span data-ttu-id="f96bf-116">如何获取帮助？</span><span class="sxs-lookup"><span data-stu-id="f96bf-116">How do I get help?</span></span>
 
-## <a name="invest-in-your-champions"></a><span data-ttu-id="b004a-117">在拥护中投资</span><span class="sxs-lookup"><span data-stu-id="b004a-117">Invest in your champions</span></span>
+## <a name="invest-in-your-champions"></a><span data-ttu-id="f96bf-117">投资你的强项</span><span class="sxs-lookup"><span data-stu-id="f96bf-117">Invest in your champions</span></span>
 
-<span data-ttu-id="b004a-118">当你准备缩放 Microsoft 团队的使用时，请在要扩展到的每个业务单元或组中招聘其他拥护人。</span><span class="sxs-lookup"><span data-stu-id="b004a-118">As you prepare to scale your usage of Microsoft Teams, recruit additional champions in each business unit or group you are expanding to.</span></span> <span data-ttu-id="b004a-119">在你的服务培训计划中注册这些 enthusiastic 人员，并对其进行标准化以及何时满足。</span><span class="sxs-lookup"><span data-stu-id="b004a-119">Enroll these enthusiastic people in your service training program, and standardize how and when you meet with them.</span></span>
+<span data-ttu-id="f96bf-118">当你准备扩展 Microsoft Teams 的使用时，请在每个要扩展的业务部门或组中招聘其他得主。</span><span class="sxs-lookup"><span data-stu-id="f96bf-118">As you prepare to scale your usage of Microsoft Teams, recruit additional champions in each business unit or group you are expanding to.</span></span> <span data-ttu-id="f96bf-119">在服务培训计划中注册这些人员，并标准化与他们的会面方法与时间。</span><span class="sxs-lookup"><span data-stu-id="f96bf-119">Enroll these enthusiastic people in your service training program, and standardize how and when you meet with them.</span></span>
  
-<span data-ttu-id="b004a-120">请注意，在您的 "拥护程序" 设计中，你的员工将获得哪些内容，以及他们在成为拥护人士时应提供哪些内容。</span><span class="sxs-lookup"><span data-stu-id="b004a-120">Be clear in your champions program design what your employees will get and what they are expected to give if they become champions.</span></span> <span data-ttu-id="b004a-121">常见的计划要求是安排办公时间、参与月度社区通话和参加内部在线社区，以支持您过渡到这些新体验。</span><span class="sxs-lookup"><span data-stu-id="b004a-121">Common program requirements are scheduled office hours, participation in monthly community calls, and participation in internal online communities to support your transition to these new experiences.</span></span>  
+<span data-ttu-id="f96bf-120">明确你的支持计划设计你的员工将获得什么，以及当他们成为支持者时期望他们给予什么。</span><span class="sxs-lookup"><span data-stu-id="f96bf-120">Be clear in your champions program design what your employees will get and what they are expected to give if they become champions.</span></span> <span data-ttu-id="f96bf-121">常见的计划要求包括安排的办公时间、每月社区通话和参与内部在线社区，以支持你过渡到这些新体验。</span><span class="sxs-lookup"><span data-stu-id="f96bf-121">Common program requirements are scheduled office hours, participation in monthly community calls, and participation in internal online communities to support your transition to these new experiences.</span></span>  
 
-<span data-ttu-id="b004a-122">最佳做法：为您的内部拥护的团队召开月度团队会议。</span><span class="sxs-lookup"><span data-stu-id="b004a-122">Best Practice: Hold a monthly Teams meeting for your internal champions.</span></span> <span data-ttu-id="b004a-123">在 "讲授新功能"、"解决反馈" 和 "为员工社区提供自助服务工具" 之间拆分日程。</span><span class="sxs-lookup"><span data-stu-id="b004a-123">Split your agenda between teaching new features, addressing feedback, and providing self service tools for your employee community.</span></span>
+<span data-ttu-id="f96bf-122">最佳做法：每月为内部支持人员召开 Teams 会议。</span><span class="sxs-lookup"><span data-stu-id="f96bf-122">Best Practice: Hold a monthly Teams meeting for your internal champions.</span></span> <span data-ttu-id="f96bf-123">在教学新功能、解决反馈和为员工社区提供自助服务工具之间拆分日程。</span><span class="sxs-lookup"><span data-stu-id="f96bf-123">Split your agenda between teaching new features, addressing feedback, and providing self service tools for your employee community.</span></span>
 
-<span data-ttu-id="b004a-124">最佳做法：拥有内部支持部门的代表或 IT 帮助台加入您的冠军社区，随时了解有关团队使用情况的新信息。</span><span class="sxs-lookup"><span data-stu-id="b004a-124">Best Practice: Have representatives from your internal support department or IT Helpdesk join your champions community to stay up to date on new information about your Teams usage.</span></span> 
+<span data-ttu-id="f96bf-124">最佳做法：让内部支持部门或 IT 支持人员的代表加入你的支持社区，随时了解 Teams 使用情况的新信息。</span><span class="sxs-lookup"><span data-stu-id="f96bf-124">Best Practice: Have representatives from your internal support department or IT Helpdesk join your champions community to stay up to date on new information about your Teams usage.</span></span> 
 
-## <a name="service-reporting"></a><span data-ttu-id="b004a-125">服务报告</span><span class="sxs-lookup"><span data-stu-id="b004a-125">Service reporting</span></span>
+## <a name="service-reporting"></a><span data-ttu-id="f96bf-125">服务报告</span><span class="sxs-lookup"><span data-stu-id="f96bf-125">Service reporting</span></span>
 
-<span data-ttu-id="b004a-126">部署和采用 Microsoft 团队时，应查看三种类型的报告：</span><span class="sxs-lookup"><span data-stu-id="b004a-126">There are three types of reporting you should review as you deploy and adopt Microsoft Teams:</span></span>
+<span data-ttu-id="f96bf-126">在部署和采用 Microsoft Teams 时，应查看三种类型的报告：</span><span class="sxs-lookup"><span data-stu-id="f96bf-126">There are three types of reporting you should review as you deploy and adopt Microsoft Teams:</span></span>
 
-- <span data-ttu-id="b004a-127">[服务运行状况](https://status.office365.com/)-从 Microsoft 365、Office 365 和内部 IT 支持部门。</span><span class="sxs-lookup"><span data-stu-id="b004a-127">[Service health](https://status.office365.com/) – from Microsoft 365, Office 365, and your internal IT support department.</span></span>
-- <span data-ttu-id="b004a-128">[管理中心中的 microsoft 365 报表](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)-从 microsoft 365 或 Office 365 查看[管理中心中的 microsoft 365 报表-microsoft 团队用户活动](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。</span><span class="sxs-lookup"><span data-stu-id="b004a-128">[Microsoft 365 Reports in the admin center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) – from Microsoft 365 or Office 365 view [Microsoft 365 Reports in the admin center - Microsoft Teams user activity](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity).</span></span> <span data-ttu-id="b004a-129">您还可以使用您的组织内的其他系统中的信息。</span><span class="sxs-lookup"><span data-stu-id="b004a-129">You may also use information from other systems within your organization.</span></span>
-- <span data-ttu-id="b004a-130">服务满意度-从内部社区论坛和调查收集到特定体验</span><span class="sxs-lookup"><span data-stu-id="b004a-130">Service satisfaction – Gathered from internal community forums and surveys on specific experiences</span></span>
+- <span data-ttu-id="f96bf-127">[服务运行状况](https://status.office365.com/) - 来自 Microsoft 365、Office 365 和内部 IT 支持部门。</span><span class="sxs-lookup"><span data-stu-id="f96bf-127">[Service health](https://status.office365.com/) – from Microsoft 365, Office 365, and your internal IT support department.</span></span>
+- <span data-ttu-id="f96bf-128">[管理中心中的 Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) 报表 - 从 Microsoft 365 或 Office 365 查看管理中心中的 [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)报表 - Microsoft Teams 用户活动。</span><span class="sxs-lookup"><span data-stu-id="f96bf-128">[Microsoft 365 Reports in the admin center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) – from Microsoft 365 or Office 365 view [Microsoft 365 Reports in the admin center - Microsoft Teams user activity](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity).</span></span> <span data-ttu-id="f96bf-129">您也可以使用来自组织内部其他系统的信息。</span><span class="sxs-lookup"><span data-stu-id="f96bf-129">You may also use information from other systems within your organization.</span></span>
+- <span data-ttu-id="f96bf-130">服务满意度 - 从内部社区论坛和特定体验调查收集</span><span class="sxs-lookup"><span data-stu-id="f96bf-130">Service satisfaction – Gathered from internal community forums and surveys on specific experiences</span></span>
 
-<span data-ttu-id="b004a-131">![表示下一步骤的图标 ](media/teams-adoption-next-icon.png) ：[驱动器感知和实施培训](teams-adoption-drive-awareness.md)</span><span class="sxs-lookup"><span data-stu-id="b004a-131">![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Drive awareness and implement training](teams-adoption-drive-awareness.md)</span></span>
+<span data-ttu-id="f96bf-131">![一个图标，表示下一 ](media/teams-adoption-next-icon.png) 步： [提高意识并实施培训](teams-adoption-drive-awareness.md)</span><span class="sxs-lookup"><span data-stu-id="f96bf-131">![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Drive awareness and implement training](teams-adoption-drive-awareness.md)</span></span>

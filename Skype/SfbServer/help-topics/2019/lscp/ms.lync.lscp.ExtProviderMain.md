@@ -1,8 +1,8 @@
 ---
-title: SIP 联盟提供商
+title: SIP 联盟提供程序
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0e875ac6-8afb-45bc-bcaa-3c7451125fae
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: f3b8d9028548b941fbd53cd9197db61a4543df24
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 要执行什么操作？ 单击要执行的任务的链接。
+ms.openlocfilehash: e11af49d16ead5a1e4ebf03a0c4b01acb3233fd1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797663"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820322"
 ---
-# <a name="sip-federated-providers"></a><span data-ttu-id="6f4af-104">SIP 联盟提供商</span><span class="sxs-lookup"><span data-stu-id="6f4af-104">SIP Federated Providers</span></span>
+# <a name="sip-federated-providers"></a><span data-ttu-id="bbc72-104">SIP 联盟提供商</span><span class="sxs-lookup"><span data-stu-id="bbc72-104">SIP Federated Providers</span></span>
 
-<span data-ttu-id="6f4af-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="6f4af-105">What do you want to do?</span></span> <span data-ttu-id="6f4af-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="6f4af-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="bbc72-105">要执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="bbc72-105">What do you want to do?</span></span> <span data-ttu-id="bbc72-106">单击要执行的任务的链接。</span><span class="sxs-lookup"><span data-stu-id="bbc72-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="6f4af-107">Manage SIP Federated Providers for Your Organization</span><span class="sxs-lookup"><span data-stu-id="6f4af-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="bbc72-107">管理组织的 SIP 联盟提供程序</span><span class="sxs-lookup"><span data-stu-id="bbc72-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 

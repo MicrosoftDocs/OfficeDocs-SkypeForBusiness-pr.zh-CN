@@ -1,8 +1,8 @@
 ---
 title: 证书分配（调用）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
-description: "\"执行命令\" 页面显示任务将证书分配给服务器所执行的操作。 完成任务后，您可以查看详细介绍证书分配过程的日志。 要查看日志文件，请单击“查看日志”。"
-ms.openlocfilehash: b4e31eefc09039b0250c68595b401edd3ad604e4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: “正在执行命令”页显示向服务器分配证书的任务所采取的操作。 任务完成后，可以查看详细描述证书分配过程的日志。 要查看日志文件，请单击“查看日志”。
+ms.openlocfilehash: cb9857162541c10d941b2539b99d855ff34ba7d7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796883"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820432"
 ---
-# <a name="certificate-assignment-invoke"></a><span data-ttu-id="cf407-105">证书分配（调用）</span><span class="sxs-lookup"><span data-stu-id="cf407-105">Certificate Assignment (Invoke)</span></span>
+# <a name="certificate-assignment-invoke"></a><span data-ttu-id="8c8d7-105">证书分配（调用）</span><span class="sxs-lookup"><span data-stu-id="8c8d7-105">Certificate Assignment (Invoke)</span></span>
  
-<span data-ttu-id="cf407-106">"**执行命令**" 页面显示任务将证书分配给服务器所执行的操作。</span><span class="sxs-lookup"><span data-stu-id="cf407-106">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server.</span></span> <span data-ttu-id="cf407-107">完成任务后，您可以查看详细介绍证书分配过程的日志。</span><span class="sxs-lookup"><span data-stu-id="cf407-107">When the tasks are complete, you can view the log that details the certificate assignment process.</span></span> <span data-ttu-id="cf407-108">要查看日志文件，请单击“**查看日志**”。</span><span class="sxs-lookup"><span data-stu-id="cf407-108">To view the log file, click **View Log**.</span></span>
+<span data-ttu-id="8c8d7-p102">“正在执行命令”页显示向服务器分配证书的任务所采取的操作。任务完成后，可以查看详细描述证书分配过程的日志。要查看日志文件，请单击“查看日志”。</span><span class="sxs-lookup"><span data-stu-id="8c8d7-p102">The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.</span></span>
   
 

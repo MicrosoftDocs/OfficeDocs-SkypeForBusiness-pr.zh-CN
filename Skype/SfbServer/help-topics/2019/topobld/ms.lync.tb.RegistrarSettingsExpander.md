@@ -1,8 +1,8 @@
 ---
 title: 注册器设置扩展器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,29 +14,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
-description: 复原功能为注册机构池提供高可用性和灾难恢复。 通过在主注册机出现故障的情况下提供备份注册机构，备份注册机构可以接管失败的注册机构，从而允许用户登录和通信。 用户可能会遇到缩减功能，具体取决于使用主注册器失败的系统。
-ms.openlocfilehash: b6dd5fac05b4692e8f30f1063ab71b1bad02d810
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 复原为注册器池提供了高可用性和灾难恢复。它提供了备份注册器，当主注册器发生故障时，备份注册器可以接管发生故障的注册器，允许用户登录和进行通信。用户可能会发现功能降低，具体取决于哪些系统的主注册器发生故障。
+ms.openlocfilehash: cb7a5204b3b282c73f9440e61267b723b112b735
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797233"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822112"
 ---
-# <a name="registrar-settings-expander"></a><span data-ttu-id="e11a7-105">注册器设置扩展器</span><span class="sxs-lookup"><span data-stu-id="e11a7-105">Registrar Settings Expander</span></span>
+# <a name="registrar-settings-expander"></a><span data-ttu-id="7955a-105">注册器设置扩展器</span><span class="sxs-lookup"><span data-stu-id="7955a-105">Registrar Settings Expander</span></span>
  
-<span data-ttu-id="e11a7-106">复原功能为注册机构池提供高可用性和灾难恢复。</span><span class="sxs-lookup"><span data-stu-id="e11a7-106">Resiliency provides high availability and disaster recovery for the Registrar pool.</span></span> <span data-ttu-id="e11a7-107">通过在主注册机出现故障的情况下提供备份注册机构，备份注册机构可以接管失败的注册机构，从而允许用户登录和通信。</span><span class="sxs-lookup"><span data-stu-id="e11a7-107">By providing a backup Registrar in the event of failure of the primary Registrar, the backup Registrar can take over for the failed Registrar, allowing users to log on and communicate.</span></span> <span data-ttu-id="e11a7-108">用户可能会遇到缩减功能，具体取决于使用主注册器失败的系统。</span><span class="sxs-lookup"><span data-stu-id="e11a7-108">Users can potentially experience reduced functionality, depending on which systems have failed with the primary Registrar.</span></span>
+<span data-ttu-id="7955a-p102">复原为注册器池提供了高可用性和灾难恢复。它提供了备份注册器，当主注册器发生故障时，备份注册器可以接管发生故障的注册器，允许用户登录和进行通信。用户可能会发现功能降低，具体取决于哪些系统的主注册器发生故障。</span><span class="sxs-lookup"><span data-stu-id="7955a-p102">Resiliency provides high availability and disaster recovery for the Registrar pool. By providing a backup Registrar in the event of failure of the primary Registrar, the backup Registrar can take over for the failed Registrar, allowing users to log on and communicate. Users can potentially experience reduced functionality, depending on which systems have failed with the primary Registrar.</span></span>
   
-<span data-ttu-id="e11a7-109">在 Survivable 分支装置或 Survivable 分支服务器的 "**编辑属性**" 对话框的 "**弹性**" 部分中，您可以更改以下设置：</span><span class="sxs-lookup"><span data-stu-id="e11a7-109">In the **Resiliency** section of the **Edit Properties** dialog box for your Survivable Branch Appliance or Survivable Branch Server, you can change the following settings:</span></span>
+<span data-ttu-id="7955a-109">在 Survivable Branch Appliance 或 Survivable Branch Server 的“编辑属性”对话框的“复原”部分，可以更改以下设置：</span><span class="sxs-lookup"><span data-stu-id="7955a-109">In the **Resiliency** section of the **Edit Properties** dialog box for your Survivable Branch Appliance or Survivable Branch Server, you can change the following settings:</span></span>
   
-- <span data-ttu-id="e11a7-110">**关联的用户服务和备份注册机构池**在下拉列表中，选择要用作 Survivable 分支装置或 Survivable 分支服务器的备份注册机构的企业版前端池或标准版前端服务器。</span><span class="sxs-lookup"><span data-stu-id="e11a7-110">**Associated User service and backup Registrar pool** In the drop-down list, select the Enterprise Edition Front End pool or Standard Edition Front End Server that is to act as the backup Registrar for the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+- <span data-ttu-id="7955a-110">**关联的用户服务和备份注册器池** 在下拉列表中，选择 Enterprise Edition 前端池或 Standard Edition 前端服务器，以用作 Survivable Branch Appliance 或 Survivable Branch Server 的备份注册器。</span><span class="sxs-lookup"><span data-stu-id="7955a-110">**Associated User service and backup Registrar pool** In the drop-down list, select the Enterprise Edition Front End pool or Standard Edition Front End Server that is to act as the backup Registrar for the Survivable Branch Appliance or Survivable Branch Server.</span></span>
     
-- <span data-ttu-id="e11a7-111">**启用故障转移和故障回复**选择此设置以允许自动检测失败的注册机构，并自动确定主注册机构是否已备份并准备好继续注册过程。</span><span class="sxs-lookup"><span data-stu-id="e11a7-111">**Enable Failover and Failback** Select this setting to allow for the automatic detection of a failed Registrar and the automatic determination that the primary Registrar is back up and ready to resume the Registrar process.</span></span>
+- <span data-ttu-id="7955a-111">**启用故障转移和故障回复** 选择此设置可允许自动检测发生故障的注册器，并自动确定主注册器已备份并准备恢复注册器过程。</span><span class="sxs-lookup"><span data-stu-id="7955a-111">**Enable Failover and Failback** Select this setting to allow for the automatic detection of a failed Registrar and the automatic determination that the primary Registrar is back up and ready to resume the Registrar process.</span></span>
     
-- <span data-ttu-id="e11a7-112">**故障检测间隔（秒）** 键入在确定主注册机构失败之前应经过的秒数。</span><span class="sxs-lookup"><span data-stu-id="e11a7-112">**Failure detection interval (sec)** Type the number of seconds that should elapse before it is determined that the primary Registrar has failed.</span></span> <span data-ttu-id="e11a7-113">默认值为120秒。</span><span class="sxs-lookup"><span data-stu-id="e11a7-113">The default value is 120 seconds.</span></span> <span data-ttu-id="e11a7-114">如果选择 "**启用故障转移和故障回复**"，则此字段是必需的。</span><span class="sxs-lookup"><span data-stu-id="e11a7-114">This field is required if you select **Enable Failover and Failback**.</span></span>
+- <span data-ttu-id="7955a-112">**故障检测间隔 (秒)** 键入确定主注册器失败之前应经过的秒数。</span><span class="sxs-lookup"><span data-stu-id="7955a-112">**Failure detection interval (sec)** Type the number of seconds that should elapse before it is determined that the primary Registrar has failed.</span></span> <span data-ttu-id="7955a-113">默认值为 120 秒。</span><span class="sxs-lookup"><span data-stu-id="7955a-113">The default value is 120 seconds.</span></span> <span data-ttu-id="7955a-114">如果选择"启用故障转移和故障回复 **"，则此字段是必需的**。</span><span class="sxs-lookup"><span data-stu-id="7955a-114">This field is required if you select **Enable Failover and Failback**.</span></span>
     
-- <span data-ttu-id="e11a7-115">**回退检测间隔（秒）** 键入在确定主注册器备份之前应经过的秒数。</span><span class="sxs-lookup"><span data-stu-id="e11a7-115">**Fallback detection interval (sec)** Type the number of seconds that should elapse before it is determined that the primary Registrar is backed up.</span></span> <span data-ttu-id="e11a7-116">默认值为240秒。</span><span class="sxs-lookup"><span data-stu-id="e11a7-116">The default value is 240 seconds.</span></span> <span data-ttu-id="e11a7-117">如果选择 "**启用故障转移和回退**"，则此字段是必需的。</span><span class="sxs-lookup"><span data-stu-id="e11a7-117">This field is required if you select **Enable Failover and Fallback**.</span></span>
+- <span data-ttu-id="7955a-115">**回退检测间隔 (秒)** 键入确定备份主注册器之前应经过的秒数。</span><span class="sxs-lookup"><span data-stu-id="7955a-115">**Fallback detection interval (sec)** Type the number of seconds that should elapse before it is determined that the primary Registrar is backed up.</span></span> <span data-ttu-id="7955a-116">默认值为 240 秒。</span><span class="sxs-lookup"><span data-stu-id="7955a-116">The default value is 240 seconds.</span></span> <span data-ttu-id="7955a-117">如果选择"启用故障转移"和"回退 **"，则此字段是必需的**。</span><span class="sxs-lookup"><span data-stu-id="7955a-117">This field is required if you select **Enable Failover and Fallback**.</span></span>
     
 > [!IMPORTANT]
-> <span data-ttu-id="e11a7-118">当您定义 "故障检测间隔" 和 "回退检测间隔" 时，请注意不要输入一个时间间隔，如果注册机构在短时间内无法响应，则会导致故障转移和回退发生。</span><span class="sxs-lookup"><span data-stu-id="e11a7-118">When you define the failure detection interval and the fallback detection interval, be careful not to enter an interval that will cause the failover and fallback to occur if the Registrar fails to respond for a short period of time.</span></span> <span data-ttu-id="e11a7-119">主注册器可能不会根据加载池或服务器的短时间进行响应。</span><span class="sxs-lookup"><span data-stu-id="e11a7-119">It is possible that the primary Registrar may not respond for short periods of time based on the loading of the pool or servers.</span></span> 
+> <span data-ttu-id="7955a-p105">定义故障检测时间间隔和回退检测时间间隔时，请注意不要输入在注册器短时间内未做出响应的情况下会导致发生故障转移和回退的时间间隔。主注册器可能会在短时间内没有响应，这取决于池或服务器的加载状况。</span><span class="sxs-lookup"><span data-stu-id="7955a-p105">When you define the failure detection interval and the fallback detection interval, be careful not to enter an interval that will cause the failover and fallback to occur if the Registrar fails to respond for a short period of time. It is possible that the primary Registrar may not respond for short periods of time based on the loading of the pool or servers.</span></span> 
   
 

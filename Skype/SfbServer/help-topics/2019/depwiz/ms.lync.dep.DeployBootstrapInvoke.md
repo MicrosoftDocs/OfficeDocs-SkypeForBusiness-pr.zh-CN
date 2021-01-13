@@ -1,8 +1,8 @@
 ---
 title: 安装或删除 Skype for Business Server 组件（调用）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
-description: "\"执行\" 命令显示用于部署服务器角色的运行任务的运行摘要。 任务完成后（部署和激活，或停用和卸载-将显示摘要。 此外，在下拉列表中，你可以选择运行命令时创建的任何日志文件。 使用下拉列表选择要查看的日志文件，然后单击 \"查看日志\"。"
-ms.openlocfilehash: 6c8e19b353c7aeceddfdc780a8e92cb001afb82a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: “执行命令”显示为部署服务器角色而运行的任务的运行摘要。 任务完成后，将显示部署和激活、停用和卸载摘要。 此外，在下拉列表中，可以选择命令运行时创建的任何日志文件。 使用下拉列表选择要查看的日志文件，然后单击“查看日志”。
+ms.openlocfilehash: 0e6638e9eaf8fc9d6f17bb204a5e97d386d8956e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796913"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820512"
 ---
-# <a name="setup-or-remove-skype-for-business-server-components-invoke"></a><span data-ttu-id="ba6d3-106">安装或删除 Skype for Business Server 组件（调用）</span><span class="sxs-lookup"><span data-stu-id="ba6d3-106">Setup or Remove Skype for Business Server Components (Invoke)</span></span>
+# <a name="setup-or-remove-skype-for-business-server-components-invoke"></a><span data-ttu-id="d8753-106">安装或删除 Skype for Business Server 组件（调用）</span><span class="sxs-lookup"><span data-stu-id="d8753-106">Setup or Remove Skype for Business Server Components (Invoke)</span></span>
  
-<span data-ttu-id="ba6d3-107">"**执行" 命令**显示用于部署服务器角色的运行任务的运行摘要。</span><span class="sxs-lookup"><span data-stu-id="ba6d3-107">The **Execute Commands** displays a running summary of the tasks that are run to deploy the server role.</span></span> <span data-ttu-id="ba6d3-108">任务完成后（部署和激活，或停用和卸载-将显示摘要。</span><span class="sxs-lookup"><span data-stu-id="ba6d3-108">After the tasks are completed—deploy and activate, or deactivate and uninstall-a summary is displayed.</span></span> <span data-ttu-id="ba6d3-109">此外，在下拉列表中，你可以选择运行命令时创建的任何日志文件。</span><span class="sxs-lookup"><span data-stu-id="ba6d3-109">Additionally, in the drop-down list, you can select any of the log files that are created when the commands are run.</span></span> <span data-ttu-id="ba6d3-110">使用下拉列表选择要查看的日志文件，然后单击 "**查看日志**"。</span><span class="sxs-lookup"><span data-stu-id="ba6d3-110">Use the drop-down list to select the log file that you want to view, and click **View Log**.</span></span>
+<span data-ttu-id="d8753-107">“执行命令”显示为部署服务器角色而运行的任务的运行摘要。</span><span class="sxs-lookup"><span data-stu-id="d8753-107">The **Execute Commands** displays a running summary of the tasks that are run to deploy the server role.</span></span> <span data-ttu-id="d8753-108">任务完成后，将显示部署和激活、停用和卸载摘要。</span><span class="sxs-lookup"><span data-stu-id="d8753-108">After the tasks are completed—deploy and activate, or deactivate and uninstall-a summary is displayed.</span></span> <span data-ttu-id="d8753-109">此外，在下拉列表中，可以选择命令运行时创建的任何日志文件。</span><span class="sxs-lookup"><span data-stu-id="d8753-109">Additionally, in the drop-down list, you can select any of the log files that are created when the commands are run.</span></span> <span data-ttu-id="d8753-110">使用下拉列表选择要查看的日志文件，然后单击“查看日志”。</span><span class="sxs-lookup"><span data-stu-id="d8753-110">Use the drop-down list to select the log file that you want to view, and click **View Log**.</span></span>
   
-<span data-ttu-id="ba6d3-111">查看完摘要和日志文件后，单击 "**完成**"。</span><span class="sxs-lookup"><span data-stu-id="ba6d3-111">After you are done reviewing the summary and log files, click **Finish**.</span></span>
+<span data-ttu-id="d8753-111">查看完摘要和日志文件后，单击“完成”。</span><span class="sxs-lookup"><span data-stu-id="d8753-111">After you are done reviewing the summary and log files, click **Finish**.</span></span>
   
 
