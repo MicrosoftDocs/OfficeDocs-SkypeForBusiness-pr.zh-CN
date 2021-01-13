@@ -1,8 +1,8 @@
 ---
 title: 添加中介服务器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 965eda6f-5d11-4b94-8cc4-5968bc4e7018
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要定义中介服务器，请为中介服务器池指定完全限定的域名（FQDN）。 如果你要创建中介服务器池，你将为正在部署的中介服务器指定池的名称。 您将在另一步骤中定义各台服务器的 FQDN。 如果你要部署单个中介服务器，你指定的 FQDN 将是单个中介服务器的 FQDN。 有关详细信息，请参阅在 Skype for Business 服务器的拓扑生成器中部署中介服务器。
-ms.openlocfilehash: 3f6ffb4021918de73a33d9c08ee3f3397b4490eb
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 若要定义中介服务器，请指定中介服务器池的完全限定的域名 (FQDN)。 如果要创建中介服务器池，则需要为要部署的中介服务器指定该池的名称。 您将在另一步骤中定义各台服务器的 FQDN。 如果要部署单台中介服务器，指定的 FQDN 应该是此单台中介服务器的 FQDN。 有关详细信息，请参阅 Skype for Business Server 中的拓扑生成器中部署中介服务器。
+ms.openlocfilehash: f38b132e68c2e9a9b83a9a42b98d25cc515eed50
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798489"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833502"
 ---
-# <a name="add-mediation-server"></a><span data-ttu-id="c4f23-107">添加中介服务器</span><span class="sxs-lookup"><span data-stu-id="c4f23-107">Add Mediation Server</span></span>
+# <a name="add-mediation-server"></a><span data-ttu-id="c731d-107">添加中介服务器</span><span class="sxs-lookup"><span data-stu-id="c731d-107">Add Mediation Server</span></span>
  
-<span data-ttu-id="c4f23-108">若要定义中介服务器，请为中介服务器池指定完全限定的域名（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="c4f23-108">To define the Mediation Server, specify a fully qualified domain name (FQDN) for the Mediation Server pool.</span></span> <span data-ttu-id="c4f23-109">如果你要创建中介服务器池，你将为正在部署的中介服务器指定池的名称。</span><span class="sxs-lookup"><span data-stu-id="c4f23-109">If you are creating a pool of Mediation Servers, you will specify the name of the pool for the Mediation Servers you are deploying.</span></span> <span data-ttu-id="c4f23-110">您将在另一步骤中定义各台服务器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="c4f23-110">You will define the FQDNs of the individual servers in another step.</span></span> <span data-ttu-id="c4f23-111">如果你要部署单个中介服务器，你指定的 FQDN 将是单个中介服务器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="c4f23-111">If you are deploying a single Mediation Server, the FQDN you specify will be the FQDN of the single Mediation Server.</span></span> <span data-ttu-id="c4f23-112">有关详细信息，请参阅[在 Skype For Business 服务器的拓扑生成器中部署中介服务器](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。</span><span class="sxs-lookup"><span data-stu-id="c4f23-112">For details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
+<span data-ttu-id="c731d-108">若要定义中介服务器，请指定中介服务器池的完全限定的域名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="c731d-108">To define the Mediation Server, specify a fully qualified domain name (FQDN) for the Mediation Server pool.</span></span> <span data-ttu-id="c731d-109">如果要创建中介服务器池，则需要为要部署的中介服务器指定该池的名称。</span><span class="sxs-lookup"><span data-stu-id="c731d-109">If you are creating a pool of Mediation Servers, you will specify the name of the pool for the Mediation Servers you are deploying.</span></span> <span data-ttu-id="c731d-110">您将在另一步骤中定义各台服务器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="c731d-110">You will define the FQDNs of the individual servers in another step.</span></span> <span data-ttu-id="c731d-111">如果要部署单台中介服务器，指定的 FQDN 应该是此单台中介服务器的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="c731d-111">If you are deploying a single Mediation Server, the FQDN you specify will be the FQDN of the single Mediation Server.</span></span> <span data-ttu-id="c731d-112">有关详细信息，请参阅 [Skype for Business Server 中的拓扑生成器中部署中介服务器](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。</span><span class="sxs-lookup"><span data-stu-id="c731d-112">For details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).</span></span>
   
 

@@ -1,8 +1,8 @@
 ---
 title: 获取用户
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,41 +12,41 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: 摘要：了解 "获取用户" 操作（这是用户服务的一部分）。 用户服务是适用于呼叫质量仪表板的知识库 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: e07a232b61e5ef0bb7462b3fff58d642a14496ec
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解作为用户服务的一部分的"获取用户"操作。 用户服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+ms.openlocfilehash: dd2bb5e46ddbe3e65faf441a11e39cbc5429e473
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816731"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832412"
 ---
-# <a name="get-user"></a><span data-ttu-id="6d8f9-105">获取用户</span><span class="sxs-lookup"><span data-stu-id="6d8f9-105">Get User</span></span>
+# <a name="get-user"></a><span data-ttu-id="e012b-105">获取用户</span><span class="sxs-lookup"><span data-stu-id="e012b-105">Get User</span></span>
  
-<span data-ttu-id="6d8f9-106">**摘要：** 了解 "获取用户" 操作，该操作是用户服务的一部分。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-106">**Summary:** Learn about the Get User operation, which is part of the User Service.</span></span> <span data-ttu-id="6d8f9-107">用户服务是适用于呼叫质量仪表板的知识库 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-107">The User Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="6d8f9-108">通话质量仪表板是 Skype for business 服务器的工具。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="e012b-106">**摘要：** 了解作为用户服务的一部分的"获取用户"操作。</span><span class="sxs-lookup"><span data-stu-id="e012b-106">**Summary:** Learn about the Get User operation, which is part of the User Service.</span></span> <span data-ttu-id="e012b-107">用户服务是通话质量仪表板存储库 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="e012b-107">The User Service is part of the Repository API for Call Quality Dashboard.</span></span> <span data-ttu-id="e012b-108">通话质量仪表板是 Skype for Business Server 的工具。</span><span class="sxs-lookup"><span data-stu-id="e012b-108">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="6d8f9-109">"获取用户" 操作是 "资源库 API for 通话质量" 仪表板中的用户服务的一部分。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-109">The Get Users operation is part of the User Service in the Repository API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="e012b-109">Get Users 操作是呼叫质量仪表板的存储库 API 中的用户服务的一部分。</span><span class="sxs-lookup"><span data-stu-id="e012b-109">The Get Users operation is part of the User Service in the Repository API for Call Quality Dashboard.</span></span>
   
-## <a name="get-user"></a><span data-ttu-id="6d8f9-110">获取用户</span><span class="sxs-lookup"><span data-stu-id="6d8f9-110">Get User</span></span>
+## <a name="get-user"></a><span data-ttu-id="e012b-110">获取用户</span><span class="sxs-lookup"><span data-stu-id="e012b-110">Get User</span></span>
 
-<span data-ttu-id="6d8f9-111">获取用户从存储库返回用户记录。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-111">Get User returns a user record from the repository.</span></span>
+<span data-ttu-id="e012b-111">Get User 从存储库返回用户记录。</span><span class="sxs-lookup"><span data-stu-id="e012b-111">Get User returns a user record from the repository.</span></span>
   
-|<span data-ttu-id="6d8f9-112">**种**</span><span class="sxs-lookup"><span data-stu-id="6d8f9-112">**Method**</span></span>|<span data-ttu-id="6d8f9-113">**请求 URI**</span><span class="sxs-lookup"><span data-stu-id="6d8f9-113">**Request URI**</span></span>|<span data-ttu-id="6d8f9-114">**HTTP 版本**</span><span class="sxs-lookup"><span data-stu-id="6d8f9-114">**HTTP Version**</span></span>|
+|<span data-ttu-id="e012b-112">**方法**</span><span class="sxs-lookup"><span data-stu-id="e012b-112">**Method**</span></span>|<span data-ttu-id="e012b-113">**请求 URI**</span><span class="sxs-lookup"><span data-stu-id="e012b-113">**Request URI**</span></span>|<span data-ttu-id="e012b-114">**HTTP 版本**</span><span class="sxs-lookup"><span data-stu-id="e012b-114">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="6d8f9-115">获取</span><span class="sxs-lookup"><span data-stu-id="6d8f9-115">GET</span></span>  <br/> |<span data-ttu-id="6d8f9-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}</span><span class="sxs-lookup"><span data-stu-id="6d8f9-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}</span></span>  <br/> |<span data-ttu-id="6d8f9-117">HTTP/1。1</span><span class="sxs-lookup"><span data-stu-id="6d8f9-117">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="e012b-115">GET</span><span class="sxs-lookup"><span data-stu-id="e012b-115">GET</span></span>  <br/> |<span data-ttu-id="e012b-116">https:// \<portal\> /QoERepositoryService/repository/user/{userId}</span><span class="sxs-lookup"><span data-stu-id="e012b-116">https://\<portal\>/QoERepositoryService/repository/user/{userId}</span></span>  <br/> |<span data-ttu-id="e012b-117">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="e012b-117">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="6d8f9-118">**URI 参数**-无。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-118">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="e012b-118">**URI 参数** - 无。</span><span class="sxs-lookup"><span data-stu-id="e012b-118">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="6d8f9-119">**请求标题**-无其他标题。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-119">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="e012b-119">**请求标头** - 无其他标头。</span><span class="sxs-lookup"><span data-stu-id="e012b-119">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="6d8f9-120">**请求正文**-无。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-120">**Request Body** - None.</span></span>
+ <span data-ttu-id="e012b-120">**请求正文** - 无。</span><span class="sxs-lookup"><span data-stu-id="e012b-120">**Request Body** - None.</span></span>
   
- <span data-ttu-id="6d8f9-121">**响应**-响应包括 HTTP 状态代码和一组响应标头。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="e012b-121">**响应** - 响应包括 HTTP 状态代码和一组响应标头。</span><span class="sxs-lookup"><span data-stu-id="e012b-121">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="6d8f9-122">**状态代码**-成功的操作返回状态代码200（OK）。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="6d8f9-123">如果找不到指定的用户 ID，将返回状态代码404（未找到）。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-123">If a specified user ID is not found, it returns status code 404 (Not Found).</span></span>
+ <span data-ttu-id="e012b-122">**状态代码** - 成功操作返回状态代码 200 (确定) 。</span><span class="sxs-lookup"><span data-stu-id="e012b-122">**Status Code** - A successful operation returns status code 200 (OK).</span></span> <span data-ttu-id="e012b-123">如果找不到指定的用户 ID，它将返回状态代码 404 (未找到) 。</span><span class="sxs-lookup"><span data-stu-id="e012b-123">If a specified user ID is not found, it returns status code 404 (Not Found).</span></span>
   
- <span data-ttu-id="6d8f9-124">**响应标题**-无其他标题。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-124">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="e012b-124">**响应标头** - 无其他标头。</span><span class="sxs-lookup"><span data-stu-id="e012b-124">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="6d8f9-125">**响应正文**-下面是 JSON 中的示例响应负载。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
+ <span data-ttu-id="e012b-125">**响应正文** - 下面是 JSON 中的示例响应负载。</span><span class="sxs-lookup"><span data-stu-id="e012b-125">**Response Body** - Below is a sample response payload in JSON.</span></span>
   
 ```json
 {
@@ -56,13 +56,13 @@ ms.locfileid: "41816731"
 }
 ```
 
- <span data-ttu-id="6d8f9-126">*userId* -用户 ID。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-126">*userId*  - ID of the user.</span></span>
+ <span data-ttu-id="e012b-126">*userId*  - 用户的 ID。</span><span class="sxs-lookup"><span data-stu-id="e012b-126">*userId*  - ID of the user.</span></span>
   
- <span data-ttu-id="6d8f9-127">*loginName* -常规用户的外部用户标识。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-127">*loginName*  - External user identification for regular users.</span></span> <span data-ttu-id="6d8f9-128">如果使用 Windows 身份验证对用户进行身份验证，则这可能是用户的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-128">If Windows Authentication is used for authenticating users, then this may be a FQDN of the user.</span></span>
+ <span data-ttu-id="e012b-127">*loginName*  - 常规用户的外部用户标识。</span><span class="sxs-lookup"><span data-stu-id="e012b-127">*loginName*  - External user identification for regular users.</span></span> <span data-ttu-id="e012b-128">如果 Windows 身份验证用于验证用户，则这可能是用户的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="e012b-128">If Windows Authentication is used for authenticating users, then this may be a FQDN of the user.</span></span>
   
- <span data-ttu-id="6d8f9-129">*defaultItemId* -此用户的默认项目的 ID。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-129">*defaultItemId*  - ID of the default Item for this user.</span></span> <span data-ttu-id="6d8f9-130">默认项目是与用户关联的最顶部的项目。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-130">The default Item is the top-most Item that is associated to the user.</span></span> <span data-ttu-id="6d8f9-131">此用户拥有的所有其他项目都可以从 "默认" 项目中进行导航。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-131">All other Items this user owns can be navigated from the default Item.</span></span>
+ <span data-ttu-id="e012b-129">*defaultItemId*  - 此用户的默认项目的 ID。</span><span class="sxs-lookup"><span data-stu-id="e012b-129">*defaultItemId*  - ID of the default Item for this user.</span></span> <span data-ttu-id="e012b-130">默认项目是与用户关联的最顶层项目。</span><span class="sxs-lookup"><span data-stu-id="e012b-130">The default Item is the top-most Item that is associated to the user.</span></span> <span data-ttu-id="e012b-131">此用户拥有的所有其他项目都可以从默认项目导航。</span><span class="sxs-lookup"><span data-stu-id="e012b-131">All other Items this user owns can be navigated from the default Item.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6d8f9-132">提供用于`defaultItemId`获取项目操作的值以检索默认项目的详细信息。</span><span class="sxs-lookup"><span data-stu-id="6d8f9-132">Supply the  `defaultItemId` value to Get Item operation to retrieve the details of the default Item.</span></span>
+> <span data-ttu-id="e012b-132">提供  `defaultItemId` 获取项目操作的值以检索默认项目的详细信息。</span><span class="sxs-lookup"><span data-stu-id="e012b-132">Supply the  `defaultItemId` value to Get Item operation to retrieve the details of the default Item.</span></span>
   
 
