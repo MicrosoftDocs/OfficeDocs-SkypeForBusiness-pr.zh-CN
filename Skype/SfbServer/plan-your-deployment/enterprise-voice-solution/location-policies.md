@@ -1,8 +1,8 @@
 ---
-title: 为 Skype for Business Server 规划位置策略
+title: 规划 Skype for Business Server 的位置策略
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,80 +15,80 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-description: 阅读本主题，了解如何在 Skype for Business Server Enterprise Voice 中为增强的紧急服务（E9-1）部署计划位置策略。
-ms.openlocfilehash: 5064197dd8d23113d7bfeca30fd3596d5ee89c5c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 阅读本主题，了解如何在 Skype for Business Server (中为增强型紧急服务 (E9-1-1) 规划位置企业语音。
+ms.openlocfilehash: 1e89c2f0ea9d5115b29e9bc6d77b3863bb11888c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802802"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825532"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server"></a><span data-ttu-id="5f45c-103">为 Skype for Business Server 规划位置策略</span><span class="sxs-lookup"><span data-stu-id="5f45c-103">Plan location policies for Skype for Business Server</span></span>
+# <a name="plan-location-policies-for-skype-for-business-server"></a><span data-ttu-id="be1dc-103">规划 Skype for Business Server 的位置策略</span><span class="sxs-lookup"><span data-stu-id="be1dc-103">Plan location policies for Skype for Business Server</span></span>
  
-<span data-ttu-id="5f45c-104">阅读本主题，了解如何在 Skype for Business Server Enterprise Voice 中为增强的紧急服务（E9-1）部署计划位置策略。</span><span class="sxs-lookup"><span data-stu-id="5f45c-104">Read this topic to learn how to plan location policies for an enhanced emergency services (E9-1-1) deployment in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="be1dc-104">阅读本主题，了解如何在 Skype for Business Server (中为增强型紧急服务 (E9-1-1) 规划位置企业语音。</span><span class="sxs-lookup"><span data-stu-id="be1dc-104">Read this topic to learn how to plan location policies for an enhanced emergency services (E9-1-1) deployment in Skype for Business Server Enterprise Voice.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="5f45c-105">Skype for business 服务器现支持客户端的多个紧急号码的配置。</span><span class="sxs-lookup"><span data-stu-id="5f45c-105">Skype for Business Server now supports the configuration of multiple emergency numbers for a client.</span></span> <span data-ttu-id="5f45c-106">如果想要配置多个紧急号码，您必须按照计划中的信息，在[skype For Business 服务器中输入多个紧急](multiple-emergency-numbers.md)号码，并[在 skype For business 中配置多个紧急号码](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。</span><span class="sxs-lookup"><span data-stu-id="5f45c-106">If you want to configure multiple emergency numbers, you must follow the information in [Plan for multiple emergency numbers in Skype for Business Server](multiple-emergency-numbers.md) and [Configure multiple emergency numbers in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).</span></span> 
+> <span data-ttu-id="be1dc-105">Skype for Business Server 现在支持为客户端配置多个紧急号码。</span><span class="sxs-lookup"><span data-stu-id="be1dc-105">Skype for Business Server now supports the configuration of multiple emergency numbers for a client.</span></span> <span data-ttu-id="be1dc-106">如果要配置多个紧急号码，必须按照 Skype for Business [Server](multiple-emergency-numbers.md) 中多个紧急号码的规划信息操作，在 Skype for Business 中配置 [多个紧急号码](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。</span><span class="sxs-lookup"><span data-stu-id="be1dc-106">If you want to configure multiple emergency numbers, you must follow the information in [Plan for multiple emergency numbers in Skype for Business Server](multiple-emergency-numbers.md) and [Configure multiple emergency numbers in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).</span></span> 
   
-<span data-ttu-id="5f45c-107">通过使用 Skype for Business 控制面板或使用[CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet 创建位置策略。</span><span class="sxs-lookup"><span data-stu-id="5f45c-107">You create location policies by using the Skype for Business Control Panel or by using the [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet.</span></span> <span data-ttu-id="5f45c-108">有关详细信息，请参阅[在 Skype For Business 服务器中创建位置策略](../../deploy/deploy-enterprise-voice/create-location-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="5f45c-108">For more information, see [Create location policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).</span></span>
+<span data-ttu-id="be1dc-107">可以使用 Skype for Business 控制面板或 [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet 创建位置策略。</span><span class="sxs-lookup"><span data-stu-id="be1dc-107">You create location policies by using the Skype for Business Control Panel or by using the [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet.</span></span> <span data-ttu-id="be1dc-108">有关详细信息，请参阅在 [Skype for Business Server 中创建位置策略](../../deploy/deploy-enterprise-voice/create-location-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="be1dc-108">For more information, see [Create location policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).</span></span>
   
-<span data-ttu-id="5f45c-109">每个位置策略包含以下信息：</span><span class="sxs-lookup"><span data-stu-id="5f45c-109">Each location policy contains the following information:</span></span>
+<span data-ttu-id="be1dc-109">每个位置策略都包含以下信息：</span><span class="sxs-lookup"><span data-stu-id="be1dc-109">Each location policy contains the following information:</span></span>
   
- <span data-ttu-id="5f45c-110">**启用增强型 9-1-1**</span><span class="sxs-lookup"><span data-stu-id="5f45c-110">**Enable Enhanced 9-1-1**</span></span>
+ <span data-ttu-id="be1dc-110">**启用增强型 9-1-1**</span><span class="sxs-lookup"><span data-stu-id="be1dc-110">**Enable Enhanced 9-1-1**</span></span>
   
-<span data-ttu-id="5f45c-111">启用该值时，可为客户端启用增强型紧急服务 (E9-1-1)。</span><span class="sxs-lookup"><span data-stu-id="5f45c-111">When this value is enabled, the client is enabled for enhanced emergency services (E9-1-1).</span></span> <span data-ttu-id="5f45c-112">客户端注册时，它会尝试从位置信息服务获取位置，并将位置信息包含在紧急呼叫的一部分中。</span><span class="sxs-lookup"><span data-stu-id="5f45c-112">When a client registers, it attempts to acquire a location from the Location Information service and will include the location information as part of an emergency call.</span></span>
+<span data-ttu-id="be1dc-111">启用此值后，客户端将启用增强型紧急服务 (E9-1-1) 。</span><span class="sxs-lookup"><span data-stu-id="be1dc-111">When this value is enabled, the client is enabled for enhanced emergency services (E9-1-1).</span></span> <span data-ttu-id="be1dc-112">当客户端注册时，它会尝试从位置信息服务获取位置，并且将在紧急呼叫中包括位置信息。</span><span class="sxs-lookup"><span data-stu-id="be1dc-112">When a client registers, it attempts to acquire a location from the Location Information service and will include the location information as part of an emergency call.</span></span>
   
- <span data-ttu-id="5f45c-113">**位置**</span><span class="sxs-lookup"><span data-stu-id="5f45c-113">**Location**</span></span>
+ <span data-ttu-id="be1dc-113">**位置**</span><span class="sxs-lookup"><span data-stu-id="be1dc-113">**Location**</span></span>
   
-<span data-ttu-id="5f45c-114">仅当**启用增强型 9-1-1** 为启用状态时才使用此设置。</span><span class="sxs-lookup"><span data-stu-id="5f45c-114">This setting is used only when **Enable Enhanced 9-1-1** is enabled.</span></span>
+<span data-ttu-id="be1dc-114">此设置仅在启用增强型 **9-1-1 时** 使用。</span><span class="sxs-lookup"><span data-stu-id="be1dc-114">This setting is used only when **Enable Enhanced 9-1-1** is enabled.</span></span>
   
-<span data-ttu-id="5f45c-115">你可以将**位置**设置配置为按如下所示定义客户端行为：</span><span class="sxs-lookup"><span data-stu-id="5f45c-115">You can configure the **Location** setting to define the client behavior as follows:</span></span>
+<span data-ttu-id="be1dc-115">可以配置位置 **设置** 以定义客户端行为，如下所示：</span><span class="sxs-lookup"><span data-stu-id="be1dc-115">You can configure the **Location** setting to define the client behavior as follows:</span></span>
   
-- <span data-ttu-id="5f45c-116">将该值设为**否**表示不会提示用户输入位置。</span><span class="sxs-lookup"><span data-stu-id="5f45c-116">Setting the value to **No** means that the user will not be prompted for a location.</span></span>
+- <span data-ttu-id="be1dc-116">将值设置为 **"否** "意味着不会提示用户输入位置。</span><span class="sxs-lookup"><span data-stu-id="be1dc-116">Setting the value to **No** means that the user will not be prompted for a location.</span></span>
     
-- <span data-ttu-id="5f45c-117">设为**是**表示将提示用户输入位置，但可以消除提示。</span><span class="sxs-lookup"><span data-stu-id="5f45c-117">Setting the value to **Yes** means that the user will be prompted for a location, but can dismiss the prompt.</span></span>
+- <span data-ttu-id="be1dc-117">将该值设置为 **"是** "意味着将提示用户输入位置，但可以消除提示。</span><span class="sxs-lookup"><span data-stu-id="be1dc-117">Setting the value to **Yes** means that the user will be prompted for a location, but can dismiss the prompt.</span></span>
     
-- <span data-ttu-id="5f45c-p104">设为**免责声明**表示将会提示用户输入位置，并且当用户尝试消除提示时将显示免责声明。在所有情况下，用户都可以继续使用该客户端。</span><span class="sxs-lookup"><span data-stu-id="5f45c-p104">Setting the value to **Disclaimer** means that the user will be prompted for a location and also will be shown a disclaimer if they try to dismiss the prompt. In all cases, the user can continue to use the client.</span></span>
+- <span data-ttu-id="be1dc-118">将该值设置为 **"免责声明** "意味着将提示用户输入位置，并且如果用户尝试消除提示，也会显示免责声明。</span><span class="sxs-lookup"><span data-stu-id="be1dc-118">Setting the value to **Disclaimer** means that the user will be prompted for a location and also will be shown a disclaimer if they try to dismiss the prompt.</span></span> <span data-ttu-id="be1dc-119">在所有情况下，用户都可以继续使用客户端。</span><span class="sxs-lookup"><span data-stu-id="be1dc-119">In all cases, the user can continue to use the client.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="5f45c-p105">如果在启用 E9-1-1 之前用户手动输入位置，则不会显示免责声明文本。已查看免责声明的用户将不能查看免责声明文本的更新。</span><span class="sxs-lookup"><span data-stu-id="5f45c-p105">The disclaimer text will not appear if a user manually entered a location before being enabled for E9-1-1. Updates to the disclaimer text will not be viewed by users that have already viewed the disclaimer.</span></span> 
+> <span data-ttu-id="be1dc-120">如果用户在启用 E9-1-1 之前手动输入位置，则不显示免责声明文本。</span><span class="sxs-lookup"><span data-stu-id="be1dc-120">The disclaimer text will not appear if a user manually entered a location before being enabled for E9-1-1.</span></span> <span data-ttu-id="be1dc-121">已查看免责声明的用户不会查看对免责声明文本的更新。</span><span class="sxs-lookup"><span data-stu-id="be1dc-121">Updates to the disclaimer text will not be viewed by users that have already viewed the disclaimer.</span></span> 
   
- <span data-ttu-id="5f45c-122">**增强型紧急服务免责声明**</span><span class="sxs-lookup"><span data-stu-id="5f45c-122">**Enhanced Emergency Service Disclaimer**</span></span>
+ <span data-ttu-id="be1dc-122">**增强型紧急服务免责声明**</span><span class="sxs-lookup"><span data-stu-id="be1dc-122">**Enhanced Emergency Service Disclaimer**</span></span>
   
-<span data-ttu-id="5f45c-123">该设置指定当用户消除输入位置提示时显示的免责声明。</span><span class="sxs-lookup"><span data-stu-id="5f45c-123">This setting specifies the disclaimer that users see if they dismiss the prompt for a location.</span></span> <span data-ttu-id="5f45c-124">在 Skype for Business Server 中，你可以使用位置策略为不同的区域设置或不同的用户集设置不同的免责声明。</span><span class="sxs-lookup"><span data-stu-id="5f45c-124">In Skype for Business Server, you can use location policy to set different disclaimers for different locales or different sets of users.</span></span>
+<span data-ttu-id="be1dc-123">此设置指定用户在消除位置提示时看到的免责声明。</span><span class="sxs-lookup"><span data-stu-id="be1dc-123">This setting specifies the disclaimer that users see if they dismiss the prompt for a location.</span></span> <span data-ttu-id="be1dc-124">在 Skype for Business Server 中，可以使用位置策略为不同的区域设置或不同的用户集设置不同的免责声明。</span><span class="sxs-lookup"><span data-stu-id="be1dc-124">In Skype for Business Server, you can use location policy to set different disclaimers for different locales or different sets of users.</span></span>
   
- <span data-ttu-id="5f45c-125">**紧急拨号串（E9-1-1 拨号号码）**</span><span class="sxs-lookup"><span data-stu-id="5f45c-125">**Emergency Dial String (E9-1-1 dial number)**</span></span>
+ <span data-ttu-id="be1dc-125">**紧急拨号 (E9-1-1 拨号号码)**</span><span class="sxs-lookup"><span data-stu-id="be1dc-125">**Emergency Dial String (E9-1-1 dial number)**</span></span>
   
-<span data-ttu-id="5f45c-126">此拨号字符串（较少前导 "+"，但包括由用户的拨号计划完成的任何规范化）表示呼叫是紧急呼叫。</span><span class="sxs-lookup"><span data-stu-id="5f45c-126">This dial string (less the leading "+", but including any normalization done by the user's Dial Plan) signifies that a call is an emergency call.</span></span> <span data-ttu-id="5f45c-127">**紧急拨号串**使客户端包括有关呼叫的位置和回拨信息。</span><span class="sxs-lookup"><span data-stu-id="5f45c-127">The **Emergency Dial String** causes the client to include location and callback information with the call.</span></span>
-  
-> [!NOTE]
-> <span data-ttu-id="5f45c-128">如果您的组织不使用外部线路访问前缀，则无需创建相应的拨号计划规范化规则，以便在运行 Skype for business 服务器的服务器上将呼叫发送到出站路由之前将 "+" 添加到911字符串;作为位置策略的结果，Skype for Business 客户端将自动预置 "+"。</span><span class="sxs-lookup"><span data-stu-id="5f45c-128">If your organization does not use an external line access prefix, you do not need to create a corresponding Dial Plan normalization rule that adds a "+" to the 911 string prior to sending the call to Outbound Routing on a server running Skype for Business Server; the "+" will be automatically prepended by the Skype for Business client as a result of the location policy.</span></span> <span data-ttu-id="5f45c-129">但是，如果您的网站使用外部访问前缀，则需要将规范化规则添加到可访问外部访问前缀的适用拨号计划策略，并添加 "+"。</span><span class="sxs-lookup"><span data-stu-id="5f45c-129">However, if your site uses an external access prefix, you need to add a normalization rule to the applicable Dial Plan policy that strips the external access prefix and adds the "+".</span></span> <span data-ttu-id="5f45c-130">例如，如果您的位置使用外部访问前缀9，并且用户将 9 911 拨打电话到拨打电话，则在呼叫者的位置档案中，客户端将使用其拨号计划策略将此号码与 + 911 进行规范化。</span><span class="sxs-lookup"><span data-stu-id="5f45c-130">For example, if your location uses an external access prefix of 9 and a user dials 9 911 to place an emergency call, the client will use its Dial Plan policy to normalize this to +911 before the dialed number is evaluated by the routes in the caller's location profile.</span></span> 
-  
- <span data-ttu-id="5f45c-131">**紧急拨号串掩码（E9-1-1 拨号掩码）**</span><span class="sxs-lookup"><span data-stu-id="5f45c-131">**Emergency Dial String Masks (E9-1-1 dial mask)**</span></span>
-  
-<span data-ttu-id="5f45c-132">一个分号分隔的拨号字符串列表，将转换为指定的**紧急拨号字符串**。</span><span class="sxs-lookup"><span data-stu-id="5f45c-132">A semicolon-separated list of dial strings that is translated into the specified **Emergency Dial String**.</span></span> <span data-ttu-id="5f45c-133">例如，你可能想要添加 112（欧洲大部分地区的紧急服务号码）。</span><span class="sxs-lookup"><span data-stu-id="5f45c-133">For example, you may want to add 112, which is the emergency service number for most of Europe.</span></span> <span data-ttu-id="5f45c-134">从欧洲访问 Skype for business 用户可能不知道911是美国的紧急电话号码，但他们可以拨打112并获得相同的结果。</span><span class="sxs-lookup"><span data-stu-id="5f45c-134">A visiting Skype for Business user from Europe may not know that 911 is the U.S. emergency number, but they can dial 112 and get the same result.</span></span> <span data-ttu-id="5f45c-135">与 "紧急拨号字符串" 一样，在每个号码前不要包含 "+"，如果您使用外部线路访问代码，请确保用户的拨号计划策略中有规范化规则来去掉访问代码位。</span><span class="sxs-lookup"><span data-stu-id="5f45c-135">As with the Emergency Dial String, do not include a "+" before each number, and if you use external line access codes, be sure there are normalization rules in the user's Dial Plan policy to strip off the access code digit.</span></span>
-  
- <span data-ttu-id="5f45c-136">**PSTN 用法**</span><span class="sxs-lookup"><span data-stu-id="5f45c-136">**PSTN usage**</span></span>
-  
-<span data-ttu-id="5f45c-137">包含确定紧急呼叫将转至哪一 SIP 中继、PSTN 网关或 ELIN 网关的路由路径的 PSTN 用法名称。</span><span class="sxs-lookup"><span data-stu-id="5f45c-137">The name of the PSTN Usage that contains the routing paths that determine which SIP trunk, PSTN gateway, or ELIN gateway emergency calls will go to.</span></span>
+<span data-ttu-id="be1dc-126">此拨号 (前导"+"，但包括用户的拨号计划) 表示呼叫是紧急呼叫。</span><span class="sxs-lookup"><span data-stu-id="be1dc-126">This dial string (less the leading "+", but including any normalization done by the user's Dial Plan) signifies that a call is an emergency call.</span></span> <span data-ttu-id="be1dc-127">紧急 **拨号串** 使客户端在呼叫中包括位置和回拨信息。</span><span class="sxs-lookup"><span data-stu-id="be1dc-127">The **Emergency Dial String** causes the client to include location and callback information with the call.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="5f45c-138">一个用法只能分配给一个位置策略。</span><span class="sxs-lookup"><span data-stu-id="5f45c-138">Only one usage can be assigned to a location policy.</span></span> <span data-ttu-id="5f45c-139">此 PSTN 使用覆盖分配给用户语音策略的 PSTN 使用，但仅适用于拨入紧急拨号字符串或其中一个紧急拨号字符串掩码的呼叫。</span><span class="sxs-lookup"><span data-stu-id="5f45c-139">This PSTN Usage overrides the PSTN Usages assigned to the user's voice policy, but applies only to calls placed to the Emergency Dial String or to one of the Emergency Dial String Masks.</span></span> 
+> <span data-ttu-id="be1dc-128">如果组织不使用外部线路访问前缀，则无需创建相应的拨号计划规范化规则，在将呼叫发送到运行 Skype for Business Server 的服务器上出站路由之前，向 911 字符串添加"+";由于位置策略，Skype for Business 客户端将自动预置"+"。</span><span class="sxs-lookup"><span data-stu-id="be1dc-128">If your organization does not use an external line access prefix, you do not need to create a corresponding Dial Plan normalization rule that adds a "+" to the 911 string prior to sending the call to Outbound Routing on a server running Skype for Business Server; the "+" will be automatically prepended by the Skype for Business client as a result of the location policy.</span></span> <span data-ttu-id="be1dc-129">但是，如果站点使用外部访问前缀，则需要将规范化规则添加到适用的拨号计划策略，该策略会去除外部访问前缀并添加"+"。</span><span class="sxs-lookup"><span data-stu-id="be1dc-129">However, if your site uses an external access prefix, you need to add a normalization rule to the applicable Dial Plan policy that strips the external access prefix and adds the "+".</span></span> <span data-ttu-id="be1dc-130">例如，如果您的位置使用外部访问前缀 9，而用户拨打 9 911 拨打紧急呼叫，则客户端将使用其拨号计划策略将拨打号码规范化为 +911，然后由呼叫者的位置配置文件中的路由评估拨打的号码。</span><span class="sxs-lookup"><span data-stu-id="be1dc-130">For example, if your location uses an external access prefix of 9 and a user dials 9 911 to place an emergency call, the client will use its Dial Plan policy to normalize this to +911 before the dialed number is evaluated by the routes in the caller's location profile.</span></span> 
   
- <span data-ttu-id="5f45c-140">**通知 URI**</span><span class="sxs-lookup"><span data-stu-id="5f45c-140">**Notification URI**</span></span>
+ <span data-ttu-id="be1dc-131">**E9-1-1 拨号掩码 (E9-1-1 拨号掩码)**</span><span class="sxs-lookup"><span data-stu-id="be1dc-131">**Emergency Dial String Masks (E9-1-1 dial mask)**</span></span>
   
-<span data-ttu-id="5f45c-p111">指定要在发出紧急呼叫时接收即时消息 (IM) 通知的安全人员的一个或多个 SIP URI。支持通讯组。</span><span class="sxs-lookup"><span data-stu-id="5f45c-p111">Specifies one or more SIP URIs of the security personnel who receive an instant messaging (IM) notification when an emergency call is placed. Distribution groups are supported.</span></span>
+<span data-ttu-id="be1dc-132">转换为指定的紧急拨号字符串的拨号字符串的分号 **分隔列表**。</span><span class="sxs-lookup"><span data-stu-id="be1dc-132">A semicolon-separated list of dial strings that is translated into the specified **Emergency Dial String**.</span></span> <span data-ttu-id="be1dc-133">例如，你可能想要添加 112，这是欧洲大多数国家/地区紧急服务号码。</span><span class="sxs-lookup"><span data-stu-id="be1dc-133">For example, you may want to add 112, which is the emergency service number for most of Europe.</span></span> <span data-ttu-id="be1dc-134">从欧洲访问 Skype for Business 的用户可能不知道 911 是美国紧急号码，但他们可以拨打 112 并获取相同的结果。</span><span class="sxs-lookup"><span data-stu-id="be1dc-134">A visiting Skype for Business user from Europe may not know that 911 is the U.S. emergency number, but they can dial 112 and get the same result.</span></span> <span data-ttu-id="be1dc-135">与紧急拨号字符串一样，在每个号码之前不要包含"+"，如果使用外部线路访问代码，请确保用户的拨号计划策略中具有规范化规则，以去除访问代码数字。</span><span class="sxs-lookup"><span data-stu-id="be1dc-135">As with the Emergency Dial String, do not include a "+" before each number, and if you use external line access codes, be sure there are normalization rules in the user's Dial Plan policy to strip off the access code digit.</span></span>
   
- <span data-ttu-id="5f45c-143">**会议 URI**</span><span class="sxs-lookup"><span data-stu-id="5f45c-143">**Conference URI**</span></span>
+ <span data-ttu-id="be1dc-136">**PSTN 用法**</span><span class="sxs-lookup"><span data-stu-id="be1dc-136">**PSTN usage**</span></span>
   
-<span data-ttu-id="5f45c-144">指定在发出紧急呼叫时应加入会议的外线直拨分机 (DID) 号码（通常是安全服务台号码）。</span><span class="sxs-lookup"><span data-stu-id="5f45c-144">Specifies a direct inward dialing (DID) number (typically, a security desk number) that should be conferenced in when an emergency call is placed.</span></span> 
+<span data-ttu-id="be1dc-137">PSTN 用法的名称，其中包含确定将转到哪个 SIP 中继、PSTN 网关或 ELIN 网关紧急呼叫的路由路径。</span><span class="sxs-lookup"><span data-stu-id="be1dc-137">The name of the PSTN Usage that contains the routing paths that determine which SIP trunk, PSTN gateway, or ELIN gateway emergency calls will go to.</span></span>
   
- <span data-ttu-id="5f45c-145">**会议模式**</span><span class="sxs-lookup"><span data-stu-id="5f45c-145">**Conference Mode**</span></span>
+> [!NOTE]
+> <span data-ttu-id="be1dc-138">只能将一个用法分配给位置策略。</span><span class="sxs-lookup"><span data-stu-id="be1dc-138">Only one usage can be assigned to a location policy.</span></span> <span data-ttu-id="be1dc-139">此 PSTN 用法会覆盖分配给用户的语音策略的 PSTN 用法，但仅适用于拨打紧急拨号串或紧急拨号串掩码之一的呼叫。</span><span class="sxs-lookup"><span data-stu-id="be1dc-139">This PSTN Usage overrides the PSTN Usages assigned to the user's voice policy, but applies only to calls placed to the Emergency Dial String or to one of the Emergency Dial String Masks.</span></span> 
   
-<span data-ttu-id="5f45c-146">指定会议 URI 将使用单向还是双向通信加入紧急呼叫。</span><span class="sxs-lookup"><span data-stu-id="5f45c-146">Specifies if the conference URI will be conferenced into the emergency call by using one-way or two-way communication.</span></span> 
+ <span data-ttu-id="be1dc-140">**通知 URI**</span><span class="sxs-lookup"><span data-stu-id="be1dc-140">**Notification URI**</span></span>
   
- <span data-ttu-id="5f45c-147">**位置刷新间隔**</span><span class="sxs-lookup"><span data-stu-id="5f45c-147">**Location Refresh Interval**</span></span>
+<span data-ttu-id="be1dc-141">指定在发出紧急呼叫时接收即时消息 (IM) 的一个或多个 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="be1dc-141">Specifies one or more SIP URIs of the security personnel who receive an instant messaging (IM) notification when an emergency call is placed.</span></span> <span data-ttu-id="be1dc-142">支持通讯组。</span><span class="sxs-lookup"><span data-stu-id="be1dc-142">Distribution groups are supported.</span></span>
   
-<span data-ttu-id="5f45c-148">指定从位置信息服务的位置更新的客户端请求之间的时间量（以小时为单位）。</span><span class="sxs-lookup"><span data-stu-id="5f45c-148">Specifies the amount of time (in hours) between client requests for a location update from the Location Information service.</span></span> <span data-ttu-id="5f45c-149">该值可以设置为 1 和 12 之间的任意值。</span><span class="sxs-lookup"><span data-stu-id="5f45c-149">The value can be set to any value between 1 and 12.</span></span> <span data-ttu-id="5f45c-150">默认值为 4。</span><span class="sxs-lookup"><span data-stu-id="5f45c-150">The default value is 4.</span></span>
+ <span data-ttu-id="be1dc-143">**会议 URI**</span><span class="sxs-lookup"><span data-stu-id="be1dc-143">**Conference URI**</span></span>
+  
+<span data-ttu-id="be1dc-144">指定 DID (DID) 号码 (，通常是在拨打紧急呼叫时) 应参加会议的安全服务台号码。</span><span class="sxs-lookup"><span data-stu-id="be1dc-144">Specifies a direct inward dialing (DID) number (typically, a security desk number) that should be conferenced in when an emergency call is placed.</span></span> 
+  
+ <span data-ttu-id="be1dc-145">**会议模式**</span><span class="sxs-lookup"><span data-stu-id="be1dc-145">**Conference Mode**</span></span>
+  
+<span data-ttu-id="be1dc-146">指定是否使用单向或双向通信将会议会议加入紧急呼叫的会议 URI。</span><span class="sxs-lookup"><span data-stu-id="be1dc-146">Specifies if the conference URI will be conferenced into the emergency call by using one-way or two-way communication.</span></span> 
+  
+ <span data-ttu-id="be1dc-147">**位置刷新间隔**</span><span class="sxs-lookup"><span data-stu-id="be1dc-147">**Location Refresh Interval**</span></span>
+  
+<span data-ttu-id="be1dc-148">指定从位置信息 (位置) 客户端请求之间使用的时间量（以小时表示）。</span><span class="sxs-lookup"><span data-stu-id="be1dc-148">Specifies the amount of time (in hours) between client requests for a location update from the Location Information service.</span></span> <span data-ttu-id="be1dc-149">该值可以设置为 1 到 12 之间的任意值。</span><span class="sxs-lookup"><span data-stu-id="be1dc-149">The value can be set to any value between 1 and 12.</span></span> <span data-ttu-id="be1dc-150">默认值为 4。</span><span class="sxs-lookup"><span data-stu-id="be1dc-150">The default value is 4.</span></span>
   
 

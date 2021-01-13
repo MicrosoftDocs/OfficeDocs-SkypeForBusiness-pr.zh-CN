@@ -1,27 +1,28 @@
 ---
-title: Voice Infrastructure (Planning Tool)
+title: '语音基础结构 (规划工具) '
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.VoiceInfrastructure
+- ms.lync.plan.VoiceInfrastructure
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
-description: Skype for Business Server 2015 通过使用 SIP 中继、直接 SIP 连接到 PSTN 网关或直接 SIP 连接到 PBX，提供可靠、可扩展的 PSTN 连接。 有关详细信息，请参阅在 Skype for business Server 2015 中规划 PSTN 连接。
-ms.openlocfilehash: 5f291755f2007a114e4fad3970d4ea5c1ea82ba4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server 2015 通过使用 SIP 中继、直接 SIP 连接到 PSTN 网关或直接 SIP 连接到 PBX，提供可靠、可扩展的 PSTN 连接。 有关详细信息，请参阅 Plan for PSTN connectivity in Skype for Business Server 2015。
+ms.openlocfilehash: 72eaff598486844381a236c3cfc0ba229892c5bd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816261"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823312"
 ---
-# <a name="voice-infrastructure-planning-tool"></a><span data-ttu-id="e2651-104">Voice Infrastructure (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="e2651-104">Voice Infrastructure (Planning Tool)</span></span>
+# <a name="voice-infrastructure-planning-tool"></a><span data-ttu-id="4f0b3-104">语音基础结构 (规划工具) </span><span class="sxs-lookup"><span data-stu-id="4f0b3-104">Voice Infrastructure (Planning Tool)</span></span>
  
-<span data-ttu-id="e2651-105">Skype for Business Server 2015 通过使用 SIP 中继、直接 SIP 连接到 PSTN 网关或直接 SIP 连接到 PBX，提供可靠、可扩展的 PSTN 连接。</span><span class="sxs-lookup"><span data-stu-id="e2651-105">Skype for Business Server 2015 provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX.</span></span> <span data-ttu-id="e2651-106">有关详细信息，请参阅[在 Skype for Business Server 2015 中规划 PSTN 连接](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)。</span><span class="sxs-lookup"><span data-stu-id="e2651-106">For details, see [Plan for PSTN connectivity in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span></span>
+<span data-ttu-id="4f0b3-105">Skype for Business Server 2015 通过使用 SIP 中继、直接 SIP 连接到 PSTN 网关或直接 SIP 连接到 PBX，提供可靠、可扩展的 PSTN 连接。</span><span class="sxs-lookup"><span data-stu-id="4f0b3-105">Skype for Business Server 2015 provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX.</span></span> <span data-ttu-id="4f0b3-106">有关详细信息，请参阅 [Plan for PSTN connectivity in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span><span class="sxs-lookup"><span data-stu-id="4f0b3-106">For details, see [Plan for PSTN connectivity in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span></span>
   
 

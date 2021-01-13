@@ -1,8 +1,8 @@
 ---
-title: 配置网络区域新建或编辑现有
+title: 配置网络区域创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 415375892b372fbe01a8986545dcd0d27d66935f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 要执行什么操作？ 单击要执行的任务的链接。
+ms.openlocfilehash: 5a1a769d7c5b429275bf9aac3a6cafe87c7b8ad8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795653"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824712"
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="61e6a-104">配置网络区域：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="61e6a-104">Configure a Network Region: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="6b7b8-104">配置网络区域：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="6b7b8-104">Configure a Network Region: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="61e6a-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="61e6a-105">What do you want to do?</span></span> <span data-ttu-id="61e6a-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="61e6a-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="6b7b8-105">要执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="6b7b8-105">What do you want to do?</span></span> <span data-ttu-id="6b7b8-106">单击要执行的任务的链接。</span><span class="sxs-lookup"><span data-stu-id="6b7b8-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="61e6a-107">配置网络区域</span><span class="sxs-lookup"><span data-stu-id="61e6a-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="6b7b8-107">配置网络区域</span><span class="sxs-lookup"><span data-stu-id="6b7b8-107">Configuring Network Regions</span></span>](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
 
 
 
