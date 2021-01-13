@@ -1,8 +1,8 @@
 ---
-title: 为 Skype for Business Server 2015 中的持久聊天服务器配置合规性服务
+title: 在 Skype for Business Server 2015 中为持久聊天服务器配置合规性服务
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,91 +13,91 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要：了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。
-ms.openlocfilehash: f25df3e85112f91c1286c0be49c428c364acf018
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: ee7dbc3ad8e7eedcadcc60850e35b753c5fadb43
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887841"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815062"
 ---
-# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a><span data-ttu-id="c6111-103">为 Skype for Business Server 2015 中的持久聊天服务器配置合规性服务</span><span class="sxs-lookup"><span data-stu-id="c6111-103">Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015</span></span>
+# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a><span data-ttu-id="fbf20-103">在 Skype for Business Server 2015 中为持久聊天服务器配置合规性服务</span><span class="sxs-lookup"><span data-stu-id="fbf20-103">Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015</span></span>
 
-<span data-ttu-id="c6111-104">**摘要：** 了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。</span><span class="sxs-lookup"><span data-stu-id="c6111-104">**Summary:** Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015.</span></span>
+<span data-ttu-id="fbf20-104">**摘要：** 了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。</span><span class="sxs-lookup"><span data-stu-id="fbf20-104">**Summary:** Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015.</span></span>
 
-<span data-ttu-id="c6111-105">持久聊天合规性允许管理员保留持久聊天消息和活动的存档。</span><span class="sxs-lookup"><span data-stu-id="c6111-105">Persistent Chat compliance lets administrators maintain an archive of Persistent Chat messages as well as activities.</span></span> <span data-ttu-id="c6111-106">合规性服务记录和存档与每个持久聊天服务器对话相关的数据，包括参与者：</span><span class="sxs-lookup"><span data-stu-id="c6111-106">The Compliance service records and archives data related to each Persistent Chat Server conversation, including when a participant:</span></span>
+<span data-ttu-id="fbf20-105">持久聊天合规性使管理员能够维护持久聊天消息和活动存档。</span><span class="sxs-lookup"><span data-stu-id="fbf20-105">Persistent Chat compliance lets administrators maintain an archive of Persistent Chat messages as well as activities.</span></span> <span data-ttu-id="fbf20-106">合规性服务记录和存档与每个持久聊天服务器对话相关的数据，包括参与者：</span><span class="sxs-lookup"><span data-stu-id="fbf20-106">The Compliance service records and archives data related to each Persistent Chat Server conversation, including when a participant:</span></span>
 
-- <span data-ttu-id="c6111-107">加入持久聊天室</span><span class="sxs-lookup"><span data-stu-id="c6111-107">Joins a Persistent Chat room</span></span>
+- <span data-ttu-id="fbf20-107">加入持久聊天室</span><span class="sxs-lookup"><span data-stu-id="fbf20-107">Joins a Persistent Chat room</span></span>
 
-- <span data-ttu-id="c6111-108">离开聊天室</span><span class="sxs-lookup"><span data-stu-id="c6111-108">Leaves a chat room</span></span>
+- <span data-ttu-id="fbf20-108">离开聊天室</span><span class="sxs-lookup"><span data-stu-id="fbf20-108">Leaves a chat room</span></span>
 
-- <span data-ttu-id="c6111-109">发布消息</span><span class="sxs-lookup"><span data-stu-id="c6111-109">Posts a message</span></span>
+- <span data-ttu-id="fbf20-109">发布消息</span><span class="sxs-lookup"><span data-stu-id="fbf20-109">Posts a message</span></span>
 
-- <span data-ttu-id="c6111-110">查看聊天历史记录</span><span class="sxs-lookup"><span data-stu-id="c6111-110">Views chat history</span></span>
+- <span data-ttu-id="fbf20-110">查看聊天历史记录</span><span class="sxs-lookup"><span data-stu-id="fbf20-110">Views chat history</span></span>
 
-- <span data-ttu-id="c6111-111">上载文件</span><span class="sxs-lookup"><span data-stu-id="c6111-111">Uploads a file</span></span>
+- <span data-ttu-id="fbf20-111">上载文件</span><span class="sxs-lookup"><span data-stu-id="fbf20-111">Uploads a file</span></span>
 
-- <span data-ttu-id="c6111-112">下载文件</span><span class="sxs-lookup"><span data-stu-id="c6111-112">Downloads a file</span></span>
+- <span data-ttu-id="fbf20-112">下载文件</span><span class="sxs-lookup"><span data-stu-id="fbf20-112">Downloads a file</span></span>
 
-<span data-ttu-id="c6111-113">可根据需要，从合规性 SQL 数据库检索此信息。</span><span class="sxs-lookup"><span data-stu-id="c6111-113">This information can be retrieved from the Compliance SQL database as needed.</span></span> 
+<span data-ttu-id="fbf20-113">如果需要，可以从合规性数据库SQL此信息。</span><span class="sxs-lookup"><span data-stu-id="fbf20-113">This information can be retrieved from the Compliance SQL database as needed.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="c6111-114">Skype for business Server 2015 中提供了持久聊天，但 Skype for business Server 2019 不再支持此功能。</span><span class="sxs-lookup"><span data-stu-id="c6111-114">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="c6111-115">团队中提供了相同的功能。</span><span class="sxs-lookup"><span data-stu-id="c6111-115">The same functionality is available in Teams.</span></span> <span data-ttu-id="c6111-116">有关详细信息，请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。</span><span class="sxs-lookup"><span data-stu-id="c6111-116">For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).</span></span> <span data-ttu-id="c6111-117">如果需要使用持久聊天，您可以选择将需要此功能的用户迁移到团队，或继续使用 Skype for Business Server 2015。</span><span class="sxs-lookup"><span data-stu-id="c6111-117">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.</span></span> 
+> <span data-ttu-id="fbf20-114">持久聊天在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。</span><span class="sxs-lookup"><span data-stu-id="fbf20-114">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="fbf20-115">Teams 中也提供相同的功能。</span><span class="sxs-lookup"><span data-stu-id="fbf20-115">The same functionality is available in Teams.</span></span> <span data-ttu-id="fbf20-116">有关详细信息，请参阅 [Microsoft Teams](/microsoftteams/upgrade-start-here)升级入门。</span><span class="sxs-lookup"><span data-stu-id="fbf20-116">For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).</span></span> <span data-ttu-id="fbf20-117">如果你需要使用持久聊天，你的选择是：将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。</span><span class="sxs-lookup"><span data-stu-id="fbf20-117">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.</span></span> 
 
-## <a name="configure-the-compliance-service-by-using-windows-powershell"></a><span data-ttu-id="c6111-118">使用 Windows PowerShell 配置合规性服务</span><span class="sxs-lookup"><span data-stu-id="c6111-118">Configure the Compliance service by using Windows PowerShell</span></span>
+## <a name="configure-the-compliance-service-by-using-windows-powershell"></a><span data-ttu-id="fbf20-118">使用客户端配置合规性Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="fbf20-118">Configure the Compliance service by using Windows PowerShell</span></span>
 
-<span data-ttu-id="c6111-119">使用拓扑生成器启用合规性服务后，您可以使用 **Set-CsPersistenChatComplianceConfiguration** cmdlet 配置服务：</span><span class="sxs-lookup"><span data-stu-id="c6111-119">After the Compliance service has been enabled by using the Topology Builder, you can configure the service by using the **Set-CsPersistenChatComplianceConfiguration** cmdlet:</span></span>
+<span data-ttu-id="fbf20-119">使用拓扑生成器启用合规性服务后，可以使用 **Set-CsPersistenChatComplianceConfiguration** cmdlet 配置该服务：</span><span class="sxs-lookup"><span data-stu-id="fbf20-119">After the Compliance service has been enabled by using the Topology Builder, you can configure the service by using the **Set-CsPersistenChatComplianceConfiguration** cmdlet:</span></span>
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
-<span data-ttu-id="c6111-120">或者</span><span class="sxs-lookup"><span data-stu-id="c6111-120">or</span></span>
+<span data-ttu-id="fbf20-120">或者</span><span class="sxs-lookup"><span data-stu-id="fbf20-120">or</span></span>
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
-<span data-ttu-id="c6111-121">您可以设置以下参数：</span><span class="sxs-lookup"><span data-stu-id="c6111-121">You can set the following parameters:</span></span>
+<span data-ttu-id="fbf20-121">可以设置以下参数：</span><span class="sxs-lookup"><span data-stu-id="fbf20-121">You can set the following parameters:</span></span>
 
-- <span data-ttu-id="c6111-122">AdapterType - 允许您指定适配器类型。</span><span class="sxs-lookup"><span data-stu-id="c6111-122">AdapterType - Lets you specify the adapter type.</span></span> <span data-ttu-id="c6111-123">适配器是一个第三方产品，可将合规性数据库中的数据转换为特定格式。</span><span class="sxs-lookup"><span data-stu-id="c6111-123">An adapter is a third-party product that converts the data in the compliance database to a specific format.</span></span> <span data-ttu-id="c6111-124">XML 为默认格式。</span><span class="sxs-lookup"><span data-stu-id="c6111-124">XML is the default.</span></span>
+- <span data-ttu-id="fbf20-122">AdapterType - 允许你指定适配器类型。</span><span class="sxs-lookup"><span data-stu-id="fbf20-122">AdapterType - Lets you specify the adapter type.</span></span> <span data-ttu-id="fbf20-123">适配器是一种第三方产品，可将合规性数据库中的数据转换为特定格式。</span><span class="sxs-lookup"><span data-stu-id="fbf20-123">An adapter is a third-party product that converts the data in the compliance database to a specific format.</span></span> <span data-ttu-id="fbf20-124">XML 为默认值。</span><span class="sxs-lookup"><span data-stu-id="fbf20-124">XML is the default.</span></span>
 
-- <span data-ttu-id="c6111-125">OneChatRoomPerOutputFile-此参数允许你指定为每个聊天室创建单独的报表。</span><span class="sxs-lookup"><span data-stu-id="c6111-125">OneChatRoomPerOutputFile - This parameter lets you specify that separate reports to be created for each chat room.</span></span>
+- <span data-ttu-id="fbf20-125">OneChatRoomPerOutputFile - 此参数允许您指定为每个聊天室创建单独的报告。</span><span class="sxs-lookup"><span data-stu-id="fbf20-125">OneChatRoomPerOutputFile - This parameter lets you specify that separate reports to be created for each chat room.</span></span>
 
-- <span data-ttu-id="c6111-126">AddChatRoomDetails - 启用时，此参数会在数据库中记录有关每个聊天室的其他详细信息。</span><span class="sxs-lookup"><span data-stu-id="c6111-126">AddChatRoomDetails - When enabled, this parameter records additional details about each chat room in the database.</span></span> <span data-ttu-id="c6111-127">由于此设置可大幅增加数据库的规模，默认将予以禁用。</span><span class="sxs-lookup"><span data-stu-id="c6111-127">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
+- <span data-ttu-id="fbf20-126">AddChatRoomDetails - 启用后，此参数将记录有关数据库中每个聊天室的其他详细信息。</span><span class="sxs-lookup"><span data-stu-id="fbf20-126">AddChatRoomDetails - When enabled, this parameter records additional details about each chat room in the database.</span></span> <span data-ttu-id="fbf20-127">由于此设置可以大大增加数据库的大小，因此默认情况下将禁用它。</span><span class="sxs-lookup"><span data-stu-id="fbf20-127">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
 
-- <span data-ttu-id="c6111-128">AddUserDetails - 启用时，此参数会在数据库中记录有关每个聊天室用户的其他详细信息。</span><span class="sxs-lookup"><span data-stu-id="c6111-128">AddUserDetails - When enabled, this parameter records additional details about each chat room user in the database.</span></span> <span data-ttu-id="c6111-129">由于此设置可大幅增加数据库的规模，默认将予以禁用。</span><span class="sxs-lookup"><span data-stu-id="c6111-129">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
+- <span data-ttu-id="fbf20-128">AddUserDetails - 启用后，此参数将记录有关数据库中每个聊天室用户的其他详细信息。</span><span class="sxs-lookup"><span data-stu-id="fbf20-128">AddUserDetails - When enabled, this parameter records additional details about each chat room user in the database.</span></span> <span data-ttu-id="fbf20-129">由于此设置可以大大增加数据库的大小，因此默认情况下将禁用它。</span><span class="sxs-lookup"><span data-stu-id="fbf20-129">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
 
-- <span data-ttu-id="c6111-130">Identity - 此参数允许将合规性设置的作用范围限定为特定的集合，包括全局、站点和服务级别。</span><span class="sxs-lookup"><span data-stu-id="c6111-130">Identity - This parameter allows compliance settings to be scoped for a particular collection, including the global, site, and service levels.</span></span> <span data-ttu-id="c6111-131">默认为全局级别。</span><span class="sxs-lookup"><span data-stu-id="c6111-131">The default is the global level.</span></span> 
+- <span data-ttu-id="fbf20-130">Identity - 此参数允许将合规性设置的范围设定为特定集合，包括全局、站点和服务级别。</span><span class="sxs-lookup"><span data-stu-id="fbf20-130">Identity - This parameter allows compliance settings to be scoped for a particular collection, including the global, site, and service levels.</span></span> <span data-ttu-id="fbf20-131">默认值为全局级别。</span><span class="sxs-lookup"><span data-stu-id="fbf20-131">The default is the global level.</span></span> 
 
-- <span data-ttu-id="c6111-132">RunInterval - 此参数确定了在服务器创建下一个合规性输出文件之前的时间量（默认为 15 分钟）。</span><span class="sxs-lookup"><span data-stu-id="c6111-132">RunInterval - This parameter dictates the amount of time before the server creates the next compliance output file (the default is 15 minutes).</span></span>
+- <span data-ttu-id="fbf20-132">RunInterval - 此参数指示服务器创建下一个合规性输出文件之前的时间 (默认值为 15) 。</span><span class="sxs-lookup"><span data-stu-id="fbf20-132">RunInterval - This parameter dictates the amount of time before the server creates the next compliance output file (the default is 15 minutes).</span></span>
 
-## <a name="use-a-customized-compliance-adapter"></a><span data-ttu-id="c6111-133">使用自定义的合规性适配器</span><span class="sxs-lookup"><span data-stu-id="c6111-133">Use a customized compliance adapter</span></span>
+## <a name="use-a-customized-compliance-adapter"></a><span data-ttu-id="fbf20-133">使用自定义的合规性适配器</span><span class="sxs-lookup"><span data-stu-id="fbf20-133">Use a customized compliance adapter</span></span>
 
-<span data-ttu-id="c6111-134">你可以编写自定义适配器，而不是使用随永久聊天服务器一起安装的 XmlAdapter。</span><span class="sxs-lookup"><span data-stu-id="c6111-134">You can write a custom adapter instead of using the XmlAdapter that is installed with Persistent Chat Server.</span></span> <span data-ttu-id="c6111-135">若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。</span><span class="sxs-lookup"><span data-stu-id="c6111-135">To accomplish this, you must provide a .NET Framework assembly that contains a public class that implements the **IComplianceAdapter** interface.</span></span> <span data-ttu-id="c6111-136">必须将此程序集放在持久聊天服务器池中每台服务器的持久聊天服务器安装文件夹中。</span><span class="sxs-lookup"><span data-stu-id="c6111-136">You must place this assembly in the Persistent Chat Server installation folder of each server in your Persistent Chat Server pool.</span></span> <span data-ttu-id="c6111-137">任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。</span><span class="sxs-lookup"><span data-stu-id="c6111-137">Any one of the Compliance servers can provide compliance data to your adapter, but the compliance servers will not provide duplicate compliance data to multiple instances of your adapter.</span></span>
+<span data-ttu-id="fbf20-134">您可以编写自定义适配器，而不是使用随持久聊天服务器一起安装的 XmlAdapter。</span><span class="sxs-lookup"><span data-stu-id="fbf20-134">You can write a custom adapter instead of using the XmlAdapter that is installed with Persistent Chat Server.</span></span> <span data-ttu-id="fbf20-135">若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。</span><span class="sxs-lookup"><span data-stu-id="fbf20-135">To accomplish this, you must provide a .NET Framework assembly that contains a public class that implements the **IComplianceAdapter** interface.</span></span> <span data-ttu-id="fbf20-136">必须将此程序集放在持久聊天服务器池中每台服务器的持久聊天服务器安装文件夹中。</span><span class="sxs-lookup"><span data-stu-id="fbf20-136">You must place this assembly in the Persistent Chat Server installation folder of each server in your Persistent Chat Server pool.</span></span> <span data-ttu-id="fbf20-137">任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。</span><span class="sxs-lookup"><span data-stu-id="fbf20-137">Any one of the Compliance servers can provide compliance data to your adapter, but the compliance servers will not provide duplicate compliance data to multiple instances of your adapter.</span></span>
 
-<span data-ttu-id="c6111-138">该接口在命名空间`Microsoft.Rtc.Internal.Chat.Server.Compliance`中的合规 .dll 程序集中定义。</span><span class="sxs-lookup"><span data-stu-id="c6111-138">The interface is defined in the Compliance.dll assembly in the namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span></span> <span data-ttu-id="c6111-139">该接口定义您的自定义适配器必须实现的两种方法。</span><span class="sxs-lookup"><span data-stu-id="c6111-139">The interface defines two methods that your custom adapter must implement.</span></span>
+<span data-ttu-id="fbf20-138">接口在命名空间中的 Compliance.dll 程序集中定义  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 。</span><span class="sxs-lookup"><span data-stu-id="fbf20-138">The interface is defined in the Compliance.dll assembly in the namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span></span> <span data-ttu-id="fbf20-139">该接口定义自定义适配器必须实现两种方法。</span><span class="sxs-lookup"><span data-stu-id="fbf20-139">The interface defines two methods that your custom adapter must implement.</span></span>
 
-<span data-ttu-id="c6111-140">在适配器首次加载时，持久聊天合规性服务器将调用以下方法。</span><span class="sxs-lookup"><span data-stu-id="c6111-140">The Persistent Chat Compliance server will call the following method when the adapter first loads.</span></span> <span data-ttu-id="c6111-141">`AdapterConfig`包含与合规性适配器相关的持久聊天合规性配置：</span><span class="sxs-lookup"><span data-stu-id="c6111-141">The  `AdapterConfig` contains the Persistent Chat compliance configuration that is relevant to the compliance adapter:</span></span>
+<span data-ttu-id="fbf20-140">当适配器首次加载时，持久聊天合规性服务器将调用以下方法。</span><span class="sxs-lookup"><span data-stu-id="fbf20-140">The Persistent Chat Compliance server will call the following method when the adapter first loads.</span></span> <span data-ttu-id="fbf20-141">包含  `AdapterConfig` 与合规性适配器相关的持久聊天合规性配置：</span><span class="sxs-lookup"><span data-stu-id="fbf20-141">The  `AdapterConfig` contains the Persistent Chat compliance configuration that is relevant to the compliance adapter:</span></span>
 
 ```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-<span data-ttu-id="c6111-142">只要有要翻译的新数据，永久聊天合规性服务器将按定期时间间隔调用以下方法。</span><span class="sxs-lookup"><span data-stu-id="c6111-142">The Persistent Chat Compliance server calls the following method at periodic intervals as long as there is new data to translate.</span></span> <span data-ttu-id="c6111-143">此时间间隔等于持久聊天合规`RunInterval`性配置中的设置：</span><span class="sxs-lookup"><span data-stu-id="c6111-143">This time interval is equal to the  `RunInterval` as set in the Persistent Chat Compliance configuration:</span></span>
+<span data-ttu-id="fbf20-142">只要有要转换的新数据，持久聊天合规性服务器就定期调用以下方法。</span><span class="sxs-lookup"><span data-stu-id="fbf20-142">The Persistent Chat Compliance server calls the following method at periodic intervals as long as there is new data to translate.</span></span> <span data-ttu-id="fbf20-143">此时间间隔等于持久聊天  `RunInterval` 合规性配置中设置的时间间隔：</span><span class="sxs-lookup"><span data-stu-id="fbf20-143">This time interval is equal to the  `RunInterval` as set in the Persistent Chat Compliance configuration:</span></span>
 
 ```cpp
 void Translate(ConversationCollection conversations)
 ```
 
-<span data-ttu-id="c6111-144">`ConversationCollection`包含上次调用此方法时收集的对话信息。</span><span class="sxs-lookup"><span data-stu-id="c6111-144">The  `ConversationCollection` contains the conversation information that was collected from the last time this method was called.</span></span>
+<span data-ttu-id="fbf20-144">包含  `ConversationCollection` 上次调用此方法时收集的对话信息。</span><span class="sxs-lookup"><span data-stu-id="fbf20-144">The  `ConversationCollection` contains the conversation information that was collected from the last time this method was called.</span></span>
 
-## <a name="customize-the-xslt-definition-file"></a><span data-ttu-id="c6111-145">自定义 XSLT 定义文件</span><span class="sxs-lookup"><span data-stu-id="c6111-145">Customize the XSLT definition file</span></span>
+## <a name="customize-the-xslt-definition-file"></a><span data-ttu-id="fbf20-145">自定义 XSLT 定义文件</span><span class="sxs-lookup"><span data-stu-id="fbf20-145">Customize the XSLT definition file</span></span>
 
-<span data-ttu-id="c6111-p111">合规性数据以 XML 格式（可通过 XSLT 定义文件将其转换为最适合组织的格式）传送。本主题介绍合规性服务创建的 XML 文件。它还提供 XSLT 定义和输出文件的示例。</span><span class="sxs-lookup"><span data-stu-id="c6111-p111">The compliance data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
+<span data-ttu-id="fbf20-146">合规性数据以 XML 形式提供，您可以使用 XSLT 定义文件将其转换为最适合组织的格式。</span><span class="sxs-lookup"><span data-stu-id="fbf20-146">The compliance data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file.</span></span> <span data-ttu-id="fbf20-147">本主题介绍合规性服务创建的 XML 文件。</span><span class="sxs-lookup"><span data-stu-id="fbf20-147">This topic describes the XML file that the Compliance service creates.</span></span> <span data-ttu-id="fbf20-148">它还提供 XSLT 定义和输出文件的示例。</span><span class="sxs-lookup"><span data-stu-id="fbf20-148">It also provides samples of XSLT definition and output files.</span></span>
 
-### <a name="output-format"></a><span data-ttu-id="c6111-149">输出格式</span><span class="sxs-lookup"><span data-stu-id="c6111-149">Output format</span></span>
+### <a name="output-format"></a><span data-ttu-id="fbf20-149">输出格式</span><span class="sxs-lookup"><span data-stu-id="fbf20-149">Output format</span></span>
 
-<span data-ttu-id="c6111-150">合规性服务输出按对话（Conversation 元素）进行分类，然后再按消息（Messages 元素）分类，如以下代码示例所示：</span><span class="sxs-lookup"><span data-stu-id="c6111-150">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample:</span></span>
+<span data-ttu-id="fbf20-150">合规性服务输出按对话元素 (会话) ，然后按消息 (Messages 元素) 进行分类，如以下代码示例所示：</span><span class="sxs-lookup"><span data-stu-id="fbf20-150">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample:</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -114,7 +114,7 @@ void Translate(ConversationCollection conversations)
 </Conversations>
 ```
 
-<span data-ttu-id="c6111-p112">一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间，如以下代码示例所示：</span><span class="sxs-lookup"><span data-stu-id="c6111-p112">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample:</span></span>
+<span data-ttu-id="fbf20-151">一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。</span><span class="sxs-lookup"><span data-stu-id="fbf20-151">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC).</span></span> <span data-ttu-id="fbf20-152">Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。</span><span class="sxs-lookup"><span data-stu-id="fbf20-152">The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element.</span></span> <span data-ttu-id="fbf20-153">StartTimeUTC 和 EndTimeUTC 元素提供对话的开始时间和结束时间，如以下代码示例所示：</span><span class="sxs-lookup"><span data-stu-id="fbf20-153">The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample:</span></span>
 
 ```xml
 <FirstMessage type="JOIN" content="" id="0">
@@ -123,7 +123,7 @@ void Translate(ConversationCollection conversations)
 </FirstMessage>
 ```
 
-<span data-ttu-id="c6111-p113">一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。Sender 元素表示发送消息的用户，而 DateTimeUTC 元素表示事件发生的时间，如以下代码示例所示：</span><span class="sxs-lookup"><span data-stu-id="c6111-p113">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample:</span></span>
+<span data-ttu-id="fbf20-154">一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。</span><span class="sxs-lookup"><span data-stu-id="fbf20-154">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID).</span></span> <span data-ttu-id="fbf20-155">Sender 元素表示发送邮件的用户，DateTimeUTC 元素表示事件发生的时间，如以下代码示例所示：</span><span class="sxs-lookup"><span data-stu-id="fbf20-155">The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample:</span></span>
 
 ```xml
 <Message type="JOIN" content="" id="0">
@@ -132,31 +132,31 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-<span data-ttu-id="c6111-156">下表描述了消息属性类型、内容和 ID。</span><span class="sxs-lookup"><span data-stu-id="c6111-156">The following table describes the message attributes Type, Content, and ID.</span></span>
+<span data-ttu-id="fbf20-156">下表描述了消息属性类型、内容和 ID。</span><span class="sxs-lookup"><span data-stu-id="fbf20-156">The following table describes the message attributes Type, Content, and ID.</span></span>
 
-<span data-ttu-id="c6111-157">**Messages 元素属性**</span><span class="sxs-lookup"><span data-stu-id="c6111-157">**Messages Element Attributes**</span></span>
+<span data-ttu-id="fbf20-157">**Messages 元素属性**</span><span class="sxs-lookup"><span data-stu-id="fbf20-157">**Messages Element Attributes**</span></span>
 
-|<span data-ttu-id="c6111-158">**属性**</span><span class="sxs-lookup"><span data-stu-id="c6111-158">**Attribute**</span></span>|<span data-ttu-id="c6111-159">**说明**</span><span class="sxs-lookup"><span data-stu-id="c6111-159">**Description**</span></span>|<span data-ttu-id="c6111-160">**可选/必需**</span><span class="sxs-lookup"><span data-stu-id="c6111-160">**Optional/Required**</span></span>|
+|<span data-ttu-id="fbf20-158">**属性**</span><span class="sxs-lookup"><span data-stu-id="fbf20-158">**Attribute**</span></span>|<span data-ttu-id="fbf20-159">**说明**</span><span class="sxs-lookup"><span data-stu-id="fbf20-159">**Description**</span></span>|<span data-ttu-id="fbf20-160">**可选/必需**</span><span class="sxs-lookup"><span data-stu-id="fbf20-160">**Optional/Required**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="c6111-161">类型</span><span class="sxs-lookup"><span data-stu-id="c6111-161">Type</span></span>  <br/> |<span data-ttu-id="c6111-p114">指定消息类型。消息类型将在" Message 元素消息类型"表中进行介绍。</span><span class="sxs-lookup"><span data-stu-id="c6111-p114">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span>  <br/> |<span data-ttu-id="c6111-164">是否必需</span><span class="sxs-lookup"><span data-stu-id="c6111-164">Required</span></span>  <br/> |
-|<span data-ttu-id="c6111-165">内容</span><span class="sxs-lookup"><span data-stu-id="c6111-165">Content</span></span>  <br/> |<span data-ttu-id="c6111-p115">包含消息的内容。具有 Join 或 Part 类型的消息不使用此属性。</span><span class="sxs-lookup"><span data-stu-id="c6111-p115">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span>  <br/> |<span data-ttu-id="c6111-168">可选</span><span class="sxs-lookup"><span data-stu-id="c6111-168">Optional</span></span>  <br/> |
-|<span data-ttu-id="c6111-169">ID</span><span class="sxs-lookup"><span data-stu-id="c6111-169">ID</span></span>  <br/> |<span data-ttu-id="c6111-p116">指定内容的唯一 ID。此属性仅用于具有 Chat 类型的消息。</span><span class="sxs-lookup"><span data-stu-id="c6111-p116">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span>  <br/> |<span data-ttu-id="c6111-172">可选</span><span class="sxs-lookup"><span data-stu-id="c6111-172">Optional</span></span>  <br/> |
+|<span data-ttu-id="fbf20-161">类型</span><span class="sxs-lookup"><span data-stu-id="fbf20-161">Type</span></span>  <br/> |<span data-ttu-id="fbf20-p114">指定消息类型。消息类型将在“Message 元素消息类型”表中进行介绍。</span><span class="sxs-lookup"><span data-stu-id="fbf20-p114">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span>  <br/> |<span data-ttu-id="fbf20-164">必填</span><span class="sxs-lookup"><span data-stu-id="fbf20-164">Required</span></span>  <br/> |
+|<span data-ttu-id="fbf20-165">内容</span><span class="sxs-lookup"><span data-stu-id="fbf20-165">Content</span></span>  <br/> |<span data-ttu-id="fbf20-p115">包含消息的内容。具有 Join 或 Part 类型的消息不使用此属性。</span><span class="sxs-lookup"><span data-stu-id="fbf20-p115">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span>  <br/> |<span data-ttu-id="fbf20-168">可选</span><span class="sxs-lookup"><span data-stu-id="fbf20-168">Optional</span></span>  <br/> |
+|<span data-ttu-id="fbf20-169">ID</span><span class="sxs-lookup"><span data-stu-id="fbf20-169">ID</span></span>  <br/> |<span data-ttu-id="fbf20-p116">指定内容的唯一 ID。此属性仅用于具有 Chat 类型的消息。</span><span class="sxs-lookup"><span data-stu-id="fbf20-p116">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span>  <br/> |<span data-ttu-id="fbf20-172">可选</span><span class="sxs-lookup"><span data-stu-id="fbf20-172">Optional</span></span>  <br/> |
 
-<span data-ttu-id="c6111-p117">每个 Sender 元素包含五个属性：用户名、ID、电子邮件、Internal 和 URI。这些属性将在下表中进行介绍。</span><span class="sxs-lookup"><span data-stu-id="c6111-p117">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
+<span data-ttu-id="fbf20-p117">每个 Sender 元素包含五个属性：用户名、ID、电子邮件、Internal 和 URI。这些属性将在下表中进行介绍。</span><span class="sxs-lookup"><span data-stu-id="fbf20-p117">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
 
-<span data-ttu-id="c6111-175">**Sender 元素属性**</span><span class="sxs-lookup"><span data-stu-id="c6111-175">**Sender Element Attributes**</span></span>
+<span data-ttu-id="fbf20-175">**Sender 元素属性**</span><span class="sxs-lookup"><span data-stu-id="fbf20-175">**Sender Element Attributes**</span></span>
 
-|<span data-ttu-id="c6111-176">**属性**</span><span class="sxs-lookup"><span data-stu-id="c6111-176">**Attribute**</span></span>|<span data-ttu-id="c6111-177">**说明**</span><span class="sxs-lookup"><span data-stu-id="c6111-177">**Description**</span></span>|<span data-ttu-id="c6111-178">**可选/必需**</span><span class="sxs-lookup"><span data-stu-id="c6111-178">**Optional/Required**</span></span>|
+|<span data-ttu-id="fbf20-176">**属性**</span><span class="sxs-lookup"><span data-stu-id="fbf20-176">**Attribute**</span></span>|<span data-ttu-id="fbf20-177">**说明**</span><span class="sxs-lookup"><span data-stu-id="fbf20-177">**Description**</span></span>|<span data-ttu-id="fbf20-178">**可选/必需**</span><span class="sxs-lookup"><span data-stu-id="fbf20-178">**Optional/Required**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="c6111-179">Username</span><span class="sxs-lookup"><span data-stu-id="c6111-179">Username</span></span>  <br/> |<span data-ttu-id="c6111-180">发送者的名称。</span><span class="sxs-lookup"><span data-stu-id="c6111-180">The name of the sender.</span></span>  <br/> |<span data-ttu-id="c6111-181">可选</span><span class="sxs-lookup"><span data-stu-id="c6111-181">Optional</span></span>  <br/> |
-|<span data-ttu-id="c6111-182">ID</span><span class="sxs-lookup"><span data-stu-id="c6111-182">ID</span></span>  <br/> |<span data-ttu-id="c6111-183">发件人的唯一 ID。</span><span class="sxs-lookup"><span data-stu-id="c6111-183">The sender's unique ID.</span></span>  <br/> |<span data-ttu-id="c6111-184">是否必需</span><span class="sxs-lookup"><span data-stu-id="c6111-184">Required</span></span>  <br/> |
-|<span data-ttu-id="c6111-185">电子邮件</span><span class="sxs-lookup"><span data-stu-id="c6111-185">Email</span></span>  <br/> |<span data-ttu-id="c6111-186">发件人的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="c6111-186">The sender's email address.</span></span>  <br/> |<span data-ttu-id="c6111-187">可选</span><span class="sxs-lookup"><span data-stu-id="c6111-187">Optional</span></span>  <br/> |
-|<span data-ttu-id="c6111-188">内部</span><span class="sxs-lookup"><span data-stu-id="c6111-188">Internal</span></span>  <br/> |<span data-ttu-id="c6111-p118">确定用户是内部用户还是联盟用户。如果值设为 True，则用户为内部用户。</span><span class="sxs-lookup"><span data-stu-id="c6111-p118">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span>  <br/> |<span data-ttu-id="c6111-191">可选</span><span class="sxs-lookup"><span data-stu-id="c6111-191">Optional</span></span>  <br/> |
-|<span data-ttu-id="c6111-192">Uri</span><span class="sxs-lookup"><span data-stu-id="c6111-192">Uri</span></span>  <br/> |<span data-ttu-id="c6111-193">用户的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="c6111-193">The user's SIP URI.</span></span>  <br/> |<span data-ttu-id="c6111-194">必需</span><span class="sxs-lookup"><span data-stu-id="c6111-194">Required</span></span>  <br/> |
+|<span data-ttu-id="fbf20-179">用户名</span><span class="sxs-lookup"><span data-stu-id="fbf20-179">Username</span></span>  <br/> |<span data-ttu-id="fbf20-180">发送者的名称。</span><span class="sxs-lookup"><span data-stu-id="fbf20-180">The name of the sender.</span></span>  <br/> |<span data-ttu-id="fbf20-181">可选</span><span class="sxs-lookup"><span data-stu-id="fbf20-181">Optional</span></span>  <br/> |
+|<span data-ttu-id="fbf20-182">ID</span><span class="sxs-lookup"><span data-stu-id="fbf20-182">ID</span></span>  <br/> |<span data-ttu-id="fbf20-183">发件人的唯一 ID。</span><span class="sxs-lookup"><span data-stu-id="fbf20-183">The sender's unique ID.</span></span>  <br/> |<span data-ttu-id="fbf20-184">必填</span><span class="sxs-lookup"><span data-stu-id="fbf20-184">Required</span></span>  <br/> |
+|<span data-ttu-id="fbf20-185">电子邮件</span><span class="sxs-lookup"><span data-stu-id="fbf20-185">Email</span></span>  <br/> |<span data-ttu-id="fbf20-186">发件人的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="fbf20-186">The sender's email address.</span></span>  <br/> |<span data-ttu-id="fbf20-187">可选</span><span class="sxs-lookup"><span data-stu-id="fbf20-187">Optional</span></span>  <br/> |
+|<span data-ttu-id="fbf20-188">内部</span><span class="sxs-lookup"><span data-stu-id="fbf20-188">Internal</span></span>  <br/> |<span data-ttu-id="fbf20-p118">确定用户是内部用户还是联盟用户。如果值设为 True，则用户为内部用户。</span><span class="sxs-lookup"><span data-stu-id="fbf20-p118">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span>  <br/> |<span data-ttu-id="fbf20-191">可选</span><span class="sxs-lookup"><span data-stu-id="fbf20-191">Optional</span></span>  <br/> |
+|<span data-ttu-id="fbf20-192">Uri</span><span class="sxs-lookup"><span data-stu-id="fbf20-192">Uri</span></span>  <br/> |<span data-ttu-id="fbf20-193">用户的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="fbf20-193">The user's SIP URI.</span></span>  <br/> |<span data-ttu-id="fbf20-194">必填</span><span class="sxs-lookup"><span data-stu-id="fbf20-194">Required</span></span>  <br/> |
 
-<span data-ttu-id="c6111-195">以下示例显示了 Messages 元素可以包含的消息类型。</span><span class="sxs-lookup"><span data-stu-id="c6111-195">The following examples show the message types that the Messages element can contain.</span></span> <span data-ttu-id="c6111-196">它还提供了如何使用每个元素的示例。</span><span class="sxs-lookup"><span data-stu-id="c6111-196">It also provides examples of how each element is used.</span></span>
+<span data-ttu-id="fbf20-195">以下示例显示 Messages 元素可以包含的邮件类型。</span><span class="sxs-lookup"><span data-stu-id="fbf20-195">The following examples show the message types that the Messages element can contain.</span></span> <span data-ttu-id="fbf20-196">它还提供了如何使用每个元素的示例。</span><span class="sxs-lookup"><span data-stu-id="fbf20-196">It also provides examples of how each element is used.</span></span>
 
-<span data-ttu-id="c6111-197">加入-用户加入聊天室。</span><span class="sxs-lookup"><span data-stu-id="c6111-197">Join - A user joins a chat room.</span></span>
+<span data-ttu-id="fbf20-197">Join - 用户加入聊天室。</span><span class="sxs-lookup"><span data-stu-id="fbf20-197">Join - A user joins a chat room.</span></span>
 
 ```xml
 <Message type="JOIN" content="" id="0">
@@ -165,7 +165,7 @@ void Translate(ConversationCollection conversations)
 </Message
 ```
 
-<span data-ttu-id="c6111-198">部分-用户离开聊天室。</span><span class="sxs-lookup"><span data-stu-id="c6111-198">Part - A user leaves a chat room.</span></span>
+<span data-ttu-id="fbf20-198">Part - 用户离开聊天室。</span><span class="sxs-lookup"><span data-stu-id="fbf20-198">Part - A user leaves a chat room.</span></span>
 
 ```xml
 <Message type="PART" content="" id="0">
@@ -174,7 +174,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-<span data-ttu-id="c6111-199">聊天-发件人的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="c6111-199">Chat - The sender's email address.</span></span>
+<span data-ttu-id="fbf20-199">聊天 - 发件人的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="fbf20-199">Chat - The sender's email address.</span></span>
 
 ```xml
 <Message type="CHAT" content="hello" id="1">
@@ -183,7 +183,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-<span data-ttu-id="c6111-200">Backchat-用户从聊天历史记录请求内容。</span><span class="sxs-lookup"><span data-stu-id="c6111-200">Backchat - A user requests content from chat history.</span></span>
+<span data-ttu-id="fbf20-200">Backchat - 用户从聊天历史记录请求内容。</span><span class="sxs-lookup"><span data-stu-id="fbf20-200">Backchat - A user requests content from chat history.</span></span>
 
 ```xml
 <Message type="BACKCHAT" content="backchatcontent" id="0">
@@ -192,7 +192,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-<span data-ttu-id="c6111-201">文件上传-用户上传文件。</span><span class="sxs-lookup"><span data-stu-id="c6111-201">File upload - A user uploads a file.</span></span>
+<span data-ttu-id="fbf20-201">文件上载 - 用户上载文件。</span><span class="sxs-lookup"><span data-stu-id="fbf20-201">File upload - A user uploads a file.</span></span>
 
 ```xml
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
@@ -201,7 +201,7 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-<span data-ttu-id="c6111-202">文件下载-用户下载文件。</span><span class="sxs-lookup"><span data-stu-id="c6111-202">File download - A user downloads a file.</span></span>
+<span data-ttu-id="fbf20-202">文件下载 - 用户下载文件。</span><span class="sxs-lookup"><span data-stu-id="fbf20-202">File download - A user downloads a file.</span></span>
 
 ```xml
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
@@ -210,9 +210,9 @@ void Translate(ConversationCollection conversations)
 </Message>
 ```
 
-### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="c6111-203">默认持久聊天输出 XSD 和示例 XSL 转换</span><span class="sxs-lookup"><span data-stu-id="c6111-203">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
+### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="fbf20-203">默认持久聊天输出 XSD 和示例 XSL 转换</span><span class="sxs-lookup"><span data-stu-id="fbf20-203">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
 
-<span data-ttu-id="c6111-204">以下代码示例包含合规性服务器中的默认输出：</span><span class="sxs-lookup"><span data-stu-id="c6111-204">The following code sample contains the default output from the Compliance Server:</span></span>
+<span data-ttu-id="fbf20-204">以下代码示例包含合规性服务器的默认输出：</span><span class="sxs-lookup"><span data-stu-id="fbf20-204">The following code sample contains the default output from the Compliance Server:</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -311,7 +311,7 @@ void Translate(ConversationCollection conversations)
 </xs:schema>
 ```
 
-<span data-ttu-id="c6111-205">以下代码示例包含一个示例 XSL 转换：</span><span class="sxs-lookup"><span data-stu-id="c6111-205">The following code sample contains a sample XSL transform:</span></span>
+<span data-ttu-id="fbf20-205">下面的代码示例包含示例 XSL 转换：</span><span class="sxs-lookup"><span data-stu-id="fbf20-205">The following code sample contains a sample XSL transform:</span></span>
 
 ```xml
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">

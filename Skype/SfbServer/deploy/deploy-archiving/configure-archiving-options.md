@@ -1,8 +1,8 @@
 ---
-title: 配置 Skype for Business 服务器的存档选项
+title: 配置 Skype for Business Server 的存档选项
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,151 +11,151 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
-description: 摘要：阅读本主题，了解如何配置 Skype for business Server 的初始存档选项。 你在部署存档时开始设置存档配置，但你可以在部署后更改、添加和删除配置。
-ms.openlocfilehash: f663b310d4c82594976f2f0fc99b8ddd9baf035f
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 摘要：阅读本主题，了解如何为 Skype for Business Server 配置初始存档选项。 您最初在部署存档时设置存档配置，但您可以在部署后更改、添加和删除配置。
+ms.openlocfilehash: 0a4803b821ee082a548b9f429b9596fd8019500f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769195"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815532"
 ---
-# <a name="configure-archiving-options-for-skype-for-business-server"></a><span data-ttu-id="9edbc-104">配置 Skype for Business 服务器的存档选项</span><span class="sxs-lookup"><span data-stu-id="9edbc-104">Configure archiving options for Skype for Business Server</span></span>
+# <a name="configure-archiving-options-for-skype-for-business-server"></a><span data-ttu-id="68ef1-104">配置 Skype for Business Server 的存档选项</span><span class="sxs-lookup"><span data-stu-id="68ef1-104">Configure archiving options for Skype for Business Server</span></span>
  
-<span data-ttu-id="9edbc-105">**摘要：** 阅读本主题，了解如何配置 Skype for Business Server 的初始存档选项。</span><span class="sxs-lookup"><span data-stu-id="9edbc-105">**Summary:** Read this topic to learn how to configure initial archiving options for Skype for Business Server.</span></span> <span data-ttu-id="9edbc-106">你在部署存档时开始设置存档配置，但你可以在部署后更改、添加和删除配置。</span><span class="sxs-lookup"><span data-stu-id="9edbc-106">You initially set up archiving configurations when you deploy archiving, but you can change, add, and delete configurations after deployment.</span></span>
+<span data-ttu-id="68ef1-105">**摘要：** 阅读本主题，了解如何为 Skype for Business Server 配置初始存档选项。</span><span class="sxs-lookup"><span data-stu-id="68ef1-105">**Summary:** Read this topic to learn how to configure initial archiving options for Skype for Business Server.</span></span> <span data-ttu-id="68ef1-106">您最初在部署存档时设置存档配置，但您可以在部署后更改、添加和删除配置。</span><span class="sxs-lookup"><span data-stu-id="68ef1-106">You initially set up archiving configurations when you deploy archiving, but you can change, add, and delete configurations after deployment.</span></span>
   
-<span data-ttu-id="9edbc-107">若要配置初始存档配置，请使用 Skype for Business 服务器控制面板指定以下内容：</span><span class="sxs-lookup"><span data-stu-id="9edbc-107">To configure initial archiving configurations, you use Skype for Business Server Control Panel to specify the following:</span></span>
+<span data-ttu-id="68ef1-107">若要配置初始存档配置，请使用 Skype for Business Server 控制面板指定以下内容：</span><span class="sxs-lookup"><span data-stu-id="68ef1-107">To configure initial archiving configurations, you use Skype for Business Server Control Panel to specify the following:</span></span>
   
-- <span data-ttu-id="9edbc-108">部署 Skype for Business 服务器时默认创建的全局级别配置</span><span class="sxs-lookup"><span data-stu-id="9edbc-108">Global-level configuration that is created by default when you deploy Skype for Business Server</span></span>
+- <span data-ttu-id="68ef1-108">在部署 Skype for Business Server 时默认创建的全局级别配置</span><span class="sxs-lookup"><span data-stu-id="68ef1-108">Global-level configuration that is created by default when you deploy Skype for Business Server</span></span>
     
-- <span data-ttu-id="9edbc-109">指定如何为特定站点实施存档的可选站点级别配置</span><span class="sxs-lookup"><span data-stu-id="9edbc-109">Optional site-level configurations that specify how archiving is implemented for a specific site</span></span>
+- <span data-ttu-id="68ef1-109">指定如何为特定站点实施存档的可选站点级别配置</span><span class="sxs-lookup"><span data-stu-id="68ef1-109">Optional site-level configurations that specify how archiving is implemented for a specific site</span></span>
     
-- <span data-ttu-id="9edbc-110">指定如何为特定池实施存档的可选池级别配置</span><span class="sxs-lookup"><span data-stu-id="9edbc-110">Optional pool-level configurations that specify how archiving is implemented for a specific pool</span></span>
+- <span data-ttu-id="68ef1-110">指定如何为特定池实施存档的可选池级别配置</span><span class="sxs-lookup"><span data-stu-id="68ef1-110">Optional pool-level configurations that specify how archiving is implemented for a specific pool</span></span>
     
-<span data-ttu-id="9edbc-111">您需要为以下内容配置选项：</span><span class="sxs-lookup"><span data-stu-id="9edbc-111">You will need to configure options for the following:</span></span>
+<span data-ttu-id="68ef1-111">您需要为以下项配置选项：</span><span class="sxs-lookup"><span data-stu-id="68ef1-111">You will need to configure options for the following:</span></span>
   
-- <span data-ttu-id="9edbc-112">启用还是禁用存档</span><span class="sxs-lookup"><span data-stu-id="9edbc-112">Whether to enable or disable archiving</span></span>
+- <span data-ttu-id="68ef1-112">启用还是禁用存档</span><span class="sxs-lookup"><span data-stu-id="68ef1-112">Whether to enable or disable archiving</span></span>
     
-- <span data-ttu-id="9edbc-113">是否存档 IM 会话</span><span class="sxs-lookup"><span data-stu-id="9edbc-113">Whether to archive IM sessions</span></span>
+- <span data-ttu-id="68ef1-113">是否存档 IM 会话</span><span class="sxs-lookup"><span data-stu-id="68ef1-113">Whether to archive IM sessions</span></span>
     
-- <span data-ttu-id="9edbc-114">是否存档 Web 会议会话</span><span class="sxs-lookup"><span data-stu-id="9edbc-114">Whether to archive web conferencing sessions</span></span>
+- <span data-ttu-id="68ef1-114">是否存档 Web 会议会话</span><span class="sxs-lookup"><span data-stu-id="68ef1-114">Whether to archive web conferencing sessions</span></span>
     
-- <span data-ttu-id="9edbc-115">是否在存档不可用时阻止活动</span><span class="sxs-lookup"><span data-stu-id="9edbc-115">Whether to block activity when archiving is not available</span></span>
+- <span data-ttu-id="68ef1-115">存档不可用时是否阻止活动</span><span class="sxs-lookup"><span data-stu-id="68ef1-115">Whether to block activity when archiving is not available</span></span>
     
-- <span data-ttu-id="9edbc-116">是否使用 Exchange 集成</span><span class="sxs-lookup"><span data-stu-id="9edbc-116">Whether to use Exchange integration</span></span>
+- <span data-ttu-id="68ef1-116">是否使用 Exchange 集成</span><span class="sxs-lookup"><span data-stu-id="68ef1-116">Whether to use Exchange integration</span></span>
     
-- <span data-ttu-id="9edbc-117">如何设置数据的清除和导出</span><span class="sxs-lookup"><span data-stu-id="9edbc-117">How to set up purging and exporting of data</span></span>
+- <span data-ttu-id="68ef1-117">如何设置数据的清除和导出</span><span class="sxs-lookup"><span data-stu-id="68ef1-117">How to set up purging and exporting of data</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="9edbc-118">在启用存档之前，应指定所有适当选项。</span><span class="sxs-lookup"><span data-stu-id="9edbc-118">You should specify all appropriate options before enabling archiving.</span></span> 
+> <span data-ttu-id="68ef1-118">在启用存档之前，应指定所有适当的选项。</span><span class="sxs-lookup"><span data-stu-id="68ef1-118">You should specify all appropriate options before enabling archiving.</span></span> 
   
-<span data-ttu-id="9edbc-119">有关如何实现存档配置的详细信息，包括可以指定哪些选项和存档配置的层次结构，请参阅[在 Skype For Business 服务器中规划存档](../../plan-your-deployment/archiving/archiving.md)。</span><span class="sxs-lookup"><span data-stu-id="9edbc-119">For details about how archiving configurations are implemented, including which options you can specify and the hierarchy of archiving configurations, see [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).</span></span> <span data-ttu-id="9edbc-120">有关如何使用控制面板或使用 Windows PowerShell 在部署后管理配置的详细信息，请参阅[管理 Skype For Business 服务器中的存档选项](../../manage/archiving/options.md)。</span><span class="sxs-lookup"><span data-stu-id="9edbc-120">For details about how to manage configurations after deployment by using the Control Panel or by using Windows PowerShell, see [Manage archiving options in Skype for Business Server](../../manage/archiving/options.md).</span></span>
+<span data-ttu-id="68ef1-119">有关如何实施存档配置（包括可以指定的选项和存档配置的层次结构）的详细信息，请参阅 Plan for archiving [in Skype for Business Server。](../../plan-your-deployment/archiving/archiving.md)</span><span class="sxs-lookup"><span data-stu-id="68ef1-119">For details about how archiving configurations are implemented, including which options you can specify and the hierarchy of archiving configurations, see [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).</span></span> <span data-ttu-id="68ef1-120">有关如何使用控制面板或 Windows PowerShell部署后管理配置的详细信息，请参阅"在 Skype for Business Server 中管理存档选项["。](../../manage/archiving/options.md)</span><span class="sxs-lookup"><span data-stu-id="68ef1-120">For details about how to manage configurations after deployment by using the Control Panel or by using Windows PowerShell, see [Manage archiving options in Skype for Business Server](../../manage/archiving/options.md).</span></span>
   
-## <a name="configure-global-level-archiving-options"></a><span data-ttu-id="9edbc-121">配置全局级别存档选项</span><span class="sxs-lookup"><span data-stu-id="9edbc-121">Configure global level archiving options</span></span>
+## <a name="configure-global-level-archiving-options"></a><span data-ttu-id="68ef1-121">配置全局级别存档选项</span><span class="sxs-lookup"><span data-stu-id="68ef1-121">Configure global level archiving options</span></span>
 
-<span data-ttu-id="9edbc-122">将存档添加到拓扑并发布拓扑时，Skype for Business 服务器将为存档创建全局配置。</span><span class="sxs-lookup"><span data-stu-id="9edbc-122">When you add archiving to your topology and publish the topology, Skype for Business Server creates a global configuration for archiving.</span></span> <span data-ttu-id="9edbc-123">默认情况下，不会在全局配置中启用任何存档选项。</span><span class="sxs-lookup"><span data-stu-id="9edbc-123">By default, no archiving options are enabled in the global configuration.</span></span> <span data-ttu-id="9edbc-124">除非您自己设置站点或池配置（这将重写全局配置），否则全局配置将控制要为整个部署启用的选项。</span><span class="sxs-lookup"><span data-stu-id="9edbc-124">The global configuration controls which options are enabled for your entire deployment, unless you set up site or pool configurations, which override the global configuration.</span></span>
+<span data-ttu-id="68ef1-122">将存档添加到拓扑并发布拓扑时，Skype for Business Server 会创建用于存档的全局配置。</span><span class="sxs-lookup"><span data-stu-id="68ef1-122">When you add archiving to your topology and publish the topology, Skype for Business Server creates a global configuration for archiving.</span></span> <span data-ttu-id="68ef1-123">默认情况下，全局配置中不启用任何存档选项。</span><span class="sxs-lookup"><span data-stu-id="68ef1-123">By default, no archiving options are enabled in the global configuration.</span></span> <span data-ttu-id="68ef1-124">除非您自己设置站点或池配置（这将重写全局配置），否则全局配置将控制要为整个部署启用的选项。</span><span class="sxs-lookup"><span data-stu-id="68ef1-124">The global configuration controls which options are enabled for your entire deployment, unless you set up site or pool configurations, which override the global configuration.</span></span>
   
-<span data-ttu-id="9edbc-125">在全局级别配置存档选项：</span><span class="sxs-lookup"><span data-stu-id="9edbc-125">To configure archiving options at the global level:</span></span>
+<span data-ttu-id="68ef1-125">在全局级别配置存档选项：</span><span class="sxs-lookup"><span data-stu-id="68ef1-125">To configure archiving options at the global level:</span></span>
   
-1. <span data-ttu-id="9edbc-126">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="9edbc-126">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="68ef1-126">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="68ef1-126">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="9edbc-127">打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。</span><span class="sxs-lookup"><span data-stu-id="9edbc-127">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2. <span data-ttu-id="68ef1-127">打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。</span><span class="sxs-lookup"><span data-stu-id="68ef1-127">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
     
-3. <span data-ttu-id="9edbc-128">在左侧导航栏中，单击“监控和存档”\*\*\*\*，然后单击“存档配置”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="9edbc-128">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3. <span data-ttu-id="68ef1-128">在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。</span><span class="sxs-lookup"><span data-stu-id="68ef1-128">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
     
-4. <span data-ttu-id="9edbc-129">在“**存档配置**”页上，单击“**全局**”，再单击“**编辑**”，然后单击“**显示详细信息**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-129">On the **Archiving Configuration** page, click **Global**, click **Edit**, and then click **Show details**.</span></span>
+4. <span data-ttu-id="68ef1-129">在“存档配置”页上，单击“全局”，再单击“编辑”，然后单击“显示详细信息”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-129">On the **Archiving Configuration** page, click **Global**, click **Edit**, and then click **Show details**.</span></span>
     
-5. <span data-ttu-id="9edbc-130">在“**编辑存档设置 - 全局**”的“**存档设置**”下拉列表中，选择下列存档选项之一：</span><span class="sxs-lookup"><span data-stu-id="9edbc-130">In **Edit Archiving Setting - Global**, in the **Archiving setting** drop-down list, select one of the following archiving options:</span></span>
+5. <span data-ttu-id="68ef1-130">在“编辑存档设置 - 全局”的“存档设置”下拉列表中，选择下列存档选项之一：</span><span class="sxs-lookup"><span data-stu-id="68ef1-130">In **Edit Archiving Setting - Global**, in the **Archiving setting** drop-down list, select one of the following archiving options:</span></span>
     
-   - <span data-ttu-id="9edbc-131">**禁用存档**</span><span class="sxs-lookup"><span data-stu-id="9edbc-131">**Disable archiving**</span></span>
+   - <span data-ttu-id="68ef1-131">**禁用存档**</span><span class="sxs-lookup"><span data-stu-id="68ef1-131">**Disable archiving**</span></span>
     
-   - <span data-ttu-id="9edbc-132">**存档 IM 会话**</span><span class="sxs-lookup"><span data-stu-id="9edbc-132">**Archive IM sessions**</span></span>
+   - <span data-ttu-id="68ef1-132">**存档 IM 会话**</span><span class="sxs-lookup"><span data-stu-id="68ef1-132">**Archive IM sessions**</span></span>
     
-   - <span data-ttu-id="9edbc-133">**存档 IM 和 Web 会议会话**</span><span class="sxs-lookup"><span data-stu-id="9edbc-133">**Archive IM and web conferencing sessions**</span></span>
+   - <span data-ttu-id="68ef1-133">**存档 IM 和 Web 会议会话**</span><span class="sxs-lookup"><span data-stu-id="68ef1-133">**Archive IM and web conferencing sessions**</span></span>
     
-6. <span data-ttu-id="9edbc-134">此外，在 "**编辑存档设置-全局**" 页面上，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="9edbc-134">Also on the **Edit Archiving Setting - Global** page, do the following:</span></span>
+6. <span data-ttu-id="68ef1-134">此外，在 **"编辑存档设置 - 全局"** 页上，执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="68ef1-134">Also on the **Edit Archiving Setting - Global** page, do the following:</span></span>
     
-   - <span data-ttu-id="9edbc-135">要在存档不可用时阻止活动，请选中“**存档失败时阻止即时消息 (IM) 或 Web 会议会话**”复选框。</span><span class="sxs-lookup"><span data-stu-id="9edbc-135">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
+   - <span data-ttu-id="68ef1-135">要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息(IM)或 Web 会议会话”复选框。</span><span class="sxs-lookup"><span data-stu-id="68ef1-135">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
     
-   - <span data-ttu-id="9edbc-136">若要使用 Microsoft Exchange Server 存储存档数据，请单击 " **Microsoft exchange 集成**" 复选框。</span><span class="sxs-lookup"><span data-stu-id="9edbc-136">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
+   - <span data-ttu-id="68ef1-136">若要使用Microsoft Exchange Server存储存档数据，请单击 Microsoft Exchange **集成** 复选框。</span><span class="sxs-lookup"><span data-stu-id="68ef1-136">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
     
-   - <span data-ttu-id="9edbc-137">若要启用数据清除，请选中“**启用存档数据清除**”复选框，然后执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="9edbc-137">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
+   - <span data-ttu-id="68ef1-137">若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="68ef1-137">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
     
-   - <span data-ttu-id="9edbc-138">要指定在特定的天数之后清除，请单击“**在最长期限（天）后清除导出的存档数据和存储的存档数据**”，然后指定天数。</span><span class="sxs-lookup"><span data-stu-id="9edbc-138">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
+   - <span data-ttu-id="68ef1-138">要指定在特定的天数之后清除，请单击“在最长期限(天)后清除导出的存档数据和存储的存档数据”，然后指定天数。</span><span class="sxs-lookup"><span data-stu-id="68ef1-138">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
     
-   - <span data-ttu-id="9edbc-139">要限制仅清除已导出的存档数据，请单击“**仅清除导出的存档数据**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-139">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
+   - <span data-ttu-id="68ef1-139">要限制仅清除已导出的存档数据，请单击“仅清除导出的存档数据”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-139">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
     
-7. <span data-ttu-id="9edbc-140">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-140">Click **Commit**.</span></span>
+7. <span data-ttu-id="68ef1-140">单击“提交”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-140">Click **Commit**.</span></span>
     
-## <a name="configure-site-level-archiving-options"></a><span data-ttu-id="9edbc-141">配置站点级别存档选项</span><span class="sxs-lookup"><span data-stu-id="9edbc-141">Configure site level archiving options</span></span>
+## <a name="configure-site-level-archiving-options"></a><span data-ttu-id="68ef1-141">配置站点级别存档选项</span><span class="sxs-lookup"><span data-stu-id="68ef1-141">Configure site level archiving options</span></span>
 
-<span data-ttu-id="9edbc-142">您可以为特定站点指定存档选项。</span><span class="sxs-lookup"><span data-stu-id="9edbc-142">You can specify archiving options for a specific site.</span></span> <span data-ttu-id="9edbc-143">站点配置可覆盖全局配置，但它仅适用于站点配置中指定的站点。</span><span class="sxs-lookup"><span data-stu-id="9edbc-143">A site configuration overrides the global configuration, but only for the site specified in the site configuration.</span></span> 
+<span data-ttu-id="68ef1-142">您可以为特定站点指定存档选项。</span><span class="sxs-lookup"><span data-stu-id="68ef1-142">You can specify archiving options for a specific site.</span></span> <span data-ttu-id="68ef1-143">站点配置会覆盖全局配置，但仅适用于站点配置中指定的站点。</span><span class="sxs-lookup"><span data-stu-id="68ef1-143">A site configuration overrides the global configuration, but only for the site specified in the site configuration.</span></span> 
   
-1. <span data-ttu-id="9edbc-144">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="9edbc-144">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="68ef1-144">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="68ef1-144">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="9edbc-145">打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。</span><span class="sxs-lookup"><span data-stu-id="9edbc-145">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2. <span data-ttu-id="68ef1-145">打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。</span><span class="sxs-lookup"><span data-stu-id="68ef1-145">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
     
-3. <span data-ttu-id="9edbc-146">在左侧导航栏中，单击“监控和存档”\*\*\*\*，然后单击“存档配置”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="9edbc-146">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3. <span data-ttu-id="68ef1-146">在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。</span><span class="sxs-lookup"><span data-stu-id="68ef1-146">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
     
-4. <span data-ttu-id="9edbc-147">在“**存档配置**”页上，单击“**新建**”，然后单击“**站点配置**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-147">On the **Archiving Configuration** page, click **New**, and then click **Site Configuration**.</span></span>
+4. <span data-ttu-id="68ef1-147">在“存档配置”页上，单击“新建”，然后单击“站点配置”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-147">On the **Archiving Configuration** page, click **New**, and then click **Site Configuration**.</span></span>
     
-5. <span data-ttu-id="9edbc-148">在“**选择站点**”中，选择要为存档配置的站点。</span><span class="sxs-lookup"><span data-stu-id="9edbc-148">In **Select a Site**, select the site to be configured for archiving.</span></span>
+5. <span data-ttu-id="68ef1-148">在“选择站点”中，选择要为存档配置的站点。</span><span class="sxs-lookup"><span data-stu-id="68ef1-148">In **Select a Site**, select the site to be configured for archiving.</span></span>
     
-6. <span data-ttu-id="9edbc-149">在“**新建存档设置**”的“**存档设置**”下拉列表框中，执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="9edbc-149">In **New Archiving Setting**, in the **Archiving setting** drop-down list box, do one of the following:</span></span>
+6. <span data-ttu-id="68ef1-149">在“存档设置”下拉列表框的“新建存档设置”中，执行以下操作之一：</span><span class="sxs-lookup"><span data-stu-id="68ef1-149">In **New Archiving Setting**, in the **Archiving setting** drop-down list box, do one of the following:</span></span>
     
-   - <span data-ttu-id="9edbc-150">若要只为即时消息 (IM) 会话启用存档，请单击“**存档 IM 会话**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-150">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
+   - <span data-ttu-id="68ef1-150">若要只为即时消息 (IM) 会话启用存档，请单击“存档 IM 会话”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-150">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
     
-   - <span data-ttu-id="9edbc-151">若要为 IM 会话和会议启用存档，请单击“**存档 IM 和 Web 会议会话**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-151">To enable archiving for both IM sessions and conferences, click **Archive IM and web conferencing sessions**.</span></span>
+   - <span data-ttu-id="68ef1-151">若要为 IM 会话和会议启用存档，请单击“存档 IM 和 Web 会议会话”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-151">To enable archiving for both IM sessions and conferences, click **Archive IM and web conferencing sessions**.</span></span>
     
-   - <span data-ttu-id="9edbc-152">若要为策略禁用存档，请单击“**禁用存档**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-152">To disable archiving for the policy, click **Disable archiving**.</span></span>
+   - <span data-ttu-id="68ef1-152">若要为策略禁用存档，请单击“禁用存档”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-152">To disable archiving for the policy, click **Disable archiving**.</span></span>
     
-7. <span data-ttu-id="9edbc-153">另请在“**新建存档设置**”中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="9edbc-153">Also in **New Archiving Setting**, do the following:</span></span>
+7. <span data-ttu-id="68ef1-153">另请在“新建存档设置”中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="68ef1-153">Also in **New Archiving Setting**, do the following:</span></span>
     
-   - <span data-ttu-id="9edbc-154">要在存档不可用时阻止活动，请选中“**存档失败时阻止即时消息 (IM) 或 Web 会议会话**”复选框。</span><span class="sxs-lookup"><span data-stu-id="9edbc-154">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
+   - <span data-ttu-id="68ef1-154">要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息 (IM) 或 Web 会议会话”复选框。</span><span class="sxs-lookup"><span data-stu-id="68ef1-154">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
     
-   - <span data-ttu-id="9edbc-155">若要使用 Microsoft Exchange Server 存储存档数据，请单击 " **Microsoft exchange 集成**" 复选框。</span><span class="sxs-lookup"><span data-stu-id="9edbc-155">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
+   - <span data-ttu-id="68ef1-155">若要使用Microsoft Exchange Server存储存档数据，请单击 Microsoft Exchange **集成** 复选框。</span><span class="sxs-lookup"><span data-stu-id="68ef1-155">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
     
-   - <span data-ttu-id="9edbc-156">若要启用数据清除，请选中“**启用存档数据清除**”复选框，然后执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="9edbc-156">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
+   - <span data-ttu-id="68ef1-156">若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="68ef1-156">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
     
-   - <span data-ttu-id="9edbc-157">要指定在特定的天数之后清除，请单击“**在最长期限（天）后清除导出的存档数据和存储的存档数据**”，然后指定天数。</span><span class="sxs-lookup"><span data-stu-id="9edbc-157">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
+   - <span data-ttu-id="68ef1-157">要指定在特定的天数之后清除，请单击“在最长期限(天)后清除导出的存档数据和存储的存档数据”，然后指定天数。</span><span class="sxs-lookup"><span data-stu-id="68ef1-157">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
     
-   - <span data-ttu-id="9edbc-158">要限制仅清除已导出的存档数据，请单击“**仅清除导出的存档数据**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-158">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
+   - <span data-ttu-id="68ef1-158">要限制仅清除已导出的存档数据，请单击“仅清除导出的存档数据”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-158">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
     
-8. <span data-ttu-id="9edbc-159">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-159">Click **Commit**.</span></span>
+8. <span data-ttu-id="68ef1-159">单击“提交”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-159">Click **Commit**.</span></span>
     
-## <a name="configure-pool-level-archiving-options"></a><span data-ttu-id="9edbc-160">配置池级别存档选项</span><span class="sxs-lookup"><span data-stu-id="9edbc-160">Configure pool level archiving options</span></span>
+## <a name="configure-pool-level-archiving-options"></a><span data-ttu-id="68ef1-160">配置池级别存档选项</span><span class="sxs-lookup"><span data-stu-id="68ef1-160">Configure pool level archiving options</span></span>
 
-<span data-ttu-id="9edbc-p106">您可以为特定池指定存档选项。池配置可覆盖全局配置和站点配置，但它仅适用于池配置中指定的池。</span><span class="sxs-lookup"><span data-stu-id="9edbc-p106">You can specify archiving options for a specific pool. A pool configuration overrides the global configuration and site configuration, but only for the pool specified in the pool configuration.</span></span>
+<span data-ttu-id="68ef1-161">您可以为特定池指定存档选项。</span><span class="sxs-lookup"><span data-stu-id="68ef1-161">You can specify archiving options for a specific pool.</span></span> <span data-ttu-id="68ef1-162">池配置可重写全局配置和站点配置，但它仅适用于池配置中指定的池。</span><span class="sxs-lookup"><span data-stu-id="68ef1-162">A pool configuration overrides the global configuration and site configuration, but only for the pool specified in the pool configuration.</span></span>
   
-1. <span data-ttu-id="9edbc-163">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="9edbc-163">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="68ef1-163">使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="68ef1-163">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="9edbc-164">打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。</span><span class="sxs-lookup"><span data-stu-id="9edbc-164">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2. <span data-ttu-id="68ef1-164">打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。</span><span class="sxs-lookup"><span data-stu-id="68ef1-164">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
     
-3. <span data-ttu-id="9edbc-165">在左侧导航栏中，单击“监控和存档”\*\*\*\*，然后单击“存档配置”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="9edbc-165">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3. <span data-ttu-id="68ef1-165">在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。</span><span class="sxs-lookup"><span data-stu-id="68ef1-165">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
     
-4. <span data-ttu-id="9edbc-166">在“**存档配置**”页上，单击“**新建**”，然后单击“**池配置**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-166">On the **Archiving Configuration** page, click **New**, and then click **Pool Configuration**.</span></span>
+4. <span data-ttu-id="68ef1-166">在“存档配置”页上，单击“新建”，然后单击“池配置”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-166">On the **Archiving Configuration** page, click **New**, and then click **Pool Configuration**.</span></span>
     
-5. <span data-ttu-id="9edbc-167">在“**选择服务**”中，选择要为存档配置的池。</span><span class="sxs-lookup"><span data-stu-id="9edbc-167">In **Select a Service**, select the pool to be configured for archiving.</span></span>
+5. <span data-ttu-id="68ef1-167">在“选择服务”中，选择要为存档配置的池。</span><span class="sxs-lookup"><span data-stu-id="68ef1-167">In **Select a Service**, select the pool to be configured for archiving.</span></span>
     
-6. <span data-ttu-id="9edbc-168">在“**新建存档设置**”的“**存档设置**”下拉列表中，选择下列存档选项之一：</span><span class="sxs-lookup"><span data-stu-id="9edbc-168">In **New Archiving Setting**, in the **Archiving setting** drop-down list, select one of the following archiving options:</span></span>
+6. <span data-ttu-id="68ef1-168">在“新建存档设置”的“存档设置”下拉列表中，选择下列存档选项之一：</span><span class="sxs-lookup"><span data-stu-id="68ef1-168">In **New Archiving Setting**, in the **Archiving setting** drop-down list, select one of the following archiving options:</span></span>
     
-   - <span data-ttu-id="9edbc-169">**禁用存档**</span><span class="sxs-lookup"><span data-stu-id="9edbc-169">**Disable archiving**</span></span>
+   - <span data-ttu-id="68ef1-169">**禁用存档**</span><span class="sxs-lookup"><span data-stu-id="68ef1-169">**Disable archiving**</span></span>
     
-   - <span data-ttu-id="9edbc-170">**存档 IM 会话**</span><span class="sxs-lookup"><span data-stu-id="9edbc-170">**Archive IM sessions**</span></span>
+   - <span data-ttu-id="68ef1-170">**存档 IM 会话**</span><span class="sxs-lookup"><span data-stu-id="68ef1-170">**Archive IM sessions**</span></span>
     
-   - <span data-ttu-id="9edbc-171">**存档 IM 和 Web 会议会话**</span><span class="sxs-lookup"><span data-stu-id="9edbc-171">**Archive IM and web conferencing sessions**</span></span>
+   - <span data-ttu-id="68ef1-171">**存档 IM 和 Web 会议会话**</span><span class="sxs-lookup"><span data-stu-id="68ef1-171">**Archive IM and web conferencing sessions**</span></span>
     
-7. <span data-ttu-id="9edbc-172">另请在“**新建存档设置**”页中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="9edbc-172">Also in **New Archiving Setting** page, do the following:</span></span>
+7. <span data-ttu-id="68ef1-172">另请在“新建存档设置”页中，执行下列操作：</span><span class="sxs-lookup"><span data-stu-id="68ef1-172">Also in **New Archiving Setting** page, do the following:</span></span>
     
-   - <span data-ttu-id="9edbc-173">要在存档不可用时阻止活动，请选中“**存档失败时阻止即时消息 (IM) 或 Web 会议会话**”复选框。</span><span class="sxs-lookup"><span data-stu-id="9edbc-173">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
+   - <span data-ttu-id="68ef1-173">要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息(IM)或 Web 会议会话”复选框。</span><span class="sxs-lookup"><span data-stu-id="68ef1-173">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
     
-   - <span data-ttu-id="9edbc-174">若要使用 Microsoft Exchange Server 存储存档数据，请单击 " **Microsoft exchange 集成**" 复选框。</span><span class="sxs-lookup"><span data-stu-id="9edbc-174">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
+   - <span data-ttu-id="68ef1-174">若要使用Microsoft Exchange Server存储存档数据，请单击 Microsoft Exchange **集成** 复选框。</span><span class="sxs-lookup"><span data-stu-id="68ef1-174">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
     
-   - <span data-ttu-id="9edbc-175">若要启用数据清除，请选中“**启用存档数据清除**”复选框，然后执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="9edbc-175">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
+   - <span data-ttu-id="68ef1-175">若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="68ef1-175">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
     
-   - <span data-ttu-id="9edbc-176">要指定在特定的天数之后清除，请单击“**在最长期限（天）后清除导出的存档数据和存储的存档数据**”，然后指定天数。</span><span class="sxs-lookup"><span data-stu-id="9edbc-176">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
+   - <span data-ttu-id="68ef1-176">要指定在特定的天数之后清除，请单击“在最长期限(天)后清除导出的存档数据和存储的存档数据”，然后指定天数。</span><span class="sxs-lookup"><span data-stu-id="68ef1-176">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
     
-   - <span data-ttu-id="9edbc-177">要限制仅清除已导出的存档数据，请单击“**仅清除导出的存档数据**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-177">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
+   - <span data-ttu-id="68ef1-177">要限制仅清除已导出的存档数据，请单击“仅清除导出的存档数据”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-177">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
     
-8. <span data-ttu-id="9edbc-178">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="9edbc-178">Click **Commit**.</span></span>
+8. <span data-ttu-id="68ef1-178">单击“提交”。</span><span class="sxs-lookup"><span data-stu-id="68ef1-178">Click **Commit**.</span></span>
     
 
