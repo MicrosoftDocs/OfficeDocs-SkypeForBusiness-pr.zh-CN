@@ -1,8 +1,8 @@
 ---
 title: 联盟域
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 63c4d8dbedfe851628cbb3df023ab7722f5a0149
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 要执行什么操作？ 单击要执行的任务的链接。
+ms.openlocfilehash: f3f53224b7739005a852b6303277ed8f5f795d36
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794120"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808652"
 ---
-# <a name="federated-domains"></a><span data-ttu-id="95e38-104">联盟域</span><span class="sxs-lookup"><span data-stu-id="95e38-104">Federated Domains</span></span>
+# <a name="federated-domains"></a><span data-ttu-id="1e8ba-104">联盟域</span><span class="sxs-lookup"><span data-stu-id="1e8ba-104">Federated Domains</span></span>
 
-<span data-ttu-id="95e38-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="95e38-105">What do you want to do?</span></span> <span data-ttu-id="95e38-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="95e38-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="1e8ba-105">要执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="1e8ba-105">What do you want to do?</span></span> <span data-ttu-id="1e8ba-106">单击要执行的任务的链接。</span><span class="sxs-lookup"><span data-stu-id="1e8ba-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="95e38-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="95e38-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="1e8ba-107">配置联盟伙伴的访问权限</span><span class="sxs-lookup"><span data-stu-id="1e8ba-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="95e38-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="95e38-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="1e8ba-108">监视和控制联盟伙伴访问</span><span class="sxs-lookup"><span data-stu-id="1e8ba-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 

@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中配置位置数据库
+title: 在 Skype for Business Server 中配置位置数据库
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,139 +15,139 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: 在 Skype for Business Server Enterprise Voice 中配置、填充和发布 E9-1-1 位置数据库。
-ms.openlocfilehash: 4b8848637130886250d08847c45df3c2dc080f5b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在 Skype for Business Server 企业语音 中配置、填充和发布 E9-1-1 位置企业语音。
+ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768105"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804082"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a><span data-ttu-id="12ae9-103">在 Skype for Business 服务器中配置位置数据库</span><span class="sxs-lookup"><span data-stu-id="12ae9-103">Configure the location database in Skype for Business Server</span></span>
+# <a name="configure-the-location-database-in-skype-for-business-server"></a><span data-ttu-id="5c1c3-103">在 Skype for Business Server 中配置位置数据库</span><span class="sxs-lookup"><span data-stu-id="5c1c3-103">Configure the location database in Skype for Business Server</span></span>
  
-<span data-ttu-id="12ae9-104">在 Skype for Business Server Enterprise Voice 中配置、填充和发布 E9-1-1 位置数据库。</span><span class="sxs-lookup"><span data-stu-id="12ae9-104">Configure, populate, and publish the E9-1-1 location database in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="5c1c3-104">在 Skype for Business Server 企业语音 中配置、填充和发布 E9-1-1 位置企业语音。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-104">Configure, populate, and publish the E9-1-1 location database in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="12ae9-105">为使客户端能够自动检测其在网络中的位置，首先需要配置位置数据库。</span><span class="sxs-lookup"><span data-stu-id="12ae9-105">To enable clients to automatically detect their location within a network, you first need to configure the location database.</span></span> 
+<span data-ttu-id="5c1c3-105">为使客户端能够自动检测其在网络中的位置，首先需要配置位置数据库。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-105">To enable clients to automatically detect their location within a network, you first need to configure the location database.</span></span> 
   
-<span data-ttu-id="12ae9-106">要配置位置数据库，请执行下列任务：</span><span class="sxs-lookup"><span data-stu-id="12ae9-106">To configure the location database, perform the following tasks:</span></span>
+<span data-ttu-id="5c1c3-106">若要配置位置数据库，请执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="5c1c3-106">To configure the location database, perform the following tasks:</span></span>
   
-- <span data-ttu-id="12ae9-107">使用网络元素到位置的映射填充数据库。</span><span class="sxs-lookup"><span data-stu-id="12ae9-107">Populate the database with a mapping of network elements to locations.</span></span> <span data-ttu-id="12ae9-108">如果您使用紧急位置识别号码（ELIN）网关，则需要在 " \<公司名称\> " 字段中包含 ELIN。</span><span class="sxs-lookup"><span data-stu-id="12ae9-108">If you use an Emergency Location Identification Number (ELIN) gateway, you need to include the ELIN in the \<CompanyName\> field.</span></span>
+- <span data-ttu-id="5c1c3-107">使用网络元素到位置的映射填充数据库。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-107">Populate the database with a mapping of network elements to locations.</span></span> <span data-ttu-id="5c1c3-108">如果使用 ELIN (ELIN) 紧急位置标识号，则需要在字段中包括 \<CompanyName\> ELIN。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-108">If you use an Emergency Location Identification Number (ELIN) gateway, you need to include the ELIN in the \<CompanyName\> field.</span></span>
     
-    <span data-ttu-id="12ae9-109">如果未填充位置数据库，并且位置策略中的“所需位置”\*\*\*\* 设置为“是”\*\*\*\* 或“免责声明”\*\*\*\*，客户端将提示用户手动输入位置。</span><span class="sxs-lookup"><span data-stu-id="12ae9-109">If you do not populate the location database, and the **Location Required** in the Location Policy is set to **Yes** or **Disclaimer**, the client will prompt the user to enter a location manually.</span></span>
+    <span data-ttu-id="5c1c3-109">如果未填充位置数据库，并且位置策略中的“所需位置”设置为“是”或“免责声明”，客户端将提示用户手动输入位置。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-109">If you do not populate the location database, and the **Location Required** in the Location Policy is set to **Yes** or **Disclaimer**, the client will prompt the user to enter a location manually.</span></span>
     
-- <span data-ttu-id="12ae9-110">根据由 E9-1-1 服务提供商维护的主街道地址指南 (MSAG) 验证地址。</span><span class="sxs-lookup"><span data-stu-id="12ae9-110">Validate the addresses against the master street address guide (MSAG) that is maintained by the E9-1-1 service provider.</span></span>
+- <span data-ttu-id="5c1c3-110">根据由 E9-1-1 服务提供商维护的主街道地址指南 (MSAG) 验证地址。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-110">Validate the addresses against the master street address guide (MSAG) that is maintained by the E9-1-1 service provider.</span></span>
     
-- <span data-ttu-id="12ae9-111">发布更新的数据库。</span><span class="sxs-lookup"><span data-stu-id="12ae9-111">Publish the updated database.</span></span>
+- <span data-ttu-id="5c1c3-111">发布更新的数据库。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-111">Publish the updated database.</span></span>
     
-## <a name="populate-the-location-database"></a><span data-ttu-id="12ae9-112">填充位置数据库</span><span class="sxs-lookup"><span data-stu-id="12ae9-112">Populate the location database</span></span>
+## <a name="populate-the-location-database"></a><span data-ttu-id="5c1c3-112">填充位置数据库</span><span class="sxs-lookup"><span data-stu-id="5c1c3-112">Populate the location database</span></span>
 
-<span data-ttu-id="12ae9-113">要在网络中自动定位客户端，首先需要使用网络线路映射填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。</span><span class="sxs-lookup"><span data-stu-id="12ae9-113">To automatically locate clients within a network, you first need to populate the location database with a network wiremap, which maps network elements to civic (that is, street) addresses.</span></span> <span data-ttu-id="12ae9-114">可以使用子网、无线访问点、交换机和端口来定义线路映射。</span><span class="sxs-lookup"><span data-stu-id="12ae9-114">You can use subnets, wireless access points, switches, and ports to define the wiremap.</span></span>
+<span data-ttu-id="5c1c3-113">要在网络中自动定位客户端，首先需要使用网络线路映射 填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-113">To automatically locate clients within a network, you first need to populate the location database with a network wiremap, which maps network elements to civic (that is, street) addresses.</span></span> <span data-ttu-id="5c1c3-114">可以使用子网、无线访问点、交换机和端口来定义线路映射。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-114">You can use subnets, wireless access points, switches, and ports to define the wiremap.</span></span>
   
-<span data-ttu-id="12ae9-115">可以分别将地址添加到位置数据库中，也可以使用包含下表所述的列格式的 CSV 文件批量添加。</span><span class="sxs-lookup"><span data-stu-id="12ae9-115">You can add addresses to the location database individually, or in bulk by using a CSV file that contains the column formats described in the following table.</span></span>
+<span data-ttu-id="5c1c3-115">可以分别将地址添加到位置数据库中，也可以使用包含下表所述的列格式的 CSV 文件批量添加。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-115">You can add addresses to the location database individually, or in bulk by using a CSV file that contains the column formats described in the following table.</span></span>
   
-<span data-ttu-id="12ae9-p103">如果您使用紧急位置标识号 (ELIN) 网关，包括每个位置“CompanyName”\*\*\*\* 字段中的 ELIN。可以包括每个位置的多个 ELIN，每个以逗号分隔。</span><span class="sxs-lookup"><span data-stu-id="12ae9-p103">If you use an Emergency Location Identification Number (ELIN) gateway, include the ELIN in the **CompanyName** field for each location. You can include multiple ELINs for each location, each separated by a semicolon.</span></span>
+<span data-ttu-id="5c1c3-p103">如果您使用紧急位置标识号 (ELIN) 网关，包括每个位置“CompanyName”字段中的 ELIN。可以包括每个位置的多个 ELIN，每个以逗号分隔。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-p103">If you use an Emergency Location Identification Number (ELIN) gateway, include the ELIN in the **CompanyName** field for each location. You can include multiple ELINs for each location, each separated by a semicolon.</span></span>
   
-|<span data-ttu-id="12ae9-118">**网络元素**</span><span class="sxs-lookup"><span data-stu-id="12ae9-118">**Network Element**</span></span>|<span data-ttu-id="12ae9-119">**所需列**</span><span class="sxs-lookup"><span data-stu-id="12ae9-119">**Required Columns**</span></span>|
+|<span data-ttu-id="5c1c3-118">**网络元素**</span><span class="sxs-lookup"><span data-stu-id="5c1c3-118">**Network Element**</span></span>|<span data-ttu-id="5c1c3-119">**所需列**</span><span class="sxs-lookup"><span data-stu-id="5c1c3-119">**Required Columns**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="12ae9-120">**无线访问点**</span><span class="sxs-lookup"><span data-stu-id="12ae9-120">**Wireless access point**</span></span> <br/> |<span data-ttu-id="12ae9-121">\<BSSID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix\<、\>PreDirectional,.。。</span><span class="sxs-lookup"><span data-stu-id="12ae9-121">\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="12ae9-122">...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\></span><span class="sxs-lookup"><span data-stu-id="12ae9-122">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
-|<span data-ttu-id="12ae9-123">**Subnet**</span><span class="sxs-lookup"><span data-stu-id="12ae9-123">**Subnet**</span></span> <br/> |<span data-ttu-id="12ae9-124">\<子\>网\<、\>说明\<、\>位置\<、\>公司\<名称\>、\<HouseNumber\>、\<HouseNumberSuffix\>、PreDirectional,.。。</span><span class="sxs-lookup"><span data-stu-id="12ae9-124">\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="12ae9-125">...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\></span><span class="sxs-lookup"><span data-stu-id="12ae9-125">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
-|<span data-ttu-id="12ae9-126">**端口**</span><span class="sxs-lookup"><span data-stu-id="12ae9-126">**Port**</span></span> <br/> |<span data-ttu-id="12ae9-127">\<ChassisID\>、\<PortIDSubType\>、\<PortID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix,.。。</span><span class="sxs-lookup"><span data-stu-id="12ae9-127">\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…</span></span>  <br/> <span data-ttu-id="12ae9-128">...\<PreDirectional\>、\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<City\>、\<州\>、\<邮政编码\>、\<国家/地区\></span><span class="sxs-lookup"><span data-stu-id="12ae9-128">…\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
-|<span data-ttu-id="12ae9-129">**交换机**</span><span class="sxs-lookup"><span data-stu-id="12ae9-129">**Switch**</span></span> <br/> |<span data-ttu-id="12ae9-130">\<ChassisID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix\<、\>PreDirectional,.。。</span><span class="sxs-lookup"><span data-stu-id="12ae9-130">\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="12ae9-131">...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\></span><span class="sxs-lookup"><span data-stu-id="12ae9-131">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
+|<span data-ttu-id="5c1c3-120">**无线访问点**</span><span class="sxs-lookup"><span data-stu-id="5c1c3-120">**Wireless access point**</span></span> <br/> |<span data-ttu-id="5c1c3-121">\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span><span class="sxs-lookup"><span data-stu-id="5c1c3-121">\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="5c1c3-122">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span><span class="sxs-lookup"><span data-stu-id="5c1c3-122">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
+|<span data-ttu-id="5c1c3-123">**Subnet**</span><span class="sxs-lookup"><span data-stu-id="5c1c3-123">**Subnet**</span></span> <br/> |<span data-ttu-id="5c1c3-124">\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span><span class="sxs-lookup"><span data-stu-id="5c1c3-124">\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="5c1c3-125">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span><span class="sxs-lookup"><span data-stu-id="5c1c3-125">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
+|<span data-ttu-id="5c1c3-126">**Port**</span><span class="sxs-lookup"><span data-stu-id="5c1c3-126">**Port**</span></span> <br/> |<span data-ttu-id="5c1c3-127">\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…</span><span class="sxs-lookup"><span data-stu-id="5c1c3-127">\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…</span></span>  <br/> <span data-ttu-id="5c1c3-128">…\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span><span class="sxs-lookup"><span data-stu-id="5c1c3-128">…\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
+|<span data-ttu-id="5c1c3-129">**开关**</span><span class="sxs-lookup"><span data-stu-id="5c1c3-129">**Switch**</span></span> <br/> |<span data-ttu-id="5c1c3-130">\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span><span class="sxs-lookup"><span data-stu-id="5c1c3-130">\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="5c1c3-131">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span><span class="sxs-lookup"><span data-stu-id="5c1c3-131">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
    
-### <a name="to-add-network-elements-to-the-location-database"></a><span data-ttu-id="12ae9-132">将网络元素添加到位置数据库</span><span class="sxs-lookup"><span data-stu-id="12ae9-132">To add network elements to the location database</span></span>
+### <a name="to-add-network-elements-to-the-location-database"></a><span data-ttu-id="5c1c3-132">将网络元素添加到位置数据库</span><span class="sxs-lookup"><span data-stu-id="5c1c3-132">To add network elements to the location database</span></span>
 
-1. <span data-ttu-id="12ae9-133">运行以下 cmdlet，以将子网位置添加到位置数据库。</span><span class="sxs-lookup"><span data-stu-id="12ae9-133">Run the following cmdlet to add a subnet location to the location database.</span></span>
+1. <span data-ttu-id="5c1c3-133">运行以下 cmdlet，以将子网位置添加到位置数据库。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-133">Run the following cmdlet to add a subnet location to the location database.</span></span>
     
    ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    <span data-ttu-id="12ae9-p104">对于 ELIN 网关，将 ELIN 放在 CompanyName 字段中。可以包括多个 ELIN。例如：</span><span class="sxs-lookup"><span data-stu-id="12ae9-p104">For ELIN gateways, put the ELIN in the CompanyName field. You can include more than one ELIN. For example:</span></span>
+    <span data-ttu-id="5c1c3-p104">对于 ELIN 网关，将 ELIN 放在 CompanyName 字段中。可以包括多个 ELIN。例如：</span><span class="sxs-lookup"><span data-stu-id="5c1c3-p104">For ELIN gateways, put the ELIN in the CompanyName field. You can include more than one ELIN. For example:</span></span>
     
    ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    <span data-ttu-id="12ae9-137">另外，可以运行以下 cmdlet，并使用名为“subnets.csv”的文件批量更新子网位置。</span><span class="sxs-lookup"><span data-stu-id="12ae9-137">Alternately, you can run the following cmdlets and use a file named "subnets.csv" to bulk update subnet locations.</span></span>
+    <span data-ttu-id="5c1c3-137">另外，可以运行以下 cmdlet，并使用名为“subnets.csv”的文件批量更新子网位置。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-137">Alternately, you can run the following cmdlets and use a file named "subnets.csv" to bulk update subnet locations.</span></span>
     
    ```powershell
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
    ```
 
-2. <span data-ttu-id="12ae9-138">运行以下 cmdlet，以将无线位置添加到位置数据库。</span><span class="sxs-lookup"><span data-stu-id="12ae9-138">Run the following cmdlet to add wireless locations to the location database.</span></span>
+2. <span data-ttu-id="5c1c3-138">运行以下 cmdlet，以将无线位置添加到位置数据库。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-138">Run the following cmdlet to add wireless locations to the location database.</span></span>
     
    ```powershell
    Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
-   <span data-ttu-id="12ae9-139">另外，可以运行以下 cmdlet，并使用名为“waps.csv”的 文件批量更新无线位置。</span><span class="sxs-lookup"><span data-stu-id="12ae9-139">Alternately, you can run the following cmdlets and use a file named "waps.csv" to bulk update wireless locations.</span></span>
+   <span data-ttu-id="5c1c3-139">另外，可以运行以下 cmdlet，并使用名为“waps.csv”的 文件批量更新无线位置。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-139">Alternately, you can run the following cmdlets and use a file named "waps.csv" to bulk update wireless locations.</span></span>
     
    ```powershell
    $g = Import-Csv waps.csv
    $g | Set-CsLisWirelessAccessPoint
    ```
 
-3. <span data-ttu-id="12ae9-140">运行以下 cmdlet，以将交换机位置添加到位置数据库。</span><span class="sxs-lookup"><span data-stu-id="12ae9-140">Run the following cmdlet to add switch locations to the location database.</span></span>
+3. <span data-ttu-id="5c1c3-140">运行以下 cmdlet，以将交换机位置添加到位置数据库。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-140">Run the following cmdlet to add switch locations to the location database.</span></span>
     
    ```powershell
    Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-   <span data-ttu-id="12ae9-141">另外，可以运行以下 cmdlet，并使用名为“switches.csv”的文件批量更新交换机位置。</span><span class="sxs-lookup"><span data-stu-id="12ae9-141">Alternately, you can run the following cmdlets and use a file named "switches.csv" to bulk update switch locations.</span></span>
+   <span data-ttu-id="5c1c3-141">另外，可以运行以下 cmdlet，并使用名为“switches.csv”的文件批量更新交换机位置。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-141">Alternately, you can run the following cmdlets and use a file named "switches.csv" to bulk update switch locations.</span></span>
     
    ```powershell
    $g = Import-Csv switches.csv
    $g | Set-CsLisSwitch
    ```
 
-4. <span data-ttu-id="12ae9-142">运行以下 cmdlet，以将端口位置添加到位置数据库</span><span class="sxs-lookup"><span data-stu-id="12ae9-142">Run the following cmdlet to add port locations to the location database</span></span>
+4. <span data-ttu-id="5c1c3-142">运行以下 cmdlet，以将端口位置添加到位置数据库</span><span class="sxs-lookup"><span data-stu-id="5c1c3-142">Run the following cmdlet to add port locations to the location database</span></span>
     
    ```powershell
    Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
-   <span data-ttu-id="12ae9-p105">PortIDSubType 的默认值为 LocallyAssigned。还可以将其设置为 InterfaceAlias 或 InterfaceName</span><span class="sxs-lookup"><span data-stu-id="12ae9-p105">The default for PortIDSubType is LocallyAssigned. You can also set it to InterfaceAlias or InterfaceName</span></span>
+   <span data-ttu-id="5c1c3-p105">PortIDSubType 的默认值为 LocallyAssigned。还可以将其设置为 InterfaceAlias 或 InterfaceName</span><span class="sxs-lookup"><span data-stu-id="5c1c3-p105">The default for PortIDSubType is LocallyAssigned. You can also set it to InterfaceAlias or InterfaceName</span></span>
     
-   <span data-ttu-id="12ae9-145">另外，可以运行以下 cmdlet，并使用名为“ports.csv”的文件批量更新端口位置。</span><span class="sxs-lookup"><span data-stu-id="12ae9-145">Alternately, you can run the following cmdlets and use a file named "ports.csv" to bulk update port locations.</span></span>
+   <span data-ttu-id="5c1c3-145">另外，可以运行以下 cmdlet，并使用名为“ports.csv”的文件批量更新端口位置。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-145">Alternately, you can run the following cmdlets and use a file named "ports.csv" to bulk update port locations.</span></span>
     
    ```powershell
    $g = Import-Csv ports.csv
    $g | Set-CsLisPort
    ```
 
-## <a name="validate-addresses"></a><span data-ttu-id="12ae9-146">验证地址</span><span class="sxs-lookup"><span data-stu-id="12ae9-146">Validate addresses</span></span>
+## <a name="validate-addresses"></a><span data-ttu-id="5c1c3-146">验证地址</span><span class="sxs-lookup"><span data-stu-id="5c1c3-146">Validate addresses</span></span>
 
-### <a name="to-validate-addresses-located-in-the-location-database"></a><span data-ttu-id="12ae9-147">验证位于位置数据库中的地址</span><span class="sxs-lookup"><span data-stu-id="12ae9-147">To validate addresses located in the location database</span></span>
+### <a name="to-validate-addresses-located-in-the-location-database"></a><span data-ttu-id="5c1c3-147">验证位于位置数据库中的地址</span><span class="sxs-lookup"><span data-stu-id="5c1c3-147">To validate addresses located in the location database</span></span>
 
-1.  <span data-ttu-id="12ae9-148">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="12ae9-148">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1.  <span data-ttu-id="5c1c3-148">启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**</span><span class="sxs-lookup"><span data-stu-id="5c1c3-148">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="12ae9-149">运行以下 cmdlet 配置紧急服务提供商连接。</span><span class="sxs-lookup"><span data-stu-id="12ae9-149">Run the following cmdlets to configure the emergency service provider connection.</span></span>
+2. <span data-ttu-id="5c1c3-149">运行以下 cmdlet 以配置紧急服务提供商连接。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-149">Run the following cmdlets to configure the emergency service provider connection.</span></span>
     
    ```powershell
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
-3. <span data-ttu-id="12ae9-150">运行以下 cmdlet 验证位置数据库中的地址。</span><span class="sxs-lookup"><span data-stu-id="12ae9-150">Run the following cmdlet to validate the addresses in the location database.</span></span>
+3. <span data-ttu-id="5c1c3-150">运行以下 cmdlet 以验证位置数据库中的地址。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-150">Run the following cmdlet to validate the addresses in the location database.</span></span>
     
    ```powershell
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
-   <span data-ttu-id="12ae9-151">还可以使用 **Test-CsLisCivicAddress** cmdlet 验证单个地址。</span><span class="sxs-lookup"><span data-stu-id="12ae9-151">You can also use the **Test-CsLisCivicAddress** cmdlet to validate individual addresses.</span></span>
+   <span data-ttu-id="5c1c3-151">您还可以使用 **Test-CsLisCivicAddress cmdlet** 验证各个地址。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-151">You can also use the **Test-CsLisCivicAddress** cmdlet to validate individual addresses.</span></span>
     
-## <a name="publish-the-location-database"></a><span data-ttu-id="12ae9-152">发布位置数据库</span><span class="sxs-lookup"><span data-stu-id="12ae9-152">Publish the location database</span></span>
+## <a name="publish-the-location-database"></a><span data-ttu-id="5c1c3-152">发布位置数据库</span><span class="sxs-lookup"><span data-stu-id="5c1c3-152">Publish the location database</span></span>
 
-<span data-ttu-id="12ae9-153">只有在添加到位置数据库的新位置发布后，客户端才能使用这些位置。</span><span class="sxs-lookup"><span data-stu-id="12ae9-153">The new locations that you added to the location database will not be made available to the client until they have been published.</span></span>
+<span data-ttu-id="5c1c3-153">添加到位置数据库的新位置在发布之前对客户端不可用。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-153">The new locations that you added to the location database will not be made available to the client until they have been published.</span></span>
   
-<span data-ttu-id="12ae9-154">如果使用紧急位置标识号 (ELIN) 网关，还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。</span><span class="sxs-lookup"><span data-stu-id="12ae9-154">If you use Emergency Location Identification Number (ELIN) gateways, you also need to upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span> <span data-ttu-id="12ae9-155">PSTN 运营商可能需要特定格式的 ELIN 记录。</span><span class="sxs-lookup"><span data-stu-id="12ae9-155">Your PSTN carrier may require you to use a specific format for the ELIN records.</span></span> <span data-ttu-id="12ae9-156">请联系 PSTN 运营商了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="12ae9-156">Contact your PSTN carrier for details.</span></span> <span data-ttu-id="12ae9-157">你可以从位置信息服务数据库导出记录，并根据需要设置其格式。</span><span class="sxs-lookup"><span data-stu-id="12ae9-157">You can export the records from the Location Information service database and format them as required.</span></span>
+<span data-ttu-id="5c1c3-154">如果使用紧急位置标识号 (ELIN) 网关，则还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-154">If you use Emergency Location Identification Number (ELIN) gateways, you also need to upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span> <span data-ttu-id="5c1c3-155">PSTN 运营商可能要求您对 ELIN 记录使用特定格式。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-155">Your PSTN carrier may require you to use a specific format for the ELIN records.</span></span> <span data-ttu-id="5c1c3-156">有关详细信息，请与 PSTN 运营商联系。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-156">Contact your PSTN carrier for details.</span></span> <span data-ttu-id="5c1c3-157">可以从位置信息服务数据库导出记录并按需要设置格式。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-157">You can export the records from the Location Information service database and format them as required.</span></span>
   
-### <a name="to-publish-the-location-database"></a><span data-ttu-id="12ae9-158">发布位置数据库</span><span class="sxs-lookup"><span data-stu-id="12ae9-158">To publish the location database</span></span>
+### <a name="to-publish-the-location-database"></a><span data-ttu-id="5c1c3-158">发布位置数据库</span><span class="sxs-lookup"><span data-stu-id="5c1c3-158">To publish the location database</span></span>
 
--  <span data-ttu-id="12ae9-159">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="12ae9-159">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+-  <span data-ttu-id="5c1c3-159">启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**</span><span class="sxs-lookup"><span data-stu-id="5c1c3-159">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-- <span data-ttu-id="12ae9-160">运行以下 cmdlet 发布位置数据库。</span><span class="sxs-lookup"><span data-stu-id="12ae9-160">Run the following cmdlet to publish the location database.</span></span>
+- <span data-ttu-id="5c1c3-160">运行以下 cmdlet 以发布位置数据库。</span><span class="sxs-lookup"><span data-stu-id="5c1c3-160">Run the following cmdlet to publish the location database.</span></span>
     
   ```powershell
   Publish-CsLisConfiguration

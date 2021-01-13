@@ -1,8 +1,8 @@
 ---
 title: 持久聊天外接程序主页
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 ROBOTS: NOINDEX, NOFOLLOW
-description: 你可以使用持久聊天页面的加载项部分将 Url 与持久聊天室相关联。 这些 URL 将显示在对话可扩展性窗格的聊天室中的客户端中。 管理员必须将外接程序添加到注册的外接程序列表中，且聊天室管理员/创建者必须将聊天室与其中一个注册的外接程序相关联，这样用户才能在其客户端中看到此升级。
-ms.openlocfilehash: 6fc1fc8d3be12c60b00c5939f360b6207aec6619
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 您可以使用"持久聊天"页的"外接程序"部分将 URL 与持久聊天室关联。 这些 URL 显示在对话扩展性窗格中聊天室的客户端中。 管理员必须将外接程序添加到已注册的外接程序列表中，并且聊天室管理员/创建者必须将聊天室与其中一个已注册的外接程序关联，用户才能在客户端中查看此升级。
+ms.openlocfilehash: 39c5b5bb94d0be627d6124f16eec38f4d458947e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797593"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808352"
 ---
-# <a name="persistent-chat-add-in-main-page"></a><span data-ttu-id="7e926-105">持久聊天外接程序主页</span><span class="sxs-lookup"><span data-stu-id="7e926-105">Persistent Chat Add-in Main Page</span></span>
+# <a name="persistent-chat-add-in-main-page"></a><span data-ttu-id="b2962-105">持久聊天外接程序主页</span><span class="sxs-lookup"><span data-stu-id="b2962-105">Persistent Chat Add-in Main Page</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="7e926-106">Skype for business Server 2015 中提供了持久聊天，但 Skype for business Server 2019 不再支持此功能。</span><span class="sxs-lookup"><span data-stu-id="7e926-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="7e926-107">团队中提供了相同的功能。</span><span class="sxs-lookup"><span data-stu-id="7e926-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="7e926-108">有关详细信息，请参阅[Skype for business 到 Microsoft 团队升级](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。</span><span class="sxs-lookup"><span data-stu-id="7e926-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="7e926-109">如果需要使用持久聊天，您可以选择将需要此功能的用户迁移到团队或继续使用 Skype for Business Server 2015。</span><span class="sxs-lookup"><span data-stu-id="7e926-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="b2962-106">持久聊天在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。</span><span class="sxs-lookup"><span data-stu-id="b2962-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="b2962-107">Teams 中也提供相同的功能。</span><span class="sxs-lookup"><span data-stu-id="b2962-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="b2962-108">有关详细信息，请参阅 [Skype for Business 到 Microsoft Teams 的升级](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。</span><span class="sxs-lookup"><span data-stu-id="b2962-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="b2962-109">如果你需要使用持久聊天，你的选择是：将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。</span><span class="sxs-lookup"><span data-stu-id="b2962-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

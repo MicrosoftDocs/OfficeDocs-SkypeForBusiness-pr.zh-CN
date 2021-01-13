@@ -1,8 +1,8 @@
 ---
 title: 旧版合并添加计算机
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
-description: 若要定义组成边缘服务器池的计算机，请输入至少一台计算机的完全限定的域名 (FQDN) ，该计算机属于旧版负载平衡的统一边缘池。
-ms.openlocfilehash: b303a9b5e083e3646f3e39e74782d4810d3d473c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 要定义边缘服务器池的计算机，请输入至少一台属于旧版负载平衡合并边缘池的计算机的完全限定域名 (FQDN) 。
+ms.openlocfilehash: 477c7a7bccccf1b544eff86eded3d65ba4aac453
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218483"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806872"
 ---
-# <a name="legacy-merge-add-machine"></a><span data-ttu-id="c910b-103">旧版合并添加计算机</span><span class="sxs-lookup"><span data-stu-id="c910b-103">Legacy Merge Add Machine</span></span>
+# <a name="legacy-merge-add-machine"></a><span data-ttu-id="c45b8-103">旧版合并添加计算机</span><span class="sxs-lookup"><span data-stu-id="c45b8-103">Legacy Merge Add Machine</span></span>
  
-<span data-ttu-id="c910b-104">若要定义组成边缘服务器池的计算机，请输入至少一台计算机的完全限定的域名 (FQDN) ，该计算机属于旧版负载平衡的统一边缘池。</span><span class="sxs-lookup"><span data-stu-id="c910b-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
+<span data-ttu-id="c45b8-104">要定义边缘服务器池的计算机，请输入至少一台属于旧版负载平衡合并边缘池的计算机的完全限定域名 (FQDN) 。</span><span class="sxs-lookup"><span data-stu-id="c45b8-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
   
 
