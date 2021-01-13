@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for business Server 中向拨入用户发送欢迎电子邮件
+title: 在 Skype for Business Server 中向拨入用户发送欢迎电子邮件
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,35 +11,35 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 摘要：了解如何在 Skype for Business 服务器中欢迎用户拨入式会议。
-ms.openlocfilehash: 6228d0636e878ccf9a208edf9afeee3fe1e808f3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解如何在 Skype for Business Server 中欢迎用户参加电话拨入式会议。
+ms.openlocfilehash: dea63f02bcdd3fab323f7f4eff8f420bf012e9a7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818433"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817492"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a><span data-ttu-id="d93ab-103">在 Skype for business Server 中向拨入用户发送欢迎电子邮件</span><span class="sxs-lookup"><span data-stu-id="d93ab-103">Send welcome email to dial-in users in Skype for Business Server</span></span>
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a><span data-ttu-id="3cf55-103">在 Skype for Business Server 中向拨入用户发送欢迎电子邮件</span><span class="sxs-lookup"><span data-stu-id="3cf55-103">Send welcome email to dial-in users in Skype for Business Server</span></span>
  
-<span data-ttu-id="d93ab-104">**摘要：** 了解如何在 Skype for Business 服务器中欢迎用户拨入式会议。</span><span class="sxs-lookup"><span data-stu-id="d93ab-104">**Summary:** Learn how to welcome users to dial-in conferencing in Skype for Business Server.</span></span>
+<span data-ttu-id="3cf55-104">**摘要：** 了解如何在 Skype for Business Server 中欢迎用户参加电话拨入式会议。</span><span class="sxs-lookup"><span data-stu-id="3cf55-104">**Summary:** Learn how to welcome users to dial-in conferencing in Skype for Business Server.</span></span>
   
-<span data-ttu-id="d93ab-105">配置电话拨入式会议并进行测试以验证其是否正常工作后，应为用户设置初始个人标识号 (PIN) 并通知用户功能是否可用。</span><span class="sxs-lookup"><span data-stu-id="d93ab-105">After you configure dial-in conferencing and test to verify that it is functioning properly, you should set initial personal identification numbers (PINs) for users and notify users about the availability of the feature.</span></span> <span data-ttu-id="d93ab-106">可以包括介绍性说明，如初始 PIN 以及指向“电话拨入式会议设置”网页的链接。</span><span class="sxs-lookup"><span data-stu-id="d93ab-106">You can include introductory instructions such as the initial PIN and the link to the Dial-in Conferencing Settings web page.</span></span> 
+<span data-ttu-id="3cf55-105">配置电话拨入式会议并进行测试以验证其是否正常工作后，应为用户设置初始个人标识号 (PIN) ，并通知用户该功能的可用性。</span><span class="sxs-lookup"><span data-stu-id="3cf55-105">After you configure dial-in conferencing and test to verify that it is functioning properly, you should set initial personal identification numbers (PINs) for users and notify users about the availability of the feature.</span></span> <span data-ttu-id="3cf55-106">你可以包括介绍性说明，如初始 PIN 和指向电话拨入式会议设置网页的链接。</span><span class="sxs-lookup"><span data-stu-id="3cf55-106">You can include introductory instructions such as the initial PIN and the link to the Dial-in Conferencing Settings web page.</span></span> 
   
-<span data-ttu-id="d93ab-107">通常，你可以使用**CsClientPin** cmdlet 重置 pin，但如果你想要使用 PIN 信息发送介绍性欢迎电子邮件，则可以使用本主题中的过程。</span><span class="sxs-lookup"><span data-stu-id="d93ab-107">Typically, you use the **Set-CsClientPin** cmdlet to reset PINs, but you can use the procedure in this topic if you want to send an introductory welcome email with the PIN information.</span></span> <span data-ttu-id="d93ab-108">如果不想发送电子邮件，则可以改用 **Set-CsClientPin**。</span><span class="sxs-lookup"><span data-stu-id="d93ab-108">If you do not want to send the email, you can use **Set-CsClientPin** instead.</span></span>
+<span data-ttu-id="3cf55-107">通常，使用 **Set-CsClientPin** cmdlet 重置 PIN，但如果要发送包含 PIN 信息的介绍性欢迎电子邮件，可以使用本主题中的过程。</span><span class="sxs-lookup"><span data-stu-id="3cf55-107">Typically, you use the **Set-CsClientPin** cmdlet to reset PINs, but you can use the procedure in this topic if you want to send an introductory welcome email with the PIN information.</span></span> <span data-ttu-id="3cf55-108">如果不想发送电子邮件，则可以改用 **Set-CsClientPin**。</span><span class="sxs-lookup"><span data-stu-id="3cf55-108">If you do not want to send the email, you can use **Set-CsClientPin** instead.</span></span>
   
-<span data-ttu-id="d93ab-p103">可以使用 **Set-CsPinSendCAWelcomeMail** 脚本来设置 PIN 并向单个用户发送欢迎电子邮件。默认情况下，该脚本不重置已设置的 PIN，但是可以使用 Force 参数强制重置 PIN。电子邮件使用简单邮件传输协议 (SMTP) 发送。</span><span class="sxs-lookup"><span data-stu-id="d93ab-p103">You can use the **Set-CsPinSendCAWelcomeMail** script to set the PIN and send a welcome email to a single user. By default, the script does not reset a PIN if it is already set, but you can use the Force parameter to force reset a PIN. The email message is sent using Simple Mail Transfer Protocol (SMTP).</span></span>
+<span data-ttu-id="3cf55-109">可以使用 **Set-CsPinSendCAWelcomeMail** 脚本来设置 PIN 并向单个用户发送欢迎电子邮件。</span><span class="sxs-lookup"><span data-stu-id="3cf55-109">You can use the **Set-CsPinSendCAWelcomeMail** script to set the PIN and send a welcome email to a single user.</span></span> <span data-ttu-id="3cf55-110">默认情况下，该脚本不重置已设置的 PIN，但是可以使用 Force 参数强制重置 PIN。</span><span class="sxs-lookup"><span data-stu-id="3cf55-110">By default, the script does not reset a PIN if it is already set, but you can use the Force parameter to force reset a PIN.</span></span> <span data-ttu-id="3cf55-111">电子邮件使用简单邮件传输协议 (SMTP) 发送。</span><span class="sxs-lookup"><span data-stu-id="3cf55-111">The email message is sent using Simple Mail Transfer Protocol (SMTP).</span></span>
   
-<span data-ttu-id="d93ab-p104">可以创建反复运行 **Set-CsPinSendCAWelcomeMail** 脚本的脚本以设置 PIN 并向用户组发送电子邮件。可以修改电子邮件模板（即 CAWelcomeEmailTemplate.html 文件）以将更多链接添加到 Intranet 网页或者修改电子邮件文本。</span><span class="sxs-lookup"><span data-stu-id="d93ab-p104">You can create a script that runs the **Set-CsPinSendCAWelcomeMail** script iteratively to set PINs and send email to a group of users. You can modify the email template (that is, the CAWelcomeEmailTemplate.html file) to add more links to intranet pages or modify the email text.</span></span>
+<span data-ttu-id="3cf55-112">可以创建反复运行 **Set-CsPinSendCAWelcomeMail** 脚本的脚本以设置 PIN 并向用户组发送电子邮件。</span><span class="sxs-lookup"><span data-stu-id="3cf55-112">You can create a script that runs the **Set-CsPinSendCAWelcomeMail** script iteratively to set PINs and send email to a group of users.</span></span> <span data-ttu-id="3cf55-113">可以修改电子邮件模板（即 CAWelcomeEmailTemplate.html 文件）以将更多链接添加到 Intranet 网页或者修改电子邮件文本。</span><span class="sxs-lookup"><span data-stu-id="3cf55-113">You can modify the email template (that is, the CAWelcomeEmailTemplate.html file) to add more links to intranet pages or modify the email text.</span></span>
   
 
 
-## <a name="set-an-initial-pin-and-send-welcome-email"></a><span data-ttu-id="d93ab-114">设置初始 PIN 并发送欢迎电子邮件</span><span class="sxs-lookup"><span data-stu-id="d93ab-114">Set an initial PIN and send welcome email</span></span>
+## <a name="set-an-initial-pin-and-send-welcome-email"></a><span data-ttu-id="3cf55-114">设置初始 PIN 并发送欢迎电子邮件</span><span class="sxs-lookup"><span data-stu-id="3cf55-114">Set an initial PIN and send welcome email</span></span>
 
-1. <span data-ttu-id="d93ab-115">以 RTCUniversalServerAdmins 组成员的身份登录。</span><span class="sxs-lookup"><span data-stu-id="d93ab-115">Log on as a member of the RTCUniversalServerAdmins group.</span></span>
+1. <span data-ttu-id="3cf55-115">以 RTCUniversalServerAdmins 组成员的身份登录。</span><span class="sxs-lookup"><span data-stu-id="3cf55-115">Log on as a member of the RTCUniversalServerAdmins group.</span></span>
     
-2. <span data-ttu-id="d93ab-116">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="d93ab-116">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="3cf55-116">启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**</span><span class="sxs-lookup"><span data-stu-id="3cf55-116">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="d93ab-117">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="d93ab-117">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="3cf55-117">在命令提示符下，运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="3cf55-117">Run the following at the command prompt:</span></span>
     
    ```PowerShell
    Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
@@ -54,18 +54,18 @@ ms.locfileid: "41818433"
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-<span data-ttu-id="d93ab-118">**SmtpServer**默认情况下，脚本对此参数使用 reserved 环境变量的值 **$PSEmailServer** 。</span><span class="sxs-lookup"><span data-stu-id="d93ab-118">**SmtpServer** By default, the script uses the value of the reserved environment variable **$PSEmailServer** for this parameter.</span></span> <span data-ttu-id="d93ab-119">如果未设置 **$PSEmailServer**变量，则必须指定此参数。</span><span class="sxs-lookup"><span data-stu-id="d93ab-119">If the **$PSEmailServer** variable is not set, you must specify this parameter.</span></span>
+<span data-ttu-id="3cf55-118">**SmtpServer** 默认情况下，脚本使用此参数的保留 **$PSEmailServer变量的值** 。</span><span class="sxs-lookup"><span data-stu-id="3cf55-118">**SmtpServer** By default, the script uses the value of the reserved environment variable **$PSEmailServer** for this parameter.</span></span> <span data-ttu-id="3cf55-119">如果未 **$PSEmailServer** 变量，则必须指定此参数。</span><span class="sxs-lookup"><span data-stu-id="3cf55-119">If the **$PSEmailServer** variable is not set, you must specify this parameter.</span></span>
     
-<span data-ttu-id="d93ab-120">**凭据**默认情况下，脚本使用当前用户的凭据。</span><span class="sxs-lookup"><span data-stu-id="d93ab-120">**Credential** By default, the script uses the credentials of the current user.</span></span> <span data-ttu-id="d93ab-121">如果当前用户没有代表指定的发件人地址发送电子邮件的权限，则必须指定此参数。</span><span class="sxs-lookup"><span data-stu-id="d93ab-121">If the current user does not have permission to send email on behalf of the specified From address, you must specify this parameter.</span></span> <span data-ttu-id="d93ab-122">作为一般规则，如果您不将电子邮件地址指定为 "发件人" 地址，请指定此参数。</span><span class="sxs-lookup"><span data-stu-id="d93ab-122">As a general rule, specify this parameter if you do not specify your email address as the From address.</span></span>
+<span data-ttu-id="3cf55-120">**凭据** 默认情况下，脚本使用当前用户的凭据。</span><span class="sxs-lookup"><span data-stu-id="3cf55-120">**Credential** By default, the script uses the credentials of the current user.</span></span> <span data-ttu-id="3cf55-121">如果当前用户无权代表指定的"发送者"地址发送电子邮件，则必须指定此参数。</span><span class="sxs-lookup"><span data-stu-id="3cf55-121">If the current user does not have permission to send email on behalf of the specified From address, you must specify this parameter.</span></span> <span data-ttu-id="3cf55-122">一般而言，如果不将电子邮件地址指定为"发送地址"，请指定此参数。</span><span class="sxs-lookup"><span data-stu-id="3cf55-122">As a general rule, specify this parameter if you do not specify your email address as the From address.</span></span>
     
-<span data-ttu-id="d93ab-p107">下面的示例创建一个新的 PIN，然后从 Marco 向 Bob 发送欢迎电子邮件。此示例使用默认模板中的电子邮件文本，并创建 HTML 格式的电子邮件。默认主题为“欢迎参加电话拨入式会议”：</span><span class="sxs-lookup"><span data-stu-id="d93ab-p107">The following example creates a new PIN, and then sends a welcome email from Marco to Bob. It uses the email text from the default template and creates the email message in HTML format. The default Subject is "Welcome to Dial In Conferencing":</span></span>
+<span data-ttu-id="3cf55-123">以下示例创建一个新的 PIN，然后从 Marco 向 Bob 发送欢迎电子邮件。</span><span class="sxs-lookup"><span data-stu-id="3cf55-123">The following example creates a new PIN, and then sends a welcome email from Marco to Bob.</span></span> <span data-ttu-id="3cf55-124">此示例使用默认模板中的电子邮件文本，并创建 HTML 格式的电子邮件。</span><span class="sxs-lookup"><span data-stu-id="3cf55-124">It uses the email text from the default template and creates the email message in HTML format.</span></span> <span data-ttu-id="3cf55-125">默认主题为"欢迎参加电话拨入式会议"：</span><span class="sxs-lookup"><span data-stu-id="3cf55-125">The default Subject is "Welcome to Dial In Conferencing":</span></span>
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
-<span data-ttu-id="d93ab-p108">下一个示例强制为 Bob 使用值为“383042650”的新 PIN（即使 Bob 已有一个 PIN），然后从 Marco 向 Bob 发送欢迎电子邮件。由于已指定 Credential 参数，因此系统会提示运行命令的人员输入密码。电子邮件使用安全套接字层 (SSL) 发送：</span><span class="sxs-lookup"><span data-stu-id="d93ab-p108">The next example forces a new PIN with a value of "383042650" for Bob, even though Bob had an existing PIN, and then sends a welcome email from Marco to Bob. Because the Credential parameter is specified, the person running the command is prompted to enter a password. The email is sent by using the Secure Sockets Layer (SSL):</span></span>
+<span data-ttu-id="3cf55-126">下一个示例为 Bob 强制使用值为"383042650"的新 PIN，即使 Bob 已有 PIN，然后从 Marco 向 Bob 发送欢迎电子邮件。</span><span class="sxs-lookup"><span data-stu-id="3cf55-126">The next example forces a new PIN with a value of "383042650" for Bob, even though Bob had an existing PIN, and then sends a welcome email from Marco to Bob.</span></span> <span data-ttu-id="3cf55-127">由于已指定 Credential 参数，因此系统会提示运行命令的人员输入密码。</span><span class="sxs-lookup"><span data-stu-id="3cf55-127">Because the Credential parameter is specified, the person running the command is prompted to enter a password.</span></span> <span data-ttu-id="3cf55-128">电子邮件使用安全套接字层和 SSL (发送) ：</span><span class="sxs-lookup"><span data-stu-id="3cf55-128">The email is sent by using the Secure Sockets Layer (SSL):</span></span>
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"

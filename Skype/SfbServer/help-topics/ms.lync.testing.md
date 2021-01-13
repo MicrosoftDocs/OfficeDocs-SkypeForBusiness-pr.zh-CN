@@ -1,8 +1,8 @@
 ---
 title: test
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 1/1/2010
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ''
-description: 在此处插入介绍。
-ms.openlocfilehash: f98e0c40a9c0d3f9a2f087bd1dc3a214a8895bfb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 在此处插入简介。
+ms.openlocfilehash: afc20fda33d92ac58ae77154d6890d7354dfbed6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819014"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817792"
 ---
-# <a name="testing-sfb-csh"></a><span data-ttu-id="aa659-103">测试 SfB CSH</span><span class="sxs-lookup"><span data-stu-id="aa659-103">Testing SfB CSH</span></span>
+# <a name="testing-sfb-csh"></a><span data-ttu-id="656d1-103">测试 SfB CSH</span><span class="sxs-lookup"><span data-stu-id="656d1-103">Testing SfB CSH</span></span>
 
-<span data-ttu-id="aa659-104">这将是从搜索中隐藏的 CSH 主题。</span><span class="sxs-lookup"><span data-stu-id="aa659-104">This would be a CSH topic that's hidden from search.</span></span>
+<span data-ttu-id="656d1-104">这将是一个在搜索中隐藏的 CSH 主题。</span><span class="sxs-lookup"><span data-stu-id="656d1-104">This would be a CSH topic that's hidden from search.</span></span>
 
 
