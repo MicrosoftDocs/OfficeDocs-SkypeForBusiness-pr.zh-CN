@@ -1,8 +1,8 @@
 ---
 title: 证书请求（简介）
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要继续证书请求过程，请单击 "下一步"。 若要退出不更改系统的过程，请单击 "取消"。
-ms.openlocfilehash: d0458533ae46092ccf5bd1b8799018ade260c983
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 要继续证书请求过程，请单击“下一步”。 要退出该过程而不对系统进行任何更改，请单击“取消”。
+ms.openlocfilehash: 5d0b00810065d138ce25caeebc0f23400831064a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796703"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808792"
 ---
 # <a name="certificate-request-intro"></a>证书请求（简介）
  
-若要继续证书请求过程，请单击 "**下一步**"。 若要退出不更改系统的过程，请单击 "**取消**"。
+要继续证书请求过程，请单击 **“下一步”**。要退出该过程而不对系统进行任何更改，请单击 **“取消”**。
   
 

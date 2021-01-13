@@ -1,8 +1,8 @@
 ---
 title: 监控服务器常规设置扩展器
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 在拓扑生成器中，可以通过在控制台树中右键单击监控服务器，然后单击工具栏中的 "操作"，或者单击 "操作" 窗格中的某个任务，然后单击 "编辑属性"，然后单击 "编辑属性"，然后单击 "编辑属性" 来编辑单个监视服务器的属性，并更改以下任一选项：
-ms.openlocfilehash: 1577f79d41e7d136f711b341edd408585192da29
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 在拓扑生成器中，您可以编辑单个监控服务器的属性，方法是右键单击控制台树中的监控服务器，然后单击工具栏中的"操作"，或者单击"操作"窗格中的任务，然后单击"编辑属性"，并更改以下任一选项：
+ms.openlocfilehash: f5543b4ead3f496cd2ae37841a37a317b87f8d9c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215133"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803222"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>监控服务器常规设置扩展器
  
-在拓扑生成器中，可以通过在控制台树中右键单击监控服务器，然后单击工具栏中的 " **操作** "，或者单击 "操作" 窗格中的某个任务，然后单击 "编辑属性"，然后单击 " **编辑属性**"，然后单击 "编辑属性" 来编辑单个监视服务器的属性，并更改以下任一选项：
+在拓扑生成器中，您可以编辑单个监控服务器的属性，方法是右键单击控制台树中的监控服务器，然后单击工具栏中的"操作"，或者单击"操作"窗格中的任务，然后单击"编辑属性"，并更改以下任一选项：
   
 - **FQDN**，更改要部署为监控服务器的服务器的完全限定域名 (FQDN)。
     

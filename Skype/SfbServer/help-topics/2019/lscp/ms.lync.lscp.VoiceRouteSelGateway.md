@@ -1,8 +1,8 @@
 ---
-title: 选择中继
+title: 选择 Trunk
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用 "选择主干" 对话框查找可使用的现有主干。
-ms.openlocfilehash: be14b201d35b8e1c4018410cf134a95191a0a068
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 使用“选择 Trunk”对话框可以查找使用的现有 Trunk。
+ms.openlocfilehash: 421ccb762fc9db478858c930903ff56feca82907
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793520"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807852"
 ---
 # <a name="select-trunk"></a>选择中继
  
-使用 "**选择主干**" 对话框查找可使用的现有主干。
+使用“选择 Trunk”对话框可以查找使用的现有 Trunk。
   
 > [!NOTE]
-> 若要检索所有可用的中继，请不要在搜索框中键入任何内容，然后单击 "搜索" 图标。 
+> 若要检索所有可用 Trunk，请不要在搜索框中键入任何内容，然后单击搜索图标。 
   
  
   

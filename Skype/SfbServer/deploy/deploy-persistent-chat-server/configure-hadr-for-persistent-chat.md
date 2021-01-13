@@ -1,8 +1,8 @@
 ---
-title: 为 Skype for Business Server 2015 中的持久聊天服务器配置高可用性和灾难恢复
+title: 在 Skype for Business Server 2015 中为持久聊天服务器配置高可用性和灾难恢复
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -12,150 +12,150 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: 摘要：阅读本主题，了解如何在 Skype for business Server 2015 中配置持久聊天服务器的高可用性和灾难恢复。
-ms.openlocfilehash: 81fcc37ecbdf513decd89481c8a651404d91294a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 摘要：阅读本主题，了解如何在 Skype for Business Server 2015 中为持久聊天服务器配置高可用性和灾难恢复。
+ms.openlocfilehash: 10d9e2eb76873cedc82daea817a732b8feb379da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795523"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802132"
 ---
-# <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 中的持久聊天服务器配置高可用性和灾难恢复
+# <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中为持久聊天服务器配置高可用性和灾难恢复
  
-**摘要：** 阅读本主题，了解如何在 Skype for business Server 2015 中配置持久聊天服务器的高可用性和灾难恢复。
+**摘要：** 阅读本主题，了解如何在 Skype for Business Server 2015 中为持久聊天服务器配置高可用性和灾难恢复。
   
-Skype for Business 服务器支持对后端服务器的多个高可用性模式，包括数据库镜像。 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+Skype for Business Server 支持后端服务器的多种高可用性模式，包括数据库镜像。 有关详细信息，请参阅 [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
-> 永久聊天服务器不支持 AlwaysOn 可用性组。 
+> 持久聊天服务器不支持 AlwaysOn 可用性组。 
 
 > [!NOTE] 
-> Skype for business Server 2015 中提供了持久聊天，但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息，请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天，您可以选择将需要此功能的用户迁移到团队，或继续使用 Skype for Business Server 2015。
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 Teams 中也提供相同的功能。 有关详细信息，请参阅 [Microsoft Teams](/microsoftteams/upgrade-start-here)升级入门。 如果你需要使用持久聊天，你的选择是：将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
   
-在为高可用性和灾难恢复配置持久聊天部署之前，请确保熟悉适用于[Skype for Business server 2015 中持久聊天服务器的高可用性和灾难恢复](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)的概念。 这些主题中所述的持久聊天服务器的灾难恢复解决方案是基于持续持续的持久聊天服务器池构建的。 规划内容介绍资源要求和延长的池拓扑，该拓扑支持持久聊天服务器的高可用性和灾难恢复，包括使用 SQL Server 镜像实现高可用性和 SQL Server 日志传送灾难恢复。
+在配置持久聊天部署实现高可用性和灾难恢复之前，请确保你熟悉在 [Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)中规划持久聊天服务器的高可用性和灾难恢复的概念。 这些主题中介绍的持久聊天服务器的灾难恢复解决方案基于拉伸的持久聊天服务器池构建。 规划内容描述了资源要求，以及支持持久聊天服务器的高可用性和灾难恢复的扩展池拓扑，包括使用 SQL Server 镜像实现高可用性，以及使用 SQL Server 日志进行灾难恢复。
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>使用拓扑生成器配置高可用性和灾难恢复
 
-在拓扑生成器中，执行以下步骤以为持久聊天服务器配置高可用性和灾难恢复。
+在拓扑生成器中，执行以下步骤以配置持久聊天服务器的高可用性和灾难恢复。
   
-1. 添加镜像数据库和日志传送辅助数据库 SQL Server 存储。
+1. 在存储中添加镜像数据库和日志SQL Server数据库。
     
-2. 将持久聊天服务器服务属性编辑为：
+2. 编辑持久聊天服务器服务属性以：
     
     a. 为主数据库启用镜像。
     
-    b. 添加主镜像 SQL Server 应用商店。
+    b. 添加主镜像SQL Server存储。
     
-    c. 启用 SQL Server 日志传送数据库。
+    c. 启用SQL Server日志寄送数据库。
     
-    d. 添加 SQL Server 日志传送辅助 SQL Server 应用商店。
+    d. 添加SQL Server日志寄送辅助SQL Server存储。
     
-    e.i. 为辅助数据库添加 SQL Server 应用商店镜像。
+    e. 添加SQL Server数据库的镜像存储镜像。
     
     f. 发布拓扑。
     
-## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>为持久聊天服务器主数据库设置 SQL Server 日志传送
+## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>设置SQL Server持久聊天服务器主数据库的日志日志寄送
 
-使用 SQL Server Management Studio，连接到持久聊天服务器辅助日志传送数据库实例，并确保 SQL Server 代理正在运行。 然后，连接到持久聊天主数据库实例并执行以下步骤：
+使用 SQL Server Management Studio 连接到持久聊天服务器辅助日志发货数据库实例，并确保 SQL Server 代理正在运行。 然后连接到持久聊天主数据库实例并执行以下步骤：
   
-1. 右键单击 mgc 数据库，然后单击“**属性**”。
+1. 右键单击 mgc 数据库，然后单击“属性”。
     
-2. 在“**选择页**”下，单击“**事务日志传送**”。
+2. 在“选择页”下，单击“事务日志传送”。
     
-3. 选中“**将此数据库启用为日志传送配置中的主数据库**”复选框。
+3. 选中“将此数据库启用为日志传送配置中的主数据库”复选框。
     
-4. 在“**事务日志备份**”下，单击“**备份设置**”。
+4. 在“事务日志备份”下，单击“备份设置”。
     
-5. 在“**备份文件夹的网络路径**”框中，键入您为事务日志备份文件夹创建的共享的网络路径。
+5. 在“备份文件夹的网络路径”框中，键入您为事务日志备份文件夹创建的共享的网络路径。
     
-6. 如果备份文件夹位于主服务器上，请在“**如果备份文件夹位于主服务器上，则键入该文件夹的本地路径(示例: c:\backup)**”框中键入该备份文件夹的本地路径。（如果备份文件夹不在主服务器上，则可将此框留空。）
+6. 如果备份文件夹位于主服务器上，请在“如果备份文件夹位于主服务器上，则键入该文件夹的本地路径(示例: c:\backup):”框中键入该备份文件夹的本地路径。（如果备份文件夹不在主服务器上，则可将此框留空。）
     
     > [!IMPORTANT]
-    > 如果主服务器上的 SQL Server 服务帐户在本地系统帐户下运行，则必须在主服务器上创建备份文件夹，并指定该文件夹的本地路径。 
+    > 如果主SQL Server上的服务帐户在本地系统帐户下运行，则必须在主服务器上创建备份文件夹并指定该文件夹的本地路径。 
   
-7. 配置“**删除文件，如果其保留时间超过**”和“**在以下时间内没有执行备份时报警**”参数。
+7. 配置“删除文件，如果其保留时间超过”和“在以下时间内没有执行备份时报警”参数。
     
-8. 查看“**备份作业**”下的“**计划**”框中所列的备份计划。 若要自定义安装的计划，请单击 "**计划**"，然后根据需要调整 SQL Server 代理计划。
+8. 查看“备份作业”下的“计划”框中所列的备份计划。 若要自定义安装计划，请单击"计划"，然后根据需要SQL Server代理计划。 
     
-9. 在“**压缩**”下，选择“**使用默认服务器设置**”，然后单击“**确定**”。
+9. 在“压缩”下，选择“使用默认服务器设置”，然后单击“确定”。
     
-10. 在“**辅助服务器实例和数据库**”下，单击“**添加**”。
+10. 在“辅助服务器实例和数据库”下，单击“添加”。
     
-11. 单击 "**连接**" 并连接到已配置为辅助服务器的 SQL Server 实例。
+11. 单击 **"** 连接"并连接到SQL Server已配置为辅助服务器的服务器实例。
     
-12. 在“**辅助数据库**”框中，从列表中选择“**mgc**”数据库。
+12. 在“辅助数据库”框中，从列表中选择“mgc”数据库。
     
-13. 在 "**初始化辅助数据库**" 选项卡上，选择 **"是，生成主数据库的完整备份"，然后将其还原到辅助数据库（如果不存在，则创建辅助数据库）**。
+13. 在"初始化辅助数据库"选项卡上，选择选项"是"，生成主数据库的完整备份，并还原到辅助数据库 (并创建辅助数据库（**如果它** 不存在) ）。
     
-14. 在 "**复制文件**" 选项卡上的 "**复制的文件的目标文件夹**" 框中，键入应将事务日志备份复制到其中的文件夹的路径。 此文件夹通常位于辅助服务器上。
+14. 在“复制文件”选项卡上的“复制文件的目标文件夹”框中，键入应将事务日志备份复制到的文件夹的路径。此文件夹通常位于辅助服务器上。
     
-15. 请注意 "**复制作业**" 下的 "**日程安排**" 框中列出的复制计划。 若要自定义安装的计划，请单击 "**计划**"，然后根据需要调整 SQL Server 代理计划。 此计划应该与备份计划大致相同。
+15. 注意“复制作业”下的“计划”框中列出的复制计划。 若要自定义安装计划，请单击"计划"，然后根据需要SQL Server代理计划。  此计划应与备份计划大致相同。
     
-16. 在 "**还原**" 选项卡上的 "**还原备份时数据库状态**" 下，选择 "**无恢复模式**" 选项。
+16. 在“还原”选项卡上的“还原备份时的数据库状态”下，选择“无恢复模式”选项。
     
-17. 在 "**延迟还原备份至少：**" 下，选择 " **0 分钟**"。
+17. 在“延迟还原备份操作至少:”下，选择“0 分钟”。
     
-18. **如果未在内进行还原**，请在 "警报" 下选择警报阈值。
+18. 在“在以下时间内没有执行还原时报警”下选择报警阈值。
     
-19. 查看 "**还原作业**" 下的 "**日程安排**" 框中列出的还原计划。 若要自定义安装的计划，请单击 "**计划**"，根据需要调整 SQL Server 代理计划，然后单击 **"确定"**。 此计划应该与备份计划大致相同。
+19. 查看“还原作业”下的“计划”框中列出的还原计划。 若要自定义安装计划，请单击"计划"，根据需要SQL Server代理计划，然后单击"**确定"。**  此计划应与备份计划大致相同。
     
-20. 在 "**数据库属性**" 对话框中，单击 **"确定"** 开始配置过程。
+20. 在“数据库属性”对话框中，单击“确定”开始配置过程。
     
-## <a name="set-up-sql-server-log-shipping-between-the-primary-mirror-and-the-secondary-database"></a>在主镜像和辅助数据库之间设置 SQL Server 日志传送
+## <a name="set-up-sql-server-log-shipping-between-the-primary-mirror-and-the-secondary-database"></a>设置SQL Server镜像和辅助数据库之间的日志日志寄送
 
-如果主持久聊天数据库故障转移到其镜像数据库，请执行以下步骤，以使日志传送继续进行。
+如果主持久聊天数据库被故障恢复至其镜像数据库，请执行以下步骤以继续日志寄送。
   
-1. 将主持久聊天数据库手动故障转移到镜像。 这可通过使用 Skype for Business 服务器命令行管理程序和**CsDatabaseFailover** cmdlet 完成。
+1. 手动将主持久聊天数据库故障转移到镜像。 这是通过使用 Skype for Business Server 命令行管理程序和 **Invoke-CsDatabaseFailover** cmdlet 完成。
     
 2. 使用 SQL Server Management Studio 连接到主持久聊天服务器镜像实例。
     
-3. 请确保 SQL Server 代理正在运行。
+3. 请确保运行SQL Server代理。
     
-4. 右键单击 mgc 数据库，然后单击“**属性**”。
+4. 右键单击 mgc 数据库，然后单击“属性”。
     
-5. 在“**选择页**”下，单击“**事务日志传送**”。
+5. 在“选择页”下，单击“事务日志传送”。
     
-6. 选中“**将此数据库启用为日志传送配置中的主数据库**”复选框。
+6. 选中“将此数据库启用为日志传送配置中的主数据库”复选框。
     
-7. 在“**事务日志备份**”下，单击“**备份设置**”。
+7. 在“事务日志备份”下，单击“备份设置”。
     
-8. 在 "**备份文件夹的网络路径**" 框中，键入为 "事务日志备份" 文件夹创建的共享的网络路径。
+8. 在“备份文件夹的网络路径”框中，键入您为事务日志备份文件夹创建的共享的网络路径。
     
-9. 如果备份文件夹位于主服务器上，请在 "**如果备份文件夹位于主服务器上**" 中键入备份文件夹的本地路径，请在 "文件夹" 框中键入本地路径。 （如果备份文件夹不在主服务器上，你可以将此框留空。）
-    
-    > [!IMPORTANT]
-    > 如果主服务器上的 SQL Server 服务帐户在本地系统帐户下运行，则必须在主服务器上创建备份文件夹，并指定该文件夹的本地路径。 
-  
-10. 配置“**删除文件，如果其保留时间超过**”和“**在以下时间内没有执行备份时报警**”参数。
-    
-11. 查看“**备份作业**”下的“**计划**”框中所列的备份计划。 若要自定义安装的计划，请单击 "**计划**"，然后根据需要调整 SQL Server 代理计划。
+9. 如果备份文件夹位于主服务器上，则在“如果备份文件夹位于主服务器上，则键入该文件夹的本地路径(示例: c:\backup)”框中键入备份文件的本地路径。（如果备份文件夹不在主服务器上，则可以将此框留空。）
     
     > [!IMPORTANT]
-    > 使用您用于主数据库的相同设置。 
+    > 如果主SQL Server上的服务帐户在本地系统帐户下运行，则必须在主服务器上创建备份文件夹并指定该文件夹的本地路径。 
   
-12. 在 "**压缩**" 下，选择 "**使用默认服务器设置**"，然后单击 **"确定"**。
+10. 配置“删除文件，如果其保留时间超过”和“在以下时间内没有执行备份时报警”参数。
     
-13. 在“**辅助服务器实例和数据库**”下，单击“**添加**”。
-    
-14. 单击 "**连接**"，并连接到已配置为辅助服务器的 SQL Server 实例。
-    
-15. 在“**辅助数据库**”框中，从列表中选择“**mgc**”数据库。
-    
-16. 在 "**初始化辅助数据库**" 选项卡上，选择 "**否，辅助数据库已初始化**"。
-    
-17. 在 "**复制**文件" 选项卡上，在 "**复制的文件的目标文件夹**" 中，键入应将事务日志备份复制到其中的文件夹的路径，然后单击 **"确定"**。 此文件夹通常位于辅助服务器上。
-    
-18. 打开 "**脚本配置**" 下拉列表，然后选择 "**对新查询进行脚本配置" 窗口**。
-    
-19. 在 "新建查询" 窗口的 "**数据库属性**" 中，单击 **"确定"** 开始配置过程。
-    
-20. 选择并运行查询的第一半（请参阅步骤 18 \* \* \* \* \* \* ）至行：--结束：要在主要\* \* \* \* \* \*位置运行的脚本：。
+11. 查看“备份作业”下的“计划”框中所列的备份计划。 若要自定义安装计划，请单击"计划"，并根据需要SQL Server代理计划。 
     
     > [!IMPORTANT]
-    > 必须手动运行此脚本，因为 SQL Server Management Studio 不支持 SQL Server 日志传送配置中的多个主数据库。 
+    > 使用您对主数据库使用的相同设置。 
   
-21. 选择 "**取消**" 以关闭日志文件传输配置面板，并建立可正确为主数据库和镜像数据库（如果故障转移）实现日志文件传送的工作设置。
+12. 在“压缩”下，选择“使用默认服务器设置”，然后单击“确定”。
     
-22. 将主持久聊天数据库手动故障恢复到主数据库。 这是通过使用 Skype for Business 服务器命令行管理程序和**CsDatabaseFailover** cmdlet 完成的。
+13. 在“辅助服务器实例和数据库”下，单击“添加”。
+    
+14. 单击“连接”，然后连接到您已作为辅助服务器配置的 SQL Server 实例。
+    
+15. 在“辅助数据库”框中，从列表中选择“mgc”数据库。
+    
+16. 在“初始化辅助数据库”选项卡上，选择“否，辅助数据库已初始化”选项。
+    
+17. 在“复制文件”选项卡上的“复制文件的目标文件夹”中，键入事务日志备份应复制到的文件夹的路径，然后单击“确定”。此文件夹通常位于辅助服务器上。
+    
+18. 打开“脚本配置”下拉列表，然后选择“将配置脚本保存到‘新建查询’窗口”。
+    
+19. 在新建查询窗口中的“数据库属性”上，单击“确定”开始配置过程。
+    
+20. 选择并运行查询代码的上 (，请参阅步骤 18) 行： -- \* \* \* \* \* \* End： Script to be run at Primary： \* \* \* \* \* \* .
+    
+    > [!IMPORTANT]
+    > 手动运行此脚本是必需的，因为 SQL Server Studio 不支持一个日志SQL Server中的多个主数据库。 
+  
+21. 选择“取消”以关闭日志文件传送配置面板并建立正确实现主数据库和镜像数据库的日志文件传送的工作设置（在故障转移的情况下）。
+    
+22. 手动将主持久聊天数据库故障回复到主持久聊天数据库。 这是通过使用 Skype for Business Server 命令行管理程序和 **Invoke-CsDatabaseFailover** cmdlet 完成。
     
 

@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中配置位置数据库
+title: 在 Skype for Business Server 中配置位置数据库
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: 在 Skype for Business Server Enterprise Voice 中配置、填充和发布 E9-1-1 位置数据库。
-ms.openlocfilehash: 4b8848637130886250d08847c45df3c2dc080f5b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 在 Skype for Business Server 企业语音 中配置、填充和发布 E9-1-1 位置企业语音。
+ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768105"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804082"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置位置数据库
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business Server 中配置位置数据库
  
-在 Skype for Business Server Enterprise Voice 中配置、填充和发布 E9-1-1 位置数据库。 
+在 Skype for Business Server 企业语音 中配置、填充和发布 E9-1-1 位置企业语音。 
   
 为使客户端能够自动检测其在网络中的位置，首先需要配置位置数据库。 
   
-要配置位置数据库，请执行下列任务：
+若要配置位置数据库，请执行以下任务：
   
-- 使用网络元素到位置的映射填充数据库。 如果您使用紧急位置识别号码（ELIN）网关，则需要在 " \<公司名称\> " 字段中包含 ELIN。
+- 使用网络元素到位置的映射填充数据库。 如果使用 ELIN (ELIN) 紧急位置标识号，则需要在字段中包括 \<CompanyName\> ELIN。
     
-    如果未填充位置数据库，并且位置策略中的“所需位置”**** 设置为“是”**** 或“免责声明”****，客户端将提示用户手动输入位置。
+    如果未填充位置数据库，并且位置策略中的“所需位置”设置为“是”或“免责声明”，客户端将提示用户手动输入位置。
     
 - 根据由 E9-1-1 服务提供商维护的主街道地址指南 (MSAG) 验证地址。
     
@@ -41,18 +41,18 @@ ms.locfileid: "41768105"
     
 ## <a name="populate-the-location-database"></a>填充位置数据库
 
-要在网络中自动定位客户端，首先需要使用网络线路映射填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。 可以使用子网、无线访问点、交换机和端口来定义线路映射。
+要在网络中自动定位客户端，首先需要使用网络线路映射 填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。 可以使用子网、无线访问点、交换机和端口来定义线路映射。
   
 可以分别将地址添加到位置数据库中，也可以使用包含下表所述的列格式的 CSV 文件批量添加。
   
-如果您使用紧急位置标识号 (ELIN) 网关，包括每个位置“CompanyName”**** 字段中的 ELIN。可以包括每个位置的多个 ELIN，每个以逗号分隔。
+如果您使用紧急位置标识号 (ELIN) 网关，包括每个位置“CompanyName”字段中的 ELIN。可以包括每个位置的多个 ELIN，每个以逗号分隔。
   
 |**网络元素**|**所需列**|
 |:-----|:-----|
-|**无线访问点** <br/> |\<BSSID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix\<、\>PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
-|**Subnet** <br/> |\<子\>网\<、\>说明\<、\>位置\<、\>公司\<名称\>、\<HouseNumber\>、\<HouseNumberSuffix\>、PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
-|**端口** <br/> |\<ChassisID\>、\<PortIDSubType\>、\<PortID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix,.。。  <br/> ...\<PreDirectional\>、\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<City\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
-|**交换机** <br/> |\<ChassisID\>、\<说明\>、\<位置\>、\<公司\>名称\<、\>HouseNumber\<、\>HouseNumberSuffix\<、\>PreDirectional,.。。  <br/> ...\<StreetName\>、\<StreetSuffix\>、\<PostDirectional\>、\<城市\>、\<州\>、\<邮政编码\>、\<国家/地区\>  <br/> |
+|**无线访问点** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Subnet** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**开关** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>将网络元素添加到位置数据库
 
@@ -120,34 +120,34 @@ ms.locfileid: "41768105"
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>验证位于位置数据库中的地址
 
-1.  启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+1.  启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
-2. 运行以下 cmdlet 配置紧急服务提供商连接。
+2. 运行以下 cmdlet 以配置紧急服务提供商连接。
     
    ```powershell
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
-3. 运行以下 cmdlet 验证位置数据库中的地址。
+3. 运行以下 cmdlet 以验证位置数据库中的地址。
     
    ```powershell
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
-   还可以使用 **Test-CsLisCivicAddress** cmdlet 验证单个地址。
+   您还可以使用 **Test-CsLisCivicAddress cmdlet** 验证各个地址。
     
 ## <a name="publish-the-location-database"></a>发布位置数据库
 
-只有在添加到位置数据库的新位置发布后，客户端才能使用这些位置。
+添加到位置数据库的新位置在发布之前对客户端不可用。
   
-如果使用紧急位置标识号 (ELIN) 网关，还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。 PSTN 运营商可能需要特定格式的 ELIN 记录。 请联系 PSTN 运营商了解详细信息。 你可以从位置信息服务数据库导出记录，并根据需要设置其格式。
+如果使用紧急位置标识号 (ELIN) 网关，则还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。 PSTN 运营商可能要求您对 ELIN 记录使用特定格式。 有关详细信息，请与 PSTN 运营商联系。 可以从位置信息服务数据库导出记录并按需要设置格式。
   
 ### <a name="to-publish-the-location-database"></a>发布位置数据库
 
--  启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+-  启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
-- 运行以下 cmdlet 发布位置数据库。
+- 运行以下 cmdlet 以发布位置数据库。
     
   ```powershell
   Publish-CsLisConfiguration

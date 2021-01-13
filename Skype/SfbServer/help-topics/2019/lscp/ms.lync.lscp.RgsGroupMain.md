@@ -1,8 +1,8 @@
 ---
-title: "\"响应组\" 组"
+title: 响应组组
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
-description: 响应组由代理组、队列和工作流组成。 代理组是指定用来回答响应组呼叫的一组人员。
-ms.openlocfilehash: 1c42f34028d944a7390925df6157c8ef8fd0509d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 响应组由代理组、队列和工作流组成。 代理组是指定应答响应组呼叫的一组人员。
+ms.openlocfilehash: 687263d9d5778239c78038b39edc3da59f444a5a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797513"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808252"
 ---
 # <a name="response-groups-group"></a>响应组：组
 
-响应组由代理组、队列和工作流组成。 代理组是指定用来回答响应组呼叫的一组人员。
+响应组由代理组、队列和工作流组成。 代理组是指定应答响应组呼叫的一组人员。
 
-"**响应组** - "**组**页面显示为你的组织定义的所有代理组的列表。
+"**响应**  -  **组组**"页显示为组织定义的所有代理组的列表。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
-可以从 "**响应组** - "**组**页面执行以下任务：
+可以从"响应组组"页 **执行**  -  **以下** 任务：
 
-- 创建新代理组
+- 创建新的代理组
 
 - 更改现有代理组
 
@@ -42,20 +42,20 @@ ms.locfileid: "41797513"
 
 下表介绍了该页上的各个命令。
 
-- **新**启动新的代理组。
+- **新建** 启动一个新的代理组。
 
-- **编辑**打开所选代理组以对其进行编辑、选择列表中的所有代理组或删除所选的代理组。
+- **编辑** 打开所选代理组进行编辑、选择列表中的所有代理组或删除所选的代理组。
 
-- **刷新**刷新代理组的列表。
+- **刷新** 刷新代理组列表。
 
 下表介绍了该页上的各个字段。
 
-- **名称**标识代理组的唯一名称。
+- **名称** 标识代理组的唯一名称。
 
-- **服务**托管代理组的**ApplicationServer**服务。
+- **服务** 托管 **代理组的 ApplicationServer** 服务。
 
-- **说明**代理组的说明。
+- **说明** 代理组的说明。
 
-有关响应组功能和功能的详细信息，请参阅计划文档中的[Skype For Business 服务器中的 "响应组应用程序](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)"。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)。
+有关响应组特性和功能的详细信息，请参阅规划文档中[的 Plan for the Response Group application in Skype for Business Server。](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)。
 
 

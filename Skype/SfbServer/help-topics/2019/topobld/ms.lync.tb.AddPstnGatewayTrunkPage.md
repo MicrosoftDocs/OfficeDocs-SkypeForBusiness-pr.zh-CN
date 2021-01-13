@@ -1,8 +1,8 @@
 ---
-title: 定义新 IP 或 PSTN 网关的根中继
+title: 定义新 IP 或 PSTN 网关的根 Trunk
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,32 +14,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 通过配置以下内容来定义 IP 或公共交换电话网络（PSTN）的根主干：
-ms.openlocfilehash: 7920335c4d29b883be8d2076223425db103b605c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 通过配置以下内容定义 IP 或公用电话交换网 (PSTN) 的根 Trunk：
+ms.openlocfilehash: dae2078aea093f14e4cfd2642a98e73ec7eb4293
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794351"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807652"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定义新 IP 或 PSTN 网关的根中继
 
-通过配置以下内容来定义 IP 或公共交换电话网络（PSTN）的根主干：
+通过配置以下内容定义 IP 或公用电话交换网 (PSTN) 的根 Trunk：
 
-- **主干名称**：定义与主干相关联的完全限定的域名称
+- **Trunk 名称**：定义与 Trunk 关联的完全限定域名
 
-- **IP/PSTN 网关的侦听端口**：定义此主干将侦听的端口
+- **IP/PSTN 网关的侦听端口**：定义此 Trunk 将侦听的端口
 
-- **SIP 传输协议**：根据中继要求，从列表中选择 " **TCP** " 或 " **TLS**"
+- **SIP 传输协议**：根据 Trunk 要求从列表中选择“TCP”或“TLS”
 
-- **关联的中介服务器**：从你的部署中的可用中介服务器列表中选择
+- **关联的中介服务器**：从部署中的可用中介服务器列表中选择
 
 - **关联的中介服务器端口**：定义所选中介服务器正在侦听的端口
 
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business 服务器中使用 "媒体绕过" 配置主干](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[在 Skype for Business Server 中配置带媒体旁路的中继](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[在 Skype for Business 服务器中配置不使用媒体的主干](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[在 Skype for Business Server 中配置无媒体旁路的中继](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
 [SIP 中继支持](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)

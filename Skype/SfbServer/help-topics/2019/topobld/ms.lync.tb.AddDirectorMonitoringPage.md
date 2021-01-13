@@ -1,8 +1,8 @@
 ---
 title: 添加控制器监控
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,38 +14,38 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
-description: 你可以通过配置以下属性来定义监视 SQL Server 存储：
-ms.openlocfilehash: 0dcf608ce94e625698ff6105b16d09c56f6f8825
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 可以通过配置以下属性“定义监视 SQL Server 存储”：
+ms.openlocfilehash: 324acca0ed3fef57e74a069dccb60f8c79a0060a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796581"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807792"
 ---
 # <a name="add-director-monitoring"></a>添加控制器监控
  
-你可以通过配置以下属性来**定义监视 SQL Server 存储**：
+可以通过配置以下属性“定义监视 SQL Server 存储”：
   
-- **监视 SQL server 应用商店**：从列表中选择 sql server 完全限定的域名（FQDN）（也称为 sql server 实例）。
+- **监控SQL Server** 存储：从SQL Server选择 (FQDN)  (和命名的 SQL Server 实例) 。
     
-    单击 "**新建**" 以创建新的 SQL Server FQDN 定义，还可以选择 "监视服务器" 存储的实例名称。
+    单击 **"** 新建"SQL Server FQDN 定义和监控服务器存储的实例名称（可选）。
     
-- 如果要为监视服务器添加数据库镜像，请选中 "**启用 SQL Server 应用商店镜像**" 复选框。
+- 如果要 **为监控SQL Server** 数据库镜像，请选中"启用数据库存储镜像"复选框。
     
-    从列表中选择一个现有的**监视 SQL Server 应用商店镜像**。
+    从列表选择一个现有的“监控 SQL Server 存储镜像”。
     
-    单击 "**新建**" 以创建新的 SQL Server FQDN 定义和镜像存储的实例名称（可选）。
+    单击 **"** 新建"SQL Server FQDN 定义和镜像存储的实例名称（可选）。
     
-- 如果选择 "**启用 Sql server 应用商店镜像**"，则可以选择 "**使用 sql server 镜像见证启用自动故障转移**"，从列表中选择 SQL Server 镜像存储。
+- 如果选择 **"启用** SQL Server 存储镜像"，可以选择使用 **SQL Server** 镜像见证启用自动故障转移，以从SQL Server选择镜像见证存储。
     
-    单击 "**新建**" 创建新的 SQL Server FQDN 定义和镜像见证存储的实例名称（可选）。
+    单击 **"** 新建"SQL Server FQDN 定义和镜像见证存储的实例名称（可选）。
     
-单击“**上一步**”以回到上一个池定义对话框。
+单击“上一步”以回到上一个池定义对话框。
   
-输入此对话框的选项后，单击 "**下一步**" 以继续配置。
+完成为此对话框输入选项后单击“下一步”，以继续进行配置。
   
-单击 "**取消**" 放弃所有更改并结束向导。
+单击“取消”以放弃所有更改并退出向导。
   
-单击 "**帮助**" 以访问上下文相关帮助，例如此页面。
+单击“帮助”以访问上下文相关帮助，例如此页面。
   
 

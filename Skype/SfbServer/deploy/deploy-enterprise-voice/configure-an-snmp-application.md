@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 服务器中配置 SNMP 应用程序
+title: 在 Skype for Business Server 中配置 SNMP 应用程序
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: 在 Skype for business Server Enterprise Voice 中配置 SNMP 应用程序以使用 E9-1。
-ms.openlocfilehash: fd8db117f590343d3e2f5a0194a0f6d8c3bcfb39
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 将 SNMP 应用程序配置为与 Skype for Business Server 企业语音 中的 E9-1-1 一企业语音。
+ms.openlocfilehash: eb1947f24968dccc6f45b6d8ea3a7df42282a58f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768135"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804152"
 ---
-# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在 Skype for Business 服务器中配置 SNMP 应用程序
+# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在 Skype for Business Server 中配置 SNMP 应用程序
  
-在 Skype for business Server Enterprise Voice 中配置 SNMP 应用程序以使用 E9-1。 
+将 SNMP 应用程序配置为与 Skype for Business Server 企业语音 中的 E9-1-1 一企业语音。 
   
-Skype for Business 服务器包括一个标准的 web 服务接口，可用于将 Location 信息服务连接到与端口和交换机信息相匹配的 MAC 地址的简单网络管理协议（SNMP）应用程序。 
+Skype for Business Server 包括一个标准 Web 服务接口，可用于将位置信息服务连接到与 MAC 地址与端口和交换机信息匹配的简单网络管理协议 (SNMP) 应用程序。 
   
-如果已安装 SNMP 应用程序，并且位置信息服务无法在位置数据库中找到匹配项，则位置信息服务将使用客户端提供的 MAC 地址自动查询应用程序。 然后，位置信息服务使用 SNMP 应用程序返回的端口和交换信息再次查询位置数据库。
+如果安装了 SNMP 应用程序，而位置信息服务在位置数据库中找不到匹配项，则位置信息服务将自动使用客户端提供的 MAC 地址查询该应用程序。 然后，位置信息服务使用 SNMP 应用程序返回的端口和交换机信息再次查询位置数据库。
   
 > [!NOTE]
 > MAC 地址在运行 Windows 8 的计算机上不可用。 
   
 ### <a name="to-configure-the-snmp-application-url"></a>配置 SNMP 应用程序 URL
 
-1.  启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+1.  启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 2. 运行以下 cmdlet 为 SNMP 应用程序配置 URL。 
     

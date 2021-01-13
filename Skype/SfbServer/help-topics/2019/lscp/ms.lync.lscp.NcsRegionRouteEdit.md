@@ -1,8 +1,8 @@
 ---
-title: 配置网络区域路由新建或编辑现有
+title: 配置网络区域路由创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
-description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: ca91f22f10dd75161b2aa70d60a15591ac32df17
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 要执行什么操作？ 单击要执行的任务的链接。
+ms.openlocfilehash: 9d4bbf15bc090c6ad7926dbb470be6b600266885
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795483"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808512"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>配置网络区域路由：创建新的或编辑现有的
 
-您希望执行什么操作？ 单击您要执行的任务所对应的链接。
+要执行什么操作？ 单击要执行的任务的链接。
 
 - [配置网络区域路由](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 

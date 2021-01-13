@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 中配置呼叫寄存设置
+title: 在 Skype for Business 中配置呼叫等待设置
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: 在 Skype for Business Server Enterprise Voice 中修改呼叫寄存设置。
-ms.openlocfilehash: e9410d3b088e5978588de991aeaa9da73327f50a
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 修改 Skype for Business Server 服务中的呼叫企业语音。
+ms.openlocfilehash: 2380c9b505ceef6ac5f4bbe04996bfdf611de39c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768125"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804112"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>在 Skype for Business 中配置呼叫寄存设置
+# <a name="configure-call-park-settings-in-skype-for-business"></a>在 Skype for Business 中配置呼叫等待设置
 
-在 Skype for Business Server Enterprise Voice 中修改呼叫寄存设置。
+修改 Skype for Business Server 服务中的呼叫企业语音。
 
-如果您不想使用默认呼叫寄存设置，您可以对其进行自定义。 安装 "呼叫驻留" 应用程序时，默认情况下配置全局设置。 您可以修改全局设置，也可以指定特定于站点的设置。 使用 **New-CsCpsConfiguration** cmdlet 可创建新的特定于站点的设置。 使用 **Set-CsCpsConfiguration** cmdlet 可修改现有设置。
+如果不想使用默认呼叫呼叫管理设置，可以自定义这些设置。 安装呼叫管理应用程序时，默认情况下将配置全局设置。 您可以修改全局设置，也可以指定特定于站点的设置。 使用 **New-CsCpsConfiguration** cmdlet 可创建新的特定于站点的设置。 使用 **Set-CsCpsConfiguration** cmdlet 可修改现有设置。
 
 > [!NOTE]
 > 寄存呼叫超时且回拨失败时，我们建议您至少为要使用的回退目标配置 **OnTimeoutURI** 选项。
@@ -40,11 +40,11 @@ ms.locfileid: "41768125"
 | **CallPickupTimeoutThreshold** <br/> | 呼叫寄存后到回拨此前应答呼叫的电话之前等待的时间。  <br/> 该值必须采用 hh:mm:ss 的格式输入，以便指定小时数、分钟数和秒数。最小值为 10 秒，最大值为 10 分钟。默认值为 00:01:30。  <br/> |
 | **EnableMusicOnHold** <br/>          | 寄存呼叫时是否向呼叫者播放音乐。  <br/> 值为 True 或 False。默认值为 True。  <br/>                                                                                                                                                                                                                 |
 | **MaxCallPickupAttempts** <br/>      | 在将寄存呼叫转接到为 **OnTimeoutURI** 指定的回退统一资源标识符 (URI) 之前该寄存呼叫回拨应答电话的次数。默认值为 1。<br/>                                                                                                                         |
-| **OnTimeoutURI** <br/>               | 当超过**MaxCallPickupAttempts**时，未应答的寄存呼叫将路由到的用户或响应组的 SIP 地址。 <br/> 值必须是以字符串 sip 开头的 SIP URI：。 例如，sip:bob@contoso.com。 默认为无转发地址。  <br/>                                                   |
+| **OnTimeoutURI** <br/>               | 超出 **MaxCallPickupAttempts** 时未应答的寄存呼叫将路由到的用户或响应组的 SIP 地址。 <br/> 值必须为以字符串 sip: 开头的 SIP URI。例如，sip:bob@contoso.com。默认情况下没有转接地址。<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>配置呼叫寄存设置
+### <a name="to-configure-call-park-settings"></a>配置呼叫管理设置
 
-1. 启动 Skype for Business Server 命令行管理程序：依次单击“开始”****、“所有程序”**** 和“Skype for Business 2015”****，然后单击“Skype for Business Server 命令行管理程序”****。
+1. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
 
 2. 运行：
 
@@ -53,7 +53,7 @@ ms.locfileid: "41768125"
    ```
 
    > [!TIP]
-   > 使用**CsSite** cmdlet 标识该网站。 有关详细信息，请参阅 Skype for Business 服务器管理外壳文档。
+   > 使用 **Get-CsSite** cmdlet 可标识站点。 有关详细信息，请参阅 Skype for Business Server 命令行管理程序文档。
 
     例如：
 
@@ -63,10 +63,10 @@ ms.locfileid: "41768125"
 
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business 2015 中自定义呼叫寄存保持音乐](customize-call-park-music-on-hold.md)
+[在Skype for Business 2015 中自定义呼叫等待音乐](customize-call-park-music-on-hold.md)
 
-[新-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
 [Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 
-[CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
+[Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
