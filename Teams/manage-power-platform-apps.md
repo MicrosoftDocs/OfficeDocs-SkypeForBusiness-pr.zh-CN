@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何在 Microsoft Teams 管理中心管理对基于 Microsoft Power Platform 构建的自定义应用的访问权限。
+description: 了解如何在 Microsoft Teams 管理中心管理对构建在 Microsoft Power Platform 上的自定义应用的访问权限。
 ms.openlocfilehash: b44bd77a6415be9c9c9454fd96028fdbb8c608c4
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -45,17 +45,17 @@ ms.locfileid: "49831292"
 
 |Power Apps |Power Virtual Agents  |
 |---------|---------|
-|<ul><li>用户创建了应用。</li><li>该应用已直接与用户共享。</li><li>用户最近使用过该应用。 </li></ul>| <ul><li>用户创建了机器人。</li><li>机器人由用户所属团队拥有。 </li></ul>        |
+|<ul><li>用户创建了应用。</li><li>该应用已直接与用户共享。</li><li>用户最近使用过该应用。 </li></ul>| <ul><li>用户创建了机器人。</li><li>机器人归用户所属团队所有。 </li></ul>        |
 
-用户安装 Microsoft Power Platform 应用的方式与安装任何其他 Teams 应用相同。 请记住，用户只能将应用安装到他们拥有权限的上下文中，例如，他们拥有的团队、他们参与的聊天或者他们的个人范围。
+用户安装 Microsoft Power Platform 应用的方式与安装任何其他 Teams 应用的方式相同。 请记住，用户只能将应用安装到他们拥有权限的上下文中，例如，他们拥有的团队、他们参与的聊天或者他们的个人范围。
 
 ## <a name="manage-access-to-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理对 Microsoft Power Platform 应用的访问权限
 
-作为管理员，你可以控制 Microsoft Power Platform 应用是否列在同事在 Teams 的"应用"页面上的"构建"中。 可以统一阻止或允许 Power Apps 中创建的所有应用，或者"管理应用"页面上组织级别的 Power Virtual [](manage-apps.md) Agents 中创建的所有应用，或者针对使用应用权限策略的特定[用户创建的所有应用](teams-app-permission-policies.md)。
+作为管理员，你可以控制 Microsoft Power Platform 应用是否列在同事在 Teams 的"应用"页面上的"构建"中。 可以统一阻止或允许 Power Apps 中创建的所有应用，或者"管理应用"页面上组织级别的 Power Virtual [](manage-apps.md) Agents 中创建的所有应用，或者使用应用权限策略为特定用户创建[的所有应用](teams-app-permission-policies.md)。
 
-组织的 **应用商店中的** 共享 **Power** Apps 和共享 Power Virtual Agent 应用表示该特定平台上创建的所有应用。 如果在组织级别或特定用户中阻止了一个或两个这些应用，这些用户将看不到同事构建的这些平台的任何应用，并且无法将其安装在 Teams 中。  
+组织的 **应用商店中的** 共享 **Power** Apps 和共享 Power Virtual Agent 应用表示该特定平台上创建的所有应用。 如果在组织级别或特定用户阻止一个或两个这些应用，这些用户将看不到同事构建的这些平台的任何应用，并且无法将其安装在 Teams 中。  
 
-请记住，你可以控制对在 Power Apps 和 Power Virtual Agents 中创建的所有应用的访问，但不能允许或阻止单个应用。 制造商决定谁可以从 Power Apps 和 Power Virtual Agents 内通过共享功能访问他们创建的应用。 如果制作者与用户共享他们在 Power Virtual Agents 中创建的应用，并且你阻止了该用户的 **共享 Power Virtual Agents** 应用，则用户将无法在 Teams 中查看或安装该平台的任何应用。
+请记住，你可以控制对在 Power Apps 和 Power Virtual Agents 中创建的所有应用的访问，但不能允许或阻止单个应用。 制造商决定谁可以从 Power Apps 和 Power Virtual Agents 中通过共享功能访问他们创建的应用。 如果制作者与用户共享他们在 Power Virtual Agents 中创建的应用，并且你阻止了该用户的 **共享 Power Virtual Agents** 应用，则用户将无法在 Teams 中查看或安装该平台的任何应用。
 
 如果允许用户从 Power Apps 或 Power Virtual Agents 访问应用，然后阻止用户从一个或两个平台访问应用，则用户仍然可以访问和使用在阻止应用之前安装的 Microsoft Power Platforms 应用。 但是，用户无法再从同事构建的这些平台查看或 **安装任何应用**。
 
@@ -69,7 +69,7 @@ ms.locfileid: "49831292"
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"Teams 应用**  >  **管理应用"。** 只有全局管理员或 Teams 服务管理员才能访问页面。
 2. 在应用列表中，执行下列操作之一。
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text=""管理应用"页面的屏幕截图，其中显示了共享的 Microsoft Power Platform 应用":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text=""管理应用"页面的屏幕截图，显示共享的 Microsoft Power Platform 应用":::
 
     - 若要阻止在 Power Apps 或 Power Virtual Agents 中为组织中所有用户创建的应用，请搜索"共享 **Power Apps"** 或"**共享 Power Virtual Agent** 应用"，将其选中，然后单击"**阻止"。**
     - 若要允许组织中所有用户在 Power Apps 或 Power Virtual Agents 中创建应用，请搜索"共享 **Power Apps"** 或"**共享 Power Virtual Agent** 应用"，将其选中，然后单击"允许 **"。**
