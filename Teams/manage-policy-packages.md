@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在管理用户组的策略时，使用和管理 Microsoft Teams 中的策略包来简化、简化和帮助提供一致性。
-ms.openlocfilehash: 62250644d29f65a9c650db0e80477eec6baf4f3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9718751ea1d34692718b63cbe90ee6e694577c21
+ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49839457"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49862582"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>在 Microsoft Teams 中管理策略包
 
@@ -64,19 +64,19 @@ Teams 当前包括以下策略包。
 |教育 (教师)     |创建一组适用于教师的策略和策略设置。      |
 |使用 (远程学习工具的教师)     |创建一组适用于主要教师的策略，在远程学习中最大化学生的安全和协作。      |
 |使用 (远程学习工具的)     |创建一组适用于主要学生的策略，在远程学习中最大化学生的安全和协作。      |
-|一线管理器 |创建一组策略，将这些设置应用于组织中第一线经理。 |
-|一线员工 |创建一组策略，将这些设置应用于组织中一线员工。 |
+|前端管理器 |创建一组策略，将这些设置应用到组织的 Fronttline 管理器。 |
+|前端辅助角色 |创建一组策略，将这些设置应用到组织的 Fronttline 工作人员。 |
 |医疗保健医生  |创建一组策略和策略设置，使注册医生、医生、医生和社交工作者等医疗工作者能够完全访问聊天、呼叫、轮班管理和会议。 |
-|医疗保健信息工作者  |创建一组策略和策略设置，为信息工作者（例如 IT 人员、信息工作者、财务人员和合规官）提供聊天、呼叫和会议的完全访问权限。|
+|医疗保健信息工作者  |创建一组策略和策略设置，为信息工作者（如 IT 人员、信息工作者、财务人员和合规官）提供聊天、呼叫和会议的完全访问权限。|
 |医疗保健患者室  |创建一组适用于医疗保健组织中患者室的策略和策略设置。|
-|小型企业用户 (Business Voice)  |创建一个应用设置策略，其中包含用于业务语音体验的应用。|
+|小型企业用户和商业 (语音)  |创建一个应用设置策略，其中包含用于业务语音体验的应用。|
 |没有 Business Voice (的中小型企业)  |为具有非业务语音体验的小型企业 Teams 用户创建 (设置) 。
 |公共安全主管   |创建一组适用于组织中公共安全人员的策略和策略设置。|
 
 > [!NOTE]
 > 我们将在将来的 Teams 版本中添加更多策略包，因此请返回查看最新信息。  
 
-每个策略都有策略包的名称，因此可以轻松识别链接到策略包的策略。
+每个单独的策略都获得策略包的名称，因此可以轻松识别链接到策略包的策略。
 例如，将教育 (教师) 策略包分配给学校教师时，会为包中的每个策略创建名为 Education_Teacher 的策略。
 
 ![教育教师教师 (策略) 的屏幕截图](media/policy-packages-education_teacher.png)
