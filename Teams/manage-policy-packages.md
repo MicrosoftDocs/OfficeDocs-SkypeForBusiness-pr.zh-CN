@@ -19,7 +19,7 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何在管理用户组的策略时，使用和管理 Microsoft Teams 中的策略包来简化、简化和帮助提供一致性。
+description: 了解如何使用和管理 Microsoft Teams 中的策略包，以简化、简化和帮助在管理用户组的策略时提供一致性。
 ms.openlocfilehash: 9718751ea1d34692718b63cbe90ee6e694577c21
 ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "49862582"
 > [!NOTE]
 > 本文讨论的功能之一（ [自定义策略包](#custom-policy-packages)）目前以个人预览版提供。
 
-Microsoft Teams 中的策略包是预定义的策略和策略设置的集合，可将其分配给组织中具有类似角色的用户。 我们构建了策略包，以简化、简化和帮助在管理整个组织中用户组的策略时提供一致性。  
+Microsoft Teams 中的策略包是预定义的策略和策略设置的集合，可将其分配给组织中具有类似角色的用户。 我们构建了策略包，用于简化、简化和帮助在管理整个组织中用户组的策略时提供一致性。  
 
 可以使用 Teams[中包含的策略包](#policy-packages-included-in-teams)，也可以创建自己的[](#custom-policy-packages)自定义策略包 (预览版) 。
 
@@ -66,10 +66,10 @@ Teams 当前包括以下策略包。
 |使用 (远程学习工具的)     |创建一组适用于主要学生的策略，在远程学习中最大化学生的安全和协作。      |
 |前端管理器 |创建一组策略，将这些设置应用到组织的 Fronttline 管理器。 |
 |前端辅助角色 |创建一组策略，将这些设置应用到组织的 Fronttline 工作人员。 |
-|医疗保健医生  |创建一组策略和策略设置，使注册医生、医生、医生和社交工作者等医疗工作者能够完全访问聊天、呼叫、轮班管理和会议。 |
+|医疗保健医生  |创建一组策略和策略设置，为注册的医生、医生、医生和社交工作者等医疗工作者提供聊天、呼叫、轮班管理和会议的完全访问权限。 |
 |医疗保健信息工作者  |创建一组策略和策略设置，为信息工作者（如 IT 人员、信息工作者、财务人员和合规官）提供聊天、呼叫和会议的完全访问权限。|
 |医疗保健患者室  |创建一组适用于医疗保健组织中患者室的策略和策略设置。|
-|小型企业用户和商业 (语音)  |创建一个应用设置策略，其中包含用于业务语音体验的应用。|
+|小型企业用户和商业 (语音)  |创建一个应用设置策略，其中包括用于业务语音体验的应用。|
 |没有 Business Voice (的中小型企业)  |为具有非业务语音体验的小型企业 Teams 用户创建 (设置) 。
 |公共安全主管   |创建一组适用于组织中公共安全人员的策略和策略设置。|
 
@@ -90,7 +90,7 @@ Teams 当前包括以下策略包。
 创建新的自定义策略包：
 
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，选择"**策略包**"，然后单击"添加 **"。**
-    :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心"策略包"页面上的"添加"按钮的屏幕截图":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心"策略包"页上的"添加"按钮的屏幕截图":::
 2. 输入包的名称和说明。
     :::image type="content" source="media/policy-packages-add-custom.png" alt-text="添加新的自定义策略包的屏幕截图":::
 3. 选择要包括在包中的策略类型和策略名称。
@@ -135,7 +135,7 @@ Teams 当前包括以下策略包。
 #### <a name="assign-a-policy-package-to-one-user"></a>将策略包分配给一个用户
 
 1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。
-2. 在用户的页面上，**单击"策略**"，然后在"策略包"**旁边单击"** 编辑 **"。**
+2. 在用户的页面上，单击"策略"，然后在"策略包"**旁边单击"** 编辑 **"。**
 3. 在"**分配策略包"** 窗格中，选择要分配的包，然后单击"保存 **"。**
 
 #### <a name="assign-a-policy-package-to-multiple-users"></a>将策略包分配给多个用户

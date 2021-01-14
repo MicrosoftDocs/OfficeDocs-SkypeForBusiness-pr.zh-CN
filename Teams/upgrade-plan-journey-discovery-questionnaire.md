@@ -27,7 +27,7 @@ ms.locfileid: "49808952"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>发现调查问卷 - 评估环境
 
-下面的一组表列出了在升级到 Teams 之前帮助评估 [环境的问题](upgrade-plan-journey-evaluate-environment.md)：
+下表列出了在升级到 Teams 之前帮助评估 [环境的问题](upgrade-plan-journey-evaluate-environment.md)：
 
 - [Microsoft 365 或 Office 365 组织详细信息](#microsoft-365-or-office-365-organization-details)
 - [现有协作平台摘要](#existing-collaboration-platform-summary)
@@ -82,7 +82,7 @@ ms.locfileid: "49808952"
 > | 问题 | 回答 | 备注 |
 > |---|---|---|
 > | 为 Teams 启用了哪些类型的用户？ | <input type="checkbox"> 组织中所有用户 <br/> <input type="checkbox"> 特定用户/用户组 <br>&nbsp;&nbsp; &nbsp; ("批注"列中指定)  ||
-> | 使用哪些 Teams 功能和形式？ | <input type="checkbox"> 基于频道的对话 <br/> <input type="checkbox"> 私人聊天 <br/> <input type="checkbox"> 来宾访问 <br/> <input type="checkbox"> 频道会议 <br/> <input type="checkbox"> 私人会议 <br/> <input type="checkbox"> 私人通话 <br/> <input type="checkbox"> 临时频道会议 <br/> <input type="checkbox"> 会议中的视频 <br/> <input type="checkbox"> 会议中屏幕共享 <br/> <input type="checkbox"> 音频会议 <br/><input type="checkbox"> 应用程序 (应用) <br> &nbsp;&nbsp; &nbsp;<input type="checkbox">选项卡<br>&nbsp;&nbsp; &nbsp;<input type="checkbox">机器人 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">连接器<br><input type="checkbox"> 自定义云存储集成 <br>&nbsp;&nbsp; &nbsp;Dropbox、Box、ShareFile、Google Drive、Egnyte <br/> <input type="checkbox"> 频道电子邮件集成 <br/> <input type="checkbox"> 其他 ("批注"列中指定。)  | |
+> | 哪些 Teams 功能和形式在使用中？ | <input type="checkbox"> 基于频道的对话 <br/> <input type="checkbox"> 私人聊天 <br/> <input type="checkbox"> 来宾访问 <br/> <input type="checkbox"> 频道会议 <br/> <input type="checkbox"> 私人会议 <br/> <input type="checkbox"> 私人通话 <br/> <input type="checkbox"> 临时频道会议 <br/> <input type="checkbox"> 会议中的视频 <br/> <input type="checkbox"> 会议中屏幕共享 <br/> <input type="checkbox"> 音频会议 <br/><input type="checkbox"> 应用程序 (应用) <br> &nbsp;&nbsp; &nbsp;<input type="checkbox">选项卡<br>&nbsp;&nbsp; &nbsp;<input type="checkbox">机器人 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">连接器<br><input type="checkbox"> 自定义云存储集成 <br>&nbsp;&nbsp; &nbsp;Dropbox、Box、ShareFile、Google Drive、Egnyte <br/> <input type="checkbox"> 频道电子邮件集成 <br/> <input type="checkbox"> 其他 ("批注"列中指定。)  | |
 > | 你向 Teams 部署了哪些应用程序？ | | |
 > | 你是否专门阻止过任何 Teams 功能？ <br/>如果是，请记下"批注"列中的详细信息。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 ||
 > | 目前使用哪些 Teams 客户端？ | <input type="checkbox"> Web <br/> <input type="checkbox"> Windows <br/> <input type="checkbox"> Mac <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Windows Mobile | |
@@ -114,7 +114,7 @@ ms.locfileid: "49808952"
 > | 你已部署 Edge Server 的哪个/哪些版本？ | <input type="checkbox"> Office Communications Server 2007 "R1" <br/> <input type="checkbox"> Office Communications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox"> Skype for Business Server 2015 <br/> <input type="checkbox"> Skype for Business Server 2019 | |
 > | 是否部署了 Lync 或 Skype for Business Edge <br>进入多个数据中心？ <br/>如果是，请记下"批注"列中的详细信息。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 选择 Edge 角色目前提供的服务。 | <input type="checkbox"> 企业用户 (外部)  <br/> <input type="checkbox"> 通过匿名外部 (远程访问 <br>&nbsp;&nbsp; &nbsp; 会议参与者)  <br/> <input type="checkbox"> 联合身份验证 <br/> <input type="checkbox"> 媒体中继 | |
-> | 你具有以下语音呼叫功能中的哪一项 <br>当前是否依赖于？ <br/>请注意注释中任何其他依赖项 <br>列。 | <input type="checkbox"> 繁忙选项 <br/> <input type="checkbox"> 呼叫公园 <br/> <input type="checkbox"> 呼叫取件或群组呼叫取件 <br/> <input type="checkbox"> 公用区域电话或"热桌面" <br/> <input type="checkbox"> 响应组或寻线组 <br/> <input type="checkbox"> 共享线外观 <br/> <input type="checkbox"> 专用线 <br/> <input type="checkbox"> 语音邮件 <br/> <input type="checkbox"> 通过工作呼叫 <br/> <input type="checkbox"> 紧急或信息号码 <br>&nbsp;&nbsp; &nbsp; (911、811、411)  <br/> <input type="checkbox"> 分机拨号 <br/> <input type="checkbox"> 自动助理 <br/> <input type="checkbox"> 订阅者访问权限 <br/> <input type="checkbox"> 模拟设备 <br/> <input type="checkbox"> 传真 <br/> <input type="checkbox"> 来电显示屏蔽或更改 <br/> <input type="checkbox"> 基于位置的路由 <br/> <input type="checkbox"> 成本最低路由 <br/> <input type="checkbox"> 电梯电话 | |
+> | 你具有以下语音呼叫功能中的哪一项 <br>当前是否依赖于？ <br/>请注意注释中任何其他依赖项 <br>列。 | <input type="checkbox"> 繁忙选项 <br/> <input type="checkbox"> 呼叫公园 <br/> <input type="checkbox"> 呼叫取件或群组呼叫取件 <br/> <input type="checkbox"> 公用区域电话或"热桌面" <br/> <input type="checkbox"> 响应组或寻线组 <br/> <input type="checkbox"> 共享线外观 <br/> <input type="checkbox"> 专用线 <br/> <input type="checkbox"> 语音邮件 <br/> <input type="checkbox"> 通过工作呼叫 <br/> <input type="checkbox"> 紧急或信息号码 <br>&nbsp;&nbsp; &nbsp; (911、811、411)  <br/> <input type="checkbox"> 分机拨号 <br/> <input type="checkbox"> 自动助理 <br/> <input type="checkbox"> 订户访问权限 <br/> <input type="checkbox"> 模拟设备 <br/> <input type="checkbox"> 传真 <br/> <input type="checkbox"> 来电显示屏蔽或更改 <br/> <input type="checkbox"> 基于位置的路由 <br/> <input type="checkbox"> 成本最低路由 <br/> <input type="checkbox"> 电梯电话 | |
 
 ## <a name="networking-and-access-to-microsoft-365-or-office-365-services"></a>网络和访问 Microsoft 365 或 Office 365 服务
 

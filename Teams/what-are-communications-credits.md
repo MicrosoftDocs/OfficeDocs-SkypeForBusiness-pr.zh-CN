@@ -69,10 +69,10 @@ ms.locfileid: "49848844"
 > [!NOTE]
 > 可以通过登录 [Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)管理中心并进入计费订阅添加订阅来查看计划和  >    >  **定价**。 
   
-在 **Microsoft 365** 管理中心计费购买服务附加内容中，可以选择通信信用额度来添加信用额度，并且你随时都可以手动  >    >    >  添加信用额度。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 如果您选择通过一次金额为通信信用额度余额提供资金，然后余额下降到零，则上述其他呼叫方案将不再有效，包括免费电话号码。 因此，建议你使用自动充值设置，以免在通信信用额度余额达到 0 或零 (中断) 。 通过向产品通信信用额度计费，可以查看当前的通信  >    >  **信用额度余额**。
+在 **Microsoft 365** 管理中心计费购买服务附加内容中，可以选择通信信用额度来添加信用额度，并且你随时都可以  >    >    >  手动添加信用额度。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 如果选择通过一次金额为通信信用额度余额提供资金，然后余额下降到零，则上述其他呼叫方案将不再有效，包括免费电话号码。 因此，建议你使用自动充值设置，以免在通信信用额度余额达到 0 或零 (时发生) 。 若要查看当前通信信用额度余额，可以按"对 **产品** 通信信用额度进行计费  >    >  **"。**
 
 > [!NOTE]
->将通过电子邮件发送给具有 Lync服务管理员、公司管理员、帐单管理员、公司管理员的所有用户。 用户帐户管理员、支持管理员、服务支持管理员、帐单管理员、Lync 服务管理员、设备管理员、应用程序管理员、许可证管理员、云设备管理员、身份验证管理员、特权身份验证管理员、Teams 通信管理员、Teams 通信支持工程师、Teams 通信支持专家、Teams 服务管理员管理员角色，当充值交易成功时、充值事务失败 (例如过期的信用卡) ，或者通信信用额度余额达到 0 () 。
+>您将向具有 Lync 服务管理员、公司管理员、帐单管理员、公司管理员的所有用户发送电子邮件 用户帐户管理员、支持管理员、服务支持管理员、计费管理员、Lync 服务管理员、设备管理员、应用程序管理员、许可证管理员、云设备管理员、身份验证管理员、特权身份验证管理员、Teams 通信管理员、Teams 通信支持工程师、Teams 通信支持专家、Teams 服务管理员管理员角色，当充值交易成功时、充值事务失败 (例如过期的信用卡) ，或者通信信用额度余额达到 0 (零) 。
   
 ## <a name="communications-credits"></a>通信点数
 
