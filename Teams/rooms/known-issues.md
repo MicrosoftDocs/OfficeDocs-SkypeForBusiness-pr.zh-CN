@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以了解 Microsoft Teams 会议室的已知问题列表，包括更新、用户界面、硬件、限制和预期行为。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c32e35f0ea95d81fcb597c18a12a8f48fe4c7b2
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: afa1bf4a2a4fdd36bd45d8b237998ec461dcc1f4
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662627"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865236"
 ---
 # <a name="known-issues"></a>已知问题 
  
@@ -31,10 +31,11 @@ ms.locfileid: "49662627"
 
 | 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
-| 应用程序未启动 |  更新到应用程序版本 4.4.41.0 后，系统会启动到黑屏，或者几分钟后转到登录屏幕。 | 按照 Microsoft Teams 会议室应用程序中的步骤在更新到 [版本 4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) 后无法启动以修复此问题。  | 无 |
+| 应用程序未启动 |  更新到应用程序版本 4.4.41.0 后，系统会启动到黑屏，或者几分钟后转到登录屏幕。 | 请按照 [更新到版本 4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) 后 Microsoft Teams 会议室应用程序中无法启动的步骤来修复此问题。  | 无 |
 |  SfB 会议内容共享未全屏显示         |    在 Skype for Business 会议中，使用高 DPI 设置显示房间的会议室可能会遇到共享到会议的内容在会议室显示前不显示全屏的问题。 这是由 Windows 10 远程桌面协议和 RDP (API) 问题造成的。 | 使用 `<WinRTRdpEnabled>` XML 设置禁用 Windows 10 RDP API 来解决此问题。 若要禁用，需要将值指定为 `false` 。 有关详细信息，请参阅["使用 XML 配置文件管理控制台设置"。](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file) | 无 |
 |  应用已过期         |    Microsoft Teams 会议室控制台显示“系统配置已过期”错误。                |   [使用 Microsoft Teams 会议室恢复工具](recovery-tool.md)             |  无 |
-|  设备已更新到不受支持的 Windows 10 版本   |    Windows 10 设备从版本 1803 更新到版本 1809，不受支持。 支持的版本为 1903。 |   如果 [DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) 设置的组策略或 MDM 设置（允许您将功能更新延迟指定天数）设置为最多 365 天，则可能会发生这种情况。 <br><br> Microsoft Teams 会议室不支持 Windows 10 版本 1809，而版本 1903 受支持。 但是，截至 2020 年 3 月 27 日，版本 1809 已超过 365 天。 如果未更改此设置，Windows 会尝试安装版本 1809，这可能会导致 Microsoft Teams 会议室问题。<br><br>若要避免这种情况， **请删除** 任何组策略或 MDM 设置以推迟更新。 这允许 Windows 更新到受支持的最新 OS 版本。 <br><br>**重要** 必须删除组策略或 MDM **设置 (未** 配置) **不设置为 0。** 如果策略设置为 0，Windows 会采用可能不支持的最新可用版本。 |  无 |
+|  设备已更新到不受支持的 Windows 10 版本   |    Windows 10 设备从版本 1803 更新到版本 1809，不受支持。 支持的版本为 1903。 |   如果 [DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) 设置的组策略或 MDM 设置（允许您将功能更新延迟指定天数）设置为最多 365 天，则可能会发生这种情况。 <br><br> Microsoft Teams 会议室不支持 Windows 10 版本 1809，而版本 1903 受支持。 但是，截至 2020 年 3 月 27 日，版本 1809 已超过 365 天。 如果未更改此设置，Windows 会尝试安装版本 1809，这可能会导致 Microsoft Teams 会议室问题。<br><br>若要避免这种情况， **请删除** 任何组策略或 MDM 设置以推迟更新。 这允许 Windows 更新到受支持的最新 OS 版本。 <br><br>**重要** 必须删除组策略或 MDM **设置 (未** 配置) 不设置为 **0。** 如果策略设置为 0，Windows 会采用可能不支持的最新可用版本。 |  无 |
+|  Cisco Room 设备无法加入 Teams 会议   |    从 Cisco Room 设备使用直接来宾加入 Teams 会议失败，在用户选择"加入"后，呼叫 **结束**。 |  使 Cisco Room 设备能够加入 Teams 会议的 Teams Web 客户端更改导致了这种回归。 我们将发布此问题的修补程序，该修补程序将于 2020 年 1 月 15 日部署到所有租户。 Cisco 和 Microsoft 正在努力避免将来出现类似问题。   |  无 |
 
 
 <a name="OS-conflicts"> </a>  
@@ -60,7 +61,7 @@ Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采�
 
 _*_
 
-如果希望会议室前显示器自动切换到活动视频源 (例如当源从备用模式唤醒时) 的一个功能区，则必须满足某些条件。 此功能是可选的，但 Microsoft Teams 会议室软件支持此功能，但基础硬件支持此功能。 用作房间显示前端的消费者电视需要支持 HDMI 的 CEC (控制) 功能。  根据选择的扩展坞或主机 (可能不支持 CEC，请参阅制造商支持文档) ，可能需要一个控制器（例如，来自 Crestron 的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 Extron 的 [Extron HD CTL 100）](https://www.extron.com/article/hdctl100ad) 才能启用所需行为。 
+如果希望会议室前显示器自动切换到活动视频源 (例如当源从备用模式唤醒时) 的一个功能区，则必须满足某些条件。 此功能是可选的，但 Microsoft Teams 会议室软件支持此功能，但基础硬件支持此功能。 用作房间显示前端的消费者电视需要支持 HDMI 的 CEC (CEC) 功能。  根据选择的扩展坞或主机 (可能不支持 CEC，请参阅制造商支持文档) ，可能需要一个控制器（例如，来自 Crestron 的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 Extron 的 [Extron HD CTL 100）](https://www.extron.com/article/hdctl100ad) 才能启用所需行为。 
 
 _*_
 
