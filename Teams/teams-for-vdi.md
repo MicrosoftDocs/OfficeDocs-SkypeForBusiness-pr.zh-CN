@@ -1,7 +1,7 @@
 ---
 title: 适用于虚拟化桌面基础结构的 Teams
-author: cichur
-ms.author: v-cichur
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687726febc81a727c4f6da4824487672c602809e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 52c3a4fd1f8ce3871874468590662f223520dc07
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820982"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868347"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -56,7 +56,7 @@ ms.locfileid: "49820982"
 
 ### <a name="virtualization-provider-requirements"></a>虚拟化提供商要求
 
-Teams 桌面应用已使用领先的虚拟化解决方案提供商进行验证。 对于多个市场提供商，我们建议你咨询虚拟化解决方案提供商，以确保满足最低要求。
+Teams 桌面应用已使用领先的虚拟化解决方案提供商进行验证。 对于多个市场提供商，建议咨询虚拟化解决方案提供商，以确保满足最低要求。
   
 目前，VDI 上具有音频/ (AV) 优化的 Teams 已通过 Windows 虚拟桌面、Citrix 和 VMware 的认证。 查看本部分中的信息，确保满足正确功能的所有要求。
 
@@ -94,9 +94,9 @@ VMware Horizon 是一个新式平台，用于跨混合云安全交付虚拟桌�
 
 可以使用每台计算机安装或者使用 MSI 包按用户安装来部署适用于 VDI 的 Teams 桌面应用。 确定使用哪种方法取决于是使用持久性设置还是非持久性设置，以及组织的关联功能需求。
 
-对于专用的持久性设置，任一方法都正常工作。 但是，对于非永久性设置，Teams 需要每台计算机安装才能高效工作。 请参阅 ["非永久性设置"](#non-persistent-setup) 部分。
+对于专用的持久性设置，任一方法都正常工作。 但是，对于非永久性设置，Teams 要求每台计算机安装一次，以便高效工作。 请参阅 ["非永久性设置"](#non-persistent-setup) 部分。
 
-使用每台计算机安装时，将禁用自动更新。 这意味着要更新 Teams 应用，必须卸载当前版本以更新到较新版本。 通过按用户安装，将启用自动更新。 对于大多数 VDI 部署，建议使用每台计算机安装来部署 Teams。
+使用每台计算机安装时，将禁用自动更新。 这意味着，若要更新 Teams 应用，必须卸载当前版本以更新到较新版本。 通过按用户安装，将启用自动更新。 对于大多数 VDI 部署，建议使用每台计算机安装来部署 Teams。
 
 若要更新到最新的 Teams 版本，请从卸载过程开始，然后是最新的 Teams 版本部署。
 
@@ -104,7 +104,7 @@ VMware Horizon 是一个新式平台，用于跨混合云安全交付虚拟桌�
 
 #### <a name="dedicated-persistent-setup"></a>专用永久性设置
 
-在专用的永久性设置中，用户注销后会保留用户的本地操作系统更改。 对于永久性安装，Teams 支持每用户和每台计算机安装。
+在专用的永久性设置中，用户注销后会保留用户的本地操作系统更改。 对于永久性安装，Teams 支持按用户和按计算机安装。
 
 下面是建议的最低 VM 配置。
 
@@ -114,16 +114,18 @@ VMware Horizon 是一个新式平台，用于跨混合云安全交付虚拟桌�
 |RAM     |   4 GB      | 每个用户 512 到 1024 MB        |
 |存储空间    | 8 GB        | 40 到 60 GB        |
 
-#### <a name="non-persistent-setup"></a>非永久性设置
+#### <a name="non-persistent-setup"></a>非持久设置
 
 在非永久性设置中，用户注销后不会保留用户的本地操作系统更改。 此类设置通常共享多用户会话。 VM 配置因用户数和可用物理机资源而异。
 
 对于非永久性设置，必须将 Teams 桌面应用安装在每台计算机的黄金映像中。  (，请参阅"在 [VDI](#install-or-update-the-teams-desktop-app-on-vdi) 上安装或更新 Teams 桌面应用"部分。) 这将确保在用户会话期间高效启动 Teams 应用。
 
-将 Teams 与非永久性设置一同使用还需要配置文件缓存管理器，以高效同步 Teams 运行时数据。这可确保在用户会话期间缓存 (特定用户的信息，例如，) 配置文件和设置。 确保同步这两个文件夹中的数据。  
-
+在非持久性设置中使用 Teams 还需要配置文件缓存管理器，以高效同步 Teams 运行时数据。 高效的数据同步可确保在用户的会话 (缓存用户的数据、配置文件) 设置等用户特定信息。 确保同步这两个文件夹中的数据：<br>
 - C：\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache) 
 - C：\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams) 
+
+> [!NOTE]
+> 漫游文件夹 (，或者，如果使用文件夹重定向，则缓存管理器) 是必需的，以确保 Teams 应用具有运行应用程序所需的运行时数据和文件。 这是缓解网络延迟问题或网络故障所必需的，否则会导致应用程序错误，并且由于数据和文件不可用，体验速度较慢。
 
 有各种可用的缓存管理器解决方案。 例如[，FSLogix。](https://docs.microsoft.com/fslogix/overview) 有关特定配置说明，请咨询缓存管理器提供程序。
 
@@ -135,7 +137,7 @@ VMware Horizon 是一个新式平台，用于跨混合云安全交付虚拟桌�
 - Media-stack 文件夹
 - meeting-addin\Cache (%appdata%\Microsoft\Teams\meeting-addin\Cache) 
 
-### <a name="microsoft-365-apps-for-enterprise-considerations"></a>适用于企业的 Microsoft 365 应用
+### <a name="microsoft-365-apps-for-enterprise-considerations"></a>适用于企业的 Microsoft 365 应用注意事项
 
 使用适用于企业的 Microsoft 365 应用在 VDI 上部署 Teams 时，请考虑以下事项。
 
@@ -169,7 +171,7 @@ Teams 也会添加到适用于企业的 Microsoft 365 应用的现有安装中�
 
     所需的 Teams 桌面应用最低版本是版本 1.3.00.4461。  (.) 不支持 PSTN 保留
 
-2. 通过运行以下命令之一，将 MSI 安装到 VDI VM：
+2. 运行以下命令之一，将 MSI 安装到 VDI VM：
 
     - 按用户安装 (默认) 
   
@@ -185,7 +187,7 @@ Teams 也会添加到适用于企业的 Microsoft 365 应用的现有安装中�
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        此过程将 Teams 安装到 64 (操作系统 (x86) 文件夹，将 Teams 安装到 32 位操作系统上的 Program Files 文件夹。 此时，黄金映像设置已完成。 非永久性设置需要每台计算机安装 Teams。
+        此过程将 Teams 安装到 64 (操作系统 (x86) 文件夹，将 Teams 安装到 32 位操作系统上的"程序文件"文件夹。 此时，黄金映像设置已完成。 非永久性设置需要每台计算机安装 Teams。
 
         下一个交互式登录会话将启动 Teams 并请求凭据。
 
@@ -195,7 +197,7 @@ Teams 也会添加到适用于企业的 Microsoft 365 应用的现有安装中�
 
 3. 从 VDI VM 卸载 MSI。 有两种方法可以卸载 Teams。
 
-    - PowerShell 脚本：可以使用此 [PowerShell 脚本](scripts/powershell-script-deployment-cleanup.md) 卸载 Teams 并删除用户的 Teams 文件夹。 为计算机上安装 Teams 的每个用户配置文件运行脚本。
+    - PowerShell 脚本：可以使用此 [PowerShell 脚本](scripts/powershell-script-deployment-cleanup.md) 卸载 Teams 并删除用户的 Teams 文件夹。 针对计算机上安装了 Teams 的每个用户配置文件运行脚本。
     - 命令行：运行以下命令。
   
       ```console
@@ -204,9 +206,9 @@ Teams 也会添加到适用于企业的 Microsoft 365 应用的现有安装中�
 
       此过程从 x86 (程序) 或 Program Files 文件夹中卸载 Teams，具体取决于操作系统环境。
 
-## <a name="teams-on-vdi-performance-considerations"></a>有关 VDI 性能的 Teams 注意事项
+## <a name="teams-on-vdi-performance-considerations"></a>Teams on VDI 性能注意事项
 
-有各种虚拟化设置配置，每个配置都有不同的优化焦点。 例如，配置可能侧重于用户密度。 规划时，请考虑以下事项，以便根据组织的工作负荷需求优化设置。
+有各种虚拟化设置配置，每个配置都有不同的优化焦点。 例如，配置可能侧重于用户密度。 规划时，请考虑以下事项，以帮助根据组织的工作负荷需求优化设置。
 
 - 最低要求：某些工作负荷可能需要使用高于最低要求的资源进行设置。 例如，对于使用需要更多计算资源的应用程序的开发人员的工作负荷。
 - 依赖项：其中包括对基础结构、工作负荷的依赖关系，以及 Teams 桌面应用外部的其他环境注意事项。
@@ -231,7 +233,7 @@ Teams 也会添加到适用于企业的 Microsoft 365 应用的现有安装中�
 
 ### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>从 VDI 上的 Skype for Business 迁移到 VDI 上的 Teams
 
-如果要从 VDI 上的 Skype for Business 迁移到 VDI 上的 Teams，则除了两个应用程序之间的差异外，实施 VDI 时也有一些差异。 Skype for Business VDI 中的 Teams VDI 目前不支持的一些功能如下所示：
+如果要从 VDI 上的 Skype for Business 迁移到 VDI 上的 Teams，则除了两个应用程序之间的差异外，实施 VDI 时也有一些差异。 以下是 Skype for Business VDI 中的 Teams VDI 当前不支持的一些功能：
 
 - 每个平台的策略，用于禁用 VDI 中的某些 AV 功能
 - 在应用共享时授予并控制
@@ -280,7 +282,7 @@ Chrome 浏览器上的 Teams 不提供用于 VDI 的 Teams 桌面应用与 AV �
 
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到要分配的策略。 例如：
     - 转到 **语音**  >  **呼叫策略，** 然后单击 **"DisallowCalling"。**
-    - 转到"**会议**  >  **会议策略"，** 然后单击 **"AllOff"。**
+    - 转到 **"会议**  >  **会议"策略**，然后单击 **"AllOff"。**
 2. 选择“管理用户”。
 3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。 对想要添加的每一个用户重复此步骤。
 4. 添加完用户后，单击"保存 **"。**
@@ -305,13 +307,13 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>通过聊天和协作迁移 VDI 上的 Teams，以优化 Teams 的通话和会议
 
-如果在 VDI 上已有 Teams 的聊天和协作实现，其中你已设置用户级策略以关闭呼叫和会议功能，并且你将迁移到具有 AV 优化的 Teams，则必须设置策略，为 VDI 用户启用这些 Teams 的呼叫和会议功能。
+如果你通过聊天和协作在 VDI 上实现 Teams，并且已设置用户级策略以关闭呼叫和会议功能，并且你将迁移到具有 AV 优化的 Teams，则必须设置策略，为 VDI 用户启用这些 Teams 的呼叫和会议功能。
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>设置策略以启用呼叫和会议功能
 
 可以使用 Microsoft Teams 管理中心或 PowerShell 设置呼叫和会议策略并将其分配给用户。 传播策略更改 (可能需要) 几个小时。 如果未立即看到给定帐户的更改，请在几小时后重试。
 
-[**调用策略**](teams-calling-policy.md)：在 Teams 中调用策略控制哪些调用功能可供用户使用。 Teams 包括内置的 AllowCalling 调用策略，其中所有调用功能都打开。 若要启用所有调用功能，请分配 AllowCalling 策略。 或者，创建自定义呼叫策略以打开你需要的呼叫功能并将其分配给用户。 
+[**调用策略**](teams-calling-policy.md)：在 Teams 中调用策略控制哪些调用功能可供用户使用。 Teams 包括内置的 AllowCalling 调用策略，其中所有通话功能都开启。 若要启用所有调用功能，请分配 AllowCalling 策略。 或者，创建自定义呼叫策略以打开你需要的呼叫功能并将其分配给用户。 
 
 [**会议策略**](meeting-policies-in-teams.md)：Teams 中的会议策略控制用户可以创建的会议类型和可供组织中用户安排的会议参与者使用的功能。 Teams 包括内置的 AllOn 会议策略，其中所有会议功能都开启。 若要启用所有会议功能，请分配 AllOn 策略。 或者，创建自定义会议策略以打开您需要的会议功能，并为其分配用户。
 
@@ -374,8 +376,8 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 ### <a name="client-deployment-installation-and-setup"></a>客户端部署、安装和设置
 
-- 通过每台计算机安装，VDI 上的 Teams 不会以非 VDI Teams 客户端的方式自动更新。 必须按"在 [VDI](#install-or-update-the-teams-desktop-app-on-vdi) 上安装或更新 Teams 桌面应用"部分中所述安装新的 MSI 来更新 VM 映像。 必须卸载当前版本以更新到较新版本。
-- 应该按用户或每台计算机部署团队。 不支持为每个用户和每台计算机同时部署 Teams。 若要从每台计算机或每个用户迁移到这些模式之一，请遵循卸载过程并重新部署到任一模式。
+- 通过每台计算机安装，VDI 上的 Teams 不会以非 VDI Teams 客户端的方式自动更新。 必须安装新的 MSI 来更新 VM 映像，如"在 [VDI](#install-or-update-the-teams-desktop-app-on-vdi) 上安装或更新 Teams 桌面应用"部分中所述。 必须卸载当前版本，以更新到较新版本。
+- 应该按用户或每台计算机部署团队。 不支持为每个用户和每台计算机同时部署 Teams。 若要从每台计算机或每个用户迁移到其中一种模式，请遵循卸载过程并重新部署到任一模式。
 - Windows 虚拟桌面和 VMware 目前不支持基于 MacOS 和 Linux 的客户端。
 - Citrix 目前不支持 MacOs 客户端。
 - Citrix 不支持使用在终结点上定义的显式 HTTP 代理。
@@ -402,7 +404,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - Skype for Business 的互操作性仅限于音频通话;没有视频形式。
 - 会议或群组通话仅支持单个传入视频流。 当多人发送视频时，在任意给定时间仅显示主发言人的视频。
 - 传入和传出视频流分辨率限制为 720p 分辨率。 这是 WebRTC 限制。
-- 仅支持来自传入相机或屏幕共享流的一个视频流。 当存在传入的屏幕共享时，将显示该屏幕共享，而不是主扬声器的视频。
+- 仅支持来自传入相机或屏幕共享流的一个视频流。 当存在传入的屏幕共享时，将显示该屏幕共享，而不是主发言人的视频。
 - Teams 不会切换为使用用户选择的最后一个音频设备（如果设备已断开连接，然后重新连接）。
 - 传出屏幕共享：
     - 不支持应用程序共享。

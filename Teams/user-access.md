@@ -19,20 +19,20 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fdfddfe43fd977099a02df61bb74146afcb05d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7d49b27de8fe6c6d13ef6ac626764b13e1fe36a0
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804402"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871011"
 ---
 # <a name="manage-user-access-to-teams"></a>管理用户对 Teams 的访问管理
 
 通过分配或删除 Microsoft Teams 产品许可证，在用户级别管理对 Teams 的访问权限。 除了匿名加入 Teams 会议外，组织中的每个用户必须具有 Teams 许可证才能使用 Teams。 可以在新建用户帐户时为新用户分配 Teams 许可证，也可以为具有现有帐户的用户分配 Teams 许可证。
 
-默认情况下，将许可计划 (例如 Microsoft 365 企业版 E3 或 Microsoft 365 商业高级版) 分配给用户时，将自动分配 Teams 许可证，并且为 Teams 启用该用户。 你随时可以通过删除或分配许可证来为用户禁用或启用 Teams。
+默认情况下，当向用户分配许可计划 (例如 Microsoft 365 企业版 E3 或 Microsoft 365 商业高级版) 时，将自动分配 Teams 许可证，并且为该用户启用 Teams。 你随时可以通过删除或分配许可证来为用户禁用或启用 Teams。
 
-使用从 Teams 管理中心管理的消息策略来控制 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Teams</a>中的用户可以使用哪些聊天和频道消息传送功能。 可以使用默认策略，或为组织成员创建一个或多个自定义消息传送策略。 若要了解有关详细信息，请阅读["在 Teams 中管理消息传送策略"。](messaging-policies-in-teams.md)
+使用从 Teams 管理中心管理的消息传送策略来控制 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Teams</a>中的用户可以使用哪些聊天和频道消息传送功能。 可以使用默认策略，或为组织成员创建一个或多个自定义消息传送策略。 若要了解有关详细信息，请阅读["在 Teams 中管理消息传送策略"。](messaging-policies-in-teams.md)
 在 Microsoft 365 管理中心中或通过使用 PowerShell 管理 Teams 许可证。 只有全局管理员或用户管理管理员才能管理许可证。
 
 > [!NOTE]
@@ -94,7 +94,7 @@ Teams 用户级许可证直接通过 Microsoft 365 管理中心用户管理界�
 Get-MsolAccountSku
 ```
 
-运行以下命令，组织名称和在上一步中检索到的许可计划的 \<CompanyName:License> 标识符位于何处。 例如，ContosoSchool：ENTERPRISEPACK_STUDENT。
+运行以下命令，其中组织名称和在上一步中检索到的许可 \<CompanyName:License> 计划的标识符。 例如，ContosoSchool：ENTERPRISEPACK_STUDENT。
 
 ```powershell
 $acctSKU="<CompanyName:License>
@@ -106,10 +106,6 @@ $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```powershell
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
-
-## <a name="manage-teams-at-the-organization-level"></a>在组织级别管理团队
-
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 ## <a name="related-topics"></a>相关主题
 

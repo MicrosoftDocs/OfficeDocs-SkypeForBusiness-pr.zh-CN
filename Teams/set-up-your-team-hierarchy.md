@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06244553c051677533d275ad6cd47052775d01f7
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 0c5a0fcdce1218bc32eac8b28e7a8c1f41e87cb0
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865246"
+ms.locfileid: "49868337"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>设置团队目标层次结构
 
-设置团队目标层次结构将允许组织将内容发布到一大组团队。 团队目标层次结构定义层次结构中所有团队如何彼此关联、哪些用户可以发布任务，以及哪些团队用户有权发布任务。 除非为组织设置了面向团队的层次结构，否则将禁用所有用户的发布功能。 要设置面向层次结构的团队，你需要创建一个定义层次结构的文件，然后将它上传到 Teams 以将其应用到组织。 上传架构后，Teams 中的应用可以使用它。 可以在此处练习设置层次结构并将其上传到 Teams [租户](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#Create-a-sample-hierarchy)。
+设置面向层次结构的团队将允许组织将内容发布到一大组团队。 团队目标层次结构定义层次结构中所有团队如何彼此关联、哪些用户可以发布任务，以及哪些团队用户有权发布任务。 除非为组织设置了面向团队的层次结构，否则将禁用所有用户的发布功能。 若要设置团队目标层次结构，需要创建一个定义层次结构的文件，并将其上传到 Teams 以将其应用于组织。 上传架构后，Teams 中的应用可以使用它。
 
 > [!IMPORTANT]
 > 对于初始版本，只有"任务"应用支持分层团队。  将团队目标层次结构应用于组织将在 ["任务"应用中](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 启用任务发布。 在 Microsoft Teams 的另外一些方面，你不会看到团队的层次结构。
@@ -49,7 +49,7 @@ ms.locfileid: "49865246"
 
 ### <a name="permissions-to-publish"></a>发布权限
 
-发布权限取决于用户是否是层次结构中任何团队的成员，以及该团队或一组团队与层次结构中其他团队的关系。
+发布权限取决于用户是层次结构中任何团队的成员，以及该团队或一组团队与层次结构中其他团队的关系。
 
 > [!NOTE]
 > 团队的所有者还被授予发布权限。
@@ -67,7 +67,7 @@ ms.locfileid: "49865246"
 
 ### <a name="example-hierarchy"></a>示例层次结构
 
-例如，在下面的层次结构中，召回率、通信和 HR 可以将任务发布到层次结构中的每个底部节点 (团队) ，但东北部区域只能将任务发布到纽约应用商店和波士顿商店团队。 示例层次结构允许召回、通信和 HR 组发布适用于整个公司的任务，例如福利信息或 CEO 的消息。 东北部区域只能向纽约应用商店和波士顿商店团队发布人员日程安排、天气信息等任务。
+例如，在下面的层次结构中，召回率、通信和 HR 可以将任务发布到层次结构中的每个底部节点 (团队) ，但东北部区域只能将任务发布到纽约应用商店和波士顿商店团队。 示例层次结构允许召回、通信和 HR 组发布适用于整个公司的任务，例如福利信息或 CEO 的邮件。 东北部区域只能向纽约应用商店和波士顿商店团队发布人员日程安排、天气信息等任务。
 
 ![团队分层示例](media/team-targeting-schema-example-new.png)
 
@@ -76,13 +76,13 @@ ms.locfileid: "49865246"
 > [!NOTE]
 > 本文的其余部分讨论如何在将任务发布到收件人团队的上下文中设置团队层次结构。 有关 ["任务"应用的](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) 概述，请参阅"在 Teams 中管理组织的任务"应用，其中任务发布在启用时显示。
 
-定义层次结构的架构基于 CSV 文件中逗号 () 值。 CSV 文件的每一行对应于团队层次结构中的一个节点。 每一行都包含在层次结构中为节点命名的信息，可以选择性地将节点链接到团队，以及可用于筛选支持它的应用中的团队的属性。
+定义层次结构的架构基于 CSV 文件上的逗号 () 值。 CSV 文件的每一行对应于团队层次结构中的一个节点。 每一行都包含在层次结构中为节点命名的信息，可以选择性地将节点链接到团队，以及可用于筛选支持它的应用中的团队的属性。
 
 还可以定义存储桶，即发布团队可用于组织发送给收件人团队的内容的类别，以便他们更轻松地查看、排序和关注相关内容。
 
 ### <a name="add-required-columns"></a>添加所需的列
 
-CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点必须链接到团队，它必须能够接收任务。
+CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点必须链接到团队，它接收任务。
 
 | 列名称   | 是否必需 | 描述   |
 ----------------|----------|---------------|
@@ -100,7 +100,7 @@ CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点
 |添加属性的方法|描述 |示例  |
 |---|---------|---------|
 |如果属性的值互斥，则指定的列名称将成为属性的名称。|每行可以包含该属性的一个值，每个属性列最多包含 50 个唯一值。 每个值最多包含 100 个字符。 使用团队目标层次结构选择收件人团队时，在属性列中指定的属性值集将显示为该属性的筛选器值。|您希望用户能够按布局筛选存储。 此属性的值互斥，因为商店只能有一个布局。 <br><br>若要添加属性以按布局筛选应用商店，请添加名为"应用商店布局"的列。 此示例中，应用商店布局属性的值为"压缩"、"标准"和"大"。
-|如果需要指示属性的多个值，并且值不是互斥的，请对列名称使用 **AttributeName：UniqueValue** 格式。 <br><br>**重要** 请确保使用仅英语冒号 (：) ，因为不支持将 unicode 用作属性列分隔符。 |冒号为 (：) 之前的文本字符串将成为属性的名称。 在冒号 (：) 之前包含同一文本字符串的所有列将组合到筛选菜单中的一个分区中。 冒号后的每个字符串将成为该节的值。<br><br>对于该属性，每一行的值 (0) 或 1。 值为 0 表示该属性不适用于节点，值为 1 表示该属性适用于该节点。|希望用户能够按部门筛选存储。 一个存储可以有多个部门，因此此属性的值不是互斥的。<br><br>本示例将 Departments：Clothing、Departments：Electronics、Departments：Foods、Departments：Home and Garden、Departments：Electronics 商品添加为属性列。 部门成为属性名称，用户可以按服装、电子、食品、住宅和住宅以及运动用品部门进行筛选。|
+|如果需要指示属性的多个值，并且值不是互斥的，请对列名称使用 **AttributeName：UniqueValue** 格式。 <br><br>**重要** 请确保使用仅英语冒号 (：) ，因为不支持将 unicode 用作属性列分隔符。 |冒号为 (：) 之前的文本字符串将成为属性的名称。 在冒号 (：) 之前包含相同文本字符串的所有列将组合到筛选菜单中的一个分区中。 冒号后的每个字符串将成为该节的值。<br><br>对于该属性，每一行的值 (0) 或 1。 值为 0 表示该属性不适用于节点，值 1 表示该属性适用于该节点。|希望用户能够按部门筛选存储。 一个存储可以有多个部门，因此此属性的值不是互斥的。<br><br>本示例将 Departments：Clothing、Departments：Electronics、Departments：Foods、Departments：Home and Garden、Departments：Electronics 商品添加为属性列。 部门成为属性名称，用户可以按服装、电子、食品、住宅和住宅以及运动用品部门进行筛选。|
 
 添加属性列时，请记住以下事项：
 
@@ -110,9 +110,9 @@ CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点
 
 ### <a name="add-bucket-columns"></a>添加存储桶列
 
-可以添加存储桶列以创建存储桶，这些存储桶是可组织任务的分组。 每个存储桶在 CSV 文件中都有其自己的列。 创建的存储桶可供发布团队使用。 然后，发布团队可以使用这些存储桶对收件人团队的任务进行分类。 如果团队中不存在存储桶，则发布任务时，会按需创建存储桶。
+可以添加存储桶列以创建存储桶，这些存储桶是可组织任务的分组。 每个存储桶在 CSV 文件中获取自己的列。 创建的存储桶可供发布团队使用。 然后，发布团队可以使用这些存储桶对收件人团队的任务进行分类。 如果团队中不存在存储桶，则发布任务时，会按需创建存储桶。
 
-通过集中对工作项进行分类一次，发布团队可以针对接收任务列表的所有数十、数百或数千个收件人团队预先组织任务列表。 然后，收件人团队可以按存储桶对任务进行排序和筛选，以专注于与工作最相关的区域。
+通过集中对工作项进行分类一次，发布团队可以预先组织接收任务列表的所有数十、数百或数千个收件人团队的任务列表。 然后，收件人团队可以按存储桶对任务进行排序和筛选，以专注于与工作最相关的区域。
 
 添加存储桶列时，请注意以下事项：
 
@@ -129,7 +129,7 @@ CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点
 * 名为 、、和的 `Store layout` `Departments:Clothing` 三个属性列 `Departments:Foods`
 * 三个名为 `Fresh Foods` "， "的存储桶 `Frozen Foods` 列， `Women's Wear`
 
-该属性 `Store layout` 的值包括 `Compact` ， `Standard` 和 `Large` 。 属性 `Departments` 列可以设置为零或 `0` (值 `1`) 值。 上面的 `Store` `Departments` 图像中未显示布局和属性。 它们已添加到此处，以帮助显示如何将属性添加到节点条目。 这三个存储桶列也是如此。
+该属性 `Store layout` 的值包括 `Compact` ， `Standard` 和 `Large` 。 属性 `Departments` 列可设置为零或 (`0` 值 `1`) 值。 上面的 `Store` `Departments` 图像中未显示布局和属性。 它们已添加到此处，以帮助显示如何将属性添加到节点条目。 这三个存储桶列也是如此。
 
 ```CSV
 "TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear"
@@ -214,7 +214,7 @@ $tm6 = New-Team -DisplayName "Store 3"
 $tm7 = New-Team -DisplayName "Store 4"
 ```
 
-#### <a name="use-team-data-to-create-comma-separated-output-displayname-parentname-teamid"></a>使用团队数据在 DisplayName、ParentName、TeamId (创建逗号分隔) 
+#### <a name="use-team-data-to-create-comma-separated-output-displayname-parentname-teamid"></a>使用团队数据创建以逗号分隔的输出 (DisplayName、ParentName、TeamId) 
 
 ```powershell
 $csvOutput = "DisplayName" + "," + "ParentName" + "," + "TeamId" + "`n"
@@ -264,11 +264,11 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-检查以确保在架构 CSV 文件中为团队使用正确的 TeamId。 TeamId 应该与支持团队的 Microsoft 365 组的组 ID 相同。 可以在 Microsoft Teams 管理中心中查找团队的组 ID。
+检查以确保在架构 CSV 文件中为团队使用正确的 TeamId。 TeamId 应该与支持团队的 Microsoft 365 组的组 ID 相同。 可以在 Microsoft Teams 管理中心查找团队的组 ID。
 
-1. 在 [Microsoft Teams](https://admin.teams.microsoft.com/)管理中心的左侧导航栏中，转到 **"Teams**  >  **管理团队"。**
+1. 在 [Microsoft Teams](https://admin.teams.microsoft.com/)管理中心的左侧导航栏中，转到 **Teams**  >  **管理团队**。
 2. 如果表中未显示"组 **ID"** 列，请选择表右上角的"编辑列"，然后打开"组 **ID"。**
-3. 在列表中查找团队，然后找到组 ID。
+3. 在列表中找到团队，然后找到组 ID。
 
 确保架构 CSV 文件中 TeamId 与 Microsoft Teams 管理中心中显示的组 ID 匹配。
 
