@@ -256,6 +256,8 @@
               href: rooms/rooms-prep.md
             - name: 要求
               href: rooms/requirements.md
+            - name: 安全性
+              href: rooms/security.md
             - name: 联机许可
               href: rooms/rooms-licensing.md
             - name: 使用者 Azure Monitor 进行管理规划
@@ -354,6 +356,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: 在 Teams 中管理白板
       href: manage-whiteboard.md
+    - name: 为 Google Workspace 设置 Teams 会议加载项
+      href: google-workspace-addon-teams.md
     - name: 音频会议
       items:
         - name: 规划部署
