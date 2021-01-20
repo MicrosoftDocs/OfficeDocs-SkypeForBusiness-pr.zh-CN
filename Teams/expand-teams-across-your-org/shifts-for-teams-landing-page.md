@@ -21,29 +21,29 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 71238c4ec0ae2e413732bd289bbb868bedd573b7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f699b60bddba6bcf5ffa884760540e5c20378f81
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815732"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909216"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的排班
 
-Teams 为组织中一线员工提供有效沟通和协作以及完成最佳工作所需的工具。 在这里，你将找到在 Teams 中设置和管理日程安排管理工具 Shifts 所需的管理员指导。
+Teams 为组织中的一线员工提供了有效沟通和协作所需的工具。 本文演示如何设置和管理。 在 Teams 中排班和使用计划管理工具。
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>为组织设置和管理班次
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[管理组织中班次](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![设计](../media/Help-small.svg)  | **[一线员工班次帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[管理组织中班次](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![设计](../media/Help-small.svg)  | **[一线员工排班帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Shifts 扩展
 
 |               |               |
 | ------------- | ------------- |
-| ![api](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** 使用 Shifts 图形 API 可以将 Shifts 数据与外部员工管理系统集成，从而灵活地在后端构建自定义 Shifts 体验，同时为用户提供 Teams 中丰富的前端体验。             |
-| ![api](../media/api-small.svg) | **[员工管理集成](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果使用第三方员工管理系统（例如 Kronos 和 JDA）进行日程安排、时间和出席，可以通过 Shifts Graph API 和 SDK 与开源集成直接集成 Shifts。 |
+| ![api](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** 使用 Shifts 图形 API 可以将 Shifts 数据与外部员工管理系统集成。 你可以灵活地在后端生成自定义 Shifts 体验，同时为用户提供 Teams 中的丰富前端体验。             |
+| ![api](../media/api-small.svg) | **[员工管理集成](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果使用第三方员工管理系统（例如 Kronos 和 JDA）进行日程安排、时间和出席，则可以通过 Shifts Graph API 和 SDK 与开源集成直接集成 Shifts。 |
 | ![api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate 允许你从 Shifts 获取信息，与其他应用一起创建自定义工作流以及大规模操作。 使用很少的代码或无需代码自动执行关键过程。 触发器和模板支持多种方案，例如，在不需要经理批准时为轮班请求启用自动审批。 |
 
 ## <a name="featured-training"></a>特色培训

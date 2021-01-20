@@ -18,16 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4326408b7e27aa19af8e6c404d7275d26ba90969
-ms.sourcegitcommit: d73d732591944b899a9366f79b4ea97f4a7f2260
+ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49675170"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909516"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 审批应用可用性
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 审批应用作为个人应用可供所有 Microsoft Teams 用户使用。
 "审批"应用提供了一种简单方法，在 Teams 中为结构化和非结构化审批提供审核、合规性、责任和工作流。
@@ -109,7 +107,7 @@ COMMON Data Model (CDM) 是 CDS 中的业务和分析应用程序使用的共享
 
 审批应用记录 Microsoft 365 安全与合规中心内的审核事件。 可以查看审核日志。
 
-1. 转到 M365 合规性站点。
+1. 转到 Microsoft 365 合规性网站。
 
 2. 选择" **审核"** 部分。
 
@@ -139,7 +137,7 @@ COMMON Data Model (CDM) 是 CDS 中的业务和分析应用程序使用的共享
 
 可以在 Microsoft 365 安全与合规中心 [进一步自定义审核](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)。
 
-1. 若要使用预配置的报表，请登录到 Office 365 安全性和符合性。
+1. 若要使用预配置的报表，请登录到 Microsoft 365 安全与合规。
 
 2. 选择 **"搜索&调查**。
 
@@ -149,7 +147,7 @@ COMMON Data Model (CDM) 是 CDS 中的业务和分析应用程序使用的共享
 
 ## <a name="security"></a>安全性
 
-在 Teams 审批应用中，用户可以创建新的审批并查看已发送和收到的审批。 除非用户是请求的回复者或查看者，否则他们无法访问其他人创建的审批。
+从 Teams 审批应用中，用户可以创建新的审批并查看已发送和收到的审批。 除非用户是请求的回复者或查看者，否则他们无法访问其他人创建的审批。
 
 > [!Note]
 > 如果用户是创建审批的聊天或频道的一部分，则他们将被赋予请求的查看者角色。 如果在创建审批时未赋予他们该角色，他们无法对请求采取措施。

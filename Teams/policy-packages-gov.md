@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何为政府组织使用和管理 Teams 策略包。
-ms.openlocfilehash: 19e2c692f2b5109e3ef0915ced9fd2b68c56e482
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812882"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909076"
 ---
 # <a name="teams-policy-packages-for-government"></a>适用于政府的 Teams 策略包
 
@@ -46,12 +46,12 @@ Teams 当前包括以下适用于政府的策略包。
 |Microsoft Teams 管理中心中的程序包名称|最适合用于|说明 |
 |---------|---------|---------|
 |公共安全主管  |政府组织的公共安全人员  |创建一组适用于组织中公共安全人员的策略和策略设置。 |
-|一线管理器  |政府组织的一线经理 |创建一组策略，将这些设置应用到组织中第一线经理。|
-|一线员工  |政府组织的一线员工 |创建一组策略，将这些设置应用于组织中一线员工。|
+|前端管理器  |政府组织的一线经理 |创建一组策略，将这些设置应用到组织的一线经理。|
+|一线辅助角色  |政府组织的一线员工 |创建一组策略，将这些设置应用到组织的一线员工。|
 
 ![医疗保健策略包的屏幕截图](media/policy-packages-gov.png)
 
-每个策略都有策略包的名称，因此可以轻松识别链接到策略包的策略。 例如，将公共安全主管策略包分配给组织中用户时，PublicSafety_Officer包中每个策略创建名为 PublicSafety_Officer 的策略。
+每个策略都有策略包的名称，因此可以轻松识别链接到策略包的策略。 例如，将公共安全主管策略包分配给组织中用户时，会PublicSafety_Officer包中每个策略创建名为 PublicSafety_Officer 的策略。
 
 ![医疗保健患者包中策略的屏幕截图](media/policy-packages-public-safety-officer.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 政府-GCC 高部署
+title: Microsoft 365 政府版 - GCC 高部署
 author: SerdarSoysal
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: daro
-description: 面向 IT 专业人士的指南，用于驱动在处理受美国政府法规制约的数据的实体中的 Office 365 部署。
+description: 指导 IT 专业人员在处理受美国政府法规限制的数据的实体中驱动 Office 365 部署。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,76 +19,79 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 890d0c1a7419109e4fe29a1742e84b25ea5e222c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ced9f5cc68ce18bc7e1670db4031ff85b7c76ff2
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581223"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909266"
 ---
-# <a name="plan-for-office-365-government---gcc-high-deployments"></a>规划 Office 365 政府-GCC 高部署
+# <a name="plan-for-office-365-government---gcc-high-deployments"></a>规划 Office 365 政府版 - GCC 高部署
 
-本指南适用于正在推动美国联邦政府实体或其他实体中的 Office 365 部署的 IT 专业人士在美国联邦政府实体或其他实体中使用 Office 365 政府– GCC 高的产品来满足这些要求。
+本指南适用于在美国政府实体或其他实体中驱动部署 Office 365 的 IT 专业人员，这些实体处理受政府法规和要求限制的数据，在这种情况下，适合使用 Office 365 政府版 - GCC High 来满足这些要求。
 
 > [!NOTE]
-> 如果您的组织已满足 Office 365 政府– GCC 的高资格要求，并且已被接受并已接受，则可以跳过步骤1和2，然后直接转到步骤3。
+> 如果您的组织已满足 Office 365 政府版 - GCC 高资格要求，并且已申请并接受该计划，您可以跳过步骤 1 和 2，直接转到步骤 3。
 
-## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-high-and-meets-eligibility-requirements"></a>第 1 步 确定你的组织是否需要 Office 365 政府-GCC 高并满足资格要求。 
+## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-high-and-meets-eligibility-requirements"></a>第 1 步 确定组织是否需要 Office 365 政府版 - GCC 高且符合资格要求。 
 
-Office 365 政府-GCC 高环境为云服务的美国政府要求提供合规性。 除了享受 Office 365 的功能和功能之外，组织还受益于 Office 365 政府特有的以下功能：
+Office 365 政府版 - GCC 高环境符合美国政府对云服务的要求。 除了享受 Office 365 的功能外，组织还受益于 Office 365 政府版独有的以下功能 – GCC High：
 
-- 你的组织的客户内容在 Microsoft 的商业版 Office 365 服务中与客户内容逻辑隔离。
-- 您的组织的客户内容存储在美国。
-- 对您的组织的客户内容的访问权限受到限制，无法对 Microsoft 人员进行筛选。
-- Office 365 政府-GCC 高遵从认证和 accreditations 美国公共事业部门客户所需的认证和。
+- 组织的客户内容在逻辑上与商业 Office 365 服务中的客户内容与 Microsoft 隔离。
+- 组织的客户内容存储在美国。
+- 对组织的客户内容的访问仅限于已屏蔽的 Microsoft 人员。
+- Office 365 政府版 - GCC High 符合美国公共服务客户所需的认证和认证。
 
-您可以在[office 365 政府计划](https://products.office.com/government/compare-office-365-government-plans)（包括[资格要求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)）中找到有关 office 365 政府版（适用于美国政府客户的 GCC）的详细信息。
+可以在 Office 365 政府版计划中找到有关 [Office 365](https://products.office.com/government/compare-office-365-government-plans)政府版 - 适用于美国政府客户的 GCC High 产品/服务（包括 [资格要求）详细信息](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)。
 
-[Office 365 美国政府服务说明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)介绍了平台的优势，这些优势在美国的满足合规性要求的中心。
+[Office 365 美国政府](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)版服务说明介绍了平台的好处，其中心内容是满足美国内部的合规性要求。
 
 
 > [!Tip]
-> 你可能想要将服务说明中的信息表传输到 Excel 工作簿中，并添加两列：**与我的组织进行相关**并**满足组织 y/n 的需要**。 然后，您可以与同事一起查看此列表，以确认此服务是否满足组织的需求。
+> 您可能希望将服务说明中的信息表转移到 Excel 工作簿并添加两列：与组织 **Y/N** 相关，并且满足组织 **Y/N 的需求**。 然后，可以与同事一起查看此列表，确认此服务满足组织的需求。
 
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定 Office 365 政府版-GCC 高级版是否适合您的组织。</li><li>确认您的组织满足资格要求。</li></ul> |
+| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定 Office 365 政府版 - GCC High 是否适合你的组织。</li><li>确认组织满足资格要求。</li></ul> |
 
 > [!Note]
-> Office 365 政府版-GCC 高仅适用于美国。 非美国政府客户可以从多个[Office 365 政府计划](https://products.office.com/en/government/compare-office-365-government-plans)中进行选择。
+> Office 365 政府版 - GCC High 仅在美国可用。 非美国政府版客户可以从多个 [Office 365 政府版计划中选择](https://products.office.com/en/government/compare-office-365-government-plans)。
 
-## <a name="step-2-apply-for-office-365-government---gcc-high"></a>第 2 步 适用于 Office 365 政府-GCC 高
+## <a name="step-2-apply-for-office-365-government---gcc-high"></a>第 2 步 申请 Office 365 政府版 - GCC High
 
-如果确定此服务适合你的组织，请启动[应用此服务](https://products.office.com/government/eligibility-validation)的过程。
+确定此服务适合你的组织后，请开始 [申请此服务的过程](https://products.office.com/government/eligibility-validation)。
 
 
-## <a name="step-3-understand-office-365-government---gcc-high-default-security-settings"></a>第 3 步 了解 Office 365 政府版-GCC 高默认安全设置。
+## <a name="step-3-understand-office-365-government---gcc-high-default-security-settings"></a>第 3 步 了解 Office 365 政府版 - GCC 高默认安全设置。
 
-我们建议你在修改你的管理员和安全设置之前认真检查你的[管理员和安全设置](enable-features-office-365.md)，并考虑对默认安全设置进行任何更改之前对合规性产生的影响。
+建议在修改管理员和安全设置之前，先仔细[](enable-features-office-365.md)查看这些设置，并考虑对合规性的影响，然后再对默认安全设置进行更改。
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定是否需要修改任何默认的 Office 365 政府版高安全性设置，解析以首先了解你可能所做的任何更改的影响。</li></ul> |
+| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定是否需要修改任何默认的 Office 365 政府版 - GCC 高安全设置，首先了解可能进行的任何更改的影响。</li></ul> |
 
 
-## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>第 4 步 了解 Office 365 政府版当前提供哪些团队功能-GCC 高
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>第 4 步 了解 Office 365 政府版中当前提供哪些 Teams 功能 - GCC High
 
-为了满足政府云客户的要求，Office 365 政府中的团队与企业计划中的 Office 政府高和团队之间存在一些差异。 请参考下表，查看哪些功能可用。
+为了适应政府云客户的要求，Office 365 政府版中的 Teams - GCC High 和企业版计划中的 Teams 之间存在一些差异。 请参阅下表，了解哪些功能可用。
 
-[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+[Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
-## <a name="step-5-plan-for-governance"></a>第 5 步 规划管理
+## <a name="step-5-plan-for-governance"></a>第 5 步 规划治理
 
-确定您的监管要求以及如何满足这些要求。 有关详细信息，请转到[团队中的管理计划](plan-teams-governance.md)。
+确定治理要求以及如何满足这些要求。 有关详细信息 [，请转到 Teams 中的"规划](plan-teams-governance.md) 治理"。
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|决策点 |<ul><li>按照[规划团队中的管理](plan-teams-governance.md)指南，确定和记录您的管理要求。 </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|决策点 |<ul><li>按照 Teams 中治理规划中的准则，确定 [并记录治理要求](plan-teams-governance.md)。 </li></ul>|
 
-## <a name="step-6-deploy-teams-for-collaboration"></a>第 6 步 部署协作团队
+## <a name="step-6-deploy-teams-for-collaboration"></a>第 6 步 部署 Teams 进行协作
 
-在 onboarded 到 Office 365 政府-GCC 高版后，请按照[如何部署 Microsoft 团队](How-to-roll-out-teams.md)中介绍的推荐部署途径进行操作。 请确保与你的采纳和更改管理团队和团队拥护人员联系。
+加入 Office 365 政府版 - GCC High 后，请遵循"如何推出 [Microsoft Teams"中概述的建议部署路径](How-to-roll-out-teams.md)。 请务必与采用和更改管理团队以及 Teams 的得主互动。
 
-您还可以与[FastTrack](https://www.microsoft.com/fasttrack)或您的选定合作伙伴进行服务。
+还可以与 [FastTrack 或](https://www.microsoft.com/fasttrack) 所选的合作伙伴合作来载入服务。
+
+> [!NOTE]
+> 尚不支持用于 GCCH 环境的 Mac Teams 客户端。
 

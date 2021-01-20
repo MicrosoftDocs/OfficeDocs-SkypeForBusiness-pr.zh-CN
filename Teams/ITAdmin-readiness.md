@@ -19,12 +19,12 @@ ms.custom:
 description: 为管理员介绍如何规划、部署和运行 Microsoft Teams 的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b3aac3aa5678608a4020b603026401d8cf8e6b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 33519f6873d2c2479f01dc6a408f279e47e35718
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809382"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49908926"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 管理员培训入门
 
@@ -64,10 +64,10 @@ ms.locfileid: "49809382"
 | 模块 2：Microsoft Teams 网络 (34：10)  | [视频](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
 | 模块 3：在 18：45 分钟 (选择正确的设备)  | [视频](https://www.youtube.com/watch?v=jUac7mT7xP4) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
 | 模块 4：在 56：36 (部署 Microsoft Teams 会议室)  | [视频](https://www.youtube.com/watch?v=IJZPczMAsEM) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| 模块 5：配置和启动 Microsoft Teams 会议室 (32：27)  | [视频](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| 模块 5：配置和启动 Microsoft Teams 会议室 (32：27 分钟)  | [视频](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
 | 模块 6：管理 Microsoft Teams 会议室，第 1 (18：31 分钟)  | [视频](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
 | 模块 7：管理 Microsoft Teams 会议室，第 2 部分 (41：06 分钟)  | [视频](https://www.youtube.com/watch?v=vDCYM5sKylc) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| 模块 8：Microsoft Teams 会议室 - 提示、技巧和 (18：14 分钟) |[视频](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| 模块 8：Microsoft Teams 会议室 - 提示、技巧和疑难解答 (18：14 分钟) |[视频](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | 一键式加入说明 |  | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
 <h2>交互式指南</h2>
@@ -84,7 +84,7 @@ ms.locfileid: "49809382"
 | 在 Microsoft Teams 中配置治理                                     | 了解如何为组织创建 Teams 消息传送保留策略，以及如何存档、删除和还原单个 Teams                                                                                   |  [在 Microsoft Teams 中配置治理指南](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | 配置和部署 Microsoft Teams 会议                          | 逐步完成为 Microsoft Teams 部署会议工作负荷的过程。                                                                                                                                       |  [配置和部署 Microsoft Teams 会议指南](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | 为 Microsoft Teams 配置音频会议                            | 了解 Teams 中的音频会议功能，并了解如何分配会议网桥和拨入电话号码。                                                                                          |  [配置 Microsoft Teams 音频会议指南](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| 为一线员工配置 Microsoft Teams                           | 了解如何为 Firstline Workforce 配置和部署适当的 Microsoft Teams 环境。                                                                                                                  | [为一线员工配置 Microsoft Teams 指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 为一线员工配置 Microsoft Teams                           | 了解如何为 Frontline Workforce 配置和部署适当的 Microsoft Teams 环境。                                                                                                                  | [为一线员工配置 Microsoft Teams 指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>快速入门指南</h2>
 

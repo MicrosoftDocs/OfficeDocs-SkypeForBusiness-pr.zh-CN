@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 447aa83af836eefb854f3917738020badee2f33c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
+ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806212"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49903563"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -51,6 +51,26 @@ ms.locfileid: "49806212"
 
 > [!CAUTION]
 > 如果不希望匿名用户加入组织中由用户安排的会议，请关闭此设置。
+
+## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>允许匿名用户与会议中的应用交互
+
+匿名用户现在将继承用户级全局默认权限策略。 然后，只要用户级权限策略启用了应用，此控件就会允许匿名用户与 Teams 会议中的应用交互。 请注意，匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。 
+
+> [!IMPORTANT]
+> 默认情况下，启用允许匿名用户与会议中的应用交互的设置。
+
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+
+只有 Teams 服务管理员才能访问此设置。 请参阅 ["使用 Teams 管理员角色管理 Teams"，](https://docs.microsoft.com/microsoftteams/using-admin-roles) 了解获取管理员角色和权限。
+
+1. 转到管理中心。
+
+2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
+
+3. 在 **"** 参与者"下，可以更改匿名用户可以 **与会议中** 的应用程序进行交互的设置。
+
+> [!CAUTION]
+> 如果不希望匿名用户与组织中用户安排的会议中的应用进行交互，请关闭此设置。
 
 ## <a name="customize-meeting-invitations"></a>自定义会议邀请
 
@@ -100,7 +120,7 @@ ms.locfileid: "49806212"
 
     - 要允许对 QoS 使用 DSCP 标记，请打开 **插入实时媒体流量的服务质量 (QoS) 标记**。 你只能选择是否使用标记；不能为每种流量类型设置自定义标记。 有关 DSCP 标记的更多信息，请参阅[选择 QoS 实施方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
         > [!NOTE]
-        > DSCP 标记通常通过源端口完成，UDP 流量将路由到目标端口为 3478 的传输中继。 如果您的公司要求在目标端口上标记，请联系支持人员以启用与 UDP 端口 3479 (Audio) 、3480 (Video) 和 3481 (Sharing) 的通信。
+        > DSCP 标记通常通过源端口完成，UDP 流量将路由到目标端口为 3478 的传输中继。 如果您的公司要求在目标端口上标记，请联系支持人员以启用与 UDP 端口 3479 (Audio) 、3480 (Video) 和 3481 (共享) 的通信。
     - 要指定端口范围，请在“**选择每种媒体实时流量的端口范围**”旁选择“**指定端口范围**”，然后输入音频、视频和屏幕共享的起始和结束端口。 要实施 QoS，必须选择此选项。 
         > [!Note]
         > 如果 **服务质量 (QoS) 实时媒体** 流量的标记已打开，则你必须管理端口设置。 它们不会自动管理。

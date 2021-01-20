@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 7d5a2c70eae9227b550e1e435634a6a8773be39c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 32b2accc906b0f4f0dc85b5edf1d9501b64dda14
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821112"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909526"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -52,7 +52,7 @@ ms.locfileid: "49821112"
 !["应用设置策略"页](media/app-setup-policies.png)
 
 > [!NOTE]
-> 如果你有 Teams 教育，必须知道"作业"应用默认已固定到全局策略中，即使当前未看到它列在全局策略中。 它将是 Teams 客户端上已固定应用列表中的第四个应用。
+> 如果你有 Teams 教育，必须知道"作业"应用默认已固定在全局策略中，即使当前未看到它列在全局策略中。 它将是 Teams 客户端上已固定应用列表中的第四个应用。
 
 ## <a name="create-a-custom-app-setup-policy"></a>创建自定义应用设置策略
 
@@ -68,7 +68,7 @@ ms.locfileid: "49821112"
 
 4. 打开或关闭" **上传自定义应用**"，具体取决于是否要允许用户将自定义应用上传到 Teams。 如果在组织范围内的应用设置中关闭"允许第三方应用"，[则不能更改此设置](manage-apps.md#manage-org-wide-app-settings)。
 
-5. 打开或关闭"允许用户 **固定**"，具体取决于是否要让用户通过将应用固定到应用栏来个性化其应用栏。
+5. 打开或关闭"允许用户 **固定**"，具体取决于是否要让用户通过将应用固定到应用栏来个性化应用栏。
 
    > [!NOTE]
    > Microsoft  365 政府社区云 (GCC) 环境 (GCC、GCC High 和 DoD) 中的 Teams 管理中心提供"允许用户固定"设置，但目前不起作用。
@@ -77,7 +77,7 @@ ms.locfileid: "49821112"
 
     1. 在 **"已安装的应用"** 下，选择 **"添加应用"。**
     
-    2. 在" **添加已安装的应用"** 窗格中，搜索希望用户在启动 Teams 时自动安装的应用。 还可以按应用权限策略筛选应用。 选择应用列表后，选择"添加 **"。**
+    2. 在" **添加已安装的应用"** 窗格中，搜索用户启动 Teams 时要自动安装的应用。 还可以按应用权限策略筛选应用。 选择应用列表后，选择"添加 **"。**
 
        !["添加已安装的应用"窗格](media/app-setup-policies-add-installed-apps.png)
 
@@ -85,7 +85,7 @@ ms.locfileid: "49821112"
 
     1. 在 **"固定应用"下**，选择 **"添加应用"。**
     
-    2. 在"**添加固定应用"** 窗格中，搜索要添加的应用，然后选择"添加 **"。** 还可以按应用权限策略筛选应用。 选择要固定的应用列表后，选择"添加 **"。**
+    2. 在"**添加固定的应用"** 窗格中，搜索要添加的应用，然后选择"添加 **"。** 还可以按应用权限策略筛选应用。 选择要固定的应用列表后，选择"添加 **"。**
 
        !["添加固定的应用"窗格](media/app-setup-policies-add-apps.png)
 
@@ -117,13 +117,13 @@ ms.locfileid: "49821112"
 
 - **全局 (组织范围内的默认) ：** 此默认策略适用于组织中的所有用户，除非分配了其他策略。 编辑全局策略以固定对用户最重要的应用。
 
-- **FirstLineWorker：** 此策略适用于一线员工。 你可以将其分配给你组织中一线员工。 必须知道，与创建的自定义策略一样，你必须将策略分配给用户，使设置处于活动状态。 有关详细信息，请转到本文的"向[](#assign-a-custom-app-setup-policy-to-users)用户分配自定义应用设置策略"部分。
+- **FrontlineWorker：** 此策略适用于前端工作人员。 可将其分配给组织的一线员工。 必须知道，与创建的自定义策略一样，你必须将策略分配给用户，使设置处于活动状态。 有关详细信息，请转到本文的"向[](#assign-a-custom-app-setup-policy-to-users)用户分配自定义应用设置策略"部分。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>为什么在"添加固定的应用"窗格中找不到应用
 
 并非所有应用都可以通过应用设置策略固定到 Teams。 某些应用可能不支持此功能。 若要查找可固定的应用，可在"添加固定的应用"窗格中 **搜索** 该应用。 具有个人范围的选项卡 (静态选项卡) 和机器人可以固定到 Teams 桌面客户端，这些应用在"添加固定应用"**窗格中可用。**
 
-请记住，Teams 应用商店列出所有 Teams 应用。 " **添加固定应用"** 窗格仅包含可通过策略固定到 Teams 的应用。
+请记住，Teams 应用商店会列出所有 Teams 应用。 " **添加固定应用"** 窗格仅包含可通过策略固定到 Teams 的应用。
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>我是 Teams 教育管理员。我需要知道有关 Teams 教育应用设置策略的哪些信息
 
@@ -133,7 +133,7 @@ ms.locfileid: "49821112"
 
 必须将至少两个应用固定到 iOS 和 Android (Teams 移动) 。 如果策略的应用少于两个，移动客户端不会反映策略设置，而是继续使用现有配置。
 
-可以添加到策略的已固定应用数没有限制。
+可以添加到策略的固定应用数量没有限制。
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>策略更改生效需要多久
 
@@ -152,7 +152,7 @@ ms.locfileid: "49821112"
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>我需要了解哪些 Teams 移动体验
 
-iOS (Android) Teams 移动客户端目前不支持使用静态选项卡的个人应用。 固定到 Teams 桌面客户端的应用可能不会显示在 Teams 移动客户端中，具体取决于策略中设置的应用。 个人机器人仍将显示在移动客户端上的聊天中。
+iOS 和 Android (Teams 移动客户端) 不支持使用静态选项卡的个人应用。 固定到 Teams 桌面客户端的应用可能不会显示在 Teams 移动客户端中，具体取决于策略中设置的应用。 个人机器人仍将显示在移动客户端上的聊天中。
 
 使用 Teams 移动客户端，用户将看到核心 Teams 应用，如活动、聊天和 Teams，并且你可以固定 Microsoft 的一些第一方应用，例如 Shifts。
 

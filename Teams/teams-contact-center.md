@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams 的 CCaaS (解决方案集成) 中心服务概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e48cac3e556c6bb99e29ad07f3d875362ad42489
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d34a1790a082e1defab399828cceb5c0082dc70d
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820992"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909486"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
@@ -26,15 +26,15 @@ ms.locfileid: "49820992"
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>什么是 Microsoft Teams 的联系人中心集成？
 
-如今的联系中心提供的不仅仅是支持 – 它们充当交互的主要工具之一，并且未筛选有关客户品牌体验的反馈。 由于当今客户喜欢跨多种渠道（电话、电子邮件、文本、社交）参与，并且与当前购买流程相关的触摸点数量增加，许多组织实现了另外两个改进：
+如今的联系中心提供的不仅仅是支持 – 它们充当交互的主要工具之一，并且未筛选有关客户品牌体验的反馈。 由于当今客户喜欢跨多种渠道（电话、电子邮件、文本、社交）参与，并且与当前购买流程相关的触摸点数量增加，许多组织实现了另外两项改进：
 
 1. 组织的每一个成员都有可能直接与客户互动，因此需要配备相应的工具。
 
 2. 这种扩展的客户交互范围需要有助于促进一致性、持续改进和缩放的工具。
 
-Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通话）的内部和外部客户连接的中心，支持客户交互工作流。 对于一些公司，Microsoft Teams[的云](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)语音功能（包括[](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)[自动](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)助理和呼叫队列）提供功能和配置来满足其需求。
+Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通话）进行内部和外部客户连接的中心，支持客户交互工作流。 对于一些公司，Microsoft Teams[的云](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)语音功能（包括[](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)[自动](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)助理和呼叫队列）提供功能和配置来满足其需求。
 
-对于想要将解决方案与业务工具和工作流集成以驱动客户旅程的其他人，Microsoft Teams 还集成了一些行业领先的联系中心 (CCaaS) 解决方案提供商。
+对于想要将解决方案与业务工具和工作流集成以驱动客户旅程的其他人，Microsoft Teams 还集成了一些行业领先的"联系中心" (CCaaS) 解决方案提供商。
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 认证计划的已连接联系中心
 
@@ -60,7 +60,6 @@ Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通�
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
-
 随着更多合作伙伴加入并满足认证条件，此列表将更新。
 
 ## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>联系中心解决方案在 Microsoft Teams 中如何工作？
@@ -81,7 +80,7 @@ Microsoft Teams 提供了一系列功能来支持第三方语音解决方案的�
 
   - **连接和扩展** (直接路由、图形 API 和 Teams 应用平台) 
 
-  - **扩展和 power** (Teams SDK 嵌入到 3p 应用中，实现本机 Teams) 
+  - **扩展和 power** (将 Teams SDK 嵌入到 3p 应用中，实现本机 Teams) 
 
 ### <a name="connect"></a>连接
 
@@ -107,7 +106,7 @@ Microsoft Teams 提供了一系列功能来支持第三方语音解决方案的�
 
   - 能够支持多租户 SIP 中继，以支持合作伙伴 SBC 上的多个客户。  
 
-  - 在 [<span class="underline">SBC 中实现 Microsoft 认证的会话边界控制器 (合作伙伴) </span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - 实施 Microsoft 认证的 [<span class="underline">会话边界控制器的合作伙伴 (SBC) </span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>连接和扩展
 

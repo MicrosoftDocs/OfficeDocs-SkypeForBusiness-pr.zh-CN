@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42bb303a42ce2f532e5790e642f86b78ce12a7e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1d91792eeda482ff396791325ee902ee54a59847
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825292"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909506"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
 自 2020 年 6 月 30 起，Microsoft StaffHub 已停用。 我们正在将 StaffHub 功能构建到 Microsoft Teams 中。 目前，Teams 包含用于计划管理的 Shifts 应用，其他功能将随着时间的推移而推出。
 
-这些更改是我们的持续努力的一部分，使每位员工都能够使用 Microsoft 365。 借助 Teams 中一线员工的功能，组织每位员工都将能够使用 Teams 简化工作日、与同事协作，以及访问信息和专业知识，帮助他们完成最佳工作。
+这些更改是我们的持续努力的一部分，使每位员工都能够使用 Microsoft 365。 借助 Teams 中一线员工的功能，组织中的每位员工都能使用 Teams 简化工作日、与同事协作，以及访问信息和专业知识，帮助他们完成最佳工作。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -51,7 +51,7 @@ StaffHub 于 2020 年 6 月 30 日停止为所有用户工作。 任何尝试打
 
 #### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>为什么我的组织中用户无法从 Teams 中的 Shifts 访问其 StaffHub 团队？
 
-若要从 Teams 中的 Shifts 访问 StaffHub 团队，您必须在 2020 年 6 月 30 日停用 StaffHub 之前将 StaffHub 团队移动到 Teams。
+若要从 Teams 中的 Shifts 访问 StaffHub 团队，您必须在 2020 年 6 月 30 日（即 StaffHub 停用）之前将 StaffHub 团队移动到 Teams。
 
 #### <a name="what-happens-if-i-didnt-move-a-staffhub-team-to-shifts-in-teams"></a>如果未将 StaffHub 团队移动到 Teams 中的 Shifts，会发生什么情况？
 
@@ -63,7 +63,7 @@ StaffHub 于 2020 年 6 月 30 日停止为所有用户工作。 任何尝试打
 
 #### <a name="what-is-shifts"></a>什么是 Shifts？
 
-Teams 中的 Shifts 应用是一个计划管理工具，可使一线员工保持连接和同步。经理为团队创建、更新和管理排班计划，团队成员可以查看其日程安排、查看当天安排的其他人、请求调班或调班以及请求请假，所有这些操作都来自其移动设备。  
+Teams 中的 Shifts 应用是一个计划管理工具，可使一线员工保持连接和同步。经理为团队创建、更新和管理排班计划，团队成员可以查看其日程安排、查看安排当天的其他人、请求调班或调班以及请求请假，所有这些操作都来自其移动设备。  
 
 #### <a name="which-plans-is-shifts-available-in"></a>哪些计划提供 Shifts？
 
@@ -75,7 +75,7 @@ Teams 中的 Shifts 应用是一个计划管理工具，可使一线员工保持
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Shifts 在哪些设备或平台上可用？
 
-可在 Teams Web 客户端、Teams 桌面客户端和适用于 iOS 和 Android (Teams 移动客户端) 。
+可在 Teams Web 客户端、Teams 桌面客户端和 Teams 移动客户端上使用 shifts (iOS 和 Android) 。
  
 #### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Shifts 桌面和 Web 应用与 iOS 和 Android (移动应用之间) 差异？
 
@@ -110,7 +110,7 @@ Shifts 数据存储在 Azure 中，位于北美和西欧的数据中心。 Share
 
 有关管理员指南，请参阅 ["在 Teams 中管理组织的 Shifts 应用"](manage-the-shifts-app-for-your-organization-in-teams.md)
 
-有关最终用户的帮助，请转到 [一线工作者的班次帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)。
+有关最终用户帮助，请转到["一线工作者的排班帮助"。](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>我需要 Teams 的哪些许可证？
 
@@ -144,11 +144,11 @@ Teams 支持与 Skype for Business 共存。 有关详细信息，请参阅了�
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts 和 Outlook 日历之间是否有集成？ 能否将计划导出到日历？
  
-一线员工可以在"排班"中一目了然地查看其整个工作日程安排。 作为路线图的一部分，我们将支持与 Outlook 日历的本机集成。 在此期间，使用 Microsoft Flow 在 Teams、Outlook 和 Google 日历中设置与 Shifts 的集成。
+一线员工可以在班次中一目了然地查看其整个工作日程安排。 作为路线图的一部分，我们将支持与 Outlook 日历的本机集成。 在此期间，使用 Microsoft Flow 在 Teams、Outlook 和 Google 日历中设置与 Shifts 的集成。
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>哪些管理控件可用于管理我组织的用户是否可以使用 Shifts？  
   
-你可以为组织中的所有用户在组织范围内启用或关闭 Shifts。 在 Microsoft Teams 管理中心，还可使用一线员工应用设置策略为 Firstline Workforce 自定义 Teams。 该策略配置有活动、Shifts、聊天和呼叫应用。 分配策略时，这些应用将固定到 Teams 中的应用栏，以便用户快速轻松地访问。 
+你可以为组织中的所有用户在组织范围内启用或关闭 Shifts。 在 Microsoft Teams 管理中心，还可使用"一线员工"应用设置策略为前端员工自定义 Teams。 该策略配置有活动、Shifts、聊天和呼叫应用。 分配策略时，这些应用将固定到 Teams 中的应用栏，以便用户快速轻松地访问。 
 
 若要了解有关详细信息，请参阅["在 Teams 中管理组织的 Shifts 应用"。](manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -156,7 +156,7 @@ Teams 支持与 Skype for Business 共存。 有关详细信息，请参阅了�
 
 通过 Microsoft Teams PowerShell 模块和 Skype for Business PowerShell 模块管理 Teams。 有关详细信息，请参阅 [Teams PowerShell 概述](../../teams-powershell-overview.md)。 目前，没有可用于管理 Shifts 的特定 PowerShell cmdlet。  
 
-如果对此感兴趣，请通过 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)上的 Teams 反馈门户向我们发送请求。
+如果对此感兴趣，请通过 [UserVoice 上的 Teams 反馈门户向我们发送请求](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)。
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>报告是否可用于查看我整个组织的班次使用情况？
 

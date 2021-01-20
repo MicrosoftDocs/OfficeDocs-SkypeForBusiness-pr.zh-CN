@@ -1,5 +1,5 @@
 ---
-title: 面向医疗保健组织的团队入门
+title: 医疗保健组织的 Teams 入门
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -20,123 +20,123 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 了解 Microsoft 团队 telehealth、EHR 集成、一线工作者系统集成和患者应用等健康护理功能。
+description: 了解 Microsoft Teams 远程医疗、EHR 集成、一线员工系统集成和患者应用等医疗保健功能。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: 623958e8d2b3185e2e46fe1fe50330d7d084a6cb
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878706"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909246"
 ---
-# <a name="get-started-with-teams-for-healthcare-organizations"></a>面向医疗保健组织的团队入门
+# <a name="get-started-with-teams-for-healthcare-organizations"></a>医疗保健组织的 Teams 入门
 
-Microsoft 团队提供了许多适用于医院和其他医疗保健组织的 telemedicine 功能。 团队功能正在开发中，可帮助医院帮助医院：
+Microsoft Teams 提供许多对医院和其他医疗保健组织有用的远程医疗功能。 Teams 功能正在开发中，有助于：
 
 - 虚拟访问和电子医疗保健记录 (EHR) 集成
-- 团队策略程序包
-- 安全消息
-- 团队模板
-- 护理协调和协作
+- Teams 策略包
+- 安全消息传送
+- Teams 模板
+- 关注协调与协作
 
-此功能是适用于医疗保健的 Microsoft 云的一部分。 了解有关使用此解决方案的详细信息，该解决方案通过 [适用于医疗保健的 Microsoft 云](https://docs.microsoft.com/industry/healthcare)从 Azure、Dynamics 365 和 microsoft 365 集中功能。
+此功能是 Microsoft 医疗保健云的一部分。 详细了解如何使用此解决方案，该解决方案将 Azure、Dynamics 365 和 Microsoft Cloud for Healthcare 中的 Microsoft 365 功能 [汇集在一起](https://docs.microsoft.com/industry/healthcare)。
 
-观看以下视频，了解有关在 Microsoft 团队中使用 "医疗保健" 集合增强运行状况团队协作的详细信息。
+观看以下视频，了解有关使用医疗保健集合在 Microsoft Teams 中增强健康团队协作的更多内容。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> 本部分中的内容假设您已经在组织中部署了团队。 如果尚未推出团队，请先阅读 [如何展示 Microsoft 团队](../../How-to-roll-out-teams.md)。
+> 本部分的内容假定已在组织中部署 Teams。 如果尚未推出 Teams，请首先阅读"如何推广[Microsoft Teams"。](../../How-to-roll-out-teams.md)
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虚拟访问和电子医疗保健记录 (EHR) 集成
 
-使用 Microsoft 团队中的 "完整会议" 平台安排、管理和处理患者的虚拟访问。
+使用 Microsoft Teams 中的完整会议平台安排、管理和与患者进行虚拟访问。
 
-- 如果您的组织已使用电子运行状况记录或 EHR，则可以集成 Microsoft 团队以实现更流畅的体验。 Microsoft 团队电子医疗记录 (EHR) 连接器使临床医生能够轻松地从 EHR 系统与团队中的另一个提供商发起虚拟患者访问或咨询。 若要了解详细信息，请参阅 [与团队的虚拟访问-集成到 EHR](ehr-admin.md)。
-- 如果你不使用受支持的 EHR，则可以使用 Microsoft 预定和团队中的预定应用。 若要了解详细信息，请参阅 [Microsoft 团队中的 "登记应用和虚拟访问](../../bookings-app-admin.md)"。
+- 如果组织已使用电子运行状况记录或 EHR，可以集成 Microsoft Teams，获得更无缝的体验。 借助 Microsoft Teams 电子健康记录 (EHR) Connector，医生可以轻松直接从 EHR 系统在 Teams 中启动虚拟患者访问或咨询其他提供商。 若要了解有关详细信息，请参阅"使用[Teams 进行虚拟访问 - 集成到 EHR"。](ehr-admin.md)
+- 如果不使用受支持的 EHR，可以使用 Teams 中的 Microsoft Bookings 和 Bookings 应用。 若要了解详情，请参阅 Microsoft Teams 中的 [Bookings 应用和虚拟访问](../../bookings-app-admin.md)。
 
-![与 Microsoft 团队的虚拟访问](../../media/virtual-visits-teams.png)
+![使用 Microsoft Teams 进行虚拟访问](../../media/virtual-visits-teams.png)
 
-## <a name="teams-policy-packages"></a>团队策略程序包
+## <a name="teams-policy-packages"></a>Teams 策略包
 
-应用团队策略包以定义不同角色可在团队中执行的操作。 例如，为以下内容指定策略：
+应用 Teams 策略包，以定义不同角色在 Teams 中可以执行哪些任务。 例如，指定用于：
 
-- 临床工作者（如注册的护士、费用护理人员、医生和社会工作者），以便他们可以拥有对聊天、通话、班次管理和会议的完全访问权限。
-- 您的医疗保健组织中的信息工作者（如 IT 人员、informatics 员工、财务人员和合规性监察官）可以拥有对聊天、通话和会议的完全访问权限。
-- 患者机房，用于控制患者机房设备的设置。
+- 医疗工作者（如注册的医生、医生、医生和社交工作者）可以完全访问聊天、呼叫、轮班管理和会议。
+- 医疗保健组织的信息工作者（例如 IT 人员、信息人员、财务人员和合规官）可以完全访问聊天、呼叫和会议。
+- 患者室，用于控制患者室设备的设置。
 
-若要了解详细信息，请参阅 [医疗保健的团队策略程序包](../../policy-packages-healthcare.md)。
+若要了解有关详细信息，请参阅 [用于医疗保健的 Teams 策略包](../../policy-packages-healthcare.md)。
 
-## <a name="secure-messaging"></a>安全消息
+## <a name="secure-messaging"></a>安全消息传送
 
-安全邮件支持运行状况团队中的协作，包括多个新功能：
+安全消息传送支持运行状况团队内的协作，包括多项新功能：
 
-- 邮件发件人可以为其邮件设置特殊优先级，以便收件人在阅读邮件之前反复收到通知。
-- 邮件发件人可以请求已读回执，这样当邮件收件人阅读邮件时，会收到通知。
+- 邮件发件人可以设置其邮件的特殊优先级，以便收件人在阅读邮件之前反复收到通知。
+- 邮件发件人可以请求已读回执，因此当邮件收件人阅读他们发送的邮件时，他们会收到通知。
 
-结合这些功能，可以更快地注意紧急邮件，并确保邮件已接收和阅读。 使用这些功能的新运行状况团队可以在每个患者的基础上创建。 这些功能是基于策略的，可分配给个人或整个团队。
+通过这些功能，可以更快地关注紧急邮件，并置信收到和阅读邮件。 可以基于每个患者创建使用这些功能的新健康团队。 这些功能基于策略，可分配给个人或整个 Teams。
 
-若要了解详细信息，请参阅 [面向医疗保健组织的安全邮件策略入门](messaging-policies-hc.md)。
+若要了解有关详细信息，请参阅 [医疗保健组织的安全消息传送策略入门](messaging-policies-hc.md)。
 
-同时与安全消息相关的功能是拥有受医疗保健组织联盟的其他租户，从而实现了更丰富的租户间通信。  (请参阅 [管理 Microsoft 团队) 中的 "管理外部访问 (联合身份验证") ](../../manage-external-access.md) 。
+与安全消息传送相关的另一个功能是让医疗保健组织联合的其他租户，从而允许更丰富的租户间通信。  (Microsoft Teams) 管理联合身份验证 [ (外部](../../manage-external-access.md)) 。
 
-## <a name="teams-templates-for-healthcare-organizations"></a>医疗保健组织的团队模板
+## <a name="teams-templates-for-healthcare-organizations"></a>医疗保健组织的 Teams 模板
 
-创建团队的新模板已开发为适用于医院的设置，并且预计会更多。 这使您可以更轻松地创建医疗保健工作者在各种部门或 wards 中协调病人的护理。 若要了解详细信息，请参阅 [面向医疗保健组织的团队模板入门](healthcare-templates.md)。 团队可以为内部部门（如心脏病科）或用于护理 wards 的团队开始，并且更多模板位于开发中。
+已开发用于创建 Teams 的新模板以应用于医院设置，预计很快会推出更多模板。 这样一来，可以更轻松地创建医疗保健工作者用于协调各个部门或医院中患者护理的团队。 若要了解有关详细信息，请参阅 [医疗保健组织的 Teams 模板入门](healthcare-templates.md)。 团队可以针对内部部门（如疾病学）或护理室启动，并且更多模板正在开发中。
 
-## <a name="care-coordination-and-collaboration"></a>护理协调和协作
+## <a name="care-coordination-and-collaboration"></a>关注协调与协作
 
-让您的运行状况团队协同工作，与 Microsoft 团队协调护理和协作。
+将健康团队汇集在一起，通过 Microsoft Teams 协调护理并协作。
 
-![医疗保健：与团队中的运行状况团队协作](../../media/teams-healthcare-collaborate-in-teams.png)
+![医疗保健：在 Teams 中与健康团队协作](../../media/teams-healthcare-collaborate-in-teams.png)
 
-Microsoft 团队使医生、临床医生、护士和其他员工能够以 Microsoft 团队中包含的协作功能高效地协作，例如：
+Microsoft Teams 使医生、医生、医生和其他人员能够使用 Microsoft Teams 中包含的协作功能进行高效协作，例如：
 
-- 为您的健康团队和信息工作者设置团队和频道。 将频道与选项卡配合使用，以通过可固定信息源的选项卡提供更多帮助。
-- 聊天、发布消息和交流。 你的团队可以与需要关注的不同患者进行持续对话。
-- 与运行状况团队的成员通话和会面。 设置单个会议，或使用频道会议管理每日会议，包括团队的强大功能：音频、视频、屏幕共享、录制和设备功能。
-- 存储和共享文件和文档。 您的运行状况团队是单个虚拟化团队的一部分，可在 Office 文档上工作并进行协作。
+- 为健康团队和信息工作者设置团队和频道。 将带选项卡的频道用作构建工作的方法，并借助选项卡中可固定信息源的其他帮助。
+- 聊天、发布消息和沟通。 你的团队可以就需要关注的不同患者展开持久对话。
+- 与运行状况团队成员通话和开会。 通过 Teams 音频、视频、屏幕共享、录制和听录功能设置单个会议，或使用频道会议管理每日会议。
+- 存储和共享文件和文档。 健康团队是处理和协作处理 Office 文档的单个虚拟化团队的一部分。
 
-此外，你的团队可以使用团队中的应用执行以下操作：
+此外，团队可以使用 Teams 中的应用来：
 
-- 通过 "列表" 应用共享列表和跟踪信息
-- 利用 "任务" 应用程序跟踪和监视任务
-- 通过 "审批" 应用优化审批
-- 通过 "倒班" 应用创建、管理和共享日程安排
+- 使用列表应用共享列表和跟踪信息
+- 使用"任务"应用跟踪和监视任务
+- 使用"审批"应用简化审批
+- 使用 Shifts 应用创建、管理和共享计划
 
-### <a name="share-lists-and-track-information-with-the-lists-app"></a>通过 "列表" 应用共享列表和跟踪信息
+### <a name="share-lists-and-track-information-with-the-lists-app"></a>使用列表应用共享列表和跟踪信息
 
 > [!NOTE]
-> 2020年10月30日，患者应用已停用，并已由团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 利用 "列表"，医疗保健组织中的 "护理团队" 可以创建各种方案的患者列表，包括从倒圆角和 interdisciplinary 团队会议到常规患者监控。
+> 从 2020 年 10 月 30 日起，"患者"应用已停用，并替换为 Teams 中的 [列表](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 应用。 借助列表，医疗保健组织的护理团队可以创建从轮次和内部团队会议到常规患者监视等场景的患者列表。
 
-团队中的 "列表" 应用可帮助团队跟踪信息和组织工作。 为所有团队用户预安装应用，并且该应用在每个团队和频道中均可用作选项卡。 可以从预定义的模板或将数据导入到 Excel 中从头开始创建列表。
+Teams 中的列表应用可帮助团队跟踪信息和整理工作。 该应用已针对所有 Teams 用户预安装，并可在每个团队和频道中作为选项卡提供。 可以从头开始创建列表、从预定义模板创建列表，或者将数据导入 Excel。
 
-运行状况团队可以使用患者模板开始使用。 他们可以创建列表来跟踪病人的需求和状况。 可将 Excel 电子表格中的现有患者数据引入到团队中以创建列表。 这些列表可用于诸如倒圆角和患者监视等方案来协调护理。
+健康团队可以使用"患者"模板开始。 他们可以创建列表来跟踪患者的需求和状态。 可以输入 Excel 电子表格上的现有患者数据，在 Teams 中创建列表。 这些列表可用于轮次和患者监视等方案，以协调护理。
 
-例如，收费护士在包含所有运行状况团队成员的团队中创建一个患者列表。 在倒圆角期间，运行状况团队将在其移动设备上访问团队并更新列表中的患者信息，团队中的每个人都可以查看它们以保持同步。在运行状况团队收集以讨论和评估关键运行状况性能指标的舍入会话中，为确保患者在合适的 glide 路径上，他们可以使用大型显示屏幕上的团队共享此信息。 不在网站上的运行状况团队成员可以远程加入。
+例如，收费员在包含所有健康团队成员的团队内创建患者列表。 在轮次期间，健康团队会使用其移动设备访问 Teams，并更新列表中的患者信息，团队中的每个人都可以查看这些信息来保持同步。在健康团队聚集在一起，讨论和评估关键健康性能指标以确保患者处于正确的释放路径的轮次会话中，他们可以使用 Teams 在大型显示屏幕上共享此信息。 不现场的运行状况团队成员可以远程加入。
 
 下面是为患者舍入设置的示例列表。
 
 :::image type="content" source="../../media/lists-patients-example.png" alt-text="患者舍入示例列表的屏幕截图":::
 
-若要了解详细信息，请参阅 [管理团队中组织的列表应用](../../manage-lists-app.md)。
+若要了解有关详细信息，请参阅 ["在 Teams 中为组织管理列表"应用](../../manage-lists-app.md)。
 
-### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>利用 "任务" 应用程序跟踪和监视任务
+### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>使用"任务"应用跟踪和监视任务
 
-使用团队中的 [任务](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) 跟踪整个运行状况团队的待办事项。 您的运行状况团队可随时从运行团队的任何设备创建、分配和安排任务、对任务进行分类和更新状态。
+使用 [Teams](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) 中的任务跟踪，为整个健康团队执行项目。 运行状况团队可以从运行 Teams 的任何设备随时创建、分配和计划任务、对任务进行分类以及更新状态。
 
-若要了解详细信息，请参阅 [在 Microsoft 团队中管理组织的 "任务" 应用](../../manage-tasks-app.md)
+若要了解更多信息，请参阅 ["在 Microsoft Teams 中为组织管理任务"应用](../../manage-tasks-app.md)
 
-### <a name="streamline-approvals-with-the-approvals-app"></a>通过 "审批" 应用优化审批
+### <a name="streamline-approvals-with-the-approvals-app"></a>使用"审批"应用简化审批
 
-使用 [审批](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) 简化你的团队的所有请求和流程。 直接从您的中心创建、管理和共享审批以进行协作。 从您发送聊天的同一位置启动审批流程，在频道对话中或从 "审批" 应用本身开始。 只需选择审批类型、添加详细信息、附加文件，然后选择 "审批者"。 提交后，审批者将收到通知，并可查看请求并对请求进行操作。
+使用 ["](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) 审批"简化团队的所有请求和流程。 直接从中心创建、管理和共享审批，以用于团队合作。 从发送聊天的同一位置、频道对话中或"审批"应用本身启动审批流程。 只需选择审批类型、添加详细信息、附加文件并选择审批者。 提交后，审批者会收到通知，并可以审阅并处理请求。
 
-你可以为你的组织允许 "审批" 应用，并将其添加到你的团队。 若要了解有关管理应用的详细信息，请参阅 [在 Microsoft 团队管理中心中管理你的应用](../../manage-apps.md)。
+你可以为组织允许"审批"应用，并将其添加到团队。 若要了解有关管理应用的信息，请参阅"在 Microsoft Teams 管理中心[管理应用"。](../../manage-apps.md)
 
-### <a name="create-manage-and-share-schedules-with-the-shifts-app-and-firstline-worker-integration"></a>通过倒班应用和一线工作人员集成创建、管理和共享计划
+### <a name="create-manage-and-share-schedules-with-the-shifts-app-and-frontline-worker-integration"></a>使用 Shifts 应用和一线辅助角色集成创建、管理和共享计划
 
-Microsoft 团队与倒班应用和一线工作者集成，可用于协调倒班人员人员的功能。 例如，在倒班中，护士经理可以为其员工设置和协调日程，并且护士可以检查计划和交换班次。 团队包括一个内置的一线 Worker 应用设置策略，可分配给你的组织中的一线工作人员。 默认情况下，该策略包括活动、班次、聊天和呼叫应用。 此策略控制这些应用的行为，例如，将倒班应用固定到应用栏，以便团队可以快速访问它。
+Microsoft Teams 与 Shifts 应用和一线员工集成，可用于协调班次人员配备功能等。 例如，在班次中，医生经理可以设置和协调其职员的日程安排，而医生可以检查日程安排和调班。 Teams 包括内置 Frontline Worker 应用设置策略，可将其分配给组织的一线辅助角色。 默认情况下，该策略包括活动、Shifts、聊天和呼叫应用。 此策略控制这些应用的行为，例如，将 Shifts 应用固定到应用栏，以便团队可以快速访问它。
 
-若要了解详细信息，请参阅 [在 Microsoft 团队中管理你的组织的倒班应用](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
+若要了解有关详细信息，请参阅"在 Microsoft Teams 中管理组织的[Shifts 应用"。](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
