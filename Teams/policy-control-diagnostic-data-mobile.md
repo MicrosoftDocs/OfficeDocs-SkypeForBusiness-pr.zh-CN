@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de3a4e827016622910aad0ee46318ba19c44aac0
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135995"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909146"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -73,7 +73,7 @@ ms.locfileid: "48135995"
 - **anonymousMeetingPostMeetingChat** - “呼叫结束屏幕”上用户查看聊天的数量。
 - **anonymousMeetingPostMeetingRejoin** - 匿名用户尝试重新加入会议的次数。
 - **anonymousMeetingSignIn** - 用户从名称输入屏幕导航到登录的次数。
-- **anonymousMeetingSignInWelcome** - 在匿名加入会议登录页上选择**登录和加入**。
+- **anonymousMeetingSignInWelcome** - 在匿名加入会议登录页上选择 **登录和加入**。
 - **anonymousMeetingToggleMuted** - 选择“静音”切换按钮的次数。
 - **anonymousMeetingToggleVideo** - 选择“视频”切换按钮的次数。
 - **appKilled** - 已终止应用程序。
@@ -92,7 +92,7 @@ ms.locfileid: "48135995"
   - 在重新连接 UFD 上选择“**拨入**”按钮。
   - 重新连接时选择“**拨入**”按钮的次数。
 - **autoReconnectDialInonCallDrop** - “**拨入**”按钮在已断开连接的 UFD 上被选中。
-- **autoReconnectDialOut** - 在重新连接的 UFD 上选择**给我回电** 按钮。
+- **autoReconnectDialOut** - 在重新连接的 UFD 上选择 **给我回电** 按钮。
 - **autoReconnectRejoinonCallDrop** - 在呼叫结束屏幕上选择“**重新加入**”或“**重拨**”按钮的次数。
 - **backFromCallMePSTN** - 给我回电 PSTN 号码流程未完成。
 - **backToPhotoShare** - 返回到相机。
@@ -133,8 +133,8 @@ ms.locfileid: "48135995"
 - **callControlsManualInvoke** - 通话控件是手动调用的。
 - **callHistoryItemExpand** - 已展开通话历史记录项。
 - **callHistoryTab** - 在通话中选择 **CallHistory** 选项卡。
-- **callInProgressShown** - 将显示***呼叫进行中**的横幅。
-- **callMePSTNConnected** - 已成功**呼叫我**。
+- **callInProgressShown** - 将显示**_呼叫进行中_* 的横幅。
+- **callMePSTNConnected** - 已成功 **呼叫我**。
 - **callOrMeetUpAddParticipants** - 触发时间：
   - 在 1:1 呼叫屏幕上点击“添加参与者”按钮。
   - 在“添加参与者”中选择“人员” (VoIP)。
@@ -158,7 +158,7 @@ ms.locfileid: "48135995"
   - 在“添加会议室”中选择了附近会议室结果。
   - 在“添加会议室”中选择了推荐会议室结果。
   - 在“添加会议室”中选择了“**完成**”。
-- **callOrMeetUpAudioOffSwitch** - 在同伴加入模式下的实时通话或会议中，翻转**音频关闭**按钮。
+- **callOrMeetUpAudioOffSwitch** - 在同伴加入模式下的实时通话或会议中，翻转 **音频关闭** 按钮。
 - **callOrMeetUpAutoReconnect** - 网络性能差会导致用户的设备进入“自动重新连接”模式。
 - **callOrMeetUpCallAccepted** - 触发时间：
   - 接受通话。
@@ -188,50 +188,50 @@ ms.locfileid: "48135995"
   - PSTN 中的呼叫保持。
 - **callOrMeetUpIncomingVideoSwitch** - 在实时会议或电话中关闭 IncomingVideo。
 - **callOrMeetUpInvitedParticipants** - 触发时间：
-  - 在私人实时会议期间，单击**其他已邀请人员**参与者组底部的“**查看全部**”。
-  - 在实时频道会议期间，单击**其他已邀请人员**参与者组底部的“**查看全部**”。
+  - 在私人实时会议期间，单击 **其他已邀请人员** 参与者组底部的“**查看全部**”。
+  - 在实时频道会议期间，单击 **其他已邀请人员** 参与者组底部的“**查看全部**”。
 - **callOrMeetUpJoinedParticipants** - 触发时间：
-  - 在私人实时会议期间，单击**正在开会**参与者组底部的“**查看全部**”。
-  - 在实时频道会议期间，单击**正在开会**参与者组底部的“**查看全部**”。
+  - 在私人实时会议期间，单击 **正在开会** 参与者组底部的“**查看全部**”。
+  - 在实时频道会议期间，单击 **正在开会** 参与者组底部的“**查看全部**”。
 - **callOrMeetUpLobbyParticipants** - 触发时间：
-  - 在私人实时会议期间，单击**大厅**参与者组底部的“**查看全部**”。
-  - 在实时频道会议期间，单击**大厅**参与者组底部的“**查看全部**”。
+  - 在私人实时会议期间，单击 **大厅** 参与者组底部的“**查看全部**”。
+  - 在实时频道会议期间，单击 **大厅** 参与者组底部的“**查看全部**”。
 - **callOrMeetUpMicrophoneSwitch** - 触发时间：
   - 打开麦克风。
   - 关闭麦克风。
-  - 在实时会议或通话中选择**麦克风**按钮。
+  - 在实时会议或通话中选择 **麦克风** 按钮。
   - 在 PSTN 期间的麦克风切换。
 - **callOrMeetUpMuteParticipant** - 远程参与者已静音。
 - **callOrMeetUpMuteParticipants** -在实时会议或呼叫中将所有参与者静音。
 - **callOrMeetUpParticipants** - 参与者在实时会议或通话中切换。
 - **callOrMeetUpRemoteMuteUFD** - 你已被静音 UFD。
 - **callOrMeetUpResume** 触发时间：
-  - 在实时会议或通话中选择**恢复**按钮。
+  - 在实时会议或通话中选择 **恢复** 按钮。
   - PSTN 中的通话恢复。
 - **callOrMeetUpSearchParticipants** - 触发时间：
   - 在参加私人实时会议的过程中，单击了“**搜索**”。
-  - 在私人会议期间查看**大厅**参与者组后单击**搜索**。
-  - 在私人会议期间查看**正在开会**参与者组后单击**搜索**。
-  - 在私人会议期间查看**其他已邀请人员**参与者组后单击**搜索**。
+  - 在私人会议期间查看 **大厅** 参与者组后单击 **搜索**。
+  - 在私人会议期间查看 **正在开会** 参与者组后单击 **搜索**。
+  - 在私人会议期间查看 **其他已邀请人员** 参与者组后单击 **搜索**。
   - 在参加实时频道会议的过程中，单击了“**搜索**”。
-  - 在实时频道会议期间查看**大厅**参与者组后单击**搜索**。
-  - 在实时频道会议期间查看**正在会议**参与者组后单击**搜索**。
-  - 在实时频道会议期间查看**其他已邀请人员**参与者组后单击**搜索**。
+  - 在实时频道会议期间查看 **大厅** 参与者组后单击 **搜索**。
+  - 在实时频道会议期间查看 **正在会议** 参与者组后单击 **搜索**。
+  - 在实时频道会议期间查看 **其他已邀请人员** 参与者组后单击 **搜索**。
 - **callOrMeetUpVideoSwitch** - 触发时间：
   - 打开视频。
   - 关闭视频。
   - 实时会议或呼叫过程中选中了视频按钮。
 - **callPark** - 触发时间：
-  - 在 **…** 中选中了**寄存呼叫** 菜单。
+  - 在 **…** 中选中了 **寄存呼叫** 菜单。
   - “**检索**”按钮处于选中状态。
-  - 在检索对话框中选中了**拾取**。
-  - 在检索对话框中选中了**取消**。
+  - 在检索对话框中选中了 **拾取**。
+  - 在检索对话框中选中了 **取消**。
 - **callPreferenceSetting** - 呼叫首选项应用程序设置。
 - **callsTabNewCall** - 在“**通话**”选项卡中选择“**新通话**”。
 - **callTransfer** - 呼叫转移开始。
 - **callVoicemailTab** - 在“通话”中选择了“**语音邮件**”选项卡。
 - **cameraPermissionCancel** - 在相机权限对话框中选择“**取消**”。
-- **cameraPermissionGoToSettings** - 从相机权限对话框导航到**设置**。
+- **cameraPermissionGoToSettings** - 从相机权限对话框导航到 **设置**。
 - **cancelEditMeeting** - 选择“**编辑会议**”后，在会议计划程序页上选择“**关闭**”按钮。 当用户放弃 "编辑会议" 选择时，会将此载入记录。
 - **cancelFileShare** - 在确认对话框中选择了“**取消**”。
 - **cancelFileUpload** - 在上载对话框中选择了 **x**。
@@ -258,7 +258,7 @@ ms.locfileid: "48135995"
 - **center_on_team_clicked** - 用户成功地在组上将地图居中。
 - **channelFollow** -打开频道的通知。
 - **channelUnfollow** -关闭频道的通知。
-- **channelsActiveSetting** - **当我在桌面上处于活动状态时通知我**通知设置已更改。
+- **channelsActiveSetting** - **当我在桌面上处于活动状态时通知我** 通知设置已更改。
 - **chatCreation** -成功创建聊天。
 - **changeIsActiveSetting** - 基于桌面活动更改通知。
 - **频道** - 聊天中的“新邮件”按钮或文本框。
@@ -351,7 +351,7 @@ ms.locfileid: "48135995"
 - **completionStateChange** - 在任务列表的筛选器视图中选择已完成或未完成的筛选器切换时触发。
 - **composeExpandComposer** - 已点击“**格式**”按钮。
 - **composeFilePick** - 已启动原生文件选取器。
-- **composeImagePicker** - 已点击**图像**按钮。
+- **composeImagePicker** - 已点击 **图像** 按钮。
 - **composeLocation** - 已点击撰写中的“**位置**”按钮。
 - **composeMention** - @提及。
 - **composeOpenEmoticonPicker** - 已点击笑脸选取器。
@@ -437,7 +437,7 @@ ms.locfileid: "48135995"
 - **dialInBadNetworkBanner** - 已为不良连接横幅选择了“**拨号**”。
 - **dialInBadNetworkBannerCancel** - 在本机对话中取消“**拨入**”。
 - **dialInBadNetworkBannerConfirm** - 在本机对话框中确认“**拨入**”。
-- **dialInCall** - 在“**拨入**”弹出窗口中选择**呼叫**。
+- **dialInCall** - 在“**拨入**”弹出窗口中选择 **呼叫**。
 - **dialInCancel** - 在“**拨入**”弹出窗口中选择“**取消**”。
 - **dialOutCall** - 当用户执行以下操作时触发：
   - 加入行车模式。
@@ -449,7 +449,7 @@ ms.locfileid: "48135995"
 - **dialOutFailRetry** - 从故障标志中选择“**重试**”。
 - **DialPad** - 从通话列表中选择“**拨号盘**”。
 - **disableCategory** - 禁用通知类型或禁用来电通知。
-- **disabled** - 在首次运行体验 (FRE) 中选择**跳过通知**。 这为跳过 FRE 流中的通知提供了关键的成功数据。
+- **disabled** - 在首次运行体验 (FRE) 中选择 **跳过通知**。 这为跳过 FRE 流中的通知提供了关键的成功数据。
 - **disableQuietDays** - 已禁用“免打扰日”。 免打扰日功能成功遥测。
 - **disableQuietHours** - 已禁用“免打扰时间”。
 - **discoverTeams** - 导航到 "浏览和加入团队" 页面。
@@ -457,7 +457,7 @@ ms.locfileid: "48135995"
 - **Dismiss_ratemycallCQF** - 已解除 CQF 的通话评分表。
 - **Dismiss_ratemyliveeventCQF** - 已解除 CQF 的实时事件评分表单。
 - **dismissBadNetworkBanner** - 已为不良连接横幅选择了“**关闭**”。
-- **dismissFlyout** - 已选择**关闭**按钮。
+- **dismissFlyout** - 已选择 **关闭** 按钮。
 - **dismissModality** - 模态选取器在未共享的情况下退出。
 - **dismissModalityPicker** - 已选中“**模态选取器**”按钮。
 - **dismissReadReceiptsNotice** - 已从功能通知中选择“**明白了**”。
@@ -501,7 +501,7 @@ ms.locfileid: "48135995"
   - 一种通知类型。
   - 来电通知。
 - **enabled** - 关于在首次运行体验 (FRE) 流中启用通知：
-  - 在首次运行体验 (FRE) 中选择了**启用通知**。
+  - 在首次运行体验 (FRE) 中选择了 **启用通知**。
   - 在提醒中选择了启用。
 - **enabled/disabled** - 调用权限或联系人权限（仅适用于 Android）。
 - **enabled, notNow** - 通知权限提示“**接受**”按钮，首次运行体验 (FRE) 通知权限 (iOS)。 这将捕获启用通知功能的人数并提供信息。
@@ -599,7 +599,7 @@ ms.locfileid: "48135995"
   - 仅加入会议内容。
   - 从“日程”视图中选择“**会议加入**”按钮。
 - **joinOptionsEdu** - EDU 用户选择加入预定会议的选项，并显示正确的选项。
-- **joinTeam** - 已按下**加入**按钮。
+- **joinTeam** - 已按下 **加入** 按钮。
 - **joinViaCode** - 用户通过代码加入会议。
 - **labelPickerClicked** - 确认标签选取器已成功启动。
 - **labelSelected** - 确认已成功选择标签。
@@ -665,7 +665,7 @@ ms.locfileid: "48135995"
 - **meetingJoinNowWithPSTN** - 用户使用“拨入”加入会议。
 - **meetingLeaveChat** - 离开聊天。
 - **meetingMuteChat** - 将聊天设为静音。
-- **meetingNotesCreatedInChatLink** - 在私人会议聊天或频道会议聊天中选择**创建会议笔记** chicklet。
+- **meetingNotesCreatedInChatLink** - 在私人会议聊天或频道会议聊天中选择 **创建会议笔记** chicklet。
 - **meetingNotesMentionCharLink** - 私人会议聊天中已选中 @提及 链接。
 - **meetingNotesMentionChatLink** - 频道会议聊天中已选中 @提及 链接。
 - **meetingNotesTabEntryPoint** - 在私人会议或频道中选择“**会议笔记**”选项卡。
@@ -711,7 +711,7 @@ ms.locfileid: "48135995"
 - **muteOnWhiteboard** - 用户在白板屏幕上静音或取消静音。
 - **muteParticipant** - 将参与者静音（移到操作表）。
 - **my_location_button_clicked** - 用户通过选择“**我的位置**”按钮将地图在其位置上居中。
-- **my_location_clicked** - 用户通过选择地图上的**蓝点**将地图在其位置上居中。
+- **my_location_clicked** - 用户通过选择地图上的 **蓝点** 将地图在其位置上居中。
 - **myShiftPickerClicked** - 仅当发送的请求是交换或代班时才记录。 **"Shift"** 已选中选取器。
 - **nameGroupChat** - 命名群聊。
 - **nativeTimeClockBreak** - 打卡时钟上的休息时间。
@@ -722,35 +722,35 @@ ms.locfileid: "48135995"
 - **navCalendar** - 测量用户是否导航到日历。
 - **navCallingSettings** - 用户导航到通话设置。
 - **navCalls** - 点击了“**通话**”选项卡。
-- **navCamera** - 用户导航到底部栏或应用程序托盘上的**摄像头**选项卡或应用程序。
-- **navChat** - 用户导航到底部栏或应用程序托盘上的**聊天**选项卡或应用程序。
-- **navContacts** - 用户导航到底部栏或应用程序托盘上的**联系人**或**人员**选项卡或应用程序。
+- **navCamera** - 用户导航到底部栏或应用程序托盘上的 **摄像头** 选项卡或应用程序。
+- **navChat** - 用户导航到底部栏或应用程序托盘上的 **聊天** 选项卡或应用程序。
+- **navContacts** - 用户导航到底部栏或应用程序托盘上的 **联系人** 或 **人员** 选项卡或应用程序。
 - **navDashboardTab** - 用户导航到对话中的“**仪表板**”选项卡。
 - **navDynamics365** - Dynamics365 应用打开时触发。
 - **navFiles** - 选择了文件应用程序，跟踪用户是否可以在应用程序托盘 (iOS) 中启动文件应用程序。
 - **navFilesTab** - 选择了文件应用程序，跟踪用户是否可以在底部导航栏 (iOS) 中启动文件应用程序。
-- **navMeetings** - 点击了**日历**选项卡。
+- **navMeetings** - 点击了 **日历** 选项卡。
 - **navNotes** - 在“笔记”应用打开时触发。
 - **navOrganization** - 在“组织”应用打开时触发。
 - **navOrgChart** - Orgchart 应用打开时触发。
 - **navPeople** - 在“人脉”应用打开时触发事件。
 - **navPeopleSettings** - 当导航到“设置”菜单中的“**人员**”类别时触发。
 - **navPersonalFiles** - 已选中文件应用程序，跟踪用户是否可以在底部导航栏 (Android) 启动文件应用程序。
-- **navPhotoTab** - **照片**选项卡。
+- **navPhotoTab** - **照片** 选项卡。
 - **navSaved** - 用户导航到底部栏或应用程序托盘上的“**已保存**”选项卡或应用程序。
 - **navSelectPlan** - 当用户选择从主页视图导航到的共享计划时。
 - **navSelectPersonalList** - 当用户选择从主页视图导航到的个人计划时。
 - **navSelectSmartList** - 当用户选择从主页视图导航到的智能计划时。
 - **navTasks** - 在“任务”应用打开时触发。
 - **navTeams** - 点击“**查看全部**”。
-- **navVideocamera** - 用户导航到底部栏或应用程序托盘上的**摄像头**选项卡或应用程序。
-- **navVideoTab** - **视频**选项卡。
+- **navVideocamera** - 用户导航到底部栏或应用程序托盘上的 **摄像头** 选项卡或应用程序。
+- **navVideoTab** - **视频** 选项卡。
 - **navVoicemail** - 用户导航到语音邮件页面。
 - **navWalkieTalkie** 用户已打开对讲机应用程序。
 - **navWiki** - 在 Wiki 应用打开时触发。
 - **newChat** - 用户创建聊天。
 - **newCall** - 点击“**新通话**”按钮。
-- **newCallDialPad** - 点击选项卡上的**拨号盘**。
+- **newCallDialPad** - 点击选项卡上的 **拨号盘**。
 - **newCallPeople** - 点击选项卡上的“**人员**”按钮。
 - **noBGActivityDetected** - 超过后台活动失败的阈值。
 - **notBlockedDevice** - 用户在 30 天内未达到后台活动失败的阈值。
@@ -792,10 +792,10 @@ ms.locfileid: "48135995"
   - 确定是否可以从文件列表中成功打开文件。
 - **openInAppClicked** 在任务项目中的更多选项列表中的选项仅适用于个人任务。
 - **opensCalendarView** - 在“**日程安排**”选项卡中点击“**未完成班次**”。
-- **openContactCard** - 用户点击人员应用程序中的**联系人**图标或联系人，即可启动该联系人的个人资料卡片。
+- **openContactCard** - 用户点击人员应用程序中的 **联系人** 图标或联系人，即可启动该联系人的个人资料卡片。
 - **openContactCard_ReactionSummary** - 从回应摘要页面导航到“联系人卡片”。
 - **openFileInApp** - 帮助确定用户是选择在 Teams 外部还是 Teams 内部打开文件。
-- **openHamburgerMenu** - 选择**汉堡**图标（左上角）可打开侧菜单以访问设置、状态和租户切换。
+- **openHamburgerMenu** - 选择 **汉堡** 图标（左上角）可打开侧菜单以访问设置、状态和租户切换。
 - **openInStream** - 打开 Stream 中的视频。
 - **openMeetingDetails** - 打开特定会议的会议详细信息或“打开会议详细信息”页面。
 - **openModalityPicker** - X = ChatsAndChannels 适用于聊天和频道。
@@ -806,9 +806,9 @@ ms.locfileid: "48135995"
 - **openQuietHours** - 导航到“免打扰时间”页面。
 - **openReactionHoverBubble** - 按“回应摘要”页面上的“**添加回应**”按钮。
 - **openReactionSummary** - 调用回应摘要抽屉。
-- **openSettingsSetUpInstructions** - 从说明中打开**设置**。
+- **openSettingsSetUpInstructions** - 从说明中打开 **设置**。
 - **openSharedLink** - 当用户从仪表板链接磁贴或链接库打开链接时。
-- **openShiftsClicked** - 有多少人点击**日历**图标。
+- **openShiftsClicked** - 有多少人点击 **日历** 图标。
 - **orgChart - No AS assigned** - 组织结构图的基本用法遥测。
 - **pageEntered** - 用户进入了页面。
 - **parental_consent_grant** - 用户向其 MSFamily 中的未成年人授予使用 TFL 中实时位置功能的权限。
@@ -828,19 +828,19 @@ ms.locfileid: "48135995"
 - **pinSelf** - 从操作表固定我自己。
 - **pinUser** - 从操作表固定用户。
 - **播放** - 播放录制内容。
-- **playVoicemail** - 已点击**播放**语音邮件项。
-- **plusButtonClicked** - 选择**加号按钮** (**+**).
+- **playVoicemail** - 已点击 **播放** 语音邮件项。
+- **plusButtonClicked** - 选择 **加号按钮** (**+**).
 - **pptNextSlide** - 作为演示者或私下观看下一张幻灯片。
 - **pptPreviousSlide** - 作为演示者或私下观看的上一张幻灯片。
-- **pptReturnToPresenter** - 转到**实时**幻灯片（演示者和其他人都在其中）。
+- **pptReturnToPresenter** - 转到 **实时** 幻灯片（演示者和其他人都在其中）。
 - **pptStopPresenting** - 停止演示。
 - **pptTakeControl** - 取得控制权。
 - **preJoinAddRoom** - 在预加入下拉列表中选择“**添加会议室**”按钮，在“**添加会议室**”情景中选择“**加入**”。
 - **preJoinAudioOff** - 在预加入下拉列表中选择“**音频关闭**”按钮。
 - **preJoinAutoAddRoom** - 当附近有会议室时，选择“**立即加入**”。
-- **preJoinBack** - 选中了**后退**或**关闭**按钮。
+- **preJoinBack** - 选中了 **后退** 或 **关闭** 按钮。
 - **preJoinDenied** - 用户无法加入会议。
-- **preJoinDeviceAudio** - 从下拉列表中选择**使用设备音频加入**。
+- **preJoinDeviceAudio** - 从下拉列表中选择 **使用设备音频加入**。
 - **preJoinDialIn** - 在预加入下拉列表中选择“**拨入**”按钮。
 - **preJoinDialInCall** - 用户确认预加入“**拨入**”请求。
 - **preJoinDialInCancel** - 用户取消预加入“**拨入**”请求。
@@ -854,7 +854,7 @@ ms.locfileid: "48135995"
 - **processInBG** - 在后台处理传入通知 (Android)。
 - **processInFG** - 在前台处理传入通知 (Android)。
 - **progressItemClicked** - 确认用户已成功打开任务的进度选取器。
-- **promotedToPresenter** - 用户在对话框中提升与会者 - **更改**按钮。
+- **promotedToPresenter** - 用户在对话框中提升与会者 - **更改** 按钮。
 - **provideFeedbackDismiss** - 关闭询问用户是否希望发送关于他们不喜欢该应用程序的反馈的提示。
 - **provideFeedbackNo** - 对提示询问用户是否希望发送关于他们不喜欢该应用程序的反馈，回答“否”。
 - **provideFeedbackYes** - 对提示询问用户是否希望发送关于他们不喜欢该应用程序的反馈，回答“是”。
@@ -1005,7 +1005,7 @@ ms.locfileid: "48135995"
 - **showBanner** - **WiFi 连接的次数，未显示 Internet** 横幅。
 - **showCard** - 点击卡片按钮。 卡片是关键的平台结构，测量它们的使用和模式对于理解平台的使用和保持对客户端潜在问题的警惕是必要的。
 - **shownReadReceiptNotice** - 带设置选项的用户显示功能提示。
-- **signIn** - 在欢迎页上选择了**登录**，或者点击了**登录**按钮。
+- **signIn** - 在欢迎页上选择了 **登录**，或者点击了 **登录** 按钮。
 - **signUp** - 选择了“**创建免费帐户**”或“**免费注册**”。
 - **simultaneousCallForward** - 触发时间：
   - 设置了同时呼叫转发目标。
@@ -1053,9 +1053,9 @@ ms.locfileid: "48135995"
 - **table** - 选择表格。
 - **tabListMoreOptions** - 了解选项卡更多选项的用法。
 - **tabOpen** - 在打开的选项卡中记录成功，或者是否在打开选项卡的方式中存在问题。
-- **tabViewed** - 仅当发送的请求是交换请求时，才记录到 **Teams 排班**选取器中。
+- **tabViewed** - 仅当发送的请求是交换请求时，才记录到 **Teams 排班** 选取器中。
 - **takePhoto** - 拍照。
-- **takePhotoPicker** - 在图像选取器中选择**拍照**。
+- **takePhotoPicker** - 在图像选取器中选择 **拍照**。
 - **tapChicletExpand** - 用户如何在移动设备上预览卡片。
 - **tapDatePickerHandle** - 展开日历日期选取器控件。
 - **tapSettings** - 在移动设备上重新配置应用程序的用户数。
@@ -1070,7 +1070,7 @@ ms.locfileid: "48135995"
 - **teamEdit** - 用户编辑他们拥有或管理的团队的某些方面。
 - **teamNav** - 查看 Teams 的菜单选项。
 - **teamsDeviceCallResumed** - 用户使用蓝牙连接外设（移动电话接口）重新激活保持的通话。
-- **teamSelectedClicked** - 当用户选择为时间表**选定团队**时。
+- **teamSelectedClicked** - 当用户选择为时间表 **选定团队** 时。
 - **teamShiftPickerClicked** - 当用户添加新的中断项时。 用户保存改变后立即记录事件。
 - **tenantSwitch** - 正在切换的租户。 MTMA（多租户和多帐户）功能成功指标 ，有助于识别和修复问题，并提供流畅的切换体验。
 - **tenantSwitchUnsupportedError** - 租户不支持错误（当用户看到错误时）。 MTMA（多租户和多帐户）功能成功指标，提供帐户或租户切换错误的遥测，因此我们可以主动识别和修复问题，并提供流畅的切换体验。
@@ -1112,7 +1112,7 @@ ms.locfileid: "48135995"
 - **updateTaskState** - 确认任务状态已更新。
 操作。
 - **升级** - 在“**更多**”菜单中选择“**升级**”按钮。
-- **上载文件** - 用户选择**从设备上载**。
+- **上载文件** - 用户选择 **从设备上载**。
 - **uploadSelectedFile** - 在这些情况下触发：
   - 在频道中成功上传文件。
   - 在聊天中成功上传文件。
