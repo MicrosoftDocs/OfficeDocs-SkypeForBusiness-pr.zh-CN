@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028168"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909366"
 ---
-# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>如何为一线工作人员大规模预配 Teams
+# <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何为一线工作人员大规模预配 Teams
 
 是否需要快速将大量用户加入到 Microsoft Teams 并为他们配置精简体验？ 可按以下说明操作，快速预配标识、预配团队，并分配所有相关策略来控制最终用户体验。
 
@@ -39,7 +39,7 @@ ms.locfileid: "45028168"
 - 向指定团队分配大量用户。
 
 > [!NOTE]
-> 如果查看了这些信息，并认为需要帮助或存在疑问，可以[**单击此处**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u)与 White Glove支持联系。
+> 如果查看了这些信息，并认为需要帮助或存在疑问，可以 [**单击此处**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u)与 White Glove支持联系。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -144,7 +144,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 - 医院
 - 杂货店
 
-*最佳实践讨论*：设计团队时，务必牢记[团队限制和规范](limits-specifications-teams.md)。 对于小型组织，可使用组织范围的团队来简化通信并对物理位置结构进行补充。 对于其他组织，结构化物理位置团队命名约定有助于企业轻松地同时向多个团队交叉发布通信。 例如，可以搜索名称中带有 US 的所有团队并向其交叉发布通信，以定位所有 US 位置。 有关交叉发布的详细信息，请参阅[此处](https://support.office.com/article/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295)。
+*最佳实践讨论*：设计团队时，务必牢记 [团队限制和规范](limits-specifications-teams.md)。 对于小型组织，可使用组织范围的团队来简化通信并对物理位置结构进行补充。 对于其他组织，结构化物理位置团队命名约定有助于企业轻松地同时向多个团队交叉发布通信。 例如，可以搜索名称中带有 US 的所有团队并向其交叉发布通信，以定位所有 US 位置。 有关交叉发布的详细信息，请参阅[此处](https://support.office.com/article/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295)。
 
 #### <a name="steps-to-create-teams"></a>创建团队的步骤
 
@@ -209,7 +209,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 *最佳实践讨论*：在 Microsoft Teams 管理中心管理应用设置策略。 无法使用 PowerShell 创建它们。 可使用全局（组织范围的默认）策略，或者创建自定义策略并将其分配给用户。 除非你创建并分配了自定义策略，否则你组织中的用户将自动分配到全局策略。 出于我们的目的，我们将为一线工作人员和一线管理人员创建两个新策略，以便为他们提供更简单、更精简的体验，从而轻松地同时加入大量用户。 你可以选择根据业务需求自定义体验。
 
-#### <a name="create-the-firstline-manager-app-setup-policy"></a>创建一线管理人员应用设置策略
+#### <a name="create-the-frontline-manager-app-setup-policy"></a>创建一线管理人员应用设置策略
 
 可以自定义以下设置以满足你的业务需求。 我们已根据最佳实践选择了一些推荐的选项，并提高了大规模加入新用户的轻松度。 有关详细信息，请单击[此处](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)。
 
@@ -222,7 +222,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 5. 关闭“**允许用户固定**”。
 ![允许用户固定切换图像。](media/FLW-Allow-User-Pinning.png)
 
-6. 如果尚未列出**班次**应用，请添加。 有关**班次**的更多信息，请单击[此处](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
+6. 如果尚未列出 **班次** 应用，请添加。 有关 **班次** 的更多信息，请单击 [此处](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
 ![“添加固定的应用”屏幕，显示班次应用（列在“添加”按钮旁边）。](media/FLW-Add-Pinned-Apps.png)
 
 7. 删除显示的呼叫 注意：删除此功能不会针对用户禁用它，但会阻止它出现在应用栏，从而简化最终用户体验。
@@ -233,7 +233,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     1. 日历
     1. 班次 ![按顺序显示的管理人员应用程序列表的屏幕截图](media/FLW-Manager-Pinned-Apps.png)
 
-#### <a name="create-the-firstline-worker-app-setup-policy"></a>创建一线工作人员应用设置策略
+#### <a name="create-the-frontline-worker-app-setup-policy"></a>创建一线工作人员应用设置策略
 
 可以自定义以下设置以满足你的业务需求。 我们已根据最佳实践选择了一些推荐的选项，并提高了大规模加入新用户的轻松度。 有关详细信息，请单击[此处](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)。
 
@@ -246,7 +246,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 5. 关闭“**允许用户固定**”。
 ![允许用户固定切换图像。](media/FLW-Allow-User-Pinning.png)
 
-6. 如果尚未列出**班次**应用，请添加。 有关**班次**的详细信息，请单击此处。
+6. 如果尚未列出 **班次** 应用，请添加。 有关 **班次** 的详细信息，请单击此处。
 ![“添加固定的应用”屏幕，显示班次应用（列在“添加”按钮旁边）。](media/FLW-Add-Pinned-Apps.png)
 
 7. 删除显示的会议和呼叫 注意：删除这些功能不会针对用户禁用它们，但会阻止它们出现在应用栏，从而简化最终用户体验。
@@ -262,7 +262,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 *最佳实践讨论*：在 Microsoft Teams 管理中心管理应用设置策略。 无法使用 PowerShell 创建它们。 可使用全局（组织范围的默认）策略，或者创建自定义策略并将其分配给用户。 除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 出于我们的目的，我们将为一线工作人员和一线管理人员创建了两个新策略，以便为他们提供更安全、更精简的体验，从而轻松地同时加入大量用户。 当然，你也可以选择根据业务需求自定义体验。
 
-#### <a name="create-the-firstline-manager-app-permission-policy"></a>创建一线管理人员应用权限策略
+#### <a name="create-the-frontline-manager-app-permission-policy"></a>创建一线管理人员应用权限策略
 
 可以自定义以下设置以满足你的业务需求。 这些是基于最佳实践的一些推荐选项，可以提高新用户大规模登录的便利性。 有关详细信息，请单击[此处](teams-app-permission-policies.md)。
 
@@ -276,7 +276,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 6. 在租户应用下，选择“**允许所有应用**”。
 7. 单击“ **保存**”。
 
-#### <a name="create-the-firstline-worker-app-permission-policy"></a>创建一线员工应用权限策略
+#### <a name="create-the-frontline-worker-app-permission-policy"></a>创建一线员工应用权限策略
 
 可以自定义以下设置以满足你的业务需求。 这些是基于最佳实践的一些推荐选项，可以提高新用户大规模登录的便利性。 有关详细信息，请单击[此处](teams-app-permission-policies.md)。
 
@@ -359,8 +359,8 @@ Microsoft 付费的云服务（如 Microsoft 365、Office 365、企业移动性 
 你已经完成所有步骤，现在可以验证已完成的工作了。
 
 1. 创建的用户的初始密码位于 CreateUsers.ps1 中，他们需要在首次登录时进行更改。
-1. 验证 Teams 的外观和风格是否符合你的预期。 如果不符合，请查看**创建 Teams 策略**和**向用户分配 Teams 策略**部分。
-1. 验证用户是否在正确的团队中。 如果不在，请查看**创建和设置用户**和**向团队分配用户**部分。
+1. 验证 Teams 的外观和风格是否符合你的预期。 如果不符合，请查看 **创建 Teams 策略** 和 **向用户分配 Teams 策略** 部分。
+1. 验证用户是否在正确的团队中。 如果不在，请查看 **创建和设置用户** 和 **向团队分配用户** 部分。
 
 > [!NOTE]
 > 如果通过“身份和访问管理”团队来管理一线员工配置，则需要遵循他们的流程来为员工提供凭据。

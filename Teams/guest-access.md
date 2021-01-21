@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi
 audience: admin
 search.appverid: MET150
-localization_priority: Normal
+localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-ms.openlocfilehash: 09090cc2061c3d138af2b3092e987293255a1134
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: MT
+ms.openlocfilehash: 6bbee4609bad74fb89f98debadd3a37efc9b7759
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662037"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49908986"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 
@@ -37,7 +37,7 @@ Teams 中的来宾都可享受其余 Microsoft 365 产品中同样的合规性�
 来宾体验体验在设计上有限制。 有关来宾在 Teams 中可以和不可执行的操作的完整列表，请参阅[团队成员和来宾功能比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)。
 
 > [!IMPORTANT]
-> 来宾遵循 Teams 组织范围的共存升级模式设置。 此选项无法更改。
+> 来宾用户遵循共存升级模式下的 Teams 组织范围内设置。 此选项无法更改。
 
 若要设置来宾访问，请参阅[在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。 
 
@@ -57,10 +57,10 @@ Teams 中的来宾访问是一种组织范围的设置，默认情况下处于�
 1. 团队所有者或 Microsoft 365 管理员[向团队添加来宾](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
 2. 来宾会收到一封来自团队所有者的欢迎电子邮件，其中内附团队信息及其现在作为成员应执行的操作。
 3. 来宾接受邀请。
-  在 Azure Active Directory 中拥有工作或学校帐户的来宾可以接受邀请并直接进行身份验证。 将向其他用户发送一次性密码，以验证其身份（需要[一次性密码验证](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode)）。
+  在 Azure Active Directory 中拥有工作或学校帐户的来宾用户可以接受邀请并直接进行身份验证。 将向其他用户发送一次性密码，以验证其身份（需要[一次性密码验证](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode)）。
 4. 接受邀请后，来宾可[参与团队和频道](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)、接收和答复频道消息、[访问频道中的文件](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)，还能参与聊天、加入会议并协作处理文档等等。 
 
-在 Teams 中，可清楚地识别来宾。 来宾的姓名包括来宾 (标签) 频道包含一个图标，用于指示团队中是否有来宾。 有关更多详细信息，请参阅[来宾体验介绍](guest-experience.md)。
+在 Teams 中，可清楚地识别来宾。 来宾用户的姓名包含 **（来宾）** 标签，而频道中有一个图标表示团队中存在来宾。 有关更多详细信息，请参阅[来宾体验介绍](guest-experience.md)。
   
 来宾可以随时在 Teams 中离开团队。 有关详细信息，请参阅[如何离开团队？](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)
 
@@ -84,7 +84,7 @@ Teams 中的来宾访问是一种组织范围的设置，默认情况下处于�
 
 [与组织外部人员进行协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[阻止来自特定 Microsoft 365 组或 Microsoft Teams 团队的来宾](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[阻止来自特定 Microsoft 365 组或 Microsoft Teams 团队的来宾用户](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [创建安全的来宾共享环境](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
