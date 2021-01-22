@@ -1,5 +1,5 @@
 ---
-title: 团队语音 Contoso 个案研究
+title: Teams 语音 Contoso 案例研究
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,89 +13,89 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 多国公司的团队语音案例研究
+description: 针对多语言公司的 Teams 语音案例研究
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 780d812b4e6e56b28b867ace14dbf1d5f6170302
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: a6ee08fa7bdeb1ded6bda384115a08048021cb67
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785957"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918728"
 ---
-# <a name="contoso-case-study-auto-attendants-and-call-queues"></a><span data-ttu-id="c32f2-103">Contoso 个案研究：自动助理和呼叫队列</span><span class="sxs-lookup"><span data-stu-id="c32f2-103">Contoso case study: Auto attendants and call queues</span></span>
+# <a name="contoso-case-study-auto-attendants-and-call-queues"></a><span data-ttu-id="eb30d-103">Contoso 案例研究：自动助理和呼叫队列</span><span class="sxs-lookup"><span data-stu-id="eb30d-103">Contoso case study: Auto attendants and call queues</span></span>
 
-<span data-ttu-id="c32f2-104">Contoso 通过其本地 Skype for Business 部署熟悉自动助理和呼叫队列。</span><span class="sxs-lookup"><span data-stu-id="c32f2-104">Contoso was familiar with auto attendants and call queues from their on-premises Skype for Business deployment.</span></span> <span data-ttu-id="c32f2-105">若要了解如何设置云自动助理，他们审阅[了什么是云自动助理？](what-are-phone-system-auto-attendants.md)和[小型企业版示例-设置自动助理教程](tutorial-org-aa.yml)。</span><span class="sxs-lookup"><span data-stu-id="c32f2-105">To understand how to set up Cloud auto attendants, they reviewed [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md) and [Small business  example - Set up auto attendant tutorial](tutorial-org-aa.yml).</span></span> <span data-ttu-id="c32f2-106">若要了解可用于设置呼叫队列的选项，Contoso 已审阅 "[创建云呼叫队列](create-a-phone-system-call-queue.md)"。</span><span class="sxs-lookup"><span data-stu-id="c32f2-106">To learn about the options available to set up call queues, Contoso reviewed [Create a Cloud call queue](create-a-phone-system-call-queue.md).</span></span>  
+<span data-ttu-id="eb30d-104">Contoso 熟悉其本地 Skype for Business 部署中的自动助理和呼叫队列。</span><span class="sxs-lookup"><span data-stu-id="eb30d-104">Contoso was familiar with auto attendants and call queues from their on-premises Skype for Business deployment.</span></span> <span data-ttu-id="eb30d-105">为了了解如何设置云自动助理和呼叫队列，他们查看了 Teams 自动助理和 [呼叫队列的计划](plan-auto-attendant-call-queue.md)。</span><span class="sxs-lookup"><span data-stu-id="eb30d-105">To understand how to set up Cloud auto attendants and call queues, they reviewed [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md).</span></span>
 
-## <a name="requirements-depending-on-site-type"></a><span data-ttu-id="c32f2-107">根据网站类型的要求</span><span class="sxs-lookup"><span data-stu-id="c32f2-107">Requirements depending on site type</span></span>
+## <a name="requirements-depending-on-site-type"></a><span data-ttu-id="eb30d-106">要求，具体取决于网站类型</span><span class="sxs-lookup"><span data-stu-id="eb30d-106">Requirements depending on site type</span></span>
 
-<span data-ttu-id="c32f2-108">根据网站类型，Contoso 有以下需要：</span><span class="sxs-lookup"><span data-stu-id="c32f2-108">Depending on the site type, Contoso had the following needs:</span></span>
+<span data-ttu-id="eb30d-107">根据站点类型，Contoso 具有以下需求：</span><span class="sxs-lookup"><span data-stu-id="eb30d-107">Depending on the site type, Contoso had the following needs:</span></span>
 
-- <span data-ttu-id="c32f2-109">网站类型 A：传统旧电话系统</span><span class="sxs-lookup"><span data-stu-id="c32f2-109">Site Type A: Traditional legacy telephony systems</span></span> 
+- <span data-ttu-id="eb30d-108">站点类型 A：传统传统电话系统</span><span class="sxs-lookup"><span data-stu-id="eb30d-108">Site Type A: Traditional legacy telephony systems</span></span> 
 
-  <span data-ttu-id="c32f2-110">网站类型将与接待员相关联的电话号码保留为其自动助理的编号。</span><span class="sxs-lookup"><span data-stu-id="c32f2-110">Site Type A needed to keep the same phone number associated with the receptionist as the number for their auto attendants.</span></span> <span data-ttu-id="c32f2-111">其中每个站点的关键部门都有自己的通话队列，它们将路由到团队成员。</span><span class="sxs-lookup"><span data-stu-id="c32f2-111">The key departments for each of these sites would have their own call queues that would route to team members.</span></span> <span data-ttu-id="c32f2-112">有一种网站混合使用手机系统和通话计划的直接路由和电话系统。</span><span class="sxs-lookup"><span data-stu-id="c32f2-112">There was a mixture of sites that used Phone System with Direct Routing and Phone System with Calling Plans.</span></span>  
+  <span data-ttu-id="eb30d-109">网站类型 A 需要保留与其自动助理号码相同的与接待员关联的电话号码。</span><span class="sxs-lookup"><span data-stu-id="eb30d-109">Site Type A needed to keep the same phone number associated with the receptionist as the number for their auto attendants.</span></span> <span data-ttu-id="eb30d-110">每个网站的关键部门都有自己的呼叫队列，这些队列将路由到团队成员。</span><span class="sxs-lookup"><span data-stu-id="eb30d-110">The key departments for each of these sites would have their own call queues that would route to team members.</span></span> <span data-ttu-id="eb30d-111">将电话系统与直接路由和电话系统与呼叫计划一起使用的站点混合在一起。</span><span class="sxs-lookup"><span data-stu-id="eb30d-111">There was a mixture of sites that used Phone System with Direct Routing and Phone System with Calling Plans.</span></span>  
 
-- <span data-ttu-id="c32f2-113">网站类型 B： Skype for Business 企业语音</span><span class="sxs-lookup"><span data-stu-id="c32f2-113">Site Type B: Skype for Business Enterprise Voice</span></span> 
+- <span data-ttu-id="eb30d-112">站点类型 B：Skype for Business 企业语音</span><span class="sxs-lookup"><span data-stu-id="eb30d-112">Site Type B: Skype for Business Enterprise Voice</span></span> 
 
-  <span data-ttu-id="c32f2-114">网站类型 B 拥有迁移到团队所需的自动助理和呼叫队列。</span><span class="sxs-lookup"><span data-stu-id="c32f2-114">Site Type B had existing auto attendants and call queues that needed to migrate to Teams.</span></span> <span data-ttu-id="c32f2-115">Contoso 需要保留与自动助理相关联的电话号码。</span><span class="sxs-lookup"><span data-stu-id="c32f2-115">Contoso needed to keep the phone numbers associated with the auto attendants.</span></span> <span data-ttu-id="c32f2-116">Contoso 通过通话计划将大部分这些站点移动到电话系统。</span><span class="sxs-lookup"><span data-stu-id="c32f2-116">Contoso moved the majority of these sites to Phone System with Calling Plans.</span></span> <span data-ttu-id="c32f2-117">但是，在通话计划不可用的几个位置中，Contoso 将这些网站移动到直接路由配置。</span><span class="sxs-lookup"><span data-stu-id="c32f2-117">However, in the few locations where Calling Plans was not available, Contoso moved these sites to a Direct Routing configuration.</span></span>  
+  <span data-ttu-id="eb30d-113">网站类型 B 有现有的自动助理和需要迁移到 Teams 的呼叫队列。</span><span class="sxs-lookup"><span data-stu-id="eb30d-113">Site Type B had existing auto attendants and call queues that needed to migrate to Teams.</span></span> <span data-ttu-id="eb30d-114">Contoso 需要保留与自动助理相关联的电话号码。</span><span class="sxs-lookup"><span data-stu-id="eb30d-114">Contoso needed to keep the phone numbers associated with the auto attendants.</span></span> <span data-ttu-id="eb30d-115">Contoso 将大多数此类网站移动到具有通话套餐的电话系统。</span><span class="sxs-lookup"><span data-stu-id="eb30d-115">Contoso moved the majority of these sites to Phone System with Calling Plans.</span></span> <span data-ttu-id="eb30d-116">但是，在呼叫计划不可用的少数位置，Contoso 将这些站点移到了直接路由配置。</span><span class="sxs-lookup"><span data-stu-id="eb30d-116">However, in the few locations where Calling Plans was not available, Contoso moved these sites to a Direct Routing configuration.</span></span>  
 
-- <span data-ttu-id="c32f2-118">网站类型 C： Skype for Business 企业语音 & 传统旧式电话系统</span><span class="sxs-lookup"><span data-stu-id="c32f2-118">Site Type C: Skype for Business Enterprise Voice & traditional legacy telephony system</span></span> 
+- <span data-ttu-id="eb30d-117">站点类型 C：Skype for Business 企业语音 &传统传统电话系统</span><span class="sxs-lookup"><span data-stu-id="eb30d-117">Site Type C: Skype for Business Enterprise Voice & traditional legacy telephony system</span></span> 
 
-  <span data-ttu-id="c32f2-119">网站类型 C 具有驻留在传统旧式电话系统中的现有自动助理。</span><span class="sxs-lookup"><span data-stu-id="c32f2-119">Site Type C had existing auto attendants that resided in the traditional legacy telephony system.</span></span> <span data-ttu-id="c32f2-120">此网站的决策和配置与网站类型 A 相同。</span><span class="sxs-lookup"><span data-stu-id="c32f2-120">The decisions and configurations for this site were the same as Site Type A.</span></span>   
+  <span data-ttu-id="eb30d-118">站点类型 C 具有驻留在传统旧电话系统中的现有自动助理。</span><span class="sxs-lookup"><span data-stu-id="eb30d-118">Site Type C had existing auto attendants that resided in the traditional legacy telephony system.</span></span> <span data-ttu-id="eb30d-119">此站点的决策和配置与站点类型 A 相同。</span><span class="sxs-lookup"><span data-stu-id="eb30d-119">The decisions and configurations for this site were the same as Site Type A.</span></span>   
 
-- <span data-ttu-id="c32f2-121">对于所有网站类型，Contoso 询问以下问题：</span><span class="sxs-lookup"><span data-stu-id="c32f2-121">For all site types, Contoso asked the following questions:</span></span>
+- <span data-ttu-id="eb30d-120">对于所有网站类型，Contoso 询问了以下问题：</span><span class="sxs-lookup"><span data-stu-id="eb30d-120">For all site types, Contoso asked the following questions:</span></span>
 
-  - <span data-ttu-id="c32f2-122">问：我们将使用新号码还是现有号码？</span><span class="sxs-lookup"><span data-stu-id="c32f2-122">Q: Will we use new or existing numbers?</span></span> 
-    <span data-ttu-id="c32f2-123">A： Contoso 决定使用现有电话号码分配给自动助理的服务帐户。</span><span class="sxs-lookup"><span data-stu-id="c32f2-123">A: Contoso decided to use existing phone numbers to be assigned to the service account for the auto attendant.</span></span> 
+  - <span data-ttu-id="eb30d-121">问：我们将使用新号码还是现有号码？</span><span class="sxs-lookup"><span data-stu-id="eb30d-121">Q: Will we use new or existing numbers?</span></span> 
+    <span data-ttu-id="eb30d-122">答：Contoso 决定使用现有电话号码分配给自动助理的服务帐户。</span><span class="sxs-lookup"><span data-stu-id="eb30d-122">A: Contoso decided to use existing phone numbers to be assigned to the service account for the auto attendant.</span></span> 
 
-  - <span data-ttu-id="c32f2-124">问：自动助理是否可以用来接受拨入电话？</span><span class="sxs-lookup"><span data-stu-id="c32f2-124">Q: When will the auto attendant be available to accept incoming calls?</span></span> 
-    <span data-ttu-id="c32f2-125">A： Contoso 决定设置营业时间，并在营业时间已重定向到 "时间超过" 自动助理后收到呼叫。</span><span class="sxs-lookup"><span data-stu-id="c32f2-125">A: Contoso decided to set business hours and have calls received after business hours redirected to an "after-hours" auto attendant.</span></span>  
+  - <span data-ttu-id="eb30d-123">问：何时可以使用自动助理接受传入呼叫？</span><span class="sxs-lookup"><span data-stu-id="eb30d-123">Q: When will the auto attendant be available to accept incoming calls?</span></span> 
+    <span data-ttu-id="eb30d-124">答：Contoso 决定设置营业时间，将营业时间后收到的呼叫重定向到"非工作时间"自动助理。</span><span class="sxs-lookup"><span data-stu-id="eb30d-124">A: Contoso decided to set business hours and have calls received after business hours redirected to an "after-hours" auto attendant.</span></span>  
 
-  - <span data-ttu-id="c32f2-126">问：如何将呼叫路由到呼叫队列中的成员：助理、串行或循环路由？</span><span class="sxs-lookup"><span data-stu-id="c32f2-126">Q: How will the calls be routed to members in a call queue: attendant, serial, or round robin routing?</span></span> 
-    <span data-ttu-id="c32f2-127">A： Contoso 决定使用助理路由，</span><span class="sxs-lookup"><span data-stu-id="c32f2-127">A: Contoso decided to use Attendant routing,</span></span> 
+  - <span data-ttu-id="eb30d-125">问：如何将呼叫路由到呼叫队列中的成员：助理、串行或轮循机制路由？</span><span class="sxs-lookup"><span data-stu-id="eb30d-125">Q: How will the calls be routed to members in a call queue: attendant, serial, or round robin routing?</span></span> 
+    <span data-ttu-id="eb30d-126">答：Contoso 决定使用 Attendant 路由，</span><span class="sxs-lookup"><span data-stu-id="eb30d-126">A: Contoso decided to use Attendant routing,</span></span> 
 
-  - <span data-ttu-id="c32f2-128">问：如何确定用户何时应该或不应该进行呼叫？</span><span class="sxs-lookup"><span data-stu-id="c32f2-128">Q: How will we determine when a user should or should not get a call?</span></span> 
-    <span data-ttu-id="c32f2-129">A： Contoso 决定使用呼叫处理选项确定代理是否可用：基于状态的路由。</span><span class="sxs-lookup"><span data-stu-id="c32f2-129">A: Contoso decided to use call handling options to determine if the agent is available: presence-based routing.</span></span> 
-
-
-## <a name="configuration"></a><span data-ttu-id="c32f2-130">配置</span><span class="sxs-lookup"><span data-stu-id="c32f2-130">Configuration</span></span>
-
-<span data-ttu-id="c32f2-131">设置自动助理和呼叫队列的步骤包括 "[管理资源帐户](manage-resource-accounts.md)" 中列出的以下内容：</span><span class="sxs-lookup"><span data-stu-id="c32f2-131">The steps to set up an auto attendant and a call queue include the following outlined in [Manage resource accounts](manage-resource-accounts.md):</span></span> 
-
-1. <span data-ttu-id="c32f2-132">获取服务号码。</span><span class="sxs-lookup"><span data-stu-id="c32f2-132">Obtain a service number.</span></span> 
-
-2. <span data-ttu-id="c32f2-133">获取免费电话系统-虚拟用户许可证或付费电话系统许可证，以便与资源帐户或电话系统许可证配合使用。</span><span class="sxs-lookup"><span data-stu-id="c32f2-133">Obtain a free Phone System - Virtual User license or a paid Phone System license to use with the resource account or a Phone System license.</span></span>
-
-3. <span data-ttu-id="c32f2-134">创建资源帐户。</span><span class="sxs-lookup"><span data-stu-id="c32f2-134">Create the resource account.</span></span> <span data-ttu-id="c32f2-135">需要使用自动助理或呼叫队列才能拥有关联的资源帐户。</span><span class="sxs-lookup"><span data-stu-id="c32f2-135">An auto attendant or call queue is required to have an associated resource account.</span></span> 
-
-4. <span data-ttu-id="c32f2-136">为资源帐户分配电话系统或电话系统-虚拟用户许可证。</span><span class="sxs-lookup"><span data-stu-id="c32f2-136">Assign the Phone System or a Phone System - Virtual user license to the resource account.</span></span> <span data-ttu-id="c32f2-137">有关详细信息，请参阅[Microsoft 365 Phone 系统-虚拟用户许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user)。</span><span class="sxs-lookup"><span data-stu-id="c32f2-137">For more information, see [Microsoft 365 Phone System – Virtual User license](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user).</span></span>
-
-5. <span data-ttu-id="c32f2-138">将服务电话号码分配给您为其分配了许可证的资源帐户。</span><span class="sxs-lookup"><span data-stu-id="c32f2-138">Assign a service phone number to the resource account you assigned licenses to.</span></span> 
-
-6. <span data-ttu-id="c32f2-139">创建电话系统呼叫队列或自动助理</span><span class="sxs-lookup"><span data-stu-id="c32f2-139">Create a Phone System call queue or auto attendant</span></span> 
-
-7. <span data-ttu-id="c32f2-140">将资源帐户与呼叫队列或自动助理链接。</span><span class="sxs-lookup"><span data-stu-id="c32f2-140">Link the resource account with a call queue or auto attendant.</span></span> 
+  - <span data-ttu-id="eb30d-127">问：我们如何确定用户何时应或不应进行呼叫？</span><span class="sxs-lookup"><span data-stu-id="eb30d-127">Q: How will we determine when a user should or should not get a call?</span></span> 
+    <span data-ttu-id="eb30d-128">答：Contoso 决定使用呼叫处理选项来确定代理是否可用：基于状态的路由。</span><span class="sxs-lookup"><span data-stu-id="eb30d-128">A: Contoso decided to use call handling options to determine if the agent is available: presence-based routing.</span></span> 
 
 
-### <a name="sites-with-phone-system-with-direct-routing"></a><span data-ttu-id="c32f2-141">带有直接路由的手机系统的站点</span><span class="sxs-lookup"><span data-stu-id="c32f2-141">Sites with Phone System with Direct routing</span></span> 
+## <a name="configuration"></a><span data-ttu-id="eb30d-129">配置</span><span class="sxs-lookup"><span data-stu-id="eb30d-129">Configuration</span></span>
 
-<span data-ttu-id="c32f2-142">Contoso 必须将本地运营商提供的电话号码设置为 Office 365 中的服务号码。</span><span class="sxs-lookup"><span data-stu-id="c32f2-142">Contoso had to set up the phone number provided by the local carrier as the service number in Office 365.</span></span> 
+<span data-ttu-id="eb30d-130">设置自动助理和呼叫队列的步骤包括管理资源帐户 [中概述的以下内容](manage-resource-accounts.md)：</span><span class="sxs-lookup"><span data-stu-id="eb30d-130">The steps to set up an auto attendant and a call queue include the following outlined in [Manage resource accounts](manage-resource-accounts.md):</span></span> 
 
-- <span data-ttu-id="c32f2-143">若要通过直接路由设置可用的电话号码，Contoso 按照 "[管理资源帐户](manage-resource-accounts.md)" 中的说明进行操作。</span><span class="sxs-lookup"><span data-stu-id="c32f2-143">To set up a phone number available through Direct Routing, Contoso followed the instructions located in [Manage Resource Accounts](manage-resource-accounts.md).</span></span> <span data-ttu-id="c32f2-144">由于 Office 365 不知道本地电话号码，Contoso 使用 PowerShell 完成设置。</span><span class="sxs-lookup"><span data-stu-id="c32f2-144">Because Office 365 is not aware of the on-premises phone numbers, Contoso used PowerShell to complete the setup.</span></span>   
+1. <span data-ttu-id="eb30d-131">获取服务编号。</span><span class="sxs-lookup"><span data-stu-id="eb30d-131">Obtain a service number.</span></span> 
 
-- <span data-ttu-id="c32f2-145">若要配置云自动助理，Contoso 按照[设置云自动助理](create-a-phone-system-auto-attendant.md)中概述的步骤进行操作。</span><span class="sxs-lookup"><span data-stu-id="c32f2-145">To configure the Cloud auto attendant, Contoso followed the steps outlined in [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).</span></span> 
+2. <span data-ttu-id="eb30d-132">获取免费电话系统 - 虚拟用户许可证或付费电话系统许可证，以用于资源帐户或电话系统许可证。</span><span class="sxs-lookup"><span data-stu-id="eb30d-132">Obtain a free Phone System - Virtual User license or a paid Phone System license to use with the resource account or a Phone System license.</span></span>
 
-- <span data-ttu-id="c32f2-146">若要设置云呼叫队列，Contoso 按照[创建云呼叫队列](create-a-phone-system-call-queue.md)中概述的步骤进行操作。</span><span class="sxs-lookup"><span data-stu-id="c32f2-146">To set up a Cloud call queue, Contoso followed the steps outlined in [Create a Cloud call queue](create-a-phone-system-call-queue.md).</span></span>  
+3. <span data-ttu-id="eb30d-133">创建资源帐户。</span><span class="sxs-lookup"><span data-stu-id="eb30d-133">Create the resource account.</span></span> <span data-ttu-id="eb30d-134">需要自动助理或呼叫队列才能拥有关联的资源帐户。</span><span class="sxs-lookup"><span data-stu-id="eb30d-134">An auto attendant or call queue is required to have an associated resource account.</span></span> 
+
+4. <span data-ttu-id="eb30d-135">将电话系统或电话系统 - 虚拟用户许可证分配给资源帐户。</span><span class="sxs-lookup"><span data-stu-id="eb30d-135">Assign the Phone System or a Phone System - Virtual user license to the resource account.</span></span> <span data-ttu-id="eb30d-136">有关详细信息，请参阅 [Microsoft 365 手机系统 - 虚拟用户许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user)。</span><span class="sxs-lookup"><span data-stu-id="eb30d-136">For more information, see [Microsoft 365 Phone System – Virtual User license](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user).</span></span>
+
+5. <span data-ttu-id="eb30d-137">将服务电话号码分配给分配给资源帐户的许可证。</span><span class="sxs-lookup"><span data-stu-id="eb30d-137">Assign a service phone number to the resource account you assigned licenses to.</span></span> 
+
+6. <span data-ttu-id="eb30d-138">创建电话系统呼叫队列或自动助理</span><span class="sxs-lookup"><span data-stu-id="eb30d-138">Create a Phone System call queue or auto attendant</span></span> 
+
+7. <span data-ttu-id="eb30d-139">将资源帐户与呼叫队列或自动助理关联。</span><span class="sxs-lookup"><span data-stu-id="eb30d-139">Link the resource account with a call queue or auto attendant.</span></span> 
 
 
-### <a name="sites-with-phone-system-with-calling-plan"></a><span data-ttu-id="c32f2-147">带有呼叫计划的带有电话系统的站点</span><span class="sxs-lookup"><span data-stu-id="c32f2-147">Sites with Phone System with Calling plan</span></span>
+### <a name="sites-with-phone-system-with-direct-routing"></a><span data-ttu-id="eb30d-140">使用电话系统进行直接路由的网站</span><span class="sxs-lookup"><span data-stu-id="eb30d-140">Sites with Phone System with Direct routing</span></span> 
 
-<span data-ttu-id="c32f2-148">Contoso 必须将用于 Skype for Business 企业语音自动助理的电话号码移植到 Office 365 电话系统。</span><span class="sxs-lookup"><span data-stu-id="c32f2-148">Contoso had to port the phone number that was used for Skype for Business Enterprise Voice auto attendants to Office 365 Phone System.</span></span> <span data-ttu-id="c32f2-149">这允许将同一号码分配为作为自动助理使用的服务号码。</span><span class="sxs-lookup"><span data-stu-id="c32f2-149">This allowed the same number to be assigned as a service number for use as an auto attendant.</span></span> 
+<span data-ttu-id="eb30d-141">Contoso 必须设置本地运营商提供的电话号码作为 Office 365 中的服务号码。</span><span class="sxs-lookup"><span data-stu-id="eb30d-141">Contoso had to set up the phone number provided by the local carrier as the service number in Office 365.</span></span> 
 
-- <span data-ttu-id="c32f2-150">若要移植电话号码，Contoso 按照[向团队转移电话号码](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)的说明进行操作，并在[管理您的组织的电话号码](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)时获得其他指导。</span><span class="sxs-lookup"><span data-stu-id="c32f2-150">To port the phone number, Contoso followed the instructions in [Transfer phone numbers to Teams](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) and obtained additional guidance at [Manage phone numbers for your organization](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).</span></span>
+- <span data-ttu-id="eb30d-142">为了设置通过直接路由提供的电话号码，Contoso 按照"管理资源帐户" [中的说明进行操作](manage-resource-accounts.md)。</span><span class="sxs-lookup"><span data-stu-id="eb30d-142">To set up a phone number available through Direct Routing, Contoso followed the instructions located in [Manage Resource Accounts](manage-resource-accounts.md).</span></span> <span data-ttu-id="eb30d-143">由于 Office 365 不知道本地电话号码，Contoso 使用 PowerShell 完成设置。</span><span class="sxs-lookup"><span data-stu-id="eb30d-143">Because Office 365 is not aware of the on-premises phone numbers, Contoso used PowerShell to complete the setup.</span></span>   
 
-- <span data-ttu-id="c32f2-151">若要配置云自动助理，Contoso 按照[设置云自动助理](create-a-phone-system-auto-attendant.md)中概述的步骤进行操作。</span><span class="sxs-lookup"><span data-stu-id="c32f2-151">To configure a Cloud auto attendant, Contoso followed the steps outlined in [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).</span></span>
+- <span data-ttu-id="eb30d-144">为了配置云自动助理，Contoso 遵循了"设置云自动助理 ["中概述的步骤](create-a-phone-system-auto-attendant.md)。</span><span class="sxs-lookup"><span data-stu-id="eb30d-144">To configure the Cloud auto attendant, Contoso followed the steps outlined in [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).</span></span> 
 
--  <span data-ttu-id="c32f2-152">若要设置云呼叫队列，Contoso 按照[创建云呼叫队列](create-a-phone-system-call-queue.md)中概述的步骤进行操作。</span><span class="sxs-lookup"><span data-stu-id="c32f2-152">To set up a Cloud call queue, Contoso followed the steps outlined in [Create a Cloud call queue](create-a-phone-system-call-queue.md).</span></span>  
+- <span data-ttu-id="eb30d-145">为了设置云呼叫队列，Contoso 遵循了"创建云呼叫队列 ["中概述的步骤](create-a-phone-system-call-queue.md)。</span><span class="sxs-lookup"><span data-stu-id="eb30d-145">To set up a Cloud call queue, Contoso followed the steps outlined in [Create a Cloud call queue](create-a-phone-system-call-queue.md).</span></span>  
+
+
+### <a name="sites-with-phone-system-with-calling-plan"></a><span data-ttu-id="eb30d-146">具有电话系统和呼叫计划的网站</span><span class="sxs-lookup"><span data-stu-id="eb30d-146">Sites with Phone System with Calling plan</span></span>
+
+<span data-ttu-id="eb30d-147">Contoso 必须将 Skype for Business 使用的电话号码企业语音自动助理移植到 Office 365 电话系统。</span><span class="sxs-lookup"><span data-stu-id="eb30d-147">Contoso had to port the phone number that was used for Skype for Business Enterprise Voice auto attendants to Office 365 Phone System.</span></span> <span data-ttu-id="eb30d-148">这允许将同一号码分配为服务号码，以用作自动助理。</span><span class="sxs-lookup"><span data-stu-id="eb30d-148">This allowed the same number to be assigned as a service number for use as an auto attendant.</span></span> 
+
+- <span data-ttu-id="eb30d-149">为了转转电话号码，Contoso 按照"将电话号码转移到 [Teams"](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 中的说明，在"为组织管理电话号码"上获得了 [其他指导](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。</span><span class="sxs-lookup"><span data-stu-id="eb30d-149">To port the phone number, Contoso followed the instructions in [Transfer phone numbers to Teams](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) and obtained additional guidance at [Manage phone numbers for your organization](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).</span></span>
+
+- <span data-ttu-id="eb30d-150">为了配置云自动助理，Contoso 遵循了"设置云自动助理 ["中概述的步骤](create-a-phone-system-auto-attendant.md)。</span><span class="sxs-lookup"><span data-stu-id="eb30d-150">To configure a Cloud auto attendant, Contoso followed the steps outlined in [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).</span></span>
+
+-  <span data-ttu-id="eb30d-151">为了设置云呼叫队列，Contoso 遵循了"创建云呼叫队列 ["中概述的步骤](create-a-phone-system-call-queue.md)。</span><span class="sxs-lookup"><span data-stu-id="eb30d-151">To set up a Cloud call queue, Contoso followed the steps outlined in [Create a Cloud call queue](create-a-phone-system-call-queue.md).</span></span>  
 
  
