@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 获取现有 SharePoint Online 网站或页面，并创建一个可用作组织 Intranet 门户的独立静态选项卡。
 localization_priority: Priority
-ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 080adc58059a88e585f5c975972399e552640e3d
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731110"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923804"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用
 
@@ -100,9 +100,6 @@ ms.locfileid: "49731110"
 如果要使新应用在更高位置的左侧菜单中可用，必须为其使用应用程序策略设置。 可以在“团队管理员”部分 > “应用策略” > “添加固定应用”下找到此设置。 将策略分配给用户进行测试时，更改将在几个小时后显示。 考虑到这一点，请确定应尽早在哪里显示此应用程序，以帮助避免延迟。
 
 如果要在移动设备上查看和测试新应用，请点击屏幕底部附近选项卡栏上方的人字形(**^**)，打开应用列表。 查找你的应用程序，然后在移动设备上导航到此应用。
-
-> [!CAUTION]
-> 移动支持目前仅限开发人员预览模式。 若要启用开发人员预览，请导航到“设置” > “关于”，然后启用“开发人员预览”模式。
 
 ## <a name="a-sample-manifestjson-file"></a>示例清单 JSON 文件
 

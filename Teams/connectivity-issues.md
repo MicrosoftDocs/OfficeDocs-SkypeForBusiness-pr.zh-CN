@@ -1,10 +1,9 @@
 ---
-title: 解决团队客户端的连接问题
+title: 排查 Teams 客户端的连接问题
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: troubleshooting
 ms.service: msteams
 audience: admin
@@ -17,34 +16,37 @@ description: 解决 Microsoft Teams 客户端的连接问题（主要由防火�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52097d78a3eae14bcaba98fb1613092af97d302e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 59041734887a667eca325a3d2650425d6d336b78
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581133"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918538"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
 ==============================================================
 
-已发现的有关 Microsoft Teams 客户端的大多数问题都可追溯到防火墙或代理连接。 验证是否在防火墙或代理中打开了所需的 URL、IP 地址和端口可最大程度地减少不必要的故障排除。 有关 Microsoft 团队所需的 Url 和 IPs 的特定信息，请参阅[microsoft 365 和 Office 365 url 和 IP 地址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支持文章。 以下方案需要在防火墙中打开特定 URL 和端口。
+已发现的有关 Microsoft Teams 客户端的大多数问题都可追溯到防火墙或代理连接。 验证是否在防火墙或代理中打开了所需的 URL、IP 地址和端口可最大程度地减少不必要的故障排除。 有关 Microsoft Teams 所需的 URL 和 IP 的具体信息，请参阅 [Microsoft 365 和 Office 365 URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 和 IP 地址支持文章。 以下方案需要在防火墙中打开特定 URL 和端口。
 
--   身份验证
+- 身份验证
 
--   Microsoft Teams 客户端连接
+- Microsoft Teams 客户端连接
 
--   协作
+- 协作
 
--   媒体
+- 媒体
 
--   共享服务
+- 共享服务
 
--   第三方集成
+- 第三方集成
 
--   Skype for Business 互操作性
+- Skype for Business 互操作性
 
--   Skype for Business 客户端互操作性
+- Skype for Business 客户端互操作性
 
+## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Teams 处于脱机状态或带宽不足时
+
+好消息是，即使你处于脱机状态或在低带宽条件下运行，Teams 也一直在运行。 Teams 会将现有聊天的所有未发送消息 (保存最多 24 小时) 在重新联机后立即发送。 如果你脱机时间超过 24 小时，Teams 允许你选择重新发送或删除未发送的邮件。 我们正在努力将此功能添加到新聊天中，如果此功能可用，我们将更新此文档。
 
 ## <a name="related-topics"></a>相关主题
 

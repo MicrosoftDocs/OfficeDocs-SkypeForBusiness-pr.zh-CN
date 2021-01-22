@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何为 SBC (会话边界控制器) 为 Microsoft 合作伙伴和/或 PSTN 运营商提供多个租户。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb7e89bab49bf92f505c2ca50950e78492186c24
-ms.sourcegitcommit: 11e0b8bfb960fb726880c80ce9339e864bcb074a
+ms.openlocfilehash: 343e2d1aedefd34de452df8da6ce9a5ad1a726ba
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49750582"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923844"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -32,7 +32,7 @@ ms.locfileid: "49750582"
 > 此方案专为 Microsoft 合作伙伴和/或 PSTN 运营商（本文档稍后称为运营商）设计。 运营商将交付给 Microsoft Teams 的电话服务销售给客户。 
 
 运营商：
-- 在数据中心部署和管理 SBC (客户不需要实现 SBC，并且他们在 Teams 客户端服务中接收来自运营商的电话) 。
+- 在数据中心部署和管理 SBC (客户无需实现 SBC，并且从 Teams 客户端客户端服务中的运营商接收电话) 。
 - 将 SBC 与多个租户互连。
 - 为客户提供 PSTN 服务。
 - 管理端到端呼叫质量。
@@ -43,7 +43,7 @@ Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) �
 下面是配置方案的技术实现步骤。
 
 **仅运营商：**
-1. 根据经过认证的 SBC 供应商的说明部署 [SBC，](#deploy-and-configure-the-sbc)并针对托管方案配置它。
+1. 根据经过认证的 SBC 供应商的说明部署 [SBC，并针对托管方案配置它](#deploy-and-configure-the-sbc)。
 2. 在运营商租户中注册基本域名，并请求通配符证书。
 3. 为属于基本域的每位客户注册子域。
 
@@ -52,7 +52,7 @@ Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) �
 2. 激活子域名称。
 3. 配置从运营商到客户租户的中继并预配用户。
 
-*请确保了解 DNS 基础知识以及如何在 Microsoft 365 或 Office 365 中管理域名。在 [继续下一步之前，请查看"获取有关 Microsoft 365 或 Office 365 域](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 的帮助"。*
+*请确保了解 DNS 基础知识以及如何在 Microsoft 365 或 Office 365 中管理域名。在继续下一步之前，请查看"获取有关 [Microsoft 365 或 Office 365 域](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 的帮助"。*
 
 ## <a name="deploy-and-configure-the-sbc"></a>部署和配置 SBC
 
@@ -65,7 +65,7 @@ Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) �
 - **Metaswitch：**  有关如何为多个租户启用 Perimeta SBC 的文档，请在 [Metaswitch 社区](https://manuals.metaswitch.com/MAN39555) 页上注册。
 
 > [!NOTE]
-> 请注意如何配置"联系人"标头。 联系人标头用于在传入邀请消息上查找客户租户。 
+> 请注意如何配置"联系人"标头。 联系人标头用于查找传入邀请消息上的客户租户。 
 
 ## <a name="register-a-base-domain-and-subdomains"></a>注册基本域和子域
 
@@ -79,7 +79,7 @@ Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) �
 
 子域 **必须与** 在将邀请发送到 Microsoft 365 或 Office 365 时为客户配置的中继的 FQDN 名称和联系人标头中的 FQDN 匹配。 
 
-当呼叫到达 Microsoft 365 或 Office 365 直接路由接口时，该接口使用联系人标头查找应查找用户的租户。 直接路由不使用"邀请"上的电话号码查找，因为某些客户可能拥有非 DID 号码，这些号码可能与多个租户重叠。 因此，"联系人"标头中的 FQDN 名称需要标识要按电话号码查找用户的确切租户。
+当呼叫到达 Microsoft 365 或 Office 365 直接路由接口时，该接口使用联系人标头查找应查找用户的租户。 直接路由不使用邀请上的电话号码查找，因为某些客户可能拥有非 DID 号码，这些号码可能与多个租户重叠。 因此，"联系人"标头中的 FQDN 名称需要标识要按电话号码查找用户的确切租户。
 
 *有关在 Microsoft  [365 或 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 组织中创建域名详细信息，请查看"获取有关 Office 365 域的帮助"。*
 
@@ -87,13 +87,13 @@ Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) �
 
 ![显示域和联系人头的要求的示意图](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要请求 SAN 证书.base_domain (*\* 例如 \* .customers.adatum.biz) 。* 此证书可用于对从单个 SBC 提供的多个租户的连接进行身份验证。
+SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使用 CN 和/或 SAN .base_domain (请求证书，*\* 例如 \* .customers.adatum.biz) 。* 此证书可用于对从单个 SBC 提供的多个租户的连接进行身份验证。
 
 
 下表是一个配置示例。
 
 
-|新域名 |类型|已注册  |适用于 SBC 的证书 SAN  |示例中的租户默认域  |SBC 在向用户发送呼叫时必须在联系人标头中呈现的 FQDN 名称|
+|新域名 |类型|已注册  |适用于 SBC 的证书 CN/SAN  |示例中的租户默认域  |SBC 在向用户发送呼叫时必须在联系人标头中呈现的 FQDN 名称|
 |---------|---------|---------|---------|---------|---------|
 |customers.adatum.biz|    基本     |     在运营商租户中  |    \*.customers.adatum.biz  |   adatum.biz      |NA，这是一个服务租户，没有用户 |
 |sbc1.customers.adatum.biz|    子域  |    在客户租户中  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
@@ -110,7 +110,7 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要请�
 
 **这些操作在运营商租户中执行。**
 
-### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>确保你在运营商租户中拥有适当的权限
+### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>确保你拥有运营商租户中的适当权限
 
 只有以全局管理员登录 Microsoft 365 管理中心时，才能添加新域。 
 
@@ -131,13 +131,16 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要请�
     ![显示已验证域名的确认的屏幕截图](media/direct-routing-3-sbc-verify-domain.png)
 
 5. 单击 **"** 下一步"，在"更新 **DNS** 设置"页上，选择"我将自己 **添加 DNS** 记录"，然后单击"下一 **步"。**
-6. 下一页上，清除所有 (，除非你希望将域名用于 Exchange、SharePoint 或 Teams/Skype for Business) ，请单击"下一步"，然后单击"完成 **"。** 确保新域位于"设置完成"状态。
+6. 在下一页上， (Exchange、SharePoint 或 Teams/Skype for Business) 域名，请单击"下一步"，然后单击"完成 **"。**  确保新域位于"设置完成"状态。
 
     ![显示状态为"设置已完成"的域的屏幕截图](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>激活域名
 
 注册域名后，需要通过添加至少一个 E1、E3 或 E5 许可用户，并分配 SIP 地址与所创建基础域匹配的 SIP 地址的 FQDN 部分来激活它。 激活域后，许可证 (最多可能需要 24 小时) 。
+
+> [!NOTE]
+> 运营商租户必须至少保留分配给租户的一个 E1/E3/E5/M365 商业版许可证，以避免删除 Skype for Business 配置。 
 
 *有关在 [Microsoft 365 或 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 组织中添加用户的信息，请查看"获取有关 Microsoft 365 或 Office 365 域的帮助"。*
 
@@ -189,7 +192,7 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要请�
 
     !["选择联机服务"页面的屏幕截图](media/direct-routing-10-sbc-choose-services.png)
 
-10. 单击 **"更新** **DNS 设置"页上的"完成** "。
+10. 在 **"更新** **DNS 设置"页上单击"完成** "。
 
     !["更新 DNS 设置"页的屏幕截图](media/direct-routing-11-sbc-update-dns-finish.png)
 
@@ -198,7 +201,7 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要请�
     ![显示安装完成状态的页面的屏幕截图](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
-> 单个客户端的基本 URL 和子域必须位于同一租户上，才能添加 _直接路由_ 中继。
+> 单个客户端的基本 URL 和子域必须位于同一租户中，才能添加 _直接路由_ 中继。
 
 ### <a name="activate-the-subdomain-name"></a>激活子域名称
 
@@ -218,7 +221,7 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要请�
  
 - **开销管理**。 例如，卸载或清空 SBC 会更改某些参数，例如启用或禁用媒体旁路。 更改端口需要通过运行 Set-CSOnlinePSTNGateway (更改多个租户中的) ，但实际上是相同的 SBC。 
 
--  **开销处理**。 收集和监视中继运行状况数据 - 从多个逻辑中继收集的 SIP 选项，实际上，相同的 SBC 和相同的物理中继会减慢路由数据的处理速度。
+-  **开销处理**。 收集和监视中继运行状况数据 - 从多个逻辑中继收集的 SIP 选项，事实上，这些逻辑中继是同一 SBC 和相同的物理中继，这会降低路由数据的处理速度。
  
 基于此反馈，Microsoft 将引入新逻辑来为客户租户预配中继。
 
@@ -229,7 +232,7 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要请�
 
 **预配逻辑和示例**
 
--    运营商只需使用) 命令在运营商域 (中继中设置和管理单个中继Set-CSOnlinePSTNGateway中继。 在以上示例中，它是adatum.biz;
+-    运营商只需使用) 命令在运营商域 (中继中设置和管理单个中继Set-CSOnlinePSTNGateway中继。 在以上示例中，它adatum.biz;
 -    在客户租户中，运营商只需将派生的中继 FQDN 添加到用户的语音路由策略。 无需为中继New-CSOnlinePSTNGateway运行连接。
 -    如名称所示，派生的中继从运营商中继继承或派生所有配置参数。 示例：
 -    Customers.adatum.biz – 需要在运营商租户中创建的运营商中继。

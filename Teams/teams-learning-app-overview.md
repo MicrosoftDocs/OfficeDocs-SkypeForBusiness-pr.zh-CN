@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a8fe0d3b4f86de34accb1519c80a391a9e395fbe
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 6d4cb45334edb9307663eb1ffcab5e7c1085b149
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703401"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923834"
 ---
 # <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>安装、管理和分配 Teams Learning 应用的权限 (个人预览版) 
 
@@ -34,7 +34,6 @@ Microsoft Teams Learning 应用 (个人预览版) 使组织中的团队和个人
 
 -   Teams 管理中心管理员
 -   Microsoft 365 管理中心管理员 (，即全局管理员) 
--   知识管理员 (Microsoft 365 管理中心中分配一个新角色，全局管理员 (也称为 IT 管理员或 Microsoft 365 管理员) 可分配给组织中任何人。 此角色通过 Microsoft 365 管理中心管理组织的学习内容源。)  
 
 ## <a name="manage-the-teams-learning-app-private-preview-in-the-teams-admin-center"></a>在 Teams 管理中心 (Teams) 个人预览版
 
@@ -69,26 +68,13 @@ Teams 管理员从应用商店 (Teams 学习) 个人预览版，并通过 Teams 
 
 ## <a name="configure-learning-content-sources-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 管理中心配置学习内容源
 
-Microsoft 365 管理中心的管理员（自己或向组织中选定的个人分配知识管理员角色）可以管理与 Teams Learning 应用 (个人预览版) 相关的设置，并可以配置学习内容源。
+Microsoft 365 管理中心的管理员可以管理与 Teams Learning 应用相关的设置 (个人预览版) 并配置学习内容源。
 
-> [!TIP]
-> 知识管理员应具有中等技术水平，并且拥有现有的 SharePoint 管理员凭据，最好是熟悉组织教育、学习、培训或员工经验的人。
- 
 管理员选择哪些学习内容源 (如 LinkedIn Learning 或 SharePoint) 可在应用中使用。 然后，管理员配置这些源，以确保内容可用于搜索和发现，并且可供使用应用的员工浏览。
-
-### <a name="assign-the-knowledge-admin-role-optional"></a>分配知识管理员角色 [可选]
-
-这些步骤由 Microsoft 365 管理中心的管理员执行。
-
-1.  在 Microsoft 365 管理中心的左侧导航中，转到"**角色"。**
-
-2.  在"**角色"** 页上的 **"Azure AD"** 选项卡上，选择 **"知识管理员"。**
- 
-3.  在"**知识管理员**"页的"**分配的** 管理员"部分中，选择"添加"，然后添加为角色选择的人。
 
 ### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>为应用配置学习内容源的设置
 
-这些步骤由 Microsoft 365 管理员或知识管理员执行。
+这些步骤由 Microsoft 365 管理员执行。
 
 1.  在 Microsoft 365 管理中心的左侧导航中，转到"**设置**  >  **组织设置"。**
 
@@ -113,13 +99,13 @@ Microsoft 365 管理中心的管理员（自己或向组织中选定的个人分
 
 若要启用或禁用学习内容源，请选中源旁边的复选框。 如果启用了源，则显示一个选中标记。
 
-## <a name="configure-sharepoint-as-a-learning-content-source"></a>将 SharePoint 配置为学习内容源
+## <a name="configure-sharepoint-as-a-learning-content-source-coming-soon"></a>将 SharePoint 配置为学习内容源 (即将推出) 
 
 在 Microsoft 365 管理中心中将 SharePoint 配置为 Teams 学习应用 (个人) 预览版源。
 
 ### <a name="overview"></a>概述
 
-知识管理员提供一个网站 URL，学习服务可在其中以结构化 SharePoint 列表的形式创建空的集中学习内容存储库。 组织可以使用此列表来存储指向包含学习内容的跨公司 SharePoint 文件夹的链接。 管理员负责收集和管理文件夹的 URL 列表。 这些文件夹应仅包含可在 Teams Learning 应用或个人预览版 (提供) 。
+管理员提供一个网站 URL，学习服务可在其中以结构化 SharePoint 列表的形式创建空的集中学习内容存储库。 组织可以使用此列表来存储指向包含学习内容的跨公司 SharePoint 文件夹的链接。 管理员负责收集和管理文件夹的 URL 列表。 这些文件夹应仅包含可在 Teams Learning 应用或个人预览版 (提供) 。
 
 ### <a name="permissions"></a>权限
 
@@ -131,7 +117,7 @@ Microsoft 365 管理中心的管理员（自己或向组织中选定的个人分
 
 ### <a name="configure-sharepoint-as-a-source"></a>将 SharePoint 配置为源
 
-这些步骤由 Microsoft 365 管理员或知识管理员执行。
+这些步骤由 Microsoft 365 管理员执行。
 
 1.  在 Microsoft 365 管理中心的左侧导航中，转到"设置 **"。**
  

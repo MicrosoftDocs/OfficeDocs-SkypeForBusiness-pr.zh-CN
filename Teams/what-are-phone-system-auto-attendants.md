@@ -25,12 +25,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 description: 了解云自动助理，以及如何使用它们让呼叫者在菜单系统中移动以定位和呼叫用户或部门或者将呼叫转接到部门。
-ms.openlocfilehash: 82d815eb4eb3c9a9e490f47dc3de492df7d0b6fb
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 862272ffe0cb42edc092c513823f421ab1c5bd95
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909546"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918938"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 
@@ -97,6 +97,7 @@ ms.locfileid: "49909546"
 > 如果通过语音识别使用按名字拨叫，但组织的 Active Directory 大于 80，000 个用户，并且未使用"按名字拨叫"功能限制"按名字拨叫"的范围，则按名字拨叫仍适用于使用电话键盘的呼叫者，语音输入可用于所有其他方案。 你可以使用"拨号范围"功能，通过更改按名字拨叫的范围，减少可以呼叫的姓名，以找到特定自动助理。
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>按名字拨叫 - 键盘 (DTMF) 输入
+
 呼叫进入的用户可以通过指定用户尝试联系的联系人的完整或部分姓名，使用按名字拨叫来联系用户。 输入名称时可以使用多种格式。
 
 搜索组织目录时，用户可以使用"0"（零）键来表示名字与姓氏之间或姓氏与名字之间的空格。 输入姓名时，会要求他们使用 # 键终止键盘输入。 例如，"在你输入要联系的用户姓名后，请按 # 号"。 如果找到多个姓名，会向呼叫者提供姓名列表，供其从中选择。
@@ -248,5 +249,3 @@ ms.locfileid: "49909546"
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[小型企业示例 - 设置自动助理](/microsoftteams/tutorial-org-aa)

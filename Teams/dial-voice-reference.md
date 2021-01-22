@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解 Teams 中的自动助理和呼叫队列拨号和语音识别选项。
-ms.openlocfilehash: 4ff2e60a1d785a035ee20c6547108f1b8916bcfb
-ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
+ms.openlocfilehash: 1cb8da2d2e6625de5a1471d1051c1ca51f11bbae
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749441"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918958"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自动助理和呼叫队列拨号和语音识别参考
 
@@ -35,9 +35,9 @@ ms.locfileid: "49749441"
 
 ## <a name="searching-for-users"></a>搜索用户
 
-希望使用按名字拨叫定位和联系的用户无需拥有电话号码或为其分配呼叫计划，但必须为 **Skype for Business Server** 企业语音启用呼叫计划。 "按名字拨叫"甚至能够查找并转接到在多个国家/地区为多个国家/地区托管的 Microsoft Teams 用户。 根据所涉及的先决条件，在自动助理中显式启用按名字拨叫。
+希望使用"按名字拨叫"定位和联系的用户无需拥有电话号码或为其分配通话计划，但必须为 **Skype for Business Server** 企业语音启用呼叫计划。 "按名称拨叫"甚至能够查找和转移呼叫在不同国家/地区或区域为多个国家/地区托管的 Microsoft Teams 用户。 根据所涉及的先决条件，在自动助理中显式启用按名字拨叫。
 
-按分机拨叫是自动助理的一项功能，也是目录搜索的一部分。 它使呼叫自动助理的用户能够使用语音 (语音识别) 或电话键盘 (DTMF) 响应输入他们尝试联系的用户的电话分机，然后将呼叫转接给他们。 希望使用拨号分机号定位和联系的用户无需拥有电话号码或为其分配通话套餐，但必须为  **Skype for Business Server** 企业语音启用呼叫计划。 你还需要为用户设置适当配置的拨号计划。 通过分机拨叫甚至能够查找并转接到在不同国家/地区或区域为多个国家/地区托管的 Microsoft Teams 用户。 根据所涉及的先决条件，在自动助理中显式启用"按分机拨叫"。
+按分机拨叫是自动助理的一项功能，也是目录搜索的一部分。 它使呼叫自动助理的用户能够使用语音 (语音识别) 或电话键盘 (DTMF) 响应输入他们尝试联系的用户的电话分机，然后将呼叫转接给他们。 希望使用"按分机拨叫"定位和联系的用户不需要拥有电话号码或为其分配了呼叫计划，但必须为  **Skype for Business Server** 企业语音启用呼叫计划。 你还需要为用户设置适当配置的拨号计划。 通过分机拨叫甚至能够查找并转接到在多个国家/地区为多个国家/地区托管的 Microsoft Teams 用户。 根据所涉及的先决条件，在自动助理中显式启用"按分机拨叫"。
 
 ### <a name="maximum-directory-size"></a>目录最大大小
 
@@ -49,7 +49,7 @@ ms.locfileid: "49749441"
 |语音（语音识别） |FirstName  <br/> LastName  <br/> 名字 + 姓氏  <br/> 姓氏 + 名字  | 80，000 个用户 |
 
 > [!NOTE]
-> 如果您通过语音识别使用按名字拨叫，但组织的 Active Directory 大于 80，000 个用户，并且您尚未使用拨号范围功能限制按名字拨叫的范围，则按名字拨叫仍适用于使用电话键盘的呼叫者，并且语音输入可用于所有其他方案。 你可以使用"拨号范围"功能，通过更改按名字拨叫的范围，减少可以呼叫的姓名，以找到特定自动助理。
+> 如果通过语音识别使用按名字拨叫，但组织的 Active Directory 大于 80，000 个用户，并且未使用"按名字拨叫"功能限制"按名字拨叫"的范围，则按名字拨叫仍适用于使用电话键盘的呼叫者，语音输入可用于所有其他方案。 你可以使用"拨号范围"功能，通过更改按名字拨叫的范围，减少可以呼叫的姓名，以找到特定自动助理。
   
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>按名字拨叫 - 键盘 (DTMF) 输入
 呼叫进入的用户可以通过指定用户尝试联系的联系人的完整或部分姓名，使用按名字拨叫来联系用户。 输入名称时可以使用多种格式。
@@ -93,7 +93,7 @@ ms.locfileid: "49749441"
 |FirstName |完整 |Amos |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Amos Jones |
 |LastName |完整 |Marble |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Ben Marble |
 |名字或姓氏 |部分 |3 月 |按或报 1 选择 Mary Marble  <br/> 按或报 2 选择 Mary Jones  <br/> 按或报 3 选择 Amos Marcus |
-|名字 + 姓氏 |部分 |Amos Mar |按或报 1 选择 Amos Marble  <br/> 按或报 2 表示 Amos Marcus |
+|名字 + 姓氏 |部分 |Amos Mar |按或报 1 选择 Amos Marble  <br/> 按或报 2 选择 Amos Marcus |
 
 
 > [!NOTE]
@@ -101,7 +101,7 @@ ms.locfileid: "49749441"
   
 ## <a name="language-support"></a>语言支持
 
-以下语言可用于与传出提示一起使用的文本到语音：
+以下语言适用于与传出提示一起使用的文本到语音：
   
 |-|-|-|
 |:-----|:-----|:-----|
@@ -154,5 +154,3 @@ ms.locfileid: "49749441"
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[小型企业示例 - 设置自动助理](/microsoftteams/tutorial-org-aa)

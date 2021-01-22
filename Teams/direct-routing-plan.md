@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解如何使用 Microsoft Phone 系统直接路由将受支持的客户提供的会话边界控制器 (SBC) Microsoft Phone System。
-ms.openlocfilehash: 0256078cd641c437d067bea9eb63861abcf5868e
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 77757cf76215dbed0b3ec572b5f1f57120551d86
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712320"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923824"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -159,9 +159,9 @@ Microsoft 建议通过生成证书签名请求来请求 SBC 的证书， (CSR) �
   > [!NOTE]
   > 大多数证书颁发 (CA) 要求私钥大小至少为 2048。 生成 CSR 时请记住这一点。
 
-证书需要将 SBC FQDN 作为在主题字段中 (CN) 公用名称。 证书应直接从证书颁发机构颁发，而不是从中间提供商颁发。
+证书需要将 SBC FQDN 作为 CN (的公用) 或 SAN (的) 名称。 证书应直接从证书颁发机构颁发，而不是从中间提供商颁发。
 
-或者，直接路由支持 SAN 中的通配符，并且通配符需要符合标准的[RFC HTTP Over TLS。](https://tools.ietf.org/html/rfc2818#section-3.1) 例如，在 \* SAN contoso.com .contoso.com，这将匹配 SBC FQDN sbc.contoso.com，但不与 sbc.test.contoso.com。
+或者，直接路由在 CN 和/或 SAN 中支持通配符，并且通配符需要符合标准的[RFC HTTP Over TLS。](https://tools.ietf.org/html/rfc2818#section-3.1) 例如，使用 \* .contoso.com与 SBC FQDN sbc.contoso.com匹配，但不与 sbc.test.contoso.com。
 
 证书需要由以下根证书颁发机构之一生成：
 

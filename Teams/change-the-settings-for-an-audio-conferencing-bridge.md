@@ -23,107 +23,61 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
-description: 更改音频会议桥设置，包括进入和退出通知、播放姓名或电话号码、声音，以及提示呼叫者录制其姓名。
-ms.openlocfilehash: acebe42e8dbc5707238975c34ce97961c1493d91
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 更改音频会议网桥设置，包括进入和退出通知、播放姓名或电话号码、音调和提示呼叫者录制其姓名。
+ms.openlocfilehash: 9694ac0cddecc5b00c0df133c5c494e4b5bc0d17
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690908"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918698"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
-当您在 Microsoft 365 或 Office 365 中设置音频会议时，您将收到来自 "音频会议桥" 的用户的电话号码。一个会议桥可以包含一个或多个电话号码。当呼叫者拨入会议时，将使用这些电话号码。电话号码包含在 Skype for Business 或 Microsoft 团队会议邀请的底部。
+在 Microsoft 365 或 Office 365 中设置音频会议时，你将从称为音频会议网桥的用户收到电话号码。会议网桥可以包含一个或多个电话号码。呼叫者拨入会议时，会使用这些电话号码。电话号码包含在 Skype for Business 或 Microsoft Teams 会议邀请的底部。
   
-会议桥应答呼叫，并使用会议自动助理提示呼叫者提供语音提示，然后根据您的设置，它可以播放通知，让呼叫者录制其姓名，并控制固定设置。当会议组织者未使用 Skype for Business 或 Microsoft 团队应用时，将为会议组织者提供允许他们启动会议的 Pin。
+会议网桥使用会议自动助理应答呼叫并提示呼叫者语音提示，然后根据你的设置，会议网桥可以播放通知、让呼叫者录制其姓名并控制 PIN 设置。PIN 被赋予会议组织者，以便他们在没有使用 Skype for Business 或 Microsoft Teams 应用时启动会议。
 
   > [!IMPORTANT]
-  > 仅当 Skype for Business 或 Microsoft 团队应用用户尚未启动会议时，会议组织者才需要 PIN。如果每个人都在拨入会议，则会议组织者需要 PIN 才能启动会议。 
+  > 只有当 Skype for Business 或 Microsoft Teams 应用用户尚未启动会议时，会议组织者才需要 PIN。如果每个人都拨入会议，会议组织者需要 PIN 才能启动会议。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
-1. 在左侧导航中，转到 "**会议**  >  **桥**"。 
+1. 在左侧导航栏中，转到 **"会议**  >  **网桥"。** 
 
-2. 在 "**会议桥**" 页面顶部，单击 "**桥接设置**"。 
+2. 在"会议网桥"**页面顶部**，单击"网桥 **设置"。** 
 
-3. 在 "**桥设置**" 窗格中，选择： 
-   - **会议进入和退出通知**如果关闭此功能，当有人进入或离开会议时，已加入会议的用户不会收到通知。
+3. 在" **网桥设置"** 窗格中，选择： 
+   - **会议进入和退出通知** 如果关闭此功能，则当某人进入或离开会议时，不会通知已加入会议的用户。
     
-     打开**会议进入和退出通知**时，可以选择以下选项：
+     打开会议进入和 **退出** 通知时，可以选择以下选项：
     
-   - **姓名或电话号码**当用户拨入会议时，将在加入会议时播放其电话号码。
+   - **姓名或电话号码** 当用户拨入会议时，当他们加入会议时，将播放其电话号码。
     
-   - **声音**当用户拨入会议时，将在加入会议时播放音频音调。
+   - **音调** 当用户拨入会议时，当他们加入会议时，将播放音频音。
       
-   - **邀请呼叫者在加入会议之前录制其姓名**如果关闭此功能，则不会要求呼叫者在加入会议之前记录其名称。
+   - **要求呼叫者在加入会议之前录制其姓名** 如果关闭此功能，呼叫者在加入会议之前不会要求他们录制其姓名。
 
-4. 若要设置会议的 PIN 长度，请在 " **pin 长度**" 列表中选择要用于 pin 的数字位数。
+4. 若要设置会议的 PIN 长度，请在 PIN 长度列表中选择 PIN **的位数** 。
 
-5. 若要指定是否向用户发送电子邮件，请启用或禁用**如果用户的音频会议配置发生更改，则自动向用户发送电子邮件**。
-    当用户在[Skype For Business Online 中的设置发生更改时](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)，请参阅[自动向用户发送的电子邮件的语音会议设置](emails-sent-to-users-when-their-settings-change-in-teams.md)。
+5. 若要指定是否向用户发送电子邮件，请启用或禁用如果用户的音频会议配置发生更改 **时自动发送电子邮件**。
+    有关详细信息 [，请参阅](emails-sent-to-users-when-their-settings-change-in-teams.md) 当用户的音频会议设置在 Microsoft Teams 中更改时自动发送给用户的电子邮件，或当用户在 [Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) 中的设置更改时发送给用户的电子邮件。
  
 6. 单击“**保存**”。 
 
-
-## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![显示 Skype for Business 徽标的图标](media/sfb-logo-30x30.png)  使用 Skype for Business 管理中心
-
- **在呼叫者加入会议时设置会议体验**
-    
-1. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议**  >  **Microsoft 网桥设置**"。
-    
-2. 在 " **Microsoft bridge 设置**" 页面上的 "**会议加入体验**" 下，选择：
-    
-   - " **启用会议进入和退出通知**"此选项默认情况下选中。 如果清除该复选框，当有人进入或离开会议时，已加入会议的用户不会收到通知。
-    
-   - 如果选择 "**启用会议进入和退出通知**"，则可以从 "**输入/退出通知类型**" 列表中选择这些选项：
-    
-   - **姓名或电话号码**当用户拨入会议时，将在加入会议时播放其电话号码。
-    
-   - **声音**当用户拨入会议时，将在加入会议时播放音频音调。
-  
-   - " **要求呼叫者在加入会议之前录制其名称**"此选项默认情况下选中。 如果清除此复选框，则不会要求呼叫者在加入会议之前录制其名称。
-    
-3. 完成更改后，单击" **保存**"。
-    
-**设置会议的 PIN 长度**
-  
-1. 使用你的工作或学校帐户登录。
-    
-2. 转到**Microsoft 365 管理中心**  >  **Skype for business**。
-    
-3. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议**  >  **Microsoft 网桥设置**"。
-    
-4. 在 " **Microsoft 网桥设置**" 页面上的 "**安全**" 下，在 " **pin 长度**" 列表中输入 pin 所需的数字位数，然后单击 "**保存**"。
-    
-    > [!IMPORTANT]
-    > PIN 必须介于4到12位之间。 
-  
-**选择是否向你的用户发送电子邮件**
-  
-1. 使用你的工作或学校帐户登录。
-    
-2. 转到**Microsoft 365 管理中心**  >  **Skype for business**。
-    
-3. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议**  >  **Microsoft 网桥设置**"。
-    
-4. 在 " **Microsoft 网桥设置**" 页面上，选中或清除 "**如果其拨入信息更改，则自动向用户发送电子邮件**"，然后单击 "**保存**"。
-    
-    当用户在[Skype For Business Online 中的设置发生更改时](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)，请参阅[自动向用户发送的电子邮件的语音会议设置](emails-sent-to-users-when-their-settings-change-in-teams.md)。
-    
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 若要节省时间或自动执行此过程，你可以使用[CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) cmdlet。
+- 若要节省时间或自动执行此过程，可以使用 [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) cmdlet。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 借助 Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你为多个用户同时进行设置更改时。 请在以下主题中了解这些优点： 
+- Windows PowerShell与仅使用 Microsoft 365 管理中心相比，在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -138,4 +92,4 @@ ms.locfileid: "44690908"
 
 [设置 Microsoft Teams 的音频会议](set-up-audio-conferencing-in-teams.md)
 
-[为 Skype for business Online 设置音频会议](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[为 Skype for Business Online 设置音频会议](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

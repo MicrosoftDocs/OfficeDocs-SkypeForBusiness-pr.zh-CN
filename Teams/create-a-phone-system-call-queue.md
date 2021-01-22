@@ -25,11 +25,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: 了解如何使用 Microsoft Teams 为呼叫队列设置电话系统，以便提供问候消息、保存音乐、呼叫重定向和其他功能。
 ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49765355"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49919019"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -63,7 +63,7 @@ ms.locfileid: "49765355"
 
 指定是否要在呼叫者到达队列时播放问候语。 必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。
 
-Teams 在呼叫者排队时为呼叫者提供默认音乐。 如果要播放特定音频文件，请选择"播放音频文件"并上传 MP3、WAV 或 WMA 文件。
+当呼叫者在队列中保持时，Teams 会向他们提供默认音乐。 如果要播放特定音频文件，请选择"播放音频文件"并上传 MP3、WAV 或 WMA 文件。
 
 > [!NOTE]
 > 上传的录制内容不能大于 5 MB。
@@ -127,15 +127,15 @@ Teams 在呼叫者排队时为呼叫者提供默认音乐。 如果要播放特�
 - **会议模式** 到 **自动**
 - **路由方法** 到 **Attendant 路由**
 - **基于状态到"打开** " **的路由**
-- **代理警报时间：** 到 **20 秒**
+- **代理警报时间：****到 20 秒**
 
-## <a name="call-overflow-handling"></a>调用溢出处理
+## <a name="call-overflow-handling"></a>呼叫溢出处理
 
 ![呼叫溢出设置的屏幕截图](media/call-queue-overflow-handling.png)
 
-**队列中的最大调用数** 指定在任意给定时间队列中可以等待的最大调用数。 默认值为 50，但范围为 0 到 200。 达到此限制时，按"达到最大调用数时"设置指定的方式 **处理调用** 。
+**队列中的最大调用** 数指定在任意给定时间队列中可以等待的最大调用数。 默认值为 50，但范围为 0 到 200。 达到此限制时，按"达到最大调用数时"设置指定的方式 **处理调用** 。
 
-可以选择断开呼叫连接或将其重定向到任何呼叫路由目标。 例如，你可能让呼叫者为队列中的代理留下语音邮件。 有关外部转移，请参阅先决条件和外部[](plan-auto-attendant-call-queue.md#prerequisites)电话号码转移[- 数字](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技术详细信息。
+可以选择断开呼叫连接或将其重定向到任何呼叫路由目标。 例如，你可能让呼叫者为队列中的代理留下语音邮件。 有关外部转移，请参阅先决条件和外部[](plan-auto-attendant-call-queue.md#prerequisites)电话号码[转移 - 数字](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技术详细信息。
 
 > [!NOTE]
 > 如果最大呼叫数设置为 0，则问候消息将不会播放。
@@ -144,7 +144,7 @@ Teams 在呼叫者排队时为呼叫者提供默认音乐。 如果要播放特�
 
 ![通话超时设置的屏幕截图](media/call-queue-timeout-handling.png)
 
-**调用超时：最长等待时间** 指定在重定向或断开连接之前，呼叫可以在队列中保持的最长时间。 可以指定一个 0 秒到 45 分钟的值。
+**调用超时：最长等待时间** 指定在重定向或断开连接之前，呼叫可以在队列中保持的最长时间。 可以指定 0 秒到 45 分钟的值。
 
 可以选择断开呼叫连接或将其重定向到呼叫路由目标之一。 例如，你可能让呼叫者为队列中的代理留下语音邮件。 有关外部转移，请参阅先决条件和外部[](plan-auto-attendant-call-queue.md#prerequisites)电话号码[转移 - 数字](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技术详细信息。
 

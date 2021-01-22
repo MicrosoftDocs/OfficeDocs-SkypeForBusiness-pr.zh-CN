@@ -21,12 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7133c5a1a0cf9fd67ec23b51f8e177aeb80532fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+localization_priority: Normal
+ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802422"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918988"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么
 
@@ -60,6 +61,9 @@ Teams 中的实时事件让多种角色（组织者、制作者、演示者和�
 Teams 允许组织者创建具有相应与会者权限的事件、指定事件团队成员、选择制作方法和邀请与会者。 如果实时事件是在 Yammer 组中创建的，实时事件与会者可以使用 Yammer 对话与事件中的人员进行交互。
 
 ![新的实时事件屏幕](../media/teams-live-events-schedule.png "显示新实时事件屏幕的屏幕截图，显示新实时事件的创建和日程安排。")
+
+> [!IMPORTANT]
+> 当用户处于脱机状态或以有限带宽运行时，Teams 不会允许用户安排会议或实时事件。
 
 ### <a name="production"></a>制作
 

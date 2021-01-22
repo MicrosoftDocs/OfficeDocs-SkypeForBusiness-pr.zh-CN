@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列，以及如何使用它们来帮助呼叫者在菜单系统中移动以联系你组织的人或部门。
-ms.openlocfilehash: f53beb7b084a003b1c6ca363708d5df89d73f302
-ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
+ms.openlocfilehash: 9ba8ccf08793e352e225340aeab33d7b95204cd9
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49697901"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918888"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划 Teams 自动助理和呼叫队列
 
@@ -74,7 +74,10 @@ ms.locfileid: "49697901"
 - 要直接拨打的每个资源帐户至少有一个 [Microsoft](getting-service-phone-numbers.md)服务号码、直接路由号码或混合号码
  - 服务号码可能是收费或免费电话号码
 
-从呼叫队列接收呼叫的代理必须企业语音或本地用户启用。 
+从呼叫队列接收呼叫的代理必须企业语音或本地用户启用。 此外，如果呼叫队列使用直接路由号码，则需要电话会议或转接呼叫的代理还需要：
+
+- 在呼叫队列使用转接模式时分配的联机语音路由策略
+- 如果呼叫队列使用会议模式，则分配音频会议许可证或在线语音路由策略
 
 如果你的代理使用 Microsoft Teams 应用进行呼叫队列呼叫，他们需要在 TeamsOnly 模式下。
 
@@ -223,4 +226,6 @@ ms.locfileid: "49697901"
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[小型企业示例 - 设置自动助理](/microsoftteams/tutorial-org-aa)
+[创建呼叫队列 - 小型企业教程](business-voice/create-a-phone-system-call-queue-smb.md)
+
+[设置自动助理 - 小型企业教程](business-voice/create-a-phone-system-auto-attendant-smb.md)

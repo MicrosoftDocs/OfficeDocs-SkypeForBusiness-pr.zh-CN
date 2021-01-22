@@ -22,88 +22,104 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 了解如何使用 Microsoft 团队管理中心查看你的组织中的所有电话号码以及分配给用户或未分配的所有号码的列表。
-ms.openlocfilehash: 8ad4e0ce2949e2aa72d387aff167a433ec7c8150
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 了解如何使用 Microsoft Teams 管理中心查看组织中所有电话号码以及分配给用户或未分配的所有号码的列表。
+ms.openlocfilehash: 61e1fb59ba5b68aeb2ab2af51b2ef91202e43678
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691168"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918898"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 
-你可以向用户或其他服务（服务号码）分配不同类型的电话号码，例如 Microsoft 365 或 Office 365 中的音频会议。
+你可以向用户或其他服务分配不同类型的电话号码 (服务号码) ，例如 Microsoft 365 或 Office 365 中的音频会议。
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>查看贵组织拥有的所有电话号码的列表
 
-![](media/teams-logo-30x30.png)**使用 Microsoft 团队管理中心**显示团队徽标的图标
+![使用 Microsoft Teams 管理中心显示 ](media/teams-logo-30x30.png) **Teams 徽标的图标**
 
-1. 转到**Microsoft 团队管理中心**。
+1. 转到 **Microsoft Teams 管理中心**。
 
-2. 在左侧导航中，转到 "**语音**  >  **电话号码**"。
+2. 在左侧导航中，转到 **"语音**  >  **电话号码"。**
 
     > [!IMPORTANT]
-    > 要在 Skype for Business 管理中心的左侧导航中看到 "**语音**" 选项，您必须首先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加许可证或一个**音频会议**附加设备许可证。
+    > 若要在 Skype  for Business 管理中心的左侧导航栏中查看语音选项，必须先购买至少一个企业版 **E5** 许可证、一个电话系统附加许可证或一个音频会议附加许可证。
 
-3. 若要查看分配的电话号码，请参阅 "**状态**" 列。
+3. 若要查看分配的电话号码，请参阅"状态 **"** 列。
 
-4. 若要筛选视图，请单击 "筛选器" 图标。 在 "**筛选器**" 窗格上，你可以使用下拉列表来筛选你的视图，方法如下：
+4. 若要筛选视图，请单击筛选器图标。 在 **"筛选器** "窗格中，可以使用下拉列表按以下条件筛选视图：
 
-   - 您设置的**数字范围**。 你可以按最小数量或最大数进行搜索。
+   - **设置的** 编号范围。 可以按最小数字或最高数字进行搜索。
 
-   - 以指定的数字开头的数字。
+   - 以指定的数字开始的数字。
 
-   - 数字**激活状态**。
+   - 数字 **激活状态**。
 
-   - 号码**类型**。
+   - 数字 **类型**。
 
-   - 电话号码**状态**。
+   - 电话号码 **状态**。
 
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>查看分配给用户的所有电话号码
 
-设置用户时，你可能只想要查看已分配给用户的电话号码的列表以及可分配给他们的电话号码。
+设置用户时，可能只想查看已分配给用户的电话号码列表，以及可为其分配的电话号码。
   
-![](media/teams-logo-30x30.png)**使用 Microsoft 团队管理中心**显示团队徽标的图标
+![使用 Microsoft Teams 管理中心显示 ](media/teams-logo-30x30.png) **Teams 徽标的图标**
 
-1. 转到**Microsoft 团队管理中心**。
+1. 转到 **Microsoft Teams 管理中心**。
 
-2. 在左侧导航中，转到 "**语音**  >  **电话号码**"。
+2. 在左侧导航中，转到 **"语音**  >  **电话号码"。**
 
     > [!IMPORTANT]
-    > 要在 Microsoft 团队管理中心的左侧导航中看到 "**语音**" 选项，您必须首先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加许可证或一个**音频会议**附加设备许可证。
+    > 若要在 Microsoft  Teams 管理中心的左侧导航栏中查看"语音"选项，必须先购买至少一个企业 **版 E5** 许可证、一个电话系统附加许可证或一个音频会议附加许可证。
 
-3. 若要快速对数字进行排序，以便可以查看分配的数字，请单击 "**状态**" 列标题。 或者，您可以单击筛选器图标，然后筛选您的视图，以查看已分配给用户或分配给用户的未分配号码的电话号码。 你可以按以下内容筛选：
+3. 若要快速对数字进行排序，以便查看已分配的数字，请单击"状态 **"** 列标题。 或者，可以单击筛选器图标，然后筛选视图以查看已分配给用户的电话号码或可分配给用户的未分配号码。 你可以按以下内容筛选：
 
-   - **已分配给用户**
+   - **分配给用户**
 
-   - **分配给会议桥** 
+   - **分配到会议网桥** 
 
-   - **Incopy**
+   - **未分配**
 
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>查看分配给语音用户的电话号码
 
-当你在组织中设置用户以便拨打和接听电话呼叫时，必须首先获得电话号码，然后将其分配给用户。 获得您的电话号码后，您可能只想查看号码分配的激活状态。
+当你在组织中设置用户以便拨打和接听电话呼叫时，必须首先获得电话号码，然后将其分配给用户。 获得电话号码后，你可能只想查看号码分配的激活状态。
 
-![](media/teams-logo-30x30.png)**使用 Microsoft 团队管理中心**显示团队徽标的图标！
+![使用 Microsoft Teams 管理中心 ](media/teams-logo-30x30.png) **显示 Teams 徽标的图标** ！
   
-1. 转到**Microsoft 团队管理中心**。
+1. 转到 **Microsoft Teams 管理中心**。
 
-2. 在左侧导航中，转到 "**语音**  >  **电话号码**"。
+2. 在左侧导航中，转到 **"语音**  >  **电话号码"。**
 
     > [!IMPORTANT]
-    > 要在 Microsoft 团队管理中心的左侧导航中看到 "**语音**" 选项，您必须首先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加许可证或一个**音频会议**附加设备许可证。
+    > 若要在 Microsoft  Teams 管理中心的左侧导航栏中查看"语音"选项，必须先购买至少一个企业 **版 E5** 许可证、一个电话系统附加许可证或一个音频会议附加许可证。
 
-3. 单击 "筛选器" 图标以按**激活状态**筛选你的视图，你可以按以下方式筛选你的视图：
+3. 单击筛选器图标，按 **激活状态筛选** 视图。可以按以下条件进行筛选：
 
-   - **激活**
+   - **已激活**
 
-   - **作业待定**
+   - **待处理分配**
 
    - **分配失败**
 
-   - **暂停更新**
+   - **更新挂起**
 
    - **更新失败**
+
+## <a name="using-the-teams-powershell-module"></a>使用 Teams PowerShell 模块
+
+可以使用 Teams PowerShell 模块从前面部分获取相同的信息，但需要版本 1.1.6 或更高版本，其中包括 Skype for Business Online 连接器的集成。 有关模块详细信息，请参阅 Microsoft [Teams PowerShell 概述](teams-powershell-overview.md)。
+
+可以使用 [Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber) cmdlet 查看组织拥有的所有电话号码的列表。 例如，可以运行以下命令来查看每个电话号码及其状态：
+
+```PowerShell
+Get-CsOnlineTelephoneNumber | ft Id,ActivationState
+```
+
+可以使用 [Get-CsOnlineUser](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser) cmdlet 查看分配给用户的所有电话号码。 例如，可以运行以下命令来查看分配有电话号码的所有用户：
+
+```PowerShell
+Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
+```
 
 ## <a name="related-topics"></a>相关主题
 [关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)
@@ -116,6 +132,6 @@ ms.locfileid: "44691168"
 
 [紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
+[Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
- 
+[Get-CsOnlineUser](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser)

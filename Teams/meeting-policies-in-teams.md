@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理会议策略设置，并使用它们来控制可供会议参与者用于用户安排的会议的功能。
-ms.openlocfilehash: ea10c06229374a7eed5f0427f6f12e9531b038c7
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.openlocfilehash: 2eef5969ea054b8c8ca6d702189f05b1eaa46c65
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718626"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918908"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在 Teams 中管理会议策略
 
@@ -41,11 +41,11 @@ ms.locfileid: "49718626"
 
 您可以通过以下方式实施策略，这会影响用户在会议开始、会议期间或会议后的会议体验。
 
-|实现类型  |描述  |
+|实现类型  |说明  |
 |---------|---------|
 |按组织者    |实施按组织者的策略时，所有会议参与者将继承组织者的策略。 例如， **自动允许人员** 是按组织者的策略，控制用户是直接加入会议，还是等待分配有该策略的用户安排的会议。          |
 |按用户    |实施每用户策略时，仅应用按用户策略来限制组织者和/或会议参与者的某些功能。 例如， **频道中的"现在允许开会** "是按用户的策略。     |
-|按组织者和按用户     |实施按组织者的策略和按用户策略的组合时，某些功能会基于其策略和组织者的策略限制会议参与者。 例如， **允许云录制** 是按组织者和按用户的策略。 打开此设置以允许会议组织者和参与者开始和停止录制。
+|按组织者和按用户     |实施按组织者的策略和按用户策略的组合时，某些功能会基于其策略和组织者的策略限制会议参与者。 例如， **允许云录制** 是按组织者和按用户的策略。 打开此设置以允许用户开始和停止录制。
 
 可以编辑全局策略中的设置，也可以创建和分配一个或多个自定义策略。 除非创建并分配了自定义策略，否则用户将获取全局策略。
 
@@ -197,7 +197,7 @@ ms.locfileid: "49718626"
 
 ### <a name="allow-cloud-recording"></a>允许云录制
 
-这是按组织者的策略和按用户策略的组合。 此设置控制是否可以录制此用户的会议。 如果为参与者启用策略设置，并且他们是同一组织的经过身份验证的用户，则会议组织者或其他会议参与者可以启动录制。
+这是按用户策略控制的。 此设置控制用户是否可以录制。 如果会议组织者或另一个会议参与者的特定策略设置已打开，并且他们是与组织者相同的组织中经过身份验证的用户，则录制内容可能由会议组织者或其他会议参与者启动。
 
 组织外部的用户（例如联合用户和匿名用户）无法开始录制。 来宾用户无法启动或停止录制。
 
@@ -211,7 +211,7 @@ ms.locfileid: "49718626"
 |阿兰达 | Location1MeetingPolicy | 开|
 |John (外部用户)  | 不适用 | 不适用|
 
-无法录制由 Daniela 组织的会议，已启用策略设置的 Amanda 无法录制 Daniela 组织的会议。 可以录制由 Amanda 组织的会议，但禁用策略设置的 Daniela 和外部用户的 John 无法录制 Amanda 组织的会议。
+Daniela，即使她是组织者，她也无法录制，因为策略已设置为关闭。 已启用策略设置的 Amanda 可以录制会议，即使是由 Daniela 组织的会议。 如果 Amanda 要组织会议，她将能够录制该会议，但是，策略设置已禁用的 Daniela 和外部用户的 John 无法录制该会议。
 
 若要了解有关云会议录制内容，请参阅 [Teams 云会议录制](cloud-recording.md)。
 
@@ -329,8 +329,8 @@ Daniela 主持的会议允许打开视频。 Daniela 可以加入会议并打开
 
 ### <a name="screen-sharing-mode"></a>屏幕共享模式
 
-> [!Note]
-> 此功能仍处于开发阶段。 屏幕共享是按参与者的策略。
+> [!NOTE]
+> 此功能仍处于开发阶段。 屏幕共享是按参与者的策略，但是，可能会受组织者的屏幕共享设置的影响，如本部分中所述。
 
 此设置控制是否在用户的会议中允许桌面和/或窗口共享。 未分配任何策略的会议参与者 (匿名、来宾、B2B 和联合参与者) 继承会议组织者的策略。
 
@@ -418,7 +418,7 @@ Amanda 不能共享会议中 PowerPoint 幻灯片，即使她是会议组织者�
 
 ### <a name="allow-shared-notes"></a>允许共享笔记
 
-这是按用户的策略。 此设置控制用户是否可以在会议创建和共享笔记。 外部用户（包括匿名用户、B2B 用户和联合用户）继承会议组织者的策略。 " **会议笔记"** 选项卡当前仅在参与者少于 20 人的会议中受支持。
+这是按用户的策略。 此设置控制用户是否可以在会议创建和共享笔记。 外部用户（包括匿名用户、B2B 用户和联合用户）继承会议组织者的策略。 最多 **包含** 100 名参与者的会议支持"会议笔记"选项卡。
 
 让我们看看以下示例。
 
@@ -547,20 +547,13 @@ Daniela 可以在 Amanda 的会议中做笔记，而 Amanda 不能在任何会�
 |**NoFilters**     |用户无法自定义其视频背景。|
 |**BlurOnly**     |用户可以选择模糊其视频背景。 |
 |**BlurandDefaultBackgrounds**     |用户可以选择模糊其视频背景，或者从默认图像集选择用作背景。 |
-|**AllFilters**     |"使用"选项可模糊其视频背景、从默认图像集选择或上传自定义图像以用作背景。 |
+|**AllFilters**     |用户可以选择模糊其视频背景、从默认图像集选择或上传自定义图像以用作背景。 |
 
-> [!NOTE]
+> [!IMPORTANT]
 > Teams 不会屏蔽用户上传的图像。 使用 **AllFilters** 设置时，应制定内部组织策略来防止用户上传冒犯性或不恰当的图像，或组织没有权限用于 Teams 会议背景的图像。
 
-## <a name="meeting-policy-settings---allow-breakout-rooms"></a>会议策略设置 - 允许分组讨论室
-
-这是按用户的策略。 [Teams 中的](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d) 分组会议室用于将会议拆分为单独的较小会议室。 此设置控制会议组织者是否可选择在安排或启动的会议中创建和管理分组讨论室。 此策略设置会影响所有会议，包括"现在开会"会议。
-
-目前，只能使用 PowerShell 配置此策略设置。 可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建新的 Teams 会议策略并将其分配给用户。
-
-默认情况下 **，AllowBreakOutRooms** 参数设置为 **True，** 分配有此策略的用户可以选择在安排或启动的会议中创建和管理分组讨论室。 用户还可以将参与者分配到会议室，在会议室之间移动参与者。 请记住，在会议中创建和管理分组讨论室目前仅在 Teams 桌面客户端中可用。 若要了解有关详细信息，请参阅在课堂 [会议期间创建和管理分组讨论室](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d)。
-
-若要防止用户创建分组讨论室，将 **AllowBreakOutRooms** 参数设置为 **False。** 分配了此策略的用户没有创建或管理分组讨论室的选项。
+> [!NOTE]
+> 这些功能不可用于所有 Teams 客户端。 有关详细信息，请参阅会议和 _实时活动中_ 的视频 [和背景标题](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e)。
 
 ## <a name="related-topics"></a>相关主题
 
