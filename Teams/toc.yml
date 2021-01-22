@@ -1077,14 +1077,10 @@
           href: business-voice/policy-packages.md
         - name: 创建其他用户
           href: business-voice/create-users.md
-        - name: 示例 - 设置呼叫队列
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 设置呼叫队列
-          href: business-voice/set-up-call-queues.md
-        - name: 示例 - 设置自动助理
-          href: tutorial-org-aa.yml
+          href: business-voice/create-a-phone-system-call-queue-smb.md
         - name: 设置自动助理
-          href: business-voice/set-up-auto-attendants.md
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
     - name: 管理设置
       items:
         - name: 创建一个或多个用户
@@ -1175,13 +1171,13 @@
           href: teams-edu-licensing.md
         - name: 教育 SKU 参考
           href: sku-reference-edu.md
-    - name: 适合于一线工作者的 Teams
+    - name: 适合一线员工的 Teams
       items:
         - name: 适合一线员工的快速入门
-          href: firstline-workers-quickstart.yml
+          href: flw-quickstart.yml
         - name: 一线员工脚本化部署
           href: flw-scripted-deployment.md
-        - name: 为一线工作者管理基于班次的访问
+        - name: 为一线员工管理基于班次的访问
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear for Microsoft Teams
           href: flw-realwear.md
