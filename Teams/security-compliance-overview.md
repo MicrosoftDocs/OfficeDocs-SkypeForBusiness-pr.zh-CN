@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17bf12a929f03ae766c57bb7f32da4e62f5a950
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a9ee7d3d4cd7d877925b649bb3f3b6a8da72ddf0
+ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662497"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49937434"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和符合性
 
@@ -37,10 +37,10 @@ ms.locfileid: "49662497"
 >  - 更新时间：2020 年 4 月 2 [日：Teams 安全指南](teams-security-guide.md)
 
 
-Microsoft Teams 构建在 Microsoft 365 和 Office 365 超大规模企业级云上，提供客户期望的高级安全性和合规性功能。 有关在 Microsoft 365 或 Office 365 中[](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)规划安全性详细信息，安全路线图是一个很好的起点。 有关在 Microsoft 365 或 Office 365 中规划合规性详细信息，可以从安全性和符合性 [计划一文开始](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) 。
+Microsoft Teams 构建在 Microsoft 365 和 Office 365 超大规模企业级云上，提供客户期望的高级安全性和符合性功能。 有关在 Microsoft 365 或 Office 365 中[](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)规划安全性详细信息，安全路线图是一个很好的起点。 有关在 Microsoft 365 或 Office 365 中规划合规性详细信息，可以从安全性和符合性 [计划一文开始](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) 。
 
 
-本文提供有关特定于 Teams 的安全性和符合性的更多信息。 不要错过以下有关安全性和符合性的 Microsoft 机制视频：
+本文将提供有关特定于 Teams 的安全性和符合性的更多信息。 不要错过以下有关安全性和符合性的 Microsoft 机制视频：
 
 - [适用于 IT 的 Microsoft Teams Essentials： (](https://youtu.be/91lHNKVVvQ4) 12：42 分钟) 
 - [10：54 (](https://www.youtube.com/watch?v=Km4T4hMM__k) Microsoft Teams 安全性和合规性控制) 
@@ -63,11 +63,11 @@ Teams 强制实施团队范围和组织范围的双因素身份验证、通过 A
 
 高级威胁防护 (ATP) 适用于 Microsoft Teams，以及 SharePoint 和 OneDrive（与 Teams 集成以用于内容管理的应用程序）。 ATP 允许确定这些应用程序中的内容在本质上是否恶意，并阻止用户访问此内容。
 
-检测后如何管理受影响的内容，由你在 Microsoft 365 或 Office 365 中所选的设置决定。 强烈建议你在配置 ATP 时考虑所有应用程序，为了进一步阅读，适用于 [SharePoint、OneDrive](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) 和 Microsoft Teams 的 ATP 文章将详细介绍如何入门。
+检测后如何管理受影响的内容，由你在 Microsoft 365 或 Office 365 中所选的设置决定。 强烈建议你在配置 ATP 时考虑所有应用程序，为了进一步阅读，ATP for [SharePoint、OneDrive](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) 和 Microsoft Teams 文章将详细介绍如何入门。
 
 ### <a name="safe-links"></a>安全链接
 
-虽然目前 Microsoft Teams 中未提供高级威胁防护 (ATP) 安全链接，但 Microsoft Teams 现在通过[](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide)技术采用计划 (TAP) 提供公共预览版，虽然尚未设置公开上市发布日期，但我们将在该时间到来时更新本文。 同时，有关 Microsoft 365 或 Office 365 安全链接的信息，请查看 [ATP 安全链接](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。 ATP 计划 1 和 [ATP 计划 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)中均提供 ATP 安全链接。
+虽然目前 Microsoft Teams 中未提供高级威胁防护 (ATP) 安全链接，但 Microsoft Teams 现在通过[](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide)技术采用计划 (TAP) 提供公共预览版，虽然尚未设置公开发布的发布日期，但我们将在该时间到来时更新本文。 同时，有关 Microsoft 365 或 Office 365 安全链接的信息，请查看 [ATP 安全链接](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。 ATP 计划 1 和 [ATP 计划 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)中均提供 ATP 安全链接。
 
 ### <a name="safe-attachments"></a>安全附件
 
@@ -89,27 +89,31 @@ Teams 提供多种信息来帮助你实现合规性，包括频道、聊天和�
 
 ### <a name="information-barriers"></a>信息屏障
 
-信息屏障是 Teams 管理员实施的策略，用于阻止人员或组相互通信 (当业务不需要他们这样做时，或者出于法规原因阻止他们这样做) ，它还允许你设置与查找和电子数据展示 ()  (下面介绍的内容相关的策略。 这些策略可能会影响一对一聊天、群组聊天或团队级别的用户。
+信息屏障是 Teams 管理员实施的策略，用于在不需要人员或组进行相互通信时 (或者出于法规原因阻止他们这样做) ，它还允许你设置与查找和电子数据展示 ()  (下面介绍的内容相关的策略。 这些策略可能会影响一对一聊天、群组聊天或团队级别的用户。
 
 若要进一步阅读本主题，请转到 [Microsoft Teams 中的信息屏障](information-barriers-in-teams.md)。
 
 ### <a name="communication-compliance"></a>通信符合性
 
-通过 Microsoft 365 中的通信合规性，可以将用户添加到范围内策略，这些策略可以配置为检查 Microsoft Teams 通信中是否包含冒犯性语言、敏感信息以及与内部和法规标准相关的信息。 可以扫描公共和专用 Teams 频道中的聊天通信和相关附件、个人聊天和附件，以帮助最大程度地降低组织的通信风险。 若要详细了解如何配置策略来帮助检测、捕获不适宜的 Teams 通信并采取措施，请参阅 [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)中的通信符合性。
+通过 Microsoft 365 中的通信合规性，可以将用户添加到范围内策略，这些策略可以配置为检查 Microsoft Teams 通信中是否包含冒犯性语言、敏感信息以及与内部和法规标准相关的信息。 可以扫描公共和专用 Teams 频道中的聊天通信和相关附件、个人聊天和附件，以帮助最大程度地降低组织的通信风险。 若要详细了解如何配置策略来帮助检测、捕获不适当的 Teams 通信并采取措施，请参阅 [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)中的通信符合性。
 
 ### <a name="retention-policies"></a>保留策略
 
 Microsoft Teams 中的保留策略允许保留组织出于法规、法律、业务或其他原因需要保留的重要数据，以及删除与保留不相关的内容和通信。 还可使用保留策略将数据保留一段时间，然后将其删除。 有关详细信息，请查看 Microsoft [Teams 文章中的保留](retention-policies.md) 策略。
 
+## <a name="sensitivity-labels"></a>敏感度标签
+
+应用 [敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ，以保护并管理对在团队内协作期间创建的敏感组织内容的访问。 例如，应用标签来配置团队 (或专用) 、控制来宾访问和外部共享，以及管理来自非托管设备的访问权限。 有关详细信息，请查看 Microsoft [Teams 文章中的敏感度](sensitivity-labels.md) 标签。
+
 ### <a name="data-loss-prevention-dlp"></a>DLP (数据丢失防护) 
 
 Microsoft Teams 中的数据丢失防护 (DLP) ，以及适用于 Microsoft 365 或 Office 365 的较大 DLP 案例，围绕保护敏感文档和数据的业务准备情况。 无论您对邮件或文档中的敏感信息有顾虑，DLP 策略都有助于确保用户不会与错误人员共享此敏感数据。
 
-有关 Teams 中数据丢失防护的信息，请查看[适用于 Microsoft Teams 的 DLP。](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams) 有关 O365 DLP 问题的良好文章是数据丢失 [防护概述](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)。
+有关 Teams 中数据丢失防护的信息，请查看[适用于 Microsoft Teams 的 DLP。](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams) 有关 O365 DLP 问题的良好文章是 [数据丢失防护概述](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)。
 
 ### <a name="ediscovery"></a>电子数据展示
 
-电子发现或电子数据展示是电子方面，用于识别、收集和生成电子存储的信息 (ESI) 以响应法律诉讼或调查中的生产请求。 功能包括 Teams 数据的案例管理、保留、搜索、分析和导出。 这包括聊天、消息和文件、会议与通话摘要。 对于 Teams 会议和通话，将创建会议中和通话中发生的事件的摘要，并可在电子数据展示中查看。
+电子发现或电子数据展示是电子方面，用于识别、收集和生成电子存储的信息 (ESI) 以响应法律诉讼或调查的生产请求。 功能包括案例管理、保留、搜索、分析和导出 Teams 数据。 这包括聊天、消息和文件、会议与通话摘要。 对于 Teams 会议和通话，将创建会议中和通话中发生的事件的摘要，并可在电子数据展示中查看。
 
 若要详细了解如何在安全中心和合规中心执行 Microsoft 365 或 Office 365 电子数据展示并运行 Teams 内容的符合性内容搜索，请转到以下链接：
 
@@ -117,7 +121,7 @@ Microsoft Teams 中的数据丢失防护 (DLP) ，以及适用于 Microsoft 365 
 
 [内容搜索](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)
 
-我们有一篇特定于 Teams 的文章，详细了解来宾到来宾聊天的电子 [数据展示](eDiscovery-investigation.md)。
+我们有一篇特定于 Teams 的文章，详细了解来宾到来宾聊天的 [电子数据展示](eDiscovery-investigation.md)。
 
 客户可以按要求利用电子数据展示 [或高级](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) 电子数据展示。 下表概括列出了这两者之间的差异：
 
@@ -134,14 +138,14 @@ Microsoft Teams 中的数据丢失防护 (DLP) ，以及适用于 Microsoft 365 
 
 ### <a name="legal-hold"></a>法定保留
 
-在诉讼期间，您可能需要与用户管理员或 (管理员) 或团队关联的所有数据保留为不可变数据，以便这些数据可以用作案例的证据。 为此，可以将用户邮箱 (邮箱) 团队置于法定保留状态。 对于团队法定保留，可以将团队的邮箱置于以下保留中：
+在诉讼期间，您可能需要与用户管理员或 (管理员) 或团队关联的所有数据保留为不可变数据，以便这些数据可以用作案例的证据。 为此，可以将用户邮箱 (邮箱) 团队置于法定保留状态。 对于团队法定保留，团队邮箱可以置于以下保留中：
 
 - In-Place通过 (查询保留邮箱或网站集的子集，或者将筛选的内容置于保留) 或
 - 将 (邮箱或网站集置于保留状态) 。
 
 在任一情况下，设置保留后，它可确保即使最终用户删除或编辑组邮箱中的频道邮件，该内容的不可变副本也通过电子数据展示搜索进行维护并可用。 法定保留通常应用于电子数据展示案例的上下文中。
 
-请参阅" [保留策略概述](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) "一文，详细了解 Microsoft 365 合规性中心的保留和保留。 有关法定保留的更多特定于 Teams 的信息，我们还提供 [Microsoft Teams](legal-hold.md) 用户或团队法定保留位置文章，供你了解详细信息。
+请参阅" [保留策略概述"](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 一文，详细了解 Microsoft 365 合规性中心的保留和保留。 有关法定保留的更多特定于 Teams 的信息，我们还提供 [Microsoft Teams](legal-hold.md) 用户或团队法定保留位置文章，供你了解详细信息。
 
 ### <a name="compliance-content-search"></a>合规性内容搜索
 
