@@ -56,8 +56,6 @@
       href: create-manager-directs-teams.md
     - name: 管理团队和频道策略
       href: teams-policies.md
-    - name: Teams 的敏感度标签
-      href: sensitivity-labels.md
     - name: 在 Teams 中设置频道审查
       href: manage-channel-moderation-in-teams.md
     - name: 在 Teams 中共享文件
@@ -1241,6 +1239,8 @@
           href: communication-compliance.md
         - name: 通话和会议的基于策略的录制
           href: teams-recording-policy.md
+        - name: 敏感度标签
+          href: sensitivity-labels.md
         - name: 数据丢失防护
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: 电子数据展示
