@@ -14,59 +14,59 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: 了解如何在 Microsoft 团队中使用 "内容搜索" 查询来自 Exchange、SharePoint Online、OneDrive for business 和 OneNote 的 Microsoft 团队信息。
+description: 了解如何使用 Microsoft 365 合规中心的内容搜索来搜索存储在 Exchange Online、SharePoint Online、OneDrive for Business 和 OneNote 中的 Microsoft Teams 内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d05d815a74fc395c06763920014b7de453847bec
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: f91e630b6f0666def3e64e40e68a6a3f18097152
+ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121522"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980436"
 ---
-<a name="use-content-search-in-microsoft-teams"></a><span data-ttu-id="0873e-103">在 Microsoft Teams 中使用内容搜索</span><span class="sxs-lookup"><span data-stu-id="0873e-103">Use Content Search in Microsoft Teams</span></span>
+<a name="use-content-search-in-microsoft-teams"></a><span data-ttu-id="b8ac5-103">在 Microsoft Teams 中使用内容搜索</span><span class="sxs-lookup"><span data-stu-id="b8ac5-103">Use Content search in Microsoft Teams</span></span>
 =====================================
 
 > [!NOTE]
-> <span data-ttu-id="0873e-104">[专用频道](private-channels.md)中的邮件和文件的内容搜索与在标准频道中的工作方式不同。</span><span class="sxs-lookup"><span data-stu-id="0873e-104">Content search of messages and files in [private channels](private-channels.md) work differently than in standard channels.</span></span> <span data-ttu-id="0873e-105">若要了解详细信息，请参阅[私人频道的内容搜索](#content-search-of-private-channels)。</span><span class="sxs-lookup"><span data-stu-id="0873e-105">To learn more, see [Content search of private channels](#content-search-of-private-channels).</span></span>
+> <span data-ttu-id="b8ac5-104">在专用频道中对消息 [和文件进行内容搜索](private-channels.md) 的方式与在标准通道中不同。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-104">Content search of messages and files in [private channels](private-channels.md) work differently than in standard channels.</span></span> <span data-ttu-id="b8ac5-105">若要了解更多信息，请参阅 [专用频道的内容搜索](#content-search-of-private-channels)。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-105">To learn more, see [Content search of private channels](#content-search-of-private-channels).</span></span>
 
-<span data-ttu-id="0873e-106">内容搜索提供了一种方法，可查询 Microsoft 团队信息，跨越 Exchange、SharePoint Online 和 OneDrive for business。</span><span class="sxs-lookup"><span data-stu-id="0873e-106">Content Search provides a way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.</span></span>
+<span data-ttu-id="b8ac5-106">内容搜索提供了一种跨 Exchange、SharePoint Online 和 OneDrive for Business 查询 Microsoft Teams 信息的方法。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-106">Content search provides a way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.</span></span>
 
-<span data-ttu-id="0873e-107">若要了解详细信息，请阅读[Microsoft 365 或 Office 365 中的内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。</span><span class="sxs-lookup"><span data-stu-id="0873e-107">To learn more, read [Content Search in Microsoft 365 or Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).</span></span>
+<span data-ttu-id="b8ac5-107">若要了解有关详细信息，请参阅 [Microsoft 365 中的内容搜索](https://docs.microsoft.com/microsoft-365/compliance/content-search)。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-107">To learn more, see [Content search in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/content-search).</span></span>
 
-<span data-ttu-id="0873e-108">例如，针对制造规范邮箱和制造规范 SharePoint 网站使用**内容搜索**，您可以从 Exchange、文件上传和 sharepoint Online 的修改以及 OneNote 更改中搜索团队标准频道对话。</span><span class="sxs-lookup"><span data-stu-id="0873e-108">For example, using **Content Search** against your Manufacturing Specs mailbox and Manufacturing Specs SharePoint site, you can search against Teams standard channel conversations from Exchange, file uploads and modifications from SharePoint Online, and OneNote changes.</span></span>
+<span data-ttu-id="b8ac5-108">例如，对制造规范邮箱和制造规范 SharePoint 网站使用内容搜索，可以针对 Exchange 中的 Teams 标准频道对话、SharePoint Online 中的文件上传和修改以及 OneNote 更改进行搜索。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-108">For example, using **Content search** against your Manufacturing Specs mailbox and Manufacturing Specs SharePoint site, you can search against Teams standard channel conversations from Exchange, file uploads and modifications from SharePoint Online, and OneNote changes.</span></span>
 
-<span data-ttu-id="0873e-109">您还可以将查询条件添加到**内容搜索**，以缩小返回的结果范围。</span><span class="sxs-lookup"><span data-stu-id="0873e-109">You can also add query criteria to the **Content Search** to narrow the results returned.</span></span> <span data-ttu-id="0873e-110">在上面的示例中，你可以查找使用 "**新工厂规范"** 关键字的内容。</span><span class="sxs-lookup"><span data-stu-id="0873e-110">In the above example, you can look for content where the keywords "**New Factory Specs"** were used.</span></span>
+<span data-ttu-id="b8ac5-109">您还可以向内容搜索添加查询 **条件以** 缩小返回的结果范围。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-109">You can also add query criteria to the **Content Search** to narrow the results returned.</span></span> <span data-ttu-id="b8ac5-110">在以上示例中，可以查找使用了关键字"新工厂规范 **"** 的内容。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-110">In the above example, you can look for content where the keywords "**New Factory Specs"** were used.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="0873e-111">添加搜索条件后，您可以将报表或数据导出到计算机进行分析。</span><span class="sxs-lookup"><span data-stu-id="0873e-111">After adding search conditions, you can export a report or the data to your computer for analysis.</span></span>
+> <span data-ttu-id="b8ac5-111">添加搜索条件后，可以将报表或实际内容导出到计算机进行分析。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-111">After adding search conditions, you can export a report or the actual content to your computer for analysis.</span></span>
 
-## <a name="content-search-of-private-channels"></a><span data-ttu-id="0873e-112">专用频道的内容搜索</span><span class="sxs-lookup"><span data-stu-id="0873e-112">Content search of private channels</span></span>
+## <a name="content-search-of-private-channels"></a><span data-ttu-id="b8ac5-112">专用频道的内容搜索</span><span class="sxs-lookup"><span data-stu-id="b8ac5-112">Content search of private channels</span></span>
 
-<span data-ttu-id="0873e-113">在私人频道中发送的消息记录将传递到所有私人频道成员的邮箱，而不是传递到组邮箱。</span><span class="sxs-lookup"><span data-stu-id="0873e-113">Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox.</span></span> <span data-ttu-id="0873e-114">记录的标题已格式化为指示它们是从哪个私人频道发送的。</span><span class="sxs-lookup"><span data-stu-id="0873e-114">The titles of the records are formatted to indicate which private channel they were sent from.</span></span>
+<span data-ttu-id="b8ac5-113">在私人频道中发送的消息记录将传递到所有私人频道成员的邮箱，而不是传递到组邮箱。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-113">Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox.</span></span> <span data-ttu-id="b8ac5-114">记录的标题已格式化为指示它们是从哪个私人频道发送的。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-114">The titles of the records are formatted to indicate which private channel they were sent from.</span></span>
 
-<span data-ttu-id="0873e-115">由于每个专用频道都有自己的 SharePoint 网站集，独立于父团队网站，因此专用通道中的文件独立于父团队进行管理。</span><span class="sxs-lookup"><span data-stu-id="0873e-115">Because each private channel has its own SharePoint site collection that's separate from the parent team site, files in a private channel are managed independently of the parent team.</span></span>
+<span data-ttu-id="b8ac5-115">由于每个专用频道都有自己的 SharePoint 网站集，与父团队网站分开，因此专用频道中的文件独立于父团队进行管理。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-115">Because each private channel has its own SharePoint site collection that's separate from the parent team site, files in a private channel are managed independently of the parent team.</span></span>
 
-<span data-ttu-id="0873e-116">团队不支持对单个频道进行内容搜索，因此必须搜索整个团队。</span><span class="sxs-lookup"><span data-stu-id="0873e-116">Teams doesn't support content search of a single channel, so the whole team must be searched.</span></span> <span data-ttu-id="0873e-117">若要执行私人频道的内容搜索，请搜索整个团队、与专用频道相关联的网站集（包括文件）和专用频道成员的邮箱（包括邮件）。</span><span class="sxs-lookup"><span data-stu-id="0873e-117">To perform a content search of a private channel, search across the team, the site collection associated with the private channel (to include files), and mailboxes of private channel members (to include messages).</span></span>
+<span data-ttu-id="b8ac5-116">Teams 不支持单个频道的内容搜索，因此必须搜索整个团队。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-116">Teams doesn't support content search of a single channel, so the whole team must be searched.</span></span> <span data-ttu-id="b8ac5-117">要执行专用频道的内容搜索，请在整个团队中搜索、与专用频道关联的网站集 (以包含文件) ，以及专用频道成员的邮箱 (以包含) 。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-117">To perform a content search of a private channel, search across the team, the site collection associated with the private channel (to include files), and mailboxes of private channel members (to include messages).</span></span>
 
-<span data-ttu-id="0873e-118">使用以下步骤标识要包括在内容搜索中的专用频道中的文件和邮件。</span><span class="sxs-lookup"><span data-stu-id="0873e-118">Use the following steps to identify files and messages in a private channel to include in  your content search.</span></span>
+<span data-ttu-id="b8ac5-118">使用以下步骤识别专用通道中要包括在内容搜索中的文件和消息。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-118">Use the following steps to identify files and messages in a private channel to include in  your content search.</span></span>
 
-### <a name="include-private-channel-files-in-a-content-search"></a><span data-ttu-id="0873e-119">在内容搜索中包括专用通道文件</span><span class="sxs-lookup"><span data-stu-id="0873e-119">Include private channel files in a content search</span></span>
+### <a name="include-private-channel-files-in-a-content-search"></a><span data-ttu-id="b8ac5-119">在内容搜索中包括专用频道文件</span><span class="sxs-lookup"><span data-stu-id="b8ac5-119">Include private channel files in a content search</span></span>
 
-<span data-ttu-id="0873e-120">在执行这些步骤之前，请安装[Sharepoint Online 命令行管理程序并连接到 SharePoint online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。</span><span class="sxs-lookup"><span data-stu-id="0873e-120">Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).</span></span>
+<span data-ttu-id="b8ac5-120">执行这些步骤之前，请安装[SharePoint Online 命令行管理程序并连接到 SharePoint Online。](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)</span><span class="sxs-lookup"><span data-stu-id="b8ac5-120">Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).</span></span>
 
-1. <span data-ttu-id="0873e-121">运行以下操作以获取与团队中的专用通道相关联的所有 SharePoint 网站集的列表。</span><span class="sxs-lookup"><span data-stu-id="0873e-121">Run the following to get a list of all SharePoint site collections associated with private channels in the team.</span></span>
+1. <span data-ttu-id="b8ac5-121">运行以下代码，获取与团队中的专用频道关联的所有 SharePoint 网站集的列表。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-121">Run the following to get a list of all SharePoint site collections associated with private channels in the team.</span></span>
 
     ```PowerShell
     Get-SPOSite
     ```
-2. <span data-ttu-id="0873e-122">运行以下 PowerShell 脚本，获取与团队和父团队组 ID 中的专用通道相关联的所有 SharePoint 网站集 Url 的列表。</span><span class="sxs-lookup"><span data-stu-id="0873e-122">Run the following PowerShell script to get a list of all SharePoint site collection URLs associated with private channels in the team and the parent team group ID.</span></span>
+2. <span data-ttu-id="b8ac5-122">运行以下 PowerShell 脚本，获取与团队中的专用频道关联的所有 SharePoint 网站集 URL 的列表和父团队组 ID。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-122">Run the following PowerShell script to get a list of all SharePoint site collection URLs associated with private channels in the team and the parent team group ID.</span></span>
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
-3. <span data-ttu-id="0873e-123">对于每个团队或组 ID，请运行以下 PowerShell 脚本以标识所有相关的专用通道站点。</span><span class="sxs-lookup"><span data-stu-id="0873e-123">For each team or group ID, run the following PowerShell script to identify all relevant private channel sites.</span></span>
+3. <span data-ttu-id="b8ac5-123">对于每个团队或组 ID，请运行以下 PowerShell 脚本来标识所有相关的专用频道站点。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-123">For each team or group ID, run the following PowerShell script to identify all relevant private channel sites.</span></span>
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -74,22 +74,22 @@ ms.locfileid: "45121522"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-### <a name="include-private-channel-messages-in-a-content-search"></a><span data-ttu-id="0873e-124">在内容搜索中包括专用频道消息</span><span class="sxs-lookup"><span data-stu-id="0873e-124">Include private channel messages in a content search</span></span>
+### <a name="include-private-channel-messages-in-a-content-search"></a><span data-ttu-id="b8ac5-124">在内容搜索中包括专用频道消息</span><span class="sxs-lookup"><span data-stu-id="b8ac5-124">Include private channel messages in a content search</span></span>
 
-<span data-ttu-id="0873e-125">在执行这些步骤之前，请确保安装了[最新版本的团队 PowerShell 模块](teams-powershell-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="0873e-125">Before you perform these steps, make sure you have the [latest version of the Teams PowerShell module](teams-powershell-overview.md) installed.</span></span>
+<span data-ttu-id="b8ac5-125">执行这些步骤之前，请确保已安装最新版本的 Teams [PowerShell 模块](teams-powershell-overview.md) 。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-125">Before you perform these steps, make sure you have the [latest version of the Teams PowerShell module](teams-powershell-overview.md) installed.</span></span>
 
-1. <span data-ttu-id="0873e-126">运行以下操作以获取团队中的专用通道的列表。</span><span class="sxs-lookup"><span data-stu-id="0873e-126">Run the following to get a list of private channels in the team.</span></span>
+1. <span data-ttu-id="b8ac5-126">运行以下代码，获取团队中的专用频道列表。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-126">Run the following to get a list of private channels in the team.</span></span>
 
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
-2. <span data-ttu-id="0873e-127">运行以下操作以获取专用通道成员的列表。</span><span class="sxs-lookup"><span data-stu-id="0873e-127">Run the following to get a list of private channel members.</span></span>
+2. <span data-ttu-id="b8ac5-127">运行以下代码获取专用通道成员的列表。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-127">Run the following to get a list of private channel members.</span></span>
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
-3. <span data-ttu-id="0873e-128">将团队中每个专用频道的所有成员的邮箱添加为内容搜索查询的一部分。</span><span class="sxs-lookup"><span data-stu-id="0873e-128">Include the mailboxes of all members from each private channel in the team as part of your content search query.</span></span>
+3. <span data-ttu-id="b8ac5-128">在内容搜索查询中包括团队中每个专用频道中所有成员的邮箱。</span><span class="sxs-lookup"><span data-stu-id="b8ac5-128">Include the mailboxes of all members from each private channel in the team as part of your content search query.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="0873e-129">相关主题</span><span class="sxs-lookup"><span data-stu-id="0873e-129">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="b8ac5-129">相关主题</span><span class="sxs-lookup"><span data-stu-id="b8ac5-129">Related topics</span></span>
 
-- [<span data-ttu-id="0873e-130">Microsoft 365 合规中心中的电子数据展示事例</span><span class="sxs-lookup"><span data-stu-id="0873e-130">eDiscovery cases in the Microsoft 365 Compliance Center</span></span>](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [<span data-ttu-id="b8ac5-130">Microsoft 365 合规中心中的电子数据展示事例</span><span class="sxs-lookup"><span data-stu-id="b8ac5-130">eDiscovery cases in the Microsoft 365 Compliance Center</span></span>](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
