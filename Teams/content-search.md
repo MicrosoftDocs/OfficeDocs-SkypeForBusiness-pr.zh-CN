@@ -14,59 +14,59 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: 了解如何在 Microsoft 团队中使用 "内容搜索" 查询来自 Exchange、SharePoint Online、OneDrive for business 和 OneNote 的 Microsoft 团队信息。
+description: 了解如何使用 Microsoft 365 合规中心的内容搜索来搜索存储在 Exchange Online、SharePoint Online、OneDrive for Business 和 OneNote 中的 Microsoft Teams 内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d05d815a74fc395c06763920014b7de453847bec
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: f91e630b6f0666def3e64e40e68a6a3f18097152
+ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121522"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980436"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft Teams 中使用内容搜索
 =====================================
 
 > [!NOTE]
-> [专用频道](private-channels.md)中的邮件和文件的内容搜索与在标准频道中的工作方式不同。 若要了解详细信息，请参阅[私人频道的内容搜索](#content-search-of-private-channels)。
+> 在专用频道中对消息 [和文件进行内容搜索](private-channels.md) 的方式与在标准通道中不同。 若要了解更多信息，请参阅 [专用频道的内容搜索](#content-search-of-private-channels)。
 
-内容搜索提供了一种方法，可查询 Microsoft 团队信息，跨越 Exchange、SharePoint Online 和 OneDrive for business。
+内容搜索提供了一种跨 Exchange、SharePoint Online 和 OneDrive for Business 查询 Microsoft Teams 信息的方法。
 
-若要了解详细信息，请阅读[Microsoft 365 或 Office 365 中的内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
+若要了解有关详细信息，请参阅 [Microsoft 365 中的内容搜索](https://docs.microsoft.com/microsoft-365/compliance/content-search)。
 
-例如，针对制造规范邮箱和制造规范 SharePoint 网站使用**内容搜索**，您可以从 Exchange、文件上传和 sharepoint Online 的修改以及 OneNote 更改中搜索团队标准频道对话。
+例如，对制造规范邮箱和制造规范 SharePoint 网站使用内容搜索，可以针对 Exchange 中的 Teams 标准频道对话、SharePoint Online 中的文件上传和修改以及 OneNote 更改进行搜索。
 
-您还可以将查询条件添加到**内容搜索**，以缩小返回的结果范围。 在上面的示例中，你可以查找使用 "**新工厂规范"** 关键字的内容。
+您还可以向内容搜索添加查询 **条件以** 缩小返回的结果范围。 在以上示例中，可以查找使用了关键字"新工厂规范 **"** 的内容。
 
 > [!TIP]
-> 添加搜索条件后，您可以将报表或数据导出到计算机进行分析。
+> 添加搜索条件后，可以将报表或实际内容导出到计算机进行分析。
 
 ## <a name="content-search-of-private-channels"></a>专用频道的内容搜索
 
 在私人频道中发送的消息记录将传递到所有私人频道成员的邮箱，而不是传递到组邮箱。 记录的标题已格式化为指示它们是从哪个私人频道发送的。
 
-由于每个专用频道都有自己的 SharePoint 网站集，独立于父团队网站，因此专用通道中的文件独立于父团队进行管理。
+由于每个专用频道都有自己的 SharePoint 网站集，与父团队网站分开，因此专用频道中的文件独立于父团队进行管理。
 
-团队不支持对单个频道进行内容搜索，因此必须搜索整个团队。 若要执行私人频道的内容搜索，请搜索整个团队、与专用频道相关联的网站集（包括文件）和专用频道成员的邮箱（包括邮件）。
+Teams 不支持单个频道的内容搜索，因此必须搜索整个团队。 要执行专用频道的内容搜索，请在整个团队中搜索、与专用频道关联的网站集 (以包含文件) ，以及专用频道成员的邮箱 (以包含) 。
 
-使用以下步骤标识要包括在内容搜索中的专用频道中的文件和邮件。
+使用以下步骤识别专用通道中要包括在内容搜索中的文件和消息。
 
-### <a name="include-private-channel-files-in-a-content-search"></a>在内容搜索中包括专用通道文件
+### <a name="include-private-channel-files-in-a-content-search"></a>在内容搜索中包括专用频道文件
 
-在执行这些步骤之前，请安装[Sharepoint Online 命令行管理程序并连接到 SharePoint online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。
+执行这些步骤之前，请安装[SharePoint Online 命令行管理程序并连接到 SharePoint Online。](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
-1. 运行以下操作以获取与团队中的专用通道相关联的所有 SharePoint 网站集的列表。
+1. 运行以下代码，获取与团队中的专用频道关联的所有 SharePoint 网站集的列表。
 
     ```PowerShell
     Get-SPOSite
     ```
-2. 运行以下 PowerShell 脚本，获取与团队和父团队组 ID 中的专用通道相关联的所有 SharePoint 网站集 Url 的列表。
+2. 运行以下 PowerShell 脚本，获取与团队中的专用频道关联的所有 SharePoint 网站集 URL 的列表和父团队组 ID。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
-3. 对于每个团队或组 ID，请运行以下 PowerShell 脚本以标识所有相关的专用通道站点。
+3. 对于每个团队或组 ID，请运行以下 PowerShell 脚本来标识所有相关的专用频道站点。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -76,19 +76,19 @@ ms.locfileid: "45121522"
 
 ### <a name="include-private-channel-messages-in-a-content-search"></a>在内容搜索中包括专用频道消息
 
-在执行这些步骤之前，请确保安装了[最新版本的团队 PowerShell 模块](teams-powershell-overview.md)。
+执行这些步骤之前，请确保已安装最新版本的 Teams [PowerShell 模块](teams-powershell-overview.md) 。
 
-1. 运行以下操作以获取团队中的专用通道的列表。
+1. 运行以下代码，获取团队中的专用频道列表。
 
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
-2. 运行以下操作以获取专用通道成员的列表。
+2. 运行以下代码获取专用通道成员的列表。
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
-3. 将团队中每个专用频道的所有成员的邮箱添加为内容搜索查询的一部分。
+3. 在内容搜索查询中包括团队中每个专用频道中所有成员的邮箱。
 
 ## <a name="related-topics"></a>相关主题
 
