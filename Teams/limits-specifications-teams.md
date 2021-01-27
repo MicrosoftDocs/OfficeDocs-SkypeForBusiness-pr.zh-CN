@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc3a2597c82bfce0f920f511677f9d6a0bf7e6fa
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786784"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973066"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -39,7 +39,7 @@ ms.locfileid: "49786784"
 |团队中的成员数 | 10,000<sup>5</sup>     |
 |每个团队的所有者数 | 100   |
 |租户中允许的组织范围内的团队数 | 5     |
-|[组织范围内的团队](create-an-org-wide-team.md)中的成员数 | 5,000       |
+|[组织范围内的团队](create-an-org-wide-team.md)中的成员数 | 10,000       |
 |全局管理员可创建的团队数        |  500,000   |
 |Microsoft 365 或 Office 365 组织可拥有的团队数    | 500,000&sup2;     |
 |每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
@@ -57,7 +57,7 @@ ms.locfileid: "49786784"
 
 <sup>4</sup> 28 KB 是一个近似限制，因为它包含消息本身（文本和图像链接等）、@提及、连接器数量和回应。
 
-<sup>5</sup> GCC 的 团队中仅可容纳 5000 名成员，而 GCCH/DoD 的团队只能容纳 2500 名成员。
+<sup>5</sup> GCC 中的团队仅可容纳 名成员，而 GCCH/DoD 中的团队仅可容纳 2500 名成员。
 
 ## <a name="messaging"></a>消息传递
 
