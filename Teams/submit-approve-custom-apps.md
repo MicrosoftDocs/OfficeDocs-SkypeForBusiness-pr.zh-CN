@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何批准使用 Microsoft Teams 中的 Teams 应用提交 API 提交的自定义应用。
-ms.openlocfilehash: 058911d2d84d71ca6175e2bdeb6866807c218631
-ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
+ms.openlocfilehash: 6b9304cf2af9e45dd9fd2955cda6498ce1dbc3ae
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49776883"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043966"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>发布通过 Teams 应用提交 API 提交的自定义应用
 
@@ -69,9 +69,9 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target
 
 单击应用名称转到应用详细信息页。 在 **"关于** "选项卡上，可以查看有关应用的详细信息，包括说明、状态、提交者以及应用 ID。
 
-已提交应用的 ！应用详细信息页] (媒体/custom-app-lifecycle-app-details.png) 
+![已提交应用的应用详细信息页面](media/custom-app-lifecycle-app-details.png)
 
-有关使用图形 API 检查发布 **状态的信息**，请参阅 <a href="https://docs.microsoft.com/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">此处</a>。
+有关使用图形 API 检查发布 **状态的信息**，请参阅 <a href="https://docs.microsoft.com/graph/api/appcatalogs-list-teamsapps?view=graph-rest-1.0&tabs=http#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">此处</a>。
 
 ## <a name="publish"></a>发布
 
@@ -80,7 +80,7 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"Teams 应用**  >  **管理应用"。**
 2. 单击应用名称转到应用详细信息页，然后在"发布状态"框中选择"发布 **"。**
 
-    发布应用后，"发布"**状态将更改** 为 **"** 已发布"，"**状态"会自动** 更改为"允许 **"。**
+    发布应用后，"发布"**状态将更改** 为 **"** 已发布"，"状态"**会自动** 更改为"允许 **"。**
 
 ## <a name="set-up-and-manage"></a>设置和管理
 
@@ -96,7 +96,7 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target
 
 可以搜索应用审核日志查看组织中 Teams 应用活动。 若要详细了解如何搜索 审核日志并查看记录在 审核日志 中的 Teams 活动列表，请参阅"在 审核日志 中搜索 <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">活动</a>。
 
-在搜索安全中心审核日志，首先必须打开安全中心& <a href="https://protection.office.com" target="_blank">审核</a>。 若要了解有关详细信息，请参阅 <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">审核日志打开或关闭搜索</a>。 请记住，只有启用审核时，审核数据才可用。
+在搜索安全中心审核日志，首先在安全与合规中心& <a href="https://protection.office.com" target="_blank">审核</a>。 若要了解有关详细信息，请参阅 <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">审核日志打开或关闭搜索</a>。 请记住，只有启用审核时，审核数据才可用。
 
 ## <a name="discover-and-adopt"></a>发现和采用
 
@@ -110,7 +110,7 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target
 
 若要更新应用，开发人员应继续按照"开发"部分中 [的步骤](#develop) 操作。
 
-当开发人员将更新提交到已发布的自定义应用时，您将在"管理应用"页面的"待定 **审批** " <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">小组件中收到通知</a> 。 在表中，**应用的发布** 状态将设置为 **"已提交更新"。**
+当开发人员将更新提交到已发布的自定义应用时，您将在"管理应用"页面的"待定 **审批** " <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">小组件中收到通知</a> 。 在表中，**应用的** 发布状态将设置为"已提交 **更新"。**
 
 ![显示挂起的请求和应用状态的"管理应用"页 ](media/custom-app-lifecycle-update-submitted.png)
 
@@ -126,7 +126,7 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target
 
 请记住以下事项：
 
-- 应用获得批准后，任何一个都可以向应用提交更新。 这意味着其他开发人员（包括最初提交该应用的开发人员）可以提交应用更新。
+- 应用获得批准后，任何用户都可以向应用提交更新。 这意味着其他开发人员（包括最初提交该应用的开发人员）可以提交应用更新。
 - 当开发人员提交应用并且请求挂起时，只有该开发人员才能向应用提交更新。 其他开发人员只能在应用获得批准后提交更新。
 
 有关使用图形 API 更新应用的信息，请参阅 <a href="https://docs.microsoft.com/graph/api/teamsapp-update?view=graph-rest-1.0#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">此处</a>。
@@ -139,7 +139,7 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target
 * 现有机器人的"botId"属性已更改
 * 现有机器人的"isNotificationOnly"属性已更改
 * 机器人的"supportsFiles"属性已更改
-* 添加或删除了消息传送扩展
+* 已添加或删除消息扩展
 * 添加了一个新连接器
 * 添加了新的静态选项卡
 * 添加了新的"可配置"选项卡

@@ -17,20 +17,20 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft Teams 会议室托管服务。
 f1keywords: ''
-ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a70a07d4f17e4eb956c005ff4296a8f1b69f4d37
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662657"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043946"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 会议室托管服务
 
 Microsoft Teams 会议室托管服务是一种基于云的 IT 管理和监视服务，可使 Microsoft Teams 会议室设备及其外围设备保持最新状态并主动受到监视，支持针对出色的用户体验进行优化的环境。
 
-Microsoft Teams 会议室托管服务适用于希望通过为 Microsoft Teams 会议室设备提供主动管理来改善其会议室体验并快速扩展其占用空间的组织。 该服务允许组织节省时间、资金和专业知识，否则花费在"自己执行"聊天室管理上。  
+Microsoft Teams 会议室托管服务适用于希望通过为 Microsoft Teams 会议室设备提供主动管理来改善其会议室体验并快速扩展其占用空间的组织。 该服务允许组织节省时间、资金和专业知识，否则花费在"自己执行"房间管理上。  
 
-Microsoft Teams 会议室托管服务建立在 Microsoft 在支持软件管理最终点、机器学习和智能自动化方面的专业知识的强大基础。 Microsoft Teams 会议室托管服务可帮助组织跨多个远程站点提供高质量的体验，并可以适应组织可能需要的任何增长速度。
+Microsoft Teams 会议室托管服务建立在 Microsoft 在支持软件管理终点、机器学习和智能自动化方面的专业知识的强大基础。 Microsoft Teams 会议室托管服务可帮助组织跨多个远程站点提供高质量的体验，并可以适应组织可能需要的任何增长速度。
 
 ## <a name="service-capabilities"></a>服务功能
 
@@ -38,13 +38,13 @@ Microsoft Teams 会议室托管服务建立在 Microsoft 在支持软件管理�
 
 |功能  |说明  |
 |---------|---------|
-|**房间规划和推出**   |房间规划功能，可让你了解房间设备库存，并针对新房间部署制定设备标准。         |
+|**房间规划和推出**   |房间规划功能，可让你了解会议室设备库存，并针对新房间部署制定设备标准。         |
 |**监视和故障排除**  |聊天室运行状况监视，可检测房间系统和外围设备的问题，并提供由 Microsoft 驱动的主动事件管理响应。         |
 |**更新管理**    |管理和交付由 Microsoft 执行的会议室系统及其外围设备的应用程序和固件更新。         |
 |**见解和建议**     |深入了解客户的运行状况、使用情况、利用率和设备可靠性。         |
 |**合规性和认证**   |满足所有适用的标准Microsoft Online Services。         |
 |**客户支持**   |通过专用的 Microsoft Teams 会议室托管服务运营中心或 SOC 中心提供 24x7x365 (票证) 。 在适用时，代表你向其他主要供应商升级。 若要了解有关详细信息，请参阅 [客户支持](#customer-support)。|
-|**支持的设备**    |经过认证的 Microsoft Teams 会议室系统及其外围设备。         |
+|**支持的设备**    |经过认证的 Microsoft Teams 会议室系统及其外围设备。<br>*Surface Hub 支持在 2021 年下半月提供*        |
 |**支持的区域**    |请参阅["支持的区域"。](#supported-regions)        |
 |**集成**    |可与客户托管的"现在服务"集成。         |
 
@@ -82,38 +82,95 @@ Microsoft Teams 会议室托管服务通过专用的 Microsoft Teams 会议室�
 |**通过门户支持可用性**   | 24X7      |
 |**Microsoft Teams 会议室托管服务 SOC 的初始响应时间**   |  4 小时       |
 |**在客户不活动的情况下自动关闭票证**    |客户启动的票证：3 个工作日<br>系统启动的票证：15 个工作日</li>   </ul>      |
-|**重定向到更广泛的 Microsoft 支持**   |与 Microsoft Teams 会议室托管服务范围以外的其他 Microsoft 产品相关的问题将定向到相应的支持团队。         |
+|**重定向到更广泛的 Microsoft 支持**   |与 Microsoft Teams 会议室托管服务范围外的另一个 Microsoft 产品相关的问题将定向到相应的支持团队。         |
 |**重定向到原始设备制造商 (OEM) 支持**    |Microsoft Teams 会议室托管服务 SOC 致力于了解问题，并有助于协调与 OEM 的支持（如果适用）。 在某些情况下，您可能负责直接与 OEM 合作。         |
 
 此外，请记住，Microsoft Teams 会议室托管服务 SOC 将协助组织的 IT 运营，不能替代最终用户的技术支持服务。
 
-有关 Microsoft Teams 会议室托管服务支持覆盖范围的更多详细信息，请参阅"[支持包含和排除项"。](#support-inclusions-and-exclusions)
+有关 Microsoft Teams 会议室托管服务支持覆盖范围的更多详细信息，请参阅"支持[包含和排除项"。](#support-inclusions-and-exclusions)
 
 ## <a name="supported-regions"></a>支持的区域
 
-Microsoft Teams 会议室托管服务可在以下国家和地区使用。
+Microsoft Teams 会议室托管服务可在以下国家和地区使用。 
 
+- 安道尔
 - 澳大利亚
 - 奥地利
 - 比利时
-- 加拿大 (魁北克省) 
+- 布维岛
+- 巴西
+- 保加利亚
+- 加拿大
+- 圣诞节岛
+- 科科斯 (基林) 群岛
+- 维尔京群岛
+- 克罗地亚
+- 塞浦路斯
+- 捷克共和国
 - 丹麦
-- 芬兰
+- 爱沙尼亚
+- 法罗群岛
+- 斐济
+- 法国
 - 德国
+- 直布罗陀
 - 希腊
+- 格陵兰
+- 赫德岛和 Mc一岛
+- 香港特别行政区
+- 匈牙利
+- 冰岛
+- 印度
 - 爱尔兰
 - 意大利
+- 日本
+- 基里巴斯
+- 拉脱维亚
+- 莱索托
+- 列支敦士登
+- 立陶宛
 - 卢森堡
+- 澳门特别行政区
+- 马耳他
+- 马绍尔群岛
+- 墨西哥
+- 密克罗尼西亚
 - 摩纳哥
+- 澳大利亚
 - 荷兰
 - 新西兰
+- 纽埃
+- 诺folk 岛
+- 北马里亚纳群岛
 - 挪威
+- 帕劳
+- 新西兰
+- 基茨凯恩群岛
+- 波兰
 - 葡萄牙
+- 罗马尼亚
+- 俄罗斯
+- 圣马丁和密克隆群岛
+- 萨摩亚
+- 圣马力诺
+- 新加坡
+- 斯洛伐克
+- 斯洛文尼亚
+- 群岛
+- 南非
 - 西班牙
+- 斯威士兰
 - 瑞典
 - 瑞士
+- 台湾
+- 新西兰
+- 汤加
+- 秘鲁
 - 英国
 - 美国
+- 萨摩亚
+- 梵蒂冈城
+- 瓦利斯和富图纳
 
 ## <a name="support-inclusions-and-exclusions"></a>支持包含和排除项
 
@@ -129,7 +186,7 @@ Microsoft Teams 会议室托管服务可在以下国家和地区使用。
 |**RMA 和设备更换**   |         |         |
 |对经过认证的外围设备（如相机、麦克风和扬声器）执行初始调查。 向 OEM 支持人员提交，让 OEM 满足更换或保修请求。    |采购、寄送或安装更换件。         |OEM 支持         |
 |**根本原因分析**     |         |         |
-|在会议室体验中遇到问题的所有根本原因均在可用时提供，但会尽可能执行。     |不包括第三方软件问题的根本原因分析。         |第三方标准支持渠道         |
+|在会议室体验中遇到问题的所有根本原因均在可用时提供，但会尽可能执行。     |不包括针对第三方软件问题的根本原因分析。         |第三方标准支持渠道         |
 |**会议体验**   |         |         |
 |在 Microsoft Teams 会议室应用上调查会议设置中的问题，并应要求提供在设备上正确配置服务质量的指南。      |此范围不包括通话质量问题或网络相关问题的根本原因分析或调查。         |Microsoft 主流支持         |
 |**修正、载入和持续**     |         |         |
@@ -139,7 +196,7 @@ Microsoft Teams 会议室托管服务可在以下国家和地区使用。
 
 Microsoft Teams 会议室托管服务监视设备、收集设备数据，并允许 Microsoft 远程访问和管理会议室设备。 Microsoft Teams 会议室托管服务无法访问会议实时内容。
 
-收集的数据特定于聊天室帐户，而不是单个用户。 使用设备期间，活动日志中可能包含对单个用户的附带引用。 Microsoft 根据 Microsoft 隐私声明处理 [收集的数据](https://aka.ms/privacy)。  
+收集的数据特定于聊天室帐户，而不是单个用户。 使用设备期间，活动日志中可能包含对单个用户的附带引用。 收集的数据由 Microsoft 根据 Microsoft 隐私声明 [进行处理](https://aka.ms/privacy)。  
 
 ## <a name="related-topics"></a>相关主题
 

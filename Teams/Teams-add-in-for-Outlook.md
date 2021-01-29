@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03d6980b7340245eff576ab33e9993eb3a06c68c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bd6959522c756f02a983742fbbc136cd2ef3174a
+ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827332"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50037798"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -180,4 +180,6 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 
 ## <a name="related-topics"></a>相关主题
 
-[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+- [从 Outlook 安排 Teams 会议](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
