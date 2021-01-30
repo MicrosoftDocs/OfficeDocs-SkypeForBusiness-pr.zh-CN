@@ -1,7 +1,7 @@
 ---
 title: Teams 和 Skype 互操作性
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,16 +13,16 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解组织中 Teams 用户与 Skype (Consumer) 互操作性。
 localization_priority: Normal
-ms.openlocfilehash: 9063fc0f13bab9d0168296f9e77c5136e760b7a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8bb6a83eddc60ff680d1a08c7266e082dd8b0188
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802352"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055644"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams 和 Skype 互操作性
 
-本文概述了 Microsoft Teams 与 Skype (Consumer) 之间的互操作性) 。 了解 Teams 用户和 Skype 用户如何通过聊天和通话以及应用的管理控件进行通信。
+本文概述了 Microsoft Teams 与 Skype (Consumer) 之间的互操作性) 。 了解 Teams 用户和 Skype 用户如何通过聊天和通话以及适用管理控件进行通信。
 
 你组织的 Teams 用户可以使用其电子邮件地址与 Skype 用户聊天和呼叫 Skype 用户，反之亦然。
 
@@ -42,7 +42,7 @@ ms.locfileid: "49802352"
 
 Teams 用户可以通过在新聊天或搜索栏中键入其电子邮件地址来搜索 Skype 用户。  然后，Teams 用户可以在搜索结果中选择 Skype 用户以开始聊天或呼叫他们。
 
-Skype 用户可能会选择不在搜索结果中显示。 在这种情况下，它们不会显示在 Teams 的搜索结果中，Teams 用户无法找到它们。
+Skype 用户可能会选择不在搜索结果中显示。 在这种情况下，它们不会显示在 Teams 的搜索结果中，而 Teams 用户无法找到它们。
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype 用户启动与 Teams 用户的聊天或通话
 
@@ -92,7 +92,7 @@ Teams 中已阻止的 Skype 用户以及其他人和公共电话交换网 (PSTN)
 ### <a name="using-powershell"></a>使用 PowerShell
 
 执行以下操作： 
-1. 将 [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet 与参数一起用于控制 Teams 用户是否可以与 ```EnablePublicCloudAccess``` Skype 用户通信。 设置参数 ```true``` 以允许 Teams 用户与 Skype 用户通信。 可以使用该 ```EnablePublicCloudAudioVideoAccess``` 参数来启用/禁用音频/视频呼叫。
+1. 将 [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet 与参数一起用于控制 ```EnablePublicCloudAccess``` Teams 用户是否可以与 Skype 用户通信。 设置参数以 ```true``` 允许 Teams 用户与 Skype 用户通信。 可以使用该 ```EnablePublicCloudAudioVideoAccess``` 参数来启用/禁用音频/视频呼叫。
 
 2. 将 [Set-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) cmdlet 与参数集一起使用，以便 ```Provider``` ```"WindowsLive"``` Teams 用户可以与 Skype 用户通信。
 

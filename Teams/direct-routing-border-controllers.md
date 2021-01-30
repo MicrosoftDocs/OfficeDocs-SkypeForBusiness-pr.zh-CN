@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解哪些会话边界控制器 (SDC) 直接路由的认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc9079701fdf34ff5b48aee5f127f9f0af4a8aae
-ms.sourcegitcommit: bf4dde013689bc3e76ffb03fe763cd9ff90e0add
+ms.openlocfilehash: ab409ccc93d08c20bb4498e39f26e1cd9bde6dcb
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "49992423"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055664"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -76,7 +76,7 @@ Microsoft 与每个供应商合作，以：
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) 1000 系列集成服务路由器        |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r (推荐的 17.3.2)          |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[内部紧急路由服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW 网关内 (网关) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
 |                                   |     Cisco Unified Border Element (CUBE) 4000 系列集成服务路由器        |     &#10004;   | &#10004; |   支持的 IOS XE 阿姆斯特丹 17.2.1r (推荐的 17.3.2)          |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[内部紧急路由服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW 网关内 (网关) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
 |                                   |     适用于 1000V (路由器) CUBE 的 Cisco 统一边界元素       |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r (推荐的 17.3.2)          |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[内部紧急路由服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW 网关内 (网关) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
-|                                 |     适用于 1000 系列聚合 (路由器) CUBE 的 Cisco 统一边界元素      |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r (推荐的 17.3.2)          |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[内部紧急路由服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW 网关内 (网关) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
+|                                 |     Cisco Unified Border Element (CUBE) 1000 系列聚合服务路由器      |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r (推荐的 17.3.2)          |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[内部紧急路由服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW 网关内 (网关) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                                 |     Cisco Unified Border Element (CUBE) 用于 Catalyst 8000 Edge 平台      |     &#10004;   | &#10004; |      IOS XE 阿姆斯特丹 17.3.2      |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[内部紧急路由服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW 网关内 (网关) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avava](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    适用于 Enterprise ( ASBCE)     |     &#10004;     |           |       版本 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 会话边界控制器    |     &#10004;     |           |       1908 (19.5)        |     |    | 
@@ -85,6 +85,8 @@ Microsoft 与每个供应商合作，以：
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos 统一 OpenScape 会话边界控制器   |     &#10004;     |          |      V10R1.2       |     |    | 
+
 
 <br/>
 <br/>
