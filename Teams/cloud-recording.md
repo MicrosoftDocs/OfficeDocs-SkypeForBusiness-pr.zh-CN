@@ -18,12 +18,12 @@ description: 有关在 Teams 中部署云语音功能以录制 Teams 会议和�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 40fad38d8c77d8194d2bf24a451fb9438f10c586
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 5fb43635d8155d6fe98f02e561ea843ca8c74a4e
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918968"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055634"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -55,7 +55,7 @@ ms.locfileid: "49918968"
 > 如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这意味着录制内容不会存储在 Microsoft Stream 中，而是存储在 Async 媒体服务 (AMS) 在删除前有 21 天的限制。 目前管理员无法控制或管理它，包括无法删除它。
 
 > [!IMPORTANT]
-> 另请注意，对于 AMS 上的录制，录制保留期受聊天消息本身的影响。 因此，删除原始 AMS 录制聊天消息将阻止用户访问录制内容。 有两种方案可能会影响这一点。 1) 用户手动删除聊天消息 - 在这种情况下，由于原始消息已不存在，用户将无法再访问录制内容，并且无法再进行下载。 但是，录制内容本身仍可在 Microsoft 的内部系统中保留一段时间， (不超过原始 21 天) 。 2) 聊天消息由聊天保留策略删除 - AMS 录制直接绑定到聊天保留策略。 因此，虽然 AMS 上的录制在删除前默认将保留 21 天，但如果在 21 天期限之前删除了聊天消息，由于聊天消息保留策略，也将删除录制内容。 此后无法恢复录制内容。
+> 另请注意，对于 AMS 上的录制，录制保留期受聊天消息本身的影响。 因此，删除原始 AMS 录制聊天消息将阻止用户访问录制内容。 有两种方案可能会影响这一点。 1) 用户手动删除聊天消息 - 在这种情况下，由于原始消息已不存在，用户将无法再访问录制内容，并且无法再进行下载。 但是，录制内容本身可能仍在 Microsoft 的内部系统中保留一 (不超过原始的 21 天) 。 2) 聊天消息由聊天保留策略删除 - AMS 录制直接绑定到聊天保留策略。 因此，虽然默认情况下 AMS 上的录制内容将在删除前保留 21 天，但如果在 21 天期限之前删除了聊天消息，由于聊天消息保留策略，也将删除录制内容。 此后无法恢复录制内容。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>为组织中的用户设置 Teams 云会议录制
 
@@ -63,7 +63,7 @@ ms.locfileid: "49918968"
 
 ### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>为组织中用户启用 Microsoft Stream
 
-Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一部分提供，或作为独立服务的一部分提供。  有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。  Microsoft Stream 现已包含在 Microsoft 365 商业版、Microsoft 365 商业标准版和 Microsoft 365 商业基本版中。
+Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一部分提供，或作为独立服务的一部分提供。  有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。  Microsoft Stream 现已包含在 Microsoft 365 商业版、Microsoft 365 商业标准版和 Microsoft 365 商业版基本版中。
 
 详细了解如何在 [Microsoft 365 或 Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 中向用户分配许可证，以便用户可以访问 Microsoft Stream。 确保未针对用户阻止 Microsoft Stream，如"阻止 Microsoft Stream 注册" [中的定义](https://docs.microsoft.com/stream/disable-user-organization)。
 
@@ -120,36 +120,37 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
 
-Here's a summary of what happens when you turn on meeting recording when this change takes effect:
+下面总结了当你在此更改生效后打开会议录制时会发生的情况：
 
-|If you turn on meeting recordings...|Meeting recordings are stored... |
+|如果打开会议录制...|会议录像的存储位置 |
 |---|---|
-|Before Microsoft Stream is available in your in-country data residency region |In the nearest Microsoft Stream region|
-|After Microsoft Stream is available in your in-country data residency region |In your in-country data residency region|
+|在 Microsoft Stream 在你的国内数据驻留区域可用之前 |位于最近的 Microsoft Stream 区域|
+|Microsoft Stream 在你的国内数据驻留区域可用后 |在你的国内数据驻留区域|
 
-For new and existing tenants that haven't yet turned on meeting recording, new recordings are stored in-country after Microsoft Stream is available in the in-country data residency region. However, any tenant that enables meeting recording before Microsoft Stream is available in the in-country data residency region will continue to use the Microsoft Stream storage for existing and new recordings, even after Microsoft Stream is available in the in-country data residency region.
+对于尚未开启会议录制的新增和现有租户，当 Microsoft Stream 在国内数据驻留区域中可用后，新录制的内容将存储在国内。 但是，在 Microsoft Stream 可用于国内数据驻留区域之前启用会议录制的任何租户将继续将 Microsoft Stream 存储用于现有和新录制，即使 Microsoft Stream 在地区内数据驻留区域可用。
 
-To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+若要查找你的 Microsoft Stream 数据的存储区域，请在 Microsoft Stream 中单击右上角的 **?**， 单击“**关于 Microsoft Stream**”，然后单击“**您的数据存储于**”。  若要深入了解 Microsoft Stream 存储数据的区域，请参阅 [Microsoft Stream 常见问题解答](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
 
-To learn more about where data is stored across services in Microsoft 365 or Office 365, see [Where is your data located?](https://products.office.com/where-is-your-data-located?rtc=1)
+若要详细了解 Microsoft 365 或 Office 365 中跨服务存储数据的位置，请参阅数据所在的 [位置？](https://products.office.com/where-is-your-data-located?rtc=1)
 
-### Turn on or turn off recording transcription
+### <a name="turn-on-or-turn-off-recording-transcription"></a>打开或关闭录制转录
 
-This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
+此设置控制在播放会议录制期间字幕和听录功能是否可用。 如果关闭此功能，在播放会议录制期间，"搜索"和"抄送"选项将不可用。 开始录制的人需要启用此设置，以便录制还包括听录。
 
 > [!NOTE]
-> That transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting. They are stored together with the meeting recordings in Microsoft Stream cloud storage.
+> 目前，仅 Teams 中语言设置为英语以及会议中会说出英语的用户支持录制的会议的听录。 它们与会议录制一起存储在 Microsoft Stream 云存储中。
 
-You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
+你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 
-In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md#allow-transcription).
+在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许转录**”设置。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](meeting-policies-in-teams.md#allow-transcription)。
 
-Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+借助 PowerShell，你可以配置 TeamsMeetingPolicy 中的 AllowTranscription 设置。 若要了解详细信息，请参阅[New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
 
-Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowTranscription disabled by default.
+除非你已为用户分配了自定义策略，否则用户将获得全局策略，该策略默认禁用 AllowTranscription。
 
-For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
+若要让用户回退到全局策略，请使用以下 cmdlet 删除用户的特定策略分配：
 
 ```powershell
 Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
