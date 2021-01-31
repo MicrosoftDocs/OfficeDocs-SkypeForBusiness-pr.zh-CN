@@ -1,1734 +1,1735 @@
-- name: 欢迎使用 Teams
-  href: teams-overview.md
-- name: 体系结构和电话解决方案海报
-  href: teams-architecture-solutions-posters.md
-- name: 支持远程工作人员 (WFH)
-  href: support-remote-work-with-teams.md
-- name: 培训
-  items:
-    - name: 概述
-      href: training-microsoft-teams-landing-page.md
-    - name: Teams 管理员培训
-      href: itadmin-readiness.md
-    - name: Ignite 2020 Teams 会议
-      href: ignite-2020-landing-page.md
-    - name: Teams 实时培训
-      href: instructor-led-training-teams-landing-page.yml
-    - name: Teams 联机培训
-      href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
-- name: 如何推广 Teams
-  href: How-to-roll-out-teams.md
-- name: 入门
-  items:
-    - name: 概述
-      href: get-started-with-teams-quick-start.md
-    - name: 第 1 步：创建第一个团队和频道
-      href: get-started-with-teams-create-your-first-teams-and-channels.md
-    - name: 第 2 步：登记早期采用者
-      href: get-started-with-teams-onboard-early-adopters.md
-    - name: 第 3 步：监控使用和反馈
-      href: get-started-with-teams-monitor-usage-and-feedback.md
-    - name: 的 4 步：规划组织范围内的部署
-      href: get-started-with-teams-resources-for-org-wide-rollout.md
-- name: 聊天、团队和频道
-  items:
-    - name: 规划部署
-      href: deploy-chat-teams-channels-microsoft-teams-landing-page.md
-    - name: 使用 Teams 顾问来推出 Teams
-      href: use-advisor-teams-roll-out.md
-    - name: 团队和频道概述
-      href: teams-channels-overview.md
-    - name: 私人频道概述
-      href: private-channels.md
-    - name: 管理私人频道的生命周期
-      href: private-channels-life-cycle-management.md
-    - name: 在 Teams 中分配团队所有者和成员
-      href: assign-roles-permissions.md
-    - name: 团队的动态成员资格概述
-      href: dynamic-memberships.md
-    - name: 在 Teams 中组织团队的最佳做法
-      href: best-practices-organizing.md
-    - name: 管理大型 Teams
-      href: best-practices-large-groups.md
-    - name: 在 Teams 中创建全组织范围小组
-      href: create-an-org-wide-team.md
-    - name: 创建人员经理团队
-      href: create-manager-directs-teams.md
-    - name: 管理团队和频道策略
-      href: teams-policies.md
-    - name: 在 Teams 中设置频道审查
-      href: manage-channel-moderation-in-teams.md
-    - name: 在 Teams 中共享文件
-      href: sharing-files-in-teams.md
-    - name: Teams 和 Outlook 电子邮件集成
-      href: teams-outlook-email-integration.md
-    - name: 管理消息传递策略
-      href: messaging-policies-in-teams.md
-    - name: Teams 中的用户状态
-      href: presence-admins.md
-    - name: 管理 Teams 中的标记
-      href: manage-tags.md
-    - name: 查看 Teams 中的分析
-      href: teams-analytics-and-reports/view-analytics.md
-    - name: 团队到期和续订
-      href: team-expiration-renewal.md
-    - name: 存档或删除团队
-      href: archive-or-delete-a-team.md
-    - name: 从 Slack 迁移到 Teams
-      href: migrate-slack-to-teams.md
-    - name: 使用 Teams 模板
-      items:
-        - name: 在管理中心中使用 Teams 模板
-          href: get-started-with-teams-templates-in-the-admin-console.md
-        - name: 适用于中小型企业的 Graph 内置 Teams 模板
-          href: smb-templates.md
-        - name: 创建自定义 Teams 模板
-          href: create-a-team-template.md
-        - name: 从现有团队中创建模板
-          href: create-template-from-existing-team.md
-        - name: 从现有模板生成模板
-          href: create-template-from-existing-template.md
-        - name: 金融类别 Teams 模板
-          href: financial-teams-templates-in-the-admin-console.md
-        - name: 常规类别 Teams 模板
-          href: general-teams-templates-in-the-admin-console.md
-        - name: 制造类别 Teams 模板
-          href: manufacturing-teams-templates-in-the-admin-console.md
-    - name: 与外部用户通信
-      items:
-        - name: 与其他组织的用户通信
-          href: communicate-with-users-from-other-organizations.md
-        - name: 外部访问（联合身份验证）
-          items:
-            - name: 管理外部访问
-              href: manage-external-access.md
-            - name: 面向外部用户的本机 Teams 聊天
-              href: native-chat-for-external-users.md
-            - name: Teams 和 Skype 的互操作性
-              href: teams-skype-interop.md
-        - name: 来宾访问权限
-          items:
-            - name: 关于来宾访问权限
-              href: guest-access.md
-            - name: 来宾访问清单
-              href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
-            - name: 来宾体验
-              href: guest-experience.md
-            - name: 授予来宾访问权限
-              href: teams-dependencies.md
-            - name: 启用或禁用来宾访问
-              href: set-up-guests.md
-            - name: 向团队添加来宾
-              href: add-guests.md
-            - name: 在团队中查看来宾用户
-              href: view-guests.md
-            - name: 编辑来宾用户信息
-              href: edit-guests-information.md
-            - name: 来宾访问疑难解答
-              href: troubleshoot-guest-access.md
-    - name: Teams 中的 Cortana
-      href: cortana-in-teams.md
-    - name: 管理 Teams
-      items:
-        - name: 管理员角色
-          href: using-admin-roles.md
-        - name: 为你的组织管理 Teams 设置
-          href: enable-features-office-365.md
-        - name: 在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
-          href: manage-teams-skypeforbusiness-admin-center.md
-        - name: 在 Microsoft Teams 管理中心中管理 Teams
-          href: manage-teams-in-modern-portal.md
-        - name: 在 Teams 中分配团队所有者和成员
-          href: assign-roles-permissions.md
-        - name: 向用户分配策略
-          href: assign-policies.md
-        - name: 在活动日志中查看工作分配
-          href: activity-log.md
-        - name: 在 Teams 中管理应用权限策略
-          href: teams-app-permission-policies.md
-        - name: 在 Teams 中管理应用设置策略
-          href: teams-app-setup-policies.md
-        - name: 在 Teams 中管理自定义应用策略和设置
-          href: teams-custom-app-policies-and-settings.md
-        - name: 在 Teams 中管理反馈策略
-          href: manage-feedback-policies-in-teams.md
-        - name: 在 Teams 中管理策略包
-          href: manage-policy-packages.md
-        - name: 将 Skype 会议应用配置为与 Teams 配合使用
-          href: configure-skype-meetings-app-to-work-with-teams.md
-        - name: 管理外部访问
-          href: manage-external-access.md
-        - name: 使用内联消息翻译
-          href: inline-message-translation-teams.md
-        - name: 使用 Microsoft Teams 范围目录搜索
-          href: teams-scoped-directory-search.md
-        - name: Teams 管理中心中的分析和报告
-          items:
-            - name: 概述
-              href: teams-analytics-and-reports/teams-reporting-reference.md
-            - name: Teams 使用情况报告
-              href: teams-analytics-and-reports/teams-usage-report.md
-            - name: Teams 用户活动报告
-              href: teams-analytics-and-reports/user-activity-report.md
-            - name: Teams 应用使用情况报告
-              href: teams-analytics-and-reports/app-usage-report.md
-            - name: Teams 设备使用报告
-              href: teams-analytics-and-reports/device-usage-report.md
-            - name: PSTN 阻止的用户报告
-              href: teams-analytics-and-reports/pstn-blocked-users-report.md
-            - name: PSTN 分钟池报告
-              href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: PSTN 使用报告
-              href: teams-analytics-and-reports/pstn-usage-report.md
-            - name: Teams 实时事件使用情况报表
-              href: teams-analytics-and-reports/teams-live-event-usage-report.md
-        - name: Microsoft 365 管理中心的 Teams 活动报告
-          href: teams-activity-reports.md
-- name: 应用、机器人和连接器
-  items:
-    - name: 概述
-      href: deploy-apps-microsoft-teams-landing-page.md
-    - name: 与 Power Platform 集成
-      href: teams-power-platfom-integration.md
-    - name: 管理适用于 Teams 的应用
-      href: manage-apps.md
-    - name: Teams 中应用程序的管理设置
-      href: admin-settings.md
-    - name: 使用内置和自定义选项卡
-      href: built-in-custom-tabs.md
-    - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
-      href: Office-365-custom-connectors.md
-    - name: 特定于资源的许可
-      href: resource-specific-consent.md
-    - name: 自定义应用
-      items:
-        - name: 发布通过 Teams 应用提交 API 所提交的自定义应用
-          href: submit-approve-custom-apps.md
-        - name: 在 Microsoft Teams 管理中心中管理 Power 平台应用
-          href: manage-power-platform-apps.md
-        - name: 通过上载应用包来发布自定义应用
-          href: upload-custom-apps.md
-        - name: 自定义应用存储
-          href: customize-your-app-store.md
-    - name: 应用认证
-      href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: 查看应用权限并授予 Microsoft Teams 管理中心的管理员许可
-      href: app-permissions-admin-center.md
-    - name: 应用权限和注意事项
-      href: app-permissions.md
-    - name: Teams 第三方应用购买服务
-      href: purchase-third-party-apps.md
-    - name: 适用于 Teams 的应用模板
-      href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-    - name: 在 Teams 中管理组织的列表应用
-      href: manage-lists-app.md
-    - name: 为组织管理任务应用
-      href: manage-tasks-app.md
-    - name: 设置团队目标层次结构
-      href: set-up-your-team-hierarchy.md
-    - name: 在 Teams 管理中心里管理表扬应用
-      href: manage-praise-app.md
-    - name: 将 Skype 会议应用配置为与 Teams 配合使用
-      href: configure-skype-meetings-app-to-work-with-teams.md
-    - name: Teams 审批应用程序可用性
-      href: approval-admin.md
-- name: 会话和电话会议
-  items:
-    - name: 快速入门 - 会议和实时事件
-      href: quick-start-meetings-live-events.md
-    - name: 规划部署
-      href: deploy-meetings-microsoft-teams-landing-page.md
-    - name: Microsoft Teams 会议室
-      items:
-        - name: 概述
-          href: rooms/index.md
-        - name: 计划
-          items:
-            - name: Microsoft Teams 会议室规划概述
-              href: rooms/rooms-plan.md
-            - name: 版本支持
-              href: rooms/rooms-lifecycle-support.md
-            - name: 发行说明
-              href: rooms/rooms-release-note.md
-            - name: 准备环境
-              href: rooms/rooms-prep.md
-            - name: 要求
-              href: rooms/requirements.md
-            - name: 安全性
-              href: rooms/security.md
-            - name: 联机许可
-              href: rooms/rooms-licensing.md
-            - name: 使用者 Azure Monitor 进行管理规划
-              href: rooms/azure-monitor-plan.md
-            - name: Microsoft Teams 会议室托管服务
-              items:
-                - name: 使用 Microsoft Teams 会议室托管服务进行管理规划
-                  href: rooms/microsoft-teams-rooms-premium.md
-                - name: 使用 Microsoft Teams 会议室托管服务进行基于角色的访问控制
-                  href: rooms/microsoft-teams-rooms-premium-rbac.md
-        - name: 部署
-          items:
-            - name: 部署概述
-              href: rooms/rooms-deploy.md
-            - name: 配置帐户
-              href: rooms/rooms-configure-accounts.md
-            - name: Surface Hub
-              items:
-                - name: 设置协调会议
-                  href: rooms/coordinated-meetings.md
-                - name: 管理 Microsoft Teams 设置
-                  href: rooms/surface-hub-manage-config.md
-            - name: 使用 Office 365
-              href: rooms/with-office-365.md
-            - name: 使用 Skype for Business Server
-              href: rooms/with-skype-for-business-server-2015.md
-            - name: 使用 Exchange Online（混合）
-              href: rooms/with-exchange-online.md
-            - name: 使用 Exchange 内部部署（混合）
-              href: rooms/with-exchange-on-premises.md
-            - name: 配置控制台
-              href: rooms/console.md
-            - name: 手动更新设备
-              href: rooms/manual-update.md
-            - name: 配置身份验证
-              href: rooms/rooms-authentication.md
-            - name: 加入第三方会议
-              href: rooms/third-party-join.md
-            - name: 通过使用 Microsoft Endpoint Configuration Manager
-              href: rooms/rooms-scale.md
-            - name: 利用 Azure Monitor 进行管理
-              href: rooms/azure-monitor-deploy.md
-            - name: 迁移 SRS v1 或 LRS
-              href: rooms/lrs-migration.md
-            - name: 内容照相机
-              href: rooms/content-camera.md
-        - name: 管理
-          items:
-            - name: 管理概述
-              href: rooms/rooms-manage.md
-            - name: 维护和操作
-              href: rooms/rooms-operations.md
-            - name: '在组织中支持 Teams '
-              href: rooms/known-issues.md
-            - name: 具有 Azure Monitor 的设备
-              href: rooms/azure-monitor-manage.md
-            - name: 具有 XML 文件的设置
-              href: rooms/xml-config-file.md
-            - name: 使用恢复工具
-              href: rooms/recovery-tool.md
-    - name: 教程：Teams 中的会议
-      href: Tutorial-Meetings-in-Teams.yml
-    - name: 管理会议策略
-      href: meeting-policies-in-teams.md
-    - name: 从用户中删除 RestrictedAnonymousAccess 会议策略
-      href: meeting-policies-restricted-anonymous-access.md
-    - name: 管理会议设置
-      href: meeting-settings-in-teams.md
-    - name: 用户设置更改时向其发送的电子邮件
-      href: emails-sent-to-users-when-their-settings-change-in-teams.md
-    - name: 使用户能够在加入会议时录制其姓名
-      href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-    - name: 打开或关闭会议的进入和退出通知
-      href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-    - name: 在 Teams 中使用 NDI® 技术
-      href: use-NDI-in-meetings.md
-    - name: Teams 会议中的举手选项
-      href: raise-hand-meetings.md
-    - name: 在不受支持的浏览器上举行 Teams 会议
-      href: unsupported-browsers.md
-    - name: 在 Teams 中配置桌面共享
-      href: configure-desktop-sharing.md
-    - name: Teams 云会议录制
-      href: cloud-recording.md
-    - name: 使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议录制
-      href: tmr-meeting-recording-change.md
-    - name: 联系人中心集成
-      href: teams-contact-center.md
-    - name: 在 Outlook 中使用 Teams 会议外接程序
-      href: teams-add-in-for-outlook.md
-    - name: 为用户设置“致电我”功能
-      href: set-up-the-call-me-feature-for-your-users.md
-    - name: 获取会议出席情况报告
-      href: teams-analytics-and-reports/meeting-attendance-report.md
-    - name: 设置会议迁移服务 (MMS)
-      href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: 在 Teams 中管理白板
-      href: manage-whiteboard.md
-    - name: 为 Google Workspace 设置 Teams 会议加载项
-      href: google-workspace-addon-teams.md
-    - name: 音频会议
-      items:
-        - name: 规划部署
-          href: deploy-audio-conferencing-teams-landing-page.md
-        - name: Microsoft 365 中的音频会议
-          href: audio-conferencing-in-office-365.md
-        - name: 打开预览：音频会议的网络会议
-          href: audio-conferencing-on-network.md
-        - name: 音频会议常见问题
-          href: audio-conferencing-common-questions.md
-        - name: 教程：Teams 中的音频会议
-          href: Tutorial-Audio-Conferencing.yml
-        - name: 试用或购买 Microsoft 365 中的音频会议
-          href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
-        - name: 适用于美国和加拿大的延长拨出分钟数
-          href: dial-out-minutes-canada-us.md
-        - name: 音频会议免费播出时段
-          href: complimentary-dial-out-period.md
-        - name: 音频会议订阅“拨出”/“致电我”的好处
-          href: audio-conferencing-subscription-dial-out.md
-        - name: 设置音频会议
-          href: set-up-audio-conferencing-in-teams.md
-        - name: 设置音频会议 - 中小型企业的快速入门
-          href: audio-conferencing-smb.md
-        - name: 将 Microsoft 指定为音频会议提供商
-          href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: 管理音频会议网桥
-          items:
-            - name: 更改音频会议网桥中的电话号码
-              href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
-            - name: 更改音频会议网桥的设置
-              href: change-the-settings-for-an-audio-conferencing-bridge.md
-            - name: 查看音频会议号码列表
-              href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-            - name: 为音频会议设置自动助理语言
-              href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-            - name: 为用户设置会议拨出确认
-              href: set-up-meeting-dial-out-confirmation.md
-        - name: 管理组织的音频会议设置
-          href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
-        - name: 音频会议按分钟付费
-          href: audio-conferencing-pay-per-minute.md
-        - name: 管理用户的音频会议设置
-          items:
-            - name: 概述
-              href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
-            - name: 查看启用了音频会议的用户列表
-              href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
-            - name: 使用户能够在加入会议时录制其姓名
-              href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-            - name: 重置用户的会议 ID
-              href: reset-a-conference-id-for-a-user-in-teams.md
-            - name: 重置用户的音频会议 PIN
-              href: reset-the-audio-conferencing-pin-in-teams.md
-            - name: 用户设置更改时自动向其发送的电子邮件
-              href: emails-sent-to-users-when-their-settings-change-in-teams.md
-            - name: 启用或禁用在音频会议设置更改时发送电子邮件
-              href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
-            - name: 为特定用户禁用免费电话号码
-              href: disabling-toll-free-numbers-for-specific-teams-users.md
-            - name: 音频会议和用户 PSTN 通话的出站通话限制策略
-              href: outbound-calling-restriction-policies.md
-            - name: 查看和重置分配给用户的会议 ID
-              href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
-            - name: 向用户发送包含其音频会议信息的电子邮件
-              href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-        - name: 管理音频会议的会议设置
-          items:
-            - name: 从会议拨出，以便其他人加入会议
-              href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
-            - name: 打开或关闭会议的进入和退出通知
-              href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-            - name: 设置音频会议的 PIN 长度
-              href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
-            - name: 设置包含在邀请中的电话号码
-              href: set-the-phone-numbers-included-on-invites-in-teams.md
-            - name: 在没有 PIN 的情况下通过电话启动音频会议
-              href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
-        - name: 音频会议的国家和地区可用性
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: 参考
-          items:
-            - name: 音频会议支持的语言
-              href: audio-conferencing-supported-languages.md
-            - name: 音频会议电话号码
-              href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: 音频会议的国家和地区可用性
-              href: audio-conferencing-zones.md
-            - name: 视频 - Teams 音频会议
-              href: audio-conferencing-videos.md
-    - name: 云视频互操作
-      href: cloud-video-interop.md
-    - name: 实时事件
-      items:
-        - name: 什么是 Teams 实时事件？
-          href: teams-live-events/what-are-teams-live-events.md
-        - name: 规划 Teams 实时事件
-          href: teams-live-events/plan-for-teams-live-events.md
-        - name: 设置 Teams 实时事件
-          href: teams-live-events/set-up-for-teams-live-events.md
-        - name: 使用 PowerShell 设置 Teams 实时事件策略
-          href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-        - name: 配置 Teams 实时事件设置
-          href: teams-live-events/configure-teams-live-events.md
-- name: 语音 - 电话系统和 PSTN 连接
-  items:
-    - name: 规划 Teams 语音解决方案
-      href: cloud-voice-landing-page.md
-    - name: 电话系统
-      items:
-        - name: 什么是电话系统
-          href: what-is-phone-system-in-office-365.md
-        - name: 以下是电话系统的功能
-          href: here-s-what-you-get-with-phone-system.md
-        - name: 设置电话系统
-          href: setting-up-your-phone-system.md
-        - name: 设置常见区域电话
-          href: set-up-common-area-phones.md
-        - name: 语音邮件
-          items:
-            - name: 设置云语音邮件
-              href: set-up-phone-system-voicemail.md
-            - name: 更改语音邮件的默认语言
-              href: change-the-default-language-for-greetings-and-emails.md
-            - name: 语音邮件问候和消息所使用的语言
-              href: languages-for-voicemail-greetings-and-messages.md
-        - name: 来电显示
-          items:
-            - name: 如何在你的组织中使用来电显示
-              href: how-can-caller-id-be-used-in-your-organization.md
-            - name: 管理来电显示策略
-              href: caller-id-policies.md
-            - name: 为用户设置来电显示
-              href: set-the-caller-id-for-a-user.md
-            - name: 更多关于呼叫线路 ID 和主叫方名称的信息
-              href: more-about-calling-line-id-and-calling-party-name.md
-        - name: 自动助理和呼叫队列
-          items:
-            - name: 规划
-              href: plan-auto-attendant-call-queue.md
-            - name: 自动助理设置
-              href: create-a-phone-system-auto-attendant.md
-            - name: 呼叫队列设置
-              href: create-a-phone-system-call-queue.md
-            - name: 管理 Teams 资源帐户
-              href: manage-resource-accounts.md
-            - name: 设置假日
-              href: set-up-holidays-in-teams.md
-            - name: 直接从 Teams 回答自动助理和呼叫队列
-              href: answer-auto-attendant-and-call-queue-calls.md
-            - name: 报表
-              href: aa-cq-cqd-historical-reports.md
-            - name: 拨号和语音参考
-              href: dial-voice-reference.md
-            - name: 报告
-              href: aa-cq-cqd-historical-reports.md
-        - name: 阻止拨入通话
-          href: block-inbound-calls.md
-        - name: 呼叫寄存和检索
-          href: call-park-and-retrieve.md
-        - name: 呼叫共享和组内呼叫应答
-          href: call-sharing-and-group-call-pickup.md
-        - name: 呼叫策略
-          href: teams-calling-policy.md
-        - name: 共享线路外观
-          href: shared-line-appearance.md
-        - name: 拨号盘配置
-          href: dial-pad-configuration.md
-    - name: 通话套餐
-      items:
-        - name: 哪种通话套餐适合你？
-          href: calling-plan-landing-page.md
-        - name: 如何购买通话套餐
-          href: calling-plans-for-office-365.md
-        - name: 为组织设置通话套餐
-          href: set-up-calling-plans.md
-        - name: 快速入门指南：配置通话套餐
-          href: configuring-teams-calling-quickstartguide.md
-        - name: 通话套餐的国家和地区可用性
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-    - name: 电话系统直接路由
-      items:
-        - name: 概述
-          href: direct-routing-landing-page.md
-        - name: 规划直接路由
-          href: direct-routing-plan.md
-        - name: 经认证可用于直接路由的会话边界控制器列表
-          href: direct-routing-border-controllers.md
-        - name: 配置直接路由
-          items:
-            - name: 概述
-              href: direct-routing-configure.md
-            - name: 第 1 步：连接 SBC
-              href: direct-routing-connect-the-sbc.md
-            - name: 第 2 步：启用用户
-              href: direct-routing-enable-users.md
-            - name: 第 3 步：配置语音路由
-              href: direct-routing-voice-routing.md
-            - name: 第 4 步：转换电话号码
-              href: direct-routing-translate-numbers.md
-            - name: 为多个租户配置 SBC
-              href: direct-routing-sbc-multiple-tenants.md
-            - name: 如何将模拟设备与直接路由结合使用
-              href: direct-routing-analog-devices.md
-        - name: 基于位置的路由
-          items:
-            - name: 为直接路由计划基于位置的路由
-              href: location-based-routing-plan.md
-            - name: 为基于位置的路由配置网络设置
-              href: location-based-routing-configure-network-settings.md
-            - name: 为直接路由启用基于位置的路由
-              href: location-based-routing-enable.md
-        - name: 直接路由的媒体旁路
-          items:
-            - name: 使用直接路由规划媒体旁路
-              href: direct-routing-plan-media-bypass.md
-            - name: 使用直接路由配置媒体旁路
-              href: direct-routing-configure-media-bypass.md
-        - name: 直接路由本地媒体优化
-          items:
-            - name: 本地媒体优化计划
-              href: direct-routing-media-optimization.md
-            - name: 配置本地媒体优化
-              href: direct-routing-media-optimization-configure.md
-        - name: 采用 PSTN 连接的混合环境中的用户帐户
-          href: direct-routing-user-accounts-in-a-hybrid-environment.md
-        - name: 迁移到直接路由
-          href: direct-routing-migrating.md
-        - name: 对直接路由进行监视和故障排除
-          items:
-            - name: 概述
-              href: direct-routing-monitor-and-troubleshoot.md
-            - name: 运行状况面板
-              href: direct-routing-health-dashboard.md
-        - name: 直接路由技术参考
-          items:
-            - name: 出站呼叫发生语音中继故障转移
-              href: direct-routing-trunk-failover-on-outbound-call.md
-            - name: 媒体路径国家/地区代码
-              href: direct-routing-country-codes.md
-            - name: 用于测试会话边界控制器连接的 PowerShell 脚本
-              href: sip-tester-powershell-script.md
-            - name: 管理呼叫通知
-              href: direct-routing-call-notifications.md
-            - name: 协议
-              items:
-                - name: 定义和 RFC 标准
-                  href: direct-routing-protocols.md
-                - name: SIP 协议
-                  href: direct-routing-protocols-SIP.md
-                - name: 媒体协议
-                  href: direct-routing-protocols-media.md
-            - name: 管理语音路由策略
-              href: manage-voice-routing-policies.md
-            - name: 直接路由 Survivable Branch Appliance
-              href: direct-routing-survivable-branch-appliance.md
-    - name: 电话号码
-      items:
-        - name: 管理组织的电话号码
-          href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-        - name: 通话套餐的电话号码类型
-          href: different-kinds-of-phone-numbers-used-for-calling-plans.md
-        - name: 为用户获取电话号码
-          href: getting-phone-numbers-for-your-users.md
-        - name: 可以获得多少个电话号码？
-          href: how-many-phone-numbers-can-you-get.md
-        - name: 为用户搜索电话号码
-          href: search-for-phone-numbers-for-users.md
-        - name: 查看组织中的电话号码列表
-          href: see-a-list-of-phone-numbers-in-your-organization.md
-        - name: 为用户分配、更改或删除电话号码
-          href: assign-change-or-remove-a-phone-number-for-a-user.md
-        - name: 获取服务电话号码
-          href: getting-service-phone-numbers.md
-        - name: 转接电话号码
-          items:
-            - name: 什么是转网订单？
-              href: phone-number-calling-plans/port-order-overview.md
-            - name: 将电话号码转接到 Teams
-              href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-            - name: 手动提交转网订单
-              href: phone-number-calling-plans/manually-submit-port-order.md
-            - name: 你的转网订单的状态是什么？
-              href: phone-number-calling-plans/port-order-status.md
-        - name: 受支持的费率中心和覆盖范围
-          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
-    - name: 呼叫路由
-      items:
-        - name: 什么是拨号计划？
-          href: what-are-dial-plans.md
-        - name: 创建并管理拨号计划
-          href: create-and-manage-dial-plans.md
-        - name: 添加和更新报告标签
-          href: learn-more-about-site-upload.md
-    - name: 网络设置和拓扑
-      items:
-        - name: 云语音功能的网络设置
-          href: cloud-voice-network-settings.md
-        - name: 管理云语音功能的网络拓扑
-          href: manage-your-network-topology.md
-    - name: 紧急呼叫
-      items:
-        - name: 概述
-          href: what-are-emergency-locations-addresses-and-call-routing.md
-        - name: 配置动态紧急呼叫
-          href: configure-dynamic-emergency-calling.md
-        - name: 管理紧急地址
-          items:
-            - name: 为你的组织添加、更改或删除紧急位置
-              href: add-change-remove-emergency-location-organization.md
-            - name: 在组织中添加、更改或删除紧急位置的地点
-              href: add-change-remove-emergency-place-organization.md
-            - name: 为用户分配或更改紧急位置
-              href: assign-change-emergency-location-user.md
-            - name: 为用户分配或更改紧急位置的地点
-              href: assign-change-emergency-place-user.md
-            - name: 紧急呼叫标签
-              href: emergency-calling-labels.md
-        - name: 管理紧急呼叫策略
-          href: manage-emergency-calling-policies.md
-        - name: 管理紧急呼叫路由策略
-          href: manage-emergency-call-routing-policies.md
-    - name: Contoso 语音迁移案例研究
-      items:
-        - name: 概述
-          href: voice-case-study-overview.md
-        - name: Teams 升级计划
-          href: voice-case-study-migration-plan.md
-        - name: 电话系统
-          href: voice-case-study-phone-system.md
-        - name: 基于位置的路由
-          href: voice-case-study-location-based-routing.md
-        - name: 紧急呼叫
-          href: voice-case-study-emergency-calling.md
-        - name: 音频会议
-          href: voice-case-study-audio-conferencing.md
-        - name: 自动助理和呼叫队列
-          href: voice-case-study-call-queues.md
-    - name: 参考
-      items:
-        - name: 国家/地区电话号码管理
-          items:
-            - name: 澳大利亚的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
-            - name: 奥地利的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
-            - name: 比利时的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
-            - name: 加拿大的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
-            - name: 丹麦的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
-            - name: 法国的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
-            - name: 德国的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
-            - name: 爱尔兰的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
-            - name: 意大利的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
-            - name: 日本的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
-            - name: 葡萄牙的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
-            - name: 西班牙的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
-            - name: 荷兰的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
-            - name: 瑞典的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
-            - name: 瑞士的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
-            - name: 英国的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
-            - name: 美国的电话号码管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
-        - name: 免费拨号限制
-          items:
-            - name: 概述
-              href: toll-free-dialing-limitations-and-restrictions.md
-            - name: 阿根廷
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
-            - name: 澳大利亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
-            - name: 奥地利
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
-            - name: 白俄罗斯
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
-            - name: 比利时
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
-            - name: 伯利兹
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: 波斯尼亚和黑塞哥维那
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
-            - name: 巴西
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
-            - name: 文莱
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
-            - name: 保加利亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-            - name: 智利
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
-            - name: 中国（北部）
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
-            - name: 中国（南部）
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
-            - name: 哥伦比亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
-            - name: 克罗地亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md
-            - name: 塞浦路斯
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md
-            - name: 丹麦
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md
-            - name: 厄瓜多尔
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md
-            - name: 埃及
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md
-            - name: 爱沙尼亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md
-            - name: 芬兰
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md
-            - name: 法国
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md
-            - name: 德国
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
-            - name: 洪都拉斯
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: 香港特别行政区
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
-            - name: 匈牙利
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
-            - name: 印度
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
-            - name: 印度尼西亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
-            - name: 爱尔兰
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
-            - name: Israel（以色列）
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
-            - name: Italy（意大利）
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
-            - name: 日本
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
-            - name: 肯尼亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md
-            - name: 卢森堡
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md
-            - name: 马来西亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
-            - name: 墨西哥
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
-            - name: 摩尔多瓦
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
-            - name: 摩纳哥
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
-            - name: 荷兰
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md
-            - name: 巴拿马
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md
-            - name: 巴拉圭
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md
-            - name: 秘鲁
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
-            - name: 菲律宾
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
-            - name: Poland（波兰）
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
-            - name: 葡萄牙
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
-            - name: 卡塔尔
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
-            - name: 罗马尼亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
-            - name: 沙特阿拉伯
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md
-            - name: 塞尔维亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
-            - name: 新加坡
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
-            - name: Slovakia（斯洛伐克）
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
-            - name: 斯洛文尼亚
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
-            - name: 南非
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
-            - name: 韩国
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
-            - name: 西班牙
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
-            - name: 瑞典
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
-            - name: Switzerland（瑞士）
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
-            - name: Taiwan（台湾）
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
-            - name: 泰国
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
-            - name: 土耳其
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
-            - name: 阿拉伯联合酋长国 (UAE)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
-            - name: 英国
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
-            - name: 乌拉圭
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
-            - name: 委内瑞拉
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
-            - name: 越南
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
-        - name: 管理通信点数
-          items:
-            - name: 什么是通信点数？
-              href: what-are-communications-credits.md
-            - name: 设置组织的通信点数
-              href: set-up-communications-credits-for-your-organization.md
-            - name: 添加资金并管理通信点数
-              href: add-funds-and-manage-communications-credits.md
-        - name: Microsoft Teams 通话流程
-          href: microsoft-teams-online-call-flows.md
-        - name: 教程：在 Teams 中通话
-          href: Tutorial-calling-in-teams.yml
-          items:
-            - name: 规划用户体验
-              href: 5-envision-plan-my-users-experience.md
-- name: 采用
-  items:
-    - name: 概述
-      href: adopt-microsoft-teams-landing-page.md
-    - name: 入门
-      href: teams-adoption-get-started.md
-    - name: 第 1 阶段 - 开始
-      items:
-        - name: 开始
-          href: teams-adoption-phase1.md
-        - name: 了解团队和频道
-          href: teams-adoption-understand-teams-and-channels.md
-        - name: 创建第一个团队
-          href: teams-adoption-your-first-teams.md
-        - name: 贵组织对 Teams 的准备程度如何？
-          href: teams-adoption-assess-readiness.md
-    - name: 第 2 阶段 - 试验
-      items:
-        - name: 试验
-          href: teams-adoption-phase2-experiment.md
-        - name: 创建冠军计划
-          href: teams-adoption-create-champions-program.md
-        - name: 管理快速入门
-          href: teams-adoption-governance-quick-start.md
-        - name: 定义使用场景
-          href: teams-adoption-define-usage-scenarios.md
-        - name: 登记早期采用者并收集反馈
-          href: teams-adoption-onboard-early-adopters.md
-        - name: 登记支持
-          href: teams-adoption-onboard-support.md
-    - name: 第 3 阶段 - 调整
-      items:
-        - name: 范围
-          href: teams-adoption-phase3-enable.md
-        - name: 定义成果与成功
-          href: teams-adoption-define-outcomes.md
-        - name: 优化反馈和报告
-          href: teams-adoption-optimize-feedback-and-reporting.md
-        - name: 提高认识度并实施培训
-          href: teams-adoption-drive-awareness.md
-        - name: 安排服务运行状况检查
-          href: teams-adoption-schedule-service-health-reviews.md
-- name: 升级到 Teams
-  items:
-    - name: 开始行动
-      href: upgrade-start-here.md
-    - name: 关于升级框架
-      href: upgrade-framework.md
-    - name: 规划你的升级之旅
-      items:
-        - name: 规划项目和要求
-          items:
-            - name: 概述
-              href: upgrade-plan-journey.md
-            - name: 登记项目利益干系人
-              href: upgrade-enlist-stakeholders.md
-            - name: 定义项目范围
-              href: upgrade-define-project-scope.md
-            - name: 了解共存和互操作性
-              href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: PSTN 注意事项
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
-            - name: 选择升级旅程
-              href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-            - name: 规划用户试点
-              href: pilot-essentials.md
-        - name: 针对 Teams 准备环境
-          items:
-            - name: 技术准备概述
-              href: upgrade-prepare-environment.md
-            - name: 针对 Teams 准备 IT 员工
-              href: upgrade-prepare-IT-pros.md
-            - name: 先决条件
-              href: upgrade-plan-journey-prerequisites.md
-            - name: 评估环境
-              href: upgrade-plan-journey-evaluate-environment.md
-            - name: 准备服务
-              href: upgrade-prepare-environment-prepare-service.md
-        - name: 针对 Teams 准备组织
-          items:
-            - name: 组织准备概述
-              href: upgrade-prepare-organization.md
-            - name: 评估组织变更准备情况
-              href: upgrade-org-change-readiness.md
-            - name: 准备用户准备情况计划
-              href: upgrade-user-readiness.md
-    - name: 实现升级
-      items:
-        - name: 概述
-          href: upgrade-to-Teams.md
-        - name: 将 Skype for Business Online 升级到 Teams
-          href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
-        - name: 将本地 Skype for Business 升级到 Teams
-          href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
-    - name: 运行、采用和优化
-      href: continue-journey.md
-    - name: Skype for Business Online 停用
-      href: skype-for-business-online-retirement.md
-    - name: 常见问题
-      href: FAQ-journey.yml
-    - name: 技术库
-      items:
-        - name: 适用于 IT 管理员的升级指南
-          items:
-            - name: 概述
-              href: upgrade-to-teams-on-prem-overview.md
-            - name: 升级方法
-              href: upgrade-to-teams-on-prem-upgrade-methods.md
-            - name: 用于管理组织的工具
-              href: upgrade-to-teams-on-prem-tools.md
-            - name: 有关 Skype for Business 本地版组织的注意事项
-              href: upgrade-to-teams-on-prem-considerations.md
-            - name: 实现升级
-              href: upgrade-to-teams-on-prem-implement.md
-            - name: Teams 和 Skype for Business 共存
-              href: upgrade-to-teams-on-prem-coexistence.md
-            - name: 共存模式 - 参考
-              href: migration-interop-guidance-for-teams-with-skype.md
-            - name: Teams 客户端体验和对共存模式的一致性
-              href: teams-client-experience-and-conformance-to-coexistence-modes.md
-        - name: 设置共存和升级设置
-          href: setting-your-coexistence-and-upgrade-settings.md
-        - name: 会议优先
-          href: meetings-first.md
-- name: 混合连接
-  items:
-    - name: 规划混合连接
-      href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-    - name: 配置混合连接
-      items:
-        - name: 概述
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-        - name: 配置混合环境的 Azure AD 连接
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-        - name: 配置 Skype for Business 混合环境
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-    - name: 在本地与云之间移动用户
-      items:
-        - name: 概述
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-        - name: 将用户从本地移至团队
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-        - name: 将用户从本地迁移至 Skype for Business Online
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-        - name: 将用户从云移动到本地
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-        - name: 管理会议迁移
-          href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-    - name: 禁用混合以完成到云的迁移
-      href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-    - name: 部署资源林拓扑
-      href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-    - name: 针对 Teams 和 Skype for Business Online 的云合并
-      items:
-        - name: 概述
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-        - name: 更新 Microsoft Edge 证书
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-        - name: 将 AAD Connect 更新为包含多个林
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-    - name: 与 Exchange 和 SharePoint 集成
-      href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
-- name: Microsoft 365 商务语音
-  items:
-    - name: 什么是 Microsoft 365 商务语音？
-      href: business-voice/whats-business-voice.md
-    - name: 国家和地区可用性
-      href: business-voice/country-region-availability.md
-    - name: 购买须知
-      items:
-        - name: 获取商务语音需要购买什么
-          href: business-voice/what-to-buy.md
-        - name: 从经销商或合作伙伴处获取帮助
-          href: business-voice/reseller-partner-support.md
-        - name: 检查 Internet 连接。
-          href: business-voice/get-ready-internet.md
-        - name: 使用户准备就绪
-          href: business-voice/prepare-users.md
-    - name: 运行“入门”向导
-      href: business-voice/use-getting-started-wizard.md
-    - name: '尝试执行以下操作:'
-      href: business-voice/things-to-try.md
-    - name: 自定义设置
-      items:
-        - name: 自定义选项
-          href: business-voice/customize-business-voice.md
-        - name: 转移电话号码
-          href: business-voice/port-phone-numbers.md
-        - name: 设置通话策略
-          href: business-voice/set-up-policies.md
-        - name: 管理策略包
-          href: business-voice/policy-packages.md
-        - name: 创建其他用户
-          href: business-voice/create-users.md
-        - name: 设置呼叫队列
-          href: business-voice/create-a-phone-system-call-queue-smb.md
-        - name: 设置自动助理
-          href: business-voice/create-a-phone-system-auto-attendant-smb.md
-    - name: 管理设置
-      items:
-        - name: 创建一个或多个用户
-          href: business-voice/create-users.md
-        - name: 管理设备
-          href: business-voice/manage-devices.md
-        - name: 监视通话质量
-          href: business-voice/monitor-quality.md
-        - name: 通话质量仪表板
-          href: business-voice/analytics-dashboard.md
-    - name: 合作伙伴资源
-      href: business-voice/partner-resources.md
-- name: 行业和政府指南
-  items:
-    - name: 概述
-      href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
-    - name: 所有行业
-      items:
-        - name: 开始使用 Teams 模板
-          href: get-started-with-teams-templates.md
-        - name: Teams 中的班次
-          href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-          items:
-            - name: 在 Teams 中为组织管理排班应用
-              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 适用于医疗保健业的 Teams
-      items:
-        - name: 适用于医疗保健组织的 Teams 入门
-          href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: 虚拟访问
-          items:
-            - name: 通过 Teams 进行虚拟访问 - 集成到 EHR
-              href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: 通过 Bookings 和 Teams 进行虚拟访问
-              href: bookings-app-admin.md
-        - name: 查看和分配策略包
-          href: policy-packages-healthcare.md
-        - name: 安全消息传递
-          items:
-            - name: 安全消息传递
-              href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
-            - name: 消息委派
-              href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Teams 模板
-          items:
-            - name: 使用 Teams 医疗保健模板
-              href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 适用于医疗保健的 Teams 模板
-              href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: 管理列表应用
-          href: manage-lists-app.md
-        - name: 管理任务应用
-          href: manage-tasks-app.md
-        - name: Teams 中的班次
-          items:
-            - name: Teams 中的班次
-              href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: 管理排班应用
-              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: Teams 教育版
-      href: expand-teams-across-your-org/teams-for-education-landing-page.md
-      items:
-        - name: 快速入门 - Teams 教育版管理员
-          href: teams-quick-start-edu.yml
-        - name: 远程学习入门
-          href: remote-learning-edu.md
-        - name: Teams EDU 策略和策略包
-          href: policy-packages-edu.md
-        - name: 向大型用户组分配策略
-          href: batch-group-policy-assignment-edu.md
-        - name: 用于为教师和学生创建安全组的 PowerShell 脚本
-          href: scripts/powershell-script-security-groups-edu.md
-        - name: 教育版管理员低带宽指南
-          href: edu-remote-low-bandwidth.md
-        - name: 适用教育的 Teams 策略向导
-          href: easy-policy-setup-edu.md
-        - name: 教育见解
-          items:
-            - name: 见解入门
-              href: class-insights.md
-            - name: 使用见解同步 SIS 数据
-              href: education-insights-sis-data-sync.md
-        - name: Teams 教育版中的分配
-          href: expand-teams-across-your-org/assignments-in-teams.md
-        - name: 面向教育版管理员的 Teams 资源
-          href: resources-teams-edu.md
-        - name: 面向管理员的 Microsoft 教育版管理常见问题解答
-          href: plan-teams-governance-edu.md
-        - name: 安装 Moodle 集成
-          href: install-moodle-integration.md
-        - name: Teams 许可教育版
-          href: teams-edu-licensing.md
-        - name: 教育 SKU 参考
-          href: sku-reference-edu.md
-    - name: 适合一线员工的 Teams
-      items:
-        - name: 适合一线员工的快速入门
-          href: flw-quickstart.yml
-        - name: 一线员工脚本化部署
-          href: flw-scripted-deployment.md
-        - name: 为一线员工管理基于班次的访问
-          href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-        - name: RealWear for Microsoft Teams
-          href: flw-realwear.md
-        - name: 对讲机
-          href: walkie-talkie.md
-        - name: 从 SPO 网站或页面创建 Teams Intranet 门户应用
-          href: teams-standalone-static-tabs-using-spo-sites.md
-    - name: 适用于零售业的 Teams
-      href: expand-teams-across-your-org/teams-for-retail-landing-page.md
-      items:
-        - name: 管理控制台中的 Teams 零售模板入门
-          href: retail-teams-templates-in-the-admin-console.md
-        - name: Teams 零售模板入门
-          href: get-started-with-retail-teams-templates.md
-    - name: Teams 政府版
-      href: expand-teams-across-your-org/teams-for-government-landing-page.md
-      items:
-        - name: 支持远程工作人员 (WFH)
-          href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-        - name: 政府版 Teams 模板入门
-          href: government-teams-templates-in-the-admin-console.md
-        - name: 管理 Office 365 G1 试用版优惠
-          href: g1-trial-license.md
-        - name: Microsoft 365 政府版计划 - GCC
-          href: plan-for-government-gcc.md
-        - name: Microsoft 365 政府版计划 - GCC（高）
-          href: plan-for-government-gcc-high.md
-        - name: Microsoft 365 政府版计划 - DoD
-          href: plan-for-government-dod.md
-        - name: 适用于 GCC High 和 DoD 且含直接路由的音频会议
-          href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
-        - name: 政府用 Teams 策略包
-          href: policy-packages-gov.md
-- name: 安全性、隐私性和合规性
-  items:
-    - name: 概述
-      href: security-compliance-overview.md
-    - name: 安全性
-      items:
-        - name: 安全指南
-          href: teams-security-guide.md
-        - name: Azure Sentinel 和 Teams
-          href: teams-sentinel-guide.md
-        - name: 标识模式和身份验证
-          href: identify-models-authentication.md
-        - name: 登录 Microsoft Teams
-          href: sign-in-teams.md
-        - name: Teams 中安全链接
-          href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-        - name: AppLocker 应用程序控制策略
-          href: applocker-in-teams.md
-        - name: 阻止对 Sharepoint 的访问
-          href: block-access-sharepoint.md
-    - name: 合规性
-      items:
-        - name: 信息屏障
-          href: information-barriers-in-teams.md
-        - name: 保留策略
-          href: retention-policies.md
-        - name: 通信合规性
-          href: communication-compliance.md
-        - name: 通话和会议的基于策略的录制
-          href: teams-recording-policy.md
-        - name: 敏感度标签
-          href: sensitivity-labels.md
-        - name: 数据丢失防护
-          href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-        - name: 电子数据展示
-          href: ediscovery-investigation.md
-        - name: 合法持有
-          href: legal-hold.md
-        - name: 内容搜索
-          href: content-search.md
-        - name: 审核
-          href: audit-log-events.md
-        - name: 通过 Microsoft Teams Export API 导出内容
-          href: export-teams-content.md
-        - name: Teams 租户级别客户密钥
-          href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-    - name: 隐私
-      items:
-        - name: 隐私和 Microsoft Teams
-          href: teams-privacy.md
-        - name: 数据收集做法
-          href: data-collection-practices.md
-        - name: Teams 中的数据位置
-          href: location-of-data-in-teams.md
-        - name: 阻止特定用户对 Sharepoint Online 的访问
-          href: block-access-sharepoint.md
-        - name: 策略控制概述
-          href: policy-control-overview.md
-        - name: 移动设备诊断数据
-          href: policy-control-diagnostic-data-mobile.md
-        - name: 桌面客户端诊断数据
-          href: policy-control-diagnostic-data-desktop.md
-        - name: 可选连接体验
-          href: teams-privacy-oce-overview.md
-- name: 监视、维护和疑难解答
-  items:
-    - name: 运行服务
-      href: upgrade-operate-my-service.md
-    - name: 增强服务
-      href: upgrade-enhance-my-service.md
-    - name: 监视和管理通话质量
-      items:
-        - name: 监视和改善通话质量
-          href: monitor-call-quality-qos.md
-        - name: 通话质量仪表板 (CQD)
-          items:
-            - name: 什么是 CQD？
-              href: CQD-what-is-call-quality-dashboard.md
-            - name: 设置 CQD
-              href: turning-on-and-using-call-quality-dashboard.md
-            - name: 上传租户和建筑物数据
-              href: CQD-upload-tenant-building-data.md
-            - name: CQD 数据和报告
-              href: CQD-data-and-reports.md
-            - name: 使用 CQD 管理通话和会议质量
-              href: quality-of-experience-review-guide.md
-            - name: 常见问题解答
-              href: CQD-frequently-asked-questions.md
-            - name: CQD 中可用的维度和衡量指标
-              href: dimensions-and-measures-available-in-call-quality-dashboard.md
-            - name: CQD 中的流分类
-              href: stream-classification-in-call-quality-dashboard.md
-            - name: 创建建筑物地图
-              href: CQD-building-mapping.md
-            - name: 使用 Power BI 分析 CQD 数据
-              items:
-                - name: 使用 Power BI 分析 CQD 数据
-                  href: CQD-Power-BI-query-templates.md
-                - name: 安装 Power BI 连接器以使用 CQD 查询模板
-                  href: CQD-Power-BI-connector.md
-                - name: 获取有关 Teams 利用率的 CQD 数据
-                  href: CQD-teams-utilization-report.md
-                - name: 使用 CQD PSTN 直接路由报告
-                  href: CQD-PSTN-report.md
-        - name: 通话分析
-          items:
-            - name: 设置通话分析
-              href: set-up-call-analytics.md
-            - name: 使用通话分析来排查通话质量不良问题
-              href: use-call-analytics-to-troubleshoot-poor-call-quality.md
-        - name: 服务质量 (QoS)
-          items:
-            - name: 在 Teams 中设置 QoS
-              href: QoS-in-Teams.md
-            - name: 在 Windows 客户端上设置 QoS
-              href: QoS-in-Teams-clients.md
-    - name: Teams 故障排除
-      href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
-    - name: 解决安装和更新问题
-      href: troubleshoot-installation.md
-    - name: 对 Teams 客户端的连接问题进行故障排除
-      href: connectivity-issues.md
-    - name: 有关在旧版系统上接收消息和呼叫的问题
-      href: legacy-login-issues.md
-    - name: 在对 Teams 进行故障排除时使用日志文件
-      href: log-files.md
-    - name: 常见问题解答：支持远程工作人员
-      href: FAQ-support-remote-workforce.md
-    - name: 验证 Teams 的服务运行状况
-      href: service-health.md
-    - name: 联系商业版产品的支持人员 - 管理员帮助
-      href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: 参考
-  items:
-    - name: Teams 限制和规范
-      href: limits-specifications-teams.md
-    - name: 准备好推广 Teams
-      items:
-        - name: 为 Teams 准备贵组织的网络
-          href: prepare-network.md
-        - name: 使用 Teams 顾问来推出 Teams
-          href: use-advisor-teams-roll-out.md
-        - name: 使用适用于 Teams 的 网络规划器
-          href: network-planner.md
-        - name: 演练
-          href: tutorial-network-planner-example.yml
-        - name: Teams 或 Skype for Business Online 的代理服务器
-          href: proxy-servers-for-skype-for-business-online.md
-        - name: 在创建 Teams 团队时规划 Microsoft 365 组
-          href: plan-office-365-groups.md
-        - name: 在 Teams 中规划生命周期管理
-          href: plan-teams-lifecycle.md
-        - name: 在 Teams 中规划管理
-          href: plan-teams-governance.md
-    - name: 安装 Teams
-      items:
-        - name: 获取 Teams 的客户端
-          href: get-clients.md
-        - name: 在中国获取 Teams for Android
-          href: get-teams-android-in-china.md
-        - name: Teams 应用的硬件要求
-          href: hardware-requirements-for-the-teams-app.md
-        - name: 硬件解码器和编码器驱动程序建议
-          href: hardware-decoders-and-encoders.md
-        - name: 使用 MSI 安装 Teams
-          href: msi-deployment.md
-        - name: 在组织中打开 Teams
-          href: Office-365-set-up.md
-        - name: Microsoft Teams 如何使用内存
-          href: teams-memory-usage-perf.md
-        - name: Microsoft 365 和 Office 365 URL 和 IP 地址范围。
-          href: office-365-urls-ip-address-ranges.md
-        - name: 虚拟桌面基础结构 (VDI) 的 Teams
-          href: teams-for-vdi.md
-        - name: 为 Surface Hub 部署 Teams
-          href: teams-surface-hub.md
-        - name: Teams 客户端更新
-          href: teams-client-update.md
-        - name: 解决安装和更新问题
-          href: troubleshoot-installation.md
-    - name: 授权
-      items:
-        - name: 管理对 Teams 的用户访问
-          href: user-access.md
-        - name: Teams 加载许可证选项
-          href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
-        - name: 分配 Teams 加载许可证
-          href: teams-add-on-licensing/assign-teams-add-on-licenses.md
-        - name: 管理 Office 365 E1 试用版优惠
-          href: e1-trial-license.md
-        - name: 管理 Office 365 G1 试用版优惠
-          href: g1-trial-license.md
-        - name: 管理 Teams 探索体验
-          href: teams-exploratory.md
-        - name: 管理 Teams 的免费版本
-          href: manage-freemium.md
-        - name: 将 Teams 免费升级到订阅版本
-          href: upgrade-freemium.md
-        - name: 高级通信
-          href: teams-add-on-licensing/advanced-communications.md
-        - name: 消息策略许可
-          href: teams-add-on-licensing/pri-message.md
-        - name: Microsoft 365 电话系统 - 虚拟用户许可证
-          href: teams-add-on-licensing/virtual-user.md
-    - name: 与 Microsoft 365 和 Office 365 的互操作性
-      items:
-        - name: Microsoft 365 组和 Teams
-          href: office-365-groups.md
-        - name: 使用 Microsoft 365 管理中心创建 Microsoft 365 资源帐户
-          href: devices/resource-account-ui.md
-        - name: 使用 Teams 增强现有 Microsoft 365 组
-          href: enhance-office-365-groups.md
-        - name: Exchange 与 Teams 如何交互
-          href: exchange-teams-interact.md
-          items:
-            - name: 配置 Exchange 混合组织以配合使用 Teams
-              href: exchange-hybrid-organization.md
-            - name: 通过 Exchange 使用邮件流规则
-              href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
-        - name: SharePoint Online 和 OneDrive for Business 与 Teams 如何交互
-          href: sharepoint-onedrive-interact.md
-        - name: Microsoft 365 和 Office 365 支持多地理位置的租户中的 Teams 体验
-          href: teams-experience-o365odb-spo-multi-geo.md
-    - name: 支持的设备
-      items:
-        - name: 在 Teams 中管理设备
-          href: devices/device-management.md
-        - name: 远程更新设备
-          href: devices/remote-update.md
-        - name: 管理 Teams 设备标记
-          href: devices/manage-device-tags.md
-        - name: Teams 电话
-          href: devices/phones-for-teams.md
-        - name: Teams 显示
-          href: devices/teams-displays.md
-        - name: 将 Teams 手机升级至 Teams 显示
-          href: devices/upgrade-phones-to-displays.md
-        - name: 使用 Intune 部署 Teams 和 Teams 显示
-          href: devices/phones-displays-deploy.md
-        - name: USB 音频和视频设备
-          href: devices/usb-devices.md
-        - name: 为 Microsoft Teams 部署协作栏
-          href: devices/collab-bar-deploy.md
-        - name: 会议室设备和解决方案
-          href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Microsoft Teams 认证的 IP 电话
-          href: devices/teams-ip-phones.md
-        - name: Skype for Business Online 电话
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: Teams PowerShell
-      items:
-        - name: 概述
-          href: teams-powershell-overview.md
-        - name: 安装 Teams PowerShell
-          href: teams-powershell-install.md
-        - name: 使用 Teams PowerShell 管理 Teams
-          href: teams-powershell-managing-teams.md
-        - name: Teams PowerShell 发行说明
-          href: teams-powershell-release-notes.md
-        - name: 从 Skype for Business Online 连接器移动到 Teams PowerShell 模块
-          href: teams-powershell-move-from-sfbo.md
-        - name: Teams 的 Cmdlet 参考
-          href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
-    - name: Teams 开发人员文档
-      href: 'https://docs.microsoft.com/microsoftteams/platform'
-    - name: 在 Teams 中获取帮助
-      href: get-help-in-microsoft-teams.md
-    - name: Teams 内容更新
-      href: teams-updates.md
-    - name: 如何查找你的支持 PIN
-      href: support-pin.md
-    - name: 音频会议和通话套餐的国家/地区可用性
-      items:
-        - name: 概述
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: 阿尔巴尼亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
-        - name: 阿尔及利亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md
-        - name: 安提瓜和巴布达
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md
-        - name: 阿根廷
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md
-        - name: 澳大利亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md
-        - name: 奥地利
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md
-        - name: 巴哈马
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md
-        - name: 巴林
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md
-        - name: 孟加拉
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md
-        - name: 巴巴多斯
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md
-        - name: 白俄罗斯
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md
-        - name: 比利时
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md
-        - name: 伯利兹
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md
-        - name: 贝宁
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
-        - name: 百慕大
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: 波斯尼亚和黑塞哥维那
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
-        - name: 巴西
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
-        - name: 文莱
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md
-        - name: 保加利亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md
-        - name: 柬埔寨
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md
-        - name: 喀麦隆
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md
-        - name: 加拿大
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md
-        - name: 开曼群岛
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md
-        - name: 智利
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md
-        - name: 中国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md
-        - name: 哥伦比亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md
-        - name: 哥斯达黎加
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md
-        - name: 克罗地亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md
-        - name: 塞浦路斯
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md
-        - name: 捷克共和国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md
-        - name: 丹麦
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md
-        - name: 多米尼克
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-dominica.md
-        - name: 多米尼加共和国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md
-        - name: 厄瓜多尔
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md
-        - name: 埃及
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md
-        - name: 萨尔瓦多
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md
-        - name: 爱沙尼亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md
-        - name: 芬兰
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md
-        - name: 法国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md
-        - name: 格鲁吉亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md
-        - name: 德国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md
-        - name: 加纳
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md
-        - name: 希腊
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md
-        - name: 格林纳达
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md
-        - name: 关岛
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md
-        - name: 危地马拉
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
-        - name: 洪都拉斯
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
-        - name: 香港特别行政区
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
-        - name: 匈牙利
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
-        - name: 印度
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md
-        - name: 印度尼西亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md
-        - name: 爱尔兰
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md
-        - name: Israel（以色列）
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md
-        - name: Italy（意大利）
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md
-        - name: 牙买加
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jamaica.md
-        - name: 日本
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md
-        - name: 约旦
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md
-        - name: 肯尼亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md
-        - name: 科威特
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md
-        - name: 拉脱维亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md
-        - name: 立陶宛
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md
-        - name: 卢森堡
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md
-        - name: 北马其顿
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md
-        - name: 马来西亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md
-        - name: 马耳他
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md
-        - name: 墨西哥
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md
-        - name: 摩尔多瓦
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md
-        - name: 摩纳哥
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md
-        - name: 摩洛哥
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md
-        - name: 荷兰
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md
-        - name: 新西兰
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md
-        - name: 尼加拉瓜
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md
-        - name: 尼日利亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md
-        - name: 北马里亚纳群岛
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md
-        - name: 挪威
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md
-        - name: 巴基斯坦
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md
-        - name: 巴拿马
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md
-        - name: 巴拉圭
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md
-        - name: 秘鲁
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md
-        - name: 菲律宾
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md
-        - name: Poland（波兰）
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md
-        - name: 葡萄牙
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md
-        - name: 波多黎各
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md
-        - name: 卡塔尔
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md
-        - name: 罗马尼亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md
-        - name: 俄罗斯
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md
-        - name: 圣基茨和尼维斯
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-kitts-and-nevis.md
-        - name: 圣卢西亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-lucia.md
-        - name: 沙特阿拉伯
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md
-        - name: 塞尔维亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md
-        - name: 新加坡
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md
-        - name: Slovakia（斯洛伐克）
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md
-        - name: 斯洛文尼亚
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md
-        - name: 南非
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md
-        - name: 韩国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md
-        - name: 西班牙
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md
-        - name: 斯里兰卡
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md
-        - name: 瑞典
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md
-        - name: Switzerland（瑞士）
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md
-        - name: Taiwan（台湾）
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
-        - name: 泰国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: 特立尼达和多巴哥
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
-        - name: 突尼斯
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
-        - name: 土耳其
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md
-        - name: 特克斯和凯科斯群岛
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md
-        - name: 乌干达
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md
-        - name: 乌克兰
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md
-        - name: 阿拉伯联合酋长国 (UAE)
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md
-        - name: 英国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md
-        - name: 美国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md
-        - name: 乌拉圭
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md
-        - name: 委内瑞拉
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md
-        - name: 越南
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
-    - name: 辅助功能和合规性
-      items:
-        - name: 法国 Microsoft Teams 辅助功能合规性声明
-          href: accessibility-declaration-of-conformance-in-france-for-teams.md
-        - name: Skype for Business Online 和 Microsoft Teams 辅助功能解决方案
-          href: accessibility-solutions-in-france.md
-        - name: Microsoft 365 中的通话套餐 - 英国操作守则
-          href: code-of-practice-for-the-united-kingdom-u-k.md
-        - name: Microsoft 365 中的通话套餐 - 英国合规处理守则
-          href: complaint-handling-code-for-the-united-kingdom-u-k.md
-        - name: 紧急呼叫条款和条件
-          href: emergency-calling-terms-and-conditions.md
-    - name: 升级发现调查表
-      href: upgrade-plan-journey-discovery-questionnaire.md
-    - name: Teams 管理员功能的发行说明
-      href: release-notes/release-notes.md
-    - name: Microsoft Teams 中的公共预览版
-      href: public-preview-doc-updates.md
+items:
+  - name: 欢迎使用 Teams
+    href: teams-overview.md
+  - name: 体系结构和电话解决方案海报
+    href: teams-architecture-solutions-posters.md
+  - name: 支持远程工作人员 (WFH)
+    href: support-remote-work-with-teams.md
+  - name: 培训
+    items:
+      - name: 概述
+        href: training-microsoft-teams-landing-page.md
+      - name: Teams 管理员培训
+        href: itadmin-readiness.md
+      - name: Ignite 2020 Teams 会议
+        href: ignite-2020-landing-page.md
+      - name: Teams 实时培训
+        href: instructor-led-training-teams-landing-page.yml
+      - name: Teams 联机培训
+        href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+  - name: 如何推广 Teams
+    href: How-to-roll-out-teams.md
+  - name: 入门
+    items:
+      - name: 概述
+        href: get-started-with-teams-quick-start.md
+      - name: 第 1 步：创建第一个团队和频道
+        href: get-started-with-teams-create-your-first-teams-and-channels.md
+      - name: 第 2 步：登记早期采用者
+        href: get-started-with-teams-onboard-early-adopters.md
+      - name: 第 3 步：监控使用和反馈
+        href: get-started-with-teams-monitor-usage-and-feedback.md
+      - name: 的 4 步：规划组织范围内的部署
+        href: get-started-with-teams-resources-for-org-wide-rollout.md
+  - name: 聊天、团队和频道
+    items:
+      - name: 规划部署
+        href: deploy-chat-teams-channels-microsoft-teams-landing-page.md
+      - name: 使用 Teams 顾问来推出 Teams
+        href: use-advisor-teams-roll-out.md
+      - name: 团队和频道概述
+        href: teams-channels-overview.md
+      - name: 私人频道概述
+        href: private-channels.md
+      - name: 管理私人频道的生命周期
+        href: private-channels-life-cycle-management.md
+      - name: 在 Teams 中分配团队所有者和成员
+        href: assign-roles-permissions.md
+      - name: 团队的动态成员资格概述
+        href: dynamic-memberships.md
+      - name: 在 Teams 中组织团队的最佳做法
+        href: best-practices-organizing.md
+      - name: 管理大型 Teams
+        href: best-practices-large-groups.md
+      - name: 在 Teams 中创建全组织范围小组
+        href: create-an-org-wide-team.md
+      - name: 创建人员经理团队
+        href: create-manager-directs-teams.md
+      - name: 管理团队和频道策略
+        href: teams-policies.md
+      - name: 在 Teams 中设置频道审查
+        href: manage-channel-moderation-in-teams.md
+      - name: 在 Teams 中共享文件
+        href: sharing-files-in-teams.md
+      - name: Teams 和 Outlook 电子邮件集成
+        href: teams-outlook-email-integration.md
+      - name: 管理消息传递策略
+        href: messaging-policies-in-teams.md
+      - name: Teams 中的用户状态
+        href: presence-admins.md
+      - name: 管理 Teams 中的标记
+        href: manage-tags.md
+      - name: 查看 Teams 中的分析
+        href: teams-analytics-and-reports/view-analytics.md
+      - name: 团队到期和续订
+        href: team-expiration-renewal.md
+      - name: 存档或删除团队
+        href: archive-or-delete-a-team.md
+      - name: 从 Slack 迁移到 Teams
+        href: migrate-slack-to-teams.md
+      - name: 使用 Teams 模板
+        items:
+          - name: 在管理中心中使用 Teams 模板
+            href: get-started-with-teams-templates-in-the-admin-console.md
+          - name: 适用于中小型企业的 Graph 内置 Teams 模板
+            href: smb-templates.md
+          - name: 创建自定义 Teams 模板
+            href: create-a-team-template.md
+          - name: 从现有团队中创建模板
+            href: create-template-from-existing-team.md
+          - name: 从现有模板生成模板
+            href: create-template-from-existing-template.md
+          - name: 金融类别 Teams 模板
+            href: financial-teams-templates-in-the-admin-console.md
+          - name: 常规类别 Teams 模板
+            href: general-teams-templates-in-the-admin-console.md
+          - name: 制造类别 Teams 模板
+            href: manufacturing-teams-templates-in-the-admin-console.md
+      - name: 与外部用户通信
+        items:
+          - name: 与其他组织的用户通信
+            href: communicate-with-users-from-other-organizations.md
+          - name: 外部访问（联合身份验证）
+            items:
+              - name: 管理外部访问
+                href: manage-external-access.md
+              - name: 面向外部用户的本机 Teams 聊天
+                href: native-chat-for-external-users.md
+              - name: Teams 和 Skype 的互操作性
+                href: teams-skype-interop.md
+          - name: 来宾访问权限
+            items:
+              - name: 关于来宾访问权限
+                href: guest-access.md
+              - name: 来宾访问清单
+                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+              - name: 来宾体验
+                href: guest-experience.md
+              - name: 授予来宾访问权限
+                href: teams-dependencies.md
+              - name: 启用或禁用来宾访问
+                href: set-up-guests.md
+              - name: 向团队添加来宾
+                href: add-guests.md
+              - name: 在团队中查看来宾用户
+                href: view-guests.md
+              - name: 编辑来宾用户信息
+                href: edit-guests-information.md
+              - name: 来宾访问疑难解答
+                href: troubleshoot-guest-access.md
+      - name: Teams 中的 Cortana
+        href: cortana-in-teams.md
+      - name: 管理 Teams
+        items:
+          - name: 管理员角色
+            href: using-admin-roles.md
+          - name: 为你的组织管理 Teams 设置
+            href: enable-features-office-365.md
+          - name: 在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
+            href: manage-teams-skypeforbusiness-admin-center.md
+          - name: 在 Microsoft Teams 管理中心中管理 Teams
+            href: manage-teams-in-modern-portal.md
+          - name: 在 Teams 中分配团队所有者和成员
+            href: assign-roles-permissions.md
+          - name: 向用户分配策略
+            href: assign-policies.md
+          - name: 在活动日志中查看工作分配
+            href: activity-log.md
+          - name: 在 Teams 中管理应用权限策略
+            href: teams-app-permission-policies.md
+          - name: 在 Teams 中管理应用设置策略
+            href: teams-app-setup-policies.md
+          - name: 在 Teams 中管理自定义应用策略和设置
+            href: teams-custom-app-policies-and-settings.md
+          - name: 在 Teams 中管理反馈策略
+            href: manage-feedback-policies-in-teams.md
+          - name: 在 Teams 中管理策略包
+            href: manage-policy-packages.md
+          - name: 将 Skype 会议应用配置为与 Teams 配合使用
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: 管理外部访问
+            href: manage-external-access.md
+          - name: 使用内联消息翻译
+            href: inline-message-translation-teams.md
+          - name: 使用 Microsoft Teams 范围目录搜索
+            href: teams-scoped-directory-search.md
+          - name: Teams 管理中心中的分析和报告
+            items:
+              - name: 概述
+                href: teams-analytics-and-reports/teams-reporting-reference.md
+              - name: Teams 使用情况报告
+                href: teams-analytics-and-reports/teams-usage-report.md
+              - name: Teams 用户活动报告
+                href: teams-analytics-and-reports/user-activity-report.md
+              - name: Teams 应用使用情况报告
+                href: teams-analytics-and-reports/app-usage-report.md
+              - name: Teams 设备使用报告
+                href: teams-analytics-and-reports/device-usage-report.md
+              - name: PSTN 阻止的用户报告
+                href: teams-analytics-and-reports/pstn-blocked-users-report.md
+              - name: PSTN 分钟池报告
+                href: teams-analytics-and-reports/pstn-minute-pools-report.md
+              - name: PSTN 使用报告
+                href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Teams 实时事件使用情况报表
+                href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          - name: Microsoft 365 管理中心的 Teams 活动报告
+            href: teams-activity-reports.md
+  - name: 应用、机器人和连接器
+    items:
+      - name: 概述
+        href: deploy-apps-microsoft-teams-landing-page.md
+      - name: 与 Power Platform 集成
+        href: teams-power-platfom-integration.md
+      - name: 管理适用于 Teams 的应用
+        href: manage-apps.md
+      - name: Teams 中应用程序的管理设置
+        href: admin-settings.md
+      - name: 使用内置和自定义选项卡
+        href: built-in-custom-tabs.md
+      - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
+        href: Office-365-custom-connectors.md
+      - name: 特定于资源的许可
+        href: resource-specific-consent.md
+      - name: 自定义应用
+        items:
+          - name: 发布通过 Teams 应用提交 API 所提交的自定义应用
+            href: submit-approve-custom-apps.md
+          - name: 在 Microsoft Teams 管理中心中管理 Power 平台应用
+            href: manage-power-platform-apps.md
+          - name: 通过上载应用包来发布自定义应用
+            href: upload-custom-apps.md
+          - name: 自定义应用存储
+            href: customize-your-app-store.md
+      - name: 应用认证
+        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: 查看应用权限并授予 Microsoft Teams 管理中心的管理员许可
+        href: app-permissions-admin-center.md
+      - name: 应用权限和注意事项
+        href: app-permissions.md
+      - name: Teams 第三方应用购买服务
+        href: purchase-third-party-apps.md
+      - name: 适用于 Teams 的应用模板
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: 在 Teams 中管理组织的列表应用
+        href: manage-lists-app.md
+      - name: 为组织管理任务应用
+        href: manage-tasks-app.md
+      - name: 设置团队目标层次结构
+        href: set-up-your-team-hierarchy.md
+      - name: 在 Teams 管理中心里管理表扬应用
+        href: manage-praise-app.md
+      - name: 将 Skype 会议应用配置为与 Teams 配合使用
+        href: configure-skype-meetings-app-to-work-with-teams.md
+      - name: Teams 审批应用程序可用性
+        href: approval-admin.md
+  - name: 会话和电话会议
+    items:
+      - name: 快速入门 - 会议和实时事件
+        href: quick-start-meetings-live-events.md
+      - name: 规划部署
+        href: deploy-meetings-microsoft-teams-landing-page.md
+      - name: Microsoft Teams 会议室
+        items:
+          - name: 概述
+            href: rooms/index.md
+          - name: 计划
+            items:
+              - name: Microsoft Teams 会议室规划概述
+                href: rooms/rooms-plan.md
+              - name: 版本支持
+                href: rooms/rooms-lifecycle-support.md
+              - name: 发行说明
+                href: rooms/rooms-release-note.md
+              - name: 准备环境
+                href: rooms/rooms-prep.md
+              - name: 要求
+                href: rooms/requirements.md
+              - name: 安全性
+                href: rooms/security.md
+              - name: 联机许可
+                href: rooms/rooms-licensing.md
+              - name: 使用者 Azure Monitor 进行管理规划
+                href: rooms/azure-monitor-plan.md
+              - name: Microsoft Teams 会议室托管服务
+                items:
+                  - name: 使用 Microsoft Teams 会议室托管服务进行管理规划
+                    href: rooms/microsoft-teams-rooms-premium.md
+                  - name: 使用 Microsoft Teams 会议室托管服务进行基于角色的访问控制
+                    href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: 部署
+            items:
+              - name: 部署概述
+                href: rooms/rooms-deploy.md
+              - name: 配置帐户
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: 设置协调会议
+                    href: rooms/coordinated-meetings.md
+                  - name: 管理 Microsoft Teams 设置
+                    href: rooms/surface-hub-manage-config.md
+              - name: 使用 Office 365
+                href: rooms/with-office-365.md
+              - name: 使用 Skype for Business Server
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: 使用 Exchange Online（混合）
+                href: rooms/with-exchange-online.md
+              - name: 使用 Exchange 内部部署（混合）
+                href: rooms/with-exchange-on-premises.md
+              - name: 配置控制台
+                href: rooms/console.md
+              - name: 手动更新设备
+                href: rooms/manual-update.md
+              - name: 配置身份验证
+                href: rooms/rooms-authentication.md
+              - name: 加入第三方会议
+                href: rooms/third-party-join.md
+              - name: 通过使用 Microsoft Endpoint Configuration Manager
+                href: rooms/rooms-scale.md
+              - name: 利用 Azure Monitor 进行管理
+                href: rooms/azure-monitor-deploy.md
+              - name: 迁移 SRS v1 或 LRS
+                href: rooms/lrs-migration.md
+              - name: 内容照相机
+                href: rooms/content-camera.md
+          - name: 管理
+            items:
+              - name: 管理概述
+                href: rooms/rooms-manage.md
+              - name: 维护和操作
+                href: rooms/rooms-operations.md
+              - name: '在组织中支持 Teams '
+                href: rooms/known-issues.md
+              - name: 具有 Azure Monitor 的设备
+                href: rooms/azure-monitor-manage.md
+              - name: 具有 XML 文件的设置
+                href: rooms/xml-config-file.md
+              - name: 使用恢复工具
+                href: rooms/recovery-tool.md
+      - name: 教程：Teams 中的会议
+        href: Tutorial-Meetings-in-Teams.yml
+      - name: 管理会议策略
+        href: meeting-policies-in-teams.md
+      - name: 从用户中删除 RestrictedAnonymousAccess 会议策略
+        href: meeting-policies-restricted-anonymous-access.md
+      - name: 管理会议设置
+        href: meeting-settings-in-teams.md
+      - name: 用户设置更改时向其发送的电子邮件
+        href: emails-sent-to-users-when-their-settings-change-in-teams.md
+      - name: 使用户能够在加入会议时录制其姓名
+        href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+      - name: 打开或关闭会议的进入和退出通知
+        href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+      - name: 在 Teams 中使用 NDI® 技术
+        href: use-NDI-in-meetings.md
+      - name: Teams 会议中的举手选项
+        href: raise-hand-meetings.md
+      - name: 在不受支持的浏览器上举行 Teams 会议
+        href: unsupported-browsers.md
+      - name: 在 Teams 中配置桌面共享
+        href: configure-desktop-sharing.md
+      - name: Teams 云会议录制
+        href: cloud-recording.md
+      - name: 使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议录制
+        href: tmr-meeting-recording-change.md
+      - name: 联系人中心集成
+        href: teams-contact-center.md
+      - name: 在 Outlook 中使用 Teams 会议外接程序
+        href: teams-add-in-for-outlook.md
+      - name: 为用户设置“致电我”功能
+        href: set-up-the-call-me-feature-for-your-users.md
+      - name: 获取会议出席情况报告
+        href: teams-analytics-and-reports/meeting-attendance-report.md
+      - name: 设置会议迁移服务 (MMS)
+        href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: 在 Teams 中管理白板
+        href: manage-whiteboard.md
+      - name: 为 Google Workspace 设置 Teams 会议加载项
+        href: google-workspace-addon-teams.md
+      - name: 音频会议
+        items:
+          - name: 规划部署
+            href: deploy-audio-conferencing-teams-landing-page.md
+          - name: Microsoft 365 中的音频会议
+            href: audio-conferencing-in-office-365.md
+          - name: 打开预览：音频会议的网络会议
+            href: audio-conferencing-on-network.md
+          - name: 音频会议常见问题
+            href: audio-conferencing-common-questions.md
+          - name: 教程：Teams 中的音频会议
+            href: Tutorial-Audio-Conferencing.yml
+          - name: 试用或购买 Microsoft 365 中的音频会议
+            href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 适用于美国和加拿大的延长拨出分钟数
+            href: dial-out-minutes-canada-us.md
+          - name: 音频会议免费播出时段
+            href: complimentary-dial-out-period.md
+          - name: 音频会议订阅“拨出”/“致电我”的好处
+            href: audio-conferencing-subscription-dial-out.md
+          - name: 设置音频会议
+            href: set-up-audio-conferencing-in-teams.md
+          - name: 设置音频会议 - 中小型企业的快速入门
+            href: audio-conferencing-smb.md
+          - name: 将 Microsoft 指定为音频会议提供商
+            href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: 管理音频会议网桥
+            items:
+              - name: 更改音频会议网桥中的电话号码
+                href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
+              - name: 更改音频会议网桥的设置
+                href: change-the-settings-for-an-audio-conferencing-bridge.md
+              - name: 查看音频会议号码列表
+                href: see-a-list-of-audio-conferencing-numbers-in-teams.md
+              - name: 为音频会议设置自动助理语言
+                href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
+              - name: 为用户设置会议拨出确认
+                href: set-up-meeting-dial-out-confirmation.md
+          - name: 管理组织的音频会议设置
+            href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
+          - name: 音频会议按分钟付费
+            href: audio-conferencing-pay-per-minute.md
+          - name: 管理用户的音频会议设置
+            items:
+              - name: 概述
+                href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
+              - name: 查看启用了音频会议的用户列表
+                href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
+              - name: 使用户能够在加入会议时录制其姓名
+                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+              - name: 重置用户的会议 ID
+                href: reset-a-conference-id-for-a-user-in-teams.md
+              - name: 重置用户的音频会议 PIN
+                href: reset-the-audio-conferencing-pin-in-teams.md
+              - name: 用户设置更改时自动向其发送的电子邮件
+                href: emails-sent-to-users-when-their-settings-change-in-teams.md
+              - name: 启用或禁用在音频会议设置更改时发送电子邮件
+                href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
+              - name: 为特定用户禁用免费电话号码
+                href: disabling-toll-free-numbers-for-specific-teams-users.md
+              - name: 音频会议和用户 PSTN 通话的出站通话限制策略
+                href: outbound-calling-restriction-policies.md
+              - name: 查看和重置分配给用户的会议 ID
+                href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
+              - name: 向用户发送包含其音频会议信息的电子邮件
+                href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
+          - name: 管理音频会议的会议设置
+            items:
+              - name: 从会议拨出，以便其他人加入会议
+                href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
+              - name: 打开或关闭会议的进入和退出通知
+                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+              - name: 设置音频会议的 PIN 长度
+                href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
+              - name: 设置包含在邀请中的电话号码
+                href: set-the-phone-numbers-included-on-invites-in-teams.md
+              - name: 在没有 PIN 的情况下通过电话启动音频会议
+                href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+          - name: 音频会议的国家和地区可用性
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: 参考
+            items:
+              - name: 音频会议支持的语言
+                href: audio-conferencing-supported-languages.md
+              - name: 音频会议电话号码
+                href: phone-numbers-for-audio-conferencing-in-teams.md
+              - name: 音频会议的国家和地区可用性
+                href: audio-conferencing-zones.md
+              - name: 视频 - Teams 音频会议
+                href: audio-conferencing-videos.md
+      - name: 云视频互操作
+        href: cloud-video-interop.md
+      - name: 实时事件
+        items:
+          - name: 什么是 Teams 实时事件？
+            href: teams-live-events/what-are-teams-live-events.md
+          - name: 规划 Teams 实时事件
+            href: teams-live-events/plan-for-teams-live-events.md
+          - name: 设置 Teams 实时事件
+            href: teams-live-events/set-up-for-teams-live-events.md
+          - name: 使用 PowerShell 设置 Teams 实时事件策略
+            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+          - name: 配置 Teams 实时事件设置
+            href: teams-live-events/configure-teams-live-events.md
+  - name: 语音 - 电话系统和 PSTN 连接
+    items:
+      - name: 规划 Teams 语音解决方案
+        href: cloud-voice-landing-page.md
+      - name: 电话系统
+        items:
+          - name: 什么是电话系统
+            href: what-is-phone-system-in-office-365.md
+          - name: 以下是电话系统的功能
+            href: here-s-what-you-get-with-phone-system.md
+          - name: 设置电话系统
+            href: setting-up-your-phone-system.md
+          - name: 设置常见区域电话
+            href: set-up-common-area-phones.md
+          - name: 语音邮件
+            items:
+              - name: 设置云语音邮件
+                href: set-up-phone-system-voicemail.md
+              - name: 更改语音邮件的默认语言
+                href: change-the-default-language-for-greetings-and-emails.md
+              - name: 语音邮件问候和消息所使用的语言
+                href: languages-for-voicemail-greetings-and-messages.md
+          - name: 来电显示
+            items:
+              - name: 如何在你的组织中使用来电显示
+                href: how-can-caller-id-be-used-in-your-organization.md
+              - name: 管理来电显示策略
+                href: caller-id-policies.md
+              - name: 为用户设置来电显示
+                href: set-the-caller-id-for-a-user.md
+              - name: 更多关于呼叫线路 ID 和主叫方名称的信息
+                href: more-about-calling-line-id-and-calling-party-name.md
+          - name: 自动助理和呼叫队列
+            items:
+              - name: 规划
+                href: plan-auto-attendant-call-queue.md
+              - name: 自动助理设置
+                href: create-a-phone-system-auto-attendant.md
+              - name: 呼叫队列设置
+                href: create-a-phone-system-call-queue.md
+              - name: 管理 Teams 资源帐户
+                href: manage-resource-accounts.md
+              - name: 设置假日
+                href: set-up-holidays-in-teams.md
+              - name: 直接从 Teams 回答自动助理和呼叫队列
+                href: answer-auto-attendant-and-call-queue-calls.md
+              - name: 报表
+                href: aa-cq-cqd-historical-reports.md
+              - name: 拨号和语音参考
+                href: dial-voice-reference.md
+              - name: 报告
+                href: aa-cq-cqd-historical-reports.md
+          - name: 阻止拨入通话
+            href: block-inbound-calls.md
+          - name: 呼叫寄存和检索
+            href: call-park-and-retrieve.md
+          - name: 呼叫共享和组内呼叫应答
+            href: call-sharing-and-group-call-pickup.md
+          - name: 呼叫策略
+            href: teams-calling-policy.md
+          - name: 共享线路外观
+            href: shared-line-appearance.md
+          - name: 拨号盘配置
+            href: dial-pad-configuration.md
+      - name: 通话套餐
+        items:
+          - name: 哪种通话套餐适合你？
+            href: calling-plan-landing-page.md
+          - name: 如何购买通话套餐
+            href: calling-plans-for-office-365.md
+          - name: 为组织设置通话套餐
+            href: set-up-calling-plans.md
+          - name: 快速入门指南：配置通话套餐
+            href: configuring-teams-calling-quickstartguide.md
+          - name: 通话套餐的国家和地区可用性
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+      - name: 电话系统直接路由
+        items:
+          - name: 概述
+            href: direct-routing-landing-page.md
+          - name: 规划直接路由
+            href: direct-routing-plan.md
+          - name: 经认证可用于直接路由的会话边界控制器列表
+            href: direct-routing-border-controllers.md
+          - name: 配置直接路由
+            items:
+              - name: 概述
+                href: direct-routing-configure.md
+              - name: 第 1 步：连接 SBC
+                href: direct-routing-connect-the-sbc.md
+              - name: 第 2 步：启用用户
+                href: direct-routing-enable-users.md
+              - name: 第 3 步：配置语音路由
+                href: direct-routing-voice-routing.md
+              - name: 第 4 步：转换电话号码
+                href: direct-routing-translate-numbers.md
+              - name: 为多个租户配置 SBC
+                href: direct-routing-sbc-multiple-tenants.md
+              - name: 如何将模拟设备与直接路由结合使用
+                href: direct-routing-analog-devices.md
+          - name: 基于位置的路由
+            items:
+              - name: 为直接路由计划基于位置的路由
+                href: location-based-routing-plan.md
+              - name: 为基于位置的路由配置网络设置
+                href: location-based-routing-configure-network-settings.md
+              - name: 为直接路由启用基于位置的路由
+                href: location-based-routing-enable.md
+          - name: 直接路由的媒体旁路
+            items:
+              - name: 使用直接路由规划媒体旁路
+                href: direct-routing-plan-media-bypass.md
+              - name: 使用直接路由配置媒体旁路
+                href: direct-routing-configure-media-bypass.md
+          - name: 直接路由本地媒体优化
+            items:
+              - name: 本地媒体优化计划
+                href: direct-routing-media-optimization.md
+              - name: 配置本地媒体优化
+                href: direct-routing-media-optimization-configure.md
+          - name: 采用 PSTN 连接的混合环境中的用户帐户
+            href: direct-routing-user-accounts-in-a-hybrid-environment.md
+          - name: 迁移到直接路由
+            href: direct-routing-migrating.md
+          - name: 对直接路由进行监视和故障排除
+            items:
+              - name: 概述
+                href: direct-routing-monitor-and-troubleshoot.md
+              - name: 运行状况面板
+                href: direct-routing-health-dashboard.md
+          - name: 直接路由技术参考
+            items:
+              - name: 出站呼叫发生语音中继故障转移
+                href: direct-routing-trunk-failover-on-outbound-call.md
+              - name: 媒体路径国家/地区代码
+                href: direct-routing-country-codes.md
+              - name: 用于测试会话边界控制器连接的 PowerShell 脚本
+                href: sip-tester-powershell-script.md
+              - name: 管理呼叫通知
+                href: direct-routing-call-notifications.md
+              - name: 协议
+                items:
+                  - name: 定义和 RFC 标准
+                    href: direct-routing-protocols.md
+                  - name: SIP 协议
+                    href: direct-routing-protocols-SIP.md
+                  - name: 媒体协议
+                    href: direct-routing-protocols-media.md
+              - name: 管理语音路由策略
+                href: manage-voice-routing-policies.md
+              - name: 直接路由 Survivable Branch Appliance
+                href: direct-routing-survivable-branch-appliance.md
+      - name: 电话号码
+        items:
+          - name: 管理组织的电话号码
+            href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
+          - name: 通话套餐的电话号码类型
+            href: different-kinds-of-phone-numbers-used-for-calling-plans.md
+          - name: 为用户获取电话号码
+            href: getting-phone-numbers-for-your-users.md
+          - name: 可以获得多少个电话号码？
+            href: how-many-phone-numbers-can-you-get.md
+          - name: 为用户搜索电话号码
+            href: search-for-phone-numbers-for-users.md
+          - name: 查看组织中的电话号码列表
+            href: see-a-list-of-phone-numbers-in-your-organization.md
+          - name: 为用户分配、更改或删除电话号码
+            href: assign-change-or-remove-a-phone-number-for-a-user.md
+          - name: 获取服务电话号码
+            href: getting-service-phone-numbers.md
+          - name: 转接电话号码
+            items:
+              - name: 什么是转网订单？
+                href: phone-number-calling-plans/port-order-overview.md
+              - name: 将电话号码转接到 Teams
+                href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+              - name: 手动提交转网订单
+                href: phone-number-calling-plans/manually-submit-port-order.md
+              - name: 你的转网订单的状态是什么？
+                href: phone-number-calling-plans/port-order-status.md
+          - name: 受支持的费率中心和覆盖范围
+            href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+      - name: 呼叫路由
+        items:
+          - name: 什么是拨号计划？
+            href: what-are-dial-plans.md
+          - name: 创建并管理拨号计划
+            href: create-and-manage-dial-plans.md
+          - name: 添加和更新报告标签
+            href: learn-more-about-site-upload.md
+      - name: 网络设置和拓扑
+        items:
+          - name: 云语音功能的网络设置
+            href: cloud-voice-network-settings.md
+          - name: 管理云语音功能的网络拓扑
+            href: manage-your-network-topology.md
+      - name: 紧急呼叫
+        items:
+          - name: 概述
+            href: what-are-emergency-locations-addresses-and-call-routing.md
+          - name: 配置动态紧急呼叫
+            href: configure-dynamic-emergency-calling.md
+          - name: 管理紧急地址
+            items:
+              - name: 为你的组织添加、更改或删除紧急位置
+                href: add-change-remove-emergency-location-organization.md
+              - name: 在组织中添加、更改或删除紧急位置的地点
+                href: add-change-remove-emergency-place-organization.md
+              - name: 为用户分配或更改紧急位置
+                href: assign-change-emergency-location-user.md
+              - name: 为用户分配或更改紧急位置的地点
+                href: assign-change-emergency-place-user.md
+              - name: 紧急呼叫标签
+                href: emergency-calling-labels.md
+          - name: 管理紧急呼叫策略
+            href: manage-emergency-calling-policies.md
+          - name: 管理紧急呼叫路由策略
+            href: manage-emergency-call-routing-policies.md
+      - name: Contoso 语音迁移案例研究
+        items:
+          - name: 概述
+            href: voice-case-study-overview.md
+          - name: Teams 升级计划
+            href: voice-case-study-migration-plan.md
+          - name: 电话系统
+            href: voice-case-study-phone-system.md
+          - name: 基于位置的路由
+            href: voice-case-study-location-based-routing.md
+          - name: 紧急呼叫
+            href: voice-case-study-emergency-calling.md
+          - name: 音频会议
+            href: voice-case-study-audio-conferencing.md
+          - name: 自动助理和呼叫队列
+            href: voice-case-study-call-queues.md
+      - name: 参考
+        items:
+          - name: 国家/地区电话号码管理
+            items:
+              - name: 澳大利亚的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
+              - name: 奥地利的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
+              - name: 比利时的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
+              - name: 加拿大的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+              - name: 丹麦的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: 法国的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
+              - name: 德国的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+              - name: 爱尔兰的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
+              - name: 意大利的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
+              - name: 日本的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+              - name: 葡萄牙的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+              - name: 西班牙的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
+              - name: 荷兰的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
+              - name: 瑞典的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
+              - name: 瑞士的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
+              - name: 英国的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
+              - name: 美国的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
+          - name: 免费拨号限制
+            items:
+              - name: 概述
+                href: toll-free-dialing-limitations-and-restrictions.md
+              - name: 阿根廷
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
+              - name: 澳大利亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
+              - name: 奥地利
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
+              - name: 白俄罗斯
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
+              - name: 比利时
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
+              - name: 伯利兹
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
+              - name: 波斯尼亚和黑塞哥维那
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
+              - name: 巴西
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
+              - name: 文莱
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
+              - name: 保加利亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
+              - name: 智利
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
+              - name: 中国（北部）
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
+              - name: 中国（南部）
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
+              - name: 哥伦比亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
+              - name: 克罗地亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md
+              - name: 塞浦路斯
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md
+              - name: 丹麦
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md
+              - name: 厄瓜多尔
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md
+              - name: 埃及
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md
+              - name: 爱沙尼亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md
+              - name: 芬兰
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md
+              - name: 法国
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md
+              - name: 德国
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
+              - name: 洪都拉斯
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
+              - name: 香港特别行政区
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
+              - name: 匈牙利
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
+              - name: 印度
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
+              - name: 印度尼西亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
+              - name: 爱尔兰
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
+              - name: Israel（以色列）
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
+              - name: Italy（意大利）
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
+              - name: 日本
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
+              - name: 肯尼亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md
+              - name: 卢森堡
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md
+              - name: 马来西亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
+              - name: 墨西哥
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
+              - name: 摩尔多瓦
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
+              - name: 摩纳哥
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
+              - name: 荷兰
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md
+              - name: 巴拿马
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md
+              - name: 巴拉圭
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md
+              - name: 秘鲁
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
+              - name: 菲律宾
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
+              - name: Poland（波兰）
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
+              - name: 葡萄牙
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
+              - name: 卡塔尔
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
+              - name: 罗马尼亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
+              - name: 沙特阿拉伯
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md
+              - name: 塞尔维亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
+              - name: 新加坡
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
+              - name: Slovakia（斯洛伐克）
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
+              - name: 斯洛文尼亚
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
+              - name: 南非
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
+              - name: 韩国
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
+              - name: 西班牙
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
+              - name: 瑞典
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
+              - name: Switzerland（瑞士）
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
+              - name: Taiwan（台湾）
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
+              - name: 泰国
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
+              - name: 土耳其
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
+              - name: 阿拉伯联合酋长国 (UAE)
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
+              - name: 英国
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
+              - name: 乌拉圭
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
+              - name: 委内瑞拉
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
+              - name: 越南
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
+          - name: 管理通信点数
+            items:
+              - name: 什么是通信点数？
+                href: what-are-communications-credits.md
+              - name: 设置组织的通信点数
+                href: set-up-communications-credits-for-your-organization.md
+              - name: 添加资金并管理通信点数
+                href: add-funds-and-manage-communications-credits.md
+          - name: Microsoft Teams 通话流程
+            href: microsoft-teams-online-call-flows.md
+          - name: 教程：在 Teams 中通话
+            href: Tutorial-calling-in-teams.yml
+            items:
+              - name: 规划用户体验
+                href: 5-envision-plan-my-users-experience.md
+  - name: 采用
+    items:
+      - name: 概述
+        href: adopt-microsoft-teams-landing-page.md
+      - name: 入门
+        href: teams-adoption-get-started.md
+      - name: 第 1 阶段 - 开始
+        items:
+          - name: 开始
+            href: teams-adoption-phase1.md
+          - name: 了解团队和频道
+            href: teams-adoption-understand-teams-and-channels.md
+          - name: 创建第一个团队
+            href: teams-adoption-your-first-teams.md
+          - name: 贵组织对 Teams 的准备程度如何？
+            href: teams-adoption-assess-readiness.md
+      - name: 第 2 阶段 - 试验
+        items:
+          - name: 试验
+            href: teams-adoption-phase2-experiment.md
+          - name: 创建冠军计划
+            href: teams-adoption-create-champions-program.md
+          - name: 管理快速入门
+            href: teams-adoption-governance-quick-start.md
+          - name: 定义使用场景
+            href: teams-adoption-define-usage-scenarios.md
+          - name: 登记早期采用者并收集反馈
+            href: teams-adoption-onboard-early-adopters.md
+          - name: 登记支持
+            href: teams-adoption-onboard-support.md
+      - name: 第 3 阶段 - 调整
+        items:
+          - name: 范围
+            href: teams-adoption-phase3-enable.md
+          - name: 定义成果与成功
+            href: teams-adoption-define-outcomes.md
+          - name: 优化反馈和报告
+            href: teams-adoption-optimize-feedback-and-reporting.md
+          - name: 提高认识度并实施培训
+            href: teams-adoption-drive-awareness.md
+          - name: 安排服务运行状况检查
+            href: teams-adoption-schedule-service-health-reviews.md
+  - name: 升级到 Teams
+    items:
+      - name: 开始行动
+        href: upgrade-start-here.md
+      - name: 关于升级框架
+        href: upgrade-framework.md
+      - name: 规划你的升级之旅
+        items:
+          - name: 规划项目和要求
+            items:
+              - name: 概述
+                href: upgrade-plan-journey.md
+              - name: 登记项目利益干系人
+                href: upgrade-enlist-stakeholders.md
+              - name: 定义项目范围
+                href: upgrade-define-project-scope.md
+              - name: 了解共存和互操作性
+                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
+              - name: PSTN 注意事项
+                href: upgrade-to-teams-on-prem-pstn-considerations.md
+              - name: 选择升级旅程
+                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
+              - name: 规划用户试点
+                href: pilot-essentials.md
+          - name: 针对 Teams 准备环境
+            items:
+              - name: 技术准备概述
+                href: upgrade-prepare-environment.md
+              - name: 针对 Teams 准备 IT 员工
+                href: upgrade-prepare-IT-pros.md
+              - name: 先决条件
+                href: upgrade-plan-journey-prerequisites.md
+              - name: 评估环境
+                href: upgrade-plan-journey-evaluate-environment.md
+              - name: 准备服务
+                href: upgrade-prepare-environment-prepare-service.md
+          - name: 针对 Teams 准备组织
+            items:
+              - name: 组织准备概述
+                href: upgrade-prepare-organization.md
+              - name: 评估组织变更准备情况
+                href: upgrade-org-change-readiness.md
+              - name: 准备用户准备情况计划
+                href: upgrade-user-readiness.md
+      - name: 实现升级
+        items:
+          - name: 概述
+            href: upgrade-to-Teams.md
+          - name: 将 Skype for Business Online 升级到 Teams
+            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
+          - name: 将本地 Skype for Business 升级到 Teams
+            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+      - name: 运行、采用和优化
+        href: continue-journey.md
+      - name: Skype for Business Online 停用
+        href: skype-for-business-online-retirement.md
+      - name: 常见问题
+        href: FAQ-journey.yml
+      - name: 技术库
+        items:
+          - name: 适用于 IT 管理员的升级指南
+            items:
+              - name: 概述
+                href: upgrade-to-teams-on-prem-overview.md
+              - name: 升级方法
+                href: upgrade-to-teams-on-prem-upgrade-methods.md
+              - name: 用于管理组织的工具
+                href: upgrade-to-teams-on-prem-tools.md
+              - name: 有关 Skype for Business 本地版组织的注意事项
+                href: upgrade-to-teams-on-prem-considerations.md
+              - name: 实现升级
+                href: upgrade-to-teams-on-prem-implement.md
+              - name: Teams 和 Skype for Business 共存
+                href: upgrade-to-teams-on-prem-coexistence.md
+              - name: 共存模式 - 参考
+                href: migration-interop-guidance-for-teams-with-skype.md
+              - name: Teams 客户端体验和对共存模式的一致性
+                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: 设置共存和升级设置
+            href: setting-your-coexistence-and-upgrade-settings.md
+          - name: 会议优先
+            href: meetings-first.md
+  - name: 混合连接
+    items:
+      - name: 规划混合连接
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+      - name: 配置混合连接
+        items:
+          - name: 概述
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+          - name: 配置混合环境的 Azure AD 连接
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+          - name: 配置 Skype for Business 混合环境
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+      - name: 在本地与云之间移动用户
+        items:
+          - name: 概述
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+          - name: 将用户从本地移至团队
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+          - name: 将用户从本地迁移至 Skype for Business Online
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+          - name: 将用户从云移动到本地
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+          - name: 管理会议迁移
+            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+      - name: 禁用混合以完成到云的迁移
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+      - name: 部署资源林拓扑
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+      - name: 针对 Teams 和 Skype for Business Online 的云合并
+        items:
+          - name: 概述
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+          - name: 更新 Microsoft Edge 证书
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+          - name: 将 AAD Connect 更新为包含多个林
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+      - name: 与 Exchange 和 SharePoint 集成
+        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+  - name: Microsoft 365 商务语音
+    items:
+      - name: 什么是 Microsoft 365 商务语音？
+        href: business-voice/whats-business-voice.md
+      - name: 国家和地区可用性
+        href: business-voice/country-region-availability.md
+      - name: 购买须知
+        items:
+          - name: 获取商务语音需要购买什么
+            href: business-voice/what-to-buy.md
+          - name: 从经销商或合作伙伴处获取帮助
+            href: business-voice/reseller-partner-support.md
+          - name: 检查 Internet 连接。
+            href: business-voice/get-ready-internet.md
+          - name: 使用户准备就绪
+            href: business-voice/prepare-users.md
+      - name: 运行“入门”向导
+        href: business-voice/use-getting-started-wizard.md
+      - name: '尝试执行以下操作:'
+        href: business-voice/things-to-try.md
+      - name: 自定义设置
+        items:
+          - name: 自定义选项
+            href: business-voice/customize-business-voice.md
+          - name: 转移电话号码
+            href: business-voice/port-phone-numbers.md
+          - name: 设置通话策略
+            href: business-voice/set-up-policies.md
+          - name: 管理策略包
+            href: business-voice/policy-packages.md
+          - name: 创建其他用户
+            href: business-voice/create-users.md
+          - name: 设置呼叫队列
+            href: business-voice/create-a-phone-system-call-queue-smb.md
+          - name: 设置自动助理
+            href: business-voice/create-a-phone-system-auto-attendant-smb.md
+      - name: 管理设置
+        items:
+          - name: 创建一个或多个用户
+            href: business-voice/create-users.md
+          - name: 管理设备
+            href: business-voice/manage-devices.md
+          - name: 监视通话质量
+            href: business-voice/monitor-quality.md
+          - name: 通话质量仪表板
+            href: business-voice/analytics-dashboard.md
+      - name: 合作伙伴资源
+        href: business-voice/partner-resources.md
+  - name: 行业和政府指南
+    items:
+      - name: 概述
+        href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
+      - name: 所有行业
+        items:
+          - name: 开始使用 Teams 模板
+            href: get-started-with-teams-templates.md
+          - name: Teams 中的班次
+            href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+            items:
+              - name: 在 Teams 中为组织管理排班应用
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: 适用于医疗保健业的 Teams
+        items:
+          - name: 适用于医疗保健组织的 Teams 入门
+            href: expand-teams-across-your-org/healthcare/teams-in-hc.md
+          - name: 虚拟访问
+            items:
+              - name: 通过 Teams 进行虚拟访问 - 集成到 EHR
+                href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: 通过 Bookings 和 Teams 进行虚拟访问
+                href: bookings-app-admin.md
+          - name: 查看和分配策略包
+            href: policy-packages-healthcare.md
+          - name: 安全消息传递
+            items:
+              - name: 安全消息传递
+                href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
+              - name: 消息委派
+                href: expand-teams-across-your-org/healthcare/hc-delegates.md
+          - name: Teams 模板
+            items:
+              - name: 使用 Teams 医疗保健模板
+                href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
+              - name: 适用于医疗保健的 Teams 模板
+                href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+          - name: 管理列表应用
+            href: manage-lists-app.md
+          - name: 管理任务应用
+            href: manage-tasks-app.md
+          - name: Teams 中的班次
+            items:
+              - name: Teams 中的班次
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+              - name: 管理排班应用
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: Teams 教育版
+        href: expand-teams-across-your-org/teams-for-education-landing-page.md
+        items:
+          - name: 快速入门 - Teams 教育版管理员
+            href: teams-quick-start-edu.yml
+          - name: 远程学习入门
+            href: remote-learning-edu.md
+          - name: Teams EDU 策略和策略包
+            href: policy-packages-edu.md
+          - name: 向大型用户组分配策略
+            href: batch-group-policy-assignment-edu.md
+          - name: 用于为教师和学生创建安全组的 PowerShell 脚本
+            href: scripts/powershell-script-security-groups-edu.md
+          - name: 教育版管理员低带宽指南
+            href: edu-remote-low-bandwidth.md
+          - name: 适用教育的 Teams 策略向导
+            href: easy-policy-setup-edu.md
+          - name: 教育见解
+            items:
+              - name: 见解入门
+                href: class-insights.md
+              - name: 使用见解同步 SIS 数据
+                href: education-insights-sis-data-sync.md
+          - name: Teams 教育版中的分配
+            href: expand-teams-across-your-org/assignments-in-teams.md
+          - name: 面向教育版管理员的 Teams 资源
+            href: resources-teams-edu.md
+          - name: 面向管理员的 Microsoft 教育版管理常见问题解答
+            href: plan-teams-governance-edu.md
+          - name: 安装 Moodle 集成
+            href: install-moodle-integration.md
+          - name: Teams 许可教育版
+            href: teams-edu-licensing.md
+          - name: 教育 SKU 参考
+            href: sku-reference-edu.md
+      - name: 适合一线员工的 Teams
+        items:
+          - name: 适合一线员工的快速入门
+            href: flw-quickstart.yml
+          - name: 一线员工脚本化部署
+            href: flw-scripted-deployment.md
+          - name: 为一线员工管理基于班次的访问
+            href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: RealWear for Microsoft Teams
+            href: flw-realwear.md
+          - name: 对讲机
+            href: walkie-talkie.md
+          - name: 从 SPO 网站或页面创建 Teams Intranet 门户应用
+            href: teams-standalone-static-tabs-using-spo-sites.md
+      - name: 适用于零售业的 Teams
+        href: expand-teams-across-your-org/teams-for-retail-landing-page.md
+        items:
+          - name: 管理控制台中的 Teams 零售模板入门
+            href: retail-teams-templates-in-the-admin-console.md
+          - name: Teams 零售模板入门
+            href: get-started-with-retail-teams-templates.md
+      - name: Teams 政府版
+        href: expand-teams-across-your-org/teams-for-government-landing-page.md
+        items:
+          - name: 支持远程工作人员 (WFH)
+            href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
+          - name: 政府版 Teams 模板入门
+            href: government-teams-templates-in-the-admin-console.md
+          - name: 管理 Office 365 G1 试用版优惠
+            href: g1-trial-license.md
+          - name: Microsoft 365 政府版计划 - GCC
+            href: plan-for-government-gcc.md
+          - name: Microsoft 365 政府版计划 - GCC（高）
+            href: plan-for-government-gcc-high.md
+          - name: Microsoft 365 政府版计划 - DoD
+            href: plan-for-government-dod.md
+          - name: 适用于 GCC High 和 DoD 且含直接路由的音频会议
+            href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
+          - name: 政府用 Teams 策略包
+            href: policy-packages-gov.md
+  - name: 安全性、隐私性和合规性
+    items:
+      - name: 概述
+        href: security-compliance-overview.md
+      - name: 安全性
+        items:
+          - name: 安全指南
+            href: teams-security-guide.md
+          - name: Azure Sentinel 和 Teams
+            href: teams-sentinel-guide.md
+          - name: 标识模式和身份验证
+            href: identify-models-authentication.md
+          - name: 登录 Microsoft Teams
+            href: sign-in-teams.md
+          - name: Teams 中安全链接
+            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: AppLocker 应用程序控制策略
+            href: applocker-in-teams.md
+          - name: 阻止对 Sharepoint 的访问
+            href: block-access-sharepoint.md
+      - name: 合规性
+        items:
+          - name: 信息屏障
+            href: information-barriers-in-teams.md
+          - name: 保留策略
+            href: retention-policies.md
+          - name: 通信合规性
+            href: communication-compliance.md
+          - name: 通话和会议的基于策略的录制
+            href: teams-recording-policy.md
+          - name: 敏感度标签
+            href: sensitivity-labels.md
+          - name: 数据丢失防护
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: 电子数据展示
+            href: ediscovery-investigation.md
+          - name: 合法持有
+            href: legal-hold.md
+          - name: 内容搜索
+            href: content-search.md
+          - name: 审核
+            href: audit-log-events.md
+          - name: 通过 Microsoft Teams Export API 导出内容
+            href: export-teams-content.md
+          - name: Teams 租户级别客户密钥
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: 隐私
+        items:
+          - name: 隐私和 Microsoft Teams
+            href: teams-privacy.md
+          - name: 数据收集做法
+            href: data-collection-practices.md
+          - name: Teams 中的数据位置
+            href: location-of-data-in-teams.md
+          - name: 阻止特定用户对 Sharepoint Online 的访问
+            href: block-access-sharepoint.md
+          - name: 策略控制概述
+            href: policy-control-overview.md
+          - name: 移动设备诊断数据
+            href: policy-control-diagnostic-data-mobile.md
+          - name: 桌面客户端诊断数据
+            href: policy-control-diagnostic-data-desktop.md
+          - name: 可选连接体验
+            href: teams-privacy-oce-overview.md
+  - name: 监视、维护和疑难解答
+    items:
+      - name: 运行服务
+        href: upgrade-operate-my-service.md
+      - name: 增强服务
+        href: upgrade-enhance-my-service.md
+      - name: 监视和管理通话质量
+        items:
+          - name: 监视和改善通话质量
+            href: monitor-call-quality-qos.md
+          - name: 通话质量仪表板 (CQD)
+            items:
+              - name: 什么是 CQD？
+                href: CQD-what-is-call-quality-dashboard.md
+              - name: 设置 CQD
+                href: turning-on-and-using-call-quality-dashboard.md
+              - name: 上传租户和建筑物数据
+                href: CQD-upload-tenant-building-data.md
+              - name: CQD 数据和报告
+                href: CQD-data-and-reports.md
+              - name: 使用 CQD 管理通话和会议质量
+                href: quality-of-experience-review-guide.md
+              - name: 常见问题解答
+                href: CQD-frequently-asked-questions.md
+              - name: CQD 中可用的维度和衡量指标
+                href: dimensions-and-measures-available-in-call-quality-dashboard.md
+              - name: CQD 中的流分类
+                href: stream-classification-in-call-quality-dashboard.md
+              - name: 创建建筑物地图
+                href: CQD-building-mapping.md
+              - name: 使用 Power BI 分析 CQD 数据
+                items:
+                  - name: 使用 Power BI 分析 CQD 数据
+                    href: CQD-Power-BI-query-templates.md
+                  - name: 安装 Power BI 连接器以使用 CQD 查询模板
+                    href: CQD-Power-BI-connector.md
+                  - name: 获取有关 Teams 利用率的 CQD 数据
+                    href: CQD-teams-utilization-report.md
+                  - name: 使用 CQD PSTN 直接路由报告
+                    href: CQD-PSTN-report.md
+          - name: 通话分析
+            items:
+              - name: 设置通话分析
+                href: set-up-call-analytics.md
+              - name: 使用通话分析来排查通话质量不良问题
+                href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+          - name: 服务质量 (QoS)
+            items:
+              - name: 在 Teams 中设置 QoS
+                href: QoS-in-Teams.md
+              - name: 在 Windows 客户端上设置 QoS
+                href: QoS-in-Teams-clients.md
+      - name: Teams 故障排除
+        href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
+      - name: 解决安装和更新问题
+        href: troubleshoot-installation.md
+      - name: 对 Teams 客户端的连接问题进行故障排除
+        href: connectivity-issues.md
+      - name: 有关在旧版系统上接收消息和呼叫的问题
+        href: legacy-login-issues.md
+      - name: 在对 Teams 进行故障排除时使用日志文件
+        href: log-files.md
+      - name: 常见问题解答：支持远程工作人员
+        href: FAQ-support-remote-workforce.md
+      - name: 验证 Teams 的服务运行状况
+        href: service-health.md
+      - name: 联系商业版产品的支持人员 - 管理员帮助
+        href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
+  - name: 参考
+    items:
+      - name: Teams 限制和规范
+        href: limits-specifications-teams.md
+      - name: 准备好推广 Teams
+        items:
+          - name: 为 Teams 准备贵组织的网络
+            href: prepare-network.md
+          - name: 使用 Teams 顾问来推出 Teams
+            href: use-advisor-teams-roll-out.md
+          - name: 使用适用于 Teams 的 网络规划器
+            href: network-planner.md
+          - name: 演练
+            href: tutorial-network-planner-example.yml
+          - name: Teams 或 Skype for Business Online 的代理服务器
+            href: proxy-servers-for-skype-for-business-online.md
+          - name: 在创建 Teams 团队时规划 Microsoft 365 组
+            href: plan-office-365-groups.md
+          - name: 在 Teams 中规划生命周期管理
+            href: plan-teams-lifecycle.md
+          - name: 在 Teams 中规划管理
+            href: plan-teams-governance.md
+      - name: 安装 Teams
+        items:
+          - name: 获取 Teams 的客户端
+            href: get-clients.md
+          - name: 在中国获取 Teams for Android
+            href: get-teams-android-in-china.md
+          - name: Teams 应用的硬件要求
+            href: hardware-requirements-for-the-teams-app.md
+          - name: 硬件解码器和编码器驱动程序建议
+            href: hardware-decoders-and-encoders.md
+          - name: 使用 MSI 安装 Teams
+            href: msi-deployment.md
+          - name: 在组织中打开 Teams
+            href: Office-365-set-up.md
+          - name: Microsoft Teams 如何使用内存
+            href: teams-memory-usage-perf.md
+          - name: Microsoft 365 和 Office 365 URL 和 IP 地址范围。
+            href: office-365-urls-ip-address-ranges.md
+          - name: 虚拟桌面基础结构 (VDI) 的 Teams
+            href: teams-for-vdi.md
+          - name: 为 Surface Hub 部署 Teams
+            href: teams-surface-hub.md
+          - name: Teams 客户端更新
+            href: teams-client-update.md
+          - name: 解决安装和更新问题
+            href: troubleshoot-installation.md
+      - name: 授权
+        items:
+          - name: 管理对 Teams 的用户访问
+            href: user-access.md
+          - name: Teams 加载许可证选项
+            href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
+          - name: 分配 Teams 加载许可证
+            href: teams-add-on-licensing/assign-teams-add-on-licenses.md
+          - name: 管理 Office 365 E1 试用版优惠
+            href: e1-trial-license.md
+          - name: 管理 Office 365 G1 试用版优惠
+            href: g1-trial-license.md
+          - name: 管理 Teams 探索体验
+            href: teams-exploratory.md
+          - name: 管理 Teams 的免费版本
+            href: manage-freemium.md
+          - name: 将 Teams 免费升级到订阅版本
+            href: upgrade-freemium.md
+          - name: 高级通信
+            href: teams-add-on-licensing/advanced-communications.md
+          - name: 消息策略许可
+            href: teams-add-on-licensing/pri-message.md
+          - name: Microsoft 365 电话系统 - 虚拟用户许可证
+            href: teams-add-on-licensing/virtual-user.md
+      - name: 与 Microsoft 365 和 Office 365 的互操作性
+        items:
+          - name: Microsoft 365 组和 Teams
+            href: office-365-groups.md
+          - name: 使用 Microsoft 365 管理中心创建 Microsoft 365 资源帐户
+            href: devices/resource-account-ui.md
+          - name: 使用 Teams 增强现有 Microsoft 365 组
+            href: enhance-office-365-groups.md
+          - name: Exchange 与 Teams 如何交互
+            href: exchange-teams-interact.md
+            items:
+              - name: 配置 Exchange 混合组织以配合使用 Teams
+                href: exchange-hybrid-organization.md
+              - name: 通过 Exchange 使用邮件流规则
+                href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
+          - name: SharePoint Online 和 OneDrive for Business 与 Teams 如何交互
+            href: sharepoint-onedrive-interact.md
+          - name: Microsoft 365 和 Office 365 支持多地理位置的租户中的 Teams 体验
+            href: teams-experience-o365odb-spo-multi-geo.md
+      - name: 支持的设备
+        items:
+          - name: 在 Teams 中管理设备
+            href: devices/device-management.md
+          - name: 远程更新设备
+            href: devices/remote-update.md
+          - name: 管理 Teams 设备标记
+            href: devices/manage-device-tags.md
+          - name: Teams 电话
+            href: devices/phones-for-teams.md
+          - name: Teams 显示
+            href: devices/teams-displays.md
+          - name: 将 Teams 手机升级至 Teams 显示
+            href: devices/upgrade-phones-to-displays.md
+          - name: 使用 Intune 部署 Teams 和 Teams 显示
+            href: devices/phones-displays-deploy.md
+          - name: USB 音频和视频设备
+            href: devices/usb-devices.md
+          - name: 为 Microsoft Teams 部署协作栏
+            href: devices/collab-bar-deploy.md
+          - name: 会议室设备和解决方案
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Microsoft Teams 认证的 IP 电话
+            href: devices/teams-ip-phones.md
+          - name: Skype for Business Online 电话
+            href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: Teams PowerShell
+        items:
+          - name: 概述
+            href: teams-powershell-overview.md
+          - name: 安装 Teams PowerShell
+            href: teams-powershell-install.md
+          - name: 使用 Teams PowerShell 管理 Teams
+            href: teams-powershell-managing-teams.md
+          - name: Teams PowerShell 发行说明
+            href: teams-powershell-release-notes.md
+          - name: 从 Skype for Business Online 连接器移动到 Teams PowerShell 模块
+            href: teams-powershell-move-from-sfbo.md
+          - name: Teams 的 Cmdlet 参考
+            href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
+      - name: Teams 开发人员文档
+        href: 'https://docs.microsoft.com/microsoftteams/platform'
+      - name: 在 Teams 中获取帮助
+        href: get-help-in-microsoft-teams.md
+      - name: Teams 内容更新
+        href: teams-updates.md
+      - name: 如何查找你的支持 PIN
+        href: support-pin.md
+      - name: 音频会议和通话套餐的国家/地区可用性
+        items:
+          - name: 概述
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: 阿尔巴尼亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
+          - name: 阿尔及利亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md
+          - name: 安提瓜和巴布达
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md
+          - name: 阿根廷
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md
+          - name: 澳大利亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md
+          - name: 奥地利
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md
+          - name: 巴哈马
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md
+          - name: 巴林
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md
+          - name: 孟加拉
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md
+          - name: 巴巴多斯
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md
+          - name: 白俄罗斯
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md
+          - name: 比利时
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md
+          - name: 伯利兹
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md
+          - name: 贝宁
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
+          - name: 百慕大
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
+          - name: 波斯尼亚和黑塞哥维那
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
+          - name: 巴西
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
+          - name: 文莱
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md
+          - name: 保加利亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md
+          - name: 柬埔寨
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md
+          - name: 喀麦隆
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md
+          - name: 加拿大
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md
+          - name: 开曼群岛
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md
+          - name: 智利
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md
+          - name: 中国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md
+          - name: 哥伦比亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md
+          - name: 哥斯达黎加
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md
+          - name: 克罗地亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md
+          - name: 塞浦路斯
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md
+          - name: 捷克共和国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md
+          - name: 丹麦
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md
+          - name: 多米尼克
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-dominica.md
+          - name: 多米尼加共和国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md
+          - name: 厄瓜多尔
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md
+          - name: 埃及
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md
+          - name: 萨尔瓦多
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md
+          - name: 爱沙尼亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md
+          - name: 芬兰
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md
+          - name: 法国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md
+          - name: 格鲁吉亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md
+          - name: 德国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md
+          - name: 加纳
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md
+          - name: 希腊
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md
+          - name: 格林纳达
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md
+          - name: 关岛
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md
+          - name: 危地马拉
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
+          - name: 洪都拉斯
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
+          - name: 香港特别行政区
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
+          - name: 匈牙利
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
+          - name: 印度
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md
+          - name: 印度尼西亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md
+          - name: 爱尔兰
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md
+          - name: Israel（以色列）
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md
+          - name: Italy（意大利）
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md
+          - name: 牙买加
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jamaica.md
+          - name: 日本
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md
+          - name: 约旦
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md
+          - name: 肯尼亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md
+          - name: 科威特
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md
+          - name: 拉脱维亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md
+          - name: 立陶宛
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md
+          - name: 卢森堡
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md
+          - name: 北马其顿
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md
+          - name: 马来西亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md
+          - name: 马耳他
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md
+          - name: 墨西哥
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md
+          - name: 摩尔多瓦
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md
+          - name: 摩纳哥
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md
+          - name: 摩洛哥
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md
+          - name: 荷兰
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md
+          - name: 新西兰
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md
+          - name: 尼加拉瓜
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md
+          - name: 尼日利亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md
+          - name: 北马里亚纳群岛
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md
+          - name: 挪威
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md
+          - name: 巴基斯坦
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md
+          - name: 巴拿马
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md
+          - name: 巴拉圭
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md
+          - name: 秘鲁
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md
+          - name: 菲律宾
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md
+          - name: Poland（波兰）
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md
+          - name: 葡萄牙
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md
+          - name: 波多黎各
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md
+          - name: 卡塔尔
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md
+          - name: 罗马尼亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md
+          - name: 俄罗斯
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md
+          - name: 圣基茨和尼维斯
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-kitts-and-nevis.md
+          - name: 圣卢西亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-lucia.md
+          - name: 沙特阿拉伯
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md
+          - name: 塞尔维亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md
+          - name: 新加坡
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md
+          - name: Slovakia（斯洛伐克）
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md
+          - name: 斯洛文尼亚
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md
+          - name: 南非
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md
+          - name: 韩国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md
+          - name: 西班牙
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md
+          - name: 斯里兰卡
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md
+          - name: 瑞典
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md
+          - name: Switzerland（瑞士）
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md
+          - name: Taiwan（台湾）
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
+          - name: 泰国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
+          - name: 特立尼达和多巴哥
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
+          - name: 突尼斯
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
+          - name: 土耳其
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md
+          - name: 特克斯和凯科斯群岛
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md
+          - name: 乌干达
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md
+          - name: 乌克兰
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md
+          - name: 阿拉伯联合酋长国 (UAE)
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md
+          - name: 英国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md
+          - name: 美国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md
+          - name: 乌拉圭
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md
+          - name: 委内瑞拉
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md
+          - name: 越南
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
+      - name: 辅助功能和合规性
+        items:
+          - name: 法国 Microsoft Teams 辅助功能合规性声明
+            href: accessibility-declaration-of-conformance-in-france-for-teams.md
+          - name: Skype for Business Online 和 Microsoft Teams 辅助功能解决方案
+            href: accessibility-solutions-in-france.md
+          - name: Microsoft 365 中的通话套餐 - 英国操作守则
+            href: code-of-practice-for-the-united-kingdom-u-k.md
+          - name: Microsoft 365 中的通话套餐 - 英国合规处理守则
+            href: complaint-handling-code-for-the-united-kingdom-u-k.md
+          - name: 紧急呼叫条款和条件
+            href: emergency-calling-terms-and-conditions.md
+      - name: 升级发现调查表
+        href: upgrade-plan-journey-discovery-questionnaire.md
+      - name: Teams 管理员功能的发行说明
+        href: release-notes/release-notes.md
+      - name: Microsoft Teams 中的公共预览版
+        href: public-preview-doc-updates.md
