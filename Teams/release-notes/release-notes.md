@@ -16,16 +16,52 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 管理员功能的发行说明。
-ms.openlocfilehash: e2b21a7f96162493fbee7b37ec2dcd57ac8c3a1f
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 3dd48c9f2da10d4238d05d9de610867b5d94b873
+ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909376"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50070927"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 管理员功能发行说明
 
 这些发行说明提供有关 Microsoft Teams 的新管理员功能的信息。
+
+## <a name="january-27-2021"></a>2021 年 1 月 27 日
+
+### <a name="virtual-visits-with-teams---integration-into-ehr"></a>使用 Teams 进行虚拟访问 - 集成到 EHR 中
+
+我们更新了 Microsoft Teams 电子健康记录 (EHR) 连接器和连接器的界面，使医生能够轻松地直接从 EHR 系统启动虚拟患者访问或咨询 Teams 中的其他提供商。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin)。
+
+## <a name="january-22-2021"></a>2021 年 1 月 22 日
+
+### <a name="firstline-workers-are-now-called-frontline-workers"></a>一线员工现在称为一线员工
+
+我们已将一线员工的标题更改为一线员工。
+
+## <a name="january-21-2021"></a>2021 年 1 月 21 日
+
+### <a name="offline-documentation"></a>脱机文档
+
+即使你处于脱机状态或在低带宽条件下运行，Teams 也一直运行。 Teams 会将现有聊天的所有未发送消息 (保存最多 24 小时) 在重新联机后立即发送。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues)。
+
+## <a name="january-19-2021"></a>2021 年 1 月 19 日
+
+### <a name="teams-approvals-app-availability"></a>Teams 审批应用可用性
+
+审批应用作为个人应用可供所有 Microsoft Teams 用户使用。 "审批"应用提供了一种简单方法，在 Teams 中为结构化和非结构化审批提供审核、合规性、责任和工作流。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/approval-admin)。
+
+## <a name="january-15-2021"></a>2021 年 1 月 15 日
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>为 Google Workspace 设置 Microsoft Teams 会议加载项
+
+必须先由 Teams 管理员启用适用于 Google Workspace 的 Microsoft Teams 会议加载项，租户用户才能访问该应用。 [了解详细信息](https://docs.microsoft.com/microsoftteams/google-workspace-addon-teams)。
+
+## <a name="january-4-2021"></a>2021 年 1 月 4 日
+
+### <a name="calendar-sharing"></a>日历共享
+
+我们添加了向日历选项卡添加频道的能力。
 
 ## <a name="december-21-2020"></a>2020 年 12 月 21 日
 

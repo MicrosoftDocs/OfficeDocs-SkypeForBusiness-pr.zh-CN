@@ -3,6 +3,43 @@
 
 
 
+## <a name="week-of-january-25-2021"></a>2021 年 1 月 25 日周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 1/25/2021 | [在 Microsoft Teams 中创建组织范围的团队](/MicrosoftTeams/create-an-org-wide-team) | 修改内容 |
+| 1/25/2021 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 1/25/2021 | [在 Microsoft Teams 中管理紧急呼叫策略](/MicrosoftTeams/manage-emergency-calling-policies) | 修改内容 |
+| 1/25/2021 | [安全性和符合性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
+| 1/25/2021 | [Teams 升级规划研讨会](/MicrosoftTeams/upgrade-workshops-landing-page) | 修改内容 |
+| 1/25/2021 | [使用 OneDrive for Business 和 SharePoint 录制会议](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
+| 1/25/2021 | [在 Microsoft Teams 中使用内容搜索](/MicrosoftTeams/content-search) | 修改内容 |
+| 1/25/2021 | [对内容进行电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改内容 |
+| 1/25/2021 | [将 Microsoft Teams 用户或团队置于法律上的暂停状态](/MicrosoftTeams/legal-hold) | 修改内容 |
+| 1/26/2021 | [将学生信息系统 (SIS) 数据与教育版见解同步](/MicrosoftTeams/education-insights-sis-data-sync) | 添加内容 |
+| 1/26/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+| 1/26/2021 | [维度和度量 - 呼叫质量仪表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
+| 1/26/2021 | [通过直接路由认证的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 1/27/2021 | [Microsoft Teams 的高级通信加载项](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 修改内容 |
+| 1/27/2021 | [Microsoft Teams 附加许可证](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 修改内容 |
+| 1/27/2021 | [维度和度量 - 呼叫质量仪表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
+| 1/27/2021 | [在创建团队时规划 Microsoft 365 组](/MicrosoftTeams/plan-office-365-groups) | 修改内容 |
+| 1/27/2021 | [适用于 Microsoft Teams 的电话和设备](/MicrosoftTeams/devices/usb-devices) | 修改内容 |
+| 1/28/2021 | [在 Outlook 中使用 Microsoft Teams 会议加载项](/MicrosoftTeams/teams-add-in-for-outlook) | 修改内容 |
+| 1/28/2021 | [在 Teams 管理中心管理"表扬"应用](/MicrosoftTeams/manage-praise-app) | 修改内容 |
+| 1/28/2021 | [Microsoft Teams 中的公共预览版](/MicrosoftTeams/public-preview-doc-updates) | 修改内容 |
+| 1/28/2021 | [Microsoft Teams 会议室托管服务](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 修改内容 |
+| 1/28/2021 | [使用 Teams 应用提交 API 提交和批准自定义应用](/MicrosoftTeams/submit-approve-custom-apps) | 修改内容 |
+| 1/29/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
+| 1/29/2021 | [通过直接路由认证的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 1/29/2021 | [Teams 虚拟访问](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 修改内容 |
+| 1/29/2021 | [管理联合身份验证 (外部) ](/MicrosoftTeams/manage-external-access) | 修改内容 |
+| 1/29/2021 | [Microsoft Teams 中外部用户 (联合) 的本机聊天体验](/MicrosoftTeams/native-chat-for-external-users) | 修改内容 |
+| 1/29/2021 | [已知问题](/MicrosoftTeams/rooms/known-issues) | 修改内容 |
+| 1/29/2021 | [Teams 和 Skype 互操作性](/MicrosoftTeams/teams-skype-interop) | 修改内容 |
+
+
 ## <a name="week-of-january-18-2021"></a>2021 年 1 月 18 日周
 
 
@@ -59,7 +96,7 @@
 | 1/19/2021 | [适用于政府的 Teams 策略包](/MicrosoftTeams/policy-packages-gov) | 修改内容 |
 | 1/19/2021 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
 | 1/19/2021 | [登录 Microsoft Teams](/MicrosoftTeams/sign-in-teams) | 修改内容 |
-| 1/19/2021 | [CQD (呼叫质量仪表板中的流) ](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | 修改内容 |
+| 1/19/2021 | [CQD 呼叫质量仪表板中的 (分类) ](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | 修改内容 |
 | 1/19/2021 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
 | 1/19/2021 | [Teams 联系中心](/MicrosoftTeams/teams-contact-center) | 修改内容 |
 | 1/19/2021 | [推出 Microsoft Teams First](/MicrosoftTeams/teams-first-overview) | 修改内容 |
@@ -132,7 +169,7 @@
 | 12/15/2020 | [从 Skype for Business 本地部署升级到 Teams 时 PSTN 注意事项](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | 修改内容 |
 | 12/16/2020 | [规划 Teams 自动助理和呼叫队列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 修改内容 |
 | 12/16/2020 | [在 Microsoft Teams 中规划语音解决方案](/MicrosoftTeams/cloud-voice-landing-page) | 修改内容 |
-| 12/16/2020 | [维度和度量 - CQD (呼叫质量) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
+| 12/16/2020 | [维度和度量 - 呼叫质量仪表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
 | 12/16/2020 | [配置直接路由](/MicrosoftTeams/direct-routing-configure) | 修改内容 |
 | 12/16/2020 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
 | 12/16/2020 | [设置通话套餐](/MicrosoftTeams/set-up-calling-plans) | 修改内容 |
