@@ -31,6 +31,206 @@ items:
         href: get-started-with-teams-monitor-usage-and-feedback.md
       - name: 的 4 步：规划组织范围内的部署
         href: get-started-with-teams-resources-for-org-wide-rollout.md
+  - name: 安全性、隐私性和合规性
+    items:
+      - name: 概述
+        href: security-compliance-overview.md
+      - name: 安全性
+        items:
+          - name: 安全指南
+            href: teams-security-guide.md
+          - name: Azure Sentinel 和 Teams
+            href: teams-sentinel-guide.md
+          - name: 标识模式和身份验证
+            href: identify-models-authentication.md
+          - name: 登录 Microsoft Teams
+            href: sign-in-teams.md
+          - name: Teams 中安全链接
+            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: AppLocker 应用程序控制策略
+            href: applocker-in-teams.md
+          - name: 阻止对 Sharepoint 的访问
+            href: block-access-sharepoint.md
+      - name: 合规性
+        items:
+          - name: 信息屏障
+            href: information-barriers-in-teams.md
+          - name: 保留策略
+            href: retention-policies.md
+          - name: 通信合规性
+            href: communication-compliance.md
+          - name: 通话和会议的基于策略的录制
+            href: teams-recording-policy.md
+          - name: 敏感度标签
+            href: sensitivity-labels.md
+          - name: 数据丢失防护
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: 电子数据展示
+            href: ediscovery-investigation.md
+          - name: 合法持有
+            href: legal-hold.md
+          - name: 内容搜索
+            href: content-search.md
+          - name: 审核
+            href: audit-log-events.md
+          - name: Teams 租户级别客户密钥
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: 隐私
+        items:
+          - name: 隐私和 Microsoft Teams
+            href: teams-privacy.md
+          - name: 数据收集做法
+            href: data-collection-practices.md
+          - name: Teams 中的数据位置
+            href: location-of-data-in-teams.md
+          - name: 阻止特定用户对 Sharepoint Online 的访问
+            href: block-access-sharepoint.md
+          - name: 策略控制概述
+            href: policy-control-overview.md
+          - name: 移动设备诊断数据
+            href: policy-control-diagnostic-data-mobile.md
+          - name: 桌面客户端诊断数据
+            href: policy-control-diagnostic-data-desktop.md
+          - name: 可选连接体验
+            href: teams-privacy-oce-overview.md
+  - name: 管理和监视 Teams
+    items:
+      - name: 概述
+        href: manage-teams-overview.md
+      - name: 管理员角色
+        href: using-admin-roles.md
+      - name: 在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
+        href: manage-teams-skypeforbusiness-admin-center.md
+      - name: 在 Microsoft Teams 管理中心中管理 Teams
+        href: manage-teams-in-modern-portal.md
+      - name: 为你的组织管理 Teams 设置
+        href: enable-features-office-365.md
+      - name: 管理策略
+        items:
+          - name: 向用户分配策略
+            href: assign-policies.md
+          - name: 在活动日志中查看工作分配
+            href: activity-log.md
+          - name: 在 Teams 中管理应用权限策略
+            href: teams-app-permission-policies.md
+          - name: 在 Teams 中管理应用设置策略
+            href: teams-app-setup-policies.md
+          - name: 在 Teams 中管理自定义应用策略和设置
+            href: teams-custom-app-policies-and-settings.md
+          - name: 在 Teams 中管理反馈策略
+            href: manage-feedback-policies-in-teams.md
+          - name: 在 Teams 中管理策略包
+            href: manage-policy-packages.md
+      - name: 与外部用户通信
+        items:
+          - name: 与其他组织的用户通信
+            href: communicate-with-users-from-other-organizations.md
+          - name: 外部访问（联合身份验证）
+            items:
+              - name: 管理外部访问
+                href: manage-external-access.md
+              - name: 面向外部用户的本机 Teams 聊天
+                href: native-chat-for-external-users.md
+              - name: Teams 和 Skype 的互操作性
+                href: teams-skype-interop.md
+          - name: 来宾访问权限
+            items:
+              - name: 关于来宾访问权限
+                href: guest-access.md
+              - name: 来宾访问清单
+                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+              - name: 来宾体验
+                href: guest-experience.md
+              - name: 授予来宾访问权限
+                href: teams-dependencies.md
+              - name: 启用或禁用来宾访问
+                href: set-up-guests.md
+              - name: 向团队添加来宾
+                href: view-guests.md
+              - name: 编辑来宾用户信息
+                href: edit-guests-information.md
+              - name: 来宾访问疑难解答
+                href: troubleshoot-guest-access.md
+      - name: 监视和管理通话质量
+        items:
+          - name: 监视和改善通话质量
+            href: monitor-call-quality-qos.md
+          - name: 通话质量仪表板 (CQD)
+            items:
+              - name: 什么是 CQD？
+                href: CQD-what-is-call-quality-dashboard.md
+              - name: 设置 CQD
+                href: turning-on-and-using-call-quality-dashboard.md
+              - name: 上传租户和建筑物数据
+                href: CQD-upload-tenant-building-data.md
+              - name: CQD 数据和报告
+                href: CQD-data-and-reports.md
+              - name: 使用 CQD 管理通话和会议质量
+                href: quality-of-experience-review-guide.md
+              - name: 常见问题解答
+                href: CQD-frequently-asked-questions.md
+              - name: CQD 中可用的维度和衡量指标
+                href: dimensions-and-measures-available-in-call-quality-dashboard.md
+              - name: CQD 中的流分类
+                href: stream-classification-in-call-quality-dashboard.md
+              - name: 创建建筑物地图
+                href: CQD-building-mapping.md
+              - name: 使用 Power BI 分析 CQD 数据
+                items:
+                  - name: 使用 Power BI 分析 CQD 数据
+                    href: CQD-Power-BI-query-templates.md
+                  - name: 安装 Power BI 连接器以使用 CQD 查询模板
+                    href: CQD-Power-BI-connector.md
+                  - name: 获取有关 Teams 利用率的 CQD 数据
+                    href: CQD-teams-utilization-report.md
+                  - name: 使用 CQD PSTN 直接路由报告
+                    href: CQD-PSTN-report.md
+          - name: 通话分析
+            items:
+              - name: 设置通话分析
+                href: set-up-call-analytics.md
+              - name: 使用通话分析来排查通话质量不良问题
+                href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+          - name: 服务质量 (QoS)
+            items:
+              - name: 在 Teams 中设置 QoS
+                href: QoS-in-Teams.md
+              - name: 在 Windows 客户端上设置 QoS
+                href: QoS-in-Teams-clients.md
+      - name: 运行服务
+        href: upgrade-operate-my-service.md
+      - name: 增强服务
+        href: upgrade-enhance-my-service.md
+      - name: 使用内联消息翻译
+        href: inline-message-translation-teams.md
+      - name: 使用 Microsoft Teams 范围目录搜索
+        href: teams-scoped-directory-search.md
+      - name: 常见问题解答：支持远程工作人员
+        href: FAQ-support-remote-workforce.md
+      - name: 报表
+        items:
+          - name: Microsoft 365 管理中心中的活动报告
+            href: teams-activity-reports.md
+          - name: Teams 管理中心中的分析和报告
+            items:
+              - name: 概述
+                href: teams-analytics-and-reports/teams-reporting-reference.md
+              - name: Teams 使用情况报告
+                href: teams-analytics-and-reports/teams-usage-report.md
+              - name: Teams 用户活动报告
+                href: teams-analytics-and-reports/user-activity-report.md
+              - name: Teams 应用使用情况报告
+                href: teams-analytics-and-reports/app-usage-report.md
+              - name: Teams 设备使用报告
+                href: teams-analytics-and-reports/device-usage-report.md
+              - name: PSTN 阻止的用户报告
+                href: teams-analytics-and-reports/pstn-blocked-users-report.md
+              - name: PSTN 分钟池报告
+                href: teams-analytics-and-reports/pstn-minute-pools-report.md
+              - name: PSTN 使用报告
+                href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Teams 实时事件使用情况报表
+                href: teams-analytics-and-reports/teams-live-event-usage-report.md
   - name: 聊天、团队和频道
     items:
       - name: 规划部署
@@ -129,110 +329,6 @@ items:
                 href: troubleshoot-guest-access.md
       - name: Teams 中的 Cortana
         href: cortana-in-teams.md
-      - name: 管理 Teams
-        items:
-          - name: 管理员角色
-            href: using-admin-roles.md
-          - name: 为你的组织管理 Teams 设置
-            href: enable-features-office-365.md
-          - name: 在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
-            href: manage-teams-skypeforbusiness-admin-center.md
-          - name: 在 Microsoft Teams 管理中心中管理 Teams
-            href: manage-teams-in-modern-portal.md
-          - name: 在 Teams 中分配团队所有者和成员
-            href: assign-roles-permissions.md
-          - name: 向用户分配策略
-            href: assign-policies.md
-          - name: 在活动日志中查看工作分配
-            href: activity-log.md
-          - name: 在 Teams 中管理应用权限策略
-            href: teams-app-permission-policies.md
-          - name: 在 Teams 中管理应用设置策略
-            href: teams-app-setup-policies.md
-          - name: 在 Teams 中管理自定义应用策略和设置
-            href: teams-custom-app-policies-and-settings.md
-          - name: 在 Teams 中管理反馈策略
-            href: manage-feedback-policies-in-teams.md
-          - name: 在 Teams 中管理策略包
-            href: manage-policy-packages.md
-          - name: 将 Skype 会议应用配置为与 Teams 配合使用
-            href: configure-skype-meetings-app-to-work-with-teams.md
-          - name: 管理外部访问
-            href: manage-external-access.md
-          - name: 使用内联消息翻译
-            href: inline-message-translation-teams.md
-          - name: 使用 Microsoft Teams 范围目录搜索
-            href: teams-scoped-directory-search.md
-          - name: Teams 管理中心中的分析和报告
-            items:
-              - name: 概述
-                href: teams-analytics-and-reports/teams-reporting-reference.md
-              - name: Teams 使用情况报告
-                href: teams-analytics-and-reports/teams-usage-report.md
-              - name: Teams 用户活动报告
-                href: teams-analytics-and-reports/user-activity-report.md
-              - name: Teams 应用使用情况报告
-                href: teams-analytics-and-reports/app-usage-report.md
-              - name: Teams 设备使用报告
-                href: teams-analytics-and-reports/device-usage-report.md
-              - name: PSTN 阻止的用户报告
-                href: teams-analytics-and-reports/pstn-blocked-users-report.md
-              - name: PSTN 分钟池报告
-                href: teams-analytics-and-reports/pstn-minute-pools-report.md
-              - name: PSTN 使用报告
-                href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Teams 实时事件使用情况报表
-                href: teams-analytics-and-reports/teams-live-event-usage-report.md
-          - name: Microsoft 365 管理中心的 Teams 活动报告
-            href: teams-activity-reports.md
-  - name: 应用、机器人和连接器
-    items:
-      - name: 概述
-        href: deploy-apps-microsoft-teams-landing-page.md
-      - name: 与 Power Platform 集成
-        href: teams-power-platfom-integration.md
-      - name: 管理适用于 Teams 的应用
-        href: manage-apps.md
-      - name: Teams 中应用程序的管理设置
-        href: admin-settings.md
-      - name: 使用内置和自定义选项卡
-        href: built-in-custom-tabs.md
-      - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
-        href: Office-365-custom-connectors.md
-      - name: 特定于资源的许可
-        href: resource-specific-consent.md
-      - name: 自定义应用
-        items:
-          - name: 发布通过 Teams 应用提交 API 所提交的自定义应用
-            href: submit-approve-custom-apps.md
-          - name: 在 Microsoft Teams 管理中心中管理 Power 平台应用
-            href: manage-power-platform-apps.md
-          - name: 通过上载应用包来发布自定义应用
-            href: upload-custom-apps.md
-          - name: 自定义应用存储
-            href: customize-your-app-store.md
-      - name: 应用认证
-        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: 查看应用权限并授予 Microsoft Teams 管理中心的管理员许可
-        href: app-permissions-admin-center.md
-      - name: 应用权限和注意事项
-        href: app-permissions.md
-      - name: Teams 第三方应用购买服务
-        href: purchase-third-party-apps.md
-      - name: 适用于 Teams 的应用模板
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: 在 Teams 中管理组织的列表应用
-        href: manage-lists-app.md
-      - name: 为组织管理任务应用
-        href: manage-tasks-app.md
-      - name: 设置团队目标层次结构
-        href: set-up-your-team-hierarchy.md
-      - name: 在 Teams 管理中心里管理表扬应用
-        href: manage-praise-app.md
-      - name: 将 Skype 会议应用配置为与 Teams 配合使用
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: Teams 审批应用程序可用性
-        href: approval-admin.md
   - name: 会话和电话会议
     items:
       - name: 快速入门 - 会议和实时事件
@@ -347,6 +443,8 @@ items:
         href: teams-contact-center.md
       - name: 在 Outlook 中使用 Teams 会议外接程序
         href: teams-add-in-for-outlook.md
+      - name: 将 Skype 会议应用配置为与 Teams 配合使用
+        href: configure-skype-meetings-app-to-work-with-teams.md
       - name: 为用户设置“致电我”功能
         href: set-up-the-call-me-feature-for-your-users.md
       - name: 获取会议出席情况报告
@@ -882,6 +980,102 @@ items:
             items:
               - name: 规划用户体验
                 href: 5-envision-plan-my-users-experience.md
+  - name: Microsoft 365 商务语音
+    items:
+      - name: 什么是 Microsoft 365 商务语音？
+        href: business-voice/whats-business-voice.md
+      - name: 国家和地区可用性
+        href: business-voice/country-region-availability.md
+      - name: 购买须知
+        items:
+          - name: 获取商务语音需要购买什么
+            href: business-voice/what-to-buy.md
+          - name: 从经销商或合作伙伴处获取帮助
+            href: business-voice/reseller-partner-support.md
+          - name: 检查 Internet 连接。
+            href: business-voice/get-ready-internet.md
+          - name: 使用户准备就绪
+            href: business-voice/prepare-users.md
+      - name: 运行“入门”向导
+        href: business-voice/use-getting-started-wizard.md
+      - name: '尝试执行以下操作:'
+        href: business-voice/things-to-try.md
+      - name: 自定义设置
+        items:
+          - name: 自定义选项
+            href: business-voice/customize-business-voice.md
+          - name: 转移电话号码
+            href: business-voice/port-phone-numbers.md
+          - name: 设置通话策略
+            href: business-voice/set-up-policies.md
+          - name: 管理策略包
+            href: business-voice/policy-packages.md
+          - name: 创建其他用户
+            href: business-voice/create-users.md
+          - name: 设置呼叫队列
+            href: business-voice/create-a-phone-system-call-queue-smb.md
+          - name: 设置自动助理
+            href: business-voice/create-a-phone-system-auto-attendant-smb.md
+      - name: 管理设置
+        items:
+          - name: 创建一个或多个用户
+            href: business-voice/create-users.md
+          - name: 管理设备
+            href: business-voice/manage-devices.md
+          - name: 监视通话质量
+            href: business-voice/monitor-quality.md
+          - name: 通话质量仪表板
+            href: business-voice/analytics-dashboard.md
+      - name: 合作伙伴资源
+        href: business-voice/partner-resources.md
+  - name: 应用、机器人和连接器
+    items:
+      - name: 概述
+        href: deploy-apps-microsoft-teams-landing-page.md
+      - name: 与 Power Platform 集成
+        href: teams-power-platfom-integration.md
+      - name: 管理适用于 Teams 的应用
+        href: manage-apps.md
+      - name: Teams 中应用程序的管理设置
+        href: admin-settings.md
+      - name: 使用内置和自定义选项卡
+        href: built-in-custom-tabs.md
+      - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
+        href: Office-365-custom-connectors.md
+      - name: 特定于资源的许可
+        href: resource-specific-consent.md
+      - name: 自定义应用
+        items:
+          - name: 发布通过 Teams 应用提交 API 所提交的自定义应用
+            href: submit-approve-custom-apps.md
+          - name: 在 Microsoft Teams 管理中心中管理 Power 平台应用
+            href: manage-power-platform-apps.md
+          - name: 通过上载应用包来发布自定义应用
+            href: upload-custom-apps.md
+          - name: 自定义应用存储
+            href: customize-your-app-store.md
+      - name: 应用认证
+        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: 查看应用权限并授予 Microsoft Teams 管理中心的管理员许可
+        href: app-permissions-admin-center.md
+      - name: 应用权限和注意事项
+        href: app-permissions.md
+      - name: Teams 第三方应用购买服务
+        href: purchase-third-party-apps.md
+      - name: 适用于 Teams 的应用模板
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: 在 Teams 中管理组织的列表应用
+        href: manage-lists-app.md
+      - name: 为组织管理任务应用
+        href: manage-tasks-app.md
+      - name: 设置团队目标层次结构
+        href: set-up-your-team-hierarchy.md
+      - name: 在 Teams 管理中心里管理表扬应用
+        href: manage-praise-app.md
+      - name: 将 Skype 会议应用配置为与 Teams 配合使用
+        href: configure-skype-meetings-app-to-work-with-teams.md
+      - name: Teams 审批应用程序可用性
+        href: approval-admin.md
   - name: 采用
     items:
       - name: 概述
@@ -1044,54 +1238,6 @@ items:
             href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
       - name: 与 Exchange 和 SharePoint 集成
         href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
-  - name: Microsoft 365 商务语音
-    items:
-      - name: 什么是 Microsoft 365 商务语音？
-        href: business-voice/whats-business-voice.md
-      - name: 国家和地区可用性
-        href: business-voice/country-region-availability.md
-      - name: 购买须知
-        items:
-          - name: 获取商务语音需要购买什么
-            href: business-voice/what-to-buy.md
-          - name: 从经销商或合作伙伴处获取帮助
-            href: business-voice/reseller-partner-support.md
-          - name: 检查 Internet 连接。
-            href: business-voice/get-ready-internet.md
-          - name: 使用户准备就绪
-            href: business-voice/prepare-users.md
-      - name: 运行“入门”向导
-        href: business-voice/use-getting-started-wizard.md
-      - name: '尝试执行以下操作:'
-        href: business-voice/things-to-try.md
-      - name: 自定义设置
-        items:
-          - name: 自定义选项
-            href: business-voice/customize-business-voice.md
-          - name: 转移电话号码
-            href: business-voice/port-phone-numbers.md
-          - name: 设置通话策略
-            href: business-voice/set-up-policies.md
-          - name: 管理策略包
-            href: business-voice/policy-packages.md
-          - name: 创建其他用户
-            href: business-voice/create-users.md
-          - name: 设置呼叫队列
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: 设置自动助理
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: 管理设置
-        items:
-          - name: 创建一个或多个用户
-            href: business-voice/create-users.md
-          - name: 管理设备
-            href: business-voice/manage-devices.md
-          - name: 监视通话质量
-            href: business-voice/monitor-quality.md
-          - name: 通话质量仪表板
-            href: business-voice/analytics-dashboard.md
-      - name: 合作伙伴资源
-        href: business-voice/partner-resources.md
   - name: 行业和政府指南
     items:
       - name: 概述
@@ -1214,124 +1360,9 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: 政府用 Teams 策略包
             href: policy-packages-gov.md
-  - name: 安全性、隐私性和合规性
+  - name: 排除故障
+    href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
     items:
-      - name: 概述
-        href: security-compliance-overview.md
-      - name: 安全性
-        items:
-          - name: 安全指南
-            href: teams-security-guide.md
-          - name: Azure Sentinel 和 Teams
-            href: teams-sentinel-guide.md
-          - name: 标识模式和身份验证
-            href: identify-models-authentication.md
-          - name: 登录 Microsoft Teams
-            href: sign-in-teams.md
-          - name: Teams 中安全链接
-            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-          - name: AppLocker 应用程序控制策略
-            href: applocker-in-teams.md
-          - name: 阻止对 Sharepoint 的访问
-            href: block-access-sharepoint.md
-      - name: 合规性
-        items:
-          - name: 信息屏障
-            href: information-barriers-in-teams.md
-          - name: 保留策略
-            href: retention-policies.md
-          - name: 通信合规性
-            href: communication-compliance.md
-          - name: 通话和会议的基于策略的录制
-            href: teams-recording-policy.md
-          - name: 敏感度标签
-            href: sensitivity-labels.md
-          - name: 数据丢失防护
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-          - name: 电子数据展示
-            href: ediscovery-investigation.md
-          - name: 合法持有
-            href: legal-hold.md
-          - name: 内容搜索
-            href: content-search.md
-          - name: 审核
-            href: audit-log-events.md
-          - name: 通过 Microsoft Teams Export API 导出内容
-            href: export-teams-content.md
-          - name: Teams 租户级别客户密钥
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: 隐私
-        items:
-          - name: 隐私和 Microsoft Teams
-            href: teams-privacy.md
-          - name: 数据收集做法
-            href: data-collection-practices.md
-          - name: Teams 中的数据位置
-            href: location-of-data-in-teams.md
-          - name: 阻止特定用户对 Sharepoint Online 的访问
-            href: block-access-sharepoint.md
-          - name: 策略控制概述
-            href: policy-control-overview.md
-          - name: 移动设备诊断数据
-            href: policy-control-diagnostic-data-mobile.md
-          - name: 桌面客户端诊断数据
-            href: policy-control-diagnostic-data-desktop.md
-          - name: 可选连接体验
-            href: teams-privacy-oce-overview.md
-  - name: 监视、维护和疑难解答
-    items:
-      - name: 运行服务
-        href: upgrade-operate-my-service.md
-      - name: 增强服务
-        href: upgrade-enhance-my-service.md
-      - name: 监视和管理通话质量
-        items:
-          - name: 监视和改善通话质量
-            href: monitor-call-quality-qos.md
-          - name: 通话质量仪表板 (CQD)
-            items:
-              - name: 什么是 CQD？
-                href: CQD-what-is-call-quality-dashboard.md
-              - name: 设置 CQD
-                href: turning-on-and-using-call-quality-dashboard.md
-              - name: 上传租户和建筑物数据
-                href: CQD-upload-tenant-building-data.md
-              - name: CQD 数据和报告
-                href: CQD-data-and-reports.md
-              - name: 使用 CQD 管理通话和会议质量
-                href: quality-of-experience-review-guide.md
-              - name: 常见问题解答
-                href: CQD-frequently-asked-questions.md
-              - name: CQD 中可用的维度和衡量指标
-                href: dimensions-and-measures-available-in-call-quality-dashboard.md
-              - name: CQD 中的流分类
-                href: stream-classification-in-call-quality-dashboard.md
-              - name: 创建建筑物地图
-                href: CQD-building-mapping.md
-              - name: 使用 Power BI 分析 CQD 数据
-                items:
-                  - name: 使用 Power BI 分析 CQD 数据
-                    href: CQD-Power-BI-query-templates.md
-                  - name: 安装 Power BI 连接器以使用 CQD 查询模板
-                    href: CQD-Power-BI-connector.md
-                  - name: 获取有关 Teams 利用率的 CQD 数据
-                    href: CQD-teams-utilization-report.md
-                  - name: 使用 CQD PSTN 直接路由报告
-                    href: CQD-PSTN-report.md
-          - name: 通话分析
-            items:
-              - name: 设置通话分析
-                href: set-up-call-analytics.md
-              - name: 使用通话分析来排查通话质量不良问题
-                href: use-call-analytics-to-troubleshoot-poor-call-quality.md
-          - name: 服务质量 (QoS)
-            items:
-              - name: 在 Teams 中设置 QoS
-                href: QoS-in-Teams.md
-              - name: 在 Windows 客户端上设置 QoS
-                href: QoS-in-Teams-clients.md
-      - name: Teams 故障排除
-        href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
       - name: 解决安装和更新问题
         href: troubleshoot-installation.md
       - name: 对 Teams 客户端的连接问题进行故障排除
@@ -1340,8 +1371,6 @@ items:
         href: legacy-login-issues.md
       - name: 在对 Teams 进行故障排除时使用日志文件
         href: log-files.md
-      - name: 常见问题解答：支持远程工作人员
-        href: FAQ-support-remote-workforce.md
       - name: 验证 Teams 的服务运行状况
         href: service-health.md
       - name: 联系商业版产品的支持人员 - 管理员帮助

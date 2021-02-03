@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd60e20d4218c9deaca84974b890280f942fe1be
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986388"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067127"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -174,7 +174,7 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 
 以课堂教师的身份查看课堂级见解 *不* 需要这样做，因为我们使用 Teams 的课堂结构和权限。
 
-若要了解详细信息，请阅读[将学生信息系统 (SIS) 数据与教育版见解同步](education-insights-sis-data-sync.md)。
+若要了解详细信息，请阅读 [**将学生信息系统 (SIS) 数据与教育版见解同步**](education-insights-sis-data-sync.md)。
 
 ## <a name="manage-permissions"></a>管理权限
 你需要为教育领导者、地区领导、学校校长、班主任、辅导员、学区主管、项目主管、社会工作者和心理学家提供权限。 如果教师拥有课堂团队，则会自动获得权限。
@@ -208,19 +208,51 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 ## <a name="turn-insights-off-or-on"></a>启用或关闭见解
 默认情况下，已启用见解。 当你选择退出时，我们将 *删除为见解收集的所有数据*。 重新启用见解，我们将从重新启用时开始收集数据。
 
-### <a name="turn-insights-off-using-school-data-sync-sds"></a>使用学校数据同步 (SDS) 关闭见解
+### <a name="turn-off-insights-using-school-data-sync-sds"></a>使用学校数据同步 （SDS） 关闭见解
 学校数据同步 (SDS) 有助于自动执行将学生信息系统 (SIS) 数据导入和同步到 Teams 的过程。
 
-使用见解 *不* 需要使用 SDS。 但是，你随时可以选择从见解中退出。 打开 SDS 管理中心，转到“**设置**” > “**管理教育版见解**”。 关闭“**为见解收集数据**”以禁用见解。 
+使用见解 *不* 需要使用 SDS。 但是，你随时可以选择从见解中退出。 打开 [SDS 管理中心](https://sds.microsoft.com)，转到“**设置**” > “**管理教育版见解**”。 关闭“**为见解收集数据**”以禁用见解。 
 
 :::image type="content" source="media/insights-sds-settings.png" alt-text="启用或禁用见解的开关。":::
 
-### <a name="turn-insights-on"></a>启用见解
-如果已关闭见解，你可以快速启用它。 打开 SDS 管理中心，转到“**设置**” > “**管理教育版见解**”。 打开“**为见解收集数据**”以启用见解
+### <a name="turn-on-insights"></a>打开见解
+如果已关闭见解，你可以快速启用它。 打开 [SDS 管理中心](https://sds.microsoft.com)，转到“**设置**” > “**管理教育版见解**”。 打开“**为见解收集数据**”以启用见解
 
 ### <a name="how-to-delete-your-data"></a>如何删除数据
-见解存储学生和教师在课堂团队环境中进行的操作。 此数据被视为混合数据集，因此一旦从组织中删除学生或教育者用户帐户，就不会自动将其从服务中删除。
+见解存储学生和教师在课堂团队环境中进行的操作。 此数据被视为混合数据集，因此一旦从组织中删除学生或教师用户帐户，就不会自动将其从服务中删除。
 注意：删除数据会损害见解分析课堂团队参与度的能力。
-* [打开支持票证](https://edusupport.microsoft.com/support)。 支持票证必须清楚说明对 GDPR Delete DSR 操作的请求，并包含要删除的用户对象ID。 无法限制删除的数据集或时间范围。
+* [打开支持票证](https://aka.ms/edusupport)。 支持票证必须清楚说明对 GDPR Delete DSR 操作的请求，并包含要删除的用户对象ID。 无法限制删除的数据集或时间范围。
 *   存档后，支持票证将在队列中等待一周，以便满足合规性最低保留策略的要求。 你有机会在这段时间内取消操作。
 *   一周后，教育版见解团队将采取措施，确保从服务中删除所有与用户 ID 相关的数据。 Microsoft 支持人员将监视票证，并在不超过 28 天的删除过程完成后通知你。
+
+## <a name="troubleshooting"></a>疑难解答
+### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>为什么我的机构在 Insights 中看不到任何数据？
+如果你是 *新* 租户，并且你 *从未* 在见解中查看过数据，请检查你的租户是否 **已验证为教育租户** 以访问见解。 联系 Microsoft 帐户管理员，请他们检查租户配置是否正确。
+
+如果没有账户管理员，请开立一份票证。 转到“[Office 365 管理中心](https://admin.microsoft.com/AdminPortal/)” > “**支持**” > “**新服务请求**”。  在票证标题中，写入：“”需要有关教育版验证的帮助”。
+ 
+同时，验证是否已启用见解的数据收集。 默认情况下，IT 管理员可能已将其关闭，因此会删除 Insights 保留的所有数据。
+
+若要验证此项，请打开 [SDS 管理中心](https://sds.microsoft.com)，转到“**设置**” > “**管理教育版见解**”。 检查“为见解收集数据”的状态。
+
+如果将其关闭，请将其再次打开。  见解开始收集数据，但可能需要多达 24 小时才能在报告中查看。 
+
+
+### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>为什么会看到某些学生或班级的数据，而不是全部？
+我们仅收集 *已授权* 学生的数据，因此最可能的原因就是有来宾学生参与课程，不会收集他们的数据。 你可能看到他们的姓名，但没有任何数据。
+
+检查学生的状态，确保所有学生都有学生许可证。 
+
+### <a name="why-dont-educators-see-meeting-data"></a>为什么教师看不到会议数据？
+需要长达 24 小时才能在见解报告中查看会议数据。 因此，请检查是否已过足够的时间。
+
+此外，检查学生是否 *没有* [Teams 帐户或帐户来加入课堂](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 在此情况下不会收集学生活动。
+
+> [!TIP]
+> 对于那些想要跟踪学生出席情况的教师，你可以建议在会议期间发送一条消息，要求学生回复。 这将在几分钟内注册他们的出席情况。
+
+> [!NOTE]
+> 如果问题仍未解决，请 [打开支持票证](https://aka.ms/edusupport)。 包括阐明问题以及问题发生日期的相关屏幕截图。 添加你认为可帮助我们解决该问题的其他数据。
+
+
+

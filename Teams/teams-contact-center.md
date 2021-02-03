@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams 的 CCaaS (解决方案集成) 中心服务概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d34a1790a082e1defab399828cceb5c0082dc70d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 0913bef8a77e66ae3b82905a8d154940f32c2392
+ms.sourcegitcommit: de7d0807186a64dfe1cca15d34c39bdbad6af836
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909486"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084745"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
@@ -62,29 +62,9 @@ Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通�
 
 随着更多合作伙伴加入并满足认证条件，此列表将更新。
 
-## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>联系中心解决方案在 Microsoft Teams 中如何工作？
-
-Microsoft Teams 提供了一系列功能来支持第三方语音解决方案的开发，包括：
-
-1. [直接路由连接](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
-
-2. [Microsoft Graph 云通信 API](https://docs.microsoft.com/graph/cloud-communications-get-started)
-
-3. Teams 平台和可扩展性
-
-4. Teams SDK
-
-这些功能共同支持三种集成模型：
-
-  - **通过** (路由连接) 
-
-  - **连接和扩展** (直接路由、图形 API 和 Teams 应用平台) 
-
-  - **扩展和 power** (将 Teams SDK 嵌入到 3p 应用中，实现本机 Teams) 
-
 ### <a name="connect"></a>连接
 
-此模型将 CCaaS 合作伙伴与 Microsoft Teams 手机系统基础结构相连接，实现增强的路由、配置和系统见解。 在此模型中，联系中心合作伙伴解决方案还可以为所选号码和用户提供电话服务。
+此模型将 CCaaS 合作伙伴与 Microsoft Teams 手机系统基础结构相连接，实现增强的路由、配置和系统见解。 
 
 使用基于 Connect 模型构建的解决方案的代理可以收集信息&见解，并在必要时直接将呼叫转接给主题专家，使用 SME 在 Teams 中的存在来确保其可用性。
 
@@ -98,15 +78,13 @@ Microsoft Teams 提供了一系列功能来支持第三方语音解决方案的�
 
   - Teams 用户显示状态指示 
 
-  - 测试计划 (指示，通过直接路由调用)  
-
   - 支持 Teams 用户的转接和群组通话 
 
   - 用于与 Teams 集成的 Teams Graph API 和云通信 API 
 
   - 能够支持多租户 SIP 中继，以支持合作伙伴 SBC 上的多个客户。  
 
-  - 实施 Microsoft 认证的 [<span class="underline">会话边界控制器的合作伙伴 (SBC) </span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - 合作伙伴使用 [<span class="underline">Microsoft 认证的会话边界控制器 (SBC) </span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>连接和扩展
 

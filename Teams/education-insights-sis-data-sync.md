@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7570368a6b9bd889bc5ed632cd1d057d70ae791a
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986419"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067117"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>将学生信息系统 (SIS) 数据与教育版见解同步
 向[教育版见解](class-insights.md)提供的数据越多，教师就越能更好地为学生提供支持，并且教育领导者也可以为教师提供更好的支持。
@@ -37,7 +37,7 @@ SIS 数据提供教育系统的层次结构，并映射在何处分配了哪个�
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>SDS V1 和 V2 文件格式之间的差异
 
-| 数据类型 |   V1 | V2（推荐） |
+| 数据类型 |   V1 | V2（向新客户推荐） |
 |:--- |:--- |:--- |
 | **用户** | V1 格式 **仅包含教师**,，因此若要为教育领导者设置组织级别的权限，你需要搜索他们并手动定义每个人的权限。 | V2 格式包含 **所有角色**，因此你可以分配基于角色的权限。 |
 | **组织** | V1 格式 **仅包含学校**，因此你只能看到一个汇总级别（所有学校）。 你可以使用平面列表来放大特定的学校，但是此列表可能包含大量学校，或者包含难以比较的不同类型的学校（例如小学与中学，或者理工院校与艺术院校）。<br/><br/> 有了层次结构，你可以创建有意义的级别，例如科学或艺术系。| V2 格式包含 **你所在地区或机构的完整层次结构**，包括大学、学院、院系、校园、区域、课程等。<br/><br/> 使用层次结构，你可以按层次结构的各个级别查看相关汇总、快速比较每个级别的组织单位、为特定级别分配权限、按组织级别设置目标等。|
@@ -105,16 +105,18 @@ Office 365 教育版中提供了学校数据同步 (SDS)。 SDS 将读取教育�
 
 * 向下滚动到下一个开关“**从 SDS 同步组织数据(预览)**”，然后打开它。
 
-如果你在“设置”页面上未看到“*从 SDS 同步组织数据(预览)*”选项，请转到[注册页面](https://aka.ms/insights/join)以提供你的信息，团队成员随后会与你联系。
+如果你在“设置”页面上未看到“*从 SDS 同步组织数据(预览)*”选项，请转到 [注册页面](https://aka.ms/insights/join)以提供你的信息，团队成员随后会与你联系。
 
 :::image type="content" source="media/insights-sds-settings.png" alt-text="“与见解同步”开关":::
 
 ### <a name="deploy-sds"></a>部署 SDS
-**如果你已经在使用 SDS**，我们建议你遵循[最佳做法](#best-practices)。 
+**如果你已经在使用 SDS**，我们建议你遵循 [最佳做法](#best-practices)。 
 
-若要将当前配置文件与见解同步，请转到你的 **同步配置文件**，单击“**编辑**”，然后选择“**从 SDS 同步组织数据**”。 对于初始同步，我们建议在从 SIS 刷新数据后等待 24 小时，以便报告可用。  
+若要将当前配置文件与见解同步，请转到“**同步配置文件**”，单击“**编辑**”，然后选择“**同步到见解**”。 对于初始同步，我们建议在从 SIS 刷新数据后等待 24 小时，以便报告可用。  
 
-**如果你尚未使用 SDS**，那么现在需要[部署它](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync)。
+:::image type="content" source="media/insights-sds-profile-sync.png" alt-text="与见解同步配置文件开关":::
+
+**如果你尚未使用 SDS**，那么现在需要 [部署它](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync)。
 
 在部署过程中，你可以决定是要使用 SDS 在 Teams 中预配用户和班级，还是仅使用 SDS 来向见解提供数据。
 
@@ -122,7 +124,7 @@ Office 365 教育版中提供了学校数据同步 (SDS)。 SDS 将读取教育�
 > 如果现在是年中，并且你已经手动创建团队，则仅使用 SDS 将数据提供给见解，明年再考虑使用 SDS 在 Teams 中预配用户和班级。
 
 ### <a name="verify-the-sync-process"></a>验证同步过程
-“设置”页面上的“同步组织数据 - 预览”旁边将显示一个新的状态区域。
+“设置”页面上的“从 SDS 同步组织数据（预览）”旁边将显示一个新的状态区域。
  
 *   如果状态为“**正在进行**”，请在部署 SDS 配置文件后最多等待 24 小时。
 
