@@ -1,5 +1,5 @@
 ---
-title: 将会话边界控制器（SBC）连接到直接路由
+title: 将会话边界控制器 (SBC) 直接路由
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,57 +15,57 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 了解如何配置 SBC 并将其连接到手机系统直接路由。
-ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+description: 了解如何配置 SBC 并连接到电话系统直接路由。
+ms.openlocfilehash: e20ab921e8f01d8beea15f0b1dd8a50e229f4e91
+ms.sourcegitcommit: 5c33ca450a3215b9bf3c5da8bb3c9ef1a715a1a2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077617"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099442"
 ---
-# <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>将会话边界控制器（SBC）连接到直接路由
+# <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>将会话边界控制器 (SBC) 直接路由
 
-本文介绍如何配置会话边界控制器（SBC），并将其连接到 "手机系统直接路由"。  下面是配置直接路由的步骤1：
+本文介绍如何配置 SBC (边界控制器) 连接到电话系统直接路由。  这是配置直接路由的以下步骤的步骤 1：
 
-- **步骤1。将 SBC 与电话系统连接并验证连接**（本文）
+- **步骤 1.将 SBC 与手机系统连接并验证** (本文) 
 - 第 2 步 [为用户启用直接路由](direct-routing-enable-users.md)
 - 第 3 步 [配置呼叫路由](direct-routing-voice-routing.md)
 - 第 4 步 [将数字转换为备用格式](direct-routing-translate-numbers.md) 
 
-有关设置直接路由所需的所有步骤的信息，请参阅[配置直接路由](direct-routing-configure.md)。
+有关设置直接路由所需的所有步骤的信息，请参阅"配置[直接路由"。](direct-routing-configure.md)
 
-你可以使用[Microsoft 团队管理中心](#using-the-microsoft-teams-admin-center)或[PowerShell](#using-powershell)配置 SBC 并将其连接到直接路由。
+可以使用 Microsoft [Teams 管理中心](#using-the-microsoft-teams-admin-center) 或 [PowerShell](#using-powershell) 配置 SBC 并连接到直接路由。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在左侧导航中，转到 "**语音**  >  **直接路由**"，然后单击 " **SBCs** " 选项卡。
-2. 单击“添加”****。
-3. 输入 SBC 的 FQDN。 <br><br>请确保 FQDN 的域名部分与你的租户中注册的域相匹配，请记住， `*.onmicrosoft.com` SBC FQDN 域名不支持该域名。 例如，如果你有两个域名， `contoso.com` 并且 `contoso.onmicrosoft.com` 将 `sbc.contoso.com` 用作 SBC 名称。
-4. 根据组织的需求配置 SBC 的以下设置。 有关这些设置的详细信息，请参阅[SBC 设置](#sbc-settings)。
+1. 在左侧导航栏中，转到 **"语音**  >  **直接路由**"，然后单击 **"SDC"** 选项卡。
+2. 单击“**添加**”。
+3. 输入 SBC 的 FQDN。 <br><br>请确保 FQDN 的域名部分与在租户中注册的域匹配，请记住 `*.onmicrosoft.com` ，SBC FQDN 域名不支持该域名。 例如，如果有两个域名，并且用作 `contoso.com` `contoso.onmicrosoft.com` `sbc.contoso.com` SBC 名称。 如果使用子域，请确保此子域也在租户中注册。 例如，如果要使用， `sbc.service.contoso.com` 需要 `service.contoso.com` 注册。
+4. 根据组织的需求为 SBC 配置以下设置。 有关其中每个设置的详细信息，请参阅 [SBC 设置](#sbc-settings)。
 
-    ![Microsoft 团队管理中心中 "添加 SBC" 页面的屏幕截图](media/direct-routing-add-sbc.png)
+    ![Microsoft Teams 管理中心中添加 SBC 页面的屏幕截图](media/direct-routing-add-sbc.png)
 
 5. 完成时单击“**保存**”。
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
-要将 SBC 连接到直接路由，您需要：
+若要将 SBC 连接到直接路由，需要：
 
-1. [使用 PowerShell 连接到 Skype for Business Online](#connect-to-skype-for-business-online-by-using-powershell)。
+1. [使用 PowerShell](#connect-to-skype-for-business-online-by-using-powershell)连接到 Skype for Business Online。
 2. [将 SBC 连接到租户](#connect-the-sbc-to-the-tenant)。
 3. [验证 SBC 连接](#verify-the-sbc-connection)。
 
-### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>使用 PowerShell 连接到 Skype for business Online
+### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>使用 PowerShell 连接到 Skype for Business Online
 
-你可以使用连接到租户的 PowerShell 会话将 SBC 与直接路由接口配对。 若要打开 PowerShell 会话，请按照[为 Windows PowerShell 设置计算机](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)中概述的步骤进行操作。
+可以使用连接到租户的 PowerShell 会话将 SBC 与直接路由接口配对。 若要打开 PowerShell 会话，请按照"为计算机设置[](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)目标"Windows PowerShell。
  
-建立远程 PowerShell 会话后，请验证你是否可以查看用于管理 SBC 的命令。 若要验证命令，请在 PowerShell 会话中键入或复制并粘贴以下命令，然后按 Enter： 
+建立远程 PowerShell 会话后，验证是否可以看到用于管理 SBC 的命令。 若要验证命令，请在 PowerShell 会话中键入或复制并粘贴以下命令，然后按 Enter： 
 
 ```PowerShell
 Get-Command *onlinePSTNGateway*
 ```
 
-该命令返回此处显示的四个函数，可让你管理 SBC。
+该命令返回此处所示的四个函数，用于管理 SBC。
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -78,16 +78,16 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 ### <a name="connect-the-sbc-to-the-tenant"></a>将 SBC 连接到租户
 
-使用[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) CMDLET 将 SBC 连接到租户。 在 PowerShell 会话中，键入以下内容，然后按 Enter：
+使用 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet 将 SBC 连接到租户。 在 PowerShell 会话中，键入以下内容，然后按 Enter：
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true
 ```
 
   > [!NOTE]
-  > 1. 我们建议使用 SBC 文档中可以找到的信息，在 SBC 中设置最大通话限制。 如果 SBC 处于容量级别，则该限制将触发通知。
-  > 2. 仅当 FQDN 的域部分与租户中注册的一个域（onmicrosoft.com 除外）匹配时，才能连接 SBC \* 。 \*SBC FQDN 名称不支持使用 onmicrosoft.com 域名。 例如，如果你有两个域名、 **contoso****和 onmicrosoft.com**，则可以使用 sbc for sbc 名称。 如果你尝试使用名称（如 sbc）连接 SBC，则系统将不会允许你，因为域不属于此租户。<br/>
-  > 除了在租户中注册的域，还必须有一个用户使用该域和分配的 E3 或 E5 许可证。 如果不是，您将收到以下错误：<br/>
+  > 1. 建议使用 SBC 文档中的信息在 SBC 中设置最大调用限制。 如果 SBC 处于容量级别，则限制将触发通知。
+  > 2. 只有在 SBC 的 FQDN 域部分与租户中注册的域之一 \* （.onmicrosoft.com）匹配时，才能连接 SBC。 SBC \* FQDN 名称不支持使用 .onmicrosoft.com 域名。 例如，如果有两个域名 **：contoso**.com 和 **contoso**.onmicrosoft.com，可以使用 sbc.contoso.con 作为 SBC 名称。 如果尝试使用 sbc.contoso.abc 等名称连接 SBC，系统将不允许你，因为域不是此租户所有的。<br/>
+  > 除了在租户中注册的域，还有一个用户具有该域和分配的 E3 或 E5 许可证，这一点很重要。 如果没有，将收到以下错误：<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
 下面是一个示例：
@@ -96,7 +96,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignalingPort 5067 -MaxConcurrentSessions 100 
 ```
 
-返回：
+这将返回：
 
 <pre>
 Identity              : sbc.contoso.com 
@@ -111,26 +111,26 @@ Enabled               : True
 </pre>
 
 > [!NOTE]
-> 此示例仅显示所需的最低参数。 在连接过程中，你可以用[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet 设置其他参数。 若要了解详细信息，请参阅[SBC 设置](#sbc-settings)。
+> 此示例只显示了所需的最小参数。 在连接过程中，可以使用 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet 设置其他参数。 若要了解有关详细信息，请参阅 [SBC 设置](#sbc-settings)。
  
 ### <a name="verify-the-sbc-connection"></a>验证 SBC 连接
 
-若要验证连接，请执行以下操作：
+验证连接：
 
-- [检查 SBC 是否在成对的 SBCs 的列表中](#check-whether-the-sbc-is-on-the-list-of-paired-sbcs)。
+- [检查 SBC 是否位于配对的 SBC 列表中](#check-whether-the-sbc-is-on-the-list-of-paired-sbcs)。
 - [验证 SIP 选项](#validate-sip-options)。
  
-#### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>检查 SBC 是否位于成对的 SBCs 的列表中
+#### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>检查 SBC 是否位于配对的 SBC 列表中
 
-连接 SBC 后，请使用[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) CMDLET 验证 sbc 是否存在于成对的 SBCs 列表中。 在远程 PowerShell 会话中键入以下内容，然后按 Enter：
+连接 SBC 后，使用 [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) cmdlet 验证 SBC 是否存在于配对的 SBC 列表中。 在远程 PowerShell 会话中键入以下内容，然后按 Enter：
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 
-配对网关应显示在列表中，如下面的示例所示，并且**Enabled**参数应显示值**True**。
+配对网关应显示在列表中，如以下示例所示 **，Enabled** 参数应显示值 **True。**
 
-返回：
+这将返回：
 
 <pre>
 Identity              : sbc.contoso.com  
@@ -148,31 +148,31 @@ Enabled               : True
 
 #### <a name="validate-sip-options"></a>验证 SIP 选项
 
-若要使用传出 SIP 选项验证配对，请使用 SBC 管理界面并确认 SBC 是否收到对其传出选项消息的 200 OK 响应。
+若要使用传出 SIP 选项验证配对，请使用 SBC 管理接口并确认 SBC 收到针对其传出 OPTIONS 消息的 200 OK 响应。
 
-当直接路由看到传入选项时，它将向 "传入选项" 消息的 "联系人标题" 字段中配置的 SBC FQDN 开始发送传出 SIP 选项消息。 
+当直接路由看到传入选项时，它将开始将传出 SIP 选项消息发送到传入 OPTIONS 消息的"联系人标头"字段中配置的 SBC FQDN。 
 
-若要使用传入 SIP 选项验证配对，请使用 SBC 管理接口，并查看 SBC 是否向来自直接路由的选项消息发送回复，并且它发送的响应代码为 200 OK。
+若要使用传入的 SIP 选项验证配对，请使用 SBC 管理接口，并查看 SBC 向来自直接路由的 OPTIONS 消息发送答复，并且它发送的响应代码为"200 正常"。
 
 ## <a name="sbc-settings"></a>SBC 设置
 
-下表列出了可在 Microsoft 团队管理中心和使用[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet 设置的 SBC 选项。
+下表列出了可以在 Microsoft Teams 管理中心使用 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet 为 SBC 设置的选项。
 
-|必填？|Microsoft 团队管理中心设置|PowerShell 参数|描述|默认值|可能的值|类型和限制|
+|必填？|Microsoft Teams 管理中心设置|PowerShell 参数|描述|默认值|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|是|**为 SBC 添加 FQDN**|FQDN |无|FQDN 名称，限制63个字符|字符串，请参阅[适用于计算机、域、网站和 ou 的 Active Directory 中的命名约定](https://support.microsoft.com/help/909264)的允许和不允许的字符列表|
-|否|**已启用**|已启用|用于为出站呼叫启用 SBC。 你可以使用此功能在更新或维护期间将 SBC 从服务中临时删除。 |False|True<br/>False|Boolean|
-|是|**SIP 信号端口**|SipSignalingPort |这是用于通过使用传输层（TLS）协议与直接路由进行通信的侦听端口。|无|任何端口|0到65535 |
-|否|**发送 SIP 选项**|SendSIPOptions |定义 SBC 是否将发送 SIP 选项消息。 强烈建议您启用此设置。 当此设置关闭时，将从监视和警报系统中排除 SBC。|True|True<br/>False|Boolean|
-|否|**转接呼叫历史记录**|ForwardCallHistory |指示是否通过主干转发通话历史记录信息。 启用此操作时，Microsoft 365 或 Office 365 代理将发送历史记录信息和引用者标头。 |False|True<br/>False|Boolean|
-|否|**前进 P-声明标识（PAI）标题**|ForwardPAI|指示 PAI 标头是否与呼叫一起转发。 PAI 标头提供了一种验证呼叫者身份的方法。 如果此设置为 "打开"，则还会发送 "隐私： ID" 标头。|False|True<br/>False|Boolean|
-|否|**并发通话容量**|MaxConcurrentSessions |当您设置值时，当并发会话的数量为90% 或高于此值时，警报系统将通知您。 如果不设置值，则不会生成警报。 但是，监视系统将每隔24小时报告一次并发会话的数量。 |Null|Null<br/>1到100000 ||
-|否|**故障转移响应代码**|FailoverResponseCodes<br>|如果直接路由接收到任何用于响应传出邀请的4xx 或 6xx SIP 错误代码，则默认情况下该呼叫视为已完成。 "传出" 指通过流量流从团队客户端到 PSTN 的呼叫：团队客户端-> 直接路由-> SBC-> 电话网络）。 当你指定故障转移响应代码时，这会强制直接路由尝试使用另一个 SBC （如果用户的语音路由策略中存在另一个 SBC），当 SBC 由于网络或其他问题而无法进行呼叫时，收到指定的代码。 若要了解详细信息，请参阅[从会话边界控制器（SBC）处收到的特定 SIP 代码的故障转移](direct-routing-trunk-failover-on-outbound-call.md)。|408、503、504||整形|
-|否|**故障转移时间（秒）**|FailoverTimeSeconds |当您设置值时，您设置的时间内网关未接听的出站呼叫将被路由到下一个可用的干线。 如果没有其他中继，将自动删除呼叫。 默认值为10秒。 在具有较慢网络和网关响应的组织中，这可能会导致不必要地丢弃呼叫。|10|数字|整形|
-|否|**媒体流量的首选国家或地区**|MediaRelayRoutingLocationOverride |用于手动设置媒体流量的首选国家或地区。 我们建议你仅在通话记录明确指明媒体路径的数据中心的默认分配不使用与 SBC 数据中心最接近的路径时，才设置此设置。 默认情况下，直接路由根据 SBC 的公共 IP 地址分配数据中心，并始终选择最接近于 SBC 数据中心的路径。 但是，在某些情况下，默认路径可能不是最佳路径。 此参数允许你手动设置媒体流量的首选区域。 |无|ISO 格式的国家代码||
-|否|**SBC 支持用于紧急呼叫的 PIDF/LO**|PidfloSupported|指定 SBC 是否支持用于紧急呼叫的状态信息数据格式位置对象（PIDF/LO）。||||
-|否|**尝试查找用户时拨打电话**|GenerateRingingWhileLocatingUser|设置是否向呼叫者播放音频信号，以指示团队正在建立呼叫的过程。 此设置仅适用于非媒体绕过模式下的直接路由。 有时，从 PSTN 到团队客户端的入站呼叫的时间可能比预期的要长。 发生这种情况时，呼叫者可能听不到任何声音，团队客户不会听到任何信号，并且呼叫可能被某些电信提供商取消。 此设置有助于避免在这些情况下可能出现的意外 silences。|True|True<br/>False|Boolean|
-|否| - |MediaBypass|此设置指示 SBC 是否支持媒体旁路以及是否要为此 SBC 使用它。 |无|True<br/>False|Boolean|
+|是|**为 SBC 添加 FQDN**|FQDN |无|FQDN 名称，限制为 63 个字符|字符串，请参阅[Active Directory](https://support.microsoft.com/help/909264)中计算机、域、站点和 US 的命名约定允许和禁止的字符列表|
+|否|**已启用**|已启用|用于为出站调用启用 SBC。 可以使用此功能在 SBC 更新期间或维护期间暂时将其从服务中删除。 |False|True<br/>False|Boolean|
+|是|**SIP 信号端口**|SipSignalingPort |这是一个侦听端口，用于通过 TLS 协议使用传输层 (直接) 通信。|无|任何端口|0 到 65535 |
+|否|**发送 SIP 选项**|SendSIPOptions |定义 SBC 是否发送 SIP 选项消息。 强烈建议启用此设置。 当此设置关闭时，SBC 会从监视和警报系统中排除。|True|True<br/>False|Boolean|
+|否|**转发呼叫历史记录**|ForwardCallHistory |指示呼叫历史记录信息是否通过中继转发。 打开此选项时，Microsoft 365 或 Office 365 代理会发送历史记录信息和引用标头。 |False|True<br/>False|Boolean|
+|否|**将 P-Asserted-identity (PAI) 标头**|ForwardPAI|指示 PAI 标头是否随调用一起转发。 PAI 标头提供了一种验证呼叫者身份的方法。 如果启用此设置，则还会发送 Privacy：ID 标头。|False|True<br/>False|Boolean|
+|否|**并发呼叫容量**|MaxConcurrentSessions |设置值时，当并发会话数为 90% 或高于此值时，警报系统将通知你。 如果未设置值，不会生成警报。 但是，监视系统将每 24 小时报告一次并发会话数。 |Null|Null<br/>1 到 100，000 ||
+|否|**故障转移响应代码**|FailoverResponseCodes<br>|如果直接路由在响应传出邀请时收到任何 4xx 或 6xx SIP 错误代码，则呼叫在默认情况下被视为已完成。 传出是指使用流量流从 Teams 客户端呼叫 PSTN：Teams 客户端 -> 直接路由 -> SBC -> 电话) 。 指定故障转移响应代码时，如果用户) 的语音路由策略中存在另一个 SBC，则当 SBC 由于网络或其他问题而无法进行调用时，这会强制直接路由尝试另一个 SBC (。 若要了解有关详细信息，请参阅从会话边界控制器到 [SBC ](direct-routing-trunk-failover-on-outbound-call.md) (特定 SIP) 。|408, 503, 504||Int|
+|否|**故障转移时间 (秒)**|FailoverTimeSeconds |设置值时，网关在设置时间内未应答的出站调用将路由到下一个可用中继。 如果没有其他中继，则会自动丢弃呼叫。 默认值为 10 秒。 在网络和网关响应速度缓慢的组织中，这可能会导致不必要的呼叫被丢弃。|10|数字|Int|
+|否|**媒体流量的首选国家/地区**|MediaRelayRoutingLocationOverride |用于手动设置媒体流量的首选国家/地区。 建议仅在调用日志明确指示媒体路径的数据中心默认分配不使用最靠近 SBC 数据中心的路径时，才进行此设置。 默认情况下，直接路由基于 SBC 的公共 IP 地址分配数据中心，并始终选择最靠近 SBC 数据中心的路径。 但是，在某些情况下，默认路径可能不是最佳路径。 此参数允许手动设置媒体流量的首选区域。 |无|ISO 格式的国家/地区代码||
+|否|**SBC 支持使用 PIDF/LO 进行紧急呼叫**|PidfloSupported|指定 SBC 是否支持状态信息数据格式位置对象 (PIDF/LO) 紧急呼叫。||||
+|否|**在尝试查找用户时拨打电话**|GenerateRingingWhileLocatingUser|设置是否向呼叫者播放音频信号以指示 Teams 正在建立呼叫。 此设置仅适用于非媒体旁路模式下的直接路由。 有时，从 PSTN 到 Teams 客户端的入站呼叫的建立时间可能超过预期。 发生这种情况时，呼叫者可能听不到任何声音，Teams 客户端不会响铃，呼叫可能由某些电信提供商取消。 此设置有助于避免在这些情况下可能会发生意外的静音。|True|True<br/>False|Boolean|
+|否| - |MediaBypass|此设置指示 SBC 是否支持媒体旁路，以及是否要对此 SBC 使用它。 |无|True<br/>False|Boolean|
 
 ## <a name="see-also"></a>另请参阅
 

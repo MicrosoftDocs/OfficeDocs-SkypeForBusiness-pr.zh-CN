@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 使用 Microsoft Teams 设置虚拟访问系统
-ms.openlocfilehash: 6753afbabf6bbcb420f9ddf479249a968d33eb2c
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: 4c8511939532a448d5229865618aa308494c7a42
+ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055680"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50101330"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>使用 Teams 进行虚拟访问 - 集成到 EHR 中
 
@@ -44,15 +44,15 @@ ms.locfileid: "50055680"
 
 在集成 EHR 连接器之前，需要确保满足以下先决条件：
 
-- 访问在长篇故事的应用应用商店中的 Microsoft Teams [应用](https://apporchard.epic.com/Gallery?id=6153)。
+- 访问在 Epic 的应用应用商店中用于 Microsoft Teams [应用](https://apporchard.epic.com/Gallery?id=6153)。
 
-- Microsoft Cloud for Healthcare 的活动订阅或 Microsoft Teams EHR Connector 独立套餐的订阅。
+- Microsoft Cloud for Healthcare 的活动订阅或 Microsoft Teams EHR 连接器独立套餐 (仅在生产测试期间强制执行) 。
 
 - 用户必须具有包含 Microsoft Teams 会议的适当 Microsoft 365 或 Office 365 许可证。
 
 - Microsoft Teams 应在组织内部采用和使用。
 
-- 组织必须具有 2018 年 11 月版或更高版本的"长篇大全"版本。
+- 组织必须具有 2018 年 11 月版或更高版本的"长篇故事"版本。
 
 - 系统必须满足所有 [软件和浏览器先决条件](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)。
 
@@ -63,7 +63,7 @@ ms.locfileid: "50055680"
 - 长篇客户分析师
 
 > [!Note]
-> 请请Epicep 技术专家提供 Epic-Microsoft Teams Telehealth 集成指南，该指南在长篇市场中提供。
+> 请请Epicic 技术专家提供 Epic-Microsoft Teams Telehealth 集成指南，该指南在长篇市场中提供。
 
 ## <a name="connector-setup"></a>连接器设置
 
@@ -86,7 +86,7 @@ ms.locfileid: "50055680"
 
 此步骤由 **Microsoft 365 管理员完成**。 Microsoft 365 管理员必须启动连接器配置门户，然后使用 Microsoft 凭据登录才能启动配置过程。
 
-若要完成此步骤，Microsoft 365 管理员必须收到一个有效的 Fast Health 互操作性资源 (FHIR) 基 URL，该基 URL 来自要批准配置的 Epic 客户分析师。 Microsoft 365 管理员必须启动连接器配置页，然后使用 Microsoft 凭据登录才能开始配置过程。
+若要完成此步骤，Microsoft 365 管理员必须收到来自一名 Epic 技术专家的有效快速运行状况互操作性资源 (FHIR) 基 URL，以及将批准配置的一名长篇客户分析师的用户名。 Microsoft 365 管理员必须启动连接器配置页，然后使用 Microsoft 凭据登录才能开始配置过程。
 
 - FHIR 基 URL 是对应于服务器 FHIR API 终结点的静态地址。 示例 URL 为 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` 。
 
@@ -96,14 +96,14 @@ ms.locfileid: "50055680"
 
 ### <a name="approve-or-view-configuration"></a>[批准或查看配置](#approve-or-view-configuration)
 
-现在，作为审批者添加的医疗保健组织的 Epic 客户分析师必须使用上一步骤中的相同 EHR 连接器 URL，才能使用其 Microsoft 365 凭据登录。 成功验证后，将要求审批者使用其"长篇"凭据登录以验证"长篇故事"组织。
+作为审批者添加的医疗保健组织的"长篇客户"分析师现在必须使用上一步骤中的相同 EHR 连接器 URL，才能使用其 Microsoft 365 凭据登录。 成功验证后，将要求审批者使用其"长篇"凭据登录以验证"长篇故事"组织。
 
 > [!Note]
 > 你组织的 Microsoft 365 管理员和长篇客户分析师可以是同一个人。 在这种情况下，请添加自己的用户名作为审批者。 你仍然需要登录到"长篇大作"来验证你的访问权限。 长篇登录仅用于验证 FHIR 基 URL。 Microsoft 不会通过此登录存储凭据或访问 EHR 数据。
 
   ![验证并批准凭据配置。](../../media/approve-view-configuration.png)
 
-成功登录"长篇故事"后，"长篇故事"客户 **分析师必须** 批准配置。 如果配置不正确，Microsoft 365 管理员将可以再次登录 Microsoft EHR 连接器门户来修改原始配置。 
+成功登录"长篇故事"后，长篇客户 **分析师必须** 批准配置。 如果配置不正确，Microsoft 365 管理员将可以再次登录 Microsoft EHR 连接器门户来修改原始配置。 
 
 ![确认 EHR 连接器已配置，以及用于更改配置的选项。](../../media/ehc-approve-3.png)
 
@@ -117,7 +117,7 @@ ms.locfileid: "50055680"
 ![将显示集成信息。](../../media/finish-configuration.png)
 
 > [!Note]
-> 之前由 Microsoft 管理员配置的每一个 FHIR URL 必须由 Epic 客户分析师完成审批过程。
+> 之前由 Microsoft 管理员配置的每一个 FHIR URL 必须由 Epic 客户分析人员完成审批过程。
 
 ![配置信息已获批准。](../../media/approve-configuration-2.png)
 
@@ -129,11 +129,11 @@ ms.locfileid: "50055680"
 
 - 系统必须满足所有 [软件和浏览器先决条件](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)。
 
-- 医疗保健组织必须已完成在"长篇故事"组织和 Microsoft 365 组织之间的设置。
+- 医疗保健组织必须已完成在 Epic 组织与 Microsoft 365 组织之间的设置。
 
 ### <a name="provider-experience"></a>提供商体验
 
-贵组织的医疗保健提供商还可以从 Hyperspace、Haiku、Canto (的"长篇大全"提供商应用程序加入 Microsoft Teams 的虚拟) 。 提供程序 **流中** 嵌入了"开始虚拟访问"按钮。
+贵组织的医疗保健提供商还可以从 Hyperspace、Haiku、Canto (的"长篇"提供商应用程序加入 Microsoft Teams 的虚拟) 。 提供程序 **流中** 嵌入了"开始虚拟访问"按钮。
 
 提供商体验的主要功能：
 
@@ -166,10 +166,10 @@ ms.locfileid: "50055680"
   ![虚拟访问患者体验](../../media/ehc-virtual-visit-5.png)
 
 > [!Note]
-> Epic、MyChart、Haiku 和 Canto 是长篇系统公司的商标。
+> Epic、MyChart、Haiku 和 Canto 是 Epic Systems Corporation 的商标。
 
 ### <a name="privacy-and-location-of-data"></a>数据的隐私和位置
 
 Teams 与 EHR 系统的集成优化了集成和虚拟访问流期间使用和存储的数据量。 该解决方案遵循 Teams 隐私中概述的总体 Teams 隐私和数据管理原则与准则。
 
-Microsoft Teams EHR 连接器不存储或传输任何可识别的个人数据，也不从 EHR 系统传输患者或医疗保健提供者的任何健康记录。 EHR 连接器存储的唯一数据是 EHR 用户的唯一 ID，该 ID 在 Teams 会议设置期间使用。 EHR 用户的唯一 ID 存储在 [Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)客户数据存储位置中所述的三个地理区域之一。 会议参与者输入到 Teams 的所有聊天、录制和其他数据都根据现有存储策略进行存储。 若要详细了解 Microsoft Teams 中数据的位置，请访问 [Teams 中数据的位置](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams)。
+Microsoft Teams EHR 连接器不存储或传输任何可识别的个人数据，也不会从 EHR 系统传输患者或医疗保健提供者的任何健康记录。 EHR 连接器存储的唯一数据是 EHR 用户的唯一 ID，该 ID 在 Teams 会议设置期间使用。 EHR 用户的唯一 ID 存储在 [Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)客户数据存储位置中所述的三个地理区域之一。 会议参与者输入到 Teams 的所有聊天、录制和其他数据都根据现有存储策略进行存储。 若要详细了解 Microsoft Teams 中数据的位置，请访问 [Teams 中数据的位置](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams)。
