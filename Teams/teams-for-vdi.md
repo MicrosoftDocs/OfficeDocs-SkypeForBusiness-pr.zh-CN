@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
-description: 了解如何在虚拟桌面基础结构和 VDI (中) Microsoft Teams。
+description: 了解如何在 VDI 虚拟桌面基础结构和 VDI (中) Microsoft Teams。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52c3a4fd1f8ce3871874468590662f223520dc07
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+ms.openlocfilehash: 8022e6b1c4d6ebcaeb70ec7cc23e1f4cad5d929a
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868347"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110285"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -56,9 +56,9 @@ ms.locfileid: "49868347"
 
 ### <a name="virtualization-provider-requirements"></a>虚拟化提供商要求
 
-Teams 桌面应用已使用领先的虚拟化解决方案提供商进行验证。 对于多个市场提供商，建议咨询虚拟化解决方案提供商，以确保满足最低要求。
+Teams 桌面应用已使用领先的虚拟化解决方案提供商进行验证。 对于多个市场提供商，我们建议你咨询虚拟化解决方案提供商，以确保满足最低要求。
   
-目前，VDI 上具有音频/ (AV) 优化的 Teams 已通过 Windows 虚拟桌面、Citrix 和 VMware 的认证。 查看本部分中的信息，确保满足正确功能的所有要求。
+目前，VDI 上具有音频/视频 (AV) 优化的 Teams 已通过 Windows 虚拟桌面、Citrix 和 VMware 的认证。 查看本部分中的信息，确保满足正确功能的所有要求。
 
 ### <a name="platforms-certified-for-teams"></a>通过 Teams 认证的平台
 
@@ -92,7 +92,7 @@ VMware Horizon 是一个新式平台，用于跨混合云安全交付虚拟桌�
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上安装或更新 Teams 桌面应用
 
-可以使用每台计算机安装或者使用 MSI 包按用户安装来部署适用于 VDI 的 Teams 桌面应用。 确定使用哪种方法取决于是使用持久性设置还是非持久性设置，以及组织的关联功能需求。
+可以使用每台计算机安装或者使用 MSI 包按用户安装来部署适用于 VDI 的 Teams 桌面应用。 决定使用哪种方法取决于是使用持久性设置还是非持久性设置，以及组织的关联功能需求。
 
 对于专用的持久性设置，任一方法都正常工作。 但是，对于非永久性设置，Teams 要求每台计算机安装一次，以便高效工作。 请参阅 ["非永久性设置"](#non-persistent-setup) 部分。
 
@@ -145,7 +145,7 @@ VMware Horizon 是一个新式平台，用于跨混合云安全交付虚拟桌�
 
 通过适用于企业的 Microsoft 365 应用部署 Teams 之前，必须先卸载任何预先存在的 Teams 应用（如果它们是使用每台计算机安装部署的）。
 
-通过 Microsoft 365 企业版应用安装的 Teams 是按用户安装的。 若要了解有关详细信息，请参阅" [在 VDI 上安装或更新 Teams 桌面应用"](#install-or-update-the-teams-desktop-app-on-vdi) 部分。
+通过 Microsoft 365 企业版应用安装的 Teams 是按用户安装的。 若要了解有关详细信息，请参阅"在 VDI 上安装或更新 [Teams 桌面应用"](#install-or-update-the-teams-desktop-app-on-vdi) 部分。
 
 #### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>通过用于企业更新的 Microsoft 365 应用进行 Teams 部署
 
@@ -171,7 +171,7 @@ Teams 也会添加到适用于企业的 Microsoft 365 应用的现有安装中�
 
     所需的 Teams 桌面应用最低版本是版本 1.3.00.4461。  (.) 不支持 PSTN 保留
 
-2. 运行以下命令之一，将 MSI 安装到 VDI VM：
+2. 通过运行以下命令之一，将 MSI 安装到 VDI VM：
 
     - 按用户安装 (默认) 
   
@@ -197,7 +197,7 @@ Teams 也会添加到适用于企业的 Microsoft 365 应用的现有安装中�
 
 3. 从 VDI VM 卸载 MSI。 有两种方法可以卸载 Teams。
 
-    - PowerShell 脚本：可以使用此 [PowerShell 脚本](scripts/powershell-script-deployment-cleanup.md) 卸载 Teams 并删除用户的 Teams 文件夹。 针对计算机上安装了 Teams 的每个用户配置文件运行脚本。
+    - PowerShell 脚本：可以使用此 [PowerShell 脚本](scripts/powershell-script-deployment-cleanup.md) 卸载 Teams 并删除用户的 Teams 文件夹。 为计算机上安装 Teams 的每个用户配置文件运行脚本。
     - 命令行：运行以下命令。
   
       ```console
@@ -206,9 +206,9 @@ Teams 也会添加到适用于企业的 Microsoft 365 应用的现有安装中�
 
       此过程从 x86 (程序) 或 Program Files 文件夹中卸载 Teams，具体取决于操作系统环境。
 
-## <a name="teams-on-vdi-performance-considerations"></a>Teams on VDI 性能注意事项
+## <a name="teams-on-vdi-performance-considerations"></a>有关 VDI 性能的 Teams 注意事项
 
-有各种虚拟化设置配置，每个配置都有不同的优化焦点。 例如，配置可能侧重于用户密度。 规划时，请考虑以下事项，以帮助根据组织的工作负荷需求优化设置。
+有各种虚拟化设置配置，每个配置都有不同的优化焦点。 例如，配置可能侧重于用户密度。 规划时，请考虑以下事项，以便根据组织的工作负荷需求优化设置。
 
 - 最低要求：某些工作负荷可能需要使用高于最低要求的资源进行设置。 例如，对于使用需要更多计算资源的应用程序的开发人员的工作负荷。
 - 依赖项：其中包括对基础结构、工作负荷的依赖关系，以及 Teams 桌面应用外部的其他环境注意事项。
@@ -233,7 +233,7 @@ Teams 也会添加到适用于企业的 Microsoft 365 应用的现有安装中�
 
 ### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>从 VDI 上的 Skype for Business 迁移到 VDI 上的 Teams
 
-如果要从 VDI 上的 Skype for Business 迁移到 VDI 上的 Teams，则除了两个应用程序之间的差异外，实施 VDI 时也有一些差异。 以下是 Skype for Business VDI 中的 Teams VDI 当前不支持的一些功能：
+如果要从 VDI 上的 Skype for Business 迁移到 VDI 上的 Teams，则除了两个应用程序之间的差异外，实施 VDI 时也存在一些差异。 Skype for Business VDI 中的 Teams VDI 目前不支持的一些功能如下所示：
 
 - 每个平台的策略，用于禁用 VDI 中的某些 AV 功能
 - 在应用共享时授予并控制
@@ -259,13 +259,13 @@ Chrome 浏览器上的 Teams 不提供用于 VDI 的 Teams 桌面应用与 AV �
 
 [**调用策略**](teams-calling-policy.md)：Teams 包括内置的 DisallowCalling 调用策略，其中所有调用功能都已关闭。 将 DisallowCalling 策略分配给组织中在虚拟化环境中使用 Teams 的所有用户。
 
-[**会议策略**](meeting-policies-in-teams.md)：Teams 包括内置的 AllOff 会议策略，其中所有会议功能都已关闭。 将 AllOff 策略分配给组织中在虚拟化环境中使用 Teams 的所有用户。
+[**会议策略**](meeting-policies-in-teams.md)：Teams 包括内置的 AllOff 会议策略，所有会议功能都已关闭。 将 AllOff 策略分配给组织中在虚拟化环境中使用 Teams 的所有用户。
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心分配策略
 
 将 DisallowCalling 调用策略和 AllOff 会议策略分配给用户：
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到"**用户"。**
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"用户"。**
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。
 3. 执行以下操作：
     1.  在 **"调用策略**"下，**单击"DisallowCalling"。**
@@ -313,7 +313,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 可以使用 Microsoft Teams 管理中心或 PowerShell 设置呼叫和会议策略并将其分配给用户。 传播策略更改 (可能需要) 几个小时。 如果未立即看到给定帐户的更改，请在几小时后重试。
 
-[**调用策略**](teams-calling-policy.md)：在 Teams 中调用策略控制哪些调用功能可供用户使用。 Teams 包括内置的 AllowCalling 调用策略，其中所有通话功能都开启。 若要启用所有调用功能，请分配 AllowCalling 策略。 或者，创建自定义呼叫策略以打开你需要的呼叫功能并将其分配给用户。 
+[**调用策略**](teams-calling-policy.md)：在 Teams 中调用策略控制哪些调用功能可供用户使用。 Teams 包括内置的 AllowCalling 调用策略，其中所有调用功能都打开。 若要启用所有调用功能，请分配 AllowCalling 策略。 或者，创建自定义呼叫策略以打开你需要的呼叫功能并将其分配给用户。 
 
 [**会议策略**](meeting-policies-in-teams.md)：Teams 中的会议策略控制用户可以创建的会议类型和可供组织中用户安排的会议参与者使用的功能。 Teams 包括内置的 AllOn 会议策略，其中所有会议功能都开启。 若要启用所有会议功能，请分配 AllOn 策略。 或者，创建自定义会议策略以打开您需要的会议功能，并为其分配用户。
 
@@ -321,7 +321,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 若要向用户分配 AllowCalling 调用策略和 AllOn 会议策略，请执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到"**用户"。**
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"用户"。**
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。
 3. 执行以下操作：
     1.  在 **"调用策略"** 下，单击 **"AllowCalling"。**
@@ -386,6 +386,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 不支持以下呼叫和会议功能：
 
+- 任何多窗口功能，如新的会议体验或新会议体验附带的任何功能
 - 增强的紧急服务
 - Teams 应用和设备之间的 HID 按钮和 LED 控件
 - 背景模糊和效果
@@ -427,7 +428,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
-然后，重启 VDA。 若要了解有关详细信息，请参阅此 Citrix 支持文章 [：Teams 的 HDX 优化故障排除](https://support.citrix.com/article/CTX253754)。
+然后重启 VDA。 若要了解有关详细信息，请参阅此 Citrix 支持文章 [：Teams 的 HDX 优化故障排除](https://support.citrix.com/article/CTX253754)。
 
 ## <a name="related-topics"></a>相关主题
 

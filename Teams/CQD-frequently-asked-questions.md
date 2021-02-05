@@ -1,5 +1,5 @@
 ---
-title: '通话质量仪表板 (CQD) 常见问题 (常见问题) '
+title: '呼叫质量仪表板 (CQD) 常见问题解答 (常见问题) '
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -20,103 +20,108 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 阅读常见问题 (常见问题) 和有关 Microsoft 团队通话质量仪表板 (CQD) 的解答。
-ms.openlocfilehash: 8ad0a1745799194ec11284f8f7aaabd76bd30d05
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+description: 阅读常见问题解答 (常见问题) 和有关 CQD (Microsoft Teams 呼叫质量仪表板) 。
+ms.openlocfilehash: f622d197900faf632d94d659dae0a5b6eeaee2db
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584021"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110255"
 ---
-# <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通话质量仪表板 (CQD) 常见问题 (常见问题) 
+# <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>呼叫质量仪表板 (CQD) 常见问题解答 (常见问题) 
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
-[如果一个或多个会议参与者的体验不好，CQD 为什么将呼叫标记为 "正常"？](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
+[如果一个或多个会议参与者体验不佳，CQD 为何将通话标记为"良好"？](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
-[为什么在度量值和用户计数值上看到最多0.2% 的差异以及如何获取最准确的卷？](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
+[为什么我在度量上看到最多 0.2% 的调用值和用户计数值的差异，以及如何获取最准确的音量？ ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
 
-[为什么 Skype for Business 中的 CQD 数据与来自团队的 CQD 数据不同？](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
+[为什么 Skype for Business 中的 CQD 数据与 Teams 中的 CQD 数据不同？ ](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
 
 [为什么我在 CQD 中看不到 EUII？](#why-cant-i-see-euii-in-cqd)
 
-[为什么我仅当我筛选了团队时，我在 CQD 中看到 Skype for Business 信息？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[为什么在仅筛选 Teams 时，我在 CQD 中看到了 Skype for Business 信息？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
-### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>如果一个或多个会议参与者的体验不好，CQD 为什么将呼叫标记为 "正常"？
+[为什么当知道应该存在更多条目时，我的自定义报表最多只返回 10，000 行？](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
-查看[流分类](stream-classification-in-call-quality-dashboard.md)CQD 使用的规则。
+### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>如果一个或多个会议参与者体验不佳，CQD 为何将通话标记为"良好"？
+
+查看 CQD 用于流分类 [的规则](stream-classification-in-call-quality-dashboard.md)。
  
-对于音频流，任何5个分类器（根据调用的平均长度计算）都可能位于 "良好" 参数中。 这并不意味着用户不会遇到对音频的丢弃、静态或故障的内容。 
+对于音频流，根据调用长度计算平均值的 5 个分类器中的任意一个可能都位于"good"参数内。 这并不意味着用户未遇到导致音频删除、静态或故障的问题。 
 
-若要确定是否是网络问题，请查看会话平均值与最大值之间的增量。 最大值是会话期间检测和报告的最大值。
+若要确定它是网络问题，请查看会话的平均值与最大值之间的增量。 最大值是会话期间检测到并报告的最大值。
  
-下面是如何解决这种情况的示例。 假设你在呼叫过程中获取网络跟踪，并且前20分钟，没有丢失数据包，但你的数据包的间隔为1.5 秒，然后就可以在通话的其余部分中使用。 平均 <10% (0.1) 数据包丢失，即使在 Wireshark 跟踪 RTP 分析中也是如此。 最大数据包丢失程度是多少？ 5秒内的1.5 秒将 (0.3) 30%。 在五秒的采样期内发生的情况 (可能还是可以在) 抽样期间拆分？
+下面是如何排查这种情况的示例。 假设你在通话期间进行网络跟踪，前 20 分钟没有丢失数据包，但数据包有 1.5 秒的间隔，然后适合通话的其余部分。 即使在 Wireshark 跟踪 RTP <，平均丢包率 (0.1) 10%。 最大丢包时间是什么？ 5 秒的 1.5 秒为 0.3 (30) 。 这是在五秒采样期内发生的 (，还是可以在采样期间拆分) ？
  
-如果网络指标在平均值和最大值中看起来很好，请查看其他遥测数据： 
-- 检查 CPU 的事件比率不足，查看检测到的 CPU 资源是否不足，导致质量较差。 
-- 音频设备是否处于半双工模式下，以防止因麦克风接近扬声器而导致的反馈？ 
-- 检查 Device 半双工 AEC 事件比率。 当插入集线器或坞站时，设备 glitching 或麦克风 glitching 引入噪音或静态信号的原因如下：  
-- 检查设备故障和麦克风故障事件比率。 设备本身是否正常工作？  
-- 检查捕获和呈现设备无法正常工作的事件比率。
+如果网络指标在平均值和最大值中看起来不错，则查看其他遥测数据： 
+- 检查 CPU 事件比率是否不足，以查看检测到的可用 CPU 资源是否不足并且导致质量差。 
+- 音频设备是否以半双工模式阻止由于麦克风接近扬声器而出现反馈？ 
+- 检查设备半双工 AEC 事件比率。 当插入集线器或扩展坞时，设备故障或麦克风故障是否由于 USB 音频掉线而引入噪音或静态：  
+- 检查设备故障和麦克风故障事件比率。 设备本身是否正常运行？  
+- 检查捕获和呈现设备未正常运行的事件比率。
 
 
-有关 CQD 遥测中可用的维度和度量值的详细信息，请参阅[通话质量仪表板中可用的维度和度量](dimensions-and-measures-available-in-call-quality-dashboard.md)。
+有关 CQD 遥测中可用的维度和度量的更多内容，请阅读"呼叫质量仪表板"中提供的维度 [和度量](dimensions-and-measures-available-in-call-quality-dashboard.md)。
 
-对于背景噪音，请选中 "静音事件比率" 以查看参与者静音的时间长度。
+对于背景噪音，请检查静音事件比率以查看参与者静音的时间长度。
  
-在 CQD 中创建详细报表，并筛选会议 ID 以查看会议中的所有用户和流并添加感兴趣的字段。 报告问题的用户可能不是遇到该问题的用户。 他们只是报告体验。
+在 CQD 中创建详细报告并筛选会议 ID，查看会议中的所有用户和流，并添加您感兴趣的字段。 报告问题的用户可能不是遇到该问题的用户。 他们只是报告体验。
  
-遥测不一定会解决该问题，但它可以帮助您更好地了解在何处查看和通知您的决策。 是网络、设备、驱动程序还是固件更新、使用或用户？
+遥测数据不一定会指出问题，但可以帮助你更好地了解在何处查找和通知决策。 是网络、设备、驱动程序还是固件更新、使用情况或用户？
 
-### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>为什么在度量值和用户计数值上看到最多0.2% 的差异以及如何获取最准确的卷？ 
-若要计算 "呼叫计数" 和 "用户计数" 度量值，请对数据集中的调用或用户标识符执行不同的 countif 操作。 在大型数据集上，具有不同的 countif 操作固有的最大0.2% 错误。 对于最准确的卷，你应该依赖流计数度量值，因为它们不依赖于此不同的 countif 操作。 筛选以减少数据量可能会减少错误，但可能无法在不同的调用和用户计数中消除此错误来源。 请参阅["呼叫质量" 仪表板中可用的尺寸和测量](dimensions-and-measures-available-in-call-quality-dashboard.md)值，这些测量受影响。
+### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>为什么我在度量上看到最多 0.2% 的调用值和用户计数值的差异，以及如何获取最准确的音量？ 
+若要计算调用计数和用户计数度量值，请针对数据集中的调用或用户标识符执行不同的 countif 操作。 在大型数据集上，不同的 countif 操作存在最多 0.2% 的固有错误。 对于最准确的卷，应依赖于流计数度量值，因为它们不依赖于此不同的 countif 操作。 用于减少数据量的筛选可以减少错误，但可能无法消除不同调用和用户计数中的此错误源。 请参考 [呼叫质量](dimensions-and-measures-available-in-call-quality-dashboard.md) 仪表板中可用的维度和度量，这些度量会受到影响。
 
 
-### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>为什么 Skype for Business 中的 CQD 数据与来自团队的 CQD 数据不同？ 
+### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>为什么 Skype for Business 中的 CQD 数据与 Teams 中的 CQD 数据不同？ 
 
 
 > [!IMPORTANT]
-> 从2020年7月1日起，较早的 CQD (CQD.lync.com) 使用最新 CQD (CQD 中的数据。Teams.microsoft.com) 。 较旧的 CQD 数据不再可用，并且您不能导出您的建筑物或报表数据。 您仍然可以使用 Skype for Business 管理中心) 的 CQD.lync.com (，但我们会立即关闭对 CQD.lync.com 的访问，因此应转到 CQD。Teams.microsoft.com 如果还未执行此操作。
+> 自 2020 年 7 月 1 日起，较旧的 CQD (CQD.lync.com) 使用来自 CQD 的最新 CQD (数据。Teams.microsoft.com) 。 旧 CQD 数据不再可用，并且无法导出建筑物或报表数据。 你仍然可以使用 skype for Business CQD.lync.com (中心提供的) ，但我们将CQD.lync.com关闭对 CQD.lync.com 的访问权限，因此你应该移动到 CQD。Teams.microsoft.com（如果尚未这样做）。
 
 
-如果你尝试比较旧 CQD 之间的数据与 Skype for Business 旧门户 (cqd.lync.com) 和团队管理中心 (cqd.teams.microsoft.com) 中的最新 CQD，你将很快发现数据不匹配。 这是因为最新的 CQD 报告了许多额外的通话方案。 如果您仍在使用来自较旧 CQD 的报表，请使用本文帮助解释这些报表： " [Skype for business" 服务器的 "呼叫质量" 仪表板](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)。
+如果你尝试比较旧版 Skype for Business 门户 (cqd.lync.com) 中的旧 CQD 与 Teams 管理中心 (cqd.teams.microsoft.com) 的最新 CQD 之间的数据，你很快就会注意到数据不匹配。 这是因为最新的 CQD 报告许多其他调用方案。 如果你仍在使用来自旧式 CQD 的报告，请使用本文帮助你解释这些报告 [：Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)的通话质量仪表板。
 
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>为什么我在 CQD 中看不到 EUII？
 
-这些管理员角色可以访问 CQD，但他们不能查看 EUII (最终用户可识别信息) ：
+这些管理员角色可以访问 CQD，但无法查看 EUII (最终用户标识) ：
 - Microsoft 365 报表读者
-- 团队沟通支持专家
+- Teams 通信支持专家
 
-若要了解有关可访问 CQD 的角色的详细信息-包括 EUII-读取[分配角色以访问 CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
+若要详细了解可以访问 CQD 的角色（包括 EUII），请阅读"分配用于访问[CQD 的角色"。](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>为什么我仅当我筛选了团队时，我在 CQD 中看到 Skype for Business 信息？
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>为什么在仅筛选 Teams 时，我在 CQD 中看到了 Skype for Business 信息？
 
-仅在 CQD 报表中筛选团队时 (isTeams = 1) 中，你将筛选*第一个终结点*为团队的所有调用。 如果*第二个终结点*是 Skype for business，则该信息将显示在您的 CQD 报告中。
+仅在 isTeams = 1 (CQD 报告中筛选 Teams 时，) 筛选第一终结点为 Teams 的所有调用。 如果第 *二个终结点* 是 Skype for Business，该信息会显示在 CQD 报告中。
 
-CQDv2 和 CQDv3 将始终具有不同的总数，因为 CQDv3 将具有 CQDv2 没有的新方案。 这就是比较 "摘要总数" 或 "不带筛选器的聚合的所有数字" 的原因将具有这些预期的差异。  
+CQDv2 和 CQDv3 始终具有不同的总计数，因为 CQDv3 将具有 CQDv2 不会具有的新方案。 正因如此，在没有任何筛选器的汇总汇总数字或汇总数字之间将具有这些预期差异。  
 
-根据客户的情形，CQDv3 将包括 SFB 2019 本地呼叫 (如果 SFB 2019 与数据连接器) 一起使用，则 Skype 机器人将 (AA、CVI、VDI) 、实时事件和 PSTN 呼叫中进行呼叫。 适用于客户的方案/功能，但其数据不在 CQD V2 中。
+根据客户的方案，如果 SFB 2019 与数据连接器) 一同使用，CQDv3 将包括 SFB 2019 本地呼叫 (、Skype 机器人呼叫 (AA、CVI、VDI) 、实时事件和 PSTN 呼叫。 可供客户使用，但其数据不在 CQD V2 中的方案/功能。
 
-例如，预计你的客户和你将看到200000音频流，并且 CQD V2 摘要报告中出现5000故障。5500故障与300000音频流的对比 (来自2019本地呼叫、CVI 呼叫、PSTN 呼叫等) CQD V3。
+例如，预期客户和你将看到 200，000 个音频流，CQD V2 摘要报告中有 5000 个失败;与 300，000 个音频流相比，5500 次失败 (来自 CQD V3 中的 2019 个) 呼叫、CVI 呼叫、PSTN 呼叫等。
 
-为了确定是否存在任何意外的差异，您必须查看整个数据的各种细目。  与意向进行比较。  按用户代理类别对数据进行切片是我们建议的第一项。  *第一种产品*和*第二种产品*也是良好的切片器。  
+若要确定是否存在任何意外的差异，必须查看整体数据的各种细分。  与意向进行比较。  按用户代理类别对对数据进行切片是建议的第一项操作。  *第一* 个 *产品和第二个* 产品也是很好的切片器。  
 
+### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>为什么当知道应该存在更多条目时，我的自定义报表最多只返回 10，000 行？
+
+CQD 设计用于汇总数据查询，不用于数据导出。 我们建议尽可能对报表进行重建，以防止超过 10，000 行的限制。 首先，使用更大、较低基数维度（如月、年、日期、区域、国家/地区等）查看 KPI。从该维度可以向下钻取到基数越高的维度。 支持人员报表Location-Enhanced报表都提供了此向下钻取工作流的良好示例。
 
 ## <a name="related-topics"></a>相关主题
 
-[改善和监控团队的通话质量](monitor-call-quality-qos.md)
+[改进和监视 Teams 的通话质量](monitor-call-quality-qos.md)
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[设置通话质量仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
+[使用 CQD (设置呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
 
-[上载租户和生成数据](CQD-upload-tenant-building-data.md)
+[上传租户和建筑物数据](CQD-upload-tenant-building-data.md)
 
-[CQD 数据和报告](CQD-data-and-reports.md)
+[CQD 数据和报表](CQD-data-and-reports.md)
 
-[使用 CQD 管理通话和会议质量](quality-of-experience-review-guide.md)
+[使用 CQD 管理呼叫和会议质量](quality-of-experience-review-guide.md)
 
 [CQD 中可用的维度和度量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

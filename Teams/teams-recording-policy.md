@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b37fcadb89c0ae88e48c20ab669aa91aef6d2f02
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: fe1ef675396d5d858dea9430182d182a87f46beb
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757767"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110245"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Teams 基于策略的通话记录简介&会议
 
@@ -36,7 +36,7 @@ Teams 已经过增强，支持集成第三方录制解决方案，包括提供�
 
 - 跨设备和所有受支持的终结点无缝、高质量的媒体捕获，用于音频、视频、屏幕共享和聊天。
 
-- 支持 Teams 用户与 Teams、Teams mobile、Skype for Business、PSTN (终结点之间的交互捕获) 
+- 支持 Teams 用户与 Teams、Teams mobile、Skype for Business、PSTN (终结点之间的交互) 
 
 - 用于符合性记录的新管理策略，包括与现有 Teams 管理呼叫和会议工具和策略的集成
 
@@ -46,7 +46,7 @@ Teams 已经过增强，支持集成第三方录制解决方案，包括提供�
 
 ## <a name="teams-interaction-recording-overview"></a>Teams 交互录制概述
 
-交互录制用例可以有效地分为四个主要类别的录制功能 - 便利、功能、组织和截获，如图所示：
+交互录制用例可以有效地分为四个主要类别的录制功能 - 便利、功能、组织和拦截，如图所示：
 
 ![显示交互录制内容以及原因的屏幕截图。](media/recording-taxonomy.png "该图像显示录制类别。")
 
@@ -54,7 +54,7 @@ Teams 已经过增强，支持集成第三方录制解决方案，包括提供�
 
 | 类型                   | 方便 (常规 Teams 录制)  | 组织 - 受 (合规性记录)  |
 | ---------------------- | ------------------ | --------------- |
-| 发起程序              | 用户               | 系统 (管理员)   |
+| 发起程序              | 用户               | 管理 (系统)   |
 | 目标                 | 每呼叫/会议 | 按用户        |
 | 存储所有者          | 用户               | 合规性      |
 | 需要通知？ | 是                | 是             |
@@ -86,7 +86,7 @@ Teams 为会议和 [<span class="underline">实时事件提供了</span>](https:
 <li><p>了解为什么以及如何对 Teams 用户/终结点应用/强制实施录制策略。</p></li>
 <li><p>为组织配置和维护 Teams 录制策略。</p></li>
 <li><p>使用 Teams 通话和会议监视和排查与录制相关的问题。</p></li>
-<li><p>通过使用情况、质量和可靠性的操作分析，为内部合规性主管提供支持。</p></li>
+<li><p>通过使用情况、质量和可靠性的操作分析，为内部合规主管提供支持。</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -116,7 +116,7 @@ Teams 为会议和 [<span class="underline">实时事件提供了</span>](https:
 合规性记录解决方案的核心组件是记录器。
 记录器构建为可缩放的基于 Azure 的服务 (机器人) [<span class="underline">利用 Microsoft</span>](https://docs.microsoft.com/graph/cloud-communications-concept-overview) 的通信平台，并注册为 Microsoft Graph 的应用程序。 录制器提供与 Teams 通话和会议通信平台 [<span class="underline">API</span>](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 的直接交互，并提供媒体的终结点。
 
-提供了 [<span class="underline">一个示例符合性记录器应用程序</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) ，演示如何配置机器人、创建应用实例和分配符合性策略。 该示例还包含有关 API 用法的示例，用于记录特定交互，[<span class="underline"></span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)例如处理传入呼叫[<span class="underline"></span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)路由、更改录制状态，以及删除正在[<span class="underline">录制的用户</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)。
+提供了 [<span class="underline">一个示例符合性记录器应用程序</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) ，演示如何配置机器人、创建应用实例和分配符合性策略。 该示例还包含用于记录特定交互的 API 用法示例，例如[<span class="underline"></span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)处理传入呼叫路由[<span class="underline"></span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)、更改录制状态以及删除正在[<span class="underline">录制的用户</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)。
 有关特定 API 的图形文档，可在此处找到[<span class="underline">updateRecordingStatus</span>](https://docs.microsoft.com/graph/api/call-updaterecordingstatus?view=graph-rest-1.0&tabs=http)和[<span class="underline">incomingContext。</span>](https://docs.microsoft.com/graph/api/resources/incomingcontext?view=graph-rest-1.0)
 
 记录器服务的确切实现因合作伙伴而异，但必须设计为支持多个记录器，以实现部署的高可用性和地理分布，以减少从 Teams 到记录器的延迟。 此外，记录器本身在设计时应该牢记复原能力和冗余。
@@ -125,11 +125,11 @@ Teams 为会议和 [<span class="underline">实时事件提供了</span>](https:
 
 合规性记录方案的基本要求有两个：
 
-- 记录器机器人必须部署在 Azure 中
+- 记录器机器人必须在 Azure 中部署
 
 - 记录器机器人必须在 Azure 中的 Windows VM 上运行
 
-Azure 和 Windows VM 要求仅适用于 Teams 机器人组件，这意味着合作伙伴可以实施他们选择的其他平台，但只要他们可以满足合规性记录的相关性能和功能要求。
+Azure 和 Windows VM 要求仅适用于 Teams 机器人组件，这意味着合作伙伴可以实施他们选择的其他平台，但只要他们可以满足符合性记录的相关性能和功能要求。
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>符合性记录策略分配和预配
 
@@ -213,6 +213,7 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要录制�
 |合作伙伴|解决方案网站 |
 |:--|:--|
 |AudioCodes |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
+|配音器 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 
 
@@ -222,7 +223,6 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要录制�
 |:--|:--|
 |ASC Technologies |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
-|配音器 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |

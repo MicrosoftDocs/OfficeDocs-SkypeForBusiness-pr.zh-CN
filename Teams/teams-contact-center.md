@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams 的 CCaaS (解决方案集成) 中心服务概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0913bef8a77e66ae3b82905a8d154940f32c2392
-ms.sourcegitcommit: de7d0807186a64dfe1cca15d34c39bdbad6af836
+ms.openlocfilehash: 4094af6a9e79cf8bdabf17e056024c24f1802130
+ms.sourcegitcommit: 33093f90489adeddbca56a6234ecf36e59126f05
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084745"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107036"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
@@ -32,28 +32,32 @@ ms.locfileid: "50084745"
 
 2. 这种扩展的客户交互范围需要有助于促进一致性、持续改进和缩放的工具。
 
-Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通话）进行内部和外部客户连接的中心，支持客户交互工作流。 对于一些公司，Microsoft Teams[的云](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)语音功能（包括[](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)[自动](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)助理和呼叫队列）提供功能和配置来满足其需求。
+Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通话）的内部和外部客户连接的中心，支持客户交互工作流。 对于一些公司，Microsoft Teams[的云](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)语音功能（包括[](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)[自动](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)助理和呼叫队列）提供功能和配置来满足其需求。
 
-对于想要将解决方案与业务工具和工作流集成以驱动客户旅程的其他人，Microsoft Teams 还集成了一些行业领先的"联系中心" (CCaaS) 解决方案提供商。
+对于想要将解决方案与业务工具和工作流集成以驱动客户旅程的其他人，Microsoft Teams 还集成了一些行业领先的联系中心 (CCaaS) 解决方案提供商。
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 认证计划的已连接联系中心
 
 这些 API 允许合作伙伴为 Teams 开发和集成 CCaaS 解决方案。 此外，我们开发了 Microsoft Teams 认证计划连接联系中心，为客户提供保证：每个参与合作伙伴的解决方案都经过测试和验证，以提供他们期望从 Microsoft 解决方案获得的质量、兼容性和可靠性。
 
+以下合作伙伴具有 Microsoft Teams 的认证解决方案，并准备好吸引客户：
+
+|  合作伙伴                                                                                                                               |  解决方案网站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+
 以下合作伙伴正在为 Microsoft Teams 认证其解决方案，并准备好与客户互动：
 
 |  合作伙伴                                                                                                                               |  解决方案网站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `8x8` | https://www.8x8.com/products/integrations/8x8-voice-for-microsoft-teams?locale=us |
-| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
-| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
-| "Geomant" | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
+| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
@@ -88,7 +92,7 @@ Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通�
 
 ### <a name="connect-and-extend"></a>连接和扩展
 
-此模型通过使用[Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)中的 Teams 客户端平台[、Teams Graph API](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)和云通信 API 与[Teams](https://docs.microsoft.com/microsoftteams/platform/overview)客户端集成，扩展了联系中心人员和代理体验，并使用 Teams 电话系统进行所有联系中心呼叫和呼叫控制体验。 在此模型中，联系中心合作伙伴与 Microsoft 365 一起充当电话运营商。
+此模型通过使用[Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)中的 Teams 客户端平台[、Teams Graph](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) API 和云通信 API 与[Teams](https://docs.microsoft.com/microsoftteams/platform/overview)客户端集成，扩展了联系中心人员和代理体验，并使用 Teams 电话系统进行所有联系中心呼叫和呼叫控制体验。 在此模型中，联系中心合作伙伴与 Microsoft 365 一起充当电话运营商。
 
 通过使用基于连接和扩展的解决方案，代理可以在启动参与之前从多个系统关联数据的动态上下文笔记受益，然后通过本机在 Teams 中为内部协作和外部通信工作来避免代价高昂的上下文切换。
 
@@ -118,7 +122,7 @@ Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通�
 
 此模型使合作伙伴能够使用 Teams 呼叫基础结构和客户端平台创建基于 Azure 的本机语音应用程序，以提供用于协作客户和代理连接的现代智能解决方案。 扩展和 Power 的目标是培养开发人员的创造力，并提升客户工作效率。
 
-通过直接在 Azure 上构建，合作伙伴可以跨所有 Teams 区域与地理位置快速部署和预配其解决方案，从共享的全球通信网络受益，同时利用 Azure 的存储、计算和分析&认知服务。
+通过直接在 Azure 上构建，合作伙伴可以跨所有 Teams 区域与地理位置快速部署和预配其解决方案，从共享的全球通信网络受益，同时利用 Azure 的存储、计算和分析&服务。
 
 借助扩展和 Power 集成模型，合作伙伴可以提供具有全通道通信体验的联系人中心代理，同时整合人工智能，以自定义参与者或其他服务在 [Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)中应用云通信 API 的通话方式和时间。
 

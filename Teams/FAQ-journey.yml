@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
-  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
+  ms.openlocfilehash: 9cefe2a8558b10a6d53a6b6c49c519f9f8aa13f3
+  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 01/13/2021
-  ms.locfileid: "49841473"
+  ms.lasthandoff: 02/05/2021
+  ms.locfileid: "50110335"
 title: 常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 summary: ''
 sections:
@@ -46,9 +46,9 @@ sections:
   - question: 我可以从哪里了解 Microsoft Teams 管理中心内的共存模式的详细信息？
     answer: >
       在 Microsoft Teams 管理中心，你将看到共存模式选项，这些选项使贵组织能够管理其所需的 Skype for Business 到 Teams 的迁移之旅。 了解有关[共存和升级模式](teams-and-skypeforbusiness-coexistence-and-interoperability.md)的详细信息。
-  - question: 为升级做好准备应该怎么办？
+  - question: 我应该为升级做哪些准备？
     answer: >
-      要成功升级，要验证技术就绪情况以及用户接受就绪情况。 即使你确定贵组织尚未准备好升级到 Teams，你现在仍可以开始规划过程。 此外，你可以同时启用 Teams 和 Skype for Business 以开始利用 Teams 的价值。 现在就开始进行 [Skype 到 Teams 的旅程](https://aka.ms/skypetoteams-home))。
+      要成功升级，要验证技术就绪情况以及用户接受就绪情况。 即使你确定贵组织尚未准备好升级到 Teams，你现在仍可以开始规划过程。 此外，你可以同时启用 Teams 和 Skype for Business 以开始利用 Teams 的价值。 现在就开始进行 [Skype 到 Teams 的旅程](https://aka.ms/skypetoteams-home)。
 
 
       Microsoft 还提供实时互动研讨会，我们将分享指导、最佳实践和资源，以帮助你开始升级规划和实施。 [了解升级规划研讨会](https://aka.ms/SkypeToTeamsPlanning)。
@@ -121,4 +121,4 @@ sections:
     answer: >
       [会议室设备](https://products.office.com/microsoft-teams/across-devices)对于我们对新式工作场所的愿景至关重要。 通过现有 VTC 系统支持 Teams 会议的[云视频互操作性服务](https://docs.microsoft.com/microsoftteams/cloud-video-interop)通过我们的合作伙伴 Pexip、Polycom 和 Blue Jeans 提供。
   - question: 最新一代的 Skype Room Systems v2 是否支持 Teams 中的会议？
-    answer: 我们已将 Skype Room Systems 重新命名为“Microsoft Teams 会议室”，它完全支持 Microsoft Teams 会议，并通过在设备上启用 Teams 提供从 Skype for Business 到 Teams 的轻松迁移路径。 用户不仅能够通过接近检测来识别附近的 Microsoft Teams 会议室，还可以通过单击加入 Teams 会议。提供双屏支持和 Microsoft Whiteboard，并且我们将继续提供具有智能捕获功能的内容相机等创新功能。
+    answer: 我们将 Skype 会议室系统重新升级为 Microsoft Teams 会议室，它完全支持 Microsoft Teams 会议，并且只需在设备上启用 Teams，就可以轻松从 Skype for Business 迁移到 Teams。 除了允许用户使用邻近感应检测识别附近的 Microsoft Teams 会议室之外，Teams 会议还可通过单击、双屏幕支持、Microsoft Whiteboard 加入，我们将继续引入创新功能，例如具有智能捕获的内容摄像头。

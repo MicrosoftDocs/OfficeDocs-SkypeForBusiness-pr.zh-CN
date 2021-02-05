@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何为 SBC (会话边界控制器) 为 Microsoft 合作伙伴和/或 PSTN 运营商提供多个租户。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 343e2d1aedefd34de452df8da6ce9a5ad1a726ba
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: b81709b46774762036ba9465444d066a0adf019c
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923844"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110235"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -65,7 +65,7 @@ Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) �
 - **Metaswitch：**  有关如何为多个租户启用 Perimeta SBC 的文档，请在 [Metaswitch 社区](https://manuals.metaswitch.com/MAN39555) 页上注册。
 
 > [!NOTE]
-> 请注意如何配置"联系人"标头。 联系人标头用于查找传入邀请消息上的客户租户。 
+> 请注意如何配置"联系人"标头。 联系人标头用于在传入邀请消息上查找客户租户。 
 
 ## <a name="register-a-base-domain-and-subdomains"></a>注册基本域和子域
 
@@ -79,7 +79,7 @@ Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) �
 
 子域 **必须与** 在将邀请发送到 Microsoft 365 或 Office 365 时为客户配置的中继的 FQDN 名称和联系人标头中的 FQDN 匹配。 
 
-当呼叫到达 Microsoft 365 或 Office 365 直接路由接口时，该接口使用联系人标头查找应查找用户的租户。 直接路由不使用邀请上的电话号码查找，因为某些客户可能拥有非 DID 号码，这些号码可能与多个租户重叠。 因此，"联系人"标头中的 FQDN 名称需要标识要按电话号码查找用户的确切租户。
+当呼叫到达 Microsoft 365 或 Office 365 直接路由接口时，该接口使用联系人标头查找应查找用户的租户。 直接路由不使用"邀请"上的电话号码查找，因为某些客户可能拥有非 DID 号码，这些号码可能与多个租户重叠。 因此，"联系人"标头中的 FQDN 名称需要标识要按电话号码查找用户的确切租户。
 
 *有关在 Microsoft  [365 或 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 组织中创建域名详细信息，请查看"获取有关 Office 365 域的帮助"。*
 
@@ -87,7 +87,7 @@ Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) �
 
 ![显示域和联系人头的要求的示意图](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使用 CN 和/或 SAN .base_domain (请求证书，*\* 例如 \* .customers.adatum.biz) 。* 此证书可用于对从单个 SBC 提供的多个租户的连接进行身份验证。
+SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要向 CN 和/或 SAN 请求.base_domain (*\* 例如 \* .customers.adatum.biz) 。* 此证书可用于对从单个 SBC 提供的多个租户的连接进行身份验证。
 
 
 下表是一个配置示例。
@@ -137,10 +137,10 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使�
 
 ### <a name="activate-the-domain-name"></a>激活域名
 
-注册域名后，需要通过添加至少一个 E1、E3 或 E5 许可用户，并分配 SIP 地址与所创建基础域匹配的 SIP 地址的 FQDN 部分来激活它。 激活域后，许可证 (最多可能需要 24 小时) 。
+注册域名后，需要通过添加至少一个具有电话系统许可证的用户，并分配 SIP 地址与所创建基本域匹配的 SIP 地址的 FQDN 部分来激活它。 激活域后，许可证 (最多可能需要 24 小时) 。
 
 > [!NOTE]
-> 运营商租户必须至少保留分配给租户的一个 E1/E3/E5/M365 商业版许可证，以避免删除 Skype for Business 配置。 
+> 运营商租户必须至少保留分配给租户的一个电话系统许可证，以避免删除 Skype for Business 配置。 
 
 *有关在 [Microsoft 365 或 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 组织中添加用户的信息，请查看"获取有关 Microsoft 365 或 Office 365 域的帮助"。*
 
@@ -192,7 +192,7 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使�
 
     !["选择联机服务"页面的屏幕截图](media/direct-routing-10-sbc-choose-services.png)
 
-10. 在 **"更新** **DNS 设置"页上单击"完成** "。
+10. 单击 **"更新** **DNS 设置"页上的"完成** "。
 
     !["更新 DNS 设置"页的屏幕截图](media/direct-routing-11-sbc-update-dns-finish.png)
 
@@ -201,7 +201,7 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使�
     ![显示安装完成状态的页面的屏幕截图](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
-> 单个客户端的基本 URL 和子域必须位于同一租户中，才能添加 _直接路由_ 中继。
+> 单个客户端的基本 URL 和子域必须位于同一租户上，才能添加 _直接路由_ 中继。
 
 ### <a name="activate-the-subdomain-name"></a>激活子域名称
 
@@ -221,7 +221,7 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使�
  
 - **开销管理**。 例如，卸载或清空 SBC 会更改某些参数，例如启用或禁用媒体旁路。 更改端口需要通过运行 Set-CSOnlinePSTNGateway (更改多个租户中的) ，但实际上是相同的 SBC。 
 
--  **开销处理**。 收集和监视中继运行状况数据 - 从多个逻辑中继收集的 SIP 选项，事实上，这些逻辑中继是同一 SBC 和相同的物理中继，这会降低路由数据的处理速度。
+-  **开销处理**。 收集和监视中继运行状况数据 - 从多个逻辑中继收集的 SIP 选项，实际上，相同的 SBC 和相同的物理中继会减慢路由数据的处理速度。
  
 基于此反馈，Microsoft 将引入新逻辑来为客户租户预配中继。
 
