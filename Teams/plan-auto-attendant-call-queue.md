@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列，以及如何使用它们来帮助呼叫者在菜单系统中移动以联系你组织的人或部门。
-ms.openlocfilehash: 9ba8ccf08793e352e225340aeab33d7b95204cd9
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 65dac48267379d17b76443e42eb70e2e866f6e8f
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918888"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125664"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划 Teams 自动助理和呼叫队列
 
@@ -129,9 +129,6 @@ ms.locfileid: "49918888"
 将代理的 Teams 帐户设置为仅 Teams 模式。 不符合要求的代理不包括在呼叫路由列表中。
 
 如果代理都使用兼容的客户端，我们建议为呼叫队列启用会议模式。
-
-> [!NOTE]
-> 会议模式不支持忙碌。 如果未启用基于状态的路由，则非呼叫队列呼叫上的代理仍可能显示呼叫队列呼叫。
 
 ## <a name="plan-your-call-routing-flow"></a>规划呼叫路由流
 

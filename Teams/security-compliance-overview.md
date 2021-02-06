@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbf0ededcb1a5f3037bfb896242902daaa2a79b
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 0c400f6f3fdb0c0cf5abce3a34f05c8488909aab
+ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973076"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122202"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams 中的安全性和符合性
 
@@ -40,7 +40,7 @@ ms.locfileid: "49973076"
 Microsoft Teams 构建在 Microsoft 365 和 Office 365 超大规模企业级云上，提供客户期望的高级安全性和符合性功能。 有关在 Microsoft 365 或 Office 365 中[](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)规划安全性详细信息，安全路线图是一个很好的起点。 有关在 Microsoft 365 或 Office 365 中规划合规性详细信息，可以从安全与合规 [&开始](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)。
 
 
-本文提供有关特定于 Teams 的安全性和符合性的更多信息。 不要错过以下有关安全性和符合性的 Microsoft 机制视频：
+本文将提供有关特定于 Teams 的安全性和符合性的更多信息。 不要错过以下有关安全性和符合性的 Microsoft 机制视频：
 
 - [适用于 IT 的 Microsoft Teams Essentials： (](https://youtu.be/91lHNKVVvQ4) 12：42 分钟) 
 - [10：54 (](https://www.youtube.com/watch?v=Km4T4hMM__k) Microsoft Teams 安全性和合规性控制) 
@@ -61,7 +61,7 @@ Teams 强制实施团队范围和组织范围的双因素身份验证、通过 A
 
 ### <a name="advanced-threat-protection-atp"></a>ATP (高级威胁防护) 
 
-高级威胁防护 (ATP) 适用于 Microsoft Teams，以及 SharePoint 和 OneDrive（与 Teams 集成以用于内容管理的应用程序）。 ATP 允许你确定这些应用程序中的内容在本质上是恶意的，并阻止用户访问此内容。
+高级威胁防护 (ATP) 适用于 Microsoft Teams，以及 SharePoint 和 OneDrive（与 Teams 集成以用于内容管理的应用程序）。 ATP 允许确定这些应用程序中的内容在本质上是否恶意，并阻止用户访问此内容。
 
 检测后如何管理受影响的内容，由你在 Microsoft 365 或 Office 365 中所选的设置决定。 强烈建议你在配置 ATP 时考虑所有应用程序，为了进一步阅读， [适用于 SharePoint、OneDrive](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) 和 Microsoft Teams 的 ATP 将详细介绍如何入门。
 
@@ -75,7 +75,7 @@ Teams 强制实施团队范围和组织范围的双因素身份验证、通过 A
 
 ### <a name="secure-score"></a>安全评分
 
-Microsoft 安全评分是组织安全状况的度量，数字越高，表示采取的改进措施就越高。 可在 [Microsoft 365 安全中心找到它](https://security.microsoft.com/securescore)。 遵循安全评分建议可以保护组织免受威胁。 通过 Microsoft 365 安全中心的集中式仪表板，组织可以监视并处理其 Microsoft 365 标识、应用和设备的安全性。 Microsoft Teams 现在提供安全评分建议，建议管理员监视其平台上的安全态势。
+Microsoft 安全评分是组织安全状况的度量，数字越高，表示采取的改进措施就越高。 可在 [Microsoft 365 安全中心找到它](https://security.microsoft.com/securescore)。 遵循安全评分建议可以保护组织免受威胁。 在 Microsoft 365 安全中心的集中式仪表板中，组织可以监视并处理其 Microsoft 365 标识、应用和设备的安全性。 Microsoft Teams 现在提供安全评分建议，建议管理员监视其平台上的安全态势。
 
 安全评分可帮助组织：
 - 报告组织安全态势的当前状态。
@@ -95,11 +95,11 @@ Microsoft Teams 桌面应用程序支持 AppLocker。  有关 AppLocker 先决�
 
 ## <a name="compliance"></a>合规性
 
-Teams 提供多种信息来帮助你实现合规性，包括频道、聊天和附件的通信符合性、保留策略、数据丢失保护 (DLP) 、通道、聊天和文件的电子邮件展示和法定保留、审核日志 搜索，以及 Microsoft Intune 的移动应用程序管理。 我们在下面提供了所有这些主题的一些信息，你可以转到 [Microsoft 365](https://compliance.microsoft.com) 合规中心来管理这些设置。
+Teams 提供大量信息来帮助你实现合规性，包括频道、聊天和附件的通信符合性、保留策略、数据丢失防护 (DLP) 、通道、聊天和文件的电子邮件展示和法定保留、审核日志 搜索，以及 Microsoft Intune 的移动应用程序管理。 我们在下面提供了所有这些主题的一些信息，你可以转到 [Microsoft 365](https://compliance.microsoft.com) 合规中心来管理这些设置。
 
 ### <a name="information-barriers"></a>信息屏障
 
-信息屏障是 Teams 管理员实施的策略，用于在不需要人员或组进行相互通信时 (或者出于法规原因阻止他们这样做) ，它还允许你设置与查找和电子数据展示 ()  (下面介绍的内容相关的策略。 这些策略可能会影响一对一聊天、群组聊天或团队级别的用户。
+信息屏障是 Teams 管理员实施的策略，用于阻止人员或组相互通信 (当业务不需要他们这样做时，或者出于法规原因阻止他们这样做) ，它还允许你设置与查找和电子数据展示 ()  (下面介绍的内容相关的策略。 这些策略可能会影响一对一聊天、群组聊天或团队级别的用户。
 
 若要进一步阅读本主题，请转到 [Microsoft Teams 中的信息屏障](information-barriers-in-teams.md)。
 
@@ -113,7 +113,7 @@ Microsoft Teams 中的保留策略允许保留组织出于法规、法律、业�
 
 ## <a name="sensitivity-labels"></a>敏感度标签
 
-应用 [敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ，以保护并管理对在团队内协作期间创建的敏感组织内容的访问。 例如，应用标签来配置团队 (或专用) 、控制来宾访问和外部共享，以及管理来自非托管设备的访问权限。 有关详细信息，请查看 [Microsoft Teams 中的敏感度标签](sensitivity-labels.md)。
+应用 [敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ，以保护和管理对在团队内协作期间创建的敏感组织内容的访问。 例如，应用标签来配置团队 (或专用) 、控制来宾访问和外部共享，以及管理来自非托管设备的访问权限。 有关详细信息，请查看 [Microsoft Teams 中的敏感度标签](sensitivity-labels.md)。
 
 ### <a name="data-loss-prevention-dlp"></a>DLP (数据丢失防护) 
 
@@ -123,7 +123,7 @@ Microsoft Teams 中的数据丢失防护 (DLP) ，以及适用于 Microsoft 365 
 
 ### <a name="ediscovery"></a>电子数据展示
 
-电子发现或电子数据展示是电子方面，用于识别、收集和生成电子存储的信息 (ESI) 以响应法律诉讼或调查中的生产请求。 功能包括案例管理、保留、搜索、分析和导出 Teams 数据。 这包括聊天、消息和文件、会议与通话摘要。 对于 Teams 会议和通话，将创建会议中和通话中发生的事件的摘要，并可在电子数据展示中查看。
+电子发现或电子数据展示是电子方面，用于识别、收集和生成电子存储的信息 (ESI) 以响应法律诉讼或调查的生产请求。 功能包括案例管理、保留、搜索、分析和导出 Teams 数据。 这包括聊天、消息和文件、会议与通话摘要。 对于 Teams 会议和通话，将创建会议中和通话中发生的事件的摘要，并可在电子数据展示中查看。
 
 若要详细了解如何在安全中心和合规中心执行 Microsoft 365 或 Office 365 电子数据展示并运行 Teams 内容的符合性内容搜索，请转到以下链接：
 
@@ -131,7 +131,7 @@ Microsoft Teams 中的数据丢失防护 (DLP) ，以及适用于 Microsoft 365 
 
  - [内容搜索](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)
 
-我们有一篇特定于 Teams 的文章，详细了解来宾到来宾聊天的 [电子数据展示](eDiscovery-investigation.md)。
+我们有一篇特定于 Teams 的文章，详细了解来宾到来宾聊天的电子 [数据展示](eDiscovery-investigation.md)。
 
 客户可以按要求利用电子数据展示 [或高级](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) 电子数据展示。 下表概括列出了这两者之间的差异：
 
@@ -168,7 +168,19 @@ Microsoft Teams 中的数据丢失防护 (DLP) ，以及适用于 Microsoft 365 
 
 ### <a name="auditing-and-reporting"></a>审核和报告
 
-审核日志搜索直接插入到 Microsoft 365 合规中心，让你能够设置警报以及报告审核事件，从而允许导出特定于工作负荷的事件集或通用事件集，以便管理员使用和调查无限审核时间线。 可以针对 Microsoft 365 合规中心内的所有审核日志数据设置警报，并筛选和导出此数据以进一步进行分析。 请参阅" [搜索"审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 详细了解如何针对 Microsoft 365 或 Office 365 执行审核日志搜索。 若要详细了解如何搜索 Microsoft 365 合规中心中的 Microsoft Teams 事件，我们还在 [Teams](audit-log-events.md) 中开启审核功能，供你查看。
+审核日志搜索直接插入到 Microsoft 365 合规中心，通过允许导出工作负载特定或通用事件集，以便管理员使用和调查无限审核时间线，让你能够设置警报以及报告审核事件。 可以针对 Microsoft 365 合规中心内的所有审核日志数据设置警报，并筛选和导出此数据以进一步进行分析。 请参阅" [搜索"审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 详细了解如何针对 Microsoft 365 或 Office 365 执行审核日志搜索。 若要详细了解如何搜索 Microsoft 365 合规中心中的 Microsoft Teams 活动，我们还在 [Teams](audit-log-events.md) 中启用审核功能，供你查看。
+
+## <a name="customer-key"></a>客户密钥
+
+Microsoft 365 为内容提供基于服务加密的附加加密层。 使用你提供的密钥，客户密钥在 Microsoft Teams 中加密多种不同类型的数据。 客户密钥在应用程序级别使用客户密钥加密存储在 SharePoint Online 中的 Teams 文件。 有关信息，请参阅["使用客户密钥进行服务加密"。](https://docs.microsoft.com/microsoft-365/compliance/customer-key-overview) 
+
+在租户级别使用客户密钥时，客户密钥会加密：
+- Teams 聊天消息 (一对一聊天、群组聊天、会议聊天和频道对话) 
+- Teams 媒体消息 (图像、代码片段、视频和 Wiki 图像) 
+- Teams 通话和会议录制存储在 Teams 存储中
+- Teams 聊天通知
+- Cortana 提供的团队聊天建议
+- Teams 状态消息 有关详细信息，请参阅租户级别的 [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level) 客户密钥概述，并阅读 Microsoft Teams 博客，其中涵盖了 Microsoft Teams 的客户密钥支持（目前以公共预览版 [提供](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)）。 有关租户级别包含客户密钥的 Microsoft 信息保护版本的信息，请阅读宣布推出 [新的 Microsoft](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)信息保护功能，了解和保护敏感数据。
 
 ## <a name="privacy"></a>隐私
 
@@ -209,13 +221,13 @@ Teams 中的数据位于与 Microsoft 365 或 Office 365 组织关联的地理�
 如果需要查看哪个区域存储租户的数据，请转到 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)  >  **设置**  >  **组织配置文件**。 向下滚动到 **数据位置**。
 
 > [!div class="mx-imgBorder"]
-> ![管理中心包含 Teams 的数据位置表的屏幕截图](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+> ![管理中心内包含 Teams 的数据位置表的屏幕截图](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 ## <a name="compliance-standards"></a>符合性标准
 
 Teams 采用以下标准[：ISO 27001、ISO](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001) [27018、SSAE18](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018) [SOC 1 和 SOC 2、HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)和[EUMC ](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses) (条款) 。 [](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech) 在 Microsoft 合规性框架中，Microsoft 将 Microsoft 365 和 Office 365 应用程序和服务分为四个类别。 每个类别由 Microsoft 365 或 Office 365 服务或相关 Microsoft 服务必须满足的特定合规性承诺定义，并列在该类别中。
 
-可在数据保护资源 [中查看详细信息](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)。 Teams 还支持云安全联盟合规性。
+可以在数据保护资源 [中找到详细信息](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)。 Teams 还支持云安全联盟合规性。
 
 ## <a name="related-topics"></a>相关主题
 

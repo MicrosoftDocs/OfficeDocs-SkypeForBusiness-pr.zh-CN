@@ -17,6 +17,8 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-overview
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
@@ -24,12 +26,12 @@ description: 了解 Microsoft Teams 远程医疗、EHR 集成、一线员工系�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 623958e8d2b3185e2e46fe1fe50330d7d084a6cb
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: a5b8ea7cddba8def74a1f5b839710cf73bafc67e
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909246"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125765"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医疗保健组织的 Teams 入门
 
@@ -49,6 +51,19 @@ Microsoft Teams 提供许多对医院和其他医疗保健组织有用的远程�
 
 > [!NOTE]
 > 本部分的内容假定已在组织中部署 Teams。 如果尚未推出 Teams，请首先阅读"如何推广[Microsoft Teams"。](../../How-to-roll-out-teams.md)
+
+以下方案适用于医疗保健组织：
+
+| 使用场景 | 说明 | 要求 |
+| -------- | -------- | -------- |
+| [使用电子医疗保健记录与 EHR (集成进行虚拟) 访问](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 安排、管理和与患者进行虚拟访问。 此方案将 Microsoft Teams 和长篇平台连接到支持虚拟访问。 | Microsoft Cloud for Healthcare 的活动订阅或 Microsoft Teams EHR Connector 独立套餐的订阅。 <br> 用户必须具有相应的 Microsoft 365 或 Office 365 许可证（包括 Microsoft Teams 会议*）。 <br> 组织必须具有 2018 年 11 月版或更高版本的"长篇故事"版本。 <br>[EHR 要求的详细信息](ehr-admin.md#before-you-begin) |
+| [使用 Microsoft Bookings 和 Bookings 应用进行虚拟访问](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 安排、管理和与患者进行虚拟访问。 此方案依赖于 Microsoft Bookings 来支持虚拟访问。 | 必须为组织启用 Microsoft Bookings。 <br> Bookings 应用的所有用户以及参与会议的所有用户都必须拥有支持 Teams 会议安排的许可证*。 <br>[Bookings 要求的详细信息](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
+| [Teams 策略包](#teams-policy-packages)| 确保医疗工作者、信息工作者和患者室设备具有对 Teams 功能的适当访问权限。| 用户必须具有适当的许可证*。 |
+| [安全消息传送](#secure-messaging) | 更快地关注紧急邮件，并置信邮件已接收和已读。 | 用户必须具有适当的许可证*。  |
+| [Teams 模板](#teams-templates-for-healthcare-organizations) | 创建一个团队，其中包括预定义的设置模板、频道和预安装的应用，以在医院、Pod 或部门内部，或医院内的多个医生、Pod 和部门之间通信和协作。 | 用户必须具有适当的许可证*。  |
+| [关注协调与协作](#care-coordination-and-collaboration) | 医生和职员可以在内部协作处理日程安排、文档、任务等。| 用户必须具有适当的许可证*。 |
+
+*支持 Office 365 A3、A5、E3 和 E5，以及 Microsoft 365 商业标准版、A3、A5、E3 和 E5。 有关常规 Teams 许可详细信息，请参阅"[管理用户对 Teams 的访问权限"。](../../user-access.md)
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虚拟访问和电子医疗保健记录 (EHR) 集成
 
@@ -140,3 +155,11 @@ Teams 中的列表应用可帮助团队跟踪信息和整理工作。 该应用�
 Microsoft Teams 与 Shifts 应用和一线员工集成，可用于协调班次人员配备功能等。 例如，在班次中，医生经理可以设置和协调其职员的日程安排，而医生可以检查日程安排和调班。 Teams 包括内置 Frontline Worker 应用设置策略，可将其分配给组织的一线辅助角色。 默认情况下，该策略包括活动、Shifts、聊天和呼叫应用。 此策略控制这些应用的行为，例如，将 Shifts 应用固定到应用栏，以便团队可以快速访问它。
 
 若要了解有关详细信息，请参阅"在 Microsoft Teams 中管理组织的[Shifts 应用"。](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
+## <a name="help-your-clinical-and-information-workers-get-going-with-teams"></a>帮助医疗和信息工作者使用 Teams
+
+有许多资源可帮助组织中的所有用户熟悉 Teams 的使用：
+
+- 访问 [Teams 采用](https://adoption.microsoft.com/microsoft-teams/) 中心，了解有关推出 Teams 的建议（如果你只是开始组织使用 Teams 之旅，或者将 Teams 扩展到组织的更多领域）。
+- 请考虑为用户 [设置自定义](https://adoption.microsoft.com/microsoft-365-learning-pathways/) 学习途径，以便只涵盖他们需要执行的任务。
+- 获取有关如何在 Microsoft Teams 中在 [Teams](https://support.microsoft.com/teams)支持网站上执行基本任务的帮助和培训，包括 [快速培训视频](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)。 该网站还提供 Teams 应用的帮助和培训[，包括列表](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)、任务、[](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)审批、[](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)[预订](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b)[和班次](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)。

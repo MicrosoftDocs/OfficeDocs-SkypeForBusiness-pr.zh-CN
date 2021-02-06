@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理会议策略设置，并使用它们来控制可供会议参与者用于用户安排的会议的功能。
-ms.openlocfilehash: 2eef5969ea054b8c8ca6d702189f05b1eaa46c65
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 67194f02c92bac390083e3ea3e983e7b8518e595
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918908"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125797"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在 Teams 中管理会议策略
 
@@ -81,7 +81,7 @@ ms.locfileid: "49918908"
 
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"会议**  >  **会议策略"。**
 2. 单击策略名称左侧选择策略，然后选择"编辑 **"。**
-3. 在此处，进行您需要的更改。
+3. 在此处根据需要进行更改。
 4. 选择 **"保存"。**
 
 > [!NOTE]
@@ -499,13 +499,17 @@ Daniela 可以在 Amanda 的会议中做笔记，而 Amanda 不能在任何会�
 
 " **谁可以演示？"** 设置允许会议组织者选择谁可以是会议的演示者。 若要了解有关详细信息，请参阅["更改 Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)会议的参与者设置"和["Teams 会议的角色"。](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)
 
-目前，只能使用 PowerShell 配置此策略设置。 可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建新的 Teams 会议策略并将其分配给用户。
+可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建新的 Teams 会议策略并将其分配给用户。
 
 若要在 Teams 中指定"谁可以展示 **？"** 设置的默认值，将 **SpecifyedPresenterRoleMode** 参数设置为以下值之一：
 
 - **EveryoneUserOverride：** 所有会议参与者都可以是演示者。 此值为默认值。 此参数对应于 Teams **中的 Everyone** 设置。
 - **EveryoneInCompanyUserOverride：** 组织中经过身份验证的用户（包括来宾用户）可以是演示者。 此参数对应于 Teams **中的组织人员** 设置。
 - **OrganizerOnlyUserOverride：** 只有会议组织者才能成为演示者，所有会议参与者都将被指定为与会者。 此参数对应于 Teams **中的"仅我** "设置。
+
+此外，还可以在 Teams 管理中心编辑此策略。 
+
+![Teams 管理中心的屏幕截图](media/designated-presenter-role.png)
 
 请记住，设置默认值后，会议组织者仍然可以在 Teams 中更改此设置，并选择谁可以在他们安排的会议中参加。
 
@@ -558,5 +562,5 @@ Daniela 可以在 Amanda 的会议中做笔记，而 Amanda 不能在任何会�
 ## <a name="related-topics"></a>相关主题
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [在 Teams 中向用户分配策略](assign-policies.md)
+- [向 Teams 中的用户分配策略](assign-policies.md)
 - [从用户中删除 RestrictedAnonymousAccess Teams 会议策略](meeting-policies-restricted-anonymous-access.md)

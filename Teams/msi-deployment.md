@@ -5,7 +5,7 @@ ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi, jhreddy
+ms.reviewer: amitsri
 audience: admin
 description: 使用 Microsoft 终结点配置管理器批量部署 Microsoft Teams 以选择用户或计算机。
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23bec0ff2e320da917fbdde122913a56f31b6d1c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: de0e15a76c1a30206beb80488e8ce6448d0a5900
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802322"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125674"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 

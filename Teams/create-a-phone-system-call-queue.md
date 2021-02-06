@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何使用 Microsoft Teams 为呼叫队列设置电话系统，以便提供问候消息、保存音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 17e15e270492c4105f79ead6b2ce34ca37165ec3
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49919019"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125785"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -94,9 +94,6 @@ ms.locfileid: "49919019"
   - Microsoft Teams 手机版本 1449/1.0.94.2020051601 或更高版本
   
 代理的 Teams 帐户需要设置为仅 Teams 模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理都使用兼容的客户端，我们建议为呼叫队列启用会议模式。
-
-> [!NOTE]
-> 会议模式不支持忙碌。 如果未启用基于状态的路由，则非呼叫队列呼叫上的代理仍可能显示呼叫队列呼叫。
 
 **路由** 方法确定代理从队列接收调用的顺序。 从以下选项中选择：
 

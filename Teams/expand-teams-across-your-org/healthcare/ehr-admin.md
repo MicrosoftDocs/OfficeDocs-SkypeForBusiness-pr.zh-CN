@@ -17,16 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 使用 Microsoft Teams 设置虚拟访问系统
-ms.openlocfilehash: 4c8511939532a448d5229865618aa308494c7a42
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101330"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125775"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>使用 Teams 进行虚拟访问 - 集成到 EHR 中
 
@@ -90,7 +92,7 @@ ms.locfileid: "50101330"
 
 - FHIR 基 URL 是对应于服务器 FHIR API 终结点的静态地址。 示例 URL 为 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` 。
 
-- 配置审批者名称是负责在下一步中审批配置的"长篇客户"分析人员的名称。 "长篇故事"客户分析师是组织中具有对"长篇故事"的登录访问权限的人。
+- 配置审批者名称是负责在下一步中审批配置的"长篇客户"分析人员的名称。 "长篇故事"客户分析师是组织中具有"长篇故事"登录访问权限的人。
 
   ![从 EHR 连接器中的列表中选择配置审批者的名称。](../../media/teams-ehr-connector.png)
 
