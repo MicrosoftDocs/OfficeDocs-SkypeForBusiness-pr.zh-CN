@@ -201,6 +201,8 @@ items:
         href: upgrade-operate-my-service.md
       - name: 增强服务
         href: upgrade-enhance-my-service.md
+      - name: Microsoft Teams 中的公共预览版
+        href: public-preview-doc-updates.md
       - name: 使用内联消息翻译
         href: inline-message-translation-teams.md
       - name: 使用 Microsoft Teams 范围目录搜索
@@ -413,8 +415,6 @@ items:
                 href: rooms/xml-config-file.md
               - name: 使用恢复工具
                 href: rooms/recovery-tool.md
-      - name: 教程：Teams 中的会议
-        href: Tutorial-Meetings-in-Teams.yml
       - name: 管理会议策略
         href: meeting-policies-in-teams.md
       - name: 从用户中删除 RestrictedAnonymousAccess 会议策略
@@ -465,8 +465,6 @@ items:
             href: audio-conferencing-on-network.md
           - name: 音频会议常见问题
             href: audio-conferencing-common-questions.md
-          - name: 教程：Teams 中的音频会议
-            href: Tutorial-Audio-Conferencing.yml
           - name: 试用或购买 Microsoft 365 中的音频会议
             href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
           - name: 适用于美国和加拿大的延长拨出分钟数
@@ -975,11 +973,6 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Microsoft Teams 通话流程
             href: microsoft-teams-online-call-flows.md
-          - name: 教程：在 Teams 中通话
-            href: Tutorial-calling-in-teams.yml
-            items:
-              - name: 规划用户体验
-                href: 5-envision-plan-my-users-experience.md
   - name: Microsoft 365 商务语音
     items:
       - name: 什么是 Microsoft 365 商务语音？
@@ -1375,6 +1368,8 @@ items:
         href: service-health.md
       - name: 联系商业版产品的支持人员 - 管理员帮助
         href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
+      - name: 如何查找你的支持 PIN
+        href: support-pin.md
   - name: 参考
     items:
       - name: Teams 限制和规范
@@ -1508,16 +1503,10 @@ items:
             href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
       - name: Teams 开发人员文档
         href: 'https://docs.microsoft.com/microsoftteams/platform'
-      - name: 在 Teams 中获取帮助
-        href: get-help-in-microsoft-teams.md
       - name: Teams 内容更新
         href: teams-updates.md
-      - name: 如何查找你的支持 PIN
-        href: support-pin.md
       - name: 音频会议和通话套餐的国家/地区可用性
         items:
-          - name: 概述
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 阿尔巴尼亚
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
           - name: 阿尔及利亚
@@ -1760,5 +1749,3 @@ items:
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 管理员功能的发行说明
         href: release-notes/release-notes.md
-      - name: Microsoft Teams 中的公共预览版
-        href: public-preview-doc-updates.md

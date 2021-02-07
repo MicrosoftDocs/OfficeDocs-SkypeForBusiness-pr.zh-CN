@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 7063fc09ab7ba93a050d6fe1fd0ec9ae74888b27
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110205"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125624"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -36,28 +36,30 @@ ms.locfileid: "50110205"
 |-----------|---------------|
 |用户可创建的团队数 | 限制为 250 个对象&sup1;         |
 |用户可以成为其成员的团队数|1,000&sup2;|
-|团队中的成员数 | 10,000<sup>5</sup>     |
+|团队中的成员数 | 10,000<sup>6</sup>     |
 |每个团队的所有者数 | 100   |
 |租户中允许的组织范围内的团队数 | 5     |
 |[组织范围内的团队](create-an-org-wide-team.md)中的成员数 | 10,000       |
 |全局管理员可创建的团队数        |  500,000   |
-|Microsoft 365 或 Office 365 组织可拥有的团队数    | 500,000&sup2;     |
-|每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
-|各团队专用频道数    |30| （包括已删除的频道）&sup3;
+|Microsoft 365 或 Office 365 组织可拥有的团队数    | 500,000&sup3;     |
+|每个团队的频道数    | 200（包括已删除的频道）&sup4;         |
+|各团队专用频道数    |30| （包括已删除的频道）&sup4;
 |专用频道中的成员数    |250|
 |可导入到团队中的通讯组列表、安全组或 Office 365 组的最大大小    |3,500|
-|Office 365 组中最多可以有多少名成员以转换为团队    |10,000<sup>5</sup>     |
-|频道对话文章大小 | 每篇文章约 28 KB<sup>4</sup> |
+|Office 365 组中最多可以有多少名成员以转换为团队    |10,000<sup>6</sup>     |
+|频道对话文章大小 | 每个帖子约 28 KB<sup>5</sup> |
 
 <sup>1</sup> Azure Active Directory 中的目录对象均计入此限额。与使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
 
-<sup>2</sup> 此限制包含已存档的团队。 若要突破 Microsoft 365 或 Office 365 组织内团队的最高数量，必须联系 Microsoft 支持部门并请求增加租户内 Azure Active Directory 对象的数量。
+<sup>2</sup> 此限制包含已存档的团队。 
 
-<sup>3</sup> 已删除的频道可在删除后 30 天内还原。在这 30 天内，已删除的频道仍然计入每个团队 200 个频道或 30 个专用频道的限额内。30 天后，已删除的频道及其内容将被永久删除，此频道也不再计入每个团队的限额内。
+<sup>3</sup> 若要进一步增加团队数量，必须联系 Microsoft 支持人员，并请求进一步增加租户中的 Azure Active Directory 对象数量。 仅针对真实生产方案进行了增加。
 
-<sup>4</sup> 28 KB 是一个近似限制，因为它包含消息本身（文本和图像链接等）、@提及、连接器数量和回应。
+<sup>4</sup> 30 天内可还原已删除的频道。 在这 30 天内，已删除的频道仍然计入每个团队 200 个频道或 30 个专用频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队的限额内。
 
-<sup>5</sup> GCC 的 团队中仅可容纳 5000 名成员，而 GCCH/DoD 的团队只能容纳 2500 名成员。
+<sup>5</sup> 28 KB 是近似限制，因为它包括邮件本身（文本、图像链接等）、@提及、连接线数目以及反应。
+
+<sup>GCC</sup> 6 个工作组仅能容纳 5，000 名成员，而 GCCH/DoD 中的团队仅能容纳 2，500 名成员。
 
 ## <a name="messaging"></a>消息传递
 
