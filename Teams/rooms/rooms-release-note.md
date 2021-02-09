@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft Teams 会议室的发行说明，其中列出了 Microsoft Teams 会议室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c88912330fd8bed6beaa4b55c4747785feb7b4e
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 274a83925a47519dba174a75bd92582670dab1d6
+ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101320"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150878"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -330,7 +330,7 @@ ms.locfileid: "50101320"
 
 - Bug/崩溃修复以提高稳定性
 - 支持大小可变的主机
-- 外围音频处理卸载 (其他媒体白名单) 
+- 外围设备音频处理卸载 (其他媒体允许列表) 
 - 使 IT 专业人员能够使用 Windows 10 版本 1709 1 月更新及更高版本构建自己动手映像的优化。
 
 ### <a name="30160-11272017"></a>2017/11/27 (3.0.16.0) 

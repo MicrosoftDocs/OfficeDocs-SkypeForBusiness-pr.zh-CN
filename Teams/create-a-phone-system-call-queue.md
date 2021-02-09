@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何使用 Microsoft Teams 为呼叫队列设置电话系统，以便提供问候消息、保存音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 17e15e270492c4105f79ead6b2ce34ca37165ec3
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 0253fb15a8672d83e672e3e3e18f8455d292214c
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125785"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145889"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -119,12 +119,15 @@ ms.locfileid: "50125785"
 
 **代理警报** 时间指定代理的电话在队列将呼叫重定向到下一个代理之前响铃的时间。
 
-对于高容量队列，建议以下设置：
+建议设置以下设置：
 
 - **会议模式** 到 **自动**
-- **路由方法** 到 **Attendant 路由**
+- **路由到****轮循机制或****最长空闲时间的方法**
 - **基于状态到"打开** " **的路由**
 - **代理警报时间：****到 20 秒**
+
+> [!NOTE]
+> 如果未启用基于状态的路由并且队列中有多个调用，系统将同时向代理显示这些调用，而不管代理的状态如何。 这导致向代理发送多个呼叫通知，尤其是当某些代理不应答呈现给代理的初始呼叫时。
 
 ## <a name="call-overflow-handling"></a>呼叫溢出处理
 

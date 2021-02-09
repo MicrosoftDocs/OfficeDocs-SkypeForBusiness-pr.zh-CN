@@ -19,17 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 32b2accc906b0f4f0dc85b5edf1d9501b64dda14
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: ffc2f15cdbef49daf36e09ca9676925ebb1ac99e
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909526"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145919"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
-
-> [!NOTE]
-> 如果启用了组织范围内的应用设置"允许与自定义应用交互"，则 Microsoft Teams 管理中心中可能尚未显示应用设置策略。 它目前正在推出，即将在你的组织中推出。
 
 作为管理员，可以使用应用设置策略执行以下任务：
 
@@ -45,7 +42,7 @@ ms.locfileid: "49909526"
 
 若要查看其预安装的应用，请在应用栏中选择 **...Teams 桌面** 和 Web 客户端中的更多应用，在移动客户端中向上轻扫。
 
-在 Microsoft Teams 管理中心中管理应用设置策略。 使用全局 (组织范围内的默认) 策略，或者创建和分配自定义策略。  除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
+在 Microsoft Teams 管理中心中管理应用设置策略。 使用全局 (组织范围内的默认) 策略，或者创建和分配自定义策略。  除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
 
 编辑全局策略中的设置，以包含需要的应用。 若要为组织中不同用户组自定义 Teams，请创建并分配一个或多个自定义策略。
 
@@ -101,7 +98,7 @@ ms.locfileid: "49909526"
 
 2. 单击策略名称左侧选择策略，然后选择"编辑 **"。**
 
-3. 在此处，进行您需要的更改。
+3. 在此处根据需要进行更改。
 
 4. 选择 **"保存"。**
 
@@ -137,7 +134,7 @@ ms.locfileid: "49909526"
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>策略更改生效需要多久
 
-编辑或分配策略后，可能需要几个小时更改才能生效。
+编辑或分配策略后，更改可能需要几个小时才能生效。
 
 ### <a name="user-experience"></a>用户体验
 
@@ -172,6 +169,6 @@ iOS 和 Android (Teams 移动客户端) 不支持使用静态选项卡的个人�
 
 ## <a name="related-topics"></a>相关主题
 
-[Teams 中适用于应用的管理设置](admin-settings.md)
+[Teams 中应用的管理设置](admin-settings.md)
 
-[在 Teams 中向用户分配策略](assign-policies.md)
+[向 Teams 中的用户分配策略](assign-policies.md)

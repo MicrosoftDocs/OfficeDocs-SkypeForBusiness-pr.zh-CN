@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何批准使用 Microsoft Teams 中的 Teams 应用提交 API 提交的自定义应用。
-ms.openlocfilehash: 146d8aaa7ec49d5a760e6b4fdcb700f161f62376
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 0003bc218b425383ba117296ba847a637d76ac43
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110225"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145799"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>发布通过 Teams 应用提交 API 提交的自定义应用
 
@@ -30,6 +30,9 @@ ms.locfileid: "50110225"
 
 > [!NOTE]
 > 发布自定义 Teams 应用时，该应用可供组织应用商店中的用户使用。 有两种方法可以发布自定义应用，使用方式取决于获取应用的方式。 **本文重点介绍如何批准和发布** 开发人员通过 Teams 应用提交 API 提交的自定义应用。 当开发人员以 .zip 格式发送给你应用包时，会使用上传自定义应用的另一种方法。 若要详细了解该方法，请参阅"通过<a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">上传应用包发布自定义应用"。</a> 批准应用小组件在 GCC 租户中不可用。 
+
+> [!IMPORTANT]
+> 此方法当前不适用于 GCC 环境。 必须使用上传 *自定义应用方法* 。
 
 本文提供有关如何将 Teams 应用从开发到部署到发现的端到端指南。 你将大致了解 Teams 在应用生命周期中提供的连接体验，以简化在组织的应用商店中开发、部署和管理自定义应用。
 
@@ -61,9 +64,9 @@ ms.locfileid: "50110225"
 
 ## <a name="validate"></a>验证
 
-Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> Teams 管理中心中的"管理应用" (左侧导航栏中，转到 **"管理** 应用") ，查看组织的所有  >  Teams 应用。 页面 **顶部的** "待定审批"小组件可让你了解何时提交自定义应用进行审批。
+Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank"></a> Teams 管理中心中的"管理应用" (左侧导航栏中，转到 **"管理** 应用") ，查看组织的所有  >  Teams 应用。 页面 **顶部的"** 待定审批"小组件可让你了解何时提交自定义应用进行审批。
 
-在表中，新提交的应用会自动显示"已提交"和"已 **阻止状态****"的发布状态**。 你可以按降 **序对"发布** 状态"列进行排序以快速找到该应用。
+在表中，新提交的应用会自动显示"已提交"和"已 **阻止状态****"的发布状态**。 你可以按降 **序对"** 发布状态"列进行排序以快速找到应用。
 
 ![发布状态 ](media/custom-app-lifecycle-validate-app.png)
 
@@ -86,7 +89,7 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target
 
 ### <a name="control-access-to-the-app"></a>控制对应用的访问
 
-默认情况下，组织中的所有用户都可以访问组织应用商店中的应用。 若要限制和控制谁有权使用应用，可以创建并分配应用权限策略。 若要了解有关详细信息，请参阅<a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">"在 Teams 中管理应用权限策略"。</a>
+默认情况下，你组织的所有用户都可以访问组织应用商店中的应用。 若要限制和控制谁有权使用应用，可以创建并分配应用权限策略。 若要了解有关详细信息，请参阅<a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies" target="_blank">"在 Teams 中管理应用权限策略"。</a>
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>固定并安装应用供用户发现
 
@@ -120,13 +123,13 @@ Microsoft <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target
 2. 单击应用名称转到应用详细信息页，然后选择"可用更新"查看更新的详细信息。
 
     ![应用详细信息页](media/custom-app-lifecycle-update-app.png)
-3. 准备就绪后，选择" **发布** "以发布更新。 执行此操作会替换现有应用、更新版本号，以及将 **发布状态更改** 为 **"已发布"。** 对于更新的应用，所有应用权限策略和应用设置策略仍强制实施。
+3. 准备就绪后， **选择"发布** "以发布更新。 执行此操作会替换现有应用、更新版本号，以及将 **发布状态更改** 为 **"已发布"。** 对于更新的应用，所有应用权限策略和应用设置策略仍强制实施。
 
     如果你拒绝更新，则应用的早期版本将保持已发布状态。
 
 请记住以下事项：
 
-- 应用获得批准后，任何用户都可以向应用提交更新。 这意味着其他开发人员（包括最初提交该应用的开发人员）可以提交应用更新。
+- 应用获得批准后，任何用户都可以向应用提交更新。 这意味着其他开发人员（包括最初提交应用的开发人员）可以提交应用更新。
 - 当开发人员提交应用并且请求挂起时，只有该开发人员才能向应用提交更新。 其他开发人员只能在应用获得批准后提交更新。
 
 有关使用图形 API 更新应用的信息，请参阅 <a href="https://docs.microsoft.com/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">此处</a>。
