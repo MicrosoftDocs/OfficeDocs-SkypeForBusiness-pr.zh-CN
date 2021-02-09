@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: 规划从 Skype for Business 升级到 Microsoft Teams
-summary: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
+summary: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以及以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
 brand: teams
 metadata:
-  title: 计划从 Skype for Business 升级到 Microsoft Teams
-  description: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
+  title: 规划从 Skype for Business 升级到 Microsoft Teams
+  description: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以及以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -22,12 +22,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 8e77ac547d41e10c006c321555db8b850d648983
+  ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110366"
+  ms.lasthandoff: 02/09/2021
+  ms.locfileid: "50150868"
 highlightedContent:
   items:
   - title: 利用经过验证的升级框架
@@ -40,7 +40,7 @@ highlightedContent:
     itemType: video
     url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
 productDirectory:
-  title: 用于规划 Teams 成功升级的资源和其他资源
+  title: 用于规划 Teams 升级成功及之后的资源
   summary: 健康的技术环境、持续采用用户以及实现业务目标都从适当的规划开始。
   items:
   - title: Teams 之旅
@@ -99,7 +99,7 @@ productDirectory:
   - title: Ignite 会话：设计 Teams 的路径
     imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
     summary: 来自 Ignite 2020 的此会话可帮助你找到最适合 Skype for Business 实现和目标的方法。
-    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
   - title: Microsoft Teams 计划和定价
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
     summary: 查找适合你的业务的 Microsoft Teams。
@@ -115,7 +115,7 @@ additionalContent:
       summary: 为 Skype for Business Online 服务的 2021 年 7 月 31 日停用做好准备，并了解如何计划成功过渡到 Teams。
       url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
     - title: 在 Teams 中绘制课程图表
-      summary: 下载这个有趣的有用信息图，该图可在整个 Teams 升级旅程中映射每个步骤。
+      summary: 下载这个有趣且有用的信息图，该图可在整个 Teams 升级旅程中映射每个步骤。
       url: https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf
     - title: 利用 FastTrack 获得部署帮助
       summary: 当 Teams 部署项目需要更多参与协助时，具有合格订阅的客户可以与 FastTrack 联系以寻求支持。
