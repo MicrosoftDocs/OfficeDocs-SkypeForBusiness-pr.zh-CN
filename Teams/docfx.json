@@ -50,10 +50,17 @@
       "bilingual_type": "hover over",
       "contributors_to_exclude": [
         "daswifty",
-        "MikePlumleyMSFT"
+        "MikePlumleyMSFT",
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
       ],
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
+      "feedback_system": "None",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness.zh-cn",
       "feedback_product_url": "https://microsoftteams.uservoice.com"
     },
     "fileMetadata": {
