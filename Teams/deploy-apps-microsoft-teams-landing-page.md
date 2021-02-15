@@ -7,7 +7,7 @@ author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 audience: admin
-ms.date: 01/28/2019
+ms.date: 02/10/2021
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -18,24 +18,39 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7ad1c83a09a17fb45adae149272177c8d42d17e
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: d1a6462d0cb1581142eb2f5076e6b2ebad2b9003
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177332"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196516"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
 
-应用使你能通过收藏夹服务查找内容，并就在 Teams 中分享内容。 应用可帮助你执行某些操作，例如将服务固定在频道的顶部、与聊天机器人聊天，或者共享和分配任务。 若要了解详细信息，请阅读 [Teams 中的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
+应用使你能通过收藏夹服务查找内容，并在 Teams 中分享。 应用可帮助你执行某些操作，例如将服务固定在频道的顶部、与聊天机器人聊天，或者共享和分配任务。 若要了解详细信息，请阅读 [Teams 中的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。 
 
-我们建议你在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用的过程中添加其他应用、聊天机器人和连接器。
+可以通过使用 Microsoft Teams 提供的应用、使用经过认证的第三方应用和模板，以及创建自己的自定义应用将应用添加到 Teams 部署中。
 
-此外，还提供用于创建自定义应用程序的选项。 有关详细信息，请参阅“[开发人员文档](/microsoftteams/platform/overview)”。
+## <a name="use-microsoft-provided-apps"></a>使用 Microsoft 提供的应用
+
+Teams自带一组内置应用，包括列表、任务、表扬、审批等。 我们建议在最初的Teams推出中加入Teams特色应用 - 例如Planner。 在推动 Teams 采用的过程中添加其他应用、聊天机器人和连接器。
+
+## <a name="use-third-party-apps"></a>使用第三方应用
+
+除了 Microsoft 提供的应用，可使用 Microsoft 认证第三方应用。 Microsoft 与 Microsoft 365 开发者合作伙伴合作，提供所需的信息，以加快做出有关使用 Teams 应用和插件的决定。有关更多信息，请参见[ Microsoft Teams 应用安全性和合规性。](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps)。
+
+## <a name="use-teams-templates"></a>Teams 模板
+
+你也可以使用 [Teams模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)，Microsoft Teams 生产就绪的应用是由社区驱动，开源，且在GitHub上可用的。
+
+## <a name="create-custom-apps"></a>创建自定义应用
+
+可以通过使用 Teams 与[Microsoft Power Platform](teams-power-platfom-integration.md)的集成，快速构建自定义的低代码解决方案。 也可以根据自己的业务需求，创建自己的定制应用。 有关更多信息，请参阅 [为 Microsoft Teams 构建应用](https://docs.microsoft.com/microsoftteams/platform/overview)。  
+
 
 ## <a name="apps-deployment-decisions"></a>应用部署决策
 
-Teams 为组织提供了现成的出色协作体验，并且大多数组织发现默认设置适合它们。 本文可帮助你决定是否要根据组织的情况和业务需求更改任何默认设置，然后引导你完成每项更改。 我们将这些设置分为两组：首先是[你更有可能更改的一组核心设置](#core-deployment-decisions)。 第二组包括你可能希望根据组织的需求配置的[其他设置](#additional-deployment-decisions)。
+Teams 为组织提供了现成的出色协作体验，并且大多数组织发现默认设置适合它们。本文可帮助你决定是否要根据组织的情况和业务需求更改任何默认设置，然后引导你完成每项更改。我们将这些设置分为两组：首先是[你更有可能更改的一组核心设置](#core-deployment-decisions)。第二组包括你可能希望根据组织的需求配置的[其他设置](#additional-deployment-decisions)。
 
 ## <a name="core-deployment-decisions"></a>核心部署决策
 
@@ -43,7 +58,7 @@ Teams 为组织提供了现成的出色协作体验，并且大多数组织发�
 
 ### <a name="app-availability-settings"></a>应用可用性设置 
 
-Teams 提供了一些由 Microsoft 和第三方发布的应用来吸引客户、支持高效工作，而且 Teams 中还集成了常用的业务服务。 从 Teams 应用商店获取应用。 默认情况下，所有应用（包括你通过 [Teams 应用商店审批流程](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)提交的自定义应用）均对所有用户开启。 例如，用户可以使用 Planner 应用在 Teams 中构建和管理团队任务。
+Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户、支持生产力，以及将常用的业务服务集成到 Teams 中。 从 Teams 应用商店获取应用。 默认情况下，所有应用（包括你通过 [Teams 应用商店审批流程](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)提交的自定义应用）均对所有用户开启。 例如，用户可以使用 Planner 应用在 Teams 中构建和管理团队任务。
 
 默认情况下，所有 Microsoft 提供的应用、第三方和自定义应用均可用，且你可启用或关闭单独的应用。 可通过一项全组织范围内的设置来为整个组织启用或关闭所有第三方和/或自定义应用。
 
@@ -111,9 +126,6 @@ Teams 提供了一些由 Microsoft 和第三方发布的应用来吸引客户、
 |||
 
 
-## <a name="next-steps"></a>后续步骤
-- [推动采用](adopt-microsoft-teams-landing-page.md)特别推荐的应用，例如 Planner。
-- [部署会议](deploy-meetings-microsoft-teams-landing-page.md)
-- [部署云语音](cloud-voice-landing-page.md)
+
 
 
