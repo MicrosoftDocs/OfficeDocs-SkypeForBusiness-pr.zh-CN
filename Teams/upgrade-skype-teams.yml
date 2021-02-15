@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: 规划从 Skype for Business 升级到 Microsoft Teams
-summary: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以及以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
+summary: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
 brand: teams
 metadata:
   title: 规划从 Skype for Business 升级到 Microsoft Teams
-  description: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以及以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
+  description: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -22,15 +22,15 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 8e77ac547d41e10c006c321555db8b850d648983
-  ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
+  ms.openlocfilehash: 74cc8ce21951f3ec6aaca032f92cd1280392e992
+  ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/09/2021
-  ms.locfileid: "50150868"
+  ms.lasthandoff: 02/12/2021
+  ms.locfileid: "50196196"
 highlightedContent:
   items:
-  - title: 利用经过验证的升级框架
+  - title: 利用经过验证的指南成功升级
     itemType: how-to-guide
     url: https://docs.microsoft.com/microsoftteams/upgrade-framework
   - title: 注册免费升级规划研讨会
@@ -40,54 +40,48 @@ highlightedContent:
     itemType: video
     url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
 productDirectory:
-  title: 用于规划 Teams 升级成功及之后的资源
+  title: 用于规划 Teams 升级成功及以后的资源
   summary: 健康的技术环境、持续采用用户以及实现业务目标都从适当的规划开始。
   items:
-  - title: Teams 之旅
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    links:
-    - url: https://docs.microsoft.com/microsoftteams/upgrade-enlist-stakeholders
-      text: 1. 登记项目干系人
-    - url: https://aka.ms/SkypetoTeams-Scope
-      text: 2. 定义项目范围
-    - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment
-      text: 3. 为升级准备环境
-    - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-organization
-      text: 4. 为组织准备升级
-    - url: https://docs.microsoft.com/microsoftteams/upgrade-to-teams
-      text: 5. 实现升级
-    - url: https://docs.microsoft.com/microsoftteams/continue-journey
-      text: 6. 操作、采用、优化
   - title: Teams 升级案例
     imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
     links:
     - url: https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams
-      text: 英国 DSM – Skype for Business Server 到 Teams
+      text: Dsm - Skype for Business Server 到 Teams
     - url: https://customers.microsoft.com/story/799203-ikea-retailers-teams
-      text: 功能区 - Skype for Business Server 到 Teams
+      text: SKYPE - Skype for Business Server 到 Teams
     - url: https://customers.microsoft.com/story/782385-williams-energy-teams
-      text: Williams – Skype for Business Server 到 Teams
+      text: Williams - Skype for Business Server 到 Teams
     - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
-      text: 支持 - Skype for Business Online 到 Teams
+      text: Skype - Skype for Business Online 到 Teams
     - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
-      text: 用户网络 - Teams 版 Skype for Business Online
+      text: 用户网络 - Skype for Business Online 到 Teams
     - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
-      text: Berkrk Healthcare - Skype for Business Online 到 Teams
-  - title: 在线研讨会，以从 Teams 获得最大帮助
+      text: Berkrk healthcare - Skype for Business Online 到 Teams
+  - title: Ignite 会话：设计 Teams 的路径
+    imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
+    summary: 来自 Ignite 2020 的此会话可帮助你找到最适合 Skype for Business 实现和目标的方法。
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
+  - title: 升级成功工具包
+    imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
+    summary: 下载用户准备情况材料，包括通信模板、用户调查以及示例项目和试点测试计划。
+    url: https://aka.ms/UpgradeSuccessKit
+  - title: Teams 管理员文档
+    imageSrc: https://docs.microsoft.com/office/media/icons/document-teams.svg
+    summary: 了解如何推出和管理 Teams，并为用户准备新的通信和协作体验。
+    url: https://docs.microsoft.com/MicrosoftTeams/
+  - title: 教师指导的 Teams 培训
+    imageSrc: https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg
+    summary: 免费、实时、在线的培训课程，旨在帮助你启动并运行 Teams。
+    url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
+  - title: 展开 Teams 方案
     imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
-    links:
-    - url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-      text: 那么... 你想要使用 Teams 进行通话
-    - url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-      text: 在 Teams 中负责音频/视频质量
-    - url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-      text: Teams 中的应用基础
-    - url: https://aka.ms/ChalkTalkKeyApps
-      text: 在 Teams 中将关键工作流与应用相加
-  - title: 学习路径：升级到 Microsoft Teams
-    imageSrc: media/upgrade-microsoft-teams.svg
-    summary: 了解如何从本地 Skype for Business Online 和 Skype for Business 升级到 Microsoft Teams。
-    url: https://docs.microsoft.com/learn/paths/m365-teams-upgrade/
+    summary: 我们的 Teams 会议在线研讨会旨在帮助 IT 专业人员从 Teams 获得最大帮助。
+    url: http://aka.ms/TeamsChalkTalks
+  - title: Skype for Business Online 停用
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+    summary: 准备在 2021 年 7 月 31 日停用 Skype for Business Online 服务，并了解如何计划成功过渡到 Teams。
+    url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
   - title: Microsoft Teams 博客
     imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
     summary: 直接从 Microsoft Teams 团队了解最佳做法、新闻和趋势。
@@ -96,36 +90,16 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
     summary: 深入了解 Forrester Research 报告，该报告量化了采用 Teams 后员工和公司绩效的改进情况。
     url: https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf
-  - title: Ignite 会话：设计 Teams 的路径
-    imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
-    summary: 来自 Ignite 2020 的此会话可帮助你找到最适合 Skype for Business 实现和目标的方法。
-    url: https://go.microsoft.com/fwlink/?linkid=2154668
-  - title: Microsoft Teams 计划和定价
-    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
-    summary: 查找适合你的业务的 Microsoft Teams。
-    url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options
-  - title: 升级成功工具包
-    imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
-    summary: 下载用户准备情况材料，包括通信模板、用户调查以及示例项目和试点测试计划。
-    url: https://aka.ms/UpgradeSuccessKit
 additionalContent:
   sections:
+  - title: 需要其他帮助？
   - items:
-    - title: Skype for Business Online 停用
-      summary: 为 Skype for Business Online 服务的 2021 年 7 月 31 日停用做好准备，并了解如何计划成功过渡到 Teams。
-      url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
-    - title: 在 Teams 中绘制课程图表
-      summary: 下载这个有趣且有用的信息图，该图可在整个 Teams 升级旅程中映射每个步骤。
-      url: https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf
-    - title: 利用 FastTrack 获得部署帮助
-      summary: 当 Teams 部署项目需要更多参与协助时，具有合格订阅的客户可以与 FastTrack 联系以寻求支持。
+    - title: 与 FastTrack 联系以寻求部署帮助
+      summary: 当 Teams 部署项目需要更多参与的协助时，具有合格订阅的客户可以与 FastTrack 一起寻求支持。
       url: https://www.microsoft.com/fasttrack
     - title: 查找 Microsoft 合作伙伴
-      summary: 需要其他指南？ Microsoft 解决方案提供商可以帮助你管理升级的技术和物流。
+      summary: 需要其他指导？ Microsoft 解决方案提供商可帮助你管理升级的技术和物流。
       url: https://www.microsoft.com/solution-providers/home
-    - title: Teams 管理员文档
-      summary: 了解如何推出和管理 Teams，并为用户准备新的通信和协作体验。
-      url: https://docs.microsoft.com/MicrosoftTeams/
-    - title: 教师指导的 Teams 培训
-      summary: 免费、实时、在线培训课程，旨在帮助你启动并运行 Teams。
-      url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
+    - title: Microsoft Teams 计划和定价
+      summary: 查找适合你的业务的 Microsoft Teams。
+      url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options

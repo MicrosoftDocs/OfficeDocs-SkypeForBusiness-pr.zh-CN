@@ -18,17 +18,17 @@ description: 了解 Microsoft Teams 中的公共预览版。尝试新增功能�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 6a8d677b4acd56e6de5681d40a1e1aa69008a1ad
-ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
+ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50043956"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196216"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 
 > [!NOTE]
-> 预览版中包含的功能可能并不完整，在公开发布之前可能会发生更改。这些功能仅用于评估和探索目的。
+> 预览版中包含的功能可能并不完整，在公开发布之前可能会发生更改。所提供的这些功能仅用于评估和探索目的。不支持Office 365 政府版社区云（GCC）。
 
 Microsoft Teams 的公共预览版可让用户抢先体验 Teams 中的未发布功能。预览版允许探索和测试即将推出的功能。我们也欢迎大家对公共预览版中的任何功能提出反馈意见。公共预览版是为每个 Teams 用户单独启用的，因此不必担心影响整个组织。
 

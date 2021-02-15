@@ -1,5 +1,5 @@
 ---
-title: 自动助理 & 呼叫队列历史报告
+title: 自动助理 &队列历史报告
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,184 +21,186 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 了解如何使用呼叫质量仪表板 Power BI 报表查看自动助理和呼叫队列历史记录数据。
-ms.openlocfilehash: c74e7fed254dda24ec404cbebfa0702498f46f21
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: 了解如何使用呼叫质量仪表板 Power BI 报表查看自动助理呼叫队列历史数据。
+ms.openlocfilehash: ee54941150a5ba4ade64d6a54cb066f50df2e0a8
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130403"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196236"
 ---
-# <a name="auto-attendant--call-queue-historical-report"></a>自动助理 & 呼叫队列历史报告
+# <a name="auto-attendant--call-queue-historical-report"></a>自动助理 &队列历史报告
 
-CQD 团队自动助理 & 呼叫队列历史报告 Power BI 模板提供以下三个报表：
+CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报告：
 
-- 自动助理-显示进入自动助理的通话的分析。
-- 呼叫队列–显示进入通话队列的通话的分析。
-- 代理日程表–显示呼叫队列呼叫中处于活动状态的代理的日程表视图。
+- 自动助理 - 显示对进入自动助理的呼叫的分析。
+- 呼叫队列 - 显示进入呼叫队列的呼叫的分析。
+- 代理时间线 - 显示呼叫队列呼叫中处于活动状态的代理的时间线视图。
 
-这些报表使用 " [呼叫质量" 仪表板](CQD-Power-BI-query-templates.md) 数据存储中的数据，并允许组织报告在呼叫队列中由自动助理和呼叫队列处理的呼叫数以及代理性能。
+这些报告使用来自呼叫质量仪表板[](CQD-Power-BI-query-templates.md)数据存储的数据，并允许组织报告由自动助理处理的呼叫数和呼叫队列，以及呼叫队列中的代理性能。
 
-## <a name="what-are-the-requirements"></a>有哪些要求？ 
+## <a name="what-are-the-requirements"></a>要求是什么？ 
 
-您需要安装 Power BI Desktop。 你可以从 [Microsoft Windows 应用商店](https://aka.ms/pbidesktopstore)安装它。
+需要安装 Power BI Desktop。 你可以从 [Microsoft Windows 应用商店安装它](https://aka.ms/pbidesktopstore)。
 
-你可以使用 Power BI Desktop 的免费版本。 最低兼容版本是 2.85.681.0 2020 年9月 () 。
+可以使用 Power BI Desktop 的免费版本。 最低兼容版本为 2020 年 9 月 2 (2.85.681.0) 。
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>访问 CQD 管道的权限
 
-用于查看 AA & CQ Analytics 历史记录报告的帐户需要具有访问 CQD 数据管道的权限。 有关详细信息，请参阅 [CQD access 角色](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) 。
+用于查看 AA & CQ Analytics 历史报告的帐户需要具有访问 CQD 数据管道的权限。 有关详细信息，请参阅 [CQD 访问](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) 角色。
 
 ## <a name="installation"></a>安装 
 
-以下步骤假设你已在计算机上安装了 Power BI Desktop，并且你的帐户具有访问 CQD 数据管道所需的权限。
+以下步骤假定你已在计算机上安装 Power BI Desktop，并且你的帐户具有访问 CQD 数据管道所需的权限。
 
 请执行以下步骤：
 
-- 下载 [CQD POWER BI 查询模板](https://www.microsoft.com/download/details.aspx?id=102291) ，并将 zip 文件保存到计算机上的目录中。
+- 下载 [CQD Power BI 查询模板](https://www.microsoft.com/download/details.aspx?id=102291) ，将 zip 文件保存到计算机的目录。
 
-- 双击 zip 文件将其打开。
+- 双击 zip 文件以打开它。
 
-- 双击 "CQ 和 AA 组合分析 20201105 pbit" 模板文件和 Power BI Desktop。
+- 双击"CQ 和 AA 组合 Analytics 20201105.pbit"模板文件，Power BI Desktop 应启动。
 
-- 系统将提示你选择 CQD 数据管道区域。 选择你的租户所在的地区。
+- 系统会提示选择 CQD 数据管道区域。 选择租户所在的区域。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="选择 CQD 数据管道区域的屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="选择 CQD 数据管道区域屏幕截图":::
 
- - 你可以使用 Skype for Business Online PowerShell cmdlet (CsTenant) 查看区域。ServiceInstance 输出。 
- 该区域将在此示例中按如下方式显示：
+ - 可以使用 Get-CsTenant (Skype for Business Online PowerShell cmdlet) 。ServiceInstance 输出。 
+ 区域将显示在此示例中的 /之后：
 
-   microsoftcommunicationsonline/noam-s7，地区为 noam。
+   microsoftcommunicationsonline/noam-4a-s7，其中区域为 noam。
  
- - 报表将启动并提供示例数据。
+ - 报告将随示例数据一起启动。
  
- - 若要查看自己的数据，请单击 "开始" 选项卡中 "Power BI Desktop 中的查询" 下的 " **刷新** "。
+ - 若要查看自己的数据，请单击 Power  BI Desktop 中的"查询"下的"开始"选项卡中的"刷新"。
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="选择 "刷新" 选项的屏幕截图":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="选择刷新选项的屏幕截图":::
 
-- 系统将提示您登录。 选择 " **组织帐户** "，然后选择 **"登录"**。
+- 然后，系统会提示你登录。 选择 **"组织帐户**"，然后选择 **"登录"。**
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="显示登录的屏幕截图":::
 
-- 选择 " **连接** " 并查看数据刷新。
+- 选择 **"连接** "并观看数据刷新。
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>数据延迟和 AA & CQ 分析
 
-数据将在30分钟内在 CQD 数据管道中可用。
+数据将在 30 分钟内在 CQD 数据管道中可用。
 
-你将必须刷新数据才能查看新的分析数据。 
+必须刷新数据，以查看新的分析数据。 
 
-## <a name="customization"></a>自定 
+## <a name="customization"></a>自定义 
 
-你可以自定义报表的某些可视化内容，例如添加或删除要显示在各种可视化效果中的字段，以及更改图表类型等。
+可以自定义报表的某些可视化方面，例如添加或删除要显示在各种可视化效果中的字段、更改图表类型等。
 
-不能添加报表中提供的其他数据字段，而不能添加其他数据字段。
+不能添加报告中提供的其他数据字段。
 
 ### <a name="change-color-schema"></a>更改颜色架构 
 
-以下步骤假设你已完成安装步骤。
+以下步骤假定你已完成安装步骤。
 
 请执行以下步骤：
-- 在功能区上选择 " **视图" 选项卡** 。
+- 选择 **功能区上的** "视图"选项卡。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="选择 "视图" 选项卡以更改配色方案的屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="屏幕截图：选择"视图"选项卡以更改配色方案":::
 
 - 从下拉列表中选择颜色架构。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="显示各种配色方案的屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="显示各种配色方案屏幕截图":::
 
-## <a name="cqd-fields-description"></a>CQD 域说明
+## <a name="cqd-fields-description"></a>CQD 字段说明
 
 |名称                                    |数据类型                |说明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|自动助理标识                 |型                   |附加到 AA 的资源帐户的名称<br>示例： aa_test@microsoft.com|
+|自动助理标识                 |string                   |附加到 AA 的资源帐户的名称<br>示例：aa_test@microsoft.com|
 |自动助理链开始时间         |datetime                 |AA 链开始时间                    |
-|自动助理目录搜索方法  |型                   |最后一个通讯簿搜索方法        |
-|自动助理转接操作          |型                   |呼叫转移目标类型<br>可能的值：<br>§未知-未指定实体类型<br>§用户-用户实体<br>§ orgaa-组织的自动助理实体<br>第 hunt_group-通话队列实体<br>§应用程序-语音应用程序实体<br>§ external_pstn-外部 PSTN 实体<br>§ shared_voicemail-共享语音邮件实体|
-|自动助理呼叫结果              |型                   |呼叫结果：<br>§未知<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|自动助理呼叫流                |型                   |封装自动助理呼叫的不同状态<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>第节公告|
-|是否涉及自动助理              |Boolean                  |指示是否涉及到通话中的 AA |
-|自动助理呼叫方操作计数      |int                      |由呼叫者使用的操作计数         |
-|自动助理链持续时间（秒）   |int                      |AA 中的通话持续时间                 |
-|呼叫队列呼叫结果                  |String                   |呼叫队列呼叫最终状态<br>可能的值：<br>第节错误<br>第节已拒绝<br>§ overflown<br>§失败<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|呼叫队列最终状态操作           |String                   |呼叫队列最终操作<br>可能的值：<br>§前进<br>§断开连接<br>第节语音邮件<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§其他|
-|通话队列标识                     |String                   |附加到 CQ 的资源帐户的名称<br>示例： aa_test@microsoft.com|
-|通话队列为会议模式           |Boolean                  |如果在 CQ 上启用了会议模式，则设置为1 |
-|呼叫队列目标类型                  |String                   |预期呼叫重定向目标类型     |
-|从通话队列标识转移    |Boolean                  |附加到 CQ 的资源帐户的名称，此呼叫被转移到此呼叫<br>示例： aa_test@microsoft.com|
-|通话队列代理选择次数           |int                      |通话时此队列可用的代理计数 |
-|呼叫队列代理计数                  |int                      |通话时分配给此队列的代理的计数 |
-|涉及通话队列                  |Boolean                  |如果呼叫队列涉及到此呼叫等于1 |
+|自动助理目录搜索方法  |string                   |最后一个通讯簿搜索方法        |
+|自动助理传输操作          |string                   |呼叫转接目标类型<br>可能的值：<br>§ unknown - 未指定实体类型<br>§ user - 用户实体<br>§ orgaa - 自动助理实体<br>§ hunt_group - 调用队列实体<br>§ 应用程序 - 语音应用程序实体<br>§ external_pstn - 外部 PSTN 实体<br>§ shared_voicemail - 共享语音邮件实体|
+|自动助理呼叫结果              |string                   |调用结果：<br>§ 未知<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|自动助理呼叫流                |string                   |封装调用的不同自动助理状态<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 公告|
+|是否自动助理涉及              |Boolean                  |指示 AA 是否参与呼叫 |
+|自动助理调用方操作计数      |int                      |调用方已使用操作计数         |
+|自动助理链持续时间秒数   |int                      |AA 中的通话持续时间                 |
+|呼叫队列呼叫结果                  |String                   |呼叫队列呼叫最终状态<br>可能的值：<br>§ 错误<br>§ 已拒绝<br>§ overflown<br>§ 失败<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
+|调用队列最终状态操作           |String                   |调用队列最终操作<br>可能的值：<br>§ forward<br>§ disconnect<br>§ 语音邮件<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
+|调用队列标识                     |String                   |附加到 CQ 的资源帐户的名称<br>示例：aa_test@microsoft.com|
+|呼叫队列是会议模式           |Boolean                  |如果在 CQ 上启用了会议模式，设置为 1 |
+|呼叫队列目标类型                  |String                   |预期的调用重定向目标类型     |
+|从呼叫队列标识传输    |Boolean                  |附加到从中传输此调用的 CQ 的资源帐户的名称<br>示例：aa_test@microsoft.com|
+|呼叫队列代理选择加入计数           |int                      |调用时此队列可用的代理计数 |
+|呼叫队列代理计数                  |int                      |在调用时分配给此队列的代理计数 |
+|是否涉及调用队列                  |Boolean                  |如果此调用涉及调用队列，则等于 1 |
 
 
 ### <a name="power-bi-data-model-dimensions"></a>Power BI 数据模型维度
 
 |名称                                    |数据类型                |说明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA 名称                                   |型                   |自动助理 ID (资源帐户 ID)  |
-|AACallFlow                              |型                   |封装自动助理呼叫的不同状态<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>第节公告 |
-|AACallResult                            |型                   |自动助理呼叫的结果：<br>§未知<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – AA 配置的错误<br>§ service_terminated-内部 AA 错误<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
-|AAChainDuration                         |型                   |自动助理通话的持续时间（秒）  |
-|AACount                                 |型                   |自动助理的编号涉及呼叫         |
-|AADirectorySearchMethod                 |型                   |通话中使用的搜索方法：<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
-|AAStartTime                             |型                   |UTC 格式的通话时间      |
-|AATransferAction                        |型                   |呼叫接收器：<br>§未知-未指定实体类型<br>§用户-用户实体<br>第 AA-组织自动助理实体<br>§ CQ-通话队列实体<br>§应用程序-语音应用程序实体<br>§ external_pstn-外部 PSTN 实体<br>§ shared_voicemail-共享语音邮件实体      |
-|PSTNMinutes                             |int                      |总分钟使用率                          |
-|呼叫队列呼叫结果                  |型                   |呼叫队列呼叫最终状态<br>可能的值：<br>第节错误<br>第节已拒绝<br>§ overflown<br>§失败<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
-|通话队列标识                     |型                   |附加到 CQ 的资源帐户的名称     |
-|呼叫队列目标类型                  |型                   |预期呼叫重定向目标类型：<br>§用户<br>第节应用程序终结点<br>§其他     |
-|呼叫队列呼叫结果                  |型                   |呼叫队列呼叫最终状态<br>可能的值：<br>第节错误<br>第节已拒绝<br>§ overflown<br>§失败<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
-|呼叫队列最终状态操作           |型                   |呼叫队列最终操作<br>可能的值：<br>§前进<br>§断开连接<br>第节语音邮件<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§其他             |
-|代理名称                              |型                   |用户 UPN               |
+|AA 名称                                   |string                   |自动助理 ID (资源帐户 ID)  |
+|AACallFlow                              |string                   |封装调用的不同自动助理状态<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 公告 |
+|AACallResult                            |string                   |调用自动助理结果：<br>§ 未知<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – AA 配置错误<br>§ service_terminated – 内部 AA 错误<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
+|AAChainDuration                         |string                   |调用自动助理秒  |
+|AACount                                 |string                   |涉及自动助理的个数         |
+|AADirectorySearchMethod                 |string                   |调用中使用的搜索方法：<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
+|AAStartTime                             |string                   |呼叫时间 （UTC）      |
+|AATransferAction                        |string                   |呼叫接收者：<br>§ unknown - 未指定实体类型<br>§ user - 用户实体<br>§ AA - 组织自动助理实体<br>§ CQ - 调用队列实体<br>§ 应用程序 - 语音应用程序实体<br>§ external_pstn - 外部 PSTN 实体<br>§ shared_voicemail - 共享语音邮件实体      |
+|PSTNMinutes                             |int                      |总分钟使用量                          |
+|呼叫队列呼叫结果                  |string                   |呼叫队列呼叫最终状态<br>可能的值：<br>§ 错误<br>§ 已拒绝<br>§ overflown<br>§ 失败<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
+|调用队列标识                     |string                   |附加到 CQ 的资源帐户的名称     |
+|呼叫队列目标类型                  |string                   |预期的调用重定向目标类型：<br>§ 用户<br>§ 应用程序终结点<br>§ 其他     |
+|呼叫队列呼叫结果                  |string                   |呼叫队列呼叫最终状态<br>可能的值：<br>§ 错误<br>§ 已拒绝<br>§ overflown<br>§ 失败<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
+|调用队列最终状态操作           |string                   |调用队列最终操作<br>可能的值：<br>§ forward<br>§ disconnect<br>§ 语音邮件<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other             |
+|代理名称                              |string                   |用户 UPN               |
 
 
 ### <a name="measures"></a>衡量指标
 
 |名称                                      |类型                       |说明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AACallerActionCount                     |int                        |通话期间在 AA 中由用户选择的操作数  |
-|PSTNMinutes                             |int                      |总分钟使用率                                  |
+|AACallerActionCount                     |int                        |呼叫期间 AA 中用户选择的操作数  |
+|PSTNMinutes                             |int                      |总分钟使用量                                  |
 |TotalCallCount                          |int                      |呼叫数                                          |
-|平均通话持续时间 ( 秒)          |int                      |通话队列呼叫的总持续时间（秒）     |
+|平均呼叫持续时间 (秒)          |int                      |呼叫队列调用的总持续时间（以秒数表示）     |
 
 
-### <a name="power-bi-graph-description-auto-attendant"></a>Power BI graph 说明自动助理
-
-|名称                                      |描述                            |
-|:---------------------------------------|:--------------------------------------|
-|来电来源                    |由内部/外部呼叫源进行呼叫的分发      |
-|目录搜索方法总计          |按搜索类型分配呼叫                         |
-|呼叫方操作                           |通过呼叫接收器分配呼叫                       |
-|呼叫结果                             |通过最终呼叫状态进行呼叫的分发                    |
-|调用方操作计数                     |通话期间使用的电话号码分配  |
-
-
-### <a name="call-queue"></a>通话队列
+### <a name="power-bi-graph-description-auto-attendant"></a>Power BI 图形说明自动助理
 
 |名称                                      |描述                            |
 |:---------------------------------------|:--------------------------------------|
-|来电来源                    |由内部/外部呼叫源进行呼叫的分发         |
-|呼叫量                             |通过呼叫队列分配呼叫                            |
-|呼叫者结果                           |通过呼叫结果分配呼叫                            |
-|超时/溢出调用总操作      |未转发的分发 (通过调用结果放弃) 调用   |
-|转移/转发目标总额          |通过呼叫结果转发的通话的分配                  |
-|已放弃的通话比率                   |成功放弃的通话计数的比率                    |
-|平均会话长度 (秒)         |按放弃/成功通话分组的呼叫长度（以秒为单位）   |
+|传入呼叫源                    |按内部/外部调用源<sup>1</sup>的呼叫分布|
+|目录搜索方法总计          |按搜索类型分布呼叫                         |
+|调用方操作                           |呼叫接收者呼叫的分布                       |
+|呼叫结果                             |按最终调用状态分布呼叫                    |
+|调用方操作计数                     |呼叫期间按号码操作使用的呼叫分布  |
+
+
+### <a name="call-queue"></a>呼叫队列
+
+|名称                                      |描述                            |
+|:---------------------------------------|:--------------------------------------|
+|传入呼叫源                    |按内部/外部调用源<sup>1</sup>的呼叫分布   |
+|呼叫量                             |按呼叫队列分布呼叫                            |
+|调用方结果                           |按呼叫结果分布呼叫                            |
+|超时/溢出调用总数操作      |按呼叫结果 () 的未转发呼叫的分布   |
+|转移/转发目标总计          |呼叫结果转发的呼叫分布                  |
+|放弃的通话比率                   |成功与放弃调用计数的比率                    |
+|平均会话长度 (秒)         |按放弃/成功的调用分组的通话时长（以秒数表示）   |
 
 
 
-### <a name="agent-timeline"></a>代理日程表
+### <a name="agent-timeline"></a>代理时间线
 
 |名称                                                      |描述                            |
 |:-------------------------------------------------------|:--------------------------------------|
-|按代理拨打的通话次数                                        |通过呼叫队列和代理分配呼叫                 |
-|代理和呼叫队列) 的通话总持续时间 (秒   |按代理和通话队列拨打的通话总持续时间 (秒)      |
-|按代理名称) 的平均通话持续时间 (秒            |代理拨打的平均持续时间 (秒)                   |
+|代理调用的个次                                        |按呼叫队列和代理分布呼叫                 |
+|代理和 (队列) 总呼叫持续时间) 秒   |代理 (呼叫) 呼叫的总持续时间（秒）     |
+|按代理名称 (平均) 秒数            |代理 (呼叫) 的平均持续时间（秒）                  |
 
 
 
 ## <a name="known-issues"></a>已知问题
 
-- 目前，呼叫队列和自动助理显示资源帐户的 ID，而不是呼叫队列/自动助理名称。  若要显示自动助理或呼叫队列的所有流量，必须选择分配给自动助理或呼叫队列的所有资源帐户。
+- 呼叫队列和自动助理按资源帐户的 ID 而不是呼叫队列/自动助理名称显示。  若要显示自动助理或呼叫队列的所有流量，必须选择分配给自动助理或呼叫队列的所有资源帐户。
 
-- 当前，仪表板中仅有28天的历史记录，因为通话队列/自动助理数据被视为最终用户身份信息，并且受数据隐私保留策略制约。
+- 仪表板中仅提供 28 天的历史记录，因为呼叫队列/自动助理数据被视为最终用户可识别信息，并受数据隐私保留策略的约束。
+
+- <sup>自动助理</sup>**和** 呼叫队列图中的 1 个传入呼叫源显示最终呼叫段源，而不是初始呼叫段源。 例如，如果自动助理收到外部呼叫，并且将呼叫转接到另一个自动助理或呼叫队列，则传入呼叫源将报告为"内部"。

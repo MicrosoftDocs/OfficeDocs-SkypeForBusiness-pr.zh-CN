@@ -333,6 +333,8 @@ items:
                 href: troubleshoot-guest-access.md
       - name: Teams 中的 Cortana
         href: cortana-in-teams.md
+      - name: 设置团队目标层次结构
+        href: set-up-your-team-hierarchy.md
   - name: 会话和电话会议
     items:
       - name: 快速入门 - 会议和实时事件
@@ -1027,50 +1029,54 @@ items:
     items:
       - name: 概述
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: 与 Power Platform 集成
-        href: teams-power-platfom-integration.md
-      - name: 管理适用于 Teams 的应用
-        href: manage-apps.md
-      - name: Teams 中应用程序的管理设置
-        href: admin-settings.md
-      - name: 使用内置和自定义选项卡
-        href: built-in-custom-tabs.md
-      - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
-        href: Office-365-custom-connectors.md
-      - name: 特定于资源的许可
-        href: resource-specific-consent.md
-      - name: 自定义应用
+      - name: Microsoft 提供的应用
         items:
+          - name: 管理列表应用
+            href: manage-lists-app.md
+          - name: 管理任务应用
+            href: manage-tasks-app.md
+          - name: 管理表扬应用
+            href: manage-praise-app.md
+          - name: 管理 Teams 审批应用
+            href: approval-admin.md
+          - name: 在 Teams 中为组织管理排班应用
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: 第三方应用
+        items:
+          - name: 应用认证
+            href: 'https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview'
+          - name: 购买适用于 Teams 的第三方应用
+            href: purchase-third-party-apps.md
+      - name: 适用于 Teams 的应用模板
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: 如何构建和自定义自己的应用
+        items:
+          - name: 与 Power Platform 集成
+            href: teams-power-platfom-integration.md
+          - name: 在 Microsoft Teams 管理中心内管理 Power Platform 应用
+            href: manage-power-platform-apps.md
           - name: 发布通过 Teams 应用提交 API 所提交的自定义应用
             href: submit-approve-custom-apps.md
-          - name: 在 Microsoft Teams 管理中心中管理 Power 平台应用
-            href: manage-power-platform-apps.md
           - name: 通过上载应用包来发布自定义应用
             href: upload-custom-apps.md
           - name: 自定义应用存储
             href: customize-your-app-store.md
-      - name: 应用认证
-        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: 查看应用权限并授予 Microsoft Teams 管理中心的管理员许可
-        href: app-permissions-admin-center.md
-      - name: 应用权限和注意事项
-        href: app-permissions.md
-      - name: Teams 第三方应用购买服务
-        href: purchase-third-party-apps.md
-      - name: 适用于 Teams 的应用模板
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: 在 Teams 中管理组织的列表应用
-        href: manage-lists-app.md
-      - name: 为组织管理任务应用
-        href: manage-tasks-app.md
-      - name: 设置团队目标层次结构
-        href: set-up-your-team-hierarchy.md
-      - name: 在 Teams 管理中心里管理表扬应用
-        href: manage-praise-app.md
-      - name: 将 Skype 会议应用配置为与 Teams 配合使用
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: Teams 审批应用程序可用性
-        href: approval-admin.md
+      - name: 管理适用于 Teams 的应用
+        items:
+          - name: 概述
+            href: manage-apps.md
+          - name: 查看应用权限并授予 Microsoft Teams 管理中心的管理员许可
+            href: app-permissions-admin-center.md
+          - name: 资源特定许可
+            href: resource-specific-consent.md
+          - name: 应用权限和注意事项
+            href: app-permissions.md
+          - name: Teams 中应用程序的管理设置
+            href: admin-settings.md
+          - name: 使用内置和自定义选项卡
+            href: built-in-custom-tabs.md
+          - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
+            href: Office-365-custom-connectors.md
   - name: 采用
     items:
       - name: 概述

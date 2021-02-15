@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df06c03ab37a98c5ea4404d8dbd12703b07ad3ee
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611806"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196466"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 
@@ -60,6 +60,8 @@ Microsoft Teams 探索性体验让组织中拥有 Azure 域服务（Azure AD）�
 
 - 具有托管 Azure AD 域电子邮件地址。
 - 属于付费订阅的租户。
+- 没有有效的 Teams 许可证。
+- 不在创建许可证分配策略的租户中。
 
 必须启用用户注册应用程序和试用版（在 Microsoft 365 管理中心）。有关更多信息，请参见稍后在本文出现的[管理团队探索性体验](#manage-the-teams-exploratory-experience)。
 
@@ -169,17 +171,13 @@ Teams Exploratory 体验自带 Exchange Online 许可证，但在管理员分配
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams 探索体验持续多长时间
 
-Microsoft Teams 探索体验免费提供 12 个月（从初始用户注册开始），另外还有 30 天的宽限期。 届时，Microsoft Exploratory 体验许可证的最终用户需要迁移到包含 Teams 的付费许可证。 相同的结束日期将适用于同一租户上的所有用户，12 个月期限从首个用户的注册日期开始。
+自 2021 年初起，Teams Exploratory 作为12个月的订阅（从初始用户注册开始），面向所有新客户。 当组织中第一个用户注册 Teams Exploratory 时，新的 Teams Exploratory 订阅将启动，并且将在 12 个月后过期。 12个月的期限从第一个用户的注册日开始，这有效期将适用于同一租户中的所有用户。
 
-### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>如果最终用户刚好在我的周年纪念或续订日期前启动 Microsoft Teams 探索体验，会发生什么情况
+> [!NOTE]
+> 体验的结束日期是在组织层面进行配置的，这意味着它将适用于同一组织的所有用户。 例如，用户 1 于 2021 年 1 月 1 日注册订阅。 这将在 2021 年 12 月 31 日启动订阅结束日期。 另一个用户 User 2 于 2021 年 10 月 1 日注册订阅。 用户 2 可使用 Teams Exploratory 两个月，因为用户 1 和 用户 2 都属于同一个组织都订阅，所以他们的订阅都将于2021年12月31日结束。
 
-在 **协议周年日** 或 **续订** 后的 90 天内启动的 Microsoft Teams 探索体验许可证无需迁移到付费许可证，直到下一个周年日或续订周期。
+### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>在 12 个月的 Teams Exploratory 体验结束后，管理员应该怎么做
 
-### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>如果我的协议没有周年日或每年的续约日期（例如逐月协议），该怎么办
+在 12 个月的订阅结束时，管理员应将其所有 Teams Exploratory 用户转换为包括 Teams 的付费许可证。 确保在Teams Exploratory订阅到期前完成这项工作至关重要，以避免对用户的体验造成任何干扰。
 
-对于无周年日或年度续订日期的协议，第一位最终用户后面的年份激活 Microsoft 团队探索体验许可证将被视为周年日或续订日期。 根据本文中所述的策略，必须在每年的此日期之前将拥有 Microsoft Teams 探索许可证的用户转换为付费许可证。
-
-例如，如果第一位最终用户在 2020 年 6 月 19 日激活了 Microsoft Teams 探索，则他们和客户租户中的所有其他符合条件的用户必须在 2021 年 6月 19 日之前转换为 Teams 付费许可证。
-
-> [!Note]
-> 在上一个探索体验许可证到期后的 3 个月内客户将被禁用并阻止开始新的探索试用许可证。
+有关详细信息，请参阅上文中的 [Teams Exploratory中升级用户](#upgrade-users-from-the-teams-exploratory-license))。
