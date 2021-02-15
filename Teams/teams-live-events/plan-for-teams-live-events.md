@@ -20,12 +20,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: af2915d1e86fbfe1c3dc2bd804511a8e7ca6865a
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757757"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145909"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -40,10 +40,11 @@ ms.locfileid: "49757757"
 
 若要安排 Teams 实时事件，用户必须满足以下前提条件。
 
-以下是制作或呈现 Teams 现场活动必须分配的许可证：  
+以下是组织、制作或呈现 Teams 现场活动所必须分配的许可证：  
 
-- Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，或 Office 365 教育版 A3 或 A5 许可证。此要求的例外情况是：如果满足 [来宾用户](plan-for-teams-live-events.md#guest-to-present) 的其他条件，来宾用户无需许可证即可出席。
-- Microsoft Teams 许可证 - 包含在第一个项目符号列出的许可证中。
+- **组织：** Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，**[或]** Microsoft 或 Office 365 教育版 A3 或 A5 许可证。 
+- **制作或呈现：** Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，**[或]** Microsoft 或 Office 365 教育版 A1、A3 或 A5 许可证。 此要求的例外情况是：如果满足针对[来宾用户](plan-for-teams-live-events.md#guest-to-present)的其他条件，来宾用户无需许可证即可进行呈现。
+- Microsoft Teams 许可证 - 包含在第一个和第二个项目符号中列出的许可证中。
 - 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](https://docs.microsoft.com/stream/license-overview)。
 
   如果你希望用户仅进行录制和下载录制的内容，那么这些用户无需拥有 Microsoft Stream 许可证。这意味着录制的内容不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务 (AMS) 中，且存储 180 天后被删除。目前，管理员无法控制或管理此设置来包含删除这些内容的功能。

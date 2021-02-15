@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067127"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145899"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -102,6 +102,9 @@ ms.locfileid: "50067127"
 
 :::image type="content" source="media/insights-pin-app.png" alt-text="固定见解应用":::
 
+> [!TIP]
+> 还可通过此链接查找 Insights 应用：[https://aka.ms/addInsights](https://aka.ms/addInsights)
+
 ## <a name="when-is-insights-used"></a>何时使用见解？ 
 见解在整个 **学习周期** 中为学习社区提供支持。 借助跨多个维度的实时指标，见解支持学校社区成员之间不断地增进了解、反思、讨论和采取行动。
 *   **了解** 学生与教师、课程材料及其同伴进行互动的方式和时间，以及他们如何完成作业。 
@@ -177,10 +180,9 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 若要了解详细信息，请阅读 [**将学生信息系统 (SIS) 数据与教育版见解同步**](education-insights-sis-data-sync.md)。
 
 ## <a name="manage-permissions"></a>管理权限
-你需要为教育领导者、地区领导、学校校长、班主任、辅导员、学区主管、项目主管、社会工作者和心理学家提供权限。 如果教师拥有课堂团队，则会自动获得权限。
+你需要为教育领导者、地区领导、学校校长、班主任、辅导员、学区主管、项目主管、社会工作者和心理学家提供权限。 如果教师拥有课堂团队，则会 *自动* 获得权限。
 
-> [!NOTE]
-> 仅向需要权限的教育领导者和他们负责的团队提供权限。 如果你不确定是否需要特定组织的用户权限，请咨询机构的隐私主题专家，例如法律或人事部门人员。
+若要了解更多信息，请阅读 [**管理用户对教育版 Insights 的访问权限**](education-insights-manage-access.md)。
 
 ## <a name="manage-the-setup-policy"></a>管理设置策略
 作为 IT 管理员，你可以使用应用设置策略在教师和领导者启动 Teams 时默认为其安装见解。 使用该设置策略，你可以自定义 Teams 以突出显示见解，并将其固定在应用栏中。

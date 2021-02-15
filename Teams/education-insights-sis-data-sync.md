@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067117"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145819"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>将学生信息系统 (SIS) 数据与教育版见解同步
 向[教育版见解](class-insights.md)提供的数据越多，教师就越能更好地为学生提供支持，并且教育领导者也可以为教师提供更好的支持。
@@ -56,10 +56,10 @@ SIS 数据提供教育系统的层次结构，并映射在何处分配了哪个�
 > 在部署过程中，你可以决定是要使用 SDS 在 Teams 中预配用户和班级，还是仅使用 SDS 来向见解提供数据。
 
 ## <a name="best-practices"></a>最佳做法
-通过层次结构以及每个人在该层次结构中的位置的准确映射，见解可以为不同类型的教育领导者提供准确数据以及更为精确且相关的见解。
+借助层次结构以及每个人在该层次结构中的位置的准确映射，Insights 可以为不同类型的教育领导者提供准确数据以及更为精确且相关的见解。
 
 你在此处提供的详细信息越多，报告和聚光灯就越有用且越相关。
-下面是一些最佳做法，可确保 SDS 的顺利部署，以便你的用户能够充分利用见解。
+下面提供了一些最佳做法来确保 SDS 的顺利部署，以便你的用户能够充分利用 Insights。
 
 ### <a name="users"></a>用户
 *   请确保 *所有用户* 都列出在你提供的文件中并且已同步。 这包括需要查看其所在组织单位的数据的所有学生和教职员工。

@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理组织的任务应用
+title: 在 Microsoft Teams 中为组织管理 Tasks 应用
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 audience: admin
-description: 了解如何管理组织中用户的任务应用。
+description: 了解如何在组织中管理 Tasks 应用。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -21,107 +21,107 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
 ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49909396"
 ---
-# <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理"任务"应用
+# <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
-## <a name="overview-of-tasks"></a>任务概述
+## <a name="overview-of-tasks"></a>Tasks 概述
 
-"任务"应用为 Microsoft Teams 带来了一致的任务管理体验，将 [Microsoft](https://todo.microsoft.com/tasks/) 微软支持的任务与 Planner 支持的团队任务集成在一处。 用户可以以 Teams 左侧的应用和各个团队中频道中的选项卡访问任务。 **"任务"** 中 **的任务和共享** 计划允许用户查看和管理其所有个人和团队任务，并设置其工作的优先级。 任务在 Teams 桌面、Web 和移动客户端中可用。 
+Tasks 应用为 Microsoft Teams 带来紧密的任务管理体验，通过[微软待办](https://todo.microsoft.com/tasks/)整合个人任务，通过 Planner 整合团队任务。 用户可以在 Teams 左侧访问 Tasks 应用，或在单个团队中的频道访问 Tasks 选项卡。 Tasks 中的 **我的任务** 和 **共享计划** 让用户查看和管理所有个人和团队的任务，并确定工作的优先顺序。 Tasks 在 Teams 桌面、web 以及移动客户端均可用。 
 
 > [!NOTE]
-> 在 Teams 桌面客户端上推出"任务"体验时，应用名称最初会作为 **Planner** 向用户显示。 然后，该名称将暂时更改为 **Planner 和"要** 执行的任务"，稍后将重命名为 **"任务"。** 在 Teams 移动客户端上，用户始终会看到应用名称为 **"任务"。** 在提供桌面体验后，移动体验的可用性可能会短暂延迟。
+> 我们正在推出 Teams 桌面客户端上的 Tasks 体验，应用会首先显示为 **Planner**。 然后，此名称会暂时更改为 **Tasks by Planner 和微软代办**，之后会重命名为 **Tasks**。 在 Teams 移动客户端上，用户会始终看到应用名为 **Tasks**。 桌面体验可用后，移动体验的可用性可能会有短暂的延迟。
 
-   ![Teams 列表中任务的列表视图的屏幕截图](media/manage-tasks-app-tasks.png)
+   ![Teams 列表中任务列表视图截图](media/manage-tasks-app-tasks.png)
 
-对于想要简化一线员工的任务管理的组织，"任务"还包括一些功能，可让你跨一线员工大规模定位、发布和跟踪任务。 例如，公司和区域领导层可以创建和发布面向相关位置（例如特定零售店）的任务列表，并通过实时报告跟踪进度。 经理可以将任务分配给其员工并在其位置内直接进行活动，一线员工在移动或桌面上有分配任务的优先级列表。 若要 [启用任务](#task-publishing)发布，首先需要为组织设置面向团队的层次结构，该层次结构定义层次结构中所有团队的相互关联。
+对于想要简化对前线工作者任务管理的组织，Tasks 也有在前线工作人员中大规模确定目标、发布以及跟踪任务的功能。 比如，企业和地区领导可以创建并发布面向相关地区的任务列表，例如具体的零售店，并通过实时报告跟踪进度。 管理者可以分配任务给员工和地区内的直接活动，前线工作者会在手机和桌面上收到分配任务的优先级清单。 要启用[任务发布](#task-publishing)，你需要首先为组织设置团队目标层次结构，定义结构中的所有团队彼此间的关系。
 
-## <a name="what-you-need-to-know-about-tasks"></a>有关任务所需的信息
+## <a name="what-you-need-to-know-about-tasks"></a>你需要了解的 Tasks 的相关信息
 
-任务以应用和频道中的选项卡提供。 请记住，该应用包含"要执行"中的单个任务和 Planner 中的团队任务，而选项卡只显示团队任务。
+Tasks 同时作为应用和频道中的选项卡存在。 请记住，应用包含微软代办的个人任务和 Planner 的团队任务，而选项卡只显示团队任务。
 
-使用"任务"，用户可以获得桌面、Web 和移动体验。 如果任务安装在 Teams 桌面客户端上，用户还会在 Teams Web 和移动客户端上看到任务。 来宾用户除外。 必须知道，来宾只能从 Teams 移动客户端以应用访问任务。 来宾将在 Teams 桌面客户端和 Web 客户端上看到"任务"选项卡。
+用户可以获得桌面、web 以及移动端的 Tasks 体验。 如果 Tasks 安装在 Teams 桌面客户端中，用户也可以在 Teams 的 web 和移动客户端上找到它。 来宾用户是例外。 需要注意的是，使用 Teams 移动客户端的来宾只能访问 Tasks 应用。  来宾会在 Teams 桌面和 web 客户端中看到 Tasks 选项卡。
 
-**我的任务** 显示用户的单个任务。 **共享计划** 显示整个团队正在处理的任务，并包括作为"任务"选项卡添加到频道的任何任务列表。 请注意以下事项：
+**我的任务** 显示用户的个人任务。 **共享计划** 显示全队当前任务，且包含任何作为选项卡添加到频道的任务列表。 请注意以下事项：
 
-- 用户在"任务"应用中创建的任务列表也会显示在该用户的"要执行"客户端中。 同样，用户在"任务"中为该用户创建的任务列表将显示在"我的任务"中。 对于单个任务也是如此。
+- 用户在 Tasks 应用中创建的任务列表也会显示在该用户的微软代办客户端中。 同样地，用户在微软代办中创建的任务列表也会显示在用户在 Tasks 中的 **我的任务** 里。 个人任务也是这样。
 
-- 添加到频道的任何"任务"选项卡也会显示在 Planner 客户端中。 当用户在 Planner 中创建计划时，该计划不会显示在"任务"或"Planner"应用中，除非它作为选项卡添加到频道。 当用户添加新的"任务"选项卡时，他们可以创建一个新列表或计划或选择现有列表或计划。
+- 任何添加到频道的 Tasks 选项卡都会显示在 Planner 客户端中。 当用户在 Planner 中创建计划时，该计划不会在 Tasks 或 Planner 应用中显示，除非已作为选项卡添加到频道。 当用户添加新的 Tasks 选项卡时，可以选择创建新列表或计划，或使用现有的。
 
 ## <a name="set-up-tasks"></a>设置任务
 
 > [!IMPORTANT]
-> 为 Planner 配置的设置和策略也将应用于任务。
+> 配置到 Planner 的设置和策略也会应用到 Tasks。
 
-### <a name="enable-or-disable-tasks-in-your-organization"></a>在组织中启用或禁用任务
+### <a name="enable-or-disable-tasks-in-your-organization"></a>在你的组织中启用或禁用 Tasks
 
-默认情况下，为组织的所有 Teams 用户启用任务。 可以在 Microsoft Teams 管理中心的"管理应用"页面上关闭或[](manage-apps.md)打开组织级别的应用。
+Tasks 在你的组织中默认为所有 Teams 用户启用。 你可以在 Microsoft Teams 管理中心的[管理应用](manage-apps.md)页面在组织级别关闭或打开此应用。
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"Teams 应用**  >  **管理应用"。**
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 “**Teams 应用**” > “**管理应用**”。
 2. 在应用列表中，执行下列操作之一：
 
-    - 若要为您的组织关闭"任务"，请搜索"任务"应用，将其选中，然后单击"阻止 **"。**
-    - 若要为组织启用"任务"，请搜索"任务"应用，将其选中，然后单击"允许 **"。**
+    - 要为组织关闭 Tasks，请搜索 Tasks 应用，选中然后单击“**阻止**”。
+    - 要为组织开启 Tasks，请搜索 Tasks 应用，选中然后单击“**允许**”。
 
 > [!NOTE]
-> 如果找不到"任务"应用，请搜索本文第一个注释中的名称。 应用可能仍处于重命名过程中。
+> 如果你找不到 Tasks 应用，请在本文第一个备注中搜索名称。 此应用可能仍在经历重命名过程。
 
-### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>为组织中特定用户启用或禁用任务
+### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>在你的组织中为某个特定用户启用或禁用 Tasks
 
-若要允许或阻止组织中特定用户使用"任务"，请确保在"管理应用"页面上为组织启用"任务"，[](manage-apps.md)然后创建自定义应用权限策略并将其分配给这些用户。 若要了解有关详细信息，请参阅["在 Teams 中管理应用权限策略"。](teams-app-permission-policies.md)
+要在你的组织中允许或阻止特定用户使用 Tasks，请确保在[管理应用](manage-apps.md)页面中 Tasks 已为你的组织打开，然后创建自定义应用权限策略并将其分配给特定用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
 
-### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>使用应用设置策略将任务固定到 Teams
+### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>使用应用设置策略来固定 Tasks 到 Teams
 
-应用设置策略可让你自定义 Teams，突出显示对组织中用户最重要的应用。 在策略中设置的应用将固定到 Teams 桌面客户端一侧的应用栏，以及 Teams 移动客户端底部的应用栏，用户可以在这里快速 &mdash; &mdash; 轻松地访问它们。
+应用设置策略让你自定义 Teams 来突出显示组织中对用户最重要的应用。 你在策略中设置的应用会固定到应用栏，&mdash;Teams 桌面客户端的边栏以及 Teams 移动客户端的底栏&mdash;，用户可以快速方便地访问。
 
-若要为用户固定"任务"应用，可以编辑全局 (组织范围内的默认) 策略，或者创建和分配自定义应用设置策略。 若要了解有关详细信息，请参阅["在 Teams 中管理应用设置策略"。](teams-app-setup-policies.md)
+要为用户固定 Tasks 应用，请编辑全局（默认为组织范围内）策略或创建并分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
-### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>如果用户已获得 Exchange Online 许可，则用户"我的"任务可见
+### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>如果用户具有 Exchange Online 许可证，“我的任务”会对用户可见。
 
-如果不希望用户看到 **"我的任务**"，可以将其隐藏。 为此，请 [删除用户的 Exchange Online 许可证](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)。 必须知道，删除 Exchange Online 许可证后，用户不再有权访问其邮箱。  邮箱数据将保留 30 天，之后数据将被删除且无法恢复，除非将邮箱置于就地保留或诉讼 [保留状态](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)。
+如果你不想让某个用户看到“**我的任务**”，可以将其隐藏。 操作方法是，[删除用户的 Exchange Online 许可](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)。 需要记住的是，在删除 Exchange Online 许可后，用户不再能够访问他们的邮箱。  邮箱数据会保留 30 天，之后数据会被清除且无法恢复，除非邮箱处于[就地保留或诉讼保留](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)状态。
 
-我们不建议信息工作者这样做，但在某些情况下可能会适用，例如对于不依赖电子邮件的一线工作者。
+我们不建议对信息工作者执行此操作，但是也有一些应用场景，比如对于不依赖电子邮件的前线工作者。
 
-## <a name="task-publishing"></a>任务发布
+## <a name="task-publishing"></a>发布任务
 
-通过任务发布，组织可以发布面向特定位置的任务列表， (团队) 在整个组织中定义和共享在这些位置完成的工作计划。
+通过发布任务，你的组织可以发布在组织内针对特定地点（团队）的任务列表，来定义并共享需要在那些地点完成的工作计划。
 
-- 发布团队中的人员（例如公司或区域领导）可以创建任务列表，并发布到特定团队。<br>
-    ![任务发布屏幕截图](media/manage-tasks-app-publish.png)
-- 收件人团队的经理可以审阅已发布的任务列表，并将单个任务分配给团队成员。<br>
+- 在发布团队的人员，例如企业或地区领导，可以创建任务列表并发布给特定团队。<br>
+    ![发布任务的屏幕截图](media/manage-tasks-app-publish.png)
+- 收件团队的管理者可以检查发布的任务列表并分配个人任务给团队成员。<br>
     ![分配任务的屏幕截图](media/manage-tasks-app-assign.png)
-- 一线员工有一个简单的移动体验，可以查看分配给他们的任务。 他们可附加照片以在适当的时候显示他们的工作，并将其任务标记为已完成。
-- 发布者和经理可以查看报表，查看每个级别的任务的分配和完成状态，包括按位置 (团队) 、任务列表和单个任务。<br>
-    ![移动设备上已分配任务的屏幕截图](media/manage-tasks-app-reporting.png)
+- 前线工作者有查看已分配任务的简便移动体验。 他们可以在适当的时候附加照片来展示工作并标记任务为已完成。
+- 发布者和管理者可以查看报告来了解各个级别的任务分配和完成状态，包括以地点（团队）、任务列表以及个人任务查看。<br>
+    ![移动端已分配任务的屏幕截图](media/manage-tasks-app-reporting.png)
 
-用户在"任务"应用中的"已发布列表"选项卡上创建、管理和发布任务列表。 如果组织设置了面向层次结构的团队，并且该用户位于[](#set-up-your-team-targeting-hierarchy)层次结构中包含的团队中，则此选项卡仅针对用户显示。 层次结构确定用户是否可以发布或接收任务列表并查看已接收列表的报告。
+用户在 Tasks 应用中的 **已发布列表** 选项卡创建、管理以及发布任务列表。 此选项卡只在组织已经[设置团队目标层次结构](#set-up-your-team-targeting-hierarchy)并且用户所在团队在该结构中时显示。 此层次结构决定用户是否能够发布或接收任务列表并查看已接收列表的报告。
 
-### <a name="example-scenario"></a>示例方案
+### <a name="example-scenario"></a>应用场景示例
 
-下面是任务发布工作原理的示例。
+下面是发布任务的例子。
 
-Contoso 正在推出新的食品外卖和递送促销。 为了保持一致的品牌体验，他们需要在 300 多个商店位置协调一致的推出执行。
+Contoso 正在推出新的餐饮外卖和外送促销。  为了保持一致的品牌体验，他们需要在 300 多家门店之间协调统一的推出计划。
 
-营销团队与零售通信经理共享促销详细信息和相应的任务列表。 零售通信管理器（充当商店的守护程序）查看信息，创建促销任务列表，然后为每个受影响的商店需要执行的每单位工作创建一个任务。 任务列表完成后，她需要选择必须完成工作的商店。 在这种情况下，促销仅适用于美国具有商店内餐厅的商店。 在"任务"中，她基于商店内餐馆属性筛选商店列表，在层次结构中选择匹配的美国位置，然后将任务列表发布到这些商店。
+营销团队和零售通讯经理共享了促销的具体信息以及对应的任务列表。 作为门店的把关人，零售通讯经理检查信息，创建促销的任务列表，然后为每一家参与的门店创建需要完成的工作细节。 当任务列表完成后，经理需要选择必须完成工作的门店。 这种情况下，促销只对在美国有实体餐厅的门店生效。 在 Tasks 中，经理根据实体餐厅属性筛选了一份门店列表，在层次结构中选择地区匹配为美国，然后将任务列表发布到那些商店。
 
-每个位置的商店经理会收到已发布任务的副本，并将这些任务分配给团队成员。 经理可以使用"任务"体验了解整个存储中所需的全部工作。 他们还可使用可用的筛选器专注于一组特定工作，例如今天到期的工作或特定区域中的工作。
+每个地区的门店经理会收到一份已发布任务的副本，他们将任务再分配给他们的团队成员。 经理可以使用 Tasks 体验来理解店内所有需要完成的工作。 他们也可以使用可用的筛选器来聚焦某组具体工作，比如今天截止的或者某个方面的工作。
 
-现在，每个商店位置的一线员工在移动设备上的任务中都有一个优先级列表。 完成任务后，将其标记为完成。 一些用户甚至可能会选择将照片上载并附加到任务以显示他们的工作。
+每个门店地区的前线工作者现在可以在移动设备上查看 Tasks 中的工作优先级列表。 当他们完成一项任务时，可以标记任务为完成。 他们也可以选择上传并附加照片到任务来展示他们的工作。
 
-Contoso 总部和中级经理可以查看报告，以查看每个商店以及各个商店的任务分配和完成状态。 他们还可以向下钻取到特定任务，以查看不同存储中的状态。 随着发布日期的临近，他们可以发现任何异常，并根据需要与团队核实。 这种可见性可让 Contoso 提高推出效率，并跨应用商店提供更一致的体验。
+Contoso 总部和中级经理可以查看报告来了解每个门店和所有门店的任务分配及完成状态。 他们也可以查看某个特定任务在不同店内的完成情况。 随着发布日越来越近，他们可以发现任何异常问题并在需要的时候介入到团队中。 这种可见性让 Contoso 可以提升推出的效率并提供更加一致的管理体验。
 
 ### <a name="set-up-your-team-targeting-hierarchy"></a>设置团队目标层次结构
 
-若要在组织中启用任务发布，首先必须设置团队目标架构。CSV 文件。 架构定义层次结构中所有团队之间的关联方式，以及用于筛选和选择团队的属性。 创建架构后，将其上传到 Teams 以将其应用到组织。 然后，发布团队成员（例如示例方案中的零售通信经理）可以按层次结构、属性或两者的组合筛选团队，以选择应接收任务列表的相关团队，然后将任务列表发布到这些团队。
+要在组织中启用发布任务，你需要首先用 .CSV 文件设置团队的目标架构。 架构需要定义层次结构中的所有团队是如何相互关联的，以及确定用来筛选和选择团队的属性。 在创建架构之后，请上传到 Teams 以应用到你的组织。 发布团队的成员，比如例子中的零售通讯经理，可以通过层次结构、属性或两者的组合来筛选团队，选中应该接收任务列表的相关团队，将任务列表发布给他们。
 
-有关设置团队目标层次结构的步骤，请参阅"设置团队[目标层次结构"。](set-up-your-team-hierarchy.md)
+有关如何设置团队的目标层次结构，请参阅[设置团队目标层次结构](set-up-your-team-hierarchy.md)。
 
-## <a name="power-automate-and-graph-api"></a>Power Automate 和图形 API
+## <a name="power-automate-and-graph-api"></a>Power Automate 和 Graph API
 
-任务支持 Power Automate for Do 和 Graph API for Planner。 要了解详细信息，请参阅：
+微软代办中 Tasksk 支持 Power Automate，Planner 中 Tasks 支持 Graph API。 若要了解详细信息，请参阅：
 
 - [Planner 任务和计划 API 概述](https://docs.microsoft.com/graph/planner-concept-overview)
-- [将 Microsoft To Do 与 Power Automate 一起](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
+- [将微软待办与 Power Automate 结合使用](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
