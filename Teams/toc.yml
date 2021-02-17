@@ -1272,12 +1272,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
               - name: 消息委派
                 href: expand-teams-across-your-org/healthcare/hc-delegates.md
-          - name: Teams 模板
-            items:
-              - name: 使用 Teams 医疗保健模板
-                href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-              - name: 适用于医疗保健的 Teams 模板
-                href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+          - name: 使用 Teams 医疗保健模板
+            href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
           - name: 管理列表应用
             href: manage-lists-app.md
           - name: 管理任务应用
