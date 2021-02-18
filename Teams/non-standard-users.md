@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 683ba9a20c51a23fa1468c07407a389c23dba507
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: 66754565737929ec9d34125ca421c7e3eed9fe65
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237493"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278542"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>非标准用户的 Microsoft Teams 应用行为
 
@@ -49,7 +49,7 @@ ms.locfileid: "50237493"
 
 机器人可以主动向来宾用户发送消息，但来宾无法与机器人交互。 来宾无法 1：1 向机器人发送消息、@ 提及机器人，或者无法与与机器人通信的自适应卡交互。
 
-来宾将遵循为任何应用的主机租户设置的全局和组织范围权限策略。  (，换言之，如果整个宿主组织阻止了应用，则来宾无法使用该应用。) 
+来宾将遵循为任何应用的主机租户设置的全局和组织范围权限策略。 换言之，如果整个宿主组织阻止了应用，则来宾也不可能使用该应用。
 
 设置策略不适用于来宾用户。 这意味着默认策略中的管理员固定应用不会影响来宾用户。
 
@@ -75,4 +75,4 @@ ms.locfileid: "50237493"
 
 匿名用户不能直接在会议中使用应用。 如果存在匿名用户，本机用户可以继续使用会议应用。 如果应用在聊天中发送自适应卡，匿名用户可以与该卡交互。
 
-匿名用户将继承用户级全局默认权限策略。 只要用户级权限策略启用了应用，此控件就允许匿名用户与 Teams 会议中的应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。
+匿名用户将继承用户级全局默认权限策略。 如果用户级别的权限策略已启用应用，此控件允许匿名用户与 Teams 会议中的应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。

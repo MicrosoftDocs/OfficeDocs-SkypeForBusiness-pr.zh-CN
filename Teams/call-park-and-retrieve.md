@@ -21,21 +21,21 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中使用呼叫暂停和检索来暂停通话。
-ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
+ms.openlocfilehash: d49e6a5a9bc25a0c7a3e25d548e2743b7f4584fb
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260324"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278712"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
-呼叫暂停和检索是一项功能，允许用户保留呼叫。 当调用被停放时，服务会生成用于调用检索的唯一代码。 然后，将该代码用于受支持的应用或设备以检索呼叫的已停放用户或其他用户。  (有关详细信息，请参阅"在 [Teams 中叫](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) 停通话"。) 
+呼叫暂停和检索是允许用户保留呼叫的一项功能。 当调用被停放时，服务会生成用于调用检索的唯一代码。 然后，将该代码用于受支持的应用或设备以检索呼叫的已停放用户或其他用户。  (有关详细信息，请参阅"在 [Teams 中叫](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) 停通话"。) 
 
 使用呼叫公园的一些常见方案包括：
 
 - 接待员为在工厂中工作的人拨打了电话。 然后，接待员通过公用地址系统报出呼叫和代码号。 然后，呼叫方用户可以在工厂车间拿起 Teams 电话，并输入用于检索呼叫的代码。
-- 由于设备电池电量不足，用户在移动设备上将呼叫放在了一个电话上。 然后，用户可以输入代码以从 Teams 桌面电话检索呼叫。
+- 由于设备电池电量不足，用户在移动设备上将呼叫放在了一起。 然后，用户可以输入代码以从 Teams 桌面电话检索呼叫。
 - 支持代表将客户呼叫组织到一起，在 Teams 频道上发送公告，让专家检索呼叫并帮助客户。 专家在 Teams 客户端中输入代码以检索呼叫
 
 要停放和检索呼叫，用户必须是企业语音用户，并且必须包含在呼叫公园策略中。
@@ -68,9 +68,9 @@ ms.locfileid: "50260324"
 3. 选择与其他组分配相比的排位。
 4. 在 **"选择策略**"下，选择要将该组分配到的策略。
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![公园策略图像](media/call-park-assign-policy-to-group.png)
 
-5. 单击“**应用**”。
+5. 选择 **"应用"。**
 
 ## <a name="related-topics"></a>相关主题
 
