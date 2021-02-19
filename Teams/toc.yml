@@ -1418,6 +1418,8 @@ items:
             href: office-365-urls-ip-address-ranges.md
           - name: 虚拟桌面基础结构 (VDI) 的 Teams
             href: teams-for-vdi.md
+          - name: 远程桌面环境 (RDP) Teams
+            href: teams-for-rdp.md
           - name: 为 Surface Hub 部署 Teams
             href: teams-surface-hub.md
           - name: Teams 客户端更新
