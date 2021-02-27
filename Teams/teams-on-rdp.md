@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ac88778fca7034446d0ec42a0a4a65d7c76f979
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
+ms.openlocfilehash: dbf8be686029aa995ac0fb8a9977d129746b0c78
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278886"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347873"
 ---
 # <a name="teams-in-remote-desktop-services"></a>远程桌面服务中的 Teams
 
@@ -37,7 +37,7 @@ RDS 提供部署灵活性、成本效益和可扩展性。 RDS 通过各种部�
 
 目前，远程桌面服务环境中 Teams 支持协作和聊天功能。 若要确保获得最佳用户体验，请遵循本文中的指导。
 
-## <a name="teams-on-vdi-with-chat-and-collaboration"></a>通过聊天和协作使用 VDI 上的 Teams
+## <a name="teams-on-rds-with-chat-and-collaboration"></a>RDS 上的 Teams 与聊天和协作
 
 如果你的组织只想使用 Teams 中的聊天和协作功能，你可以设置用户级策略以关闭 Teams 中的呼叫和会议功能。
 
