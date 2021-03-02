@@ -1,14 +1,14 @@
 ---
-title: 选择在组织范围内部署的途径
-author: SerdarSoysal
-ms.author: serdars
+title: 开始在组织范围内推出 Microsoft Teams
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dstrome
-description: 建立首批团队后，了解在何处可以找到适用于 Microsoft Teams 的深入部署和采用资源。
+description: 设置第一个团队后，了解如何将 Microsoft Teams 部署到组织。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-mar2020
@@ -21,15 +21,48 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e36cb67a226b220e172517bd5ef3bb9f360a699d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: df4cc9e8c71622fd8564420b31bd5a06d7ac73b2
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030448"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395284"
 ---
-# <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>选择在组织范围内部署 Microsoft Teams 的途径
+# <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>开始在组织范围内推出 Microsoft Teams
 
-既然你已成功设置第一批团队并在推动使用的同时上线了初始用户群组，那么是时候看看你的发展计划，在推动采用的同时为组织的其他人部署 Teams。 从第一个工作负载（[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)）开始。
+现在，您已经成功地建立了第一个团队，并加入了一些早期采用者，是时候开始向组织的其他成员推出团队了。
 
-有关选择 Teams 部署途径的帮助，请阅读[如何部署 Teams](How-to-roll-out-teams.md)。
+> [!TIP]
+> 在开始推出 Teams 之前，强烈建议你完成"使用 Microsoft 365 [Microsoft Learn 模块准备](/learn/modules/m365-teams-collab-prepare-deployment/) 团队部署。 这个 30 分钟的模块将迅速开始了解 Teams，并讨论推出 Teams 时需要做出的关键决策。
+>
+> 若要查看可用于 Teams 的更多学习路径和模块，请参阅 [Microsoft Learn for Teams](/learn/teams/)。
+
+**只有几名员工** 或者没有多个位置或复杂的网络，请选择"小型企业计划"。
+
+如果希望 **正式采用流程** ，请选择"中型/大型企业计划";具有多个位置或具有代理服务器或多个防火墙的大型网络;具有复杂的合规性要求;或其他需要额外规划的非标准要求。
+
+#### <a name="small-business"></a>[小型企业](#tab/SmallBusiness)
+
+Teams 小型企业设置非常适用于希望使用 Teams 所有功能但没有需要额外规划的较大组织的特性的组织。 例如，小型企业可能不需要大型部署过程，或者不需要符合多个国家/地区中的法规要求。
+
+如果这听起来像你的组织，你可完成 Teams 小型企业设置。 通过小型企业设置，你可快速启动并运行 Teams，让你跳过一些特定于大型组织的注意事项。
+
+> [!div class="nextstepaction"]
+> [转到小型企业](deploy-small-business.md)
+
+#### <a name="mediumlarge-business"></a>[中型/大型企业](#tab/LargeBusiness)
+
+许多企业只需使用[小型企业设置](deploy-small-business.md) 部署Teams。 但是，某些组织要求很复杂，例如下面要求，要求进行其他规划：
+
+- 多个办公室位置
+- 合规性和隐私要求
+- 跨多个位置分布的成千上万个用户
+- 许多设备和会议室类型
+- 非标准电话实施
+
+如果这听起来像你的组织，则需要完成 Teams 企业版设置。 企业设置可帮助你规划部署，并提供建议，了解如何建立采用计划以将 Teams 最大化使用。
+
+> [!div class="nextstepaction"]
+> [转到企业设置](deploy-advanced.md)
+
+---
