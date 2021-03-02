@@ -16,14 +16,14 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文提供有关如何使用 Teams 面板设备的指南。
-ms.openlocfilehash: 9ff2b9ec969336ada04ed7a872cf3c5d8ea358ab
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347990"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395323"
 ---
-# <a name="use-microsoft-teams-panels"></a>使用 Microsoft Teams 面板
+# <a name="how-to-use-microsoft-teams-panels"></a>如何使用 Microsoft Teams 面板
 
 Microsoft Teams 面板是安装在会议空间外（通常位于入口旁）的紧凑数字显示设备。 这些触摸屏面板是专用的 Microsoft Teams 设备，可一目了然地查看会议空间和计划的会议。 使用颜色编码的 LED 和主屏幕指示器，可以确定空间是可用还是保留一段距离。 您可以使用 Teams 面板为临时会议现场保留可用的会议空间。
 
@@ -63,7 +63,7 @@ Teams 面板设备预装了 Microsoft Teams，并显示通过 Outlook 或 Teams 
 **1-当前时间、天、日期和会议空间详细信息** | 显示当前时间、天、日期和会议空间名称。 会议空间名称是登录到面板的资源帐户的名称。
 **2-会议空间可用性和会议详细信息** | 指示会议空间可用性并显示会议详细信息。 请参阅 ["会议空间可用性和会议详细信息"磁贴](#meeting-space-availability-and-meeting-details-tile)。
 **3-即将到来的日历** | 显示会议空间日历和从当前小时开始最多 24 小时的可用时间。 向上或向下滚动，确定哪些时间段可用，哪些是保留的。
-**4-设置** | 显示设置图标。 点击它 **以打开"** 设置"屏幕以报告问题或更新可用的设备设置。
+**4-设置** | 显示" **设置"** 图标。 点击它以报告问题或更新可用的设备设置。
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>会议空间可用性和会议详细信息磁贴
 
@@ -223,4 +223,4 @@ Teams 面板设备预装了 Microsoft Teams，并显示通过 Outlook 或 Teams 
 否，不能从面板为将来的时间保留会议空间。 开始时间始终是从面板安排的即席会议的当前时间。
 
 **我可以为临时会议保留多久的可用会议空间？**  
-你可以保留从当前时间开始到下一个计划会议时间，或者从当前时间开始最多 24 小时（以较早者为准）的可用会议空间。 例如，如果当前时间为上午 10 点，下一个会议开始时间为下午 2 点，您可以保留从上午 10 点到下午 2 点的会议空间。
+你可以保留从当前时间开始到下一个计划会议时间，或者从当前小时开始最多 24 小时（以较早者为准）的可用会议空间。 例如，如果当前时间为上午 10 点，下一个会议开始时间为下午 2 点，您可以保留从上午 10 点到下午 2 点的会议空间。

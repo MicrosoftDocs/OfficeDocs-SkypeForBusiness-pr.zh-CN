@@ -17,30 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dc34d56ebb10dc7319d855bbd0d98184f1e54a
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: afe6b57b5b2b430c056d49b29a752e55bd4a0afe
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347843"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397537"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>用于升级为 IT 管理员的 Teams &mdash; 的工具
 
-本文介绍用于升级到 Teams 的工具。 本文是介绍 IT 管理员升级概念和实现的几个文章的第三篇。  
+本文介绍用于从 Skype for Business 升级到 Teams 的工具。 
 
-- [概述](upgrade-to-teams-on-prem-overview.md)
-- [升级方法](upgrade-to-teams-on-prem-upgrade-methods.md)
-- **本文介绍用于管理升级 (**   工具) 
-- [使用本地 Skype for Business 的组织的其他注意事项](upgrade-to-teams-on-prem-considerations.md)
-- [实现升级](upgrade-to-teams-on-prem-implement.md)
-- [公共电话交换网 (PSTN) 注意事项](upgrade-to-teams-on-prem-pstn-considerations.md)
-
-此外，以下文章介绍重要的升级概念和共存行为：
+在开始升级之前，Microsoft 建议阅读以下文章，介绍重要的升级概念和共存行为：
 
 - [Teams 和 Skype for Business 共存](upgrade-to-teams-on-prem-coexistence.md)
 - [共存模式 - 参考](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
-
 
 ## <a name="tools-for-managing-the-upgrade"></a>用于管理升级的工具
 
@@ -120,7 +112,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 ## <a name="related-links"></a>相关链接
 
-[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](migration-interop-guidance-for-teams-with-skype.md) 
+[共存模式 - 参考](migration-interop-guidance-for-teams-with-skype.md) 
 
 [在 Skype for Business Server 与 Microsoft 365 或 Office 365 之间配置混合连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 

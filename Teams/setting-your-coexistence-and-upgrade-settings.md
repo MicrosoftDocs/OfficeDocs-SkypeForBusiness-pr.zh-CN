@@ -1,7 +1,7 @@
 ---
 title: 设置共存和升级设置
-author: tonysmit
-ms.author: tonysmit
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
-description: 了解如何为组织中的所有用户同时设置共存和升级设置，或者为组织中的单个或一组用户设置共存和升级设置。
+description: 了解如何为组织中所有用户一次设置共存和升级设置，或者为贵组织的单个或一组用户设置共存和升级设置。
 f1.keywords:
 - CSH
 ms.custom:
@@ -18,66 +18,64 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a20e8c355df4103980dc9da460d003382c721800
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: c2dbeb4d93273aab848f1b4436b46e6b22e08e53
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940602"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397567"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>设置共存和升级设置
 
 
-将 Skype for Business 用户升级为使用团队时，有多个选项可帮助你为你的用户设置无缝流程。 你可以选择同时为组织中的所有用户创建共存和升级设置，也可以为组织中的单个或一组用户更改设置。 请注意，旧版本的 Skype for Business 客户端可能无法接受这些设置。 有关 Skype for business 客户端版本的详细信息，请转到 [skype for business 下载和更新页面](https://docs.microsoft.com/skypeforbusiness/software-updates)。 
+当你将 Skype for Business 用户升级为使用 Teams 时，你有几种选项可以帮助你为用户实现无缝过程。 可以选择一次为组织中所有用户进行共存和升级设置，也可以对组织中单个或一组用户进行设置更改。 请注意，较旧版本的 Skype for Business 客户端可能不会遵守这些设置。 有关 Skype for Business 客户端版本的信息，请转到 [Skype for Business 下载和更新页面](https://docs.microsoft.com/skypeforbusiness/software-updates)。 
 
-通过阅读[了解 Microsoft 团队和 skype for business 共存以及](teams-and-skypeforbusiness-coexistence-and-interoperability.md)[与 skype for](coexistence-chat-calls-presence.md)business 的互操作性或共存，你可以更好地了解可供你使用的模式。  
+通过阅读"了解 Microsoft Teams 和 [Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md) 共存和互操作性"或"与 Skype for [Business](coexistence-chat-calls-presence.md)共存"，你可以更好地了解可用的模式。  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 
-## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>为组织中的所有用户设置升级选项
+## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>为组织中所有用户设置升级选项
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在[Microsoft 团队管理中心](https://admin.teams.microsoft.com/)的左侧导航中，转到 "**组织范围的设置**  >  **团队升级**"。 
+1. 在 [Microsoft Teams 管理中心的](https://admin.teams.microsoft.com/)左侧导航栏中，转到 **组织范围的设置**  >  **Teams 升级**。 
 
-2. 在 " **团队升级** " 页面上，根据需要修改以下选项。
+2. 在 Teams 升级 **页面** 顶部，根据需要修改以下选项。
     - 设置 **共存** 模式。
-        - **岛** -如果你希望用户能够同时使用 Skype for Business 和团队，请使用此设置。
-        - **仅限 Skype for** business-如果你希望你的用户仅使用 Skype for business，请使用此设置。
-        - **使用团队协作的 Skype For business** -如果你希望你的用户除了使用组协作 (频道) 之外使用 Skype for business，请使用此设置。
-        - **使用团队协作和会议的 Skype For business** -如果希望用户使用 Skype for business，而不是将团队协作 (频道) 和团队会议一起使用，请使用此设置。
-        - **仅限团队** -如果你希望你的用户仅使用团队，请使用此设置。 请注意，即使采用此设置，用户仍然可以加入 Skype for Business 中托管的会议。
+        - **群岛** - 如果希望用户能够同时使用 Skype for Business 和 Teams，请使用此设置。
+        - **仅 Skype for Business** - 如果希望用户仅使用 Skype for Business，请使用此设置。
+        - **将 Skype for Business** 与 Teams 协作 - 如果希望用户除了使用 Teams 进行群组协作外，还希望使用 Skype for Business (使用) 。
+        - **Skype for Business 与 Teams** 协作和会议 - 如果你希望用户除了使用 Teams 进行组协作外，还希望使用 Teams 进行群组协作和 teams 会议， (使用此设置) Teams 会议。
+        - **仅 Teams** - 如果希望用户仅使用 Teams，请使用此设置。 请注意，即使使用此设置，用户仍然可以加入 Skype for Business 中托管的会议。
         
-    - 设置 **可供团队升级的 Skype for business 用户的通知**。 如果启用此操作，它将通知 Skype for Business 用户即将升级到团队应用。
-    - **为用户设置用于加入 Skype For business 会议的首选应用**。 此设置确定哪种应用用于加入 Skype for Business 会议，并且无论共存模式的价值如何都有效。
+    - 设置 **通知 Skype for Business 用户 Teams 可供升级**。 如果启用此功能，它将告诉 Skype for Business 用户，他们将很快升级到 Teams 应用。
+    - 设置 **用户加入 Skype for Business 会议的首选应用**。 此设置确定用于加入 Skype for Business 会议的应用，并且无论共存模式的值如何，都受支持。
       - **Skype 会议应用**
-      - **具有有限功能的 Skype for business**
-    - 设置是否 **在 Skype for business 用户的后台下载团队应用**。  此设置将为运行 Windows 版 Skype for Business 的用户自动下载 "团队" 应用。 仅当用户的共存模式是 "仅限团队" 或 "在 Skype for Business 中启用了待升级通知" 时，才会接受此功能。
-3. 进行更改后，单击 " **保存** "。
+      - **功能受限的 Skype for Business**
+    - 设置是否 **在后台为 Skype for Business 用户** 下载 Teams 应用。  此设置以无提示方式为在 Windows 上运行 Skype for Business 的用户下载 Teams 应用。 仅在用户共存模式为 Teams 或在 Skype for Business 中启用了等待升级通知时，才遵守此规则。
+3. 进行更改 **后** 单击"保存"。
 
-## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>为组织中的单个用户设置升级选项
+## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>为组织中单个用户设置升级选项
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，转到 " **用户**"，然后从列表中选择用户。 
-2. 在用户的 " **帐户** " 选项卡上的 " **团队升级**" 下，单击 " **编辑**"。
-3. 你可以设置 **共存模式**。 从以下选项中进行选择：
-     - **使用组织范围的设置** -如果希望用户使用 **组织范围** 设置中的设置，请使用此设置。 
-     - **群岛** -如果您希望用户能够使用 Skype for Business 和团队，请使用此设置。 
-     - **仅限 Skype** for business-如果希望用户使用 Skype for business，请使用此设置。
-     - **使用团队协作的 Skype For business** -如果你希望用户除了使用团队协作 (频道) 之外使用 Skype for business，请使用此设置。
-      - **使用团队协作和会议的 Skype For business** -如果你希望用户使用 Skype for business，而不是将团队协作 (频道) 和团队会议一起使用，请使用此设置。
-     - **仅限团队** -如果你希望用户仅使用团队，请使用此设置。 用户仍将能够加入 Skype for Business 会议。
-4. 如果你选择除 "**使用组织范围外的设置**" 之外的任何**共存模式**，你可以选择在用户的 Skype for business 应用中启用通知，即将推出升级到团队的应用。 你可以通过打开 " **通知 Skype for business 用户** " 选项为用户启用此通知。
-5. 进行更改后，单击 " **保存** "。
+1. 在左侧导航栏中，转到 **"用户**"，然后从列表中选择该用户。 
+2. 在用户的 **"帐户**"选项卡上的 **Teams** 升级下，单击"编辑 **"。**
+3. 可以设置 **共存模式**。 从以下选项中进行选择：
+     - **使用组织范围的设置** - 如果希望用户使用组织范围的设置， **请使用** 此设置。 
+     - **群岛** - 如果希望用户能够同时使用 Skype for Business 和 Teams，请使用此设置。 
+     - **仅 Skype for Business** - 如果希望用户使用 Skype for Business，请使用此设置。
+     - **将 Skype for Business** 与 Teams 协作 - 如果希望用户除了使用 Teams 进行群组协作外，还希望使用 Skype for Business (使用) 。
+      - **Skype for Business 与 Teams** 协作和会议 - 如果希望用户除了使用 Teams 进行组协作外，还希望使用 Teams 进行群组协作和 teams 会议， (使用此设置) Teams 会议。
+     - **仅 Teams** - 如果希望用户仅使用 Teams，请使用此设置。 用户仍可加入 Skype for Business 会议。
+4. 如果选择除使用组织范围的设置外的任何共存模式，可以选择在即将升级到 Teams 的用户 Skype for Business 应用中启用通知。 可以通过打开"通知 Skype for Business 用户"选项 **为用户启用此** 通知。
+5. 进行更改 **后** 单击"保存"。
 
 ### <a name="related-topics"></a>相关主题
-[从 Skype for Business 升级到团队-面向 IT 管理员](upgrade-to-teams-on-prem-overview.md)
-
 [规划旅程](upgrade-plan-journey.md)
 
-[了解 Skype for business 和团队的共存和升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+[了解 Skype for Business 和 Teams 的共存和升级过程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 [面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](migration-interop-guidance-for-teams-with-skype.md)

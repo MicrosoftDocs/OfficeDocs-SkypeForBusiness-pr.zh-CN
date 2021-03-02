@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54bbb3c00aae8a2785e867be9614f8509ca9344d
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: ed7221192fdc3588856755b8be651065fdbf15ab
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237452"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397557"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
 > [!Note]
-> 仅查看会议体验将于 2021 年 3 月初提供。
+> 仅查看会议体验将于 2021 年 3 月初提供。 此功能将在 2021 年 3 月 1 日启用为默认关闭。 如果希望将该功能设置为"默认打开"，则必须在此日期之后更改默认策略。 使用 PowerShell 启用策略 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled` 。
 
 > [!Note]
 > 我们暂时增加了 20，000 名与会者的仅查看体验，但 2021 年 6 月 30 日，我们将支持恢复到 10，000 名与会者。
@@ -42,9 +42,9 @@ Microsoft Teams 允许最多 10，000 名与会者加入 Teams 会议。 达到�
 > [!Note]
 > 在 WW 中，可以聊天和呼叫参加会议的人数当前限制为 300 人，GCC、GCC High 和 DoD 中为 250 人。
 
-默认情况下，任何拥有 E3/E5/A3/A5 SKU 的组织者都启用仅查看体验。 无需进一步配置或设置。
+对于拥有 E3/E5/A3/A5 SKU 的任何组织者，默认禁用仅查看体验。 无需进一步配置或设置。
 
-### <a name="disable-teams-view-only-experience"></a>禁用 Teams 仅查看体验
+## <a name="disable-teams-view-only-experience"></a>禁用 Teams 仅查看体验
 
 管理员可以使用 PowerShell 禁用仅查看体验。
 
@@ -77,8 +77,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 ## <a name="impact-to-meeting-presenters"></a>对会议演示者的影响
 
-我们将在普通会议中为在会议选项中明确指示为演示者的用户保留空间。 如果演示者离开，然后又重新加入会议，他们将作为演示者进入会议。
-
 会议演示者的限制包括：
 
 - 您将没有有关仅查看与会者的信息。 我们不支持仅查看与会者的 E-discovery。
@@ -101,7 +99,6 @@ Teams 仅查看体验允许与会者：
 - 如果与会者没有权限根据设置的大厅策略或选项绕过大厅，请加入会议。
 - 通过音频会议加入溢出会议室。
 - 通过 Microsoft Teams Room 系统或通过 CVI 云视频互操作 (加入溢出) 服务。
-- 通过 Teams Android 移动应用加入 Overflow Room。
 - 共享其音频或视频。
 - 查看或参与会议聊天。
 - 查看会议参与者的视频源，除非参与者是活动发言人。

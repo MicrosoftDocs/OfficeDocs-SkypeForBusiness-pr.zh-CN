@@ -1,9 +1,9 @@
 ---
-title: Teams 的电话和设备
+title: 支持 Teams 的设备
 ms.author: dstrome
 author: dstrome
 manager: serdars
-ms.reviewer: dvank, kponnus
+ms.reviewer: divank
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
@@ -21,30 +21,28 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解 Microsoft Teams 认证了哪些桌面电话和会议电话，以获得最佳结果。
-ms.openlocfilehash: e93756b1d7aaadb3027e0172d9495393be650e7b
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 7425ec0e637600e600987f43d85c7656e31919a4
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347833"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397527"
 ---
-# <a name="ip-phones-certified-for-microsoft-teams"></a>通过 Microsoft Teams 认证的 IP 电话
+# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 认证的设备
 
-IP 电话认证计划可确保使用经过认证的桌面电话和会议电话的客户体验高质量的音频呼叫和会议体验。
+Microsoft Teams 认证计划可确保使用经过认证的桌面电话和会议电话的客户体验高质量的音频呼叫和会议体验。
 
-## <a name="announcing-certified-for-microsoft-teams"></a>宣布通过 Microsoft Teams 认证
-
-除了为客户提供一系列经过 Skype for Business 认证的 IP 电话，作为 Teams IP 电话认证计划的一部分，我们还宣布推出新的 IP 电话硬件，这些硬件将针对 Microsoft Teams 进行认证。 此认证计划可确保更高质量的栏，以及更高的性能目标和音频质量指标。 手机供应商正在努力满足这个更高的要求，将符合本日历年的新要求。 我们的一些合作伙伴还致力于在 Teams IP 电话相同的硬件上为 Skype for Business 服务提供支持。 Teams 认证的 IP 电话的好处包括：
+Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能目标和音频质量指标。 合作伙伴正在努力满足这个更高的要求，并且符合认证要求的设备符合要求。 我们的一些合作伙伴还致力于在 Teams 电话相同的硬件上为 Skype for Business 服务提供支持。 Microsoft Teams 认证设备的好处包括：
 
 - 使用硬件按钮集成和 LED 通知的本机 Teams 体验
 - 日历集成和一键式会议加入
-- 通过集成了 Intune 的 Microsoft 设备管理解决方案进行部署和管理
+- 使用 Intune 集成通过 Teams 管理中心进行部署和管理
 
-## <a name="currently-certified-ip-phones"></a>当前认证的 IP 电话
+## <a name="currently-certified-teams-phones"></a>当前认证的 Teams 电话
 
-以下电话已通过 Microsoft Teams 认证：
+以下设备通过 Microsoft Teams 手机认证计划认证：
 
-| 手机型号                            | 固件版本                                                                                                                                                                                                                           | 发布日期                 |
+|设备模型                         | 固件版本                                                                                                                                                                                                                           | 发布日期                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | C450HD 上支持的音频代码扩展模块 |C450HD_TEAMS_0.225                                        | 2021 年 1 月                 |
 | Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
@@ -67,27 +65,38 @@ IP 电话认证计划可确保使用经过认证的桌面电话和会议电话�
 | Yealink CP 960| 73.15.0.20 | 2018 年 12 月|
 | Yealink T58 & T56 系列 | 58.15.0.20 | 2018 年 12 月 |
 
-## <a name="currently-certified-collaboration-bars"></a>当前认证的协作栏
+## <a name="currently-certified-teams-rooms-on-android"></a>Android 上当前经过认证的 Teams 会议室
 
-以下协作栏经过 Microsoft Teams 认证：
+以下设备在 Microsoft Teams Rooms on Android 认证计划下通过认证：
 
-| 协作栏模型 | 固件版本 | 发布日期  | 会议室 (最多)                                          |
+| 设备模型 | 固件版本 | 发布日期  | 会议室 (最多)                                          |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 焦点会议室 (3 米 x 3)  </br> 小型会议室 (450 万 x 450 万)  |
+| Yealink CTP18 触摸控制台  | 137.15.0.28    | 2021 年 3 月 | 与会议栏 A20 和会议栏 A30 兼容 |
 | Yealink MeetingBar A20  | 133.15.0.19      | 2020 年 11 月 | 焦点会议室 (3 米 x 3)  </br> 小型会议室 (450 万 x 450 万)  |
 | Poly Studio X30         | 3.1.1.216109     | 2020 年 6 月     | 焦点会议室 (3 米 x 3)  </br> 小型会议室 (450 万 x 450 万)  |
 | Poly Studio X50         | 3.1.1.216109     | 2020 年 6 月     | 焦点会议室 (3 米 x 3)  </br> 小型会议室 (450 万 x 450 万)  |
 | Yealink VC210           | 118.15.0.14      | 2020 年 2 月 | 焦点会议室 (3 米 x 3)  </br> 小型会议室 (450 万 x 450 万)  |
 
-## <a name="currently-certified-teams-display"></a>当前认证的 Teams 显示
-以下 Teams 显示已通过 Microsoft Teams 认证：
+## <a name="currently-certified-teams-displays"></a>当前认证的 Teams 显示
 
-| Teams 显示模型 | 固件版本 | 发布日期  |                                         
+以下设备在 Microsoft Teams 显示认证计划下通过认证：
+
+| 设备模型 | 固件版本 | 发布日期  |                                         
 |:------------------------|:-----------------|:--------------|
 |Le一一 ThinkSmart View|CD-18781Y.201006.099|2020 年 10 月 |
 
+## <a name="currently-certified-teams-panels"></a>当前认证的 Teams 面板
+以下设备在 Microsoft Teams 面板认证计划下认证：
+
+| 设备模型| 固件版本 | 发布日期  |                                         
+|:------------------------|:-----------------|:--------------|
+|Crestron TSS-770 | 1.003.0082 |2021 年 2 月 |
+|Crestron TSS-1070 | 1.003.0082 |2021 年 2 月 |
+
 ### <a name="product-release-information-for-teams-phones"></a>Teams 手机的产品发布信息
 
-以下是最新的 Teams IP 电话应用和固件版本。
+以下是最新的 Teams 手机应用和固件版本。
 
 #### <a name="app-versions"></a>应用版本
 
@@ -116,9 +125,9 @@ IP 电话认证计划可确保使用经过认证的桌面电话和会议电话�
 | Yealink VP59        | 91.15.0.50          | 2020 更新#7           |
 | Yealink CP960       | 73.15.0.111       | 2020 更新#7           |
 
-### <a name="product-release-information-for-collaboration-bars"></a>协作栏的产品发布信息
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 会议室的产品发布信息
 
-以下是最新的 Teams 协作栏应用和固件版本。
+以下是 Android 应用和固件版本的最新 Teams 会议室。
 
 #### <a name="app-versions"></a>应用版本
 
@@ -138,7 +147,7 @@ IP 电话认证计划可确保使用经过认证的桌面电话和会议电话�
 | Poly Studio X30 | 3.2.3.280012          | 2020，更新#3    |
 | Poly Studio X50 | 3.2.3.280012          | 2020，更新#3    |
 
-### <a name="product-release-information-for-teams-display"></a>Teams 显示的产品发布信息
+### <a name="product-release-information-for-teams-displays"></a>Teams 显示的产品发布信息
 
 以下是最新的 Teams 显示应用和固件版本。
 
@@ -169,8 +178,6 @@ Microsoft Teams 许可证可以购买为 [Microsoft 365 或 Office 365 订阅的
 如果你是希望加入认证计划的供应商，请参阅"如何 [加入"了解](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 要求和可用计划。
 
 ## <a name="additional-resources"></a>其他资源
-
-了解 [Skype for Business 和 Microsoft Teams 认证计划](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
 
 [探索 Microsoft Teams 手机和经过认证的设备。](https://products.office.com/microsoft-teams/across-devices/devices)
 
