@@ -10,15 +10,15 @@ ms.reviewer: anblak
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Microsoft Teams 的 CCaaS (解决方案集成联系中心) 概述
+description: Microsoft Teams 的 CCaaS (解决方案集成) 中心概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 207b39fd0ac7b879002355921d001b2bbb01070b
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 470b8cb523a688be87eaef51dbb93ea7aaa59c38
+ms.sourcegitcommit: 49674c122d69b5495afeb2833ecf498acf129746
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196367"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50402858"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
@@ -26,24 +26,25 @@ ms.locfileid: "50196367"
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>什么是 Microsoft Teams 的联系人中心集成？
 
-如今的联系中心提供的不仅仅是支持 - 它们充当交互的主要工具之一，并且未筛选有关客户品牌体验的反馈。 由于当今客户喜欢通过多种渠道（电话、电子邮件、文本、社交）参与，并且与当前购买流程相关的触摸点数量增加，许多组织实现了另外两个要求：
+如今的联系中心提供的不仅仅是支持 - 它们充当交互的主要工具之一，并且未筛选有关客户品牌体验的反馈。 由于当今客户喜欢通过多种渠道（电话、电子邮件、文本、社交）参与，并且与当前购买流程相关的触摸点数量增加，许多组织实现了另外两个方案：
 
 1. 组织的每一个成员都有可能直接与客户互动，因此需要配备适当的工具。
 
 2. 这种扩展的客户交互范围需要有助于促进一致性、持续改进和缩放的工具。
 
-Microsoft Teams 支持客户交互工作流，充当内部和外部客户连接的中心，跨其通信模式（包括聊天、视频会议和通话）。 对于一些公司，Microsoft Teams[的云](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)语音功能[](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)（包括自动[](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)助理和呼叫队列）提供功能和配置来满足其需求。
+Microsoft Teams 支持客户交互工作流，充当内部和外部客户连接的中心，跨其通信模式（包括聊天、视频会议和通话）。 对于一些公司，Microsoft Teams 的云语音功能[](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)（包括自动[](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)助理和呼叫队列）提供功能和配置来满足其需求。 [](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)
 
-对于希望将解决方案与业务工具和工作流集成以驱动客户旅程的其他人，Microsoft Teams 还集成了一些行业领先的"联系中心" (CCaaS) 解决方案提供商。
+对于想要将解决方案与业务工具和工作流集成以驱动客户旅程的其他人，Microsoft Teams 还集成了一些行业领先的"联系中心" (CCaaS) 解决方案提供商。
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 认证计划连接联系中心
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 认证计划的连接联系中心
 
-这些 API 允许解决方案提供商为 Teams 开发和集成 CCaaS 解决方案。 此外，我们开发了 Microsoft Teams 认证计划连接联系中心，为客户提供保证，每个参与提供商的解决方案都经过测试和验证，以提供他们期望从 Microsoft 解决方案获得的质量、兼容性和可靠性。
+这些 API 允许解决方案提供商为 Teams 开发和集成 CCaaS 解决方案。 此外，我们开发了 Microsoft Teams 认证计划连接联系中心，为客户提供保证，每个参与提供商的解决方案已经过测试和验证，以提供他们期望从 Microsoft 解决方案获得的质量、兼容性和可靠性。
 
 ![认证徽章。](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
 |  解决方案提供商                                                                                                                               |  解决方案网站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 
@@ -93,7 +94,7 @@ Microsoft Teams 支持客户交互工作流，充当内部和外部客户连接�
 
 ### <a name="connect-and-extend"></a>连接和扩展
 
-此模型通过使用 Microsoft Graph 中的 Teams 客户端平台[、Teams Graph API](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)和[云通信 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)与[Teams](https://docs.microsoft.com/microsoftteams/platform/overview)客户端集成，扩展了联系中心人员和代理体验，并使用 Teams 电话系统进行所有联系中心呼叫和呼叫控制体验。 在此模型中，联系中心解决方案提供商与 Microsoft 365 一起充当电话运营商。
+此模型通过使用 Microsoft Graph 中的 Teams 客户端平台[、Teams Graph API](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)和[云通信 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)与[Teams](https://docs.microsoft.com/microsoftteams/platform/overview)客户端集成来扩展联系中心人员和代理体验，并使用 Teams 电话系统进行所有联系中心呼叫和呼叫控制体验。 在此模型中，联系中心解决方案提供商与 Microsoft 365 一起充当电话运营商。
 
 通过使用基于连接和扩展的解决方案，代理可以在开始参与之前从多个系统关联数据的动态上下文笔记中获益，然后通过本机在 Teams 中为内部协作和外部通信工作来避免代价高昂的上下文切换。
 
@@ -107,9 +108,9 @@ Microsoft Teams 支持客户交互工作流，充当内部和外部客户连接�
 
   - 用于代理体验的基于 Teams 的应用 
 
-  - Teams 作为代理的主调用终结点 
+  - Teams 作为代理的主要调用终结点 
 
-  - Teams 客户端调用所有呼叫控件
+  - 针对所有呼叫控件调用的 Teams 客户端
 
   - 代理体验应用应该能够在 Teams Web 和移动客户端上工作
 
@@ -121,9 +122,9 @@ Microsoft Teams 支持客户交互工作流，充当内部和外部客户连接�
 
 ### <a name="extend-and-power"></a>扩展和电源
 
-此模型使解决方案提供商能够使用 Teams 呼叫基础结构和客户端平台创建本机基于 Azure 的语音应用程序，为协作客户和代理连接提供现代智能解决方案。 扩展和 Power 的目标是培养开发人员的创造力，并提升客户工作效率。
+此模型使解决方案提供商能够使用 Teams 呼叫基础结构和客户端平台创建基于 Azure 的本机语音应用程序，为协作客户和代理连接提供现代智能解决方案。 扩展和 Power 的目标是培养开发人员的创造力并提升客户工作效率。
 
-通过直接在 Azure 上构建，解决方案提供商可以跨所有 Teams 区域与地理区域快速部署和预配其解决方案，从共享的全球通信网络受益，同时利用 Azure 的存储、计算、分析和&服务。
+通过直接在 Azure 上构建，解决方案提供商可以跨所有 Teams 区域与地域快速部署和预配其解决方案，从共享的全球通信网络受益，同时利用 Azure 的存储、计算、分析和&服务。
 
 借助扩展和 Power 集成模型，解决方案提供商可以为联系中心代理提供全通道通信体验，同时整合人工智能，以自定义参与者或其他服务参与在 [Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)中应用云通信 API 的呼叫方式和时间。
 
@@ -131,13 +132,13 @@ Microsoft Teams 支持客户交互工作流，充当内部和外部客户连接�
 
 虽然以下不是此集成模型的功能综合列表，但除了连接和扩展模型提供的功能之外，这些功能还突出显示了这些方面。
 
-  - 通过 Teams SDK 以本机方式为全渠道通信启用的正式代理体验 
+  - 通过 Teams SDK 以本机方式为全通道通信启用的正式代理体验 
 
   - 使用 Teams 协作服务进行代理协作和客户交互  
 
   - 快速预配云服务，随时随地部署 
 
-  - 在 Teams 对话期间直接进行对话控制和与用户交互 
+  - 在 Teams 对话期间直接进行聊天控制和与用户交互 
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>比较连接的联系人中心集成模型
 

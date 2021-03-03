@@ -2,7 +2,7 @@
 title: 仅查看会议体验
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
 audience: admin
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed7221192fdc3588856755b8be651065fdbf15ab
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397557"
+ms.locfileid: "50401316"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
 > [!Note]
-> 仅查看会议体验将于 2021 年 3 月初提供。 此功能将在 2021 年 3 月 1 日启用为默认关闭。 如果希望将该功能设置为"默认打开"，则必须在此日期之后更改默认策略。 使用 PowerShell 启用策略 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled` 。
+> 仅查看会议体验将于 2021 年 3 月初提供。 此功能将在 2021 年 3 月 1 日启用为默认关闭。 如果希望将该功能设置为"默认打开"，则必须在此日期之后更改默认策略。 使用 PowerShell 启用策略 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 。
 
 > [!Note]
-> 我们暂时增加了 20，000 名与会者的仅查看体验，但 2021 年 6 月 30 日，我们将支持恢复到 10，000 名与会者。
+> 如果会议或网络研讨会达到容量要求，Teams 将无缝缩放，以容纳 10，000 人仅查看的直播体验。 此外，在这期间增加远程工作，充分利用今年年底甚至更多的 20，000 人直播。
 
 Microsoft Teams 允许最多 10，000 名与会者加入 Teams 会议。 达到主会议的容量后，其他与会者将加入仅查看体验。
 
@@ -40,7 +40,7 @@ Microsoft Teams 允许最多 10，000 名与会者加入 Teams 会议。 达到�
 我们提供完整的 Android 和 iOS 移动支持，与会者可加入。
 
 > [!Note]
-> 在 WW 中，可以聊天和呼叫参加会议的人数当前限制为 300 人，GCC、GCC High 和 DoD 中为 250 人。
+> 在 WW 中，可以聊天和呼叫会议的人数当前限制为 300 人，GCC、GCC High 和 DoD 中为 250 人。
 
 对于拥有 E3/E5/A3/A5 SKU 的任何组织者，默认禁用仅查看体验。 无需进一步配置或设置。
 
@@ -63,15 +63,15 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 管理员已禁用 Teams 仅查看体验。
 - 与会者无权绕过大厅。
 
-达到主会议的容量后，会议组织者和演示者将看到一个横幅，告知他们已达到会议容量，并且新与会者将加入仅查看的与会者。
+达到主会议的容量后，会议组织者和演示者将看到一个横幅，通知他们已达到会议容量，新与会者将加入仅查看的与会者。
 
   ![组织者和演示者的 Teams 客户端和横幅混乱](media/chat-and-banner-message.png)
 
-当达到主会议的容量时，会议与会者将在加入前屏幕上通知他们正在仅查看模式下加入。
+当达到主会议的容量时，会议与会者将在加入前屏幕上通知他们以仅查看模式加入。
 
   ![Teams 预加入屏幕和参与者的消息，告知他们将在仅查看模式下加入](media/view-only-pre-join-screen.png)
 
-如果有空间，用户始终会加入主会议。 如果主会议达到容量，并且一个或多个与会者离开主会议，则主会议具有可用容量。 加入会议或 (会议) 与会者将加入主会议，直到会议再次达到容量。 处于"仅查看"体验的与会者不会自动提升为主会议，当前无法手动提升为主会议。
+如果有空间，用户始终会加入主会议。 如果主会议达到容量，并且一个或多个与会者离开主会议，则主会议具有可用容量。 加入会议或 (会议) 与会者将加入主会议，直到再次达到容量。 处于"仅查看"体验的与会者不会自动提升为主会议，当前无法手动提升为主会议。
 
 如果尚未设置演示者/与会者角色，主会议中的空间将先到先得地填充。 达到会议容量后，所有其他用户将使用仅查看体验加入。
 
@@ -80,7 +80,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 会议演示者的限制包括：
 
 - 您将没有有关仅查看与会者的信息。 我们不支持仅查看与会者的 E-discovery。
-- 用户看不到仅查看与会者。
+- 用户看不到仅查看的与会者。
 - 不能从会议中删除仅查看与会者。
 
 > [!Note]
@@ -102,14 +102,14 @@ Teams 仅查看体验允许与会者：
 - 共享其音频或视频。
 - 查看或参与会议聊天。
 - 查看会议参与者的视频源，除非参与者是活动发言人。
-- 查看使用本机共享 PowerPoint 功能或单个应用程序共享共享的 PowerPoint (桌面共享) 。
+- 查看使用本机共享 PowerPoint 功能共享的 PowerPoint 文件或桌面共享 (应用程序共享) 。
 
 ## <a name="view-only-feature-limitations"></a>仅查看功能限制
 
-- 仅查看的与会者将始终看到实时字幕，而不考虑该会议的实时字幕设置。 目前仅支持英语字幕。
+- 无论会议的实时字幕设置如何，仅查看的与会者将始终看到实时字幕。 目前仅支持英语字幕。
 - 流式处理技术将支持仅查看与会者。
 - 仅查看的与会者不会包括在出席报告中。
-- 仅查看与会者将拥有单个视频体验。 他们可以看到活动发言人或正在共享的内容，但不能同时看到两者。
+- 仅查看与会者将拥有单个视频体验。 他们可以看到活动发言人或正在共享的内容，但不能同时看到这两者。
 - 我们当前不支持仅查看与会者的库、大型库或"共同"模式布局。   
 - 仅查看与会者的延迟与普通与会者不同。 <sup>1</sup>
 
