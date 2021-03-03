@@ -181,32 +181,22 @@ items:
             href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
           - name: 将本地 Skype for Business 升级到 Teams
             href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+          - name: 升级策略
+            href: upgrade-to-teams-on-prem-implement.md
       - name: 运行、采用和优化
         href: continue-journey.md
       - name: Skype for Business Online 停用
         href: skype-for-business-online-retirement.md
       - name: 常见问题
         href: FAQ-journey.yml
-      - name: 技术库
+      - name: 参考
         items:
-          - name: 适用于 IT 管理员的升级指南
-            items:
-              - name: 概述
-                href: upgrade-to-teams-on-prem-overview.md
-              - name: 升级方法
-                href: upgrade-to-teams-on-prem-upgrade-methods.md
-              - name: 用于管理组织的工具
-                href: upgrade-to-teams-on-prem-tools.md
-              - name: 有关 Skype for Business 本地版组织的注意事项
-                href: upgrade-to-teams-on-prem-considerations.md
-              - name: 实现升级
-                href: upgrade-to-teams-on-prem-implement.md
-              - name: Teams 和 Skype for Business 共存
-                href: upgrade-to-teams-on-prem-coexistence.md
-              - name: 共存模式 - 参考
-                href: migration-interop-guidance-for-teams-with-skype.md
-              - name: Teams 客户端体验和对共存模式的一致性
-                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: 用于管理升级的工具
+            href: upgrade-to-teams-on-prem-tools.md
+          - name: 共存模式 - 参考
+            href: migration-interop-guidance-for-teams-with-skype.md
+          - name: Teams 客户端体验和对共存模式的一致性
+            href: teams-client-experience-and-conformance-to-coexistence-modes.md
           - name: 设置共存和升级设置
             href: setting-your-coexistence-and-upgrade-settings.md
           - name: 会议优先
