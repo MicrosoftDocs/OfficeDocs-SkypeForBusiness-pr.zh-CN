@@ -15,47 +15,47 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 了解如何启用 Microsoft 手机系统直接路由用户。
-ms.openlocfilehash: 5739797649c639e3259c6972da665ae0ced4b4bf
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+description: 了解如何启用用户 Microsoft Phone 系统直接路由。
+ms.openlocfilehash: 972bd8d5e01a050a67978560b8de272439fda40d
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655479"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421307"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>为用户启用直接路由、语音和语音邮件
 
-本文介绍如何为用户启用电话系统直接路由。  这是用于配置直接路由的以下步骤的步骤2：
+本文介绍如何为用户启用电话系统直接路由。  这是配置直接路由的以下步骤的步骤 2：
 
-- 第 1 步 [将 SBC 连接到 Microsoft Phone 系统并验证连接](direct-routing-connect-the-sbc.md) 
-- **步骤2。 (本文中启用直接路由、语音和语音邮件的用户**  ) 
+- 第 1 步 [将 SBC 与 Microsoft Phone System 连接并验证连接](direct-routing-connect-the-sbc.md) 
+- **步骤 2.为用户启用直接路由、语音和语音邮件**   (本文) 
 - 第 3 步 [配置语音路由](direct-routing-voice-routing.md)
 - 第 4 步 [将数字转换为备用格式](direct-routing-translate-numbers.md) 
 
 
-有关设置直接路由所需的所有步骤的信息，请参阅 [配置直接路由](direct-routing-configure.md)。
+有关设置直接路由所需的所有步骤的信息，请参阅"配置[直接路由"。](direct-routing-configure.md)
 
-准备好为用户启用直接路由时，请按照下列步骤操作： 
+准备好为用户启用直接路由时，请执行以下步骤： 
 
 1. 在 Microsoft 365 或 Office 365 中创建用户并分配电话系统许可证。 
-2. 确保用户托管在 Skype for Business Online 中。 
+2. 确保用户位于 Skype for Business Online 中。 
 3. 配置电话号码并启用企业语音和语音邮件。 
-4. 向用户分配 "仅团队" 模式。
+4. 向用户分配"仅 Teams"模式。
 
 ## <a name="create-a-user-and-assign-the-license"></a>创建用户并分配许可证 
 
-有两个选项可用于在 Microsoft 365 或 Office 365 中创建新用户。 但是，Microsoft 建议你的组织选择一个选项来避免路由问题： 
+有两个选项用于在 Microsoft 365 或 Office 365 中创建新用户。 但是，Microsoft 建议组织选择一个选项以避免路由问题： 
 
-- 在本地 Active Directory 中创建用户并将用户同步到云。 请参阅 [将本地目录与 Azure Active Directory 集成](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。
-- 直接在 Microsoft 365 管理中心创建用户。 请参阅 [将用户逐个或批量添加到 Microsoft 365 或 Office 365-管理员帮助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
+- 在本地 Active Directory 中创建用户，将该用户同步到云。 请参阅["将本地目录与 Azure Active Directory 集成"。](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
+- 直接在 Microsoft 365 管理中心创建用户。 请参阅["将用户单独或批量添加到 Microsoft 365 或 Office 365 - 管理员帮助"。](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
-如果您的 Skype for Business Online 部署 coexists 使用 Skype for business 2015 或 Lync 2010 或本地2013，则唯一支持的选项是在本地 Active Directory 中创建用户并将用户同步到云 (选项 1) 。 
+如果 Skype for Business Online 部署与本地 Skype for Business 2015 或 Lync 2010 或 2013 共存，则唯一支持的选项是在本地 Active Directory 创建用户，将用户同步到云 (选项 1) 。 
 
-有关许可证要求的信息，请参阅[计划直接路由](direct-routing-plan.md)中的[许可和其他要求](direct-routing-plan.md#licensing-and-other-requirements)。
+有关许可证要求的信息，请参阅 [计划直接路由中的](direct-routing-plan.md#licensing-and-other-requirements) 许可 [和其他要求](direct-routing-plan.md)。
 
-## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>确保用户处于联机状态，并且电话号码未从本地 (适用于 Skype for Business 服务器企业语音已启用用户迁移到团队直接路由) 
+## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>确保用户是在线家庭用户且电话号码未从本地 (同步，而该本地 (适用于启用了 Skype for Business Server 企业语音 且正在迁移到 Teams Direct Routing) 
 
-直接路由要求用户在网上托管。 你可以查看 RegistrarPool 参数，该参数需要在 infra.lync.com 域中具有值。 OnPremLineUriManuallySet 参数还应设置为 True。 这可以通过配置电话号码并使用 Skype for Business Online PowerShell 启用企业语音和语音邮件来实现。
+直接路由要求用户联机进行家庭管理。 可以通过查看 RegistrarPool 参数来检查，该参数需要在 infra.lync.com 中。 OnPremLineUriManuallySet 参数也应设置为 True。 这是通过使用 Skype for Business Online PowerShell 配置电话号码并启用企业语音和语音邮件实现的。
 
 1. 连接 Skype for Business Online PowerShell 会话。
 
@@ -64,14 +64,14 @@ ms.locfileid: "48655479"
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    如果将 OnPremLineUriManuallySet 设置为 False，并且 LineUri 是使用 <E. 164 个电话号码>，请在使用 Skype for business Online PowerShell 配置电话号码之前，使用本地 Skype for business Management Shell 清理参数。 
+    如果 OnPremLineUriManuallySet 设置为 False 且 LineUri 填充了 <E.164 电话号码>，请在使用 Skype for Business Online PowerShell 配置电话号码之前，使用本地 Skype for Business 命令行管理程序清理参数。 
 
-1. 从 Skype for Business Management Shell 发出命令： 
+1. 从 Skype for Business 命令行管理程序发出以下命令： 
 
    ```PowerShell
    Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
     ``` 
-   更改同步到 Office 365 后，预期的输出为 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` ：
+   将更改同步到 Office 365 后，预期输出 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` 为：
 
    ```console
    RegistrarPool                        : pool.infra.lync.com
@@ -84,7 +84,7 @@ ms.locfileid: "48655479"
 
 创建用户并分配许可证后，下一步是配置用户的电话号码和语音邮件。 
 
-要为语音邮件添加电话号码和启用，请执行以下操作：
+添加电话号码并启用语音邮件：
  
 1. 连接 Skype for Business Online PowerShell 会话。 
 
@@ -94,34 +94,34 @@ ms.locfileid: "48655479"
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     
-    例如，若要为用户 "Spencer Low" 添加电话号码，请输入以下内容： 
+    例如，若要为用户"Spencer Low"添加电话号码，请输入以下代码： 
 
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
-    如果用户 "Spencer Low" 和 "Stacy Quinn" 与唯一扩展名共享相同的基本号码，请输入以下
+    如果用户"Spencer Low"和"Stacy Quinn"共享同一个具有唯一扩展名的基号，请输入以下代码
     
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
-    建议使用的电话号码配置为完整的 E-164 电话号码（国家/地区代码）。 支持使用扩展配置电话号码，当基础号码的查找结果超过一个时，将用于查找用户。 这允许公司配置具有相同基本号码和唯一扩展名的电话号码。 为使查找成功，邀请必须包含带扩展名的完整号码，如下所示：
+    建议但不要求将使用的电话号码配置为完整的 E.164 电话号码以及国家/地区代码。 支持使用分机号配置电话号码，当针对基本号码的查找返回多个结果时，将用来查找用户。 这允许公司使用相同的基本号码和唯一分机号配置电话号码。 若要成功查找，邀请必须包含完整的扩展号，如下所示：
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
     
     > [!NOTE]
-    > 如果用户的电话号码是在本地管理的，请使用本地 Skype for Business Management Shell 或控制面板配置用户的电话号码。 
+    > 如果用户的电话号码在本地管理，请使用本地 Skype for Business 命令行管理程序或控制面板来配置用户的电话号码。 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>配置将呼叫直接发送到语音邮件
 
-直接路由允许您结束呼叫用户并将其直接发送到用户的语音邮件。 如果您想要将呼叫直接发送到语音邮件，请将不透明 = app：语音邮件附加到请求 URI 标题。 例如，"sip： user@yourdomain .com; 不透明 = 应用：语音邮件"。 在这种情况下，团队用户将不会收到呼叫通知，直接将呼叫连接到用户的语音邮件。
+直接路由允许你结束对用户的呼叫，并将其直接发送到用户的语音邮件。 如果要将呼叫直接发送到语音邮件，请将 opaque=app：voicemail 附加到请求 URI 标头。 例如，"sip：user@yourdomain.com;opaque=app：voicemail"。 在这种情况下，Teams 用户不会收到呼叫通知，呼叫将直接连接到用户的语音邮件。
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>向用户分配 "仅团队" 模式以确保在 Microsoft 团队中拨打土地
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>向用户分配"仅 Teams"模式以确保呼叫进入 Microsoft Teams
 
-直接路由要求用户仅在 "仅工作组" 模式下，以确保传入呼叫位于团队客户的土地。 若要将用户置于 "仅团队" 模式，请为他们分配 TeamsUpgradePolicy 的 "UpgradeToTeams" 实例。 有关详细信息，请参阅 [IT 管理员的升级指南](upgrade-to-teams-on-prem-overview.md)。 如果你的组织使用 Skype for business 服务器或 Skype for business Online，请参阅以下文章了解有关 Skype 和团队之间的互操作性的信息： [迁移和与 skype](migration-interop-guidance-for-teams-with-skype.md)for business 之间的互操作性。
+直接路由要求用户进入"仅 Teams"模式，以确保传入呼叫进入 Teams 客户端。 若要将用户置于"仅 Teams"模式，请为其分配 TeamsUpgradePolicy 的"UpgradeToTeams"实例。 有关详细信息，请参阅适用于 [IT 管理员的升级策略](upgrade-to-teams-on-prem-implement.md)。 如果你的组织使用 Skype for Business Server 或 Skype for Business Online，请参阅以下文章，了解 Skype 和 Teams 之间的互操作性：迁移和与 [Skype for Business 的互操作性](migration-interop-guidance-for-teams-with-skype.md)。
 
 ## <a name="see-also"></a>另请参阅
 

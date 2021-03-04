@@ -1,5 +1,5 @@
 ---
-title: '管理联合身份验证 (外部) '
+title: '管理外部访问 (联合身份验证) '
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,21 +21,18 @@ description: 你的 Teams 管理员或 IT 管理员可以为其他域配置外�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b5d8bb969725507eec54a66c7ccb20b6eb54ec68
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: ae9a198de7fa15ac77743b2477a44602e54fecb7
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055744"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421327"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 
-外部访问是一种让整个外部域中的 Teams 用户在 Teams 中查找、呼叫、聊天和设置会议的方式。 您还可以使用外部访问来与仍在联机和本地 (以及预览版) 和 Skype (使用 Skype for Business) 的其他组织的人员进行通信。
+外部访问是一种供整个外部域中的 Teams 用户在 Teams 中查找、呼叫、聊天和设置会议的方式。 您还可以使用外部访问来与其他组织中仍在使用 Skype for Business (online 和本地) 和 Skype (预览版) 。
 
-> [!NOTE]
-> 允许或阻止的域仅适用于对会议的匿名访问"关闭"时的会议。
-
-如果希望其他组织中的人员有权访问团队和频道，来宾访问可能是更好的选择。 有关外部访问和来宾访问之间的差异的详细信息，请参阅[比较外部访问和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。 
+如果希望其他组织中的人员能够访问团队和频道，来宾访问可能是更好的选择。 有关外部访问和来宾访问之间的差异的详细信息，请参阅[比较外部访问和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。 
 
 在以下情况下使用外部访问：
   
@@ -46,11 +43,14 @@ ms.locfileid: "50055744"
 - 你希望世界各地使用 Teams 的所有其他人都能够通过使用你的电子邮件地址找到并联系你。 
 
 > [!IMPORTANT]
-> 要使用 Teams 客户端与外部用户通信 (无论该用户使用的是 Teams 还是 Skype for Business) ，Teams 用户都必须位于 Skype for Business Online 中。
+> 若要使用 Teams 客户端与外部用户通信 (无论该用户使用的是 Teams 还是 Skype for Business) ，Teams 用户都必须位于 Skype for Business Online 中。
 
 ## <a name="plan-for-external-access"></a>规划外部访问
 
 默认情况下，Teams 中的外部访问处于启用状态，这意味着你的组织可以与所有外部域进行通信。 如果添加阻止的域，将允许所有其他域；如果添加允许的域，将阻止所有其他域。 此规则的例外情况是允许匿名参与者参加会议。 在 Teams 管理中心（“**组织范围的设置**” > “**外部访问**”）设置外部访问有三种情形：
+
+> [!NOTE]
+> 如果关闭组织中外部访问，外部用户仍可通过匿名加入加入会议。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)。
 
 - **开放式联合身份验证**：这是 Teams 中的默认设置，可让你组织中的用户查找你组织外部任何域中的人员，并与这些人员进行通话、聊天和安排会议。
 
@@ -61,7 +61,7 @@ ms.locfileid: "50055744"
 - **阻止特定域** - 通过将域添加到“**阻止**”列表中，可与 *除阻止的域之外* 的所有外部域进行通信。 若要阻止特定域，请单击“**添加域**”，添加域名，单击“**要在此域上执行的操作**”，然后选择“**已阻止**”。 设置阻止的域列表后，将允许所有其他域。
 
 > [!NOTE]
-> 如果关闭组织中外部访问，外部用户仍可通过匿名加入加入会议。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)。
+> 允许或阻止的域仅适用于对会议的匿名访问"关闭"时的会议。
 
 ## <a name="allow-or-block-domains"></a>允许或阻止域
 
@@ -118,17 +118,17 @@ ms.locfileid: "50055744"
 
 ## <a name="common-external-access-scenarios"></a>常见外部访问情形
 
-以下部分介绍如何为常见的外部访问方案启用联合身份验证，以及 TeamsUpgradePolicy 如何确定传入聊天和呼叫的传送。
+以下部分介绍如何为常见的外部访问方案启用联合，以及 TeamsUpgradePolicy 如何确定传入聊天和呼叫的传送。
 
 ### <a name="enable-federation"></a>启用联合身份验证
 
-若要使贵组织的用户能够与另一个组织中用户通信，这两个组织都必须启用联合。 为给定组织启用联合的步骤取决于组织是纯联机、混合还是纯本地。
+若要使贵组织的用户能够与另一个组织中用户通信，这两个组织必须启用联合。 为给定组织启用联合身份验证的步骤取决于组织是纯联机、混合还是纯本地。
 
-|**如果你的组织** |**启用联合身份验证，如下所示**  |
+|**如果你的组织** |**按如下所示启用联合身份验证**  |
 |:---------|:-----------------------|
-|联机，没有本地 Skype for Business。 这包括拥有 TeamsOnly 用户和/或 Skype for Business Online 用户的组织。| 如果使用 Teams 管理中心： <br>- 确保在" **外部访问"中启用了"用户可以** 与其他 Skype for Business 和 Teams 用户"设置进行通信。<br>- 如果不使用允许与任何其他域 (联合身份验证的开放联合) ，则向"允许"列表中添加外部域。<br><br>如果使用 PowerShell：<br>- 确保租户已启用联合身份验证： `Get-CsTenantFederationConfiguration` 必须显示 `AllowFederatedUsers=true` 。 <br>- 确保用户的有效值为 `CsExternalAccessPolicy` `EnableFederationAccess=true` has。<br>- 如果不使用开放联合身份验证，请确保目标域列在 `AllowedDomains` `CsTenantFederationConfiguration` . |
-|纯本地 | 在本地工具中： <br>- 确保在 `CsAccessEdgeConfiguration` .<br>- 确保通过全局策略、 (策略或用户分配的策略来启用用户 `ExternalAccessPolicy`) 。 <br> - 如果不使用开放联合身份验证，请确保目标域列在 `AllowedDomains` . |
-|在 Skype for Business (Teams) 与某些在线用户混合使用。 | 为联机和本地组织执行上述步骤。 |
+|联机，没有本地 Skype for Business。 这包括具有 TeamsOnly 用户和/或 Skype for Business Online 用户的组织。| 如果使用 Teams 管理中心： <br>- 确保在外部访问中启用"用户可以与其他 **Skype for Business** 和 Teams 用户"设置进行通信。<br>- 如果不使用开放联合身份验证 (允许与其他域联合) ，则向"允许"列表添加外部域。<br><br>如果使用 PowerShell：<br>- 确保租户已启用联合身份验证： `Get-CsTenantFederationConfiguration` 必须显示 `AllowFederatedUsers=true` 。 <br>- 确保用户的有效值为 `CsExternalAccessPolicy` `EnableFederationAccess=true` has。<br>- 如果不使用开放联合身份验证，请确保目标域列在 `AllowedDomains` `CsTenantFederationConfiguration` . |
+|纯本地 | 在本地工具中： <br>- 确保在 中启用联合 `CsAccessEdgeConfiguration` 身份验证。<br>- 确保通过全局策略、 (策略或用户分配的策略来启用用户 `ExternalAccessPolicy`) 。 <br> - 如果不使用开放联合身份验证，请确保目标域列在 `AllowedDomains` . |
+|在 Skype for Business (Teams (与某些在线用户进行混合) 以及在本地使用某些用户。 | 为联机和本地组织执行上述步骤。 |
 
 ### <a name="delivery-of-incoming-chats-and-calls"></a>传入聊天和呼叫的传送 
 
@@ -137,18 +137,18 @@ ms.locfileid: "50055744"
 |**如果要** |**执行此操作：**  |
 |:---------|:-----------------------|
 | 确保传入的联合聊天和呼叫到达用户的 Teams 客户端： | 将用户配置为 TeamsOnly。
-| 确保传入的联合聊天和呼叫到达用户的 Skype for Business 客户端 | 将用户配置为 TeamsOnly 外的任何模式。 |
+| 确保传入的联合聊天和呼叫到达用户的 Skype for Business 客户端 | 将用户配置为除 TeamsOnly 外的任何模式。 |
 
 
-### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>在组织中用户与 Skype 消费者用户之间启用联合
+### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>在组织中用户与 Skype 使用者用户之间启用联合
 
 若要在组织中用户与 Skype 使用者用户之间启用联合，
 
-|**如果你的组织** |**按如下所示启用使用者联合身份验证**  |
+|**如果你的组织** |**按如下所示启用使用者联合**  |
 |:---------|:-----------------------|
-| 纯在线，没有本地 Skype for Business。  这包括拥有 TeamsOnly 用户和/或 Skype for Business Online 用户的组织。 | 如果使用 Teams 管理中心： <br>-确保 **"外部访问"中已启用"用户可以与 Skype** 用户通信"。<br><br>如果使用 PowerShell： <br>-确保租户已启用联合身份验证： `Get-CsTenantFederationConfiguration` 必须显示 `AllowPublicUsers=true` 。 <br> - 确保用户的有效值为 `CsExternalAccessPolicy` `EnablePublicCloudAccess=true` has。 |
+| 纯在线，没有本地 Skype for Business。  这包括具有 TeamsOnly 用户和/或 Skype for Business Online 用户的组织。 | 如果使用 Teams 管理中心： <br>-确保在 **外部访问中启用用户可以与 Skype** 用户通信。<br><br>如果使用 PowerShell： <br>-确保租户已启用联合身份验证： `Get-CsTenantFederationConfiguration` 必须显示 `AllowPublicUsers=true` 。 <br> - 确保用户的有效值为 `CsExternalAccessPolicy` `EnablePublicCloudAccess=true` has。 |
 | 纯本地 | 在本地工具中： <br> - 确保 Skype 作为联合合作伙伴启用。 <br> - `EnablePublicCloudAccess=true` 通过全局策略、 (策略或用户分配的策略，确保用户 `ExternalAccessPolicy`) 。|
-| 在 Skype for Business (Teams) 与某些在线用户混合使用。| 为联机和本地组织执行上述步骤。
+| 在 Skype for Business (Teams (与某些在线用户进行混合) 以及在本地使用某些用户。| 为联机和本地组织执行上述步骤。
 
 
 > [!IMPORTANT]
