@@ -1,5 +1,5 @@
 ---
-title: 与其他组织中的用户通话和聊天
+title: 使用来宾访问权限和外部访问权限与组织外部的人员进行协作
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 了解如何使用外部访问（联盟）和来宾访问在 Microsoft Teams 中与组织外部的人员进行通话和聊天以及查找和添加这些人员。
-ms.openlocfilehash: 5c5eecf5ceb2228f981a7cd06b52f3b5a1b787d7
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145830"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421317"
 ---
-# <a name="call-chat-and-collaborate-with-people-outside-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中与组织外部的人员通话、聊天和协作
+# <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用来宾访问权限和外部访问权限与组织外部的人员进行协作
 
 当需要与组织外部的人员进行通信和协作时，Microsoft Teams 可为你提供两种选择：
 
