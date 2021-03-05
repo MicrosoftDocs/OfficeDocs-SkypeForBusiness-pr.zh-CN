@@ -22,69 +22,69 @@ f1.keywords:
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
-description: 了解有关使用 Microsoft 批量许可的组织启用音频会议功能的每分钟费率选项。
-ms.openlocfilehash: 858b0f34075e2aa81e4c34794c96f37a2d5c9d36
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+description: 了解使用 Microsoft 批量许可为组织启用音频会议功能的"按分钟付费"选项。
+ms.openlocfilehash: 846c169206a96c4587ecee5bbb55215dd9dc4081
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788676"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460672"
 ---
-# <a name="audio-conferencing-pay-per-minute"></a><span data-ttu-id="8edc9-103">音频会议按分钟付费</span><span class="sxs-lookup"><span data-stu-id="8edc9-103">Audio Conferencing pay-per-minute</span></span>
+# <a name="audio-conferencing-pay-per-minute"></a><span data-ttu-id="41a00-103">音频会议按分钟付费</span><span class="sxs-lookup"><span data-stu-id="41a00-103">Audio Conferencing pay-per-minute</span></span>
 
-<span data-ttu-id="8edc9-104">除了标准音频会议每用户许可证，批量和授权组织还可以选择为其组织启用音频会议功能的每分钟费率优惠。</span><span class="sxs-lookup"><span data-stu-id="8edc9-104">In addition to the standard Audio Conferencing per-user license, Volume and Licensing organizations can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations.</span></span>
+<span data-ttu-id="41a00-104">除了标准每用户音频会议许可证外，批量和许可组织还可以选择按分钟付费产品/服务，为组织启用音频会议功能。</span><span class="sxs-lookup"><span data-stu-id="41a00-104">In addition to the standard Audio Conferencing per-user license, Volume and Licensing organizations can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations.</span></span>
   
 
-<span data-ttu-id="8edc9-105">您可以了解您的 [国家/地区是否支持](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 音频会议。</span><span class="sxs-lookup"><span data-stu-id="8edc9-105">You can find out if your [country/region is supported](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) for Audio Conferencing.</span></span>
+<span data-ttu-id="41a00-105">你可以查明你的国家 [/地区是否支持音频](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 会议。</span><span class="sxs-lookup"><span data-stu-id="41a00-105">You can find out if your [country/region is supported](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) for Audio Conferencing.</span></span>
 
   
 > [!NOTE]
-> <span data-ttu-id="8edc9-106">由于此优惠仅适用于批量和授权客户，因此你需要与你的帐户代表一起获取这些许可证。</span><span class="sxs-lookup"><span data-stu-id="8edc9-106">Because this offer is only available to Volume and Licensing customers, you will need to work with your account representative to acquire these licenses.</span></span> 
+> <span data-ttu-id="41a00-106">由于此产品/服务仅适用于批量和许可客户，因此你需要与帐户代表合作才能获取这些许可证。</span><span class="sxs-lookup"><span data-stu-id="41a00-106">Because this offer is only available to Volume and Licensing customers, you will need to work with your account representative to acquire these licenses.</span></span> 
   
-## <a name="need-some-details"></a><span data-ttu-id="8edc9-107">需要一些详细信息？</span><span class="sxs-lookup"><span data-stu-id="8edc9-107">Need some details?</span></span>
+## <a name="need-some-details"></a><span data-ttu-id="41a00-107">需要一些详细信息？</span><span class="sxs-lookup"><span data-stu-id="41a00-107">Need some details?</span></span>
 
-<span data-ttu-id="8edc9-108">音频会议每用户许可证提供包括电话拨入式使用和某些拨出使用，因此每分钟收费的音频会议 **允许您每分钟购买所有音频会议，而无需支付每个用户每月许可证**。</span><span class="sxs-lookup"><span data-stu-id="8edc9-108">Whereas the Audio Conferencing per-user license offer includes dial-in usage and some dial-out usage, Audio Conferencing pay-per-minute **allows you to pay for all of your Audio Conferencing usage on a per-minute basis without paying for a per-user monthly license**.</span></span> <span data-ttu-id="8edc9-109">这样，所有拨入和拨出通话将按分钟收费，包括：</span><span class="sxs-lookup"><span data-stu-id="8edc9-109">With this, all dial-in and dial-out calls will be charged on a per-minute basis, including:</span></span>
+<span data-ttu-id="41a00-108">音频会议每用户许可证产品/服务包括拨入使用情况和一些拨出使用情况，而音频会议按分钟付费允许你按分钟支付所有音频会议使用情况，而无需为每个用户的每月许可证 **付费。**</span><span class="sxs-lookup"><span data-stu-id="41a00-108">Whereas the Audio Conferencing per-user license offer includes dial-in usage and some dial-out usage, Audio Conferencing pay-per-minute **allows you to pay for all of your Audio Conferencing usage on a per-minute basis without paying for a per-user monthly license**.</span></span> <span data-ttu-id="41a00-109">这样，所有拨入和拨出呼叫将按分钟收费，包括：</span><span class="sxs-lookup"><span data-stu-id="41a00-109">With this, all dial-in and dial-out calls will be charged on a per-minute basis, including:</span></span>
   
-- <span data-ttu-id="8edc9-110">拨入到您的组织的收费音频会议号码。</span><span class="sxs-lookup"><span data-stu-id="8edc9-110">Inbound calls to toll Audio Conferencing numbers of your organization.</span></span>
+- <span data-ttu-id="41a00-110">拨打贵组织的收费音频会议号码的入站呼叫。</span><span class="sxs-lookup"><span data-stu-id="41a00-110">Inbound calls to toll Audio Conferencing numbers of your organization.</span></span>
     
-- <span data-ttu-id="8edc9-111">拨入您的组织的免费音频会议号码。</span><span class="sxs-lookup"><span data-stu-id="8edc9-111">Inbound calls to toll-free Audio Conferencing numbers of your organization.</span></span>
+- <span data-ttu-id="41a00-111">拨打贵组织的免费音频会议号码的入站呼叫。</span><span class="sxs-lookup"><span data-stu-id="41a00-111">Inbound calls to toll-free Audio Conferencing numbers of your organization.</span></span>
     
-- <span data-ttu-id="8edc9-112">拨出电话来自组织会议内的外部电话号码。</span><span class="sxs-lookup"><span data-stu-id="8edc9-112">Outbound calls placed to external phone numbers from within a meeting of your organization.</span></span>
+- <span data-ttu-id="41a00-112">从组织会议内拨打外部电话号码的出站呼叫。</span><span class="sxs-lookup"><span data-stu-id="41a00-112">Outbound calls placed to external phone numbers from within a meeting of your organization.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="8edc9-113">通过查看[音频会议](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)中的 "**查看要呼叫的位置的费率" 部分**，可以找到与这些通话类型相关联的拨入和拨出费率。</span><span class="sxs-lookup"><span data-stu-id="8edc9-113">You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in [Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).</span></span>
+> <span data-ttu-id="41a00-113">通过查看音频会议中要呼叫的通话地点的"查看"费率，可以找到与这些类型的呼叫相关联的拨入和拨出[费率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)。</span><span class="sxs-lookup"><span data-stu-id="41a00-113">You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in [Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).</span></span>
   
-<span data-ttu-id="8edc9-114">每分钟支付要求您的组织设置 [通讯信用点数](what-are-communications-credits.md) 。</span><span class="sxs-lookup"><span data-stu-id="8edc9-114">Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) set up.</span></span> <span data-ttu-id="8edc9-115">它还要求每个用户必须分配每分钟付费许可证和通讯信用许可证，才能使用音频会议。</span><span class="sxs-lookup"><span data-stu-id="8edc9-115">It also requires that a Pay-per-minute license and a Communications Credits license must both be assigned to each user for Audio Conferencing to work.</span></span> <span data-ttu-id="8edc9-116">如果需要更多详细信息，请参阅为你的组织和/或[Microsoft 团队附加许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)[设置通信信用点数](set-up-communications-credits-for-your-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="8edc9-116">If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).</span></span>
+<span data-ttu-id="41a00-114">按分钟付费要求组织设置 [通信](what-are-communications-credits.md) 信用额度。</span><span class="sxs-lookup"><span data-stu-id="41a00-114">Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) set up.</span></span> <span data-ttu-id="41a00-115">它还要求向每个用户分配按分钟付费许可证和通信信用额度许可证，音频会议才能正常工作。</span><span class="sxs-lookup"><span data-stu-id="41a00-115">It also requires that a Pay-per-minute license and a Communications Credits license must both be assigned to each user for Audio Conferencing to work.</span></span> <span data-ttu-id="41a00-116">如果需要更多详细信息，请参阅为组织和/[](set-up-communications-credits-for-your-organization.md)或 Microsoft Teams 附加许可[设置通信信用额度](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。</span><span class="sxs-lookup"><span data-stu-id="41a00-116">If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).</span></span>
   
-<span data-ttu-id="8edc9-117">若要为组织中的用户启用音频会议每分钟支付，请参阅 [在 Microsoft Office 365 或 Office 365 中试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="8edc9-117">To enable Audio Conferencing pay-per-minute for users in your organization, see [Try or purchase Audio Conferencing in Microsoft Office 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).</span></span>
+<span data-ttu-id="41a00-117">若要为贵组织的用户启用"音频会议每分钟付费"，请参阅"试用或购买 [Microsoft Office 365 或 Office 365 中的](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)音频会议。</span><span class="sxs-lookup"><span data-stu-id="41a00-117">To enable Audio Conferencing pay-per-minute for users in your organization, see [Try or purchase Audio Conferencing in Microsoft Office 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).</span></span>
 
-## <a name="why-is-it-best-for-you"></a><span data-ttu-id="8edc9-118">为什么最适合您？</span><span class="sxs-lookup"><span data-stu-id="8edc9-118">Why is it best for you?</span></span>
+## <a name="why-is-it-best-for-you"></a><span data-ttu-id="41a00-118">为什么它最适合你？</span><span class="sxs-lookup"><span data-stu-id="41a00-118">Why is it best for you?</span></span>
 
-- <span data-ttu-id="8edc9-119">每分钟支付的每分钟费率仅针对每个与会者在计划会议期间发出的入站或出站呼叫收费 (费率因收费电话或免费通话以及目标) 而异，而不是在移动设备或电脑中使用 Skype for business 或团队应用程序。</span><span class="sxs-lookup"><span data-stu-id="8edc9-119">Pay per-minute will only be charged on a per-minute basis for each inbound or outbound call placed by each attendee during a scheduled meeting (rates vary for toll or toll-free call and by destination) instead of using Skype for Business or Teams application in a mobile device or PC.</span></span>
+- <span data-ttu-id="41a00-119">对于在计划会议期间每个与会者拨打的入站或出站呼叫，将按分钟付费 (收费费率因收费或免费呼叫和目的地) 而异，而不是在移动设备或电脑上使用 Skype for Business 或 Teams 应用程序。</span><span class="sxs-lookup"><span data-stu-id="41a00-119">Pay per-minute will only be charged on a per-minute basis for each inbound or outbound call placed by each attendee during a scheduled meeting (rates vary for toll or toll-free call and by destination) instead of using Skype for Business or Teams application in a mobile device or PC.</span></span>
 
-- <span data-ttu-id="8edc9-120">管理成本的功能，因为管理员可以控制拨出 (国际和国内) 的类型，这些类型可从组织者的会议中完成。</span><span class="sxs-lookup"><span data-stu-id="8edc9-120">Capability to manage cost since admins can control to restrict the types of dial-outs (international and domestic) that can be done from the meetings of an organizer.</span></span> <span data-ttu-id="8edc9-121">查看 [用于音频会议和用户 PSTN 呼叫的出站呼叫限制策略](/microsoftteams/outbound-calling-restriction-policies)</span><span class="sxs-lookup"><span data-stu-id="8edc9-121">See [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/microsoftteams/outbound-calling-restriction-policies)</span></span>
+- <span data-ttu-id="41a00-120">能够管理成本，因为管理员可以控制限制国际 (国内) 的拨出类型，这可以通过组织者的会议完成。</span><span class="sxs-lookup"><span data-stu-id="41a00-120">Capability to manage cost since admins can control to restrict the types of dial-outs (international and domestic) that can be done from the meetings of an organizer.</span></span> <span data-ttu-id="41a00-121">查看[音频会议和用户 PSTN](/microsoftteams/outbound-calling-restriction-policies)呼叫的出站呼叫限制策略</span><span class="sxs-lookup"><span data-stu-id="41a00-121">See [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/microsoftteams/outbound-calling-restriction-policies)</span></span>
 
-- <span data-ttu-id="8edc9-122">如果你有按分钟付费的音频会议许可证，无需专门为使用音频会议而将通信点数许可证单独分配给每个用户（对于其他服务，可能仍然需要对其进行分配）。</span><span class="sxs-lookup"><span data-stu-id="8edc9-122">If you have Audio Conferencing pay-per-minute licenses, you don't have to assign Communications Credits licenses separately to each user specifically for Audio Conferencing usage (you might still need to assign them for other services).</span></span>
+- <span data-ttu-id="41a00-122">如果你有按分钟付费的音频会议许可证，无需专门为使用音频会议而将通信点数许可证单独分配给每个用户（对于其他服务，可能仍然需要对其进行分配）。</span><span class="sxs-lookup"><span data-stu-id="41a00-122">If you have Audio Conferencing pay-per-minute licenses, you don't have to assign Communications Credits licenses separately to each user specifically for Audio Conferencing usage (you might still need to assign them for other services).</span></span>
 
-- <span data-ttu-id="8edc9-123">使用通信信用点数控制和监控每分钟支付的费用。</span><span class="sxs-lookup"><span data-stu-id="8edc9-123">Control and monitor pay-per minute charges by using Communications Credits.</span></span>
+- <span data-ttu-id="41a00-123">使用通信信用额度控制和监视每分钟付费。</span><span class="sxs-lookup"><span data-stu-id="41a00-123">Control and monitor pay-per minute charges by using Communications Credits.</span></span>
 
-- <span data-ttu-id="8edc9-124">对于不需要所有用户订购的客户，定价更具灵活性。</span><span class="sxs-lookup"><span data-stu-id="8edc9-124">More flexibility in pricing for customers who don't need all users on a subscription basis.</span></span> 
+- <span data-ttu-id="41a00-124">对于不需要订阅上所有用户的客户，在定价方面具有更大的灵活性。</span><span class="sxs-lookup"><span data-stu-id="41a00-124">More flexibility in pricing for customers who don't need all users on a subscription basis.</span></span> 
 
-- <span data-ttu-id="8edc9-125">启用音频会议每分钟支付的每分钟付款或单独的音频会议套餐，这两种服务将继续以同样的方式工作。</span><span class="sxs-lookup"><span data-stu-id="8edc9-125">Enable Audio Conferencing pay-per-minute along with a monthly subscription of E5 or a standalone Audio Conferencing subscription, both services will continue to work the same way.</span></span> <span data-ttu-id="8edc9-126">更改不会影响音频会议或通讯信用点数。</span><span class="sxs-lookup"><span data-stu-id="8edc9-126">Changes will have no effect on the operations of Audio Conferencing or Communications Credits.</span></span>
+- <span data-ttu-id="41a00-125">启用音频会议按分钟付费以及每月 E5 订阅或独立音频会议订阅，这两种服务将继续以相同方式工作。</span><span class="sxs-lookup"><span data-stu-id="41a00-125">Enable Audio Conferencing pay-per-minute along with a monthly subscription of E5 or a standalone Audio Conferencing subscription, both services will continue to work the same way.</span></span> <span data-ttu-id="41a00-126">更改对音频会议或通信积分的操作没有影响。</span><span class="sxs-lookup"><span data-stu-id="41a00-126">Changes will have no effect on the operations of Audio Conferencing or Communications Credits.</span></span>
   
-## <a name="want-to-find-out-more-about-pricing"></a><span data-ttu-id="8edc9-127">想要了解有关定价的详细信息？</span><span class="sxs-lookup"><span data-stu-id="8edc9-127">Want to find out more about pricing?</span></span>
+## <a name="want-to-find-out-more-about-pricing"></a><span data-ttu-id="41a00-127">想要了解有关定价的详细信息？</span><span class="sxs-lookup"><span data-stu-id="41a00-127">Want to find out more about pricing?</span></span>
 
- <span data-ttu-id="8edc9-128">**正在搜索价格？**</span><span class="sxs-lookup"><span data-stu-id="8edc9-128">**Looking for prices?**</span></span> <span data-ttu-id="8edc9-129">请参阅以下内容：</span><span class="sxs-lookup"><span data-stu-id="8edc9-129">See the following:</span></span>
+ <span data-ttu-id="41a00-128">**正在搜索价格？**</span><span class="sxs-lookup"><span data-stu-id="41a00-128">**Looking for prices?**</span></span> <span data-ttu-id="41a00-129">请参阅以下内容：</span><span class="sxs-lookup"><span data-stu-id="41a00-129">See the following:</span></span>
   
-- [<span data-ttu-id="8edc9-130">音频会议的定价</span><span class="sxs-lookup"><span data-stu-id="8edc9-130">Pricing for Audio Conferencing</span></span>](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [<span data-ttu-id="41a00-130">音频会议的定价</span><span class="sxs-lookup"><span data-stu-id="41a00-130">Pricing for Audio Conferencing</span></span>](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
     
-- [<span data-ttu-id="8edc9-131">电话系统定价</span><span class="sxs-lookup"><span data-stu-id="8edc9-131">Pricing for Phone System</span></span>](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [<span data-ttu-id="41a00-131">电话系统定价</span><span class="sxs-lookup"><span data-stu-id="41a00-131">Pricing for Phone System</span></span>](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
     
-- [<span data-ttu-id="8edc9-132">通话套餐的定价</span><span class="sxs-lookup"><span data-stu-id="8edc9-132">Pricing for Calling Plans</span></span>](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
+- [<span data-ttu-id="41a00-132">通话套餐的定价</span><span class="sxs-lookup"><span data-stu-id="41a00-132">Pricing for Calling Plans</span></span>](https://go.microsoft.com/fwlink/?linkid=799763)
     
-## <a name="related-topics"></a><span data-ttu-id="8edc9-133">相关主题</span><span class="sxs-lookup"><span data-stu-id="8edc9-133">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="41a00-133">相关主题</span><span class="sxs-lookup"><span data-stu-id="41a00-133">Related topics</span></span>
   
-[<span data-ttu-id="8edc9-134">Microsoft Teams 附加许可</span><span class="sxs-lookup"><span data-stu-id="8edc9-134">Microsoft Teams add-on licensing</span></span>](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+[<span data-ttu-id="41a00-134">Microsoft Teams 附加许可</span><span class="sxs-lookup"><span data-stu-id="41a00-134">Microsoft Teams add-on licensing</span></span>](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
   
  

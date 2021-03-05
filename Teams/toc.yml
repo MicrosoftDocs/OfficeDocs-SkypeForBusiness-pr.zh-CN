@@ -315,16 +315,12 @@ items:
         href: enable-features-office-365.md
       - name: 管理策略
         items:
+          - name: 概述
+            href: manage-teams-with-policies.md
           - name: 向用户分配策略
             href: assign-policies.md
           - name: 在活动日志中查看工作分配
             href: activity-log.md
-          - name: 在 Teams 中管理应用权限策略
-            href: teams-app-permission-policies.md
-          - name: 在 Teams 中管理应用设置策略
-            href: teams-app-setup-policies.md
-          - name: 在 Teams 中管理自定义应用策略和设置
-            href: teams-custom-app-policies-and-settings.md
           - name: 在 Teams 中管理反馈策略
             href: manage-feedback-policies-in-teams.md
           - name: 在 Teams 中管理策略包
@@ -773,6 +769,8 @@ items:
     items:
       - name: 规划 Teams 语音解决方案
         href: cloud-voice-landing-page.md
+      - name: 在 Teams 中管理语音和呼叫策略
+        href: voice-and-calling-policies.md
       - name: 电话系统
         items:
           - name: 什么是电话系统
@@ -1273,7 +1271,9 @@ items:
         items:
           - name: 概述
             href: manage-apps.md
-          - name: 查看应用权限并授予 Microsoft Teams 管理中心的管理员许可
+          - name: 在 Teams 中管理应用策略
+            href: app-policies.md
+          - name: 查看应用权限并授予管理员许可
             href: app-permissions-admin-center.md
           - name: 资源特定许可
             href: resource-specific-consent.md
@@ -1287,6 +1287,12 @@ items:
             href: Office-365-custom-connectors.md
           - name: 非标准用户的 Teams 应用行为
             href: non-standard-users.md
+          - name: 在 Teams 中管理应用权限策略
+            href: teams-app-permission-policies.md
+          - name: 在 Teams 中管理应用设置策略
+            href: teams-app-setup-policies.md
+          - name: 在 Teams 中管理自定义应用策略和设置
+            href: teams-custom-app-policies-and-settings.md
   - name: 行业和政府指南
     items:
       - name: 概述
