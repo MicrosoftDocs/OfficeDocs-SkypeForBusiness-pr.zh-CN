@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在瑞典获取和管理 Microsoft Teams 的电话号码的信息。
-ms.openlocfilehash: bd3c262b402ab851f9cb58fa2f1bb8b36baf5fa6
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 28c9a44e884cc0ca883335f1efcc24c0a17d9de0
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196656"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460832"
 ---
 # <a name="phone-number-management-for-sweden"></a>瑞典的电话号码管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "50196656"
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
 |获取未在 Microsoft Teams 管理中心中列出的新用户或服务电话号码。   <br/> |下载这些表单之一。 <br/>  [针对瑞典的新电话号码请求 (v.5.0)  (sv-se) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [针对瑞典的新电话号码请求 (v.5.0)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。|
-获取转接给我们的电话号码。  <br/> |下载此表单。 <br/>[适用于瑞典 (LOA) 授权书 (v.5.0)  (v.5.0)  (所有) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf?raw=true)<br/><br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/> |
+获取转接给我们的电话号码。  <br/> |下载此表单。 <br/>[适用于瑞典 (LOA) 授权书 (v.5.0)  (v.5.0)  (所有) ](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/> |
 |发布/取消发布 () 电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。      <br/> |
 |将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
 |对目录服务进行更新以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |

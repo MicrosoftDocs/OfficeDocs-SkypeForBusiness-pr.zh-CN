@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: 了解 Teams 语音和呼叫策略。
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d0ea4db57fbfdc3ab76e8c6c9991e032103b260
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 9056c9b81fcda9c0e7408c63b4af00c1aabbffd0
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347980"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460582"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理语音和呼叫策略
 
@@ -46,7 +46,7 @@ ms.locfileid: "50347980"
 
 ## <a name="voice-routing-policies"></a>语音路由策略
 
-语音 [路由策略](manage-voice-routing-policies.md) 是一个容器，用于公用电话交换网络 (PSTN) 使用情况记录。 如果组织已部署电话系统直接路由，可以使用 **这些策略**。 可以使用 PowerShell 或 Teams 管理中心管理语音路由策略。
+语音 [路由策略](manage-voice-routing-policies.md) 是一个容器，用于公用电话交换网络 (PSTN) 使用情况记录。 如果你的组织已部署电话系统直接路由， **可以使用这些策略**。 可以使用 PowerShell 或 Teams 管理中心管理语音路由策略。
 
 ![语音路由策略的屏幕截图。](media/voice-routing-policy.png)
 
@@ -72,7 +72,7 @@ ms.locfileid: "50347980"
 
 * [在 Microsoft Teams 中管理紧急呼叫策略](manage-emergency-calling-policies.md)
 * [管理紧急呼叫路由策略](manage-emergency-call-routing-policies.md)
-* [在 Microsoft Teams 中管理来电显示策略](caller-id-policies.md)
+* [在 Microsoft Teams 中管理呼叫方 ID 策略](caller-id-policies.md)
 * [管理语音路由策略](manage-voice-routing-policies.md)
 * [Microsoft Teams 中的呼叫策略](teams-calling-policy.md)
 * [Microsoft Teams 中的呼叫寄存和取回](call-park-and-retrieve.md)

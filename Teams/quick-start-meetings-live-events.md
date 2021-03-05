@@ -14,17 +14,18 @@ ms.collection:
 - M365-collaboration
 - remotework
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22626e14a9c6c6187949e5e770b2cdd22c20027b
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 58f871e8e741856253667649484ac429bb68dd2c
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130623"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460822"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理员快速入门 - Microsoft Teams 中的会议和实时事件
 

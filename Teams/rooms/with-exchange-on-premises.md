@@ -16,27 +16,27 @@ ms.custom:
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
-description: 阅读本主题，了解如何使用 Exchange 在本地的混合环境中部署 Microsoft Teams 会议室。
-ms.openlocfilehash: f9f80f5b993b9be95e35c8178d996973558e2512
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+description: 阅读本主题，了解如何在本地使用 Exchange 在混合环境中部署 Microsoft Teams 会议室。
+ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662317"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460512"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange on premises 部署 Microsoft Teams Rooms
 
 阅读本主题，了解如何使用 Exchange 本地和 Microsoft Teams 或 Skype for Business Online 在混合环境中部署 Microsoft Teams 会议室。
   
-如果组织混合了一些服务，其中一些托管在本地，一些服务联机托管，则配置将取决于每个服务的托管位置。 本主题介绍在本地托管 Exchange 的 Microsoft Teams 会议室的混合部署。 由于这种类型的部署存在许多不同的变体，因此无法针对所有这些变体提供详细说明。 以下过程适用于许多配置。 如果该过程不适合你的设置，我们建议使用Windows PowerShell实现此处介绍的相同最终结果，并用于其他部署选项。
+如果组织混合使用各种服务，其中一些托管在本地，一些服务联机托管，则配置将取决于每个服务的托管位置。 本主题介绍在本地托管 Exchange 的 Microsoft Teams 会议室的混合部署。 由于这种类型的部署存在许多不同的变体，因此无法针对所有这些变体提供详细说明。 以下过程适用于许多配置。 如果该过程不适合你的设置，我们建议使用Windows PowerShell实现此处介绍的相同最终结果，并用于其他部署选项。
 
-Microsoft [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)一个脚本，可帮助创建新的用户帐户或验证现有资源帐户，以帮助将其转换为兼容的 Microsoft Teams 会议室用户帐户。 如果愿意，可以按照以下步骤配置 Microsoft Teams 会议室设备将使用的帐户。
+Microsoft [ 提供了SkypeRoomProvisioningScript.ps1， ](https://go.microsoft.com/fwlink/?linkid=870105)这是一个脚本，可帮助创建新的用户帐户或验证现有资源帐户，以帮助将它们转换为兼容的 Microsoft Teams 会议室用户帐户。 如果愿意，可以按照以下步骤配置 Microsoft Teams 会议室设备将使用的帐户。
   
 ## <a name="requirements"></a>要求
 
-将 Microsoft Teams 会议室部署在本地 Exchange 之前，请确保已满足要求。 有关详细信息，请参阅 [Microsoft Teams 会议室要求](requirements.md)。
+在本地使用 Exchange 部署 Microsoft Teams 会议室之前，请确保已满足要求。 有关详细信息，请参阅 [Microsoft Teams 会议室要求](requirements.md)。
   
-如果要在本地部署具有 Exchange 的 Microsoft Teams 会议室，你将使用 Active Directory 管理工具为本地域帐户添加电子邮件地址。 此帐户将同步到 Microsoft 365 或 Office 365。 你将需要执行以下操作：
+如果要使用 Exchange 在本地部署 Microsoft Teams 会议室，您将使用 Active Directory 管理工具为本地域帐户添加电子邮件地址。 此帐户将同步到 Microsoft 365 或 Office 365。 你将需要执行以下操作：
   
 - 创建一个帐户并将该帐户与 Active Directory 同步。
 
@@ -46,13 +46,13 @@ Microsoft [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?lin
 
 - 使用 Skype for Business Server 启用设备帐户。 要启用设备帐户，你的环境需要满足以下先决条件：
 
-  - 你需要在 Microsoft 365 或 Office 365 计划中 (Skype for Business Online) 计划 2 或更高版本。 该计划需要支持会议功能。
+  - 需要在 Microsoft 365 或 Office 365 (Skype for Business Online) 计划 2 或更高版本。 该计划需要支持会议功能。
   
   - 如果你需要使用企业语音 (Microsoft Teams 会议室的电话服务提供商) PSTN 电话服务，则需要 Skype for Business Online (计划 3) 。
   
   - 租户用户必须具有 Exchange 邮箱。
   
-  - 你的 Microsoft Teams 会议室帐户需要 Skype for Business Online (计划 2) 或 Skype for Business Online (计划 3) 许可证，但它不需要 Exchange Online 许可证。
+  - Microsoft Teams 会议室帐户需要 Skype for Business Online (计划 2) 或 Skype for Business Online (计划 3) 许可证，但它不需要 Exchange Online 许可证。
 
 - 将 Skype for Business Server 许可证分配给 Microsoft Teams 会议室帐户。
 
@@ -65,9 +65,9 @@ Microsoft [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?lin
 3. 键入此帐户的密码。你需要重新键入密码进行确认。确保“**密码永不过期**”复选框是选中的唯一选项。
 
     > [!NOTE]
-    > 选择 **"密码永不过期** "是 Microsoft Teams 会议室中的 Skype for Business Server 的一项要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，则需要为每个 Microsoft Teams 会议室设备帐户创建一个例外。
+    > 对于 Microsoft Teams **会议室** 中的 Skype for Business Server，选择"密码永不过期"是一项要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，则需要为每个 Microsoft Teams 会议室设备帐户创建一个例外。
   
-4. 创建该帐户后，运行目录同步。 完成后，转到 Microsoft 365 管理中心的用户页面，验证在之前步骤中创建的帐户已合并到联机。
+4. 创建该帐户后，运行目录同步。 完成后，转到 Microsoft 365 管理中心的用户页面，验证在之前步骤中创建的帐户已合并到联机状态。
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>启用远程邮箱并设置属性
 
@@ -85,7 +85,7 @@ Microsoft [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?lin
 
    - AutomateProcessing：AutoAccept (会议组织者无需人工干预即可直接接收会议室预订决策：free = accept;busy = decline.) 
 
-   - AddOrganizerToSubject：$false (会议组织者未添加到会议请求的主题。) 
+   - AddOrganizerToSubject：$false (会议组织者不会添加到会议请求的主题。) 
 
    - DeleteComments：$false (在传入会议请求的邮件正文中保留任何文本。) 
 
@@ -93,7 +93,7 @@ Microsoft [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?lin
 
    - RemovePrivateProperty：$false (确保会议组织者在原始会议请求中发送的专用标志保持指定。) 
 
-   - AddAdditionalResponse：$true (AdditionalResponse 参数指定的文本添加到会议请求。) 
+   - AddAdditionalResponse：$true (AdditionalResponse 参数指定的文本将添加到会议请求.) 
 
    - AdditionalResponse： "这是 Skype 会议室！"  (要添加到会议请求的其他文本。) 
 
@@ -132,13 +132,13 @@ Microsoft [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?lin
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   有关详细说明，请参阅使用 [Office 365 PowerShell 向用户帐户分配许可证](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
+   有关详细说明，请参阅 [使用 Office 365 PowerShell 向用户帐户分配许可证](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
 
 ### <a name="enable-the-device-account"></a>启用设备帐户
 
 Skype for Business Online PowerShell 用于管理 Microsoft Teams 和 Skype for Business Online 的服务。
 
-1. 从电脑Windows PowerShell远程会话会话，如下所示：
+1. 从电脑Windows PowerShell远程会话，如下所示：
 > [!NOTE]
 > Skype for Business Online 连接器当前是最新 Teams PowerShell 模块的一部分。
 >
@@ -159,7 +159,7 @@ Skype for Business Online PowerShell 用于管理 Microsoft Teams 和 Skype for 
 3. 若要启用 Microsoft Teams 会议室帐户，请运行此命令：
 
    ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
    如果不确定要用于环境中 RegistrarPool 参数的值，可以使用以下命令从现有用户获取该值：
@@ -168,7 +168,7 @@ Skype for Business Online PowerShell 用于管理 Microsoft Teams 和 Skype for 
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>为 Microsoft Teams 会议室帐户分配许可证
+### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>向 Microsoft Teams 会议室帐户分配许可证
 
 1. 以租户管理员登录，打开 Microsoft 365 管理中心，然后单击"管理"应用。
 2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。
@@ -177,7 +177,7 @@ Skype for Business Online PowerShell 用于管理 Microsoft Teams 和 Skype for 
 5. 在“**分配许可证**”中，根据你的许可和企业语音要求，选择 Skype for Business（计划 2）或 Skype for Business（计划 3）。 如果要在 Microsoft Teams 会议室中企业语音计划 3 许可证。
 6. 单击“**保存**”。
 
-若要进行验证，应该可以使用任何客户端登录到此帐户。
+若要进行验证，应能够使用任何客户端登录到此帐户。
   
 ## <a name="related-topics"></a>相关主题
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430c64fed77412ca555048adf3cf5e323fa20856
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: adefa7a7ca948363f3d331c4500619e81bbc1ea8
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397587"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460602"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft Teams 和 Skype for Business 共存和互操作性
 
@@ -43,7 +43,7 @@ ms.locfileid: "50397587"
 >
 > 此外，你可以与我们一起参加实时交互式研讨会，我们将分享指导、最佳做法和资源，旨在开始升级规划和实施。
 >
-> 首先 [加入计划升级](https://aka.ms/SkypeToTeamsPlanning) 会话以开始。
+> 首先 [加入"计划升级](https://aka.ms/SkypeToTeamsPlanning) 会话"以开始。
 
 ## <a name="coexistence-of-teams-and-skype-for-business-overview"></a>Teams 和 Skype for Business 的共存概述
 
@@ -60,7 +60,7 @@ ms.locfileid: "50397587"
 
 默认情况下，用户可以将 Teams 与 Skype for Business 一起作为提供类似和重叠功能的两个独立解决方案运行。 这些功能包括状态、聊天、呼叫和会议。 Teams 用户还可以利用新的协作功能，例如团队和频道、访问 Microsoft 365 或 Office 365 中的文件以及应用程序。
 
-在此共存模式下，称为 **"群岛**"，每个客户端应用程序都作为单独的岛屿运行。 Skype for Business 与 Skype for Business 交谈，Teams 与 Teams 交谈。 用户应会一切运行这两个客户端，并且可以在启动通信的客户端中以本机方式进行通信。 因此，在群岛模式下不需要 **互操作性** 。
+在此名为 **"** 群岛"的共存模式下，每个客户端应用程序都作为单独的岛屿运行。 Skype for Business 与 Skype for Business 交谈，Teams 与 Teams 交谈。 用户应会一切运行这两个客户端，并且可以在启动通信的客户端中以本机方式进行通信。 因此，在群岛模式下不需要 **互操作性** 。
 
 为了避免令人困惑或回归的 Skype for Business 体验，Skype for Business 会处理以下未在 Teams **Islands** 模式下处理的集成：
 
@@ -72,7 +72,7 @@ ms.locfileid: "50397587"
 在群岛模式下，Teams 不支持 **电话** 系统。 **群岛** 模式不支持 skype for Business 企业语音客户端。
 
 > [!Important]
-> 在 **群岛** 模式下，来自联盟用户的所有消息和呼叫 (组织外部) 发送到 Skype for Business。 升级到"仅 **Teams"** 模式后，来自组织外部的所有消息和呼叫将传递到 Teams。
+> 在 **群岛** 模式下，来自联合用户的所有消息和呼叫 (组织外部) 发送到 Skype for Business。 升级到"仅 **Teams"** 模式后，来自组织外部的所有消息和呼叫将传递到 Teams。
 
 > [!Tip]
 > Skype for Business Online 客户建议的路径是先使用默认 **群岛** 模式，推动组织中 Teams 的采用饱和，然后快速转移到 **Teams Only** 模式。 本地和混合客户（尤其是复杂的客户）可能受益于将 **Skype for Business** 与 Teams 协作模式（而不是岛屿模式）部署为起点，从该模式到 Teams 协作和会议模式 (即会议第一个) （如果适用）的 Skype **for Business，** 以及组织准备好采用 Teams 时到 **Teams** Only 模式。
@@ -137,7 +137,7 @@ ms.locfileid: "50397587"
 互操作性受共存模式约束 (也称为接收方的) 模式。 接收器在群岛模式下时 **没有互操作性。**
 
 > [!Note]
-> 在除群岛以外的任何共存模式下部署时，Teams 和 Skype for [](#interoperability-of-teams-and-skype-for-business)Business 可以互操作，使用户能够相互聊天和呼叫，并确保在升级到 Teams 期间，整个组织的通信保持流畅。 共存模式控制互操作性。 接收方的共存模式决定了互操作性是否可用。 例如，如果接收方在一个客户端 (例如 Teams) 中聊天仅在一个客户端中可用，则通常提供聊天互操作性，以防发起程序使用另一个客户端 (在这种情况下，Skype for Business) 启动聊天。 另一方面，如果接收方在两个客户端和岛屿模式 (都可用聊天) ，则互操作性将不适用于聊天。 接收方将在发起程序启动聊天的同一客户端中接收消息。 因此，在群岛模式下进行 **适当的** 通信需要 Teams 采用饱和;也就是说，所有用户都主动使用和监视这两个客户端。
+> 在除群岛以外的任何共存模式下部署时，Teams 和 Skype for [](#interoperability-of-teams-and-skype-for-business)Business 可以互操作，使用户能够相互聊天和呼叫，并确保在升级到 Teams 期间，整个组织的通信保持流畅。 共存模式控制互操作性。 接收方的共存模式决定了互操作性是否可用。 例如，如果接收方在一个客户端中聊天仅在一个客户端中可用 (例如 Teams) ，则通常提供聊天互操作性，以防发起程序使用另一个客户端 (在这种情况下，Skype for Business) 启动聊天。 另一方面，如果接收方在两个客户端和岛屿模式 (都可用聊天) ，则互操作性将不适用于聊天。 接收方将在发起程序启动聊天的同一客户端中接收消息。 因此，在群岛模式下进行 **适当的** 通信需要 Teams 采用饱和;也就是说，所有用户都主动使用和监视这两个客户端。
 
 > [!Note]
 > **若要获得最新的共存体验，客户端版本必须是用户的 Office 部署通道中的最新可用客户端。**
@@ -147,13 +147,13 @@ ms.locfileid: "50397587"
 有两种类型的互操作体验：本机升级和互操作升级。
 
 - 用户 _当前使用的_ 客户端中会发生本机互操作体验。 一个用户将在 Skype for Business 客户端中，另一个用户在 Teams 中。 本机互操作体验不会将它们带到另一个客户端进行通信。 用户能够在他们当前使用的客户端中执行其对话。 本机互操作体验是一对一聊天和通话。
-- 互 _升级_ 体验意味着，作为帮助用户执行高级操作 (（例如共享其桌面) ）的一部分，客户端有助于创建用户可以加入的会议以继续该会议的体验。 会议是在操作发起程序平台上创建的。 不位于该平台上的用户将收到会议加入链接。 当他们单击此链接时，他们将在兼容的客户端中加入会议 (浏览器、Web 应用或完整客户端，具体取决于配置) 。 从 Skype for Business 进行互操作升级需要最近的客户端。 Teams 的互操作升级现已可用。 租户内互操作性体验和跨租户联合通信支持这两者。
+- 互 _升级_ 体验意味着，作为帮助用户执行高级操作 (（例如共享其桌面) ）的一部分，客户端有助于创建用户可以加入的会议以继续该会议的体验。 会议是在操作发起程序平台上创建的。 不位于该平台上的用户将收到会议加入链接。 单击此链接时，他们将在兼容的客户端中加入会议 (浏览器、Web 应用或完整客户端，具体取决于配置) 。 从 Skype for Business 进行互操作升级需要最近的客户端。 Teams 的互操作升级现已可用。 租户内互操作性体验和跨租户联合通信支持这两者。
 
 #### <a name="native-interop-experiences"></a>本机互操作体验
 
-根据前面所述的 (用户分配的共存) ，提供以下本机互操作体验：
+根据为用户分配的共存模式 (如前面所述) ，提供以下本机互操作体验：
 
-Skype for Business 用户可以与 Teams 用户进行一对一聊天，反之亦然。 互操作聊天需要经过作为 Teams 云服务门户一部分的互操作网关 (因此仅存在于联机) 。 互操作聊天是纯文本：不支持富文本和图释。 Teams 和 Skype for Business 中的用户将收到对话是互操作对话的通知。
+Skype for Business 用户可以与 Teams 用户进行一对一聊天，反之亦然。 互操作聊天需要经过属于 Teams 云服务门户的互操作网关 (因此仅存在于联机) 。 互操作聊天是纯文本：不支持富文本和图释。 Teams 和 Skype for Business 中的用户将收到对话是互操作对话的通知。
 
 <!--![Screen shot of Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
 
@@ -186,7 +186,7 @@ Skype for Business 用户可以向 Teams 用户进行一对一语音和视频通
 
 互操作升级包括使用托管的会议升级来补充本机互操作功能。 会议为任何人提供丰富的体验，无论他们拥有哪个客户端。
 
-当 Teams 用户触发互操作升级时，将创建一个 Teams 会议。 当 Skype for Business 用户触发时，将创建 Skype for Business 会议。 在这两种情况下，创建的会议 **都是"现在** 开会"会议，不会反映在用户的日历上。
+当 Teams 用户触发互操作升级时，将创建一个 Teams 会议。 当 Skype for Business 用户触发时，将创建 Skype for Business 会议。 在这两种情况下，创建的会议 **都是"现在** 开会"会议，不会反映在用户的日历中。
 
 另一方通过互聊天接收会议加入链接，并通过单击该链接加入。 如果 Skype for Business 用户具有 Teams 帐户并且受 Teams 用户邀请，他们将加入经过身份验证的会议。 否则，他们将以匿名参与者身份加入。 相反，Teams 用户几乎总是拥有 Skype for Business 帐户和 Skype for Business 客户端，他们可以使用该帐户以经过身份验证的参与者身份加入 Skype for Business 会议，但他们也可能以匿名参与者身份加入，例如使用 Skype 会议应用。
 
@@ -194,7 +194,7 @@ Skype for Business 用户可以向 Teams 用户进行一对一语音和视频通
 
 #### <a name="interop-escalation-from-skype-for-business"></a>从 Skype for Business 进行互操作升级
 
-Skype for Business 的互操作和互升级在每月 C2R 的 2019 年 7 月内部版本中进行了更新。 以前，Skype for Business 没有提前意识到远程聚会正在使用 Teams。 它仅从建立会话后收到的信号中推测出。
+Skype for Business 的互操作和互升级在 2019 年 7 月内部版本（每月 C2R）中进行了更新。 以前，Skype for Business 没有提前意识到远程聚会正在使用 Teams。 它仅从建立会话后收到的信号中推测出。
 
 当信号指示响应来自 (或) 互操作网关时，它将显示黄色业务栏 (横幅) 指示另一方未使用 Skype for Business。 随着我们服务的演进，这导致误报，其中 Skype for Business 用户在连接到云语音邮件服务或其他云语音服务时会看到业务栏，而不是实际的 **仅 Teams 用户** 。
 
@@ -236,16 +236,14 @@ Teams 用户在与 Skype for Business 用户或跨租户互操作联合线程的
 
 - [会议](#meetings)
 - [互操作性](#interoperability)
-- [Teams 对话线程-互操作与本机线程](#teams-conversations---interop-versus-native-threads)
+- [互操作与本机聊天线程](#interop-versus-native-conversation-threads)
 - [状态](#presence)
 - [联合身份验证](#federation)
 - [联系人](#contacts)
 
-
-
 ### <a name="meetings"></a>会议
 
-无论用户使用哪种模式，都可以始终加入受邀参加的任何类型的会议，无论是 Skype for Business 还是 Teams。  但是，用户必须使用与会议类型匹配的相应客户端加入会议：
+无论用户的模式如何，用户始终可以加入受邀参加的任何类型的会议，无论是 Skype for Business 还是 Teams。  但是，用户必须使用与会议类型匹配的相应客户端加入会议：
 
 - 如果会议是 Teams 会议，则所有参与者 (TeamsOnly、Islands 还是 Skype for Business 用户) 使用 Teams 客户端加入会议。 如果未安装 Teams，用户在尝试加入会议时将被定向到 Web。
 
@@ -262,7 +260,7 @@ Teams 用户在与 Skype for Business 用户或跨租户互操作联合线程的
 
 ### <a name="interoperability"></a>互操作性
 
-如上面的 Teams 和 [Skype for Business](#interoperability-of-teams-and-skype-for-business)互操作性中所述，Teams 支持在某些情况下与 Skype for Business 互操作。 互操作通信是指 Skype for Business 用户与 Teams 用户之间的聊天或通话。  只能在两个用户之间实现互操作通信;不支持多方聊天/呼叫或添加其他用户。
+如上所述，在 [Teams](#interoperability-of-teams-and-skype-for-business)和 Skype for Business 的互操作性中，Teams 支持在某些情况下与 Skype for Business 互操作。 互操作通信是指 Skype for Business 用户与 Teams 用户之间的聊天或通话。  只能在两个用户之间实现互操作通信;不支持多方聊天/呼叫或添加其他用户。
 
 当以下每一项都成立时，将创建两个用户之间的互聊天或通话：
 
@@ -274,11 +272,11 @@ Teams 用户在与 Skype for Business 用户或跨租户互操作联合线程的
 
 在互操作通信中，聊天是纯文本的。 此外，互操作聊天本身无法进行文件共享和 *屏幕共享*。 但是，互操作对话中的用户可以通过在互操作聊天内创建按需会议轻松实现文件和/或屏幕共享，如下所述：
 
-- 如果 Teams 用户尝试共享其屏幕，将自动创建按需 Teams 会议，并且该会议的邀请链接将发送到 Skype for Business 用户的客户端。 单击链接后，Skype for Business 用户将打开 Teams 并加入会议。 这两个用户现在都参加 Teams 会议，并可以根据需要共享。
+- 如果 Teams 用户尝试共享其屏幕，将自动创建一个按需 Teams 会议，并且该会议的邀请链接将发送到 Skype for Business 用户的客户端。 单击链接后，Skype for Business 用户将打开 Teams 并加入会议。 这两个用户现在都参加 Teams 会议，并可以根据需要共享。
 
 - 如果 Skype for Business 用户从 2018 年或以后使用客户端并尝试共享任何内容，则会自动创建按需 Skype for Business 会议，并且该会议的邀请链接将发送到 Teams 用户的客户端。 单击该链接后，Teams 用户将尝试加入 Skype for Business 会议。 如果 Teams 用户已安装 Skype for Business 客户端，它将打开，并且提示用户 (（如果尚未登录) ）。  如果 Teams 用户未安装 Skype for Business 客户端，系统会提示用户使用 Web 版本。 两个用户登录后，他们将参加 Skype for Business 会议，并可以根据需要共享。
 
-### <a name="teams-conversation-threads---interop-versus-native-threads"></a>Teams 对话线程 - 互操作与本机线程
+### <a name="interop-versus-native-conversation-threads"></a>互操作与本机聊天线程
 
 由于互操作通信不支持本机 Teams 对话的所有功能，因此 Teams 客户端为 Teams 到 Teams 和 Teams 到 Skype for Business 通信维护单独的会话线程。 这些对话在用户界面中的呈现方式不同：互操作线程可通过以下方式与常规本机 Teams 线程进行区分：
 
@@ -297,11 +295,11 @@ Teams 用户在与 Skype for Business 用户或跨租户互操作联合线程的
 
 创建会话线程后，其类型永远不会更改。 创建后，Teams 中的互操作线程将始终路由到目标用户的 Skype for Business 客户端。 本机线程将始终路由到目标用户的 Teams 客户端。  如果收件人用户的模式发生更改，该用户的现有 Teams 线程将不再工作，该聊天上会显示一条注释，并包含用于启动新本机对话的链接，如以下屏幕截图所示。
 
-![显示与已升级的 Skype for Business 用户的聊天的示意图](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
+![显示与已升级的 Skype for Business 用户聊天的示意图](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
 ### <a name="presence"></a>状态
 
-给定用户的存在基于用户通过客户端在服务中的活动。 然后发布状态供其他用户查看。  Skype for Business 和 Teams 是具有单独客户端的单独服务，因此每个服务都有自己的用户状态。   Teams 和 Skype for Business Online 中的状态服务之间也有同步。  这允许一个服务根据需要从另一个服务中发布用户。 
+给定用户的存在基于用户通过客户端在服务中的活动。 然后发布状态，供其他用户查看。  Skype for Business 和 Teams 是具有单独客户端的单独服务，因此每个服务都有自己的用户状态。   Teams 和 Skype for Business Online 中的状态服务之间也有同步。  这允许一个服务根据需要从另一个服务中发布用户。 
 
 状态发布行为基于用户的模式。 有三个基本情况：
 
@@ -322,21 +320,21 @@ Teams 用户在与 Skype for Business 用户或跨租户互操作联合线程的
 - 如果收件人位于同一租户中，则从 Teams 发起的聊天和呼叫将登陆 Teams。
 - 从 Skype for Business 发起的聊天和通话始终位于 Skype for Business 中。
 
-联合聊天可以是本机线程或互操作线程。 请参阅[Teams 对话---互操作与本机线程。](#teams-conversations---interop-versus-native-threads)
+联合聊天可以是本机线程或互操作线程。 请参阅 [互操作与本机聊天线程](#interop-versus-native-conversation-threads)。
 
 - 如果接收方和发送方都同时在 TeamsOnly 升级模式下，则聊天将是一种本机聊天体验，其中包含所有丰富的消息传送和呼叫功能。 若要了解有关详细信息，请阅读 Teams 中 ([用户) 本机聊天体验](native-chat-for-external-users.md)。 
 
-- 如果任一对话参与者未处于 TeamsOnly 升级模式，则对话仍具有纯文本消息的互操作体验。 用户界面以类似于同租户互操作线程的方式公开联合聊天，但有一条说明指出用户是外部用户。
+- 如果任一对话参与者未处于 TeamsOnly 升级模式，则对话仍具有纯文本消息的互操作体验。 用户界面以与同租户互操作线程类似的方式公开联合聊天，不过有一条说明指出用户是外部用户。
 
 有关详细信息，请参阅 ["管理 Microsoft Teams](manage-external-access.md) 中的外部访问"和 Teams 中外部用户 ([联合) 本机聊天体验](native-chat-for-external-users.md)。
 
 ### <a name="contacts"></a>联系人
 
-Teams 和 Skype for Business 有单独的联系人列表。 这意味着，在一个系统中所做的接触添加、删除和修改不会同步到另一个系统。 但是，当发生两个特定事件之一时，Skype for Business 中的联系人会自动复制到 Teams： 
+Teams 和 Skype for Business 有单独的联系人列表。 这意味着，在一个系统中所做的接触添加、删除和修改不会同步到另一个系统。 但是，当发生两个特定事件之一时，来自 Skype for Business 的联系人会自动复制到 Teams： 
 
 - 任何 Skype for Business Online 用户首次登录 Teams 时，Skype for Business 中的联系人都将复制到 Teams。  此行为不适用于在 Skype for Business Server 中具有本地帐户的用户。  
 
-- 通过分配 TeamsUpgradePolicy 或 Move-CsUser -MoveToTeams) 将用户升级到 TeamsOnly (后，用户下次登录 Teams 时，Skype for Business 中的现有联系人将与 Teams 中已有的联系人合并。 无论用户的 Skype for Business 帐户是在本地还是联机，都会发生此行为。 
+- 通过分配 TeamsUpgradePolicy 或 Move-CsUser -MoveToTeams) 将用户升级到 TeamsOnly (后，用户下次登录 Teams 时，Skype for Business 中的现有联系人将与 Teams 中的现有联系人合并。 无论用户的 Skype for Business 帐户是在本地还是联机，都会发生此行为。 
 
 在这两种情况下，将联系人从 Skype for Business 转移到 Teams 是异步的，因此可能需要几分钟时间，联系人才能显示在 Teams 中。 上面的两个事件是触发复制的事件。  
 

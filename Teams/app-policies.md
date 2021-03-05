@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: 了解 Teams 应用程序策略。
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32c3fcfa803c433567d3be91f1f710afef5934b1
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 7e0c4f3e4c328dc6f90dddf66a7004b70c66a84e
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347989"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460792"
 ---
 # <a name="manage-app-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用策略
 

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解 Microsoft Teams 认证了哪些桌面电话和会议电话，以获得最佳结果。
-ms.openlocfilehash: 7425ec0e637600e600987f43d85c7656e31919a4
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: ad0e89d51172f0e8704f805cc3d85875ffcf8728
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397527"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460742"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 认证的设备
 
@@ -44,14 +44,14 @@ Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能�
 
 |设备模型                         | 固件版本                                                                                                                                                                                                                           | 发布日期                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| C450HD 上支持的音频代码扩展模块 |C450HD_TEAMS_0.225                                        | 2021 年 1 月                 |
-| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
-| 音频代码 C448HD (CAP 模式仅)       | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
+| Audiocodes C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
+| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
+| 音频代码 C448HD (CAP 模式仅)       | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 |Crestron UC-2                           |1.0.1.46                                                  | 2020 年 7 月                    |
-| Crestron M100                          | 此产品已停用。 有关详细信息，请访问[Crestron 网站上"Crestron M100"。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) | 自 2020/5/11 起停用 |
-| Crestron Flex UC-P100-T & UC-P110-T    | 此产品已停用。 有关详细信息，请访问 Crestron 网站上[UC Phone。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)                  | 自 2020/5/11 起停用 |
+| Crestron M100                          | 此产品已停用。 有关详细信息，请访问[Crestron 网站上"Crestron M100"。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) | 2020 (5/11)  |
+| Crestron Flex UC-P100-T & UC-P110-T    | 此产品已停用。 有关详细信息，请访问 Crestron 网站上[UC Phone。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)                  | 2020 (5/11)  |
 | Le一一 ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | 2020 年 4 月                   |
-| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020 年 4 月                   |
+| Poly Trio C60、Trio C60 NR、Trio C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | 2020 年 4 月                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020 年 1 月                 |
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 年 1 月                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 年 12 月                |
@@ -80,14 +80,14 @@ Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能�
 
 ## <a name="currently-certified-teams-displays"></a>当前认证的 Teams 显示
 
-以下设备在 Microsoft Teams 显示认证计划下通过认证：
+以下设备在 Microsoft Teams 显示认证计划下进行认证：
 
 | 设备模型 | 固件版本 | 发布日期  |                                         
 |:------------------------|:-----------------|:--------------|
 |Le一一 ThinkSmart View|CD-18781Y.201006.099|2020 年 10 月 |
 
 ## <a name="currently-certified-teams-panels"></a>当前认证的 Teams 面板
-以下设备在 Microsoft Teams 面板认证计划下认证：
+以下设备在 Microsoft Teams 面板认证计划下进行认证：
 
 | 设备模型| 固件版本 | 发布日期  |                                         
 |:------------------------|:-----------------|:--------------|
@@ -110,20 +110,21 @@ Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能�
 
 #### <a name="firmware-versions"></a>固件版本
 
-在设备上安装新的固件版本时，可以通过在"包含的产品发布"列中查找产品版本来确定相应的 Microsoft Teams 应用、公司门户和管理代理安装 **的版本** 。 然后，在以上"应用版本 **"表中查找产品** 版本。
+在设备上安装新的固件版本时，可以确定 Microsoft Teams 应用、公司门户和管理代理的相应已安装版本。 为此，在"包含的产品发布"列中找到产品发布，然后在之前的"应用版本"表中 **查找产品** 发布。
 
 | 设备模型        | 固件版本     | 年份/包含的产品发布  |
 |:--------------------|:---------------------|:-------------------------|
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 更新#7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 更新#7           |
+| Crestron UC-2       | 1.0.2.53              | 2020 更新#7            |
 | Le一一 ThinkSmart View|CD-18781Y.200922.098 | 2020 更新#6           |
-| Poly CCX400         | 6.2.23.0202         | 2020 更新#7           |
+| Poly CCX400         | 6.2.23.0202       | 2020 更新#7           |
 | Poly CCX500/CCX600  | 6.2.23.0202         | 2020 更新#7          |
 | Poly Trio C60       | 6.2.23.0202          | 2020 更新#7          |
-| Yealink T55/T56/T58 | 58.15.0.118         | 2020 更新#7           |
-| Yealink MP56        | 122.15.0.27          | 2020 更新#7           |
-| Yealink VP59        | 91.15.0.50          | 2020 更新#7           |
-| Yealink CP960       | 73.15.0.111       | 2020 更新#7           |
+| Yealink T55/T56/T58 | 58.15.0.122       | 2020 更新#7           |
+| Yealink MP56        | 122.15.0.33         | 2020 更新#7           |
+| Yealink VP59        | 91.15.0.54         | 2020 更新#7           |
+| Yealink CP960       | 73.15.0.115      | 2020 更新#7           |
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 会议室的产品发布信息
 
@@ -133,8 +134,8 @@ Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能�
 
 | 产品发布| 发布日期 | Microsoft Teams 应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 更新#3  |2020 年 11 月 24 日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product versioncode： 216 |
-| 更新#2  | 2020 年 8 月 24 日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product versioncode：212|
+| 更新#3  |2020 年 11 月 24 日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product 版本代码：216 |
+| 更新#2  | 2020 年 8 月 24 日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product 版本代码：212|
 | 更新#1  | 2020 年 5 月 13 日 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>固件版本
@@ -149,7 +150,7 @@ Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能�
 
 ### <a name="product-release-information-for-teams-displays"></a>Teams 显示的产品发布信息
 
-以下是最新的 Teams 显示应用和固件版本。
+以下是 Microsoft Teams 显示应用和固件的最新版本。
 
 #### <a name="app-versions"></a>应用版本
 
@@ -169,7 +170,7 @@ Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能�
 
 请参阅 ["在移动设备上查找固件版本"，](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) 以确定移动设备上的设备固件版本。
 
-Microsoft Teams 许可证可以购买为 [Microsoft 365 或 Office 365 订阅的一部分](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。 若要详细了解在手机上使用 Microsoft Teams 所需的许可证，请参阅可用的 [电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams 许可证可以购买为 [Microsoft 365 或 Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)订阅的一部分。 若要详细了解在手机上使用 Microsoft Teams 所需的许可证，请参阅可用的 [电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
 有关获取 Teams 的信息，请查看如何 [获取 Microsoft Teams 的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
@@ -177,7 +178,7 @@ Microsoft Teams 许可证可以购买为 [Microsoft 365 或 Office 365 订阅的
 
 如果你是希望加入认证计划的供应商，请参阅"如何 [加入"了解](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 要求和可用计划。
 
-## <a name="additional-resources"></a>其他资源
+## <a name="more-resources"></a>更多资源
 
 [探索 Microsoft Teams 手机和经过认证的设备。](https://products.office.com/microsoft-teams/across-devices/devices)
 

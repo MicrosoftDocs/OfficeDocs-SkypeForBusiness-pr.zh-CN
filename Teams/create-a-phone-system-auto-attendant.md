@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft Teams 设置和测试自动助理。
-ms.openlocfilehash: deb9bf013136bb8efd9171e5562de5e2ba1b631f
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 8aabdcdd8e5f58604e8b8d09524b6d096f62f7be
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347863"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460882"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -55,7 +55,7 @@ ms.locfileid: "50347863"
 
 1. 在顶部的框中键入自动助理的名称。
 
-2. 如果要指定操作员，请指定对接线员的调用的目标。 此选项是可选的， (建议) 。 您可以设置 **"接线员** "选项，以允许呼叫者离开菜单并与指定人员通话。
+2. 如果要指定操作员，请指定对接线员的调用的目标。 这是可选 (，但建议) 。 您可以设置 **"接线员** "选项，以允许呼叫者离开菜单并与指定人员通话。
 
 3. 指定此自动助理的时区。 如果为营业时间创建单独的呼叫流，则时区 [用于计算营业时间](#call-flow-for-after-hours)。
 
@@ -84,9 +84,9 @@ ms.locfileid: "50347863"
 
 如果选择" **断开连接"，** 自动助理将挂断呼叫。
 
-如果选择" **重定向呼叫"，** 可以选择其中一个呼叫路由目标。
+如果选择" **重定向呼叫**"，可以选择其中一个呼叫路由目标。
 
-如果选择"**播放"菜单选项**，可以选择播放音频文件或键入问候语，然后在菜单选项和目录搜索之间选择。
+如果选择"**播放"菜单选项**，可选择"播放音频文件"或"键入问候语"，然后在菜单选项和目录搜索之间选择。
 
 ### <a name="menu-options"></a>菜单选项
 
@@ -102,7 +102,7 @@ ms.locfileid: "50347863"
 
 - **拨号键** - 电话键盘上的按键，用于访问此选项。 如果语音输入可用，呼叫者也可以说出此号码来访问该选项。
 
-- **语音** 命令 - 定义呼叫者可以授予的语音命令来访问此选项（如果启用了语音输入）。 它可以包含多个字词，例如"客户服务"或"运营与订单"。 例如，调用方可以按 2、说"两个"或说"销售"以选择映射到两个键的选项。 此文本还呈现为服务确认提示的文本转语音，该提示可能类似"将呼叫转接到销售"。
+- **语音** 命令 - 定义呼叫者可以授予的语音命令以访问此选项（如果启用了语音输入）。 它可以包含多个字词，例如"客户服务"或"运营与订单"。 例如，调用方可以按 2、说"两个"或说"销售"以选择映射到两个键的选项。 此文本还呈现为服务确认提示的文本转语音，该提示可能类似"将呼叫转接到销售"。
 
 - **重定向到** - 呼叫方选择此选项时使用的呼叫路由目标。 如果要重定向到自动助理或呼叫队列，请选择与其关联的资源帐户。
 
@@ -112,9 +112,9 @@ ms.locfileid: "50347863"
 
 如果未分配拨号键，请为目录搜索 **选择一个选项**。
 
-**按姓名** 拨叫 - 如果启用此选项，呼叫者可以说出用户的姓名或在电话键盘上键入。 任何在线用户或任何使用 Skype for Business Server 在本地托管的用户都是符合条件的用户，可以使用"按名字拨叫"找到。  (你可以设置"拨号范围"页上的目录中包括和不包括 [哪些](#dial-scope) 人) 
+**按姓名** 拨叫 - 如果启用此选项，呼叫者可以说出用户的姓名或在电话键盘上键入。 任何在线用户或任何使用 Skype for Business Server 在本地托管的用户都是符合条件的用户，可以使用"按名字拨叫"找到。  (你可以设置"拨号范围"页上的目录中包含和不包含[哪些人) ](#dial-scope)
 
-**按分机** 拨打 - 如果启用此选项，呼叫者可以通过拨打其电话分机来与贵组织的用户联系。 任何在线用户或任何使用 Skype for Business Server 在本地托管的用户都是符合条件的用户，可通过分机 **号拨叫找到**。  (你可以设置"拨号范围"页上的目录中包括和不包括 [哪些](#dial-scope) 人) 
+**按分机** 拨打 - 如果启用此选项，呼叫者可以通过拨打其电话分机来与贵组织的用户联系。 任何联机用户或任何使用 Skype for Business Server 在本地托管的用户都是符合条件的用户，可通过分机 **号码使用 Dial 找到**。  (你可以设置"拨号范围"页上的目录中包括和不包括 [哪些](#dial-scope) 人) 
 
 要使其可用于"按分机拨号"的用户需要具有在 Active Directory 或 Azure Active Directory 中定义的以下电话属性之一的一部分指定的分机 (有关详细信息[](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)，请参阅"单独或批量添加用户"。) 
 
@@ -143,7 +143,7 @@ ms.locfileid: "50347863"
 
 ## <a name="call-flow-for-after-hours"></a>营业时间的呼叫流
 
-!["工作时间"的"天"和"时间"设置的屏幕截图](media/auto-attendant-business-hours.png)
+!["天后"和"时间"设置的屏幕截图](media/auto-attendant-business-hours.png)
 
 可以针对每个自动助理设置营业时间。 如果没有设置营业时间，所有日期以及每天的所有时间均视为营业时间，因为默认情况下设置为全天候时间表。 可以设置营业时间，同时设置一天中的休息时间，所有未设置为营业时间的营业时间都被视为非营业时间。 您可以为非营业时间设置不同的传入呼叫处理选项和问候语。
 
@@ -169,7 +169,7 @@ ms.locfileid: "50347863"
 
 4. 选择想要使用的问候语类型。
 
-    ![假日呼叫操作设置的屏幕截图](media/auto-attendant-holiday-actions.png)
+    ![节日呼叫操作设置的屏幕截图](media/auto-attendant-holiday-actions.png)
 
 5. 选择是断开 **呼叫还是****重定向** 呼叫。
 
@@ -200,7 +200,7 @@ ms.locfileid: "50347863"
 
 所有自动助理必须具有关联的资源帐户。  一级自动助理至少需要一个具有关联服务编号的资源帐户。 如果需要，可以将多个资源帐户分配给自动助理，每个帐户都有单独的服务编号。
 
-![资源帐户添加帐户面板的屏幕截图](media/auto-attendant-add-resource-account.png)
+![资源帐户"添加帐户"面板的屏幕截图](media/auto-attendant-add-resource-account.png)
 
 若要添加资源帐户，请选择 **"添加帐户** "，然后搜索要添加的帐户。 选择 **"添加**"，然后选择"**添加"。**
 
@@ -212,9 +212,9 @@ ms.locfileid: "50347863"
 
 请参阅 [先决条件，](plan-auto-attendant-call-queue.md#prerequisites) 以便允许自动助理在外部转移呼叫。  另外：
 
-- 对于具有呼叫计划号码的资源[](calling-plans-for-office-365.md)帐户，必须以 E.164 格式输入外部转移电话号码 (+[国家/地区代码][区号][电话号码]) 。
+- 对于具有呼叫计划许可证的资源[](calling-plans-for-office-365.md)帐户，必须以 E.164 格式输入外部转移电话号码 (+[国家/地区代码][区号][电话号码]) 。
 
-- 对于具有直接路由号码的资源帐户，外部传输电话号码格式取决于会话边界控制器 ([SBC) ](direct-routing-connect-the-sbc.md) 设置。
+- 对于具有电话系统许可证和直接路由在线语音路由策略的资源帐户，外部传输电话号码格式取决于会话边界控制器 ([SBC ](direct-routing-connect-the-sbc.md)) 设置。
 
 显示的出站电话号码按如下所示确定：
 
@@ -223,7 +223,7 @@ ms.locfileid: "50347863"
     - 如果设置为"已禁用"，将显示原始呼叫者的电话号码。 这是默认设置，也是建议的设置。
     - 如果设置为"已启用"，将显示资源帐户电话号码。
 
-在 Skype for Business 混合环境中，若要将自动助理呼叫转接到 PSTN，请创建呼叫转接设置为 PSTN 号码的新本地用户。 必须为用户启用语音企业语音并分配语音策略。 若要了解有关详细信息，请参阅"[自动助理呼叫转接到 PSTN"。](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+在 Skype for Business 混合环境中，若要将自动助理呼叫转接到 PSTN，请创建呼叫转接设置为 PSTN 号码的新本地用户。 必须为用户启用语音企业语音并分配有语音策略。 若要了解有关详细信息，请参阅"[自动助理呼叫转接到 PSTN"。](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>使用 PowerShell 创建自动助理
 

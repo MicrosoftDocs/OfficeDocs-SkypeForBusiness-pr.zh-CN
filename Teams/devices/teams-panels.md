@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文概述了 Microsoft Teams 面板支持的功能。
-ms.openlocfilehash: 99c1c90734a72f6e98ee1ca9e862316445358d3c
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e22a49d4cba45507649ad5c15bbb626b77fe800a
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395334"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460502"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 面板
 
@@ -82,16 +82,16 @@ Teams 面板设备的部署可以细分为以下任务：
 
 根据部署 Teams 面板范围内会议空间的数量，从通过 Teams 面板认证的合作伙伴之一采购 [设备](#partners-certified-for-teams-panels)。 请访问合作伙伴的网站，了解有关设备和采购选项的详细信息。
 
-您的组织中的会议空间在安装或装载设备时可能有不同的硬件要求。 例如，将设备装载到玻璃、玻璃窗、干墙或木板上所需的硬件可能不同。 有关可用的装载选项，请参阅设备合作伙伴的文档。
+您的组织中的会议空间在安装或装载设备时可能有不同的硬件要求。 例如，将设备装载到玻璃、玻璃窗、干墙或森林面板上所需的硬件可能不同。 有关可用的装载选项，请参阅设备合作伙伴的文档。
 
 ## <a name="site-readiness"></a>网站就绪
 
-当订购的设备传送到组织时，请与网络、设备和音频可视化团队协作，确保满足部署要求，并且每个站点和会议空间在电源和网络方面已准备就绪。
+当订购的设备传送到组织时，请与网络、设备和音频视觉团队协作，确保满足部署要求，并且每个站点和会议空间在电源和网络方面已准备就绪。
 
 对于 Teams 面板网站，我们的建议是：
 
 - 专用资源帐户
-- 电源 (面板通常支持以太网电源 (PoE+) 电源。 有关任何设备特定的电源要求，请参阅 OEM 文档。) 
+- 电源 (面板通常支持以太网电源 (PoE+) 电源。 有关设备特定的电源要求，请参阅 OEM 文档。) 
 - 网络上为 Microsoft Teams (QoS) 服务质量
 
 有关物理安装注意事项，请参阅 OEM 文档，如果有，在安装和装载设备以及运行布线之前，请使用音频视觉团队的经验。
@@ -115,7 +115,9 @@ Teams 面板设备的部署可以细分为以下任务：
 >
 >- 如果已针对要安装面板的会议空间设置了会议室资源帐户，请使用同一会议室资源帐户登录到面板设备。 但是，请确保会议室资源帐户分配有 Microsoft Teams Room Standard 许可证，以便将其用作面板资源帐户。
 >
->- 如果已在要安装 Teams 面板的会议空间中部署了 Microsoft Teams 会议室，则资源帐户已具有 [Microsoft Teams 会议室许可证](../rooms/rooms-licensing)。 在这种情况下，无需购买单独的 Microsoft Teams 会议室标准版许可证来部署面板。 管理员使用与 Microsoft Teams 会议室相同的凭据登录面板设备，但空间相同。
+>- 如果已在要安装 Teams 面板的会议空间中部署了 Microsoft Teams 会议室，则资源帐户已具有 [Microsoft Teams 会议室许可证](../rooms/rooms-licensing.md)。 在这种情况下，无需购买单独的 Microsoft Teams 会议室标准版许可证来部署面板。 管理员使用与 Microsoft Teams 会议室相同的凭据登录面板设备，但空间相同。
+>
+>- 对于具有多个入口的大型会议室（如会议室或会议室），您可以在每个进入处装载一个面板设备。 属于单个会议空间的多个面板共享同一资源帐户，并使用相同的凭据登录。 无需为同一空间的每个面板创建单独的资源帐户。
 
 > [!TIP]
 > 建议在实际 Teams 面板安装之前创建资源帐户。

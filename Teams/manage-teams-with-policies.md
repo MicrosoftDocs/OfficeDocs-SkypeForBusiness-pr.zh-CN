@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: 了解 Teams 策略。
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 368e71820100ba8cfccb28eef63864f47cd8ce85
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421297"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460492"
 ---
 # <a name="manage-teams-with-policies"></a>使用策略管理 Teams
 
@@ -63,7 +63,7 @@ ms.locfileid: "50421297"
 策略类型 | 说明
 ------------|------------
 [策略包](manage-policy-packages.md) | Microsoft Teams 中的策略包是可分配给组织中具有类似角色的用户的预定义策略和设置的集合。
-[会议策略](meeting-policies-in-teams.md) | 会议策略用于控制可用于组织中用户安排的会议的会议参与者的功能。 会议策略包括以下主题。<br> - 音频和视频策略<br> - 内容和屏幕共享策略<br> - 参与者、来宾和访问策略<br> - 常规策略
+[会议策略](meeting-policies-in-teams.md) | 会议策略用于控制可供会议参与者用于组织中用户安排的会议的功能。 会议策略包括以下主题。<br> - 音频和视频策略<br> - 内容和屏幕共享策略<br> - 参与者、来宾和访问策略<br> - 常规策略
 [语音和呼叫策略](voice-and-calling-policies.md)| 语音和呼叫策略通过紧急呼叫、呼叫路由和呼叫者 ID 等团队管理这些设置。
 [应用策略](app-policies.md)| 应用策略用于控制 Microsoft Teams 中的应用程序。 管理员可以允许或阻止用户可以安装哪些应用，将应用程序固定到用户的 Teams 应用栏，并代表用户安装应用程序。
 [消息策略](messaging-policies-in-teams.md)| 消息传送策略控制聊天和通道功能可用性。
@@ -72,5 +72,6 @@ ms.locfileid: "50421297"
 
 * [在 Microsoft Teams 中管理反馈策略](manage-feedback-policies-in-teams.md)
 * [在 Microsoft Teams 中管理团队策略](teams-policies.md)
+* [在活动日志中查看策略分配](activity-log.md)
 * [在 Microsoft Teams 中为实时事件进行设置](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams 教育策略和策略包](policy-packages-edu.md)

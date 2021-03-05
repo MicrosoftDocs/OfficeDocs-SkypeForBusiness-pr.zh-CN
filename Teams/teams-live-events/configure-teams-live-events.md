@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 description: 了解如何管理组织中组织的 Teams 实时事件设置。
 f1.keywords:
@@ -21,24 +22,24 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c62b7ed2afcfdb9baa779c57f3fcf566295053b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0bcb5edea00066c861b2288791f3ff3e0ee58431
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831192"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461012"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
 使用 Teams 实时事件设置为组织中举行实时事件配置设置。 可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在组织中创建的所有实时事件。
 
-可以在 Microsoft Teams 管理中心轻松管理这些设置。 在左侧导航栏中，转到 **"会议**  >  **实时事件"设置**。
+可以在 Microsoft Teams 管理中心轻松管理这些设置。 在左侧导航栏中，转到 **"会议**  >  **实时事件设置"。**
 
 ![Teams 实时事件设置的屏幕截图](../media/teams-live-events-settings.png "可在 Microsoft Teams 管理中心配置的 Teams 实时事件设置的屏幕截图")
 
 ## <a name="set-up-event-support-url"></a>设置事件支持 URL
 
-此 URL 向现场活动与会者显示。 为组织添加支持 URL，为与会者提供在直播活动期间联系支持人员的方法。
+此 URL 向实时活动与会者显示。 为组织添加支持 URL，让与会者在直播活动期间联系支持人员。
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
@@ -64,7 +65,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 1. 在左侧导航栏中，转到 **"会议**  >  **实时事件设置"。**
 2. 在 **"第三方视频分发提供商"** 下，完成以下操作： 
 
-    ![管理中心内的第三方视频分发提供商设置](../media/teams-live-events-settings-distribution-provider.png "实时事件的第三方视频分发提供商设置的屏幕截图")
+    ![管理中心的第三方视频分发提供商设置](../media/teams-live-events-settings-distribution-provider.png "实时事件的第三方视频分发提供商设置的屏幕截图")
 
     - **使用第三方分发提供商** 启用此选项以启用第三方视频分发提供商。
     - **SDN 提供程序名称** 选择你使用的提供商。
@@ -72,7 +73,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
     - **SDN API 模板 URL** 输入从提供商联系人获取的 API 模板 URL。
 
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
-从提供程序联系人获取许可证 ID 或 API 令牌和 API 模板，然后根据使用的提供程序运行以下操作之一：
+从提供程序联系人获取许可证 ID 或 API 令牌和 API 模板，然后根据使用的提供程序运行下列操作之一：
 
 **Hive** 
 ```PowerShell
