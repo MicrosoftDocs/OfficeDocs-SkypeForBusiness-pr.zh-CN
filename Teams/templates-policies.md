@@ -1,5 +1,5 @@
 ---
-title: 管理中心中的 Teams 模板
+title: 在管理中心管理 Teams 模板
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,18 +19,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在管理中心管理 Teams 模板
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
+ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145879"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50507965"
 ---
 # <a name="create-and-manage-teams-templates-in-the-admin-center"></a>在管理中心创建和管理 Teams 模板
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-在管理中心创建模板策略，管理向最终用户显示的 Teams 模板。 在每个模板策略中，可以指定显示或隐藏的模板。
+在管理中心创建模板策略，管理最终用户看到的 Teams 模板。 在每个模板策略中，可以指定显示或隐藏的模板。
 将不同的用户分配到不同的模板策略，以便用户仅查看指定的 Teams 模板子集。
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>创建模板策略并分配可用模板
@@ -43,13 +41,13 @@ ms.locfileid: "50145879"
 
     ![已选择模板策略并突出显示"添加"](media/template-policies-1.png)
 
-1. 在" **模板策略设置"** 部分中，完成以下字段：
+1. 在" **模板策略设置** "部分中，完成以下字段：
 
     - 模板策略名称
 
     - 模板策略简短说明
 
-2. 在 **"可查看的模板"** 表中，选择要隐藏的模板，然后选择"隐藏 **"。**
+2. 在"**可查看的模板"** 表中，选择要隐藏的模板，然后选择"隐藏 **"。**
 
     ![突出显示"隐藏"的所选模板](media/template-policies-2.png)
 
@@ -59,12 +57,12 @@ ms.locfileid: "50145879"
 
 1. 选择要取消隐藏模板，然后选择"显示 **"。**
 
-   ![突出显示"隐藏"的所选模板](media/template-policies-3.png)
+   ![未隐藏的所选模板](media/template-policies-3.png)
 
-   所选模板将显示在"可查看的模板 **"** 表中。
+   所选模板将显示在"可查看的模板 **"表中** 。
 3. 选择 **"保存"。**
 
-   新模板策略会显示在" **模板策略"** 列表中。
+   新模板策略显示在" **模板策略"** 列表中。
 
 ## <a name="assign-users-to-the-template-policies"></a>将用户分配到模板策略
 
@@ -74,7 +72,7 @@ ms.locfileid: "50145879"
 
 2. 键入要分配到此策略的用户。
 
-   ![突出显示"隐藏"的所选模板](media/template-policies-4.png)
+   ![将用户分配到模板策略](media/template-policies-4.png)
 
 3. 选择 **"应用"。**
 
@@ -93,13 +91,13 @@ ms.locfileid: "50145879"
 
 **问：能否将组分配到团队模板策略？**
 
-答：目前否。 此功能将在未来提供。
+答：目前否。 将来会提供此功能。
 
-**问：如果创建了一个新模板，该模板是否将包含在我的策略中？**
+**问：如果创建了一个新模板，该模板是否将包含在策略中？**
 
 答：默认情况下，任何新模板都可见。 可以选择在"模板策略"部分的管理中心中隐藏模板。
 
-**问：删除模板时会发生什么情况？**
+**问：删除模板会发生什么情况？**
 
 答：任何已删除的模板将不再存在于任何模板策略中。
 
@@ -113,23 +111,23 @@ ms.locfileid: "50145879"
 1. 选择"应用"。
    在 Microsoft [Teams 中详细了解如何为用户分配策略 - Microsoft Teams \| Microsoft Docs。](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users)
 
-**问：如何查看分配到特定策略的所有用户？**
+**问：如何查看分配给特定策略的所有用户？**
 
 答：在管理中心：
 
 1. 转到"用户 **"** 部分。
-2. 在"用户"列表表中选择筛选器，并筛选团队模板策略。
+2. 在"用户"列表表中选择筛选器，然后筛选团队模板策略。
 3. 选择 **"应用"。**
 
-![突出显示"隐藏"的所选模板](media/template-policies-5.png)
+![所选模板策略并查看用户](media/template-policies-5.png)
 
-**问：能否通过 PowerShell 管理模板策略？**
+**问：我能否通过 PowerShell 管理模板策略？**
 
-答：不支持。
+答：不支持在 PowerShell 中管理模板。
 
 **问：模板策略是否适用于 EDU？**
 
-答：不支持。
+答：不支持，不支持 EDU 的模板策略。
 
 ## <a name="related-topics"></a>相关主题
 
@@ -143,4 +141,4 @@ ms.locfileid: "50145879"
 
 - [在 Microsoft Teams 中向用户分配策略 - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [Batch 将用户分配到策略](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [将用户批量分配到策略](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
