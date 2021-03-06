@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 了解如何使用外部访问（联盟）和来宾访问在 Microsoft Teams 中与组织外部的人员进行通话和聊天以及查找和添加这些人员。
-ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421317"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461042"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用来宾访问权限和外部访问权限与组织外部的人员进行协作
 
@@ -43,6 +43,9 @@ ms.locfileid: "50421317"
 ![外部访问设置的屏幕截图](media/external-access-federation-settings.png)
 
 若要配置外部访问，请参阅[管理外部访问](manage-external-access.md)。 
+
+>[!NOTE]
+>Microsoft Teams 免费许可证不支持外部访问。
 
 ## <a name="guest-access"></a>来宾访问
 
@@ -65,8 +68,8 @@ ms.locfileid: "50421317"
 | 查看其他组织中的人是否可接受呼叫或聊天 | 是 | 是<sup>1</sup> |
 | 搜索其他组织中的人员 | 是<sup>2</sup> | 否 |
 | 共享文件 | 否 | 是 |
-| 查看以下人员的外出消息 | 否 | 是 |
-| 阻止其他组织中的人 | 否 | 是 |
+| 查看另一个组织中某人外出期间的邮件 | 否 | 是 |
+| 组织其他组织中的某个人  | 否 | 是 |
 | 使用 @提及 | 是<sup>3</sup> | 是 |
 
 ### <a name="things-people-outside-your-organization-can-do"></a>组织外部的人员可以进行的一些操作
