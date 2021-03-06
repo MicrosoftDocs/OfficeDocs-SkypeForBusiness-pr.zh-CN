@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: dbab559da8062fa30fb1b42e632baabe2c50fc63
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196786"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460442"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -36,14 +36,14 @@ ms.locfileid: "50196786"
 |-----------|---------------|
 |用户可创建的团队数 | 限制为 250 个对象&sup1;         |
 |用户可以成为其成员的团队数|1,000&sup2;|
-|团队中的成员数 | 10,000<sup>6</sup>     |
+|团队中的成员数 | 25,000<sup>6</sup>     |
 |每个团队的所有者数 | 100   |
 |租户中允许的组织范围内的团队数 | 5     |
 |[组织范围内的团队](create-an-org-wide-team.md)中的成员数 | 10,000       |
 |全局管理员可创建的团队数        |  500,000   |
 |Microsoft 365 或 Office 365 组织可拥有的团队数    | 500,000&sup3;     |
-|每个团队的频道数    | 200（包括已删除的频道）&sup4;         |
-|各团队专用频道数    |30| （包括已删除的频道）&sup4;
+|每个团队的频道数    | 200（包括已删除的频道）<sup>4</sup>        |
+|各团队专用频道数    |30（包括已删除的频道）<sup>4</sup>        |
 |专用频道中的成员数    |250|
 |可导入到团队中的通讯组列表、安全组或 Office 365 组的最大大小    |3,500|
 |Office 365 组中最多可以有多少名成员以转换为团队    |10,000<sup>6</sup>     |
@@ -59,7 +59,7 @@ ms.locfileid: "50196786"
 
 <sup>5</sup> 28 KB 是近似限制，因为它包括邮件本身（文本、图像链接等）、@提及、连接线数目以及反应。
 
-<sup>GCC</sup> 6 个工作组仅能容纳 5，000 名成员，而 GCCH/DoD 中的团队仅能容纳 2，500 名成员。
+<sup>GCC</sup> 6 个工作组可容纳 25，000 名成员，但 GCCH/DoD 中的团队仅能容纳 2，500 个成员。 进一步请注意，拥有 10，000 多个成员的团队/频道提及将被阻止。
 
 ## <a name="messaging"></a>消息传递
 
