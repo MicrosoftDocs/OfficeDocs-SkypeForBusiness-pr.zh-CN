@@ -501,8 +501,6 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 制造类别 Teams 模板
             href: manufacturing-teams-templates-in-the-admin-console.md
-          - name: 创建和管理模板策略
-            href: templates-policies.md
       - name: 与外部用户通信
         items:
           - name: 与其他组织的用户通信
