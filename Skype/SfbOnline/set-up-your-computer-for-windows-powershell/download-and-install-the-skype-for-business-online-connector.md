@@ -18,53 +18,32 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 下载、安装和使用 Skype for Business Online 连接器以创建连接到 Skype for business Online 的远程 Windows PowerShell 会话。
-ms.openlocfilehash: 3928e77e5bac77dbfe89f7be5e762dd0d8ff93eb
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+description: 下载、安装 Skype for Business Online 连接器，然后使用该连接器创建Windows PowerShell Skype for Business Online 的远程连接会话。
+ms.openlocfilehash: 5883eba8dc4dd959e67e45aa27413624e0f5d941
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814561"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568938"
 ---
-# <a name="download-and-install-the-skype-for-business-online-connector-module"></a><span data-ttu-id="79fe5-103">下载并安装 Skype for Business Online 连接器模块</span><span class="sxs-lookup"><span data-stu-id="79fe5-103">Download and install the Skype for Business Online Connector module</span></span>
+# <a name="download-and-install-the-teams-powershell-module"></a><span data-ttu-id="eb167-103">下载并安装 Teams PowerShell 模块</span><span class="sxs-lookup"><span data-stu-id="eb167-103">Download and install the Teams PowerShell module</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="79fe5-104">最新的 [团队 powershell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/) 已与 Skype For Business Online 连接器集成，为团队 PowerShell 管理提供单个模块。</span><span class="sxs-lookup"><span data-stu-id="79fe5-104">The latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.</span></span>
 
-<span data-ttu-id="79fe5-105">Skype for Business Online 连接器模块包括 **CsOnlineSession** cmdlet，可用于创建连接到 Skype For business Online 的远程 Windows PowerShell 会话。</span><span class="sxs-lookup"><span data-stu-id="79fe5-105">The Skype for Business Online Connector module includes the **New-CsOnlineSession** cmdlet, which enables you to create a remote Windows PowerShell session that connects to Skype for Business Online.</span></span> <span data-ttu-id="79fe5-106">此模块仅在64位计算机上受支持 (请参阅 [使用 Windows PowerShell 设置计算机以使用 Skype For Business Online 管理](set-up-your-computer-for-windows-powershell.md) 有关详细信息) ，可从 Microsoft 下载中心下载 [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) 。</span><span class="sxs-lookup"><span data-stu-id="79fe5-106">This module, which is supported only on 64-bit computers (see [Set up your computer for Skype for Business Online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md) for more information), can be downloaded from the Microsoft Download Center at [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366).</span></span> <span data-ttu-id="79fe5-107">下载 SkypeOnlinePowershell.exe 文件，然后完成以下过程：</span><span class="sxs-lookup"><span data-stu-id="79fe5-107">Download the SkypeOnlinePowershell.exe file, and then complete the following procedure:</span></span>
-  
-1. <span data-ttu-id="79fe5-108">双击 " **SkypeOnlinePowershell.exe** " 文件。</span><span class="sxs-lookup"><span data-stu-id="79fe5-108">Double-click the **SkypeOnlinePowershell.exe** file.</span></span>
+> <span data-ttu-id="eb167-104">最新 [版 Teams PowerShell 与](https://www.powershellgallery.com/packages/MicrosoftTeams/) Skype for Business Online 连接器集成，为 Teams 和 Skype for Business Online PowerShell 管理提供单个模块。</span><span class="sxs-lookup"><span data-stu-id="eb167-104">The latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams and Skype for Business online PowerShell management.</span></span>
+
+
+1. <span data-ttu-id="eb167-105">安装 [Teams PowerShell 模块](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。</span><span class="sxs-lookup"><span data-stu-id="eb167-105">Install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).</span></span>
     
-2. <span data-ttu-id="79fe5-109">在 Skype for Business Online 的 Windows PowerShell 设置向导中的 " **Microsoft 软件许可条款** " 页面上，选择 " **我接受许可协议中的条款**"，然后单击 " **安装**"。</span><span class="sxs-lookup"><span data-stu-id="79fe5-109">In the Skype for Business Online, Windows PowerShell setup wizard, on the **Microsoft Software License Terms** page, select **I accept the terms in the License Agreement**, and then click **Install**.</span></span> <span data-ttu-id="79fe5-110">如果出现 " **用户帐户控制** " 对话框，请单击 **"是"** 以继续安装。</span><span class="sxs-lookup"><span data-stu-id="79fe5-110">If the **User Account Control** dialog box appears, click **Yes** to continue the installation.</span></span>
-    
-3. <span data-ttu-id="79fe5-111">在 " **已完成 Skype For Business Online，Windows PowerShell 模块** " 页面上，单击 " **完成**"。</span><span class="sxs-lookup"><span data-stu-id="79fe5-111">On the **Completed the Skype for Business Online, Windows PowerShell Module** page, click **Finish**.</span></span>
-    
-<span data-ttu-id="79fe5-112">安装程序将 Skype for Business Online 连接器模块 (和 **CsOnlineSession** cmdlet) 复制到你的计算机。</span><span class="sxs-lookup"><span data-stu-id="79fe5-112">The setup program copies the Skype for Business Online Connector module (and the **New-CsOnlineSession** cmdlet) to your computer.</span></span> <span data-ttu-id="79fe5-113">若要访问该模块，请在 "管理员凭据" 下启动 Windows PowerShell 会话，然后运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="79fe5-113">To access the module, start a Windows PowerShell session under administrator credentials, and then run the following command:</span></span>
-  
-```PowerShell
-Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-```
+2. <span data-ttu-id="eb167-106">打开Windows PowerShell提示符并运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="eb167-106">Open a Windows PowerShell command prompt and run the following commands:</span></span> 
 
-<span data-ttu-id="79fe5-114">如果你不希望每次启动 Windows PowerShell 时都键入此命令，你可以将该命令添加到你的 Windows PowerShell 配置文件。</span><span class="sxs-lookup"><span data-stu-id="79fe5-114">If you don't want to type this command every time you start Windows PowerShell, you can add the command to your Windows PowerShell profile.</span></span> <span data-ttu-id="79fe5-115">若要执行此操作，请在 Windows PowerShell 提示符处键入以下命令，然后按 ENTER：</span><span class="sxs-lookup"><span data-stu-id="79fe5-115">To do that, type the following command at the Windows PowerShell prompt and then press ENTER:</span></span>
+   ```powershell
+   # When using Teams PowerShell Module
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
+   <span data-ttu-id="eb167-107">如果需要有关启动 Windows PowerShell，请参阅"在单个 Windows PowerShell 窗口中连接到所有[Microsoft 365 或 Office 365](https://technet.microsoft.com/library/dn568015.aspx)服务，或设置计算机[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)</span><span class="sxs-lookup"><span data-stu-id="eb167-107">If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
   
-```PowerShell
-notepad.exe $profile
-```
-
- <span data-ttu-id="79fe5-116">出现记事本时，将以下行添加到配置文件中已存在的命令底部 (如果有任何) ：</span><span class="sxs-lookup"><span data-stu-id="79fe5-116">When Notepad appears, add the following line to the bottom of the commands that are already in the profile (if any):</span></span>
-  
-```PowerShell
-Import-Module SkypeOnlineConnector
-```
-
-<span data-ttu-id="79fe5-117">保存文件。</span><span class="sxs-lookup"><span data-stu-id="79fe5-117">Save the file.</span></span> <span data-ttu-id="79fe5-118">下次启动 Windows PowerShell 时，将自动导入 Skype for business Online 连接器模块。</span><span class="sxs-lookup"><span data-stu-id="79fe5-118">The next time you start Windows PowerShell, the Skype for Business Online Connector module will automatically be imported.</span></span> <span data-ttu-id="79fe5-119">请注意，你将收到一条错误消息，如果你未在 "管理员凭据" 下运行 Windows PowerShell，将不会加载该模块。</span><span class="sxs-lookup"><span data-stu-id="79fe5-119">Be aware that you will get an error message, and the module will not be loaded, if you are not running Windows PowerShell under administrator credentials.</span></span>
-  
-<span data-ttu-id="79fe5-120">除了安装 Skype for Business Online 连接器模块之外，SkypeOnlinePowershell.exe 还会安装三个附加组件： 1) 用于处理针对 Skype for business Online 的客户端身份验证的身份服务客户端运行时库 (IDCRL) ，2) .NET Framework 4.5;和 3) Microsoft Visual c + + 2012 可再发行 (x64) 程序包 (版本 11.0.50727) 。</span><span class="sxs-lookup"><span data-stu-id="79fe5-120">In addition to installing the Skype for Business Online Connector module, SkypeOnlinePowershell.exe also installs three additional components: 1) the Identity Service Client Runtime Library (IDCRL), used to handle client authentication to Skype for Business Online; 2) .NET Framework 4.5; and, 3) the Microsoft Visual C++ 2012 Redistributable (x64) package (version 11.0.50727).</span></span> <span data-ttu-id="79fe5-121">.NET Framework 4.5 提供用于构建和运行 .NET 应用程序（包括 Windows PowerShell）的基础结构。</span><span class="sxs-lookup"><span data-stu-id="79fe5-121">.NET Framework 4.5 provides the infrastructure used for building and running .NET applications, including Windows PowerShell.</span></span> <span data-ttu-id="79fe5-122">Visual c + + 可再发行程序包为未安装 Microsoft Visual Studio 2012 的计算机安装 Visual c + + 运行时组件。</span><span class="sxs-lookup"><span data-stu-id="79fe5-122">The Visual C++ Redistributable package installs Visual C++ runtime components for computers that do not have Microsoft Visual Studio 2012 installed.</span></span>
-  
-<span data-ttu-id="79fe5-123">若要验证您的计算机上当前安装的连接器模块的版本号，请打开 "控制面板"，打开 " **程序和功能**"，然后查看 **Skype for Business Online、Windows PowerShell 模块**的版本号。</span><span class="sxs-lookup"><span data-stu-id="79fe5-123">To verify the version number of the Connector module that is currently installed on your computer, open Control Panel, open **Programs and Features**, and then check the version number for the **Skype for Business Online, Windows PowerShell Module**.</span></span>
-  
-## <a name="related-topics"></a><span data-ttu-id="79fe5-124">相关主题</span><span class="sxs-lookup"><span data-stu-id="79fe5-124">Related topics</span></span>
-[<span data-ttu-id="79fe5-125">使用 Windows PowerShell 为 skype for business online 管理设置计算机</span><span class="sxs-lookup"><span data-stu-id="79fe5-125">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
-
-  
- 
+## <a name="related-topics"></a><span data-ttu-id="eb167-108">相关主题</span><span class="sxs-lookup"><span data-stu-id="eb167-108">Related topics</span></span>
+[<span data-ttu-id="eb167-109">使用 Skype for business Online 管理设置计算机Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="eb167-109">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
