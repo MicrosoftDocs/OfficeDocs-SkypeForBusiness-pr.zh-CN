@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解 Microsoft Teams 认证了哪些桌面电话和会议电话，以获得最佳结果。
-ms.openlocfilehash: ad0e89d51172f0e8704f805cc3d85875ffcf8728
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 319ddccf45f9930f69d6ff58b3da2347f2f7b9f5
+ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460742"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50558421"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 认证的设备
 
@@ -67,11 +67,11 @@ Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能�
 
 ## <a name="currently-certified-teams-rooms-on-android"></a>Android 上当前经过认证的 Teams 会议室
 
-以下设备在 Microsoft Teams Rooms on Android 认证计划下通过认证：
+以下设备在 Android 上的 Microsoft Teams 会议室认证计划下通过认证：
 
-| 设备模型 | 固件版本 | 发布日期  | 会议室 (最多)                                          |
+| 设备模型 | 固件版本 | 发布日期  | 房间大小                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 焦点会议室 (3 米 x 3)  </br> 小型会议室 (450 万 x 450 万)  |
+| Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 中型会议室 (450 万 x 6 米)  |
 | Yealink CTP18 触摸控制台  | 137.15.0.28    | 2021 年 3 月 | 与会议栏 A20 和会议栏 A30 兼容 |
 | Yealink MeetingBar A20  | 133.15.0.19      | 2020 年 11 月 | 焦点会议室 (3 米 x 3)  </br> 小型会议室 (450 万 x 450 万)  |
 | Poly Studio X30         | 3.1.1.216109     | 2020 年 6 月     | 焦点会议室 (3 米 x 3)  </br> 小型会议室 (450 万 x 450 万)  |
@@ -128,7 +128,7 @@ Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能�
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 会议室的产品发布信息
 
-以下是 Android 应用和固件版本的最新 Teams 会议室。
+以下是 Android 应用和固件版本上的最新 Teams 会议室。
 
 #### <a name="app-versions"></a>应用版本
 
@@ -168,7 +168,7 @@ Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能�
 
 有关 [这些设备支持的功能的信息](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) ，请参阅 Microsoft Teams 手机功能集。
 
-请参阅 ["在移动设备上查找固件版本"，](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) 以确定移动设备上的设备固件版本。
+请参阅 ["在移动设备上查找固件版本"，](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) 确定移动设备上的设备固件版本。
 
 Microsoft Teams 许可证可以购买为 [Microsoft 365 或 Office 365](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)订阅的一部分。 若要详细了解在手机上使用 Microsoft Teams 所需的许可证，请参阅可用的 [电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 

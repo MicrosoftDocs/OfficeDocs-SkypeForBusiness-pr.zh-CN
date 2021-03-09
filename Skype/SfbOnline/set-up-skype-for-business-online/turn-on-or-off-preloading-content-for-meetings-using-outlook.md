@@ -19,64 +19,46 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 079d0642158aa6d28b3c92a63e77afa0a0024d94
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 7a59edb72b72cb42661cdf0e2cb350d7617a47bf
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814581"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568898"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>打开或关闭允许使用 Outlook 为会议预加载内容
 
-用户可以将附加到 Outlook 会议邀请的内容、文件或附件预加载到 Skype for business Online 会议，但您可以打开或关闭它。 默认情况下，它为使用 Skype for Business Online 的所有组织打开。 请参阅如何[为 Skype for Business 会议预加载附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
+用户可以将附加到 Outlook 会议邀请的内容、文件或附件预装到 Skype for Business Online 会议，但你可以将其打开或关闭。 默认情况下，所有使用 Skype for Business Online 的组织都启用它。 请参阅如何[为 Skype for Business 会议预加载附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
   
 > [!NOTE]
-> 目前，Skype for Business Online 中没有可用的 cmdlet，无法设置或查看  _MaxContentStorageMB_ 和 _MaxUploadFileMB_的在线值。 它们仅适用于本地部署。 如果附件内容超过  _MaxUploadFileSizeMB_ 或 _MaxContentStorageMB_ 限额，请务必知道内容不会上载到会议。
+> 目前，Skype for Business Online 中没有任何 cmdlet 可用于设置或查看  _MaxContentStorageMB_ 和 _MaxUploadFileMB_ 的联机值。 它们仅适用于本地部署。 必须知道，如果附加内容超过  _MaxUploadFileSizeMB_ 或 _达到 MaxContentStorageMB_ 限制，则不会将内容上传到会议。
   
 ## <a name="to-get-you-started"></a>开始使用
 
-### 
+## <a name="start-windows-powershell"></a>启动Windows PowerShell
 
- **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
-  
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
-    
-3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
-    
-4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
-    
-如果需要了解详细信息，请参阅 [在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
-  
-### 
-
- **启动 Windows PowerShell 会话**
-  
-1. From the **Start Menu** > **Windows PowerShell**.
-    
-2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
-    
 > [!NOTE]
-> Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
->
-> 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
-  
-```PowerShell
-Import-Module -Name MicrosoftTeams
-$credential = Get-Credential
-$session = New-CsOnlineSession -Credential $credential
-Import-PSSession $session
-```
+> Skype for Business Online 连接器当前是最新 Teams PowerShell 模块的一部分。 如果你使用的是最新的 Teams PowerShell 公共版本，则无需安装 Skype for Business Online 连接器。
+1. 安装 [Teams PowerShell 模块](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。
+    
+2. 打开Windows PowerShell提示符并运行以下命令： 
 
-如果需要有关启动 Windows PowerShell 的详细信息，请参阅 [在单个 Windows powershell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx) 或 [设置适用于 windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   ```powershell
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   Connect-MicrosoftTeams -Credential $userCredential
+   ```
+
+如果需要有关启动 Windows PowerShell，请参阅"在单个 Windows PowerShell 窗口中连接到所有[Microsoft 365 或 Office 365](https://technet.microsoft.com/library/dn568015.aspx)服务，或设置计算机[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="turning-it-on-or-off"></a>打开或关闭该功能
 
-默认情况下，可以预加载到 Skype for business Online 会议邀请的 Outlook 会议邀请的内容处于打开状态，但你可能需要阻止组织中的用户在其会议中预加载内容。
+默认情况下，可以预加载附加到 Skype for Business Online 会议的 Outlook 会议邀请的内容，但你可能需要阻止贵组织的用户预加载其会议中的内容。
   
 > [!IMPORTANT]
-> 此设置仅可为您的整个组织打开或关闭;不能为单个用户打开或关闭该功能。 
+> 此设置只能为整个组织启用或关闭;无法为单个用户打开或关闭它。 
   
  **若要将其关闭，请打开 Windows PowerShell 并执行下列操作：**
   
@@ -92,15 +74,15 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365 和 Skype for business Online，这样你有多个任务可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 借助Windows PowerShell，当你有多个任务需要执行时，可以使用单点管理来管理 Microsoft 365 或 Office 365 和 Skype for Business Online，从而简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [可能希望使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的六个原因](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [你可能想要使用 office 365 Windows PowerShell Office 365 的六大原因](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
+- Windows PowerShell使用 Microsoft 365 管理中心相比，在速度、简单性和工作效率方面具有许多优势，例如，一次对多个用户进行设置更改时。 通过以下主题了解这些优势：
     
-  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

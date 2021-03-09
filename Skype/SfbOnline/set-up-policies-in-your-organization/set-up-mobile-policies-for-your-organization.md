@@ -18,124 +18,107 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 你可以使用移动设备上的 Skype for Business 应用设置用户如何连接到 Skype for business Online，例如允许用户使用其工作电话号码（而不是移动电话号码）在手机上收发电话的功能。移动策略还可用于在拨打或接听电话时要求 Wlan 连接。
-ms.openlocfilehash: 5094a536a636300ea70a7d358e24ee5c0f511379
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+description: 你可以设置你的用户如何在移动设备上使用 Skype for Business 应用连接到 Skype for Business Online，例如允许用户使用工作电话号码而不是移动电话号码在移动电话上拨打和接听电话的功能。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
+ms.openlocfilehash: 36162c64490edf58bbfac5c7022bebf6f39595ca
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814741"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569194"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 
-你可以使用移动设备上的 Skype for Business 应用设置用户如何连接到 Skype for business Online，例如允许用户使用其工作电话号码（而不是移动电话号码）在手机上收发电话的功能。移动策略还可用于在拨打或接听电话时要求 Wlan 连接。
+你可以设置你的用户如何在移动设备上使用 Skype for Business 应用连接到 Skype for Business Online，例如允许用户使用工作电话号码而不是移动电话号码在移动电话上拨打和接听电话的功能。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
   
-移动策略设置可以在创建策略时进行配置，也可以使用 **CsMobilityPolicy** cmdlet 修改现有策略的设置。
+可以在创建策略时配置移动策略设置，或者可以使用 **Set-CsMobilityPolicy** cmdlet 修改现有策略的设置。
   
 ## <a name="set-your-mobile-policies"></a>设置你的移动策略
 
 > [!NOTE]
-> 对于 Skype for Business Online 中的所有移动策略设置，必须使用 Windows PowerShell，并且 **不能使用** **Skype for business 管理中心**。 
+> 对于 Skype for Business Online 中的所有移动策略设置，必须使用 Windows PowerShell 并且不能使用 Skype **for Business 管理中心**。 
   
-### <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
+### <a name="start-windows-powershell"></a>启动Windows PowerShell
 
-- **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
+> [!NOTE]
+> Skype for Business Online 连接器当前是最新 Teams PowerShell 模块的一部分。 如果你使用的是最新的 Teams PowerShell 公共版本，则无需安装 Skype for Business Online 连接器。
+1. 安装 [Teams PowerShell 模块](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。
     
-    1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-        
-    2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
-        
-    3. 如果你没有版本3.0 或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 windows PowerShell 并将其更新到版本4.0。出现提示时，请重新启动计算机。
-        
-    4. 你还需要为团队安装 Windows PowerShell 模块，使你能够创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。
-    
-    如果需要了解详细信息，请参阅 [在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
-    
-- **启动 Windows PowerShell 会话**
-    
-    1. From the **Start Menu** > **Windows PowerShell**.
-        
-    2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
-        
-       > [!NOTE]
-       > Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
-       >
-       > 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
+2. 打开Windows PowerShell提示符并运行以下命令： 
 
-       ```PowerShell      
-        Import-Module -Name MicrosoftTeams
-        $credential = Get-Credential
-        $session = New-CsOnlineSession -Credential $credential
-        Import-PSSession $session
-       ```
+   ```powershell
+   # When using Teams PowerShell Module
 
-   如果需要有关启动 Windows PowerShell 的详细信息，请参阅 [在单个 Windows powershell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx) 或 [设置适用于 windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
-
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
+   如果需要有关启动 Windows PowerShell，请参阅"在单个 Windows PowerShell 窗口中连接到所有[Microsoft 365 或 Office 365](https://technet.microsoft.com/library/dn568015.aspx)服务，或设置计算机[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>要求用户进行视频操作时使用 WiFi 连接
 
-- 若要为这些设置创建新的策略，请运行：
+- 若要为这些设置创建新策略，请运行：
    
    ```powershell
    New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
    ```
-   有关 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet 的详细信息，请参阅。
+   详细了解 [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet。
     
-- 若要为你的组织中的所有用户授予你创建的新策略，请运行：
+- 若要向组织中所有用户授予你创建的新策略，请运行：
    
    ```powershell
    Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
    ```
-   有关 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet 的详细信息，请参阅。
+   详细了解 [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet。
     
-  如果你已创建策略，你可以使用 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet 对现有策略进行更改，然后使用[CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet 将设置应用到你的用户。
+  如果已创建策略，可以使用 [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet 更改现有策略，然后使用[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet 将设置应用到用户。
   
 ### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>禁止用户使用 Skype for Business 应用
 
-- 若要为这些设置创建新的策略，请运行：
+- 若要为这些设置创建新策略，请运行：
   ```PowerShell
   New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
   ```
-  有关 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet 的详细信息，请参阅。
+  详细了解 [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet。
     
-- 若要将您创建的新策略授予 Amos 大理石，请运行：  
+- 若要向 Amos Marble 授予创建的新策略，请运行：  
    
    ```powershell
    Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
    ```
-   有关 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet 的详细信息，请参阅。
+   详细了解 [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet。
     
-  如果你已创建策略，你可以使用 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet 对现有策略进行更改，然后使用 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet 将设置应用到你的用户。
+  如果已创建策略，可以使用 [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet 更改现有策略，然后使用 [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet 将设置应用到用户。
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>禁止用户使用移动设备拨打 IP 语音电话。
 
-- 若要为这些设置创建新的策略，请运行：
+- 若要为这些设置创建新策略，请运行：
    
    ```powershell
    New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
    ```
-   有关 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet 的详细信息，请参阅。
+   详细了解 [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) cmdlet。
     
-- 若要为你的组织中的所有用户授予你创建的新策略，请运行：
+- 若要向组织中所有用户授予你创建的新策略，请运行：
    
    ```powershell
    Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
    ```
 
-  有关 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet 的详细信息，请参阅。
+  详细了解 [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet。
     
-如果你已创建策略，你可以使用 [CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet 对现有策略进行更改，然后使用[CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet 将设置应用到你的用户。
+如果已创建策略，可以使用 [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) cmdlet 更改现有策略，然后使用[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) cmdlet 将设置应用到用户。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365 和 Skype for business Online，这样你有多个任务可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 借助Windows PowerShell，当你有多个任务需要执行时，可以使用单点管理来管理 Microsoft 365 或 Office 365 和 Skype for Business Online，从而简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [可能希望使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的六个原因](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [你可能想要使用 office 365 Windows PowerShell Office 365 的六大原因](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
+- Windows PowerShell使用 Microsoft 365 管理中心相比，在速度、简单性和工作效率方面具有许多优势，例如，一次对多个用户进行设置更改时。 通过以下主题了解这些优势：
     
-  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

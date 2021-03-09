@@ -19,71 +19,50 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 12d5a6c736616cb9448dc1f75a6f67424d940d7f
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: ec5aad56ef7557c9b7854c6844d65ff3799d1d1c
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814601"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568752"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>打开或关闭脱机消息（面向管理员）
 
-您可以将 Skype for business 即时消息发送给您的联系人，即使他们未登录也是如此。此功能可让你的联系人知道你已尝试访问它们。您无需等到某人联机才能发送邮件。
+你可以向联系人发送 Skype for Business VM，即使他们未登录。 此功能可让你的联系人知道你已尝试联系他们。 你不必等待直到有人在线才发送消息给他们。
 
 对于脱机消息，请务必了解：
 
 - 脱机消息不会在用户的邮箱中存档。
 
-- 脱机消息将发送到用户的邮箱，当用户登录到 Skype for Business 时，将收到通知。
+- 脱机消息将发送到用户的邮箱，当用户登录到 Skype for Business 时，用户将收到通知。
 
-- 如果邮件收件人的状态设置为 "请勿 **打扰** " 或 "正在 **演示**"，他们将收到从收件人的 Skype for business 客户端发送的错过的消息。
+- 如果邮件收件人的状态设置为"请勿打扰"或"正在展示"，他们将收到从收件人的 Skype for Business 客户端发送的错过的消息。 
 
-有关详细信息，请参阅 [在 Skype For business 中使用脱机消息](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)。
+有关详细信息，请参阅"[在 Skype for Business 中使用脱机消息"。](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)
 
 ## <a name="to-get-you-started"></a>开始使用
 
-## #
+> [!NOTE]
+> Skype for Business Online 连接器当前是最新 Teams PowerShell 模块的一部分。 如果你使用的是最新的 Teams PowerShell 公共版本，则无需安装 Skype for Business Online 连接器。
+1. 安装 [Teams PowerShell 模块](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。
+    
+2. 打开Windows PowerShell提示符并运行以下命令： 
 
- **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
+   ```powershell
+   # When using Teams PowerShell Module
 
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-
-2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
-
-3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
-
-4. 你还需要为团队安装 Windows PowerShell 模块，使你能够创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。
-
-如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
-
-## #
-
- **启动 Windows PowerShell 会话**
-
-1. From the **Start Menu** > **Windows PowerShell**.
-
-2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
-
-   > [!NOTE]
-   > Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
-   >
-   > 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
-
-  ```PowerShell
-  Import-Module -Name MicrosoftTeams
-  $credential = Get-Credential
-  $session = New-CsOnlineSession -Credential $credential
-  Import-PSSession $session
-  ```
-
-如果需要有关启动 Windows PowerShell 的详细信息，请参阅 [在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx) 或 [设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   Connect-MicrosoftTeams -Credential $userCredential
+   ```
+如果希望详细了解如何启动 Windows PowerShell，请参阅"在单个 Windows PowerShell 窗口中连接到所有[Office 365](https://technet.microsoft.com/library/dn568015.aspx)服务，或为计算机设置[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="turning-on-or-off-offline-im"></a>打开或关闭脱机即时消息
 
 > [!NOTE]
-> 脱机消息 **仅** 在最新版本的 "即点即用 skype for business 客户端" 中可用，在使用较旧的即点即用 skype for business 时不可用，或者使用 * .msi 文件安装 Skype for business 客户端时不可用。
+> 脱机消息仅在最新版即点即用 Skype for Business 客户端中可用，在使用旧版即点即用 Skype for Business 或 *.msi 文件安装 Skype for Business 客户端时不可用。
 
-若要启用或禁用脱机消息，请为组织中的用户发送脱机消息，将  _EnableIMAutoArchiving_ 设置为 `True` 或 `False` 。 默认情况下，"" 设置为 "" `True` 。
+若要为组织中用户启用或禁用脱机消息发送脱机消息，请将  _EnableIMAutoArchiving 设置为_ `True` 或 `False` 。 默认情况下，这设置为 `True` 。
 
 要将其禁用，请使用 **Set-CsClientPolicy** cmdlet 并运行：
 
@@ -91,7 +70,7 @@ ms.locfileid: "47814601"
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-若要启用或禁用脱机消息，请为用户发送脱机消息，将  _EnableIMAutoArchiving_ 设置为 `True` 或 `False` 。 默认情况下设置为  `True`。 可以使用现有策略，也可以创建类似于下面的示例的策略。
+若要为用户启用或禁用脱机消息发送脱机消息，请将  _EnableIMAutoArchiving 设置为_ `True` 或 `False` 。 默认情况下设置为  `True`。 可以使用现有策略，也可以创建一个，如以下示例所示。
 
 
   ```PowerShell
@@ -102,15 +81,15 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365 和 Skype for business Online，这样你有多个任务可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 借助Windows PowerShell，当你有多个任务需要执行时，可以使用单点管理来管理 Microsoft 365 或 Office 365 和 Skype for Business Online，从而简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
 
-  - [可能希望使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的六个原因](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [你可能想要使用 office 365 Windows PowerShell Office 365 的六大原因](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
+- Windows PowerShell使用 Microsoft 365 管理中心相比，在速度、简单性和工作效率方面具有许多优势，例如，一次对多个用户进行设置更改时。 通过以下主题了解这些优势：
 
-  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
 
@@ -120,5 +99,3 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
-
-

@@ -16,18 +16,18 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文概述了 Microsoft Teams 面板支持的功能。
-ms.openlocfilehash: e22a49d4cba45507649ad5c15bbb626b77fe800a
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 913924e62483c1a8d44bfade29e5bc700f92b646
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460502"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568918"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 面板
 
 Microsoft Teams 面板是安装在会议空间外（通常位于入口旁）的紧凑触摸屏设备。 Teams 面板让你一目了然地查看位置和会议详细信息，并保留现场可用的会议空间。 使用丰富的大文本和颜色编码指示器，你可以从远方查看会议空间的可用性。
 
-Teams 面板是专用的 Microsoft Teams 设备，用于显示通过 Teams 或 Outlook 365 日历应用程序安排的会议详细信息。 在会议详细信息以醒目方式显示后，与会者可以确认他们在正确的会议空间中、在适当的时间以及正确的会议。
+Teams 面板是专用的 Microsoft Teams 设备，用于显示通过 Teams 或 Outlook 365 日历应用程序安排的会议详细信息。 在会议详细信息以醒目方式显示后，与会者可以确认他们在正确的会议空间中、在正确的时间以及正确的会议。
 
 本文概述了 Teams 面板，可帮助你规划、交付和管理组织中 Teams 面板设备。
 
@@ -35,9 +35,9 @@ Teams 面板是专用的 Microsoft Teams 设备，用于显示通过 Teams 或 O
 
 Teams 面板支持以下功能：
 
-- **专门显示会议空间和会议详细信息。** 您可以一目了然地获得有关会议空间的详细信息，包括其位置和可用性。 对于保留的会议空间，可以看到关键会议详细信息，例如会议标题、会议日程安排和会议组织者。
-- **为临时会议保留可用的会议空间。** 使用触摸屏面板，你可以为临时会议保留现场可用的会议空间，然后从房间中的 Microsoft Teams会议室或 Surface Hub 设备加入该 Teams 会议。
-- **空间可用性状态的颜色编码指示器。** 通过生动的 LED 和主屏幕指示器，你可以远近查看会议空间可用性。 绿色表示会议空间可用，如有必要，你可以从面板本身保留它。 红色或紫色表示会议空间已保留。
+- **专门显示会议空间和会议详细信息。** 您可以一目了然地了解会议空间的详细信息，包括其位置和可用性。 对于保留的会议空间，可以看到关键会议详细信息，例如会议标题、会议日程安排和会议组织者。
+- **为临时会议保留可用的会议空间。** 使用触摸屏面板，你可以就地为临时会议保留可用的会议空间，然后从房间中的 Microsoft Teams会议室或 Surface Hub 设备加入该 Teams 会议。
+- **空间可用性状态的颜色编码指示器。** 通过生动的 LED 和主屏幕指示器，可远近查看会议空间可用性。 绿色表示会议空间可用，如有必要，你可以从面板本身保留它。 红色或紫色表示会议空间已保留。
 - **自定义壁纸和保留状态指示器。** 管理员可以通过设置更改面板的默认外观。 例如，管理员可以更改背景壁纸或更改忙碌状态指示器的颜色。
 - **辅助功能。** Teams 面板具有多种辅助功能，如高对比度文本，方便任何人使用。
 
@@ -52,7 +52,7 @@ Teams 面板支持以下功能：
 
 ## <a name="teams-panels-requirements"></a>Teams 面板要求
 
-部署面板设备的硬件、软件和网络要求可能有所不同，具体取决于要部署的面板设备类型。 请参阅原始设备制造商 (OEM) 文档，了解设备集的要求。
+部署面板设备的硬件、软件和网络要求可能会有所不同，具体取决于要部署的面板设备类型。 请参阅原始设备制造商 (OEM) 文档，了解设备集的要求。
 
 ## <a name="license-requirement"></a>许可证要求
 
@@ -60,7 +60,7 @@ Teams 面板支持以下功能：
 
 > [!Note]
 >
-> - 如果已在要安装 Teams 面板的会议空间中部署了 Microsoft Teams 会议室，则不需要额外的许可证才能使用 Teams 面板。
+> - 如果已在要安装 Teams 面板的会议空间中部署了 Microsoft Teams 会议室，则不需要额外的许可证来使用 Teams 面板。
 > - 需要 Microsoft Teams 会议室高级版许可证才能使用即将推出的其他高级 Teams 面板功能。
 
 ## <a name="deploy-teams-panels-devices"></a>部署 Teams 面板设备
@@ -71,7 +71,7 @@ Teams 面板设备的部署可以细分为以下任务：
 
 - [会议空间清单和容量规划](#inventory-sites-and-meeting-spaces)：创建组织网站和会议空间的清单，用于部署 Teams 面板设备。
 - [采购](#procurement)：从所选设备合作伙伴采购设备。  
-- [站点就绪](#site-readiness)性：确认会议空间 (位置) 满足部署要求。
+- [站点就绪](#site-readiness)性：确认部署 (空间) 满足部署要求。
 - [配置和部署](#configuration-and-deployment)：创建资源帐户并将其分配给设备。
 
 ## <a name="inventory-sites-and-meeting-spaces"></a>库存网站和会议空间
@@ -80,7 +80,7 @@ Teams 面板设备的部署可以细分为以下任务：
 
 ## <a name="procurement"></a>采购
 
-根据部署 Teams 面板范围内会议空间的数量，从通过 Teams 面板认证的合作伙伴之一采购 [设备](#partners-certified-for-teams-panels)。 请访问合作伙伴的网站，了解有关设备和采购选项的详细信息。
+根据部署 Teams 面板的范围中的会议空间数，从一个通过 Teams 面板认证的合作伙伴采购 [设备](#partners-certified-for-teams-panels)。 请访问合作伙伴的网站，了解有关设备和采购选项的详细信息。
 
 您的组织中的会议空间在安装或装载设备时可能有不同的硬件要求。 例如，将设备装载到玻璃、玻璃窗、干墙或森林面板上所需的硬件可能不同。 有关可用的装载选项，请参阅设备合作伙伴的文档。
 
@@ -140,3 +140,5 @@ Teams 面板设备的部署可以细分为以下任务：
 [Teams 面板上的 Microsoft Teams 博客](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [Teams 面板入门](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+
+[在 Microsoft Teams 面板认证计划下认证的设备](teams-ip-phones.md#currently-certified-teams-panels)
