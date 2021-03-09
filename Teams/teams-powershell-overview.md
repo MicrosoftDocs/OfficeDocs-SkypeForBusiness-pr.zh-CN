@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队 PowerShell 概述
+title: Microsoft Teams PowerShell 概述
 ms.reviewer: ''
 author: brandber
 ms.author: brandber
@@ -10,60 +10,60 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: 了解如何使用 PowerShell 控件管理 Microsoft 团队。
+description: 了解如何使用 PowerShell 控件管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12360110df90fb5de2e3e4547534c8569cc5537a
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 6c2c626d61a10437fc5bb349dd128415d64448a7
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852153"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569018"
 ---
-# <a name="microsoft-teams-powershell-overview"></a>Microsoft 团队 PowerShell 概述
+# <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell 概述
 
-Microsoft 团队 PowerShell 是一组用于直接从 PowerShell 命令行管理团队的 cmdlet。 在 .NET 标准版中，团队 PowerShell 在 Windows、PowerShell 6 和更高版本上的 PowerShell 5.1 上运行，包括 Azure 云外壳。
+Microsoft Teams PowerShell 是一组 cmdlet，用于直接从 PowerShell 命令行管理 Teams。 Teams PowerShell 以 .NET Standard 编写，适用于 Windows、PowerShell 6.x 和更高版本的所有平台上的 PowerShell 5.1，包括 Azure Cloud Shell。
 
-在开始使用 PowerShell 之前，你需要 [安装它](teams-powershell-install.md)。 
+在开始使用 PowerShell 之前，需要 [安装它](teams-powershell-install.md)。 
 
 > [!WARNING]
-> PowerShell 7 和团队 PowerShell 存在已知问题。 我们建议在解决问题之前使用 PowerShell 5.1。
+> PowerShell 7 和 Teams PowerShell 存在已知问题。 我们建议使用 PowerShell 5.1，直到问题得到解决。
 
-## <a name="releases"></a>新闻
-
-
-在两种版本类型中，团队 PowerShell 在 [PowerShell 库](https://www.powershellgallery.com/packages/MicrosoftTeams) 中可用。
-
-- **(GA) 的常规可用性** ：生产的 cmdlet，每月更新。
-
-- **公共预览版** ：及早访问功能。 更新频率可能比 GA 更频繁。
-
-有关两个版本的功能添加和改进的详细信息，请阅读 [团队 PowerShell 发行说明](teams-powershell-release-notes.md)。
+## <a name="releases"></a>发布
 
 
-## <a name="manage-teams-with-powershell"></a>通过 PowerShell 管理团队
+Teams PowerShell 在 [PowerShell 库中提供两](https://www.powershellgallery.com/packages/MicrosoftTeams) 种发布类型。
 
-您将使用团队 PowerShell 模块来完全管理团队：
+- **常规 (GA) ：** 生产就绪的 cmdlet，每月更新一次。
 
-- [Microsoft 团队 powershell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)：团队 powershell 模块包含用于管理团队、聊天和频道的 cmdlet。
+- **公共预览** 版：提前访问功能。 更新频率可能高于 GA。
+
+有关两个版本中的功能添加和改进的详细信息，请阅读 [Teams PowerShell 发行说明](teams-powershell-release-notes.md)。
+
+
+## <a name="manage-teams-with-powershell"></a>使用 PowerShell 管理 Teams
+
+你将使用 Teams PowerShell 模块来完全管理 Teams：
+
+- [Microsoft Teams PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)：Teams PowerShell 模块包含用于管理团队、聊天和频道的 cmdlet。
 
 > [!NOTE]
-> 最新的 [团队 powershell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/) 已与 Skype For Business Online 连接器集成，为团队 PowerShell 管理提供单个模块。
+> [Teams PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)1.1.6 或更高版本与 Skype for Business Online 连接器集成，为 Teams PowerShell 管理提供单个模块。
 
-- [Skype for Business Powershell 连接器](https://www.microsoft.com/download/details.aspx?id=39366)： skype For business powershell 连接器现在是团队 PowerShell 模块的一部分。
+- [Skype for Business PowerShell 连接器：Skype](https://www.microsoft.com/download/details.aspx?id=39366)for Business PowerShell 连接器现在是 Teams PowerShell 模块的一部分。
 
-有关使用这些模块管理团队的完整指南，请参阅使用 [团队 PowerShell 管理团队](teams-powershell-managing-teams.md)。
+有关使用这些模块管理 Teams 的完整指南，请参阅"使用[Teams PowerShell 管理 Teams"。](teams-powershell-managing-teams.md)
 
 
 ## <a name="related-topics"></a>相关主题
 
-[安装团队 PowerShell](teams-powershell-install.md)
+[安装 Teams PowerShell](teams-powershell-install.md)
 
-[通过团队 PowerShell 管理团队](teams-powershell-managing-teams.md)
+[使用 Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)
 
-[团队 PowerShell 发行说明](teams-powershell-release-notes.md)
+[Teams PowerShell 发行说明](teams-powershell-release-notes.md)
 
-[Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
 [Skype for Business cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 

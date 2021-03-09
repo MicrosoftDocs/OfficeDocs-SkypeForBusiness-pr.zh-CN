@@ -1,5 +1,5 @@
 ---
-title: 在管理中心管理 Teams 模板
+title: 管理中心中的 Teams 模板
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,15 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在管理中心管理 Teams 模板
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507965"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569008"
 ---
-# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>在管理中心创建和管理 Teams 模板
+# <a name="manage-team-templates-in-the-admin-center"></a>管理中心中的管理团队模板
 
 在管理中心创建模板策略，管理最终用户看到的 Teams 模板。 在每个模板策略中，可以指定显示或隐藏的模板。
 将不同的用户分配到不同的模板策略，以便用户仅查看指定的 Teams 模板子集。
@@ -97,7 +96,7 @@ ms.locfileid: "50507965"
 
 答：默认情况下，任何新模板都可见。 可以选择在"模板策略"部分的管理中心中隐藏模板。
 
-**问：删除模板会发生什么情况？**
+**问：删除模板时会发生什么情况？**
 
 答：任何已删除的模板将不再存在于任何模板策略中。
 
@@ -123,7 +122,7 @@ ms.locfileid: "50507965"
 
 **问：我能否通过 PowerShell 管理模板策略？**
 
-答：不支持在 PowerShell 中管理模板。
+答：不支持，不支持在 PowerShell 中管理模板。
 
 **问：模板策略是否适用于 EDU？**
 

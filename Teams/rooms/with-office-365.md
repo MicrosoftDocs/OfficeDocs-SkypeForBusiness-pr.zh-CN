@@ -15,22 +15,22 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何使用 Microsoft 365 或 Office 365 部署 Microsoft Teams 会议室，Teams 或 Skype for Business 和 Exchange 均联机。
-ms.openlocfilehash: 4ec54763379e4a13a69eb3e08019924708873faf
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 7a25fb17e4b9fce4a51c6e2be5828ecafff59894
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196206"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569118"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用 Microsoft 365 或 Office 365 部署 Microsoft Teams 会议室
 
 阅读本主题，了解如何使用 Microsoft 365 或 Office 365 部署 Microsoft Teams 会议室，其中 Microsoft Teams 或 Skype for Business 和 Exchange 均联机。
 
-设置用户帐户的最简单方法是使用远程服务配置Windows PowerShell。 Microsoft [ 提供了SkypeRoomProvisioningScript.ps1， ](https://go.microsoft.com/fwlink/?linkid=870105)这是一个脚本，可帮助创建新的用户帐户或验证现有资源帐户，以帮助将它们转换为兼容的 Microsoft Teams 会议室用户帐户。 如果愿意，可以按照以下步骤配置 Microsoft Teams 会议室设备将使用的帐户。
+设置用户帐户的最简单方法是使用远程服务配置Windows PowerShell。 Microsoft [ 提供了SkypeRoomProvisioningScript.ps1， ](https://go.microsoft.com/fwlink/?linkid=870105)这是一个脚本，可帮助创建新的用户帐户或验证现有资源帐户，以帮助将其转换为兼容的 Microsoft Teams 会议室用户帐户。 如果愿意，可以按照以下步骤配置 Microsoft Teams 会议室设备将使用的帐户。
 
 ## <a name="requirements"></a>要求
 
-使用 Microsoft 365 或 Office 365 部署 Microsoft Teams 会议室之前，请确保已满足要求。 有关详细信息，请参阅 [Microsoft Teams 会议室要求](requirements.md)。
+使用 Microsoft 365 或 Office 365 部署 Microsoft Teams 会议室之前，请确保满足要求。 有关详细信息，请参阅 [Microsoft Teams 会议室要求](requirements.md)。
 
 若要启用 Skype for Business，必须具有以下项：
 
@@ -48,7 +48,7 @@ ms.locfileid: "50196206"
 
 1. 连接到 Exchange Online PowerShell。 有关说明，请参阅["连接到 Exchange Online PowerShell"。](https://go.microsoft.com/fwlink/p/?linkid=396554)
 
-2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有会议室邮箱。 默认情况下，会议室邮箱没有关联的帐户，因此创建或修改会议室邮箱时需要添加帐户，以便使用 Skype 会议室系统 v2 进行身份验证。
+2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有会议室邮箱。 默认情况下，会议室邮箱没有关联的帐户，因此创建或修改会议室邮箱时，需要添加一个帐户，以便使用 Skype 会议室系统 v2 进行身份验证。
 
    - 若要创建新的会议室邮箱，请使用以下语法：
 
@@ -76,7 +76,7 @@ ms.locfileid: "50196206"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     此示例为别名为"2"的现有会议室邮箱启用帐户，将密码9898P@ $$W 0rd。 请注意，由于Rigel2@contoso.onmicrosoft.com别名值，帐户将被删除。
+     此示例为别名为"2"的现有会议室邮箱启用该帐户，将密码9898P@ $$W 0rd。 请注意，由于Rigel2@contoso.onmicrosoft.com别名值，帐户将被删除。
 
      ``` PowerShell
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
@@ -86,7 +86,7 @@ ms.locfileid: "50196206"
 
 3. 在 Exchange Online PowerShell 中，在会议室邮箱上配置以下设置以改进会议体验：
 
-   - AutomateProcessing：AutoAccept (会议组织者无需人工干预即可直接接收会议室预订决策：free = accept;busy = decline.) 
+   - AutomateProcessing：AutoAccept (会议组织者无需人工干预即可直接收到会议室预订决策：free = accept;busy = decline.) 
 
    - AddOrganizerToSubject：$false (会议组织者不会添加到会议请求的主题。) 
 
@@ -149,7 +149,7 @@ ms.locfileid: "50196206"
 > [!NOTE]
 > 如果密码未设置为"永不过期"，则当帐户达到到期期限时，该帐户将不再在设备上登录。 然后，需要更改帐户的密码，并在本地的一台进行更新。
 
-6. 设备帐户需要具有有效的 Microsoft 365 或 Office 365 许可证，否则 Exchange 和 Microsoft Teams 或 Skype for Business 将不起作用。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 可使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 检索 Microsoft 365 或 Office 365 组织的可用 SKUS 列表，如下所示：
+6. 设备帐户需要具有有效的 Microsoft 365 或 Office 365 许可证，否则 Exchange 和 Microsoft Teams 或 Skype for Business 将不起作用。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 检索 Microsoft 365 或 Office 365 组织的可用 SUS 列表，如下所示：
 
    ```Powershell
    Get-MsolAccountSku
@@ -183,7 +183,7 @@ ms.locfileid: "50196206"
 
 7. 接下来，你需要使用 Skype for Business 启用设备帐户。 确保环境满足 Microsoft Teams 会议室要求 [中定义的要求](requirements.md)。
 
-   启动远程 [Windows PowerShell会话](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) ，如下所示 (确保安装 [Skype for Business Online PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 组件) ：
+   启动远程 [Windows PowerShell会话](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) ，如下所示 (安装 Skype for Business Online [PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 组件) ：
 
 > [!NOTE]
 > Skype for Business Online 连接器当前是最新 Teams PowerShell 模块的一部分。
@@ -191,9 +191,11 @@ ms.locfileid: "50196206"
 > 如果你使用的是最新的 [Teams PowerShell 公共](https://www.powershellgallery.com/packages/MicrosoftTeams/)版本，则无需安装 Skype for Business Online 连接器。
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess = New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
    从正在设置的新用户帐户获取 RegistrarPool 信息，如以下示例所示：
@@ -217,7 +219,7 @@ ms.locfileid: "50196206"
 
 ## <a name="see-also"></a>另请参阅
 
-[配置 Microsoft Teams 会议室的帐户](rooms-configure-accounts.md)
+[为 Microsoft Teams 会议室配置帐户](rooms-configure-accounts.md)
 
 [Microsoft Teams 会议室规划](rooms-plan.md)
 
