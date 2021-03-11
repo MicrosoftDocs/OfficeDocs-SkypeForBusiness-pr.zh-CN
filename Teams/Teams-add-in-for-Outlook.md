@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams 会向 Outlook 中安装外接程序，从而让用户可以在 Outlook 中安排 Teams 会议。
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
-ms.translationtype: MT
+ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278552"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50614928"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -77,7 +77,7 @@ FindTime 是帮助公司之间在会议时间上达成一致的 Outlook 加载�
 
 ## <a name="authentication-requirements"></a>身份验证要求
 
-Teams 会议外接程序要求用户使用新式身份验证登录 Teams。 如果用户不使用此方法登录，他们仍将能够使用 Teams 客户端，但无法使用 Outlook 加载项安排 [Teams](https://www.microsoft.com/microsoft-teams/online-meetings) 联机会议。 可以通过以下方式之一解决此问题：
+Teams 会议外接程序要求用户使用新式身份验证登录 Teams。 如果用户未使用此方法登录，他们仍可使用 Teams 客户端，但无法使用 Outlook 加载项安排 [Teams 在线会议](https://www.microsoft.com/microsoft-teams/online-meetings)。 可以通过以下方式之一解决此问题：
 
 - 如果贵组织未配置新式身份验证，则应配置新式身份验证。
 - 如果配置了新式身份验证，但他们在对话框中取消了，则应该指示用户使用多重身份验证重新登录。

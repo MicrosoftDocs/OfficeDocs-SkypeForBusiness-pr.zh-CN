@@ -18,12 +18,12 @@ description: 有关在 Teams 中部署云语音功能以录制 Teams 会议和�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dba51380f2c82e55c23f9667641ddb0ea9373f06
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 851901a6f985ecfecdcd6e3fda67aa5c1f11af3b
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196186"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50615098"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -35,7 +35,7 @@ ms.locfileid: "50196186"
 > 将会议录制从 Microsoft Stream 改为 OneDrive for Business 和 SharePoint 将是一种分阶段的方法。 有关每个阶段的详细信息，请参阅"使用 OneDrive for Business 和 SharePoint 或[Stream 录制会议"。](tmr-meeting-recording-change.md)
 
 > [!NOTE]
-> 有关在 Teams 会议中使用角色以及如何更改用户角色的信息，请参阅 Teams [会议中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
+> 有关在 Teams 会议中使用角色以及如何更改用户角色的信息，请参阅 Teams [会议中的角色](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。 有关实时事件录制选项，请参阅 [Teams 中的实时事件录制策略](teams-live-events/live-events-recording-policies.md)。
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 云会议录制的先决条件
 
@@ -51,11 +51,10 @@ ms.locfileid: "50196186"
 
 <sup>1</sup> 自 2020 年 8 月 20 起，使用 A1 的用户对会议录制文件的访问权限将在 21 天后过期。 有关详细信息，请参阅["将 Microsoft Teams 会议录制内容上传到流式传输"。](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording)
 
-> [!IMPORTANT] 
-> 如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这意味着录制内容不会存储在 Microsoft Stream 中，而是存储在 Async 媒体服务 (AMS) 删除前限制为 21 天。 目前管理员无法控制或管理它，包括无法删除它。
+<sup>2</sup> 用户需要获得向/从 Microsoft Stream 上载/下载会议的许可，但他们不需要许可证来录制会议。 如果你希望阻止用户录制 Microsoft Teams 会议，则必须为其授予将 AllowCloudRecording 设置为 $False 的 TeamsMeetingPolicy。
 
 > [!IMPORTANT]
-> 另请注意，对于 AMS 上的录制，录制保留受聊天消息本身的影响。 因此，删除原始 AMS 录制聊天消息将阻止用户访问录制内容。 有两种方案可能会影响这一点。 1) 用户手动删除聊天消息 - 在此方案中，由于原始消息已不存在，用户将无法再访问录制内容，并且无法再进行下载。 但是，录制本身可能仍保留在 Microsoft 的内部系统中， (不超过原始的 21 天) 。 2) 聊天消息由聊天保留策略删除 - AMS 录制直接绑定到聊天保留策略。 因此，虽然 AMS 上的录制在删除前默认将保留 21 天，但如果在 21 天时间段之前删除聊天消息，由于聊天消息保留策略，也将删除录制内容。 之后无法恢复录制内容。
+> 如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这意味着录制内容不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务 (AMS) 删除前限制为 21 天。 目前管理员无法控制或管理它，包括无法删除它。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>为组织中的用户设置 Teams 云会议录制
 
@@ -86,7 +85,7 @@ Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一
 请注意，会议组织者和录制发起人均需具有录制会议所需的录制权限。 除非为用户分配了自定义策略，否则用户会获取全局策略，该策略默认已启用 AllowCloudRecording。
 
 > [!NOTE]
-> 有关使用 Teams 角色配置谁有权录制会议的信息，请参阅 [Teams 会议的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
+> 有关使用 Teams 角色配置谁有权录制会议的信息，请参阅 [Teams 会议的角色](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
 
 若要让用户回退到全局策略，请使用以下 cmdlet 删除用户的特定策略分配：
 
@@ -99,6 +98,7 @@ Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 ```
+
 </br>
 </br>
 
@@ -110,13 +110,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                   我希望 100% 禁止录制                                                   |                                                                <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False<li>为所有用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一                                                                 |
 |      我希望为大多数用户关闭录制，但选择性地启用允许录制的特定用户       | <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False<li>为大多数用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一<li>为所有其他用户授予了 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一 <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
+
 #### <a name="where-your-meeting-recordings-are-stored"></a>会议录像的存储位置
 
 会议录制存储在 Microsoft Stream 云存储空间内。 目前，对于 Teams 数据存储在国内的客户而言，如果 Microsoft Stream 在其存放数据的国内数据驻留区域中不可用，则会为其关闭 Teams 会议录制功能。 即使 Microsoft Stream 在地区内数据驻留区域不可用，也可以为应该将数据存储在国内的客户启用会议录制功能。 为此，可以允许将录制内容存储在 Microsoft Stream 的最近地理区域中。 
 
 如果你的 Teams 数据存储在国内，并且你希望在国内存储会议录像，我们建议你关闭该功能，然后在我们将 Microsoft Stream 部署到你所用的国内数据驻留区域后再将其打开。 若要为组织中所有用户关闭该功能，请关闭 Microsoft Teams 管理中心内全局 Teams 会议策略中的"允许云录制"设置。 但是，如果仍希望允许将录制内容存储在 Microsoft Stream 的最近地理区域中，则必须在更改发生之前同时启用"允许云录制"和"允许录制存储到区域外部"。
 
-若要在全局策略中启用区域内录制，请使用以下 cmdlet：
+若要在全局策略中启用区域录制，请使用以下 cmdlet：
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
@@ -137,10 +138,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecor
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>打开或关闭录制转录
 
-此设置控制在播放会议录制期间字幕和听录功能是否可用。 如果将其关闭，在播放会议录制期间，"搜索"和"抄送"选项将不可用。 开始录制的人需要启用此设置，以便录制还包括听录。
+此设置控制在播放会议录制期间字幕和听录功能是否可用。 如果将其关闭，则播放会议录制期间，"搜索"和"抄送"选项将不可用。 开始录制的人需要启用此设置，以便录制还包括听录。
 
 > [!NOTE]
-> 录制的会议的听录功能目前仅支持在 Teams 中将语言设置为英语且在会议中说出英语的用户。 它们与会议录制一起存储在 Microsoft Stream 云存储中。
+> 录制的会议的听录功能目前仅支持在 Teams 中将语言设置为英语和在会议中说出英语的用户。 它们与会议录制一起存储在 Microsoft Stream 云存储中。
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 
@@ -161,6 +162,7 @@ Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ```
+
 </br>
 </br>
 
@@ -185,7 +187,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会议录像的合规性和电子数据展示
 
-会议录制存储在符合 Microsoft 365 和 Office 365 层 C 标准的 Microsoft Stream 中。 为了在 Microsoft Stream 中支持对会议或通话录像感兴趣的合规性管理员的电子数据展示请求，我们会在 Microsoft Teams 的合规性内容搜索功能中提供录制已完成的消息。 合规性管理员可在合规性内容搜索预览中的项目主题行中查找关键字“录像”，找到组织中的会议和通话录像。 查看所有录像的前提条件是，他们需要在 Microsoft Stream 中具有管理员访问权限。 深入了解如何[分配 Stream 中的管理员权限](https://docs.microsoft.com/stream/assign-administrator-user-role)。
+会议录制存储在 Microsoft Stream 中，符合 Microsoft 365 和 Office 365 层 C 规范。 为了在 Microsoft Stream 中支持对会议或通话录像感兴趣的合规性管理员的电子数据展示请求，我们会在 Microsoft Teams 的合规性内容搜索功能中提供录制已完成的消息。 合规性管理员可在合规性内容搜索预览中的项目主题行中查找关键字“录像”，找到组织中的会议和通话录像。 查看所有录像的前提条件是，他们需要在 Microsoft Stream 中具有管理员访问权限。 深入了解如何[分配 Stream 中的管理员权限](https://docs.microsoft.com/stream/assign-administrator-user-role)。
 
 ## <a name="related-topics"></a>相关主题
 

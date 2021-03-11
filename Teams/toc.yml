@@ -501,6 +501,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 制造类别 Teams 模板
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: 管理 Teams 模板策略
+            href: templates-policies.md
       - name: 与外部用户通信
         items:
           - name: 与其他组织的用户通信
@@ -547,6 +549,12 @@ items:
         items:
           - name: 概述
             href: rooms/index.md
+          - name: Microsoft Teams 会议室托管服务
+            items:
+              - name: 计划管理
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: 基于角色的访问控制
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 计划
             items:
               - name: Microsoft Teams 会议室规划概述
@@ -565,12 +573,6 @@ items:
                 href: rooms/rooms-licensing.md
               - name: 使用者 Azure Monitor 进行管理规划
                 href: rooms/azure-monitor-plan.md
-              - name: Microsoft Teams 会议室托管服务
-                items:
-                  - name: 使用 Microsoft Teams 会议室托管服务进行管理规划
-                    href: rooms/microsoft-teams-rooms-premium.md
-                  - name: 使用 Microsoft Teams 会议室托管服务进行基于角色的访问控制
-                    href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 部署
             items:
               - name: 部署概述
@@ -1328,6 +1330,8 @@ items:
             href: manage-lists-app.md
           - name: 管理任务应用
             href: manage-tasks-app.md
+          - name: 管理审批应用
+            href: approval-admin.md
           - name: Teams 中的班次
             items:
               - name: Teams 中的班次
@@ -1499,7 +1503,7 @@ items:
             href: devices/collab-bar-deploy.md
           - name: 会议室设备和解决方案
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Microsoft Teams 认证的 IP 电话
+          - name: Teams 认证设备
             href: devices/teams-ip-phones.md
           - name: Skype for Business Online 电话
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json

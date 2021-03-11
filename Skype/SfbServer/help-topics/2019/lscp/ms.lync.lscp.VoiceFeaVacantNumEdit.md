@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: a584812b32d99796259bde56838f0193c54b8fac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9cef4ae8075bf4982ab9c3ddd857062d4fa1a824
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812092"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711729"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未分配电话号码：创建新的或编辑现有的
 
 > [!NOTE]
-> 将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成后，Exchange UM 在 Skype for Business Server 2019 中仍可用。 由于 Exchange 2019 中支持的变化，Exchange UM 集成的重要性正在减少，以支持云语音邮件和云自动助理功能。
+> 将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成后，Exchange UM 在 Skype for Business Server 2019 中仍然可用。 由于 Exchange 2019 中支持的变化，Exchange UM 集成的重要性正在减少，以支持云语音邮件和云自动助理功能。
 
 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
 
@@ -36,7 +36,7 @@ ms.locfileid: "49812092"
 
 下表介绍了该页上的各个字段。
 
-- **名称** 键入标识未分配号码范围的描述性名称。 保存区域后，此名称将无法更改。
+- **名称** 键入标识未分配号码范围的描述性名称。 保存区域后，无法更改此名称。
 
 - **号码范围** 第一个字段中，键入未分配号码范围的开始号码。 第二个字段中，键入范围的结束号码。
 
@@ -44,7 +44,7 @@ ms.locfileid: "49812092"
 
   - 如果号码范围的起始号码或结束号码包含分机号，那么号码范围的起始号码和结束号码都必须包含分机号，并且起始号码和结束号码的分机号必须相同。
 
-  - 该号码必须与 tel： (？) ？ () ？[ \+ 1-9]\d {0,17} (;ext=[1-9]\d {0,9}) ？。 这意味着该号码可能以字符串 tel： (开头，如果不指定该字符串，系统将自动为) 添加该号码、加号 (+) 以及 1 到 9 的数字。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
+  - 该数字必须与正则表达式 `tel:` () ？ () ？[ \+ 1-9]\d {0,17} (;ext=[1-9]\d {0,9}) ？。 这意味着该号码可能以字符串"tel："开头。 如果不指定该字符串，将自动添加该字符串，例如加号 (+) ，以及 1 到 9 的数字。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
 
 - **通知服务** Select **Announcement** to have the Announcement application handle the incoming call or **Exchange UM** to have an Exchange UM 自动助理 handle the incoming call.
 
@@ -58,6 +58,6 @@ ms.locfileid: "49812092"
 
   - **自动助理电话号码** 选择 Exchange UM 服务的电话号码自动助理。
 
-有关通知特性和功能的详细信息，请参阅规划文档中[的 Plan for the Announcement application in Skype for Business。](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)。
+有关通知特性和功能的详细信息，请参阅规划文档中 [的 Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) 中的通知应用程序。 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)。
 
 

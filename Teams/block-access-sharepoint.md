@@ -18,16 +18,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何阻止特定用户对 SharePoint 的访问
-ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: e3cda9d6443c41abc7dfa736be03555690a3b0f1
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203835"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50615078"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>阻止特定用户对 SharePoint 的访问
 
-在 Microsoft 365 中对 SharePoint 应用任何条件访问 (CA) 策略也会应用到 Teams。 但是，有些组织希望阻止对 SharePoint 文件的访问（上载、下载、查看、编辑、创建），但允许其员工在非托管设备上使用Teams 桌面、移动设备和 web 客户端。 根据 CA 策略规则，阻止 SharePoint 也会导致阻止 Teams。 本文将解释如何克服这一限制，允许员工继续使用 Teams，同时完全阻止对存储在 SharePoint 中的文件的访问。
+在 Microsoft 365 中对 SharePoint 应用任何条件访问 (CA) 策略也会应用到 Teams。 但是，有些组织希望阻止对 SharePoint 文件的访问（上载、下载、查看、编辑、创建），但允许其员工在非托管设备上使用Teams 桌面、移动设备和 web 客户端。 根据 CA 策略规则，阻止 SharePoint 将会导致阻止 Teams。 本文将解释如何克服这一限制，允许员工继续使用 Teams，同时完全阻止对存储在 SharePoint 中的文件的访问。
 
 > [!Note]
 > 阻止或限制对非托管设备的访问取决于 Azure AD 条件访问策略。 了解 [Azure AD 许可](https://azure.microsoft.com/pricing/details/active-directory/)。 有关 Azure AD 中条件访问的概述，请参阅 [Azure Active Directory 中的条件访问](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)。 有关推荐的 SharePoint Online 访问策略的信息，请参阅 [用于保护 SharePoint 网站和文件的策略建议](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)。 如果限制非托管设备上的访问，则托管设备上的用户必须使用其中一个[受支持的操作系统和浏览器组合](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)，否则他们的访问权限也将受到限制。
@@ -48,7 +48,7 @@ ms.locfileid: "48203835"
 
    ![策略的“未托管设备”部分](media/no-sharepoint-access1.png)
 
-4. 打开 [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) 门户并导航到**条件访问策略**。
+4. 打开 [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) 门户并导航到 **条件访问策略**。
 
     您将看到 SharePoint 创建了新策略，与此示例类似：
 
@@ -65,7 +65,7 @@ ms.locfileid: "48203835"
 
     ![选择 Sharepoint 作为目标应用程序。](media/no-sharepoint-access3.png)
 
-7. 更新**条件**以包括桌面客户端。
+7. 更新 **条件** 以包括桌面客户端。
 
     ![桌面和移动应用突出显示。](media/no-sharepoint-access4.png)
 

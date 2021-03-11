@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: 741068fc16c60e6cd253057a8b1487680dc32266
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 51c3f640bd9d98bcda9d5dd69406461e9c8393fd
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818792"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711739"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未分配电话号码：创建新的或编辑现有的
 
@@ -33,7 +33,7 @@ ms.locfileid: "49818792"
 
 下表介绍了该页上的各个字段。
 
-- **名称** 键入标识未分配号码范围的描述性名称。 保存区域后，此名称将无法更改。
+- **名称** 键入标识未分配号码范围的描述性名称。 保存区域后，无法更改此名称。
 
 - **号码范围** 第一个字段中，键入未分配号码范围的开始号码。 第二个字段中，键入范围的结束号码。
 
@@ -41,7 +41,7 @@ ms.locfileid: "49818792"
 
   - 如果号码范围的起始号码或结束号码包含分机号，那么号码范围的起始号码和结束号码都必须包含分机号，并且起始号码和结束号码的分机号必须相同。
 
-  - 该号码必须与 tel： (？) ？ () ？[ \+ 1-9]\d {0,17} (;ext=[1-9]\d {0,9}) ？。 这意味着该号码可能以字符串 tel： (开头，如果不指定该字符串，系统将自动为) 添加该号码、加号 (+) 以及 1 到 9 的数字。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
+  - 该数字必须与正则表达式匹配 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 这意味着，如果不指定字符串 (，该数字可能会以字符串) 、加号 (+) 和 1 到 9 的数字开头。 `tel:` 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
 
 - **通知服务** Select **Announcement** to have the Announcement application handle the incoming call or **Exchange UM** to have an Exchange UM 自动助理 handle the incoming call.
 
@@ -55,6 +55,6 @@ ms.locfileid: "49818792"
 
   - **自动助理电话号码** 选择 Exchange UM 服务的电话号码自动助理。
 
-有关通知特性和功能的详细信息，请参阅规划文档中[的 Plan for the Announcement application in Skype for Business 2015。](../../plan-your-deployment/enterprise-voice-solution/announcement.md) 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)。
+有关通知特性和功能的详细信息，请参阅规划文档中的[Plan for the Announcement application in Skype for Business 2015。](../../plan-your-deployment/enterprise-voice-solution/announcement.md) 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)。
 
 

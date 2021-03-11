@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6183471d8266ff004e1028ec3102e21f73fff77
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909116"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711639"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登录 Microsoft Teams
 ==========================
@@ -161,7 +161,7 @@ Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策�
 Teams 需要连接到 Internet。 若要了解在 Office 365 计划、政府版和其他云中使用 Teams 的客户应该可以访问的终结点，请阅读 [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!IMPORTANT]
-> 目前，Teams 要求所有用户都能访问（TCP 端口 443）Google ssl.gstatic.com 服务 (<https://ssl.gstatic.com)>；即使你不使用 Gstatic，也是如此。 Teams 将很快取消此要求（2020 年初），届时我们将相应地更新此文章。
+> 目前，Teams 要求所有用户都能访问（TCP 端口 443）Google ssl.gstatic.com 服务（即使你不使用 Gstatic，也是如此）。 Teams 将很快取消此要求（2020 年初），届时我们将相应地更新此文章。
 
 ## <a name="related-topics"></a>相关主题
 
