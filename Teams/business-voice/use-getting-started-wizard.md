@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53636ada916fec05bf75ef8947cdab44e38644e2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030608"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726233"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用“入门”向导设置商务语音
 
@@ -53,7 +53,7 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
 <table>
     <tr>
         <td>若要更改紧急地址，请单击“<b>编辑</b>”，然后输入新地址。 系统将验证所提供的地址，确保它合规并且符合紧急响应服务的正确格式。 系统会将此地址分配给所有用户（将在下一步中为这些用户分配号码）。 如果你的员工分布在多个位置，请参阅<a href="./customize-business-voice.md">商务语音设计自定义</a>，以便在准备好“入门”向导后添加和分配更多紧急地址。</td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="wizard choose number"></td></tr>
 </table>
 
 有关详细信息，请参阅[什么是紧急位置、地址和呼叫路由？](../what-are-emergency-locations-addresses-and-call-routing.md)
@@ -64,7 +64,7 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
     <tr>
         <td>除新的本地电话号码以外，还可以购买免付费号码，或将现有号码移植到 Microsoft 365。 若要设置免费电话号码，需购买通讯信用额度。 若要将一个或多个号码移植到 Microsoft 365，请在向导完成后，转到 <a href="https://admin.teams.microsoft.com">Teams 管理中心</a>。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="choose number">
         </td>
     </tr>
 </table>
@@ -78,7 +78,7 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
     <tr>
         <td>若要分配用户许可证，请选择要呼叫或接听 Teams 外部电话（例如呼叫供应商）的组织人员。 你只能分配可供使用的商务语音许可证数量。 如果需要选择更多许可证，可在完成向导后购买额外的许可证。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400" alt="get numbers">
         </td>
     </tr>
 </table>
@@ -92,7 +92,7 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
     <tr>
         <td>可以上传高达 5 MB 的声音文件（MP3 或 WAV）来用作呼叫问候语，也可以输入自己的问候语，Microsoft 365 将使用文本到语音转换向呼叫方播放它。 呼叫方呼叫你的公司电话号码时，将首先听到问候语。 对于文本到语音转换，可能需要使用音标拼写来确保发音正确。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400" alt="greeting">
         </td>
     </tr>
 </table>
@@ -104,7 +104,7 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
         <td>可以将所有呼叫转接到特定用户，也可以设置菜单供呼叫方选择选项。 如果创建呼叫菜单，则可以指定选项，使呼叫方可以通过语音或通过按下电话键盘上的数字来进行选择。 每个菜单选项都可以将用户转接到特定用户。<br><br>
         你可以上传高达 5 MB 的声音文件（MP3 或 WAV），以便向呼叫方提供指令，也可以输入指令。 Microsoft 365 将使用文本到语音转换向呼叫方播放这些指令。 可能需要根据发音拼写字词，以确保发音正确。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400" alt="call forwarding">
         </td>
     </tr>
 </table>
@@ -117,7 +117,7 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
         <td> <p>“入门”向导可获取你输入的信息并设置商务语音。 在“<b>概述</b>”页面上，可以查看将为用户分配哪些电话号码，查看呼叫菜单，听取你的问候语。</p>
              <p>设置需要几分钟时间。 如果你选择“<b>完成</b>”，我们将继续在后台设置商务语音。 或者只是等到设置完成。 完成后，转到 <a href="https://admin.teams.microsoft.com" target="_blank">Teams 管理中心</a>中的“语音”，设置其他商务语音功能<b></b>。</p>
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400" alt="finish page">
         </td>
     </tr>
 </table>

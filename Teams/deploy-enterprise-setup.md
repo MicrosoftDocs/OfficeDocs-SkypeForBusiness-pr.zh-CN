@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fea59dd39023e9ac9a3234491742bc5a998926a
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: d8144b830bec7f51bd97c59211d629aae7ffb3c9
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395408"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726383"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>在你的 Office 365 组织中设置 Microsoft Teams
 
@@ -72,7 +72,7 @@ ms.locfileid: "50395408"
 | 决定 | 说明 |
 |--|--|
 | 应该应用哪些邮件策略？ | 邮件策略控制哪些聊天和频道消息功能（例如，谁可以使用聊天、哪些人可以编辑和删除已发送的邮件等）对 Teams 中用户可用。 Teams 具有适用于所有人的全球策略。 默认情况下，全局策略的所有功能 **位于** 启用状态。<p>如果希望对所有人应用相同的策略，只需对此全局策略进行更改（例如，在对话中关闭 Meme 支持）。<p>如果希望为不同人员组使用不同的策略（例如，一个策略针对办公室工作人员，而另一个策略针对工厂员工），可以创建和分配策略。 将策略分配给用户时，全局策略不再适用。<p>[在 Teams 中管理消息传递策略](messaging-policies-in-teams.md) |
-| 应应用哪些团队设置？ | Teams 设置允许你针对诸如电子邮件集成、云存储选项、组织选项卡、会议室设备设置和搜索范围等功能设置团队。 更改这些设置时，所做更改将应用于组织中的所有团队。 <p>[Teams 设置](enable-features-office-365#teams-settings)  |
+| 应应用哪些团队设置？ | Teams 设置允许你针对诸如电子邮件集成、云存储选项、组织选项卡、会议室设备设置和搜索范围等功能设置团队。 更改这些设置时，所做更改将应用于组织中的所有团队。 <p>[Teams 设置](enable-features-office-365.md#teams-settings)  |
 
 ### <a name="external-and-guest-access"></a>外部和来宾访问
 

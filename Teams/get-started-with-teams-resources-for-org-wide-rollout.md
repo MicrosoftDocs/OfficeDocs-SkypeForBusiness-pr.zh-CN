@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df4cc9e8c71622fd8564420b31bd5a06d7ac73b2
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 41b5a0f2a09d05ba1a55ee3fcd31ce3a9c4222b2
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395284"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726203"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>开始在组织范围内推出 Microsoft Teams
 
@@ -63,6 +63,6 @@ Teams 小型企业设置非常适用于希望使用 Teams 所有功能但没有�
 如果这听起来像你的组织，则需要完成 Teams 企业版设置。 企业设置可帮助你规划部署，并提供建议，了解如何建立采用计划以将 Teams 最大化使用。
 
 > [!div class="nextstepaction"]
-> [转到企业设置](deploy-advanced.md)
+> [转到企业设置](deploy-enterprise-overview.md)
 
 ---
