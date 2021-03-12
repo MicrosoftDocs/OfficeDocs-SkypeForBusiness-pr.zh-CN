@@ -765,6 +765,8 @@ items:
             href: teams-live-events/set-teams-live-events-policies-using-powershell.md
           - name: 配置 Teams 实时事件设置
             href: teams-live-events/configure-teams-live-events.md
+          - name: 实时事件录制策略
+            href: teams-live-events/live-events-recording-policies.md
   - name: 语音 - 电话系统和 PSTN 连接
     items:
       - name: 规划 Teams 语音解决方案
