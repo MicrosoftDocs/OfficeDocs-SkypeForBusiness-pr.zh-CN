@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
-ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
-ms.translationtype: MT
+ms.openlocfilehash: a0c0e40be84a1b947b5924f97c0c64556a92e249
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49903563"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711759"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -39,9 +39,9 @@ ms.locfileid: "49903563"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-只有 Teams 服务管理员才能进行这些更改。 请参阅 ["使用 Teams 管理员角色管理 Teams"，](https://docs.microsoft.com/microsoftteams/using-admin-roles) 了解获取管理员角色和权限。
+必须是 Teams 服务管理员才能管理这些策略。 请参阅 [Teams 管理员角色管理 Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) ，了解管理员角色和权限。
 
-1. 转到管理中心。
+1. 转到“管理中心”。
 
 2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
 
@@ -54,23 +54,23 @@ ms.locfileid: "49903563"
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>允许匿名用户与会议中的应用交互
 
-匿名用户现在将继承用户级全局默认权限策略。 然后，只要用户级权限策略启用了应用，此控件就会允许匿名用户与 Teams 会议中的应用交互。 请注意，匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。 
+匿名用户现在将继承用户级全局默认权限策略。 然后，只要用户级别的权限策略启用了应用，此控件将允许匿名用户与 Teams 会议中的应用进行交互。 请注意，匿名用户只能与会议中可用的应用交互，无法获取和/或管理这些应用。 
 
 > [!IMPORTANT]
-> 默认情况下，启用允许匿名用户与会议中的应用交互的设置。
+> 默认情况下，将启用允许匿名用户与会议中的应用进行交互的设置。
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-只有 Teams 服务管理员才能访问此设置。 请参阅 ["使用 Teams 管理员角色管理 Teams"，](https://docs.microsoft.com/microsoftteams/using-admin-roles) 了解获取管理员角色和权限。
+只有 Teams 服务管理员才能访问此设置。 请参阅 [Teams 管理员角色管理 Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) ，了解管理员角色和权限。
 
-1. 转到管理中心。
+1. 转到“管理中心”。
 
 2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
 
-3. 在 **"** 参与者"下，可以更改匿名用户可以 **与会议中** 的应用程序进行交互的设置。
+3. 在 **参与者** 下，"匿名 **用户可以与会议中的应用交互** 更改。
 
 > [!CAUTION]
-> 如果不希望匿名用户与组织中用户安排的会议中的应用进行交互，请关闭此设置。
+> 如果不希望匿名用户与组织中用户安排的会议中的应用交互，请关闭此设置。
 
 ## <a name="customize-meeting-invitations"></a>自定义会议邀请
 
@@ -88,7 +88,7 @@ ms.locfileid: "49903563"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 转到管理中心。
+1. 转到“管理中心”。
 2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
 3. 在“**电子邮件邀请**”下，执行以下操作：
 
@@ -106,13 +106,13 @@ ms.locfileid: "49903563"
 
 <a name="bknetwork"> </a>
 
-如果你使用服务质量 (QoS) 确定网络流量的优先级，你可以启用 QoS 标记并设置每种类型的媒体流量的端口范围。 为不同流量类型设置端口范围只是处理实时媒体的其中一个步骤；有关详细信息，请参阅 [Teams 中的服务质量 (QoS)](qos-in-teams.md)。
+如果使用服务质量 （QoS） 确定网络流量的优先顺序，可启用 QoS 标记，并设置每种类型的媒体流量的端口范围。 为不同流量类型设置端口范围只是处理实时媒体的其中一个步骤；有关详细信息，请参阅 [Teams 中的服务质量 (QoS)](qos-in-teams.md)。
 
 > [!IMPORTANT]
-> 如果在 Teams 服务的 Microsoft Teams 管理中心中启用 QoS 或更改设置，则还需要将匹配[](QoS-in-Teams-clients.md)设置应用到所有用户设备和所有内部网络设备，以在 Teams 中完全实现 QoS 更改。
+> 如果为 Teams 服务在 Microsoft Teams 管理中心启用 QoS 或更改设置，还需要 [将匹配设置应用到所有用户设备](QoS-in-Teams-clients.md) 以及所有内部网络设备，以在 Teams 中完全实施 QoS 更改。
 
  ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
-1. 转到管理中心。
+1. 转到“管理中心”。
 2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
 3. 在“**网络**”下，执行以下操作：
 
@@ -120,10 +120,10 @@ ms.locfileid: "49903563"
 
     - 要允许对 QoS 使用 DSCP 标记，请打开 **插入实时媒体流量的服务质量 (QoS) 标记**。 你只能选择是否使用标记；不能为每种流量类型设置自定义标记。 有关 DSCP 标记的更多信息，请参阅[选择 QoS 实施方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
         > [!NOTE]
-        > DSCP 标记通常通过源端口完成，UDP 流量将路由到目标端口为 3478 的传输中继。 如果您的公司要求在目标端口上标记，请联系支持人员以启用与 UDP 端口 3479 (Audio) 、3480 (Video) 和 3481 (共享) 的通信。
+        > DSCP 标记通常通过源端口完成，UDP 通信流将默认通过目标端口 3478 路由到传输中继。 如果你的公司要求在目标端口上标记，请联系支持人员以启用与 UDP 端口 3479（音频）、3480（视频）和 3481（共享）的传输中继通信。
     - 要指定端口范围，请在“**选择每种媒体实时流量的端口范围**”旁选择“**指定端口范围**”，然后输入音频、视频和屏幕共享的起始和结束端口。 要实施 QoS，必须选择此选项。 
         > [!Note]
-        > 如果 **服务质量 (QoS) 实时媒体** 流量的标记已打开，则你必须管理端口设置。 它们不会自动管理。
+        > 如果 **媒体通信流标记** 服务质量 （QoS） 标记，必须管理端口设置。 不会自动管理这些策略。
         
         > [!IMPORTANT]
         > 如果你选择了 **自动使用任何可用的端口**，则将使用 1024 和 65535 之间的可用端口。 仅在未实施 QoS 的情况下使用此选项。
@@ -141,6 +141,6 @@ ms.locfileid: "49903563"
 |应用程序/屏幕共享| 50,040–50,059      |TCP/UDP |18        |保证转发 (AF21)|
 | | | | |
 
-\* 分配的端口范围不能重叠，并且应当彼此相邻。
+\* 分配的端口区域不能重叠，并且应该彼此相邻。
 
 在 QoS 使用过一段时间后，你将获得这三种工作负载中每一种的需求信息，并且可以根据特定需求选择要进行的更改。 [通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)将非常有用。
