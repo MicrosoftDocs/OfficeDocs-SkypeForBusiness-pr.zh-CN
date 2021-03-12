@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文以了解如何部署 Microsoft Teams 会议室（包括部署阶段）。
-ms.openlocfilehash: 53c4c94717f10dadbad802cff3f233a3a771d166
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 87ded33b464d6f5248fe1fb71d579d5f191bb6b6
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662247"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726303"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -37,7 +37,7 @@ AV 技术可以用于最后一项任务，但你组织的 IT 部门将需要完�
 
 ## <a name="site-readiness"></a>网站就绪 
 
-在将订购的设备交付给你的组织时，请与你的网络和设施以及 AV 团队合作，以确保满足部署依赖项，并且每个站点和分组讨论室都在电源、网络和显示方面准备就绪。 此外，确保满足物理安装要求。 对于物理安装方面的考虑，请访问供应商网站，并在安装和安装屏幕以及运行布线时利用 AV 团队的经验。
+在将订购的设备交付给你的组织时，请与你的网络和设施以及 AV 团队合作，以确保满足部署依赖项，并且每个站点和分组讨论室都在电源、网络和显示方面准备就绪。 此外，确保满足物理安装要求。 有关物理安装注意事项，请访问供应商的站点，并利用 AV 团队在安装和安装屏幕以及运行布线时的经验。
 
 可以在下面的规划指导链接中找到有关这些依赖项的更多信息：
 
@@ -45,12 +45,12 @@ AV 技术可以用于最后一项任务，但你组织的 IT 部门将需要完�
 -   [证书](rooms-prep.md#certificates)
 -   [代理](rooms-prep.md#proxy)
 
-**专业提示** - 如果打算使用代理服务器来访问 Teams 或 Skype for Business Online，请首先[阅读本文](../proxy-servers-for-skype-for-business-online.md)。 请注意，当涉及到 Skype for Business 代理服务器上的流量时，我们建议完全绕过代理服务器。 Skype for Business 流量已经加密，因此代理服务器无法使其更安全。 作为更广泛部署的一部分，我们建议您遵循[为 Teams 准备网络](../prepare-network.md)以进行带宽规划和评估网络对实时流量的适用性中的指导。
+**专业提示** - 如果打算使用代理服务器来访问 Teams 或 Skype for Business Online，请首先 [阅读本文](../proxy-servers-for-skype-for-business-online.md)。 对于通过代理服务器的 Skype for Business 流量，我们建议完全绕过代理服务器。 Skype for Business 流量已经加密，因此代理服务器无法使其更安全。 作为更广泛部署的一部分，我们建议您遵循[为 Teams 准备网络](../prepare-network.md)以进行带宽规划和评估网络对实时流量的适用性中的指导。
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>请确认你的网站满足 Microsoft Teams 会议室的关键要求。</li><li>请确认为每个网站提供了足够的带宽。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始计划设备部署和配置。</li></ul>| 
+| ![确认网站](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>请确认你的网站满足 Microsoft Teams 会议室的关键要求。</li><li>请确认为每个网站提供了足够的带宽。</li></ul>| 
+| ![计划设备部署](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始计划设备部署和配置。</li></ul>| 
 
 ## <a name="service-readiness"></a>服务就绪
 
@@ -74,8 +74,8 @@ AV 技术可以用于最后一项任务，但你组织的 IT 部门将需要完�
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定将支持哪些方案，并确定 Microsoft Teams 会议室服务帐户的许可要求。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>准备托管计算机和服务帐户。</li></ul>| 
+| ![方案支持](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定将支持哪些方案，并确定 Microsoft Teams 会议室服务帐户的许可要求。</li></ul>| 
+| ![准备主机](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>准备托管计算机和服务帐户。</li></ul>| 
 
 
 _Microsoft Teams 会议室服务帐户计划表示例_
@@ -99,9 +99,9 @@ _Microsoft Teams 会议室服务帐户计划表示例_
 
 -   [设置电源和本地帐户设置](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)。
 -   启用 Windows 更新。
--   启用 PowerShell 远程处理。 您可以配置一个启动脚本来运行简单的脚本：Enable-PSRemoting -Force
+-   启用 PowerShell 远程处理。 可以将启动脚本配置为运行脚本：Enable-PSRemoting -Force
 
-可使用 PowerShell 执行许多远程管理活动，包括获取和设置配置信息。 必须 *先* 启用 PowerShell 远程处理，然后才能进行任何 PowerShell 远程管理，并且应将其视为部署过程的一部分或通过组策略进行配置。 有关这些功能及其启用的更多信息，请参阅[维护和操作](rooms-operations.md#remote-management-using-powershell)。 
+可以使用 PowerShell 执行多个远程管理活动，包括获取和设置配置信息。 必须 *先* 启用 PowerShell 远程处理，然后才能进行任何 PowerShell 远程管理，并且应将其视为部署过程的一部分或通过组策略进行配置。 有关这些功能及其启用的更多信息，请参阅[维护和操作](rooms-operations.md#remote-management-using-powershell)。 
 
 
 ## <a name="configuration-and-deployment"></a>配置和部署 
@@ -123,17 +123,17 @@ _Microsoft Teams 会议室服务帐户计划表示例_
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定 Microsoft Teams 会议室帐户的命名约定。</li><li>决定是创建单个帐户还是使用批量配置脚本。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始计划设备部署。</li></ul>| 
+| ![决定命名约定](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定 Microsoft Teams 会议室帐户的命名约定。</li><li>决定是创建单个帐户还是使用批量配置脚本。</li></ul>| 
+| ![下一步](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始计划设备部署。</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>设备软件安装 
 
-当计划部署 Microsoft Teams 会议室时，需考虑安装所需软件的许多选项。 下表描述了常见的应用场景和方法。 
+规划部署 Microsoft Teams 会议室时，有许多选项需要考虑安装所需的软件。 下表描述了常见的应用场景和方法。 
 
 | **应用场景**            | **方法**         |
 |-------------------------|-----------------------|   
-|部署少量 Microsoft Teams 会议室设备 (<10)。 | 如果使用基于 Surface Pro 的 Microsoft Teams 会议室，请按照[每个设备的安装说明进行操作](console.md)。 [这个便利的视频将引导你完成整个过程。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 如果使用集成解决方案，请使用供应商映像进行部署，并根据需要配置设置。 |
+|部署一些 Microsoft Teams 会议室设备 (<10) 。 | 如果使用基于 Surface Pro 的 Microsoft Teams 会议室，请按照[每个设备的安装说明进行操作](console.md)。 [这个便利的视频将引导你完成整个过程。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 如果使用集成解决方案，请使用供应商映像进行部署，并根据需要配置设置。 |
 | 从单个供应商部署 10 到 50 台设备。     | 创建基于 WIM 的映像，在[指南中的步骤 6 ](console.md)之后暂停，然后捕获分发映像以用于克隆分发技术。    |
 | 部署 50 多个 Microsoft Teams 会议室设备，部署来自多个供应商的设备，或需要组织特定的代理作为部署的一部分。 | 使用基于任务序列器的软件构建和分发平台，如 [Microsoft Endpoint Configuration Manager](rooms-scale.md)。  |
 
@@ -148,8 +148,8 @@ _Microsoft Teams 会议室服务帐户计划表示例_
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定部署期间要使用的 Microsoft Teams 会议室设备命名约定。</li><li>决定是否将 Microsoft Teams 会议室设备加入你的域，以及如何管理和配置本地帐户。 </li><li>决定是否使用 Operations Management Suite 监视 Microsoft Teams 会议室部署。</li><li>决定将使用哪种方法将软件和代理部署到 Microsoft Teams 会议室系统，以准备设备部署。 </li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始计划设备部署方法。</li></ul>| 
+| ![决策点设备命名](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定部署期间要使用的 Microsoft Teams 会议室设备命名约定。</li><li>决定是否将 Microsoft Teams 会议室设备加入你的域，以及如何管理和配置本地帐户。 </li><li>决定是否使用 Operations Management Suite 监视 Microsoft Teams 会议室部署。</li><li>决定将使用哪种方法将软件和代理部署到 Microsoft Teams 会议室系统，以准备设备部署。 </li></ul>| 
+| ![接下来的步骤计划设备](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始计划设备部署方法。</li></ul>| 
 
 
 ### <a name="device-deployment"></a>设备部署
@@ -159,8 +159,8 @@ _Microsoft Teams 会议室服务帐户计划表示例_
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定管理站点到站点部署的人员。</li><li> 确定将在现场安装 Microsoft Teams 会议室设备并进行配置和测试的资源。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始设备测试.</li></ul>| 
+| ![管理站点到站点部署](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定管理站点到站点部署的人员。</li><li> 确定将在现场安装 Microsoft Teams 会议室设备并进行配置和测试的资源。</li></ul>| 
+| ![开始设备测试](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始设备测试.</li></ul>| 
 
 _示例部署表_
 
@@ -181,8 +181,8 @@ _示例部署表_
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是手动配置每个 Microsoft Teams 会议室系统还是使用中央 XML 文件（每个 Microsoft Teams 会议室设备一个）。</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>定义远程管理方法。</li></ul>| 
+| ![决策点配置](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是手动配置每个 Microsoft Teams 会议室系统还是使用中央 XML 文件（每个 Microsoft Teams 会议室设备一个）。</li></ul>| 
+| ![接下来的步骤远程方法](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>定义远程管理方法。</li></ul>| 
 
 ### <a name="testing"></a>测试
 

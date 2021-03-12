@@ -1,0 +1,62 @@
+---
+title: 在 Microsoft Teams 会议中屏蔽电话号码
+author: cichur
+ms.author: v-cichur
+manager: serdars
+ms.reviewer: moakram
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
+f1.keywords:
+- NOCSH
+appliesto:
+- Microsoft Teams
+localization_priority: Normal
+search.appverid: MET150
+description: 了解如何在 Microsoft Teams 会议中屏蔽电话号码
+ms.openlocfilehash: 5a59ef07873660e79d6c8bc69b7e92095a2fac1a
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726768"
+---
+# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>在 Microsoft Teams 会议中屏蔽电话号码
+
+为增加隐私性，使用音频会议拨入 Teams 会议的参与者的电话号码将完全向内部参与者显示。 号码会从组织外部的参与者中屏蔽。 此设置是所有组织的默认设置。 显示屏蔽数字，如下图所示：
+
+![已屏蔽电话号码的示例](media/hiddenPhoneNum.png)
+
+对于特定的行业用例，管理员可以选择音频会议参与者的电话号码在租户中组织的会议中如何显示。 管理员可以从三个选项中进行选择：
+
+- 电话号码仅对外部参与者进行屏蔽。 属于会议组织者租户的参与者仍看到完整电话号码。
+- 会议中的每个人（组织者除外）都屏蔽了电话号码。
+- 电话号码未屏蔽，因此对参加会议的每个人都可见。
+
+此设置应用于会议中公开电话号码的所有图面。
+
+## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>使用 Microsoft PowerShell 设置电话号码掩码
+
+若要更改公用电话交换网 (PSTN) 屏蔽设置，请设置 **`MaskPstnNumbersType`** [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet 的参数，以使用其中一个可用选项。
+
+若要仅屏蔽来自外部参与者的电话号码，请运行以下命令：
+
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -MaskPstnNumbersType "MaskedForExternalUsers"
+```
+
+若要屏蔽会议参与者的电话号码， (组织者) ，请运行以下命令：
+
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -MaskPstnNumbersType "MaskedForAllUsers"
+```
+
+若要禁用电话号码掩码，请运行以下命令：
+
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -MaskPstnNumbersType "NoMasking"
+```
