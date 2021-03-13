@@ -13,12 +13,12 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c2c626d61a10437fc5bb349dd128415d64448a7
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 3ec9c9062a26442ae03a332f7cdd6f1e9b56cee5
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569018"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756149"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell 概述
 
@@ -34,7 +34,7 @@ Microsoft Teams PowerShell 是一组 cmdlet，用于直接从 PowerShell 命令�
 
 Teams PowerShell 在 [PowerShell 库中提供两](https://www.powershellgallery.com/packages/MicrosoftTeams) 种发布类型。
 
-- **常规 (GA) ：** 生产就绪的 cmdlet，每月更新一次。
+- **常规可用性 (GA) ：** 生产就绪型 cmdlet，每月更新一次。
 
 - **公共预览** 版：提前访问功能。 更新频率可能高于 GA。
 
@@ -43,16 +43,16 @@ Teams PowerShell 在 [PowerShell 库中提供两](https://www.powershellgallery.
 
 ## <a name="manage-teams-with-powershell"></a>使用 PowerShell 管理 Teams
 
-你将使用 Teams PowerShell 模块来完全管理 Teams：
+你将使用 Teams PowerShell 模块完全管理 Teams：
 
 - [Microsoft Teams PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)：Teams PowerShell 模块包含用于管理团队、聊天和频道的 cmdlet。
 
 > [!NOTE]
-> [Teams PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)1.1.6 或更高版本与 Skype for Business Online 连接器集成，为 Teams PowerShell 管理提供单个模块。
+> [Teams PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)1.1.6 或更高版本与 Skype for Business Online Connector 集成，为 Teams PowerShell 管理提供单个模块。
 
-- [Skype for Business PowerShell 连接器：Skype](https://www.microsoft.com/download/details.aspx?id=39366)for Business PowerShell 连接器现在是 Teams PowerShell 模块的一部分。
+- [Skype for Business PowerShell 连接器](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)：Skype for Business PowerShell 连接器现在是 Teams PowerShell 模块的一部分。
 
-有关使用这些模块管理 Teams 的完整指南，请参阅"使用[Teams PowerShell 管理 Teams"。](teams-powershell-managing-teams.md)
+有关使用这些模块管理 Teams 的完整指南，请参阅使用[Teams PowerShell 管理 Teams。](teams-powershell-managing-teams.md)
 
 
 ## <a name="related-topics"></a>相关主题
