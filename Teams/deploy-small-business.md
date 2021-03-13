@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbadcd18050d098d9c602f7ba56da40ecafd89b4
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e93463b175c58e588cf982f17c8a83535c4b0c80
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395405"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726213"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>小型企业设置 Microsoft Teams
 
@@ -46,12 +46,12 @@ ms.locfileid: "50395405"
 ## <a name="workloads"></a>工作负载
 ### <a name="chat-teams-and-channels"></a>聊天、团队和频道
 
-聊天、团队和频道是 Teams 的基础。 **聊天** 允许一个或多个用户相互讨论、共享文件及私下会面。 **团队** 可对组织中的所有人员可见，或仅对团队成员可见。其允许相关人员在任何任务或场合，无论是长期运行的项目还是计划生日聚会中团结协作。 团队 **频道** 可细分主题、项目、部门或其他对团队有意义的内容。 有关聊天、团队和频道的详细信息，请参阅[团队和频道概述](teams-channels-overview.md)。
+聊天、团队和频道是 Teams 的基础。 **聊天** 允许一个或多个用户相互讨论、共享文件及私下会面。 **团队** 可对组织中的所有人员可见，或仅对团队成员可见。其允许相关人员在任何任务或场合，无论是长期运行的项目还是计划生日聚会中团结协作。 **团队** 的频道可以细分主题、项目、部门或其他对团队有意义的内容。 有关聊天、团队和频道的详细信息，请参阅[团队和频道概述](teams-channels-overview.md)。
 
 > [!TIP]
 > 完成 Microsoft Learn 中的 [管理 Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) 模块，了解如何管理团队角色、访问权限和消息传递策略。
 
-在考虑推出团队和频道时，需决定负责创建的人员，以及组织外的来宾是否可进行访问等等。 [Microsoft Teams 聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)一文包含许多有关规划聊天、团队和频道的信息，但其以下重要内容需加以关注。 欲了解更多信息，请单击决定。
+在考虑推出团队和频道时，需决定负责创建的人员，以及组织外的来宾是否可进行访问等等。 [Microsoft Teams 聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)一文包含许多有关规划聊天、团队和频道的信息，但其以下重要内容需加以关注。 若要了解更多信息，请选择“决定”。
 
 | 决定 | 说明 |
 |--|--|
@@ -62,7 +62,7 @@ ms.locfileid: "50395405"
 你无需进行任何其他操作，用户即可开始使用聊天、团队和频道。 不过，仍然有许多选项可用于控制 Teams 使用情况。 你可现在更改，也可等待，在观看用户如何使用 Teams 后再进行更改。 有关详细信息，请参阅以下文章：
 
 - [在 Teams 中管理消息传递策略](messaging-policies-in-teams.md)
-- [Teams 设置](enable-features-office-365#teams-settings)
+- [Teams 设置](enable-features-office-365.md#teams-settings)
 
 ### <a name="meetings-and-conferencing"></a>会话和电话会议
 
