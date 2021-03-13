@@ -1,6 +1,6 @@
 ---
 title: 适用于零售业的 Teams
-description: 了解可用于为零售店和员工管理和利用 Teams 的管理员资源。
+description: 了解可用管理员资源管理和为零售商店及员工获取最多功能 Teams。
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -18,15 +18,15 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: ab67f4e0851ac05f9d2d341c9b52407b594a3a34
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49802582"
 ---
-# <a name="teams-for-retail"></a><span data-ttu-id="1676e-103">适用于零售业的 Teams</span><span class="sxs-lookup"><span data-stu-id="1676e-103">Teams for Retail</span></span>
+# <a name="teams-for-retail"></a><span data-ttu-id="dd540-103">适用于零售业的 Teams</span><span class="sxs-lookup"><span data-stu-id="dd540-103">Teams for Retail</span></span>
 
-<span data-ttu-id="1676e-104">使用此处的管理员资源来管理和充分利用 Teams，为零售店和员工服务。</span><span class="sxs-lookup"><span data-stu-id="1676e-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
+<span data-ttu-id="dd540-104">使用此处的管理员资源来管理并充分利用 Teams，适用于零售商店以及员工。</span><span class="sxs-lookup"><span data-stu-id="dd540-104">Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.</span></span>
 
 |               |               |
 | ------------- | ------------- |
-| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="1676e-106">Teams 零售模板入门</span><span class="sxs-lookup"><span data-stu-id="1676e-106">Get started with Retail Teams templates</span></span>](/microsoftteams/get-started-with-retail-teams-templates) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [<span data-ttu-id="dd540-106">Teams 零售模板入门</span><span class="sxs-lookup"><span data-stu-id="dd540-106">Get started with Retail Teams templates</span></span>](/microsoftteams/get-started-with-retail-teams-templates) |
