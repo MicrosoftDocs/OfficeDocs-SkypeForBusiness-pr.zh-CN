@@ -1,5 +1,5 @@
 ---
-title: 用于医疗保健的 Teams 策略包
+title: Teams 医疗保健策略包
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,23 +20,23 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: 了解如何为医疗保健组织使用和管理 Teams 策略包。
+description: 了解如何使用和管理适用于医疗保健组织的 Teams 策略包。
 ms.openlocfilehash: af6f5923d5c97fc03c77585ba94292264aacc027
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812852"
 ---
-# <a name="teams-policy-packages-for-healthcare"></a>用于医疗保健的 Teams 策略包
+# <a name="teams-policy-packages-for-healthcare"></a>Teams 医疗保健策略包
 
 ## <a name="overview"></a>概述
 
-Microsoft Teams [中的](manage-policy-packages.md) 策略包是预定义的策略和策略设置的集合，可将其分配给组织中具有类似角色的用户。 策略包可简化并有助于提供一致的策略管理。 可以自定义程序包中策略的设置以满足用户的需求。 更改策略包中的策略设置时，分配到该包的所有用户将获取更新的设置。 可以使用 Microsoft Teams 管理中心或 PowerShell 管理策略包。
+Microsoft Teams 中的[策略包](manage-policy-packages.md)是一组预定义的策略和策略设置，你可以将其分配给组织中具有类似角色的用户。 策略包可简化并有助于提供一致的策略管理。 你可以自定义包中策略的设置以满足用户的需求。 当你更改策略包中策略的设置时，分配了该包的所有用户均会获得更新后的设置。 你可以使用 Microsoft Teams 管理中心或 PowerShell 管理策略包。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ht2o]
 
-策略包根据包为以下内容预定义策略：
+策略包针对以下各项预定义了策略，具体内容因策略包而异：
 
 - 消息传递
 - 会议
@@ -46,39 +46,39 @@ Microsoft Teams [中的](manage-policy-packages.md) 策略包是预定义的策�
 
 Teams 当前包括以下医疗保健策略包。
 
-|Microsoft Teams 管理中心中的程序包名称|最适合用于|说明 |
+|Microsoft Teams 管理中心中的策略包名称|最适合用于|说明 |
 |---------|---------|---------|
-|医疗保健医生  |医疗保健组织的医疗工作者  |创建一组策略和策略设置，为注册的医生、医生、医生和社交工作者等医疗工作者提供聊天、呼叫、轮班管理和会议的完全访问权限。 |
-|医疗保健信息工作者  |医疗保健组织的信息工作者 |创建一组策略和策略设置，为信息工作者（例如 IT 人员、信息工作者、财务人员和合规官）提供聊天、呼叫和会议的完全访问权限。|
-|医疗保健患者室  |患者房间设备|创建一组适用于医疗保健组织中患者室的策略和策略设置。|
+|医疗保健临床工作者  |医疗保健组织的临床工作者  |创建一组策略和策略设置，以使临床工作者（例如注册护士、护士长、医师和社会工作者）可以完全访问聊天、通话、轮班管理和会议。 |
+|医疗保健信息工作者  |医疗保健组织的信息工作者 |创建一组策略和策略设置，以使信息工作者（例如 IT 人员、信息学人员、财务人员和合规专员）可以完全访问聊天、通话和会议。|
+|医疗保健病房  |病房设备|创建一组适用于医疗保健组织中病房的策略和策略设置。|
 
 ![医疗保健策略包的屏幕截图](media/policy-packages-healthcare.png)
 
-每个策略都有策略包的名称，因此可以轻松识别链接到策略包的策略。 例如，将医疗保健医疗医疗工作者策略包分配给贵组织的医生时，会Healthcare_ClinicalWorker每个策略创建一个名为 Healthcare_ClinicalWorker 的策略。
+将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。 例如，当你将医疗保健临床工作者策略包分配给组织中的临床医师时，系统将为该策略包中的每个策略创建一个名为 Healthcare_ClinicalWorker 的策略。
 
-![医疗保健患者包中策略的屏幕截图](media/policy-packages-healthcare-clinical-worker.png)
+![医疗保健临床工作者策略包中策略的屏幕截图](media/policy-packages-healthcare-clinical-worker.png)
 
-## <a name="get-started-with-policy-packages"></a>策略包入门
+## <a name="get-started-with-policy-packages"></a>开始使用策略包
 
-若要开始使用医疗保健策略包，请在 Microsoft 管理中心载入中心选择 **"** 医疗保健"，然后选择"按角色分配 **策略设置"。** 准备好开始后，确定要向组织中个人分配的策略包。
+若要开始使用医疗保健策略包，请在 Microsoft 管理中心载入中心上选择“**医疗保健**”，然后选择“**按角色分配策略设置**”。 准备好开始使用后，请确定要将组织中的个人分配给哪些策略包。
 
-选择 **"查看策略** 详细信息"，了解有关程序包中特定策略及其相应设置的详细信息。 在 [Teams 管理中心](manage-policy-packages.md#customize-policies-in-a-policy-package) 进行分配后，可以自定义这些设置。
+选择“**查看策略详细信息**”，以了解有关策略包中的特定策略及其各自设置的更多信息。 分配后可在 Teams 管理中心中[自定义](manage-policy-packages.md#customize-policies-in-a-policy-package)这些设置。
 
-选择要分配的一个或多个程序包，然后单击"下一 **步"。** 可以搜索人员，并将其添加到最适合其角色的策略包中。 不能一次将一个策略包分配给多个策略包。
+选择要分配的一个或多个包，然后单击“**下一步**”。 可以搜索人员并将其添加到最适合其角色的策略包。 不能一次将一个人分配给多个策略包。
 
-将人员添加到正确的策略包后， **完成完成选择** 。 你可以继续在 Microsoft Teams 管理中心自定义和管理策略包。
+将人员添加到正确的策略包后，请单击“**完成**”以最终确定你所做的选择。 可在 Microsoft Teams 管理中心中继续自定义和管理策略包。
 
 ## <a name="manage-policy-packages"></a>管理策略包
 
 ### <a name="view"></a>查看
 
-在分配包前查看策略包中每个策略的设置。 在 Microsoft Teams 管理中心的左侧导航栏中，转到"策略包"，选择包名称，然后选择策略名称。
+在分配包前查看策略包中每个策略的设置。 在 Microsoft Teams 管理中心的左侧导航栏中，转至“**策略包**”，选择策略包名称，然后选择策略名称。
 
 确定预定义值是否适合你的组织，或是否需要根据组织的需求对其进行自定义，使其更具限制性或更宽松。
 
 ### <a name="customize"></a>自定义
 
-根据需要自定义策略包中的策略设置，满足组织的需求。 对策略设置所做的任何更改都将自动应用到已分配了该包的用户。 若要编辑策略包中的策略设置，请在 Microsoft Teams 管理中心的左侧导航栏中，转到"策略包"，选择策略包，选择要编辑的策略的名称，然后选择"编辑"。  
+根据需要自定义策略包中的策略设置，满足组织的需求。 对策略设置所做的任何更改都将自动应用到已分配了该包的用户。 若要编辑策略包中某个策略的设置，请在 Microsoft Teams 管理中心的左侧导航栏中，转至“**策略包**”，选择策略包，选择要编辑的策略的名称，然后选择“**编辑**”。
 
 请记住，在分配策略包之后，你还可以更改包中的策略设置。 若要了解详细信息，请参阅[自定义策略包](manage-policy-packages.md#customize-policies-in-a-policy-package)中的策略。
 
@@ -114,4 +114,4 @@ Teams 当前包括以下医疗保健策略包。
 
 [在 Teams 中管理策略包](manage-policy-packages.md)
 
-[在 Teams 中向用户分配策略](assign-policies.md)
+[向 Teams 中的用户分配策略](assign-policies.md)

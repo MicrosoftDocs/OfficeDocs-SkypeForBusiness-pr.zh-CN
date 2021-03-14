@@ -20,53 +20,53 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
-description: 了解 "离开" 状态或 "请勿打扰" 状态的用户可以在其状态消息中将另一用户显式设置为代理人。
+description: 了解状态为“离开”或“请勿打扰”的用户如何在其状态消息中明确将其他用户设置为代理人。
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
 ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/28/2020
 ms.locfileid: "48790464"
 ---
 # <a name="message-delegation"></a>消息委派
 
-用户可以已将其状态显式设置为 "离开" 或 "请勿打扰"，并提供自定义文本。 邮件委派功能的工作原理如下所示：
+用户可将其状态明确设置为“离开”或“请勿打扰”，并提供自定义文本。 消息委派功能的工作原理如下：
 
-1. 用户 @username 在文本状态消息中提及另一个用户，这表示当他们是不可用的用户而想要与他们联系时，请联系 @username 提及的用户。
-2. 被分配为代理人的人员将收到通知，告知他们已被命名为代理人。
-3. 尝试与第一位用户联系的用户可以将其悬停在命名委派上，并且可以轻松地向代理发送消息。  
+1. 用户 @username 在文本状态消息中提及另一个用户，表明当自己没空时，想要联系他们的人可联系 @username 提及的用户。
+2. 被指派为代理人的用户将收到通知，知晓自己被指定为代理人。
+3. 随后，试图联系第一个用户的某人将鼠标悬停在指定的代理人上，即可轻松地向代理人发送消息。  
 
-这是客户端中的用户启动的进程，并且不需要管理员参与来启用该功能。 
+这是用户在客户端中启动的过程，无需管理员参与即可启用该功能。 
 
-## <a name="delegation-use-scenario-in-healthcare"></a>医疗保健中的委派使用方案
+## <a name="delegation-use-scenario-in-healthcare"></a>医疗保健方面的委派使用方案
 
-*没有设置代理人的用法示例：*  Franco Piccio 在放射科的部门通话。 他收到了一次紧急个人通话，并且在接下来的几个小时内必须退出。 他在放射科的 Lena Ehrle 中询问了他的某位同事，以便在他离开时覆盖他。 他在 Ehrle 上，他一直在上监听紧急消息和 ping 并在 Piccio 上代表，并在她的当前责任的同时作出响应。 团队中的其他人可能无法实现非正式委派，并且 ensues 患者的护理造成混淆。
+*未设置代理人的使用示例：* Franco Piccio 医生正在放射科值班。 他接到一个紧急私人电话，不得不在接下来的几个小时离开。 他请放射科的一位同事 Lena Ehrle 医生在他离开后顶替他值班。 他非正式地将其寻呼机移交给 Ehrle 医生，Ehrle 医生除了本职工作之外，还要负责接听寻呼机上的紧急消息和传呼，并代表 Piccio 医生回复它们。 团队的其他成员可能并未意识到发生了非正式委派，并且患者医治混乱随之而来。
 
-*设置代理人的用法示例：* Franco Piccio 在放射科的部门通话。 他收到了一次紧急个人通话，并且在接下来的几个小时内必须退出。 他在放射 Lena Ehrle 时，他将向他提出他的一位同事。 他将更改其自定义状态消息，以表达类似于 "我在今后几小时内不可用的内容。 请联系 @DrEhrle，获取任何紧急情况。 "  团队中的其他人在尝试联系 Piccio 时遇到委派问题，因此他们现在知道立即联系 Dr. Ehrle。 Ensues 患者的护理很少，不会造成混淆。
+*设置代理人的使用示例：* Franco Piccio 医生正在放射科值班。 他接到一个紧急私人电话，不得不在接下来的几个小时离开。 他请放射科的一位同事 Lena Ehrle 医生在他离开后顶替他值班。 他更改了自己的自定义状态消息，文字类似于“我接下来的几个小时没空。 如有任何紧急情况，请联系 @DrEhrle。”  团队的其他成员在尝试联系 Piccio 医生时会意识到发生了委派，因此他们现在知道在此期间应联系 Ehrle 医生。 患者医治方面很少甚至不会发生混乱。
 
-## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>团队客户端中的用户状态的共存模式的影响
+## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>共存模式对 Teams 客户端中的用户状态的影响
 
-管理员应注意，状态说明和委派提及的行为将部分地依赖于用户的共存模式。 此矩阵显示了可能性：
+管理员应注意，状态备注和委派提及行为取决于用户的共存模式。 此列表显示了可能性：
 
-|Co-Existence 模式 | 预期行为|
+|共存模式 | 预期行为|
 |---|---|
-|TeamsOnly |用户只能从团队设置笔记。 <br> 用户的团队备注在团队 & SfB 中可见。 |
-|孤岛 | 仅在团队中可见的团队中的用户备注集。 <br> SfB 中的用户备注集仅在 SfB 中可见 |
-|SfB * 模式 | 用户只能从 SfB 设置笔记。 <br> 用户的 SfB 备注在 SfB & 团队中可见。  |
+|TeamsOnly |用户只能从 Teams 设置备注。 <br> 用户的 Teams 备注在Teams 和 SfB 中可见。 |
+|Islands | 在 Teams 中设置的用户备注仅在 Teams 中可见。 <br> 在 SfB 中设置的用户备注仅在 SfB 中可见 |
+|SfB* 模式 | 用户只能从 SfB 设置备注。 <br> 用户的 SfB 备注在 SfB 和 Teams 中可见。  |
 |||
 
-如果用户的模式为 TeamsOnly 或孤岛，则用户仅可在团队中设置注释。  
+只有当用户的模式是 TeamsOnly 或 Islands 时，才能在 Teams 中设置备注。  
 
-### <a name="displaying-notes-set-in-skype-for-business"></a>在 Skype for Business 中显示备注集
+### <a name="displaying-notes-set-in-skype-for-business"></a>显示 Skype for Business 中设置的备注
   
-不显示从 Skype for Business 设置笔记的视觉指示。
+没有直观的迹象表明备注是从 Skype for Business 设置的。
 
-Skype for Business 不会对状态注释强制执行字符限制。 Microsoft 团队将仅显示 Skype for Business 中的笔记集的前280个字符。 注释结尾的椭圆 ( ... ) 指示截断。
+Skype for Business 对于状态备注不强制实施字符限制。 Microsoft Teams 将仅显示从 Skype for Business 设置的备注的前 280 个字符。 备注末尾的省略号 (…) 表示截断。
   
-Skype for Business 不支持对笔记的到期时间。
+Skype for Business 不支持备注的过期时间。
 
-当用户升级到 TeamsOnly 模式时，不支持从 Skype for Business 迁移到团队的笔记。
+当用户升级到 TeamsOnly 模式时，不支持将备注从 Skype for Business 迁移到 Teams。
 
 ## <a name="related-topics"></a>相关主题
 
