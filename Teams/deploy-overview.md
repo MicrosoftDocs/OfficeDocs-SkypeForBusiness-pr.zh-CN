@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8d0b51b577ca12bc454617e60671fcefe4da03d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 22e2f243bfde3e4671727ce737ba62bc154adb0d
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395406"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726193"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams 部署概述
 
@@ -40,7 +40,7 @@ ms.locfileid: "50395406"
 > 若已部署 Skype for Business Online 或本地 Skype for Business，除 **入门** 部分中的主题之外，还请参阅以下主题。
 >
 > - [从 Skype for Business Online 升级到 Teams](upgrade-start-here.md)
-> - [规划混合连接](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
+> - 规划混合连接
 
 |部分  |说明  |
 |---------|---------|
