@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在管理中心管理 Teams 模板
-ms.openlocfilehash: b32be22dc7a57e65c6ec8d901ae6e7b004ce4b6c
-ms.sourcegitcommit: 3db994f3d26b05071d84b2004892a2ca2ff26d25
+ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50765825"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875132"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>管理中心中的 Teams 模板
 
@@ -58,7 +58,7 @@ ms.locfileid: "50765825"
 
 1. 若要取消隐藏某些模板，请滚动到"隐藏 **模板"** 表。
 
-1. 选择要取消隐藏模板，然后选择"显示 **"。**
+2. 选择要取消隐藏模板，然后选择"显示 **"。**
 
    ![未隐藏的所选模板](media/template-policies-3.png)
 

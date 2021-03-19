@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解 Microsoft Teams 会议室中不同类型的呼叫和会议功能的可用许可证。
-ms.openlocfilehash: 6f339136d6084046004506c30b6827aaed62971a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867121"
+ms.locfileid: "50875152"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 会议室许可更新
 
@@ -77,4 +77,6 @@ Microsoft 有两个专用的 SK (US，用于为会议室设备（例如 Microsof
 > [!NOTE]
 > 如果为会议室系统分配了现有许可证，这些许可证将继续工作，而不会中断。 当现有许可证过期时，应移动到使用新的会议室 SKU。  
 
- **使用正确的 Windows 10** 版本：对于想要将 Windows 10 映像部署到其设备的客户，请参阅 [配置 Microsoft Teams 会议室控制台](https://docs.microsoft.com/microsoftteams/room-systems/console)。 可以从批量许可 [服务中心获取副本](https://www.microsoft.com/Licensing/servicecenter/)。
+ **使用正确的 Windows 10** 版本：对于想要将 Windows 10 映像部署到其设备的客户，请参阅 [配置 Microsoft Teams 会议室控制台](https://docs.microsoft.com/microsoftteams/room-systems/console)。 可以从批量许可 [服务中心获取副本](https://www.microsoft.com/Licensing/servicecenter/)。 
+ 
+ 另请参阅 [出色的会议室体验：了解新的 Microsoft Teams 会议室标准版和高级版](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)。

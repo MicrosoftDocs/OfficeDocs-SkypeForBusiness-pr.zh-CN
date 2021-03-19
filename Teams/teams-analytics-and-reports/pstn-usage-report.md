@@ -17,16 +17,16 @@ description: 了解如何使用 Microsoft Teams 管理中心中的 Teams PSTN �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b6957effb494e2b7509d0e8ddc15f64baeb30be
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: a7783c3084beaa87b709ca1e9d5ab4e6932a5e59
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867051"
+ms.locfileid: "50875022"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 使用情况报告
 
-Microsoft Teams 管理中心中的 Teams PSTN 使用情况报告提供组织中呼叫和音频会议活动的概述。 如果使用 Microsoft 作为电话运营商，可以查看呼叫计划的详细呼叫活动;如果使用自己的电话运营商，可以查看直接路由的详细呼叫活动。
+Microsoft Teams 管理 (中的 Teams PSTN) 公用电话交换网络电话网络使用情况报告概述了你组织的呼叫和音频会议活动。 如果使用 Microsoft 作为电话运营商，可以查看呼叫计划的详细呼叫活动;如果使用自己的电话运营商，可以查看直接路由的详细呼叫活动。
 
 " **呼叫计划** "选项卡显示的信息包括用户在入站和出站 PSTN 呼叫中花费的时间以及这些呼叫的费用。 " **直接路由** "选项卡显示信息，包括 SIP 地址和呼叫开始时间和结束时间。 使用此报告中的信息深入了解组织的 PSTN 使用情况，并帮助调查、计划和做出业务决策。
 

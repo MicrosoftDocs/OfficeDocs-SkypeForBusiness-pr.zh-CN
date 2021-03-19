@@ -1,5 +1,5 @@
 ---
-title: 为 Microsoft 团队部署协作栏
+title: 在 Android 上部署 Microsoft Teams 会议室
 ms.author: mitressl
 author: flinchbot
 manager: serdars
@@ -14,114 +14,114 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: 阅读本文，了解如何为 Microsoft 团队部署协作栏。
-ms.openlocfilehash: 41eb3335eef78f1da2c64b1df65443ba93d40159
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+description: 阅读本文，了解如何在 Android 上部署 Microsoft Teams 会议室。
+ms.openlocfilehash: bb02ff59eb473d0db276fd773e9f1ff3f1ae0007
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962903"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875002"
 ---
-# <a name="deploy-collaboration-bars-for-microsoft-teams"></a>为 Microsoft 团队部署协作栏
+# <a name="deploy-microsoft-teams-rooms-on-android"></a>在 Android 上部署 Microsoft Teams 会议室
 
-可将 Microsoft 团队的协作栏部署分为以下阶段：
+在 Android 上部署 Microsoft Teams 会议室可以分为以下阶段：
 
-- **网站准备情况** 确认部署位置 (会议室) 满足部署要求。
-- **服务准备情况** 创建资源帐户并将其分配到 "设备" ([请参阅使用 Microsoft 365 管理中心) 创建资源帐户](resource-account-ui.md) 。 尽管我们建议使用专用的会议室许可证，但经正确授权的最终用户帐户也可以登录协作栏。
-- **配置和部署** 在会议室中设置协作栏并连接所需的外围设备 (请参阅协作栏) 的制造商文档。
+- **网站就绪性** 确认会议室中的 (位置) 满足部署要求。
+- **服务就绪性** 创建资源帐户并将其分配给设备 ([请参阅使用 Microsoft 365](resource-account-ui.md) 管理中心创建资源) 。 虽然我们建议使用专用聊天室许可证，但获得适当许可的最终用户帐户也可以登录到 Android 上的 Teams 会议室。
+- **配置和部署** 有关详细信息，请参阅制造商的文档 (Teams 会议室并连接) 。
 
-若要管理协作栏，您必须是全局管理员、团队服务管理员或团队设备管理员。有关管理员角色的详细信息，请参阅 [使用 Microsoft 团队管理员角色管理团队](../using-admin-roles.md)。
+若要管理 Teams 会议室，你需要是全局管理员、Teams 服务管理员或 Teams 设备管理员。有关管理员角色的信息，请参阅使用[Microsoft Teams 管理员角色管理 Teams。](../using-admin-roles.md)
 
-## <a name="site-readiness"></a>网站准备情况
+## <a name="site-readiness"></a>网站就绪
 
-当已订购的设备正在发送给你的组织时，请与你的网络、设施和音频视觉团队协作，以确保满足部署要求，并且每个网站和聊天室均可在 power、网络和显示器方面随时准备就绪。
+将订购的设备传送到组织时，请与网络、设施和音频视觉团队协作，确保满足部署要求，并且每个站点和会议室在电源、网络和显示方面已准备就绪。
 
-我们针对协作栏网站的建议如下：
+我们针对协作栏网站的建议是：
 
-- 大小最多为4人的会议室
+- 大小最多 5 人的房间
 - 专用资源帐户
 - 支持触摸的显示器
-- 以太网缆线
-- Microsoft 团队媒体网络上启用的服务质量 (QoS) 
+- 以太网布线
+- 网络上为 Microsoft Teams (QoS) 服务质量
 
-有关物理安装的注意事项，请参阅制造商的文档，如果有，请在安装和装入屏幕并运行缆线之前，充分利用您的音频视觉团队的体验。
+有关物理安装注意事项，请参阅制造商的文档，如果有，在安装和装载屏幕并运行布线之前，请利用音频视觉团队的经验。
 
 > [!TIP]
-> 请务必查看针对团队进行带宽规划和评估网络对实时流量的适用性的 [准备好网络](../prepare-network.md) 。
+> 请务必查看为 [Teams 准备](../prepare-network.md) 网络，以规划带宽并评估网络是否适合实时流量。
 >
-> 我们不建议在团队设备和 Internet 之间放置代理服务器。 有关代理服务器和团队的详细信息，请查看 [团队的代理服务器](../proxy-servers-for-skype-for-business-online.md)。
+> 我们不建议在 Teams 设备和 Internet 之间放置代理服务器。 有关代理服务器和 Teams 的信息，请查看 [Teams 的代理服务器](../proxy-servers-for-skype-for-business-online.md)。
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确认您的网站满足 Microsoft 团队协作栏的网站准备情况要求。</li><li>确认您是否为每个网站都提供了足够的带宽。</li></ul>|
-| ![描述后续步骤的图标](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始规划协作栏部署和配置。</li></ul>|
+| ![描述决策点的图标](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确认您的网站满足 Microsoft Teams 协作栏的网站就绪性要求。</li><li>请确认为每个网站提供了足够的带宽。</li></ul>|
+| ![描述下一步骤的图标](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始规划协作栏部署和配置。</li></ul>|
 
 ## <a name="service-readiness"></a>服务就绪
 
-在部署协作栏之前，您需要确定他们是使用 Microsoft 365 资源帐户、最终用户帐户还是同时使用这两者。 Microsoft 365 资源帐户是指专用于特定资源（如房间、投影仪等）的邮箱和团队帐户。 这些资源帐户可以使用在创建规则时定义的规则自动答复会议邀请。 除非协作栏专用于特定个人供其私人使用，否则我们建议为其设置 Microsoft 365 资源帐户。
+在部署 Teams 会议室之前，你需要确定它们使用 Microsoft 365 资源帐户、最终用户帐户还是两者混合使用。 Microsoft 365 资源帐户是专用于特定资源（如会议室、投影仪等）的邮箱和 Teams 帐户。 这些资源帐户可以使用创建会议邀请时定义的规则自动响应会议邀请。 除非 Teams 会议室专用于个人专用，否则我们建议为它设置 Microsoft 365 资源帐户。
 
 ### <a name="using-a-resource-account"></a>使用资源帐户
 
-如果您决定设置 Microsoft 365 资源帐户，您需要为其购买会议室许可证。 会议室许可证包括一个资源邮箱，使组织中的人员可以通过 Outlook 或团队预订会议室。 许可证还支持会议参与者之间的视频和音频会议以及屏幕共享。
+如果决定设置 Microsoft 365 资源帐户，则需要购买会议室许可证。 会议室许可证包括一个资源邮箱，使组织中的人员可以通过 Outlook 或 Teams 预订会议室。 该许可证还支持视频和音频会议以及会议参与者之间的屏幕共享。
 
-如果您需要接收或拨出外部电话号码，您可能需要一个呼叫计划或 Microsoft 365 Business Voice [附加设备许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)。 如果您的组织中已启用直接路由，则只需要会议室 SKU。
+如果需要接收或拨打外部电话号码，可能需要呼叫计划或 Microsoft 365 商业语音 [附加许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)。 如果在组织中启用了直接路由，则只需要会议室 SKU。
 
-创建资源帐户时，可以选择是让帐户自动接受或拒绝会议请求、允许定期会议、指定提前的人员可以预订资源的进度，等等。
+创建资源帐户时，可以选择是否允许帐户自动接受或拒绝会议请求、允许定期会议、指定用户可以提前预订资源多远，等等。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-有关 Microsoft 365 资源帐户的协作栏的详细信息，请参阅 [使用 microsoft 365 管理中心创建资源帐户](resource-account-ui.md)。
+有关 Microsoft 365 资源帐户的信息，请参阅 [使用 Microsoft 365](resource-account-ui.md)管理中心创建资源帐户。
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定您是否要拨打或接听外部电话，并确定您的资源帐户的授权要求。</li></ul>|
-| ![描述后续步骤的图标](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>准备资源帐户。</li></ul>|
+| ![描述决策点的图标](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是拨打还是接听外部电话呼叫，并确定资源帐户的许可要求。</li></ul>|
+| ![描述下一步骤的图标](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>准备资源帐户。</li></ul>|
 
 ## <a name="configuration-and-deployment"></a>配置和部署
 
-规划配置和部署涵盖以下主要方面：
+配置和部署规划包括以下关键领域：
 
 - 资源帐户预配
 - 设备部署
-- Microsoft 团队应用程序和外围设备配置的协作栏
--  测试
+- Teams 会议室应用程序和外围设备配置
+- 测试
 - 资产管理
 
-### <a name="account-provisioning"></a>帐户预配
+### <a name="account-provisioning"></a>帐户设置
 
-如果您计划使用 Microsoft 365 资源帐户让用户预订协作栏，请按照 [使用 microsoft 365 管理中心创建资源帐户](resource-account-ui.md) 中的说明为需要其中一个的每个协作栏创建 Microsoft 365 资源帐户。 这也是你需要向资源帐户添加会议室许可证的地方，如果你想要在你的组织未使用直接路由的情况下拨打或接听外部电话号码、呼叫计划或商业语音许可证，请使用呼叫计划或商业语音许可证。
+如果计划使用 Microsoft 365 资源帐户让用户预订协作栏，请按照使用 Microsoft [365](resource-account-ui.md) 管理中心创建资源帐户中的说明为每个需要协作栏的协作栏创建 Microsoft 365 资源帐户。 这也是您需要向资源帐户添加会议室许可证的地方，如果要拨打或接听来自外部电话号码的呼叫，请添加呼叫计划或商务语音许可证（如果您的组织没有使用直接路由）。
 
-如果要为单个用户分配协作栏以供其私人使用，则无需设置任何其他帐户。 用户可以使用其个人帐户登录到协作栏。
+如果要将 Teams 会议室分配给单个用户供其专用，则不需要设置任何其他帐户。 用户可以使用个人帐户登录到协作栏。
 
 > [!TIP]
-> 使您的 Microsoft 365 资源帐户的显示名称易于理解。 这些是用户在搜索并将 Microsoft 团队的协作栏添加到会议时将看到的名称。 你可以使用类似于*网站* - *聊天室名称*的约定 (*最大会议室的容量*) ，因此，例如，在伦敦的4人会议室中，可能会有显示名称 LON-Curie (4) 。
+> 使 Microsoft 365 资源帐户的显示名称具有描述性且易于理解。 这些是用户在搜索 Teams 会议室以及将 Teams 会议室添加到会议时会看到的名称。 您可以使用网站会议室名称 (最大会议室容量) 等约定，例如，伦敦 4 人会议室 Curie 可能拥有 - 显示名称 LON-CURIE (4) 。 
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定专用资源帐户的命名约定。</li><li>确定是创建单个帐户还是使用批量预配脚本。</li></ul>|
-| ![描述后续步骤的图标](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始规划设备部署。</li></ul>|
+| ![描述决策点的图标](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定专用资源帐户的命名约定。</li><li>决定是创建单个帐户还是使用批量预配脚本。</li></ul>|
+| ![描述下一步骤的图标](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始计划设备部署。</li></ul>|
 
 ### <a name="device-deployment"></a>设备部署
 
-接下来，你需要创建你的计划，以便将设备和分配的外围设备交付到你的聊天室，然后继续安装和配置。
+接下来，需要创建计划，将设备及其分配的外围设备交付到会议室，然后继续进行安装和配置。
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定由谁来管理网站的网站部署。</li><li> 确定将为 Microsoft 团队网站安装协作栏并执行配置和测试的资源。</li></ul>|
-| ![描述后续步骤的图标](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始设备测试。</li></ul>|
+| ![描述决策点的图标](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定管理站点到站点部署的人员。</li><li> 确定将现场安装 Teams 会议室的资源，并执行配置和测试。</li></ul>|
+| ![描述下一步骤的图标](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始设备测试.</li></ul>|
 
-### <a name="testing"></a> 测试
+### <a name="testing"></a>测试
 
-部署 Microsoft 团队的协作栏后，应进行测试。 登录设备，检查所需的功能是否在已部署的设备上工作。 强烈建议你验证设备是否显示在 Microsoft 团队管理中心的 "**设备**" 选项卡的 "**协作栏**" 部分中。 还必须进行大量测试通话和会议才能检查质量和性能。
+部署 Teams 会议室后，应测试它们。 登录到 Teams 会议室，检查预期功能是否正常工作。 强烈建议验证它们是否显示在 Microsoft Teams 管理中心的"设备"选项卡下的"协作栏"部分。 还必须进行大量测试呼叫和会议，以检查质量和性能。
 
-我们建议作为常规 Microsoft 团队推出的一部分，为通话质量仪表板配置构建文件 (CQD) 、监控质量趋势以及参与体验审核流程。 有关详细信息，请参阅 [体验质量检查指南](https://aka.ms/qerguide)。
+建议在 Microsoft Teams 常规推广过程中，为呼叫质量仪表板 (CQD) 配置生成文件，监视质量趋势，并参与体验质量评审过程。 有关详细信息，请参阅 [体验质量评审指南](https://aka.ms/qerguide)。
 
 ### <a name="asset-management"></a>资产管理
 
-作为部署的一部分，您将需要用房间名称、登录资源帐户和分配的外围设备更新您的资产注册。
+在部署中，需要使用聊天室名称、登录的资源帐户和分配的外围设备更新资产注册。
 
 ## <a name="related-topics"></a>相关主题
 
-[使用 Microsoft 团队管理中心为 Microsoft 团队配置协作栏的帐户](resource-account-ui.md)
+[使用 Microsoft Teams 管理中心配置 Microsoft Teams 会议室的帐户](resource-account-ui.md)
 
 <!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->

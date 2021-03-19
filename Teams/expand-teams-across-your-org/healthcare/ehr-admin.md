@@ -23,17 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 使用 Microsoft Teams 设置虚拟就诊系统
-ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
-ms.translationtype: HT
+ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125775"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875172"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>通过 Teams 进行虚拟就诊 - 集成到 EHR
 
 借助 Microsoft Teams 电子健康记录 (EHR) 连接器，临床医生可轻松地直接从 EHR 系统向 Teams 中的其他提供商发起虚拟患者访视或咨询。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
 利用 Teams 的沟通和协作平台，临床医生可轻松解决零碎的体制问题，从而腾出更多时间提供最好的医治。 Microsoft Teams 电子健康记录 (EHR) 连接器可以实现以下操作：
+
 - 从提供商和患者门户发起 Teams 虚拟就诊。
 - 在发生连接后断开事件时，重新写入 EHR 元数据以启用自动审核和记录保留。
 - 集成到现有临床医生和患者工作流中，同时允许其使用 Microsoft Teams。
@@ -65,7 +66,7 @@ ms.locfileid: "50125775"
 - Epic 客户分析员
 
 > [!Note]
-> 向你的 Epic 技术专员索取 Epic 商城上提供的《Epic-Microsoft Teams 远程医疗集成指南》。
+> 与长篇故事技术专家一起查看 [Epic-Microsoft Teams Telehealth](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) 集成指南。 请确保已完成所有先决条件。 
 
 ## <a name="connector-setup"></a>连接器设置
 

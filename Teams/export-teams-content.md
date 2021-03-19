@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1bca4eb70bff07e809630e1b997f377064b5e0e
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: 948b30e9494bbac78dc7cf2e3e276242feea306e
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861406"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874682"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用 Microsoft Teams 导出 API 导出内容
 
-Teams 导出 API 允许从 Microsoft Teams 导出 1：1、群组聊天和频道消息。 如果组织需要导出 Microsoft Teams 消息，可以使用 Teams 导出 API 提取它们。 *聊天消息* 表示频道 [或聊天中的](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 单个聊天 [消息](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)。 聊天消息可以是聊天消息中的根聊天消息或由 **聊天消息中的 replyToId** 属性定义的回复线程的一部分。
+Teams 导出 API 允许从 Microsoft Teams 导出 1：1、群组聊天、会议聊天和频道消息。 如果组织需要导出 Microsoft Teams 消息，可以使用 Teams 导出 API 提取它们。 *聊天消息* 表示频道 [或聊天中的](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 单个聊天 [消息](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)。 聊天消息可以是聊天消息中的根聊天消息或由 **聊天消息中的 replyToId** 属性定义的回复线程的一部分。
 
 下面是一些有关如何使用这些导出 API 的示例：
 
@@ -41,7 +41,7 @@ Teams 导出 API 允许从 Microsoft Teams 导出 1：1、群组聊天和频道�
 
     如果已熟悉将应用与 Microsoft 标识平台集成以获取令牌，请参阅"下一步[](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)"部分，了解特定于 Microsoft Graph 的信息和示例。
 - **混合环境：** 导出 API 支持在本地 Exchange 和 Teams (混合环境中预配的用户发送) 。 为混合环境配置的用户发送的任何消息都可以使用导出 API 访问。
-- **用户已删除的消息：** 用户从 Teams 客户端中删除的消息可以使用导出 API 访问，自删除起最多 30 天。
+- **用户已删除的消息：** 用户从 Teams 客户端中删除的消息可以使用导出 API 访问，自删除起最多 21 天。
 - **邮件附件：** 导出 API 包括作为邮件的一部分发送的附件的链接。 使用导出 API 可以检索邮件中附加的文件。
 - **聊天消息属性：** 请参阅此处 Teams 导出 API 支持的属性 [的完整列表](https://docs.microsoft.com/graph/api/resources/chatmessage?view=graph-rest-beta#properties)。
 
@@ -50,19 +50,19 @@ Teams 导出 API 允许从 Microsoft Teams 导出 1：1、群组聊天和频道�
 - **示例 1** 是一个简单的查询，用于检索用户或团队的所有消息，而无需任何筛选器：
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages
     ```
 
 - **示例 2** 是一个示例查询，用于通过指定日期时间筛选器和前 50 条消息来检索用户或团队的所有消息：
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
     ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
 >如果有多个结果，API 会返回包含下一页链接的响应。 要获取下一组结果，只需从 @odata.nextlink 对 URL 调用 GET。 如果@odata.nextlink 不存在或为 null，则检索所有消息。

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: ca3c7b430469887d4ebbee3e12836e72d1204eef
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235820"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875092"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -33,7 +33,7 @@ ms.locfileid: "48235820"
 
 - 确保每个人都可以使用 [付费订阅 (包括 Teams)](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) 访问 Teams。 或者，符合条件的组织可使用 **[Teams 的免费版本](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或者员工可以激活 **[Teams 探索](teams-exploratory.md)** 的体验。
 
--  如果已有包含 Teams 的订阅，请**[为所有人启用](user-access.md)**。
+-  如果已有包含 Teams 的订阅，请 **[为所有人启用](user-access.md)**。
     
 - 了解组织如何开始使用 **[Teams 中的会议和实时事件](quick-start-meetings-live-events.md)**。 
 
@@ -42,7 +42,7 @@ ms.locfileid: "48235820"
 
 ## <a name="end-user-communications"></a>最终用户通信
 
-准备好向你的用户推出 Teams？ 获取**[客户成功套件](https://aka.ms/TeamsCustomerSuccess)**，其中包含以下精彩电子邮件模板：
+准备好向你的用户推出 Teams？ 获取 **[客户成功套件](https://aka.ms/TeamsCustomerSuccess)**，其中包含以下精彩电子邮件模板：
 
 - 使用“**通知电子邮件**”告诉用户 Teams 可为他们提供哪些功能。
 
@@ -58,9 +58,9 @@ ms.locfileid: "48235820"
 
 - 下载“**[快速入门指南](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)**”，了解 Teams 的基础知识。
 
-- 观看系列简短**[快速入门视频](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)**，了解有关 Teams 的演练信息。
+- 观看系列简短 **[快速入门视频](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)**，了解有关 Teams 的演练信息。
 
-- 观看**[会议视频](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)**，了解如何在 Teams 中使用会议。
+- 观看 **[会议视频](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)**，了解如何在 Teams 中使用会议。
 
 
 ## <a name="additional-resources-for-supporting-remote-workers"></a>用于支持远程工作者的附加资源
@@ -74,7 +74,7 @@ ms.locfileid: "48235820"
    - [Microsoft 如何便于员工使用 Microsoft Teams 远程工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
    - [协助中小型企业使用 Teams 远程工作](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT 为员工实现远程办公的 9 大方式](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT 为员工实现远程办公的 9 大方式](https://www.microsoft.com/zh-CN/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. Teams 教育版 

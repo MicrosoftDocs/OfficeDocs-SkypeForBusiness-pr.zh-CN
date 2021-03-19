@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 6fc7838ac1f3235acf576d437e3dabccfc2a0b6f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867061"
+ms.locfileid: "50875052"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
 > [!Note]
-> Microsoft 365 E3/E5 和 Microsoft 365 A3/A5 中将提供仅查看广播。 此功能将在 2021 年 3 月 1 日启用为默认关闭。 Microsoft 365 政府版 G3/G5 计划中的此功能将在以后提供。 如果希望将该功能设置为"默认启用"，则必须在此日期之后更改默认策略。 使用 PowerShell 启用策略 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 。
+> Microsoft 365 E3/E5 和 Microsoft 365 A3/A5 中提供仅查看广播。 此功能将在 2021 年 3 月 1 日启用为默认关闭。 Microsoft 365 政府社区云 (GCC) 2021 年 3 月底开始推出此功能。 政府社区云高 (GCCH) 和国防部 (DoD) 将在以后推出。 如果希望将该功能设置为"默认启用"，则必须在此日期之后更改默认策略。 使用 PowerShell 启用策略 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 。
 
 > [!Note]
 > 如果会议或网络研讨会达到容量，Teams 将无缝缩放，以容纳 10，000 人仅查看的直播体验。 此外，在增加远程工作的这一期间，充分利用今年年底甚至更多的 20，000 人直播。

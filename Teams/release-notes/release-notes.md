@@ -16,22 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 管理员功能的发行说明。
-ms.openlocfilehash: bda768865d3deda5dac6c0162141dfc3852d8aa3
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: d99f6c0ea90e5de0cefec3d40c6fc599e0aae9f0
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461022"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875012"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 管理员功能发行说明
 
 这些发行说明提供有关 Microsoft Teams 的新管理员功能的信息。
 
+## <a name="february-22-2021"></a>2021 年 2 月 22 日
+
+### <a name="custom-lob-tabs-are-available-for-dod-customers"></a>自定义 (LOB) 选项卡适用于 DoD 客户
+
+现在，DoD 客户可以在 Teams 应用中上传和部署 (LOB) 自定义应用。
+
 ## <a name="february-18-2021"></a>2021 年 2 月 18 日
 
 ### <a name="meeting-reactions-policy"></a>会议回应策略
 
-会议回应默认为"关闭"。 关闭用户的反应并不意味着用户无法安排在会议中使用回应。 无论默认设置如何，会议组织者仍可打开会议选项页面中的反应。 [了解更多信息。](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---meeting-reactions)
+会议回应默认为"关闭"。 为用户关闭回应并不意味着用户无法安排的会议使用回应。 无论默认设置如何，会议组织者仍可从会议选项页面打开回应。 [了解更多信息。](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---meeting-reactions)
 
 ## <a name="february-11-2021"></a>2021 年 2 月 11 日
 
@@ -41,9 +47,9 @@ Microsoft Teams 允许最多 10，000 名与会者加入 Teams 会议。 达到�
 
 ## <a name="january-27-2021"></a>2021 年 1 月 27 日
 
-### <a name="virtual-visits-with-teams---integration-into-ehr"></a>使用 Teams 进行虚拟访问 - 集成到 EHR 中
+### <a name="virtual-visits-with-teams---integration-into-ehr"></a>通过 Teams 进行虚拟就诊 - 集成到 EHR
 
-我们更新了 Microsoft Teams 电子健康记录 (EHR) 连接器和连接器的界面，使医生可以直接从 EHR 系统启动虚拟患者访问或咨询 Teams 中的另一个提供商。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin)。
+我们更新了 Microsoft Teams 电子健康记录 (EHR) 连接器和连接器的界面，使医生能够轻松地直接从 EHR 系统启动虚拟患者访问或咨询 Teams 中的其他提供商。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin)。
 
 ## <a name="january-22-2021"></a>2021 年 1 月 22 日
 
@@ -55,13 +61,13 @@ Microsoft Teams 允许最多 10，000 名与会者加入 Teams 会议。 达到�
 
 ### <a name="offline-documentation"></a>脱机文档
 
-即使你处于脱机状态或在低带宽条件下运行，Teams 也保持运行。 Teams 会将现有聊天的所有未发送消息 (保存最多 24 小时) 一回到联机状态就发送这些消息。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues)。
+即使你处于脱机状态或低带宽条件下运行，Teams 也可以保持运行。 Teams 会将你的所有未发送消息保存到现有聊天 (最多 24 小时) 当你重新联机时立即发送它们。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues)。
 
 ## <a name="january-19-2021"></a>2021 年 1 月 19 日
 
-### <a name="teams-approvals-app-availability"></a>Teams 审批应用可用性
+### <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
-审批应用作为个人应用提供给所有 Microsoft Teams 用户。 "审批"应用提供了一种简单方法，用于将审核、合规性、责任和工作流引入 Teams 中的结构化和非结构化审批。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/approval-admin)。
+“审批”应用可作为个人应用提供给所有 Microsoft Teams 用户。 “审批”应用提供了一种在 Teams 中将审核、合规性、责任和工作流引入结构化审批和非结构化审批的简单方法。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/approval-admin)。
 
 ## <a name="january-15-2021"></a>2021 年 1 月 15 日
 
@@ -79,17 +85,17 @@ Microsoft Teams 允许最多 10，000 名与会者加入 Teams 会议。 达到�
 
 ### <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>通话套餐支持的费率中心和覆盖范围
 
-费率中心是一个地理区域的行业术语，传统上，该地理区域定义公共电话交换网和 PSTN 呼叫的本地呼叫、计费费率和 (分配) 。 [了解详细信息](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix)。
+费率中心是一个地理区域的行业术语，传统上，该地理区域定义公共电话交换网 PSTN (的本地呼叫、计费费率和电话号码) 。 [了解详细信息](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix)。
 
 ## <a name="december-18-2020"></a>2020 年 12 月 18 日
 
 ### <a name="updated-meeting-settings-policies-for-breakout-rooms"></a>更新了"分组讨论室"的会议设置策略
 
- Teams 中的分组会议室用于将会议拆分为单独的较小会议室。 此设置控制会议组织者是否可选择在安排或启动的会议中创建和管理分组讨论室。 此策略设置会影响所有会议，包括"现在开会"会议。 [了解详细信息](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms)。
+ Teams 中的分组会议室用于将会议拆分为单独的小型会议室。 此设置控制会议组织者是否可选择在安排或启动的会议中创建和管理"分组讨论室"。 此策略设置会影响所有会议，包括"现在开会"会议。 [了解详细信息](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms)。
 
 ## <a name="december-9-2020"></a>2020 年 12 月 9 日
 
-### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Microsoft 365 学习途径 Teams 顾问
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Teams 与 Microsoft 365 学习路径顾问
 
 Microsoft 365 学习途径是一种按需学习解决方案，你可以自定义该解决方案来培训用户，并提高组织中 Teams 的使用率和采用率。 将学习途径与 Teams 顾问配合使用，让你的用户能够快速启动和运行，并推动采用。
 
@@ -101,35 +107,35 @@ Microsoft 365 学习途径是一种按需学习解决方案，你可以自定义
 
 Microsoft Teams 提供许多对医院和其他医疗保健组织有用的功能，包括：
 
-- 虚拟访问和电子医疗保健记录 (EHR) 集成
+- 虚拟访问和电子医疗保健记录 （EHR） 集成
 - Teams 策略包
-- 安全消息传送
+- 安全消息传递
 - Teams 模板
 - 护理协调与协作
 
-此功能是 Microsoft Cloud for Healthcare 的一部分。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc)。
+此功能是 Microsoft 云用于医疗保健的一部分。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc)。
 
 ## <a name="october-27-2020"></a>2020 年 10 月 27 日
 
 ### <a name="teams-displays"></a>Teams 显示
 
-Microsoft Teams 显示器是一类一体式专用 Teams 设备，具有环境触摸屏和 Cortana 支持的免费免提体验。 [了解详细信息](https://docs.microsoft.com/microsoftteams/devices/teams-displays)。
+Microsoft Teams 显示器是一类一体式专用 Teams 设备，具有环境触摸屏和 Cortana 提供的免费免提体验。 [了解详细信息](https://docs.microsoft.com/microsoftteams/devices/teams-displays)。
 
 ## <a name="october-22-2020"></a>2020 年 10 月 22 日
 
 ### <a name="manage-skype-for-business-settings-for-your-users"></a>管理用户的 Skype for Business 设置
 
-可以在 Microsoft Teams 管理中心管理组织中 Skype for Business 用户的 Skype for Business 设置。  转到用户详细信息页上的 Skype for Business 选项卡。 在这里，你可以管理单个用户的外部访问和会议设置。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+可以在 Microsoft Teams 管理中心管理组织中 Skype for Business 用户的 Skype for Business 设置。  转到用户详细信息页上的"Skype for Business"选项卡。 在这里，你可以管理单个用户的外部访问和会议设置。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>管理组织的 Skype for Business 设置
 
-可以在 Microsoft Teams 管理中心管理组织中 Skype for Business 用户的 Skype for Business 功能。 转到 **组织范围的 Skype**  >  **for Business 设置**。 在这里，你可以管理 Skype 会议直播、状态和移动通知。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+可在 Microsoft Teams 管理中心内管理组织中 Skype for Business 用户的 Skype for Business 功能。 转到"**组织范围的设置**  >  **""Skype for Business"。** 在这里，你可以管理 Skype 会议直播、状态和移动通知。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
 
 ## <a name="october-16-2020"></a>2020 年 10 月 16 日
 
 ### <a name="manage-shift-based-access-for-frontline-workers"></a>管理一线员工基于排班的访问
 
-作为管理员，您可以配置 Teams，为您的组织中的一线员工显示一组基于排班的显示状态，以指示其何时上班和下班。 使用基于班次的访问，可以在一线员工轮班时管理对 Teams 的访问权限。 例如，可以将 Teams 设置为显示一条消息，要求一线员工在不使用计划排班时，必须先确认消息才能使用 Teams。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
+作为管理员，你可以将 Teams 配置为显示一组基于排班的显示状态，以指示组织的一线员工何时上班和下班。 使用基于排班的访问，可以在一线员工上班时管理对 Teams 的访问权限。 例如，可以将 Teams 设置为显示一条消息，即当一线员工不在安排班次时，他们必须先确认消息才能使用 Teams。 [了解详细信息](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
 
 ## <a name="october-15-2020"></a>2020 年 10 月 15 日
 
@@ -141,31 +147,31 @@ Microsoft Teams 显示器是一类一体式专用 Teams 设备，具有环境触
 
 ### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心向团队添加应用
 
-在 Microsoft Teams 管理中心的"管理应用"页面上，可以使用"添加到团队"按钮将应用安装到团队。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/manage-apps)。
+在 Microsoft Teams 管理中心的"管理应用"页面上，可以使用"添加到团队 **"** 按钮向团队安装应用。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/manage-apps)。
 
 ## <a name="october-1-2020"></a>2020 年 10 月 1 日
 
 ### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 录制会议
 
-Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Microsoft Stream 过渡到新 Stream 的第一阶段，此方法将录制内容存储在 Microsoft 365 中的 Microsoft OneDrive for Business 和 SharePoint 上，并提供许多优势。 [了解详细信息](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)。
+Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Microsoft Stream 过渡到新 Stream 的第一阶段，此方法将录制存储在 Microsoft 365 中的 Microsoft OneDrive for Business 和 SharePoint 上，并提供许多优势。 [了解详细信息](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)。
 
 ### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>适用于中小型企业的免费音频会议
 
-如果你是一家拥有多达 300 个用户的小企业或中型企业，并且当前没有任何音频会议许可证，你可以免费使用音频会议一年。 此免费产品/服务从 2020 年 10 月 1 日起提供。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)。
+如果你是一家拥有多达 300 名用户的小型企业或中型企业，并且当前没有任何音频会议许可证，你可以免费获得音频会议一年。 此免费产品/服务从 2020 年 10 月 1 日起提供。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)。
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心查看应用权限并授予管理员许可
 
-现在，在 Teams 管理中心中，全局管理员将能够代表整个租户查看并许可在 Azure Active Directory 中注册的图形 API 权限，以授予应用所请求的权限，例如读取存储在团队中的信息或代表用户发送电子邮件。 现在，IT 管理员将能够查看特定于资源的许可 (RSC) Teams 管理中心内应用的权限。 这样，管理员将能够取消阻止其用户使用已审查并批准在组织中使用的第三方应用。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
+现在，在 Teams 管理中心中，全局管理员将能够代表整个租户查看并许可在 Azure Active Directory 中注册的图形 API 权限，获取应用所请求的权限，例如读取存储在团队中的信息或代表用户发送电子邮件。 现在，IT 管理员将能够查看 RSC 中特定于资源 (同意) Teams 管理中心内应用的权限。 这样，管理员将能够取消阻止其用户访问已审阅并批准在组织中使用的第三方应用。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
 
-### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>对奥地利、丹麦、意大利、葡萄牙、瑞典和瑞士的通话计划支持
+### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>对奥地利、丹麦、意大利、葡萄牙、瑞典和瑞士的呼叫计划支持
 
-我们最近添加了对奥地利、丹麦、意大利、葡萄牙、瑞典和瑞士的通话计划支持。  [了解详细信息](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+我们最近添加了对奥地利、丹麦、意大利、葡萄牙、瑞典和瑞士的呼叫计划支持。  [了解详细信息](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
 
 ## <a name="september-29-2020"></a>2020 年 9 月 29 日
 
 ### <a name="meeting-policy-settings"></a>会议策略设置
 
-在 Teams 会议策略中为 IP 音频和 IP 视频添加两个策略设置：IP 音频模式和 IP 视频模式。 现在可以在 Teams 会议策略中设置传入和传出 IP 音频和视频。 [了解详细信息](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
+在 Teams 会议策略中添加两个 IP 音频和 IP 视频的策略设置：IP 音频模式和 IP 视频模式。 现在可以在 Teams 会议策略中设置传入和传出 IP 音频与 IP 视频。 [了解详细信息](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
 
 ## <a name="september-27-2020"></a>2020 年 9 月 27 日
 
@@ -177,13 +183,13 @@ Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Micro
 
 ### <a name="teams-integration-with-android-contacts"></a>Teams 与 Android 联系人集成
 
-直接通过 Android 电话簿使用 Teams 进行呼叫。
+直接通过 Android Phonebook 使用 Teams 进行呼叫。
 
 ## <a name="september-21-2020"></a>2020 年 9 月 21 日
 
 ### <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Microsoft Power Platform 应用
 
-作为管理员，你可以控制用户是否可以在 Teams 的"应用"页面上查看和安装同事构建的 Microsoft Power Platform 应用。 可以统一阻止或允许 Power Apps 中创建的所有应用，或者"管理应用"页面上组织级别的 Power Virtual [](../manage-apps.md) Agents 中创建的所有应用，或者针对使用应用权限策略的特定[用户创建的所有应用](../teams-app-permission-policies.md)。 [了解详细信息](../manage-power-platform-apps.md)。
+作为管理员，你可以控制用户是否可以在 Teams 的"应用"页面上查看和安装同事构建的 Microsoft Power Platform 应用。 可以统一阻止或允许在 Power Apps 中创建的所有应用，或者所有在组织级别在"管理应用"页面上[](../manage-apps.md)的 Power Virtual Agents 中创建的应用，或者对于使用应用权限策略 的特定[用户创建的所有应用](../teams-app-permission-policies.md)。 [了解详细信息](../manage-power-platform-apps.md)。
 
 ## <a name="september-19-2020"></a>2020 年 9 月 19 日
 
@@ -213,7 +219,7 @@ Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Micro
 
 ### <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft Teams 中的自定义应用存储
 
-现在，可以通过添加徽标、自定义背景和自定义文本颜色，通过组织品牌来自定义 Teams 应用应用商店，使其更吸引最终用户。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)。
+现在，可以通过添加徽标、自定义背景和自定义文本颜色来使用组织品牌来自定义 Teams 应用存储，使其更吸引最终用户。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)。
 
 ## <a name="september-1-2020"></a>2020 年 9 月 1 日
 
@@ -229,23 +235,23 @@ Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Micro
 
 ### <a name="manage-the-praise-app"></a>管理表扬应用
 
-Microsoft Teams 中的"表扬"应用可帮助用户向组织或课堂成员表示感激。 "表扬"应用具有一系列锁屏提醒集可供选择，并提供创建自己的锁屏提醒的选项。 表扬旨在帮助识别 Teams 用户执行的广泛工作（从教育工作者到一线员工）的工作。 [了解详细信息](../manage-praise-app.md)。
+Microsoft Teams 中的"表扬"应用可帮助用户向组织或课堂成员表示感激。 表扬应用具有一系列锁屏提醒集可供选择，并提供创建自己的锁屏提醒的选项。 表扬旨在帮助识别 Teams 用户执行的广泛工作（从教育工作者到一线员工）的工作。 [了解详细信息](../manage-praise-app.md)。
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>使用 Microsoft Teams 会议室和 Surface Hub 设置协调会议
 
-如果会议室中具有一个或多个 Microsoft Teams 会议室设备或 Surface Hub，可以设置协调会议。 协调会议允许您设置 Teams 会议室设备和 Surface Hub，以便当您在一台设备上加入会议时，会议室中的其他设备也加入同一会议。 [了解详细信息](../rooms/coordinated-meetings.md)。
+如果会议室中具有一个或多个 Microsoft Teams 会议室设备或 Surface Hub，可以设置协调会议。 协调会议允许您设置 Teams 会议室设备和 Surface Hub，以便当您在一台设备上加入会议时，会议室的其他设备也加入同一会议。 [了解详细信息](../rooms/coordinated-meetings.md)。
 
-### <a name="tagging-by-shift"></a>按 Shift 标记
+### <a name="tagging-by-shift"></a>按 shift 标记
 
-使用此功能，系统会自动为用户分配与 Teams 中的 Shifts 应用中其日程安排和排班组名称匹配的标记。 [了解详细信息](../manage-tags.md)。
+使用此功能，系统会自动为用户分配与 Teams 中的 Shifts 应用中其日程安排和排班组名匹配的标记。 [了解详细信息](../manage-tags.md)。
 
 ## <a name="august-14-2020"></a>2020 年 8 月 14 日
 
 ### <a name="cortana-voice-skills-in-teams"></a>Teams 中的 Cortana 语音技能
 
-Teams 移动应用中的 Cortana 语音技能可帮助用户直接使用自然语音执行会议、通信和协作任务。 用户可以通过单击 Teams 应用中的麦克风按钮来与 Cortana 通话，并发出"呼叫 Megan"或"将消息发送到下一次会议"等请求（如果他们需要与某人联系，同时处理家庭琐事或走狗或一般在路中）。 用户只需说"加入我的下一个会议"来加入会议，或者通过询问"我早上拥有什么"来查看他们的日历。 进入会议或通话后，他们可以从会议台的溢出菜单调用 Cortana 并执行典型的会议内任务，例如按姓名或号码添加人员 ("将 Megan 添加到呼叫") 、幻灯片演示文稿 ("演示季度评论幻灯片") 或导航幻灯片 ("转到附录幻灯片") 。 该功能支持的其他操作包括查找和共享文件、搜索和在 Teams 应用中导航 ("打开与 John 的聊天，转到未读活动，转到我的提及等) 。
+Teams 移动应用中的 Cortana 语音技能可帮助用户直接使用口语的自然语言执行会议、通信和协作任务。 用户可以通过单击 Teams 应用中的麦克风按钮来与 Cortana 通话，并发出"呼叫 Megan"或"将消息发送到下一次会议"等请求（如果他们需要与某人联系，同时处理家庭琐事或步行去狗或通常在路旁）。 用户只需说"加入我的下一次会议"，或者通过询问"我早上拥有什么"来查看他们的日历，就可以加入会议。 进入会议或通话后，他们可以从会议台的溢出菜单中调用 Cortana，并执行典型的会议内任务，例如按姓名或号码添加人员 ("将 Megan 添加到呼叫") ，幻灯片演示文稿 ("演示季度评论幻灯片") 或导航幻灯片 ("转到附录幻灯片") 。 该功能支持的其他操作包括查找和共享文件、搜索和在 Teams 应用中导航 ("打开与 John 的聊天，转到我的未读活动，转到我的提及等) 。
 
-Teams 中的 Cortana 满足 Cortana 企业服务的企业级隐私、安全性和符合性承诺，如 OST (Online Services 条款[) 。 ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [了解详细信息](https://docs.microsoft.com/microsoftteams/cortana-in-teams)。
+Teams 中的 Cortana 满足 Cortana 企业服务的企业级隐私、安全性和合规性承诺，如联机服务条款 ([OST) 。 ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [了解详细信息](https://docs.microsoft.com/microsoftteams/cortana-in-teams)。
 
 ### <a name="teams-devices-administrator"></a>Teams 设备管理员
 
@@ -255,7 +261,7 @@ Teams 中的 Cortana 满足 Cortana 企业服务的企业级隐私、安全性�
 
 ### <a name="lists-app-in-teams"></a>在 Teams 中列出应用
 
-Teams 用户现在可以使用"列表"应用选项卡直接管理、创建和维护其列表。"列表"应用可在所有 Teams 客户端上工作，支持围绕列表项进行协作和通信。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)。
+Teams 用户现在可以使用"列表应用"选项卡直接管理、创建和维护其列表。"列表"应用可在所有 Teams 客户端上工作，支持围绕列表项进行协作和通信。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)。
 
 ## <a name="august-6-2020"></a>2020 年 8 月 6 日
 
@@ -265,9 +271,9 @@ Teams 用户现在可以使用"列表"应用选项卡直接管理、创建和维
 
 ## <a name="august-3-2020"></a>2020 年 8 月 3 日
 
-### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心购买 Teams 第三方应用服务
+### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心购买 Teams 第三方应用的服务
 
-Teams 应用可免费安装，某些应用可能需要购买服务订阅，以体验应用的完整功能和范围。 这些服务订阅称为"软件即服务" (SaaS) 产品/服务，现在可以通过 AppSource 购买，现在可以通过 Microsoft Teams 管理中心购买。 [了解详细信息](../purchase-third-party-apps.md)。
+Teams 应用可免费安装，某些应用可能需要购买服务订阅，以体验应用的完整功能和范围。 这些服务订阅称为软件即服务 (SaaS) 产品/服务，现在可以通过 AppSource 购买，现在可以通过 Microsoft Teams 管理中心购买。 [了解详细信息](../purchase-third-party-apps.md)。
 
 ### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>发布通过 Teams 应用提交 API 提交的自定义应用
 
@@ -277,11 +283,11 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>使用设备标记功能增强可管理性
 
-作为增强的可管理性的一部分，我们将发布设备标记功能。 它可让 IT 管理员使用用户生成的标记对一组特定的设备进行分组，并在同一组设备上执行操作。 [了解详细信息](/../../manage-device-tags.md)。
+作为增强可管理性的一部分，我们将发布设备标记功能。 它可让 IT 管理员使用用户生成的标记对一组特定的设备进行分组，并在同一设备上执行相同的操作。 [了解详细信息](/../../manage-device-tags.md)。
 
 ### <a name="view-only-in-meetings"></a>会议中仅查看
 
-仅查看允许最多 20，000 个仅听参与者加入会议，组织者拥有高级通信附加内容 SKU 的许可证。1 这是预览版或早期发布功能。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)。
+仅查看允许最多 20，000 个仅听参与者加入会议，组织者在此会议中拥有高级通信附加内容 SKU 的许可证。1 这是预览版或早期发布功能。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)。
 
 ## <a name="july-28-2020"></a>2020 年 7 月 28 日
 
@@ -323,13 +329,13 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ### <a name="sensitivity-labels-for-teams"></a>Teams 的敏感度标签
 
-敏感度标签允许 Teams 管理员管理对团队内协作期间创建的敏感组织内容的访问。 [了解详细信息](../sensitivity-labels.md)。
+敏感度标签允许 Teams 管理员管理对在团队内协作期间创建的敏感组织内容的访问。 [了解详细信息](../sensitivity-labels.md)。
 
 ## <a name="july-2-2020"></a>2020 年 7 月 2 日
 
 ### <a name="suggested-replies"></a>建议的答复
 
-我们添加了 Teams 用户对对话提供建议回复的能力。 如果启用了这些建议，这些建议将显示在聊天消息底部。 它们使答复邮件变得快速而轻松！ [了解详细信息](../messaging-policies-in-teams.md#messaging-policy-settings)。
+我们添加了 Teams 用户对对话进行建议回复的能力。 如果启用了这些建议，这些建议将显示在聊天消息底部。 它们使答复邮件变得快速而轻松！ [了解详细信息](../messaging-policies-in-teams.md#messaging-policy-settings)。
 
 ### <a name="transferring-incoming-calls"></a>转移传入呼叫
 
@@ -337,13 +343,13 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ## <a name="june-30-2020"></a>2020 年 6 月 30 日
 
-### <a name="install-apps-on-behalf-of-others"></a>代表其他人安装应用
+### <a name="install-apps-on-behalf-of-others"></a>代表他人安装应用
 
 用户启动 Teams 时，可以选择默认安装哪些应用。 [了解详细信息](../teams-app-setup-policies.md)。
 
 ### <a name="screen-sharing-on-behalf-of-others"></a>代表其他人进行屏幕共享
 
-许多 IT 管理员都投诉，在禁用 AllowPrivateCalling 策略时，无法让员工通过聊天进行屏幕共享。 此功能工作从 AllowPrivateCalling 策略中分离了启动屏幕与聊天的能力，但它仍然阻止用户在禁用 AllowPrivateCalling 策略时将音频/视频添加到屏幕共享会话。
+许多 IT 管理员抱怨在禁用 AllowPrivateCalling 策略时无法让员工通过聊天进行屏幕共享。 此功能工作从 AllowPrivateCalling 策略中分离了启动屏幕与聊天的功能，但它仍然阻止用户在禁用 AllowPrivateCalling 策略时将音频/视频添加到屏幕共享会话。
 
 ## <a name="june-29-2020"></a>2020 年 6 月 29 日
 
@@ -355,7 +361,7 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ### <a name="teams-filter-option"></a>Teams 筛选器选项
 
-我们在命令栏中添加了新的筛选器选项，以便可以在搜索特定团队时设置特定参数。
+我们在命令栏中添加了一个新的筛选器选项，以便可以在搜索特定团队时设置特定参数。
 
 ### <a name="users-widgets"></a>用户小组件
 
@@ -371,13 +377,13 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ### <a name="monitor-shifts-with-audit-logs"></a>使用审核日志监视班次
 
-可以搜索审核日志查看组织中班次活动。 [了解详细信息](https://docs.microsoft.com/microsoftteams/audit-log-events)。
+你可以搜索审核日志以查看贵组织的班次活动。 [了解详细信息](https://docs.microsoft.com/microsoftteams/audit-log-events)。
 
 ## <a name="june-11-2020"></a>2020 年 6 月 11 日
 
 ### <a name="call-queues---presence-based-routing"></a>呼叫队列 - 基于状态路由
 
-关闭后，呼叫将路由到已选择接听呼叫的代理，而不管其状态如何。 启用后，选择加入的代理将仅在其状态为"可用"时接收呼叫。 [了解详细信息](../create-a-phone-system-call-queue.md)。
+关闭后，呼叫将路由到已选择接听呼叫的代理，不管其状态如何。 启用后，选择加入的代理将仅在其状态为"可用"时接收呼叫。 [了解详细信息](../create-a-phone-system-call-queue.md)。
 
 ## <a name="june-10-2020"></a>2020 年 6 月 10 日
 
@@ -401,47 +407,47 @@ Teams 应用可免费安装，某些应用可能需要购买服务订阅，以�
 
 ### <a name="easily-access-meeting-options-from-within-a-teams-meeting-in-progress"></a>从进行中的 Teams 会议内轻松访问会议选项
 
-通过直接在参与者窗格中提供易于访问的链接，我们让会议组织者在 Teams 会议启动后更加轻松地快速轻松地更改其演示者和大厅设置。 这一新功能将同时用于计划会议和"现在开会"会议。
+通过直接在参与者窗格中提供易于访问的链接，我们让会议组织者在 Teams 会议开始后更加轻松地快速轻松地更改其演示者和大厅设置。 这一新功能将同时用于计划会议和"现在开会"会议。
 
 ### <a name="download-a-participant-report-in-a-teams-meeting"></a>在 Teams 会议中下载参与者报告
 
-会议组织者（尤其是教师）通常需要知道谁加入了 Teams 会议。 很快，你将能够下载参与者报告，该报告在名单视图中找到，其中包括参与者的加入和离开时间。 在名单视图中可用，会议组织者可以下载报告，其中包括在组织者出席时加入的用户。 此功能仅在会议处于活动状态时在会议内可用。 可在桌面 (Windows 和 Mac) 和 Web 上可用。 [了解详细信息](../teams-analytics-and-reports/meeting-attendance-report.md)。
+会议组织者（尤其是教师）通常需要知道谁加入了其 Teams 会议。 很快，你将能够下载一个参与者报告，该报告在名单视图中找到，其中包含参与者的加入和离开时间。 在花名册视图中可用，会议组织者可以下载报告，其中包括在组织者出席时加入的用户。 此功能仅在会议处于活动状态时在会议内可用。 在 Windows (Mac) Web 桌面版上可用。 [了解详细信息](../teams-analytics-and-reports/meeting-attendance-report.md)。
 
 ## <a name="april-26-2020"></a>2020 年 4 月 26 日
 
 ### <a name="include-system-audio-in-live-events"></a>在实时事件中包括系统音频
 
-实时事件的演示者和制作者现在可以在实时事件期间共享桌面或窗口屏幕时包括系统音频。 这将允许用户听到你正在共享的内容的任何音频部分。
+实时事件的演示者和制作者现在可以在实时事件期间共享桌面或窗口屏幕时包含系统音频。 这将允许用户听到你正在共享的内容的任何音频部分。
 
 ## <a name="april-24-2020"></a>2020 年 4 月 24 日
 
 ### <a name="team-and-channel-analytics"></a>团队和频道分析
 
-除了团队分析，现在还可以查看频道级别的指标和见解。 我们还将时间段增强为 90 天，以便可以分析更长时间的数据。 除此之外，此版本还包含有关团队或频道的帖子、回复和会议计数的新指标和图表。 [了解详细信息](../teams-analytics-and-reports/view-analytics.md)。
+除了团队分析，现在还可以查看频道级指标和见解。 我们还将时间段增强为 90 天，以便可以分析更长时间的数据。 除此之外，此版本还包含有关团队或频道的帖子、回复和会议计数的新指标和图表。 [了解详细信息](../teams-analytics-and-reports/view-analytics.md)。
 
 ## <a name="april-20-2020"></a>2020 年 4 月 20 日
 
 ### <a name="enable-organizers-to-change-lobby-settings-for-dial-in-participants"></a>允许组织者更改拨入参与者的大厅设置
 
-此设置控制通过电话拨入的人是直接加入会议还是在大厅中等待，而不考虑 **"自动允许人员"** 设置。
+此设置控制通过电话拨入的人是直接加入会议还是等待在大厅中，而不考虑" **自动允许人员"** 设置。
 
 ## <a name="april-8-2020"></a>2020 年 4 月 8 日
 
 ### <a name="customize-meeting-video-backgrounds"></a>自定义会议视频背景
 
-使用视频开会时，现在可以选择不同的静态背景图像。 这样，你可显示此图像，而不是你正坐在其中的实际背景。 [了解详细信息](../meeting-policies-in-teams.md)。
+使用视频开会时，现在可以选择不同的静态背景图像。 这将让你显示此图像，而不是你坐在位置的实际背景。 [了解详细信息](../meeting-policies-in-teams.md)。
 
 ## <a name="april-1-2020"></a>2020 年 4 月 1 日
 
 ### <a name="teams-for-realwear"></a>Teams for Real一
 
-Microsoft Teams Client for Real对于使用 Real一线员工，使用 Real在头戴式可维护的可操作设备进行零手操作，并借助 Teams 视频通话寻求专家的远程协助。 [了解详细信息](../flw-realwear.md)。
+Microsoft Teams Client for Real在 Real一线员工中，能够使用 Real一线员工使用摇头式可装载的可操作设备，以 100% 的免提方式操作 Teams，并借助 Teams 视频通话寻求专家的远程协助。 [了解详细信息](../flw-realwear.md)。
 
 ## <a name="march-31-2020"></a>2020 年 3 月 31 日
 
-### <a name="tag-youre-it"></a>标记，就大了
+### <a name="tag-youre-it"></a>标记，你已
 
-创建标记并为其分配人员，以便@mention组、角色、部门等。团队所有者，请自己尝试一下。 转到团队，选择"更多 **选项管理**  >  **标记"。** [了解详细信息](../manage-tags.md)。
+创建标记并为其分配人员，以便@mention组、角色、部门等。团队所有者，请自己尝试一下。 转到团队，选择"更多 **选项""**  >  **管理标记"。** [了解详细信息](../manage-tags.md)。
 
 ## <a name="march-30-2020"></a>2020 年 3 月 30 日
 
@@ -453,4 +459,4 @@ Microsoft Teams Client for Real对于使用 Real一线员工，使用 Real在头
 
 ### <a name="manage-your-collaboration-bar-devices-in-microsoft-teams"></a>在 Microsoft Teams 中管理协作栏设备
 
-作为管理员，您希望从 Microsoft Teams 管理中心管理所有协作栏设备。 可以查看设备清单，对设备执行特定操作，并远程向所有设备提供命令。
+作为管理员，你想要从 Microsoft Teams 管理中心管理所有协作栏设备。 可以查看设备清单，在设备上执行特定操作，并远程向所有设备提供命令。

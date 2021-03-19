@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661897"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874892"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -64,8 +64,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 <sup>6</sup> 仅默认联系人文件夹中的联系人。 不支持访问其他联系人文件夹或子文件夹。
 
-<sup>7</sup> Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果策略中已关闭“**-SetPhotoEnabled**”设置，则用户不能添加、更改或删除个人资料图片。 例如，如果某用户上传了由组织的 IT 或 HR 部门批准的个人资料图片，则无需执行任何操作。 但是，如果用户上传了不适宜图片，请按照组织的内部策略对其进行更改。
-
+<sup>7</sup> Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果在策略中关闭 **-SetPhotoEnabled** 设置，则用户无法添加、更改或删除其个人资料图片，因此，如果管理员更改了照片，则 porfile 图片不会同步到团队。
 <sup>8</sup> 需要满足[为本地托管的邮箱创建和查看会议的要求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)部分中列出的要求。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的要求
