@@ -26,12 +26,12 @@ description: 了解 Microsoft Teams 括号、EHR 集成、第一线工作者系�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 1bf890c7ffb6fa13730870cb1f4eabecb5df7c85
-ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
-ms.translationtype: HT
+ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50558381"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867031"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -128,7 +128,7 @@ Microsoft Teams 提供 Microsoft Teams 中包含的协作功能，使医师、�
 
 Teams 中的列表应用可帮助团队跟踪信息和组织工作。 该应用已可供所有 Teams 用户预安装，并可在每个团队和频道中用作选项卡。 可以从头开始、从预定义模板或将数据导入 Excel 创建列表。
 
-健康团队可以使用"患者"模板开始使用。 他们可创建列表以跟踪患者的需求和状态。 可以参与 Excel 电子表格上的现有患者数据，在 Teams 中创建一个列表。 这些列表可用于圆形和患者监视等方案协调护理。
+健康团队可以使用"患者"模板开始。 他们可创建列表以跟踪患者的需求和状态。 可以参与 Excel 电子表格上的现有患者数据，在 Teams 中创建一个列表。 这些列表可用于圆形和患者监视等方案协调护理。
 
 例如，收费中心在包含所有健康团队成员的团队中创建患者列表。 在消息组期间，健康团队会通过各自的移动设备访问团队并更新列表中的患者信息，团队中的每个人都可以查看这些信息保持同步。在健康团队集合在一起讨论和评估关键健康性能指标的会话，以确保患者处于进行患者护理的合适路线上，他们可以使用大屏幕的 Teams 来共享此信息。 不在网站的运行状况团队成员可以远程加入。
 
