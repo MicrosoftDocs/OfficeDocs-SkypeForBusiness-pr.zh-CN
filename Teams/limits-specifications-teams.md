@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbab559da8062fa30fb1b42e632baabe2c50fc63
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: b029a5cb53965ad59bab1342f90fb8e505da82e1
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460442"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50866911"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -225,7 +225,7 @@ Microsoft Teams 教育版提供了专为独特教育场景设计的模板，如�
 |每个团队的标记数    | 100        |
 |每个团队建议的默认标记数    | 25        |
 |分配有标记的团队成员数    |100         |
-|分配给用户的标记数    |25         |
+|分配给每个团队每个用户的标记数    |25         |
 
 ## <a name="contacts"></a>联系人
 

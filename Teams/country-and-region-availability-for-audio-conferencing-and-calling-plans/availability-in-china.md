@@ -24,10 +24,10 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于中国的 Skype for Business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+description: 本文列出了在中国使用 Skype for Business 和 Microsoft Teams 时可以使用的 Microsoft 365 和 Office 365 服务。
 ms.openlocfilehash: 8db46e038ff817844f738fbaea630089970908e7
 ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/15/2020
 ms.locfileid: "47766886"
@@ -36,15 +36,15 @@ ms.locfileid: "47766886"
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于中国的 Skype for Business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+本文列出了在中国使用 Skype for Business 和 Microsoft Teams 时可以使用的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**Details**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |是，供中国以外的用户使用。 有关其他信息，请联系您的帐户团队。  <br/> |
+|是否可购买音频会议？  <br/> |是，位于中国以外国家/地区用户可以使用。 有关详细信息，请与你的帐户团队联系。  <br/> |
 |是否自动分配音频会议的电话号码？  <br/> | 非地区号码。 电话号码没有关联到特定城市或位置。 <br/>  如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> | 是，但从中国购买服务的客户除外。 对从中国购买服务的客户禁用拨出功能。   <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> | 是，但在中国购买服务的客户除外。 对于从中国购买服务的客户，已禁用拨出功能。   <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -71,7 +71,7 @@ ms.locfileid: "47766886"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |北京  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
-|是否提供免费电话号码？  <br/> |是 ([请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) ，除了从中国购买服务的客户除外。 购买中国服务的客户不能使用免费电话号码。 <br/> |
+|是否提供免费电话号码？  <br/> |是（[按要求提供](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)），但在中国购买服务的客户除外。 在中国购买服务的客户不可使用免费电话号码。 <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   

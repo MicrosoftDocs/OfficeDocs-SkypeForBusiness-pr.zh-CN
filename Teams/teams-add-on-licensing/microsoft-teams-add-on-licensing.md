@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解 Microsoft Teams 的附加许可证以及每个许可证所获取的功能。
-ms.openlocfilehash: 0c8b37ab30837e6e1fba6c61eeb1a3044f3409f9
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: ef0fd186fc3f7836e45fccacbfcdba6cb31ba60e
+ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861426"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50937859"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 附加许可证
 
@@ -74,7 +74,50 @@ ms.locfileid: "50861426"
 
 下面是基于许可计划的摘要。
 
-  ![小型企业计划选项](../media/licensing-smallbusiness-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>小型企业版 (&lt; 300 人) </strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本计划</strong></td>
+<td colspan="3"><strong>语音呼叫和会议选项</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 商业基础版<br />
+Microsoft 365 商业标准版 Microsoft 365 商业高级版</td>
+<td>Microsoft 365 商务语音<br>国际通话套餐 <br /> (通信) 可选 </td><td>或</td>
+<td>无需呼叫计划的 Microsoft 365 商业语音<br />
+音频会议通信积分 </td><td>或</td>
+<td>音频会议通信积分</td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 企业版 E1/E3<br>Office 365 企业版 E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Office 365 F1</td>
+<td>Microsoft 365 商务语音<br>国际通话套餐 <br /> (通信) 可选 </td><td>或</td>
+<td>无需呼叫计划的 Microsoft 365 商业语音</td><td>或</td>
+<td>音频会议<br> 电话系统<br>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 企业版 E5<br>Office 365 企业版 E5</td>
+<td>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 如果您的国家/地区不支持音频会议，您可以选择获取没有音频会议计划的 Microsoft 365 企业版 E5 或不带音频会议计划的 Office 365 企业版 E5。
 
@@ -92,7 +135,31 @@ ms.locfileid: "50861426"
 
 下面是基于许可计划的摘要。
 
-  ![基于企业的计划选项](../media/licensing-enterprise-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>企业 (>300 人) </strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本计划</strong></td>
+<td colspan="2"><strong>语音呼叫和会议选项</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 企业版 E1/E3<br>Office 365 企业版 E1/E3<br>Microsoft 365 F3<br>Office 365 F3</td><td>音频会议<br>电话系统<br>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 企业版 E5<br>Office 365 企业版 E5</td>
+<td>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 如果您的国家/地区不支持音频会议，您可以选择获取没有音频会议计划的 Microsoft 365 企业版 E5 或不带音频会议计划的 Office 365 企业版 E5。
 
@@ -111,7 +178,38 @@ ms.locfileid: "50861426"
 
 下面是基于许可计划的摘要。
 
-  ![EDU 计划选项](../media/licensing-education-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>教育</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本计划</strong></td>
+<td colspan="3"><strong>语音呼叫和会议选项</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 企业版 A1 或 A3<br>Office 365 教育版 A1 或 A3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 商业语音 <sup>1</sup><br>国际呼叫计划 (可选) <br>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td><td>或</td><td>Microsoft 365 商业语音，无需呼叫计划<sup>1</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 教育版 A1 或 A3<br>Office 365 教育版 A1 或 A3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 商业语音 <sup>1</sup><br>国际呼叫计划 (可选) <br>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td><td>或</td><td>Microsoft 365 商业语音，无需呼叫计划<sup>1</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 教育版 A5<br>Office 365 教育版 A5</td>
+<td>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
   <sup>1</sup> 仅适用于用户数少于 300 的组织。
 
@@ -130,7 +228,38 @@ ms.locfileid: "50861426"
 
 下面是基于许可计划的摘要。
 
-  ![基于 Gov 的选项](../media/licensing-government-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>政府</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本计划</strong></td>
+<td colspan="3"><strong>语音呼叫和会议选项</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 GOV G1 或 G3<br>Office 365 GOV G1 或 G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 商业语音 <sup>1</sup><br>国际呼叫计划 (可选) <br>通信积分</td><td>或</td><td>Microsoft 365 商业语音，无需呼叫计划<sup>1</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 GOV G1 或 G3<br>Office 365 GOV G1 或 G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 商业语音 <sup>1</sup><br>国际呼叫计划 (可选) <br>通信积分</td><td>或</td>
+<td>音频会议<br>电话系统<br>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 GOV G5<br>Office 365 GOV G5</td>
+<td>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
   <sup>1</sup> 仅适用于用户数少于 300 的组织。
 
@@ -150,7 +279,44 @@ ms.locfileid: "50861426"
 
 下面是基于许可计划的摘要。
 
-  ![基于非营利组织的选项](../media/licensing-nonprofit-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>非营利组织</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本计划</strong></td>
+<td colspan="3"><strong>语音呼叫和会议选项</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 非营利组织商业基本版<br>Microsoft 365 非营利组织商业标准版</td><td>Microsoft 365 商业语音 <sup>1</sup><br>国际呼叫计划 (可选) <br>通信积分</td><td>或</td><td>Microsoft 365 商业语音，无需呼叫计划<sup>1</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 非营利组织版 E1 或 E3<br>Office 365 非营利组织版 E1 或 E3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 商业语音 <sup>1</sup><br>国际呼叫计划 (可选) <br>通信积分</td><td>或</td><td>Microsoft 365 商业语音，无需呼叫计划<sup>1</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 非营利组织版 E1 或 E3<br>Office 365 非营利组织版 E1 或 E3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>音频会议<br>电话系统<br>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 非营利组织版 E5<br>Office 365 非营利组织版 E5</td>
+<td>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
   <sup>1</sup> 仅适用于用户数少于 300 的组织。
 
@@ -175,7 +341,48 @@ ms.locfileid: "50861426"
 
 下面是语音功能试用产品/服务摘要。
 
-  ![基于试用版的选项](../media/licensing-trial-offers.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>试用产品/服务</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>语音呼叫和会议选项</strong></td>
+<td><strong>说明</strong></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 商业语音试用版</td><td>显示国内语音呼叫、音频会议和高级语音功能（如自动助理和呼叫队列）的功能。</td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 商业语音试用版<br>Microsoft 365 国内和国际呼叫计划试用版</td>
+<td>展示国内和国际语音呼叫、音频会议和高级语音功能（如自动助理和队列）的功能。</td>
+</tr>
+<tr>
+<td>Microsoft 365 国内呼叫计划试用版</td>
+<td>显示国内语音呼叫的功能。</td>
+</tr>
+<tr>
+<td>Microsoft 365 国内和国际呼叫计划试用版</td>
+<td>显示国内和国际呼叫的功能。</td>
+</tr>
+<tr>
+<td>Microsoft 365 音频会议试用版</td>
+<td>显示音频会议的功能。</td>
+</tr>
+<tr>
+<td>Microsoft 365 手机系统 - 虚拟用户</td>
+<td>显示高级语音功能，如自动助理和呼叫队列。</td>
+</tr>
+<tr>
+<td>常用区域电话试用</td>
+<td>显示常用区域电话的功能。</td>
+</tr>
+</tbody>
+</table>
 
  基本计划不一定就是试用产品/服务，可以针对语音功能使用这些试用版。 您可以将 Microsoft 365 商业版计划或企业版、政府版、教育版或非营利组织版计划与语音功能的任何试用产品/服务一同使用。 若要查看可用的试用优惠和附加内容，请在 Microsoft 365 管理中心转到"帐单购买服务"，选择"其他可能感兴趣的类别"，然后选择"  >  **附加内容"。** 
 

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理会议策略设置。 使用策略设置来控制可供会议参与者用于用户安排的会议的功能。
-ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 25ff47e7dee4a41be3cbdd8063654fc60c27af79
+ms.sourcegitcommit: 546f3e72880a0814a87787f997e81d9fb859c774
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875162"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929548"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理 Teams 中的会议策略
 
@@ -193,7 +193,7 @@ ms.locfileid: "50875162"
 
 ![会议策略中的听录选项](media/live-transcription.png)
 
-实时听录在 Teams 会议期间以近乎实时的时间显示语音到文本的语音内容。 文本与会议视频一起显示，包括发言人的姓名和时间戳。 有关详细信息，请参阅在 [Teams 会议中查看实时听录](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)。
+实时听录在 Teams 会议期间以近乎实时的时间显示语音到文本的语音内容。 文本与会议视频一起显示，包括发言人的姓名和时间戳。 有关详细信息，请参阅在 [Teams 会议中查看实时听录](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b?storagetype=live)。
 
 目前，Teams 桌面客户端支持实时听录。 美国英语口语支持听录。 会议结束后，可在 Teams 桌面版或 Web 版上查看脚本。
 
@@ -250,7 +250,7 @@ IP 视频模式是按用户的策略。 此设置控制是否可以在会议和�
 |设置值 |行为  |
 |---------|---------|
 |**已启用传出和传入视频**    | 会议允许传出和传入视频是默认设置。 |
-|**已禁用**     | 传出和传入视频在会议中已关闭。 在 Teams 移动客户端上，用户无法共享会议中的视频或照片。 <br><br>请注意，如果 **禁用"IP** 音频模式"，则 **"IP** 视频模式"也将保持禁用状态。  |
+|**已禁用**     | 传出和传入视频在会议中已关闭。 在 Teams 移动客户端上，用户无法共享会议中的视频或照片。 <br><br>如果 **禁用"IP** 音频模式"，则 **"IP 视频** 模式"也将保持禁用状态。  |
 
 如果用户设置为 **"** 已禁用"，该用户无法打开视频或查看其他会议参与者共享的视频。 未为会议参与者分配任何策略，例如， (参与者默认已启用) "传出和 **传入视频** "。
 
@@ -459,7 +459,7 @@ Daniela 可以在 Amanda 的会议中做笔记，而 Amanda 不能在任何会�
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>让匿名人员启动会议
 
-这是一个按组织者的策略，允许召开无领导会议。 此设置控制无活动用户是否可以在组织未经过身份验证的用户出席的情况下加入会议。 默认情况下，此设置已关闭，这意味着匿名用户将在大厅中等待，直到组织中经过身份验证的用户加入会议。
+这是一个按组织者的策略，允许召开无领导会议。 此设置控制匿名用户是否可以加入会议，而无需组织中经过身份验证的用户参加会议。 默认情况下，此设置已关闭，这意味着匿名用户将在大厅中等待，直到组织中经过身份验证的用户加入会议。
 
 > [!NOTE]
 > 如果此设置已关闭，并且匿名用户先加入会议并放置在大厅中，则组织用户必须通过 Teams 客户端加入会议，以允许该用户从大厅进入。 拨入用户没有可用的大厅控件。
