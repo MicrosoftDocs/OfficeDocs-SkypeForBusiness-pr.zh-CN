@@ -541,130 +541,56 @@ items:
         href: cortana-in-teams.md
       - name: 设置团队目标层次结构
         href: set-up-your-team-hierarchy.md
-  - name: 会话和电话会议
+  - name: 会议、大会和实时活动
     items:
       - name: 快速入门 - 会议和实时事件
         href: quick-start-meetings-live-events.md
       - name: 规划部署
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: Microsoft Teams 会议室
+      - name: 会议
         items:
-          - name: 概述
-            href: rooms/index.md
-          - name: Microsoft Teams 会议室托管服务
-            items:
-              - name: 计划管理
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: 基于角色的访问控制
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-          - name: 计划
-            items:
-              - name: Microsoft Teams 会议室规划概述
-                href: rooms/rooms-plan.md
-              - name: 版本支持
-                href: rooms/rooms-lifecycle-support.md
-              - name: 发行说明
-                href: rooms/rooms-release-note.md
-              - name: 准备环境
-                href: rooms/rooms-prep.md
-              - name: 要求
-                href: rooms/requirements.md
-              - name: 安全性
-                href: rooms/security.md
-              - name: 联机许可
-                href: rooms/rooms-licensing.md
-              - name: 使用者 Azure Monitor 进行管理规划
-                href: rooms/azure-monitor-plan.md
-          - name: 部署
-            items:
-              - name: 部署概述
-                href: rooms/rooms-deploy.md
-              - name: 配置帐户
-                href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 设置协调会议
-                    href: rooms/coordinated-meetings.md
-                  - name: 管理 Microsoft Teams 设置
-                    href: rooms/surface-hub-manage-config.md
-              - name: 使用 Office 365
-                href: rooms/with-office-365.md
-              - name: 使用 Skype for Business Server
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: 使用 Exchange Online（混合）
-                href: rooms/with-exchange-online.md
-              - name: 使用 Exchange 内部部署（混合）
-                href: rooms/with-exchange-on-premises.md
-              - name: 配置控制台
-                href: rooms/console.md
-              - name: 手动更新设备
-                href: rooms/manual-update.md
-              - name: 配置身份验证
-                href: rooms/rooms-authentication.md
-              - name: 加入第三方会议
-                href: rooms/third-party-join.md
-              - name: 通过使用 Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
-              - name: 利用 Azure Monitor 进行管理
-                href: rooms/azure-monitor-deploy.md
-              - name: 迁移 SRS v1 或 LRS
-                href: rooms/lrs-migration.md
-              - name: 内容照相机
-                href: rooms/content-camera.md
-          - name: 管理
-            items:
-              - name: 管理概述
-                href: rooms/rooms-manage.md
-              - name: 维护和操作
-                href: rooms/rooms-operations.md
-              - name: '在组织中支持 Teams '
-                href: rooms/known-issues.md
-              - name: 具有 Azure Monitor 的设备
-                href: rooms/azure-monitor-manage.md
-              - name: 具有 XML 文件的设置
-                href: rooms/xml-config-file.md
-              - name: 使用恢复工具
-                href: rooms/recovery-tool.md
-      - name: 管理会议策略
-        href: meeting-policies-in-teams.md
-      - name: 从用户中删除 RestrictedAnonymousAccess 会议策略
-        href: meeting-policies-restricted-anonymous-access.md
-      - name: 管理会议设置
-        href: meeting-settings-in-teams.md
-      - name: 用户设置更改时向其发送的电子邮件
-        href: emails-sent-to-users-when-their-settings-change-in-teams.md
-      - name: 使用户能够在加入会议时录制其姓名
-        href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-      - name: 打开或关闭会议的进入和退出通知
-        href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-      - name: 在 Teams 中使用 NDI® 技术
-        href: use-NDI-in-meetings.md
-      - name: Teams 会议中的举手选项
-        href: raise-hand-meetings.md
-      - name: 在不受支持的浏览器上举行 Teams 会议
-        href: unsupported-browsers.md
-      - name: 在 Teams 中配置桌面共享
-        href: configure-desktop-sharing.md
-      - name: Teams 云会议录制
-        href: cloud-recording.md
-      - name: 使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议录制
-        href: tmr-meeting-recording-change.md
-      - name: 联系人中心集成
-        href: teams-contact-center.md
-      - name: 在 Outlook 中使用 Teams 会议外接程序
-        href: teams-add-in-for-outlook.md
-      - name: 将 Skype 会议应用配置为与 Teams 配合使用
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: 为用户设置“致电我”功能
-        href: set-up-the-call-me-feature-for-your-users.md
-      - name: 获取会议出席情况报告
-        href: teams-analytics-and-reports/meeting-attendance-report.md
-      - name: 设置会议迁移服务 (MMS)
-        href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: 在 Teams 中管理白板
-        href: manage-whiteboard.md
-      - name: 为 Google Workspace 设置 Teams 会议加载项
-        href: google-workspace-addon-teams.md
+          - name: 管理会议策略
+            href: meeting-policies-in-teams.md
+          - name: 从用户中删除 RestrictedAnonymousAccess 会议策略
+            href: meeting-policies-restricted-anonymous-access.md
+          - name: 管理会议设置
+            href: meeting-settings-in-teams.md
+          - name: 用户设置更改时向其发送的电子邮件
+            href: emails-sent-to-users-when-their-settings-change-in-teams.md
+          - name: 使用户能够在加入会议时录制其姓名
+            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+          - name: 打开或关闭会议的进入和退出通知
+            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+          - name: 在 Teams 中使用 NDI® 技术
+            href: use-NDI-in-meetings.md
+          - name: Teams 会议中的举手选项
+            href: raise-hand-meetings.md
+          - name: 在不受支持的浏览器上举行 Teams 会议
+            href: unsupported-browsers.md
+          - name: 在 Teams 中配置桌面共享
+            href: configure-desktop-sharing.md
+          - name: Teams 云会议录制
+            href: cloud-recording.md
+          - name: 使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议录制
+            href: tmr-meeting-recording-change.md
+          - name: 联系人中心集成
+            href: teams-contact-center.md
+          - name: 在 Outlook 中使用 Teams 会议外接程序
+            href: teams-add-in-for-outlook.md
+          - name: 将 Skype 会议应用配置为与 Teams 配合使用
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: 为用户设置“致电我”功能
+            href: set-up-the-call-me-feature-for-your-users.md
+          - name: 获取会议出席情况报告
+            href: teams-analytics-and-reports/meeting-attendance-report.md
+          - name: 设置会议迁移服务 (MMS)
+            href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: 在 Teams 中管理白板
+            href: manage-whiteboard.md
+          - name: 为 Google Workspace 设置 Teams 会议加载项
+            href: google-workspace-addon-teams.md
+          - name: 云视频互操作
+            href: cloud-video-interop.md
       - name: 音频会议
         items:
           - name: 规划部署
@@ -755,8 +681,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: 视频 - Teams 音频会议
                 href: audio-conferencing-videos.md
-      - name: 云视频互操作
-        href: cloud-video-interop.md
       - name: 实时事件
         items:
           - name: 什么是 Teams 实时事件？
@@ -771,6 +695,84 @@ items:
             href: teams-live-events/configure-teams-live-events.md
           - name: 实时事件录制策略
             href: teams-live-events/live-events-recording-policies.md
+      - name: Microsoft Teams 会议室
+        items:
+          - name: 概述
+            href: rooms/index.md
+          - name: Microsoft Teams 会议室托管服务
+            items:
+              - name: 计划管理
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: 基于角色的访问控制
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: 计划
+            items:
+              - name: Microsoft Teams 会议室规划概述
+                href: rooms/rooms-plan.md
+              - name: 版本支持
+                href: rooms/rooms-lifecycle-support.md
+              - name: 发行说明
+                href: rooms/rooms-release-note.md
+              - name: 准备环境
+                href: rooms/rooms-prep.md
+              - name: 要求
+                href: rooms/requirements.md
+              - name: 安全性
+                href: rooms/security.md
+              - name: 联机许可
+                href: rooms/rooms-licensing.md
+              - name: 使用者 Azure Monitor 进行管理规划
+                href: rooms/azure-monitor-plan.md
+          - name: 部署
+            items:
+              - name: 部署概述
+                href: rooms/rooms-deploy.md
+              - name: 配置帐户
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: 设置协调会议
+                    href: rooms/coordinated-meetings.md
+                  - name: 管理 Microsoft Teams 设置
+                    href: rooms/surface-hub-manage-config.md
+              - name: 使用 Office 365
+                href: rooms/with-office-365.md
+              - name: 使用 Skype for Business Server
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: 使用 Exchange Online（混合）
+                href: rooms/with-exchange-online.md
+              - name: 使用 Exchange 内部部署（混合）
+                href: rooms/with-exchange-on-premises.md
+              - name: 配置控制台
+                href: rooms/console.md
+              - name: 手动更新设备
+                href: rooms/manual-update.md
+              - name: 配置身份验证
+                href: rooms/rooms-authentication.md
+              - name: 加入第三方会议
+                href: rooms/third-party-join.md
+              - name: 通过使用 Microsoft Endpoint Configuration Manager
+                href: rooms/rooms-scale.md
+              - name: 利用 Azure Monitor 进行管理
+                href: rooms/azure-monitor-deploy.md
+              - name: 迁移 SRS v1 或 LRS
+                href: rooms/lrs-migration.md
+              - name: 内容照相机
+                href: rooms/content-camera.md
+          - name: 管理
+            items:
+              - name: 管理概述
+                href: rooms/rooms-manage.md
+              - name: 维护和操作
+                href: rooms/rooms-operations.md
+              - name: '在组织中支持 Teams '
+                href: rooms/known-issues.md
+              - name: 具有 Azure Monitor 的设备
+                href: rooms/azure-monitor-manage.md
+              - name: 具有 XML 文件的设置
+                href: rooms/xml-config-file.md
+              - name: 使用恢复工具
+                href: rooms/recovery-tool.md
   - name: 语音 - 电话系统和 PSTN 连接
     items:
       - name: 规划 Teams 语音解决方案
@@ -1440,14 +1442,6 @@ items:
     items:
       - name: Teams 限制和规范
         href: limits-specifications-teams.md
-      - name: 从 Kaizala 移动到 Microsoft Teams
-        items:
-          - name: 入门
-            items:
-              - name: 规划移动
-              - name: 让组织针对 Teams 做好准备
-              - name: 实施移动
-                href: implement-your-move.md
       - name: 授权
         items:
           - name: 管理对 Teams 的用户访问
