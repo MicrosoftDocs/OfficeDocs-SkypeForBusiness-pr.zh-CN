@@ -3,7 +3,6 @@ title: 在 Microsoft Teams 中规划实时事件
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +20,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc05b94fd5f375133c0682d72757eec5f90ef43e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 26192da2b9d11a94f9d37adb7e1a170cb81d3170
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569234"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884576"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -45,7 +44,7 @@ ms.locfileid: "50569234"
 
 - **组织：** Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，**[或]** Microsoft 或 Office 365 教育版 A3 或 A5 许可证。 
 - **制作或呈现：** Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，**[或]** Microsoft 或 Office 365 教育版 A1、A3 或 A5 许可证。 此要求的例外情况是：如果满足针对[来宾用户](plan-for-teams-live-events.md#guest-to-present)的其他条件，来宾用户无需许可证即可进行呈现。
-- Microsoft Teams 许可证 - 包含在第一个和第二个项目符号中列出的许可证中。
+- Microsoft Teams 许可证 - 此许可证包含在第一个和第二个项目符合所列的许可证中。
 - 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](https://docs.microsoft.com/stream/license-overview)。
 
   如果你希望用户仅进行录制和下载录制的内容，那么这些用户无需拥有 Microsoft Stream 许可证。这意味着录制的内容不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务 (AMS) 中，且存储 180 天后被删除。目前，管理员无法控制或管理此设置来包含删除这些内容的功能。
@@ -80,13 +79,13 @@ ms.locfileid: "50569234"
 
 ### <a name="guest-to-present"></a>[出席来宾](#guest-to-present)
 
-若要让来宾出席直播活动，请执行下列操作：
+若要让来宾出席直播活动，请执行下列 Tasks:
 
 1. [将该用户作为来宾添加到团队](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
 2. 让该用户接受来宾邀请并加入团队。
 3. [安排直播活动并将来宾添加到活动组](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-作为最佳做法，我们建议你为直播活动的制作者和演示者创建一个频道，以便他们可以在活动前聊天和共享信息。没有 Microsoft 365 凭据的来宾将无法在 Teams 中看到日历。为便于用户加入活动，制作者可将活动链接发布到相应频道。演示者随后可以打开 Teams，转到该频道，然后单击链接以加入该活动。
+作为最佳做法，我们建议你为直播活动的制作者和演示者创建一个频道，以便他们可以在活动前聊天和共享信息。 没有 Microsoft 365 凭据的来宾将无法在 Teams 中看到日历。 为便于用户加入活动，制作者可将活动链接发布到相应频道。 演示者可以打开 Teams，转到该频道，然后选择链接以加入该活动。
 
 ## <a name="who-can-watch-live-events"></a>谁可以观看实时事件
 
@@ -165,9 +164,10 @@ ms.locfileid: "50569234"
 **以下国家/地区（支持）的数据位置**
 
 - 澳大利亚
+- 巴西
 - 加拿大
-- 德国
 - 法国
+- 德国
 - 印度
 - 日本
 - 南非
@@ -178,14 +178,13 @@ ms.locfileid: "50569234"
 
 **不支持这些国家/地区和云**
 
-- 巴西
 - 挪威
 - 政府社区云 (GCC)-H
-- DOD
+- 国防部 (DOD)
 
-**例外和注意事项**
+**排除和注意事项**
 
-- **数据位置：** 暂不支持除以上所列国家/地区之外的其他任何 Teams 数据位置。
+- **数据位置:** 暂不支持上述数据地点以外的团队数据地点。
 - **中国：**  事件团队成员和参与者将无法使用 Teams 事件，因为 Azure CDN 在中国不可访问。解决方法是使用公司 VPN 连接，后者通过客户的公司网络获取连接到 CDN 的客户端。
 
 ## <a name="next-steps"></a>后续步骤
@@ -194,6 +193,6 @@ ms.locfileid: "50569234"
 
 ### <a name="related-topics"></a>相关主题
 
-- [什么是 Teams 实时事件？](what-are-teams-live-events.md)
+- [什么是 Teams 实时活动?](what-are-teams-live-events.md)
 - [设置 Teams 实时事件](set-up-for-teams-live-events.md)
 - [配置 Teams 实时事件设置](configure-teams-live-events.md)
