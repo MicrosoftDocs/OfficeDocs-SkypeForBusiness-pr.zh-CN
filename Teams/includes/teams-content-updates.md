@@ -3,13 +3,81 @@
 
 
 
+## <a name="week-of-march-15-2021"></a>2021 年 3 月 15 日周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 3/15/2021 | [Microsoft Teams 设备监视和警报](/MicrosoftTeams/alerts/device-health-status) | 添加内容 |
+| 3/15/2021 | [Microsoft Teams 监视和警报](/MicrosoftTeams/alerts/teams-admin-alerts) | 添加内容 |
+| 3/15/2021 | [实现移动到 Microsoft Teams](/MicrosoftTeams/implement-your-move) | 添加内容 |
+| 3/15/2021 | [Teams 和 Outlook 电子邮件集成](/MicrosoftTeams/teams-outlook-email-integration) | 修改内容 |
+| 3/15/2021 | [共享到 Teams](/MicrosoftTeams/teams-outlook-share-teams) | 添加内容 |
+| 3/16/2021 | [在 Microsoft Teams 中创建自定义团队模板](/MicrosoftTeams/create-a-team-template) | 修改内容 |
+| 3/16/2021 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改内容 |
+| 3/16/2021 | [电话系统直接路由](/MicrosoftTeams/direct-routing-protocols-sip) | 修改内容 |
+| 3/16/2021 | [Microsoft Teams 中的信息屏障](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
+| 3/16/2021 | [安全性和符合性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
+| 3/17/2021 | [通话套餐的国家和地区可用性](/MicrosoftTeams/business-voice/country-region-availability) | 修改内容 |
+| 3/17/2021 | [使用 Microsoft Teams 导出 API 导出内容](/MicrosoftTeams/export-teams-content) | 修改内容 |
+| 3/17/2021 | [在 Microsoft Teams 中重置音频会议 PIN](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | 修改日期 |
+| 3/17/2021 | [Microsoft Teams 附加许可证](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 修改内容 |
+| 3/17/2021 | [Microsoft Teams 面板](/MicrosoftTeams/devices/teams-panels) | 修改内容 |
+| 3/17/2021 | [医疗保健组织的 Teams 入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 修改内容 |
+| 3/17/2021 | [Microsoft Teams 管理员文档 #< 60 个字符](/MicrosoftTeams/index) | 修改内容 |
+| 3/17/2021 | [安装 Moodle 与 Microsoft Teams 的集成](/MicrosoftTeams/install-moodle-integration) | 修改内容 |
+| 3/17/2021 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 3/17/2021 | [Microsoft Teams 会议室许可证](/MicrosoftTeams/rooms/rooms-licensing) | 修改内容 |
+| 3/17/2021 | [Microsoft Teams PSTN 使用情况报告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 修改内容 |
+| 3/17/2021 | [管理 Microsoft Teams Exploratory 体验](/MicrosoftTeams/teams-exploratory) | 修改内容 |
+| 3/17/2021 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
+| 3/17/2021 | [在 Microsoft 365 for Teams 中试用或购买音频会议](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | 修改内容 |
+| 3/17/2021 | [仅查看会议体验](/MicrosoftTeams/view-only-meeting-experience) | 修改内容 |
+| 3/18/2021 | [安装 Power BI 连接器以使用 CQD 查询模板](/MicrosoftTeams/cqd-power-bi-connector) | 修改内容 |
+| 3/18/2021 | [Exchange 与 Microsoft Teams 如何交互](/MicrosoftTeams/exchange-teams-interact) | 修改内容 |
+| 3/18/2021 | [管理员培训资源 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
+| 3/18/2021 | [应答自动助理和呼叫队列呼叫](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams 应用权限和考虑事项](/MicrosoftTeams/app-permissions) | 修改日期 |
+| 3/18/2021 | [国家/地区可用性 - 音频会议、呼叫计划](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 修改内容 |
+| 3/18/2021 | [在 Android 上部署 Microsoft Teams 会议室](/MicrosoftTeams/devices/collab-bar-deploy) | 修改内容 |
+| 3/18/2021 | [管理和筛选 Microsoft Teams 设备标记](/MicrosoftTeams/devices/manage-device-tags) | 修改内容 |
+| 3/18/2021 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams 面板](/MicrosoftTeams/devices/teams-panels) | 修改内容 |
+| 3/18/2021 | [将会话边界控制器 (SBC) 直接路由](/MicrosoftTeams/direct-routing-connect-the-sbc) | 修改内容 |
+| 3/18/2021 | [使用 Microsoft Teams 导出 API 导出内容](/MicrosoftTeams/export-teams-content) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams 中的信息屏障](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 3/18/2021 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
+| 3/18/2021 | [使用 Azure Monitor 管理 Microsoft Teams 会议室设备](/MicrosoftTeams/rooms/azure-monitor-manage) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams 会议室许可证](/MicrosoftTeams/rooms/rooms-licensing) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams 会议室维护和操作](/MicrosoftTeams/rooms/rooms-operations) | 修改内容 |
+| 3/18/2021 | [准备环境](/MicrosoftTeams/rooms/rooms-prep) | 修改日期 |
+| 3/18/2021 | [远程管理 Microsoft Teams 会议室设备设置](/MicrosoftTeams/rooms/xml-config-file) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams 的敏感度标签](/MicrosoftTeams/sensitivity-labels) | 修改内容 |
+| 3/18/2021 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams PSTN 使用情况报告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 修改内容 |
+| 3/18/2021 | [安装 Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
+| 3/18/2021 | [管理中心中的 Teams 模板](/MicrosoftTeams/templates-policies) | 修改内容 |
+| 3/18/2021 | [使用 Microsoft Teams 管理员角色管理 Teams](/MicrosoftTeams/using-admin-roles) | 修改内容 |
+| 3/18/2021 | [Teams 虚拟就诊](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 修改内容 |
+| 3/18/2021 | [仅查看会议体验](/MicrosoftTeams/view-only-meeting-experience) | 修改内容 |
+| 3/18/2021 | [Microsoft Teams 中的 Walkie Talkie 应用程序](/MicrosoftTeams/walkie-talkie) | 修改内容 |
+| 3/18/2021 | [启用或禁用 Microsoft Teams 的来宾访问](/MicrosoftTeams/set-up-guests) | 修改内容 |
+| 3/18/2021 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
+| 3/19/2021 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
+| 3/19/2021 | [Microsoft Teams 面板](/MicrosoftTeams/devices/teams-panels) | 修改内容 |
+| 3/19/2021 | [Microsoft Teams 附加许可证](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 修改内容 |
+
+
 ## <a name="week-of-february-15-2021"></a>2021 年 2 月 15 日周
 
 
 | 发布日期 |主题标题 | 更改 |
 |------|------------|--------|
 | 2/16/2021 | [Microsoft Teams 中的呼叫寄存和取回](/MicrosoftTeams/call-park-and-retrieve) | 修改内容 |
-| 2/16/2021 | [使用 Teams 医疗保健模板创建团队](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 修改内容 |
+| 2/16/2021 | [使用 Teams 医疗模板创建团队](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 修改内容 |
 | 2/16/2021 | [医疗保健组织的模板](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 修改内容 |
 | 2/16/2021 | [Skype for Business 与 Microsoft Teams 之间的互操作性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 修改内容 |
 | 2/17/2021 | [Teams for Remote Desktop](/MicrosoftTeams/teams-for-rdp) | 添加内容 |
@@ -20,230 +88,8 @@
 | 2/17/2021 | [将会话边界控制器 (SBC) 直接路由](/MicrosoftTeams/direct-routing-connect-the-sbc) | 修改内容 |
 | 2/17/2021 | [电话系统直接路由](/MicrosoftTeams/direct-routing-protocols-sip) | 修改内容 |
 | 2/17/2021 | 医疗保健组织的模板 | 删除内容 |
-| 2/17/2021 | [非标准用户的 Teams 应用行为](/MicrosoftTeams/non-standard-users) | 修改内容 |
+| 2/17/2021 | [适用于非标准用户的 Teams 应用行为](/MicrosoftTeams/non-standard-users) | 修改内容 |
 | 2/17/2021 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
 | 2/17/2021 | [使用 OneDrive for Business 和 SharePoint 录制会议](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
 | 2/17/2021 | Teams for Remote Desktop | 删除内容 |
-| 2/17/2021 | [安装、管理和分配 Teams Learning 应用的权限 (个人预览版) ](/MicrosoftTeams/teams-learning-app-overview) | 修改内容 |
-
-
-## <a name="week-of-february-08-2021"></a>2021 年 2 月 8 日周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 2/8/2021 | [管理用户对教育版 Insights 的访问权限](/MicrosoftTeams/education-insights-manage-access) | 添加内容 |
-| 2/8/2021 | [Microsoft Teams 教育版见解 IT 管理员指南](/MicrosoftTeams/class-insights) | 修改内容 |
-| 2/8/2021 | [与其他组织中的用户通话和聊天](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 修改内容 |
-| 2/8/2021 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 2/8/2021 | [将学生信息系统 (SIS) 数据与教育版见解同步](/MicrosoftTeams/education-insights-sis-data-sync) | 修改内容 |
-| 2/8/2021 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
-| 2/8/2021 | [在 Microsoft Teams 中管理标记](/MicrosoftTeams/manage-tags) | 修改内容 |
-| 2/8/2021 | [使用 Teams 应用提交 API 提交和批准自定义应用](/MicrosoftTeams/submit-approve-custom-apps) | 修改内容 |
-| 2/8/2021 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
-| 2/8/2021 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
-| 2/8/2021 | [在管理中心管理 Teams 模板](/MicrosoftTeams/templates-policies) | 修改内容 |
-| 2/8/2021 | [比利时的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 修改内容 |
-| 2/8/2021 | [发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
-| 2/8/2021 | [规划从 Skype for Business 升级到 Microsoft Teams](/MicrosoftTeams/upgrade-skype-teams) | 修改内容 |
-| 2/9/2021 | [在 Microsoft Teams 中创建自定义团队模板](/MicrosoftTeams/create-a-team-template) | 修改内容 |
-| 2/9/2021 | [适用于 Microsoft Teams 的电话和设备](/MicrosoftTeams/devices/usb-devices) | 修改内容 |
-| 2/10/2021 | [Microsoft Teams 自动助理支持的语言](/MicrosoftTeams/create-a-phone-system-auto-attendant-languages) | 添加内容 |
-| 2/10/2021 | [Microsoft Teams 调用队列支持的语言](/MicrosoftTeams/create-a-phone-system-call-queue-languages) | 添加内容 |
-| 2/10/2021 | [为 Microsoft Teams 设置自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
-| 2/10/2021 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 2/10/2021 | [将学生信息系统 (SIS) 数据与教育版见解同步](/MicrosoftTeams/education-insights-sis-data-sync) | 修改内容 |
-| 2/10/2021 | [Microsoft Teams 中的信息屏障](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
-| 2/10/2021 | [使用 Microsoft 365 或 Office 365 部署 Microsoft Teams 会议室](/MicrosoftTeams/rooms/with-office-365) | 修改内容 |
-| 2/10/2021 | [Microsoft Teams 分析和报告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 修改内容 |
-| 2/10/2021 | [Microsoft Teams 用户活动报告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 修改内容 |
-| 2/10/2021 | [Teams 联系中心](/MicrosoftTeams/teams-contact-center) | 修改内容 |
-| 2/10/2021 | [用于呼叫会议、基于 Teams 策略的录制&简介](/MicrosoftTeams/teams-recording-policy) | 修改内容 |
-| 2/10/2021 | [使用 OneDrive for Business 和 SharePoint 录制会议](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
-| 2/10/2021 | [Microsoft Teams 中的应用、聊天机器人和连接器](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改内容 |
-| 2/10/2021 | [直接路由 SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | 修改内容 |
-| 2/10/2021 | [购买 Teams 的第三方应用](/MicrosoftTeams/purchase-third-party-apps) | 修改内容 |
-| 2/10/2021 | [Microsoft Teams 会议室](/MicrosoftTeams/rooms/index) | 修改内容 |
-| 2/10/2021 | [向用户分配 Teams 附加许可证](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 修改内容 |
-| 2/10/2021 | [Skype for Business 与 Microsoft Teams 之间的互操作性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 修改内容 |
-| 2/10/2021 | [管理 Microsoft Teams Exploratory 体验](/MicrosoftTeams/teams-exploratory) | 修改内容 |
-| 2/11/2021 | [仅查看会议体验](/MicrosoftTeams/view-only-meeting-experience) | 添加内容 |
-| 2/11/2021 | [Microsoft Teams 用户活动报告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 修改内容 |
-| 2/11/2021 | [向 Microsoft Teams 中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
-| 2/11/2021 | [在 Microsoft Teams 中创建自定义团队模板](/MicrosoftTeams/create-a-team-template) | 修改内容 |
-| 2/11/2021 | [管理组织的电话号码](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 修改内容 |
-| 2/11/2021 | [澳大利亚的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 修改内容 |
-| 2/11/2021 | [奥地利的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria) | 修改内容 |
-| 2/11/2021 | [比利时的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 修改内容 |
-| 2/11/2021 | [加拿大的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 修改内容 |
-| 2/11/2021 | [丹麦的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark) | 修改内容 |
-| 2/11/2021 | [法国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 修改内容 |
-| 2/11/2021 | [德国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 修改内容 |
-| 2/11/2021 | [爱尔兰的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 修改内容 |
-| 2/11/2021 | [意大利的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | 修改内容 |
-| 2/11/2021 | [日本的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | 修改内容 |
-| 2/11/2021 | [葡萄牙的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal) | 修改内容 |
-| 2/11/2021 | [西班牙的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 修改内容 |
-| 2/11/2021 | [瑞典的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden) | 修改内容 |
-| 2/11/2021 | [瑞士的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 修改内容 |
-| 2/11/2021 | [荷兰的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 修改内容 |
-| 2/11/2021 | [英国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 修改内容 |
-| 2/11/2021 | [美国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 修改内容 |
-| 2/11/2021 | [Microsoft Teams 中的公共预览版](/MicrosoftTeams/public-preview-doc-updates) | 修改内容 |
-| 2/11/2021 | [规划从 Skype for Business 升级到 Microsoft Teams](/MicrosoftTeams/upgrade-skype-teams) | 修改内容 |
-| 2/12/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
-| 2/12/2021 | [添加和更新报告标签](/MicrosoftTeams/learn-more-about-site-upload) | 修改内容 |
-| 2/12/2021 | [比利时的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 修改内容 |
-| 2/12/2021 | [在 Microsoft Teams 中重置音频会议 PIN](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | 修改日期 |
-| 2/12/2021 | [仅查看会议体验](/MicrosoftTeams/view-only-meeting-experience) | 修改内容 |
-
-
-## <a name="week-of-february-01-2021"></a>2021 年 2 月 1 日周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 2/1/2021 | [在 CQD ("呼叫质量仪表板"中上传租户和) ](/MicrosoftTeams/cqd-upload-tenant-building-data) | 修改内容 |
-| 2/1/2021 | [Microsoft Teams 教育版见解 IT 管理员指南](/MicrosoftTeams/class-insights) | 修改内容 |
-| 2/1/2021 | [将学生信息系统 (SIS) 数据与教育版见解同步](/MicrosoftTeams/education-insights-sis-data-sync) | 修改内容 |
-| 2/1/2021 | [Microsoft Teams 中的信息屏障](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
-| 2/1/2021 | [管理和监视 Teams](/MicrosoftTeams/manage-teams-overview) | 添加内容 |
-| 2/1/2021 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
-| 2/2/2021 | [使用 Microsoft 365 和自定义连接器](/MicrosoftTeams/office-365-custom-connectors) | 修改内容 |
-| 2/2/2021 | [在 Microsoft Teams 中管理策略包](/MicrosoftTeams/manage-policy-packages) | 修改内容 |
-| 2/2/2021 | [Teams 联系中心](/MicrosoftTeams/teams-contact-center) | 修改内容 |
-| 2/3/2021 | [使用 Microsoft Teams 导出 API 导出内容](/MicrosoftTeams/export-teams-content) | 修改内容 |
-| 2/3/2021 | [瑞士的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 修改内容 |
-| 2/3/2021 | [将会话边界控制器 (SBC) 直接路由](/MicrosoftTeams/direct-routing-connect-the-sbc) | 修改内容 |
-| 2/3/2021 | Microsoft Teams \| 环境就绪 \| 情况采用、发现 | 删除内容 |
-| 2/3/2021 | [Teams 虚拟访问](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 修改内容 |
-| 2/3/2021 | [发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
-| 2/4/2021 | [Teams 联系中心](/MicrosoftTeams/teams-contact-center) | 修改内容 |
-| 2/4/2021 | [呼叫质量仪表板 (CQD) 常见问题解答 (常见问题) ](/MicrosoftTeams/cqd-frequently-asked-questions) | 修改内容 |
-| 2/4/2021 | [从 Skype for Business 升级到 Teams 的常见问题解答](/MicrosoftTeams/faq-journey) | 修改内容 |
-| 2/4/2021 | [音频会议常见问题](/MicrosoftTeams/audio-conferencing-common-questions) | 修改内容 |
-| 2/4/2021 | [维度和度量 - 呼叫质量仪表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
-| 2/4/2021 | [配置会话边界控制器 - 多个租户](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 修改内容 |
-| 2/4/2021 | [Microsoft Teams 管理员文档 #< 60 个字符](/MicrosoftTeams/index) | 修改内容 |
-| 2/4/2021 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
-| 2/4/2021 | [使用 Teams 应用提交 API 提交和批准自定义应用](/MicrosoftTeams/submit-approve-custom-apps) | 修改内容 |
-| 2/4/2021 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
-| 2/4/2021 | [用于呼叫会议、基于 Teams 策略的录制&简介](/MicrosoftTeams/teams-recording-policy) | 修改内容 |
-| 2/4/2021 | [使用 CQD (设置呼叫质量仪表板) ](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 修改内容 |
-| 2/4/2021 | [开始将 Skype for Business 升级到 Teams](/MicrosoftTeams/upgrade-start-here) | 修改内容 |
-| 2/5/2021 | [安全性和符合性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
-| 2/5/2021 | [Microsoft Teams 使用情况报告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 修改内容 |
-| 2/5/2021 | [支持 Microsoft 365 多地域的环境中的团队体验](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 修改内容 |
-| 2/5/2021 | [在管理中心管理 Teams 模板](/MicrosoftTeams/templates-policies) | 添加内容 |
-| 2/5/2021 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 2/5/2021 | [Teams 虚拟访问](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 修改内容 |
-| 2/5/2021 | [适用于医疗保健组织的 Teams 入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 修改内容 |
-| 2/5/2021 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
-| 2/5/2021 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
-| 2/5/2021 | [使用 Microsoft 终结点配置管理器安装 Teams](/MicrosoftTeams/msi-deployment) | 修改内容 |
-| 2/5/2021 | [规划 Teams 自动助理和呼叫队列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 修改内容 |
-
-
-## <a name="week-of-january-25-2021"></a>2021 年 1 月 25 日周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 1/25/2021 | [在 Microsoft Teams 中创建组织范围的团队](/MicrosoftTeams/create-an-org-wide-team) | 修改内容 |
-| 1/25/2021 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
-| 1/25/2021 | [在 Microsoft Teams 中管理紧急呼叫策略](/MicrosoftTeams/manage-emergency-calling-policies) | 修改内容 |
-| 1/25/2021 | [安全性和符合性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
-| 1/25/2021 | [Teams 升级规划研讨会](/MicrosoftTeams/upgrade-workshops-landing-page) | 修改内容 |
-| 1/25/2021 | [使用 OneDrive for Business 和 SharePoint 录制会议](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
-| 1/25/2021 | [在 Microsoft Teams 中使用内容搜索](/MicrosoftTeams/content-search) | 修改日期 |
-| 1/25/2021 | [对内容进行电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改内容 |
-| 1/25/2021 | [将 Microsoft Teams 用户或团队置于法律上的暂停状态](/MicrosoftTeams/legal-hold) | 修改日期 |
-| 1/26/2021 | [将学生信息系统 (SIS) 数据与教育版见解同步](/MicrosoftTeams/education-insights-sis-data-sync) | 添加内容 |
-| 1/26/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
-| 1/26/2021 | [维度和度量 - 呼叫质量仪表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
-| 1/26/2021 | [通过直接路由认证的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
-| 1/27/2021 | [Microsoft Teams 的高级通信加载项](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 修改内容 |
-| 1/27/2021 | [Microsoft Teams 附加许可证](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 修改内容 |
-| 1/27/2021 | [维度和度量 - 呼叫质量仪表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
-| 1/27/2021 | [在创建团队时规划 Microsoft 365 组](/MicrosoftTeams/plan-office-365-groups) | 修改内容 |
-| 1/27/2021 | [适用于 Microsoft Teams 的电话和设备](/MicrosoftTeams/devices/usb-devices) | 修改内容 |
-| 1/28/2021 | [在 Outlook 中使用 Microsoft Teams 会议加载项](/MicrosoftTeams/teams-add-in-for-outlook) | 修改日期 |
-| 1/28/2021 | [在 Teams 管理中心管理"表扬"应用](/MicrosoftTeams/manage-praise-app) | 修改内容 |
-| 1/28/2021 | [Microsoft Teams 中的公共预览版](/MicrosoftTeams/public-preview-doc-updates) | 修改内容 |
-| 1/28/2021 | [Microsoft Teams 会议室托管服务](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 修改内容 |
-| 1/28/2021 | [使用 Teams 应用提交 API 提交和批准自定义应用](/MicrosoftTeams/submit-approve-custom-apps) | 修改内容 |
-| 1/29/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
-| 1/29/2021 | [通过直接路由认证的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
-| 1/29/2021 | [Teams 虚拟访问](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 修改内容 |
-| 1/29/2021 | [管理外部访问 (联合身份验证) ](/MicrosoftTeams/manage-external-access) | 修改内容 |
-| 1/29/2021 | [Microsoft Teams 中外部用户 (联合) 的本机聊天体验](/MicrosoftTeams/native-chat-for-external-users) | 修改内容 |
-| 1/29/2021 | [已知问题](/MicrosoftTeams/rooms/known-issues) | 修改内容 |
-| 1/29/2021 | [Teams 和 Skype 互操作性](/MicrosoftTeams/teams-skype-interop) | 修改内容 |
-
-
-## <a name="week-of-january-18-2021"></a>2021 年 1 月 18 日周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 1/21/2021 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改内容 |
-| 1/21/2021 | [配置会话边界控制器 - 多个租户](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 修改内容 |
-| 1/21/2021 | [法国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 修改内容 |
-| 1/21/2021 | [安装、管理和分配 Teams Learning 应用的权限 (个人预览版) ](/MicrosoftTeams/teams-learning-app-overview) | 修改内容 |
-| 1/21/2021 | [从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 修改内容 |
-| 1/19/2021 | [管理会议设置](/MicrosoftTeams/meeting-settings-in-teams) | 修改内容 |
-| 1/19/2021 | [使用 OneDrive for Business 和 SharePoint 录制会议](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
-| 1/21/2021 | [音频会议拨出/呼叫我（分钟）](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | 修改内容 |
-| 1/21/2021 | 设置其他呼叫助理和呼叫树 | 删除内容 |
-| 1/21/2021 | 设置呼叫队列 | 删除内容 |
-| 1/21/2021 | [更改音频会议网桥上的电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 修改内容 |
-| 1/21/2021 | [更改音频会议网桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | 修改内容 |
-| 1/21/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
-| 1/21/2021 | [免费拨出时段](/MicrosoftTeams/complimentary-dial-out-period) | 修改内容 |
-| 1/21/2021 | [排查 Teams 客户端的连接问题](/MicrosoftTeams/connectivity-issues) | 修改内容 |
-| 1/21/2021 | [为 Microsoft Teams 设置自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
-| 1/21/2021 | [Microsoft Teams 中的会议](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 修改内容 |
-| 1/21/2021 | [自动助理和呼叫队列拨号和语音识别参考](/MicrosoftTeams/dial-voice-reference) | 修改内容 |
-| 1/21/2021 | [通过直接路由认证的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
-| 1/21/2021 | [添加和更新报告标签](/MicrosoftTeams/learn-more-about-site-upload) | 修改内容 |
-| 1/21/2021 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
-| 1/21/2021 | [规划 Teams 自动助理和呼叫队列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 修改内容 |
-| 1/21/2021 | [在 Microsoft Teams 中重置音频会议 PIN](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | 修改日期 |
-| 1/21/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
-| 1/21/2021 | [查看组织中的电话号码列表](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | 修改内容 |
-| 1/21/2021 | [使用 Microsoft Teams 用户活动报告](/MicrosoftTeams/teams-activity-reports) | 修改内容 |
-| 1/21/2021 | [Microsoft Teams 实时事件是什么？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 修改内容 |
-| 1/21/2021 | 小型企业示例 - 设置自动助理 | 删除内容 |
-| 1/21/2021 | [Teams 语音 Contoso 案例研究](/MicrosoftTeams/voice-case-study-call-queues) | 修改内容 |
-| 1/21/2021 | [什么是云自动助理？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 修改内容 |
-| 1/19/2021 | [为 Microsoft Teams 设置自动助理 - 小型企业教程](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 添加内容 |
-| 1/19/2021 | [在 Microsoft Teams 中创建呼叫队列 - 小型企业教程](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 添加内容 |
-| 1/19/2021 | [Teams 中的审批应用程序可用性](/MicrosoftTeams/approval-admin) | 修改内容 |
-| 1/19/2021 | [通过直接路由认证的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
-| 1/19/2021 | [适用于医疗保健组织的 Teams 入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 修改内容 |
-| 1/19/2021 | [Teams 中的排班](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 修改内容 |
-| 1/19/2021 | [在 Teams 中管理一线员工基于排班的访问](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | 修改内容 |
-| 1/19/2021 | [管理组织的 Shifts 应用](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 修改内容 |
-| 1/19/2021 | [Microsoft StaffHub 已停用](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 修改内容 |
-| 1/19/2021 | [Microsoft Teams for RealWear 客户端 ITAdmin 信息（预览版）](/MicrosoftTeams/flw-realwear) | 修改内容 |
-| 1/19/2021 | [为一线工作人员大规模预配 Microsoft Teams](/MicrosoftTeams/flw-scripted-deployment) | 修改内容 |
-| 1/19/2021 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
-| 1/19/2021 | [Ignite 2020 的 Teams 会话](/MicrosoftTeams/ignite-2020-landing-page) | 修改内容 |
-| 1/19/2021 | [在 Teams 管理中心管理"表扬"应用](/MicrosoftTeams/manage-praise-app) | 修改内容 |
-| 1/19/2021 | [在 Microsoft Teams 中为组织管理 Tasks 应用](/MicrosoftTeams/manage-tasks-app) | 修改内容 |
-| 1/19/2021 | [Office 365 政府版 - DoD 部署](/MicrosoftTeams/plan-for-government-dod) | 修改内容 |
-| 1/19/2021 | [Microsoft 365 政府版 - GCC 高部署](/MicrosoftTeams/plan-for-government-gcc-high) | 修改内容 |
-| 1/19/2021 | [Microsoft Teams 所需的移动设备诊断数据](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | 修改内容 |
-| 1/19/2021 | [适用于政府的 Teams 策略包](/MicrosoftTeams/policy-packages-gov) | 修改内容 |
-| 1/19/2021 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
-| 1/19/2021 | [登录 Microsoft Teams](/MicrosoftTeams/sign-in-teams) | 修改内容 |
-| 1/19/2021 | [CQD 呼叫质量仪表板 (流) ](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | 修改内容 |
-| 1/19/2021 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
-| 1/19/2021 | [Teams 联系中心](/MicrosoftTeams/teams-contact-center) | 修改内容 |
-| 1/19/2021 | [首先推出 Microsoft Teams](/MicrosoftTeams/teams-first-overview) | 修改内容 |
-| 1/19/2021 | [评估 Skype for Business 到 Teams 升级的组织更改准备情况](/MicrosoftTeams/upgrade-org-change-readiness) | 修改内容 |
-| 1/19/2021 | [什么是云自动助理？](/MicrosoftTeams/what-are-phone-system-auto-attendants) | 修改内容 |
-| 1/22/2021 | [安全性和符合性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
-| 1/22/2021 | [Microsoft Teams 的敏感度标签](/MicrosoftTeams/sensitivity-labels) | 修改内容 |
-| 1/22/2021 | [Microsoft Teams 的高级通信加载项](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 修改内容 |
-| 1/22/2021 | [从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 修改内容 |
+| 2/17/2021 | [安装、管理和分配 Teams 学习应用的权限 (预览版) ](/MicrosoftTeams/teams-learning-app-overview) | 修改内容 |

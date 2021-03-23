@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解如何使用 Microsoft Phone 系统直接路由将受支持的客户提供的会话边界控制器 (SBC) Microsoft Phone System。
-ms.openlocfilehash: 858d57fb210765a1223a68527b0aa1b37bf7800b
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: af7e288791b85aea3beaf67b0200acd017e3e514
+ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50836989"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50999824"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -192,6 +192,9 @@ Microsoft 建议通过生成认证签名请求来请求 SBC 的证书， (CSR) �
 - TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom) 
 - QuoVadis
+- USERTrust RSA 证书颁发机构
+- 宏和后根 CA 1，2，3
+- Sectigo 根 CA
 
 对于 Office 365 GCCH 和 DoD 环境中的直接路由，证书需要由以下根证书颁发机构之一生成：
 - DigiCert 全局根 CA
