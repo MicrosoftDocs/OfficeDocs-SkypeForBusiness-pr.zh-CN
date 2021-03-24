@@ -24,13 +24,13 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
-description: 了解 Microsoft 365 或 Office 365 中的音频会议如何允许用户通过电话呼入会议。
-ms.openlocfilehash: e2103a9f1ccac8fc2a5891cc776c3faf84a29ae8
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+description: 了解 Microsoft 365 或 Office 365 中的音频会议如何允许用户从电话呼入会议。
+ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460682"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111268"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365 中的音频会议
 Microsoft 365 和 Office 365 中的音频会议允许用户通过电话呼入会议。 音频会议最多允许 250 名电话与会者。
@@ -89,7 +89,7 @@ Microsoft 365 和 Office 365 中的音频会议允许用户通过电话呼入会
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>如何获得专用电话号码？
 专用音频会议电话号码是你可以获取并随后分配给组织的服务号码。 可通过以下三种方式之一获得专用的会议网桥收费和免费电话号码：
 
-- **使用 Skype for Business 管理中心。** 对于某些国家/地区，你可以使用 Skype for Business 管理中心获取会议网桥号码。 参见[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+- **使用 Skype for Business 管理中心。** 对于某些国家/地区，你可以使用 Skype for Business 管理中心获取会议网桥号码。 参见[获取服务电话号码](./getting-service-phone-numbers.md)。
     
 - **转网现有的号码。** 您可以将现有号码从当前服务提供商或电话运营商转机或转移到 Microsoft 365 或 Office 365。 如需获取有助于执行此操作的详细信息，请参阅[将电话号码转接到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
   

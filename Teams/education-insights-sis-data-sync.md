@@ -16,24 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f6d4a7dca340d297543abb3620a36cdd804ca9f
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: d0403e2e804397249dfd07eb03843e6b0b38653c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196576"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102118"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>将学生信息系统 (SIS) 数据与教育版见解同步
 向[教育版见解](class-insights.md)提供的数据越多，教师就越能更好地为学生提供支持，并且教育领导者也可以为教师提供更好的支持。
 
-若要提供组织级见解，我们必须使用[学校数据同步 (SDS)](https://docs.microsoft.com/SchoolDataSync) 连接到学生信息系统 (SIS)，以便见解正确映射教育系统的层次结构。 
+若要提供组织级见解，我们必须使用[学校数据同步 (SDS)](/SchoolDataSync) 连接到学生信息系统 (SIS)，以便见解正确映射教育系统的层次结构。 
 
 以课堂教师的身份查看课堂级见解 *不* 需要这种同步，因为我们使用 Teams 的课堂结构和权限。
 
 ## <a name="plan-your-sis-integration"></a>规划 SIS 集成
 SIS 数据提供教育系统的层次结构，并映射在何处分配了哪个用户。
 
-使用 [SDS V2 文件格式](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format)时，见解效果最佳，但也支持功能 *受限* 的 [SDS V1](https://docs.microsoft.com/schooldatasync/school-data-sync-format-csv-files-for-sds) 文件格式。
+使用 [SDS V2 文件格式](/schooldatasync/sds-v2-csv-file-format)时，见解效果最佳，但也支持功能 *受限* 的 [SDS V1](/schooldatasync/school-data-sync-format-csv-files-for-sds) 文件格式。
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>SDS V1 和 V2 文件格式之间的差异
 
@@ -80,7 +80,7 @@ SIS 数据提供教育系统的层次结构，并映射在何处分配了哪个�
     
     *   根据教职员工的组织单位，你可定义相关权限。 确保他们与正确的单位级别相关联，以便获得所需的权限。 例如，分配给四所学校的辅导员需要查看这些学校的所有课程；校长需要看其学校的所有班级。 
     
-*   该角色非常重要。 尽管这是一个封闭列表，但请尝试将[列表](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)中的角色与所上传的每个用户的真实角色进行匹配。 这样，你就可以相应地分配基于角色的权限。 例如，为所有校长提供查看其学校中的班级的权限，或授予所有教授查看教职员工的权限。 
+*   该角色非常重要。 尽管这是一个封闭列表，但请尝试将[列表](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)中的角色与所上传的每个用户的真实角色进行匹配。 这样，你就可以相应地分配基于角色的权限。 例如，为所有校长提供查看其学校中的班级的权限，或授予所有教授查看教职员工的权限。 
 
 ### <a name="organizations"></a>组织
 
@@ -89,7 +89,7 @@ SIS 数据提供教育系统的层次结构，并映射在何处分配了哪个�
 * 确保 *组织树下的所有组织单位都包括学生或班级*，以汇总学生数据。 我们建议学生位于树的最低分支上。
 
 > [!NOTE]
-> 有关 SDS 部署的详细信息，请访问[规划 SDS](https://docs.microsoft.com/schooldatasync/planning-school-data-sync)。
+> 有关 SDS 部署的详细信息，请访问[规划 SDS](/schooldatasync/planning-school-data-sync)。
 
 ## <a name="integrate-sis-using-sds"></a>使用 SDS 集成 SIS
 
@@ -116,7 +116,7 @@ Office 365 教育版中提供了学校数据同步 (SDS)。 SDS 将读取教育�
 
 :::image type="content" source="media/insights-sds-profile-sync.png" alt-text="与见解同步配置文件开关":::
 
-**如果你尚未使用 SDS**，那么现在需要 [部署它](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync)。
+**如果你尚未使用 SDS**，那么现在需要 [部署它](/schooldatasync/deploying-school-data-sync)。
 
 在部署过程中，你可以决定是要使用 SDS 在 Teams 中预配用户和班级，还是仅使用 SDS 来向见解提供数据。
 

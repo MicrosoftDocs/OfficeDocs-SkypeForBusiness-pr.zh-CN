@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adefa7a7ca948363f3d331c4500619e81bbc1ea8
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: HT
+ms.openlocfilehash: 3332ec1a5c5bc05bc833511a3b33e0f4dff6cccc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460602"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111128"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft Teams 和 Skype for Business 的共存和互操作性
 
@@ -34,7 +34,7 @@ ms.locfileid: "50460602"
 本文是升级历程中“项目定义”阶段的一部分。 在创建赞助联盟和项目团队并确定项目范围、目标和计划后完成。 在继续之前，请确认已经完成了以下活动:
 
 - [登记项目利益干系人](upgrade-enlist-stakeholders.md)
-- [请确定项目范围](https://aka.ms/SkypetoTeams-Scope)
+- [请确定项目范围](./upgrade-define-project-scope.md)
 
 如果组织目前使用的是 Skype for Business，并且开始在使用 Skype for Business 的同时使用 Teams，或者要升级到 Teams，那么了解这两个应用程序如何共存、何时以及如何进行互操作，以及如何管理用户从 Skype for Business 迁移到 Teams 的整个过程则是非常重要的。
 
@@ -43,7 +43,7 @@ ms.locfileid: "50460602"
 >
 > 此外，还可以参加我们的现场互动研讨会，我们将在研讨会上分享指导、最佳实践和资源，以启动升级规划和实施。
 >
-> 先加入 [计划升级](https://aka.ms/SkypeToTeamsPlanning) 会话才能开始。
+> 先加入 [计划升级](./upgrade-workshops-landing-page.yml) 会话才能开始。
 
 ## <a name="coexistence-of-teams-and-skype-for-business-overview"></a>Teams 与 Skype for Business 共存概述
 
@@ -123,7 +123,7 @@ ms.locfileid: "50460602"
 > [!TIP]
 > 为了帮助在 Skype for Business 仍在使用时根据要在 Teams 中启用的功能确定推荐的升级模式，请利用 [Skype to Teams 升级向导](https://aka.ms/SkypeToTeamsWizard)。
 
-有关共存模式、前提条件和管理的更多信息，请参阅[为使用 Teams 和 Skype for Business 的组织提供的迁移](https://aka.ms/SkypeToTeams-Interop)和[互操作性指导以及设置共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)。
+有关共存模式、前提条件和管理的更多信息，请参阅[为使用 Teams 和 Skype for Business 的组织提供的迁移](./migration-interop-guidance-for-teams-with-skype.md)和[互操作性指导以及设置共存和升级设置](./setting-your-coexistence-and-upgrade-settings.md)。
 
 |决策点图标 |图标定义 |说明 |
 |---|---|---|
@@ -137,7 +137,7 @@ ms.locfileid: "50460602"
 互操作性由接收器的共存模式（也称为升级模式）控制。 当接收器处于“**并行**”模式时，没有互操作性。
 
 > [!Note]
-> 在除“**并行**”之外的任何共存模式下部署时，Teams 和 Skype for Business 可以进行[互操作](#interoperability-of-teams-and-skype-for-business)，使用户能够互相聊天和通话，并确保在升级到 Teams 的过程中使跨组织通信保持流畅。 共存模式控制互操作性。 接收方的共存模式决定了互操作性是否可用。 例如，如果接收方处于一种模式中，聊天仅在一个客户端（比如说，Teams）中可用，则在发起者使用其他客户端（本例中为 Skype for Business）启动聊天的情况下，聊天互操作性通常可用。 另一方面，如果接收方处于两个客户端中的聊天均可用的模式（“并行”模式），则互操作性将不可用于聊天。 消息将由接收方在发起者在启动聊天的同一客户端中收到。 因此，在“**并行**”模式下正确通信需要 Teams 采用饱和；也就是说，所有用户都要主动使用和监视这两个客户端。
+> 在除“**并行**”之外的任何共存模式下部署时，Teams 和 Skype for Business 可以进行 [互操作](#interoperability-of-teams-and-skype-for-business)，使用户能够互相聊天和通话，并确保在升级到 Teams 的过程中使跨组织通信保持流畅。 共存模式控制互操作性。 接收方的共存模式决定了互操作性是否可用。 例如，如果接收方处于一种模式中，聊天仅在一个客户端（比如说，Teams）中可用，则在发起者使用其他客户端（本例中为 Skype for Business）启动聊天的情况下，聊天互操作性通常可用。 另一方面，如果接收方处于两个客户端中的聊天均可用的模式（“并行”模式），则互操作性将不可用于聊天。 消息将由接收方在发起者在启动聊天的同一客户端中收到。 因此，在“**并行**”模式下正确通信需要 Teams 采用饱和；也就是说，所有用户都要主动使用和监视这两个客户端。
 
 > [!Note]
 > **如果要想获得最新的共存体验，客户端版本必须是用户的 Office 部署渠道中最新的可用客户端。**
@@ -162,7 +162,7 @@ Skype for Business 用户可以与 Teams 用户进行一对一的语音和视频
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> 本地部署 Skype for Business 的互操作体验要求本地环境与 Microsoft 365 或 Office 365 Skype for Business 处于混合模式。 详情请参见[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)。
+> 本地部署 Skype for Business 的互操作体验要求本地环境与 Microsoft 365 或 Office 365 Skype for Business 处于混合模式。 详情请参见[迁移和互操作性指南](./migration-interop-guidance-for-teams-with-skype.md)。
 
 这些互操作体验适用于指定了以下其中一种共存模式的用户之间使用: **Skype for Business 与 Teams 协作**、**Skype for Business 与 Teams 协作和会议**、 **Skype for Business Only** 或 **Teams Only**。 处于“**并行**”模式的用户没有互操作性。
 
@@ -228,7 +228,7 @@ Windows 版 Teams桌面客户端、Mac 版 Teams 桌面客户端以及支持内�
 
 这种升级到 Teams 会议的方式既适用于租户内互操作，也适用于跨租户联合通话和聊天。 它是默认开启的，管理员不需要预配任何设置。 但是，如果管理员将``CsTeamsMeetingPolicy``中的``-AllowPrivateMeetNow``设置为``$false``，则会对用户关闭。
 
-查看本文之后，请参阅 [选择升级过程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)、[与 Skype for Busines 共存](coexistence-chat-calls-presence.md) 和 [设置共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)，以了解实施的详细信息。 我们还推荐以下视频: [视频: 管理 SfB 和 Teams 之间的共存和互操作性](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
+查看本文之后，请参阅 [选择升级过程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[迁移和互操作性指南](./migration-interop-guidance-for-teams-with-skype.md)、[与 Skype for Busines 共存](coexistence-chat-calls-presence.md) 和 [设置共存和升级设置](./setting-your-coexistence-and-upgrade-settings.md)，以了解实施的详细信息。 我们还推荐以下视频: [视频: 管理 SfB 和 Teams 之间的共存和互操作性](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
 
 ## <a name="technical-details-of-teams-and-skype-for-business-coexistence"></a>Teams 和 Skype for Business 共存的技术细节
 
@@ -342,12 +342,12 @@ Teams 和 Skype for Business 有单独的联系人列表。 这意味着在一�
 
 [面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](migration-interop-guidance-for-teams-with-skype.md) 
 
-[配置 Skype for Business Server 与 Microsoft 365 或 Office 365 之间的混合连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[配置 Skype for Business Server 与 Microsoft 365 或 Office 365 之间的混合连接](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[在本地和云之间移动用户](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[在本地和云之间移动用户](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[使用会议迁移服务 (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[使用会议迁移服务 (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

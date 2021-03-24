@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑现有前端池或 Standard Edition Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: d1fa04d2b581fbdb359e01fc776fea8c16d9eb52
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0eff10b89c05980e5b2d425c43266fafd70461e6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833492"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101898"
 ---
 # <a name="front-end-general-settings-expander"></a>前端常规设置扩展器
 
@@ -36,7 +36,7 @@ ms.locfileid: "49833492"
 
 ## <a name="front-end-pool"></a>前端池
 
-对于前端池，可以配置常规设置、恢复能力设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 有关定义和配置前端池设置的详细信息，请参阅[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+对于前端池，可以配置常规设置、恢复能力设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 有关定义和配置前端池设置的详细信息，请参阅[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
 
 ### <a name="general-settings"></a>常规设置
 
@@ -103,7 +103,7 @@ ms.locfileid: "49833492"
 对于“内部 Web 服务”，请指定以下内容：
 
 > [!CAUTION]
-> 如果您具有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 **pool01.contoso.com，** 则不能将 pool01.contoso.com **用于另** 一个前端池或前端服务器。 如果还要部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器是唯一的。 如果您决定使用自定义的 FQDN 覆盖内部 Web 服务，则每个 FQDN 都必须与任何其他前端池、控制器或控制器池是唯一的。
+> 如果您具有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 **pool01.contoso.com，** 则不能将 **pool01.contoso.com** 用于另一个前端池或前端服务器。 如果还要部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器具有唯一性。 如果您决定使用自定义的 FQDN 覆盖内部 Web 服务，则每个 FQDN 都必须与任何其他前端池、控制器或控制器池是唯一的。
 
 - 如果选择“覆盖 FQDN”，则可以为池上的“内部 Web 服务”标识指定不同的 FQDN。默认情况下，该设置是为前端池定义的当前池名称。
 
@@ -127,11 +127,11 @@ ms.locfileid: "49833492"
 
 - 如果有多个中继与中介服务器关联，可以通过选择相应中继，然后单击“设为默认值”，指定默认中继。若要取消选择中继作为默认中继，请单击“取消设为默认值”。
 
-有关定义和配置前端池设置的详细信息，请参阅[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+有关定义和配置前端池设置的详细信息，请参阅[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
 
 ## <a name="standard-edition-server"></a>Standard Edition Server
 
-对于 Standard Edition Server，可以配置常规设置、恢复能力设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 有关定义和配置 Standard Edition Server 设置的详细信息，请参阅[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)和[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
+对于 Standard Edition Server，可以配置常规设置、恢复能力设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 有关定义和配置 Standard Edition Server 设置的详细信息，请参阅[Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)和[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
 
 ### <a name="general-settings"></a>常规设置
 
@@ -206,6 +206,4 @@ ms.locfileid: "49833492"
 
 - 如果有多个网关与中介服务器关联，可以通过选择相应网关，然后单击“设为默认值”，指定默认网关。若要取消选择网关作为默认网关，请单击“取消设为默认值”。
 
-有关定义和配置 Standard Edition Server 设置的详细信息，请参阅[Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx)和[Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)。
-
-
+有关定义和配置 Standard Edition Server 设置的详细信息，请参阅[Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)和[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。

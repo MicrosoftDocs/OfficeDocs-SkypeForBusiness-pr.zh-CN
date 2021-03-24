@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: bd624c3b61fb29d5eb5bcdd795fc4c1abe217976
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 以下是适用于 Skype for Business 的 Microsoft 365 和 Office 365 服务和适用于尼日利亚的 Microsoft Teams。
+ms.openlocfilehash: efcd1ed4c3834a8ac76d1fe0c5490cb59a6abd40
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809532"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102368"
 ---
 # <a name="availability-in-nigeria"></a>在尼日利亚的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+以下是适用于 Skype for Business 的 Microsoft 365 和 Office 365 服务和适用于尼日利亚的 Microsoft Teams。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -43,7 +43,7 @@ ms.locfileid: "49809532"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费  <br/> |
 |是否自动分配音频会议的电话号码？  <br/> |否 <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> | 需要通信积分 <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用额度 <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -72,7 +72,7 @@ ms.locfileid: "49809532"
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅"获取 Skype for Business 和 Microsoft Teams 的服务电话号码["。](/microsoftteams/getting-service-phone-numbers)
+ 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取 [Skype for Business](../getting-service-phone-numbers.md)和 Microsoft Teams 的服务电话号码。
   
 ## <a name="communications-credits"></a>通信点数
 
@@ -84,7 +84,6 @@ ms.locfileid: "49809532"
   
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

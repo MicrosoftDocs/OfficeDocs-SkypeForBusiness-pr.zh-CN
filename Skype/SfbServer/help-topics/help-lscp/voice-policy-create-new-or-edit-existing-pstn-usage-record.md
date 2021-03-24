@@ -1,5 +1,5 @@
 ---
-title: 语音策略创建新的或编辑现有的 PSTN 用法记录
+title: 语音策略 创建新的或编辑现有的 PSTN 用法记录
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 description: 'UNRESOLVED_TOKEN_VAL (bigfin_UI_help_intro) '
-ms.openlocfilehash: 4196cde4d6ee6928df3e6d90727ec1573ffe7dd7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3b825b990a03acb76fe0d45ec776d94194a7eae0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814512"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115058"
 ---
 # <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>语音策略：创建新的或编辑现有的 PSTN 用法记录
 
@@ -28,9 +28,8 @@ UNRESOLVED_TOKEN_VAL (bigfin_UI_help_intro)
 
 - [在 Skype for Business 2015 中创建或修改语音策略和配置 PSTN 用法记录](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [修改语音策略和配置 PSTN 用法记录](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [修改语音策略和配置 PSTN 用法记录](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)
 
-- [查看 Skype for Business 2015 中的 PSTN 用法记录](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [在 Skype for Business 2015 中查看 PSTN 用法记录](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
-
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)

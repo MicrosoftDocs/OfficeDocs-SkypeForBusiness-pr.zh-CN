@@ -24,35 +24,35 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于英国的 Skype for Business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: de944b87eca2a68865261c96839863d4d6714963
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: 下面是适用于英国 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: f63fef3f09a4b64435290cdd40530062e691e17b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230520"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104088"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>在英国 (U.K.) 的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于英国的 Skype for Business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+下面是适用于英国 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**Details**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，适用于： <br/><ul><li> 伦敦</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |在线  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于： <br/><ul><li> 伦敦</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
 |**功能**|**Details**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |在线  <br/> |
-|呼叫队列  <br/> |在线  <br/> |
+| 自动助理 <br/> |可用  <br/> |
+|呼叫队列  <br/> |可用  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐
@@ -60,19 +60,19 @@ ms.locfileid: "44230520"
 |**功能**|**Details**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话计划可用的分钟数。 |每个日历月提供四个计划选项： <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>1200分钟国内通话计划 </li></li><li>国内和国际长途计划：拨打国际长途电话的1200分钟（600即在日历月份内首先达到的分钟数）</li></li> 
-|是否可以拨出电话拨出收费号码？ <br/> | 部分受支持：使用通信信用点数按分钟支付，支持共享成本数字（前缀44843、44844、44845、44870、44871、44872）的通话。  不支持对449XX 前缀的调用。 <br/> |
+|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li> 
+|能否对高级号码进行出站呼叫？ <br/> | 部分支持：支持使用通信信用额度每分钟支付一次，对共享成本号码的调用 (前缀 44843、44844、44845、44870、44871、44872) 。  不支持调用 449XX 前缀。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**Details**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>伯明翰 <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  外壳 <li>  Leeds <li>  Leicester <li>  Liverpool <li>  伦敦 <li>  曼彻斯特 <li>  Newcastle <li>  Nottingham <li>  Plymouth <li>  Sheffield <li>  Stoke-Trent <li>  Teesside （米德尔斯） </ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>比林多 <li>  Bolton <li>  Bournebourne <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  外壳 <li>  Leeds <li>  西布斯 <li>  英格兰 <li>  伦敦 <li>  英国 <li>  Newcastle <li>  Nott一 <li>  Plymouth <li>  谢ffield <li>  Stoke-on-Trent <li>  Teesside (Middlesbrough)  </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
- 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+ 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通信点数
 
@@ -84,10 +84,8 @@ ms.locfileid: "44230520"
   
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 
-

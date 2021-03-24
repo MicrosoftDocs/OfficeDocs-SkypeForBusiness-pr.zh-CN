@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于摩洛哥的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: c35db0e95e53b441d07af6397d1ec0dd765f73e4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ee6cea4fa3d5995fe99086667f8e5d6e83878dab
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814642"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102428"
 ---
 # <a name="availability-in-morocco"></a>在摩洛哥的可用性
 
@@ -72,7 +72,7 @@ ms.locfileid: "49814642"
 |是否提供收费电话号码？  <br/> |是 <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅"获取 Skype for Business 和 Microsoft Teams 的服务电话号码["。](/microsoftteams/getting-service-phone-numbers)
+ 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取 [Skype for Business](../getting-service-phone-numbers.md)和 Microsoft Teams 的服务电话号码。
   
 ## <a name="communications-credits"></a>通信点数
 
@@ -84,7 +84,6 @@ ms.locfileid: "49814642"
   
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

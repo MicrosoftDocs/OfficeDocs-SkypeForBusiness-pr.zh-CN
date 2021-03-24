@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 的通话计划
+title: 为 Microsoft 365 调用计划
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -26,69 +26,69 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 5d7a998619eb54e5c53b3c03fcaf0889ee2f328c
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 87758995717a40136af6c03422eaf521285efc08
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130413"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102738"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 的通话计划
+# <a name="calling-plans-for-microsoft-365"></a>为 Microsoft 365 调用计划
 
-呼叫其他 Skype for Business 和 Microsoft 团队用户是免费的，但如果您希望用户能够呼叫普通电话，并且您还没有服务提供商进行语音呼叫，则需要购买呼叫计划。 有关详细信息，请参阅 [电话系统和通话计划](calling-plan-landing-page.md)。
+呼叫其他 Skype for Business 和 Microsoft Teams 用户是免费的，但如果你希望你的用户能够拨打常规电话，并且你还没有服务提供商进行语音呼叫，则需要购买呼叫计划。 有关详细信息，请参阅 [电话系统和呼叫计划](calling-plan-landing-page.md)。
   
-以下是通话计划选项：
+下面是"通话套餐"选项：
   
-- **国内呼叫计划**：授权用户可以拨打在 Microsoft 365 或 Office 365 中分配给他们的国家/地区内的号码。
+- **国内呼叫计划**：许可用户可以拨打位于 Microsoft 365 或 Office 365 中分配的国家/地区的号码。
     
-- **国内和国际呼叫计划**：授权用户可以拨打基于用户所在位置的国家/365 365 地区内的号码，以及 [196 国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)内的国际号码的电话号码的号码。
+- **国内和国际** 呼叫计划：获得许可的用户可以呼叫位于其 Microsoft 365 或 Office 365 许可证分配给用户的国家/地区的号码，以及 [196](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)个国家/地区的国际号码。
 
-同一个国家/地区的所有用户 (这是在 Microsoft 365) 管理中心的 "授权" 区域中定义的用户国家/地区的位置，使用相同的通话计划共享一个分钟池。 例如，如果您的100用户位于同一个国家/地区，并且该用户分配有120分钟的国内呼叫计划，则它们将共享一个12000分钟池。 所有超过这些分钟数的通话均按分钟计费。
+同一国家/地区的所有用户 (这是 Microsoft 365 管理中心许可区域中定义的用户国家/地区位置) 同一呼叫计划共享分钟数池。 例如，如果在同一国家/地区有 100 个用户分配了 120 分钟的国内呼叫计划，则他们共享 12，000 分钟的池。 超过这些分钟数的所有呼叫均按分钟计费。
     
-访问 [国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ，了解每个国家/地区的每个组织的可用每月分钟数。
+请访问 ["国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) "，了解每个国家/地区的每个组织每月可用的分钟数。
   
 > [!IMPORTANT]
-> 国家/地区基于 **microsoft 365 管理中心**  >  **活动用户** 的用户许可证的位置，而 **不** 是基于在 **microsoft 365 管理中心** 的 **组织配置文件** 下列出的帐单地址。   
+> 国家/地区基于用户许可证在 **Microsoft 365** 管理中心活动用户中的位置，而不是  >  Microsoft **365** 管理中心中"组织配置文件"下列出的帐单地址。   
 ![用户许可证位置的屏幕截图](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 有关使用限制和使用条款的详细信息，请参阅 [音频会议免费拨出期](complimentary-dial-out-period.md)。
   
 ## <a name="how-to-buy-a-calling-plan"></a>如何购买通话套餐
 
-1. <strong>您必须首先购买 * * 电话系统</strong>附加许可证 <strong>。若要执行此操作，请 [登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，然后选择 * * 帐单</strong>  >  **购买服务**  >  **附加** 套餐  >  **立即购买**。
+1. <strong>必须先购买 **Phone System</strong>附加许可证 <strong>。为此，请登录到 [Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)管理中心，然后选择"</strong>计费购买服务附加内容订阅""  >    >    >  **立即购买"。**
     
-    ![显示用于购买语音呼叫计划选项的屏幕截图。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![显示购买语音呼叫计划的选项的屏幕截图。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > 根据你的计划，你可能需要购买更多加载项，然后才能购买电话系统许可证。 若要了解详细信息，请参阅 [Microsoft 团队附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+    > 根据你的计划，你可能需要购买更多附加内容才能购买手机系统许可证。 有关详细信息，请参阅 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-2. 购买电话系统许可证后，您可以通过登录到 **Microsoft 365 管理中心** 来购买呼叫计划，选择 "**计费**  >  **购买服务**  >  **附加订阅**"，然后单击 "**立即购买**"。 您将在那里看到通话计划。
+2. 购买手机系统许可证后，可以通过登录 **Microsoft 365** 管理中心，选择"计费购买服务附加设备订阅"，然后单击"立即购买"来购买呼叫  >    >  **计划**。 你将在那里看到呼叫计划。
     
-    ![显示语音通话计划选项的屏幕截图。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![显示语音呼叫计划选项的屏幕截图。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-您可以根据组织的需要，为不同用户购买和分配不同的通话计划。 选择所需的呼叫计划后，请继续结帐。 将计划分配给 Microsoft 365 管理中心中的每个用户。 若要了解操作方法，请参阅 [分配 Microsoft 团队附加设备许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+你可以购买不同的呼叫计划并将其分配给不同的用户，具体取决于组织的需求。 选择所需的呼叫计划后，继续结账。 在 Microsoft 365 管理中心向每个用户分配计划。 若要了解如何使用，请参阅 [分配 Microsoft Teams 附加许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>是否有为混合用户提供本地 PSTN 连接的服务提供商？
+## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>你是否拥有为混合用户提供本地 PSTN 连接的服务提供商？
 
-如果是这样，则无需购买呼叫计划。 Office 365 企业版 E5 包括 " **电话系统** 加载项"，因此您可以继续结帐。
+如果是这样，则无需购买呼叫计划。 Office 365 企业版 E5 包括 **电话系统** 加载项，因此你可以继续结账。
   
-然后，为 Microsoft 365 管理中心中的用户分配 "企业版 E5" 或 " **电话系统** 加载项" 许可证。 若要了解操作方法，请参阅 [分配 Microsoft 团队附加设备许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+然后，在 Microsoft 365 管理中心向用户分配企业版 E5 或手机系统附加许可证。  若要了解如何使用，请参阅 [分配 Microsoft Teams 附加许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="pricing-information"></a>定价信息
 
-- [通话计划和电话系统的定价](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
+- [通话套餐和电话系统的定价](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
     
 - [音频会议的定价](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meetings)
     
 ## <a name="for-more-information"></a>有关详细信息
 
-下面是介绍如何设置通话计划的更多文章：
+下面是介绍如何设置通话套餐的更多文章：
   
 - [设置通话套餐](set-up-calling-plans.md)
     
-- [Microsoft Teams 附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [下面是 Microsoft 365 或 Office 365 中的电话系统所获得的功能](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [下面是 Microsoft 365 或 Office 365 中的手机系统功能](./here-s-what-you-get-with-phone-system.md)
     
    
 ## <a name="related-topics"></a>相关主题
@@ -100,4 +100,3 @@ ms.locfileid: "49130413"
 - [设置通话套餐](set-up-calling-plans.md)
     
 - [添加资金并管理通信点数](add-funds-and-manage-communications-credits.md)
- 

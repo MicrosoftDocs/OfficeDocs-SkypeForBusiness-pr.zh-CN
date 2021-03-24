@@ -1,5 +1,5 @@
 ---
-title: 管理 Microsoft 团队中的呼叫者 ID 策略
+title: 在 Microsoft Teams 中管理呼叫方 ID 策略
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,58 +17,58 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用和管理 Microsoft 团队中的呼叫者 ID 策略更改或阻止组织中的团队用户的来电显示 ID。
-ms.openlocfilehash: c3eabc5a9e906fd514ce92864e08cad5015f6670
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+description: 了解如何使用和管理 Microsoft Teams 中的来电显示策略来更改或阻止组织中 Teams 用户的来电显示。
+ms.openlocfilehash: cd15245523cdc3f5fb3625a2b4cfdae4deebb7d3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255525"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102778"
 ---
-# <a name="manage-caller-id-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的呼叫者 ID 策略
+# <a name="manage-caller-id-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理呼叫方 ID 策略
 
 >[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
 
-作为管理员，你可以使用 Microsoft 团队中的来电显示策略更改或阻止呼叫方 ID (也称为呼叫线路 ID) 。 默认情况下，当用户呼叫 PSTN 电话时，可以看到团队用户的电话号码，并且在呼叫团队用户时可以看到 PSTN 呼叫者的电话号码。 可以使用来电显示策略为组织中的团队用户显示备用电话号码，或阻止显示传入号码。
+作为管理员，可以使用 Microsoft Teams 中的来电显示策略更改或阻止呼叫者 ID (也称为呼叫线路 ID) 。 默认情况下，在呼叫 PSTN 电话时可以看到 Teams 用户的电话号码，在呼叫 Teams 用户时可以看到 PSTN 呼叫者的电话号码。 可以使用来电显示策略显示组织中 Teams 用户的备用电话号码，或阻止显示传入号码。
 
-例如，当用户进行呼叫时，您可以更改来电显示以显示组织的主要电话号码，而不是用户的电话号码。
+例如，当用户进行呼叫时，你可以更改呼叫者 ID 以显示组织的主要电话号码，而不是用户的电话号码。
 
-通过转到**Voice**  >  "Microsoft 团队管理中心" 中的 "语音来电显示"**策略**来管理呼叫者 id 策略。 你可以使用全局 (组织范围默认) 策略，或者创建和分配自定义策略。 除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。
+通过访问 Microsoft Teams 管理中心中的"**语音** 呼叫  >  **者 ID"** 策略来管理来电显示策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
 
-## <a name="create-a-custom-caller-id-policy"></a>创建自定义呼叫方 ID 策略
+## <a name="create-a-custom-caller-id-policy"></a>创建自定义来电显示策略
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **呼叫者 ID 策略**"。
-2. 单击“添加”****。 <br>
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"语音**  >  **呼叫者 ID 策略"。**
+2. 单击“**添加**”。 <br>
 ![管理中心中新来电显示策略页面的屏幕截图](media/caller-id-policies-add-policy.png)
 3. 输入策略的名称和说明。
-4. 在此处，选择所需的设置：
+4. 从此处选择想要的设置：
 
-    - **阻止来电呼叫者 id**：启用此设置可阻止显示传入呼叫的来电显示。
-    - **替代呼叫方 ID 策略**：启用此设置，让用户覆盖策略中的设置以将其号码显示为 callees。 这意味着用户可以选择是否要显示其呼叫者 ID。 有关详细信息，请参阅 [最终用户对出站呼叫程序 ID 的控制](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id)。
-    - 将**来电显示替换**为：通过选择下列操作之一，设置要为用户显示的呼叫者 id：
+    - **阻止来电** 显示：打开此设置，阻止显示传入呼叫的来电显示。
+    - **替代呼叫者 ID** 策略：打开此设置，让用户覆盖策略中有关显示其号码以不向被呼叫者显示其号码的设置。 这意味着用户可以选择是否显示其来电显示。 有关详细信息，请参阅 [最终用户控制出站来电显示](./how-can-caller-id-be-used-in-your-organization.md#end-user-control-of-outbound-caller-id)。
+    - **将呼叫方 ID 替换为**：通过选择下列选项之一，设置要显示给用户的来电显示：
 
-        - **用户号码**：显示用户的号码。 
-        - **服务号码**：允许您将服务电话号码设置为显示为呼叫方 ID。
-        - **匿名**：以匿名方式显示呼叫方 ID。
+        - **用户编号**：显示用户编号。 
+        - **服务号码**：用于设置要显示为呼叫方 ID 的服务电话号码。
+        - **匿名**：将来电显示为"匿名"。
 
-    - **将呼叫方 Id 替换为此服务号码**：选择服务号码以替换用户的来电显示。 如果在 **"将呼叫方 ID 替换为**" 中选择了 "**服务编号**"，则此选项可用。
+    - **将来电显示替换为此服务号码**：选择服务号码以替换用户的来电显示。 如果在将呼叫方 ID 替换为 **中选择了** "服务号码 **"，则此选项可用**。
 
 5. 单击“**保存**”。
 
-## <a name="edit-a-caller-id-policy"></a>编辑呼叫者 ID 策略
+## <a name="edit-a-caller-id-policy"></a>编辑来电显示策略
 
-你可以编辑全局策略或你创建的任何自定义策略。 
+可以编辑全局策略或创建的任何自定义策略。 
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **呼叫者 ID 策略**"。
-2. 通过单击策略名称左侧，然后单击 " **编辑**"，选择策略。
-3. 更改所需的设置，然后单击 " **保存**"。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"语音**  >  **呼叫者 ID 策略"。**
+2. 单击策略名称的左侧以选择用户，然后单击“**编辑**”。
+3. 更改想要的设置，然后单击"保存 **"。**
 
-## <a name="assign-a-custom-caller-id-policy-to-users"></a>为用户分配自定义呼叫者 ID 策略
+## <a name="assign-a-custom-caller-id-policy-to-users"></a>向用户分配自定义来电显示策略
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>相关主题
 
-[新-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 
-[向团队中的用户分配策略](assign-policies.md)
+[向 Teams 中的用户分配策略](assign-policies.md)

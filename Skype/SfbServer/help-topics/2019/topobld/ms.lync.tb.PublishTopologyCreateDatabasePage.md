@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
-description: 拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 当您使用拓扑生成器安装数据库时，应用程序会从拓扑中读取信息，然后将所需数据库安装在指定的 SQL Server 或 SQL Server 群集上。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须改为使用 Windows PowerShell 命令行接口和 Install-CsDatabase cmdlet。
-ms.openlocfilehash: 1092840305d1a455aa094776ae757cf074f7e89a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 使用拓扑生成器安装数据库时，应用程序从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须使用 Windows PowerShell 命令行接口和 Install-CsDatabase cmdlet。
+ms.openlocfilehash: 92e0c8c0221fbd697ce59587ff4543d6cf7e119d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822282"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101828"
 ---
 # <a name="create-database"></a>创建数据库
  
-拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 当您使用拓扑生成器安装数据库时，应用程序会从拓扑中读取信息，然后将所需数据库安装在指定的 SQL Server 或 SQL Server 群集上。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须改为使用 Windows PowerShell 命令行接口和 [Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet。
+拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 使用拓扑生成器安装数据库时，应用程序从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须改为使用 Windows PowerShell 命令行接口和 [Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet。
   
 ### <a name="creating-a-database"></a>创建数据库
 
-1. 单击 Skype for Business Server 节点，然后单击"**安装数据库"。**
+1. 单击"Skype for Business Server"节点，然后单击"**安装数据库"。**
     
-2. 在"安装数据库"对话框中的"创建数据库"页上，选择要创建新数据库的 SQL Server 存储的完全限定域名 (FQDN) 。
+2. 在"**安装** 数据库"对话框中的"创建数据库"页上，选择要创建新数据库的 SQL Server 存储的完全限定域名 (FQDN) FQDN。
     
 3. 单击“高级”。在“选择数据库文件位置”对话框中，选择下列选项之一：
     
@@ -43,5 +43,3 @@ ms.locfileid: "49822282"
 5. 在“创建数据库”页上，单击“下一步”。
     
 6. 在“数据库创建已完成”页上，单击“完成”。
-    
-

@@ -15,24 +15,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 边缘服务器可以配置为允许内部和外部用户访问合作伙伴组织或服务中的联系人。
-ms.openlocfilehash: 3051461f50a511e959f73604a5049a0b58a51649
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 可以将边缘服务器配置为允许内部和外部用户访问合作伙伴组织或服务中的联系人。
+ms.openlocfilehash: 4c6790ee5825e57a6c0bd41d85dae6b3c84a095e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819802"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103538"
 ---
 # <a name="federation-planning-tool"></a>联合 (规划工具) 
  
-边缘服务器可以配置为允许内部和外部用户访问合作伙伴组织或服务中的联系人。
+可以将边缘服务器配置为允许内部和外部用户访问合作伙伴组织或服务中的联系人。
   
- 联盟在 Skype for Business Server 中的工作方式与 Microsoft Lync 2013 一样。 有关准备联合环境的详细信息，请参阅下列主题：
+ 联盟在 Skype for Business Server 中的工作方式与在 Microsoft Lync 2013 中一样。 有关为联合环境准备环境的更多详细信息，请参阅下列主题：
   
-- [规划 Lync Server 2013 和 Office Communications Server 联盟](https://technet.microsoft.com/library/jj205335%28v=ocs.15%29.aspx)
+- [规划 Lync Server 2013 和 Office Communications Server 联盟](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
     
-- [在 Lync Server 2013 中规划公共即时消息连接](https://technet.microsoft.com/library/jj205349%28v=ocs.15%29.aspx)
+- [在 Lync Server 2013 中规划公共即时消息连接](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-public-instant-messaging-connectivity)
     
-- [在 Lync Server 2013 中规划 XMPP (联盟) 可扩展消息传递和状态协议](https://technet.microsoft.com/library/jj205107%28v=ocs.15%29.aspx)
-    
-
+- [在 Lync Server 2013 中规划 XMPP (联盟中的可扩展) 和状态协议](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation)

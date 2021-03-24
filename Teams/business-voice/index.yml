@@ -8,12 +8,12 @@ metadata:
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: f810d9249b979b7059811d54161d8d65641f14e3
-  ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+  ms.openlocfilehash: 6cf78bac0d7fafee768641120116f8397b8566c8
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 08/17/2020
-  ms.locfileid: "46778105"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51102948"
 productDirectory:
   items:
   - title: 浏览
@@ -23,12 +23,12 @@ productDirectory:
       text: 什么是商务语音
     - url: https://www.microsoft.com/microsoft-365/business-voice
       text: Microsoft 365 商务语音
-    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description
+    - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
       text: 服务说明
   - title: 设置
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
     links:
-    - url: https://docs.microsoft.com/microsoftteams/business-voice/what-to-buy
+    - url: ./what-to-buy.md
       text: 如何获取商务语音
     - url: get-ready-internet.md
       text: 检查 Internet 连接。
@@ -41,11 +41,11 @@ productDirectory:
     links:
     - url: port-phone-numbers.md
       text: 转移现有电话号码
-    - url: set-up-auto-attendants.md
+    - url: ./create-a-phone-system-auto-attendant-smb.md
       text: 设置自动助理
     - url: set-up-policies.md
       text: 设置策略
-    - url: set-up-call-queues.md
+    - url: ./create-a-phone-system-call-queue-smb.md
       text: 设置呼叫队列
   - title: 用途
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
@@ -61,7 +61,7 @@ productDirectory:
   - title: 合作伙伴资源
     imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
     links:
-    - url: https://docs.microsoft.com/partner-center/
+    - url: /partner-center/
       text: 从合作伙伴中心获取 Microsoft 365 商业版
     - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
       text: 适用于合作伙伴的 Microsoft 365 商务语音
@@ -77,11 +77,11 @@ productDirectory:
   - title: 帮助文档
     imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
     links:
-    - url: /microsoftteams/cloud-voice-landing-page
+    - url: ../cloud-voice-landing-page.md
       text: Microsoft Teams 管理文档
     - url: https://microsoftteams.uservoice.com/
       text: Microsoft Teams UserVoice 反馈
     - url: https://support.office.com/teams
       text: Microsoft Teams 客户文档
-    - url: https://docs.microsoft.com/office365/admin/
+    - url: /office365/admin/
       text: Microsoft 365 和 Office 365 管理文档

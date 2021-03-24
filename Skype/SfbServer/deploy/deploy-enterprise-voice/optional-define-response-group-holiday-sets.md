@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: 在 Skype for Business Server 企业语音 创建或修改响应组假日企业语音。
-ms.openlocfilehash: dd3144c687329f82542d5b658c47212dd390c9fb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Create or modify Response Group holiday sets， in Skype for Business Server 企业语音.
+ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830982"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103678"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (Skype for Business) 定义响应组假日集的可选选项
  
-在 Skype for Business Server 企业语音 创建或修改响应组假日企业语音。
+Create or modify Response Group holiday sets， in Skype for Business Server 企业语音.
   
 假日设置定义响应组停止办公的日期并指定在这些日期采取的操作。假日集是指适用于响应组的假日的集合。
   
@@ -33,7 +33,7 @@ ms.locfileid: "49830982"
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 3. 对于要定义的每个假日，请运行：
     
@@ -59,6 +59,6 @@ ms.locfileid: "49830982"
 
 [在 Skype for Business 中设计和创建响应组工作流](designing-and-creating-response-group-workflows.md)
 
-[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
+[New-CsRgsHolidaySet](/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

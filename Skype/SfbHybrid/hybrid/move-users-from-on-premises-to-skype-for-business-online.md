@@ -18,31 +18,31 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 了解如何将用户移动到 Skype for Business Online。
-ms.openlocfilehash: a9fb80046195580daca6dfc7f810b2e0c1877f1c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4d74cdebc5477d0204f69b64c2c05a4435212b3f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221112"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110618"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>将用户从本地迁移至 Skype for Business Online
 
-将用户从本地迁移到 Skype for business Online 后，用户将与 Skype for Business Online 进行交互，了解其功能。 在 Skype for Business Online 中将提供本地的所有联系人，并且在将来组织的任何现有会议将更新为，以便这些链接指向 Skype for Business Online。 如果用户已启用音频会议，则会议还将包括拨入坐标。  若要将用户从本地环境移动到 Skype for Business Online，请使用 Get-csuser cmdlet 或 Skype for Business Server 控制面板，这两个控制面板都是本地工具。 
+将用户从本地移动到 Skype for Business Online 后，用户与 Skype for Business Online 交互，了解其功能。 本地存在的任何联系人都将在 Skype for Business Online 中可用，用户为将来组织的任何现有会议都将更新为 ，以便链接指向 Skype for Business Online。 如果用户启用了音频会议，则会议还将包括拨入坐标。  若要将用户从本地环境移动到 Skype for Business Online，请使用 Move-CsUser cmdlet 或 Skype for Business Server 控制面板，这两者都是本地工具。 
 
-在移动任何用户之前，请务必查看将用户移动到云的[先决条件](move-users-between-on-premises-and-cloud.md#prerequisites)。
+在移动任何用户之前，请务必查看 [将](move-users-between-on-premises-and-cloud.md#prerequisites) 用户迁移到云的先决条件。
  
-## <a name="move-users-with-move-csuser"></a>将用户移动到 Get-csuser 
+## <a name="move-users-with-move-csuser"></a>使用迁移功能Move-CsUser 
 
-Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell PowerShell PowerShell 窗口中获取。 在内部部署环境以及 Microsoft 365/Office 365 组织中，您必须具有足够的权限，如[所需管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用在两个环境中具有权限的单个帐户，也可以使用本地凭据启动本地 Skype for Business Server Management Shell 窗口，并使用 `-Credential` 参数指定具有必要管理角色的 Microsoft 365 或 Office 365 帐户的凭据。
+Move-CsUser本地 Skype for Business 命令行管理程序 PowerShell 窗口提供。 您必须在本地环境和 Microsoft 365/Office 365 组织中具有足够的权限，如所需的管理 [凭据中所述](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)。 可以在两个环境中使用具有特权的单个帐户，或者可以使用本地凭据启动本地 Skype for Business Server 命令行管理程序窗口，并使用 参数指定具有所需 管理角色 的 `-Credential` Microsoft 365 或 Office 365 帐户的凭据。
 
-使用 Get-csuser 将用户移动到联机状态的步骤：
+若要使用 Move-CsUser 将用户移动到联机：
 
 - 使用 Identity 参数指定要移动的用户。
-- 指定值为 "sipfed.online.lync.com>" 的-Target 参数。 <span>com "。
-- 如果您没有一个帐户在本地和 Office 365 中具有足够的权限，请使用-credential 参数在 Office 365 中提供具有足够权限的帐户。
-- 如果在 Office 365 中具有权限的帐户不以 ". .onmicrosoft" 结尾。 <span>com "，则必须使用[所需管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述的正确值指定-HostedMigrationOverrideUrl 参数。
+- 使用值"sipfed.online.lync"指定 -Target 参数。 <span>com"。
+- 如果您没有一个在本地和 Office 365 中具有足够权限的帐户，请使用 -credential 参数在 Office 365 中为帐户提供足够权限。
+- 如果在 Office 365 中具有权限的帐户没有以".onmicrosoft"结尾。 <span>com"， then you must specify the -HostedMigrationOverrideUrl parameter， with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-可以使用以下 cmdlet 序列将用户移动到 Skype for Business Online。 假定 Microsoft 365 或 Office 365 凭据是一个单独的帐户，并作为 Get Credential 提示的输入提供。
+以下 cmdlet 序列可用于将用户移动到 Skype for Business Online。 它假定 Microsoft 365 或 Office 365 凭据是单独的帐户，并作为输入提供给 Get-Credential 提示。
 
 ```PowerShell
 $cred=Get-Credential
@@ -51,19 +51,19 @@ $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
 ```
 
-如果管理员帐户已启用 MFA （多重身份验证），请不要指定-Credential 参数。 系统将提示管理员输入凭据。
+如果管理员帐户启用了 MFA (多重身份验证) ，则不要指定 -Credential 参数。 将提示管理员输入凭据。
 
 ## <a name="move-users-with-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板移动用户 
 
-1. 打开 "Skype for Business Server 控制面板" 应用。
-2. 在左侧导航栏中，选择 "**用户**"。
-3. 使用 "**查找**" 查找要迁移到 Skype For business Online 的用户。
-4. 选择用户，然后从列表上方的 "**操作**" 下拉列表中选择 "**将所选用户移动到 Skype for business Online**"。
-5. 在向导中，单击“下一步”****。
-6. 如果出现提示，请使用以 onmicrosoft.com 结尾的帐户登录 Microsoft 365 或 Office 365 并拥有足够的权限。
-7. 单击 "**下一步**"，然后再单击一次以移动用户。 **Next**
-8. 请注意，有关成功或失败的状态消息是在主控制面板应用程序的顶部提供的，而不是在向导中提供的。
+1. 打开 Skype for Business Server 控制面板应用。
+2. 在左侧导航栏中，选择"**用户"。**
+3. 使用 **"** 查找"查找 (要) Skype for Business Online 的用户。
+4. Select the user (s) ， and then， from the **Action** dropdown above the list， choose **Move selected users to Skype for Business Online**.
+5. 在向导中，单击“下一步”。
+6. 如果系统提示，使用以 .onmicrosoft.com 结尾且具有足够权限的帐户登录到 Microsoft 365 或 Office 365。
+7. 单击 **"下****一步**"，再单击"下一步"以移动用户。
+8. 请注意，有关成功或失败的状态消息在主"控制面板"应用的顶部提供，而不是在向导中提供。
 
 ## <a name="see-also"></a>另请参阅
 
-[移动-Get-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
+[Move-CsUser](/powershell/module/skype/move-csuser)

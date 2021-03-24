@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 9b084afa7730d849f221de1d297f07359d200c79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726233"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102828"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用“入门”向导设置商务语音
 
@@ -110,7 +110,7 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
 </table>
 
 > [!IMPORTANT]
-> 入门向导可帮助你设置简单的呼叫菜单，让你快速启动并运行。 如果你有多个想要设置呼叫菜单的电话号码，或者如果想要设置更复杂的呼叫菜单（也称为自动助理），请在完成该向导后参阅[设置云自动助理](set-up-auto-attendants.md)。
+> 入门向导可帮助你设置简单的呼叫菜单，让你快速启动并运行。 如果你有多个想要设置呼叫菜单的电话号码，或者如果想要设置更复杂的呼叫菜单（也称为自动助理），请在完成该向导后参阅[设置云自动助理](./create-a-phone-system-auto-attendant-smb.md)。
 
 <table>
     <tr>

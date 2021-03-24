@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: ec3c035986d61dda78c6a940a7699fef7f4217a6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938491"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094042"
 ---
 # <a name="privacy-and-microsoft-teams"></a>隐私和 Microsoft Teams
 
@@ -60,7 +60,7 @@ Microsoft 处理 Microsoft Teams 中的个人数据，以提供[联机服务条�
 
 如果执法部门对 Microsoft 提出要求，则 Microsoft 会尝试引导执法部门联系客户，以获取客户的个人数据。 如果不得不向执法部门披露个人数据，则 Microsoft 会立即通知客户，并提供一份要求的副本，除非法律禁止这样做。 有关我们为响应执法部门以及其他政府机构请求而披露的数据的详细信息，请参阅我们的[执法请求报告](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report)。
 
-[Teams 安全性指南](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards)提供了有关我们的合规性标准的详细信息。
+[Teams 安全性指南](./security-compliance-overview.md#compliance-standards)提供了有关我们的合规性标准的详细信息。
 
 ## <a name="where-does-teams-transfer-and-store-personal-data"></a>Teams 将个人数据传输并存储在何处？
 

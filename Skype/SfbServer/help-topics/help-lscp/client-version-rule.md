@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: 客户端版本策略由一组客户端版本规则组成。这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。
-ms.openlocfilehash: 14e9c0d14ce988ec89d8bb13410272c4734ae882
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4c46a93e46e1e07865a466a666a450a766c6897e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829492"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103448"
 ---
 # <a name="client-version-rule"></a>客户端版本规则
 
@@ -59,17 +59,17 @@ ms.locfileid: "49829492"
 |Lync 2010 for Android  <br/> |AndroidLync  <br/> |
 |Mobility Service  <br/> |McxService  <br/> |
 
-- **版本号** 您可以指定以下字段的版本号，或使用通配符指示客户端版本号。
+- **版本号** 可以指定以下字段的版本号，或使用通配符指示客户端版本号。
 
-  - **主要版本** 指定与客户端的主要版本相对应的数量。
+  - **主要版本** 指定与客户端的主要版本对应的数字。
 
-  - **次要版本** 指定与客户端的次要版本相对应的数量。
+  - **次要版本** 指定与客户端次要版本对应的数字。
 
-  - **内部版本** 指定与客户端的主要版本和次要版本对应的内部版本。
+  - **内部版本** 指定与客户端的主要版本和次要版本对应的内部版本号。
 
   - **更新** 指定与客户端的更新版本相对应的数量。
 
-- **比较操作** 您可以为上述步骤中指定的客户端版本指定匹配操作。 可以使用以下操作：
+- **比较操作** 您可以指定前面步骤中指定的客户端版本的匹配操作。 可以使用以下操作：
 
   - **相同**
 
@@ -83,7 +83,7 @@ ms.locfileid: "49829492"
 
   - **更低或相同**
 
-- **操作** 可以指定在满足上述步骤中的条件时要执行的操作。 可以使用以下操作：
+- **操作** 可以指定在满足前面步骤中的条件时要执行的操作。 可以使用以下操作：
 
   - **允许** 允许客户端登录。
 
@@ -100,5 +100,4 @@ ms.locfileid: "49829492"
 
   - **使用 URL 阻止**   阻止客户端登录并显示有关下载其他客户端版本的位置的消息。可以在“URL”字段中指定 URL。
 
-有关客户端和客户端版本之间的交互性的详细信息，请参阅规划文档中的 [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)。 有关使用客户端版本配置的详细信息，请参阅操作文档中的[Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)。
-
+有关客户端和客户端版本之间的交互性的详细信息，请参阅规划文档中的 [Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)。 有关使用客户端版本配置的详细信息，请参阅操作文档中的[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)。

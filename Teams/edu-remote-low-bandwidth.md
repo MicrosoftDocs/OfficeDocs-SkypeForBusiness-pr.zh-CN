@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24f34ea2e65906c648081a019d6acf8a3f8a5cd5
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: b254bfb89a96efed65e2c1fdba1c345825d81dc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034063"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111078"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>帮助 EDU 解决 Teams 低带宽问题
 
@@ -62,13 +62,13 @@ ms.locfileid: "43034063"
 - 完全禁用视频，任何人都无法启用它。
 - 媒体比特率（每用户设置）。
 
-若要详细了解你的选项，以及你需要为会议和视频设置哪些策略，请参阅 [Teams 中的会议策略设置：音频和视频](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video)，以获取详细的演练信息。
+若要详细了解你的选项，以及你需要为会议和视频设置哪些策略，请参阅 [Teams 中的会议策略设置：音频和视频](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video)，以获取详细的演练信息。
 
 #### <a name="screen-sharing-policies"></a>屏幕共享策略
 
 在其他情况下，教师可能会与学生共享整个屏幕，而共享应该仅限于与正在教授的课程相关的应用程序。 这也可以通过策略设置，如果这样做比让教师自己做出选择更可取的话。
 
-若要详细了解如何通过策略设置来限制屏幕共享，请参阅 [Teams 中的会议策略设置：屏幕共享](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video)。
+若要详细了解如何通过策略设置来限制屏幕共享，请参阅 [Teams 中的会议策略设置：屏幕共享](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
 
 #### <a name="dial-in-number-for-meetings"></a>会议拨入号码
 

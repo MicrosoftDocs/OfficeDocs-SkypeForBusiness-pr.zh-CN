@@ -19,12 +19,12 @@ description: Microsoft 365 商务语音是用于语音呼叫的廉价选项，�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ac79d8ad612d24c3db2cf9e1bfd276ef788bac5a
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 6071264efda73f129890ce4c43131a7580fe0595
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030778"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102808"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什么是 Microsoft 365 商务语音？
 
@@ -79,5 +79,4 @@ Microsoft 365 商务语音让中小型企业可以轻松地将 Microsoft Teams �
     </tr>
 </table>
 
-可通过访问 [Microsoft 365 商务语音服务说明](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)，查看商务语音中包含的所有内容。
-
+可通过访问 [Microsoft 365 商务语音服务说明](/office365/servicedescriptions/microsoft-365-business-voice-service-description)，查看商务语音中包含的所有内容。

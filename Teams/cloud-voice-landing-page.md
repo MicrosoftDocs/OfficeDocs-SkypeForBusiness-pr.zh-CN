@@ -21,26 +21,26 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-may2020
 search.appverid: MET150
-description: 了解有关 Microsoft Teams 云语音功能以及将为组织做出部署决策的信息。
+description: 详细了解 Microsoft Teams 云语音功能和将为组织做出部署决策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcd7ebfd4542c38bd56900c1e414dadec09bf246
-ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
+ms.openlocfilehash: 5d77e0b1ec6277bfeffd85d6657d14fe810aae96
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50408188"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102568"
 ---
 # <a name="plan-your-teams-voice-solution"></a>规划 Teams 语音解决方案 
 
-本文帮助你确定哪个 Microsoft 语音解决方案适合你的组织。 确定后，本文提供了内容路线图，可让你实现所选解决方案。
+本文帮助你确定哪个 Microsoft 语音解决方案适合你的组织。 确定后，本文提供内容路线图，实现所选解决方案。
 
 > [!NOTE]
 > 有关规划 Teams 语音解决方案作为从 Skype for Business Server 升级到 Teams 总体计划的一部分的指导，请参阅从本地 Skype for Business 升级到 Teams 的 [PSTN 注意事项](upgrade-to-teams-on-prem-pstn-considerations.md)。
 
-你可能希望使用具有呼叫计划 &mdash; 的最简单解决方案电话系统。 这是 Microsoft 的全云解决方案，可提供 Private Branch Exchange (PBX) 功能，以及拨打公用电话交换网 (PSTN) ，如下图所示。 借助此解决方案，Microsoft 是您的 PSTN 运营商。
+你可能希望使用具有呼叫 &mdash; 计划的最简单解决方案电话系统。 这是 Microsoft 的全云解决方案，可提供专用交换机 (PBX) 功能，并呼叫公用电话交换网 (PSTN) ，如下图所示。 借助此解决方案，Microsoft 是你的 PSTN 运营商。
 
-![图 1 显示具有通话套餐的电话系统](media/voice-solutions-simple.png)
+![图 1 显示具有呼叫计划的电话系统](media/voice-solutions-simple.png)
 
 如果你对以下内容回答"是"，则"电话系统与通话套餐"是适合你的解决方案：
 
@@ -51,38 +51,38 @@ ms.locfileid: "50408188"
 但是，情况可能更复杂。 例如，你可能在呼叫计划不可用的位置设有办公室。 或者，可能需要一个支持复杂、跨区域部署、对不同地理位置有不同的要求的组合解决方案。 Microsoft 支持解决方案的组合： 
 
 - 具有通话套餐的电话系统
-- 具有自己的 PSTN 运营商的电话系统，具有直接路由
-- 将电话系统与通话套餐和电话系统与直接路由结合使用的组合解决方案
+- 通过直接路由使用自己的 PSTN 运营商的电话系统
+- 将电话系统与呼叫计划和电话系统与直接路由结合使用的组合解决方案
 
 ## <a name="what-do-you-need-to-read"></a>需要阅读哪些信息？
 
-**全部必需。** 本文中的某些部分适用于所有组织。 例如，每个人都应阅读有关电话系统的信息，并了解使用 PSTN (电话) 。 
+**全部必需。** 本文中的某些部分适用于所有组织。 例如，每个人都应该阅读有关电话系统的信息，并了解用于连接到 PSTN 公用电话交换 (的选项) 。 
 
 
 | 全部必需 | 说明 |
 | :------------|:-------|
-| [**电话系统**](#phone-system) | Microsoft 通过 Microsoft Teams 在 Microsoft 365 云中启用呼叫控制和专用交换机 (PBX) 功能的技术。 |
-| [**公共电话交换网络 (PSTN) 连接选项**](#public-switched-telephone-network-connectivity-options) | 可以选择使用 Microsoft 作为电话运营商，还是使用直接路由将你自己的电话运营商连接到 Microsoft Teams。 PSTN 连接选项与电话系统相结合，使用户能够拨打全球电话。|
+| [**电话系统**](#phone-system) | Microsoft 的技术，用于通过 Microsoft Teams 在 Microsoft 365 云中启用呼叫控制和专用交换机 (PBX) 功能。 |
+| [**PSTN 公用电话交换 (PSTN) 连接选项**](#public-switched-telephone-network-connectivity-options) | 可以选择使用 Microsoft 作为电话运营商，还是使用直接路由将你自己的电话运营商连接到 Microsoft Teams。 PSTN 连接选项与电话系统相结合，使用户能够拨打全球电话。|
 
-**取决于你的要求。** 本文中的某些部分与现有的部署和要求相关。 例如，Location-Based直接路由客户在不允许通行费绕过的地理位置使用直接路由。
+**根据你的要求。** 本文中的某些部分与现有的部署和要求相关。 例如，Location-Based直接路由客户在不允许收费绕过的地理位置进行直接路由。
 
-请考虑可能需要以下哪些附加配置：
+请考虑可能需要以下附加配置中的哪一种：
 
 ![图 2 显示了其他语音组件，例如 Microsoft 的电话号码、拨号计划和呼叫路由等。](media/voice-consider-additional-components.png)
 
-| 根据你的要求 | 说明 |
+| 根据要求 | 说明 |
 | :------------|:-------|
 | [**Microsoft 提供的电话号码**](#phone-numbers-from-microsoft) | 如何从 Microsoft 获取和管理电话号码，以及如何将现有号码转移到 Microsoft。 如果需要获取 Microsoft 呼叫计划的电话号码、转移现有号码、获取服务号码等，请阅读此内容。 |
-| [**拨号计划和呼叫路由**](#dial-plans-and-call-routing) | 如何配置和管理将拨号电话号码转换为备用格式的拨号计划 (通常使用 E.164) 进行呼叫授权和呼叫路由。 如果需要了解什么是拨号计划以及是否需要为组织指定拨号计划，请阅读此说明。|
-| [**紧急呼叫**](#emergency-calling) | 如何根据 PSTN 连接选项 &mdash; 管理和配置紧急呼叫。 如果使用 Microsoft 呼叫计划或直接路由，并且需要了解如何管理组织的紧急呼叫，请阅读本部分。 |
-| [**直接路由的基于位置的路由**](#location-based-routing-for-direct-routing) |如何使用"Location-Based路由 (LBR) 根据 Microsoft Teams 用户的地理位置限制免费。 如果组织在不允许绕过收费站的位置使用直接路由，请阅读本部分。
-| [**云语音功能的网络拓扑**](#network-topology-for-voice-features) | 如果组织为直接路由Location-Based LBR (部署) 路由或动态紧急呼叫，则必须配置网络设置，以与 Microsoft Teams 中的这些功能一起使用。 如果要实现用于直接路由的 LBR，或者使用呼叫计划或直接路由实现动态紧急呼叫，请阅读本部分。 |
+| [**拨号计划和呼叫路由**](#dial-plans-and-call-routing) | 如何配置和管理将拨号电话号码转换为备用格式的拨号计划 (通常为 E.164 格式) 进行呼叫授权和呼叫路由。 如果需要了解什么是拨号计划以及是否需要为组织指定拨号计划，请阅读此说明。|
+| [**紧急呼叫**](#emergency-calling) | 如何管理和配置紧急呼叫 &mdash; ，具体取决于 PSTN 连接选项。 如果使用 Microsoft 呼叫计划或直接路由，并且需要了解如何为组织管理紧急呼叫，请阅读本部分。 |
+| [**用于直接路由的基于位置的路由**](#location-based-routing-for-direct-routing) |如何使用 LBR Location-Based路由 (，) 基于地理位置限制 Microsoft Teams 用户的免收费。 如果组织在不允许绕过收费站的位置使用直接路由，请阅读本部分。
+| [**云语音功能的网络拓扑**](#network-topology-for-voice-features) | 如果组织为直接Location-Based或) 的 LBR Location-Based (路由或 LBR) ，则必须配置网络设置，以与 Microsoft Teams 中的这些功能一起使用。 如果要为直接路由实现 LBR，或者使用呼叫计划或直接路由实现动态紧急呼叫，请阅读本部分。 |
 | [**迁移现有语音解决方案**](#migrate-your-existing-voice-solution-to-teams) | 将语音解决方案迁移到 Teams 时需考虑的问题。  如果要从现有语音解决方案迁移到 Teams，请阅读本部分。 
 
 
 
 > [!Important]
-> 本文重点介绍 Microsoft Teams 的语音解决方案。 虽然 Skype for Business Online 解决方案 ([如 Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions) 电话解决方案) 中所述，但必须了解 Skype for Business Online 将于 2021 年 7 月 31 日停用。  该日期之后，Skype for Business Online 服务将无法再访问。 此外，将不再支持本地环境（无论是通过 Skype for Business Server 还是 Cloud Connector Edition 和 Skype for Business Online）建立 PSTN &mdash; &mdash; 连接。 本文介绍 Teams 语音解决方案，以及如何在必要时使用直接路由将本地电话网络连接到 Teams。
+> 本文重点介绍 Microsoft Teams 的语音解决方案。 虽然 Skype for Business Online 解决方案 ([如 Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions) 电话解决方案) 中所述，但必须了解 Skype for Business Online 将于 2021 年 7 月 31 日停用。  在此日期之后，Skype for Business Online 服务将无法再访问。 此外，将不再支持本地环境（无论是通过 Skype for Business Server 还是 Cloud Connector Edition）与 Skype for Business Online 建立 &mdash; &mdash; PSTN 连接。 本文介绍 Teams 语音解决方案，以及如何在必要时使用直接路由将本地电话网络连接到 Teams。
 
 
 ## <a name="phone-system"></a>电话系统
@@ -105,14 +105,14 @@ ms.locfileid: "50408188"
 
 - [电话系统的功能](here-s-what-you-get-with-phone-system.md)
 - [在组织中设置电话系统](setting-up-your-phone-system.md)<br>
-  介绍如何购买和分配电话系统许可证、管理电话号码以及设置免费电话号码的通信信用额度。 
+  介绍如何购买和分配电话系统许可证、管理电话号码以及设置免费号码的通信信用额度。 
 
-有关管理受支持设备的信息，请参阅"在[Microsoft Teams](devices/device-management.md)和 Teams 市场中管理[设备"。](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+有关管理受支持设备的信息，请参阅 [在 Microsoft Teams](devices/device-management.md) 和 Teams 市场中 [管理设备](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
 
 
 ### <a name="auto-attendants-and-call-queues"></a>自动助理和呼叫队列
 
-自动助理允许您设置菜单选项，以便根据呼叫者输入路由呼叫。 呼叫队列正在等待调用方的区域。 自动助理和呼叫队列一起使用可以轻松地将呼叫者路由到组织中相应的人员或部门。
+自动助理允许您设置菜单选项，以便根据呼叫者输入路由呼叫。 呼叫队列正在等待呼叫者的区域。 自动助理和呼叫队列一起使用可以轻松地将呼叫者路由到组织中相应的人员或部门。
 
 有关自动助理和呼叫队列的信息，请参阅以下文章：
 
@@ -124,13 +124,13 @@ ms.locfileid: "50408188"
 
 ### <a name="cloud-voicemail"></a>云语音邮件
 
-由 Azure 语音邮件服务支持的云语音邮件仅支持将语音邮件记录到 Exchange 邮箱。 它不支持第三方电子邮件系统。 
+由 Azure 语音邮件服务支持的云语音邮件仅支持对 Exchange 邮箱的语音邮件存款。 它不支持第三方电子邮件系统。 
 
 云语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 你的业务需求可能要求你为特定用户或整个组织所有人禁用语音邮件转录。
 
 对于仅联机用户，为用户分配电话系统许可证后，会自动设置和预配云语音邮件。 对于具有 Exchange 邮箱的电话系统用户，需要执行额外的配置步骤。 
 
-有关云语音邮件及其配置详细信息，请参阅以下文章：
+有关云语音邮件及其配置的信息，请参阅以下文章：
 
 - [设置云语音邮件](set-up-phone-system-voicemail.md)
 - [在组织中设置语音邮件策略](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)
@@ -138,7 +138,7 @@ ms.locfileid: "50408188"
 
 ### <a name="calling-identity"></a>调用标识
 
-默认情况下，所有出站呼叫使用分配的电话号码作为呼叫标识 (呼叫者 ID) 。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。 有关配置呼叫者 ID 或更改或阻止呼叫者 ID 的信息，请参阅"为[用户设置呼叫方 ID"。](set-the-caller-id-for-a-user.md) 
+默认情况下，所有出站呼叫使用分配的电话号码作为呼叫标识 (呼叫者 ID) 。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。 有关配置来电显示或更改或阻止来电显示的信息，请参阅 [为用户设置来电显示](set-the-caller-id-for-a-user.md)。 
 
 ## <a name="public-switched-telephone-network-connectivity-options"></a>公用电话交换网络连接选项
 
@@ -148,11 +148,11 @@ ms.locfileid: "50408188"
 
 - [**使用直接路由将本地**](#phone-system-with-own-pstn-carrier-with-direct-routing) 环境连接到 Teams，使用自己的 PSTN 运营商的电话系统。
 
-还可以选择选项组合，这样，就可以为复杂环境设计解决方案，或者管理多步骤迁移 (以后进行) 。
+还可以选择一组选项，用于为复杂环境设计解决方案，或管理多步骤迁移 (以后迁移) 。
 
 ### <a name="phone-system-with-calling-plan"></a>具有通话套餐的电话系统 
 
-如本文前面所述，具有通话套餐的电话系统是 Microsoft 为 Teams 用户提供的全云语音解决方案。 这是将 Microsoft Phone System 连接到公用电话交换网 (PSTN) 以启用对世界各地的座机和移动电话的呼叫的最简单选项。 使用此选项，Microsoft 为组织 (PBX) 专用分支 Exchange 功能，并充当 PSTN 运营商，如下图所示：
+如本文前面所述，具有通话套餐的电话系统是 Microsoft 为 Teams 用户提供的全云语音解决方案。 这是将 Microsoft Phone System 连接到公用电话交换网 (PSTN) 以拨打世界各地的座机和移动电话的最简单选项。 使用此选项，Microsoft 为组织 (PBX) 专用交换机功能，并充当 PSTN 运营商，如下图所示：
 
 ![图 4 显示电话系统与自动助理、呼叫队列、呼叫者 ID 等，以及 Microsoft 作为 PSTN 运营商](media/voice-solution-microsoft-complete.png)
 
@@ -164,11 +164,11 @@ ms.locfileid: "50408188"
 
 使用此选项： 
 
-- 你可获取 Microsoft Phone 系统，并添加国内或国际呼叫计划，以便拨打世界各地的电话 (具体取决于获得许可的服务) 。
+- 你可获取 Microsoft Phone 系统，其添加的国内或国际呼叫计划允许拨打世界各地的电话 (具体取决于获得许可的服务) 。
 
-- 不需要部署或维护本地部署，因为呼叫计划在 &mdash; Microsoft 365 或 Office 365 外运行。
+- 不需要部署或维护本地部署，因为呼叫计划 &mdash; 在 Microsoft 365 或 Office 365 外运行。
 
-- 注意：如有必要，可以选择通过直接路由连接受支持的会话边界控制器 (SBC) ，实现与 SBC 支持的第三方 PBX、模拟设备和其他第三方电话设备的互操作性。
+- 注意：如有必要，可以选择通过直接路由连接受支持的会话边界控制器 (SBC) ，以与 SBC 支持的第三方 PBX、模拟设备和其他第三方电话设备进行互操作性。
 
 此选项需要不间断地连接到 Microsoft 365 或 Office 365。
 
@@ -176,42 +176,42 @@ ms.locfileid: "50408188"
 
 - [哪种通话套餐适合你？](calling-plan-landing-page.md)
 - [如何购买通话套餐](calling-plans-for-office-365.md)
-- [通话套餐的国家和地区可用性](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- [通话套餐的国家和地区可用性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [设置呼叫计划](set-up-calling-plans.md)
 
 
-### <a name="phone-system-with-own-pstn-carrier-with-direct-routing"></a>具有自己的 PSTN 运营商的电话系统（具有直接路由）
+### <a name="phone-system-with-own-pstn-carrier-with-direct-routing"></a>具有具有直接路由的 PSTN 运营商的电话系统
 
 此选项使用直接路由将 Microsoft Phone System 连接到电话网络，如下图所示： 
 
 ![图 5 显示具有直接路由的电话系统](media/voice-solution-with-direct-routing.png)
 
-如果对以下问题回答"是"，则使用直接路由的电话系统是适合的解决方案：
+如果对以下问题回答"是"，则电话系统与直接路由是适合的解决方案：
 
-- 想要将 Teams 与手机系统一同使用。
-- 你需要保留你的当前 PSTN 运营商。
+- 你想要将 Teams 与手机系统一同使用。
+- 你需要保留当前的 PSTN 运营商。
 - 您希望混合路由，一些呼叫通过呼叫计划进行，一些呼叫通过运营商进行。
-- 需要和第三方 PBX 和/或设备（例如开销寻呼机、模拟设备等）互操作。
+- 需要和第三方 PBX 和/或设备（例如我们的开销寻呼机、模拟设备等）互操作。
 
 使用此选项：
 
-- 无需其他本地软件，即可将自己支持的 SBC 连接到 Microsoft Phone System。
+- 无需其他本地软件，即可将自己的受支持 SBC 连接到 Microsoft Phone System。
 
 - 几乎可以将任何电话运营商与 Microsoft Phone System 一同使用。
 
-- 您可以选择配置和管理此选项，也可以由运营商或合作伙伴进行配置和管理 (询问您的运营商或合作伙伴是否提供此选项) 。
+- 您可以选择配置和管理此选项，也可以由运营商或合作伙伴组织配置和管理 (询问运营商或合作伙伴是否提供此选项) 。
 
-- 可以在电话设备（例如第三方 PBX 和模拟设备和 Microsoft Phone 系统）之间配置 &mdash; &mdash; 互操作性。
+- 可以在电话设备（例如第三方 PBX 和模拟设备）与 Microsoft Phone System 之间配置 &mdash; &mdash; 互操作性。
 
 
-此选项需要以下项：
+此选项需要以下各项：
 
 - 不间断地连接到 Microsoft 365 或 Office 365。
 
 - 部署和维护支持的 SBC。
 
 - 与第三方运营商的合同。
-   (部署为一个选项，为使用呼叫计划的电话系统上的用户提供第三方 PBX、模拟设备或其他电话设备的连接) 
+   (除非部署为一个选项，为使用呼叫计划使用电话系统的用户提供第三方 PBX、模拟设备或其他电话设备) 
 
 有关直接路由详细信息，请参阅以下文章：
 
@@ -224,12 +224,12 @@ ms.locfileid: "50408188"
 
 ## <a name="phone-numbers-from-microsoft"></a>Microsoft 提供的电话号码
 
-Microsoft 提供两种类型的电话号码：订阅者 (用户) 号码（可分配给您的组织中的用户）和服务号码（以收费和免费服务号码提供）。 服务号码的并发呼叫容量高于订阅者号码，可以分配给音频会议、自动助理或呼叫队列等服务。
+Microsoft 提供两种类型的电话号码：订阅者 (用户) 号码（可分配给您的组织中的用户）和服务号码（以收费和免费服务号码提供）。 服务号码的并发呼叫容量高于订阅者号码，可分配给音频会议、自动助理或呼叫队列等服务。
 
 需要确定：
 
 - 哪些用户位置需要 Microsoft 提供的新电话号码？
-- 订阅者或 (需要哪种) 电话号码？ 
+- 需要哪种类型的 (或) 电话号码？ 
 - 如何将现有电话号码移植到 Teams？
 
 有关管理组织中电话号码（包括获取新号码或转移退出号码）的信息，请参阅以下文章：
@@ -241,7 +241,7 @@ Microsoft 提供两种类型的电话号码：订阅者 (用户) 号码（可分
 
 ## <a name="dial-plans-and-call-routing"></a>拨号计划和呼叫路由
 
-拨号计划是一组规范化规则，用于将拨入的电话号码转换为备用格式 (通常为 E.164 格式) 用于呼叫授权和呼叫路由。
+拨号计划是一组规范化规则，将拨入的电话号码转换为备用格式 (通常为 E.164 格式) 进行呼叫授权和呼叫路由。
 
 需要确定以下事项： 
 
@@ -257,33 +257,33 @@ Microsoft 提供两种类型的电话号码：订阅者 (用户) 号码（可分
 
 ## <a name="emergency-calling"></a>紧急呼叫
 
-紧急呼叫配置方式因 PSTN 连接选项不同而有所差异：Microsoft 呼叫计划或直接路由。 Microsoft 呼叫计划和电话系统直接路由的动态紧急呼叫提供配置和路由紧急呼叫以及根据 Teams 客户端的当前位置通知安全人员的功能。 有关紧急呼叫概念和术语以及如何配置动态紧急呼叫的详细信息，请参阅以下文章：
+如何配置紧急呼叫取决于 PSTN 连接选项：Microsoft 呼叫计划或直接路由。 Microsoft 呼叫计划和电话系统直接路由的动态紧急呼叫提供配置和路由紧急呼叫以及根据 Teams 客户端的当前位置通知安全人员的功能。 有关紧急呼叫概念和术语以及如何配置动态紧急呼叫的详细信息，请参阅以下文章：
 
 - [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)
 - [规划和配置动态紧急呼叫](configure-dynamic-emergency-calling.md)
 - [Contoso 案例研究：紧急呼叫](voice-case-study-emergency-calling.md)<br>
-  介绍虚构的多语言公司 Contoso 如何为组织实现紧急呼叫。
+  介绍虚构的多语言公司 Contoso 如何为组织实施紧急呼叫。
 
 ## <a name="location-based-routing-for-direct-routing"></a>Location-Based直接路由的路由
 
-在某些国家和地区，绕过公共电话交换网和 PSTN () 降低远程呼叫成本是非法的。 Location-Based直接路由的路由允许根据 Microsoft Teams 用户的地理位置限制通行费绕过。 若要详细了解如何为 LBR Location-Based路由 (配置) ，请参阅以下文章：
+在某些国家和地区，绕过 PSTN 公用电话交换网 (PSTN) 降低远程呼叫成本非法。 Location-Based直接路由的路由允许根据 Microsoft Teams 用户的地理位置限制免收费。 若要详细了解如何计划和配置 Location-Based LBR (路由) ，请参阅以下文章：
 
 - [为直接路由计划基于位置的路由](location-based-routing-plan.md)
 - [为基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)
 - [为直接路由启用基于位置的路由](location-based-routing-enable.md)
 - [Contoso 案例研究：Location-Based路由](voice-case-study-location-based-routing.md)<br>
-  介绍虚构的多语言公司 Contoso 如何为Location-Based实现路由。
+  介绍虚拟的多语言公司 Contoso 如何为Location-Based实现路由。
 
 ## <a name="network-topology-for-voice-features"></a>语音功能的网络拓扑
 
-如果要为直接路由部署动态紧急呼叫Location-Based路由，则必须配置网络设置，以与 Microsoft Teams 中的这些功能一起使用。 若要了解如何为网络区域、网络站点、网络子网和受信任的 IP 地址配置网络设置，请参阅以下文章：
+如果要为直接路由部署动态紧急呼叫Location-Based路由，则必须配置网络设置，以与 Microsoft Teams 中的这些功能一同使用。 若要了解如何为网络区域、网络站点、网络子网和受信任的 IP 地址配置网络设置，请参阅以下文章：
 
 - [Microsoft Teams 中云语音功能的网络设置 - 概念和术语](cloud-voice-network-settings.md)
 - [在 Microsoft Teams 中管理云语音功能的网络拓扑](manage-your-network-topology.md)
 
 ## <a name="migrate-your-existing-voice-solution-to-teams"></a>将现有语音解决方案迁移到 Teams
 
-对于要升级到 Teams 的组织，最终目标是将所有用户移动到 TeamsOnly 模式。 仅在用户进入 TeamsOnly 模式时，才支持将电话系统与 Teams 一同使用。 如果需要有关升级到 Teams 的基本信息，请从此处开始：
+对于要升级到 Teams 的组织，最终目标是将所有用户移到 TeamsOnly 模式。 仅在用户进入 TeamsOnly 模式时，才支持将手机系统与 Teams 一同使用。 如果需要有关升级到 Teams 的基本信息，请从此处开始：
 
 - [开始 Microsoft Teams 升级](upgrade-start-here.md)
 - [关于升级框架](upgrade-framework.md)
@@ -293,15 +293,15 @@ Microsoft 提供两种类型的电话号码：订阅者 (用户) 号码（可分
 
 - [**Skype for Business Online 中的用户，具有 Microsoft 呼叫计划**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)。 升级后，此用户将继续拥有 Microsoft 呼叫计划。
 
-- **[Skype for Business Online 中的用户](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)**，通过本地 Skype for Business 或 Cloud Connector Edition 提供本地语音功能。 用户升级到 Teams 需要与将用户迁移到直接路由进行协调，以确保 TeamsOnly 用户具有 PSTN 功能。
+- **[Skype for Business Online](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)** 中的用户，通过本地 Skype for Business 或 Cloud Connector Edition 提供本地语音功能。 用户升级到 Teams 需要与将用户迁移到直接路由进行协调，以确保 TeamsOnly 用户具有 PSTN 功能。
 
-- **[本地 Skype for Business](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)** 中具有 企业语音 的用户，该用户将移动到联机并保持本地 PSTN 连接。 将该用户迁移到 Teams 需要将用户本地 Skype for Business 帐户移动到云，并协调用户迁移到直接路由。 
+- **[本地 Skype for Business](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)** 中具有 企业语音 的用户，该用户将移动到联机并保持本地 PSTN 连接。 将该用户迁移到 Teams 需要将用户的本地 Skype for Business 帐户移动到云，并协调该移动以及将用户迁移到直接路由。 
 
-- **[本地 Skype for Business](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)** 中具有 企业语音 的用户，该用户将移动到联机状态，使用 Microsoft 呼叫计划。  将该用户迁移到 Teams 需要将用户本地 Skype for Business 帐户移动到云，并配合 A) 将该用户的电话号码的端口移动到 Microsoft 呼叫计划，或者 B) 从可用区域分配新的订阅者号码。
+- **[本地 Skype for Business](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)** 中具有 企业语音 的用户，该用户将移动到在线，使用 Microsoft 呼叫计划 。  将该用户迁移到 Teams 需要将用户本地 Skype for Business 帐户移动到云，并协调该移动与 A) 该用户电话号码的端口移动到 Microsoft 呼叫计划或 B) 从可用区域分配新的订阅者号码。
 
-若要详细了解如何针对每种方案实现语音迁移，包括有关何时需要设置混合连接以及如何将具有本地语音功能的用户迁移到直接路由的信息，请参阅 &mdash; &mdash; 以下文章：
+若要详细了解如何针对每种方案实现语音迁移，包括有关何时需要设置混合连接以及如何将具有本地语音功能的用户迁移到直接路由的信息， &mdash; &mdash; 请参阅以下文章：
 
-- [升级到 Teams 时针对 IT 管理员的 PSTN 注意事项](upgrade-to-teams-on-prem-pstn-considerations.md)
+- [升级到 Teams 时 PSTN 注意事项 - 适用于 IT 管理员](upgrade-to-teams-on-prem-pstn-considerations.md)
 
 - [Contoso 语音迁移案例研究](voice-case-study-overview.md)<br>
   案例研究介绍虚构的多语言公司 Contoso 如何为组织实现 Teams 语音解决方案。 它包含以下文章：
@@ -312,15 +312,3 @@ Microsoft 提供两种类型的电话号码：订阅者 (用户) 号码（可分
   - [紧急呼叫](voice-case-study-emergency-calling.md)
   - [自动助理和呼叫队列](voice-case-study-call-queues.md)
   - [音频会议](voice-case-study-audio-conferencing.md)
-
-
-
-
-
-
-
-
-
-
-
-

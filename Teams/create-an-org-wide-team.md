@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何在 Teams 中创建和管理组织范围内的团队，为小型到中型组织中的每个人提供自动协作方式。
+description: 了解如何在 Teams 中创建和管理组织范围的团队，为小型到中型组织中的每个人提供自动协作方式。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,22 +17,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4fad33d1107a9c7aaecf9dc2eca9dd3b405637fb
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 28a03f045aa6db2567feb8990b9b9267706c7e8d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973146"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111158"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
 组织范围的团队为中小型组织中的每个人提供了自动加入单个协作团队的方法。
 
-使用组织范围的团队，全局管理员可以轻松创建一个公共团队来将组织中的所有用户包含进来，并在用户加入和离开组织时在 Active Directory 中更新成员身份。 只有全局管理员可以创建组织范围内的团队，组织范围的团队目前仅限于用户数不超过 10，000 的组织。 每个租户也有五个组织范围的团队的限制。 如果满足这些要求，则当全局管理员在创建团队时选择“**从头开始构建团队**”时，将看到“**组织范围**”选项。 
+使用组织范围的团队，全局管理员可以轻松创建一个公共团队来将组织中的所有用户包含进来，并在用户加入和离开组织时在 Active Directory 中更新成员身份。 只有全局管理员可以创建组织范围的团队，组织范围的团队目前仅限于用户数不超过 10，000 的组织。 每个租户也有五个组织范围的团队的限制。 如果满足这些要求，则当全局管理员在创建团队时选择“**从头开始构建团队**”时，将看到“**组织范围**”选项。 
 
 ![用于创建组织范围团队的“组织范围”选项的屏幕截图](media/create-org-wide-team.png "用于创建组织范围团队的“组织范围”选项的屏幕截图")
 
-创建组织范围的团队后，所有全局管理员和 Teams 服务管理员将添加为团队所有者，所有活动用户都添加为团队成员。 未经授权的用户也将添加到团队。 未授权用户首次登录 Teams 时，会为该用户分配 Microsoft Teams 探索许可证。 若要详细了解探索许可证，请查看"管理[Microsoft Teams 探索许可证"。](teams-exploratory.md) 
+创建组织范围的团队后，所有全局管理员和 Teams 服务管理员将添加为团队所有者，所有活动用户都添加为团队成员。 未经授权的用户也将添加到团队。 未授权用户首次登录 Teams 时，会为该用户分配 Microsoft Teams 探索许可证。 若要详细了解探索许可证，请查看管理 Microsoft Teams [探索许可证](teams-exploratory.md)。 
 
 以下类型的帐户无法添加到组织范围的团队：
 
@@ -56,7 +56,7 @@ ms.locfileid: "49973146"
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>仅允许团队所有者发布到常规频道
 
-通过仅允许团队所有者发布到常规频道，减少频道中的杂乱信息。 转到团队，找到"常规"频道，然后选择 **" 1/0"** 管理频道  >  "。 在"**通道设置"** 选项卡上，单击 **"权限**"，然后选择"**仅所有者可以发布消息"。**
+通过仅允许团队所有者发布到常规频道，减少频道中的杂乱信息。 转到团队，找到"常规"频道，然后选择 **"""更多选项""**  >  **管理频道"。** 在"**通道设置"** 选项卡上，单击 **"权限"，** 然后选择"**仅所有者可以发布消息"。**
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>关闭 @团队和 @[团队名称]提及
 
@@ -78,7 +78,7 @@ ms.locfileid: "49973146"
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>除了使用 Teams 客户端之外，是否有其他方法可以创建组织范围的团队？
 
-全局管理员只能使用 Teams 客户端创建组织范围的团队。 如果贵组织将创建团队限制为使用 PowerShell，则建议的解决方法是将全局管理员添加到可以创建团队的用户安全组中。 有关详细信息，请参阅["管理可以创建组的人"。](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)
+全局管理员只能使用 Teams 客户端创建组织范围的团队。 如果贵组织将创建团队限制为使用 PowerShell，则建议的解决方法是将全局管理员添加到可以创建团队的用户安全组中。 有关详细信息，请参阅 [管理可以创建组的人](/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
 如果这样做行不通，则可以使用 PowerShell 创建公共团队，并将全局管理员添加为团队所有者。 然后，让全局管理员单击团队名称旁边的“**更多选项**”，单击“**编辑团队**”，然后将隐私更改为“**组织范围 - 将自动添加你的组织中的所有人**”。 请注意，只有团队所有者才能访问“**编辑团队**”选项，并且只有全局管理员才能看到“**组织范围**”选项。
 
@@ -86,10 +86,10 @@ ms.locfileid: "49973146"
 
 全局管理员可通过在 Teams 客户端中编辑来将现有团队转换为组织范围的团队。 转到团队名称，单击“**更多选项**” > “**编辑团队**”。
 
-### <a name="can-i-create-an-org-wide-team-using-a-team-template"></a>我可以使用团队模板创建组织范围内的团队吗？
+### <a name="can-i-create-an-org-wide-team-using-a-team-template"></a>我可以使用团队模板创建组织范围的团队吗？
 
 团队模板不能用于创建组织范围的团队。 此功能当前正在处理中。 
 
 ## <a name="see-also"></a>另请参阅
 
-观看有关在 [Microsoft Teams 创建公司范围的团队的视频](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)。
+观看有关在 [Microsoft Teams 中创建公司范围的团队的视频](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)。

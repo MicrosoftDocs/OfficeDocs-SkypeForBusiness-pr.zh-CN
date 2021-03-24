@@ -1,5 +1,5 @@
 ---
-title: 语音策略创建新的或编辑现有的
+title: 语音策略 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 8cff9089a11f9612b421428d9931a9749e683995
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 464e10f420f3cad2cd54852db41b4b7d801892f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814492"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115048"
 ---
 # <a name="voice-policy-create-new-or-edit-existing"></a>语音策略：创建新的或编辑现有的
 
@@ -28,7 +28,6 @@ ms.locfileid: "49814492"
 
 - [在 Skype for Business 2015 中创建或修改语音策略和配置 PSTN 用法记录](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [修改语音策略和配置 PSTN 用法记录](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [修改语音策略和配置 PSTN 用法记录](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
-
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '了解 Skype for Business Online 登录错误的常见原因, 并解决这些问题。 '
-ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164321"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103838"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>针对管理员的 Skype for Business Online 登录错误进行故障排除
 
@@ -61,7 +61,7 @@ ms.locfileid: "44164321"
 
 | **可能的原因**                                                                                                                                                    | **解决方案**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 在登录过程中，会出现一个包含以下短语的对话框： ** 无法验证服务器是否是可信任的登录地址。 是否仍要连接？** <br/> | 验证该对话框中的域名是否为贵公司的可信任服务器，例如 **domainName.contoso.com**。 让用户选中**始终信任此服务器**复选框，然后单击**连接**。 <br/> 企业客户可以通过修改每个用户的计算机上的 Windows 注册表，阻止在用户首次登录时显示此消息。 有关详细信息，请参阅[修改 TrustModelData 注册表项](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)。<br/> |
+| 在登录过程中，会出现一个包含以下短语的对话框： **无法验证服务器是否是可信任的登录地址。 是否仍要连接？** <br/> | 验证该对话框中的域名是否为贵公司的可信任服务器，例如 **domainName.contoso.com**。 让用户选中 **始终信任此服务器** 复选框，然后单击 **连接**。 <br/> 企业客户可以通过修改每个用户的计算机上的 Windows 注册表，阻止在用户首次登录时显示此消息。 有关详细信息，请参阅[修改 TrustModelData 注册表项](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)。<br/> |
 | 输入了错误的登录地址、用户名或密码  <br/>                                                                                                               | 确认用户的登录名和密码正确。 <br/>  验证用户的登录名格式是否如下所示： <strong>bobk@contoso.com</strong>。 这可能不同于你用于登录到组织的网络中的格式。  <br/>  让用户再次尝试登录。   <br/>                                                                                                                                                                                                                             |
 | 忘记密码  <br/>                                                                                                                                             | 重置用户密码，并通知他或她新的临时密码。  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 未授权使用 Skype for Business Online  <br/>                                                                                                                  | 确认用户已注册为 Skype for Business Online 用户。 如果尚未注册，请注册该用户，然后让他或她再次登录。  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -146,21 +146,21 @@ ms.locfileid: "44164321"
 
 要消除可能的证书或凭据问题，请首先在 Windows 证书管理器中续订用户的证书。 为此，请按照下列步骤操作：
 
-1. 打开 Windows 证书管理器。 要执行此操作，请单击**开始**、**运行**，键入 **certmgr.msc**，然后单击**确定**。
+1. 打开 Windows 证书管理器。 要执行此操作，请单击 **开始**、**运行**，键入 **certmgr.msc**，然后单击 **确定**。
 
-2. 双击**个人**，然后双击**证书**。
+2. 双击 **个人**，然后双击 **证书**。
 
-3. 按**颁发者** 列排序，然后查找由通信服务器颁发的证书。
+3. 按 **颁发者** 列排序，然后查找由通信服务器颁发的证书。
 
-4. 右键单击证书，然后单击**删除**。
+4. 右键单击证书，然后单击 **删除**。
 
 接下来，如果用户运行 Windows 7，请删除 Windows 凭据管理器中存储的凭据。 为此，请按照下列步骤操作：
 
-1. 单击**开始**，单击**控制面板**，然后单击**凭据管理器**。
+1. 单击 **开始**，单击 **控制面板**，然后单击 **凭据管理器**。
 
 2. 找到用于连接到 Skype for Business Online 的一组凭据。
 
-3. 展开一组凭据，然后单击**从保管库中删除**。
+3. 展开一组凭据，然后单击 **从保管库中删除**。
 
 4. 再次登录，并重新输入用户的凭据。
 
@@ -168,9 +168,9 @@ ms.locfileid: "44164321"
 
 1. 使用管理员帐户登录用户的计算机。
 
-2. 如有必要，请启用文件夹视图选项**显示隐藏的文件**。
+2. 如有必要，请启用文件夹视图选项 **显示隐藏的文件**。
 
-3. 在文件管理器的地址栏中键入以下内容：**C:\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**， 其中，***UserName*** 是你的 Windows 登录名。
+3. 在文件管理器的地址栏中键入以下内容：**C:\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**， 其中，**_UserName_** 是你的 Windows 登录名。
 
 4. 删除名为 **S-1-5-21-** 且后面跟有一串数字的任何文件夹。
 
@@ -182,7 +182,7 @@ ms.locfileid: "44164321"
 - 创建并部署将 Skype for Business 域名（例如 domainName.contoso.com）附加到 HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData 的当前值的 GPO。
 
 > [!IMPORTANT]
->  必须将域名*附加*到现有值，而不只是替换它。
+>  必须将域名 *附加* 到现有值，而不只是替换它。
 
 有关详细信息，请参阅 Microsoft 知识库文章 2531068 [Skype for Business (Lync) 无法验证你的登录地址是否是可信任服务器](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068)。
 
@@ -195,7 +195,7 @@ ms.locfileid: "44164321"
 
 1. 将所有受影响用户的 **msRTCSIP-UserEnabled** 属性更新为 **TRUE**。
 
-2. 重新运行 Microsoft Online Services 目录同步工具 (DirSync)。 有关详细信息, 请参阅[将本地目录与 Azure Active Directory 集成](https://technet.microsoft.com/library/hh967642.aspx)。
+2. 重新运行 Microsoft Online Services 目录同步工具 (DirSync)。 有关详细信息, 请参阅[将本地目录与 Azure Active Directory 集成](/azure/active-directory/hybrid/whatis-hybrid-identity)。
 
 要解答 Skype for Business Online 登录错误疑难问题，首先应消除登录困难的最常见原因。 如有必要, 可以根据错误类型执行特定的解决步骤。 如果用户仍然无法登录, 请收集其他信息, 然后寻求进一步帮助。
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>使用 Microsoft 支持疑难解答指南
@@ -220,5 +220,3 @@ ms.locfileid: "44164321"
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
-
-

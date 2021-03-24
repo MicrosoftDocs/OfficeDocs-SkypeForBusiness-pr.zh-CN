@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 摘要：了解如何使用 Skype for Business Server 命令行管理程序测试 SIP 中继配置设置。
-ms.openlocfilehash: 8b3a98d54fd0d2dc8bb69e553e0c0a3a7b98b1ca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6f569c7e397e7902cb347e13b4077acb5a9b34fb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830632"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103368"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business Server 中测试 SIP 中继配置设置
  
 **摘要：** 了解如何使用 Skype for Business Server 命令行管理程序测试 SIP 中继配置设置。
   
-SIP 中继配置设置定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP-Public Branch eXchange (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 这些设置按下面的指示执行此类操作：
+SIP 中继配置设置定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP-Public 交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 这些设置按下面的指示执行此类操作：
   
 - 是否应对中继启用媒体旁路。
     
@@ -37,7 +37,7 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
     
 安装 Skype for Business Server 时，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。 管理员还可以使用 Test-CsTrunkConfiguration cmdlet 验证中继是否可以将用户拨打的号码转换为网关可处理的号码。
   
-只能使用 Windows PowerShell 和 [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps) cmdlet 测试中继配置设置。 此 cmdlet 可以从 Skype for Business Server 命令行管理程序 运行，也可以从 Skype for Business Server 命令行管理程序 的远程会话运行。
+只能使用 Windows PowerShell 和 [Test-CsTrunkConfiguration](/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps) cmdlet 测试中继配置设置。 此 cmdlet 可以从 Skype for Business Server 命令行管理程序运行，也可以从 Skype for Business Server 命令行管理程序 的远程会话中运行。
   
 ### <a name="to-test-sip-trunk-configuration-settings"></a>测试 SIP 中继配置设置
 
@@ -47,5 +47,3 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
   $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
   Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
   ```
-
-

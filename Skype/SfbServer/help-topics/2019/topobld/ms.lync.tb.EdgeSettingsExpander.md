@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：
-ms.openlocfilehash: cc8e0094a601faaf89c6a932172d5b6cb3522f2d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c887ffaa16818e377035109632871b7bc7ed25d8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822432"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108798"
 ---
 # <a name="edge-settings-expander"></a>边缘设置扩展器
 
@@ -37,13 +37,13 @@ ms.locfileid: "49822432"
 
 边缘服务器池的内部池完全限定域名 (FQDN)。编辑池的 FQDN 以更改此设置。
 
-如果要设置与 Skype for Business Server 2015 服务器的联盟，请选中 (端口 **5061**) 为此边缘池启用联盟。
+如果要设置与 Skype for Business Server 2015 服务器的联盟，请选中 (端口 **5061**) 为此边缘池启用联盟复选框。
 
 为“内部配置复制端口(HTTPS)”指定端口号。
 
 ## <a name="next-hop-selection-settings"></a>下一个跃点选择设置
 
-若要设置或修改边缘服务器用于与内部基础结构通信的下一个跃点池，请从下拉列表框中选择控制器、控制器池、前端服务器或前端服务器池。 只有已在拓扑生成器中配置的控制器或前端才能进行选择。
+若要设置或修改边缘服务器用于与内部基础结构通信的"下一个跃点池"，请从下拉列表框中选择控制器、控制器池、前端服务器或前端服务器池。 只有已在拓扑生成器中配置的控制器或前端会进行选择。
 
 ## <a name="edge-server-configuration"></a>边缘服务器配置
 
@@ -63,6 +63,4 @@ ms.locfileid: "49822432"
 
 ## <a name="see-also"></a>另请参阅
 
-有关定义和配置边缘服务设置的详细信息，请参阅[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。
-
-
+有关定义和配置边缘服务设置的详细信息，请参阅[Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)。

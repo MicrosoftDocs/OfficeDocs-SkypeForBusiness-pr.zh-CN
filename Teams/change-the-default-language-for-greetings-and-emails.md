@@ -22,42 +22,42 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 了解如何设置 Skype for Business，以便为您的组织的默认语音邮件问候语使用另一种语言。
-ms.openlocfilehash: 988f09141913c72b9334b28d2c218b15bdbf3376
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 了解如何将 Skype for Businesses 设置为使用另一种语言作为组织的默认语音邮件问候语。
+ms.openlocfilehash: f6fb890d52e052afffccbfe753ab5b3b8a1bb338
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691388"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102668"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
-如果您是[全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，则可以设置 Skype for business，以使用另一种语言播放其默认语音邮件问候语。 默认系统问候语类似于“请给 John Smith 留言。 听到提示音之后，请录制你的消息。 完成录制后，挂断电话，或者按井号键了解更多选项。” 
+如果你是全局 [管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，你可以设置 Skype for Business 以使用另一种语言播放其默认语音邮件问候语。 默认系统问候语类似于“请给 John Smith 留言。 听到提示音之后，请录制你的消息。 完成录制后，挂断电话，或者按井号键了解更多选项。” 
   
  **首先，请阅读以下重要信息：**
   
 - **对你可用的语言取决于组织所在的位置**。 例如，如果你的组织位于美国，你可以将默认语言设置为英语或西班牙语。 如果你的组织位于加拿大，你可以在英语和法语之间选择。 有关受支持语言的列表，请参阅 [Skype for Business 语音邮件问候语和消息的语言](languages-for-voicemail-greetings-and-messages.md)。
     
-- **更改单个用户的语音邮件问候语和语音邮件的语言。** 你可以更改用户的首选 lanaguage，这将更改发送到其 Outlook 邮箱的语音邮件问候语和语音邮件的语言。 有关说明，请参阅 [如何设置 Microsoft 365 或 Office 365 的语言和区域设置] （ https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region) 。 
+- **更改单个用户的语音邮件问候语和语音邮件的语言。** 您可以更改用户的首选语言，这将更改发送到其 Outlook 邮箱的语音邮件问候语和语音邮件的语言。 有关说明，请参阅 [如何为 Microsoft 365 或 Office 365 设置语言和地区设置] https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region) (。 
     
     > [!NOTE]
-    > 用户可以按照[更改 Microsoft 365 For Business 中的显示语言和](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)时区中的说明，在登录后更改自己的问候语语言
+    > 用户可以按照在[Microsoft 365 商业](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)版中更改显示语言和时区中的说明登录后，通过设置更改自己的问候语语言
   
-- **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。 对于 Microsoft 团队-用户可以从[团队桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)更改其语音邮件设置
+- **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。 对于 Microsoft Teams - 用户可以从 Teams 桌面客户端设置 [更改其语音邮件设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **是否要更改语音邮件提示语言？** 对于 Skype for Business- [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) 并在 "**提示语言**" 下选择一种新语言。 对于 Microsoft 团队-用户可以从[团队桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)更改其语音邮件问候语
+- **是否要更改语音邮件提示语言？** 对于 Skype for Business -  [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) 在"提示语言"下选择 **新语言**。 对于 Microsoft Teams - 用户可以从 Teams 桌面客户端设置更改 [语音邮件问候语](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>更改组织内所有用户的系统语言
 
-1. 在上用[全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。 
+1. 在 使用 [全局管理员帐户](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。 
     
-2. 在 Microsoft 365 管理中心，选择 "**设置**" "  >  **Settings**  >  **组织配置文件**"。 
+2. 在 Microsoft 365 管理中心中，选择"**设置""**  >  **设置""**  >  **组织配置文件"。** 
     
-     ![屏幕截图，显示选择 "设置"，然后选择 "组织配置文件"。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![显示选择"设置"，然后选择"组织配置文件"的屏幕截图。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. 选择" **编辑**"。
     
-    ![显示 "编辑" 选项的屏幕截图。](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![显示"编辑"选项的屏幕截图。](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
 4. 从“**首选语言**”列表中为组织中的所有用户选择语言。
     
@@ -69,15 +69,14 @@ ms.locfileid: "44691388"
     
 - [设置通话套餐](set-up-calling-plans.md)
     
-- [在 Skype for Business 服务器的本地 PSTN 连接中规划 Microsoft 365 或 Office 365 中的电话系统](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [在 Microsoft 365 或 Office 365 中使用本地 PSTN 连接在 Skype for Business Server 中规划电话系统](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
     
 ## <a name="related-topics"></a>相关主题
 
-- [在 Microsoft 365 或 Office 365 for Business 中更改显示语言和时区](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [在 Microsoft 365 或 Office 365 商业版中更改显示语言和时区](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
 - [在 Office 2010 及更高版本中添加语言或设置语言首选项](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
     
 - [启用或更改键盘布局语言](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
   
- 

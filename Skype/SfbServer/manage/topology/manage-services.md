@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 了解如何查看服务状态、启动和停止服务以及阻止服务会话。
-ms.openlocfilehash: 6071526febcd3a4c1cb925ae3fb704eca6db575c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 了解如何查看服务状态、启动和停止服务，以及如何阻止服务会话。
+ms.openlocfilehash: 34228a7e1b8cf9ef044d2f1f15c4b1219f795d79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826312"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103178"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>在 Skype for Business Server 中管理服务
 
@@ -31,7 +31,7 @@ ms.locfileid: "49826312"
 
 使用 Skype for Business Server 控制面板查看拓扑中运行 Skype for Business 的所有计算机的列表，并查看每台计算机的服务状态。 可以按计算机、池或站点对列表进行排序。 
 
-1. 从分配给 Skype for Business Server 的任何预定义管理角色的用户帐户，登录到内部部署中的任意计算机。 有关详细信息，请参阅基于角色[的访问控制 (RBAC) For Skype for Business Server。](../../plan-your-deployment/security/role-based-access-control-rbac.md)
+1. 从分配给 Skype for Business Server 的任何预定义管理角色的用户帐户，登录到内部部署中的任意计算机。 有关详细信息，请参阅基于[角色的访问控制 (RBAC) for Skype for Business Server。](../../plan-your-deployment/security/role-based-access-control-rbac.md)
 2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 有关可用于启动 Skype for Business Server 控制面板的不同方法的详细信息，请参阅安装和 [打开管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 在左侧导航栏中，单击“拓扑”，然后单击“状态”。
 4. 在"状态"页上，根据需要执行下列任一操作：
@@ -41,7 +41,7 @@ ms.locfileid: "49826312"
    
 ## <a name="view-the-status-of-services-running-on-a-computer-in-skype-for-business"></a>查看 Skype for Business 中计算机上运行的服务的状态
 
-使用 Skype for Business Server 控制面板查看在 Skype for Business Server 拓扑中的特定计算机上运行的所有服务，并查看每个服务的状态。
+使用 Skype for Business Server 控制面板查看 Skype for Business Server 拓扑中特定计算机上运行的所有服务，并查看每项服务的状态。
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 2. 打开浏览器窗口，然后输入管理 URL 以打开控制面板。 有关可用于启动 Skype for Business Server 控制面板的不同方法的详细信息，请参阅安装和 [打开管理工具](../../management-tools/install-and-open-administrative-tools.md)。
@@ -51,13 +51,13 @@ ms.locfileid: "49826312"
     - 要查看计算机上运行的服务的最新状态，请单击“获取服务状态”。
     - 要查看计算机上运行的特定服务的列表和每种服务的状态，请单击“属性”，然后单击“关闭”返回到列表。
 
-### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet Windows PowerShell服务状态
+### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 查看Windows PowerShell状态
 
-您还可以使用 Windows PowerShell 和 Get-CsWindowsService cmdlet 查看服务状态。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关详细信息，请参阅 [Skype for Business Server 命令行管理程序](../management-shell.md)。
+您还可以使用 cmdlet 和 Windows PowerShell cmdlet 查看Get-CsWindowsService状态。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关详细信息，请参阅 [Skype for Business Server Management Shell](../management-shell.md)。
 
 **查看服务状态**
 
-若要查看计算机上服务状态，请在 Skype for Business Server 命令行管理程序 中键入类似如下的命令，然后按 Enter：
+若要查看计算机上服务状态，请在 Skype for Business Server 命令行管理程序 中键入类似于以下的命令，然后按 Enter：
 
 ```powershell
 Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
@@ -77,15 +77,15 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-有关详细信息，请参阅[Get-CsWindowsService。](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService)
+有关详细信息，请参阅[Get-CsWindowsService。](/powershell/module/skype/Get-CsWindowsService)
 
 ## <a name="start-or-stop-skype-for-business-services"></a>启动或停止 Skype for Business 服务
 
 使用 Skype for Business Server 控制面板启动或停止特定计算机上运行的所有 Skype for Business Server 服务，或启动或停止特定服务。
 
-### <a name="start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>在计算机上启动或停止所有 Skype for Business Server 服务
+### <a name="start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>启动或停止计算机上所有 Skype for Business Server 服务
 
-1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。 通过运行类似于以下的命令，可以确定你已分配有 CsServerAdministrator 还是 CsAdministrator RBAC 角色：
+1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。 通过运行与以下内容类似的命令，您可以确定是否已分配了 CsServerAdministrator 或 CsAdministrator RBAC 角色：
 
     ```powershell
     Get-CsAdminRoleAssignment -Identity "kenmyer"`

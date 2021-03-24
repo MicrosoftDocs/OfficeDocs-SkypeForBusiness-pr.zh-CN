@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 准备并实施在环境中禁用 TLS 1.0 和 1.1。
-ms.openlocfilehash: 214605f80c79d7ecb334aeca49d29210e888b511
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: b07b9b5319b858a20a8073de8c6a37dd4d3299ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726393"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103208"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中禁用 TLS 1.0/1.1
 
@@ -51,7 +51,7 @@ Microsoft 已制作一份有关此处提供的[](https://cloudblogs.microsoft.co
 
 - Lync 2013 (Skype for Business) 桌面客户端、MSI 和 C2R，包括基本 [15.0.5023.1000 或更高版本](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - Skype for Business 2016 桌面客户端、MSI [16.0.4678.1000 或更高版本](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)，包括基本
-- Skype for Business 2016 Click to Run Require the [April 2018](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus) Updates: 
+- Skype for Business 2016 Click to Run Require the [April 2018](/officeupdates/release-notes-office365-proplus) Updates: 
     - 每月和Semi-Annual定向，16 \. \. 0 9126 \. 2152 或更高版本
     - Semi-Annual和延期频道，16 \. \. 0 8431 \. 2242 或更高版本
 - Mac 16.15 或更高版本上的 Skype for Business
@@ -239,7 +239,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-对于SQL池的后端，先决条件和 TLS 禁用应视为任何SQL或操作系统更新;引用： [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+对于SQL池的后端，先决条件和 TLS 禁用应视为任何SQL或操作系统更新;引用： [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
 
 尽管必备组件应用程序和 TLS 禁用步骤可以组合使用，但我们强烈建议先应用所有先决条件，然后再在操作系统级别禁用 TLS 1.0 和 1.1。 最佳实践方法是：部署所有必备组件，验证工作负荷是否按预期正常运行，然后稍后继续禁用 TLS 1.0/1.1。
 
@@ -455,7 +455,7 @@ Windows Registry Editor Version 5.00
 
 1. 启动Internet Explorer。
 2. 选择 **"工具**  >  **""Internet 选项"。**
-3. 选择" **高级"** 选项卡。
+3. 选择“高级”选项卡。
 4. 在 **"设置"** 下，滚动到底部。
 5. 验证是否已启用 TLS 1.0、TLS 1.1 和 TLS 1.2。
 6. 浏览 SfB 2015 池的内部 Web 服务 URL， (连接成功) 。

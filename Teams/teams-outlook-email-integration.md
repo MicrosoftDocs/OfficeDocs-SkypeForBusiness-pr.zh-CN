@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469017eb9d03cbba55017ca609f49da9ebfe07a
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 3bfab6643d478537b3f9d2b7e4fa990b75511582
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819358"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104048"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams 和 Outlook 电子邮件集成
 
@@ -31,17 +31,17 @@ Microsoft Teams 包括一些功能，使贵组织的用户能够轻松地在 Out
 
 ![显示 Teams 中的"共享到 Outlook"功能屏幕截图](media/share-to-outlook.png)
 
-若要使用此功能，必须为用户启用 Outlook 网页。 如果 Outlook 网页页面已关闭，则"共享到 **Outlook"** 选项不会在 Teams 中为用户显示。 有关如何打开和关闭 Outlook 网页中的步骤，请参阅为邮箱启用或禁用[Outlook 网页。](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
+若要使用此功能，必须为用户启用 Outlook 网页。 如果 Outlook 网页页面已关闭，则"共享到 **Outlook"** 选项不会在 Teams 中为用户显示。 有关如何打开和关闭 Outlook 网页中的步骤，请参阅为邮箱启用或禁用[Outlook 网页。](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
 ## <a name="actionable-activity-emails"></a>可操作活动电子邮件
 
 用户会自动收到可操作错过的活动电子邮件，帮助他们在 Teams 中跟进错过的对话。 错过的活动电子邮件显示对话中的最新答复，包括错过的邮件后发送的邮件，用户可以单击"答复"直接从 Outlook 中答复。  有关详细信息，请参阅从 Outlook 回复错过 [的活动电子邮件](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381)。 
 
 > [!NOTE]
-> Outlook for Mac 或某些较旧版本的 Outlook for Windows 不支持此功能。 有关详细信息，请参阅 [Outlook 和 Office 365](https://docs.microsoft.com/outlook/actionable-messages/)组中的可操作邮件。
+> Outlook for Mac 或某些较旧版本的 Outlook for Windows 不支持此功能。 有关详细信息，请参阅 [Outlook 和 Office 365](/outlook/actionable-messages/)组中的可操作邮件。
 
 ![显示错过的活动电子邮件的屏幕截图](media/missed-activity-email.png)
 
 ![显示如何答复错过的活动电子邮件的屏幕截图](media/missed-activity-email-reply.png)
 
-可以将 [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) cmdlet 与 **SmtpActionableMessagesEnabled** 参数一起用于关闭可操作电子邮件。 默认情况下 **，SmtpActionableMessagesEnabled** 参数设置为 **true。** 将 参数设置为 **false** 会关闭 Office 365 中可操作的电子邮件。 对于 Teams 用户，这意味着在Outlook 中直接答复的"回复"选项在错过的活动电子邮件中不可用。 相反，错过的活动电子邮件包括"在 Teams 中答复 **"** 选项，供用户在 Teams 中答复。
+可以将 [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) cmdlet 与 **SmtpActionableMessagesEnabled** 参数一起用于关闭可操作电子邮件。 默认情况下 **，SmtpActionableMessagesEnabled** 参数设置为 **true。** 将 参数设置为 **false** 会关闭 Office 365 中可操作的电子邮件。 对于 Teams 用户，这意味着在Outlook 中直接答复的"回复"选项在错过的活动电子邮件中不可用。 相反，错过的活动电子邮件包括"在 Teams 中答复 **"** 选项，供用户在 Teams 中答复。

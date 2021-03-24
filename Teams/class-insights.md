@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145899"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102618"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -137,7 +137,7 @@ ms.locfileid: "50145899"
 > 几分钟后，所收集的大部分数据都会显示在见解中。 在会议结束后的几个小时会出现参加课堂会议（与某个课堂频道相关的会议）的提示，通常最多不超过 24 小时。
 
 ### <a name="privacy-and-security"></a>隐私和安全
-通过见解收集和显示的信息符合[ 90 多个法规和行业标准](https://docs.microsoft.com/compliance/regulatory/offering-home)，包括 [GDPR](https://docs.microsoft.com/compliance/regulatory/gdpr) 和关于学生和儿童安全的[《家庭教育权利和隐私法案》(FERPA)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa)，以及其他类似的面向隐私的法规。
+通过见解收集和显示的信息符合[ 90 多个法规和行业标准](/compliance/regulatory/offering-home)，包括 [GDPR](/compliance/regulatory/gdpr) 和关于学生和儿童安全的[《家庭教育权利和隐私法案》(FERPA)](/compliance/regulatory/offering-ferpa)，以及其他类似的面向隐私的法规。
 
 数据归机构所有，Microsoft 仅收集并存储数据。 Microsoft 人员无法访问或查看数据，除非合规性法规允许以经过审核的方式维护服务（例如数据恢复）。
 
@@ -173,7 +173,7 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 ## <a name="student-information-system-sis-integration"></a>学生信息系统 (SIS) 集成
 向见解提供的数据越多，教师就越能更好地为学生提供支持，并且教育领导者也可以为教师提供更好的支持。
 
-若要提供组织级见解，我们必须使用[学校数据同步 (SDS)](https://docs.microsoft.com/SchoolDataSync) 连接到学生信息系统 (SIS)，以便见解正确映射教育系统的层次结构。 
+若要提供组织级见解，我们必须使用[学校数据同步 (SDS)](/SchoolDataSync) 连接到学生信息系统 (SIS)，以便见解正确映射教育系统的层次结构。 
 
 以课堂教师的身份查看课堂级见解 *不* 需要这样做，因为我们使用 Teams 的课堂结构和权限。
 
@@ -192,7 +192,7 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 在两种视图中，教师都可以访问课堂数据。 使用个人应用，教师需要向下钻取到课堂级别，而选项卡则允许直接访问课堂数据。
 
 > [!TIP]
-> 有关更多详细信息，请阅读[面向教育的 Teams 策略和策略包](https://docs.microsoft.com/microsoftteams/policy-packages-edu)。
+> 有关更多详细信息，请阅读[面向教育的 Teams 策略和策略包](./policy-packages-edu.md)。
 
 ## <a name="encourage-the-adoption-of-insights"></a>鼓励采用见解
 让你的教育机构对使用见解感到兴奋。
@@ -255,6 +255,3 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 
 > [!NOTE]
 > 如果问题仍未解决，请 [打开支持票证](https://aka.ms/edusupport)。 包括阐明问题以及问题发生日期的相关屏幕截图。 添加你认为可帮助我们解决该问题的其他数据。
-
-
-

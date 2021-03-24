@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文概述了 Microsoft Teams 面板支持的 和功能。
-ms.openlocfilehash: d0316cc54404547910557cfcf9a608e9e2614ba0
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937849"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102138"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 面板
 
@@ -56,7 +56,7 @@ Teams 面板支持以下功能：
 
 ## <a name="license-requirement"></a>许可证要求
 
-若要使用 Teams 面板，需要 [Microsoft Teams 会议室标准版许可证](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)。
+若要使用 Teams 面板，需要 [Microsoft Teams 会议室标准版许可证](../rooms/rooms-licensing.md)。
 
 > [!Note]
 > 如果已在要安装 Teams 面板的会议空间中部署了 Microsoft Teams 会议室，则不需要额外的许可证来使用 Teams 面板。

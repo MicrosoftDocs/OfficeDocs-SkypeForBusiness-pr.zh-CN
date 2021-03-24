@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要：了解如何在 Skype for Business Server 中添加、删除、修补或更新前端服务器。
-ms.openlocfilehash: 16af245b3c49b21309edd3ee2843f2585814ce9e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 24527a5f973b21c35e386f0565ac6deb69e15070
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826322"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103188"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>在 Skype for Business Server 中管理前端服务器
  
@@ -31,7 +31,7 @@ ms.locfileid: "49826322"
 将前端服务器添加到池，或者从池中删除前端服务器时，您需要重新启动池。 
   
 > [!IMPORTANT]
-> 当您向拓扑中的池添加或删除服务器，然后发布更新的拓扑时，将导致池中的所有服务器同时重新启动。 当服务器重新启动池时，该池处于脱机状态，这将中断连接到该池的用户的服务。 若要防止为用户提供任何服务中断，请计划在非营业时间将拓扑与池中的新服务器一起发布。 
+> 当您向拓扑中的池添加或删除服务器，然后发布更新的拓扑时，将导致池中的所有服务器同时重新启动。 当服务器重新启动池时，该池处于脱机状态，这将中断连接到该池的用户的服务。 为了防止给用户服务中断，请计划在非营业时间发布包含池中新服务器的拓扑。 
   
 添加或删除前端服务器时，可以使用以下过程。
   
@@ -51,12 +51,12 @@ ms.locfileid: "49826322"
 3. 发布拓扑。
     
     > [!IMPORTANT]
-    > 当您向拓扑中的池添加或删除服务器，然后发布更新的拓扑时，将导致池中的所有服务器同时重新启动。 当服务器重新启动池时，该池处于脱机状态，这将中断连接到该池的用户的服务。 若要防止为用户提供任何服务中断，请计划在非营业时间将拓扑与池中的新服务器一起发布。 
+    > 当您向拓扑中的池添加或删除服务器，然后发布更新的拓扑时，将导致池中的所有服务器同时重新启动。 当服务器重新启动池时，该池处于脱机状态，这将中断连接到该池的用户的服务。 为了防止给用户服务中断，请计划在非营业时间发布包含池中新服务器的拓扑。 
   
   > [!NOTE]
-> 此外，在向池添加或删除服务器时，必须在添加或删除的每台计算机中运行 Skype for Business Server 部署向导，有关详细信息，请参阅在拓扑中的服务器上安装 [Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+> 此外，在池中添加或删除服务器时，必须在添加或删除的每台计算机中运行 Skype for Business Server 部署向导，有关详细信息，请参阅在拓扑中的服务器上安装 [Skype for Business Server](../../deploy/install/install-skype-for-business-server.md)
   
-4. 如果您通过以下任一方式更改了前端池中的服务器数量，则通过键入以下 cmdlet 重置池：Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
+4. 如果通过以下任一方式更改了前端池中的服务器数量，请通过键入以下 cmdlet 重置池：Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     
    ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
@@ -88,7 +88,7 @@ ms.locfileid: "49826322"
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
-     如果此 cmdlet 显示任何丢失的副本，则运行以下 cmdlet 以恢复池，然后再应用任何修补程序。
+     如果此 cmdlet 显示任何丢失的副本，则运行以下 cmdlet 恢复池，然后再应用任何修补程序。
     
    ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
@@ -113,4 +113,3 @@ ms.locfileid: "49826322"
     服务器将返回到服务。
     
 5. 对需要升级的每台服务器重复步骤 2-4。
-    

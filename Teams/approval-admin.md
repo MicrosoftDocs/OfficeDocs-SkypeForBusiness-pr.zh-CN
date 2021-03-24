@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909516"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103008"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -50,13 +50,13 @@ ms.locfileid: "49909516"
 
 - 目标环境中的管理员角色。
 
-- [Power Automate](https://docs.microsoft.com/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的许可证。
+- [Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的许可证。
 
 ## <a name="storage-with-cds"></a>通过 CDS 进行存储
 
-Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享数据语言。 它包括由 Microsoft 和我们的合作伙伴发布的一组标准化的可扩展数据架构，可使数据及其含义在应用程序和业务流程之间保持一致。 了解有关 [Microsoft Power Platform 的 Common Data Model](https://docs.microsoft.com/power-automate/get-started-approvals) 的详细信息。
+Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享数据语言。 它包括由 Microsoft 和我们的合作伙伴发布的一组标准化的可扩展数据架构，可使数据及其含义在应用程序和业务流程之间保持一致。 了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。
 
-了解有关[审批工作流](https://docs.microsoft.com/power-automate/modern-approvals)的详细信息。
+了解有关[审批工作流](/power-automate/modern-approvals)的详细信息。
 
 ## <a name="approvals-teams-app-permissions"></a>“审批”Teams 应用权限
 
@@ -101,7 +101,7 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 ## <a name="retention-policy"></a>保留策略
 
-从“审批”应用创建的审批存储在默认 CDS 环境中，该环境目前不支持备份。 详细了解如何[备份和还原环境 - Power Platform\| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments)。
+从“审批”应用创建的审批存储在默认 CDS 环境中，该环境目前不支持备份。 详细了解如何[备份和还原环境 - Power Platform\| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
 
 ## <a name="auditing"></a>审核
 
@@ -133,7 +133,7 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 - 已向审批请求添加了电子签名
 
-若要访问 Flow 中的更多审核审批，请为主审批实体“审批”、“审批请求”和“审批响应”在默认环境中启用和配置审核。 创建、更新和删除操作是审批记录的可审核事件。 详细了解[安全性和合规性的审核数据和用户活动 - Power Platform\| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity)。
+若要访问 Flow 中的更多审核审批，请为主审批实体“审批”、“审批请求”和“审批响应”在默认环境中启用和配置审核。 创建、更新和删除操作是审批记录的可审核事件。 详细了解[安全性和合规性的审核数据和用户活动 - Power Platform\| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。
 
 可在 [Microsoft 365 安全与合规中心](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)中进一步自定义。
 
@@ -143,7 +143,7 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 3. 搜索审核日志，然后选择“**Dynamics 365 活动**”选项卡。
 
-详细了解 [Microsoft Dataverse 和模型驱动的应用活动日志记录 - Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)。
+详细了解 [Microsoft Dataverse 和模型驱动的应用活动日志记录 - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing)。
 
 ## <a name="security"></a>安全性
 

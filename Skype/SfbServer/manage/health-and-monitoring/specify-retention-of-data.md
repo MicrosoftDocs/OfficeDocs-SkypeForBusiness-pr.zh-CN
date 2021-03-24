@@ -1,5 +1,5 @@
 ---
-title: 指定在 Skype for Business Server 中保留 CDR 数据
+title: 在 Skype for Business Server 中指定 CDR 数据的保留
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: 摘要：了解如何管理 Skype for Business Server 的 CDR (CDR) 记录。
-ms.openlocfilehash: 01b4765a9fa98a898255c1374115e17c4966e797
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解如何管理 Skype for Business Server (CDR) 数据的呼叫详细信息记录。
+ms.openlocfilehash: abf6461a76ced9d3ba07e4c5157dd4d14bab60a3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814212"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104388"
 ---
-# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>指定在 Skype for Business Server 中保留 CDR 数据
+# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>在 Skype for Business Server 中指定 CDR 数据的保留
  
-**摘要：** 了解如何管理 Skype for Business Server 的 CDR (CDR) 记录。
+**摘要：** 了解如何管理 Skype for Business Server (CDR) 数据的呼叫详细信息记录。
   
 默认情况下，呼叫详细信息记录 (CDR) 数据会在 60 天后清除。可以使用“呼叫详细信息记录”页上的设置将该数据保留更长或更短的时间。如果禁用 CDR，则在启用 CDR 之前捕获的数据也将清除。
   
@@ -48,9 +48,9 @@ ms.locfileid: "49814212"
     
 8. 单击“提交”。
     
-## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 指定 CDR 保留Windows PowerShell cmdlet
+## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 指定 CDR Windows PowerShell保留
 
-您可以使用 Windows PowerShell 和 Set-CsCdrConfiguration cmdlet 来创建 CDR 保留设置。 可以从 Skype for Business Server 命令行管理程序 或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。
+您可以使用 Windows PowerShell 和 Set-CsCdrConfiguration cmdlet 来创建 CDR 保留设置。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>指定特定位置的 CDR 保留
 
@@ -68,8 +68,8 @@ ms.locfileid: "49814212"
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
-有关详细信息，请参阅 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。
   
 ## <a name="see-also"></a>另请参阅
 
-[Skype for Business Server (CDR) 记录呼叫详细信息](call-detail-recording-cdr.md)
+[Skype for Business Server (CDR) 呼叫详细信息记录](call-detail-recording-cdr.md)

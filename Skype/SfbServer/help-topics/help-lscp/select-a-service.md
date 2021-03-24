@@ -15,34 +15,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 使用"选择服务"对话框查找环境中可用的服务。 要使用现有服务，请单击列表中的某个服务，然后单击“确定”。
-ms.openlocfilehash: c1f0f1c3f5add413f6f2f801bb54c84179b46f91
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 06ee0217a8a495a881c9925c57e33311e4944607
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829192"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108038"
 ---
 # <a name="select-a-service"></a>选择一个服务
 
 使用 **"选择服务** "对话框查找环境中可用的服务。 要使用现有服务，请单击列表中的某个服务，然后单击“确定”。
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
 您可以在“选择服务”页上执行以下任务：
 
-- [配置类别](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [配置类别](/previous-versions/office/lync-server-2013/lync-server-2013-configure-categories)
 
-- [为房间配置外接程序](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
+- [为房间配置外接程序](/previous-versions/office/lync-server-2013/lync-server-2013-configure-add-ins-for-rooms)
 
-- [为持久聊天服务器池全局配置持久聊天服务器选项](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [为持久聊天服务器池全局配置持久聊天服务器选项](/previous-versions/office/lync-server-2013/lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 
-在 **"选择服务**"中，选择与需要创建类别的持久聊天服务器池对应的服务。 该服务是持久聊天服务器池，持久聊天 (客户端) 该类别所属的池。 类别只能属于一个持久聊天服务器池，并且不能移动到另一个池，也不能与另一个池共享。
+在 **"选择服务**"中，选择与需要创建类别的持久聊天服务器池对应的服务。 该服务是持久聊天服务器池， (客户端) 该类别所属的池。 类别只能属于一个持久聊天服务器池，并且不能移动到另一个池，也不能与另一个池共享。
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>配置聊天室外接程序
 
@@ -50,7 +50,6 @@ ms.locfileid: "49829192"
 
 ## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>为特定持久聊天服务器池配置持久聊天选项
 
-在 **"选择服务**"中，选择与要配置的持久聊天服务器池关联的服务。
+在 **"选择服务**"中，选择要配置的与持久聊天服务器池关联的服务。
 
-有关持久聊天服务器特性和功能的详细信息，请参阅规划文档中的 ["持久聊天服务器](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) 概述"。 有关使用持久聊天服务器配置的详细信息，请参阅部署文档中[](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)的"配置持久聊天服务器"和操作文档中的"管理[Lync Server 2013](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)持久聊天服务器"。
-
+有关持久聊天服务器特性和功能的详细信息，请参阅规划文档中的[Overview of Persistent Chat Server。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) 有关使用持久聊天服务器配置的详细信息，请参阅部署文档中的[Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server)和操作文档中的[Managing Lync Server 2013， Persistent Chat Server。](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server)

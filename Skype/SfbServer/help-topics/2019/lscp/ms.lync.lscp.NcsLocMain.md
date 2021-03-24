@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: 位置策略确定是否启用增强型 9-1-1 (E9-1-1) 和如何使用它，以及如何将位置信息用于用户和联系人。
-ms.openlocfilehash: bb7a63e63864b3d342d37fd62b26f806434644b7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9f6d7468520b3398f186adeacffd5b393ce159b8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824782"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109568"
 ---
 # <a name="location-policy"></a>位置策略
 
@@ -30,12 +30,12 @@ ms.locfileid: "49824782"
 
 - **全局策略：** 默认情况下，将创建全局策略。 可以编辑全局策略，但无法将其删除。 如果您尝试删除全局策略，则所有设置将重置为默认值。
 
-- **网站策略 (可选) ：** 可以创建一个或多个站点位置策略，每个策略都适用于特定网站。 站点策略会覆盖全局策略。
+- **站点策略 (可选) ：** 可以创建一个或多个站点位置策略，每个策略都适用于特定网站。 站点策略会覆盖全局策略。
 
 - **用户策略 (可选) ：** 可以创建一个或多个用户位置策略，每个策略都适用于特定用户或用户组。 用户策略会覆盖全局策略和站点策略。
 
 > [!NOTE]
-> 也可以向网络站点（即子网组）分配位置策略。 分配给网络站点的位置策略优先于所有其他用户策略。 有关使用 cmdlet 向网络站点分配位置策略的详细信息，请参阅在 Skype for Business Server 中向 [网络站点添加位置策略](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)。 有关使用 Skype for Business Server 控制面板向网络站点分配位置策略的详细信息，请参阅["配置网络站点"。](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+> 也可以向网络站点（即子网组）分配位置策略。 分配给网络站点的位置策略优先于所有其他用户策略。 有关使用 cmdlet 向网络站点分配位置策略的详细信息，请参阅在 [Skype for Business Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)中向网络站点添加位置策略。 有关使用 Skype for Business Server 控制面板向网络站点分配位置策略的详细信息，请参阅 [配置网络站点](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
 
 “位置策略”页显示一个为组织定义的所有位置策略的列表。
 
@@ -60,7 +60,7 @@ ms.locfileid: "49824782"
     > [!NOTE]
     > 对于全局策略，“删除”会将设置重置为默认值。
 
-- **刷新** 刷新位置策略列表。
+- **刷新** 刷新位置策略的列表。
 
 下表介绍了该页上的各个字段。
 
@@ -68,16 +68,14 @@ ms.locfileid: "49824782"
 
 - **范围** 标识位置策略的范围：全局、站点或用户。
 
-- **E9-1-1** 如果为分配了此位置策略的用户启用了 E9-1-1，则选中。
+- **E9-1-1** 选中分配了此位置策略的用户是否已启用 E9-1-1。
 
-- **位置** 指定当用户的客户端在 Skype for Business Server 的新位置注册时是否提示用户输入位置信息，以及如果用户在未输入位置信息的情况下消除提示，是否看到免责声明。
+- **位置** 指定当用户的客户端在 Skype for Business Server 的新位置注册时是否提示用户输入位置信息，以及当用户在未输入位置信息的情况下消除提示时是否看到免责声明。
 
-- **PSTN 用法** 指定公用电话交换网 (PSTN) 用法，用于确定用于使用此配置文件路由来自客户端的紧急呼叫的语音路由。
+- **PSTN 用法** 指定公用电话交换网 (PSTN) 用法，用于确定使用此配置文件路由来自客户端的紧急呼叫的语音路由。
 
-- **E9-1-1 号码** 指定为访问紧急服务而拨打的号码。
+- **E9-1-1 号码** 指定为获得紧急服务而拨打的号码。
 
-- **E9-1-1 掩码** 指定用户拨打的号码，然后转换为紧急拨号号码。
+- **E9-1-1 掩码** 指定用户拨打的、然后转换为紧急拨号号码的号码。
 
-有关紧急企业语音功能的详细信息，请参阅规划文档中的 [E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) 概述。 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx)。
-
-
+有关紧急企业语音功能的详细信息，请参阅规划文档中的[Overview of E9-1-1。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)。

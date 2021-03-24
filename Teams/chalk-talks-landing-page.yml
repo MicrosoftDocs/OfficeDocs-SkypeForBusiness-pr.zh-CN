@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft 团队粉笔粉笔
-summary: 为 IT 专业人士和决策者设计的团队提供了一种独特的机会，可在团队中了解一些最常用且最引人注目的方案的最佳做法和实践指导。
+title: Microsoft Teams 的一些对话
+summary: Teams 会议专为 IT 专业人员和决策者设计，提供独特的机会来了解有关 Teams 中一些最受欢迎且最具吸引力的方案的最佳实践和实用指南。
 brand: teams
 metadata:
-  title: Microsoft 团队粉笔粉笔
-  description: 为 IT 专业人士和决策者设计的团队提供了一种独特的机会，可在团队中了解一些最常用且最引人注目的方案的最佳做法和实践指导。 通过主题专家主持，这些在线交互式研讨会将向你提供见解以增强你的团队实施，并为最终用户提供其他价值。 单击下面的任何研讨会标题以查看可用日期和时间，并立即注册！
+  title: Microsoft Teams 会议
+  description: Teams 会议专为 IT 专业人员和决策者设计，提供独特的机会来了解有关 Teams 中一些最受欢迎且最具吸引力的方案的最佳实践和实用指南。 这些在线交互式研讨会由主题专家主持，将向您提供见解，以增强 Teams 实施并为最终用户提供更多价值。 单击下面的任何研讨会标题，查看可用的日期和时间，并立即注册！
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,40 +25,40 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
-  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+  ms.openlocfilehash: 2cd84e6eeb43816d86424f2e63919efb750cdaa5
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/28/2020
-  ms.locfileid: "48790594"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51102698"
 productDirectory:
-  summary: 单击要注册的任何研讨会标题。
+  summary: 单击任何研讨会标题进行注册。
   items:
-  - title: 那么 .。。您想要与团队进行通话？
+  - title: 那么...想要与 Teams 通话？
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 请加入我们，深入了解如何将 PSTN 呼叫功能添加到你的团队部署。 我们将逐步介绍如何调用术语、关键概念和配置。
+    summary: 加入我们，深入了解如何向 Teams 部署添加 PSTN 呼叫功能。 我们将一起演练调用术语、关键概念和配置。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: 在团队中收取音频/视频质量
+  - title: 在 Teams 中负责音频/视频质量
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: 希望确保用户拥有会议和语音功能的最佳体验？ 我们将讨论工具、报告和最佳做法，以帮助您管理服务质量-从建立一个主动预防性战略来解决常见问题。
+    summary: 想要确保用户具有最佳的会议和语音功能体验？ 我们将讨论可帮助你管理服务质量的工具、报告和最佳做法 - 从建立主动策略到解决常见问题。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: 团队基础知识中的应用
+  - title: Teams 基础中的应用
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: 此基础会话介绍了包括应用管理和安全在内的基本功能。 了解如何将你的工作流、生产力应用和每天使用的服务集成到单个统一的体验中。
+    summary: 此基础会话涵盖基本功能，包括应用管理和安全性。 了解如何将工作流、效率应用和日常使用的服务集成到单个统一的体验中。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: 畅聊无限在团队中应用的关键工作流
+  - title: 在 Teams 中将关键工作流与应用相加
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: 通过将你的组织所依赖的应用引入团队，连接你的系统、提高自动化，并为用户提供改进的体验。
+    summary: 将组织依赖的应用引入 Teams，连接系统、增强自动化，并为用户提供改进的体验。
     url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
     - title: 仍在使用 Skype for Business？
-      summary: 查看我们的升级研讨会系列。
+      summary: 查看升级研讨会系列。
       url: upgrade-workshops-landing-page.yml
     - title: 准备用户
-      summary: 使用团队实时培训让你的用户保持正常运营。
-      url: https://aka.ms/TeamsLiveTraining
+      summary: 使用 Teams Live 培训让用户启动并运行。
+      url: ./instructor-led-training-teams-landing-page.yml
     - title: 不熟悉 Teams？
-      summary: 了解有关团队入门的详细信息。
-      url: https://docs.microsoft.com/microsoftteams/teams-overview
+      summary: 详细了解 Teams 入门。
+      url: ./teams-overview.md

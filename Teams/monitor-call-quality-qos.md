@@ -1,13 +1,13 @@
 ---
-title: 监控和提高 Microsoft 团队的通话质量
-author: lolajacobsen
-ms.author: lolaj
+title: 监视和改进 Microsoft Teams 的通话质量
+author: SerdarSoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: vkorlep, siunies
-description: 使用 "服务质量（QoS）" 设置，然后在 Microsoft 团队中调用分析和通话质量仪表板。
+description: 使用服务质量 (QoS) 设置，然后在 Microsoft Teams 中调用分析和呼叫质量仪表板。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,45 +17,45 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2d5db11bbd9608aebb1eb2b73ebacc9793629e44
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 62e687de154fadffd6ac95bd628fec6f9454cc51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085930"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51162678"
 ---
-# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>监控和提高 Microsoft 团队的通话质量
+# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>监视和改进 Microsoft Teams 的通话质量
 
-本文介绍了可用于在 Microsoft 团队中监控、解决、管理和改进通话质量的三个关键工具。 
+本文介绍三种关键工具，可用于监视、排查、管理和提高 Microsoft Teams 中的呼叫质量。 
 
-- **通话质量仪表板（CQD）**：分析组织范围内的趋势或问题，提高性能
+- **调用质量仪表板 (CQD) ：** 要分析组织范围内的趋势或问题，请推动性能改进
 
-- **调用分析**：分析单个用户的通话和会议质量
+- **呼叫分析**：分析单个用户的呼叫和会议质量
 
-- **服务质量（QoS）**：确定重要网络流量的优先级
+- **QoS (服务质量) ：** 确定重要网络流量的优先级
 
 
 
-## <a name="monitor-and-troubleshoot-call-quality"></a>监控通话质量并解决问题
-您将使用每用户**呼叫分析**和**通话质量仪表板**查找并解决正在进行的操作中出现的通话质量问题。 这可让你在网络上推动性能改进。 这两个工具均位于团队管理中心。
+## <a name="monitor-and-troubleshoot-call-quality"></a>监视和排查呼叫质量问题
+你将使用按用户的呼叫分析和呼叫质量 **仪表板** 来查找和排查正在进行的操作期间出现呼叫质量问题。 这样，可以在整个网络中推动性能改进。 这两个工具都位于 Teams 管理中心。
 
- - "**呼叫分析**" 显示与团队中每个用户的***特定呼叫和会议***相关的设备、网络和连接的详细信息。 团队管理员和帮助台工程师将使用此信息来解决特定呼叫中的通话质量和连接问题。 若要了解详细信息，请参阅[设置呼叫分析](set-up-call-analytics.md)和[使用呼叫分析解决较差的通话质量](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
+ - **通话分析** 显示与 Teams 中每个用户的特定通话和会议相关的设备、网络和 **** 连接的详细信息。 Teams 管理员和技术支持代理将使用此信息来排查特定呼叫中的呼叫质量和连接问题。 有关详细信息，请阅读[设置呼叫分析和](set-up-call-analytics.md)[使用呼叫分析来排查通话质量不佳的问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
  
- - **通话质量仪表板（CQD）** 在整个组织内为您提供通话质量的***网络视图***。 使用 CQD 信息帮助您识别并解决问题。 首先，[设置 CQD](turning-on-and-using-call-quality-dashboard.md)。 然后阅读[团队中的 "管理通话和会议质量"](quality-of-experience-review-guide.md)。
+ - **使用 CQD** (") "呼叫质量仪表板"可让你 **** 在整个网络中查看呼叫质量。 使用 CQD 信息来帮助识别和修复问题。 首先 [，设置 CQD](turning-on-and-using-call-quality-dashboard.md)。 然后阅读 [在 Teams 中管理呼叫和会议质量](quality-of-experience-review-guide.md)。
 
- 调用分析和 CQD 并行运行，并且可以独立使用，也可以一起使用。 例如，如果通信支持专家确定他们需要更多的帮助来解决用户的呼叫问题，他们将呼叫提升到通信支持工程师，该工程师有权访问有关呼叫的其他信息。 然后，通信支持工程师将向网络工程师发出警报，通知他们可能会在通话分析中注意到的与网站相关的问题。 网络工程师检查 CQD 以了解网站的总体相关问题是否可能是导致用户呼叫问题的原因。
+ 调用分析和 CQD 并行运行，可以独立或一起使用。 例如，如果通信支持专家确定他们需要更多帮助来排查用户的呼叫问题，他们会将呼叫上报给通信支持工程师，该工程师有权访问有关呼叫的其他信息。 反过来，通信支持工程师会向网络工程师发出警报，提醒他们注意呼叫分析中可能发现的网站相关问题。 网络工程师会检查 CQD，以查看与网站相关的整体问题是否可能是用户呼叫问题的促成原因。
 
 
 ## <a name="prioritize-important-network-traffic-using-qos"></a>使用 QoS 确定重要网络流量的优先级
-当用户开始使用团队进行呼叫和会议时，他们可能会遇到呼叫者的语音或通话或会议。 共享视频可能冻结或像素化，或者完全失败。 这是由于表示语音和视频流量导致网络拥塞的 IP 数据包，或者根本就不在序列中。 如果发生这种情况（或阻止其在第一个位置发生），请使用 "**服务质量（QoS）**"。 
+当用户开始使用 Teams 进行呼叫和会议时，他们可能会遇到呼叫者的声音中断或呼叫或会议中断。 共享视频可能会冻结或像素化，或完全失败。 这是由于表示语音和视频流量遇到网络拥塞并按顺序到达或者完全无法到达的 IP 数据包造成的。 如果发生这种情况 (或防止它最初) ，请使用服务质量 (**QoS) 。** 
 
-使用 QoS，你可以为延迟敏感的网络流量（例如，语音或视频流）设置优先级，从而允许它 "在不太敏感的通信（如下载新应用，要下载的额外第二秒）" 之前 "在行中剪切"。 QoS 使用 Windows 组策略对象和一个名为基于端口的访问控制列表的路由功能在实时流中标识和标记所有数据包，这将指示你的网络为语音、视频和屏幕共享自己的专用网络带宽。
+使用 QoS，可以优先处理延迟敏感的网络流量 (例如语音或视频流) ，从而允许它在不太敏感的流量前面"切线" (例如下载新应用，其中额外下载秒数不是一个大问题) 。 QoS 使用 Windows 组策略对象和一种称为基于端口的访问控制列表的路由功能来识别和标记实时流中的所有数据包，该功能指示网络提供语音、视频和屏幕共享其自己的专用网络带宽。
 
-理想情况下，你将在你的内部网络上实施 QoS，同时准备好部署团队，但你可以随时执行此操作。 如果您非常小，则可能不需要 QoS。
+理想情况下，你将在准备推出 Teams 的同时在内部网络上实现 QoS，但你可以随时实现。 如果足够小，可能不需要 QoS。
 
-准备就绪后，请阅读[Microsoft 团队中的实施服务质量（QoS）](QoS-in-Teams.md)。
+准备就绪后，请阅读在[Microsoft Teams (QoS) 服务质量。](QoS-in-Teams.md)
 
-若要使用 QoS 管理会议流量，请参阅[设置你希望如何处理团队会议的实时媒体流量](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)。
+若要使用 QoS 管理会议流量，请阅读设置如何处理 Teams 会议 [实时媒体流量](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)。
 
 
 ## <a name="related-topics"></a>相关主题
@@ -66,7 +66,6 @@ ms.locfileid: "45085930"
 
 [设置 CQD](turning-on-and-using-call-quality-dashboard.md)
 
-[在团队中管理通话和会议质量](quality-of-experience-review-guide.md)
+[在 Teams 中管理呼叫和会议质量](quality-of-experience-review-guide.md)
 
-[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
-
+[Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)

@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中为被叫 ID 演示文稿创建或修改转换规则
+title: Create or modify a translation rule for called ID presentation in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,28 +16,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 摘要：了解如何使用 Skype for Business Server 中的"生成转换规则"工具定义转换规则。
-ms.openlocfilehash: b93d271abd0ade1b178e859f2a0599464a6759e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3f4754184e69e7b574709d0272afc9989553cfe5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804192"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103638"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>在 Skype for Business Server 中为被叫 ID 演示文稿创建或修改转换规则
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Create or modify a translation rule for called ID presentation in Skype for Business Server
 
 **摘要：** 了解如何使用 Skype for Business Server 中的"生成转换规则"工具定义转换规则。
 
-如果要定义转换规则，请按照以下步骤操作：在"生成转换规则"工具中输入一组值，并启用 Skype for Business Server 控制面板来生成相应的匹配模式和转换规则。 或者，可以手动编写正则表达式来定义匹配模式和转换规则。 有关详细信息，请参阅[Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)。
+如果要定义转换规则，请按照以下步骤操作：在"生成转换规则"工具中输入一组值，并启用 Skype for Business Server 控制面板来生成相应的匹配模式和转换规则。 或者，可以手动编写正则表达式来定义匹配模式和转换规则。 有关详细信息，请参阅[Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)。
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>使用“构建转换规则”工具定义规则
 
 1. 打开 Skype for Business Server 控制面板。
 
-2. 要开始定义转换规则，请按照步骤 10 中的步骤在 [Skype for Business Server](configure-trunk-with-media-bypass.md) 中配置具有媒体旁路的中继，或在 Skype for Business [Server](configure-trunk-without-media-bypass.md) 中通过步骤 9 配置没有媒体旁路的中继。
+2. 要开始定义转换规则，请按照在 Skype [for Business Server](configure-trunk-with-media-bypass.md) 中配置带媒体旁路的中继的步骤执行步骤 10 或按照步骤 9 在 [Skype for Business Server](configure-trunk-without-media-bypass.md) 中配置没有媒体旁路的中继中的步骤操作。
 
 3. 在“新建转换规则”或“编辑转换规则”页上的“名称”下，键入描述要转换的号码模式的名称。
 
-4.  (") "下的可选选项，键入转换规则的说明，例如美国国际长途拨号。
+4.  (可选) 在"说明"下，键入转换规则的说明，例如美国国际长途拨号。
 
 5. 在对话框的“构建转换规则”部分的以下字段中输入值：
 
@@ -45,7 +45,7 @@ ms.locfileid: "49804192"
 
    - **长度**：指定匹配模式中的数字位数，并选择希望模式匹配的号码是必须具有此准确长度、至少具有此长度还是可以具有任何长度。 例如，在下拉列表中至少输入 11 和 selectAt，以匹配长度至少为 11 位数的号码。
 
-   - **要删除的数字**：（可选）指定要删除的起始数字的位数。 例如，输入 1 可去除数字开头的 +。
+   - **要删除的数字**：（可选）指定要删除的起始数字的位数。 例如，输入 1 可去除号码开头的+ 。
 
    - **要添加的数字**：（可选）指定要附加到转换号码前面的数字。 例如，如果要在应用规则时将 011 附加到转换号码的前面，则输入 011。
 
@@ -59,7 +59,7 @@ ms.locfileid: "49804192"
 
    - （可选）可以通过在“要添加的数字”字段中输入来附加的值
 
-     使用前面的示例值，转换规则字段中将显示 011$1。 
+     使用上述示例值，"转换规则"字段中将显示 011$1。 
 
      应用此转换规则后，+441235551010 将变为 011441235551010。
 
@@ -70,17 +70,17 @@ ms.locfileid: "49804192"
 8. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
    > [!NOTE]
-   > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的"在 [Skype for Business 中](voice-route-config-changes.md) 发布对语音路由配置的挂起更改"。
+   > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business。](voice-route-config-changes.md)
 
 ### <a name="to-define-a-translation-rule-manually"></a>手动定义转换规则
 
 1. 打开 Skype for Business Server 控制面板
 
-2. 要开始定义转换规则，请按照步骤 10 中的步骤在 [Skype for Business Server](configure-trunk-with-media-bypass.md) 中配置具有媒体旁路的中继，或在 Skype for Business [Server](configure-trunk-without-media-bypass.md) 中通过步骤 9 配置没有媒体旁路的中继。
+2. 要开始定义转换规则，请按照在 Skype [for Business Server](configure-trunk-with-media-bypass.md) 中配置带媒体旁路的中继的步骤执行步骤 10 或按照步骤 9 在 [Skype for Business Server](configure-trunk-without-media-bypass.md) 中配置没有媒体旁路的中继中的步骤操作。
 
 3. 在“新建转换规则”或“编辑转换规则”页上的“名称”字段中，键入描述要转换的号码模式的名称。
 
-4.  (可选) 说明中，键入转换规则的说明，例如美国国际长途拨号。
+4.  (可选) 在"说明"中，键入转换规则的说明，例如美国国际长途拨号。
 
 5. 单击“构建转换规则”部分底部的“编辑”。
 
@@ -90,7 +90,7 @@ ms.locfileid: "49804192"
 
    - 在“转换规则”中，指定转换号码格式的模式。
 
-     例如，如果在"匹配此模式"中输入 ^ \+ {9} (\d \d+ ) $ ，在 **转换** 规则中输入 011$1，该规则将 +441235551010 转换为 011441235551010。
+     例如，如果在"匹配此模式"中输入 ^ (\d \d+) $，在"转换规则"中输入 \+ {9} 011$1，则规则将 +441235551010 转换为 011441235551010。  
 
 7. 单击“确定”保存转换规则。
 
@@ -99,7 +99,7 @@ ms.locfileid: "49804192"
 9. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的"在 [Skype for Business 中](voice-route-config-changes.md) 发布对语音路由配置的挂起更改"。
+    > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business。](voice-route-config-changes.md)
 
 ## <a name="see-also"></a>另请参阅
 
@@ -110,4 +110,3 @@ ms.locfileid: "49804192"
 [在 Skype for Business 中发布对语音路由配置的挂起更改](voice-route-config-changes.md)
 
 [在 Skype for Business Server 中部署媒体旁路](deploy-media-bypass.md)
-

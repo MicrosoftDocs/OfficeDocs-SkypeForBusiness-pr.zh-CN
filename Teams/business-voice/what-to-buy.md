@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: e80c54ef46c72769e7a3b0d4e6e696fba1202e70
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7175bc47cc3e9db1dde3d92c1b3024dcdcfd3e41
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030788"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102818"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>若要使用 Microsoft 365 商务语音，需要购买什么？
 
@@ -53,7 +53,7 @@ ms.locfileid: "49030788"
 
 参阅[通话套餐的国家和地区可用性](country-region-availability.md)，了解所在国家或地区是否支持通话套餐。
 
-若要了解有关商务语音功能的信息，请参阅 [Microsoft 365 商务语音服务说明](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)。
+若要了解有关商务语音功能的信息，请参阅 [Microsoft 365 商务语音服务说明](/office365/servicedescriptions/microsoft-365-business-voice-service-description)。
 
 ## <a name="business-voice-with-calling-plan"></a>包含通话套餐的商务语音
 
