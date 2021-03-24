@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26d6555b82db1939b879ecafc113ced186528f80
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50836999"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098468"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 - SIP 协议
 
@@ -121,7 +121,7 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 SIP 代理需要计算新对话客户端事务的下一跃点 FQDN (例如 Bye 或重新邀请) ，以及答复 SIP 选项时。 使用"联系人Record-Route联系人"。 
 
-根据 [RFC 3261 第 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)部分，任何可能导致新对话的请求都需要联系人标头。 只有Record-Route想要停留在对话中未来请求的路径时，才需要该请求。 如果代理 SBC 与直接路由的本地媒体优化一同 [使用](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)，则需要配置记录路由，因为代理 SBC 需要停留在路由中。 
+根据 [RFC 3261 第 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)部分，任何可能导致新对话的请求都需要联系人标头。 只有Record-Route想要停留在对话中未来请求的路径时，才需要该请求。 如果代理 SBC 与直接路由的本地媒体优化一同 [使用](./direct-routing-media-optimization.md)，则需要配置记录路由，因为代理 SBC 需要停留在路由中。 
 
 如果未使用代理 SBC，Microsoft 建议仅使用 Contact 标头：
 
@@ -362,6 +362,4 @@ SBC 必须支持 [RFC 5245 第 9.1.1.1 部分](https://tools.ietf.org/html/rfc52
 
 *代理为此媒体流设置 SDP 中的其余字段，就像在此媒体流的初始产品/服务中一样 (请参阅第 4.3 部分) 。 因此，候选项集"可以"包括该流的一些、无或所有以前的候选项，"可以"包含一组完全新的候选项，如第 4.1.1 节中所述。*
 
-如果呼叫最初是使用媒体旁路建立的，并且呼叫转接到 Skype for Business 客户端，则直接路由需要插入媒体处理器 -这是因为直接路由不能与具有媒体旁路的 Skype for Business 客户端一同使用。 直接路由通过更改 ice-pwd 和 ice-ufrag，在重新邀请中提供新的媒体候选项来启动 ICE 重启过程。 
-
-
+如果呼叫最初是使用媒体旁路建立的，并且呼叫转接到 Skype for Business 客户端，则直接路由需要插入媒体处理器 -这是因为直接路由不能与具有媒体旁路的 Skype for Business 客户端一同使用。 直接路由通过更改 ice-pwd 和 ice-ufrag，在重新邀请中提供新的媒体候选项来启动 ICE 重启过程。

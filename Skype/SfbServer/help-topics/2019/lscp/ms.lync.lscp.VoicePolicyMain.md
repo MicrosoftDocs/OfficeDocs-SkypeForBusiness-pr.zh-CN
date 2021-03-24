@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 8d9717946050bf8ccfd50ec04bd54b13c615b363
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9395310e38a46cf43677bec5c3bc890890f4b0f3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820042"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096968"
 ---
 # <a name="voice-policy"></a>语音策略
 
@@ -28,7 +28,4 @@ ms.locfileid: "49820042"
 
 - [在 Skype for Business 中创建或修改语音策略和配置 PSTN 用法记录](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [修改语音策略和配置 PSTN 用法记录](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
-
-
-
+- [修改语音策略和配置 PSTN 用法记录](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)

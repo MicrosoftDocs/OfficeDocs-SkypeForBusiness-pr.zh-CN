@@ -19,26 +19,26 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f13cdd1d62a31178f7aed922b3bc55b87cd59db
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701230"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098178"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 和 Microsoft Teams
 
 Teams 在 Microsoft 365 云中的通信和数据共享中发挥核心作用。 由于 Teams 服务涉及云中的许多基础技术，因此它不仅可以在 *搜寻日志* 时从人工和自动化分析中受益，还可以 *实时监控会议*。 Azure Sentinel 可为管理员提供这些解决方案。
 
 > [!NOTE]
-> 需要复习有关 Azure Sentinel 的知识？ [本文](https://docs.microsoft.com/azure/sentinel/overview)正好满足你的需求。
+> 需要复习有关 Azure Sentinel 的知识？ [本文](/azure/sentinel/overview)正好满足你的需求。
 
 ## <a name="sentinel-and-microsoft-teams-activity-logs"></a>Sentinel 和 Microsoft Teams 活动日志
 
 本文重点介绍如何在 Azure Sentinel 中收集 Teams 活动日志。 除了允许管理员将安全管理放在一个窗格（包括任何选定的第三方设备、Microsoft 威胁防护和其他 Microsoft 365 工作负载）下，Sentinel 工作簿和运行手册还可以使安全监控系统化。 在此流程中，最好先收集所需的日志进行分析。
 
 > [!NOTE]
-> 可以在同一个 Azure Sentinel 实例中呈现多个 Microsoft 365 订阅。 这将允许[实时监控](https://docs.microsoft.com/azure/sentinel/livestream)以及在历史日志文件中搜寻威胁。 管理员可以使用[跨资源查询](https://docs.microsoft.com/azure/azure-monitor/log-query/cross-workspace-query)在单个资源组内、跨资源组或在另一个订阅中进行搜寻。
+> 可以在同一个 Azure Sentinel 实例中呈现多个 Microsoft 365 订阅。 这将允许[实时监控](/azure/sentinel/livestream)以及在历史日志文件中搜寻威胁。 管理员可以使用[跨资源查询](/azure/azure-monitor/log-query/cross-workspace-query)在单个资源组内、跨资源组或在另一个订阅中进行搜寻。
 
 ## <a name="step-1-collect-teams-logs"></a>步骤 1：收集 Teams 日志
 
@@ -50,7 +50,7 @@ Teams 在 Microsoft 365 云中的通信和数据共享中发挥核心作用。 �
 
 ### <a name="enable-audit-logs-in-m365"></a>在 M365 中启用审核日志
 
-由于 Teams 通过 M365 记录活动，因此默认情况下不会收集审核日志。 通过[以下步骤](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)启用此功能。 Teams 数据在 M365 审核中根据 *Audit.General* 进行收集。
+由于 Teams 通过 M365 记录活动，因此默认情况下不会收集审核日志。 通过[以下步骤](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)启用此功能。 Teams 数据在 M365 审核中根据 *Audit.General* 进行收集。
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>在 Microsoft Azure 中注册应用以进行日志收集
 
@@ -201,7 +201,7 @@ TeamsData
 ```
 
 > [!TIP]
-> 若要了解有关 Teams 中外部和来宾访问类型的更多信息，请参阅 [本文](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)或 [Teams 安全指南](https://docs.microsoft.com/microsoftteams/teams-security-guide)中的 *参与者类型* 部分。
+> 若要了解有关 Teams 中外部和来宾访问类型的更多信息，请参阅 [本文](./communicate-with-users-from-other-organizations.md)或 [Teams 安全指南](./teams-security-guide.md)中的 *参与者类型* 部分。
 
 #### <a name="who-recently-joined--whose-role-changed"></a>最近加入/角色已更改的人员
 
@@ -437,8 +437,8 @@ SigninLogs
 
 **感谢你们的内容协作，Pete Bryan、Nicholas DiCola 和 Matthew Lowe。** Pete Bryan 和他的同事将继续为 Teams 开发检测和搜寻查询，因此请时常访问该 [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) 存储库以获取更新。  监控本文中使用的[分析器](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt)和[逻辑应用](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data)的更新。 你也可以加入并参与 [Azure Sentinel 社区](https://github.com/Azure/Azure-Sentinel/wiki)。 谢谢！ 祝你搜寻愉快。
 
-[在 Azure AD 中注册应用程序](https://docs.microsoft.com/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[在 Azure AD 中注册应用程序](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[启用或禁用审核日志搜索](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)
+[启用或禁用审核日志搜索](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)
 
-[什么是 Azure Sentinel](https://docs.microsoft.com/azure/sentinel/overview)
+[什么是 Azure Sentinel](/azure/sentinel/overview)

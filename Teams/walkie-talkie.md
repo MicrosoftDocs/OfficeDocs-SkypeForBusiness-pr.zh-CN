@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb00501a0c795f754c927dd9ed3bd5114f61fab7
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 90d5135196de9ecf62085e88053d80299b6e5a58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875042"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097458"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
@@ -88,7 +88,7 @@ Teams 中的 Walkie Talkie 需要 Internet 连接且低于网络条件才能获�
 
 ### <a name="license-requirements"></a>许可证要求
 
-Walkie Talkie 应用包含在 [Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)订阅中 Teams 的所有付费许可证中。 有关获取 Teams 的信息，请参阅如何 [获取 Microsoft Teams 的访问权限](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
+Walkie Talkie 应用包含在 [Office 365](/office365/servicedescriptions/teams-service-description)订阅中 Teams 的所有付费许可证中。 有关获取 Teams 的信息，请参阅如何 [获取 Microsoft Teams 的访问权限](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
 
 > [!NOTE]
 > 某些高级功能可能需要额外的许可。 例如，与 Samsung Galaxy XCover Pro 集成需要 Knox 许可证。

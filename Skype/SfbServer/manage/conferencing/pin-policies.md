@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 摘要：了解如何在 Skype for Business Server 中管理电话拨入式会议 PIN 策略。
-ms.openlocfilehash: 6544586071f1107537232a117de196dfbffeb4aa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 34b006b54242c25fb9afcd3fc9fd6e6692e9cbd2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827948"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096744"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business Server 中管理电话拨入式会议 PIN 策略
  
@@ -43,7 +43,7 @@ PIN 策略既可以应用于少数用户，也可以应用于众多用户。 如
     
 3. 在左侧导航栏中，单击“会议”，然后单击“PIN 策略”。
     
-4. 在 **"PIN 策略**"页上，单击要查看的 PIN 策略，单击"编辑"，然后单击"**显示详细信息"。**
+4. 在 **"PIN 策略"** 页上，单击要查看的 PIN 策略，再单击"编辑"，然后单击"显示 **详细信息"。**
     
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序查看有关 PIN 策略的信息
 
@@ -53,7 +53,7 @@ PIN 策略既可以应用于少数用户，也可以应用于众多用户。 如
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
-有关详细信息，包括完整的语法说明和参数列表，请参阅 [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps)。
+有关详细信息，包括完整的语法说明和参数列表，请参阅 [Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps)。
   
 ## <a name="modify-the-global-pin-policy"></a>修改全局 PIN 策略
 
@@ -98,7 +98,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
-有关详细信息，包括完整的语法说明和参数列表，请参阅 [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
+有关详细信息，包括完整的语法说明和参数列表，请参阅 [Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
   
 ## <a name="create-a-user-or-site-pin-policy"></a>创建用户或站点 PIN 策略
 
@@ -143,13 +143,13 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 
 若要创建用户或站点 PIN 策略，请使用 **New-CsPinPolicy** cmdlet。
   
-以下命令创建 Identity 为 site：Redmond 的新 PIN 策略。 此命令仅包含一个可选参数 MinPasswordLength，它用于将 MinPasswordLength 属性设置为 7。 其余所有策略属性都将使用默认值进行配置。
+以下命令创建 Identity 为 site：Redmond 的新 PIN 策略。 此命令仅包含一个可选参数 MinPasswordLength，用于将 MinPasswordLength 属性设置为 7。 其余所有策略属性都将使用默认值进行配置。
   
 ```PowerShell
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- 有关详细信息，包括完整的语法说明和参数列表，请参阅 [New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps)。
+ 有关详细信息，包括完整的语法说明和参数列表，请参阅 [New-CsPinPolicy](/powershell/module/skype/new-cspinpolicy?view=skype-ps)。
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>修改用户或站点 PIN 策略
 
@@ -179,7 +179,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
-有关详细信息，包括完整的语法说明和参数列表，请参阅 [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
+有关详细信息，包括完整的语法说明和参数列表，请参阅 [Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>删除用户或站点 PIN 策略
 
@@ -193,18 +193,16 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
     
 3. 在左侧导航栏中，单击“会议”，然后单击“PIN 策略”。
     
-4. 在 **"PIN 策略**"页上，单击要更改的 PIN 策略，单击"编辑"，然后单击"**删除"。**
+4. 在 **"PIN 策略"** 页上，单击要更改的 PIN 策略，再单击"编辑"，然后单击"删除 **"。**
     
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序删除用户或站点 PIN 策略
 
 若要删除用户或站点 PIN 策略，请使用 **Remove-CsPinPolicy** cmdlet。
   
-以下命令删除在站点范围配置的所有 PIN 策略。 为此，请使用 **Get-CsPinPolicy** cmdlet 和 Filter 参数返回 Identity 以字符"site："开头的所有策略的集合。 然后，通过管道将此集合通过管道到 **Remove-CsPinPolicy** cmdlet，该 cmdlet 将删除集合中的每个策略：
+以下命令删除在站点范围配置的所有 PIN 策略。 为此，请使用 **Get-CsPinPolicy** cmdlet 和 Filter 参数返回 Identity 以字符"site："开头的所有策略的集合。 然后，将此集合通过管道管道到 **Remove-CsPinPolicy** cmdlet，该 cmdlet 将删除集合中的每个策略：
   
 ```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-有关详细信息，包括完整的语法说明和参数列表，请参阅 [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps)。
-  
-
+有关详细信息，包括完整的语法说明和参数列表，请参阅 [Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps)。

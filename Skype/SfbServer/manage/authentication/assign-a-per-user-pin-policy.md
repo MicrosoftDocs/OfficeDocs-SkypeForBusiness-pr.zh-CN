@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 摘要：为 Skype for Business Server 阶段 AV 和 OAuth 证书。
-ms.openlocfilehash: 6a0d0a1824e809a70dfee419fb5da1f663d8d779
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a5cd533dccffb878fad7d7562ded3da301fc0ce3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828522"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096828"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在 Skype for Business Server 中分配每用户 PIN 策略
 
@@ -67,9 +67,9 @@ ms.locfileid: "49828522"
 7. 在“分配策略”中的“PIN 策略”下，执行下列操作之一：
     
     > [!NOTE]
-    > 由于可以使用"分配策略"对话框配置多个策略，因此默认情况下会为对话框中的每一个策略 **\<Keep as is\>** 选择这些策略。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于可以使用"分配策略"对话框配置多个策略，因此默认情况下会为对话框内每个策略选择 **\<Keep as is\>** 策略。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
   
-   - 允许 Skype for Business Server 自动选择全局级别的策略或站点级别的策略（如果已定义）。
+   - 允许 Skype for Business Server 自动选择全局级别的策略或站点级别策略（如果已定义）。
     
    - 单击之前在“PIN 策略”页中定义的每用户 PIN 策略的名称。
     
@@ -78,9 +78,9 @@ ms.locfileid: "49828522"
   
 8. 完成后，单击“确定”。
     
-## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 cmdlet Per-User分配 Windows PowerShell PIN 策略
+## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 cmdlet Per-User分配Windows PowerShell PIN 策略
 
-可以使用 Windows PowerShell 和 **Grant-CsPinPolicy** cmdlet 分配每用户 PIN 策略。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。
+可以使用 Windows PowerShell 和 **Grant-CsPinPolicy** cmdlet 分配每用户 PIN 策略。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>为单个用户分配每用户 PIN 策略
 
@@ -92,7 +92,7 @@ ms.locfileid: "49828522"
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>为多个用户分配每用户 PIN 策略
 
-- 以下命令为工作于 Redmond 市的所有用户分配每用户 PIN 策略 RedmondUsersPinPolicy。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅[Get-CsUser。](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)
+- 以下命令为工作于 Redmond 市的所有用户分配每用户 PIN 策略 RedmondUsersPinPolicy。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅 [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps)。
     
   ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -106,7 +106,7 @@ ms.locfileid: "49828522"
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-有关详细信息，请参阅 [Grant-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps)。
+有关详细信息，请参阅 [Grant-CsPinPolicy](/powershell/module/skype/grant-cspinpolicy?view=skype-ps)。
   
 ## <a name="see-also"></a>另请参阅
 

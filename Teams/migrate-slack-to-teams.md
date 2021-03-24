@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: 从 Slack 迁移到 Microsoft Teams 的完整指南。
-ms.openlocfilehash: 8b4fc90cde4bb438eee421459cf2c26672555b09
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: b1e04a0dc8c829ed938b925e498e2716529356f9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030638"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098358"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>从 Slack 迁移到 Microsoft Teams
 
@@ -89,7 +89,7 @@ Slack 中的应用与 Teams 中的应用相差无几。 获得工作区中的应
 
 如果你使用的是 Slack 付费服务计划，可以转至 *<your Slack workspace>.slack.com/admin/stats#members*，获取每位用户的电子邮件地址和帐户类型等成员详细信息（例如，单频道来宾还是多频道来宾）。
 
-你可以使用下面的脚本，将从 Slack 导出的电子邮件地址与 Azure AD 中的内容进行对比，以解决名称不明确的问题。 此外，它还会报告是否为用户启用了 Teams。 如需 PowerShell 方面的帮助，请参阅 [Azure PowerShell 入门](https://docs.microsoft.com/powershell/azure/get-started-azureps)。
+你可以使用下面的脚本，将从 Slack 导出的电子邮件地址与 Azure AD 中的内容进行对比，以解决名称不明确的问题。 此外，它还会报告是否为用户启用了 Teams。 如需 PowerShell 方面的帮助，请参阅 [Azure PowerShell 入门](/powershell/azure/get-started-azureps)。
 
 ```azurepowershell
 Connect-AzureAD
@@ -212,7 +212,7 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 
 对于 Slack 中存储的文件，当在 Teams 中设置好团队和频道后，你可以以编程方式将其从 Slack 复制到目标 Teams 频道。
 
-以下脚本会从 Slack 取回文件。 这个脚本会在你的计算机上搜索指定的 Slack 导出内容，在每个目标频道中创建一个文件夹，并将所有文件下载到该位置。 此外，还存在可提取数据的第三方解决方案。 如需 PowerShell 方面的帮助，请参阅 [Azure PowerShell 入门](https://docs.microsoft.com/powershell/azure/get-started-azureps)。
+以下脚本会从 Slack 取回文件。 这个脚本会在你的计算机上搜索指定的 Slack 导出内容，在每个目标频道中创建一个文件夹，并将所有文件下载到该位置。 此外，还存在可提取数据的第三方解决方案。 如需 PowerShell 方面的帮助，请参阅 [Azure PowerShell 入门](/powershell/azure/get-started-azureps)。
 
 
 
@@ -361,7 +361,7 @@ Write-Host -ForegroundColor Green "$(Get-TimeStamp) Exiting.."
 
 创建团队和频道后，开始将文件从 Slack 频道复制到 Teams，并配置应用。 如果你要使用某个解决方案来保留历史记录，则现在可以也对其进行配置。 然后，你就可以开始授予用户许可（如果用户尚未获得许可），并将其添加到相应的团队。 为了减少需要额外导出的内容和复制的文件，请考虑在商定的日期（将每个用户添加到团队中的时间）撤销 Slack 访问权限。 这可避免重新导出和导入文件和历史记录的增量更改。
 
-按照下图中的步骤在你所在的组织部署 Teams。 有关详情，请参阅[如何部署 Teams](How-to-roll-out-teams.md)。
+按照下图中的步骤在你所在的组织部署 Teams。 有关详情，请参阅[如何部署 Teams](./deploy-overview.md)。
 
 
 :::image type="content" source="media/migrate-slack-to-teams-image4.png" alt-text="列出从 Slack 迁移到 Teams 的步骤的图表。":::

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 使用本文中的过程查看、创建、修改或删除网络带宽策略配置文件。
-ms.openlocfilehash: 69efe657b6df775b9e647a77bef2588cafdc5b03
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 47a4d268c24cd8d57c8aeda4deacc6b03e795c2c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816442"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096668"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络带宽策略配置文件
 
@@ -28,20 +28,20 @@ ms.locfileid: "49816442"
 
 ### <a name="to-view-a-bandwidth-policy-profile"></a>查看带宽策略配置文件
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
 3.  在左侧导航栏中，单击“网络配置”，然后单击“带宽策略”。
 
-4.  在 **"带宽策略** "页上，单击要查看的带宽策略配置文件。
+4.  在 **"带宽策略"** 页上，单击要查看的带宽策略配置文件。
 
 5.  在“编辑”菜单上，单击“显示详细信息”。
 
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络带宽策略Windows PowerShell信息
 
-网络带宽配置文件可通过使用 Windows PowerShell 和 Get-CsNetworkBandwidthPolicyProfile cmdlet 进行查看。 此 cmdlet 可以从 Skype for Business Server 命令行管理程序运行，也可以从远程会话Windows PowerShell。 
+通过使用 cmdlet 和 Windows PowerShell 可以查看Get-CsNetworkBandwidthPolicyProfile配置文件。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>查看网络带宽策略配置文件信息
@@ -61,7 +61,7 @@ ms.locfileid: "49816442"
         Description       :
 
 
-有关详细信息，请参阅[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) cmdlet 的帮助主题。
+有关详细信息，请参阅[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) cmdlet 的帮助主题。
 
 
 ## <a name="create-or-modify-bandwidth-policy-profiles"></a>创建或修改带宽策略配置文件
@@ -70,11 +70,11 @@ ms.locfileid: "49816442"
 
 ### <a name="to-create-a-new-bandwidth-policy-profile"></a>创建新的带宽策略配置文件
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"**带宽策略"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"带宽 **策略"。**
 
 4.  在“带宽策略”页上，单击“新建”。
 
@@ -98,17 +98,17 @@ ms.locfileid: "49816442"
 
 ### <a name="to-modify-a-bandwidth-policy-profile"></a>修改带宽策略配置文件
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"**带宽策略"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"带宽 **策略"。**
 
 4.  在“带宽策略”页上，单击要修改的带宽策略配置文件。
 
 5.  在“编辑”菜单上，单击“显示详细信息”。
 
-6.  在 **"编辑带宽策略配置文件**"页上，根据需要 (字段，有关详细信息，请参阅"创建新的带宽策略配置文件 [](#to-create-a-new-bandwidth-policy-profile)) 。
+6.  在" **编辑带宽策略配置文件** "页上，根据需要 (字段，有关详细信息，请参阅创建新的带宽策略 [配置文件](#to-create-a-new-bandwidth-policy-profile)) 。
 
 7.  单击“提交”。
 
@@ -122,11 +122,11 @@ ms.locfileid: "49816442"
 
 ### <a name="to-delete-a-bandwidth-policy-profile"></a>删除带宽策略配置文件
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"**带宽策略"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"带宽 **策略"。**
 
 4.  在“带宽策略”页上，单击要删除的带宽策略配置文件。
 
@@ -144,12 +144,10 @@ ms.locfileid: "49816442"
 
 [管理网站的呼叫允许控制](managing-call-admission-control-for-sites.md)
  
-[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
+[New-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
 
-[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
+[Set-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
 
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
 
-[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  
-  
-
+[Remove-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  

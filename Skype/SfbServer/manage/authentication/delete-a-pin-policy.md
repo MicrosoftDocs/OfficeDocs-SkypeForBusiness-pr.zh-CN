@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: 摘要：删除用户的 Skype for Business Server 电话拨入式会议 PIN。
-ms.openlocfilehash: 6cf93d2ade053ba6e4bdbe7aabf0138206fdff88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b85d2bb29f8a1a28279a59f72957d201886d1dc4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828392"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096788"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>在 Skype for Business Server 中删除 PIN 策略
  
@@ -43,9 +43,9 @@ ms.locfileid: "49828392"
     
 6. 单击“确定”。
     
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 删除WINDOWS POWERSHELL策略
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 删除WINDOWS POWERSHELL PIN 策略
 
-可以使用 Windows PowerShell 和 Remove-CsPinPolicy cmdlet 删除 PIN 策略。 可以从 Skype for Business Server 命令行管理程序 或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。
+可以使用 cmdlet 和 Windows PowerShell 删除Remove-CsPinPolicy策略。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
   
 ### <a name="to-remove-a-specific-pin-policy"></a>删除特定 PIN 策略
 
@@ -63,7 +63,7 @@ ms.locfileid: "49828392"
   Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
   ```
 
-### <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a>删除允许使用常见模式的所有 PIN 策略
+### <a name="to-remove-all-the-pin-policies-that-allow-the-use-of-common-patterns"></a>删除允许使用通用模式的所有 PIN 策略
 
 - 以下命令删除允许使用通用模式的所有 PIN 策略：G
     
@@ -71,6 +71,4 @@ ms.locfileid: "49828392"
   et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
   ```
 
-有关详细信息，请参阅 [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps) cmdlet 的帮助主题。
-  
-
+有关详细信息，请参阅 [Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps) cmdlet 的帮助主题。

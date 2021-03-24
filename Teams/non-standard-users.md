@@ -1,5 +1,5 @@
 ---
-title: 非标准用户的 Teams 应用行为
+title: 适用于非标准用户的 Teams 应用行为
 author: cichur
 ms.author: v-cichur
 ms.reviewer: joglocke
@@ -17,25 +17,25 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66754565737929ec9d34125ca421c7e3eed9fe65
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
+ms.openlocfilehash: 6a8c3c842b47c4575779de4c0ae8301bededb632
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278542"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098298"
 ---
-# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>非标准用户的 Microsoft Teams 应用行为
+# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>适用于非标准用户的 Microsoft Teams 应用行为
 
-本文介绍 Teams 中的应用在来宾、外部 (联合) 和匿名用户存在于 Teams 上下文中时的行为方式。
+本文介绍 Teams 中的应用在 Teams 上下文中存在来宾 (外部) 和匿名用户时的行为。
 
 - **来宾用户** 不是组织的员工、学生或成员。 他们在贵组织没有学校或工作帐户。
 
-- 联合 **(用户)** 属于另一个域，并且无法访问组织的团队或团队资源。
+- 外部 **(联合)** 用户属于另一个域，无法访问组织的团队或团队资源。
 
 >[!Note]
-> 有关来宾与外部用户的更详细比较， [请参阅与其他组织的用户进行通信](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)。
+> 有关来宾用户与外部用户的详细比较， [请参阅与其他组织的用户通信](./communicate-with-users-from-other-organizations.md)。
 
-- 匿名 **用户** 是 Teams 会议中用户通过链接加入会议的概念。 用户尚未使用其 Microsoft 或组织的帐户登录。
+- 匿名 **用户** 是 Teams 会议中的概念，用户通过链接加入会议。 用户尚未使用其 Microsoft 或组织的帐户登录。
 
 ## <a name="guest-user-access"></a>来宾用户访问
 
@@ -47,13 +47,13 @@ ms.locfileid: "50278542"
 
 如果应用是由本机用户安装的，则来宾可以使用应用。
 
-机器人可以主动向来宾用户发送消息，但来宾无法与机器人交互。 来宾无法 1：1 向机器人发送消息、@ 提及机器人，或者无法与与机器人通信的自适应卡交互。
+机器人可以主动向来宾用户发送消息，但来宾无法与机器人交互。 来宾无法向机器人发送消息 1：1、@ 提及机器人，或与与机器人通信的自适应卡交互。
 
 来宾将遵循为任何应用的主机租户设置的全局和组织范围权限策略。 换言之，如果整个宿主组织阻止了应用，则来宾也不可能使用该应用。
 
 设置策略不适用于来宾用户。 这意味着默认策略中的管理员固定应用不会影响来宾用户。
 
-## <a name="external-federated-user-access"></a>外部 (联合) 用户访问
+## <a name="external-federated-user-access"></a>联合 (外部) 用户访问权限
 
 ### <a name="install-update-and-delete-for-external-users"></a>为外部用户安装、更新和删除
 
@@ -61,9 +61,9 @@ ms.locfileid: "50278542"
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部用户的使用行为和策略
 
-外部用户不能使用任何 Teams 应用，当将外部用户添加到具有本机用户的上下文中时，所有用户（本机用户和外部用户）都无法再使用应用。
+外部用户不能使用任何 Teams 应用，将外部用户添加到具有本机用户的上下文时，所有用户（本机用户和外部用户）都无法再使用应用。
 
-外部用户不会受到应用策略的影响，因为他们不能使用 Teams 应用。
+外部用户不会受到应用策略的影响，因为他们无法使用 Teams 应用。
 
 ## <a name="anonymous-user-in-meetings-access"></a>会议访问中的匿名用户
 
@@ -75,4 +75,4 @@ ms.locfileid: "50278542"
 
 匿名用户不能直接在会议中使用应用。 如果存在匿名用户，本机用户可以继续使用会议应用。 如果应用在聊天中发送自适应卡，匿名用户可以与该卡交互。
 
-匿名用户将继承用户级全局默认权限策略。 如果用户级别的权限策略已启用应用，此控件允许匿名用户与 Teams 会议中的应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。
+匿名用户将继承用户级全局默认权限策略。 如果用户级权限策略已启用应用，此控件允许匿名用户与 Teams 会议中的应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。

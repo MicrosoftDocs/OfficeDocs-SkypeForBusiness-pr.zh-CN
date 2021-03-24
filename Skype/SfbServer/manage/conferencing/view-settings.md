@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 摘要：了解如何在 Skype for Business Server 中查看会议配置设置。
-ms.openlocfilehash: e30543c566775d38e20e2103c4cc0f41278c1020
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81f5ef1bc0ce28c7741aa99529e7ba107ff4127f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827922"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096698"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business Server 中查看会议配置设置
  
@@ -32,13 +32,13 @@ ms.locfileid: "49827922"
     
 2.  打开 Skype for Business Server 控制面板。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议配置"。**
+3. 在左侧导航栏中，单击 **"会议"，** 然后单击"会议 **配置"。**
     
-4. 在 **"会议配置** "页上，单击要查看的会议配置。
+4. 在 **"会议配置"** 页上，单击要查看的会议配置。
     
-5. 在 **"编辑文件筛选器**"中，选中" **显示详细信息"** 复选框。
+5. 在 **"编辑文件筛选器**"中，选中" **显示详细信息** "复选框。
     
-    **编辑会议配置 \<policy\> -** 打开，显示所选策略的设置。
+    **编辑会议配置 \<policy\> -** 随即打开，显示所选策略的设置。
     
     有关配置设置的详细信息，请参阅在 Skype for Business Server 中创建 [会议配置设置](create-settings.md)。
     
@@ -68,6 +68,4 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-有关详细信息，包括参数的完整列表，请参阅[Get-CsMeetingConfiguration。](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)
-  
-
+有关详细信息，包括参数的完整列表，请参阅[Get-CsMeetingConfiguration。](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)

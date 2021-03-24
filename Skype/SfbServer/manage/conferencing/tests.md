@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 摘要：了解如何在 Skype for Business Server 中测试电话拨入式会议。
-ms.openlocfilehash: 214ec05c49072825e6a8744cb92db66d864e3d34
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: be1cf5bba5a5bec2076f78880343582be19eda70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827932"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096728"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business Server 中测试电话拨入式会议
  
 **摘要：** 了解如何在 Skype for Business Server 中测试电话拨入式会议。
   
-作为电话拨入式会议配置的最终验证，您可以搜索电话拨入式会议区域未由任何访问号码使用的拨号计划，以及尚未指定电话拨入式会议区域的访问号码。 还应验证"电话拨入式会议设置"网页和拨入访问号码是否正常工作。
+作为电话拨入式会议配置的最终验证，可以搜索电话拨入式会议区域未由任何访问号码使用的拨号计划，以及尚未指定电话拨入式会议区域的访问号码。 还应验证"电话拨入式会议设置"网页和拨入访问号码是否正常工作。
   
 ## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>查找具有访问号码未使用的电话拨入式会议区域拨号计划
 
 1. 以 RTCUniversalServerAdmins 组成员或者 Cs-ServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 3. 在命令提示符下，运行以下内容：
     
@@ -39,13 +39,13 @@ ms.locfileid: "49827932"
 
     此 cmdlet 返回具有访问号码未使用的电话拨入式会议区域的所有拨号计划。
     
-有关详细信息，请参阅[Get-CsDialInConferencingAccessNumber。](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)
+有关详细信息，请参阅 [Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>查找没有分配区域的访问号码
 
 1. 以 RTCUniversalServerAdmins 组成员或者 Cs-ServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 3. 在命令提示符下，运行以下内容：
     
@@ -55,7 +55,7 @@ ms.locfileid: "49827932"
 
     此 cmdlet 返回未与区域关联的所有电话拨入式会议访问号码。
     
-有关详细信息，请参阅[Get-CsDialInConferencingAccessNumber。](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)
+有关详细信息，请参阅 [Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="test-webpage-and-access-numbers"></a>测试网页和访问号码
 
@@ -69,7 +69,7 @@ ms.locfileid: "49827932"
 
 1. 以 RTCUniversalServerAdmins 组成员或者 Cs-ServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 3. 在命令提示符下，运行以下内容：
     
@@ -82,6 +82,4 @@ ms.locfileid: "49827932"
 
     得出的报告将显示 Success 或 Failure，以及具体的诊断信息。 -Verbose 标志提供有关找到的访问号码数量及其详细信息的更多详细信息。
     
-有关详细信息，请参阅 [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。
-  
-
+有关详细信息，请参阅 [Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。

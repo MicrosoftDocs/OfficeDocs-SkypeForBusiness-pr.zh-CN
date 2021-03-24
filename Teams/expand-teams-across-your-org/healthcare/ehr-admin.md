@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 使用 Microsoft Teams 设置虚拟就诊系统
-ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875172"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096276"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>通过 Teams 进行虚拟就诊 - 集成到 EHR
 
@@ -57,7 +57,7 @@ ms.locfileid: "50875172"
 
 - 组织必须具有 2018 年 11 月或更高版本的 Epic 版本。
 
-- 系统必须满足所有[软件和浏览器先决条件](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)。
+- 系统必须满足所有[软件和浏览器先决条件](../../hardware-requirements-for-the-teams-app.md)。
 
 还需要组织中以下人员的信息：
 
@@ -130,7 +130,7 @@ ms.locfileid: "50875172"
 
 ### <a name="virtual-visit-prerequisites"></a>虚拟就诊先决条件
 
-- 系统必须满足所有[软件和浏览器先决条件](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)。
+- 系统必须满足所有[软件和浏览器先决条件](../../hardware-requirements-for-the-teams-app.md)。
 
 - 医疗保健组织必须已完成 Epic 组织和 Microsoft 365 组织之间的设置。
 
@@ -175,4 +175,4 @@ ms.locfileid: "50875172"
 
 Teams 与 EHR 系统集成可优化集成和虚拟就诊流期间正在使用和存储的数据量。 该解决方案遵循“Teams 隐私”中概述的总体 Teams 隐私和数据管理原则和准则。
 
-Microsoft Teams EHR 连接器不会存储或传输来自 EHR 系统的任何可识别个人数据或者患者或医疗保健提供商的任何健康记录。 EHR 连接器存储的唯一数据是 EHR 用户的唯一 ID，该 ID 在 Teams 会议设置期间使用。 EHR 用户的唯一 ID 存储在“[Microsoft 365 客户数据的存储位置](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)”中所述的三个地理区域之一。 会议参与者在 Teams 中输入的所有聊天、记录和其他数据都将根据现有的存储策略进行存储。 如需了解有关 Microsoft Teams 中的数据位置的更多信息，请访问 [Teams 中的数据位置](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams)。
+Microsoft Teams EHR 连接器不会存储或传输来自 EHR 系统的任何可识别个人数据或者患者或医疗保健提供商的任何健康记录。 EHR 连接器存储的唯一数据是 EHR 用户的唯一 ID，该 ID 在 Teams 会议设置期间使用。 EHR 用户的唯一 ID 存储在“[Microsoft 365 客户数据的存储位置](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)”中所述的三个地理区域之一。 会议参与者在 Teams 中输入的所有聊天、记录和其他数据都将根据现有的存储策略进行存储。 如需了解有关 Microsoft Teams 中的数据位置的更多信息，请访问 [Teams 中的数据位置](../../location-of-data-in-teams.md)。

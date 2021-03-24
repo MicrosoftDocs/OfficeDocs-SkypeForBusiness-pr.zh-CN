@@ -21,29 +21,29 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fb8812fd025317eb9c6e3c67ce1f5fcea094978
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: edf2c2a97bec2b167f1218d983d3c9f7fa4bd667
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196486"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096422"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>用于直接路由 (SBA) 的可生存分支设备
 
 
 有时，使用直接路由连接到 Microsoft Phone System 的客户站点可能会遇到 Internet 中断。
 
-假设客户站点（称为分支）暂时无法通过直接路由连接到 Microsoft 云。 但是，分支内的 Intranet 仍完全正常运行，用户可以连接到提供 PSTN 连接的 SBC (SBC) 会话边界控制器。
+假设客户站点（称为分支）暂时无法通过直接路由连接到 Microsoft 云。 但是，该分支内的 Intranet 仍完全正常运行，用户可以连接到提供 PSTN 连接的 SBC (会话) 控制器。
 
-本文介绍如何使用可生存分支设备 (SBA) 使 Microsoft Phone System 在中断时继续拨打和接听公用电话交换网 (PSTN) 呼叫。
+本文介绍如何使用可生存分支设备 (SBA) ，使 Microsoft Phone System 在中断时继续拨打和接听公用电话交换网 (PSTN) 呼叫。
 
 ## <a name="prerequisites"></a>先决条件
 
-SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随后将代码嵌入到其固件中或单独分发，让 SBA 在单独的 VM 或硬件上运行。 
+SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随后将代码嵌入其固件或单独分发，让 SBA 在单独的 VM 或硬件上运行。 
 
-若要获取具有嵌入式代理分支设备的最新会话边界控制器固件，请联系 SBC 供应商。 此外，需要以下各项：
+若要获取具有嵌入式 Survivable 分支设备的最新会话边界控制器固件，请联系 SBC 供应商。 此外，需要以下各项：
 
-- 需要为"媒体绕过"配置 SBC，以确保分支站点中的 Microsoft Teams 客户端可以将媒体直接与 SBC 一起流动。 
+- 需要为"媒体绕过"配置 SBC，以确保分支站点中的 Microsoft Teams 客户端媒体可以直接与 SBC 一起流动。 
 
 - 应在 SBA VM OS 上启用 TLS1.2。
 
@@ -57,11 +57,11 @@ SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随
 
 ## <a name="how-it-works"></a>运作方式
 
-在 Internet 中断期间，Teams 客户端应自动切换到 SBA，并且正在进行的调用应不会中断。 用户无需执行任何操作。 一旦 Teams 客户端检测到 Internet 已启动且所有传出呼叫完成，客户端将回退到正常操作模式并连接到其他 Teams 服务。 SBA 将收集的呼叫数据记录上传到云，并更新呼叫历史记录，以便租户管理员查看此信息。 
+在 Internet 中断期间，Teams 客户端应自动切换到 SBA，并且正在进行的调用应继续进行，且不会中断。 用户无需执行任何操作。 一旦 Teams 客户端检测到 Internet 已启动且所有传出呼叫完成，客户端将回退到正常运行模式并连接到其他 Teams 服务。 SBA 将收集的呼叫数据记录上传到云，呼叫历史记录将更新，以便租户管理员查看此信息。 
 
 当 Microsoft Teams 客户端处于脱机模式时，可以使用以下与通话相关的功能： 
 
-- 使用通过 SBC 的媒体通过本地 SBA/SBC 进行 PSTN 呼叫。
+- 通过本地 SBA/SBC 进行 PSTN 呼叫，媒体流经 SBC。
 
 - 通过本地 SBA/SBC 接收 PSTN 呼叫，媒体流经 SBC。 
 
@@ -72,13 +72,13 @@ SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随
 若要运行 SBA 功能，Teams 客户端需要知道每个分支站点中可用的 SBA，以及将哪些 SBA 分配给该网站中的用户。 配置步骤如下：
 
 1. 创建 SBA。
-2. 创建 Teams 分支生存能力策略。
+2. 创建 Teams 分支可生存性策略。
 3. 将策略分配给用户。
-4. 将 SBA 的应用程序注册到 Azure Active Directory。
+4. 向 Azure Active Directory 注册适用于 SBA 的应用程序。
 
-所有配置都是使用 Skype for Business Online PowerShell cmdlet 完成。  (Teams 管理中心尚不支持直接路由 SBA 功能。)  
+所有配置都通过使用 Skype for Business Online PowerShell cmdlet 完成。  (Teams 管理中心尚不支持直接路由 SBA 功能.)  
 
- (有关配置 SBC 的信息，以及 SBC 供应商文档的链接，请参阅本文末尾的会话边界控制器配置。) 
+ (有关配置 SBC 的信息，以及指向 SBC 供应商文档的链接，请参阅本文末尾的会话边界控制器配置。) 
 
 ### <a name="create-the-sbas"></a>创建 SBA
 
@@ -102,14 +102,14 @@ Site        :
 Description : SBA 1 
 ```
 
-### <a name="create-the-teams-branch-survivability-policy"></a>创建 Teams 分支生存能力策略 
+### <a name="create-the-teams-branch-survivability-policy"></a>创建 Teams 分支可生存性策略 
 
-若要创建策略，请使用 New-CsTeamsSurvivableBranchAppliancePolicy cmdlet。 此 cmdlet 具有以下参数。 请注意，该策略可以包含一个或多个 SBA。
+若要创建策略，请使用 New-CsTeamsSurvivableBranchAppliancePolicy cmdlet。 此 cmdlet 具有以下参数。 请注意，策略可以包含一个或多个 SBA。
 
 | 参数| 说明 |
 | :------------|:-------|
 | Identity | 策略的标识 |
-| BranchApplianceFqdns  | 在站点中 (SBA) 的 FQDN |
+| BranchApplianceFqdns  | 站点中 SBA () FQDN |
 ||
 
 例如：
@@ -143,7 +143,7 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
-可以通过向用户授予策略来删除$Null，如下例所示：
+可以通过向用户授予策略$Null策略，如下例所示：
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
@@ -155,9 +155,9 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 有关应用程序注册详细信息，请参阅以下内容：
 
-- [为 Azure Active Directory 开发业务线应用](https://docs.microsoft.com/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [为 Azure Active Directory 开发业务线应用](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [将应用程序注册到 Microsoft 标识平台](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)。  
+- [将应用程序注册到 Microsoft 标识平台](/azure/active-directory/develop/quickstart-register-app)。  
 
 只需注册一个应用程序，供租户中所有 SBA 使用。 
 
@@ -168,10 +168,10 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 对于 SBA 应用程序，请记住以下事项： 
 
-- 该名称可以是你决定的任何名称。  
+- 名称可以是你决定的任何名称。  
 - 支持的帐户类型 = 仅此组织目录中的帐户。 
 - Web 重定向 Uri = https://login.microsoftonline.com/common/oauth2/nativeclient 。
-- 隐式授权令牌 = 访问令牌和 ID 令牌。 
+- 隐式授予令牌 = 访问令牌和 ID 令牌。 
 - API 权限 = Skype 和 Teams 租户管理员访问权限 -> 应用程序权限 -> application_access_custom_sba_appliance。
 - 客户端机密：可以使用任何说明和过期时间。 
 - 请记住在创建客户端机密后立即复制它。 
@@ -187,7 +187,7 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ## <a name="session-border-controller-configuration"></a>会话边界控制器配置 
 
-有关如何使用嵌入式代理分支设备配置会话边界控制器的分步指南，请参阅 SBC 供应商提供的文档： 
+有关如何使用嵌入式 Survivable 分支设备配置会话边界控制器的分步指南，请参阅 SBC 供应商提供的文档： 
 
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
 
@@ -199,7 +199,7 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ## <a name="reporting-issues"></a>报告问题
 
-向 SBC 供应商的支持组织报告任何问题。 报告问题时，指示你已配置了可生存分支设备。
+向 SBC 供应商的支持组织报告任何问题。 报告问题时，指示已配置了"可生存分支设备"。
 
 ## <a name="known-issues"></a>已知问题
 
@@ -207,10 +207,10 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 - 将可生存分支设备策略分配给用户时，可能需要一些时间，SBA 才能显示在 Get-CsOnlineUser 的输出中。 
 
-- 不针对 Azure AD 联系人执行反向数字查找。 
+- 不会针对 Azure AD 联系人执行反向数字查找。 
 
 - SBA 不支持呼叫转发设置。 
 
-- 不支持对为 E911 (配置紧急呼叫) 紧急呼叫。
+- 不支持对为 E911 (动态紧急呼叫配置的紧急) 紧急呼叫。
 
-- 输出显示Get-CsOnlineUser TeamsBranchSurvivabilityPolicy。
+- 输出中Get-CsOnlineUser TeamsBranchSurvivabilityPolicy。

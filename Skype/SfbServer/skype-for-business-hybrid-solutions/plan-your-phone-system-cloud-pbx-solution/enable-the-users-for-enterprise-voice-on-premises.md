@@ -1,5 +1,5 @@
 ---
-title: 为用户启用企业语音（本地）
+title: 为用户启用企业语音内部部署
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,46 +18,46 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
-description: 若要使用户 (云 PBX) 使用电话系统，必须先为其启用企业语音并为其分配一个电话号码。 您可以使用本地部署执行此操作，同时用户仍驻留在本地部署中。
-ms.openlocfilehash: 7fc629114900cb9f4d825bd8fdc8e946e6c63880
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: 对于使用电话系统 (云 PBX) ，必须先为其启用企业语音并为其分配电话号码。 在用户仍位于本地部署中时，可以使用本地部署完成此操作。
+ms.openlocfilehash: b26e51ba316c63e0f992b843a7763586d7e9b575
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359188"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098588"
 ---
-# <a name="enable-the-users-for-enterprise-voice-on-premises"></a>为用户启用企业语音（本地）
+# <a name="enable-the-users-for-enterprise-voice-on-premises"></a>为用户启用企业语音内部部署
  
-若要使用户 (云 PBX) 使用电话系统，必须先为其启用企业语音并为其分配一个电话号码。 您可以使用本地部署执行此操作，同时用户仍驻留在本地部署中。
+对于使用电话系统 (云 PBX) ，必须先为其启用企业语音并为其分配电话号码。 在用户仍位于本地部署中时，可以使用本地部署完成此操作。
 
 > [!Important]
-> Skype for Business Online 将于2021年7月31日终止，之后服务将无法再访问。  此外，在本地环境中是否通过 Skype for Business Server 或云连接器版本以及 Skype for Business Online 的 PSTN 连接将不再受支持。  了解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)将本地电话网络连接到团队。
+> Skype for Business Online 将于 2021 年 7 月 31 日停用，此后服务将不再可用。  此外，将不再支持本地环境（无论是通过 Skype for Business Server 还是云连接器版本与 Skype for Business Online）之间的 PSTN 连接。  了解如何使用直接路由将本地电话网络连接到[Teams。](/MicrosoftTeams/direct-routing-landing-page)
   
-### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>为用户启用企业内部语音和分配电话号码
+### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>为用户启用本地企业语音并分配电话号码
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
     
-2. 使用 "开始" 菜单或桌面快捷方式打开 Skype for Business Server 控制面板。
+2. 使用"开始"菜单或桌面快捷方式打开 Skype for Business Server 控制面板。
     
-    您还可以打开浏览器窗口，然后输入管理员 URL 以打开 Skype for Business Server 控制面板。
+    还可以打开浏览器窗口，然后输入管理员 URL 以打开 Skype for Business Server 控制面板。
     
-3. 在左侧导航栏中，单击“用户”****。
+3. 在左侧导航栏中，单击“用户”。
     
-4. 在“搜索用户”**** 框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”****。
+4. 在“搜索用户”框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”。
     
-5. 在表中，单击要为企业语音启用的 Skype for Business Online 用户帐户。
+5. 在表中，单击要为此帐户启用的 Skype for Business Online 企业语音。
     
-6. 在 " **编辑** " 菜单上，单击 " **显示详细信息**"。
+6. 在"编辑 **"菜单** 上，单击"**显示详细信息"。**
     
-7. 在 " **电话**" 下，单击 " **企业语音**"。
+7. 在 **"电话"下**，单击 **"企业语音"。**
     
-8. 单击 " **线路 URI**"，然后键入唯一的规范化电话号码 (例如，电话： + 14255550200) 。 然后单击 " **提交**"。
+8. 单击 **"线路 URI"，** 然后键入唯一的规范化电话号码 (例如 tel：+14255550200) 。 然后单击"**提交"。**
     
-## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>为用户启用企业内部语音时的特殊注意事项
+## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>为用户启用本地部署企业语音注意事项
 
-在某些情况下，您可能需要修改为用户启用企业语音的方式，以确保他们可以成功发出和接收呼叫。 如果您的部署中有满足以下条件的用户，请执行所包含的步骤以使用户能够使用企业语音。
+在某些情况下，您可能需要修改为用户启用企业语音以确保他们可以成功拨打和接听呼叫。 如果您的部署中具有满足以下条件的用户，请执行包含的步骤以启用用户企业语音。
   
-- 如果用户在本地 AD 中创建，然后与 Skype for business Online 同步，而无需为 Skype for Business 或 Enterprise Voice 启用，并且没有 LineURI 集，请为每个受影响的用户运行以下 cmdlet，并将值替换为 \< \> 您的环境的实际值：
+- 如果在内部部署 AD 中创建用户，然后在未启用 Skype for Business 或 企业语音 的情况下与 Skype for Business Online 同步，并且没有设置 LineURI，请针对每个受影响的用户运行以下 cmdlet，将 中的值替换为您的环境的实际 \< \> 值：
     
   ```powershell
   Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
@@ -67,16 +67,14 @@ ms.locfileid: "47359188"
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- 如果用户已在本地启用 Skype for Business，但未启用企业语音或在移动到 Skype for business Online 之前分配了 LineURI，请为每个用户运行以下 cmdlet：
+- 如果用户已启用本地 Skype for Business，但在移至 Skype for Business Online 之前未为 企业语音 启用或分配了 LineURI，请为每个用户运行以下 cmdlet：
     
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- 如果用户已在本地 Skype for Business 中启用，但未启用企业语音（即使已分配了 LineURI），请为每个受影响的用户运行以下 cmdlet：
+- 如果用户已在本地 Skype for Business 中启用，但没有为 企业语音 启用，即使已分配 LineURI，请为每个受影响的用户运行以下 cmdlet：
     
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true
   ```
-
-

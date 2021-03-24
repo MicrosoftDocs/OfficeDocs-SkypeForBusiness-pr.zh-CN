@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。 '
-ms.openlocfilehash: 0a4f5c63b4470fbfe6d2677f0e9e6f52841f7ebb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 163f214b05ba0dca3bc7dd4ec722f148cafe724e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816462"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096678"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中链接网络区域
 
-您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。 使用本文中的各节可查看 newtwork 区域链接信息，或者配置或删除 netwrok 区域链接。 
+您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。 使用本文中的各节查看 newtwork 区域链接信息，或者配置或删除 netwrok 区域链接。 
 
 ## <a name="view-network-region-link-information"></a>查看网络区域链接信息 
 
@@ -29,11 +29,11 @@ ms.locfileid: "49816462"
 
 ### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>在 Skype for Business Server 控制面板中查看网络区域链接
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **链接"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **链接"。**
 
 4.  在“区域链接”页上，单击要查看的区域链接。
     
@@ -44,7 +44,7 @@ ms.locfileid: "49816462"
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络区域Windows PowerShell信息
 
-可以使用 Windows PowerShell **和 Get-CsNetworkRegionLink** cmdlet 查看网络区域链接。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 
+可以通过使用 Windows PowerShell **和 Get-CsNetworkRegionLink** cmdlet 查看网络区域链接。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 
 
 
 ### <a name="to-view-network-region-link-information"></a>查看网络区域链接信息
@@ -62,49 +62,49 @@ ms.locfileid: "49816462"
         NetworkRegionID2    : California
 
 
-有关详细信息，请参阅[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)。
+有关详细信息，请参阅[Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)。
 
 
 ## <a name="configure-network-region-links"></a>配置网络区域链接 
 
-您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。 网络内的区域通过物理广域网 (WAN) 连接进行链接。 Skype for Business Server 控制面板可用于定义两个网络区域之间的链接，并设置这些区域之间的音频和视频连接的带宽限制。
+您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。 网络内的区域通过物理广域网 (WAN) 连接进行链接。 可以使用 Skype for Business Server 控制面板定义两个网络区域之间的链接，并设置这些区域之间的音频和视频连接的带宽限制。
 
 ### <a name="to-create-a-network-region-link"></a>创建网络区域链接
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **链接"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **链接"。**
 
-4.  在"**区域链接"** 页上，单击"**新建"。**
+4.  在"区域 **链接"** 页上，单击"新建 **"。**
 
-5.  在 **"新建区域链接**"中，在"名称"字段中 **键入** 值。
+5.  在 **"新建区域链接**"中的"名称"字段中 **键入** 值。
  
     > [!NOTE]  
     > 此值在 Skype for Business Server 部署中必须是唯一的。
 
-6.  从 **"网络 \# 区域 1"** 下拉列表中，选择要链接的两个区域之一。
+6.  从" **网络区域 \# 1"** 下拉列表中，选择要链接的两个区域之一。
 
-7.  从 **"网络 \# 区域 2"** 下拉列表中，选择要链接的其他区域。 此区域必须不同于为网络区域 1 选择 \# 的区域。
+7.  从 **"网络区域 \# 2"** 下拉列表中，选择要链接的其他区域。 此区域必须与为网络区域 1 所选的区域 \# 不同。
 
-8.   (可选) 如果要在这些区域之间的音频或视频呼叫上设置带宽限制，请从带宽策略下拉列表中选择带宽策略配置文件。 
+8.   (可选) 如果要在这些区域之间的音频或视频呼叫上设置带宽限制，请从"带宽策略"下拉列表中选择带宽策略配置文件。 
 
 9.  单击“提交”。
 
 ### <a name="to-modify-a-network-region-link"></a>修改网络区域链接
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **链接"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **链接"。**
 
-4.  在 **"区域链接** "页上，单击要修改的区域链接。
+4.  在" **区域链接"** 页上，单击要修改的区域链接。
 
 5.  在“编辑”菜单上，单击“显示详细信息”。
 
-6.  在 **"** 编辑区域链接"中，可以修改链接的区域或此链接的带宽策略配置文件。
+6.  在 **"编辑区域链接**"中，可以修改链接的区域或此链接的带宽策略配置文件。
 
 7.  单击“提交”。
 
@@ -115,11 +115,11 @@ ms.locfileid: "49816462"
 
 ### <a name="to-delete-a-network-region-link"></a>删除网络区域链接
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **链接"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **链接"。**
 
 4.  在“区域链接”页上，单击要删除的区域链接。
  
@@ -133,10 +133,10 @@ ms.locfileid: "49816462"
 
 ## <a name="see-also"></a>另请参阅
 
-[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[New-CsNetworkRegionLink](/powershell/module/skype/New-CsNetworkRegionLink)  
 
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Set-CsNetworkRegionLink](/powershell/module/skype/Set-CsNetworkRegionLink)  
 
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[Remove-CsNetworkRegionLink](/powershell/module/skype/Remove-CsNetworkRegionLink)  
 
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)

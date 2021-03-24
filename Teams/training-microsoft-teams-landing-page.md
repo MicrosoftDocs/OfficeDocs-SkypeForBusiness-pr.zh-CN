@@ -19,19 +19,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ec03bd5ca416bd0780225529dad2a6254580396d
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: e8e9a7776058803f49364887cabd6b54a9040cb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726243"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097558"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
 |               |               |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[管理员培训](/microsoftteams/itadmin-readiness)** </br> 在这些教程、视频和其他培训资源中了解 Teams 并促进其在你的组织内的使用。 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams 实时培训](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Microsoft 主持的免费实时在线培训课程专为帮助你使用 Teams 实现起步和发展。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 
+| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[管理员培训](./itadmin-readiness.md)** </br> 在这些教程、视频和其他培训资源中了解 Teams 并促进其在你的组织内的使用。 
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams 实时培训](./instructor-led-training-teams-landing-page.yml)** </br> Microsoft 主持的免费实时在线培训课程专为帮助你使用 Teams 实现起步和发展。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Teams 联机培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 利用这些自学培训资源来帮助组织内部用户充分利用 Teams。 |
 
 ## <a name="dont-miss-these-key-training-offerings"></a>不要错过这些关键培训服务
@@ -40,7 +40,7 @@ ms.locfileid: "50726243"
 
 :::row:::
    :::column:::
-   **[支持远程工作人员](https://aka.ms/TeamsForRemoteWork)** </br>
+   **[支持远程工作人员](./support-remote-work-with-teams.md)** </br>
    获取所需指南，包括培训链接，为在家办公的用户提供支持。
 
    :::column-end:::
@@ -52,7 +52,7 @@ ms.locfileid: "50726243"
    :::column-end:::
 
    :::column:::
-   **[团队合作](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
+   **[团队合作](/learn/paths/m365-manage-team-collaboration)** </br>
    课程：使用 Teams 开启团队合作
 
    :::column-end:::
@@ -61,13 +61,13 @@ ms.locfileid: "50726243"
 
 :::row:::
    :::column:::
-   **[采用专家认证](https://aka.ms/AdoptionCert)** </br>
+   **[采用专家认证](/learn/paths/m365-service-adoption/)** </br>
    Microsoft 服务采用专家认证课程以 Teams 为特色。 了解如何推动你所在组织采用 Microsoft 服务。
 
    :::column-end:::
 
    :::column:::
-   **[Microsoft 365 中的团队合作简介](https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Microsoft 365 中的团队合作简介](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
    了解可促进所有工作人员开展团队合作的 Microsoft 365 工具（无论它们位于何处或如何接入你的组织）。
 
    :::column-end:::

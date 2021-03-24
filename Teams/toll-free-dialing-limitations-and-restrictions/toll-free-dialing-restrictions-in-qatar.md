@@ -22,35 +22,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
-ms.openlocfilehash: f6b433722bb33493d95042033d5996bfbee7ccef
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区拨打免费电话号码所需的访问代码。
+ms.openlocfilehash: afc9a69a6e8f065ecfbd6b1b672d56e87d5b4dce
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693377"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097768"
 ---
 # <a name="toll-free-dialing-restrictions-in-qatar"></a>卡塔尔的免费拨号限制
 
-[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
+[查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。
 
 
-|**详细信息**|**说明**|
+|**Details**|**说明**|
 |:-----|:-----|
-|是否可以免费通话？  <br/> |是  <br/> |
-|拨号格式  <br/> |00800 XXXXXX  <br/> |
+|是否提供免费呼叫？  <br/> |是  <br/> |
+|拨号格式 ()   <br/> |00800 XXXXXX  <br/> |
 |国家/地区 ISO 代码  <br/> |QA  <br/> |
-|已覆盖的岛/地区  <br/> |不适用  <br/> |
-|未覆盖的岛/区域  <br/> |不适用  <br/> |
+|涵盖的岛屿/区域  <br/> |不适用  <br/> |
+|未涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |有线/固定线路可用性  <br/> |仅限 Qtel。  <br/> |
-|移动网络可用性  <br/> |仅限&amp; Qtel Vodafone。  <br/> |
-|批注、限制和访问问题  <br/> |无  <br/> |
+|移动网络可用性  <br/> |仅从 Qtel &amp; Vodafone。  <br/> |
+|注释、限制和访问问题  <br/> |无  <br/> |
    
 ## <a name="related-topics"></a>相关主题
 
 [免费拨号限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
   
- 

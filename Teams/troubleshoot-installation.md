@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何解决 Windows 上 Teams 桌面客户端应用的安装和更新问题。
-ms.openlocfilehash: 4183a04458147e63f8168f703bf16682b3bea9e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 283b1818789624428aa772a4d71360a07eed6f00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804552"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097548"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>解决 Windows 上的 Microsoft Teams 安装和更新问题
 
@@ -67,7 +67,7 @@ Teams 可以自动启动更新进程（具体取决于策略），或者，用�
 
 ## <a name="collect-and-analyze-application-and-system-logs"></a>收集和分析应用程序和系统日志
 
-本节介绍如何收集和分析应用程序和系统日志，以获取更全面的信息来解决问题。 可使用 Sysinternals 工具来完成这些步骤。 要了解更多信息，请参阅 [Windows Sysinternals](https://docs.microsoft.com/sysinternals/)。
+本节介绍如何收集和分析应用程序和系统日志，以获取更全面的信息来解决问题。 可使用 Sysinternals 工具来完成这些步骤。 要了解更多信息，请参阅 [Windows Sysinternals](/sysinternals/)。
 
 ### <a name="collect-logs"></a>收集日志
 
@@ -123,7 +123,7 @@ Teams 可以自动启动更新进程（具体取决于策略），或者，用�
 - 要确认这是就是你遇到的问题，请退出 Teams（在任务栏上右键单击 Teams，然后单击“**退出**”）。 然后，在 Windows 中打开任务管理器，查看 Teams 的实例是否仍在运行。  
 - 如果你不在发生此问题的计算机上，请检查从发生此问题的计算机上收集的 SquirrelTemp，并查找“Program: Unable to terminate the process in the log”条目。
 - 要确定导致 Teams.exe 无法退出的原因，请查找 Dlls.txt 和 Handles.txt 日志。 这些日志会告诉你阻止 Teams 退出的进程。
-- 导致 Teams 无法退出的另一个可能原因是内核模式文件系统筛选器驱动程序。 可以使用 SysInternals 工具 [ProcDump](https://docs.microsoft.com/sysinternals/downloads/procdump)，通过运行 ```procdump -mk <pid>```（其中，<pid> 是从任务管理器中获取的进程 ID）收集内核模式进程转储。 你也可以检查 Driverquery.txt 日志文件，查看是否有可能干扰 Teams 的活动筛选器驱动程序。
+- 导致 Teams 无法退出的另一个可能原因是内核模式文件系统筛选器驱动程序。 可以使用 SysInternals 工具 [ProcDump](/sysinternals/downloads/procdump)，通过运行 ```procdump -mk <pid>```（其中，<pid> 是从任务管理器中获取的进程 ID）收集内核模式进程转储。 你也可以检查 Driverquery.txt 日志文件，查看是否有可能干扰 Teams 的活动筛选器驱动程序。
 - 要从此状态还原，请重启计算机。
 
 #### <a name="file-permissions"></a>文件权限
@@ -141,17 +141,17 @@ Teams 可以自动启动更新进程（具体取决于策略），或者，用�
 疑难解答提示：
 
 - 在 SquirrelTemp.log 或 Logs.txt 中查找“access denied”的证据。 检查这些文件，了解是否曾尝试写入文件但失败。
-- 打开 Icacls.txt，查找阻止非管理员用户写入操作的有效访问控制项 (ACE)。这通常是一个 DACL 项。 有关详细信息，请参阅 [icacls 文档](https://docs.microsoft.com/windows-server/administration/windows-commands/icacls)。
+- 打开 Icacls.txt，查找阻止非管理员用户写入操作的有效访问控制项 (ACE)。这通常是一个 DACL 项。 有关详细信息，请参阅 [icacls 文档](/windows-server/administration/windows-commands/icacls)。
 
 #### <a name="file-corrupted"></a>文件损坏
 
 在某些情况下，加密软件可能会更改 %LocalAppData%\Microsoft\Teams 文件夹中的文件，进而导致 Teams 无法启动。 这种情况可能在任何时候发生，即使不在更新应用时也不例外。 遗憾的是，如果文件损坏，从此状态恢复的唯一方法是卸载并重新安装 Teams。
 
 > [!NOTE]
-> 如果使用上述任何步骤均无法确定问题的根本原因，则可能需要尝试 [Process Monitor](https://docs.microsoft.com/sysinternals/downloads/procmon) 会话。 Process Monitor 是一个 Sysinternals 工具，可以记录对注册表和文件系统的访问。
+> 如果使用上述任何步骤均无法确定问题的根本原因，则可能需要尝试 [Process Monitor](/sysinternals/downloads/procmon) 会话。 Process Monitor 是一个 Sysinternals 工具，可以记录对注册表和文件系统的访问。
 
 ## <a name="related-topics"></a>相关主题
 
 - [获取 Teams 客户端](get-clients.md)
 - [Teams 客户端更新](teams-client-update.md)
-- [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)
