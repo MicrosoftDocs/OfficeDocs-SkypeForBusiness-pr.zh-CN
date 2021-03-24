@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4382fe5069095854713244b230ef04bd10f4ad0
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: c59220fe886d7301491909c0e099b8cd4c15ae75
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726413"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092240"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "50726413"
 - [为 Teams 准备贵组织的网络](prepare-network.md)
   - 这包括配置 Microsoft 365 或 Office 365 域、SharePoint Online、Exchange Online 和 OneDrive for Business。
 
-- 为每个人获得 Teams 许可证。 查看 [Teams 计划](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)和 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+- 为每个人获得 Teams 许可证。 查看 [Teams 计划](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)和 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
 
 - [了解安装桌面、网页和移动版客户端的好处](get-clients.md)
 
@@ -63,7 +63,7 @@ ms.locfileid: "50726413"
 如果不熟悉 Teams，熟悉它最好的方法就是立即开始使用它。 Teams 的出色的功能是，现在设置的方式不会影响以后需要执行的任何升级或迁移。
 
 > [!TIP]
-> 查看 Microsoft Learning for Teams [中可用的学习路径](/learn/teams/)。 可以浏览 [Teams 管理中心](https://docs.microsoft.com/learn/modules/m365-teams-navigate-admin-portal/)，了解如何 [为 Teams](/learn/modules/m365-teams-connectivity/)配置网络，了解如何最好地为 [将用户载入到 Teams](/learn/modules/m365-teams-onboard-users/)等！
+> 查看 Microsoft Learning for Teams [中可用的学习路径](/learn/teams/)。 可以浏览 [Teams 管理中心](/learn/modules/m365-teams-navigate-admin-portal/)，了解如何 [为 Teams](/learn/modules/m365-teams-connectivity/)配置网络，了解如何最好地为 [将用户载入到 Teams](/learn/modules/m365-teams-onboard-users/)等！
 
 使用以下步骤来设置一些团队并加入一些早期采用者，以帮助你熟悉 Teams。
 
@@ -79,5 +79,5 @@ ms.locfileid: "50726413"
 |  |贵组织的情况|指引  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|我当前正在使用 Skype for Business Online，并准备转移到 Teams。 |转到[升级到 Teams](upgrade-start-here.md)。        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|我的组织正在运行 Skype for Business Server，并且我想要部署 Teams。 |要全面推广 Teams，首先需要配置预置环境和 Microsoft 365 之间的混合连接。从阅读[ Skype for Business Server 与 Microsoft 365或Office 365之间的混合连接计划](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity)开始。<br><br>你还应查看[升级到 Teams](upgrade-start-here.md)。   |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|我的组织正在运行 Skype for Business Server，并且我想要部署 Teams。 |要全面推广 Teams，首先需要配置预置环境和 Microsoft 365 之间的混合连接。从阅读[ Skype for Business Server 与 Microsoft 365或Office 365之间的混合连接计划](/skypeforbusiness/hybrid/plan-hybrid-connectivity)开始。<br><br>你还应查看[升级到 Teams](upgrade-start-here.md)。   |
 |<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|我没有 Skype for Business Server，但具有本地公用电话交换网 （PSTN） 解决方案。 我想要部署 Teams，但希望保留本地 PSTN 解决方案。 |按照本文中的建议推出 Teams。<br><br>然后阅读[规划直接路由](direct-routing-plan.md)，了解如何使用电话系统直接路由将本地 PSTN 解决方案连接到 Teams。|

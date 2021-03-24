@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: 除了指定希望在环境中支持的客户端版本之外，还可以指定尚未定义版本策略的客户端的默认操作。这样可以限制在环境中使用的客户端版本，从而帮助您控制与支持多个客户端版本相关的成本。
-ms.openlocfilehash: 3d821d9a31f70c0ea20342d48f28cc9ee14a2feb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 31facafd00a25993aa16f5d89b1fad5a97e566a9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829542"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095616"
 ---
 # <a name="client-version-configuration"></a>客户端版本配置
 
@@ -30,7 +30,7 @@ ms.locfileid: "49829542"
 
 您可以在“客户端版本配置”页上执行以下任务：
 
-- 编辑默认 ( **全局**) 客户端版本配置。
+- 编辑默认的全局 **()** 客户端版本配置。
 
 - 为特定站点创建客户端版本配置。
 
@@ -43,9 +43,9 @@ ms.locfileid: "49829542"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **新建** 您可以为特定网站创建客户端版本配置。
+- **新建** 您可以为特定站点创建客户端版本配置。
 
-- **编辑** 您可以更改任何客户端版本策略的选项。 使用此选项，可以执行以下操作：
+- **编辑** 可以更改任何客户端版本策略的选项。 使用此选项，可以执行以下操作：
 
   - **显示详细信息** 此选项将打开一个对话框，您可以在其中更改客户端版本配置的选项。
 
@@ -55,5 +55,4 @@ ms.locfileid: "49829542"
 
 - **刷新** 可以刷新客户端版本配置列表以验证所有客户端版本配置的选项状态。
 
-有关客户端和客户端版本之间的交互性的详细信息，请参阅规划文档中的 [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)。 有关使用客户端版本配置的详细信息，请参阅操作文档中的[Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)。
-
+有关客户端和客户端版本之间的交互性的详细信息，请参阅规划文档中的 [Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)。 有关使用客户端版本配置的详细信息，请参阅操作文档中的[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)。

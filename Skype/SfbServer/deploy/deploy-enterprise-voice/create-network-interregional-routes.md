@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: 创建或修改网络区域间路由，这些路由企业语音 Skype for Business Server 中的呼叫允许控制。
-ms.openlocfilehash: 86b7cf9e41cb20d82f0c3c6edd6bcbd74331d553
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d9ea8def930a075c93effede73ddb3f12d999334
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822492"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093120"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>在 Skype for Business Server 中创建网络区域间路由
  
@@ -35,7 +35,7 @@ ms.locfileid: "49822492"
   
 ### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序创建网络区域间路由
 
-1. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+1. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 2. 运行 **New-CsNetworkInterRegionRoute** cmdlet 来定义所需路由。 例如，运行：
     
@@ -64,27 +64,27 @@ ms.locfileid: "49822492"
     
 4. 单击“新建”。
     
-5. 在 **"新建区域路由** "页上， **单击"** 名称"，然后键入网络区域间路由的名称。
+5. 在"**新建区域路由"** 页上，单击"名称"，然后键入网络区域间路由的名称。
     
 6. 单击“网络区域 #1”，然后在列表中单击要路由到网络区域 #2 的网络区域。
     
 7. 单击“网络区域 #2”，然后在列表中单击要路由到网络区域 #1 的网络区域。
     
-8. 单击 **"** 网络区域链接 **"** 字段旁边的"添加"，然后添加将在网络区域间路由中使用的网络区域链接。
+8. 单击 **"** 网络区域 **链接** "字段旁边的"添加"，然后添加将用于网络区域间路由的网络区域链接。
     
     > [!NOTE]
     > 如果要为彼此之间没有直接网络区域链接的两个网络区域创建路由，则必须添加所有必要的链接来完成路由。 例如，北美/APAC 网络区域间路由需要两个网络区域链接，因为它们之间没有直接网络区域链接。 
   
 9. 单击“提交”。
     
-10. 要完成为拓扑创建网络区域间路由，请对其他网络区域间路由的设置重复步骤 4 至 9。
+10. 要完成为拓扑创建网络区域间路由，请通过其他网络区域间路由的设置重复步骤 4 到步骤 9。
     
 ## <a name="see-also"></a>另请参阅
 
-[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
+[New-CsNetworkInterRegionRoute](/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
-[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
+[Get-CsNetworkInterRegionRoute](/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
   
-[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
+[Set-CsNetworkInterRegionRoute](/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
   
-[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)
+[Remove-CsNetworkInterRegionRoute](/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)

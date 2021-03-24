@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a188caf30f7d20ddff618884c2bbcca2b24fe5bb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6146b6d4a7ca3d988c5dc1042a7f75848cf4fc7b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583911"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092660"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 试用版
 ==============================
 
-自 2020 年 7 月 1 日起，Office 365 E1 试用版许可证不再可用。 如果需要向 Microsoft Teams 授予用户许可，请阅读 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)，了解包含 Teams 的付费订阅列表。 或者，符合条件的组织可使用 **[Teams 的免费版本](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或者员工可以激活 **[Teams 探索](teams-exploratory.md)** 体验。
+自 2020 年 7 月 1 日起，Office 365 E1 试用版许可证不再可用。 如果需要向 Microsoft Teams 授予用户许可，请阅读 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)，了解包含 Teams 的付费订阅列表。 或者，符合条件的组织可使用 **[Teams 的免费版本](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或者员工可以激活 **[Teams 探索](teams-exploratory.md)** 体验。
 
 
 如果你是 Teams 教育版的客户，请查看免费的 [Office 365 A1 许可证](teams-edu-licensing.md)。
@@ -53,16 +53,16 @@ ms.locfileid: "46583911"
 
 3. 分配新购买的许可证。
 
-有关详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+有关详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
 
 > [!NOTE]
 > 如果 E1 试用版结束，而用户未立即升级到包含 Teams 的订阅，则不删除该用户数据。 该用户仍保留在 Azure Active Directory 中，且 Teams 中的所有数据都将保留。 一旦向该用户分配新的许可证来重新启用 Teams 功能，则所有内容仍将存在。 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>删除 Office 365 E1 试用版许可证
 
-- 如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- 如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- 如果要通过管理门户删除此许可证，请参阅[从组织删除用户](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
+- 如果要通过管理门户删除此许可证，请参阅[从组织删除用户](/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="related-topics"></a>相关主题
 

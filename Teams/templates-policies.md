@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在管理中心管理 Teams 模板
-ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875132"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093922"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>管理中心中的 Teams 模板
 
@@ -90,7 +90,7 @@ ms.locfileid: "50875132"
 
 **问：能否批量将用户分配到团队模板策略？**
   
-答：是的，我们支持在 PowerShell 中对模板策略进行批处理分配。 此操作的策略类型是 TeamsTemplatePermissionPolicy。 [了解更多信息](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+答：是的，我们支持在 PowerShell 中对模板策略进行批处理分配。 此操作的策略类型是 TeamsTemplatePermissionPolicy。 [了解更多信息](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **问：能否将组分配到团队模板策略？**
 
@@ -112,7 +112,7 @@ ms.locfileid: "50875132"
 1. 在"用户"列表表中，选择要分配到特定模板策略的用户。
 1. 选择"编辑设置"，并更改"模板策略"字段。
 1. 选择"应用"。
-   详细了解在[Microsoft Teams 中为用户分配策略 - Microsoft Teams \| Microsoft Docs。](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users)
+   详细了解在[Microsoft Teams 中为用户分配策略 - Microsoft Teams \| Microsoft Docs。](./assign-policies.md#assign-a-policy-to-a-batch-of-users)
 
 **问：如何查看分配到特定策略的所有用户？**
 
@@ -134,14 +134,14 @@ ms.locfileid: "50875132"
 
 ## <a name="related-topics"></a>相关主题
 
-- [管理中心中的团队模板入门](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
+- [管理中心中的团队模板入门](./get-started-with-teams-templates-in-the-admin-console.md)
 
-- [创建自定义团队模板](https://docs.microsoft.com/MicrosoftTeams/create-a-team-template)
+- [创建自定义团队模板](./create-a-team-template.md)
 
-- [从现有团队创建模板](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
+- [从现有团队创建模板](./create-template-from-existing-team.md)
 
-- [从现有团队模板创建团队模板](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-template)
+- [从现有团队模板创建团队模板](./create-template-from-existing-template.md)
 
-- [在 Microsoft Teams 中向用户分配策略 - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
+- [在 Microsoft Teams 中向用户分配策略 - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
 
-- [将用户批量分配到策略](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [将用户批量分配到策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

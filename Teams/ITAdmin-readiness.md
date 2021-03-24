@@ -19,12 +19,12 @@ ms.custom:
 description: 为管理员介绍如何规划、部署和运行 Microsoft Teams 的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2b764e7843defac163e4d111a49b1cf9a321f27
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874872"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094564"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 管理员培训入门
 
@@ -32,8 +32,8 @@ ms.locfileid: "50874872"
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![一个描绘手和向上箭头的图标](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [通过几个团队和频道快速入门](/MicrosoftTeams/get-started-with-teams-quick-start) | ![一个描述两个用户的图标](https://docs.microsoft.com/office/media/icons/users-people.png) | [为用户获取培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![一个描述勾号的图标](https://docs.microsoft.com/office/media/icons/success-teams.png) | [在 YouTube 上的"云中的咖啡"频道中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![任务剪贴板符号](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams 团队讲座：了解有关热门 Teams 方案最佳实践和实用指南](https://aka.ms/TeamsChalkTalks) |
+| ![一个描绘手和向上箭头的图标](/office/media/icons/get-started-teams.png) | [通过几个团队和频道快速入门](./get-started-with-teams-quick-start.md) | ![一个描述两个用户的图标](/office/media/icons/users-people.png) | [为用户获取培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![一个描述勾号的图标](/office/media/icons/success-teams.png) | [在 YouTube 上的"云中的咖啡"频道中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![任务剪贴板符号](/office/media/icons/task-checklist-planning-teams.png) | [Teams 团队讲座：了解有关热门 Teams 方案最佳实践和实用指南](./chalk-talks-landing-page.yml) |
 
 <h2>技术培训</h2>
 
@@ -100,5 +100,5 @@ ms.locfileid: "50874872"
 
 <h2>课程</h2>
 
-- [使用 Microsoft Teams 启用 Teamwork](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
-- [Microsoft 服务采用专家](https://aka.ms/AdoptionCert)
+- [使用 Microsoft Teams 启用 Teamwork](/learn/paths/m365-manage-team-collaboration)
+- [Microsoft 服务采用专家](/learn/paths/m365-service-adoption/)

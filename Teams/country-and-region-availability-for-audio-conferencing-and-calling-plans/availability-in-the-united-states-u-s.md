@@ -24,35 +24,35 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于美国的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 1a33ad9909b7caa76acb2b4e042b24aa98cc86f1
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+description: 下面是适用于美国的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 65cd883ef6cffc295f8559bbb4b1779cae020946
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44230330"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094644"
 ---
 # <a name="availability-in-the-united-states-us"></a>在美国 (U.S.) 的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于美国的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。 有关详细信息，请参阅[如何购买通话计划](../calling-plans-for-office-365.md)。
+下面是适用于美国的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。 有关详细信息 [，请参阅如何购买](../calling-plans-for-office-365.md) 通话套餐。
 
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**Details**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，适用于： <br/><ul><li> 芝加哥<li>举行<li>洛杉矶<li>纽约城市</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |在线  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于： <br/><ul><li> 芝加哥<li>达拉斯<li>洛杉矶<li>纽约市</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
 
 ## <a name="phone-system"></a>电话系统
 
 |**功能**|**Details**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |在线  <br/> |
-|呼叫队列  <br/> |在线  <br/> |
+| 自动助理 <br/> |可用  <br/> |
+|呼叫队列  <br/> |可用  <br/> |
 |语音邮件  <br/> |可用  <br/> |
 
 ## <a name="calling-plans"></a>通话套餐
@@ -60,24 +60,24 @@ ms.locfileid: "44230330"
 | **功能**                                       | **Details**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 是否可购买通话套餐？  <br/>   | 是  <br/>                                                                                                                                                                                                                                                                                                                      |
-| 通话计划可用的分钟数。              | 每个日历月提供四个计划选项： <ul><li>120分钟国内通话计划（可用性有限）</li><li>240分钟国内通话计划（可用性有限）</li></li><li>3000分钟国内通话计划 </li></li><li>国内和国际长途计划：拨打国际长途电话的3000分钟（600即在日历月份内首先达到的分钟数）</li></li> |
-| 是否可以拨出电话拨出收费号码？ <br/> | 目前不支持。 <br/>                                                                                                                                                                                                                                                                                               |
+| 通话套餐可用的分钟数。              | 每个日历月有四个可用的计划选项： <ul><li>120 分钟的国内呼叫 (套餐可用性有限) </li><li>240 分钟的国内呼叫 (套餐可用性有限) </li></li><li>3000 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 3000 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li> |
+| 能否对高级号码进行出站呼叫？ <br/> | 目前不支持。 <br/>                                                                                                                                                                                                                                                                                               |
 | 是否可以拨打呼出电话？  <br/>                | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> 对加拿大的通话被视为国内电话。
+> 到加拿大的呼叫被视为国内呼叫。
 
 >[!Note] 
-> 美国国内电话包括拨打所有50美国和波多黎各的电话。 分配有美国和/或波多黎各许可证使用位置的用户共享相同的分钟池。
+> 美国国内呼叫包括呼叫美国所有 50 个州和波多黎各。 分配有美国和/或波多黎各许可证使用位置的用户共享相同的分钟数池。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**Details**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>Alabama、伯明翰 <li>  亚利桑那、菲尼克斯 <li>  阿肯色州、小摇滚 <li> 加利福尼亚州洛杉矶 <li> 加利福尼亚州，旧金山 <li>  科罗拉多州，丹佛 <li>  哥伦比亚特区 <li>  Connecticut, Hartford <li>  特拉华州、威尔明顿 <li>佛罗里达州佛罗里达州 <li>  格鲁吉亚、亚特兰大 <li> 夏威夷，檀香山 <li> 爱达荷州、博伊西 <li> 伊利诺斯州、奥罗拉 <li> 伊利诺斯州、芝加哥 <li> 伊利诺斯州、西塞罗<li>  印地安那州的印第安纳波利斯 <li>  爱荷华、爱荷华城 <li>  堪萨斯、威奇托 <li> Kentucky、路易斯维尔 <li>  路易斯安那州、新奥尔良 <li> 缅因州，上海 <li> 兰州、巴尔的摩 <li>  马萨诸塞州、波士顿 <li> 密歇根州的 Pontiac <li> 明尼苏达州、明尼阿波利斯 <li> 明尼苏达州，Paul <li> Mississippi、杰克逊 <li>  密苏里、堪萨斯城 <li>密苏里，圣港 <li>  Montana、帐单 <li> 北卡罗来纳州，夏洛特<li>北州、Fargo <li> Nebraska, Omaha <li> 内华达州，拉斯维加斯 <li>  新新罕布什尔、曼彻斯特 <li> 新泽、Newark <li> 新墨西哥、伯克基 <li>  纽约纽约市 <li>俄亥俄州、哥伦布 <li>俄克拉荷马、俄克拉荷马城 <li> 俄勒冈州的俄勒冈州 <li> 宾夕法尼亚州，费城 <li> 罗德岛州岛，普罗维登斯 <li>  南卡罗莱纳州、查尔斯顿 <li>南州、苏福尔斯 <li>  田纳西州、孟菲斯 <li> 德克萨斯州达拉斯 <li>  德克萨斯州休斯敦 <li> 犹他州，盐湖城 <li> Vermont, Brattleboro<li> 弗吉尼亚州里士满 <li> 华盛顿州，西雅图 <li>  西弗吉尼亚州，查尔斯顿<li>  Wisconsin、密尔沃基 <li> Wyoming, Laramie</ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>亚拉巴马州，阿尔伯拉 <li>  亚利桑那州，Phoenix <li>  阿肯色州，小岩 <li> 加利福尼亚州，洛杉矶 <li> 加利福尼亚州，旧金山 <li>  丹佛，丹佛 <li>  哥伦比亚，华盛顿特区 <li>  康特兰州，雷德佛 <li>  Delaware，Wilmington <li>迈阿密、迈阿密 <li>  格鲁吉亚，亚特兰大 <li> 夏威夷州，夏威夷州 <li> 爱达荷州，博伊西 <li> 伊利诺斯州，奥罗拉州 <li> 芝加哥，芝加哥 <li> 伊利诺斯州，西塞罗<li>  印地安那州，印地安那州 <li>  爱荷华州，爱荷华州城市 <li>  东北部，威奇托 <li> 西塔基州，路易斯维尔 <li>  路易斯安那州，新州 <li> 俄勒冈州，俄勒冈州 <li> 马里兰州，巴利多 <li>  波士顿，波士顿 <li> 密西根州，Pontiac <li> 圭亚那、明尼阿波利斯 <li> 路易斯，圣Paul <li> 路易斯、Jackson <li>  密州，路易斯城 <li>圣路易斯州 <li>  蒙大纳州，帐单 <li> 北卡罗来纳州，卡罗来纳州<li>北达科他州、法哥 <li> 内布拉斯加、奥瓦拉 <li> 内华达州，拉斯维加斯 <li>  新阿森纳州，英格兰 <li> 纽西州，纽华州 <li> 新墨西哥州，阿尔布克基 <li>  纽约、纽约市 <li>哥伦比亚、哥伦比亚 <li>俄克拉荷马州，俄克拉荷马市 <li> 俄勒冈州，俄勒冈州 <li> 亚特兰大、亚特兰大 <li> 罗得岛，维登斯 <li>  南卡罗来纳州，Charleston <li>南达科他州，西奥斯瀑布 <li>  米纳西州，梅费斯 <li> 德克萨斯州，达拉斯 <li>  德克萨斯州，休斯敦 <li> 犹他州，盐湖城 <li> 佛蒙特州，盲文博罗<li> 弗吉尼亚州，里德蒙德 <li> 华盛顿州、西雅图 <li>  西弗吉尼亚州，Charleston<li>  密尔瓦基州，密尔瓦基 <li> 怀俄明州，拉拉米</ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
 
- 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+ 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
 
 ## <a name="communications-credits"></a>通信点数
 
@@ -89,10 +89,6 @@ ms.locfileid: "44230330"
 
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-
-
-

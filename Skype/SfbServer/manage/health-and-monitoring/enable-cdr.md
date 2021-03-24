@@ -11,24 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 摘要：了解如何在 Skype for Business Server (CDR) 记录中启用呼叫详细信息记录。
-ms.openlocfilehash: 48d21be6d377df24e859c3ffa6bb8b7858076d29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解如何在 Skype for Business Server (CDR) 呼叫详细信息记录。
+ms.openlocfilehash: e2f652eeef77c336fb34be07c123f1ef026d458c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816882"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095226"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>在 Skype for Business Server 中启用呼叫详细信息记录
 
-**摘要：** 了解如何在 Skype for Business Server 中 (CDR 记录) 呼叫详细信息记录。
+**摘要：** 了解如何在 Skype for Business Server (CDR) 呼叫详细信息记录。
 
 呼叫详细记录 (CDR) 记录了有关对等活动（包括即时消息、IP 语音 (VoIP) 呼叫、应用程序共享、文件传输和会议）的使用和诊断信息。使用数据可以用于计算投资回报率 (ROI)，诊断数据可以用于解决对等活动和会议中遇到的问题。
 
 使用以下过程为整个组织或组织中的每个站点启用 CDR。
 
 > [!NOTE]
-> 为了启用 CDR，必须配置监控和监控数据库。 有关详细信息，请参阅[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)。
+> 为了启用 CDR，必须配置监控和监控数据库。 有关详细信息，请参阅[Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)。
 
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板启用 CDR
 
@@ -43,9 +43,9 @@ ms.locfileid: "49816882"
     > [!NOTE]
     > 默认情况下，CDR 处于启用状态。
 
-## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 启用 CDR
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用 CDR Windows PowerShell cmdlet
 
-可以使用 Windows PowerShell **和 Set-CsCdrConfiguration** cmdlet 启用 CDR。 可以从 Skype for Business Server 命令行管理程序 或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。
+可以使用 **set-CsCdrConfiguration** cmdlet 和 Windows PowerShell 启用 CDR。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>在单个位置启用 CDR
 
@@ -57,7 +57,7 @@ ms.locfileid: "49816882"
 
 ### <a name="to-disable-cdr-for-a-single-location"></a>在单个位置禁用 CDR
 
- 若要禁用 CDR，请将 EnableCDR 参数设置为 False ($False)。 禁用 CDR 不会卸载监控。 它暂停 CDR 数据的收集和存储。
+ 若要禁用 CDR，请将 EnableCDR 参数设置为 False ($False)。 禁用 CDR 不会卸载监控。 它会暂停 CDR 数据的收集和存储。
 
   ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
@@ -71,10 +71,10 @@ ms.locfileid: "49816882"
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-有关详细信息，请参阅 [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。
 
 ## <a name="see-also"></a>另请参阅
 
-[规划监控](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[规划监控](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 
-[部署监控](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[部署监控](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

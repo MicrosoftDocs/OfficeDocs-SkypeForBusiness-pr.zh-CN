@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: 在 Skype for Business Server 应用程序中为通知应用程序创建、修改或删除未分配号码企业语音。 这会影响如何处理对未分配号码的呼叫。
-ms.openlocfilehash: 19a30aa4063f8ec0f4e890c4e244309347ed99c6
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+description: Create， modify or delete unassigned number ranges for Announcement application in Skype for Business Server 企业语音. 这会影响如何处理对未分配号码的呼叫。
+ms.openlocfilehash: 72c9ec5b6b1e3d4577507ede0a5ed61560928f03
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711629"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093050"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在 Skype for Business Server 中创建或修改未分配号码范围
  
-在 Skype for Business Server 应用程序中为通知应用程序创建、修改或删除未分配号码企业语音。 这会影响如何处理对未分配号码的呼叫。
+Create， modify or delete unassigned number ranges for Announcement application in Skype for Business Server 企业语音. 这会影响如何处理对未分配号码的呼叫。
   
-Skype for Business Server 使你能够说出对对您的组织有效但不分配给用户或电话的电话号码的传入呼叫会发生什么情况。 若要处理此类呼叫，请设置未分配号码表。 可以使用该表将呼叫路由到通知应用程序或 Exchange UM 服务器。
+Skype for Business Server 使你可以说出对电话号码的传入呼叫会发生什么情况，这些号码对您的组织有效，但是未分配给用户或电话。 若要处理此类呼叫，请设置未分配号码表。 可以使用表将呼叫路由到通知应用程序或 Exchange UM 服务器。
   
 配置未分配号码表的方式取决于要使用该表的方式。可以使用组织的所有有效分机、仅使用未分配的分机或使用这两类号码的组合来配置该表。未分配号码表可以同时包含已分配和未分配的号码，但仅当呼叫者拨打当前未分配号码时，才会调用该表。如果在未分配号码表中包含所有有效分机，则可以指定某人离开组织时所执行的操作，而无需重新配置该表。如果在该表中包含未分配的分机，则可以为特定号码修改所执行的操作。例如，如果更改客户服务台的分机，则可以在该表中包含旧的客户服务号码，然后将其分配给提供新号码的通知。
   
@@ -36,7 +36,7 @@ Skype for Business Server 使你能够说出对对您的组织有效但不分配
 使用以下过程之一为通知应用程序配置未分配号码范围。
   
 > [!IMPORTANT]
-> 配置未分配号码表之前，系统必须已定义通知或已设置 Exchange 统一消息 (UM) 自动助理设置。 
+> 配置未分配号码表之前，系统必须已定义通知或已设置 Exchange 统一消息 (UM) 自动助理消息。 
   
 > [!TIP]
 > 当有人呼叫未分配号码时，Skype for Business Server 会从上到下搜索未分配号码表，并使用第一个匹配范围。 因此，要在万不得已时执行的操作应指定给表中最后一个范围。 
@@ -64,7 +64,7 @@ Skype for Business Server 使你能够说出对对您的组织有效但不分配
     
    - 如果号码范围的起始号码或结束号码包含分机号，那么号码范围的起始号码和结束号码都必须包含分机号，并且起始号码和结束号码的分机号必须相同。
     
-   - 该数字必须与正则表达式匹配 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 这意味着，如果不指定字符串 (，则数字可能以字符串 (开头，它将自动添加为) 、加号 (+) 以及数字 1 到 `tel:` 9。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
+   - 该数字必须与正则表达式匹配 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 这意味着该数字可能以字符串 (（如果不指定该字符串）开头，系统将自动为) 添加该数字，添加一个加号 (+) ，以及一个 1 到 `tel:` 9 的数字。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
     
 6. 在 **“通知服务”** 中，执行下列操作之一： 
     
@@ -85,15 +85,15 @@ Skype for Business Server 使你能够说出对对您的组织有效但不分配
 10. 在“未分配号码”页上，确保未分配号码范围按照所需顺序排列。要更改号码范围在表中的位置，请在范围列表中单击一个或多个连续名称，然后单击向上箭头或向下箭头。
     
     > [!TIP]
-    > Skype for Business Server 从上到下搜索未分配号码表，并使用与未分配号码匹配的第一个范围。 如果有重叠的范围并且有一个范围指定了最后的操作，请确保将该范围置于列表底部。 
+    > Skype for Business Server 从上到下搜索未分配号码表，并使用匹配未分配号码的第一个范围。 如果有重叠的范围并且有一个范围指定了最后的操作，请确保将该范围置于列表底部。 
   
 11. 按照希望的顺序排列未分配号码范围后，单击“全部提交”。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>使用 Skype for Business Server 命令行管理程序 配置未分配的电话号码
+### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>使用 Skype for Business Server 命令行管理程序配置未分配的电话号码
 
-1. 以 RTCUniversalServerAdmins 组的成员或具有委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
+1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"** 所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 3. 使用 **New-CsUnassignedNumber** 可创建新的未分配号码范围。 使用 **Set-CsUnassignedNumber** 可修改现有未分配号码范围。
     
@@ -148,11 +148,11 @@ Skype for Business Server 使你能够说出对对您的组织有效但不分配
     
 6. 单击“全部提交”。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>使用 Skype for Business Server 命令行管理程序 删除未分配号码范围
+### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>使用 Skype for Business Server 命令行管理程序删除未分配号码范围
 
-1. 以 RTCUniversalServerAdmins 组的成员或具有委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
+1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"** 所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 3. 在命令行中键入：
     
@@ -167,12 +167,12 @@ Skype for Business Server 使你能够说出对对您的组织有效但不分配
    ```
 
     > [!NOTE]
-    > 有关更多选项的详细信息，请参阅 [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps)。 
+    > 有关更多选项的详细信息，请参阅 [Remove-CsCallParkOrbit](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps)。 
   
 ## <a name="see-also"></a>另请参阅
 
-[New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
+[New-CsUnassignedNumber](/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
-[Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
+[Set-CsUnassignedNumber](/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
-[Get-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)
+[Get-CsUnassignedNumber](/powershell/module/skype/get-csunassignednumber?view=skype-ps)

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614928"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092600"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -121,7 +121,7 @@ Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确
 
 Teams 会议外接程序仍是正在构建的功能，因此请注意以下事项：
 
-- Teams 会议加载项需要负责安排会议的主要用户的 Exchange 邮箱。 确保在 Outlook 配置文件中至少配置了一个 Exchange 邮箱，并使用它和加载项来安排 Teams 会议。 有关 Exchange 要求，请参阅 [Exchange 和 Teams 如何交互](https://docs.microsoft.com/microsoftteams/exchange-teams-interact)。
+- Teams 会议加载项需要负责安排会议的主要用户的 Exchange 邮箱。 确保在 Outlook 配置文件中至少配置了一个 Exchange 邮箱，并使用它和加载项来安排 Teams 会议。 有关 Exchange 要求，请参阅 [Exchange 和 Teams 如何交互](./exchange-teams-interact.md)。
 - 此外接程序用于特定参与者的安排会议，而非用于频道中的会议。 频道会议必须从 Teams 中安排。
 - 如果身份验证代理在用户电脑和 Teams 服务的网络路径中，此加载项将无法运行。
 - 用户无法在 Outlook 中安排直播活动。 若要安排直播活动，请转到 Teams。 有关详细信息，请参阅[什么是 Microsoft Teams 直播活动？](teams-live-events/what-are-teams-live-events.md)。
@@ -142,7 +142,7 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 
 - Windows 7 用户必须安装 [Windows 通用 C 运行时更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，Teams 会议加载项才能工作。
 - 检查用户是否具有允许在 Teams 中安排会议的 Teams 升级策略。 有关更多详细信息，请参阅[从 Skype for Business 升级到 Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
-- 检查用户是否具有允许 Outlook 加载项的 Teams 会议策略。 有关更多详细信息，请参阅[管理 Teams 中的会议策略](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
+- 检查用户是否具有允许 Outlook 加载项的 Teams 会议策略。 有关更多详细信息，请参阅[管理 Teams 中的会议策略](./meeting-policies-in-teams.md#allow-the-outlook-add-in)。
 - 确保用户已安装 Teams 桌面客户端。 仅使用 Teams Web 客户端时，不会安装会议加载项。
 - 确保用户安装了 Outlook 2013 或更高版本。
 - 确保用户具有执行 regsvr32.exe 的权限。
@@ -175,11 +175,11 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 
 ### <a name="delegate-scheduling-does-not-work"></a>代理计划不起作用
 
-若管理员已配置 Microsoft Exchange 来[控制对 Exchange Web Server (EWS) 的访问](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，则代理无法代表上级安排 Teams 会议。 此配置的解决方案正在开发中，未来将予以发布。 若要解决该问题，管理员可将以下字符串添加到 EWS 允许列表：“*SchedulingService*”。 
+若管理员已配置 Microsoft Exchange 来[控制对 Exchange Web Server (EWS) 的访问](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，则代理无法代表上级安排 Teams 会议。 此配置的解决方案正在开发中，未来将予以发布。 若要解决该问题，管理员可将以下字符串添加到 EWS 允许列表：“*SchedulingService*”。 
 
 
 ## <a name="related-topics"></a>相关主题
 
-- [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)
 
 - [从 Outlook 安排 Teams 会议](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

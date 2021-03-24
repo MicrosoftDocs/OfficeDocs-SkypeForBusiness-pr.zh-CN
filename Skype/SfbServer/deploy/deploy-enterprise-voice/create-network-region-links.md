@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: 创建或修改网络区域链接，这些链接企业语音 Skype for Business Server 中的呼叫允许控制。
-ms.openlocfilehash: 1b891a299e85836e4a69b4a6c6e9df9a52cb0cdc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 创建或修改 Skype for Business Server 中的呼叫允许控制企业语音网络区域链接。
+ms.openlocfilehash: 5fd9657b3919e80552a82912550e7314297182cc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822462"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093100"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>在 Skype for Business Server 中创建网络区域链接
  
-创建或修改网络区域链接，这些链接企业语音 Skype for Business Server 中的呼叫允许控制。 
+创建或修改 Skype for Business Server 中的呼叫允许控制企业语音网络区域链接。 
   
-网络内的区域通过物理 WAN 连接进行链接。 网络区域链接在为呼叫允许控制 (CAC) 配置的两个区域之间创建一个链接，并设置这些区域之间的音频和视频流量的带宽限制。
+网络内的区域通过物理 WAN 连接进行链接。 网络区域链接在为呼叫允许控制 (CAC) 配置的两个区域之间创建链接，并设置这些区域之间的音频和视频流量的带宽限制。
   
-示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。 每个区域链接都受 WAN 带宽限制，如示例：收集 Skype for Business Server 中的呼叫允许控制要求的区域链接 [带宽信息表中所述](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
+示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。 其中每个区域链接都受 WAN 带宽限制，如示例：收集 Skype for Business Server 中的呼叫允许控制要求中的区域链接 [带宽信息表中所述](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序创建网络区域链接
 
-1. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+1. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 2. 运行 New-CsNetworkRegionLink cmdlet 创建区域链接并应用相应的带宽策略配置文件。 例如，运行：
     
@@ -72,10 +72,10 @@ ms.locfileid: "49822462"
     
 ## <a name="see-also"></a>另请参阅
 
-[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[New-CsNetworkRegionLink](/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
+[Get-CsNetworkRegionLink](/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[Set-CsNetworkRegionLink](/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[Remove-CsNetworkRegionLink](/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)

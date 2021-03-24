@@ -19,15 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: e93e30c2c6eeffc2232b6d9049af8d1224f24532
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030978"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094398"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
-如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
+如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](./deploy-overview.md)。
 
 如果是第一次使用 Teams 且想要了解详细信息，请观看短视频“[欢迎使用 Teams](https://www.youtube.com/embed/s3aQV3T0D6c)”（55 秒）。
 
@@ -52,7 +52,7 @@ Teams 基于 Microsoft 365 组、Microsoft Graph 以及与其余 Microsoft 365 �
 
 从现有组创建团队时，该组的成员身份、站点、邮箱和笔记本将在 Teams 中出现。 要了解详细信息，请查看此海报：[面向 IT 架构师的 Microsoft 365 中的组](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-若要自定义和扩展 Teams，请通过[应用、机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)添加第三方应用。 在 Teams 中，你可以将组织外部的人员包含进来，方法是[将其以来宾身份添加](guest-access.md)到团队或频道中。 作为 Microsoft 365 和 Office 365 的一部分，Teams 提供了强大的[开发平台](https://docs.microsoft.com/microsoftteams/platform)，以便你可以构建组织所需的团队合作中心。 
+若要自定义和扩展 Teams，请通过[应用、机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)添加第三方应用。 在 Teams 中，你可以将组织外部的人员包含进来，方法是[将其以来宾身份添加](guest-access.md)到团队或频道中。 作为 Microsoft 365 和 Office 365 的一部分，Teams 提供了强大的[开发平台](/microsoftteams/platform)，以便你可以构建组织所需的团队合作中心。 
 
 > [!TIP]
 > 如需深入了解 Teams 体系结构，请观看 [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy) 中的视频。
@@ -101,9 +101,8 @@ Teams 是 Microsoft 365 和 Office 365 中的主要智能通信客户端，它�
 
 ## <a name="teams-known-issues"></a>Teams 已知问题
 
-请参阅 [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)。
+请参阅 [Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)。
 
 ## <a name="teams-client-release-notes"></a>Teams 客户端发行说明
 
 请参阅 [Teams 中的新增功能](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)。
-

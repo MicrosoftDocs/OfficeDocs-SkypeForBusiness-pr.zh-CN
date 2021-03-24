@@ -1,5 +1,5 @@
 ---
-title: 使用 CQD 数据在 Power BI 中查看 Microsoft 团队的利用率
+title: 使用 CQD 数据查看 Power BI 中的 Microsoft Teams 利用率
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -15,145 +15,145 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 使用 "团队使用 Power BI BI 报表" 访问 Microsoft 团队通话质量仪表板 (CQD) 数据以跟踪您的组织中的 Microsoft 团队使用情况。
-ms.openlocfilehash: bda89f3715997016e6c1bea242dcf6b8b182c6bf
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+description: 使用 Teams 使用率 Power BI 报表访问 Microsoft Teams 呼叫质量仪表板 (CQD) 数据来跟踪组织中 Microsoft Teams 的使用情况。
+ms.openlocfilehash: 719f02ce7a5cd36e96ed7fd563c259c6e77764fd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581543"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095036"
 ---
-# <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>使用 CQD 数据在 Power BI 中查看 Microsoft 团队的利用率
+# <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>使用 CQD 数据查看 Power BI 中的 Microsoft Teams 利用率
 
-2020年3月新增功能，我们已将团队使用情况报告添加到可下载[的 POWER BI 查询模板 FOR CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
+2020 年 3 月新增功能，我们已将 Teams 使用率报告添加到 [CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)的可下载 Power BI 查询模板。 
 
-这一新的团队使用情况报告让你可以通过访问团队通话质量仪表板 (CQD) 数据，了解 (和你的用户使用 Microsoft 团队) 的程度。 这些报表旨在作为中心位置，供管理员和业务负责人快速访问此数据。
+通过此新的 Teams 使用率报告， (访问 Teams 呼叫质量仪表板) CQD (使用 Microsoft Teams) 多少。 这些报告旨在成为管理员和业务领导都可以快速转到此数据的集中位置。
 
-"团队利用率 Power BI" 报表包含两个主要报表： "**[通话计数摘要](#call-count-summary-report)**" 和 "**[音频分钟摘要](#audio-minutes-summary-report)**"。 [每日使用情况](#daily-usage)、[区域音频详细信息](#regional-audio-details)、[会议详细信息](#conference-details)和[用户列表](#user-list)报告在用户利用分级式报告（如下所述的说明）中时，将会播放。
+Teams 使用率 Power BI 报告由两个主要报告组成： **[通话计数摘要](#call-count-summary-report)** 和 **[音频分钟数摘要](#audio-minutes-summary-report)**。 当用户[利用下面](#daily-usage)说明中记下的向下[](#conference-details)钻取报表[](#user-list)时，"每日使用情况、区域音频详细信息、会议详细信息和用户列表"报告将发挥作用。 [](#regional-audio-details)
 
 > [!NOTE]
-> 必须填充构建和子网数据才能提供区域和网络筛选功能。
+> 必须填充生成和子网数据，以提供区域和网络筛选功能。
 
-## <a name="call-count-summary-report"></a>通话计数摘要报告
+## <a name="call-count-summary-report"></a>呼叫计数摘要报告
 
-主页面 ("呼叫计数摘要") 立即提供最近30日和90天内的音频、视频和屏幕共享会话数（如节标题中所述）。 最初显示的数据适用于整个组织，并且可以使用页面左侧的切片器下拉选项进行筛选。
+呼叫 (摘要) 主页立即提供过去 30 天和 90 天内的音频、视频和屏幕共享会话数，如部分标题所述。 最初显示的数据适用于整个组织，可以使用页面左侧的切片器下拉选项进行筛选。
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report1.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report1.png)
 
-1. 在切片器下拉的右侧，媒体类型的调用次数将在过去30天内分解为内部/外部视图。 通过上面的屏幕截图，我们可以看到来自外部组织位置的更多通话，这对考虑当前的全球环境很有意义。
-  ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report2.png)
+1. 切片器下拉列表右侧按媒体类型细分为过去 30 天内的内部/外部视图。 通过上面的屏幕截图，可以看到，从组织外部位置发生的调用越来越多，考虑到当前的全局环境，这很有意义。
+  ![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report2.png)
 
-1. 在 "媒体类型计数" 框的右侧，我们有 "每月通话计数"，"媒体类型" 是过去90天的媒体类型。 每个列和媒体类型都可以悬停在上方，以显示上个月或当前月份的计数，从而提供使用趋势信息。
-  ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report3.png)
+1. 在媒体类型计数框的右侧，我们按媒体类型显示过去 90 天的每月呼叫计数。 可以将每个列和媒体类型悬停在上方以显示上个月或当前月份到目前为止的计数，从而提供使用趋势信息。
+  ![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report3.png)
  
 
-1. 中间图按90天的图表运行，但它提供过去30天的 "每日使用状况" 视图，并允许用户右键单击并向下钻取特定日期的详细信息。
-  ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report4.png)
+1. 中间图的作用与 90 天图一样，但它提供过去 30 天的每日使用情况视图，允许用户右键单击并向下钻取特定日期的详细信息。
+  ![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report4.png)
 
-在页面的左下部分，你将找到一个表，其中提供了过去一年的每种媒体类型的总值。 
-    ![屏幕截图：团队利用率报告 ](media/CQD-teams-utilization-report5.png) ![ 屏幕截图：团队利用率报告](media/CQD-teams-utilization-report6.png)   
+在页面左下角，可找到一个表，其中提供了过去一年每种媒体类型的总计值。 
+    ![屏幕截图：Teams 使用率报告 ](media/CQD-teams-utilization-report5.png) ![ 屏幕截图：团队利用率报告](media/CQD-teams-utilization-report6.png)   
 
-在表的右侧，条形图显示过去30天内最常使用 (通话/流) 的客户。
-   ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report7.png)
+在表格右侧，条形图显示过去 30 天内 (通话/流) 的客户端。
+   ![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report7.png)
 
-此页面的最后一组图表分别显示每种媒体类型，并显示 "会议和 P2P 使用情况" 细目。 下面的图表显示，与 P2P 相比，有明显更高的会议使用次数。
-  ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report8.png)
+此页面的最后一组图表分别显示每种媒体类型，其中显示了会议的细目和 P2P 使用情况。 下面的图表显示，与 P2P 相比，会议使用量要高得多。
+  ![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report8.png)
 
-## <a name="audio-minutes-summary-report"></a>音频分钟摘要报告
+## <a name="audio-minutes-summary-report"></a>音频分钟数摘要报告
 
-在 "音频分钟使用情况" 报表上，通过几种不同的视图提供总分钟使用率。 
+在"音频分钟数使用情况"报表上，通过几个不同的视图提供总分钟数使用情况。 
 
-我们在切片器的旁边显示了三十天的使用摘要，很容易使用文本框。 顶部数字显示三十天的合计，其中包含内部和外部细目。
+切片器旁边显示了易于使用的文本框的 30 天使用情况摘要。 顶部数字显示 30 天总计，内部和外部细目低于该数字。
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report9.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report9.png)
 
-顶部右上条图提供了一个 yearlong 的会议音频使用视图。 将鼠标悬停在月份上可显示会议音频分钟数。
+右上方的条形图提供会议音频使用情况的一年视图。 将鼠标悬停在一个月内以显示会议音频分钟数。
 
-为了显示 P2P 和会议音频的差异，底部左图获取过去一年的所有音频，并将其在两种类型之间分隔。
+为了显示 P2P 和会议音频的差异，左下角的图表采用过去一年的所有音频，并在这两种类型之间进行分解。
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report10.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report10.png)
 
-"音频分钟" 页面的最后一个图表显示全局地图覆盖上的音频分钟使用率。 只有在将生成和子网数据上载到租户时，此图表才起作用。 可以深化地图上的饼图覆盖层，然后提供区域音频使用。
+"音频分钟数"页的最后一个图表显示全局地图覆盖层上的音频分钟数使用情况。 只有在将生成和子网数据上传到租户时，此图表才工作。 可以钻取地图上的饼图覆盖层，随后提供区域音频使用情况。
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report11.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report11.png)
 
 
 ## <a name="drill-through-capabilities"></a>钻取功能
 
-如前面所述，用户可以深入查看每日和地区使用情况报告。
+如前所述，用户可以深入了解每日和区域使用情况报告。
 
-### <a name="daily-usage"></a>每日使用
+### <a name="daily-usage"></a>每日使用情况
 
-"每日使用情况" 报表允许管理员通过一天的时间标识高峰期。 除了使用，我们还能够捕获整个用户情绪和该天的反馈。
+"每日使用情况"报表允许管理员确定一天中的高峰使用时段。 除了使用情况，我们还能够捕获当天的总体用户情绪和反馈。
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report12.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report12.png)
 
-"每日使用情况" 报表显示选定日期的音频、视频和屏幕共享的数量，并添加了在内部和外部连接之间进行区分的功能。 会议和对等细分位于 "分类汇总" 框的紧右侧。 报表的右上角提供一组会议及其关联的 ID 和参与者。 "会议列表" 还提供了进一步的向下钻取到 "会议详细信息" 报表的详细信息。 替换图形
+"每日使用情况"报表显示所选天的音频、视频和屏幕共享数，添加了区分内部和外部连接的能力。 "会议"和"对等"细分位于"形式总计"框的右下角。 报表的右上方提供了一个会议列表，其中列出了当天的关联 ID 和参与者。 会议列表还提供对"会议详细信息"报告的其他向下钻取。 替换图形
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report13.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report13.png)
 
-中心区域中的条形图允许用户通过一天内标识高峰期使用期。 用户可以向下钻取到显示在该小时的 "用户列表" 报表的图表上的小时。
+中心区域中的条形图允许用户确定一天中的高峰使用时段。 用户可以向下钻取图表上表示的小时，该小时将显示"用户列表"报告。
 
-在条形图的右侧，用户反馈以可视格式显示。 尽管用户情绪可以进行主观，但它提供了可用于识别潜在问题的洞察力。
+在条形图右侧，以可视格式显示用户反馈。 虽然用户情绪可能是主观的，但它确实提供可用于识别潜在问题的见解。
 
-下表提供了一系列指标。 较差的百分比与故障率一起可为管理员提供潜在改进领域。 还可以单独选择每个小时，如下所示。
+底部表提供当天的指标范围。 较差的百分比和失败率可为管理员提供潜在的改进领域。 也可以单独选择每小时，如下所示。
 
-此数据可用于识别在高峰使用期间出现问题的区域。
+此数据可用于识别在高峰使用时段出现问题的区域。
 
 
-单击该日期的列以显示该小时的度量值。
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report14.png)
+单击该天的列以显示该小时的指标。
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report14.png)
   
-  1.  图表下方的表将显示该小时的度量值。 这可以按任何列标题进行排序;但是，我们会对查找有问题的区域感兴趣。  
-    ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report15.png)
+  1.  图表下方的表格将显示该小时的指标。 这可以通过任何列标题进行排序;但是，我们希望找到有问题的领域。  
+    ![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report15.png)
     
-  2.  我们看到，在此时间范围内，IND 区域在会议中的视频性能很差。 随后，CQD QER Microsoft 报表可用于缩小有问题的位置，因为区域和时间框架已确定。
+  2.  在此时间帧内，我们看到 IND 区域在会议中遇到较差的视频性能。 随后，可以使用 CQD QER Microsoft 报告缩小有问题的位置范围，因为已识别到该区域和时间范围。
 
 ### <a name="conference-details"></a>会议详细信息
 
-"会议详细信息" 报表向会话期间使用的媒体类型提供对会议（来自与会者列表）的其他见解。
+"会议详细信息"报告提供会议的其他见解，从与会者列表到会话期间使用的媒体类型。
 
-右键单击会议 "日常使用" 页面上的 "会议 ID" 图表中的参与者栏可向下钻取到会议详细信息。
+右键单击"每日使用状况"页面上会议 ID 图表中的参与者栏，向下钻取会议详细信息。
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report24.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report24.png)
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report25.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report25.png)
   
 
-我们可以查看会议中的参与者，并向下表中的所有相关信息减少数据包丢失和抖动，以帮助在下表中进行潜在的疑难解答工作。
+我们可以看到会议参与者以及数据包丢失和抖动的所有相关信息，以帮助在底部表格中进行潜在的故障排除工作。
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report26.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report26.png)
 
 
 ### <a name="regional-audio-details"></a>区域音频详细信息
 
-区域音频详细信息 "向下钻取" 特别显示所选区域的音频分钟用量。 具有 CQD 访问权限的用户可以查看所选区域内的 P2P 和会议音频的使用趋势。
+"区域音频详细信息"向下钻取专门显示所选区域的音频分钟数使用情况。 有权访问 CQD 的用户可以在所选区域查看 P2P 和会议音频的使用趋势。
 
-1.  在 "通话计数摘要" 页面上，通过表格钻取到 "特定区域"。
-  ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report16.png)
+1.  在"呼叫计数摘要"页上，通过表钻取到作为特定区域。
+  ![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report16.png)
 
-2.  选择需要其他区域信息的行。
-  ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report17.png)
+2.  选择包含区域的其他信息的行。
+  ![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report17.png)
 
-3.  数据趋势显示在内部网络上使用了很长的分钟数，并且会议的 P2P 使用远达超越 P2P。
-  ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report18.png)
+3.  数据趋势显示内部网络上使用大量分钟数，会议远超 P2P 使用。
+  ![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report18.png)
 
-区域音频趋势可用于显示世界上的外部影响对用户有何影响。 具体地说，我们将看到 EMEA 地区和 APAC 地区的外部使用情况，以便与要求远程工作的人一起增加。
+区域音频趋势可用于显示用户受到世界外部影响的影响。 具体而言，目前我们预期 EMEA 和 APAC 区域的外部使用量会随着要求远程工作的人的增加而增加。
 
 
 ### <a name="user-list"></a>用户列表
 
-用户列表向下钻取提供了一个特定时间的用户特定信息，这些信息由查看报表的人员选择。 用户列表报表可通过 "每日使用情况" 报表上的 "每小时趋势" 图形中的向下钻取。 右键单击需要的附加信息，然后选择 "钻取" 和 "用户列表"，如下所示。
+按预期，"用户列表"向下钻取提供查看报告的用户选择的特定小时的用户特定信息。 可以通过每日使用情况报表上"每小时趋势"图中的向下钻取来访问用户列表报表。 右键单击所需的小时其他信息，然后选择"钻取"和"用户列表"，如下所示。
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report19.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report19.png)
 
-"用户列表" 报表通过页面顶部中心的圆环图显示内部/外部连接。 我们可以看到下面的图像中有大量参与公司网络外部的参与。
+"用户列表"报表通过页面顶部中心的圆环图显示内部/外部连接。 如下图所示，企业网络外部存在大量参与活动。
 
-图表的右上角显示该小时内每个用户所做的通话次数。
+图的右上方显示每个用户在这一小时内进行调用的数量。
 
-![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report20.png)
+![屏幕截图：Teams 使用率报告](media/CQD-teams-utilization-report20.png)
 
-下表提供了每个用户在该时间内参与的会话的详细信息。 "失败类型" 列可用于确定导致调用丢弃的原因。 "捕获" 和 "呈现设备" 列用于识别为什么报告通话质量较差的原因。
+底部表提供每个用户在这一小时内参与的会话的详细信息。 "失败类型"列可用于确定导致调用删除的原因。 "捕获"和"呈现设备"列可用于识别报告通话质量差的原因。
 
 
 ## <a name="related-topics"></a>相关主题
@@ -166,7 +166,6 @@ ms.locfileid: "46581543"
 
 [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+[通话分析和通话质量仪表板](./monitor-call-quality-qos.md)
 
-[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
- 
+[Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)

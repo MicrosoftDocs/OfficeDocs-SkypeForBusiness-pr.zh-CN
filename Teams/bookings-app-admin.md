@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams 和使用 Bookings 应用进行虚拟访问
-ms.openlocfilehash: 582c59b4c389d687c529a7db9d9f1825d488f9f3
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
-ms.translationtype: HT
+ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125745"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092780"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 应用进行虚拟访问
 
@@ -53,7 +53,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>控制组织内对 Bookings 的访问权限
 
-有几种方式可以控制谁具有对 Bookings 应用和该应用特定功能的访问权限。 要了解如何在 Microsoft 365 管理中心内打开或关闭 Microsoft Bookings，以及如何创建 Bookings 应用策略以允许选定用户创建 Bookings 日历，请参阅 [获取对 Microsoft Bookings 的访问权限](https://support.microsoft.com/zh-CN/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)。 也可以了解如何 [创建 Teams 应用策略以为选定用户固定 Bookings 应用](teams-app-setup-policies.md)。
+有几种方式可以控制谁具有对 Bookings 应用和该应用特定功能的访问权限。 要了解如何在 Microsoft 365 管理中心内打开或关闭 Microsoft Bookings，以及如何创建 Bookings 应用策略以允许选定用户创建 Bookings 日历，请参阅 [获取对 Microsoft Bookings 的访问权限](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)。 也可以了解如何 [创建 Teams 应用策略以为选定用户固定 Bookings 应用](teams-app-setup-policies.md)。
 
 ## <a name="recommended-meeting-policy-settings"></a>建议的会议策略设置
 
@@ -73,7 +73,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 设置 Bookings 邮箱时，将使用 Microsoft 365 或 Office 365 组织的默认电子邮件域。 但是，此设置在项外部收件人发送会议邀请时可能导致问题；你的邀请可能标记为垃圾邮件并移动到收件人的垃圾邮件文件夹，因此收件人可能根本未看到你的邀请。
 
-因此，建议在创建 Bookings 邮箱之前更改默认域。 有关如何执行此操作的信息，请参阅 [域常见问题解答](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)。
+因此，建议在创建 Bookings 邮箱之前更改默认域。 有关如何执行此操作的信息，请参阅 [域常见问题解答](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)。
 
 如果在已创建 Bookings 邮箱后需要更改默认域，请通过 PowerShell 更改：
 
@@ -81,7 +81,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-有关详细信息，请参阅 PowerShell 文档以了解 [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) cmdlet。
+有关详细信息，请参阅 PowerShell 文档以了解 [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox) cmdlet。
 
 > [!NOTE]
 > 如果正在使用 Exchange 混合配置，建议更改默认域时全面测试本地 Exchange 和 Exchange Online 之间的邮件流。

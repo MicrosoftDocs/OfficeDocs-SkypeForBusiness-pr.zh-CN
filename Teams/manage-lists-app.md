@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: e0fb125ede9300395e045a0c5640abd075547562
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
-ms.translationtype: HT
+ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944607"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092250"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Lists 应用
 
@@ -70,7 +70,7 @@ Lists 中的模版为用户跟踪信息的应用场景量身打造。 每个模�
 
 Lists 的数据存储在 SharePoint Online 团队网站中。 要了解关于 SharePoint Online 与 Teams 如何交互的详细信息，请参阅 [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](SharePoint-OneDrive-interact.md)。
 
-SharePoint 中的权限集应用于 Lists 应用中创建的列表。 列表默认继承所属网站的权限。 这些权限管理用户可以执行的操作类型，比如是否可以创建或编辑列表。 要了解更多，请参阅 [SharePoint 中的权限级别](https://docs.microsoft.com/sharepoint/understanding-permission-levels)以及 [SharePoint 服务器中的用户权限和权限级别](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels)。
+SharePoint 中的权限集应用于 Lists 应用中创建的列表。 列表默认继承所属网站的权限。 这些权限管理用户可以执行的操作类型，比如是否可以创建或编辑列表。 要了解更多，请参阅 [SharePoint 中的权限级别](/sharepoint/understanding-permission-levels)以及 [SharePoint 服务器中的用户权限和权限级别](/sharepoint/sites/user-permissions-and-permission-levels)。
 
 在某些应用场景下，你需要限制用户在列表中的操作。 比如，团队中某个人可以编辑列表视图，更改会应用于所有团队成员，你只想允许团队所有者或某些成员编辑列表视图。 要了解更多，请参阅[自定义 SharePoint 列表或库的权限](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)。
 
@@ -105,15 +105,15 @@ Lists 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 
 ## <a name="search-the-audit-log-for-list-events"></a>搜索列表事件的审核日志
 
-列表启用了企业级别的审核，所以你可以在安全与合规中心的审核日志中搜索列表和列表项事件。 若要了解详细信息，请参阅[在安全与合规中心中搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+列表启用了企业级别的审核，所以你可以在安全与合规中心的审核日志中搜索列表和列表项事件。 若要了解详细信息，请参阅[在安全与合规中心中搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
-在 Teams 中查看与 Lists 应用有关的审核事件列表，请参阅 [SharePoint 列表活动](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)。
+在 Teams 中查看与 Lists 应用有关的审核事件列表，请参阅 [SharePoint 列表活动](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)。
 
 在搜索审核日志之前，你必须先在[安全与合规中心](https://protection.office.com)中用审核。 请记住，审核数据仅从你打开审核开始可用。
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Power Automate 和 Graph API
 
-Lists 工作流支持 [Power Automate](https://docs.microsoft.com/power-automate/flow-types)，列表表单支持[Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form)。 开发人员可以通过 Microsoft Graph 使用 [Lists API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) 连接列表数据作为源。
+Lists 工作流支持 [Power Automate](/power-automate/flow-types)，列表表单支持[Power Apps](/powerapps/maker/canvas-apps/customize-list-form)。 开发人员可以通过 Microsoft Graph 使用 [Lists API](/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) 连接列表数据作为源。
 
 ## <a name="give-feedback-or-report-an-issue"></a>提供反馈或报告问题
   

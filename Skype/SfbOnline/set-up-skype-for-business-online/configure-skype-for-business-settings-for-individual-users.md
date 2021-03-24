@@ -23,34 +23,34 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: cf54637bda51a7994121035b3db1585213c56c00
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: 5ddad9b1502d0a271c20c412731c9872e247be1b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753417"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093386"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理员：为单个用户配置 Skype for Business 设置
 
 > [!IMPORTANT]
-> Microsoft 团队管理中心已将 Skype for Business 管理中心替换 (旧版门户) 。 管理 Skype for Business 的所有设置现在均位于团队管理中心。 你必须分配有全局管理员或 Skype for Business 管理员的 [AZURE AD 管理员角色](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) ，才能在团队管理中心中管理 Skype for business 功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)。
+> Microsoft Teams 管理中心已取代 Skype for Business 管理中心 (旧版门户) 。 管理 Skype for Business 的所有设置现在都位于 Teams 管理中心。 必须分配全局管理员或 Skype for Business 管理员 [的 Azure AD](/azure/active-directory/roles/permissions-reference) 管理员角色，才能在 Teams 管理中心管理 Skype for Business 功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
-本文介绍了管理员如何为少量用户配置 Skype for Business。 若要批量执行这些步骤，我们提供了指向你可以使用的 Windows PowerShell cmdlet 的链接。
+本文介绍了管理员如何为少量用户配置 Skype for Business。 为了批量执行这些步骤，我们包含了指向Windows PowerShell cmdlet 的链接。
   
 要允许（或阻止）企业中的所有人与外部人员通信，请参阅：
   
-- [允许用户联系外部 skype For business 用户](allow-users-to-contact-external-skype-for-business-users.md)：你可以让你的组织使用高级 skype for business 功能 (共享桌面、查找联机用户等 ) 与特定的受信任 (联合) 业务中的人员进行通信。 本文还介绍了如何阻止与特定域的通信。
+- 允许用户联系外部[Skype for Business](allow-users-to-contact-external-skype-for-business-users.md)用户：你可以让你的组织使用高级 Skype for Business 功能 (共享桌面、查找在线人员等 ) 以与特定受信任的 (联合) 企业中的人员进行通信。 本文还介绍了如何阻止与特定域的通信。
     
-- [让 skype For business 用户添加 skype 联系人](let-skype-for-business-users-add-skype-contacts.md)。 可以让你的组织使用 Skype for Business 搜索使用 Skype 这一免费应用的用户，并向其发送即时消息。
+- [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)。 可以让你的组织使用 Skype for Business 搜索使用 Skype 这一免费应用的用户，并向其发送即时消息。
     
 ## <a name="configure-general-settings-for-one-user"></a>为一个用户配置常规设置
 <a name="__toc325019204"> </a>
 
-您必须具有 [管理员权限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 才能执行这些步骤。
+必须具有管理员 [权限才能](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 执行这些步骤。
 
 ![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
   
-1. 使用你的工作或学校帐户登录。
+1. 使用工作或学校帐户登录。
     
 2. 选择 **管理中心** > **Skype for Business** 。
     
@@ -68,18 +68,18 @@ ms.locfileid: "48753417"
     
 |**选项**|**详细信息**|
 |:-----|:-----|
-|音频和 HD 视频  <br/> |允许此人录制音频会议、音频和视频会议，或者不允许他们安排任何会议 ("无") 。  <br/> |
-|录制对话和会议  <br/> |选择此人可以记录的内容。  <br/> Skype for Business Basic 不支持此选项。  <br/> |
-|为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项将关闭在 Exchange 管理中心内设置了 [就地保留](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx) 时不捕获的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
+|音频和 HD 视频  <br/> |允许此人录制音频会议、音频和视频会议，或不允许他们安排任何会议， (会议) 。  <br/> |
+|录制对话和会议  <br/> |选择此人可以记录的内容。  <br/> 此选项不适用于 Skype for Business Basic。  <br/> |
+|为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项会关闭在 Exchange 管理中心设置就地保留时未捕获[](/exchange/security-and-compliance/in-place-and-litigation-holds)的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
    
-若要批量配置这些设置，请使用 PowerShell。 请参阅 [设置适用于 Windows PowerShell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+若要批量配置这些设置，请使用 PowerShell。 请参阅[为计算机设置 Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="block-external-communications"></a>阻止外部通信
 <a name="__toc325019206"> </a>
 
 为公司中的所有人[允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)后，你可以使用这些步骤选择性地阻止指定个人与外部的通信。
   
-1. 选择 " **用户**"，选择要禁用其设置的用户，然后选择 " **编辑** ![ 编辑" ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
+1. 选择 **"** 用户"，选择要禁用其设置的用户，然后选择" **编辑编辑** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) "。
     
 2. 选择" **外部通信**"，然后根据需要清除选项：
     
@@ -89,23 +89,23 @@ ms.locfileid: "48753417"
     
 3. 单击" **保存**"。
     
-若要批量配置这些设置，请使用 PowerShell。 请参阅 [设置适用于 Windows PowerShell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+若要批量配置这些设置，请使用 PowerShell。 请参阅[为计算机设置 Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>编辑一个用户的音频会议设置
 <a name="__toc314837483"> </a>
 
-1. 选择 " **用户**"，选择您想要编辑其音频会议设置的用户，然后选择 " **编辑** ![ 编辑" ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
+1. 选择 **"** 用户"，选择要编辑其音频会议设置的用户，然后选择"编辑 **编辑** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) "。
     
-2. 选择 " **音频会议**"，选择您的音频会议提供商，键入或更改请求的信息，然后单击 " **保存**"。
+2. 选择 **"音频会议"，** 选择音频会议提供商，键入或更改请求的信息，然后单击"保存 **"。**
     
 |**音频会议设置**|**说明**|
 |:-----|:-----|
-|**提供商名称** <br/> |从列表中选择您的提供商。  <br/> |
-|**长途电话号码**（必需） <br/> |对于第三方 ACP，这些电话号码是您从音频会议提供商处收到的电话号码。 如果用户正在使用 Microsoft 作为音频会议提供商，则这些将是在音频会议桥上设置的数字。 将数字的格式设置为您希望在 Skype for Business 和 Microsoft 团队会议请求中显示的数字。  <br/> |
-|**免费电话号码** <br/> |对于第三方 ACP，这些电话号码是您从音频会议提供商处收到的电话号码。 如果用户正在使用 Microsoft 作为音频会议提供商，则这些将是在音频会议桥上设置的数字。 将数字的格式设置为您希望在 Skype for Business 和 Microsoft 团队会议请求中显示的数字。  <br/> |
-|**会议 ID 和 PIN** (必需)  <br/> |参与者 PIN 或会议代码，用于加入由该用户安排的会议，并由第三方音频会议提供商提供。 如果用户使用 Microsoft 作为音频会议提供商，则不需要此功能。  <br/> |
+|**提供程序名称** <br/> |从列表中选择提供商。  <br/> |
+|**长途电话号码**（必需） <br/> |对于第三方 ACP，这些电话号码是音频会议提供商提供的电话号码。 如果用户正在使用 Microsoft 作为音频会议提供商，则这些将是在音频会议桥上设置的数字。 设置号码的格式，因为您希望它们显示在 Skype for Business 和 Microsoft Teams 会议请求中。  <br/> |
+|**免费电话号码** <br/> |对于第三方 ACP，这些电话号码是音频会议提供商提供的电话号码。 如果用户正在使用 Microsoft 作为音频会议提供商，则这些将是在音频会议桥上设置的数字。 设置号码的格式，因为您希望它们显示在 Skype for Business 和 Microsoft Teams 会议请求中。  <br/> |
+|**会议 ID 和 PIN** (必需)  <br/> |参与者 PIN 或会议代码，用于加入由此用户安排并且由第三方音频会议提供商提供的会议。 如果用户使用 Microsoft 作为音频会议提供商，则不需要这样做。  <br/> |
    
-若要批量配置这些设置，请使用 PowerShell。 请参阅[设置邀请附带的电话号码](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)[设置你的 Windows PowerShell 计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+若要批量配置这些设置，请使用 PowerShell。 请参阅[设置邀请中包含的电话号码](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)[设置计算机以Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
@@ -118,4 +118,3 @@ ms.locfileid: "48753417"
 [Skype for Business 和 Microsoft Teams 加载项许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
   
- 

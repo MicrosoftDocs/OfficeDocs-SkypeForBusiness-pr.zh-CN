@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab67f4e0851ac05f9d2d341c9b52407b594a3a34
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 035fee7625ce391f477a159e47f66f3b7a2cdfb0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802582"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092490"
 ---
 # <a name="teams-for-retail"></a>适用于零售业的 Teams
 
@@ -29,4 +29,4 @@ ms.locfileid: "49802582"
 
 |               |               |
 | ------------- | ------------- |
-| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [Teams 零售模板入门](/microsoftteams/get-started-with-retail-teams-templates) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [Teams 零售模板入门](../get-started-with-retail-teams-templates.md) |

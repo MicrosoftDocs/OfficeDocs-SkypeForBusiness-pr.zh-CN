@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag, rarang
-description: 了解可用于管理 Microsoft 团队中的组织应用的策略和设置。
+description: 了解可用于在 Microsoft Teams 中为组织管理应用的策略和设置。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,56 +21,56 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb824c7082679591b3fa39a1c8a4b13152e0cc75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0594317c21f3ef2a30d1772959458f33bef393eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532519"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094378"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-应用为你的组织提供现成的工具，以充分利用团队。 这些应用结合由 Microsoft （由第三方构建）或您的组织中的开发人员提供的选项卡、消息扩展、连接器和 bot 的功能。
+应用为组织提供开箱即用的工具，以利用 Teams。 这些应用结合了由 Microsoft 提供的选项卡、消息传送扩展、连接器和机器人的功能，这些功能由第三方构建，或者由组织中的开发人员提供。
 
-在管理中心的 **团队应用** 中管理组织的应用。  (参阅 [使用团队管理员角色管理团队](https://docs.microsoft.com/microsoftteams/using-admin-roles) ，了解如何获取管理员角色和权限。 ) 例如，你可以在组织级别允许或阻止应用，设置用于控制团队用户可用的应用的策略，并通过固定对你的用户最重要的应用自定义团队。
+在管理中心的 Teams 应用中 **为** 组织管理应用。  (请参阅使用 Teams 管理员角色管理 [Teams，](./using-admin-roles.md) 了解获取管理员角色和权限。) 例如，可以在组织级别允许或阻止应用、设置策略来控制哪些应用可供 Teams 用户使用，以及通过固定对用户最重要的应用来自定义 Teams。
 
-我们正在不断改进团队中的应用体验，并添加功能和功能。 随着时间的推移，我们将构建其他应用管理功能，请查看有关应用策略的最新信息。
+我们正在不断改进 Teams 中的应用体验，并添加特性和功能。 随着时间的推移，我们将构建其他应用管理功能，因此请返回查看有关应用策略最新信息。
 
-## <a name="manage-apps"></a>管理应用程序
+## <a name="manage-apps"></a>管理应用
 
-使用 " **管理应用** " 页面查看和管理组织的应用程序目录中的所有团队应用。 你可以查看应用的组织级别状态和属性、阻止或允许应用组织级别的应用、将新的自定义应用上载到租户目录以及管理组织范围内的应用设置。
+使用 **"管理应用** "页查看和管理组织的应用目录中的所有 Teams 应用。 可以在组织级别查看应用的状态和属性、在组织级别阻止或允许应用、将新的自定义应用上传到租户目录，以及管理组织范围内的应用设置。
 
-" **管理应用** " 页面为你提供租户目录中所有可用应用的视图，为你提供了确定要在组织中允许或阻止哪些应用的信息。 然后，你可以使用 [应用权限策略](#app-permission-policies)、 [应用设置策略](#app-setup-policies)和 [自定义应用策略和设置](#custom-app-policies-and-settings) 来为你的组织中的特定用户配置应用体验。
+" **管理应用** "页面提供了租户目录中所有可用应用的视图，为你提供确定允许或阻止整个组织哪些应用时需要的信息。 然后，可以使用 [应用权限策略](#app-permission-policies)、 [应用设置策略](#app-setup-policies)和自定义应用策略 [和](#custom-app-policies-and-settings) 设置为组织中特定用户配置应用体验。
 
-若要了解详细信息，请参阅 [管理团队中的应用](manage-apps.md)。
+有关详细信息，请参阅在 [Teams 中管理应用](manage-apps.md)。
 
 ## <a name="app-permission-policies"></a>应用权限策略
 
-使用应用权限策略，你可以控制你的组织中的特定用户可以使用哪些应用。 你可以允许或阻止由 Microsoft、第三方和你的组织发布的所有应用或特定应用。
+使用应用权限策略，可以控制哪些应用可供组织的特定用户使用。 你可以允许或阻止 Microsoft、第三方和你的组织发布的所有应用或特定应用。
 
-例如，你可以使用应用权限策略执行以下操作：
+例如，可以使用应用权限策略来：
 
-- 向特定用户逐步推出新的第三方或自定义生成的应用。
-- 简化用户体验，尤其是当您开始在整个组织中推出团队时。
+- 逐渐向特定用户推出新的第三方或自定义生成应用。
+- 简化用户体验，尤其是在开始在整个组织中推出 Teams 时。
 
-若要了解详细信息，请转到 [管理团队中的应用权限策略](teams-app-permission-policies.md)。
+若要了解有关详细信息，请转到在 [Teams 中管理应用权限策略](teams-app-permission-policies.md)。
 
 ## <a name="app-setup-policies"></a>应用设置策略
 
-应用设置策略允许你为你的用户自定义应用体验。 选择要固定到团队客户端中的应用栏的应用，以及这些应用在 web、桌面和移动客户端上的显示顺序。
+应用设置策略允许为用户自定义应用体验。 选择要固定到 Teams 客户端的应用栏的应用，以及应用在 Web 客户端、桌面客户端和移动客户端上的显示顺序。
 
-下面是有关如何使用应用设置策略的一些示例：
+下面是一些如何使用应用设置策略的示例：
 
-- 促进核心应用的认识和采纳。 例如，将自定义招聘和人才管理应用固定到 HR 团队的用户。
-- 有选择地固定核心团队功能，如聊天、团队和通话。 这样做有助于确保用户参与团队中的特定活动。
+- 促进核心应用的认知和采用。 例如，为 HR 团队中的用户固定自定义招聘和才能管理应用。
+- 选择性地固定核心 Teams 功能，例如聊天、Teams 和通话。 这样做有助于确保用户参与 Teams 中的特定活动。
 
-若要了解详细信息，请参阅 [管理团队中的应用设置策略](teams-app-setup-policies.md)。
+若要了解有关详细信息，请查看在 [Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
 ## <a name="custom-app-policies-and-settings"></a>自定义应用策略和设置
 
-团队允许组织中的开发人员生成、测试并将自定义应用部署到其他用户。 通过直接将 .zip 文件中的应用包上载到团队或个人上下文中，可以将自定义应用添加到团队。 你可以使用应用设置策略控制你的组织中可以上载自定义应用的人员。 你还可以设置组织范围的设置，以控制用户是否可以与特定的自定义应用交互。
+Teams 允许组织中开发人员生成、测试自定义应用，以及将自定义应用部署到其他用户。 可以通过将 .zip 文件的应用包直接上传到团队或个人上下文中，将自定义应用添加到 Teams。 可以使用应用设置策略来控制组织中哪些人可以上传自定义应用。 还可以设置组织范围的设置，以控制用户是否可以与特定的自定义应用交互。
 
-若要了解详细信息，请转到 [管理团队中的自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。
+若要了解有关详细信息，请转到 [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。

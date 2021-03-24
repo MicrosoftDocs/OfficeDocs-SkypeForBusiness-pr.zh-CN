@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 使用 Advisor for Teams 帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731130"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093762"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -70,7 +70,7 @@ Advisor for Teams 当前提供以下计划：
     - Planner 计划，包括采用任务
     - Forms 用户调查
     - Teams 顾问机器人
-    - Skype for Business 升级计划专为当前正在使用 Skype for Business Online 或 Skype for business 本地环境的客户而设计，将帮助你摆脱升级旅程中的猜测。 通过利用经过验证的成功框架实施更改，无论是刚开始使用 Teams、已在 Skype for Business 中使用 Teams，还是已准备好升级，该计划都将指导你完成分步操作。 该计划还将连接到[联机指南和最佳实践](https://aka.ms/SkypeToTeams)、[可下载资产](https://aka.ms/UpgradeSuccessKit)、[实时 1：许多规划研讨会](https://aka.ms/UpgradeWorkshops)，以及支持成功的其他资源。
+    - Skype for Business 升级计划专为当前正在使用 Skype for Business Online 或 Skype for business 本地环境的客户而设计，将帮助你摆脱升级旅程中的猜测。 通过利用经过验证的成功框架实施更改，无论是刚开始使用 Teams、已在 Skype for Business 中使用 Teams，还是已准备好升级，该计划都将指导你完成分步操作。 该计划还将连接到[联机指南和最佳实践](./upgrade-start-here.md)、[可下载资产](https://aka.ms/UpgradeSuccessKit)、[实时 1：许多规划研讨会](./upgrade-workshops-landing-page.yml)，以及支持成功的其他资源。
 
 建议从“聊天、团队、频道和应用”计划开始。 该工作负载部署完成后，请返回到 Teams 顾问，然后选择“**添加频道**”以开始下一个工作负载。
 
@@ -90,11 +90,11 @@ Advisor for Teams 当前提供以下计划：
 
 |评估测试  |提供的信息  |
 |---------|---------|
-|已配置虚域     |是否为你的租户配置了非 @onmicrosoft.com 域（例如，@contoso.onmicrosoft.com）。 当然，你可以使用 @onmicrosoft.com 域，或者也可以配置虚域，由你选择。 有关详细信息，请阅读[将域添加到 Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)。 |
-|Teams 许可证     |这是先决条件；你 **必须具有** Teams 许可证才能推出 Teams。 此测试查询 Microsoft Graph 以了解你是否拥有 Teams 许可证（至少有一个许可证可供分配）。 有关详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。    |
+|已配置虚域     |是否为你的租户配置了非 @onmicrosoft.com 域（例如，@contoso.onmicrosoft.com）。 当然，你可以使用 @onmicrosoft.com 域，或者也可以配置虚域，由你选择。 有关详细信息，请阅读[将域添加到 Microsoft 365](/microsoft-365/admin/setup/add-domain)。 |
+|Teams 许可证     |这是先决条件；你 **必须具有** Teams 许可证才能推出 Teams。 此测试查询 Microsoft Graph 以了解你是否拥有 Teams 许可证（至少有一个许可证可供分配）。 有关详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。    |
 |Exchange Online 许可证     |你是否有具有可用 Exchange Online 许可证的活动订阅 虽然 Exchange 不是基本 Teams 功能所必需的，但与 Exchange 的集成提供了一种最佳 Teams 体验。 此测试查询 Microsoft Graph 以分析与租户关联的订阅并验证你是否有具有合格 Exchange Online 许可证的订阅（至少有一个可用的许可证可供分配）。 有关详细信息，请阅读 [Exchange 与 Teams 如何交互](exchange-teams-interact.md)。    |
-|SharePoint Online 许可证     |你是否有具有可用 SharePoint Online 许可证的活动订阅。 建议采用基于每个用户的 SharePoint Online 许可证，以便提供 OneDrive for Business 在聊天中用于文件存储。 此测试查询 Microsoft Graph 以了解你是否拥有 SharePoint Online 许可证（至少有一个许可证可供分配）。 有关详细信息，请阅读 [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)。    |
-|已启用来宾访问     |是否已启用[来宾访问](guest-access.md)。 通过来宾访问可邀请外部用户加入你的团队。 请参阅“[在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)”，了解在 Teams 中启用来宾访问的详细步骤；该检查表包含所需的 Azure AD 配置。 |
+|SharePoint Online 许可证     |你是否有具有可用 SharePoint Online 许可证的活动订阅。 建议采用基于每个用户的 SharePoint Online 许可证，以便提供 OneDrive for Business 在聊天中用于文件存储。 此测试查询 Microsoft Graph 以了解你是否拥有 SharePoint Online 许可证（至少有一个许可证可供分配）。 有关详细信息，请阅读 [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](./sharepoint-onedrive-interact.md)。    |
+|已启用来宾访问     |是否已启用[来宾访问](guest-access.md)。 通过来宾访问可邀请外部用户加入你的团队。 请参阅“[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)”，了解在 Teams 中启用来宾访问的详细步骤；该检查表包含所需的 Azure AD 配置。 |
 |已配置外部访问     |是否已启用[外部访问](manage-external-access.md)。 默认情况下会启用此项并采用开放式联合身份验证。 |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>有关聊天、团队、频道和应用的评估
@@ -103,8 +103,8 @@ Advisor for Teams 当前提供以下计划：
 
 |评估测试  |提供的信息  |
 |---------|---------|
-|已配置 Microsoft 365 组命名策略     |是否已为 Microsoft 365 组配置命名标准。 使用 Microsoft 365 组命名策略，组织可以对用户创建的团队应用一致的命名策略，并也能对其他组工作负载（包括 Outlook、SharePoint、Planner 和 Yammer）应用。 此测试通过 Microsoft Graph 查询 Azure AD，以检查是否有应用于 Microsoft 365 组的命名策略。 有关详细信息，请阅读[组命名策略](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)。    |
-|已配置 Microsoft 365 组过期策略     |是否已为 Microsoft 365 组定义组过期策略。 这可让你的组织自动删除非活动状态的团队。 默认情况下处于禁用状态。 此测试通过 Microsoft Graph 查询 Azure AD，并报告是否已在默认值的基础上修改该值。 有关详细信息，请参阅 [Microsoft 365 组过期策略](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)。    |
+|已配置 Microsoft 365 组命名策略     |是否已为 Microsoft 365 组配置命名标准。 使用 Microsoft 365 组命名策略，组织可以对用户创建的团队应用一致的命名策略，并也能对其他组工作负载（包括 Outlook、SharePoint、Planner 和 Yammer）应用。 此测试通过 Microsoft Graph 查询 Azure AD，以检查是否有应用于 Microsoft 365 组的命名策略。 有关详细信息，请阅读[组命名策略](/microsoft-365/admin/create-groups/groups-naming-policy)。    |
+|已配置 Microsoft 365 组过期策略     |是否已为 Microsoft 365 组定义组过期策略。 这可让你的组织自动删除非活动状态的团队。 默认情况下处于禁用状态。 此测试通过 Microsoft Graph 查询 Azure AD，并报告是否已在默认值的基础上修改该值。 有关详细信息，请参阅 [Microsoft 365 组过期策略](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>有关会话和会议的评估
 
@@ -112,7 +112,7 @@ Advisor for Teams 当前提供以下计划：
 
 |评估测试  |提供的信息  |
 |---------|---------|
-|音频会议许可证    |你是否有具有音频会议许可证的活动订阅。 如果要部署音频会议网桥，那么这是先决条件。 此测试查询 Microsoft Graph 以了解你是否拥有音频会议许可证（至少有一个许可证可供分配）。有关详细信息，请阅读 [Teams 附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。    |
+|音频会议许可证    |你是否有具有音频会议许可证的活动订阅。 如果要部署音频会议网桥，那么这是先决条件。 此测试查询 Microsoft Graph 以了解你是否拥有音频会议许可证（至少有一个许可证可供分配）。有关详细信息，请阅读 [Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。    |
 |Stream 许可证     |你是否有具有 Microsoft Stream 许可证的活动订阅。 如果你想要启用“会议录制”，那么这是先决条件。 此测试查询 Microsoft Graph 以了解你是否拥有 Microsoft Stream 许可证（至少有一个许可证可供分配）。 有关 Stream 及其启用方法的详细信息，请阅读 [Teams 云会议录制](cloud-recording.md)。
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Skype for Business 升级评估
@@ -143,7 +143,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 
 ## <a name="advisor-for-teams-and-microsoft-365-learning-pathways"></a>Teams 顾问和 Microsoft 365 学习路径
 
-[Microsoft 365 学习途径](https://docs.microsoft.com/office365/customlearning/)是一种按需学习解决方案，你可以自定义该解决方案来培训用户，并提高组织中 Teams 的使用率和采用率。 将学习途径与 Teams 顾问配合使用，让你的用户能够快速启动和运行，并推动采用。
+[Microsoft 365 学习途径](/office365/customlearning/)是一种按需学习解决方案，你可以自定义该解决方案来培训用户，并提高组织中 Teams 的使用率和采用率。 将学习途径与 Teams 顾问配合使用，让你的用户能够快速启动和运行，并推动采用。
 
 学习途径为你提供了 SharePoint Online 网站模板，并让你能够轻松地为你的用户构建学习网站。 你可以自定义学习路径培训门户，以包含特定于用户需求的培训和支持内容。 使用 Microsoft 联机目录中的 Teams 播放列表并添加你自己的播放列表。
 
@@ -155,9 +155,9 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 
 ### <a name="get-started-in-learning-pathways"></a>学习路径入门
 
-若要开始使用学习途径，请查看[学习途径入门](https://docs.microsoft.com/office365/customlearning/)。
+若要开始使用学习途径，请查看[学习途径入门](/office365/customlearning/)。
 
-若要在你的环境中设置新的学习路径解决方案，请参阅[预配新的学习路径解决方案](https://docs.microsoft.com/office365/customlearning/custom_provision)。
+若要在你的环境中设置新的学习路径解决方案，请参阅[预配新的学习路径解决方案](/office365/customlearning/custom_provision)。
 
 ### <a name="create-a-learning-plan"></a>创建学习计划
 
@@ -165,13 +165,13 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 
 在通过学习途径构建网站之前，请花些时间来查看和收集可供你使用的学习资源和功能。 通过学习途径，你可以使用 Microsoft 365 培训页面中的内容，并添加你创建的内容，以根据你的独特需求定制网站。
 
-若要了解详细信息，请参阅[规划学习路径内容](https://docs.microsoft.com/office365/customlearning/custom_plancontent)和[用于支持远程工作人员的资源](https://docs.microsoft.com/office365/customlearning/custom_plancontent_remoteresources)。
+若要了解详细信息，请参阅[规划学习路径内容](/office365/customlearning/custom_plancontent)和[用于支持远程工作人员的资源](/office365/customlearning/custom_plancontent_remoteresources)。
 
 #### <a name="explore-teams-content-in-learning-pathways"></a>在学习路径中浏览 Teams 内容
 
 学习途径为 SharePoint 网站提供了连接到联机目录的 Web 部件。 承载 Web 部件的 Microsoft 365 培训页面显示了学习途径中所有可用的培训。 四处看看，熟悉可用内容以及内容的组织方式。
 
-[转到你的学习途径网站](https://docs.microsoft.com/office365/customlearning/custom_goto)，选择“**Microsoft 365 培训**”，然后选择“**Microsoft Teams**”，查看联机目录中的所有 Teams 培训播放列表。 选择一个播放列表，然后选择“**下一个**”和“**上一个**”按钮浏览它。 也可以单击向下箭头查看播放列表的内容并转到特定主题。
+[转到你的学习途径网站](/office365/customlearning/custom_goto)，选择“**Microsoft 365 培训**”，然后选择“**Microsoft Teams**”，查看联机目录中的所有 Teams 培训播放列表。 选择一个播放列表，然后选择“**下一个**”和“**上一个**”按钮浏览它。 也可以单击向下箭头查看播放列表的内容并转到特定主题。
 
 #### <a name="take-an-inventory-of-teams-learning-resources-in-your-organization"></a>盘点你的组织中的 Teams 学习资源
 
@@ -179,7 +179,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 
 #### <a name="build-your-site-in-learning-pathways"></a>在学习途径中构建网站
 
-学习途径中的[管理员成功中心](https://docs.microsoft.com/office365/customlearning/custom_successcenter)提供了指导和资源，可帮助你规划和自定义组织中的学习途径。 了解如何[自定义网站](https://docs.microsoft.com/office365/customlearning/custom_overview)、显示和隐藏内容、构建自定义播放列表等。
+学习途径中的[管理员成功中心](/office365/customlearning/custom_successcenter)提供了指导和资源，可帮助你规划和自定义组织中的学习途径。 了解如何[自定义网站](/office365/customlearning/custom_overview)、显示和隐藏内容、构建自定义播放列表等。
 
 若要访问管理员成功中心，请在学习路径主页上，选择“**管理员成功中心**”。
 
@@ -200,7 +200,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 
 有关为 Teams 准备技术支持人员和支持者的指导和资源，请参阅[培训你的组织](https://adoption.microsoft.com/microsoft-teams/#train-your-org)和[培养支持者](https://adoption.microsoft.com/microsoft-teams/#build-champions)。
 
-作为你的用户“操作方法”问题的联系人，你的技术支持人员和支持者可以使用学习途径网站来培训用户以及作为创建支持服务票证的替代方法。 鼓励你的技术支持人员和支持者通过构建培训和支持页面来[自定义你的学习路径网站](https://docs.microsoft.com/office365/customlearning/)，然后[将其作为选项卡添加到团队中的频道](#add-your-site-to-teams)，以便用户自助服务。
+作为你的用户“操作方法”问题的联系人，你的技术支持人员和支持者可以使用学习途径网站来培训用户以及作为创建支持服务票证的替代方法。 鼓励你的技术支持人员和支持者通过构建培训和支持页面来[自定义你的学习路径网站](/office365/customlearning/)，然后[将其作为选项卡添加到团队中的频道](#add-your-site-to-teams)，以便用户自助服务。
 
 ### <a name="drive-adoption"></a>推动采纳
 
@@ -212,7 +212,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 
 请查看这些资源，其中包括指导、采用工具包、最佳实践等，以帮助你实施成功的推广和采用计划。  
 
-- [推动学习路径的采纳](https://docs.microsoft.com/office365/customlearning/driveadoption)
+- [推动学习路径的采纳](/office365/customlearning/driveadoption)
 - [采用 Teams](adopt-microsoft-teams-landing-page.md)
 - [Teams 的采用资源](https://adoption.microsoft.com/microsoft-teams/)
 
@@ -268,10 +268,10 @@ Advisor for Teams 请求你同意收集非 EUII（最终用户标识信息）。
 
 ## <a name="related-topics"></a>相关主题
 
-[自定义 Teams 顾问](https://docs.microsoft.com/office365/customlearning/custom_teamsadvisor)
+[自定义 Teams 顾问](/office365/customlearning/custom_teamsadvisor)
 
-[如何部署 Teams](How-to-roll-out-teams.md)
+[如何部署 Teams](./deploy-overview.md)
 
 [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 
-[用于许可的产品名称和服务计划标识符](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+[用于许可的产品名称和服务计划标识符](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个地方查找和管理 Skype for Business Server 2015/2019 和 Lync 2013 的更新。 单击此页面上的链接可以详细了解并下载这些更新。
-ms.openlocfilehash: 2da3556286213498a2b14a6e4943b76641ecff4c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ea4976954f7f31043e4cbd21e4744f85dc2088ff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874932"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092850"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -234,7 +234,7 @@ KB 4470124 是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 程序包名称/链接|发布日期|
 |:--- |:--- |
 |[Lync Server 2010 文档帮助文件](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|2012 年 3 月 |
-|[Lync Server 2010 欢迎页面](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|2012 年 10 月 |
+|[Lync Server 2010 欢迎页面](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|2012 年 10 月 |
 |[Im an Expert for Microsoft Lync Server 2010 文档](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012 年 3 月 |
 |[Lync 2010 发行说明](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx) |2011 年 1 月 |
 |[Lync Server 2010 发行说明](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|2011 年 1 月 |
@@ -268,6 +268,6 @@ KB 4470124 是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ## <a name="related-topics"></a>相关主题
 
-- [安装 Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
-- [升级到 Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [安装 Skype for Business Server 2015](./deploy/install/install.md)
+- [升级到 Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [使用 Windows Installer 的 Skype for Business 版本的最新 (MSI) ](sfb-client-updates.md)

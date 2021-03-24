@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a62952378debd0c2345533688dd8d84d171f0863
-ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
+ms.openlocfilehash: 92ff8b256f203549541529336396fdd44f67b12c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49530969"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093992"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性与 Microsoft Teams
 
@@ -100,7 +100,7 @@ SPIM 是商业垃圾即时消息或状态订阅请求，与垃圾邮件类似，
 
 - Azure Active Directory (Azure AD)，为用户帐户提供一个受信任的后端存储库。 用户配置文件信息通过 Microsoft Graph 操作存储在 Azure AD 中。
   - 请注意，如果跟踪网络流量，可能会发现颁发了多个令牌。 这包括在查看聊天和音频流量时可能会在跟踪中看到的 Skype 令牌。
-- 传输层安全性 (TLS) 和相互 TLS (MTLS)：加密即时消息流量，并启用终结点身份验证。 点对点音频、视频和应用程序共享流是使用安全实时传输协议 (SRTP) 进行加密和完整性检查。 你可能还会在跟踪中看到 OAuth 流量，尤其是与在 Teams 中切换选项卡（例如从“帖子”移动到“文件”）时协商权限相关的流量。 有关 OAuth 选项卡流示例，[请参阅这篇文档](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab)。
+- 传输层安全性 (TLS) 和相互 TLS (MTLS)：加密即时消息流量，并启用终结点身份验证。 点对点音频、视频和应用程序共享流是使用安全实时传输协议 (SRTP) 进行加密和完整性检查。 你可能还会在跟踪中看到 OAuth 流量，尤其是与在 Teams 中切换选项卡（例如从“帖子”移动到“文件”）时协商权限相关的流量。 有关 OAuth 选项卡流示例，[请参阅这篇文档](/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab)。
 - Teams 尽可能使用行业标准协议进行用户身份验证。
 
 接下来几部分介绍了其中一些核心技术。
@@ -136,11 +136,11 @@ Teams 使用 TLS 和 MTLS 来加密即时消息。 无论通信是限制在内�
 
 下表总结 Teams 使用的协议。
 
-***通信加密** _
+***通信加密***
 
 |||
 |:-----|:-----|
-|_ *通信类型**|**加密方式**|
+|**通信类型**|**加密方式**|
 |服务器到服务器|MTLS|
 |客户端到服务器（例如， 即时消息传递和状态）|TLS|
 |媒体流（例如， 媒体的音频和视频共享）|TLS|
@@ -156,7 +156,7 @@ Teams 使用基于凭据的令牌通过 TURN 安全地访问媒体中继。 媒�
 
 #### <a name="fips"></a>FIPS
 
-Teams 使用符合 FIPS（联邦信息处理标准）的算法进行加密密钥交换。 有关 FIPS 实现的详细信息，请参阅[联邦信息处理标准（FIPS）出版物 140-2](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide)。
+Teams 使用符合 FIPS（联邦信息处理标准）的算法进行加密密钥交换。 有关 FIPS 实现的详细信息，请参阅[联邦信息处理标准（FIPS）出版物 140-2](/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide)。
 
 ### <a name="user-and-client-authentication"></a>用户和客户端身份验证
 
@@ -164,7 +164,7 @@ Teams 使用符合 FIPS（联邦信息处理标准）的算法进行加密密钥
 
 身份验证是向受信任的服务器或服务提供用户凭据的过程。 Teams 使用以下身份验证协议，具体取决于用户的状态和位置。
 
-- **新式身份验证 (MA)** 是 Microsoft 为实现客户端到服务器的通信而实施 OAUTH 2.0 的过程。 它支持众多安全功能，如多重身份验证和条件访问等。 为了使用 MA，需要为 MA 同时启用联机租户和客户端。 无论是电脑和移动设备上的 Teams 客户端还是 Web 客户端[均支持 MA](https://docs.microsoft.com/microsoftteams/sign-in-teams)。
+- **新式身份验证 (MA)** 是 Microsoft 为实现客户端到服务器的通信而实施 OAUTH 2.0 的过程。 它支持众多安全功能，如多重身份验证和条件访问等。 为了使用 MA，需要为 MA 同时启用联机租户和客户端。 无论是电脑和移动设备上的 Teams 客户端还是 Web 客户端[均支持 MA](./sign-in-teams.md)。
 
 > [!NOTE]
 > 如果你需要重温 Azure AD 身份验证和授权方法的知识，本文的简介和“Azure AD 中的身份验证基础知识”部分将有所帮助。
@@ -183,7 +183,7 @@ Teams 身份验证是通过 Azure AD 和 OAuth 完成的。 身份验证过程�
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>在 Internet 边界配置对 Teams 的访问
 
-为了使 Teams 正常运行（使用户能够加入会议等），客户需要配置自己的 Internet 访问权限，以便允许对 Teams 云中服务的出站 UDP 和 TCP 通信。 有关更多详细信息，请参阅以下内容：[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
+为了使 Teams 正常运行（使用户能够加入会议等），客户需要配置自己的 Internet 访问权限，以便允许对 Teams 云中服务的出站 UDP 和 TCP 通信。 有关更多详细信息，请参阅以下内容：[Office 365 URL 和 IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)。
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 和 TCP 443
 
@@ -240,7 +240,7 @@ Teams 让企业用户能够创建和加入实时会议。 企业用户还可以�
 组织者也可以配置设置，让拨入呼叫方成为加入会议的第一个人员。 此设置在用户的“音频会议”设置中进行配置，并且将应用于用户计划的所有会议。
 
 > [!NOTE]
-> 有关 Teams 中的来宾和外部访问的详细信息，请参阅此[文章](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)。 它介绍了来宾用户或外部用户在登录 Teams 时应该能看到和使用的功能。 <p> 如果你正在录制会议，并且想要查看有关访问内容的权限矩阵，请参阅[本文](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)及其矩阵。
+> 有关 Teams 中的来宾和外部访问的详细信息，请参阅此[文章](./communicate-with-users-from-other-organizations.md)。 它介绍了来宾用户或外部用户在登录 Teams 时应该能看到和使用的功能。 <p> 如果你正在录制会议，并且想要查看有关访问内容的权限矩阵，请参阅[本文](./tmr-meeting-recording-change.md)及其矩阵。
 
 ### <a name="participant-roles"></a>参与者角色
 
@@ -259,7 +259,7 @@ Teams 让企业用户能够创建和加入实时会议。 企业用户还可以�
 1. **属于租户的用户**：这些用户在租户的 Azure Active Directory 中拥有一个凭据。
     a. *组织中的人员* - 这些用户在租户的 Azure Active Directory 中拥有一个凭据。 *组织中的人员* 包括受邀请的来宾帐户。
     b. *远程用户* - 这些用户是从公司网络外部加入的用户。 这些用户包括在家工作或在路上工作的员工以及其他人员，如受信任供应商的员工，他们已根据服务条款方面获得企业证书。 远程用户可以创建和加入会议并担任演示者。
-。
+.
 2. **不属于租户的用户**：这些用户在租户的 Azure AD 中没有凭据。
     a. *联盟用户* - 联盟用户拥有联盟伙伴的有效凭据，因此它们被 Teams 视为已通过身份验证，但对于会议组织者租户仍是匿名的。 联盟用户可以参加会议并在他们加入会议后升格为演示者，但他们无法在与其联合的企业中创建会议。
     b. *匿名用户* - 匿名用户没有 Active Directory 标识，并且不与租户联合。
@@ -297,14 +297,14 @@ Teams 让企业用户能够创建和加入实时会议。 企业用户还可以�
 
 ## <a name="related-topics"></a>相关主题
 
-[安全团队为支持在家办公需完成的 12 大任务](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+[安全团队为支持在家办公需完成的 12 大任务](/microsoft-365/security/top-security-tasks-for-remote-work)
 
 [Microsoft 信任中心](https://microsoft.com/trustcenter)
 
-[在 Microsoft Teams 中管理会议设置](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+[在 Microsoft Teams 中管理会议设置](./meeting-settings-in-teams.md)
 
-[使用 VPN 分离隧道为远程用户优化 Microsoft 365 或 Office 365 连接性](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[使用 VPN 分离隧道为远程用户优化 Microsoft 365 或 Office 365 连接性](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [实现 VPN 拆分隧道](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [实现 VPN 拆分隧道](/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
-[Teams 中的会议录制，存储录制的位置和可访问的人员](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
+[Teams 中的会议录制，存储录制的位置和可访问的人员](./tmr-meeting-recording-change.md)

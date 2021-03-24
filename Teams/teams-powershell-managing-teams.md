@@ -13,18 +13,18 @@ ms.collection:
 description: 了解如何使用 Teams PowerShell 管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4200c23f6320e67781353e62363d588c230fceb7
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: bd302e2e5572c98e3338f0803155876e1c7689fc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756150"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094142"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>使用 Microsoft Teams PowerShell 管理 Teams
 
 本文演示如何使用 Microsoft Teams PowerShell 管理 Teams 和 Skype for Business。 
 
-将本指南与 [Microsoft Teams cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps) 和 Skype for Business [cmdlet 参考结合使用](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
+将本指南与 [Microsoft Teams cmdlet 参考](/powershell/teams/?view=teams-ps) 和 Skype for Business [cmdlet 参考结合使用](/powershell/skype/intro?view=skype-ps)。
 
 ## <a name="create-and-manage-teams-using-powershell"></a>使用 PowerShell 创建和管理团队
 
@@ -43,9 +43,9 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 > [!NOTE]
 > - Skype for Business Online 连接器正在整合到 Teams PowerShell 中。 它目前以公共预览版提供。 随后，适用于 Teams 的 Skype for Business Online cmdlet 将在 Teams PowerShell 模块中本机提供。 安装步骤可在安装 [Teams PowerShell](teams-powershell-install.md) 一文获得。
 >
-> - 连接到 Skype for Business Online 后，这些 cmdlet 将在 PowerShell 会话中可用。 有关详细信息，请参阅使用 [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)管理 Skype for Business Online。
+> - 连接到 Skype for Business Online 后，这些 cmdlet 将在 PowerShell 会话中可用。 有关详细信息，请参阅使用 [Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)管理 Skype for Business Online。
 
-在 Skype for Business cmdlet 模块 中查找用于管理策略[的 cmdlet。](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
+在 Skype for Business cmdlet 模块 中查找用于管理策略[的 cmdlet。](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
 
 策略是一组设置，可以精细地应用于单个用户。 每个策略类型都有其自己的一组 cmdlet，用于创建、查看、删除和更新策略本身，然后将这些策略分配给用户。 一般结构为：
 
@@ -72,7 +72,7 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 ## <a name="manage-configurations-via-powershell"></a>通过 PowerShell 管理配置
 
-在 Skype for Business cmdlet 模块 中查找用于管理配置的[cmdlet。](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
+在 Skype for Business cmdlet 模块 中查找用于管理配置的[cmdlet。](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
 
 配置是服务中维护的设置存储桶，无法以用户级别指定。 设置始终应用于整个组织。 全局配置是组织中唯一有效的配置。 每个配置类型附带两个主要 cmdlet：
 
@@ -91,8 +91,8 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 
 [Teams PowerShell 发行说明](teams-powershell-release-notes.md)
 
-[Teams cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Teams cmdlet 参考](/powershell/teams/?view=teams-ps)
 
-[Skype for Business cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Skype for Business cmdlet 参考](/powershell/skype/intro?view=skype-ps)
 
 [使用 Teams 管理员角色管理 Teams](using-admin-roles.md)

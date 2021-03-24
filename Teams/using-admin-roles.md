@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: 了解如何使用管理角色指定需要不同访问权限级别的管理员来管理 Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11f771f355b3be7c34dd3715d760c6968bb1f7ea
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 201cc1d73166825d729b4581d183ea58cfda64af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874632"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093732"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft Teams 管理员角色管理 Teams
 
@@ -50,17 +50,17 @@ ms.locfileid: "50874632"
 | Teams 设备管理员              | 管理配置为与 Teams 服务一起使用的设备。                    | 管理设备配置和更新、查看已连接外围设备的设备运行状况和状态、设置和应用配置文件，以及重新启动设备。<p>Teams 设备管理员角色不提供对呼叫质量数据或呼叫分析的访问权限。 若要查看呼叫质量数据或呼叫分析，需要为用户分配 Teams 通信管理员角色。 |
 
 <sup>1</sup> [PowerShell - Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/) 模块 (公共版本 1.1.6 或更高版本与 Skype for Business Online Connector.) <br>
-<sup>2</sup> [Microsoft Teams 管理中心](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>2</sup> [Microsoft Teams 管理中心](./manage-teams-skypeforbusiness-admin-center.md)
 <!-- <sup>3</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 <sup>4</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
-有关可用于管理 Microsoft Teams 的管理工具详细信息，请参阅[管理 Microsoft Teams。](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+有关可用于管理 Microsoft Teams 的管理工具详细信息，请参阅[管理 Microsoft Teams。](./manage-teams-skypeforbusiness-admin-center.md)
 
 有关适用于 Teams 的限制、规范和其他要求详细信息，请参阅 Microsoft Teams [的限制和规范](limits-specifications-teams.md)。
 
 ## <a name="assign-users-to-each-role"></a>将用户分配到每个角色
 
-可以将用户分配到 Azure AD 中的这些角色。 若要了解如何在 Azure AD 中向用户分配管理角色，请参阅在 Azure Active Directory 中将用户 [分配到管理员角色](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
+可以将用户分配到 Azure AD 中的这些角色。 若要了解如何在 Azure AD 中向用户分配管理角色，请参阅在 Azure Active Directory 中将用户 [分配到管理员角色](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
 
 ## <a name="cmdlets-available-for-each-role"></a>可用于每个角色的 Cmdlet
 
@@ -75,5 +75,5 @@ Get-Command -Module MicrosoftTeams
 ### <a name="related-topics"></a>相关主题
 
 - [Microsoft Teams PowerShell 概述](teams-powershell-overview.md)
-- [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-- [在 Microsoft Teams 中分配团队所有者和成员](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
+- [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)
+- [在 Microsoft Teams 中分配团队所有者和成员](./assign-roles-permissions.md)

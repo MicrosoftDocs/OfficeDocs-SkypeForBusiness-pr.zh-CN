@@ -19,24 +19,24 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 本文介绍来宾可用的 Microsoft Teams 功能。
-ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661887"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092080"
 ---
 # <a name="guest-experience-in-teams"></a>Teams 中的来宾体验
 
-当邀请来宾加入团队时，他们将收到欢迎电子邮件。 此消息包含有关团队的一些信息，以及现在他们成为成员后预期的结果。 来宾必须接受邀请，在电子邮件中选择"打开 **Microsoft Teams"，** 然后他们才能访问团队及其频道。
+当来宾受邀加入团队时，他们将收到欢迎电子邮件。 此消息包含有关团队的一些信息，以及成为成员后期望获得的信息。 来宾必须接受邀请，在电子邮件中选择"打开 **Microsoft Teams"，** 然后他们才能访问团队及其频道。
     
 ![显示欢迎电子邮件示例的屏幕截图](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记表示团队中的来宾数，每个来宾的姓名旁边会显示 (来宾) 标签。 
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记指示团队中的来宾数， (来宾) **标签显示在** 每个来宾的姓名旁边。
 
 ![显示标记的屏幕截图，指示团队中的来宾数](media/guest-experience-image2.png)
 
-观看以下有关 Teams 中的来宾体验的视频：
+查看以下有关 Teams 中的来宾体验的视频：
 - [作为来宾加入团队](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [与来宾一起加入 Teams 会议](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
@@ -60,7 +60,7 @@ ms.locfileid: "49661887"
 |创建会议或访问计划  <br/> |&#x2713;||
 |访问 OneDrive for Business 存储  <br/> |&#x2713;||
 |创建租户范围和团队/频道来宾访问策略  <br/> |&#x2713;||
-|邀请 Microsoft 365 或 Office 365 组织域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |&#x2713;||
+|邀请 Microsoft 365 或 Office 365 组织的域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |&#x2713;||
 |创建团队  <br/> |&#x2713;||
 |发现和加入公用团队  <br/> |&#x2713;||
 |查看组织结构图  <br/> |&#x2713;||
@@ -74,10 +74,10 @@ ms.locfileid: "49661887"
 | VOIP 呼叫 | 是 | 是 | 是 |
 | 群组通话 | 是 | 是 | 是 |
 | 受支持的核心通话控件（保留、静音、打开/关闭视频、屏幕共享） | 是 | 是 | 是 |
-| 转接目标 | 是 | 必需 | 是 |
-| 电话可转接 | 是 | 必需 | 是 |
-| 可协商转接 | 是 | 必需 | 是 |
-| 可通过 VOIP 将其他用户添加到通话中 | 是 | 必需 | 是 |
+| 转接目标 | 是 | 是 | 是 |
+| 电话可转接 | 是 | 是 | 是 |
+| 可协商转接 | 是 | 是 | 是 |
+| 可通过 VOIP 将其他用户添加到通话中 | 是 | 是 | 是 |
 | 可通过电话号码将用户添加到通话中 | 否 | 否 | 是 |
 | 转发目标 | 否 | 是 | 是 |
 | 通话群组目标 | 否 | 是 | 是 |
@@ -100,13 +100,13 @@ ms.locfileid: "49661887"
 <sup>1</sup>即将推出此功能。
 
 > [!NOTE]
-> Azure AD **门户** 中的 Azure Active Directory (访问) 策略确定目录中来宾的权限。 有三种政策选择。
+> Azure AD **(** Azure AD) Azure Active Directory 中的来宾用户访问限制策略确定目录中来宾的权限。 有三种政策选择。
 >  - "**来宾用户拥有与成员（最包容）相同的访问权限**"设置表示来宾与目录中的普通用户一样具有相同的目录数据访问权限。
 >  - "**来宾用户对目录对象的属性和成员身份拥有有限的访问权限** "设置表示来宾对某些目录任务没有权限，如枚举用户、组或其他使用 Microsoft Graph的目录资源。
 >  - "**来宾用户访问权限仅限于其自己的目录对象属性和成员身份（最严格）**"设置表示来宾仅可访问自己的目录对象。
 >
->要了解详细信息，请参阅[Azure Active Directory 中的默认用户权限是什么？?](https://go.microsoft.com/fwlink/?linkid=2135493)
+>要了解详细信息，请参阅[Azure Active Directory 中的默认用户权限是什么？?](/azure/active-directory/fundamentals/users-default-permissions)
 
 ## <a name="related-topics"></a>相关主题
 
-[将组织保留为来宾](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[将组织保留为来宾](/azure/active-directory/b2b/leave-the-organization)

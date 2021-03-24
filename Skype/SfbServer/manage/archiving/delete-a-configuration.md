@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 摘要：了解如何删除 Skype for Business Server 中的存档配置。
-ms.openlocfilehash: a9d24a17ec769f5686502beb325e021c8b0f39c3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 43913485ce18660b6c7fa7ce747ceeaaebd49923
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817622"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095406"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>删除 Skype for Business Server 中的存档配置
 
 **摘要：** 了解如何删除 Skype for Business Server 中的存档配置。
   
-您可以删除站点配置或池配置，但无法删除全局配置。 如果删除全局配置，该配置将自动重置为默认值。
+可以删除站点配置或池配置，但无法删除全局配置。 如果删除全局配置，该配置将自动重置为默认值。
   
 ## <a name="delete-an-archiving-configuration-by-using-the-control-panel"></a>使用控制面板删除存档配置
 
@@ -35,10 +35,10 @@ ms.locfileid: "49817622"
     
 3. 在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。
     
-4. 在存档配置列表中，单击要删除的站点或池配置，再单击"编辑"，然后单击"**删除"。**
+4. 在存档配置列表中，单击要删除的站点或池配置，再单击"编辑"，然后单击"删除 **"。**
     
     > [!NOTE]
-    > 还可以单击"全局"配置，但仅在希望将全局配置重置为默认值时选择此选项。 
+    > 还可以单击"全局"配置，但仅在希望将"全局"配置重置为默认值时选择此选项。 
   
 5. 单击“提交”。
     
@@ -46,7 +46,7 @@ ms.locfileid: "49817622"
 
 您还可以使用 **Remove-CsArchivingConfiguration** cmdlet 删除存档配置。
   
-例如，以下命令将删除应用于 Redmond 站点的存档配置设置。 删除在站点范围配置的策略后，之前由站点策略管理的用户将自动受到全局存档策略的管理：
+例如，以下命令可删除应用于 Redmond 站点的存档配置设置。 删除在站点范围配置的策略后，之前由站点策略管理的用户将自动受到全局存档策略的管理：
   
 ```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
@@ -70,4 +70,4 @@ Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $Fal
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-有关详细信息，请参阅 [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Remove-CsArchivingConfiguration](/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet 的帮助主题。

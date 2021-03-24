@@ -13,12 +13,12 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: e5526a7a7d782b8a30edd5b5169c3ba78953cc7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874802"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094152"
 ---
 # <a name="install-microsoft-teams-powershell"></a>安装 Microsoft Teams PowerShell
 
@@ -161,6 +161,6 @@ Uninstall-Module MicrosoftTeams
 
 [Teams PowerShell 发行说明](teams-powershell-release-notes.md)
 
-[Microsoft Teams cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet 参考](/powershell/teams/?view=teams-ps)
 
-[Skype for Business cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Skype for Business cmdlet 参考](/powershell/skype/intro?view=skype-ps)

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d49b27de8fe6c6d13ef6ac626764b13e1fe36a0
-ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
-ms.translationtype: HT
+ms.openlocfilehash: 29cf3f6816b3c1e0b00026b1ba4ad961a6a92aa6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871011"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093536"
 ---
 # <a name="manage-user-access-to-teams"></a>管理对 Teams 的用户访问
 
@@ -46,11 +46,11 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 > 管理员必须拥有全局管理员或用户管理管理员权限，才能管理 Microsoft Teams 许可证。
 使用 Microsoft 365 管理中心一次管理单个用户或小部分用户的 Teams 许可证。 你可以在 **“许可证”** 页面（同时最多支持 20 个用户）或 **“活动用户”** 页面上管理 Teams 许可证。 选择的方法取决于你想要管理特定用户的产品许可证还是管理特定产品的用户许可证。
 
-如果你需要为大量用户（如成百上千个用户）管理 Teams 许可证，请[使用 PowerShell ](#using-powershell) 或使用[在 Azure Active Directory (Azure AD) 中基于组的许可计划](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)。 
+如果你需要为大量用户（如成百上千个用户）管理 Teams 许可证，请[使用 PowerShell ](#using-powershell) 或使用[在 Azure Active Directory (Azure AD) 中基于组的许可计划](/azure/active-directory/users-groups-roles/licensing-groups-assign)。 
 
 ### <a name="assign-a-teams-license"></a>分配 Teams 许可证
 
-两者步骤有所不同，具体取决于你是使用 **“许可证”** 页面还是 **“活动用户”** 页面。  有关分步说明，请参阅[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+两者步骤有所不同，具体取决于你是使用 **“许可证”** 页面还是 **“活动用户”** 页面。  有关分步说明，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 |||
 |---------|---------|
@@ -58,7 +58,7 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 
 ### <a name="remove-a-teams-license"></a>删除 Teams 许可证
 
-从用户删除 Teams 许可证时，将针对该用户禁用 Teams，然后他们将不会再在应用启动器或主页中看到 Teams。 有关详细步骤，请参阅[取消分配用户许可证](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)。
+从用户删除 Teams 许可证时，将针对该用户禁用 Teams，然后他们将不会再在应用启动器或主页中看到 Teams。 有关详细步骤，请参阅[取消分配用户许可证](/microsoft-365/admin/manage/remove-licenses-from-users)。
 
 |||
 |---------|---------|
@@ -74,20 +74,20 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 
 ### <a name="assign-teams-licenses-in-bulk"></a>批量分配 Teams 许可证
 
-有关详细步骤，请参阅[使用 PowerShell 向用户帐户分配许可证](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)。
+有关详细步骤，请参阅[使用 PowerShell 向用户帐户分配许可证](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)。
 
 ### <a name="remove-teams-licenses-in-bulk"></a>批量删除 Teams 许可证
 
-有关详细步骤，请参阅[使用 PowerShell 禁止访问服务](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) 和 [在分配用户许可证时禁止访问服务](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)。
+有关详细步骤，请参阅[使用 PowerShell 禁止访问服务](/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) 和 [在分配用户许可证时禁止访问服务](/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)。
 
 #### <a name="example"></a>示例 
 
-以下示例演示了如何使用 [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) 和 [Set-MsolUserLicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) cmdlet 来为具有特定许可计划的用户禁用 Teams。 例如，请按照以下步骤操作，先为具有特定许可计划的所有用户禁用 Teams。 然后为应有权访问 Teams 的每位单独用户启用 Teams。
+以下示例演示了如何使用 [New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions) 和 [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense) cmdlet 来为具有特定许可计划的用户禁用 Teams。 例如，请按照以下步骤操作，先为具有特定许可计划的所有用户禁用 Teams。 然后为应有权访问 Teams 的每位单独用户启用 Teams。
 
 > [!IMPORTANT]
-> [New-MsolLicenseOption](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) cmdlet 将启用先前禁用的所有服务，除非在自定义脚本中显式标识。 例如，如果希望在禁用 Teams 的同时禁用 Exchange 和 Sway，则需要在脚本中包括这个，否则将同时为已标识的用户启用 Exchange 和 Sway。
+> [New-MsolLicenseOption](/powershell/module/msonline/new-msollicenseoptions) cmdlet 将启用先前禁用的所有服务，除非在自定义脚本中显式标识。 例如，如果希望在禁用 Teams 的同时禁用 Exchange 和 Sway，则需要在脚本中包括这个，否则将同时为已标识的用户启用 Exchange 和 Sway。
 
-运行以下命令，显示组织中所有可用的许可计划。 有关详细信息，请参阅[使用 PowerShell 查看许可证和服务](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)。
+运行以下命令，显示组织中所有可用的许可计划。 有关详细信息，请参阅[使用 PowerShell 查看许可证和服务](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)。
 
 
 ```powershell
@@ -111,6 +111,6 @@ Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acct
 
 - [Teams 附加许可许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [分配 Teams 附加许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)
-- [使用 PowerShell 查看许可证和服务](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
-- [用于许可的产品名称和服务计划标识符](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+- [使用 PowerShell 查看许可证和服务](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
+- [用于许可的产品名称和服务计划标识符](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [教育 SKU 参考](sku-reference-edu.md)

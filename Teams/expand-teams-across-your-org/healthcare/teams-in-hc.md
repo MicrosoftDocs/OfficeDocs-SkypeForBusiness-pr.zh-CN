@@ -26,12 +26,12 @@ description: 了解 Microsoft Teams 括号、EHR 集成、第一线工作者系�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867031"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092680"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -43,14 +43,14 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 - Teams 模板
 - 护理协调与协作
 
-此功能是 Microsoft 云用于医疗保健的一部分。 深入了解如何使用此解决方案，它汇集了 [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare)中 Azure、Dynamics 365 和 Microsoft 365 的功能。
+此功能是 Microsoft 云用于医疗保健的一部分。 深入了解如何使用此解决方案，它汇集了 [Microsoft Cloud for Healthcare](/industry/healthcare)中 Azure、Dynamics 365 和 Microsoft 365 的功能。
 
 观看以下视频，了解有关使用医疗保健集合在 Microsoft Teams 中增强运行状况团队协作有关详细信息。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> 本节中的内容假定你已在组织中部署 Teams。 如果尚未推出 Teams，首先请阅读 [Microsoft Teams](../../How-to-roll-out-teams.md)。
+> 本节中的内容假定你已在组织中部署 Teams。 如果尚未推出 Teams，首先请阅读 [Microsoft Teams](../../deploy-overview.md)。
 
 以下方案适用于医疗保健组织：
 
@@ -99,7 +99,7 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 模板
 
-开发新的用于创建 Teams 的模板可应用于医院设置，并即将推出更多模板。 通过此操作，可更轻松地创建由医疗保健人员用于协调不同部门或部门中患者护理的团队。 有关详细信息，请参阅 [医疗保健组织或组织的 Teams 模板](healthcare-templates.md)。 可针对内部部门（如流程图）或护理中心启动团队，开发中更多模板。
+开发新的用于创建 Teams 的模板可应用于医院设置，并即将推出更多模板。 通过此操作，可更轻松地创建由医疗保健人员用于协调不同部门或部门中患者护理的团队。 有关详细信息，请参阅 [医疗保健组织或组织的 Teams 模板](./healthcare-templates-admin-console.md)。 可针对内部部门（如流程图）或护理中心启动团队，开发中更多模板。
 
 ## <a name="care-coordination-and-collaboration"></a>护理协调与协作
 

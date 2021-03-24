@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 9cefe2a8558b10a6d53a6b6c49c519f9f8aa13f3
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 6ba7e86d6abd9cca8fa6745549eb85f064bdc9d1
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110335"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51094840"
 title: 常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 summary: ''
 sections:
@@ -48,10 +48,10 @@ sections:
       在 Microsoft Teams 管理中心，你将看到共存模式选项，这些选项使贵组织能够管理其所需的 Skype for Business 到 Teams 的迁移之旅。 了解有关[共存和升级模式](teams-and-skypeforbusiness-coexistence-and-interoperability.md)的详细信息。
   - question: 我应该为升级做哪些准备？
     answer: >
-      要成功升级，要验证技术就绪情况以及用户接受就绪情况。 即使你确定贵组织尚未准备好升级到 Teams，你现在仍可以开始规划过程。 此外，你可以同时启用 Teams 和 Skype for Business 以开始利用 Teams 的价值。 现在就开始进行 [Skype 到 Teams 的旅程](https://aka.ms/skypetoteams-home)。
+      要成功升级，要验证技术就绪情况以及用户接受就绪情况。 即使你确定贵组织尚未准备好升级到 Teams，你现在仍可以开始规划过程。 此外，你可以同时启用 Teams 和 Skype for Business 以开始利用 Teams 的价值。 现在就开始进行 [Skype 到 Teams 的旅程](./upgrade-start-here.md)。
 
 
-      Microsoft 还提供实时互动研讨会，我们将分享指导、最佳实践和资源，以帮助你开始升级规划和实施。 [了解升级规划研讨会](https://aka.ms/SkypeToTeamsPlanning)。
+      Microsoft 还提供实时互动研讨会，我们将分享指导、最佳实践和资源，以帮助你开始升级规划和实施。 [了解升级规划研讨会](./upgrade-workshops-landing-page.yml)。
   - question: 我的组织已在同时运行 Teams 和 Skype for Business。 是否可以直接禁用 Skype for Business？
     answer: >
       不可以，你将需要将用户切换到“仅 Teams”模式来完成到 Teams 的升级。 如果贵组织已准备好升级到 Teams，请花时间与用户沟通，让他们了解将要发生的情况，让他们可以适应 Teams。 这将有利于确保其拥有正面的升级体验，以及有利于减少拨打给技术支持人员的电话。 如需示例沟通模板，请下载我们的 [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)。
@@ -93,7 +93,7 @@ sections:
       请参阅 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)。
   - question: 将为 Teams 提供哪些 API 和 SDK？
     answer: >
-      有关可用 API 和 SDK 的信息，请访问 [Microsoft Teams 开发人员平台](https://docs.microsoft.com/microsoftteams/platform/)。
+      有关可用 API 和 SDK 的信息，请访问 [Microsoft Teams 开发人员平台](/microsoftteams/platform/)。
   - question: 你是否支持 Teams 中的第三方开发机会？
     answer: >
       支持，应用集成是采用 Teams 的主要优势之一。 我们目前支持 Teams 中的第三方聊天机器人、连接器和扩展。 此外，我们在 Microsoft Teams 应用商店中提供一个大型外接程序生态系统。
@@ -101,7 +101,7 @@ sections:
     answer: >
       所有 Microsoft 365 教育版套件许可（Microsoft A1、A3 和 A5）中均提供 Teams。
   - question: 政府社区云 (GCC) 中是否提供了 Teams？
-    answer: "是的，美国政府社区云 (GCC) 中提供了 Teams。 若要了解详细信息，请参阅 [Microsoft 365 GCC 部署规划](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc)。\n  \n"
+    answer: "是的，美国政府社区云 (GCC) 中提供了 Teams。 若要了解详细信息，请参阅 [Microsoft 365 GCC 部署规划](./plan-for-government-gcc.md)。\n  \n"
   - question: Microsoft 的联机语音功能的计划是什么？
     answer: >
       我们语音解决方案的核心是现已推出的电话系统。 客户还可以添加 Microsoft 通话套餐，它为呼叫提供全面支持，包括直接在 Microsoft 365 中进行号码获取和分配。 希望保留其电信电话干线的客户可以使用直接路由功能 – 它包含在电话系统中。 根据组织的需要将两者混合使用，以便拥有完整的语音解决方案。
@@ -113,12 +113,12 @@ sections:
       希望将自己的电话服务加入 Teams 的客户现在可以通过通用版本的[直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359)来实现。 在 Microsoft Teams 中可以选择使用直接路由和通话套餐拨打电话。
   - question: Teams 中的音频会议覆盖范围与 Skype for Business 是否不同？
     answer: >
-      由于音频会议在 Teams 中可用，因此音频会议的覆盖范围没有变化。 我们目前覆盖 90 多个国家/地区和 400 多个城市，此覆盖范围在两个产品中将继续有效。 有关当前列表，请参阅[音频会议和通话套餐的国家/地区可用性](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
+      由于音频会议在 Teams 中可用，因此音频会议的覆盖范围没有变化。 我们目前覆盖 90 多个国家/地区和 400 多个城市，此覆盖范围在两个产品中将继续有效。 有关当前列表，请参阅[音频会议和通话套餐的国家/地区可用性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   - question: Teams 是否支持第三方音频会议提供商 (ACP)？
     answer: >
       没有计划在 Teams 中支持第三方音频会议提供商 (ACP)。 我们认为，对于使用 Teams 和 Skype for Business 的客户，最佳的音频会议体验就是使用音频会议服务。 需要在 Skype for Business 会议中利用 ACP 支持的客户可以继续使用 Skype for Business 客户端加入 Skype for Business 会议。 在 Teams 中安排的会议将需要使用 Microsoft 365 的音频会议服务。 针对将第三方音频会议提供商 (ACP) 集成到 Skype for Business Online 的支持服务已延长到 2021 年 7 月 31 日，并为剩余活动租户提供有限支持，以便延长过渡时间。 这是 2018 年 4 月宣布的 ACP 时间表的更新。
   - question: 对 Teams 会议的视频互操作性支持有什么计划？
     answer: >
-      [会议室设备](https://products.office.com/microsoft-teams/across-devices)对于我们对新式工作场所的愿景至关重要。 通过现有 VTC 系统支持 Teams 会议的[云视频互操作性服务](https://docs.microsoft.com/microsoftteams/cloud-video-interop)通过我们的合作伙伴 Pexip、Polycom 和 Blue Jeans 提供。
+      [会议室设备](https://products.office.com/microsoft-teams/across-devices)对于我们对新式工作场所的愿景至关重要。 通过现有 VTC 系统支持 Teams 会议的[云视频互操作性服务](./cloud-video-interop.md)通过我们的合作伙伴 Pexip、Polycom 和 Blue Jeans 提供。
   - question: 最新一代的 Skype Room Systems v2 是否支持 Teams 中的会议？
-    answer: 我们将 Skype 会议室系统重新升级为 Microsoft Teams 会议室，它完全支持 Microsoft Teams 会议，并且只需在设备上启用 Teams，就可以轻松从 Skype for Business 迁移到 Teams。 除了允许用户使用邻近感应检测识别附近的 Microsoft Teams 会议室之外，Teams 会议还可通过单击、双屏幕支持、Microsoft Whiteboard 加入，我们将继续引入创新功能，例如具有智能捕获的内容摄像头。
+    answer: 我们将 Skype 会议室系统重新品牌更新为 Microsoft Teams 会议室，它完全支持 Microsoft Teams 会议，并且只需在设备上启用 Teams，就可以轻松从 Skype for Business 迁移到 Teams。 除了允许用户使用邻近感应检测识别附近的 Microsoft Teams 会议室之外，还可以通过单键、双屏幕支持、Microsoft Whiteboard 加入 Teams 会议，我们将继续提供创新功能，例如具有智能捕获的内容相机。

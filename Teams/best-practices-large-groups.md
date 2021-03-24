@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52b1e50cfd29aa6916f7b816f3639953d27d6526
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 9dfecde14e47992588fa13e04aa652a069f7108b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756238"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092880"
 ---
 <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>在 Microsoft Teams 中管理大型团队 - 最佳做法
 ======================================================
@@ -49,7 +49,7 @@ Microsoft Teams 在促进具有数十个成员和具有数千个成员的大型�
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>批量导入/导出/删除团队中的成员
 
-Azure 门户允许用户批量导入/导出/删除 Microsoft 365 组中的成员。 有关详细信息，请参阅批量 [导入组成员](https://docs.microsoft.com/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)。
+Azure 门户允许用户批量导入/导出/删除 Microsoft 365 组中的成员。 有关详细信息，请参阅批量 [导入组成员](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)。
 
 由于每个团队都由 Microsoft 365 组支持，因此可以使用 Azure 门户在对应于该团队的组中执行这些操作。 成员操作将在 24 小时内反映在团队中。
 

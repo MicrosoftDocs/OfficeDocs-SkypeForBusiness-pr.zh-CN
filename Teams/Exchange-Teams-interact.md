@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9790cfb186e1745d7233bf23232ac4b4a69b00e0
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: aa192472da86850a580bc981291762386f15c434
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997320"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094634"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -37,7 +37,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 在 Exchange Online 专用（旧版）上托管的用户必须同步到 Microsoft 365 或 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队与频道、添加和配置选项卡与聊天机器人以及使用聊天和通话功能。 但是，他们无法修改个人资料图片、管理会议、访问 Outlook 联系人或管理连接器。
 
 > [!IMPORTANT]
-> 为了与本地集成，强烈建议你使用 Exchange Server 2016 或更高版本进行 Exchange 完整经典混合部署。 新式混合支持仅限于忙/闲，并且不提供从 Teams 到本地邮箱的日历等集成。 有关设置混合部署的详细信息，请参阅 [Exchange Server 混合部署](https://docs.microsoft.com/exchange/exchange-hybrid)。
+> 为了与本地集成，强烈建议你使用 Exchange Server 2016 或更高版本进行 Exchange 完整经典混合部署。 新式混合支持仅限于忙/闲，并且不提供从 Teams 到本地邮箱的日历等集成。 有关设置混合部署的详细信息，请参阅 [Exchange Server 混合部署](/exchange/exchange-hybrid)。
 
 拥有本地托管邮箱的用户必须同步到 Azure Active Directory。 他们可以利用上述方案中的所有功能，但是，如果满足[本地托管的邮箱的要求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)部分中列出的要求，则他们可以管理会议。
 
@@ -64,10 +64,10 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 <sup>6</sup> 仅默认联系人文件夹中的联系人。 不支持访问其他联系人文件夹或子文件夹。
 
-<sup>7</sup> Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果在策略中关闭 **-SetPhotoEnabled** 设置，则用户无法添加、更改或删除其个人资料图片，因此，如果管理员更改了照片，则 porfile 图片不会同步到团队。
+<sup>7</sup> Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果在策略中关闭 **-SetPhotoEnabled** 设置，则用户无法添加、更改或删除其个人资料图片，因此，如果管理员更改了照片，则 porfile 图片不会同步到团队。
 <sup>8</sup> 需要满足[为本地托管的邮箱创建和查看会议的要求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)部分中列出的要求。
 
-<sup>9</sup> 还需要至少一个 Exchange Online 计划 1 许可证。 有关详细信息，请参阅 [搜索本地用户的 Teams 聊天数据](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+<sup>9</sup> 还需要至少一个 Exchange Online 计划 1 许可证。 有关详细信息，请参阅 [搜索本地用户的 Teams 聊天数据](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的要求
 
@@ -90,24 +90,24 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 
 - 需要为 Azure Active Directory 同步的用户分配所需的 Teams 许可证。
 
-- 用户必须同步到 Azure Active Directory。 有关如何使用 Azure AD Connect 与 Azure Active Directory 同步的信息，请参阅[混合标识文档](https://docs.microsoft.com/azure/active-directory/hybrid/)。
+- 用户必须同步到 Azure Active Directory。 有关如何使用 Azure AD Connect 与 Azure Active Directory 同步的信息，请参阅[混合标识文档](/azure/active-directory/hybrid/)。
 
 - 邮箱托管在 Exchange Server 2016 累积更新 3 或更高版本中。
 
 - 自动发现和 Exchange Web 服务是在外部发布的。
 
-- OAuth 身份验证最好通过运行完整混合配置（经典或新式）的 Exchange 混合配置向导进行配置。 如果无法使用混合配置向导，请按[配置 Exchange 和 Exchange Online 组织之间的 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)所述配置 OAuth。
+- OAuth 身份验证最好通过运行完整混合配置（经典或新式）的 Exchange 混合配置向导进行配置。 如果无法使用混合配置向导，请按[配置 Exchange 和 Exchange Online 组织之间的 OAuth 身份验证](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)所述配置 OAuth。
 
   > [!NOTE]
   > Exchange 信任来自 Teams 服务（称为 EvoSTS）的 OAuth 令牌。 步骤 1 应足够，但是仅 EvoSTS; ACS 用于日历中的忙/闲查找。
 
 - 设置 Azure AD Connect 中 Exchange 混合部署功能的复选框。
 
-- 对于面向 Mac 的日历应用支持和 Teams Outlook 加载项，Exchange Web 服务 Url 必须在 Exchange 服务主体的租户 Azure AD 中配置为 SPN。 此步骤可通过混合配置向导或[混合现代身份验证的以下手动步骤](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)完成。
+- 对于面向 Mac 的日历应用支持和 Teams Outlook 加载项，Exchange Web 服务 Url 必须在 Exchange 服务主体的租户 Azure AD 中配置为 SPN。 此步骤可通过混合配置向导或[混合现代身份验证的以下手动步骤](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)完成。
 
 若要为这些用户启用日历委派，请执行以下操作：
 
-- 还必须完成在 Skype for Business Online 和 Skype for Business Online 之间配置集成和 [OAuth 中所述Exchange Server;](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)这些步骤将为 Teams 计划应用程序提供确认委派权限所需的权限。
+- 还必须完成在 Skype for Business Online 和 Skype for Business Online 之间配置集成和 [OAuth 中所述Exchange Server;](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)这些步骤将为 Teams 计划应用程序提供确认委派权限所需的权限。
  
   > [!NOTE]
   > 步骤 2 包括 ArchiveApplication 的角色分配，这不是委派所必需的。
@@ -122,12 +122,12 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 
 - 使用条件访问控制和保护 Teams 和 Exchange 中合规性策略的配置。 有关详细信息，请参阅[条件访问策略如何在 Teams 中发挥作用？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- 如果你的组织具有合规性要求以确保可以发现所有会议讨论，则在组织者具有 Exchange 本地邮箱的情况下，应禁用私人会议。 有关详细信息，请参阅[允许安排私人会议](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings)。
+- 如果你的组织具有合规性要求以确保可以发现所有会议讨论，则在组织者具有 Exchange 本地邮箱的情况下，应禁用私人会议。 有关详细信息，请参阅[允许安排私人会议](./meeting-policies-in-teams.md#allow-scheduling-private-meetings)。
 
-- 在 Exchange 混合部署中，无论聊天参与者是基于云的邮箱还是本地邮箱，都可以搜索聊天消息中的内容。 若要了解详细信息，请参阅[搜索本地用户基于云的邮箱](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解如何在 Teams 中搜索内容，请阅读 [Microsoft 365 合规中心中的内容搜索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
+- 在 Exchange 混合部署中，无论聊天参与者是基于云的邮箱还是本地邮箱，都可以搜索聊天消息中的内容。 若要了解详细信息，请参阅[搜索本地用户基于云的邮箱](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解如何在 Teams 中搜索内容，请阅读 [Microsoft 365 合规中心中的内容搜索](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 
-- 对于状态，Microsoft Teams 必须检查邮箱是托管在 Exchange Online 上还是本地。 然后，该服务会决定在何处访问邮箱。 若要使 Teams 服务能够对 Exchange Online 服务进行 REST API 调用来检查邮箱位置，必须运行 Exchange 混合配置向导来部署 Exchange 混合环境，如[使用混合配置向导创建混合部署](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid)中所述。
+- 对于状态，Microsoft Teams 必须检查邮箱是托管在 Exchange Online 上还是本地。 然后，该服务会决定在何处访问邮箱。 若要使 Teams 服务能够对 Exchange Online 服务进行 REST API 调用来检查邮箱位置，必须运行 Exchange 混合配置向导来部署 Exchange 混合环境，如[使用混合配置向导创建混合部署](/exchange/hybrid-deployment/deploy-hybrid)中所述。
 
 ## <a name="troubleshooting"></a>疑难解答
 
-有关主题的完整疑难解答指南，请务必查看[解决 Microsoft Teams 和 Exchange Server 交互问题](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue)。
+有关主题的完整疑难解答指南，请务必查看[解决 Microsoft Teams 和 Exchange Server 交互问题](/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue)。

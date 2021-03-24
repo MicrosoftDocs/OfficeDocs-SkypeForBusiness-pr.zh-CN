@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 摘要：了解如何删除 Skype for Business Server 的存档策略。
-ms.openlocfilehash: 7d71fd9ca03f743cd51e0161cd1a3b437be43cb2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2baad7d862b1b6739019a4459492bfb3b67e04cc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817612"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095386"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>删除 Skype for Business Server 中的现有存档策略
 
@@ -59,4 +59,4 @@ Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 
-有关详细信息，请参阅 [Remove-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Remove-CsArchivingPolicy](/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) cmdlet 的帮助主题。

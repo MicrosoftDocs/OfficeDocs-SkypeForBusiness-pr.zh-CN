@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: 若要编辑或指定边缘服务器的外部设置，首先必须确定是否对会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务使用单独的 IP 地址。
-ms.openlocfilehash: 7bca4f934e321edbf3c32d9d075b4a1cccd2bbf6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d2589ccd8bcd3d7f7bfccd39e3adf726f8839ad8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807082"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095557"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>边缘服务器 FQDN 设置扩展器
 
-若要编辑或指定边缘服务器的外部设置，首先必须确定是否将单独的 IP 地址用于会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务。
+若要编辑或指定边缘服务器的外部设置，首先必须确定是否对会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务使用单独的 IP 地址。
 
 如果它们都要使用单独的 IP 地址，请选中 **“为 Web 会议和 A/V 启用单独的 FQDN 和 IP 地址”** 复选框。每个服务必须具有为其创建的对应域名系统 (DNS) 主机 (A) 记录。
 
@@ -38,6 +38,4 @@ ms.locfileid: "49807082"
 > [!IMPORTANT]
 > 如果对这些设置进行任何更改，包括使用单独的 FQDN 和 IP 地址或端口，则必须更新将依赖最初配置的值的其他所有服务。
 
-有关定义和配置边缘服务设置的详细信息，请参阅["定义边缘拓扑"。](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)
-
-
+有关定义和配置边缘服务设置的详细信息，请参阅 [定义边缘拓扑](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)。

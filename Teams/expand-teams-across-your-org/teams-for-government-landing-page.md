@@ -13,20 +13,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83f4f3b0fe0600c1f46da612d35f75aa67d74cc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 478f15ee880d03c13d46249ba467380e0e631254
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825312"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092400"
 ---
 # <a name="teams-for-government"></a>Teams 政府版
 
-使用这些资源了解在 Microsoft 365 政府版环境中部署 Teams 的具体注意事项。 准备就绪后，按照"如何推出 [Microsoft Teams"](../How-to-roll-out-teams.md)中概述的相同 Teams 部署路径操作。
+使用这些资源了解在 Microsoft 365 政府版环境中部署 Teams 的具体注意事项。 准备就绪后，请按照如何推出 Microsoft Teams 中概述的相同 Teams [部署路径操作](../deploy-overview.md)。
 
 |               |               |
 | ------------- | ------------- |
-| ![list-123-teams](../media/list-123-teams.svg)  |  [规划 Microsoft 365 政府版 - GCC 部署](https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc) |
-| ![tasks-teams](../media/tasks-teams.svg) | [Microsoft 365 政府版计划 - GCC（高）](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high) |
-| ![task-list-planning-teams](../media/task-list-planning-teams.svg)  |  [规划 Microsoft 365 政府版 - DOD 部署](https://docs.microsoft.com/microsoftteams/plan-for-government-dod) |
-| ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [适用于 GCC High 和 DoD 且含直接路由的音频会议](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) |
+| ![编号列表图标的屏幕截图](../media/list-123-teams.svg)  |  [规划 Microsoft 365 政府版 - GCC 部署](../plan-for-government-gcc.md) |
+| ![包含任务列表图标的剪贴板屏幕截图](../media/tasks-teams.svg) | [Microsoft 365 政府版计划 - GCC（高）](../plan-for-government-gcc-high.md) |
+| ![项目符号列表项图标的屏幕截图](../media/task-list-planning-teams.svg)  |  [规划 Microsoft 365 政府版 - DOD 部署](../plan-for-government-dod.md) |
+| ![向右箭头图标的屏幕截图](../media/arrow-right-2-teams.svg)  |  [适用于 GCC High 和 DoD 且含直接路由的音频会议](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

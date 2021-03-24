@@ -1,5 +1,5 @@
 ---
-title: 用于呼叫计划的电话号码的类型
+title: 用于呼叫计划的电话号码类型
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,47 +21,47 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
-description: 在本文中，你将了解 Microsoft 团队用于通话计划的不同电话号码类型。
-ms.openlocfilehash: c84f35f880d32f106bc8ef946930c6511b798266
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+description: 本文介绍 Microsoft Teams 用于通话计划的不同电话号码类型。
+ms.openlocfilehash: f636fa56284fe9ce7c56f3ad6380c18d3b49baff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901857"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094338"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>用于通话套餐的不同类型的电话号码
 
-Microsoft 团队根据您要使用的电话号码的目的，使用不同的电话号码类型。 团队使用可分配给组织中的用户的**用户**编号，以及分配给服务（如音频会议、自动助理或呼叫队列）的**服务**号码。 服务电话号码具有比用户数*更高的并行通话容量*。 服务电话号码可用，但将因国家/地区和号码类型（无论是收费还是免费号码）而异。 如果你需要其他或其他数字类型（在 Microsoft 团队管理中心中看到的那些号码除外），你可以将电话号码请求提交到[PSTN 服务桌面帮助](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+Microsoft Teams 使用不同的电话号码类型，具体取决于你要使用电话号码的目的。 Teams **使用** 可分配给组织中用户的用户号码和服务号码，这些号码分配给音频会议、自动助理或呼叫队列等服务。 服务电话号码的并发 *呼叫容量高于*  用户号码。 服务电话号码可用，但根据国家/地区以及号码类型 (无论是收费号码还是免费电话号码，都会) 。 如果你需要除 Microsoft Teams 管理中心中显示的电话号码外的其他号码类型或其他号码类型，你可以向 [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)服务台帮助提交电话号码请求。
   
-- **用户号码**
+- **用户编号**
     
-    用户号码分配给用户，并且有两种类型：
+    用户编号分配给用户，有两种：
     
-  - **地理号码**地理号码具有与地理区域的关系，并且是最常见的。 例如，大多数情况下，地理电话号码只能在国家/地区的特定地址、城市、省/地区内使用。
+  - **地理数字** 地理数字与地理区域有关系，并且最常见。 例如，在大多数情况下，只能在特定地址、城市、州或国家/地区内使用地理电话号码。
     
-  - **非地理号码**非地理数字是与国家/地区内的地理区域没有关系的国家数。 例如，在从国家/地区内的任何位置拨打该号码时，非地理号码通常具有相同的成本。 此外，某些国家或地区（如丹麦）仅有非地理号码可用。
+  - **非地理数字** 非地理数字是国家/地区号码，与国家/地区内的地理区域没有关系。 例如，从国家/地区中的任何位置呼叫号码时，非地理号码的成本通常相同。 此外，一些国家/地区（如丹麦）仅提供非地理数字。
     
-- **服务号码**服务号码可采用多种不同的号码类型，并且可用性因国家/地区而异。
+- **服务编号** 服务编号可用于多种不同的数字类型，可用性因国家/地区而异。
     
   - **收费服务号码**
     
-    电话服务号码可能会向呼叫者收取收费费用，有两种类型：
+    收费服务号码可能会导致呼叫者产生收费费用，有两种：
     
-      - **地理号码**地理号码与地理区域有关系。 例如，大多数情况下，地理电话号码只能在国家/地区的特定地址、城市、省/地区内使用。
+      - **地理数字** 地理数字与地理区域有关系。 例如，在大多数情况下，只能在特定地址、城市、州或国家/地区内使用地理电话号码。
         
-      - **非地理号码**非地理数字是与国家/地区内的地理区域没有关系的国家数。 例如，在从国家/地区内的任何位置拨打该号码时，非地理号码通常具有相同的成本。
+      - **非地理数字** 非地理数字是国家/地区号码，与国家/地区内的地理区域没有关系。 例如，从国家/地区中的任何位置呼叫号码时，非地理号码的成本通常相同。
    
-  - 免费**服务号码**这些服务号码通常不会向呼叫者收取收费费用。 团队在60国家/地区内提供全国免费电话号码。
+  - **免费服务号码** 这些服务号码通常不会导致呼叫者产生收费费用。 Teams 在 60 多个国家/地区提供国家/地区免费电话号码。
     
     > [!CAUTION]
-    > 某些国家/地区和原始号码类型（例如来自移动电话的通话）可能会在某些情况下向呼叫者收取收费费用。 
+    > 在某些情况下，一些国家/地区和发起号码类型（例如源自移动电话的呼叫）可能会向呼叫者收取收费费用。 
   
 > [!NOTE]
-> 如果您需要获得比这更多的电话号码，[请与 PSTN 服务支持人员联系](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+> 如果需要获取的电话号码超过此数目， [请联系 PSTN 服务台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
 ## <a name="related-topics"></a>相关主题
 
-[关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+[关于转移电话号码的常见问题](./phone-number-calling-plans/port-order-overview.md)
 
 [管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 

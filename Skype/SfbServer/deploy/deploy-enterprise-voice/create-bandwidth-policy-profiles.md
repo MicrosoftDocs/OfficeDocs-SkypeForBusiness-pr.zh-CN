@@ -16,20 +16,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 创建或修改带宽策略，这些策略企业语音 Skype for Business Server 中的呼叫允许控制。
-ms.openlocfilehash: ac80ebb8b61a763efc0077f267a024a21a359b5d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9458c5576d2c89254c4ee6477ede33c010cb4a21
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824842"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093240"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>在 Skype for Business Server 中创建带宽策略配置文件 
  
 创建或修改带宽策略，这些策略企业语音 Skype for Business Server 中的呼叫允许控制。 
   
-“带宽策略”定义对实时音频和视频内容的带宽使用量的限制。 带宽策略应用于bandwidth 策略配置文件，可以应用于多个网络站点进行呼叫允许控制。
+“带宽策略”定义对实时音频和视频内容的带宽使用量的限制。 带宽策略应用于bandwidth策略配置文件，这些策略配置文件可应用于多个网络站点以用于呼叫允许控制。
   
-有关应在 CAC 部署中设置哪些带宽限制的指南，请参阅[Plan for call admission control in Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+有关应在 CAC 部署中设置哪些带宽限制的指南，请参阅 Plan [for call admission control in Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
   
 以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。例如，5Mb_Link 带宽策略配置文件将设置以下限制： 
   
@@ -46,7 +46,7 @@ ms.locfileid: "49824842"
   
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序创建带宽策略配置文件
 
-1. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+1. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 2. 对于要创建的每个带宽策略配置文件，请运行 New-CsNetworkBandwidthPolicyProfile cmdlet。 例如，运行：
     
@@ -94,10 +94,10 @@ ms.locfileid: "49824842"
     
 ## <a name="see-also"></a>另请参阅
 
-[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[New-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Set-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
-[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[Remove-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)

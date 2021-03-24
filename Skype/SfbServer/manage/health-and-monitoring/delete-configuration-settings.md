@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
-description: 摘要：了解如何在 Skype for Business Server 中删除 CDR 配置设置。
-ms.openlocfilehash: ca6691d6a1a19e0d9219a256986b683b719da885
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解如何删除 Skype for Business Server 中的 CDR 配置设置。
+ms.openlocfilehash: 3ac961df352f26891ece9c69b7d62b37c4c015d6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816962"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095306"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>删除 Skype for Business Server 中的 CDR 配置设置的现有集合
  
@@ -25,25 +25,25 @@ ms.locfileid: "49816962"
   
 利用呼叫详细信息记录 (CDR)，可以跟踪对等即时消息会话、IP 语音 (VoIP) 电话呼叫和会议呼叫等的使用情况。此使用情况数据包含有关呼叫者、被叫方、呼叫时间及通话时长的信息。
   
-安装 Skype for Business Server 时，会创建一个 CDR 配置设置的全局集合。 管理员还可以选择创建可应用于各个站点的自定义设置集合。 根据设计，在站点范围配置的设置优先于在全局范围配置的设置。 如果您删除站点范围的设置，则在该站点中使用全局设置管理 CDR。
+安装 Skype for Business Server 时，将创建一个 CDR 配置设置的全局集合。 管理员还可以选择创建可应用于各个站点的自定义设置集合。 根据设计，在站点范围配置的设置优先于在全局范围配置的设置。 如果您删除站点范围的设置，则在该站点中使用全局设置管理 CDR。
   
 请注意，您还可以"删除"全局设置。 但将不会实际删除全局设置。 不过，该集合中的所有属性将重置为其默认值。 例如，默认情况下，在 CDR 配置设置集合中启用清除。 假定您修改了全局集合，这样就会禁用清除功能。 如果稍后删除全局设置，则会将这些属性全部重置为其默认值。 在这种情况下，这意味着又重新启用清除功能。
   
-可以使用 Skype for Business Server 控制面板或 [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet 删除 CDR 配置设置。
+可以使用 Skype for Business Server 控制面板或 [Remove-CsCdrConfiguration](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet 删除 CDR 配置设置。
   
 ### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板删除 CDR 配置设置
 
-1. 在 Skype for Business Server 控制面板中，单击 **"监控和存档"。** 
+1. 在 Skype for Business Server 控制面板中，单击"**监控和存档"。** 
     
 2. 在“呼叫详细信息记录”选项卡上，选择要删除的 CDR 设置的集合。若要删除多个集合，请单击第一个集合，然后在按住 Ctrl 键的同时单击其他集合。
     
 3. 单击“编辑”，然后单击“删除”。
     
-4. 在 Skype for Business Server 控制面板对话框中，单击"**确定"。**
+4. 在"Skype for Business Server 控制面板"对话框中，单击"确定 **"。**
     
 ## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 删除 CDR Windows PowerShell设置
 
-可以使用 Windows PowerShell **和 Remove-CsCdrConfiguration** cmdlet 删除呼叫详细信息记录配置设置。 可以从 Skype for Business Server 命令行管理程序 或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。
+可以通过使用 Windows PowerShell **和 Remove-CsCdrConfiguration** cmdlet 删除呼叫详细信息记录配置设置。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>删除指定的 CDR 配置设置集合
 
@@ -69,9 +69,8 @@ ms.locfileid: "49816962"
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 
-有关详细信息，请参阅 [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Remove-CsCdrConfiguration](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) cmdlet 的帮助主题。
   
 ## <a name="see-also"></a>另请参阅
 
 [在 Skype for Business Server 中手动清除呼叫详细信息记录和用户体验质量数据库](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
-

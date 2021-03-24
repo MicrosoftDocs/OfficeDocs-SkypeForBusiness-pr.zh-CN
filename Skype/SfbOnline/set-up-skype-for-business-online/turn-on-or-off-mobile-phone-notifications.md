@@ -19,20 +19,20 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
-description: 了解如何打开或关闭移动电话通知，以便你的用户可以接收有关传入、语音邮件和错过的即时消息的通知。
-ms.openlocfilehash: f508c106d2ce2e95d8c7763e3360960beccfc958
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+description: 了解如何打开或关闭移动电话通知，以便用户可以接收有关传入、语音邮件和错过的即时消息的警报。
+ms.openlocfilehash: 4eefd581da09c2767c0ab44b514d33e7a3fb4d8c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739210"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093340"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>打开或关闭移动电话通知
 
 > [!IMPORTANT]
-> Microsoft 团队管理中心已将 Skype for Business 管理中心替换 (旧版门户) 。 管理 Skype for Business 的所有设置现在均位于团队管理中心。 若要了解详细信息，请参阅 [在 Microsoft 团队管理中心中管理 Skype For business 设置](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)。
+> Microsoft Teams 管理中心已取代 Skype for Business 管理中心 (旧版门户) 。 管理 Skype for Business 的所有设置现在都位于 Teams 管理中心。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
-作为你的组织的 **[Microsoft 365 应用中的 "分配管理员" 角色](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** ，你可以选择 Skype for business 用户在其移动电话或平板电脑上时是否收到有关传入和错过的即时消息的通知。
+作为为组织分配的 **[Microsoft 365 应用商业](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 版中的管理员角色，你可以选择你的 Skype for Business 用户是否在移动电话或平板电脑上收到有关传入和错过的即时消息的警报。
   
 在 Android 和 Windows Phone 上，将实时弹出 Skype for Business 通知。但是，在 Windows Phone、iPhone 和 iPad 设备上，当你没有在手机或平板电脑上主动使用 Skype for Business 时，则使用推送通知来显示通知。
   
@@ -43,7 +43,7 @@ ms.locfileid: "48739210"
 
 1. 登录到 Microsoft 365。
     
-2. 转到 "管理中心" > " **Skype For business**"。
+2. 转到 Skype for Business > **管理中心**。
     
 3. Go to **Organization** > **General**. 
     
@@ -58,11 +58,10 @@ ms.locfileid: "48739210"
 - 当关闭推送通知时，用户将无法再打开推送通知。
     
 > [!IMPORTANT]
->  [!重要信息] Microsoft 通过其他公司为 Windows Phone、iPhone 和 iPad 用户提供实时的 Skype for Business 移动电话通知。 请参阅 [Microsoft Skype For Business 产品的隐私声明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
+>  [!重要信息] Microsoft 通过其他公司为 Windows Phone、iPhone 和 iPad 用户提供实时的 Skype for Business 移动电话通知。 请参阅 [Microsoft Skype for Business 产品的隐私声明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
   
 ## <a name="related-topics"></a>相关主题
 
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
   
- 

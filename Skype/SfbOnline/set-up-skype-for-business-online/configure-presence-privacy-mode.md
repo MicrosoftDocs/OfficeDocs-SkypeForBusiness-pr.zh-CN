@@ -19,32 +19,32 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
-description: '了解如何为你的用户设置隐私模式，以便他们能够更好地控制用户查看其可用性的方式。 '
-ms.openlocfilehash: a2b4ed11f1d56927a4bc7eed6ce36b5b04411509
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+description: '了解如何为用户设置隐私模式，以便他们可以更好地控制用户查看其可用性的方式。 '
+ms.openlocfilehash: 0b708c86d2693228ad7a613755a181fff5b3743d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753437"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093466"
 ---
 # <a name="configure-presence-privacy-mode"></a>配置状态隐私模式
 
 > [!IMPORTANT]
-> Microsoft 团队管理中心已将 Skype for Business 管理中心替换 (旧版门户) 。 管理 Skype for Business 的所有设置现在均位于团队管理中心。 你必须分配有全局管理员或 Skype for Business 管理员的 [AZURE AD 管理员角色](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) ，才能在团队管理中心中管理 Skype for business 功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)。
+> Microsoft Teams 管理中心已取代 Skype for Business 管理中心 (旧版门户) 。 管理 Skype for Business 的所有设置现在都位于 Teams 管理中心。 必须分配全局管理员或 Skype for Business 管理员 [的 Azure AD](/azure/active-directory/roles/permissions-reference) 管理员角色，才能在 Teams 管理中心管理 Skype for Business 功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
-Skype for Business Online 状态设置使用户可以更好地控制哪些人可以查看他们的可用、会议或外出。 有关 Skype for business 状态和隐私设置的详细信息，请参阅 [在 Skype For Business Online 中配置状态](configure-presence-in-skype-for-business-online.md)。 
+Skype for Business Online 状态设置使用户可以更加控制谁可以看到他们是否在线、正在参加会议还是外出。 有关 Skype for Business 状态和隐私设置的详细信息，请参阅 [在 Skype for Business Online 中配置状态](configure-presence-in-skype-for-business-online.md)。 
   
-## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>为组织中的每个人选择默认的联机状态设置
+## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>为组织中的每个人选择默认联机状态设置
 <a name="__top"> </a>
 
-1. 转到 Skype for Business Online 管理中心 > **组织 > "常规**"。
+1. 转到 Skype for Business Online 管理中心 **>">常规"。**
     
-2. 在 " **状态隐私模式**" 下，选择设置，然后单击 " **保存**"。
+2. 在 **"状态隐私模式**"下，选择设置，然后单击"保存 **"。**
     
-|**设置**|**谁可以查看用户的状态**|
+|**设置**|**可以查看用户状态的用户**|
 |:-----|:-----|
-|**自动显示联机状态信息** <br/> |任何不属于 " **外部** " 或 "已 **阻止** " 隐私组的 Skype for business 用户。 <br/> |
-|**仅向用户的联系人显示状态信息** <br/> |用户联系人列表中任何不属于 " **外部** " 或 "已 **阻止** " 隐私组的人。 <br/> 单个用户可在 "Skype for Business **选项** " 对话框中更改此设置。 <br/> |
+|**自动显示联机状态信息** <br/> |不属于外部或阻止隐私 **组** 的任何 Skype for Business用户。 <br/> |
+|**仅向用户的联系人显示状态信息** <br/> |用户联系人列表中不属于"外部"或"阻止 **"隐私组的****任何人。** <br/> 单个用户可以在"Skype for Business 选项"对话框中 **更改** 此设置。 <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
@@ -52,4 +52,3 @@ Skype for Business Online 状态设置使用户可以更好地控制哪些人可
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

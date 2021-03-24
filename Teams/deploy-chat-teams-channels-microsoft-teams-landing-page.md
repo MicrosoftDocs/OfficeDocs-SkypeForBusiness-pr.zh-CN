@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: cefcb240e27f5934538c88f5316181be25f24a60
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: a5cf7c91ef3b0e91504753a1e04ed334f4132adc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031228"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094358"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -66,7 +66,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 | 询问你自己 | 操作 |
 |--------------|--------|
 |将为谁分配 Teams 通信管理员角色？|若要详细了解 Teams 管理员角色，请参阅[使用 Microsoft Teams 管理员角色来管理 Teams](using-admin-roles.md)。|
-|将为谁分配 Teams 通信支持工程师角色？|若要分配管理员角色，请参阅[使用 Active Directory 为用户分配管理员和非管理员角色](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
+|将为谁分配 Teams 通信支持工程师角色？|若要分配管理员角色，请参阅[使用 Active Directory 为用户分配管理员和非管理员角色](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
 |将为谁分配 Teams 通信支持专家角色？||
 |||
 
@@ -88,7 +88,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 |------------|-------|
 |是否要自定义全局消息策略？|有关使用 Microsoft Teams 管理中心来更改全局消息策略或添加新策略的信息，请参阅[在 Teams 中管理消息策略](messaging-policies-in-teams.md)。|
 |是否需要多个消息策略？|若要在 PowerShell 中创建和分配消息策略，请参阅 [PowerShell 脚本示例 - 创建和分配消息策略](scripts/powershell-script-teams-messaging-policy-edu.md)。|
-|如何确定哪些用户组获取哪些消息策略？|若要了解 CsTeamsMessagingPolicy cmdlet，请参阅 [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。|
+|如何确定哪些用户组获取哪些消息策略？|若要了解 CsTeamsMessagingPolicy cmdlet，请参阅 [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。|
 ||| 
 
 ### <a name="external-access"></a>外部访问
@@ -102,7 +102,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 ### <a name="guest-access"></a>来宾访问权限
 
-Teams 中的来宾访问可让组织外部的个人访问团队和频道。可以使用来宾访问设置来控制来宾用户能够使用或无法使用哪些功能。默认情况下会关闭来宾访问。若要了解详细信息，请参阅 [Teams 中的来宾访问](https://docs.microsoft.com/microsoftteams/guest-access)。
+Teams 中的来宾访问可让组织外部的个人访问团队和频道。可以使用来宾访问设置来控制来宾用户能够使用或无法使用哪些功能。默认情况下会关闭来宾访问。若要了解详细信息，请参阅 [Teams 中的来宾访问](./guest-access.md)。
 
 > [!NOTE]
 > 有关外部访问和来宾访问的详细信息，请参阅此处 — [与 Microsoft Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)
@@ -135,11 +135,11 @@ Teams 支持从 Web 到桌面直至移动客户端的多种客户端，默认配
 
 ### <a name="teams-usage-reporting"></a>Teams 使用情况报告
 
-全局管理员、Teams 服务管理员和报表阅读者角色可以查看 Teams 使用情况报告。若要了解详细信息，请参阅 [Microsoft 365 使用情况分析](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics)。
+全局管理员、Teams 服务管理员和报表阅读者角色可以查看 Teams 使用情况报告。若要了解详细信息，请参阅 [Microsoft 365 使用情况分析](/microsoft-365/admin/usage-analytics/usage-analytics)。
 
 |询问你自己|操作 |
 |------------|-------|
-|<br> 谁需要查看 Teams 使用情况报告，他们是否有查看这些报告的正确角色？ |<ul><li>如果用户不是管理员，请[分配报告阅读者角色](teams-activity-reports.md#reports-reader-role)。</li><li>请参阅[角色和权限](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)以及[查看和分配角色](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)，了解如何在 Azure Active Directory 中分配管理员角色。 |
+|<br> 谁需要查看 Teams 使用情况报告，他们是否有查看这些报告的正确角色？ |<ul><li>如果用户不是管理员，请[分配报告阅读者角色](teams-activity-reports.md#reports-reader-role)。</li><li>请参阅[角色和权限](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)以及[查看和分配角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)，了解如何在 Azure Active Directory 中分配管理员角色。 |
 |||
 
 ### <a name="teams-default-apps"></a>Teams 默认应用 
@@ -154,11 +154,11 @@ Teams 提供一些第一方（Microsoft 提供）和第三方应用来吸引用�
 
 ### <a name="teams-licensing"></a>Teams 许可
 
-Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。若要了解有关 Teams 许可的详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。若要了解有关 Teams 许可的详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
 
 |询问你自己|操作 |
 |------------|-------|
-|我的用户是否有使用要部署的所有 Teams 功能所需的许可证？ | 若要了解有关许可要求的信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。|
+|我的用户是否有使用要部署的所有 Teams 功能所需的许可证？ | 若要了解有关许可要求的信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。|
 |||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 和 SharePoint 互操作性
@@ -181,7 +181,7 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。�
 
 ### <a name="urls-and-ports"></a>URL 和端口
 
-对其 Internet 流量保持精细控制的组织应阅读 [URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)，了解必须为 Teams 正确配置的 URL、IP 地址、端口和协议的最新列表。Microsoft 一直在改进 Microsoft 365 和 Office 365 服务并添加新功能，因此，所需端口、URL 和 IP 地址可能会随时间变化。建议你通过 RSS 订阅，以在此信息更新或更改时收到通知。至少需确保你已打开在上述[聊天部署先决条件](#chat-deployment-prerequisites)中列出的端口。
+对其 Internet 流量保持精细控制的组织应阅读 [URL 和 IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)，了解必须为 Teams 正确配置的 URL、IP 地址、端口和协议的最新列表。Microsoft 一直在改进 Microsoft 365 和 Office 365 服务并添加新功能，因此，所需端口、URL 和 IP 地址可能会随时间变化。建议你通过 RSS 订阅，以在此信息更新或更改时收到通知。至少需确保你已打开在上述[聊天部署先决条件](#chat-deployment-prerequisites)中列出的端口。
 
 |询问你自己|操作 |
 |------------|-------|
@@ -196,7 +196,7 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。�
 | 询问你自己 | 操作 |
 |--------------|--------|
 |是否需要对谁可以创建团队进行控制？| 请阅读[在 Teams 中规划管理](plan-teams-governance.md)。|
-|是否需要对团队的命名方式进行控制？|请阅读[在 Azure AD 中为 Microsoft 365 组实施命名策略](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。|
+|是否需要对团队的命名方式进行控制？|请阅读[在 Azure AD 中为 Microsoft 365 组实施命名策略](/azure/active-directory/users-groups-roles/groups-naming-policy)。|
 |||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 应用程序策略（侧边栏控制）
@@ -226,7 +226,7 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。�
 
 | 询问你自己 | 操作 |
 |--------------|--------|
-|<br>是否需要为 Teams 配置条件访问？|<ul><li>若要了解访问策略的工作方式，请参阅[条件访问策略如何在 Teams 中发挥作用？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>若要为 Teams 设置多重身份验证 (MFA)，请参阅：<ul><li>[快速入门：具有 Azure Active Directory 条件访问权限的特定应用需要 MFA](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 条件访问设置参考](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>是否需要为 Teams 配置条件访问？|<ul><li>若要了解访问策略的工作方式，请参阅[条件访问策略如何在 Teams 中发挥作用？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>若要为 Teams 设置多重身份验证 (MFA)，请参阅：<ul><li>[快速入门：具有 Azure Active Directory 条件访问权限的特定应用需要 MFA](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 条件访问设置参考](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 

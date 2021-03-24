@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 摘要：了解 Skype for Business Server 中的诊断报告。
-ms.openlocfilehash: 89639c0c00081fa4dd01211cc33074585061ff57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816892"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095236"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server 中的诊断报告
  
@@ -33,19 +33,19 @@ ms.locfileid: "49816892"
     
 ## <a name="accessing-the-diagnostic-report"></a>访问诊断报告
 
-可通过单击 [Skype for Business Server](peer-to-peer-session-detail-report.md) 中的对等会话详细信息报告或会议详细信息报告的诊断报告 (详细信息) 指标来访问诊断报告。
+通过单击 [Skype for Business Server](peer-to-peer-session-detail-report.md) 中的点对点会话详细信息报告或会议详细信息报告的诊断报告 (详细信息) 指标可以访问诊断报告。
   
 ## <a name="filters"></a>筛选器
 
 无。您不能对诊断报告进行筛选。
   
-## <a name="metrics"></a>指标
+## <a name="metrics"></a>度量标准
 
 下表列出了各会话的诊断报告中提供的信息。
   
 **诊断报告指标**
 
-|**名称**|**是否可按此项排序？**|**说明**|
+|**名称**|**是否可按此项排序？**|**描述**|
 |:-----|:-----|:-----|
 |**报告时间** <br/> |否  <br/> |记录报告的日期和时间。  <br/> |
 |**响应代码** <br/> |否  <br/> |会话失败时发送的 SIP 响应代码。  <br/> |
@@ -60,6 +60,4 @@ ms.locfileid: "49816892"
 |**会议加入时间（毫秒）** <br/> |否  <br/> |用户加入会议所需的时间量（以毫秒为单位）。  <br/> |
 |**诊断标头** <br/> |否  <br/> |诊断 ID 描述  <br/> |
    
-可在 [Ms-Diagnostics](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)标头页上找到诊断错误列表。
-  
-
+可在 [Ms-Diagnostics](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3)标头页上找到诊断错误列表。
