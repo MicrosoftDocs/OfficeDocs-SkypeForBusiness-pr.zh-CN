@@ -19,41 +19,41 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ec03bd5ca416bd0780225529dad2a6254580396d
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: e8e9a7776058803f49364887cabd6b54a9040cb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726243"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097558"
 ---
-# <a name="microsoft-teams-training"></a><span data-ttu-id="b9859-103">Microsoft Teams 培训</span><span class="sxs-lookup"><span data-stu-id="b9859-103">Microsoft Teams training</span></span>
+# <a name="microsoft-teams-training"></a><span data-ttu-id="43573-103">Microsoft Teams 培训</span><span class="sxs-lookup"><span data-stu-id="43573-103">Microsoft Teams training</span></span>
 
 |               |               |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | <span data-ttu-id="b9859-104">**[管理员培训](/microsoftteams/itadmin-readiness)**</span><span class="sxs-lookup"><span data-stu-id="b9859-104">**[Admin training](/microsoftteams/itadmin-readiness)**</span></span> </br> <span data-ttu-id="b9859-105">在这些教程、视频和其他培训资源中了解 Teams 并促进其在你的组织内的使用。</span><span class="sxs-lookup"><span data-stu-id="b9859-105">Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your org.</span></span> 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | <span data-ttu-id="b9859-106">**[Teams 实时培训](/microsoftteams/instructor-led-training-teams-landing-page)**</span><span class="sxs-lookup"><span data-stu-id="b9859-106">**[Teams live training](/microsoftteams/instructor-led-training-teams-landing-page)**</span></span> </br> <span data-ttu-id="b9859-107">Microsoft 主持的免费实时在线培训课程专为帮助你使用 Teams 实现起步和发展。</span><span class="sxs-lookup"><span data-stu-id="b9859-107">Microsoft-hosted free, live, online training classes designed to get you up and running with Teams.</span></span> <span data-ttu-id="b9859-108">加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。</span><span class="sxs-lookup"><span data-stu-id="b9859-108">Join us to see Teams in action, get your questions answered, and interact with our live instructors.</span></span> 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | <span data-ttu-id="b9859-109">**[Teams 联机培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)**</span><span class="sxs-lookup"><span data-stu-id="b9859-109">**[Teams online training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)**</span></span> </br> <span data-ttu-id="b9859-110">利用这些自学培训资源来帮助组织内部用户充分利用 Teams。</span><span class="sxs-lookup"><span data-stu-id="b9859-110">Use these self-paced training resources to help users in your get the most out of Teams.</span></span> |
+| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | <span data-ttu-id="43573-104">**[管理员培训](./itadmin-readiness.md)**</span><span class="sxs-lookup"><span data-stu-id="43573-104">**[Admin training](./itadmin-readiness.md)**</span></span> </br> <span data-ttu-id="43573-105">在这些教程、视频和其他培训资源中了解 Teams 并促进其在你的组织内的使用。</span><span class="sxs-lookup"><span data-stu-id="43573-105">Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your org.</span></span> 
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | <span data-ttu-id="43573-106">**[Teams 实时培训](./instructor-led-training-teams-landing-page.yml)**</span><span class="sxs-lookup"><span data-stu-id="43573-106">**[Teams live training](./instructor-led-training-teams-landing-page.yml)**</span></span> </br> <span data-ttu-id="43573-107">Microsoft 主持的免费实时在线培训课程专为帮助你使用 Teams 实现起步和发展。</span><span class="sxs-lookup"><span data-stu-id="43573-107">Microsoft-hosted free, live, online training classes designed to get you up and running with Teams.</span></span> <span data-ttu-id="43573-108">加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。</span><span class="sxs-lookup"><span data-stu-id="43573-108">Join us to see Teams in action, get your questions answered, and interact with our live instructors.</span></span> 
+| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | <span data-ttu-id="43573-109">**[Teams 联机培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)**</span><span class="sxs-lookup"><span data-stu-id="43573-109">**[Teams online training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)**</span></span> </br> <span data-ttu-id="43573-110">利用这些自学培训资源来帮助组织内部用户充分利用 Teams。</span><span class="sxs-lookup"><span data-stu-id="43573-110">Use these self-paced training resources to help users in your get the most out of Teams.</span></span> |
 
-## <a name="dont-miss-these-key-training-offerings"></a><span data-ttu-id="b9859-111">不要错过这些关键培训服务</span><span class="sxs-lookup"><span data-stu-id="b9859-111">Don't miss these key training offerings</span></span>
+## <a name="dont-miss-these-key-training-offerings"></a><span data-ttu-id="43573-111">不要错过这些关键培训服务</span><span class="sxs-lookup"><span data-stu-id="43573-111">Don't miss these key training offerings</span></span>
 
-<span data-ttu-id="b9859-112">经常返回查看 - 我们将持续更新此列表，让你始终了解最新、最酷、最重要的 Teams 培训。</span><span class="sxs-lookup"><span data-stu-id="b9859-112">Check back frequently - we'll keep updating this list so you'll always know about the latest, coolest, most important Teams training.</span></span>
+<span data-ttu-id="43573-112">经常返回查看 - 我们将持续更新此列表，让你始终了解最新、最酷、最重要的 Teams 培训。</span><span class="sxs-lookup"><span data-stu-id="43573-112">Check back frequently - we'll keep updating this list so you'll always know about the latest, coolest, most important Teams training.</span></span>
 
 :::row:::
    :::column:::
-   <span data-ttu-id="b9859-113">**[支持远程工作人员](https://aka.ms/TeamsForRemoteWork)**</span><span class="sxs-lookup"><span data-stu-id="b9859-113">**[Support remote workers](https://aka.ms/TeamsForRemoteWork)**</span></span> </br>
-   <span data-ttu-id="b9859-114">获取所需指南，包括培训链接，为在家办公的用户提供支持。</span><span class="sxs-lookup"><span data-stu-id="b9859-114">Get the guidance you need - including links to training - to support your users who are working from home.</span></span>
+   <span data-ttu-id="43573-113">**[支持远程工作人员](./support-remote-work-with-teams.md)**</span><span class="sxs-lookup"><span data-stu-id="43573-113">**[Support remote workers](./support-remote-work-with-teams.md)**</span></span> </br>
+   <span data-ttu-id="43573-114">获取所需指南，包括培训链接，为在家办公的用户提供支持。</span><span class="sxs-lookup"><span data-stu-id="43573-114">Get the guidance you need - including links to training - to support your users who are working from home.</span></span>
 
    :::column-end:::
 
    :::column:::
-   <span data-ttu-id="b9859-115">**[面向 IT 人员的 Teams 精选资源](https://aka.ms/MicrosoftTeamsforIT)**</span><span class="sxs-lookup"><span data-stu-id="b9859-115">**[Teams Essentials for IT](https://aka.ms/MicrosoftTeamsforIT)**</span></span> </br>
-   <span data-ttu-id="b9859-116">Microsoft Mechanics“面向 IT 人员的 Teams”系列视频向作为管理员的你展示了如何部署、配置和管理 Teams。</span><span class="sxs-lookup"><span data-stu-id="b9859-116">Microsoft Mechanics "Teams for IT" video series shows you - the admin - how to roll out, configure, and manage Teams.</span></span>
+   <span data-ttu-id="43573-115">**[面向 IT 人员的 Teams 精选资源](https://aka.ms/MicrosoftTeamsforIT)**</span><span class="sxs-lookup"><span data-stu-id="43573-115">**[Teams Essentials for IT](https://aka.ms/MicrosoftTeamsforIT)**</span></span> </br>
+   <span data-ttu-id="43573-116">Microsoft Mechanics“面向 IT 人员的 Teams”系列视频向作为管理员的你展示了如何部署、配置和管理 Teams。</span><span class="sxs-lookup"><span data-stu-id="43573-116">Microsoft Mechanics "Teams for IT" video series shows you - the admin - how to roll out, configure, and manage Teams.</span></span>
 
    :::column-end:::
 
    :::column:::
-   <span data-ttu-id="b9859-117">**[团队合作](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)**</span><span class="sxs-lookup"><span data-stu-id="b9859-117">**[Teamwork](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)**</span></span> </br>
-   <span data-ttu-id="b9859-118">课程：使用 Teams 开启团队合作</span><span class="sxs-lookup"><span data-stu-id="b9859-118">Course: Enabling Teamwork with Teams</span></span>
+   <span data-ttu-id="43573-117">**[团队合作](/learn/paths/m365-manage-team-collaboration)**</span><span class="sxs-lookup"><span data-stu-id="43573-117">**[Teamwork](/learn/paths/m365-manage-team-collaboration)**</span></span> </br>
+   <span data-ttu-id="43573-118">课程：使用 Teams 开启团队合作</span><span class="sxs-lookup"><span data-stu-id="43573-118">Course: Enabling Teamwork with Teams</span></span>
 
    :::column-end:::
 
@@ -61,20 +61,20 @@ ms.locfileid: "50726243"
 
 :::row:::
    :::column:::
-   <span data-ttu-id="b9859-119">**[采用专家认证](https://aka.ms/AdoptionCert)**</span><span class="sxs-lookup"><span data-stu-id="b9859-119">**[Adoption specialist certification](https://aka.ms/AdoptionCert)**</span></span> </br>
-   <span data-ttu-id="b9859-120">Microsoft 服务采用专家认证课程以 Teams 为特色。</span><span class="sxs-lookup"><span data-stu-id="b9859-120">The Microsoft Service Adoption Specialist Certification course features Teams.</span></span> <span data-ttu-id="b9859-121">了解如何推动你所在组织采用 Microsoft 服务。</span><span class="sxs-lookup"><span data-stu-id="b9859-121">Learn how to drive adoption of Microsoft services in your org.</span></span>
+   <span data-ttu-id="43573-119">**[采用专家认证](/learn/paths/m365-service-adoption/)**</span><span class="sxs-lookup"><span data-stu-id="43573-119">**[Adoption specialist certification](/learn/paths/m365-service-adoption/)**</span></span> </br>
+   <span data-ttu-id="43573-120">Microsoft 服务采用专家认证课程以 Teams 为特色。</span><span class="sxs-lookup"><span data-stu-id="43573-120">The Microsoft Service Adoption Specialist Certification course features Teams.</span></span> <span data-ttu-id="43573-121">了解如何推动你所在组织采用 Microsoft 服务。</span><span class="sxs-lookup"><span data-stu-id="43573-121">Learn how to drive adoption of Microsoft services in your org.</span></span>
 
    :::column-end:::
 
    :::column:::
-   <span data-ttu-id="b9859-122">**[Microsoft 365 中的团队合作简介](https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index)**</span><span class="sxs-lookup"><span data-stu-id="b9859-122">**[Introduction to teamwork in Microsoft 365](https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index)**</span></span> </br>
-   <span data-ttu-id="b9859-123">了解可促进所有工作人员开展团队合作的 Microsoft 365 工具（无论它们位于何处或如何接入你的组织）。</span><span class="sxs-lookup"><span data-stu-id="b9859-123">Learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they're located or how they connect to your org.</span></span>
+   <span data-ttu-id="43573-122">**[Microsoft 365 中的团队合作简介](/learn/modules/intro-to-teamwork-in-m365/index)**</span><span class="sxs-lookup"><span data-stu-id="43573-122">**[Introduction to teamwork in Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index)**</span></span> </br>
+   <span data-ttu-id="43573-123">了解可促进所有工作人员开展团队合作的 Microsoft 365 工具（无论它们位于何处或如何接入你的组织）。</span><span class="sxs-lookup"><span data-stu-id="43573-123">Learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they're located or how they connect to your org.</span></span>
 
    :::column-end:::
 
    :::column:::
-   <span data-ttu-id="b9859-124">**[Microsoft 365 认证：团队合作管理员协会](https://www.microsoft.com/learning/m365-teamwork-administrator.aspx)**</span><span class="sxs-lookup"><span data-stu-id="b9859-124">**[Microsoft 365 Certified: Teamwork Administrator Associate](https://www.microsoft.com/learning/m365-teamwork-administrator.aspx)**</span></span> </br>
-   <span data-ttu-id="b9859-125">Microsoft 365 团队合作管理员可配置、部署和管理 Microsoft 365 或 Office 365 工作负载，如 SharePoint（联机、本地和混合版本）、OneDrive 和 Teams。</span><span class="sxs-lookup"><span data-stu-id="b9859-125">Microsoft 365 Teamwork Administrators configure, deploy, and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams.</span></span>
+   <span data-ttu-id="43573-124">**[Microsoft 365 认证：团队合作管理员协会](https://www.microsoft.com/learning/m365-teamwork-administrator.aspx)**</span><span class="sxs-lookup"><span data-stu-id="43573-124">**[Microsoft 365 Certified: Teamwork Administrator Associate](https://www.microsoft.com/learning/m365-teamwork-administrator.aspx)**</span></span> </br>
+   <span data-ttu-id="43573-125">Microsoft 365 团队合作管理员可配置、部署和管理 Microsoft 365 或 Office 365 工作负载，如 SharePoint（联机、本地和混合版本）、OneDrive 和 Teams。</span><span class="sxs-lookup"><span data-stu-id="43573-125">Microsoft 365 Teamwork Administrators configure, deploy, and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams.</span></span>
 
    :::column-end:::
 

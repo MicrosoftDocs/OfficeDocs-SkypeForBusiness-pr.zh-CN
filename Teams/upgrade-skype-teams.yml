@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: 规划从 Skype for Business 升级到 Microsoft Teams
-summary: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
+summary: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以及以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
 brand: teams
 metadata:
   title: 规划从 Skype for Business 升级到 Microsoft Teams
-  description: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
+  description: Microsoft Teams 旨在帮助用户保持连接、无缝协作，以及以安全合规的方式简化工作 - 全部在一个地方完成。 可在此处找到从 Skype for Business 成功升级到 Teams 所需的指南、培训和资源。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -22,45 +22,45 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 74cc8ce21951f3ec6aaca032f92cd1280392e992
-  ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+  ms.openlocfilehash: ffcafd40419de2c467370fed311ff94bd71bf04d
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/12/2021
-  ms.locfileid: "50196196"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51096056"
 highlightedContent:
   items:
   - title: 利用经过验证的指南成功升级
     itemType: how-to-guide
-    url: https://docs.microsoft.com/microsoftteams/upgrade-framework
+    url: ./upgrade-framework.md
   - title: 注册免费升级规划研讨会
     itemType: learn
-    url: https://aka.ms/upgradeworkshops
-  - title: 了解 Black & Veatch 在八周内如何过渡到 Teams
+    url: ./upgrade-workshops-landing-page.yml
+  - title: 了解黑& Veatch 在八周内如何过渡到 Teams
     itemType: video
     url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
 productDirectory:
-  title: 用于规划 Teams 升级成功及以后的资源
-  summary: 健康的技术环境、持续采用用户以及实现业务目标都从适当的规划开始。
+  title: 用于规划 Teams 成功升级及之后的资源
+  summary: 良好的技术环境、持续采用用户以及实现业务目标都从适当的规划开始。
   items:
   - title: Teams 升级案例
     imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
     links:
     - url: https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams
-      text: Dsm - Skype for Business Server 到 Teams
+      text: Royal DSM – Skype for Business Server to Teams
     - url: https://customers.microsoft.com/story/799203-ikea-retailers-teams
-      text: SKYPE - Skype for Business Server 到 Teams
+      text: 方式 – Skype for Business Server 到 Teams
     - url: https://customers.microsoft.com/story/782385-williams-energy-teams
-      text: Williams - Skype for Business Server 到 Teams
+      text: Williams – Skype for Business Server 到 Teams
     - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
-      text: Skype - Skype for Business Online 到 Teams
+      text: 旅行 - Skype for Business Online 到 Teams
     - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
-      text: 用户网络 - Skype for Business Online 到 Teams
+      text: 一文：将 Skype for Business Online 连接到 Teams
     - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
-      text: Berkrk healthcare - Skype for Business Online 到 Teams
+      text: Berkrk healthcare – Skype for Business Online to Teams
   - title: Ignite 会话：设计 Teams 的路径
     imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
-    summary: 来自 Ignite 2020 的此会话可帮助你找到最适合 Skype for Business 实现和目标的方法。
+    summary: Ignite 2020 的此会话可帮助你找到最适合 Skype for Business 实现和目标的方法。
     url: https://go.microsoft.com/fwlink/?linkid=2154668
   - title: 升级成功工具包
     imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
@@ -69,22 +69,22 @@ productDirectory:
   - title: Teams 管理员文档
     imageSrc: https://docs.microsoft.com/office/media/icons/document-teams.svg
     summary: 了解如何推出和管理 Teams，并为用户准备新的通信和协作体验。
-    url: https://docs.microsoft.com/MicrosoftTeams/
+    url: ./index.yml
   - title: 教师指导的 Teams 培训
     imageSrc: https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg
     summary: 免费、实时、在线的培训课程，旨在帮助你启动并运行 Teams。
-    url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
-  - title: 展开 Teams 方案
+    url: ./instructor-led-training-teams-landing-page.yml
+  - title: 扩展 Teams 方案
     imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
-    summary: 我们的 Teams 会议在线研讨会旨在帮助 IT 专业人员从 Teams 获得最大帮助。
-    url: http://aka.ms/TeamsChalkTalks
+    summary: 我们的 Teams 广告讲座在线研讨会旨在帮助 IT 专业人员从 Teams 获得最大帮助。
+    url: ./chalk-talks-landing-page.yml
   - title: Skype for Business Online 停用
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
     summary: 准备在 2021 年 7 月 31 日停用 Skype for Business Online 服务，并了解如何计划成功过渡到 Teams。
-    url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
+    url: ./skype-for-business-online-retirement.md
   - title: Microsoft Teams 博客
     imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
-    summary: 直接从 Microsoft Teams 团队了解最佳做法、新闻和趋势。
+    summary: 直接从 Microsoft Teams 背后的团队了解最佳做法、新闻和趋势。
     url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog
   - title: Teams 的总经济影响
     imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
@@ -95,7 +95,7 @@ additionalContent:
   - title: 需要其他帮助？
   - items:
     - title: 与 FastTrack 联系以寻求部署帮助
-      summary: 当 Teams 部署项目需要更多参与的协助时，具有合格订阅的客户可以与 FastTrack 一起寻求支持。
+      summary: 当 Teams 部署项目需要更多涉及的帮助时，具有合格订阅的客户可以与 FastTrack 联系以寻求支持。
       url: https://www.microsoft.com/fasttrack
     - title: 查找 Microsoft 合作伙伴
       summary: 需要其他指导？ Microsoft 解决方案提供商可帮助你管理升级的技术和物流。

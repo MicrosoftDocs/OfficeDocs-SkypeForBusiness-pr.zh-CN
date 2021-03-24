@@ -18,42 +18,42 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: 在组织中人员可以使用 Skype 会议直播之前，你需要启用它。 为此，你需要了解如何使用Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴为你执行此步骤。
-ms.openlocfilehash: fed56c850d1d909bdd72bda0eb8c1dcd24df0f10
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: 在贵组织的人员可以使用 Skype 会议直播之前，你需要启用它。 为此，你需要了解如何使用Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴为你执行此步骤。
+ms.openlocfilehash: ab59348d32ef130df6b0de6e1eb65c92d0222e04
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50568888"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097108"
 ---
-# <a name="enable-skype-meeting-broadcast"></a><span data-ttu-id="9e1da-105">启用 Skype 会议直播</span><span class="sxs-lookup"><span data-stu-id="9e1da-105">Enable Skype Meeting Broadcast</span></span>
+# <a name="enable-skype-meeting-broadcast"></a><span data-ttu-id="5b92f-105">启用 Skype 会议直播</span><span class="sxs-lookup"><span data-stu-id="5b92f-105">Enable Skype Meeting Broadcast</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="9e1da-106">Skype for Business Online 将于 2021 年 7 月 31 日停用，此时将结束对该服务的访问。</span><span class="sxs-lookup"><span data-stu-id="9e1da-106">Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end.</span></span> <span data-ttu-id="9e1da-107">我们鼓励客户开始升级到 Microsoft 365 中通信和团队合作的核心客户端 Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="9e1da-107">We encourage customers to begin the upgrade to Microsoft Teams, the core client for communications and teamwork in Microsoft 365.</span></span>
+> <span data-ttu-id="5b92f-106">Skype for Business Online 将于 2021 年 7 月 31 日停用，此时将结束对该服务的访问。</span><span class="sxs-lookup"><span data-stu-id="5b92f-106">Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end.</span></span> <span data-ttu-id="5b92f-107">我们鼓励客户开始升级到 Microsoft Teams，这是 Microsoft 365 中通信和团队合作的核心客户端。</span><span class="sxs-lookup"><span data-stu-id="5b92f-107">We encourage customers to begin the upgrade to Microsoft Teams, the core client for communications and teamwork in Microsoft 365.</span></span>
 
-<span data-ttu-id="9e1da-108">在组织中人员可以使用 Skype 会议直播之前，你需要启用它。</span><span class="sxs-lookup"><span data-stu-id="9e1da-108">Before the people in your organization can use Skype Meeting Broadcast, you need to enable it.</span></span> <span data-ttu-id="9e1da-109">为此，你需要了解如何使用Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="9e1da-109">To do this, you need to know how to use Windows PowerShell.</span></span> <span data-ttu-id="9e1da-110">如果你不了解 Windows PowerShell，请考虑聘用 [Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为你执行此步骤。</span><span class="sxs-lookup"><span data-stu-id="9e1da-110">If you don't know Windows PowerShell, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to do this step for you.</span></span>
+<span data-ttu-id="5b92f-108">在贵组织的人员可以使用 Skype 会议直播之前，你需要启用它。</span><span class="sxs-lookup"><span data-stu-id="5b92f-108">Before the people in your organization can use Skype Meeting Broadcast, you need to enable it.</span></span> <span data-ttu-id="5b92f-109">为此，你需要了解如何使用Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="5b92f-109">To do this, you need to know how to use Windows PowerShell.</span></span> <span data-ttu-id="5b92f-110">如果你不了解 Windows PowerShell，请考虑聘用 [Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为你执行此步骤。</span><span class="sxs-lookup"><span data-stu-id="5b92f-110">If you don't know Windows PowerShell, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to do this step for you.</span></span>
 
 
 
 > [!NOTE]
-> <span data-ttu-id="9e1da-111">Microsoft Teams 管理中心已取代旧版门户中的 Skype for Business (中心) 。</span><span class="sxs-lookup"><span data-stu-id="9e1da-111">The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal).</span></span> <span data-ttu-id="9e1da-112">管理 Skype for Business 的所有设置现在都位于 Teams 管理中心。</span><span class="sxs-lookup"><span data-stu-id="9e1da-112">All settings for managing Skype for Business are now in the Teams admin center.</span></span> <span data-ttu-id="9e1da-113">必须分配全局管理员或 Skype for Business 管理员 [的 Azure AD](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) 管理员角色，才能在 Teams 管理中心管理 Skype for Business 功能。</span><span class="sxs-lookup"><span data-stu-id="9e1da-113">You must be assigned the [Azure AD admin role](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center.</span></span> <span data-ttu-id="9e1da-114">有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)。</span><span class="sxs-lookup"><span data-stu-id="9e1da-114">To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).</span></span>
+> <span data-ttu-id="5b92f-111">Microsoft Teams 管理中心已取代 Skype for Business 管理中心 (旧版门户) 。</span><span class="sxs-lookup"><span data-stu-id="5b92f-111">The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal).</span></span> <span data-ttu-id="5b92f-112">管理 Skype for Business 的所有设置现在都位于 Teams 管理中心。</span><span class="sxs-lookup"><span data-stu-id="5b92f-112">All settings for managing Skype for Business are now in the Teams admin center.</span></span> <span data-ttu-id="5b92f-113">必须分配全局管理员或 Skype for Business 管理员 [的 Azure AD](/azure/active-directory/roles/permissions-reference) 管理员角色，才能在 Teams 管理中心管理 Skype for Business 功能。</span><span class="sxs-lookup"><span data-stu-id="5b92f-113">You must be assigned the [Azure AD admin role](/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center.</span></span> <span data-ttu-id="5b92f-114">有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。</span><span class="sxs-lookup"><span data-stu-id="5b92f-114">To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).</span></span>
 
   
-## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a><span data-ttu-id="9e1da-115">使用 Skype for Business 管理中心启用 Skype 会议直播</span><span class="sxs-lookup"><span data-stu-id="9e1da-115">Enable Skype Meeting Broadcast using the Skype for Business admin center</span></span>
+## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a><span data-ttu-id="5b92f-115">使用 Skype for Business 管理中心启用 Skype 会议直播</span><span class="sxs-lookup"><span data-stu-id="5b92f-115">Enable Skype Meeting Broadcast using the Skype for Business admin center</span></span>
 
-<span data-ttu-id="9e1da-116">![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**</span><span class="sxs-lookup"><span data-stu-id="9e1da-116">![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="5b92f-116">![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**</span><span class="sxs-lookup"><span data-stu-id="5b92f-116">![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="9e1da-117">使用全局管理员帐户或 Skype for Business 管理员帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。</span><span class="sxs-lookup"><span data-stu-id="9e1da-117">Sign in with your global admin account or Skype for Business admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
+1. <span data-ttu-id="5b92f-117">使用全局管理员帐户或 Skype for Business 管理员帐户在 登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。</span><span class="sxs-lookup"><span data-stu-id="5b92f-117">Sign in with your global admin account or Skype for Business admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
     
-2. <span data-ttu-id="9e1da-118">在管理中心，转到 **管理中心**  >  **Teams。**</span><span class="sxs-lookup"><span data-stu-id="9e1da-118">In the admin center, go to **Admin centers** > **Teams**.</span></span>
+2. <span data-ttu-id="5b92f-118">在管理中心中，转到"**管理中心**  >  **""Teams"。**</span><span class="sxs-lookup"><span data-stu-id="5b92f-118">In the admin center, go to **Admin centers** > **Teams**.</span></span>
     
-3. <span data-ttu-id="9e1da-119">在 **Teams 管理中心，** 转到 **旧版门户 Online** 会议直播会议，然后选择"启用  >    >  **Skype 会议直播"。**</span><span class="sxs-lookup"><span data-stu-id="9e1da-119">In the **Teams admin center**, go to **Legacy portal** > **Online meetings** > **Broadcast meetings**, and then select **Enable Skype Meeting Broadcast**.</span></span>
+3. <span data-ttu-id="5b92f-119">在 **Teams 管理中心中**，转到"**旧门户""** 联机会议""直播  >    >  **会议**"，然后选择"**启用 Skype 会议直播"。**</span><span class="sxs-lookup"><span data-stu-id="5b92f-119">In the **Teams admin center**, go to **Legacy portal** > **Online meetings** > **Broadcast meetings**, and then select **Enable Skype Meeting Broadcast**.</span></span>
     
-## <a name="enable-skype-meeting-broadcast-using-powershell"></a><span data-ttu-id="9e1da-120">使用 PowerShell 启用 Skype 会议直播</span><span class="sxs-lookup"><span data-stu-id="9e1da-120">Enable Skype Meeting Broadcast using PowerShell</span></span>
+## <a name="enable-skype-meeting-broadcast-using-powershell"></a><span data-ttu-id="5b92f-120">使用 PowerShell 启用 Skype 会议直播</span><span class="sxs-lookup"><span data-stu-id="5b92f-120">Enable Skype Meeting Broadcast using PowerShell</span></span>
 
-1. <span data-ttu-id="9e1da-121">安装 [Teams PowerShell 模块](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。</span><span class="sxs-lookup"><span data-stu-id="9e1da-121">Install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).</span></span>
+1. <span data-ttu-id="5b92f-121">安装 [Teams PowerShell 模块](/microsoftteams/teams-powershell-install)。</span><span class="sxs-lookup"><span data-stu-id="5b92f-121">Install the [Teams PowerShell module](/microsoftteams/teams-powershell-install).</span></span>
     
-2. <span data-ttu-id="9e1da-122">打开Windows PowerShell提示符并运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="9e1da-122">Open a Windows PowerShell command prompt and run the following commands:</span></span> 
+2. <span data-ttu-id="5b92f-122">打开 Windows PowerShell 命令提示符并运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="5b92f-122">Open a Windows PowerShell command prompt and run the following commands:</span></span> 
 
    ```powershell
    # When using Teams PowerShell Module
@@ -62,44 +62,43 @@ ms.locfileid: "50568888"
    $userCredential = Get-Credential
    Connect-MicrosoftTeams -Credential $userCredential
    ```
-3. <span data-ttu-id="9e1da-123">通过运行以下命令确认当前的 Skype 会议广播配置：</span><span class="sxs-lookup"><span data-stu-id="9e1da-123">Confirm your current Skype Meeting Broadcast configuration by running:</span></span>
+3. <span data-ttu-id="5b92f-123">通过运行以下命令确认当前的 Skype 会议广播配置：</span><span class="sxs-lookup"><span data-stu-id="5b92f-123">Confirm your current Skype Meeting Broadcast configuration by running:</span></span>
     
    ```PowerShell
    Get-CsBroadcastMeetingConfiguration
    ```
 
-    <span data-ttu-id="9e1da-124">验证参数  _EnableBroadcastMeeting_ 设置为 `False`。</span><span class="sxs-lookup"><span data-stu-id="9e1da-124">Verify that the parameter  _EnableBroadcastMeeting_ is set to `False`.</span></span>
+    <span data-ttu-id="5b92f-124">验证参数  _EnableBroadcastMeeting_ 设置为 `False`。</span><span class="sxs-lookup"><span data-stu-id="5b92f-124">Verify that the parameter  _EnableBroadcastMeeting_ is set to `False`.</span></span>
     
      ![Skype 会议直播启用组织 cmdlet。](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
-9. <span data-ttu-id="9e1da-126">通过运行以下命令为你的组织启用 Skype 会议广播：</span><span class="sxs-lookup"><span data-stu-id="9e1da-126">Enable Skype Meeting Broadcast for your organization by running:</span></span>
+9. <span data-ttu-id="5b92f-126">通过运行以下命令为你的组织启用 Skype 会议广播：</span><span class="sxs-lookup"><span data-stu-id="5b92f-126">Enable Skype Meeting Broadcast for your organization by running:</span></span>
     
    ```PowerShell
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
-    <span data-ttu-id="9e1da-127">可以通过再次运行来确认该设置  `Get-CsBroadcastMeetingConfiguration` 已启用。</span><span class="sxs-lookup"><span data-stu-id="9e1da-127">You can confirm that the setting is enabled by running  `Get-CsBroadcastMeetingConfiguration` again.</span></span>
+    <span data-ttu-id="5b92f-127">可以通过再次运行 来确认设置  `Get-CsBroadcastMeetingConfiguration` 已启用。</span><span class="sxs-lookup"><span data-stu-id="5b92f-127">You can confirm that the setting is enabled by running  `Get-CsBroadcastMeetingConfiguration` again.</span></span>
     
      ![Skype 会议直播启用组织 Cmdlet。](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   
     > [!TIP]
-    > <span data-ttu-id="9e1da-129">[!提示] 更改后，可能需要长达一小时才能在 Skype 会议广播门户中生效。</span><span class="sxs-lookup"><span data-stu-id="9e1da-129">After you make the change, it may take up to an hour to take effect in the Skype Meeting Broadcast portal.</span></span> 
+    > <span data-ttu-id="5b92f-129">[!提示] 更改后，可能需要长达一小时才能在 Skype 会议广播门户中生效。</span><span class="sxs-lookup"><span data-stu-id="5b92f-129">After you make the change, it may take up to an hour to take effect in the Skype Meeting Broadcast portal.</span></span> 
   
-10. <span data-ttu-id="9e1da-p105">现在，你的用户可以与贵企业中的其他用户举行直播会议。要让他们了解如何开始，请指示他们参考[什么是 Skype 会议直播？](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)</span><span class="sxs-lookup"><span data-stu-id="9e1da-p105">Your users can now hold broadcast meetings with other users in your business. To get them started, point them to [What is a Skype Meeting Broadcast?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)</span></span>
+10. <span data-ttu-id="5b92f-p105">现在，你的用户可以与贵企业中的其他用户举行直播会议。要让他们了解如何开始，请指示他们参考[什么是 Skype 会议直播？](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)</span><span class="sxs-lookup"><span data-stu-id="5b92f-p105">Your users can now hold broadcast meetings with other users in your business. To get them started, point them to [What is a Skype Meeting Broadcast?](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)</span></span>
     
-## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a><span data-ttu-id="9e1da-132">配置网络以便让外部与会者参加直播会议</span><span class="sxs-lookup"><span data-stu-id="9e1da-132">Configure your network to broadcast meetings with external attendees</span></span>
+## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a><span data-ttu-id="5b92f-132">配置网络以便让外部与会者参加直播会议</span><span class="sxs-lookup"><span data-stu-id="5b92f-132">Configure your network to broadcast meetings with external attendees</span></span>
 
-<span data-ttu-id="9e1da-133">如果你装有防火墙，并希望与贵企业外部的人员（不是来自联盟企业）召开直播会议，则需要按照以下说明配置你的网络：[设置 Skype 会议直播网络](set-up-your-network-for-skype-meeting-broadcast.md)。</span><span class="sxs-lookup"><span data-stu-id="9e1da-133">If you have a firewall, and you want to hold broadcasts with people outside of your business (who are not a federated business), you need to configure your network using these instructions: [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md).</span></span> 
+<span data-ttu-id="5b92f-133">如果你装有防火墙，并希望与贵企业外部的人员（不是来自联盟企业）召开直播会议，则需要按照以下说明配置你的网络：[设置 Skype 会议直播网络](set-up-your-network-for-skype-meeting-broadcast.md)。</span><span class="sxs-lookup"><span data-stu-id="5b92f-133">If you have a firewall, and you want to hold broadcasts with people outside of your business (who are not a federated business), you need to configure your network using these instructions: [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md).</span></span> 
   
-<span data-ttu-id="9e1da-134">如果你没有配置防火墙方面的经验，请考虑聘用 [Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为你执行此步骤。</span><span class="sxs-lookup"><span data-stu-id="9e1da-134">If you aren't experienced with configuring your firewall, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to do this step for you.</span></span>
+<span data-ttu-id="5b92f-134">如果你没有配置防火墙方面的经验，请考虑聘用 [Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为你执行此步骤。</span><span class="sxs-lookup"><span data-stu-id="5b92f-134">If you aren't experienced with configuring your firewall, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to do this step for you.</span></span>
   
-<span data-ttu-id="9e1da-135">要跳过此步骤，改为将其他企业添加为你的联盟企业，请参阅[允许用户联系外部 Skype for Business 用户](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)。</span><span class="sxs-lookup"><span data-stu-id="9e1da-135">To skip this step and instead add another business to your federation, see [Allow users to contact external Skype for Business users](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md).</span></span> 
+<span data-ttu-id="5b92f-135">要跳过此步骤，改为将其他企业添加为你的联盟企业，请参阅[允许用户联系外部 Skype for Business 用户](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)。</span><span class="sxs-lookup"><span data-stu-id="5b92f-135">To skip this step and instead add another business to your federation, see [Allow users to contact external Skype for Business users](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md).</span></span> 
   
-## <a name="related-topics"></a><span data-ttu-id="9e1da-136">相关主题</span><span class="sxs-lookup"><span data-stu-id="9e1da-136">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="5b92f-136">相关主题</span><span class="sxs-lookup"><span data-stu-id="5b92f-136">Related topics</span></span>
 
-[<span data-ttu-id="9e1da-137">Windows PowerShell 和 Skype for Business Online 简介</span><span class="sxs-lookup"><span data-stu-id="9e1da-137">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+[<span data-ttu-id="5b92f-137">Windows PowerShell 和 Skype for Business Online 简介</span><span class="sxs-lookup"><span data-stu-id="5b92f-137">An introduction to Windows PowerShell and Skype for Business Online</span></span>](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-[<span data-ttu-id="9e1da-138">设置 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="9e1da-138">Set up Skype for Business Online</span></span>](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[<span data-ttu-id="5b92f-138">设置 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="5b92f-138">Set up Skype for Business Online</span></span>](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
- 
