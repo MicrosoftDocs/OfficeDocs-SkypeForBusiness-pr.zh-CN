@@ -14,18 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
-description: 如果希望控制器池包含监控服务器，请选择"监控 (CDR 和 QoE 指标) 。
-ms.openlocfilehash: 4bb72a2919986cf79aaa94793c5c9cd4aa44ea6d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 如果希望控制器池包含监控服务器，请选择"监控" (CDR 和 QoE) 。
+ms.openlocfilehash: c3255648f9c5cd7718417d59548ceae7db1c1cf2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811892"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100158"
 ---
-# <a name="add-director-features"></a><span data-ttu-id="017ca-103">添加控制器功能</span><span class="sxs-lookup"><span data-stu-id="017ca-103">Add Director Features</span></span>
+# <a name="add-director-features"></a><span data-ttu-id="b5108-103">添加控制器功能</span><span class="sxs-lookup"><span data-stu-id="b5108-103">Add Director Features</span></span>
 
-<span data-ttu-id="017ca-104">如果希望控制器池包含监控服务器，请选择"监控 (**CDR 和 QoE 指标) 。**</span><span class="sxs-lookup"><span data-stu-id="017ca-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
+<span data-ttu-id="b5108-104">如果希望控制器池包含监控服务器，请选择"监控 (**CDR 和 QoE 指标) "。**</span><span class="sxs-lookup"><span data-stu-id="b5108-104">If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.</span></span>
 
-<span data-ttu-id="017ca-105">有关添加控制器池的更多详细信息，请参阅["](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx)控制器的方案"和"[设置控制器"。](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx)</span><span class="sxs-lookup"><span data-stu-id="017ca-105">For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).</span></span>
-
-
+<span data-ttu-id="b5108-105">有关添加控制器池的更多详细信息，请参阅S [scenarios for the Director](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-the-director)和[Setting Up the Director。](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-the-director)</span><span class="sxs-lookup"><span data-stu-id="b5108-105">For more details about adding a Director pool, see [Scenarios for the Director](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-the-director) and [Setting Up the Director](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-the-director).</span></span>
