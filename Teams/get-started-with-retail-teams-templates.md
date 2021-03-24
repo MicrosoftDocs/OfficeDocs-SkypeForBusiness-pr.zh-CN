@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f226b60bfc3a054166eb48596c505ccd7fa5ac9
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
-ms.translationtype: HT
+ms.openlocfilehash: e0fecf419f6fc3ac0ef15097fe54571d85018587
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424632"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101198"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>开始使用 Teams 零售模板
 
@@ -34,7 +34,7 @@ Teams 模板具有预先构建的围绕零售商需求设计的团队结构定�
 
 在本文中，我们将介绍各个 Teams 模板，并推荐其使用方法。
 
-如果你负责在整个零售组织中规划、部署和管理多个团队，则本文非常适合你。 你已在贵组织内部署 Teams 服务。 如果尚未部署 Teams，首先请阅读[如何部署 Microsoft Teams](How-to-roll-out-teams.md)。
+如果你负责在整个零售组织中规划、部署和管理多个团队，则本文非常适合你。 你已在贵组织内部署 Teams 服务。 如果尚未部署 Teams，首先请阅读[如何部署 Microsoft Teams](./deploy-overview.md)。
 
 若要了解有关常规团队模板的详细信息，请参阅[开始使用 Teams 模板](get-started-with-teams-templates.md)。
 
@@ -68,7 +68,7 @@ Teams 模板具有预先构建的围绕零售商需求设计的团队结构定�
 
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方模板
 
-若要使用这些模板，请将请求正文中的“template@odata.bind”属性从“标准”更改为上述模板 ID。  若要详细了解如何部署 Teams 模板，请参阅 Microsoft Graph 文章，了解如何[创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+若要使用这些模板，请将请求正文中的“template@odata.bind”属性从“标准”更改为上述模板 ID。  若要详细了解如何部署 Teams 模板，请参阅 Microsoft Graph 文章，了解如何[创建团队](/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > 模板中的频道将自动创建在“常规”选项卡下方。

@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 摘要：在 Skype for Business Server 中管理 Web 服务配置设置。
-ms.openlocfilehash: 68abe01614902d5e6f4c58040b30b6afbd475df8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d79e0567790f10dd86c68f64d7bde54d3540b44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806492"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099168"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business Server 中管理 Web 服务配置设置
  
 **摘要：** 在 Skype for Business Server 中管理 Web 服务配置设置。
   
-您可以使用 **"Web 服务** "页配置用于访问 Skype for Business Server 相关 Web 服务器和 Web 服务的身份验证方法。
+可以使用 **"Web 服务** "页配置用于访问 Skype for Business Server 相关 Web 服务器和 Web 服务的身份验证方法。
   
 按照以下步骤创建新的 Web 服务策略。
   
@@ -56,7 +56,7 @@ ms.locfileid: "49806492"
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>修改现有 Web 服务配置设置
 
-您可以使用 **"Web 服务** "页配置用于访问 Skype for Business Server 相关 Web 服务器和 Web 服务的身份验证方法。
+可以使用 **"Web 服务** "页配置用于访问 Skype for Business Server 相关 Web 服务器和 Web 服务的身份验证方法。
   
 按照以下步骤修改现有的 Web 服务策略。
   
@@ -102,7 +102,7 @@ ms.locfileid: "49806492"
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 删除 Web 服务Windows PowerShell设置
 
-可以使用 Windows PowerShell 和 **Remove-CsWebServiceConfiguration** cmdlet 删除 Web 服务配置设置。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。
+可以通过使用 Windows PowerShell **和 Remove-CsWebServiceConfiguration** cmdlet 删除 Web 服务配置设置。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>删除特定的 Web 服务配置设置集合
 
@@ -128,6 +128,4 @@ ms.locfileid: "49806492"
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 
-有关详细信息，请参阅[Remove-CsWebServiceConfiguration。](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps)
-  
-
+有关详细信息，请参阅 [Remove-CsWebServiceConfiguration](/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps)。

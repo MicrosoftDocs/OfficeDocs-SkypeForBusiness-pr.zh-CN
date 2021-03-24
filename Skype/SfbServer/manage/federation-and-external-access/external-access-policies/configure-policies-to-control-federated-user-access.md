@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。 '
-ms.openlocfilehash: 2b7976492fe4f789c2f3130fb51deaaef44af701
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6107615767d0360180baf9f22d5fddc6a5f8e565
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817297"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099038"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>配置策略以控制 Skype for Business Server 中的联盟用户访问
 
@@ -28,12 +28,12 @@ ms.locfileid: "49817297"
 
 
 > [!NOTE]  
-> 即使没有为组织启用联盟，也可以配置控制联盟用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联盟的详细信息，请参阅["启用或禁用远程用户访问"。](../access-edge/enable-or-disable-remote-user-access.md)  此外，如果指定用户策略来控制联盟用户访问，则此策略仅适用于已启用 Skype for Business Server 且配置为使用该策略的用户。
+> 即使没有为组织启用联盟，也可以配置控制联盟用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联盟的详细信息，请参阅 [启用或禁用远程用户访问](../access-edge/enable-or-disable-remote-user-access.md)。  此外，如果指定用户策略来控制联盟用户访问，则此策略仅适用于启用了 Skype for Business Server 且配置为使用该策略的用户。
 
 
 ## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>配置策略以支持联盟域用户访问
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
 
@@ -61,13 +61,13 @@ ms.locfileid: "49817297"
 
 要启用联盟用户访问，还必须在组织中启用对联盟的支持。 有关详细信息，请参阅启用 [或禁用联盟和公共 IM 连接](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)。
 
-如果这是一个用户策略，则还必须将此策略应用于希望其可以与联盟用户进行协作的用户。 有关详细信息，请参阅["分配外部用户访问策略"。](assign-an-external-user-access-policy.md)
+如果这是一个用户策略，则还必须将此策略应用于希望其可以与联盟用户进行协作的用户。 有关详细信息，请参阅 [分配外部用户访问策略](assign-an-external-user-access-policy.md)。
 
-## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用策略配置现有Windows PowerShell以支持联盟域用户访问
+## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用域配置现有Windows PowerShell以支持联盟域用户访问
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  启动 Skype for Busines Server命令行管理程序：单击"开始"，**单击"所有** 程序"，单击 **"Skype for Business Server"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2.  启动 Skype for Busines 服务器命令行管理程序：单击"开始"，单击"所有程序"，**单击****"Skype for Business Server"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
 
 3.  在 Skype for Business Server 命令行管理程序 中键入以下内容：
     
@@ -82,9 +82,9 @@ ms.locfileid: "49817297"
 
 ## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用 Windows PowerShell 创建新策略以支持联盟域用户访问
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，**再单击"Microsoft Skype for Business Server"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2.  启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，**单击****"Microsoft Skype for Business Server"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
 
 3.  在 Skype for Business Server 命令行管理程序 中键入以下内容：
     
@@ -101,7 +101,7 @@ ms.locfileid: "49817297"
 
 ## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用策略删除或重置Windows PowerShell以支持联盟域用户访问
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  在 Skype for Business Server 命令行管理程序 中键入以下内容
     
@@ -131,10 +131,8 @@ ms.locfileid: "49817297"
  
 [管理组织的 SIP 联盟提供程序](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
-[Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy)  
-[New-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsExternalAccessPolicy)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)  
-[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)  
-  
-
+[Set-CsExternalAccessPolicy](/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy)  

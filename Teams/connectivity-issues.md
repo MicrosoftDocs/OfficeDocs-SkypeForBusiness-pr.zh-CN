@@ -16,17 +16,17 @@ description: 解决 Microsoft Teams 客户端的连接问题（主要由防火�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 59041734887a667eca325a3d2650425d6d336b78
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 25a4fc51e0bb8dec810ce921e3678a529ee7a4cf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918538"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101158"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
 ==============================================================
 
-已发现的有关 Microsoft Teams 客户端的大多数问题都可追溯到防火墙或代理连接。 验证是否在防火墙或代理中打开了所需的 URL、IP 地址和端口可最大程度地减少不必要的故障排除。 有关 Microsoft Teams 所需的 URL 和 IP 的具体信息，请参阅 [Microsoft 365 和 Office 365 URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 和 IP 地址支持文章。 以下方案需要在防火墙中打开特定 URL 和端口。
+已发现的有关 Microsoft Teams 客户端的大多数问题都可追溯到防火墙或代理连接。 验证是否在防火墙或代理中打开了所需的 URL、IP 地址和端口可最大程度地减少不必要的故障排除。 有关 Microsoft Teams 所需的 URL 和 IP 的具体信息，请参阅 [Microsoft 365 和 Office 365 URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 和 IP 地址支持一文。 以下方案需要在防火墙中打开特定 URL 和端口。
 
 - 身份验证
 
@@ -44,10 +44,10 @@ ms.locfileid: "49918538"
 
 - Skype for Business 客户端互操作性
 
-## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Teams 处于脱机状态或带宽不足时
+## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Teams 处于脱机状态或带宽不足的情况
 
-好消息是，即使你处于脱机状态或在低带宽条件下运行，Teams 也一直在运行。 Teams 会将现有聊天的所有未发送消息 (保存最多 24 小时) 在重新联机后立即发送。 如果你脱机时间超过 24 小时，Teams 允许你选择重新发送或删除未发送的邮件。 我们正在努力将此功能添加到新聊天中，如果此功能可用，我们将更新此文档。
+好消息是，即使你处于脱机状态或带宽不足的情况下运行，Teams 也可以保持运行。 Teams 会将你的所有未发送消息保存到现有聊天 (最多 24 小时) 当你重新联机时立即发送它们。 如果脱机时间超过 24 小时，Teams 允许选择重新发送或删除未发送的消息。 我们正在努力将此功能添加到新聊天，并且将在本文档可用时更新此文档。
 
 ## <a name="related-topics"></a>相关主题
 
-[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于肯尼亚的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 87d93c2de04730289272b99f34fa68c1cf7dbb14
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: 以下是适用于 Skype for Business 的 Microsoft 365 和 Office 365 服务和适用于肯尼亚的 Microsoft Teams。
+ms.openlocfilehash: ef439f1808e99d83dbe0cc3b08c6484c8baa79e6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231111"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101378"
 ---
 # <a name="availability-in-kenya"></a>在肯尼亚的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于肯尼亚的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+以下是适用于 Skype for Business 的 Microsoft 365 和 Office 365 服务和适用于肯尼亚的 Microsoft Teams。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -44,15 +44,15 @@ ms.locfileid: "44231111"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用点数  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
 |**功能**|**Details**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |在线  <br/> |
-|呼叫队列  <br/> |在线  <br/> |
+| 自动助理 <br/> |可用  <br/> |
+|呼叫队列  <br/> |可用  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐
@@ -69,11 +69,11 @@ ms.locfileid: "44231111"
 
 |**功能**|**Details**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Nairobi （[按请求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Na一 ([请求请求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
 |是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
- 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+ 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通信点数
 
@@ -85,10 +85,8 @@ ms.locfileid: "44231111"
   
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 
-

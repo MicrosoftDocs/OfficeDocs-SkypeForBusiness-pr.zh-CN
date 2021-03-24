@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 摘要：在 Skype for Business Server 中查看用户 PIN 信息。
-ms.openlocfilehash: fa5385c1ca318c4a41e17088368d9928fd6d0e0b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c016e6edf258f63166b930be833542bf9e730f15
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806502"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099218"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>在 Skype for Business Server 中查看用户 PIN 信息
  
@@ -27,7 +27,7 @@ ms.locfileid: "49806502"
 要以经过身份验证的用户身份加入电话拨入式会议，具有 Active Directory 域服务 (AD DS) 凭据的 Skype for Business Server 用户需要个人标识号 (PIN) 。 可以从 Skype for Business Server 控制面板查看用户的 PIN 信息。
   
 > [!NOTE]
-> 您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。 如果用户丢失了 PIN，可以按照"在 Skype for Business Server 中设置用户的电话拨入式会议 [PIN"中的过程重置 PIN](set-a-user-s-dial-in-conferencing-pin.md)
+> 您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。 如果用户丢失了 PIN，可以按照在 Skype for Business Server 中设置用户的电话拨入式会议 PIN 中 [的过程重置 PIN](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>在 Skype for Business Server 控制面板中查看用户的 PIN
 
@@ -63,13 +63,13 @@ ms.locfileid: "49806502"
   
 6. 在搜索结果中单击某个用户，再单击“操作”，然后单击“查看 PIN 状态”。
     
-## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看Windows PowerShell PIN 信息
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看用户WINDOWS POWERSHELL信息
 
-您可以使用 Get-CsClientPinInfo cmdlet 查看用户 PIN 信息。 此 cmdlet 可以从 Skype for Business Server 命令行管理程序运行，也可以从远程会话Windows PowerShell。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。
+您可以使用 Get-CsClientPinInfo cmdlet 查看用户 PIN 信息。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
   
 ### <a name="to-view-user-pin-information"></a>查看用户 PIN 信息
 
-若要查看用户的 PIN 信息，请在 Skype for Business Server 命令行管理程序 中键入类似如下的命令，然后按 Enter：
+若要查看用户的 PIN 信息，请在 Skype for Business Server 命令行管理程序 中键入类似于以下的命令，然后按 Enter：
     
   ```PowerShell
   Get-CsClientPinInfo -Identity "Ken Myer"
@@ -85,7 +85,7 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-有关详细信息，请参阅 [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Get-CsConferenceDisclaimer](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) cmdlet 的帮助主题。
   
 ## <a name="see-also"></a>另请参阅
 

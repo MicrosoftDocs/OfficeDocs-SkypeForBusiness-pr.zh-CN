@@ -1,5 +1,5 @@
 ---
-title: 设备配置创建新的或编辑现有的
+title: 设备配置 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在"新建设备配置"或"编辑设备配置"页上，可以创建或修改用于管理 Skype for Business Phone Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: 0b330212c8dc050bb618f28ea6444b1c8e58f040
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 47805db474169631b722cbd8e2af95ec42bc8fa6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830192"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100558"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>设备配置：创建新的或编辑现有的
  
-在 **"新建设备配置** " **或** "编辑设备配置"页上，可以创建或修改用于管理 Skype for Business Phone Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
+在" **新建设备配置** " **或** "编辑设备配置"页上，可以创建或修改用于管理 Skype for Business Phone Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
   
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -50,7 +50,7 @@ ms.locfileid: "49830192"
     
   - **高** 用户身份验证需要 NTLM 或 Kerberos，SIP 连接需要 TLS。
     
-- **日志记录级别** 可以在 UC 设备上启用日志记录。 有效值为：Off;低;中等;高。 默认值为 Off。
+- **日志记录级别** 可以在 UC 设备上启用日志记录。 有效值为：Off;低;中;高。 默认值为 Off。
     
 - **QoS (语音服务质量)** 你可以指定分配给来自 Skype for Business Phone Edition 设备的语音流量的 DSCP 值。 默认值为 40。 但是，40 并不是通常用于音频流量的值；音频流量几乎始终用 DSCP 代码 46 进行标记。 为了在整个网络中保持一致性，您可能需要将此值更改为 46。
     
@@ -58,12 +58,12 @@ ms.locfileid: "49830192"
     
   - **强制设备锁定** 可以通过选中此复选框来强制设备锁定。
     
-  - **最小 PIN 长度** 你可以指定用于解锁电话的个人标识号 (PIN) 密码。 PIN 长度的范围为 4 到 15 位数字。 默认长度为六位数。
+  - **最小 PIN 长度** 你可以指定用于解锁电话的个人标识 (PIN) 的最小长度。 PIN 长度的范围为 4 到 15 位数字。 默认长度为六位数字。
     
-  - **电话锁定时间** 你可以指定电话自行锁定之前的最小时间长度。 该时间的范围是 0 到 60 分钟;默认值为 10 分钟。 以 HH：MM：SS 格式输入值。
+  - **电话锁定的退出** 你可以指定电话自行锁定之前的最小时间长度。 该退出的范围是 0 到 60 分钟;默认值为 10 分钟。 输入 HH：MM：SS 格式的值。
     
 ## <a name="see-also"></a>另请参阅
 
 [设备配置](ms.lync.lscp.ClientDeviceCfgMain.md)
 
-[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

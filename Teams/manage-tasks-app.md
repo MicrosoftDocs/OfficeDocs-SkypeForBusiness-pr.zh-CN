@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909396"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101148"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
@@ -81,7 +81,7 @@ Tasks 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>如果用户具有 Exchange Online 许可证，“我的任务”会对用户可见。
 
-如果你不想让某个用户看到“**我的任务**”，可以将其隐藏。 操作方法是，[删除用户的 Exchange Online 许可](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)。 需要记住的是，在删除 Exchange Online 许可后，用户不再能够访问他们的邮箱。  邮箱数据会保留 30 天，之后数据会被清除且无法恢复，除非邮箱处于[就地保留或诉讼保留](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)状态。
+如果你不想让某个用户看到“**我的任务**”，可以将其隐藏。 操作方法是，[删除用户的 Exchange Online 许可](/microsoft-365/admin/manage/remove-licenses-from-users)。 需要记住的是，在删除 Exchange Online 许可后，用户不再能够访问他们的邮箱。  邮箱数据会保留 30 天，之后数据会被清除且无法恢复，除非邮箱处于[就地保留或诉讼保留](/exchange/security-and-compliance/in-place-and-litigation-holds)状态。
 
 我们不建议对信息工作者执行此操作，但是也有一些应用场景，比如对于不依赖电子邮件的前线工作者。
 
@@ -123,5 +123,5 @@ Contoso 总部和中级经理可以查看报告来了解每个门店和所有门
 
 微软代办中 Tasksk 支持 Power Automate，Planner 中 Tasks 支持 Graph API。 若要了解详细信息，请参阅：
 
-- [Planner 任务和计划 API 概述](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Planner 任务和计划 API 概述](/graph/planner-concept-overview)
 - [将微软待办与 Power Automate 结合使用](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

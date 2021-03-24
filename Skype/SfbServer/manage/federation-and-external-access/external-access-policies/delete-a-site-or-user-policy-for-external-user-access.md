@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 可以删除"外部访问策略"页上的 Skype for Business Server 控制面板中列出的任何站点或用户策略。
-ms.openlocfilehash: 0fbde98868bfe7f8dbe9f97db2350e02dba44560
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 你可以删除"外部访问策略"页上的 Skype for Business Server 控制面板中列出的任何站点或用户策略。
+ms.openlocfilehash: 407e90af201055f371dc92485ab258bac851a258
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817272"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099018"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>删除外部用户访问的站点或用户策略
 
@@ -31,12 +31,12 @@ ms.locfileid: "49817272"
   - 将全局策略重置为默认设置。默认的全局策略设置拒绝任何外部用户访问。无法删除全局策略。
 
 
-可以删除"外部访问策略"页上的 Skype for Business Server 控制面板中列出的任何 **站点或用户** 策略。 删除全局策略时不会真正删除该策略，而只是将其重置为不支持任何外部用户访问选项的默认设置。 有关重置全局策略的详细信息，请参阅"[重置外部用户访问的全局策略"。](reset-the-global-policy-for-external-user-access.md)
+你可以删除"外部访问策略"页上的 Skype for Business Server 控制面板中列出的任何 **站点或用户** 策略。 删除全局策略时不会真正删除该策略，而只是将其重置为不支持任何外部用户访问选项的默认设置。 有关重置全局策略的详细信息，请参阅 [重置外部用户访问的全局策略](reset-the-global-policy-for-external-user-access.md)。
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>删除外部用户访问的站点或用户策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
@@ -47,9 +47,9 @@ ms.locfileid: "49817272"
 5.  当系统提示您确认删除时，单击“确定”。
 
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 删除WINDOWS POWERSHELL策略
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 删除WINDOWS POWERSHELL PIN 策略
 
-可以使用 Windows PowerShell 和 Remove-CsExternalAccessPolicy cmdlet 删除外部访问策略。 此 cmdlet 可以从 Skype for Business Server 命令行管理程序运行，也可以从远程会话Windows PowerShell。 
+可以使用 cmdlet 和 Windows PowerShell 删除Remove-CsExternalAccessPolicy策略。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>删除特定外部访问策略
@@ -73,4 +73,4 @@ ms.locfileid: "49817272"
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 
-有关详细信息，请参阅 [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet 的帮助主题。

@@ -15,24 +15,24 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460492"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101098"
 ---
 # <a name="manage-teams-with-policies"></a>使用策略管理 Teams
 
 策略是管理 Teams 的重要部分。 使用本文导航如何使用策略为组织带来好处。
 
-## <a name="what-you-use-policies-for"></a>策略的使用
+## <a name="what-you-use-policies-for"></a>策略用于什么
 
-策略用于在组织中跨不同领域（如消息传递、会议和应用程序）完成许多任务。 你可以执行一些操作，包括允许用户在团队频道中安排会议、允许用户编辑发送的消息，以及控制用户是否可以将应用固定到 Teams 应用栏。
+策略用于在组织中跨不同领域（如消息传递、会议和应用程序）完成许多任务。 你可以执行一些操作，包括允许用户在团队频道中安排会议、允许用户编辑已发送的消息，以及控制用户是否可以将应用固定到 Teams 应用栏。
 
 ## <a name="how-to-assign-policies"></a>如何分配策略
 
-根据组织正在尝试完成的任务，可以通过多种不同方式分配策略。 可以在 Teams 管理中心进行作业和查看作业。
+根据组织要尝试完成的任务，可以通过多种不同方式分配策略。 可以在 Teams 管理中心进行作业和查看作业。
 
 ![组策略分配的屏幕截图。](media/group-policy-assignment.png)
 
@@ -40,9 +40,9 @@ ms.locfileid: "50460492"
 
 ## <a name="how-to-manage-policies"></a>如何管理策略
 
-策略通过 Microsoft Teams 管理中心或 [PowerShell 进行管理](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell)。
+策略通过 Microsoft Teams 管理中心或 [PowerShell 进行管理](./teams-powershell-managing-teams.md#manage-policies-via-powershell)。
 
-例如，应用设置策略允许你允许用户上传自定义应用、代表用户安装应用，以及将应用固定到 Teams 应用栏。 这些策略在 Teams 管理中心中配置。
+例如，应用设置策略允许你允许用户上传自定义应用、代表用户安装应用，以及将应用固定到 Teams 应用栏。 这些策略在 Teams 管理中心配置。
 
 ![应用设置策略的屏幕截图。](media/app-setup-policy.png)
 
@@ -62,11 +62,11 @@ ms.locfileid: "50460492"
 
 策略类型 | 说明
 ------------|------------
-[策略包](manage-policy-packages.md) | Microsoft Teams 中的策略包是可分配给组织中具有类似角色的用户的预定义策略和设置的集合。
-[会议策略](meeting-policies-in-teams.md) | 会议策略用于控制可供会议参与者用于组织中用户安排的会议的功能。 会议策略包括以下主题。<br> - 音频和视频策略<br> - 内容和屏幕共享策略<br> - 参与者、来宾和访问策略<br> - 常规策略
+[策略包](manage-policy-packages.md) | Microsoft Teams 中的策略包是一组预定义的策略和设置，可以分配给组织中具有类似角色的用户。
+[会议策略](meeting-policies-in-teams.md) | 会议策略用于控制可用于组织中用户安排的会议的会议参与者的功能。 会议策略包括以下主题。<br> - 音频和视频策略<br> - 内容和屏幕共享策略<br> - 参与者、来宾和访问策略<br> - 常规策略
 [语音和呼叫策略](voice-and-calling-policies.md)| 语音和呼叫策略通过紧急呼叫、呼叫路由和呼叫者 ID 等团队管理这些设置。
 [应用策略](app-policies.md)| 应用策略用于控制 Microsoft Teams 中的应用程序。 管理员可以允许或阻止用户可以安装哪些应用，将应用程序固定到用户的 Teams 应用栏，并代表用户安装应用程序。
-[消息策略](messaging-policies-in-teams.md)| 消息传送策略控制聊天和通道功能可用性。
+[消息策略](messaging-policies-in-teams.md)| 消息传送策略控制聊天和频道功能的可用性。
 
 ## <a name="related-topics"></a>相关主题
 

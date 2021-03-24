@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安装 Power BI 连接器以使用 CQD (查询) 呼叫质量仪表板
-ms.openlocfilehash: 188e030d4f1ef6eaff21bef83a09c22d29bb51c5
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 7af8da203eb6a69bf5db443444c0ca35eff9bb70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875032"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101518"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安装 Power BI 连接器以使用 CQD 查询模板
 
@@ -28,20 +28,20 @@ ms.locfileid: "50875032"
 
 请阅读使用 Power BI 分析 Teams 的 [CQD](CQD-Power-BI-query-templates.md) 数据，了解这些模板。
 
-请确保拥有适当的 [CQD 访问角色](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) 来访问 Power BI 报表。
+请确保拥有适当的 [CQD 访问角色](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 来访问 Power BI 报表。
 
 > [!NOTE]
 > CQD Power BI 连接器仅支持 Power BI 中的 DirectQuery;不支持导入模式。 
 
 ## <a name="installation"></a>安装
 
-Power BI 文档中详细介绍了安装自定义连接器和调整安全性以启用 [连接器使用的过程](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)。 为简单起见，下面是一个快速说明：
+Power BI 文档中详细介绍了安装自定义连接器和调整安全性以启用 [连接器使用的过程](/power-bi/desktop-connector-extensibility)。 为简单起见，下面是一个快速说明：
 
 1. 检查计算机是否已有"文档 *\[ \] \\ "Power BI Desktop \\ 自定义连接器* 文件夹。 如果没有，请创建此文件夹。<sup>1</sup>
 
 2. 将连接器文件 (*\* .mez* 或 *\* .pqx* 文件) 并放在 *自定义连接器* 目录中。
 
-3. **如果连接器文件是 *\* .mez*** 文件，则还需要根据自定义连接器设置文档 中所述调整 [安全设置](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)。
+3. **如果连接器文件是 *\* .mez*** 文件，则还需要根据自定义连接器设置文档 中所述调整 [安全设置](/power-bi/desktop-connector-extensibility#data-extension-security)。
 
 如果已发布此 Power BI Connector for Microsoft Teams 的新版本，只需将自定义连接器目录中的旧连接器文件替换为新文件。
 
@@ -65,7 +65,7 @@ Power BI 文档中详细介绍了安装自定义连接器和调整安全性以�
 
 6. 此时，Power BI 将数据模型加载到窗口右侧。 页面将保留为空，默认情况下不会加载任何查询。 继续 **下面的生成查询** ，以便生成查询并返回数据。
 
-如果此设置过程中的任何步骤不完全清晰，可以在快速入门：连接到 Power BI Desktop 中的数据中找到该过程 [的更详细说明](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data)。
+如果此设置过程中的任何步骤不完全清晰，可以在快速入门：连接到 Power BI Desktop 中的数据中找到该过程 [的更详细说明](/power-bi/desktop-quickstart-connect-to-data)。
 
 ## <a name="building-queries"></a>生成查询
 
@@ -93,7 +93,7 @@ Power BI 文档中详细介绍了安装自定义连接器和调整安全性以�
 
 ## <a name="creating-a-drillthrough-report"></a>创建钻取报表
 
-[Power BI 中的钻](https://docs.microsoft.com/power-bi/desktop-drillthrough) 取允许你创建具有焦点的报表，可以使用其他报表的值作为上下文快速筛选这些报表。 了解如何使用 CQD 连接器创建第一个查询后，创建钻取会更简单。
+[Power BI 中的钻](/power-bi/desktop-drillthrough) 取允许你创建具有焦点的报表，可以使用其他报表的值作为上下文快速筛选这些报表。 了解如何使用 CQD 连接器创建第一个查询后，创建钻取会更简单。
 
 1. 为重点报表创建另一个页面，然后将查询添加到该页。
 
@@ -171,8 +171,8 @@ Power BI 连接器不支持日期切片器。 若要指定日期范围，请对�
 
 有关详细信息，请参阅以下文章：
 
-- [Power BI 优化指南](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
-- [DirectQuery 模型指南](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
+- [Power BI 优化指南](/power-bi/guidance/power-bi-optimization)
+- [DirectQuery 模型指南](/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>在运行查询时，我发现自己经常遇到 10，000 行的限制。 如何让连接器返回超过 10，000 行
 

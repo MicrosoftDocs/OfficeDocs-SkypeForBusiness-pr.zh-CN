@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 摘要：在实施 Skype for Business Server 之前，请查看下面的 IP 地址类型注意事项。
-ms.openlocfilehash: d5e50b8d3a964bb4e4dcbc502527e5249af3a1e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ba10dd223e7e099d27e31bddce478603f50e49a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825253"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101248"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>在 Skype for Business 中配置 IP 地址类型
 
-**摘要：** 实施 Skype for Business Server 之前，请查看下面的 IP 地址类型注意事项。
+**摘要：** 在实施 Skype for Business Server 之前，请查看下面的 IP 地址类型注意事项。
 
-通过使用在拓扑生成器中配置的拓扑设置部署 IP 地址类型。 本节介绍如何在前端服务器、中介服务器和边缘服务器上部署 IP 地址类型。
+通过使用在拓扑生成器中配置的拓扑设置来部署 IP 地址类型。 本节介绍如何在前端服务器、中介服务器和边缘服务器上部署 IP 地址类型。
 
 ## <a name="deploy-ip-address-types-on-a-front-end-server"></a>在前端服务器上部署 IP 地址类型
 
@@ -37,7 +37,7 @@ ms.locfileid: "49825253"
 
 1. 在“Enterprise Edition 前端池”下，右键单击池中的服务器，然后选择“编辑属性”。（也可以选择服务器，然后单击“操作”菜单中的“编辑属性”。）
 
-2. 在“编辑属性”对话框中，选择您要配置的 IP 地址类型。 对于双协议栈配置，请选择 **"启用 IPv4"** 和 **"启用 IPv6"。**
+2. 在“编辑属性”对话框中，选择您要配置的 IP 地址类型。 对于双协议栈配置，请选择"**启用 IPv4"** 和"**启用 IPv6"。**
 
    **前端服务器池的“编辑属性”对话框**
 
@@ -53,7 +53,7 @@ ms.locfileid: "49825253"
    - **PSTN IP 地址**。在前端服务器上并置中介服务器时定义一个 PSTN IP 地址。该地址必须符合选择的地址类型的格式。
 
 > [!NOTE]
-> 不支持安装其他网络接口卡 (NIC) 以支持 PSTN IP 地址配置 (或出于任何其他原因在前端服务器上安装) 。 有关 Skype for Business Server 支持的 NIC 配置的详细信息，请参阅 [Lync Server 2013 的服务器硬件平台](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx)。
+> 不支持安装其他网络接口 (NIC) 以支持 PSTN IP 地址配置 (或出于任何其他) 原因在前端服务器上安装网络接口卡。 有关 Skype for Business Server 支持的 NIC 配置的详细信息，请参阅[Server hardware platforms for Lync Server 2013。](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>在中介服务器上部署 IP 地址类型
 
@@ -61,7 +61,7 @@ ms.locfileid: "49825253"
 
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>在中介服务器上部署 IP 地址类型
 
-- 在拓扑生成器的 **"中介池"下**，右键单击池中的服务器，然后选择"编辑 **属性"。**  (选择服务器，然后单击"操作 **"菜单中的**"编辑属性"。) 
+- 在拓扑生成器的"**中介池"下**，右键单击池中的服务器，然后选择"编辑 **属性"。**  (选择服务器，然后从"操作"菜单中单击 **"编辑属性**"。) 
 
 - 在“编辑属性”对话框中，选择您要配置的 IP 地址类型。对于双协议栈配置，则选择“启用 IPv4”和“启用 IPv6”，如下图所示。
 
@@ -78,7 +78,7 @@ ms.locfileid: "49825253"
 
   - **PSTN IP 地址**。在前端服务器上并置中介服务器时定义一个 PSTN IP 地址。该地址必须符合选择的地址类型的格式。
 > [!IMPORTANT]
-> 我们仅在专用中介服务器上支持 *两个* 网卡。 如果中介服务器角色并排在前端，则不支持双网卡。 
+> 我们仅在专用中介服务器上支持 *两个* 网卡。 如果中介 Sserver 角色并位于前端，则不支持双网卡。 
 
 > [!NOTE]
 > - 有关 Skype for Business Server 2015 支持的 NIC 配置详细信息，请参阅 [Hardware for Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
@@ -92,7 +92,7 @@ ms.locfileid: "49825253"
 
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>在边缘服务器上部署 IP 地址类型
 
-1. 在拓扑生成器的 **"边缘池"下**，右键单击池中的服务器，然后选择"编辑 **属性"。**  (选择服务器，然后单击"操作 **"菜单中的**"编辑属性"。) 
+1. 在拓扑生成器的"**边缘池"下**，右键单击池中的服务器，然后选择"编辑 **属性"。**  (选择服务器，然后从"操作"菜单中单击 **"编辑属性**"。) 
 
 2. 在“编辑属性”窗口中，选择要支持的 IP 地址配置。
 

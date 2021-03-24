@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: Skype for Business Server 2015 支持与 Exchange 统一消息 (UM) 集成，以将语音邮件和电子邮件合并到单个邮件基础结构中。
-ms.openlocfilehash: d19dbb774fbc9bf459e6da738b29b9b817998a94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2227f39dd8a8524019aecd23c2f48bd7e772ff40
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834792"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098638"
 ---
 # <a name="exchange-unified-messaging-planning-tool"></a>Exchange 统一消息 (规划工具) 
 
@@ -27,8 +27,8 @@ Skype for Business Server 2015 支持与 Exchange 统一消息 (UM) 集成，以
 
 有关详细信息，请参阅：
   
-- "Plan for Exchange Unified Messaging integration in Skype for Business"，位于 [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/integrate-with-exchange/unified-messaging](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/integrate-with-exchange/unified-messaging)
+- "Plan for Exchange Unified Messaging integration in Skype for Business"，位于 [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/integrate-with-exchange/unified-messaging](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)
     
-- "统一消息"，位于 [https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
+- "统一消息"，位于 [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
     
-- "规划统一消息"，位于 [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344)
+- "规划统一消息"，位于 [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help)

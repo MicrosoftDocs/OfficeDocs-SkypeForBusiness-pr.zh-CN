@@ -1,5 +1,5 @@
 ---
-title: 测试语音路由创建新的或编辑现有测试用例
+title: 测试语音路由 创建新的或编辑现有的测试用例
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 description: 'UNRESOLVED_TOKEN_VAL ( bigfin_UI_help_intro) '
-ms.openlocfilehash: 4dae4883904af675fbdf0893ed9fdb41e5506714
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2f7a8226108bb905a4436ef0d98f4ee3713f0790
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835562"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099338"
 ---
 # <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>测试语音路由：创建新的或编辑现有的测试用例
 
 UNRESOLVED_TOKEN_VAL ( bigfin_UI_help_intro) 
 
-- [创建语音路由测试用例](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [创建语音路由测试用例](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-voice-routing-test-case)
 
-- [运行语音路由测试用例](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+- [运行语音路由测试用例](/previous-versions/office/lync-server-2013/lync-server-2013-run-voice-routing-test-cases)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
-
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)

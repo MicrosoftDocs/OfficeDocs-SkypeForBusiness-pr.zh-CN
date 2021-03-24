@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918678"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101268"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -69,7 +69,7 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 
 | 询问你自己 | 操作 |
 |--------------|--------|
-|我的网络是否已准备好进行 Teams 会议部署？ | 若要验证网络是否准备就绪，请参阅：<ul><li>[为 Microsoft Teams 准备组织的网络](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL 和 IP 地址范围](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|我的网络是否已准备好进行 Teams 会议部署？ | 若要验证网络是否准备就绪，请参阅：<ul><li>[为 Microsoft Teams 准备组织的网络](./prepare-network.md)</li><li>[URL 和 IP 地址范围](./office-365-urls-ip-address-ranges.md)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>核心部署决策
@@ -83,7 +83,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 | 询问你自己 | 操作 |
 |--------------|--------|
 |将为谁分配 Teams 通信管理员角色？|若要详细了解 Teams 管理员角色，请参阅[使用 Microsoft Teams 管理员角色来管理 Teams](using-admin-roles.md)。|
-|将为谁分配 Teams 通信支持工程师角色？|若要分配管理员角色，请参阅[使用 Active Directory 为用户分配管理员和非管理员角色](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
+|将为谁分配 Teams 通信支持工程师角色？|若要分配管理员角色，请参阅[使用 Active Directory 为用户分配管理员和非管理员角色](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
 |将为谁分配 Teams 通信支持专家角色？||
 |||
 
@@ -119,7 +119,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 | 询问你自己 | 操作 |
 |--------------|--------|
 |是否要为我的用户购买个人设备？ |请阅读[在 Microsoft Teams 中管理设备](devices/device-management.md)。 |
-|是否要为我的会议室购买和部署会议室系统设备？|请阅读[会议室设备和解决方案](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。|
+|是否要为我的会议室购买和部署会议室系统设备？|请阅读[会议室设备和解决方案](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)。|
 |||
 
 ### <a name="reporting"></a>报告
@@ -181,7 +181,7 @@ Teams 实时事件策略用于管理用户组的事件设置。 可以使用默�
 
 | 询问你自己 | 操作 |
 |--------------|--------|
-| 我需要进行操作什么来部署会议室系统？|请参阅[规划 Microsoft Teams 会议室](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)的相关文章。|
+| 我需要进行操作什么来部署会议室系统？|请参阅[规划 Microsoft Teams 会议室](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)的相关文章。|
 |||
 
 ### <a name="cloud-video-interop"></a>云视频互操作性
