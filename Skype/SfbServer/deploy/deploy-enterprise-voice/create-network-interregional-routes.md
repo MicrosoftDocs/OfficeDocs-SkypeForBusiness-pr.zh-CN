@@ -16,28 +16,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: 创建或修改网络区域间路由，这些路由企业语音 Skype for Business Server 中的呼叫允许控制。
-ms.openlocfilehash: 86b7cf9e41cb20d82f0c3c6edd6bcbd74331d553
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d9ea8def930a075c93effede73ddb3f12d999334
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822492"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093120"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server"></a><span data-ttu-id="97275-103">在 Skype for Business Server 中创建网络区域间路由</span><span class="sxs-lookup"><span data-stu-id="97275-103">Create network interregional routes in Skype for Business Server</span></span>
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a><span data-ttu-id="c6b0c-103">在 Skype for Business Server 中创建网络区域间路由</span><span class="sxs-lookup"><span data-stu-id="c6b0c-103">Create network interregional routes in Skype for Business Server</span></span>
  
-<span data-ttu-id="97275-104">创建或修改网络区域间路由，这些路由企业语音 Skype for Business Server 中的呼叫允许控制。</span><span class="sxs-lookup"><span data-stu-id="97275-104">Create or modify network interregional routes, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
+<span data-ttu-id="c6b0c-104">创建或修改网络区域间路由，这些路由企业语音 Skype for Business Server 中的呼叫允许控制。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-104">Create or modify network interregional routes, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
   
-<span data-ttu-id="97275-105">网络区域间路由定义一对网络区域之间的路由。</span><span class="sxs-lookup"><span data-stu-id="97275-105">A network interregional route defines the route between a pair of network regions.</span></span> <span data-ttu-id="97275-106">呼叫允许控制部署中的每对网络区域都需要网络区域间路由。</span><span class="sxs-lookup"><span data-stu-id="97275-106">Each pair of network regions in your call admission control deployment requires a network interregional route.</span></span> <span data-ttu-id="97275-107">这样部署中的每个网络区域便能够访问任何其他区域。</span><span class="sxs-lookup"><span data-stu-id="97275-107">This enables every network region within the deployment to access every other region.</span></span>
+<span data-ttu-id="c6b0c-105">网络区域间路由定义一对网络区域之间的路由。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-105">A network interregional route defines the route between a pair of network regions.</span></span> <span data-ttu-id="c6b0c-106">呼叫允许控制部署中的每对网络区域都需要网络区域间路由。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-106">Each pair of network regions in your call admission control deployment requires a network interregional route.</span></span> <span data-ttu-id="c6b0c-107">这样部署中的每个网络区域便能够访问任何其他区域。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-107">This enables every network region within the deployment to access every other region.</span></span>
   
-<span data-ttu-id="97275-108">虽然区域链接对区域之间的连接设置了带宽限制，但区域间路由可确定连接从一个区域到另一个区域将遍历的链接路径。</span><span class="sxs-lookup"><span data-stu-id="97275-108">While region links set bandwidth limitations on the connections between regions, an interregional route determines which linked path the connection will traverse from one region to another.</span></span>
+<span data-ttu-id="c6b0c-108">虽然区域链接对区域之间的连接设置了带宽限制，但区域间路由可确定连接从一个区域到另一个区域将遍历的链接路径。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-108">While region links set bandwidth limitations on the connections between regions, an interregional route determines which linked path the connection will traverse from one region to another.</span></span>
   
-<span data-ttu-id="97275-109">在示例拓扑中，必须为三个区域对分别定义网络区域间路由：北美/EMEA、EMEA/APAC 和北美/APAC。</span><span class="sxs-lookup"><span data-stu-id="97275-109">In the example topology, network interregional routes must be defined for each of the three region pairs: North America/EMEA, EMEA/APAC, and North America/APAC.</span></span> 
+<span data-ttu-id="c6b0c-109">在示例拓扑中，必须为三个区域对分别定义网络区域间路由：北美/EMEA、EMEA/APAC 和北美/APAC。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-109">In the example topology, network interregional routes must be defined for each of the three region pairs: North America/EMEA, EMEA/APAC, and North America/APAC.</span></span> 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="97275-110">使用 Skype for Business Server 命令行管理程序创建网络区域间路由</span><span class="sxs-lookup"><span data-stu-id="97275-110">To create network interregional routes by using Skype for Business Server Management Shell</span></span>
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="c6b0c-110">使用 Skype for Business Server 命令行管理程序创建网络区域间路由</span><span class="sxs-lookup"><span data-stu-id="c6b0c-110">To create network interregional routes by using Skype for Business Server Management Shell</span></span>
 
-1. <span data-ttu-id="97275-111">启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**</span><span class="sxs-lookup"><span data-stu-id="97275-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="c6b0c-111">启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**</span><span class="sxs-lookup"><span data-stu-id="c6b0c-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="97275-112">运行 **New-CsNetworkInterRegionRoute** cmdlet 来定义所需路由。</span><span class="sxs-lookup"><span data-stu-id="97275-112">Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes.</span></span> <span data-ttu-id="97275-113">例如，运行：</span><span class="sxs-lookup"><span data-stu-id="97275-113">For example, run:</span></span>
+2. <span data-ttu-id="c6b0c-112">运行 **New-CsNetworkInterRegionRoute** cmdlet 来定义所需路由。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-112">Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes.</span></span> <span data-ttu-id="c6b0c-113">例如，运行：</span><span class="sxs-lookup"><span data-stu-id="c6b0c-113">For example, run:</span></span>
     
    ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -52,39 +52,39 @@ ms.locfileid: "49822492"
    ```
 
     > [!NOTE]
-    > <span data-ttu-id="97275-114">北美/APAC 网络区域间路由需要两个网络区域链接，因为它们之间没有直接网络区域链接。</span><span class="sxs-lookup"><span data-stu-id="97275-114">The North America/APAC network interregional route requires two network region links because there is no direct network region link between them.</span></span> 
+    > <span data-ttu-id="c6b0c-114">北美/APAC 网络区域间路由需要两个网络区域链接，因为它们之间没有直接网络区域链接。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-114">The North America/APAC network interregional route requires two network region links because there is no direct network region link between them.</span></span> 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="97275-115">使用 Skype for Business Server 控制面板创建网络区域间路由</span><span class="sxs-lookup"><span data-stu-id="97275-115">To create network interregional routes by using Skype for Business Server Control Panel</span></span>
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="c6b0c-115">使用 Skype for Business Server 控制面板创建网络区域间路由</span><span class="sxs-lookup"><span data-stu-id="c6b0c-115">To create network interregional routes by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="97275-116">打开 Skype for Business Server 控制面板。</span><span class="sxs-lookup"><span data-stu-id="97275-116">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="c6b0c-116">打开 Skype for Business Server 控制面板。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-116">Open Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="97275-117">在左侧导航栏中，单击“网络配置”。</span><span class="sxs-lookup"><span data-stu-id="97275-117">In the left navigation bar, click **Network Configuration**.</span></span>
+2. <span data-ttu-id="c6b0c-117">在左侧导航栏中，单击“网络配置”。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-117">In the left navigation bar, click **Network Configuration**.</span></span>
     
-3. <span data-ttu-id="97275-118">单击“区域路由”导航按钮。</span><span class="sxs-lookup"><span data-stu-id="97275-118">Click the **Region Route** navigation button.</span></span>
+3. <span data-ttu-id="c6b0c-118">单击“区域路由”导航按钮。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-118">Click the **Region Route** navigation button.</span></span>
     
-4. <span data-ttu-id="97275-119">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="97275-119">Click **New**.</span></span>
+4. <span data-ttu-id="c6b0c-119">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-119">Click **New**.</span></span>
     
-5. <span data-ttu-id="97275-120">在 **"新建区域路由** "页上， **单击"** 名称"，然后键入网络区域间路由的名称。</span><span class="sxs-lookup"><span data-stu-id="97275-120">On the **New Region Route** page, click **Name** and then type a name for the network interregional route.</span></span>
+5. <span data-ttu-id="c6b0c-120">在"**新建区域路由"** 页上，单击"名称"，然后键入网络区域间路由的名称。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-120">On the **New Region Route** page, click **Name** and then type a name for the network interregional route.</span></span>
     
-6. <span data-ttu-id="97275-121">单击“网络区域 #1”，然后在列表中单击要路由到网络区域 #2 的网络区域。</span><span class="sxs-lookup"><span data-stu-id="97275-121">Click **Network Region #1**, and then click a network region in the list that you want to route to Network Region #2.</span></span>
+6. <span data-ttu-id="c6b0c-121">单击“网络区域 #1”，然后在列表中单击要路由到网络区域 #2 的网络区域。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-121">Click **Network Region #1**, and then click a network region in the list that you want to route to Network Region #2.</span></span>
     
-7. <span data-ttu-id="97275-122">单击“网络区域 #2”，然后在列表中单击要路由到网络区域 #1 的网络区域。</span><span class="sxs-lookup"><span data-stu-id="97275-122">Click **Network Region #2**, and then click a network region in the list that you want to route to Network Region #1.</span></span>
+7. <span data-ttu-id="c6b0c-122">单击“网络区域 #2”，然后在列表中单击要路由到网络区域 #1 的网络区域。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-122">Click **Network Region #2**, and then click a network region in the list that you want to route to Network Region #1.</span></span>
     
-8. <span data-ttu-id="97275-123">单击 **"** 网络区域链接 **"** 字段旁边的"添加"，然后添加将在网络区域间路由中使用的网络区域链接。</span><span class="sxs-lookup"><span data-stu-id="97275-123">Click **Add** beside the **Network Region Links** field, and then add a network region link that will be used in the network interregional route.</span></span>
+8. <span data-ttu-id="c6b0c-123">单击 **"** 网络区域 **链接** "字段旁边的"添加"，然后添加将用于网络区域间路由的网络区域链接。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-123">Click **Add** beside the **Network Region Links** field, and then add a network region link that will be used in the network interregional route.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="97275-124">如果要为彼此之间没有直接网络区域链接的两个网络区域创建路由，则必须添加所有必要的链接来完成路由。</span><span class="sxs-lookup"><span data-stu-id="97275-124">If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route.</span></span> <span data-ttu-id="97275-125">例如，北美/APAC 网络区域间路由需要两个网络区域链接，因为它们之间没有直接网络区域链接。</span><span class="sxs-lookup"><span data-stu-id="97275-125">For example, the North America/APAC network interregional route requires two network region links because there is no direct network region link between them.</span></span> 
+    > <span data-ttu-id="c6b0c-124">如果要为彼此之间没有直接网络区域链接的两个网络区域创建路由，则必须添加所有必要的链接来完成路由。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-124">If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route.</span></span> <span data-ttu-id="c6b0c-125">例如，北美/APAC 网络区域间路由需要两个网络区域链接，因为它们之间没有直接网络区域链接。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-125">For example, the North America/APAC network interregional route requires two network region links because there is no direct network region link between them.</span></span> 
   
-9. <span data-ttu-id="97275-126">单击“提交”。</span><span class="sxs-lookup"><span data-stu-id="97275-126">Click **Commit**.</span></span>
+9. <span data-ttu-id="c6b0c-126">单击“提交”。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-126">Click **Commit**.</span></span>
     
-10. <span data-ttu-id="97275-127">要完成为拓扑创建网络区域间路由，请对其他网络区域间路由的设置重复步骤 4 至 9。</span><span class="sxs-lookup"><span data-stu-id="97275-127">To finish creating network interregional routes for your topology, repeat steps 4 through 9 with settings for other network interregional routes.</span></span>
+10. <span data-ttu-id="c6b0c-127">要完成为拓扑创建网络区域间路由，请通过其他网络区域间路由的设置重复步骤 4 到步骤 9。</span><span class="sxs-lookup"><span data-stu-id="c6b0c-127">To finish creating network interregional routes for your topology, repeat steps 4 through 9 with settings for other network interregional routes.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="97275-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="97275-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c6b0c-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c6b0c-128">See also</span></span>
 
-[<span data-ttu-id="97275-129">New-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="97275-129">New-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
+[<span data-ttu-id="c6b0c-129">New-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="c6b0c-129">New-CsNetworkInterRegionRoute</span></span>](/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
-[<span data-ttu-id="97275-130">Get-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="97275-130">Get-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
+[<span data-ttu-id="c6b0c-130">Get-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="c6b0c-130">Get-CsNetworkInterRegionRoute</span></span>](/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
   
-[<span data-ttu-id="97275-131">Set-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="97275-131">Set-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
+[<span data-ttu-id="c6b0c-131">Set-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="c6b0c-131">Set-CsNetworkInterRegionRoute</span></span>](/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
   
-[<span data-ttu-id="97275-132">Remove-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="97275-132">Remove-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)
+[<span data-ttu-id="c6b0c-132">Remove-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="c6b0c-132">Remove-CsNetworkInterRegionRoute</span></span>](/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)

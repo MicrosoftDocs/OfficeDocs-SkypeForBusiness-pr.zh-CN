@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 0171cf8981a9d5500ab950861e23a94a8aa5f19d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d78ea23e55383e7c1614a6fb49fe96d6683035e9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804932"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095706"
 ---
-# <a name="bandwidth-policy-profile"></a><span data-ttu-id="6ac0b-104">带宽策略配置文件</span><span class="sxs-lookup"><span data-stu-id="6ac0b-104">Bandwidth Policy Profile</span></span>
+# <a name="bandwidth-policy-profile"></a><span data-ttu-id="854f9-104">带宽策略配置文件</span><span class="sxs-lookup"><span data-stu-id="854f9-104">Bandwidth Policy Profile</span></span>
 
-<span data-ttu-id="6ac0b-105">要执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="6ac0b-105">What do you want to do?</span></span> <span data-ttu-id="6ac0b-106">单击要执行的任务的链接。</span><span class="sxs-lookup"><span data-stu-id="6ac0b-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="854f9-105">要执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="854f9-105">What do you want to do?</span></span> <span data-ttu-id="854f9-106">单击要执行的任务的链接。</span><span class="sxs-lookup"><span data-stu-id="854f9-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="6ac0b-107">配置带宽策略配置文件</span><span class="sxs-lookup"><span data-stu-id="6ac0b-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [<span data-ttu-id="854f9-107">配置带宽策略配置文件</span><span class="sxs-lookup"><span data-stu-id="854f9-107">Configuring Bandwidth Policy Profile</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-bandwidth-policy-profiles)
 
-<span data-ttu-id="6ac0b-108">有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="6ac0b-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="854f9-108">有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)</span><span class="sxs-lookup"><span data-stu-id="854f9-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
