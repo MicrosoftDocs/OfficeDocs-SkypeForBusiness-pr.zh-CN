@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Skype for Business Server 2015 文档
-summary: 了解如何实施 Skype for Business Server 2015。
+summary: 了解如何实现 Skype for Business Server 2015。
 metadata:
   title: Skype for Business Server 2015 文档
-  description: 了解如何实施 Skype for Business Server 2015。
+  description: 了解如何实现 Skype for Business Server 2015。
   ms.service: skype-for-business-online
   audience: ITPro
   ms.topic: landing-page
@@ -11,25 +11,25 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: ec8397ba718cf31a5b92f9b4ce8c26f6e5b709be
-  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.openlocfilehash: cdd61230fc047091d30aa1cc6eebb20057e9288c
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 07/21/2020
-  ms.locfileid: "45189336"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51118501"
 landingContent:
 - title: 关于 Skype for Business Server 2015
   linkLists:
   - linkListType: overview
     links:
     - text: 环境要求
-      url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
+      url: ./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md
     - text: 网络要求
-      url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
+      url: ./plan-your-deployment/network-requirements/network-requirements.md
     - text: Skype 会议直播
       url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
-    - text: 技术图表
-      url: /SkypeForBusiness/technical-diagrams
+    - text: 技术图示
+      url: ./technical-diagrams.md
   - linkListType: download
     links:
     - text: 立即下载！
@@ -39,38 +39,38 @@ landingContent:
   - linkListType: overview
     links:
     - text: 规划部署
-      url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
+      url: ./plan-your-deployment/plan-your-deployment.md
     - text: 规划混合连接
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
     - text: 规划客户端和设备
-      url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
+      url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
     - text: 规划企业语音解决方案
-      url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
+      url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
 - title: 安装和管理
   linkLists:
   - linkListType: deploy
     links:
     - text: 部署 Skype for Business Server
-      url: /SkypeForBusiness/deploy/deploy
+      url: ./deploy/deploy.md
     - text: 安装 Skype for Business Server
-      url: /SkypeForBusiness/deploy/install/install
+      url: ./deploy/install/install.md
     - text: 升级到 Skype for Business Server
-      url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
+      url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: 部署企业语音
-      url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+      url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
     - text: 为 Skype 会议直播配置本地部署
-      url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
+      url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
     - text: 管理 Skype for Business Server
-      url: /SkypeForBusiness/manage/manage
+      url: ./manage/manage.md
 - title: 其他资源
   linkLists:
   - linkListType: overview
     links:
-    - text: Skype for Business 就绪系列
+    - text: Skype for Business 准备情况系列
       url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
     - text: Skype for Business Server 2019 文档
-      url: /SkypeForBusiness/skype-for-business-server-2019
+      url: ../SfBServer2019/skype-for-business-server-2019.yml
     - text: Lync Server 2013 文档
       url: /lyncserver/microsoft-lync-server-2013

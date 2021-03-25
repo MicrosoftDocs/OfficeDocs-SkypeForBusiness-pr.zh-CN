@@ -12,25 +12,25 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
-  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/11/2020
-  ms.locfileid: "44805541"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51119031"
 additionalContent:
   sections:
   - title: 面向 IT 专业人员
     items:
     - title: Skype for Business Online
       summary: 在 Office 365 环境中查找用于管理 Skype for Business Online 的资源。
-      url: /SkypeForBusiness/skype-for-business-online
+      url: ../SfbOnline/skype-for-business-online.yml
     - title: 混合解决方案
       summary: 查找有关规划 Skype for Business 混合部署的信息。
-      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+      url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
     - title: Skype for Business Server
       summary: 为您的组织部署和管理 Skype for Business Server。
-      url: /SkypeForBusiness/skype-for-business-server-2019
+      url: ../SfBServer2019/skype-for-business-server-2019.yml
     - title: 适用于 Skype for Business 的 PowerShell 参考
       summary: 了解管理 Skype for Business 和 Skype for Business Online 所需的 PowerShell cmdlet。
       url: /powershell/skype/intro
@@ -45,7 +45,7 @@ additionalContent:
       url: /SkypeForBusiness/room-systems/
     - title: Skype for Business 认证计划
       summary: 了解经认证的解决方案和设备。
-      url: /SkypeForBusiness/certification/overview
+      url: ../SfbPartnerCertification/certification/overview.md
     - title: 疑难解答
       summary: 查找面向 IT 专业人员和管理员的疑难解答和支持资源。
       url: /office/troubleshoot

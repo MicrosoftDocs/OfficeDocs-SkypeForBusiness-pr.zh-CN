@@ -1,5 +1,5 @@
 ---
-title: 为您的组织准备从 Skype for Business 升级到团队
+title: 为组织准备从 Skype for Business 升级到 Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 评估组织的准备情况以接受更改，并准备好一个计划，让用户准备好从 Skype for Business 升级到 Microsoft 团队。
+description: 评估组织接受更改的准备情况，并准备计划让用户准备好从 Skype for Business 升级到 Microsoft Teams。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,28 +20,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf4cd0fcadc87b690b21d91a7e1d4621fc15c85b
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: ddfd7c4f15733d08a82ee77f63da2a08ee15533f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578215"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119041"
 ---
-# <a name="prepare-your-organization"></a><span data-ttu-id="027f6-103">准备您的组织</span><span class="sxs-lookup"><span data-stu-id="027f6-103">Prepare your organization</span></span>
+# <a name="prepare-your-organization"></a><span data-ttu-id="bfab7-103">准备组织</span><span class="sxs-lookup"><span data-stu-id="bfab7-103">Prepare your organization</span></span>
 
-<span data-ttu-id="027f6-104">![升级旅程的阶段，重点关注用户准备阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，重点关注用户准备阶段")</span><span class="sxs-lookup"><span data-stu-id="027f6-104">![Stages of the upgrade journey, with emphasis on User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")</span></span>
+<span data-ttu-id="bfab7-104">![升级过程阶段，着重强调用户准备阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，着重强调用户准备阶段")</span><span class="sxs-lookup"><span data-stu-id="bfab7-104">![Stages of the upgrade journey, with emphasis on User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")</span></span>
 
-<span data-ttu-id="027f6-105">本文是你的升级过程的用户准备阶段的一部分，与技术准备阶段并行完成的活动。</span><span class="sxs-lookup"><span data-stu-id="027f6-105">This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage.</span></span> <span data-ttu-id="027f6-106">在继续之前，请确认您已完成以前阶段中的这些活动：</span><span class="sxs-lookup"><span data-stu-id="027f6-106">Before proceeding, confirm that you've completed these activities from previous stages:</span></span>
+<span data-ttu-id="bfab7-105">本文是升级过程的用户准备阶段（与技术准备阶段并行完成的活动）的一部分。</span><span class="sxs-lookup"><span data-stu-id="bfab7-105">This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage.</span></span> <span data-ttu-id="bfab7-106">在继续之前，请确认已完成之前阶段中的这些活动：</span><span class="sxs-lookup"><span data-stu-id="bfab7-106">Before proceeding, confirm that you've completed these activities from previous stages:</span></span>
 
-- [<span data-ttu-id="027f6-107">已登记项目利益干系人</span><span class="sxs-lookup"><span data-stu-id="027f6-107">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
-- [<span data-ttu-id="027f6-108">已定义项目范围</span><span class="sxs-lookup"><span data-stu-id="027f6-108">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
-- [<span data-ttu-id="027f6-109">了解 Skype for Business 和团队的共存和互操作性</span><span class="sxs-lookup"><span data-stu-id="027f6-109">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
-- [<span data-ttu-id="027f6-110">已选择升级旅程</span><span class="sxs-lookup"><span data-stu-id="027f6-110">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [<span data-ttu-id="bfab7-107">登记项目利益干系人</span><span class="sxs-lookup"><span data-stu-id="bfab7-107">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
+- [<span data-ttu-id="bfab7-108">请确定项目范围</span><span class="sxs-lookup"><span data-stu-id="bfab7-108">Defined your project scope</span></span>](./upgrade-define-project-scope.md)
+- [<span data-ttu-id="bfab7-109">了解 Skype for Business 和 Teams 的共存和互操作性</span><span class="sxs-lookup"><span data-stu-id="bfab7-109">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [<span data-ttu-id="bfab7-110">选择了升级旅程</span><span class="sxs-lookup"><span data-stu-id="bfab7-110">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-<span data-ttu-id="027f6-111">若要实现团队的最大价值，用户必须实际使用它，但让用户更改其工作方式始终很简单。</span><span class="sxs-lookup"><span data-stu-id="027f6-111">To realize maximum value from Teams, users must actually use it, but getting users to change the way they work isn't always easy.</span></span> <span data-ttu-id="027f6-112">花时间了解你的用户并设计正确的准备情况计划有助于帮助更改和加速团队的采纳。</span><span class="sxs-lookup"><span data-stu-id="027f6-112">Taking time to understand your users and design the right readiness plan can help facilitate change and accelerate adoption of Teams.</span></span> <span data-ttu-id="027f6-113">这些活动应与你的技术准备工作并行完成：</span><span class="sxs-lookup"><span data-stu-id="027f6-113">These activities should be completed in parallel with your technical readiness preparation:</span></span>
+<span data-ttu-id="bfab7-111">若要从 Teams 中实现最大价值，用户必须实际使用它，但让用户更改其工作方式并不总是容易。</span><span class="sxs-lookup"><span data-stu-id="bfab7-111">To realize maximum value from Teams, users must actually use it, but getting users to change the way they work isn't always easy.</span></span> <span data-ttu-id="bfab7-112">花时间了解用户并设计适当的准备计划有助于促进 Teams 的变化和加速采用。</span><span class="sxs-lookup"><span data-stu-id="bfab7-112">Taking time to understand your users and design the right readiness plan can help facilitate change and accelerate adoption of Teams.</span></span> <span data-ttu-id="bfab7-113">这些活动应在技术准备准备的同时完成：</span><span class="sxs-lookup"><span data-stu-id="bfab7-113">These activities should be completed in parallel with your technical readiness preparation:</span></span>
 
-- <span data-ttu-id="027f6-114">[评估组织更改准备情况](https://aka.ms/OrgReadiness)：这包括了解你的用户的身份、他们使用新技术的方式以及更改的难易程度。</span><span class="sxs-lookup"><span data-stu-id="027f6-114">[Assessing organizational change readiness](https://aka.ms/OrgReadiness): This includes understanding who your users are, how they'll use the new technology, and how readily they adapt to change.</span></span> <span data-ttu-id="027f6-115">这也是识别特定用户配置文件的机会，这些配置文件将受益于重点加入。</span><span class="sxs-lookup"><span data-stu-id="027f6-115">This is also an opportunity to identify specific user profiles who would benefit from focused onboarding.</span></span>
-- <span data-ttu-id="027f6-116">[准备用户准备情况计划](https://aka.ms/UserReadinessPlan)：包括 "感知"、"培训" 和 "支持" 活动，准备情况计划应满足你的广泛用户基本配置文件，如 [评估更改准备情况](https://aka.ms/OrgReadiness) 文章中所述。</span><span class="sxs-lookup"><span data-stu-id="027f6-116">[Preparing a user readiness plan](https://aka.ms/UserReadinessPlan): Consisting of awareness, training, and support activities, your readiness plan should address both your broad user base and targeted profiles, as identified in the [assessing change readiness](https://aka.ms/OrgReadiness) article.</span></span>
+- <span data-ttu-id="bfab7-114">[评估组织变更就绪](./upgrade-org-change-readiness.md)性：这包括了解你的用户是谁、他们将如何使用新技术，以及他们如何随时适应变化。</span><span class="sxs-lookup"><span data-stu-id="bfab7-114">[Assessing organizational change readiness](./upgrade-org-change-readiness.md): This includes understanding who your users are, how they'll use the new technology, and how readily they adapt to change.</span></span> <span data-ttu-id="bfab7-115">这也是识别从重点载入中获益的特定用户配置文件的机会。</span><span class="sxs-lookup"><span data-stu-id="bfab7-115">This is also an opportunity to identify specific user profiles who would benefit from focused onboarding.</span></span>
+- <span data-ttu-id="bfab7-116">[准备用户准备](./upgrade-user-readiness.md)情况计划：准备计划由认知、培训和支持活动组成，应同时解决广泛的用户群和目标配置文件，如评估更改准备情况一 [文所标识](./upgrade-org-change-readiness.md) 。</span><span class="sxs-lookup"><span data-stu-id="bfab7-116">[Preparing a user readiness plan](./upgrade-user-readiness.md): Consisting of awareness, training, and support activities, your readiness plan should address both your broad user base and targeted profiles, as identified in the [assessing change readiness](./upgrade-org-change-readiness.md) article.</span></span>
 
 > [!Tip]
-> <span data-ttu-id="027f6-117">除了示例升级项目计划和试点测试计划之外，下载模板用户准备材料（如通信和用户调查）的 [升级成功套件](https://aka.ms/UpgradeSuccessKit) 。</span><span class="sxs-lookup"><span data-stu-id="027f6-117">Download the [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan.</span></span>
+> <span data-ttu-id="bfab7-117">除了示例 [升级项目](https://aka.ms/UpgradeSuccessKit) 计划和试点测试计划外，下载模板用户准备情况材料（例如通信和用户调查）的升级成功工具包。</span><span class="sxs-lookup"><span data-stu-id="bfab7-117">Download the [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan.</span></span>
