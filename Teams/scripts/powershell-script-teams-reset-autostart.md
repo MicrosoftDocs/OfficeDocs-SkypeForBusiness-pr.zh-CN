@@ -16,22 +16,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02f21fcc642f33b17efa6ef44878bce567695b4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e2f9b2388cef619728f5ecdd912e61448cc3524c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827502"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117260"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a><span data-ttu-id="019b0-103">PowerShell 脚本示例 - 在 Teams 中重置自动启动设置</span><span class="sxs-lookup"><span data-stu-id="019b0-103">PowerShell script sample - Reset the autostart setting in Teams</span></span>
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a><span data-ttu-id="aa7ca-103">PowerShell 脚本示例 - 在 Teams 中重置自动启动设置</span><span class="sxs-lookup"><span data-stu-id="aa7ca-103">PowerShell script sample - Reset the autostart setting in Teams</span></span>
 
-<span data-ttu-id="019b0-104">使用此脚本可基于每个用户重置 Teams 自动启动设置。</span><span class="sxs-lookup"><span data-stu-id="019b0-104">Use this script to reset the Teams autostart setting on a per-user basis.</span></span> <span data-ttu-id="019b0-105">这包括用户或 Teams 应用设置的任何值。</span><span class="sxs-lookup"><span data-stu-id="019b0-105">This includes any values set by the user or the Teams app.</span></span> <span data-ttu-id="019b0-106">默认情况下，当用户在安装后登录到其计算机时，Teams 会自动启动。</span><span class="sxs-lookup"><span data-stu-id="019b0-106">By default, Teams automatically starts when a user logs in to their computer after it's installed.</span></span>
+<span data-ttu-id="aa7ca-104">使用此脚本可基于每个用户重置 Teams 自动启动设置。</span><span class="sxs-lookup"><span data-stu-id="aa7ca-104">Use this script to reset the Teams autostart setting on a per-user basis.</span></span> <span data-ttu-id="aa7ca-105">这包括用户或 Teams 应用设置的任何值。</span><span class="sxs-lookup"><span data-stu-id="aa7ca-105">This includes any values set by the user or the Teams app.</span></span> <span data-ttu-id="aa7ca-106">默认情况下，当用户在安装后登录到其计算机时，Teams 会自动启动。</span><span class="sxs-lookup"><span data-stu-id="aa7ca-106">By default, Teams automatically starts when a user logs in to their computer after it's installed.</span></span>
 
-<span data-ttu-id="019b0-107">如果已部署 Teams，并且想要将"阻止 [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) 在安装后自动启动组策略"设置设置为禁用 Teams 自动启动，则需要先将"组策略"设置设置为所需的值，然后运行此脚本。</span><span class="sxs-lookup"><span data-stu-id="019b0-107">If you've already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.</span></span>
+<span data-ttu-id="aa7ca-107">如果已部署 Teams，并且想要将"阻止 [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) 在安装后自动启动组策略"设置设置为禁用 Teams 自动启动，则需要先将"组策略"设置设置为所需的值，然后运行此脚本。</span><span class="sxs-lookup"><span data-stu-id="aa7ca-107">If you've already deployed Teams and want to set the [Prevent Microsoft Teams from starting automatically after installation Group Policy setting](../msi-deployment.md#use-group-policy-recommended) to disable Teams autostart, you'll need to first set the Group Policy setting to the value you want, and then run this script.</span></span>
 
-<span data-ttu-id="019b0-108">为用户启动 Teams 后，无法通过使用组策略禁用自动启动设置。</span><span class="sxs-lookup"><span data-stu-id="019b0-108">After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.</span></span>
+<span data-ttu-id="aa7ca-108">为用户启动 Teams 后，无法通过使用组策略禁用自动启动设置。</span><span class="sxs-lookup"><span data-stu-id="aa7ca-108">After Teams is started for a user, the autostart settings can't be disabled by using Group Policy.</span></span>
 
-## <a name="sample-script"></a><span data-ttu-id="019b0-109">示例脚本</span><span class="sxs-lookup"><span data-stu-id="019b0-109">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="aa7ca-109">示例脚本</span><span class="sxs-lookup"><span data-stu-id="aa7ca-109">Sample script</span></span>
 
 ````powershell
 <#
@@ -147,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="019b0-110">相关主题</span><span class="sxs-lookup"><span data-stu-id="019b0-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="aa7ca-110">相关主题</span><span class="sxs-lookup"><span data-stu-id="aa7ca-110">Related topics</span></span>
 
-- [<span data-ttu-id="019b0-111">使用 MSI 安装 Teams</span><span class="sxs-lookup"><span data-stu-id="019b0-111">Install Teams using MSI</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="019b0-112">使用适用于企业的 Microsoft 365 应用部署 Teams</span><span class="sxs-lookup"><span data-stu-id="019b0-112">Deploy Teams with Microsoft 365 Apps for enterprise</span></span>](https://docs.microsoft.com/deployoffice/teams-install)
+- [<span data-ttu-id="aa7ca-111">使用 MSI 安装 Teams</span><span class="sxs-lookup"><span data-stu-id="aa7ca-111">Install Teams using MSI</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="aa7ca-112">使用适用于企业的 Microsoft 365 应用部署 Teams</span><span class="sxs-lookup"><span data-stu-id="aa7ca-112">Deploy Teams with Microsoft 365 Apps for enterprise</span></span>](/deployoffice/teams-install)

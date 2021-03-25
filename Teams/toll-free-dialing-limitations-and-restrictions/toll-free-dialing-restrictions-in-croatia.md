@@ -22,35 +22,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
-ms.openlocfilehash: 568b5ddaa301d7d119ec3577c5b4c7a9630e0554
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区拨打免费电话号码所需的访问代码。
+ms.openlocfilehash: e219f1cdfad9e44f0fd51d5dec249631ef8a2a1e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707928"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116760"
 ---
-# <a name="toll-free-dialing-restrictions-in-croatia"></a><span data-ttu-id="b10a5-105">克罗地亚的免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="b10a5-105">Toll-free dialing restrictions in Croatia</span></span>
+# <a name="toll-free-dialing-restrictions-in-croatia"></a><span data-ttu-id="d7afd-105">克罗地亚的免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="d7afd-105">Toll-free dialing restrictions in Croatia</span></span>
 
-<span data-ttu-id="b10a5-106">[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。</span><span class="sxs-lookup"><span data-stu-id="b10a5-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="d7afd-106">[查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。</span><span class="sxs-lookup"><span data-stu-id="d7afd-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="b10a5-107">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="b10a5-107">**Details**</span></span>|<span data-ttu-id="b10a5-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="b10a5-108">**Description**</span></span>|
+|<span data-ttu-id="d7afd-107">**Details**</span><span class="sxs-lookup"><span data-stu-id="d7afd-107">**Details**</span></span>|<span data-ttu-id="d7afd-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="d7afd-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b10a5-109">是否可以免费通话？</span><span class="sxs-lookup"><span data-stu-id="b10a5-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="b10a5-110">是</span><span class="sxs-lookup"><span data-stu-id="b10a5-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="b10a5-111">拨号格式</span><span class="sxs-lookup"><span data-stu-id="b10a5-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="b10a5-112">0800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="b10a5-112">0800 XXX XXX</span></span> <br/>  <span data-ttu-id="b10a5-113">0800 XXXX</span><span class="sxs-lookup"><span data-stu-id="b10a5-113">0800 XXXX</span></span> <br/> |
-|<span data-ttu-id="b10a5-114">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="b10a5-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="b10a5-115">人力资源</span><span class="sxs-lookup"><span data-stu-id="b10a5-115">HR</span></span>  <br/> |
-|<span data-ttu-id="b10a5-116">已覆盖的岛/地区</span><span class="sxs-lookup"><span data-stu-id="b10a5-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="b10a5-117">不适用</span><span class="sxs-lookup"><span data-stu-id="b10a5-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="b10a5-118">未覆盖的岛/区域</span><span class="sxs-lookup"><span data-stu-id="b10a5-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="b10a5-119">不适用</span><span class="sxs-lookup"><span data-stu-id="b10a5-119">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="b10a5-120">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="b10a5-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="b10a5-121">是</span><span class="sxs-lookup"><span data-stu-id="b10a5-121">Yes</span></span>  <br/> |
-|<span data-ttu-id="b10a5-122">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="b10a5-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="b10a5-123">是</span><span class="sxs-lookup"><span data-stu-id="b10a5-123">Yes</span></span>  <br/> |
-|<span data-ttu-id="b10a5-124">批注、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="b10a5-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="b10a5-125">移动访问： 通话不收费。</span><span class="sxs-lookup"><span data-stu-id="b10a5-125">Mobile access: No airtime charged.</span></span>  <br/> |
+|<span data-ttu-id="d7afd-109">是否提供免费呼叫？</span><span class="sxs-lookup"><span data-stu-id="d7afd-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="d7afd-110">是</span><span class="sxs-lookup"><span data-stu-id="d7afd-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="d7afd-111">拨号格式 () </span><span class="sxs-lookup"><span data-stu-id="d7afd-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="d7afd-112">0800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="d7afd-112">0800 XXX XXX</span></span> <br/>  <span data-ttu-id="d7afd-113">0800 XXXX</span><span class="sxs-lookup"><span data-stu-id="d7afd-113">0800 XXXX</span></span> <br/> |
+|<span data-ttu-id="d7afd-114">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="d7afd-114">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="d7afd-115">人力资源</span><span class="sxs-lookup"><span data-stu-id="d7afd-115">HR</span></span>  <br/> |
+|<span data-ttu-id="d7afd-116">涵盖的岛屿/区域</span><span class="sxs-lookup"><span data-stu-id="d7afd-116">Island/territory covered</span></span>  <br/> |<span data-ttu-id="d7afd-117">不适用</span><span class="sxs-lookup"><span data-stu-id="d7afd-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="d7afd-118">未涵盖的岛屿/区域</span><span class="sxs-lookup"><span data-stu-id="d7afd-118">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="d7afd-119">不适用</span><span class="sxs-lookup"><span data-stu-id="d7afd-119">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="d7afd-120">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="d7afd-120">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="d7afd-121">是</span><span class="sxs-lookup"><span data-stu-id="d7afd-121">Yes</span></span>  <br/> |
+|<span data-ttu-id="d7afd-122">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="d7afd-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="d7afd-123">是</span><span class="sxs-lookup"><span data-stu-id="d7afd-123">Yes</span></span>  <br/> |
+|<span data-ttu-id="d7afd-124">注释、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="d7afd-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="d7afd-125">移动访问： 通话不收费。</span><span class="sxs-lookup"><span data-stu-id="d7afd-125">Mobile access: No airtime charged.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="b10a5-126">相关主题</span><span class="sxs-lookup"><span data-stu-id="b10a5-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d7afd-126">相关主题</span><span class="sxs-lookup"><span data-stu-id="d7afd-126">Related topics</span></span>
 
-[<span data-ttu-id="b10a5-127">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="b10a5-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="d7afd-127">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="d7afd-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="b10a5-128">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="b10a5-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="d7afd-128">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="d7afd-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
- 

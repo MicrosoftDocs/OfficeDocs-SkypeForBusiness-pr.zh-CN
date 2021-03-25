@@ -15,20 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
-description: 默认情况下，中介服务器与前端服务器并排。 出于性能原因，或者如果部署 SIP 中继，则强烈建议在独立池中部署中介服务器。 Skype for Business Server 中的并置功能与在 Lync Server 2013 中一样。 有关详细信息，请参阅下列主题：
-ms.openlocfilehash: 59308a35026798caa648598c864de5fdffffab2f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 默认情况下，中介服务器与前端服务器并排。 出于性能原因，还可以在独立池中部署中介服务器，或者如果部署 SIP 中继（在这种情况下，强烈建议使用独立池）。 Skype for Business Server 中的并置功能与在 Lync Server 2013 中一样。 有关详细信息，请参阅下列主题：
+ms.openlocfilehash: 29d9a24f4dffa3ed709433ac18e3d2d66ff67da3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828952"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116080"
 ---
-# <a name="mediation-collocation-planning-tool"></a><span data-ttu-id="f1c01-106">中介并置 (规划工具) </span><span class="sxs-lookup"><span data-stu-id="f1c01-106">Mediation Collocation (Planning Tool)</span></span>
+# <a name="mediation-collocation-planning-tool"></a><span data-ttu-id="8a49c-106">中介并置 (规划工具) </span><span class="sxs-lookup"><span data-stu-id="8a49c-106">Mediation Collocation (Planning Tool)</span></span>
  
-<span data-ttu-id="f1c01-107">默认情况下，中介服务器与前端服务器并排。</span><span class="sxs-lookup"><span data-stu-id="f1c01-107">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="f1c01-108">出于性能原因，或者如果部署 SIP 中继，则强烈建议在独立池中部署中介服务器。</span><span class="sxs-lookup"><span data-stu-id="f1c01-108">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span> <span data-ttu-id="f1c01-109">Skype for Business Server 中的并置功能与在 Lync Server 2013 中一样。</span><span class="sxs-lookup"><span data-stu-id="f1c01-109">Collocation in Skype for Business Server functions just as it did in Lync Server 2013.</span></span> <span data-ttu-id="f1c01-110">有关详细信息，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="f1c01-110">For details, see the following topics:</span></span>
+<span data-ttu-id="8a49c-107">默认情况下，中介服务器与前端服务器并排。</span><span class="sxs-lookup"><span data-stu-id="8a49c-107">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="8a49c-108">出于性能原因，还可以在独立池中部署中介服务器，或者如果部署 SIP 中继（在这种情况下，强烈建议使用独立池）。</span><span class="sxs-lookup"><span data-stu-id="8a49c-108">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span> <span data-ttu-id="8a49c-109">Skype for Business Server 中的并置功能与在 Lync Server 2013 中一样。</span><span class="sxs-lookup"><span data-stu-id="8a49c-109">Collocation in Skype for Business Server functions just as it did in Lync Server 2013.</span></span> <span data-ttu-id="8a49c-110">有关详细信息，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="8a49c-110">For details, see the following topics:</span></span>
   
-- [<span data-ttu-id="f1c01-111">Lync Server 2013 中支持的服务器并置</span><span class="sxs-lookup"><span data-stu-id="f1c01-111">Supported server collocation in Lync Server 2013</span></span>](https://technet.microsoft.com/library/gg425885%28v=ocs.15%29.aspx)
+- [<span data-ttu-id="8a49c-111">Lync Server 2013 中支持的服务器并置</span><span class="sxs-lookup"><span data-stu-id="8a49c-111">Supported server collocation in Lync Server 2013</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation)
     
-- [<span data-ttu-id="f1c01-112">Skype for Business Server 2015 中的中介服务器组件</span><span class="sxs-lookup"><span data-stu-id="f1c01-112">Mediation Server component in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
-    
-
+- [<span data-ttu-id="8a49c-112">Skype for Business Server 2015 中的中介服务器组件</span><span class="sxs-lookup"><span data-stu-id="8a49c-112">Mediation Server component in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)

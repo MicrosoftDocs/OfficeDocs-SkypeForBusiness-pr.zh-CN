@@ -17,19 +17,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4b0bac09e18a9c6378623066889d6b1a891a4a2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 95b7f12f9d7b531de2c50ba2de197f2f799916a2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809482"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117290"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="7daf8-103">PowerShell 脚本示例 - Teams 部署清理</span><span class="sxs-lookup"><span data-stu-id="7daf8-103">PowerShell script sample - Teams deployment clean up</span></span>
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="e7885-103">PowerShell 脚本示例 - Teams 部署清理</span><span class="sxs-lookup"><span data-stu-id="e7885-103">PowerShell script sample - Teams deployment clean up</span></span>
 
-<span data-ttu-id="7daf8-104">使用此脚本删除 Teams。</span><span class="sxs-lookup"><span data-stu-id="7daf8-104">Use this script to remove Teams.</span></span> <span data-ttu-id="7daf8-105">此脚本卸载 Teams 并删除用户的 Teams 文件夹。</span><span class="sxs-lookup"><span data-stu-id="7daf8-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="7daf8-106">针对计算机上安装 Teams 的每个用户配置文件运行此脚本。</span><span class="sxs-lookup"><span data-stu-id="7daf8-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
+<span data-ttu-id="e7885-104">使用此脚本删除 Teams。</span><span class="sxs-lookup"><span data-stu-id="e7885-104">Use this script to remove Teams.</span></span> <span data-ttu-id="e7885-105">此脚本卸载 Teams 并删除用户的 Teams 文件夹。</span><span class="sxs-lookup"><span data-stu-id="e7885-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="e7885-106">针对计算机上安装 Teams 的每个用户配置文件运行此脚本。</span><span class="sxs-lookup"><span data-stu-id="e7885-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="7daf8-107">示例脚本</span><span class="sxs-lookup"><span data-stu-id="7daf8-107">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="e7885-107">示例脚本</span><span class="sxs-lookup"><span data-stu-id="e7885-107">Sample script</span></span>
 
 ````powershell
 <#
@@ -62,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="7daf8-108">相关主题</span><span class="sxs-lookup"><span data-stu-id="7daf8-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e7885-108">相关主题</span><span class="sxs-lookup"><span data-stu-id="e7885-108">Related topics</span></span>
 
-- [<span data-ttu-id="7daf8-109">使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7daf8-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="7daf8-110">使用 Microsoft 365 应用部署 Teams</span><span class="sxs-lookup"><span data-stu-id="7daf8-110">Deploy Teams with Microsoft 365 Apps</span></span>](https://docs.microsoft.com/deployoffice/teams-install)
+- [<span data-ttu-id="e7885-109">使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e7885-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="e7885-110">使用 Microsoft 365 应用部署 Teams</span><span class="sxs-lookup"><span data-stu-id="e7885-110">Deploy Teams with Microsoft 365 Apps</span></span>](/deployoffice/teams-install)
