@@ -1,5 +1,5 @@
 ---
-title: 配置网络区域链接创建新的或编辑现有的
+title: 配置网络区域链接 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: e51e4f96a3255cba718d14c1ee7957002243c25a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2a528f0029b83ca1ec4ecb83e6ebe12f9bf5f166
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807352"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122603"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>配置网络区域链接：创建新的或编辑现有的
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [配置网络区域链接](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [配置网络区域链接](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-network-region-links)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
-
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)

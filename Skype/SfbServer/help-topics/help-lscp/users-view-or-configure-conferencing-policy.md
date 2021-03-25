@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 9bdb8eb5c21e6a9bf5cf77845ebb99a138b0ab11
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: af0e5a2bce95a3ac4a2e090f1fbef1f45eb25229
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824372"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122506"
 ---
 # <a name="users-view-or-configure-conferencing-policy"></a>用户：查看或配置会议策略
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [分配会议策略以修改用户的默认会议体验](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [分配会议策略以修改用户的默认会议体验](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-conferencing-policy)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
-
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)

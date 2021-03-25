@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要定义受信任应用程序池的完全限定的域名 (FQDN)，请指定以下内容：
-ms.openlocfilehash: e34c3ba68a90e292da9441465d9077112b1ce173
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 575d4b5464b4a109bc34908f8cb86b802a20a5c0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811812"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122673"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>添加信任的应用程序池 FQDN
  
@@ -33,6 +33,4 @@ ms.locfileid: "49811812"
 > [!IMPORTANT]
 > 以后无法将单个受信任应用程序服务器转换成服务器池。如果认为将来可能需要池，则现在可以部署包含单个计算机的多服务器池并在需要时添加服务器。 
   
-有关受信任应用程序池的详细信息，请参阅 [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps)。
-  
-
+有关受信任应用程序池的详细信息，请参阅 [New-CsTrustedApplicationPool](/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps)。

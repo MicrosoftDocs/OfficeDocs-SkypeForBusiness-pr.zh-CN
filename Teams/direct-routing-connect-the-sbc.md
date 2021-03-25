@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何配置 SBC 并连接到电话系统直接路由。
-ms.openlocfilehash: 72075e7a7aed0196ac883d5f81069f2517c9fd9c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 697f426b9c9dc3215d653520658282fab1787001
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875062"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122246"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>将会话边界控制器 (SBC) 直接路由
 
@@ -57,7 +57,7 @@ ms.locfileid: "50875062"
 
 ### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>使用 PowerShell 连接到 Skype for Business Online
 
-可以使用连接到租户的 PowerShell 会话将 SBC 与直接路由接口配对。 若要打开 PowerShell 会话，请执行为计算机设置[Windows PowerShell。](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+可以使用连接到租户的 PowerShell 会话将 SBC 与直接路由接口配对。 若要打开 PowerShell 会话，请执行为计算机设置[Windows PowerShell。](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
  
 建立远程 PowerShell 会话后，请验证是否可以看到用于管理 SBC 的命令。 若要验证命令，请在 PowerShell 会话中键入或复制并粘贴以下命令，然后按 Enter： 
 
@@ -78,7 +78,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 ### <a name="connect-the-sbc-to-the-tenant"></a>将 SBC 连接到租户
 
-使用 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet 将 SBC 连接到租户。 在 PowerShell 会话中，键入以下内容，然后按 Enter：
+使用 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet 将 SBC 连接到租户。 在 PowerShell 会话中，键入以下内容，然后按 Enter：
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true
@@ -111,7 +111,7 @@ Enabled               : True
 </pre>
 
 > [!NOTE]
-> 此示例只显示所需的最小参数。 在连接过程中，可以使用 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet 设置其他参数。 有关详细信息，请参阅 [SBC 设置](#sbc-settings)。
+> 此示例只显示所需的最小参数。 在连接过程中，可以使用 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet 设置其他参数。 有关详细信息，请参阅 [SBC 设置](#sbc-settings)。
  
 ### <a name="verify-the-sbc-connection"></a>验证 SBC 连接
 
@@ -122,7 +122,7 @@ Enabled               : True
  
 #### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>检查 SBC 是否位于配对的 SBC 列表中
 
-连接 SBC 后，使用 [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) cmdlet 验证 SBC 是否存在于配对的 SBC 列表中。 在远程 PowerShell 会话中键入以下内容，然后按 Enter：
+连接 SBC 后，使用 [Get-CsOnlinePSTNGateway](/powershell/module/skype/get-csonlinepstngateway) cmdlet 验证 SBC 是否存在于配对的 SBC 列表中。 在远程 PowerShell 会话中键入以下内容，然后按 Enter：
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -156,7 +156,7 @@ Enabled               : True
 
 ## <a name="sbc-settings"></a>SBC 设置
 
-下表列出了可以在 Microsoft Teams 管理中心使用 [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet 为 SBC 设置的选项。
+下表列出了可以在 Microsoft Teams 管理中心使用 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet 为 SBC 设置的选项。
 
 |必填？|Microsoft Teams 管理中心设置|PowerShell 参数|描述|默认值|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|

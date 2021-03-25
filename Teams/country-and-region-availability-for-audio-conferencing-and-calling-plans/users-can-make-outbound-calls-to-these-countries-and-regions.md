@@ -1,5 +1,5 @@
 ---
-title: 对这些国家/地区进行出站通话
+title: 对这些国家/地区进行出站呼叫
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 本主题收录了有通话套餐的用户可以拨出通话的所有国家/地区。
-ms.openlocfilehash: 4e41235473436e326d19f42d8e838d5508becf97
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6287fb3adb1532ffa423cd9becd65b2f1028b604
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141045"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122256"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以向这些国家/地区拨出通话
 
@@ -93,7 +93,6 @@ ms.locfileid: "43141045"
 
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
   
- 

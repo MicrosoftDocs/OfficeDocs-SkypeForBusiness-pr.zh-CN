@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 了解如何使用呼叫暂停和检索在 Microsoft Teams 中保留呼叫。
-ms.openlocfilehash: efc36a2bc90b64abf2e886c5e768a26704bd6550
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102798"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197577"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
@@ -61,7 +61,7 @@ ms.locfileid: "51102798"
 
 若要使策略正常工作，必须将其分配给用户。 可以 [单独向用户分配策略](assign-policies.md) 或将其分配到组。
 
-将呼叫部件策略分配给组
+将呼叫停放策略分配给组
 
 1. 在"**呼叫公园策略"** 页上的"组 **策略分配**"选项卡上，单击"**添加组"。**
 2. 搜索想要使用的组，然后单击"添加 **"。**

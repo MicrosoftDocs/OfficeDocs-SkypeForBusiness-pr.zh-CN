@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解音频会议、电话系统、呼叫计划、通信信用额度以及收费和免费电话号码在一个或多个国家/地区是否可用。
-ms.openlocfilehash: 85868a57105c53aceb43ff92221ed440329ab73f
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875122"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122266"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -161,11 +161,11 @@ ms.locfileid: "50875122"
 
 ***
 
-验证其中一个 Skype for Business 或 Microsoft Teams 服务是否可用后，可以看到 [Skype for Business](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 和 Microsoft Teams 附加许可，以帮助你购买许可证并将其分配给用户。
+验证其中一个 Skype for Business 或 Microsoft Teams 服务是否可用后，可以看到 [Skype for Business](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 和 Microsoft Teams 附加许可，以帮助你购买许可证并将其分配给用户。
 
 > [!NOTE]
 >
-> 如果需要为用户获取更多电话号码，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)；或如果需要电话号码请求表单，请参阅[管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+> 如果需要为用户获取更多电话号码，请参阅[为用户获取电话号码](../getting-phone-numbers-for-your-users.md)；或如果需要电话号码请求表单，请参阅[管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 ## <a name="want-to-learn-more-about-these-services"></a>想要了解有关这些服务的更多信息
 
@@ -195,7 +195,7 @@ ms.locfileid: "50875122"
 
 使用电话系统，可以创建自动助理和呼叫队列 (收费或免费电话号码) 接听组织的传入呼叫。 当你为用户添加呼叫计划时，他们可以使用 Skype for Business 处理基本的呼叫控制任务，例如拨打和接听呼叫、转接呼叫以及静音和取消静音呼叫。 **电话系统** 用户单击其通讯簿中的姓名，Skype for Business 将呼叫此人。 为了拨打和接听呼叫， **电话** 系统用户使用其移动设备、带笔记本电脑或电脑的耳机，或许多使用 Skype for Business 的 IP 电话之一。
 
-> 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 除了为单个用户获取电话号码外，还可以搜索和获取音频会议 (（用于会议网桥) 、自动助理和呼叫队列）等服务的收费或免费电话号码。 这些称为“服务号码”。 若要获取电话号码，请参阅[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。 不过，对于用户，在将通话套餐分配给他们后，你可以分配用户电话号码，以便他们能够拨打和接听电话。 若要查找这些电话号码，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。 还可以参阅[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
+> 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 除了为单个用户获取电话号码外，还可以搜索和获取音频会议 (（用于会议网桥) 、自动助理和呼叫队列）等服务的收费或免费电话号码。 这些称为“服务号码”。 若要获取电话号码，请参阅[获取服务电话号码](../getting-service-phone-numbers.md)。 不过，对于用户，在将通话套餐分配给他们后，你可以分配用户电话号码，以便他们能够拨打和接听电话。 若要查找这些电话号码，请参阅[为用户获取电话号码](../getting-phone-numbers-for-your-users.md)。 还可以参阅[为用户分配、更改或删除电话号码](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
 [电话系统定价](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -208,7 +208,7 @@ ms.locfileid: "50875122"
 
 除了电话系统外，用户还可以通过通话套餐拨打和接听电话。 首先获取一个用户 (订阅) 电话号码 (而不是分配给) 的服务号码，然后分配呼叫计划。 有两种类型的通话套餐可用：**国内** 以及 **国内和国际**。 有关详细信息，请参阅[电话系统和通话套餐](../calling-plan-landing-page.md)。
 
-有关许可信息，还可以参阅[电话系统和通话套餐许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+有关许可信息，还可以参阅[电话系统和通话套餐许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 > [!NOTE]
 > 国家/地区基于“Microsoft 365 管理中心” > “活动用户”中的用户许可证位置，而 **不是** 基于“Microsoft 365 管理中心”中“组织资料”下列出的帐单邮寄地址。
@@ -219,7 +219,7 @@ ms.locfileid: "50875122"
   
 下面列出了可以获取用于音频会议和通话套餐的收费服务号码的首都和主要城市。 你将使用 Skype for Business 管理中心从这些位置获取 **收费服务号码**。
   
-若要获取收费或免费服务号码，请参阅获取 [服务电话号码](/microsoftteams/getting-service-phone-numbers)。 如果已经有一个收费或免费服务号码，希望从不同的提供商转移，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+若要获取收费或免费服务号码，请参阅获取 [服务电话号码](../getting-service-phone-numbers.md)。 如果已经有一个收费或免费服务号码，希望从不同的提供商转移，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 使用页面顶部的下拉列表搜索国家/地区，以确定哪些服务可用。
 
@@ -231,4 +231,4 @@ ms.locfileid: "50875122"
 
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)

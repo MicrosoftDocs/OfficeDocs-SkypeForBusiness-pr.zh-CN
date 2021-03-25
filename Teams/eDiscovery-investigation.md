@@ -17,12 +17,12 @@ description: 了解需要执行电子数据展示（例如，需要提交所有�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3990b96981a65bb4d706cc3141abee10102c0839
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ca1a679fbdce7ca2840c41266053cf13f1452fe0
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094052"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197527"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -54,6 +54,7 @@ ms.locfileid: "51094052"
 |反应 (，如喜欢、心声和其他反应)  | 否 | |
 |主题 | 是 | |
 |表 | 是 | |
+|源通知 | 否 | |
 |||
 
 <sup>1</sup> 会议 (呼叫) 元数据包括以下内容：

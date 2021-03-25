@@ -18,12 +18,12 @@ description: 了解如何配置 Microsoft 呼叫计划和电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca2fb94ff67f2efa874e670926330f8f3630cbe2
-ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
+ms.openlocfilehash: 73b894b0eb02b8f860a3486251dab002832f4d46
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741883"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122326"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -85,7 +85,7 @@ PSAP (PSAP) 自动路由的能力因 Teams 用户的使用国家/地区而异。
 - Teams 会议室版本 4.4.25.0 及更高
 
 > [!NOTE]
-> Teams Web 客户端不支持动态紧急呼叫，包括安全服务台通知。 若要防止用户使用 Teams Web 客户端呼叫 PSTN 号码，可以设置 Teams 呼叫策略并关闭"允许 **Web PSTN 呼叫"** 设置。 有关详细信息，请参阅在[Teams 中调用策略](teams-calling-policy.md)和[Set-CsTeamsCallingPolicy。](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+> Teams Web 客户端不支持动态紧急呼叫，包括安全服务台通知。 若要防止用户使用 Teams Web 客户端呼叫 PSTN 号码，可以设置 Teams 呼叫策略并关闭"允许 **Web PSTN 呼叫"** 设置。 有关详细信息，请参阅在[Teams 中调用策略](teams-calling-policy.md)和[Set-CsTeamsCallingPolicy。](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 
 ## <a name="assign-emergency-addresses"></a>分配紧急地址
 
@@ -159,10 +159,10 @@ Teams 客户端从与不同网络标识符关联的位置获取紧急地址。 �
 
 使用以下 cmdlet 将端口、交换机、子网和 WAP 添加到 LIS。
 
-- [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、 [设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、 [删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
-- [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps)、 [设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps)、 [删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
-- [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、 [设置](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)、 [删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
-- [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、 [设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、 [删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
+- [获取](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、 [设置](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、 [删除](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
+- [获取](/powershell/module/skype/get-csonlinelisport?view=skype-ps)、 [设置](/powershell/module/skype/set-csonlinelisport?view=skype-ps)、 [删除](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
+- [获取](/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、 [设置](/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)、 [删除](/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
+- [获取](/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、 [设置](/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、 [删除](/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
 >[!Important]
 >如果将子网用作网络网站的一部分，则必须在位置信息服务中重新定义子网，以呈现动态位置。
