@@ -15,16 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server 25 中的移动功能支持移动设备上的 Skype for Business 功能。 有关详细信息，请参阅规划移动功能。
-ms.openlocfilehash: b3facf5dc9696f8e417109865a65cafab6580058
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server 25 中的移动功能支持移动设备上的 Skype for Business 功能。 有关详细信息，请参阅 Planning for Mobility。
+ms.openlocfilehash: c61a619f994f2cc835d658f40f4ce442d40250e4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801112"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121742"
 ---
-# <a name="client-settings-planning-tool"></a><span data-ttu-id="81bbc-104">规划工具 (客户端) </span><span class="sxs-lookup"><span data-stu-id="81bbc-104">Client Settings (Planning Tool)</span></span>
+# <a name="client-settings-planning-tool"></a><span data-ttu-id="1c6fe-104">规划工具 (客户端) </span><span class="sxs-lookup"><span data-stu-id="1c6fe-104">Client Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="81bbc-105">Skype for Business Server 中的移动功能支持移动设备上的 Skype for Business 功能。</span><span class="sxs-lookup"><span data-stu-id="81bbc-105">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="81bbc-106">有关详细信息，请参阅 [规划移动功能](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)。</span><span class="sxs-lookup"><span data-stu-id="81bbc-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
-
-
+<span data-ttu-id="1c6fe-105">Skype for Business Server 中的移动功能支持移动设备上的 Skype for Business 功能。</span><span class="sxs-lookup"><span data-stu-id="1c6fe-105">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="1c6fe-106">有关详细信息，请参阅 [Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)。</span><span class="sxs-lookup"><span data-stu-id="1c6fe-106">For details, see [Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).</span></span>

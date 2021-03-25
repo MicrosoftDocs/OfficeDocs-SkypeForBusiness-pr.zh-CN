@@ -21,84 +21,83 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: 呼叫方 ID 可以通过使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫。
-ms.openlocfilehash: cd2074fec3027f1172b6ea681013f53994963cb5
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+description: 可以使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫的来电显示。
+ms.openlocfilehash: e723311b2780dd1d43bad4874b72133e09ff4fc3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255445"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120673"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a><span data-ttu-id="5ca6f-103">如何在你的组织中使用来电显示</span><span class="sxs-lookup"><span data-stu-id="5ca6f-103">How can caller ID be used in your organization</span></span>
+# <a name="how-can-caller-id-be-used-in-your-organization"></a><span data-ttu-id="0336a-103">如何在你的组织中使用来电显示</span><span class="sxs-lookup"><span data-stu-id="0336a-103">How can caller ID be used in your organization</span></span>
 
-<span data-ttu-id="5ca6f-104">呼叫方 ID 可以通过使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-104">Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity.</span></span>
+<span data-ttu-id="0336a-104">可以使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫的来电显示。</span><span class="sxs-lookup"><span data-stu-id="0336a-104">Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity.</span></span>
   
-<span data-ttu-id="5ca6f-105">无论 PSTN 连接如何，所有电话系统用户均可使用呼叫方 ID 功能：</span><span class="sxs-lookup"><span data-stu-id="5ca6f-105">The caller ID functionality is available to all Phone System users regardless of PSTN connectivity:</span></span>
+<span data-ttu-id="0336a-105">无论 PSTN 连接如何，呼叫方 ID 功能都可供所有电话系统用户使用：</span><span class="sxs-lookup"><span data-stu-id="0336a-105">The caller ID functionality is available to all Phone System users regardless of PSTN connectivity:</span></span>
 
-- <span data-ttu-id="5ca6f-106">Microsoft 通话计划</span><span class="sxs-lookup"><span data-stu-id="5ca6f-106">Microsoft Calling Plans</span></span> 
+- <span data-ttu-id="0336a-106">Microsoft 通话套餐</span><span class="sxs-lookup"><span data-stu-id="0336a-106">Microsoft Calling Plans</span></span> 
 
-- <span data-ttu-id="5ca6f-107">电话系统直接路由</span><span class="sxs-lookup"><span data-stu-id="5ca6f-107">Phone System Direct Routing</span></span> 
+- <span data-ttu-id="0336a-107">电话系统直接路由</span><span class="sxs-lookup"><span data-stu-id="0336a-107">Phone System Direct Routing</span></span> 
   
-- <span data-ttu-id="5ca6f-108">在线 PSTN 连接</span><span class="sxs-lookup"><span data-stu-id="5ca6f-108">Online PSTN Connectivity</span></span>
+- <span data-ttu-id="0336a-108">在线 PSTN 连接</span><span class="sxs-lookup"><span data-stu-id="0336a-108">Online PSTN Connectivity</span></span>
     
-- <span data-ttu-id="5ca6f-109">使用 Skype for Business Cloud Connector Edition 的内部部署 PSTN 连接（要求使用 Cloud Connector Edition 1.4.2 及更高版本）</span><span class="sxs-lookup"><span data-stu-id="5ca6f-109">On-Premises PSTN Connectivity with Skype for Business Cloud Connector Edition (requires Cloud Connector Edition 1.4.2 and beyond)</span></span>
+- <span data-ttu-id="0336a-109">使用 Skype for Business Cloud Connector Edition 的内部部署 PSTN 连接（要求使用 Cloud Connector Edition 1.4.2 及更高版本）</span><span class="sxs-lookup"><span data-stu-id="0336a-109">On-Premises PSTN Connectivity with Skype for Business Cloud Connector Edition (requires Cloud Connector Edition 1.4.2 and beyond)</span></span>
     
-- <span data-ttu-id="5ca6f-110">使用 Skype for Business Server 的内部部署 PSTN 连接（要求使用 Skype for Business Server 2015 CU5 及更高版本）</span><span class="sxs-lookup"><span data-stu-id="5ca6f-110">On-Premises PSTN Connectivity with Skype for Business Server (requires Skype for Business Server 2015 CU5 and beyond)</span></span>
+- <span data-ttu-id="0336a-110">使用 Skype for Business Server 的内部部署 PSTN 连接（要求使用 Skype for Business Server 2015 CU5 及更高版本）</span><span class="sxs-lookup"><span data-stu-id="0336a-110">On-Premises PSTN Connectivity with Skype for Business Server (requires Skype for Business Server 2015 CU5 and beyond)</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="5ca6f-111">[!注释] 此策略在 Skype for Business 2015 Server 上不可用。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-111">This policy isn't available in Skype for Business 2015 Server.</span></span> 
+> <span data-ttu-id="0336a-111">[!注释] 此策略在 Skype for Business 2015 Server 上不可用。</span><span class="sxs-lookup"><span data-stu-id="0336a-111">This policy isn't available in Skype for Business 2015 Server.</span></span> 
   
-## <a name="outbound-caller-id"></a><span data-ttu-id="5ca6f-112">出站来电显示</span><span class="sxs-lookup"><span data-stu-id="5ca6f-112">Outbound caller ID</span></span>
+## <a name="outbound-caller-id"></a><span data-ttu-id="0336a-112">出站来电显示</span><span class="sxs-lookup"><span data-stu-id="0336a-112">Outbound caller ID</span></span>
 
-<span data-ttu-id="5ca6f-113">出站 PSTN 呼叫方 ID 有三个可用选项：</span><span class="sxs-lookup"><span data-stu-id="5ca6f-113">There are three options available for outbound PSTN caller ID:</span></span>
+<span data-ttu-id="0336a-113">出站 PSTN 呼叫者 ID 有三个选项可用：</span><span class="sxs-lookup"><span data-stu-id="0336a-113">There are three options available for outbound PSTN caller ID:</span></span>
   
-- <span data-ttu-id="5ca6f-114">分配给用户的电话号码（默认值）。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-114">The telephone number assigned to the user, which is the default.</span></span>
+- <span data-ttu-id="0336a-114">分配给用户的电话号码，这是默认设置。</span><span class="sxs-lookup"><span data-stu-id="0336a-114">The telephone number assigned to the user, which is the default.</span></span>
     
-- <span data-ttu-id="5ca6f-115">您的通话计划电话号码库存中归类为*服务*和免费号码的*电话号码。*</span><span class="sxs-lookup"><span data-stu-id="5ca6f-115">A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans telephone number inventory.</span></span> <span data-ttu-id="5ca6f-116">它通常分配给组织的自动助理或呼叫队列。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-116">It is usually assigned to an organizational auto attendant or call queue.</span></span>
+- <span data-ttu-id="0336a-115">在"呼叫计划"电话号码清单中分类为服务和免费电话号码的电话号码。</span><span class="sxs-lookup"><span data-stu-id="0336a-115">A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans telephone number inventory.</span></span> <span data-ttu-id="0336a-116">它通常分配给组织的自动助理或呼叫队列。</span><span class="sxs-lookup"><span data-stu-id="0336a-116">It is usually assigned to an organizational auto attendant or call queue.</span></span>
     
-- <span data-ttu-id="5ca6f-117">设置为匿名。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-117">Set to anonymous.</span></span>
+- <span data-ttu-id="0336a-117">设置为匿名。</span><span class="sxs-lookup"><span data-stu-id="0336a-117">Set to anonymous.</span></span>
     
-<span data-ttu-id="5ca6f-118">但你不能为出站来电显示分配以下类型的电话号码：</span><span class="sxs-lookup"><span data-stu-id="5ca6f-118">However, you can't assign these types of phone numbers for the outbound caller ID:</span></span>
+<span data-ttu-id="0336a-118">但你不能为出站来电显示分配以下类型的电话号码：</span><span class="sxs-lookup"><span data-stu-id="0336a-118">However, you can't assign these types of phone numbers for the outbound caller ID:</span></span>
   
-- <span data-ttu-id="5ca6f-119">在您的通话计划中分类为  *用户*  的任何电话号码，电话号码库存</span><span class="sxs-lookup"><span data-stu-id="5ca6f-119">Any phone numbers that are classified as a  *user*  in your Calling Plans telephone number inventory</span></span>
+- <span data-ttu-id="0336a-119">在"呼叫计划"电话号码清单  *中分类*  为用户的任何电话号码</span><span class="sxs-lookup"><span data-stu-id="0336a-119">Any phone numbers that are classified as a  *user*  in your Calling Plans telephone number inventory</span></span>
     
-- <span data-ttu-id="5ca6f-120">Skype for Business Server 内部部署电话号码</span><span class="sxs-lookup"><span data-stu-id="5ca6f-120">A Skype for Business Server on-premises phone number</span></span>
+- <span data-ttu-id="0336a-120">Skype for Business Server 内部部署电话号码</span><span class="sxs-lookup"><span data-stu-id="0336a-120">A Skype for Business Server on-premises phone number</span></span>
     
-<span data-ttu-id="5ca6f-121">要设置出站来电显示，请参见[为用户设置来电显示](/microsoftteams/set-the-caller-id-for-a-user)。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-121">To set the outbound caller ID, see [Set the Caller ID for a user](/microsoftteams/set-the-caller-id-for-a-user).</span></span>
+<span data-ttu-id="0336a-121">要设置出站来电显示，请参见[为用户设置来电显示](./set-the-caller-id-for-a-user.md)。</span><span class="sxs-lookup"><span data-stu-id="0336a-121">To set the outbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).</span></span>
   
-### <a name="end-user-control-of-outbound-caller-id"></a><span data-ttu-id="5ca6f-122">终端用户对出站呼叫程序 ID 的控制</span><span class="sxs-lookup"><span data-stu-id="5ca6f-122">End user control of outbound caller ID</span></span>
+### <a name="end-user-control-of-outbound-caller-id"></a><span data-ttu-id="0336a-122">出站来电显示最终用户控制</span><span class="sxs-lookup"><span data-stu-id="0336a-122">End user control of outbound caller ID</span></span>
 
-<span data-ttu-id="5ca6f-123">EnableUserOverride 属性允许单个或多个用户将其来电显示设置更改为 **匿名**。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-123">The EnableUserOverride attribute enables single or multiple users to change their caller ID setting to **Anonymous**.</span></span> <span data-ttu-id="5ca6f-124">仅当 CallingLineIdentity 策略配置了 CallingIDSubstitute 参数 LineURI 或 Substitute 时适用。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-124">This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute.</span></span> <span data-ttu-id="5ca6f-125">EnableUserOverride 的默认值是 False。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-125">The default value of EnableUserOverride is False.</span></span>
+<span data-ttu-id="0336a-123">EnableUserOverride 属性允许单个或多个用户将呼叫者 ID 设置更改为 **匿名**。</span><span class="sxs-lookup"><span data-stu-id="0336a-123">The EnableUserOverride attribute enables single or multiple users to change their caller ID setting to **Anonymous**.</span></span> <span data-ttu-id="0336a-124">仅当 CallingLineIdentity 策略配置了 CallingIDSubstitute 参数 LineURI 或 Substitute 时适用。</span><span class="sxs-lookup"><span data-stu-id="0336a-124">This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute.</span></span> <span data-ttu-id="0336a-125">EnableUserOverride 的默认值是 False。</span><span class="sxs-lookup"><span data-stu-id="0336a-125">The default value of EnableUserOverride is False.</span></span>
   
-<span data-ttu-id="5ca6f-126">你的最终用户可以使用 Skype for Business 桌面客户端中的 "**设置**" 选项卡将其来电显示设置为**匿名**，选择 "如果由管理员) 启用了**终端用户** (，请选择" 对**所有呼叫隐藏我的电话号码和配置文件信息**"。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-126">Your end users can set their caller ID to **Anonymous** by using the **Settings** tab in the Skype for Business desktop client, select **Calls an End User** (if enabled by admin), and then select **Hide my phone number and profile information for all calls**.</span></span> <span data-ttu-id="5ca6f-127">在团队中，用户可以在右上角转到其个人资料图片，选择 "**设置**  >  **呼叫**"，然后在 "**来电**显示" 下，选择 "**隐藏所有呼叫的电话号码和配置文件信息**"。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-127">In Teams, users can go to their profile picture in the upper-right corner, select **Settings** > **Calls**,  and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.</span></span>
+<span data-ttu-id="0336a-126">最终用户可以使用 Skype for Business桌面客户端中的"设置"选项卡将其来电显示设置为"匿名"，选择"呼叫最终用户 **("（** 如果管理员) 已启用），然后选择"隐藏我的电话号码和个人资料信息"作为所有 **呼叫**。</span><span class="sxs-lookup"><span data-stu-id="0336a-126">Your end users can set their caller ID to **Anonymous** by using the **Settings** tab in the Skype for Business desktop client, select **Calls an End User** (if enabled by admin), and then select **Hide my phone number and profile information for all calls**.</span></span> <span data-ttu-id="0336a-127">在 Teams 中，用户可以转到右上角的个人资料图片，选择"设置呼叫"，然后在"来电显示"下，选择"隐藏我的电话号码和个人资料信息"作为所有  >  **呼叫。** </span><span class="sxs-lookup"><span data-stu-id="0336a-127">In Teams, users can go to their profile picture in the upper-right corner, select **Settings** > **Calls**,  and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.</span></span>
   
 ||||
 |:-----|:-----|:-----|
-|<span data-ttu-id="5ca6f-128">**Windows**</span><span class="sxs-lookup"><span data-stu-id="5ca6f-128">**Windows**</span></span> <br/> |<span data-ttu-id="5ca6f-129">**版本**</span><span class="sxs-lookup"><span data-stu-id="5ca6f-129">**Version**</span></span> <br/> |<span data-ttu-id="5ca6f-130">**支持**</span><span class="sxs-lookup"><span data-stu-id="5ca6f-130">**Supported**</span></span> <br/> |
-|<span data-ttu-id="5ca6f-131">即点即用</span><span class="sxs-lookup"><span data-stu-id="5ca6f-131">Click-to-Run</span></span>  <br/> |<span data-ttu-id="5ca6f-132">2016 年 12 月 6 日发布的当前频道 - 版本 1611（内部版本 7571.2072）</span><span class="sxs-lookup"><span data-stu-id="5ca6f-132">Current Channel released on December 6, 2016 - version 1611 (Build 7571.2072)</span></span>  <br/> |<span data-ttu-id="5ca6f-133">是</span><span class="sxs-lookup"><span data-stu-id="5ca6f-133">Yes</span></span>  <br/> |
-|<span data-ttu-id="5ca6f-134">即点即用</span><span class="sxs-lookup"><span data-stu-id="5ca6f-134">Click-to-Run</span></span>  <br/> |<span data-ttu-id="5ca6f-135">2017 年 2 月 22 日发布的延期频道的首次发布 - 版本 1701（内部版本 7766.2060）</span><span class="sxs-lookup"><span data-stu-id="5ca6f-135">First Release for Deferred Channel released on February 22, 2017 - Version 1701 (Build 7766.2060)</span></span>  <br/> |<span data-ttu-id="5ca6f-136">是</span><span class="sxs-lookup"><span data-stu-id="5ca6f-136">Yes</span></span>  <br/> |
-|<span data-ttu-id="5ca6f-137">即点即用</span><span class="sxs-lookup"><span data-stu-id="5ca6f-137">Click-to-Run</span></span>  <br/> |<span data-ttu-id="5ca6f-138">延迟通道于 2017 年 6 月 13 日发布 - 版本 1701 (Build 7766.2092)</span><span class="sxs-lookup"><span data-stu-id="5ca6f-138">Deferred Channel released on June 13, 2017 - Version 1701 (Build 7766.2092)</span></span>  <br/> |<span data-ttu-id="5ca6f-139">是</span><span class="sxs-lookup"><span data-stu-id="5ca6f-139">Yes</span></span>  <br/> |
-|<span data-ttu-id="5ca6f-140">MSI</span><span class="sxs-lookup"><span data-stu-id="5ca6f-140">MSI</span></span>  <br/> |<span data-ttu-id="5ca6f-141">Skype for Business</span><span class="sxs-lookup"><span data-stu-id="5ca6f-141">Skype for Business</span></span>  <br/> |<span data-ttu-id="5ca6f-142">否</span><span class="sxs-lookup"><span data-stu-id="5ca6f-142">No</span></span>  <br/> |
-|<span data-ttu-id="5ca6f-143">Mac</span><span class="sxs-lookup"><span data-stu-id="5ca6f-143">Mac</span></span>  <br/> |<span data-ttu-id="5ca6f-144">Skype for Business</span><span class="sxs-lookup"><span data-stu-id="5ca6f-144">Skype for Business</span></span>  <br/> |<span data-ttu-id="5ca6f-145">否</span><span class="sxs-lookup"><span data-stu-id="5ca6f-145">No</span></span>  <br/> |
+|<span data-ttu-id="0336a-128">**Windows**</span><span class="sxs-lookup"><span data-stu-id="0336a-128">**Windows**</span></span> <br/> |<span data-ttu-id="0336a-129">**版本**</span><span class="sxs-lookup"><span data-stu-id="0336a-129">**Version**</span></span> <br/> |<span data-ttu-id="0336a-130">**支持**</span><span class="sxs-lookup"><span data-stu-id="0336a-130">**Supported**</span></span> <br/> |
+|<span data-ttu-id="0336a-131">即点即用</span><span class="sxs-lookup"><span data-stu-id="0336a-131">Click-to-Run</span></span>  <br/> |<span data-ttu-id="0336a-132">2016 年 12 月 6 日发布的当前频道 - 版本 1611（内部版本 7571.2072）</span><span class="sxs-lookup"><span data-stu-id="0336a-132">Current Channel released on December 6, 2016 - version 1611 (Build 7571.2072)</span></span>  <br/> |<span data-ttu-id="0336a-133">是</span><span class="sxs-lookup"><span data-stu-id="0336a-133">Yes</span></span>  <br/> |
+|<span data-ttu-id="0336a-134">即点即用</span><span class="sxs-lookup"><span data-stu-id="0336a-134">Click-to-Run</span></span>  <br/> |<span data-ttu-id="0336a-135">2017 年 2 月 22 日发布的延期频道的首次发布 - 版本 1701（内部版本 7766.2060）</span><span class="sxs-lookup"><span data-stu-id="0336a-135">First Release for Deferred Channel released on February 22, 2017 - Version 1701 (Build 7766.2060)</span></span>  <br/> |<span data-ttu-id="0336a-136">是</span><span class="sxs-lookup"><span data-stu-id="0336a-136">Yes</span></span>  <br/> |
+|<span data-ttu-id="0336a-137">即点即用</span><span class="sxs-lookup"><span data-stu-id="0336a-137">Click-to-Run</span></span>  <br/> |<span data-ttu-id="0336a-138">延迟通道于 2017 年 6 月 13 日发布 - 版本 1701 (Build 7766.2092)</span><span class="sxs-lookup"><span data-stu-id="0336a-138">Deferred Channel released on June 13, 2017 - Version 1701 (Build 7766.2092)</span></span>  <br/> |<span data-ttu-id="0336a-139">是</span><span class="sxs-lookup"><span data-stu-id="0336a-139">Yes</span></span>  <br/> |
+|<span data-ttu-id="0336a-140">MSI</span><span class="sxs-lookup"><span data-stu-id="0336a-140">MSI</span></span>  <br/> |<span data-ttu-id="0336a-141">Skype for Business</span><span class="sxs-lookup"><span data-stu-id="0336a-141">Skype for Business</span></span>  <br/> |<span data-ttu-id="0336a-142">否</span><span class="sxs-lookup"><span data-stu-id="0336a-142">No</span></span>  <br/> |
+|<span data-ttu-id="0336a-143">Mac</span><span class="sxs-lookup"><span data-stu-id="0336a-143">Mac</span></span>  <br/> |<span data-ttu-id="0336a-144">Skype for Business</span><span class="sxs-lookup"><span data-stu-id="0336a-144">Skype for Business</span></span>  <br/> |<span data-ttu-id="0336a-145">否</span><span class="sxs-lookup"><span data-stu-id="0336a-145">No</span></span>  <br/> |
    
-## <a name="inbound-caller-id"></a><span data-ttu-id="5ca6f-146">入站呼叫者 ID</span><span class="sxs-lookup"><span data-stu-id="5ca6f-146">Inbound caller ID</span></span>
+## <a name="inbound-caller-id"></a><span data-ttu-id="0336a-146">入站来电显示</span><span class="sxs-lookup"><span data-stu-id="0336a-146">Inbound caller ID</span></span>
 
-<span data-ttu-id="5ca6f-147">如果数字与 Azure AD 中的用户关联，则电话系统将显示为外部电话号码调用的 ID。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-147">Phone System will show called ID for an external phone number if the number is associated with a user in Azure AD.</span></span> <span data-ttu-id="5ca6f-148">如果电话号码不在 Azure AD 中，则将显示通讯提供的显示名称（如果可用）。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-148">If the phone number is not in Azure AD, the telco-provided display name will be shown if it is available.</span></span>
+<span data-ttu-id="0336a-147">如果外部电话号码与 Azure AD 中的用户关联，电话系统将显示外部电话号码的已调用 ID。</span><span class="sxs-lookup"><span data-stu-id="0336a-147">Phone System will show called ID for an external phone number if the number is associated with a user in Azure AD.</span></span> <span data-ttu-id="0336a-148">如果电话号码不在 Azure AD 中，则会显示显示名称提供的电话号码（如果可用）。</span><span class="sxs-lookup"><span data-stu-id="0336a-148">If the phone number is not in Azure AD, the telco-provided display name will be shown if it is available.</span></span>
 
-<span data-ttu-id="5ca6f-149">BlockIncomingCallerID 属性可以用于阻止 PSTN 来电的来电显示。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-149">The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls.</span></span> <span data-ttu-id="5ca6f-150">你可以设置此属性，但你的最终用户无法在 "用户设置" 页面上使用该属性。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-150">You can set this attribute, but it isn't available to your end users on the user settings page.</span></span> <span data-ttu-id="5ca6f-151">当前仅在使用在线 PSTN 连接时可用。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-151">And it is currently available only with Online PSTN connectivity.</span></span>
+<span data-ttu-id="0336a-149">BlockIncomingCallerID 属性可以用于阻止 PSTN 来电的来电显示。</span><span class="sxs-lookup"><span data-stu-id="0336a-149">The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls.</span></span> <span data-ttu-id="0336a-150">可以设置此属性，但它在用户设置页上对最终用户不可用。</span><span class="sxs-lookup"><span data-stu-id="0336a-150">You can set this attribute, but it isn't available to your end users on the user settings page.</span></span> <span data-ttu-id="0336a-151">当前仅在使用在线 PSTN 连接时可用。</span><span class="sxs-lookup"><span data-stu-id="0336a-151">And it is currently available only with Online PSTN connectivity.</span></span>
   
-<span data-ttu-id="5ca6f-152">要设置出站来电显示，请参见[为用户设置来电显示](/microsoftteams/set-the-caller-id-for-a-user)。</span><span class="sxs-lookup"><span data-stu-id="5ca6f-152">To set the outbound caller ID, see [Set the Caller ID for a user](/microsoftteams/set-the-caller-id-for-a-user).</span></span>
+<span data-ttu-id="0336a-152">要设置出站来电显示，请参见[为用户设置来电显示](./set-the-caller-id-for-a-user.md)。</span><span class="sxs-lookup"><span data-stu-id="0336a-152">To set the outbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="5ca6f-153">相关主题</span><span class="sxs-lookup"><span data-stu-id="5ca6f-153">Related topics</span></span>
-[<span data-ttu-id="5ca6f-154">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="5ca6f-154">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="0336a-153">相关主题</span><span class="sxs-lookup"><span data-stu-id="0336a-153">Related topics</span></span>
+[<span data-ttu-id="0336a-154">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="0336a-154">Transferring phone numbers common questions</span></span>](./phone-number-calling-plans/port-order-overview.md)
 
-[<span data-ttu-id="5ca6f-155">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="5ca6f-155">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="0336a-155">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="0336a-155">Different kinds of phone numbers used for Calling Plans</span></span>](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="5ca6f-156">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="5ca6f-156">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="0336a-156">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="0336a-156">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="5ca6f-157">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="5ca6f-157">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="0336a-157">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="0336a-157">Emergency calling terms and conditions</span></span>](./emergency-calling-terms-and-conditions.md)
 
-<span data-ttu-id="5ca6f-158">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="5ca6f-158">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="0336a-158">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="0336a-158">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
- 
