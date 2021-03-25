@@ -14,21 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
-description: 现在，通过将服务器角色与前端池关联，可以启用对需要部署其他服务器的特定功能的支持。 您还可以稍后将服务器角色与前端池关联。 可以与前端池关联的服务器角色包括：
-ms.openlocfilehash: ef3cec601355f433ad760be4edcc0ea573b53010
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 通过将服务器角色与前端池关联，可以启用对需要部署其他服务器的特定功能的支持。 还可以稍后将服务器角色与前端池关联。 可以与前端池关联的服务器角色包括：
+ms.openlocfilehash: 1a528fbeeabc4ca9a4c676a9f064b651c37298c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811732"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122653"
 ---
-# <a name="add-front-end-associations"></a><span data-ttu-id="a5d18-105">添加前端关联</span><span class="sxs-lookup"><span data-stu-id="a5d18-105">Add Front End Associations</span></span>
+# <a name="add-front-end-associations"></a><span data-ttu-id="f6e13-105">添加前端关联</span><span class="sxs-lookup"><span data-stu-id="f6e13-105">Add Front End Associations</span></span>
 
-<span data-ttu-id="a5d18-106">现在，通过将服务器角色与前端池关联，可以启用对需要部署其他服务器的特定功能的支持。</span><span class="sxs-lookup"><span data-stu-id="a5d18-106">You can enable support for specific features that require the deployment of other servers by associating the server roles with the Front End pool now.</span></span> <span data-ttu-id="a5d18-107">您还可以稍后将服务器角色与前端池关联。</span><span class="sxs-lookup"><span data-stu-id="a5d18-107">You can also associate server roles with the Front End pool at a later time.</span></span> <span data-ttu-id="a5d18-108">可以与前端池关联的服务器角色包括：</span><span class="sxs-lookup"><span data-stu-id="a5d18-108">The server roles that can be associated with a Front End pool include the following:</span></span>
+<span data-ttu-id="f6e13-106">通过将服务器角色与前端池关联，可以启用对需要部署其他服务器的特定功能的支持。</span><span class="sxs-lookup"><span data-stu-id="f6e13-106">You can enable support for specific features that require the deployment of other servers by associating the server roles with the Front End pool now.</span></span> <span data-ttu-id="f6e13-107">还可以稍后将服务器角色与前端池关联。</span><span class="sxs-lookup"><span data-stu-id="f6e13-107">You can also associate server roles with the Front End pool at a later time.</span></span> <span data-ttu-id="f6e13-108">可以与前端池关联的服务器角色包括：</span><span class="sxs-lookup"><span data-stu-id="f6e13-108">The server roles that can be associated with a Front End pool include the following:</span></span>
 
-- <span data-ttu-id="a5d18-109">A/V 边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="a5d18-109">A/V Edge Server.</span></span> <span data-ttu-id="a5d18-110">有关实现 A/V 边缘服务器的详细信息，请参阅规划文档中的 ["](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) 规划会议"。</span><span class="sxs-lookup"><span data-stu-id="a5d18-110">For details about the implementation of an A/V Edge Server, see [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in the Planning documentation.</span></span>
+- <span data-ttu-id="f6e13-109">A/V 边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="f6e13-109">A/V Edge Server.</span></span> <span data-ttu-id="f6e13-110">有关 A/V 边缘服务器的实现的详细信息，请参阅规划文档中 [的](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing) 规划会议。</span><span class="sxs-lookup"><span data-stu-id="f6e13-110">For details about the implementation of an A/V Edge Server, see [Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing) in the Planning documentation.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="a5d18-111">如果现在启用对这些功能的任何支持，则发布的拓扑设计将包括实现每个选定功能所需的服务器组件。</span><span class="sxs-lookup"><span data-stu-id="a5d18-111">If you enable support for any of these features now, the topology design that you publish will include the server components that are required to implement each selected feature.</span></span> <span data-ttu-id="a5d18-112">若要成功发布拓扑而不出现错误，必须将物理计算机加入域。</span><span class="sxs-lookup"><span data-stu-id="a5d18-112">For the publishing of a topology to succeed without error, you must have the physical computers joined to the domain.</span></span> <span data-ttu-id="a5d18-113">例如，如果现在启用存档支持，则必须部署存档服务器并配置相应的存档选项，然后才能开始为组织存档通信。</span><span class="sxs-lookup"><span data-stu-id="a5d18-113">For example, if you enable support for archiving now, you must then deploy an Archiving Server and configure the appropriate archiving options before you start archiving communications for your organization.</span></span>
-
-
+> <span data-ttu-id="f6e13-111">如果现在启用对这些功能的任何支持，则发布的拓扑设计将包括实现每个选定功能所需的服务器组件。</span><span class="sxs-lookup"><span data-stu-id="f6e13-111">If you enable support for any of these features now, the topology design that you publish will include the server components that are required to implement each selected feature.</span></span> <span data-ttu-id="f6e13-112">若要成功发布拓扑而不出现错误，必须将物理计算机加入域。</span><span class="sxs-lookup"><span data-stu-id="f6e13-112">For the publishing of a topology to succeed without error, you must have the physical computers joined to the domain.</span></span> <span data-ttu-id="f6e13-113">例如，如果现在启用存档支持，则必须先部署存档服务器并配置相应的存档选项，然后再开始为组织存档通信。</span><span class="sxs-lookup"><span data-stu-id="f6e13-113">For example, if you enable support for archiving now, you must then deploy an Archiving Server and configure the appropriate archiving options before you start archiving communications for your organization.</span></span>
