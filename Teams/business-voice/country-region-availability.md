@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861416"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116020"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>通话套餐的国家和地区可用性
 
@@ -46,7 +46,7 @@ Microsoft 365 商务语音在 70 多国家和地区可用。 本文后面的表�
 
 如果你的租户所在的国家或地区不支持通话套餐和“入门”向导，请查看[从 Microsoft 经销商或合作伙伴处获取帮助](reseller-partner-support.md)。
 
-要查看包含和不包含通话套餐的商务语音中的内容，请参阅 [Microsoft 365 商务语音服务说明](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)。
+要查看包含和不包含通话套餐的商务语音中的内容，请参阅 [Microsoft 365 商务语音服务说明](/office365/servicedescriptions/microsoft-365-business-voice-service-description)。
 
 
 | 国家或地区    | 包含通话套餐的<br> 商务语音 | 不包含通话套餐的<br> 商务语音<br>（直接路由） | “入门”向导 |

@@ -15,19 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 3ff3a02d94cc687b4e970ac6c7941c41069d2fa7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ca12e88689ce9d4c9301e29a99611d6732a21053
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810942"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115250"
 ---
 # <a name="dial-in-access-number"></a>拨入访问号码
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [创建或修改电话拨入式会议访问号码](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [创建或修改电话拨入式会议访问号码](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number)
 
-- [删除电话拨入式会议访问号码](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
-
-
+- [删除电话拨入式会议访问号码](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-dial-in-conferencing-access-number)

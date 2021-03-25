@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解如何为用户设置云语音邮件。 '
-ms.openlocfilehash: fa30184d38822141d0f30404fb55b79eefd5d33d
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: 4ed61a825ce4e583c71f052020692e4478324003
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997420"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117060"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
-本文适用于 Microsoft 365 或 Office 365 管理员[](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)，如关于想要为企业中的每个人设置云语音邮件功能管理员角色中所述。
+本文适用于 Microsoft 365 或 Office 365 管理员[](/microsoft-365/admin/add-users/about-admin-roles)，如关于想要为企业中的每个人设置云语音邮件功能管理员角色中所述。
 
 > [!NOTE]
 > 云语音邮件仅支持将语音邮件置于 Exchange 邮箱中，并且不支持任何第三方电子邮件系统。 
@@ -44,25 +44,25 @@ ms.locfileid: "50997420"
 对于在线电话系统用户，向用户分配电话系统许可证后，将自动为用户 **设置和预配** 云语音邮件。 
 
 > [!NOTE]
-> 对于使用本地提供的电话号码的在线 Skype for Business Phone 系统用户，可能需要使用 [Set-CsUser -HostedVoicemail](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)$True。 
+> 对于使用本地提供的电话号码的在线 Skype for Business Phone 系统用户，可能需要使用 [Set-CsUser -HostedVoicemail](/powershell/module/skype/set-csuser?view=skype-ps)$True。 
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>为邮箱用户Exchange Server云语音邮件
 
 以下信息将有关配置云语音邮件以与在线使用电话系统但其邮箱位于 Exchange Server 的用户一Exchange Server。 
   
-1. 语音邮件通过 SMTP 通过 Exchange Online Protection 路由传送到用户的 Exchange 邮箱。 若要成功传递这些邮件，请确保 Exchange 连接器在 Exchange 服务器和 Exchange Online Protection 之间正确配置; [使用连接器配置邮件流](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
+1. 语音邮件通过 SMTP 通过 Exchange Online Protection 路由传送到用户的 Exchange 邮箱。 若要成功传递这些邮件，请确保 Exchange 连接器在 Exchange 服务器和 Exchange Online Protection 之间正确配置; [使用连接器配置邮件流](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
 
-2. 若要启用语音邮件功能，例如自定义 Skype for Business 客户端中的问候语和可视语音邮件，需要通过 Exchange Web Services 从 Microsoft 365 或 Office 365 连接到 Exchange 服务器邮箱。 若要启用此连接，必须配置在 Exchange 和 Exchange Online 组织之间配置 [OAuth](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)身份验证中所述的新 Exchange Oauth 身份验证协议，或者从 Exchange 2013 CU5 或更高版运行 Exchange 混合向导。 此外，你必须在 Skype for Business Online 和 Exchange Server 之间配置集成和 Oauth，如在 Skype for Business Online 和 Exchange Server 之间配置 [集成和 OAuth 中所述](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)。 
+2. 若要启用语音邮件功能，例如自定义 Skype for Business 客户端中的问候语和可视语音邮件，需要通过 Exchange Web Services 从 Microsoft 365 或 Office 365 连接到 Exchange 服务器邮箱。 若要启用此连接，必须配置在 Exchange 和 Exchange Online 组织之间配置 [OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)身份验证中所述的新 Exchange Oauth 身份验证协议，或者从 Exchange 2013 CU5 或更高版运行 Exchange 混合向导。 此外，你必须在 Skype for Business Online 和 Exchange Server 之间配置集成和 Oauth，如在 Skype for Business Online 和 Exchange Server 之间配置 [集成和 OAuth 中所述](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)。 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>为 Skype for Business Server 用户设置云语音邮件
 
-若要为云语音邮件配置 Skype for Business 服务器用户，请参阅为本地用户规划 [云语音邮件服务](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)。
+若要为云语音邮件配置 Skype for Business 服务器用户，请参阅为本地用户规划 [云语音邮件服务](/skypeforbusiness/hybrid/plan-cloud-voicemail)。
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>在组织中启用受保护的语音邮件
 
 当某人为您的组织中的用户留下语音邮件时，语音邮件作为电子邮件附件传送到用户的邮箱。 使用邮件流规则应用邮件加密，可以防止这些语音邮件转发给其他收件人。 启用受保护的语音邮件后，用户可以通过呼叫进入语音邮件邮箱或在 Outlook、Outlook 网页版或 Outlook for Android 或 iOS 中打开邮件来收听受保护的语音邮件。 在 Skype for Business 或 Microsoft Teams 中无法打开受保护的语音邮件消息。
 
-有关邮件加密的信息，请参阅 [电子邮件加密](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)。
+有关邮件加密的信息，请参阅 [电子邮件加密](/microsoft-365/compliance/email-encryption?view=o365-worldwide)。
 
 若要设置受保护的语音邮件，请执行下列操作：
 
@@ -74,23 +74,23 @@ ms.locfileid: "50997420"
 6. 在 **"执行下列操作"** 下，选择"对邮件应用 **Office 365** 邮件加密和权限保护"，然后选择"选择 **一个"。** 在 **"RMS 模板"** 下，选择 **"不转发"。** 选择 **"确定**"，然后选择"**保存"。**
     > [!NOTE]
     > 如果 **RMS 模板** 列表为空，则需要设置消息加密。 有关设置消息加密的信息，请参阅以下文章：
-    > - [设置新的消息加密功能](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
-    > - [配置和管理 Azure 信息保护的模板](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
-    > - [电子邮件的"不转发"选项](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
+    > - [设置新的消息加密功能](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [配置和管理 Azure 信息保护的模板](/information-protection/deploy-use/configure-policy-templates)
+    > - [电子邮件的"不转发"选项](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
 
 > [!WARNING]
 > 对于 Skype for Business 客户，通过 Microsoft Teams 呼叫策略禁用语音邮件也可能禁用 Skype for Business 用户的语音邮件服务。
 
-默认情况下，为所有组织和用户启用语音邮件转录并禁用转录亵渎屏蔽；但是，你可以使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 和 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet 对其进行控制。
+默认情况下，为所有组织和用户启用语音邮件转录并禁用转录亵渎屏蔽；但是，你可以使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) 和 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlet 对其进行控制。
 
 您的组织中的用户收到的语音邮件在托管 Microsoft 365 或 Office 365 组织的区域进行转录。 托管租户的区域可能与接收语音邮件的用户所在的区域不同。 若要查看托管租户的区域，请转到"组织配置文件"页，然后单击"[](https://go.microsoft.com/fwlink/p/?linkid=2067339)数据位置"旁边的"查看 **详细信息"。**
 
 > [!IMPORTANT]
 > 不能使用 **New-CsOnlineVoiceMailPolicy** cmdlet 为听录和听录亵渎内容屏蔽创建新的策略实例，并且不能使用 **Remove-CsOnlineVoiceMailPolicy** cmdlet 删除现有策略实例。
 
-可以使用语音邮件策略为用户管理转录设置。 若要查看所有可用的语音邮件策略实例，可以使用 [Get-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet。
+可以使用语音邮件策略为用户管理转录设置。 若要查看所有可用的语音邮件策略实例，可以使用 [Get-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlet。
 
 ```PowerShell
 PS C:\> Get-CsOnlineVoicemailPolicy
@@ -131,7 +131,7 @@ EnableTranscriptionTranslation      : True
   
 ### <a name="turning-off-transcription-for-your-organization"></a>为组织禁用转录
 
-由于组织的听录默认设置为"开"，因此可能需要使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx)禁用它。 为此，请运行：
+由于组织的听录默认设置为"开"，因此可能需要使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy)禁用它。 为此，请运行：
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
@@ -139,7 +139,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>打开组织的转录亵渎屏蔽
 
-默认情况下，为组织禁用转录亵渎屏蔽。 如果有启用它的业务要求，你可以使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 启用转录亵渎屏蔽。 为此，请运行：
+默认情况下，为组织禁用转录亵渎屏蔽。 如果有启用它的业务要求，你可以使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) 启用转录亵渎屏蔽。 为此，请运行：
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -147,7 +147,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>为用户禁用转录
 
-用户策略的优先级高于组织默认设置。 例如，如果为所有用户启用了语音邮件转录，则可以通过 [使用 Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) cmdlet 为特定用户分配禁用转录的策略。
+用户策略的优先级高于组织默认设置。 例如，如果为所有用户启用了语音邮件转录，则可以通过 [使用 Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) cmdlet 为特定用户分配禁用转录的策略。
 
 要为单个用户禁用转录，请运行：
 
@@ -157,7 +157,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>为用户开启转录亵渎屏蔽
 
-要为特定用户启用转录亵渎屏蔽，你可以使用 [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) cmdlet 分配一个策略，以便为特定用户启用转录亵渎屏蔽。
+要为特定用户启用转录亵渎屏蔽，你可以使用 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) cmdlet 分配一个策略，以便为特定用户启用转录亵渎屏蔽。
 
 要为单个用户启用转录亵渎屏蔽，请运行：
 
@@ -187,4 +187,4 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 [电话系统的功能](here-s-what-you-get-with-phone-system.md)
 
-[Skype for Business Server 和 Exchange Server 迁移规划](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
+[Skype for Business Server 和 Exchange Server 迁移规划](/SkypeForBusiness/hybrid/plan-um-migration)

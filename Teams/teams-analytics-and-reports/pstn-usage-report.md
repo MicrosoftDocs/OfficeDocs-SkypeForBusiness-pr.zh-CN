@@ -17,12 +17,12 @@ description: 了解如何使用 Microsoft Teams 管理中心中的 Teams PSTN �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a7783c3084beaa87b709ca1e9d5ab4e6932a5e59
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: d870581b8921e39d50d0187120cf89067ac38819
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875022"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116860"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 使用情况报告
 
@@ -108,7 +108,7 @@ CSV 的第一行包含列名称。 所有日期均采用 UTC 和 [ISO 8601](http
  除非国家/地区特定的法规禁止将数据保留 12 个月，否则可以导出自当前日期起最多一年的数据。
 
 > [!div class="has-no-wrap"]  
-> | # | 名称 | [数据类型 (SQL Server) ](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
+> | # | 名称 | [数据类型 (SQL Server) ](/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | 唯一调用标识符 |
 > | 1 | 呼叫 ID | `nvarchar(64)` | 调用标识符。 不保证唯一 |
@@ -136,7 +136,7 @@ CSV 的第一行包含列名称。 所有日期均采用 UTC 和 [ISO 8601](http
 除非国家/地区特定的法规禁止保留该时间段的数据，否则 (从当前日期开始) 150 天内导出数据。
 
 > [!div class="has-no-wrap"]  
-> | # | 名称 | [数据类型 (SQL Server) ](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
+> | # | 名称 | [数据类型 (SQL Server) ](/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | 唯一调用标识符 |
 > | 1 | SIP 地址 | `nvarchar(128)` | 进行或接收呼叫的用户或机器人的地址。<br/>请注意，这实际上是 UserPrincipalName (UPN，) Azure Active Directory 中的登录名，这通常与 SIP 地址相同 |

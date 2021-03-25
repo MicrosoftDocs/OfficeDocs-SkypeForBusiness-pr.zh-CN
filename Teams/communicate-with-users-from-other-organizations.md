@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 了解如何使用外部访问（联盟）和来宾访问在 Microsoft Teams 中与组织外部的人员进行通话和聊天以及查找和添加这些人员。
-ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461042"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115990"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用来宾访问权限和外部访问权限与组织外部的人员进行协作
 
@@ -53,7 +53,7 @@ ms.locfileid: "50461042"
 
 来宾将作为 B2B 用户添加到组织的 Azure Active Directory，且必须使用他们的来宾帐户登录到 Teams。 这意味着，他们可能需要从自己的组织注销才能登录到你的组织。
 
-若要为 Teams 配置来宾访问，请参阅[在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。
+若要为 Teams 配置来宾访问，请参阅[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。
 
 ## <a name="compare-external-and-guest-access"></a>比较外部访问和来宾访问
 
@@ -105,4 +105,3 @@ ms.locfileid: "50461042"
 [Teams 中的外部访问](manage-external-access.md)
 
 [Teams 中的来宾访问](guest-access.md)
-

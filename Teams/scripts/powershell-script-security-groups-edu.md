@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cb76e2f67664ae5cabde54774186248c48b40c57
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 938c2e549cea153b2a6b42991ae65df5d07a4c4d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756198"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117280"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
 
@@ -43,9 +43,9 @@ ms.locfileid: "50756198"
 
 ## <a name="before-you-start"></a>开始前
 
-下载并安装 [Skype for Business Online PowerShell 模块](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然后在系统提示时重启计算机。
+下载并安装 [Skype for Business Online PowerShell 模块](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然后在系统提示时重启计算机。
 
-若要了解更多内容，请参阅 [使用 Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 管理 Skype for Business Online [和 Teams PowerShell 概述](../teams-powershell-overview.md)。
+若要了解更多内容，请参阅 [使用 Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 管理 Skype for Business Online [和 Teams PowerShell 概述](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>示例脚本

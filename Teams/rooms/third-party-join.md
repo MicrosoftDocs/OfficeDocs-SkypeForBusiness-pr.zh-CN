@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文讨论如何配置组织和 Teams 会议室设备以支持加入 Cisco WebEx 和 Zoom 的第三方会议。
-ms.openlocfilehash: ac4c57dc5cc743fb7b141ecaaaf3531b35912e77
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: c8f6bda7680ccd3107c313c87001902e442518c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997430"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117370"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>启用 Teams Room 设备以加入第三方会议
 
@@ -34,9 +34,9 @@ Microsoft Teams 会议室设备支持一键式体验，用于加入第三方在�
 
 ## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>步骤 1：允许处理第三方会议的日历邀请
 
-若要从 Team Room 设备启用一键式加入体验，首先需要设置设备的 Exchange Online 会议室邮箱的日历处理规则。 会议室邮箱需要允许外部会议并保留邮件正文和主题，以便它可以看到加入第三方会议所需的 URL。 若要使用 [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet 设置这些会议室邮箱选项，请执行下列操作：
+若要从 Team Room 设备启用一键式加入体验，首先需要设置设备的 Exchange Online 会议室邮箱的日历处理规则。 会议室邮箱需要允许外部会议并保留邮件正文和主题，以便它可以看到加入第三方会议所需的 URL。 若要使用 [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet 设置这些会议室邮箱选项，请执行下列操作：
 
-1. 连接到 Exchange Online PowerShell。 有关详细信息，请参阅使用基本身份验证连接到 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) 或使用多重身份验证连接到 [Exchange Online PowerShell，](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)具体取决于身份验证方法。
+1. 连接到 Exchange Online PowerShell。 有关详细信息，请参阅使用基本身份验证连接到 [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) 或使用多重身份验证连接到 [Exchange Online PowerShell，](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)具体取决于身份验证方法。
 
 2. 通过运行以下 (，) 获取会议室邮箱的用户主体名称或 UPN 名称：
 
@@ -52,13 +52,13 @@ Microsoft Teams 会议室设备支持一键式体验，用于加入第三方在�
     Set-CalendarProcessing <UserPrincipalName> -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
     ```
 
-详细了解[Exchange Online PowerShell。](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell?view=exchange-ps)
+详细了解[Exchange Online PowerShell。](/powershell/exchange/exchange-online-powershell?view=exchange-ps)
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>步骤 2：配置 Office 365 威胁防护和链接重写
 
-若要启用一键式加入体验，会议邀请中需要显示并阅读来自第三方会议的会议加入链接信息。 如果你的组织使用 [Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) 高级威胁防护安全链接功能，或者如果你使用扫描所有传入和传出 URL 的威胁的第三方解决方案，则可能会更改会议加入 URL，使 Teams 会议室设备无法识别会议。 若要确保不会发生此情况，需要将第三方会议服务的 URL 添加到 ATP 安全链接"不重写"列表或第三方 URL 重写异常列表。
+若要启用一键式加入体验，会议邀请中需要显示并阅读来自第三方会议的会议加入链接信息。 如果你的组织使用 [Office 365](/microsoft-365/security/office-365-security/atp-safe-links) 高级威胁防护安全链接功能，或者如果你使用扫描所有传入和传出 URL 的威胁的第三方解决方案，则可能会更改会议加入 URL，使 Teams 会议室设备无法识别会议。 若要确保不会发生此情况，需要将第三方会议服务的 URL 添加到 ATP 安全链接"不重写"列表或第三方 URL 重写异常列表。
 
-若要将第三方会议服务 URL 添加到 ATP 安全链接"不重写"列表，请按照使用 [ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)安全链接设置自定义不重写 URL 列表中的步骤操作。 如果使用第三方解决方案，请参阅该解决方案的说明，将 URL 添加到其 URL 重写异常列表。
+若要将第三方会议服务 URL 添加到 ATP 安全链接"不重写"列表，请按照使用 [ATP](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)安全链接设置自定义不重写 URL 列表中的步骤操作。 如果使用第三方解决方案，请参阅该解决方案的说明，将 URL 添加到其 URL 重写异常列表。
 
 下面是可能需要添加到 ATP 安全链接"不重写"列表或第三方 URL 重写异常列表的一些示例条目：
 

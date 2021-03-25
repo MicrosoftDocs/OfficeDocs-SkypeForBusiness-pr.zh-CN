@@ -14,16 +14,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解 Microsoft Teams 中的文件和文件夹共享体验。
-ms.openlocfilehash: 5b6847c42f13701e289b2efaad4a5489351f339b
-ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
+ms.openlocfilehash: 53997f4493a0217e980427ab0d1f85d64095b9c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49795769"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117020"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>在 Microsoft Teams 中共享文件
 
-在 Microsoft Teams 中，用户可以与组织内外的其他 Teams 用户共享内容。 在 Teams 中共享文件和文件夹基于 SharePoint 和 OneDrive 中配置的设置，因此，为 SharePoint 和 OneDrive 设置的任何设置都将影响 Teams 中的共享。
+在 Microsoft Teams 中，用户可以与组织内外的其他 Teams 用户共享内容。 在 Teams 中共享文件和文件夹基于 SharePoint 和 OneDrive 中配置的设置，因此，为 SharePoint 和 OneDrive 设置的任何设置都会影响 Teams 中的共享。
 
 ## <a name="overview"></a>概述
 
@@ -48,6 +48,6 @@ ms.locfileid: "49795769"
 
 [SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互](sharepoint-onedrive-interact.md)
 
-[更改网站的默认链接类型](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
+[更改网站的默认链接类型](/sharepoint/change-default-sharing-link)
 
-[在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)

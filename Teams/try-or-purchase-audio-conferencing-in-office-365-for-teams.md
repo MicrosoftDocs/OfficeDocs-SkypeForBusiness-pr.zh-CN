@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '了解如何尝试或购买适用于 Microsoft 365 或 Office 365 的音频会议 (PSTN 会议) 许可证，以设置用户可以拨入的电话会议。 '
-ms.openlocfilehash: f93ce6306dfa4ab7b5eb198363a698a352763d93
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867021"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116530"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 Microsoft 365 for Microsoft Teams 中试用或购买音频会议
 
@@ -51,11 +51,11 @@ ms.locfileid: "50867021"
 
    - **在购买** 之前试用：你可以注册包括音频会议的 Office 365 企业版 E5 免费试用版。 请参阅 [Office 365 企业版 E5 试用](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)。
 
-   - **购买：** 请参阅 [Microsoft Teams 附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+   - **购买：** 请参阅 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-3. [将许可证分配给组织中](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 要安排或引导会议的用户。
+3. [将许可证分配给组织中](/microsoft-365/admin/manage/assign-licenses-to-users) 要安排或引导会议的用户。
 
-4. 如果购买了音频会议外接程序许可证和通信点数许可证，也要分配它们。 有关说明，请参阅 [分配 Microsoft Teams 附加许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+4. 如果购买了音频会议外接程序许可证和通信点数许可证，也要分配它们。 有关说明，请参阅 [分配 Microsoft Teams 附加许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>购买和分配按分钟付费的音频会议许可证
 
@@ -70,7 +70,7 @@ ms.locfileid: "50867021"
     > [!IMPORTANT]
     > 如果通信点数尚未设置，音频会议就不能供任何持有按每分钟付费许可证的用户使用。
 
-4. [将许可证分配给组织中](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) 要安排或引导会议的用户。
+4. [将许可证分配给组织中](/microsoft-365/admin/manage/assign-licenses-to-users) 要安排或引导会议的用户。
 
     > [!NOTE]
     > 如果你有"音频会议每分钟付费"许可证，还必须向每个用户单独分配通信信用额度许可证。
@@ -79,7 +79,7 @@ ms.locfileid: "50867021"
 
 当你 **为组织中没有** 将 Skype for Business 与第三方音频会议提供商集成的人员分配音频会议许可证时，他们全部已设置就绪，可以开始！ （您无需设置其音频会议提供商。）
 
-如果你的用户启用了第三方音频会议提供商，则必须将这些用户的提供商更改为 Microsoft。 若要更改用户的提供商，请参阅 [将 Microsoft 分配为音频会议提供商](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+如果你的用户启用了第三方音频会议提供商，则必须将这些用户的提供商更改为 Microsoft。 若要更改用户的提供商，请参阅 [将 Microsoft 分配为音频会议提供商](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 ## <a name="step-3-other-admin-tasks"></a>第 3 步：其他管理任务
 

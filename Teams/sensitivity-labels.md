@@ -17,18 +17,18 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用敏感度标签在 Microsoft Teams 中保护团队。
-ms.openlocfilehash: 6929e9c51f35cb4483c81323048b2a1f9ec6243a
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 25c6e6a9a69f9172bebdab284754998e4acb910a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875102"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117190"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams 的敏感度标签
 
-[敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 允许 Teams 管理员保护和管理对在团队内协作期间创建的敏感组织内容的访问。 在 [Microsoft](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)合规性中心中配置敏感度标签及其关联策略后，这些标签可以应用于组织的团队。
+[敏感度标签](/microsoft-365/compliance/sensitivity-labels) 允许 Teams 管理员保护和管理对在团队内协作期间创建的敏感组织内容的访问。 在 [Microsoft](/microsoft-365/compliance/go-to-the-securitycompliance-center)合规性中心中配置敏感度标签及其关联策略后，这些标签可以应用于组织的团队。
 
-使用 Teams 教育 SKUS 的客户目前不支持敏感度标签。 若要详细了解许可，请参阅 Microsoft [Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+使用 Teams 教育 SKUS 的客户目前不支持敏感度标签。 若要详细了解许可，请参阅 Microsoft [Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>敏感度标签和 Teams 分类标签之间有什么区别？
 
@@ -36,7 +36,7 @@ ms.locfileid: "50875102"
 
 使用敏感度标签的好处是，通过 Microsoft 365 组平台、合规性中心和 Teams 服务的组合，自动端到端地强制实施其策略。 敏感度标签提供强大的基础结构支持，用于保护组织的敏感数据并确保符合内部策略或法规。
 
-如果当前使用分类标签，请参阅以下文档，详细了解如何将它们迁移到敏感度标签： [经典 Azure AD 组分类](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
+如果当前使用分类标签，请参阅以下文档，详细了解如何将它们迁移到敏感度标签： [经典 Azure AD 组分类](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>敏感度标签的示例方案
 
@@ -100,4 +100,4 @@ ms.locfileid: "50875102"
 
 使用 Microsoft 365 文档中的说明为 Teams 创建和配置敏感度标签： 
 
-- [使用敏感度标签保护 Microsoft Teams、Microsoft 365 组和 SharePoint 网站中的内容](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。
+- [使用敏感度标签保护 Microsoft Teams、Microsoft 365 组和 SharePoint 网站中的内容](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。

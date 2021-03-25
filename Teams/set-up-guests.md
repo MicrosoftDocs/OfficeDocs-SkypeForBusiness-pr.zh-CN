@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: 了解如何以 Office 365 管理员角色打开或关闭 Microsoft Teams 中的来宾访问功能。
-ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 34759e601f5c0cd232bcd6227ff5c7d1fef1d3fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884516"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107398"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>启用或禁用 Microsoft Teams 的来宾访问
 
@@ -38,7 +38,7 @@ ms.locfileid: "50884516"
 > **2021** 年 2 月之后，对于尚未配置此设置的现有&，默认情况下将启用 Microsoft Teams 中的来宾访问。 实施此更改后，如果尚未在 Microsoft Teams 中配置来宾访问功能，将在租户中启用该功能。 如果希望组织的来宾访问保持禁用状态，则需要确认来宾访问设置设置为"关闭 **"，而不是**"服务 **默认"。**
 
 > [!IMPORTANT]
-> 启用来宾访问取决于 Azure Active Directory、Microsoft 365、SharePoint 和 Teams 中的设置。 有关详细信息，请参阅 [在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。
+> 启用来宾访问取决于 Azure Active Directory、Microsoft 365、SharePoint 和 Teams 中的设置。 有关详细信息，请参阅 [在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>在 Teams 管理中心配置来宾访问权限
 
@@ -80,8 +80,8 @@ ms.locfileid: "50884516"
 
 ## <a name="see-also"></a>另请参阅
 
-[与 Microsoft 365 建立安全协作](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+[与 Microsoft 365 建立安全协作](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
-[阻止来自特定团队的来宾用户](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[阻止来自特定团队的来宾用户](/microsoft-365/solutions/per-group-guest-access)
 
-[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)
+[Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)

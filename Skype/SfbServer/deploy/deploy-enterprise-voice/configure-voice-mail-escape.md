@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 摘要：了解如何使用 Skype for Business Server 命令行管理程序在 Skype for Business Server 中配置语音邮件转义。
-ms.openlocfilehash: c6326360a0e49715feb7e9f9c3c123ec42b9c330
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c74142cf3b0f6c9d5a871e116d8e163a095ad3cd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824922"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106368"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>在 Skype for Business 中配置语音邮件转义
 
 **摘要：** 了解如何使用 Skype for Business Server 命令行管理程序在 Skype for Business Server 中配置语音邮件转义。
 
-当用户将同时响铃配置为移动电话时，如果移动电话已关闭、电池电源不足或范围外，通常会将呼叫者路由到用户的个人语音邮件。 使用 Skype for Business Server，用户可以选择将业务相关的呼叫路由到其公司语音邮件系统。 具体而言，可以配置计时器，如果运营商的语音邮件在定义的时间范围内应答呼叫，Skype for Business Server 将断开与运营商的语音邮件系统 (和用户的个人语音邮件) 的连接，同时企业系统中用户的剩余终结点将继续响铃。 这样，呼叫者会自动路由到用户的公司语音邮件。
+当用户配置移动电话的同时响铃时，如果移动电话已关闭、电池电量不足或范围外，呼叫者通常会路由到用户的个人语音邮件。 使用 Skype for Business Server，用户可以选择将业务相关的呼叫路由到其公司语音邮件系统。 具体而言，可以配置计时器，如果运营商的语音邮件在定义的时间范围内应答呼叫，Skype for Business Server 将断开与运营商的语音邮件系统 (和用户的个人语音邮件) 的连接，同时企业系统中用户的剩余终结点将继续响铃。 这样，呼叫者会自动路由到用户的企业语音邮件。
 
-此配置使用语音策略级别的 Skype for Business Server 命令行管理程序 cmdlet **Set-CsVoicePolicy** 执行，并具有以下参数。
+此配置在语音策略级别使用 Skype for Business Server 命令行管理程序 cmdlet **Set-CsVoicePolicy** 执行，并具有以下参数。
 
 ### <a name="to-configure-voice-mail-escape"></a>配置语音邮件转义
 
-1. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+1. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
 
 2. 指定 **Set-CsVoicePolicy** 的以下参数：
 
@@ -50,5 +50,4 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 
 ## <a name="see-also"></a>另请参阅
 
-[配置语音策略和 PSTN 用法记录以授权呼叫功能和权限](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
-
+[配置语音策略和 PSTN 用法记录以授权呼叫功能和权限](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges)

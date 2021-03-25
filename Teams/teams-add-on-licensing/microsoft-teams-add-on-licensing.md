@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解 Microsoft Teams 的附加许可证以及每个许可证所获取的功能。
-ms.openlocfilehash: ef0fd186fc3f7836e45fccacbfcdba6cb31ba60e
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 3925cd7b388ec884990cfb2310e8d53b537e7a64
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937859"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116910"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 附加许可证
 
@@ -404,4 +404,4 @@ Microsoft 365 商业标准版 Microsoft 365 商业高级版</td>
 
 - [分配 Teams 附加许可证](assign-teams-add-on-licenses.md)
 - [管理用户对 Teams 的访问管理](../user-access.md)
-- [Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+- [Teams 服务说明](/office365/servicedescriptions/teams-service-description)

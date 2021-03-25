@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何准备用于部署 Microsoft Teams 会议室的基础结构，以便可以利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 181599e6b5181f50548621e4895b400f442646a6
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884566"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117420"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -66,7 +66,7 @@ ms.locfileid: "50884566"
 > 务必使用 1 Gbps 的有线网络连接来确保获得所需带宽。
 
 > [!NOTE]
-> Microsoft Teams 会议室的软件更新会自动从 Microsoft Store for Business 下载。 请参阅 [适用于商业和教育的 Microsoft Store](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 的先决条件，验证会议室主机是否能够访问应用商店和自我更新。
+> Microsoft Teams 会议室的软件更新会自动从 Microsoft Store for Business 下载。 请参阅 [适用于商业和教育的 Microsoft Store](/microsoft-store/prerequisites-microsoft-store-for-business) 的先决条件，验证会议室主机是否能够访问应用商店和自我更新。
   
 ### <a name="certificates"></a>证书
 
@@ -117,7 +117,7 @@ Microsoft Teams 会议室旨在从 Windows OS 继承代理设置。 通过以下
     
 11. 返回登录屏幕，选择 **Skype** 用户。 如果上述所有步骤都成功，Microsoft Teams 会议室设备将成功登录。
     
-有关 Microsoft Teams [会议室](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) 所需的 FQDN、端口和 IP 地址范围的完整详细信息，请参阅网络安全一文。
+有关 Microsoft Teams [会议室](./security.md#network-security) 所需的 FQDN、端口和 IP 地址范围的完整详细信息，请参阅网络安全一文。
   
   
 ### <a name="create-provisioning-packages"></a>创建设置包
@@ -166,4 +166,4 @@ Microsoft Teams 会议室的默认密码设置为"sfb"。 可以通过转到"Win
   
 [管理 Microsoft Teams 会议室](rooms-manage.md)
 
-[适用于商业和教育的 Microsoft Store 的先决条件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
+[适用于商业和教育的 Microsoft Store 的先决条件](/microsoft-store/prerequisites-microsoft-store-for-business)

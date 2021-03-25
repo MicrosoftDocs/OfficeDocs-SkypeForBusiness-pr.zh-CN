@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac33cd0c815aec39855351dbd1abf16ce4f52b7f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824820"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116000"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>自定义 Microsoft 365 商务语音
 
@@ -33,7 +33,7 @@ ms.locfileid: "41824820"
 | 任务                                                          | 说明                                                                                          |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [将电话号码移动到商务语音](port-phone-numbers.md) | 将现有电话号码带到商务语音。                                                 |
-| [设置自动助理](set-up-auto-attendants.md)           | 添加更多呼叫菜单，从而扩展拨打你主要电话号码的呼叫方的相关选项。        |
+| [设置自动助理](./create-a-phone-system-auto-attendant-smb.md)           | 添加更多呼叫菜单，从而扩展拨打你主要电话号码的呼叫方的相关选项。        |
 | [设置通话策略](set-up-policies.md)                 | 控制用户是否可以执行某些操作，例如拨打私人电话、使用呼叫转接、委托呼叫。        |
 | [创建其他用户](create-users.md)                    | 添加更多用户，并向其分配新的或现有的电话号码。                                     |
-| [设置呼叫队列](set-up-call-queues.md)                   | 创建一个队列，呼叫者可在其中等待下一个可用的代理。                                  |
+| [设置呼叫队列](./create-a-phone-system-call-queue-smb.md)                   | 创建一个队列，呼叫者可在其中等待下一个可用的代理。                                  |

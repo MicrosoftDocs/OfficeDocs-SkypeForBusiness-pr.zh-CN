@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 对 Microsoft Teams 会议室设备使用的默认设置进行远程管理，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: a1634e34242a54bb93e3f61da6afd97ec35ec14e
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ecac38b0261dbf9b6c27b1b636df31ecc9b3afd7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875112"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117320"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft Teams 会议室控制台设置
 
@@ -163,7 +163,7 @@ ms.locfileid: "50875112"
 根据企业具有的 Microsoft Teams 会议室设备数以及你选择如何对其进行配置，有几种方法可以放置 XML 配置文件。 文件推送到控制台之后，重启以处理配置更改。 成功处理 XML 配置文件后会将其删除。 以下部分讨论了针对 Microsoft Teams 会议室设备建议的管理方法：
   
 - [为 Microsoft Teams 会议室配置组策略](rooms-operations.md#GroupPolicy)
-- [使用 PowerShell](rooms-operations.md#RemotePS) 和 [配置文件项进行远程管理](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+- [使用 PowerShell](rooms-operations.md#RemotePS) 和 [配置文件项进行远程管理](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))
 
 你可以使用你喜欢的任何方法，只要你能传输文件并在控制台设备上触发重启即可。 该文件必须是设备的本地用户帐户可读、可写和可删除的。 最好是它归该用户所有，并且具有授予该用户的完整权限。 如果未正确设置文件权限，软件可能无法应用设置，可能无法在成功处理后删除文件，甚至可能会崩溃。
   
@@ -195,4 +195,4 @@ XML 配置文件必须在设备启动时更新以识别主题图像。 处理并
 
 [管理 Microsoft Teams 会议室](rooms-manage.md)
 
-[配置文件项](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+[配置文件项](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))

@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 按照以下步骤为呼叫者创建用于加入 Microsoft 团队会议的默认电话号码。
-ms.openlocfilehash: 7dd59950403543074d8428d35270ab963ca824e3
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+description: 按照以下步骤创建默认电话号码，让呼叫者加入 Microsoft Teams 会议。
+ms.openlocfilehash: 476075ccf5e261695564b78ec084605af9e6898c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372181"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117170"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
-Microsoft 365 和 Office 365 中的音频会议使组织中的用户能够创建 Microsoft 团队会议，然后允许用户使用手机拨入这些会议。
+Microsoft 365 和 Office 365 中的音频会议使贵组织的用户能够创建 Microsoft Teams 会议，然后允许用户使用电话拨入这些会议。
   
 会议桥为你的组织提供了一套拨入电话号码。 它们都可用于加入会议组织者已创建的会议，但你可以选择在其会议邀请中包括哪些号码。
   
@@ -43,44 +43,44 @@ Microsoft 365 和 Office 365 中的音频会议使组织中的用户能够创建
   
 ## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>新用户的会议邀请中包含的电话号码的初始分配
 
-启用音频会议的用户的会议邀请中包含的电话号码由默认会议收费电话号码和默认会议免费电话号码用户设置定义。 每个设置指定用户的会议邀请中将包含哪些收费电话号码和免费电话号码。 如上所述，每个会议邀请包含一个收费号码，一个可选的免费电话号码和一个链接，用于打开所有拨入电话号码的完整列表，这些电话号码可用于加入给定的会议。
+已启用音频会议的用户的会议邀请中包含的电话号码由默认会议收费电话号码和默认会议免费电话号码用户设置定义。 每个设置指定将在给定用户的会议邀请中包括哪些收费和免费号码。 如上所述，每个会议邀请都包含一个收费电话号码、一个可选的免费电话号码和一个链接，该链接可打开可用于加入给定会议的所有拨入电话号码的完整列表。
 
-对于新用户，根据为音频会议服务启用用户时在用户的 Microsoft 365 管理中心中设置的使用位置，分配默认的会议收费号码。 如果在会议桥中有收费号码与用户所在的国家/地区相匹配，则该号码将自动分配为用户的默认收费号码。 如果没有，则定义为该会议桥的默认收费号码的号码将被分配为用户的默认收费号码。  
+对于新用户，默认会议收费号码是根据用户启用音频会议服务的 Microsoft 365 管理中心中设置的使用位置分配的。 如果会议网桥中的收费号码与用户的国家/地区匹配，该号码将自动分配为用户的默认收费号码。 如果没有，则定义为会议网桥默认收费号码的号码将分配为用户的默认收费号码。  
 
-用户启用音频会议服务后，租户管理员可以随时从其初始值更改用户的默认收费电话号码和免费电话号码。
+为用户启用音频会议服务后，租户管理员随时都可以从用户的初始值更改用户的默认收费和免费电话号码。
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>设置或更改会议组织者或用户的默认音频会议电话号码
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-您必须是团队服务管理员才能进行这些更改。 请参阅[使用团队管理员角色管理团队](https://docs.microsoft.com/microsoftteams/using-admin-roles)，了解如何获取管理员角色和权限。
+必须是 Teams 服务管理员才能管理这些策略。 请参阅 [Teams 管理员角色管理 Teams](./using-admin-roles.md) ，了解管理员角色和权限。
 
-1. 登录到 Microsoft 团队管理中心。
+1. 登录到 Microsoft Teams 管理中心。
 
-2. 在左侧导航中，单击 "**用户**"。
+2. 在左侧导航栏中，单击"用户 **"。**
 
-    ![显示在 Microsoft 团队管理中心中选择用户](media/Admin-users.png)
+    ![显示 Microsoft Teams 管理中心中的选择用户](media/Admin-users.png)
 
-3. 从可用用户列表中单击该用户名。
+3. 从可用用户列表中单击用户名。
 
-4. 在**音频会议**旁边，单击**编辑**。
+4. 在 **音频会议** 旁边，单击 **编辑**。
 
-    ![单击 "音频会议" 旁边的 "编辑"](media/teams-set-phone-numbers-on-invites-image3.png)
+    ![单击"音频会议"旁边的"编辑"](media/teams-set-phone-numbers-on-invites-image3.png)
 
-5. 使用 "**收费电话号码**" 或 "免费**电话号码**" 字段输入用户的号码。
+5. 使用 **"收费电话号码** " **或"免费** 电话号码"字段输入用户号码。
 
 > [!IMPORTANT]
-> 更改用户的音频会议设置时，必须更新定期和将来的 Microsoft 团队会议，并将其发送给与会者。
+> 更改用户的音频会议设置时，必须更新定期和将来的 Microsoft Teams 会议并发送给与会者。
 
-## <a name="want-to-use-windows-powershell"></a>希望使用 Windows PowerShell
+## <a name="want-to-use-windows-powershell"></a>想要使用Windows PowerShell
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
-- [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。
+有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
   
 ## <a name="related-topics"></a>相关主题
 

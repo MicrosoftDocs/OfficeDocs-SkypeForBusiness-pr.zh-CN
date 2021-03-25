@@ -21,23 +21,23 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示拨打免费电话号码所需的每个国家/地区内的访问代码。
-ms.openlocfilehash: cdaa8761e55ac2ad85775c81c4726bb42c5ba489
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区拨打免费电话号码所需的访问代码。
+ms.openlocfilehash: 8f3487838f8104539e0251049ee6f61f0abfaa4e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809112"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116670"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>葡萄牙的免费拨号限制
 
-[查找另一个国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和局限性的更多内容。
+[查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。
 
 
 |**Details**|**说明**|
 |:-----|:-----|
 |是否提供免费呼叫？  <br/> |是  <br/> |
-|按 (拨号)   <br/> |8000<br/> 8001<br/> 8002<br/> 8003<br/> 8004<br/> 8005<br/> 8006<br/> 8007<br/> 8008<br/> 8009<br/>  802<br/> |
+|拨号格式 ()   <br/> |8000<br/> 8001<br/> 8002<br/> 8003<br/> 8004<br/> 8005<br/> 8006<br/> 8007<br/> 8008<br/> 8009<br/>  802<br/> |
 |国家/地区 ISO 代码  <br/> |PT  <br/> |
 |涵盖的岛屿/区域  <br/> | Azores、Madeira <br/> |
 |未涵盖的岛屿/区域  <br/> |不适用  <br/> |
@@ -49,7 +49,6 @@ ms.locfileid: "49809112"
 
 [免费拨号限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取服务电话号码](../getting-service-phone-numbers.md)
 
   
- 

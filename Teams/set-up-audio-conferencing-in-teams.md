@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: d1596a650507938e8dc3e87fb02dec68e415f6d6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: ba022bd8af5a8b1eb2e445e6034b4d318dec72b5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031418"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117140"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
@@ -48,12 +48,12 @@ ms.locfileid: "49031418"
  
 ## <a name="step-2-get-and-assign-licenses"></a>第 2 步：获取和分配许可证
  
-1. 针对音频会议，需要为将设置电话拨入式会议的每个用户购买一个许可证。 若想了解需要为电话音频会议购买哪些许可证以及它们的价格，请参阅 [Microsoft Teams 附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+1. 针对音频会议，需要为将设置电话拨入式会议的每个用户购买一个许可证。 若想了解需要为电话音频会议购买哪些许可证以及它们的价格，请参阅 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
     >[!NOTE] 
     > Office 365 企业版 E5 许可证中包含音频会议，并用作加载项。
         
-2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅向组织中的 [365 365 用户分配许可证，将许可证分配](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 给您的组织中要安排或领导会议的人员。
+2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅 [在 Microsoft 365 或 Office 365 商业](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 版中将许可证分配给组织中计划或领导会议的用户。
     
 3. 我们还建议你将通信点数许可证（它们不值什么钱）分配给你在上一步骤中分配到许可证的相同人员。 若要了解如何设置通信点数，请参阅[为你的组织设置通信点数](set-up-communications-credits-for-your-organization.md)。
     
@@ -65,11 +65,11 @@ ms.locfileid: "49031418"
 
 针对音频会议，你不能使用用户电话号码；你需要获取服务号码。 你可以获取会议网桥的收费或免费电话服务号码。 有三种获取收费和免费电话服务号码的方法： 
   
-- **使用 Microsoft Teams 管理中心** 。 某些国家/地区内，你可以使用 Microsoft Teams 管理中心获取会议网桥服务号码。 参见[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+- **使用 Microsoft Teams 管理中心**。 某些国家/地区内，你可以使用 Microsoft Teams 管理中心获取会议网桥服务号码。 参见[获取服务电话号码](./getting-service-phone-numbers.md)。
     
-- **转网现有服务号码** 。 将当前服务提供商或电话运营商的现有号码移植或转移到 Microsoft 365 或 Office 365。 有关详细信息，请参阅[将电话号码转移到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助你执行此操作。  
+- **转网现有服务号码**。 将现有号码从当前服务提供商或电话运营商转机或转移到 Microsoft 365 或 Office 365。 有关详细信息，请参阅[将电话号码转移到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助你执行此操作。  
   
-- **使用新号码的请求表单** 。 有时（具体取决于你的国家/地区），你无法使用 Microsoft Teams 管理中心获取新服务号码，或你需要特定的电话号码或区号。 如果是这样，则需下载表单并将其发回给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+- **使用新号码的请求表单**。 有时（具体取决于你的国家/地区），你无法使用 Microsoft Teams 管理中心获取新服务号码，或你需要特定的电话号码或区号。 如果是这样，则需下载表单并将其发回给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
     
 ## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>第 4 步：将服务号码分配给会议网桥
 <a name="__top"> </a>
@@ -80,29 +80,29 @@ ms.locfileid: "49031418"
 
 ![显示 Skype for Business 徽标的图标](media/sfb-logo-30x30.png) **使用 Skype for Business 管理中心：**
 
- 1. 转到 **Microsoft 365 管理中心** > **管理中心** > **Teams** > **旧版门户** 。
- 2. 选择“ **语音** ” > “ **电话号码** ”。
- 3. 选择电话号码，然后单击“ **分配** ”。
+ 1. 转到 **Microsoft 365 管理中心** > **管理中心** > **Teams** > **旧版门户**。
+ 2. 选择“**语音**” > “**电话号码**”。
+ 3. 选择电话号码，然后单击“**分配**”。
 
 有关详细信息，参见[更改音频会议网桥中的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>步骤 5：为会议桥设置默认和备用语言
 <a name="__top"> </a> 接下来，需要[在 Microsoft 团队中为音频会议设置自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)， 会议自动助理在拨入电话号码进行音频会议时欢迎主叫方。 
 
-![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心** ：
+![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
 
-1. 从仪表板中，转到 **会议** > **会议网桥** 。
-2. 选择会议网桥电话号码，单击“ **编辑** ”，然后选择默认语言。
+1. 从仪表板中，转到 **会议** > **会议网桥**。
+2. 选择会议网桥电话号码，单击“**编辑**”，然后选择默认语言。
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>第 6 步：设置你的会议网桥设置
 <a name="__top"> </a>
     
 设置你的会议网桥之后，请验证默认设置，如进入/退出通知和 PIN 长度是想要使用；如果不是，你可以更改它们。 
 
-![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心** ：
+![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
 
-1. 从仪表板中，转到 **会议** > **会议网桥** 。
-2. 选择“ **网桥设置** ”。 这将打开 **网桥设置** 窗格。 
+1. 从仪表板中，转到 **会议** > **会议网桥**。
+2. 选择“**网桥设置**”。 这将打开 **网桥设置** 窗格。 
 
 有关详细信息，请参阅[更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)。
 
@@ -112,10 +112,10 @@ ms.locfileid: "49031418"
 
 你需要为在组织中主持或安排会议的所有人员执行此操作。 
 
-![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心** ：
+![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
 
-1. 在仪表板上，单击“ **用户** ”，从列表中选择用户，然后选择“ **编辑** ”。
-2. 选择“ **音频会议** ”旁边的“ **编辑** ”，然后在“ **音频会议** ”窗格中，在“ **收费电话号码** ”和“ **免费** ”电话号码列表中选择一个号码。
+1. 在仪表板上，单击“**用户**”，从列表中选择用户，然后选择“**编辑**”。
+2. 选择“**音频会议**”旁边的“**编辑**”，然后在“**音频会议**”窗格中，在“**收费电话号码**”和“**免费**”电话号码列表中选择一个号码。
 
 如果需要更多详细信息，请参阅[将 Microsoft 指定为音频会议提供商](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 

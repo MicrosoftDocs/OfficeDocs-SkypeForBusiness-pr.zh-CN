@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 阅读本主题，了解有关管理 Microsoft Teams 会议室（下一代 Skype 会议室系统）的信息。
-ms.openlocfilehash: 56468ad85b20b25d6e9310a20638ae35e941db73
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 52234f72c380c4f5af8f47fff51998fa8c3d1459
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875142"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117430"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 会议室维护和操作 
  
@@ -81,7 +81,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 |电源管理 - \> 在交流电源上，10 分钟后关闭屏幕  <br/> 电源管理 - \> 在交流电源上，切勿将系统置于睡眠状态  <br/> |允许 Microsoft Teams 会议室关闭附加的显示器并自动唤醒  <br/> |
 |net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
    
-配置文件项 中讨论了使用组 [策略传输文件](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)。
+配置文件项 中讨论了使用组 [策略传输文件](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))。
 
 > [!NOTE]
 > 当 Microsoft Teams 会议室设备与下一版本的 Windows 10 OS 兼容时，设备会通过 Windows 更新自动更新到下一版本。 Microsoft Teams 会议室设备不应手动或通过启用 Windows 更新 for Business (WUFB) 组策略"选择要接收的更新的 Windows 准备级别"和"选择何时收到预览版本和功能更新"通过 GPO 手动升级到下一个 Windows 10 版本。 已知启用了这些组策略的设备在 Microsoft Teams 会议室应用中遇到 Windows 10 OS 更新问题。
@@ -99,7 +99,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 - 传输 (需要已加入域的 Microsoft Teams 会议室) 
     
 > [!NOTE]
-> 默认情况下，此功能处于关闭状态。 需要在 Microsoft Teams 会议室系统中为环境启用远程 PowerShell 才能执行以下操作。 请参阅 **[Enable-PSRemoting 文档](https://technet.microsoft.com/library/hh849694.aspx)** ，了解如何启用远程 PowerShell。
+> 默认情况下，此功能处于关闭状态。 需要在 Microsoft Teams 会议室系统中为环境启用远程 PowerShell 才能执行以下操作。 请参阅 **[Enable-PSRemoting 文档](/powershell/module/microsoft.powershell.core/enable-psremoting)** ，了解如何启用远程 PowerShell。
   
 例如，可以按如下所示启用远程 PowerShell：
   
@@ -169,7 +169,7 @@ Copy-Item $movefile $targetDevice
   
 默认情况下，Microsoft Teams 会议室连接到 Windows 更新以检索操作系统和 USB 外围设备固件更新，并安装在配置的营业时间之外。 你可以通过登录管理员帐户并运行“设置”应用来配置办公时间。
   
-如果要手动管理更新，并且无法遵循[Microsoft Store for Business](https://businessstore.microsoft.com/store)分发脱机应用的常规过程，[](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)可以从部署工具包[ (](https://go.microsoft.com/fwlink/?linkid=851168)获取相应的 APPX 文件和依赖项，其说明中提供了配置 Microsoft [Teams 会议室](console.md)控制台) ，该说明可用于配置管理器。 部署工具包发布滞后于应用商店版本，因此可能无法始终匹配最新的可用版本。
+如果要手动管理更新，并且无法遵循[Microsoft Store for Business](https://businessstore.microsoft.com/store)分发脱机应用的常规过程，[](/microsoft-store/distribute-offline-apps)可以从部署工具包[ (](https://go.microsoft.com/fwlink/?linkid=851168)获取相应的 APPX 文件和依赖项，其说明中提供了配置 Microsoft [Teams 会议室](console.md)控制台) ，该说明可用于配置管理器。 部署工具包发布滞后于应用商店版本，因此可能无法始终匹配最新的可用版本。
   
 ### <a name="to-update-using-powershell"></a>使用 Powershell 进行更新
 
@@ -223,4 +223,3 @@ Copy-Item $movefile $targetDevice
 - 如果会议室预览中显示镜像图像，IT 管理员可以通过关闭并重新打开摄像头电源或使用摄像头远程控件翻转图像方向来进行更正。
 - 丢失控制台触摸屏访问权限是已知问题。 在这种情况下，有时可以通过重启 Microsoft Teams 会议室系统来解决此问题。
 - 通过有线采集将电脑连接到控制台时丢失本地音频是已知问题。 在这种情况下，重新启动电脑可以解决本地音频播放问题。
-    

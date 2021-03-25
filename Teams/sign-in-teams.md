@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711639"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107298"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登录 Microsoft Teams
 ==========================
@@ -109,9 +109,9 @@ Teams for iOS 和 Android 提供 IT 管理员将帐户配置推送到 Microsoft 
 
 设置帐户设置配置后，Teams 将限制登录功能，以使只有已注册设备上的允许账户才能获得访问权限。
 
-若要创建托管 iOS/iPadOS 设备的应用配置策略，请参阅[添加托管 iOS/iPadOS 设备的应用配置策略](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)。
+若要创建托管 iOS/iPadOS 设备的应用配置策略，请参阅[添加托管 iOS/iPadOS 设备的应用配置策略](/mem/intune/apps/app-configuration-policies-use-ios)。
 
-若要创建托管 Android 设备的应用配置策略，请参阅[添加托管 Android 设备的应用配置策略](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)。
+若要创建托管 Android 设备的应用配置策略，请参阅[添加托管 Android 设备的应用配置策略](/mem/intune/apps/app-configuration-policies-use-android)。
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>如何限制台式机设备上的登录
 Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策略。 可通过常规设备管理解决方案（例如 MDM（移动设备管理）或 GPO（组策略对象））设置策略。 
@@ -150,7 +150,7 @@ Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策�
 
 ### <a name="global-sign-in-and-sign-out"></a>全局登录和注销
 
-现在，Teams Android 应用支持全局登录和注销，为第一线工作者提供简便的登录和注销体验。 员工可以从共享设备池中选取设备，使其在排班期间单一登录到“归为己有”。 在他们值班结束后，应能够执行注销，以便在设备上全局注销。 这将从设备中删除其所有个人和公司信息，以便可将设备返回到设备池。 若要获取此功能，设备必须处于共享模式。 若要了解如何设置共享设备，请参阅[如何使用 Android中的共享设备模式](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
+现在，Teams Android 应用支持全局登录和注销，为第一线工作者提供简便的登录和注销体验。 员工可以从共享设备池中选取设备，使其在排班期间单一登录到“归为己有”。 在他们值班结束后，应能够执行注销，以便在设备上全局注销。 这将从设备中删除其所有个人和公司信息，以便可将设备返回到设备池。 若要获取此功能，设备必须处于共享模式。 若要了解如何设置共享设备，请参阅[如何使用 Android中的共享设备模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
 
 登录体验看起来类似于我们的标准 Teams 登录体验，而注销看起来将如下两个图像所示：
 
@@ -158,11 +158,11 @@ Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策�
 
 ## <a name="urls-and-ip-address-ranges"></a>URL 和 IP 地址范围
 
-Teams 需要连接到 Internet。 若要了解在 Office 365 计划、政府版和其他云中使用 Teams 的客户应该可以访问的终结点，请阅读 [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
+Teams 需要连接到 Internet。 若要了解在 Office 365 计划、政府版和其他云中使用 Teams 的客户应该可以访问的终结点，请阅读 [Office 365 URL 和 IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!IMPORTANT]
 > 目前，Teams 要求所有用户都能访问（TCP 端口 443）Google ssl.gstatic.com 服务（即使你不使用 Gstatic，也是如此）。 Teams 将很快取消此要求（2020 年初），届时我们将相应地更新此文章。
 
 ## <a name="related-topics"></a>相关主题
 
-[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)

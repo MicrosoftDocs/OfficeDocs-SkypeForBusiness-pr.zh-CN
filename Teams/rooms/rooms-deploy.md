@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文以了解如何部署 Microsoft Teams 会议室（包括部署阶段）。
-ms.openlocfilehash: 87ded33b464d6f5248fe1fb71d579d5f191bb6b6
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 3ac6ceabd1d421551ab3b9404688bd4a9302e3d6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726303"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117460"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -140,9 +140,9 @@ _Microsoft Teams 会议室服务帐户计划表示例_
 
 **专业提示** - 每个 Microsoft Teams 会议室必须在网络上有有效且唯一的计算机名称。 许多监视和警报系统将计算机名称显示为密钥标识符，因此为 Microsoft Teams 会议室部署开发命名约定非常重要，该约定允许支持人员轻松找到标记为需要操作的 Microsoft Teams 会议室。 例如，可以使用 MTR-*地点*-*会议室名称* (MTR-LON-CURIE) 模式。 
 
-作为部署的一部分，还需要考虑管理和配置由 Microsoft Teams 会议室应用程序安装程序创建的[本地帐户](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)的策略。
+作为部署的一部分，还需要考虑管理和配置由 Microsoft Teams 会议室应用程序安装程序创建的[本地帐户](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)的策略。
 
-我们提供有关如何使用 [Microsoft Azure Monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) 监视 Microsoft Teams 会议室部署并报告可用性、硬件/软件错误和 Microsoft Teams 会议室应用程序版本的指南。 如果决定使用 Microsoft Operations Management Suite，则应在软件安装过程中安装 Operations Management Suite 代理，并为工作区配置工作区连接信息。 
+我们提供有关如何使用 [Microsoft Azure Monitor](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) 监视 Microsoft Teams 会议室部署并报告可用性、硬件/软件错误和 Microsoft Teams 会议室应用程序版本的指南。 如果决定使用 Microsoft Operations Management Suite，则应在软件安装过程中安装 Operations Management Suite 代理，并为工作区配置工作区连接信息。 
 
 另一个需要考虑的问题是 Microsoft Teams 会议室是否加入域。 有关加入域的好处的信息可以在 [Skype 房间系统域加入注意事项](domain-joining-considerations.md)中找到。 
 
@@ -200,5 +200,3 @@ _资产表示例_
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | 伦敦总部 | Curie         | 中型        |                                          |                                          |                                          |                                            |                   |
 | 悉尼总部 | Hill          | 大型         |                                          |                                          |                                          |                                            |                   |
-
-

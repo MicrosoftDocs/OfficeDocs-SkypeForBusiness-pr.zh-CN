@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 摘要：了解如何使用 Skype for Business Server 控制面板在 Skype for Business Server 中创建或修改语音路由。
-ms.openlocfilehash: c9f1a234bf8aeeb1bfeb05f1464a48eb0e964405
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c6f1e50971551866cfa6cb12eb6a259ac2f932f8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820452"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105838"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>在 Skype for Business 中创建或修改语音路由
  
@@ -41,17 +41,17 @@ ms.locfileid: "49820452"
     
 6. 在 **"名称**"中，键入语音路由的描述性名称。
     
-7.  (") ，键入语音路由的其他描述性信息。
+7.  (可选) 在 **"** 说明"中，键入语音路由的其他描述性信息。
     
-8. 若要指定希望此路由适应的模式，可以使用"生成模式以匹配工具"来生成正则表达式，也可以手动编写正则表达式。
+8. 若要指定希望此路由满足的模式，可以使用"生成匹配的模式"工具生成正则表达式，也可以手动编写正则表达式。
     
    - 要使用 **“建立匹配的模式”** 工具生成正则表达式，请按如下所示输入值。可以指定两种匹配的模式类型：
     
    - **希望允许的号码起始数字**：输入此路由必须满足的前缀值（如有必要，包括前导 +）。 例如，键入 +425，然后单击"添加 **"。** 对希望包含在路由中的每个前缀值重复此过程。
     
-   - **例外**：如果要为前缀值指定一个或多个例外，请突出显示相应的前缀并单击 **“例外”**。 为不希望此路由容纳的匹配  *模式键入一*  个或多个值。 例如，若要从路由中排除以 +425237 开始的数字，请在"例外"字段中输入 +425237 的值，然后单击"**确定"。** 
+   - **例外**：如果要为前缀值指定一个或多个例外，请突出显示相应的前缀并单击 **“例外”**。 为不希望此路由适应的匹配模式  *键入一个或多个*  值。 例如，若要从路由中排除以 +425237 开始的数字，请在"例外"字段中输入值+425237，然后单击"确定 **"。** 
     
-   - 若要手动定义匹配模式，请在“构建要匹配的模式”工具中单击“编辑”，然后键入 .NET Framework 正则表达式，以便为应用路由的目标电话号码指定匹配模式。 若要详细了解如何编写正则表达式，请参阅[".NET Framework 正则表达式"。](https://go.microsoft.com/fwlink/p/?linkId=140927) 
+   - 若要手动定义匹配模式，请在“构建要匹配的模式”工具中单击“编辑”，然后键入 .NET Framework 正则表达式，以便为应用路由的目标电话号码指定匹配模式。 若要详细了解如何编写正则表达式，请参阅[".NET Framework正则表达式"。](/dotnet/standard/base-types/regular-expressions) 
     
 9. 如果不希望对呼叫接收人显示发起出站呼叫的电话的 ID，请选择 **“隐藏呼叫者 ID”**。 如果选择此选项，则必须指定将在收件人的呼叫者 **ID** 显示器上显示的备用呼叫者 ID。
     
@@ -60,19 +60,19 @@ ms.locfileid: "49820452"
 11. 若要将一个或多个公用电话交换网 (PSTN) 用法与语音路由关联，请单击"选择"，然后从为 企业语音 部署定义的 PSTN 用法记录列表中选择一条记录。
     
     > [!NOTE]
-    > 若要查看每个可用的 PSTN 用法记录的属性，请参阅查看 Skype for Business 中的 [PSTN 用法记录](view-pstn-usage-records.md)。 > 创建或编辑 PSTN 用法记录，请参阅"创建或修改语音策略"，并配置 Skype for Business 中的 [PSTN 用法记录](voice-policy-and-pstn-usage-records.md)
+    > 若要查看每个可用 PSTN 用法记录的属性，请参阅在 Skype for Business 中 [查看 PSTN 用法记录](view-pstn-usage-records.md)。 >创建或编辑 PSTN 用法记录，请参阅在 Skype for Business 中创建或修改语音策略和配置 [PSTN 用法记录](voice-policy-and-pstn-usage-records.md)
   
-12. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置，请突出显示记录名称，然后单击向上或向下箭头。
+12. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置，请突出显示记录名称，然后单击向上箭头或向下箭头。
     
     > [!NOTE]
-    > 与语音策略（其中 PSTN 用法记录的列出顺序非常重要）相反，PSTN 用法记录在语音路由中的列出顺序无关紧要。 但是，建议您按使用频率组织列表。 例如：RedmondLocal、RedmondLongDist、RedmondInternational、RedmondBackup。  (Skype for Business Server 从上到下遍历列表。)  
+    > 与语音策略（PSTN 用法记录的列出顺序非常重要）相反，PSTN 用法记录在语音路由中的列出顺序无关紧要。 但是，建议您按使用频率组织列表。 例如：RedmondLocal、RedmondLongDist、RedmondInternational、RedmondBackup。  (Skype for Business Server 从上到下遍历列表。)  
   
 13. （可选）在 **“输入转换后的号码以进行测试”** 字段中键入一个值，然后单击 **“执行”**。测试结果将显示在该字段下面。
     
 14. 单击 **“确定”** 保存语音路由。
     
     > [!IMPORTANT]
-    > 任何时候创建语音路由，都必须运行 **"全部提交** "命令以发布配置更改。 有关详细信息，请参阅在 Skype for Business 中发布对语音 [路由配置的挂起更改](voice-route-config-changes.md)。 
+    > 任何时候创建语音路由，都必须运行 **"全部提交** "命令以发布配置更改。 有关详细信息，请参阅[Publish pending changes to the voice routing configuration in Skype for Business。](voice-route-config-changes.md) 
   
 ### <a name="to-modify-a-voice-route"></a>修改语音路由
 
@@ -96,23 +96,23 @@ ms.locfileid: "49820452"
     
    - **希望允许的号码起始数字**：输入此路由必须满足的前缀值（如有必要，包括前导 +）。 例如，键入 +425，然后单击 **“添加”**。 对希望包含在路由中的每个前缀值重复此过程。
     
-   - **例外**：如果要为前缀值指定一个或多个例外，请突出显示相应的前缀并单击 **“例外”**。 为不希望此路由容纳的匹配  *模式键入一*  个或多个值。 例如，若要从路由中排除以 +425237 开始的数字，请在"例外"字段中输入 +425237 的值，然后单击"**确定"。** 
+   - **例外**：如果要为前缀值指定一个或多个例外，请突出显示相应的前缀并单击 **“例外”**。 为不希望此路由适应的匹配模式  *键入一个或多个*  值。 例如，若要从路由中排除以 +425237 开始的数字，请在"例外"字段中输入值+425237，然后单击"确定 **"。** 
     
-   - 若要手动定义匹配模式，请单击"生成模式以匹配工具"中的"编辑"，然后在 .NET Framework 正则表达式中键入以指定应用路由的目标电话号码的匹配模式。若要详细了解如何编写正则表达式，请参阅[".NET Framework 正则表达式"。](https://go.microsoft.com/fwlink/p/?linkId=140927) 
+   - 若要手动定义匹配模式，请在"生成要匹配的模式"工具中单击"编辑"，然后键入 .NET Framework 正则表达式以指定应用路由的目标电话号码的匹配模式。若要详细了解如何编写正则表达式，请参阅[".NET Framework正则表达式"。](/dotnet/standard/base-types/regular-expressions) 
     
-7. 如果 **不希望** 发起出站呼叫的电话的 ID 向呼叫接收人显示，请选择"隐藏呼叫者 ID"。 如果选择此选项，则必须指定将在收件人的呼叫者 **ID** 显示器上显示的备用呼叫者 ID。
+7. 如果您 **不希望** 向呼叫接收人显示发起出站呼叫的电话的 ID，请选择"隐藏呼叫者 ID"。 如果选择此选项，则必须指定将在收件人的呼叫者 **ID** 显示器上显示的备用呼叫者 ID。
     
-8. 若要将一个或多个公用电话交换网 (PSTN) 中继与语音路由关联，请单击"添加"，然后从列表中选择中继。
+8. 若要将一个或多个公用电话交换网与 PSTN (PSTN) 与语音路由关联，请单击"添加"，然后从列表中选择中继。 
     
 9. 若要将一个或多个 PSTN 用法与语音路由关联，请单击"选择"，然后从为部署定义的 PSTN 用法记录列表中选择企业语音记录。
     
     > [!NOTE]
-    > 若要查看每个可用的 PSTN 用法记录的属性，请参阅查看 Skype for Business 中的 [PSTN 用法记录](view-pstn-usage-records.md)。 > 创建或编辑 PSTN 用法记录，请参阅在 Skype for Business 中创建或修改语音策略和配置 [PSTN 用法记录](voice-policy-and-pstn-usage-records.md)。 
+    > 若要查看每个可用 PSTN 用法记录的属性，请参阅在 Skype for Business 中 [查看 PSTN 用法记录](view-pstn-usage-records.md)。 >要创建或编辑 PSTN 用法记录，请参阅在 Skype for Business 中创建或修改语音策略和配置 [PSTN 用法记录](voice-policy-and-pstn-usage-records.md)。 
   
-10. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置，请突出显示记录名称，然后单击向上或向下箭头。
+10. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置，请突出显示记录名称，然后单击向上箭头或向下箭头。
     
     > [!NOTE]
-    > 与 PSTN 用法记录的列出顺序很重要的语音策略相反，语音路由中的 PSTN 用法记录的顺序无关紧要。 但是，建议您按使用频率组织列表，例如：RedmondLocal、RedmondLongDist、RedmondInternational、RedmondBackup。  (Skype for Business Server 从上到下遍历列表。)  
+    > 与 PSTN 用法记录的列出顺序很重要的语音策略相反，语音路由中 PSTN 用法记录的顺序无关紧要。 但是，建议您按使用频率组织该列表，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。  (Skype for Business Server 从上到下遍历列表。)  
   
 11. （可选）在 **“输入转换后的号码以进行测试”** 字段中键入一个值，然后单击 **“执行”**。测试结果将显示在该字段下面。
     
@@ -121,7 +121,7 @@ ms.locfileid: "49820452"
 13. 在 **“路由”** 页上，单击 **“提交”**，然后单击 **“全部提交”**。 
     
     > [!NOTE]
-    > 任何时候创建或修改语音路由，都必须运行 **"** 全部提交"命令以发布配置更改。 有关详细信息，请参阅操作文档中的"在 [Skype for Business 中](voice-route-config-changes.md) 发布对语音路由配置的挂起更改"。
+    > 任何时候创建或修改语音路由，都必须运行 **"全部提交** "命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business。](voice-route-config-changes.md)
   
 ## <a name="see-also"></a>另请参阅
 
@@ -130,4 +130,3 @@ ms.locfileid: "49820452"
 [在 Skype for Business 中创建或修改语音策略和配置 PSTN 用法记录](voice-policy-and-pstn-usage-records.md)
   
 [在 Skype for Business 中发布对语音路由配置的挂起更改](voice-route-config-changes.md)
-

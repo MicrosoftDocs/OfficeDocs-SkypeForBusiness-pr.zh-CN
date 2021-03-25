@@ -23,91 +23,91 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 51885d80e698d0f47308c45110af83063e7bd7ba
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 98591d7603cdf63a76bef3478834f37504d8ff6c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031388"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117100"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
-您需要设置通信点数，如果您想要使用 Skype for Business 和 Microsoft Teams 的免费电话号码。 此外，我们建议你为通话计划设置通讯信用点数， (国内或国际) 以及需要拨出到 **任何目的地** 的音频会议用户。 包括许多国家/地区，但某些目的地可能不包括在您的通话计划或音频会议套餐中。 如果您不设置通讯信用帐单并为您的用户分配 **通讯信用** 许可证，而您的组织的分钟数 (，具体取决于您所在国家/地区) 的通话计划或音频会议计划，这些用户将无法通过音频会议会议进行呼叫或拨出。 您可以通过阅读[通讯信用点数](what-are-communications-credits.md)来获取详细信息（包括推荐的融资金额）？
+您需要设置通信点数，如果您想要使用 Skype for Business 和 Microsoft Teams 的免费电话号码。 此外，我们建议你为需要拨出到任何目的地的呼叫计划 (或国际) 和音频会议用户设置通信 **积分**。 包括许多国家/地区，但某些目的地可能不包含在呼叫计划或音频会议订阅中。 如果未设置通信信用额度计费并将通信信用额度许可证分配给用户，并且你的组织 (根据你的呼叫计划或音频会议计划在你的国家/地区) 中用完了分钟数，则这些用户将无法进行呼叫或从音频会议会议拨出。 可以通过阅读什么是通信信用额度，获取更多信息，包括建议 [的金额？](what-are-communications-credits.md)
   
 > [!NOTE]
 > 若要找出它的费用， [请参阅下面的价格](https://go.microsoft.com/fwlink/p/?LinkId=799523 )  。 
   
-## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>步骤1：为用户分配音频会议或呼叫计划许可证
+## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>步骤 1：为用户分配音频会议或通话计划许可证
 
-当您注册时，您将获得一定的分钟数，具体取决于您所在的国家/地区。 可以在 " [国家或地区" 列表中搜索音频会议和通话计划](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization) 的国家或地区，以查看您将获得的分钟数。 使用这些分钟数后，通话将断开。 要防止这种情况发生，您需要设置通讯信用点数。
+注册时，你获得特定分钟数，具体取决于你的国家/地区。 您可以在"音频会议"和"呼叫计划"[](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization)的"国家/地区可用性"列表中搜索您的国家/地区，以查看您将获得的分钟数。 使用这些分钟数后，通话将断开连接。 若要防止这种情况发生，需要设置通信信用额度。
   
-若要执行此操作，你需要为你的用户 **分配音频会议或电话系统许可证** 。
+为此， **你需要为用户分配音频会议或电话** 系统许可证。
   
-- 将 **音频会议** 许可证分配给你的用户。 请参阅 [分配 Microsoft 团队附加设备许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+- 为 **用户分配** 音频会议许可证。 请参阅 [分配 Microsoft Teams 附加许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-    分配此许可证后，你将需要设置音频会议。 有关分步说明，请参阅 [在 Microsoft 365 或 Office 365 中试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
+    分配此许可证后，需要设置音频会议。 有关分步说明，请参阅在 [Microsoft 365 或 Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)中试用或购买音频会议。
     
-- 为你的用户分配 **电话系统** 和 **国内或国内和国际** 呼叫计划许可证。 请参阅 [分配 Microsoft 团队附加设备许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+- 为 **用户分配** 电话 **系统以及** 国内或国内和国际呼叫计划许可证。 请参阅 [分配 Microsoft Teams 附加许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
     > [!NOTE]
-    > 虽然通信信用点数不是必需的，但您仍然需要分配 **国内呼叫计划** 或 **国内和国际呼叫计划** 许可证。
+    > 虽然通信积分不需要，但您仍然需要分配国内呼叫计划或 **国内和国际呼叫计划** 许可证。 
   
     分配这些许可证后，你需要获得贵组织的电话号码，然后将这些号码分配给组织中的人员。 有关分步说明，请参阅 [设置呼叫计划](set-up-calling-plans.md)。
     
-有关详细信息，请参阅 [Microsoft 团队附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+有关详细信息，请参阅 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步骤2：为你的组织设置通讯信用点数
+## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步骤 2：为组织设置通信信用额度
 
-1. 使用你的工作或学校帐户登录 [Microsoft 365 管理中心](https://portal.office.com/Adminportal) 。
+1. 使用工作或学校 [帐户登录到 Microsoft 365](https://portal.office.com/Adminportal) 管理中心。
     
-2. 在 Microsoft 365 管理中心的左侧导航中，转到 " **帐单**  >  **购买服务** "。 向下滚动，然后选择 " **加载项** "。
+2. 在 Microsoft 365 管理中心的左侧导航中，转到"**计费**  >  **购买服务"。** 向下滚动并选择"**附加内容"。**
 
-3. 选择 " **通讯信用点数** "。
+3. 选择 **"通信信用额度"。**
     
-4. 在 " **通信信用点数** 订阅" 页面上，填写您的信息，然后单击 " **下一步** "：
+4. 在"**通信信用额度"** 订阅页上，填写你的信息，然后单击"下一步 **"：**
     
-   - **添加资金** 输入要添加到您的帐户的金额。 如果不启用自动重新充电，一旦这些资金耗尽，使用通信信用点数启用的呼叫功能将受到 (，如入站免费服务) 。 为避免每次余额达到 0 (零) 时必须手动补充您的通信点数余额，我们建议您启用自动重新充电功能。
+   - **添加资金** 输入要添加到帐户的金额。 如果未启用自动充值，这些资金耗尽后，使用通信信用额度启用的呼叫功能将中断 (如入站免费服务) 。 为了避免每次余额达到 0 或零 (，) 手动补充通信信用额度余额，我们建议您启用自动充值功能。
     
-   - **自动充值** ：启用自动充值将在余额低于你设置的阈值时自动补充你的帐户余额。
+   - **自动充值**：启用自动充值将在余额低于你设置的阈值时自动补充你的帐户余额。
     
-     建议使用 **自动重新充电** 设置，以避免通讯信用点数达到 0 (零) 时的任何服务中断。 当重新充电交易时，您将收到一封电子邮件，当重新充电的交易失败 (例如已过期的信用卡) ，并且您的通讯信用余额达到 0 (零) 。
+     建议你使用自动充值设置，以免在通信信用额度余额达到 0 或零时 (中断) 。 当充值交易成功、充值交易失败（例如 (信用卡) ）以及通信积分余额达到 0 (零时) 。
     
-   - 重新 **充电金额** 在 "重新 **充电** " 框中输入您希望在您的帐户达到以下总金额后添加到该帐户的金额。
+   - **充值金额** 在"充值金额 **"** 框中输入在达到以下触发金额后要添加到帐户的金额。
     
-   - **触发金额** 在 " **余额低于** " 框中输入将用于 " *触发*  " 自动重新充电的金额。 余额低于此金额后，将自动向您的帐户添加重新充电金额。
+   - **触发量** 在将用于"**触发**"自动充值的"余额低于"框中输入金额。  余额低于此金额后，充值金额将自动添加到你的帐户。
 
       > [!NOTE]
-     > 在使用服务时，资金将仅应用于 Microsoft 已发布费率的通信信用点数。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。 
+     > 使用服务时，资金将仅应用于 Microsoft 发布的通信信用额度。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。 
      > 
-     > 仅当使用 alloted 基金时，才会应用 "每月计费"，以了解如何查看每月使用情况，请阅读 [Skype for BUSINESS PSTN 使用报告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > 只有在已使用已分配资金时，才应用通信积分的每月计费，若要了解如何检查每月使用情况，请阅读 Skype for Business [PSTN 使用情况报告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. 输入您的付款信息并单击 **下订单** 。
     >[!IMPORTANT]
     >如果您是批量授权客户，则可以选择您的企业协议编号进行付款。 如果您有多个企业协议编号，您将能够选择要用于付款的企业协议。 您还将获得一个机会，指定要与企业协议编号关联的采购订单编号 （如果适用）。
     
-每个组织都将有不同的通话计划体积和费率的使用。 You will need to get this type of usage data from your current service provider. 已使用 Skype for business Online 的组织已通过在 **Microsoft 团队管理中心**  >  **报告**  >  **PSTN 使用详细信息** 报告中查看其服务提供商来获取使用情况数据。
+每个组织都会考虑不同的呼叫计划数量和费率使用情况。 You will need to get this type of usage data from your current service provider. 已使用 Skype for Business Online 作为服务提供商的组织可以通过在 **Microsoft Teams** 管理中心报告 PSTN 使用情况详细信息报告中查看这些数据  >    >  **，获取使用情况** 数据。
   
-设置通讯信用点数时，您需要调查组织的通话使用情况以确定所需的金额。 你可以通过查看" **PSTN 使用详细信息** "报告获取呼叫使用信息。 如果需要存储数据或创建自定义报表，可通过此报表将调用数据记录导出到 Excel。 若要了解如何查看使用情况，请参阅 [PSTN 使用报告](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)。
+设置通信信用额度时，需要调查组织的呼叫使用情况，以确定所需的金额。 你可以通过查看" **PSTN 使用详细信息**"报告获取呼叫使用信息。 如果需要存储数据或创建自定义报表，此报表允许您将呼叫数据记录导出到 Excel。 若要了解如何查看使用情况，请阅读 [PSTN 使用情况报告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)。
   
-## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步骤3：为用户分配通讯信用许可证
+## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步骤 3：向用户分配通信信用额度许可证
 
-1. 使用你的工作或学校帐户登录 [Microsoft 365 管理中心](https://portal.office.com/Adminportal) 。
+1. 使用工作或学校 [帐户登录到 Microsoft 365](https://portal.office.com/Adminportal) 管理中心。
     
-2. 在 Microsoft 365 管理中心的左侧导航中，转到 " **用户**  >  **活动用户** "，然后从列表中选择用户。
+2. 在 Microsoft 365 管理中心的左侧导航中，转到"用户  >  **""活动** 用户"，然后从列表中选择一个用户。
     
-3. 选择 " **许可证和应用** "。
+3. 选择 **"许可证和应用"。**
     
-4. 将 **通讯信用点数** 切换到 **"开"** 以分配此许可证，然后选择 " **保存** "。
+4. 将 **"通信信用额度"** 切换 **为"打开**"以分配此许可证，然后选择"保存 **"。**
     
     > [!NOTE]
-    > 即使你有分配了 **企业版 E5** 许可证的用户，仍建议你执行此操作。
+    > 即使为用户分配了企业 **版 E5** 许可证，也仍建议你这样做。
 
     > [!TIP]
-    > 你可以使用 [Powershell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) 将许可证和应用分配给具有一个命令的多个用户。
+    > 可以使用 [Powershell 通过](/powershell/module/skype/?view=skype-ps) 一个命令将许可证和应用分配给多个用户。
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>想要了解计划和定价？
 
-你可以通过访问以下链接之一来查看计划和定价：
+可以通过访问以下链接之一来查看计划和定价：
   
 - [通话套餐](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
@@ -115,9 +115,9 @@ ms.locfileid: "49031388"
     
 - [电话系统计划](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-您也可以通过 [登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到 **帐单**  >  **订阅**  >  **添加订阅** 来查看信息。
+还可通过登录 Microsoft [365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)管理中心并访问"计费订阅""添加订阅"  >    >  **来查看信息**。
   
-若要查看一个表，其中包含每个功能所需的许可证或许可证，请参阅 [Microsoft 团队加载项许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+若要查看包含每个功能所需的许可证的表，请参阅 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相关主题
 
@@ -125,9 +125,8 @@ ms.locfileid: "49031388"
     
 - [设置云语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
     
-- [为 Microsoft 365 或 Office 365](calling-plans-for-office-365.md) [设置呼叫计划](set-up-calling-plans.md)和通话计划
+- [为](set-up-calling-plans.md) [Microsoft 365 或 Office 365](calling-plans-for-office-365.md)设置呼叫计划和呼叫计划
     
 - [添加资金并管理通信点数](add-funds-and-manage-communications-credits.md)
     
   
- 

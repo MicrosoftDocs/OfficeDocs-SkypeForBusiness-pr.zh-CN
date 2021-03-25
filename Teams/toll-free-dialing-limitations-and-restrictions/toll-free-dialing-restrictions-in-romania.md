@@ -22,35 +22,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
-ms.openlocfilehash: c014b26033f763109ae74a9fb415defd7211d2f7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区拨打免费电话号码所需的访问代码。
+ms.openlocfilehash: 6749c9c9d63b6ded3440a79b4c2bb0452726729d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693367"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116650"
 ---
 # <a name="toll-free-dialing-restrictions-in-romania"></a>罗马尼亚的免费拨号限制
 
-[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
+[查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。
 
 
-|**详细信息**|**说明**|
+|**Details**|**说明**|
 |:-----|:-----|
-|是否可以免费通话？  <br/> |是  <br/> |
-|拨号格式  <br/> | 0 800 XXX XXX <br/> |
+|是否提供免费呼叫？  <br/> |是  <br/> |
+|拨号格式 ()   <br/> | 0 800 XXX XXX <br/> |
 |国家/地区 ISO 代码  <br/> |RO  <br/> |
-|已覆盖的岛/地区  <br/> |不适用  <br/> |
-|未覆盖的岛/区域  <br/> |不适用  <br/> |
+|涵盖的岛屿/区域  <br/> |不适用  <br/> |
+|未涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |有线/固定线路可用性  <br/> |仅限 Romtelecom。  <br/> |
 |移动网络可用性  <br/> |是。 可享受优惠费率。  <br/> |
-|批注、限制和访问问题  <br/> |无  <br/> |
+|注释、限制和访问问题  <br/> |无  <br/> |
    
 ## <a name="related-topics"></a>相关主题
 
 [免费拨号限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
   
- 

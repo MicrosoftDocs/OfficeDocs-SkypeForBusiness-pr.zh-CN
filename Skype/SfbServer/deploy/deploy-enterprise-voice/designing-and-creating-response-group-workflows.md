@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
-description: 在 Skype for Business Server 企业语音 中设计和创建响应组企业语音。 涵盖寻线工作流和互动工作流。
-ms.openlocfilehash: 3ebd5f2705547aa96a9ebfcc6857781ef25854b5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在 Skype for Business Server 企业语音 中设计和创建响应组工作流。 涵盖搜寻组工作流和互动工作流。
+ms.openlocfilehash: 678dcb25f5f802f101016a2a289015a60e48ba88
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831032"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105778"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在 Skype for Business 中设计和创建响应组工作流
 
-在 Skype for Business Server 企业语音 中设计和创建响应组企业语音。 涵盖寻线工作流和互动工作流。
+在 Skype for Business Server 企业语音 中设计和创建响应组工作流。 涵盖搜寻组工作流和互动工作流。
 
 工作流定义了从电话响铃到有人接听电话这段时间内呼叫的行为。 工作流指定用于保持呼叫的队列，并指定用于智能寻线工作流的路由方法或用于互动响应组工作流的问题和答案。
 
@@ -53,49 +53,49 @@ ms.locfileid: "49831032"
 
 6. 执行下列操作之一：
 
-   - 在 **"新建工作流"下**，单击 **"寻** 线"旁边的"**创建"。**
+   - 在 **"创建新工作流"下的**"寻线"**旁边，** 单击"创建 **"。**
 
    - 在“管理现有工作流”下，找到要更改的工作流，然后在“操作”下，单击“编辑”。
 
-7. 如果已准备好让用户开始调用工作流，请选择 **"激活工作流"。**
+7. 如果已准备好让用户开始调用工作流，请选择"**激活工作流"。**
 
     > [!NOTE]
-    >  如果要创建托管工作流，则需要选择"**激活工作流"。** 在保存活动、托管的工作流之后，可以修改并停用该工作流。
+    >  如果要创建托管工作流，则需要选择"激活 **工作流"。** 在保存活动、托管的工作流之后，可以修改并停用该工作流。
 
 8. 要允许联盟用户呼叫组，请选中“启用联盟”复选框。 还必须具有适用于为联盟配置的响应组应用程序的外部访问策略。
 
     > [!NOTE]
-    > 全局外部访问策略适用于响应组应用程序。 可以使用 Skype for Business Server 控制面板或 **Set-CsExternalAccessPolicy** cmdlet 将 EnableOutsideAccess 参数设置为 True，为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关策略如何适用于用户的详细信息，请参阅[Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx)。 有关联合设置的详细信息，请参阅 [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
+    > 全局外部访问策略适用于响应组应用程序。 可以使用 Skype for Business Server 控制面板或 **Set-CsExternalAccessPolicy** cmdlet 将 EnableOutsideAccess 参数设置为 True，为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关策略如何适用于用户的详细信息，请参阅[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 有关联合设置的详细信息，请参阅 [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
 
     > [!NOTE]
-    > 在 Skype for Business Online 中托管的用户无法呼叫本地部署中托管的响应组。 这适用于混合部署以及本地部署与 Skype for Business Online 部署联盟的情况。
+    > 托管在 Skype for Business Online 中的用户无法呼叫本地部署中托管的响应组。 这适用于混合部署和本地部署与 Skype for Business Online 部署联盟的情况。
 
 9. 要在呼叫过程中隐藏代理身份，请选中“启用代理匿名”复选框。
 
     > [!NOTE]
-    > 尽管建立呼叫后，代理或呼叫者可以添加即时消息 (IM) 和视频，但匿名呼叫无法启动 IM 或视频。 匿名代理还可以将呼叫置于保持状态、转接呼叫（盲转接和咨询转接）、寄存和取回呼叫。 匿名呼叫不支持会议、应用程序共享和桌面共享、文件传输、白板、数据协作和呼叫记录。 使用 Lync VDI 插件的代理可以匿名接收传入呼叫，但他们无法匿名进行传出呼叫。
+    > 尽管建立呼叫后，代理或呼叫者可以添加即时消息 (IM) 和视频，但匿名呼叫无法启动 IM 或视频。 匿名代理还可以将呼叫置于保持状态、转接呼叫（盲转接和咨询转接）、寄存和取回呼叫。 匿名呼叫不支持会议、应用程序共享和桌面共享、文件传输、白板、数据协作和呼叫记录。 使用 Lync VDI 插件的代理可以匿名接收传入呼叫，但不能匿名进行传出呼叫。
 
 10. 在“输入将接收呼叫的组的地址”下，键入将应答工作流呼叫的组的主 SIP 统一资源标识符 (URI) 地址。
 
     > [!NOTE]
-    > 工作流的主要 URI 是如何标识和引用工作流。 您输入的 SIP URI 在 Active Directory 域服务中创建为联系人对象。 若要创建此 URI，则该对象在 Active Directory 中必须是唯一的。
+    > 工作流的主要 URI 是标识和引用工作流方式。 您输入的 SIP URI 在 Active Directory 域服务中创建为联系人对象。 若要创建此 URI，则该对象在 Active Directory 中必须是唯一的。
 
 11. 在“显示名称”中，键入希望显示的工作流名称（例如，销售响应组）。
 
     > [!NOTE]
-    > 不要在显示名称中包含“<”或“>”字符。 请勿使用以下显示名称，因为它们是保留的 **：RGS Presence Watcher** 或 **Announcement Service。**
+    > 不要在显示名称中包含“<”或“>”字符。 请勿使用以下保留的显示名称 **：RGS Presence Watcher** 或 Announcement **Service。**
 
 12. 在“电话号码”下，键入响应组的线路 URI（例如，+14255550165）。
 
 13. 在“显示号码”中，键入希望显示的响应组号码（例如，+1 (425) 555-0165）。
 
-14.  (可选) 描述中，键入希望工作流显示在 Skype for Business 联系人卡片上的工作流的说明。
+14.  (可选) 在"说明"中，键入工作流的说明，因为它显示在 Skype for Business 中的联系人卡片上。
 
 15. 如果工作流将由响应组管理员进行管理，则在“工作流类型”中，选择“受管理”。 执行以下操作可向工作流分配响应组管理员：
 
-    a. 键入此工作流的经理的 SIP URI，然后单击"**添加"。**
+    a. 为此工作流键入经理的 SIP URI，然后单击"添加 **"。**
 
-    b. 键入要添加到工作流的其他管理员的 SIP URI，然后单击"**添加"。**
+    b. 键入要添加到工作流的其他管理员的 SIP URI，然后单击"添加 **"。**
 
     > [!IMPORTANT]
     > 必须为被指定为响应组管理员的每一位用户分配 CsResponseGroupManager 角色。如果没有为用户分配此角色，他们无法管理响应组。
@@ -112,7 +112,7 @@ ms.locfileid: "49831032"
     - 要使用 Wave (.wav) 或 Windows Media 音频 (.wma) 文件录音作为欢迎消息，请单击“选择录音”。如果要上载新的音频文件，请单击“录音”链接。在新浏览器窗口中，单击“浏览”，选择要使用的音频文件，然后单击“打开”。单击“上载”，加载该音频文件。
 
     > [!NOTE]
-    > 用户提供的所有音频文件都必须满足特定要求。 有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 用户提供的所有音频文件都必须满足特定要求。 有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 18. 在“步骤 4 指定您的工作时间”下的“您所在的时区”中，单击工作流的时区。
 
@@ -124,7 +124,7 @@ ms.locfileid: "49831032"
     - 要使用预定义工作时间日程表，请单击“使用预设日程表”，然后从下拉列表中选择要使用的日程表。
 
       > [!NOTE]
-      > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用 **New-CSRgsHoursOfBusiness** cmdlet 来定义预设日程表。 有关详细信息，请参阅 ([ Skype for Business) 定义响应组工作时间的可选选项](optional-define-response-group-business-hours.md)。
+      > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用 **New-CSRgsHoursOfBusiness** cmdlet 来定义预设日程表。 有关详细信息，请参阅 ([Optional) Define Response Group business hours in Skype for Business。](optional-define-response-group-business-hours.md)
 
       > [!NOTE]
       > 选择预设日程表时，“天”、“开放”和“关闭”中会自动填写响应组可以应答的日期和时间。
@@ -133,7 +133,7 @@ ms.locfileid: "49831032"
 
 20. 如果要创建该工作流的自定义日程表，请单击一周中响应组可以应答的日期对应的复选框。
 
-21. 如果要创建自定义日程表，请键入一周中响应组可用的每天的开放和关闭时间。
+21. 如果要创建自定义日程表，请键入响应组在一周中每天的"开放"和"关闭"时间。
 
     > [!NOTE]
     > “开放”和“关闭”时间点必须采用 24 小时制。例如，如果营业时间为朝九晚五，其中午餐时间不办公，则工作时间指定为 9:00“开放”、12:00“关闭”、13:00“开放”及 17:00“关闭”。
@@ -148,13 +148,13 @@ ms.locfileid: "49831032"
     - 要使用音频文件录音作为消息，请单击“选择录音”。如果要上载新的音频文件，请单击“录音”链接。在新浏览器窗口中，单击“浏览”，选择要使用的文件，然后单击“打开”。单击“上载”，加载该音频文件。
 
       > [!NOTE]
-      > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+      > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 23. 指定播放消息后如何处理呼叫（如果配置了消息）：
 
     - 要断开呼叫，请单击“断开呼叫”。
 
-    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 例如，语音邮件地址的格式 *\<username\>* @ *\<domainName\>* (，例如bob@contoso.com) 。
+    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 *\<username\>* @ *\<domainName\>* (，例如 bob@contoso.com) 。
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainName\>_ 。
 
@@ -163,7 +163,7 @@ ms.locfileid: "49831032"
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([ Skype for Business) 定义响应组假日集的可选选项](optional-define-response-group-holiday-sets.md)。
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([Optional) Define Response Group holiday sets in Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -175,13 +175,13 @@ ms.locfileid: "49831032"
     - 要使用音频文件录音作为消息，请单击“选择录音”。如果要上载新的音频文件，请单击“录音”链接。在新浏览器窗口中，单击“浏览”，选择要使用的文件，然后单击“打开”。单击“上载”，加载该音频文件。
 
       > [!NOTE]
-      > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+      > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 26. 指定播放消息后如何处理呼叫（如果配置了消息）：
 
     - 要断开呼叫，请单击“断开呼叫”。
 
-    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 例如，语音邮件地址的格式 *\<username\>* @ *\<domainName\>* (，例如bob@contoso.com) 。
+    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 *\<username\>* @ *\<domainName\>* (，例如 bob@contoso.com) 。
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainName\>_ 。
 
@@ -196,15 +196,15 @@ ms.locfileid: "49831032"
     - 要使用音频文件录音作为保持音乐，请单击“选择音乐文件”。如果要上载新的音频文件，请单击“音乐文件”链接。在新浏览器窗口中，单击“浏览”，选择要使用的文件，然后单击“打开”。单击“上载”，加载该音频文件。
 
       > [!NOTE]
-      > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+      > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 29. 单击“部署”。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>使用 Skype for Business Server 命令行管理程序 创建或修改寻线工作流
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>使用 Skype for Business Server 命令行管理程序创建或修改寻线工作流
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
 
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
 
 3. 创建为欢迎消息播放的提示，并将其保存在变量中。 在命令行中运行：
 
@@ -219,7 +219,7 @@ ms.locfileid: "49831032"
    ```
 
      > [!NOTE]
-     > 要针对提示使用音频文件，请使用 **Import-CsRgsAudioFile** cmdlet。 有关详细信息，请参阅 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。
+     > 要针对提示使用音频文件，请使用 **Import-CsRgsAudioFile** cmdlet。 有关详细信息，请参阅 [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)。
 
 4. 获取将定向呼叫的队列或问题的标识。 在命令行中运行：
 
@@ -227,7 +227,7 @@ ms.locfileid: "49831032"
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    有关创建队列的详细信息，请参阅[New-CsRgsQueue。](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+    有关创建队列的详细信息，请参阅[New-CsRgsQueue。](/powershell/module/skype/new-csrgsqueue?view=skype-ps)
 
 5. 定义在工作时间打开工作流时要执行的默认操作，并将其保存在变量中。 在命令行中运行：
 
@@ -244,9 +244,9 @@ ms.locfileid: "49831032"
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. 如果要定义工作时间和假日，需要在创建或修改工作流之前创建它们。 有关详细信息，请参阅 (Skype [ for Business](optional-define-response-group-business-hours.md)) 定义响应组工作时间的可选 (可选) 在 Skype for Business 中定义响应 [ 组假日集](optional-define-response-group-holiday-sets.md)。
+6. 如果要定义工作时间和假日，需要在创建或修改工作流之前创建它们。 有关详细信息，请参阅 ([Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md)和 (Optional) Define Response Group holiday sets in Skype for [Business。](optional-define-response-group-holiday-sets.md)
 
-7. 如果要提示在非工作时间或假日收到的呼叫，请使用 **New-CsRgsPrompt** cmdlet 定义提示，并使用 **New-CsRgsCallAction** 定义在提示后要采取的操作。 有关详细信息，请参阅[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)和[New-CsRgsCallAction。](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+7. 如果您希望对非工作时间或假日收到的呼叫提供提示，请使用 **New-CsRgsPrompt** cmdlet 定义提示，并使用 **New-CsRgsCallAction** 定义在提示后要采取的操作。 有关详细信息，请参阅[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)和[New-CsRgsCallAction。](/powershell/module/skype/new-csrgscallaction?view=skype-ps)
 
 8. 检索 Lync Server 响应组服务的服务名称并将其分配给变量。 在命令中运行：
 
@@ -254,7 +254,7 @@ ms.locfileid: "49831032"
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-9. 创建或修改工作流。 若要创建工作流，请使用 **New-CsRgsWorkflow。** 若要修改工作流，请使用 **Set-CsRgsWorkflow。** 在命令行中键入：
+9. 创建或修改工作流。 若要创建工作流，请使用 **New-CsRgsWorkflow**。 若要修改工作流，请使用 **Set-CsRgsWorkflow**。 在命令行中键入：
 
    ```powershell
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
@@ -270,22 +270,22 @@ ms.locfileid: "49831032"
      > 必须为指定为工作流管理员的所有用户分配 CsResponseGroupManager 角色。
 
      > [!NOTE]
-     > 有关其他可选参数的详细信息，请参阅 [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps) 或 [Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+     > 有关其他可选参数的详细信息，请参阅 [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps) 或 [Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
-## <a name="designing-an-interactive-workflow"></a>设计交互式工作流
+## <a name="designing-an-interactive-workflow"></a>设计互动工作流
 
-使用互动语音响应 (IVR) 可从呼叫者获取信息，并将呼叫引导到相应的队列。 问题/答案对确定要使用哪个队列。 根据呼叫者的响应，呼叫者会听到后续问题，或者被路由到相应的队列。 IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理，从而向代理提供有价值的信息。
+使用互动语音响应 (IVR) 可从呼叫者获取信息，并将呼叫引导到相应的队列。 问题/答案对确定要使用哪个队列。 根据呼叫者的响应，呼叫者会听到后续问题，或者被路由到相应的队列。 IVR 问题和呼叫者的响应会提供给接受呼叫的响应代理，从而向代理提供有价值的信息。
 
 ### <a name="overview-of-ivr-features"></a>IVR 功能概述
 
-响应组应用程序提供 26 种语言的语音识别和文本到语音到语音功能。 可以使用文本到语音转换功能或 Wave (.wav) 或 Windows Media 音频 (.wma) 文件输入 IVR 问题。 呼叫者可以使用语音或双音多频 (DTMF) 响应进行响应。
+响应组应用程序提供 26 种语言的语音识别和文本到语音语音功能。 可以使用文本到语音转换功能或 Wave (.wav) 或 Windows Media 音频 (.wma) 文件输入 IVR 问题。 呼叫者可以使用语音或双音多频 (DTMF) 响应进行响应。
 
-互动工作流最多支持两级问题，每个问题最多有四个可能的答案。 IVR 向呼叫者询问问题，根据呼叫者的响应，将呼叫者路由至队列或提出第二个问题。 第二个问题也可以有四个可能的答案。 根据呼叫者对第二级问题的回答，将呼叫者路由至相应的队列。
+互动工作流最多支持两级问题，每个问题最多有四个可能的答案。 IVR 向呼叫者提出问题，根据呼叫者的响应，将呼叫者路由至队列或提出第二个问题。 第二个问题也可以有四个可能的答案。 根据呼叫者对第二级问题的回答，将呼叫者路由至相应的队列。
 
 > [!NOTE]
-> 使用 Skype for Business Server 命令行管理程序设计呼叫流时，可以定义任意数目的 IVR 问题和任意数目的答案。 但是，为了方便呼叫者使用，建议不要使用三个级别以上的问题，并且每个问题的答案不要超过五个。 此外，如果设计的呼叫流具有两级以上的问题，每个问题的答案超过四个，则不能使用 Skype for Business Server 控制面板编辑呼叫流。
+> 使用 Skype for Business Server 命令行管理程序设计呼叫流时，可以定义任意数目的 IVR 问题和任意数目的答案。 但是，为了方便呼叫者使用，建议不要使用三个级别以上的问题，并且每个问题的答案不要超过五个。 此外，如果设计的呼叫流具有两个级别以上的问题，并且每个问题的答案超过四个，则不能使用 Skype for Business Server 控制面板编辑呼叫流。
 
-IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
+将 IVR 问题和呼叫者的响应提供给接受呼叫的响应代理。
 
 ### <a name="working-with-speech-technologies"></a>使用语音技术
 
@@ -367,7 +367,7 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
 
 - 在组织中部署 IVR 之前，请先对一组用户测试该 IVR。
 
-## <a name="creating-or-modifying-an-interactive-workflow"></a>创建或修改交互式工作流
+## <a name="creating-or-modifying-an-interactive-workflow"></a>创建或修改互动工作流
 
 ### <a name="to-use-response-group-configuration-tool-to-create-or-modify-an-interactive-workflow"></a>使用响应组配置工具创建或修改互动工作流
 
@@ -393,27 +393,27 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
 7. 如果尚未准备好让用户开始呼叫工作流，请清除“激活工作流”复选框。
 
     > [!NOTE]
-    >  如果要创建托管工作流，则需要选择"**激活工作流"。** 在保存活动、托管的工作流之后，可以修改并停用该工作流。
+    >  如果要创建托管工作流，则需要选择"激活 **工作流"。** 在保存活动、托管的工作流之后，可以修改并停用该工作流。
 
 8. 要允许联盟用户呼叫组，请选中“启用联盟”复选框。 还必须具有适用于为联盟配置的响应组应用程序的外部访问策略。
 
     > [!NOTE]
-    > 全局外部访问策略适用于响应组应用程序。 可以使用 Skype for Business Server 控制面板或 **Set-CsExternalAccessPolicy** cmdlet 将 EnableOutsideAccess 参数设置为 True，为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关策略如何适用于用户的详细信息，请参阅[Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx)。 有关联合设置的详细信息，请参阅 **文档中的 Set-CsExternalAccessPolicy。**
+    > 全局外部访问策略适用于响应组应用程序。 可以使用 Skype for Business Server 控制面板或 **Set-CsExternalAccessPolicy** cmdlet 将 EnableOutsideAccess 参数设置为 True，为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关策略如何适用于用户的详细信息，请参阅[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 有关联合设置的详细信息，请参阅 **文档中的 Set-CsExternalAccessPolicy。**
 
     > [!NOTE]
-    > 在 Skype for Business Online 中托管的用户无法呼叫本地部署中托管的响应组。 这适用于混合部署以及本地部署与 Skype for Business Online 部署联盟的情况。
+    > 托管在 Skype for Business Online 中的用户无法呼叫本地部署中托管的响应组。 这适用于混合部署和本地部署与 Skype for Business Online 部署联盟的情况。
 
 9. 要在呼叫过程中隐藏代理身份，请选中“启用代理匿名”复选框。
 
     > [!NOTE]
-    > 尽管建立呼叫后，代理或呼叫者可以添加即时消息 (IM) 和视频，但匿名呼叫无法启动 IM 或视频。 匿名代理还可以将呼叫置于保持状态、转接呼叫（盲转接和咨询转接）、寄存和取回呼叫。 匿名呼叫不支持会议、应用程序共享和桌面共享、文件传输、白板、数据协作和呼叫记录。 使用 Lync VDI 插件的代理可以匿名接收传入呼叫，但他们无法匿名进行传出呼叫。
+    > 尽管建立呼叫后，代理或呼叫者可以添加即时消息 (IM) 和视频，但匿名呼叫无法启动 IM 或视频。 匿名代理还可以将呼叫置于保持状态、转接呼叫（盲转接和咨询转接）、寄存和取回呼叫。 匿名呼叫不支持会议、应用程序共享和桌面共享、文件传输、白板、数据协作和呼叫记录。 使用 Lync VDI 插件的代理可以匿名接收传入呼叫，但不能匿名进行传出呼叫。
 
 10. 在“输入将接收呼叫的组的地址”下，键入将应答工作流呼叫的组的主 SIP 统一资源标识符 (URI) 地址。
 
 11. 在“显示名称”中，键入希望显示的工作流名称（例如，销售 IVR 响应组）。
 
     > [!NOTE]
-    > 请勿将 \<" or "\> ""字符包括在显示名称。 请勿使用以下显示名称，因为它们是保留的 **：RGS Presence Watcher** 或 **Announcement Service。**
+    > 请勿将" \<" or "\> "字符包括在显示名称。 请勿使用以下保留的显示名称 **：RGS Presence Watcher** 或 Announcement **Service。**
 
 12. 在“电话号码”中，键入响应组的线路 URI（例如，+14255550165）。
 
@@ -423,9 +423,9 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
 
 15. 如果工作流将由响应组管理员进行管理，则在“工作流类型”中，选择“受管理”。 执行以下操作可向工作流分配响应组管理员：
 
-    a. 键入此工作流的经理的 SIP URI，然后单击"**添加"。**
+    a. 为此工作流键入经理的 SIP URI，然后单击"添加 **"。**
 
-    b. 键入要添加到工作流的其他管理员的 SIP URI，然后单击"**添加"。**
+    b. 键入要添加到工作流的其他管理员的 SIP URI，然后单击"添加 **"。**
 
     > [!IMPORTANT]
     > 必须为被指定为响应组管理员的每一位用户分配 CsResponseGroupManager 角色。如果没有为用户分配此角色，他们无法管理响应组。
@@ -442,7 +442,7 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
     - 要使用 Wave 或 Windows Media 音频文件录音作为欢迎消息，请单击“选择录音”。如果要上载新的音频文件，请单击“录音”链接。在新浏览器窗口中，单击“浏览”，选择要使用的音频文件，然后单击“打开”。单击“上载”，加载该音频文件。
 
     > [!NOTE]
-    > 用户提供的所有音频文件都必须满足特定要求。 有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 用户提供的所有音频文件都必须满足特定要求。 有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 18. 在“步骤 4 指定您的工作时间”下的“您所在的时区”框中，单击工作流的时区。
 
@@ -454,13 +454,13 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
     - 要使用预定义工作时间日程表，请单击“使用预设日程表”，然后从下拉列表中选择要使用的日程表。
 
       > [!NOTE]
-      > 之前您必须至少已定义一个预设日程表才能选择该选项。 使用 **New-CsRgsHoursOfBusiness** cmdlet 定义预设日程表。 有关详细信息，请参阅 ([ Skype for Business) 定义响应组工作时间的可选选项](optional-define-response-group-business-hours.md)。 选择预设日程表时，“天”、“开放”和“关闭”中会自动填写响应组可以应答的日期和时间。
+      > 之前您必须至少已定义一个预设日程表才能选择该选项。 使用 **New-CsRgsHoursOfBusiness** cmdlet 定义预设日程表。 有关详细信息，请参阅 ([Optional) Define Response Group business hours in Skype for Business。](optional-define-response-group-business-hours.md) 选择预设日程表时，“天”、“开放”和“关闭”中会自动填写响应组可以应答的日期和时间。
 
     - 要使用仅适用于该工作流的自定义日程表，请单击“使用自定义日程表”。
 
 20. 如果要创建该工作流的自定义日程表，请单击一周中响应组可以应答的日期对应的复选框。
 
-21. 如果要创建自定义日程安排，请键入响应组可用的"开放"和"关闭时间"。
+21. 如果要创建自定义日程表，请键入响应组可用的"开放"和"关闭"时间。
 
      > [!NOTE]
      > “开放”和“关闭”时间点必须采用 24 小时制。例如，如果营业时间为朝九晚五，其中午餐时间不办公，则工作时间指定为 9:00“开放”、12:00“关闭”、13:00“开放”及 17:00“关闭”。
@@ -475,13 +475,13 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
     - 要使用音频文件录音作为消息，请单击“选择录音”。如果要上载新的音频文件，请单击“录音”链接。在新浏览器窗口中，单击“浏览”，选择要使用的文件，然后单击“打开”。单击“上载”，加载该音频文件。
 
     > [!NOTE]
-    > 用户提供的所有音频文件都必须满足特定要求。 有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 用户提供的所有音频文件都必须满足特定要求。 有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 23. 指定播放消息后如何处理呼叫（如果配置了消息）：
 
     - 要断开呼叫，请单击“断开呼叫”。
 
-    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 例如，语音邮件地址的格式 *\<username\>* @ *\<domainname\>* (，例如bob@contoso.com) 。
+    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 *\<username\>* @ *\<domainname\>* (，例如 bob@contoso.com) 。
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainname\>_ 。
 
@@ -490,7 +490,7 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([ Skype for Business) 定义响应组假日集的可选选项](optional-define-response-group-holiday-sets.md)。
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([Optional) Define Response Group holiday sets in Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -502,13 +502,13 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
     - 要使用音频文件录音作为消息，请单击“选择录音”。如果要上载新的音频文件，请单击“录音”链接。在新浏览器窗口中，单击“浏览”，选择要使用的文件，然后单击“打开”。单击“上载”，加载该音频文件。
 
       > [!NOTE]
-      > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+      > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 26. 指定播放消息后如何处理呼叫（如果配置了消息）：
 
     - 要断开呼叫，请单击“断开呼叫”。
 
-    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 例如，语音邮件地址的格式 *\<username\>* @ *\<domainname\>* (，例如bob@contoso.com) 。
+    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 *\<username\>* @ *\<domainname\>* (，例如 bob@contoso.com) 。
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainname\>_ 。
 
@@ -521,7 +521,7 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
     - 要使用音频文件录音作为保持音乐，请单击“选择音乐文件”。如果要上载新的音频文件，请单击“音乐文件”链接。在新浏览器窗口中，单击“浏览”，选择要使用的文件，然后单击“打开”。单击“上载”，加载该音频文件。
 
     > [!NOTE]
-    > 用户提供的所有音频文件都必须满足特定要求。 有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+    > 用户提供的所有音频文件都必须满足特定要求。 有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 28. 在“步骤 7 配置互动语音响应”下的“用户将听到以下文本或录制的消息”标题中，指定要向呼叫者提出的问题，具体操作如下所示：
 
@@ -533,10 +533,10 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
     > [!NOTE]
     > 文本到语音转换引擎会将符号“#”转换为“号码”这个词。 如果需要指代 # 键，则应该在提示语中使用键名代替符号。 例如，“要与销售人员交谈，请按井号键”。
 
-    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击录制链接以上载文件。  在新的浏览器窗口中，单击 **"浏览**"，选择音频文件，然后单击"**打开"。** 单击"上载"加载文件，然后可以选择在文本框中键入问题 (这样，问题以及呼叫者的响应将转发给响应代理) 。
+    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 In the new browser window， click **Browse**， select the audio file， and then click **Open**. 单击 **"** 上载"加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
 
       > [!NOTE]
-      > 用户提供的所有音频文件都必须满足特定要求。 有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx)。
+      > 用户提供的所有音频文件都必须满足特定要求。 有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
 
 29. 在“响应 1”下，指定第一个可能的问题答案，具体操作如下：
 
@@ -560,11 +560,11 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
 
 32. 单击“部署”。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>使用 Skype for Business Server 命令行管理程序 创建或修改互动工作流
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>使用 Skype for Business Server 命令行管理程序创建或修改互动工作流
 
 1.  以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
 
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
 
 3. 检索响应组服务的服务名称，并将其分配给变量。在命令行中运行：
 
@@ -650,11 +650,10 @@ IVR 问题和呼叫者的响应将提供给接受呼叫的响应代理。
 
 [ (Skype for Business) 定义响应组工作时间的可选选项](optional-define-response-group-business-hours.md)
 
-[New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
+[New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 
-[Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+[Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
-[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)
 
-[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
-
+[New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)

@@ -21,23 +21,23 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入国家/地区特定的页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式显示拨打免费电话号码所需的每个国家/地区或地区内所需的访问代码。
-ms.openlocfilehash: fad581272b1470fec0fe061a41759aa325e27fc9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式显示拨打免费电话号码所需的每个国家/地区内所需的访问代码。
+ms.openlocfilehash: e88142c4eeb6fa7052e12105fe3191019bc19be4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802332"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116600"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>瑞士的免费拨号限制
 
-[查找另一个国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和局限性的更多内容。
+[查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。
 
 
 |**Details**|**说明**|
 |:-----|:-----|
 |是否提供免费呼叫？  <br/> |是  <br/> |
-|按 (拨号)   <br/> | 0800 <br>|
+|拨号格式 ()   <br/> | 0800 <br>|
 |国家/地区 ISO 代码  <br/> |CH  <br/> |
 |涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |未涵盖的岛屿/区域  <br/> | 不适用  <br/>  |
@@ -49,4 +49,4 @@ ms.locfileid: "49802332"
 
 [免费拨号限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取服务电话号码](../getting-service-phone-numbers.md)

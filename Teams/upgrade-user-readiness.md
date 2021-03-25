@@ -1,5 +1,5 @@
 ---
-title: 准备用户准备方案以从 Skype for Business 升级到团队
+title: 为从 Skype for Business 升级到 Teams 准备用户准备计划
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 在向 Microsoft 团队进行试验、板载和升级时，计划与你的用户进行沟通、培训和支持。
+description: 在试用、载入和升级到 Microsoft Teams 时，计划与用户通信、培训和支持。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,41 +20,41 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9033718f2bd9463d09478c69ed73df3c4ae08073
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 7a1aa9ec921171ee45657956b43402e2d293edf3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578415"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115530"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>准备用户就绪性计划
 
-![升级旅行阶段，突出显示用户准备情况阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，重点关注用户准备阶段")
+![升级旅程的阶段，突出显示用户准备阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，着重强调用户准备阶段")
 
-本文是你的升级过程的用户准备阶段的一部分，与技术准备阶段并行完成的活动。 在继续之前，请确认您已完成以前阶段中的这些活动：
+本文是升级过程的用户准备阶段（与技术准备阶段并行完成的活动）的一部分。 在继续之前，请确认已完成之前阶段中的这些活动：
 
-- [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
-- [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
-- [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
-- [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [请确定项目范围](./upgrade-define-project-scope.md)
+- [了解 Skype for Business 和 Teams 的共存和互操作性](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [选择了升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-最佳用户准备计划包含了你在试点、板载和升级到团队时如何与你沟通、培训和支持你的用户。 在 [评估组织更改准备工作](https://aka.ms/OrgReadiness)时，准备工作不适合一个大小。 为确保最适合新技术的 receptiveness，请结合使用广泛的消息传递 (，其中包含视觉/价值消息和通用使用案例) 和消息、培训和支持，根据你定义的角色和 cohorts 以及相应的 laggards 进行定制。 此个性化计划将帮助用户更快地与团队相关，同时还可帮助用户更快地与团队进行关联，同时演示你了解自己的需求。
+最佳用户就绪性计划包含你在试点、载入和升级到 Teams 时如何与用户通信、培训和支持。 正如在评估组织 [更改准备情况中发现，](./upgrade-org-change-readiness.md)准备情况不是一成一的。 为确保以最佳方式利用新技术，请使用广泛宣传的消息传送 (结合愿景/价值消息传递和通用用例) 以及针对你定义的角色和队列定制的消息传递、培训和支持（视情况）。 此个性化计划将让用户更快与 Teams 关联，同时表明你了解其需求，从而有助于用户采用。
 
 > [!Tip]
-> 除了示例升级项目计划和试点测试计划之外，下载模板用户准备材料（如通信和用户调查）的 [升级成功套件](https://aka.ms/UpgradeSuccessKit) 。
+> 除了示例 [升级项目](https://aka.ms/UpgradeSuccessKit) 计划和试点测试计划外，下载模板用户准备情况材料（例如通信和用户调查）的升级成功工具包。
 
 | | |
 |---|---|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>如何创建准备情况计划以促进和加速用户对新解决方案的采纳？</li><li>您是否有合适的意识、培训和支持资源与你的用户处理更改的能力和你定义的用户角色相符？</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用下面的列表生成准备情况计划的想法。 选择最相关的活动（或添加你自己的活动）来设计针对你的组织进行了优化的准备情况计划。 请记住，为整个组织) 和 laggards 的目标 (以及或特定角色) 市场活动获得最佳结果，请使用广泛的 (。</li></ul>|
+| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>如何创建就绪计划来加快用户采用新解决方案？</li><li>您是否具有与用户处理更改的能力以及定义的用户角色保持一致的正确认知、培训和支持资源？</li></ul> |
+| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用下面的列表生成准备计划的想法。 选择最相关的活动（或添加自己的活动）以设计针对组织优化的就绪计划。 请记得将面向整个组织的 (和有针对性的) 组合用于 (或特定角色) 活动，以获得最佳效果。</li></ul>|
 
 <div class="mx-tableFixed">
 <table>
 <tbody>
-<tr><th>您将利用哪些通信信道？</th><th>您将利用哪些培训渠道？</th><th>将使用哪些支持信道？</th></tr>
-<tr><td><ul><li>电子邮件<br><strong>提示：</strong> 使用我们的示范、共存和升级电子邮件，自定义您的电子邮件市场活动。</li><li>海报和数字告示</li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队/频道</li><li>Gamification</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Microsoft 讲师指导培训</a></li><li>Microsoft 发布的联机文章和视频</li><li>资源：<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">从 Skype for Business 切换到 Teams</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">团队视频培训</a></li></ul></li><li>产品帮助 (帮助) </li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部支持人员</li><li>外包支持台</li><li>自助服务 (intranet 网站) </li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">联机帮助和操作方法</a></li><li>地面-walkers 和拥护方</li><li>反馈循环 (调查，分级) </li></ul></td></tr>
+<tr><th>您将利用哪些信道？</th><th>您将利用哪些培训渠道？</th><th>将使用哪些支持渠道？</th></tr>
+<tr><td><ul><li>电子邮件<br><strong>提示：</strong> 使用我们的示例试点、共存和升级电子邮件自定义电子邮件市场活动。</li><li>海报和数字标志</li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>Teams/频道</li><li>游戏化</li></ul></td><td><ul><li><a href="/microsoftteams/instructor-led-training-teams-landing-page" data-raw-source="[Instructor-led training for Microsoft Teams](./instructor-led-training-teams-landing-page.yml)">Microsoft 教师指导培训</a></li><li>Microsoft 发布的在线文章和视频</li><li>资源：<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">从 Skype for Business 切换到 Teams</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Teams 视频培训</a></li></ul></li><li>产品内帮助 (帮助) </li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部支持人员</li><li>外包支持人员</li><li>使用 Intranet (自助服务) </li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">联机帮助和说明</a></li><li>平面行走者与冠军</li><li>反馈循环 (调查、评分) </li></ul></td></tr>
 </tbody>
 </table>
 </div>
 
-创建用户准备情况计划和相关资源后，您的技术准备就绪后，请转到您的 [组织中的试点团队](https://aka.ms/SkypeToTeams-Pilot)。
+创建用户准备计划和关联的资源并准备好技术准备后，请继续在你的[组织中试点 Teams。](./pilot-essentials.md)

@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解 Microsoft Teams 会议室中不同类型的呼叫和会议功能的可用许可证。
-ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875152"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117450"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 会议室许可更新
 
@@ -47,7 +47,7 @@ Microsoft 有两个专用的 SK (US，用于为会议室设备（例如 Microsof
 |托管服务 | | &#x2714; &sup3;|
 | | | |
 
-&sup1;可用性和包含的分钟数可能因区域而异。 若要验证服务可用性，请参阅音频会议和呼叫计划的"国家/地区["和"区域可用性"。](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) 其他服务可能会收取使用费，例如免费、国内计划的国际分钟数等。客户可以禁用这些功能以避免产生额外的费用。  
+&sup1;可用性和包含的分钟数可能因区域而异。 若要验证服务可用性，请参阅音频会议和呼叫计划的"国家/地区["和"区域可用性"。](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) 其他服务可能会收取使用费，例如免费、国内计划的国际分钟数等。客户可以禁用这些功能以避免产生额外的费用。  
 
 &sup2;在主权云中不可用  
 
@@ -70,13 +70,13 @@ Microsoft 有两个专用的 SK (US，用于为会议室设备（例如 Microsof
 |启动临时会议 | Microsoft Teams 会议室标准版或高级版  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL|
 |启动临时会议，然后从会议拨出到电话号码 |  Microsoft Teams 会议室标准版或高级版 |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL|
 |为会议室提供电话号码，然后从会议室拨打或接听电话，或者使用电话号码加入音频会议  | 使用直接路由：Microsoft Teams 会议室标准或高级<br/>无直接路由：国内或国际呼叫计划<br/>Microsoft 365 商务语音  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  |
-|使用 Microsoft Intune 管理会议室设备 |Microsoft Teams 会议室标准版或高级版  |使用本地 MDM 的 Microsoft Intune [订阅](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
+|使用 Microsoft Intune 管理会议室设备 |Microsoft Teams 会议室标准版或高级版  |使用本地 MDM 的 Microsoft Intune [订阅](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 |Microsoft Teams 会议室托管服务 | Microsoft Teams 会议室高级版 ||
 | |||
 
 > [!NOTE]
 > 如果为会议室系统分配了现有许可证，这些许可证将继续工作，而不会中断。 当现有许可证过期时，应移动到使用新的会议室 SKU。  
 
- **使用正确的 Windows 10** 版本：对于想要将 Windows 10 映像部署到其设备的客户，请参阅 [配置 Microsoft Teams 会议室控制台](https://docs.microsoft.com/microsoftteams/room-systems/console)。 可以从批量许可 [服务中心获取副本](https://www.microsoft.com/Licensing/servicecenter/)。 
+ **使用正确的 Windows 10** 版本：对于想要将 Windows 10 映像部署到其设备的客户，请参阅 [配置 Microsoft Teams 会议室控制台](./console.md)。 可以从批量许可 [服务中心获取副本](https://www.microsoft.com/Licensing/servicecenter/)。 
  
  另请参阅 [出色的会议室体验：了解新的 Microsoft Teams 会议室标准版和高级版](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)。

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 会议策略定义会议期间用户可以使用的各种功能。
-ms.openlocfilehash: a7b85fc8aa4365f3431e9aa3a7a9849c5d9e22c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d69c463a9aa8a1e151b0787dfbfebf4e24fb693
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807392"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115362"
 ---
 # <a name="conferencing-policy"></a>会议策略
 
@@ -30,7 +30,7 @@ ms.locfileid: "49807392"
 
 - **全局策略：** 默认情况下，将创建全局策略。 可以编辑全局策略，但无法将其删除。 如果您尝试删除全局策略，则所有设置将重置为默认值。
 
-- **网站策略 (可选) ：** 可以创建一个或多个站点会议策略，每个策略都适用于特定站点。 站点策略会覆盖全局策略。
+- **站点策略 (可选) ：** 可以创建一个或多个站点会议策略，每个策略都适用于特定站点。 站点策略会覆盖全局策略。
 
 - **用户策略 (可选) ：** 可以创建一个或多个用户会议策略，每个策略都适用于特定用户或用户组。 用户策略会覆盖全局策略和站点策略。
 
@@ -65,18 +65,16 @@ ms.locfileid: "49807392"
 
 - **范围** 标识会议策略的范围：全局、站点或用户。
 
-- **数据协作** 如果会议策略指定允许在会议中进行数据协作，则选中。
+- **数据协作** 如果会议策略指定在会议中允许数据协作，则选中。
 
 - **应用程序共享** 如果会议策略指定允许在会议中共享应用程序，则选中。
 
 - **音频** 如果会议策略指定会议允许音频，则选中。
 
-- **视频** 如果会议策略指定会议允许视频，则选中。
+- **视频** 如果会议策略指定在会议中允许视频，则选中。
 
-- **PSTN** 如果会议策略指定允许 PSTN 电话拨入式会议，则选中。
+- **PSTN** 如果会议策略指定允许 PSTN 电话拨入式会议，则选中此选项。
 
 - **录制** 如果会议策略指定允许在会议中录制，则选中。
 
-有关会议特性和功能的详细信息，请参阅规划文档中的[Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx)。 有关使用会议策略的详细信息，请参阅操作文档中的[Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx)。
-
-
+有关会议特性和功能的详细信息，请参阅规划文档中的[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)。 有关使用会议策略的详细信息，请参阅操作文档中的[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)。

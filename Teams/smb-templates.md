@@ -1,5 +1,5 @@
 ---
-title: 由 Microsoft Graph 构建的中小型企业的团队模板
+title: 使用 Microsoft Graph 构建的中小型企业的 Teams 模板
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -15,33 +15,33 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: 使用 microsoft Graph 中内置的预定义模板快速轻松地为中小型企业创建团队。
+description: 使用 Microsoft Graph 中内置的 Microsoft Teams 预定义模板快速轻松地为中小型企业创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7196dd93fc1245102a333c150715c4b4570986c7
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: e3d29dca0bbdbd7b3487ac1738b84396a3d41117
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294548"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116990"
 ---
-# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Microsoft Graph 中为中小型企业构建的团队模板
+# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Microsoft Graph 中为中小型企业构建的 Teams 模板
 
-Microsoft 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
+通过提供预定义的设置、频道和预安装的应用模板，Microsoft Treams 模板让你能够快速轻松地创建团队。
 
-对于小型企业和中型企业，模板非常强大，因为它们有助于管理员在其组织中快速部署团队。 模板还有助于为用户调整方向，并开始有效地使用团队。 本文适用于你负责在你的组织中规划、部署和管理多个团队的情况。
+对于中小型企业，模板可能特别强大，因为它们可帮助管理员在整个组织中快速部署 Teams。 模板还有助于确定用户方向并开始有效使用 Teams。 如果你负责在整个组织中规划、部署和管理多个团队，则本文适合你。
 
-我们目前提供三个第一方的 SMB 模板，您可以利用这些模板在各种情况下使用。 所有模板都将创建 *专用* 团队。 创建团队并准备好向您的组织推出后，您可以根据需要将隐私设置为 *组织内* 或 *公共*。 若要深入了解有关团队模板的详细信息，请参阅 [团队模板入门](get-started-with-teams-templates.md)。
+我们目前提供三个可用于各种情况的第一方 SMB 模板。 所有模板都将创建 *专用* 团队。 创建 Teams 并准备好向组织推出后，可适当地将隐私设置为 *"组织* 范围"或"公共"。  要总体上了解有关团队模板的详细信息，请参阅 [开始使用 Teams 模板](get-started-with-teams-templates.md)。
 
-## <a name="company-wide-template"></a>公司范围的模板
-公司范围的模板适用于与整个公司相关的通信和协作。 您可以将常规频道用于公司范围内的公告、行业新闻或执行公告。 人力资源频道是整合所有与人力资源相关的活动（如作业发布、新员工加入、培训和开发）的绝佳位置。 有趣内容频道为所有随机和有趣的文章提供了社交平台。
+## <a name="company-wide-template"></a>Company-Wide模板
+Company-Wide模板适用于与整个公司相关的通信和协作。 您可以使用"常规"频道进行公司范围的公告、行业新闻或高管文章。 人力资源渠道是整合所有人力资源相关活动（如职位、新员工入职、培训和开发）的一个不错位置。 "有趣内容"频道提供一个社交平台，供所有随机和有趣的帖子使用。
 
-| 基本模板类型  | baseTemplateId | 此基本模板附带的属性 |
+| 基本模板类型  | baseTemplateId | 此基本模板包含的属性 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| 中小型 <br>公司范围 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 频道 <ul><li>常规\*</li><li>人力资源\*</li><li>有趣的资料\*</li></ul><br> 应用<ul><li>固定到 **人力资源** 频道的公司门户 (网站)  </li> </UL><br>团队属性 <ul><li>将团队可见性设置为私密</li></ul> |
+| SMB - <br>公司范围内 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 频道 <ul><li>常规\*</li><li>人力资源\*</li><li>有趣的内容\*</li></ul><br> 应用<ul><li>公司门户 (网站固定到 **人力资源** 频道)  </li> </UL><br>团队属性 <ul><li>团队可见性设置为“专用”</li></ul> |
 
-* 自动收藏频道 
+*自动收藏的频道 
 
-若要通过从预定义的模板中获取默认值来创建公司范围的团队，请在请求正文中提供团队对象的 JSON 表示形式。 若要了解有关如何部署团队模板的详细信息，请参阅 Microsoft Graph [文章创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+若要通过Company-Wide模板中的默认值创建团队，在请求正文中提供团队对象的 JSON 表示形式。 若要详细了解如何部署 Teams 模板，请参阅有关创建团队的 Microsoft Graph [文章](/graph/api/team-post?view=graph-rest-beta)。
 
 #### <a name="request"></a>请求 
 ```http 
@@ -55,17 +55,17 @@ Content-Type: application/json
 }
 ```
 
-## <a name="executive-team-template"></a>管理层团队模板
+## <a name="executive-team-template"></a>执行团队模板
 
-执行团队模板非常适合于为公司主管创建团队，以便与年度优先级、财务预算、战略计划和顶级客户进行沟通和协作处理公司计划。 此模板附带了一个 *专用* 频道，用于邀请选择特定主题的用户。
+"执行团队"模板非常适合创建一个团队，供公司主管就年度优先级、预算、战略计划以及顶级客户等公司计划进行沟通和协作。 此模板附带一个 *专用* 通道，用于邀请特定主题的选定用户。
 
-| 基本模板类型  | baseTemplateId | 此基本模板附带的属性 |
+| 基本模板类型  | baseTemplateId | 此基本模板包含的属性 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| 中小型 <br>主管团队 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 频道 <ul><li>常规\*</li><li>专有 \*</li></ul> 应用<ul><li>OneNote (固定到 **专用** 频道) </li> <li>Planner (固定到 **专用** 频道)  </li></ul><br>团队属性 <ul><li>将团队可见性设置为私密</li></ul> | 
+| SMB - <br>高管团队 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 频道 <ul><li>常规\*</li><li>专用 \*</li></ul> 应用<ul><li>OneNote (已固定到"专用 **"** 频道) </li> <li>Planner (固定到"专用 **"** 频道)  </li></ul><br>团队属性 <ul><li>团队可见性设置为“专用”</li></ul> | 
 
-* 自动收藏频道<br>
+*自动收藏的频道<br>
 
-若要通过从预定义的模板中获取默认设置来创建主管团队，请在请求正文中提供团队对象的 JSON 表示形式。 若要了解有关如何部署团队模板的详细信息，请参阅 Microsoft Graph [文章创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+若要通过采用预定义模板中的默认值创建高层团队，在请求正文中提供团队对象的 JSON 表示形式。 若要详细了解如何部署 Teams 模板，请参阅有关创建团队的 Microsoft Graph [文章](/graph/api/team-post?view=graph-rest-beta)。
 
 #### <a name="request"></a>请求 
 ```http 
@@ -81,15 +81,15 @@ Content-Type: application/json
 
 ## <a name="departmental-team-template"></a>部门团队模板
 
-部门团队模板可用于为单个部门或项目创建团队。 "财务" 团队模板非常适合于财务团队成员和管理团队成员中的所有帖子、公告和日常协作和通信。 该模板附带了一个 *专用* 频道，用于邀请选择特定主题的用户。 我们还为 "财务" 团队提供了以下脚本，可用于将模板扩展到其他部门或特定项目，方法是根据自己的喜好添加、删除或编辑特定项目。 例如，如果您有一个 *市场营销* 部门，则可以通过将团队从 *财务* 部门重命名为 " *市场营销* " 来调整该脚本，以创建新的市场营销团队
+部门团队模板可用于为各个部门或项目创建团队。 财务团队模板非常适合财务团队成员和高层团队成员内部的所有帖子、公告以及日常协作和通信。 该模板附带一个 *专用* 通道，用于邀请特定主题的选定用户。 我们还为财务团队提供以下脚本，该脚本可用于通过添加、删除或编辑来将模板扩展到其他部门或特定项目。 例如，如果您有 *营销部门，* 则可以通过将团队从 Finance 重命名为 *Marketing* 来修改脚本，以创建新的市场营销团队
 
-| 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
+| 基本模板类型 | baseTemplateId | 此基本模板包含的属性 |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| 中小型 <br>财务  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 频道 <ul><li>常规\*</li><li>专有 \*</li></ul><br> 应用<ul><li>OneNote (固定到 **专用** 频道) </li> <li>Planner (固定到 **专用** 频道)  </li> </ul><br>团队属性 <ul><li>将团队可见性设置为私密</li></ul> | 
+| SMB - <br>财务  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 频道 <ul><li>常规\*</li><li>专用 \*</li></ul><br> 应用<ul><li>OneNote (已固定到"专用 **"** 频道) </li> <li>Planner (固定到"专用 **"** 频道)  </li> </ul><br>团队属性 <ul><li>团队可见性设置为“专用”</li></ul> | 
 
-* 自动收藏频道
+*自动收藏的频道
 
-若要通过从预定义的模板中获取默认值来创建财务团队，请在请求正文中提供团队对象的 JSON 表示形式。 若要了解有关如何部署团队模板的详细信息，请参阅 Microsoft Graph [文章创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+若要通过采用预定义模板中的默认值创建财务团队，在请求正文中提供团队对象的 JSON 表示形式。 若要详细了解如何部署 Teams 模板，请参阅有关创建团队的 Microsoft Graph [文章](/graph/api/team-post?view=graph-rest-beta)。
 
 #### <a name="request"></a>请求 
 ```http 
@@ -103,7 +103,7 @@ Content-Type: application/json
 }
 ```
 
-### <a name="example-finance-team-template-extension-script"></a>示例： "财务" 团队模板扩展脚本
+### <a name="example-finance-team-template-extension-script"></a>示例：财务团队模板扩展脚本
 
 ```powershell
 {
@@ -176,7 +176,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>相关主题
 
-- [管理控制台中的团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)
-- [开始使用 Teams 模板](get-started-with-teams-templates.md)
-- 在预览中[创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) () 
-
+- [管理员控制台中的 Teams 模板入门](get-started-with-teams-templates-in-the-admin-console.md)
+- [Teams 模板入门](get-started-with-teams-templates.md)
+- [在预览](/graph/api/team-post?view=graph-rest-beta) (创建团队) 
