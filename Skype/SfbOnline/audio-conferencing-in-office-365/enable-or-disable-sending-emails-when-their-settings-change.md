@@ -21,75 +21,75 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解 Skype 在 pin 或默认会议数等设置发生更改时如何启用或禁用向用户发送的电子邮件。 '
-ms.openlocfilehash: 681a02fd410c008f46ad7906c5963660df668a89
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 6b9e67d8c87b023409b7934a944f298487f91289
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164261"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114248"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议设置更改时启用或禁用发送电子邮件
 
 > [!Note]
 > 如果您想要启用或禁用中的 Microsoft 团队发送电子邮件，请参阅 [Microsoft Teams 中的音频会议设置发生更改时启用或禁用发送电子邮件](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)。
 
-Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business users. In such cases, you can disable sending email.
+要在 Microsoft Teams 中启用或禁用发送电子邮件，请参阅 Microsoft Teams 音频会议设置发生更改时启用或禁用发送电子邮件 但是，有时你可能希望减少发送给 Skype for Business 用户的电子邮件数量。 在这种情况下，您可以禁用发送电子邮件。
   
-如果您禁用发送电子邮件，则不会将音频会议电子邮件发送给您的用户，包括为音频会议启用或禁用用户的电子邮件、重置 PIN 以及会议 ID 和默认会议电话号码更改的时间。
+如果禁用发送电子邮件，音频会议电子邮件不会发送给用户，包括为音频会议启用或禁用用户、重置其 PIN 的时间以及会议 ID 和默认会议电话号码更改时的电子邮件。
   
-下面是在用户启用音频会议时发送给用户的电子邮件示例：
+下面是为用户启用音频会议时发送给用户的电子邮件示例：
   
 ![音频会议电子邮件](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>什么时候向用户发送电子邮件？
 
-- 在为您的组织中的用户启用音频会议后，会向他们发送多封电子邮件：
+- 启用音频会议后，会向贵组织的用户发送多封电子邮件：
     
-  - 向其分配**音频会议**许可证时。
+  - 向其分配 **音频会议** 许可证时。
     
-  - 当您手动重置用户的音频会议 PIN 时。
+  - 手动重置用户的音频会议 PIN 时。
     
   - 当你手动重置用户的会议 ID 时。
     
-  - 删除其**音频会议**许可证时。
+  - 删除其 **音频会议** 许可证时。
     
-  - 当用户的音频会议提供商从 Microsoft 更改为另一个提供商或 "**无**" 时。
+  - 当用户的音频会议提供商从 Microsoft 更改为其他提供商或"无 **"时**。
     
   - 当用户的音频会议提供商更改为 Microsoft 时。
 
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>启用或禁用向用户发送电子邮件
 
-你可以使用 Skype for Business 管理中心或 Windows PowerShell 来启用或禁用发送给用户的电子邮件。
+可以使用 Skype for Business 管理中心或Windows PowerShell启用或禁用发送给用户的电子邮件。
 
  
 ![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
     
-1. 在**Skype For business 管理中心**的左侧导航中，单击 "**音频会议**"。
+1. 在 **Skype for Business 管理中心的** 左侧导航中，单击"**音频会议"。**
     
 2. 在 **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**　。
     
 3. 单击“**保存**”。
     
     > [!TIP]
-    > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.  See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.
+    > 你也可以通过电子邮件向用户发送音频会议的设置， 方法是转到 **音频会议** > **用户**，选择用户，并单击 **通过电子邮件发送会议信息**。  如果这样做，将发送一封电子邮件，其中仅包括会议 ID 和会议电话号码，但不包括 PIN。  有关详细信息 [，请参阅向用户发送包含其音频会议信息](send-an-email-to-a-user-with-their-dial-in-information.md) 的电子邮件。
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-**使用 Windows PowerShell**
+**使用Windows PowerShell**
   
-- 运行以下操作以禁用发送电子邮件： 
+- 运行以下代码以禁用发送电子邮件： 
     
   ```PowerShell
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-     要获取此 cmdlet 的帮助，请参阅 [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757)。
+     要获取此 cmdlet 的帮助，请参阅 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings)。
     
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center. However, if you do this, the PIN won't be included. If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.
+- 禁用自动电子邮件后，你仍可以使用 Skype for Business 管理中心手动触发发送包含会议 ID 和电话号码的电子邮件。 但是，如果这样做，不会包含 PIN。 如果要重置音频会议 PIN 并禁用发送电子邮件，则需要以其他方式将其发送给用户。
     
 - 可以使用 Skype for Business 管理中心或 Windows PowerShell 禁用向用户发送电子邮件。
     
@@ -97,35 +97,33 @@ Users are automatically notified by email when they are enabled for Audio Confer
 
 - 可以使用这些 cmdlet 来节省时间或自动执行此操作。
     
-  - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-  - [Remove-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715759)
+  - [Remove-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Remove-CsOnlineDialInConferencingTenantSettings)
     
-  - [Get-CsOnlineDialinConferencingTenantConfiguration](https://go.microsoft.com/fwlink/?LinkId=715758)
+  - [Get-CsOnlineDialinConferencingTenantConfiguration](/powershell/module/skype/Get-CsOnlineDialinConferencingTenantConfiguration)
     
-  - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShell 全部用于管理用户以及允许或禁止用户执行的操作。使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。若要开始使用 Windows PowerShell，请参阅以下主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你为多个用户同时进行设置更改时。了解以下主题中的这些优势： 
+- Windows PowerShell比仅使用 Microsoft 365 管理中心具有许多速度、简单性和工作效率优势，例如，一次对多个用户进行设置更改时。 请在以下主题中了解这些优点： 
     
-  - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [使用 Windows PowerShell 管理 Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
     > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
   
 ## <a name="related-topics"></a>相关主题
 
-[在用户的音频会议设置更改时发送给用户的电子邮件](emails-sent-to-users-when-their-settings-change.md)
+[当用户的音频会议设置更改时发送给用户的电子邮件](emails-sent-to-users-when-their-settings-change.md)
 
 [对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)
-
-

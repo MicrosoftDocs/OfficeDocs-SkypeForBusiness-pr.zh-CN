@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: 设备配置是一组设置，用于全局或站点内管理 Skype for Business Phone Edition 设备。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: 4c5ce8858e957d84215f4e62f1571a8455b7ebdc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 设备配置是全局或站点内用于管理 Skype for Business Phone Edition 设备的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
+ms.openlocfilehash: 23bedeba6b1ab2bf8a620818e6b77bb8c8b2eebe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807322"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119911"
 ---
 # <a name="device-configuration"></a>设备配置
  
-设备配置是一组设置，用于全局或站点内管理 Skype for Business Phone Edition 设备。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。 
+设备配置是全局或站点内用于管理 Skype for Business Phone Edition 设备的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。 
   
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
 可以在"设备配置"页上执行 **以下** 任务：
   
-- 全局或特定站点添加设备配置。
+- 在全局或特定站点添加设备配置。
     
 - 修改现有设备配置的选项。
     
@@ -40,7 +40,7 @@ ms.locfileid: "49807322"
   
 - **新建** 你可以添加具有以下作用域的新设备配置：
     
-  - 全球
+  - 全局
     
   - Site
     
@@ -58,4 +58,4 @@ ms.locfileid: "49807322"
 
 [设备配置：创建新的或编辑现有的](device-configuration-create-new-or-edit-existing.md)
 
-[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

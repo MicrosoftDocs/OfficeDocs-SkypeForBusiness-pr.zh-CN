@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文包括禁用混合作为 Teams 和 Skype for Business 云整合的一部分的详细步骤。
-ms.openlocfilehash: 90ec73246007542ad0215007b0da91f4fe9405e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874692"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120351"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>禁用混合以完成到云的迁移：概述
 
@@ -99,7 +99,7 @@ ms.locfileid: "50874692"
 
   ![Active Directory 用户和计算机工具](../media/disable-hybrid-1.png)
   
--  如果用户在移动之前最初没有本地值，可以使用 `msRTCSIP-Line` Skype for Business Online PowerShell 模块中 `onpremLineUri` [Set-CsUser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) 中的 - 参数修改电话号码。
+-  如果用户在移动之前最初没有本地值，可以使用 `msRTCSIP-Line` Skype for Business Online PowerShell 模块中 `onpremLineUri` [Set-CsUser cmdlet](/powershell/module/skype/set-csuser?view=skype-ps) 中的 - 参数修改电话号码。
 
 这些步骤对于禁用混合后创建的新用户来说不是必需的，可以直接在云中管理这些用户。 如果你习惯混合使用这些方法以及将 msRTCSIP 属性留在本地 Active Directory 中，则只需重新映像本地 Skype for Business 服务器。 但是，如果你希望清除所有 msRTCSIP 属性，并传统卸载 Skype for Business Server，请使用方法 2。
 

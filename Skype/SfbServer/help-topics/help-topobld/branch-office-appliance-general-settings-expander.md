@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 要编辑现有 Survivable Branch Appliance 或 Survivable Branch Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: 95f842e72066f7ef19c474b10f7293f05c83cd67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8f77a7b12800d9eba091218de92f4eec17bf2154
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833202"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119691"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>分支机构设备常规设置扩展器
 
@@ -57,10 +57,10 @@ Survivable Branch Appliance 或 Survivable Branch Server 的完全限定域名 (
 
 复原为注册器池提供了高可用性。它提供了备份注册器，如果主注册器发生故障，备份注册器可以接管发生故障的注册器，允许用户登录和进行通信。用户可能会发现功能降低，具体取决于哪些系统的主注册器发生故障。
 
-从下拉列表中选择将充当 Survivable Branch Appliance 或 Survivable Branch Server 的备份注册器的企业版前端池或 Standard Edition 前端服务器。 还可以选择启用故障转移和回退时间间隔。 启用故障转移和回退时间设置（以秒为单位指定）后，可自动检测发生故障的注册器，回退时间用于自动确定主注册器是否已备份以及是否可以接管注册器进程。
+从下拉列表中选择将充当 Survivable Branch Appliance 或 Survivable Branch Server 的备份注册器的 Enterprise Edition 前端池或 Standard Edition 前端服务器。 还可以选择启用故障转移和回退时间间隔。 启用故障转移和回退时间设置（以秒为单位指定）后，可自动检测发生故障的注册器，回退时间用于自动确定主注册器是否已备份以及是否可以接管注册器进程。
 
 > [!IMPORTANT]
-> 定义故障检测和回退间隔时，应注意不要输入在注册器短时间内未做出响应的情况下会导致发生故障转移和回退的间隔。 主注册器可能会在短时间内没有响应，这取决于池或服务器的加载状况。 站点中的 Survivable Branch Appliance 或 Survivable Branch Server 到池或 Standard Edition 前端服务器的默认值为故障转移的默认值为 120 秒，回退的默认值为 240 秒。
+> 定义故障检测和回退间隔时，应注意不要输入在注册器短时间内未做出响应的情况下会导致发生故障转移和回退的间隔。 主注册器可能会在短时间内没有响应，这取决于池或服务器的加载状况。 对于池或 Standard Edition 前端服务器的站点中的 Survivable Branch Appliance 或 Survivable Branch Server，故障转移的默认值为 120 秒，回退的默认值为 240 秒。
 
 ## <a name="mediation-server"></a>中介服务器
 
@@ -76,6 +76,4 @@ Survivable Branch Appliance 或 Survivable Branch Server 的完全限定域名 (
 
 ## <a name="see-also"></a>另请参阅
 
-有关定义和配置 Survivable Branch Appliance 或 Survivable Branch Server 设置的详细信息，请参阅[分支站点恢复能力解决方案](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx)。
-
-
+有关定义和配置 Survivable Branch Appliance 或 Survivable Branch Server 设置的详细信息，请参阅[分支站点恢复能力解决方案](/previous-versions/office/lync-server-2013/lync-server-2013-branch-site-resiliency-solutions)。

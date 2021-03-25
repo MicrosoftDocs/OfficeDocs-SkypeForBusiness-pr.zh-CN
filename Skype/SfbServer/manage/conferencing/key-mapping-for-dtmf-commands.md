@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 摘要：了解如何在 Skype for Business Server 中管理双音多频 (DTMF) 命令的关键映射。
-ms.openlocfilehash: b804c9a0923630f6de3d1b5af2acdda123cc6331
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解如何在 Skype for Business Server 中管理双音多频 (DTMF) 命令的键映射。
+ms.openlocfilehash: 6b409ccce10128fdd7776e3ea77d6ee17d4a49f4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828092"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119441"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>在 Skype for Business Server 中管理 DTMF 命令的键映射
  
@@ -33,15 +33,15 @@ ms.locfileid: "49828092"
 
 1. 以 RTCUniversalServerAdmins 组成员或者 Cs-ServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
-3. 若要查看用于电话拨入式会议 DTMF 设置，在命令提示符下运行以下命令：
+3. 若要查看用于电话拨入式会议的 DTMF 设置，在命令提示符下运行以下命令：
     
    ```PowerShell
    Get-CsDialinConferencingDtmfConfiguration
    ```
 
-4. 要修改用于电话拨入式会议的 DTMF 设置，请运行以下 cmdlet 并指定要针对要更改的每个选项按下的键：
+4. 要修改用于电话拨入式会议的 DTMF 设置，请运行以下 cmdlet 并指定要更改的每个选项所按的键：
     
    ```PowerShell
    Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
@@ -53,12 +53,10 @@ ms.locfileid: "49828092"
 
 5. （可选）要为特定站点创建其他 DTMF 命令集，请使用带有站点 Identity 的 **New-CsDialinConferencingDtmfConfiguration** cmdlet。
     
-以下示例将切换启用或禁用通知所按的键，以及将所有参与者静音和取消静音所按的键。 由于未指定 Identity，因此这些更改适用于全局 DTMF 设置：
+以下示例将切换启用或禁用通知所按的键和将所有参与者静音和取消静音所按的键。 由于未指定 Identity，因此这些更改适用于全局 DTMF 设置：
   
 ```PowerShell
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-有关详细信息，请参阅[Get-CsDialInConferencingDtmfConfiguration、Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps)和[New-CsDialInConferencingDtmfConfiguration。](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps) [](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)
-  
-
+有关详细信息，请参阅[Get-CsDialInConferencingDtmfConfiguration、Set-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps)和[New-CsDialInConferencingDtmfConfiguration。](/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps) [](/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)

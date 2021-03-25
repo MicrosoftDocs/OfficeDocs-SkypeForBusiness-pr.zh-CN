@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: 下载、安装并使用 Windows PowerShell 5.1 创建连接到 Skype for Business Online 的远程 PowerShell 会话。
-ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ed719a2df084c968c622a54fe145647b2d7b7aa8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029093"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120331"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>下载并安装 Windows PowerShell 5.1
 
@@ -94,7 +94,7 @@ Get-ExecutionPolicy
 
 如果不确定正在运行的 Windows 版本，或者不确定是否已安装 Windows 7 Service Pack 1，请单击“**开始**”，右键单击“**计算机**”，然后单击“**属性**”。 “系统”对话框中将报告此信息。
   
-要安装 Windows Management Framework 5.1，请完成[安装和配置 WMF 5.1](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure) 中的程序。
+要安装 Windows Management Framework 5.1，请完成[安装和配置 WMF 5.1](/powershell/scripting/wmf/setup/install-configure) 中的程序。
   
 计算机重新启动后，验证 Windows PowerShell 是否可以启动以及应用程序是否可在管理凭据下运行。 要执行此操作：
   
@@ -148,4 +148,3 @@ Auth
 [为 Windows PowerShell 设置计算机](set-up-your-computer-for-windows-powershell.md) 
 
   
- 

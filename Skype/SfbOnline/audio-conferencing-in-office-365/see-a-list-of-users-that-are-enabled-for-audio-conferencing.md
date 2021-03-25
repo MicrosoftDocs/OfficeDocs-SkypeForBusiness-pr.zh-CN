@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Online 中查看已启用音频会议的用户的列表
+title: 查看 Skype for Business Online 中已启用音频会议的用户列表
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解如何从 Skype for Business 业务管理中心查看组织中启用了拨入音频会议 的用户列表。 '
-ms.openlocfilehash: 206bd52d1b2e0cfc1a72bb557c5d5dc4c0162534
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 2cb4481f480f5be9f45064aed1fd48f9f5c28496
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163921"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114128"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>在 Skype for Business Online 中查看已启用音频会议的用户的列表
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>查看 Skype for Business Online 中已启用音频会议的用户列表
 
 > [!NOTE]
 > 有关在 Microsoft Team 中启用的用户的信息，请参阅查看 Microsoft Teams 中启用了音频会议的用户列表。[ ](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)
 
-After you have enabled Skype for Business users in your organization for Audio Conferencing, you can view the list of those users who have been enabled. When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.
+在组织中为 Skype for Business 用户启用音频会议后，您可以查看已启用这些用户的列表。 查看列表时，还会在列表中的每个用户看到他们使用的音频会议提供商的类型、用户的默认拨入电话号码，并且如果你的组织未启用动态会议 ID，则还会看到他们组织的音频会议会议的静态会议 ID。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -45,11 +45,11 @@ After you have enabled Skype for Business users in your organization for Audio C
 
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 
-- 当你查看已启用用户的列表时，你可以从列表中选择用户并使用操作窗格编辑该用户的音频会议设置。
+- 查看已启用的用户列表时，可以从列表中选择一个用户，并使用"操作"窗格编辑该用户的音频会议设置。
     
-- 当你选择配置为使用 Microsoft 作为音频会议提供商的单个用户时，你可以查看默认电话号码以及你的组织是否已启用动态会议 Id，并且你可以重置用户组织的会议的会议 ID。
+- 当您选择配置为使用 Microsoft 作为音频会议提供商的单个用户时，您可以查看默认电话号码以及您的组织是否启用了动态会议 ID，并且您可以重置用户组织的会议的会议 ID。
     
-- 当你选择配置为使用第三方音频会议提供商的单个用户时，你可以查看音频会议提供商的名称、收费电话号码和免费电话号码（如果已设置）。
+- 选择配置为使用第三方音频会议提供商的单个用户时，如果设置了) ，您可以查看音频会议提供商的名称、收费电话号码和免费电话号码 (。
     
 - 可以使用筛选选项来显示具有以下设置的用户：
     
@@ -67,27 +67,27 @@ After you have enabled Skype for Business users in your organization for Audio C
     
   - 为这些用户选择其他默认号码。
     
-  - 通过将提供程序更改为 "**无**" 来关闭用户的音频会议。
+  - 将提供商更改为"无"，为用户关闭音频 **会议**。
     
-  - 如果用户已分配**音频会议**许可证，则切换到 Microsoft 作为音频会议提供商。
+  - 如果用户已分配有音频会议许可证，请切换到 Microsoft 作为音频 **会议提供商。**
     
   - 允许/禁止匿名用户激活选定用户的电话会议。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- Windows PowerShell 全部用于管理用户以及允许或禁止用户执行的操作。使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365 和 Skype for business Online，这样你有多个任务可以简化日常工作。若要开始使用 Windows PowerShell，请参阅以下主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，当你有多个任务需要执行时，可以使用可以简化日常工作的单一管理点来管理 Microsoft 365 或 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [为什么需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。了解以下主题中的这些优势：
+- Windows PowerShell比使用 Microsoft 365 管理中心（例如，一次对许多用户进行设置更改时）具有许多速度、简单性和工作效率优势。 通过以下主题了解这些优势：
     
-  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [使用 Windows PowerShell 管理 Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>相关主题
 

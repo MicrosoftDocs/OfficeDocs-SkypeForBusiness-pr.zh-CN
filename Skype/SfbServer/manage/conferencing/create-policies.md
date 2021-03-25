@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 摘要：了解如何在 Skype for Business Server 中创建会议策略。
-ms.openlocfilehash: 8e707e6da1a56fa1818d436714327936369b06fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828232"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119521"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>在 Skype for Business Server 中创建会议策略
  
@@ -31,7 +31,7 @@ ms.locfileid: "49828232"
     
 2. 打开 Skype for Business Server 控制面板。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击 **"会议策略"。**
+3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议策略"。**
     
 4. 单击“新建”，然后执行以下操作之一：
     
@@ -70,7 +70,7 @@ ms.locfileid: "49828232"
     
     - 如果您允许用户通过电话拨入加入会议并允许未经身份验证的（匿名）用户通过拨出式电话加入会议，请选中 **“允许匿名参与者拨出”** 复选框。通过拨出式电话，会议服务器会呼叫用户，用户接听电话即可加入会议。默认情况下，匿名用户无法通过拨出式电话加入会议。
     
-12. 如果选择允许在音频 **/** 视频中使用视频，请检查"**允许多个视频流"。**
+12. 如果你选择允许使用音频 **/** 视频中的视频，请检查 **允许多个视频流**。
     
 13. 在 **“数据协作”** 中，执行下列操作之一：
     
@@ -84,7 +84,7 @@ ms.locfileid: "49828232"
     
     - 要阻止文件传输，请清除 **“允许参与者传输文件”** 复选框。默认情况下，用户可以传输文件。
     
-    - 要阻止使用批注，请清除 **“启用批注”** 复选框。 若要在共享的 PowerPoint 演示文稿中使用批注，请清除 **启用 PowerPoint 批注**。 默认情况下，允许使用批注。
+    - 要阻止使用批注，请清除 **“启用批注”** 复选框。 若要在共享的 PowerPoint 演示文稿中使用批注，请清除"**启用 PowerPoint 批注"。** 默认情况下，允许使用批注。
     
     - 要阻止使用投票，请清除 **“启用投票”** 复选框。默认情况下，允许使用投票。
     
@@ -120,12 +120,10 @@ ms.locfileid: "49828232"
 
 若要创建会议策略，请使用 **New-CsConferencingPolicy** cmdlet。
   
-以下示例创建 Identity 为 SalesConferencingPolicy 的新会议策略。 此策略将使用会议策略的所有默认值（MaxMeetingSize 除外）。 本示例中，会议的最大大小将设置为 50，而不是默认值 250：
+以下示例创建 Identity 为 SalesConferencingPolicy 的新会议策略。 此策略将使用会议策略的所有默认值，但 MaxMeetingSize 除外。 本示例中，会议的最大大小将设置为 50，而不是默认值 250：
   
 ```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-有关详细信息，包括完整的语法说明和参数列表，请参阅 [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)。
-  
-
+有关详细信息，包括完整的语法说明和参数列表，请参阅 [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)。

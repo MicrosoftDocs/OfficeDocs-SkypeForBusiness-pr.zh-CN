@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: 摘要：使用以下过程管理 Skype for Business Server 安全性和身份验证。
-ms.openlocfilehash: 57cb9d6a94c604d155fef9bb784ff6afccbdfc2d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 08cfe113c73c3abc39e617da8340d63f758438c3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828492"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119581"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>在 Skype for Business Server 中管理身份验证
  
-**摘要：** 使用以下过程可管理 Skype for Business Server 安全性和身份验证。
+**摘要：** 使用以下过程管理 Skype for Business Server 安全性和身份验证。
   
-使用以下过程可管理 Skype for Business Server 安全性和身份验证。
+使用以下过程管理 Skype for Business Server 安全性和身份验证。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [如何将新式验证 (ADAL) Skype for Business](use-adal.md)
+- [如何使用 Skype for Business (ADAL) 新式验证](/microsoft-365/enterprise/hybrid-modern-auth-overview)
     
-- [使用 Set-CsCertificate 中的 -Roll 在 Skype for Business Server 中阶段 AV 和 OAuth 证书](stage-av-and-oauth-certificates.md)
+- [在 Skype for Business Server 中使用 -Roll 在 Set-CsCertificate 中阶段 AV 和 OAuth 证书](stage-av-and-oauth-certificates.md)
     
 - [将服务器到服务器身份验证证书分配给 Skype for Business Server](assign-a-server-to-server-certificate.md)
 
@@ -45,5 +45,3 @@ ms.locfileid: "49828492"
 - [在 Skype for Business Server 中管理 PIN 设置](pin-settings.md)
     
 - [在 Skype for Business Server 中管理双重身份验证](two-factor-authentication.md)
-    
-

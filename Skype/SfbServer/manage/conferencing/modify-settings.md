@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 摘要：了解如何在 Skype for Business Server 中修改会议配置设置。
-ms.openlocfilehash: 80ba12266ebc45fdae3256f5238ecf18415734c8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2f0d1220312ac810d26fdd4691492133e54db9b6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827992"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119411"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>修改 Skype for Business Server 中的会议配置设置
  
@@ -31,11 +31,11 @@ ms.locfileid: "49827992"
     
 2.  打开 Skype for Business Server 控制面板。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议配置"。**
+3. 在左侧导航栏中，单击 **"会议"，** 然后单击"会议 **配置"。**
     
-4. 在会议配置列表中，单击要更改的配置，再单击"编辑"，然后单击"**显示详细信息"。**
+4. 在会议配置列表中，单击要更改的配置，再单击"编辑"，然后单击"显示 **详细信息"。**
     
-5. 在 **"** 编辑会议配置"中，修改任何配置设置，但无法修改的配置名称除外。
+5. 在 **"编辑会议配置**"中，修改任何配置设置，但配置名称除外，不能修改配置名称。
     
 6. 单击“提交”。
     
@@ -49,6 +49,4 @@ ms.locfileid: "49827992"
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-有关详细信息，包括参数的完整列表，请参阅[Set-CsMeetingConfiguration。](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)
-  
-
+有关详细信息，包括参数的完整列表，请参阅[Set-CsMeetingConfiguration。](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps)

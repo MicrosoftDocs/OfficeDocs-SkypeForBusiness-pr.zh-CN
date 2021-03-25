@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 7e828745810bd49f9b8f3ea9e7bee1d023e4fc67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817442"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119381"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>在 Skype for Business Server 中启用或禁用匿名用户访问
 
@@ -29,11 +29,11 @@ ms.locfileid: "49817442"
 如果随后要暂时或永久阻止匿名用户访问，则可为组织禁用它。使用本节中的过程为组织启用或禁用匿名用户访问。
 
 > [!NOTE]  
-> 仅为组织启用匿名用户访问，将指定运行访问边缘服务的服务器支持匿名用户访问。 在至少配置一个会议策略并将其应用于一个或多个用户或用户组之前，匿名用户将无法参加组织中的任何会议。 只有分配了配置为支持匿名用户的会议策略的那些用户才能邀请匿名用户参加会议。 有关配置会议策略以支持邀请匿名用户的详细信息，请参阅["管理会议策略"。](../../conferencing/conferencing-policies.md)
+> 仅为组织启用匿名用户访问，将指定运行访问边缘服务的服务器支持匿名用户访问。 在至少配置一个会议策略并将其应用于一个或多个用户或用户组之前，匿名用户将无法参加组织中的任何会议。 只有分配了配置为支持匿名用户的会议策略的那些用户才能邀请匿名用户参加会议。 有关配置会议策略以支持邀请匿名用户的详细信息，请参阅 [管理会议策略](../../conferencing/conferencing-policies.md)。
 
 ## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>为组织启用或禁用匿名用户访问
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
@@ -52,7 +52,7 @@ ms.locfileid: "49817442"
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用或禁用匿名Windows PowerShell访问
 
-可以使用 Windows PowerShell **和 Set-CsAccessEdgeConfiguration** cmdlet 管理匿名用户访问。 可以从 Skype for Business Server 命令行管理程序 或远程会话运行此 cmdlet Windows PowerShell。 
+您可以通过使用 Windows PowerShell **和 Set-CsAccessEdgeConfiguration** cmdlet 管理匿名用户访问。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 
 
 ## <a name="to-enable-anonymous-user-access"></a>启用匿名用户访问
 
@@ -69,5 +69,4 @@ ms.locfileid: "49817442"
 
 ## <a name="see-also"></a>另请参阅
 
-[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
-  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  

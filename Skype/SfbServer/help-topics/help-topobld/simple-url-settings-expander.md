@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 要指定新的简单 URL、删除现有简单 URL 或更改活动的简单 URL，请执行以下操作：
-ms.openlocfilehash: 4a6f01dde6259171c1c31669f7f87adf5261acc9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 69f98cf3402de39d24b1805b41e904c527ee4527
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818252"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119601"
 ---
 # <a name="simple-url-settings-expander"></a>简单 URL 设置扩展器
 
@@ -50,6 +50,4 @@ ms.locfileid: "49818252"
 
 ## <a name="see-also"></a>另请参阅
 
-有关详细信息，请参阅[规划简单 URL](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)。
-
-
+有关详细信息，请参阅[规划简单 URL](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls)。

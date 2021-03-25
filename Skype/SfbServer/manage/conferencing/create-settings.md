@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 摘要：了解如何在 Skype for Business Server 中创建会议配置设置。
-ms.openlocfilehash: edc498ed3847618b17970fb2270c21fd3f4ec025
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828202"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119511"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business Server 中创建会议配置设置
  
@@ -31,7 +31,7 @@ ms.locfileid: "49828202"
     
 2.  打开 Skype for Business Server 控制面板。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议配置"。**
+3. 在左侧导航栏中，单击 **"会议"，** 然后单击"会议 **配置"。**
     
 4. 在 **“会议配置”** 页上，单击 **“新建”**，然后执行下列操作之一：
     
@@ -53,15 +53,15 @@ ms.locfileid: "49828202"
     
 8. 要阻止自动允许匿名（未经身份验证）用户参加会议，请清除 **“默认允许匿名用户”** 复选框。默认情况下，自动允许匿名用户参加会议。
     
-9. 若要自定义发送给参与者的会议邀请，请执行下列操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 帮助 **URL 除外**，如果不为自定义项指定值，它们将不会包含在会议中。 如果不包括自定义帮助 URL，则 Skype for Business 的默认帮助 URL 将显示在邀请中。 
+9. 若要自定义发送给参与者的会议邀请，请执行下列操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 帮助 **URL** 除外，如果不为自定义项指定值，则它们将不会包含在会议中。 如果不包括自定义帮助 URL，Skype for Business 的默认帮助 URL 将显示在邀请中。 
     
-   - 若要自定义会议邀请中出现的徽标，请在徽标 **URL** 中输入徽标的位置。 徽标必须是大小为 188 x 30 像素的 GIF 或 JPG 图像。 
+   - 若要自定义会议邀请中出现的徽标，请在"徽标 **URL"** 中输入徽标的位置。 徽标必须是大小为 188 x 30 像素的 GIF 或 JPG 图像。 
     
    - 若要自定义会议邀请中显示的帮助文本，请在"帮助 **URL"** 中输入帮助文本的位置。
     
    - 若要自定义会议邀请中显示的法律文本，请在"法律文本 **URL"** 中输入法律文本的位置。
     
-   - 若要自定义会议邀请中出现的页脚文本，请在"自定义页脚" **文本** 中输入文本。
+   - 若要自定义会议邀请中出现的页脚文本，请在"自定义页脚文本" **中** 输入文本。
     
 10. 单击“提交”。
     
@@ -75,20 +75,18 @@ ms.locfileid: "49828202"
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
-由于在 (中未指定必需的 Identity 参数) 参数，因此新的会议配置设置将使用其所有属性的默认值。
+由于上述 (中未指定必需的 Identity) 参数，因此新的会议配置设置将在其所有属性中都使用默认值。
   
-要创建使用不同属性值的设置，只需包含相应的参数和参数值。 例如，若要创建默认情况下允许所有人作为演示者加入会议的会议配置设置集合，请使用类似如下的命令：
+要创建使用不同属性值的设置，只需包含相应的参数和参数值。 例如，若要创建默认情况下允许所有人以演示者角色加入会议的会议配置设置集合，请使用类似如下的命令：
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-可以通过包含多个参数来设置多个属性值。 例如，以下命令允许所有人以演示者形式参加会议，并强制 PSTN 用户在会议厅等待，直到他们正式获准参加会议：
+可以通过包含多个参数来设置多个属性值。 例如，以下命令允许所有人以演示者形式加入会议，并强制 PSTN 用户在会议厅等待，直到正式允许他们参加会议：
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-有关详细信息，包括参数的完整列表，请参阅[New-CsMeetingConfiguration。](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)
-  
-
+有关详细信息，包括参数的完整列表，请参阅[New-CsMeetingConfiguration。](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)

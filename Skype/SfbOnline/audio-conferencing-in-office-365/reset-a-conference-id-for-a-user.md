@@ -20,47 +20,47 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '了解在 Skype for Business Online 中重置用户的会议 ID 以及获取会议更新和迁移工具的链接的步骤。 '
-ms.openlocfilehash: f0bf8a991cfa7c597bb7a0424709e81851291307
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: '了解在 Skype for Business Online 中重置用户的会议 ID 的步骤，并获取会议更新和迁移工具的链接。 '
+ms.openlocfilehash: 424b0dfb24d6034af20c18a0172221a09bef5ecd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164701"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114208"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>在 Skype for Business Online 中重置用户的会议 ID
 
 > [!NOTE]
 > 有关重置 Microsoft Teams 中的会议 ID 的信息，请参阅[在 Microsoft  Teams 中重置用户的会议 ID](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams)。
 
-A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.
+会议邀请底部包含动态会议 ID，以及呼叫者可用于拨入会议的拨入电话号码。 当用户拨打电话号码时，会议的自动助理将要求呼叫者输入此会议 ID，以便他们可以参加会议。
   
 > [!NOTE]
-> 如果你的会议提供商是 Microsoft，你的用户的会议 Id 将设置为 "仅动态"。此操作无法更改。仅为启用音频会议的 Skype for business 用户自动设置会议 Id。 
+> 如果会议提供商是 Microsoft，则用户的会议 ID 设置为"仅动态"。 这无法更改。 仅为启用音频会议的 Skype for Business 用户自动设置会议 ID。 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
    
-1. 在**Skype for business 管理中心**中，单击 "**音频会议** > **用户**"，选择用户，然后在 "**会议 ID** " 下的 "操作" 窗格中单击 "**重置**"。
+1. 在 **Skype for Business 管理中心中**，单击"**音频会议用户**"，选择一个用户，然后在"会议 ID"下的"操作"窗格中单击  >  "重置 **"。** 
     
-2. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.
+2. 在"**重置会议 ID？"** 窗口中，单击"**是"。** A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下，电子邮件将发送给用户，但可以将其关闭。
     
 > [!NOTE]
-> 重置会议 ID 后，将向用户发送带有新会议 ID 的电子邮件。此电子邮件将发送到主要电子邮件地址，在很多情况下，他们的 Microsoft 365 或 Office 365 邮箱。电子邮件包含新的会议 ID、默认拨入电话号码和使用 Skype for Business 会议更新工具更新现有会议的说明。 
+> [!注释] 重置会议 ID 后，会向用户发送包含新会议 ID 的电子邮件。 此电子邮件将发送到主要电子邮件地址（在许多情况下为 Microsoft 365 或 Office 365 邮箱）。 电子邮件中包含新的会议 ID、默认拨入电话号码以及使用 Skype for Business 会议更新工具更新现有会议的说明。 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
 
-- You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info via email** for the user in the Action pane. It doesn't send the PIN.
+- 您可以通过在"操作"窗格中单击"通过电子邮件发送会议信息"，在包含会议 ID 和拨入电话号码的电子邮件中向用户发送所有会议信息。 它不会发送 PIN。
     
-- 会议 ID 将包含7位数字，并且不能在 Skype for Business 管理中心或使用 Windows PowerShell 中更改其长度。
+- 会议 ID 将包含 7 个数字，并且你无法更改 Skype for Business 管理中心中或通过使用 Windows PowerShell。
     
 - 重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。
     
-- 当你在 "**用户**" 页面上选择用户时，可以在操作窗格的底部**查看音频会议**的用户的会议 ID。
+- 当你在"用户"页面上选择用户时，可以在"音频会议"下的"操作"窗格底部查看音频会议 **用户的会议** ID。
     
-- After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use Skype for Business Meeting Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see:
+- [!重要信息]  创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype for Business 会议工具更新其现有会议。 若要了解如何下载、安装和运行 Skype for Business 会议更新工具，请参阅：
     
   - [Skype for Business 和 Lync 的会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
@@ -70,19 +70,19 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 当使用 Windows PowerShell 时，有关管理用户以及允许或禁止用户执行哪些操作的信息。使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365 和 Skype for business Online，这样你有多个任务可以简化日常工作。若要开始使用 Windows PowerShell，请参阅以下主题：
+- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。 使用 Windows PowerShell，当你有多个任务需要执行时，可以使用可以简化日常工作的单一管理点来管理 Microsoft 365 或 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [为什么需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
  
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。了解以下主题中的这些优势：
+- Windows PowerShell比使用 Microsoft 365 管理中心（例如，一次对许多用户进行设置更改时）具有许多速度、简单性和工作效率优势。 通过以下主题了解这些优势：
     
-  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [使用 Windows PowerShell 管理 Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>相关主题
 

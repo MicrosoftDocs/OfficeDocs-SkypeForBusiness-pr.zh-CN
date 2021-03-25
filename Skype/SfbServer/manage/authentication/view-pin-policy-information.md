@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 摘要：查看 Skype for Business Server 的用户 PIN 策略信息。
-ms.openlocfilehash: 4c223d5736df7f5f8ee1dbee11401a9fef2237cb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 80383ce7e78ba8806119121f8c27c6e469363003
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806522"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119531"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>在 Skype for Business Server 中查看 PIN 策略信息
  
@@ -36,11 +36,11 @@ ms.locfileid: "49806522"
     
 3. 在左侧导航栏中，单击“安全性”，然后单击“PIN 策略”。
     
-4. 在 **"PIN 策略"** 页上，单击某个策略，再单击 **"** 编辑"，然后单击"**显示详细信息"。**
+4. 在 **"PIN 策略"** 页上，单击某个策略，单击 **"编辑"，** 然后单击"显示 **详细信息"。**
     
 ## <a name="viewing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 cmdlet Windows PowerShell PIN 策略
 
-您还可以使用 Windows PowerShell 和 Get-CsPinPolicy cmdlet 查看 PIN 策略。 此 cmdlet 可以从 Skype for Business Server 命令行管理程序运行，也可以从远程会话Windows PowerShell。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。
+您还可以使用 cmdlet 和 Windows PowerShell 查看 PIN Get-CsPinPolicy策略。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
   
 ### <a name="to-view-pin-policies"></a>查看 PIN 策略
 
@@ -62,7 +62,7 @@ PINLifetime          : 0
 MaximumLogonAttempts :
 </pre>
 
-有关详细信息，请参阅 [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) cmdlet 的帮助主题。
   
 ## <a name="see-also"></a>另请参阅
 

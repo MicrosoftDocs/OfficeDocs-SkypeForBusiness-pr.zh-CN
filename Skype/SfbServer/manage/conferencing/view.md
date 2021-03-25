@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 摘要：了解如何在 Skype for Business Server 中查看会议策略。
-ms.openlocfilehash: 39b37a1335f8b257f9dec1fff28bea90ac7a6db9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: afe86f0a77e73c3fa7bf96339c4865598a7bc609
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817502"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119401"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>在 Skype for Business Server 中查看会议策略
  
@@ -31,13 +31,13 @@ ms.locfileid: "49817502"
     
 2.  打开 Skype for Business Server 控制面板。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击 **"会议策略"。**
+3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议策略"。**
     
 4. 在“会议策略”页面上，双击您要查看的会议策略。
     
-5. 在 **"编辑文件筛选器**"中，选中" **显示详细信息"** 复选框。
+5. 在 **"编辑文件筛选器**"中，选中" **显示详细信息** "复选框。
     
-    **编辑会议策略 - \<policy\>** 打开，显示所选策略的设置。
+    **编辑会议策略 - \<policy\>** 随即打开，显示所选策略的设置。
     
     有关配置设置的详细信息，请参阅在 Skype for Business Server 中创建 [会议策略](create-policies.md)。
     
@@ -49,7 +49,7 @@ ms.locfileid: "49817502"
 Get-CsConferencingPolicy
 ```
 
-此 cmdlet 返回如下信息：
+此 cmdlet 返回以下信息：
   
 <pre>
 Identity                                  : Global
@@ -88,6 +88,4 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-有关详细信息，包括完整的语法说明和参数列表，请参阅[Get-CsConferencingPolicy。](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)
-  
-
+有关详细信息，包括完整的语法说明和参数列表，请参阅 [Get-CsConferencingPolicy](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)。

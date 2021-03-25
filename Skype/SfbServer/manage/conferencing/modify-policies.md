@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: 摘要：了解如何在 Skype for Business Server 中修改会议策略。
-ms.openlocfilehash: eafeb56dd9b0c36afffab07830a9efb71bde18fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6bbba82c9785e074da492eb66cbdd943dc0cea35
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828002"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119421"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>修改 Skype for Business Server 中的会议策略
  
@@ -31,7 +31,7 @@ ms.locfileid: "49828002"
     
 2.  打开 Skype for Business Server 控制面板。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击 **"会议策略"。**
+3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议策略"。**
     
 4. 在会议策略列表中，单击要更改的策略，单击“编辑”，然后单击“显示详细信息”。
     
@@ -43,12 +43,10 @@ ms.locfileid: "49828002"
 
 若要修改会议策略，请使用 **Set-CsConferencingPolicy** cmdlet。
   
-以下示例修改会议策略 SalesConferencingPolicy 的属性值。 此命令将 AllowConferenceRecording 属性的值设置为 False：
+以下示例修改会议策略 SalesConferencingPolicy 的属性值。 该命令将 AllowConferenceRecording 属性的值设置为 False：
   
 ```PowerShell
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 
-有关详细信息，包括完整语法和参数列表，请参阅 [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
-  
-
+有关详细信息，包括完整语法和参数列表，请参阅 [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。

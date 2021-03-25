@@ -15,19 +15,19 @@ localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: 设备更新 Web 服务会自动创建记录设备更新活动的日志文件。 作为组织的数据管理策略的一部分，您可能需要设置日志数据缓存大小、日志文件 大小或 日志文件 在清除之前保留的时间长度的阈值。 您可以根据组织的要求更改这些设置。 如果不希望设备更新 Web 服务自动清除日志文件，可以根据需要进行手动清除。 可以在全局范围或针对每个站点更改日志设置。
-ms.openlocfilehash: 118f2e6d90e9c3f7559a5e129c844ccdf1ea9bf1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c9bd2c3077325540e6151fabd7bc4127b909a12a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830332"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120271"
 ---
 # <a name="device-log-configuration"></a>设备日志配置
 
 设备更新 Web 服务会自动创建记录设备更新活动的日志文件。 作为组织的数据管理策略的一部分，您可能需要设置日志数据缓存大小、日志文件 大小或 日志文件 在清除之前保留的时间长度的阈值。 您可以根据组织的要求更改这些设置。 如果不希望设备更新 Web 服务自动清除日志文件，可以根据需要进行手动清除。 可以在全局范围或针对每个站点更改日志设置。
 
 > [!NOTE]
-> 您还可以配置一天中的某个时间，使设备更新 Web 服务自动删除在默认情况下配置为保留日志文件 (的天数（即超过 10 天的日志文件）的日志文件) 。 无法使用 Skype for Business Server 控制面板修改此设置。 相反，必须使用 Skype for Business Server 命令行管理程序。 若要指定删除过期日志文件的时间，请使用 **New-CsDeviceUpdateConfiguration** cmdlet 和 -LogCleanUpTimeOfDay 参数。 有关详细信息，请参阅 [New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps)。
+> 您还可以配置一天中您希望设备更新 Web 服务自动删除超过您配置该服务保留日志文件 (的天数的日志文件（即超过 10 天的日志文件）的时间) 。 无法使用 Skype for Business Server 控制面板修改此设置。 相反，必须使用 Skype for Business Server 命令行管理程序。 若要指定删除过期日志文件的时间，请使用 **New-CsDeviceUpdateConfiguration** cmdlet 和 -LogCleanUpTimeOfDay 参数。 有关详细信息，请参阅 [New-CsDeviceUpdateConfiguration](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps)。
 
 > [!CAUTION]
 > 清除的文件将从文件系统中永久删除。清除文件后，将无法恢复。
@@ -44,9 +44,9 @@ ms.locfileid: "49830332"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **新建** 可以添加具有以下作用域的新设备日志配置：
+- **新建** 你可以添加具有以下作用域的新设备日志配置：
 
-  - 全球
+  - 全局
 
   - Site
 
@@ -58,8 +58,8 @@ ms.locfileid: "49830332"
 
   - **删除** 此选项将删除所有选定的设备日志配置。
 
-- **刷新** 你可以刷新设备日志配置列表，以验证所有设备日志配置的选项状态。
+- **刷新** 你可以刷新设备日志配置列表以验证所有设备日志配置的选项状态。
 
 ## <a name="see-also"></a>另请参阅
 
-[修改设备更新活动的日志文件的设置](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)
+[修改设备更新活动的日志文件的设置](/previous-versions/office/lync-server-2013/lync-server-2013-modify-settings-for-device-update-log-files)

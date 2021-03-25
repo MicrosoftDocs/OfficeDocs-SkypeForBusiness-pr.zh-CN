@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: 摘要：锁定或解锁 Skype for Business Server 的用户电话拨入式会议 PIN。
-ms.openlocfilehash: 73bd9affa159fba4ab35844896b9662eea3e1780
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：锁定或解锁用户的 Skype for Business Server 电话拨入式会议 PIN。
+ms.openlocfilehash: 46c46d2bffc8d9c0c8d3456192fb506ce754aecd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828362"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119591"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>在 Skype for Business Server 中锁定或解锁用户 PIN
  
-**摘要：** 锁定或解锁 Skype for Business Server 的用户电话拨入式会议 PIN。
+**摘要：** 锁定或解锁用户的 Skype for Business Server 电话拨入式会议 PIN。
   
 你可以从 Skype for Business Server 控制面板的"用户"部分锁定或解锁用户的 PIN。
   
@@ -88,9 +88,9 @@ ms.locfileid: "49828362"
     
    f. 单击用户，再单击“操作”，然后单击“解锁 PIN”。
     
-## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 锁定和解锁Windows PowerShell PIN
+## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 锁定和解锁Windows PowerShell PIN
 
-可以使用 Windows PowerShell cmdlet 和 Lock-CsClientPin cmdlet 锁定和解锁Unlock-CsClientPin PIN。 可以从 Skype for Business Server 命令行管理程序 或远程会话运行这些 cmdlet Windows PowerShell。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。
+可以使用 Windows PowerShell cmdlet 和 Lock-CsClientPin cmdlet 锁定和解锁Unlock-CsClientPin PIN。 可以从 Skype for Business Server 命令行管理程序或远程会话运行这些 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
   
 ### <a name="to-lock-a-user-pin"></a>锁定用户 PIN
 
@@ -108,4 +108,4 @@ ms.locfileid: "49828362"
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-有关详细信息，请参阅 [Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) 和 [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) 和 [Unlock-CsClientPin](/powershell/module/skype/unlock-csclientpin?view=skype-ps) cmdlet 的帮助主题。

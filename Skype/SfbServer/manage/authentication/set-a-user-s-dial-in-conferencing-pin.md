@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 摘要：为 Skype for Business Server 设置用户的电话拨入式会议 PIN。
-ms.openlocfilehash: cd7375519fa9fc161c6414dcf1b9d0fbf6de6ef0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c34e895471fdffb13a4cdb10806bd07146474e44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828293"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119551"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>在 Skype for Business Server 中设置用户的电话拨入式会议 PIN
  
@@ -65,7 +65,7 @@ ms.locfileid: "49828293"
     
 7. 在“设置 PIN”对话框中，执行下列操作之一：
     
-   - 若要允许 Skype for Business Server 生成用户的 PIN，请选择"自动生成有效的 **PIN** (默认) 。
+   - 若要允许 Skype for Business Server 生成用户的 PIN，请选择"使用默认密码自动生成 (**PIN**) 。
     
    - 要创建您自己的 PIN，请单击“手动输入特定 PIN”，单击文本框，然后键入满足 PIN 策略设置中指定的 PIN 要求的 PIN。
     
@@ -81,17 +81,17 @@ ms.locfileid: "49828293"
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 分配Windows PowerShell PIN
 
-您还可以使用 Set-CsClientPin cmdlet 分配 PIN 号码。 可以从 Skype for Business Server 命令行管理程序 或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程部署Windows PowerShell Skype for Business Server 的详细信息，请参阅博客文章"[快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中相同。 
+您还可以使用 cmdlet 分配 PIN Set-CsClientPin号码。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。 
   
-### <a name="to-auto-assign-a-pin-number-to-a-user"></a>自动为用户分配 PIN 号码
+### <a name="to-auto-assign-a-pin-number-to-a-user"></a>向用户自动分配 PIN 号码
 
-以下命令可将 PIN 号码分配给用户 Ken Myer。 由于不包括 Pin 参数，因此 Skype for Business Server 将自动生成和分配 PIN 号。
+以下命令可将 PIN 号码分配给用户 Ken Myer。 由于不包括 Pin 参数，Skype for Business Server 将自动生成和分配 PIN 号码。
     
   ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" 
   ```
 
-### <a name="to-assign-a-specific-pin-number-to-a-user"></a>将特定 PIN 号码分配给用户
+### <a name="to-assign-a-specific-pin-number-to-a-user"></a>向用户分配特定 PIN 号码
 
 此命令使用 Pin 参数为用户 Ken Myer 分配 PIN 号码 121989。
     
@@ -99,6 +99,4 @@ ms.locfileid: "49828293"
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-有关详细信息，请参阅 [Set-CsClientPin](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) cmdlet 的帮助主题。
-  
-
+有关详细信息，请参阅 [Set-CsClientPin](/powershell/module/skype/set-csclientpin?view=skype-ps) cmdlet 的帮助主题。

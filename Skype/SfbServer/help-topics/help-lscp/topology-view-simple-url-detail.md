@@ -15,22 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 58a3d1830fc1e96bb548eb379991c30ce5aa71a0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5d00e622a76d605eec28c54e00ca2c335de0d447
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818892"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119881"
 ---
 # <a name="topology-view-simple-url-detail"></a>拓扑：查看简单 URL 的详细信息
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [编辑或配置简单 URL](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+- [编辑或配置简单 URL](/previous-versions/office/lync-server-2013/lync-server-2013-edit-or-configure-simple-urls)
 
-- [查看简单 URL 详细信息](https://technet.microsoft.com/library/6ab00f2c-e1d5-4698-a58f-04b72260f9ac.aspx)
+- [查看简单 URL 详细信息](/previous-versions/office/lync-server-2013/lync-server-2013-view-simple-url-details)
 
-- [管理简单 URL](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
+- [管理简单 URL](/previous-versions/office/lync-server-2013/lync-server-2013-managing-simple-urls)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
-
+有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)

@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: '总结：了解 Microsoft 365 中生产力服务的逻辑体系结构，以 Microsoft Teams 为主导。 此外，了解用于 Teams 的电话解决方案。 '
-ms.openlocfilehash: dbf9d5eaff538786125b6414b209692ddf36472f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3f90627cf82200837e15f1231a36062715026e79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583491"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119261"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT 体系结构和电话解决方案海报
 
@@ -43,14 +43,14 @@ Teams 是 Microsoft 365 中生产力服务的逻辑体系结构的中心 - 包�
 
 当你开始在 Microsoft 云中使用 Teams 时，Microsoft 支持多种选项。 此海报可帮助你确定哪种 Microsoft 电话解决方案（云端的电话系统或本地企业语音）适合你组织中的用户，以及你的组织如何连接到公用电话交换网 (PSTN)。
 
-[![Microsoft 电话服务解决方案海报缩略图](https://docs.microsoft.com/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
+[![Microsoft 电话服务解决方案海报缩略图](/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) 
 
-有关详细信息，请参阅此海报文章：[Microsoft 电话解决方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
+有关详细信息，请参阅此海报文章：[Microsoft 电话解决方案](/SkypeForBusiness/hybrid/msft-telephony-solutions)。
   
    
 ## <a name="see-also"></a>另请参阅
 
-[Microsoft 云 IT 体系结构资源](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources)
+[Microsoft 云 IT 体系结构资源](/office365/enterprise/microsoft-cloud-it-architecture-resources)
 
 [下载 Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/download-app#desktopAppDownloadregion)
