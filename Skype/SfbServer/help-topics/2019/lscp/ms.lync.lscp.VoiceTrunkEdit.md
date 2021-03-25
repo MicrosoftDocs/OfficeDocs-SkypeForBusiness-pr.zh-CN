@@ -1,5 +1,5 @@
 ---
-title: 中继配置创建新的或编辑现有的
+title: Trunk 配置 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 6846491f073542c3a70015d05ea75a77e51db934
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5284d775e8b89bca45491214c58e9892124be110
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833562"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121812"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>中继配置：创建新的或编辑现有的
 
@@ -30,9 +30,6 @@ ms.locfileid: "49833562"
 
 - [在 Skype for Business Server 中配置无媒体旁路的中继](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [在 Skype for Business Server 中为被叫 ID 演示文稿创建或修改转换规则](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Create or modify a translation rule for called ID presentation in Skype for Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [手动创建或修改转换规则](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
-
-
-
+- [手动创建或修改转换规则](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)

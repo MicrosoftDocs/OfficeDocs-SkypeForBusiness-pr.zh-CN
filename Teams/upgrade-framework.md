@@ -1,5 +1,5 @@
 ---
-title: 关于升级框架-面向团队的 Skype for business
+title: 关于升级框架 - Skype for Business 到 Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 使用经验证的成功框架帮助您的组织从 Skype for Business 迁移到团队。
+description: 使用经过验证的成功框架来帮助组织从 Skype for Business 升级到 Teams。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,113 +20,113 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4e94b5ef774f0fccaa6bb84d78d2018c1d31e34
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 4b73d4d38344952c2b0692939bce9573a16e4155
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578515"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122166"
 ---
 # <a name="about-the-upgrade-framework"></a>关于升级框架
 
-为了帮助您从升级的旅程中获得猜测，我们已为实施更改而使用了一个经验证的框架。 如下所示，框架中的每个步骤在之前的步骤上生成，为了获得最佳结果，我们建议按照顺序执行这些步骤。  
+为了帮助从升级旅程中排除猜测，我们采用了经过验证的框架来实现更改。 如下图所示，框架中的每个步骤都基于之前的步骤，为获得最佳结果，我们建议按照以下步骤顺序操作。  
 
-首先将正确的利益干系人和定义升级计划 (例如 "范围"、"目标" 和 "日程表) "。 在制定一个计划后，确认你的技术环境和最终用户已做好团队准备。 然后，在阶段实施升级，在准备时从试验转到组织范围的升级。 组织在团队中后，建立可用于监控质量和加速用户使用的操作计划。
+首先，将适当的利益干系人汇集在一起，并定义升级 (，例如范围、目标和日程表) 。 制定计划后，请确认你的技术环境，并且你的最终用户已准备好使用 Teams。 然后，在准备就绪时分步实施升级，从试点升级迁移到组织范围的升级。 组织进入 Teams 后，建立一个运营计划，用于监视质量并加快用户采用速度。
 
-![升级历程框架的插图](media/upgrade-banner-main.png "确保您的项目已针对合适的项目团队进行了成功设置。定义项目范围、目标和日程表。确认技术和用户准备情况。执行推出计划。保持动量以最大化结果。")
+![升级旅程框架插图](media/upgrade-banner-main.png "确保项目已设置好，以与合适的项目团队一起获得成功。定义项目范围、目标和日程表。确认技术和用户就绪性。执行推出计划。保持动力以最大化结果。")
 
-在相关页面上查找此框架图形，以确定你在升级过程中所处的位置。
+在相关页面上查找此框架图形，确定在升级过程中位于何处。
 
-## <a name="sample-upgrade-timeline"></a>示例升级日程表
+## <a name="sample-upgrade-timeline"></a>示例升级时间线
 
-开始规划更改时，将开始升级。 利用成功框架作为指南，下面是一个示例时间线，可让你从升级前阶段中为你计划和准备升级、升级到升级后的操作阶段，以维持和加强你的成果。 
+开始规划更改时，升级过程将开始。 下面以成功框架为指南，从升级前阶段开始，你将从升级前阶段开始规划并准备升级，并进入升级后操作阶段，旨在维持和增强结果。 
 
 > [!NOTE]
-> 我们认识到团队的旅程可能涉及在不同时间利用多种 [模式](https://aka.ms/skypetoteams-coexist)   和用户组升级，这使您能够控制用户升级体验，同时保持团队发展势头。  
+> 我们知道，Teams 之旅可能涉及在不同时间利用多种模式 [](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)和升级用户组，这使您能够控制用户升级体验，同时保持   Teams 的发展动力。  
 
-为了帮助演示升级发展的发展方式，我们提供了下面的示例计划，它定义了从 Skype for Business Online 到孤岛模式的旅程。 此外，示例计划概括介绍了已将其用户划分为四个升级组或 cohorts 的组织。 将该计划用作模板，自定义计划以涵盖你对团队的特定旅程，包括你将使用的各种 [模式](https://aka.ms/skypetoteams-coexist)   以及你将用户划分到的升级组数。 
+为了帮助演示升级过程如何发展，我们在下面提供了一个示例计划，用于定义从 Skype for Business Online 到群岛模式到 Teams 之旅。 此外，该示例计划概述了一个组织，该组织已将用户分成四个升级组或队列。 使用此功能作为模板，自定义计划以包含你到 Teams 的特定旅程，并整合你将使用 [](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)的各种模式以及你将将用户细分为的升级   组数。 
 
 ## <a name="pre-upgrade"></a>升级前
 
-**为团队准备组织**。 为帮助确保成功升级团队，请务必为准备工作分配充足的时间。 你的组织不仅能够快速开始实现团队的价值，还可以在团队准备好随时从 Skype for Business 加速升级。 如果你已启用 Skype for Business 的团队，请使用这些预升级活动作为检查点，以在将用户升级到团队之前验证你的组织的准备情况。 
+**为组织准备 Teams。** 若要帮助确保成功升级到 Teams，必须分配足够的时间进行准备。 你的组织不仅能够快速开始意识到 Teams 的价值，还能够在 Teams 准备就绪后尽快从 Skype for Business 升级。 如果已与 Skype for Business 一起启用 Teams，请使用这些升级前活动作为检查点，在将用户升级到 Teams 之前验证组织的就绪状态。 
 
 > [!TIP]
->  [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)   除了示例升级项目计划和试点测试计划之外，下载模板用户准备材料（如通信和用户调查）的升级成功套件。 工具包中可用的项目在以下列表中使用星号 ( * ) 进行标记。
+> 除了示例 [升级项目](https://aka.ms/UpgradeSuccessKit)计划和试点测试计划外，下载模板用户准备情况材料（例如通信和用户调查）的升级   成功工具包。 工具包中可用的项目标有星号 (*) 列表。
 
-### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>计划：创建升级计划以帮助确保你的组织已设置为长期成功
+### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>计划：创建升级计划，帮助确保组织已针对长期成功进行设置
 
-| 步骤 |  | 摘要 | 源 |
+| 步骤 |  | 摘要 | 资源 |
 |------|--|---------|----------|
-| **1** | **定义利益干系人** | 分配负责推动升级成功的项目团队成员。 | [登记利益干系人](upgrade-enlist-stakeholders.md) |
-| **2** | **定义项目远景和范围** | 设计您的 "重要图片" 远景和当前项目范围，为升级旅行创建蓝图。 | [项目远景](upgrade-define-project-scope.md#project-vision) <br> <br>[项目范围](upgrade-define-project-scope.md#project-scope) |
-| **3** | **定义项目目标** | 设置使你能够衡量进度以及项目成功的目标目标。 | [项目目标](upgrade-define-project-scope.md#project-goals) |
-| **4** | **确定风险和缓解计划** | 建立缓解计划，确保你可以快速恢复你的项目，以确保你的项目出现问题。 | [风险和缓解](upgrade-define-project-scope.md#risks-and-mitigation) |
-| **5** | **定义日程表** | 设置日程表和关键里程碑，以帮助项目保持按时和预算。 | [上](upgrade-define-project-scope.md#timeline) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **定义相应的 Skype for Business 和团队升级和共存策略** | 映射您的旅程，确保您的组织的 Skype for Business 的最佳路径。 | [了解 Microsoft 团队和 Skype for business 共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br>[了解电话系统和 PSTN 连接选项](cloud-voice-landing-page.md)<br><br>  [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **1** | **定义利益干系人** | 为推动升级成功的项目工作组成员分配负责。 | [召集利益干系人](upgrade-enlist-stakeholders.md) |
+| **2** | **定义项目愿景和范围** | 设计"大图"愿景和当前项目范围，为升级过程创建蓝图。 | [项目愿景](upgrade-define-project-scope.md#project-vision) <br> <br>[项目范围](upgrade-define-project-scope.md#project-scope) |
+| **3** | **定义项目目标** | 设置目标目标，以便衡量进度和项目成功。 | [项目目标](upgrade-define-project-scope.md#project-goals) |
+| **4** | **确定风险和缓解计划** | 制定缓解计划，确保在出现问题时可以快速让项目回到正轨。 | [风险和缓解措施](upgrade-define-project-scope.md#risks-and-mitigation) |
+| **5** | **定义时间线** | 设置日程表和关键里程碑，帮助项目保持时间和预算。 | [时间线](upgrade-define-project-scope.md#timeline) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
+| **6** | **定义适当的 Skype for Business 和 Teams 升级和共存策略** | 映射旅程，确保从 Skype for Business 到 Teams 的最佳路径适用于你的组织。 | [了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br>[了解电话系统和 PSTN 连接选项](cloud-voice-landing-page.md)<br><br>  [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
-### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>准备：评估组织的团队准备情况
+### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>准备：评估组织对 Teams 的准备情况
 
-| 步骤 |  | 摘要 | 源 |
+| 步骤 |  | 摘要 | 资源 |
 |------|--|---------|----------|
-| **1** | **评估你的环境和完整的团队技术加入** | 确保你的环境做好准备，让团队能够优化用户体验，并在一段时间内帮助你的升级。 | [升级到团队之前先评估你的环境](upgrade-plan-journey-evaluate-environment.md)。<br><br> [准备要升级到团队的服务](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **为团队优化网络，尤其适用于实时媒体方案** | 如果你要部署音频、视频或会议，请执行以下附加步骤以针对该功能优化你的网络。 | [准备要升级到团队的网络](prepare-network.md) |
-| **3** | **评估组织更改准备情况和定义团队协作方案** | 了解你的用户群体以准备合适的价值消息传递和教育级别，以促进和加速用户采纳。 | [组织更改准备情况](upgrade-org-change-readiness.md#organizational-change-readiness) |
-| **4** | **准备用户准备情况计划以定义您将如何交流、培训和支持用户** | 对您的通信、培训和支持计划进行个性化设置，以确保最佳 receptiveness 新技术。 | [准备用户就绪性计划](upgrade-user-readiness.md)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
-| **5** | **通知 Microsoft 团队的挂起启动** | 及早沟通以帮助用户感觉、减少混乱和产生兴奋。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **为团队准备 IT 员工** | 确认您的技术和支持人员拥有他们准备和支持团队的技术环境所需的所有内容。 | [为 Microsoft 团队准备 IT 员工](upgrade-prepare-it-pros.md) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
+| **1** | **评估环境并完成 Teams 技术载入** | 确保你的环境已准备好供 Teams 帮助优化用户体验，并随着时间的推移促进升级。 | [在升级到 Teams 之前评估环境](upgrade-plan-journey-evaluate-environment.md)。<br><br> [准备服务以升级到 Teams](upgrade-prepare-environment-prepare-service.md) |
+| **2** | **优化 Teams 网络，尤其是实时媒体方案** | 如果要部署音频、视频或会议，请执行这些附加步骤来优化网络以使用该功能。 | [准备网络以升级到 Teams](prepare-network.md) |
+| **3** | **评估组织变更准备情况并定义团队协作方案** | 了解用户群，以准备正确的价值消息传递和教育程度，以便促进和加快用户采用。 | [组织变更就绪情况](upgrade-org-change-readiness.md#organizational-change-readiness) |
+| **4** | **准备用户准备计划，定义通信、培训和支持用户的方式** | 个性化你的通信、培训和支持计划，以确保以最佳方式利用新技术。 | [准备用户就绪性计划](upgrade-user-readiness.md)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
+| **5** | **宣布即将推出 Microsoft Teams** | 尽早沟通，帮助用户感到被包含在内、减少混淆和产生兴奋感。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
+| **6** | **为 Teams 准备 IT 人员** | 确认技术和支持人员已准备好一切，并支持 Teams 的技术环境。 | [为 Microsoft Teams 准备 IT 人员](upgrade-prepare-it-pros.md) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 
-### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>试点：运行试点确认您的组织已准备就绪，向团队通报您的最佳旅程
+### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>试点：运行试点，确认组织已准备就绪，并告知最佳 Teams 之旅
 
-| 步骤 |  | 摘要 | 源 |
+| 步骤 |  | 摘要 | 资源 |
 |------|--|---------|----------|
-| **1** | **概要试验物流** | 定义正式的试点物流，以帮助验证您的组织是否准备好升级或共存。 | [概要试验物流](pilot-essentials.md#1-outline-pilot-logistics) |
-| **2** | **选择试点参与者和测试方案** | 标识可帮助验证协作方案和验证团队准备情况的用户。 | [选择试点参与者和测试方案](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
-| **3** | **设计测试计划和反馈调查** | 标识明确定义的参与者完成的任务，以及为他们共享其反馈的方法。 | [设计测试计划和反馈调查](pilot-essentials.md#3-design-your-test-plan-and-feedback-survey) |
-| **4** | **创建试点通信计划** | 向试点参与者介绍所发生的情况、时间和原因以及它们的预期效果。 | [创建通信计划](pilot-essentials.md#4-create-your-communications-plan)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
-| **5** | **开展试点** | 启动试验，跟踪进度并根据需要进行迭代，以优化试验结果。 | [开展试点](pilot-essentials.md#5-conduct-your-pilot) |
-| **6** | **评估发现并评估您的转到前计划** | 收集用户反馈、网络统计信息和支持票证，以便针对你的目标进行分析并确定你的前进计划。 | [评估发现并评估您的转到前计划](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)
+| **1** | **概述试点物流** | 定义正式的试点物流，帮助验证组织是否准备好升级或共存。 | [概述试点物流](pilot-essentials.md#1-outline-pilot-logistics) |
+| **2** | **选择试点参与者和测试方案** | 确定可以帮助验证团队方案并验证 Teams 就绪性的用户。 | [选择试点参与者和测试方案](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
+| **3** | **设计测试计划和反馈调查** | 确定明确定义的供参与者完成的任务，以及供他们分享其反馈的方法。 | [设计测试计划和反馈调查](pilot-essentials.md#3-design-your-test-plan-and-feedback-survey) |
+| **4** | **创建试点通信计划** | 指导试点参与者了解发生的情况、时间、原因以及预期结果。 | [创建通信计划](pilot-essentials.md#4-create-your-communications-plan)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
+| **5** | **进行试点** | 启动试点，跟踪进度并根据需要进行跟踪，以优化试点结果。 | [进行试点](pilot-essentials.md#5-conduct-your-pilot) |
+| **6** | **评估学习和评估前进计划** | 收集用户反馈、网络统计信息和支持票证，以便针对目标进行分析并确定前进计划。 | [评估学习和评估前进计划](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)
 
-### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>部署：运行与 Skype for Business 共存的团队
+### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>部署：与 Skype for Business 共存运行 Teams
 
-| 步骤 |  | 摘要 | 源 |
+| 步骤 |  | 摘要 | 资源 |
 |------|--|---------|----------|
-| **1** | **宣布团队正式启动** | 通过在团队准备就绪后发出正式的启动通知来创造兴奋和动力。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
-| **2** | **实现升级** | 你采取的步骤取决于 Skype for Business 的当前部署。 | [实现升级](upgrade-to-teams.md) |
-| **3** | **随时了解团队路线图** | 监视团队路线图以确定你的组织移动到团队的适当时间。 | [团队路线图](https://aka.ms/teamsroadmap) |
-| **4** | **发送其他通信，让团队拥护人员推动团队的兴奋和采纳** | 通过持续通信和拥护的团队鼓励用户采纳和保持兴奋。 | [Microsoft 365 拥护程序计划](https://aka.ms/O365Champions) |
+| **1** | **宣布 Teams 正式发布** | 在 Teams 准备就绪时发送正式发布公告，从而产生兴奋和动力。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
+| **2** | **实现升级** | 你执行的步骤取决于你当前部署的 Skype for Business。 | [实现升级](upgrade-to-teams.md) |
+| **3** | **随时了解 Teams 路线图** | 监视 Teams 路线图，确定组织移动到 Teams 的合适时间。 | [Teams 路线图](https://aka.ms/teamsroadmap) |
+| **4** | **发送更多通信并吸引 Teams 支持者，以吸引团队的兴奋和采用** | 通过持续沟通和支持，鼓励用户采用并保持对 Teams 的兴奋感。 | [Microsoft 365 冠军计划](https://aka.ms/O365Champions) |
 
 ## <a name="upgrade"></a>升级 
 
-**让官方搬迁到团队**。 升级用户时，将其移动到 "仅团队" 模式。 团队成为聊天、会议、通话和协作的主要应用，并且已禁用 Skype for business 应用访问。 虽然此阶段的技术方面非常简单，但请考虑更改可能对用户体验产生的影响，并允许用户正式将其活动从 Skype for Business 切换到团队。 若要减少用户对不同客户端的体验，请尝试将端到端升级窗口限制为45天或更高。
+**将正式移动到 Teams。** 升级用户时，可将其移动到"仅 Teams"模式。 Teams 将成为其用于聊天、会议、呼叫和协作的主要应用，并且禁用对 Skype for Business 应用的访问权限。 尽管此阶段的技术层面相当简单，但请考虑更改对用户体验的影响，并允许用户有时间将他们的活动从 Skype for Business 正式过渡到 Teams。 若要减少在不同客户端上拥有不同体验的用户，请尝试将端到端升级时段限制为 45 天左右。
 
-### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>升级：实施从 Skype for Business 到团队的升级
+### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>升级：实现从 Skype for Business 升级到 Teams
 
-| 步骤 |  | 摘要 | 源 |
+| 步骤 |  | 摘要 | 资源 |
 |------|--|---------|----------|
-| **1** | **确认你已完成上述升级前的活动** | 通过确认所有计划和准备活动的完成，帮助确保升级成功。 | 以上所有 |
-| **2** | **向第一个升级组中的用户发起通信** | 通知用户正在开始升级，并在整个过程中将其通知。 | [准备用户就绪性计划](upgrade-user-readiness.md) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
-| **3** | **仅针对第一个升级组中的用户启用团队的共存模式** | 按照适用于您的 Skype for Business 环境的步骤执行技术用户迁移。 | [从 Skype for Business Online 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[从本地 Skype for Business 升级到团队](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
-| **4** | **对滚动周期中的剩余升级组重复上述升级活动** | 继续推动您正在进行的通信计划，并根据您的计划升级用户组。 | |
-| **5** | **向所有用户发送升级后反馈调查** | 使用 "反馈" 调查来捕获来自用户的反馈和见解。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
+| **1** | **确认已完成上述升级前活动** | 确认完成所有规划和准备活动，帮助确保升级成功。 | 以上所有内容 |
+| **2** | **启动与第一个升级组中用户的通信** | 通知用户升级正在启动，并在整个过程中随时通知他们。 | [准备用户就绪性计划](upgrade-user-readiness.md) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
+| **3** | **为第一个升级组的用户启用仅 Teams 共存模式** | 按照适用于 Skype for Business 环境的步骤执行技术用户迁移。 | [从 Skype for Business Online 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[从本地 Skype for Business 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
+| **4** | **在滚动周期上为剩余的升级组重复上述升级活动** | 继续推动正在进行的通信计划，并基于计划升级用户组。 | |
+| **5** | **向所有用户发送升级后反馈调查** | 使用反馈调查捕获用户的反馈和见解。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 
 ## <a name="post-upgrade"></a>升级后
 
-**利用团队最大化商业价值**。 组织完全升级到团队后，请花一些时间来评估你对目标的成功，并实施一个计划来继续推动发展。 
+**使用 Teams 最大化业务价值**。 组织完全升级到 Teams 后，请花些时间根据目标评估你的成功，并实施一个计划来继续推动发展。 
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>操作：衡量升级是否成功
 
-| 步骤 |  | 摘要 | 源 |
+| 步骤 |  | 摘要 | 资源 |
 |------|--|---------|----------|
-| **1** | **评估初始升级是否成功** | 根据您在升级前阶段中建立的目标评估进度。 | [项目目标](upgrade-define-project-scope.md#project-goals) |
-| **2** | **针对无跟踪的任何目标实施缓解计划** | 为不符合的目标定义缓解或课程校正策略。 | [项目目标](upgrade-define-project-scope.md#project-goals) |
-| **3** | **监视网络运行状况和质量** | 实施质量检查和监视计划，以帮助确保积极的用户体验，并减少对支持桌面的通话。 | [监视网络运行状况和质量](continue-journey.md#monitor-for-network-health-and-quality) |
-| **4** | **促进用户发展势头和采纳** | 通过正在进行的采纳计划为团队鼓励用户采纳和保持兴奋。 | [促进用户发展势头和采纳](continue-journey.md#drive-user-momentum-and-adoption) |
-| **5** | **准备新功能** | 通过为新的创新和产品改进建立更改周期来实现最大价值。 | [准备新功能](continue-journey.md#prepare-for-new-functionality)
+| **1** | **评估初始升级成功** | 根据升级前阶段制定的目标评估进度。 | [项目目标](upgrade-define-project-scope.md#project-goals) |
+| **2** | **针对任何未实现的目标实施缓解计划** | 针对未达到的目标定义缓解或课程更正策略。 | [项目目标](upgrade-define-project-scope.md#project-goals) |
+| **3** | **监视网络运行状况和质量** | 实施质量检查和监视计划，帮助确保获得积极的用户体验，并减少对技术支持的呼叫。 | [监视网络运行状况和质量](continue-journey.md#monitor-for-network-health-and-quality) |
+| **4** | **推动用户的发展和采用** | 通过持续采用计划鼓励用户采用并保持 Teams 的兴奋感。 | [推动用户的发展和采用](continue-journey.md#drive-user-momentum-and-adoption) |
+| **5** | **准备新功能** | 通过建立新创新和产品改进的变化周期来实现最大价值。 | [准备新功能](continue-journey.md#prepare-for-new-functionality)
 
 
 > [!Note]
-> 我们的升级内容不断发展。 请务必查看最新指南，并阅读 [团队博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
+> 我们的升级内容在不断发展。 请务必返回查看最新指南，并阅读 [Teams 博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
 
 > [!Important]
-> Skype for Business Online 将于 2021 年 7 月 31 日停用，在此日期之后它将不再可用或受支持。 为了最大程度地实现收益并确保你的组织有适当的时间实施升级，我们鼓励你立即开始迁移到 Microsoft 团队。 请记住，成功升级会使技术和用户准备相一致，因此，在您向 Microsoft 团队导航旅行时，请务必利用本指南。
+> Skype for Business Online 将于 2021 年 7 月 31 日停用，在此日期之后它将不再可用或受支持。 为了最大程度地实现权益并确保组织有适当的时间来实施升级，我们鼓励你立即开始 Microsoft Teams 之旅。 请记住，成功的升级符合技术和用户准备情况，因此，在导航到 Microsoft Teams 旅程时，请务必参考此处的指南。

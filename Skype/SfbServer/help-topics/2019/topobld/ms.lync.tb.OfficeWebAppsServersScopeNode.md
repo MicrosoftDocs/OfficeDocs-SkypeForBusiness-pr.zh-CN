@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
-description: 右键单击"Office Web Apps 服务器"，然后选择"新建 Office Web Apps Server"以打开向导。
-ms.openlocfilehash: eb03185e46e63cfe855155addba5e21c9d7418a1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 右键单击"Office Web Apps 服务器"，然后选择"新建 Office Web Apps 服务器"以打开向导。
+ms.openlocfilehash: dc58a6e203362f5811ecb60b2b8bc981b70c9ba3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829932"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121045"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 范围节点
 
-右键单击 **"Office Web Apps 服务器** "，然后选择 **"新建 Office Web Apps Server"** 以打开向导。
+右键单击 **"Office Web Apps 服务器** "，然后选择 **"新建 Office Web Apps 服务器** "以打开向导。
 
 ![OfficeWebApps 服务器范围节点](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
@@ -34,4 +34,4 @@ ms.locfileid: "49829932"
 
 ## <a name="see-also"></a>另请参阅
 
-[配置与 Office Web Apps Server 的集成](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[配置与 Office Web Apps Server 的集成](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

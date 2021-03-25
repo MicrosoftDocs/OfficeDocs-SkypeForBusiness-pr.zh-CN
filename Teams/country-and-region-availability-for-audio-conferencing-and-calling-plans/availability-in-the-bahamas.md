@@ -1,5 +1,5 @@
 ---
-title: 列支敦士登的可用性
+title: 在列支敦士登的可用性
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务，适用于列支敦士登。
-ms.openlocfilehash: f04d92fc66bed6be30d23171a765511023d7b3c8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 以下是适用于列支敦士登的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: e0e0e72ba3e3c1ffded7689b20efddd2ff5e9468
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831312"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121460"
 ---
-# <a name="availability-in-the-bahamas"></a>列支敦士登的可用性
+# <a name="availability-in-the-bahamas"></a>在列支敦士登的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务，适用于列支敦士登。
+以下是适用于列支敦士登的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -72,7 +72,7 @@ ms.locfileid: "49831312"
 |是否提供收费电话号码？  <br/> |否 <br/> |
 |免费电话号码是否可用？ <br/> | 是  <br/> |
    
- 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅"获取 Skype for Business 和 Microsoft Teams 的服务电话号码["。](/microsoftteams/getting-service-phone-numbers)
+ 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取 [Skype for Business](../getting-service-phone-numbers.md)和 Microsoft Teams 的服务电话号码。
   
 ## <a name="communications-credits"></a>通信点数
 
@@ -84,6 +84,6 @@ ms.locfileid: "49831312"
   
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

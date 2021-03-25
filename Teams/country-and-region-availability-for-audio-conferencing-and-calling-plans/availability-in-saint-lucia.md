@@ -1,5 +1,5 @@
 ---
-title: 在圣马丁岛的可用性
+title: 在圣马丁岛可用
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务，适用于圣马丁。
-ms.openlocfilehash: 749ea27dbc77eeeb2f6b7d4e06f6b8506fc056da
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 以下是适用于 Skype for Business 的 Microsoft 365 和 Office 365 服务和适用于圣马丁的 Microsoft Teams。
+ms.openlocfilehash: a84c49b7ce9c2f3693dc1f983a5c2b9a0cad8b39
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823002"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121480"
 ---
-# <a name="availability-in-saint-lucia"></a>在圣马丁岛的可用性
+# <a name="availability-in-saint-lucia"></a>在圣马丁岛可用
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务，适用于圣马丁。
+以下是适用于 Skype for Business 的 Microsoft 365 和 Office 365 服务和适用于圣马丁的 Microsoft Teams。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -72,7 +72,7 @@ ms.locfileid: "49823002"
 |是否提供收费电话号码？  <br/> |否 <br/> |
 |免费电话号码是否可用？  <br/> |是  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅"获取 Skype for Business 和 Microsoft Teams 的服务电话号码["。](/microsoftteams/getting-service-phone-numbers)
+ 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取 [Skype for Business](../getting-service-phone-numbers.md)和 Microsoft Teams 的服务电话号码。
   
 ## <a name="communications-credits"></a>通信点数
 
@@ -84,7 +84,6 @@ ms.locfileid: "49823002"
   
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

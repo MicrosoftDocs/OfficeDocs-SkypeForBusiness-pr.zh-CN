@@ -1,5 +1,5 @@
 ---
-title: 联盟域创建新的或编辑现有的
+title: 联盟域 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,17 @@ localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 460852a238e2f62105afc7c10f28aa66d4c66d04
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d93cf0fa3d47a91c46fb8a3883e9a90d579ec371
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808682"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121116"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>联盟域：创建新的或编辑现有的
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [配置联盟伙伴的访问权限](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [配置联盟伙伴的访问](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
-- [监视和控制联盟伙伴访问](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
-
-
+- [监视和控制联盟伙伴访问](/previous-versions/office/lync-server-2013/lync-server-2013-configure-support-for-allowed-external-domains)

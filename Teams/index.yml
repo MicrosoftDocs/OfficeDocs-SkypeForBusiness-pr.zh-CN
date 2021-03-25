@@ -13,59 +13,59 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 22420146412092326f4a93485d05c12911240e39
-  ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+  ms.openlocfilehash: dca85173b5241e7e4e6c586a4d1970ef28947872
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: HT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/18/2021
-  ms.locfileid: "50867091"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51120653"
 highlightedContent:
   items:
   - title: 使用 Teams 支持远程工作者
     itemType: overview
-    url: https://docs.microsoft.com/en-us/microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
+    url: /microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
   - title: 从 Skype for Business 升级到 Teams
     itemType: how-to-guide
-    url: /MicrosoftTeams/upgrade-skype-teams
+    url: ./upgrade-skype-teams.yml
   - title: 使用 Teams 顾问帮助推广 Teams
     itemType: get-started
-    url: /MicrosoftTeams/use-advisor-teams-roll-out
+    url: ./use-advisor-teams-roll-out.md
 productDirectory:
   title: IT 专业人员 - Microsoft Teams 入门
   items:
   - title: 试点
     imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
     summary: 规划推广和试点解决方案，以便拥有平顺体验。
-    url: /MicrosoftTeams/get-started-with-teams-quick-start
+    url: ./get-started-with-teams-quick-start.md
   - title: 准备最终用户采用 
     imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
     summary: 载入用户并共享方案以获取成功。
-    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    url: ./adopt-microsoft-teams-landing-page.md
   - title: 规划企业版部署
     imageSrc: https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
     summary: 准备环境和基础结构以开始部署。
-    url: /MicrosoftTeams/deploy-enterprise-overview
+    url: ./deploy-enterprise-overview.md
   - title: 部署
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
     summary: 在组织中部署 Microsoft Teams。
-    url: /MicrosoftTeams/deploy-overview
+    url: ./deploy-overview.md
   - title: 安全
     imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
     summary: 执行以下最佳措施以保护 Microsoft Teams 中的数据、文件和标识。
-    url: /MicrosoftTeams/security-compliance-overview
+    url: ./security-compliance-overview.md
   - title: 管理
     imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
     summary: 执行 Microsoft Teams 日常管理任务。
-    url: /MicrosoftTeams/manage-teams-overview
+    url: ./manage-teams-overview.md
 tools:
   title: 面向所有受众的资源
   items:
   - title: 面向 IT 专业人员和管理员的学习
     imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
-    url: https://docs.microsoft.com/learn/teams/
+    url: /learn/teams/
   - title: Microsoft Teams 和 Microsoft 365 开发人员平台
     imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
-    url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+    url: ./deploy-apps-microsoft-teams-landing-page.md
   - title: 最终用户帮助和学习
     imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
     url: https://support.office.com/Teams
@@ -77,7 +77,7 @@ tools:
     url: https://microsoftteams.uservoice.com/
   - title: 下载 Microsoft Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
-    url: https://products.office.com/microsoft-teams/group-chat-software
+    url: https://www.microsoft.com/microsoft-teams/download-app
 additionalContent:
   sections:
   - title: 密钥解决方案
@@ -85,45 +85,45 @@ additionalContent:
     - title: 聊天、团队和频道
       links:
       - text: 聊天、团队、频道和应用
-        url: /Microsoftteams/deploy-chat-teams-channels-microsoft-teams-landing-page
+        url: ./deploy-chat-teams-channels-microsoft-teams-landing-page.md
       - text: 团队和频道概述
-        url: /Microsoftteams/teams-channels-overview
+        url: ./teams-channels-overview.md
       - text: 呼叫其他组织的用户及与他们聊天（来宾/外部访问）
-        url: /MicrosoftTeams/communicate-with-users-from-other-organizations
+        url: ./communicate-with-users-from-other-organizations.md
       - text: 什么是协作管理？
-        url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+        url: /microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
       - text: 使用三层文件共享安全性配置 Teams
-        url: https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
+        url: /microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
     - title: 会话和电话会议
       links:
       - text: 会话和电话会议概述
-        url: /Microsoftteams/deploy-meetings-microsoft-teams-landing-page
+        url: ./deploy-meetings-microsoft-teams-landing-page.md
       - text: 什么是 Microsoft Teams 直播活动？
-        url: /Microsoftteams/teams-live-events/what-are-teams-live-events
+        url: ./teams-live-events/what-are-teams-live-events.md
       - text: 部署添加音频会议
-        url: /Microsoftteams/deploy-audio-conferencing-teams-landing-page
+        url: ./deploy-audio-conferencing-teams-landing-page.md
       - text: Microsoft Teams 会议室
-        url: /MicrosoftTeams/rooms/
+        url: ./rooms/index.md
     - title: 语音呼叫
       links:
       - text: 规划 Teams 语音解决方案
-        url: /MicrosoftTeams/cloud-voice-landing-page
+        url: ./cloud-voice-landing-page.md
       - text: 什么是 Microsoft 365 商务语音？
-        url: /MicrosoftTeams/business-voice/whats-business-voice
+        url: ./business-voice/whats-business-voice.md
       - text: 设置电话系统
-        url: /Microsoftteams/setting-up-your-phone-system
+        url: ./setting-up-your-phone-system.md
       - text: Contoso 案例研究 - Teams 语音迁移
-        url: /MicrosoftTeams/voice-case-study-overview
+        url: ./voice-case-study-overview.md
     - title: 扩展 Teams 功能
       links:
       - text: Microsoft Teams 中的应用、聊天机器人和连接器
-        url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+        url: ./deploy-apps-microsoft-teams-landing-page.md
       - text: 构建 Microsoft Teams 应用
         url: /MicrosoftTeams/platform/overview
       - text: 与 Microsoft Power Platform 集成
-        url: https://docs.microsoft.com/MicrosoftTeams/teams-power-platfom-integration
+        url: ./teams-power-platfom-integration.md
       - text: Microsoft Teams 应用安全性和合规性
-        url: https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps
+        url: /microsoft-365-app-certification/teams/teams-apps
       - text: Microsoft Viva - 员工体验和参与
         url: https://www.microsoft.com/microsoft-viva/
     - title: 教育版和行业版
@@ -131,22 +131,22 @@ additionalContent:
       - text: 确保学生在使用 Teams 进行远程学习时的安全
         url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
       - text: Microsoft Teams 教育版
-        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
+        url: ./expand-teams-across-your-org/teams-for-education-landing-page.md
       - text: 医疗保健
-        url: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
+        url: ./expand-teams-across-your-org/healthcare/teams-in-hc.md
       - text: 一线员工
-        url: /MicrosoftTeams/flw-quickstart
+        url: ./flw-quickstart.yml
       - text: 零售版
-        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page
+        url: ./expand-teams-across-your-org/teams-for-retail-landing-page.md
     - title: 政府
       links:
       - text: Teams 政府版
-        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page
+        url: ./expand-teams-across-your-org/teams-for-government-landing-page.md
       - text: 政府版 - GCC 部署
-        url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc
+        url: ./plan-for-government-gcc.md
       - text: 政府版 - GCC High 部署
-        url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high
+        url: ./plan-for-government-gcc-high.md
       - text: 政府版 - DoD 部署
-        url: https://docs.microsoft.com/microsoftteams/plan-for-government-dod
+        url: ./plan-for-government-dod.md
       - text: 政府用策略包
-        url: https://docs.microsoft.com/microsoftteams/policy-packages-gov
+        url: ./policy-packages-gov.md

@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1e6628467d4300130c39a3bade87919fb064a14f
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ae050080814afe12ce2ba791c6b68058d5e4bc58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874702"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120854"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -37,7 +37,7 @@ Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升�
 
 应用由用户许可，由 IT 从策略角度进行管理。 但是，大多数情况下，应用的权限和风险配置文件由应用包含的功能的权限和风险配置文件定义。 因此，本文重点介绍功能级别的权限和注意事项。
 
-下面以大写字母列出的权限（例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE）不会显示在 [Microsoft Teams](https://aka.ms/teamsdevdocs) 开发人员文档或 [Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)的权限中。 它们只是本文的描述性简写。
+下面以大写字母列出的权限（例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE）不会显示在 [Microsoft Teams](/microsoftteams/platform/overview) 开发人员文档或 [Microsoft Graph](/graph/permissions-reference)的权限中。 它们只是本文的描述性简写。
 
 
 | 标题   | 描述    |
@@ -45,7 +45,7 @@ Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升�
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>使用下表作为指南，了解正在调查的应用正在请求哪些权限。</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>研究应用或服务本身，确定是否允许在组织中访问它。 例如，机器人发送和接收来自用户的消息，并且（企业自定义机器人除外）位于符合性边界之外。 因此，包含机器人的任何应用都需要这些权限，并且至少具有该风险配置文件。 </li></ul>|
 
-另请参阅 [请求 Microsoft Teams 选项卡的设备权限](https://docs.microsoft.com/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)。
+另请参阅 [请求 Microsoft Teams 选项卡的设备权限](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)。
 
 ## <a name="global-app-permissions-and-considerations"></a>全局应用权限和注意事项
 
@@ -61,9 +61,9 @@ Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升�
 
 - 应用必须披露它使用哪些数据，以及该数据在其使用条款和隐私策略链接中用于哪些内容。
 
-- [特定于资源的许可](resource-specific-consent.md) 提供应用可以请求的一组权限，该权限显示在应用的安装屏幕上。 若要详细了解特定于资源的许可权限，请参阅 [Graph 权限参考](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)。
+- [特定于资源的许可](resource-specific-consent.md) 提供应用可以请求的一组权限，该权限显示在应用的安装屏幕上。 若要详细了解特定于资源的许可权限，请参阅 [Graph 权限参考](/graph/permissions-reference#teams-resource-specific-consent-permissions)。
 
-- 应用可能还需要除特定于资源的许可权限外的权限。 安装应用后，应用可以通过许可提示请求 Graph 权限。 有关详细信息，请参阅了解 [Azure AD 应用程序许可体验](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)。 可以在 Azure 门户中配置 API 权限和许可。 有关详细信息，请参阅 [Azure Active Directory 许可框架](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)。
+- 应用可能还需要除特定于资源的许可权限外的权限。 安装应用后，应用可以通过许可提示请求 Graph 权限。 有关详细信息，请参阅了解 [Azure AD 应用程序许可体验](/azure/active-directory/develop/application-consent-experience)。 可以在 Azure 门户中配置 API 权限和许可。 有关详细信息，请参阅 [Azure Active Directory 许可框架](/azure/active-directory/develop/consent-framework)。
 
 ## <a name="bots-and-messaging-extensions"></a>机器人和消息传送扩展
 

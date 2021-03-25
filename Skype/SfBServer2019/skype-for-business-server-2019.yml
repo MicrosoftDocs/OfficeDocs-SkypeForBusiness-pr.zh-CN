@@ -1,67 +1,67 @@
 ### YamlMime:Landing
 title: Skype for Business Server 2019 文档
-summary: 了解如何实施 Skype for Business Server 2019。
+summary: 了解如何实现 Skype for Business Server 2019。
 metadata:
   title: Skype for Business Server 2019 文档
-  description: 了解如何实施 Skype for Business Server 2019。
+  description: 了解如何实现 Skype for Business Server 2019。
   ms.service: skype-for-business-online
   ms.topic: landing-page
   audience: ITPro
   author: LanaChin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: 4aa8036644cf6d38e150d458c7ca1645e3d6822e
-  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.openlocfilehash: d5c02d51c74a5aeb4a9d61c7b8ebdd0d2752b6d7
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 07/21/2020
-  ms.locfileid: "45189335"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51120483"
 landingContent:
 - title: 关于 Skype for Business Server 2019
   linkLists:
   - linkListType: whats-new
     links:
-    - text: 最近更新
-      url: /skypeforbusiness/whats-new
+    - text: 新增功能
+      url: ./whats-new.md
   - linkListType: overview
     links:
     - text: 系统要求
-      url: /skypeforbusiness/plan/system-requirements
+      url: ./plan/system-requirements.md
     - text: 网络要求
-      url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
+      url: ../SfbServer/plan-your-deployment/network-requirements/network-requirements.md
   - linkListType: download
     links:
     - text: 立即下载！
       url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
-- title: 套餐
+- title: 计划
   linkLists:
   - linkListType: overview
     links:
-    - text: 拓扑基础知识
-      url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
+    - text: 拓扑基本信息
+      url: ../SfbServer/plan-your-deployment/topology-basics/topology-basics.md
     - text: 规划混合连接
-      url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
+      url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md
     - text: 规划企业语音
-      url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
+      url: ../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md
 - title: 安装和管理
   linkLists:
   - linkListType: deploy
     links:
     - text: 安装 Skype for Business Server
-      url: /skypeforbusiness/deploy/install/install
+      url: ../SfbServer/deploy/install/install.md
     - text: 迁移到 Skype for Business 2019
-      url: /skypeforbusiness/migration/migration-to-skype-for-business-server-2019
+      url: ./migration/migration-to-skype-for-business-server-2019.md
     - text: 部署企业语音
-      url: /skypeforbusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+      url: ../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
   - linkListType: how-to-guide
     links:
     - text: 管理拓扑
-      url: /skypeforbusiness/manage/topology/topology
+      url: ../SfbServer/manage/topology/topology.md
 - title: 其他资源
   linkLists:
   - linkListType: overview
     links:
     - text: Skype for Business Server 2015 文档
-      url: /SkypeForBusiness/skype-for-business-server-2015
+      url: ../SfbServer/skype-for-business-server-2015.yml
     - text: Lync Server 2013 文档
       url: /lyncserver/microsoft-lync-server-2013

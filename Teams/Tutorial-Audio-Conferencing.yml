@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: 教程：音频会议-Microsoft 团队
+title: 教程：音频会议 - Microsoft Teams
 metadata:
   title: Microsoft Teams 中的音频会议
-  description: 使用此交互式教程了解 Microsoft 团队中音频会议的要求、计划步骤和报告。
+  description: 使用此交互式教程了解 Microsoft Teams 音频会议的要求、规划步骤和报告。
   ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020
@@ -22,16 +22,16 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: fc4f57607a0a96de6754eec0e693b7cf5cb0b767
-  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+  ms.openlocfilehash: 4135312e46bf933a60f07c76a6a55b1a92a873d7
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/16/2020
-  ms.locfileid: "48532759"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51121550"
 items:
 - durationInMinutes: 1
   content: >
-    在本培训中，我们将在 Microsoft 团队中引入音频会议，即从普通电话加入团队会议，并从会议拨出到电话号码的功能。 除了团队的要求和规划注意事项外，我们还将介绍团队中的音频会议的功能。
+    在此培训中，我们介绍 Microsoft Teams 中的音频会议 - 从常规电话加入 Teams 会议以及从会议拨出到电话号码的能力。 除了 Teams 的要求和规划注意事项外，我们还将介绍 Teams 中的音频会议功能。
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
@@ -43,7 +43,7 @@ items:
 
     -   负责规划、部署或管理 Teams。
 
-    -   考虑在团队中规划、部署或管理音频会议。
+    -   考虑在 Teams 中规划、部署或管理音频会议。
 
 
     我们将涵盖以下部分：
@@ -55,7 +55,7 @@ items:
     -   报告
 
 
-    音频会议向团队中的会议添加功能和功能。 我们建议你在本教程之前完成 [Microsoft 团队中的会议](https://aka.ms/tr-meetings) 。
+    音频会议在 Teams 中向会议添加特性和功能。 我们建议在本教程 [之前在 Microsoft Teams](./tutorial-meetings-in-teams.yml) 中完成会议。
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -64,37 +64,37 @@ items:
     如果对此培训有任何疑问或反馈，请：
 
 
-    -   在本教程的 "后续步骤" 页底部的 "评论" 部分中发布内容
+    -   在本教程的"下一步"页底部的评论部分发布
 
 
     要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
-- title: 团队中的音频会议
+- title: Teams 中的音频会议
   durationInMinutes: 12
-  content: "\n使用音频会议，参与者可以使用普通电话参与团队会议，方法是通过电话拨入会议或从会议中使用拨出功能。 查看以下资源以了解有关音频会议的详细信息：\n-   [音频会议功能](https://products.office.com/skype-for-business/audio-conferencing#Features) (估计的阅读时间1分钟) \n-   [使用 Microsoft 团队会议的9个提示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (估计的 \" \\# 1-通过音频会议加入会议\" 的阅读时间为1分钟; 如果阅读整篇文章) \n-   [音频会议常见问题](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (估计的阅读时间7分钟) \n-   [从会议拨出，以便其他人可以加入会议](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (估计的阅读时间2分钟) \n"
-- title: 方案-音频会议
+  content: "\n通过音频会议，参与者可以使用常规电话参加 Teams 会议， 方法可以是从电话拨入会议，或者使用会议中拨出功能。 查看以下资源，详细了解音频会议：\n-   [音频会议功能 (](https://products.office.com/skype-for-business/audio-conferencing#Features) 预计的阅读时间为 1 分钟) \n-   [与 Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)会议 (\"1 - 通过音频会议加入会议\"的预计阅读时间为 1 分钟;如果阅读本文) \\#\n-   [音频会议常见问题 (](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) 预计阅读时间为 7 分钟) \n-   [拨出会议，以便其他人可以加入](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (预计的阅读时间为 2 分钟) \n"
+- title: 方案 - 音频会议
   durationInMinutes: 1
-  content: "\n赵强在 Contoso （具有多个办事处的公司）工作。 赵强经常需要与其他办公位置的人联系，因为他经常在家中或在路上工作，所以他是一种大型的团队会议风扇。 当赵强发出会议邀请时，它会自动为音频会议添加信息。 这样做可能会发生以下情况：\n-   Alice 希望参加赵强的会议，但她在路上，不能访问可靠的网络。 因此，她通过使用会议邀请中的拨入式坐标加入会议。 在拨入过程中，她使用她的 PIN 进行身份验证，因此系统将其识别为 \"刘爱琳\"。\n-   当前在酒店的 Bob 通过在其 PC 上使用团队客户端加入会议。 遗憾的是，通过旅馆的互联网连接的音频质量不太好，因此 Bob 通过公共交换电话网络 (PSTN) 拨打他自己的电话号码。\n-   如果会议参与者在呼叫过程中决定要使用不同的电话号码添加用户，则他们可以拨出到电话号码，并将其他人带入会议中。\n-   其他用户也可以从其 PC、Mac 或移动设备上的团队客户端加入。\n\n在团队中，会议组织者可以结束所有会议参与者的会议。 这在以下情况下很有用：\n\n-   在课堂完成后，教师可以确保学生不会在会议 unsupervised 中继续。\n-   对于正在录制的会议（如网络研讨会），会议组织者可以确保录制在会议结束时结束。\n-   为所有参与者结束会议有助于减少组织的 PSTN 使用和计费。 \n\n例如，会议完成后，赵强可以从团队中的会议中单击 \" **结束会议** \"，以结束会议并删除其中的所有参与者。\n"
+  content: "\nGarth 在 Contoso 公司工作，该公司有多个办公室。 Garth 经常需要与其他办公地点的人联系，由于他经常在家办公或外出，因此他非常喜欢 Teams 会议。 当 Garth 发送会议邀请时，它会自动添加音频会议的信息。 这使得以下方案成为可能：\n-   Alice 想要参加 Garth 的会议，但是她在路上，无法访问可靠的网络。 因此，她使用会议邀请中的拨入坐标加入会议。 在拨入过程中，她使用 PIN 进行身份验证，因此系统将其识别为\"Alice\"。\n-   Bob 当前在酒店中，使用电脑上的 Teams 客户端加入会议。 遗憾的是，酒店通过 Internet 连接的音频质量并不高，因此 Bob 从会议拨出到自己的电话号码，以通过公用电话交换网（PSTN） (加入) 。\n-   如果会议参与者在呼叫期间决定要添加其他电话号码的用户，他们只需拨出电话号码，将其他人加入会议。\n-   其他用户还可以在电脑、Mac 或移动设备上从 Teams 客户端加入。\n\n在 Teams 中，会议组织者可以将所有与会者退出会议。 此功能在下列场景会有用：\n\n-   教师可在下课后防止学生不受监督地留在会议中。\n-   对于录像的会议，比如视频研讨会，会议组织方可以确保录像在会议结束时结束。\n-   结束所有参与者的会议有助于减少组织的 PSTN 用量和计费。 \n\n比如，当会议结束时，Garth 可以在 Teams 的会议中单击 **结束会议**，然后所有参与者都会被移出。\n"
 - title: Skype for Business 客户的注意事项
   durationInMinutes: 1
-  content: "\n如果您已在使用 Skype for Business，则需要考虑以下事项：\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>Skype for Business 服务器-托管用户\n\n如果您使用的是 Skype for Business 服务器，则由托管在本地 Skype for Business 上的用户安排的团队会议将不包括 PSTN 会议坐标。 如果您在2019年3月1日之前为这些用户分配了音频会议许可证，您可能需要取消分配这些许可证，等待2小时，然后重新分配它们，以供用户查看 PSTN 会议坐标。\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>Skype for Business Online-托管用户\n\n如果用户托管在 Skype for Business Online 中，并且已启用音频会议，则会自动为团队中的音频会议启用这些用户。 Skype for business 和团队在会议中用于进行身份验证的 PIN 将是相同的。\n"
-- title: 构思音频会议
+  content: "\n如果你已在使用 Skype for Business，则需要考虑以下事项：\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>Skype for Business Server-homed 用户\n\n如果你使用的是 Skype for Business Server，则由本地 Skype for Business 用户安排的 Teams 会议不包括 PSTN 会议坐标。 如果您在 2019 年 3 月 1 日之前为这些用户分配了音频会议许可证，您可能需要取消分配这些许可证，等待 2 小时，然后重新分配这些许可证，以便用户查看 PSTN 会议坐标。\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>Skype for Business Online-homed 用户\n\n如果用户在 Skype for Business Online 中，并且已启用音频会议，则将自动在 Teams 中为音频会议启用这些用户。 拨入时用于会议中进行身份验证的 PIN 对于 Skype for Business 和 Teams 是相同的。\n"
+- title: 构想音频会议
   durationInMinutes: 48
-  content: "\n实用指南详细介绍了计划和成功地实现音频会议所需的内容。 查看以下文章以了解这些技术规划步骤：\n\n-   [定义成功的音频会议](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) (估计的阅读时间11分钟) \n-   [进行我的服务决策-](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) (估计阅读时间12分钟) 的音频会议\n-   [评估我的环境](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment) (估计的阅读时间12分钟) \n-   [规划我的服务管理](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management) (估计阅读时间5分钟) \n-   [计划用户的体验](https://docs.microsoft.com/MicrosoftTeams/5-envision-plan-my-users-experience) (估计的阅读时间5分钟) \n-   [记录我的成功计划](https://docs.microsoft.com/MicrosoftTeams/6-envision-document-my-success-plan) (估计的阅读时间6分钟) \n"
-- title: 板载音频会议
+  content: "\n实际指南详细介绍了计划和成功实现音频会议所需的内容。 请查看以下文章，了解这些技术规划步骤：\n\n-   [定义我的成功 - 音频](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) 会议 (预计的阅读时间 11 分钟) \n-   [做出服务决策 - 音频会议](./deploy-audio-conferencing-teams-landing-page.md) (预计的阅读时间为 12 分钟) \n-   [评估环境 (](./3-envision-evaluate-my-environment.md) 估计读取时间 12 分钟) \n-   [规划服务管理 (](./4-envision-plan-my-service-management.md) 预计的读取时间 5 分钟) \n-   [规划我的用户体验 (](./5-envision-plan-my-users-experience.md) 预计的阅读时间 5 分钟) \n-   [记录我的成功计划](./6-envision-document-my-success-plan.md) (预计的阅读时间 6 分钟) \n"
+- title: 载入音频会议
   durationInMinutes: 13
-  content: "\n就像展望一样，在实用指南中介绍了加入。 查看以下文章，了解如何为音频会议板载用户：\n\n-   [准备服务](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service) (估计的阅读时间6分钟) \n-   [准备用户](https://docs.microsoft.com/MicrosoftTeams/2-onboard-prepare-my-users) (估计的阅读时间2分钟) \n-   将[我的服务部署](https://docs.microsoft.com/MicrosoftTeams/3-onboard-deploy-my-service) (估计的阅读时间3分钟) \n-   [音频会议疑难解答和已知问题](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) (工作组特定内容的估计阅读时间为2分钟) \n"
-- title: 练习-配置音频会议
+  content: "\n与构想一样，载入也涵盖在实践指南中。 查看以下文章，了解如何加入音频会议的用户：\n\n-   [准备服务 (](./1-onboard-prepare-my-service.md) 预计的读取时间 6 分钟) \n-   [准备我的用户](./2-onboard-prepare-my-users.md) (估计的阅读时间 2 分钟) \n-   [部署服务 (](./3-onboard-deploy-my-service.md) 预计的读取时间为 3 分钟) \n-   [音频会议故障排除和已知问题](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) (Teams 特定内容的预计阅读时间为 2 分钟) \n"
+- title: 练习 - 配置音频会议
   durationInMinutes: 20
-  content: "\n在本练习中，你将有机会在团队中测试音频会议。\n尽管我们未介绍如何执行每个操作，但我们推荐了一些可尝试的方案。\n\n### <a name=\"requirements\"></a>要求\n-   具有合适许可证的 Office 365 组织使用团队\n    -   强烈建议你使用专用的测试租户。\n    -   如果你没有测试许可证，可以在此处注册试用版租户：[Office 365 企业版 E5 试用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)。\n    -   请勿在生产环境中运行任何测试。 更改设置或策略可能会对所有用户造成负面影响，并可能会影响其用户体验。\n-   至少两个端点\n    -   这可以是两台 PC，但你还可以在移动电话上使用该客户端。\n    -   可以拨入到会议并拨出到的电话\n\n### <a name=\"suggested-scenarios-to-test\"></a>建议进行测试的方案\n-   为用户启用音频会议。\n-   为不同用户设置不同的会议桥号码。\n-   更改租户的默认会议桥号码。\n-   更改 (不同语言) 的会议桥号码设置。\n-   更改会议桥的全局设置 (会议进入和退出通知、PIN 长度、电子邮件通知) 。\n-   查看发送给用户的电子邮件。\n-   安排团队会议，并查看会议邀请。\n-   通过电话加入会议。\n-   从会议拨出到电话。\n-   在会议中使用双音调多频率控件，将手机静音和取消静音。\n-   结束所有用户的会议。 \n"
+  content: "\n在此练习中，你将有机会在 Teams 中测试音频会议。\n尽管我们未介绍如何执行每个操作，但我们推荐了一些可尝试的方案。\n\n### <a name=\"requirements\"></a>要求\n-   具有适当的 Teams 许可证的 Office 365 组织\n    -   强烈建议你使用专用的测试租户。\n    -   如果你没有测试许可证，可以在此处注册试用版租户：[Office 365 企业版 E5 试用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)。\n    -   请勿在生产环境中运行任何测试。 更改设置或策略可能会对所有用户造成负面影响，并可能会影响其用户体验。\n-   至少两个端点\n    -   这可以是两台 PC，但你还可以在移动电话上使用该客户端。\n    -   可以拨入会议并拨出到的电话\n\n### <a name=\"suggested-scenarios-to-test\"></a>建议进行测试的方案\n-   为用户启用音频会议。\n-   为不同的用户设置不同的会议网桥号码。\n-   更改租户的默认会议网桥号码。\n-   更改会议网桥号码的设置 (语言) 。\n-   更改会议网桥的全局设置 (进入和退出通知、PIN 长度、) 。\n-   观察向用户发送的电子邮件。\n-   安排 Teams 会议，并查看会议邀请。\n-   通过电话加入会议。\n-   从会议拨出到电话。\n-   在会议期间使用双色调多频率控件将电话设为静音和取消静音。\n-   结束所有用户的会议。 \n"
 - title: 驱动器值
   durationInMinutes: 1
-  content: "\n从报告的角度看，您有两个区域可供您查看：\n-   使用情况：举行了多少次会议？\n-   质量：会议的质量如何？\n\n你应该认真监视两个方面：\n-   低使用率意味着用户出于某种原因没有使用产品。 您只能通过进一步研究来确定原因。\n    原因可能包括从认为会议未达到用户要求，到缺少意识或培训或存在质量问题。\n-   另一方面，低质量意味着用户与 Office 365 之间存在连接问题。 低质量可能导致用户体验不佳和使用率下降。 请参阅 [管理中心中的 microsoft 365 报表-Microsoft 团队用户活动](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (估计的阅读时间5分钟) 了解有关使用情况报告的详细信息。\n\n管理质量超出了此培训的范围，但你可参阅下面的培训材料：\n\n-   [操作服务](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
+  content: "\n从报告角度来看，有两个方面需要查看：\n-   使用情况：举行了多少次会议？\n-   质量：会议的质量如何？\n\n你应该认真监视两个方面：\n-   低使用率意味着用户出于某种原因没有使用产品。 仅可通过进一步调查来确定原因。\n    原因可能包括从认为会议未达到用户要求，到缺少意识或培训或存在质量问题。\n-   另一方面，低质量意味着用户与 Office 365 之间存在连接问题。 低质量可能导致用户体验不佳和使用率下降。 请参阅[管理中心内的 Office 365 报告 - Microsoft Teams 用户活动](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)（预计阅读时间为 5 分钟）以了解有关使用情况报告的详细信息。\n\n管理质量超出了此培训的范围，但你可参阅下面的培训材料：\n\n-   [操作服务](./1-drive-value-operate-my-service.md)\n"
 - title: 后续步骤
   durationInMinutes: 1
   content: >-
     此培训涵盖了以下主要学习内容：
 
-    -   团队中的音频会议
+    -   Teams 中的音频会议
 
     -   音频会议的要求
 
@@ -104,13 +104,13 @@ items:
     ### <a name="next-steps"></a>后续步骤
 
 
-    1.  开始在团队中使用音频会议。
+    1.  开始在 Teams 中使用音频会议。
 
     2.  向我们发送反馈：
         - 在此页面底部的“评论”部分发布。
-        - 要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)
-    3.  保持最新状态：
-        - 关注 [团队博客](https://aka.ms/teamsblog)。
-        - 阅读 [团队路线图](https://aka.ms/O365Roadmap)。
-        - 了解 [发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中的最新已发布功能。
-    4.  浏览[更多培训和教程](https://aka.ms/Teamsacademy)。
+        - 要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+    3.  获取最新信息：
+        - 关注 [Teams 博客](https://aka.ms/teamsblog)。
+        - 阅读 [Teams 路线图](https://aka.ms/O365Roadmap)。
+        - 在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中了解最新发行的功能。
+    4.  浏览[更多培训和教程](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)。

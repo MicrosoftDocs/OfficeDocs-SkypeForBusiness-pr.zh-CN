@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b751ccebfd553f59b6144ea6b6f28db515e9c1d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: bd3e60fafecd3cf025187935a9dc28b492c39d1b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395403"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121410"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams 企业部署概述
 
@@ -75,7 +75,7 @@ ms.locfileid: "50395403"
 Teams 顾问是团队内解决方案，将团队、频道、文件共享和 Planner 结合起来，为组织创建部署项目。 Teams 顾问创建特定于您选择的工作负荷（例如聊天、团队和频道）的项目计划，其中包括在部署期间应执行的建议任务。 每个任务包含说明、建议和相关文章的链接，引导你完成该过程。 可以轻松将任务分配给一个或多个人员，并为每个任务指定开始日期和结束日期。
 
 > [!TIP]
-> 请参阅如何使用 Teams 顾问来帮助你规划团队部署，方法可以是完成 [Microsoft Learn 上的 Teams 顾问](https://docs.microsoft.com/learn/modules/m365-teams-rollout-using-advisor/) 模块。
+> 请参阅如何使用 Teams 顾问来帮助你规划团队部署，方法可以是完成 [Microsoft Learn 上的 Teams 顾问](/learn/modules/m365-teams-rollout-using-advisor/) 模块。
 
 > [!div class="nextstepaction"]
 > [转到 Teams 顾问](https://admin.teams.microsoft.com/teams-deployment)

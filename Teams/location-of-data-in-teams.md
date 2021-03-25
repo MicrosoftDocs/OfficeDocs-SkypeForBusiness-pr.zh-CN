@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5f85a9ab2b7ca4f9879e18565e3bbb6837f9cee8
-ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
+ms.openlocfilehash: 7781b7700bc1d53255c9604232e1fe2c574ba105
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527079"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120583"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams 中的数据位置
 
@@ -39,7 +39,7 @@ Teams 中的数据位于与 Microsoft 365 或 Office 365 组织关联的地理�
 > [!div class="mx-imgBorder"]
 > ![包含管理中心中的 Teams 的数据位置表的屏幕截图](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
-有关存储的国家和地区的详细列表，请参阅 [Microsoft 365 客户数据的存储位置](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide)。
+有关存储的国家和地区的详细列表，请参阅 [Microsoft 365 客户数据的存储位置](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide)。
 
 ## <a name="data-stored-with-a-third-party-storage-provider"></a>使用第三方存储提供商存储的数据
 

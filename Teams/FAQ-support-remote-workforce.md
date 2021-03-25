@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1d2f627dd3373fcb4475fba2f7f4c90f6d9003e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583471"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121560"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -51,15 +51,15 @@ Microsoft 在最近发布的新型冠状病毒肺炎（COVID-19）疫情公告�
 
 由于中国的独特需求，客户可能需要采取以下特定措施：
 
-- [Office 365 针对中国用户的全局租户性能优化](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
+- [Office 365 针对中国用户的全局租户性能优化](/office365/enterprise/office-365-networking-china)
 
-- [使用 Microsoft 365 的任何网络的通用准则](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)
+- [使用 Microsoft 365 的任何网络的通用准则](/Office365/Enterprise/assessing-network-connectivity)
 
 - [为 Teams 准备贵组织的网络](prepare-network.md)
 
 ### <a name="my-users-are-reporting-bad-calls-or-their-calls-are-not-connecting-what-should-i-do-to-get-help"></a>我的用户汇报通话错误，或电话未接通。 我该如何做才能获得帮助？
 
-我们可随时提供帮助。 [联系支持人员](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)前，确保已遵守了我们的所有[网络建议](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network)。 若要帮助解决通话质量问题，请使用[呼叫分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)。 我们还建议您在 Microsoft 365 管理员中心检查[服务健康仪表板](https://docs.microsoft.com/office365/enterprise/view-service-health)，以取得 Microsoft 服务的任何最新公告或问题。
+我们可随时提供帮助。 [联系支持人员](/microsoft-365/admin/contact-support-for-business-products)前，确保已遵守了我们的所有[网络建议](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network)。 若要帮助解决通话质量问题，请使用[呼叫分析和通话质量仪表板](./monitor-call-quality-qos.md)。 我们还建议您在 Microsoft 365 管理员中心检查[服务健康仪表板](/office365/enterprise/view-service-health)，以取得 Microsoft 服务的任何最新公告或问题。
 
 ### <a name="what-other-actions-can-i-take-to-have-a-better-experience"></a>还可以采取其他哪些行动以取得更佳体验？
 
@@ -87,11 +87,11 @@ Microsoft 在最近发布的新型冠状病毒肺炎（COVID-19）疫情公告�
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>如何取得开始使用 Teams 并确保成功部署？
 
-Microsoft 提供[适用于 Office 365 的 FastTrack 中心权益](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365)，帮助你规划、部署、促进使用，并采用最佳做法。 如果至少有 150 个用户，则免费提供此服务。 若要了解详细信息，请参阅[请求 Microsoft 365 FastTrack 协助更轻松](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)。 适用于 Microsoft 365 的 FastTrack 设定准则可供所有 Office 365 组织管理员使用。 若要访问此准则，请使用管理员凭据登录 [https://aka.ms/setupguidance](https://aka.ms/setupguidance)。
+Microsoft 提供[适用于 Office 365 的 FastTrack 中心权益](/fasttrack/o365-fasttrack-benefit-for-office-365)，帮助你规划、部署、促进使用，并采用最佳做法。 如果至少有 150 个用户，则免费提供此服务。 若要了解详细信息，请参阅[请求 Microsoft 365 FastTrack 协助更轻松](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)。 适用于 Microsoft 365 的 FastTrack 设定准则可供所有 Office 365 组织管理员使用。 若要访问此准则，请使用管理员凭据登录 [https://aka.ms/setupguidance](https://aka.ms/setupguidance)。
 
-如果想要自行开始使用，请参阅[如何推出 Teams](How-to-roll-out-teams.md)，并查看我们的[在 30 天内掌握 Teams 的用法](https://aka.ms/Teamsin30)系列网络研讨会，让你在短短 30 天内开始使用 Teams。
+如果想要自行开始使用，请参阅[如何推出 Teams](./deploy-overview.md)，并查看我们的[在 30 天内掌握 Teams 的用法](./teams-in-30-workshops.md)系列网络研讨会，让你在短短 30 天内开始使用 Teams。
 
-对于教育版 (EDU) 租户，Microsoft 提供[学校数据同步](https://docs.microsoft.com/schooldatasync/)，帮助你同步处理学校学生信息系统 (SIS) 中的信息。 如需部署 Microsoft 365 的帮助，请参阅 [Microsoft 365 教育版部署概述](https://docs.microsoft.com/microsoft-365/education/deploy/)。 请不要错过我们的新文章“[开始使用 Teams 进行远程学习](remote-learning-edu.md)”。
+对于教育版 (EDU) 租户，Microsoft 提供[学校数据同步](/schooldatasync/)，帮助你同步处理学校学生信息系统 (SIS) 中的信息。 如需部署 Microsoft 365 的帮助，请参阅 [Microsoft 365 教育版部署概述](/microsoft-365/education/deploy/)。 请不要错过我们的新文章“[开始使用 Teams 进行远程学习](remote-learning-edu.md)”。
 
 ### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>哪里可以找到有关公司运行 Teams 的相关帮助，以让我的用户在此紧要关头在家里工作？
 
@@ -99,7 +99,7 @@ Microsoft 提供[适用于 Office 365 的 FastTrack 中心权益](https://docs.m
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>我刚开始使用 Microsoft 365，因此我可以使用 Teams 支持我的远程工作者或学生。 我已注册该服务，但当用户尝试使用 Teams 时，他们收到以下错误: "你错过了! 请求你的管理员启用 Microsoft Teams。" 该怎么办？
 
-激活 Teams 中的某个免费服务后，你仍需为你的用户启用该服务。 阅读[管理用户对 Teams 的访问权限](user-access.md)和[逐一或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)。
+激活 Teams 中的某个免费服务后，你仍需为你的用户启用该服务。 阅读[管理用户对 Teams 的访问权限](user-access.md)和[逐一或批量添加用户](/microsoft-365/admin/add-users/add-users)。
 
 如果是首次授权或启用用户，但已拥有 Microsoft 365 一段时间，则你可能需要为你的组织[启用 Teams](Office-365-set-up.md)。 请参阅本文中中的“[我已有 Microsoft 365，但没有使用 Teams。是否提供试用版许可证？](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)”。
 

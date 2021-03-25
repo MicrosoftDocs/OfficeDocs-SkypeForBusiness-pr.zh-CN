@@ -29,47 +29,47 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: '了解如何为 Skype for business 服务 (PSTN 使用) 支付通信信用点数，并查看计划，让你的用户拥有连续的电话系统访问权限。 '
-ms.openlocfilehash: bb2e237e1bc35c2f3173ea216702c707ba02fcc6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: '了解如何为 Skype for Business (PSTN) 支付通信信用额度，并查看为用户提供连续电话系统访问的计划。 '
+ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031058"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121490"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
-通讯信用点数是在 Microsoft 365 或 Office 365 中支付电话系统和通话计划的便利方式。 通讯信用点数有助于确保你和你的用户不能：
+通信信用额度是一种在 Microsoft 365 或 Office 365 中支付电话系统和呼叫计划的便捷方式。 通信信用额度有助于确保在无法：
   
-- 使用免费拨入电话号码拨入音频会议会议。
+- 使用免费拨入电话号码拨入音频会议。
 
-- 从音频会议会议拨出，以便从世界任何地方添加其他人。
+- 从音频会议拨出以添加世界上任何位置的其他人。
 
-- 从音频会议会议拨出到安装了 Skype for Business 或 Microsoft 团队应用的手机。
+- 从音频会议拨出到安装了 Skype for Business 或 Microsoft Teams 应用的移动电话。
 
-- 如果您有 **国内呼叫计划** ，请拨打任何国际电话号码。
+- 当你拥有国内呼叫计划时， **拨打任何国际电话号码**。
 
-- 一旦您已用完每分钟的分钟数，就可以拨出和每分钟支付。
+- 用完每月分钟数分配后，拨出并按分钟支付。
 
 > [!NOTE]
-> 如果您想知道它的数量和费率，请参阅 " [呼叫计划](https://go.microsoft.com/fwlink/p/?LinkId=799523) " 页面上的 "费率" 表。
+> 如果想知道费用以及费率，请参阅"通话套餐"页面上的 [费率](https://go.microsoft.com/fwlink/p/?LinkId=799523) 表。
   
-作为管理员，您可以手动添加资金，也可以设置自动重新充电，我们 **建议** 这样做。
+作为管理员，你可以手动添加资金，也可以设置自动充值，这是 **我们建议的**。
   
 当你的余额低于你设置的触发器金额时，自动充值将自动充入钱款。我们建议使用自动充值，以防你忘记手动存入资金。当你的余额达到触发金额时，将自动存入资金。如果不选择自动充值，你面临余额低于零的风险。此时，你和你的用户将无法进行免费呼叫或国际呼叫。
   
-你可以随时更新你的付款选项。 在 " **订阅** " 页面上，选择 " **通讯信用点数** "，然后进行更新。
+你可以随时更新你的付款选项。 在" **订阅"** 页上，选择 **"通信信用额度**"，然后进行更新。
   
-在使用服务时，资金将仅应用于使用 Microsoft 发布的费率的通信信用点数。 购买放弃 12) 个月 (内未使用的任何资金将到期，并将。
+使用服务时，资金将仅应用于 Microsoft 发布的通信信用额度。 在购买日期的 12 (12) 内未使用的任何资金都将过期并失效。
   
 > [!TIP]
-> 当通过自动重新充电添加资金时，我们将向您发送电子邮件通知，当自动重新充电失败时 (例如，当信用卡到期时) ，并且余额低于零时。
+> 当通过自动充值添加资金、自动充值失败时 (例如，当信用卡于) 到期以及余额低于零时，我们将向您发送电子邮件通知。
   
-有关详细信息，请参阅 [什么是通信信用点数？](what-are-communications-credits.md)
+有关详细信息，请参阅 [什么是通信信用额度？](what-are-communications-credits.md)
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>想要了解计划和定价
 
-你可以通过访问以下链接之一来查看计划和定价：
+可以通过访问以下链接之一来查看计划和定价：
   
 - [通话套餐](https://go.microsoft.com/fwlink/?LinkId=799761 )
 
@@ -77,9 +77,9 @@ ms.locfileid: "49031058"
 
 - [电话系统计划](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-您也可以通过登录到 Microsoft 365 管理中心并转到 **帐单**  >  **订阅**  >  **添加订阅** 来查看信息。
+还可通过登录 Microsoft 365 管理中心并访问"计费订阅""添加订阅"  >    >  **来查看信息**。
   
-若要查看一个表，其中包含每个功能所需的许可证或许可证，请参阅 [Microsoft 团队加载项许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+若要查看包含每个功能所需的许可证的表，请参阅 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相关主题
 
@@ -87,5 +87,4 @@ ms.locfileid: "49031058"
 
 - [设置云语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
 
-- [为 Microsoft 365 或 Office 365](calling-plans-for-office-365.md) [设置呼叫计划](set-up-calling-plans.md)和通话计划
-
+- [为](set-up-calling-plans.md) [Microsoft 365 或 Office 365](calling-plans-for-office-365.md)设置呼叫计划和呼叫计划

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文，了解如何在 Android 上部署 Microsoft Teams 会议室。
-ms.openlocfilehash: bb02ff59eb473d0db276fd773e9f1ff3f1ae0007
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875002"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120794"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>在 Android 上部署 Microsoft Teams 会议室
 
@@ -64,7 +64,7 @@ ms.locfileid: "50875002"
 
 如果决定设置 Microsoft 365 资源帐户，则需要购买会议室许可证。 会议室许可证包括一个资源邮箱，使组织中的人员可以通过 Outlook 或 Teams 预订会议室。 该许可证还支持视频和音频会议以及会议参与者之间的屏幕共享。
 
-如果需要接收或拨打外部电话号码，可能需要呼叫计划或 Microsoft 365 商业语音 [附加许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)。 如果在组织中启用了直接路由，则只需要会议室 SKU。
+如果需要接收或拨打外部电话号码，可能需要呼叫计划或 Microsoft 365 商业语音 [附加许可证](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)。 如果在组织中启用了直接路由，则只需要会议室 SKU。
 
 创建资源帐户时，可以选择是否允许帐户自动接受或拒绝会议请求、允许定期会议、指定用户可以提前预订资源多远，等等。
 
@@ -114,7 +114,7 @@ ms.locfileid: "50875002"
 
 部署 Teams 会议室后，应测试它们。 登录到 Teams 会议室，检查预期功能是否正常工作。 强烈建议验证它们是否显示在 Microsoft Teams 管理中心的"设备"选项卡下的"协作栏"部分。 还必须进行大量测试呼叫和会议，以检查质量和性能。
 
-建议在 Microsoft Teams 常规推广过程中，为呼叫质量仪表板 (CQD) 配置生成文件，监视质量趋势，并参与体验质量评审过程。 有关详细信息，请参阅 [体验质量评审指南](https://aka.ms/qerguide)。
+建议在 Microsoft Teams 常规推广过程中，为呼叫质量仪表板 (CQD) 配置生成文件，监视质量趋势，并参与体验质量评审过程。 有关详细信息，请参阅 [体验质量评审指南](../quality-of-experience-review-guide.md)。
 
 ### <a name="asset-management"></a>资产管理
 

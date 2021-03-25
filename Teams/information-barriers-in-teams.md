@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 818e674014104178efea3e6467d2e5bfbf553c68
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874792"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120643"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams 中的信息屏障
 
@@ -111,7 +111,7 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色的信息，请
 
 - 用户在 **Teams** 中发起电话呼叫 - 每当用户通过 VOIP) 向其他用户或用户组发起语音呼叫 (时，将评估该呼叫以确保它不会违反其他团队成员的 IB 策略。 如果存在任何冲突，语音呼叫将被阻止。
 
-- **Teams 中的来宾** - IB 策略也适用于 Teams 中的来宾。 如果需要在组织的全局地址列表中发现来宾，请参阅 [在 Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)组中管理来宾访问。 来宾可发现后，可以定义 [IB 策略](/office365/securitycompliance/information-barriers-policies)。
+- **Teams 中的来宾** - IB 策略也适用于 Teams 中的来宾。 如果需要在组织的全局地址列表中发现来宾，请参阅 [在 Microsoft 365](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)组中管理来宾访问。 来宾可发现后，可以定义 [IB 策略](/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>策略更改如何影响现有聊天
 
@@ -189,7 +189,7 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色的信息，请
 团队的 **SharePoint** 站点上的 IB 策略示例：在 Contoso Bank 公司中，用户"Sesha@contosobank.onmicrosoft.com"属于投资银行业务段，用户"Nikita@contosobank.onmicrosoft.com"属于顾问段。 组织的 IB 策略阻止这两个部分之间的通信和协作。
 当用户 Sesha 为 Investment Banking 段创建团队时，支持它的团队和 SharePoint 网站将仅可供 Investment Banking 用户访问。 即使 Nikita 用户具有网站链接，她也无法访问该网站。
 
-有关详细信息，请参阅对 [SharePoint 使用信息屏障](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
+有关详细信息，请参阅对 [SharePoint 使用信息屏障](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
 ## <a name="required-licenses-and-permissions"></a>所需的许可证和权限
 

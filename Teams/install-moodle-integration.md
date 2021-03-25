@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d51aba578de4dc5245a8d9459b160e5743b786a5
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 60fabc107ba684afdf32c4eeeb0351f12dec883e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867111"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120633"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安装 Moodle 与 Microsoft Teams 的集成
 
@@ -41,7 +41,7 @@ ms.locfileid: "50867111"
 * 自动将 Moodle 选项卡和 Moodle Assistant 机器人安装在每个同步的团队中。  (即将推出) 
 * 一键式将 Moodle 应用发布到专用 Teams App Store。  (即将推出) 
 
-若要详细了解此集成提供的功能，请参阅 [安装 Moodle 与 Microsoft Teams 的集成](https://docs.microsoft.com/microsoftteams/platform/resources/moodleinstructions)。
+若要详细了解此集成提供的功能，请参阅 [安装 Moodle 与 Microsoft Teams 的集成](/microsoftteams/platform/resources/moodleinstructions)。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -176,7 +176,7 @@ Microsoft Teams 的免费 Moodle Assistant 机器人可帮助教师和学生回�
 
 将机器人部署到 Azure 并配置为与 Moodle 服务器通信后，可以部署 Microsoft Teams 应用了。 为此，需要加载在上一步中从 Moodle 插件团队设置页面下载的清单文件。
 
-在安装应用之前，你需要确保启用外部应用和应用旁加载。 为此，可以按照 [以下步骤操作](https://docs.microsoft.com/MicrosoftTeams/admin-settings)。 确保启用外部应用后，可以按照以下步骤部署应用。
+在安装应用之前，你需要确保启用外部应用和应用旁加载。 为此，可以按照 [以下步骤操作](./admin-settings.md)。 确保启用外部应用后，可以按照以下步骤部署应用。
 
 1. 打开 Microsoft Teams。
 2. 单击 **导航栏** 左下角的"应用商店"图标。

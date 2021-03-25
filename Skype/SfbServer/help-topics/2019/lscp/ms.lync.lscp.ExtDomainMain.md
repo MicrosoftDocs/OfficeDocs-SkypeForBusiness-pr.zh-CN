@@ -15,19 +15,17 @@ localization_priority: Normal
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: f3f53224b7739005a852b6303277ed8f5f795d36
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f1ca1fc3e09c6f7139e63c1e1842587b92e95068
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808652"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121106"
 ---
 # <a name="federated-domains"></a>联盟域
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [配置联盟伙伴的访问权限](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [配置联盟伙伴的访问](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
-- [监视和控制联盟伙伴访问](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
-
-
+- [监视和控制联盟伙伴访问](/previous-versions/office/lync-server-2013/lync-server-2013-configure-support-for-allowed-external-domains)

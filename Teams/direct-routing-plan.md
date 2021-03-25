@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解如何使用 Microsoft Phone 系统直接路由将受支持的客户提供的会话边界控制器 (SBC) Microsoft Phone System。
-ms.openlocfilehash: af7e288791b85aea3beaf67b0200acd017e3e514
-ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
+ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999824"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121390"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -83,9 +83,9 @@ Microsoft 还提供云中所有语音解决方案，例如呼叫计划。 但是
 |SBC 的公共 DNS 条目 |将 SBC FQDN 映射到公共 IP 地址的公共 DNS 条目。 |
 |SBC 的公共受信任证书 |SBC 的证书，用于与直接路由的所有通信。 有关详细信息，请参阅 [SBC 的公共受信任证书](#public-trusted-certificate-for-the-sbc)。|
 |直接路由的连接点 |直接路由的连接点为以下三个 FQDN：<br/><br/>`sip.pstnhub.microsoft.com` – 必须先尝试全局 FQDN。<br/>`sip2.pstnhub.microsoft.com` – 辅助 FQDN，在地理上映射到第二个优先级区域。<br/>`sip3.pstnhub.microsoft.com` – 第三级 FQDN，地理上映射到第三个优先区域。<br/><br/>有关配置要求的信息，请参阅[SIP Signaling： FQDN。](#sip-signaling-fqdns)|
-|直接路由媒体的防火墙 IP 地址和端口 |SBC 与云中的以下服务通信：<br/><br/>SIP 代理，用于处理信号<br/>媒体处理器，用于处理媒体 -媒体旁路打开时除外<br/><br/>这两个服务在 Microsoft 云中具有单独的 IP 地址，本文档稍后将介绍。<br/><br/>有关详细信息，请参阅 URL 和 IP 地址范围 中的 [Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) [部分](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
+|直接路由媒体的防火墙 IP 地址和端口 |SBC 与云中的以下服务通信：<br/><br/>SIP 代理，用于处理信号<br/>媒体处理器，用于处理媒体 -媒体旁路打开时除外<br/><br/>这两个服务在 Microsoft 云中具有单独的 IP 地址，本文档稍后将介绍。<br/><br/>有关详细信息，请参阅 URL 和 IP 地址范围 中的 [Microsoft Teams](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) [部分](/office365/enterprise/urls-and-ip-address-ranges)。 |
 |媒体传输配置文件|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Microsoft Teams 媒体的防火墙 IP 地址和端口 |有关详细信息，请参阅 [URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
+Microsoft Teams 媒体的防火墙 IP 地址和端口 |有关详细信息，请参阅 [URL 和 IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>许可和其他要求 
@@ -100,7 +100,7 @@ Microsoft Teams 媒体的防火墙 IP 地址和端口 |有关详细信息，请�
 > 不应从包含 Skype for Business 计划的任何许可协议中删除该计划。 
 > 
 > [!IMPORTANT]
-> GCC High 和 DoD 用户应禁用 G5 中包含的任何音频会议许可，并等待启用任何音频会议，直到直接路由已完全配置。 在启用音频会议许可证之前，用户应已配置拨入电话号码和工作拨号盘。 有关详细信息 [，请参阅使用 GCC High 和 DoD](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) 的直接路由的音频会议。
+> GCC High 和 DoD 用户应禁用 G5 中包含的任何音频会议许可，并等待启用任何音频会议，直到直接路由已完全配置。 在启用音频会议许可证之前，用户应已配置拨入电话号码和工作拨号盘。 有关详细信息 [，请参阅使用 GCC High 和 DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) 的直接路由的音频会议。
 
 
 > [!IMPORTANT]
@@ -124,16 +124,16 @@ Teams 用户可以启动一对一 Teams 到 PSTN 或 Teams 到 Teams 的呼叫�
 
 为同一用户混合使用呼叫计划和直接路由连接是可选的，但 (例如，当用户分配了 Microsoft 呼叫计划，但想要使用 SBC) 路由某些呼叫时。 最常见的方案之一是调用第三方 PBX。  使用第三方 PBX 时，所有呼叫（连接到该 PBX 的电话除外）都使用 Microsoft 呼叫计划进行路由，但连接到第三方 PBX 的电话的呼叫将转到 SBC，因此停留在企业网络中，而不是 PSTN 内。 
 
-有关电话系统许可的详细信息，请参阅 [从 Office 和](https://products.office.com/compare-all-microsoft-office-products?tab=2) 计划 [选项获取最大功能](https://technet.microsoft.com/library/office-365-plan-options.aspx)。 
+有关电话系统许可的详细信息，请参阅 [从 Office 和](https://products.office.com/compare-all-microsoft-office-products?tab=2) 计划 [选项获取最大功能](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)。 
 
-有关手机系统许可详细信息，请参阅 Microsoft [Teams 附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。 
+有关手机系统许可详细信息，请参阅 Microsoft [Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
 
 ## <a name="supported-end-points"></a>支持的终点 
 
 可以使用 作为终点：
 
 - 任何 Teams 客户端。 
-- 公用区域电话。 请参阅为 Microsoft Teams 设置公用 [区域电话许可证](https://docs.microsoft.com/microsoftteams/set-up-common-area-phones)。 请注意，使用直接路由设置公用区域电话时，不需要呼叫计划许可证。
+- 公用区域电话。 请参阅为 Microsoft Teams 设置公用 [区域电话许可证](./set-up-common-area-phones.md)。 请注意，使用直接路由设置公用区域电话时，不需要呼叫计划许可证。
 - Skype for Business 3PIP 电话。 请参阅 [Skype for Business 电话 (3PIP) Microsoft Teams 支持](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
@@ -201,7 +201,7 @@ Microsoft 建议通过生成认证签名请求来请求 SBC 的证书， (CSR) �
 - DigiCert 高保障 EV 根 CA
 
 > [!NOTE]
-> *如果为 SBC 上的 Teams 连接启用了相互 TLS (MTLS) 支持，则必须在 Teams TLS 上下文的 SBC 受信任的根存储中安装 Baltimore CyberTrust 根证书。  (这是因为 Microsoft 服务证书使用 Baltimore 根证书。) 若要下载 Baltimore 根证书，请参阅 [Office 365 加密链](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains)。
+> *如果为 SBC 上的 Teams 连接启用了相互 TLS (MTLS) 支持，则必须在 Teams TLS 上下文的 SBC 受信任的根存储中安装 Baltimore CyberTrust 根证书。  (这是因为 Microsoft 服务证书使用 Baltimore 根证书。) 若要下载 Baltimore 根证书，请参阅 [Office 365 加密链](/microsoft-365/compliance/encryption-office-365-certificate-chains)。
 
 Microsoft 正在努力根据客户请求添加其他证书颁发机构。 
 
@@ -213,7 +213,7 @@ Microsoft 正在努力根据客户请求添加其他证书颁发机构。
 - Office 365 GCC High
 - Office 365 DoD
 
-详细了解 [Office 365 和美国政府](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 环境，例如 GCC、GCC High 和 DoD。
+详细了解 [Office 365 和美国政府](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 环境，例如 GCC、GCC High 和 DoD。
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 和 Office 365 GCC 环境
 
@@ -297,7 +297,7 @@ SBC 会进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>媒体流量：端口范围
-请注意，如果要在不绕过媒体的情况下部署直接路由，则以下要求适用。 有关媒体绕过的防火墙要求，请参阅使用直接路由 [规划媒体绕过](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass)。
+请注意，如果要在不绕过媒体的情况下部署直接路由，则以下要求适用。 有关媒体绕过的防火墙要求，请参阅使用直接路由 [规划媒体绕过](./direct-routing-plan-media-bypass.md)。
 
 
 

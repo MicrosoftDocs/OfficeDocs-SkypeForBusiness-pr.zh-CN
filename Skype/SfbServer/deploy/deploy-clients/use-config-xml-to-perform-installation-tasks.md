@@ -1,5 +1,5 @@
 ---
-title: 使用 Config.xml 在 Skype for Business 客户端中执行安装任务
+title: 使用Config.xml Skype for Business 客户端执行安装任务
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,15 +11,15 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 摘要：如何使用 Config.xml 文件指定其他安装说明。
-ms.openlocfilehash: 1b8aeeb16e061e7816e475f01c9cd9a9146306ee
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：如何使用 Config.xml文件指定其他安装说明。
+ms.openlocfilehash: dbf4c4ba4e652f4b777e0c901fee4ffb0ad68af3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825182"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121136"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>使用 Config.xml 在 Skype for Business 客户端中执行安装任务
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>使用Config.xml Skype for Business 客户端执行安装任务
 
 **摘要：** 如何使用 Config.xml 文件指定其他安装说明。
 
@@ -39,7 +39,7 @@ ms.locfileid: "49825182"
 
 我们建议你使用 Config.xml 文件配置 Skype for Business 无提示安装。 
 
-默认情况下，Config.xml核心产品文件夹中存储的 (文件，例如\ _product。_ WW) 指示安装程序安装该产品。 例如，以下Config.xml中的文件将安装 Skype for Business：
+默认情况下，Config.xml核心产品文件夹中存储的文件 (例如\ _product_。WW) 指示安装程序安装该产品。 例如，以下Config.xml中的文件将安装 Skype for Business：
 
 - \\server\share\Skype15\Skype.WW \Config.xml
 
@@ -54,10 +54,10 @@ ms.locfileid: "49825182"
 | OptionState  <br/>       | 指定在安装期间如何处理特定产品功能。 使用以下属性阻止安装 Business Connectivity Services，其中包括干扰 Outlook 的共享组件： <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | 显示  <br/>           | 安装程序向用户显示的 UI 级别。典型属性包括： <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | 日志记录  <br/>           | 安装程序执行的日志记录类型的选项。典型属性包括： <br/>  Type ="Off"                                                                                                                                                                                       |
-| Setting  <br/>           | 指定 Windows Installer 属性的值。典型属性包括：<br/>  Setting Id=" *name*" (windows Installer 属性的名称)   <br/>  Value=" *value*" (要分配给属性的值)   <br/>                                                             |
+| Setting  <br/>           | 指定 Windows Installer 属性的值。典型属性包括：<br/>  Setting Id=" *name*" (Windows Installer 属性的名称)   <br/>  Value=" *value*" (要分配给属性属性的值)   <br/>                                                             |
 | DistributionPoint  <br/> | 从该位置运行安装的网络安装点的完全限定路径。包括 Location 属性：<br/>  Location=" *path*"  <br/>                                                                                                                                     |
 
-以下示例显示了一个Config.xml Skype for Business 客户端的典型无提示安装的文件。 
+下面的示例演示 Skype for Business Config.xml典型无提示安装的示例文件。 
 
 ```xml
 <Configuration Product="Lync"> 
@@ -69,7 +69,7 @@ ms.locfileid: "49825182"
 </Configuration>
 ```
 
-有关使用 Config.xml 文件执行 Office 安装和维护任务的详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514) 。
+有关使用 Config.xml 文件执行 Office 安装和维护任务的详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 。
 
 ## <a name="to-customize-the-configxml-file"></a>自定义 Config.xml 文件
 
@@ -77,12 +77,10 @@ ms.locfileid: "49825182"
 
 2. 找到包含您要更改元素的行。
 
-3. 使用您需要的静默选项修改元素项。 请确保删除注释分隔符 \<!--" and "--\> ""。 例如，使用以下语法：
+3. 使用您需要的静默选项修改元素项。 请确保删除注释分隔符" \<!--" and "--\> "。 例如，使用以下语法：
 
    <pre>
    < DistributionPoint Location="\\server\share\Skype15" />
    </pre>
 
 4. 保存 Config.xml 文件。
-
-

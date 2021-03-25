@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: 1d3fe1f6-e987-4b21-aafd-4ceaf523027a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 58db01d1269cb9d8ac3579c6ce3e9d11b88ab06b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7773376de2d0858083a59358d89bedee589d32c4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808542"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122086"
 ---
 # <a name="configure-a-network-region"></a>配置网络区域
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [配置网络区域](https://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
-
-
-
+- [配置网络区域](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-regions)

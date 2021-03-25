@@ -16,27 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 从 Skype for Business Online 和 Teams 配置角度了解迁移到直接路由所需的内容。
-ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359418"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122196"
 ---
 # <a name="migrate-to-direct-routing"></a>迁移到直接路由
 
 本文从 Skype for Business Online 和 Microsoft Teams 配置角度描述迁移到直接路由所需的内容。 本文介绍了如何从以下各项进行迁移： 
  
-- 具有 (团队和 Skype for business Online) 的呼叫计划的电话系统 
-- 适用于 Skype for business Online 的 Skype for business Server (中具有本地 PSTN 连接的电话系统)   
-- 具有本地 PSTN 连接的电话系统，使用适用于 Skype for business Online 的云连接器 Edition () 
+- 适用于 Teams 和 Skype for Business Online (套餐的电话系统)  
+- Skype for Business Server 中具有本地 PSTN 连接的电话系统 (Skype for Business Online)   
+- 使用适用于 Skype for Business Online 的 Cloud Connector Edition (连接本地 PSTN 的电话) 
 
 
 除了这些配置步骤外，还需要在会话边界控制器 (SBC) 上进行配置，才能将通话转接到新的路由。 那超出了本文档的范畴。 有关详细信息，请参阅 SBC 供应商文档。  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>用于各种 PSTN 连接选项的用户预配结束状态 
 
-下表显示了使用电话系统为选定的 PSTN 连接选项设置的用户的结束状态。 仅显示与语音相关的属性。
+下表显示了使用电话系统为所选 PSTN 连接选项预配的用户的结束状态。 仅显示与语音相关的属性。
 
 |用户对象属性 |具有通话套餐的电话系统|通过 Skype for Business Server 使用本地 PSTN 连接的电话系统
 |通过云连接器使用本地 PSTN 连接的电话系统|通过直接路由使用本地 PSTN 连接的电话系统|
@@ -56,7 +56,7 @@ OnPremLineURI |不适用|电话号码必须与本地 AD 同步。 |可在本地 
 |TeamsCallingPolicy</br>AllowGroupCalling|True|不适用|不适用|True|
 ||||||
 
-<sup>1</sup> 选择 TeamsUpgradePolicy 的正确模式取决于方案。 请阅读了解[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](migration-interop-guidance-for-teams-with-skype.md)中各种模式的语音体验。
+<sup>1</sup> 选择 TeamsUpgradePolicy 的合适模式取决于方案。 请阅读了解[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](migration-interop-guidance-for-teams-with-skype.md)中各种模式的语音体验。
 
 作为此工作的一部分，Microsoft 最近更新了“Microsoft Teams 管理中心”（也称为“新式门户”），以反映基于共存模式的新管理模型。 在新式门户中，配置 TeamsUpgradePolicy 也会立即将 TeamsInteropPolicy 自动设置为一致的值，因此不会再在用户界面中公开 TeamsInteropPolicy。 但是，使用 PowerShell 的管理员仍然必须同时设置 TeamsUpgradePolicy 和 TeamsInteropPolicy，以确保正确转接。 完成到 TeamsUpgradePolicy 的转换后，将不再需要设置 TeamsInteropPolicy。
 
@@ -66,9 +66,9 @@ OnPremLineURI |不适用|电话号码必须与本地 AD 同步。 |可在本地 
 
 有关从通话套餐迁移的详细信息，请参阅：
 
-- [设置通话套餐](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice 用户](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
-- [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
+- [设置通话套餐](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Set-CsOnlineVoice 用户](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
+- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
 建议删除以前配置的许可证计划信息，如下所示：
@@ -86,8 +86,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 有关在 Skype for Business Server 中使用本地 PSTN 连接从电话系统迁移的详细信息，请参阅以下内容：
 
 
-- [规划](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [部署](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [规划](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [部署](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 建议删除以前配置的语音转接信息，如下所示：
 
@@ -95,20 +95,20 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > [!NOTE]
-> 如果配置了全局 CsVoiceRoutingPolicy，建议你删除与此全局策略关联的任何 PSTN 用法。 
+> 如果配置了全局 CsVoiceRoutingPolicy，建议删除与此全局策略关联的任何 PSTN 使用情况。 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>通过云连接器版本使用本地 PSTN 连接从 Office 365 电话系统迁移
  
 
 > [!Important]
-> 云连接器版将于2021年7月31日与 Skype for Business Online 一起终止。 组织升级到团队后，了解如何使用 [直接路由](direct-routing-landing-page.md)将本地电话网络连接到团队。
+> Cloud Connector Edition 将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](direct-routing-landing-page.md)
 
 有关通过云连接器版本使用本地 PSTN 连接从电话系统迁移的详细信息，请参阅以下内容：
 
 
-- [规划](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
-- [部署](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [用户配置](https://docs.microsoft.com/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
+- [规划](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [部署](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
+- [用户配置](/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 建议删除以前配置的语音转接信息，如下所示：
  
@@ -122,17 +122,16 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 [面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](migration-interop-guidance-for-teams-with-skype.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
 
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradePolicy)
+[Get-CsTeamsUpgradePolicy](/powershell/module/skype/Get-CsTeamsUpgradePolicy)
 
-[New-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsUpgradePolicy)
+[New-CsTeamsUpgradePolicy](/powershell/module/skype/New-CsTeamsUpgradePolicy)
 
-[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
+[Remove-CsTeamsUpgradePolicy](/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
 
-[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradePolicy)
+[Set-CsTeamsUpgradePolicy](/powershell/module/skype/Set-CsTeamsUpgradePolicy)
 
-[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)
-
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)

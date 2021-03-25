@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: 了解如何使用 Microsoft Teams 管理中心或Windows PowerShell PSTN 呼叫拨号计划 (拨号计划) 。
-ms.openlocfilehash: 8e1d3a102d762bef29ecd3af7998646239b5f0c2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: 了解如何使用 Microsoft Teams 管理中心或Windows PowerShell PSTN 呼叫拨号 (创建和管理) 。
+ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569254"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120804"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -36,29 +36,29 @@ ms.locfileid: "50569254"
 
 ### <a name="create-a-dial-plan"></a>创建拨号计划
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **"语音**  >  **拨号计划"。**
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"语音**  >  **拨号计划"。**
 2. 单击 **"** 添加"，然后输入拨号计划的名称和说明。
     ![显示用于创建拨号计划的"添加"页面的屏幕截图](media/create-dial-plan.png)
-3. 在 **"** 拨号计划详细信息"下，如果用户需要拨打一个或多个额外的前导数字（例如，9 (）才能获取外部线路，) 外部拨号前缀。 要执行此操作：
-    1. 在 **"外部拨号前缀"** 框中，输入外部拨号前缀。 前缀最多为 4 个字符 (#、*和 0-9) 。
+3. 在 **"拨号计划详细信息**"下，指定外部拨号前缀（如果用户需要拨打一个或多个前导 (例如，9) 才能获取外部线路。 要执行此操作：
+    1. 在" **外部拨号前缀** "框中，输入外部拨号前缀。 前缀可以是最多四个字符 (#、*和 0-9) 。
     2. 打开 **"优化设备拨号"。** 如果指定外部拨号前缀，则还必须启用此设置才能应用前缀，以便可以在组织外部进行呼叫。
-4. 在 **"规范化规则**"下，为拨号计划配置和关联 [一](what-are-dial-plans.md#normalization-rules) 个或多个规范化规则。 每个拨号计划必须至少有一个与之关联的规范化规则。  为此，请执行下列一项或一项操作：
-    - 若要创建新的规范化规则并将其与拨号计划关联，请单击"添加 **"，然后** 定义规则。
-    - 若要编辑已与拨号计划关联的规范化规则，请单击规则名称左侧选择规则，然后单击"编辑 **"。** 进行需要的更改，然后单击"保存 **"。**
+4. 在 **"规范化规则**"下，为拨号计划配置 [和关联一](what-are-dial-plans.md#normalization-rules) 个或多个规范化规则。 每个拨号计划必须至少有一个与之关联的规范化规则。  为此，请执行以下一项或多项操作：
+    - 若要创建新的规范化规则并将其与拨号计划关联，请单击 **"添加**"，然后定义规则。
+    - 若要编辑已与拨号计划关联的规范化规则，请单击规则名称左侧选择规则，然后单击"编辑 **"。** 进行您需要的更改，然后单击"保存 **"。**
     - 若要从拨号计划中删除规范化规则，请单击规则名称左侧选择规则，然后单击"删除 **"。**
-5. 按需要的顺序排列规范化规则。 单击 **"上** 移 **"** 或"下移"以更改规则在列表中的位置。
+5. 按需要的顺序排列规范化规则。 单击 **"上****移"或**"下移"以更改规则在列表中的位置。
 
     > [!NOTE]
-    > 团队从上到下遍历规范化规则列表，并使用与拨号号码匹配的第一个规则。 如果设置了拨号计划，以便拨号号码可以匹配多个规范化规则，请确保限制性较强的规则在限制性较少的规则上方排序。
+    > Teams 从上到下遍历规范化规则列表，并使用与拨入号码匹配的第一个规则。 如果设置了拨号计划，以便拨号号码可以匹配多个规范化规则，请确保限制性较强的规则在限制性较少的规则上方排序。
 
 6. 单击“**保存**”。
 7. 如果要测试拨号计划，请在"测试拨号计划"下输入电话号码，然后单击"测试 **"。**
 
 ### <a name="edit-a-dial-plan"></a>编辑拨号计划
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **"语音**  >  **拨号计划"。**
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"语音**  >  **拨号计划"。**
 2. 通过单击拨号计划名称左侧选择拨号计划，然后单击"编辑 **"。**
-3. 进行需要的更改，然后单击"保存 **"。**
+3. 进行您需要的更改，然后单击"保存 **"。**
 
 ### <a name="assign-a-dial-plan-to-users"></a>向用户分配拨号计划
 
@@ -67,7 +67,7 @@ ms.locfileid: "50569254"
 ## <a name="using-powershell"></a>使用 PowerShell
   
 ### <a name="start-powershell"></a>启动 PowerShell
-- 打开Windows PowerShell提示符并运行以下命令：
+- 打开 Windows PowerShell 命令提示符并运行以下命令：
 
 ```powershell
   # When using Teams PowerShell Module
@@ -89,7 +89,7 @@ ms.locfileid: "50569254"
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    有关其他示例和参数，请参阅 [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan)。
+    有关其他示例和参数，请参阅 [New-CsTenantDialPlan](/powershell/module/skype/new-cstenantdialplan)。
     
 - 若要编辑现有拨号计划的设置，请运行：
     
@@ -98,7 +98,7 @@ ms.locfileid: "50569254"
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    有关其他示例和参数，请参阅 [Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan)。
+    有关其他示例和参数，请参阅 [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan)。
     
 - 要向拨号计划中添加用户，请运行：
     
@@ -106,7 +106,7 @@ ms.locfileid: "50569254"
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    有关其他示例和参数，请参阅 [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan)。
+    有关其他示例和参数，请参阅 [Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan)。
     
 - 要查看拨号计划中的设置，请运行：
     
@@ -114,7 +114,7 @@ ms.locfileid: "50569254"
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    有关其他示例和参数，请参阅 [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps)。
+    有关其他示例和参数，请参阅 [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan?view=skype-ps)。
     
 - 要删除拨号计划，请运行：
     
@@ -122,7 +122,7 @@ ms.locfileid: "50569254"
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    有关其他示例和参数，请参阅 [Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)。
+    有关其他示例和参数，请参阅 [Remove-CsTenantDialPlan](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)。
     
 - 要查看有效拨号计划的设置，请运行：
     
@@ -130,7 +130,7 @@ ms.locfileid: "50569254"
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    有关其他示例和参数，请参阅 [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan)。
+    有关其他示例和参数，请参阅 [Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan)。
     
 - 要测试拨号计划的有效设置，请运行：
     
@@ -138,7 +138,7 @@ ms.locfileid: "50569254"
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    有关其他示例和参数，请参阅 [Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)。
+    有关其他示例和参数，请参阅 [Test-CsEffectiveTenantDialPlan](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)。
     
 #### <a name="using-a-powershell-script"></a>使用 PowerShell 脚本
 
@@ -161,7 +161,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-如果还想要检查现有的规范化规则，确定要删除的规则，然后使用其索引将其删除，请运行以下代码。 该组规范化规则以索引 0 开头。 我们要删除 3 位数的规范化规则，则索引为 1。
+若要同时检查现有的规范化规则，确定要删除的规则，然后使用其索引将其删除，请运行以下代码。 该组规范化规则以索引 0 开头。 我们要删除 3 位数的规范化规则，则索引为 1。
   
 ```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -187,7 +187,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-运行此代码，从具有托管帐户的 HostingProvider 的所有用户中删除任何分配的 TenantDialPlan sipfed.online.lync.com。
+运行此操作，从具有托管主机的所有用户中删除任何分配的 TenantDialPlan sipfed.online.lync.com。
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
@@ -220,7 +220,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ## <a name="related-topics"></a>相关主题
 
 - [什么是拨号计划？](what-are-dial-plans.md)
-- [关于转移电话号码的常见问题](transferring-phone-numbers-common-questions.md)
+- [关于转移电话号码的常见问题](./phone-number-calling-plans/port-order-overview.md)
 - [用于通话套餐的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)

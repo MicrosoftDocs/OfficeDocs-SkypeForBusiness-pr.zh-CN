@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5647969ccbb19599efea062d94d88b79c2d8a6f4
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 678cad1b71c9f3e8d1e79a50f5ae46aba4456b5a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819424"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120663"
 ---
 # <a name="implement-your-move-to-microsoft-teams"></a>实现移动到 Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "50819424"
    
 1. 首先，将聊天组移动到 Microsoft Teams。
 1. 接下来，使用 Teams 中的应用替换 Kaizala 操作卡。
-1. 若要确保一线员工已配备，请升级到 Teams 一线辅助角色功能。 有关 Teams 前端辅助角色的快速入门指南，请参阅 [一线员工快速入门指南](https://docs.microsoft.com/microsoftteams/flw-quickstart)。
+1. 若要确保一线员工已配备，请升级到 Teams 一线辅助角色功能。 有关 Teams 前端辅助角色的快速入门指南，请参阅 [一线员工快速入门指南](./flw-quickstart.yml)。
 1. 考虑加入供应商和合作伙伴，邀请他们作为来宾加入 Teams。  
   
 **管理更改**  
@@ -96,4 +96,4 @@ ms.locfileid: "50819424"
      
 - **将组织移动到 Teams** 
 
-    为组织提供简化的工具，以从 CEO 到一线通信！ 
+    为组织提供简化的工具，以从 CEO 到一线通信！
