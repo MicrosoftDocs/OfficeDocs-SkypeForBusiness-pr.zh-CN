@@ -17,24 +17,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d5ebd0552aafffe2eb2330e6945f99dd788b2f
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 83448f32ddfc96800a14b5a599ef9cb7af52bb9b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858627"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119231"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>为教育版分配 Microsoft Teams 许可证
 
 Microsoft Teams 是一个数字中心，其中汇聚了对话、内容及应用。 由于它是基于 Office 365 构建的，因此学校可以从与他们熟悉的 Office 应用和服务的集成中受益。 你的机构可以使用 Microsoft Teams 创建协作式教室、连接专业学校社区并与学校教职员工进行沟通 - 一切皆可通过 Office 365 教育版中的单一体验来实现。
 
-首先，IT 管理员需要使用 Microsoft 365 管理中心[为你的学校启用 Microsoft Teams](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)。
+首先，IT 管理员需要使用 Microsoft 365 管理中心[为你的学校启用 Microsoft Teams](/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)。
 完成后，你必须为用户帐户分配许可证，以便你的教职员工和学生可以访问 Office 365 服务，例如 Microsoft Teams。
 
 可通过组成员身份单独或自动向用户帐户分配许可证。 本文将向你介绍如何通过 Microsoft 365 管理中心将 Office 365 许可证分配给单个或一小组用户帐户。 要通过组成员身份自动分配许可证，请参阅我们的以下支持文章之一：
 
-- [Office 365 Powershell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
-- [Active Directory 中基于组的许可](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- [Office 365 Powershell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Active Directory 中基于组的许可](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 可在“**许可证**”页面或“**活动用户**”页面上向用户分配许可证。 使用哪种方法取决于是要向特定用户分配产品许可证还是向特定产品分配用户许可证。
 
@@ -44,7 +44,7 @@ Microsoft Teams 是一个数字中心，其中汇聚了对话、内容及应用�
 ## <a name="assign-licenses-to-users-on-the-licenses-page"></a>在“许可证”页面上向用户分配许可证
 
 > [!NOTE]
-> 你必须是全局管理员、账单管理员、许可证管理员或用户管理管理员。有关详细信息，请参阅[关于 Office 365 管理员角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)。
+> 你必须是全局管理员、账单管理员、许可证管理员或用户管理管理员。有关详细信息，请参阅[关于 Office 365 管理员角色](/microsoft-365/admin/add-users/about-admin-roles)。
 
 使用“**许可证**”页面分配许可证时，最多可向 20 名用户分配特定产品的许可证。 在“**许可证**”页面上，你会看到你已订阅的所有产品的列表，还有每个产品的许可证总数、已分配的许可证数以及可用的许可证数。
 

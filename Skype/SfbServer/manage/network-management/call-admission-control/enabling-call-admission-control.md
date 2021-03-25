@@ -10,26 +10,26 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: " 在将呼叫允许控制 (CAC) 网络后，必须启用 CAC 才能强制实施带宽限制。"
-ms.openlocfilehash: 8e996b4d2272144a35f667a5d6987b2cb91af708
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: " 在将呼叫允许控制 (CAC) 网络后，必须启用 CAC 以强制实施带宽限制。"
+ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816502"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118571"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>在 Skype for Business Server 上启用呼叫允许控制
 
-呼叫允许控制 (CAC) 是区域、站点和子网的网络，通过它可基于可用带宽对音频和视频传输设置限制。 配置 CAC 网络后，必须启用 CAC 以强制实施带宽限制。 可以使用 Skype for Business Server 控制面板来这样做。
+呼叫允许控制 (CAC) 是区域、站点和子网的网络，通过它可基于可用带宽对音频和视频传输设置限制。 配置 CAC 网络后，必须启用 CAC 以强制实施带宽限制。 为此，可以使用 Skype for Business Server 控制面板。
 
 
 ## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>从 Skype for Business Server 控制面板启用 CAC
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"**全局"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"全局 **"。**
 
 4.  在“全局”页上，单击“全局”配置。
    
@@ -50,8 +50,8 @@ ms.locfileid: "49816502"
  
 [部署呼叫允许控制](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) 
 
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Get-CsNetworkConfiguration](/powershell/module/skype/Get-CsNetworkConfiguration)  
 
-[Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Set-CsNetworkConfiguration](/powershell/module/skype/Set-CsNetworkConfiguration)  
 
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](/powershell/module/skype/Remove-CsNetworkConfiguration)

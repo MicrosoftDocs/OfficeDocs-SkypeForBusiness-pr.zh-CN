@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 为了充分利用 Skype for Business Server 2015 中包含的功能并改进整体用户体验，可以使用客户端版本筛选器来限制环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
-ms.openlocfilehash: 7147df6d6f2460c1b341cced6a9ecc207943da8d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0af11ac26a73452412c653c04233df7b932f2b49
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833392"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118641"
 ---
 # <a name="client-version-policy"></a>客户端版本策略
 
@@ -30,7 +30,7 @@ ms.locfileid: "49833392"
 
 您可以在“客户端版本策略”页上执行以下任务：
 
-- 编辑默认 ( **全局**) 客户端版本策略。
+- 编辑默认策略 ( **全局**) 客户端版本策略。
 
 - 为特定站点或池创建客户端版本策略。
 
@@ -51,7 +51,7 @@ ms.locfileid: "49833392"
 
   - 用户策略
 
-- **编辑** 您可以更改任何客户端版本策略的选项。 使用此选项，可以执行以下操作：
+- **编辑** 可以更改任何客户端版本策略的选项。 使用此选项，可以执行以下操作：
 
   - **显示详细信息** 此选项将打开一个对话框，您可以在其中更改客户端版本策略的选项。
 
@@ -61,5 +61,4 @@ ms.locfileid: "49833392"
 
 - **刷新** 可以刷新客户端版本策略列表以验证所有客户端版本策略的选项状态。
 
-有关客户端和客户端版本之间的交互性的详细信息，请参阅规划文档中的 [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)。 有关使用客户端版本策略的详细信息，请参阅操作文档中的[Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)。
-
+有关客户端和客户端版本之间的交互性的详细信息，请参阅规划文档中的 [Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)。 有关使用客户端版本策略的详细信息，请参阅操作文档中的[Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)。

@@ -21,27 +21,27 @@ f1.keywords:
 ms.custom:
 - Optimization
 - seo-marvel-apr2020
-description: 本文提供有关将代理服务器用于 Microsoft 团队或 Skype for Business 的信息。
-ms.openlocfilehash: 3d8e2e067cce4214f51ee54ec08bafa1f4100770
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+description: 本文提供有关将代理服务器与 Microsoft Teams 或 Skype for Business 一起使用的信息。
+ms.openlocfilehash: 0e2089cfa327a610c3ee98f1f20862a28939fd0c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665954"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117720"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 或 Skype for Business Online 的代理服务器
 
-本文提供有关将代理服务器与团队或 Skype for Business 配合使用的指南。
+本文提供有关将代理服务器与 Teams 或 Skype for Business 一同使用的指导。
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>建议不使用代理服务器
 
-当来自代理的团队或 Skype for business 通信流时，Microsoft 建议绕过代理。代理不会使团队或 Skype for business 更加安全，因为通信已加密。
+对于通过代理的 Teams 或 Skype for Business 流量，Microsoft 建议绕过代理。 代理不会使 Teams 或 Skype for Business 更安全，因为流量已加密。
   
-并且拥有代理可能会导致问题。与性能相关的问题可通过延迟和数据包丢失引入环境。此类问题将在此类团队或 Skype for Business 方案中产生消极的体验，因为实时流非常重要。
+另外，使用代理会产生问题。 环境中可能会出现由于延迟和数据包丢失而引起的与性能相关的问题。 此类问题会导致在音频和视频等 Teams 或 Skype for Business 方案中遇到负面体验，实时流至关重要。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>如果需要使用代理服务器
 
-某些组织没有为团队或 Skype for business 流量绕过代理的选项。如果这是你所说的情况，上述问题需要牢记。
+某些组织无法绕过 Teams 或 Skype for Business 流量的代理。 如果你是这种情况，需要留意上面提到的问题。
   
 Microsoft 还强烈建议：
   
@@ -51,13 +51,13 @@ Microsoft 还强烈建议：
     
 - 允许 UDP 流量
     
-- 按照我们的网络指南中的其他建议操作：[为团队准备组织的网络](prepare-network.md)
+- 遵循网络指南中的其他建议： [为 Teams 准备组织的网络](prepare-network.md)
   
     
 遵循本指南应尽可能减少潜在问题。
   
 ## <a name="related-topics"></a>相关主题
 
-[Microsoft 365 和 Office 365 网络连接原理](https://aka.ms/pnc)
+[Microsoft 365 和 Office 365 网络连接原则](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
 
 [为 Teams 准备贵组织的网络](prepare-network.md)

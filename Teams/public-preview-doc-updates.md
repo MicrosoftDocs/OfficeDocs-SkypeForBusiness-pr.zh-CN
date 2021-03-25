@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公共预览版。尝试新增功能�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: cc3dca351924daa368658a8f0c110099768e9986
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196216"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117700"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 
@@ -32,7 +32,7 @@ ms.locfileid: "50196216"
 
 Microsoft Teams 的公共预览版可让用户抢先体验 Teams 中的未发布功能。预览版允许探索和测试即将推出的功能。我们也欢迎大家对公共预览版中的任何功能提出反馈意见。公共预览版是为每个 Teams 用户单独启用的，因此不必担心影响整个组织。
 
-有关 Teams 公共预览版中可用功能的列表，请访问 [Office 当前频道（预览）发行说明](https://docs.microsoft.com/officeupdates/current-channel-preview)。
+有关 Teams 公共预览版中可用功能的列表，请访问 [Office 当前频道（预览）发行说明](/officeupdates/current-channel-preview)。
 
 ## <a name="set-the-update-policy"></a>设置更新策略
 
@@ -58,5 +58,4 @@ Microsoft Teams 的公共预览版可让用户抢先体验 Teams 中的未发布
 
 ## <a name="related-topics"></a>相关主题
 
-[公共开发人员预览版](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[公共开发人员预览版](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

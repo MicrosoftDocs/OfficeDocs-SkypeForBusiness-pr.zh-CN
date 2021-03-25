@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3665f386f43d8e9b8c49a024663265c25ae96214
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135991"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117780"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams 的策略控制概述
 
@@ -29,13 +29,13 @@ Microsoft 致力于为你提供所需的信息和控件，可让你在使用作�
 
 本文旨在向你提供有关以下区域的隐私控制信息：
 
-- 所收集并向 Microsoft 发送的**诊断数据**，这些数据与在组织内运行 Windows 的计算机上使用的 Teams 和 Office 软件相关。
+- 所收集并向 Microsoft 发送的 **诊断数据**，这些数据与在组织内运行 Windows 的计算机上使用的 Teams 和 Office 软件相关。
 - **连接体验**，它使用基于云的功能为你和用户提供增强的 Teams 和 Office 功能。
 
 作为这些更改的一部分，我们将提供全新和更新的用户界面 (UI) 元素和策略设置
 
 > [!IMPORTANT]
-> 有关进一步阅读，请查看 M365 的“[策略控制概述](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls)”内容。
+> 有关进一步阅读，请查看 M365 的“[策略控制概述](/deployoffice/privacy/overview-privacy-controls)”内容。
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>从 Microsoft 365 企业应用版发送到 Microsoft 的诊断数据
 
@@ -91,10 +91,10 @@ Teams 软件有三个级别的诊断数据可供你选择：
 - **功能数据**，包括连接体验执行其任务所需的信息，例如有关应用的配置信息。
 - **服务诊断数据**，它是让服务保持安全和最新并按预期运行所需的数据。 由于此数据与连接体验严格相关，因此它与必需或可选的诊断数据级别分开。
 
-可选择不向用户提供此功能，在这种情况下，不会向 Microsoft 提供此信息以支持连接体验的功能。 可了解有关[所需服务数据](https://docs.microsoft.com/deployoffice/privacy/required-service-data)的详细信息。
+可选择不向用户提供此功能，在这种情况下，不会向 Microsoft 提供此信息以支持连接体验的功能。 可了解有关[所需服务数据](/deployoffice/privacy/required-service-data)的详细信息。
 
 ## <a name="essential-services-for-microsoft-teams"></a>Microsoft Teams 的基本服务
 
 还有一组服务对于 Microsoft 365 企业应用版的工作方式至关重要，用户无法禁用该服务。 例如，用于确认你已获得使用 Microsoft 365 企业应用版的正确许可的许可服务。 无论你配置了何种其他策略设置，都会收集有关这些服务的必需服务数据并将其发送给 Microsoft。
 
-有关详细信息，请参阅 “[Office 的基本服务](https://docs.microsoft.com/deployoffice/privacy/essential-services)”。
+有关详细信息，请参阅 “[Office 的基本服务](/deployoffice/privacy/essential-services)”。

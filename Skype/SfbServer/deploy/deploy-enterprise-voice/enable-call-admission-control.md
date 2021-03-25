@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: 在 Skype for Business Server 服务中启用企业语音。
-ms.openlocfilehash: 9ea8b03b48827abbb73e3d6e93ffb88ab93ad1ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在 Skype for Business Server 企业语音 中启用呼叫允许控制。
+ms.openlocfilehash: 2b8096a9223250cec88e57e68fdc201f5591fd92
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831012"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109858"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>在 Skype for Business Server 中启用呼叫允许控制
  
-在 Skype for Business Server 服务中启用企业语音。 
+在 Skype for Business Server 企业语音 中启用呼叫允许控制。 
   
 配置完呼叫允许控制部署的网络设置后，必须启用 CAC 来使带宽策略生效。
   
 ### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序启用呼叫允许控制
 
-1. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+1. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
     
 2. 运行 Set-CsNetworkConfiguration cmdlet 以在网络中启用 CAC。例如，运行：
     
@@ -64,8 +64,8 @@ ms.locfileid: "49831012"
     
 ## <a name="see-also"></a>另请参阅
 
-[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
+[Get-CsNetworkConfiguration](/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
-[Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
+[Set-CsNetworkConfiguration](/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
-[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
+[Remove-CsNetworkConfiguration](/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)

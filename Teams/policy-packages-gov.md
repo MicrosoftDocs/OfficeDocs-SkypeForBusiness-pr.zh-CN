@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何为政府组织使用和管理 Teams 策略包。
-ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909076"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117770"
 ---
 # <a name="teams-policy-packages-for-government"></a>适用于政府的 Teams 策略包
 
@@ -31,9 +31,9 @@ ms.locfileid: "49909076"
 
 ## <a name="overview"></a>概述
 
-Microsoft Teams [中的](manage-policy-packages.md) 策略包是预定义的策略和策略设置的集合，可将其分配给组织中具有类似角色的用户。 策略包可简化并有助于提供一致的策略管理。 可以自定义程序包中策略的设置以满足用户的需求。 更改策略包中的策略设置时，分配到该包的所有用户将获取更新的设置。 可以使用 Microsoft Teams 管理中心或 PowerShell 管理策略包。
+Microsoft Teams 中的[策略包](manage-policy-packages.md)是一组预定义的策略和策略设置，你可以将其分配给组织中具有类似角色的用户。 策略包可简化并有助于提供一致的策略管理。 你可以自定义包中策略的设置以满足用户的需求。 当你更改策略包中策略的设置时，分配了该包的所有用户均会获得更新后的设置。 你可以使用 Microsoft Teams 管理中心或 PowerShell 管理策略包。
 
-策略包根据包为以下内容预定义策略：
+策略包针对以下各项预定义了策略，具体内容因策略包而异：
 
 - 消息传递
 - 会议
@@ -41,19 +41,19 @@ Microsoft Teams [中的](manage-policy-packages.md) 策略包是预定义的策�
 - 应用设置
 - 实时事件
 
-Teams 当前包括以下适用于政府的策略包。
+Teams 目前包括以下政府策略包。
 
-|Microsoft Teams 管理中心中的程序包名称|最适合用于|说明 |
+|Microsoft Teams 管理中心中的策略包名称|最适合用于|说明 |
 |---------|---------|---------|
-|公共安全主管  |政府组织的公共安全人员  |创建一组适用于组织中公共安全人员的策略和策略设置。 |
+|公共安全人员  |政府组织的公共安全人员  |创建一组适用于组织中公共安全人员的策略和策略设置。 |
 |前端管理器  |政府组织的一线经理 |创建一组策略，将这些设置应用到组织的一线经理。|
 |一线辅助角色  |政府组织的一线员工 |创建一组策略，将这些设置应用到组织的一线员工。|
 
 ![医疗保健策略包的屏幕截图](media/policy-packages-gov.png)
 
-每个策略都有策略包的名称，因此可以轻松识别链接到策略包的策略。 例如，将公共安全主管策略包分配给组织中用户时，会PublicSafety_Officer包中每个策略创建名为 PublicSafety_Officer 的策略。
+将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。 例如，将"公共安全人员"策略包分配给组织中用户时，PublicSafety_Officer包中每个策略创建名为 PublicSafety_Officer 的策略。
 
-![医疗保健患者包中策略的屏幕截图](media/policy-packages-public-safety-officer.png)
+![医疗保健临床工作者策略包中策略的屏幕截图](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>管理策略包
 
@@ -93,7 +93,7 @@ Teams 当前包括以下适用于政府的策略包。
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>向大型组（批处理）分配策略包
 
-使用批处理策略包分配，每次向大型用户组分配策略包。 使用 [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet 提交要分配的一批用户和策略包。 作业将作为后台操作处理，并为每个批处理生成操作 ID。
+使用批处理策略包分配，每次向大型用户组分配策略包。 使用 [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet 提交要分配的一批用户和策略包。 作业将作为后台操作处理，并为每个批处理生成操作 ID。
 
 批处理最多可包含 5,000 个用户。 可通过对象 Id、UPN、SIP 地址或电子邮件地址指定用户。 若要了解详细信息，请参阅[将策略包分配给批次用户](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
 
@@ -101,4 +101,4 @@ Teams 当前包括以下适用于政府的策略包。
 
 [在 Teams 中管理策略包](manage-policy-packages.md)
 
-[在 Teams 中向用户分配策略](assign-policies.md) 
+[向 Teams 中的用户分配策略](assign-policies.md)

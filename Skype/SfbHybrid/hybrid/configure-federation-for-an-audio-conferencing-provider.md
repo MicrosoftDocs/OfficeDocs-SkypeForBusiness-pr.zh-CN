@@ -18,25 +18,23 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：了解如何在 Skype for Business Online 中为音频会议提供商配置联盟。
-ms.openlocfilehash: a19704327d1cf5591a1ebb3f62aa23f46fe09d10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d9c49299452f579cd7c58adf54facb09f0b8a21
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726882"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118971"
 ---
 # <a name="configure-federation-for-an-audio-conferencing-provider-in-your-hybrid-deployment"></a>在混合部署中为音频会议提供商配置联盟
 
 **摘要：** 了解如何在 Skype for Business Online 中为音频会议提供商配置联盟。
 
-如果要在混合部署中使用音频会议提供商（ACP）（本地和联机），您需要在本地部署和 ACP 合作伙伴之间配置联盟，作为允许的合作伙伴服务器。 您可以通过将 ACP 合作伙伴域和边缘服务器（也称为 "访问代理服务器"）添加到本地部署的 "联盟域" 列表中来配置联盟。 然后，您的 ACP 合作伙伴需要将本地边缘服务器池的 FQDN 添加到其允许的联盟域列表中。 有关其他详细信息，请与您的 ACP 提供商联系。 然后，您的 ACP 合作伙伴需要将本地边缘服务器池的 FQDN 添加到其允许的联盟域列表中。
+如果要在具有联机) 的混合部署 (本地使用音频会议提供商 (ACP) ，需要将本地部署与 ACP 合作伙伴之间的联盟配置为允许的合作伙伴服务器。 您可以通过添加 ACP 合作伙伴域和边缘服务器 (这也称为内部部署的联合域列表中的访问代理) 。 然后，您的 ACP 合作伙伴需要将本地边缘服务器池的 FQDN 添加到其允许的联合域列表中。 有关其他详细信息，请与 ACP 提供商联系。 然后，您的 ACP 合作伙伴需要将本地边缘服务器池的 FQDN 添加到其允许的联合域列表中。
 
-- **将 ACP 域和边缘服务器添加为允许的联盟域**
+- **将 ACP 域和边缘服务器添加为允许的联合域**
 
-    若要将 ACP 域添加为允许的合作伙伴服务器（允许的联盟域），请按照[Configure Support for An External](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)domain 中的步骤操作。 对于边缘服务器，添加 ACP 合作伙伴的边缘服务器的 FQDN。 您可能需要与您的 ACP 合作伙伴联系，以获取其边缘服务器的 FQDN，而您的 ACP 也可能将其称为访问代理。
+    若要将 ACP 域添加为允许的合作伙伴服务器 (联盟域) ，请按照配置对允许的外部域的支持 [中的步骤操作](/previous-versions/office/lync-server-2013/lync-server-2013-configure-support-for-allowed-external-domains)。 对于边缘服务器，添加 ACP 合作伙伴的边缘服务器的 FQDN。 您可能需要与 ACP 合作伙伴联系，以获取其边缘服务器的 FQDN，ACP 也可能将 FQDN 称为其访问代理。
 
-- **向 ACP 合作伙伴提供您的边缘服务器池的 FQDN**
+- **向 ACP 合作伙伴提供边缘服务器池的 FQDN**
 
-    ACP 合作伙伴需要将您的边缘服务器池的 FQDN 添加为允许的联盟域，从而配置联合以将您的本地域作为允许的合作伙伴服务器添加。
-
-
+    ACP 合作伙伴需要配置联盟，通过将边缘服务器池的 FQDN 添加为允许的联合域，将本地域添加为允许的合作伙伴服务器。

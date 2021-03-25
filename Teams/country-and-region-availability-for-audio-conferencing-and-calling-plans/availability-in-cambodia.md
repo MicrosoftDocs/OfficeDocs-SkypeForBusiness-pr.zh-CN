@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务（适用于 Office）。
-ms.openlocfilehash: 8d1627e0b088337af7842102bd7c360ba91dbad5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 下面是适用于 Skype for Business 的 Microsoft 365 和 Office 365 服务和适用于 Office 的 Microsoft Teams。
+ms.openlocfilehash: 4cb008dce0cd98513883d35b6192fffe031d6f86
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804722"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118281"
 ---
 # <a name="availability-in-cambodia"></a>在越南的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-下面是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务（适用于 Office）。
+下面是适用于 Skype for Business 的 Microsoft 365 和 Office 365 服务和适用于 Office 的 Microsoft Teams。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -43,7 +43,7 @@ ms.locfileid: "49804722"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费  <br/> |
 |是否自动分配音频会议的电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> | 需要通信积分 <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用额度 <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -68,11 +68,11 @@ ms.locfileid: "49804722"
 
 |**功能**|**Details**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | 美国的航班 |
+|你可以获取哪些首都或大城市的收费电话号码？   | 百万亿美元 |
 |是否提供收费电话号码？  <br/> |是 <br/> |
 |免费电话号码是否可用？  <br/> |否 <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅"获取 Skype for Business 和 Microsoft Teams 的服务电话号码["。](/microsoftteams/getting-service-phone-numbers)
+ 如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取 [Skype for Business](../getting-service-phone-numbers.md)和 Microsoft Teams 的服务电话号码。
   
 ## <a name="communications-credits"></a>通信点数
 
@@ -84,7 +84,6 @@ ms.locfileid: "49804722"
   
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

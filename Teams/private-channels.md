@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 9cec7abc4af736a72b83bc978709dacf4e7c18e8
-ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
+ms.openlocfilehash: 463f081151761d4c587c893672e7bbee093cc844
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49601670"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117730"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -42,33 +42,33 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 ![团队中的私人频道的屏幕截图](media/private-channels-in-teams.png)
 
-## <a name="private-channel-creation"></a>专用通道创建
+## <a name="private-channel-creation"></a>专用频道创建
 
-默认情况下，任何团队所有者或团队成员都可以创建私人频道。 来宾无法创建私人频道。 可以在团队级别和组织级别管理创建专用通道的功能。 使用 [策略](teams-policies.md) 控制允许组织中的哪些用户创建专用频道。 设置策略后，团队所有者可以关闭或打开成员在团队的 " **设置** " 选项卡中创建专用频道的功能。
+默认情况下，任何团队所有者或团队成员都可以创建私人频道。 来宾无法创建私人频道。 可以在团队级别和组织级别管理创建专用频道的能力。 使用 [策略](teams-policies.md) 控制允许组织中哪些用户创建专用频道。 设置策略后，团队所有者可以在团队的"设置"选项卡中关闭或启用成员创建专用频道的能力。 
 
 创建私人频道的人员是私人频道所有者，只有私人频道所有者才能直接从中添加或删除人员。 私人频道所有者可将任何团队成员添加到自己创建的私人频道，包括来宾。 私人频道的成员具有安全的对话空间，添加新成员后，他们可以查看该私人频道中的所有对话（甚至是旧对话）。
 
 团队所有者可以查看其团队中所有私人频道的名称，也可以删除该团队中的任何私人频道。 （已删除的私人频道可在删除后的 30 天内还原）。 团队所有者无法查看私人频道中的文件或私人频道的对话和成员列表，除非他们是该私人频道的成员。
 
-团队成员只能查看已添加的专用频道。
+团队成员只能看到已添加到的专用频道。
 
 ## <a name="adding-and-removing-owners-and-members"></a>添加和删除所有者和成员
 
 如果私人频道所有者是一个或多个私人频道的最后一个所有者，则无法通过 Teams 客户端将其删除。
 
-如果专用频道所有者离开你的组织，或者从与团队关联的 Microsoft 365 组中删除了它们，则专用通道的成员将自动提升为专用通道所有者。
+如果专用频道所有者离开组织，或者从与团队关联的 Microsoft 365 组中删除，则专用频道的成员将自动提升为专用频道所有者。
 
 如果团队成员离开团队或从团队中删除成员，则该用户也将从团队中的所有私人频道中离开或删除。 如果将用户添加回团队，则必须将其添加回团队中的私人频道。
 
 ## <a name="channel-owner-settings"></a>频道所有者设置
 
-每个专用频道都有渠道所有者可以管理的自己的设置，包括为整个频道添加和删除成员、添加选项卡和 @mentioning 的功能。 这些设置独立于父团队设置。 创建私人频道时，它将继承父团队的设置，之后可以独立于父团队设置更改其设置。
+每个专用频道都有自己的设置，通道所有者可以管理这些设置，包括添加和删除成员、添加选项卡以及@mentioning频道的功能。 这些设置独立于父团队设置。 创建私人频道时，它将继承父团队的设置，之后可以独立于父团队设置更改其设置。
 
 私人频道所有者可以单击“**管理频道**”，然后使用“**成员**”和“**设置**”选项卡来添加或删除成员以及编辑设置。
 
 ![私人频道设置的屏幕截图](media/private-channels-in-teams-channel-settings.png)
 
-## <a name="private-channel-owner-and-member-actions"></a>专用频道所有者和成员操作
+## <a name="private-channel-owner-and-member-actions"></a>专用通道所有者和成员操作
 
 下表概述了所有者、成员和来宾可以在私人频道中执行的操作。
 
@@ -81,21 +81,21 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 |还原已删除的私人频道|是|否|否|是|否|否|
 |添加成员|否|不适用|不适用|是|否|否|
 |编辑设置|否|不适用|不适用|是|否|否|
-|管理选项卡和应用|否|不适用|不适用|是，必须为团队安装应用|频道所有者控制|否|
+|管理选项卡和应用|否|不适用|不适用|是的，必须为团队安装应用|通道所有者控制|否|
 
-## <a name="manage-the-lifecycle-of-private-channels"></a>管理专用频道的生命周期
+## <a name="manage-the-lifecycle-of-private-channels"></a>管理专用通道的生命周期
 
-请参阅 [管理团队中专用频道的生命周期](private-channels-life-cycle-management.md) ，获取有关如何管理组织中专用频道生命周期的指南。 这包括如何控制组织中的用户是否可以创建私人频道、如何代表团队所有者创建私人频道、如何出于存档和审核目的获取所有私人频道消息的列表，以及其他管理任务。  
+有关如何 [管理组织中专用频道生命周期](private-channels-life-cycle-management.md) 的指导，请参阅在 Teams 中管理专用频道的生命周期。 这包括如何控制组织中的用户是否可以创建私人频道、如何代表团队所有者创建私人频道、如何出于存档和审核目的获取所有私人频道消息的列表，以及其他管理任务。  
 
 ## <a name="private-channel-sharepoint-sites"></a>私人频道 SharePoint 网站
 
-每个专用频道都有其自己的 SharePoint 网站。 单独的网站用于确保对专用信道文件的访问仅限于专用通道的成员。 默认情况下，这些网站是使用文档库创建的，并且可以通过 [网站管理界面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)轻松地增强到功能齐全的网站。 每个网站在与父团队的网站相同的地理区域中创建。 这些轻型网站具有自定义模板 ID“TEAMCHANNEL#0”，可通过 PowerShell 和 Graph API 实现更轻松的管理。
+每个专用频道都有自己的 SharePoint 网站。 单独的网站是为了确保只能访问专用通道文件的成员。 默认情况下，这些网站是使用文档库创建的，可以通过网站管理界面轻松增强为功能齐全的 [网站](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)。 每个网站在父团队的网站所在同一地理区域中创建。 这些轻型网站具有自定义模板 ID“TEAMCHANNEL#0”，可通过 PowerShell 和 Graph API 实现更轻松的管理。
 
-专用频道网站同步数据分类，并从父团队的网站继承来宾访问权限。 网站所有者和成员组的成员身份与团队中的专用频道的成员身份保持同步。 对 SharePoint 中的所有者或成员组的成员身份所做的任何更改都会自动恢复到专用频道成员身份。 在某些用户需要访问文档而无需访问私人频道消息的情况下，请将它们添加到网站上的“访问者”组或与所有者和成员组分开的新组中。
+专用频道网站同步数据分类，从父团队的网站继承来宾访问权限。 网站所有者和成员组的成员身份与 Teams 中专用频道的成员身份保持同步。 对 SharePoint 中所有者或成员组的成员身份的任何更改都会在四小时内自动还原为专用频道成员身份。 在某些用户需要访问文档而无需访问私人频道消息的情况下，请将它们添加到网站上的“访问者”组或与所有者和成员组分开的新组中。
 
-团队管理专用通道网站的生命周期。 如果网站在团队外删除，后台作业将在四个小时内恢复网站，只要专用通道仍处于活动状态。 如果网站被永久删除，则为专用信道设置新网站。
+Teams 管理专用频道网站的生命周期。 如果网站在 Teams 外部删除，则后台作业在四小时内还原网站，只要专用频道仍处于活动状态。 如果网站被永久删除，则为专用通道预配一个新站点。
 
-如果已还原专用频道或包含专用频道的团队，则会将这些网站还原。 如果专用通道网站已还原，并且超过了30天的专用信道软删除窗口，则网站将作为独立网站运行。
+如果还原了专用频道或包含专用频道的团队，则网站会随其还原。 如果已还原专用频道网站，并且该站点超出专用通道的 30 天软删除窗口，则该网站将作为独立站点运行。
 
 ## <a name="private-channel-message-compliance-records"></a>私人频道消息合规记录
 
@@ -103,21 +103,21 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 有关对私人频道消息执行电子数据展示搜索的详细信息，请参阅[私人频道的电子数据展示](ediscovery-investigation.md#ediscovery-of-private-channels)。
 
-## <a name="considerations-around-file-access-in-private-channels"></a>专用频道中的文件访问方面的注意事项
+## <a name="considerations-around-file-access-in-private-channels"></a>有关在专用通道中访问文件的注意事项
 
 在私人频道中创建新的 OneNote 笔记本时，其他用户仍可以访问该笔记本，因为其行为与在私人频道 SharePoint 网站中与用户共享任何其他项目的访问权限相同。
 
 如果通过 SharePoint 向用户授予对私人频道中的笔记本的访问权限，则从团队或私人频道中删除用户将不会删除用户对该笔记本的访问权限。
 
-如果现有笔记本作为选项卡添加到专用频道，则不会更改对专用频道的访问，并且该笔记本将保留其现有权限。
+如果将现有笔记本作为选项卡添加到专用频道，则对专用频道的访问不会更改，并且笔记本保留其现有权限。
 
-## <a name="private-channel-limitations"></a>专用频道限制
+## <a name="private-channel-limitations"></a>专用通道限制
 
 目前，私人频道支持连接器和选项卡（Stream、Planner 和 Forms 除外）。 我们正致力于为私人频道（包括消息传递扩展和机器人）提供完整的应用支持。
 
 每个团队最多可拥有 30 个私人频道，每个私人频道最多可拥有 250 个成员。 30 个私人频道限制是对每个团队 200 个标准频道限制的补充。 
 
-从现有团队创建团队时，不会复制现有团队中的任何专用频道。
+从现有团队创建团队时，不会复制现有团队中任何专用频道。
 
 ## <a name="related-topics"></a>相关主题
 
@@ -125,4 +125,4 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 [Teams PowerShell 概览](teams-powershell-overview.md)
 
-[将 Microsoft Graph API 与 Teams 结合使用](https://docs.microsoft.com/graph/api/resources/teams-api-overview)
+[将 Microsoft Graph API 与 Teams 结合使用](/graph/api/resources/teams-api-overview)

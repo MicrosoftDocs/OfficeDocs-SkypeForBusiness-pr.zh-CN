@@ -1,5 +1,5 @@
 ---
-title: 规划 Skype for business 到 Microsoft 团队升级
+title: 规划 Skype for Business 到 Microsoft Teams 的升级
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 了解如何通过登记利益干系人来规划升级，然后设置项目范围。
+description: 了解如何通过登记利益干系人，然后确定项目范围来规划升级。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,28 +20,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76bf5c09a90bc426db2eaa85918fd7e711f5b13d
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: c9438f7f8fa97507e78e64633383e29ad032c3e4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578435"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119071"
 ---
 # <a name="plan-for-your-upgrade"></a>规划升级
 
-![团队升级旅程的示意图](media/upgrade-banner-main.png "确保您的项目已针对合适的项目团队进行了成功设置。定义项目范围、目标和日程表。确认技术和用户准备情况。执行推出计划。保持动量以最大化结果。")
+![Teams 升级旅程图](media/upgrade-banner-main.png "确保项目已设置好，以与合适的项目团队一起获得成功。定义项目范围、目标和日程表。确认技术和用户就绪性。执行推出计划。保持动力以最大化结果。")
 
-正常的技术环境、持续的用户使用情况以及所有业务目标的实现均以正确的规划开始。 实体计划为你的升级项目提供了一个框架，确保所有利益干系人都能达到相同的目标。 通过花费时间来正确定义成功，你可以在你的部署过程中测量结果，并验证你是否正在获得所需的结果。 规划旅行包括：
+良好的技术环境、持续采用用户以及实现业务目标都从适当的规划开始。 可靠的计划为升级项目提供了一个框架，并确保所有利益干系人都致力于实现相同的目标。 通过花时间正确定义成功，可以在部署进行时测量结果，并验证是否实现了想要的结果。 规划旅程包括：
 
 - [登记项目利益干系人](upgrade-enlist-stakeholders.md)
-- [定义项目的范围](https://aka.ms/SkypetoTeams-Scope)
-- [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [定义项目范围](./upgrade-define-project-scope.md)
+- [了解 Skype for Business 和 Teams 的共存和互操作性](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [根据业务需求选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [规划用户试点](pilot-essentials.md)
 
-计划旅行后，您将在[实施升级](upgrade-to-teams.md)之前阅读有关[准备环境](upgrade-prepare-environment.md)和[准备组织](upgrade-prepare-organization.md)的主题。  
+规划好旅程后，将阅读有关在实施升级之前准备环境和准备[](upgrade-prepare-environment.md)组织[的主题](upgrade-to-teams.md)。 [](upgrade-prepare-organization.md)  
 
 > [!TIP]
-> 加入我们的现场互动式研讨会，我们将分享指导、最佳做法和资源，旨在开始升级规划和实施。
+> 和我们一起参加实时交互式研讨会，我们将分享指导、最佳做法和资源，旨在启动升级规划和实施。
 >
-> 首先加入 [升级](https://aka.ms/SkypeToTeamsPlanning) 会话的计划以开始使用。
+> 先加入 [计划升级](./upgrade-workshops-landing-page.yml) 会话才能开始。

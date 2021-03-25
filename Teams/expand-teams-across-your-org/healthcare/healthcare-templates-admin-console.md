@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 通过提供预定义的设置、频道和应用模板，使用管理中心中的 Microsoft Teams 模板或借助 Microsoft Graph 快速轻松地创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b45c949b70aa2a299f2aafe54d81cdd8a1a6c0b5
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
-ms.translationtype: HT
+ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260304"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117870"
 ---
 # <a name="create-a-team-using-teams-healthcare-templates"></a>使用 Teams 医疗模板创建团队
 
@@ -67,7 +67,7 @@ Microsoft Teams 管理员可以使用 Teams 管理中心使用 Teams 模板创�
 
 ## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>将 Teams 模板与 Microsoft Graph 一起使用
 
-开发人员可使用 Microsoft Graph 通过 Teams 模板创建团队。 我们目前提供两种第一方医疗模板，可用于多种情况。 要总体上了解有关团队模板的详细信息，请参阅 [开始使用 Teams 模板](../../get-started-with-teams-templates.md)。 有关 Teams 模板和 Microsoft Graph 的信息，请参阅 [Microsoft Teams API 概述](https://docs.microsoft.com/graph/teams-concept-overview?view=graph-rest-1.0) 和 [teamsTemplate 资源类型](https://docs.microsoft.com/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+开发人员可使用 Microsoft Graph 通过 Teams 模板创建团队。 我们目前提供两种第一方医疗模板，可用于多种情况。 要总体上了解有关团队模板的详细信息，请参阅 [开始使用 Teams 模板](../../get-started-with-teams-templates.md)。 有关 Teams 模板和 Microsoft Graph 的信息，请参阅 [Microsoft Teams API 概述](/graph/teams-concept-overview?view=graph-rest-1.0) 和 [teamsTemplate 资源类型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
 
 ### <a name="ward-template"></a>病房模板
 
@@ -93,7 +93,7 @@ Microsoft Teams 管理员可以使用 Teams 管理中心使用 Teams 模板创�
 
 ### <a name="how-to-use-first-party-templates"></a>如何使用第一方模板
 
-要使用这些模板，只需将请求正文中的“template@odata.bind”属性从“标准”更改为上述 TemplateID。  要详细了解如何部署 Teams 模板，请参阅 Microsoft Graph 文章，了解如何[创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)。
+要使用这些模板，只需将请求正文中的“template@odata.bind”属性从“标准”更改为上述 TemplateID。  要详细了解如何部署 Teams 模板，请参阅 Microsoft Graph 文章，了解如何[创建团队](/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > 模板中的频道将自动创建在“常规”选项卡下方。

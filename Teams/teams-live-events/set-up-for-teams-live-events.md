@@ -16,16 +16,16 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: 在 Teams 中设置实时事件，包括设置网络、分配许可证、启用实时事件功能和计划，以及视频分发解决方案。
+description: 在 Teams 中为实时事件设置，包括设置网络、分配许可证、启用实时事件功能和计划，以及视频分发解决方案。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 108c6ba6730751c9858a3c4a45c8060c231be4a1
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: cc9f50e2f6a0b2433bbff07e674453a63854bf51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461002"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119131"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -33,7 +33,7 @@ ms.locfileid: "50461002"
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>第 1 步：在 Teams 中为实时事件设置网络
 
-在 Teams 中制作的实时事件要求你[为 Teams 准备贵组织的网络](https://docs.microsoft.com/microsoftteams/prepare-network)。  
+在 Teams 中制作的实时事件要求你[为 Teams 准备贵组织的网络](../prepare-network.md)。  
 
 ## <a name="step-2-get-and-assign-licenses"></a>第 2 步：获取和分配许可证
 
@@ -44,13 +44,13 @@ ms.locfileid: "50461002"
 实时事件策略用于控制组织中的哪些人员可以主持实时事件，以及其创建的事件中的可用功能。 可使用默认策略或创建一个或多个自定义实时事件策略。 创建自定义策略后，将其分配给组织中的一个或多个用户组。
 
 > [!NOTE]
-> 除非创建和分配自定义策略 (，否则组织中的用户将) 全局默认策略。 默认情况下，在全局策略中，已为 Teams 用户启用实时事件安排，已关闭实时辅助字幕与字幕（转录），组织中的每个人都可以加入实时事件，并且录制设置已设置为“始终录制”。
+> 除非创建和分配自定义策略 (，否则组织中的用户将) 组织范围的默认策略。 默认情况下，在全局策略中，已为 Teams 用户启用实时事件安排，已关闭实时辅助字幕与字幕（转录），组织中的每个人都可以加入实时事件，并且录制设置已设置为“始终录制”。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>创建或编辑实时事件策略
 
 <a name="bkcreatepolicy"> </a>
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"会议**  >  **实时事件"策略**。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"会议**  >  **实时事件策略"。**
 2. 执行下列选项之一：
 
     - 如果要编辑现有默认策略，请选择“**全局(默认为组织范围)**”。
@@ -78,16 +78,16 @@ ms.locfileid: "50461002"
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>允许用户安排使用外部应用或设备制作的事件
 
-用户若要计划使用外部应用或设备生成的事件，还必须执行以下步骤：
+若要让用户计划使用外部应用或设备生成的事件，还必须执行以下步骤：
 
-1. 为组织中的用户启用 Microsoft Stream。 流作为符合条件的 Microsoft 365 或 Office 365 订阅的一部分提供，或作为独立服务提供。 Stream 未包含在商业协作版或商业高级版计划中。 有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。
+1. 为组织中的用户启用 Microsoft Stream。 流作为符合条件的 Microsoft 365 或 Office 365 订阅的一部分提供，或作为独立服务提供。 Stream 未包含在商业协作版或商业高级版计划中。 有关详细信息，请参阅 [Stream 许可概述](/stream/license-overview)。
 
    >[!Note]
-   > 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。 详细了解如何向用户 [**分配许可证**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，以便用户可以访问 Stream。 确保未根据本文中的定义阻止用户 [**流**](https://docs.microsoft.com/stream/disable-user-organization)。
+   > 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。 详细了解如何向用户 [**分配许可证**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，以便用户可以访问流。 确保未根据本文中的定义阻止用户 [**流**](/stream/disable-user-organization)。
 
-2. 确保用户在 Stream 中具有实时事件创建权限。 默认情况下，管理员可以使用外部应用或设备创建事件。 Stream 管理员可以在 Stream 中[允许其他用户创建实时事件](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)。
+2. 确保用户在 Stream 中具有实时事件创建权限。 默认情况下，管理员可以使用外部应用或设备创建事件。 Stream 管理员可以在 Stream 中[允许其他用户创建实时事件](/stream/live-event-administration#enabling-and-restricting-users-to-creating)。
 
-3. 确保实时事件组织者已同意由 Stream 管理员设置的公司策略。如果 Stream 管理员已[设置公司准则策略](https://docs.microsoft.com/stream/company-policy-and-consent)，并要求员工在保存内容之前接受此策略，则用户在 Teams 中创建实时事件（使用外部应用或设备）之前必须这样做。 在组织中推出实时事件功能之前，请确保将要创建这些实时事件的用户已同意该策略。
+3. 确保实时事件组织者已同意由 Stream 管理员设置的公司策略。如果 Stream 管理员已[设置公司准则策略](/stream/company-policy-and-consent)，并要求员工在保存内容之前接受此策略，则用户在 Teams 中创建实时事件（使用外部应用或设备）之前必须这样做。 在组织中推出实时事件功能之前，请确保将要创建这些实时事件的用户已同意该策略。
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>第 4 步：在 Teams 中为实时事件设置视频分发解决方案
 
@@ -103,7 +103,7 @@ ms.locfileid: "50461002"
 
 - **Ramp OmniCache** 提供下一代网络分发，并确保跨全球 WAN 的视频内容无缝交付，从而帮助事件制作者优化网络带宽并支持成功的实时事件广播和点播流。 即将对在 Teams 中制作的实时事件提供 OmniCache 支持。 [了解详细信息](https://rampecdn.com)。
 
-- **Riverbed（** 网络优化的行业标准）正在将加速解决方案扩展到 Microsoft Teams 和 Stream。  现在，Microsoft 365 客户可以放心地加速 365 个流量，包括 Teams 和 Stream，以及大量其他领先的企业 SaaS 服务，从任何位置提高员工的工作效率。 可以通过轻松设置来启用团队和流加速，同时提供 Riverbed 的一流支持和持续投资的所有保证。
+- **Riverbed（** 网络优化的行业标准）正在将加速解决方案扩展到 Microsoft Teams 和 Stream。  现在，Microsoft 365 客户可以放心地加快包括 Teams 和 Stream 在内的 365 流量，以及大量其他领先的企业 SaaS 服务，从任何位置提高员工工作效率。 可以通过轻松设置来启用团队和流加速，同时提供 Riverbed 的一流支持和持续投资的所有保证。
 
 > [!NOTE]
 > 你选择的 SDN 或 eCDN 解决方案受所选 **第三方提供商的服务条款和隐私策略** 的约束，这将制约你对提供商解决方案的使用。 你对提供商解决方案的使用将不受 Microsoft 批量许可条款或联机服务条款的约束。 如果你不同意 **第三方提供商的条款**，则不要在 Teams 中启用该解决方案。
@@ -116,6 +116,6 @@ ms.locfileid: "50461002"
 
 ### <a name="related-topics"></a>相关主题
 
-- [什么是 Teams 实时事件？](what-are-teams-live-events.md)
+- [什么是 Teams 实时活动?](what-are-teams-live-events.md)
 - [规划 Teams 实时事件](plan-for-teams-live-events.md)
 - [配置 Teams 实时事件设置](configure-teams-live-events.md)

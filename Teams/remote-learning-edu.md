@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 391f93ba69cb10cb892b398d213a5ba04e692b32
-ms.sourcegitcommit: 481d18b76304adfa340b5f1b2f1b7965e9ff4993
+ms.openlocfilehash: 08444efa4a8fa96b64dd92d9be66b0f324010c14
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49586600"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117650"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -65,12 +65,12 @@ Teams 拥有台式机（Windows、Mac 和 Linux）、网络和移动（Android �
 
 Teams 利用 Microsoft 365 功能对用户进行身份验证并提供服务。 行政人员、讲师和学生应建立身份标识，以便进行协作。 如果标识尚不存在，请按照以下过程建立。
 
-[需要向用户分配许可证](teams-edu-licensing.md)，然后他们才能使用 Teams 功能。 Teams 依赖于其他 Microsoft 365 功能（如 [Microsoft 365 组](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md)）来实现协作。 如果同时启用了所有这些服务，用户将可获得最佳 Teams 体验。 [由 Google 托管电子邮件服务的用户可以使用 Teams](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
+[需要向用户分配许可证](teams-edu-licensing.md)，然后他们才能使用 Teams 功能。 Teams 依赖于其他 Microsoft 365 功能（如 [Microsoft 365 组](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md)）来实现协作。 如果同时启用了所有这些服务，用户将可获得最佳 Teams 体验。 [由 Google 托管电子邮件服务的用户可以使用 Teams](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
-Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费的。 有关如何部署 Office 365 并让整个教育机构开始在 Teams 上使用的 IT 指南，请参阅[此页面](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 要获得支持，你可以在[此处](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提交票证，如需获取有关 Teams 的培训，请访问当地的 Microsoft Store 以与专家交谈。
+Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费的。 有关如何部署 Office 365 并让整个教育机构开始在 Teams 上使用的 IT 指南，请参阅[此页面](/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 要获得支持，你可以在[此处](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提交票证，如需获取有关 Teams 的培训，请访问当地的 Microsoft Store 以与专家交谈。
 
 > [!NOTE]
-> 有关 EDU 部署的最新信息，请参阅 [COVID-19 期间 M365 EDU 部署更新指南](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)。
+> 有关 EDU 部署的最新信息，请参阅 [COVID-19 期间 M365 EDU 部署更新指南](/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)。
 
 ## <a name="easily-set-up-teams"></a>轻松设置团队
 
@@ -78,7 +78,7 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 允许用户创建团队
 
-当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 **默认情况下，每个人都可创建 Microsoft 365 组和团队**。 有时，此功能可能并不适用。例如，一些客户可能想限制中小学生创建团队。 如果需要，可在你的环境中将 Microsoft 365 组和团队的创建范围[限制在某些安全组内](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
+当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 **默认情况下，每个人都可创建 Microsoft 365 组和团队**。 有时，此功能可能并不适用。例如，一些客户可能想限制中小学生创建团队。 如果需要，可在你的环境中将 Microsoft 365 组和团队的创建范围[限制在某些安全组内](/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
 当你允许每个人（包括学生）为班级、研究、小组项目和学习小组创建团队时，高等教育机构将会受益。 中小学学校则可能希望限制学生创建团队，确保所有学生与学生之间的交流都在包含成人的论坛内进行。 在这种情况下，可将 Microsoft 365 组和团队的创建人员限制为所有教师和行政人员。
 
@@ -98,7 +98,7 @@ Teams 策略可用于控制可向特定用户或用户组提供的选项。 通�
 **中小学学校的学生** 需要的则可能是面向学生提供的限制功能。 策略可设置学生可执行操作的边界。 由于学生通常是最大的用户群体，并且通常适用限制性最强的设置，因此建议针对“全局（默认为组织范围）”策略进行学生策略更改。
 
 > [!IMPORTANT]
-> 对于分配给任何用户的会议策略，我们建议将“自动管理人员”设置设为“组织中的每个人”。 此设置将确保未经身份验证的用户必须经过会议厅的允许才可参加 Teams 会议。 有关详细信息，请参阅[管理 Teams 中的会议策略](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)。
+> 对于分配给任何用户的会议策略，我们建议将“自动管理人员”设置设为“组织中的每个人”。 此设置将确保未经身份验证的用户必须经过会议厅的允许才可参加 Teams 会议。 有关详细信息，请参阅[管理 Teams 中的会议策略](./meeting-policies-in-teams.md#automatically-admit-people)。
 
 **小学的行政人员和教师** 分配得到的策略应能够授予学生可能受到限制的核心功能。 创建允许进行私人聊天和会议安排的新策略（新策略的默认设置）。 [向员工和教师批量分配这些策略](batch-group-policy-assignment-edu.md)。
 
@@ -112,7 +112,7 @@ Microsoft Teams 教育版提供了针对教育用途的  [特定团队类型](
 - 分数
 - OneNote 课堂笔记本  
 - [课堂材料文件夹](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) 确保学生只读内容
-- [见解](https://docs.microsoft.com/microsoftteams/class-insights)，可提供有关每课堂的学生参与度、作业和幸福感的实时数据。 
+- [见解](./class-insights.md)，可提供有关每课堂的学生参与度、作业和幸福感的实时数据。 
 - [教师提前访问](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)先设置班级，再添加学生 
 - 可以静音处理捣乱的学生及其他特殊权限  
 
@@ -127,7 +127,7 @@ Microsoft Teams 教育版提供了针对教育用途的  [特定团队类型](
 
 #### <a name="automatic-team-creation-using-sds"></a>使用 SDS 自动创建团队
 
-自动创建团队可节省 IT 管理员和教师的时间。 它确保教师已经创建了所有课堂团队，并已准备好在登录时设置。 [学校数据同步 (SDS)](https://docs.microsoft.com/SchoolDataSync)是一款免费的 Office 365 教育工具，可以从教育机构的记录系统中读取数据，例如学生信息系统（SIS）或学习管理系统（LMS）。 SDS 使用这些数据以多种方式丰富 Office 365 的设置，包括批量创建课堂团队，以及与信息系统保持同步，以便在注册情况发生变化时随时更新教师和学生成员。 SDS 可以导入任何记录系统中的数据，并将内置连接器用于许多世界现有[ SIS 供应商](https://docs.microsoft.com/schooldatasync/what-sis-and-mis-vendors-does-school-data-sync-support)。 我们强烈推荐使用SDS，因为它有以下优点。  
+自动创建团队可节省 IT 管理员和教师的时间。 它确保教师已经创建了所有课堂团队，并已准备好在登录时设置。 [学校数据同步 (SDS)](/SchoolDataSync)是一款免费的 Office 365 教育工具，可以从教育机构的记录系统中读取数据，例如学生信息系统（SIS）或学习管理系统（LMS）。 SDS 使用这些数据以多种方式丰富 Office 365 的设置，包括批量创建课堂团队，以及与信息系统保持同步，以便在注册情况发生变化时随时更新教师和学生成员。 SDS 可以导入任何记录系统中的数据，并将内置连接器用于许多世界现有[ SIS 供应商](/schooldatasync/what-sis-and-mis-vendors-does-school-data-sync-support)。 我们强烈推荐使用SDS，因为它有以下优点。  
 
 ###### <a name="benefits"></a>优点
 
@@ -137,11 +137,11 @@ Microsoft Teams 教育版提供了针对教育用途的  [特定团队类型](
 - [教师提前访问](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)：教师在录取学生之前有时间准备他们的团队。  
 - 可选地创建用户并应用 Office 365 许可证。
 - 创建跨 Office 365 使用的安全组，包括团队策略。
-- 为限定范围的管理委托和[教师密码重置](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset)创建管理单元。 
+- 为限定范围的管理委托和[教师密码重置](/schooldatasync/how-to-enable-teacher-password-reset)创建管理单元。 
 - 为了减少管理员的工作，会有用于大规模处理的内置错误、重试处理、节流回退和会话稳定性。  
 - 内置的清理功能，可在组和团队过时后重命名和存档。
-- [分数同步](https://docs.microsoft.com/schooldatasync/grade-sync)：教师可以以小组为单位进行评分，并让系统自动将各小组的成绩写回 SIS 的成绩单上。 
-- [学生数据保护](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data)：防止学生使用非 Microsoft 的应用程序，并跟踪和管理家长许可。 
+- [分数同步](/schooldatasync/grade-sync)：教师可以以小组为单位进行评分，并让系统自动将各小组的成绩写回 SIS 的成绩单上。 
+- [学生数据保护](/schooldatasync/protecting-student-personal-data)：防止学生使用非 Microsoft 的应用程序，并跟踪和管理家长许可。 
 - 为了丰富有关的教育见解，导入的数据将用于用户角色、组织（学校）和其他重要数据。  
 
 ##### <a name="considerations"></a>注意事项
@@ -150,13 +150,13 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 ##### <a name="get-started"></a>入门
 
-首先，请访问[学校数据同步（SDS）](https://docs.microsoft.com/SchoolDataSync)并联系[https://aka.ms/sdssupport](https://aka.ms/sdssupport)部署协助。  
+首先，请访问[学校数据同步（SDS）](/SchoolDataSync)并联系[https://aka.ms/sdssupport](https://aka.ms/sdssupport)部署协助。  
 
 #### <a name="educator-led-team-creation-from-office-365-class-groups"></a>由 Office 365 课堂教师领导的团队创建
 
 如果你想让教师轻松快速地创建他们需要的课堂，那么创建由教师领导的团队是一种很好的部署方法。 我们还建议拥有50万个团队的机构使用这种方法来最小化外部创建的团队的数量。  
 
-这种混合方法允许你使用 SDS 为每个课程创建组（推荐），或者使用[Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes)自己创建组。 在课堂组准备好之后，教育者可以使用建议的 **班级图标** 将他们的群组转换成小组。
+这种混合方法允许你使用 SDS 为每个课程创建组（推荐），或者使用[Graph API](/graph/api/educationroot-post-classes)自己创建组。 在课堂组准备好之后，教育者可以使用建议的 **班级图标** 将他们的群组转换成小组。
 
 :::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="显示建议课堂图标的屏幕截图":::
 
@@ -169,11 +169,11 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
     - EDU 客户成功团队可提供免费部署协助。
     - 可选地创建用户并应用 Office 365 许可证。
     - 创建跨 Office 365 使用的安全组，包括团队策略。
-    - 为限定范围的管理委托和[教师密码重置](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset)创建管理单元。
+    - 为限定范围的管理委托和[教师密码重置](/schooldatasync/how-to-enable-teacher-password-reset)创建管理单元。
     - 为了减少管理员的工作，会有用于大规模处理的内置错误、重试处理、节流回退和会话稳定性。 
     - 内置的清理功能，可在组和团队过时后重命名和存档。 
-    - [分数同步](https://docs.microsoft.com/schooldatasync/grade-sync)：教师可以以小组为单位进行评分，并让系统自动将各小组的成绩写回 SIS 的成绩单上。 
-    - [学生数据保护](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data)：防止学生使用非 Microsoft 的应用程序，并跟踪和管理家长许可。 
+    - [分数同步](/schooldatasync/grade-sync)：教师可以以小组为单位进行评分，并让系统自动将各小组的成绩写回 SIS 的成绩单上。 
+    - [学生数据保护](/schooldatasync/protecting-student-personal-data)：防止学生使用非 Microsoft 的应用程序，并跟踪和管理家长许可。 
     - 为了丰富有关的教育见解，导入的数据将用于用户角色、组织（学校）和其他重要数据。
 - Graph API
     - 额外的灵活性和控制。
@@ -187,22 +187,22 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 ##### <a name="get-started"></a>开始使用
 
-开始使用 SDS 方法，请访问[学校数据同步（SDS）](https://docs.microsoft.com/SchoolDataSync)并联系[https://aka.ms/sdssupport](https://aka.ms/sdssupport)部署协助。 
+开始使用 SDS 方法，请访问[学校数据同步（SDS）](/SchoolDataSync)并联系[https://aka.ms/sdssupport](https://aka.ms/sdssupport)部署协助。 
 
-若要使用 Graph API 方法，请参阅 [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-1.0&tabs=http) 并 [创建课堂团队](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http)。  
+若要使用 Graph API 方法，请参阅 [Graph API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0) 并 [创建课堂团队](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta)。  
 
 > [!NOTE]
 > 若要将此方法用于 SDS，需要在 SDS 配置文件中关闭自动团队创建切换。 你还可以通过使用两个 SDS 配置文件，将自动和教师端团队创建的组合用于所需的和可选的课堂团队。
 
 #### <a name="powershell-script-using-graph-apis"></a>PowerShell 脚本（使用 Graph API）
 
-借助 PowerShell，你可编写脚本来自动创建团队、频道和配置设置。 它要求管理员先创建组，再添加教师和学生，然后按[此处](https://docs.microsoft.com/graph/teams-create-group-and-team)所示创建团队。 此外，还可使用 Microsoft Graph API 创建、配置、克隆和存档团队。 有关详细信息，请参阅[将 Microsoft Graph API 与 Microsoft Teams 结合使用](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)协同工作，[Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams)和[创建课堂团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-6-create-a-team-with-a-non-standard-base-template-type)。 使用 Graph API 是获得更多控制和灵活性的好方法，它需要高级别的技术知识，并会在初始时间内花更多时间。
+借助 PowerShell，你可编写脚本来自动创建团队、频道和配置设置。 它要求管理员先创建组，再添加教师和学生，然后按[此处](/graph/teams-create-group-and-team)所示创建团队。 此外，还可使用 Microsoft Graph API 创建、配置、克隆和存档团队。 有关详细信息，请参阅[将 Microsoft Graph API 与 Microsoft Teams 结合使用](/graph/api/resources/teams-api-overview)协同工作，[Microsoft Teams PowerShell](/powershell/module/teams)和[创建课堂团队](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type)。 使用 Graph API 是获得更多控制和灵活性的好方法，它需要高级别的技术知识，并会在初始时间内花更多时间。
 
 ##### <a name="benefits"></a>优点
 
 - 额外的灵活性和控制。
 - 可用于创建教师提前访问团队或学生即时访问团队的选项。  
-- 如果[从组创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group)，则教师将拥有提前访问权限，并且将同步对 Azure AD 组的学生成员身份更改。
+- 如果[从组创建团队](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group)，则教师将拥有提前访问权限，并且将同步对 Azure AD 组的学生成员身份更改。
 
 ##### <a name="considerations"></a>注意事项
 
@@ -211,7 +211,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 - 成员身份更改不会与 SIS 同步。 
 
 > [!NOTE]
-> 课堂团队需要隐藏的组成员身份，以便只有课堂中的教师和学生可以查看班级的成员。 若要创建 Office 365 课堂组，请参阅[创建课堂团队](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http)以达到相同的隐私要求。
+> 课堂团队需要隐藏的组成员身份，以便只有课堂中的教师和学生可以查看班级的成员。 若要创建 Office 365 课堂组，请参阅[创建课堂团队](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta)以达到相同的隐私要求。
 
 #### <a name="manual-team-creation"></a>初始团队创建
 
@@ -241,15 +241,15 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>如何创建课堂团队，使教师可以在录取学生之前提前访问以设置团队？
 
-默认情况下，从组（通过 SDS、由教师领导或 Graph API）创建的团队会自动创建抢先体验团队。 若要使用 Graph API 创建自己的提前访问团队，需要[创建一个班级](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http)并[从组创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group)。
+默认情况下，从组（通过 SDS、由教师领导或 Graph API）创建的团队会自动创建抢先体验团队。 若要使用 Graph API 创建自己的提前访问团队，需要[创建一个班级](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta)并[从组创建团队](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group)。
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>如何检查是否已激活班级？
 
-在[团队资源类型](https://docs.microsoft.com/graph/api/resources/team?view=graph-rest-beta)中，我们添加了新属性 [isMembershipLimitedToOwners](https://docs.microsoft.com/graph/api/resources/team?view=graph-rest-beta#properties)，以确定是否已激活班级。 使用[“获取团队”API](https://docs.microsoft.com/graph/api/team-get?view=graph-rest-beta&tabs=http) 查询特定类的 ```isMembershipLimitedToOwners``` 属性。 如果团队已激活，将返回值 false。 如果团队尚未由团队所有者激活，将返回值 true。
+在[团队资源类型](/graph/api/resources/team?view=graph-rest-beta)中，我们添加了新属性 [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties)，以确定是否已激活班级。 使用[“获取团队”API](/graph/api/team-get?tabs=http&view=graph-rest-beta) 查询特定类的 ```isMembershipLimitedToOwners``` 属性。 如果团队已激活，将返回值 false。 如果团队尚未由团队所有者激活，将返回值 true。
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>如何为教师激活班级？
 
-使用[“更新团队”API](https://docs.microsoft.com/graph/api/team-update?view=graph-rest-beta&tabs=http) 并将 ```isMembershipLimitedToOwners``` 属性设置为 false，以便代表教师激活团队。 请注意，激活团队后无法撤消。
+使用[“更新团队”API](/graph/api/team-update?tabs=http&view=graph-rest-beta) 并将 ```isMembershipLimitedToOwners``` 属性设置为 false，以便代表教师激活团队。 请注意，激活团队后无法撤消。
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>创建职员团队，促进其沟通和协作
 
@@ -259,7 +259,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 ### <a name="collaborative-meetings-for-virtual-classes"></a>虚拟课堂协作会议
 
-[Microsoft Teams 会议](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)支持多达 250 个并发与会者，包括音频、视频、[内容共享](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7)、白板和共享笔记功能。 Teams 客户端中可以安排[在专用空间内或团队频道内召开的会议](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)，这样所有团队成员都能收到通知。 用户可以录制并保存会议，以便与会者以后查看。 录制的会议还可以进行[转录，以便轻松查找讨论的内容](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308)。 会议可使用笔记本电脑或手机的网络摄像头、麦克风和扬声器，并且你可以通过 [Microsoft Teams 优化设备](https://products.office.com/microsoft-teams/across-devices/devices)获得卓越的音频/视频质量。
+[Microsoft Teams 会议](./tutorial-meetings-in-teams.yml)支持多达 250 个并发与会者，包括音频、视频、[内容共享](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7)、白板和共享笔记功能。 Teams 客户端中可以安排[在专用空间内或团队频道内召开的会议](./tutorial-meetings-in-teams.yml)，这样所有团队成员都能收到通知。 用户可以录制并保存会议，以便与会者以后查看。 录制的会议还可以进行[转录，以便轻松查找讨论的内容](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308)。 会议可使用笔记本电脑或手机的网络摄像头、麦克风和扬声器，并且你可以通过 [Microsoft Teams 优化设备](https://products.office.com/microsoft-teams/across-devices/devices)获得卓越的音频/视频质量。
 
 在 Teams 中，会议组织者可以将所有与会者退出会议。 使用此功能，教师可在下课后防止学生不受监督地留在会议中。
 
@@ -276,7 +276,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>禁止用户更改个人资料照片
 
-Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果已关闭“-SetPhotoEnabled”设置，则用户不能添加、更改或删除个人资料图片。 若要防止学生或员工更改或删除个人资料图片，请在分配给他们的 Outlook 网页版邮箱策略中关闭此设置。
+Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果已关闭“-SetPhotoEnabled”设置，则用户不能添加、更改或删除个人资料图片。 若要防止学生或员工更改或删除个人资料图片，请在分配给他们的 Outlook 网页版邮箱策略中关闭此设置。
 
 例如，如果某位学生上传了由教育机构 IT 或 HR 部门批准的个人资料图片，则无需执行任何操作。 但是，如果某位学生上传了不当的图片，请根据教育机构的内部策略更改图片。
 
@@ -296,14 +296,14 @@ Microsoft 制作了[采用内容](https://support.office.com/article/video-moder
 
 其他支持资源包括：
 
-- [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)
 - [解决 Microsoft Teams 安装和更新问题](troubleshoot-installation.md)
 - [提交支持票证（可供教职员工使用）](https://aka.ms/edusupport)
 - [面向使用 Teams 的教师的支持和帮助中心](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
 - [学生版帮助中心](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
-- [适用于虚拟化桌面基础结构的 Teams](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [适用于虚拟化桌面基础结构的 Teams](./teams-for-vdi.md)
 - [如何快速优化面向远程员工的 Office 365 流量](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 - [监视和管理通话质量](monitor-call-quality-qos.md)
 - [验证 Teams 的服务运行状况](service-health.md)
-- [Teams 的支持资源](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+- [Teams 的支持资源](/microsoft-365/admin/contact-support-for-business-products)
 - [Teams 帮助中心](https://support.office.com/teams)

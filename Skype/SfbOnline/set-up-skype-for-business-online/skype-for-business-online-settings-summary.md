@@ -19,25 +19,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: '此 Skype for business 组织和用户设置摘要可帮助你了解有关公用 IM 连接、会议邀请、录制呼叫和会议等的详细信息。  '
-ms.openlocfilehash: a7c627620bba6d1249dcc6ce14bbaf25796b7173
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: '此 Skype for Business 组织和用户设置摘要可以帮助你详细了解公共 IM 连接、会议邀请、录制呼叫和会议等。  '
+ms.openlocfilehash: d48da549a48cf3326cc55a44d68ca36048fae439
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164121"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109918"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online 设置摘要
 
-**Skype For business 管理中心**包括您的整个组织和单个用户的设置。 
+**Skype for Business 管理中心** 包括整个组织以及单个用户的设置。 
   
 > [!NOTE]
->  你可能无法访问 Skype for Business Online 的所有功能，具体取决于你的位置。有关详细信息，请参阅[Microsoft 365 和 Office 365 的许可限制](https://go.microsoft.com/fwlink/?LinkId=529483)。 
+>  [!注释]  根据你的位置，你可能无法访问 Skype for Business Online 的所有功能。 有关详细信息，请参阅 [Microsoft 365 和 Office 365 的许可证限制](/microsoft-365/commerce/)。 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Skype for Business Online 组织设置
 <a name="__top"> </a>
 
-|**设置**|**说明**|**Default**|**了解详细信息**|
+|**设置**|**说明**|**Default**|**了解更多信息**|
 |:-----|:-----|:-----|:-----|
 |域联盟  <br/> |与使用 Skype for Business Online 的其他组织通信。  <br/> |已启用  <br/> |[允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |公共 IM 连接  <br/> |与 Skype for Business Online 用户通信。  <br/> |已启用  <br/> |[允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
@@ -53,7 +53,7 @@ ms.locfileid: "44164121"
 |音频和视频  <br/> |进行音频和视频对话：使用 Skype for Business Online  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |录制  <br/> |录制呼叫和会议  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |匿名与会者拨出  <br/> |通过让音频会议提供商呼叫匿名 Skype for Business Online 与会者来允许他们进行连接  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|禁用非存档功能  <br/> | 关闭当组织已将[内容添加到案例并将源放置在 Exchange 管理中心中的电子数据展示中心](https://go.microsoft.com/fwlink/?LinkId=529482)时，不捕获的功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/>  如果法律要求您以电子形式存储信息，请选择此选项。 <br/> |已禁用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|禁用非存档功能  <br/> | 关闭组织设置向案例添加内容并保留 Exchange 管理中心电子数据[](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)展示中心中的源时未捕获的功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/>  如果法律要求您以电子形式存储信息，请选择此选项。 <br/> |已禁用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
@@ -61,4 +61,3 @@ ms.locfileid: "44164121"
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

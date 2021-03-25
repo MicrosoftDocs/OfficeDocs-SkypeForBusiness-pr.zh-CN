@@ -17,18 +17,18 @@ description: 了解实时事件录制策略。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd67ce67d31effdba0d152a3d5920bb17f23b25
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615163"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119161"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams 中的实时事件录制策略
 
-你有几个选项用于录制 Microsoft Teams 实时事件。 录制选项是使用录制策略设置的。 本文介绍各种设置。
+有几个选项用于录制 Microsoft Teams 实时事件。 录制选项是使用录制策略设置的。 本文介绍各种设置。
 
-录制选项是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 设置的](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+录制选项是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 设置的](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 ## <a name="scheduling-and-option-behaviors"></a>计划和选项行为
 
@@ -38,7 +38,7 @@ ms.locfileid: "50615163"
 
   - 录制文件：提供录制文件，制作者和演示者可在事件结束后下载该文件。
 
-- 与会者可录制
+- 可用于与会者的录制
 
   - DVR：使用 DVR (数字) ，与会者可以在活动期间后退和暂停
 
@@ -46,15 +46,15 @@ ms.locfileid: "50615163"
 
 ## <a name="broadcast-recording-policy-setting"></a>广播录制策略设置
 
-作为广播策略的一部分，有一项设置可用于打开或关闭直播事件的录制。
+作为广播策略的一部分，有一个设置可以切换为为实时事件打开或关闭录制。
 
-|                                 | 录制者与演示者可用 | 与会者可录制 |
+|                                 | 录制者与演示者可用 | 可用于与会者的录制 |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| 始终记录               | 已禁用并选中                                | 已禁用并选中         |
-| 组织者可以录制，也可以不录制 | 已启用，默认情况下未选中                  | 已启用，默认情况下未选中   |
+| 始终记录               | 已禁用和已选择                                | 已禁用和已选择         |
+| 组织者可以录制或不录制 | 已启用，默认情况下未选中                  | 已启用，默认情况下未选中   |
 | 从不录制               | 已禁用且未选中                            | 已禁用且未选中      |
 
-当策略设置为"始终记录 **"时**，策略页具有以下选定选项：
+当策略设置为"始终 **记录"** 时，策略页具有以下选定选项：
 
 ![实时事件策略设置](../media/live-event-recording-policy.png "Microsoft Teams 管理中心中的实时事件策略设置屏幕截图")
 
@@ -62,15 +62,15 @@ ms.locfileid: "50615163"
 
 | 选项                                       | 省/市/自治区   | DVR                                                   | VOD                                                     | 录制                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| 录制者与演示者可用 | 选中     | DVR 可用，AZURE 媒体服务 (AMS) 存储 180 天 | 与会者可以访问和观看活动                     |                              |
-|                                                  | 未选中 | DVR 可用，AMS 资产存储 180 天 | 结束后，与会者无法访问活动 |                              |
-||已禁用 (未选择) |DVR 可用，并且 AMS 资产在事件后被删除|结束后，与会者无法访问活动||
-| 录制者与演示者可用 | 选中     |                                                           |                                                             | 创建并存储 MP4 |
+| 可供制作者和演示者使用的记录 | 选中     | DVR 可用，AZURE 媒体服务 (AMS) 存储 180 天 | 与会者可以访问和观看活动                     |                              |
+|                                                  | 未选中 | DVR 可用，AMS 资产存储 180 天 | 结束后，与会者无法访问事件 |                              |
+||已禁用 (未选中) |DVR 可用，事件后将删除 AMS 资产|结束后，与会者无法访问事件||
+| 可供制作者和演示者使用的记录 | 选中     |                                                           |                                                             | 创建并存储 MP4 |
 |                                                  | 未选中 |                                                           |                                                             | 未创建任何文件           |
 
 ### <a name="related-topics"></a>相关主题
 
-- [什么是 Teams 实时事件？](what-are-teams-live-events.md)
+- [什么是 Teams 实时活动?](what-are-teams-live-events.md)
 - [规划 Teams 实时事件](plan-for-teams-live-events.md)
 - [配置 Teams 实时事件设置](configure-teams-live-events.md)
 - [Teams 云会议录制](../cloud-recording.md)

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38e51b85e7ecf8efc61c6ca78ca16e4366372885
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ab70daffa91b534f15b032cd0c137efe89abb438
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756228"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117810"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -43,7 +43,7 @@ Teams 提供了一组丰富的工具，用于实现组织可能需要的任何�
 |<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|后续步骤|<ul><li>记录组织对团队创建、命名、分类和来宾访问的要求。</li><li>计划在 Teams 推出过程中实施这些要求。</li><li>沟通并发布策略，告知 Teams 用户他们预期的行为。</li></ul>|
 
 > [!NOTE]
-> 为帮助你提前规划， [请详细了解如何设置这些策略及其需要哪些许可证](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
+> 为帮助你提前规划， [请详细了解如何设置这些策略及其需要哪些许可证](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
 > 限制组和团队创建可能会降低用户的工作效率，因为许多 Microsoft 365 和 Office 365 服务要求创建组才能让服务正常工作。 有关其他信息，请导航到 并展开["为什么控制谁创建 Microsoft 365 组"。](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)
@@ -53,15 +53,15 @@ Teams 提供了一组丰富的工具，用于实现组织可能需要的任何�
 
 确定要求后，可以使用 Azure AD 控件实现它们。 有关如何实现这些设置的技术指南，请参阅：
 
-- [用于配置组设置的 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [用于配置组设置的 Azure Active Directory cmdlet](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [对 Azure Active Directory 中的 Microsoft 365 组强制实施命名策略](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [对 Azure Active Directory 中的 Microsoft 365 组强制实施命名策略](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
 - [Microsoft 365 组命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
-- [使用敏感度标签保护 Microsoft Teams、Microsoft 365 组和 SharePoint 网站中的内容](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [使用敏感度标签保护 Microsoft Teams、Microsoft 365 组和 SharePoint 网站中的内容](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [组、团队和 Yammer 的生命周期结束选项](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [组、团队和 Yammer 的生命周期结束选项](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>组和团队过期、保留和存档
 
@@ -88,7 +88,7 @@ Teams 提供了一组丰富的工具，用于实现组织可能需要的任何�
 
 有关如何实现这些设置的技术指南，请参阅：
 
-- [设置 Microsoft 365 组过期 。](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
+- [设置 Microsoft 365 组过期 。](/azure/active-directory/users-groups-roles/groups-lifecycle)
 
 - [设置 Teams 保留策略](retention-policies.md)。
 
@@ -98,7 +98,7 @@ Teams 提供了一组丰富的工具，用于实现组织可能需要的任何�
 
 对于需要快速载入和下载或用户和来宾的团队来说，必须一致地管理基于项目的成员或受限组的成员。 您的组织可能还需要确保所有当前成员都有在团队中的业务理由。 管理成员可能比较困难，因为团队所有者可以离开，并且用户在项目结束时或更改角色时通常不会自行离开组。 管理组成员身份（允许用户根据需要获取访问权限，但确保组没有不当访问风险）最好的方法是通过两个区域流程：权利管理和访问评审。
 
-[权利](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) 管理允许您委派给项目经理等人员，以将所需的所有资源（包括团队成员身份）收集到单个包中。 他们还可以定义谁可以提出请求：租户中的用户或其他连接的组织的用户。 项目经理将在电子邮件中收到访问请求，在 MyAccess 门户中批准或拒绝请求。 管理员可以配置访问条件，以包括过期日期或期限，除非续订访问权限，否则将用户或来宾从团队中删除。 管理员还可以设置与团队关联的组，以参与访问评审。 对于 [访问评审](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)，组所有者将收到定期提醒，提醒他们审阅团队成员。 访问评审包括建议，使组所有者可以更轻松地完成其常规证明过程。
+[权利](/azure/active-directory/governance/entitlement-management-overview) 管理允许您委派给项目经理等人员，以将所需的所有资源（包括团队成员身份）收集到单个包中。 他们还可以定义谁可以提出请求：租户中的用户或其他连接的组织的用户。 项目经理将在电子邮件中收到访问请求，在 MyAccess 门户中批准或拒绝请求。 管理员可以配置访问条件，以包括过期日期或期限，除非续订访问权限，否则将用户或来宾从团队中删除。 管理员还可以设置与团队关联的组，以参与访问评审。 对于 [访问评审](/azure/active-directory/governance/access-reviews-overview)，组所有者将收到定期提醒，提醒他们审阅团队成员。 访问评审包括建议，使组所有者可以更轻松地完成其常规证明过程。
 
 |-|-|-|
 |:-|:-|:-|
@@ -120,8 +120,8 @@ Teams 提供了一组丰富的工具，用于实现组织可能需要的任何�
 
 有关如何实现这些设置的技术指南，请参阅：
 
-- [权利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
-- [访问评审](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
+- [权利管理](/azure/active-directory/governance/entitlement-management-overview)
+- [访问评审](/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Teams 功能管理
 

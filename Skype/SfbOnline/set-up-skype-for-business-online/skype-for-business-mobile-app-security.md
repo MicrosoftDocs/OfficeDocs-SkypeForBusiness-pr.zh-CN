@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: '了解如何为你的用户设置移动应用安全性。 '
-ms.openlocfilehash: 2c22f384196f0f05ca89d6f0e07ae84a1548d78a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: '了解如何为用户设置移动应用安全性。 '
+ms.openlocfilehash: d599542970cec5aa4206f29d3ff7fa27ce36e9a0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010775"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109948"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Skype for Business 移动应用安全
 
@@ -34,12 +34,12 @@ ms.locfileid: "42010775"
   
 |||||
 |:-----|:-----|:-----|:-----|
-||**用户名/密码** <br/> |**应用数据（对话、<br/>联系人列表、会议）** <br/> |**诊断日志** <br/> |
-|**Android** <br/> |我们将凭据信息存储在 Android 帐户中。 我们还会在将凭据保存到帐户之前对其进行加密。 我们使用 " **AES/CBC/PKCS5Padding** " 算法进行加密。 <br/> |我们使用名为[sqlcipher](https://www.zetetic.net/sqlcipher/design/)的库存储在加密的 SQL 数据库中。 我们在 CBC 模式下使用的是256位 AES 的默认算法。 Rest 上的数据始终在数据库文件中加密，并且仅在应用的易失性内存和调用堆栈内部传输时才被加密。 我们还使用与用户的用户名和密码加密相同的方法加密语音邮件文件（它们不存储在数据库中）。 语音邮件在磁盘上暂时未加密以允许播放。  <br/> |此信息不加密。  <br/> |
-|**iOS** <br/> |我们不会在密钥链中加密用户名/密码。 但是，密钥链是加密的。  <br/> |我们已在应用存储中的所有文件上使用[NSFileProtectionCompleteUntilFirstUserAuthentication](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica)数据保护标志。 这意味着应用存储中的文件将被加密，直到用户在设备重启后首次解锁设备时。 <br/> |此信息不加密。  <br/> |
-|**Windows Phone** <br/> |Windows Phone 使用 Windows 中的 DPAPI （数据保护 API）来保护密码。 我相信使用的加密方案是 AES。 Windows 无法为我们提供配置密钥大小（或方案）的选项，因此它就是 DPAPI 提供的任何内容。 它将使用设备 TPM 保护特定于用户和设备的密钥。 请注意，DPAPI 密钥并非特定于该应用。  <br/> |WP 应用数据通过[DPAP](https://msdn.microsoft.com/library/windows/apps/hh487164%28v=vs.105%29.aspx)I （如凭据）进行保护。 根据所需的详细信息量，应用数据的一些索引信息受（非 DPAPI） AES 加密的保护，以避免 salting，因此我们可以查找而不进行解密，并且该密钥又受 DPAPI 保护。 可以通过同一电话中的任何进程读取缓存的数据，假定它可以访问我们的数据文件夹。 Windows 加密不会防止受到沙盒破坏，仅限于外部访问尝试。  <br/> |此信息不加密。  <br/> |
+||**用户名/密码** <br/> |**应用数据 (对话、 <br/> 联系人列表、会议)** <br/> |**诊断日志** <br/> |
+|**Android** <br/> |我们将凭据信息存储在 Android 帐户。 我们还在将凭据保存到"帐户"之前对其进行加密。 我们使用 **"AES/CBC/PKCS5Padding"** 算法进行加密。 <br/> |我们使用名为 [sqlcipher](https://www.zetetic.net/sqlcipher/design/)的SQL存储在加密的数据库中。 我们在 CBC 模式下使用 256 位 AES 的默认算法。 其余数据始终在数据库文件中加密，并且仅在应用的易失性内存和调用堆栈内传输时未加密。 我们还使用与用户名称和密码加密相同的方法加密语音邮件 (它们不会存储在 DB) 。 语音邮件在磁盘上暂时未加密，以便播放。  <br/> |此信息未加密。  <br/> |
+|**iOS** <br/> |我们不加密密钥链中的用户名/密码。 但是，密钥链是自行加密的。  <br/> |我们已对应用存储中所有文件使用 [NSFileProtectionCompleteUntilFirstUserAuthentication](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica) 数据保护标志。 这意味着，应用存储中的文件将加密，直到用户在设备重新启动后首次解锁设备。 <br/> |此信息未加密。  <br/> |
+|**Windows Phone** <br/> |Windows Phone 使用 WINDOWS (保护 API) DPAPI 保护密码。 我认为使用的加密方案是 AES。 Windows 未提供用于配置密钥大小的选项， (方案) DPAPI 提供的任何功能。 它将使用设备 TPM 保护特定于用户和设备的密钥。 请注意，DPAPI 密钥不特定于应用。  <br/> |WP 应用数据受 [DPAP](/previous-versions/windows/apps/hh487164(v=vs.105))I 保护，如 creds。 根据我们需要的详细信息，应用数据的一些索引信息受 (非 DPAPI) AES 加密的保护，以避免加盐，因此我们可以在不解密的情况下进行查找，并且该密钥反过来受 DPAPI 的保护。 任何进程都可以从同一手机读取缓存的数据，假设它可以到达数据文件夹。 Windows 加密无法防止沙盒泄露，只能防止外部访问尝试。  <br/> |此信息未加密。  <br/> |
    
-**注意：** 请参阅[此公共文档](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune)，了解上述每个移动平台上的可用设备 pin 实施情况
+**注意：** 请参阅此 [公共文档，](/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) 了解上述每个移动平台上可用的设备 PIN 强制措施
   
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
@@ -47,4 +47,3 @@ ms.locfileid: "42010775"
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

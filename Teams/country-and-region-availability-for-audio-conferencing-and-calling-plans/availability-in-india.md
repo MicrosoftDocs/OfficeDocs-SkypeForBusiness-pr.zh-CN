@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是适用于印度 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 745ab3de04c33e5679e372190572ab07b87a331d
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: a5bb42531cc2dc3fc7688bfeb014b82b30513502
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347793"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117990"
 ---
 # <a name="availability-in-india"></a>在印度的可用性
 
@@ -42,8 +42,8 @@ ms.locfileid: "50347793"
 
 |**功能**|**Details**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |Microsoft 不会将音频会议销售到印度。 TATA Communications 提供与 Microsoft Teams 会议兼容的拨入和拨出服务。 有关详细信息，请访问 [TATA Communications 的网站](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)。   <br/> |
-|是否自动分配音频会议的电话号码？  <br/> |是，适用于：<br/><ul><li> 孟买</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|是否可购买音频会议？  <br/> |Microsoft 不会在中国销售音频会议。 TATA Communications 提供与 Microsoft Teams 会议兼容的拨入和拨出服务。 有关详细信息，请访问 [TATA Communications 的网站](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)。   <br/> |
+|是否自动分配音频会议的电话号码？  <br/> |是，适用于：<br/><ul><li> 孟买</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
 
 ## <a name="phone-system"></a>电话系统
@@ -69,11 +69,11 @@ ms.locfileid: "50347793"
 
 |**功能**|**Details**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>金奈</li><li>孟买<li>应请求的其他 [城市](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>金奈</li><li>孟买<li>请求的其他 [城市](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
 
- 请注意，印度的服务号码只能用于音频会议。 因此，如果你想要获取音频会议收费和免费电话号码，请参阅"获取 Skype for Business 和 Microsoft Teams 的服务电话号码["。](/microsoftteams/getting-service-phone-numbers)
+ 请注意，印度的服务号码只能用于音频会议。 因此，如果你想要获取音频会议收费和免费电话号码，请参阅获取 [Skype for Business](../getting-service-phone-numbers.md)和 Microsoft Teams 的服务电话号码。
   
 ## <a name="communications-credits"></a>通信点数
 
@@ -85,6 +85,6 @@ ms.locfileid: "50347793"
   
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

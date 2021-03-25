@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 了解如何修复 Microsoft 365 和 Office 365 中的管理员和 Skype for business 用户的问题。
-ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 了解如何修复 Microsoft 365 和 Office 365 中 Skype for Business 管理员和用户的问题。
+ms.openlocfilehash: b9186064cab1932d34c49c2ed0d48bde2ce88787
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164311"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109898"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>解决 Skype for Business Online 中的问题
 
@@ -32,19 +32,19 @@ ms.locfileid: "44164311"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>解决 Skype for Business Online 问题（管理员）
 
-您可以在本文中查找有关 Skype for business [online 登录错误的常见原因](troubleshooting-sign-in-errors-for-admins.md#toc323194094)的文章中的大部分 skype For business online 问题的答案。以下知识库文章还包括许多疑难解答资源和错误代码引用：[针对管理员的 Skype for Business Online 登录错误进行故障排除](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)。
+你可以从检查 Skype for Business Online 登录错误的常见原因一文获得 [大部分 Skype for Business Online 问题的答案](troubleshooting-sign-in-errors-for-admins.md#toc323194094)。 以下知识库文章还包含许多故障排除资源和错误代码参考： [排查管理员的 Skype for Business Online](./troubleshooting-sign-in-errors-for-admins.md)登录错误。
 
-有关电话拨入式会议问题，请参阅[音频会议疑难解答和已知问题](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)。
+有关电话拨入式会议问题，请参阅 [音频会议故障排除和已知问题](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)。
 
 ## <a name="additional-help-for-skype-for-business-online-admin-issues"></a>有关 Skype for Business Online 管理员问题的其他帮助
 
-- [解决 Skype for Business Online DNS 问题](https://go.microsoft.com/fwlink/p/?LinkId=786985)
+- [解决 Skype for Business Online DNS 问题](/SkypeForBusiness/troubleshoot/online-configuration/dns-configuration-issue)
 
-- [Skype for Business Online 用户无法与外部联系人通信](https://go.microsoft.com/fwlink/p/?LinkId=786984)
+- [Skype for Business Online 用户无法与外部联系人通信](/SkypeForBusiness/troubleshoot/online-im-presence/cannot-communicate-with-external-contacts)
 
 - [Skype for Business 和 Lync 疑难解答指南（可下载的 PDF）](https://gallery.technet.microsoft.com/office/Skype-for-Business-and-7857597d/view/Discussions)
 
-- [使用 PowerShell 诊断和解决 Skype for Business Online 连接问题](https://go.microsoft.com/fwlink/p/?LinkId=786983)
+- [使用 PowerShell 诊断和解决 Skype for Business Online 连接问题](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="help-your-skype-for-business-online-users"></a>帮助你的 Skype for Business Online 用户
 
@@ -72,17 +72,17 @@ Skype for Business Online 用户遇到的大部分问题都与忘记密码有关
 
 - [关于 Lync 中的日志记录](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)
 
-## <a name="still-need-help-contact-support"></a>是否仍需要帮助？请联系支持人员。
+## <a name="still-need-help-contact-support"></a>是否仍需要帮助？ 请联系支持人员。
 <a name="BK_SupportBridge_1"> </a>
 
-作为适用于企业的 Microsoft 365 应用的管理员，您可以免费访问我们的知识渊博的支持工程师以获取售前、帐户和帐单支持以及解决技术问题的帮助。您也可以代表您的组织中的 Microsoft 365 和 Office 365 用户[联系支持人员](https://go.microsoft.com/fwlink/p/?LinkID=518322)。
+作为 Microsoft 365 商业版应用管理员，你可以免费访问我们经验丰富的支持代理，获取预售、帐户和计费支持，以及帮助解决技术问题。 还可以代表 [你组织中](/microsoft-365/Admin/contact-support-for-business-products) Microsoft 365 和 Office 365 用户联系支持人员。
 
 - [从 Microsoft 365 和 Office 365 社区论坛获取帮助](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
-- [管理员：呼叫支持](https://go.microsoft.com/fwlink/p/?LinkID=518322)
+- [管理员：呼叫支持](/microsoft-365/Admin/contact-support-for-business-products)
 
 > [!NOTE]
-> [!注释] 如果你在中国使用 由世纪互联运营的 Office 365，请[联系世纪互联支持团队](https://go.microsoft.com/fwlink/p/?linkid=847978)。
+> [!注释] 如果你在中国使用 由世纪互联运营的 Office 365，请[联系世纪互联支持团队](/microsoft-365/Admin/contact-support-for-business-products)。
 
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

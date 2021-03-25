@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: a63602f07e0c248b4decbc733e41b16fdafc3911
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662637"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117610"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>在管理中心使用 Teams 零售模板
 
@@ -34,7 +34,7 @@ Teams 模板具有预先构建的围绕零售商需求设计的团队结构定�
 
 在本文中，我们将介绍各个 Teams 模板并建议如何使用它们。
 
-如果你负责在整个零售组织中规划、部署和管理多个团队，则本文非常适合你。 假设你已在贵组织内部署 Teams 服务。 如果尚未部署 Teams，首先请阅读[如何部署 Microsoft Teams](How-to-roll-out-teams.md)。
+如果你负责在整个零售组织中规划、部署和管理多个团队，则本文非常适合你。 假设你已在贵组织内部署 Teams 服务。 如果尚未部署 Teams，首先请阅读[如何部署 Microsoft Teams](./deploy-overview.md)。
 
 若要了解有关常规团队模板的详细信息，请参阅[开始使用 Teams 模板](get-started-with-teams-templates-in-the-admin-console.md)。
 

@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f871e8e741856253667649484ac429bb68dd2c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: cafd88594935565595a48a55c6a6b8f07d254345
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460822"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117670"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理员快速入门 - Microsoft Teams 中的会议和实时事件
 
@@ -50,7 +50,7 @@ ms.locfileid: "50460822"
 >
 > <sup>2</sup>  会议拨出至 [**拨打** 号码](set-up-the-call-me-feature-for-your-users.md)需要组织者有 E5 或 [音频会议加载项许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。可能还需要一个 [拨号计划](what-are-dial-plans.md)。
 
-若要了解有关许可的详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+若要了解有关许可的详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="make-sure-your-networks-ready"></a>请确保网络已准备就绪
 
@@ -66,7 +66,7 @@ ms.locfileid: "50460822"
 
 - 要了解有关管理会议选项的信息，请参阅[更改 Teams 会议的参与者设置](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。
 
-- 请不要忘记 [管理用户的设备](device-management.md) - 手机、耳机和照相机。若要获取有关 Teams 认证设备的最新和刚更新的信息，请转到 [团队设备](https://office.com/teamsdevices)。
+- 请不要忘记 [管理用户的设备](./devices/device-management.md) - 手机、耳机和照相机。若要获取有关 Teams 认证设备的最新和刚更新的信息，请转到 [团队设备](https://office.com/teamsdevices)。
 
 ## <a name="live-events"></a>实时事件
 

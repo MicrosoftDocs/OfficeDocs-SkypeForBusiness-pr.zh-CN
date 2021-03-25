@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组队列保留对响应组的呼叫，直到代理应答呼叫。
-ms.openlocfilehash: 097c28db7f2ae52d7ab0b362e828c8f05e132481
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ee99ac8cb4f3ea9c2f0e1804914eaf30c909a2b0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808192"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118801"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>响应组队列：创建新的或编辑现有的
 
@@ -34,25 +34,25 @@ ms.locfileid: "49808192"
 
 - **说明** 此字段是可选的。 使用它提供有关队列的其他详细信息。
 
-- **组** 选择要分配给队列的代理组。 单击 **"** 选择"将代理组添加到列表中。 单击 **"** 删除"从列表中删除所选代理组。
+- **组** 选择要分配给队列的代理组。 单击 **"选择** "将代理组添加到列表中。 单击 **"** 删除"从列表中删除所选代理组。
 
     向上和向下箭头可在列表中向上和向下移动所选代理组。 代理组的顺序会影响 Skype for Business Server 搜索可用代理的顺序。 即，首先搜索列表中的第一个组以查找可用代理，随后是第二个组，依此类推。
 
-- **启用队列退出** 选中此复选框可指定呼叫者在代理应答呼叫之前等待等待的最长时间段。 如果选择此选项，则还需要指定以下内容：
+- **启用队列退出** 选中此复选框可指定呼叫者在代理应答呼叫之前等待等待的最大时间。 如果选择此选项，则还需要指定以下内容：
 
-  - **时间段 (秒)** 选择或键入呼叫者在代理应答呼叫之前可以等待的最大秒数。
+  - **时间段的 (秒)** 选择或键入呼叫者在代理应答呼叫之前可以等待的最大秒数。
 
-  - **呼叫操作** 选择呼叫退出时发生的操作。你的选择是：
+  - **呼叫操作** 选择在呼叫退出时发生的操作。你的选择是：
 
   - **Disconnect**
 
-  - **转发到语音邮件** 如果选择此选项，请在 **SIP** 地址中键入 sip 格式的语音邮件地址： (<username> @ <domainname> 例如，sip:bob@contoso.com) 。
+  - **转发到语音邮件** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： 的语音邮件 (<username> @ <domainname> 例如，sip:bob@contoso.com) 。
 
-  - **转发到电话号码** 如果选择此选项，请在 **SIP** 地址中键入格式为 sip 的电话号码： (<number> @ <domainname> 例如，sip:+14255550121@contoso.com) 。
+  - **转发到电话号码** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： <number> @ <domainname> (例如，sip:+14255550121@contoso.com) 。
 
-  - **转发到 SIP 地址** 选择此选项将呼叫转发给其他用户。 在 **SIP 地址** 中，以 sip： 格式键入用户的 URI。 <username> @ <domainname>
+  - **转发到 SIP 地址** 选择此选项以将呼叫转发给其他用户。 在 **"SIP 地址**"中，键入用户的 URI，格式为 <username> @ <domainname> sip：。
 
-  - **转发到另一个队列** 如果选择此选项，请浏览到将在呼叫退出时接收呼叫的队列。
+  - **转发到另一个队列** 如果选择此选项，请浏览到呼叫退出时要接收呼叫的队列。
 
 - **启用队列溢出** 选中此复选框可指定队列可以保留的最大呼叫数。 如果选择此选项，则还需要指定以下内容：
 
@@ -64,14 +64,12 @@ ms.locfileid: "49808192"
 
   - **Disconnect**
 
-  - **转发到语音邮件** 如果选择此选项，请在 **SIP** 地址中键入 sip 格式的语音邮件地址： (<username> @ <domainname> 例如，sip:bob@contoso.com) 。
+  - **转发到语音邮件** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： 的语音邮件 (<username> @ <domainname> 例如，sip:bob@contoso.com) 。
 
-  - **转发到电话号码** 如果选择此选项，请在 **SIP** 地址中键入格式为 sip 的电话号码： (<number> @ <domainname> 例如，sip:+14255550121@contoso.com) 。
+  - **转发到电话号码** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： <number> @ <domainname> (例如，sip:+14255550121@contoso.com) 。
 
-  - **转发到 SIP 地址** 选择此选项将呼叫转发给其他用户。 在 **SIP 地址** 中，以 sip： 格式键入用户的 URI。 <username> @ <domainname>
+  - **转发到 SIP 地址** 选择此选项以将呼叫转发给其他用户。 在 **"SIP 地址**"中，键入用户的 URI，格式为 <username> @ <domainname> sip：。
 
   - **转发到另一个队列** 如果选择此选项，请浏览到在达到队列溢出阈值时接收呼叫的队列。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中[的 Plan for the Response Group application in Skype for Business Server。](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx)。
-
-
+有关响应组特性和功能的详细信息，请参阅规划文档中的 Plan [for the Response Group application in Skype for Business Server。](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)。

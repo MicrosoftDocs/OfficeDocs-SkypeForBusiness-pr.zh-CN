@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组由代理组、队列和工作流组成。 响应组工作流定义响应组应用程序收到电话呼叫时采取的操作。
-ms.openlocfilehash: b4f9a80be55e00d5874c79cf426e331a464d0e2c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dc34ec69af86658c6624ada6a9f25ff3aaa61499
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820262"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118761"
 ---
 # <a name="response-groups-workflow"></a>响应组工作流
 
@@ -30,7 +30,7 @@ ms.locfileid: "49820262"
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
-可以从"响应组工作流"页 **执行**  -  **以下** 任务：
+可以从"响应组工作流"页执行  -  **以下** 任务：
 
 - 创建或更改智能寻线工作流
 
@@ -54,12 +54,10 @@ ms.locfileid: "49820262"
 
 - **电话** 为到达此响应组而呼叫的电话号码。
 
-- **语言** 用于语音识别和文本到语音的语言。
+- **语言** 用于语音识别和文本到语音之间的语言。
 
-- **IVR** 指示工作流是一个寻线还是交互式工作流。
+- **IVR** 指示工作流是一个寻线还是互动工作流。
 
 - **已启用** 指示是否激活工作流以接收呼叫。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中[的 Plan for the Response Group application in Skype for Business Server。](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用响应组工作流的详细信息，请参阅操作文档中的 ["管理响应组](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) 工作流"。
-
-
+有关响应组特性和功能的详细信息，请参阅规划文档中的 Plan [for the Response Group application in Skype for Business Server。](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用响应组工作流的详细信息，请参阅操作文档中的[Managing Response Group Workflows。](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows)

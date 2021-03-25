@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: b93a3b5ecbe7b9edcc54034635721ee3b6db610b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918988"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119121"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么
 
@@ -63,7 +63,7 @@ Teams 允许组织者创建具有相应与会者权限的事件、指定事件�
 ![新的实时事件屏幕](../media/teams-live-events-schedule.png "显示新实时事件屏幕的屏幕截图，显示新实时事件的创建和日程安排。")
 
 > [!IMPORTANT]
-> 当用户处于脱机状态或以有限带宽运行时，Teams 不会允许用户安排会议或实时事件。
+> 当用户脱机或以有限带宽运行时，Teams 不允许用户安排会议或直播活动。
 
 ### <a name="production"></a>制作
 
@@ -82,8 +82,8 @@ Teams 允许组织者创建具有相应与会者权限的事件、指定事件�
 
 实时事件流式处理平台由以下部分组成：
 
-- **Microsoft Azure 媒体服务**：[Microsoft Azure 媒体服务](https://docs.microsoft.com/azure/media-services/previous/)提供给你广播质量的视频流式处理服务，以帮助你在现在最常用的移动设备上触及更大的受众群。 媒体服务强化可及性、分发和可伸缩性，使得数据流内容能够轻松且低成本地传输到本地和世界的受众 - 同时保护你的内容。
-- **Azure 内容交付网络 (CDN)**：当你的数据流实时后，它将通过 [Azure 内容交付网络 (CDN)](https://docs.microsoft.com/azure/cdn/) 交付。 Microsoft Azure 媒体服务提供集成的 CDN 作为流式处理端点。 这允许数据流在世界范围内无需缓冲就能查看。
+- **Microsoft Azure 媒体服务**：[Microsoft Azure 媒体服务](/azure/media-services/previous/)提供给你广播质量的视频流式处理服务，以帮助你在现在最常用的移动设备上触及更大的受众群。 媒体服务强化可及性、分发和可伸缩性，使得数据流内容能够轻松且低成本地传输到本地和世界的受众 - 同时保护你的内容。
+- **Azure 内容交付网络 (CDN)**：当你的数据流实时后，它将通过 [Azure 内容交付网络 (CDN)](/azure/cdn/) 交付。 Microsoft Azure 媒体服务提供集成的 CDN 作为流式处理端点。 这允许数据流在世界范围内无需缓冲就能查看。
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络 (eCDN)
 
@@ -110,7 +110,7 @@ eCDN 的目标是从 Internet 上获取视频内容，然后将内容分发到�
 
 ### <a name="related-topics"></a>相关主题
 
-- [在 Yammer、Microsoft Teams 和 Microsoft Stream 之间的 Microsoft 365 实时事件](https://docs.microsoft.com/stream/live-event-m365)
+- [在 Yammer、Microsoft Teams 和 Microsoft Stream 之间的 Microsoft 365 实时事件](/stream/live-event-m365)
 - [Microsoft Teams 直播活动入门](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Yammer 中的实时事件](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Microsoft Stream 中的实时事件](https://docs.microsoft.com/stream/live-event-overview)
+- [Microsoft Stream 中的实时事件](/stream/live-event-overview)

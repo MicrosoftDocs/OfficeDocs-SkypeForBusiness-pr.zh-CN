@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 会议中屏蔽电话号码
-ms.openlocfilehash: 5a59ef07873660e79d6c8bc69b7e92095a2fac1a
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: bc3325805db63f86937a27d63cfc08ab0de84006
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726768"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117710"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>在 Microsoft Teams 会议中屏蔽电话号码
 
@@ -41,7 +41,7 @@ ms.locfileid: "50726768"
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>使用 Microsoft PowerShell 设置电话号码掩码
 
-若要更改公用电话交换网 (PSTN) 屏蔽设置，请设置 **`MaskPstnNumbersType`** [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet 的参数，以使用其中一个可用选项。
+若要更改公用电话交换网 (PSTN) 屏蔽设置，请设置 **`MaskPstnNumbersType`** [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet 的参数，以使用其中一个可用选项。
 
 若要仅屏蔽来自外部参与者的电话号码，请运行以下命令：
 

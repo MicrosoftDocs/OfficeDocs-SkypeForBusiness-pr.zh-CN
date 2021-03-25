@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 网络区域路由 定义一对网络区域之间的路由。 呼叫允许控制部署中的每对网络区域均需要网络区域路由。
-ms.openlocfilehash: 23dec126511b941ff3e25b22c37cbba0854b13bc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c91f46ff45dd50f638cdb4f256fb93f2d33781ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816432"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118551"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络区域路由
 
@@ -28,11 +28,11 @@ ms.locfileid: "49816432"
 
 ### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>在 Skype for Business Server 控制面板中查看网络区域路由信息
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **路由"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **路由"。**
 
 4.  在“区域路由”页上，单击要查看的区域路由。
 
@@ -44,9 +44,9 @@ ms.locfileid: "49816432"
 5.  在“编辑”菜单上，单击“显示详细信息”。
 
 
-### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络区域Windows PowerShell信息
+### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 查看网络区域Windows PowerShell信息
 
-网络区域路由信息可通过使用 Windows PowerShell 和 Get-CsNetworkInterRegionRoute cmdlet 进行查看。 此 cmdlet 可以从 Skype for Business Server 命令行管理程序运行，也可以从远程会话Windows PowerShell。 
+网络区域路由信息可以通过使用 Windows PowerShell 和 Get-CsNetworkInterRegionRoute cmdlet 进行查看。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 
 
 ### <a name="to-view-network-region-route-information"></a>查看网络区域路由信息
 
@@ -62,20 +62,20 @@ ms.locfileid: "49816432"
         NetworkRegionID1          : Pacific Northwest
         NetworkRegionID2          : Northeast
 
-有关详细信息，请参阅 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet 的帮助主题。
 
 
 ## <a name="create-or-modify-network-region-routes"></a>创建或修改网络区域路由
 
-呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 可以使用 Skype for Business Server 控制面板配置网络区域路由。 在 Skype for Business Server 控制面板中，可以创建、修改或删除网络区域路由。 使用本主题创建或修改网络区域路由。 
+呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 可以使用 Skype for Business Server 控制面板配置网络区域路由。 从 Skype for Business Server 控制面板中，可以创建、修改或删除网络区域路由。 使用本主题创建或修改网络区域路由。 
 
 ### <a name="to-create-a-network-region-route"></a>创建网络区域路由
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **路由"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **路由"。**
 
 4.  在“区域路由”页上，单击“新建”。
 
@@ -84,9 +84,9 @@ ms.locfileid: "49816432"
     > [!NOTE]  
     > 此值在 Skype for Business Server 部署中必须是唯一的。
 
-6.  从 **"网络 \# 区域 1"** 下拉列表中，选择要通过此路由连接的两个区域之一。
+6.  从" **网络区域 \# 1"** 下拉列表中，选择要通过此路由连接的两个区域之一。
 
-7.  从 **"网络 \# 区域 2"** 下拉列表中，为此路由选择另一区域。 此区域必须不同于为网络区域 1 选择 \# 的区域。
+7.  从 **"网络区域 \# 2"** 下拉列表中，为此路由选择另一区域。 此区域必须与为网络区域 1 所选的区域 \# 不同。
 
 8.  使用“网络区域链接”列表框向路由添加区域链接。单击“添加”按钮以显示“区域链接”页面。单击某个区域链接将其添加到此路由，然后单击“确定”。
     
@@ -98,11 +98,11 @@ ms.locfileid: "49816432"
 
 ### <a name="to-modify-a-network-region-route"></a>修改网络区域路由
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **路由"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **路由"。**
 
 4.  在“区域路由”页上，单击要修改的区域路由。
 
@@ -115,15 +115,15 @@ ms.locfileid: "49816432"
 
 ## <a name="delete-existing-network-region-routes"></a>删除现有网络区域路由
 
-呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 可以使用 Skype for Business Server 控制面板配置网络区域路由。 在 Skype for Business Server 控制面板中，可以创建、修改或删除网络区域路由。 使用本主题可删除现有网络区域路由。 
+呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 可以使用 Skype for Business Server 控制面板配置网络区域路由。 从 Skype for Business Server 控制面板中，可以创建、修改或删除网络区域路由。 使用本主题可删除现有网络区域路由。 
 
 ### <a name="to-delete-a-network-region-route"></a>删除网络区域路由
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击 **"网络配置**"，然后单击"区域 **路由"。**
+3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **路由"。**
 
 4.  在“区域路由”页上，单击要删除的区域路由。
 
@@ -140,10 +140,10 @@ ms.locfileid: "49816432"
 
 [在 Skype for Business Server 中管理网络区域](managing-network-regions.md)
 
-[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
+[New-CsNetworkInterRegionRoute](/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 
-[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute) 
+[Set-CsNetworkInterRegionRoute](/powershell/module/skype/Set-CsNetworkInterRegionRoute) 
  
-[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
+[Remove-CsNetworkInterRegionRoute](/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
 
-[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)  
+[Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute)

@@ -1,5 +1,5 @@
 ---
-title: PIN 策略创建新的或编辑现有的
+title: PIN 策略 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: abfdafb3d51a2ecbfff542e5e0476fc2730dc01c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a24388bbc04e9823328c15a9f67dd227eb001915
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836492"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118751"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN 策略：创建新的或编辑现有的
 
@@ -32,11 +32,8 @@ ms.locfileid: "49836492"
 
 - [在 Skype for Business Server 中删除 PIN 策略](../../../manage/authentication/delete-a-pin-policy.md)
 
-- [创建或修改站点或用户组的电话拨入式会议 PIN 设置](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [创建或修改站点或用户组的电话拨入式会议 PIN 设置](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-- [修改默认电话拨入式会议 PIN 设置](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [修改默认电话拨入式会议 PIN 设置](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
-- [删除站点或用户组的电话拨入式会议 PIN 设置](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
-
-
-
+- [删除站点或用户组的电话拨入式会议 PIN 设置](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
