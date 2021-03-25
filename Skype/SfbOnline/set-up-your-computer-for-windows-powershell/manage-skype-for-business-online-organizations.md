@@ -18,23 +18,23 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 使用 Windows PowerShell 和 CsTenant 和 CsTenantLicensingConfiguration cmdlet 获取有关 Skype for Business Online 租户的信息。
-ms.openlocfilehash: 06597447edaf095be3df26b58e6210bb919ee0bd
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: 使用 Windows PowerShell 和 Get-CsTenant Get-CsTenantLicensingConfiguration cmdlet 获取有关 Skype for Business Online 租户的信息。
+ms.openlocfilehash: ed15d062bf4f2e5f2ad0f47169ac0626d2c59d20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085688"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113178"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>管理 Skype for Business Online 组织
 > [!NOTE]
-> 最新的[团队 powershell 公共预览版](https://www.powershellgallery.com/packages/MicrosoftTeams/)已与 Skype For Business Online 连接器集成，为团队 PowerShell 管理提供单个模块。
+> 最新的 [Teams PowerShell 公共预览版](https://www.powershellgallery.com/packages/MicrosoftTeams/) 与 Skype for Business Online 连接器集成，为 Teams PowerShell 管理提供单个模块。
 
-你可以使用**CsTenant**和**CsTenantLicensingConfiguration** cmdlet 查找有关 Skype for business Online 租户的信息。
+可以使用 **Get-CsTenant** 和 **Get-CsTenantLicensingConfiguration** cmdlet 查找有关 Skype for Business Online 租户的信息。
   
 ## <a name="manage-skype-for-business-online-tenants"></a>管理 Skype for Business Online 租户
 
-若要返回有关 Skype for Business Online 租户的信息，请调用[CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet，无需任何其他参数。
+若要返回有关 Skype for Business Online 租户的信息，请不带任何其他参数调用 [Get-CsTenant](/powershell/module/skype/Get-CsTenant) cmdlet。
   
 ```PowerShell
 Get-CsTenant
@@ -46,12 +46,11 @@ Get-CsTenant
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-在运行[CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602)和[set-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994080.aspx)等 cmdlet 时，必须输入_TenantID_参数的值。
+运行 [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider)和 [Set-CsTenantFederationConfiguration](/powershell/module/skype/Set-CsTenantFederationConfiguration)等 cmdlet 时，需要 _TenantID_ 参数的值。
   
-若要查找有关指定租户的授权信息是否在 Skype for Business Online 管理中心中可用的信息，请使用[CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) cmdlet。
+若要查找有关指定租户的许可信息在 Skype for Business Online 管理中心中是否可用的信息，请使用 [Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) cmdlet。
   
 ## <a name="related-topics"></a>相关主题
-[使用 Windows PowerShell 为 skype for business online 管理设置计算机](set-up-your-computer-for-windows-powershell.md)
+[使用 skype for business Online 管理设置计算机Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
- 

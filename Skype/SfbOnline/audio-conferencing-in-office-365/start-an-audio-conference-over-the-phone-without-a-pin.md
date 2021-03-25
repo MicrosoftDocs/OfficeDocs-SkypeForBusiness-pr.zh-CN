@@ -21,34 +21,34 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解如何启用或禁用从 Skype for Business Online 管理中心或使用 PowerShell 脚本参加会议的匿名呼叫者。 '
-ms.openlocfilehash: f02d458450f07b64f3daf4d23b1c56aa2bb846a3
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 6eb62e2a2a295644185b3f0e6fd424749dc5bf56
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163871"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111938"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>通过电话在 Skype for Business Online 开始音频会议而无 PIN
 
 > [!Note]
 > 有关在 Microsoft Teams 无 PIN 启动音频会议的信息，请参阅[通过电话在 Microsoft Teams 中无 PIN 开始音频会议](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams)。
 
-由于 Skype for Business 会议组织者尚未启动会议，因此，拨入会议的用户可能会感到沮丧，因为 Skype for Business 会议组织者尚未启动会议。 
+拨入会议的用户在会议大厅中收听音乐可能令人沮丧，因为 Skype for Business 会议组织者尚未启动会议。 
   
-If a meeting organizer calls in to the meeting, by default, a PIN is required to start a meeting. You can set it up so that anyone can dial in to a meeting and not be prompted for a PIN to start the meeting. You can use the Skype for Business admin center to enable or disable this setting for a single user.
+默认情况下，如果会议组织者呼叫呼叫会议，则启动会议需要 PIN。 您可以设置它，以便任何人都可以拨入会议，并且系统不会提示输入 PIN 以启动会议。 你可以使用 Skype for Business 管理中心为单个用户启用或禁用此设置。
   
-A PIN isn't required for the meeting organizer if someone has started the meeting from the Skype for Business app. A PIN is only required when a meeting organizer joins their meeting over a phone. The PIN for meetings is sent to the audio user when they are assigned the **Audio Conferencing** license and are enabled for Audio Conferencing. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) and [Emails that are automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md).
+如果有人从 Skype for Business 应用启动了会议，会议组织者不需要 PIN。 只有当会议组织者通过电话加入会议时，才需要 PIN。 为音频用户分配音频会议许可证并启用音频会议时，会议 PIN将发送给音频用户。 请参阅 [向用户发送](send-an-email-to-a-user-with-their-dial-in-information.md) 包含其音频会议信息的电子邮件，以及当用户的音频会议设置更改时 [自动发送给用户的电子邮件](emails-sent-to-users-when-their-settings-change.md)。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>启用或禁用匿名呼叫者加入会议
     
-1. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议** > **用户**"。 
+1. 在 **Skype for Business 管理中心的** 左侧导航中，转到"**音频会议用户**  >  **"。** 
     
-2. 在列表中，选择用户，然后在 "操作" 窗格中单击 "**编辑**"。 
+2. 在列表中选择用户，在"操作"窗格中单击"编辑 **"。** 
     
-3. 在用户的 "属性" 页的 "**会议选项**" 下，选中或清除 "**允许未经身份验证的呼叫者成为会议中的第一人"。如果不是，则它们将在大厅中等待，直到经过身份验证的用户加入**。
+3. 在用户的属性页面上的"会议选项"下，选择或清除"允许未经身份验证的呼叫者成为 **会议的第一人"。如果没有，则他们将在大厅中等待，直到经过身份验证的用户加入**。
     
 4. 单击“**保存**”。 
 
@@ -64,37 +64,37 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- 如果要重置 PIN，请参阅[重置音频会议 PIN](reset-the-audio-conferencing-pin.md)。
+- 如果要重置 PIN，请参阅[重置音频会议 PIN。](reset-the-audio-conferencing-pin.md)
     
-- 如果已禁用匿名访问或不需要 PIN 才能启动会议，请执行以下操作：
+- 如果禁用了匿名访问，或者不需要 PIN 来启动会议：
     
-  - 如果会议尚未启动（会议中尚无人）：如果是组织者，则会提示呼叫者;如果他显示 "是"，系统将提示他输入 PIN，在用户输入 PIN 后，会议将启动，并且用户将加入会议。
+  - 如果会议尚未开始 (则会议中还没有人) ：如果呼叫者是组织者，则系统将会提示呼叫者;如果说"是"，系统会提示他输入 PIN，输入 PIN 后，会议将开始，用户将加入会议。
     
   - 如果会议已启动（有人已在会议中）：如果呼叫者是组织者，则不会提示您提供 PIN；会议已启动，并将呼叫者将加入。
     
-- 如果启用匿名访问或不需要 PIN 来启动会议，则启用：
+- 如果启用了匿名访问，或者不需要 PIN 来启动会议：
     
-  - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
+  - 如果尚未启动会议（还没有会议）：如果呼叫者是组织者，将不会收到提示，并且从不提示她提供 PIN。 由于组织者的设置设置为"关"，会议将开始，匿名呼叫者将加入会议。
     
   - 如果会议已启动（有人已在会议中）：如果呼叫者是组织者，则不会提示您提供 PIN；会议已启动，并将呼叫者将加入。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 为节省时间或为多个用户自动执行此操作，可以使用 [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) cmdlet。
+- 为节省时间或为多个用户自动执行此操作，可以使用 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) cmdlet。
     
-- 在 Windows PowerShell 中，Skype for Business Online 是指管理用户以及允许或禁止用户执行的操作。使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。若要开始使用 Windows PowerShell，请参阅以下主题：
+- 对于 Windows PowerShell，Skype for Business Online 的功能是管理用户以及允许或不允许用户执行的操作。 使用Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你在一次为多个用户进行设置更改时。了解以下主题中的这些优势： 
+- Windows PowerShell比使用 Microsoft 365 管理中心具有许多速度、简单性和工作效率优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
     
-  - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-    [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [使用 Windows PowerShell 管理 Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
     > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。

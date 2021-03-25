@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0db359fee9089a52b8d3e7a728542dba21952db7
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 98f462044fba566ecea491bc55bf8df055973701
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874522"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112288"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -49,7 +49,7 @@ ms.locfileid: "50874522"
 |Office 365 组中最多可以有多少名成员以转换为团队    |10,000<sup>6</sup>     |
 |频道对话文章大小 | 每个帖子约 28 KB<sup>5</sup> |
 
-<sup>1</sup> Azure Active Directory 中的目录对象均计入此限额。与使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
+<sup>1</sup> Azure Active Directory 中的目录对象均计入此限额。与使用[应用程序权限](/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
 
 <sup>2</sup> 此限制包含已存档的团队。 
 
@@ -78,7 +78,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 <sup>1</sup>如果参与某次聊天的人数超过 20 人，则禁用以下聊天功能：Outlook 自动答复和 Teams 状态消息、键入指示器、视频和音频呼叫、共享、已读回执。当专用组聊天包含超过 20 个成员时，还将删除“设置发送选项”按钮 (!)。
 
-<sup>2</sup> 一次仅有 200 个成员可添加到群组聊天。 [请参阅本文了解详细信息](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)。
+<sup>2</sup> 一次仅有 200 个成员可添加到群组聊天。 [请参阅本文了解详细信息](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)。
 
 <sup>3</sup> 如果附件数超过此限制，你将看到一条错误消息。
 
@@ -99,7 +99,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 <sup>2</sup>如果附件或图像数超过此限制，你将看到一条错误消息。
 
-有关详细信息，请参阅 [Exchange Online 限制](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
+有关详细信息，请参阅 [Exchange Online 限制](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
 
 > [!NOTE]
 > 所有 Microsoft 365 和 Office 365 许可证中的邮件大小、文件附件数和内嵌图像限制均相同。Office GCC/GCCH/DOD 组织无法在 Teams 中通过电子邮件发送频道。
@@ -181,7 +181,7 @@ Outlook 2013 桌面应用及更高版本支持 Outlook 中的 Teams 状态。若
 Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个频道在默认团队网站文档库中都有一个文件夹。对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。
 
 > [!NOTE]
-> 每个[专用频道](https://docs.microsoft.com/microsoftteams/private-channels)都拥有自己的 SharePoint 网站（以前称为“网站集”）。
+> 每个[专用频道](./private-channels.md)都拥有自己的 SharePoint 网站（以前称为“网站集”）。
 
 如果你的租户中未启用 SharePoint Online，则 Microsoft Teams 用户有时无法在团队中共享文件。此外，由于该功能需要 OneDrive for Business（它与 SharePoint 许可证关联），因此私人聊天中的用户无法共享文件。
 

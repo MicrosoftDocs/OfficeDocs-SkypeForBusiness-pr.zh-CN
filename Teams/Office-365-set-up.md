@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 365 或 Office 365 中启用团队
+title: 在 Microsoft 365 或 Office 365 中打开 Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: 了解如何为 Microsoft 365 或 Office 365 组织打开 Microsoft 团队、分配用户许可证以控制个人访问以及允许或阻止内容源。
+description: 了解如何为 Microsoft 365 或 Office 365 组织启用 Microsoft Teams、分配用户许可证来控制个人访问，以及允许或阻止内容源。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb314a64fdc6027195fe6c79ecff27b5cc8db46e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 78dbd966abec7b2b5c1c398b497f20e65d4fb8e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581803"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113678"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>在组织中打开 Teams
 
@@ -39,9 +39,9 @@ ms.locfileid: "46581803"
 
 
  
-若要了解有关管理个人许可证的详细信息，请阅读[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。 
+若要详细了解如何管理单个许可证，请阅读 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>为整个组织开启或关闭 Teams 
  
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)] 
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

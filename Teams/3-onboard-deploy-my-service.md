@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 下载网站支持行动手册以规划团队推出并加速和优化用户的采纳、质量和满意度的理解。
+description: 下载网站启用操作手册以计划 Teams 推出，并加速和优化用户采用、质量感知和满意度。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -20,41 +20,41 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae9a1e6abf7dbf97e625be4eb69a0ef95b1910da
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3c3f0105a04484efcabd5ab6c55d1269c3627895
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532569"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112628"
 ---
 # <a name="deploy-my-service"></a>部署服务
 
-本文概述了正确部署云语音服务的要求。 通过遵循部署云语音服务的说明性指南，你可以确保成功地考虑所有要求并提供可重复的结果。
+本文概述了正确部署云语音服务的要求。 遵循部署云语音服务的规范性指南，确保成功满足所有要求并提供可重复的结果。
 
-## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Microsoft 团队的网站支持行动手册语音工作负载
+## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Microsoft Teams 语音工作负荷的网站启用 playbook
 
-使用本行动手册可帮助你的组织在逐个网站的基础上成功地计划和执行 Microsoft 团队语音功能的推出。
+使用此操作手册可帮助组织成功计划并执行 Microsoft Teams 语音功能的推出，并基于站点进行。
 
-包括所有所需的活动、推荐的日程表和指向每个活动的相应指南的链接，此行动手册将介绍端到端指南，以帮助确保成功的团队为特定网站进行语音部署，重点关注对用户很重要的因素。
+包括所有必需活动、建议的时间线以及每个活动的相应指南的链接，此操作手册涵盖端到端指南，可帮助确保为给定网站成功部署 Teams 语音，并重点介绍对用户重要的因素。
 
-通过完成本操作手册中的活动，你的组织可以：
+通过完成此操作手册中的活动，组织可以：
 
--   有效地规划和安排团队推出。
+-   有效地计划和计划 Teams 推出。
 
--   加速和优化用户采纳。
+-   加速和优化用户采用。
 
--   减少支持需求并提高用户满意度。
+-   减少支持需求并增加用户满意度。
 
 > [!NOTE]
-> 本文和关联的操作手册不用于描述服务启用所需的每个技术配置步骤或向特定网站提供拨号音。 而是将重点放在最适合于板载用户的活动和任务，并让他们通过快速平稳过渡来开始使用团队语音工作负载，同时将支持需求降至最低。 有关如何为团队语音配置你的环境的技术指导，请参阅用于 [配置团队语音工作负荷](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)、 [配置团队中的直接路由](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、 [团队核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、 [团队网络](prepare-network.md)以及 [启用 Microsoft 365 或 Office 365](onboarding-checklist-enable-office-365.md)的加入核对清单。
+> 本文和关联的 Playbook 并非旨在描述启用服务或向特定站点提供拨号音所需的每个技术配置步骤。 相反，他们专注于为用户轻松加入而建议的活动和任务，让他们通过快速流畅的采用率过渡开始使用 Teams 语音工作负荷，同时尽量减少支持要求。 有关如何最佳配置 Teams 语音环境的技术指南，请参阅用于配置 [Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)语音工作负荷、在 Teams 中配置 [直接](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)路由 [、Teams 核心](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)功能 [、Teams](prepare-network.md)网络以及启用 Microsoft [365 或 Office 365](onboarding-checklist-enable-office-365.md)的载入清单。
 
 <!--ENDOFSECTION-->
 
-## <a name="playbook-focus-areas"></a>行动手册重点领域
+## <a name="playbook-focus-areas"></a>Playbook 重点区域
 
-行动手册的重点是解决影响用户对团队语音部署的认知的因素。 活动和任务分组到以下重点区域：
+Playbook 的重点是解决影响用户对 Teams 语音部署的认知的因素。 活动和任务分组到以下重点区域：
 
--   服务准备情况验证
+-   服务就绪性验证
     - 音频会议
     - 通话套餐
     - 直接路由
@@ -67,49 +67,49 @@ ms.locfileid: "48532569"
 
 -   采用
 
-[适用于语音 (行动手册) 的网站支持行动手册](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)是 Microsoft Excel 工作簿。 这五个焦点区域中的每一个都是工作簿中的单独工作表，每个部署任务和活动都分组到其中一个工作表中。
+适用于 [Voice (Playbook ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)) 网站启用 Playbook 是 Microsoft Excel 工作簿。 这五个重点区域都是工作簿中的一个单独的工作表，每个部署任务和活动都分组到其中一个工作表中。
 
-![网站支持行动手册的屏幕截图](media/deploy-my-service-image1.png "行动手册的屏幕截图")
+![网站启用 playbook 的屏幕截图](media/deploy-my-service-image1.png "Playbook 的屏幕截图")
 
 > [!NOTE]
-> 你将为团队推出的范围内的每个网站创建一个单独的 "行动手册" 实例。
+> 你将为 Teams 推出范围内的每个网站创建一个单独的 Playbook 实例。
 
 <!--ENDOFSECTION-->
 
-## <a name="how-to-use-the-playbook"></a>如何使用行动手册
+## <a name="how-to-use-the-playbook"></a>如何使用 playbook
 
-无论位置的大小和复杂程度如何，启用每个网站都需要尽早对任务和活动进行计划，并在实际服务推出之前和之后以最佳顺序执行它们。 我们建议你在计划和执行你自己的 Microsoft 团队语音操作时，按照以下步骤操作。
+无论位置的大小和复杂程度如何，启用每个网站都需要你尽早规划任务和活动，并按最佳顺序执行它们-在推出实际服务之前、期间和之后。 建议在计划并执行自己的 Microsoft Teams 语音之旅时执行这些步骤。
 
-1. 下载适用于 Microsoft 团队语音 [ (行动手册) 的 "网站支持行动手册 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) "。
+1. 下载适用于 Microsoft Teams Voice 的 Voice (Playbook) 网站启用[Playbook。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)
 
-2. 为每个网站创建一个单独的行动手册副本。
+2. 为每个网站创建一个单独的 playbook 副本。
 
-3. 在名为 " **行动手册： {Sitename 代码}**" 的工作表的选项卡上，将 **{sitename 代码}** 替换为相关的站点名称和/或站点代码。
+3. 在名为 **Playbook for {SiteName-Code}** 的工作表的选项卡上，将 **{SiteName-Code}** 替换为相关的网站名称和/或站点代码。
 
-4. 输入 **网站名称、网站代码**和 **计划启动日期**，如下所示。 这是一个关键步骤，因为它可调整行动手册中每个活动的建议截止时间。
+4. 输入" **网站名称、站点代码**"和 **"计划启动日期**"，如下所示。 这是一个关键步骤，因为它会调整操作手册中每个活动的建议期限。
 
-   ![包含网站名称、网站代码和计划启动日期的示例](media/deploy-my-service-image2.png "示例，包含纽约的网站名、网站代码 NY01 和计划开始日期 20-3 月18日")
+   ![包含网站名称、站点代码和计划启动日期的示例](media/deploy-my-service-image2.png "网站名称为纽约、站点代码 NY01 和 3 月 20 日计划发布日期的示例")
 
-5. 检查每个活动，执行必要的操作，并在遍历日程表时更新状态。 状态以图形形式表示，如下所述：
+5. 查看每个活动，采取必要操作，并更新浏览时间线时的状态。 状态以图形方式表示，如下所述：
   
-   - ![绿色复选标记为 ](media/deploy-my-service-image3.png) **"是" 或 "不适用" (绿色) ** 的插图：活动已完成，或者不适用于此网站，也不需要执行其他操作。</li>
-   - ![黄色感叹号的插图 ](media/deploy-my-service-image4.png) <strong>尚未完成活动 (黄色) ：</strong> 活动尚未完成，并且必须在其计划中更新为 "是" 或 "否"。</li>
-   - ![红色 X 表示不 ](media/deploy-my-service-image5.png) <strong> (红色) </strong> 的插图：由于存在问题，无法完成活动，必须将其传送到项目状态会议。</li></ul>
+   - ![绿色对号是或不适用于绿色 (的插图) ：活动已完成，或者不适用于此站点，无需进一步 ](media/deploy-my-service-image3.png) 操作。</li>
+   - ![黄色感叹号插图 活动尚未完成 (黄色) ：活动尚未完成，必须按计划更新为"是"或"否 ](media/deploy-my-service-image4.png) <strong></strong>"。</li>
+   - ![红色 X 的插图，指示没有 (") "：活动因问题而无法完成，必须携带到项目 ](media/deploy-my-service-image5.png) <strong></strong>状态会议。</li></ul>
 
-6. 状态将在每个分区内进行汇总，分区标题将设置为这些状态标记之一。 **每周状态** 也会自动更新。
+6. 状态在每个部分中汇总，分区标题的格式设置为这些状态指示器之一。 **每周状态** 也会自动更新。
 
-![行动手册中的 "每周状态" 滚动屏幕截图](media/deploy-my-service-image6.png "行动手册中的 "每周状态" 滚动屏幕截图")
+![Playbook 中每周状态汇总的屏幕截图](media/deploy-my-service-image6.png "Playbook 中每周状态汇总的屏幕截图")
 
 > [!TIP]
-> 对您拥有的所有位置重复上述步骤。
+> 针对你拥有的所有位置重复上述步骤。
 
 > [!IMPORTANT]
-> 某些步骤可能不适用于所有位置和网站。 如果特定活动不与网站相关，则必须选择 " **不适** 用于此活动"。 **不要删除操作** 手册中的任何行;如果执行此操作，则状态汇总公式将不起作用。<br/><br/>
-注意可能花费比计划更多时间的活动，例如号码移植和采购活动。 这些活动可能会对网站部署时间线产生负面影响。 请务必查看和更新活动列表和关联的日程表每周，并在 [筹划指导委员会会议](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) 中展示它们，以确保利益干系人了解每个网站的状态以及部署计划的任何可能的偏差。
+> 某些步骤可能不适用于所有位置和网站。 如果特定活动与网站不相关，则必须选择" **不适用于此** 活动"。 **不要删除** playbook 中的任何行;如果这样做，状态汇总公式将不起作用。<br/><br/>
+请注意可能需要比计划的时间更多的活动，例如数字移植和采购活动。 这些活动可能会对站点部署时间线产生负面影响。 请务必每周查看和更新活动列表和相关日程表，并出席指导委员会会议，确保利益干系人[](./envision-steering-committee-complete-guide.md)了解每个网站的状态以及任何可能与部署计划偏差的情况。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定你的部署是否需要网站支持行动手册。</li><li>确定负责为您要部署的每个网站自定义 Microsoft 团队的网站支持行动手册的人员。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">下载网站支持行动手册</a>。</li><li>为您的第一个网站自定义 "网站支持行动手册"。</li><li>根据需要重复其他网站的操作。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定是否需要站点启用 Playbook 进行部署。</li><li>确定谁负责为要部署的每个网站自定义 Microsoft Teams 网站启用 Playbook。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">下载网站启用 Playbook。</a></li><li>为第一个网站自定义网站启用 Playbook。</li><li>根据需要对其他网站重复上述步骤。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

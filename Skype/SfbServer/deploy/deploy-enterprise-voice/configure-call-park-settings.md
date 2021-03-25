@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: 修改 Skype for Business Server 服务中的呼叫企业语音。
-ms.openlocfilehash: 2380c9b505ceef6ac5f4bbe04996bfdf611de39c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 修改 Skype for Business Server 企业语音 中的呼叫企业语音。
+ms.openlocfilehash: c1eecd55dac398752915ccb63886bbf85858fe47
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804112"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111908"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>在 Skype for Business 中配置呼叫等待设置
 
-修改 Skype for Business Server 服务中的呼叫企业语音。
+修改 Skype for Business Server 企业语音 中的呼叫企业语音。
 
 如果不想使用默认呼叫呼叫管理设置，可以自定义这些设置。 安装呼叫管理应用程序时，默认情况下将配置全局设置。 您可以修改全局设置，也可以指定特定于站点的设置。 使用 **New-CsCpsConfiguration** cmdlet 可创建新的特定于站点的设置。 使用 **Set-CsCpsConfiguration** cmdlet 可修改现有设置。
 
@@ -42,9 +42,9 @@ ms.locfileid: "49804112"
 | **MaxCallPickupAttempts** <br/>      | 在将寄存呼叫转接到为 **OnTimeoutURI** 指定的回退统一资源标识符 (URI) 之前该寄存呼叫回拨应答电话的次数。默认值为 1。<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | 超出 **MaxCallPickupAttempts** 时未应答的寄存呼叫将路由到的用户或响应组的 SIP 地址。 <br/> 值必须为以字符串 sip: 开头的 SIP URI。例如，sip:bob@contoso.com。默认情况下没有转接地址。<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>配置呼叫管理设置
+### <a name="to-configure-call-park-settings"></a>配置呼叫呼叫管理设置
 
-1. 启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+1. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
 
 2. 运行：
 
@@ -53,7 +53,7 @@ ms.locfileid: "49804112"
    ```
 
    > [!TIP]
-   > 使用 **Get-CsSite** cmdlet 可标识站点。 有关详细信息，请参阅 Skype for Business Server 命令行管理程序文档。
+   > 使用 **Get-CsSite** cmdlet 可标识站点。 有关详细信息，请参阅 Skype for Business Server Management Shell 文档。
 
     例如：
 
@@ -63,10 +63,10 @@ ms.locfileid: "49804112"
 
 ## <a name="see-also"></a>另请参阅
 
-[在Skype for Business 2015 中自定义呼叫等待音乐](customize-call-park-music-on-hold.md)
+[Customize Call Park music on hold inSkype for Business 2015](customize-call-park-music-on-hold.md)
 
-[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[New-CsCpsConfiguration](/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
-[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
+[Set-CsCpsConfiguration](/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 
-[Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
+[Get-CsSite](/powershell/module/skype/get-cssite?view=skype-ps)

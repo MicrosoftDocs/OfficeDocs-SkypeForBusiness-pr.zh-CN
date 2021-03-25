@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-ms.openlocfilehash: bf1e5083b160bf79c1abe06bffd2a68bf4c0aaab
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 59e0fd09721e488a1806cc7a4ffcf527d34b029a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421187"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112418"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 
@@ -42,7 +42,7 @@ Teams 中的来宾都可享受其余 Microsoft 365 产品中同样的合规性�
 > [!IMPORTANT]
 > 来宾用户遵循共存升级模式下的 Teams 组织范围内设置。 此选项无法更改。
 
-若要设置来宾访问，请参阅[在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。 
+若要设置来宾访问，请参阅[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。 
 
 要将外部访问（联合身份验证）与来宾访问进行比较（并决定应使用哪个），请阅读[与 Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)。
 
@@ -50,17 +50,17 @@ Teams 中的来宾都可享受其余 Microsoft 365 产品中同样的合规性�
 
 Teams 中的来宾访问需要在 Microsoft 365 中配置其他设置，包括 Azure AD、Microsoft 365 组和 SharePoint 中的设置。 如果你已准备好开始邀请来宾加入 Teams，请阅读以下内容之一：
 
-- 若要为 Teams 配置来宾访问以供一般使用，请参阅[在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。
-- 若要与使用 Azure Active Directory 的合作伙伴组织进行协作，并允许来宾自行注册以实现团队访问，请参阅[创建托管有来宾的 B2B 外联网](https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet)。
+- 若要为 Teams 配置来宾访问以供一般使用，请参阅[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。
+- 若要与使用 Azure Active Directory 的合作伙伴组织进行协作，并允许来宾自行注册以实现团队访问，请参阅[创建托管有来宾的 B2B 外联网](/microsoft-365/solutions/b2b-extranet)。
 
-Teams 中的来宾访问是一种组织范围的设置，默认情况下处于关闭状态。 可使用[敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)控制来宾对各个团队的访问。
+Teams 中的来宾访问是一种组织范围的设置，默认情况下处于关闭状态。 可使用[敏感度标签](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)控制来宾对各个团队的访问。
 
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>来宾如何成为团队成员
 
 1. 团队所有者或 Microsoft 365 管理员[向团队添加来宾](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
 2. 来宾会收到一封来自团队所有者的欢迎电子邮件，其中内附团队信息及其现在作为成员应执行的操作。
 3. 来宾接受邀请。
-  在 Azure Active Directory 中拥有工作或学校帐户的来宾用户可以接受邀请并直接进行身份验证。 将向其他用户发送一次性密码，以验证其身份（需要[一次性密码验证](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode)）。
+  在 Azure Active Directory 中拥有工作或学校帐户的来宾用户可以接受邀请并直接进行身份验证。 将向其他用户发送一次性密码，以验证其身份（需要[一次性密码验证](/azure/active-directory/external-identities/one-time-passcode)）。
 4. 接受邀请后，来宾可[参与团队和频道](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)、接收和答复频道消息、[访问频道中的文件](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)，还能参与聊天、加入会议并协作处理文档等等。 
 
 在 Teams 中，可清楚地识别来宾。 来宾用户的姓名包含 **（来宾）** 标签，而频道中有一个图标表示团队中存在来宾。 有关更多详细信息，请参阅[来宾体验介绍](guest-experience.md)。
@@ -72,7 +72,7 @@ Teams 中的来宾访问是一种组织范围的设置，默认情况下处于�
 
 ## <a name="licensing-for-guest-access"></a>来宾访问的许可
 
-所有 Microsoft 365 商业标准版、Microsoft 365 企业版和 Microsoft 365 教育版订阅均包含来宾访问功能。 无需额外的 Microsoft 365 许可证。 Teams 不对可添加的来宾数量进行限制。 但是，可添加到你的租户的来宾总数可能受到 Azure AD 的付费功能的限制。 有关详细信息，请参阅 [Azure AD 外部标识的计费模型](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
+所有 Microsoft 365 商业标准版、Microsoft 365 企业版和 Microsoft 365 教育版订阅均包含来宾访问功能。 无需额外的 Microsoft 365 许可证。 Teams 不对可添加的来宾数量进行限制。 但是，可添加到你的租户的来宾总数可能受到 Azure AD 的付费功能的限制。 有关详细信息，请参阅 [Azure AD 外部标识的计费模型](/azure/active-directory/b2b/licensing-guidance)。
 
 > [!NOTE]
 > 你组织中仅拥有独立 Microsoft 365 订阅计划（例如 Exchange Online 计划 2）的用户不可作为来宾被邀请加入你的组织，因为 Teams 将这些用户视为属于该组织。 要让这些用户使用 Teams，必须向他们分配 Microsoft 365 商业标准版、Office 365 企业版或 Office 365 教育版订阅。 
@@ -81,16 +81,16 @@ Teams 中的来宾访问是一种组织范围的设置，默认情况下处于�
 
 可使用 Azure AD 为分配给应用程序的组成员或用户创建访问评审。 创建定期访问评审可以节省你的时间。 如果需要定期评审有权访问应用程序、团队或者属于组成员的用户，则可以定义这些评审的频率。 
 
-你可以自行执行来宾访问评审，要求来宾评审其自身的成员身份，或要求应用程序所有者或业务决策者执行访问评审。 使用 Azure 门户执行来宾访问评审。 有关详细信息，请参阅[使用 Azure AD 访问评审管理来宾访问](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)。
+你可以自行执行来宾访问评审，要求来宾评审其自身的成员身份，或要求应用程序所有者或业务决策者执行访问评审。 使用 Azure 门户执行来宾访问评审。 有关详细信息，请参阅[使用 Azure AD 访问评审管理来宾访问](/azure/active-directory/governance/manage-guest-access-with-access-reviews)。
 
 ## <a name="related-topics"></a>相关主题
 
-[与组织外部人员进行协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
+[与组织外部人员进行协作](/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[阻止来自特定 Microsoft 365 组或 Microsoft Teams 团队的来宾用户](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[阻止来自特定 Microsoft 365 组或 Microsoft Teams 团队的来宾用户](/microsoft-365/solutions/per-group-guest-access)
 
-[创建安全的来宾共享环境](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+[创建安全的来宾共享环境](/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
-[联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+[联系商业版产品的支持人员 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)
 
-[配置具有三层保护的 Teams](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)
+[配置具有三层保护的 Teams](/microsoft-365/solutions/configure-teams-three-tiers-protection)

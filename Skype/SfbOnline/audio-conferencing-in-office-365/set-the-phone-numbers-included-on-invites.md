@@ -21,24 +21,24 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: b7a4ee991ff8a8e41401b3b2d2dc20aa20708b88
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 956c2fa23f61f0c0e24cd1c2a0802bd3f1397bb1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163931"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113218"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>设置包含在 Skype for Business Online 邀请中的电话号码
 
 > [!Note]
 > 有关 Microsoft Teams 中的会议邀请电话号码的信息，请参阅[设置 Microsoft Teams 中包含的电话号码](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)。
 
-Microsoft 365 或 Office 365 中的音频会议使您的组织中的用户能够创建 Skype for Business 会议，然后允许用户使用电话拨入这些会议。在 Microsoft 365 和 Office 365 中，你可以选择使用 Microsoft 音频会议桥或由已批准的音频会议提供商（ACP）托管的第三方音频会议桥。
+Microsoft 365 或 Office 365 中的音频会议使贵组织的用户能够创建 Skype for Business 会议，然后允许用户使用电话拨入这些会议。 在 Microsoft 365 和 Office 365 中，可以选择使用由批准的音频会议提供商 (ACP) 托管的 Microsoft 音频会议网桥或第三方音频会议网桥。
   
 > [!NOTE]
-> There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. If you are looking to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add** then **New Service Numbers**. Use the lists for **Country/Region**, **State/Region** and **City** to filter your search.> Also, if you are looking for toll free service numbers, select **Toll-Free** from the **State/Region** list.
+> 没有包含所有音频会议拨入号码列表的资源。 如果你希望查看你的地区或国家/地区是否有可用的拨入电话号码，请使用 **Skype for Business** 管理中心"语音电话号码"，单击"添加"，然后单击"  >    >  新建 **服务号码"。**  使用 **国家/地区**、**州/地区** 和 **城市** 列表筛选搜索。 此外，如果要查找免费服务电话号码，从 **国家/地区** 列表中选择 **免费电话**。
   
-A conferencing bridge gives you a set of dial-in phone numbers for your organization. All of them can be used to join the meetings that a meeting organizer has created, but you can select which ones will be included on their meeting invites.
+会议桥为你的组织提供了一套拨入电话号码。 它们都可用于加入会议组织者已创建的会议，但你可以选择在其会议邀请中包括哪些号码。
   
 > [!NOTE]
 > 会议组织者的会议邀请中最多可以有一个收费和一个免费电话号码，但每个会议邀请的底部还有一个链接，用于打开用来可加入会议的所有拨入电话号码的完整列表。 
@@ -48,7 +48,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>为会议组织者设置默认的拨入电话号码
 
-1. 使用你的工作或学校帐户登录。
+1. 使用工作或学校帐户登录。
     
 2. 选择 **管理中心** > **Skype for Business** 。
     
@@ -60,7 +60,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
    - 要选择单个用户，请选择该用户的名称。
     
-   - 要选择页面上的所有用户，请都选择列表顶部**显示名称**旁边的复选框。
+   - 要选择页面上的所有用户，请都选择列表顶部 **显示名称** 旁边的复选框。
     
    - 要选择多个用户，请选择每个用户名称旁边的复选框。
     
@@ -68,36 +68,36 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
     ![Choose the edit icon.](../images/5dd7c5bc-b8fa-4201-b6a6-1436ad8f88fb.png)
   
-6. 选择**音频会议**。
+6. 选择 **音频会议**。
     
-7. On the **Properties** page, in the **Provider name** list, choose the provider for the user. Depending on the provider, complete the following boxes.
+7. 在 **属性** 页上的 **提供商名称** 列表中，为用户选择提供商。 根据提供商填写下列方框。
     
-   - **Microsoft 是提供商**：使用**默认收费电话号码**和**默认免费电话号码**列表选择用户的默认号码。
+   - **Microsoft 是提供商**：使用 **默认收费电话号码** 和 **默认免费电话号码** 列表选择用户的默认号码。
     
      > [!NOTE]
-     > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business](/microsoftteams/getting-service-phone-numbers). 
+     > 在将电话号码设置为用户的默认免费电话号码之前，必须为至少向会议桥分配一个免费电话号码。 若要获取免费号码，请参阅 [获取 Skype for Business 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。 
   
-   - **第三方是提供商**：使用**收费电话号码**和**免费电话号码**字段，为用户输入号码。
+   - **第三方是提供商**：使用 **收费电话号码** 和 **免费电话号码** 字段，为用户输入号码。
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>重置音频会议的电话号码
 
-1. 在**Skype For business 管理中心**，选择 "**音频会议**"。
+1. 在 **Skype for Business 管理中心中，** 选择 **"音频会议"。**
     
-2. 在页面顶部，选择**用户**。
+2. 在页面顶部，选择 **用户**。
     
-3. 选择要重置的用户，然后在操作窗格单击**清除**。
+3. 选择要重置的用户，然后在操作窗格单击 **清除**。
     
-By default, when you change a user's conferencing settings, an email is sent to the user. To change this, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md).
+默认情况下，更改用户的会议设置时会给用户发送电子邮件。 若要更改此功能，请参阅音频会议设置更改时启用 [或禁用发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change.md)。
   
 > [!IMPORTANT]
 > 更改用户的音频会议设置时，必须更新定期和将来的 Skype for Business 会议，并将其发送给与会者。 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 为节省时间或自动执行此操作，可以使用 [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) cmdlet。
+- 为节省时间或自动执行此操作，可以使用 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) cmdlet。
     
-- 使用 [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) cmdlet 可更改特定用户的默认收费电话号码或免费电话号码。
+- 使用 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) cmdlet 可更改特定用户的默认收费电话号码或免费电话号码。
     
     若要更改用户的默认免费电话号码，请运行：
     
@@ -108,43 +108,43 @@ By default, when you change a user's conferencing settings, an email is sent to 
 - 使用 **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlet 可基于用户的原始默认电话号码或位置来更改其默认收费电话号码或免费电话号码。
     
     > [!NOTE]
-    > 若要查找 BridgeID，请使用**get-csonlinedialinconferencingbridge** cmdlet。
+    > 若要查找 BridgeID，请使用 **Get-CsOnlineDialInConferencingBridge** cmdlet。
   
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - 若要为所有用户设置默认免费电话号码，而不是 + 18005551234，请运行：
+  - 若要将没有免费电话号码的所有用户的默认免费电话号码设置为 +18005551234，请运行：
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - 若要将具有 + 18005551234 的所有用户的默认免费电话号码更改为 + 18005551239 的默认免费号码，请运行：
+  - 若要将具有 +18005551234 作为默认免费电话号码的所有用户的默认免费电话号码更改为 +18005551239，请运行：
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - 若要将美国所有用户的默认免费号码设置为 + 18005551234，请运行：
+  - 若要将位于美国的所有用户的默认免费电话号码设置为 +18005551234，请运行：
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-  ## <a name="want-to-learn-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>想要详细了解Windows PowerShell？
 - 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [为什么需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。了解以下主题中的这些优势：
+- Windows PowerShell比使用 Microsoft 365 管理中心（例如，一次对许多用户进行设置更改时）具有许多速度、简单性和工作效率优势。 通过以下主题了解这些优势：
     
-  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [使用 Windows PowerShell 管理 Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>相关主题
 

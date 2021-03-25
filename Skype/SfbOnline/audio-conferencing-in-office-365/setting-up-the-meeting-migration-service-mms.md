@@ -1,5 +1,5 @@
 ---
-title: '使用会议迁移服务 (MMS) '
+title: 使用会议迁移服务 (MMS)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,118 +21,118 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 会议迁移服务 (MMS) 是一种在后台运行的服务，可自动更新用户的 Skype for business 和 Microsoft 团队会议。 MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: 9223102ef9c264fdafdb9f52ec74d6edb383f987
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+description: 会议迁移 (MMS) 是一项在后台运行的服务，可自动更新用户的 Skype for Business 和 Microsoft Teams 会议。 MMS 旨在让用户无需运行会议迁移工具来更新其 Skype for Business 和 Microsoft Teams 会议。
+ms.openlocfilehash: 18a36425e842e0c24c5cf6c2837535043e7967a8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47765344"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111948"
 ---
-# <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务 (MMS) 
+# <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务 (MMS)
 
- (MMS) 的会议迁移服务是在以下情况下更新用户现有会议的服务：
+会议迁移服务 (MMS) 是一种在下列情况下更新用户现有会议的服务：
 
-- 当用户从本地迁移到云时 (是 Skype for Business Online 还是 TeamsOnly) 。
-- 管理员对用户的音频会议设置进行更改时 
-- 当联机用户仅升级到团队时，或者当 TeamsUpgradePolicy 中的用户模式设置为 SfBwithTeamsCollabAndMeetings 时
+- 当用户从本地迁移到云环境时 (Skype for Business Online 还是 TeamsOnly) 。
+- 当管理员更改用户的音频会议设置时 
+- 如果仅将联机用户升级到 Teams，或者 TeamsUpgradePolicy 中的用户模式设置为 SfBwithTeamsCollabAndMeetings
 - 使用 PowerShell 时 
 
 
-默认情况下，在这些情况下，MMS 会自动触发，尽管管理员可以在租户级别禁用它。 此外，管理员可以使用 PowerShell cmdlet 为给定用户手动触发会议迁移。
+默认情况下，MMS 会在每种情况下自动触发，尽管管理员可以在租户级别禁用 MMS。 此外，管理员可以使用 PowerShell cmdlet 为给定用户手动触发会议迁移。
 
 
-**限制**：如果满足以下任一条件，则无法使用会议迁移服务：
+**限制**：如果满足以下任一条件，将不能使用会议迁移服务：
 
 - 用户的邮箱托管在本地 Exchange 中。
-- 用户正在从云迁移到本地 Skype for Business 服务器。
+- 用户正在从云迁移到本地 Skype for Business Server。
 
-在这些情况下，最终用户可以使用 [会议迁移工具](https://www.microsoft.com/download/details.aspx?id=51659) 来迁移其自己的会议。
+在这些情况下，最终用户可以使用会议迁移 [工具来](https://www.microsoft.com/download/details.aspx?id=51659) 迁移自己的会议。
 
 ## <a name="how-mms-works"></a>MMS 的工作原理
 
-为给定用户触发 MMS 时，将向队列中放置该用户的迁移请求。 为了避免任何争用条件，已对排队的请求进行有意处理，直到至少90分钟后才会被处理。 MMS 处理请求后，它会执行以下任务：
+为给定用户触发 MMS 时，该用户的迁移请求将置于队列中。 为避免出现任何竞争情况，在至少 90 分钟之前，特意不处理排队的请求。 MMS 处理请求后，会执行以下任务：
 
-1. 它将在该用户的邮箱中搜索该用户组织的所有现有会议，将来安排该用户。
-2. 根据用户邮箱中的信息，在团队或 Skype for Business Online 中为该用户更新或安排新会议，具体取决于具体的方案。
-3. 在电子邮件中，它将替换会议详细信息中的联机会议阻止。
-4. 它代表会议组织者将该会议的更新版本发送给所有会议收件人。 会议被邀请者将通过其电子邮件中的已更新会议坐标接收会议更新。 
+1. 它会在用户的邮箱中搜索该用户组织的所有现有会议，并计划在将来。
+2. 根据在用户的邮箱中发现的信息，它会在 Teams 或 Skype for Business Online 中为该用户更新或计划新会议，具体取决于具体方案。
+3. 在电子邮件中，它将替换会议详细信息中的联机会议块。
+4. 它代表会议组织者将会议的更新版本发送给所有会议收件人。 会议被邀请者将收到其电子邮件中更新的会议坐标的会议更新。 
 
     ![由 MMS 更新的会议块](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
-从 MMS 触发时起，通常需要大约2小时才会迁移用户的会议。 但是，如果用户拥有大量的会议，可能需要更长时间。 如果 MMS 在为用户迁移一个或多个会议时遇到错误，将在24小时范围内定期重试最多9次。
+从 MMS 触发起，通常需要大约 2 小时，直到用户的会议迁移完成。 但是，如果用户具有大量会议，可能需要更长时间。 如果 MMS 在迁移用户的一个或多个会议时遇到错误，它将在 24 小时内定期重试最多 9 次。
 
-**备注**：
+**注意**：
 
-- MMS 在迁移会议时会替换联机会议信息块中的所有内容。 因此，如果用户编辑了信息块，它们的更改会被覆盖。 用户拥有的所有联机会议信息块以外的内容不会受到影响。 这意味着将仍包括附加到会议邀请的任何文件。 
-- 只有通过在 Outlook 网页版中单击 " **添加 skype 会议** " 按钮或使用 Outlook 的 skype 会议外接程序进行安排的 Skype for Business 或 Microsoft 团队会议才会被迁移。 如果用户将一个会议中的 Skype online 会议信息复制并粘贴到新会议中，则不会更新新会议，因为原始服务中没有会议。
-- 创建或附加到会议的会议内容 (白板、投票等) 在 MMS 运行后不会保留。 如果你的会议组织者提前对会议附加了内容，在 MMS 运行之后需要重新创建该内容。
-- 日历项以及 Skype 会议中共享会议笔记的链接也会被覆盖。 请注意，OneNote 中存储的实际会议笔记仍将保留在其中。只有指向共享笔记的链接被覆盖。
+- MMS 在迁移会议时会替换联机会议信息块中的所有内容。 因此，如果用户编辑了信息块，它们的更改会被覆盖。 用户拥有的所有联机会议信息块以外的内容不会受到影响。 这意味着，附加到会议邀请的任何文件仍将包含在内。 
+- 仅迁移通过单击 Outlook 网页中的"添加 Skype 会议"按钮或者使用 Outlook 的 Skype 会议加载项安排的 Skype for Business 或 Microsoft Teams 会议。 如果用户将 Skype 联机会议信息从一个会议复制并粘贴到新会议，该新会议将不会更新，因为原始服务中没有任何会议。
+- 创建或附加到会议的会议内容 (白板、投票等) MMS 运行后不会保留。 如果你的会议组织者提前对会议附加了内容，在 MMS 运行之后需要重新创建该内容。
+- 日历项以及 Skype 会议中共享会议笔记的链接也会被覆盖。 请注意，存储在 OneNote 中的实际会议笔记仍将存在;它是唯一覆盖的共享笔记的链接。
 - 与会者超过 250（包括组织者）的会议不会迁移。
-- 邀请正文中的一些 UNICODE 字符可能会错误地更新为下列特殊字符之一：ï、¿、1/2、。
+- 邀请正文中的某些 UNICODE 字符可能会错误地更新为以下特殊字符之一：ï、-、1/2、 。
 
 ## <a name="triggering-mms-for-a-user"></a>为用户触发 MMS
 
-本部分介绍在以下每种情况下会触发 MMS 的情况：
+本部分介绍以下情况中触发 MMS 时会发生什么情况：
 
-- 用户从本地迁移到云时
-- 管理员对用户的音频会议设置进行更改时 
-- 当 TeamsUpgradePolicy 中的用户模式使用 Powershell 或团队管理门户设置为 TeamsOnly 或 SfBWithTeamsCollabAndMeetings (时) 
+- 当用户从本地迁移到云时
+- 当管理员更改用户的音频会议设置时 
+- 当用户在 TeamsUpgradePolicy 中的模式设置为 TeamsOnly 或 SfBWithTeamsCollabAndMeetings (使用 Powershell 或 Teams 管理门户) 
 - 使用 PowerShell cmdlet 时，Start-CsExMeetingMigration
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>将本地用户移动到云时更新会议
 
-这是一种最常见的情况，MMS 可帮助用户创建更流畅的切换效果。 如果没有会议迁移，在用户联机移动后，在本地 Skype for business 服务器中由用户组织的现有会议将不再有效。 因此，当你使用本地管理员工具 (`Move-CsUser` 或 "管理员控制面板") 将用户移动到云时，现有会议将自动移到云，如下所示：
+这是 MMS 可帮助为用户创建更平滑过渡的最常见方案。 如果不进行会议迁移，则用户在本地 Skype for Business Server 中组织的现有会议在用户联机移动后将不再有效。 因此，使用本地管理工具 (管理控制面板) 将用户移动到云时，现有会议会自动移动到 `Move-CsUser` 云，如下所示：
 
-- 如果 `MoveToTeams` 指定了开关 `Move-CsUser` ，会议将直接迁移到团队，并且用户将处于 TeamsOnly 模式。 使用此开关需要使用 CU8 或更高版本的 Skype for business Server 2015。 通过使用 Skype for business 客户端或 Skype 会议应用，这些用户仍然可以加入任何受邀参加的 Skype for Business 会议。
-- 否则，会议将迁移到 Skype for business Online。
+- 如果 `MoveToTeams` 指定了 中的 `Move-CsUser` 开关，会议将直接迁移到 Teams，用户将进入 TeamsOnly 模式。 使用此开关需要具有 CU8 或更高版本的 Skype for Business Server 2015。 这些用户仍可使用 Skype for Business 客户端或 Skype 会议应用加入可能受邀参加的任何 Skype for Business 会议。
+- 否则会议将迁移到 Skype for Business Online。
 
-在任何一种情况下，如果用户在被移动到云之前已分配了音频会议许可证，则将使用拨入坐标创建会议。 如果你将用户从本地移动到云，并且希望该用户使用音频会议，我们建议你在移动用户之前先分配音频会议，以便仅触发1个会议迁移。
+在任一情况下，如果在将用户移动到云之前为用户分配了音频会议许可证，则使用拨入坐标创建会议。 如果将用户从本地移动到云，并且希望该用户使用音频会议，我们建议在移动用户之前先分配音频会议，以便仅触发 1 个会议迁移。
 
 
 ### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>当用户的音频会议设置更改时更新会议
 
-在以下情况下，MMS 将更新现有 Skype for Business 和 Microsoft 团队会议以添加、删除或修改拨入坐标：
+在下列情况下，MMS 将更新现有 Skype for Business 和 Microsoft Teams 会议，以添加、删除或修改拨入坐标：
 
-- 向用户分配或删除 Microsoft 音频会议服务许可证时，该用户未启用第三方音频会议提供商。
-- 如果将用户的音频会议提供商从任何其他提供商更改为 Microsoft，前提是该用户分配有 Microsoft 音频会议许可证。 有关详细信息，请参阅 [将 Microsoft 分配为音频会议提供商](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。 另请注意，第三方音频会议提供商 [ACP] 的支持计划于2019年4月1日（如 [以前宣布](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)）的生命周期结束。
-- 启用或禁用用户的音频会议时。
-- 当您更改或重置配置为使用公共会议的用户的会议 ID 时。
-- 将用户移动到新的音频会议桥时。
-- 当音频会议桥的电话号码未分配时。 这是一个需要额外步骤的复杂方案。 有关详细信息，请参阅 [更改音频会议桥中的电话号码](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
+- 向用户分配或删除 Microsoft 音频会议服务许可证时，并且未为该用户启用第三方音频会议提供商。
+- 将用户的音频会议提供商从任何其他提供商更改为 Microsoft 时，只要为该用户分配了 Microsoft 音频会议许可证。 有关详细信息，请参阅将 [Microsoft 分配为音频会议提供商](./assign-microsoft-as-the-audio-conferencing-provider.md)。 另请注意，对第三方音频会议提供商 [ACP] 的支持计划于 2019 年 4 月 1 日结束，正如之前 [宣布的](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)。
+- 为用户启用或禁用音频会议时。
+- 更改或重置配置为使用公用会议的用户的会议 ID 时。
+- 将用户移动到新的音频会议网桥时。
+- 取消分配来自音频会议网桥的电话号码时。 这是一个复杂的方案，需要其他步骤。 有关详细信息，请参阅 [更改音频会议网桥上的电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
 
-对用户的音频会议设置的所有更改都不会触发 MMS。 具体地说，下列两种更改不会使 MMS 更新会议：
+并非用户的音频会议设置的所有更改都触发 MMS。 具体地说，下列两种更改不会使 MMS 更新会议：
 
 - 当你更改会议组织者的 SIP 地址（其 SIP 用户名或 SIP 域）时
-- 使用命令更改组织的会议 URL 时 `Update-CsTenantMeetingUrl` 。
+- 使用 命令更改组织的会议 URL `Update-CsTenantMeetingUrl` 时。
 
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>分配 TeamsUpgradePolicy 时更新会议
 
-默认情况下，当向用户授予 with 或的实例时，将自动触发会议迁移 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode= SfBWithTeamsCollabAndMeetings` 。 如果你不希望在授予其中任一种模式时迁移会议，请 `MigrateMeetingsToTeams $false` 在 (中指定 `Grant-CsTeamsUpgradePolicy` 如果使用 PowerShell) 或取消选中在设置用户的共存模式时迁移会议的框 (如果使用团队管理门户) 。
+默认情况下，当向用户授予 具有 或 的实例时，会自动 `TeamsUpgradePolicy` 触发 `mode=TeamsOnly` 会议迁移 `mode= SfBWithTeamsCollabAndMeetings` 。 如果在授予上述任一模式时不想迁移会议，则使用 PowerShell) 时，在 (中指定 ，或者取消选中框以在设置用户的共存模式 (（如果使用 Teams 管理门户 `MigrateMeetingsToTeams $false` `Grant-CsTeamsUpgradePolicy`) ）时迁移会议。
 
 另请注意以下事项：
 
-- 仅当你授予特定用户时，才会调用会议迁移 `TeamsUpgradePolicy` 。 如果你在 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode=SfBWithTeamsCollabAndMeetings` *租户范围内* 授予或，则不会调用会议迁移。
-- 如果用户处于联机状态，则仅可向用户授予 TeamsOnly 模式。 必须按照前面所述，使用托管内部部署的用户进行移动 `Move-CsUser` 。
-- 授予除 TeamsOnly 或 SfBWithTeamsCollabAndMeetings 以外的其他模式时，不会将现有团队会议转换为 Skype for Business 会议。
+- 只有当为特定用户授予权限时， `TeamsUpgradePolicy` 才调用会议迁移。 如果在租户范围内使用 或 进行授权，则不 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode=SfBWithTeamsCollabAndMeetings` 调用会议迁移。 
+- 如果用户是在线家庭用户，则只能向用户授予 TeamsOnly 模式。 必须如前所述使用 移动本地 `Move-CsUser` 用户。
+- 授予 TeamsOnly 或 SfBWithTeamsCollabAndMeetings 模式不会将现有 Teams 会议转换为 Skype for Business 会议。
 
 ### <a name="trigger-meeting-migration-manually-via-powershell-cmdlet"></a>通过 PowerShell cmdlet 手动触发会议迁移
 
-除了自动会议迁移之外，管理员还可以通过运行 cmdlet 手动为用户触发会议迁移 `Start-CsExMeetingMigration` 。 此 cmdlet 将针对指定用户的迁移请求排队。  除了所需参数之外 `Identity` ，它还带有两个可选参数， `SourceMeetingType` 并 `TargetMeetingType` 允许你指定如何迁移会议：
+除了自动会议迁移外，管理员可以通过运行 cmdlet 手动为用户触发会议迁移 `Start-CsExMeetingMigration` 。 此 cmdlet 将指定用户的迁移请求排队。  除了所需的参数外，它还采用两个可选参数 和 ，这允许你 `Identity` `SourceMeetingType` `TargetMeetingType` 指定如何迁移会议：
 
-**TargetMeetingType:**
+**TargetMeetingType：**
 
-- 使用 `TargetMeetingType Current` 指定 skype for business 会议保持 skype for business 会议和团队会议保持团队会议。 但是音频会议坐标可能会更改，并且任何本地 Skype for business 会议都将迁移到 Skype for business Online。 这是 TargetMeetingType 的默认值。
-- 使用 `TargetMeetingType Teams` 指定无论是否需要进行任何音频会议更新，任何现有会议都必须迁移到团队，无论该会议是托管在 Skype For business online 还是内部部署中。 
+- 使用 `TargetMeetingType Current` 指定 Skype for Business 会议保持 Skype for Business 会议，Teams 会议保留 Teams 会议。 但是音频会议坐标可能会更改，任何本地 Skype for Business 会议都会迁移到 Skype for Business Online。 这是 TargetMeetingType 的默认值。
+- 使用 指定必须将任何现有会议迁移到 Teams，无论会议是托管在 Skype for Business Online 还是本地，以及是否需要任何音频会议 `TargetMeetingType Teams` 更新。 
 
-**SourceMeetingType:**
-- `SourceMeetingType SfB`"使用" 表示只有 Skype For business 会议 (是否应更新内部部署或联机) 。
-- 使用 `SourceMeetingType Teams` 指示仅应更新团队会议。
-- "使用" `SourceMeetingType All` 表示应更新 Skype for business 会议和团队会议。 这是 SourceMeetingType 的默认值。
+**SourceMeetingType：**
+- 使用 指示只有 Skype for Business (是本地还是在线) `SourceMeetingType SfB` 更新。
+- 使用 `SourceMeetingType Teams` 指示应仅更新 Teams 会议。
+- 使用 `SourceMeetingType All` 指示 Skype for Business 会议和 Teams 会议都应更新。 这是 SourceMeetingType 的默认值。
     
 
-下面的示例演示了如何为用户 ashaw@contoso.com 启动会议迁移，以便将所有会议迁移到团队：
+以下示例演示如何为用户启动会议迁移 ashaw@contoso.com 以便所有会议迁移到 Teams：
 
 ```PowerShell
 Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
@@ -142,13 +142,13 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 
 ## <a name="managing-mms"></a>管理 MMS
 
-使用 Windows PowerShell，你可以检查正在进行的迁移的状态，手动触发会议迁移，并完全禁用迁移。 
+使用Windows PowerShell，可以检查正在进行的迁移的状态、手动触发会议迁移，以及完全禁用迁移。 
 
 ### <a name="check-the-status-of-meeting-migrations"></a>检查会议迁移的状态
 
 使用 `Get-CsMeetingMigrationStatus` cmdlet 检查会议迁移的状态。 下面列出了一些示例。
 
-- 若要获取所有 MMS 迁移的摘要状态，请运行以下命令，其中提供了所有迁移状态的表格视图：
+- 若要获取所有 MMS 迁移的摘要状态，请运行以下命令，该命令提供所有迁移状态的表格视图：
 
     ```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
@@ -160,41 +160,41 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
     Failed            2 
     Succeeded   131
     ```
-- 若要获取特定时间段内所有迁移的完整详细信息，请使用 " `StartTime` 和" `EndTime` 参数。 例如，以下命令将返回从2018年10月1日到2018年10月8日的所有迁移的完整详细信息。
+- 若要获取特定时段内所有迁移的完整详细信息，请使用 `StartTime` 和 `EndTime` 参数。 例如，以下命令将返回 2018 年 10 月 1 日到 2018 年 10 月 8 日发生的所有迁移的完整详细信息。
 
     ```PowerShell
     Get-CsMeetingMigrationStatus -StartTime "10/1/2018" -EndTime "10/8/2018"
     ```
-- 若要检查特定用户的迁移状态，请使用该 `Identity` 参数。 例如，运行以下命令会返回用户 ashaw@contoso.com 的状态：
+- 若要检查特定用户的迁移状态，请使用 `Identity` 参数。 例如，运行以下命令会返回用户 ashaw@contoso.com 的状态：
 
     ```PowerShell
     Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
     ```
-如果你看到任何失败的迁移，请尽快采取措施解决这些问题，因为用户无法在你解决这些问题之前使用这些用户进行组织。 如果 `Get-CsMeetingMigrationStatus` 显示处于失败状态的任何迁移，请执行以下步骤：
+如果看到任何迁移失败，请尽快采取措施解决这些问题，因为用户无法拨入由这些用户组织的会议，直到你解决这些问题。 如果 `Get-CsMeetingMigrationStatus` 显示任何迁移都为失败状态，请执行以下步骤：
  
 1. 确定受影响的用户。 运行以下命令获取受影响的用户列表，以及报告的具体错误：
 
     ```PowerShell
     Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
-2. 对于每个受影响的用户，运行会议迁移工具以手动迁移其会议。
+2. 对于每个受影响的用户，请运行会议迁移工具以手动迁移其会议。
 
 3. 如果使用会议迁移工具还是无法完成迁移，你有两个选择：
 
     - 让用户创建新的 Skype 会议。
-    - [联系支持人员](https://go.microsoft.com/fwlink/p/?LinkID=518322)。
+    - [联系支持人员](/microsoft-365/Admin/contact-support-for-business-products)。
 
 
 ### <a name="enabling-and-disabling-mms"></a>启用和禁用 MMS
 
-默认情况下，将为所有组织启用 MMS，但可以禁用它，如下所示：
+MMS 默认为所有组织启用，但可禁用，如下所示：
 
 - 完全禁用租户。 
-- 仅针对与音频会议相关的更改禁用。 在这种情况下，当用户从本地迁移到云或在中授予 TeamsOnly 模式或 SfBWithTeamsCollabAndMeetings 模式时，MMS 仍将运行 `TeamsUpgradePolicy` 。
+- 仅对与音频会议相关的更改禁用。 在这种情况下，当用户从本地迁移到云时，或者当你在 中授予 TeamsOnly 模式或 SfBWithTeamsCollabAndMeetings 模式时，MMS 仍将运行 `TeamsUpgradePolicy` 。
 
-例如，你可能希望手动迁移所有会议或暂时禁用 MMS，同时对你的组织的音频会议设置进行重大更改
+例如，你可能希望手动迁移所有会议或暂时禁用 MMS，同时对组织的音频会议设置进行重大更改
 
-若要查看你的组织是否已启用 MMS，请运行以下命令。 如果参数为，则启用 MMS `MeetingMigrationEnabled` `$true` 。
+若要查看是否为组织启用了 MMS，请运行以下命令。 如果参数为 ，则启用 `MeetingMigrationEnabled` `$true` MMS。
 ```PowerShell
 Get-CsTenantMigrationConfiguration
 ```
@@ -203,7 +203,7 @@ Get-CsTenantMigrationConfiguration
 ```PowerShell
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
-如果组织中已启用 MMS，并且你想要检查它是否已启用音频会议更新，请 `AutomaticallyMigrateUserMeetings` 在的 "输出" 中检查该参数的值 `Get-CsOnlineDialInConferencingTenantSettings` 。 若要启用或禁用音频会议的 MMS，请使用 `Set-CsOnlineDialInConferencingTenantSettings` 。 例如，若要为音频会议禁用 MMS，请运行以下命令：
+如果在组织中启用了 MMS，并且你想要检查是否为音频会议更新启用了 MMS，请检查 的输出中的 `AutomaticallyMigrateUserMeetings` 参数值 `Get-CsOnlineDialInConferencingTenantSettings` 。 若要为音频会议启用或禁用 MMS，请使用 `Set-CsOnlineDialInConferencingTenantSettings` 。 例如，若要为音频会议禁用 MMS，请运行以下命令：
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
@@ -213,4 +213,4 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 [在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[在本地和云之间移动用户](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[在本地和云之间移动用户](../../SfbHybrid/hybrid/move-users-between-on-premises-and-cloud.md)
