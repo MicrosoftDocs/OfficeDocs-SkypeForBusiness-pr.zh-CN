@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 管理员可以了解如何在 GCCH 和 DoD 环境中将音频会议与直接路由一同使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119331"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262617"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>适用于 GCC High 和 DoD 且含直接路由的音频会议
 
@@ -46,7 +46,7 @@ ms.locfileid: "51119331"
 启用该服务需要租户许可证和至少一个用户许可证。 不能仅启用具有租户许可证或仅具有用户许可证的服务。 若要获取租户和组织中用户的服务许可证，请联系帐户团队。
 
 > [!IMPORTANT]
-> 在设置拨入电话号码并且用户在 Teams 客户端中具有工作拨号盘之前，无法为音频会议启用直接路由。 建议在按本文所述设置拨入电话号码之前，不要向用户分配具有直接路由的 GCC 高或 DoD 许可证的音频会议。
+> 在设置拨入电话号码之前，无法通过直接路由为用户启用音频会议。 建议在按本文所述设置拨入电话号码之前，不要向用户分配具有直接路由的 GCC High 或 DoD 许可证的音频会议。  未能遵循本指南可能会导致 Teams 客户端中完全缺少拨号盘。
 
 ### <a name="step-2-set-up-direct-routing"></a>步骤 2：设置直接路由
 

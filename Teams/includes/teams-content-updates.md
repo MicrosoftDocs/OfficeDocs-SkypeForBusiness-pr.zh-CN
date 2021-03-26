@@ -10,7 +10,6 @@
 |------|------------|--------|
 | 3/15/2021 | [Microsoft Teams 设备监视和警报](../alerts/device-health-status.md) | 添加内容 |
 | 3/15/2021 | [Microsoft Teams 监视和警报](../alerts/teams-admin-alerts.md) | 添加内容 |
-| 3/15/2021 | [实现移动到 Microsoft Teams](../implement-your-move.md) | 添加内容 |
 | 3/15/2021 | [Teams 和 Outlook 电子邮件集成](../teams-outlook-email-integration.md) | 修改内容 |
 | 3/15/2021 | [共享到 Teams](../teams-outlook-share-teams.md) | 添加内容 |
 | 3/16/2021 | [在 Microsoft Teams 中创建自定义团队模板](../create-a-team-template.md) | 修改内容 |

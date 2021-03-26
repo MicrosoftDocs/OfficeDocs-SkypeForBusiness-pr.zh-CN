@@ -17,12 +17,12 @@ description: 了解如何使用 Microsoft Teams 管理中心中的 Teams PSTN �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d870581b8921e39d50d0187120cf89067ac38819
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 402e602e9f15beef30f0c44901398fa22b63c807
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116860"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262664"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 使用情况报告
 
@@ -49,7 +49,7 @@ Microsoft Teams 管理 (中的 Teams PSTN) 公用电话交换网络电话网络�
 |**1**   |可以查看报表，了解过去 7 天、28 天或设置的自定义日期范围的趋势 |
 |**2**   |每个报表都有一个生成日期。 报表通常反映活动时间的 24 至 48 小时延迟。 |
 |**3**   |X 轴是特定报表的选定日期范围。 Y 轴是所选时段内通话总数。 <br>将鼠标悬停在给定日期上的点上以查看该日期的总调用。  |
-|**4**   |下表提供了每个呼叫的 PSTN 使用情况明细。 <ul><li>**UTC (时间戳)** 表示调用开始的时间。</li><li>**显示** 名称显示名称用户的名称。 可以单击显示名称转到 Microsoft Teams 管理中心的用户设置页面。</li><li>**用户名** 是用户的登录名。</li><li>**电话号码** 是接收入站呼叫呼叫的号码，或为出站呼叫拨打的号码。</li><li>**呼叫** 类型是呼叫是 PSTN 出站呼叫还是入站呼叫，以及呼叫类型，例如用户拨打的呼叫还是音频会议呼叫。 你可能会看到的调用类型包括：<br><br>**Teams 用户呼叫类型**<ul><li>**user_in** - 用户收到入站 PSTN 呼叫。</li><li>**user_out** - 用户拨打了出站 PSTN 呼叫</li><li>**user_out_conf** - 用户向呼叫添加了两个或多个 PSTN 参与者，例如三方电话会议</li><li>**user_out_transfer** - 用户将呼叫转接到 PSTN 号码</li><li>**user_out_forwarding** - 用户将呼叫转发到 PSTN 号码</li><li>**conf_in** - 音频会议网桥的入站呼叫</li><li>**conf_out** - 音频会议网桥的出站呼叫通常向会议添加 PSTN 号码</li></ul><br>**Teams 机器人呼叫类型**<ul><li>**ucap_in** - 自动助理或呼叫队列等 Teams 机器人的入站 PSTN 呼叫</li><li>**ucap_out** - Teams 机器人的出站 PSTN 呼叫，例如自动助理或呼叫队列</li></ul><br><li>**被呼叫** 者是拨打的号码。</li><li>**"拨打国家** /地区"是拨打的"国家/地区"。</li><li>**从** 调用是拨打该呼叫的号码。</li><li>**"从国家** /地区"是呼叫的拨打国家/地区。</li><li>**"** 费用"是向帐户收取的通话费用或金额。 </li><li>**货币** 是用于计算调用成本的货币类型。 </li><li>" **持续时间**"是接听呼叫的时间。</li><li>**根据用户** 的位置，国内/国际 (是国家/地区) 还是 (国家/地区) 国内呼叫。</li><li>**呼叫 ID** 是呼叫的呼叫 ID。 它是呼叫 Microsoft 支持人员时可以使用的呼叫标识符。</li><li>**号码** 类型是用户的电话号码类型，例如免费电话号码的服务。 </li><li>**"国家/地区** "是使用位置。 </li> <li>**会议 ID** 是音频会议的会议 ID。 </li><li>**功能** 是用于调用的许可证。 可能看到的许可证类型包括：<ul><li>**MCOEV 或 MCOEV_VIRTUALUSER 或 MCOEV_VIRTUALUSER_GOV** - 语音应用程序，例如自动助理或呼叫队列</li><li>**FREECALL** - 如果出现阻止我们定价呼叫的技术问题，该呼叫将免费提供，并且将显示此功能</li><li>**MCOPSTN1** - 国内呼叫 (3000 分钟美国/1200 分钟欧盟套餐) </li><li>**MCOPSTN2** - 国际呼叫计划</li><li>**MCOPSTN5** - 国内呼叫计划 (120 分钟呼叫计划) </li><li>**MCOPSTN6** - 国内呼叫 (240 分钟呼叫) </li><li>**MCOPSTN8** - 未与其他呼叫计划一样跨用户进行 (120 分钟国内呼叫计划) </li><li>**MCOPSTN9** - 国际呼叫计划</li><li>**MCOPSTNCAP** - 公用区域电话</li><li>**MCOPSTNPP** - 通信信用额度</li><li>**MCOMEETADD** - 音频会议</li><li>**MCOMEETACPEA** - 每分钟支付音频会议费用</li></ul></li></ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。|
+|**4**   |下表提供了每个呼叫的 PSTN 使用情况明细。 <ul><li>**UTC (时间戳)** 表示调用开始的时间。</li><li>**显示** 名称显示名称用户的名称。 可以单击显示名称转到 Microsoft Teams 管理中心的用户设置页面。</li><li>**用户名** 是用户的登录名。</li><li>**电话号码** 是接收入站呼叫呼叫的号码，或为出站呼叫拨打的号码。</li><li>**呼叫** 类型是呼叫是 PSTN 出站呼叫还是入站呼叫，以及呼叫类型，例如用户拨打的呼叫还是音频会议呼叫。 你可能会看到的调用类型包括：<br><br>**Teams 用户呼叫类型**<ul><li>**user_in** - 用户收到入站 PSTN 呼叫。</li><li>**user_out** - 用户拨打了出站 PSTN 呼叫</li><li>**user_out_conf** - 用户向呼叫添加了两个或多个 PSTN 参与者，例如三方电话会议</li><li>**user_out_transfer** - 用户将呼叫转接到 PSTN 号码</li><li>**user_out_forwarding** - 用户将呼叫转发到 PSTN 号码</li><li>**conf_in** - 音频会议网桥的入站呼叫</li><li>**conf_out** - 音频会议网桥的出站呼叫通常向会议添加 PSTN 号码</li></ul><br>**Teams 机器人呼叫类型**<ul><li>**ucap_in** - 自动助理或呼叫队列等 Teams 机器人的入站 PSTN 呼叫</li><li>**ucap_out** - Teams 机器人的出站 PSTN 呼叫，例如自动助理或呼叫队列</li></ul><br><li>**被呼叫** 者是拨打的号码。</li><li>**"拨打国家** /地区"是拨打的"国家/地区"。</li><li>**从** 调用是拨打该呼叫的号码。</li><li>**"从国家** /地区"是呼叫的拨打国家/地区。</li><li>**"** 费用"是向帐户收取的通话费用或金额。 </li><li>**货币** 是用于计算调用成本的货币类型。 </li><li>" **持续时间**"是接听呼叫的时间。</li><li>**根据用户** 的位置，国内/国际 (是国家/地区) 还是 (国家/地区) 国内呼叫。</li><li>**呼叫 ID** 是呼叫的呼叫 ID。 它是呼叫 Microsoft 支持人员时可以使用的呼叫标识符。</li><li>**号码** 类型是用户的电话号码类型，例如免费电话号码的服务。 </li><li>**"国家/地区** "是使用位置。 </li> <li>**会议 ID** 是音频会议的会议 ID。 </li><li>**功能** 是用于调用的许可证。 可能看到的许可证类型包括：<ul><li>**MCOEV 或 MCOEV_VIRTUALUSER 或 MCOEV_VIRTUALUSER_GOV** - 语音应用程序，例如自动助理或呼叫队列</li><li>**FREECALL** - 如果出现阻止我们定价呼叫的技术问题，该呼叫将免费提供，并且将显示此功能</li><li>**MCOPSTN1** - 国内呼叫 (3000 分钟美国/1200 分钟欧盟套餐) </li><li>**MCOPSTN2** - 国际呼叫计划</li><li>**MCOPSTN5** - 国内呼叫计划 (120 分钟呼叫计划) </li><li>**MCOPSTN6** - 国内呼叫 (240 分钟呼叫) </li><li>**MCOPSTN8** - 未与其他呼叫计划一样跨用户进行 (120 分钟国内呼叫计划) </li><li>**MCOPSTN9** - 国际呼叫计划</li><li>**MCOPSTNCAP** - 公用区域电话</li><li>**MCOPSTNPP** - 通信信用额度</li><li>**MCOMEETADD** - 音频会议</li><li>**MCOMEETADD_DIALOUT_US** - 音频会议美国和加拿大拨出计划</li><li>**MCOMEETADD_CN_GLOBAL** - 适用于非中国用户的音频会议</li><li>**MCOMEETADD_TATA** - Tata Communications Connections</li><li>**MCOMEETACPEA** - 音频会议按分钟付费 </li><li>**MCOMEETACPEA_GOV** - 政府音频会议按分钟付费</li></ul></li></ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。|
 |**5**   |选择“**编辑列**”可在表格中添加或删除列。 |
 |**6**   |选择 **"** 筛选"，按用户名或呼叫类型筛选报表 |
 |**7**   |选择 **"全屏** "以全屏模式查看报表。 |

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c04820336cc992f7ec4e53a80d8eb8f7deb05622
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: f5e6668229ef481d0b6c30683540c060495e0f21
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460622"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262349"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -35,17 +35,17 @@ ms.locfileid: "50460622"
 
 | 组件 | 要求 |
 |---------|---------|
-|计算机和处理器    | 最低 1.6 GHz (或更高) ，2 核<br><br>注意：对于 Intel 处理器，必须考虑使用 Intel Turbo Boost Technology (Max Turbo Frequency) 实现的最大速度         |
+|计算机和处理器    | 至少 1.6 GHz (或更高) ，2 核<br><br>注意：对于 Intel 处理器，必须考虑使用 Intel Turbo Boost Technology (Max Turbo Frequency) 实现的最大速度         |
 |内存     |    4.0 GB RAM     |
 |硬盘    | 3.0 GB 可用磁盘空间        |
 |显示器    |   1024 x 768 屏幕分辨率 |
-|图形硬件 |  Windows OS：图形硬件加速需要 DirectX 9 或更高版本，对于 Windows 10 Fall Creators Update (或 WDDM 1.3 或更高版本，使用 WDDM 2.0 或更高版本) 
-|操作系统  |    Windows 10、Windows 10 on ARM、Windows 8.1、Windows Server 2019、Windows Server 2016|
+|图形硬件 |  Windows OS：图形硬件加速需要 DirectX 9 或更高版本，对于 Windows 10 (或 WDDM 1.3 或更高版本，对于 Windows 10 Fall Creators Update) 
+|操作系统  |    Windows 10、Windows 10 on ARM、Windows 8.1、Windows Server 2019、Windows Server 2016、Windows Server 2012 R2|
 |.NET 版本    |  需要 .NET 4.5 CLR 或更高版本       |
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    |
 |视频通话和会议|<ul><li>需要 2 核处理器。 对于更高的视频/屏幕共享分辨率和帧速率，建议使用 4 核处理器或更好的处理器。</li> <li>背景视频效果需要 Windows 10 或具有 AVX2 指令集的处理器。</li> <li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>在 Microsoft Teams 会议室使用邻近感应检测加入会议需要 Bluetooth LE，这需要在客户端设备上启用 Bluetooth，对于 Windows 客户端，还需要 64 位 Teams 客户端。 此功能在 32 位 Teams 客户端上不可用。</li></ul> |
-|Teams 实时事件 | 如果要生成 Teams 实时事件，我们建议使用具有 Core i5 Kaby Lake 处理器、4.0-GB RAM (或更高版本) 和硬件编码器的计算机。 有关[不受支持解码器与](hardware-decoders-and-encoders.md)编码器的列表，请参阅硬件解码器与编码器驱动程序建议。 |
+|Teams 实时事件 | 如果要生成 Teams 实时事件，我们建议使用具有 Core i5 Kaby Lake 处理器、4.0-GB RAM (或更高版本) 和硬件编码器的计算机。 有关[不支持的解码器](hardware-decoders-and-encoders.md)与编码器的列表，请参阅硬件解码器与编码器驱动程序建议。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Teams 在 Mac 上的硬件要求
 
@@ -55,17 +55,17 @@ ms.locfileid: "50460622"
 |内存     |   4.0 GB RAM      |
 |硬盘    |   1.5 GB 可用磁盘空间      |
 |显示器    | 1280 x 800 或更高分辨率    |
-|操作系统  |    macOS 的三个最新版本之一。 可在此处找到有关最新 macOS 版本以及如何升级 macOS 版本 [的信息](https://support.apple.com/en-us/HT201260)。 例如，发布新版本的 macOS 时，新版本及其前两个版本将成为受支持的版本。      |
+|操作系统  |    macOS 的三个最新版本之一。 可在此处找到有关最新 macOS 版本以及如何升级 macOS 版本 [的信息](https://support.apple.com/en-us/HT201260)。 例如，当新版 macOS 发布时，新版本及其前面的两个版本将成为支持的版本。      |
 |视频  |    兼容的网络摄像机     |
 |语音    |  兼容的麦克风和扬声器、带麦克风的耳机或等效设备       |
-|视频通话和会议 | <ul><li>需要 2 核处理器。 对于更高的视频/屏幕共享分辨率和帧速率，建议使用 4 核处理器或更好的处理器。 </li><li>在 microsoft Teams 会议室内使用邻近感应检测加入会议在 macOS 上不可用。</li></ul>
+|视频通话和会议 | <ul><li>需要 2 核处理器。 对于更高的视频/屏幕共享分辨率和帧速率，建议使用 4 核处理器或更好的处理器。 </li><li>使用 Microsoft Teams 会议室中的邻近感应检测加入会议在 macOS 上不可用。</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Teams 在 Linux 上的硬件要求
 
 | 组件 | 要求 |
 |---------|---------|
-|计算机和处理器    | 1.6 GHz (或)  (32 位或 64) 2 核        |
+|计算机和处理器    | 1.6 GHz (或)  (32 位或 64 位) 2 核        |
 |内存     |    4.0 GB RAM     |
 |硬盘    | 3.0 GB 可用磁盘空间        |
 |显示器    |   1024 x 768 屏幕分辨率 |
@@ -85,7 +85,7 @@ ms.locfileid: "50460622"
 
 - Android：与 Android 手机和平板电脑兼容。
 
-  支持仅限于 Android **的最后四** 个主要版本。 例如，当新的主要版本的 Android 发布时，Android 要求是新版本，以及它之前三个最新版本。
+  支持仅限于 Android **的最后四** 个主要版本。 例如，当 Android 的新主版本发布时，Android 要求是新版本和它之前三个最新版本。
 
 - iOS：与 iPhone、iPad 和 iPod touch 兼容。
 

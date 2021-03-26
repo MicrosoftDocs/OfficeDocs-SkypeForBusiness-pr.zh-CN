@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b691a9d722a82e68384f8937479c5f71d3f4c11d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b75f9bf5328b25a1ce1fd695a90163f63a61f823
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096166"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262579"
 ---
 # <a name="meetings-first"></a>会议优先
 
@@ -111,7 +111,7 @@ Windows 和 Mac 上、浏览器 (和移动客户端) 桌面客户端支持会议
 
 ![用于启用"会议第一"的管理员设置的屏幕截图](media/teams-meeting-admin-settings.png)
 
-（可选）如果你希望从用户的 Teams 客户端的左侧导航中隐藏 Teams 和频道应用程序，以进一步将他们的体验集中在会议上，可以使用应用权限策略 [实现此目的](teams-app-permission-policies.md)。
+（可选）如果你希望从用户的 Teams 客户端的左侧导航中隐藏 Teams 和 Channels 应用程序，以进一步将他们的体验集中在会议上，可以使用应用设置策略 [实现此目的](teams-app-setup-policies.md)。
 
 ## <a name="reporting-and-call-analytics"></a>报告和呼叫分析
 

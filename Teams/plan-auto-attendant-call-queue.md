@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列，以及如何使用它们来帮助呼叫者浏览菜单系统，以联系组织中人员或部门。
-ms.openlocfilehash: 659505c39fd6eace8cd0264aaef0a4994604e651
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2e81f1d40c73cb8bcdf0a5ebd48f05c015732afe
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117860"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262637"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划 Teams 自动助理和呼叫队列
 
@@ -217,6 +217,8 @@ ms.locfileid: "51117860"
 
 - [设置自动助理](create-a-phone-system-auto-attendant.md)
 - [创建呼叫队列](create-a-phone-system-call-queue.md)
+
+如果需要更广泛的功能（例如与工作流、机器人和短信集成），请考虑 [使用 Azure 通信服务](/azure/communication-services/overview)。
 
 ## <a name="related-topics"></a>相关主题
 

@@ -17,12 +17,12 @@ description: 了解实时事件录制策略。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119161"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262654"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams 中的实时事件录制策略
 
@@ -50,9 +50,9 @@ ms.locfileid: "51119161"
 
 |                                 | 录制者与演示者可用 | 可用于与会者的录制 |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| 始终记录               | 已禁用和已选择                                | 已禁用和已选择         |
-| 组织者可以录制或不录制 | 已启用，默认情况下未选中                  | 已启用，默认情况下未选中   |
-| 从不录制               | 已禁用且未选中                            | 已禁用且未选中      |
+| 始终记录               | 已禁用和已选择                                | 启用和选择         |
+| 组织者可以录制或不录制 | 默认情况下启用和选择                  | 默认情况下启用和选择   |
+| 从不录制               | 已禁用且未选中                            | 已启用且未选中      |
 
 当策略设置为"始终 **记录"** 时，策略页具有以下选定选项：
 
