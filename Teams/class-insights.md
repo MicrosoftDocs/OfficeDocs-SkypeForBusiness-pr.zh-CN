@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
+ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102618"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215317"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -85,7 +85,7 @@ ms.locfileid: "51102618"
 在课堂级别，如果教师拥有课堂团队，则无需 IT 管理员执行任何其他操作即可使用见解。
 
 ### <a name="education-leaders"></a>教育领导者
-教育领导者可以将见解用作可从 Teams 左侧应用栏中获取的个人应用。
+教育行业专家可以将见解用作 [应用](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347) 在 Teams 左侧应用栏上可用。
 
 在组织级别，IT 管理员需要连接学生信息系统，并为每个角色分配访问与其相关的学校或部门的权限。
 
@@ -131,6 +131,7 @@ ms.locfileid: "51102618"
 | **作业** | 打开、上交作业并评分。|
 | **频道参与** |  访问频道、创建帖子、回复和赞帖子（不包括聊天内容）。|
 | **文件** |   上传、下载、访问、修改、批注和共享文件（不包括文件内容）。|
+| **OneNote 课堂笔记本** |  编辑笔记本中的页面或分区（不包括页面内容）。|
 | **会议** |    出席（不包括会议内容）。|
 
 > [!NOTE]
@@ -205,7 +206,8 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 *   通过 Microsoft 教师中心提供的[免费见解课程](https://aka.ms/insights/course)进行自我培训。
 *   最后，请查看专门讨论见解的[博客](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091)。
 
-即将发布面向 **教育领导者** 的相关材料。
+适用于教育 **者的资料**：
+*   [适用于教育组织的见解支持页面](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)。
 
 ## <a name="turn-insights-off-or-on"></a>启用或关闭见解
 默认情况下，已启用见解。 当你选择退出时，我们将 *删除为见解收集的所有数据*。 重新启用见解，我们将从重新启用时开始收集数据。
