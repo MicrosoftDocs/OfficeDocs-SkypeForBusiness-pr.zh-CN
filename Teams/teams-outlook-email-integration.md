@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3bfab6643d478537b3f9d2b7e4fa990b75511582
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc1ce6eec084dfe2f4bb736f018352e0eb0e2c88
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104048"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397555"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams 和 Outlook 电子邮件集成
 
@@ -45,3 +45,5 @@ Microsoft Teams 包括一些功能，使贵组织的用户能够轻松地在 Out
 ![显示如何答复错过的活动电子邮件的屏幕截图](media/missed-activity-email-reply.png)
 
 可以将 [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) cmdlet 与 **SmtpActionableMessagesEnabled** 参数一起用于关闭可操作电子邮件。 默认情况下 **，SmtpActionableMessagesEnabled** 参数设置为 **true。** 将 参数设置为 **false** 会关闭 Office 365 中可操作的电子邮件。 对于 Teams 用户，这意味着在Outlook 中直接答复的"回复"选项在错过的活动电子邮件中不可用。 相反，错过的活动电子邮件包括"在 Teams 中答复 **"** 选项，供用户在 Teams 中答复。
+
+另请参阅 [Outlook 和 Office 365 组中的可操作邮件](https://docs.microsoft.com/outlook/actionable-messages/)。

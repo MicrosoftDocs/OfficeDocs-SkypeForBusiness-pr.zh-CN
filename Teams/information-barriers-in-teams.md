@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5137a67169198a16b62e179d32ae1779001011d
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120643"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397575"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams 中的信息屏障
 
@@ -201,6 +201,8 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色的信息，请
 - **用户无法加入频道会议**：如果启用了 IB 策略，则如果用户不是团队的成员，则不允许他们加入频道会议。 根本原因是 IB 检查依赖于是否可以将用户添加到会议聊天名单，并且只有当用户可以添加到花名册时，才允许他们加入会议。 频道会议中的聊天线程仅适用于团队/频道成员，非成员无法查看或访问聊天线程。 如果为租户启用了 IB，并且非团队成员尝试加入频道会议，则不允许该用户加入会议。 但是，如果未为租户启用 IB 且非团队成员尝试加入频道会议，则用户可以加入会议，但他们在会议中看不到聊天选项。
 - **不会删除** 团队所有者：如果应用了新的 IB 策略，导致 Teams 频道中出现两个或多个冲突段，则具有团队所有者的段会获得更高的首选项，并且会删除其他段用户。 此外，目前不会删除团队所有者，即使他们与其他所有者/用户冲突。 租户管理员和其他通道所有者必须手动删除有冲突的所有者。
 - **租户中允许的最大段数**：配置 IB 策略时，每个租户最多可以设置 100 个段。 可以配置的策略数量没有限制。
+
+- **IB 策略对** 联合用户不起作用：如果允许与外部租户联合，则这些租户的用户不受 IB 策略的限制。 如果组织的用户加入由外部联合用户组织的聊天或会议，则 IB 策略也不会限制组织用户之间的通信。
 
 ## <a name="more-information"></a>更多信息
 

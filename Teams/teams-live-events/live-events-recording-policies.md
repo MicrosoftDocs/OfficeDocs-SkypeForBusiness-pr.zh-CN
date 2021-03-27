@@ -17,18 +17,18 @@ description: 了解实时事件录制策略。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 9c808e4ae4e27e48c14c45711ef80ffd1c812125
+ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262654"
+ms.locfileid: "51383966"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams 中的实时事件录制策略
 
 有几个选项用于录制 Microsoft Teams 实时事件。 录制选项是使用录制策略设置的。 本文介绍各种设置。
 
-录制选项是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 设置的](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+录制选项是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 设置的](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)。
 
 ## <a name="scheduling-and-option-behaviors"></a>计划和选项行为
 
