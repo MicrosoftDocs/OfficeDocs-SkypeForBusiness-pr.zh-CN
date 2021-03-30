@@ -1491,6 +1491,8 @@ items:
         items:
           - name: 在 Teams 中管理设备
             href: devices/device-management.md
+          - name: 远程设置和登录
+            href: devices/remote-provision-remote-login.md
           - name: 远程更新设备
             href: devices/remote-update.md
           - name: 管理 Teams 设备标记
