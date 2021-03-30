@@ -9,7 +9,7 @@ manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: 使用 Microsoft Teams 的保留策略保留符合内部策略、行业法规或法律需求所需的邮件，并删除被视为责任或无法律业务价值的邮件。
+description: 使用 Microsoft Teams 的保留策略保留符合内部策略、行业法规或法律要求所需的消息，并删除被视为责任或无法律业务价值的邮件。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d7d998afb47480fa59ce936a93e20af9ac4b2a12
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 748106de5ed7e2f0147a182716ca8bce1571b82f
+ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117600"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418810"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留策略
 
@@ -33,9 +33,9 @@ ms.locfileid: "51117600"
 > 
 > 本页上的信息适用于管理这些保留策略的 IT 管理员。
 
-Microsoft 365 中的保留策略和保留标签可帮助你更有效地管理组织中的信息。 可以配置保留设置来保留符合组织内部策略、行业法规或法律需求所需的数据。 还可以配置保留设置，删除被视为责任数据、不再需要保留的数据或没有法律或业务价值的数据。
+Microsoft 365 中的保留策略和保留标签可帮助你更有效地管理组织中的信息。 可以配置保留设置来保留符合组织内部策略、行业法规或法律要求所需的数据。 还可以配置保留设置，删除被视为责任数据、不再需要保留的数据或没有法律或业务价值的数据。
 
-Teams 支持聊天和频道消息的保留策略，因此，作为管理员，你可以主动决定是保留、删除数据还是将其保留特定的一段时间，然后将其删除。 可将 Teams 保留策略应用于整个组织或特定用户和团队。 Teams 不支持保留标签。
+Teams 支持聊天和频道消息的保留策略，因此，作为管理员，你可以主动决定是保留、删除数据还是将其保留特定的一段时间，然后将其删除。 这些操作保留期的开始始终基于消息的创建时间。 可将 Teams 保留策略应用于整个组织或特定用户和团队。 Teams 不支持保留标签。
 
 若要详细了解保留以及如何通过使用保留策略或保留标签为 Microsoft 365 中的其他工作负荷应用保留设置，请参阅了解保留 [策略和保留标签](/microsoft-365/compliance/retention)。
 
@@ -43,9 +43,9 @@ Teams 保留策略的最低许可要求是 Microsoft 365 E3。 若要详细了�
 
 ## <a name="how-teams-retentiondeletion-policies-work"></a>Teams 保留/删除策略如何工作
 
-Teams 聊天消息存储在两个位置。 主副本存储在 Azure 中，辅助副本用于编译策略，存储在聊天中包含的每个用户的 Exchange Online 邮箱的隐藏文件夹中，Teams 频道消息存储在团队的组邮箱中的类似隐藏文件夹中。 将聊天消息删除策略应用到用户或团队时，将先删除次要副本，然后删除主副本。 电子数据展示或 Teams 搜索基于存储在辅助副本中的消息，因此在删除辅助副本时，邮件不可发现。 
+Teams 聊天消息存储在两个位置。 主副本存储在 Azure 中，辅助副本用于符合性策略，存储在聊天中包含的每个用户的 Exchange Online 邮箱的隐藏文件夹中，Teams 频道消息存储在团队的组邮箱中的类似隐藏文件夹中。 将聊天消息删除策略应用到用户或团队时，将先删除次要副本，然后删除主副本。 电子数据展示或 Teams 搜索基于存储在辅助副本中的消息，因此在删除辅助副本时，邮件不可发现。 
 
-将聊天消息保留问题应用到用户或团队时，如果由于其他删除策略或用户本身) 而删除了消息 (，则主副本将被删除，因此 Teams 客户端将看到消息消失，但辅助副本会自动移动到名为 **"可** 恢复项目"的隐藏文件夹，该文件夹作为 **Exchange** 可恢复项目文件夹中的子文件夹。 在从"一线"文件夹中永久删除这些邮件之前，这些邮件仍由电子数据展示工具搜索。
+将聊天消息保留策略应用于用户或团队时，如果由于其他删除策略或用户本身) 而删除了消息 (，则主副本将被删除，因此 Teams 客户端将看到消息消失，但辅助副本会自动移动到名为 **"可** 恢复项目"的隐藏文件夹中，该文件夹作为 **Exchange** 可恢复项目文件夹中的子文件夹。 在从"一线"文件夹中永久删除这些邮件之前，这些邮件仍由电子数据展示工具搜索。
 
 有关 Teams 保留策略包含和排除哪些内容以及这些策略如何根据策略配置工作的详细信息，请参阅了解 Microsoft Teams [的保留期](/microsoft-365/compliance/retention-policies-teams)。
 
