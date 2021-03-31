@@ -17,15 +17,14 @@ description: 在 Microsoft Teams 管理中心的"管理应用"页面上了解如
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d0418d3893d026aa34bfb27540d73148520e5a56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120593"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450619"
 ---
-<a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理应用
-======================================================
+# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理应用
 
 作为管理员，Microsoft Teams 管理中心中的"管理应用"页面是查看和管理组织的所有 Teams 应用的地方。 在这里，可以查看应用的组织级状态和属性、批准新的自定义应用或将其上载到组织的应用商店、在组织级别阻止或允许应用、将应用添加到团队、购买第三方应用的服务、查看应用请求的权限、向应用授予管理员同意，以及管理组织范围内的应用设置。
 
@@ -150,6 +149,10 @@ RSC (资源) 权限允许团队所有者授予应用访问和修改团队数据�
 
 3. 在 **"自定义应用**"下，关闭或打开 **"允许与自定义应用交互"。** 此设置控制用户是否可以与自定义应用交互。 要了解详细信息，请参阅[在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。
 4. 单击“**保存**”以使组织范围的应用设置生效。
+
+## <a name="customize-an-app-in-preview"></a>在预览版 (自定义应用) 
+
+现在，你可以自定义应用，以根据组织需求包含特定的外观。 [在 Teams 中自定义应用](customize-apps.md)
 
 ## <a name="related-topics"></a>相关主题
 

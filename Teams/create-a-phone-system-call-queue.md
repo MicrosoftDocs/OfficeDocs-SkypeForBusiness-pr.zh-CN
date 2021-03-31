@@ -23,13 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: 了解如何使用 Microsoft Teams 为呼叫队列设置电话系统，以便提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 了解如何使用 Microsoft Teams 为呼叫队列设置电话系统，它提供问候消息、保存音乐、呼叫重定向和其他功能。
+ms.openlocfilehash: 963633ef3ba1743522dbbacb93166f20d489e8be
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092710"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450629"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -45,7 +45,7 @@ ms.locfileid: "51092710"
 
 - 处理队列溢出和超时的选项。
 
-在按照本文中的步骤操作之前，请确保已阅读[规划 Teams](plan-auto-attendant-call-queue.md)自动助理[](plan-auto-attendant-call-queue.md#getting-started)和呼叫队列，并按照入门步骤操作。
+在按照本文中的步骤操作之前，请确保已阅读[规划 Teams 自动](plan-auto-attendant-call-queue.md)助理[](plan-auto-attendant-call-queue.md#getting-started)和呼叫队列，并按照入门步骤操作。
 
 若要设置呼叫队列，请在 Teams 管理中心展开"语音"，单击"**呼叫队列**"，然后单击"添加 **"。**
 
@@ -71,11 +71,21 @@ ms.locfileid: "51092710"
 
 ## <a name="call-agents"></a>呼叫代理
 
-若要将 [代理](plan-auto-attendant-call-queue.md#prerequisites) 添加到呼叫队列，请参阅先决条件。
+查看 [将代理添加到呼叫队列的先决条件](plan-auto-attendant-call-queue.md#prerequisites)。
 
 ![呼叫队列的用户和组设置的屏幕截图](media/call-queue-users-groups.png)
 
+##### <a name="teams-channel"></a>Teams 频道
+
+可以通过 Teams 频道最多添加 200 个代理。
+
+如果要使用 [Teams 频道管理](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)队列，请选择"**选择团队"选项，** 然后单击"**添加频道"。** 搜索想要使用的团队，将其选中，然后单击"添加 **"。** 选择想要使用的频道，然后单击"应用 **"。**
+
+##### <a name="users-and-groups"></a>用户和组
+
 可以单独添加多达 20 个代理，通过组最多添加 200 个代理。
+
+如果要将单个用户或组添加到队列，请选择" **选择用户和组"** 选项。 
 
 若要将用户添加到队列，请单击"**添加** 用户"，搜索该用户，单击"添加 **"，然后单击**"添加 **"。**
 

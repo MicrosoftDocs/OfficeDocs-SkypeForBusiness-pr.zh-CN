@@ -16,34 +16,38 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 了解如何设置 Microsoft Teams 会议室，包括规划、部署和管理系统，以创建理想的虚拟会议室。
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 9bc4de10512cdd69fe4bdeef1514ad6c63033d28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a809b2a0e66b391a001956dabddc2763915be14f
+ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117540"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471476"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 会议室
 
 :::row:::
     :::column span="2":::
-       利用易于使用、部署和管理的丰富协作 Teams 体验，将会议空间从小型会议区域转换到大型会议室。 <br> 
-       通过一触式加入及时开始会议，然后立即在会议室中显示并共享给远程参与者。<br> 
+       利用易于使用、部署和管理的丰富协作 Teams 体验，将会议空间从小型会议区域转换到大型会议室。
+
+       通过一触式加入及时开始会议，然后立即在会议室中显示并共享给远程参与者。
+
        从我们的一个合作伙伴中选择适当的系统和音频视频外围设备：Yealink、Logitech、Crestron、Polycom、Lenovo 和 HP。
+
+       有关 Teams 会议室的快速介绍，请单击右侧视频。
     :::column-end:::
     :::column:::
-       ![带 Microsoft Teams 会议室设备的会议室](../media/srs-room.jpg)
+       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams 会议室 Microsoft Mechanics 视频":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
-|               |               |               |
+|    <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
-|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon"> <br> **[规划](./rooms-plan.md)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon"> <br> **[部署](./rooms-deploy.md)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon"> <br> **[管理](./rooms-manage.md)** |
-
-<br>
+|  **[规划](./rooms-plan.md)** |  **[部署](./rooms-deploy.md)** |  **[管理](./rooms-manage.md)** |
 
 > [!NOTE]
-> Microsoft Teams 会议室适用于 Microsoft Teams、Skype for Business Online、Skype for Business Server 2019 或 Skype for Business Server 2015。  <br><br>早期版本的平台（如 Lync Server 2013）不能与 Microsoft Teams 会议室一起工作。
+> Microsoft Teams 会议室适用于 Microsoft Teams、Skype for Business Online、Skype for Business Server 2019 或 Skype for Business Server 2015。
+>
+> 早期版本的平台（如 Lync Server 2013）不能与 Microsoft Teams 会议室一起工作。
 
 这些文章适用于负责规划、部署和管理这些设备的用户，而不适合系统用户。 用户将更感兴趣的 Microsoft Teams 会议室 [联机帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
 
