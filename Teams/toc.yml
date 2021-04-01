@@ -325,7 +325,7 @@ items:
             href: manage-feedback-policies-in-teams.md
           - name: 在 Teams 中管理策略包
             href: manage-policy-packages.md
-      - name: 与外部用户通信
+      - name: 与组织外的人员一起工作
         items:
           - name: 与其他组织的用户通信
             href: communicate-with-users-from-other-organizations.md
@@ -333,7 +333,7 @@ items:
             items:
               - name: 管理外部访问
                 href: manage-external-access.md
-              - name: 面向外部用户的本机 Teams 聊天
+              - name: 本机 Teams 聊天
                 href: native-chat-for-external-users.md
               - name: Teams 和 Skype 的互操作性
                 href: teams-skype-interop.md
@@ -345,13 +345,11 @@ items:
                 href: /microsoft-365/solutions/collaborate-as-team
               - name: 来宾体验
                 href: guest-experience.md
-              - name: 授予来宾访问权限
-                href: teams-dependencies.md
               - name: 启用或禁用来宾访问
                 href: set-up-guests.md
               - name: 向团队添加来宾
                 href: view-guests.md
-              - name: 编辑来宾用户信息
+              - name: 编辑来宾信息
                 href: edit-guests-information.md
               - name: 来宾访问疑难解答
                 href: troubleshoot-guest-access.md
@@ -505,7 +503,7 @@ items:
             href: manufacturing-teams-templates-in-the-admin-console.md
           - name: 管理 Teams 模板策略
             href: templates-policies.md
-      - name: 与外部用户通信
+      - name: 与组织外的人员一起工作
         items:
           - name: 与其他组织的用户通信
             href: communicate-with-users-from-other-organizations.md
@@ -513,7 +511,7 @@ items:
             items:
               - name: 管理外部访问
                 href: manage-external-access.md
-              - name: 面向外部用户的本机 Teams 聊天
+              - name: 本机 Teams 聊天
                 href: native-chat-for-external-users.md
               - name: Teams 和 Skype 的互操作性
                 href: teams-skype-interop.md
@@ -531,9 +529,9 @@ items:
                 href: set-up-guests.md
               - name: 向团队添加来宾
                 href: add-guests.md
-              - name: 在团队中查看来宾用户
+              - name: 在团队中查看来宾
                 href: view-guests.md
-              - name: 编辑来宾用户信息
+              - name: 编辑来宾信息
                 href: edit-guests-information.md
               - name: 来宾访问疑难解答
                 href: troubleshoot-guest-access.md
