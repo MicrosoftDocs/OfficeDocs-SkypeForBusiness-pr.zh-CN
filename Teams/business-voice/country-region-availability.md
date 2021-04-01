@@ -14,15 +14,15 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: 可在哪些国家和地区使用 Microsoft 365 商业语音。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3a876bb7bb0cdd45210f5cb31a77fb949814f035
+ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116020"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471456"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>通话套餐的国家和地区可用性
 
@@ -56,7 +56,7 @@ Microsoft 365 商务语音在 70 多国家和地区可用。 本文后面的表�
 | 美国        | X                                    | X<sup>1</sup>                                               | X                      |
 | 阿根廷            |                                      | X                                                           |                        |
 | 澳大利亚            |                                      | X                                                           |                        |
-| 奥地利              | X                                    | X                                                           |                        |
+| 奥地利              |                                      | X                                                           |                        |
 | 比利时              |                                      | X                                                           |                        |
 | 伊朗 |                                      | X                                                           |                        |
 | 巴西               |                                      | X                                                           |                        |
@@ -67,7 +67,7 @@ Microsoft 365 商务语音在 70 多国家和地区可用。 本文后面的表�
 | 克罗地亚              |                                      | X                                                           |                        |
 | 塞浦路斯               |                                      | X                                                           |                        |
 | 捷克共和国       |                                      | X                                                           |                        |
-| 丹麦              | X                                    | X                                                           |                        |
+| 丹麦              |                                      | X                                                           |                        |
 | 多米尼加共和国   |                                      | X                                                           |                        |
 | 厄瓜多尔              |                                      | X                                                           |                        |
 | 埃及                |                                      | X                                                           |                        |
@@ -81,7 +81,7 @@ Microsoft 365 商务语音在 70 多国家和地区可用。 本文后面的表�
 | 印度尼西亚            |                                      | X                                                           |                        |
 | 爱尔兰              |                                      | X                                                           |                        |
 | 以色列               |                                      | X                                                           |                        |
-| 意大利                | X                                    | X                                                           |                        |
+| 意大利                |                                      | X                                                           |                        |
 | 日本                |                                      | X<sup>2</sup>                                               |                        |
 | 约旦               |                                      | X                                                           |                        |
 | 肯尼亚                |                                      | X                                                           |                        |
@@ -100,7 +100,7 @@ Microsoft 365 商务语音在 70 多国家和地区可用。 本文后面的表�
 | 秘鲁                 |                                      | X                                                           |                        |
 | 菲律宾          |                                      | X                                                           |                        |
 | 波兰               |                                      | X                                                           |                        |
-| 葡萄牙             | X                                    | X                                                           |                        |
+| 葡萄牙             |                                      | X                                                           |                        |
 | 波多黎各          |                                      | X                                                           |                        |
 | 卡塔尔                |                                      | X                                                           |                        |
 | 罗马尼亚              |                                      | X                                                           |                        |
@@ -113,8 +113,8 @@ Microsoft 365 商务语音在 70 多国家和地区可用。 本文后面的表�
 | 韩国          |                                      | X                                                           |                        |
 | 西班牙                |                                      | X                                                           |                        |
 | 斯里兰卡            |                                      | X                                                           |                        |
-| 瑞典               | X                                    | X                                                           |                        |
-| 瑞士          | X                                    | X                                                           |                        |
+| 瑞典               |                                      | X                                                           |                        |
+| 瑞士          |                                      | X                                                           |                        |
 | 台湾               |                                      | X                                                           |                        |
 | 泰国             |                                      | X                                                           |                        |
 | 特立尼达和多巴哥  |                                      | X                                                           |                        |
