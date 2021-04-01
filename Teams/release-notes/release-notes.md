@@ -16,16 +16,51 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 管理员功能的发行说明。
-ms.openlocfilehash: 4c7219e3850eeeb2f502431db222f531d6166c56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
+ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117660"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51487226"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 管理员功能发行说明
 
 这些发行说明提供有关 Microsoft Teams 的新管理员功能的信息。
+
+## <a name="march-31-2021"></a>2021 年 3 月 31 日
+
+### <a name="share-to-teams-from-outlook"></a>从 Outlook 共享到 Teams
+
+通过 Outlook 共享到 Teams，你可以将电子邮件或对话（包括附件）的副本发送到 Teams 聊天和频道。 在 Outlook **功能** 区或电子邮件的操作菜单中找到"共享到 Teams"选项。 共享到 Teams 支持 Outlook 网页版、Outlook for Windows 和新的 Outlook for Mac 预览版。 [了解详细信息](../teams-outlook-share-teams.md)。
+
+## <a name="march-30-2021"></a>2021 年 3 月 30 日
+
+### <a name="customize-apps-in-teams-preview"></a>自定义 Teams (预览版) 
+
+Microsoft Teams 提供应用自定义来增强 Teams 体验。 某些应用开发人员允许 Teams 管理员自定义应用。管理员可以使用 Teams 管理中心"管理应用"页面，根据组织需求自定义或重新设置应用属性的品牌。 [了解详细信息](../customize-apps.md)。
+
+## <a name="march-24-2021"></a>2021 年 3 月 24 日
+
+### <a name="enable-live-transcripts-in-teams"></a>在 Teams 中启用实时脚本
+
+这是按用户的策略，在会议期间适用。 此设置控制"启用实时字幕"选项是否可供用户在用户参加的会议中打开和关闭实时字幕。 [了解详细信息](../meeting-policies-in-teams.md#enable-live-captions)。
+
+## <a name="march-23-2021"></a>2021 年 3 月 23 日
+
+### <a name="supervised-chats"></a>监督聊天
+
+监督式聊天允许指定的教师发起与学生的聊天，并阻止学生开始新聊天，除非有合适的教师。 启用聊天监督后，主管不允许离开聊天，不允许其他参与者删除聊天，从而确保涉及学生的聊天受到适当的监督。
+[了解详细信息](../supervise-chats-edu.md)。
+
+### <a name="masking-phone-numbers"></a>屏蔽电话号码
+
+我们发布了一个新的管理员设置，用于屏蔽拨入参与者加入会议时的电话号码。 管理员可以选择对会议中的每个人的电话号码进行屏蔽， (组织者或) 外部人员的电话号码，或者禁用了屏蔽。 如果管理员选择禁用此设置，电话号码将在会议中完全显示。 [了解详细信息](../ptsn-mask-phone-numbers.md)。
+
+## <a name="march-1-2021"></a>2021 年 3 月 1 日
+
+### <a name="additional-golocal-support-in-teams-live-events"></a>Teams 实时事件的其他 GoLocal 支持
+
+对南非、韩国、瑞士、法国、德国和巴西的支持已添加到实时活动。 [了解更多信息](../teams-live-events/plan-for-teams-live-events.md#regional-availability)
 
 ## <a name="february-22-2021"></a>2021 年 2 月 22 日
 

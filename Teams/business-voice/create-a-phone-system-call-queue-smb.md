@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何使用 Microsoft 365 Business Voice 设置呼叫队列。
-ms.openlocfilehash: f4dcd38331812053df9d08c7e8417b6d8156d5af
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: 3e75dbb75d9edffedbf25d42f197d8723e3ef9a4
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439727"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478362"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>创建呼叫队列 - 小型企业教程
 
@@ -84,7 +84,7 @@ ms.locfileid: "51439727"
 2. 键入频道的名称和说明，然后单击"添加 **"。**
 
 > [!div class="nextstepaction"]
-> [步骤 2 - 资源帐户>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
+> [步骤 2 - 资源帐户>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # <a name="step-2brresource-accounts"></a>[步骤 2 <br> 资源帐户](#tab/resource-account)
 
@@ -143,7 +143,7 @@ ms.locfileid: "51439727"
 > Teams 呼叫队列中提供的默认音乐不收取组织支付的任何版权费。 
 
 > [!div class="nextstepaction"]
-> [步骤 3 - 呼叫>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+> [步骤 3 - 呼叫>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[步骤 3 <br> 呼叫代理](#tab/call-agents)
 
@@ -160,7 +160,7 @@ ms.locfileid: "51439727"
 > 将新用户添加到团队后，最多可能需要八个小时才能第一次呼叫到达。
 
 > [!div class="nextstepaction"]
-> [步骤 4 - 资源帐户>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
+> [步骤 4 - 资源帐户>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # <a name="step-4brcall-routing"></a>[步骤 4 <br> 呼叫路由](#tab/call-routing)
 
@@ -189,7 +189,7 @@ ms.locfileid: "51439727"
     ![路由、选择退出和警报时间设置的屏幕截图](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [步骤 5 - 调用溢出>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+> [步骤 5 - 调用溢出>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # <a name="step-5brcall-overflow"></a>[步骤 5 <br> 调用溢出](#tab/call-overflow)
 
@@ -206,7 +206,7 @@ ms.locfileid: "51439727"
     ![呼叫溢出设置的屏幕截图](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [步骤 6 - 调用超时>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
+> [步骤 6 - 调用超时>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # <a name="step-6brcall-timeout"></a>[步骤 6 <br> 调用超时](#tab/call-timeout)
 

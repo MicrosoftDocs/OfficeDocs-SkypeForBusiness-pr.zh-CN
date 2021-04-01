@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 365 商业语音设置和测试自动助理。
-ms.openlocfilehash: fef89971ad99dff15332905d6f9b98a343af6ffd
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: d320c100937619960011cc378936c6954a00512a
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439717"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478372"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>设置自动助理 - 小型企业教程
 
@@ -93,7 +93,7 @@ ms.locfileid: "51439717"
 4. 单击“**保存**”。
 
 > [!div class="nextstepaction"]
-> [步骤 2 - 自动助理常规信息>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
+> [步骤 2 - 自动助理常规信息>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
 
 # <a name="step-2brattendant-general-info"></a>[步骤 2 <br> Attendant 常规信息](#tab/general-info)
 
@@ -116,7 +116,7 @@ ms.locfileid: "51439717"
 7. 单击" **下一步**"。
 
 > [!div class="nextstepaction"]
-> [步骤 3 - 呼叫流>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=call-flow#steps)
+> [步骤 3 - 呼叫流>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
 
 # <a name="step-3brcall-flow"></a>[步骤 3 <br> 呼叫流](#tab/call-flow)
 
@@ -169,7 +169,7 @@ ms.locfileid: "51439717"
 5. 选择目录 **搜索选项后**，单击"下一 **步"。**
 
 > [!div class="nextstepaction"]
-> [步骤 4 - 非工作时间呼叫流>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=after-hours#steps)
+> [步骤 4 - 非工作时间呼叫流>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
 
 # <a name="step-4brafter-hours"></a>[步骤 4 <br> 小时之后](#tab/after-hours)
 
@@ -186,7 +186,7 @@ ms.locfileid: "51439717"
 完成后 **，** 单击"下一步"。
 
 > [!div class="nextstepaction"]
-> [步骤 5 - 假日呼叫流>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=holidays#steps)
+> [步骤 5 - 假日呼叫流>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # <a name="step-5brholidays"></a>[步骤 5 <br> 假日](#tab/holidays)
 
@@ -221,7 +221,7 @@ ms.locfileid: "51439717"
 添加所有假日后，单击"下一 **步"。**
 
 > [!div class="nextstepaction"]
-> [步骤 6 - 选择目录中>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
+> [步骤 6 - 选择目录中>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[步骤 6 <br> 目录成员](#tab/dial-scope)
 
@@ -237,7 +237,7 @@ ms.locfileid: "51439717"
 设置完拨号范围后，单击"下一 **步"。**
 
 > [!div class="nextstepaction"]
-> [步骤 7 - 分配资源帐户>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=resource-accounts#steps)
+> [步骤 7 - 分配资源帐户>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
 # <a name="step-7brresource-accounts"></a>[步骤 7 <br> 资源帐户](#tab/resource-accounts)
 

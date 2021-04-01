@@ -17,12 +17,12 @@ description: 了解如何使用 Microsoft Teams 管理中心中的 Teams 用户�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5f01d71a119116268c5d03850e5e1d26a54ae8dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9122289d0765dbdded98727d2ed06912d0348f64
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116850"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478332"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 用户活动报告
 
@@ -52,6 +52,16 @@ Teams 用户活动报告提供组织中用户在 Teams 中执行的活动类型�
 |**9**   |将报表导出到 CSV 文件进行脱机分析。 选择 **"导出到 Excel"，** 然后选择"**下载**"选项卡，选择"下载"，在报表准备就绪后下载报表。<br><br>![显示要下载的导出报表的"下载"选项卡的屏幕截图](../media/teams-reports-export-to-csv.png) <br>在 Excel 中查看报表时，还会看到一个 **ID** 列，表示用户 ID。 用户 ID 通常是字母数字字符串。 ||
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
+
+## <a name="make-the-user-specific-data-anonymous"></a>使用户特定的数据匿名
+
+若要使 Teams 用户活动报告的数据匿名，你必须是全局管理员。 这会在报表及其导出中隐藏显示名称、电子邮件和 AAD ID 等可识别信息。
+
+1. 在 Microsoft 365 管理中心，转到"设置 \> **""组织设置**"，在"服务 **"选项卡** 下，选择"报表 **"。**
+    
+2. 选择 **"报告**"，然后选择"**显示匿名标识符"。** 此设置同时应用于 Microsoft 365 管理中心和 Teams 管理中心中的使用情况报告。
+  
+3. 选择"**保存更改"。**
 
 ## <a name="related-topics"></a>相关主题
 
