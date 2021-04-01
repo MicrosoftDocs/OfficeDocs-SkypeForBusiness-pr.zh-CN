@@ -1207,8 +1207,6 @@ items:
             href: business-voice/prepare-users.md
       - name: 运行“入门”向导
         href: business-voice/use-getting-started-wizard.md
-      - name: '尝试执行以下操作:'
-        href: business-voice/things-to-try.md
       - name: 自定义设置
         items:
           - name: 自定义选项
