@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理策略包，以简化、简化和帮助在管理用户组的策略时提供一致性。
-ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 125c89505727e4fd4e6c18419b32dc1b99dfb67b
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162665"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51583108"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>在 Microsoft Teams 中管理策略包
 
@@ -130,7 +130,7 @@ Teams 当前包括以下策略包。
 2. 选择要编辑的策略。 链接到策略包的策略与策略包同名。
 3. 进行您需要的更改，然后单击"保存 **"。**
 
-### <a name="assign-a-policy-package"></a>分配策略包 
+### <a name="assign-a-policy-package"></a>分配策略包
 
 #### <a name="assign-a-policy-package-to-one-user"></a>将策略包分配给一个用户
 
@@ -165,7 +165,7 @@ Teams 当前包括以下策略包。
 
 ## <a name="related-topics"></a>相关主题
 
-[向 Teams 中的用户分配策略](assign-policies.md)
+[分配策略包](assign-policy-packages.md)
 
 [适用于 EDU 管理员的 Teams 策略包](policy-packages-edu.md)
 

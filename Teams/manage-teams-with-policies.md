@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101098"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574181"
 ---
 # <a name="manage-teams-with-policies"></a>使用策略管理 Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "51101098"
 
 ![组策略分配的屏幕截图。](media/group-policy-assignment.png)
 
-在此处详细了解如何分配 [策略](assign-policies.md)。
+在此处详细了解如何分配 [策略](policy-assignment-overview.md)。
 
 ## <a name="how-to-manage-policies"></a>如何管理策略
 
@@ -70,8 +70,8 @@ ms.locfileid: "51101098"
 
 ## <a name="related-topics"></a>相关主题
 
+* [在 Teams 中分配策略 - 入门](policy-assignment-overview.md)
 * [在 Microsoft Teams 中管理反馈策略](manage-feedback-policies-in-teams.md)
 * [在 Microsoft Teams 中管理团队策略](teams-policies.md)
-* [在活动日志中查看策略分配](activity-log.md)
 * [在 Microsoft Teams 中为实时事件进行设置](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams 教育策略和策略包](policy-packages-edu.md)

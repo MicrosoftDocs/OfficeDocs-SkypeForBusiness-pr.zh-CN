@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 04106a79458913783c0e25965f17afdfdccd87d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 85b860965c7883d5df9bc734bc336fb2d24a5ed8
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117690"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574141"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>使用 CQD 在 Microsoft Teams 中管理呼叫和会议质量 
 
@@ -666,7 +666,7 @@ HTTP 代理不是建立媒体会话的首选路径，原因有很多。 许多�
 
 HTTP 使用的最常见原因是代理中缺少异常规则。 通过使用提供的建筑物或子网，可以快速确定需要为媒体绕过配置哪个代理。
 
-验证所需的 [Microsoft 365 或 Office 365 FQDN](/microsoft-365/enterprise/urls-and-ip-address-ranges) 是否列入代理的白名单。
+验证所需的 [Microsoft 365 或 Office 365 FQNS](/microsoft-365/enterprise/urls-and-ip-address-ranges) 是否添加到代理中的 allowlist。
 
 ## <a name="endpoint-investigations"></a>终结点调查
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要：实施 Skype for Business Server 之前，请查看端口使用注意事项。
-ms.openlocfilehash: 70caf72231797c4e245ac3117ec7fcc9241185f0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f56b8545f8c60578321354bebbe5a118bf895348
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094946"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51573981"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>服务器的端口和协议要求
  
@@ -30,12 +30,13 @@ ms.locfileid: "51094946"
   
 Skype for Business Server 要求打开外部和内部防火墙上的特定端口。 此外，如果在您的组织中部署了 Internet 协议安全性 (IPsec)，则必须在用于传送音频、视频和全景视频的端口范围内禁用 IPSec。 
   
-虽然这最初看起来有点令人担心，但规划这一点的繁重工作可以使用 [Skype for Business Server 2015 规划工具 完成](https://go.microsoft.com/fwlink/p/?LinkID=282725)。 完成向导中有关计划使用的功能的问题后，对于定义的每个站点，可以查看边缘管理员报告中的防火墙报告，并使用其中列出的信息创建防火墙规则。 您还可以对所使用的许多名称和 IP 地址进行调整，有关详细信息，请参阅 [查看防火墙报告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 请记住，可以将边缘管理报告导出到 Excel 电子表格，防火墙报告将是该文件中的工作表之一。 
+虽然这似乎有点令人担心，但规划这一点的工作却可以使用 [Skype for Business Server 2015 规划工具 完成](https://go.microsoft.com/fwlink/p/?LinkID=282725)。 完成向导中有关计划使用的功能的问题后，对于定义的每个站点，可以查看边缘管理员报告中的防火墙报告，并使用其中列出的信息创建防火墙规则。 您还可以对所使用的许多名称和 IP 地址进行调整，有关详细信息，请参阅 [查看防火墙报告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 请记住，可以将边缘管理报告导出到 Excel 电子表格，防火墙报告将是该文件中的工作表之一。 
   
-还可以查看链接自 [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md) 文章的协议工作负载海报，以图表形式查找这些表中的信息。
+通过查看链接自 Technical [diagrams for Skype for Business Server 2015](../../technical-diagrams.md) 文章的协议工作负载海报，您可以在图表表单中查找这些表中的信息。
+
 > [!NOTE]
-> - 如果你正在实现 Skype for Business Online (Microsoft 365 或 Office 365) 请参阅 [Microsoft 365 和 Office 365 URL 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境将需要参考本主题以及规划 [混合连接](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
-> - 你可以设置硬件或软件防火墙，我们不需要特定的模型或版本。 重要的一点就是将哪些端口列入允许列表，以便防火墙不会损害 Skype for Business Server 的运行。
+> - 如果你正在实现 Skype for Business Online (Microsoft 365 或 Office 365) 请参阅 [Microsoft 365 和 Office 365 URL 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境将需要参考本主题以及规划 [混合连接](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
+> - 可以具有硬件或软件防火墙。 我们不需要特定模型或版本。 重要的一点就是将哪些端口添加到允许列表中，以便防火墙不会损害 Skype for Business Server 的运行。
   
 ## <a name="port-and-protocol-details"></a>端口和协议详细信息
 
@@ -50,10 +51,10 @@ Skype for Business Server 要求打开外部和内部防火墙上的特定端口
   
 **所需服务器端口（根据服务器角色）**
 
-|服务器角色|服务名称|端口|协议|备注|
+|服务器角色|服务名称|端口|协议|注释|
 |:-----|:-----|:-----|:-----|:-----|
 |所有服务器  |SQL 浏览器  |1434  |UDP  |SQL中央管理存储数据库的本地复制副本的浏览器。  |
-|前端服务器  |Skype for Business Server Front-End 服务  |5060  |TCP  |（可选）Standard Edition Server 和前端服务器用于静态路由到受信任服务，例如，远程呼叫控制服务器。  |
+|Front-End 服务器  |Skype for Business Server Front-End 服务  |5060  |TCP  |（可选）Standard Edition Server 和前端服务器用于静态路由到受信任服务，例如，远程呼叫控制服务器。  |
 |前端服务器  |Skype for Business Server Front-End 服务  |5061  | TCP (TLS) |Standard Edition Server 和前端池用于在服务器 (MTLS) 之间进行所有的内部 SIP 通信、在服务器和客户端 (TLS) 之间进行 SIP 通信，以及在前端服务器和中介服务器 (MTLS) 之间进行 SIP 通信。 还用于与监控服务器通信。  |
 | 前端服务器 |Skype for Business Server Front-End 服务  |444  | HTTPS <br/> TCP  |用于会议状态管理 (Skype for Business Server 组件与各个服务器) HTTPS 通信。  <br/> 此端口还用于 Survivable Branch 设备和前端服务器之间的 TCP 通信。  |
 |前端服务器  |Skype for Business Server Front-End 服务  |135  |DCOM 和远程过程调用 (RPC)  |用于基于 DCOM 的操作，例如，移动用户、用户复制程序同步和通讯簿同步。  |
@@ -151,7 +152,7 @@ Skype for Business Server 要求打开外部和内部防火墙上的特定端口
 
 **所需客户端端口**
 
-|组件|端口|协议|备注|
+|组件|端口|协议|注释|
 |:-----|:-----|:-----|:-----|
 |客户端  |67/68  |DHCP  |由 Skype for Business Server 用来查找注册器 FQDN (，即，如果 DNS SRV 出现故障且未配置手动设置) 。  |
 |客户端  |443  |TCP (TLS)  |用于外部用户访问的客户端到服务器 SIP 流量。  |

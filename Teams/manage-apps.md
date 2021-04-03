@@ -17,12 +17,12 @@ description: 在 Microsoft Teams 管理中心的"管理应用"页面上了解如
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
+ms.openlocfilehash: b3858044c52324cb52005c70c6f3afcf91e3f617
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450619"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574191"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理应用
 
@@ -116,6 +116,10 @@ ms.locfileid: "51450619"
 2. 选择 **"添加到团队"。**
 3. 在"**添加到团队"** 窗格中，搜索要添加应用的团队，选择团队，然后选择"应用 **"。**
 
+## <a name="customize-an-app-in-preview"></a>在预览版 (自定义应用) 
+
+现在，你可以自定义应用，以根据组织需求包含特定的外观。 请参阅 [在 Teams 中自定义应用](customize-apps.md)。
+
 ## <a name="purchase-services-for-third-party-apps"></a>购买第三方应用的服务
 
 可以直接从"管理应用"页面搜索并购买第三方应用为组织用户提供的服务的许可证。 表中的 **"** 许可证"列指示应用是否提供付费 SaaS 订阅。 单击 **"立即** 购买"查看计划和定价信息，并购买用户的许可证。 有关详细信息，请参阅在 Microsoft Teams 管理中心购买 Teams 第三方 [应用的服务](purchase-third-party-apps.md)。
@@ -149,10 +153,6 @@ RSC (资源) 权限允许团队所有者授予应用访问和修改团队数据�
 
 3. 在 **"自定义应用**"下，关闭或打开 **"允许与自定义应用交互"。** 此设置控制用户是否可以与自定义应用交互。 要了解详细信息，请参阅[在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。
 4. 单击“**保存**”以使组织范围的应用设置生效。
-
-## <a name="customize-an-app-in-preview"></a>在预览版 (自定义应用) 
-
-现在，你可以自定义应用，以根据组织需求包含特定的外观。 [在 Teams 中自定义应用](customize-apps.md)
 
 ## <a name="related-topics"></a>相关主题
 

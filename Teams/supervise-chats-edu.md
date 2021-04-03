@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft Teams 会议中监督聊天。
-ms.openlocfilehash: 125273131ea4de6937b65f15d48469f3039d6aeb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e705120eb2f8b92ea437c78be67c139018f786fc
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118051"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506675"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Microsoft Teams 中的监督聊天
 
@@ -28,7 +28,7 @@ ms.locfileid: "51118051"
 
 监督式聊天允许指定的教师发起与学生的聊天，并阻止学生开始新聊天，除非有合适的教师。 启用聊天监督后，主管不允许离开聊天，不允许其他参与者删除聊天，从而确保涉及学生的聊天受到适当的监督。
 
-这些限制仅适用于在完全启用监督聊天后创建的新私人聊天。 它们不适用于现有私人聊天、会议聊天或频道。 若要详细了解会议聊天或频道安全最佳实践，请观看学生安全指南。
+这些限制仅适用于在完全启用监督聊天后创建的新私人聊天。 它们不适用于现有私人聊天、会议聊天或频道。 若要详细了解会议聊天、频道安全和确保学生安全的最佳做法，请观看使用 Teams 时确保 [学生安全](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)。
 
 > [!Note]
 > 监督聊天保护在强制实施该功能后创建的新聊天。  它不会保护现有聊天。

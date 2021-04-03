@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83688d6c4318aff9ef7a014a1792f52761145b4f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c57b925875308b7cdd9e654103e8d11050ce082d
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111028"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506665"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或 Stream 录制会议
 
@@ -34,7 +34,7 @@ ms.locfileid: "51111028"
 |2020 年 10 月 5 日<br> *(完成)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 启用 Teams 会议策略以将会议录制保存到 OneDrive for Business 和 SharePoint，而不是将 Microsoft Stream (经典) |
 |从 2021 年 1 月 7 日开始推出<br> *(完成)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|所有新的 Teams 会议录制都将保存到 OneDrive for Business 和 SharePoint，除非你通过修改组织的 Teams 会议策略并显式将其设置为"流式传输"来延迟此 **更改**。 将策略报告视为流是不够的。 需要将策略值显式设置为"流 **式传输"。**|
 |从 2021 年 1 月 11 日开始推出<br> *(完成)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**仅 GCC**<br> GCC 客户可以从 10 月 5 日起选择退出，但无法选择加入。 此功能将于 2021 年 1 月 11 日开始向所有 GCC 客户推出，除非你已选择退出。<br>  <br>从 2021 年 1 月 11 日开始，GCC 客户的所有新 Teams 会议录制都将保存到 OneDrive for Business 和 SharePoint，除非你通过修改组织的 Teams 会议策略并显式将其设置为"流式传输"来延迟此 **更改。** <br><br>如果你已选择退出，但已准备好启用此功能，则为此，你可以将 Teams 会议策略显式设置为 **OneDrive for Business。** |
-|从 2021 年 3 月 1 日推出 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High 和 DoD（仅适用于 DoD）**<br> 客户现在可以首次在 Microsoft Teams 中启用云会议录制。 默认情况下，这些录制内容将在 OneDrive 和 SharePoint 上存储和播放。 |
+|从 2021 年 3 月 1 日推出<br> *(完成)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High 和 DoD（仅适用于 DoD）**<br> 客户现在可以首次在 Microsoft Teams 中启用云会议录制。 默认情况下，这些录制内容将在 OneDrive 和 SharePoint 上存储和播放。 |
 |从 2021 年 7 月 7 日开始逐步推出 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**企业 (教育版和 GCC)**<br>无法将新的会议录制保存到经典 (Microsoft Stream) ;所有客户会自动将会议录制保存到 OneDrive for Business 和 SharePoint，即使他们将 Teams 会议策略更改为"流式传输"。<br><br> 我们建议客户为了更好地控制组织的变化，每当你习惯更改时都选择加入，而不是等待更改发生。 |
 
 Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Microsoft Stream 过渡到新 Stream[](/stream/streamnew/new-stream)的第一阶段，此方法将录制存储在 Microsoft 365 中的 Microsoft OneDrive for Business 和 SharePoint 上，并提供许多优势。
@@ -52,7 +52,9 @@ Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Micro
 - 多地域支持 - 录制存储在特定于该用户的区域
 - 自带密钥 (BYOK) 支持
 
-有关详细信息，请观看"会议录制"。
+查看当前可用的 [功能的完整列表以及随着时间的推移预期的功能](https://docs.microsoft.com/stream/streamnew/features-new-version-stream)。 
+
+有关详细信息，请观看"Microsoft Teams 会议录制的新增功能"。
 
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a596f2755434e7074c4a925f5c7c1dd8b1efbcaf
-ms.sourcegitcommit: fdada65628b31e4c267c87f0100e9f046b878c12
+ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50831014"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506730"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft Teams 中创建自定义团队模板
 
@@ -93,11 +93,15 @@ ms.locfileid: "50831014"
 
 **问题**：如果已基于包含其他自定义选项卡的自定义模板创建了团队，则可能会看到空白选项卡，用于使用自定义选项卡应用。 默认选项卡 (**如"帖子**"、"文件") "Wiki"选项卡将按预期显示。  
 
-**解决方案**：如果已基于包含其他自定义选项卡的自定义模板创建了团队，则可能会看到空白选项卡，用于使用自定义选项卡应用。 您的默认选项卡 (如文章、文件和 Wiki) 将按预期显示。
-
-若要解决此问题，请删除自定义选项卡，并添加包含同一应用的新选项卡。 如果无权删除自定义选项卡并添加新选项卡，请联系团队所有者寻求帮助。
+**解决方案**：若要解决此问题，请删除自定义选项卡，并使用相同的应用添加新选项卡。 如果无权删除自定义选项卡并添加新选项卡，请联系团队所有者寻求帮助。
 
 我们目前正在为将来从自定义模板创建的团队开发修补程序。
+
+**问题**：在浏览器中使用 Teams 时，某些网站不支持在 Teams 选项卡中呈现。
+
+![浏览器错误消息](media/browser-error-message.png)
+
+解决方案：如果查看网站选项卡的内容时遇到问题，将重定向到在单独的网页中打开该选项卡，或者改为在桌面应用中打开 Teams 以查看网站选项卡应用。
 
 ## <a name="related-topics"></a>相关主题
 

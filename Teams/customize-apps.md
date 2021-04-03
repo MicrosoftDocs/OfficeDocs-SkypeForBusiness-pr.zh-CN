@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中自定义应用。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b2e924da384b5bff54e63872aa7026d2da456311
-ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
+ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471496"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574151"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在 Microsoft Teams 中自定义应用
 
@@ -107,9 +107,9 @@ ms.locfileid: "51471496"
 以下说明包含有关自定义应用的重要详细信息。
 
 > [!Note]
-> - 自定义应用和与应用相关的任何说明时，请确保遵循应用发布者提供的自定义指南。 你有责任尊重他人有关你可能使用的第三方图像的权利。
-> - 管理员提供的自定义数据存储在最近的区域中的"设置存储"中。 它并不一定在任何 GoLocal Cloud Teams 部署中。
-> - 你负责确保指向使用条款或隐私策略的链接有效。 你必须提供对它们所做的更改的适当管理 (或允许对) 元数据进行更改。 当前实现将提供支持，以帮助还原到开发人员提供的 URL。 如果应用允许自定义 url (，则不能在没有 URL 的情况下配置) 。
+> - 自定义应用以及与应用相关的任何说明时，请确保遵循任何自定义指南（如果应用发布者在文档或使用条款中提供）。 你还有责任尊重他人对可能使用的任何第三方图像的权利。
+> - 管理员提供的自定义数据存储在最近的区域。
+> - 你负责确保指向使用条款或隐私策略的链接有效。
 > - 如果应用发布者不再允许自定义字段，应用详细信息页上会显示一条消息，通知管理员不再可以自定义的字段。 对该字段进行的所有更改都将还原为原始值。
 > - 更改品牌可能需要最多 24 小时，用户才能看到更改。
 

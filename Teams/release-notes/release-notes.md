@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 管理员功能的发行说明。
-ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
-ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
+ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51495748"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574091"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 管理员功能发行说明
 
@@ -38,6 +38,12 @@ ms.locfileid: "51495748"
 ### <a name="customize-apps-in-teams-preview"></a>自定义 Teams (预览版) 
 
 Microsoft Teams 提供应用自定义来增强 Teams 体验。 某些应用开发人员允许 Teams 管理员自定义应用。管理员可以使用 Teams 管理中心"管理应用"页面，根据组织需求自定义或重新设置应用属性的品牌。 [了解详细信息](../customize-apps.md)。
+
+## <a name="march-29-2021"></a>2021 年 3 月 29 日
+
+### <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Teams Android 设备的远程预配和登录
+
+IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程预配设备，管理员需要上传正在预配的设备的 MAC ID 并创建验证码。 整个过程可以从 Teams 管理中心远程完成。 [了解详细信息](../devices/remote-provision-remote-login.md)。
 
 ## <a name="march-24-2021"></a>2021 年 3 月 24 日
 
