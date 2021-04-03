@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122186"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506659"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -47,7 +47,7 @@ ms.locfileid: "51122186"
 要添加或阻止某个域：
 
 1. 选择“**添加域**”。
-2. 在“添加域”窗格中，输入域名，然后单击空格键保存名称。
+2. 在"添加域"窗格中，输入域名，然后选择空格键以保存名称。
 3. 选择“**已允许**”或“**已阻止**”。
 4. 选择“**完成**”以保存更改。 
 
@@ -94,9 +94,13 @@ ms.locfileid: "51122186"
 Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许组织创建虚拟边界，用于控制用户查找其组织中的其他用户以及与这些用户通信的方式。在某些情况下你可能想要使用范围目录搜索，例如：
 
 - 贵组织的租户中有多家你要保持独立的公司。 
-- 贵学校要限制教职员工与学生之间的聊天。 
+- 贵学校要限制教职员工与学生之间的聊天。
 
 **启用** 此设置将启用范围目录搜索。
+
+#### <a name="safety-and-communications"></a>安全和通信
+
+通过参与聊天，组织和学校可限制使用基于角色的权限进行聊天功能。 这些权限控制与其他人聊天时用户所需的指导量。 深入了解如何 [的聊天](supervise-chats-edu.md)。
 
 ### <a name="skype-for-business"></a>Skype for Business
 
