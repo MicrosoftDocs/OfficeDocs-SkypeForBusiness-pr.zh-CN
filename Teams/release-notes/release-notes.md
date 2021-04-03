@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 管理员功能的发行说明。
-ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
-ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
+ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
+ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51487226"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495748"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 管理员功能发行说明
 
@@ -55,6 +55,10 @@ Microsoft Teams 提供应用自定义来增强 Teams 体验。 某些应用开�
 ### <a name="masking-phone-numbers"></a>屏蔽电话号码
 
 我们发布了一个新的管理员设置，用于屏蔽拨入参与者加入会议时的电话号码。 管理员可以选择对会议中的每个人的电话号码进行屏蔽， (组织者或) 外部人员的电话号码，或者禁用了屏蔽。 如果管理员选择禁用此设置，电话号码将在会议中完全显示。 [了解详细信息](../ptsn-mask-phone-numbers.md)。
+
+### <a name="create-a-phone-system-auto-attendant"></a>创建电话系统自动助理
+
+自动助理可让你的人呼叫你的组织并导航菜单系统，以与正确的部门、呼叫队列、人员或接线员通话。 可以使用 Microsoft Teams 管理中心或 PowerShell 为组织创建自动助理。 [了解详细信息](../create-a-phone-system-auto-attendant.md)。
 
 ## <a name="march-1-2021"></a>2021 年 3 月 1 日
 
