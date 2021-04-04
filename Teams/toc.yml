@@ -317,10 +317,12 @@ items:
         items:
           - name: 概述
             href: manage-teams-with-policies.md
-          - name: 向用户分配策略
-            href: assign-policies.md
-          - name: 在活动日志中查看工作分配
-            href: activity-log.md
+          - name: 在 Teams 中分配策略 - 入门
+            href: policy-assignment-overview.md
+          - name: 向用户和组分配策略
+            href: assign-policies-users-and-groups.md
+          - name: 分配策略包
+            href: assign-policy-packages.md
           - name: 在 Teams 中管理反馈策略
             href: manage-feedback-policies-in-teams.md
           - name: 在 Teams 中管理策略包
