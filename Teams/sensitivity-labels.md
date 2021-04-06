@@ -17,18 +17,18 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用敏感度标签在 Microsoft Teams 中保护团队。
-ms.openlocfilehash: 25c6e6a9a69f9172bebdab284754998e4acb910a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 461daf6e91f9ba276dceef1929601d1188563931
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117190"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593860"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams 的敏感度标签
 
 [敏感度标签](/microsoft-365/compliance/sensitivity-labels) 允许 Teams 管理员保护和管理对在团队内协作期间创建的敏感组织内容的访问。 在 [Microsoft](/microsoft-365/compliance/go-to-the-securitycompliance-center)合规性中心中配置敏感度标签及其关联策略后，这些标签可以应用于组织的团队。
 
-使用 Teams 教育 SKUS 的客户目前不支持敏感度标签。 若要详细了解许可，请参阅 Microsoft [Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
+对于使用 Teams 教育 SKUS 的客户，课堂团队目前不支持敏感度标签。 若要详细了解许可，请参阅 Microsoft [Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>敏感度标签和 Teams 分类标签之间有什么区别？
 
@@ -59,8 +59,10 @@ ms.locfileid: "51117190"
 
 ![常规敏感度标签的屏幕截图](media/sensitivity-labels-general-example.png)
 
-创建团队时，敏感度标签显示在团队中频道的右上角。 请注意，如果使用分层父子标签（如"Confidential\Finance"），则频道标头中只会显示父标签。
+创建团队时，敏感度标签显示在团队中频道的右上角。 
 
+> [!NOTE]
+> 如果使用分层父子标签（如"Confidential\Finance"），则频道标头中只会显示父标签。
 
 ![团队频道中敏感度标签的屏幕截图](media/sensitivity-labels-channel.png)
 
@@ -88,7 +90,7 @@ ms.locfileid: "51117190"
 
 - **Teams Graph API、PowerShell cmdlet 和模板不支持敏感度标签**
     
-    用户无法对通过 Teams Graph API、Teams PowerShell cmdlet 和 Teams 模板直接创建的团队应用敏感度标签。
+    用户无法通过 Teams Graph API、Teams PowerShell cmdlet 和 Teams 模板直接创建团队时指定敏感度标签。 但是，新式组图形 API 和 PowerShell cmdlet 允许创建具有标签的组。 因此，用户可以首先使用组图形 API 或 PowerShell cmdlet 创建带标签的组，然后将这些组转换为 Teams。
 
 - **支持专用频道**
     

@@ -21,31 +21,42 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文包括禁用混合作为 Teams 和 Skype for Business 云整合的一部分的详细步骤。
-ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120351"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593850"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>禁用混合以完成到云的迁移：概述
+# <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>禁用混合配置以完成到云的迁移
 
-将所有用户从本地移动到云后，可取消本地 Skype for Business 部署。 除了删除任何硬件之外，关键步骤是通过禁用混合在逻辑上将本地部署与 Microsoft 365 或 Office 365 分离。 禁用混合由三个步骤组成：
+本文介绍如何在停用本地 Skype for Business 环境之前禁用混合配置。 这是停止使用本地环境的以下步骤的第 2 步：
 
-1. 更新 DNS 记录以指向 Microsoft 365 或 Office 365。
+- 步骤 1. [将所有必需的用户和应用程序终结点从本地移动到联机](decommission-move-on-prem-users.md)。
 
-2. 在 Microsoft 365 或 Office 365 (禁用共享 sip 地址空间) 也称为"拆分域"。
+- **步骤 2.禁用混合配置。**  (本文) 
 
-3. 禁用本地与 Microsoft 365 或 Office 365 进行通信的能力。
+- 步骤 3. [删除本地 Skype for Business 部署](decommission-remove-on-prem.md)。
 
-这些步骤在逻辑上将 Skype for Business Server 本地部署与 Office 365 分离，并且应作为一个单元一起执行。 下文中提供了每个步骤的详细信息。 完成后，可以使用下面引用的两种方法之一停用本地 Skype for Business 部署。
+
+## <a name="overview"></a>概述
+
+将所有用户从本地 Skype for Business 升级到 Microsoft 365 中的 Teams Only 后，可以停用本地 Skype for Business 部署。 在停用本地 Skype for Business 部署并删除任何硬件之前，必须通过禁用混合在逻辑上将本地部署与 Microsoft 365 分离。 禁用混合包含以下三个步骤：
+
+1. 将 DNS 记录更新为指向 Microsoft 365。
+
+2. 在 Microsoft 365 (禁用共享 sip 地址空间) 也称为"拆分域"。
+
+3. 在本地禁用与 Microsoft 365 进行通信的能力。
+
+这些步骤在逻辑上将 Skype for Business Server 本地部署与 Microsoft 365 分离，并作为一个单元一起执行。 本文提供了每个步骤的详细信息。 完成后，可以使用下面引用的两种方法之一停用本地 Skype for Business 部署。
 
 > [!Important] 
->完成此逻辑分离后，本地 Active Directory 中的 msRTCSIP 属性仍具有值，并且将继续通过 Azure AD Connect 同步到 Azure AD。 如何停用内部部署环境取决于是打算保留这些属性，还是先从本地 Active Directory 中清除它们。 请注意，从本地迁移后清除本地 msRTCSIP 属性可能会导致用户服务丢失！ 下面将介绍这两种停用方法的详细信息和权衡。
+> 完成此逻辑分离后，本地 Active Directory 中的 msRTCSIP 属性仍具有值，并且将继续通过 Azure AD Connect 同步到 Azure AD。 如何停用内部部署环境取决于是打算保留这些属性，还是先从本地 Active Directory 中清除它们。 请注意，从本地迁移后清除本地 msRTCSIP 属性可能会导致用户服务丢失！ 稍后将介绍这两种停用方法的详细信息和权衡。
 
-## <a name="disable-hybrid-to-complete-migration-to-the-cloud-detailed-steps"></a>禁用混合以完成到云的迁移：详细步骤
+## <a name="detailed-steps"></a>详细步骤
 
-1. *更新 DNS 以指向 Microsoft 365 或 Office 365。* 需要更新组织内部部署组织的外部 DNS，以便 Skype for Business 记录指向 Microsoft 365 或 Office 365，而不是本地部署。 具体来说：
+1. *更新 DNS 以指向 Microsoft 365。* 需要更新内部部署组织的组织外部 DNS，以便 Skype for Business 记录指向 Microsoft 365，而不是本地部署。 具体来说：
 
     |记录类型|名称|TTL|值|
     |---|---|---|---|
@@ -57,7 +68,7 @@ ms.locfileid: "51120351"
     此外，会议或拨入的 CNAME 记录 (如果存在) 可以删除。 最后，应删除内部网络中 Skype for Business 的所有 DNS 记录。
 
     > [!Note] 
-    > 在极少数情况下，将 DNS 从本地指向组织的 Microsoft 365 或 Office 365 可能会导致与其他一些组织的联盟停止工作，直到其他组织更新其联盟配置：
+    > 在极少数情况下，将 DNS 从本地指向组织的 Microsoft 365 可能会导致与其他一些组织的联盟停止工作，直到其他组织更新其联盟配置：
     >
     > - 任何使用旧直接联盟模型 (也称为允许的合作伙伴服务器) 的联合组织都需要更新其组织的允许域条目，以删除代理 FQDN。 此旧联盟模型不基于 DNS SRV 记录，因此，一旦组织移动到云，此类配置将过期。
     > 
@@ -66,13 +77,13 @@ ms.locfileid: "51120351"
     > 如果您怀疑您的任何联盟伙伴可能正在使用直接联盟，或者未与任何联机或混合组织联盟，我们建议您在准备完成迁移到云时发送有关此内容的通信。
 
 
-2.  *在 Microsoft 365 或 Office 365 组织中禁用共享 sip 地址空间。* 以下命令需要在 Skype for Business Online PowerShell 窗口中完成。
+2.  *在 Microsoft 365 组织中禁用共享 sip 地址空间。* 以下命令需要在 Skype for Business Online PowerShell 窗口中完成。
 
      ```PowerShell
      Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
      ```
  
-3.  *禁用本地与 Microsoft 365 或 Office 365 进行通信的能力。* 以下命令需要在内部部署 PowerShell 窗口中完成：
+3.  *在本地禁用与 Microsoft 365 进行通信的能力。* 以下命令需要在内部部署 PowerShell 窗口中完成：
 
      ```PowerShell
      Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
@@ -108,11 +119,14 @@ ms.locfileid: "51120351"
 
 此选项需要进行额外的工作和正确的规划，因为需要重新预配之前从本地 Skype for Business Server 移动到云的用户。 可以将这些用户分为两个不同的类别：没有电话系统的用户和具有电话系统的用户。 在将电话号码从本地 Active Directory 中管理到云过程中，使用电话系统的用户将遇到电话服务暂时丢失的问题。 **建议先执行涉及少数电话系统的用户的试点，然后开始批量用户操作。** 对于大型部署，可以在不同的时间窗口中以较小的组处理用户。 
 
+> [!NOTE] 
+> 对于具有匹配的 sip 地址和 UserPrincipalName 的用户，此过程最简单。 对于用户具有跨这两个属性的不匹配值的组织，必须格外小心，如下所述，以便顺利过渡。
+
 > [!NOTE]
-> 此过程对于具有匹配的 sip 地址和 UserPrincipalName 的用户来说最简单。 对于用户具有跨这两个属性的不匹配值的组织，必须格外小心，如下所述，以便顺利过渡。 
+> 如果为自动助理或呼叫队列配置了本地混合应用程序终结点，请确保在停用 Skype for Business Server 之前，将这些终结点移动到 Microsoft 365。
 
 
-1. 确认以下本地 Skype for Business PowerShell cmdlet 返回空结果。 空结果意味着没有用户位于本地，并且已移动到 Office 365 或已禁用：
+1. 确认以下本地 Skype for Business PowerShell cmdlet 返回空结果。 空结果意味着没有用户位于本地，并且已移动到 Microsoft 365 或已禁用：
 
    ```PowerShell
    Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Select-Object Identity, SipAddress, UserPrincipalName, RegistrarPool
@@ -229,8 +243,11 @@ ms.locfileid: "51120351"
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
+12. 完成方法 2 的所有步骤后，请参阅删除本地 [Skype for Business Server，](decommission-remove-on-prem.md) 了解删除 Skype for Business Server 本地部署的其他步骤。
 
 
 ## <a name="see-also"></a>另请参阅
 
-[Teams 和 Skype for Business 云合并](cloud-consolidation.md)
+- [Teams 和 Skype for Business 云合并](cloud-consolidation.md)
+
+- [停用本地 Skype for Business 环境](decommission-on-prem-overview.md)

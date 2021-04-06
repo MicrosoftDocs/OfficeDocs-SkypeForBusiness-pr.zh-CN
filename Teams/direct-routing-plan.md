@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解如何使用 Microsoft Phone 系统直接路由将受支持的客户提供的会话边界控制器 (SBC) Microsoft Phone System。
-ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f99801989920bf82b07aa6f15fcab9a99b2df065
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121390"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586551"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -105,6 +105,7 @@ Microsoft Teams 媒体的防火墙 IP 地址和端口 |有关详细信息，请�
 
 > [!IMPORTANT]
 >  如果想通过拨出或提供拨入号码将外部参与者添加到计划会议，需要音频会议许可证。
+> 对于 GCC High 和 DoD，不要为 G5 用户分配音频会议许可证。  对于 G3 用户，在直接路由完全配置且用户具有工作拨号盘之前，不要分配音频会议许可证。
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>临时呼叫升级和音频会议许可证

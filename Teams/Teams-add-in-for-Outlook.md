@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de3ef5f7fdd594fbc4471d3d7af4b2c3f3c683c1
-ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
+ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51418750"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593770"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -39,7 +39,7 @@ ms.locfileid: "51418750"
 
 > [!NOTE]
 > - **没有链接到 Teams 加载项的直接 URL**。
-> - 如果你的组织同时运行 Teams 和 Skype for Business，则还有其他注意事项。 在某些情况下，Outlook 中不提供 Teams 加载项。 有关详细信息，请参阅[从 Skype for Business 升级到 Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview)。
+> - 如果你的组织同时运行 Teams 和 Skype for Business，则还有其他注意事项。 在某些情况下，Outlook 中不提供 Teams 加载项。 有关详细信息，请参阅[从 Skype for Business 升级到 Teams](upgrade-to-Teams-on-prem-tools.md)。
 > - 执行 Regsvr32.exe 文件的用户权限是将 Teams 会议加载项安装在计算机上的最低要求。
 > - 如果用户未看到 Teams 会议外接程序，请指示他们关闭 Outlook 和 Teams，然后按以下顺序执行操作：先重新启动 Teams 客户端，然后登录 Teams，再重新启动 Outlook 客户端。
 > - 如果使用的是来自 Microsoft Store 的 Office Outlook 安装，则不支持 Teams 会议加载项。 建议需要此加载项的用户安装 Office 的即点即用版本，如[在 Windows 10 S 模式中的 Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) 一文中所述。

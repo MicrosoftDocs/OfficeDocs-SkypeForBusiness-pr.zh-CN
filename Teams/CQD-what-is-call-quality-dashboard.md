@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解 CQD (呼叫质量仪表板) 以及如何使用它查看有关 Microsoft Teams 中的会议与通话质量的报告。
-ms.openlocfilehash: c78e427ef87f7485932fac207c10add71c8bf269
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d262449394d9ad880d13897988e40e26dd98578c
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094936"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593830"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>什么是调用质量仪表板 (CQD) ？
 
@@ -51,12 +51,12 @@ CQD 旨在帮助 Teams 管理员、Skype for Business 管理员和网络工程�
 
 不要错过我们的 [管理](quality-of-experience-review-guide.md) 呼叫和会议质量文章，其中为负责在 Teams 中管理服务质量的 Teams 管理员或支持工程师提供了深入指导。
 
-## <a name="older-version-of-cqd-cqdlynccom"></a>旧版 CQD (CQD.lync.com) 
+## <a name="legacy-version-of-cqd-cqdlynccom"></a>旧版 CQD (CQD.lync.com) 
 
-当前版本的 CQD (替换旧版 https://CQD.Teams.microsoft.com) CQD https://CQD.lync.com) (。 你仍可以使用 CQD.lync.com (Skype for Business 管理中心) ，但截至 2020 年 7 月 1 日，它使用 CQD 提供的数据。Teams.microsoft.com。 我们将很快关闭对 CQD.lync.com 的访问权限，因此应转移到 CQD。Teams.microsoft.com，可以这样做。
+当前版本的 CQD (https://CQD.Teams.microsoft.com) 已替换旧版 CQD https://CQD.lync.com) (。 你仍可以使用 CQD.lync.com (Skype for Business 管理中心) ，但截至 2020 年 7 月 1 日，它使用 CQD 提供的数据。Teams.microsoft.com，并且无法再查看或修改旧 CQD 模板中的建筑物或查询 (CQD.lync.com) 。 如果尚未从数据库迁移此数据 CQD.lync.com，请记录支持票证。
 
 > [!IMPORTANT]
-> 自 2020 年 7 月 1 日起，无法再查看或修改旧 CQD 模板中的建筑物或查询 (CQD.lync.com) 。 如果尚未从数据库迁移此数据 CQD.lync.com，请记录支持票证。
+> 自 2021 年 7 月 31 日起，我们将停用旧版 CQD (CQD.lync.com) 。 该日期之后，会自动重定向到 CQD。Teams.microsoft.com 尝试访问 CQD.lync.com，任何未分配建筑物或查询数据都将丢失。
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>使用 Power BI 分析 CQD 数据
 

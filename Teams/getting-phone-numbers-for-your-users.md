@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '了解如何获取 Teams 的新号码、转网号码或转移现有号码，以及如何向用户显示更改。 '
-ms.openlocfilehash: 41693bedec0bd41edd80bc12ae67c87204f1c38e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c80f7a54af697322665c110c14aeccaf5fa4f667
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120713"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586561"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -41,7 +41,7 @@ ms.locfileid: "51120713"
 - **使用新号码的请求表单。** 有时 (你的国家/地区或地区) 你将无法使用 Microsoft Teams 管理中心获取新电话号码，或者你需要特定的电话号码或区号。 有关详细信息，请参阅[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。
   
 > [!NOTE]
-> 如果在为组织设置电话号码时需要帮助，请联系支持联系人 for Business 产品 - 管理员帮助 https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online (。
+> 如果在为组织设置电话号码时需要帮助，请联系支持联系人，了解商业产品 [- 管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)。
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>为用户获取新电话号码
 

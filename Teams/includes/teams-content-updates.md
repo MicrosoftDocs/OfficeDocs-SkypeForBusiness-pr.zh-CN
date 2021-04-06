@@ -3,6 +3,57 @@
 
 
 
+## <a name="week-of-march-29-2021"></a>2021 年 3 月 29 日周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 3/29/2021 | [Teams Android 设备的远程预配和登录](/MicrosoftTeams/devices/remote-provision-remote-login) | 添加内容 |
+| 3/29/2021 | [使用 Microsoft 终结点配置管理器部署 Microsoft Teams 会议室](/MicrosoftTeams/rooms/rooms-scale) | 修改内容 |
+| 3/29/2021 | [在 Outlook 中使用 Microsoft Teams 会议加载项](/MicrosoftTeams/teams-add-in-for-outlook) | 修改日期 |
+| 3/29/2021 | 在 Microsoft Teams 中授权来宾访问 | 删除内容 |
+| 3/29/2021 | [管理 Microsoft Teams 的保留策略](/MicrosoftTeams/retention-policies) | 修改内容 |
+| 3/30/2021 | [为 Microsoft Teams 设置自动助理 - 小型企业教程](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 修改内容 |
+| 3/30/2021 | [在 Microsoft Teams 中创建呼叫队列 - 小型企业教程](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 修改内容 |
+| 3/30/2021 | [在 Microsoft Teams 创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 3/30/2021 | [Teams 基于策略的通话录制简介&会议](/MicrosoftTeams/teams-recording-policy) | 修改内容 |
+| 3/30/2021 | [在 Teams 中自定义 Microsoft 应用](/MicrosoftTeams/customize-apps) | 添加内容 |
+| 3/30/2021 | [在你的 Office 365 组织中设置 Microsoft Teams](/MicrosoftTeams/deploy-enterprise-setup) | 修改内容 |
+| 3/30/2021 | [在 Microsoft Teams 管理中心管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
+| 3/30/2021 | [在 Teams 中自定义 Microsoft 应用](/MicrosoftTeams/customize-apps) | 修改内容 |
+| 3/30/2021 | [Microsoft Teams 会议室](/MicrosoftTeams/rooms/index) | 修改内容 |
+| 3/31/2021 | [为 Microsoft Teams 设置自动助理 - 小型企业教程](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 修改内容 |
+| 3/31/2021 | [在 Microsoft Teams 中创建呼叫队列 - 小型企业教程](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 修改内容 |
+| 3/31/2021 | [Microsoft Teams 设备使用情况报告](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 修改内容 |
+| 3/31/2021 | [Microsoft Teams 分析和报告](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 修改内容 |
+| 3/31/2021 | [Microsoft Teams 用户活动报告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 修改内容 |
+| 3/31/2021 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
+| 3/31/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+| 4/1/2021 | [安装 Power BI 连接器以使用 CQD 查询模板](/MicrosoftTeams/cqd-power-bi-connector) | 修改内容 |
+| 4/1/2021 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
+| 4/1/2021 | [使用监督聊天](/MicrosoftTeams/supervise-chats-edu) | 修改内容 |
+| 4/1/2021 | [使用 OneDrive for Business 和 SharePoint 录制会议](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
+| 4/2/2021 | [为 Microsoft Teams 设置自动助理 - 小型企业教程](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 修改内容 |
+| 4/2/2021 | [在 Microsoft Teams 中创建呼叫队列 - 小型企业教程](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 修改内容 |
+| 4/2/2021 | [在 Microsoft Teams 中创建自定义团队模板](/MicrosoftTeams/create-a-team-template) | 修改内容 |
+| 4/2/2021 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
+| 4/2/2021 | [管理组织设置](/MicrosoftTeams/enable-features-office-365) | 修改内容 |
+| 4/2/2021 | [在 Teams 中管理消息传递策略](/MicrosoftTeams/messaging-policies-in-teams) | 修改内容 |
+| 4/2/2021 | [Microsoft Teams 实时事件是什么？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 修改内容 |
+| 4/2/2021 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
+| 4/2/2021 | [将策略分配给用户和组](/MicrosoftTeams/assign-policies-users-and-groups) | 添加内容 |
+| 4/2/2021 | [将策略包分配给用户和组](/MicrosoftTeams/assign-policy-packages) | 添加内容 |
+| 4/2/2021 | [在 Teams 中分配策略](/MicrosoftTeams/policy-assignment-overview) | 添加内容 |
+| 4/2/2021 | [在 Teams 中自定义 Microsoft 应用](/MicrosoftTeams/customize-apps) | 修改内容 |
+| 4/2/2021 | [在 Microsoft Teams 管理中心管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
+| 4/2/2021 | [比利时的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 修改内容 |
+| 4/2/2021 | [在 Microsoft Teams 中管理策略包](/MicrosoftTeams/manage-policy-packages) | 修改内容 |
+| 4/2/2021 | [使用策略管理 Teams](/MicrosoftTeams/manage-teams-with-policies) | 修改内容 |
+| 4/2/2021 | [使用 CQD 在 Microsoft Teams 中管理呼叫和会议质量](/MicrosoftTeams/quality-of-experience-review-guide) | 修改内容 |
+| 4/2/2021 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
+| 4/2/2021 | [Teams 联系中心](/MicrosoftTeams/teams-contact-center) | 修改内容 |
+
+
 ## <a name="week-of-march-22-2021"></a>2021 年 3 月 22 日周
 
 
@@ -106,7 +157,7 @@
 | 3/18/2021 | [Teams 虚拟就诊](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 修改内容 |
 | 3/18/2021 | [仅查看会议体验](/MicrosoftTeams/view-only-meeting-experience) | 修改内容 |
 | 3/18/2021 | [Microsoft Teams 中的 Walkie Talkie 应用程序](/MicrosoftTeams/walkie-talkie) | 修改内容 |
-| 3/18/2021 | [启用或禁用 Microsoft Teams 的来宾访问](/MicrosoftTeams/set-up-guests) | 修改内容 |
+| 3/18/2021 | [开启或关闭对 Microsoft Teams 的来宾访问](/MicrosoftTeams/set-up-guests)。 | 修改内容 |
 | 3/18/2021 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
 | 3/19/2021 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
 | 3/19/2021 | [Microsoft Teams 面板](/MicrosoftTeams/devices/teams-panels) | 修改内容 |
