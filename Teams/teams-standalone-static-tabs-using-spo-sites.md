@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 获取现有 SharePoint Online 网站或页面，并创建一个可用作组织 Intranet 门户的独立个人选项卡。
 localization_priority: Priority
-ms.openlocfilehash: 7989478bf7fb81abdbd6ad9e553845302953c8cd
-ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
+ms.openlocfilehash: c6d138b1bf95edb619de6563f644e76ec123e3c6
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937504"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607535"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用
 
@@ -126,9 +126,9 @@ ms.locfileid: "49937504"
 ```json
 {
 
-    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
 
-    "manifestVersion": "1.5",
+    "manifestVersion": "1.9",
 
     "version": "1.0.0",
 
@@ -138,7 +138,7 @@ ms.locfileid: "49937504"
 
     "developer": {
 
-        "name": "Contoso", ''
+        "name": "Contoso",
 
         "websiteUrl": "https://www.contoso.com",
 
@@ -158,13 +158,13 @@ ms.locfileid: "49937504"
 
     "name": {
 
-        "short": "Contoso Intranet", '
+        "short": "Contoso Intranet",
 
         "full": "Intranet Portal for Contoso"
 
     },
 
-    "des    ription": {
+    "description": {
 
         "short": "Intranet portal for Contoso",
 
@@ -178,7 +178,7 @@ ms.locfileid: "49937504"
 
         {
 
-                     "       nti        Id":       "com    unicat    onSi    eTab",
+            "entityId": "communicationSiteTab",
 
             "name": "Contoso Net",
 

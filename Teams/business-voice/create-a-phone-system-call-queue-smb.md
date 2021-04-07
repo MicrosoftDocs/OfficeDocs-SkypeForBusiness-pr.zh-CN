@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何使用 Microsoft 365 Business Voice 设置呼叫队列。
-ms.openlocfilehash: f60919dccd25231dbdb7e9c2991251bcb3f96700
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 40018ce331dfe8516e00c6781373d528a71e85c5
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506639"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607554"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>创建呼叫队列 - 小型企业教程
 
@@ -98,7 +98,7 @@ ms.locfileid: "51506639"
 
 2. 单击“**添加**”。
 
-3. 在"**添加资源帐户"** 窗格中，填写"**显示名称**、**用户名"，** 然后选择"呼叫队列 **"作为"** 资源帐户 **类型"。**
+3. 在"**添加资源帐户"** 窗格中，填写"**显示名称**、**用户名"，** 然后选择"呼叫队列 **"作为"** 资源帐户 **类型"。** 代理收到来自显示名称来电时，会看到消息。
 
     ![添加资源帐户用户界面的屏幕截图](../media/resource-account-add-cq.png)
 
@@ -112,7 +112,7 @@ ms.locfileid: "51506639"
 
 必须将 Microsoft *365 Phone System - 虚拟用户许可证* 分配给资源帐户。
 
-1. 在 Microsoft 365 管理中心中，单击要为其分配许可证的资源帐户。
+1. 在 Microsoft 365 管理中心的" **活动** 用户"列表中，单击要为其分配许可证的资源帐户。
 
 2. 在"**许可证和应用"选项卡上的**"许可证 **"下**，选择 **"Microsoft 365 手机系统 - 虚拟用户"。**
 
@@ -126,7 +126,7 @@ ms.locfileid: "51506639"
 
 1. 在 Teams 管理中心中，展开 **"语音"，** 单击"**呼叫队列**"，然后单击"添加 **"。**
 
-1. 键入呼叫队列的名称。 代理收到来自队列的传入呼叫时，会看到此名称。
+1. 键入呼叫队列的名称。
 
 2. 单击 **"添加** 帐户"，搜索要用于此呼叫队列的资源帐户，单击"添加 **"，然后单击**"添加 **"。**
 
@@ -212,7 +212,7 @@ ms.locfileid: "51506639"
 
 选择当通话在队列中等待太长时间时要发生的情况。
 
-1. 设置"**调用超时：最长等待时间"。**
+1. 设置"**最长等待时间"。**
 
 2. 选择通话打时要执行哪些工作。你可以断开呼叫或重定向它。 建议将调用重定向到以下目标之一：
     - **组织中的人** - 组织中能够接收语音呼叫的人

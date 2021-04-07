@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 98f462044fba566ecea491bc55bf8df055973701
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d14dcbcc7176a482458e23b10e4f017b28ad24ea
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112288"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586491"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -137,6 +137,9 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
 
 ### <a name="meeting-expiration"></a>会议过期时间
+
+> [!NOTE]
+> 会议 URL 永远不会停止工作。 到期日期仅与任何 PSTN 拨入号码和/或基础会议策略和设置相关。
 
 |会议类型  |会议将在此时间后过期  |每次发起或更新会议时，过期时间都延长此时间  |
 |---------|---------|---------|

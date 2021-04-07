@@ -18,12 +18,12 @@ description: 有关在 Teams 中部署云语音功能以录制 Teams 会议和�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9eb5ef4227a52bfad5a0f0b41becd2360e225754
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f4e3c8bcf40a17d8b03a51c471201554d33e0ce1
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102628"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598451"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -78,7 +78,7 @@ Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制是否可以录制用户的会议。
 
-在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许云录制**”设置。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](meeting-policies-in-teams.md#allow-cloud-recording)。
+在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许云录制**”设置。 若要了解有关详细信息，请参阅 [音频会议会议&设置](meeting-policies-audio-and-video.md#allow-cloud-recording)。
 
 借助 PowerShell，你可以配置 TeamsMeetingPolicy 中的 AllowCloudRecording 设置。 若要了解详细信息，请参阅[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)。
 
@@ -145,7 +145,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecor
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 
-在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许转录**”设置。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](meeting-policies-in-teams.md#allow-transcription)。
+在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许转录**”设置。 若要了解有关详细信息，请参阅 [音频会议会议&设置](meeting-policies-audio-and-video.md#allow-transcription)。
 
 借助 PowerShell，你可以配置 TeamsMeetingPolicy 中的 AllowTranscription 设置。 若要了解详细信息，请参阅[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)。
 

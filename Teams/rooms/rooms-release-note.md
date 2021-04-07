@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft Teams 会议室发行说明，其中列出了 Microsoft Teams 会议室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cfb7742cb1f25db0dec7e777bdb9a891ca009867
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a922f3fead6c33f70e7393dd536b856934ddb390
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117410"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607538"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -29,6 +29,7 @@ ms.locfileid: "51117410"
 
 |发布 |发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
@@ -70,6 +71,16 @@ ms.locfileid: "51117410"
 |RTM (1.0.8)  |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 会议室功能简介和问题解决
+
+### <a name="48190-04062021"></a>4.8.19.0 (2021/04/06) 
+
+此更新中引入：
+- 政府社区云高 (GCCH) Teams 会议室支持。 使用现有 Teams 会议室设备的 GCCH 客户可以从手动更新[Microsoft Teams 会议室](manual-update.md)设备下载版本 4.8.18.0
+- 通过 720p (视频质量加入缩放会议) 并接收参与者的视频库
+- 为 Teams 默认模式删除了 Skype for Business 登录失败横幅。 此更改支持组织删除 Skype for Business 基础结构
+- Teams 会议加入链接分析现在处理 Microsoft Defender 高级线程保护安全链接，以允许无缝加入外部 Teams
+- 修复了当共享者的电脑在 Windows 中设置了自定义 DPI 时 Skype for Business 会议中共享内容缩放问题
+- 质量和可靠性修复
 
 ### <a name="47190-02032021"></a>2021/02/03 (4.7.19.0) 
 
@@ -204,7 +215,7 @@ ms.locfileid: "51117410"
 - 主题更新：仅在会议室显示器前保留自定义背景图像，同时使主机背景成为中性颜色，以确保主机 UI 控件满足颜色对比度 - 辅助功能要求
 - Teams 呼叫/会议的会议内呼叫控件的通用栏，以提供与 Microsoft Teams 电脑/Web/移动客户端一致的体验<sup>1</sup>
 - Teams 通话/会议后的通话质量反馈分级<sup>1</sup>
-- 从电脑/Web/移动 Teams 客户端<sup>1 2</sup><sup></sup>共享时，在 Microsoft Teams 会议室的会议室前接收/呈现 Microsoft Whiteboard
+- 从电脑/Web/移动 Teams 客户端<sup>1</sup> <sup>2</sup>共享时，在 Microsoft Teams 会议室的会议室前接收/呈现 Microsoft Whiteboard
 - 由于 Microsoft Teams 会议室客户端的兼容性问题，删除了对 Windows 10 版本 1809 升级的支持。 将来的版本中将添加 Windows 10 版本 19H1 支持
 
 <sup>1 使用</sup> Teams 圈推出 Microsoft Teams 服务。 此功能可能在 4.0.105.0 客户端更新之前或之后可用

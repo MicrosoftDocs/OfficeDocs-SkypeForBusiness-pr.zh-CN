@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa192472da86850a580bc981291762386f15c434
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 31f468e6e3fea0915322e632ad27f2213d5d63c7
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094634"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598361"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -122,7 +122,7 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 
 - 使用条件访问控制和保护 Teams 和 Exchange 中合规性策略的配置。 有关详细信息，请参阅[条件访问策略如何在 Teams 中发挥作用？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- 如果你的组织具有合规性要求以确保可以发现所有会议讨论，则在组织者具有 Exchange 本地邮箱的情况下，应禁用私人会议。 有关详细信息，请参阅[允许安排私人会议](./meeting-policies-in-teams.md#allow-scheduling-private-meetings)。
+- 如果你的组织具有合规性要求以确保可以发现所有会议讨论，则在组织者具有 Exchange 本地邮箱的情况下，应禁用私人会议。 有关详细信息，请参阅[允许安排私人会议](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)。
 
 - 在 Exchange 混合部署中，无论聊天参与者是基于云的邮箱还是本地邮箱，都可以搜索聊天消息中的内容。 若要了解详细信息，请参阅[搜索本地用户基于云的邮箱](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解如何在 Teams 中搜索内容，请阅读 [Microsoft 365 合规中心中的内容搜索](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 

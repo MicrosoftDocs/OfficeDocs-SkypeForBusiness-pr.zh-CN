@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom: ''
 description: 了解如何在 Microsoft Teams 中使用会议策略设置来控制会议到期时间。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1685da93c90d8d12cc4e8b8f2a92fd4f93391c87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6e8821781eab70696c9b24c8df18cc8dd0b46870
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115560"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598611"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams 中的会议策略和会议到期时间
 
@@ -35,11 +35,11 @@ ms.locfileid: "51115560"
 
 控制用户是否可以启动和安排会议的会议策略设置还控制用户安排的会议的到期时间。 当会议的会议加入链接和会议 ID 过期时，没有人可以加入会议。 以下会议策略设置确定用户是否可以在 Teams 中启动和安排会议，我们将在整篇文章中引用它们。
 
-- [在频道中允许](meeting-policies-in-teams.md#allow-meet-now-in-channels)"现在开会"：控制用户是否可以在频道中启动即席会议。
-- [允许频道会议计划](meeting-policies-in-teams.md#allow-channel-meeting-scheduling)：控制用户是否可以在频道中安排会议。
-- [允许安排私人会议](meeting-policies-in-teams.md#allow-scheduling-private-meetings)：控制用户是否可以在 Teams 中安排私人会议。 当会议未发布到团队中的频道时，会议是私密的。
-- [允许 Outlook 添加](meeting-policies-in-teams.md#allow-the-outlook-add-in)：控制用户是否可以从 Outlook 安排私人会议。 当会议未发布到团队中的频道时，会议是私密的。
-- [允许现在在私人会议中召开会议](meeting-policies-in-teams.md#allow-meet-now-in-private-meetings)：控制用户是否可以启动即席私人会议。
+- [在频道中允许](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)"现在开会"：控制用户是否可以在频道中启动即席会议。
+- [允许频道会议计划](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)：控制用户是否可以在频道中安排会议。
+- [允许安排私人会议](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)：控制用户是否可以在 Teams 中安排私人会议。 当会议未发布到团队中的频道时，会议是私密的。
+- [允许 Outlook 添加](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)：控制用户是否可以从 Outlook 安排私人会议。 当会议未发布到团队中的频道时，会议是私密的。
+- [允许现在在私人会议中召开会议](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)：控制用户是否可以启动即席私人会议。
 
 默认情况下，这些设置为打开状态。 当其中任一设置关闭时，分配有策略的任何用户都无法启动或安排该类型的新会议。 同时，用户以前启动或计划过期的所有现有会议的会议加入链接和会议 ID。
 

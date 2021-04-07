@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1075a2c345bd866266b175a4b62432e9f819b330
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098178"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598521"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 和 Microsoft Teams
+
+> [!IMPORTANT]
+> Azure Sentinel 现具有集成连接器。 有关详细信息，请参阅 [将 Office 365 日志连接到 Azure Sentinel](/azure/sentinel/connect-office-365)。 这是收集这些日志的建议途径，并取代下文所述的收集方法。
 
 Teams 在 Microsoft 365 云中的通信和数据共享中发挥核心作用。 由于 Teams 服务涉及云中的许多基础技术，因此它不仅可以在 *搜寻日志* 时从人工和自动化分析中受益，还可以 *实时监控会议*。 Azure Sentinel 可为管理员提供这些解决方案。
 
@@ -44,13 +47,13 @@ Teams 在 Microsoft 365 云中的通信和数据共享中发挥核心作用。 �
 
 此分区具有三个部分：
 
-1. 在 **Microsoft 365** (M365) 中启用审核日志。
+1. 在 **Microsoft 365** 中启用审核日志。
 2. 在 **Microsoft Azure** 中注册应用，以允许对日志收集进行身份验证和授权。
-3. 注册 API 订阅，允许在 M365 API 中通过 **PowerShell** 进行日志收集。
+3. 注册 API 订阅，允许在 Microsoft 365 API 中通过 **PowerShell** 进行日志收集。
 
-### <a name="enable-audit-logs-in-m365"></a>在 M365 中启用审核日志
+### <a name="enable-audit-logs-in-microsoft-365"></a>在 Microsoft 365 中启用审核日志
 
-由于 Teams 通过 M365 记录活动，因此默认情况下不会收集审核日志。 通过[以下步骤](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)启用此功能。 Teams 数据在 M365 审核中根据 *Audit.General* 进行收集。
+由于 Teams 通过 Microsoft 365 记录活动，因此默认情况下不会收集审核日志。 通过[以下步骤](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)启用此功能。 Teams 数据在 Microsoft 365 审核中根据 *Audit.General* 进行收集。
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>在 Microsoft Azure 中注册应用以进行日志收集
 
@@ -76,7 +79,7 @@ Teams 在 Microsoft 365 云中的通信和数据共享中发挥核心作用。 �
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>在 PowerShell 中注册 API 以收集 Teams 日志
 
-设置的最后一步是收集并注册 API 订阅，以便你能收集日志数据。 此操作通过对 M365 管理活动 API 的 PowerShell REST 调用来完成。
+设置的最后一步是收集并注册 API 订阅，以便你能收集日志数据。 此操作通过 PowerShell REST 调用 Microsoft 365 管理活动 API 来实现的。
 
 准备好在下面的 PowerShell cmdlet 中提供 **应用程序（客户端）ID**、新的 **客户端密码**、**M365 的 URL 域** 和 **目录（租户）ID** 值。
 

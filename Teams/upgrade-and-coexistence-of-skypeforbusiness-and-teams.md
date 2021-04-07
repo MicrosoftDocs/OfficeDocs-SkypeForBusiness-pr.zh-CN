@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 680bfad9090899ecce1f6e2be7bd9a0a25f5099a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 015a0f079f5e95f43c4245ff48f2d88df0e1fa74
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112168"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598301"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到 Teams 的升级旅程
 
@@ -62,7 +62,7 @@ ms.locfileid: "51112168"
 
 已迁移到 Teams 的用户不再使用 Skype for Business 客户端，除非加入在 Skype for Business 中托管的会议。 无论发送方是使用 Teams 还是 Skype for Business，所有传入的聊天和呼叫都会进入用户的 Teams 客户端。 升级后的用户组织的任何新会议都将安排为 Teams 会议。 如果用户尝试使用 Skype for Business 客户端，则阻止发起聊天和<sup>通话 1。</sup> 但是，用户可以 (，) 仍然使用 Skype for Business 客户端加入受邀加入的会议。
 
-管理员使用模式 的概念（TeamsUpgradePolicy 的一个属性）管理其到[Teams 的转换](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)。 [](migration-interop-guidance-for-teams-with-skype.md) 如上所述迁移到 Teams 的用户位于"TeamsOnly"模式。 对于要迁移到 Teams 的组织，最终目标是将所有用户移到 TeamsOnly 模式。
+管理员使用模式 的概念（TeamsUpgradePolicy 的一个属性）管理其到[Teams 的转换](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true)。 [](migration-interop-guidance-for-teams-with-skype.md) 如上所述迁移到 Teams 的用户位于"TeamsOnly"模式。 对于要迁移到 Teams 的组织，最终目标是将所有用户移到 TeamsOnly 模式。
 
 有两种方法使用 Skype for Business 将现有组织 (联机或本地) Teams：
 
@@ -113,7 +113,7 @@ ms.locfileid: "51112168"
 | 接收的传入聊天和呼叫：|  Teams 或 Skype for Business | Teams |
 | PSTN 呼叫接收时间： | Skype for Business <br> (在 Teams 中使用 PSTN 功能在群岛模式下不受支持。)      | Teams |   
  |状态    | Skype for Business 和 Teams 中的状态是独立的。 用户可能会看到同一个群岛用户的不同状态，具体取决于他们使用的客户端。 | 状态仅基于用户在 Teams 中的活动。 所有其他用户（无论他们使用哪个客户端）都能看到该状态。 | 
- | 会议安排    | 用户可以在 Teams 或 Skype for Business 中安排会议。 默认情况下，他们将在 Outlook 中同时看到这两个加载项。 你可以设置 Teams 会议策略来控制用户是只能使用 Teams 会议加载项，还是同时使用 Teams 会议加载项和 Skype for Business 会议加载项。若要了解有关详细信息，请参阅 [在群岛模式下为用户设置会议提供程序](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。 |     用户仅在 Teams 中安排会议。 Outlook 中仅提供 Teams 加载项。 | 
+ | 会议安排    | 用户可以在 Teams 或 Skype for Business 中安排会议。 默认情况下，他们将在 Outlook 中同时看到这两个加载项。 你可以设置 Teams 会议策略来控制用户是只能使用 Teams 会议加载项，还是同时使用 Teams 会议加载项和 Skype for Business 会议加载项。若要了解有关详细信息，请参阅 [在群岛模式下为用户设置会议提供程序](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode)。 |     用户仅在 Teams 中安排会议。 Outlook 中仅提供 Teams 加载项。 | 
 
 下表总结了使用重叠功能方法将组织迁移到 Teams 的优缺点。
 
@@ -212,6 +212,6 @@ ms.locfileid: "51112168"
 
 [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true)
 
 [使用会议迁移服务 (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

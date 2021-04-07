@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 管理员功能的发行说明。
-ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 5f9020afaa230156df2927ceecfd26ae33c2c2ae
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574091"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598501"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams 管理员功能发行说明
 
@@ -49,7 +49,7 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 
 ### <a name="enable-live-transcripts-in-teams"></a>在 Teams 中启用实时脚本
 
-这是按用户的策略，在会议期间适用。 此设置控制"启用实时字幕"选项是否可供用户在用户参加的会议中打开和关闭实时字幕。 [了解详细信息](../meeting-policies-in-teams.md#enable-live-captions)。
+这是按用户的策略，在会议期间适用。 此设置控制"启用实时字幕"选项是否可供用户在用户参加的会议中打开和关闭实时字幕。 [了解详细信息](../meeting-policies-participants-and-guests.md#enable-live-captions)。
 
 ## <a name="march-23-2021"></a>2021 年 3 月 23 日
 
@@ -216,7 +216,7 @@ Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Micro
 
 ### <a name="meeting-policy-settings"></a>会议策略设置
 
-在 Teams 会议策略中添加两个 IP 音频和 IP 视频的策略设置：IP 音频模式和 IP 视频模式。 现在可以在 Teams 会议策略中设置传入和传出 IP 音频与 IP 视频。 [了解详细信息](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
+在 Teams 会议策略中添加两个 IP 音频和 IP 视频的策略设置：IP 音频模式和 IP 视频模式。 现在可以在 Teams 会议策略中设置传入和传出 IP 音频与 IP 视频。 [了解详细信息](../meeting-policies-audio-and-video.md)。
 
 ## <a name="september-27-2020"></a>2020 年 9 月 27 日
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8c3c842b47c4575779de4c0ae8301bededb632
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6fc4f4f53262127355afa573b0fc2abec6b05e64
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098298"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607514"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>适用于非标准用户的 Microsoft Teams 应用行为
 
@@ -73,6 +73,6 @@ ms.locfileid: "51098298"
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>匿名用户的使用行为和策略
 
-匿名用户不能直接在会议中使用应用。 如果存在匿名用户，本机用户可以继续使用会议应用。 如果应用在聊天中发送自适应卡，匿名用户可以与该卡交互。
+匿名用户不能直接在会议中使用应用。 如果存在匿名用户，本机用户可以继续使用会议应用。 如果应用在聊天中发送自适应卡片，匿名用户可以与卡交互。有关详细信息，请参阅允许匿名 [用户加入会议](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)。
 
-匿名用户将继承用户级全局默认权限策略。 如果用户级权限策略已启用应用，此控件允许匿名用户与 Teams 会议中的应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。
+匿名用户将继承用户级全局默认权限策略。 如果用户级权限策略已启用应用，他们可以在 Teams 会议中与应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。

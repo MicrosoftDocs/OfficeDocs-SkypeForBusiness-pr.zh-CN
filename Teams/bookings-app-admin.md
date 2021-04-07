@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams 和使用 Bookings 应用进行虚拟访问
-ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092780"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598601"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 应用进行虚拟访问
 
@@ -57,7 +57,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 ## <a name="recommended-meeting-policy-settings"></a>建议的会议策略设置
 
-要获得 Bookings 的最佳体验，请创建员工会议策略以自动允许 **组织中所有人** 加入。 此操作将允许员工自动加入约会，并为外部与会者启用大厅体验。 可以了解关于 [自动允许人员加入会议](meeting-policies-in-teams.md#automatically-admit-people) 的详细信息。
+要获得 Bookings 的最佳体验，请创建员工会议策略以自动允许 **组织中所有人** 加入。 此操作将允许员工自动加入约会，并为外部与会者启用大厅体验。 可以了解关于 [自动允许人员加入会议](meeting-policies-participants-and-guests.md#automatically-admit-people) 的详细信息。
 
 ### <a name="optional-staff-approvals-setting"></a>可选员工审批策略
 

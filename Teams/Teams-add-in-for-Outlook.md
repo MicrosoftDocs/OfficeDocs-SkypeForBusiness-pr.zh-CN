@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593770"
+ms.locfileid: "51598381"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -115,7 +115,7 @@ Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确
 
 作为管理员，你可以配置 Teams 会议策略设置，以控制将哪个 Outlook 会议加载项用于 *处于孤岛模式的用户*。 你可以指定用户是只能使用 Team 会议加载项，还是可同时使用 Teams 会议加载项和 Skype for Business 会议加载项来在 Outlook 中安排会议。
 
-你只能将此策略应用于处于孤岛模式且其 Teams 会议策略中的 **AllowOutlookAddIn** 参数设置为 **True** 的用户。 有关如何设置此策略的步骤，请参阅[为处于孤岛模式的用户设置会议提供商](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。
+你只能将此策略应用于处于孤岛模式且其 Teams 会议策略中的 **AllowOutlookAddIn** 参数设置为 **True** 的用户。 有关如何设置此策略的步骤，请参阅 [会议策略置 - 常规](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode)。
 
 ## <a name="other-considerations"></a>其他注意事项
 
@@ -142,7 +142,7 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 
 - Windows 7 用户必须安装 [Windows 通用 C 运行时更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，Teams 会议加载项才能工作。
 - 检查用户是否具有允许在 Teams 中安排会议的 Teams 升级策略。 有关更多详细信息，请参阅[从 Skype for Business 升级到 Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
-- 检查用户是否具有允许 Outlook 加载项的 Teams 会议策略。 有关更多详细信息，请参阅[管理 Teams 中的会议策略](./meeting-policies-in-teams.md#allow-the-outlook-add-in)。
+- 检查用户是否具有允许 Outlook 加载项的 Teams 会议策略。 详情请参阅 [会议策略设置 - 常规](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in)。
 - 确保用户已安装 Teams 桌面客户端。 仅使用 Teams Web 客户端时，不会安装会议加载项。
 - 确保用户安装了 Outlook 2013 或更高版本。
 - 确保用户具有执行 regsvr32.exe 的权限。

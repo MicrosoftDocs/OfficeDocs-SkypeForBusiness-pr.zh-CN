@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 了解为使用 Microsoft 批量许可的组织启用音频会议功能的按分钟付费选项。
-ms.openlocfilehash: 28b0ecba5cf18741bca572e4de178fc4388f4f83
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9dd44436a557ea2685d4f6fb582bf41067d5c081
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102968"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607524"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -54,7 +54,9 @@ ms.locfileid: "51102968"
 > [!NOTE]
 > 通过查看音频会议 中的"查看要呼叫位置的费率"部分，可以找到与这些类型的呼叫相关联的拨入和拨出[费率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)。
   
-按分钟付费要求组织设置 [通信](what-are-communications-credits.md) 信用额度。 它还要求向每个用户分配按分钟付费许可证和通信信用额度许可证，音频会议才能正常工作。 如果需要更多详细信息，请参阅 [为](set-up-communications-credits-for-your-organization.md) 组织和/或 Microsoft Teams 附加许可 [设置通信信用额度](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+  
+按分钟付费要求组织设置 [通信](what-are-communications-credits.md) 信用额度。 如果需要更多详细信息，请参阅 [为](set-up-communications-credits-for-your-organization.md) 组织和/或 Microsoft Teams 附加许可 [设置通信信用额度](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+
   
 若要为贵组织的用户启用音频会议每分钟付费，请参阅试用或购买 [Microsoft Office 365 或 Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)中的音频会议。
 

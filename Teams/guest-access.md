@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-ms.openlocfilehash: 59e0fd09721e488a1806cc7a4ffcf527d34b029a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d927c601380223b3381a65e09549a632ed32903e
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112418"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598531"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 
-借助来宾访问，你可以为组织外部的人员提供对团队、频道中的文档、资源、聊天和应用程序的访问，同时保持对公司数据的控制。
+借助来宾访问，你可以为组织外部的人员提供对团队、频道中的文档、资源、聊天和应用程序的访问，同时保持对公司数据的控制。 请参阅 [设置与 Microsoft 365 和 Microsoft Teams 的安全协作](/microsoft-365/solutions/setup-secure-collaboration-with-teams)。
 
 > [!NOTE]
 > 如果只希望查找、通话、聊天以及安排与其他组织人员的会议，请使用[外部访问](manage-external-access.md)。
