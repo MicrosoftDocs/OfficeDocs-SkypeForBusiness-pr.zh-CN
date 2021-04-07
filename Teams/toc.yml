@@ -550,9 +550,25 @@ items:
       - name: 会议
         items:
           - name: 管理会议策略
-            href: meeting-policies-in-teams.md
-          - name: 从用户中删除 RestrictedAnonymousAccess 会议策略
-            href: meeting-policies-restricted-anonymous-access.md
+            items:
+              - name: 概述
+                href: meeting-policies-overview.md
+              - name: 一般性策略
+                href: meeting-policies-in-teams-general.md
+              - name: 音频和视频策略
+                href: meeting-policies-audio-and-video.md
+              - name: 内容和屏幕共享策略
+                items:
+                  - name: 内容共享
+                    href: meeting-policies-content-sharing.md
+                  - name: 配置桌面共享
+                    href: configure-desktop-sharing.md
+              - name: 参与者，来宾，访问策略
+                items:
+                  - name: 参加者和来宾策略
+                    href: meeting-policies-participants-and-guests.md
+                  - name: 从用户中删除 RestrictedAnonymousAccess 会议策略
+                    href: meeting-policies-restricted-anonymous-access.md
           - name: 管理会议设置
             href: meeting-settings-in-teams.md
           - name: 用户设置更改时向其发送的电子邮件
