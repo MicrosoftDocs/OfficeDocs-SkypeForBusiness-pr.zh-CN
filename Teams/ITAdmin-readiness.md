@@ -19,12 +19,12 @@ ms.custom:
 description: 为管理员介绍如何规划、部署和运行 Microsoft Teams 的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5015317fb2aff22cdc53fb30f62e6d4ea8c2237
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094564"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617795"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 管理员培训入门
 
@@ -75,6 +75,7 @@ ms.locfileid: "51094564"
 | 标题                                                                       | 摘要                                                                                                                                                                                                               |  指南链接                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Teams 的标识、&管理与威胁防护                   | 了解如何使用 Microsoft 管理中心和 PowerShell 配置访问和标识策略和为 Teams 启用 Office 365 高级威胁防护                                                            | [Teams 安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
+| 适用于 Microsoft Teams (DLP) 策略的数据丢失防护                     | 了解如何将 Microsoft Teams 添加到现有 DLP 策略，以及创建新策略（无论是基于模板还是完全根据组织的数据保护需求自定义）。                        | [Teams DLP 指南](https://aka.ms/teamsdlpguide)         |
 | 在 Teams 中管理合规性                                                | 使用 Microsoft 365 安全、Microsoft 365 合规性和 Microsoft Teams 管理中心以及 Windows PowerShell 来管理和配置 Office 365 组织的 Microsoft Teams 策略和设置。 | [管理 Teams 中的符合性指南](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams 顾问：在 Microsoft Teams 中部署聊天、团队、频道和应用 | 了解如何利用 Teams 顾问来评估环境，并生成用于部署聊天、团队、频道和应用的计划。                                                                                         |  [Teams 顾问指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | 使用 PowerShell 和动态组简化 Teams 管理        | 将 Office 365 组从静态成员身份转换为动态Windows PowerShell，为所有成员分配新的应用权限策略。                                                                         |  [简化 Teams 管理指南](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -85,6 +86,7 @@ ms.locfileid: "51094564"
 | 配置和部署 Microsoft Teams 会议                          | 逐步完成为 Microsoft Teams 部署会议工作负荷的过程。                                                                                                                                       |  [配置和部署 Microsoft Teams 会议指南](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | 为 Microsoft Teams 配置音频会议                            | 了解 Teams 中的音频会议功能，并了解如何分配会议网桥和拨入电话号码。                                                                                          |  [为 Microsoft Teams 配置音频会议指南](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | 为一线员工配置 Microsoft Teams                           | 了解如何为 Firstline Workforce 配置和部署适当的 Microsoft Teams 环境。                                                                                                                  | [为一线员工配置 Microsoft Teams 指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 一线员工的身份：为 IT、经理和一线员工提供支持                    | 了解如何将 Microsoft Teams 与现有 HR 系统集成、配置轻型委派标识管理，以及为使用共享设备的用户配置简化的登录和无缝转换。                                                                                                                  | [一线辅助角色标识指南](https://aka.ms/FLWIdentityIG)              |
 | 部署 Microsoft Teams 会议室                           | 了解如何创建和配置帐户以用于 Microsoft Teams 会议室，以及如何在 Microsoft Teams 管理中心管理设备。                                                                                                                  | [部署 Microsoft Teams 会议室](https://aka.ms/teamsroomslab)              |
 
 <h2>快速入门指南</h2>

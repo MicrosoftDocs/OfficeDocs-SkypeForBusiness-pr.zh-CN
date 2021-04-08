@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 了解为使用 Microsoft 批量许可的组织启用音频会议功能的按分钟付费选项。
-ms.openlocfilehash: 9dd44436a557ea2685d4f6fb582bf41067d5c081
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: 93f0b6ef257e7190aa2d2f45e3ad8ead78c67b84
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607524"
+ms.locfileid: "51617784"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -77,12 +77,12 @@ ms.locfileid: "51607524"
 ## <a name="want-to-find-out-more-about-pricing"></a>想要了解有关定价的详细信息？
 
  **正在搜索价格？** 请参阅以下内容：
-  
-- [音频会议的定价](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
+
+- [音频会议的定价](https://www.microsoft.com/microsoft-teams/audio-conferencing)
     
-- [电话系统定价](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
+- [电话系统定价](https://www.microsoft.com/microsoft-teams/voice-calling )
     
-- [通话套餐的定价](https://go.microsoft.com/fwlink/?linkid=799763)
+- [通话套餐的定价](https://www.microsoft.com/microsoft-teams/voice-calling)
     
 ## <a name="related-topics"></a>相关主题
   

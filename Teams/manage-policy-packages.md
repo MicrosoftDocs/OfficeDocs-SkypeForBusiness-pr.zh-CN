@@ -20,17 +20,14 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理策略包，以简化、简化和帮助在管理用户组的策略时提供一致性。
-ms.openlocfilehash: 125c89505727e4fd4e6c18419b32dc1b99dfb67b
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 1b7e6e5c6311ebd51b0f00b86953291ed4ac63b3
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51583108"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51634233"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>在 Microsoft Teams 中管理策略包
-
-> [!NOTE]
-> 本文讨论的功能之一（ [自定义策略包](#custom-policy-packages)）目前以个人预览版提供。
 
 Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你可以将其分配给组织中具有类似角色的用户。 我们构建了策略包，用于简化、简化和帮助在管理组织中用户组的策略时提供一致性。  
 
@@ -56,7 +53,7 @@ Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你�
 
 Teams 当前包括以下策略包。
 
-|**包名称**  |**说明** |
+| 包名称 | 说明 |
 |---------|---------|
 |教育 (教育学生)     |创建一组适用于教育程度学生的策略和策略设置。|
 |教育 (中学生)    |创建一组适用于主要学生的策略和策略设置。|
@@ -83,17 +80,22 @@ Teams 当前包括以下策略包。
 
 ## <a name="custom-policy-packages"></a>自定义策略包
 
-**此功能在私有预览版中**
+**自定义策略包尚不可用于政府社区云 (GCC)**
 
 自定义策略包允许为组织中具有类似角色的用户捆绑自己的策略集。 通过添加所需的策略类型和策略创建自己的策略包。
 
 创建新的自定义策略包：
 
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，选择"**策略包"，** 然后单击"添加 **"。**
+
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心中"策略包"页面上的"添加"按钮的屏幕截图":::
+
 2. 输入包的名称和说明。
+
     :::image type="content" source="media/policy-packages-add-custom.png" alt-text="添加新的自定义策略包的屏幕截图":::
+
 3. 选择要包括在包中的策略类型和策略名称。
+
 4. 单击“**保存**”。
 
 ## <a name="how-to-use-policy-packages"></a>如何使用策略包
@@ -118,6 +120,7 @@ Teams 当前包括以下策略包。
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>查看策略包中的策略设置
 
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，选择"策略包"，然后单击程序包名称左侧选择策略包。
+
 2. 单击要查看的策略。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自定义策略包中的策略
@@ -127,48 +130,18 @@ Teams 当前包括以下策略包。
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，执行下列操作之一：
     - 单击 **"策略** 包"，然后单击包名称左侧选择策略包。
     - 单击策略类型。  例如，单击"**消息传送策略"。**
+
 2. 选择要编辑的策略。 链接到策略包的策略与策略包同名。
+
 3. 进行您需要的更改，然后单击"保存 **"。**
 
 ### <a name="assign-a-policy-package"></a>分配策略包
 
-#### <a name="assign-a-policy-package-to-one-user"></a>将策略包分配给一个用户
-
-1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。
-2. 在用户的页面上，单击"策略 **"，** 然后在"**策略包"旁边** 单击"编辑 **"。**
-3. 在"**分配策略包"** 窗格中，选择要分配的包，然后单击"保存 **"。**
-
-#### <a name="assign-a-policy-package-to-multiple-users"></a>将策略包分配给多个用户
-
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到"策略包"，然后单击程序包名称左侧，选择要分配的策略包。
-2. 单击"**管理用户"。**
-3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。 对想要添加的每一个用户重复此步骤。
-4. 添加完用户后，单击"保存 **"。**
-
-#### <a name="assign-a-policy-package-to-a-group"></a>将策略包分配给组。
-
-通过将策略包分配到组，可将多个策略分配给一组用户，例如安全组或通讯组列表。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。 建议将此方法用于最多 50,000 个用户的组，但也可使用更大的组。
-
-若要了解详细信息，请参阅[将策略包分配到组](assign-policies.md#assign-a-policy-package-to-a-group)。
-
-#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>向大型组（批处理）分配策略包
-
-使用批处理策略包分配，每次向大型用户组分配策略包。 使用 [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet 提交要分配的一批用户和策略包。 作业将作为后台操作处理，并为每个批处理生成操作 ID。
-
-批处理最多可包含 5,000 个用户。 可通过对象 Id、UPN、SIP 地址或电子邮件地址指定用户。 若要了解详细信息，请参阅[将策略包分配给批次用户](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
-
-## <a name="troubleshooting"></a>疑难解答
-
-**分配策略包时收到错误**
-
-如果未成功创建或应用包中的一个或多个策略，则可能会发生这种情况。 将策略包重新分配给用户。 重试操作通常可以修复此问题。
+可以将策略包分配给单个用户、组或一批用户。 若要详细了解如何分配策略包，请参阅 [向用户和组分配策略包](assign-policy-packages.md)。
 
 ## <a name="related-topics"></a>相关主题
 
-[分配策略包](assign-policy-packages.md)
-
-[适用于 EDU 管理员的 Teams 策略包](policy-packages-edu.md)
-
-[Teams 医疗保健策略包](policy-packages-healthcare.md)
-
-[适用于政府的 Teams 策略包](policy-packages-gov.md)
+- [分配策略包](assign-policy-packages.md)
+- [适用于 EDU 管理员的 Teams 策略包](policy-packages-edu.md)
+- [Teams 医疗保健策略包](policy-packages-healthcare.md)
+- [适用于政府的 Teams 策略包](policy-packages-gov.md)

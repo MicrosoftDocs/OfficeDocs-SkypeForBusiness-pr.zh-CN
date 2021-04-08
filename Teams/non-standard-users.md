@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc4f4f53262127355afa573b0fc2abec6b05e64
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: fb4b5dfebabfcd0bc86006d93272c3901e7dcfc7
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607514"
+ms.locfileid: "51617845"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>适用于非标准用户的 Microsoft Teams 应用行为
 
@@ -32,8 +32,8 @@ ms.locfileid: "51607514"
 
 - 外部 **(联合)** 用户属于另一个域，无法访问组织的团队或团队资源。
 
->[!Note]
-> 有关来宾用户与外部用户的详细比较， [请参阅与其他组织的用户通信](./communicate-with-users-from-other-organizations.md)。
+  > [!Note]
+  > 有关来宾用户与外部用户的详细比较， [请参阅与其他组织的用户通信](./communicate-with-users-from-other-organizations.md)。
 
 - 匿名 **用户** 是 Teams 会议中的概念，用户通过链接加入会议。 用户尚未使用其 Microsoft 或组织的帐户登录。
 

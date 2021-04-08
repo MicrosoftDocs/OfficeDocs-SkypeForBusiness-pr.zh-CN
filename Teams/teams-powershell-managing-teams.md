@@ -13,12 +13,12 @@ ms.collection:
 description: 了解如何使用 Teams PowerShell 管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd302e2e5572c98e3338f0803155876e1c7689fc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8494f7951a051f95f9b934d04f274a020446b6cd
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094142"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617744"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>使用 Microsoft Teams PowerShell 管理 Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "51094142"
 Teams 由 Office 365 组支持，因此创建团队时，会创建一个组。 提供了一组 cmdlet 用于核心团队及其设置 （ (、、) 、管理团队用户 (、) ）以及用于管理团队 (、) 的频道的 ``new-team`` ``get-team``  ``set-team`` ``add-teamuser`` ``remove-teamuser`` ``new-teamchannel`` ``remove-teamchannel`` cmdlet。 所有这些 cmdlet 都可以作为最终用户运行，但它们只能在你拥有或成员的团队中运行。 如果你是全局管理员或 Teams 服务管理员，你将能够对组织的所有团队采取行动。
 
 ```powershell
-New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
+New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
 > Microsoft Teams PowerShell 模块 cmdlet 中使用的 **GroupId** 与Exchange PowerShell 模块中返回的 ``Get-UnifiedGroup`` Identity 属性相同。
