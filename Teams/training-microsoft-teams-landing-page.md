@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: e8e9a7776058803f49364887cabd6b54a9040cb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097558"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648111"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
@@ -52,8 +52,8 @@ ms.locfileid: "51097558"
    :::column-end:::
 
    :::column:::
-   **[团队合作](/learn/paths/m365-manage-team-collaboration)** </br>
-   课程：使用 Teams 开启团队合作
+   **[管理 IT 团队协作](/learn/paths/m365-manage-team-collaboration)** </br>
+   课程：了解如何使用 Teams 来促进组织内跨应用和设备的团队合作与沟通。
 
    :::column-end:::
 
