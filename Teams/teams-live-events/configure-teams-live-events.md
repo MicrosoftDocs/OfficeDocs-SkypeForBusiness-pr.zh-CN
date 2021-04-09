@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5f19aa6cfee7d4cce19ef5a0936a5a72e954648
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9749484344d969671e8a0195de3386a57388d275
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119341"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637874"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
@@ -43,10 +43,10 @@ ms.locfileid: "51119341"
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
-1. 在左侧导航栏中，转到"**会议**  >  **实时事件设置"。**
-2. 在 **"支持 URL"** 下，输入组织的支持 URL。
+1. 在左侧导航栏中，转到"**会议**  >  **实时事件设置&quot;。**
+2. 在 **&quot;支持 URL&quot;** 下，输入组织的支持 URL。
 
-    ![管理中心内实时事件的支持 URL 设置](../media/teams-live-events-settings-supporturl.png "Teams 实时事件的支持 URL 设置的屏幕截图")
+    ![管理中心内实时事件的支持 URL 设置](../media/teams-live-events-settings-supporturl.png &quot;Teams 实时事件的支持 URL 设置的屏幕截图")
 
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
 
@@ -62,10 +62,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
-1. 在左侧导航栏中，转到"**会议**  >  **实时事件设置"。**
-2. 在 **"第三方视频分发提供商"下**，完成以下操作： 
+1. 在左侧导航栏中，转到"**会议**  >  **实时事件设置&quot;。**
+2. 在 **&quot;第三方视频分发提供商&quot;下**，完成以下操作： 
 
-    ![管理中心中的第三方视频分发提供商设置](../media/teams-live-events-settings-distribution-provider.png "实时事件的第三方视频分发提供商设置的屏幕截图")
+    ![管理中心中的第三方视频分发提供商设置](../media/teams-live-events-settings-distribution-provider.png &quot;实时事件的第三方视频分发提供商设置的屏幕截图")
 
     - **使用第三方分发提供商** 启用此选项以启用第三方视频分发提供商。
     - **SDN 提供程序名称** 选择你使用的提供商。
@@ -87,6 +87,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
 ```
+**Ramp** 
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
+```
 
 有关详细信息，请参阅[Set-CsTeamsMeetingBroadcastConfiguration。](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
 
@@ -95,6 +99,9 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 
 >[!Note]
 > 从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](../tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+
+>[!Note]
+> 所选的 eCDN 解决方案受所选第三方提供商的服务条款和隐私策略的约束，将控制 eCDN 提供商解决方案的使用。 使用 eCDN 提供商的解决方案不受 Microsoft 批量许可条款或在线服务条款限制。 如果您不同意第三方提供商的条款，则不要在 Microsoft Teams 中启用 eCDN 解决方案。
 
 ### <a name="related-topics"></a>相关主题
 - [什么是 Teams 实时事件？](what-are-teams-live-events.md)

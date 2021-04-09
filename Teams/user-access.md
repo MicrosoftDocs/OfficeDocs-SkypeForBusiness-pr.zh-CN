@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cf3f6816b3c1e0b00026b1ba4ad961a6a92aa6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 770dcea62d6f3dc65f576a3d64a520dd4de2ecad
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093536"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637724"
 ---
 # <a name="manage-user-access-to-teams"></a>管理对 Teams 的用户访问
 
@@ -57,6 +57,9 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 |![已为用户启用 Teams 许可证的屏幕截图](media/assign-teams-licenses-1.png)    | ![已为用户启用 Teams 许可证的屏幕截图](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>删除 Teams 许可证
+
+> [!IMPORTANT]
+> 禁用 Teams SKU 需要大约 24 小时才能生效。
 
 从用户删除 Teams 许可证时，将针对该用户禁用 Teams，然后他们将不会再在应用启动器或主页中看到 Teams。 有关详细步骤，请参阅[取消分配用户许可证](/microsoft-365/admin/manage/remove-licenses-from-users)。
 

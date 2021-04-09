@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解功能、可用性，以及如何为业务计划和设置 Microsoft Phone 系统。 '
-ms.openlocfilehash: 3c63362b1be16a2e6ad1b55ca6090fadb81b3ee7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b26f6d72a92f0012f47d155531be523872e5a08c
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120683"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648131"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>电话系统的功能
 
@@ -67,7 +67,7 @@ ms.locfileid: "51120683"
 |[辅助响铃](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | 具有多个扬声器设备连接到其电脑的用户可以选择除了默认扬声器之外，将辅助设备设置为响铃。 例如，使用耳机连接到电脑和桌面扬声器的用户可以选择在呼叫进入时同时让耳机和桌面扬声器同时响铃，以便他们不会错过呼叫。  |
 |[Teams 中独特的 (](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) 警报) <br/> |允许用户为普通呼叫、已转发呼叫和委派呼叫选择单独的铃声，以便区分呼叫类型。  <br/> |
 |[共享线路外观](shared-line-appearance.md) <br/> | 允许用户共享其电话线路，以便其他用户可以代表他们拨打和接听呼叫。|
-|[在"忙碌" (](teams-calling-policy.md) Teams"上)  <br/> | 一种呼叫策略，用于配置在用户已处于呼叫或会议状态或呼叫处于保持状态时如何处理传入呼叫。 当被呼叫者已使用电话时，呼叫者将听到忙碌信号。 被呼叫者收到未接来电通知，但无法接听来电。 默认情况下，此功能处于禁用状态，但租户管理员可以启用此功能。 |
+|[在"忙碌" (](teams-calling-policy.md) Teams"上)  <br/> | 一种呼叫策略，用于配置在用户已处于呼叫或会议状态或呼叫处于保持状态时如何处理传入呼叫。 当被呼叫者已在电话上时，呼叫者将听到忙碌信号，或者将相应地根据用户的未答设置进行路由，即呼叫者能够向已接听呼叫的用户留下语音邮件。 被呼叫者收到未接来电通知，但无法接听来电。 默认情况下，此功能处于禁用状态，但租户管理员可以启用此功能。|
 |[呼叫阻止](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 允许用户将 (PSTN) 添加到阻止列表中，以便阻止来自该号码的下一个呼叫拨打用户。|
 |[公用区域电话](set-up-common-area-phones.md) <br/> | 公用区域电话通常放置在大厅或会议室等区域中，供多人使用。 常用区域电话设置为设备而不是用户，可以自动登录到网络。|
 |[仅 Teams 直接](direct-routing-plan-media-bypass.md) (的媒体旁路)  <br/> | 为了提高性能，媒体保留在会话边界控制器 (SBC) 与客户端之间，而不是通过 Microsoft Phone System 发送。 |

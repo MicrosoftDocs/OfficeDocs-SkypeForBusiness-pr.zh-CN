@@ -1,5 +1,5 @@
 ---
-title: 直接路由国家代码
+title: 直接路由国家/地区代码
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,117 +15,120 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 阅读本文以查找直接路由的 "国家/地区" 代码，以便您可以选择最佳媒体路径。
+description: 阅读本文以查找直接路由的媒体路径国家/地区代码，以便可以选择最佳媒体路径。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904804"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648121"
 ---
-# <a name="direct-routing-media-path-country-codes"></a>直接路由媒体路径国家代码
+# <a name="direct-routing-media-path-country-codes"></a>直接路由媒体路径国家/地区代码
 
-选择媒体的路由路径时，直接路由默认情况下，始终根据会话边界控制器（SBC）的公共 IP 地址分配数据中心，并始终选择最接近于 SBC 数据中心的路径。
+选择媒体的路由路径时，默认情况下，直接路由始终基于会话边界控制器 (SBC) 的公共 IP 地址分配数据中心，并始终选择最靠近 SBC 数据中心的路径。
 
-但是，在某些情况下，默认媒体路径可能不是最佳媒体路径;例如，美国范围内的公共 IP 可能分配给位于欧洲的 SBC。 
+但是，在某些情况下，默认媒体路径可能不是最佳媒体路径;例如，可以将美国范围的公共 IP 分配到位于欧洲的 SBC。 
 
-通过将-MediaRelayRoutingLocationOverride 参数与 CsOnlinePSTNGateway 和 CsOnlinePSTNGateway cmdlet 结合使用，你可以指定媒体流量的首选区域。 例如，以下命令指定首选区域为德国：
+将 -MediaRelayRoutingLocationOverride 参数与 New-CsOnlinePSTNGateway 和 Set-CsOnlinePSTNGateway cmdlet 一起使用，可以指定媒体流量的首选区域。 例如，以下命令指定首选区域为德国：
 
-CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE 
+Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
-请注意，如果通话记录明确指明媒体路径的数据中心的默认分配不使用与 SBC 数据中心最接近的路径，则 Microsoft 仅建议设置此参数。 
+请注意，只有在调用日志明确指示媒体路径的数据中心默认分配不使用离 SBC 数据中心最近的路径时，Microsoft 才建议设置此参数。 
+
+> [!NOTE]
+> -MediaRelayRoutingLocationOverride - 此命令不可用于直接路由方案。
  
-## <a name="country-code-reference-table"></a>国家/地区代码引用表
+## <a name="country-code-reference-table"></a>国家/地区代码参考表
 
-下表显示了-MediaRelayRoutingLocationOverride 参数的国家/地区代码值：
+下表显示了 -MediaRelayRoutingLocationOverride 参数的国家/地区代码值：
 
-| 该国         | 条码 
+| 国家/地区         | 代码 
 |-----------------|--------------------|
 | 阿富汗     | AF |
-| Aland 群岛   | DPE-AX |
-| 阿尔巴尼亚         | 谭 |
+| 阿兰群岛   | AX |
+| 阿尔巴尼亚         | AL |
 | 阿尔及利亚         | DZ |
-| 美属萨摩亚  | 方式 |
+| 美属萨摩亚  | AS |
 | 安道尔         | AD |
 | 安哥拉          | AO |
 | 安圭拉岛        | AI |
-| Antarctica      | AQ | 
-| 安提瓜和巴布达 | 集团 |
+| 南极洲      | AQ | 
+| 安提瓜和巴布达 | AG |
 | 阿根廷       | AR |
-| 亚美尼亚         | 格林威治 |
+| 亚美尼亚         | AM |
 | 阿鲁巴岛           | AW |
 | 澳大利亚       | AU |
-| 奥地利         | 看 |
+| 奥地利         | AT |
 | 阿塞拜疆      | AZ |
 | 巴哈马         | BS |
 | 巴林         | BH |
 | 孟加拉      | BD |
 | 巴巴多斯        | BB |
 | 白俄罗斯         | BY |
-| 比利时         | 会 |
+| 比利时         | BE |
 | 伯利兹          | BZ |
 | 贝宁           | BJ |
 | 百慕大         | BM |
 | 不丹          | BT |
 | 玻利维亚         | BO |
-| 博内尔         | BQ |
+| 博奈尔         | BQ |
 | 波斯尼亚和黑塞哥维那 | BA |
-| 博茨瓦纳        | 黑白 |
+| 博茨瓦纳        | BW |
 | 布维岛   | BV |
 | 巴西          | BR |
-| 不列颠印度洋属土 | IO |
+| 英属印地安群岛 | IO |
 | 英属维尔京群岛 | VG |
 | 文莱          | BN |
 | 保加利亚        | BG |
 | 布基纳法索    | BF |
-| 布隆迪         | 智能 |
-| 佛得角      | 方便 |
+| 卢旺达         | BI |
+| 佛得角      | CV |
 | 柬埔寨        | KH |
-| 喀麦隆        | 厘米 |
-| 加拿大          | 认证 |
-| 开曼群岛  | KY-KG&PLATFORM |
+| 喀麦隆        | CM |
+| 加拿大          | CA |
+| 开曼群岛  | KY |
 | 中非共和国 | CF |
-| Chad            | 加入 |
+| 苏丹            | TD |
 | 智利           | CL |
 | 中国           | CN |
 | 圣诞岛 | CX |
-| 科科斯（基林）群岛 | 修 |
+| 科科斯 (基林) 群岛 | CC |
 | 哥伦比亚        | CO |
-| 科摩罗         | KM-KH&PLATFORM |
-| 刚果           | CG |
-| 刚果（金）     | LCD |
-| 库的岛    | CK 可以 |
+| 科摩罗         | KM |
+| 刚果（金）           | CG |
+| 刚果 (金)      | CD |
+| 维尔京群岛    | CK |
 | 哥斯达黎加      | CR |
 | 科特迪瓦   | CI |
 | 克罗地亚         | 人力资源 |
-| 古巴            | CU |
-| Curacao         | CW |
+| 委内瑞拉            | CU |
+| 库拉索         | CW |
 | 塞浦路斯          | CY |
-| Czechia         | CZ |
+| 捷克         | CZ |
 | 丹麦         | DK |
 | 吉布提        | DJ |
-| 多米尼加        | 私信 |
-| 多米尼加共和国 | 切勿 |
+| 多米尼加        | DM |
+| 多米尼加共和国 | DO |
 | 厄瓜多尔         | EC |
 | 埃及           | EG |
 | 萨尔瓦多     | SV |
 | 赤道几内亚 | GQ |
-| 厄立特里亚         | L |
+| 厄立特里亚         | ER |
 | 爱沙尼亚         | EE |
 | Eswatini        | SZ |
-| 埃塞俄比亚        | 东部 |
+| 埃塞俄比亚        | ET |
 | 福克兰群岛 | FK |
-| 法罗群岛   | 命令 |
+| 法罗群岛   | FO |
 | 斐济            | FJ |
 | 芬兰         | FI |
 | 法国          | FR |
 | 法属圭亚那   | GF |
 | 法属波利尼西亚 | PF |
-| 法属南部领地 | SETTINGS |
-| 加蓬           | GA |
-| 冈比亚          | 通用 |
-| 格鲁吉亚         | 失效 |
+| 法属南部领地 | TF |
+| 加纳           | GA |
+| 佛得角          | GM |
+| 格鲁吉亚         | GE |
 | 德国         | DE |
 | 加纳           | GH |
 | 直布罗陀       | GI |
@@ -133,161 +136,161 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | 格陵兰       | GL |
 | 格林纳达         | GD |
 | 瓜德罗普      | GP |
-| 关岛            | GU-IN&PLATFORM |
+| 关岛            | GU |
 | 危地马拉       | GT |
-| Guernsey        | GG |
+| 根西岛        | GG |
 | 几内亚          | GN |
-| 几内亚比绍   | 网 |
+| Guinea-Bissau   | GW |
 | 圭亚那          | GY |
 | 海地           | 你好 |
-| 赫德岛和麦克唐纳群岛 | HM |
+| 赫德岛和 McDonald 群岛 | HM |
 | 洪都拉斯        | HN |
 | 香港特别行政区   | HK |
 | 匈牙利         | HU |
-| 冰岛         | 是 |
-| 印度           | 登录 |
+| 冰岛         | IS |
+| 印度           | IN |
 | 印度尼西亚       | ID |
-| 伊朗            | 外 |
+| 伊朗            | IR |
 | 伊拉克            | IQ |
 | 爱尔兰         | IE |
-| 曼岛     | 即时消息 |
+| 马恩岛     | 即时消息 |
 | 以色列          | IL |
-| 意大利           | 更加 |
+| 意大利           | IT |
 | 牙买加         | JM |
-| 扬马延       | XJ |
+| Jan Mayen       | XJ |
 | 日本           | JP |
-| 泽          | JE |
+| 西岛          | JE |
 | 约旦          | JO |
 | 哈萨克斯坦      | KZ |
 | 肯尼亚           | KE |
 | 基里巴斯        | KI |
 | 韩国           | KR |
-| Kosovo          | XK |
-| 科威特          | 知识 |
-| 吉尔吉斯斯坦      | 千克 |
+| 阿尔巴尼亚          | XK |
+| 科威特          | KW |
+| 吉尔吉斯斯坦      | KG |
 | 老挝            | LA |
 | 拉脱维亚          | LV |
-| 黎巴嫩         | LB-LU&PLATFORM |
-| 莱索托         | 3 |
-| 利比里亚         | LR |
+| 黎巴嫩         | LB |
+| 莱索托         | LS |
+| 利比亚         | LR |
 | 利比亚           | LY |
-| 列支敦士登   | 离子 |
-| 立陶宛       | L |
+| 列支敦士登   | LI |
+| 立陶宛       | LT |
 | 卢森堡      | LU |
 | 澳门特别行政区       | MO |
-| 马达加斯加      | MG |
-| 马拉维          | MW |
+| 非洲      | MG |
+| 马拉维          | 兆瓦 |
 | 马来西亚        | MY |
-| 群岛        | MV |
+| 斯里兰卡        | MV |
 | 马里            | ML |
-| 马耳他           | 幼圆 |
+| 马耳他           | MT |
 | 马绍尔群岛 | MH |
-| 马提尼克岛      | .MQ |
-| 毛里塔尼亚      | MR |
+| 马提尼克岛      | MQ |
+| 毛里求斯      | MR |
 | 毛里求斯       | MU |
 | 马约特岛         | YT |
 | 墨西哥          | MX |
-| 密克罗尼西亚      | 调频广播 |
+| 密克罗尼西亚      | FM |
 | 摩尔多瓦         | MD |
 | 摩纳哥          | MC |
 | 蒙古        | MN |
-| 黑山共和国      | 一下 |
-| 蒙特塞拉特      | MS-DOS |
-| 摩洛哥         | 州 |
+| 黑山共和国      | ME |
+| 蒙特塞拉特      | MS |
+| 摩洛哥         | MA |
 | 莫桑比克      | MZ |
-| 缅甸         | 分钟 |
+| 缅甸         | MM |
 | 纳米比亚         | NA |
-| Nauru           | NR |
+| 澳大利亚           | NR |
 | 尼泊尔           | NP |
 | 荷兰     | NL |
 | 新喀里多尼亚   | NC |
 | 新西兰     | NZ |
 | 尼加拉瓜       | NI |
-| 尼日尔           | 左下 |
+| 尼日尔           | NE |
 | 尼日利亚         | NG |
-| Niue            | NU |
-| 诺福克岛  | NF-E |
+| 纽埃            | NU |
+| 诺folk 岛  | NF |
 | 朝鲜     | KP |
-| 北马其顿共和国 | MK |
+| 北马其顿 | MK |
 | 北马里亚纳群岛 | NP |
 | 挪威          | 不 |
-| 阿曼            | 模型 |
-| 巴基斯坦        | 主键 |
+| 阿曼            | OM |
+| 巴基斯坦        | PK |
 | 帕劳           | PW |
 | 巴勒斯坦权力机构 | PS |
 | 巴拿马          | PA |
-| 巴布亚新几内亚 | 页码 |
+| 新西兰 | PG |
 | 巴拉圭        | PY |
 | 秘鲁            | PE |
 | 菲律宾     | PH |
-| 皮特凯恩群岛 | PN |
+| 基茨凯恩群岛 | PN |
 | 波兰          | PL |
 | 葡萄牙        | PT |
-| 波多黎各     | 公共 |
+| 波多黎各     | PR |
 | 卡塔尔           | QA |
-| 留尼旺         | & |
+| 留尼旺         | RE |
 | 罗马尼亚         | RO |
-| 俄罗斯          | RU-RU&PLATFORM |
-| 卢旺达          | RW-RW&PLATFORM |
-| Saba            | XS |
-| 圣 Barthelemy | BL |
+| 俄罗斯          | RU |
+| 卢旺达          | RW |
+| 萨巴            | XS |
+| 圣巴塞勒米 | BL |
 | 圣基茨和尼维斯 | KN |
 | 圣卢西亚     | LC |
-| 法属圣马丁    | MF |
-| 圣皮埃尔和密克隆岛 | 12：00 |
+| 圣马丁    | MF |
+| 圣马丁和密克隆群岛 | PM |
 | 圣文森特和格林纳丁斯 | VC |
-| 萨摩亚           | WS-TRUST |
+| 萨摩亚           | WS |
 | 圣马力诺      | SM |
-| 圣多美圣多美和普林西比 | 短期 |
+| 圣多美和圣多美 | ST |
 | 沙特阿拉伯    | SA |
 | 塞内加尔         | SN |
 | 塞尔维亚          | RS |
 | 群岛      | SC |
-| 塞拉利昂    | SL | 
+| 共和国    | SL | 
 | 新加坡       | SG |
-| 圣尤斯特歇斯  | XE |
-| 圣圣马丁    | S |
+| Sint Eustatius  | XE |
+| 圣马丁    | SX |
 | 斯洛伐克        | SK |
 | 斯洛文尼亚        | SL |
-| 所罗门群岛 | SB |
-| 索马里         | 您尚未 |
+| 福克兰群岛 | SB |
+| 肯尼亚         | SO |
 | 南非    | ZA |
-| 南乔治亚和南桑威奇群岛 | GS |
-| 南苏丹     | 汇总 |
+| 南格鲁吉亚和南威奇群岛 | GS |
+| 南苏丹     | SS |
 | 西班牙           | ES |
 | 斯里兰卡       | LK |
-| 圣赫勒拿、阿森松、特里斯坦达库尼亚 | SH |
-| 苏丹           | 仿真 |
-| 苏里南        | SR-IOV |
-| 群岛        | SJ |
+| 圣赫勒拿、阿森松、Tristan da 库尼亚 | SH |
+| 苏丹           | SD |
+| 苏里南        | SR |
+| Svalbard        | SJ |
 | 瑞典          | SE |
-| 瑞士     | 48 |
+| 瑞士     | CH |
 | 叙利亚           | SY |
 | 台湾          | TW |
 | 塔吉克斯坦      | TJ |
-| 坦桑尼亚        | TZ |
+| 肯尼亚        | TZ |
 | 泰国        | TH |
-| 东帝汶-东帝汶     | TL |
+| Timor-Leste     | TL |
 | 多哥            | TG |
-| Tokelau         | TK-TM&PLATFORM |
-| 语           | 自 |
-| 特立尼达和多巴哥 | TT-RU&PLATFORM |
-| 突尼斯         | TN-ZA&PLATFORM |
+| 群岛         | TK |
+| 斐济           | 自 |
+| 特立尼达和多巴哥 | TT |
+| 突尼斯         | TN |
 | 土耳其          | TR |
 | 土库曼斯坦    | TM |
 | 特克斯和凯科斯群岛 | TC |
-| Tuvalu          | 收看 |
-| 美属外部岛 | 联 |
-| 美属维尔京群岛 | 六 |
-| 乌干达          | UG-CN&PLATFORM |
-| 乌克兰         | UK-UA&PLATFORM |
+| 秘鲁          | 电视 |
+| 美属外岛 | UM |
+| 美属维尔京群岛 | VI |
+| 乌干达          | UG |
+| 乌克兰         | UA |
 | 阿拉伯联合酋长国 | AE |
 | 英国  | GB |
-| 美国   | 我们 |
+| 美国   | 美国 |
 | 乌拉圭         | UY |
 | 乌兹别克斯坦      | UZ |
-| 瓦努阿图         | VU |
-| 梵蒂冈城    | 弗吉尼亚 |
+| 萨摩亚         | VU |
+| 梵蒂冈城    | VA |
 | 委内瑞拉       | VE |
 | 越南         | VN |
 | 瓦利斯和富图纳 | WF |

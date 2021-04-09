@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25cd674e5f93e4f52f0a2cecd2acff97e4844834
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215327"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637864"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -105,9 +105,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 使用 Microsoft Teams 会议室系统或 CVI 服务中的云视频互操作 (仅) 聊天室。
 - 共享他们的音频或视频。
 - 查看或参与会议聊天。
-  - 前 1000 (或 300（具体取决于主会议限制) 受邀加入会议的用户将被添加到聊天中。
-  - 虽然仅查看用户不会在会议中看到聊天，但如果是受邀的前 350 名用户，他们仍可以在主应用上聊天。
-  - 相反，如果交互式用户不是前 350 位受邀加入会议的用户的一部分，他们将无法访问主 Teams 应用和会议中的会议聊天。
 - 除非与会者是主动发言的人，否则可以看到会议参与者的视频源。
 - 查看使用 PowerPoint Live 功能共享的 PowerPoint 文件，或者使用桌面或屏幕共享功能 (应用程序共享共享) 。
 - 在会议中举手。

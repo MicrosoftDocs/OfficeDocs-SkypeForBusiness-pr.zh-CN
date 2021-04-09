@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c57b925875308b7cdd9e654103e8d11050ce082d
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506665"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637814"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或 Stream 录制会议
 
@@ -38,6 +38,11 @@ ms.locfileid: "51506665"
 |从 2021 年 7 月 7 日开始逐步推出 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**企业 (教育版和 GCC)**<br>无法将新的会议录制保存到经典 (Microsoft Stream) ;所有客户会自动将会议录制保存到 OneDrive for Business 和 SharePoint，即使他们将 Teams 会议策略更改为"流式传输"。<br><br> 我们建议客户为了更好地控制组织的变化，每当你习惯更改时都选择加入，而不是等待更改发生。 |
 
 Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Microsoft Stream 过渡到新 Stream[](/stream/streamnew/new-stream)的第一阶段，此方法将录制存储在 Microsoft 365 中的 Microsoft OneDrive for Business 和 SharePoint 上，并提供许多优势。
+
+> [!NOTE]
+> 如果 Teams 会议录制无法成功上传到 OneDrive/SharePoint，录制内容将暂时保存到 AZURE 媒体服务 (AMS) 。 存储在 AMS 中后，不会尝试自动将录制内容上传到 OneDrive/SharePoint 或 Stream。
+
+AMS 中存储的会议录制在自动删除前 21 天内可用。 如果需要保留副本，用户可以从 AMS 下载视频。
 
 使用 OneDrive for Business 和 SharePoint 存储录音的好处包括：
 
@@ -63,29 +68,29 @@ Microsoft Teams 有一种保存会议录制的新方法。 作为从经典 Micro
 会议录制选项是 Teams 策略级别的设置。 以下示例演示如何设置全局策略。 请确保为分配给用户的策略设置会议录制选项。
 
 > [!Note]
-> Teams 会议策略更改需要一段时间才能传播。 设置数小时后返回查看，然后注销并再次登录。
+> Teams 会议策略更改需要一段时间才能传播。 设置数小时后返回查看，然后注销并再次登录到 Teams 桌面应用，或者只需重启计算机。
 
 1. 安装 Teams PowerShell PowerShell。
 
    > [!NOTE]
    > Skype for Business Online 连接器当前是最新 Teams PowerShell 模块的一部分。 如果你使用的是最新的 Teams PowerShell 公共版本，则不需要安装 Skype for Business Online 连接器。 请参阅[使用 PowerShell 管理 Skype for Business Online。](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide)
 
-1. 以管理员角色启动 PowerShell。
+2. 以管理员角色启动 PowerShell。
 
-2. 安装 [Teams PowerShell 模块](./teams-powershell-install.md)。
+3. 安装 [Teams PowerShell 模块](./teams-powershell-install.md)。
 
-3. 导入 MicrosoftTeams 模块，并作为 Teams 管理员登录。
+4. 导入 MicrosoftTeams 模块，并作为 Teams 管理员登录。
 
 
-```powershell
-  # When using Teams PowerShell Module
-
+   ```powershell
+   # When using Teams PowerShell Module
+   
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
-```
+   ```
 
-4. 使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) 设置 Teams 会议策略，以从流存储过渡到 OneDrive for Business 和 SharePoint。
+5. 使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) 设置 Teams 会议策略，以从流存储过渡到 OneDrive for Business 和 SharePoint。
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -146,6 +151,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 - 对于频道会议，权限继承自频道中的所有者和成员列表。
 
+> [!NOTE]
+> 录制完成保存后，你将不会收到电子邮件，但录制完成后，录制内容将显示在会议聊天中。 这比之前在流中发生的要快得多。
+> 你可以控制与谁共享录制内容，但无法阻止具有共享访问权限的人下载录制内容。  
+
 **如何管理字幕？**
 
 只有在录制时用户已打开听录时，Teams 会议录制的隐藏式字幕才能在播放期间使用。 管理员必须通过 [策略启用录制听录]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) ，以确保其用户可以选择使用听录录制来录制会议。
@@ -155,6 +164,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 录制会议后 60 天内，Teams 会议录制支持隐藏式字幕。
 
 如果将 Teams 会议录制内容从 OneDrive for Business 或 SharePoint 上的原始位置移动或复制，则不支持隐藏字幕。
+
+> [!NOTE]
+> GCC 会议听录中 (提供仅英语隐藏式字幕) 。
 
 **我的存储配额受到怎样的影响？**
 

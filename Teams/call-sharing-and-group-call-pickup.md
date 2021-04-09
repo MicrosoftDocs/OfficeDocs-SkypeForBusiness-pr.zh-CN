@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 呼叫共享和群组呼叫取件允许用户与同事共享传入呼叫，以便当用户不可用时可以捕获呼叫。
-ms.openlocfilehash: 1ec3c389bf2eb69f30e13ebbba6c7d5d1d5fe38c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 88c8d41eb0cf58413df995274bb9accd50b897c9
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102788"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637824"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 
@@ -43,7 +43,7 @@ Microsoft Teams 的呼叫共享和群组呼叫取件功能允许用户与同事�
 
 ## <a name="license-required"></a>需要许可证
 
-必须允许用户企业语音设置和使用呼叫共享和群组呼叫取件。 有关许可模型的其他详细信息，请参阅 Microsoft [Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
+必须为用户分配 Microsoft Teams Phone System 许可证，以便设置和使用呼叫共享和群组呼叫取件。 有关许可模型的其他详细信息，请参阅下面是使用电话 [系统获得的详细信息](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)。
 
 ## <a name="configure-group-call-pickup"></a>配置群组呼叫取件
 
