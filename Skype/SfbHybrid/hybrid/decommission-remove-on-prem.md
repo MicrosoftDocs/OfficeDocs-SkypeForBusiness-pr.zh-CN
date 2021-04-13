@@ -17,22 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 有关停用 Skype for Business Server 的说明。
-ms.openlocfilehash: 668e3d5ebf5dfa03fcfb883adcc3e08fc5924bae
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593878"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656688"
 ---
-# <a name="remove-your-on-premises-skype-for-business-deployment"></a>删除本地 Skype for Business 部署
+# <a name="remove-your-on-premises-skype-for-business-deployment"></a>删除本地 Skype for Business 环境
 
-本文介绍了如何删除本地 Skype for Business 部署。 这是停止使用本地环境的以下步骤的第 3 步：
+本文介绍了如何删除本地 Skype for Business 部署。 这是停止使用本地环境的以下步骤的第 4 步：
 
-- 步骤 1. [将所有必需的用户和应用程序终结点从本地移动到联机](decommission-move-on-prem-users.md)。 
+- 步骤 1. [将所有所需的用户从本地移动到联机](decommission-move-on-prem-users.md)。 
 
 - 步骤 2. [禁用混合配置](cloud-consolidation-disabling-hybrid.md)。
 
-- **步骤 3.删除本地 Skype for Business 部署。**  (本文) 
+- 步骤 3. [将混合应用程序终结点从本地移动到联机](decommission-move-on-prem-endpoints.md)
+
+- **步骤 4.删除本地 Skype for Business 部署。**  (本文) 
 
 
 > [!IMPORTANT] 
@@ -77,7 +79,7 @@ ms.locfileid: "51593878"
    Get-CsCallParkOrbit | Remove-CsCallParkOrbit -Force
    Get-CsVoiceRoute | Remove-CsVoiceRoute -Force
    ```
-## <a name="remove-your-on-premises-skype-for-business-deployment"></a>删除本地 Skype for Business 部署
+## <a name="remove-your-on-premises-skype-for-business-deployment"></a>删除本地 Skype for Business 环境
 
 完成所有初步步骤后，可以按照以下步骤删除 Skype for Business 部署：
 
@@ -129,12 +131,11 @@ ms.locfileid: "51593878"
 
 - [停用本地 Skype for Business 环境](decommission-on-prem-overview.md)
 
-- [将用户和终结点移动到云](decommission-move-on-prem-users.md)
+- [将所有所需的用户从本地移动到联机](decommission-move-on-prem-users.md)
 
 - [禁用混合配置](cloud-consolidation-disabling-hybrid.md)
 
-
-
+- [将混合应用程序终结点从本地移动到联机](decommission-move-on-prem-endpoints.md)
 
 
 

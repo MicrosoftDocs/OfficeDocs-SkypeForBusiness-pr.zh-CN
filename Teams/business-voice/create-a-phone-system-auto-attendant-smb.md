@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 365 商业语音设置和测试自动助理。
-ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 7fb9a9509354f5f6e3a17b2323eeaf2b5872e96e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506649"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656738"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>设置自动助理 - 小型企业教程
 
@@ -62,9 +62,9 @@ ms.locfileid: "51506649"
 
 4. 单击“**保存**”。
 
-新帐户将显示在帐户列表中。
+    新帐户将显示在帐户列表中。
 
-![资源帐户列表的屏幕截图](../media/resource-accounts-page.png)
+    ![资源帐户列表的屏幕截图](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>分配许可证
 
@@ -107,7 +107,7 @@ ms.locfileid: "51506649"
 
 4. 指定此自动助理的时区。 如果为营业时间创建单独的呼叫流，则时区用于计算营业时间。
 
-5. 为此自动助理指定语言。 此语言将用于系统生成的语音提示。
+5. 为此自动助理指定语言。 这是将用于系统生成的语音提示的语言。
 
 6. 选择是否要启用语音输入。 启用后，每个菜单选项的名称将成为语音识别关键字。 例如，呼叫者可以说"一"来选择映射到键 1 的菜单选项，也可以说"销售"来选择名为"销售"的菜单选项。
 
@@ -214,11 +214,11 @@ ms.locfileid: "51506649"
 
 7. 单击“**保存**”。
 
-根据需要对每个额外的假日重复该过程。
-
-![假日设置的屏幕截图，其中列出了假日](../media/auto-attendant-holiday-call-settings.png)
-
-添加所有假日后，单击"下一 **步"。**
+    根据需要对每个额外的假日重复该过程。
+    
+    ![假日设置的屏幕截图，其中列出了假日](../media/auto-attendant-holiday-call-settings.png)
+    
+    添加所有假日后，单击"下一 **步"。**
 
 > [!div class="nextstepaction"]
 > [步骤 6 - 选择目录中>](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
@@ -245,7 +245,7 @@ ms.locfileid: "51506649"
 
 添加资源帐户
 
-1. 单击 **"添加** 帐户"并搜索要添加的帐户。 单击 **"添加**"，然后单击"**添加"。**
+1. 单击 **"** 添加"并搜索要添加的帐户。 单击 **"添加**"，然后单击"**添加"。**
 
     ![资源帐户"添加帐户"面板的屏幕截图](../media/auto-attendant-add-resource-account.png)
 
@@ -253,7 +253,7 @@ ms.locfileid: "51506649"
 
     ![显示具有已分配服务编号的资源帐户列表的屏幕截图](../media/auto-attendant-resource-account-assigned.png)
 
-这会完成自动助理配置。
+    这会完成自动助理配置。
 
 ---
 

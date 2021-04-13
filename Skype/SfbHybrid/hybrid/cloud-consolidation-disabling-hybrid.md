@@ -21,22 +21,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文包括禁用混合作为 Teams 和 Skype for Business 云整合的一部分的详细步骤。
-ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593850"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656698"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>禁用混合配置以完成到云的迁移
 
 本文介绍如何在停用本地 Skype for Business 环境之前禁用混合配置。 这是停止使用本地环境的以下步骤的第 2 步：
 
-- 步骤 1. [将所有必需的用户和应用程序终结点从本地移动到联机](decommission-move-on-prem-users.md)。
+- 步骤 1. [将所有所需的用户从本地移动到联机](decommission-move-on-prem-users.md)。
 
 - **步骤 2.禁用混合配置。**  (本文) 
 
-- 步骤 3. [删除本地 Skype for Business 部署](decommission-remove-on-prem.md)。
+- 步骤 3. [将混合应用程序终结点从本地移动到联机](decommission-move-on-prem-endpoints.md)。
+
+- 步骤 4. [删除本地 Skype for Business 部署](decommission-remove-on-prem.md)。
 
 
 ## <a name="overview"></a>概述
@@ -243,7 +245,7 @@ ms.locfileid: "51593850"
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. 完成方法 2 的所有步骤后，请参阅删除本地 [Skype for Business Server，](decommission-remove-on-prem.md) 了解删除 Skype for Business Server 本地部署的其他步骤。
+12. 完成方法 2 的所有步骤后，请参阅将混合[](decommission-move-on-prem-endpoints.md)应用程序终结点从本地移动到联机和删除本地 Skype [for Business Server，](decommission-remove-on-prem.md)了解删除 Skype for Business Server 本地部署的其他步骤。
 
 
 ## <a name="see-also"></a>另请参阅
@@ -251,3 +253,4 @@ ms.locfileid: "51593850"
 - [Teams 和 Skype for Business 云合并](cloud-consolidation.md)
 
 - [停用本地 Skype for Business 环境](decommission-on-prem-overview.md)
+

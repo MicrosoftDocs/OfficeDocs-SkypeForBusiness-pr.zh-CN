@@ -1,5 +1,5 @@
 ---
-title: 将用户和终结点移动到云
+title: 将用户移动到云
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,23 +16,25 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 在停用 Skype for Business 本地环境之前移动用户和终结点。
-ms.openlocfilehash: 130f276d07dd33be33d3c038c2ead20c7a887e6b
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+description: 在停用 Skype for Business 本地环境之前移动用户。
+ms.openlocfilehash: f04ebeec51b739faa89f907de6c363f0ef70a78e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593879"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656668"
 ---
-# <a name="move-required-users-and-endpoints-before-decommissioning-your-on-premises-environment"></a>在停用本地环境之前移动所需的用户和终结点
+# <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>在停用本地环境之前移动所需用户
 
-本文介绍如何在停用本地 Skype for Business 环境之前，将所需的用户和应用程序终结点移动到 Microsoft 云。 这是停止使用本地环境的以下步骤的第 1 步：
+本文介绍如何在停用本地 Skype for Business 环境之前将所需用户移动到 Microsoft 云。 这是停止使用本地环境的以下步骤的第 1 步：
 
-- **步骤 1.将所有必需的用户和应用程序终结点从本地移动到联机。**  (本文.) 
+- **步骤 1.将所有所需的用户从本地移动到联机。**  (本文) 
 
 - 步骤 2. [禁用混合配置](cloud-consolidation-disabling-hybrid.md)。
 
-- 步骤 3. [删除本地 Skype for Business 部署](decommission-remove-on-prem.md)。
+- 步骤 3. [将混合应用程序终结点从本地移动到联机](decommission-move-on-prem-endpoints.md)。
+
+- 步骤 4. [删除本地 Skype for Business 部署](decommission-remove-on-prem.md)。
 
 
 ## <a name="move-all-required-users-from-on-premises-to-the-cloud"></a>将所有所需的用户从本地移动到云
@@ -56,44 +58,7 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 > [!NOTE]
 > 运行Disable-CsUser将删除满足筛选条件的所有用户的所有 Skype for Business 属性。 在继续之前，请确认今后不再需要这些帐户。
 
-## <a name="move-on-premises-hybrid-application-endpoints-to-microsoft-365"></a>将本地混合应用程序终结点移动到 Microsoft 365
 
-1. 通过执行以下本地 Skype for Business Server PowerShell 命令检索和导出本地混合应用程序终结点设置：
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
-   ```
-2. 在 Microsoft [](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) 365 中新建资源帐户并授予许可，以替换现有的本地混合应用程序终结点。
-
-3. 将新的资源帐户与现有的混合应用程序终结点关联。
-
-4. 通过执行以下本地 Skype for Business Server PowerShell 命令删除在本地混合应用程序终结点中定义的电话号码：
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
-   ```
-5. 由于这些帐户的电话号码有可能在 Microsoft 365 而非本地管理，因此在 Skype for Business Online PowerShell 中运行以下命令：
-
-   ```PowerShell
-   $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
-   foreach ($endpoint in $endpoints)
-   {
-   if($endpoint.LineUri)
-       {
-           $upn = $endpoint.SipAddress.Replace("sip:","")
-           $ra=Get-CsOnlineApplicationInstance | where UserPrincipalName -eq $upn 
-           Set-CsOnlineApplicationInstance -Identity $ra.Objectid -OnpremPhoneNumber ""
-       }
-   }
-   ```
-
-6. 将电话号码分配给在步骤 2 中创建的新资源帐户。 若要详细了解如何将电话号码分配给资源帐户，请参阅以下文章： [分配服务号码](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)。
-
-7. 通过执行以下本地 Skype for Business Server PowerShell 命令删除本地终结点：
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
-   ```
 现在，你已准备好 [禁用混合配置](cloud-consolidation-disabling-hybrid.md)。
 
 ## <a name="see-also"></a>另请参阅
@@ -102,7 +67,9 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 
 - [禁用混合配置](cloud-consolidation-disabling-hybrid.md)
 
-- [删除本地 Skype for Business 部署](decommission-remove-on-prem.md)
+- [将混合应用程序终结点从本地移动到联机](decommission-move-on-prem-endpoints.md)
+
+- [删除本地 Skype for Business 环境](decommission-remove-on-prem.md)
 
 
 

@@ -13,12 +13,12 @@ f1.keywords:
 description: 适用于 Microsoft Teams 的 CCaaS (集成) 中心服务概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 733abd0fce55858d890e190f5af466a7cfa71156
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 632fbacd9cd1ba8face3571597bc17e5e5a8a70b
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574121"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656748"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
@@ -47,6 +47,7 @@ Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通�
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
@@ -56,7 +57,6 @@ Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通�
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
-| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
@@ -93,7 +93,7 @@ Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通�
 
   - 解决方案提供商使用 [<span class="underline">Microsoft 认证的会话边界控制器 (SBC) </span>](./direct-routing-border-controllers.md) 
 
-### <a name="connect-and-extend"></a>连接和扩展
+### <a name="extend"></a>扩展
 
 此模型通过使用 Microsoft Graph 中的 [Teams](/microsoftteams/platform/overview)客户端平台 [、Teams Graph](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) API 和 [云通信 API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 与 Teams 客户端集成，并针对所有联系中心呼叫和呼叫控制体验使用 Teams 电话系统，扩展了联系中心人员和代理体验。 在此模型中，联系中心解决方案提供商与 Microsoft 365 一起充当电话运营商。
 
@@ -121,7 +121,7 @@ Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通�
 
   - 在所有应用中保留 Teams 客户端体验的性能和质量  
 
-### <a name="extend-and-power"></a>扩展和电源
+### <a name="power"></a>Power
 
 此模型使解决方案提供商能够使用 Teams 呼叫基础结构和客户端平台创建基于本机 Azure 的语音应用程序，为协作客户和代理连接提供现代智能解决方案。 扩展和 Power 的目标是培养开发人员的创造力并提升客户工作效率。
 

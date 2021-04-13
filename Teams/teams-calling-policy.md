@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e3cc466d855f55f63f34e798443fb285dc36c9e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162673"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51653945"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams 中的呼叫策略
 ===================================
@@ -42,7 +42,7 @@ ms.locfileid: "51162673"
 2. 选择“**添加**”。
 3. 打开或关闭要用于呼叫策略的功能。
 4. 若要控制用户是否可以将入站呼叫路由到语音邮件，请选择"**已启用"或**"**用户控制"。** 若要阻止路由到语音邮件，请选择"已 **禁用"。**
-5. 选择"**保存"。**
+5. 选择“**保存**”。
 
 ## <a name="edit-a-calling-policy"></a>编辑呼叫策略
 
@@ -94,7 +94,7 @@ ms.locfileid: "51162673"
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>呼叫时"忙碌"可用
 
-"忙碌" (") "选项"是一个新设置，用于配置在用户已处于呼叫或会议状态或呼叫处于保持状态时如何处理传入呼叫。 新呼叫或来电可能会被拒绝，但信号繁忙。 可以在租户级别或用户级别启用繁忙选项。 无论如何配置其忙碌选项，呼叫或会议中的用户或呼叫保持的用户不会阻止发起新的呼叫或会议。 此设置在默认情况下处于禁用状态。
+"忙碌" (") "选项"是一个新设置，用于配置在用户已处于呼叫或会议状态或呼叫处于保持状态时如何处理传入呼叫。 新的或传入的呼叫可能会被拒绝并发出繁忙信号，也可以相应地根据用户的未答设置进行路由。 可以在租户级别或用户级别启用繁忙选项。 无论如何配置其忙碌选项，呼叫或会议中的用户或呼叫保持的用户不会阻止发起新的呼叫或会议。 此设置在默认情况下处于禁用状态。
 
 ### <a name="allow-web-pstn-calling"></a>允许 Web PSTN 呼叫
 

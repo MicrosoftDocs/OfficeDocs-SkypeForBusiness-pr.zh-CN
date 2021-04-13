@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中管理反馈策略
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: msedliak
+ms.reviewer: heprecel
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用反馈策略来控制组织中 Teams 用户是否可以向 Microsoft 提交有关 Teams 的反馈。
-ms.openlocfilehash: bc925320959c55b2fa06c8480f1011aab81aae9c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 66f14467e66456f244664a8273e0ff962297c05f
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094262"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656718"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理反馈策略
 
@@ -41,24 +41,25 @@ ms.locfileid: "51094262"
 
 **调查**
 
-用户还可以评价他们使用 Teams 的体验，并向我们发送他们给出的分级的详细信息。 此弹出式调查在 Teams 中时时向用户显示。 当用户在 **通知中单击** "提供反馈"时，将显示调查供其完成。
+用户还可以评价他们使用 Teams 的体验，并向我们发送他们给出的分级的详细信息。 此弹出式调查在 Teams 中时时向用户显示。 当用户在通知 **中选择"提供** 反馈"时，将显示调查供其完成。
 
-![Teams 中调查通知和表单的屏幕截图](media/manage-feedback-policies-in-teams-survey.png)
+![Teams 中的调查通知和表单](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>设置用户是否可以向 Microsoft 发送有关 Teams 的反馈
 
-作为管理员，你可以控制你的组织中用户是否可以通过提供反馈向 Microsoft 发送有关 Teams的反馈，以及他们是否会收到调查。 默认情况下，将自动为组织中的所有用户分配全局 (组织范围的默认) 策略，并且策略中已启用"提供反馈"功能与调查。 例外情况是 Teams 教育，其中的功能为教师启用，学生禁用。
+作为管理员，你可以控制你的组织中用户是否可以通过提供反馈向 Microsoft 发送有关 Teams的反馈，以及他们是否会收到调查。 默认情况下，将自动为组织中的所有用户分配全局 (组织范围的默认) 策略，并且"提供反馈"功能与调查在策略中启用。 例外情况是 Teams 教育，其中的功能为教师启用，学生禁用。
 
 可以编辑全局策略，也可以创建和分配自定义策略。 编辑全局策略或分配自定义策略后，可能需要几个小时更改才能生效。
 
 例如，您希望允许组织中的所有用户通过提供反馈发送反馈并接收调查，但培训中的新员工除外。 在此方案中，请创建自定义策略来关闭这两项功能，并将其分配给新员工。 组织中所有其他用户在启用功能后获取全局策略。  
 
-使用 PowerShell 管理反馈策略。 使用 **New-CsTeamsFeedbackPolicy** cmdlet（可在此处找到）创建自定义策略和 **Grant-CsTeamsFeedbackPolicy** cmdlet，将其分配给一个或多个用户或用户组，例如安全组或通讯组。 *[](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*
+使用 PowerShell 管理反馈策略。 使用 **New-CsTeamsFeedbackPolicy** cmdlet（可在此处找到）创建自定义策略。 *[](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* 使用 **Grant-CsTeamsFeedbackPolicy** cmdlet 将其分配给一个或多个用户或用户组，例如安全组或通讯组。 使用 **Set-CsTeamsFeedbackPolicy** 设置特定标志。
 
 若要关闭并打开功能，请设置以下参数：
 
  - **提供反馈**：将 **userInitiatedMode** 参数设置为 **"启用** "，以允许分配有策略的用户提供反馈。 将 参数 **设置为 disabled** 会关闭该功能，并且分配有策略的用户没有提供反馈的选项。
  - **Surveys：** 将 **receiveSurveysMode** 参数设置为 **已启用** ，以允许分配了策略的用户接收调查。 若要让用户接收调查并允许他们选择退出，将 参数设置为 **enabledUserOverride**。 然后，用户可以在 Teams 中转到"**设置""** 隐私  >  "，并选择是否要参与调查。 将 参数 **设置为 disabled** 会关闭该功能，分配有策略的用户不会收到调查。
+ - **电子邮件**：使用 **AllowEmailCollection** 标志添加电子邮件字段。
 
 ## <a name="create-a-custom-feedback-policy"></a>创建自定义反馈策略
 
