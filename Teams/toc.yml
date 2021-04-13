@@ -229,10 +229,12 @@ items:
             items:
               - name: 概述
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
-              - name: 将用户和终结点移动到云
+              - name: 将用户移至云
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
               - name: 禁用混合以完成到云的迁移
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+              - name: 将应用程序终结点移动到云
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
               - name: 删除 Skype for Business 部署
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: 部署资源林拓扑
