@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理会议策略设置。 使用策略设置来控制用户安排会议参与者可用的功能。
-ms.openlocfilehash: c13c4222b1c6d6fc9e0c6fcdf73e614999f874e5
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 43ea3be7c8c8f99fdc762030ac526b4b068a4214
+ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617865"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51712774"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理 Teams 中的会议策略
 
@@ -451,6 +451,7 @@ Daniela 可以在 Amanda 的会议上做笔记，而 Amanda 不能在任何会�
 - [允许匿名用户启动会议](#let-anonymous-people-start-a-meeting)
 - [自动管理人员](#automatically-admit-people)
 - [允许拨入用户绕过问题](#allow-dial-in-users-to-bypass-the-lobby)
+- [允许团队成员绕过问题](#allow-team-members-to-bypass-the-lobby)
 - [启用实时字幕](#enable-live-captions)
 - [在会议中允许聊天](#allow-chat-in-meetings)
 
@@ -478,9 +479,10 @@ Daniela 可以在 Amanda 的会议上做笔记，而 Amanda 不能在任何会�
 |设置值  |加入行为 |
 |---------|---------|
 |**每个人**   |所有参会人员无需在大厅等待，直接加入会议。 这包括经过认证的用户、来自受信任组织的外部用户 (联合)、客人和匿名用户。     |
-|**组织和联合组织的每个人**     |组织内经过认证的用户，包括嘉宾用户和来自可信组织的用户，直接加入会议，无需在大厅等待。  匿名用户在大厅里等待。   |
-|**组织中的所有人**    |来自组织内部的认证用户，包括来宾用户，直接加入会议，无需在大厅等待。  来自可信组织的用户和匿名用户在大厅里等待。 这是默认设置。           |
+|**我的组织中人员、受信任的组织和来宾**     |组织内经过认证的用户，包括嘉宾用户和来自可信组织的用户，直接加入会议，无需在大厅等待。 匿名用户在大厅里等待。   |
+|**组织中用户和来宾**    |来自组织内部的认证用户，包括来宾用户，直接加入会议，无需在大厅等待。 来自可信组织的用户和匿名用户在大厅里等待。 这是默认设置。           |
 |**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人，包括组织内部的认证用户、访客用户、来自受信任组织的用户和匿名用户都必须在大厅里等待。           |
+|**我的组织中人员**  |来自组织内部的认证用户，包括来宾用户，直接加入会议，无需在大厅等待。 来自可信组织的用户和匿名用户在大厅里等待。|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允许拨入用户绕过大厅
 
@@ -488,6 +490,10 @@ Daniela 可以在 Amanda 的会议上做笔记，而 Amanda 不能在任何会�
 
 > [!NOTE]
 > 如果拨号用户在组织用户加入会议之前加入会议，将放置他们在大厅中，直到组织用户使用 Teams 客户端加入会议并接纳他们。 如果更改任何用户的默认设置，它将适用于该用户组织的所有新会议以及该用户没有修改会议选项的任何之前会议。
+
+### <a name="allow-team-members-to-bypass-the-lobby"></a>允许团队成员绕过绕过问题
+
+会议策略有一个设置，允许工作组成员绕过会议主场。 我们已为组织内部人员添加了 EveryoneInCompanyExcludingGuests 选项，以便绕过客人，但阻止来宾用户绕过客人。
 
 ### <a name="enable-live-captions"></a>启用实时字幕
 
