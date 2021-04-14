@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098468"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697777"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 - SIP 协议
 
@@ -350,7 +350,10 @@ History-info:
 
 ## <a name="retry-after"></a>Retry-After
 
-如果直接路由数据中心正忙，服务可以将一Retry-After一秒时间间隔的消息发送到 SBC。 当 SBC 收到包含 Retry-After 标头的 503 消息以响应 INVITE 时，SBC 必须终止该连接并尝试下一个可用的 Microsoft 数据中心。 
+如果直接路由数据中心正忙，服务可以将一Retry-After一秒时间间隔的消息发送到 SBC。 当 SBC 收到包含 Retry-After 标头的 503 消息以响应 INVITE 时，SBC 必须终止该连接并尝试下一个可用的 Microsoft 数据中心。
+
+## <a name="handling-retries-603-response"></a>处理重试 (603 响应) 
+如果最终用户在拒绝传入呼叫后发现一次呼叫多次未接来电，这意味着 SBC 或 PSTN 中继提供商的重试机制配置不正确。 必须重新配置 SBC，以停止针对 603 响应的重试工作。
 
 ## <a name="ice-restart-media-bypass-call-transferred-to-an-endpoint-that-does-not-support-media-bypass"></a>ICE 重启：转移到不支持媒体旁路的终结点的媒体旁路呼叫
 

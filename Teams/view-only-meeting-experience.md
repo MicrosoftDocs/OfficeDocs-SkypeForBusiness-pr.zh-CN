@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 09fe424dc576b6b167eec49e7cd8edf2f61d6cce
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637864"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697797"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -31,7 +31,7 @@ ms.locfileid: "51637864"
 > [!Note]
 > 如果会议或网络研讨会达到饱和状态，Teams 将无缝扩展至容纳 10,000 人的仅限观看广播体验。 另外，在这个远程工作增加的时期，利用更大规模的 20,000 人广播到今年年底。
 
-Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 在达到主会议的容量后 (在 WW 中为 300 人，GCC 用户为 250 人进入会议) 时，其他与会者将加入仅查看体验。
+Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达到主会议容量后 (300 个用户进入会议) ，其他与会者将加入仅查看体验。
 
 首先加入会议的与会者（最多是主会议的容量）将获得完整的 Teams 会议体验。 他们可以共享音频和视频、查看共享视频、并参与会议聊天。
 
@@ -65,7 +65,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 当主会场容量已满时，如有下列情况之一，与会者将无法参加会议:
 
 - 管理员已针对组织者或整个租户禁用了 Teams 仅查看体验。
-- 仅查看与会者不能绕过大厅。 例如，如果会议的组织者选择仅让"我组织的人"绕过大厅，而组织外部的与会者尝试以仅查看与会者的与会者加入，则他们将被拒绝。
+- 仅查看与会者不能绕过大厅。 例如，如果会议的组织者选择仅让"我的组织内部人员"绕过大厅，而组织外部的与会者尝试以仅查看与会者的与会者加入，他们将无法加入。
 
 当达到主会议的容量时，会议组织者和演示者将看到一个横幅，通知他们新与会者将作为仅查看的与会者加入。
 
@@ -75,13 +75,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
   ![Teams 预加入屏幕和告诉参与者他们将以纯视图模式加入的信息](media/view-only-pre-join-screen.png)
 
-如果有空间，用户将始终加入主会议。 如果主会场达到容纳量，有一名或多名与会者离开主会场，则主会场有可用容量。 加入 (或重新加入) 会议的与会者将加入主会议，直到会议再次达到饱和。 处于仅查看体验中的参会者不会自动晋升到主会议，目前无法手动晋升到主会议。
+如果有空间，用户将始终加入主会议。 如果主会场达到容纳量，有一名或多名与会者离开主会场，则主会场有可用容量。 加入 (或重新加入) 会议的与会者将加入主会议，直到会议再次达到饱和。 具有仅查看体验的与会者不会自动提升为主会议，并且无法手动提升为主会议。
 
-如果已设置演示者和与会者角色，并且演示者在 的主会议达到容量后尝试加入会议，他们将作为仅查看的与会者加入，并且与其他仅查看的与会者具有相同的限制。 支持确保所有演示者加入主会议将在以后推出。 组织者将始终获得主会议空间保证。
+如果已设置演示者和与会者角色，并且演示者在主会议达到容量后尝试加入会议，他们将作为仅查看的与会者加入，并且与其他仅查看的与会者具有相同的限制。 支持确保所有演示者加入主会议将在以后推出。 组织者将始终获得主会议空间保证。
 
-## <a name="impact-to-meeting-presenters"></a>对会议演示者的影响
+## <a name="impact-to-meeting-presenters-and-organizers"></a>对会议演示者和组织者的影响
 
-对会议演示者的限制包括：
+会议演示者和组织者的限制包括：
 
 - 你不会有任何关于仅查看与会者的信息。 我们不支持仅查与会者的电子数据展示。
 - 主会议中的用户看不到仅查看与会者。

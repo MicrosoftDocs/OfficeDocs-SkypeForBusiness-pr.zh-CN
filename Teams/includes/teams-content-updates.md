@@ -3,6 +3,75 @@
 
 
 
+## <a name="week-of-april-05-2021"></a>2021 年 4 月 5 日周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 4/5/2021 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改内容 |
+| 4/5/2021 | [为用户获取电话号码](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 修改内容 |
+| 4/5/2021 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 4/5/2021 | [安装 Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install) | 修改内容 |
+| 4/5/2021 | [什么是调用质量仪表板 (CQD) ？](/MicrosoftTeams/cqd-what-is-call-quality-dashboard) | 修改内容 |
+| 4/5/2021 | [在 Outlook 中使用 Microsoft Teams 会议加载项](/MicrosoftTeams/teams-add-in-for-outlook) | 修改日期 |
+| 4/5/2021 | [在 Microsoft Teams 中管理策略包](/MicrosoftTeams/manage-policy-packages) | 修改内容 |
+| 4/5/2021 | [Microsoft Teams 的敏感度标签](/MicrosoftTeams/sensitivity-labels) | 修改内容 |
+| 4/6/2021 | [管理音频和视频的会议策略](/MicrosoftTeams/meeting-policies-audio-and-video) | 添加内容 |
+| 4/6/2021 | [管理内容共享的会议策略](/MicrosoftTeams/meeting-policies-content-sharing) | 添加内容 |
+| 4/6/2021 | [管理常规会议策略](/MicrosoftTeams/meeting-policies-in-teams-general) | 添加内容 |
+| 4/6/2021 | [管理会议策略](/MicrosoftTeams/meeting-policies-overview) | 添加内容 |
+| 4/6/2021 | [管理参与者和来宾的会议策略](/MicrosoftTeams/meeting-policies-participants-and-guests) | 添加内容 |
+| 4/6/2021 | [在 Microsoft Teams 中创建呼叫队列 - 小型企业教程](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 修改内容 |
+| 4/6/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
+| 4/6/2021 | [适用于 EDU 的 Microsoft Teams 低带宽指南](/MicrosoftTeams/edu-remote-low-bandwidth) | 修改内容 |
+| 4/6/2021 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
+| 4/6/2021 | [Microsoft Teams 中的会议策略和会议到期时间](/MicrosoftTeams/meeting-expiration) | 修改内容 |
+| 4/6/2021 | [Microsoft Teams 发行说明](/MicrosoftTeams/release-notes/release-notes) | 修改内容 |
+| 4/6/2021 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
+| 4/6/2021 | [Microsoft Teams 会议出席情况报告](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | 修改内容 |
+| 4/6/2021 | [Azure Sentinel 和 Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | 修改内容 |
+| 4/6/2021 | [选择从 Skype for Business 到 Microsoft Teams 的升级旅程](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 修改内容 |
+| 4/6/2021 | [在 Microsoft Teams 中使用 NDI](/MicrosoftTeams/use-ndi-in-meetings) | 修改内容 |
+| 4/6/2021 | [音频会议按分钟付费](/MicrosoftTeams/audio-conferencing-pay-per-minute) | 修改内容 |
+| 4/6/2021 | [在 Microsoft Teams 中管理策略包](/MicrosoftTeams/manage-policy-packages) | 修改内容 |
+| 4/6/2021 | [适用于非标准用户的 Teams 应用行为](/MicrosoftTeams/non-standard-users) | 修改内容 |
+| 4/6/2021 | [发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
+| 4/6/2021 | [从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 修改内容 |
+| 4/7/2021 | [管理员培训资源 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
+| 4/7/2021 | [音频会议按分钟付费](/MicrosoftTeams/audio-conferencing-pay-per-minute) | 修改内容 |
+| 4/7/2021 | [音频会议拨出/呼叫我（分钟）](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | 修改内容 |
+| 4/7/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
+| 4/7/2021 | [在 Microsoft Teams 中管理策略包](/MicrosoftTeams/manage-policy-packages) | 修改内容 |
+| 4/7/2021 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
+| 4/7/2021 | [适用于非标准用户的 Teams 应用行为](/MicrosoftTeams/non-standard-users) | 修改内容 |
+| 4/7/2021 | [管理 Microsoft Teams 的保留策略](/MicrosoftTeams/retention-policies) | 修改内容 |
+| 4/7/2021 | [使用 Microsoft Teams PowerShell 管理 Teams](/MicrosoftTeams/teams-powershell-managing-teams) | 修改内容 |
+| 4/7/2021 | [为用户设置“致电我”功能](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | 修改内容 |
+| 4/8/2021 | [音频会议的网络内会议](/MicrosoftTeams/audio-conferencing-on-network) | 修改内容 |
+| 4/8/2021 | [呼叫共享和组内呼叫应答](/MicrosoftTeams/call-sharing-and-group-call-pickup) | 修改内容 |
+| 4/8/2021 | [通过直接路由认证的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 4/8/2021 | [在 Microsoft Teams 中配置实时事件设置](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 修改内容 |
+| 4/8/2021 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
+| 4/8/2021 | [使用 OneDrive for Business 和 SharePoint 录制会议](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
+| 4/8/2021 | [管理 Microsoft Teams 的用户访问](/MicrosoftTeams/user-access) | 修改内容 |
+| 4/8/2021 | [仅查看会议体验](/MicrosoftTeams/view-only-meeting-experience) | 修改内容 |
+| 4/8/2021 | [直接路由国家/地区代码](/MicrosoftTeams/direct-routing-country-codes) | 修改内容 |
+| 4/8/2021 | [电话系统的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 修改内容 |
+| 4/8/2021 | [Microsoft Teams 中的呼叫策略](/MicrosoftTeams/teams-calling-policy) | 修改内容 |
+| 4/8/2021 | [Microsoft Teams 管理员培训](/MicrosoftTeams/training-microsoft-teams-landing-page) | 修改内容 |
+| 4/9/2021 | [为 Microsoft Teams 设置自动助理 - 小型企业教程](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 修改内容 |
+| 4/9/2021 | [在 Microsoft Teams 中管理反馈策略](/MicrosoftTeams/manage-feedback-policies-in-teams) | 修改内容 |
+| 4/9/2021 | [Teams 联系中心](/MicrosoftTeams/teams-contact-center) | 修改内容 |
+| 4/9/2021 | [在 Teams 中自定义 Microsoft 应用](/MicrosoftTeams/customize-apps) | 修改内容 |
+| 4/9/2021 | [通过直接路由认证的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 4/9/2021 | [电话系统的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 修改内容 |
+| 4/9/2021 | [在 Microsoft Teams 管理中心管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
+| 4/9/2021 | [在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies) | 修改内容 |
+| 4/9/2021 | [仅查看会议体验](/MicrosoftTeams/view-only-meeting-experience) | 修改内容 |
+| 4/9/2021 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
+| 4/9/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+
+
 ## <a name="week-of-march-29-2021"></a>2021 年 3 月 29 日周
 
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aa11b21405079ab26bf1fa9572eb203560c4e461
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 73b583493a57141fef3c120fa2eb134cbaa8a500
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802492"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697737"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -45,14 +45,14 @@ ms.locfileid: "49802492"
 例如，假设你想阻止所有第三方应用，并允许组织中的人力资源团队使用 Microsoft 的特定应用。 首先，转到“[管理应用](manage-apps.md)”页面，并确保在组织级别允许可供人力资源团队使用的应用。 然后，创建一个名为“人力资源应用权限策略”的自定义策略，将其设置为阻止和允许所需的应用，并将其分配给人力资源团队中的用户。
 
 > [!NOTE]
-> 如果你已在 Microsoft 365 政府社区云 (GCC) 环境中部署 Teams，请参阅[管理 Microsoft 365 政府版的组织范围的应用设置](#manage-org-wide-app-settings-for-microsoft-365-government)，以详细了解 GCC 所独有的第三方应用设置。
+> 如果在 Microsoft 365 政府社区云高 (GCCH) 和国防部 (DoD) 环境中部署了 Teams，请参阅管理 [Microsoft 365 政府](#manage-org-wide-app-settings-for-microsoft-365-government) 版组织范围内的应用设置，详细了解 GCCH 和 DoD 独有的第三方应用设置。
 
 ## <a name="create-a-custom-app-permission-policy"></a>创建自定义应用权限策略
 
 如果要控制可供组织中的不同用户组使用的应用，请创建并分配一个或多个自定义应用权限策略。 根据应用是由 Microsoft、第三方还是由你的组织发布，你可以创建并分配单独的自定义策略。 有一点很重要，即创建自定义策略后，如果在组织范围的应用设置中禁用了第三方应用，则无法更改该策略。
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**权限策略**”。
-2. 单击“**添加**”。 <br>
+2. 单击“**添加**”。<br>
     ![新应用权限策略的屏幕截图](media/app-permission-policies-new-policy.png)
 3. 输入策略的名称和说明。
 4. 在“**Microsoft 应用**”、“**第三方应用**”和“**自定义应用**”下，选择下列选项之一：
@@ -86,11 +86,11 @@ ms.locfileid: "49802492"
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>管理 Microsoft 365 政府版的组织范围的应用设置  
 
-在 Microsoft 365 政府版 - Teams 的 GCC 部署中，了解 GCC 所独有的第三方应用设置非常重要。
+在 Teams 的 Microsoft 365 政府版 - GCCH 和 DoD 部署中，必须了解以下内容，了解 GCCH 和 DoD 独有的第三方应用设置。
 
-在 GCC 中，默认情况下会阻止所有第三方应用。 此外，你将在 Microsoft Teams 管理中心的“应用权限策略”页面上看到以下有关管理第三方应用的备注。
+在 GCCH 和 DoD 中，默认情况下会阻止所有第三方应用。 此外，你将在 Microsoft Teams 管理中心的“应用权限策略”页面上看到以下有关管理第三方应用的备注。
 
-![GCC 中的应用权限策略的屏幕截图](media/app-permission-policies-gcc.png)
+![GCCH 和 DoD 中的应用权限策略的屏幕截图](media/app-permission-policies-gcc.png)
 
 使用组织范围的应用设置来控制用户是否可以安装第三方应用。 组织范围的应用设置可控制所有用户的行为，并且可覆盖分配给用户的任何其他应用权限策略。 你可以使用它们控制恶意应用或有问题的应用。
 
@@ -100,10 +100,10 @@ ms.locfileid: "49802492"
     
 2. 在“**第三方应用**”下，关闭或打开这些设置以控制对第三方应用的访问权限：
 
-    - **允许第三方应用**：控制用户是否可以使用第三方应用。 如果关闭此设置，则你的用户将不能安装或使用任何第三方应用。 在 Microsoft 365 政府版 - Teams 的 GCC 部署中，此设置默认为关闭。
+    - **允许第三方应用**：控制用户是否可以使用第三方应用。 如果关闭此设置，则你的用户将不能安装或使用任何第三方应用。 在 Teams 的 Microsoft 365 政府版 - GCCH 和 DoD 部署中，此设置默认为关闭。
     - **默认情况下，允许发布到应用商店的所有新的第三方应用**：控制发布到 Teams 应用商店的新第三方应用是否在 Teams 中自动可用。 仅在允许第三方应用时才能设置此选项。
 
-3. 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在 Microsoft 365 政府版 - Teams 的 GCC 部署中，默认情况下所有第三方应用都会添加到此列表。 对于想要在组织中允许的任何第三方应用，请从此阻止的应用列表中移除该应用。 当你在组织范围内阻止某个应用时，无论是否在任何应用权限策略中允许此应用，系统都会自动为所有用户阻止该应用。
+3. 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在 Teams 的 Microsoft 365 政府版 - GCCH 和 DoD 部署中，所有第三方应用默认添加到此列表。 对于想要在组织中允许的任何第三方应用，请从此阻止的应用列表中移除该应用。 当你在组织范围内阻止某个应用时，无论是否在任何应用权限策略中允许此应用，系统都会自动为所有用户阻止该应用。
 4. 单击“**保存**”以使组织范围的应用设置生效。
 
 如前文所述，若要允许第三方应用，你可以编辑和使用全局（组织范围的默认）策略，也可以创建并分配自定义策略。

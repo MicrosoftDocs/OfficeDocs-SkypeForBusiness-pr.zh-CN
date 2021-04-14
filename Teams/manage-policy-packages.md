@@ -20,18 +20,18 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理策略包，以简化、简化和帮助在管理用户组的策略时提供一致性。
-ms.openlocfilehash: 1b7e6e5c6311ebd51b0f00b86953291ed4ac63b3
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 1173f5a626d6ea559dadd75149a0517f515d821b
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51634233"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51699306"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>在 Microsoft Teams 中管理策略包
 
 Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你可以将其分配给组织中具有类似角色的用户。 我们构建了策略包，用于简化、简化和帮助在管理组织中用户组的策略时提供一致性。  
 
-可以使用 Teams[中包含的策略包](#policy-packages-included-in-teams)，或在个人[](#custom-policy-packages)预览版中 (自定义策略) 。
+可以使用 Teams [中包含的策略包](#policy-packages-included-in-teams) ， [或创建自己的自定义策略包](#custom-policy-packages)。
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理中心中"策略包"页的屏幕截图":::
 

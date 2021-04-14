@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 94e33421043b0cad195489d78e2eb96c95bb222e
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ee50af6dec780480b8efdbf39dabb8e52ff03f3a
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756178"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697707"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -45,7 +45,7 @@ ms.locfileid: "50756178"
 
 若要查看管理员安装的应用，请在应用栏中 **选择"...Teams 桌面** 和 Web 客户端中的更多应用，在移动客户端中向上轻扫。
 
-在 Microsoft Teams 管理中心中管理应用设置策略。 使用全局 (组织范围的默认) 策略，或者创建和分配自定义策略。  除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
+在 Microsoft Teams 管理中心中管理应用设置策略。 使用全局 (组织范围的默认) 策略，或者创建和分配自定义策略。  除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
 
 编辑全局策略中的设置，以包含需要的应用。 若要为组织的不同用户组自定义 Teams，请创建并分配一个或多个自定义策略。
 
@@ -99,11 +99,11 @@ ms.locfileid: "50756178"
 
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"Teams 应用**  >  **设置策略"。**
 
-2. 单击策略名称左侧选择策略，然后选择"编辑 **"。**
+2. 通过单击策略名称的左侧选择策略，然后选择 **“编辑”**。
 
 3. 在此处根据需要进行更改。
 
-4. 选择"**保存"。**
+4. 选择“**保存**”。
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>向用户分配自定义应用设置策略
 
@@ -162,7 +162,7 @@ iOS (Android) Teams 移动客户端目前不支持使用静态选项卡的个人
 
 #### <a name="does-user-pinning-take-precedence"></a>用户固定是否优先
 
-如果将分配给用户的应用设置策略更改为阻止用户应用固定，Teams 会删除固定到应用栏的任何应用。 如果更改策略以允许用户应用固定，用户必须重新固定其以前固定的应用。
+管理图钉始终优先。 如果 **"允许用户固定"** 选项已打开，则用户将保留其固定应用在管理员固定应用下方。 如果 **"允许用户固定"** 选项已关闭，则用户将丢失其预先存在的固定项，并且应用栏中将只显示管理员固定的应用。
 
 ### <a name="custom-teams-apps"></a>自定义 Teams 应用
 

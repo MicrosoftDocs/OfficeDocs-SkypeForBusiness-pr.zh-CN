@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中自定义应用。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 9e9c7d250f60c3cc100f7d95b26f662ca8af6305
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574151"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697787"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在 Microsoft Teams 中自定义应用
 
@@ -43,6 +43,8 @@ ms.locfileid: "51574151"
 - 主题色
 
 有关 [可自定义的](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) 字段的详细信息，请参阅 Teams 清单架构。
+
+> [!注意 目前，政府社区云高 (GCCH) 或国防部 (DoD) 不支持自定义应用。
 
 ## <a name="customize-the-apps-details"></a>自定义应用的详细信息
 
