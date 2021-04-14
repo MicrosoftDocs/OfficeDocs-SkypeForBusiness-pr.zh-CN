@@ -117,18 +117,18 @@ items:
                 href: teams-client-update.md
               - name: 解决安装和更新问题
                 href: troubleshoot-installation.md
-          - name: Teams 培训
-            items:
-              - name: 概述
-                href: training-microsoft-teams-landing-page.md
-              - name: Teams 管理员培训
-                href: itadmin-readiness.md
-              - name: Ignite 2020 Teams 会议
-                href: ignite-2020-landing-page.md
-              - name: Teams 实时培训
-                href: instructor-led-training-teams-landing-page.yml
-              - name: Teams 联机培训
-                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      - name: Teams 培训
+        items:
+          - name: 概述
+            href: training-microsoft-teams-landing-page.md
+          - name: Teams 管理员培训
+            href: itadmin-readiness.md
+          - name: Ignite 2020 Teams 会议
+            href: ignite-2020-landing-page.md
+          - name: Teams 实时培训
+            href: instructor-led-training-teams-landing-page.yml
+          - name: Teams 联机培训
+            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: 从 Skype for Business 升级
     items:
       - name: 开始行动
@@ -1325,6 +1325,8 @@ items:
             href: teams-app-setup-policies.md
           - name: 在 Teams 中管理自定义应用策略和设置
             href: teams-custom-app-policies-and-settings.md
+          - name: 在 Teams 中自定义应用
+            href: customize-apps.md
   - name: 行业和政府指南
     items:
       - name: 概述
