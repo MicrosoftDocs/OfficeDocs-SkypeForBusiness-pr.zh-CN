@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d14dcbcc7176a482458e23b10e4f017b28ad24ea
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586491"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697627"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -131,7 +131,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 |功能     | 最大限制 |
 |------------|---------------|
-|会议中的人数（可聊天和通话）  | 300。“**仅查看**”最多允许 10,000 位仅收听的参与者加入组织者拥有 E3/E5/A3/A5 SKU 许可证的会议。<br>**注意：** 对于 Teams 政府版（GCC、GCC 高、DoD），该限制仍然为 250。 政府云限制从 250 增加到 300 并支持会议溢出时，我们会更新此文章。 了解关于[仅供查看体验](view-only-meeting-experience.md)的详细信息。|
+|会议中的人数（可聊天和通话）  | 300. **"仅查看"** 允许最多 10，000 名仅听取参与者加入会议，组织者可拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC 高、DoD）的许可证。 了解关于[仅供查看体验](view-only-meeting-experience.md)的详细信息。|
 |通过视频或音频通话聊天的人员数 | 20 |
 |PowerPoint 文件的最大大小 | 2GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
