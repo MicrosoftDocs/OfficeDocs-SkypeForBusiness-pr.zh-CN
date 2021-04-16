@@ -18,12 +18,12 @@ description: 了解如何配置 Microsoft 呼叫计划和电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73b894b0eb02b8f860a3486251dab002832f4d46
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2531add2b43b7061b81a23676c54fbc557929c0f
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122326"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858005"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -226,9 +226,9 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 | 云 | 可用性 |
 | :------------|:-------|
-| 万维多租户 | 完全可用 |
-| GCC | 除 Teams IP 电话外的所有客户端上均可用 |
-| GCCH | Pending |
+| 万维多租户 | 在所有 Teams 客户端上可用 |
+| GCC | 在所有 Teams 客户端上可用 |
+| GCCH | 在 Teams 桌面上可用 |
 | DoD | Pending |
 
  ## <a name="related-topics"></a>相关主题

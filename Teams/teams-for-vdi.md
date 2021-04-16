@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020ed67b695c10e54d43891d78a77783ab61ee81
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119191"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858045"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -377,10 +377,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ### <a name="client-deployment-installation-and-setup"></a>客户端部署、安装和设置
 
 - 通过每台计算机安装，VDI 上的 Teams 不会以非 VDI Teams 客户端的方式自动更新。 必须安装新的 MSI 来更新 VM 映像，如在 VDI 上安装或更新 [Teams 桌面应用](#install-or-update-the-teams-desktop-app-on-vdi) 部分中所述。 必须卸载当前版本，以更新到较新版本。
+- 在 Citrix 环境中，如果用户在 Teams 运行时从虚拟机断开连接，则 Teams 更新可能会导致用户在重新连接时为 AV 保持未优化状态。 建议用户在从 Citrix 虚拟机断开连接之前退出 Teams，以避免这种情况。
 - 应按用户或每台计算机部署团队。 不支持针对每个用户和每台计算机的并发部署 Teams。 若要从每台计算机或每个用户迁移到其中一种模式，请按照卸载过程操作并重新部署到任一模式。
 - Windows 虚拟桌面和 VMware 目前不支持基于 MacOS 和 Linux 的客户端。
-- Citrix 目前不支持 MacOs 客户端。
-- Citrix 不支持使用在终结点上定义的显式 HTTP 代理。
 
 ### <a name="calling-and-meetings"></a>呼叫和会议
 
@@ -396,6 +395,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 呼叫队列
 - 共享系统音频/计算机声音
 - 直接路由的媒体旁路
+- 放大共享内容
 
 > [!NOTE]
 > 我们正在努力添加当前仅在非 VDI 环境中可用的呼叫和会议功能。 这些可能包括对质量的更多管理员控制、其他屏幕共享方案和最近添加到 Teams 的高级功能。 请联系 Teams 代表，详细了解即将推出的功能。
