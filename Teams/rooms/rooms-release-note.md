@@ -14,426 +14,426 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft Teams 会议室发行说明，其中列出了 Microsoft Teams 会议室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a922f3fead6c33f70e7393dd536b856934ddb390
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607538"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768362"
 ---
-# <a name="release-notes"></a><span data-ttu-id="20f1a-103">发行说明</span><span class="sxs-lookup"><span data-stu-id="20f1a-103">Release notes</span></span>
+# <a name="release-notes"></a><span data-ttu-id="c83d0-103">发行说明</span><span class="sxs-lookup"><span data-stu-id="c83d0-103">Release notes</span></span>
 
-<span data-ttu-id="20f1a-104">本文讨论 Microsoft Teams 会议室中的累积改进。</span><span class="sxs-lookup"><span data-stu-id="20f1a-104">This article discusses cumulative improvements in Microsoft Teams Rooms.</span></span>
+<span data-ttu-id="c83d0-104">本文讨论 Microsoft Teams 会议室中的累积改进。</span><span class="sxs-lookup"><span data-stu-id="c83d0-104">This article discusses cumulative improvements in Microsoft Teams Rooms.</span></span>
 
-## <a name="version-history"></a><span data-ttu-id="20f1a-105">版本历史记录</span><span class="sxs-lookup"><span data-stu-id="20f1a-105">Version history</span></span>
+## <a name="version-history"></a><span data-ttu-id="c83d0-105">版本历史记录</span><span class="sxs-lookup"><span data-stu-id="c83d0-105">Version history</span></span>
 
-|<span data-ttu-id="20f1a-106">发布</span><span class="sxs-lookup"><span data-stu-id="20f1a-106">Release</span></span> |<span data-ttu-id="20f1a-107">发布到</span><span class="sxs-lookup"><span data-stu-id="20f1a-107">Published to</span></span> <br/> <span data-ttu-id="20f1a-108">Microsoft Store</span><span class="sxs-lookup"><span data-stu-id="20f1a-108">Microsoft Store</span></span> |
+|<span data-ttu-id="c83d0-106">发布</span><span class="sxs-lookup"><span data-stu-id="c83d0-106">Release</span></span> |<span data-ttu-id="c83d0-107">发布到</span><span class="sxs-lookup"><span data-stu-id="c83d0-107">Published to</span></span> <br/> <span data-ttu-id="c83d0-108">Microsoft Store</span><span class="sxs-lookup"><span data-stu-id="c83d0-108">Microsoft Store</span></span> |
 |--- |--- |
-|<span data-ttu-id="20f1a-109">4.8.19.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-109">4.8.19.0</span></span> |<span data-ttu-id="20f1a-110">04/06/2021</span><span class="sxs-lookup"><span data-stu-id="20f1a-110">04/06/2021</span></span> |
-|<span data-ttu-id="20f1a-111">4.7.19.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-111">4.7.19.0</span></span> |<span data-ttu-id="20f1a-112">02/03/2021</span><span class="sxs-lookup"><span data-stu-id="20f1a-112">02/03/2021</span></span> |
-|<span data-ttu-id="20f1a-113">4.7.15.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-113">4.7.15.0</span></span> |<span data-ttu-id="20f1a-114">12/11/2020</span><span class="sxs-lookup"><span data-stu-id="20f1a-114">12/11/2020</span></span> |
-|<span data-ttu-id="20f1a-115">4.6.23.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-115">4.6.23.0</span></span> |<span data-ttu-id="20f1a-116">10/19/2020</span><span class="sxs-lookup"><span data-stu-id="20f1a-116">10/19/2020</span></span> |
-|<span data-ttu-id="20f1a-117">4.6.20.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-117">4.6.20.0</span></span> |<span data-ttu-id="20f1a-118">09/30/2020</span><span class="sxs-lookup"><span data-stu-id="20f1a-118">09/30/2020</span></span> |
-|<span data-ttu-id="20f1a-119">4.5.37.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-119">4.5.37.0</span></span> |<span data-ttu-id="20f1a-120">08/14/2020</span><span class="sxs-lookup"><span data-stu-id="20f1a-120">08/14/2020</span></span> |
-|<span data-ttu-id="20f1a-121">4.5.35.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-121">4.5.35.0</span></span> |<span data-ttu-id="20f1a-122">07/23/2020</span><span class="sxs-lookup"><span data-stu-id="20f1a-122">07/23/2020</span></span> |
-|<span data-ttu-id="20f1a-123">4.4.63.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-123">4.4.63.0</span></span> |<span data-ttu-id="20f1a-124">06/25/2020</span><span class="sxs-lookup"><span data-stu-id="20f1a-124">06/25/2020</span></span> |
-|<span data-ttu-id="20f1a-125">4.4.41.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-125">4.4.41.0</span></span> |<span data-ttu-id="20f1a-126">05/06/2020</span><span class="sxs-lookup"><span data-stu-id="20f1a-126">05/06/2020</span></span> |
-|<span data-ttu-id="20f1a-127">4.4.25.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-127">4.4.25.0</span></span> |<span data-ttu-id="20f1a-128">03/31/2020</span><span class="sxs-lookup"><span data-stu-id="20f1a-128">03/31/2020</span></span> |
-|<span data-ttu-id="20f1a-129">4.3.42.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-129">4.3.42.0</span></span> |<span data-ttu-id="20f1a-130">03/02/2020</span><span class="sxs-lookup"><span data-stu-id="20f1a-130">03/02/2020</span></span> |
-|<span data-ttu-id="20f1a-131">4.3.33.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-131">4.3.33.0</span></span> |<span data-ttu-id="20f1a-132">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="20f1a-132">1/10/2020</span></span> |
-|<span data-ttu-id="20f1a-133">4.3.23.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-133">4.3.23.0</span></span> |<span data-ttu-id="20f1a-134">12/13/2019</span><span class="sxs-lookup"><span data-stu-id="20f1a-134">12/13/2019</span></span> |
-|<span data-ttu-id="20f1a-135">4.2.4.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-135">4.2.4.0</span></span> |<span data-ttu-id="20f1a-136">10/07/2019</span><span class="sxs-lookup"><span data-stu-id="20f1a-136">10/07/2019</span></span> |
-|<span data-ttu-id="20f1a-137">4.1.22.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-137">4.1.22.0</span></span> |<span data-ttu-id="20f1a-138">08/15/2019</span><span class="sxs-lookup"><span data-stu-id="20f1a-138">08/15/2019</span></span> |
-|<span data-ttu-id="20f1a-139">4.0.105.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-139">4.0.105.0</span></span> |<span data-ttu-id="20f1a-140">07/10/2019</span><span class="sxs-lookup"><span data-stu-id="20f1a-140">07/10/2019</span></span> |
-|<span data-ttu-id="20f1a-141">4.0.85.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-141">4.0.85.0</span></span> |<span data-ttu-id="20f1a-142">04/08/2019</span><span class="sxs-lookup"><span data-stu-id="20f1a-142">04/08/2019</span></span> |
-|<span data-ttu-id="20f1a-143">4.0.78.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-143">4.0.78.0</span></span> |<span data-ttu-id="20f1a-144">03/14/2019</span><span class="sxs-lookup"><span data-stu-id="20f1a-144">03/14/2019</span></span> |
-|<span data-ttu-id="20f1a-145">4.0.76.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-145">4.0.76.0</span></span> |<span data-ttu-id="20f1a-146">03/04/2019</span><span class="sxs-lookup"><span data-stu-id="20f1a-146">03/04/2019</span></span> |
-|<span data-ttu-id="20f1a-147">4.0.64.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-147">4.0.64.0</span></span> |<span data-ttu-id="20f1a-148">12/14/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-148">12/14/2018</span></span> |
-|<span data-ttu-id="20f1a-149">4.0.51.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-149">4.0.51.0</span></span> |<span data-ttu-id="20f1a-150">11/17/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-150">11/17/2018</span></span> |
-|<span data-ttu-id="20f1a-151">4.0.31.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-151">4.0.31.0</span></span> |<span data-ttu-id="20f1a-152">10/16/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-152">10/16/2018</span></span> |
-|<span data-ttu-id="20f1a-153">4.0.27.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-153">4.0.27.0</span></span> |<span data-ttu-id="20f1a-154">10/1/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-154">10/1/2018</span></span> |
-|<span data-ttu-id="20f1a-155">4.0.19.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-155">4.0.19.0</span></span> |<span data-ttu-id="20f1a-156">08/31/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-156">08/31/2018</span></span> |
-|<span data-ttu-id="20f1a-157">4.0.18.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-157">4.0.18.0</span></span> |<span data-ttu-id="20f1a-158">08/27/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-158">08/27/2018</span></span> |
-|<span data-ttu-id="20f1a-159">4.0.8.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-159">4.0.8.0</span></span> |<span data-ttu-id="20f1a-160">07/06/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-160">07/06/2018</span></span> |
-|<span data-ttu-id="20f1a-161">3.1.115.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-161">3.1.115.0</span></span>|<span data-ttu-id="20f1a-162">06/18/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-162">06/18/2018</span></span> |
-|<span data-ttu-id="20f1a-163">3.1.113.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-163">3.1.113.0</span></span>|<span data-ttu-id="20f1a-164">06/13/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-164">06/13/2018</span></span> |
-|<span data-ttu-id="20f1a-165">3.1.112.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-165">3.1.112.0</span></span>|<span data-ttu-id="20f1a-166">06/05/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-166">06/05/2018</span></span> |
-|<span data-ttu-id="20f1a-167">3.1.104.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-167">3.1.104.0</span></span>|<span data-ttu-id="20f1a-168">04/16/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-168">04/16/2018</span></span> |
-|<span data-ttu-id="20f1a-169">3.1.100.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-169">3.1.100.0</span></span>|<span data-ttu-id="20f1a-170">03/16/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-170">03/16/2018</span></span> |
-|<span data-ttu-id="20f1a-171">3.1.99.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-171">3.1.99.0</span></span> |<span data-ttu-id="20f1a-172">3/14/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-172">3/14/2018</span></span> |
-|<span data-ttu-id="20f1a-173">3.1.98.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-173">3.1.98.0</span></span> |<span data-ttu-id="20f1a-174">3/8/2018</span><span class="sxs-lookup"><span data-stu-id="20f1a-174">3/8/2018</span></span> |
-|<span data-ttu-id="20f1a-175">3.0.16.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-175">3.0.16.0</span></span> |<span data-ttu-id="20f1a-176">11/27/2017</span><span class="sxs-lookup"><span data-stu-id="20f1a-176">11/27/2017</span></span> |
-|<span data-ttu-id="20f1a-177">3.0.15.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-177">3.0.15.0</span></span> |<span data-ttu-id="20f1a-178">10/3/2017</span><span class="sxs-lookup"><span data-stu-id="20f1a-178">10/3/2017</span></span> |
-|<span data-ttu-id="20f1a-179">3.0.12.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-179">3.0.12.0</span></span> |<span data-ttu-id="20f1a-180">9/1/2017</span><span class="sxs-lookup"><span data-stu-id="20f1a-180">9/1/2017</span></span> |
-|<span data-ttu-id="20f1a-181">3.0.8.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-181">3.0.8.0</span></span> |<span data-ttu-id="20f1a-182">11/16/2017</span><span class="sxs-lookup"><span data-stu-id="20f1a-182">11/16/2017</span></span> |
-|<span data-ttu-id="20f1a-183">3.0.6.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-183">3.0.6.0</span></span> |<span data-ttu-id="20f1a-184">11/16/2017</span><span class="sxs-lookup"><span data-stu-id="20f1a-184">11/16/2017</span></span> |
-|<span data-ttu-id="20f1a-185">2.0.2.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-185">2.0.2.0</span></span> |<span data-ttu-id="20f1a-186">03/15/2017</span><span class="sxs-lookup"><span data-stu-id="20f1a-186">03/15/2017</span></span> |
-|<span data-ttu-id="20f1a-187">RTM (1.0.8) </span><span class="sxs-lookup"><span data-stu-id="20f1a-187">RTM (1.0.8)</span></span> |<span data-ttu-id="20f1a-188">12/7/2016</span><span class="sxs-lookup"><span data-stu-id="20f1a-188">12/7/2016</span></span> |
+|<span data-ttu-id="c83d0-109">4.8.19.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-109">4.8.19.0</span></span> |<span data-ttu-id="c83d0-110">04/06/2021</span><span class="sxs-lookup"><span data-stu-id="c83d0-110">04/06/2021</span></span> |
+|<span data-ttu-id="c83d0-111">4.7.19.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-111">4.7.19.0</span></span> |<span data-ttu-id="c83d0-112">02/03/2021</span><span class="sxs-lookup"><span data-stu-id="c83d0-112">02/03/2021</span></span> |
+|<span data-ttu-id="c83d0-113">4.7.15.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-113">4.7.15.0</span></span> |<span data-ttu-id="c83d0-114">12/11/2020</span><span class="sxs-lookup"><span data-stu-id="c83d0-114">12/11/2020</span></span> |
+|<span data-ttu-id="c83d0-115">4.6.23.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-115">4.6.23.0</span></span> |<span data-ttu-id="c83d0-116">10/19/2020</span><span class="sxs-lookup"><span data-stu-id="c83d0-116">10/19/2020</span></span> |
+|<span data-ttu-id="c83d0-117">4.6.20.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-117">4.6.20.0</span></span> |<span data-ttu-id="c83d0-118">09/30/2020</span><span class="sxs-lookup"><span data-stu-id="c83d0-118">09/30/2020</span></span> |
+|<span data-ttu-id="c83d0-119">4.5.37.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-119">4.5.37.0</span></span> |<span data-ttu-id="c83d0-120">08/14/2020</span><span class="sxs-lookup"><span data-stu-id="c83d0-120">08/14/2020</span></span> |
+|<span data-ttu-id="c83d0-121">4.5.35.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-121">4.5.35.0</span></span> |<span data-ttu-id="c83d0-122">07/23/2020</span><span class="sxs-lookup"><span data-stu-id="c83d0-122">07/23/2020</span></span> |
+|<span data-ttu-id="c83d0-123">4.4.63.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-123">4.4.63.0</span></span> |<span data-ttu-id="c83d0-124">06/25/2020</span><span class="sxs-lookup"><span data-stu-id="c83d0-124">06/25/2020</span></span> |
+|<span data-ttu-id="c83d0-125">4.4.41.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-125">4.4.41.0</span></span> |<span data-ttu-id="c83d0-126">05/06/2020</span><span class="sxs-lookup"><span data-stu-id="c83d0-126">05/06/2020</span></span> |
+|<span data-ttu-id="c83d0-127">4.4.25.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-127">4.4.25.0</span></span> |<span data-ttu-id="c83d0-128">03/31/2020</span><span class="sxs-lookup"><span data-stu-id="c83d0-128">03/31/2020</span></span> |
+|<span data-ttu-id="c83d0-129">4.3.42.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-129">4.3.42.0</span></span> |<span data-ttu-id="c83d0-130">03/02/2020</span><span class="sxs-lookup"><span data-stu-id="c83d0-130">03/02/2020</span></span> |
+|<span data-ttu-id="c83d0-131">4.3.33.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-131">4.3.33.0</span></span> |<span data-ttu-id="c83d0-132">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="c83d0-132">1/10/2020</span></span> |
+|<span data-ttu-id="c83d0-133">4.3.23.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-133">4.3.23.0</span></span> |<span data-ttu-id="c83d0-134">12/13/2019</span><span class="sxs-lookup"><span data-stu-id="c83d0-134">12/13/2019</span></span> |
+|<span data-ttu-id="c83d0-135">4.2.4.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-135">4.2.4.0</span></span> |<span data-ttu-id="c83d0-136">10/07/2019</span><span class="sxs-lookup"><span data-stu-id="c83d0-136">10/07/2019</span></span> |
+|<span data-ttu-id="c83d0-137">4.1.22.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-137">4.1.22.0</span></span> |<span data-ttu-id="c83d0-138">08/15/2019</span><span class="sxs-lookup"><span data-stu-id="c83d0-138">08/15/2019</span></span> |
+|<span data-ttu-id="c83d0-139">4.0.105.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-139">4.0.105.0</span></span> |<span data-ttu-id="c83d0-140">07/10/2019</span><span class="sxs-lookup"><span data-stu-id="c83d0-140">07/10/2019</span></span> |
+|<span data-ttu-id="c83d0-141">4.0.85.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-141">4.0.85.0</span></span> |<span data-ttu-id="c83d0-142">04/08/2019</span><span class="sxs-lookup"><span data-stu-id="c83d0-142">04/08/2019</span></span> |
+|<span data-ttu-id="c83d0-143">4.0.78.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-143">4.0.78.0</span></span> |<span data-ttu-id="c83d0-144">03/14/2019</span><span class="sxs-lookup"><span data-stu-id="c83d0-144">03/14/2019</span></span> |
+|<span data-ttu-id="c83d0-145">4.0.76.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-145">4.0.76.0</span></span> |<span data-ttu-id="c83d0-146">03/04/2019</span><span class="sxs-lookup"><span data-stu-id="c83d0-146">03/04/2019</span></span> |
+|<span data-ttu-id="c83d0-147">4.0.64.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-147">4.0.64.0</span></span> |<span data-ttu-id="c83d0-148">12/14/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-148">12/14/2018</span></span> |
+|<span data-ttu-id="c83d0-149">4.0.51.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-149">4.0.51.0</span></span> |<span data-ttu-id="c83d0-150">11/17/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-150">11/17/2018</span></span> |
+|<span data-ttu-id="c83d0-151">4.0.31.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-151">4.0.31.0</span></span> |<span data-ttu-id="c83d0-152">10/16/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-152">10/16/2018</span></span> |
+|<span data-ttu-id="c83d0-153">4.0.27.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-153">4.0.27.0</span></span> |<span data-ttu-id="c83d0-154">10/1/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-154">10/1/2018</span></span> |
+|<span data-ttu-id="c83d0-155">4.0.19.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-155">4.0.19.0</span></span> |<span data-ttu-id="c83d0-156">08/31/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-156">08/31/2018</span></span> |
+|<span data-ttu-id="c83d0-157">4.0.18.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-157">4.0.18.0</span></span> |<span data-ttu-id="c83d0-158">08/27/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-158">08/27/2018</span></span> |
+|<span data-ttu-id="c83d0-159">4.0.8.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-159">4.0.8.0</span></span> |<span data-ttu-id="c83d0-160">07/06/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-160">07/06/2018</span></span> |
+|<span data-ttu-id="c83d0-161">3.1.115.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-161">3.1.115.0</span></span>|<span data-ttu-id="c83d0-162">06/18/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-162">06/18/2018</span></span> |
+|<span data-ttu-id="c83d0-163">3.1.113.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-163">3.1.113.0</span></span>|<span data-ttu-id="c83d0-164">06/13/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-164">06/13/2018</span></span> |
+|<span data-ttu-id="c83d0-165">3.1.112.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-165">3.1.112.0</span></span>|<span data-ttu-id="c83d0-166">06/05/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-166">06/05/2018</span></span> |
+|<span data-ttu-id="c83d0-167">3.1.104.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-167">3.1.104.0</span></span>|<span data-ttu-id="c83d0-168">04/16/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-168">04/16/2018</span></span> |
+|<span data-ttu-id="c83d0-169">3.1.100.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-169">3.1.100.0</span></span>|<span data-ttu-id="c83d0-170">03/16/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-170">03/16/2018</span></span> |
+|<span data-ttu-id="c83d0-171">3.1.99.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-171">3.1.99.0</span></span> |<span data-ttu-id="c83d0-172">3/14/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-172">3/14/2018</span></span> |
+|<span data-ttu-id="c83d0-173">3.1.98.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-173">3.1.98.0</span></span> |<span data-ttu-id="c83d0-174">3/8/2018</span><span class="sxs-lookup"><span data-stu-id="c83d0-174">3/8/2018</span></span> |
+|<span data-ttu-id="c83d0-175">3.0.16.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-175">3.0.16.0</span></span> |<span data-ttu-id="c83d0-176">11/27/2017</span><span class="sxs-lookup"><span data-stu-id="c83d0-176">11/27/2017</span></span> |
+|<span data-ttu-id="c83d0-177">3.0.15.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-177">3.0.15.0</span></span> |<span data-ttu-id="c83d0-178">10/3/2017</span><span class="sxs-lookup"><span data-stu-id="c83d0-178">10/3/2017</span></span> |
+|<span data-ttu-id="c83d0-179">3.0.12.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-179">3.0.12.0</span></span> |<span data-ttu-id="c83d0-180">9/1/2017</span><span class="sxs-lookup"><span data-stu-id="c83d0-180">9/1/2017</span></span> |
+|<span data-ttu-id="c83d0-181">3.0.8.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-181">3.0.8.0</span></span> |<span data-ttu-id="c83d0-182">11/16/2017</span><span class="sxs-lookup"><span data-stu-id="c83d0-182">11/16/2017</span></span> |
+|<span data-ttu-id="c83d0-183">3.0.6.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-183">3.0.6.0</span></span> |<span data-ttu-id="c83d0-184">11/16/2017</span><span class="sxs-lookup"><span data-stu-id="c83d0-184">11/16/2017</span></span> |
+|<span data-ttu-id="c83d0-185">2.0.2.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-185">2.0.2.0</span></span> |<span data-ttu-id="c83d0-186">03/15/2017</span><span class="sxs-lookup"><span data-stu-id="c83d0-186">03/15/2017</span></span> |
+|<span data-ttu-id="c83d0-187">RTM (1.0.8) </span><span class="sxs-lookup"><span data-stu-id="c83d0-187">RTM (1.0.8)</span></span> |<span data-ttu-id="c83d0-188">12/7/2016</span><span class="sxs-lookup"><span data-stu-id="c83d0-188">12/7/2016</span></span> |
 
-## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a><span data-ttu-id="20f1a-189">Microsoft Teams 会议室功能简介和问题解决</span><span class="sxs-lookup"><span data-stu-id="20f1a-189">Microsoft Teams Rooms feature introduction and issue resolution</span></span>
+## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a><span data-ttu-id="c83d0-189">Microsoft Teams 会议室功能简介和问题解决</span><span class="sxs-lookup"><span data-stu-id="c83d0-189">Microsoft Teams Rooms feature introduction and issue resolution</span></span>
 
-### <a name="48190-04062021"></a><span data-ttu-id="20f1a-190">4.8.19.0 (2021/04/06) </span><span class="sxs-lookup"><span data-stu-id="20f1a-190">4.8.19.0 (04/06/2021)</span></span>
+### <a name="48190-04062021"></a><span data-ttu-id="c83d0-190">4.8.19.0 (2021/04/06) </span><span class="sxs-lookup"><span data-stu-id="c83d0-190">4.8.19.0 (04/06/2021)</span></span>
 
-<span data-ttu-id="20f1a-191">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-191">Introduced in this update:</span></span>
-- <span data-ttu-id="20f1a-192">政府社区云高 (GCCH) Teams 会议室支持。</span><span class="sxs-lookup"><span data-stu-id="20f1a-192">Government Community Cloud High (GCCH) support for Teams Rooms.</span></span> <span data-ttu-id="20f1a-193">使用现有 Teams 会议室设备的 GCCH 客户可以从手动更新[Microsoft Teams 会议室](manual-update.md)设备下载版本 4.8.18.0</span><span class="sxs-lookup"><span data-stu-id="20f1a-193">GCCH customers with existing Teams Rooms devices can download version 4.8.18.0 from [Manually update a Microsoft Teams Rooms device](manual-update.md)</span></span>
-- <span data-ttu-id="20f1a-194">通过 720p (视频质量加入缩放会议) 并接收参与者的视频库</span><span class="sxs-lookup"><span data-stu-id="20f1a-194">Join Zoom meetings with better video quality (720p support) and receive the video gallery of participants</span></span>
-- <span data-ttu-id="20f1a-195">为 Teams 默认模式删除了 Skype for Business 登录失败横幅。</span><span class="sxs-lookup"><span data-stu-id="20f1a-195">Skype for Business sign-in failure banner removed for Teams default mode.</span></span> <span data-ttu-id="20f1a-196">此更改支持组织删除 Skype for Business 基础结构</span><span class="sxs-lookup"><span data-stu-id="20f1a-196">This change supports organizations removing Skype for Business infrastructure</span></span>
-- <span data-ttu-id="20f1a-197">Teams 会议加入链接分析现在处理 Microsoft Defender 高级线程保护安全链接，以允许无缝加入外部 Teams</span><span class="sxs-lookup"><span data-stu-id="20f1a-197">Teams meetings join link parsing now handles Microsoft Defender Advanced Thread Protection Safe Links to allow joining external Teams seamlessly</span></span>
-- <span data-ttu-id="20f1a-198">修复了当共享者的电脑在 Windows 中设置了自定义 DPI 时 Skype for Business 会议中共享内容缩放问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-198">Fix for shared content scaling issue in Skype for Business meetings when the sharer's PC has a custom DPI set in Windows</span></span>
-- <span data-ttu-id="20f1a-199">质量和可靠性修复</span><span class="sxs-lookup"><span data-stu-id="20f1a-199">Quality and reliability fixes</span></span>
+<span data-ttu-id="c83d0-191">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-191">Introduced in this update:</span></span>
+- <span data-ttu-id="c83d0-192">政府社区云高 (GCCH) Teams 会议室支持。</span><span class="sxs-lookup"><span data-stu-id="c83d0-192">Government Community Cloud High (GCCH) support for Teams Rooms.</span></span> <span data-ttu-id="c83d0-193">使用现有 Teams 会议室设备的 GCCH 客户可以从手动更新[Microsoft Teams 会议室](manual-update.md)设备下载版本 4.8.19.0</span><span class="sxs-lookup"><span data-stu-id="c83d0-193">GCCH customers with existing Teams Rooms devices can download version 4.8.19.0 from [Manually update a Microsoft Teams Rooms device](manual-update.md)</span></span>
+- <span data-ttu-id="c83d0-194">通过 720p (视频质量加入缩放会议) 并接收参与者的视频库</span><span class="sxs-lookup"><span data-stu-id="c83d0-194">Join Zoom meetings with better video quality (720p support) and receive the video gallery of participants</span></span>
+- <span data-ttu-id="c83d0-195">为 Teams 默认模式删除了 Skype for Business 登录失败横幅。</span><span class="sxs-lookup"><span data-stu-id="c83d0-195">Skype for Business sign-in failure banner removed for Teams default mode.</span></span> <span data-ttu-id="c83d0-196">此更改支持组织删除 Skype for Business 基础结构</span><span class="sxs-lookup"><span data-stu-id="c83d0-196">This change supports organizations removing Skype for Business infrastructure</span></span>
+- <span data-ttu-id="c83d0-197">Teams 会议加入链接分析现在处理 Microsoft Defender 高级线程保护安全链接，以允许无缝加入外部 Teams</span><span class="sxs-lookup"><span data-stu-id="c83d0-197">Teams meetings join link parsing now handles Microsoft Defender Advanced Thread Protection Safe Links to allow joining external Teams seamlessly</span></span>
+- <span data-ttu-id="c83d0-198">修复了当共享者的电脑在 Windows 中设置了自定义 DPI 时 Skype for Business 会议中共享内容缩放问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-198">Fix for shared content scaling issue in Skype for Business meetings when the sharer's PC has a custom DPI set in Windows</span></span>
+- <span data-ttu-id="c83d0-199">质量和可靠性修复</span><span class="sxs-lookup"><span data-stu-id="c83d0-199">Quality and reliability fixes</span></span>
 
-### <a name="47190-02032021"></a><span data-ttu-id="20f1a-200">2021/02/03 (4.7.19.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-200">4.7.19.0 (02/03/2021)</span></span>
+### <a name="47190-02032021"></a><span data-ttu-id="c83d0-200">2021/02/03 (4.7.19.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-200">4.7.19.0 (02/03/2021)</span></span>
 
-<span data-ttu-id="20f1a-201">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-201">Introduced in this update:</span></span>
-- <span data-ttu-id="20f1a-202">质量和可靠性修复</span><span class="sxs-lookup"><span data-stu-id="20f1a-202">Quality and reliability fixes</span></span>
+<span data-ttu-id="c83d0-201">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-201">Introduced in this update:</span></span>
+- <span data-ttu-id="c83d0-202">质量和可靠性修复</span><span class="sxs-lookup"><span data-stu-id="c83d0-202">Quality and reliability fixes</span></span>
 
-### <a name="47150-12112020"></a><span data-ttu-id="20f1a-203">2020/12/11 (4.7.15.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-203">4.7.15.0 (12/11/2020)</span></span>
+### <a name="47150-12112020"></a><span data-ttu-id="c83d0-203">2020/12/11 (4.7.15.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-203">4.7.15.0 (12/11/2020)</span></span>
 
-<span data-ttu-id="20f1a-204">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-204">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-204">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-204">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-205">在 Teams 会议中将 HDMI 音频共享给会议参与者</span><span class="sxs-lookup"><span data-stu-id="20f1a-205">Share HDMI audio to meeting participants in Teams meeting</span></span>
-- <span data-ttu-id="20f1a-206">Cortana 语音技能 (预览版) </span><span class="sxs-lookup"><span data-stu-id="20f1a-206">Cortana voice skills (Preview)</span></span>
-- <span data-ttu-id="20f1a-207">当 Teams 会议室作为与会者加入时，防止基于音频权限取消静音。</span><span class="sxs-lookup"><span data-stu-id="20f1a-207">Prevent unmuting based on audio permissions when Teams Room joins as attendee.</span></span> <span data-ttu-id="20f1a-208">有关详细信息，请参阅在 [Teams 会议中管理与会者音频权限](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。</span><span class="sxs-lookup"><span data-stu-id="20f1a-208">For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).</span></span>
-- <span data-ttu-id="20f1a-209">从 Teams 会议室控制台聚焦某人的视频，在会议室显示器上使用聚焦视频</span><span class="sxs-lookup"><span data-stu-id="20f1a-209">Spotlight someone's video from Teams Room console and consume spotlighted video on room displays</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="20f1a-210">Cortana 语音技能适用于位于美国的租户的精选音频外围设备。</span><span class="sxs-lookup"><span data-stu-id="20f1a-210">Cortana voice skills are available for select audio peripherals for tenants located in the United States.</span></span> <span data-ttu-id="20f1a-211">将来会添加其他国家和地区。</span><span class="sxs-lookup"><span data-stu-id="20f1a-211">Additional countries or regions will be added in the future.</span></span> <span data-ttu-id="20f1a-212">有关详细信息，请参阅 [Teams 中的 Cortana 语音协助](../cortana-in-teams.md)</span><span class="sxs-lookup"><span data-stu-id="20f1a-212">For more information, see [Cortana voice assistance in Teams](../cortana-in-teams.md)</span></span>
-
-### <a name="46230-10192020"></a><span data-ttu-id="20f1a-213">2020/10/19 (4.6.23.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-213">4.6.23.0 (10/19/2020)</span></span>
-
-<span data-ttu-id="20f1a-214">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-214">Introduced in this update:</span></span>
-
-- <span data-ttu-id="20f1a-215">修复了在 Teams 会议中调用屏幕键盘时白半屏幕的问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-215">Fix for white half-screen when invoking On-screen keyboard in Teams meeting</span></span>
-
-### <a name="46200-09302020"></a><span data-ttu-id="20f1a-216">2020/09/30 (4.6.20.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-216">4.6.20.0 (09/30/2020)</span></span>
-
-<span data-ttu-id="20f1a-217">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-217">Introduced in this update:</span></span>
-
-- <span data-ttu-id="20f1a-218">在会议室显示器前查看更多带 3x3 视频库的视频</span><span class="sxs-lookup"><span data-stu-id="20f1a-218">See more videos with 3x3 video gallery on front of room displays</span></span>  
-- <span data-ttu-id="20f1a-219">从一线线启动本地实时隐藏式字幕</span><span class="sxs-lookup"><span data-stu-id="20f1a-219">Start local live closed captions from MTR</span></span>
-- <span data-ttu-id="20f1a-220">使用直接来宾加入功能从 Teams 会议室加入缩放会议 (预览版) </span><span class="sxs-lookup"><span data-stu-id="20f1a-220">Join Zoom meetings from Teams Rooms with direct guest join (Preview)</span></span>
+- <span data-ttu-id="c83d0-205">在 Teams 会议中将 HDMI 音频共享给会议参与者</span><span class="sxs-lookup"><span data-stu-id="c83d0-205">Share HDMI audio to meeting participants in Teams meeting</span></span>
+- <span data-ttu-id="c83d0-206">Cortana 语音技能 (预览版) </span><span class="sxs-lookup"><span data-stu-id="c83d0-206">Cortana voice skills (Preview)</span></span>
+- <span data-ttu-id="c83d0-207">当 Teams 会议室作为与会者加入时，防止基于音频权限取消静音。</span><span class="sxs-lookup"><span data-stu-id="c83d0-207">Prevent unmuting based on audio permissions when Teams Room joins as attendee.</span></span> <span data-ttu-id="c83d0-208">有关详细信息，请参阅在 [Teams 会议中管理与会者音频权限](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。</span><span class="sxs-lookup"><span data-stu-id="c83d0-208">For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).</span></span>
+- <span data-ttu-id="c83d0-209">从 Teams 会议室控制台聚焦某人的视频，在会议室显示器上使用聚焦视频</span><span class="sxs-lookup"><span data-stu-id="c83d0-209">Spotlight someone's video from Teams Room console and consume spotlighted video on room displays</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="20f1a-221">3x3 视频库和本地实时隐藏式字幕通过 Microsoft Teams 服务提供。</span><span class="sxs-lookup"><span data-stu-id="20f1a-221">3x3 video gallery and local live closed captions are delivered through the Microsoft Teams service.</span></span> <span data-ttu-id="20f1a-222">这些功能适用于应用程序版本 4.5.37.0 及以上版本的所有 Teams 会议室设备。</span><span class="sxs-lookup"><span data-stu-id="20f1a-222">These features are available to all Teams Rooms devices with application version 4.5.37.0 and above.</span></span>
+> <span data-ttu-id="c83d0-210">Cortana 语音技能适用于位于美国的租户的精选音频外围设备。</span><span class="sxs-lookup"><span data-stu-id="c83d0-210">Cortana voice skills are available for select audio peripherals for tenants located in the United States.</span></span> <span data-ttu-id="c83d0-211">将来会添加其他国家和地区。</span><span class="sxs-lookup"><span data-stu-id="c83d0-211">Additional countries or regions will be added in the future.</span></span> <span data-ttu-id="c83d0-212">有关详细信息，请参阅 [Teams 中的 Cortana 语音协助](../cortana-in-teams.md)</span><span class="sxs-lookup"><span data-stu-id="c83d0-212">For more information, see [Cortana voice assistance in Teams](../cortana-in-teams.md)</span></span>
 
-### <a name="45370-08142020"></a><span data-ttu-id="20f1a-223">2020/08/14 (4.5.37.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-223">4.5.37.0 (08/14/2020)</span></span>
+### <a name="46230-10192020"></a><span data-ttu-id="c83d0-213">2020/10/19 (4.6.23.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-213">4.6.23.0 (10/19/2020)</span></span>
 
-<span data-ttu-id="20f1a-224">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-224">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-214">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-214">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-225">Microsoft Teams 与 Surface Hub 2S 之间的协调会议</span><span class="sxs-lookup"><span data-stu-id="20f1a-225">Coordinated Meetings between Microsoft Teams and Surface Hub 2S</span></span>
-- <span data-ttu-id="20f1a-226">修复了安装 [Windows 10 更新 KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) 或 [Windows 10 更新 KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) 时 Skype For Business 登录失败的问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-226">Fix for Skype For Business sign in failure when [Windows 10 update KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) is installed</span></span>
+- <span data-ttu-id="c83d0-215">修复了在 Teams 会议中调用屏幕键盘时白半屏幕的问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-215">Fix for white half-screen when invoking On-screen keyboard in Teams meeting</span></span>
 
-### <a name="45350-07232020"></a><span data-ttu-id="20f1a-227">2020/07/23 (4.5.35.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-227">4.5.35.0 (07/23/2020)</span></span>
+### <a name="46200-09302020"></a><span data-ttu-id="c83d0-216">2020/09/30 (4.6.20.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-216">4.6.20.0 (09/30/2020)</span></span>
 
-<span data-ttu-id="20f1a-228">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-228">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-217">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-217">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-229">通过直接来宾加入从 Teams 会议室加入 Cisco WebEx 会议</span><span class="sxs-lookup"><span data-stu-id="20f1a-229">Join Cisco WebEx meetings from Teams Rooms with direct guest join</span></span>
-- <span data-ttu-id="20f1a-230">Teams 管理中心启用和自动注册</span><span class="sxs-lookup"><span data-stu-id="20f1a-230">Teams Admin Center enablement and auto-enrollment</span></span>
-- <span data-ttu-id="20f1a-231">Windows 10 1909 版本支持</span><span class="sxs-lookup"><span data-stu-id="20f1a-231">Windows 10 1909 release support</span></span>
-- <span data-ttu-id="20f1a-232">即使内容存在，也切换到视频库布局</span><span class="sxs-lookup"><span data-stu-id="20f1a-232">Switch to video gallery layout even when content is present</span></span>
-- <span data-ttu-id="20f1a-233">虚拟举手支持与会者和演示者控件</span><span class="sxs-lookup"><span data-stu-id="20f1a-233">Virtual raise hands support for attendee and controls for presenter</span></span>
-- <span data-ttu-id="20f1a-234">会议和默认扬声器的可调整默认音量设置</span><span class="sxs-lookup"><span data-stu-id="20f1a-234">Adjustable default volume setting for conferencing and default speaker</span></span>
-- <span data-ttu-id="20f1a-235">从 Teams 会议室搜索并 (联合) 租户用户</span><span class="sxs-lookup"><span data-stu-id="20f1a-235">Search and call federated users (tenant) from Teams Room</span></span>
+- <span data-ttu-id="c83d0-218">在会议室显示器前查看更多带 3x3 视频库的视频</span><span class="sxs-lookup"><span data-stu-id="c83d0-218">See more videos with 3x3 video gallery on front of room displays</span></span>  
+- <span data-ttu-id="c83d0-219">从一线线启动本地实时隐藏式字幕</span><span class="sxs-lookup"><span data-stu-id="c83d0-219">Start local live closed captions from MTR</span></span>
+- <span data-ttu-id="c83d0-220">使用直接来宾加入功能从 Teams 会议室加入缩放会议 (预览版) </span><span class="sxs-lookup"><span data-stu-id="c83d0-220">Join Zoom meetings from Teams Rooms with direct guest join (Preview)</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="c83d0-221">3x3 视频库和本地实时隐藏式字幕通过 Microsoft Teams 服务提供。</span><span class="sxs-lookup"><span data-stu-id="c83d0-221">3x3 video gallery and local live closed captions are delivered through the Microsoft Teams service.</span></span> <span data-ttu-id="c83d0-222">这些功能适用于应用程序版本 4.5.37.0 及以上版本的所有 Teams 会议室设备。</span><span class="sxs-lookup"><span data-stu-id="c83d0-222">These features are available to all Teams Rooms devices with application version 4.5.37.0 and above.</span></span>
+
+### <a name="45370-08142020"></a><span data-ttu-id="c83d0-223">2020/08/14 (4.5.37.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-223">4.5.37.0 (08/14/2020)</span></span>
+
+<span data-ttu-id="c83d0-224">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-224">Introduced in this update:</span></span>
+
+- <span data-ttu-id="c83d0-225">Microsoft Teams 与 Surface Hub 2S 之间的协调会议</span><span class="sxs-lookup"><span data-stu-id="c83d0-225">Coordinated Meetings between Microsoft Teams and Surface Hub 2S</span></span>
+- <span data-ttu-id="c83d0-226">修复了安装 [Windows 10 更新 KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) 或 [Windows 10 更新 KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) 时 Skype For Business 登录失败的问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-226">Fix for Skype For Business sign in failure when [Windows 10 update KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) is installed</span></span>
+
+### <a name="45350-07232020"></a><span data-ttu-id="c83d0-227">2020/07/23 (4.5.35.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-227">4.5.35.0 (07/23/2020)</span></span>
+
+<span data-ttu-id="c83d0-228">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-228">Introduced in this update:</span></span>
+
+- <span data-ttu-id="c83d0-229">通过直接来宾加入从 Teams 会议室加入 Cisco WebEx 会议</span><span class="sxs-lookup"><span data-stu-id="c83d0-229">Join Cisco WebEx meetings from Teams Rooms with direct guest join</span></span>
+- <span data-ttu-id="c83d0-230">Teams 管理中心启用和自动注册</span><span class="sxs-lookup"><span data-stu-id="c83d0-230">Teams Admin Center enablement and auto-enrollment</span></span>
+- <span data-ttu-id="c83d0-231">Windows 10 1909 版本支持</span><span class="sxs-lookup"><span data-stu-id="c83d0-231">Windows 10 1909 release support</span></span>
+- <span data-ttu-id="c83d0-232">即使内容存在，也切换到视频库布局</span><span class="sxs-lookup"><span data-stu-id="c83d0-232">Switch to video gallery layout even when content is present</span></span>
+- <span data-ttu-id="c83d0-233">虚拟举手支持与会者和演示者控件</span><span class="sxs-lookup"><span data-stu-id="c83d0-233">Virtual raise hands support for attendee and controls for presenter</span></span>
+- <span data-ttu-id="c83d0-234">会议和默认扬声器的可调整默认音量设置</span><span class="sxs-lookup"><span data-stu-id="c83d0-234">Adjustable default volume setting for conferencing and default speaker</span></span>
+- <span data-ttu-id="c83d0-235">从 Teams 会议室搜索并 (联合) 租户用户</span><span class="sxs-lookup"><span data-stu-id="c83d0-235">Search and call federated users (tenant) from Teams Room</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="20f1a-236">版本 4.5 是支持 Windows 10 版本 1803 的最后一个版本;将来的版本不会提供给 Windows 10 版本 1803 上的系统。</span><span class="sxs-lookup"><span data-stu-id="20f1a-236">Version 4.5 is last release to support Windows 10 version 1803; future releases will not be offered to systems on Windows 10 version 1803.</span></span> <span data-ttu-id="20f1a-237">有关 Windows 版本支持详细信息，请参阅 [Windows 10 版本支持](./rooms-lifecycle-support.md#windows-10-release-support)。</span><span class="sxs-lookup"><span data-stu-id="20f1a-237">For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).</span></span>
+> <span data-ttu-id="c83d0-236">版本 4.5 是支持 Windows 10 版本 1803 的最后一个版本;将来的版本不会提供给 Windows 10 版本 1803 上的系统。</span><span class="sxs-lookup"><span data-stu-id="c83d0-236">Version 4.5 is last release to support Windows 10 version 1803; future releases will not be offered to systems on Windows 10 version 1803.</span></span> <span data-ttu-id="c83d0-237">有关 Windows 版本支持详细信息，请参阅 [Windows 10 版本支持](./rooms-lifecycle-support.md#windows-10-release-support)。</span><span class="sxs-lookup"><span data-stu-id="c83d0-237">For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).</span></span>
 
-### <a name="44630-06252020"></a><span data-ttu-id="20f1a-238">2020/06/25 (4.4.63.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-238">4.4.63.0 (06/25/2020)</span></span>
+### <a name="44630-06252020"></a><span data-ttu-id="c83d0-238">2020/06/25 (4.4.63.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-238">4.4.63.0 (06/25/2020)</span></span>
 
-<span data-ttu-id="20f1a-239">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-239">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-239">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-239">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-240">质量和可靠性修复</span><span class="sxs-lookup"><span data-stu-id="20f1a-240">Quality and reliability fixes</span></span>
-- <span data-ttu-id="20f1a-241">修复了"更新到 4.4.41.0 后应用程序无法启动"问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-241">Fix for "application won't launch after update to 4.4.41.0" issue</span></span>
+- <span data-ttu-id="c83d0-240">质量和可靠性修复</span><span class="sxs-lookup"><span data-stu-id="c83d0-240">Quality and reliability fixes</span></span>
+- <span data-ttu-id="c83d0-241">修复了"更新到 4.4.41.0 后应用程序无法启动"问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-241">Fix for "application won't launch after update to 4.4.41.0" issue</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="20f1a-242">如果设备未自动更新到版本 4.4.63.0，请按照 [更新到版本 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) 后 Microsoft Teams 会议室应用程序中未启动的步骤来解决此问题。</span><span class="sxs-lookup"><span data-stu-id="20f1a-242">If your device doesn't automatically update to version 4.4.63.0, follow the steps in [Microsoft Teams Rooms application does not start after updating to version 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) to resolve the issue.</span></span>
+> <span data-ttu-id="c83d0-242">如果设备未自动更新到版本 4.4.63.0，请按照 [更新到版本 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) 后 Microsoft Teams 会议室应用程序中未启动的步骤来解决此问题。</span><span class="sxs-lookup"><span data-stu-id="c83d0-242">If your device doesn't automatically update to version 4.4.63.0, follow the steps in [Microsoft Teams Rooms application does not start after updating to version 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) to resolve the issue.</span></span>
 
-### <a name="44410-05062020"></a><span data-ttu-id="20f1a-243">4.4.41.0 (2020/05/06) </span><span class="sxs-lookup"><span data-stu-id="20f1a-243">4.4.41.0 (05/06/2020)</span></span>
+### <a name="44410-05062020"></a><span data-ttu-id="c83d0-243">4.4.41.0 (2020/05/06) </span><span class="sxs-lookup"><span data-stu-id="c83d0-243">4.4.41.0 (05/06/2020)</span></span>
 
-<span data-ttu-id="20f1a-244">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-244">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-244">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-244">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-245">Windows 10 展台中应用程序启动的可靠性修复</span><span class="sxs-lookup"><span data-stu-id="20f1a-245">Reliability fixes for application start in Windows 10 Kiosk</span></span>
+- <span data-ttu-id="c83d0-245">Windows 10 展台中应用程序启动的可靠性修复</span><span class="sxs-lookup"><span data-stu-id="c83d0-245">Reliability fixes for application start in Windows 10 Kiosk</span></span>
 
-### <a name="44250-03312020"></a><span data-ttu-id="20f1a-246">2020/03/31 (4.4.25.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-246">4.4.25.0 (03/31/2020)</span></span>
+### <a name="44250-03312020"></a><span data-ttu-id="c83d0-246">2020/03/31 (4.4.25.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-246">4.4.25.0 (03/31/2020)</span></span>
 
-<span data-ttu-id="20f1a-247">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-247">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-247">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-247">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-248">Exchange 和 Skype for Business 的现代身份验证支持</span><span class="sxs-lookup"><span data-stu-id="20f1a-248">Modern authentication support for Exchange and Skype for Business</span></span>
-- <span data-ttu-id="20f1a-249">支持使用 Teams 客户端环 (Teams 服务组件所需的动态紧急) </span><span class="sxs-lookup"><span data-stu-id="20f1a-249">Support for dynamic emergency calling for Teams (Service components required and released using Teams client rings)</span></span>
-- <span data-ttu-id="20f1a-250">使用 XML 为双显示器会议室禁用会议外重复内容的能力</span><span class="sxs-lookup"><span data-stu-id="20f1a-250">Ability to disable duplicate content out of meeting for dual displays rooms using XML</span></span>
-- <span data-ttu-id="20f1a-251">应用程序初始屏幕</span><span class="sxs-lookup"><span data-stu-id="20f1a-251">Application splash screen</span></span>
-- <span data-ttu-id="20f1a-252">开放源代码软件 (OSS) 设备设置中的通知</span><span class="sxs-lookup"><span data-stu-id="20f1a-252">Open Source Software (OSS) notices in device settings</span></span>
+- <span data-ttu-id="c83d0-248">Exchange 和 Skype for Business 的现代身份验证支持</span><span class="sxs-lookup"><span data-stu-id="c83d0-248">Modern authentication support for Exchange and Skype for Business</span></span>
+- <span data-ttu-id="c83d0-249">支持使用 Teams 客户端环 (Teams 服务组件所需的动态紧急) </span><span class="sxs-lookup"><span data-stu-id="c83d0-249">Support for dynamic emergency calling for Teams (Service components required and released using Teams client rings)</span></span>
+- <span data-ttu-id="c83d0-250">使用 XML 为双显示器会议室禁用会议外重复内容的能力</span><span class="sxs-lookup"><span data-stu-id="c83d0-250">Ability to disable duplicate content out of meeting for dual displays rooms using XML</span></span>
+- <span data-ttu-id="c83d0-251">应用程序初始屏幕</span><span class="sxs-lookup"><span data-stu-id="c83d0-251">Application splash screen</span></span>
+- <span data-ttu-id="c83d0-252">开放源代码软件 (OSS) 设备设置中的通知</span><span class="sxs-lookup"><span data-stu-id="c83d0-252">Open Source Software (OSS) notices in device settings</span></span>
 
-### <a name="43420-03022020"></a><span data-ttu-id="20f1a-253">4.3.42.0 (2020/03/02) </span><span class="sxs-lookup"><span data-stu-id="20f1a-253">4.3.42.0 (03/02/2020)</span></span>
+### <a name="43420-03022020"></a><span data-ttu-id="c83d0-253">4.3.42.0 (2020/03/02) </span><span class="sxs-lookup"><span data-stu-id="c83d0-253">4.3.42.0 (03/02/2020)</span></span>
 
-<span data-ttu-id="20f1a-254">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-254">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-254">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-254">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-255">"适用于商业的 Windows 更新"的策略更新</span><span class="sxs-lookup"><span data-stu-id="20f1a-255">Policy updates for "Windows Updates for Business"</span></span>
-- <span data-ttu-id="20f1a-256">修复了设备事件报告在 Azure Monitor 中显示错误的问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-256">Fix for device events reporting showing error in Azure Monitor</span></span>
+- <span data-ttu-id="c83d0-255">"适用于商业的 Windows 更新"的策略更新</span><span class="sxs-lookup"><span data-stu-id="c83d0-255">Policy updates for "Windows Updates for Business"</span></span>
+- <span data-ttu-id="c83d0-256">修复了设备事件报告在 Azure Monitor 中显示错误的问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-256">Fix for device events reporting showing error in Azure Monitor</span></span>
 
-### <a name="43330-1102020"></a><span data-ttu-id="20f1a-257">2020/1/10 (4.3.33.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-257">4.3.33.0 (1/10/2020)</span></span>
+### <a name="43330-1102020"></a><span data-ttu-id="c83d0-257">2020/1/10 (4.3.33.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-257">4.3.33.0 (1/10/2020)</span></span>
 
-<span data-ttu-id="20f1a-258">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-258">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-258">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-258">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-259">修复了某些配置中出现的窗口大小调整/闪烁问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-259">A fix for a Window resizing/flickering issue that's seen in certain configurations</span></span>
-- <span data-ttu-id="20f1a-260">删除了第三方会议的日历处理</span><span class="sxs-lookup"><span data-stu-id="20f1a-260">Calendar processing for third-party meetings removed</span></span>
-- <span data-ttu-id="20f1a-261">Cortana 状态设置已删除</span><span class="sxs-lookup"><span data-stu-id="20f1a-261">Cortana status setting removed</span></span>
+- <span data-ttu-id="c83d0-259">修复了某些配置中出现的窗口大小调整/闪烁问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-259">A fix for a Window resizing/flickering issue that's seen in certain configurations</span></span>
+- <span data-ttu-id="c83d0-260">删除了第三方会议的日历处理</span><span class="sxs-lookup"><span data-stu-id="c83d0-260">Calendar processing for third-party meetings removed</span></span>
+- <span data-ttu-id="c83d0-261">Cortana 状态设置已删除</span><span class="sxs-lookup"><span data-stu-id="c83d0-261">Cortana status setting removed</span></span>
 
-### <a name="43230-12132019"></a><span data-ttu-id="20f1a-262">2019/12/13 (4.3.23.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-262">4.3.23.0 (12/13/2019)</span></span>
+### <a name="43230-12132019"></a><span data-ttu-id="c83d0-262">2019/12/13 (4.3.23.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-262">4.3.23.0 (12/13/2019)</span></span>
 
-<span data-ttu-id="20f1a-263">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-263">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-263">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-263">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-264">基于自动应答邻近感应的呼叫和管理员设置来控制这一点</span><span class="sxs-lookup"><span data-stu-id="20f1a-264">Auto-answer proximity based calls and admin setting to control this</span></span>
-- <span data-ttu-id="20f1a-265">设备管理员设置 UI 刷新，同时在"关于"选项卡下添加设备配置</span><span class="sxs-lookup"><span data-stu-id="20f1a-265">Device Admin Settings UI refresh with addition of device configuration under About tab</span></span>
-- <span data-ttu-id="20f1a-266">会议室控件返回到主屏幕</span><span class="sxs-lookup"><span data-stu-id="20f1a-266">Room control back to main screen</span></span>
-- <span data-ttu-id="20f1a-267">GCC 中提供的会议室 SKU</span><span class="sxs-lookup"><span data-stu-id="20f1a-267">Meeting Room SKU available in GCC</span></span>
-- <span data-ttu-id="20f1a-268">基于 Surface Pro 的系统的内容相机支持 (最低要求的应用版本：4.2.4.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-268">Content camera support for Surface Pro-based system (Minimum required app build: 4.2.4.0)</span></span>
+- <span data-ttu-id="c83d0-264">基于自动应答邻近感应的呼叫和管理员设置来控制这一点</span><span class="sxs-lookup"><span data-stu-id="c83d0-264">Auto-answer proximity based calls and admin setting to control this</span></span>
+- <span data-ttu-id="c83d0-265">设备管理员设置 UI 刷新，同时在"关于"选项卡下添加设备配置</span><span class="sxs-lookup"><span data-stu-id="c83d0-265">Device Admin Settings UI refresh with addition of device configuration under About tab</span></span>
+- <span data-ttu-id="c83d0-266">会议室控件返回到主屏幕</span><span class="sxs-lookup"><span data-stu-id="c83d0-266">Room control back to main screen</span></span>
+- <span data-ttu-id="c83d0-267">GCC 中提供的会议室 SKU</span><span class="sxs-lookup"><span data-stu-id="c83d0-267">Meeting Room SKU available in GCC</span></span>
+- <span data-ttu-id="c83d0-268">基于 Surface Pro 的系统的内容相机支持 (最低要求的应用版本：4.2.4.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-268">Content camera support for Surface Pro-based system (Minimum required app build: 4.2.4.0)</span></span>
 
-### <a name="4240-10072019"></a><span data-ttu-id="20f1a-269">2019/10/07 (4.2.4.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-269">4.2.4.0 (10/07/2019)</span></span>
+### <a name="4240-10072019"></a><span data-ttu-id="c83d0-269">2019/10/07 (4.2.4.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-269">4.2.4.0 (10/07/2019)</span></span>
 
-<span data-ttu-id="20f1a-270">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-270">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-270">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-270">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-271">Windows 10 1903 支持。</span><span class="sxs-lookup"><span data-stu-id="20f1a-271">Windows 10 1903 support.</span></span> <span data-ttu-id="20f1a-272">Windows 10 1903 更新在应用更新后的几天内提供</span><span class="sxs-lookup"><span data-stu-id="20f1a-272">Windows 10 1903 update is offered in a few days after app update</span></span>
-- <span data-ttu-id="20f1a-273">修复了屏幕键盘无法可靠地显示的问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-273">Fixes for On-screen keyboard not showing up reliably</span></span>
+- <span data-ttu-id="c83d0-271">Windows 10 1903 支持。</span><span class="sxs-lookup"><span data-stu-id="c83d0-271">Windows 10 1903 support.</span></span> <span data-ttu-id="c83d0-272">Windows 10 1903 更新在应用更新后的几天内提供</span><span class="sxs-lookup"><span data-stu-id="c83d0-272">Windows 10 1903 update is offered in a few days after app update</span></span>
+- <span data-ttu-id="c83d0-273">修复了屏幕键盘无法可靠地显示的问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-273">Fixes for On-screen keyboard not showing up reliably</span></span>
 
-### <a name="41220-08152019"></a><span data-ttu-id="20f1a-274">2019/08/15 (4.1.22.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-274">4.1.22.0 (08/15/2019)</span></span>
+### <a name="41220-08152019"></a><span data-ttu-id="c83d0-274">2019/08/15 (4.1.22.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-274">4.1.22.0 (08/15/2019)</span></span>
 
-<span data-ttu-id="20f1a-275">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-275">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-275">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-275">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-276">新的内容相机功能，使用户能够智能地将传统白板加入 Teams 会议</span><span class="sxs-lookup"><span data-stu-id="20f1a-276">A new content camera feature that enables users to intelligently include a traditional whiteboard into their Teams meeting</span></span>
-- <span data-ttu-id="20f1a-277">对主机 UI 的其他改进，以减少混乱，将"设置"移动到新的侧栏中，该侧栏可通过主机上的"更多"访问</span><span class="sxs-lookup"><span data-stu-id="20f1a-277">Additional improvements to the Console UI to reduce clutter and moved Settings into a new side bar that is accessed via More on the console</span></span>
-- <span data-ttu-id="20f1a-278">如果本地内容电缆未连接或内容相机未连接，则禁用共享托盘按钮</span><span class="sxs-lookup"><span data-stu-id="20f1a-278">Disabled share tray button if local content cable is not connected or a content camera is not connected</span></span>
-- <span data-ttu-id="20f1a-279">修复了触摸键盘的故障问题，该问题仅在一次重新启动了一个一次进行一次使用时，才显示</span><span class="sxs-lookup"><span data-stu-id="20f1a-279">Fixed an issue with the touch keyboard where it failed appear the first time only after a MTR system restart</span></span>
-- <span data-ttu-id="20f1a-280">质量和可靠性修复</span><span class="sxs-lookup"><span data-stu-id="20f1a-280">Quality and reliability fixes</span></span>
+- <span data-ttu-id="c83d0-276">新的内容相机功能，使用户能够智能地将传统白板加入 Teams 会议</span><span class="sxs-lookup"><span data-stu-id="c83d0-276">A new content camera feature that enables users to intelligently include a traditional whiteboard into their Teams meeting</span></span>
+- <span data-ttu-id="c83d0-277">对主机 UI 的其他改进，以减少混乱，将"设置"移动到新的侧栏中，该侧栏可通过主机上的"更多"访问</span><span class="sxs-lookup"><span data-stu-id="c83d0-277">Additional improvements to the Console UI to reduce clutter and moved Settings into a new side bar that is accessed via More on the console</span></span>
+- <span data-ttu-id="c83d0-278">如果本地内容电缆未连接或内容相机未连接，则禁用共享托盘按钮</span><span class="sxs-lookup"><span data-stu-id="c83d0-278">Disabled share tray button if local content cable is not connected or a content camera is not connected</span></span>
+- <span data-ttu-id="c83d0-279">修复了触摸键盘的故障问题，该问题仅在一次重新启动了一个一次进行一次使用时，才显示</span><span class="sxs-lookup"><span data-stu-id="c83d0-279">Fixed an issue with the touch keyboard where it failed appear the first time only after a MTR system restart</span></span>
+- <span data-ttu-id="c83d0-280">质量和可靠性修复</span><span class="sxs-lookup"><span data-stu-id="c83d0-280">Quality and reliability fixes</span></span>
 
-### <a name="401050-07102019"></a><span data-ttu-id="20f1a-281">2019/07/10 (4.0.105.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-281">4.0.105.0 (07/10/2019)</span></span>
+### <a name="401050-07102019"></a><span data-ttu-id="c83d0-281">2019/07/10 (4.0.105.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-281">4.0.105.0 (07/10/2019)</span></span>
 
-<span data-ttu-id="20f1a-282">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-282">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-282">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-282">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-283">Skype 会议室系统应用商店应用品牌"Microsoft Teams 会议室"</span><span class="sxs-lookup"><span data-stu-id="20f1a-283">Skype Room System store app rebrand to "Microsoft Teams Rooms"</span></span>
-- <span data-ttu-id="20f1a-284">Microsoft Teams 会议室控制台用户界面已调整到 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="20f1a-284">Microsoft Teams Rooms console user interface realigned to Microsoft Teams</span></span>
-- <span data-ttu-id="20f1a-285">主题更新：仅在会议室显示器前保留自定义背景图像，同时使主机背景成为中性颜色，以确保主机 UI 控件满足颜色对比度 - 辅助功能要求</span><span class="sxs-lookup"><span data-stu-id="20f1a-285">Theme update: only keep custom background image on front of room displays, while making console background a neutral color to ensure console UI controls meet color contrast — accessibility requirements</span></span>
-- <span data-ttu-id="20f1a-286">Teams 呼叫/会议的会议内呼叫控件的通用栏，以提供与 Microsoft Teams 电脑/Web/移动客户端一致的体验<sup>1</sup></span><span class="sxs-lookup"><span data-stu-id="20f1a-286">Universal bar for in-meeting call controls for Teams calls/ meetings to provide consistent experience with Microsoft Teams PC/ Web/ Mobile clients<sup>1</sup></span></span>
-- <span data-ttu-id="20f1a-287">Teams 通话/会议后的通话质量反馈分级<sup>1</sup></span><span class="sxs-lookup"><span data-stu-id="20f1a-287">Call quality feedback rating after Teams calls/ meetings<sup>1</sup></span></span>
-- <span data-ttu-id="20f1a-288">从电脑/Web/移动 Teams 客户端<sup>1</sup> <sup>2</sup>共享时，在 Microsoft Teams 会议室的会议室前接收/呈现 Microsoft Whiteboard</span><span class="sxs-lookup"><span data-stu-id="20f1a-288">Receive/render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup></span></span>
-- <span data-ttu-id="20f1a-289">由于 Microsoft Teams 会议室客户端的兼容性问题，删除了对 Windows 10 版本 1809 升级的支持。</span><span class="sxs-lookup"><span data-stu-id="20f1a-289">Removed support for Windows 10 Version 1809 upgrades due to compatibility issues with Microsoft Teams Rooms client.</span></span> <span data-ttu-id="20f1a-290">将来的版本中将添加 Windows 10 版本 19H1 支持</span><span class="sxs-lookup"><span data-stu-id="20f1a-290">Windows 10 Version 19H1 support will be added in future releases</span></span>
+- <span data-ttu-id="c83d0-283">Skype 会议室系统应用商店应用品牌"Microsoft Teams 会议室"</span><span class="sxs-lookup"><span data-stu-id="c83d0-283">Skype Room System store app rebrand to "Microsoft Teams Rooms"</span></span>
+- <span data-ttu-id="c83d0-284">Microsoft Teams 会议室控制台用户界面已调整到 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c83d0-284">Microsoft Teams Rooms console user interface realigned to Microsoft Teams</span></span>
+- <span data-ttu-id="c83d0-285">主题更新：仅在会议室显示器前保留自定义背景图像，同时使主机背景成为中性颜色，以确保主机 UI 控件满足颜色对比度 - 辅助功能要求</span><span class="sxs-lookup"><span data-stu-id="c83d0-285">Theme update: only keep custom background image on front of room displays, while making console background a neutral color to ensure console UI controls meet color contrast — accessibility requirements</span></span>
+- <span data-ttu-id="c83d0-286">Teams 呼叫/会议的会议内呼叫控件的通用栏，以提供与 Microsoft Teams 电脑/Web/移动客户端一致的体验<sup>1</sup></span><span class="sxs-lookup"><span data-stu-id="c83d0-286">Universal bar for in-meeting call controls for Teams calls/ meetings to provide consistent experience with Microsoft Teams PC/ Web/ Mobile clients<sup>1</sup></span></span>
+- <span data-ttu-id="c83d0-287">Teams 通话/会议后的通话质量反馈分级<sup>1</sup></span><span class="sxs-lookup"><span data-stu-id="c83d0-287">Call quality feedback rating after Teams calls/ meetings<sup>1</sup></span></span>
+- <span data-ttu-id="c83d0-288">从电脑/Web/移动 Teams 客户端<sup>1</sup> <sup>2</sup>共享时，在 Microsoft Teams 会议室的会议室前接收/呈现 Microsoft Whiteboard</span><span class="sxs-lookup"><span data-stu-id="c83d0-288">Receive/render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup></span></span>
+- <span data-ttu-id="c83d0-289">由于 Microsoft Teams 会议室客户端的兼容性问题，删除了对 Windows 10 版本 1809 升级的支持。</span><span class="sxs-lookup"><span data-stu-id="c83d0-289">Removed support for Windows 10 Version 1809 upgrades due to compatibility issues with Microsoft Teams Rooms client.</span></span> <span data-ttu-id="c83d0-290">将来的版本中将添加 Windows 10 版本 19H1 支持</span><span class="sxs-lookup"><span data-stu-id="c83d0-290">Windows 10 Version 19H1 support will be added in future releases</span></span>
 
-<span data-ttu-id="20f1a-291"><sup>1 使用</sup> Teams 圈推出 Microsoft Teams 服务。</span><span class="sxs-lookup"><span data-stu-id="20f1a-291"><sup>1</sup> Microsoft Teams service rollout using Teams rings.</span></span> <span data-ttu-id="20f1a-292">此功能可能在 4.0.105.0 客户端更新之前或之后可用</span><span class="sxs-lookup"><span data-stu-id="20f1a-292">This feature may be available earlier or later than 4.0.105.0 client update</span></span>
+<span data-ttu-id="c83d0-291"><sup>1 使用</sup> Teams 圈推出 Microsoft Teams 服务。</span><span class="sxs-lookup"><span data-stu-id="c83d0-291"><sup>1</sup> Microsoft Teams service rollout using Teams rings.</span></span> <span data-ttu-id="c83d0-292">此功能可能在 4.0.105.0 客户端更新之前或之后可用</span><span class="sxs-lookup"><span data-stu-id="c83d0-292">This feature may be available earlier or later than 4.0.105.0 client update</span></span>
 
-<span data-ttu-id="20f1a-293"><sup>2</sup> 要求 IT 管理员打开 Microsoft Whiteboard。</span><span class="sxs-lookup"><span data-stu-id="20f1a-293"><sup>2</sup> Requires IT admins to turn on Microsoft Whiteboard.</span></span> <span data-ttu-id="20f1a-294">此外，如果会议室显示器前面启用了触摸功能，则必须使用 Windows 设置和设备管理员登录来校准多个触摸显示器，以开始使用 Microsoft Whiteboard 从共享到 Teams 会议的房间显示进行协作</span><span class="sxs-lookup"><span data-stu-id="20f1a-294">Also, if you have a touch-enabled front of room display, you must calibrate multiple touch displays using Windows settings with device administrator login to start using Microsoft Whiteboard for collaboration from a room display shared into a Teams meeting</span></span>
+<span data-ttu-id="c83d0-293"><sup>2</sup> 要求 IT 管理员打开 Microsoft Whiteboard。</span><span class="sxs-lookup"><span data-stu-id="c83d0-293"><sup>2</sup> Requires IT admins to turn on Microsoft Whiteboard.</span></span> <span data-ttu-id="c83d0-294">此外，如果会议室显示器前面启用了触摸功能，则必须使用 Windows 设置和设备管理员登录来校准多个触摸显示器，以开始使用 Microsoft Whiteboard 从共享到 Teams 会议的房间显示进行协作</span><span class="sxs-lookup"><span data-stu-id="c83d0-294">Also, if you have a touch-enabled front of room display, you must calibrate multiple touch displays using Windows settings with device administrator login to start using Microsoft Whiteboard for collaboration from a room display shared into a Teams meeting</span></span>
 
-### <a name="40850-0482019"></a><span data-ttu-id="20f1a-295">2019/04/8 (4.0.85.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-295">4.0.85.0 (04/8/2019)</span></span>
+### <a name="40850-0482019"></a><span data-ttu-id="c83d0-295">2019/04/8 (4.0.85.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-295">4.0.85.0 (04/8/2019)</span></span>
 
-<span data-ttu-id="20f1a-296">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-296">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-296">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-296">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-297">修复了"提供反馈"功能的问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-297">Fixes an issue with the "give feedback" feature</span></span>
-- <span data-ttu-id="20f1a-298">为即将推出的 Microsoft Teams 会议室设备升级到 Windows 10 版本 1809 做准备的优化</span><span class="sxs-lookup"><span data-stu-id="20f1a-298">Optimizations in preparation for the forthcoming Microsoft Teams Rooms device upgrade to Windows 10 Version 1809</span></span>
+- <span data-ttu-id="c83d0-297">修复了"提供反馈"功能的问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-297">Fixes an issue with the "give feedback" feature</span></span>
+- <span data-ttu-id="c83d0-298">为即将推出的 Microsoft Teams 会议室设备升级到 Windows 10 版本 1809 做准备的优化</span><span class="sxs-lookup"><span data-stu-id="c83d0-298">Optimizations in preparation for the forthcoming Microsoft Teams Rooms device upgrade to Windows 10 Version 1809</span></span>
 
-### <a name="40780-03142019"></a><span data-ttu-id="20f1a-299">2019/03/14 (4.0.78.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-299">4.0.78.0 (03/14/2019)</span></span>
+### <a name="40780-03142019"></a><span data-ttu-id="c83d0-299">2019/03/14 (4.0.78.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-299">4.0.78.0 (03/14/2019)</span></span>
 
-<span data-ttu-id="20f1a-300">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-300">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-300">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-300">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-301">修复了影响旧版 Windows 10 RS2 版本上的设备的"在应用启动时挂起"bug。</span><span class="sxs-lookup"><span data-stu-id="20f1a-301">Fix for "hang at app start-up" bug that affected devices on legacy Windows 10 RS2 build.</span></span>
+- <span data-ttu-id="c83d0-301">修复了影响旧版 Windows 10 RS2 版本上的设备的"在应用启动时挂起"bug。</span><span class="sxs-lookup"><span data-stu-id="c83d0-301">Fix for "hang at app start-up" bug that affected devices on legacy Windows 10 RS2 build.</span></span>
 
-### <a name="40760-03042019"></a><span data-ttu-id="20f1a-302">2019/03/04 (4.0.76.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-302">4.0.76.0 (03/04/2019)</span></span>
+### <a name="40760-03042019"></a><span data-ttu-id="c83d0-302">2019/03/04 (4.0.76.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-302">4.0.76.0 (03/04/2019)</span></span>
 
-<span data-ttu-id="20f1a-303">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-303">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-303">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-303">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-304">用于 Microsoft Teams P2P 会议和 PSTN 呼叫的 DTMF 键盘。</span><span class="sxs-lookup"><span data-stu-id="20f1a-304">DTMF keypad for Microsoft Teams P2P meetings and PSTN calls.</span></span> <span data-ttu-id="20f1a-305">若要将 Microsoft Teams 设为默认呼叫客户端，管理员必须将 IsTeamsDefaultClient 设置为 true</span><span class="sxs-lookup"><span data-stu-id="20f1a-305">To make Microsoft Teams your default calling client, admins must set IsTeamsDefaultClient to true</span></span>
-- <span data-ttu-id="20f1a-306">将远程参与者的传入视频固定到会议室显示器前面的全屏。</span><span class="sxs-lookup"><span data-stu-id="20f1a-306">Pin a remote participant's incoming video to full screen on front of room display.</span></span> <span data-ttu-id="20f1a-307">使用主机上参与者名单的"固定"命令</span><span class="sxs-lookup"><span data-stu-id="20f1a-307">Use "Pin" command from participant roster on the console</span></span>
-- <span data-ttu-id="20f1a-308">改进了大厅通知，并新增了"会议室前"通知</span><span class="sxs-lookup"><span data-stu-id="20f1a-308">Improvements to Lobby notifications with addition of Front of Room notification</span></span>
-- <span data-ttu-id="20f1a-309">在 Microsoft Teams 会议室设备上未启用Bluetooth时，会议室前显示转换图标已删除</span><span class="sxs-lookup"><span data-stu-id="20f1a-309">Front of Room display casting icon removed when Bluetooth beacon is not enabled on Microsoft Teams Rooms device</span></span>
-- <span data-ttu-id="20f1a-310">修复了 Teams 会议中的音量控制问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-310">Fix for volume control issue in Teams meetings</span></span>
+- <span data-ttu-id="c83d0-304">用于 Microsoft Teams P2P 会议和 PSTN 呼叫的 DTMF 键盘。</span><span class="sxs-lookup"><span data-stu-id="c83d0-304">DTMF keypad for Microsoft Teams P2P meetings and PSTN calls.</span></span> <span data-ttu-id="c83d0-305">若要将 Microsoft Teams 设为默认呼叫客户端，管理员必须将 IsTeamsDefaultClient 设置为 true</span><span class="sxs-lookup"><span data-stu-id="c83d0-305">To make Microsoft Teams your default calling client, admins must set IsTeamsDefaultClient to true</span></span>
+- <span data-ttu-id="c83d0-306">将远程参与者的传入视频固定到会议室显示器前面的全屏。</span><span class="sxs-lookup"><span data-stu-id="c83d0-306">Pin a remote participant's incoming video to full screen on front of room display.</span></span> <span data-ttu-id="c83d0-307">使用主机上参与者名单的"固定"命令</span><span class="sxs-lookup"><span data-stu-id="c83d0-307">Use "Pin" command from participant roster on the console</span></span>
+- <span data-ttu-id="c83d0-308">改进了大厅通知，并新增了"会议室前"通知</span><span class="sxs-lookup"><span data-stu-id="c83d0-308">Improvements to Lobby notifications with addition of Front of Room notification</span></span>
+- <span data-ttu-id="c83d0-309">在 Microsoft Teams 会议室设备上未启用Bluetooth时，会议室前显示转换图标已删除</span><span class="sxs-lookup"><span data-stu-id="c83d0-309">Front of Room display casting icon removed when Bluetooth beacon is not enabled on Microsoft Teams Rooms device</span></span>
+- <span data-ttu-id="c83d0-310">修复了 Teams 会议中的音量控制问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-310">Fix for volume control issue in Teams meetings</span></span>
 
-### <a name="40640-12142018"></a><span data-ttu-id="20f1a-311">2018/12/14 (4.0.64.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-311">4.0.64.0 (12/14/2018)</span></span>
+### <a name="40640-12142018"></a><span data-ttu-id="c83d0-311">2018/12/14 (4.0.64.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-311">4.0.64.0 (12/14/2018)</span></span>
 
-<span data-ttu-id="20f1a-312">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-312">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-312">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-312">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-313">在双屏幕会议室系统上 (FoR) 显示内容</span><span class="sxs-lookup"><span data-stu-id="20f1a-313">Display content on both Front of Room (FoR) displays on dual screen room systems</span></span>
-- <span data-ttu-id="20f1a-314">"Theming"和"Front of Room"用户界面改进</span><span class="sxs-lookup"><span data-stu-id="20f1a-314">Theming and Front of Room user interface improvements</span></span>
-- <span data-ttu-id="20f1a-315">TLS 1.2 客户端支持。</span><span class="sxs-lookup"><span data-stu-id="20f1a-315">TLS 1.2 client-side support.</span></span> <span data-ttu-id="20f1a-316">对于本地客户，通过 TLS 1.2 为 Microsoft Teams 会议室启用通信需要 Skype for Business Server 2015 累积更新 9 (CU9) 或 Skype for Business Server 2019 累积更新 1 (CU1) 。</span><span class="sxs-lookup"><span data-stu-id="20f1a-316">For on-premise customers, enabling communication over TLS 1.2 for Microsoft Teams Rooms requires Skype for Business Server 2015 Cumulative Update 9 (CU9) or Skype for Business Server 2019 Cumulative Update 1 (CU1).</span></span>
+- <span data-ttu-id="c83d0-313">在双屏幕会议室系统上 (FoR) 显示内容</span><span class="sxs-lookup"><span data-stu-id="c83d0-313">Display content on both Front of Room (FoR) displays on dual screen room systems</span></span>
+- <span data-ttu-id="c83d0-314">"Theming"和"Front of Room"用户界面改进</span><span class="sxs-lookup"><span data-stu-id="c83d0-314">Theming and Front of Room user interface improvements</span></span>
+- <span data-ttu-id="c83d0-315">TLS 1.2 客户端支持。</span><span class="sxs-lookup"><span data-stu-id="c83d0-315">TLS 1.2 client-side support.</span></span> <span data-ttu-id="c83d0-316">对于本地客户，通过 TLS 1.2 为 Microsoft Teams 会议室启用通信需要 Skype for Business Server 2015 累积更新 9 (CU9) 或 Skype for Business Server 2019 累积更新 1 (CU1) 。</span><span class="sxs-lookup"><span data-stu-id="c83d0-316">For on-premise customers, enabling communication over TLS 1.2 for Microsoft Teams Rooms requires Skype for Business Server 2015 Cumulative Update 9 (CU9) or Skype for Business Server 2019 Cumulative Update 1 (CU1).</span></span>
 
-### <a name="40510-11172018"></a><span data-ttu-id="20f1a-317">2018/4.0.51.0 (2018/11/17) </span><span class="sxs-lookup"><span data-stu-id="20f1a-317">4.0.51.0 (11/17/2018)</span></span>
+### <a name="40510-11172018"></a><span data-ttu-id="c83d0-317">2018/4.0.51.0 (2018/11/17) </span><span class="sxs-lookup"><span data-stu-id="c83d0-317">4.0.51.0 (11/17/2018)</span></span>
 
-<span data-ttu-id="20f1a-318">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-318">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-318">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-318">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-319">Teams 会议 (正面) 显示屏幕</span><span class="sxs-lookup"><span data-stu-id="20f1a-319">Dual display (Front of Room) support for Teams Meetings</span></span>
+- <span data-ttu-id="c83d0-319">Teams 会议 (正面) 显示屏幕</span><span class="sxs-lookup"><span data-stu-id="c83d0-319">Dual display (Front of Room) support for Teams Meetings</span></span>
 
-### <a name="40310-10162018"></a><span data-ttu-id="20f1a-320">2018/10/16 (4.0.31.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-320">4.0.31.0 (10/16/2018)</span></span>
+### <a name="40310-10162018"></a><span data-ttu-id="c83d0-320">2018/10/16 (4.0.31.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-320">4.0.31.0 (10/16/2018)</span></span>
 
-<span data-ttu-id="20f1a-321">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-321">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-321">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-321">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-322">质量和可靠性修复</span><span class="sxs-lookup"><span data-stu-id="20f1a-322">Quality and reliability fixes</span></span>
+- <span data-ttu-id="c83d0-322">质量和可靠性修复</span><span class="sxs-lookup"><span data-stu-id="c83d0-322">Quality and reliability fixes</span></span>
 
-### <a name="40270-1012018"></a><span data-ttu-id="20f1a-323">2018/10/1 (4.0.27.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-323">4.0.27.0 (10/1/2018)</span></span>
+### <a name="40270-1012018"></a><span data-ttu-id="c83d0-323">2018/10/1 (4.0.27.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-323">4.0.27.0 (10/1/2018)</span></span>
 
-<span data-ttu-id="20f1a-324">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-324">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-324">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-324">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-325">为以后的 Windows 10 版本 1803 升级准备 Microsoft Teams 会议室应用所需的代码更改</span><span class="sxs-lookup"><span data-stu-id="20f1a-325">Code changes necessary to prepare the Microsoft Teams Rooms app for later Windows 10 Version 1803 upgrade</span></span>
-- <span data-ttu-id="20f1a-326">修复本地化 EUL 格式问题， (挪威语) ，从而阻止超过 EULA OOBE 设置窗口</span><span class="sxs-lookup"><span data-stu-id="20f1a-326">Fix formatting issue with localized EULAs (specifically Norwegian) which prevents advancing beyond EULA OOBE setup window</span></span>
-- <span data-ttu-id="20f1a-327">使 Microsoft Teams Room 应用程序在旧版 Lync Room Systems 上运行所需的代码更改。</span><span class="sxs-lookup"><span data-stu-id="20f1a-327">Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems.</span></span> <span data-ttu-id="20f1a-328">在此处查看 [更多信息](./lrs-migration.md)。</span><span class="sxs-lookup"><span data-stu-id="20f1a-328">See more [here](./lrs-migration.md).</span></span>
+- <span data-ttu-id="c83d0-325">为以后的 Windows 10 版本 1803 升级准备 Microsoft Teams 会议室应用所需的代码更改</span><span class="sxs-lookup"><span data-stu-id="c83d0-325">Code changes necessary to prepare the Microsoft Teams Rooms app for later Windows 10 Version 1803 upgrade</span></span>
+- <span data-ttu-id="c83d0-326">修复本地化 EUL 格式问题， (挪威语) ，从而阻止超过 EULA OOBE 设置窗口</span><span class="sxs-lookup"><span data-stu-id="c83d0-326">Fix formatting issue with localized EULAs (specifically Norwegian) which prevents advancing beyond EULA OOBE setup window</span></span>
+- <span data-ttu-id="c83d0-327">使 Microsoft Teams Room 应用程序在旧版 Lync Room Systems 上运行所需的代码更改。</span><span class="sxs-lookup"><span data-stu-id="c83d0-327">Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems.</span></span> <span data-ttu-id="c83d0-328">在此处查看 [更多信息](./lrs-migration.md)。</span><span class="sxs-lookup"><span data-stu-id="c83d0-328">See more [here](./lrs-migration.md).</span></span>
 
-### <a name="40190-8312018"></a><span data-ttu-id="20f1a-329">2018/8/31 (4.0.19.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-329">4.0.19.0 (8/31/2018)</span></span>
+### <a name="40190-8312018"></a><span data-ttu-id="c83d0-329">2018/8/31 (4.0.19.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-329">4.0.19.0 (8/31/2018)</span></span>
 
-<span data-ttu-id="20f1a-330">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-330">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-330">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-330">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-331">在按下了 Crestron SR 设备上应用按钮时，通常可访问的用于 Crestron 应用程序的修补程序。</span><span class="sxs-lookup"><span data-stu-id="20f1a-331">Hotfix for Crestron application not launching which would normally be accessible when the app button on a Crestron SR device is pressed.</span></span> <span data-ttu-id="20f1a-332">安装 4.0.19.0 后需要重启 Microsoft Teams 会议室应用。</span><span class="sxs-lookup"><span data-stu-id="20f1a-332">Microsoft Teams Rooms app restart required after installation of 4.0.19.0.</span></span>
+- <span data-ttu-id="c83d0-331">在按下了 Crestron SR 设备上应用按钮时，通常可访问的用于 Crestron 应用程序的修补程序。</span><span class="sxs-lookup"><span data-stu-id="c83d0-331">Hotfix for Crestron application not launching which would normally be accessible when the app button on a Crestron SR device is pressed.</span></span> <span data-ttu-id="c83d0-332">安装 4.0.19.0 后需要重启 Microsoft Teams 会议室应用。</span><span class="sxs-lookup"><span data-stu-id="c83d0-332">Microsoft Teams Rooms app restart required after installation of 4.0.19.0.</span></span>
 
-### <a name="40180-08272018"></a><span data-ttu-id="20f1a-333">2018/08/27 (4.0.18.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-333">4.0.18.0 (08/27/2018)</span></span>
+### <a name="40180-08272018"></a><span data-ttu-id="c83d0-333">2018/08/27 (4.0.18.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-333">4.0.18.0 (08/27/2018)</span></span>
 
-<span data-ttu-id="20f1a-334">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-334">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-334">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-334">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-335">Teams 模式下的"报告问题"功能改进 (相当于 Skype for Business 模式下的"提供反馈") </span><span class="sxs-lookup"><span data-stu-id="20f1a-335">"Report a Problem" feature improvements in Teams mode (equivalent of "Give Feedback" in Skype for Business mode)</span></span>
-- <span data-ttu-id="20f1a-336">支持从 Teams 回退到 SIP 呼叫的 Skype for Business 模式</span><span class="sxs-lookup"><span data-stu-id="20f1a-336">Enable ability to fall back from Teams to Skype for Business mode for SIP calls</span></span>
-- <span data-ttu-id="20f1a-337">"讲述人 (放大镜"选项的辅助功能) </span><span class="sxs-lookup"><span data-stu-id="20f1a-337">Accessibility improvements (Narrator, Magnifier)</span></span>
-- <span data-ttu-id="20f1a-338">应用 XML 预配更改后，如果需要，自动重启应用</span><span class="sxs-lookup"><span data-stu-id="20f1a-338">Automatically restart app when required after XML provisioning changes have been applied</span></span>
-- <span data-ttu-id="20f1a-339">其他修补程序</span><span class="sxs-lookup"><span data-stu-id="20f1a-339">Miscellaneous fixes</span></span>
+- <span data-ttu-id="c83d0-335">Teams 模式下的"报告问题"功能改进 (相当于 Skype for Business 模式下的"提供反馈") </span><span class="sxs-lookup"><span data-stu-id="c83d0-335">"Report a Problem" feature improvements in Teams mode (equivalent of "Give Feedback" in Skype for Business mode)</span></span>
+- <span data-ttu-id="c83d0-336">支持从 Teams 回退到 SIP 呼叫的 Skype for Business 模式</span><span class="sxs-lookup"><span data-stu-id="c83d0-336">Enable ability to fall back from Teams to Skype for Business mode for SIP calls</span></span>
+- <span data-ttu-id="c83d0-337">"讲述人 (放大镜"选项的辅助功能) </span><span class="sxs-lookup"><span data-stu-id="c83d0-337">Accessibility improvements (Narrator, Magnifier)</span></span>
+- <span data-ttu-id="c83d0-338">应用 XML 预配更改后，如果需要，自动重启应用</span><span class="sxs-lookup"><span data-stu-id="c83d0-338">Automatically restart app when required after XML provisioning changes have been applied</span></span>
+- <span data-ttu-id="c83d0-339">其他修补程序</span><span class="sxs-lookup"><span data-stu-id="c83d0-339">Miscellaneous fixes</span></span>
 
-### <a name="4080-07062018"></a><span data-ttu-id="20f1a-340">2018/07/06 (4.0.8.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-340">4.0.8.0 (07/06/2018)</span></span>
+### <a name="4080-07062018"></a><span data-ttu-id="c83d0-340">2018/07/06 (4.0.8.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-340">4.0.8.0 (07/06/2018)</span></span>
 
-<span data-ttu-id="20f1a-341">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-341">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-341">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-341">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-342">此更新在会议室系统设备上启用 *Skype* for Business 和 Teams 会议支持。</span><span class="sxs-lookup"><span data-stu-id="20f1a-342">This update enables both Skype for Business *and* Teams meetings support on Room Systems devices.</span></span> <span data-ttu-id="20f1a-343">应用更新后，Teams 将默认关闭。</span><span class="sxs-lookup"><span data-stu-id="20f1a-343">Teams is turned off by default once the update is applied.</span></span> <span data-ttu-id="20f1a-344">管理员可以在设备设置中或通过远程 xml 推送在本地启用 Teams。</span><span class="sxs-lookup"><span data-stu-id="20f1a-344">Admins can enable Teams locally in device settings or via a remote xml push.</span></span>
+- <span data-ttu-id="c83d0-342">此更新在会议室系统设备上启用 *Skype* for Business 和 Teams 会议支持。</span><span class="sxs-lookup"><span data-stu-id="c83d0-342">This update enables both Skype for Business *and* Teams meetings support on Room Systems devices.</span></span> <span data-ttu-id="c83d0-343">应用更新后，Teams 将默认关闭。</span><span class="sxs-lookup"><span data-stu-id="c83d0-343">Teams is turned off by default once the update is applied.</span></span> <span data-ttu-id="c83d0-344">管理员可以在设备设置中或通过远程 xml 推送在本地启用 Teams。</span><span class="sxs-lookup"><span data-stu-id="c83d0-344">Admins can enable Teams locally in device settings or via a remote xml push.</span></span>
 
-### <a name="311150-06182018"></a><span data-ttu-id="20f1a-345">2018/06/18 (3.1.115.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-345">3.1.115.0 (06/18/2018)</span></span>
+### <a name="311150-06182018"></a><span data-ttu-id="c83d0-345">2018/06/18 (3.1.115.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-345">3.1.115.0 (06/18/2018)</span></span>
 
-<span data-ttu-id="20f1a-346">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-346">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-346">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-346">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-347">修复了在应用启动期间在某些系统上观察到的错误。</span><span class="sxs-lookup"><span data-stu-id="20f1a-347">Fix to address error observed on some systems during app launch.</span></span>
+- <span data-ttu-id="c83d0-347">修复了在应用启动期间在某些系统上观察到的错误。</span><span class="sxs-lookup"><span data-stu-id="c83d0-347">Fix to address error observed on some systems during app launch.</span></span>
 
-### <a name="311130-06132018"></a><span data-ttu-id="20f1a-348">2018/06/13 (3.1.113.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-348">3.1.113.0 (06/13/2018)</span></span>
+### <a name="311130-06132018"></a><span data-ttu-id="c83d0-348">2018/06/13 (3.1.113.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-348">3.1.113.0 (06/13/2018)</span></span>
 
-<span data-ttu-id="20f1a-349">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-349">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-349">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-349">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-350">使 Microsoft 能够更灵活地管理 Windows 更新的更改。</span><span class="sxs-lookup"><span data-stu-id="20f1a-350">Changes enabling Microsoft to more flexibly manage Windows Updates.</span></span>
-- <span data-ttu-id="20f1a-351">不更改最终用户体验。</span><span class="sxs-lookup"><span data-stu-id="20f1a-351">No change to end-user experience.</span></span>
+- <span data-ttu-id="c83d0-350">使 Microsoft 能够更灵活地管理 Windows 更新的更改。</span><span class="sxs-lookup"><span data-stu-id="c83d0-350">Changes enabling Microsoft to more flexibly manage Windows Updates.</span></span>
+- <span data-ttu-id="c83d0-351">不更改最终用户体验。</span><span class="sxs-lookup"><span data-stu-id="c83d0-351">No change to end-user experience.</span></span>
 
-### <a name="311120-06052018"></a><span data-ttu-id="20f1a-352">2018/06/05 (3.1.112.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-352">3.1.112.0 (06/05/2018)</span></span>
+### <a name="311120-06052018"></a><span data-ttu-id="c83d0-352">2018/06/05 (3.1.112.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-352">3.1.112.0 (06/05/2018)</span></span>
 
-<span data-ttu-id="20f1a-353">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-353">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-353">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-353">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-354">修复问题，以解决在连接到两个房间前显示器和视频的基于 Surface Pro 2017 的设备上观察到的主机响应问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-354">Fix to address console responsiveness issues observed on Surface Pro 2017-based devices connected to two front-of-room displays and video ingest</span></span>
-- <span data-ttu-id="20f1a-355">自动检查以确保系统正在运行最新的预配脚本</span><span class="sxs-lookup"><span data-stu-id="20f1a-355">Automated check to ensure that system is running latest provisioning script</span></span>
+- <span data-ttu-id="c83d0-354">修复问题，以解决在连接到两个房间前显示器和视频的基于 Surface Pro 2017 的设备上观察到的主机响应问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-354">Fix to address console responsiveness issues observed on Surface Pro 2017-based devices connected to two front-of-room displays and video ingest</span></span>
+- <span data-ttu-id="c83d0-355">自动检查以确保系统正在运行最新的预配脚本</span><span class="sxs-lookup"><span data-stu-id="c83d0-355">Automated check to ensure that system is running latest provisioning script</span></span>
 
-### <a name="311040-04162018"></a><span data-ttu-id="20f1a-356">2018/04/16 (3.1.104.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-356">3.1.104.0 (04/16/2018)</span></span>
+### <a name="311040-04162018"></a><span data-ttu-id="c83d0-356">2018/04/16 (3.1.104.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-356">3.1.104.0 (04/16/2018)</span></span>
 
-<span data-ttu-id="20f1a-357">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-357">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-357">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-357">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-358">修复了在基于 Windows 10 (1709 的系统中改进屏幕键盘) 的 OSK 功能</span><span class="sxs-lookup"><span data-stu-id="20f1a-358">Fix to improve OSK (on-screen keyboard) behavior in Window 10 Version 1709-based systems</span></span>
-- <span data-ttu-id="20f1a-359">为将来操作系统更新做准备的改进</span><span class="sxs-lookup"><span data-stu-id="20f1a-359">Improvements to prepare for future operating system updates</span></span>
+- <span data-ttu-id="c83d0-358">修复了在基于 Windows 10 (1709 的系统中改进屏幕键盘) 的 OSK 功能</span><span class="sxs-lookup"><span data-stu-id="c83d0-358">Fix to improve OSK (on-screen keyboard) behavior in Window 10 Version 1709-based systems</span></span>
+- <span data-ttu-id="c83d0-359">为将来操作系统更新做准备的改进</span><span class="sxs-lookup"><span data-stu-id="c83d0-359">Improvements to prepare for future operating system updates</span></span>
 
-### <a name="311000-03162018"></a><span data-ttu-id="20f1a-360">2018/03/16 (3.1.100.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-360">3.1.100.0 (03/16/2018)</span></span>
+### <a name="311000-03162018"></a><span data-ttu-id="c83d0-360">2018/03/16 (3.1.100.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-360">3.1.100.0 (03/16/2018)</span></span>
 
-<span data-ttu-id="20f1a-361">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-361">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-361">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-361">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-362">更新应用程序以改进遥测</span><span class="sxs-lookup"><span data-stu-id="20f1a-362">Application updated to improve telemetry</span></span>
+- <span data-ttu-id="c83d0-362">更新应用程序以改进遥测</span><span class="sxs-lookup"><span data-stu-id="c83d0-362">Application updated to improve telemetry</span></span>
 
-### <a name="31990-03142018"></a><span data-ttu-id="20f1a-363">2018/03/14 (3.1.99.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-363">3.1.99.0 (03/14/2018)</span></span>
+### <a name="31990-03142018"></a><span data-ttu-id="c83d0-363">2018/03/14 (3.1.99.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-363">3.1.99.0 (03/14/2018)</span></span>
 
-<span data-ttu-id="20f1a-364">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-364">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-364">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-364">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-365">修复了可能发生间歇性会议加入问题的问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-365">Fixes an issue where intermittent meeting join issues may occur</span></span>
-- <span data-ttu-id="20f1a-366">修复了已知导致设备"挂起"体验的问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-366">Fixes an issue known to result in a device "hang" experience</span></span>
+- <span data-ttu-id="c83d0-365">修复了可能发生间歇性会议加入问题的问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-365">Fixes an issue where intermittent meeting join issues may occur</span></span>
+- <span data-ttu-id="c83d0-366">修复了已知导致设备"挂起"体验的问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-366">Fixes an issue known to result in a device "hang" experience</span></span>
 
-### <a name="31980-382018"></a><span data-ttu-id="20f1a-367">3.1.98.0 (2018/3/8) </span><span class="sxs-lookup"><span data-stu-id="20f1a-367">3.1.98.0 (3/8/2018)</span></span>
+### <a name="31980-382018"></a><span data-ttu-id="c83d0-367">3.1.98.0 (2018/3/8) </span><span class="sxs-lookup"><span data-stu-id="c83d0-367">3.1.98.0 (3/8/2018)</span></span>
 
-<span data-ttu-id="20f1a-368">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-368">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-368">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-368">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-369">Bug/崩溃修复，以提高稳定性</span><span class="sxs-lookup"><span data-stu-id="20f1a-369">Bug/Crash fixes to improve stability</span></span>
-- <span data-ttu-id="20f1a-370">支持可变大小的主机</span><span class="sxs-lookup"><span data-stu-id="20f1a-370">Support for variable-sized console</span></span>
-- <span data-ttu-id="20f1a-371">外围设备音频处理卸载 (额外的媒体允许列表) </span><span class="sxs-lookup"><span data-stu-id="20f1a-371">Peripheral audio processing offloading (additional media allowlist)</span></span>
-- <span data-ttu-id="20f1a-372">使 IT 专业人员能够使用 Windows 10 版本 1709 1 月更新及更高版本构建自己动手映像的优化。</span><span class="sxs-lookup"><span data-stu-id="20f1a-372">Optimizations that enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.</span></span>
+- <span data-ttu-id="c83d0-369">Bug/崩溃修复，以提高稳定性</span><span class="sxs-lookup"><span data-stu-id="c83d0-369">Bug/Crash fixes to improve stability</span></span>
+- <span data-ttu-id="c83d0-370">支持可变大小的主机</span><span class="sxs-lookup"><span data-stu-id="c83d0-370">Support for variable-sized console</span></span>
+- <span data-ttu-id="c83d0-371">外围设备音频处理卸载 (额外的媒体允许列表) </span><span class="sxs-lookup"><span data-stu-id="c83d0-371">Peripheral audio processing offloading (additional media allowlist)</span></span>
+- <span data-ttu-id="c83d0-372">使 IT 专业人员能够使用 Windows 10 版本 1709 1 月更新及更高版本构建自己动手映像的优化。</span><span class="sxs-lookup"><span data-stu-id="c83d0-372">Optimizations that enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.</span></span>
 
-### <a name="30160-11272017"></a><span data-ttu-id="20f1a-373">2017/11/27 (3.0.16.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-373">3.0.16.0 (11/27/2017)</span></span>
+### <a name="30160-11272017"></a><span data-ttu-id="c83d0-373">2017/11/27 (3.0.16.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-373">3.0.16.0 (11/27/2017)</span></span>
 
-<span data-ttu-id="20f1a-374">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-374">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-374">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-374">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-375">修复了"提供反馈"功能的问题。</span><span class="sxs-lookup"><span data-stu-id="20f1a-375">Fixes an issue with the "Give Feedback" feature.</span></span>
+- <span data-ttu-id="c83d0-375">修复了"提供反馈"功能的问题。</span><span class="sxs-lookup"><span data-stu-id="c83d0-375">Fixes an issue with the "Give Feedback" feature.</span></span>
 
-### <a name="30150-1032017"></a><span data-ttu-id="20f1a-376">2017/10/3 (3.0.15.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-376">3.0.15.0 (10/3/2017)</span></span>
+### <a name="30150-1032017"></a><span data-ttu-id="c83d0-376">2017/10/3 (3.0.15.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-376">3.0.15.0 (10/3/2017)</span></span>
 
-<span data-ttu-id="20f1a-377">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-377">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-377">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-377">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-378">支持 [Polycom MSR 系列扩展](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) 坞硬件</span><span class="sxs-lookup"><span data-stu-id="20f1a-378">Support for [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware</span></span>
-- <span data-ttu-id="20f1a-379">对 [Logitech Brio 的支持](https://www.logitech.com/product/brio)</span><span class="sxs-lookup"><span data-stu-id="20f1a-379">Support for the [Logitech Brio](https://www.logitech.com/product/brio)</span></span>
-- <span data-ttu-id="20f1a-380">解决在 (没有活动时显示) 进入睡眠模式的问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-380">Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room</span></span>
+- <span data-ttu-id="c83d0-378">支持 [Polycom MSR 系列扩展](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) 坞硬件</span><span class="sxs-lookup"><span data-stu-id="c83d0-378">Support for [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware</span></span>
+- <span data-ttu-id="c83d0-379">对 [Logitech Brio 的支持](https://www.logitech.com/product/brio)</span><span class="sxs-lookup"><span data-stu-id="c83d0-379">Support for the [Logitech Brio](https://www.logitech.com/product/brio)</span></span>
+- <span data-ttu-id="c83d0-380">解决在 (没有活动时显示) 进入睡眠模式的问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-380">Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room</span></span>
 
-### <a name="30120-912017"></a><span data-ttu-id="20f1a-381">2017/9/1 (3.0.12.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-381">3.0.12.0 (9/1/2017)</span></span>
+### <a name="30120-912017"></a><span data-ttu-id="c83d0-381">2017/9/1 (3.0.12.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-381">3.0.12.0 (9/1/2017)</span></span>
 
-<span data-ttu-id="20f1a-382">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-382">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-382">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-382">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-383">在 Surface Pro (2017 平板电脑) 运行</span><span class="sxs-lookup"><span data-stu-id="20f1a-383">Runs on a Surface Pro (2017) tablet</span></span>
-- <span data-ttu-id="20f1a-384">支持 Windows 10 企业版创意者更新 (英语版本 1703) </span><span class="sxs-lookup"><span data-stu-id="20f1a-384">Supports Windows 10 Enterprise Creator's Update (English language, build 1703)</span></span>
-- <span data-ttu-id="20f1a-385">支持 [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) 扩展坞硬件</span><span class="sxs-lookup"><span data-stu-id="20f1a-385">Support for [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware</span></span>
-- <span data-ttu-id="20f1a-386">针对 Crestron (环境控件的 OEM) </span><span class="sxs-lookup"><span data-stu-id="20f1a-386">OEM Support for Environment Controls (Crestron)</span></span>
+- <span data-ttu-id="c83d0-383">在 Surface Pro (2017 平板电脑) 运行</span><span class="sxs-lookup"><span data-stu-id="c83d0-383">Runs on a Surface Pro (2017) tablet</span></span>
+- <span data-ttu-id="c83d0-384">支持 Windows 10 企业版创意者更新 (英语版本 1703) </span><span class="sxs-lookup"><span data-stu-id="c83d0-384">Supports Windows 10 Enterprise Creator's Update (English language, build 1703)</span></span>
+- <span data-ttu-id="c83d0-385">支持 [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) 扩展坞硬件</span><span class="sxs-lookup"><span data-stu-id="c83d0-385">Support for [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware</span></span>
+- <span data-ttu-id="c83d0-386">针对 Crestron (环境控件的 OEM) </span><span class="sxs-lookup"><span data-stu-id="c83d0-386">OEM Support for Environment Controls (Crestron)</span></span>
 
-<span data-ttu-id="20f1a-387">自 Microsoft Teams 会议室版本 3.0.12.0 (update 3) 起，不再支持 64 位版本的 Windows 10 企业周年纪念版 (英语版本 1607) 。</span><span class="sxs-lookup"><span data-stu-id="20f1a-387">The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0 (update 3).</span></span>
+<span data-ttu-id="c83d0-387">自 Microsoft Teams 会议室版本 3.0.12.0 (update 3) 起，不再支持 64 位版本的 Windows 10 企业周年纪念版 (英语版本 1607) 。</span><span class="sxs-lookup"><span data-stu-id="c83d0-387">The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0 (update 3).</span></span>
 
-### <a name="3080-842017"></a><span data-ttu-id="20f1a-388">2017/8/4 (3.0.8.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-388">3.0.8.0 (8/4/2017)</span></span>
+### <a name="3080-842017"></a><span data-ttu-id="c83d0-388">2017/8/4 (3.0.8.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-388">3.0.8.0 (8/4/2017)</span></span>
 
-<span data-ttu-id="20f1a-389">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-389">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-389">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-389">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-390">解决通过"参与者"搜索字段搜索联合用户时观察到的问题。</span><span class="sxs-lookup"><span data-stu-id="20f1a-390">Resolves issues observed when searching for federated users through the Participants search field.</span></span> <span data-ttu-id="20f1a-391">在此修补程序之前，外部联合用户的搜索结果可能未正确解析，而是返回了不正确的结果。</span><span class="sxs-lookup"><span data-stu-id="20f1a-391">Previous to this fix, search results for external federated users may not have resolved correctly and instead returned incorrect results.</span></span>
+- <span data-ttu-id="c83d0-390">解决通过"参与者"搜索字段搜索联合用户时观察到的问题。</span><span class="sxs-lookup"><span data-stu-id="c83d0-390">Resolves issues observed when searching for federated users through the Participants search field.</span></span> <span data-ttu-id="c83d0-391">在此修补程序之前，外部联合用户的搜索结果可能未正确解析，而是返回了不正确的结果。</span><span class="sxs-lookup"><span data-stu-id="c83d0-391">Previous to this fix, search results for external federated users may not have resolved correctly and instead returned incorrect results.</span></span>
 
-### <a name="3060-772017"></a><span data-ttu-id="20f1a-392">2017/7/7 (3.0.6.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-392">3.0.6.0 (7/7/2017)</span></span>
+### <a name="3060-772017"></a><span data-ttu-id="c83d0-392">2017/7/7 (3.0.6.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-392">3.0.6.0 (7/7/2017)</span></span>
 
-<span data-ttu-id="20f1a-393">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-393">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-393">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-393">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-394">Dual-Screen支持 (旧版系统奇偶校验) </span><span class="sxs-lookup"><span data-stu-id="20f1a-394">Dual-Screen support (for legacy system parity)</span></span>
-- <span data-ttu-id="20f1a-395">主题 (内置主题，并能够设置自定义主题) </span><span class="sxs-lookup"><span data-stu-id="20f1a-395">Themes (built-in themes and the ability to set custom theme)</span></span>
-- <span data-ttu-id="20f1a-396">为公共版本提供反馈的能力</span><span class="sxs-lookup"><span data-stu-id="20f1a-396">Ability to Give Feedback for public builds</span></span>
-- <span data-ttu-id="20f1a-397">改进了有关会议加入可靠性的遥测</span><span class="sxs-lookup"><span data-stu-id="20f1a-397">Improved Telemetry around meeting join reliability</span></span>
-- <span data-ttu-id="20f1a-398">改进了 OMS 报告</span><span class="sxs-lookup"><span data-stu-id="20f1a-398">Improved OMS reporting</span></span>
-- <span data-ttu-id="20f1a-399">IT 管理员能够远程配置设备</span><span class="sxs-lookup"><span data-stu-id="20f1a-399">Ability for IT Admin to configure devices remotely</span></span>
+- <span data-ttu-id="c83d0-394">Dual-Screen支持 (旧版系统奇偶校验) </span><span class="sxs-lookup"><span data-stu-id="c83d0-394">Dual-Screen support (for legacy system parity)</span></span>
+- <span data-ttu-id="c83d0-395">主题 (内置主题，并能够设置自定义主题) </span><span class="sxs-lookup"><span data-stu-id="c83d0-395">Themes (built-in themes and the ability to set custom theme)</span></span>
+- <span data-ttu-id="c83d0-396">为公共版本提供反馈的能力</span><span class="sxs-lookup"><span data-stu-id="c83d0-396">Ability to Give Feedback for public builds</span></span>
+- <span data-ttu-id="c83d0-397">改进了有关会议加入可靠性的遥测</span><span class="sxs-lookup"><span data-stu-id="c83d0-397">Improved Telemetry around meeting join reliability</span></span>
+- <span data-ttu-id="c83d0-398">改进了 OMS 报告</span><span class="sxs-lookup"><span data-stu-id="c83d0-398">Improved OMS reporting</span></span>
+- <span data-ttu-id="c83d0-399">IT 管理员能够远程配置设备</span><span class="sxs-lookup"><span data-stu-id="c83d0-399">Ability for IT Admin to configure devices remotely</span></span>
 
-### <a name="2020-03152017"></a><span data-ttu-id="20f1a-400">2017/03/15 (2.0.2.0) </span><span class="sxs-lookup"><span data-stu-id="20f1a-400">2.0.2.0 (03/15/2017)</span></span>
+### <a name="2020-03152017"></a><span data-ttu-id="c83d0-400">2017/03/15 (2.0.2.0) </span><span class="sxs-lookup"><span data-stu-id="c83d0-400">2.0.2.0 (03/15/2017)</span></span>
 
-<span data-ttu-id="20f1a-401">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="20f1a-401">Introduced in this update:</span></span>
+<span data-ttu-id="c83d0-401">此更新中引入：</span><span class="sxs-lookup"><span data-stu-id="c83d0-401">Introduced in this update:</span></span>
 
-- <span data-ttu-id="20f1a-402">应用内用户选择会议室音频和视频 USB 设备</span><span class="sxs-lookup"><span data-stu-id="20f1a-402">In-app user selection of meeting room audio and video USB devices</span></span>
-- <span data-ttu-id="20f1a-403">使用 Microsoft Operations Management Suite（现为 Azure Monitor）的客户集成会议室控制台状态报告</span><span class="sxs-lookup"><span data-stu-id="20f1a-403">Integrated room console status reporting for customers using Microsoft Operations Management Suite, now Azure Monitor</span></span>
+- <span data-ttu-id="c83d0-402">应用内用户选择会议室音频和视频 USB 设备</span><span class="sxs-lookup"><span data-stu-id="c83d0-402">In-app user selection of meeting room audio and video USB devices</span></span>
+- <span data-ttu-id="c83d0-403">使用 Microsoft Operations Management Suite（现为 Azure Monitor）的客户集成会议室控制台状态报告</span><span class="sxs-lookup"><span data-stu-id="c83d0-403">Integrated room console status reporting for customers using Microsoft Operations Management Suite, now Azure Monitor</span></span>
 
-### <a name="release-to-market-1272016"></a><span data-ttu-id="20f1a-404">2016 年 12 (7 月 12 日上市) </span><span class="sxs-lookup"><span data-stu-id="20f1a-404">Release to Market (12/7/2016)</span></span>
+### <a name="release-to-market-1272016"></a><span data-ttu-id="c83d0-404">2016 年 12 (7 月 12 日上市) </span><span class="sxs-lookup"><span data-stu-id="c83d0-404">Release to Market (12/7/2016)</span></span>
 
-<span data-ttu-id="20f1a-405">**功能 (功能) ：**</span><span class="sxs-lookup"><span data-stu-id="20f1a-405">**Feature(s):**</span></span>
+<span data-ttu-id="c83d0-405">**功能 (功能) ：**</span><span class="sxs-lookup"><span data-stu-id="c83d0-405">**Feature(s):**</span></span>
 
- <span data-ttu-id="20f1a-406">**为 Skype for Business 而构建**</span><span class="sxs-lookup"><span data-stu-id="20f1a-406">**Built for Skype for Business**</span></span>
+ <span data-ttu-id="c83d0-406">**为 Skype for Business 而构建**</span><span class="sxs-lookup"><span data-stu-id="c83d0-406">**Built for Skype for Business**</span></span>
 
-- <span data-ttu-id="20f1a-407">一键式加入 Skype 会议</span><span class="sxs-lookup"><span data-stu-id="20f1a-407">One-touch join of Skype Meetings</span></span>
-- <span data-ttu-id="20f1a-408">针对具有屏幕填充 HD 视频和 HD 宽带音频的会议室优化的 Skype 会议体验</span><span class="sxs-lookup"><span data-stu-id="20f1a-408">Skype Meeting experience optimized for rooms with screen-filling HD video and HD wide-band audio</span></span>
-- <span data-ttu-id="20f1a-409">所有参与者均可使用所选设备从任意位置连接到 Skype 会议</span><span class="sxs-lookup"><span data-stu-id="20f1a-409">All participants can connect to the Skype Meeting using their device of choice from wherever they may be located</span></span>
-- <span data-ttu-id="20f1a-410">从目录中（在此可立即看到用户的状态）或通过电话呼叫邀请用户</span><span class="sxs-lookup"><span data-stu-id="20f1a-410">Invite people from your directory where you can instantly see their availability or via a phone call</span></span>
-- <span data-ttu-id="20f1a-411">支持 Skype for Business PSTN 会议和 PSTN 呼叫，以替代会议室中的单独会议电话</span><span class="sxs-lookup"><span data-stu-id="20f1a-411">Supports Skype for Business PSTN Conferencing and PSTN Calling to replace the stand-alone conference phone in your room</span></span>
+- <span data-ttu-id="c83d0-407">一键式加入 Skype 会议</span><span class="sxs-lookup"><span data-stu-id="c83d0-407">One-touch join of Skype Meetings</span></span>
+- <span data-ttu-id="c83d0-408">针对具有屏幕填充 HD 视频和 HD 宽带音频的会议室优化的 Skype 会议体验</span><span class="sxs-lookup"><span data-stu-id="c83d0-408">Skype Meeting experience optimized for rooms with screen-filling HD video and HD wide-band audio</span></span>
+- <span data-ttu-id="c83d0-409">所有参与者均可使用所选设备从任意位置连接到 Skype 会议</span><span class="sxs-lookup"><span data-stu-id="c83d0-409">All participants can connect to the Skype Meeting using their device of choice from wherever they may be located</span></span>
+- <span data-ttu-id="c83d0-410">从目录中（在此可立即看到用户的状态）或通过电话呼叫邀请用户</span><span class="sxs-lookup"><span data-stu-id="c83d0-410">Invite people from your directory where you can instantly see their availability or via a phone call</span></span>
+- <span data-ttu-id="c83d0-411">支持 Skype for Business PSTN 会议和 PSTN 呼叫，以替代会议室中的单独会议电话</span><span class="sxs-lookup"><span data-stu-id="c83d0-411">Supports Skype for Business PSTN Conferencing and PSTN Calling to replace the stand-alone conference phone in your room</span></span>
 
- <span data-ttu-id="20f1a-412">**转换任何会议室**</span><span class="sxs-lookup"><span data-stu-id="20f1a-412">**Transform Any Meeting Room**</span></span>
+ <span data-ttu-id="c83d0-412">**转换任何会议室**</span><span class="sxs-lookup"><span data-stu-id="c83d0-412">**Transform Any Meeting Room**</span></span>
 
-- <span data-ttu-id="20f1a-413">专用的 Skype 会议应用针对桌面中心触摸式控制器和会议室前方的大型显示屏进行了优化</span><span class="sxs-lookup"><span data-stu-id="20f1a-413">Dedicated Skype Meeting app optimized for center of table touch controller and large front of room display</span></span>
-- <span data-ttu-id="20f1a-414">重复使用会议室显示器或投影仪前面的现有投资</span><span class="sxs-lookup"><span data-stu-id="20f1a-414">Reuse existing investments in your front of room display or projectors</span></span>
-- <span data-ttu-id="20f1a-415">适用于各种类型的会议室，从小型到大型会议室</span><span class="sxs-lookup"><span data-stu-id="20f1a-415">Works in all types of meeting spaces from huddle spaces to large conference rooms</span></span>
-- <span data-ttu-id="20f1a-416">经认证的 Skype for Business 音频和视频设备可用于各种规模的会议室</span><span class="sxs-lookup"><span data-stu-id="20f1a-416">Certified Skype for Business audio and video devices are available for various room sizes</span></span>
-- <span data-ttu-id="20f1a-417">内置的有线采集可用于将桌面共享投影到会议室和 Skype 会议</span><span class="sxs-lookup"><span data-stu-id="20f1a-417">Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting</span></span>
+- <span data-ttu-id="c83d0-413">专用的 Skype 会议应用针对桌面中心触摸式控制器和会议室前方的大型显示屏进行了优化</span><span class="sxs-lookup"><span data-stu-id="c83d0-413">Dedicated Skype Meeting app optimized for center of table touch controller and large front of room display</span></span>
+- <span data-ttu-id="c83d0-414">重复使用会议室显示器或投影仪前面的现有投资</span><span class="sxs-lookup"><span data-stu-id="c83d0-414">Reuse existing investments in your front of room display or projectors</span></span>
+- <span data-ttu-id="c83d0-415">适用于各种类型的会议室，从小型到大型会议室</span><span class="sxs-lookup"><span data-stu-id="c83d0-415">Works in all types of meeting spaces from huddle spaces to large conference rooms</span></span>
+- <span data-ttu-id="c83d0-416">经认证的 Skype for Business 音频和视频设备可用于各种规模的会议室</span><span class="sxs-lookup"><span data-stu-id="c83d0-416">Certified Skype for Business audio and video devices are available for various room sizes</span></span>
+- <span data-ttu-id="c83d0-417">内置的有线采集可用于将桌面共享投影到会议室和 Skype 会议</span><span class="sxs-lookup"><span data-stu-id="c83d0-417">Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting</span></span>
 
- <span data-ttu-id="20f1a-418">**易于部署、便于管理**</span><span class="sxs-lookup"><span data-stu-id="20f1a-418">**Easy to Deploy, Simple to Manage**</span></span>
+ <span data-ttu-id="c83d0-418">**易于部署、便于管理**</span><span class="sxs-lookup"><span data-stu-id="c83d0-418">**Easy to Deploy, Simple to Manage**</span></span>
 
-- <span data-ttu-id="20f1a-419">在检测到会议室中的人员时自动唤醒显示器的始终打开设备</span><span class="sxs-lookup"><span data-stu-id="20f1a-419">Always-on appliance that automatically wakes up the displays when it detects people in the room</span></span>
-- <span data-ttu-id="20f1a-420">UWP（通用 Windows 平台）Skype 会议应用的部署和更新都非常简单</span><span class="sxs-lookup"><span data-stu-id="20f1a-420">Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App</span></span>
-- <span data-ttu-id="20f1a-421">Windows AppLocker 可将设备锁定至 Skype 会议应用</span><span class="sxs-lookup"><span data-stu-id="20f1a-421">Windows AppLocker locks down the device to the Skype Meeting app</span></span>
-- <span data-ttu-id="20f1a-422">通过 Intune 和 Configuration Manager (MDM 作为 Windows 10 企业版设备进行监视) </span><span class="sxs-lookup"><span data-stu-id="20f1a-422">Monitored and managed as a Windows 10 Enterprise device via Intune and Configuration Manager (MDM)</span></span>
-- <span data-ttu-id="20f1a-423">企业级可靠性</span><span class="sxs-lookup"><span data-stu-id="20f1a-423">Enterprise-grade reliability</span></span>
-- <span data-ttu-id="20f1a-424">由于最终用户很熟悉 Skype 用户界面，因此只需进行少量培训</span><span class="sxs-lookup"><span data-stu-id="20f1a-424">Low training effort of end-users due to familiar Skype user interface</span></span>
-- <span data-ttu-id="20f1a-425">在 Surface Pro 4 平板电脑上运行</span><span class="sxs-lookup"><span data-stu-id="20f1a-425">Runs on Surface Pro 4 tablet</span></span>
+- <span data-ttu-id="c83d0-419">在检测到会议室中的人员时自动唤醒显示器的始终打开设备</span><span class="sxs-lookup"><span data-stu-id="c83d0-419">Always-on appliance that automatically wakes up the displays when it detects people in the room</span></span>
+- <span data-ttu-id="c83d0-420">UWP（通用 Windows 平台）Skype 会议应用的部署和更新都非常简单</span><span class="sxs-lookup"><span data-stu-id="c83d0-420">Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App</span></span>
+- <span data-ttu-id="c83d0-421">Windows AppLocker 可将设备锁定至 Skype 会议应用</span><span class="sxs-lookup"><span data-stu-id="c83d0-421">Windows AppLocker locks down the device to the Skype Meeting app</span></span>
+- <span data-ttu-id="c83d0-422">通过 Intune 和 Configuration Manager (MDM 作为 Windows 10 企业版设备进行监视) </span><span class="sxs-lookup"><span data-stu-id="c83d0-422">Monitored and managed as a Windows 10 Enterprise device via Intune and Configuration Manager (MDM)</span></span>
+- <span data-ttu-id="c83d0-423">企业级可靠性</span><span class="sxs-lookup"><span data-stu-id="c83d0-423">Enterprise-grade reliability</span></span>
+- <span data-ttu-id="c83d0-424">由于最终用户很熟悉 Skype 用户界面，因此只需进行少量培训</span><span class="sxs-lookup"><span data-stu-id="c83d0-424">Low training effort of end-users due to familiar Skype user interface</span></span>
+- <span data-ttu-id="c83d0-425">在 Surface Pro 4 平板电脑上运行</span><span class="sxs-lookup"><span data-stu-id="c83d0-425">Runs on Surface Pro 4 tablet</span></span>
 
-<span data-ttu-id="20f1a-426"><a name="See"> </a></span><span class="sxs-lookup"><span data-stu-id="20f1a-426"><a name="See"> </a></span></span>
-## <a name="see-also"></a><span data-ttu-id="20f1a-427">另请参阅</span><span class="sxs-lookup"><span data-stu-id="20f1a-427">See also</span></span>
+<span data-ttu-id="c83d0-426"><a name="See"> </a></span><span class="sxs-lookup"><span data-stu-id="c83d0-426"><a name="See"> </a></span></span>
+## <a name="see-also"></a><span data-ttu-id="c83d0-427">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c83d0-427">See also</span></span>
 
-[<span data-ttu-id="20f1a-428">Microsoft Teams 会议室帮助</span><span class="sxs-lookup"><span data-stu-id="20f1a-428">Microsoft Teams Rooms help</span></span>](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[<span data-ttu-id="c83d0-428">Microsoft Teams 会议室帮助</span><span class="sxs-lookup"><span data-stu-id="c83d0-428">Microsoft Teams Rooms help</span></span>](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[<span data-ttu-id="20f1a-429">准备环境</span><span class="sxs-lookup"><span data-stu-id="20f1a-429">Prepare your environment</span></span>](rooms-prep.md)
+[<span data-ttu-id="c83d0-429">准备环境</span><span class="sxs-lookup"><span data-stu-id="c83d0-429">Prepare your environment</span></span>](rooms-prep.md)
 
-[<span data-ttu-id="20f1a-430">支持 Microsoft Teams 会议室当前分支版本</span><span class="sxs-lookup"><span data-stu-id="20f1a-430">Support for Microsoft Teams Rooms Current Branch versions</span></span>](rooms-lifecycle-support.md)
+[<span data-ttu-id="c83d0-430">支持 Microsoft Teams 会议室当前分支版本</span><span class="sxs-lookup"><span data-stu-id="c83d0-430">Support for Microsoft Teams Rooms Current Branch versions</span></span>](rooms-lifecycle-support.md)
 
-[<span data-ttu-id="20f1a-431">已知问题</span><span class="sxs-lookup"><span data-stu-id="20f1a-431">Known issues</span></span>](known-issues.md)
+[<span data-ttu-id="c83d0-431">已知问题</span><span class="sxs-lookup"><span data-stu-id="c83d0-431">Known issues</span></span>](known-issues.md)
 
-[<span data-ttu-id="20f1a-432">Microsoft Teams 会议室规划</span><span class="sxs-lookup"><span data-stu-id="20f1a-432">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
+[<span data-ttu-id="c83d0-432">Microsoft Teams 会议室规划</span><span class="sxs-lookup"><span data-stu-id="c83d0-432">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
 
-[<span data-ttu-id="20f1a-433">管理 Microsoft Teams 会议室</span><span class="sxs-lookup"><span data-stu-id="20f1a-433">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
+[<span data-ttu-id="c83d0-433">管理 Microsoft Teams 会议室</span><span class="sxs-lookup"><span data-stu-id="c83d0-433">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
