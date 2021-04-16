@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: 了解 Teams 中的状态以及状态功能的管理设置。
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: MT
+ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460552"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768411"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -52,7 +52,7 @@ ms.locfileid: "50460552"
 || ![带箭头的紫色圆圈，表示外出](media/Presence_OOF.png) 外出。 设置自动答复时，将使用“外出”。 （仅适用于 Outlook。） |
 |||
  > [!Note]
- > 对于托管了邮箱的用户，预期其状态延迟最大为一小时。
+ > 对于进行邮箱托管的用户，预期其状态延迟最大为一小时。
 应用配置的状态基于用户活动（在线、离开）、Outlook 日历状态（会议中）或 Teams 应用状态（通话中、正在演示）。 当根据你的日历，你正处于专注模式时，“**专注**”将是人们在 Teams 中看到的状态。 在其他产品中，专注模式将显示为“**请勿打扰**”。
 
 当你锁定计算机或计算机进入空闲或睡眠模式时，你当前的状态将更改为“离开”。 在移动设备上，每当 Teams 应用处于后台时，你的状态就会更改为“离开”。
