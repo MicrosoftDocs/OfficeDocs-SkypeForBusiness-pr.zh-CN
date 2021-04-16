@@ -26,12 +26,12 @@ description: 了解 Microsoft Teams 括号、EHR 集成、第一线工作者系�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092680"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760595"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -140,7 +140,7 @@ Teams 中的列表应用可帮助团队跟踪信息和组织工作。 该应用�
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>使用"任务"应用跟踪和监视任务
 
-在 teams [使用](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) 任务"来跟踪为整个健康团队执行项目。 你的健康团队可以从运行 Teams 的任何设备随时创建、分配和安排任务、对任务进行分类和更新状态。
+在 teams [使用](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) 任务"来跟踪为整个健康团队执行项目。 你的健康团队可以从运行 Teams 的任何设备随时创建、分配和安排任务、对任务进行分类和更新状态。 IT 专业人员和管理员可以将任务发布到组织的特定团队。 例如，可以发布一组任务，用于新的安全协议或要在整个医院中使用的新入口步骤。
 
 有关详细信息，请参阅 [Microsoft Teams 中为组织管理"任务"应用](../../manage-tasks-app.md)
 

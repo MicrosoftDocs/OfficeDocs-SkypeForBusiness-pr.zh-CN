@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft Teams 会议室托管服务。
 f1keywords: ''
-ms.openlocfilehash: b174f0d3f608502d74d4dfbc33aa9bac66b684d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9fdfa4a3fdb6c9058f5feada655a88abcd136b3e
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117500"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768431"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 会议室托管服务
 
@@ -91,86 +91,7 @@ Microsoft Teams 会议室托管服务通过专用的 Microsoft Teams 会议室�
 
 ## <a name="supported-regions"></a>支持的区域
 
-Microsoft Teams 会议室托管服务可在以下国家和地区使用。 
-
-- 安道尔
-- 澳大利亚
-- 奥地利
-- 比利时
-- 布维岛
-- 巴西
-- 保加利亚
-- 加拿大
-- 圣诞岛
-- 科科斯 (基林) 群岛
-- 维尔京群岛
-- 克罗地亚
-- 塞浦路斯
-- 捷克共和国
-- 丹麦
-- 爱沙尼亚
-- 法罗群岛
-- 斐济
-- 法国
-- 德国
-- 直布罗陀
-- 希腊
-- 格陵兰
-- 赫德岛和 McDonald 群岛
-- 香港特别行政区
-- 匈牙利
-- 冰岛
-- 印度
-- 爱尔兰
-- 意大利
-- 日本
-- 基里巴斯
-- 拉脱维亚
-- 莱索托
-- 列支敦士登
-- 立陶宛
-- 卢森堡
-- 澳门特别行政区
-- 马耳他
-- 马绍尔群岛
-- 墨西哥
-- 密克罗尼西亚
-- 摩纳哥
-- 澳大利亚
-- 荷兰
-- 新西兰
-- 纽埃
-- 诺folk 岛
-- 北马里亚纳群岛
-- 挪威
-- 帕劳
-- 新西兰
-- 基茨凯恩群岛
-- 波兰
-- 葡萄牙
-- 罗马尼亚
-- 俄罗斯
-- 圣马丁和密克隆群岛
-- 萨摩亚
-- 圣马力诺
-- 新加坡
-- 斯洛伐克
-- 斯洛文尼亚
-- 福克兰群岛
-- 南非
-- 西班牙
-- 斯威士兰
-- 瑞典
-- 瑞士
-- 台湾
-- 群岛
-- 斐济
-- 秘鲁
-- 英国
-- 美国
-- 萨摩亚
-- 梵蒂冈城
-- 瓦利斯和富图纳
+Microsoft Teams 会议室托管服务在提供 Microsoft 365 的所有国家和地区中均可用。 有关国家和地区的完整列表，请参阅 [Microsoft 365 国际可用性](https://www.microsoft.com/microsoft-365/business/international-availability)。
 
 ## <a name="support-inclusions-and-exclusions"></a>支持包含和排除
 

@@ -14,51 +14,53 @@ metadata:
   ms.reviewer: nsuter
   audience: admin
   f1.keywords:
-  - NOCSH
+    - NOCSH
   localization_priority: Normal
-  ROBOTS: NOINDEX, NOFOLLOW
+  ROBOTS: 'NOINDEX, NOFOLLOW'
   ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+    - Teams_ITAdmin_JourneyFromSfB
+    - M365-collaboration
   ms.custom:
-  - seo-marvel-apr2020
+    - seo-marvel-apr2020
   search.appverid: MET150
   appliesto:
-  - Microsoft Teams
-  ms.openlocfilehash: 2cd84e6eeb43816d86424f2e63919efb750cdaa5
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51102698"
+    - Microsoft Teams
 productDirectory:
   summary: 单击任何研讨会标题进行注册。
   items:
-  - title: 那么...想要与 Teams 通话？
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 加入我们，深入了解如何向 Teams 部署添加 PSTN 呼叫功能。 我们将一起演练调用术语、关键概念和配置。
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: 在 Teams 中负责音频/视频质量
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: 想要确保用户具有最佳的会议和语音功能体验？ 我们将讨论可帮助你管理服务质量的工具、报告和最佳做法 - 从建立主动策略到解决常见问题。
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Teams 基础中的应用
-    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: 此基础会话涵盖基本功能，包括应用管理和安全性。 了解如何将工作流、效率应用和日常使用的服务集成到单个统一的体验中。
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: 在 Teams 中将关键工作流与应用相加
-    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: 将组织依赖的应用引入 Teams，连接系统、增强自动化，并为用户提供改进的体验。
-    url: https://aka.ms/ChalkTalkKeyApps
+    - title: 在 Teams 中负责音频/视频质量
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
+      summary: 想要确保用户具有最佳的会议和语音功能体验？ 我们将讨论可帮助你管理服务质量的工具、报告和最佳做法 - 从建立主动策略到解决常见问题。
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksQuality'
+    - title: 那么...想要与 Teams 通话？
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
+      summary: 加入我们，深入了解如何向 Teams 部署添加 PSTN 呼叫功能。 我们将一起演练调用术语、关键概念和配置。
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksCalling'
+    - title: 使用 Microsoft Teams 激活实时事件
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
+      summary: 使用 Microsoft Teams 通过大型在线虚拟活动吸引受众并吸引他们。 了解确保事件成功的最佳实践。
+      url: 'https://aka.ms/ChalkTalksVirtualEvents'
+    - title: Teams 基础中的应用
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
+      summary: 此基础会话涵盖基本功能，包括应用管理和安全性。 了解如何将工作流、效率应用和日常使用的服务集成到单个统一的体验中。
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksApps'
+    - title: 在 Teams 中将关键工作流与应用相加
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
+      summary: 将组织依赖的应用引入 Teams，连接系统、增强自动化，并为用户提供改进的体验。
+      url: 'https://aka.ms/ChalkTalkKeyApps'
+    - title: 让一线员工能够使用 Teams 执行更多工作
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
+      summary: 探索最佳做法，为一线员工计划和实现简化的体验，实现高效对话、信息共享和计划管理。
+      url: 'https://aka.ms/TeamsFLW'
 additionalContent:
   sections:
-  - items:
-    - title: 仍在使用 Skype for Business？
-      summary: 查看升级研讨会系列。
-      url: upgrade-workshops-landing-page.yml
-    - title: 准备用户
-      summary: 使用 Teams Live 培训让用户启动并运行。
-      url: ./instructor-led-training-teams-landing-page.yml
-    - title: 不熟悉 Teams？
-      summary: 详细了解 Teams 入门。
-      url: ./teams-overview.md
+    - items:
+        - title: 仍在使用 Skype for Business？
+          summary: 查看升级研讨会系列。
+          url: upgrade-workshops-landing-page.yml
+        - title: 准备用户
+          summary: 使用 Teams Live 培训让用户启动并运行。
+          url: ./instructor-led-training-teams-landing-page.yml
+        - title: 不熟悉 Teams？
+          summary: 详细了解 Teams 入门。
+          url: ./teams-overview.md

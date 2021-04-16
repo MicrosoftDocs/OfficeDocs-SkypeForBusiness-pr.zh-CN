@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft Teams 会议室发行说明，其中列出了 Microsoft Teams 会议室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a922f3fead6c33f70e7393dd536b856934ddb390
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607538"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768362"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -75,7 +75,7 @@ ms.locfileid: "51607538"
 ### <a name="48190-04062021"></a>4.8.19.0 (2021/04/06) 
 
 此更新中引入：
-- 政府社区云高 (GCCH) Teams 会议室支持。 使用现有 Teams 会议室设备的 GCCH 客户可以从手动更新[Microsoft Teams 会议室](manual-update.md)设备下载版本 4.8.18.0
+- 政府社区云高 (GCCH) Teams 会议室支持。 使用现有 Teams 会议室设备的 GCCH 客户可以从手动更新[Microsoft Teams 会议室](manual-update.md)设备下载版本 4.8.19.0
 - 通过 720p (视频质量加入缩放会议) 并接收参与者的视频库
 - 为 Teams 默认模式删除了 Skype for Business 登录失败横幅。 此更改支持组织删除 Skype for Business 基础结构
 - Teams 会议加入链接分析现在处理 Microsoft Defender 高级线程保护安全链接，以允许无缝加入外部 Teams

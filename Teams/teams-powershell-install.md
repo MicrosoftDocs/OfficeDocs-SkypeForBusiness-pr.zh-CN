@@ -13,12 +13,12 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6679cd22800307ec95ac242c190d6483411413a9
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: 002f2bc8408536d79274c5e9b001f5e2a5eb55b3
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586541"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768333"
 ---
 # <a name="install-microsoft-teams-powershell"></a>安装 Microsoft Teams PowerShell
 
@@ -28,8 +28,8 @@ ms.locfileid: "51586541"
 
 Teams PowerShell 要求在所有平台上使用 PowerShell 5.1 或更高版本。 安装[适用于操作系统的最新版本的 PowerShell。](/powershell/scripting/install/installing-powershell)
 
-> [!WARNING]
-> PowerShell 7 和 Teams PowerShell 存在已知问题。 为获得最佳体验，建议使用 PowerShell 5.1。
+> [!NOTE]
+> 为获得最佳体验，建议使用 PowerShell 5.1。
 
 ## <a name="install-the-teams-powershell-module"></a>安装 Teams PowerShell 模块
 
@@ -69,10 +69,6 @@ $credential = Get-Credential
 
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -Credential $credential
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credential $credential
-Import-PsSession $session
 ```
 
 ## <a name="sign-in-using-mfa-and-modern-authentication"></a>使用 MFA 和新式身份验证登录
@@ -82,10 +78,6 @@ Import-PsSession $session
 ```powershell
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -AccountId <UPN>
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession
-Import-PsSession $session
 ```
 
 ## <a name="update-teams-powershell"></a>更新 Teams PowerShell

@@ -13,12 +13,12 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d191d4d1dbb9c3d3d2f206bce76e9d3ddd7d78d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094112"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768351"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell 概述
 
@@ -48,7 +48,7 @@ Teams PowerShell 在 [PowerShell 库中提供两](https://www.powershellgallery.
 - [Microsoft Teams PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)：Teams PowerShell 模块包含用于管理团队、聊天和频道的 cmdlet。
 
 > [!NOTE]
-> [Teams PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)1.1.6 或更高版本与 Skype for Business Online Connector 集成，为 Teams PowerShell 管理提供单个模块。
+> [Teams PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)2.0 或更高版本包括所有 Skype for Business Online 连接器 cmdlet，为 Teams PowerShell 管理提供单个模块。
 
 - [Skype for Business PowerShell 连接器](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)：Skype for Business PowerShell 连接器现在是 Teams PowerShell 模块的一部分。
 
