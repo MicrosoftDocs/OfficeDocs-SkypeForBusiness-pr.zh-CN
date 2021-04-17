@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何使用 Microsoft Teams 为呼叫队列设置电话系统，它提供问候消息、保存音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 87c65a104b8b6921aecf2ceb860d677cfa8f7d33
-ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
+ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760585"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51874448"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -80,6 +80,11 @@ ms.locfileid: "51760585"
 可以通过 Teams 频道最多添加 200 个代理。
 
 如果要使用 [Teams 频道管理](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)队列，请选择"**选择团队"选项，** 然后单击"**添加频道"。** 搜索想要使用的团队，将其选中，然后单击"添加 **"。** 选择想要使用的频道，然后单击"应用 **"。**
+
+将 Teams 频道用于呼叫队列时，支持以下客户端： 
+
+  - Microsoft Teams Windows 客户端
+  - Microsoft Teams Mac 客户端
 
 ##### <a name="users-and-groups"></a>用户和组
 

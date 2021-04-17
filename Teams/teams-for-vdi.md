@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: b7262cc77310a9ea198a51af720e6e5117a72111
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858045"
+ms.locfileid: "51874468"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -395,7 +395,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 呼叫队列
 - 共享系统音频/计算机声音
 - 直接路由的媒体旁路
-- 放大共享内容
+- 缩放控件 
 
 > [!NOTE]
 > 我们正在努力添加当前仅在非 VDI 环境中可用的呼叫和会议功能。 这些可能包括对质量的更多管理员控制、其他屏幕共享方案和最近添加到 Teams 的高级功能。 请联系 Teams 代表，详细了解即将推出的功能。

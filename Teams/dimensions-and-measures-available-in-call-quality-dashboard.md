@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关 Microsoft Teams 和 Skype for Business Online 呼叫质量仪表板 (CQD) 使用的维度和度量的详细信息。
-ms.openlocfilehash: 6e7733320331cae0f57b82615fcebe9d8d620c72
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cef151eb8941135112bab92a806b620727567bee
+ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115570"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "51880451"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>呼叫质量仪表板和 CQD (中的维度和) 
 
@@ -77,8 +77,8 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Second OS Filtered  | 字符串  | 第二终结点报告的操作系统名称和主要版本及次要版本。 此字符串可以包含多个 OS 名称和版本。 <br/> **示例值：** Windows 10  | <br/>&bull; 终结点未报告此信息 <br/>&bull; 未收到来自此终结点的报告 |
 | First OS Architecture  | 字符串  | 第一终结点报告的硬件体系结构。 <br/> **示例值：x64**  | &bull; 终结点未报告此信息 <br/>&bull; 未收到来自此终结点的报告 <br/>&bull; 无法识别体系结构的格式 |
 | Second OS Architecture  | 字符串  | 第二终结点报告的硬件体系结构。 <br/> **示例值：x64**  | &bull; 终结点未报告此信息 <br/>&bull; 未收到来自此终结点的报告 <br/>&bull; 无法识别体系结构的格式  |
-| First Virtualization Flag  | 枚举 <br/>**可能的值：** <br/> "0x00" = None " <br/> "0x01" = HyperV <br/> "0x02" = VMWare <br/> "0x04" = 虚拟电脑 <br/> "0x08" = Xen PC | 指示第一终结点报告的虚拟化环境类型的标志。 | <br/>&bull; 终结点未报告数据 |
-| Second Virtualization Flag  | 枚举 <br/>**可能的值：** <br/> "0x00" = None " <br/> "0x01" = HyperV <br/> "0x02" = VMWare <br/> "0x04" = 虚拟电脑 <br/> "0x08" = Xen PC | 指示第二终结点报告的虚拟化环境类型的标志。  | <br/>&bull; 终结点未报告数据 |
+| First Virtualization Flag  | 枚举 <br/>**可能的值：** <br/> "0x00" = 无  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = 虚拟电脑 <br/> "0x08" = Xen PC | 指示第一终结点报告的虚拟化环境类型的标志。 | <br/>&bull; 终结点未报告数据 |
+| Second Virtualization Flag  | 枚举 <br/>**可能的值：** <br/> "0x00" = 无  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = 虚拟电脑 <br/> "0x08" = Xen PC | 指示第二终结点报告的虚拟化环境类型的标志。  | <br/>&bull; 终结点未报告数据 |
 |First Endpoint Make |String |设备制造商从终结点数据文件 EndpointMake 字段读取信息。 | <br/>&bull; 终结点没有数据文件 |
 | 第一终结点模型 |String|设备模型，从终结点数据文件 EndpointModel 字段读取信息。| <br/>&bull; 终结点没有数据文件 |
 | 第一终结点类型|String|设备类型，从终结点数据文件 EndpointType 字段读取信息。| <br/>&bull; 终结点没有数据文件 |
@@ -91,6 +91,16 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | 第二终结点标签 1|String| 可自定义的标签，从终结点数据文件读取信息。 | <br/>&bull; 终结点没有数据文件 |
 | 第二终结点标签 2|String|可自定义的标签，从终结点数据文件读取信息。| <br/>&bull; 终结点没有数据文件|
 | 第二终结点标签 3|String|可自定义的标签，从终结点数据文件读取信息。| <br/>&bull; 终结点没有数据文件 |
+| First ASN|String|第一终结点的自治系统编号。 <br/> **示例值** ：8069  | <br/>&bull; 网络数据无法确定终结点 ASN |
+| Second ASN|String|第二终结点的自治系统编号。 <br/> **示例值** ：8069  | <br/>&bull; 网络数据无法确定终结点 ASN |
+| 第一个 ASN 国家/地区代码|String|为第一终结点确定的自治系统编号的国家/地区代码。 <br/> **示例值：** 美国  | <br/>&bull; 网络数据无法确定终结点 ASN |
+| 第二个 ASN 国家/地区代码|String|为第二终结点确定的自治系统编号的国家/地区代码。 <br/> **示例值：** 美国  | <br/>&bull; 网络数据无法确定终结点 ASN |
+| 第一个 ASN 国家/地区|String|为第一终结点确定的自治系统编号的国家/地区名称。 <br/> **示例值：** 美国  | <br/>&bull; 网络数据无法确定终结点 ASN |
+| 第二个 ASN 国家/地区|String|为第二终结点确定的自治系统编号的国家/地区名称。 <br/> **示例值：** 美国  | <br/>&bull; 网络数据无法确定终结点 ASN |
+| First ASN City|String|为第一终结点确定的自治系统编号的城市名称。 <br/> **示例值：** 雷德蒙德  | <br/>&bull; 网络数据无法确定终结点 ASN |
+| Second ASN City|String|为第二终结点确定的自治系统编号的城市名称。 <br/> **示例值：** 雷德蒙德  | <br/>&bull; 网络数据无法确定终结点 ASN |
+| 第一个 ASN 状态|String|为第一终结点确定的自治系统编号的状态名称。 <br/> **示例值：** WA  | <br/>&bull; 网络数据无法确定终结点 ASN |
+| 第二个 ASN 状态|String|为第二终结点确定的自治系统编号的状态名称。 <br/> **示例值：** WA  | <br/>&bull; 网络数据无法确定终结点 ASN |
 |**大楼**| | |
 | First Network | 字符串 | 如果子网存在于子网到租户建筑物数据中，则第一终结点用于媒体流的子网。 <br/> **示例值** ：10.0.1.12.0 | &bull; 终结点未报告网络数据 <br/>&bull; 子网映射数据中未定义网络。  |
 | First Network Name  | 字符串  | 第一终结点用于媒体流的网络的名称。 基于子网与租户建筑物数据的映射。 <br/> **示例值：** USA/WA/REDMOND | &bull; 终结点未报告网络数据 <br/>&bull; 子网映射数据中未定义网络  |
@@ -443,7 +453,10 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 |抖动|毫秒|RTP 数据包到达时间的变化。 有关详细信息， [请参阅呼叫质量仪表板中的](stream-classification-in-call-quality-dashboard.md) 流分类。<br/>**示例** ：5.982||
 |Packet Loss Rate|百分比|中介服务器与 SBC 或网关之间的流百分比（如果可用）。 有关详细信息， [请参阅呼叫质量仪表板中的](stream-classification-in-call-quality-dashboard.md) 流分类。<br/>**示例** ：1.2%||
 |往返 (延迟) |毫秒|计算每个流的平均网络传播往返时间。 有关详细信息， [请参阅呼叫质量仪表板中的](stream-classification-in-call-quality-dashboard.md) 流分类。<br/>**示例** ：3.49||
+|**会议**|||
+|会议方案|枚举 <br/>**可能的值：** <br/> Bookings <br/> EHR 连接器 <br/> 未知 |由会议安排客户端团队提供的字段 (例如 Bookings、EHR Connector) 遥测数据，以帮助区分其他会议。 截至 2021 年 4 月，只有 Bookings 和 EHR 连接器已注册以提供遥测数据来识别会议方案。|计划客户端尚未通过其遥测提供此参数。|
 ||||
+
 
 ### <a name="notes-on-dimension-data-typeunits"></a>维度维度数据类型/单位的备注
 
