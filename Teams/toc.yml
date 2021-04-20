@@ -1470,14 +1470,6 @@ items:
     items:
       - name: Teams 限制和规范
         href: limits-specifications-teams.md
-      - name: 从 Kaizala 移动到 Microsoft Teams
-        items:
-          - name: Kaizala 和 Microsoft Teams
-            items:
-              - name: 你的 Teams 路径
-                href: prepare-for-teams.md
-                items:
-                  - name: 浏览 Teams 功能
       - name: 授权
         items:
           - name: 管理对 Teams 的用户访问
