@@ -3,6 +3,52 @@
 
 
 
+## <a name="week-of-april-12-2021"></a>2021 年 4 月 12 日周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 4/12/2021 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 4/12/2021 | [在 Microsoft Teams 中管理策略包](/MicrosoftTeams/manage-policy-packages) | 修改内容 |
+| 4/12/2021 | [仅查看会议体验](/MicrosoftTeams/view-only-meeting-experience) | 修改内容 |
+| 4/12/2021 | [电话系统直接路由](/MicrosoftTeams/direct-routing-protocols-sip) | 修改内容 |
+| 4/12/2021 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
+| 4/12/2021 | [Azure Sentinel 和 Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | 修改内容 |
+| 4/12/2021 | [Microsoft Teams 中的信息屏障](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
+| 4/13/2021 | [管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
+| 4/13/2021 | [Azure Sentinel 和 Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | 修改内容 |
+| 4/13/2021 | [Microsoft Teams 安全指南](/MicrosoftTeams/teams-security-guide) | 修改内容 |
+| 4/13/2021 | [Microsoft Teams 的一些对话](/MicrosoftTeams/chalk-talks-landing-page) | 修改内容 |
+| 4/13/2021 | [医疗保健组织的 Teams 入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 修改内容 |
+| 4/13/2021 | [获取 Microsoft Teams 客户端](/MicrosoftTeams/get-clients) | 修改内容 |
+| 4/13/2021 | [使用呼叫分析排查通话质量不佳的问题](/MicrosoftTeams/use-call-analytics-to-troubleshoot-poor-call-quality) | 修改内容 |
+| 4/14/2021 | [在 Microsoft Teams 中导航](/MicrosoftTeams/navigate-teams) | 添加内容 |
+| 4/14/2021 | [绘制 Kaizala 到 Teams 旅程的图表](/MicrosoftTeams/prepare-for-teams) | 添加内容 |
+| 4/14/2021 | [Microsoft 365 多地域启用环境中的团队体验](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 修改内容 |
+| 4/14/2021 | [获取 Microsoft Teams 客户端](/MicrosoftTeams/get-clients) | 修改内容 |
+| 4/14/2021 | [Microsoft Teams 的硬件要求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修改内容 |
+| 4/14/2021 | [为 Teams 准备贵组织的网络](/MicrosoftTeams/prepare-network) | 修改内容 |
+| 4/14/2021 | [Teams 中的用户状态](/MicrosoftTeams/presence-admins) | 修改内容 |
+| 4/14/2021 | [Microsoft Teams 中的私人频道](/MicrosoftTeams/private-channels) | 修改内容 |
+| 4/14/2021 | [发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
+| 4/14/2021 | [安装 Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install) | 修改内容 |
+| 4/14/2021 | [Microsoft Teams PowerShell 概述](/MicrosoftTeams/teams-powershell-overview) | 修改内容 |
+| 4/14/2021 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
+| 4/14/2021 | [解决 Windows 上的 Microsoft Teams 安装和更新问题](/MicrosoftTeams/troubleshoot-installation) | 修改内容 |
+| 4/14/2021 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
+| 4/14/2021 | [Microsoft Teams 会议室托管服务](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 修改内容 |
+| 4/15/2021 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
+| 4/15/2021 | [配置动态紧急呼叫](/MicrosoftTeams/configure-dynamic-emergency-calling) | 修改内容 |
+| 4/15/2021 | [Microsoft Teams 会议室托管服务](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 修改内容 |
+| 4/15/2021 | [Microsoft Teams IT 体系结构和语音解决方案海报](/MicrosoftTeams/teams-architecture-solutions-posters) | 修改内容 |
+| 4/16/2021 | [安装 Power BI 连接器以使用 CQD 查询模板](/MicrosoftTeams/cqd-power-bi-connector) | 修改内容 |
+| 4/16/2021 | [在 Microsoft Teams 创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 4/16/2021 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
+| 4/16/2021 | [Teams 基于策略的通话录制简介&会议](/MicrosoftTeams/teams-recording-policy) | 修改内容 |
+| 4/16/2021 | [维度和度量 - 呼叫质量仪表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
+| 4/16/2021 | [安装、管理和分配 Microsoft Viva Learning (个人预览版) ](/MicrosoftTeams/teams-learning-app-overview) | 修改内容 |
+
+
 ## <a name="week-of-april-05-2021"></a>2021 年 4 月 5 日周
 
 

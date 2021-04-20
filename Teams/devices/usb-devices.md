@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 外设和设备 (耳机、免提电话、网络摄像机和监视器) Microsoft Teams 认证。
-ms.openlocfilehash: 61ebda3e8ef41678e6e9ca7e0c34a293ef86b81e
-ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
+ms.openlocfilehash: 83249166b725deab7ec0231b9dae761e5aa8a4a4
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51399149"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886701"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -74,12 +74,17 @@ ms.locfileid: "51399149"
 
 ## <a name="certified-devices"></a>认证设备
 
-*表更新时间：2021 年 3 月*
+*表更新时间：2021 年 4 月*
 
 | 制造商        | 模型                                                     | 限定      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Microsoft            |现代 USB-C 扬声器                                       |4/15/2021       |Microsoft Teams 认证                           |
+|Microsoft            |现代 USB 耳机                                         |4/15/2021       |Microsoft Teams 认证                           |
+|Yealink              |UVC20 网络摄像机                                               |3/30/2021       |Microsoft Teams 认证                           |
+|Microsoft            |现代网络摄像机                                              |3/24/2021       |Microsoft Teams 认证                           |
 |EPOS/Sennheiser      |改编 200 系列耳机                                  |3/19/2021       |Microsoft Teams 认证                           |
 |Jabra                |Evolve2 30 耳机                                         |3/1/2021        |Microsoft Teams 认证                           |
+|Microsoft            |Surface Headphones 2+                                      |2/26/2021       |Microsoft Teams 认证                           |
 |Poly                 |Studio P15 视频栏                                       |2/1/2021        |Microsoft Teams 认证                           |
 |Poly                 |同步 40 免提电话                                       |1/19/2021       |Microsoft Teams 认证                           |
 |Poly                 |将 40+ 免提电话与 Poly BT600 USB 适配器同步           |1/19/2021       |Microsoft Teams 认证                           |

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6fa7d46a4ace2e6bc12289f9abe71362511d24c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 63a9cf6cab1bfb50c17c8546a65ad50e41759edc
+ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117080"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51891279"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>设置团队目标层次结构
 
@@ -135,9 +135,9 @@ CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点
 TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
 Recall,,db23e6ba-04a6-412a-95e8-49e5b01943ba,,,,,,
 Communications,,145399ce-a761-4843-a110-3077249037fc,,,,,,
-HR,,,,,,,,
-East Regional Office,,,,,,,,
-West Regional Office,,,,,,,,
+HR,,125399ce-a761-4983-a125-3abc249037fc,,,,,,
+East Regional Office,HR;Communications;Recall,,,,,,,
+West Regional Office,HR;Communications;Recall,,,,,,,
 Northeast Zone,East Regional Office,,,,,,,
 Southeast Zone,East Regional Office,,,,,,,
 New York Store,Northeast Zone,e2ba65f6-25e7-488b-b8f0-b8562d5de60a,Large,1,1,,,

@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 820689e2bcfa190afefda9d161c787c6be9a7da0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2f8e24bd9035d45639ac4211435355fe7b792a2d
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118471"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886731"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Teams 中的 Cortana 语音帮助
 
 > [!Note]
-> Microsoft Teams iOS 和 Android 移动应用、Windows 版 Microsoft Teams 会议室和 Microsoft Teams 显示器支持 Cortana 语音帮助，仅适用于美国用户。 它当前不适用于 GCC、GCC-High、DoD、EDU 租户。 在将来的版本中，将扩展到其他语言和地区。
+> 适用于 iOS 和 Android 的 Microsoft Teams 移动应用支持 Cortana 语音帮助，而 Microsoft Teams 显示适用于美国、英国、加拿大、印度和澳大利亚的用户。  Windows 上的 Microsoft Teams 会议室仅支持美国用户。 Cortana 语音帮助目前不适用于 GCC、GCC-High、DoD、EDU 租户。 在将来的版本中，将扩展到其他语言和地区。
 
 > [!Note]
 > Microsoft Teams 会议室中的 Cortana 语音帮助在预览版下发布。 在其预览版中，只有美国支持 Cortana，在连接了 Rally 麦克风的设备上支持语言 EN-US。
