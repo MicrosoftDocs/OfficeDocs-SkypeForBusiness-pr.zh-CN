@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768381"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899083"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备组织网络 
 
@@ -42,10 +42,9 @@ ms.locfileid: "51768381"
     > [!IMPORTANT]
     > 如果需要与本地或联机 Skype for Business 联合，则需要配置一些额外的 DNS 记录。
     >
-    >|CNAME 记录/主机名  |TTL  |指向地址或值  |
-    >|---------|---------|---------|
-    >|sip     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|DNS 记录  |服务  |协议  |优先级  |权重  |端口  |目标  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |{1}     |5061     |sipfed.online.lync.com     |
     
 2.  您是否拥有 Microsoft 365 或 Office 365 的验证域（例如，contoso.com）？
     
@@ -60,7 +59,7 @@ ms.locfileid: "51768381"
 确认满足这些网络要求后，即可推出 [Teams](./deploy-overview.md)。 如果您是大型跨国企业，或者清楚自身存在一些网络限制，请继续阅读，了解如何针对 Teams 对您的网络进行评估和优化。
 
 > [!IMPORTANT]
-> **对于教育机构**：如果您的组织是教育机构，并且使用学生信息系统 （SIS）， 请[部署学校数据同步](/schooldatasync/) 之后再推出 Teams。
+> **对于教育机构**：如果您的组织是教育机构，并且使用学生信息系统 （SIS）， 请 [部署学校数据同步](/schooldatasync/) 之后再推出 Teams。
 >  
 > **运行本地 Skype for Business Server**：如果您的组织正在运行本地 Skype for Business Server（或 Lync Server），则必须 [配置 Azure AD Connect](/skypeforbusiness/hybrid/configure-azure-ad-connect) 以将您的本地目录与 Microsoft 365 或 Office 365 同步。
 
@@ -85,8 +84,8 @@ ms.locfileid: "51768381"
 <table>
 <thead>
 <tr class="header">
-<th><strong>网络优化任务</strong></th>
-<th><strong>详细信息</strong></th>
+<th>网络优化任务</th>
+<th>详细信息</th>
 </tr>
 </thead>
 <tbody>
