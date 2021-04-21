@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 04e9507595ef721ced5d47eb58646559601c5cab
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697777"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899123"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 - SIP 协议
 
@@ -168,6 +168,9 @@ SIP 代理需要计算新对话客户端事务的下一跃点 FQDN (例如 Bye �
     > 在某些情况下，媒体应答可能未生成，并且最终点可能使用"已接受呼叫"消息进行应答。
 
 -   已接受呼叫 – 由 SIP 代理转换为包含 SDP 的 SIP 消息 200。 收到消息 200 时，SBC 预期会向提供的 SDP 候选项发送和接收媒体。
+
+    > [!NOTE]
+    > 直接路由不支持在没有 SDP (的延迟产品/服务邀请) 。
 
 #### <a name="multiple-endpoints-ringing-with-provisional-answer"></a>多个终结点使用临时答案响铃
 

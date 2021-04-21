@@ -2,7 +2,7 @@
 title: Teams 中的“审批”应用程序可用性
 author: cichur
 ms.author: v-cichur
-ms.reviewer: aravin
+ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
+ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103008"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51902566"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -40,6 +40,9 @@ ms.locfileid: "51103008"
 
 本文介绍了“审批”应用要求和角色。
 
+> [!NOTE]
+> 此功能尚未向政府社区云 (GCC) 、政府社区云高 (GCCH) 和国防部 (DOD) 用户发布。
+
 ## <a name="required-permissions-and-licenses"></a>所需权限和许可证
 
 若要使用“审批”应用，你需要以下项目的权限：
@@ -54,7 +57,7 @@ ms.locfileid: "51103008"
 
 ## <a name="storage-with-cds"></a>通过 CDS 进行存储
 
-Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享数据语言。 它包括由 Microsoft 和我们的合作伙伴发布的一组标准化的可扩展数据架构，可使数据及其含义在应用程序和业务流程之间保持一致。 了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。
+Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享数据语言。 它由 Microsoft 和我们的合作伙伴发布的一组标准化可扩展数据架构组成，可跨应用程序和业务流程实现数据的一致性及其含义。 了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。
 
 了解有关[审批工作流](/power-automate/modern-approvals)的详细信息。
 

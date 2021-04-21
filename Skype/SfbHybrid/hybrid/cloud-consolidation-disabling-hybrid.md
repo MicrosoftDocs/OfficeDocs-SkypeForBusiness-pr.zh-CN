@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文包括禁用混合作为 Teams 和 Skype for Business 云整合的一部分的详细步骤。
-ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 08d305fa2650cffbadb0ec3122458f4a57e052a4
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656698"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899103"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>禁用混合配置以完成到云的迁移
 
@@ -106,7 +106,10 @@ ms.locfileid: "51656698"
 
 即使已取消本地部署，管理员也可以管理之前从本地 Skype for Business Server 移动到云的用户。 如果要更改用户的 sip 地址或用户的电话号码 (并且 sip 地址或电话号码在本地 Active Directory) 中已有值，则必须在本地 Active Directory 中这样做，让值 (s) 流向 Azure AD。 这不需要本地 Skype for Business Server。 相反，您可以直接在本地 Active Directory 中修改这些属性，使用 Active Directory 用户和计算机 MMC 管理单元 (如下) 所示，或者使用 PowerShell 修改这些属性。 如果使用的是 MMC 管理单元，请打开用户的属性页，单击"属性编辑器"选项卡，并查找要修改的适当属性：
 
-- 若要修改用户的 sip 地址，请修改 `msRTCSIP-PrimaryUserAddress` 。 请注意，如果 `ProxyAddresses` 属性包含 sip 地址，作为最佳做法，还应更新该值。 尽管已填充的 O365 将忽略 中的 sip 地址，但其他本地组件 `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` 可能会使用。
+- 若要修改用户的 sip 地址，请修改 `msRTCSIP-PrimaryUserAddress` 。
+
+    > [!NOTE]
+    > 如果 `ProxyAddresses` 属性包含 sip 地址，则作为最佳实践更新该值。 尽管已填充的 O365 将忽略 中的 sip 地址，但其他本地组件 `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` 可能会使用。
 
 - 若要修改用户的电话号码，请 `msRTCSIP-Line` *修改（如果已具有值*）。
 
@@ -172,7 +175,7 @@ ms.locfileid: "51656698"
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. 运行以下本地 Skype for Business PowerShell cmdlet，将 sip 地址值添加回本地 Active Directory 代理Addresses。 这将防止依赖此属性的互操作性问题。 
+5. 运行以下内部部署 Active Directory 模块，Windows PowerShell cmdlet 将 sip 地址值添加回本地 Active Directory 代理Addresses。 这将防止依赖此属性的互操作性问题。 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"

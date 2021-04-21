@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09fe424dc576b6b167eec49e7cd8edf2f61d6cce
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 2f9df0bf1c4acaf8ec32db07ce4af961c491ba0d
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697797"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899113"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -40,7 +40,7 @@ Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达
 与会者可以通过 Android 和 iOS 桌面版、Web 版和 Teams (加入仅查看) 。
 
 > [!Note]
-> "主会议"的当前限制容量（换句话说，完全交互用户的数量）在 WW 中为 300，GCC、GCC High 和 DoD 为 250。
+> "主会议"的当前容量限制（换句话说，完全交互用户数）为 300。
 
 ## <a name="teams-view-only-experience-controls"></a>Teams 仅查看体验控件
 

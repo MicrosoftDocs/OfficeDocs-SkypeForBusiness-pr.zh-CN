@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何使用电话系统直接路由规划媒体旁路，从而缩短媒体流量的路径并提高性能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bbd31a62bf6ebcd481a3cdafeabaf29bb4767f2d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f2cbe739a567588b44bef87f7b852ed8de965ad3
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115590"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899093"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115590"
 
 使用媒体旁路可以缩短媒体流量的路径，并减少传输中的跃点数，以提高性能。 借助媒体旁路，媒体将保留在会话边界控制器 (SBC) 与客户端之间，而不是通过 Microsoft Phone System 发送。 若要配置媒体绕过，SBC 和客户端必须位于同一位置或网络中。
 
-可以使用 **Set-CSOnlinePSTNGateway** 命令，将 **-MediaBypass** 参数设置为 true 或 false，控制每个 SBC 的媒体旁路。 如果启用媒体旁路，这并不意味着所有媒体流量将位于企业网络中。 本文介绍不同方案中的调用流。    
+可以使用 **Set-CSOnlinePSTNGateway** 命令，将 **-MediaBypass** 参数设置为 true 或 false，控制每个 SBC 的媒体旁路。 如果启用媒体旁路，这并不意味着所有媒体流量将位于企业网络中。 本文介绍不同方案中的调用流。
 
 下图演示了在绕过媒体的情况下和没有媒体旁路的情况下呼叫流的差异。
 
@@ -126,7 +126,11 @@ Microsoft 云中的两个组件可以在媒体流量的路径中：媒体处理�
 
    传输中继可能位于（源自或目标为最终用户）的绕过调用的路径中，具体取决于用户位于何处以及网络的配置方式。
 
-下图显示了两个呼叫流 - 一个已启用媒体旁路，另一个已禁用媒体旁路。 请注意，该图仅演示源自或目的地为最终用户的流量。  
+下图显示了两个呼叫流 - 一个已启用媒体旁路，另一个已禁用媒体旁路。
+
+> [!NOTE]
+> 该图仅说明源自或目的地为最终用户的流量。  
+
 - 媒体控制器是 Azure 中的微服务，可分配媒体处理器，并创建 SDP (会话) 协议。
 
 - SIP 代理是一个组件，用于将 Teams 中使用的 HTTP REST 信号转换为 SIP。    
@@ -255,7 +259,8 @@ SIP/TLS| SIP 代理 | SBC | 1024 - 65535 | 在 SBC 上定义 |
 
 客户端必须有权访问指定的端口， (SBC) IP 地址上的表。 
 
-注意：如果客户端位于内部网络中，则媒体将流向 SBC 的公共 IP 地址。 可以在 NAT 设备上配置发固定，使流量永远不会离开企业网络设备。
+> [!NOTE]
+> 如果客户端位于内部网络中，则媒体将流向 SBC 的公共 IP 地址。 可以在 NAT 设备上配置发固定，使流量永远不会离开企业网络设备。
 
 | 流量 | 从 | 到 | 源端口 | 目标端口|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -274,7 +279,7 @@ UDP/SRTP | 客户端 | SBC | 50 000 – 50 019  | 在 SBC 上定义 |
 
 - 52.112.0.0 /14 (IP 地址从 52.112.0.1 到 52.115.255.254) 
 
-## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
 
 - 52.127.64.0/21
 
@@ -314,7 +319,7 @@ UDP/SRTP | 传输中继 | SBC | 50 000 -59 999    | 在 SBC 上定义 |
 
 - 52.112.0.0 /14 (IP 地址从 52.112.0.1 到 52.115.255.254) 
 
-## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
 
 - 52.127.64.0/21
 
@@ -349,8 +354,8 @@ UDP/SRTP | 媒体处理器 | SBC | 3478、3479 和 49 152 – 53 247    | 在 SB
 
 | 一组用户 | 用户数 | 在 OVRP 中分配的中继 FQDN | 已启用媒体旁路 |
 | :------------ |:----------------- |:--------------|:--------------|
-具有非媒体旁路中继的用户 | 980 | sbc1.contoso.com:5060 | true
-具有媒体旁路中继的用户 | 20 | sbc2.contoso.com:5061 | false | 
+具有非媒体旁路中继的用户 | 980 | sbc1.contoso.com:5061 | false |
+具有媒体旁路中继的用户 | 20 | sbc2.contoso.com:5060 | true | 
 
 这两个中继可以指向同一公共 IP 地址相同的 SBC。 SBC 上的 TLS 信号端口必须不同，如下图所示。 请注意，需要确保证书支持这两个中继。 在 SAN 中，需要具有两个名称 (sbc1.contoso.com **和** **sbc2.contoso.com)** 或具有通配符证书。
 
