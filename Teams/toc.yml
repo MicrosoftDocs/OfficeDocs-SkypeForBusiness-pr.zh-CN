@@ -297,8 +297,6 @@ items:
         items:
           - name: 隐私和 Microsoft Teams
             href: teams-privacy.md
-          - name: 数据收集做法
-            href: data-collection-practices.md
           - name: Teams 中的数据位置
             href: location-of-data-in-teams.md
           - name: 阻止特定用户对 Sharepoint Online 的访问
@@ -851,8 +849,6 @@ items:
                 href: aa-cq-cqd-historical-reports.md
               - name: 拨号和语音参考
                 href: dial-voice-reference.md
-              - name: 报告
-                href: aa-cq-cqd-historical-reports.md
           - name: 阻止拨入通话
             href: block-inbound-calls.md
           - name: 呼叫寄存和检索
@@ -1545,10 +1541,6 @@ items:
             href: devices/teams-ip-phones.md
           - name: Skype for Business Online 电话
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Teams 警报和监视
-            href: alerts/teams-admin-alerts.md
-          - name: Teams 设备运行状况监视
-            href: alerts/device-health-status.md
       - name: Teams PowerShell
         items:
           - name: 概述
