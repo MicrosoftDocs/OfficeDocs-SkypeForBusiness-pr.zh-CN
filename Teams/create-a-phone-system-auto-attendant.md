@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft Teams 设置和测试自动助理。
-ms.openlocfilehash: 66bebbd381fb1997e2e8770debb24c7629525f1e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9efd30eb91e9760f800dd24935724d2a3cdd97c2
+ms.sourcegitcommit: c56c87e912a4b3729c7c52d8de78fd4d24448a8d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092750"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51926048"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -46,6 +46,11 @@ ms.locfileid: "51092750"
 - **公告 (类型)** - 键入消息。 希望系统阅读的文本。 可以输入最多 1000 个字符。 系统播放公告，然后返回到自动助理菜单。
 
 设置自动助理时，系统会提示你选择各个阶段中的其中一个选项。
+
+> [!NOTE]
+> 选择"语音邮件"作为目标时，还有两个选项可用：
+> - **听录** (默认值：关闭) - 启用后，语音邮件将被转录并包含在电子邮件中。
+> - **取消问候** (默认：关闭) - 启用时，标准系统消息"请在听到提示音后留下消息。 完成后，请挂断或按哈希键了解更多选项。" 将被抑制。
 
 若要设置自动助理，请在 Teams 管理中心展开"语音"，选择"**自动助理**"，然后选择"添加 **"。**
 
@@ -175,7 +180,7 @@ ms.locfileid: "51092750"
 
 6. 如果选择重定向，请选择呼叫的呼叫路由目标。
 
-7. 选择"**保存"。**
+7. 选择“**保存**”。
 
 ![假日设置的屏幕截图，其中列出了假日](media/auto-attendant-holiday-call-settings.png)
 
