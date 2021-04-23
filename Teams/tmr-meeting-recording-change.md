@@ -2,7 +2,7 @@
 title: 使用 OneDrive for Business 和 SharePoint 录制会议
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: debhag
 manager: serdars
 ms.topic: article
 audience: admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: d0de88cd3295e1e04681cf6ff63bccab80e4b4a8
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637814"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948658"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或 Stream 录制会议
 
@@ -189,3 +189,8 @@ Teams 会议录制文件实时在 OneDrive for Business 和 SharePoint 中，包
 **如何在 Microsoft Teams 中将策略分配给我的用户，哪些策略优先？**
 
 请参阅[哪个策略优先？。](./assign-policies.md#which-policy-takes-precedence)
+
+**如果用户没有 OneDrive for Business 或 SharePoint，录音将在哪里进行？**
+
+录制内容将登陆到临时存储位置，该位置将保存 21 天。 在此期间，组织者必须下载录制内容。 如果未在 21 天内下载，则删除录制内容。
+

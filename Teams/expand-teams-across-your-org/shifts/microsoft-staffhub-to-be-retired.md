@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64416c08c7fa43883bfab060d63c7a7598ea3218
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 78737ec26d0aabfedcefa01abc3fb14c4bf118c7
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092438"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948698"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
@@ -157,6 +157,9 @@ SharePoint Online 在后端支持文件共享功能，即管理员将文件分�
 通过 Microsoft Teams PowerShell 模块和 Skype for Business PowerShell 模块管理 Teams。 有关详细信息，请参阅 [Teams PowerShell 概述](../../teams-powershell-overview.md)。 目前，没有可用于管理 Shifts 的特定 PowerShell cmdlet。  
 
 如果对此感兴趣，请通过 UserVoice 上的 Teams 反馈 [门户向我们发送请求](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)。
+
+
+[!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>报告是否可用于查看整个组织的班次使用情况？
 

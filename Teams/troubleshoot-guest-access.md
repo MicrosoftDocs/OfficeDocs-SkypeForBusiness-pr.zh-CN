@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afa30ad1b264088294f775bd69d52e29c5bb423d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0468d0d3d1cc7a8d1c17699e28c1449e1f7800c8
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116540"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948678"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>排查 Microsoft Teams 中的来宾访问问题
 
@@ -31,6 +31,8 @@ ms.locfileid: "51116540"
 - 来宾是组织外部人员。 如果你组织内部的某人（包括员工、现场合同工或现场代理），则不能添加为来宾。 这同样适用于你的关联公司。
 - 有关即将发布的新推出或更新后的来宾访问功能，请访问 [Teams 路线图](https://aka.ms/teamsroadmap)。
 - 请在 [Teams UserVoice](https://aka.ms/TeamsUserVoice) 中告诉我们你想要的功能。
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>如果来宾看到许可证错误
 

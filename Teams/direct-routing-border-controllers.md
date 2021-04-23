@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解哪些会话边界控制器 (SDC) 直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36228b1c8d9e563670bfff2d1d3cebfcc9652023
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 99684ef9e3a86fed267d57a2d5482f45dabfe176
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697697"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948668"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -110,4 +110,8 @@ Microsoft 与每个供应商合作，以：
   | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 多平台模拟电话适配器 |     &#10004;     |
   
 若要向我们提供有关 Teams 的产品反馈，例如新功能的想法，请参阅 [Uservoice](https://microsoftteams.uservoice.com)。
+
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 请注意授予主要版本的认证。 这意味着支持 SBC 固件中具有任意编号的固件，该固件遵循主版本。

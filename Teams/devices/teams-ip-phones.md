@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解 Microsoft Teams 认证了哪些桌面电话和会议电话，以获得最佳结果。
-ms.openlocfilehash: 7d0c0812776fd9ae1820732b2d67e8e4ed0cfc12
-ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
+ms.openlocfilehash: 6b56485287c5375657995736eda31f0d50fcd446
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51886711"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948648"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 认证的设备
 
@@ -72,6 +72,7 @@ Microsoft Teams 认证计划可确保更高质量的栏，具有更高的性能�
 
 | 设备模型 | 固件版本 | 发布日期  | 房间大小                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | 2021 年 4 月 | 3 米 x 3 米 (3 米的)  </br> 小型会议室 (450 万 x 450 万)  |
 | Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 中型会议室 (450 万 x 6 米)  |
 | Yealink CTP18 触摸控制台  | 137.15.0.28    | 2021 年 3 月 | 与 Yealink MeetingBar A20 和 Yealink MeetingBar A30 兼容 |
 | Yealink MeetingBar A20  | 133.15.0.19      | 2020 年 11 月 | 3 米 x 3 米 (3 米的)  </br> 小型会议室 (450 万 x 450 万)  |

@@ -13,12 +13,12 @@ f1.keywords:
 description: 适用于 Microsoft Teams 的 CCaaS (集成) 中心服务概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 632fbacd9cd1ba8face3571597bc17e5e5a8a70b
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 14d83255644d3f748fdc81144b944ec4b62f5fbd
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656748"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948685"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
@@ -65,6 +65,7 @@ Microsoft Teams 通过充当跨通信模式（包括聊天、视频会议和通�
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 随着更多解决方案提供商加入并满足认证条件，此列表将更新。

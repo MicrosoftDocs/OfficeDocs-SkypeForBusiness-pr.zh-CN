@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60fabc107ba684afdf32c4eeeb0351f12dec883e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3d547d3c811f499faee5727634068a7807566293
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120633"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948708"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安装 Moodle 与 Microsoft Teams 的集成
 
@@ -188,3 +188,5 @@ Microsoft Teams 的免费 Moodle Assistant 机器人可帮助教师和学生回�
 就是这样！ 现在，你和团队可以直接从 Microsoft Teams 开始使用 Moodle 课程。
 
 若要与我们共享任何功能请求或反馈，请访问 User [Voice 页面](https://microsoftteams.uservoice.com/forums/916759-moodle)。
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
