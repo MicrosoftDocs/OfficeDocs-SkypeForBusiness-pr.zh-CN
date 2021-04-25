@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何使用 Microsoft Teams 为呼叫队列设置电话系统，它提供问候消息、保存音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
-ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
+ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51874448"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995280"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -185,6 +185,7 @@ ms.locfileid: "51874448"
   - iPad Skype for Business 客户端（版本 6.16.0 及更高版本）
   - Microsoft Teams Windows 客户端 (32 位和 64 位版本) 
   - Microsoft Teams Mac 客户端
+  - Microsoft Teams on [虚拟化桌面基础结构](/microsoftteams/teams-for-vdi) (Windows 虚拟桌面、Citrix 和 VMware) 
   - Microsoft Teams iPhone 应用
   - Microsoft Teams Android 应用
 

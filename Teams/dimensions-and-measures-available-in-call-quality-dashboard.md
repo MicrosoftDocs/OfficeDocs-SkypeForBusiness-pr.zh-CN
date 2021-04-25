@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关 Microsoft Teams 和 Skype for Business Online 呼叫质量仪表板 (CQD) 使用的维度和度量的详细信息。
-ms.openlocfilehash: cef151eb8941135112bab92a806b620727567bee
-ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
+ms.openlocfilehash: 1c91ce322e51705c9e0813b6c12a29af93319448
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "51880451"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995300"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>呼叫质量仪表板和 CQD (中的维度和) 
 
@@ -407,6 +407,8 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Is Anonymous Join Session  | 布尔值  | 如果用户匿名加入会议，则为 True，否则为 False。   | &bull; 无数据可确定用户是匿名加入还是非匿名加入   |
 | 具有媒体诊断 Blob  | 布尔值  | 如何会话具有媒体诊断数据，则为 True，否则为 False。   | &bull; 未为此流收集某些信号数据   |
 | Call Setup Failure Reason  | 枚举  | 通话未能建立媒体连接的原因分类。 <br/>**可能的值：** <br/> **缺少 FW 深度数据包检查免除** 规则 - 指示路径中的网络设备可能会由于深度数据包检查规则而阻止建立媒体路径。 这可能是因为未正确配置代理或防火墙规则。 <br/> **缺少 FW IP 阻止免除** 规则 - 指示路径中的网络设备可能阻止建立到 Office 365 网络的媒体路径。 这可能是因为未正确将代理或防火墙规则配置为允许访问用于 Skype for Business 流量的 IP 地址和端口。 <br/> **其他** - 指示无法建立调用的媒体路径，但无法分类根本原因。 <br/> 不是媒体故障 - 表示在建立媒体路径时未检测到问题。  | &bull; 由于未知媒体问题，呼叫设置失败  |
+| 会话类型  | 枚举 <br/>**可能的值：** <br/> Conf、P2P  | 指示呼叫会话类型是使用 P2P () 或对等呼叫 (会议) 。 <br/> **示例值：** Conf | |
+| CDR 响应原因  | 枚举 <br/>**可能的值：** <br/> 0 或 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" | 所有其他 CDR 代码 = "Other" | 提供通话会话结束的原因，无论呼叫是否成功，并允许在未完成的呼叫 (无应答、忙碌、拒绝) 和失败的呼叫 (媒体) 。 <br/> **示例值：** 还行 | <br/>&bull; 值"其他"表示响应代码在 Microsoft 工程团队外部在诊断上没有用 |
 |**DNS**|||
 | 已用 DNS 解析缓存  | 布尔值  | 如果终结点使用了 DNS 缓存来解析媒体中继地址，则为 True，否则为 False。    | <br/>&bull; 终结点未报告此数据    |
 |**UserData**| |||

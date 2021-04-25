@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解支持 Microsoft Teams 会议室的要求，包括选择合适的设备、麦克风、扬声器、摄像头和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9083a66add26ff7149fddd16052bac87625d2b27
-ms.sourcegitcommit: 234c928b9ac127716e3d5a92ee2bcdda1a415a38
+ms.openlocfilehash: bf1bf7f076a75fb9ce504d62391e93d0e6d65a6f
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "51959469"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995170"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -38,7 +38,7 @@ Microsoft Teams 会议室可缩放到不同的房间大小。 Teams 会议室根
 > [!NOTE]
 > Microsoft Teams 会议室可登录到 Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015 或 Skype for Business Online，并且可参加由任何这些服务主持的会议。
 >
-> Microsoft Teams 会议室不支持 Lync Server 2013 等早期平台。 Microsoft Teams 会议室在 Microsoft 365 或由世纪网运营的 Office 365、GCC-High 或 DoD 环境中不受支持。
+> Microsoft Teams 会议室不支持 Lync Server 2013 等早期平台。 Microsoft Teams 会议室在 Microsoft 365 或由世纪网运营的 Office 365 或 DoD 环境中不受支持。
 >
 > 如果你有本地 Exchange Server，则 Microsoft Teams 会议室需要使用 Exchange Server 2013 SP1 或更高版本。
 
