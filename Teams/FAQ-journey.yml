@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 6ba7e86d6abd9cca8fa6745549eb85f064bdc9d1
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: 7ae2f78db68a84106b25329f374ac93f616fba31
+  ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51094840"
+  ms.lasthandoff: 04/24/2021
+  ms.locfileid: "51995270"
 title: 常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 summary: ''
 sections:
@@ -84,7 +84,7 @@ sections:
       当前，我们没有安排要为企业用户计划升级。 Skype for Business Online 将于 2021 年 7 月 31 日停用，在此之前，客户可选择根据组织的需要迁移到 Teams。 我们将为管理员和用户提供工具和指导，帮助其他们迁移到 Teams。
 
 
-      为了支持可能没有专用 IT 资源的小型客户，Microsoft 通过从 Skype for Business Online 到 Teams 的自动化升级提供协助。 符合条件的客户会收到通过电子邮件和消息中心通知发出的升级通知。 可在沟通资料中找到更多详细信息。 有关详细信息，请参阅[从 Skype for Business Online 到 Microsoft Teams 的自动升级](upgrade-automated.md)。
+      为了支持可能没有专用 IT 资源的小型客户，Microsoft 通过从 Skype for Business Online 到 Teams 的自动化升级提供协助。 符合条件的客户会收到通过电子邮件和消息中心通知发出的升级通知。 可在沟通资料中找到更多详细信息。 有关详细信息，请参阅[从 Skype for Business Online 到 Microsoft Teams 的自动升级](upgrade-assisted.md)。
   - question: Teams 的后端基础结构的优势是什么？
     answer: >
       Teams 专为高度可扩展的微服务架构中的云构建，它可减少带宽消耗，提供更强大的遥测功能，并可在尽量减少中断的情况下进行维护和升级。 因此，用户无需下载插件，即可享有更快的会议加入时间和更好的浏览器体验。利用此现代基础结构，可以轻松地利用 Microsoft 认知服务，其中包括转录、翻译、语音识别和机器学习功能，可使通信和协作更加轻松和高效。
