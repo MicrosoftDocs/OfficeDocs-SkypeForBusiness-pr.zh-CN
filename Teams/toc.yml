@@ -187,6 +187,8 @@ items:
         href: continue-journey.md
       - name: Skype for Business Online 停用
         href: skype-for-business-online-retirement.md
+      - name: Skype for Business Online协助升级
+        href: upgrade-assisted.md
       - name: 常见问题
         href: FAQ-journey.yml
       - name: 参考
@@ -1422,8 +1424,6 @@ items:
       - name: 适用于零售业的 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: 管理控制台中的 Teams 零售模板入门
-            href: retail-teams-templates-in-the-admin-console.md
           - name: Teams 零售模板入门
             href: get-started-with-retail-teams-templates.md
       - name: Teams 政府版
