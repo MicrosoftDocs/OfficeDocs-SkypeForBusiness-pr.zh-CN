@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中自定义应用。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9e9c7d250f60c3cc100f7d95b26f662ca8af6305
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697787"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030134"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在 Microsoft Teams 中自定义应用
 
@@ -44,7 +44,8 @@ ms.locfileid: "51697787"
 
 有关 [可自定义的](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) 字段的详细信息，请参阅 Teams 清单架构。
 
-> [!注意 目前，政府社区云高 (GCCH) 或国防部 (DoD) 不支持自定义应用。
+> [!NOTE]
+> 目前，在政府社区云高 (GCCH) 或国防部 (DoD) 不支持自定义应用。
 
 ## <a name="customize-the-apps-details"></a>自定义应用的详细信息
 
@@ -102,7 +103,7 @@ ms.locfileid: "51697787"
 
 现在，Teams 最终用户可以打开其 Teams 客户端来查看自定义应用。
 
-   ![Teams 客户端中的自定义应用](media/find-customized-app.png)
+   ![Teams 客户端中的自定义应用](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>自定义应用的特殊注意事项
 
@@ -127,7 +128,7 @@ ms.locfileid: "51697787"
 
 4. 查看应用详细信息，包括原始应用名称 **发布者的短名称**。
 
-   ![自定义图标面板应用名称](media/app-details-original-name.png)
+   ![自定义图标面板应用名称](media/original-app-version.png)
 
    只有在 **你更改了** 应用的短名称时，发布者的短名称字段才可见。
 

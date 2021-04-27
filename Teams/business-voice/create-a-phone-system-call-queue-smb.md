@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何使用 Microsoft 365 Business Voice 设置呼叫队列。
-ms.openlocfilehash: 40018ce331dfe8516e00c6781373d528a71e85c5
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607554"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030122"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>创建呼叫队列 - 小型企业教程
 
-呼叫队列提供了将呼叫者路由到组织中可以解决特定问题或问题的人的方法。 呼叫一次一个地分配给队列中 (称为代理 *) 。* 
+呼叫队列提供将呼叫者路由到组织中可以解决特定问题或问题的人的方法。 呼叫一次一个地分配给队列中 (称为代理 *) 。* 
 
 呼叫队列提供：
 
@@ -104,9 +104,9 @@ ms.locfileid: "51607554"
 
 4. 单击“**保存**”。
 
-新帐户将显示在帐户列表中。
+   新帐户将显示在帐户列表中。
 
-![资源帐户列表的屏幕截图](../media/resource-accounts-page.png)
+   ![资源帐户列表的屏幕截图](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>分配许可证
 
@@ -138,9 +138,9 @@ ms.locfileid: "51607554"
 
 5. 当呼叫者在队列中保持时，Teams 会向呼叫者提供默认音乐。 如果要播放特定音频文件，请选择"播放音频文件 **"并** 上传 MP3、WAV 或 WMA 文件。
 
-> [!NOTE]
-> 上传的录制内容不能大于 5 MB。
-> Teams 呼叫队列中提供的默认音乐不收取组织支付的任何版权费。 
+   > [!NOTE]
+   > 上传的录制内容不能大于 5 MB。
+   > Teams 呼叫队列中提供的默认音乐不收取组织支付的任何版权费。 
 
 > [!div class="nextstepaction"]
 > [步骤 3 - 呼叫>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)

@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 1acde038bc2df64d7cf35828bf0b08273bf1f095
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7e93b66f9a7a0abc4dfc2e3484818da28a65f36a
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108348"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030042"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建团队时规划 Microsoft 365 组
 ==========================================================
@@ -38,12 +38,9 @@ ms.locfileid: "51108348"
 
 -   其次，对于没有在 Microsoft 365 中定义现有组的客户，可以使用 Microsoft 365 管理中心、Teams Web 或桌面客户端创建组。 如前所述，使用 Teams 客户端管理 Microsoft 365 组的所有未来成员身份。 由于团队成员身份也在定义 Microsoft 365 组的成员身份，因此应为此更改做好准备。
 
-## <a name="teams-respects-microsoft-365-groups-naming-policy-in-private-preview"></a>Teams 在个人预览版中 (Microsoft 365 组命名策略) 
+## <a name="teams-respects-microsoft-365-groups-naming-policy"></a>Teams 遵守 Microsoft 365 组命名策略
 
 当用户创建或编辑团队名称时，管理员设置的任何 Microsoft 365 组命名策略都将在 Teams 中应用。 其中包括强制前缀或后缀等内容，以及排除禁用词语。
-
-> [!NOTE]
-> 此功能为个人预览版，这意味着如果你不是此预览版的成员，Teams 尚不遵循此 Microsoft 365 组命名策略。
 
 有关详细信息，请阅读 Teams 中的 [Microsoft 365 组命名策略](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
