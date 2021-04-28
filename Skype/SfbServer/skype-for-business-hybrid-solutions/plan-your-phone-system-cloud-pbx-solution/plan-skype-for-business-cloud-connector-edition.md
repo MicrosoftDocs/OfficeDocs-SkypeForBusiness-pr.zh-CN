@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，该版本是一组打包的虚拟机 (VM) ，使用电话系统 (云 PBX) 实现本地 PSTN 连接。
-ms.openlocfilehash: 33d0cc6262aa0d4c7a1f984534782a9fae93ab05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75abeba6c97b59b4795fc3399ff6a983db57bbff
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113708"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064708"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plan for Skype for Business Cloud Connector Edition
 
@@ -34,7 +34,7 @@ ms.locfileid: "51113708"
 
 查找有关 Skype for Business 云连接器版本的信息，该版本是一组打包的虚拟机 (VM) ，使用电话系统 (云 PBX) 实现本地 PSTN 连接。
 
-如果你还没有 Lync Server 或 Skype for Business Server 部署，云连接器版本可能是适合你的组织的解决方案。 如果仍在调查哪种电话系统解决方案适合你的企业，请参阅 [Microsoft 电话解决方案](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)。
+如果你还没有 Lync Server 或 Skype for Business Server 部署，云连接器版本可能是适合你的组织的解决方案。 如果仍在调查哪种电话系统解决方案适合你的企业，请参阅 [Microsoft 电话解决方案](/microsoftteams/cloud-voice-landing-page)。
 
 本文档介绍云连接器版本要求和支持的拓扑，并帮助你规划云连接器版本部署。 在配置云连接器环境之前，请务必阅读本主题。 当你准备好部署和配置云连接器版本时，请参阅配置 [和管理 Skype for Business 云连接器版本](configure-skype-for-business-cloud-connector-edition.md)。
 
@@ -61,7 +61,7 @@ ms.locfileid: "51113708"
 
 - 云连接器不需要完整的本地 Skype for Business Server 部署。
 
-    目前，云连接器无法与 Lync 或 Skype for Business 本地服务器共存。 如果要将现有 Lync 或 Skype for Business 用户移动到 Microsoft 365，并不断为用户提供本地电话服务，请考虑使用现有 Skype for Business Server 部署使用具有本地连接的电话系统。 有关详细信息，请参阅 Plan [your Phone System (Cloud PBX) solution](/skypeforbusiness/hybrid/msft-telephony-solutions/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)和 Plan Phone System with [on-premises PSTN connectivity in Skype for Business Server。](plan-phone-system-with-on-premises-pstn-connectivity.md)
+    目前，云连接器无法与 Lync 或 Skype for Business 本地服务器共存。 如果要将现有 Lync 或 Skype for Business 用户移动到 Microsoft 365，并不断为用户提供本地电话服务，请考虑使用现有 Skype for Business Server 部署使用具有本地连接的电话系统。 有关详细信息，请参阅 Plan [your Phone System (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page.md)和 Plan Phone System with [on-premises PSTN connectivity in Skype for Business Server。](plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 - 如果你之前已部署 Skype for Business 或 Lync Server，并且扩展了架构，则无需清理云连接器部署的架构，只要从环境中删除了所有 Skype for Business 或 Lync Server 组件。
 
@@ -350,7 +350,7 @@ ms.locfileid: "51113708"
 |SBC/PSTN 网关  <br/> |云连接器中介组件  <br/> |任何  <br/> |TCP 5068/ TLS 5067  <br/> |
 |云连接器中介组件  <br/> |SBC/PSTN 网关  <br/> |UDP 49 152 - 57 500  <br/> |任意\*\*\*  <br/> |
 |SBC/PSTN 网关  <br/> |云连接器中介组件  <br/> |任意\*\*\*  <br/> |UDP 49 152 - 57 500  <br/> |
-|云连接器中介组件  <br/> |内部客户端  <br/> |TCP 49 152 - 57 500\*  <br/> |TCP 50，000-50，019  <br/>  (可选)   <br/> |
+|云连接器中介组件  <br/> |内部客户端  <br/> |TCP 49 152 - 57 500\*  <br/> |TCP 50，000-50，019  <br/> （可选）  <br/> |
 |云连接器中介组件  <br/> |内部客户端  <br/> |UDP 49 152 - 57 500\*  <br/> |UDP 50，000-50，019  <br/> |
 |内部客户端  <br/> |云连接器中介组件  <br/> |TCP 50，000-50，019  <br/> |TCP 49 152 - 57 500\*  <br/> |
 |内部客户端  <br/> |云连接器中介组件  <br/> |UDP 50，000-50，019  <br/> |UDP 49 152 -57 500\*  <br/> |
@@ -711,7 +711,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 有关详细信息，请参阅：
 
-- [Microsoft 电话解决方案](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+- [Microsoft 电话解决方案](/microsoftteams/cloud-voice-landing-page)
 
 - [配置和管理 Skype for Business 云连接器版本](configure-skype-for-business-cloud-connector-edition.md)
 

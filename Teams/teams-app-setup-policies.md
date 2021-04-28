@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ee50af6dec780480b8efdbf39dabb8e52ff03f3a
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: ebfcff8ce7215e34e3c17e9c09f3a56d249d5b40
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697707"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52059196"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -152,7 +152,9 @@ ms.locfileid: "51697707"
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>关于 Teams 移动体验，我需要了解哪些信息
 
-iOS (Android) Teams 移动客户端目前不支持使用静态选项卡的个人应用。 固定到 Teams 桌面客户端的应用可能不会显示在 Teams 移动客户端中，具体取决于策略中设置的应用。 个人机器人仍将显示在移动客户端上的聊天中。
+iOS 和 Android (Teams 移动) 支持具有静态选项卡的个人应用。 固定到 Teams 桌面客户端的应用将显示在 Teams 移动客户端中。 个人机器人将显示在移动客户端上的聊天中。
+
+可以从 Teams (下载的第三方应用) 在移动设备上显示之前需要获得批准。 如果管理员固定应用，而该应用未经 Microsoft 移动版批准，它将显示在 Teams 桌面版上，但不显示在移动设备上。 有关详细信息 [，请参阅](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 移动客户端。
 
 使用 Teams 移动客户端，用户将看到核心 Teams 应用，如活动、聊天和 Teams，并且你可以固定 Microsoft 的一些第一方应用，例如 Shifts。
 

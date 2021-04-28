@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何使用 Microsoft Teams 为呼叫队列设置电话系统，它提供问候消息、保存音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995280"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064798"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -48,6 +48,12 @@ ms.locfileid: "51995280"
 在按照本文中的步骤操作之前，请确保已阅读[规划 Teams 自动](plan-auto-attendant-call-queue.md)助理[](plan-auto-attendant-call-queue.md#getting-started)和呼叫队列，并按照入门步骤操作。
 
 若要设置呼叫队列，请在 Teams 管理中心展开"语音"，单击"**呼叫队列**"，然后单击"添加 **"。**
+
+## <a name="video-demonstration"></a>视频演示
+
+此视频展示了如何在 Teams 中创建呼叫队列的基本示例。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="resource-account-and-language"></a>资源帐户和语言
 

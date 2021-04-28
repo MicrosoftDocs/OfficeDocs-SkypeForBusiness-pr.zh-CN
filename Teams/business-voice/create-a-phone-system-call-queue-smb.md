@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何使用 Microsoft 365 Business Voice 设置呼叫队列。
-ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030122"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064818"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>创建呼叫队列 - 小型企业教程
 
@@ -42,6 +42,12 @@ ms.locfileid: "52030122"
 - 调用路由 - 在 *"先* 到先出" (FIFO) 顺序 - 到代理。
 
 - 处理队列溢出和超时的选项。
+
+#### <a name="video-demonstration"></a>视频演示
+
+此视频演示如何在 Teams 中创建呼叫队列。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### <a name="before-you-begin"></a>开始之前
 

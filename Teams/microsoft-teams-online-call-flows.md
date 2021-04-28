@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: 了解 Teams 如何在各种拓扑中使用 Office 365 流，以及用于点对点媒体通信的唯一团队流。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a720838958fa249674f6216cbc24ade5134127bc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 27a2c68483c3d54cb3f3572bbed3a06a53ccc67e
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098478"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52059206"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams 通话流程
 
@@ -87,12 +87,12 @@ Teams 媒体流连接是使用标准 IETF 交互式连接建立 (ICE) 过程实�
 
 ### <a name="technologies-that-are-not-recommended-with-microsoft-teams"></a>Microsoft Teams 不建议使用的技术
 
-**VPN 网络**。 不建议将媒体流量 (流 2') 。 VPN 客户端应该使用拆分 VPN 并像任何外部非 VPN 用户一样路由媒体流量，如启用 Lync 媒体绕过 [VPN 隧道中指定](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)。
+**VPN 网络**。 不建议将媒体流量 (流 2') 。 VPN 客户端应像任何外部非 VPN 用户一样使用拆分隧道并路由 Teams 媒体流量，如启用 Lync 媒体绕过 VPN 隧道 [中指定](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)。
 
 > [!NOTE]
 > 尽管游戏指示 Lync，但它也适用于 Teams。
 
-**数据包形状。** 不建议使用任何类型的数据包捕获器、数据包检查或数据包形状器设备，并且可能会显著降低质量。
+**数据包形状。** 对于 Teams 媒体流量，不建议使用任何类型的数据包捕获器、数据包检查或数据包形状器设备，并且可能会显著降低质量。
 
 ### <a name="principles"></a>原则
 
@@ -102,7 +102,7 @@ Teams 媒体流连接是使用标准 IETF 交互式连接建立 (ICE) 过程实�
 
 - Microsoft 365 或 Office 365 中的 Teams 媒体终结点基于媒体处理需求使用，而不是基于呼叫类型。  (例如，点到点呼叫可以使用云中的媒体终结点处理媒体听录或录制，而包含两个参与者的会议可能不会使用云中任何媒体终结点。) 但是，大多数会议将使用媒体终结点进行混合和路由，而该终结点是在托管会议时分配的。 由于客户网络防火墙限制，从客户端发送到媒体终结点的媒体流量可直接路由或使用 Microsoft 365 或 Office 365 中的传输中继（如果需要）。
 
-- 对等呼叫的媒体流量采用最直接的可用路由，假设调用不强制云中的媒体终结点 (请参阅前面的原则) 。 首选路由将直接路由到远程对等 (客户端) ，但如果该路由不可用，则一个或多个传输中继将中继流量。 建议媒体流量不要转置数据包形状器、VPN 服务器等服务器，因为这会影响媒体质量。
+- 点对点呼叫的媒体流量采用最直接的可用路由，假设该调用不强制云中的媒体终结点 (请参阅前面的原则) 。 首选路由将直接路由到远程对等 (客户端) ，但如果该路由不可用，则一个或多个传输中继将中继流量。 建议媒体流量不要转置数据包形状器、VPN 服务器等服务器，因为这会影响媒体质量。
 
 - 信令流量始终会转到离用户最近的服务器。
 

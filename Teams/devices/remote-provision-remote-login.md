@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何为 Teams Android 设备远程预配和登录
-ms.openlocfilehash: 43a025c0cc68fb7f10015d69298f8dd75f9003e8
-ms.sourcegitcommit: 95386369e2256ba382b4d6e34adb7473de050b26
+ms.openlocfilehash: f39b93a048cee84cf6890d063e272edbef5edb4e
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51410325"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52059186"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Teams Android 设备的远程预配和登录
 
@@ -40,6 +40,9 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 |Teams 手机|Yealink CP960|73.15.0.117|
 |Teams 手机|Yealink MP56/MP54/MP58|122.15.0.36|
 |Teams 手机|Crestron UC-2|1.0.3.52|
+|Teams 手机|  Poly Trio C60|  7.0.2.1071|
+|Teams 手机|  CCX400/CCX500/CCX600    |7.0.2.1072|
+|Teams 手机|  音频代码 C448HD/C450HD/C470HD|   1.10.120|
 
 ## <a name="add-a-device-mac-address"></a>添加设备 MAC 地址
 

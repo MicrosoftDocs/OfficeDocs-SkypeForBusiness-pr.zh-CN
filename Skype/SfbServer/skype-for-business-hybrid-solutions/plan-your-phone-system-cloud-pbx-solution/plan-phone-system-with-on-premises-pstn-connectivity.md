@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 了解电话系统与云 PBX (本地 PSTN) 的规划注意事项。
-ms.openlocfilehash: e0caed5560e7b7609adbfccf79e4ef63ee4eae09
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afa97a00b474017e6aed5e92802e7ba13483f7af
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110538"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064698"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype for Business Server 中本地 PSTN 连接的计划电话系统
 
@@ -34,7 +34,7 @@ ms.locfileid: "51110538"
 
 了解电话系统与云 PBX (本地 PSTN) 的规划注意事项。
 
-如果你已在本地部署 Skype for Business Server 或 Lync Server 2013，则此内容是相关的。 有关其他方案，请参阅 [Microsoft 电话解决方案](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)。
+如果你已在本地部署 Skype for Business Server 或 Lync Server 2013，则此内容是相关的。 有关其他方案，请参阅 [Microsoft 电话解决方案](/microsoftteams/cloud-voice-landing-page)。
 
  具有本地 PSTN 连接的电话系统使你能够利用电话系统 (云 PBX) 功能。 这有助于处理以下方案：
 

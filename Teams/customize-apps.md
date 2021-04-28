@@ -3,7 +3,7 @@ title: 在 Teams 中自定义 Microsoft 应用
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: vaagarw
+ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,17 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中自定义应用。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030134"
+ms.locfileid: "52059176"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在 Microsoft Teams 中自定义应用
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
  Microsoft Teams 提供应用自定义来增强 Teams 体验。 某些应用开发人员允许 Teams 管理员自定义应用。管理员可以使用 Teams 管理中心"管理应用"页面，根据组织需求自定义或重新设置 **应用属性** 的品牌。 可以自定义的详细信息包括：
 
