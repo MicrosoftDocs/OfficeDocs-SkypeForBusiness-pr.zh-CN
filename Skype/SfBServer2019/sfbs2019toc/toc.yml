@@ -8,7 +8,7 @@
     - name: 虚拟化指南
       href: ../virtualization-guidance.md
     - name: Microsoft 电话解决方案
-      href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
+      href: /microsoftteams/cloud-voice-landing-page.md
     - name: Skype for Business 下载和更新
       href: ../../SfbServer/software-updates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
       items:
