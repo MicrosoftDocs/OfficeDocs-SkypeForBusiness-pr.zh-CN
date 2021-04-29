@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 9be2f3e173a450f99b4ca6451684dd22e7ab267e
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215317"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064848"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -133,6 +133,7 @@ ms.locfileid: "51215317"
 | **文件** |   上传、下载、访问、修改、批注和共享文件（不包括文件内容）。|
 | **OneNote 课堂笔记本** |  编辑笔记本中的页面或分区（不包括页面内容）。|
 | **会议** |    出席（不包括会议内容）。|
+| **[反映](reflect.md)** |   签入（包括值）。|
 
 > [!NOTE]
 > 几分钟后，所收集的大部分数据都会显示在见解中。 在会议结束后的几个小时会出现参加课堂会议（与某个课堂频道相关的会议）的提示，通常最多不超过 24 小时。
