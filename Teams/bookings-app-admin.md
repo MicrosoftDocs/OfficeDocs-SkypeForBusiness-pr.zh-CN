@@ -21,7 +21,7 @@ ms.reviewer: ''
 description: Microsoft Teams 和使用 Bookings 应用进行虚拟访问
 ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
 ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/19/2021
 ms.locfileid: "51891259"
@@ -41,7 +41,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 - 必须为组织启用 Microsoft Bookings。
 
-- 用户必须具有相应的许可证。 支持 Office 365 A3、A5、E3 和 E5，以及 Microsoft 365 商业高级版、Microsoft 365 商业标准版、A3、A5、E3 和 E5。
+- 用户必须具有相应的许可证。 *支持 Office 365 A3、A5、E3 和 E5、Microsoft 365 商业高级版，以及 Microsoft 365 商业标准版、A3、A5、E3 和 E5。
 
 - Bookings 应用的所有用户以及所有与会员工必须具有支持 Teams 会议安排的许可证。
 
@@ -53,7 +53,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>控制组织内对 Bookings 的访问权限
 
-有几种方式可以控制谁具有对 Bookings 应用和该应用特定功能的访问权限。 要了解如何在 Microsoft 365 管理中心内打开或关闭 Microsoft Bookings，以及如何创建 Bookings 应用策略以允许选定用户创建 Bookings 日历，请参阅 [获取对 Microsoft Bookings 的访问权限](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)。 也可以了解如何 [创建 Teams 应用策略以为选定用户固定 Bookings 应用](teams-app-setup-policies.md)。
+有几种方式可以控制谁具有对 Bookings 应用和该应用特定功能的访问权限。 要了解如何在 Microsoft 365 管理中心内打开或关闭 Microsoft Bookings，以及如何创建 Bookings 应用策略以允许选定用户创建 Bookings 日历，请参阅 [获取对 Microsoft Bookings 的访问权限](https://support.microsoft.com/zh-CN/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)。 也可以了解如何 [创建 Teams 应用策略以为选定用户固定 Bookings 应用](teams-app-setup-policies.md)。
 
 ## <a name="recommended-meeting-policy-settings"></a>建议的会议策略设置
 

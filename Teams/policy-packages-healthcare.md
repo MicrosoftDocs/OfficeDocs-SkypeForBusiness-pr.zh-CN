@@ -23,7 +23,7 @@ searchScope:
 description: 了解如何使用和管理适用于医疗保健组织的 Teams 策略包。
 ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117760"
@@ -84,7 +84,7 @@ Teams 当前包括以下医疗保健策略包。
 
 ### <a name="assign"></a>分配
 
-将策略包分配给用户。 如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。
+将策略包分配给用户。如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>向一个或多个用户分配策略包
 

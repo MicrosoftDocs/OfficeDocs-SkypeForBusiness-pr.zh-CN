@@ -24,7 +24,7 @@ appliesto:
 ms.custom: ''
 ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51092250"
@@ -81,7 +81,7 @@ SharePoint 中的权限集应用于 Lists 应用中创建的列表。 列表默�
 
 用户可以获得桌面、web 以及移动端的 Lists 体验。 需要记住的是，用户无法在 Teams 移动客户端中通过 Lists 创建新列表或固定现有列表。 要在 Teams 移动客户端中查看或编辑列表，必须首先通过 Teams 桌面或 web 客户端使用 Lists 创建或添加列表。
 
-来宾无法创建或删除列表。 他们可以添加现有列表的列表项，开始关于列表项的新对话，以及回复现有的关于列表项的对话。
+来宾无法创建或删除列表。但可以向现有列表添加列表项、开始关于列表项的新对话，以及回复关于列表项的现有对话。
 
 ### <a name="lists-and-the-sharepoint-app"></a>Lists 和 SharePoint 应用
 

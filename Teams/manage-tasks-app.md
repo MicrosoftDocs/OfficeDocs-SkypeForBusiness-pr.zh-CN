@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101148"
@@ -121,7 +121,7 @@ Contoso 总部和中级经理可以查看报告来了解每个门店和所有门
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate 和 Graph API
 
-微软代办中 Tasksk 支持 Power Automate，Planner 中 Tasks 支持 Graph API。 若要了解详细信息，请参阅：
+任务支持面向待办事项的 Power Automate 和面向 Planner 的 Graph API。要了解详细信息，请参阅：
 
 - [Planner 任务和计划 API 概述](/graph/planner-concept-overview)
 - [将微软待办与 Power Automate 结合使用](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

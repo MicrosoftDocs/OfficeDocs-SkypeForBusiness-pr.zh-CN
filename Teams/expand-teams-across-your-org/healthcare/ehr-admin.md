@@ -25,7 +25,7 @@ ms.reviewer: ''
 description: 使用 Microsoft Teams 设置虚拟就诊系统
 ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096276"
@@ -66,7 +66,7 @@ ms.locfileid: "51096276"
 - Epic 客户分析员
 
 > [!Note]
-> 与长篇故事技术专家一起查看 [Epic-Microsoft Teams Telehealth](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) 集成指南。 请确保已完成所有先决条件。 
+> 与你的 Epic 技术专家一起查看 [Epic-Microsoft Teams 远程医疗集成指南](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。 请确保完成所有先决条件。 
 
 ## <a name="connector-setup"></a>连接器设置
 
@@ -144,7 +144,7 @@ ms.locfileid: "51096276"
 
 - 在首次加入虚拟就诊时，提供商必须使用其 Microsoft 365 帐户进行一次性登录。
 
-- 一次性登录后，提供商将直接进入 Microsoft Teams 中的虚拟预约。 （提供商必须登录到 Microsoft Teams。）
+- 一次登录后，提供商将直接进入 Microsoft Teams 中的虚拟约会。（提供上必须登录到 Microsoft Teams）。
 
 - 提供商可以查看给定预约的参与者连接和断开连接实时更新。 提供商可以查看患者何时连接到虚拟就诊。
 
