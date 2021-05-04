@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
-ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
+ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51902566"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129791"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "51902566"
 本文介绍了“审批”应用要求和角色。
 
 > [!NOTE]
-> 此功能尚未向政府社区云 (GCC) 、政府社区云高 (GCCH) 和国防部 (DOD) 用户发布。
+> 此功能尚未向 政府社区云 (GCC) 、政府社区云 高 (GCCH) 和国防部 (DOD) 发布。
 
 ## <a name="required-permissions-and-licenses"></a>所需权限和许可证
 
@@ -57,7 +57,7 @@ ms.locfileid: "51902566"
 
 ## <a name="storage-with-cds"></a>通过 CDS 进行存储
 
-Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享数据语言。 它由 Microsoft 和我们的合作伙伴发布的一组标准化可扩展数据架构组成，可跨应用程序和业务流程实现数据的一致性及其含义。 了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。
+Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享数据语言。 它包括由 Microsoft 和我们的合作伙伴发布的一组标准化的可扩展数据架构，可使数据及其含义在应用程序和业务流程之间保持一致。 了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。
 
 了解有关[审批工作流](/power-automate/modern-approvals)的详细信息。
 
@@ -94,13 +94,13 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
   3. 搜索“审批”应用。
 
-![显示管理中心导航，突出显示“Teams 应用”>“管理应用”](media/manage-approval-apps.png)
+     ![显示管理中心导航，突出显示“Teams 应用”>“管理应用”](media/manage-approval-apps.png)
 
   4. 选择“审批”。
 
   5. 选择切换开关以为你的组织禁用该应用。
 
-![显示“审批”应用的详细信息](media/approvals-details.png)
+     ![显示“审批”应用的详细信息](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>保留策略
 
@@ -136,6 +136,12 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 - 已向审批请求添加了电子签名
 
+- 查看了电子签名请求详细信息
+
+- 已审阅电子签名请求
+
+- 已取消电子签名请求
+
 若要访问 Flow 中的更多审核审批，请为主审批实体“审批”、“审批请求”和“审批响应”在默认环境中启用和配置审核。 创建、更新和删除操作是审批记录的可审核事件。 详细了解[安全性和合规性的审核数据和用户活动 - Power Platform\| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。
 
 可在 [Microsoft 365 安全与合规中心](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)中进一步自定义。
@@ -154,3 +160,19 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 > [!Note]
 > 如果用户属于创建审批的聊天或频道的一部分，则他们将被赋予请求的查看者角色。 如果在创建审批时他们未获得该角色，则他们无法对请求执行操作。
+
+## <a name="approvals-e-signature-integration"></a>审批电子签名集成
+
+从"审批"应用创建的电子签名审批存储在所选提供商的云环境中。 有关有关电子签名协议存储的进一步信息，请参阅所选提供商的存储文档。
+
+若要使用"审批"应用电子签名功能，需要以下项：
+
+- 你选择使用的特定电子签名提供商的许可证。 若要获取组织的许可证，您需要转到提供商的网站。
+
+对于"审批"电子签名功能，默认情况下，第三方签名合作伙伴Teams"审批"应用中。 可以通过访问管理中心中的应用设置来禁用Teams签名提供程序。
+
+1. 在Teams管理中心的"**管理应用"下**，选择"审批 **"** 应用并选择 **"设置"。**
+
+2. 默认情况下，每个电子签名提供商旁边都有一个开关，该开关位于 (位置) 右侧。 向左滑动切换开关以禁用特定的电子签名提供程序。 如果Teams管理员禁用提供商，则最终用户在创建审批时不会看到提供商。 最终用户也无法查看通过该提供商提出的任何电子签名请求。
+
+从"审批"应用创建的电子签名审批存储在所选提供商的云中。 因此，您需要转到提供商的网站才能导出有关电子签名的任何数据。 请参阅提供商的文档，了解这些协议的导出和保留。

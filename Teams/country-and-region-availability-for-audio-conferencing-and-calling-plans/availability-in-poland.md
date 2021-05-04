@@ -24,23 +24,23 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于波兰的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 38689b404ada642ec98eaaff6c1abca6e7d72479
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以下是适用于波兰Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: bb60f6f100ec118349f39ac45371ff593013111c
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102248"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129641"
 ---
 # <a name="availability-in-poland"></a>在波兰的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于波兰的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+以下是适用于波兰Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 波兰</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
@@ -48,7 +48,7 @@ ms.locfileid: "51102248"
    
 ## <a name="phone-system"></a>电话系统
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
 | 自动助理 <br/> |可用  <br/> |
@@ -57,17 +57,16 @@ ms.locfileid: "51102248"
    
 ## <a name="calling-plans"></a>通话套餐
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |否  <br/> |
-|通话套餐的可用分钟数  <br/> |不适用  <br/> |
-|是否可以拨打呼出电话？  <br/> |不适用  <br/> |
-
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+|是否可购买通话套餐？  <br/> |是  <br/> |
+|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>|
+|能否对高级号码进行出站呼叫？  <br/> | 目前不支持。 <br/> |
+|是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>Bydgoszcz <li>  Gdansk <li>  Katowice <li>  克拉科瓦 <li>  Lodz <li>  Lublin <li>  波兹南 <li>  Szczecin <li>  波兰 <li>  Wroc一 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
@@ -77,7 +76,7 @@ ms.locfileid: "51102248"
   
 ## <a name="communications-credits"></a>通信点数
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |是  <br/> |
    
