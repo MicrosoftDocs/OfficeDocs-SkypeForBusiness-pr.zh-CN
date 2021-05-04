@@ -18,139 +18,161 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
-ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
+ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51902566"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129791"
 ---
-# <a name="teams-approvals-app-availability"></a><span data-ttu-id="8a265-103">Teams“审批”应用可用性</span><span class="sxs-lookup"><span data-stu-id="8a265-103">Teams Approvals app availability</span></span>
+# <a name="teams-approvals-app-availability"></a><span data-ttu-id="f82b1-103">Teams“审批”应用可用性</span><span class="sxs-lookup"><span data-stu-id="f82b1-103">Teams Approvals app availability</span></span>
 
-<span data-ttu-id="8a265-104">“审批”应用可作为个人应用提供给所有 Microsoft Teams 用户。</span><span class="sxs-lookup"><span data-stu-id="8a265-104">The Approvals app is available as a personal app for all Microsoft Teams users.</span></span>
-<span data-ttu-id="8a265-105">“审批”应用提供了一种在 Teams 中将审核、合规性、责任和工作流引入结构化审批和非结构化审批的简单方法。</span><span class="sxs-lookup"><span data-stu-id="8a265-105">The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.</span></span>
+<span data-ttu-id="f82b1-104">“审批”应用可作为个人应用提供给所有 Microsoft Teams 用户。</span><span class="sxs-lookup"><span data-stu-id="f82b1-104">The Approvals app is available as a personal app for all Microsoft Teams users.</span></span>
+<span data-ttu-id="f82b1-105">“审批”应用提供了一种在 Teams 中将审核、合规性、责任和工作流引入结构化审批和非结构化审批的简单方法。</span><span class="sxs-lookup"><span data-stu-id="f82b1-105">The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.</span></span>
 
  ![显示“审批”应用](media/approvals-selection.png)
 
-<span data-ttu-id="8a265-107">用户可以固定“审批”应用以将其保存到菜单栏。</span><span class="sxs-lookup"><span data-stu-id="8a265-107">Users can pin the Approvals app to save it to the menu bar.</span></span>
+<span data-ttu-id="f82b1-107">用户可以固定“审批”应用以将其保存到菜单栏。</span><span class="sxs-lookup"><span data-stu-id="f82b1-107">Users can pin the Approvals app to save it to the menu bar.</span></span>
 
  ![显示“审批”应用以及固定选项](media/approvalApp-pin.png)
 
-<span data-ttu-id="8a265-109">从“审批”应用创建的第一个审批将触发在默认 Common Data Service (CDS) 环境中设置审批解决方案。</span><span class="sxs-lookup"><span data-stu-id="8a265-109">The first approval created from the Approvals app will trigger the provisioning of the Approval Solution in the default Common Data Service (CDS) environment.</span></span> <span data-ttu-id="8a265-110">从“审批”应用创建的审批将存储在默认 CDS 环境中。</span><span class="sxs-lookup"><span data-stu-id="8a265-110">Approvals created from the Approvals app will be stored in the default CDS environment.</span></span>
+<span data-ttu-id="f82b1-109">从“审批”应用创建的第一个审批将触发在默认 Common Data Service (CDS) 环境中设置审批解决方案。</span><span class="sxs-lookup"><span data-stu-id="f82b1-109">The first approval created from the Approvals app will trigger the provisioning of the Approval Solution in the default Common Data Service (CDS) environment.</span></span> <span data-ttu-id="f82b1-110">从“审批”应用创建的审批将存储在默认 CDS 环境中。</span><span class="sxs-lookup"><span data-stu-id="f82b1-110">Approvals created from the Approvals app will be stored in the default CDS environment.</span></span>
 
-<span data-ttu-id="8a265-111">本文介绍了“审批”应用要求和角色。</span><span class="sxs-lookup"><span data-stu-id="8a265-111">This article describes the Approvals app requirements and roles.</span></span>
+<span data-ttu-id="f82b1-111">本文介绍了“审批”应用要求和角色。</span><span class="sxs-lookup"><span data-stu-id="f82b1-111">This article describes the Approvals app requirements and roles.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="8a265-112">此功能尚未向政府社区云 (GCC) 、政府社区云高 (GCCH) 和国防部 (DOD) 用户发布。</span><span class="sxs-lookup"><span data-stu-id="8a265-112">This feature hasn't been released to Government Community Cloud (GCC), Government Community Cloud High (GCCH), and Department of Defense (DOD) users yet.</span></span>
+> <span data-ttu-id="f82b1-112">此功能尚未向 政府社区云 (GCC) 、政府社区云 高 (GCCH) 和国防部 (DOD) 发布。</span><span class="sxs-lookup"><span data-stu-id="f82b1-112">This feature hasn't been released to Government Community Cloud (GCC), Government Community Cloud High (GCCH), and Department of Defense (DOD) users yet.</span></span>
 
-## <a name="required-permissions-and-licenses"></a><span data-ttu-id="8a265-113">所需权限和许可证</span><span class="sxs-lookup"><span data-stu-id="8a265-113">Required permissions and licenses</span></span>
+## <a name="required-permissions-and-licenses"></a><span data-ttu-id="f82b1-113">所需权限和许可证</span><span class="sxs-lookup"><span data-stu-id="f82b1-113">Required permissions and licenses</span></span>
 
-<span data-ttu-id="8a265-114">若要使用“审批”应用，你需要以下项目的权限：</span><span class="sxs-lookup"><span data-stu-id="8a265-114">To use the Approvals app, you need permission for the following items:</span></span>
+<span data-ttu-id="f82b1-114">若要使用“审批”应用，你需要以下项目的权限：</span><span class="sxs-lookup"><span data-stu-id="f82b1-114">To use the Approvals app, you need permission for the following items:</span></span>
 
-- <span data-ttu-id="8a265-115">创建 Microsoft CDS 数据库的权限。</span><span class="sxs-lookup"><span data-stu-id="8a265-115">Permissions to create a Microsoft CDS database.</span></span>
+- <span data-ttu-id="f82b1-115">创建 Microsoft CDS 数据库的权限。</span><span class="sxs-lookup"><span data-stu-id="f82b1-115">Permissions to create a Microsoft CDS database.</span></span>
 
-- <span data-ttu-id="8a265-116">[flow.microsoft.com](https://flow.microsoft.com/) 上的帐户</span><span class="sxs-lookup"><span data-stu-id="8a265-116">An account on [flow.microsoft.com](https://flow.microsoft.com/)</span></span>
+- <span data-ttu-id="f82b1-116">[flow.microsoft.com](https://flow.microsoft.com/) 上的帐户</span><span class="sxs-lookup"><span data-stu-id="f82b1-116">An account on [flow.microsoft.com](https://flow.microsoft.com/)</span></span>
 
-- <span data-ttu-id="8a265-117">目标环境中的管理员角色。</span><span class="sxs-lookup"><span data-stu-id="8a265-117">Administrator Role in the target environment.</span></span>
+- <span data-ttu-id="f82b1-117">目标环境中的管理员角色。</span><span class="sxs-lookup"><span data-stu-id="f82b1-117">Administrator Role in the target environment.</span></span>
 
-- <span data-ttu-id="8a265-118">[Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的许可证。</span><span class="sxs-lookup"><span data-stu-id="8a265-118">License for a [Power Automate](/power-automate/get-started-approvals), an Office 365, or a Dynamics 365.</span></span>
+- <span data-ttu-id="f82b1-118">[Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的许可证。</span><span class="sxs-lookup"><span data-stu-id="f82b1-118">License for a [Power Automate](/power-automate/get-started-approvals), an Office 365, or a Dynamics 365.</span></span>
 
-## <a name="storage-with-cds"></a><span data-ttu-id="8a265-119">通过 CDS 进行存储</span><span class="sxs-lookup"><span data-stu-id="8a265-119">Storage with CDS</span></span>
+## <a name="storage-with-cds"></a><span data-ttu-id="f82b1-119">通过 CDS 进行存储</span><span class="sxs-lookup"><span data-stu-id="f82b1-119">Storage with CDS</span></span>
 
-<span data-ttu-id="8a265-120">Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享数据语言。</span><span class="sxs-lookup"><span data-stu-id="8a265-120">The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS.</span></span> <span data-ttu-id="8a265-121">它由 Microsoft 和我们的合作伙伴发布的一组标准化可扩展数据架构组成，可跨应用程序和业务流程实现数据的一致性及其含义。</span><span class="sxs-lookup"><span data-stu-id="8a265-121">It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners, that enables consistency of data and its meaning across applications and business processes.</span></span> <span data-ttu-id="8a265-122">了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。</span><span class="sxs-lookup"><span data-stu-id="8a265-122">Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).</span></span>
+<span data-ttu-id="f82b1-120">Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享数据语言。</span><span class="sxs-lookup"><span data-stu-id="f82b1-120">The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS.</span></span> <span data-ttu-id="f82b1-121">它包括由 Microsoft 和我们的合作伙伴发布的一组标准化的可扩展数据架构，可使数据及其含义在应用程序和业务流程之间保持一致。</span><span class="sxs-lookup"><span data-stu-id="f82b1-121">It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes.</span></span> <span data-ttu-id="f82b1-122">了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。</span><span class="sxs-lookup"><span data-stu-id="f82b1-122">Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).</span></span>
 
-<span data-ttu-id="8a265-123">了解有关[审批工作流](/power-automate/modern-approvals)的详细信息。</span><span class="sxs-lookup"><span data-stu-id="8a265-123">Learn more about the [Approval workflow](/power-automate/modern-approvals).</span></span>
+<span data-ttu-id="f82b1-123">了解有关[审批工作流](/power-automate/modern-approvals)的详细信息。</span><span class="sxs-lookup"><span data-stu-id="f82b1-123">Learn more about the [Approval workflow](/power-automate/modern-approvals).</span></span>
 
-## <a name="approvals-teams-app-permissions"></a><span data-ttu-id="8a265-124">“审批”Teams 应用权限</span><span class="sxs-lookup"><span data-stu-id="8a265-124">Approvals Teams app permissions</span></span>
+## <a name="approvals-teams-app-permissions"></a><span data-ttu-id="f82b1-124">“审批”Teams 应用权限</span><span class="sxs-lookup"><span data-stu-id="f82b1-124">Approvals Teams app permissions</span></span>
 
-<span data-ttu-id="8a265-125">通过“审批”Teams 应用，你能够访问以下功能：</span><span class="sxs-lookup"><span data-stu-id="8a265-125">The Approvals Teams app lets you access the following features:</span></span>
+<span data-ttu-id="f82b1-125">通过“审批”Teams 应用，你能够访问以下功能：</span><span class="sxs-lookup"><span data-stu-id="f82b1-125">The Approvals Teams app lets you access the following features:</span></span>
 
-- <span data-ttu-id="8a265-126">接收你向其提供的消息和数据。</span><span class="sxs-lookup"><span data-stu-id="8a265-126">Receive messages and data that you provide to it.</span></span>
+- <span data-ttu-id="f82b1-126">接收你向其提供的消息和数据。</span><span class="sxs-lookup"><span data-stu-id="f82b1-126">Receive messages and data that you provide to it.</span></span>
 
-- <span data-ttu-id="8a265-127">向你发送消息和通知。</span><span class="sxs-lookup"><span data-stu-id="8a265-127">Send you messages and notifications.</span></span>
+- <span data-ttu-id="f82b1-127">向你发送消息和通知。</span><span class="sxs-lookup"><span data-stu-id="f82b1-127">Send you messages and notifications.</span></span>
 
-- <span data-ttu-id="8a265-128">呈现个人应用和对话框，但不显示 Teams 提供的标题。</span><span class="sxs-lookup"><span data-stu-id="8a265-128">Render personal apps and dialogs without a Teams-provided header.</span></span>
+- <span data-ttu-id="f82b1-128">呈现个人应用和对话框，但不显示 Teams 提供的标题。</span><span class="sxs-lookup"><span data-stu-id="f82b1-128">Render personal apps and dialogs without a Teams-provided header.</span></span>
 
-- <span data-ttu-id="8a265-129">访问你的个人资料信息，如姓名、电子邮件地址、公司名称和首选语言。</span><span class="sxs-lookup"><span data-stu-id="8a265-129">Access your profile information such as your name, email address, company name, and preferred language.</span></span>
+- <span data-ttu-id="f82b1-129">访问你的个人资料信息，如姓名、电子邮件地址、公司名称和首选语言。</span><span class="sxs-lookup"><span data-stu-id="f82b1-129">Access your profile information such as your name, email address, company name, and preferred language.</span></span>
 
-- <span data-ttu-id="8a265-130">在频道中接收团队成员向其提供的消息和数据。</span><span class="sxs-lookup"><span data-stu-id="8a265-130">Receive messages and data that team members provide to it in a channel.</span></span>
+- <span data-ttu-id="f82b1-130">在频道中接收团队成员向其提供的消息和数据。</span><span class="sxs-lookup"><span data-stu-id="f82b1-130">Receive messages and data that team members provide to it in a channel.</span></span>
 
-- <span data-ttu-id="8a265-131">在频道中发送消息和通知。</span><span class="sxs-lookup"><span data-stu-id="8a265-131">Send messages and notifications in a channel.</span></span>
+- <span data-ttu-id="f82b1-131">在频道中发送消息和通知。</span><span class="sxs-lookup"><span data-stu-id="f82b1-131">Send messages and notifications in a channel.</span></span>
 
-- <span data-ttu-id="8a265-132">访问团队的信息：</span><span class="sxs-lookup"><span data-stu-id="8a265-132">Access your team's information:</span></span>
-  - <span data-ttu-id="8a265-133">团队名称</span><span class="sxs-lookup"><span data-stu-id="8a265-133">team name</span></span>
-  - <span data-ttu-id="8a265-134">频道列表</span><span class="sxs-lookup"><span data-stu-id="8a265-134">channel list</span></span>
-  - <span data-ttu-id="8a265-135">名单（团队成员的姓名和电子邮件地址）。</span><span class="sxs-lookup"><span data-stu-id="8a265-135">roster (team member's names and email addresses).</span></span>
+- <span data-ttu-id="f82b1-132">访问团队的信息：</span><span class="sxs-lookup"><span data-stu-id="f82b1-132">Access your team's information:</span></span>
+  - <span data-ttu-id="f82b1-133">团队名称</span><span class="sxs-lookup"><span data-stu-id="f82b1-133">team name</span></span>
+  - <span data-ttu-id="f82b1-134">频道列表</span><span class="sxs-lookup"><span data-stu-id="f82b1-134">channel list</span></span>
+  - <span data-ttu-id="f82b1-135">名单（团队成员的姓名和电子邮件地址）。</span><span class="sxs-lookup"><span data-stu-id="f82b1-135">roster (team member's names and email addresses).</span></span>
 
-- <span data-ttu-id="8a265-136">使用团队的信息联系他们。</span><span class="sxs-lookup"><span data-stu-id="8a265-136">Use the team's information to contact them.</span></span>
+- <span data-ttu-id="f82b1-136">使用团队的信息联系他们。</span><span class="sxs-lookup"><span data-stu-id="f82b1-136">Use the team's information to contact them.</span></span>
 
-## <a name="disable-the-approvals-app"></a><span data-ttu-id="8a265-137">禁用“审批”应用</span><span class="sxs-lookup"><span data-stu-id="8a265-137">Disable the Approvals app</span></span>
+## <a name="disable-the-approvals-app"></a><span data-ttu-id="f82b1-137">禁用“审批”应用</span><span class="sxs-lookup"><span data-stu-id="f82b1-137">Disable the Approvals app</span></span>
 
-<span data-ttu-id="8a265-138">默认情况下，“审批”应用可用。</span><span class="sxs-lookup"><span data-stu-id="8a265-138">The Approvals app is available by default.</span></span> <span data-ttu-id="8a265-139">可在 Teams 管理中心中禁用该应用。</span><span class="sxs-lookup"><span data-stu-id="8a265-139">You can disable the app in the Teams admin center.</span></span>
+<span data-ttu-id="f82b1-138">默认情况下，“审批”应用可用。</span><span class="sxs-lookup"><span data-stu-id="f82b1-138">The Approvals app is available by default.</span></span> <span data-ttu-id="f82b1-139">可在 Teams 管理中心中禁用该应用。</span><span class="sxs-lookup"><span data-stu-id="f82b1-139">You can disable the app in the Teams admin center.</span></span>
 
-  1. <span data-ttu-id="8a265-140">登录到 Teams 管理中心。</span><span class="sxs-lookup"><span data-stu-id="8a265-140">Sign in to the Teams admin center.</span></span>
+  1. <span data-ttu-id="f82b1-140">登录到 Teams 管理中心。</span><span class="sxs-lookup"><span data-stu-id="f82b1-140">Sign in to the Teams admin center.</span></span>
 
-  2. <span data-ttu-id="8a265-141">展开“**Teams 应用**”，选择“**管理应用**”。</span><span class="sxs-lookup"><span data-stu-id="8a265-141">Expand **Teams apps** and select **Manage apps**.</span></span>
+  2. <span data-ttu-id="f82b1-141">展开“**Teams 应用**”，选择“**管理应用**”。</span><span class="sxs-lookup"><span data-stu-id="f82b1-141">Expand **Teams apps** and select **Manage apps**.</span></span>
 
-  3. <span data-ttu-id="8a265-142">搜索“审批”应用。</span><span class="sxs-lookup"><span data-stu-id="8a265-142">Search for the Approvals app.</span></span>
+  3. <span data-ttu-id="f82b1-142">搜索“审批”应用。</span><span class="sxs-lookup"><span data-stu-id="f82b1-142">Search for the Approvals app.</span></span>
 
-![显示管理中心导航，突出显示“Teams 应用”>“管理应用”](media/manage-approval-apps.png)
+     ![显示管理中心导航，突出显示“Teams 应用”>“管理应用”](media/manage-approval-apps.png)
 
-  4. <span data-ttu-id="8a265-144">选择“审批”。</span><span class="sxs-lookup"><span data-stu-id="8a265-144">Select Approvals.</span></span>
+  4. <span data-ttu-id="f82b1-144">选择“审批”。</span><span class="sxs-lookup"><span data-stu-id="f82b1-144">Select Approvals.</span></span>
 
-  5. <span data-ttu-id="8a265-145">选择切换开关以为你的组织禁用该应用。</span><span class="sxs-lookup"><span data-stu-id="8a265-145">Select the toggle to disable the app for your organization.</span></span>
+  5. <span data-ttu-id="f82b1-145">选择切换开关以为你的组织禁用该应用。</span><span class="sxs-lookup"><span data-stu-id="f82b1-145">Select the toggle to disable the app for your organization.</span></span>
 
-![显示“审批”应用的详细信息](media/approvals-details.png)
+     ![显示“审批”应用的详细信息](media/approvals-details.png)
 
-## <a name="retention-policy"></a><span data-ttu-id="8a265-147">保留策略</span><span class="sxs-lookup"><span data-stu-id="8a265-147">Retention policy</span></span>
+## <a name="retention-policy"></a><span data-ttu-id="f82b1-147">保留策略</span><span class="sxs-lookup"><span data-stu-id="f82b1-147">Retention policy</span></span>
 
-<span data-ttu-id="8a265-148">从“审批”应用创建的审批存储在默认 CDS 环境中，该环境目前不支持备份。</span><span class="sxs-lookup"><span data-stu-id="8a265-148">Approvals created from the Approvals App are stored in the default CDS environment, which doesn’t support backups at this time.</span></span> <span data-ttu-id="8a265-149">详细了解如何[备份和还原环境 - Power Platform\| Microsoft Docs](/power-platform/admin/backup-restore-environments)。</span><span class="sxs-lookup"><span data-stu-id="8a265-149">Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).</span></span>
+<span data-ttu-id="f82b1-148">从“审批”应用创建的审批存储在默认 CDS 环境中，该环境目前不支持备份。</span><span class="sxs-lookup"><span data-stu-id="f82b1-148">Approvals created from the Approvals App are stored in the default CDS environment, which doesn’t support backups at this time.</span></span> <span data-ttu-id="f82b1-149">详细了解如何[备份和还原环境 - Power Platform\| Microsoft Docs](/power-platform/admin/backup-restore-environments)。</span><span class="sxs-lookup"><span data-stu-id="f82b1-149">Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).</span></span>
 
-## <a name="auditing"></a><span data-ttu-id="8a265-150">审核</span><span class="sxs-lookup"><span data-stu-id="8a265-150">Auditing</span></span>
+## <a name="auditing"></a><span data-ttu-id="f82b1-150">审核</span><span class="sxs-lookup"><span data-stu-id="f82b1-150">Auditing</span></span>
 
-<span data-ttu-id="8a265-151">“审批”应用将在 Microsoft 365 安全与合规中心中记录审核事件。</span><span class="sxs-lookup"><span data-stu-id="8a265-151">The Approvals App logs audit events within the Microsoft 365 Security and Compliance Center.</span></span> <span data-ttu-id="8a265-152">你可查看审核日志。</span><span class="sxs-lookup"><span data-stu-id="8a265-152">You can view the audit log.</span></span>
+<span data-ttu-id="f82b1-151">“审批”应用将在 Microsoft 365 安全与合规中心中记录审核事件。</span><span class="sxs-lookup"><span data-stu-id="f82b1-151">The Approvals App logs audit events within the Microsoft 365 Security and Compliance Center.</span></span> <span data-ttu-id="f82b1-152">你可查看审核日志。</span><span class="sxs-lookup"><span data-stu-id="f82b1-152">You can view the audit log.</span></span>
 
-1. <span data-ttu-id="8a265-153">转到 Microsoft 365 合规中心网站。</span><span class="sxs-lookup"><span data-stu-id="8a265-153">Go to the Microsoft 365 Compliance Site.</span></span>
+1. <span data-ttu-id="f82b1-153">转到 Microsoft 365 合规中心网站。</span><span class="sxs-lookup"><span data-stu-id="f82b1-153">Go to the Microsoft 365 Compliance Site.</span></span>
 
-2. <span data-ttu-id="8a265-154">选择“**审核**”部分。</span><span class="sxs-lookup"><span data-stu-id="8a265-154">Select the **Audit** section.</span></span>
+2. <span data-ttu-id="f82b1-154">选择“**审核**”部分。</span><span class="sxs-lookup"><span data-stu-id="f82b1-154">Select the **Audit** section.</span></span>
 
-3. <span data-ttu-id="8a265-155">在 **Microsoft Teams 审批活动** 下搜索活动。</span><span class="sxs-lookup"><span data-stu-id="8a265-155">Search for activities under **Microsoft Teams approvals activities**.</span></span>
+3. <span data-ttu-id="f82b1-155">在 **Microsoft Teams 审批活动** 下搜索活动。</span><span class="sxs-lookup"><span data-stu-id="f82b1-155">Search for activities under **Microsoft Teams approvals activities**.</span></span>
 
-<span data-ttu-id="8a265-156">可搜索以下活动：</span><span class="sxs-lookup"><span data-stu-id="8a265-156">You can search for the following activities:</span></span>
+<span data-ttu-id="f82b1-156">可搜索以下活动：</span><span class="sxs-lookup"><span data-stu-id="f82b1-156">You can search for the following activities:</span></span>
 
-- <span data-ttu-id="8a265-157">新建审批请求</span><span class="sxs-lookup"><span data-stu-id="8a265-157">Create new approval request</span></span>
+- <span data-ttu-id="f82b1-157">新建审批请求</span><span class="sxs-lookup"><span data-stu-id="f82b1-157">Create new approval request</span></span>
 
-- <span data-ttu-id="8a265-158">查看审批请求详细信息</span><span class="sxs-lookup"><span data-stu-id="8a265-158">View approval request details</span></span>
+- <span data-ttu-id="f82b1-158">查看审批请求详细信息</span><span class="sxs-lookup"><span data-stu-id="f82b1-158">View approval request details</span></span>
 
-- <span data-ttu-id="8a265-159">已批准审批请求</span><span class="sxs-lookup"><span data-stu-id="8a265-159">Approved approval request</span></span>
+- <span data-ttu-id="f82b1-159">已批准审批请求</span><span class="sxs-lookup"><span data-stu-id="f82b1-159">Approved approval request</span></span>
 
-- <span data-ttu-id="8a265-160">已拒绝审批请求</span><span class="sxs-lookup"><span data-stu-id="8a265-160">Rejected approval request</span></span>
+- <span data-ttu-id="f82b1-160">已拒绝审批请求</span><span class="sxs-lookup"><span data-stu-id="f82b1-160">Rejected approval request</span></span>
 
-- <span data-ttu-id="8a265-161">已取消审批请求</span><span class="sxs-lookup"><span data-stu-id="8a265-161">Canceled approval request</span></span>
+- <span data-ttu-id="f82b1-161">已取消审批请求</span><span class="sxs-lookup"><span data-stu-id="f82b1-161">Canceled approval request</span></span>
 
-- <span data-ttu-id="8a265-162">已共享审批请求</span><span class="sxs-lookup"><span data-stu-id="8a265-162">Shared approval request</span></span>
+- <span data-ttu-id="f82b1-162">已共享审批请求</span><span class="sxs-lookup"><span data-stu-id="f82b1-162">Shared approval request</span></span>
 
-- <span data-ttu-id="8a265-163">已将文件附加到审批请求</span><span class="sxs-lookup"><span data-stu-id="8a265-163">File attached to approval request</span></span>
+- <span data-ttu-id="f82b1-163">已将文件附加到审批请求</span><span class="sxs-lookup"><span data-stu-id="f82b1-163">File attached to approval request</span></span>
 
-- <span data-ttu-id="8a265-164">已重新分配审批请求</span><span class="sxs-lookup"><span data-stu-id="8a265-164">Reassigned approval request</span></span>
+- <span data-ttu-id="f82b1-164">已重新分配审批请求</span><span class="sxs-lookup"><span data-stu-id="f82b1-164">Reassigned approval request</span></span>
 
-- <span data-ttu-id="8a265-165">已向审批请求添加了电子签名</span><span class="sxs-lookup"><span data-stu-id="8a265-165">Added e-signature to approval request</span></span>
+- <span data-ttu-id="f82b1-165">已向审批请求添加了电子签名</span><span class="sxs-lookup"><span data-stu-id="f82b1-165">Added e-signature to approval request</span></span>
 
-<span data-ttu-id="8a265-166">若要访问 Flow 中的更多审核审批，请为主审批实体“审批”、“审批请求”和“审批响应”在默认环境中启用和配置审核。</span><span class="sxs-lookup"><span data-stu-id="8a265-166">For access to more auditing approvals within Flow, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response.</span></span> <span data-ttu-id="8a265-167">创建、更新和删除操作是审批记录的可审核事件。</span><span class="sxs-lookup"><span data-stu-id="8a265-167">Create, update, and delete operations are auditable events for Approval records.</span></span> <span data-ttu-id="8a265-168">详细了解[安全性和合规性的审核数据和用户活动 - Power Platform\| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。</span><span class="sxs-lookup"><span data-stu-id="8a265-168">Learn more about [Audit data and user activity for security and compliance - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).</span></span>
+- <span data-ttu-id="f82b1-166">查看了电子签名请求详细信息</span><span class="sxs-lookup"><span data-stu-id="f82b1-166">Viewed e-signature request details</span></span>
 
-<span data-ttu-id="8a265-169">可在 [Microsoft 365 安全与合规中心](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)中进一步自定义。</span><span class="sxs-lookup"><span data-stu-id="8a265-169">Auditing can be customized further in the [Microsoft 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).</span></span>
+- <span data-ttu-id="f82b1-167">已审阅电子签名请求</span><span class="sxs-lookup"><span data-stu-id="f82b1-167">Reviewed e-signature request</span></span>
 
-1. <span data-ttu-id="8a265-170">若要使用预配置的报告，请登录到 Microsoft 365 安全与合规中心。</span><span class="sxs-lookup"><span data-stu-id="8a265-170">To use the preconfigured reports, sign in to Microsoft 365 Security and Compliance.</span></span>
+- <span data-ttu-id="f82b1-168">已取消电子签名请求</span><span class="sxs-lookup"><span data-stu-id="f82b1-168">Canceled e-signature request</span></span>
 
-2. <span data-ttu-id="8a265-171">选择“**搜索和调查**”。</span><span class="sxs-lookup"><span data-stu-id="8a265-171">Select **Search & investigation**.</span></span>
+<span data-ttu-id="f82b1-169">若要访问 Flow 中的更多审核审批，请为主审批实体“审批”、“审批请求”和“审批响应”在默认环境中启用和配置审核。</span><span class="sxs-lookup"><span data-stu-id="f82b1-169">For access to more auditing approvals within Flow, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response.</span></span> <span data-ttu-id="f82b1-170">创建、更新和删除操作是审批记录的可审核事件。</span><span class="sxs-lookup"><span data-stu-id="f82b1-170">Create, update, and delete operations are auditable events for Approval records.</span></span> <span data-ttu-id="f82b1-171">详细了解[安全性和合规性的审核数据和用户活动 - Power Platform\| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。</span><span class="sxs-lookup"><span data-stu-id="f82b1-171">Learn more about [Audit data and user activity for security and compliance - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).</span></span>
 
-3. <span data-ttu-id="8a265-172">搜索审核日志，然后选择“**Dynamics 365 活动**”选项卡。</span><span class="sxs-lookup"><span data-stu-id="8a265-172">Search the Audit log and select the **Dynamics 365 activities** tab.</span></span>
+<span data-ttu-id="f82b1-172">可在 [Microsoft 365 安全与合规中心](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)中进一步自定义。</span><span class="sxs-lookup"><span data-stu-id="f82b1-172">Auditing can be customized further in the [Microsoft 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).</span></span>
 
-<span data-ttu-id="8a265-173">详细了解 [Microsoft Dataverse 和模型驱动的应用活动日志记录 - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing)。</span><span class="sxs-lookup"><span data-stu-id="8a265-173">Learn more about [Microsoft Dataverse and model-driven apps activity logging - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing).</span></span>
+1. <span data-ttu-id="f82b1-173">若要使用预配置的报告，请登录到 Microsoft 365 安全与合规中心。</span><span class="sxs-lookup"><span data-stu-id="f82b1-173">To use the preconfigured reports, sign in to Microsoft 365 Security and Compliance.</span></span>
 
-## <a name="security"></a><span data-ttu-id="8a265-174">安全性</span><span class="sxs-lookup"><span data-stu-id="8a265-174">Security</span></span>
+2. <span data-ttu-id="f82b1-174">选择“**搜索和调查**”。</span><span class="sxs-lookup"><span data-stu-id="f82b1-174">Select **Search & investigation**.</span></span>
 
-<span data-ttu-id="8a265-175">在 Teams“审批”应用中，用户能够创建新的审批并查看其已发送和接收的审批。</span><span class="sxs-lookup"><span data-stu-id="8a265-175">From the Teams Approvals app, users have access to create new Approvals and view Approvals that they have sent and received.</span></span> <span data-ttu-id="8a265-176">用户无法访问其他人创建的审批，除非他们是请求的回应者或查看者。</span><span class="sxs-lookup"><span data-stu-id="8a265-176">Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.</span></span>
+3. <span data-ttu-id="f82b1-175">搜索审核日志，然后选择“**Dynamics 365 活动**”选项卡。</span><span class="sxs-lookup"><span data-stu-id="f82b1-175">Search the Audit log and select the **Dynamics 365 activities** tab.</span></span>
+
+<span data-ttu-id="f82b1-176">详细了解 [Microsoft Dataverse 和模型驱动的应用活动日志记录 - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing)。</span><span class="sxs-lookup"><span data-stu-id="f82b1-176">Learn more about [Microsoft Dataverse and model-driven apps activity logging - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing).</span></span>
+
+## <a name="security"></a><span data-ttu-id="f82b1-177">安全性</span><span class="sxs-lookup"><span data-stu-id="f82b1-177">Security</span></span>
+
+<span data-ttu-id="f82b1-178">在 Teams“审批”应用中，用户能够创建新的审批并查看其已发送和接收的审批。</span><span class="sxs-lookup"><span data-stu-id="f82b1-178">From the Teams Approvals app, users have access to create new Approvals and view Approvals that they have sent and received.</span></span> <span data-ttu-id="f82b1-179">用户无法访问其他人创建的审批，除非他们是请求的回应者或查看者。</span><span class="sxs-lookup"><span data-stu-id="f82b1-179">Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.</span></span>
 
 > [!Note]
-> <span data-ttu-id="8a265-177">如果用户属于创建审批的聊天或频道的一部分，则他们将被赋予请求的查看者角色。</span><span class="sxs-lookup"><span data-stu-id="8a265-177">A user will be given a viewer role of a request if they are part of the chat or channel where the approval was created.</span></span> <span data-ttu-id="8a265-178">如果在创建审批时他们未获得该角色，则他们无法对请求执行操作。</span><span class="sxs-lookup"><span data-stu-id="8a265-178">They won't have the ability to take action on the request if they weren't given that role when the approval was created.</span></span>
+> <span data-ttu-id="f82b1-180">如果用户属于创建审批的聊天或频道的一部分，则他们将被赋予请求的查看者角色。</span><span class="sxs-lookup"><span data-stu-id="f82b1-180">A user will be given a viewer role of a request if they are part of the chat or channel where the approval was created.</span></span> <span data-ttu-id="f82b1-181">如果在创建审批时他们未获得该角色，则他们无法对请求执行操作。</span><span class="sxs-lookup"><span data-stu-id="f82b1-181">They won't have the ability to take action on the request if they weren't given that role when the approval was created.</span></span>
+
+## <a name="approvals-e-signature-integration"></a><span data-ttu-id="f82b1-182">审批电子签名集成</span><span class="sxs-lookup"><span data-stu-id="f82b1-182">Approvals e-signature integration</span></span>
+
+<span data-ttu-id="f82b1-183">从"审批"应用创建的电子签名审批存储在所选提供商的云环境中。</span><span class="sxs-lookup"><span data-stu-id="f82b1-183">E-signature approvals created from the Approvals app are stored in the selected provider's cloud environment.</span></span> <span data-ttu-id="f82b1-184">有关有关电子签名协议存储的进一步信息，请参阅所选提供商的存储文档。</span><span class="sxs-lookup"><span data-stu-id="f82b1-184">For further information about storage around the e-signature agreement, view the selected provider's storage documentation.</span></span>
+
+<span data-ttu-id="f82b1-185">若要使用"审批"应用电子签名功能，需要以下项：</span><span class="sxs-lookup"><span data-stu-id="f82b1-185">To use the Approvals app e-signature feature, you need the following items:</span></span>
+
+- <span data-ttu-id="f82b1-186">你选择使用的特定电子签名提供商的许可证。</span><span class="sxs-lookup"><span data-stu-id="f82b1-186">License for the specific e-signature provider you're choosing to use.</span></span> <span data-ttu-id="f82b1-187">若要获取组织的许可证，您需要转到提供商的网站。</span><span class="sxs-lookup"><span data-stu-id="f82b1-187">In order to obtain a license for your organization, you'll need to go to the provider’s site.</span></span>
+
+<span data-ttu-id="f82b1-188">对于"审批"电子签名功能，默认情况下，第三方签名合作伙伴Teams"审批"应用中。</span><span class="sxs-lookup"><span data-stu-id="f82b1-188">For the Approvals e-signature functionality, third-party signature partners will appear in the Teams Approvals app by default.</span></span> <span data-ttu-id="f82b1-189">可以通过访问管理中心中的应用设置来禁用Teams签名提供程序。</span><span class="sxs-lookup"><span data-stu-id="f82b1-189">You can disable specific e-signature providers by accessing app settings in the Teams admin center.</span></span>
+
+1. <span data-ttu-id="f82b1-190">在Teams管理中心的"**管理应用"下**，选择"审批 **"** 应用并选择 **"设置"。**</span><span class="sxs-lookup"><span data-stu-id="f82b1-190">In the Teams admin center, under **Manage apps**, select the **Approvals app** and choose **Settings**.</span></span>
+
+2. <span data-ttu-id="f82b1-191">默认情况下，每个电子签名提供商旁边都有一个开关，该开关位于 (位置) 右侧。</span><span class="sxs-lookup"><span data-stu-id="f82b1-191">Each e-signature provider has a toggle next to it that is in the on position (right) by default.</span></span> <span data-ttu-id="f82b1-192">向左滑动切换开关以禁用特定的电子签名提供程序。</span><span class="sxs-lookup"><span data-stu-id="f82b1-192">Slide the toggle to the left to disable a specific e-signature provider.</span></span> <span data-ttu-id="f82b1-193">如果Teams管理员禁用提供商，则最终用户在创建审批时不会看到提供商。</span><span class="sxs-lookup"><span data-stu-id="f82b1-193">If a Teams admin disables a provider, end users won't see the provider when creating an approval.</span></span> <span data-ttu-id="f82b1-194">最终用户也无法查看通过该提供商提出的任何电子签名请求。</span><span class="sxs-lookup"><span data-stu-id="f82b1-194">End users will also be unable to view any e-signature requests that were made with that provider.</span></span>
+
+<span data-ttu-id="f82b1-195">从"审批"应用创建的电子签名审批存储在所选提供商的云中。</span><span class="sxs-lookup"><span data-stu-id="f82b1-195">E-signature Approvals created from the Approvals App are stored in the selected provider’s cloud.</span></span> <span data-ttu-id="f82b1-196">因此，您需要转到提供商的网站才能导出有关电子签名的任何数据。</span><span class="sxs-lookup"><span data-stu-id="f82b1-196">You will therefore need to go to the provider's site in order to export any data about e-signatures.</span></span> <span data-ttu-id="f82b1-197">请参阅提供商的文档，了解这些协议的导出和保留。</span><span class="sxs-lookup"><span data-stu-id="f82b1-197">Refer to the provider's documentation about export and retention of these agreements.</span></span>
