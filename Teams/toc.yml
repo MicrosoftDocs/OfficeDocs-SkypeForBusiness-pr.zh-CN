@@ -1045,20 +1045,40 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
               - name: 加拿大的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+              - name: 捷克共和国的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
               - name: 丹麦的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: 芬兰的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
               - name: 法国的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
               - name: 德国的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+              - name: 匈牙利的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
               - name: 爱尔兰的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
               - name: 意大利的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
               - name: 日本的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+              - name: 卢森堡的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: 新西兰的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+              - name: 挪威的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+              - name: 波兰的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
               - name: 葡萄牙的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+              - name: 罗马尼亚的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+              - name: 新加坡的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+              - name: 斯洛伐克的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
               - name: 西班牙的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: 荷兰的电话号码管理
@@ -1231,8 +1251,24 @@ items:
             href: business-voice/get-ready-internet.md
           - name: 使用户准备就绪
             href: business-voice/prepare-users.md
-      - name: 运行“入门”向导
-        href: business-voice/use-getting-started-wizard.md
+      - name: 设置商务语音
+        items:
+          - name: 概述
+            href: business-voice/set-up-overview.md
+          - name: 步骤 1：设置紧急位置
+            href: business-voice/set-up-emergency-locations.md
+          - name: 步骤 2：设置电话号码
+            href: business-voice/set-up-phone-numbers.md
+          - name: 步骤 3：分配许可证
+            href: business-voice/set-up-licenses.md
+          - name: 步骤 4：设置资源帐户
+            href: business-voice/set-up-resource-account.md
+          - name: 步骤 5：向用户分配电话号码
+            href: business-voice/set-up-assign-numbers.md
+          - name: 步骤 6：设置自动助理
+            href: business-voice/set-up-auto-attendant.md
+          - name: 设置后的资源
+            href: business-voice/set-up-finish.md
       - name: 自定义设置
         items:
           - name: 自定义选项
@@ -1385,8 +1421,10 @@ items:
             href: scripts/powershell-script-security-groups-edu.md
           - name: 教育版管理员低带宽指南
             href: edu-remote-low-bandwidth.md
-          - name: 适用教育的 Teams 策略向导
+          - name: Teams 教育版策略向导
             href: easy-policy-setup-edu.md
+          - name: Teams 教育版中的“职业指导”应用
+            href: career-coach.md
           - name: 监督 Teams 中的聊天
             href: supervise-chats-edu.md
           - name: 教育见解
