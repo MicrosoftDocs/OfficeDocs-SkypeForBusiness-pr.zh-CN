@@ -1,5 +1,5 @@
 ---
-title: 自定义应用商店
+title: 自定义应用存储
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,26 +17,26 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解 Microsoft 团队中的自定义应用商店。
-ms.openlocfilehash: 9a7652550e34dc40e6e6d315f1c5c3b590067610
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+description: 了解应用中的自定义Microsoft Teams。
+ms.openlocfilehash: c3f034688170f73e0f41f284864d7b53937dea6d
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611827"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212176"
 ---
-# <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 团队中的自定义应用商店
+# <a name="custom-apps-store-in-microsoft-teams"></a>自定义应用存储在 Microsoft Teams
 
-现在，你可以通过添加徽标、自定义背景和自定义文本颜色，在团队中自定义你的组织的应用商店，以使其更吸引最终用户。
+现在，可以通过添加徽标、自定义背景和自定义文本颜色，在 Teams 中通过公司品牌来自定义组织的应用商店，使其更吸引最终用户。
 
 > [!Note]
-> 对品牌所做的更改将需要24小时才能生效。
+> 品牌更改需要 24 小时才能生效。
 
-可以通过选择 "**团队应用**  >  **自定义存储**" 来访问管理中心中的 "自定义" 存储。
+通过选择"自定义应用商店"应用，Teams **管理中心**  >  **中的自定义应用商店**。
 
-  ![突出显示 "管理控制台自定义存储" 功能](media/customize-app-store.png)
+  ![管理员控制台突出显示自定义应用商店功能](media/customize-app-store.png)
 
-本文介绍自定义应用商店功能以及如何使用它们。
+本文介绍自定义应用存储功能及其使用方法。
 
 ## <a name="customize-your-organization-logo"></a>自定义组织徽标
 
@@ -44,15 +44,15 @@ ms.locfileid: "49611827"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-你可以在此处上载你的组织徽标。 所选徽标将显示在 "   >  **为租户生成的** 应用的团队客户端" 页面中。
+可在此处上传组织徽标。 所选徽标将显示在"为租户Teams **应用"**  >  **页的客户端中**。
 
-选择 " **选择图片** " 选项后，您可以上传所选的文件。 徽标应为240x60，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式为：
+选择" **选择图片"选项** 时，可以上传选择的文件。 徽标应为 240x60，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
-- svg
+- .svg
 - .png
 - .jpg
 
-徽标显示在 "团队" 应用商店的租户应用目录的右上角。
+徽标显示在应用商店中租户应用目录的右上角Teams显示。
 
 ## <a name="customize-your-small-logo"></a>自定义小徽标
 
@@ -60,57 +60,57 @@ ms.locfileid: "49611827"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-您的组织 logomark 或小徽标是代表您的组织品牌的图像或符号，不包括您的公司名称。 Lovemark 帮助团队成员识别应用商店。 所选徽标将显示在 "应用程序" 页面的 "团队客户端" 中。
+组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在"应用"页Teams客户端中。
 
-选择 " **选择图片** " 选项后，您可以上传所选的文件。 Logomark 应为32x32 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式为：
+选择" **选择图片"选项** 时，可以上传选择的文件。 徽标标记应为 32x32 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
-- svg
+- .svg
 - .png
 - .jpg
 
-小徽标显示在 "团队商店" 登录页面中的 " **构建 for 租户** " 部分标题旁边。
+小徽标显示在应用商店登录页的"为租户构建"部分Teams旁边。
 
-## <a name="customize-the-background-color"></a>自定义背景颜色
+## <a name="customize-the-background-color"></a>自定义背景色
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-确保背景与文本具有足够的对比度，以便用户可以清楚地阅读文本。 背景将显示在  >  **为租户标题生成的** 应用的团队客户端中。
+确保背景与文本的对比度足够高，以便用户可以清楚地阅读文本。 背景将显示在租户标头Teams  >  **应用的客户端中**。
 
 选项如下：
 
-- 使用团队客户端默认背景主题
-- 选择一张图片。 选择背景图片时，您可以上载所选文件。 背景应为1212x100 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式为：
-  - svg
+- 使用Teams客户端默认背景主题
+- 选择图片。 选择背景图片时，可以上传选择的文件。 背景应为 1212x100 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
+  - .svg
   - .png
   - .jpg
-- 选择自定义背景。 选择 " **选择自定义颜色**" 时，将打开颜色选择器。 通过调整颜色选择器的缩放比例，选择所需的颜色。
+- 选择自定义背景。 选择" **选择自定义颜色"时**，将打开颜色选择器。 通过调整颜色选择器的规模来选择想要的颜色。
 
-背景图像或颜色用作团队租户应用程序目录中顶部横幅的背景。
+背景图像或颜色用作租户应用目录中顶部横幅Teams的背景。
 
-## <a name="customize-the-text-color-of-your-name"></a>自定义您的姓名的文本颜色
+## <a name="customize-the-text-color-of-your-name"></a>自定义姓名的文本颜色
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-请确保文本颜色与背景有足够的对比度，以便用户可以清楚地阅读组织的名称。 文本将显示在  >  **为租户标题生成的** 应用的团队客户端中。
+请确保文本颜色与背景具有足够的对比度，以便用户可以清楚地阅读组织的名称。 文本将显示在租户标头Teams  >  **应用的客户端中**。
 
-选择 " **选择自定义颜色**" 时，将打开颜色选择器。 通过调整颜色选择器的缩放比例，选择所需的颜色。
+选择" **选择自定义颜色"时**，将打开颜色选择器。 通过调整颜色选择器的规模来选择想要的颜色。
 
- ![颜色选择器的图像](media/choose-a-custom-color.png)
+ ![颜色选择器](media/choose-a-custom-color.png)
 
-## <a name="complete-the-customization-of-your-team-apps-store"></a>完成团队应用商店的自定义
+## <a name="complete-the-customization-of-your-team-apps-store"></a>完成团队应用应用商店的自定义
 
-完成自定义应用商店后，请确保选择 " **保存** " 以保存所做的更改。
-若要预览所做的更改，请选择 " **预览应用商店** " 以查看自定义应用商店的表示形式。
+自定义完应用应用商店后，请务必选择 **"保存"** 以保存更改。
+若要预览更改，请选择 **"预览应用应用商店** "以查看自定义应用应用商店的表示形式。
 
- ![自定义应用商店的预览](media/app-store1.jpg)
+![自定义应用应用商店预览](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> 该表示形式可能不同于自定义的应用商店的最终版本，因为某些默认颜色基于用户的团队客户端版本。
+> 表示形式可能与自定义应用存储的最终版本不同，因为某些默认颜色基于用户对客户端Teams版本。
 
 ## <a name="related-article"></a>相关文章
 
-[管理你的应用](manage-apps.md)
+[管理应用](manage-apps.md)

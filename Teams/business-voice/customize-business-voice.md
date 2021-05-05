@@ -14,19 +14,19 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: 了解如何自定义 Microsoft 365 商务语音以满足组织的特定需要。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9f72aac2f14e68022a673ee45585e9184814418f
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116000"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130221"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>自定义 Microsoft 365 商务语音
 
-“入门”向导通过一些基本选项来设置商务语音，以便立即使用该功能。 如果是刚起步的小型企业，或者正在大型组织中运行试点项目，那么这些选项可能就足够了。 你可以获得包括新电话号码和呼叫菜单在内的基本功能。 
+[商务语音设置指南](set-up-overview.md)通过基本选项设置商务语音，以便立即使用该功能。 如果是刚起步的小型企业，或者正在大型组织中运行试点项目，那么这些选项可能就足够了。 你可以获得包括新电话号码和呼叫菜单在内的基本功能。
 
 但是，为了进一步满足业务需求，你可能希望自定义商务语音。 例如，你可能希望将现有电话号码移动到商务语音（称为携号转网）。
 

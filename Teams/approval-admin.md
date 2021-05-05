@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 127fc2831e58e7ddea152c7754015a9126390ecc
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129791"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212165"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -55,11 +55,20 @@ ms.locfileid: "52129791"
 
 - [Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的许可证。
 
+- 用户需要 Microsoft Forms 许可证才能设置新的审批模板。
+
 ## <a name="storage-with-cds"></a>通过 CDS 进行存储
 
 Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享数据语言。 它包括由 Microsoft 和我们的合作伙伴发布的一组标准化的可扩展数据架构，可使数据及其含义在应用程序和业务流程之间保持一致。 了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。
 
 了解有关[审批工作流](/power-automate/modern-approvals)的详细信息。
+
+从模板创建的审批仍将数据存储在 CDS 中，例如其标题、详细信息、模板 ID 等。 在审批请求中提交的响应存储在 Forms 中。 详细了解 Microsoft  [Forms 的数据存储](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
+
+>[!Note]
+>如果删除 Microsoft Forms 网站的表单模板，将中断审批模板，用户将无法启动请求。 尝试打开 Microsoft Forms 上已删除的审批模板时，用户收到错误"CDB TableNotFound"。
+
+审批模板存储在"云数据"存储 (SDS) 中，这是一个仅在 Microsoft 内部使用的合规存储平台。 组织范围的模板存储在 SDS 的"租户分片"中，团队范围的模板存储在 SDS 的"组分片"中。 这意味着组织范围的模板共享租户的相同生存期，团队范围的模板共享团队的相同生存期。 因此，永久删除团队会删除相关的模板。
 
 ## <a name="approvals-teams-app-permissions"></a>“审批”Teams 应用权限
 
@@ -84,6 +93,15 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 - 使用团队的信息联系他们。
 
+审批模板权限
+
+- 所有团队所有者都可以为他们拥有的团队创建审批模板。
+
+- 当管理员首次为整个组织创建模板时，它会自动为租户的所有管理员（包括全局管理员和团队服务管理员）创建新的 Teams 团队。 这些管理员将被添加为团队的所有者，以便他们可以共同管理组织模板。 创建团队后，组织中新增的管理员需要手动添加为团队所有者，以便他们具有相同的权限来管理组织范围的模板。
+
+> [!Note]
+> 如果管理员删除了团队，则你有一个月时间在 AAD 门户Azure Active Directory (还原) 还原所有相关的数据。 一个月后，或者如果管理员在回收站中删除此团队，您将丢失所有相关的数据。
+
 ## <a name="disable-the-approvals-app"></a>禁用“审批”应用
 
 默认情况下，“审批”应用可用。 可在 Teams 管理中心中禁用该应用。
@@ -105,6 +123,12 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 ## <a name="retention-policy"></a>保留策略
 
 从“审批”应用创建的审批存储在默认 CDS 环境中，该环境目前不支持备份。 详细了解如何[备份和还原环境 - Power Platform\| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
+
+在团队所有者从 Microsoft Forms Web 应用中的"已删除的表单"选项卡中清除之前，不会删除存储在 Forms 中的数据。
+
+## <a name="data-limitations"></a>数据限制
+
+每个团队最多可以包含 400 个审批模板，每个模板根据 Microsoft Forms 中的当前功能最多可收集 50，000 个请求。
 
 ## <a name="auditing"></a>审核
 
@@ -141,6 +165,14 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 - 已审阅电子签名请求
 
 - 已取消电子签名请求
+
+- 创建新模板
+
+- 编辑现有模板
+
+- 启用/禁用模板
+
+- 查看的模板
 
 若要访问 Flow 中的更多审核审批，请为主审批实体“审批”、“审批请求”和“审批响应”在默认环境中启用和配置审核。 创建、更新和删除操作是审批记录的可审核事件。 详细了解[安全性和合规性的审核数据和用户活动 - Power Platform\| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。
 

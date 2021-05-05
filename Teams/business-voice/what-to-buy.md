@@ -15,7 +15,7 @@ MS.collection:
 - Teams_Business_Voice
 - m365initiative-voice
 search.appverid: MET150
-description: ''
+description: 了解设置 Microsoft 365 商务语音需要购买哪些许可证和其他加载项。
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 7175bc47cc3e9db1dde3d92c1b3024dcdcfd3e41
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de844a68d29e0bcb1bc7144fb3101d69a13f2966
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102818"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129861"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>若要使用 Microsoft 365 商务语音，需要购买什么？
 
@@ -38,7 +38,7 @@ ms.locfileid: "51102818"
 
 若要在 Microsoft Teams 中拨打或接听 *外部* 电话号码，用户需要 Microsoft 365 商务语音许可证。 该许可证为他们提供拨打或接听电话、主持音频会议等所需的所有功能。
 
-如果用户不需要拨打或接听外部电话号码，则只需要 Teams。 这种情况下，他们不需要 Microsoft 365 商务语音许可证。
+如果用户不需要拨打或接听外部电话号码，则只需要 Teams。不需要 Microsoft 365 商务语音许可证。
 
 例如，你可能有 10 名工厂员工和 5 名办公室员工。 工厂员工可能仅需呼叫公司内的其他员工。 办公室员工需要呼叫其他员工，还需要拨打和接听供应商、合作伙伴和客户的电话。 在这种情况下，只有 5 名办公室员工需要 Microsoft 365 商务语音许可证。
 
@@ -46,7 +46,7 @@ ms.locfileid: "51102818"
 
 商务语音许可证有两种类型：**包含** 通话套餐的商务语音和 **不包含** 通话套餐的商务语音。 适用的商务语音许可证的类型取决于 Microsoft 365 租户的位置。 许可证类型确定是否可以自行设置商务语音，是否需要 Microsoft 合作伙伴或经销商的帮助，由谁来管理您的电话号码等。
 
-- **包含通话套餐的商务语音** 可以从 Microsoft 购买商务语音，使用“入门”向导设置商务语音，然后将现有电话号码设置或转移到 Microsoft。 [使用“入门”向导设置商务语音](use-getting-started-wizard.md)一文介绍了如何为租户设置商务语音。 
+- **包含通话套餐的商务语音** 可以从 Microsoft 购买商务语音，自行设置，然后将现有电话号码设置或转移到 Microsoft。 [设置 Microsoft 365 商务语音](set-up-overview.md)一文介绍了如何为租户设置商务语音。
 
   请参阅文章后面的[包含通话套餐的商务语音](#business-voice-with-calling-plan)，了解如何购买包含通话套餐的商务语音的许可证。
 - **不含通话套餐的商务语音** 需要从 Microsoft 合作伙伴或经销商处购买商务语音，他们将帮助你设置商务语音。 现有的电话号码仍属于当前的第三方电话提供商。 [从 Microsoft 经销商或合作伙伴处获取帮助](reseller-partner-support.md)一文简要介绍了在租户中设置商务语音所需的流程。
@@ -96,7 +96,7 @@ ms.locfileid: "51102818"
 
 ### <a name="communications-credits"></a>通信点数
 
-通信点数就像数字钱包，用于支付电话系统之外的通话。 通信点数在少数几种情况下使用。
+通信点数就像数字钱包，用于支付电话系统之外的通话。通信点数在一些情况下使用。
 
 - **用户的国内或国际通话套餐中的分钟数已用完：** 如果用户没有国际通话套餐，商务语音将自动开始使用你的通信点数余额。
 - **没有国际通话套餐的用户拨打国际电话：** 商务语音将自动开始使用你的通信点数余额。

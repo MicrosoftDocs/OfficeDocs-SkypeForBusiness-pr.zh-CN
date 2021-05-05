@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: 了解如何获得 Microsoft 经销商或合作伙伴的支持，以帮助在没有通话套餐的情况下设置 Microsoft 365 商务语音。
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,19 +24,19 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 4dd06a36fca100dd74cb49e1920cd2e3d2a31ca2
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 4f48219fab34c668e16b28f781594218e9f8b3c9
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096902"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129731"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>从 Microsoft 经销商或合作伙伴处获取帮助
 
 > [!IMPORTANT]
-> 本文中的信息仅适用于**不包含**通话套餐的商务语音。 阅读本文前，请查看[商务语音的国家和地区可用性](country-region-availability.md)，查看你所在的国家或地区是否支持使用包含通话套餐的商务语音。
+> 本文中的信息仅适用于 **不包含** 通话套餐的商务语音。 阅读本文前，请查看[商务语音的国家和地区可用性](country-region-availability.md)，查看你所在的国家或地区是否支持使用包含通话套餐的商务语音。
 >
-> 如果你的租户所在的国家或地区支持包含通话套餐的商务语音，请查看[使用“入门”向导设置商务语音](use-getting-started-wizard.md)。
+> 如果你的租户所在的国家或地区支持包含通话套餐的商务语音，请查看[设置 Microsoft 365 商务语音](set-up-overview.md)。
 
 设置不包含通话套餐的商务语音需要配置手机系统直接路由。 直接路由可实现本地电话硬件、Microsoft Phone 系统（业务语音的核心功能）和第三方公用电话交换网 (PSTN) 提供商之间的互操作性。 由于直接路由需要深入了解 Microsoft Phone 系统、PSTN 连接、网络和其他技术技巧，因此我们建议由 Microsoft 合作伙伴或卖方对其进行设置。 此外，不包含通话套餐的商务语音的许可证仅可从 Microsoft 合作伙伴和经销商处获得。
 
@@ -56,4 +56,3 @@ Microsoft 合作伙伴或经销商可以：
 - 你的 Internet 连接
 - 有关你的组织的独特设计注意事项，如支持呼叫中心的需求、电话系统呼叫菜单（例如，按 1 转到销售部，按 2 转到技术支持部）、会议室、电话亭等。
 - 现有手机系统支持的位置数量以及它们之间的连接设置方式
-

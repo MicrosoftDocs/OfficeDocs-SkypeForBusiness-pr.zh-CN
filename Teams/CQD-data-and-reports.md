@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解 Microsoft 呼叫质量仪表板和 CQD (提供的数据) 。
-ms.openlocfilehash: 2d36787a5341db016c18a30977cb086b0b6d7afc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 47fce642bf90b1be9285a11cf19a5e6421aa262b
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111538"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212195"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>CQD 呼叫质量仪表板 (数据和) 
 
@@ -40,10 +40,10 @@ Microsoft 呼叫质量仪表板 (CQD) 使用近实时的 NRT (NRT) 数据源。 
 
 |  |  |
 |---------|---------|
-|Teams 管理[中心 (https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 数据包含在 Teams管理中心的"用户"页面上，以易于阅读的格式显示所需的最常见数据。 不能自定义在"用户"下找到的 CQD **数据**。  |
+|Teams管理中心[ (https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 数据包含在 Teams管理中心的"用户"页面上，以易于阅读的格式显示所需的最常见数据。 不能自定义在"用户"下找到的 CQD **数据**。  |
 |CQD 门户[ (https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | 使用钻取筛选功能，提供满足大多数需求的可靠的摘要和详细报表。 还可以在 CQD 门户中自定义报表。 <br><br>获取两 [个 CQD 报表](#import-the-cqd-report-templates) 模板，以帮助在 CQD 门户中分析数据。       |
-|Power BI     | 使用直接查询，使用可自定义的 Power BI 模板在 Power BI [中查看 CQD 数据](CQD-Power-BI-query-templates.md)。 [下载适用于 CQD 的 Power BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>也可使用 REST API 通过 Power BI [访问 CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) 数据。 如果要下载 CQD 数据以便脱机处理，请使用此方法。 使用此方法的好处是性能更佳，尤其适用于联机时在 Power BI 中陷入问题的大型数据集。       |
-|Graph API     | 使用图形 API 自己访问 [调用质量数据](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)。 这是最复杂的方法，但它在分析呼叫质量数据方面提供了最大的控制和灵活性。 例如，如果需要将其与组织的其他数据联接，可以使用图形 API 创建数据模型并合并调用质量数据。        |
+|Power BI     | 使用直接查询通过可自定义的自定义Power BI在 Power BI[中查看 CQD 数据](CQD-Power-BI-query-templates.md)。 [下载Power BI CQD 的查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>也可使用[REST API 通过数据库访问 CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) Power BI。 如果要下载 CQD 数据以便脱机处理，请使用此方法。 使用此方法的好处是性能更好，对于联机时陷入Power BI的大型数据集尤其有用。       |
+|Graph API     | 使用 Graph [API 自己Graph数据](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)。 这是最复杂的方法，但它在分析呼叫质量数据方面提供了最大的控制和灵活性。 例如，如果需要将其与组织的其他数据联接，可以使用 Graph API 创建数据模型并合并呼叫质量数据。        |
 
 ## <a name="import-the-cqd-report-templates"></a>导入 CQD 报表模板
 
@@ -71,7 +71,7 @@ Microsoft 呼叫质量仪表板 (CQD) 使用近实时的 NRT (NRT) 数据源。 
 - 完整的 IP 地址
 - MAC 媒体访问控制 (MAC) 地址
 - 基本服务集标识符 (BSSID) 
-- 仅 Skype for Business (SIP) URI (会话启动协议) 
+- 会话启动协议 (SIP) URI (Skype for Business仅) 
 - 用户主体名称 (UPN)
 - 计算机终结点名称
 - 用户详细反馈
@@ -81,15 +81,15 @@ Microsoft 呼叫质量仪表板 (CQD) 使用近实时的 NRT (NRT) 数据源。 
 
 这些 [RBAC](/azure/role-based-access-control/overview) 角色 **具有** EUII 访问权限：
 - 全局管理员
-- Teams 服务管理员
-- Teams 通信管理员
+- Teams服务管理员
+- Teams通信管理员
 - Teams 通信支持工程师
 - 全局阅读器
-- Skype for Business 管理员
+- Skype for Business管理员
 
 这些 RBAC **角色没有** EUII 访问权限：
 - 报表读者
-- Teams 通信支持专家
+- Teams通信支持专家
 
 
 ## <a name="date-controls"></a>日期控件
@@ -118,7 +118,7 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
 
 管理组织通话质量时，可能需要使用默认摘要和详细的 CQD 报告。如果需要，可以 [创建自定义报表](#create-custom-detailed-reports)。 
 
-若要使用 Power BI 分析 CQD 数据，请阅读使用 Power BI 分析 Teams 的 [CQD 数据](CQD-Power-BI-query-templates.md)。
+如果要使用 Power BI分析 CQD 数据，请阅读使用 Power BI 分析[CQD 数据Teams。](CQD-Power-BI-query-templates.md)
 
 |功能|摘要报告|详细报告|
 |:--- |:--- |:--- |
@@ -134,18 +134,19 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
 |基于视频的屏幕共享指标   | 否   | 是   |
 |视频指标   | 否   | 是   |
 |可用数据量   | 过去 12 个月   | 过去 12 个月   |
-|Microsoft Teams 数据   | 是   | 是   |
+|Microsoft Teams数据   | 是   | 是   |
 | | | |
 
 
  
 ### <a name="select-product-data-to-see-in-reports"></a>选择要在报告中查看的产品数据
 
-在"摘要Location-Enhanced报表"中，您可以使用"产品筛选器"下拉列表显示所有产品数据、仅 Microsoft Teams 数据或仅显示 Skype for Business Online 数据。
+在"摘要Location-Enhanced报表"中，可以使用"产品筛选器"下拉列表显示所有产品数据、仅显示Microsoft Teams数据，或仅Skype for Business联机数据。
+
+> [!div class="mx-imgBorder"]
+> ![屏幕截图：显示产品筛选器控件选项](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-![屏幕截图：显示产品筛选器控件选项](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
-  
-在详细报告中，可以使用 Is **Teams** 维度将数据筛选为 Microsoft Teams 或 Skype for Business Online 数据。
+在"详细报表"中，可以使用"Is **Teams"** 维度筛选数据以Microsoft Teams或Skype for Business Online 数据。
 
 ## <a name="summary-reports"></a>摘要报告
 
@@ -156,30 +157,34 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
 |总体呼叫质量     | 其他 3 个选项卡的聚合。       |
 |服务器 - 客户端     |服务器和客户端终结点之间的流的详细信息。        |
 |客户端 - 客户端     |两个客户端终结点之间的流的详细信息。        |
-|语音质量 SLA     |有关 Skype for Business 语音质量 [SLA 中包含的呼叫的信息](https://go.microsoft.com/fwlink/p/?linkid=846252)。        |
+|语音质量 SLA     |有关语音质量 SLA Skype for Business呼叫[的信息](https://go.microsoft.com/fwlink/p/?linkid=846252)。        |
 
 ### <a name="overall-call-quality-tab"></a>"总体呼叫质量"选项卡
 
 使用此选项卡上的数据，根据流计数和较差百分比评估呼叫质量状态和趋势。 右上角的图例显示哪些颜色和可视元素表示这些指标。
-  
-![屏幕截图：显示"呼叫质量"选项卡](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+
+> [!div class="mx-imgBorder"]
+> ![屏幕截图：显示"呼叫质量"选项卡](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
 流分为三组：良好、较差和未分类。 此外，还有计算  *得出的 Poor %*  值，这些值提供分类为 *"*  差"的流与已分类流总数的比率。 由于 Poor % = 差流/ (差流+) ** 100，**因此 Poor %* 不受存在多个未 *分类* 流的影响。 若要了解将流分类为差或好什么，请参阅呼叫 [质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。
   
 使用左侧的刻度测量流计数值。
-  
-![屏幕截图：显示流计数值](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+
+> [!div class="mx-imgBorder"]
+> ![屏幕截图：显示流计数值](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
 使用右侧比例度量差 % 值。
-  
-![屏幕截图：显示较差的 % 值](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+
+> [!div class="mx-imgBorder"]
+> ![屏幕截图：显示较差的 % 值](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
 通过将鼠标悬停在条形图上，还可以获取实际数值。
   
 > [!NOTE]
 > 以下示例来自非常小的样本数据集，实际部署不现实值。
-  
-![屏幕截图：显示用于访问数据的鼠标](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+
+> [!div class="mx-imgBorder"]
+> ![屏幕截图：显示用于访问数据的鼠标](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
 总体流音量有助于确定计算较差百分比的相关性。 总体流的数量越小，报告的较差百分比值越不可靠。
   
@@ -216,13 +221,13 @@ CQD 使用建筑物信息将流分类为"内部"或"外部"（如果存在）。
   
 ## <a name="tenant-data-information"></a>租户数据信息
 
-CQD 摘要报表仪表板包括租户 **数据** 上传页面，通过从右上角的设置菜单中选择"租户数据上传"来访问该页面。 此页用于管理员上传其自己的信息，例如：
+CQD 摘要报表仪表板包括一个租户Upload页，通过从右上角的设置菜单中选择"租户数据"Upload访问该页面。 此页用于管理员上传其自己的信息，例如：
 
 - IP 地址和地理信息的地图。
 - 每个无线 AP 及其 MAC 地址的地图。
 - 终结点到终结点制造/模型/类型等的地图。
   
-建议上传租户、建筑物和位置数据，以便 CQD 可以在报告中包含此信息。 如果尚未上传此数据，请阅读上传 [租户和建筑物数据](CQD-upload-tenant-building-data.md)。 
+建议上传租户、建筑物和位置数据，以便 CQD 可以在报告中包含此信息。 如果尚未上传此数据，请阅读Upload[和建筑物数据](CQD-upload-tenant-building-data.md)。 
 
 
 ## <a name="detailed-reports"></a>详细报告
@@ -242,7 +247,7 @@ CQD 摘要报表仪表板包括租户 **数据** 上传页面，通过从右上�
 
 ## <a name="create-custom-detailed-reports"></a>创建自定义详细报表
 
-如果默认 CQD 报表不能满足需求，请使用这些说明创建自定义报表。 或者 (2020 年 1 月) [Power BI for CQD 报表 ](cqd-power-bi-query-templates.md)。
+如果默认 CQD 报表不能满足需求，请使用这些说明创建自定义报表。 或者 (2020 年 1 月) [对 CQD Power BI使用资源](cqd-power-bi-query-templates.md)。
 
 从在登录时显示的屏幕顶部的报表的下拉列表中，选择"摘要报表 \( "屏幕，选择"详细报表"，然后选择 \) "**新建"。**  单击 **报告中** 的"编辑"，查看查询编辑器。 每个报告都可以通过对多维数据集进行查询得到。 报告是其查询返回的数据的可视化形式。 查询编辑器可帮助编辑这些查询和报表的显示选项。
 
@@ -343,7 +348,7 @@ CQD 支持向 URL 添加筛选器。 这样，可以轻松共享 CQD 查询或�
 
 `filter/DATA_MODEL_NAME|VALUE`
 
-例如，若要应用 Microsoft Teams 的产品筛选器值，需要添加以下内容：
+例如，若要应用产品筛选器值 Microsoft Teams，需要添加以下内容：
 
 `filter/[AllStreams].[Is%20Teams]|[True]`
 
@@ -371,7 +376,7 @@ CQD 支持向 URL 添加筛选器。 这样，可以轻松共享 CQD 查询或�
 
 CQD 中的租户 ID 对应于 Azure 中的目录 ID。 如果不知道目录 ID，可以在 Azure 门户中找到它：
 
-1.  登录到 Microsoft Azure 门户： <https://portal.azure.com>
+1.  登录到 Microsoft Azure 门户：<https://portal.azure.com>
 
 2.  选择 **"Azure Active Directory"。**
 
@@ -383,43 +388,27 @@ CQD 中的租户 ID 对应于 Azure 中的目录 ID。 如果不知道目录 ID�
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>比较 Teams 和 Skype for Business CQD 数据
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>比较Teams和Skype for Business CQD 数据
 
-即使在最新的 CQD (cqd.teams.microsoft.com) ，你将看到 Teams 和 Skype for Business 之间的数据差异。 一些原因：
+查看数据时，可能会发现数据与数据Teams Skype for Business。 一些原因：
 - 确保性能和可靠性的机制差异：
-  - Teams 具有自动重新连接和快速漫游功能。 Skype for Business 不支持。
-  - Teams 具有动态带宽管理。 Skype for Business 不支持。
-- Teams 和 Skype for Business [之间的 IP](Office-365-URLs-IP-address-ranges.md) 地址范围差异。 Teams IP 范围较新，可能会导致防火墙出现连接问题。
-
-## <a name="open-cqd-from-the-skype-for-business-legacy-portal"></a>从 Skype for Business 旧门户打开 CQD
-
-![使用 Skype for Business 旧门户的 ](media/sfb-logo-30x30.png) **Skype for Business 徽标图标**
-
-1. 使用管理员帐户登录到 Office 365 组织，然后选择"管理员 **"磁贴以** 打开管理中心。
-
-2. 在左窗格中的"管理 **中心"下**，选择 **"Microsoft Teams"** 打开 Teams 管理中心。
-
-3. 在 Teams 管理中心，在 **左窗格中** 选择"旧门户"，选择"工具 **"，然后选择****"Skype for Business Online 呼叫质量仪表板"。**
-
-   ![屏幕截图：选择呼叫质量仪表板](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
-
-4. 在打开的页面上，使用全局管理员帐户登录，然后在系统提示时提供该帐户的凭据。
-
-首次登录后，CQD 将开始收集和处理数据。 
+  - Teams自动重新连接和快速漫游。 Skype for Business不会。
+  - Teams具有动态带宽管理。 Skype for Business不会。
+- IP 地址[范围在](Office-365-URLs-IP-address-ranges.md)Teams 和 Skype for Business。 TEAMS IP 范围较新，这可能会导致防火墙出现连接问题。
 
 > [!IMPORTANT]
-> 从 2019 年 12 月开始，仍可以访问旧版 CQD (cqd.lync.com) ，尽管旧门户提供了指向最新 CQD (cqd.teams.microsoft.com) 。 最终，较旧版本的 CQD 将停用。 从 2020 年 7 月 1 日开始，较旧版本的 CQD 从新的 CQD (访问数据，并且无法再导出建筑物和 https://CQD.teams.microsoft.com) 报表数据。 在 2020 年底，我们将关闭旧的 CQD，你将无法再访问它。
+> 自 2020 年 7 月 1 日起，旧版 CQD (cqd.lync.com) 从新的 CQD (访问数据，并且无法再导出建筑物和报表 https://CQD.teams.microsoft.com) 数据。 自 2021 年 7 月 31 日起，随着 Skype for Business Online 的停用，我们将关闭旧版 CQD，你将无法再访问它。
 
 
 ## <a name="related-topics"></a>相关主题
 
-[改进和监视 Teams 的通话质量](monitor-call-quality-qos.md)
+[改进和监视呼叫质量Teams](monitor-call-quality-qos.md)
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
 [使用 CQD (设置呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
 
-[上传租户和建筑物数据](CQD-upload-tenant-building-data.md)
+[Upload租户和建筑物数据](CQD-upload-tenant-building-data.md)
 
 [使用 CQD 管理呼叫和会议质量](quality-of-experience-review-guide.md)
 
@@ -427,4 +416,4 @@ Login-AzureRmAccount
 
 [CQD 中的流分类](stream-classification-in-call-quality-dashboard.md)
 
-[使用 Power BI 分析 CQD 数据](CQD-Power-BI-query-templates.md)
+[使用Power BI分析 CQD 数据](CQD-Power-BI-query-templates.md)
