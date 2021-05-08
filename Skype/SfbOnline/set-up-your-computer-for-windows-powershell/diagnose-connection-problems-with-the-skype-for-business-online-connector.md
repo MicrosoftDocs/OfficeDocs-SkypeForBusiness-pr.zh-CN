@@ -19,20 +19,22 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 排查创建远程 PowerShell 会话以连接到 Skype for Business Online 的问题，包括 Import-Module、并发 shell、Live ID 和权限错误。
-ms.openlocfilehash: d27e40c7db423b0ef364a9d23eb956ba7059b03b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f4bcb9c758d1660cafd7a6bd3f57c95d6bf3b546
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097278"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238903"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 
-本主题提供有助于诊断和解决尝试创建连接到 Skype for Business Online 的远程 Microsoft PowerShell 会话时可能会出现的问题的信息。 请参阅以下部分：
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+本主题提供有助于诊断和解决尝试创建连接到 Skype for Business Online 的远程 Microsoft PowerShell 会话时Skype for Business的信息。 请参阅以下部分：
   
-- [执行策略导致Windows PowerShell模块错误](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
+- [执行策略导致导入模块Windows PowerShell错误](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
     
-- [错误版本错误导致的导入模块Windows PowerShell](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
+- [错误版本错误导致的导入模块错误Windows PowerShell](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
     
 - [无法连接到实时 ID 服务器](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
     
@@ -42,7 +44,7 @@ ms.locfileid: "51097278"
     
 - [用户无权管理此租户](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
     
-- [Skype for Business Online 中已禁用连接到租户的能力](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
+- [在 Skype for Business Online 中禁用了连接到租户的能力](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
 
 - [已超过 Skype for Business Online 中此用户的最大并发 shell 数](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
 
@@ -52,7 +54,7 @@ ms.locfileid: "51097278"
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Import-Module策略导致的Windows PowerShell错误
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
-PowerShell 执行策略可帮助确定哪些配置文件可以加载到 PowerShell 控制台中，以及用户可以从该控制台运行哪些脚本。 除非执行策略已设置为 RemoteSigned，否则至少无法导入 Skype for Business Online 连接器模块。 如果尚未导入，则尝试导入模块时会收到以下错误消息：
+PowerShell 执行策略可帮助确定哪些配置文件可以加载到 PowerShell 控制台中，以及用户可以从该控制台运行哪些脚本。 除非执行策略Skype for Business RemoteSigned，否则至少无法导入 Skype for Business Online 连接器模块。 如果尚未导入，则尝试导入模块时会收到以下错误消息：
   
 - **错误**<em>：Import-Module ： 文件 C：程序文件公用文件 \\ Microsoft Lync Server \\ \\ 2013 \\ 模块 \\ LyncOnlineConnector \\ LyncOnlineConnectorStartup.psm1 无法加载，因为在此系统中禁用了正在运行的脚本。有关详细信息，请参阅 在 https://go.microsoft.com/fwlink/?LinkID=135170 about_Execution_Policies。</em>
 
@@ -87,14 +89,14 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
     Start-Service "msoidsvc"
     ```
 
-    如果服务正在运行，则可能会遇到计算机与 Microsoft Live ID 身份验证服务器之间的网络连接问题。 若要检查此状态，请Internet Explorer并导航到[ https://login.microsoftonline.com/ 。](https://login.microsoftonline.com/.) 尝试从该服务器登录到 Microsoft 365 或 Office 365。 如果此操作失败，则可能会遇到网络连接问题。
+    如果服务正在运行，则可能会遇到计算机与 Microsoft Live ID 身份验证服务器之间的网络连接问题。 若要检查此状态，请Internet Explorer并导航到[ https://login.microsoftonline.com/ 。](https://login.microsoftonline.com/.) 尝试从Microsoft 365 Office 365登录。 如果此操作失败，则可能会遇到网络连接问题。
   
     不太常见的是，Microsoft Live ID 身份验证服务器的连接 URI 已配置为错误值。 如果已确定，Sign-In助手正在运行，并且未遇到网络连接问题，则这可能是问题。 在这种情况下，请联系 Microsoft 支持部门。
   
 ## <a name="failed-to-load-live-id-module"></a>无法加载实时 ID 模块
 <a name="BKMKFailedLoad"> </a>
 
-使用 PowerShell 管理 Skype for Business Online 的先决条件之一是安装 Microsoft Online Services登录助手。 如果未安装登录助手，当您尝试与 Skype for Business Online 建立远程会话时，您将收到以下错误消息：
+使用 PowerShell 管理 Skype for Business Online 的先决条件之一是安装 Microsoft Online Services 登录助手。 如果未安装登录助手，当您尝试与 Skype for Business Online 建立远程会话时，将收到以下错误消息：
 
 - **错误***：Get-CsWebTicket：无法加载实时 ID 模块。确保安装了正确版本的 Live ID 登录助手。*
 
@@ -119,10 +121,10 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
 
 - **解决方法**：如果您认为自己是或应该是租户管理员的成员管理员组，则需要联系 Microsoft 支持部门。
   
-## <a name="ability-to-connect-to-tenant-has-been-disabled-in-skype-for-business-online"></a>Skype for Business Online 中已禁用连接到租户的能力
+## <a name="ability-to-connect-to-tenant-has-been-disabled-in-skype-for-business-online"></a>在 Skype for Business Online 中禁用了连接到租户的能力
 <a name="BKMKAbilityConnect"> </a>
 
-若要使用 PowerShell 管理 Skype for Business Online，租户 PowerShell 策略的 EnableRemotePowerShellAccess 属性必须设置为  `True` 。 如果不是，连接会失败，并且将收到以下错误消息：
+若要使用 PowerShell 管理 Skype for Business Online，租户 PowerShell 策略的 EnableRemotePowerShellAccess 属性必须设置为 `True` 。 如果不是，连接会失败，并且将收到以下错误消息：
 
 - 错误 *：New-PSSession ： [admin.vdomain.com] 无法处理来自远程服务器 admin.vdomain.com 的数据，并出现以下错误消息：已禁用使用远程 PowerShell 会话连接到此租户的能力。请联系 Lync 帮助以检查此租户的租户 Powershell 策略。有关详细信息，请参阅 [远程故障排除](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1)。*
 
@@ -131,11 +133,11 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded"></a>已超过 Skype for Business Online 中此用户的最大并发 shell 数
 <a name="BKMKMaxNumberShellsUser"> </a>
 
-每个管理员最多允许与 Skype for Business Online 同时进行三次远程连接。 如果已启动并运行三个远程 PowerShell 连接，则尝试进行第四次同时连接的任何尝试都将失败，并出现以下错误消息：
+每个管理员最多允许三个同时进行远程连接才能连接到 Skype for Business Online。 如果已启动并运行三个远程 PowerShell 连接，则尝试进行第四次同时连接的任何尝试都将失败，并出现以下错误消息：
 
 - **错误***：New-PSSession： [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息：WS-Management 服务无法处理请求。已超过此用户的最大并发 shell 数。关闭现有 shell 或提高此用户的配额。有关详细信息，请参阅 https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 [远程故障排除] (*
 
-- **解决方法**：解决此问题的唯一方法就是关闭一个或多个以前的连接。 完成 Skype for Business Online 会话后，建议使用 **Remove-PSSession** cmdlet 终止会话。 这有助于防止此问题。
+- **解决方法**：解决此问题的唯一方法就是关闭一个或多个以前的连接。 完成联机会话Skype for Business，建议使用 **Remove-PSSession** cmdlet 终止会话。 这有助于防止此问题。
   
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>已超过 Skype for Business Online 中此租户的最大并发 shell 数
 <a name="BKMKMaxNumberShellsTenant"> </a>
@@ -144,9 +146,9 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
   
 - **错误***：New-PSSession： [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息：WS-Management 服务无法处理请求。已超过此租户的最大并发 shell 数。关闭现有 shell 或提高此租户的配额。有关详细信息，请参阅 https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 [远程故障排除] (*
 
-- **解决方法**：解决此问题的唯一方法就是关闭一个或多个以前的连接。 完成 Skype for Business Online 会话后，建议使用 **Remove-PSSession** cmdlet 终止该会话。 这有助于防止此问题。  
+- **解决方法**：解决此问题的唯一方法就是关闭一个或多个以前的连接。 完成联机会话Skype for Business，建议使用 **Remove-PSSession** cmdlet 终止该会话。 这有助于防止此问题。  
  
 ## <a name="related-topics"></a>相关主题
-[使用 skype for business Online 管理设置计算机Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[使用 Skype for business Online 管理设置计算机Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

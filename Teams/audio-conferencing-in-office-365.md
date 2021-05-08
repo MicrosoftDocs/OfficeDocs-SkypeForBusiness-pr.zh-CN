@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 中的音频会议
+title: 音频会议Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
-description: 了解 Microsoft 365 或 Office 365 中的音频会议如何允许用户从电话呼入会议。
+description: 了解会议或会议Microsoft 365音频Office 365允许用户从他们的电话呼入会议。
 ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,8 +32,8 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51111268"
 ---
-# <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365 中的音频会议
-Microsoft 365 和 Office 365 中的音频会议允许用户通过电话呼入会议。 音频会议最多允许 250 名电话与会者。
+# <a name="audio-conferencing-in-microsoft-365"></a>音频会议Microsoft 365
+音频和视频Microsoft 365 Office 365允许用户从他们的电话呼入会议。 音频会议最多允许 250 名电话与会者。
 
 ## <a name="what-is-audio-conferencing"></a>什么是音频会议？
 对于因在旅途中而无法使用其笔记本电脑或移动设备上的 Skype for Business 或 Microsoft Teams 应用参与会议的用户来说，呼入（或拨入）会议非常有用。 但还有其他一些情况，使用手机参加 Skype for Business 或 Microsoft Teams 会议可能比在计算机上使用应用更好：
@@ -69,7 +69,7 @@ Microsoft 365 和 Office 365 中的音频会议允许用户通过电话呼入会
   
  **专用电话号码** 是只有你组织内的用户才可以使用的电话号码。 你可以更改当有人呼入其中的某个号码时使用的语言。 为此，你将需要获得一个服务电话号码。
   
- **共享电话号码** 是可与其他 Microsoft 365 或 Office 365 共享的电话号码。 你无法更改当有人呼入其中的某个号码时使用的语言。
+ **共享电话号码** 是可与其他用户或 365 Microsoft 365 Office的电话号码。 你无法更改当有人呼入其中的某个号码时使用的语言。
   
 虽然会议邀请中只包括分配给组织者的默认音频会议号码，但是呼叫者可以使用分配给你的会议网桥的任一电话号码加入会议。 使用每个会议邀请中包含的" **查找本地号码**"链接，可以找到可用于加入会议的电话号码列表。
 
@@ -91,7 +91,7 @@ Microsoft 365 和 Office 365 中的音频会议允许用户通过电话呼入会
 
 - **使用 Skype for Business 管理中心。** 对于某些国家/地区，你可以使用 Skype for Business 管理中心获取会议网桥号码。 参见[获取服务电话号码](./getting-service-phone-numbers.md)。
     
-- **转网现有的号码。** 您可以将现有号码从当前服务提供商或电话运营商转机或转移到 Microsoft 365 或 Office 365。 如需获取有助于执行此操作的详细信息，请参阅[将电话号码转接到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
+- **转网现有的号码。** 您可以将现有号码从当前服务提供商或电话运营商转Microsoft 365或Office 365。 如需获取有助于执行此操作的详细信息，请参阅[将电话号码转接到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
   
 - **使用新号码的请求表单。** 有时（具体取决于你所在的国家/地区），你无法使用 Skype for Business 管理中心获取新电话号码，或你需要特定的电话号码或区号。 如果是这样，则需下载表单并将其发回给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 

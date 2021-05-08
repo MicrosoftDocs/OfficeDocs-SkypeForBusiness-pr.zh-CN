@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何在 Teams 中创建和管理组织范围的团队，为小型到中型组织中的每个人提供自动协作方式。
+description: 了解如何在组织中创建和管理组织范围的Teams，为小型到中型组织中的每个人提供自动协作方式。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -32,7 +32,7 @@ ms.locfileid: "51111158"
 
 ![用于创建组织范围团队的“组织范围”选项的屏幕截图](media/create-org-wide-team.png "用于创建组织范围团队的“组织范围”选项的屏幕截图")
 
-创建组织范围的团队后，所有全局管理员和 Teams 服务管理员将添加为团队所有者，所有活动用户都添加为团队成员。 未经授权的用户也将添加到团队。 未授权用户首次登录 Teams 时，会为该用户分配 Microsoft Teams 探索许可证。 若要详细了解探索许可证，请查看管理 Microsoft Teams [探索许可证](teams-exploratory.md)。 
+创建组织范围的团队后，所有全局管理员Teams服务管理员添加为团队所有者，所有活动用户都添加为团队成员。 未经授权的用户也将添加到团队。 未授权用户首次登录 Teams时，会为该用户分配Microsoft Teams探索许可证。 若要详细了解探索许可证，请查看管理 Microsoft Teams[探索许可证](teams-exploratory.md)。 
 
 以下类型的帐户无法添加到组织范围的团队：
 
@@ -48,7 +48,7 @@ ms.locfileid: "51111158"
 > - 如果在创建团队时看不到"组织范围"选项，并且你是全局管理员，则你可能已达到组织范围的五个团队限制，或者你的组织可能超过当前 10，000 个成员的大小限制。 我们想要在未来增加此限制。 对于 Teams 教育版，组织范围的团队不可用。
 > - 未出现在会议室列表中的会议室、设备和资源帐户可能会添加或同步到组织范围的团队。 团队所有者可轻松从团队中删除这些帐户。
 > - 系统添加或删除成员的所有操作均发布在常规频道中。 该频道还将在 Teams 客户端中标记为具有新活动。
-> - 如果你的组织是 Teams 的新用户且用户数不超过 10，000，我们会自动为组织创建组织范围的团队。 团队名称将反映租户名称，并且具有常规频道。 全局管理员可像任何其他团队一样编辑此团队。 
+> - 如果您的组织是新用户，并且用户数不超过 10，000 Teams，则将自动为您的组织创建组织范围的团队。 团队名称将反映租户名称，并且具有常规频道。 全局管理员可像任何其他团队一样编辑此团队。 
 
 ## <a name="best-practices"></a>最佳做法
 
@@ -92,4 +92,4 @@ ms.locfileid: "51111158"
 
 ## <a name="see-also"></a>另请参阅
 
-观看有关在 [Microsoft Teams 中创建公司范围的团队的视频](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)。
+观看有关在[Microsoft Teams 创建公司范围的团队的视频](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)。

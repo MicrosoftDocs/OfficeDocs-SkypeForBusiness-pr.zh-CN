@@ -19,18 +19,20 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. '
-ms.openlocfilehash: 52b43ea21f9f0aa56b923355cfc936f334f1607f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 4ac480ff162b61db7bff4d71f9915f059838c65d
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164481"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238978"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>视频：Skype for Business Online 外部通信
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 设置 Skype for Business Online 外部通信以便用户可与外部 Skype for Business、Lync 和 Skype 联系人通信。
 
- **受众：** Microsoft 365 和 Office 365 管理员
+ **受众：Microsoft 365** 管理员Office 365管理员
 
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
@@ -38,7 +40,7 @@ ms.locfileid: "44164481"
 ***
   
 ## <a name="related-topics"></a>相关主题
-[设置 Skype For Business Online 外部通信](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications)（引导式演练）
+[使用Skype for Business演练设置](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (Online 外部通信) 
 
 [允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md)
 

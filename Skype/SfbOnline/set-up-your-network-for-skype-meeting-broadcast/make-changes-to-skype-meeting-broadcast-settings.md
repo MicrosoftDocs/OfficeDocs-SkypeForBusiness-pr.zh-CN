@@ -1,5 +1,5 @@
 ---
-title: 更改组织的 Skype 会议直播设置
+title: 对组织的Skype 会议广播设置进行更改
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,24 +19,26 @@ f1.keywords:
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
-description: 你可以启用 Skype 会议直播，并更改这些会议的设置和策略。
-ms.openlocfilehash: 75b1894f486d6448662c459b0d77d4f5d3057a2f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 您可以启用Skype 会议直播，并更改这些会议的设置和策略。
+ms.openlocfilehash: fae53601c858bf67db57352e18dbc9799243f996
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106548"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238644"
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>更改组织的 Skype 会议直播设置
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>对组织的Skype 会议广播设置进行更改
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Microsoft Teams 管理中心已取代 Skype for Business 管理中心 (旧版门户) 。 管理 Skype for Business 的所有设置现在都位于 Teams 管理中心。 必须分配全局管理员或 Skype for Business 管理员 [的 Azure AD](/azure/active-directory/roles/permissions-reference) 管理员角色，才能在 Teams 管理中心管理 Skype for Business 功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+> Microsoft Teams管理中心已Skype for Business旧版门户 (管理) 。 现在，管理Skype for Business的所有设置都位于Teams中心。 必须分配全局管理员或 Skype for Business 管理员的[Azure AD](/azure/active-directory/roles/permissions-reference)管理员角色Skype for Business管理中心Teams功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
-你可以启用 Skype 会议直播，并更改这些会议的设置和策略。
+您可以启用Skype 会议直播，并更改这些会议的设置和策略。
   
-- **启用 Skype 会议直播** 启用 Skype 会议直播。 启用 Skype 会议直播后，你需要为 Skype 会议直播 [设置你的网络](set-up-your-network-for-skype-meeting-broadcast.md)。 如果要为企业外部人员举办网络研讨会和其他直播，请执行此步骤。 
+- **启用Skype 会议广播** 启用Skype 会议广播。 启用"Skype 会议广播"后，需要为"广播"设置[Skype 会议网络](set-up-your-network-for-skype-meeting-broadcast.md)。 如果要为企业外部人员举办网络研讨会和其他直播，请执行此步骤。 
     
-- **为组织启用 Skype 会议直播预览版功能** Skype for Business 客户计划可让你提前访问新产品和功能。 这样，组织可以先快速了解即将推出的功能，以及测试自己环境中新功能的机会，在向公众发布产品内部版本之前提供反馈。<br/>[Skype for Business 预览版](https://www.skypepreview.com/)
+- **为Skype 会议启用实时广播预览版功能** 客户Skype for Business计划可让你提前访问新产品和功能。 这样，组织可以先快速了解即将推出的功能，以及测试自己环境中新功能的机会，在向公众发布产品内部版本之前提供反馈。<br/>[Skype for Business预览](https://www.skypepreview.com/)
     
 - **允许组织者安排匿名会议** 这允许组织者创建直播活动，允许组织外部的任何人加入，而无需登录。
     

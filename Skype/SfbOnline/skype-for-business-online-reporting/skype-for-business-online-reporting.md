@@ -19,29 +19,31 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 90326597b6df3a96e7624852d849a64e3eec348f
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: e9ef3d9090ff494afe8595c139bcc9206215435b
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44205483"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238138"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online 报告
 
-作为您的组织的管理员，拥有 Skype for Business Online 中提供的所有不同报表的完整列表将非常方便。这包括所有不同报表以及你可以使用每个报表获取的信息。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+作为组织的管理员，在 Skype for Business Online 中提供所有不同报表的完整列表会很方便。 其中包括所有不同报告以及每个报告提供的信息。
   
-若要访问 Skype for Business Online 报表，请使用你的用户帐户和密码登录到 Microsoft 365 管理中心。用于登录的帐户必须分配有全局管理员角色，或者委派 Skype for business 服务管理员角色才能查看报告。
+若要访问 Skype for Business Online 报告，请Microsoft 365用户帐户和密码登录到管理中心。 用于登录的帐户必须分配有全局管理员角色或委派 Skype for Business 服务管理员角色，才能查看报告。
   
 > [!NOTE]
-> 若要验证权限，请在管理中心 >**用户**  >  **活动用户**。单击用户的显示名称，然后单击 "**编辑**" 和 "帐户属性" 页面，单击 "**角色**"
+> 若要验证权限，在管理中心  >  **>"活动用户"。** Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Skype for Business Online 报告参考
 
-在管理中心，你可以使用不同类型的报表，包括 Skype for business Online 的报表。
+在管理中心，可以使用不同类型的报表，包括用于 Skype for Business Online 的报告。
   
  **查看报表**
   
-1. 转到 "管理中心" 或 " **Skype for business 管理中心**"  >  **报表**。
+1. 转到管理中心或Skype for Business **中心**  >  **报告"。**
     
 2. 在仪表板窗口中，单击报告小组件或从列表中进行选择，以选择所需的报告。
     
@@ -55,11 +57,11 @@ ms.locfileid: "44205483"
 |[Skype for Business 活动报告](activity-report.md) <br/> | 用户名 <br/>  上次登录时间 <br/>  上次活动时间 <br/>  对等会话总数 <br/>  对等 IM 会话总数 <br/>  对等音频会话总数 <br/>  对等视频会话总数 <br/>  对等应用程序共享会话总数 <br/>  对等音频会话总分钟数 <br/>  对等视频会话总分钟数 <br/>  已组织的会议总数 <br/>  已组织的 IM 会议总数 <br/>  已组织的音频/视频会议总数 <br/>  已组织的应用程序共享会议总数 <br/>  已组织的 Web 会议总数 <br/>  已组织的拨入音频会议总数 <br/>  已组织的音频/视频会议总分钟数 <br/>  已参与的会议总数 <br/>  已参与的 IM 会议总数 <br/>  已参与的音频/视频会议总数 <br/>  已参与的应用程序共享会议总数 <br/>  已参与的 Web 会议总数 <br/>  已参与的拨入音频会议总数 <br/>  已参与的音频/视频会议总分钟数 <br/>  拨打的 PSTN 呼叫总数 <br/>  已接听的 PSTN 呼叫总数 <br/>  拨打的 PSTN 呼叫总分钟数 <br/>  已接听的 PSTN 呼叫总分钟数 <br/>  消息总数 <br/>  传输的文件总数 <br/> |
 |[Skype for Business PSTN 使用报告](pstn-usage-report.md) <br/>  | 用户名 <br/>  呼叫的日期/时间 <br/>  电话号码 <br/>  CallID <br/>  呼叫类型 <br/>  位置 <br/>  呼叫持续时间 <br/>  货币 <br/>  呼叫费用 <br/> |
 |[Skype for Business 用户阻止报表](users-blocked-report.md) <br/> | 操作日期 <br/>  用户名 <br/>  操作类型 <br/>  电话号码 <br/>  原因 <br/> |
-|[Skype for Business PSTN 分钟池报告](pstn-minute-pools-report.md) <br/> | 功能是用于通话的许可证/服务计划。 <br/> 许可证类型 <br/> 功能说明 <br/> Country 分钟池  <br/> 已用分钟数 <br/> 总分钟数 <br/> 用于月份的分钟数百分比 <br/> |
-|[Skype for Business 会话详细信息报告](session-details-report.md) <br/> | 用户别名 <br/> 对话框 ID  <br/> 媒体类型  <br/> 开始时间和结束时间 <br/> From 和 from URI <br/> 会议 URL <br/> 电话号码 <br/> |
+|[Skype for BusinessPSTN 分钟池报告](pstn-minute-pools-report.md) <br/> | 功能是用于调用的许可证/服务计划。 <br/> 许可证类型 <br/> 功能说明 <br/> 国家/地区分钟池  <br/> 已用分钟数 <br/> 总分钟数 <br/> 当月使用的分钟数百分比 <br/> |
+|[Skype for Business会话详细信息报告](session-details-report.md) <br/> | 用户别名 <br/> 对话 ID  <br/> 媒体类型  <br/> 开始时间和结束时间 <br/> 到 URI 和从 URI <br/> 会议 URL <br/> 电话数字 <br/> |
  
 ## <a name="related-topics"></a>相关主题
-[管理中心中的活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[管理中心中的活动报告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

@@ -19,22 +19,24 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 使用 Windows PowerShell 和 Get-CsTenant Get-CsTenantLicensingConfiguration cmdlet 获取有关 Skype for Business Online 租户的信息。
-ms.openlocfilehash: ed15d062bf4f2e5f2ad0f47169ac0626d2c59d20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2fa95bf8997dd0aff7271b1383c69d9b27c4f4a9
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113178"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238782"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>管理 Skype for Business Online 组织
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 > [!NOTE]
-> 最新的 [Teams PowerShell 公共预览版](https://www.powershellgallery.com/packages/MicrosoftTeams/) 与 Skype for Business Online 连接器集成，为 Teams PowerShell 管理提供单个模块。
+> PowerShell [Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)预览版的最新版与 Skype for Business Online 连接器集成，为 PowerShell 管理Teams模块。
 
 可以使用 **Get-CsTenant** 和 **Get-CsTenantLicensingConfiguration** cmdlet 查找有关 Skype for Business Online 租户的信息。
   
 ## <a name="manage-skype-for-business-online-tenants"></a>管理 Skype for Business Online 租户
 
-若要返回有关 Skype for Business Online 租户的信息，请不带任何其他参数调用 [Get-CsTenant](/powershell/module/skype/Get-CsTenant) cmdlet。
+若要返回有关 Skype for Business Online 租户的信息，请调用不带任何其他参数的[Get-CsTenant](/powershell/module/skype/Get-CsTenant) cmdlet。
   
 ```PowerShell
 Get-CsTenant
@@ -48,9 +50,9 @@ Get-CsTenant | Select-Object Name, TenantID
 
 运行 [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider)和 [Set-CsTenantFederationConfiguration](/powershell/module/skype/Set-CsTenantFederationConfiguration)等 cmdlet 时，需要 _TenantID_ 参数的值。
   
-若要查找有关指定租户的许可信息在 Skype for Business Online 管理中心中是否可用的信息，请使用 [Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) cmdlet。
+若要查找有关指定租户的许可信息在 Skype for Business Online 管理中心中是否可用的信息，请使用[Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) cmdlet。
   
 ## <a name="related-topics"></a>相关主题
-[使用 skype for business Online 管理设置计算机Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[使用 Skype for business Online 管理设置计算机Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

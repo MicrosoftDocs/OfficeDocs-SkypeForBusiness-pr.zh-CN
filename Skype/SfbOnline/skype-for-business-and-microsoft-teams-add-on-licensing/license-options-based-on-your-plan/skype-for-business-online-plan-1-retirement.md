@@ -19,37 +19,39 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
-description: Skype for Business Online 计划1已停用。 但是，如果您有 Skype for business Online 计划1的当前订阅，此更改不会影响您的使用。 准备好迁移到新计划时（无论是现在还是在续订期间），你将有三个选项。
-ms.openlocfilehash: 1b6642ccea185136c21e6064a8af9f271491c1f4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Skype for Business Online 计划 1 已停用。 但是，如果你拥有在线计划 1 Skype for Business订阅，此更改不会马上影响你。 当你准备好移动到新计划时（现在或续订期间）有三个选项。
+ms.openlocfilehash: 11ee9f7ce323555b0ce7c21a326115ba05014c97
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029083"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238674"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype for Business Online（计划 1）停用 
 
-Skype for Business Online 计划1已停用。 但是，如果您有 Skype for business Online 计划1的当前订阅，此更改不会影响您的使用。 作为全局 Office 365 管理员，您将收到电子邮件更新，并在消息中心（Microsoft 365 管理中心的一部分）中查看帖子，其中包含有关何时需要采取操作的信息。 同时，您可以继续使用现有的 Skype for Business Online 计划1许可证。
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-准备好移到新计划时（无论是现在还是在续订期间），你可以选择切换到 Office 365 F1 或你选择的其他 Office 365 计划。
+Skype for Business Online 计划 1 已停用。 但是，如果你拥有在线计划 1 Skype for Business订阅，此更改不会马上影响你。 作为全局Office 365管理员，您将在 Microsoft 365 管理中心) 的一部分收到电子邮件更新并查看消息中心 (帖子，以及何时需要采取措施的信息。 在此期间，你可以继续使用现有的在线计划 1 Skype for Business许可证。
 
-您可以保持与 Skype for Business Online 计划1相同的功能，同时充分利用 Office 365 中的新功能和功能。 许多可用的计划选项包括 Skype for Business Online 计划1附带的所有功能，以及 IM 和状态、对等的音频和视频，以及以经过身份验证的用户身份加入会议的功能。
+如果已准备好移动到新计划（现在或续订期间）时，可以选择切换到Office 365 F1或其他Office 365计划。
+
+你可以保持与 Online 计划 1 Skype for Business相同的功能，同时利用其他计划中的新功能Office 365。 许多可用的计划选项包括 Skype for Business Online 计划 1 提供的所有功能、即时消息和状态、通过 IP 的对等音频和视频，以及以经过身份验证的用户身份加入会议的功能。
 
 
 ## <a name="switching-to-office-365-f1"></a>切换到 Office 365 F1
 
-如果你想要利用 Office 365 F1 提供的附加功能，则此选项是理想的做法。 若要了解详细信息并获取定价信息，请参阅[Office 365 F1](https://products.office.com/business/office-365-f1)。
+若要利用用户必须提供的其他功能，Office 365 F1此选项很理想。 若要了解详细信息并获取定价信息[，请参阅](https://products.office.com/business/office-365-f1)Office 365 F1。
 
 
 ### <a name="how-to-switch"></a>如何切换 
 
-您现在可以切换到 Office 365 F1 或等待，直到在续订过程中进行续订和升级。 无论使用哪种方式，您都可以使用您的帐户代表或合作伙伴来进行切换，除非您直接从 Microsoft 购买订阅，在这种情况下，您可以在 Microsoft 365 管理中心内切换到 Office 365 F1。
+可以立即切换到Office 365 F1，或等到续订过程中需要续订和升级。 无论哪种方式，你都可以与帐户代表或合作伙伴合作进行切换，除非你直接从 Microsoft 购买了订阅，在这种情况下，你可以切换到 Office 365 F1 管理中心Microsoft 365帐户。
 
 
-## <a name="switching-to-another-office-365-offer"></a>切换到另一个 Office 365 提供
+## <a name="switching-to-another-office-365-offer"></a>切换到其他Office 365产品/服务
 
-用户在 Skype for Business Online 计划1中喜爱的功能在许多 Office 365 套件中均可通过 Microsoft 团队或 Skype for business Online 使用，具体取决于你当前使用的服务。 
+你的用户在 Skype for Business Online 计划 1 中享受的功能可通过 Microsoft Teams 或 Skype for Business Online 在我们的许多 Office 365 套件中提供，具体取决于你当前使用的服务。 
 
 ### <a name="how-to-switch"></a>如何切换 
 
-当您需要续订您的订阅和 Skype for Business Online 计划1时，您将能够在续订过程中切换到另一个 Office 365 计划。 如果您不想等到续订，您可以选择立即切换。 无论使用哪种方式，您都可以与您的帐户代表或合作伙伴协作进行切换，或者，如果您直接从 Microsoft 购买了 Skype for Business Online 计划1，请在管理中心自行选择。
+当需要续订订阅并且 Skype for Business Online 计划 1 不再可用时，可以在续订过程中切换到另一Office 365计划。 如果不想等到续订，可以选择"现在切换"。 无论哪种方式，您将与您的帐户代表或合作伙伴合作进行切换，或者（如果直接从 Microsoft 购买 Skype for Business Online Plan 1，请联机）在管理中心中自己执行。

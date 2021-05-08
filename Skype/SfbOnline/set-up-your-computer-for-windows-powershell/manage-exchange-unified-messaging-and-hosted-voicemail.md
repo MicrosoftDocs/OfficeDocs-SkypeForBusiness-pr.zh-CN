@@ -18,29 +18,31 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 使用 PowerShell 管理 Exchange 统一消息传送功能，自动助理 Skype for Business Online 中的订阅者访问和托管语音邮件。
-ms.openlocfilehash: 393b0a43cb55462006ef7701396a3b7840032fb4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 使用 PowerShell 在 Exchange Online 中管理统一消息自动助理以及托管的语音邮件等Skype for Business功能。
+ms.openlocfilehash: 1a841b377fbc84d85f085dc9d479fa05cc0b2be4
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113198"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238735"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>管理 Exchange 统一消息和托管语音邮件
 
-可以使用一组 cmdlet 在 Skype for Business Online 中管理 Exchange 统一消息和托管语音邮件。
-  
-## <a name="manage-exchange-unified-messaging-and-hosted-voice-mail"></a>管理 Exchange 统一消息和托管语音邮件
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-以下 cmdlet 可用于管理 EXCHANGE 统一消息传送 (UM) 和托管语音邮件策略：
+可以使用一Exchange cmdlet 在 Skype for Business Online 中管理统一消息和托管语音邮件。
+  
+## <a name="manage-exchange-unified-messaging-and-hosted-voice-mail"></a>管理Exchange统一消息和托管语音邮件
+
+以下 cmdlet 可用于管理统一消息Exchange UM (和) 策略：
   
 
 | **Cmdlet**                                                                                                                                                                                                                                                                                                                        | **说明**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Get-CsExUmContact](/powershell/module/skype/Get-CsExUmContact) <br/><br/> [New-CsExUmContact](/powershell/module/skype/New-CsExUmContact) <br/> <br/>[Remove-CsExUmContact](/powershell/module/skype/Remove-CsExUmContact) <br/> <br/>[Set-CsExUmContact](/powershell/module/skype/Set-CsExUmContact) <br/> | 当 Exchange UM 是托管服务时自动助理订阅者访问服务使用的联系人对象。  <br/><br/> Skype for Business Online 与 Exchange UM 一起提供多个语音相关功能，包括自动助理和订户访问。 自动助理提供了一种自动应答呼叫并路由到正确人员的方法。 订户访问使用户能够连接到 Exchange UM 并检索电子邮件、语音消息、联系人和日历信息。  <br/><br/> 将 Exchange UM 作为托管服务提供时，自动助理 Microsoft PowerShell 创建用于订阅服务器和订阅者访问服务的联系人对象。 这些对象是使用 **CsExUmContact** cmdlet 创建和管理的。 <br/> |
-| [Get-CSHostedVoicemailPolicy](/powershell/module/skype/Grant-CsHostedVoicemailPolicy) <br/> <br/>[Grant-CSHostedVoicemailPolicy](/powershell/module/skype/Set-CsTenantPublicProvider) <br/>                                                                                                                                                | 管理组织中使用的托管语音邮件策略。 托管语音邮件策略指定如何将未接听的呼叫路由到 Exchange UM 服务。 这些策略仅影响已启用 Exchange UM 托管语音邮件的用户。  <br/><br/> 若要验证用户是否启用了托管语音邮件，请从 PowerShell 提示符运行如下所示的命令。  <br/> \`Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"                                                                                                                                                                                                                                                                                                                                                           |
+| [Get-CsExUmContact](/powershell/module/skype/Get-CsExUmContact) <br/><br/> [New-CsExUmContact](/powershell/module/skype/New-CsExUmContact) <br/> <br/>[Remove-CsExUmContact](/powershell/module/skype/Remove-CsExUmContact) <br/> <br/>[Set-CsExUmContact](/powershell/module/skype/Set-CsExUmContact) <br/> | 当 UM 是托管服务自动助理时，创建和管理用于 Exchange 和订阅者访问服务的联系人对象。  <br/><br/> Skype for BusinessOnline 与 Exchange UM 一起提供多个语音相关功能，包括自动助理和订户访问。 自动助理提供了一种自动应答呼叫并路由到正确人员的方法。 订户访问允许用户连接到 UM Exchange检索电子邮件、语音消息、联系人和日历信息。  <br/><br/> 当Exchange UM 作为托管服务提供时，必须使用 Microsoft PowerShell 创建用于 自动助理 和订阅者访问服务的联系人对象。 这些对象是使用 **CsExUmContact** cmdlet 创建和管理的。 <br/> |
+| [Get-CSHostedVoicemailPolicy](/powershell/module/skype/Grant-CsHostedVoicemailPolicy) <br/> <br/>[Grant-CSHostedVoicemailPolicy](/powershell/module/skype/Set-CsTenantPublicProvider) <br/>                                                                                                                                                | 管理组织中使用的托管语音邮件策略。 托管语音邮件策略指定如何将未接听的呼叫路由到Exchange UM 服务。 这些策略仅影响已启用 UM 托管语音邮件Exchange用户。  <br/><br/> 若要验证用户是否启用了托管语音邮件，请从 PowerShell 提示符运行如下所示的命令。  <br/> \`Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"                                                                                                                                                                                                                                                                                                                                                           |
 
 ## <a name="related-topics"></a>相关主题
-[使用 skype for business Online 管理设置计算机Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[使用 Skype for business Online 管理设置计算机Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

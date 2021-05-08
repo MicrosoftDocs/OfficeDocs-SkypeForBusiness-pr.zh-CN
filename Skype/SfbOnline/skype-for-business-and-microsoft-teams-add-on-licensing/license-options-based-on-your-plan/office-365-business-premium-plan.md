@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 商业标准 '
+title: 'Microsoft 365 商业标准版 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,40 +20,42 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '了解加载项许可证、功能以及如何购买 Microsoft 365 商业标准计划。 '
-ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: '了解附加许可证、功能以及如何为计划Microsoft 365 商业标准版购买。 '
+ms.openlocfilehash: e7a63c210264109eab0df1e89cf214de3cc5d827
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777407"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238480"
 ---
-# <a name="microsoft-365-business-standard"></a>Microsoft 365 商业标准
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 商业标准版
 
-如果您有[Microsoft 365 商业标准](https://products.office.com/en/business/office-365-business-premium)，则可以使用 Skype for business 与您的企业中的其他人进行通话。例如，如果您的企业有10人，您可以使用 Skype for Business 与对方进行通话和发送即时消息。
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
+如果你拥有[Microsoft 365 商业标准版，](https://products.office.com/en/business/office-365-business-premium)可以使用 Skype for Business 呼叫企业中订阅中的其他人。 例如，如果你的企业有 10 个人，则可以使用 Skype for Business 相互通话和发送即时消息。
 
  **要与企业外部的人员相互拨打和接听电话，可以采用以下两个选项：**
 
-- **Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **选项 1。使用免费的 [Skype 应用](https://www.skype.com/)** 。 如果企业的规模很小（例如，1-2 人），则使用 Skype 应用比较好。 进行国内和国际呼叫时更便宜。 你仍可以召开电话会议、进行视频通话以及共享桌面以进行演示。 [检查费率和付款选项](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)。
 
     请注意 Skype 应用不属于 Office 365 套件，所以无法按 Skype for Business 的方式与 Outlook 2016 集成。这意味着 Outlook 2016 中的联系人不会显示在 Skype 中；你需将联系人添加到 Skype。
 
     建议开始先使用 Skype 应用，以确定它是否能满足你的需要。如果不能，再考虑下一个选项，即升级你的计划。
 
     > [!IMPORTANT]
-    > You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
+    > 必须设置切换开关，以允许员工使用Skype for Business搜索Skype用户。 请参阅[允许Skype for Business添加Skype联系人](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)。
 
 
 - **选项 2. 升级您的套餐和购买电话系统的国内或国内和国际通话套餐**。
 
     > [!Important]
-    > Although Skype for Business Online Plan 2 is included with the Office Business Premium subscription, **you can’t add cloud voice calling features**. So, we recommend that you evaluate an Enterprise E5 (or Enterprise E3) plan to see if it is more cost effective.
+    > 尽管 Skype 业务 Online 套餐 2 附带的 Office 企业高级版订阅，**但是您不能添加云语音呼叫功能**。 因此，我们建议您评估企业 E5 （或企业版 E3）套餐，以查看是否更划算。
 
-1. [Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.
+1. [切换到其他 Office 365 商业版计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。 我们建议您评估企业 E5 套餐，以查看是否更划算。
 
-2. 购买**电话系统**加载项。
+2. 购买 **电话系统** 加载项。
     
-3. 购买[适用于 Office 365 的呼叫计划](/MicrosoftTeams/calling-plans-for-office-365)：仅在购买 "**电话系统**" 加载项后，才能购买此套餐。
+3. 为 [用户购买Office 365](/MicrosoftTeams/calling-plans-for-office-365)套餐：只有在购买附加 **电话系统才能购买**。
     
     对于有多人需要拨打和接听外部电话的企业而言，第二个选项是理想的选择。
 
@@ -74,8 +76,8 @@ ms.locfileid: "43777407"
 
 1. 切换到 E1 或 E3 计划。
 
-2. 转到管理中心 >**帐单** > **订阅**。
+2. 转到管理中心>  >  **计费订阅"。**
 
-3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
+3. 选择" **附加许可证**"。 现在，你将看到该电话系统的价格以及购买它的选项。
 
-4. 购买**电话系统**许可证后，你将看到通话套餐的价格及其购买选项。
+4. 购买 **电话系统** 许可证后，你将看到通话套餐的价格及其购买选项。

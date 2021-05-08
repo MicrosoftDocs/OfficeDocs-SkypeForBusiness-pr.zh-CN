@@ -19,12 +19,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
-description: '这是必须发布以满足法国 Skype for business Online 的辅助功能、合规性和法规要求的内容。 '
-ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: '必须发布此内容，以满足法国 Skype for Business Online 的辅助功能、合规性和法规要求。 '
+ms.openlocfilehash: 04f723dfaf9f77594fd9beb6637a1f0acee6a887
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693097"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238654"
 ---
 # <a name="legal-and-regulatory"></a>法律和监管
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]

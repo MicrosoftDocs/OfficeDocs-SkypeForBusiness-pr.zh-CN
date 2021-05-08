@@ -19,67 +19,69 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 如何使用加拿大的 IP 中继帐户。
-ms.openlocfilehash: fd02fe763c8913a76c5fff6e1cf765a8fce425b5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b7f276bdf921fdc721ef1df883d3c5d714e4a94f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706677"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238664"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>加拿大 IP 中继 - 用户指南
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Microsoft 的 IP 消息中继服务说明：
 
 ## <a name="scenario-a"></a>方案 A
-如果有听力障碍的人想要与不有障碍的人联系，他们将通过基于 web 的特殊客户端 "聊天" 到名为 "呼叫者" 的代理。
+如果听力或语音有障碍的人想要联系没有障碍的人，他们通过基于 Web 的特殊客户端与名为呼叫接受者代理的代理"聊天"。
 
-然后，呼叫者通过聊天会话与听力或语音障碍人员通信，并根据需要通过电话网络在加拿大或美国的任何地方与非障碍人联系。
+然后，呼叫接受者通过聊天会话与有听力或语音障碍的人通信，并视需要通过加拿大或美国任意位置的电话网络联系没有障碍的人。
 
-## <a name="scenario-b"></a>情形 B
-如果不受影响的人希望与已注册的听力障碍或有语音障碍的用户交谈，他们将拨打由 Microsoft 提供的免费电话号码。
+## <a name="scenario-b"></a>方案 B
+如果无障碍用户希望与已注册的听力或语音有障碍的用户交谈，他们可拨打由 Microsoft 提供的免费电话号码。
 
-然后，呼叫者与不存在障碍的人进行通信，并通过聊天与听力障碍的人联系，并来回进行通信。
+然后，呼叫接受者与无障碍人员通信，通过聊天联系有听力障碍或有语音障碍的人，并来回通信。
 
-如果有听力障碍的人不在聊天程序中在线，则呼叫者将向听力或有障碍的人员发送电子邮件（如果呼叫者要求）。
+如果听力或语音有障碍的人未在聊天程序中联机，如果电子邮件地址可用，呼叫接受者将在呼叫者请求时向有听力或语音障碍的人发送电子邮件。
 
-## <a name="scenario-c"></a>情形 C
-如果有听力障碍的人需要紧急帮助，则可以选择相应的按钮： 911-警察/911-消防/911 – Ambulance。
+## <a name="scenario-c"></a>方案 C
+如果听力或语音有障碍的人需要紧急协助，他/她可以选择相应的按钮："911 – 911 – 911 – 火灾/911 – 医疗队"。
 
-这将向北 IP 中继操作员发送紧急通知，然后这些操作员将访问为此目的而设计的911帐户。 一旦呼叫者确认了自己的地址，他们就会联系相应的 PSAP，并根据需要随时保持在线。
+这会向北部 IP 中继操作员发送紧急通知，这些操作员随后将访问为此目的设计的 911 帐户。 呼叫接受者确认其地址后，将联系相应的 PSAP 并随时保持在线。
 
-## <a name="how-to-place-a-text-chat-to-voice-call"></a>如何进行语音通话文本聊天
+## <a name="how-to-place-a-text-chat-to-voice-call"></a>如何将文本聊天放在语音通话中
 
 https://aka.ms/IPRelay
 
-若要启动文本到语音呼叫，请转到上面的 URL 并使用您的 IP 消息中继用户名和密码进行登录。
+若要启动语音呼叫的文本，请转到上述 URL，然后使用 IP 消息中继用户名和密码登录。
 
-登录后，您将看到屏幕左侧显示的说明。
+登录后，屏幕左侧会显示说明。
 
-### <a name="how-to-make-a-text-to-voice-call"></a>如何使文本语音通话：
-1. 在屏幕右下角，单击 "**聊天**"。
-2. 单击**IPRelay**用户。
-3. 在弹出的新框的底部，键入消息。
+### <a name="how-to-make-a-text-to-voice-call"></a>如何进行"文本到语音"呼叫：
+1. 在屏幕右下角，单击"聊天 **"。**
+2. 单击 **IPRelay** 用户。
+3. 在弹出的新框底部，键入消息。
 
-### <a name="how-to-receive-a-voice-to-text-call"></a>如何接收语音到文本呼叫：
-- 语音用户需要知道您的 IP 邮件中继用户名才能向文本呼叫发出语音呼叫。
-- 语音用户可以调用（866）660-8613 以使用 IP 消息中继操作员进行连接。
-- 您必须登录到 IP 消息中继门户才能接收呼叫或聊天。
+### <a name="how-to-receive-a-voice-to-text-call"></a>如何接收"语音到文本"呼叫：
+- 语音用户需要知道 IP 消息中继用户名，才能进行语音转文本呼叫。
+- 语音用户可以呼叫 (866) 660-8613 以使用 IP 消息中继操作员进行连接。
+- 必须登录到 IP 消息中继门户以接收呼叫或聊天。
 
-### <a name="how-to-place-a-911-call"></a>如何拨打911通话：
-如果出现紧急情况，您可以选择位于屏幕底部的相应紧急情况按钮（如下所示）。
+### <a name="how-to-place-a-911-call"></a>如何拨打 911 电话：
+如果遇到紧急情况，可以选择位于屏幕底部的相应紧急按钮， (如下所示) 。
 
 ![紧急按钮](../images/ip-relay-emergency-buttons.png)
 
-IP 邮件中继运营商将与911联系，确认您的地址并与不同的紧急中心进行翻译，直到不再需要他或她，并且相应的部门已派发到您所在的位置。
+IP 消息中继操作员将联系 911，确认你的地址，并联系各种紧急中心进行翻译，直到不再需要他/她，并且相应的部门已分派到你的位置。
 
 > [!WARNING]
-> 请不要测试此服务，因为如果您指明该机构只是一种测试，则可能会与相应的机构取得联系，并且您可能会从紧急机构收取假的派单费。
+> 请不要测试此服务，因为将联系相应的机构并可能调度它，即使你指出它只是一个测试，并且你可能需要向紧急机构收取假调度费用。
 
 #### <a name="customer-support"></a>客户支持：
-请在[specialprojects@northern911.com](mailto:specialprojects@northern911.com)或（705）222-1733 联系特殊项目。
+请联系 222-1733 specialprojects@northern911.com 或 (705) 特殊项目。 [](mailto:specialprojects@northern911.com)
 
 > [!IMPORTANT]
-> Northern911 管理代表 Microsoft 的 IP 中继服务。
+> Northern911 代表 Microsoft 管理 IP 中继服务。
 
 ## <a name="related-topics"></a>相关主题
 

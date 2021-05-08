@@ -18,19 +18,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Microsoft 365 或 Office 365 中的 outlook 网页版（Outlook Web App）提供来自导航栏的基本 Skype for Business web 客户端。此基本客户端适用于其管理员尚未为其 Microsoft 365 和 Office 365 配置虚 URL 的联机用户。只要用户的帐户处于联机状态，并且没有虚 URL，即使其组织拥有某些在本地托管的用户帐户，他们仍将看到体验。拥有本地用户帐户（无论他们是否有虚 URL）或由 Microsoft 托管的用户将在 Outlook web app 中看到 Lync 体验。
-ms.openlocfilehash: ab426bdaf0261dcfb3375934eb1e5a6f5bd6df79
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: Outlook导航栏 (Outlook Web App) web Microsoft 365 Office 365 web 客户端Skype for Business Web 客户端。 此基本客户端适用于管理员尚未配置其应用和Microsoft 365虚 URL Office 365。 只要用户帐户处于联机状态且没有虚 URL，即使其组织具有本地的一些用户帐户，他们仍将看到体验。 在本地拥有用户帐户的用户 (无论他们是否具有虚 URL) 或由 Microsoft 管理的用户都将在 Outlook Web 应用中看到 Lync 体验。
+ms.openlocfilehash: aa6f82f6647db1816c630486bee0d415d05b3b77
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164102"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239567"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Outlook 网页版中的 Skype for Business Online 支持
 
-Microsoft 365 或 Office 365 中的 outlook 网页版（Outlook Web App）提供来自导航栏的基本 Skype for Business web 客户端。此基本客户端适用于其管理员尚未为其 Microsoft 365 和 Office 365 配置虚 URL 的联机用户。只要用户的帐户处于联机状态，并且没有虚 URL，即使其组织拥有某些在本地托管的用户帐户，他们仍将看到体验。拥有本地用户帐户（无论他们是否有虚 URL）或由 Microsoft 托管的用户将在 Outlook web app 中看到 Lync 体验。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Outlook导航栏 (Outlook Web App) web Microsoft 365 Office 365 web 客户端Skype for Business Web 客户端。 此基本客户端适用于管理员尚未配置其应用和Microsoft 365虚 URL Office 365。 只要用户帐户处于联机状态且没有虚 URL，即使其组织具有本地的一些用户帐户，他们仍将看到体验。 在本地拥有用户帐户的用户 (无论他们是否具有虚 URL) 或由 Microsoft 管理的用户都将在 Outlook Web 应用中看到 Lync 体验。
   
-下表汇总了您可能拥有的不同设置以及所使用的 web 客户端。
+下表汇总了你可能拥有的不同设置以及所使用的 Web 客户端。
   
 ||||
 |:-----|:-----|:-----|
@@ -41,8 +43,8 @@ Microsoft 365 或 Office 365 中的 outlook 网页版（Outlook Web App）提供
 |混合但联机托管  <br/> |是  <br/> |Lync Web 体验  <br/> |
 |混合但本地托管  <br/> |否  <br/> |Lync Web 体验  <br/> |
 |混合但本地托管  <br/> |是  <br/> |Lync Web 体验  <br/> |
-|纯本地  <br/> |否  <br/> |Lync Web 体验  <br/> |
-|纯本地  <br/> |是  <br/> |Lync Web 体验  <br/> |
+|纯就地  <br/> |否  <br/> |Lync Web 体验  <br/> |
+|纯就地  <br/> |是  <br/> |Lync Web 体验  <br/> |
    
 
 ## <a name="related-topics"></a>相关主题

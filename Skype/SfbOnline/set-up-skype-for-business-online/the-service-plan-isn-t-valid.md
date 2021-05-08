@@ -20,19 +20,21 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
-description: '了解在 Skype for Business Online 服务计划无效的情况下为用户分配有效服务计划的位置。 '
-ms.openlocfilehash: a3f7ac1a0816845b24d8580f63165b73ea9c99e9
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '查看在出现联机服务计划无效错误Skype for Business为用户分配有效服务计划的地方。 '
+ms.openlocfilehash: 3545d0341e7e094ca1152d37a145e3c52640ae50
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769575"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239464"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>用户的 Skype for Business Online 服务计划无效
 
-很抱歉，分配给此用户的 Skype for Business Online 服务计划无法识别或无效。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+很抱歉，Skype for Business分配给此用户的联机服务计划无法识别或无效。
   
-转到*Microsoft 365 管理中心** >**活动用户**并将有效的服务计划分配给此用户。
+转到 *"Microsoft 365管理中心**">"活动 **用户**"，并为此用户分配有效的服务计划。
 
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

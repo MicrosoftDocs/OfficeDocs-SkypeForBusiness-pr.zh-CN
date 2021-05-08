@@ -18,17 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 了解通过客户端远程管理 Skype for Business Online Windows PowerShell的要求，包括支持的操作系统。
-ms.openlocfilehash: 35b6589e8452bdee46eda626a321e0c75b9f9775
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 了解通过 Skype for Business Online 进行远程Windows PowerShell的要求，包括支持的操作系统。
+ms.openlocfilehash: df3c9da68b27a235460515e9f27f88fa15c182e0
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113138"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238708"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>为 Windows PowerShell 设置计算机
 
-仅在运行以下操作系统之一的 64 位计算机上支持使用 Microsoft PowerShell 远程管理 Skype for Business Online：
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+只有运行Skype for Business之一的 64 位计算机上支持使用 Microsoft PowerShell 远程管理 Skype for Business Online：
 
 - Windows Server 2016
 
@@ -50,7 +52,7 @@ ms.locfileid: "51113138"
   
 - PowerShell
     
-- Teams PowerShell 模块 
+- TeamsPowerShell 模块 
     
 可以在以下主题中查找有关下载和安装这些项目的信息：
   
@@ -58,7 +60,7 @@ ms.locfileid: "51113138"
     
 - [下载并安装 Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
-- [使用 Office 365 PowerShell 管理 Skype for Business Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [使用 Skype for Business PowerShell 管理 Office 365 Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
 ## <a name="related-topics"></a>相关主题
 [诊断 Skype for business Online 连接器的连接问题](diagnose-problems-with-the-skype-for-business-online-connector.md)

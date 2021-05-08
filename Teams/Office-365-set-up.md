@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 365 或 Office 365 中打开 Teams
+title: 打开Teams或Microsoft 365 Office 365
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: 了解如何为 Microsoft 365 或 Office 365 组织启用 Microsoft Teams、分配用户许可证来控制个人访问，以及允许或阻止内容源。
+description: 了解如何为组织或Microsoft Teams启用Microsoft 365 Office 365许可证来控制个人访问，以及允许或阻止内容源。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -39,7 +39,7 @@ ms.locfileid: "51113678"
 
 
  
-若要详细了解如何管理单个许可证，请阅读 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。 
+若要详细了解如何管理单个许可证，请阅读[Microsoft Teams说明。](/office365/servicedescriptions/teams-service-description) 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>为整个组织开启或关闭 Teams 

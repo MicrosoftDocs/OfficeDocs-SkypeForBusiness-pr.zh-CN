@@ -18,21 +18,23 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 了解如何修复 Microsoft 365 和 Office 365 中 Skype for Business 管理员和用户的问题。
-ms.openlocfilehash: b9186064cab1932d34c49c2ed0d48bde2ce88787
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 了解如何修复管理员和用户的问题Skype for Business Microsoft 365 Office 365。
+ms.openlocfilehash: b64cd39cee9a9981c5a5d605953d1e11c5ba06f0
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109898"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239411"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>解决 Skype for Business Online 中的问题
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 有时，功能未按预期操作。无论你是管理 Skype for Business Online 还是帮助用户解决其问题，下面的主题列表都可帮助你解决问题。
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>解决 Skype for Business Online 问题（管理员）
 
-你可以从检查 Skype for Business Online 登录错误的常见原因一文获得 [大部分 Skype for Business Online 问题的答案](troubleshooting-sign-in-errors-for-admins.md#toc323194094)。 以下知识库文章还包含许多故障排除资源和错误代码参考： [排查管理员的 Skype for Business Online](./troubleshooting-sign-in-errors-for-admins.md)登录错误。
+可以在检查联机登录错误Skype for Business常见原因一文Skype for Business[大多数联机问题的答案](troubleshooting-sign-in-errors-for-admins.md#toc323194094)。 以下知识库文章还包含许多故障排除资源和错误代码参考：Skype for Business联机登录错误[疑难解答](./troubleshooting-sign-in-errors-for-admins.md)。
 
 有关电话拨入式会议问题，请参阅 [音频会议故障排除和已知问题](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)。
 
@@ -66,18 +68,18 @@ Skype for Business Online 用户遇到的大部分问题都与忘记密码有关
 
 - [Skype for Business 会议帮助](https://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
 
-- [Skype for Business 培训](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
+- [Skype for Business培训](https://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
 
 - [在 Skype for Business 中演示程序](https://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
 
 - [关于 Lync 中的日志记录](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)
 
-## <a name="still-need-help-contact-support"></a>是否仍需要帮助？ 请联系支持人员。
+## <a name="still-need-help-contact-support"></a>是否仍需要帮助？请联系支持人员。
 <a name="BK_SupportBridge_1"> </a>
 
-作为 Microsoft 365 商业版应用管理员，你可以免费访问我们经验丰富的支持代理，获取预售、帐户和计费支持，以及帮助解决技术问题。 还可以代表 [你组织中](/microsoft-365/Admin/contact-support-for-business-products) Microsoft 365 和 Office 365 用户联系支持人员。
+作为管理员Microsoft 365 商业应用版，你可以免费访问我们经验丰富的支持代理，获取预售、帐户和计费支持，以及帮助解决技术问题。 还可以[代表组织中](/microsoft-365/Admin/contact-support-for-business-products)用户和Microsoft 365 Office 365联系支持人员。
 
-- [从 Microsoft 365 和 Office 365 社区论坛获取帮助](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [从社区论坛Microsoft 365 Office 365获取帮助](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [管理员：呼叫支持](/microsoft-365/Admin/contact-support-for-business-products)
 

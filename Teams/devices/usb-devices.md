@@ -1,7 +1,7 @@
 ---
 title: 手机和设备Microsoft Teams
-ms.author: dmaguire
-author: msdmaguire
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 外围设备和设备 (耳机、免提电话、网络摄像机和监视器) 认证Microsoft Teams。
-ms.openlocfilehash: c3bfa8f96bf91e3b57de5a42e3c2ac0f709fe221
-ms.sourcegitcommit: f489191900709985941fc2cdc5fe46834f300b35
+ms.openlocfilehash: 13638082503d26a184143d6189a9ff35bfc53555
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52106868"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282741"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经认证的 USB 音频和视频设备Microsoft Teams
 

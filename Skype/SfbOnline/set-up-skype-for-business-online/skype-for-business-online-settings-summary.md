@@ -19,20 +19,22 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: '此 Skype for Business 组织和用户设置摘要可以帮助你详细了解公共 IM 连接、会议邀请、录制呼叫和会议等。  '
-ms.openlocfilehash: d48da549a48cf3326cc55a44d68ca36048fae439
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '此摘要Skype for Business和用户设置可以帮助你了解有关公共 IM 连接、会议邀请、录制呼叫和会议等内容。  '
+ms.openlocfilehash: deb1ed7df753377d97c23793278b317a633559b6
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109918"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239715"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online 设置摘要
 
-**Skype for Business 管理中心** 包括整个组织以及单个用户的设置。 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+**"Skype for Business管理中心**"包括整个组织以及单个用户的设置。 
   
 > [!NOTE]
->  [!注释]  根据你的位置，你可能无法访问 Skype for Business Online 的所有功能。 有关详细信息，请参阅 [Microsoft 365 和 Office 365 的许可证限制](/microsoft-365/commerce/)。 
+>  [!注释]  根据你的位置，你可能无法访问 Skype for Business Online 的所有功能。 有关详细信息，请参阅[Microsoft 365 和 Office 365 的许可证限制](/microsoft-365/commerce/)。 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Skype for Business Online 组织设置
 <a name="__top"> </a>
@@ -53,7 +55,7 @@ ms.locfileid: "51109918"
 |音频和视频  <br/> |进行音频和视频对话：使用 Skype for Business Online  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |录制  <br/> |录制呼叫和会议  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |匿名与会者拨出  <br/> |通过让音频会议提供商呼叫匿名 Skype for Business Online 与会者来允许他们进行连接  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|禁用非存档功能  <br/> | 关闭组织设置向案例添加内容并保留 Exchange 管理中心电子数据[](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)展示中心中的源时未捕获的功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/>  如果法律要求您以电子形式存储信息，请选择此选项。 <br/> |已禁用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|禁用非存档功能  <br/> | 关闭组织设置向案例添加内容并保留电子数据展示中心内电子数据[](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)展示中心内Exchange的功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/>  如果法律要求您以电子形式存储信息，请选择此选项。 <br/> |已禁用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

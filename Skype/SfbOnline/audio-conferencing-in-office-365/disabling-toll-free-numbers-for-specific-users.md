@@ -20,21 +20,23 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 管理员可以控制组织者如何使用他们会议的免费电话号码。
-ms.openlocfilehash: 42323afd397612c3cdc0549bdcc33b16cfdae9ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4fae54e3ed140ab876e6fadef10907e40f59057e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695677"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238507"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>禁用特定 Skype for Business Online 用户的免费电话号码
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
  
 > [!Note]
 > 有关禁用团队用户免费电话号码的信息，请参阅 [禁用特定的团队用户免费电话号码](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) 。
 
 如果组织在其 Microsoft 音频会议网桥中拥有免费电话号码，可以在特定的组织者的会议中允许或阻止其使用免费电话号码。  
 
-By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings. If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control. 
+默认方式，组织中的所有用户均启用免费电话号码，这意味着，这些号码，如果可用，参会者可使用它们参加会议。 如果不希望组织中的某些用户可以这样参会，可以通过免费电话号码启用控件限制特定用户在其会议中使用这些号码。 
 
 当针对某设定组织者禁用免费电话号码时： 
  - 免费电话号码将不再包含在他或她的会议邀请中。 
@@ -47,17 +49,17 @@ By default, all users in your organization are enabled for using toll-free numbe
 
  - 参会者可以继续使用收费电话号码参加该组织者的会议。 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>为特定用户禁用免费电话号码 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码 
 
-从**Microsoft 团队管理中心**：
+从 **Microsoft Teams管理中心**：
 
-1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
+1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 
-2. 在**音频会议**旁边，单击**编辑**。
+2. 在 **音频会议** 旁边，单击 **编辑**。
 
-3. 设置**包括来自此用户的会议请求中**的免费电话号码 **。** 
+3. 将 **"在此用户的会议请求中包括** 免费号码"设置为"**关闭"。** 
 
-4. 单击 "**保存"。** 
+4. 单击" **保存"。** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
