@@ -29,26 +29,26 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51097668"
 ---
-# <a name="toll-free-dialing-restrictions-in-sweden"></a><span data-ttu-id="144ba-105">瑞典的免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="144ba-105">Toll-free dialing restrictions in Sweden</span></span>
+# <a name="toll-free-dialing-restrictions-in-sweden"></a><span data-ttu-id="18cd1-105">瑞典的免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="18cd1-105">Toll-free dialing restrictions in Sweden</span></span>
 
-<span data-ttu-id="144ba-106">[查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。</span><span class="sxs-lookup"><span data-stu-id="144ba-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="18cd1-106">[查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。</span><span class="sxs-lookup"><span data-stu-id="18cd1-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="144ba-107">**Details**</span><span class="sxs-lookup"><span data-stu-id="144ba-107">**Details**</span></span>|<span data-ttu-id="144ba-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="144ba-108">**Description**</span></span>|
+|<span data-ttu-id="18cd1-107">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="18cd1-107">**Details**</span></span>|<span data-ttu-id="18cd1-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="18cd1-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="144ba-109">是否提供免费呼叫？</span><span class="sxs-lookup"><span data-stu-id="144ba-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="144ba-110">是</span><span class="sxs-lookup"><span data-stu-id="144ba-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="144ba-111">拨号格式 () </span><span class="sxs-lookup"><span data-stu-id="144ba-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="144ba-112">020</span><span class="sxs-lookup"><span data-stu-id="144ba-112">020</span></span> <br/> |
-|<span data-ttu-id="144ba-113">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="144ba-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="144ba-114">SE</span><span class="sxs-lookup"><span data-stu-id="144ba-114">SE</span></span>  <br/> |
-|<span data-ttu-id="144ba-115">涵盖的岛屿/区域</span><span class="sxs-lookup"><span data-stu-id="144ba-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="144ba-116">不适用</span><span class="sxs-lookup"><span data-stu-id="144ba-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="144ba-117">未涵盖的岛屿/区域</span><span class="sxs-lookup"><span data-stu-id="144ba-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="144ba-118">不适用</span><span class="sxs-lookup"><span data-stu-id="144ba-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="144ba-119">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="144ba-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="144ba-120">是</span><span class="sxs-lookup"><span data-stu-id="144ba-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="144ba-121">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="144ba-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="144ba-122">否</span><span class="sxs-lookup"><span data-stu-id="144ba-122">No</span></span>  <br/> |
-|<span data-ttu-id="144ba-123">注释、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="144ba-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="144ba-124">无</span><span class="sxs-lookup"><span data-stu-id="144ba-124">None</span></span>  <br/> |
+|<span data-ttu-id="18cd1-109">是否提供免费呼叫？</span><span class="sxs-lookup"><span data-stu-id="18cd1-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="18cd1-110">是</span><span class="sxs-lookup"><span data-stu-id="18cd1-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="18cd1-111">拨号格式 () </span><span class="sxs-lookup"><span data-stu-id="18cd1-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="18cd1-112">020</span><span class="sxs-lookup"><span data-stu-id="18cd1-112">020</span></span> <br/> |
+|<span data-ttu-id="18cd1-113">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="18cd1-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="18cd1-114">SE</span><span class="sxs-lookup"><span data-stu-id="18cd1-114">SE</span></span>  <br/> |
+|<span data-ttu-id="18cd1-115">涵盖的岛屿/区域</span><span class="sxs-lookup"><span data-stu-id="18cd1-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="18cd1-116">不适用</span><span class="sxs-lookup"><span data-stu-id="18cd1-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="18cd1-117">未涵盖的岛屿/区域</span><span class="sxs-lookup"><span data-stu-id="18cd1-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="18cd1-118">不适用</span><span class="sxs-lookup"><span data-stu-id="18cd1-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="18cd1-119">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="18cd1-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="18cd1-120">是</span><span class="sxs-lookup"><span data-stu-id="18cd1-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="18cd1-121">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="18cd1-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="18cd1-122">不支持</span><span class="sxs-lookup"><span data-stu-id="18cd1-122">No</span></span>  <br/> |
+|<span data-ttu-id="18cd1-123">注释、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="18cd1-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="18cd1-124">无</span><span class="sxs-lookup"><span data-stu-id="18cd1-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="144ba-125">相关主题</span><span class="sxs-lookup"><span data-stu-id="144ba-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="18cd1-125">相关主题</span><span class="sxs-lookup"><span data-stu-id="18cd1-125">Related topics</span></span>
 
-[<span data-ttu-id="144ba-126">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="144ba-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="18cd1-126">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="18cd1-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="144ba-127">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="144ba-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
+[<span data-ttu-id="18cd1-127">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="18cd1-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   

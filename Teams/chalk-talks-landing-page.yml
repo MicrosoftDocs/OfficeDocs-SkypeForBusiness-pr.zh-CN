@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft Teams 的一些对话
-summary: Teams 会议专为 IT 专业人员和决策者设计，提供独特的机会来了解有关 Teams 中一些最受欢迎且最具吸引力的方案的最佳实践和实用指南。
+title: Microsoft Teams小轮次讲座
+summary: 为 IT 专业人员和决策者设计，Teams会议提供了一个独一无二的机会，可了解有关 Teams 中一些最热门和极具吸引力的方案的最佳实践和实用指导。
 brand: teams
 metadata:
-  title: Microsoft Teams 会议
-  description: Teams 会议专为 IT 专业人员和决策者设计，提供独特的机会来了解有关 Teams 中一些最受欢迎且最具吸引力的方案的最佳实践和实用指南。 这些在线交互式研讨会由主题专家主持，将向您提供见解，以增强 Teams 实施并为最终用户提供更多价值。 单击下面的任何研讨会标题，查看可用的日期和时间，并立即注册！
+  title: Microsoft Teams对话
+  description: 为 IT 专业人员和决策者设计，Teams会议提供了一个独一无二的机会，可了解有关 Teams 中一些最热门和极具吸引力的方案的最佳实践和实用指导。 这些在线交互式研讨会由主题专家主持，将向您提供见解，以增强Teams实现并为最终用户提供更多价值。 单击下面的任何研讨会标题，查看可用的日期和时间，并立即注册！
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -28,39 +28,39 @@ metadata:
 productDirectory:
   summary: 单击任何研讨会标题进行注册。
   items:
-    - title: 在 Teams 中负责音频/视频质量
+    - title: 负责视频中音频/视频Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
       summary: 想要确保用户具有最佳的会议和语音功能体验？ 我们将讨论可帮助你管理服务质量的工具、报告和最佳做法 - 从建立主动策略到解决常见问题。
       url: 'https://microsoftteams.eventbuilder.com/ChalkTalksQuality'
-    - title: 那么...想要与 Teams 通话？
+    - title: 那么...你想使用电话Teams？
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: 加入我们，深入了解如何向 Teams 部署添加 PSTN 呼叫功能。 我们将一起演练调用术语、关键概念和配置。
+      summary: 加入我们，深入了解将 PSTN 呼叫功能添加到 Teams 部署。 我们将一起演练调用术语、关键概念和配置。
       url: 'https://microsoftteams.eventbuilder.com/ChalkTalksCalling'
-    - title: 使用 Microsoft Teams 激活实时事件
+    - title: 使用视频激活实时Microsoft Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
-      summary: 使用 Microsoft Teams 通过大型在线虚拟活动吸引受众并吸引他们。 了解确保事件成功的最佳实践。
+      summary: 使用 Microsoft Teams，通过大型在线虚拟活动吸引受众并Microsoft Teams。 了解确保事件成功的最佳实践。
       url: 'https://aka.ms/ChalkTalksVirtualEvents'
     - title: Teams 基础中的应用
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
       summary: 此基础会话涵盖基本功能，包括应用管理和安全性。 了解如何将工作流、效率应用和日常使用的服务集成到单个统一的体验中。
       url: 'https://microsoftteams.eventbuilder.com/ChalkTalksApps'
-    - title: 在 Teams 中将关键工作流与应用相加
+    - title: 将关键工作流与应用程序中的应用Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
-      summary: 将组织依赖的应用引入 Teams，连接系统、增强自动化，并为用户提供改进的体验。
+      summary: 连接将组织依赖的应用引入到服务中，为用户改进系统、提高自动化Teams。
       url: 'https://aka.ms/ChalkTalkKeyApps'
-    - title: 让一线员工能够使用 Teams 执行更多工作
+    - title: 让一线员工能够使用 Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
       summary: 探索最佳做法，为一线员工计划和实现简化的体验，实现高效对话、信息共享和计划管理。
       url: 'https://aka.ms/TeamsFLW'
 additionalContent:
   sections:
     - items:
-        - title: 仍在使用 Skype for Business？
+        - title: 仍在使用Skype for Business？
           summary: 查看升级研讨会系列。
           url: upgrade-workshops-landing-page.yml
         - title: 准备用户
-          summary: 使用 Teams Live 培训让用户启动并运行。
+          summary: 通过实时培训让用户Teams运行。
           url: ./instructor-led-training-teams-landing-page.yml
         - title: 不熟悉 Teams？
-          summary: 详细了解 Teams 入门。
+          summary: 详细了解如何开始使用 Teams。
           url: ./teams-overview.md

@@ -23,16 +23,16 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117310"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="aca28-103">PowerShell 脚本示例 - 导出管理器及其直接命令</span><span class="sxs-lookup"><span data-stu-id="aca28-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="75276-103">PowerShell 脚本示例 - 导出管理器及其直接命令</span><span class="sxs-lookup"><span data-stu-id="75276-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="aca28-104">使用此 PowerShell 脚本为组织导出经理及其直接人员的列表，为使用其直接下属作为团队成员的每个经理创建人员经理团队做准备。</span><span class="sxs-lookup"><span data-stu-id="aca28-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="75276-104">使用此 PowerShell 脚本为组织导出经理及其直接人员的列表，为使用其直接下属作为团队成员的每个经理创建人员经理团队做准备。</span><span class="sxs-lookup"><span data-stu-id="75276-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="aca28-105">若要了解此 PowerShell 脚本，请阅读 [创建人员经理团队](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="aca28-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="75276-105">若要了解此 PowerShell 脚本，请阅读 [创建人员经理团队](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="75276-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="aca28-106">如果你不了解 PowerShell 并需要入门帮助，请参阅 [Azure PowerShell 概述](/powershell/azure/overview?view=azurermps-5.1.1)。</span><span class="sxs-lookup"><span data-stu-id="aca28-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="75276-106">如果你不了解 PowerShell 并需要入门帮助，请参阅 [Azure PowerShell 概述](/powershell/azure/overview?view=azurermps-5.1.1)。</span><span class="sxs-lookup"><span data-stu-id="75276-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="aca28-107">Export-Managers脚本</span><span class="sxs-lookup"><span data-stu-id="aca28-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="75276-107">Export-Managers脚本</span><span class="sxs-lookup"><span data-stu-id="75276-107">Export-Managers script</span></span>
 
 ```powershell
 <# 

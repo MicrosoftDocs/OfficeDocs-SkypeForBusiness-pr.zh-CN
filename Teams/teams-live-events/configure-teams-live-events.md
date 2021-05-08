@@ -15,7 +15,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: 了解如何管理组织中组织的 Teams 实时事件设置。
+description: 了解如何管理组织中Teams实时事件的设置。
 f1.keywords:
 - CSH
 ms.custom:
@@ -29,81 +29,81 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/08/2021
 ms.locfileid: "51637874"
 ---
-# <a name="configure-live-event-settings-in-microsoft-teams"></a><span data-ttu-id="7d449-103">在 Microsoft Teams 中配置实时事件设置</span><span class="sxs-lookup"><span data-stu-id="7d449-103">Configure live event settings in Microsoft Teams</span></span>
+# <a name="configure-live-event-settings-in-microsoft-teams"></a><span data-ttu-id="c17a1-103">在 Microsoft Teams 中配置实时事件设置</span><span class="sxs-lookup"><span data-stu-id="c17a1-103">Configure live event settings in Microsoft Teams</span></span>
 
-<span data-ttu-id="7d449-104">使用 Teams 实时事件设置为组织中举行实时事件配置设置。</span><span class="sxs-lookup"><span data-stu-id="7d449-104">Use Teams live events settings to configure settings for live events that are held in your organization.</span></span> <span data-ttu-id="7d449-105">可以设置支持 URL 并配置第三方视频分发提供商。</span><span class="sxs-lookup"><span data-stu-id="7d449-105">You can set up a support URL and configure a third-party video distribution provider.</span></span> <span data-ttu-id="7d449-106">这些设置适用于在组织中创建的所有实时事件。</span><span class="sxs-lookup"><span data-stu-id="7d449-106">These settings apply to all live events that are created in your organization.</span></span>
+<span data-ttu-id="c17a1-104">使用Teams事件设置来配置组织中保存实时事件的设置。</span><span class="sxs-lookup"><span data-stu-id="c17a1-104">Use Teams live events settings to configure settings for live events that are held in your organization.</span></span> <span data-ttu-id="c17a1-105">可以设置支持 URL 并配置第三方视频分发提供商。</span><span class="sxs-lookup"><span data-stu-id="c17a1-105">You can set up a support URL and configure a third-party video distribution provider.</span></span> <span data-ttu-id="c17a1-106">这些设置适用于在组织中创建的所有实时事件。</span><span class="sxs-lookup"><span data-stu-id="c17a1-106">These settings apply to all live events that are created in your organization.</span></span>
 
-<span data-ttu-id="7d449-107">可以在 Microsoft Teams 管理中心轻松管理这些设置。</span><span class="sxs-lookup"><span data-stu-id="7d449-107">You can easily manage these settings in the Microsoft Teams admin center.</span></span> <span data-ttu-id="7d449-108">在左侧导航栏中，转到"**会议**  >  **实时事件设置"。**</span><span class="sxs-lookup"><span data-stu-id="7d449-108">In the left navigation, go to **Meetings** > **Live events settings**.</span></span>
+<span data-ttu-id="c17a1-107">可以在管理中心内轻松Microsoft Teams这些设置。</span><span class="sxs-lookup"><span data-stu-id="c17a1-107">You can easily manage these settings in the Microsoft Teams admin center.</span></span> <span data-ttu-id="c17a1-108">在左侧导航栏中，转到"**会议**  >  **实时事件设置"。**</span><span class="sxs-lookup"><span data-stu-id="c17a1-108">In the left navigation, go to **Meetings** > **Live events settings**.</span></span>
 
-<span data-ttu-id="7d449-109">![Teams 实时事件设置的屏幕截图](../media/teams-live-events-settings.png "可在 Microsoft Teams 管理中心配置的 Teams 实时事件设置的屏幕截图")</span><span class="sxs-lookup"><span data-stu-id="7d449-109">![Screen shot of Teams live events settings](../media/teams-live-events-settings.png "Screen shot of Teams live events settings that you can configure in the Microsoft Teams admin center")</span></span>
+<span data-ttu-id="c17a1-109">![实时事件Teams屏幕截图](../media/teams-live-events-settings.png "可在 Teams 管理中心配置的事件实时Microsoft Teams屏幕截图")</span><span class="sxs-lookup"><span data-stu-id="c17a1-109">![Screen shot of Teams live events settings](../media/teams-live-events-settings.png "Screen shot of Teams live events settings that you can configure in the Microsoft Teams admin center")</span></span>
 
-## <a name="set-up-event-support-url"></a><span data-ttu-id="7d449-110">设置事件支持 URL</span><span class="sxs-lookup"><span data-stu-id="7d449-110">Set up event support URL</span></span>
+## <a name="set-up-event-support-url"></a><span data-ttu-id="c17a1-110">设置事件支持 URL</span><span class="sxs-lookup"><span data-stu-id="c17a1-110">Set up event support URL</span></span>
 
-<span data-ttu-id="7d449-111">此 URL 显示给实时事件与会者。</span><span class="sxs-lookup"><span data-stu-id="7d449-111">This URL is shown to live event attendees.</span></span> <span data-ttu-id="7d449-112">为组织添加支持 URL，让与会者在直播活动期间联系支持人员。</span><span class="sxs-lookup"><span data-stu-id="7d449-112">Add the support URL for your organization to give attendees a way to contact support during a live event.</span></span>
+<span data-ttu-id="c17a1-111">此 URL 显示给实时事件与会者。</span><span class="sxs-lookup"><span data-stu-id="c17a1-111">This URL is shown to live event attendees.</span></span> <span data-ttu-id="c17a1-112">为组织添加支持 URL，让与会者在直播活动期间联系支持人员。</span><span class="sxs-lookup"><span data-stu-id="c17a1-112">Add the support URL for your organization to give attendees a way to contact support during a live event.</span></span>
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) <span data-ttu-id="7d449-114&quot;>使用 Microsoft Teams 管理中心</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;7d449-114&quot;>Using the Microsoft Teams admin center</span></span>
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) <span data-ttu-id="c17a1-114&quot;>使用 Microsoft Teams 管理中心</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;c17a1-114&quot;>Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id=&quot;7d449-115&quot;>在左侧导航栏中，转到&quot;**会议**  >  **实时事件设置&quot;。**</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;7d449-115&quot;>In the left navigation, go to **Meetings** > **Live event settings**.</span></span>
-2. <span data-ttu-id=&quot;7d449-116&quot;>在 **&quot;支持 URL&quot;** 下，输入组织的支持 URL。</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;7d449-116&quot;>Under **Support URL**, enter your organization's support URL.</span></span>
+1. <span data-ttu-id=&quot;c17a1-115&quot;>在左侧导航栏中，转到&quot;**会议**  >  **实时事件设置&quot;。**</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;c17a1-115&quot;>In the left navigation, go to **Meetings** > **Live event settings**.</span></span>
+2. <span data-ttu-id=&quot;c17a1-116&quot;>在 **&quot;支持 URL&quot;** 下，输入组织的支持 URL。</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;c17a1-116&quot;>Under **Support URL**, enter your organization's support URL.</span></span>
 
-    <span data-ttu-id=&quot;7d449-117&quot;>![管理中心内实时事件的支持 URL 设置](../media/teams-live-events-settings-supporturl.png &quot;Teams 实时事件的支持 URL 设置的屏幕截图")</span><span class="sxs-lookup"><span data-stu-id="7d449-117">![Support URL setting for live events in the admin center](../media/teams-live-events-settings-supporturl.png "Screen shot of support URL setting for Teams live events")</span></span>
+    <span data-ttu-id=&quot;c17a1-117&quot;>![管理中心内实时事件的支持 URL 设置](../media/teams-live-events-settings-supporturl.png &quot;实时事件的支持 URL Teams屏幕截图")</span><span class="sxs-lookup"><span data-stu-id="c17a1-117">![Support URL setting for live events in the admin center](../media/teams-live-events-settings-supporturl.png "Screen shot of support URL setting for Teams live events")</span></span>
 
-### <a name="using-windows-powershell"></a><span data-ttu-id="7d449-118">使用 Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="7d449-118">Using Windows PowerShell</span></span>
+### <a name="using-windows-powershell"></a><span data-ttu-id="c17a1-118">使用 Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="c17a1-118">Using Windows PowerShell</span></span>
 
-<span data-ttu-id="7d449-119">请运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="7d449-119">Run the following:</span></span>
+<span data-ttu-id="c17a1-119">请运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="c17a1-119">Run the following:</span></span>
 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-<span data-ttu-id="7d449-120">有关详细信息，请参阅[Set-CsTeamsMeetingBroadcastConfiguration。](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)</span><span class="sxs-lookup"><span data-stu-id="7d449-120">For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).</span></span>
-## <a name="configure-a-third-party-video-distribution-provider"></a><span data-ttu-id="7d449-121">配置第三方视频分发提供商</span><span class="sxs-lookup"><span data-stu-id="7d449-121">Configure a third-party video distribution provider</span></span> 
+<span data-ttu-id="c17a1-120">有关详细信息，请参阅[Set-CsTeamsMeetingBroadcastConfiguration。](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)</span><span class="sxs-lookup"><span data-stu-id="c17a1-120">For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).</span></span>
+## <a name="configure-a-third-party-video-distribution-provider"></a><span data-ttu-id="c17a1-121">配置第三方视频分发提供商</span><span class="sxs-lookup"><span data-stu-id="c17a1-121">Configure a third-party video distribution provider</span></span> 
 
-<span data-ttu-id="7d449-122">如果通过 Microsoft 视频交付合作伙伴购买并设置软件定义的网络 (SDN) 解决方案或企业内容交付网络 (eCDN) 解决方案，请为 Teams 中的实时事件配置提供商。</span><span class="sxs-lookup"><span data-stu-id="7d449-122">If you purchased and set up a software defined network (SDN) solution or enterprise content delivery network (eCDN) solution through a Microsoft video delivery partner, configure the provider for live events in Teams.</span></span> 
+<span data-ttu-id="c17a1-122">如果通过 Microsoft 视频交付合作伙伴购买并设置软件定义的网络 (SDN) 解决方案或企业内容交付网络 (eCDN) 解决方案，请为 Teams 中的实时事件配置提供商。</span><span class="sxs-lookup"><span data-stu-id="c17a1-122">If you purchased and set up a software defined network (SDN) solution or enterprise content delivery network (eCDN) solution through a Microsoft video delivery partner, configure the provider for live events in Teams.</span></span> 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) <span data-ttu-id="7d449-124&quot;>使用 Microsoft Teams 管理中心</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;7d449-124&quot;>Using the Microsoft Teams admin center</span></span>
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) <span data-ttu-id="c17a1-124&quot;>使用 Microsoft Teams 管理中心</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;c17a1-124&quot;>Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id=&quot;7d449-125&quot;>在左侧导航栏中，转到&quot;**会议**  >  **实时事件设置&quot;。**</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;7d449-125&quot;>In the left navigation, go to **Meetings** > **Live event settings**.</span></span>
-2. <span data-ttu-id=&quot;7d449-126&quot;>在 **&quot;第三方视频分发提供商&quot;下**，完成以下操作：</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;7d449-126&quot;>Under **Third-party video distribution providers**, complete the following:</span></span> 
+1. <span data-ttu-id=&quot;c17a1-125&quot;>在左侧导航栏中，转到&quot;**会议**  >  **实时事件设置&quot;。**</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;c17a1-125&quot;>In the left navigation, go to **Meetings** > **Live event settings**.</span></span>
+2. <span data-ttu-id=&quot;c17a1-126&quot;>在 **&quot;第三方视频分发提供商&quot;下**，完成以下操作：</span><span class=&quot;sxs-lookup&quot;><span data-stu-id=&quot;c17a1-126&quot;>Under **Third-party video distribution providers**, complete the following:</span></span> 
 
-    <span data-ttu-id=&quot;7d449-127&quot;>![管理中心中的第三方视频分发提供商设置](../media/teams-live-events-settings-distribution-provider.png &quot;实时事件的第三方视频分发提供商设置的屏幕截图")</span><span class="sxs-lookup"><span data-stu-id="7d449-127">![Third-party video distribution provider settings in the admin center](../media/teams-live-events-settings-distribution-provider.png "Screen shot of the third-party video distribution provider settings for live events")</span></span>
+    <span data-ttu-id=&quot;c17a1-127&quot;>![管理中心中的第三方视频分发提供商设置](../media/teams-live-events-settings-distribution-provider.png &quot;实时事件的第三方视频分发提供商设置的屏幕截图")</span><span class="sxs-lookup"><span data-stu-id="c17a1-127">![Third-party video distribution provider settings in the admin center](../media/teams-live-events-settings-distribution-provider.png "Screen shot of the third-party video distribution provider settings for live events")</span></span>
 
-    - <span data-ttu-id="7d449-128">**使用第三方分发提供商** 启用此选项以启用第三方视频分发提供商。</span><span class="sxs-lookup"><span data-stu-id="7d449-128">**Use a third-party distribution provider** Turn this on to enable the third-party video distribution provider.</span></span>
-    - <span data-ttu-id="7d449-129">**SDN 提供程序名称** 选择你使用的提供商。</span><span class="sxs-lookup"><span data-stu-id="7d449-129">**SDN provider name** Choose the provider you're using.</span></span>
-    - <span data-ttu-id="7d449-130">**提供程序许可证密钥** 输入从提供商联系人获取的许可证 ID。</span><span class="sxs-lookup"><span data-stu-id="7d449-130">**Provider license key** Enter the license ID that you got from your provider contact.</span></span>
-    - <span data-ttu-id="7d449-131">**SDN API 模板 URL** 输入从提供商联系人获取的 API 模板 URL。</span><span class="sxs-lookup"><span data-stu-id="7d449-131">**SDN API template URL** Enter the API template URL that you got from your provider contact.</span></span>
+    - <span data-ttu-id="c17a1-128">**使用第三方分发提供商** 启用此选项以启用第三方视频分发提供商。</span><span class="sxs-lookup"><span data-stu-id="c17a1-128">**Use a third-party distribution provider** Turn this on to enable the third-party video distribution provider.</span></span>
+    - <span data-ttu-id="c17a1-129">**SDN 提供程序名称** 选择你使用的提供商。</span><span class="sxs-lookup"><span data-stu-id="c17a1-129">**SDN provider name** Choose the provider you're using.</span></span>
+    - <span data-ttu-id="c17a1-130">**提供程序许可证密钥** 输入从提供商联系人获取的许可证 ID。</span><span class="sxs-lookup"><span data-stu-id="c17a1-130">**Provider license key** Enter the license ID that you got from your provider contact.</span></span>
+    - <span data-ttu-id="c17a1-131">**SDN API 模板 URL** 输入从提供商联系人获取的 API 模板 URL。</span><span class="sxs-lookup"><span data-stu-id="c17a1-131">**SDN API template URL** Enter the API template URL that you got from your provider contact.</span></span>
 
-### <a name="using-windows-powershell"></a><span data-ttu-id="7d449-132">使用 Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="7d449-132">Using Windows PowerShell</span></span>
-<span data-ttu-id="7d449-133">从提供程序联系人获取许可证 ID 或 API 令牌和 API 模板，然后根据使用的提供程序运行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="7d449-133">Get the license ID or API token and API template from your provider contact, and then run one of the following, depending on the provider you're using:</span></span>
+### <a name="using-windows-powershell"></a><span data-ttu-id="c17a1-132">使用 Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="c17a1-132">Using Windows PowerShell</span></span>
+<span data-ttu-id="c17a1-133">从提供程序联系人获取许可证 ID 或 API 令牌和 API 模板，然后根据使用的提供程序运行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="c17a1-133">Get the license ID or API token and API template from your provider contact, and then run one of the following, depending on the provider you're using:</span></span>
 
-<span data-ttu-id="7d449-134">**Hive**</span><span class="sxs-lookup"><span data-stu-id="7d449-134">**Hive**</span></span> 
+<span data-ttu-id="c17a1-134">**Hive**</span><span class="sxs-lookup"><span data-stu-id="c17a1-134">**Hive**</span></span> 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
-<span data-ttu-id="7d449-135">**Kollective**</span><span class="sxs-lookup"><span data-stu-id="7d449-135">**Kollective**</span></span> 
+<span data-ttu-id="c17a1-135">**Kollective**</span><span class="sxs-lookup"><span data-stu-id="c17a1-135">**Kollective**</span></span> 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
-<span data-ttu-id="7d449-136">**Riverbed**</span><span class="sxs-lookup"><span data-stu-id="7d449-136">**Riverbed**</span></span> 
+<span data-ttu-id="c17a1-136">**Riverbed**</span><span class="sxs-lookup"><span data-stu-id="c17a1-136">**Riverbed**</span></span> 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
 ```
-<span data-ttu-id="7d449-137">**Ramp**</span><span class="sxs-lookup"><span data-stu-id="7d449-137">**Ramp**</span></span> 
+<span data-ttu-id="c17a1-137">**Ramp**</span><span class="sxs-lookup"><span data-stu-id="c17a1-137">**Ramp**</span></span> 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
 ```
 
-<span data-ttu-id="7d449-138">有关详细信息，请参阅[Set-CsTeamsMeetingBroadcastConfiguration。](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)</span><span class="sxs-lookup"><span data-stu-id="7d449-138">For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).</span></span>
+<span data-ttu-id="c17a1-138">有关详细信息，请参阅[Set-CsTeamsMeetingBroadcastConfiguration。](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)</span><span class="sxs-lookup"><span data-stu-id="c17a1-138">For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7d449-139">如果计划使用外部应用或设备创建实时事件，则还需要使用 Microsoft Stream 配置 [eCDN 提供程序](/stream/network-caching)。</span><span class="sxs-lookup"><span data-stu-id="7d449-139">If you plan to create live events using an external app or device, you'll also need to [configure your eCDN provider with Microsoft Stream](/stream/network-caching).</span></span> 
+> <span data-ttu-id="c17a1-139">如果计划使用外部应用或设备创建实时事件，则还需要使用 Microsoft Stream 配置 [eCDN 提供程序](/stream/network-caching)。</span><span class="sxs-lookup"><span data-stu-id="c17a1-139">If you plan to create live events using an external app or device, you'll also need to [configure your eCDN provider with Microsoft Stream](/stream/network-caching).</span></span> 
 
 >[!Note]
-> <span data-ttu-id="7d449-p104">从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](../tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。</span><span class="sxs-lookup"><span data-stu-id="7d449-p104">The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.</span></span>
+> <span data-ttu-id="c17a1-p104">从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](../tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。</span><span class="sxs-lookup"><span data-stu-id="c17a1-p104">The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.</span></span>
 
 >[!Note]
-> <span data-ttu-id="7d449-142">所选的 eCDN 解决方案受所选第三方提供商的服务条款和隐私策略的约束，将控制 eCDN 提供商解决方案的使用。</span><span class="sxs-lookup"><span data-stu-id="7d449-142">Your chosen eCDN solution is subject to the selected 3rd party provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution.</span></span> <span data-ttu-id="7d449-143">使用 eCDN 提供商的解决方案不受 Microsoft 批量许可条款或在线服务条款限制。</span><span class="sxs-lookup"><span data-stu-id="7d449-143">Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms.</span></span> <span data-ttu-id="7d449-144">如果您不同意第三方提供商的条款，则不要在 Microsoft Teams 中启用 eCDN 解决方案。</span><span class="sxs-lookup"><span data-stu-id="7d449-144">If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.</span></span>
+> <span data-ttu-id="c17a1-142">所选的 eCDN 解决方案受所选第三方提供商的服务条款和隐私策略的约束，将控制 eCDN 提供商解决方案的使用。</span><span class="sxs-lookup"><span data-stu-id="c17a1-142">Your chosen eCDN solution is subject to the selected 3rd party provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution.</span></span> <span data-ttu-id="c17a1-143">使用 eCDN 提供商的解决方案不受 Microsoft 批量许可条款或在线服务条款限制。</span><span class="sxs-lookup"><span data-stu-id="c17a1-143">Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms.</span></span> <span data-ttu-id="c17a1-144">如果您不同意第三方提供商的条款，请不要在 Microsoft Teams 中启用 eCDN 解决方案。</span><span class="sxs-lookup"><span data-stu-id="c17a1-144">If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.</span></span>
 
-### <a name="related-topics"></a><span data-ttu-id="7d449-145">相关主题</span><span class="sxs-lookup"><span data-stu-id="7d449-145">Related topics</span></span>
-- [<span data-ttu-id="7d449-146">什么是 Teams 实时事件？</span><span class="sxs-lookup"><span data-stu-id="7d449-146">What are Teams live events?</span></span>](what-are-teams-live-events.md)
-- [<span data-ttu-id="7d449-147">规划 Teams 实时事件</span><span class="sxs-lookup"><span data-stu-id="7d449-147">Plan for Teams live events</span></span>](plan-for-teams-live-events.md)
-- [<span data-ttu-id="7d449-148">设置 Teams 实时事件</span><span class="sxs-lookup"><span data-stu-id="7d449-148">Set up for Teams live events</span></span>](set-up-for-teams-live-events.md)
+### <a name="related-topics"></a><span data-ttu-id="c17a1-145">相关主题</span><span class="sxs-lookup"><span data-stu-id="c17a1-145">Related topics</span></span>
+- [<span data-ttu-id="c17a1-146">什么是 Teams 实时事件？</span><span class="sxs-lookup"><span data-stu-id="c17a1-146">What are Teams live events?</span></span>](what-are-teams-live-events.md)
+- [<span data-ttu-id="c17a1-147">规划 Teams 实时事件</span><span class="sxs-lookup"><span data-stu-id="c17a1-147">Plan for Teams live events</span></span>](plan-for-teams-live-events.md)
+- [<span data-ttu-id="c17a1-148">设置 Teams 实时事件</span><span class="sxs-lookup"><span data-stu-id="c17a1-148">Set up for Teams live events</span></span>](set-up-for-teams-live-events.md)

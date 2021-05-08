@@ -30,25 +30,25 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116810"
 ---
-# <a name="toll-free-dialing-restrictions-in-bulgaria"></a><span data-ttu-id="25497-105">保加利亚的免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="25497-105">Toll-free dialing restrictions in Bulgaria</span></span>
+# <a name="toll-free-dialing-restrictions-in-bulgaria"></a><span data-ttu-id="15a3f-105">保加利亚的免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="15a3f-105">Toll-free dialing restrictions in Bulgaria</span></span>
 
-<span data-ttu-id="25497-106">[查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。</span><span class="sxs-lookup"><span data-stu-id="25497-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="15a3f-106">[查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。</span><span class="sxs-lookup"><span data-stu-id="15a3f-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="25497-107">**Details**</span><span class="sxs-lookup"><span data-stu-id="25497-107">**Details**</span></span>|<span data-ttu-id="25497-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="25497-108">**Description**</span></span>|
+|<span data-ttu-id="15a3f-107">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="15a3f-107">**Details**</span></span>|<span data-ttu-id="15a3f-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="15a3f-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="25497-109">是否提供免费呼叫？</span><span class="sxs-lookup"><span data-stu-id="25497-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="25497-110">是</span><span class="sxs-lookup"><span data-stu-id="25497-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="25497-111">拨号格式 () </span><span class="sxs-lookup"><span data-stu-id="25497-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="25497-112">00800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="25497-112">00800 XXX XXXX</span></span>  <br/> |
-|<span data-ttu-id="25497-113">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="25497-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="25497-114">BG</span><span class="sxs-lookup"><span data-stu-id="25497-114">BG</span></span>  <br/> |
-|<span data-ttu-id="25497-115">涵盖的岛屿/区域</span><span class="sxs-lookup"><span data-stu-id="25497-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="25497-116">不适用</span><span class="sxs-lookup"><span data-stu-id="25497-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="25497-117">未涵盖的岛屿/区域</span><span class="sxs-lookup"><span data-stu-id="25497-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="25497-118">不适用</span><span class="sxs-lookup"><span data-stu-id="25497-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="25497-119">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="25497-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="25497-120">是</span><span class="sxs-lookup"><span data-stu-id="25497-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="25497-121">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="25497-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="25497-122">部分。</span><span class="sxs-lookup"><span data-stu-id="25497-122">Partial.</span></span> <span data-ttu-id="25497-123">请参阅注释。</span><span class="sxs-lookup"><span data-stu-id="25497-123">See comments.</span></span>  <br/> |
-|<span data-ttu-id="25497-124">注释、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="25497-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="25497-125">Vivacom &amp; Globul Mobile 提供移动访问。</span><span class="sxs-lookup"><span data-stu-id="25497-125">Mobile access from Vivacom &amp; Globul Mobile.</span></span>  <br/> |
+|<span data-ttu-id="15a3f-109">是否提供免费呼叫？</span><span class="sxs-lookup"><span data-stu-id="15a3f-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="15a3f-110">是</span><span class="sxs-lookup"><span data-stu-id="15a3f-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="15a3f-111">拨号格式 () </span><span class="sxs-lookup"><span data-stu-id="15a3f-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="15a3f-112">00800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="15a3f-112">00800 XXX XXXX</span></span>  <br/> |
+|<span data-ttu-id="15a3f-113">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="15a3f-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="15a3f-114">BG</span><span class="sxs-lookup"><span data-stu-id="15a3f-114">BG</span></span>  <br/> |
+|<span data-ttu-id="15a3f-115">涵盖的岛屿/区域</span><span class="sxs-lookup"><span data-stu-id="15a3f-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="15a3f-116">不适用</span><span class="sxs-lookup"><span data-stu-id="15a3f-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="15a3f-117">未涵盖的岛屿/区域</span><span class="sxs-lookup"><span data-stu-id="15a3f-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="15a3f-118">不适用</span><span class="sxs-lookup"><span data-stu-id="15a3f-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="15a3f-119">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="15a3f-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="15a3f-120">是</span><span class="sxs-lookup"><span data-stu-id="15a3f-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="15a3f-121">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="15a3f-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="15a3f-p102">部分。 请参阅注释。</span><span class="sxs-lookup"><span data-stu-id="15a3f-p102">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="15a3f-124">注释、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="15a3f-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="15a3f-125">Vivacom &amp; Globul Mobile 提供移动访问。</span><span class="sxs-lookup"><span data-stu-id="15a3f-125">Mobile access from Vivacom &amp; Globul Mobile.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="25497-126">相关主题</span><span class="sxs-lookup"><span data-stu-id="25497-126">Related topics</span></span>
-[<span data-ttu-id="25497-127">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="25497-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="15a3f-126">相关主题</span><span class="sxs-lookup"><span data-stu-id="15a3f-126">Related topics</span></span>
+[<span data-ttu-id="15a3f-127">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="15a3f-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="25497-128">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="25497-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
+[<span data-ttu-id="15a3f-128">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="15a3f-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   

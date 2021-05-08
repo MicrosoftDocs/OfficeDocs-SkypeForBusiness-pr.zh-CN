@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本创建为学校教师和学生管理 Teams 策略所需的安全组。
+description: 使用此 PowerShell 脚本创建管理学校教师和学生Teams策略所需的安全组。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,31 +24,31 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117280"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a><span data-ttu-id="34991-103">PowerShell 脚本示例 - 为学校中的教师和学生创建安全组</span><span class="sxs-lookup"><span data-stu-id="34991-103">PowerShell script sample - Create security groups for educators and students in your school</span></span>
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a><span data-ttu-id="8907c-103">PowerShell 脚本示例 - 为学校中的教师和学生创建安全组</span><span class="sxs-lookup"><span data-stu-id="8907c-103">PowerShell script sample - Create security groups for educators and students in your school</span></span>
 
-<span data-ttu-id="34991-104">使用此 PowerShell 脚本创建管理学校中的 Microsoft Teams 策略所需的安全组。</span><span class="sxs-lookup"><span data-stu-id="34991-104">Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school.</span></span> <span data-ttu-id="34991-105">Teams [中的"组](../assign-policies.md#assign-a-policy-to-a-group) 的策略分配"功能允许你向一组用户（例如安全组）分配策略。</span><span class="sxs-lookup"><span data-stu-id="34991-105">The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group.</span></span> <span data-ttu-id="34991-106">根据优先级规则，将策略分配传播到组中的成员。</span><span class="sxs-lookup"><span data-stu-id="34991-106">The policy assignment is propagated to members of the group according to precedence rules.</span></span> <span data-ttu-id="34991-107">将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。</span><span class="sxs-lookup"><span data-stu-id="34991-107">As members are added to or removed from a group, their inherited policy assignments are updated accordingly.</span></span>
+<span data-ttu-id="8907c-104">使用此 PowerShell 脚本创建管理学校策略Microsoft Teams安全组。</span><span class="sxs-lookup"><span data-stu-id="8907c-104">Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school.</span></span> <span data-ttu-id="8907c-105">使用["策略分配到组](../assign-policies.md#assign-a-policy-to-a-group)"Teams向一组用户（例如安全组）分配策略。</span><span class="sxs-lookup"><span data-stu-id="8907c-105">The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group.</span></span> <span data-ttu-id="8907c-106">根据优先级规则，将策略分配传播到组中的成员。</span><span class="sxs-lookup"><span data-stu-id="8907c-106">The policy assignment is propagated to members of the group according to precedence rules.</span></span> <span data-ttu-id="8907c-107">将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。</span><span class="sxs-lookup"><span data-stu-id="8907c-107">As members are added to or removed from a group, their inherited policy assignments are updated accordingly.</span></span>
 
-<span data-ttu-id="34991-108">此 PowerShell 脚本基于许可证类型创建两个安全组，一个组用于教职员工和教师，另一个组用于学校中的学生。</span><span class="sxs-lookup"><span data-stu-id="34991-108">This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type.</span></span> <span data-ttu-id="34991-109">然后，可以将策略分配到创建的安全组。</span><span class="sxs-lookup"><span data-stu-id="34991-109">You can then assign policies to the security groups that you created.</span></span> <span data-ttu-id="34991-110">有关使用此脚本的信息，请参阅 [向学校中的大量用户分配策略](../batch-group-policy-assignment-edu.md)。</span><span class="sxs-lookup"><span data-stu-id="34991-110">For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).</span></span>
+<span data-ttu-id="8907c-108">此 PowerShell 脚本基于许可证类型创建两个安全组，一个组用于教职员工和教师，另一个组用于学校中的学生。</span><span class="sxs-lookup"><span data-stu-id="8907c-108">This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type.</span></span> <span data-ttu-id="8907c-109">然后，可以将策略分配到创建的安全组。</span><span class="sxs-lookup"><span data-stu-id="8907c-109">You can then assign policies to the security groups that you created.</span></span> <span data-ttu-id="8907c-110">有关使用此脚本的信息，请参阅 [向学校中的大量用户分配策略](../batch-group-policy-assignment-edu.md)。</span><span class="sxs-lookup"><span data-stu-id="8907c-110">For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).</span></span>
 
-<span data-ttu-id="34991-111">此脚本执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="34991-111">This script does the following:</span></span>
+<span data-ttu-id="8907c-111">此脚本执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="8907c-111">This script does the following:</span></span>
 
-- <span data-ttu-id="34991-112">标识分配有教职员工 SKU 的员工和教师，创建安全组，然后将教职员工和教师添加到该组。</span><span class="sxs-lookup"><span data-stu-id="34991-112">Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.</span></span>
-- <span data-ttu-id="34991-113">标识分配有学生 SKU 的学生，创建安全组，然后将学生添加到该组。</span><span class="sxs-lookup"><span data-stu-id="34991-113">Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.</span></span>
-- <span data-ttu-id="34991-114">更新每个安全组的成员身份，以根据员工、教师和学生是否拥有许可证来添加或删除他们。</span><span class="sxs-lookup"><span data-stu-id="34991-114">Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.</span></span>
+- <span data-ttu-id="8907c-112">标识分配有教职员工 SKU 的员工和教师，创建安全组，然后将教职员工和教师添加到该组。</span><span class="sxs-lookup"><span data-stu-id="8907c-112">Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.</span></span>
+- <span data-ttu-id="8907c-113">标识分配有学生 SKU 的学生，创建安全组，然后将学生添加到该组。</span><span class="sxs-lookup"><span data-stu-id="8907c-113">Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.</span></span>
+- <span data-ttu-id="8907c-114">更新每个安全组的成员身份，以根据员工、教师和学生是否拥有许可证来添加或删除他们。</span><span class="sxs-lookup"><span data-stu-id="8907c-114">Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.</span></span>
 
-<span data-ttu-id="34991-115">需要定期运行此脚本，使安全组保持最新状态。</span><span class="sxs-lookup"><span data-stu-id="34991-115">You'll need to run this script regularly to keep the security groups fresh and up to date.</span></span>
+<span data-ttu-id="8907c-115">需要定期运行此脚本，使安全组保持最新状态。</span><span class="sxs-lookup"><span data-stu-id="8907c-115">You'll need to run this script regularly to keep the security groups fresh and up to date.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="34991-116">将策略 [分配到组时](../assign-policies.md#precedence-rules) ，必须了解优先级 [规则和组](../assign-policies.md#group-assignment-ranking) 分配排名。</span><span class="sxs-lookup"><span data-stu-id="34991-116">It's important to understand [precedence rules](../assign-policies.md#precedence-rules) and [group assignment ranking](../assign-policies.md#group-assignment-ranking) when assigning policies to groups.</span></span> <span data-ttu-id="34991-117">请确保阅读并了解有关组的策略分配的信息 [中的概念](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。</span><span class="sxs-lookup"><span data-stu-id="34991-117">Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span></span>
+> <span data-ttu-id="8907c-116">将策略 [分配到组时](../assign-policies.md#precedence-rules) ，必须了解优先级 [规则和组](../assign-policies.md#group-assignment-ranking) 分配排名。</span><span class="sxs-lookup"><span data-stu-id="8907c-116">It's important to understand [precedence rules](../assign-policies.md#precedence-rules) and [group assignment ranking](../assign-policies.md#group-assignment-ranking) when assigning policies to groups.</span></span> <span data-ttu-id="8907c-117">请确保阅读并了解有关组的策略分配的信息 [中的概念](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。</span><span class="sxs-lookup"><span data-stu-id="8907c-117">Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span></span>
 
-## <a name="before-you-start"></a><span data-ttu-id="34991-118">开始前</span><span class="sxs-lookup"><span data-stu-id="34991-118">Before you start</span></span>
+## <a name="before-you-start"></a><span data-ttu-id="8907c-118">开始前</span><span class="sxs-lookup"><span data-stu-id="8907c-118">Before you start</span></span>
 
-<span data-ttu-id="34991-119">下载并安装 [Skype for Business Online PowerShell 模块](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然后在系统提示时重启计算机。</span><span class="sxs-lookup"><span data-stu-id="34991-119">Download and install the [Skype for Business Online PowerShell module](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell), and then restart your computer if prompted.</span></span>
+<span data-ttu-id="8907c-119">下载并安装[Skype for Business Online PowerShell 模块](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然后在系统提示时重启计算机。</span><span class="sxs-lookup"><span data-stu-id="8907c-119">Download and install the [Skype for Business Online PowerShell module](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell), and then restart your computer if prompted.</span></span>
 
-<span data-ttu-id="34991-120">若要了解更多内容，请参阅 [使用 Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 管理 Skype for Business Online [和 Teams PowerShell 概述](../teams-powershell-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="34991-120">To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).</span></span>
+<span data-ttu-id="8907c-120">若要了解更多信息，请参阅使用 powerShell Skype for Business [Online Office 365 powerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) Teams [PowerShell 概述](../teams-powershell-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="8907c-120">To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="34991-121">示例脚本</span><span class="sxs-lookup"><span data-stu-id="34991-121">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="8907c-121">示例脚本</span><span class="sxs-lookup"><span data-stu-id="8907c-121">Sample script</span></span>
 
 ```powershell
 <#
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="34991-122">相关主题</span><span class="sxs-lookup"><span data-stu-id="34991-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8907c-122">相关主题</span><span class="sxs-lookup"><span data-stu-id="8907c-122">Related topics</span></span>
 
-[<span data-ttu-id="34991-123">向 Teams 中的用户分配策略</span><span class="sxs-lookup"><span data-stu-id="34991-123">Assign policies to your users in Teams</span></span>](../assign-policies.md)
+[<span data-ttu-id="8907c-123">向 Teams 中的用户分配策略</span><span class="sxs-lookup"><span data-stu-id="8907c-123">Assign policies to your users in Teams</span></span>](../assign-policies.md)

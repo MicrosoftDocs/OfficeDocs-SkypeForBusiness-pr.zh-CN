@@ -24,10 +24,10 @@ metadata:
   ms.locfileid: "51121320"
 items:
 - durationInMinutes: 2
-  content: "Teams 管理中心提供网络规划器工具。 它可帮助你确定组织的网络要求。 此示例方案演示如何使用该工具为名为 Contoso 的公司创建网站、角色和运行报表。 \n\n## <a name=\"before-you-begin\"></a>开始之前\n\n我们假设你已熟悉 Teams 管理中心，并且熟悉为 Teams 准备网络需要执行哪些工作。 如果这是在网络规划器上看到的第一篇文章，建议先阅读以下文章。\n\n- [为 Teams 准备贵组织的网络](prepare-network.md)\n- [使用 Microsoft Teams 网络规划器](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso 网络概述\n\nContoso 有三个位置：\n\n- **西雅图总部：** 这是 Contoso 的主要位置。 它拥有 1000 名员工，其中 25 个仅呼叫。 该网站已连接到 Internet，PSTN (本地电话) 。 Contoso 将直接路由设置为能够与 Teams 使用本地电话连接。 \n- **车克兰 Office：** 此分支机构有 400 名员工，10 名员工仅呼叫。 该网站使用与总部的连接，通过 Internet 和电话 (PSTN) 流量。 此办公室使用 WAN 连接连接到西雅图总部。\n- **丹佛 Office：** 此办公室有 250 名员工，50 名员工仅呼叫。 该网站具有其自己的本地 Internet 连接，但没有 PSTN (直接) 。\n\n让我们开始吧！\n"
+  content: "网络规划器工具在 Teams 管理中心提供。 它可帮助你确定组织的网络要求。 此示例方案演示如何使用该工具为名为 Contoso 的公司创建网站、角色和运行报表。 \n\n## <a name=\"before-you-begin\"></a>开始之前\n\n我们假设你已熟悉 Teams 管理中心，并且熟悉为用户准备网络所需的Teams。 如果这是在网络规划器上看到的第一篇文章，建议先阅读以下文章。\n\n- [为 Teams 准备贵组织的网络](prepare-network.md)\n- [使用网络规划器Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso 网络概述\n\nContoso 有三个位置：\n\n- **西雅图总部：** 这是 Contoso 的主要位置。 它拥有 1000 名员工，其中 25 个仅呼叫。 该网站已连接到 Internet，PSTN (本地电话) 。 Contoso 已设置直接路由，能够将本地电话连接与 Teams。 \n- **克兰Office：** 此分支机构有 400 名员工，10 名员工仅呼叫。 该网站使用与总部的连接，通过 Internet 和电话 (PSTN) 流量。 此办公室使用 WAN 连接连接到西雅图总部。\n- **丹佛Office：** 此办公室有 250 名员工，50 名员工仅呼叫。 该网站具有其自己的本地 Internet 连接，但没有 PSTN (直接) 。\n\n让我们开始吧！\n"
 - title: 添加网络计划
   durationInMinutes: 2
-  content: "在 Teams 管理中心中，展开 **\"组织范围的设置\"，** 然后选择\"**网络规划器\"。** 首先需要创建网络计划。 \n\n1. 单击 **\"添加网络计划\"** \n2. 在 **\"新建网络计划** \"窗格中，为网络计划添加名称和说明。 对于此示例，我们将使用 *Contoso1* 作为计划名称，使用 *Contoso 网络计划* 作为说明。\n3. 单击\" **保存\"**\n\n![添加新的网络计划](media/network-planner-new-network-plan.png)\n\n保存网络计划后，它将显示在网络计划列表中。 \n\n![网络计划列表](media/network-planner-network-plans.png)\n"
+  content: "在Teams管理中心，展开 **\"组织范围的** 设置\"，然后选择\"**网络规划器\"。** 首先需要创建网络计划。 \n\n1. 单击 **\"添加网络计划\"** \n2. 在 **\"新建网络计划** \"窗格中，为网络计划添加名称和说明。 对于此示例，我们将使用 *Contoso1* 作为计划名称，使用 *Contoso 网络计划* 作为说明。\n3. 单击\" **保存\"**\n\n![添加新的网络计划](media/network-planner-new-network-plan.png)\n\n保存网络计划后，它将显示在网络计划列表中。 \n\n![网络计划列表](media/network-planner-network-plans.png)\n"
 - title: 创建自定义角色
   durationInMinutes: 2
   content: "接下来，需要创建必要的角色来表示用户。 由于每个位置都有仅进行电话呼叫的专用用户，因此你需要创建该人员。\n\n1. 在\"网络规划器\"页上，单击\"**角色\"** 选项卡，然后单击 **\"+ 自定义角色\"。** \n2. 添加此角色的名称和说明，对于此示例，我们将仅将其称为\"仅 *调用\"。*\n3. 打开 **\"音频** \"并关闭其他所有功能，以便通话是唯一打开的权限。\n4. 单击 **\"** 保存\"将人员添加到列表。\n\n![在网络规划器中添加一个人物](media/network-planner-add-persona.png)\n"
@@ -43,9 +43,9 @@ items:
 
     |西雅图总部     |1000                     |25                    |本地 Internet            |使用直接路由的本地 PSTN|
 
-    |卡克兰 Office|400                      |10                    |通过总部的远程 Internet|通过总部的远程 PSTN         |
+    |卡克兰Office|400                      |10                    |通过总部的远程 Internet|通过总部的远程 PSTN         |
 
-    |丹佛 Office  |250                      |50                    |本地 Internet            |无 PSTN 连接             |
+    |丹佛Office  |250                      |50                    |本地 Internet            |无 PSTN 连接             |
 
 
     1. 在网络规划器中单击网络计划。
@@ -81,12 +81,12 @@ items:
   content: "添加网站后，可以创建报表。 创建报表时，需要定义用户分布。\n\n1. 选择\"**报表\"** 选项卡，然后单击\"**启动报表\"。** 这将打开用户分发页。 首先为报表添加名称和说明。\n\n![创建网络规划器报表](media/network-planner-add-report.png)  \n\n2. 首次启动报表时，将自动分发每个网站的用户计数，例如，80% 分配给办公室工作人员，20% 分配给远程工作人员。 你将在此位置调整每个人员的用户数，以匹配用户群体。 假设 Contoso 在每个网站的办公室工作人员与远程工作人员之间具有相同的 80/20 拆分。 请确保仅将呼叫角色从办公室的用户数中排除。 生成的分布应如下图所示。\n\n![每个网站的不同角色之间的用户分布](media/network-planner-persona-distribution-2.png)\n"
 - title: 分析报表输出
   durationInMinutes: 5
-  content: "生成报告后，你将看到一个屏幕，该屏幕将带宽要求显示为整体值和形式特定值。 默认情况下，允许的带宽设置为 30%。 通过更改此值并单击\" **运行** 报告\"，可以看到对网络带宽的不同影响。 需要更多带宽的任何区域将突出显示为红色。\n\n![报表分析](media/network-planner-report-output.png)\n\n网络规划器还会根据 Teams 对网络的影响提供建议。 单击\"建议视图\"图标可查看每个网站的建议（如果有）。 下图显示了一个示例建议视图。\n\n![建议视图](media/network-planner-recommendation-view.png)\n\n在此处可以看到，目前需要增加Kirkland 站点的带宽，才能从 Teams 获得最佳性能。 \n"
+  content: "生成报告后，你将看到一个屏幕，该屏幕将带宽要求显示为整体值和形式特定值。 默认情况下，允许的带宽设置为 30%。 通过更改此值并单击\" **运行** 报告\"，可以看到对网络带宽的不同影响。 需要更多带宽的任何区域将突出显示为红色。\n\n![报表分析](media/network-planner-report-output.png)\n\n网络规划器还基于网络内用户对Teams的影响提供建议。 单击\"建议视图\"图标可查看每个网站的建议（如果有）。 下图显示了一个示例建议视图。\n\n![建议视图](media/network-planner-recommendation-view.png)\n\n在此处可以看到，目前需要增加Kirkland 站点的带宽，才能从 Teams。 \n"
 - title: 其他资源
   durationInMinutes: 1
   content: >-
-    这将完成网络规划器的示例方案。 可以 [返回到网络规划器文章](network-planner.md)，或查看以下资源，详细了解如何让组织为 Teams 做好准备：
+    这将完成网络规划器的示例方案。 可以[返回到网络规划器](network-planner.md)文章 ，或查看以下资源，详细了解如何让组织准备好Teams：
 
      - [为 Microsoft Teams 准备组织的网络](prepare-network.md)
-     - [改进和监视 Teams 的通话质量](monitor-call-quality-qos.md)
+     - [改进和监视呼叫质量Teams](monitor-call-quality-qos.md)
      - [Office 365 URL 和 IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)
