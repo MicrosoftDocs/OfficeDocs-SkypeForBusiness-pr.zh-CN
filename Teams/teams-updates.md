@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队内容更新
+title: Microsoft Teams内容更新
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: 本主题是最近更新的 Microsoft 团队帮助主题的列表，包括已更新主题的链接。
+description: 本主题是最近Microsoft Teams帮助主题的列表，包括更新主题的链接。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -25,8 +25,8 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583801"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="e152a-103">Microsoft 团队内容更新</span><span class="sxs-lookup"><span data-stu-id="e152a-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="f8473-103">Microsoft Teams内容更新</span><span class="sxs-lookup"><span data-stu-id="f8473-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="e152a-104">本主题列出了最近更改的 Microsoft 团队主题。</span><span class="sxs-lookup"><span data-stu-id="e152a-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="f8473-104">本主题列出了Microsoft Teams最近更改的主题。</span><span class="sxs-lookup"><span data-stu-id="f8473-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 管理培训
 ms.reviewer: ''
-description: 获取管理组织中 Microsoft Teams 所需的管理员培训和支持。
+description: 获取管理组织中用户所需的管理员Microsoft Teams和支持。
 author: cichur
 manager: serdars
 audience: admin
@@ -29,7 +29,7 @@ ms.locfileid: "49822712"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
-了解如何为组织管理 Teams。
+了解如何管理Teams服务。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "49822712"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新增：Teams 教师指导培训</h3>
+                        <h3>新建：教师指导培训Teams</h3>
                     </div>
                 </div>
             </div>

@@ -617,6 +617,8 @@ items:
             href: google-workspace-addon-teams.md
           - name: 云视频互操作
             href: cloud-video-interop.md
+          - name: 在 Microsoft Teams 中为网络研讨会进行设置
+            href: set-up-webinars.md
       - name: 音频会议
         items:
           - name: 规划部署
@@ -1459,8 +1461,6 @@ items:
             href: flw-realwear.md
           - name: 对讲机
             href: walkie-talkie.md
-          - name: 从 SPO 网站或页面创建 Teams Intranet 门户应用
-            href: teams-standalone-static-tabs-using-spo-sites.md
       - name: 适用于零售业的 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:

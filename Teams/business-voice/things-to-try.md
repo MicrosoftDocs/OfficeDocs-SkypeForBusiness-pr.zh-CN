@@ -1,5 +1,5 @@
 ---
-title: 设置业务语音后应尝试的措施
+title: 设置 Business Voice 后要尝试的一些操作
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -25,6 +25,6 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41827360"
 ---
-# <a name="things-to-try-after-setting-up-business-voice"></a><span data-ttu-id="7c0f2-102">设置业务语音后应尝试的措施</span><span class="sxs-lookup"><span data-stu-id="7c0f2-102">Things to try after setting up Business Voice</span></span>
+# <a name="things-to-try-after-setting-up-business-voice"></a><span data-ttu-id="f4b7f-102">设置 Business Voice 后要尝试的一些操作</span><span class="sxs-lookup"><span data-stu-id="f4b7f-102">Things to try after setting up Business Voice</span></span>
 
 <!-- This topic will be populated in the future. Intentionally left out of the TOC>
