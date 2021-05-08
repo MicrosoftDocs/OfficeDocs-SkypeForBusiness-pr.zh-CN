@@ -16,7 +16,7 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: 了解如何将 Microsoft Teams 中的 Patients 应用连接到用于 FHIR 的 Azure API (快速医疗保健互操作性资源) 。
+description: 了解如何将应用程序中的 Patients 应用Microsoft Teams Azure API for FHIR (快速医疗保健互操作性资源) 。
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: e06e422765c1d1d633414d24dff48e2801067f15
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -32,7 +32,7 @@ ms.locfileid: "51096264"
 >
 >借助列表，医疗保健组织中的护理团队可针对各种方案创建患者列表，提供圆形和内联团队会议、常规患者监视等。 查看列表的"患者"模板以开始使用。 若要深入了解如何在组织中管理列表应用，请参阅" [列表应用管理](../../manage-lists-app.md)。
 
-按照以下步骤操作，允许 Microsoft Teams 中的 Patients 应用访问适用于 FHIR 实例的 Azure API。 本文假设在租户中设置并配置 [了用于 FHIR](https://azure.microsoft.com/services/azure-api-for-fhir/) 实例的 Azure API。  如果尚未在租户中创建适用于 FHIR 实例的 Azure API，请参阅快速 [入门：](/azure/healthcare-apis/fhir-paas-portal-quickstart)使用 Azure 门户部署适用于 FHIR 的 Azure API。
+按照以下步骤允许患者应用Microsoft Teams FHIR 实例的 Azure API。 本文假设在租户中设置并配置 [了用于 FHIR](https://azure.microsoft.com/services/azure-api-for-fhir/) 实例的 Azure API。  如果尚未在租户中创建适用于 FHIR 实例的 Azure API，请参阅快速 [入门：](/azure/healthcare-apis/fhir-paas-portal-quickstart)使用 Azure 门户部署适用于 FHIR 的 Azure API。
 
 1. 单击此处 [授予](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) 患者应用的管理员许可。 系统提示时，使用租户管理员或全局管理员凭据登录，然后单击"接受"以授予所需的权限。
 
@@ -44,7 +44,7 @@ ms.locfileid: "51096264"
 
 2. 使用管理员凭据登录到 [Azure](https://portal.azure.com) 门户。
 
-3. 在左侧导航栏中，选择 **"Azure Active Directory"，** 然后选择"**企业应用程序"。**
+3. 在左侧导航栏中 **，选择**"Azure Active Directory"，然后选择"Enterprise **应用程序"。**
 
     查找名为 **Patients (dev)** 行，然后将"对象 **ID"** 列中的值复制到剪贴板。
 
@@ -54,7 +54,7 @@ ms.locfileid: "51096264"
 
     ![Azure 门户中用于 FHIR 实例设置的 Azure API 的屏幕截图](../../media/patients-app-azure-portal-instance-settings.png)
 
-5. 单击 **"** 身份验证"，然后在步骤 3 中复制的对象 ID 粘贴到"允许 **的对象 ID"** 框中。 这允许 Patients 应用访问 FHIR 服务器。 粘贴对象 ID 后，Azure Active Directory 会进行验证，旁边会显示一个绿色对号。
+5. 单击 **"** 身份验证"，然后在步骤 3 中复制的对象 ID 粘贴到"允许 **的对象 ID"** 框中。 这允许 Patients 应用访问 FHIR 服务器。 粘贴对象 ID 后，Azure Active Directory进行验证，旁边会显示一个绿色对号。
 
     ![Azure 门户中身份验证设置的屏幕截图](../../media/patients-app-azure-portal-authentication.png)
 
@@ -64,11 +64,11 @@ ms.locfileid: "51096264"
 
     ![Azure 门户中的元数据终结点](../../media/patients-app-azure-portal-metadata-endpoint.png)
 
-8. 在 Teams 中，转到团队中加载的 Patients 应用实例，单击"设置"，然后在"链接"框中输入 FHIR 服务器终结点 URL。 然后， **单击"连接** "建立连接并搜索患者，然后将患者添加到列表中。  
+8. 在Teams中，转到团队中加载的 Patients 应用实例，单击"设置"，**然后在**"链接"框中输入 FHIR服务器终结点 URL。 然后单击 **"连接"** 以建立连接并搜索患者，然后将患者添加到列表中。  
 
-    ![ Teams 中的患者应用设置](../../media/patients-app-teams.png)
+    ![ 病人应用中的"患者"Teams](../../media/patients-app-teams.png)
 
-    如果在此步骤连接到 Teams 时收到错误，请发送错误的详细屏幕截图、[来自 Fiddler](https://www.telerik.com/download/fiddler)的日志以及电子邮件中任何其他重现步骤，主题行为"Patients App – EMR 模式故障排除"到[teamsforhealthcare@service.microsoft.com。](mailto:teamsforhealthcare@service.microsoft.com)
+    如果在此步骤中连接到 Teams 时收到错误，请发送错误的详细屏幕截图、[来自 Fiddler](https://www.telerik.com/download/fiddler)的日志以及电子邮件中任何其他重现步骤，主题行为"Patients App – EMR 模式故障排除"到[teamsforhealthcare@service.microsoft.com。](mailto:teamsforhealthcare@service.microsoft.com)
 
 ## <a name="related-topics"></a>相关主题
 

@@ -21,7 +21,7 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: 了解 Microsoft Teams 会议室中不同类型的呼叫和会议功能的可用许可证。
+description: 了解会议中不同类型的呼叫和会议功能的可用Microsoft Teams 会议室。
 ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -33,9 +33,9 @@ ms.locfileid: "51117450"
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共享通信设备的许可解决方案
 
-Microsoft 有两个专用的 SK (US，用于为会议室设备（例如 Microsoft Teams 会议室、Microsoft Surface Hub 和 Microsoft Teams) 协作栏）提供针对每个设备的许可会议和呼叫。
+Microsoft 为会议室设备（例如 Microsoft Teams 会议室、Microsoft Surface Hub 和协作栏）提供两个专用的 SKUS，用于为会议授权会议以及按设备进行呼叫 (例如 Microsoft Teams) 。
 
-||Microsoft Teams 会议室标准版 |Microsoft Teams 会议室高级版 |
+||Microsoft Teams 会议室标准 |Microsoft Teams 会议室 高级版 |
 |:--- |:---: |:---: |
 |Skype for Business |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -51,32 +51,32 @@ Microsoft 有两个专用的 SK (US，用于为会议室设备（例如 Microsof
 
 &sup2;在主权云中不可用  
 
-&sup3;有关详细信息和可用性，请参阅 [Microsoft Teams 会议室托管服务](microsoft-teams-rooms-premium.md)。
+&sup3;有关详细信息和可用性，请参阅托管[Microsoft Teams 会议室服务](microsoft-teams-rooms-premium.md)。
 
 > [!NOTE]
-> 如果你当前将 E1、E3、E4、E5 SUS 与带音频会议或 Office 365 电话系统和呼叫计划的 Skype for Business 计划 2 一起使用，这些将继续工作。 但是，应考虑在当前许可证过期后迁移到上表中更简单的许可模型。
+> 如果当前使用具有音频会议计划 2 的 E1、E3、E4、E5 SKUS 和 Skype for Business 计划 2，或者使用 Office 365 电话系统 和呼叫计划，这些将继续工作。 但是，应考虑在当前许可证过期后迁移到上表中更简单的许可模型。
 
 > [!IMPORTANT]
-> 如果你使用的是 Skype for Business 计划 2，则只能在"仅 Skype for Business"模式下使用 Microsoft Teams 会议室，这意味着你的所有会议都是 Skype for Business 会议。 若要为 Microsoft Teams 会议启用会议室，建议购买会议室许可证。 
+> 如果使用计划 2 Skype for Business，则只能在Microsoft Teams 会议室模式下Skype for Business会议，这意味着所有会议都将Skype for Business会议。 若要为会议室启用会议Microsoft Teams，建议购买会议室许可证。 
 
-下表列出了 Microsoft Teams 会议室中提供的功能以及需要购买哪些许可证才能获取这些功能。
+下表列出了产品/服务中可用的Microsoft Teams 会议室以及需要购买哪些许可证才能获取这些功能。
   
 > [!NOTE]
 > [!注释] 要设置的会议室需为用户对象，并且要为其分配这些许可证。
 
-|  | 你拥有 Microsoft Teams 或 Skype for Business Online <br/> 需要购买以下产品：   |你在本地或混合设备上 (Skype for Business Server 2015/2019) 。 <br/> 需要购买以下产品：|
+|  | 你拥有 Microsoft Teams 或 Skype for Business Online <br/> 需要购买以下产品：   |你拥有Skype for Business Server 2015/2019 (或混合) 。 <br/> 需要购买以下产品：|
 |:-----|:-----|:-----|
-|加入计划的会议  | Microsoft Teams 会议室标准版或高级版  |Skype for Business Server 标准 CAL  |
-|启动临时会议 | Microsoft Teams 会议室标准版或高级版  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL|
-|启动临时会议，然后从会议拨出到电话号码 |  Microsoft Teams 会议室标准版或高级版 |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL|
-|为会议室提供电话号码，然后从会议室拨打或接听电话，或者使用电话号码加入音频会议  | 使用直接路由：Microsoft Teams 会议室标准或高级<br/>无直接路由：国内或国际呼叫计划<br/>Microsoft 365 商务语音  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  |
-|使用 Microsoft Intune 管理会议室设备 |Microsoft Teams 会议室标准版或高级版  |使用本地 MDM 的 Microsoft Intune [订阅](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
-|Microsoft Teams 会议室托管服务 | Microsoft Teams 会议室高级版 ||
+|加入计划的会议  | Microsoft Teams 会议室标准或高级版  |Skype for Business Server 标准 CAL  |
+|启动临时会议 | Microsoft Teams 会议室标准或高级版  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL|
+|启动临时会议，然后从会议拨出到电话号码 |  Microsoft Teams 会议室标准或高级版 |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL|
+|为会议室提供电话号码，然后从会议室拨打或接听电话，或者使用电话号码加入音频会议  | 使用直接路由：Microsoft Teams 会议室标准或高级版<br/>无直接路由：国内或国际呼叫计划<br/>Microsoft 365 商务语音  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  |
+|使用设备管理会议室Microsoft Intune |Microsoft Teams 会议室标准或高级版  |Microsoft Intune本地[MDM 创建订阅](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
+|Microsoft Teams 会议室托管服务 | Microsoft Teams 会议室 高级版 ||
 | |||
 
 > [!NOTE]
-> 如果为会议室系统分配了现有许可证，这些许可证将继续工作，而不会中断。 当现有许可证过期时，应移动到使用新的会议室 SKU。  
+> 如果为会议室系统分配了现有许可证，这些许可证将继续工作，而不会中断。 当现有许可证过期时，会议室新版 SKU。  
 
- **使用正确的 Windows 10** 版本：对于想要将 Windows 10 映像部署到其设备的客户，请参阅 [配置 Microsoft Teams 会议室控制台](./console.md)。 可以从批量许可 [服务中心获取副本](https://www.microsoft.com/Licensing/servicecenter/)。 
+ **使用正确的版本Windows 10：** 对于想要将 Windows 10 部署到其设备的客户，请参阅配置 Microsoft Teams 会议室 [控制台](./console.md)。 可以从批量许可 [服务中心获取副本](https://www.microsoft.com/Licensing/servicecenter/)。 
  
- 另请参阅 [出色的会议室体验：了解新的 Microsoft Teams 会议室标准版和高级版](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)。
+ 另请参阅[出色的会议室体验：了解新的Microsoft Teams 会议室标准高级版。](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)

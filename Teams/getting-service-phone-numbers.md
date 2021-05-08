@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 了解如何获取新电话号码，以及如何转移音频会议、自动助理和呼叫队列的现有号码 (Teams) 号码。
+description: 了解如何为音频会议、自动助理和呼叫队列获取新电话号码和转 (号码) 号码Teams。
 ms.openlocfilehash: 72436591411070ed7ffc67aab5d8d4470f39521d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -38,7 +38,7 @@ ms.locfileid: "51092230"
   
 有三种方法可获取服务编号：
   
-- **使用 Microsoft Teams 管理中心。** 对于一些国家和地区，可以使用 Microsoft Teams 管理中心获取服务编号。 请参阅 [获取新服务编号](#get-new-service-numbers)。
+- **使用Microsoft Teams管理中心。** 对于一些国家和地区，可以使用管理中心获取Microsoft Teams号码。 请参阅 [获取新服务编号](#get-new-service-numbers)。
 
 - **转网现有的号码。** 可以从当前服务提供商或电话运营商转转现有号码。 如需获取有助于执行此操作的详细信息，请参阅[将电话号码转接到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。  
   
@@ -51,7 +51,7 @@ ms.locfileid: "51092230"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，转到"**语音**  >  **电话号码"，** 然后单击"添加 **"。**
+1. 在左侧导航栏中，转到"语音  >  **电话"，** 然后单击"添加 **"。**
 2. 输入订单的名称并添加说明。
 3. 在"位置和数量"页上，执行以下操作：
     1. 在 **"国家/地区"下**，选择一个或多个国家/地区。
@@ -64,7 +64,7 @@ ms.locfileid: "51092230"
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>转网或转移现有服务号码
 
-若要将电话号码从当前服务提供商或运营商转移到 Teams，可以使用 Microsoft Teams 管理中心中的移植向导。 按照将电话号码 [转移到 Teams 中的步骤操作](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+若要将电话号码从当前服务提供商或运营商Teams，可以在管理中心使用Microsoft Teams向导。 按照将电话号码[转移到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)中的步骤。
 
 如果移植向导中未列出你的国家/地区，可以手动提交转寄订单[](phone-number-calling-plans/manually-submit-port-order.md)或转到"管理组织的电话号码"，选择[](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)你的国家/地区，然后下载授权书 (LOA) 。 必须针对每种类型的服务号码提交单独的转站订单 (例如，使用 LOA 转移的收费和免费) 收费与免费服务。 在 LOA 中，必须选择正确的服务编号类型。 请确保指定要转移服务号码 (而不是用户或订阅者号码) ，否则并发呼叫容量可能不足以处理呼叫量。  
 
@@ -75,7 +75,7 @@ ms.locfileid: "51092230"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心** 
 
-在左侧导航中，转到"**语音** 电话号码"以查看组织号码，包括位置、  >  号码类型和状态信息。
+在左侧导航中，转到"语音电话号码以查看组织号码，包括位置、  >  号码类型和状态信息。
 
 ## <a name="assign-service-phone-numbers"></a>分配服务电话号码
 

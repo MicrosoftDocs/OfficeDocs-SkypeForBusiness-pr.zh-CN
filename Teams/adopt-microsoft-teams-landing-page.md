@@ -1,7 +1,7 @@
 ---
 title: 采用 Microsoft Teams
 ms.reviewer: karuanag
-description: 了解可用于帮助你在组织中计划和部署 Microsoft Teams 的采用资源。
+description: 了解可用于帮助你在组织中计划和部署Microsoft Teams采用资源。
 ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
@@ -31,7 +31,7 @@ ms.locfileid: "51118481"
 > [!NOTE]
 > 有关转换到远程学习和资源以帮助入门的概述，请参阅我们的[远程学习主页](https://www.microsoft.com/education/remote-learning)。
 
-如果你想要从聊天、teams &频道和会议开始推出 Teams，请使用我们的规范性入门指南 ，该指南旨在让你[](get-started-with-teams-quick-start.md)快速启动并运行。 如果你是一家具有混合或本地 Skype for Business 配置的大型组织，或者你想要推出语音功能 (例如 Microsoft 365 或 Office 365 呼叫计划或电话系统) ，你可以从我们的入门指南开始，但你将需要下面的其他指南，在"更深入的采用指南"[下。](#deeper-adoption-guidance)
+如果你想要从聊天、Teams团队频道和会议开始推出&，请使用我们的规范性入门指南 ，该指南旨在让你快速启动并运行[](get-started-with-teams-quick-start.md)。 如果你是具有混合或本地 Skype for Business 配置的大型组织，或者想要推出语音功能 (（如 Microsoft 365 或 Office 365 呼叫计划或电话系统) ），可以从我们的入门指南开始，但需要下面的其他指南，在"更深入的采用指南"[下。](#deeper-adoption-guidance)
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
@@ -40,7 +40,7 @@ ms.locfileid: "51118481"
 
 ### <a name="deeper-adoption-guidance"></a>[更深入的采用指南](#deeper-adoption-guidance)
 
-采用计划可能简单到复杂，具体取决于环境。 对于大规模部署，请逐步执行以下指南，确保组织顺利过渡到 Teams。
+采用计划可能简单到复杂，具体取决于环境。 对于大规模部署，请逐步执行以下指南，确保组织能够顺利过渡到Teams。
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

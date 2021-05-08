@@ -1,5 +1,5 @@
 ---
-title: 适用于非标准用户的 Teams 应用行为
+title: Teams标准用户的应用行为
 author: cichur
 ms.author: v-cichur
 ms.reviewer: joglocke
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解 Microsoft Teams 中的应用对于非标准用户的行为方式。
+description: 了解应用Microsoft Teams标准用户的行为方式。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -24,9 +24,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/07/2021
 ms.locfileid: "51617845"
 ---
-# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>适用于非标准用户的 Microsoft Teams 应用行为
+# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams标准用户的应用行为
 
-本文介绍 Teams 中的应用在 Teams 上下文中存在来宾 (外部) 和匿名用户时的行为。
+本文介绍当来宾Teams外部用户 (联合用户) 和匿名用户时，Teams的行为。
 
 - **来宾用户** 不是组织的员工、学生或成员。 他们在贵组织没有学校或工作帐户。
 
@@ -35,13 +35,13 @@ ms.locfileid: "51617845"
   > [!Note]
   > 有关来宾用户与外部用户的详细比较， [请参阅与其他组织的用户通信](./communicate-with-users-from-other-organizations.md)。
 
-- 匿名 **用户** 是 Teams 会议中的概念，用户通过链接加入会议。 用户尚未使用其 Microsoft 或组织的帐户登录。
+- 匿名 **用户** 是用户通过Teams加入会议的会议中的概念。 用户尚未使用其 Microsoft 或组织的帐户登录。
 
 ## <a name="guest-user-access"></a>来宾用户访问
 
 ### <a name="install-update-and-delete-for-guest-users"></a>为来宾用户安装、更新和删除
 
-来宾无法安装、更新或删除共享上下文中的应用，例如聊天、频道或会议。 他们可以使用消息扩展和直接链接在个人范围内安装、更新或删除应用。 来宾无法访问 Teams 应用商店。
+来宾无法安装、更新或删除共享上下文中的应用，例如聊天、频道或会议。 他们可以使用消息扩展和直接链接在个人范围内安装、更新或删除应用。 来宾无法访问应用商店Teams应用程序。
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>来宾用户的使用行为和策略
 
@@ -57,13 +57,13 @@ ms.locfileid: "51617845"
 
 ### <a name="install-update-and-delete-for-external-users"></a>为外部用户安装、更新和删除
 
-外部用户无法在任何上下文中安装、更新或删除应用，例如个人、聊天、频道或会议。 他们无法访问 Teams 应用商店。
+外部用户无法在任何上下文中安装、更新或删除应用，例如个人、聊天、频道或会议。 他们无法访问应用商店Teams应用。
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部用户的使用行为和策略
 
-外部用户不能使用任何 Teams 应用，将外部用户添加到具有本机用户的上下文时，所有用户（本机用户和外部用户）都无法再使用应用。
+外部用户不能使用任何Teams，并且当将外部用户添加到具有本机用户的上下文中时，所有用户（本机用户和外部用户）都无法再使用应用。
 
-外部用户不会受到应用策略的影响，因为他们无法使用 Teams 应用。
+外部用户不会受到应用策略的影响，因为他们不能Teams应用。
 
 ## <a name="anonymous-user-in-meetings-access"></a>会议访问中的匿名用户
 
@@ -75,4 +75,4 @@ ms.locfileid: "51617845"
 
 匿名用户不能直接在会议中使用应用。 如果存在匿名用户，本机用户可以继续使用会议应用。 如果应用在聊天中发送自适应卡片，匿名用户可以与卡交互。有关详细信息，请参阅允许匿名 [用户加入会议](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)。
 
-匿名用户将继承用户级全局默认权限策略。 如果用户级权限策略已启用应用，他们可以在 Teams 会议中与应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。
+匿名用户将继承用户级全局默认权限策略。 如果用户级权限策略已启用Teams，他们可以与会议中的应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。

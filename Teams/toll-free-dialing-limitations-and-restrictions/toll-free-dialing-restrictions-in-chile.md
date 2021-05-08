@@ -36,7 +36,7 @@ ms.locfileid: "51116800"
 [查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。
 
 
-|**Details**|**说明**|
+|**详细信息**|**说明**|
 |:-----|:-----|
 |是否提供免费呼叫？  <br/> |是  <br/> |
 |拨号格式 ()   <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |

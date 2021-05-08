@@ -26,7 +26,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/24/2021
 ms.locfileid: "51995140"
 ---
-# <a name="create-a-team-using-teams-retail-templates"></a>使用 Teams 零售模板创建团队
+# <a name="create-a-team-using-teams-retail-templates"></a>使用零售模板Teams团队
 
 通过提供预定义的设置、频道和预安装的应用模板，Microsoft Treams 模板让你能够快速轻松地创建团队。
 
@@ -40,8 +40,8 @@ Teams 模板具有预先构建的围绕零售商需求设计的团队结构定�
 
 | 人员 | 使用方法： |
 | ---- | --------- |
-| 管理员和 IT 专业人员 | [使用 Teams 管理中心](#use-the-teams-templates-in-the-teams-admin-center) 基于零售 Teams 模板创建团队。|
-| 开发人员和系统整合者 | [使用 Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) 基于零售 Teams 模板创建团队。 |
+| 管理员和 IT 专业人员 | [使用Teams管理中心](#use-the-teams-templates-in-the-teams-admin-center)基于零售版模板创建Teams团队。|
+| 开发人员和系统整合者 | [使用 Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph)基于零售模板创建Teams团队。 |
 
 ## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>使用 Teams 管理中心中的 Teams 模板
 

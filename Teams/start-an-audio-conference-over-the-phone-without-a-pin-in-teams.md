@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 中通过电话在没有 PIN 的情况下启动音频会议
+title: 在没有 PIN 的情况下通过电话启动音频会议 Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '了解如何启用或禁用匿名呼叫者从 Teams 管理中心加入会议。 '
+description: '了解如何启用或禁用匿名呼叫者从管理中心加入Teams会议。 '
 ms.openlocfilehash: 520bf720a01a686a103748cdbbf26cb8426e94f2
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,11 +31,11 @@ ms.locfileid: "51116960"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>在 Microsoft Teams 中在没有 PIN 的情况下通过电话启动音频会议
 
-拨入会议的用户在会议大厅中收听音乐可能令人沮丧，因为 Microsoft Teams 会议组织者尚未启动会议。 
+拨入会议的用户在会议大厅中收听音乐可能令人沮丧，因为会议组织者Microsoft Teams会议尚未开始。 
   
 默认情况下，如果会议组织者呼叫呼叫会议，则启动会议需要 PIN。 您可以设置它，以便任何人都可以拨入会议，并且系统不会提示输入 PIN 以启动会议。 可以使用管理中心为单个用户启用或禁用此设置。
   
-如果有人从 Microsoft Teams 应用启动了会议，会议组织者不需要 PIN。 只有当会议组织者通过电话加入会议时，才需要 PIN。 为音频用户分配音频会议许可证并启用音频会议时，会议 PIN将发送给音频用户。 请参阅 [向用户发送](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) 包含其音频会议信息的电子邮件，以及当用户的音频会议设置更改时 [自动发送给用户的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)。
+如果有人从会议组织者的应用启动了会议，会议组织者Microsoft Teams PIN。 只有当会议组织者通过电话加入会议时，才需要 PIN。 为音频用户分配音频会议许可证并启用音频会议时，会议 PIN将发送给音频用户。 请参阅 [向用户发送](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) 包含其音频会议信息的电子邮件，以及当用户的音频会议设置更改时 [自动发送给用户的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -56,7 +56,7 @@ ms.locfileid: "51116960"
 
 **使用Windows PowerShell**
   
-有关详细信息， [请参阅 Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) 参考。
+有关详细信息[，Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)参考。
 
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
@@ -76,14 +76,14 @@ ms.locfileid: "51116960"
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
   
 ## <a name="related-topics"></a>相关主题
 
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[尝试或购买音频会议Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -35,7 +35,7 @@ ms.locfileid: "51116730"
 [查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。
 
 
-|**Details**|**说明**|
+|**详细信息**|**说明**|
 |:-----|:-----|
 |是否提供免费呼叫？  <br/> |是  <br/> |
 |拨号格式 ()   <br/> |800 XXXX (XXX)  <br/> |
@@ -50,5 +50,5 @@ ms.locfileid: "51116730"
 
 [免费拨号限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[获取 Skype for Business 和 Microsoft Teams](../getting-service-phone-numbers.md) 服务) 
+[获取服务电话号码Skype for Business Microsoft Teams) ](../getting-service-phone-numbers.md)
   

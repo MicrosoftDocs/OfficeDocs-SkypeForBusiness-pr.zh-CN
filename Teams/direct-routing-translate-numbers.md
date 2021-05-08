@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 了解如何配置 Microsoft Phone 系统直接路由。
+description: 了解如何配置 Microsoft 电话直接路由。
 ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.locfileid: "51096372"
 
 本文介绍如何将出站和入站呼叫的数字转换为备用格式。  这是配置直接路由的以下步骤的步骤 4：
 
-- 第 1 步 [将 SBC 与 Microsoft Phone System 连接并验证连接](direct-routing-connect-the-sbc.md) 
+- 第 1 步 [连接系统Microsoft 电话 SBC 并验证连接](direct-routing-connect-the-sbc.md) 
 - 第 2 步 [为用户启用直接路由、语音和语音邮件](direct-routing-enable-users.md)   
 - 第 3 步 [配置语音路由](direct-routing-voice-routing.md)
 - **步骤 4.将数字转换为备用格式 (**   本文) 
@@ -38,8 +38,8 @@ ms.locfileid: "51096372"
 
 可以使用"数字翻译规则"策略来翻译以下各项的数字：
 
-- 入站呼叫：从 PSTN 终结点呼叫 (呼叫) 呼叫方呼叫方 (呼叫方) 
-- 出站呼叫：从 Teams 客户端呼叫 (呼叫) 呼叫方呼叫 (呼叫方) 
+- 入站呼叫：呼叫者从 PSTN 终结点 (呼叫) 呼叫Teams呼叫方 (呼叫) 
+- 出站呼叫：来自呼叫方客户端Teams呼叫 (呼叫) 呼叫方呼叫方 (PSTN) 
 
 策略在 SBC 级别应用。 可以将多个翻译规则分配给 SBC，这些规则按在 PowerShell 中列出规则时的顺序应用。 还可以更改策略中规则的顺序。
 
@@ -68,7 +68,7 @@ New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –Inb
 |AddSeattleAreaCode    |^ (\d {4}) $          | 425555$1         |
 |StripPlus1    |^+1 (\d {10}) $          | $1         |
 
-在下面的示例中，有两个用户：Alice 和 Bob。 Alice 是 Teams 用户，其号码为 +1 206 555 0100。 Bob 是 PSTN 用户，其号码为 +1 425 555 0100。
+在下面的示例中，有两个用户：Alice 和 Bob。 Alice 是一Teams用户，其号码为 +1 206 555 0100。 Bob 是 PSTN 用户，其号码为 +1 425 555 0100。
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>示例 1：对十位数号码的入站呼叫
 
@@ -97,9 +97,9 @@ SBC 在 RequestURI 和 To 标头中使用 0100，在 From 标头中使用 425555
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>示例 3：使用十位数非 E.164 号码的出站呼叫
 
 Alice 使用十位数号码呼叫 Bob。 Alice 拨打 425 555 0100 联系 Bob。
-SBC 配置为对 Teams 和 PSTN 用户使用非 E.164 十位数号码。
+SBC 配置为对用户和 PSTN 用户使用非 E.164 十Teams数字。
 
-在此方案中，拨号计划先转换号码，然后再将其发送到直接路由接口。 当 Alice 在 Teams 客户端中输入 425 555 0100 时，该号码通过国家/地区拨号计划转换为 +14255550100。 生成的号码是拨号计划规则和 Teams 翻译规则的累积规范化。 Teams 翻译规则会删除拨号计划添加的"+1"。
+在此方案中，拨号计划先转换号码，然后再将其发送到直接路由接口。 当 Alice 在 Teams 客户端中输入 425 555 0100 时，该号码通过国家/地区拨号计划转换为 +14255550100。 生成的号码是拨号计划规则和翻译规则的累积规范化Teams规则。 呼叫Teams规则删除拨号计划添加的"+1"。
 
 
 |标头  |源语言 |翻译的标头 |应用的参数和规则  |
@@ -111,7 +111,7 @@ SBC 配置为对 Teams 和 PSTN 用户使用非 E.164 十位数号码。
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>示例 4：使用四位数非 E.164 号码的出站呼叫
 
 Alice 使用四位数字呼叫 Bob。 Alice 使用 0100 通过"呼叫"或联系人联系 Bob。
-SBC 配置为对 Teams 用户使用非 E.164 四位数字，对 PSTN 用户使用十位数号码。 此方案未应用拨号计划。
+SBC 配置为对用户使用非 E.164 四位数字Teams PSTN 用户使用十位数号码。 此方案未应用拨号计划。
 
 
 |标头  |源语言 |翻译的标头 |应用的参数和规则  |

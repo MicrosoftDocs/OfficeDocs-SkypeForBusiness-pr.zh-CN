@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams PowerShell 概述
+title: Microsoft TeamsPowerShell 概述
 ms.reviewer: ''
 author: brandber
 ms.author: brandber
@@ -10,7 +10,7 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: 了解如何使用 PowerShell 控件管理 Microsoft Teams。
+description: 了解如何使用 PowerShell 控件管理Microsoft Teams。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
@@ -20,48 +20,48 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/15/2021
 ms.locfileid: "51768351"
 ---
-# <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell 概述
+# <a name="microsoft-teams-powershell-overview"></a>Microsoft TeamsPowerShell 概述
 
-Microsoft Teams PowerShell 是一组 cmdlet，用于直接从 PowerShell 命令行管理 Teams。 Teams PowerShell 以 .NET Standard 编写，适用于 Windows、PowerShell 6.x 和更高版本的所有平台上的 PowerShell 5.1，包括 Azure Cloud Shell。
+Microsoft TeamsPowerShell 是一组 cmdlet，用于Teams PowerShell 命令行管理数据。 PowerShell 以 .NET Standard 编写Teams适用于 Windows、PowerShell 6.x 和更高版本的所有平台上的 PowerShell 5.1，包括 Azure Cloud Shell。
 
 在开始使用 PowerShell 之前，需要 [安装它](teams-powershell-install.md)。 
 
 > [!WARNING]
-> PowerShell 7 和 Teams PowerShell 存在已知问题。 我们建议使用 PowerShell 5.1，直到问题得到解决。
+> PowerShell 7 和 PowerShell Teams问题。 我们建议使用 PowerShell 5.1，直到问题得到解决。
 
 ## <a name="releases"></a>发布
 
 
-Teams PowerShell 在 [PowerShell 库中提供两](https://www.powershellgallery.com/packages/MicrosoftTeams) 种发布类型。
+TeamsPowerShell 在[PowerShell 库中提供两](https://www.powershellgallery.com/packages/MicrosoftTeams)种发布类型。
 
 - **常规可用性 (GA) ：** 生产就绪型 cmdlet，每月更新一次。
 
 - **公共预览** 版：提前访问功能。 更新频率可能高于 GA。
 
-有关两个版本中的功能添加和改进的详细信息，请阅读 [Teams PowerShell 发行说明](teams-powershell-release-notes.md)。
+有关两个版本中的功能添加和改进的详细信息，请阅读[powerShell](teams-powershell-release-notes.md)Teams说明 。
 
 
-## <a name="manage-teams-with-powershell"></a>使用 PowerShell 管理 Teams
+## <a name="manage-teams-with-powershell"></a>使用 PowerShell Teams管理资源
 
-你将使用 Teams PowerShell 模块完全管理 Teams：
+将使用 PowerShell 模块Teams完全管理Teams：
 
 - [Microsoft Teams PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)：Teams PowerShell 模块包含用于管理团队、聊天和频道的 cmdlet。
 
 > [!NOTE]
-> [Teams PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)2.0 或更高版本包括所有 Skype for Business Online 连接器 cmdlet，为 Teams PowerShell 管理提供单个模块。
+> PowerShell [Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)版本 2.0 或更高版本包括所有 Skype for Business Online Connector cmdlet，为 PowerShell 管理提供Teams模块。
 
-- [Skype for Business PowerShell 连接器](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)：Skype for Business PowerShell 连接器现在是 Teams PowerShell 模块的一部分。
+- [Skype for Business PowerShell 连接器](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)：Skype for Business PowerShell 连接器现在是 PowerShell 模块Teams的一部分。
 
-有关使用这些模块管理 Teams 的完整指南，请参阅使用[Teams PowerShell 管理 Teams。](teams-powershell-managing-teams.md)
+有关使用这些模块管理Teams的完整指南，请参阅使用 powerShell Teams [Teams管理应用程序](teams-powershell-managing-teams.md)。
 
 
 ## <a name="related-topics"></a>相关主题
 
 [安装 Teams PowerShell](teams-powershell-install.md)
 
-[使用 Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)
+[使用 Teams PowerShell Teams管理资源](teams-powershell-managing-teams.md)
 
-[Teams PowerShell 发行说明](teams-powershell-release-notes.md)
+[TeamsPowerShell 发行说明](teams-powershell-release-notes.md)
 
 [Microsoft Teams cmdlet 参考](/powershell/teams/?view=teams-ps)
 

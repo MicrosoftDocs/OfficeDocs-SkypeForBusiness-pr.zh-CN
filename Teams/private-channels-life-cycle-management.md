@@ -1,5 +1,5 @@
 ---
-title: 使用图形 API 管理 Microsoft Teams 中的专用频道
+title: 使用 Graph API 管理 Microsoft Teams 中的专用通道
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用图形 API 管理组织中专用通道。
+description: 了解如何使用 API 管理组织中专用Graph通道。
 ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -25,13 +25,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117740"
 ---
-# <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft Teams 中管理专用频道的生命周期
+# <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>管理专用频道在 Microsoft Teams
 
-可在此处找到管理使用图形 API 管理 [组织中 Teams 专用](./private-channels.md) 频道所需的指导。
+可在此处找到管理所需的指导，使用 Graph API 管理[Teams专用](./private-channels.md)频道。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>设置团队成员是否可以创建专用频道
 
-作为管理员，可以使用图形 API 来控制成员是否可以在特定的团队中创建专用频道。 下面是一个示例。
+作为管理员，可以使用 Graph API 来控制成员是否可以在特定的团队中创建专用频道。 下面是一个示例。
 
 ```Graph API
 PATCH /teams/<team_id>
@@ -44,7 +44,7 @@ PATCH /teams/<team_id>
 
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>代表团队所有者创建专用频道
 
-作为管理员，可以使用图形 API 代表团队所有者创建专用通道。 例如，如果你的组织想要集中创建专用频道，你可能希望这样做。
+作为管理员，可以使用 Graph API 代表团队所有者创建专用频道。 例如，如果你的组织想要集中创建专用频道，你可能希望这样做。
 
 ```Graph API
 POST /teams/{id}/channels
@@ -59,20 +59,20 @@ POST /teams/{id}/channels
 
 ## <a name="get-a-list-of-all-private-channel-messages"></a>获取所有专用频道消息的列表
 
-你可能希望获取在专用频道中发布的所有消息和答复的列表，以便进行存档和审核。  下面将了解如何使用图形 API 实现此用途。
+你可能希望获取在专用频道中发布的所有消息和答复的列表，以便进行存档和审核。  下面将了解如何使用 Graph API 来这样做。
 
 ```Graph API
 GET /teams/{id}/channels/{id}/messages
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
 
-## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>查找团队中所有专用频道的 SharePoint URL
+## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>查找SharePoint中所有专用频道的 URL
 
-无论是希望对专用频道中的文件执行电子数据展示还是法定保留，还是想要构建将文件放在特定专用频道中的自定义应用，您都想通过一种方法查询针对每个专用频道创建的唯一 SharePoint 网站集。
+无论是希望对专用通道中的文件执行电子数据展示还是法定保留，还是想要构建将文件放在特定专用通道中的自定义应用，您都想通过一种方法查询针对每个专用通道创建的唯一 SharePoint 网站集。
 
-作为管理员，可以使用图形 API 命令查询这些 URL。
+作为管理员，可以使用 Graph API 命令来查询这些 URL。
 
-可以通过图形资源管理器 尝试 [这些命令](https://developer.microsoft.com/graph/graph-explorer)。
+可以通过资源管理器 尝试[Graph命令](https://developer.microsoft.com/graph/graph-explorer)。
 
 1. 使用以下代码获取给定团队的专用频道 ID 列表，其中<group_id>是团队的组 ID。 后续调用中将需要此。  (可以在团队组链接中轻松找到组 ID) 。
 
@@ -104,7 +104,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-2. 对于要获取 SharePoint URL 的每个专用频道，请提出以下请求，其中channel_id &lt; &gt; 是频道 ID。
+2. 对于要获取该 URL 的每个专用SharePoint，请提出以下请求，其中channel_id &lt; &gt; 是通道 ID。
 
     **请求**
 
@@ -138,9 +138,9 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 你可能希望列出专用频道的所有者和成员，以决定是否需要将专用频道的某些成员提升为所有者。 当专用频道的所有者已离开组织，而专用频道需要管理员帮助来声明通道所有权时，可能会发生这种情况。
 
-作为管理员，可以使用图形 API 执行这些操作。
+作为管理员，可以使用 Graph API 来执行这些操作。
 
-可以通过图形资源管理器 尝试 [这些命令](https://developer.microsoft.com/graph/graph-explorer)。
+可以通过资源管理器 尝试[Graph命令](https://developer.microsoft.com/graph/graph-explorer)。
 
 1. 使用以下代码，其中group_id是团队的 &lt; &gt; 组 ID，channel_id &lt; &gt; 是频道 ID。
 

@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: 本文介绍在 Microsoft Teams 中如何存档或永久删除团队。
+description: 本文将了解如何存档或永久删除 Microsoft Teams。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -48,7 +48,7 @@ ms.locfileid: "51120834"
 
     ![Teams 存档消息的屏幕截图](media/teams-archive-message.png)
 
-4. 若要防止用户编辑与团队关联的 SharePoint 网站和 Wiki 选项卡中的内容，请选择"使 SharePoint 网站对团队成员为 **只读"。**  (Teams 所有者仍可编辑此内容。) 
+4. 若要防止用户编辑SharePoint网站和与团队关联的 Wiki 选项卡中的内容，请选择"使SharePoint网站为只读 **的团队成员"。**  (Teams所有者仍可编辑此内容。) 
 5. 选择“**存档**”以存档团队。 团队的状态将更改为“**已存档**”。
 
 ## <a name="make-an-archived-team-active"></a>激活已存档的团队
@@ -70,9 +70,9 @@ ms.locfileid: "51120834"
 
 ## <a name="restore-a-deleted-team"></a>还原已删除的团队
 
-按照以下步骤还原已删除的团队，具体操作是还原与该团队关联的 Microsoft 365 组。 还原团队的 Microsoft 365 组可还原团队内容，包括选项卡、标准频道和专用频道及其关联的网站集。
+按照以下步骤还原已删除的团队，Microsoft 365与团队关联的组。 还原团队Microsoft 365组可还原团队内容，包括选项卡、标准频道和专用频道及其关联的网站集。
 
-默认情况下，已删除的 Microsoft 365 组将保留 30 天。 这 30 天时间被称为“软删除”，因为还可以对组进行还原。 有关详细信息，请参阅 [还原已删除的组](/microsoft-365/admin/create-groups/restore-deleted-group)。
+默认情况下，已删除Microsoft 365组将保留 30 天。 这 30 天时间被称为“软删除”，因为还可以对组进行还原。 有关详细信息，请参阅 [还原已删除的组](/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安装 AzureADPreview 模块
 
@@ -92,14 +92,14 @@ ms.locfileid: "51120834"
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>还原已删除的 Microsoft 365 组
+### <a name="restore-the-deleted-microsoft-365-group"></a>还原已删除的Microsoft 365组
 
 1. 通过运行以下命令连接到 Azure AD：
     ```PowerShell
     Connect-AzureAD
     ```
     提示登录时，请使用管理员帐户和密码登录。  
-2. 运行以下代码，显示仍在 30 天保留期内的所有软删除 Microsoft 365 组的列表。 如果有大量组，请使用 **-All $True** 参数。
+2. 运行以下代码可显示所有软删除Microsoft 365组的列表，这些组仍在 30 天的保留期内。 如果有大量组，请使用 **-All $True** 参数。
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```

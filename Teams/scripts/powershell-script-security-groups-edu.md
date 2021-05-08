@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本创建为学校教师和学生管理 Teams 策略所需的安全组。
+description: 使用此 PowerShell 脚本创建管理学校教师和学生Teams策略所需的安全组。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -26,7 +26,7 @@ ms.locfileid: "51117280"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
 
-使用此 PowerShell 脚本创建管理学校中的 Microsoft Teams 策略所需的安全组。 Teams [中的"组](../assign-policies.md#assign-a-policy-to-a-group) 的策略分配"功能允许你向一组用户（例如安全组）分配策略。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
+使用此 PowerShell 脚本创建管理学校策略Microsoft Teams安全组。 使用["策略分配到组](../assign-policies.md#assign-a-policy-to-a-group)"Teams向一组用户（例如安全组）分配策略。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
 
 此 PowerShell 脚本基于许可证类型创建两个安全组，一个组用于教职员工和教师，另一个组用于学校中的学生。 然后，可以将策略分配到创建的安全组。 有关使用此脚本的信息，请参阅 [向学校中的大量用户分配策略](../batch-group-policy-assignment-edu.md)。
 
@@ -43,9 +43,9 @@ ms.locfileid: "51117280"
 
 ## <a name="before-you-start"></a>开始前
 
-下载并安装 [Skype for Business Online PowerShell 模块](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然后在系统提示时重启计算机。
+下载并安装[Skype for Business Online PowerShell 模块](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然后在系统提示时重启计算机。
 
-若要了解更多内容，请参阅 [使用 Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 管理 Skype for Business Online [和 Teams PowerShell 概述](../teams-powershell-overview.md)。
+若要了解更多信息，请参阅使用 powerShell Skype for Business [Online Office 365 powerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) Teams [PowerShell 概述](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>示例脚本

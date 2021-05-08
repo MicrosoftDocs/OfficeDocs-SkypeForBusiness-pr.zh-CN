@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于澳大利亚的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+description: 以下是适用于澳大利亚Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
 ms.openlocfilehash: afe7f5cf0cdb3758f107cee2801ccf07779c747f
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,11 +36,11 @@ ms.locfileid: "51118421"
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于澳大利亚的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+以下是适用于澳大利亚Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
 
 ## <a name="audio-conferencing"></a>音频会议
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |不能。 [请联系我们](mailto:ptnapac@microsoft.com)。 <br/> |
@@ -48,7 +48,7 @@ ms.locfileid: "51118421"
 
 ## <a name="phone-system"></a>电话系统
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
 |自动助理 <br/> |可用  <br/> |
@@ -57,7 +57,7 @@ ms.locfileid: "51118421"
 
 ## <a name="calling-plans"></a>通话套餐
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是，请参阅[Telstra Calling。](https://aka.ms/TelstraVoicePlan)  <br/> |
 |通话套餐的可用分钟数  <br/> |请参阅 [Telstra Calling](https://aka.ms/TelstraVoicePlan)。 <br/> |
@@ -72,7 +72,7 @@ ms.locfileid: "51118421"
 
 从 2019 年 9 月 1 月开始，如果你的租户位于澳大利亚之外，你可以为位于澳大利亚的用户购买呼叫计划。 此功能适用于以下国家和地区。
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |---------|---------|
 |美洲    |美国、美国外岛      |
 |APAC     |孟加拉、斯里兰卡、文莱、菲律宾、香港特别行政区、印度尼西亚、老挝、澳门、马来西亚、群岛、缅甸、尼泊尔、菲律宾、新加坡、斯里兰卡、泰国、菲律宾、越南|
@@ -82,7 +82,7 @@ ms.locfileid: "51118421"
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>Adelaide <li>墨尔本 <li>  Canberra <li>澳大利亚 <li>墨尔本 <li>Newcastle <li> Perth <li>悉尼 <li>Wollongong  |
 |是否提供收费电话号码？  <br/> |是  <br/> |
@@ -92,7 +92,7 @@ ms.locfileid: "51118421"
 
 ## <a name="communications-credits"></a>通信点数
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |是  <br/> |
    

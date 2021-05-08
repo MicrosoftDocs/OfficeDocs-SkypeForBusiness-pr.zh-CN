@@ -1,5 +1,5 @@
 ---
-title: 适用于政府的 Teams 策略包
+title: Teams政府部署策略包
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,7 +16,7 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何为政府组织使用和管理 Teams 策略包。
+description: 了解如何使用和管理Teams组织的策略包。
 ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -24,10 +24,10 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117770"
 ---
-# <a name="teams-policy-packages-for-government"></a>适用于政府的 Teams 策略包
+# <a name="teams-policy-packages-for-government"></a>Teams政府部署策略包
 
 > [!NOTE]
-> Microsoft 365 政府版 GCC High 或 DoD 部署中当前未提供策略包。
+> 目前，在政府高级部署Microsoft 365 DoD GCC策略包不可用。
 
 ## <a name="overview"></a>概述
 
@@ -41,7 +41,7 @@ Microsoft Teams 中的[策略包](manage-policy-packages.md)是一组预定义�
 - 应用设置
 - 实时事件
 
-Teams 目前包括以下政府策略包。
+Teams包括以下政府策略包。
 
 |Microsoft Teams 管理中心中的策略包名称|最适合用于|说明 |
 |---------|---------|---------|
@@ -71,7 +71,7 @@ Teams 目前包括以下政府策略包。
 
 ### <a name="assign"></a>分配
 
-将策略包分配给用户。 如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。
+将策略包分配给用户。如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>向一个或多个用户分配策略包
 

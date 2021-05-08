@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 了解如何在 Microsoft Teams 中向用户分配会议 ID，以及会议 ID 参数应是什么。
+description: 了解如何向用户分配会议 ID Microsoft Teams会议 ID 参数应是什么。
 ms.openlocfilehash: b57a419266ceca09a73fc4bf75bb12153e41ea91
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -28,13 +28,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117205"
 ---
-# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中查看和重置分配给用户的会议 ID
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>查看和重置分配给用户的会议 ID Microsoft Teams
 
-在 Microsoft 365 或 Office 365 中为音频会议设置并使用 Microsoft 作为音频会议提供商时，会议 ID 会自动分配给 Microsoft Teams 用户。 安排会议时，将在会议邀请中发送分配的会议 ID。 用户安排的每次会议将分配到一个唯一的会议 id。 
+在 Microsoft 365 或 Office 365 中为音频会议设置 Microsoft Teams 并将 Microsoft 用作音频会议提供商时，会议 ID 会自动分配给他们。 安排会议时，将在会议邀请中发送分配的会议 ID。 用户安排的每次会议将分配到一个唯一的会议 id。 
   
-尽管会议 ID 将自动创建并分配给用户，但有时用户可能不想使用此 ID，而你想要将其设置为特定号码，或者用户记不起来或已丢失其会议 ID。 可以使用 Microsoft Teams 管理中心或Windows PowerShell查看、更改和重置其会议 ID。
+尽管会议 ID 将自动创建并分配给用户，但有时用户可能不想使用此 ID，而你想要将其设置为特定号码，或者用户记不起来或已丢失其会议 ID。 您可以使用Microsoft Teams中心或Windows PowerShell查看、更改和重置其会议 ID。
   
-电子邮件将发送到有会议 ID 的用户和默认音频会议电话号码，或者，如果重置的会议 ID，将发送一封不同的电子邮件，其将包括会议 ID，但没有 PIN。 请参阅 [在 Microsoft Teams 中](reset-a-conference-id-for-a-user-in-teams.md) 重置用户的会议 ID，详细了解如何重置会议组织者的 PIN。 
+电子邮件将发送到有会议 ID 的用户和默认音频会议电话号码，或者，如果重置的会议 ID，将发送一封不同的电子邮件，其将包括会议 ID，但没有 PIN。 有关[如何重置会议组织者的 PIN](reset-a-conference-id-for-a-user-in-teams.md) Microsoft Teams请参阅重置会议 ID。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -56,7 +56,7 @@ ms.locfileid: "51117205"
   
 **使用Windows PowerShell**
 
-有关详细信息， [请参阅 Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) 参考。
+有关详细信息[，Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)参考。
     
   
 ### <a name="to-reset-the-conference-id"></a>重置会议 ID
@@ -75,7 +75,7 @@ ms.locfileid: "51117205"
   
 **使用Windows PowerShell**
 
-有关详细信息， [请参阅 Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) 参考。
+有关详细信息[，Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)参考。
 
 
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
@@ -89,14 +89,14 @@ ms.locfileid: "51117205"
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
     
 ## <a name="related-topics"></a>相关主题
 
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[尝试或购买音频会议Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -32,7 +32,7 @@ ms.locfileid: "51122226"
 - 连接的 SDC 的总体运行状况
 - 有关连接的 SDC 的详细信息
 
-可以在 Microsoft Teams 和 Skype for Business 管理中心查看运行状况仪表板。
+可以在管理中心内查看Microsoft Teams Skype for Business仪表板。
 
 ## <a name="overall-health"></a>总体运行状况
 
@@ -98,7 +98,7 @@ ms.locfileid: "51122226"
 
 - **并发调用**- 显示 SBC 处理的并发调用数。 此信息可用于预测所需的并发通道数并查看趋势。 可以按天数滑动数据，并按入站/出 (/所有流的呼叫) 。
 
-- **网络参数** - 从直接路由接口到会话边界控制器测量所有网络参数。 有关建议值的信息，请参阅为 [Microsoft Teams](./prepare-network.md)准备组织的网络，并查看客户边缘到 Microsoft Edge 的建议值。
+- **网络参数** - 从直接路由接口到会话边界控制器测量所有网络参数。 有关建议值的信息，请参阅[准备](./prepare-network.md)组织的网络以Microsoft Teams，并查看 Customer Edge Microsoft Edge值。
 
    - 抖动 - 是使用 RTCP 和 RTP 控制协议在两个终结点之间计算的网络传播延迟 (毫秒) 。
 

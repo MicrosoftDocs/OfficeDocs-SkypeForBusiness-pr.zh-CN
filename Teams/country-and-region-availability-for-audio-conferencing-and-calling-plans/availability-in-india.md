@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是适用于印度 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+description: 以下是适用于Microsoft 365 Office 365印度Skype for Business Microsoft Teams服务。
 ms.openlocfilehash: a5bb42531cc2dc3fc7688bfeb014b82b30513502
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,19 +36,19 @@ ms.locfileid: "51117990"
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-下面是适用于印度 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+以下是适用于Microsoft 365 Office 365印度Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |Microsoft 不会在中国销售音频会议。 TATA Communications 提供与 Microsoft Teams 会议兼容的拨入和拨出服务。 有关详细信息，请访问 [TATA Communications 的网站](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)。   <br/> |
+|是否可购买音频会议？  <br/> |Microsoft 不会在中国销售音频会议。 TATA Communications 提供与会议兼容的拨入和拨出Microsoft Teams服务。 有关详细信息，请访问 [TATA Communications 的网站](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)。   <br/> |
 |是否自动分配音频会议的电话号码？  <br/> |是，适用于：<br/><ul><li> 孟买</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
 
 ## <a name="phone-system"></a>电话系统
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
 | 自动助理 <br/> |可用  <br/> |
@@ -57,7 +57,7 @@ ms.locfileid: "51117990"
 
 ## <a name="calling-plans"></a>通话套餐
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |否  <br/> |
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
@@ -67,17 +67,17 @@ ms.locfileid: "51117990"
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>金奈</li><li>孟买<li>请求的其他 [城市](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
 
- 请注意，印度的服务号码只能用于音频会议。 因此，如果你想要获取音频会议收费和免费电话号码，请参阅获取 [Skype for Business](../getting-service-phone-numbers.md)和 Microsoft Teams 的服务电话号码。
+ 请注意，印度的服务号码只能用于音频会议。 因此，如果你想要获取音频会议收费和免费电话号码，请参阅获取音频会议的服务[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通信点数
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |否  <br/> |
 

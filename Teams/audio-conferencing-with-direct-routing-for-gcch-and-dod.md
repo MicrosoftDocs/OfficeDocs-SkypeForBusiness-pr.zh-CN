@@ -29,24 +29,24 @@ ms.locfileid: "51262617"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>适用于 GCC High 和 DoD 且含直接路由的音频会议
 
-使用直接路由针对 GCC High 和 DoD 的音频会议，参与者能够使用电话设备加入 GCC High 或 DoD 组织中 Teams 会议。 在 Internet 连接受限或用户正在路况中且无法访问 Teams 等情况下，会议参与者可能希望使用电话设备加入 Teams 会议。 参与者可以通过拨入组织的拨入电话号码或让会议拨出到其电话设备来选择加入会议。
+使用高和GCC直接路由的音频会议使参与者能够使用电话GCC加入 Teams High 或 DoD 组织中 Teams 会议。 在 Internet 连接受限或用户正在路况中且无法访问 Teams 等情况下，会议参与者可能希望使用电话设备加入 Teams 会议。 参与者可以通过拨入组织的拨入电话号码或让会议拨出到其电话设备来选择加入会议。
 
-使用具有针对 GCC High 和 DoD 的直接路由的音频会议，组织使用自己的号码作为拨入电话号码，并且通过直接路由路由到电话设备的所有会议拨出。 若要启用该服务，组织需要设置直接路由并配置可用作拨入电话号码的电话号码。 使用直接路由的要求不同于提供给非 GCC High 和非 DoD 组织的音频会议服务，其中拨入电话号码由 Microsoft 提供。
+借助具有 GCC High 和 DoD 直接路由的音频会议，您的组织使用其自己的号码作为拨入电话号码，并且通过直接路由路由到电话设备的所有会议拨出。 若要启用该服务，组织需要设置直接路由并配置可用作拨入电话号码的电话号码。 使用直接路由的要求不同于提供给非 GCC High 和非 DoD 组织的音频会议服务，其中拨入电话号码由 Microsoft 提供。
 
-## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>使用直接路由为 GCC High 和 DoD 部署音频会议
+## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>使用直接路由为高和GCC部署音频会议
 
-### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>步骤 1：使用直接路由获取 GCC High 或 DoD 许可证的音频会议 
+### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>步骤 1：使用直接路由获取音频会议GCC高或 DoD 许可证 
 
-若要在 GCC High 或 DoD 中使用音频会议，您的组织和您的组织中的用户需要分配有具有直接路由许可证的音频会议。 以下是使用直接路由为 GCC High 或 DoD 启用音频会议所需的许可证。
+若要在高GCC DoD 中使用音频会议，您的组织和您的组织中的用户需要分配有具有直接路由许可证的音频会议。 以下是使用直接路由为高或 doD 启用音频GCC许可证。
 
-- GCC 高：音频会议 - 组织的 GCC 高租户许可证和音频会议 - 适用于用户的 GCC 高许可证。
+- GCC高：音频会议 - GCC高租户许可证和音频会议 - GCC高许可证。
 
 - DoD：音频会议 - 组织的 DoD 租户许可证和音频会议 - 用户的 DoD 许可证。
 
 启用该服务需要租户许可证和至少一个用户许可证。 不能仅启用具有租户许可证或仅具有用户许可证的服务。 若要获取租户和组织中用户的服务许可证，请联系帐户团队。
 
 > [!IMPORTANT]
-> 在设置拨入电话号码之前，无法通过直接路由为用户启用音频会议。 建议在按本文所述设置拨入电话号码之前，不要向用户分配具有直接路由的 GCC High 或 DoD 许可证的音频会议。  未能遵循本指南可能会导致 Teams 客户端中完全缺少拨号盘。
+> 在设置拨入电话号码之前，无法通过直接路由为用户启用音频会议。 建议在按本文所述设置拨入电话号码之前，不要向用户分配具有 GCC High 或 DoD 许可证的直接路由音频会议。  未能遵循本指南可能会导致拨号盘在客户端中完全Teams丢失。
 
 ### <a name="step-2-set-up-direct-routing"></a>步骤 2：设置直接路由
 
@@ -57,7 +57,7 @@ ms.locfileid: "51262617"
 - [配置直接路由](direct-routing-configure.md)
 
 > [!NOTE]
-> 设置直接路由时，请记住使用这两篇文章中所述的 GCC High 或 DoD 特定的 FQD 和端口。
+> 设置直接路由时，请记得GCC两篇文章中所述的特定于高或 DoD 的 FQD 和端口。
 
 ### <a name="step-3-set-up-dial-in-phone-numbers"></a>步骤 3：设置拨入电话号码
 
@@ -97,7 +97,7 @@ ms.locfileid: "51262617"
 从组织中用户组织的会议向 PSTN 拨打的出站呼叫的路由由组织的全局语音路由策略定义。 如果你的组织定义了全局语音路由策略，请验证全局语音路由策略是否允许对 PSTN 的出站呼叫，这些呼叫应该从组织中用户组织的会议中发起。 如果组织未定义全局语音路由策略，则需要定义一个策略，以便从组织中用户组织的会议中将出站呼叫路由到 PSTN。 请注意，组织的全局语音路由策略也适用于组织中用户对 PSTN 的一对一呼叫。 如果为贵组织的用户启用了对 PSTN 的一对一呼叫，请确保全局语音路由策略满足组织在这两种类型的呼叫的需求。 
 
 > [!NOTE]
-> Location-Based高级或 DoD 部署中的 Microsoft 365 政府社区云 (GCC) 中不可用。 启用音频会议时，请验证 GCC High 或 DoD 环境中是否未为音频会议用户启用Location-Based路由。
+> Location-Based高级或 DoD 部署Microsoft 365 政府社区云 (GCC) 路由不可用。 启用音频会议时，请验证"高"GCC或 DoD 环境中未启用音频会议Location-Based路由。
 
 #### <a name="defining-a-global-voice-routing-policy"></a>定义全局语音路由策略
 
@@ -145,17 +145,17 @@ ms.locfileid: "51262617"
 
 定义全局语音路由策略后，将针对与全局语音路由策略的 PSTN 使用情况关联的语音路由评估组织中用户组织的会议发出的任何出站呼叫。 出站呼叫将按照与已拨入电话号码的号码模式匹配的第一个语音路由进行路由。
 
-### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>步骤 5：为用户分配具有直接路由的音频会议（GCC 高或 DoD 许可证）
+### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>步骤 5：为用户分配具有直接路由GCC高或 DoD 许可证的音频会议
 
-若要为用户分配具有直接路由的音频会议（GCC 高或 DoD 许可证），请参阅 [向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
+若要为用户分配具有直接路由的音频GCC高或 DoD 许可证，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
-### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>步骤 6： (可选) 查看 Teams 中的音频会议号码列表
+### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>步骤 6： (可选) 查看音频会议号码列表Teams
 
-若要查看组织的音频会议号码列表，请转到在 Microsoft Teams 中查看音频 [会议号码列表](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
+若要查看贵组织的音频会议号码列表，请转到在 Microsoft Teams 中查看音频[会议号码Microsoft Teams。](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
 ### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>步骤 7： (可选) 为贵组织的音频会议拨入号码设置自动助理语言
 
-若要更改组织的音频会议拨入号码的语言，请参阅在 Microsoft Teams 中为音频会议设置 [自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)。
+若要更改组织的音频会议拨入号码的语言，请参阅在 "设置音频会议自动[](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)助理语言"Microsoft Teams。
 
 ### <a name="step-8-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>步骤 8： (可选) 更改组织的音频会议网桥的设置
 
@@ -163,11 +163,11 @@ ms.locfileid: "51262617"
 
 ### <a name="step-9-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>步骤 9： (可选) 设置组织中用户的会议邀请中包含的电话号码
 
-若要更改用户的会议邀请中包含的电话号码集，请参阅在 Microsoft Teams 中设置邀请 [中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
+要更改用户的会议邀请中包含的电话号码集，您的组织是您的组织，请参阅设置邀请中包含的电话号码[Microsoft Teams。](set-the-phone-numbers-included-on-invites-in-teams.md)
 
-## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>音频会议功能在具有 GCC High 和 DoD 直接路由的音频会议中不受支持
+## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>音频会议功能在音频会议中不受支持，使用直接路由GCC高和 DoD
 
-以下是音频会议功能，对于 GCC High 和 DoD，使用直接路由的音频会议不支持这些功能：
+以下是音频会议功能，对于高和 DoD，使用直接路由GCC音频会议功能：
 
 - 使用名称录制的进入和退出通知。 对于具有直接路由的音频会议，进入和退出通知在会议以音调播放。
 
@@ -175,4 +175,4 @@ ms.locfileid: "51262617"
 
 - 禁止对会议特定组织者使用免费号码。 限制使用免费号码加入组织会议的用户级控件不适用于通过直接路由路由的呼叫。
 
-- 当用户的设置更改时向用户发送通知电子邮件。 音频会议通知电子邮件不支持使用直接路由进行 GCC High 和 DoD 的音频会议。
+- 当用户的设置更改时向用户发送通知电子邮件。 音频会议通知电子邮件不支持通过直接路由进行音频会议，GCC高和 DoD。

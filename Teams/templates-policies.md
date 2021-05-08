@@ -1,5 +1,5 @@
 ---
-title: 管理中心中的 Teams 模板
+title: 在Teams管理中心管理模板
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何在管理中心管理 Teams 模板
+description: 了解如何在管理Teams管理中心管理模板
 ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -25,10 +25,10 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51093922"
 ---
-# <a name="manage-teams-templates-in-the-admin-center"></a>管理中心中的 Teams 模板
+# <a name="manage-teams-templates-in-the-admin-center"></a>在Teams管理中心管理模板
 
-在管理中心创建模板策略，管理最终用户看到的 Teams 模板。 在每个模板策略中，可以指定显示或隐藏的模板。
-将不同的用户分配到不同的模板策略，以便用户仅查看指定的 Teams 模板子集。
+管理Teams管理中心中的模板策略，管理最终用户看到的模板。 在每个模板策略中，可以指定显示或隐藏的模板。
+将不同的用户分配到不同的模板策略，以便用户仅查看Teams模板的子集。
 
 观看此简短视频，了解如何管理模板策略。
 
@@ -38,13 +38,13 @@ ms.locfileid: "51093922"
 
 1. 登录到 Teams 管理中心。
 
-2. 展开 **"Teams**  >  **模板策略"。**
+2. 展开 **Teams**  >  **模板策略"。**
 
 3. 选择“**添加**”。
 
     ![已选择模板策略，并突出显示"添加"](media/template-policies-1.png)
 
-1. 在" **模板策略设置"** 部分中，完成以下字段：
+1. 在"**模板策略设置** 部分中，完成以下字段：
 
     - 模板策略名称
 
@@ -63,7 +63,7 @@ ms.locfileid: "51093922"
    ![未隐藏的所选模板](media/template-policies-3.png)
 
    所选模板将显示在"可查看的模板 **"** 表中。
-3. 选择"**保存"。**
+3. 选择“**保存**”。
 
    新模板策略显示在"模板 **策略"** 列表中。
 
@@ -104,7 +104,7 @@ ms.locfileid: "51093922"
 
 答：任何已删除的模板将不再存在于任何模板策略中。
 
-**问：能否将多个用户分配到 Teams 管理中心中的模板策略？**
+**问：能否将多个用户分配到管理中心中的Teams策略？**
 
 答：可以。
 
@@ -112,7 +112,7 @@ ms.locfileid: "51093922"
 1. 在"用户"列表表中，选择要分配到特定模板策略的用户。
 1. 选择"编辑设置"，并更改"模板策略"字段。
 1. 选择"应用"。
-   详细了解在[Microsoft Teams 中为用户分配策略 - Microsoft Teams \| Microsoft Docs。](./assign-policies.md#assign-a-policy-to-a-batch-of-users)
+   在 Microsoft [ \| Docs 中详细了解如何Microsoft Teams用户Microsoft Teams策略](./assign-policies.md#assign-a-policy-to-a-batch-of-users)。
 
 **问：如何查看分配到特定策略的所有用户？**
 
@@ -142,6 +142,6 @@ ms.locfileid: "51093922"
 
 - [从现有团队模板创建团队模板](./create-template-from-existing-template.md)
 
-- [在 Microsoft Teams 中向用户分配策略 - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
+- [在 Microsoft Docs 中Microsoft Teams用户Microsoft Teams \| 策略](./assign-policies.md)
 
 - [将用户批量分配到策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

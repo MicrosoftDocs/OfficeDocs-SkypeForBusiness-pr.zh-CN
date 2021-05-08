@@ -53,7 +53,7 @@ ms.locfileid: "51117140"
     >[!NOTE] 
     > Office 365 企业版 E5 许可证中包含音频会议，并用作加载项。
         
-2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅 [在 Microsoft 365 或 Office 365 商业](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 版中将许可证分配给组织中计划或领导会议的用户。
+2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅[将许可证分配给](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)Microsoft 365或Office 365组织中要安排或领导会议的人的企业版用户。
     
 3. 我们还建议你将通信点数许可证（它们不值什么钱）分配给你在上一步骤中分配到许可证的相同人员。 若要了解如何设置通信点数，请参阅[为你的组织设置通信点数](set-up-communications-credits-for-your-organization.md)。
     
@@ -67,7 +67,7 @@ ms.locfileid: "51117140"
   
 - **使用 Microsoft Teams 管理中心**。 某些国家/地区内，你可以使用 Microsoft Teams 管理中心获取会议网桥服务号码。 参见[获取服务电话号码](./getting-service-phone-numbers.md)。
     
-- **转网现有服务号码**。 将现有号码从当前服务提供商或电话运营商转机或转移到 Microsoft 365 或 Office 365。 有关详细信息，请参阅[将电话号码转移到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助你执行此操作。  
+- **转网现有服务号码**。 将现有号码从当前服务提供商或电话运营商转Microsoft 365或Office 365。 有关详细信息，请参阅[将电话号码转移到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助你执行此操作。  
   
 - **使用新号码的请求表单**。 有时（具体取决于你的国家/地区），你无法使用 Microsoft Teams 管理中心获取新服务号码，或你需要特定的电话号码或区号。 如果是这样，则需下载表单并将其发回给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
     

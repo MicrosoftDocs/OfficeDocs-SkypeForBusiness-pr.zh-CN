@@ -28,7 +28,7 @@ ms.locfileid: "51120573"
 
 在按照本文中的步骤操作之前，请确保已阅读规划直接路由的[](location-based-routing-plan.md)Location-Based 路由，并已完成配置路由的网络设置中的[Location-Based步骤](location-based-routing-configure-network-settings.md)。
 
-本文介绍如何为直接路由Location-Based路由。 部署电话系统直接路由并设置网络区域、站点和子网后，即可启用Location-Based路由。 若要完成本文中的步骤，需要熟悉 PowerShell cmdlet。 有关详细信息，请参阅 [Teams PowerShell 概述](teams-powershell-overview.md)。
+本文介绍如何为直接路由Location-Based路由。 部署电话系统路由并设置网络区域、站点和子网后，即可启用 Location-Based 路由。 若要完成本文中的步骤，需要熟悉 PowerShell cmdlet。 有关详细信息，请参阅[PowerShell Teams概述](teams-powershell-overview.md)。
 
  必须针对以下Location-Based启用路由：
 - 用户
@@ -48,11 +48,11 @@ ms.locfileid: "51120573"
     - 使用与使用 PSTN 网关的语音路由相关联的 PSTN 使用情况，该网关位于Location-Based不需要路由限制的区域。
 2. 将语音路由策略分配给需要强制实施路由限制的用户。
 
-若要详细了解如何创建语音路由策略并将其分配给用户，请参阅在 Microsoft Teams 中管理 [语音路由策略](manage-voice-routing-policies.md)。
+若要详细了解如何创建语音路由策略并将其分配给用户，请参阅在 Microsoft Teams 中管理[语音路由策略](manage-voice-routing-policies.md)。
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>为Location-Based启用路由
 
-为Location-Based实施路由限制的站点启用路由。 为此，请在 Microsoft Teams 管理中心的左侧导航栏中，转到"位置""网络拓扑"，选择一个网络站点，单击"编辑"，然后打开"基于  >  **位置的路由"。**   
+为Location-Based实施路由限制的站点启用路由。 为此，请在 Microsoft Teams 管理中心的左侧导航中，转到"位置""网络拓扑"，选择一个网络站点，单击"编辑"，然后打开"基于位置的路由  >  **"。**   
 
 有关详细信息，请参阅 [管理网络拓扑](manage-your-network-topology.md)。
 
@@ -70,7 +70,7 @@ ms.locfileid: "51120573"
 
 若要Location-Based用户强制使用呼叫路由，请设置用户的呼叫策略以防止 PSTN 收费绕过。 为此，请打开呼叫 **策略中的** "防止绕过收费"设置。
 
-有关详细信息，请参阅在 [Teams 中调用策略](teams-calling-policy.md)。
+若要了解有关详细信息，请参阅[在 Teams 中调用策略](teams-calling-policy.md)。
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
@@ -192,4 +192,4 @@ Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "Us
 
 ## <a name="related-topics"></a>相关主题
 
-- [Teams 中云语音功能的网络设置](cloud-voice-network-settings.md)
+- [云语音功能的网络设置Teams](cloud-voice-network-settings.md)

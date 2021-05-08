@@ -43,13 +43,13 @@ ms.locfileid: "51121350"
 > [!NOTE]
 > 北美响应可能会由于传入请求的增多而延迟。 积压工作在 FIFO ("先到先出") 清除。
 
-## <a name="transfer-or-port-your-existing-phone-numbers-to-microsoft-teams"></a>将现有电话号码转移或移植到 Microsoft Teams
+## <a name="transfer-or-port-your-existing-phone-numbers-to-microsoft-teams"></a>转移现有电话号码或将现有电话号码转Microsoft Teams
 从上表中将电子邮件发送到相应的电子邮件别名。 包含尽可能多的详细信息，例如：
   - 组织[ID (或) Microsoft 域的租户 ID。](/onedrive/find-your-office-365-tenant-id)
   - 需要帮助的电话号码类型;例如，用户、服务收费或服务免费。
   - 基于请求的其他重要详细信息。
 
-## <a name="get-new-phone-numbers-for-microsoft-teams"></a>获取 Microsoft Teams 的新电话号码
+## <a name="get-new-phone-numbers-for-microsoft-teams"></a>获取新电话号码Microsoft Teams
 从上表中将电子邮件发送到相应的电子邮件别名。 包含尽可能多的详细信息，例如：
   - 组织 [ID (或) 活动的 Microsoft 域的租户 ID。](/onedrive/find-your-office-365-tenant-id)
   - 需要帮助的电话号码类型;例如，用户、服务收费或服务免费。

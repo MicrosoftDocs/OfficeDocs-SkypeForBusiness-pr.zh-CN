@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: 了解如何在 Teams 中管理参与者和来宾的会议策略设置。
+description: 了解如何在参与者和来宾的Teams管理会议策略设置。
 ms.openlocfilehash: 51d121ab9c537e6ba304045e47b6e875cd98afd6
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
@@ -26,69 +26,69 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51598698"
 ---
-# <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者&来宾
+# <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
 <a name="bkmeetingparticipants"> </a>
 
-这些设置控制哪些会议参与者在获准参加会议之前在大厅中等待，以及允许他们参加会议的参与级别。
+这些设置可以控制哪些与会者在进入会议之前在大厅等待，以及允许他们参与会议的级别。
 
-- [让匿名人员启动会议](#let-anonymous-people-start-a-meeting)
-- [自动允许人员](#automatically-admit-people)
-- [允许拨入用户绕过大厅](#allow-dial-in-users-to-bypass-the-lobby)
+- [允许匿名用户启动会议](#let-anonymous-people-start-a-meeting)
+- [自动管理人员](#automatically-admit-people)
+- [允许拨入用户绕过问题](#allow-dial-in-users-to-bypass-the-lobby)
 - [启用实时字幕](#enable-live-captions)
-- [允许在会议中聊天](#allow-chat-in-meetings)
+- [在会议中允许聊天](#allow-chat-in-meetings)
 
 > [!NOTE]
->用于加入会议的选项因每个 Teams 组的设置和连接方法而异。 如果你的群组有音频会议，并使用它进行连接，请参阅 [音频会议](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)。 如果你的 Teams 组没有音频会议，请参阅 [在 Teams 中加入会议](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
+>加入会议的选项会有所不同，这取决于每个 Teams 组的设置和连接方法。 如果小组有音频会议，并使用它来连接，请参阅 [音频会议](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)。 如果 Teams 组没有音频会议，请参阅 [在 Teams 中加入会议](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
 
-## <a name="let-anonymous-people-start-a-meeting"></a>让匿名人员启动会议
+## <a name="let-anonymous-people-start-a-meeting"></a>允许匿名人员发起会议
 
 此设置是一个按组织者的策略，允许召开无领导电话拨入式会议。 此设置控制拨入用户是否可以在没有组织中经过身份验证的用户参加会议的情况下加入会议。 默认情况下，此设置已关闭，这意味着拨入用户将在大厅中等待，直到组织中经过身份验证的用户加入会议。
 
 > [!NOTE]
-> 如果此设置已关闭，并且拨入用户先加入会议并放置在大厅中，则组织用户必须通过 Teams 客户端加入会议，以允许用户从大厅访问。 拨入用户没有可用的大厅控件。
+> 如果此设置已关闭，并且拨入用户先加入会议并放置在大厅中，则组织用户必须使用 Teams 客户端加入会议，以允许用户从大厅访问。 拨号用户没有大厅控制功能。
 
 ## <a name="automatically-admit-people"></a>自动允许人员
 
-这是按组织者的策略。 此设置控制用户是直接加入会议，还是等待大厅，直到经过身份验证的用户获准。 此设置不适用于拨入用户。
+这是按组织者的策略。 此设置可以控制人员是直接加入会议还是在大厅里等待，直到受认证的用户入场。 此设置不适用于拨入用户。
 
-![显示与大厅中用户的会议的屏幕截图](media/meeting-policies-lobby.png)
+![屏幕截图显示在大厅里与用户见面的画面](media/meeting-policies-lobby.png)
 
  会议组织者可以在会议 **邀请中** 单击"会议选项"，更改他们计划的每个会议的此设置。
 
 > [!NOTE]
-> 在会议选项中，设置标记为"谁可以绕过大厅"。 如果更改任何用户的默认设置，它将应用于该用户组织的所有新会议以及用户未修改会议选项的任何以前会议。
+> 在会议选项中，设置的标签是 “谁可以绕过大厅”。 如果更改任何用户的默认设置，它将适用于该用户组织的所有新会议以及该用户没有修改会议选项的任何之前会议。
   
-|设置值  |联接行为 |
+|设置值  |加入行为 |
 |---------|---------|
-|**所有人**   |所有会议参与者都直接加入会议，无需在大厅中等待。 这包括经过身份验证的用户、来自受信任组织的外部用户 (联合) 、来宾和匿名用户。     |
-|**组织与联盟组织中的每个人**     |组织中经过身份验证的用户（包括来宾用户和来自受信任组织的用户）可以直接加入会议，无需在大厅中等待。  匿名用户在大厅中等待。   |
-|**您的组织中的每个人**    |组织中经过身份验证的用户（包括来宾用户）可以直接加入会议，无需在大厅中等待。  来自受信任组织和匿名用户的用户在大厅中等待。 这是默认设置。           |
-|**仅组织者**    |只有会议组织者可以直接加入会议，而无需在大厅中等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。           |
+|**每个人**   |所有参会人员无需在大厅等待，直接加入会议。 这包括经过认证的用户、来自受信任组织的外部用户 (联合)、客人和匿名用户。     |
+|**组织和联合组织的每个人**     |组织内经过认证的用户，包括嘉宾用户和来自可信组织的用户，直接加入会议，无需在大厅等待。  匿名用户在大厅里等待。   |
+|**组织中的所有人**    |来自组织内部的认证用户，包括来宾用户，直接加入会议，无需在大厅等待。  来自可信组织的用户和匿名用户在大厅里等待。 这是默认设置。           |
+|**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人，包括组织内部的认证用户、访客用户、来自受信任组织的用户和匿名用户都必须在大厅里等待。           |
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允许拨入用户绕过大厅
 
-这是按组织者的策略。 此设置控制通过电话拨入的人是直接加入会议还是等待在大厅中，而不考虑" **自动允许人员"** 设置。 默认情况下，此设置已关闭。 当此设置关闭时，拨入用户将在大厅中等待，直到组织用户使用 Teams 客户端加入会议并准许他们加入会议。 启用此设置后，当组织用户加入会议时，拨入用户将自动加入会议。
+这是按组织者的策略。 此设置可控制通过电话拨入的人是直接加入会议还是在大厅等待，而不考虑 **“自动接收人员”** 设置。 默认情况下，此设置已关闭。 当此设置关闭时，拨号用户将在大厅中等待，直到组织用户用 Teams 客户端加入会议并接收他们。 开启此设置后，当组织用户加入会议时，拨号用户将自动加入会议。
 
 > [!NOTE]
-> 如果拨入用户在组织用户加入会议之前加入会议，他们将被放置在大厅中，直到组织用户使用 Teams 客户端加入会议并准许他们加入。 如果更改任何用户的默认设置，它将应用于该用户组织的所有新会议以及用户未修改会议选项的任何以前会议。
+> 如果拨号用户在组织用户加入会议之前加入会议，将放置他们在大厅中，直到组织用户使用 Teams 客户端加入会议并接纳他们。 如果更改任何用户的默认设置，它将适用于该用户组织的所有新会议以及该用户没有修改会议选项的任何之前会议。
 
 ## <a name="enable-live-captions"></a>启用实时字幕
 
-此设置是按用户的策略，在会议期间适用。 此设置控制" **启用实时** 字幕"选项是否可供用户在用户参加的会议中打开和关闭实时字幕。  
+此设置是按用户的策略，在会议期间适用。 此设置控制 **开启实时字幕** 选项是否可以让用户在参加的会议中开启和关闭实时字幕。  
 
-![显示"启用实时字幕"选项的屏幕截图](media/meeting-policies-live-captions.png)
+![显示开启实时字幕选项的屏幕截图](media/meeting-policies-live-captions.png)
 
 |设置值 |行为  |
 |---------|---------|
-|**已禁用，但用户可以替代**     | 在会议期间，用户不会自动打开实时字幕。 用户会看到溢出 **菜单中的"** 启用实时字幕" (...) 打开它们。  这是默认设置。 |
-|**已禁用**     | 会议期间为用户禁用了实时字幕。 用户没有启用它们的选项。          |
+|**已禁用，但用户可以替代**     | 在会议期间，实时字幕不会自动为用户开启。 用户在溢出 (**...**) 菜单中看到 **“开启实时字幕”** 选项，即可其打开。 这是默认设置。 |
+|**禁用**     | 在会议期间，将禁用用户的实时字幕。 用户无法选择启用它们。          |
 
 <a name="bkcontentsharing"> </a>
 
 ## <a name="allow-chat-in-meetings"></a>允许在会议中聊天
 
-此设置是每个参与者的设置。 此设置控制是否在用户的会议中允许会议聊天。
+此设置是每个参与者的设置。 此设置控制是否允许在用户的会议中进行会议聊天。
 
 <a name="bkparticipantsandguests"> </a>
 
@@ -101,4 +101,4 @@ ms.locfileid: "51598698"
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
 - [向 Teams 中的用户分配策略](assign-policies.md)
-- [从用户中删除 RestrictedAnonymousAccess Teams 会议策略](meeting-policies-restricted-anonymous-access.md)
+- [从用户删除 RestrictedAnonymousAccess Teams 会议策略](meeting-policies-restricted-anonymous-access.md)

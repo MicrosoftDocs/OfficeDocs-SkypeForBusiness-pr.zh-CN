@@ -161,7 +161,7 @@ ms.locfileid: "51122266"
 
 ***
 
-验证其中一个 Skype for Business 或 Microsoft Teams 服务是否可用后，可以看到 [Skype for Business](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 和 Microsoft Teams 附加许可，以帮助你购买许可证并将其分配给用户。
+验证其中一个 Skype for Business 或 Microsoft Teams 服务是否可用后，可以看到 Skype for Business 和[Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)附加许可，以帮助购买许可证并将其分配给用户。
 
 > [!NOTE]
 >
@@ -171,7 +171,7 @@ ms.locfileid: "51122266"
 
 ### <a name="audio-conferencing"></a>音频会议
 
-有时，组织中的人员需要使用电话拨入会议。 Skype for Business 和 Microsoft Teams 仅针对这种情况提供音频会议功能！ 可以使用电话拨入会议，而无需在移动设备或电脑上使用 Skype for Business 和 Microsoft Teams 应用。 当你决定要为组织提供音频会议时，请为组织中计划/主持音频会议的每一个人购买一个音频会议许可证。
+有时，组织中的人员需要使用电话拨入会议。 Skype for Business和Microsoft Teams包括音频会议功能， 可以使用电话拨入会议，而无需在移动设备或电脑上使用 Skype for Business 和 Microsoft Teams 应用。 当你决定要为组织提供音频会议时，请为组织中计划/主持音频会议的每一个人购买一个音频会议许可证。
   
 借助音频会议，用户可以使用收费和免费电话号码拨入会议。 在以下国家/地区中，如果组织已启用音频会议，收费号码会自动作为共享音频会议号码分配给组织。 可以从其他城市向组织分配专用收费和免费电话号码。
 
@@ -193,7 +193,7 @@ ms.locfileid: "51122266"
   
 ### <a name="phone-system"></a>电话系统
 
-使用电话系统，可以创建自动助理和呼叫队列 (收费或免费电话号码) 接听组织的传入呼叫。 当你为用户添加呼叫计划时，他们可以使用 Skype for Business 处理基本的呼叫控制任务，例如拨打和接听呼叫、转接呼叫以及静音和取消静音呼叫。 **电话系统** 用户单击其通讯簿中的姓名，Skype for Business 将呼叫此人。 为了拨打和接听呼叫， **电话** 系统用户使用其移动设备、带笔记本电脑或电脑的耳机，或许多使用 Skype for Business 的 IP 电话之一。
+使用电话系统，可以创建自动助理和呼叫队列 (收费或免费电话号码) 接听组织的传入呼叫。 为用户添加呼叫计划时，他们可以使用 Skype for Business 处理基本的呼叫控制任务，例如拨打和接听呼叫、转接呼叫以及静音和取消静音呼叫。 **电话系统** 单击其通讯簿中的姓名，Skype for Business呼叫该人员。 要拨打和接听呼叫 **，电话系统** 使用其移动设备、带笔记本电脑或电脑的耳机，或者使用许多 IP 电话之一Skype for Business。
 
 > 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 除了为单个用户获取电话号码外，还可以搜索和获取音频会议 (（用于会议网桥) 、自动助理和呼叫队列）等服务的收费或免费电话号码。 这些称为“服务号码”。 若要获取电话号码，请参阅[获取服务电话号码](../getting-service-phone-numbers.md)。 不过，对于用户，在将通话套餐分配给他们后，你可以分配用户电话号码，以便他们能够拨打和接听电话。 若要查找这些电话号码，请参阅[为用户获取电话号码](../getting-phone-numbers-for-your-users.md)。 还可以参阅[为用户分配、更改或删除电话号码](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
@@ -217,7 +217,7 @@ ms.locfileid: "51122266"
 
 除了获取单个用户的电话号码外，还可以搜索和获取音频会议 (（会议网桥) 、自动助理和呼叫队列）等服务的收费或免费电话号码。 这些称为“服务号码”。
   
-下面列出了可以获取用于音频会议和通话套餐的收费服务号码的首都和主要城市。 你将使用 Skype for Business 管理中心从这些位置获取 **收费服务号码**。
+下面列出了可以获取用于音频会议和通话套餐的收费服务号码的首都和主要城市。 使用管理中心 从这些位置获取收费 **Skype for Business号码**。
   
 若要获取收费或免费服务号码，请参阅获取 [服务电话号码](../getting-service-phone-numbers.md)。 如果已经有一个收费或免费服务号码，希望从不同的提供商转移，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 

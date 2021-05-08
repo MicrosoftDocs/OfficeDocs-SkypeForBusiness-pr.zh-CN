@@ -1,5 +1,5 @@
 ---
-title: 管理中心中的 Teams 制造模板入门
+title: 在管理中心Teams制造模板入门
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用。 使用管理中心提供预定义的设置、频道和预安装的应用，创建专为制造需求设计的团队结构的 Teams 模板。
+description: 了解如何使用。 Teams模板，通过使用管理中心提供预定义的设置、通道和预安装的应用，创建专为制造需求设计的团队结构。
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,13 +26,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51120553"
 ---
-# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>在管理中心使用 Teams 制造模板
+# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>在Teams中心使用生产模板
 
 Teams 模板提供预定义的设置、频道和预安装的应用模板，让你能够快速轻松地创建团队。
 
-Teams 模板具有围绕制造需求设计的团队结构的预生成定义。 你还可以扩展 Teams 模板，以创建根据特定组织需求量身定制的团队。
+Teams模板具有围绕制造需求设计的团队结构的预生成定义。 你还可以扩展 Teams 模板，以创建根据特定组织需求量身定制的团队。
 
-本文介绍每个 Teams 模板，并推荐其使用方法。
+本文介绍每个Teams模板，并推荐其使用方法。
 
 如果你负责规划、部署和管理整个制造组织的多个团队，则本文适合你。 你已在贵组织内部署 Teams 服务。 如果尚未部署 Teams，首先请阅读[如何部署 Microsoft Teams](./deploy-overview.md)。
 

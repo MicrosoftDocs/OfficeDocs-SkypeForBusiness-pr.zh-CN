@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 使用 Microsoft Teams 呼叫质量仪表板 (PSTN) ) 路由报告来监视和排查 Microsoft Teams 中的 PSTN 呼叫问题。
+description: 使用 CQD Microsoft Teams呼叫质量仪表板 (PSTN) ) 路由报告来监视和排查 PSTN 呼叫Microsoft Teams。
 ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.locfileid: "51094976"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>使用 CQD PSTN 直接路由报告
 
-我们于 2020 年 3 月新增了一个 Microsoft Teams 呼叫质量仪表板 (CQD) PSTN 直接路由报告，该报表已添加到 [CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)的可下载 Power BI 查询模板中。 
+我们于 2020 年 3 月新增了一个 Microsoft Teams 呼叫质量仪表板 (CQD) PSTN 直接路由报告，该报表已添加到[CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)的可下载 Power BI 查询模板中。 
 
 
 CQD PSTN 直接路由报告 (CQD PSTN 直接路由报告.pbit) 可帮助你了解 PSTN 服务的使用模式和质量。 使用此报告可以监视服务使用情况、有关会话边界控制器 (SBC) 、电话服务、网络参数和网络有效性比详细信息。 此信息可帮助你识别问题，包括通话中断的原因。 例如，你将能够查看音量下降时间、受影响的调用数量以及原因。
@@ -40,7 +40,7 @@ CQD PSTN 直接路由报告包含四个部分：
 
   - [网络参数](#network-parameters)
 
-## <a name="highlights"></a>突出显示
+## <a name="highlights"></a>好友动态
 
 1. 按呼叫类型、SBC、呼叫方和被叫方国家/地区进行分析
 
@@ -125,7 +125,7 @@ CQD PSTN 直接路由报告提供与过去 180 天服务总体运行状况相关
 
 ## <a name="network-parameters"></a>网络参数
 
-从直接路由接口到会话边界控制器测量所有网络参数。 有关建议值的信息，请参阅为 [Microsoft Teams](prepare-network.md)准备组织的网络，并查看客户边缘到 Microsoft Edge 的建议值。
+从直接路由接口到会话边界控制器测量所有网络参数。 有关建议值的信息，请参阅[准备](prepare-network.md)组织的网络以Microsoft Teams，并查看 Customer Edge Microsoft Edge值。
 
   - **抖动** - 是使用 RTCP 和 RTP 控制协议在两个终结点之间计算的网络传播延迟 (毫秒) 。
 
@@ -145,6 +145,6 @@ CQD PSTN 直接路由报告提供与过去 180 天服务总体运行状况相关
 
 ## <a name="related-topics"></a>相关主题
 
-[使用 Power BI 分析 Microsoft Teams 的 CQD 数据](CQD-PSTN-report.md)
+[使用Power BI分析用于存储的 CQD Microsoft Teams](CQD-PSTN-report.md)
 
 [Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)

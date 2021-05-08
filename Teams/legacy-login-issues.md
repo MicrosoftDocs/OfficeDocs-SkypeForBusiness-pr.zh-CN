@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 中的旧系统上接收消息和呼叫时的问题
+title: 在旧版系统上收到消息和调用时Teams
 ms.reviewer: ''
 author: cichur
 ms.author: v-cichur
@@ -27,7 +27,7 @@ ms.locfileid: "51120603"
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在旧系统上接收消息和调用时的问题
 ==============================================================
 
-如果用户使用的是较早版本的 Teams 或已使用其他应用程序登录，则接收消息或呼叫时可能会收到问题。
+如果用户使用的是旧版应用程序，或者已使用其他应用程序登录，则Teams接收消息或呼叫时可能收到问题。
 
 ## <a name="legacy-adu-setups"></a>旧版 ADU 设置
 
@@ -40,9 +40,9 @@ ms.locfileid: "51120603"
 > [!NOTE]
 > 默认情况下会跳过或忽略以“.local”或“.corp”结尾的用户名的用户名预填充，因此无需设置注册表项来关闭该功能。
 
-有关详细信息[，请参阅使用新式身份验证登录到 Microsoft Teams。](sign-in-teams.md)
+有关详细信息[，请参阅Microsoft Teams新式身份验证](sign-in-teams.md)登录。
 
-## <a name="skype-token-revocation"></a>Skype 令牌吊销
+## <a name="skype-token-revocation"></a>Skype令牌吊销
 
 更改/重置密码时，较旧的客户端最多一小时不会收到消息和呼叫。 若要解决此问题，请重新启动应用或移动到较新的客户端。
 

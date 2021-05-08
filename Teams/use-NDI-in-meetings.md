@@ -23,13 +23,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51598461"
 ---
-# <a name="use-ndi-technology-in-microsoft-teams"></a>在 Microsoft Teams ® NDI 技术
+# <a name="use-ndi-technology-in-microsoft-teams"></a>在 ® 中使用 NDI Microsoft Teams 技术
 
  NewTek NDI® (网络设备接口) 技术是一种现代解决方案，用于将媒体设备与 (例如工作室摄像头和混音器) 。 NDI-®技术无需使用物理连接，而是通过本地 Intranet（包括在本地计算机上）建立连接。
 
 NDI® 技术已成为一种标准行业解决方案，用于为流生成实时内容，并获得了专业广播世界的重要认知和采用。
 
-Skype 之前在 2018 ®向 Skype 添加了 NDI-out 功能。 Microsoft Teams 使用此功能来改善会议体验。
+Skype 2018 年底® NDI Skype功能。 Microsoft Teams此功能来改善会议体验。
 
 NDI®仅限本地网络，只应视为生产工作流的一部分，而不是广播解决方案。
 
@@ -43,13 +43,13 @@ NDI®技术要求为用户启用两个步骤。
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-2. 填充此更改后，最终用户必须通过"设置权限"为®客户端启用 NDI®  >  **技术**。
+2. 填充此更改后，最终用户必须从"权限"®**客户端启用** NDI设置  >  **技术**。
 
 当用户加入会议时，他们将看到一条消息，通知他们正在直播会议。 如果用户不希望包含在直播中，则需要从会议删除。
 
-下图显示了用户在 Teams 会议看到的横幅消息。
+下图显示了用户在会议或会议Teams消息。
 
-![他 NDI® Teams 会议中显示的技术横幅。](media/NDI-disclosure.png)
+![he NDI®技术横幅，显示在 Teams 会议。](media/NDI-disclosure.png)
 
 横幅包含指向 [Microsoft 隐私策略 的链接](https://aka.ms/teamsprivacy)。
 
@@ -62,7 +62,7 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 - 租户内 - 完全支持，基于由会议策略组控制的 ring/tenantId/userId (提供) 
 - 联合 - 即使 (1 上具有 NDI®技术，也) <sup>流访问</sup>
-- 高级 - 无流访问
+- 高级版 - 无流访问
 - 匿名 – 无流访问
 - 来宾 – 无流访问  
 

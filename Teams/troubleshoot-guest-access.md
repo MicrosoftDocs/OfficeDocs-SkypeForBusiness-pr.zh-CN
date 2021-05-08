@@ -26,7 +26,7 @@ ms.locfileid: "51948678"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>排查 Microsoft Teams 中的来宾访问问题
 
-- 若要了解我们是否知道您的问题，请查看 [您的组织中的支持团队](/MicrosoftTeams/troubleshoot/teams-welcome)。
+- 若要了解我们是否了解你的问题，请查看[Teams的支持人员。](/MicrosoftTeams/troubleshoot/teams-welcome)
 - 若要查看与 Teams 中来宾访问相关的现有支持问题，请转到 [Teams 故障排除](/MicrosoftTeams/troubleshoot/)。
 - 来宾是组织外部人员。 如果你组织内部的某人（包括员工、现场合同工或现场代理），则不能添加为来宾。 这同样适用于你的关联公司。
 - 有关即将发布的新推出或更新后的来宾访问功能，请访问 [Teams 路线图](https://aka.ms/teamsroadmap)。
@@ -39,12 +39,12 @@ ms.locfileid: "51948678"
 Teams 中的来宾访问功能使用 Azure Active Directory (Azure AD) 企业对企业 (B2B) 及其许可模式。 所有 Microsoft 365 商业标准版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Microsoft 365 或 Office 365 许可证。
 
 > [!NOTE]
-> 必须在来宾主租户上启用 Teams，来宾才能登录，并使用 Teams 作为来宾访问租户 (资源) Teams。
+> Teams来宾的住宅租户上启用订阅，来宾才能登录并使用 Teams 作为另一资源租户上的 () 租户。
 
 如果看到许可错误，请务必阅读 [Azure AD](/azure/active-directory/external-identities/external-identities-pricing) 外部标识的计费模型，以确定满足组织中来宾访问需求的许可要求。
 
 - 来宾许可证计入邀请组织。 在计算所需的许可证数量时，请注意这一点。
-- 无论是受邀来宾来自另一个 Microsoft 365 组织，还是使用其个人电子邮件地址，许可证都计入组织。
+- 无论是受邀来宾来自另一个组织Microsoft 365还是使用其个人电子邮件地址，许可证都计入组织。
 
 ## <a name="support-for-b2b-user-types"></a>支持 B2B 用户类型
 

@@ -31,7 +31,7 @@ ms.locfileid: "51098508"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音频会议支持的语言
 
-在 Microsoft 365 或 Office 365 中设置和配置音频会议时，可以选择主要和辅助 (最多 4) 种语言，当呼叫者拨入 Skype for Business 或 Microsoft Teams 会议时，可以使用这些语言。 下面是音频会议支持的语言列表： 
+在 Microsoft 365 或 Office 365 中设置和配置音频会议时，可以选择主要和辅助 (最多 4) 种语言，当呼叫者拨入 Skype for Business 或 Microsoft Teams 会议时， 下面是音频会议支持的语言列表： 
   
 > [!IMPORTANT]
 > 只能在专用音频会议电话号码上更改主要和辅助语言。 
@@ -87,19 +87,19 @@ ms.locfileid: "51098508"
    
 如果你正在寻找可以购买音频会议的国家/地区，请参阅音频会议和呼叫计划的 [国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
-如果你要查找具有音频会议电话号码的特定国家和地区，请参阅 [Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 中的音频会议电话号码或 Skype for Business Online 中的音频会议 [电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)。
+如果你正在寻找具有音频会议电话号码的特定国家和地区，请参阅 Microsoft Teams 中的音频会议 电话 号码或[Skype for Business](phone-numbers-for-audio-conferencing-in-teams.md) [Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)中的音频会议 电话 号码。
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
 - 若要节省时间或自动执行此操作，可以使用 [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) 或 [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) cmdlet。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比使用 Microsoft 365 管理中心具有许多速度、简单性和工作效率优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
+- Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
@@ -112,4 +112,4 @@ ms.locfileid: "51098508"
   
 ## <a name="related-topics"></a>相关主题
 
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[尝试或购买音频会议Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 了解 Microsoft 365 和 Office 365 默认呼叫者 ID (用户分配的电话号码) 呼叫线路 ID。 可以更改或阻止用户的来电显示。
+description: 了解Microsoft 365 Office 365呼叫者 ID (用户分配的电话号码) 呼叫线路 ID。 可以更改或阻止用户的来电显示。
 ms.openlocfilehash: 41883e00955cf5f39f4420fb10ead1be2e131a77
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117150"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
-Microsoft 365 和 Office 365 中的电话系统提供默认来电显示，即用户分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 可以通过访问"如何在组织中使用来电显示"，详细了解如何在组织中 [使用来电显示](how-can-caller-id-be-used-in-your-organization.md)。
+电话系统和Microsoft 365 Office 365提供默认呼叫者 ID，即用户分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 可以通过访问"如何在组织中使用来电显示"，详细了解如何在组织中 [使用来电显示](how-can-caller-id-be-used-in-your-organization.md)。
   
 > [!TIP]
 > 不能阻止当前在 Skype for Business Online 中的传入呼叫。 
@@ -59,11 +59,11 @@ Microsoft 365 和 Office 365 中的电话系统提供默认来电显示，即用
 ## <a name="set-your-caller-id-policy-settings"></a>设置你的来电显示策略设置
 
 > [!NOTE]
-> 对于 Skype for Business Online 中所有的来电显示设置，必须使用 Windows PowerShell 并且不能使用 **Skype for Business 管理中心**。 
+> 对于 Skype for Business Online 中所有的呼叫者 ID 设置，必须使用 Windows PowerShell 并且不能使用Skype for Business **管理中心**。 
   
 ### <a name="start-powershell"></a>启动 PowerShell
 
-- 打开 Windows PowerShell 命令提示符并运行以下命令：
+- 打开Windows PowerShell命令提示符并运行以下命令：
 
 ```powershell
   # When using Teams PowerShell Module
@@ -134,15 +134,15 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，当你有多个任务需要执行时，可以使用可以简化日常工作的单一管理点来管理 Microsoft 365 或 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，Microsoft 365管理Office 365 Skype for Business管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [你可能希望使用 Office 365 Windows PowerShell Office 365 的六大原因](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [你可能希望使用 Windows PowerShell 管理Microsoft 365或Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell比使用 Microsoft 365 管理中心（例如，一次对许多用户进行设置更改时）具有许多速度、简单性和工作效率优势。 通过以下主题了解这些优势：
+- Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 通过以下主题了解这些优势：
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     

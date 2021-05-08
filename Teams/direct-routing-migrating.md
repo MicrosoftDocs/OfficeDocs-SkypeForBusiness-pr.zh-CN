@@ -27,16 +27,16 @@ ms.locfileid: "51122196"
 
 本文从 Skype for Business Online 和 Microsoft Teams 配置角度描述迁移到直接路由所需的内容。 本文介绍了如何从以下各项进行迁移： 
  
-- 适用于 Teams 和 Skype for Business Online (套餐的电话系统)  
-- Skype for Business Server 中具有本地 PSTN 连接的电话系统 (Skype for Business Online)   
-- 使用适用于 Skype for Business Online 的 Cloud Connector Edition (连接本地 PSTN 的电话) 
+- 电话系统 Online (呼叫Teams Skype for Business套餐)  
+- 电话系统 Skype for Business Server (Online 中的本地 PSTN Skype for Business连接)   
+- 电话系统适用于 Skype for Business Online 的 Cloud Connector Edition (与本地 PSTN 连接) 
 
 
 除了这些配置步骤外，还需要在会话边界控制器 (SBC) 上进行配置，才能将通话转接到新的路由。 那超出了本文档的范畴。 有关详细信息，请参阅 SBC 供应商文档。  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>用于各种 PSTN 连接选项的用户预配结束状态 
 
-下表显示了使用电话系统为所选 PSTN 连接选项预配的用户的结束状态。 仅显示与语音相关的属性。
+下表显示了为所选 PSTN 连接选项预配的用户的结束状态，电话系统。 仅显示与语音相关的属性。
 
 |用户对象属性 |具有通话套餐的电话系统|通过 Skype for Business Server 使用本地 PSTN 连接的电话系统
 |通过云连接器使用本地 PSTN 连接的电话系统|通过直接路由使用本地 PSTN 连接的电话系统|
@@ -101,7 +101,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
  
 
 > [!Important]
-> Cloud Connector Edition 将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](direct-routing-landing-page.md)
+> Cloud Connector Edition 将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由 将本地电话网络Teams[连接到本地电话网络](direct-routing-landing-page.md)。
 
 有关通过云连接器版本使用本地 PSTN 连接从电话系统迁移的详细信息，请参阅以下内容：
 

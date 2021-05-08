@@ -14,41 +14,35 @@ metadata:
   ms.reviewer: landerl
   audience: admin
   f1.keywords:
-  - NOCSH
+    - NOCSH
   localization_priority: Priority
   ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+    - Teams_ITAdmin_JourneyFromSfB
+    - M365-collaboration
   ms.custom:
-  - seo-marvel-apr2020
+    - seo-marvel-apr2020
   search.appverid: MET150
   appliesto:
-  - Microsoft Teams
-  ms.openlocfilehash: 1fea5f1d806058d8b7ff6d37414543347ba6adf8
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51093742"
+    - Microsoft Teams
 productDirectory:
   items:
-  - title: 规划升级（从这里开始！）
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: '无论你是于 20) 21 年 7 月 31 日停用 Skype for Business Online (之前升级到 Teams，还是将方案从 Skype for Business 本地环境迁移到 Teams，成功的转换都解决了技术和用户准备情况。 探索经过验证的框架、最佳做法和资源，以帮助你从 Skype for Business Online、Skype for Business Server 或混合环境成功过渡到 Teams。 受众 - 所有 (发起人、IT 管理员、用户准备情况/更改经理、项目主管) '
-    url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
-  - title: 实施 Teams 升级
-    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: 加入我们，根据目标和当前的 Skype for Business 环境，确定并准备执行最佳技术方法，将所有工作负荷迁移到 Teams。 大多数已完成转换的客户都启用了 Teams 及其当前 Skype for Business Online、Skype for Business Server 或混合实现。 此会话将共享关键注意事项和有价值的资源，以帮助你为组织定义最佳迁移策略。 受众 - IT 管理员
-    url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
+    - title: 规划升级（从这里开始！）
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
+      summary: '无论是在 Skype for Business Online () 2021 年 7 月 31 日停用之前升级到 Teams，还是将方案从 Skype for Business 本地环境迁移到 Teams，成功的转换都解决了技术和用户准备情况。 探索经过验证的框架、最佳做法和资源，以帮助你成功地从 Teams Online、Skype for Business Server 或混合Skype for Business转换到云。 受众 - 所有 (发起人、IT 管理员、用户准备情况/更改经理、项目主管) '
+      url: 'https://microsoftteams.eventbuilder.com/PlanYourUpgrade'
+    - title: 实施Teams升级
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
+      summary: 加入我们，根据目标和当前环境确定并准备执行最佳技术方法，将所有工作负荷Teams迁移到 Skype for Business 环境。 完成成功转换的大多数客户已Teams当前 Skype for Business Online、Skype for Business Server或混合实现。 此会话将共享关键注意事项和有价值的资源，以帮助你为组织定义最佳迁移策略。 受众 - IT 管理员
+      url: 'https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade'
 additionalContent:
   sections:
-  - items:
-    - title: 自己时间查看这些研讨会
-      summary: 请访问升级到 YouTube 上的 Microsoft Teams。
-      url: https://aka.ms/UpgradeOnDemand
-    - title: 扩展 Teams 方案？
-      summary: 查看我们的适用于 IT 专业人员的 Teams Teams Teams Talk 研讨会。
-      url: ./chalk-talks-landing-page.yml
-    - title: 不熟悉 Teams？
-      summary: 详细了解 Teams 入门。
-      url: ./teams-overview.md
+    - items:
+        - title: 自己时间查看这些研讨会
+          summary: 请访问升级以Microsoft Teams YouTube 上的视频。
+          url: 'https://aka.ms/UpgradeOnDemand'
+        - title: 扩展Teams方案？
+          summary: 查看我们的Teams It 专业人员的画质对话研讨会。
+          url: ./chalk-talks-landing-page.yml
+        - title: 不熟悉 Teams？
+          summary: 详细了解如何开始使用 Teams。
+          url: ./teams-overview.md

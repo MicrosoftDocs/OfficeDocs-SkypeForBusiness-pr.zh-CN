@@ -1,5 +1,5 @@
 ---
-title: Teams Android 设备的远程预配和登录
+title: Android 设备的远程预配Teams登录
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何为 Teams Android 设备远程预配和登录
+description: 了解如何在 Android 设备上远程预配Teams登录
 ms.openlocfilehash: f39b93a048cee84cf6890d063e272edbef5edb4e
 ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52059186"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Teams Android 设备的远程预配和登录
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 设备的远程预配Teams登录
 
-IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程预配设备，管理员需要上传正在预配的设备的 MAC ID 并创建验证码。 整个过程可以从 Teams 管理中心远程完成。
+IT 管理员可以远程预配和登录到 Teams Android 设备。 若要远程预配设备，管理员需要上传正在预配的设备的 MAC ID 并创建验证码。 整个过程可以从管理中心远程Teams完成。
 
 ## <a name="review-the-supported-devices"></a>查看支持的设备
 
@@ -35,14 +35,14 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 
 |设备类别|设备模型|固件版本|
 |-|-|-|
-|Teams 手机|Yealink T55/T56/T58|58.15.0.124|
-|Teams 手机|Yealink VP59|91.15.0.58|
-|Teams 手机|Yealink CP960|73.15.0.117|
-|Teams 手机|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams 手机|Crestron UC-2|1.0.3.52|
-|Teams 手机|  Poly Trio C60|  7.0.2.1071|
-|Teams 手机|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Teams 手机|  音频代码 C448HD/C450HD/C470HD|   1.10.120|
+|Teams手机|Yealink T55/T56/T58|58.15.0.124|
+|Teams手机|Yealink VP59|91.15.0.58|
+|Teams手机|Yealink CP960|73.15.0.117|
+|Teams手机|Yealink MP56/MP54/MP58|122.15.0.36|
+|Teams手机|Crestron UC-2|1.0.3.52|
+|Teams手机|  Poly Trio C60|  7.0.2.1071|
+|Teams手机|  CCX400/CCX500/CCX600    |7.0.2.1072|
+|Teams手机|  音频代码 C448HD/C450HD/C470HD|   1.10.120|
 
 ## <a name="add-a-device-mac-address"></a>添加设备 MAC 地址
 
@@ -64,12 +64,12 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 1. 输入一个位置，帮助技术人员确定安装设备的位置。
 1. 完成后 **，选择"** 应用"。
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>上传文件以添加设备 MAC 地址
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload文件以添加设备 MAC 地址
 
-1. 在"**正在等待激活"选项卡** 中，选择 **"上传 MAC ID"。**
+1. 在"**正在等待激活"** 选项卡中，Upload **MAC 的 "。**
 2. 下载文件模板。
 3. 输入 MAC ID 和位置，然后保存文件。
-4. **选择文件**，然后选择"上传 **"。**
+4. **选择文件**，然后选择 **"Upload"。**
 
 ## <a name="generate-a-verification-code"></a>生成验证码
 
@@ -82,9 +82,9 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 
 ## <a name="provision-the-device"></a>预配设备
 
-当设备接通电源并连接到网络时，技术人员将设置设备。 这些步骤在 Teams 设备上完成。
+当设备接通电源并连接到网络时，技术人员将设置设备。 这些步骤在设备上Teams完成。
 
-1. 技术人员从"设置 **"中选择"** 预配 **设备"。**  
+1. 技术人员从"设备 **"列表中选择**"预配 **设置"。**  
 
    !["操作"选项卡中的"预配新设备"选项](../media/provision-device1.png)
   
@@ -111,4 +111,4 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 ## <a name="related-article"></a>相关文章
 
 - [在 Teams 中管理设备](device-management.md)
-- [远程更新 Teams 设备](remote-update.md)
+- [远程Teams更新设备](remote-update.md)

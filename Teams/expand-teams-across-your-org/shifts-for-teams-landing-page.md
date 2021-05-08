@@ -1,6 +1,6 @@
 ---
 title: Teams 中的排班
-description: 获取在 Teams 中设置和管理日程安排管理工具 Shifts 所需的管理员指导。
+description: 获取设置和管理日程安排管理工具 Shifts 所需的管理员指导，Teams。
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -30,7 +30,7 @@ ms.locfileid: "51092550"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的排班
 
-Teams 为组织中的一线员工提供有效通信和协作所需的工具。 本文演示如何设置和管理。 轮班并使用 Teams 中的计划管理工具。
+Teams为组织中一线员工提供有效通信和协作所需的工具。 本文演示如何设置和管理。 排班并使用日程安排Teams。
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>为组织设置和管理班次
 
@@ -42,9 +42,9 @@ Teams 为组织中的一线员工提供有效通信和协作所需的工具。 �
 
 |               |               |
 | ------------- | ------------- |
-| ![api](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts 图形 API 允许将 Shifts 数据与外部员工管理系统集成。 你可以灵活地在后端构建自定义 Shifts 体验，同时为用户提供 Teams 中丰富的前端体验。             |
-| ![api](../media/api-small.svg) | **[员工管理集成](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果使用 Kronos 和 JDA 等第三方员工管理系统进行日程安排、时间和出席，则可以通过 Shifts Graph API 和 SDK 与开源集成直接集成 Shifts。 |
-| ![api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate 允许你从 Shifts 获取信息，与其他应用一起创建自定义工作流，并大规模执行操作。 使用很少的代码或无代码自动执行关键过程。 触发器和模板支持多种方案，例如，在不需要经理批准时为轮班请求启用自动审批。 |
+| ![api](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** 使用 Graph API，可以将 Shifts 数据与外部员工管理系统集成。 你可以灵活地在后端生成自定义 Shifts 体验，同时为用户提供丰富的前端体验Teams。             |
+| ![api](../media/api-small.svg) | **[员工管理集成](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果使用第三方员工管理系统（如 Kronos 和 JDA）进行日程安排、时间和出席，则可以通过 Shifts Graph API 和 SDK 与开源集成直接集成 Shifts。 |
+| ![api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate可让你从 Shifts 获取信息，并与其他应用一起创建自定义工作流，并大规模执行操作。 使用很少的代码或无代码自动执行关键过程。 触发器和模板支持多种方案，例如，在不需要经理批准时为轮班请求启用自动审批。 |
 
 ## <a name="featured-training"></a>特色培训
 

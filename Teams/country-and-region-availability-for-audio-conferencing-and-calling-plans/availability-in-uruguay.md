@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于乌拉圭的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
 ms.openlocfilehash: 8f316fc79b5c1dc8e9bb85fda30dc86dba23c13e
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,19 +36,19 @@ ms.locfileid: "51094484"
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于乌拉圭的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |不支持  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
 | 自动助理 <br/> |可用  <br/> |
@@ -57,7 +57,7 @@ ms.locfileid: "51094484"
    
 ## <a name="calling-plans"></a>通话套餐
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |否  <br/> |
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
@@ -67,7 +67,7 @@ ms.locfileid: "51094484"
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> | 根据请求 (蒙得维的[亚) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
@@ -77,7 +77,7 @@ ms.locfileid: "51094484"
   
 ## <a name="communications-credits"></a>通信点数
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |是  <br/> |
    

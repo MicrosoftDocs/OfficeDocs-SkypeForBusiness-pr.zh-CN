@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的会议策略和会议到期时间
+title: 会议策略和会议到期时间Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: ''
-description: 了解如何在 Microsoft Teams 中使用会议策略设置来控制会议到期时间。
+description: 了解如何使用会议策略设置来控制会议Microsoft Teams。
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 6e8821781eab70696c9b24c8df18cc8dd0b46870
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
@@ -25,20 +25,20 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51598611"
 ---
-# <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams 中的会议策略和会议到期时间
+# <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>会议策略和会议到期时间Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview"></a>概述
 
-[](meeting-policies-in-teams.md) Microsoft Teams 中的会议策略用于控制您的组织中的用户是否可以启动和安排会议，以及可供会议参与者用于用户安排的会议的功能。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 在 Microsoft Teams 管理中心或通过使用 Get、New、Set、Remove、Grant [](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlet 管理会议策略。 [](/powershell/module/skype/get-csteamsmeetingpolicy) [](/powershell/module/skype/new-csteamsmeetingpolicy) [](/powershell/module/skype/set-csteamsmeetingpolicy) [](/powershell/module/skype/remove-csteamsmeetingpolicy)
+[会议](meeting-policies-in-teams.md)Microsoft Teams用于控制您的组织中的用户是否可以启动和安排会议，以及可供会议参与者用于用户安排的会议的功能。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 在管理中心内Microsoft Teams使用 Get、New、Set、Remove、Grant [](/powershell/module/skype/new-csteamsmeetingpolicy)-CsTeamsMeetingPolicy PowerShell cmdlet 管理会议策略。 [](/powershell/module/skype/get-csteamsmeetingpolicy) [](/powershell/module/skype/set-csteamsmeetingpolicy) [](/powershell/module/skype/remove-csteamsmeetingpolicy) [](/powershell/module/skype/grant-csteamsmeetingpolicy)
 
-控制用户是否可以启动和安排会议的会议策略设置还控制用户安排的会议的到期时间。 当会议的会议加入链接和会议 ID 过期时，没有人可以加入会议。 以下会议策略设置确定用户是否可以在 Teams 中启动和安排会议，我们将在整篇文章中引用它们。
+控制用户是否可以启动和安排会议的会议策略设置还控制用户安排的会议的到期时间。 当会议的会议加入链接和会议 ID 过期时，没有人可以加入会议。 以下会议策略设置确定用户是否可以在 Teams 中启动和安排会议，我们整篇文章中都提到了这些设置。
 
 - [在频道中允许](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)"现在开会"：控制用户是否可以在频道中启动即席会议。
 - [允许频道会议计划](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)：控制用户是否可以在频道中安排会议。
-- [允许安排私人会议](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)：控制用户是否可以在 Teams 中安排私人会议。 当会议未发布到团队中的频道时，会议是私密的。
-- [允许 Outlook 添加](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)：控制用户是否可以从 Outlook 安排私人会议。 当会议未发布到团队中的频道时，会议是私密的。
+- [允许安排私人会议](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)：控制用户是否可以在 Teams 中安排私人Teams。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
+- [允许Outlook添加](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)：控制用户是否可以从 Outlook 安排私人Outlook。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
 - [允许现在在私人会议中召开会议](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)：控制用户是否可以启动即席私人会议。
 
 默认情况下，这些设置为打开状态。 当其中任一设置关闭时，分配有策略的任何用户都无法启动或安排该类型的新会议。 同时，用户以前启动或计划过期的所有现有会议的会议加入链接和会议 ID。
@@ -65,11 +65,11 @@ ms.locfileid: "51598611"
 
 下面汇总了本文中讨论的每个会议策略设置的会议到期工作原理。 
 
-|如果你希望... |执行此操作  |会议加入行为  |
+|如果你想要... |执行此操作  |会议加入行为  |
 |---------|---------|---------|
 |使频道"现在开会"由用户启动的会议过期  |在频道 **中关闭"允许现在开会"。**|没有人可以加入频道会议现在由用户启动的会议。         |
 |使用户安排的频道会议过期   |关闭"**允许频道会议计划"。**         |没有人可以加入用户安排的频道会议。 这可以防止用户加入以下活动：<ul><li>过去发生的频道会议。</li> <li>计划在将来召开但尚未发生的频道会议。</li><li>将来的定期频道会议实例。</li></ul>       |
-|使用户安排的私人会议过期    |关闭 **"允许安排私人会议"，***并关闭*"**允许 Outlook 加载项"。**          |没有人可以加入用户安排的私人会议。 这可以防止用户加入以下活动： <ul><li>过去发生的私人会议。</li> <li>计划在将来召开但尚未发生的私人会议。</li><li>将来的定期私人会议实例。</li></ul> " **允许安排私人会议** "和"允许 **Outlook** 加载项"都必须关闭，以使用户安排的私人会议过期。 如果一个设置处于关闭状态，另一个设置处于打开状态，则现有会议的会议加入链接和会议 ID 将保持活动状态，并且不会过期。      |
+|使用户安排的私人会议过期    |关闭 **"允许安排私人会议***"，并关闭*"允许 **Outlook加载项"。**          |没有人可以加入用户安排的私人会议。 这可以防止用户加入以下活动： <ul><li>过去发生的私人会议。</li> <li>计划在将来召开但尚未发生的私人会议。</li><li>将来的定期私人会议实例。</li></ul> "**允许安排私人** 会议"和"**允许** Outlook必须关闭加载项，以使用户安排的私人会议过期。 如果一个设置处于关闭状态，另一个设置处于打开状态，则现有会议的会议加入链接和会议 ID 将保持活动状态，并且不会过期。      |
 |使专用会议现在由用户启动的会议过期  |在私人 **会议中关闭"允许现在开会"。**          |现在没有人可以加入由用户启动的私人会议。         |
 
 如果希望用户访问以前由特定用户安排或启动的会议，您可以：

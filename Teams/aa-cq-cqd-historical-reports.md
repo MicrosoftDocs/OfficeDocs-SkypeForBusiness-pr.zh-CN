@@ -21,7 +21,7 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 了解如何使用呼叫质量仪表板 Power BI 报表查看自动助理呼叫队列历史数据。
+description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理呼叫队列历史数据。
 ms.openlocfilehash: d3c8bd7181bab9ee7c199aedbac8a6fcc4c78d75
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51121540"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理 &队列历史报告
 
-CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报告：
+CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告：
 
 - 自动助理 - 显示对进入自动助理的呼叫的分析。
 - 呼叫队列 - 显示进入呼叫队列的呼叫的分析。
@@ -41,9 +41,9 @@ CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报�
 
 ## <a name="what-are-the-requirements"></a>要求是什么？ 
 
-需要安装 Power BI Desktop。 可以从 Microsoft Windows 应用商店 [安装它](https://aka.ms/pbidesktopstore)。
+需要安装Power BI Desktop。 可以从 Microsoft store [Windows安装它](https://aka.ms/pbidesktopstore)。
 
-可以使用 Power BI Desktop 的免费版本。 最低兼容版本为 2020 年 9 月 (2.85.681.0) 。
+可以使用免费版本的 Power BI Desktop。 最低兼容版本为 2020 年 9 月 (2.85.681.0) 。
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>访问 CQD 管道的权限
 
@@ -51,28 +51,28 @@ CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报�
 
 ## <a name="installation"></a>安装 
 
-以下步骤假定已在计算机上安装 Power BI Desktop，并且帐户具有访问 CQD 数据管道所需的权限。
+以下步骤假定已在计算机上安装Power BI Desktop，并且帐户具有访问 CQD 数据管道所需的权限。
 
 请执行以下步骤：
 
-- 下载 [CQD Power BI 查询模板](https://www.microsoft.com/download/details.aspx?id=102291) ，将 zip 文件保存到计算机的目录。
+- 下载[CQD Power BI查询模板](https://www.microsoft.com/download/details.aspx?id=102291)，将 zip 文件保存到计算机的目录。
 
 - 双击 zip 文件以打开它。
 
-- 双击"CQ 和 AA 组合分析 20201105.pbit"模板文件，Power BI Desktop 应启动。
+- 双击"CQ 和 AA 组合分析 20201105.pbit"模板文件，Power BI Desktop启动。
 
 - 系统会提示选择 CQD 数据管道区域。 选择租户所在的区域。
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="选择 CQD 数据管道区域屏幕截图":::
 
- - 使用 Get-CsTenant (Skype for Business Online PowerShell cmdlet) 。ServiceInstance 输出。 
+ - 可以使用 Get-CsTenant Skype for Business Online PowerShell cmdlet (查看) 。ServiceInstance 输出。 
  区域将显示在 /之后，如以下示例所示：
 
    区域为 noam 的 microsoftcommunicationsonline/noam-4a-s7。
  
  - 报告将随示例数据一起启动。
  
- - 若要查看自己的数据，请单击 **"Power** BI Desktop 中的查询"下的"开始"选项卡中的"刷新"。
+ - 若要查看自己的数据，请单击"开始"选项卡中"查询"下的"Power BI Desktop"。
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="选择刷新选项的屏幕截图":::
 
@@ -80,7 +80,7 @@ CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报�
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="显示登录的屏幕截图":::
 
-- 选择 **"连接** "并观看数据刷新。
+- 选择 **连接** 并观看数据刷新。
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>数据延迟和 AA & CQ 分析
 
@@ -116,7 +116,7 @@ CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报�
 |自动助理目录搜索方法  |string                   |最后一个通讯簿搜索方法        |
 |自动助理传输操作          |string                   |呼叫转接目标类型<br>可能的值：<br>§ unknown - 未指定实体类型<br>§ user - 用户实体<br>§ orgaa - 自动助理实体<br>§ hunt_group - 调用队列实体<br>§ 应用程序 - 语音应用程序实体<br>§ external_pstn - 外部 PSTN 实体<br>§ shared_voicemail - 共享语音邮件实体|
 |自动助理通话结果              |string                   |调用结果：<br>§ 未知<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|自动助理呼叫流                |string                   |封装调用的不同自动助理状态<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 公告|
+|自动助理呼叫Flow                |string                   |封装调用的不同自动助理状态<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 公告|
 |是否自动助理涉及              |Boolean                  |指示 AA 是否参与呼叫 |
 |自动助理调用方操作计数      |int                      |调用方使用的操作计数         |
 |自动助理链持续时间秒数   |int                      |AA 中的通话持续时间                 |
@@ -131,7 +131,7 @@ CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报�
 |是否涉及调用队列                  |Boolean                  |如果调用队列被涉及到此调用中，则等于 1 |
 
 
-### <a name="power-bi-data-model-dimensions"></a>Power BI 数据模型维度
+### <a name="power-bi-data-model-dimensions"></a>Power BI数据模型维度
 
 |名称                                    |数据类型                |说明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
@@ -162,7 +162,7 @@ CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报�
 |平均呼叫持续时间 (秒)          |int                      |呼叫队列调用的总持续时间（以秒数表示）     |
 
 
-### <a name="power-bi-graph-description-auto-attendant"></a>Power BI 图形说明自动助理
+### <a name="power-bi-graph-description-auto-attendant"></a>Power BI图形说明自动助理
 
 |名称                                      |描述                            |
 |:---------------------------------------|:--------------------------------------|

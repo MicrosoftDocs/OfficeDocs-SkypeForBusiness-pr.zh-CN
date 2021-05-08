@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 管理中心管理表扬应用
+title: 在 表扬 管理中心Teams应用
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-description: 了解 Microsoft Teams 管理中心的"表扬"应用中的管理员设置
+description: 了解管理中心内 表扬 应用中Microsoft Teams设置
 ms.openlocfilehash: becaccc9c8370d25e3d085e3c896d4f1a8a0ad95
 ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
@@ -16,29 +16,29 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/24/2021
 ms.locfileid: "51995180"
 ---
-# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理表扬应用
+# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 表扬 管理中心Microsoft Teams应用
 
 > [!NOTE]
-> 管理员必须具有 Teams 许可证才能访问此功能。 如果尝试在没有 Teams 许可证的情况下访问此功能，则会显示一条错误消息。
+> 管理员必须具有一个Teams才能访问此功能。 如果尝试在没有许可证的情况下访问Teams，则会显示一条错误消息。
 
-Microsoft Teams 中的"表扬"应用可帮助用户向组织或课堂成员表示感激。 借助一系列锁屏提醒集以及创建自己的锁屏提醒的选项，"表扬"旨在帮助识别 Teams 用户从教育工作者到一线员工等各种工作所付出的工作。 若要了解有关详细信息，请查看向 [人员发送表扬](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+表扬应用Microsoft Teams帮助用户向组织或课堂成员表示感激。 借助一系列锁屏提醒集以及创建自己的锁屏提醒的选项，表扬 旨在帮助识别用户从教育工作者到一线员工Teams各种工作所付出的工作。 若要了解有关详细信息，请查看向[表扬发送通知。](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
 
-管理员可以从 Microsoft Teams 管理中心控制哪些徽章可供其组织使用。 在左侧导航栏中，转到 **"管理> Teams 应用"。** 在应用列表中，单击"表扬 **"，** 然后选择"设置 **"。**  在这里，你可以选择启用默认和内置锁屏提醒集并创建自定义锁屏提醒。
+管理员可以从管理中心控制其组织Microsoft Teams徽章。 在左侧导航栏中，转到Teams **应用>应用"**。 在应用列表中，**单击**"表扬"，然后选择"设置"。   在这里，你可以选择启用默认和内置锁屏提醒集并创建自定义锁屏提醒。
 
-!["表扬"应用的"设置"选项卡的屏幕截图](media/manage-praise-app-settings.png)
+![设置 应用表扬选项卡的屏幕截图](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> "表扬"应用功能不适用于美国政府云。
+> 表扬应用功能不适用于美国政府云。
 
 ## <a name="use-built-in-badge-sets"></a>使用内置锁屏提醒集
 
-内置集是 Microsoft 为"表扬"应用设计的锁屏提醒集合。 管理员不可编辑这些集。 默认锁屏提醒集已启用，可在"表扬"应用中使用。 若要更改默认集或任何锁屏提醒集的可用性，请切换为"开"或"关"。 
+内置集是 Microsoft 为应用应用设计的锁表扬集合。 管理员不可编辑这些集。 默认锁屏提醒集已启用，可在 表扬 应用中使用。 若要更改默认集或任何锁屏提醒集的可用性，请切换为"开"或"关"。 
 
 <a name="default-badges"></br></a>
 
 ### <a name="default-badges"></a>默认锁屏提醒
 
-默认锁屏提醒集旨在帮助 Teams 用户识别其同事，以完成工作。
+默认锁屏提醒集旨在帮助Teams识别其同事，以完成工作。
 
 ![默认锁屏提醒集预览](media/default-set-praise.png)
 
@@ -65,7 +65,7 @@ Microsoft Teams 中的"表扬"应用可帮助用户向组织或课堂成员表�
    > [!TIP]
    > 如果您没有使用十六进制值，本文包含 [一个快速](#hex-colors-intro) 介绍，用于展示如何使用这些值。
 
-3. 上传锁屏提醒图像。 接受的文件类型为 。PNG。 图像文件必须小于 40 KB，最大尺寸为 216 X 216 像素。
+3. Upload锁屏提醒图像。 接受的文件类型是.PNG。 图像文件必须小于 40 KB，最大尺寸为 216 X 216 像素。
 ![带有背景、文本和图像字段标签的锁屏提醒](media/praise-app-badge-fields.png)
 
 4. 本地化锁屏提醒名称：在 **"本地化锁屏提醒名称"下**，选择"**添加"。** 从下拉列表中选择所需的区域设置。 然后以指定语言输入锁屏提醒名称。
@@ -87,7 +87,7 @@ Microsoft Teams 中的"表扬"应用可帮助用户向组织或课堂成员表�
 
 例如，红色表示的十六进制值是#FF0000因为红色设置为可能的最高值，而绿色和蓝色分别设置为可能的最低值 00。
 
-若要浏览不同颜色及其十六进制值，请查看 [必应颜色选取器](https://www.bing.com/search?q=color+picker)。
+若要浏览不同颜色及其十六进制值，请查看必应[选取器。](https://www.bing.com/search?q=color+picker)
 
 下面是一系列示例颜色，可让你入门：
 
@@ -110,13 +110,13 @@ Microsoft Teams 中的"表扬"应用可帮助用户向组织或课堂成员表�
 
 **选择图像时，请记住锁屏提醒尺寸。** 为获得最佳质量，我们建议上传 216 x 216 像素的图像文件 (是最大尺寸) 。 避免拉伸或扭曲图像以适应这些尺寸。
 
-**如果你的锁屏提醒图像不是矩形，请使图像透明。** 在将图像文件上传到"表扬"之前，需要这样做。
+**如果你的锁屏提醒图像不是矩形，请使图像透明。** 在将图像文件上传到其他位置之前，需要表扬。
 
 ![左侧：具有非透明图像的锁屏提醒，右侧：具有透明图像的锁屏提醒](media/praise-app-best-practices.png)
 
 ## <a name="badge-set-assets"></a>锁屏提醒集资产
 
-无法修改内置锁屏提醒集，因此当启用内置集时，该集内的所有锁屏提醒将添加到"表扬"应用。 如果要从内置集中添加特定锁屏提醒并排除其他锁屏提醒，请重新创建要用作自定义锁屏提醒的锁屏提醒。 你可以下载锁屏提醒图像，然后从下表中的内置集查找锁屏提醒的文本和背景颜色。
+无法修改内置锁屏提醒集，因此启用内置集后，该集内的所有锁屏提醒将添加到表扬应用。 如果要从内置集中添加特定锁屏提醒并排除其他锁屏提醒，请重新创建要用作自定义锁屏提醒的锁屏提醒。 你可以下载锁屏提醒图像，然后从下表中的内置集查找锁屏提醒的文本和背景颜色。
 
 ### <a name="default-badges-assets"></a>默认锁屏提醒资产
 

@@ -79,7 +79,7 @@ Microsoft 正在努力提供更多用于故障排除和监视的工具。 请定
 
 直接路由服务向调用分析或 SBC 日志报告非常描述性的错误代码。 
 
-呼叫质量仪表板提供有关呼叫质量和可靠性的信息。 若要详细了解如何使用呼叫分析排查问题，请参阅为 Microsoft [Teams](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) 和 Skype for Business Online 启用和使用呼叫质量仪表板和使用呼叫分析来排查通话质量 [不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)。 
+呼叫质量仪表板提供有关呼叫质量和可靠性的信息。 若要详细了解如何使用呼叫分析排查问题，请参阅为 Microsoft Teams 和[Skype for Business Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)启用和使用呼叫质量仪表板和使用呼叫分析来排查呼叫[质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)。 
 
 在呼叫失败时，呼叫分析提供标准 SIP 代码来帮助进行故障排除。 
 

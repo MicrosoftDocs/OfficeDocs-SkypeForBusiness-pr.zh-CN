@@ -31,11 +31,11 @@ ms.locfileid: "51096422"
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>用于直接路由 (SBA) 的可生存分支设备
 
 
-有时，使用直接路由连接到 Microsoft Phone System 的客户站点可能会遇到 Internet 中断。
+有时，使用直接路由连接到 Microsoft 电话 系统的客户站点可能会遇到 Internet 中断。
 
 假设客户站点（称为分支）暂时无法通过直接路由连接到 Microsoft 云。 但是，该分支内的 Intranet 仍完全正常运行，用户可以连接到提供 PSTN 连接的 SBC (会话) 控制器。
 
-本文介绍如何使用可生存分支设备 (SBA) ，使 Microsoft Phone System 在中断时继续拨打和接听公用电话交换网 (PSTN) 呼叫。
+本文介绍如何使用可生存分支设备 (SBA) 使 Microsoft 电话 系统在服务中断时继续拨打和接听公用电话交换网 (PSTN) 呼叫。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -43,23 +43,23 @@ SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随
 
 若要获取具有嵌入式 Survivable 分支设备的最新会话边界控制器固件，请联系 SBC 供应商。 此外，需要以下各项：
 
-- 需要为"媒体绕过"配置 SBC，以确保分支站点中的 Microsoft Teams 客户端媒体可以直接与 SBC 一起流动。 
+- 需要为"媒体旁路"配置 SBC，以确保分支Microsoft Teams客户端中的媒体可以直接流向 SBC。 
 
 - 应在 SBA VM OS 上启用 TLS1.2。
 
-## <a name="supported-teams-clients"></a>支持的 Teams 客户端
+## <a name="supported-teams-clients"></a>支持Teams客户端
 
-以下 Microsoft Teams 客户端支持 SBA 功能： 
+以下客户端支持 SBA Microsoft Teams功能： 
 
-- Microsoft Teams Windows 桌面版 
+- Microsoft Teams Windows桌面 
 
-- Microsoft Teams macOS 桌面版 
+- Microsoft Teams macOS 桌面 
 
 ## <a name="how-it-works"></a>运作方式
 
-在 Internet 中断期间，Teams 客户端应自动切换到 SBA，并且正在进行的调用应继续进行，且不会中断。 用户无需执行任何操作。 一旦 Teams 客户端检测到 Internet 已启动且所有传出呼叫完成，客户端将回退到正常运行模式并连接到其他 Teams 服务。 SBA 将收集的呼叫数据记录上传到云，呼叫历史记录将更新，以便租户管理员查看此信息。 
+在 Internet 中断期间，Teams客户端应自动切换到 SBA，并且正在进行的调用应继续且不会中断。 用户无需执行任何操作。 当客户端Teams Internet 已启动且所有传出调用完成时，客户端将回退到正常运行模式并连接到其他 Teams 服务。 SBA 将收集的呼叫数据记录上传到云，呼叫历史记录将更新，以便租户管理员查看此信息。 
 
-当 Microsoft Teams 客户端处于脱机模式时，可以使用以下与通话相关的功能： 
+当Microsoft Teams客户端处于脱机模式时，可以使用以下与调用相关的功能： 
 
 - 通过本地 SBA/SBC 进行 PSTN 呼叫，媒体流经 SBC。
 
@@ -69,14 +69,14 @@ SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随
 
 ## <a name="configuration"></a>配置
 
-若要运行 SBA 功能，Teams 客户端需要知道每个分支站点中可用的 SBA，以及将哪些 SBA 分配给该网站中的用户。 配置步骤如下：
+若要运行 SBA 功能，Teams需要知道每个分支站点中提供哪些 SBA，以及将哪些 SBA 分配给该站点中的用户。 配置步骤如下：
 
 1. 创建 SBA。
-2. 创建 Teams 分支可生存性策略。
+2. 创建Teams可生存性策略。
 3. 将策略分配给用户。
-4. 向 Azure Active Directory 注册适用于 SBA 的应用程序。
+4. 使用应用程序注册 SBA Azure Active Directory。
 
-所有配置都通过使用 Skype for Business Online PowerShell cmdlet 完成。  (Teams 管理中心尚不支持直接路由 SBA 功能.)  
+所有配置都通过使用 Skype for Business PowerShell cmdlet 完成。  (Teams 管理中心尚不支持直接路由 SBA 功能.)  
 
  (有关配置 SBC 的信息，以及指向 SBC 供应商文档的链接，请参阅本文末尾的会话边界控制器配置。) 
 
@@ -149,15 +149,15 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>向 Azure Active Directory 注册 SBA 的应用程序
+### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>使用应用程序注册 SBA Azure Active Directory
 
 若要允许租户中使用的不同 SBA 从 Microsoft 365 读取所需数据，需要向 Azure Active Directory 注册 SBA 的应用程序。 
 
 有关应用程序注册详细信息，请参阅以下内容：
 
-- [为 Azure Active Directory 开发业务线应用](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [开发适用于企业的业务线Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [将应用程序注册到 Microsoft 标识平台](/azure/active-directory/develop/quickstart-register-app)。  
+- [将应用程序注册到 Microsoft 标识平台。](/azure/active-directory/develop/quickstart-register-app)  
 
 只需注册一个应用程序，供租户中所有 SBA 使用。 
 
@@ -172,7 +172,7 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 - 支持的帐户类型 = 仅此组织目录中的帐户。 
 - Web 重定向 Uri = https://login.microsoftonline.com/common/oauth2/nativeclient 。
 - 隐式授予令牌 = 访问令牌和 ID 令牌。 
-- API 权限 = Skype 和 Teams 租户管理员访问权限 -> 应用程序权限 -> application_access_custom_sba_appliance。
+- API 权限 = Skype Teams 管理员访问权限 -> 应用程序权限 -> application_access_custom_sba_appliance。
 - 客户端机密：可以使用任何说明和过期时间。 
 - 请记住在创建客户端机密后立即复制它。 
 - 应用程序 (客户端) ID 显示在"概述"选项卡上。

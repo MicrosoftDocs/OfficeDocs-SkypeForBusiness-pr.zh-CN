@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中阻止入站呼叫
+title: 阻止传入Microsoft Teams
 ms.author: v-cichur
 author: cichur
 manager: serdars

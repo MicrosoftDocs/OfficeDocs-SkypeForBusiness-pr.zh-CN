@@ -45,7 +45,7 @@ AV 技术可以用于最后一项任务，但你组织的 IT 部门将需要完�
 -   [证书](rooms-prep.md#certificates)
 -   [代理](rooms-prep.md#proxy)
 
-**专业提示** - 如果打算使用代理服务器来访问 Teams 或 Skype for Business Online，请首先 [阅读本文](../proxy-servers-for-skype-for-business-online.md)。 对于通过代理服务器的 Skype for Business 流量，我们建议完全绕过代理服务器。 Skype for Business 流量已经加密，因此代理服务器无法使其更安全。 作为更广泛部署的一部分，我们建议您遵循[为 Teams 准备网络](../prepare-network.md)以进行带宽规划和评估网络对实时流量的适用性中的指导。
+**专业提示** - 如果打算使用代理服务器来访问 Teams 或 Skype for Business Online，请首先 [阅读本文](../proxy-servers-for-skype-for-business-online.md)。 在通过代理服务器Skype for Business流量时，建议完全绕过代理服务器。 Skype for Business 流量已经加密，因此代理服务器无法使其更安全。 作为更广泛部署的一部分，我们建议您遵循[为 Teams 准备网络](../prepare-network.md)以进行带宽规划和评估网络对实时流量的适用性中的指导。
 
 |    |     |
 |-----------|------------|
@@ -129,11 +129,11 @@ _Microsoft Teams 会议室服务帐户计划表示例_
 
 ### <a name="device-software-installation"></a>设备软件安装 
 
-规划部署 Microsoft Teams 会议室时，有许多选项需要考虑安装所需的软件。 下表描述了常见的应用场景和方法。 
+规划部署Microsoft Teams 会议室时，有许多选项需要考虑安装所需的软件。 下表描述了常见的应用场景和方法。 
 
 | **应用场景**            | **方法**         |
 |-------------------------|-----------------------|   
-|部署一些 Microsoft Teams 会议室设备 (<10) 。 | 如果使用基于 Surface Pro 的 Microsoft Teams 会议室，请按照[每个设备的安装说明进行操作](console.md)。 [这个便利的视频将引导你完成整个过程。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 如果使用集成解决方案，请使用供应商映像进行部署，并根据需要配置设置。 |
+|部署一些 Microsoft Teams 会议室 设备 (<10) 。 | 如果使用基于 Surface Pro 的 Microsoft Teams 会议室，请按照[每个设备的安装说明进行操作](console.md)。 [这个便利的视频将引导你完成整个过程。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 如果使用集成解决方案，请使用供应商映像进行部署，并根据需要配置设置。 |
 | 从单个供应商部署 10 到 50 台设备。     | 创建基于 WIM 的映像，在[指南中的步骤 6 ](console.md)之后暂停，然后捕获分发映像以用于克隆分发技术。    |
 | 部署 50 多个 Microsoft Teams 会议室设备，部署来自多个供应商的设备，或需要组织特定的代理作为部署的一部分。 | 使用基于任务序列器的软件构建和分发平台，如 [Microsoft Endpoint Configuration Manager](rooms-scale.md)。  |
 

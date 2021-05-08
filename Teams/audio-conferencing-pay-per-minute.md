@@ -55,14 +55,14 @@ ms.locfileid: "51617784"
 > 通过查看音频会议 中的"查看要呼叫位置的费率"部分，可以找到与这些类型的呼叫相关联的拨入和拨出[费率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)。
   
   
-按分钟付费要求组织设置 [通信](what-are-communications-credits.md) 信用额度。 如果需要更多详细信息，请参阅 [为](set-up-communications-credits-for-your-organization.md) 组织和/或 Microsoft Teams 附加许可 [设置通信信用额度](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+按分钟付费要求组织设置 [通信](what-are-communications-credits.md) 信用额度。 如果需要更多详细信息，请参阅[为](set-up-communications-credits-for-your-organization.md)组织设置通信信用额度和/[或Microsoft Teams附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
   
-若要为贵组织的用户启用音频会议每分钟付费，请参阅试用或购买 [Microsoft Office 365 或 Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)中的音频会议。
+若要为贵组织的用户启用音频会议每分钟付费，请参阅试用或购买音频会议[（Microsoft Office 365 Office 365）。](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 ## <a name="why-is-it-best-for-you"></a>为什么它最适合你？
 
-- 对于每个与会者在计划会议期间拨打的每个入站或出站呼叫，将按分钟付费 (费率因收费或免费呼叫和目标) 而异，而不是在移动设备或电脑上使用 Skype for Business 或 Teams 应用程序。
+- 对于每个与会者在计划会议期间拨打的每个入站或出站呼叫，将按分钟付费 (收费费率因收费或免费呼叫和目标) 而异，而不是在移动设备或电脑上使用 Skype for Business 或 Teams 应用程序。
 
 - 能够管理成本，因为管理员可以控制限制国际 (国内) 的拨出类型，这可以通过组织者的会议完成。 请参阅[音频会议和用户 PSTN](./outbound-calling-restriction-policies.md)呼叫的出站呼叫限制策略
 

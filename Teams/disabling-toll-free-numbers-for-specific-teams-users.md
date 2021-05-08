@@ -47,7 +47,7 @@ ms.locfileid: "51096342"
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>禁用特定用户的免费电话号码 
 
-从 **Microsoft Teams 管理中心**：
+从 **Microsoft Teams管理中心**：
 
 1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 
@@ -63,4 +63,4 @@ ms.locfileid: "51096342"
  
 **使用 PowerShell**  
 
-有关详细信息， [请参阅 Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) 参考。
+有关详细信息[，Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)参考。

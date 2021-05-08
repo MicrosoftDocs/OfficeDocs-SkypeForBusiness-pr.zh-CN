@@ -1,5 +1,5 @@
 ---
-title: 在管理中心使用常规 Teams 模板
+title: 使用Teams中心中的常规模板
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何通过使用管理中心提供预定义的设置、频道和预安装的应用，使用常规 Teams 模板创建团队结构。
+description: 了解如何使用常规Teams模板，通过使用管理中心提供预定义的设置、频道和预安装的应用来创建团队结构。
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,15 +26,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51120723"
 ---
-# <a name="use-general-teams-templates-in-the-admin-center"></a>在管理中心使用常规 Teams 模板
+# <a name="use-general-teams-templates-in-the-admin-center"></a>使用Teams中心中的常规模板
 
 Teams 模板提供预定义的设置、频道和预安装的应用模板，让你能够快速轻松地创建团队。
 
-Teams 模板具有围绕财务需求设计的团队结构的预构建定义。 你还可以扩展 Teams 模板，以创建根据特定组织需求量身定制的团队。
+Teams模板具有围绕财务需求设计的团队结构的预生成定义。 你还可以扩展 Teams 模板，以创建根据特定组织需求量身定制的团队。
 
-本文介绍每个 Teams 模板，并推荐其使用方法。
+本文介绍每个Teams模板，并推荐其使用方法。
 
-如果你负责规划、部署和管理整个财务组织的多个团队，则本文适合你。 你已在贵组织内部署 Teams 服务。 如果尚未推出 Teams，请首先阅读如何[推广 Microsoft Teams。](./deploy-overview.md)
+如果你负责规划、部署和管理整个财务组织的多个团队，则本文适合你。 你已在贵组织内部署 Teams 服务。 如果尚未推出Teams，请首先阅读如何[推出](./deploy-overview.md)Microsoft Teams。
 
 若要了解有关常规团队模板的详细信息，请参阅[开始使用 Teams 模板](get-started-with-teams-templates-in-the-admin-console.md)。
 
@@ -47,13 +47,13 @@ Teams 模板具有围绕财务需求设计的团队结构的预构建定义。 �
 | 协作解决全球问题或事件 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |频道： <ul><li>常规<li>公告</li><li>世界新闻</li><li>业务连续性</li><li>外部通信</li><li>审批请求</li><li>远程工作</li><li>内部通信</li><li>外部通信</li><li>客户投诉</li><li>Kudos</li><li>高管更新</li></ul>应用： <ul><li>表扬</li><li>Wiki</li><li>网站</li><li>Planner</li></ul>|
 ||||
 
-## <a name="adopt-office-365"></a>采用 Office 365
+## <a name="adopt-office-365"></a>采用Office 365
 
 通过推广和帮助同事使用新技术来帮助构建、发展及维持你的支持者社区推广。
 
 | 基本模板类型 |baseTemplateId| 此基本模板包含的属性 |
 | ------------------|--|-----------------------------------------------------------|
-| 采用 Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  频道： <ul><li>常规</li> <li>公告</li> <li>冠军角</li> <li>团队表单</li></ul> 应用： <ul><li>Wiki</li>  <li>日历</li><li>技能开发</li><li>贷款处理</li><li>客户投诉</li><li>Kudos</li><li>有趣的内容</li><li>合规性</li></ul>|
+| 采用Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  频道： <ul><li>常规</li> <li>公告</li> <li>冠军角</li> <li>团队表单</li></ul> 应用： <ul><li>Wiki</li>  <li>日历</li><li>技能开发</li><li>贷款处理</li><li>客户投诉</li><li>Kudos</li><li>有趣的内容</li><li>合规性</li></ul>|
 ||||
 
 ## <a name="manage-a-project"></a>管理项目

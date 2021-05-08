@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: 了解如何在 Microsoft Teams 中创建、修改用户以及将其添加到自定义呼叫策略，以及各种呼叫策略设置。
+description: 了解如何创建、修改用户以及将其添加到 Microsoft Teams 中的自定义调用策略，以及各种调用策略设置。
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -30,7 +30,7 @@ ms.locfileid: "51653945"
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams 中的呼叫策略
 ===================================
 
-在 Microsoft Teams 中，呼叫策略控制哪些呼叫和呼叫转发功能可供用户使用。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转发或同时拨打其他用户或外部电话号码、将呼叫路由到语音邮件、将呼叫发送到呼叫组、对入站和出站呼叫使用委派，等等。
+在Microsoft Teams，调用策略控制哪些呼叫和呼叫转发功能可供用户使用。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转发或同时拨打其他用户或外部电话号码、将呼叫路由到语音邮件、将呼叫发送到呼叫组、对入站和出站呼叫使用委派，等等。
 
 可以使用自动创建的 (组织范围的) 策略，或者创建和分配自定义策略。
 
@@ -38,7 +38,7 @@ ms.locfileid: "51653945"
 
 按照以下步骤创建自定义调用策略。
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"语音**  >  **呼叫策略"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **呼叫策略"。**
 2. 选择“**添加**”。
 3. 打开或关闭要用于呼叫策略的功能。
 4. 若要控制用户是否可以将入站呼叫路由到语音邮件，请选择"**已启用"或**"**用户控制"。** 若要阻止路由到语音邮件，请选择"已 **禁用"。**
@@ -48,7 +48,7 @@ ms.locfileid: "51653945"
 
 按照以下步骤编辑现有的调用策略。
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，选择"**语音**  >  **呼叫策略"。**
+1. 在管理中心的左侧导航Microsoft Teams，选择"**语音**  >  **呼叫策略"。**
 2. 单击要修改的策略旁边的 ，然后选择"编辑 **"。**
 3. 进行您需要的更改，然后单击"保存 **"。**
 
@@ -62,7 +62,7 @@ ms.locfileid: "51653945"
 
 ### <a name="make-private-calls"></a>拨打私人电话
 
-此设置控制 Teams 中的所有通话功能。 关闭此选项可关闭 Teams 中的所有通话功能。
+此设置控制所有调用Teams。 关闭此选项可关闭所有呼叫Teams。
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>呼叫转发和同时拨打给您的组织中的人员
 
@@ -98,7 +98,7 @@ ms.locfileid: "51653945"
 
 ### <a name="allow-web-pstn-calling"></a>允许 Web PSTN 呼叫
 
-此设置允许用户使用 Teams Web 客户端呼叫 PSTN 号码。
+此设置允许用户使用客户端客户端呼叫 PSTN Teams PSTN 号码。
 
 ### <a name="allow-music-on-hold"></a>允许保留音乐
 

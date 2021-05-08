@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 选择 Teams 客户端应用，规划终结点质量，获取有关在终结点Wi-Fi和选择音频设备的建议。
+description: 选择Teams客户端应用，规划终结点质量，获取有关在终结点Wi-Fi和选择音频设备的建议。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -31,11 +31,11 @@ ms.locfileid: "51094730"
 
 ## <a name="client-deployment"></a>客户端部署
 
-Microsoft Teams 的客户端适用于 Web、桌面 (Windows 和 Mac) 以及 Android (和 iOS) 。 有关 Windows 和 Mac 桌面 (和移动客户端) 的详细信息，请参阅获取 [Microsoft Teams 的客户端](./get-clients.md)。
+Microsoft Teams客户端可用于 Web、桌面 (Windows 和 Mac) ，以及 Android (和 iOS) 。 有关如何安装桌面客户端和 Mac (Windows和移动) 的其他详细信息，请参阅获取适用于 Microsoft Teams 的[客户端](./get-clients.md)。
 
 ## <a name="client-updates"></a>客户端更新
 
-Teams 的主要优势之一是客户端自动保持最新状态。 PC 和 Mac 上的客户端是通过使用一个后台进程进行更新，该进程在该应用处于空闲状态时检查是否有新的内部版本并下载新客户端。
+应用程序的主要优势Teams之一是客户端自动保持最新状态。 PC 和 Mac 上的客户端是通过使用一个后台进程进行更新，该进程在该应用处于空闲状态时检查是否有新的内部版本并下载新客户端。
 
 <!--ENDOFSECTION-->
 
@@ -45,27 +45,27 @@ Teams 的主要优势之一是客户端自动保持最新状态。 PC 和 Mac �
 
 ![描述质量的三个要素的示意图](media/plan-my-users-experience-image1.png "描述质量的三个组件以及服务管理如何与这三个组件重叠的示意图。将焦点放在终结点上。")
 
-Teams 终结点可在许多设备上运行，包括电脑、Mac、平板电脑和移动设备。 部分体验不仅包括设备，还包括用户如何连接到设备，例如，使用设备的内置麦克风/扬声器、耳机或优化耳机。 使用优化耳机可以丰富整体用户体验。
+Teams终结点可在许多设备上运行，包括电脑、Mac、平板电脑和移动设备。 部分体验不仅包括设备，还包括用户如何连接到设备，例如，使用设备的内置麦克风/扬声器、耳机或优化耳机。 使用优化耳机可以丰富整体用户体验。
 
 以下有关终结点规划的指导将帮助你确保你的组织成功上线 Teams。
 
 ## <a name="endpoint-capability"></a>终结点功能
 
-规划的第一部分是确保组织的所有电脑和其他设备都可以运行 Teams。 这不仅要查看硬件要求，而且还要了解 PC 在后台执行的其他操作。 许多组织会运行其他软件，包括入侵检测系统和反恶意软件，这些软件会影响设备的基础性能。
+规划的第一部分是确保组织内的所有电脑和其他设备都可以运行Teams。 这不仅要查看硬件要求，而且还要了解 PC 在后台执行的其他操作。 许多组织会运行其他软件，包括入侵检测系统和反恶意软件，这些软件会影响设备的基础性能。
 
-有关 Web、桌面和移动 (平台中 Teams 客户端的软件要求) ，请参阅获取 [Microsoft Teams](./get-clients.md)的客户端。
+有关 Web、桌面和移动Teams每个平台上Teams (客户端的软件要求) ，请参阅获取适用于[Microsoft Teams。](./get-clients.md)
 
 ## <a name="endpoint-firewalls"></a>终结点防火墙
 
 客户端防火墙会对用户体验产生很大影响。
-客户端防火墙会影响通话质量，以及阻止建立通话。 根据 [Microsoft 365 或 Office 365 URL](/microsoft-365/enterprise/urls-and-ip-address-ranges)和 IP 地址范围中的信息在客户端防火墙上配置适当的排除项。 你的第三方供应商会提供有关如何创建排除项的具体指导。
+客户端防火墙会影响通话质量，以及阻止建立通话。 根据客户端防火墙中的信息配置相应的排除项，Microsoft 365 Office 365 [URL](/microsoft-365/enterprise/urls-and-ip-address-ranges)和 IP 地址范围。 你的第三方供应商会提供有关如何创建排除项的具体指导。
 
 >[!NOTE]
 > Microsoft Teams 会自动为 Windows 防火墙更新适当的防火墙配置。
 
 ## <a name="wi-fi-recommendations-for-endpoints"></a>针对终结点的 Wi-Fi 建议
 
-在 Microsoft Teams 中部署优化Wi-Fi以支持实时工作负荷需要大量规划。 以下部分提供了一些常规指南，可帮助你在规划终结点时避免常见错误。
+需要大量规划来部署优化Wi-Fi网络，以支持实时工作负荷Microsoft Teams。 以下部分提供了一些常规指南，可帮助你在规划终结点时避免常见错误。
 
 ### <a name="wi-fi-drivers"></a>Wi-Fi 驱动程序
 
@@ -87,11 +87,11 @@ Teams 终结点可在许多设备上运行，包括电脑、Mac、平板电脑�
 
 ### <a name="80211-power-save-protocol"></a>802.11 电源保存协议
 
-如果你的组织使用不支持 802.11 Power Save 协议的无线接入点或路由器，你可能会在 Windows 设备上运行的 Microsoft Teams 中遇到通话中断或通话质量差的问题。 如果无法升级你的无线接入点或路由器，则应在使用电池的设备上更新 Windows 电源计划设置。 以下[支持文章](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)中提供了进一步的详细信息和配置指导。
+如果你的组织使用不支持 802.11 Power Save 协议的无线接入点或路由器，你可能会在 Windows 设备上运行的 Microsoft Teams 中遇到呼叫中断或呼叫质量不佳的问题。 如果无法升级你的无线接入点或路由器，则应在使用电池的设备上更新 Windows 电源计划设置。 以下[支持文章](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)中提供了进一步的详细信息和配置指导。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>组织中将部署哪些 Teams 客户端？</li><li>最初如何向用户部署 Teams 客户端？</li><li>谁负责评估终结点和设备，以验证它们是否满足 Teams 的质量体验要求？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录部署 Teams 客户端时要遵循的过程。</li><li>评估终结点和设备，并执行所需的修正。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>组织中Teams哪些客户端？</li><li>最初如何向用户Teams客户端？</li><li>Who负责评估终结点和设备，以验证它们是否满足Teams体验的要求？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录部署客户端时要遵循Teams的过程。</li><li>评估终结点和设备，并执行所需的修正。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -108,7 +108,7 @@ Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能
 选择了设备后，将其包含在试点测试计划中以便进行最终验证。 应在试点期间利用调查来收集反馈，以确保你的设备策略是最佳的。
 
 > [!NOTE]
-> 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找通过此计划认证的设备，请参阅 [Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices) 设备和 [USB 音频和视频设备](/SkypeForBusiness/certification/devices-usb-devices)。
+> 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找通过此计划认证的设备，请参阅[Microsoft Teams设备和](https://products.office.com/microsoft-teams/across-devices/devices)USB[音频和视频设备](/SkypeForBusiness/certification/devices-usb-devices)。
 
 
 

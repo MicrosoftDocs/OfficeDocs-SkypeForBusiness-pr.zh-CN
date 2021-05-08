@@ -1,5 +1,5 @@
 ---
-title: '适用于 Teams IT 和合规性管理员的审核患者应用 '
+title: '适用于 IT 和Teams管理员的审核患者应用 '
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
-description: 了解如何审核 Teams 管理员的 Patients 应用
+description: 了解如何审核患者应用Teams管理员
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 3cf850b8ae7312fa6c43f879baefb617f48d30b3
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -34,7 +34,7 @@ ms.locfileid: "51096186"
 
 ## <a name="meet-hipaa-requirements"></a>满足 HIPAA 要求
 
-根据 HIPAA 指南，医疗保健提供商需要保留对 PHI 的所有访问的记录，以便对更改进行审核。 Microsoft 致力于向使用 Microsoft Teams 的企业客户承诺帮助他们满足 HIPAA 要求和控制。 根据审核日志搜索功能一文中所述，完全跟踪通过患者应用访问 PHI，在 Microsoft 365 合规中心提供 [日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 。
+根据 HIPAA 指南，医疗保健提供商需要保留对 PHI 的所有访问的记录，以便对更改进行审核。 Microsoft 致力于向使用 MICROSOFT TEAMS 的企业客户提供帮助，帮助他们满足 HIPAA 要求和控制。 根据审核日志搜索功能一文中所述，完全跟踪通过患者应用对 PHI 的访问，Microsoft 365合规性中心[提供日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 > [!IMPORTANT]
 > 根据法律，维护患者隐私的负担由医疗保健提供商承担。 法律使患者享有隐私，并要求 IT 管理员或 HIPAA 控制人员可以轻松确定哪些护理人员、医生或社交工作者访问或更改了患者记录。 PHI 访问违规的最常见示例之一是访问 VIP 患者。 若要审核日志 PHI 访问违反情况进行调查，并满足 HIPAA 要求，需使用此功能。
@@ -45,8 +45,8 @@ ms.locfileid: "51096186"
 
 审核依赖于多个以前的配置：
 
-1. 管理员必须咨询其 FHIR 服务提供商，以患者应用使用的格式安装 EMR。 请参阅 [将电子医疗保健记录集成到 Microsoft Teams 中](patients-app.md)。
-2. 医疗保健提供商管理员必须启用 Teams 管理中心中的患者应用。 有关详细信息 [，请参阅在 Microsoft Teams](../../teams-app-setup-policies.md) 中管理应用设置策略和相关文章。
+1. 管理员必须咨询其 FHIR 服务提供商，以患者应用使用的格式安装 EMR。 请参阅[将电子医疗保健记录集成到 Microsoft Teams。](patients-app.md)
+2. 医疗保健提供商管理员必须启用患者应用，Teams管理中心。 有关详细信息[，请参阅](../../teams-app-setup-policies.md)管理Microsoft Teams和相关文章中的应用设置策略。
 3. 管理员必须启用活动审核，就像启用任何活动日志审核一样，如开始之前和打开或关闭审核日志[搜索中所述](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)。 [](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) 如果审核日志记录已打开，则"患者"应用不需要任何特殊功能。 当医疗保健提供商在团队中安装和运行应用时，审核日志会记录其 PHI 活动。
 4. 然后，管理员需要宣布"患者"应用的可用性，并且医疗保健工作人员必须开始生成活动才能包括在审核中。
 
@@ -67,7 +67,7 @@ Patients 应用具有其自己的记录活动，如下表所示：
 | 将患者添加到列表 | PatientListAddPatient | 一位患者已添加到患者列表。 |
 | 添加了患者备注 | PatientNoteAdd | 向患者记录添加了一个便笺。 |
 | 创建患者架构 | PatientSchemaCreate | 已创建患者记录中使用的一组列。 |
-| 用户启动了导出 | ExportInitiation | 患者数据从"患者"应用导出到 Excel 文件中。 该文件将保存在工作组 Sharepoint 网站中。 |
+| 用户启动了导出 | ExportInitiation | 患者数据从 Patients 应用导出到 Excel 文件中。 该文件将保存在工作组 Sharepoint 网站中。 |
 | 已创建患者列表 | PatientListCreate | 用户创建了患者列表。|
 | 设置默认患者列表| PatientListDefaultSet| 用户将特定列表设置为默认列表。|
 | 已从列表中删除患者| PatientListRemovePatient | 从患者列表中删除了一位患者。 |
@@ -82,7 +82,7 @@ Patients 应用具有其自己的记录活动，如下表所示：
 
 可以根据需要自定义审核，以搜索或筛选任何这些记录的活动。
 
-Microsoft Teams 活动 中介绍了 Microsoft [Teams 记录的一般活动](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
+一般情况下，Microsoft Teams记录的活动在 Microsoft Teams[中介绍](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
 
 ## <a name="related-topics"></a>相关主题
 

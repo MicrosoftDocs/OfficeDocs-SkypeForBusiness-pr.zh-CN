@@ -12,7 +12,7 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: 管理员可以了解 Microsoft Teams 应用正在向组织请求哪些数据和权限。
+description: 管理员可以了解应用从Microsoft Teams请求的数据和权限。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -28,7 +28,7 @@ ms.locfileid: "51120854"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
-Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升级和卸载的应用包的方法。 这些功能包括：
+Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升级和卸载的应用包的方法。 这些功能包括：
 
 - 机器人
 - 消息传送扩展
@@ -37,7 +37,7 @@ Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升�
 
 应用由用户许可，由 IT 从策略角度进行管理。 但是，大多数情况下，应用的权限和风险配置文件由应用包含的功能的权限和风险配置文件定义。 因此，本文重点介绍功能级别的权限和注意事项。
 
-下面以大写字母列出的权限（例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE）不会显示在 [Microsoft Teams](/microsoftteams/platform/overview) 开发人员文档或 [Microsoft Graph](/graph/permissions-reference)的权限中。 它们只是本文的描述性简写。
+下面以大写字母列出的权限（例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE）不会显示在[Microsoft Teams](/microsoftteams/platform/overview)开发人员文档或 Microsoft Graph[的权限](/graph/permissions-reference)中。 它们只是本文的描述性简写。
 
 
 | 标题   | 描述    |
@@ -45,7 +45,7 @@ Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升�
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>使用下表作为指南，了解正在调查的应用正在请求哪些权限。</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>研究应用或服务本身，确定是否允许在组织中访问它。 例如，机器人发送和接收来自用户的消息，并且（企业自定义机器人除外）位于符合性边界之外。 因此，包含机器人的任何应用都需要这些权限，并且至少具有该风险配置文件。 </li></ul>|
 
-另请参阅 [请求 Microsoft Teams 选项卡的设备权限](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)。
+另请参阅["请求设备权限"选项卡 Microsoft Teams。](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
 
 ## <a name="global-app-permissions-and-considerations"></a>全局应用权限和注意事项
 
@@ -61,9 +61,9 @@ Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升�
 
 - 应用必须披露它使用哪些数据，以及该数据在其使用条款和隐私策略链接中用于哪些内容。
 
-- [特定于资源的许可](resource-specific-consent.md) 提供应用可以请求的一组权限，该权限显示在应用的安装屏幕上。 若要详细了解特定于资源的许可权限，请参阅 [Graph 权限参考](/graph/permissions-reference#teams-resource-specific-consent-permissions)。
+- [特定于资源的许可](resource-specific-consent.md) 提供应用可以请求的一组权限，该权限显示在应用的安装屏幕上。 若要详细了解特定于资源的许可权限，请参阅Graph[引用](/graph/permissions-reference#teams-resource-specific-consent-permissions)。
 
-- 应用可能还需要除特定于资源的许可权限外的权限。 安装应用后，应用可以通过许可提示请求 Graph 权限。 有关详细信息，请参阅了解 [Azure AD 应用程序许可体验](/azure/active-directory/develop/application-consent-experience)。 可以在 Azure 门户中配置 API 权限和许可。 有关详细信息，请参阅 [Azure Active Directory 许可框架](/azure/active-directory/develop/consent-framework)。
+- 应用可能还需要除特定于资源的许可权限外的权限。 安装应用后，应用可以通过Graph请求权限。 有关详细信息，请参阅了解 [Azure AD 应用程序许可体验](/azure/active-directory/develop/application-consent-experience)。 可以在 Azure 门户中配置 API 权限和许可。 若要了解有关详细信息，请参阅Azure Active Directory[框架](/azure/active-directory/develop/consent-framework)。
 
 ## <a name="bots-and-messaging-extensions"></a>机器人和消息传送扩展
 
@@ -101,7 +101,7 @@ Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升�
 
 - 从理论上讲，机器人消息可以包含指向钓鱼或恶意软件网站的链接，但用户、租户管理员或 Microsoft 可以全局阻止机器人。
 
-- 机器人可以检索 (，并) 应用已添加到的团队成员或个人或群组聊天中的单个用户的基本标识信息。 若要获取有关这些用户的进一步信息，机器人必须要求他们登录到 Azure AD (Azure Active Directory) 。
+- 机器人可以检索 (，并) 应用已添加到的团队成员或个人或群组聊天中的单个用户的基本标识信息。 若要获取有关这些用户的进一步信息，机器人必须要求他们登录到 Azure Active Directory (Azure AD) 。
 
 - 机器人可以检索 (，并) 团队中的频道列表;此数据会离开企业网络。
 
@@ -117,18 +117,18 @@ Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升�
 
 - 应用 (以及我们的 AppSource 评审) 需要自行决定是否出于有效目的 (通过 POST_MESSAGE_TEAM 权限) 用户发布个人聊天消息。 如果滥用，用户可以阻止机器人，租户管理员可以阻止应用，并且 Microsoft 可以在必要时集中阻止机器人。
 
-<sup>1</sup> 某些机器人仅向 (POST_MESSAGE_USER) 。 它们称为"仅通知"机器人，但术语不是指允许或不允许机器人执行什么操作，这意味着机器人不希望公开聊天体验。 Teams 使用此字段禁用通常启用的 UI 中的功能;与公开聊天体验的机器人相比，机器人在允许执行哪些操作方面没有限制。
+<sup>1</sup> 某些机器人仅向 (POST_MESSAGE_USER) 。 它们称为"仅通知"机器人，但术语不是指允许或不允许机器人执行什么操作，这意味着机器人不希望公开聊天体验。 Teams此字段禁用 UI 中通常启用的功能;与公开聊天体验的机器人相比，机器人在允许执行哪些操作方面没有限制。
 
 <sup>2</sup> 由应用的文件的 manifest.js对象上的 supportsFiles Boolean 属性控制。
 
 > [!NOTE]
 > 如果机器人有其自己的登录，则用户首次登录时，会经历另一种不同的许可体验。
 >
->目前，与 Teams 应用内的任何功能关联的 Azure AD 权限 (机器人、选项卡、连接器或消息传送扩展) 完全独立于此处列出的 Teams 权限。
+>目前，与 Teams 应用 (机器人、选项卡、连接器或消息扩展) 内的任何功能关联的 Azure AD 权限与此处列出的 Teams 权限完全分离。
 
 ## <a name="tabs"></a>选项卡
 
-选项卡是在 Teams 中运行的网站。
+选项卡是在外部运行的网站Teams。
 
 ### <a name="required-permissions"></a>所需权限
 
@@ -142,7 +142,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 - 选项卡的风险配置文件几乎与在浏览器选项卡中运行的同一网站相同。 
 
-- 选项卡还会获取其运行上下文，包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、驻留在 (的 Microsoft 365 组的 ID（如果是团队) 、租户 ID 和用户的当前区域设置）。 但是，若要将这些 ID 映射到用户的信息，该选项卡必须让用户登录到 Azure AD。
+- 选项卡还会获取运行它的上下文，包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、Microsoft 365 组的 ID（如果它是团队 () 、租户 ID 和用户的当前区域设置）。 但是，若要将这些 ID 映射到用户的信息，该选项卡必须让用户登录到 Azure AD。
 
 ## <a name="connectors"></a>连接器
 
@@ -154,7 +154,7 @@ POST_MESSAGE_CHANNEL
 
 ### <a name="optional-permissions"></a>可选权限
 
-REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作的消息，允许用户向连接器消息发布定向回复，例如，通过向 GitHub 问题添加响应或向 Trello 卡添加日期。
+REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作的消息，允许用户向连接器消息发布目标回复，例如，通过向 GitHub 问题添加响应或向 Trello 卡添加日期。
 
 ### <a name="considerations"></a>注意事项
 
@@ -177,7 +177,7 @@ REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作的消息，允许用
 
 ## <a name="outgoing-webhooks"></a>传出 Webhook
 
-*传出 Webhook* 由团队所有者或团队成员进行创建。 它们不是 Teams 应用的功能;为了完整，包含此信息。
+*传出 Webhook* 由团队所有者或团队成员进行创建。 它们不是应用Teams功能;为了完整，包含此信息。
 
 ### <a name="required-permissions"></a>所需权限
 
@@ -191,7 +191,7 @@ RECEIVE_MESSAGE，REPLYTO_MESSAGE。 可以接收来自用户的消息并回复�
 
 - 传出 Webhook 类似于机器人，但权限较少。 必须明确提及它们，就像机器人一样。
 
-- 注册传出 Webhook 时，会生成一个机密，该机密允许传出 Webhook 验证发送方是 Microsoft Teams 而不是恶意攻击者。 此机密应保留为机密;有权访问它的任何人都可以模拟 Microsoft Teams。 如果机密泄露，可以删除并重新创建传出 Webhook，并生成新的机密。
+- 注册传出 Webhook 时，会生成一个机密，该机密允许传出 Webhook 验证发送方是否Microsoft Teams恶意攻击者。 此机密应保留为机密;有权访问它的任何人都可以模拟Microsoft Teams。 如果机密泄露，可以删除并重新创建传出 Webhook，并生成新的机密。
 
 - 虽然可以创建不验证机密的传出 Webhook，但建议不要这样做。
 

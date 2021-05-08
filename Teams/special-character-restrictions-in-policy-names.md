@@ -31,21 +31,21 @@ ms.locfileid: "51116980"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams 策略中采用了哪些特殊字数限制？
 
-**你无法创建或** 编辑 (消息、会议等) Microsoft Teams 管理中心中名称中具有特殊字符的策略。 
+**不能创建或** 编辑消息 (会议等) 在管理中心中名称中具有特殊字符Microsoft Teams策略。 
 
-如果策略名称包含特殊字符，在 Microsoft Teams 管理中心管理这些策略时将受到限制。 **因此，我们强烈建议策略名称不要包含特殊字符**。 
+如果策略名称包含特殊字符，则管理中心管理这些Microsoft Teams受到限制。 **因此，我们强烈建议策略名称不要包含特殊字符**。 
 
-在 Teams 中为会议和消息传递使用 PowerShell 创建的策略名称可以具有特殊字符，例如 @、#、$。 但是，如果要在 Microsoft Teams 管理中心更改策略，则不能更改。 
+已使用 PowerShell 创建的策略名称可用于会议Teams消息，例如 @、#、$等特殊字符。 但是，如果要在管理中心内更改Microsoft Teams策略，则不能。 
 
-如果策略具有特殊字符，则需要使用 Windows PowerShell (永久) 编辑策略，或在 Microsoft Teams 管理中心中创建新策略，其设置与旧策略相同，并将其分配给同一组用户。
+如果策略包含特殊字符，则需要使用 Windows PowerShell (forever) 编辑策略，或在 Microsoft Teams 管理中心中创建新策略，其设置与旧策略相同，并将其分配给同一组用户。
 
 ## <a name="to-remove-special-characters"></a>删除特殊字符
 
 **步骤 1 - 使用 PowerShell 建立远程连接。**
 > [!NOTE]
-> Skype for Business Online 连接器当前是最新 Teams PowerShell 模块的一部分。
+> Skype for Business联机连接器当前是 PowerShell 模块Teams的一部分。
 >
-> 如果你使用的是最新的 [Teams PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则不需要安装 Skype for Business Online 连接器。
+> 如果使用的是[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams最新版本，则无需安装 Skype for Business Online 连接器。
 
 ```powershell
   # When using Teams PowerShell Module
@@ -68,7 +68,7 @@ ms.locfileid: "51116980"
 
 **步骤 3 - 创建新策略。**
 
-可以使用 Microsoft Teams 管理中心或 PowerShell 使用相同的设置创建新策略。
+可以使用管理中心或 PowerShell 使用相同的设置Microsoft Teams策略。
 
 运行此操作会创建一个新策略，但需要通过查看 [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) 并运行它来添加正确的设置：
 
@@ -96,13 +96,13 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么需要使用 Office 365 PowerShell？](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [为何需要使用 powerShell Office 365？](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比使用 Microsoft 365 管理中心具有许多速度、简单性和工作效率优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点：
+- Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
@@ -111,4 +111,4 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
-    > Skype for Business Online 的 Windows PowerShell 模块可用于创建连接到 Skype for Business Online Windows PowerShell Microsoft Teams 的远程桌面会话。 此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
+    > 使用 Windows PowerShell Online 的 Skype for Business 模块可以创建连接到 Windows PowerShell Online 和 Skype for Business Microsoft Teams 的远程Microsoft Teams。 此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。

@@ -24,9 +24,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/26/2021
 ms.locfileid: "51383966"
 ---
-# <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams 中的实时事件录制策略
+# <a name="live-event-recording-policies-in-microsoft-teams"></a>实时事件录制策略Microsoft Teams
 
-有几个选项用于录制 Microsoft Teams 实时事件。 录制选项是使用录制策略设置的。 本文介绍各种设置。
+可以使用多个选项来录制实时Microsoft Teams活动。 录制选项是使用录制策略设置的。 本文介绍各种设置。
 
 录制选项是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 设置的](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)。
 
@@ -62,7 +62,7 @@ ms.locfileid: "51383966"
 
 | 选项                                       | 省/市/自治区   | DVR                                                   | VOD                                                     | 录制                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| 可供制作者和演示者使用的记录 | 选中     | DVR 可用，AZURE 媒体服务 (AMS) 存储 180 天 | 与会者可以访问和观看活动                     |                              |
+| 可供制作者和演示者使用的记录 | 选中     | DVR 可用，AZURE 媒体服务 (AMS) 资产存储 180 天 | 与会者可以访问和观看活动                     |                              |
 |                                                  | 未选中 | DVR 可用，AMS 资产存储 180 天 | 结束后，与会者无法访问事件 |                              |
 ||已禁用 (未选中) |DVR 可用，事件后将删除 AMS 资产|结束后，与会者无法访问事件||
 | 可供制作者和演示者使用的记录 | 选中     |                                                           |                                                             | 创建并存储 MP4 |
@@ -73,4 +73,4 @@ ms.locfileid: "51383966"
 - [什么是 Teams 实时活动?](what-are-teams-live-events.md)
 - [规划 Teams 实时事件](plan-for-teams-live-events.md)
 - [配置 Teams 实时事件设置](configure-teams-live-events.md)
-- [Teams 云会议录制](../cloud-recording.md)
+- [Teams云会议录制](../cloud-recording.md)

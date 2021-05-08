@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何在 Microsoft Teams 中设置审核频道，包括如何将团队成员添加为频道审阅人。
+description: 了解如何在频道中设置审核Microsoft Teams，包括如何将团队成员添加为频道审阅人。
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 81e5159cf0e64a4c5b88afea51de528c299daf80
 ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
@@ -25,9 +25,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/22/2021
 ms.locfileid: "51948638"
 ---
-# <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在 Microsoft Teams 中设置和管理频道审核
+# <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在视频中设置和管理Microsoft Teams
 
-在 Microsoft Teams 中，团队所有者可以启用标准频道的审核，以控制谁可以启动新帖子和回复该频道中的帖子。
+在Microsoft Teams中，团队所有者可以启用标准频道的审核，以控制谁可以启动新帖子和回复该频道中的帖子。
 
 团队所有者还可以将团队成员添加为审阅人。 团队所有者可能没有频道级别的主题专业知识，无法最好地支持频道审核。 通过允许特定团队成员审查频道，团队所有者和频道审查者可以分担管理频道中内容和上下文的责任。 例如，团队所有者可以将业务所有者或内容所有者添加为审阅人，这样他们就可以控制该频道中的信息共享。
 
@@ -44,7 +44,7 @@ ms.locfileid: "51948638"
 
 ## <a name="scenarios"></a>方案
 
-下面是组织如何在 Teams 中使用频道审核的一些示例。
+下面是一些示例，说明组织如何在 Teams 中使用频道审核。
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>使用频道作为公告频道
 
@@ -52,17 +52,17 @@ ms.locfileid: "51948638"
 
 在此方案中，团队所有者将市场营销潜在顾客添加为审阅人，以便他们可以在频道中发布公告，并关闭团队成员回复该频道中的消息的能力。
 
-### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>在 Teams for Education 中使用频道进行课堂讨论
+### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>在适用于教育的 Teams 中使用频道进行课堂讨论
 
-在 Teams 教育中，科学教师希望使用频道让学生参与有关特定课堂主题的重点讨论。
+在Teams中，科学教师希望使用频道让学生参与有关特定课堂主题的重点讨论。
 
 在此方案中，教师允许其教学助手主持频道。 然后，教学助理可以创建新文章来发起和推动与学生的讨论。
 
 ## <a name="manage-channel-moderation"></a>管理频道审核
 
-在 Teams 中，转到频道，单击"**更多选项..."**  > **管理频道**。 在这里，可以启用和关闭审查、将团队成员添加为审阅人，以及设置首选项。
+在Teams，转到频道，单击"**更多选项..."**  > **管理频道**。 在这里，可以启用和关闭审查、将团队成员添加为审阅人，以及设置首选项。
 
-通道审核是按通道设置。 没有用于通道审核的租户级设置。 如果希望我们添加租户级频道审核设置，请通过 [Teams UserVoice 请求](https://microsoftteams.uservoice.com/)。
+通道审核是按通道设置。 没有用于通道审核的租户级设置。 如果希望我们添加租户级通道审核设置，请通过[UserVoice](https://microsoftteams.uservoice.com/)Teams它。
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
@@ -76,7 +76,7 @@ ms.locfileid: "51948638"
 
 ### <a name="add-or-remove-channel-moderators"></a>添加或删除频道审查器
 
-在 **"审阅人是谁？"** 下，单击" **管理**"，然后添加或删除团队成员作为审阅人。 团队所有者和审阅人可以添加和删除其他审阅人。  
+在 **Who审阅人？"** 下，单击 **"管理**"，然后添加或删除作为审阅人的团队成员。 团队所有者和审阅人可以添加和删除其他审阅人。  
 
 ### <a name="set-team-member-permissions"></a>设置团队成员权限
 

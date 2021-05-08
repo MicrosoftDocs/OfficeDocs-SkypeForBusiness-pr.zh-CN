@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 按照以下步骤创建默认电话号码，让呼叫者加入 Microsoft Teams 会议。
+description: 按照以下步骤创建默认电话号码，让呼叫者加入Microsoft Teams会议。
 ms.openlocfilehash: 476075ccf5e261695564b78ec084605af9e6898c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51117170"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
-Microsoft 365 和 Office 365 中的音频会议使贵组织的用户能够创建 Microsoft Teams 会议，然后允许用户使用电话拨入这些会议。
+使用Microsoft 365 Office 365音频会议Microsoft Teams您的组织中的用户创建 Microsoft Teams 会议，然后允许用户使用电话拨入这些会议。
   
 会议桥为你的组织提供了一套拨入电话号码。 它们都可用于加入会议组织者已创建的会议，但你可以选择在其会议邀请中包括哪些号码。
   
@@ -45,7 +45,7 @@ Microsoft 365 和 Office 365 中的音频会议使贵组织的用户能够创建
 
 已启用音频会议的用户的会议邀请中包含的电话号码由默认会议收费电话号码和默认会议免费电话号码用户设置定义。 每个设置指定将在给定用户的会议邀请中包括哪些收费和免费号码。 如上所述，每个会议邀请都包含一个收费电话号码、一个可选的免费电话号码和一个链接，该链接可打开可用于加入给定会议的所有拨入电话号码的完整列表。
 
-对于新用户，默认会议收费号码是根据用户启用音频会议服务的 Microsoft 365 管理中心中设置的使用位置分配的。 如果会议网桥中的收费号码与用户的国家/地区匹配，该号码将自动分配为用户的默认收费号码。 如果没有，则定义为会议网桥默认收费号码的号码将分配为用户的默认收费号码。  
+对于新用户，默认会议收费号码是根据在用户的 Microsoft 365 管理中心中为用户启用音频会议服务时设置的使用位置分配的。 如果会议网桥中的收费号码与用户的国家/地区匹配，该号码将自动分配为用户的默认收费号码。 如果没有，则定义为会议网桥默认收费号码的号码将分配为用户的默认收费号码。  
 
 为用户启用音频会议服务后，租户管理员随时都可以从用户的初始值更改用户的默认收费和免费电话号码。
 
@@ -59,7 +59,7 @@ Microsoft 365 和 Office 365 中的音频会议使贵组织的用户能够创建
 
 2. 在左侧导航栏中，单击"用户 **"。**
 
-    ![显示 Microsoft Teams 管理中心中的选择用户](media/Admin-users.png)
+    ![显示在管理中心Microsoft Teams用户](media/Admin-users.png)
 
 3. 从可用用户列表中单击用户名。
 
@@ -70,20 +70,20 @@ Microsoft 365 和 Office 365 中的音频会议使贵组织的用户能够创建
 5. 使用 **"收费电话号码** " **或"免费** 电话号码"字段输入用户号码。
 
 > [!IMPORTANT]
-> 更改用户的音频会议设置时，必须更新定期和将来的 Microsoft Teams 会议并发送给与会者。
+> 更改用户的音频会议设置时，必须更新定期Microsoft Teams会议并发送给与会者。
 
 ## <a name="want-to-use-windows-powershell"></a>想要使用Windows PowerShell
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
 - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
   
 ## <a name="related-topics"></a>相关主题
 
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[尝试或购买音频会议Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 [更改音频会议网桥中的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

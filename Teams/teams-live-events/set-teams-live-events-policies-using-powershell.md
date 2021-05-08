@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 有关如何使用 PowerShell 在 Teams 中设置策略以控制谁可以在组织中举行实时事件以及事件可用功能的示例。
+description: 如何使用 PowerShell 在 Teams 中设置策略的示例，以控制谁可以在组织中保存实时事件以及事件可用的功能。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -27,7 +27,7 @@ ms.locfileid: "51119141"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
-可以使用以下 Windows PowerShell cmdlet 为 Teams 中的实时事件设置和分配策略设置： 
+可以使用以下 cmdlet Windows PowerShell为实时事件设置和分配策略Teams： 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -37,12 +37,12 @@ ms.locfileid: "51119141"
 下面是一些示例。
 
 > [!NOTE]
-> 在运行这些 cmdlet 之前，必须连接到 Skype for Business Online PowerShell。 有关详细信息，请参阅使用 [Microsoft 365 或 Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)管理 Skype for Business Online。
+> 在运行这些 cmdlet 之前，必须连接到 Skype for Business PowerShell。 有关详细信息，请参阅使用[powerShell Skype for Business管理 Microsoft 365 Office 365 Online。](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="allow-users-to-schedule-live-events"></a>允许用户计划实时事件 
 
 > [!NOTE]
-> 这些示例适用于 Teams 中生成的事件。 对于使用外部应用或设备生成的事件，必须执行其他步骤。 有关详细信息，请参阅 [允许用户计划使用外部应用或设备生成的事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。
+> 这些示例适用于在 Teams 中生成的事件。 对于使用外部应用或设备生成的事件，必须执行其他步骤。 有关详细信息，请参阅 [允许用户计划使用外部应用或设备生成的事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。
 
 **允许用户计划实时事件**
 
@@ -130,7 +130,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>设置实时事件的录制选项
 > [!NOTE]
-> 此设置仅适用于 Teams 中生成的事件。
+> 此设置仅适用于在 Teams 中生成的事件。
 
 设置全局策略以禁用实时事件的录制：
 ```PowerShell
@@ -138,7 +138,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 ```
 ## <a name="set-live-captions-and-subtitles-in-live-events"></a>在实时活动中设置实时字幕和字幕
 > [!NOTE]
-> 此设置仅适用于 Teams 中生成的事件。 
+> 此设置仅适用于在 Teams 中生成的事件。 
 
 设置全局策略，为活动与会者启用实时 (字幕) 字幕：
 ```PowerShell

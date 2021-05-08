@@ -67,7 +67,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 <sup>7</sup> Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果在策略中关闭 **-SetPhotoEnabled** 设置，则用户无法添加、更改或删除其个人资料图片，因此，如果管理员更改了照片，则 porfile 图片不会同步到团队。
 <sup>8</sup> 需要满足[为本地托管的邮箱创建和查看会议的要求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)部分中列出的要求。
 
-<sup>9</sup> 还需要至少一个 Exchange Online 计划 1 许可证。 有关详细信息，请参阅 [搜索本地用户的 Teams 聊天数据](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+<sup>9</sup>至少还需要Exchange Online计划 1 许可证。 有关详细信息，请参阅[搜索Teams本地用户的聊天数据](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的要求
 
@@ -107,12 +107,12 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 
 若要为这些用户启用日历委派，请执行以下操作：
 
-- 还必须完成在 Skype for Business Online 和 Skype for Business Online 之间配置集成和 [OAuth 中所述Exchange Server;](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)这些步骤将为 Teams 计划应用程序提供确认委派权限所需的权限。
+- 还必须完成在 Skype for Business Online 和 Exchange Server 之间配置集成和[OAuth 中所述Exchange Server;](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)这些步骤将为用户Teams应用程序提供确认代理权限所需的权限。
  
   > [!NOTE]
   > 步骤 2 包括 ArchiveApplication 的角色分配，这不是委派所必需的。
 
-- 代表其他人安排会议时，适用于 Outlook 的 Teams 计划加载项需要 Exchange 2013 CU19 或更高版本。 这是为了支持我们的服务对邮箱进行未经身份验证的发现，以检查代理人对委托人邮箱的权限。 代理人和委托人位置可以是 Exchange 2013 或更高版本，或者是 Exchange Online，但自动发现必须解析为 Exchange 2013 CU19 或更高版本。
+- 代表Teams安排会议时，Outlook计划加载项Exchange 2013 CU19 或更高版本。 这是为了支持我们的服务对邮箱进行未经身份验证的发现，以检查代理人对委托人邮箱的权限。 代理人和委托人位置可以是 Exchange 2013 或更高版本，或者是 Exchange Online，但自动发现必须解析为 Exchange 2013 CU19 或更高版本。
 
 ## <a name="additional-considerations"></a>其他注意事项
 

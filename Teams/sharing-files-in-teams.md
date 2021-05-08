@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中共享文件和文件夹
+title: 在文件夹中共享文件和Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: 了解 Microsoft Teams 中的文件和文件夹共享体验。
+description: 了解文件夹中的文件和文件夹共享Microsoft Teams。
 ms.openlocfilehash: 53997f4493a0217e980427ab0d1f85d64095b9c9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "51117020"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>在 Microsoft Teams 中共享文件
 
-在 Microsoft Teams 中，用户可以与组织内外的其他 Teams 用户共享内容。 在 Teams 中共享文件和文件夹基于 SharePoint 和 OneDrive 中配置的设置，因此，为 SharePoint 和 OneDrive 设置的任何设置都会影响 Teams 中的共享。
+在 Microsoft Teams 中，用户可以与组织内外的其他 Teams 用户共享内容。 在 Teams 中共享文件和文件夹基于 SharePoint 和 OneDrive 中配置的设置，因此为 SharePoint 和 OneDrive 设置的内容也会影响 Teams 中的共享。
 
 ## <a name="overview"></a>概述
 

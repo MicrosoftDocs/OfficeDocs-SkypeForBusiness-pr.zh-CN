@@ -24,18 +24,18 @@ ms.locfileid: "51891279"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>设置团队目标层次结构
 
-设置团队目标层次结构将允许组织将内容发布到一大组团队。 团队目标层次结构定义层次结构中所有团队如何彼此关联、哪些用户可以发布任务，以及哪些团队用户有权发布到哪个团队。 除非为组织设置了面向团队的层次结构，否则所有用户都禁用发布功能。 若要设置团队目标层次结构，需要创建一个定义层次结构的文件，并将其上传到 Teams 以将其应用到组织。 上传架构后，Teams 中的应用可以使用它。
+设置团队目标层次结构将允许组织将内容发布到一大组团队。 团队目标层次结构定义层次结构中所有团队如何彼此关联、哪些用户可以发布任务，以及哪些团队用户有权发布到哪个团队。 除非为组织设置了面向团队的层次结构，否则所有用户都禁用发布功能。 若要设置团队目标层次结构，需要创建一个定义层次结构的文件，并将其上传到Teams以将其应用到组织。 上传架构后，Teams应用可以使用它。
 
 > [!IMPORTANT]
-> 对于初始版本，只有"任务"应用支持分层团队。  将团队目标层次结构应用于组织将在 ["任务"应用中](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 启用任务发布。 在 Microsoft Teams 的另外一些方面，你将看不到团队的层次结构。
+> 对于初始版本，只有"任务"应用支持分层团队。  将团队目标层次结构应用于组织将在 ["任务"应用中](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 启用任务发布。 你不会在团队的"其他"区域看到团队Microsoft Teams。
 
-下面是 Teams 中"任务"应用中层次结构的表示方法示例。 创建任务列表后，发布团队成员可以选择要向任务列表发送 () 的收件人团队。 选择团队时，发布团队可以按层次结构、属性或两者的组合进行筛选。<br>
+下面是层次结构在任务应用中在任务应用中的表示Teams。 创建任务列表后，发布团队成员可以选择要向任务列表发送 () 的收件人团队。 选择团队时，发布团队可以按层次结构、属性或两者的组合进行筛选。<br>
 
 ![发布任务的屏幕截图](media/manage-tasks-app-publish.png)
 
 ## <a name="terminology"></a>术语
 
-导航层次结构时，以下术语非常重要。 Teams 将称为 **节点**。
+导航层次结构时，以下术语非常重要。 Teams将 **称为节点**。
 
 * **根** 节点是层次结构中最顶层的节点。 在示例中，零售通信是根节点。
 * **父节点****和子** 节点是表示两个已连接节点之间的关系的术语。 在示例中，区域 01 是区域 1 的子节点。
@@ -74,7 +74,7 @@ ms.locfileid: "51891279"
 ## <a name="create-your-hierarchy"></a>创建层次结构
 
 > [!NOTE]
-> 本文的其余部分讨论如何在将任务发布到收件人团队的上下文中设置团队层次结构。 有关 [任务应用的](./manage-tasks-app.md) 概述，请参阅在 Teams 中管理组织的任务应用，其中任务发布在启用时显示。
+> 本文的其余部分讨论如何在将任务发布到收件人团队的上下文中设置团队层次结构。 有关[任务应用（启用时显示](./manage-tasks-app.md)任务发布Teams概述，请参阅在任务应用中管理组织的任务应用。
 
 定义层次结构的架构基于 CSV 文件中以逗号分隔 () 值。 CSV 文件的每一行对应于团队层次结构中的一个节点。 每一行都包含在层次结构中为节点命名的信息，可以选择性地将节点链接到团队，并包含可用于在支持团队的应用中筛选团队的属性。
 
@@ -104,7 +104,7 @@ CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点
 
 添加属性列时，请记住以下事项：
 
-* 指定的列名或在冒号" (：) "之前指定的列名称将成为属性的名称。 此值将显示在使用层次结构的 Teams 应用中。
+* 指定的列名或在冒号" (：) "之前指定的列名称将成为属性的名称。 此值将显示在使用该层次结构Teams应用。
 * 层次结构中最多包含 50 个属性列。
 * 列名称最多包含 100 个字符，并且仅包含字符 A-Z、a-z 和 0-9，以及空格。 列名称必须唯一。
 
@@ -116,7 +116,7 @@ CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点
 
 添加存储桶列时，请注意以下事项：
 
-* 列名称将成为存储桶的名称。 指定的每个存储桶将显示在使用层次结构的 Teams 应用中的"存储桶"列表中。
+* 列名称将成为存储桶的名称。 指定的每个存储桶将显示在使用该层次结构的Teams"存储桶"列表中。
 * 建议不要在存储桶名称中包括敏感信息。 目前，发布团队无法通过创建存储桶后通过发布删除存储桶。
 * 列名称前面必须带有井号标签 (#) 。 它最多可以包含 100 个字符，并且仅包含字符 A-Z、a-z 和 0-9。 例如，#Operations#Frozen商品。
 * 一个层次结构可以包含最多 25 个存储桶列。 我们计划与客户合作，提高较大组织的此限制。
@@ -150,7 +150,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 
 ## <a name="apply-your-hierarchy"></a>应用层次结构
 
-在架构 CSV 文件中定义层次结构后，即可将其上传到 Teams。 为此，请运行以下命令。 只有全局管理员或 Teams 服务管理员才能执行此步骤。
+在架构 CSV 文件中定义层次结构后，即可将其上传到Teams。 为此，请运行以下命令。 只有全局管理员或Teams才能执行此步骤。
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
@@ -173,7 +173,7 @@ Get-TeamTargetingHierarchyStatus
 字段|说明
 -----|------------
 ID | 上传的唯一 ID。
-状态 | 上传状态。 值包括 **"正在启动****"、正在验证****、"成功"** 和"**失败"**
+状态 | Upload状态。 值包括 **"正在启动****"、正在验证****、"成功"** 和"**失败"**
 ErrorDetails | 出现上传错误时的详细信息。 有关错误详细信息的详细信息，请参阅故障排除部分。 如果没有错误，此字段为空。
 LastUpdatedAt | 文件的上次更新时间戳和日期。
 LastModifiedBy | 修改文件的最后一个用户 ID。
@@ -196,11 +196,11 @@ Remove-TeamTargetingHierarchy
 ### <a name="install-the-teams-powershell-module"></a>安装 Teams PowerShell 模块
 
 > [!IMPORTANT]
-> 若要执行此步骤，必须安装并使用 PowerShell 库中的 Teams PowerShell 公共 [预览版模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)。 有关安装模块的步骤，请参阅安装 Teams [PowerShell。](teams-powershell-install.md)
+> 若要执行此步骤，必须安装并使用 PowerShell 库中Teams PowerShell 公共预览[版模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)。 有关安装模块的步骤，请参阅安装 Teams [PowerShell。](teams-powershell-install.md)
 
 ### <a name="sample-script"></a>示例脚本
 
-以下脚本可用于创建团队，以及将 .csv 文件上传到 Microsoft Teams 租户。 如果有现有的层次结构，此脚本将替换它。
+以下脚本可用于创建团队，将.csv文件上传到Microsoft Teams租户。 如果有现有的层次结构，此脚本将替换它。
 
 #### <a name="create-teams-for-a-simple-hierarchy"></a>为简单层次结构创建团队
 
@@ -227,14 +227,14 @@ $csvOutput = $csvOutput + $tm6.DisplayName + "," + $tm5.DisplayName + "," + $tm6
 $csvOutput = $csvOutput + $tm7.DisplayName + "," + $tm5.DisplayName + "," + $tm7.GroupID 
 ```
 
-#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>将输出保存到 Downloads 文件夹中的 **.csv** 文件
+#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>将输出保存到.csv **下载文件夹中的一个文件**
 
 ```powershell
 $csvOutputPath = $env:USERPROFILE + "\downloads\testhierarchy-" + (Get-Date -Format "yyyy-MM-dd-hhmmss") + ".csv" 
 $csvOutput | Out-File $csvOutputPath
 ```
 
-#### <a name="upload-the-hierarchy"></a>上传层次结构
+#### <a name="upload-the-hierarchy"></a>Upload层次结构
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath $csvOutputPath
@@ -264,15 +264,15 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-检查以确保在架构 CSV 文件中为团队使用正确的 TeamId。 TeamId 应与支持团队的 Microsoft 365 组的组 ID 相同。 可以在 Microsoft Teams 管理中心中查找团队的组 ID。
+检查以确保在架构 CSV 文件中为团队使用正确的 TeamId。 TeamId 应与支持团队Microsoft 365组的组 ID 相同。 可以在管理中心内查找团队的Microsoft Teams ID。
 
-1. 在 Microsoft Teams 管理中心的 [左侧导航](https://admin.teams.microsoft.com/)栏中，转到 **"Teams**  >  **管理团队"。**
+1. 在管理中心左侧导航 [Microsoft Teams，转到](https://admin.teams.microsoft.com/)**"Teams**  >  **管理团队"。**
 2. 如果表中未显示"组 **ID"** 列，请选择表右上角的"编辑列"，然后打开"组 **ID"。**
 3. 在列表中查找团队，然后找到"组 ID"。
 
-请确保架构 CSV 文件中 TeamId 与 Microsoft Teams 管理中心中显示的组 ID 匹配。
+请确保架构 CSV 文件中 TeamId 与管理中心中显示的组 ID Microsoft Teams ID。
 
 ## <a name="related-topics"></a>相关主题
 
-* [在 Teams 中管理组织的任务应用](manage-tasks-app.md)
+* [在应用程序中管理组织的任务Teams](manage-tasks-app.md)
 * [Teams PowerShell 概览](teams-powershell-overview.md)

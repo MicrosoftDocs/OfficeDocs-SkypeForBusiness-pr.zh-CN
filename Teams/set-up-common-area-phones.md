@@ -1,5 +1,5 @@
 ---
-title: 设置公用区域电话许可证
+title: 设置"公共区域"电话许可证
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -32,33 +32,33 @@ ms.locfileid: "51117110"
 > [!NOTE]
 > 公用区域电话不支持语音邮件。
 
-公用区域电话通常放置在大厅等区域，或者供许多人进行呼叫的另一区域;例如，前台区域、大厅或会议电话。 使用与公用区域电话许可证绑定的帐户登录常用区域电话。 还必须适当设置 TeamsIPPhone 策略，使手机具有共同的区域用户体验。
+公用区域电话通常放置在大厅等区域，或者供许多人进行呼叫的另一区域;例如，前台区域、大厅或会议电话。 常用区域电话使用与公用区域服务许可证绑定电话登录。 还必须适当设置 TeamsIPPhone 策略，使手机具有共同的区域用户体验。
 
-在以下步骤中，我们将帮助你设置电话系统帐户，为组织部署公用区域电话。 为获得更完整的会议室体验（包括音频会议），请考虑使用会议室设备购买专用会议室许可证。 
+在以下步骤中，我们将帮助你设置一个帐户电话系统为组织部署公用区域电话。 为获得更完整的会议室体验（包括音频会议），请考虑购买具有会议室设备的专用会议许可证。 
 
-首先，需要购买公共区域电话 (CAP) 许可证，并确保拥有经过认证的电话。 若要搜索并了解有关认证手机的信息，请转到 Microsoft [Teams 设备](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。 
+首先，需要购买公共区域电话 (CAP) 许可证，并确保拥有经过认证的电话。 若要搜索并了解有关认证电话的信息，请转到["Microsoft Teams设备"。](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1) 
 
 ## <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 
-1. 在 Microsoft 365 管理中心，**转到"计费**  >  **购买服务**"，然后展开"**其他计划"。**
+1. 在Microsoft 365中心，转到"**计费**  >  **购买服务**"，然后展开"**其他计划"。**
 
-    ![显示"公用区域电话"磁贴的屏幕截图](media/set-up-common-area-phone-image1.png)
+    ![显示"公共区域"磁贴电话屏幕截图](media/set-up-common-area-phone-image1.png)
 
-2. 选择 **"立即购买常用区域**  >  **电话"。**
+2. 选择 **"公共区域电话**  >  **立即购买"。**
 
 3. 在"结帐"页面上，单击"**立即购买"。**
 
 4. 展开 **附加内容订阅，** 然后单击购买通话套餐。 选择"国内 **呼叫计划"或****"国内和国际呼叫计划"。**
 
 > [!NOTE]
-> 如果使用 Microsoft Phone 系统直接路由，则不需要呼叫计划许可证。
+> 如果使用 Microsoft 电话直接路由，则不需要呼叫计划许可证。
 
 > [!NOTE]
-> 无需添加电话系统许可证。 许可证包含在公共区域电话许可证中。
+> 无需添加许可证电话系统许可证。 许可证包含在公共区域电话许可证中。
 
-有关许可证详细信息，请参阅 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+有关许可证详细信息，请参阅Microsoft Teams[附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-公用区域电话许可证支持： 
+公共区域电话支持： 
 
 
 |   |  公共区域电话  |
@@ -80,7 +80,7 @@ ms.locfileid: "51117110"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>第 2 步 - 为手机创建一个新的用户帐户并分配许可证
 
-1. 在 Microsoft 365 管理中心，转到 **活动**  >  **用户添加**  >  **用户**。
+1. 在Microsoft 365管理中心，转到 **"活动**  >  **用户""**  >  **添加用户"。**
 
 2. 输入用户名，例如"Main"作为名字，输入"接收"作为第二个名称。
 
@@ -90,20 +90,20 @@ ms.locfileid: "51117110"
 
 5. 对于公用区域电话，你可能希望手动设置密码，或者拥有所有公用区域电话的相同密码。 此外，还可以考虑清除" **使此用户首次登录时更改** 其密码"复选框。
 
-6. 将许可证分配给用户。 在同一页面上，点击展开 **产品许可证**。 打开公用区域电话，选择国内呼叫 **计划或****国内和国际呼叫计划**。 
+6. 将许可证分配给用户。 在同一页面上，点击展开 **产品许可证**。 打开"公用区域"电话，选择"国内呼叫计划"**或"****国内和国际呼叫计划"。** 
 
     ![显示许可证分配的屏幕截图](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
-> 如果使用 Microsoft Phone 系统直接路由，则无需分配呼叫计划许可证。
+> 如果使用 Microsoft 电话直接路由，则无需分配呼叫计划许可证。
 
 有关详细信息，请参阅 [向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>第 3 步 - 将电话号码分配给公共区域电话用户帐户
 
-使用 Teams 管理中心向用户分配号码。
+使用Teams管理中心向用户分配号码。
 
-1. 在 Teams 管理中心中，选择 **"语音**  >  **电话号码"。**
+1. 在"Teams管理中心"中，选择 **"语音**  >  **电话号码"。**
 
 3.    从电话号码列表中选择一个号码，然后点击 **分配**。
 
@@ -116,8 +116,8 @@ ms.locfileid: "51117110"
    ![显示许可证分配的屏幕截图](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
-> 用户只有在应用了电话系统许可证时才能显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
+> 用户只有在应用了许可证后电话系统显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
 
 有关详细信息，请参阅 [获取用户的电话号码](getting-phone-numbers-for-your-users.md)。
 
-您也可以将您拥有的电话号码与另一家运营商联系并"转"或转移到 Microsoft 365 或 Office 365。 请参阅[将电话号码转移到 Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+您也可以将您拥有的电话号码与另一家运营商联系并"转Microsoft 365或Office 365。 请参阅[将电话号码转移到 Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

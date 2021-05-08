@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 了解如何为 Teams 用户分配、更改或删除工作电话号码，以便外部企业和客户可以呼叫。
+description: 了解如何为用户分配、更改或删除工作电话号码Teams以便外部企业和客户可以呼叫。
 ms.openlocfilehash: 4f40049b3856f24d3ae5ddd3999be7213817bcdc
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -29,23 +29,23 @@ ms.locfileid: "51120814"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>为呼叫计划用户分配、更改或删除 (电话号码) 
 
-设置呼叫计划时，你向用户分配电话号码。 在 Microsoft Teams 中，当用户单击"呼叫"时，将列出你 **分配的电话号码**。 有关在直接路由方案中为用户分配、更改或删除电话号码的说明，请参阅为用户启用直接路由、语音和 [语音邮件](./direct-routing-enable-users.md)。
+设置呼叫计划时，你向用户分配电话号码。 在Microsoft Teams，当用户单击"呼叫"时，将列出你 **分配的电话号码**。 有关在直接路由方案中为用户分配、更改或删除电话号码的说明，请参阅为用户启用直接路由、语音和 [语音邮件](./direct-routing-enable-users.md)。
 
-![在 Teams 中显示用户的电话号码。](media/teams-phone-number.png)
+![用户的电话号码显示在Teams。](media/teams-phone-number.png)
 
-设置用户以便他们可以拨打和接听电话呼叫时，必须先使用 Microsoft Teams 管理中心并分配电话号码。 如果需要，可以更改或删除电话号码。
+当您设置用户以便他们可以拨打和接听电话呼叫时，您必须首先使用 Microsoft Teams管理中心并分配电话号码。 如果需要，可以更改或删除电话号码。
   
-若要了解如何在 Teams 中获取通话套餐及其费用，请参阅 [Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要了解如何在加载项中Teams套餐及其费用，请参阅Teams[附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 > [!NOTE]
-> 查看用户是否分配了许可证的一种方式是，通过访问 Microsoft Teams 管理中心>**用户"。** 如果分配了许可证，将在页面上指示该许可证。  您也可以使用 Microsoft 365 管理中心。
+> 查看用户是否分配了许可证的一种方式是，在"用户"Microsoft Teams管理 **>。** 如果分配了许可证，将在页面上指示该许可证。  也可使用 Microsoft 365 管理中心。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>向用户分配电话号码
  
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
     
-1. 在左侧导航栏中，单击 **"语音**  >  **电话号码"。**
-2. 在"**电话号码"** 页面上，选择列表中的未分配号码，然后单击"编辑 **"。**  
+1. 在左侧导航栏中，单击 **"语音**  >  **电话数字"**。
+2. 在 **"电话"** 页面上，选择列表中的未分配号码，然后单击"编辑 **"。**  
 3. 在"**编辑"** 窗格的 **"** 分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
 4. 若要分配或更改关联的紧急位置，请在"紧急位置"下搜索，然后选择该位置。
 5. 根据是否要向用户发送包含其电话号码信息的电子邮件，请关闭或打开包含 **电话号码信息的电子邮件用户**。 默认情况下，此选项为"打开"。 
@@ -62,11 +62,11 @@ ms.locfileid: "51120814"
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
     
 1. 在左侧导航中，单击"用户"，找到并双击用户，单击"帐户"，然后在"常规信息"下记下分配给用户的电话号码。 
-2. 在左侧导航栏中，单击 **"语音**  >  **电话号码"。**
-3. 在"**电话号码"** 页面上，选择在步骤 1 中标识的号码，然后单击"编辑 **"。**  
+2. 在左侧导航栏中，单击 **"语音**  >  **电话数字"**。
+3. 在 **"电话"** 页上，选择在步骤 1 中标识的数字，然后单击"编辑 **"。**  
 4. 在" **编辑** "窗格的 **"分配到"下**，单击 **"X"** 以删除用户。
 5. 单击“**保存**”。
-6. 在"**电话号码"** 页面上，选择列表中的未分配号码，然后单击"编辑 **"。**  
+6. 在 **"电话"** 页面上，选择列表中的未分配号码，然后单击"编辑 **"。**  
 7. 在"**编辑"** 窗格的 **"** 分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
 8. 若要分配或更改关联的紧急位置，请在"紧急位置"下搜索，然后选择该位置。
 9. 单击“**保存**”。
@@ -78,8 +78,8 @@ ms.locfileid: "51120814"
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，单击"用户"，找到并双击用户，单击"帐户"，然后在"常规信息"下记下分配给用户的电话号码。 
-2. 在左侧导航栏中，单击 **"语音**  >  **电话号码"。**
-3. 在"**电话号码"** 页面上，选择在步骤 2 中标识的号码，然后单击"编辑 **"。**  
+2. 在左侧导航栏中，单击 **"语音**  >  **电话数字"**。
+3. 在 **"电话"** 页面上，选择在步骤 2 中标识的数字，然后单击"编辑 **"。**  
 4. 在" **编辑** "窗格的 **"分配到"下**，单击 **"X"** 以删除用户。
 5. 单击“**保存**”。
 
@@ -97,4 +97,4 @@ ms.locfileid: "51120814"
 
 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
-[为 Microsoft 365 调用计划](./calling-plans-for-office-365.md)
+[呼叫套餐Microsoft 365](./calling-plans-for-office-365.md)

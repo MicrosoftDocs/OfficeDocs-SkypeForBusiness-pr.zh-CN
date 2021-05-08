@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: '了解如何在 Microsoft Teams 管理中心为组织添加、更改或删除紧急位置。 '
+description: '了解如何在管理中心为组织添加、更改或删除紧急Microsoft Teams位置。 '
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: b918cbcbebf8edb2cd54d08e0e4a3177867fa623
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -31,15 +31,15 @@ ms.locfileid: "51121520"
 
 无论你位于哪个国家/地区，都可以向紧急位置添加位置并删除紧急位置。 根据组织中物理位置的数量，你可以为建筑物、楼层和办公室创建位置。 请参阅 [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)。
   
-若要了解如何获取通话计划及其费用，请参阅 [Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要了解如何获取通话套餐及其费用，请参阅Teams[附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-在 Microsoft Teams 管理中心或 PowerShell 中管理组织的紧急位置。
+在管理中心或 PowerShell 中Microsoft Teams组织的紧急位置。
   
 ## <a name="add-an-emergency-location"></a>添加紧急位置
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，单击 **"位置**  >  **""紧急地址"。**
+1. 在管理中心的左侧导航Microsoft Teams，单击 **"位置**  >  **""紧急地址"。**
 2. 单击“**添加**”。
 3. 输入位置的名称和说明。
 4. 选择国家/地区，然后输入地址。
@@ -58,7 +58,7 @@ ms.locfileid: "51121520"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，单击 **"位置**  >  **""紧急地址"。**
+1. 在管理中心的左侧导航Microsoft Teams，单击 **"位置**  >  **""紧急地址"。**
 2. 在列表中，选择要更改的位置，然后单击"编辑 **"。**
 3. 进行您需要的更改。
 4. 单击“**保存**”。
@@ -74,7 +74,7 @@ ms.locfileid: "51121520"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，单击 **"位置**  >  **""紧急地址"。**
+1. 在管理中心的左侧导航Microsoft Teams，单击 **"位置**  >  **""紧急地址"。**
 2. 在列表中，选择要删除的位置，然后单击"删除 **"。**
 
 ### <a name="using-powershell"></a>使用 PowerShell

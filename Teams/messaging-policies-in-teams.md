@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
-description: 了解消息传送策略以及如何在 Teams 中控制聊天消息传送。
+description: 了解消息传送策略以及如何使用策略来控制聊天消息传送Teams。
 ms.openlocfilehash: 800bc37ee25c073d0702c519196620faa1faf92e
 ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
@@ -31,17 +31,17 @@ ms.locfileid: "51574161"
 
 <!--- Add zone marker here--->
 
-消息传送策略用于控制哪些聊天和频道消息传递功能可供 Microsoft Teams ([所有者 ](assign-roles-permissions.md)) 成员使用。 可以使用自动创建的 (组织范围的默认) 策略，或者创建和分配自定义消息传送策略。
+消息传送策略用于控制哪些聊天和频道消息传送功能可供用户在 ([所有者](assign-roles-permissions.md)) 成员Microsoft Teams。 可以使用自动创建的 (组织范围的默认) 策略，或者创建和分配自定义消息传送策略。
 
 除非创建并分配自定义策略，否则组织中的用户将自动获取全局策略。 编辑全局策略中的设置，或创建并分配一个或多个自定义策略以打开或关闭您需要的功能。
 
 ## <a name="create-a-custom-messaging-policy"></a>创建自定义消息传送策略
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到"**消息策略"。**
+1. 在管理中心左侧导航Microsoft Teams，转到"**消息传送策略"。**
 2. 选择“**添加**”。
 3. 输入策略的名称和说明。
 4. 选择想要的设置。
-5. 选择"**保存"。**
+5. 选择“**保存**”。
 
 例如，您希望确保发送的邮件不会被删除或更改。 创建名为"保留已发送消息"的新自定义策略，并关闭以下设置：
 
@@ -55,10 +55,10 @@ ms.locfileid: "51574161"
 
 可以编辑全局策略和创建的任何自定义策略。
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到"**消息策略"。**
-2. 单击策略名称左侧选择策略，然后选择"编辑 **"。**
+1. 在管理中心左侧导航Microsoft Teams，转到"**消息传送策略"。**
+2. 通过单击策略名称的左侧选择策略，然后选择 **“编辑”**。
 3. 在此处根据需要进行更改。
-4. 选择"**保存"。**
+4. 选择“**保存**”。
 
 ## <a name="assign-a-custom-messaging-policy-to-users"></a>向用户分配自定义消息传送策略
 
@@ -67,7 +67,7 @@ ms.locfileid: "51574161"
 一次只能为用户分配一个消息传送策略。
 
 > [!NOTE]
-> 如果将用户分配到策略，则不能删除该策略。 必须先将不同的策略分配给所有受影响的用户，然后可以删除原始策略。
+> 如果已将它分配给用户，则无法删除该策略。 必须首先为所有受影响的用户指定不同的策略，然后才能删除原来的策略。
 
 <!--- End zone marker here--->
 
@@ -84,7 +84,7 @@ ms.locfileid: "51574161"
     - **为所有人关闭** 这意味着该功能已禁用，租户中没有任何用户具有已读回执，也不能将其打开。
 <a name="bkchat"> </a>
 
-- **聊天**  如果希望组织中用户能够使用 Teams 应用与其他用户聊天，请启用此设置。
+- **聊天** 如果希望您的组织中的用户能够使用 Teams 应用来与其他用户聊天，请启用此设置。
 - **在对话中使用 Giphy**  如果打开 Giphy，用户可以在与他人的聊天对话中包括 Giphy。 Giphy 是一个联机数据库和搜索引擎，允许用户搜索和共享动态 GIF 文件。 每个 Giphy 都分配有一个内容分级。 除了启用此设置外，还需要启用可选连接 [体验](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) 以允许对话中的 Giphy。
 - **Gipsy 内容分级**
     - **无限制** 这意味着，无论内容评级如何，用户都能在聊天中插入任何 Giphy。
@@ -93,8 +93,8 @@ ms.locfileid: "51574161"
 - **在对话中使用 Meme** 如果打开 Meme，用户可以在与他人的聊天对话中包括 Meme。
 - **在对话中使用贴纸。 如果启用此功能，用户可以在与他人的聊天对话中包括贴纸。
 - **允许 URL 预览** 使用此设置可打开或关闭邮件中的自动 URL 预览。
-- **允许用户翻译邮件** 打开此设置，让用户自动将 Teams 消息翻译成其 Microsoft 365 或 Office 365 个人语言设置指定的语言。
-- **允许沉浸式阅读器查看消息** 打开此设置，让用户在 Microsoft 沉浸式阅读器中查看消息。 沉浸式阅读器是一种学习工具，可提供全屏阅读体验以提高文本可读性。
+- **允许用户翻译邮件** 打开此设置，让用户自动将Teams翻译为个人语言设置指定的语言，Microsoft 365 Office 365。
+- **允许沉浸式阅读器查看消息** 打开此设置，让用户在 Microsoft 沉浸式阅读器 中查看消息。 沉浸式阅读器是一种学习工具，可提供全屏阅读体验以提高文本可读性。
 - **使用优先级通知发送紧急消息** 如果启用此功能，用户可以使用优先级通知 [发送消息](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)。 优先级通知每 2 分钟通知用户 20 分钟，或直到收件人选取并阅读标记为紧急的邮件。 此功能增加了及时处理消息的可能性。
 - **音频消息创建**
   > [!Important]
@@ -105,12 +105,12 @@ ms.locfileid: "51574161"
 - **在移动设备上，显示最近聊天上方的收藏频道** 启用此设置，将收藏的频道移动到移动设备屏幕顶部，以便用户无需滚动查找它们。
 - **允许用户从群组聊天中删除用户** 打开此设置，让用户从群组聊天中删除其他用户。 此功能允许你继续与一小组人员聊天，而不会丢失聊天历史记录。
 - **启用建议的答复**  打开此设置，为聊天消息启用建议的答复。
-- **聊天权限角色** 使用此设置定义用户的监督聊天角色。  详细了解 [监督聊天](supervise-chats-edu.md)。
+- **聊天权限角色** 使用此设置定义用户的监督聊天角色。  深入了解如何 [的聊天](supervise-chats-edu.md)。
 
 > [!NOTE]
 > 其中一些设置（例如使用 Giphys）也可由团队所有者在团队级别配置，在专用频道级别由专用频道所有者配置。
 
 ### <a name="related-topics"></a>相关主题
 
-- [在 Teams 中向用户和组分配策略](assign-policies-users-and-groups.md)
+- [将策略分配给用户和组中Teams](assign-policies-users-and-groups.md)
 - [在 Microsoft Teams 中分配团队所有者和成员](assign-roles-permissions.md)

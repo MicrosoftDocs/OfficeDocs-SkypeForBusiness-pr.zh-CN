@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 了解如何从 Microsoft Teams 中查找可用于音频会议的电话号码。
+description: 了解如何从会议内部查找可用于音频会议Microsoft Teams。
 ms.openlocfilehash: 8d8b2f543b7e5a7acad5f8b91e8793420cf54517
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,11 +31,11 @@ ms.locfileid: "51117240"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft Teams 中查看音频会议号码列表
 
-为 Microsoft Teams 用户设置音频会议时，您可以查看他们可用于音频会议的电话号码。 此列表将包含组织可用的所有音频会议电话号码。
+为用户设置音频会议Microsoft Teams，您可以查看他们可用于音频会议的电话号码。 此列表将包含组织可用的所有音频会议电话号码。
   
  **正在搜索价格？** 请参阅 [音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
   
-如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认号码将包含在 Microsoft Teams 会议邀请中。
+如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认号码将包含在会议Microsoft Teams中。
   
 你可以看到设置 [邀请中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md) 以更改单个用户的拨入电话号码。
 
@@ -53,14 +53,14 @@ ms.locfileid: "51117240"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
   
 ## <a name="related-topics"></a>相关主题
 
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[尝试或购买音频会议Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

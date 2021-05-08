@@ -29,11 +29,11 @@ ms.locfileid: "51092900"
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> 有关在 Microsoft Teams 中分配策略的较大案例，请参阅在 Teams 中 [向用户分配策略](assign-policies.md)。
+> 有关在服务中分配策略的较大Microsoft Teams，请参阅在 Teams[中分配策略](assign-policies.md)。
 
 ## <a name="overview"></a>概述
 
-是否需要向学生和教师授予对 Microsoft Teams 中不同功能的访问权限？ 可以按许可证类型快速识别组织中用户，然后为其分配适当的策略。 本教程介绍如何向学校中的大量用户分配会议策略。 可以使用 Microsoft Teams 管理中心和 PowerShell 分配策略，我们将展示这两种方法。
+是否需要为学生和教师提供对应用内不同功能Microsoft Teams？ 可以按许可证类型快速识别组织中用户，然后为其分配适当的策略。 本教程介绍如何向学校中的大量用户分配会议策略。 可以使用管理中心和 PowerShell Microsoft Teams策略，我们将展示这两种方法。
 
 可以将会议策略分配给用户作为成员的安全组，或者直接通过批处理策略分配大规模地将会议策略分配给用户。 你将了解以下内容：
 
@@ -41,7 +41,7 @@ ms.locfileid: "51092900"
 
 - **使用 [批处理策略分配](assign-policies.md#assign-a-policy-to-a-batch-of-users) 将会议策略直接批量分配给用户**。 一次最多为 5，000 个用户分配策略。 如果用户数超过 5，000，可以提交多个批次。 使用此方法时，当有新用户时，需要重新运行批处理分配，以将策略分配给这些新用户。
 
-请记住，在 Teams 中，用户会自动 (Teams 策略类型的"全局") "默认策略"，除非创建并分配自定义策略。 由于学生群体通常是最大的一组用户，他们通常会收到限制性最严格的设置，因此建议执行以下操作：
+请记住，Teams用户会自动获取 Teams 策略类型的全局 (组织范围默认) 策略，除非创建并分配自定义策略。 由于学生群体通常是最大的一组用户，他们通常会收到限制性最严格的设置，因此建议执行以下操作：
 
 - 创建自定义策略，允许私人聊天和会议计划等核心功能，并将该策略分配给教职员工和教师。
 - 将自定义策略分配给教职员工和教师。
@@ -51,7 +51,7 @@ ms.locfileid: "51092900"
 
 在本教程中，学生将获取全局会议策略，我们将为教职员工和教师分配名为"教师""MeetingPolicy"的自定义会议策略。 我们假定你已编辑全局策略，为学生定制会议设置，并创建了一个[](policy-packages-edu.md)自定义策略，用于定义教职员工和教师的会议体验。
 
-![Teams 管理中心中"会议策略"页面的屏幕截图](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![管理中心内"会议策略"Teams屏幕截图](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>向组分配策略
 
@@ -74,7 +74,7 @@ ms.locfileid: "51092900"
 
 首先，为教职员工和教师创建安全组。
 
-借助 [学校数据 (](/SchoolDataSync/) SDS) ，可以轻松 [创建学校教师和学生](/SchoolDataSync/edu-security-groups) 的安全组。 建议使用 SDS 创建管理学校策略所需的安全组。
+借助[学校数据同步 (](/SchoolDataSync/) SDS) ，可以轻松[创建学校教师和学生](/SchoolDataSync/edu-security-groups)的安全组。 建议使用 SDS 创建管理学校策略所需的安全组。
 
 如果无法在环境中部署 SDS，请使用此 [PowerShell](scripts/powershell-script-security-groups-edu.md) 脚本创建两个安全组，一个安全组用于分配有教职员工许可证的所有教职员工和教师，另一个安全组用于分配有学生许可证的所有学生。 需要定期运行此脚本，使组保持最新状态。
 
@@ -83,9 +83,9 @@ ms.locfileid: "51092900"
 #### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 > [!NOTE]
-> 目前，使用 Microsoft Teams 管理中心向组分配策略仅适用于 Teams 呼叫策略、Teams 呼叫公园策略、Teams 策略、Teams 实时事件策略、Teams 会议策略和 Teams 消息传送策略。 对于其他策略类型，请使用 PowerShell。
+> 目前，使用 Microsoft Teams 管理中心向组分配策略仅适用于 Teams 呼叫策略、Teams 呼叫公园策略、Teams 策略、Teams 实时事件策略、Teams 会议策略和 Teams 消息策略。 对于其他策略类型，请使用 PowerShell。
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"会议**  >  **会议策略"。**
+1. 在 Microsoft Teams 管理员中心的左侧导航中，转到 **“会议”** > **“会议策略”**。
 2. 选择" **组策略分配"** 选项卡。
 3. 选择 **"添加组**"，然后在" **将策略分配到组"窗格中** 执行以下操作：
 
@@ -102,17 +102,17 @@ ms.locfileid: "51092900"
 #### <a name="using-powershell"></a>使用 PowerShell
 
 > [!NOTE]
-> 目前，并非所有 Teams 策略类型都支持使用 PowerShell 向组分配策略。 有关[支持的策略类型列表，请参阅 New-CsGroupPolicyAssignment。](/powershell/module/teams/new-csgrouppolicyassignment)
+> 目前，使用 PowerShell 向组分配策略不适用于所有Teams类型。 有关[支持的策略类型列表，请参阅 New-CsGroupPolicyAssignment。](/powershell/module/teams/new-csgrouppolicyassignment)
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft Teams PowerShell 模块
 
-运行以下代码，安装 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 模块 (（如果尚未在) ）。 请确保安装版本 1.0.5 或更高版本。
+运行以下代码，Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模块 (（如果尚未) ）。 请确保安装版本 1.0.5 或更高版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-运行以下代码以连接到 Teams 并启动会话。
+运行以下代码连接到Teams并启动会话。
 
 ```powershell
 Connect-MicrosoftTeams
@@ -138,13 +138,13 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft Teams PowerShell 模块
 
-运行以下代码，安装 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 模块 (（如果尚未在) ）。 请确保安装版本 1.0.5 或更高版本。
+运行以下代码，Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模块 (（如果尚未) ）。 请确保安装版本 1.0.5 或更高版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-运行以下代码以连接到 Teams 并启动会话。
+运行以下代码连接到Teams并启动会话。
 
 ```powershell
 Connect-MicrosoftTeams
@@ -193,13 +193,13 @@ Get-CsUserPolicyAssignment -Identity reda@contoso.com
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>连接到 Azure AD PowerShell for Graph 模块和 Teams PowerShell 模块
+#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>连接 Azure AD PowerShell for Graph 模块和 Teams PowerShell 模块
 
-执行本文中的步骤之前，需要安装并连接到 Azure AD PowerShell for Graph 模块 (，以通过用户分配的许可证) 和 Microsoft Teams PowerShell 模块 (将策略分配给这些用户) 。
+执行本文中的步骤之前，需要安装并连接到 Azure AD PowerShell for Graph 模块 (，以通过用户分配的许可证) 和 Microsoft Teams PowerShell 模块 (来标识用户，以将策略分配给这些用户) 。
 
 ##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>安装并连接到 Azure AD PowerShell for Graph 模块
 
-打开提升的 Windows PowerShell 命令提示符 (以管理员 Windows PowerShell 运行) ，然后运行以下命令来安装用于 Graph 的 Azure Active Directory PowerShell 模块。
+打开提升的 Windows PowerShell 命令提示符 (以管理员 Windows PowerShell 运行) ，然后运行以下命令来安装 Azure Active Directory PowerShell for Graph 模块。
 
 ```powershell
 Install-Module -Name AzureAD
@@ -213,17 +213,17 @@ Connect-AzureAD
 
 系统提示时，使用管理员凭据登录。
 
-有关详细信息，请参阅使用 [Azure Active Directory PowerShell for Graph 模块 进行连接](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。
+若要了解有关详细信息，请参阅连接[PowerShell for Azure Active Directory 模块的 Graph。](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft Teams PowerShell 模块
 
-运行以下代码，安装 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 模块 (（如果尚未在) ）。 请确保安装版本 1.0.5 或更高版本。
+运行以下代码，Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模块 (（如果尚未) ）。 请确保安装版本 1.0.5 或更高版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-运行以下代码以连接到 Teams 并启动会话。
+运行以下代码连接到Teams并启动会话。
 
 ```powershell
 Connect-MicrosoftTeams
@@ -314,7 +314,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 **我不熟悉 PowerShell for Teams。在哪里可以了解更多信息？**
 
-有关使用 PowerShell 管理 Teams 的概述，请参阅 [Teams PowerShell 概述](teams-powershell-overview.md)。 有关本文中使用的 cmdlet 详细信息，请参阅：
+有关使用 PowerShell 管理 Teams 的Teams，请参阅[PowerShell 概述](teams-powershell-overview.md)。 有关本文中使用的 cmdlet 详细信息，请参阅：
 
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)
@@ -325,5 +325,5 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 ## <a name="related-topics"></a>相关主题
 
 - [将策略分配给用户](assign-policies.md)
-- [适用于教育的 Teams 策略和策略包](policy-packages-edu.md)
+- [用于教育的 Teams 策略和策略包](policy-packages-edu.md)
 - [管理 Teams 中的会议策略](meeting-policies-in-teams.md)

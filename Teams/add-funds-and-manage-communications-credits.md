@@ -29,7 +29,7 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: '了解如何为 Skype for Business (PSTN) 支付通信信用额度，并查看为用户提供连续电话系统访问的计划。 '
+description: '了解如何为 PSTN (服务) 通信) 支付Skype for Business，并查看为用户提供持续电话系统访问的计划。 '
 ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -39,13 +39,13 @@ ms.locfileid: "51121490"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
-通信信用额度是一种在 Microsoft 365 或 Office 365 中支付电话系统和呼叫计划的便捷方式。 通信信用额度有助于确保在无法：
+通信信用额度是一种在 电话系统 或 Microsoft 365 通话套餐Office 365。 通信信用额度有助于确保在无法：
   
 - 使用免费拨入电话号码拨入音频会议。
 
 - 从音频会议拨出以添加世界上任何位置的其他人。
 
-- 从音频会议拨出到安装了 Skype for Business 或 Microsoft Teams 应用的移动电话。
+- 从音频会议会议拨出到安装了 Skype for Business 或 Microsoft Teams 应用的移动电话。
 
 - 当你拥有国内呼叫计划时， **拨打任何国际电话号码**。
 
@@ -77,9 +77,9 @@ ms.locfileid: "51121490"
 
 - [电话系统计划](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-还可通过登录 Microsoft 365 管理中心并访问"计费订阅""添加订阅"  >    >  **来查看信息**。
+也可通过登录管理中心并Microsoft 365订阅"添加订阅"来  >    >  **查看信息**。
   
-若要查看包含每个功能所需的许可证的表，请参阅 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要查看包含每个功能所需的许可证的表，请参阅Microsoft Teams[许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>相关主题
 
@@ -87,4 +87,4 @@ ms.locfileid: "51121490"
 
 - [设置云语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
 
-- [为](set-up-calling-plans.md) [Microsoft 365 或 Office 365](calling-plans-for-office-365.md)设置呼叫计划和呼叫计划
+- [为呼叫或](set-up-calling-plans.md)通话[设置Microsoft 365和Office 365](calling-plans-for-office-365.md)

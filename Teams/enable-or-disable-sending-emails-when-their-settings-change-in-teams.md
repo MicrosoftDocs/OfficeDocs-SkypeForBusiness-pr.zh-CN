@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '了解如何在 Microsoft Teams 中的固定更改或默认会议号码更改等设置时启用或禁用 Skype 向用户发送电子邮件。 '
+description: '了解如何启用或禁用Skype固定更改或会议号码更改等设置时向用户发送电子邮件Microsoft Teams。 '
 ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "51092700"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中启用或禁用在音频会议设置更改时发送电子邮件
 
-要在 Microsoft Teams 中启用或禁用发送电子邮件，请参阅 Microsoft Teams 音频会议设置发生更改时启用或禁用发送电子邮件 但是，有时你可能希望减少发送给 Microsoft Teams 用户的电子邮件数量。 在这种情况下，您可以禁用发送电子邮件。
+要在 Microsoft Teams 中启用或禁用发送电子邮件，请参阅 Microsoft Teams 音频会议设置发生更改时启用或禁用发送电子邮件 但是，有时可能需要减少发送给用户的电子邮件Microsoft Teams数量。 在这种情况下，您可以禁用发送电子邮件。
   
 如果禁用发送电子邮件，音频会议电子邮件不会发送给用户，包括为音频会议启用或禁用用户、重置其 PIN 的时间以及会议 ID 和默认会议电话号码更改时的电子邮件。
   
@@ -57,7 +57,7 @@ ms.locfileid: "51092700"
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>启用或禁用向用户发送电子邮件
 
-可以使用 Microsoft Teams 或 Windows PowerShell启用或禁用发送给用户的电子邮件。
+可以使用 Microsoft Teams 或 Windows PowerShell 来启用或禁用发送给用户的电子邮件。
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
@@ -75,12 +75,12 @@ ms.locfileid: "51092700"
 
 **使用Windows PowerShell**
   
-有关详细信息， [请参阅 Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) 参考。
+有关详细信息[，Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)参考。
 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点，在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

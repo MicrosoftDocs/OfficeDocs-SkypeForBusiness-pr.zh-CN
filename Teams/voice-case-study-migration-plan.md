@@ -1,5 +1,5 @@
 ---
-title: Teams 语音 Contoso 案例研究
+title: Teams Contoso 案例研究
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 针对多语言公司的 Teams 语音案例研究
+description: Teams多语言公司语音案例研究
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
@@ -23,9 +23,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51093722"
 ---
-# <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso 案例研究：Teams 升级计划
+# <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso 案例研究：Teams升级计划
 
-在决定从 Skype for Business 迁移到 Teams 时，Contoso 希望为最终用户提供简单的过渡体验。 他们决定设置混合连接，并使用重叠功能方法将用户移到 Teams，而不是同时将所有人切换到 Teams。 这允许 Teams 和本地 Skype for Business 中的用户共享状态和进行通信。 当用户进入手机系统的试点时，他们已移动到"仅 Teams"模式。
+在决定从 Skype for Business 迁移到 Teams 时，Contoso 希望为最终用户提供简单的过渡体验。 他们决定设置混合Teams，并使用重叠功能方法将用户移动到 Teams，而不是将所有人同时切换到 Teams。 这允许Teams Skype for Business本地用户共享状态和进行通信。 随着用户进入试验阶段电话系统，他们已移动到Teams模式。
 
 若要了解有关升级、方法和模式的基本概念，Contoso 请阅读以下文章：
 
@@ -33,7 +33,7 @@ ms.locfileid: "51093722"
 - [适用于 IT 管理员的升级策略](upgrade-to-teams-on-prem-implement.md) 
 - [迁移和互操作性指南](migration-interop-guidance-for-teams-with-skype.md)
  
-Contoso 还参加 Ignite 2019 会话设计从 [Skype for Business](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions)到 Teams 的路径。 Contoso 学习了：
+Contoso 还参加 Ignite 2019 会话设计从 Skype for Business[到 Teams。](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso 学习了：
 
 - 互操作性、联合身份验证和升级行为等基本概念 
 
@@ -45,16 +45,16 @@ Contoso 还参加 Ignite 2019 会话设计从 [Skype for Business](https://myign
 
   - 会议安排 
 
-  - Teams 客户端中协作功能的可用性 
+  - 客户端中协作功能Teams的可用性 
 
 若要计划和配置混合连接，将本地环境迁移到云的第一步，Contoso 请阅读规划混合连接和[配置混合](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)连接，了解如何： [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) 
 
-  - 将其本地环境服务配置为与 Office 365 联合。 
+  - 将其本地环境服务配置为与 Office 365。 
 
-  - 配置其本地环境以信任 Office 365，并启用 Office 365 的共享 SIP 地址空间 
+  - 配置其本地环境以信任Office 365并启用共享 SIP 地址空间Office 365 
 
-  - 在 Office 365 租户中启用共享 SIP 地址空间。
+  - 在租户中启用共享 SIP Office 365空间。
 
   - 在技术试点期间使用群岛模式。
 
-  - 为用户启用电话系统后，将用户切换到 TeamsOnly 模式。 调用计划和直接路由需要 TeamsOnly 模式。
+  - 为用户启用登录后，将用户切换到 TeamsOnly 电话系统。 调用计划和直接路由需要 TeamsOnly 模式。

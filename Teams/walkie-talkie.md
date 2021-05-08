@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: 如何在 Microsoft Teams 中从 ITAdmin 角度配置 Walkie Talkie 应用。
+description: 如何从 ITAdmin 的角度Microsoft Teams Walkie Talkie 应用。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -35,13 +35,13 @@ Teams 中的 Walkie Talkie 应用为团队提供即时 (PTT) 通信，现在可�
 
 ### <a name="deploying-walkie-talkie"></a>部署 Walkie Talkie
 
-目前，未预安装 Walkie Talkie。 若要为组织中用户启用此功能，需要将 Walkie Talkie 添加到从 Teams [](teams-app-setup-policies.md)管理中心分配给用户的应用   [设置策略](https://admin.teams.microsoft.com/)。
+目前，未预安装 Walkie Talkie。 若要为组织中用户启用此功能，需要将 Walkie Talkie 添加到从管理中心 [](teams-app-setup-policies.md)分配给用户的应用   [Teams策略](https://admin.teams.microsoft.com/)。
 
 启用后，Walkie Talkie 将在 48 小时内在 Android 应用上可用。
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>将 Walkie Talkie 添加到应用列表
 
-在 Microsoft Teams 管理中心的 **"Teams 应用** 设置策略"下，应该将"允许用户  >  **固定**"设置为"**打开"。** 然后，在"固定应用"部分下，单击 **"+添加应用"。**
+在 Microsoft Teams 管理中心中，Teams **应用** 设置策略"下，应将"允许用户  >  **固定**"设置为"**打开"。** 然后，在"固定应用"部分下，单击 **"+添加应用"。**
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="显示"固定的应用"部分和要选择的"添加应用"按钮。":::
 
@@ -55,7 +55,7 @@ Walkie Talkie 应用现在应显示在"固定应用"列表中，单击"保存"�
 
 ### <a name="network-documentation"></a>网络文档
 
-Teams 中的 Walkie Talkie 需要 Internet 连接且低于网络条件才能获得最佳体验。
+Teams中的 Walkie Talkie 需要 Internet 连接且低于网络条件才能获得最佳体验。
 
 |指标 | 必需 |
 |---|---|
@@ -84,19 +84,19 @@ Teams 中的 Walkie Talkie 需要 Internet 连接且低于网络条件才能获�
     - [设置指南](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)。
 
 > [!NOTE]
-> 这些设备未通过 Teams 认证。 已验证它们与 Teams Walkie Talkie 一起工作。
+> 这些设备未经过Teams认证。 已验证它们与 Teams Talkie 一起工作。
 
 ### <a name="license-requirements"></a>许可证要求
 
-Walkie Talkie 应用包含在 [Office 365](/office365/servicedescriptions/teams-service-description)订阅中 Teams 的所有付费许可证中。 有关获取 Teams 的信息，请参阅如何 [获取 Microsoft Teams 的访问权限](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
+Walkie Talkie 应用包含在所有订阅中Teams付费Office 365[许可证](/office365/servicedescriptions/teams-service-description)中。 有关获取访问权限Teams，请参阅如何 [获取对 Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)的访问权限？
 
 > [!NOTE]
-> 某些高级功能可能需要额外的许可。 例如，与 Samsung Galaxy XCover Pro 集成需要 Knox 许可证。
+> 某些高级功能可能需要额外的许可。 例如，与 Samsung Galaxy XCover Pro需要 Knox 许可证。
 
 ## <a name="further-information"></a>更多信息
 
 - ITAdmins 可以通过应用策略保持对谁使用 Walkie Talkie 的控制。
-- 如果一线员工使用移动数据通过 Teams 进行通信，Walkie Talkie 将使用相同的方法。
+- 如果 FrontLine 工作人员使用移动数据通过 Teams 通信，Walkie Talkie 将使用相同的方法。
 - Walkie Talkie 应在低带宽情况下或智能手机已连接且正常工作的情况下运行良好。 当没有任何连接时，Walkie Talkie 将不起作用。
 
 有关最终用户体验的进一步阅读，请参阅：

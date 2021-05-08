@@ -1,5 +1,5 @@
 ---
-title: Teams 语音 Contoso 案例研究
+title: Teams Contoso 案例研究
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 针对多语言公司的 Teams 语音案例研究
+description: Teams多语言公司语音案例研究
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 085c9994bc2522d1ab56abc1670113e22d35f642
@@ -25,7 +25,7 @@ ms.locfileid: "51121300"
 ---
 # <a name="contoso-case-study-audio-conferencing"></a>Contoso 案例研究：音频会议
 
-为了了解音频会议是什么、它的成本、可用性及其工作原理 &mdash; &mdash; ，Contoso 查看了 Office [365](deploy-audio-conferencing-teams-landing-page.md)中的音频会议。 
+为了了解音频会议是什么、它的成本、可用性及其工作原理，Contoso 在 Office 365 中查看了 &mdash; &mdash; 音频[Office 365。](deploy-audio-conferencing-teams-landing-page.md) 
 
 ## <a name="overview"></a>概述 
 
@@ -37,18 +37,18 @@ Contoso 根据他们的研究做出以下决策：
 
 - Contoso 将使用专用电话号码并移植其现有号码以用于音频会议。   
 
-由于 Contoso 用户使用的是 Skype for Business，并且所有用户的邮箱都位于联机状态，因此许多用户已安排了现有会议。 Contoso 阅读使用会议迁移 [服务 (MMS ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)) 了解当 Contoso 将最终用户更改为 TeamsOnly 模式时，会自动更新现有会议。  
+由于 Contoso 用户使用 Skype for Business并且所有用户的邮箱都驻留在联机状态，因此许多用户已计划现有会议。 Contoso 阅读使用会议迁移 [服务 (MMS ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)) 了解当 Contoso 将最终用户更改为 TeamsOnly 模式时，会自动更新现有会议。  
 
 
 ## <a name="configuration"></a>配置
 
-与音频会议关联的电话号码称为电话系统内的服务号码。 
+电话音频会议关联的号码称为会议内电话系统。 
 
-- 对于使用呼叫计划的位置，为了将现有电话号码从电话运营商移植到 Office 365，Contoso 按照获取服务电话号码 [中的步骤操作](getting-service-phone-numbers.md)。
+- 对于使用呼叫计划的位置，为了将现有电话号码从电话运营商移植到 Office 365，Contoso 按照获取服务电话号码[中的步骤操作](getting-service-phone-numbers.md)。
 
 - 为了在技术试点中向最终用户分配音频会议许可证，Contoso 管理员按照管理组织的音频会议设置中的 [步骤操作](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)。 
 
-- 对于业务试点和迁移，Contoso 遵循 [在 Azure Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign)中按组成员身份向用户分配许可证中的步骤，使用基于组的许可。  
+- 对于业务试点和迁移，Contoso 按照在 中按组成员身份向用户分配许可证中的步骤使用[基于](/azure/active-directory/users-groups-roles/licensing-groups-assign)Azure Active Directory。  
 
  
 

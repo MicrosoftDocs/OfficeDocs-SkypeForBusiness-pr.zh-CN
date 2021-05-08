@@ -12,7 +12,7 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本文讨论如何使用适用于 Microsoft Teams 会议室的恢复工具，该工具用于将过时系统引入支持状态。
+description: 本文讨论如何使用恢复工具Microsoft Teams 会议室恢复工具，该工具用于将已过时系统转换为受支持的状态。
 ms.openlocfilehash: 9a856312229ae326b4adbfd039ee0553213ca09c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -22,31 +22,31 @@ ms.locfileid: "51117490"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft Teams 会议室恢复工具
 
-本文讨论如何使用适用于 Microsoft Teams 会议室的恢复工具，该工具用于将过时系统引入支持状态。 当 Microsoft Teams 会议室控制台显示"系统配置已过期"错误，或在执行按钮重置出厂还原之前，应应用 [此工具](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)。
+本文讨论如何使用恢复工具Microsoft Teams 会议室恢复工具，该工具用于将已过时系统转换为受支持的状态。 当主机显示"系统配置Microsoft Teams 会议室"错误，或在执行按钮重置出厂还原之前，应应用[此工具](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)。
 
 ## <a name="prerequisites"></a>先决条件
 
-下载最新的 [Microsoft Teams 会议室安装包](https://go.microsoft.com/fwlink/?linkid=851168) ，并解压缩到可供 Microsoft Teams 会议室设备访问的 U 盘或网络共享。
+下载最新的[Microsoft Teams 会议室](https://go.microsoft.com/fwlink/?linkid=851168)安装包，并解压缩到 USB 内存摇杆或可由设备Microsoft Teams 会议室的网络共享。
 
 > [!NOTE]
-> 可以通过多种方法从 MSI 提取文件。 提取所有文件并保留其目录结构的任何机制都是可接受的。 其中一种方式是使用 命令，其中 表示 Microsoft Teams Room 安装包的完整路径，表示要提取文件的文件夹 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` 的完整路径。
+> 可以通过多种方法从 MSI 提取文件。 提取所有文件并保留其目录结构的任何机制都是可接受的。 其中一种方式是使用 命令，其中 表示 Microsoft Teams Room 安装包的完整路径，并表示要提取文件的文件夹 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` 的完整路径。
 
 ## <a name="running-the-tool"></a>运行工具
 
-1) 登录到 Microsoft Teams 会议室设备的管理员帐户，并启动提升的命令提示符。
-2) 从 Microsoft Teams 会议室设备验证你能否访问 ，该设备包含在从 Microsoft Teams 会议室安装包中提取 `RecoveryTool.ps1 file` 的文件内。 可以在准备先决条件时所使用的网络共享或 U 盘上找到该工具包。
+1) 登录到新设备中的管理员Microsoft Teams 会议室，并启动提升的命令提示符。
+2) 从Microsoft Teams 会议室设备验证你能否访问 ，它包含在从安装包中提取 `RecoveryTool.ps1 file` Microsoft Teams 会议室文件。 可以在准备先决条件时所使用的网络共享或 U 盘上找到该工具包。
 3) 运行 `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` 。
 4) 若要执行恢复出厂设置，请执行以下操作：
    1. 当脚本提示时，请选择选项 2： **重置**。
-   2. 如果 BitLocker 已打开，请按照脚本输出末尾提供的说明禁用它。
+   2. 如果BitLocker，请按照脚本输出末尾提供的说明将其禁用。
    3. 执行工厂还原。
-      1. 打开" **设置"** 应用，然后选择 **"&安全性"**
+      1. 打开 **设置** 应用，然后选择"**更新&安全性"**
       2. 导航到"恢复 **"** 选项卡。
       3. 在 **"重置此电脑"下**，选择 **"开始使用"**
       4. 选择" **删除所有内容"，** 然后选择" **下一步"和** " **重置"**
         > [!WARNING]
-        > 如果在 Windows 重置过程中选择了"保留我的文件 **-** 删除应用和设置，但保留个人文件"选项，Microsoft Teams 会议室设备可能变为不可用。 不要选择此选项。
-      5. 系统将多次重新启动。 重置完成后，系统将在 OOBE (Windows"开箱即用) 屏幕。
+        > 如果在Microsoft Teams 会议室重置过程中选择了"保留我的文件 **-** 删除应用和设置，但保留个人文件"选项，Windows不可用。 不要选择此选项。
+      5. 系统将多次重新启动。 重置完成后，系统将在 OOBE Windows"开箱即用"屏幕上 () 屏幕。
 
 
 

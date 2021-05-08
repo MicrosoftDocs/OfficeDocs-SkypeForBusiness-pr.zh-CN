@@ -36,15 +36,15 @@ ms.locfileid: "51098138"
 [查找其他国家/地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的更多内容。
 
 
-|**Details**|**说明**|
+|**详细信息**|**说明**|
 |:-----|:-----|
-|是否提供免费呼叫？  <br/> |否  <br/> |
+|是否提供免费呼叫？  <br/> |不支持  <br/> |
 |拨号格式 ()   <br/> |0800-XXX-XXXX  <br/> |
 |国家/地区 ISO 代码  <br/> |EG  <br/> |
 |涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |未涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |有线/固定线路可用性  <br/> |仅限 Telecom Egypt。  <br/> |
-|移动网络可用性  <br/> |否  <br/> |
+|移动网络可用性  <br/> |不支持  <br/> |
 |注释、限制和访问问题  <br/> |无  <br/> |
    
 ## <a name="related-topics"></a>相关主题

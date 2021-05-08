@@ -27,18 +27,18 @@ ms.locfileid: "51094740"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 
-本文概述了交付和维护高质量的 Microsoft Teams 部署所需的要求。 在首次试点或生产部署之前，可以通过在展望阶段规划服务管理和质量来帮助确保部署得以成功。
+本文概述了提供和维护高质量部署所需的Microsoft Teams要求。 在首次试点或生产部署之前，可以通过在展望阶段规划服务管理和质量来帮助确保部署得以成功。
 
-## <a name="service-management-for-teams"></a>Teams 服务管理
+## <a name="service-management-for-teams"></a>服务管理Teams
 
-服务管理是一个非常广泛的主题，涵盖了部署 Microsoft Teams 服务并为用户启用该服务后该服务的日常操作。 Teams 服务包括 Microsoft 365 或 Office 365，以及在本地部署的基础结构组件 (例如网络) 。
+服务管理是一个非常广泛的主题，涵盖了部署 Microsoft Teams 服务并为用户启用该服务后该服务的日常操作。 Teams服务包括Microsoft 365或Office 365部署在本地的基础结构组件，例如 (网络) 。
 
 对于大多数组织而言，服务管理概念很可能不是一个新概念。 你可能已经实施了与现有服务关联的流程和任务。 尽管如此，当你现在规划服务管理以在将来支持 Microsoft Teams 时，你可能会扩大已实施的方面。
 
 服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 服务管理的一些组件（Microsoft 365 或 Office 365 服务本身包含的基础结构组件）由 Microsoft 负责，而客户对其用户负责管理 Teams、网络和他们提供的终结点的各个方面。
-有关客户对 Teams 服务管理的责任及其与影响用户体验质量的关键组件之间的关联的完整讨论，请参阅服务 [管理和质量规划](./prepare-network.md)。
+有关客户对服务管理的责任Teams及其与影响用户体验质量的关键组件之间的关联，请参阅服务管理和质量[规划](./prepare-network.md)。
 
-![质量的三个组件示意图](media/plan-my-service-management-image1.png "质量的三个组件（Microsoft 365 或 Office 365 服务、网络和终结点）的示意图，以及服务管理如何与这三个组件重叠。")
+![质量的三个组件示意图](media/plan-my-service-management-image1.png "质量的三个组件（Microsoft 365或Office 365、网络和终结点）的示意图，以及服务管理如何与这三个组件重叠。")
 
 <!--ENDOFSECTION-->
 
@@ -72,7 +72,7 @@ ms.locfileid: "51094740"
 |客户端&终结点团队|管理桌面部署|TBA|TBA|
 |标识操作|管理 Active Directory (Active Directory、Active Directory 联合身份验证服务、Azure AD) |TBA|TBA|
 |采用/更改管理|管理解决方案的认知、培训和采用|TBA|TBA|
-|Exchange 操作|管理 Exchange 环境|TBA|TBA|
+|Exchange操作|管理Exchange环境|TBA|TBA|
 |电话操作|管理 SBC 和电话号码|TBA|TBA|
 
 <!--ENDOFSECTION-->

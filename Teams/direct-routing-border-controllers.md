@@ -38,7 +38,7 @@ Microsoft 与每个供应商合作，以：
 
 
   > [!NOTE]
-  > Microsoft 仅在经过认证的设备或设备通过直接路由连接时支持电话系统。 Microsoft 保留拒绝未认证设备通过直接路由连接到电话系统的支持案例的权利。 如果 Microsoft 确定客户的直接路由问题与供应商的 SBC 设备有关，则客户需要联系 SBC 供应商提供支持。
+  > Microsoft 仅支持电话系统设备或设备通过直接路由进行连接时，才支持连接。 Microsoft 保留拒绝未认证设备通过直接路由连接到 电话系统的支持案例。 如果 Microsoft 确定客户的直接路由问题与供应商的 SBC 设备有关，则客户需要联系 SBC 供应商提供支持。
 
 下表列出了经认证可用于直接路由的设备。  (有关哪些 SBC 供应商支持本地媒体优化的信息，请参阅 [为](direct-routing-media-optimization-configure.md)直接路由配置本地媒体优化 .) 
 
@@ -78,13 +78,13 @@ Microsoft 与每个供应商合作，以：
 |                                   |     适用于 1000V 系列云服务路由器 (CUBE) Cisco Unified Border Element       |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r (推荐 17.3.2)          |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS 内部紧急路由服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW 网关 (内紧急) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     Cisco Unified Border Element (CUBE) 1000 系列聚合服务路由器      |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r (推荐 17.3.2)          |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS 内部紧急路由服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW 网关 (内紧急) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                                 |     Cisco Unified Border Element (CUBE) 用于 Catalyst 8000 Edge 平台      |     &#10004;   | &#10004; |      IOS XE 阿姆斯特丹 17.3.2      |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS 内部紧急路由服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW 网关 (内紧急) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    适用于企业版和 ASBCE ( Avaya 会话边界)     |     &#10004;     |       &#10004;     |       适用于媒体旁路 (8.1.2 版 8.1.1)       |     |    | 
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    用于 ASBCE Enterprise ( Avaya 会话边界)     |     &#10004;     |       &#10004;     |       适用于媒体旁路 (8.1.2 版 8.1.1)       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 会话边框控制器    |     &#10004;     |           |       1908 (19.5)        |     |    | 
 |                     |    Nokia 会话边框控制器    |     &#10004;     |           |       20.8       |      <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[ERS 内部紧急路由服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[EGW 网关 (内紧急) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       支持的 5.0 (推荐 5.1)      |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    兰花链接    |     &#10004;     |           |      3.1        |     |    | 
-|                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
+|                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    TeamsSBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
 |                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos 统一 OpenScape 会话边界控制器   |     &#10004;     |          |      V10R1.2       |     |    | 
 |                     [San一一公司。](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    对话框 BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
@@ -109,7 +109,7 @@ Microsoft 与每个供应商合作，以：
   | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  使用 Grandstream GXW42xx (V1.0.7.10 的任何节点)  |     &#10004;     |
   | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 多平台模拟电话适配器 |     &#10004;     |
   
-若要向我们提供有关 Teams 的产品反馈，例如新功能的想法，请参阅 [Uservoice](https://microsoftteams.uservoice.com)。
+若要向我们提供有关产品产品Teams，例如新功能的想法，请参阅[Uservoice。](https://microsoftteams.uservoice.com)
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

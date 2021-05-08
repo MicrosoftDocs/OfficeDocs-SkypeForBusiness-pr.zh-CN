@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '请参阅 Microsoft Teams 为用户和许多其他电话拨入式会议设置分配电话拨入式会议许可证和会议 ID 的步骤。 '
+description: '请参阅Microsoft Teams为用户和许多其他电话拨入式会议设置分配电话拨入式会议许可证和会议 ID 的步骤。 '
 ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "51101088"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理贵组织的音频会议设置
 
-在一个地方查看 Microsoft Teams 的所有音频会议设置可能更方便。 
+在一个地方查看会议的所有音频会议设置Microsoft Teams更方便。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -40,20 +40,20 @@ ms.locfileid: "51101088"
 ## <a name="assign-an-audio-conferencing-license"></a>分配音频会议许可证
 
 > [!NOTE]
-> 你不能使用 Teams 分配许可证。 必须使用 Microsoft 365 管理中心。 请参阅 [分配 Microsoft Teams 附加许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+> 你不能使用许可证分配Teams。 必须使用 Microsoft 365管理中心。 请参阅[分配Microsoft Teams附加许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **为用户分配许可证**
   
-1. 使用工作或学校帐户登录 Microsoft 365。
+1. 使用工作Microsoft 365登录帐户。
     
-2. 在 **Microsoft 365** 管理中心的左侧导航中，转到"用户  >  **""活动** 用户"，然后从可用用户列表中选择用户。
+2. 在管理Microsoft 365左侧导航中，转到"用户  >  **""活动** 用户"，然后从可用用户列表中选择用户。
     
     > [!NOTE]
     > [!注释] 如果要同时向多达 20 个用户分配许可证，则可以使用" **选择视图**"下拉列表，然后选择其中一个选项或创建你自己的视图。 然后单击" **编辑**"，单击 **下一步** 两次，然后选择许可证并单击" **提交**"。  
   
 3. 在"操作"窗格中的" **产品许可证**"下，单击" **编辑**"。 
     
-4. 在 **产品许可证** 页上，打开 **音频会议**，然后单击 **保存**。 有关许可的更多内容，请参阅 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+4. 在 **产品许可证** 页上，打开 **音频会议**，然后单击 **保存**。 有关许可的更多内容，请参阅[Microsoft Teams附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
    > [!NOTE]
    > 分配许可证后，Microsoft 最初可能不会在列表中显示为音频会议提供商。 如果发生这种情况，请注销管理中心或按 Ctrl+F5 刷新浏览器窗口。 
@@ -73,11 +73,11 @@ ms.locfileid: "51101088"
     
 **使用Windows PowerShell**
   
-有关详细信息， [请参阅 Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) 参考。
+有关详细信息[，Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)参考。
   
 ## <a name="reset-the-meeting-conference-id"></a>重置会议 ID
 
-![使用 Microsoft Teams 管理中心 ](media/teams-logo-30x30.png) **显示 Teams 徽标的图标**
+![一个图标，显示Teams ](media/teams-logo-30x30.png) **徽标使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 
@@ -217,11 +217,11 @@ ms.locfileid: "51101088"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点，在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
   

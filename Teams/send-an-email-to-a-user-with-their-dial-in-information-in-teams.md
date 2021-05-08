@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 了解如何在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件。
+description: 了解如何向用户发送包含其音频会议信息的电子邮件，Microsoft Teams。
 ms.openlocfilehash: 8cc0e549d502a2c7a8d8052ebe496a82e36b6648
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51117200"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件
 
-有时，Microsoft Teams 用户可能需要你向用户发送其音频会议信息。 为此，可以单击用户属性下的 **"** 通过电子邮件发送会议信息"。 当你发送此电子邮件时，它将包含所有音频会议信息，包括：
+有时Microsoft Teams用户可能需要你向用户发送其音频会议信息。 为此，可以单击用户属性下的 **"** 通过电子邮件发送会议信息"。 当你发送此电子邮件时，它将包含所有音频会议信息，包括：
   
 - 用户的会议电话或拨入电话号码。
     
@@ -74,15 +74,15 @@ ms.locfileid: "51117200"
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
     
   
 ## <a name="related-topics"></a>相关主题
 
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[尝试或购买音频会议Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

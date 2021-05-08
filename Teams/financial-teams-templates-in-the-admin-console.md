@@ -1,5 +1,5 @@
 ---
-title: 通过管理中心开始使用 Teams 财务模板
+title: 使用管理中心Teams财务模板入门
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用。 使用管理中心提供预定义的设置、频道和预安装的应用，创建专为财务需求设计的团队结构的 Teams 模板。
+description: 了解如何使用。 Teams模板，通过使用管理中心提供预定义的设置、通道和预安装的应用，创建专为财务需求设计的团队结构。
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,11 +26,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51092470"
 ---
-# <a name="use-teams-financial-templates-in-the-admin-center"></a>在管理中心使用 Teams 财务模板
+# <a name="use-teams-financial-templates-in-the-admin-center"></a>使用Teams管理中心中的财务模板
 
 Teams 模板提供预定义的设置、频道和预安装的应用模板，让你能够快速轻松地创建团队。
 
-Teams 模板具有围绕财务需求设计的团队结构的预构建定义。 你还可以扩展 Teams 模板，以创建根据特定组织需求量身定制的团队。
+Teams模板具有围绕财务需求设计的团队结构的预生成定义。 你还可以扩展 Teams 模板，以创建根据特定组织需求量身定制的团队。
 
 在本文中，我们将介绍各个 Teams 模板，并推荐其使用方法。
 

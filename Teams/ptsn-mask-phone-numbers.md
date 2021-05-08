@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 会议中屏蔽电话号码
+title: 在会议中屏蔽Microsoft Teams电话号码
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何在 Microsoft Teams 会议中屏蔽电话号码
+description: 了解如何在会议中屏蔽Microsoft Teams电话号码
 ms.openlocfilehash: bc3325805db63f86937a27d63cfc08ab0de84006
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -25,17 +25,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117710"
 ---
-# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>在 Microsoft Teams 会议中屏蔽电话号码
+# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>在会议中屏蔽Microsoft Teams电话号码
 
-为增加隐私性，使用音频会议拨入 Teams 会议的参与者的电话号码将完全向内部参与者显示。 号码会从组织外部的参与者中屏蔽。 此设置是所有组织的默认设置。 显示屏蔽数字，如下图所示：
+为增加隐私性，使用音频会议拨入Teams会议的参与者的电话号码将完全向内部参与者显示。 号码会从组织外部的参与者中屏蔽。 此设置是所有组织的默认设置。 显示屏蔽数字，如下图所示：
 
 ![已屏蔽电话号码的示例](media/hiddenPhoneNum.png)
 
 对于特定的行业用例，管理员可以选择音频会议参与者的电话号码在租户中组织的会议中如何显示。 管理员可以从三个选项中进行选择：
 
-- 电话号码仅对外部参与者进行屏蔽。 属于会议组织者租户的参与者仍看到完整电话号码。
-- 会议中的每个人（组织者除外）都屏蔽了电话号码。
-- 电话号码未屏蔽，因此对参加会议的每个人都可见。
+- 电话外部参与者屏蔽数字。 属于会议组织者租户的参与者仍看到完整电话号码。
+- 电话会议中的每个人（组织者除外）屏蔽了数字。
+- 电话数字未屏蔽，因此会议中的每个人都可以看到它们。
 
 此设置应用于会议中公开电话号码的所有图面。
 

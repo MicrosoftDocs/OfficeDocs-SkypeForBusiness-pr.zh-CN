@@ -39,32 +39,32 @@ ms.locfileid: "51637834"
 
 在配置网络会议之前，请确保组织满足以下先决条件： 
 
-- 确保组织中已启用或将启用音频会议的所有用户都使用 Teams 进行所有会议。 仅 Teams 会议支持通过网络内会议路由入站和出站音频会议呼叫。
+- 确保组织中已启用或将启用音频会议的所有用户都Teams会议。 仅支持通过网络内会议进行入站和出站音频会议呼叫的路由，Teams会议。
 
 - 将音频会议许可证分配给将使用网络内会议的所有用户。
 
-- 设置音频会议服务。 有关其他信息，请参阅 [为 Microsoft Teams 设置音频会议](set-up-audio-conferencing-in-teams.md)。
+- 设置音频会议服务。 有关其他信息，请参阅[为会议设置音频Microsoft Teams。](set-up-audio-conferencing-in-teams.md)
 
 - 为直接路由设置 SBC () 边界控制器。 有关其他信息，请参阅 [规划直接路由](direct-routing-plan.md) 和 [配置直接路由](direct-routing-configure.md)。 
 
-  如果仅针对音频会议设置直接路由，则只需完成"步骤 1：连接 SBC"网络会议。
+  如果您仅出于音频会议的目的设置直接路由，则对于网络会议，只需完成"步骤 1：连接 SBC"。
   
 ## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>启用通过直接路由将拨入呼叫路由到 Microsoft 音频会议 
 
-若要通过直接路由将本地用户拨打的拨入呼叫路由到音频会议服务，需要为 SDC 和专用交换机 (PBX)  (配置适当的) 。
+若要通过直接路由将本地用户拨打的拨入呼叫路由到音频会议服务，需要为 SDC 和专用分支 Exchange ()  (PBX) 。
 
 需要配置站点的电话设备，以通过直接路由中继将呼叫路由到组织会议网桥的任何服务号码。
 
-可以在 Teams 管理中心中的"会议 **"-> 会议** 网桥下找到服务号码，或者使用 Skype for Business Online PowerShell cmdlet Get-CsOnlineDialInConferencingBridge 查找服务号码。 有关其他信息，请参阅 Microsoft Teams 中的音频 [会议号码列表](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
+可以在会议 **-> 会议** 网桥下的 Teams 管理中心中查找服务号码，或者使用 Skype for Business Online PowerShell cmdlet Get-CsOnlineDialInConferencingBridge 查找服务号码。 有关其他信息，请参阅音频会议[号码列表Microsoft Teams。](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
 > [!NOTE]
 > 具有每分钟音频会议付费许可证的用户无法使用此功能。
 
-## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>通过直接路由启用 Teams 会议拨出呼叫的路由
+## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>通过直接路由Teams会议拨出呼叫的路由
 
-Teams 会议拨出呼叫从你组织的会议内发起到 PSTN 号码，包括呼叫时呼叫和将新参与者带到会议。 
+Teams会议拨出呼叫从您组织的会议内发起到 PSTN 号码，包括呼叫我电话和呼叫以将新参与者带到会议。 
 
-若要通过直接路由向网络用户启用 Teams 会议拨出路由，需要创建并分配名为"OnlineAudioConferencingRoutingPolicy"的音频会议路由策略。 
+若要Teams通过直接路由向网络用户启用会议拨出路由，需要创建并分配名为"OnlineAudioConferencingRoutingPolicy"的音频会议路由策略。 
 
 OnlineAudioConferencingRoutingPolicy 策略等同于通过直接路由进行 1：1 PSTN 呼叫的 CsOnlineVoiceRoutingPolicy。 可以使用以下 cmdlet 管理 OnlineAudioConferencingRoutingPolicy 策略：
 
@@ -83,7 +83,7 @@ OnlineAudioConferencingRoutingPolicy 策略等同于通过直接路由进行 1�
 - 在组织的电话设备上配置路由
 -  (可选) 配置拨号计划
 
-Teams 会议的拨出呼叫来自会议网桥上的默认服务号码。 有关音频会议网桥的默认服务号码的其他信息，请参阅更改音频会议网桥 [上的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
+来自会议Teams呼叫来自会议网桥上的默认服务号码。 有关音频会议网桥的默认服务号码的其他信息，请参阅更改音频会议网桥 [上的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
 ### <a name="configure-audio-conferencing-routing-policies"></a>配置音频会议路由策略
 
@@ -108,7 +108,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 
 #### <a name="configure-voice-routes"></a>配置语音路由
 
-语音路由根据从 Teams 会议拨打的电话号码来确定用于路由呼叫的 PSTN 网关。 语音路由将 Teams 会议拨打的电话号码与正则表达式模式匹配，确定用于路由给定呼叫的 PSTN 网关。 创建语音路由时，该路由必须与一个或多个 PSTN 用法相关联。
+语音路由确定 PSTN 网关，该网关应该用于根据从会议呼叫Teams电话号码路由呼叫。 语音路由通过匹配从 Teams 会议拨打的电话号码与正则表达式模式来确定用于路由给定呼叫的 PSTN 网关。 创建语音路由时，该路由必须与一个或多个 PSTN 用法相关联。
 
 可以使用"New-CsOnlineVoiceRoute"cmdlet 创建语音路由并定义要与语音路由关联的正则表达式和网关。 例如：
 
@@ -148,7 +148,7 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 拨号计划是一组规范化规则，用于将单个用户拨打的电话号码转换为备用格式 (通常为 E.164) ，以便进行呼叫授权和呼叫路由。
 
-默认情况下，Teams 用户可以拨打 E.164 格式的 PSTN 号码，即 + \<country code\> \<number\> 。 但是，拨号计划可用于允许用户以其他格式拨打电话号码，例如 4 位数分机号码。
+默认情况下，Teams E.164 格式（即 + ）拨打 PSTN \<country code\> \<number\> 号码。 但是，拨号计划可用于允许用户以其他格式拨打电话号码，例如 4 位数分机号码。
 
 如果要通过网络内会议启用基于分机的拨号，可以设置拨号计划，以将分机拨号模式与贵组织的电话号码范围相匹配。 若要设置拨号计划，请参阅 [创建和管理拨号计划](create-and-manage-dial-plans.md)。
 

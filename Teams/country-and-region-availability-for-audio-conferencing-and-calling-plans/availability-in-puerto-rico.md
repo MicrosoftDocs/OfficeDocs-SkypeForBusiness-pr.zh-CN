@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于波多黎各的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+description: 以下是适用于Microsoft 365 Office 365波多黎各的Skype for Business Microsoft Teams服务。
 ms.openlocfilehash: 3f4933b1b6ea0ca85a7b6235e77b5eb7c50e40fc
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,19 +36,19 @@ ms.locfileid: "51092650"
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于波多黎各的 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+以下是适用于Microsoft 365 Office 365波多黎各的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |不支持  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
 | 自动助理 <br/> |可用  <br/> |
@@ -57,7 +57,7 @@ ms.locfileid: "51092650"
    
 ## <a name="calling-plans"></a>通话套餐
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
 |通话套餐的可用分钟数  <br/> |国内 3000 分钟或国际 600 分钟（根据日历月份取先达到者）。 美国国内呼叫包括呼叫美国所有 50 个州和波多黎各。 分配有美国和/或波多黎各许可证使用位置的用户共享相同的分钟数池。  <br/> |
@@ -66,7 +66,7 @@ ms.locfileid: "51092650"
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |圣安东尼奥  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
@@ -76,7 +76,7 @@ ms.locfileid: "51092650"
   
 ## <a name="communications-credits"></a>通信点数
 
-|**功能**|**Details**|
+|**功能**|**详细信息**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |是  <br/> |
    

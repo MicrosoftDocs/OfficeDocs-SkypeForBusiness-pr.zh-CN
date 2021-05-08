@@ -33,16 +33,16 @@ ms.locfileid: "51899113"
 
 Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达到主会议容量后 (300 个用户进入会议) ，其他与会者将加入仅查看体验。
 
-首先加入会议的与会者（最多是主会议的容量）将获得完整的 Teams 会议体验。 他们可以共享音频和视频、查看共享视频、并参与会议聊天。
+首先加入会议的与会者（最多为主会议的容量）将获得完整的Teams体验。 他们可以共享音频和视频、查看共享视频、并参与会议聊天。
 
 在达到主会场容量后加入的与会者将有仅查看体验。
 
-与会者可以通过 Android 和 iOS 桌面版、Web 版和 Teams (加入仅查看) 。
+与会者可以通过 Android 和 iOS Teams桌面、Web 和 (加入仅) 。
 
 > [!Note]
 > "主会议"的当前容量限制（换句话说，完全交互用户数）为 300。
 
-## <a name="teams-view-only-experience-controls"></a>Teams 仅查看体验控件
+## <a name="teams-view-only-experience-controls"></a>Teams仅查看体验控件
 
 使用 PowerShell 启用仅查看体验。
 
@@ -56,7 +56,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-将来，你将能够在 Teams 管理中心启用或禁用仅查看体验。
+将来，你将能够在管理中心启用或禁用仅Teams体验。
 
 ## <a name="impact-to-users"></a>对用户的影响
 
@@ -64,7 +64,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 当主会场容量已满时，如有下列情况之一，与会者将无法参加会议:
 
-- 管理员已针对组织者或整个租户禁用了 Teams 仅查看体验。
+- 管理员已禁用Teams或整个租户的仅查看体验。
 - 仅查看与会者不能绕过大厅。 例如，如果会议的组织者选择仅让"我的组织内部人员"绕过大厅，而组织外部的与会者尝试以仅查看与会者的与会者加入，他们将无法加入。
 
 当达到主会议的容量时，会议组织者和演示者将看到一个横幅，通知他们新与会者将作为仅查看的与会者加入。
@@ -102,14 +102,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 - 如果与会者没有根据设定的大厅政策或选项绕过大厅的权限，加入会议。
 - 使用音频会议加入仅查看会议室。
-- 使用 Microsoft Teams 会议室系统或 CVI 服务中的云视频互操作 (仅) 聊天室。
+- 使用 CVI 服务Microsoft Teams 会议室云视频互操作 (仅查看) 聊天室。
 - 共享他们的音频或视频。
 - 查看或参与会议聊天。
 - 除非与会者是主动发言的人，否则可以看到会议参与者的视频源。
-- 查看使用 PowerPoint Live 功能共享的 PowerPoint 文件，或者使用桌面或屏幕共享功能 (应用程序共享共享) 。
+- 请参阅PowerPoint Live 功能或单个应用程序共享PowerPoint桌面或屏幕共享功能共享 (共享的文件) 。
 - 在会议中举手。
 - 发送或查看回应。
-- 与集成到 Teams 会议的任何 3P 应用（包括投票）交互。
+- 与集成到会议会议的任何 3P Teams交互，包括投票。
 
 ## <a name="view-only-feature-limitations"></a>仅查看功能限制
 

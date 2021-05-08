@@ -31,9 +31,9 @@ ms.locfileid: "51118491"
 
 日期：2018 年 10 月 2 日
 
-Nom du produit：Microsoft Teams
+Nom du produit： Microsoft Teams
 
-说明 du produit ： Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes， contenus et outils don votre équipe a besoin pour être plus impliquée et efficace.
+Description du produit ： Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes， contenus et outils don votre équipe a besoin pour être plus impliquée et efficace.
 
 Plate-forme： Win32
 
@@ -188,7 +188,7 @@ Cette section ne s'applique pas à Microsoft Teams.
 |**12.1.1 Caractéristiques d'accessibilité et de compatibilité**<br/>La documentation produit fouruit avec la TIC， qu'elle soit four一 séparément ou intégrée dans la TIC， dresse la liste des caractéristiques d'accessibilité et de compatibilité de la TIC et explique comment les utiliser.<br/>|Pris en charge<br/> | |
 |**12.1.2 文档可访问**<br/>La documentation produit four一 avec la TIC est mise à disposition dans au moins un des formats électroniques suivants：<br/>a) un format web qui est conforme à la clause 9， ou<br/>b) 非 web qui est 格式符合 à la 子句 10。<br/>|Pris en charge<br/> | |
 |**12.2.2 Informations sur les caractéristiques d'accessibilité et de compatibilité**<br/>Les services d'assistance de la TIC communiquent des informations sur les caractéristiques d'accessibilité et de compatibilité qui sont mentionnées dans la documentation produit.<br/>|Pris en charge<br/> | |
-|**12.2.3 Efficacité de la communication**<br/>Les services d'assistance de la TIC répondent aux besoins en communication des personnes porteuses deement ou depuis un point de référence.<br/>|Pris en charge<br/> |[残障人士咨询台](https://support.microsoft.com/answerdesk/accessibility) |
+|**12.2.3 Efficacité de la communication**<br/>Les services d'assistance de la TIC répondent aux besoins en communication des personnes porteuses deement ou depuis un point de référence.<br/>|Pris en charge<br/> |[残障人士Answer Desk](https://support.microsoft.com/answerdesk/accessibility) |
 |**12.2.4 文档可访问**<br/>La documentation four一 par les services d'assistance est mise à disposition dans au moins un des formats électroniques suivants ：<br/>a) un format Web qui est conforme à la clause 9， ou <br/>b) 非 web qui est 格式符合 à la 子句 10。<br/>|Pris en charge<br/> | |
 
 ## <a name="section-13-tic-assurant-le-relais-ou-laccs--des-services-durgence"></a>第 13 节 TIC assurant le relais ou l'accès à des services d'紧急

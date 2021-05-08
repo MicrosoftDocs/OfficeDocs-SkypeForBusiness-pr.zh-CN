@@ -1,5 +1,5 @@
 ---
-title: 使用 Azure Monitor 部署 Microsoft Teams 会议室管理
+title: 使用 Azure Monitor Microsoft Teams 会议室管理
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: 本文讨论如何使用 Azure Monitor 以集成式的端到端方式部署 Microsoft Teams 会议室设备的管理。
+description: 本文讨论如何使用 Azure Monitor 以Microsoft Teams 会议室的端到端方式部署设备管理。
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -30,7 +30,7 @@ ms.locfileid: "51117590"
 
 遵循本指南，可以使用如以下示例所示的仪表板获取有关设备可用性、应用程序和硬件运行状况以及应用程序和操作系统版本分发 :::no-loc text="Microsoft Teams Rooms"::: 的详细状态报告。
 
-![Microsoft Teams 会议室的示例 Log Analytics 视图的屏幕截图](../media/Deploy-Azure-Monitor-1.png "Microsoft Teams 会议室的示例 Log Analytics 视图")
+![示例 Log Analytics 视图的屏幕截图，Microsoft Teams 会议室](../media/Deploy-Azure-Monitor-1.png "示例 Log Analytics 视图Microsoft Teams 会议室")
 
 你需要在高级别执行以下任务：
 
@@ -77,7 +77,7 @@ ms.locfileid: "51117590"
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>安装 :::no-loc text="Microsoft Monitoring"::: 代理以测试设备
 
-按照将计算机连接到 中的服务中提供的说明，将代理 :::no-loc text="Microsoft Monitoring"::: [ :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: 部署到测试设备 :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows)。 本文详细介绍了部署代理的步骤、获取工作区 ID _ 和 _ 主密钥 * 以将设备连接到部署的说明，以及验证代理与实例的连接 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: 的步骤。
+按照将计算机部署到 中的服务连接 :::no-loc text="Microsoft Monitoring"::: [中的说明 :::no-loc text="Windows"::: ，将代理 :::no-loc text="Log Analytics"::: 部署到 :::no-loc text="Azure"::: 测试设备](/azure/azure-monitor/platform/agent-windows)。 本文详细介绍了部署代理的步骤、获取工作区 ID _ 和 _ 主密钥 * 以将设备连接到部署的说明，以及验证代理与实例的连接 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: 的步骤。
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>生成 :::no-loc text="Microsoft Teams Rooms"::: 示例事件
 
@@ -161,7 +161,7 @@ ms.locfileid: "51117590"
 > [!NOTE]
 > 本指南中的先前步骤应已完成，仪表板磁贴应能正常工作。
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>使用导入方法创建 Microsoft Teams 会议室仪表板
+### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>使用导入Microsoft Teams 会议室创建一个仪表板
 
 可以导入 :::no-loc text="Microsoft Teams Rooms"::: 仪表板并开始快速监视设备。 执行以下步骤导入仪表板：
 
@@ -169,9 +169,9 @@ ms.locfileid: "51117590"
 2.  登录到门户[ :::no-loc text="Microsoft Azure"::: ，](https://portal.azure.com)转到并选择 :::no-loc text="Log Analytics"::: 工作区。
 3.  打开 **"视图设计器"。**
 4.  选择 **"导入**"，然后选择 **SkypeRoomSystems_v2.omsview** 文件。
-5.  选择"**保存"。**
+5.  选择“**保存**”。
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>手动创建 Microsoft Teams 会议室仪表板
+### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>手动Microsoft Teams 会议室仪表板
 
 或者，你可以创建自己的仪表板并仅添加要监视的磁贴。
 
@@ -258,7 +258,7 @@ ms.locfileid: "51117590"
     **操作：** 总和
 5.  定义 **列表** 属性。<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **隐藏图形：** 已选择<br>
+    **隐藏Graph：** 已选择<br>
     **启用迷你图：** 未选中
 6.  定义 **列标题**。<br>
     **名称：** 计算机名称<br>
@@ -282,7 +282,7 @@ ms.locfileid: "51117590"
     **操作：** 总和
 5.  定义 **列表** 属性。<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **隐藏图形：** 已选择<br>
+    **隐藏Graph：** 已选择<br>
     **启用迷你图：** 未选中
 6.  定义 **列标题**。<br>
     **名称：** 计算机名称<br>
@@ -379,7 +379,7 @@ ms.locfileid: "51117590"
     2.  为"操作组名称"*和"短名称"字段**提供合适的* 名称。
     3.  指定唯一 *的操作名称，* 选择"**电子邮件/短信/推送/语音**"，然后选择"**编辑详细信息"。**
     4.  选中 **"电子邮件** "复选框，并提供将接收警报的联系人或组的电子邮件地址。
-    5.  您也可以提供电话号码，以便通过短信和/或语音呼叫获得通知。
+    5.  您还可以提供电话号码，以便通过语音呼叫短信或同时接收通知。
     6. 选择"**确定"。**
 
 8. **如果要** 覆盖警报电子邮件的主题行，请自定义"操作"。
@@ -408,7 +408,7 @@ ms.locfileid: "51117590"
 
 生成警报时，你收到一封电子邮件，其中列出了过去一小时内遇到问题的设备。
 
-![示例 :::no-loc text="Azure Monitor"::: 警报电子邮件] (./media/Deploy-Azure-Monitor-6.png" :::no-loc text="Azure Monitor"::: 示例警报电子邮件") 
+![示例 :::no-loc text="Azure Monitor"::: 警报电子邮件] (./media/Deploy-Azure-Monitor-6.png" :::no-loc text=&quot;Azure Monitor&quot;::: 示例警报电子邮件") 
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>为 配置所有设备 :::no-loc text="Azure Monitoring":::
 <a name="configure_all_devices"></a>配置仪表板和警报后，可以在所有设备上设置和配置代理， :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 以完成监视部署。
@@ -438,7 +438,7 @@ ms.locfileid: "51117590"
 6.  配置启动脚本：
     1.  复制以下脚本并将其另存为Install-MMAgent.ps1。
     2.  修改 WorkspaceId、WorkspaceKey 和 SetupPath 参数，以匹配配置。
-    3.  编辑同一组策略对象并导航到"计算机配置策略设置"脚本 \\ \\ :::no-loc text="Windows"::: \\ (启动/关闭) 
+    3.  编辑同一组策略对象，导航到"计算机配置策略"设置 \\ \\ :::no-loc text="Windows"::: \\ 脚本 (启动/关闭) 
     4.  双击选择"启动 **"，** 然后选择 **"PowerShell 脚本"。**
     5.  选择 **"显示** 文件"， **然后将Install-MMAgent.ps1文件** 复制到该文件夹。
     6.  选择 **"添加"，** 然后选择"**浏览"。**

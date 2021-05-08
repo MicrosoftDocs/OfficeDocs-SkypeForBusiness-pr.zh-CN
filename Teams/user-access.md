@@ -59,7 +59,7 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 ### <a name="remove-a-teams-license"></a>删除 Teams 许可证
 
 > [!IMPORTANT]
-> 禁用 Teams SKU 需要大约 24 小时才能生效。
+> 禁用 SKU 需要大约 24 小时Teams SKU 才能生效。
 
 从用户删除 Teams 许可证时，将针对该用户禁用 Teams，然后他们将不会再在应用启动器或主页中看到 Teams。 有关详细步骤，请参阅[取消分配用户许可证](/microsoft-365/admin/manage/remove-licenses-from-users)。
 

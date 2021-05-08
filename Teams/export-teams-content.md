@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft Teams 导出 API 导出内容
+title: 使用导出 API Microsoft Teams内容
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
-description: 本文介绍如何使用 Microsoft Teams 导出 API 导出 Teams 内容。
+description: 本文将了解如何使用导出 API Teams导出Microsoft Teams内容。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -25,27 +25,27 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51092441"
 ---
-# <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用 Microsoft Teams 导出 API 导出内容
+# <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用导出 API Microsoft Teams内容
 
-Teams 导出 API 允许从 Microsoft Teams 导出 1：1、群组聊天、会议聊天和频道消息。 如果组织需要导出 Microsoft Teams 消息，可以使用 Teams 导出 API 提取它们。 *聊天消息* 表示频道 [或聊天中的](/graph/api/resources/channel?view=graph-rest-beta) 单个聊天 [消息](/graph/api/resources/chat?view=graph-rest-beta)。 聊天消息可以是聊天消息中的根聊天消息或由 **聊天消息中的 replyToId** 属性定义的回复线程的一部分。
+Teams使用导出 API，你可以从游戏导出 1：1、群组聊天、会议聊天和Microsoft Teams。 如果组织需要导出Microsoft Teams，可以使用导出 API Teams它们。 *聊天消息* 表示频道 [或聊天中的](/graph/api/resources/channel?view=graph-rest-beta) 单个聊天 [消息](/graph/api/resources/chat?view=graph-rest-beta)。 聊天消息可以是聊天消息中的根聊天消息或由 **聊天消息中的 replyToId** 属性定义的回复线程的一部分。
 
 下面是一些有关如何使用这些导出 API 的示例：
 
-- **示例 1：** 如果已在你的组织中启用 Microsoft Teams，并且想要通过传递给定用户或团队的日期范围以编程方式导出所有 Microsoft Teams 消息，
+- **示例 1：** 如果已启用Microsoft Teams，并且想要通过传递给定用户或团队的日期范围，以编程方式导出所有 Microsoft Teams 消息。
 - **示例 2：** 如果要通过提供日期范围以编程方式每天导出所有用户或团队消息。 导出 API 可以检索在给定日期范围内创建或更新的所有消息。
 
-## <a name="what-is-supported-by-the-teams-export-apis"></a>Teams 导出 API 支持哪些功能？
+## <a name="what-is-supported-by-the-teams-export-apis"></a>导出 API 支持Teams哪些功能？
 
-- **批量导出 Teams 消息：** Teams 导出 API 最多支持每个租户每个应用 200 个 RPS，应用程序最多支持 600 个 RPS，这些限制应该可以批量导出 Teams 消息。
-- **应用程序上下文**：若要调用 Microsoft Graph，应用必须从 Microsoft 标识平台获取访问令牌。 访问令牌包含有关应用及其对通过 Microsoft Graph 提供的资源和 API 的权限的信息。 若要获取访问令牌，你的应用必须注册到 Microsoft 标识平台，并且必须由用户或管理员授权才能访问所需的 Microsoft Graph 资源。
+- 批量导出 **Teams** 消息：Teams 导出 API 支持每个租户每个应用最多 200 个 RPS，应用程序最多支持 600 个 RPS，这些限制应该可以批量导出 Teams 消息。
+- **应用程序上下文**：若要调用 Microsoft Graph，你的应用必须从应用程序获取访问Microsoft 标识平台。 访问令牌包含有关应用的信息，以及该应用对通过 Microsoft Graph 提供的资源和 API 的权限。 若要获取访问令牌，你的应用必须注册到 Microsoft 标识平台并且由用户或管理员授权才能访问所需的 Microsoft Graph资源。
 
-    如果已熟悉将应用与 Microsoft 标识平台集成以获取令牌，请参阅"下一步[](/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)"部分，了解特定于 Microsoft Graph 的信息和示例。
-- **混合环境：** 导出 API 支持在本地 Exchange 和 Teams (混合环境中预配的用户发送) 。 为混合环境配置的用户发送的任何消息都可以使用导出 API 访问。
-- **用户已删除的消息：** 用户从 Teams 客户端中删除的消息可以使用导出 API 访问，自删除起最多 21 天。
+    如果已熟悉将应用与应用集成Microsoft 标识平台获取令牌，请参阅"下一步"部分，了解特定于[](/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)Microsoft Graph。
+- **混合环境：** 导出 API 支持在本地和本地混合环境中预配 (用户Exchange Teams) 。 为混合环境配置的用户发送的任何消息都可以使用导出 API 访问。
+- **用户已删除的消息：** 用户从客户端中删除的消息Teams自删除起最多 21 天内使用导出 API 访问。
 - **邮件附件：** 导出 API 包括作为邮件的一部分发送的附件的链接。 使用导出 API 可以检索邮件中附加的文件。
-- **聊天消息属性：** 请参阅此处 Teams 导出 API 支持的属性 [的完整列表](/graph/api/resources/chatmessage?view=graph-rest-beta#properties)。
+- **聊天消息属性：** 请参阅此处导出 API 支持Teams的完整 [属性列表](/graph/api/resources/chatmessage?view=graph-rest-beta#properties)。
 
-## <a name="how-to-access-teams-export-apis"></a>如何访问 Teams 导出 API
+## <a name="how-to-access-teams-export-apis"></a>如何访问Teams API
 
 - **示例 1** 是一个简单的查询，用于检索用户或团队的所有消息，而无需任何筛选器：
 
@@ -67,10 +67,10 @@ Teams 导出 API 允许从 Microsoft Teams 导出 1：1、群组聊天、会议�
 >[!NOTE]
 >如果有多个结果，API 会返回包含下一页链接的响应。 要获取下一组结果，只需从 @odata.nextlink 对 URL 调用 GET。 如果@odata.nextlink 不存在或为 null，则检索所有消息。
 
-## <a name="prerequisites-to-access-teams-export-apis"></a>访问 Teams 导出 API 的先决条件 
+## <a name="prerequisites-to-access-teams-export-apis"></a>访问导出 API Teams的先决条件 
 
-- Teams 导出 API 目前以预览版提供。 它仅对具有 API 所需许可证 [的用户和租户](/graph/teams-licenses) 可用。 将来，Microsoft 可能会要求你或你的客户根据通过 API 访问的数据量支付额外费用。
-- Microsoft Graph 中访问敏感数据的 Microsoft Teams API 被视为受保护的 API。 导出 API 需要具有除权限和许可之外的附加验证才能使用它们。 若要请求访问这些受保护的 API，请完成 [请求表单](https://aka.ms/teamsgraph/requestaccess)。
+- Teams导出 API 目前以预览版提供。 它仅对具有 API 所需许可证 [的用户和租户](/graph/teams-licenses) 可用。 将来，Microsoft 可能会要求你或你的客户根据通过 API 访问的数据量支付额外费用。
+- Microsoft TeamsMicrosoft 中用于Graph敏感数据的 API 被视为受保护的 API。 导出 API 需要具有除权限和许可之外的附加验证才能使用它们。 若要请求访问这些受保护的 API，请完成 [请求表单](https://aka.ms/teamsgraph/requestaccess)。
 - 应用程序权限由在没有登录用户的情况下运行的应用使用;应用程序权限只能由管理员许可。 需要以下权限：
 
     - *Chat.Read.All：* 允许访问所有 1：1 和群组聊天消息 

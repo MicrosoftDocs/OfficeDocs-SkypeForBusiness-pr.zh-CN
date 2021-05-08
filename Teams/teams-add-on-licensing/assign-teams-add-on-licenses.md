@@ -1,5 +1,5 @@
 ---
-title: 向用户分配 Teams 附加许可证
+title: 向Teams分配附加许可证
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -13,7 +13,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: 了解如何为音频会议、电话系统和呼叫计划等功能的用户分配 Teams 附加许可证。
+description: 了解如何向用户Teams音频会议、音频会议、电话系统和呼叫计划等功能分配附加许可证。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
@@ -23,36 +23,36 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116930"
 ---
-# <a name="assign-teams-add-on-licenses-to-users"></a>向用户分配 Teams 附加许可证
+# <a name="assign-teams-add-on-licenses-to-users"></a>向Teams分配附加许可证
 
-附加许可证是特定 Teams 功能（如音频会议、电话系统和通话计划）的许可证。 本文介绍如何将附加许可证批量分配给单个用户和大型用户集。
+附加许可证是特定 Teams（例如音频会议、电话系统和呼叫计划）的许可证。 本文介绍如何将附加许可证批量分配给单个用户和大型用户集。
 
 > [!NOTE]
-> 有关 [随附加许可证一](./microsoft-teams-add-on-licensing.md) 起提供的 Teams 功能，请参阅 Teams 附加许可。 你还将找到有关需要购买哪些许可证以及如何购买许可证的信息 (具体取决于你的计划) ，以便用户可以获取音频会议、免费号码和呼叫组织外部电话号码等功能。 确定要为用户提供哪些功能后，请为其分配许可证。
+> 请参阅[Teams附加许可证](./microsoft-teams-add-on-licensing.md)Teams附加许可证提供的功能。 你还将找到有关需要购买哪些许可证以及如何购买许可证的信息 (具体取决于你的计划) ，以便用户可以获取音频会议、免费号码和呼叫组织外部电话号码等功能。 确定要为用户提供哪些功能后，请为其分配许可证。
 
-可以使用 Microsoft 365 管理中心或 PowerShell 将许可证分配给组织的用户。 你必须成为全局管理员或用户管理管理员才能管理许可证。
+可以使用 Microsoft 365 管理中心或 PowerShell 为组织的用户分配许可证。 你必须成为全局管理员或用户管理管理员才能管理许可证。
 
-## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>分配电话系统、呼叫计划和通信信用额度许可证之前需了解哪些信息
+## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>分配许可证、呼叫计划和通信电话系统许可证之前需了解哪些信息
 
 在开始使用之前，请查看以下要求：
 
-- 如果使用本地公用电话交换网和 PSTN (PSTN) 连接，则只需分配电话系统许可证。 不要分配呼叫计划许可证。
+- 如果使用本地公用电话交换网和 PSTN (PSTN) 连接，则只需分配一个 电话系统 许可证。 不要分配呼叫计划许可证。
 
-- 由于 Microsoft 365 和 Microsoft Teams 之间的延迟，分配许可证后，最多可能需要 24 小时才能为用户分配通话计划。 如果 24 小时后未为用户分配呼叫计划，请联系业务产品 [支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- 由于用户与Microsoft 365 Microsoft Teams延迟，分配许可证后，最多可能需要 24 小时才能为用户分配呼叫计划。 如果 24 小时后未为用户分配呼叫计划，请联系业务产品 [支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - 如果尚未购买正确数量的许可证，则会显示一条错误消息。 如果需要购买更多通话套餐许可证，请选择购买更多许可证的选项。
 
-- 即使为用户分配了企业版 E5 许可证，如果用户想要拨打[](../what-are-communications-credits.md)或接听来自 PSTN 的呼叫，你仍然需要为其分配通信信用额度许可证。
+- 即使为用户分配了 Enterprise E5 许可证，如果用户想要拨打或接听[](../what-are-communications-credits.md)来自 PSTN 的呼叫，你仍然需要为其分配通信信用额度许可证。
 
 - 将"呼叫计划"或"通信信用额度"许可证分配给用户后，需要获取组织的电话号码，然后将这些号码分配给用户。 有关分步说明，请参阅 [设置呼叫计划](../set-up-calling-plans.md)。
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 管理中心
 
-使用 Microsoft 365 管理中心一次向单个用户或少量用户分配许可证。 在"许可证"页 **或** " ("页面上，一次最多为 20) **分配** 许可证。 选择的方法取决于你想要管理特定用户的产品许可证还是管理特定产品的用户许可证。
+使用Microsoft 365管理中心一次向单个用户或少量用户分配许可证。 在"许可证"页 **或** " ("页面上，一次最多为 20) **分配** 许可证。 选择的方法取决于你想要管理特定用户的产品许可证还是管理特定产品的用户许可证。
 
 有关分步说明，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
-如果需要为大量用户（例如数百或数千个用户）分配许可证，请使用 Azure Active Directory (Azure AD) 中的 [Powershell 或基于组的许可 ](/azure/active-directory/users-groups-roles/licensing-groups-assign)。  
+如果需要为大量用户（例如数百或数千个用户）分配许可证，请使用 Azure [AD ](/azure/active-directory/users-groups-roles/licensing-groups-assign)Azure Active Directory (Powershell 或基于) 。  
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
@@ -63,15 +63,15 @@ ms.locfileid: "51116930"
 以下示例演示了如何使用脚本向用户分配许可证。
 
 1. 安装适用于 IT 专业人员 RTW 的 [Microsoft Online Services登录助手的](/collaborate/connect-redirect?DownloadID=59185)64 位版本。
-2. 安装 Microsoft Azure Active Directory 模块Windows PowerShell：
-    1. 打开提升的 Windows PowerShell 命令提示符 (以Windows PowerShell管理员角色运行) 。
+2. 安装Microsoft Azure Active Directory模块Windows PowerShell：
+    1. 打开权限提升的 Windows PowerShell 命令提示符 (以管理员Windows PowerShell运行) 。
     2. 运行以下命令：
         ```powershell
         Install-Module MSOnline
         ```
-    3. 如果系统提示安装 NuGet 提供程序，请键入 **Y，** 然后按 Enter。
+    3. 如果系统提示你安装 NuGet提供程序，请键入 **Y，** 然后按 Enter。
     4. 如果系统提示从 PSGallery 安装模块，请键入 **Y，** 然后按 Enter。
-3. 在 Windows PowerShell命令提示符下，运行以下脚本将许可证分配给用户，其中 是组织名称和要分配的许可证 \<CompanyName:License> 的标识符。 例如，litwareinc：MCOMEETADV。
+3. 在 Windows PowerShell 命令提示符下，运行以下脚本将许可证分配给用户，其中 是组织名称和要分配的许可证 \<CompanyName:License> 的标识符。 例如，litwareinc：MCOMEETADV。
 
     标识符不同于许可证的友好名称。 例如，音频会议标识符是 MCOMEETADV。 有关详细信息，请参阅许可 [的产品名称和 SKU 标识符](#product-names-and-sku-identifiers-for-licensing)。
 
@@ -110,7 +110,7 @@ ms.locfileid: "51116930"
         }
     ```
 
-    例如，若要分配 Microsoft 365 企业版 1 和音频会议许可证，请使用脚本中的以下语法：
+    例如，若要分配Microsoft 365 企业版 1 和音频会议许可证，请使用脚本中的以下语法：
 
       ```powershell
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
@@ -125,15 +125,15 @@ ms.locfileid: "51116930"
 
 ## <a name="product-names-and-sku-identifiers-for-licensing"></a>用于许可的产品名称和 SKU 标识符
 
-下面是使用 PowerShell 在 Teams 中管理许可证时可以用作参考的部分产品名称及其相应的 SKU 部件名称列表。
+下面部分列出了产品名称及其对应的 SKU 部件名称，在使用 PowerShell 管理许可证时，可以使用这些部件名称作为Teams。
 
 有关详细信息，请参阅使用[PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)查看许可证和服务、许可的产品名称和服务计划[标识符，以及](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)[教育版 SKU 参考](../sku-reference-edu.md)。
 
 | 产品名称| SKU 部件名称 |
 |--------------|---------------|
-| 将 Microsoft 企业版 E5 (手机系统)  | ENTERPRISEPREMIUM |
-| 没有音频会议 (Microsoft 企业版 E5)  | ENTERPRISEPREMIUM_NOPSTNCONF |
-| 将 Microsoft 企业版 E5 (音频会议)  | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (电话系统)  | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (没有音频会议)  | ENTERPRISEPREMIUM_NOPSTNCONF |
+| Microsoft Enterprise E5 (音频会议)  | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E3 | ENTERPRISEPACK |
 | Microsoft Enterprise E1 | STANDARDPACK |
 | Microsoft 365 商业基础版 | O365_BUSINESS_ESSENTIALS|

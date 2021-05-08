@@ -1,5 +1,5 @@
 ---
-title: 不支持的浏览器上的 Microsoft Teams 会议
+title: Microsoft Teams浏览器上打开会议
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -13,7 +13,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: 了解 Teams 如何在不受支持的浏览器中支持音频和视频。
+description: 了解如何Teams浏览器支持音频和视频。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 83617628fe04140c45b005e993d95eac34c6f8bd
@@ -23,20 +23,20 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51121310"
 ---
-# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>不支持的浏览器上的 Microsoft Teams 会议
+# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams浏览器上打开会议
 
-某些浏览器（如 Internet Explorer 11、Safari 和 Firefox）支持 Microsoft Teams Web 应用，但不支持某些 Teams 呼叫和会议功能。 为了解决此限制，Teams Web 应用允许用户通过 PSTN 连接接收音频，并允许用户以降低的显示速率 (屏幕共享) 呈现的内容。
+某些浏览器（如 Internet Explorer 11、Safari 和 Firefox）支持 Microsoft Teams Web 应用，但不支持某些Teams和会议功能。 若要解决此限制，Teams Web 应用允许用户通过 PSTN 连接接收音频，并允许用户以 (屏幕共享) 查看呈现的内容。
 
 > [!Note]
-> 从 2021 年 8 月 17 开始，Microsoft 365 应用和服务将不支持 Internet Explorer 11 (Microsoft Teams 将不支持 2020 年 11 月 30 日之前Internet Explorer 11 日) 。 [了解详细信息](https://aka.ms/AA97tsw)。 请注意，Internet Explorer 11 将保留为受支持的浏览器。 Internet Explorer 11 是 Windows 操作系统的一个组件， [遵循](/lifecycle/faq/internet-explorer-microsoft-edge) 安装它的产品的生命周期策略。
+> Microsoft 365应用和服务不支持 2021 年 8 月 17 Internet Explorer 11 日 (Microsoft Teams将不支持从 2020 年 11 月 3) 0 日到 2020 年 11 月 30 日之前Internet Explorer 11 日。 [了解详细信息](https://aka.ms/AA97tsw)。 请注意，Internet Explorer 11 将保留为受支持的浏览器。 Internet Explorer 11 是 Windows 操作系统的一个组件，它遵循[](/lifecycle/faq/internet-explorer-microsoft-edge)安装它的产品的生命周期策略。
 
-当 Teams 检测到不受支持的浏览器时，它会自动显示一条消息，说明此问题和会话限制。 该消息提供有关访问会议音频的更多说明，例如建议用户留下回叫号码以便 Teams 可以呼叫用户，或指示用户呼叫会议邀请中包含的会议号码。 该消息还鼓励用户下载和使用 [Teams 桌面客户端](https://teams.microsoft.com/downloads) ，获得完整的 Teams 体验。
+当Teams浏览器时，它会自动显示一条消息，说明此问题和会话限制。 该消息提供有关访问会议音频的更多说明，例如建议用户留下回电号码Teams以便 Teams 可以呼叫用户，或指示用户呼叫会议邀请中包含的会议号码。 该消息还鼓励用户下载并使用 Teams[桌面客户端](https://teams.microsoft.com/downloads)进行完整的Teams体验。
 
 如果 PSTN 不可用，用户将看不到有关访问会议的说明，并且无法加入会议。
 
 ## <a name="browser-limitations"></a>浏览器限制
 
-在不支持的浏览器上使用 Teams Web 应用的人将遇到以下限制：
+在不受支持Teams Web 应用的人将遇到以下限制：
 
 - 音频仅通过 PSTN 连接提供。 用户不能使用其麦克风。
 - 用户无法共享其相机或查看其他参与者的视频，但可以通过基于图像的屏幕共享来查看呈现的内容。
@@ -46,8 +46,8 @@ ms.locfileid: "51121310"
 - 如果呼叫中断，会议不会自动重新连接。
 - 用户无法启动会议。
 
-有关 Teams 中的浏览器支持详细信息，请参阅 Teams [的限制和规范](./limits-specifications-teams.md#browsers)。
+有关浏览器中对浏览器的支持Teams，请参阅适用于 Teams 的限制[和Teams。](./limits-specifications-teams.md#browsers)
 
 ## <a name="related-topics"></a>相关主题
 
-- [在不支持的浏览器中加入 Teams 会议](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
+- [在Teams浏览器加入会议](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

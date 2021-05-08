@@ -29,16 +29,16 @@ ms.locfileid: "51096528"
 直接路由支持在 SBC (配置) 一个会话边界控制器，以为多个租户提供服务。
 
 > [!NOTE]
-> 此方案专为 Microsoft 合作伙伴和/或 PSTN 运营商（本文档稍后称为运营商）设计。 运营商向客户销售交付给 Microsoft Teams 的电话服务。 
+> 此方案专为 Microsoft 合作伙伴和/或 PSTN 运营商（本文档稍后称为运营商）设计。 运营商销售交付给客户的Microsoft Teams服务。 
 
 运营商：
-- 在客户的数据中心部署和管理 SBC (不需要实现 SBC，并且他们在 Teams 客户端服务中接收来自运营商的电话) 。
+- 在客户的数据中心部署和管理 SBC (客户无需实现 SBC，并且他们在 Teams 客户端服务中接收来自运营商的电话) 。
 - 将 SBC 互连到多个租户。
 - 为客户提供 PSTN 服务。
 - 管理端到端呼叫质量。
 - PSTN 服务单独收费。
 
-Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) 和 Teams 客户端。 Microsoft 还会认证可以与 Microsoft Phone System 一起使用的手机和认证 SDC。 在选择运营商之前，请确保你的选择具有经过认证的 SBC，并可以端到端地管理语音质量。
+Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft 电话 System) 和 Teams 客户端。 Microsoft 还认证可与 Microsoft 电话 System 一Microsoft 电话 SDC。 在选择运营商之前，请确保你的选择具有经过认证的 SBC，并可以端到端地管理语音质量。
 
 下面是配置方案的技术实现步骤。
 
@@ -52,17 +52,17 @@ Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) �
 2. 激活子域名称。
 3. 配置从运营商到客户租户的中继并预配用户。
 
-*请确保了解 DNS 基础知识以及如何在 Microsoft 365 或 Office 365 中管理域名。在 [继续下一步之前，请查看获取有关 Microsoft 365 或 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 域的帮助。*
+*请确保你了解 DNS 基础知识以及如何在 Microsoft 365 或 Office 365 中管理域名。在 [继续下一Microsoft 365之前，请查看Office 365获取](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)域或域的帮助。*
 
 ## <a name="deploy-and-configure-the-sbc"></a>部署和配置 SBC
 
 若要详细了解如何为 SBC 托管方案部署和配置 SBC，请参阅 SBC 供应商的文档。
 
-- **AudioCodes：**[直接路由](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)配置说明，"将 AudioCodes SBC 连接到 Microsoft Teams 直接路由托管模型配置说明"中所述的 SBC 托管方案的配置。 
+- **AudioCodes：**[直接路由](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)配置说明，"将 AudioCodes SBC 连接到 Microsoft Teams路由托管模型配置说明"中所述的 SBC 托管方案的配置。 
 - **Oracle：**[直接路由配置说明](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，"Microsoft"部分介绍了 SBC 托管方案的配置。 
-- **功能区通信：**  请参阅功能区 [通信 SBC Core Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 配置指南，了解如何配置功能区核心系列 SDC 的文档，并参阅本页功能区最佳实践 - 配置运营商 For Microsoft Teams Direct Routing [SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
-- **TE-Systems (anynode) ：**  有关如何为多个租户配置 anynode SBC 的文档和示例，请在 [TE-Systems Community](https://community.te-systems.de/) 页面上注册。
-- **Metaswitch：**  有关如何为多个租户启用 Perimeta SBC 的文档，请在 [Metaswitch Community](https://manuals.metaswitch.com/MAN39555) 页上注册。
+- **功能区通信：** 请参阅功能区 [通信 SBC Core Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)配置指南，了解如何配置功能区核心系列 SBC 的文档，并参阅本页功能区最佳实践 - 为 Microsoft Teams Direct Routing [SBC Edge 配置](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)运营商
+- **TE-Systems (anynode) ：** 请在 [TE-Systems Community](https://community.te-systems.de/)页上注册，了解如何为多个租户配置 anynode SBC 的文档和示例。
+- **Metaswitch：** 请在 [Metaswitch](https://manuals.metaswitch.com/MAN39555) Community页上注册，了解如何为多个租户启用 Perimeta SBC 的文档。
 
 > [!NOTE]
 > 请注意如何配置"联系人"标头。 联系人标头用于在传入邀请消息上查找客户租户。 
@@ -75,13 +75,13 @@ Microsoft 不管理运营商。 Microsoft 提供 PBX (Microsoft Phone System) �
 
 在下面的示例中：
 - Adatum 是一家运营商，通过提供 Internet 和电话服务为多个客户提供服务。
-- Woodgrove Bank、Contoso 和 Adventure Works 是三个拥有 Microsoft 365 或 Office 365 域但从 Adatum 接收电话服务的客户。
+- Woodgrove Bank、Contoso 和 Adventure Works 是三个拥有Microsoft 365或Office 365但从 Adatum 接收电话服务的客户。
 
-子域 **必须与** 将邀请发送到 Microsoft 365 或 Office 365 时为客户配置的中继的 FQDN 名称和联系人标头中的 FQDN 匹配。 
+子域 **必须与** 在将邀请发送到客户或联系人时为客户配置的中继的 FQDN 名称和联系人标头中的 FQDN Microsoft 365 Office 365。 
 
-当呼叫到达 Microsoft 365 或 Office 365 直接路由接口时，该接口使用 Contact 标头查找应查找用户的租户。 直接路由不使用"邀请"上的电话号码查找，因为某些客户可能拥有非 DID 号码，这些号码可能与多个租户重叠。 因此，需要 Contact 标头中的 FQDN 名称来标识要按电话号码查找用户的确切租户。
+当呼叫到达 Microsoft 365 或 Office 365直接路由接口时，该接口使用 Contact 标头查找应查找用户的租户。 直接路由不使用"邀请"上的电话号码查找，因为某些客户可能拥有非 DID 号码，这些号码可能与多个租户重叠。 因此，需要 Contact 标头中的 FQDN 名称来标识要按电话号码查找用户的确切租户。
 
-*有关在 Microsoft  [365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 或 Office 365 组织中创建域名的信息，请查看获取有关 Office 365 域的帮助。*
+*有关 [在组织或Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)创建域名的信息，请查看获取有关Microsoft 365的帮助Office 365。*
 
 下图总结了基本域、子域和 Contact 标头的要求。
 
@@ -112,15 +112,15 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使�
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>确保在运营商租户中拥有适当的权限
 
-只有以全局管理员登录 Microsoft 365 管理中心时，才能添加新域。 
+只有以全局管理员Microsoft 365登录到管理中心时，才能添加新域。 
 
-若要验证你拥有的角色，请登录到 Microsoft 365 管理中心 (，转到"用户活动用户"，然后验证你 https://portal.office.com)   >  具有全局管理员角色。 
+若要验证你拥有的角色，请登录到 Microsoft 365 管理 (，转到"用户活动用户"，然后验证你 https://portal.office.com)   >  具有全局管理员角色。 
 
-有关管理员角色以及如何在 Microsoft 365 或 Office 365 中分配角色的信息，请参阅 [关于管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+有关管理员角色以及如何在管理员或管理员角色Microsoft 365 Office 365，请参阅[关于管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>将基本域添加到租户并验证
 
-1. 在 Microsoft 365 管理中心中，转到"**设置**  >  **域**  >  **添加域"。**
+1. 在 Microsoft 365管理中心，转到"**设置**  >  **域**  >  **添加域"。**
 2. 在 **"输入你拥有域"框中** ，键入基本域的 FQDN。 在下面的示例中，基本域 *customers.adatum.biz。*
 
     ![显示"添加域"页面的屏幕截图](media/direct-routing-2-sbc-add-domain.png)
@@ -130,19 +130,19 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使�
 
     ![显示已验证域名确认的屏幕截图](media/direct-routing-3-sbc-verify-domain.png)
 
-5. 单击 **"下** 一步"，在"**更新 DNS 设置**"页上，选择"我将自己添加 DNS **记录**"，然后单击"下一步 **"。**
-6. 下一页上，清除所有 (，除非你希望将域名用于 Exchange、SharePoint 或 Teams/Skype for Business) ，请单击"下一步"，然后单击"完成 **"。** 确保新域位于"设置完成"状态。
+5. 单击 **"下** 一步 **"，在**"更新 DNS 设置页上，选择"我将自己 **添加 DNS 记录**"，然后单击"下一 **步"。**
+6. 在下一页上， (所有值，除非要使用 Exchange、SharePoint 或 Teams/Skype for Business) 的域名，请单击"下一步"，然后单击 **"完成**"。  确保新域位于"设置完成"状态。
 
     ![显示状态为"设置已完成"的域的屏幕截图](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>激活域名
 
-注册域名后，需要通过添加至少一个具有电话系统许可证的用户，并分配 SIP 地址与所创建基域匹配的 SIP 地址的 FQDN 部分来激活它。 在激活域后，许可证 (最多可能需要 24 小时) 。
+注册域名后，需要通过添加至少一个具有 电话系统 许可证的用户，并分配 SIP 地址与所创建基域匹配的 SIP 地址的 FQDN 部分来激活它。 在激活域后，许可证 (最多可能需要 24 小时) 。
 
 > [!NOTE]
-> 运营商租户必须至少保留分配给租户的一个电话系统许可证，以避免删除 Skype for Business 配置。 
+> 运营商租户必须至少保留一个电话系统分配给租户的许可证，以避免删除Skype for Business配置。 
 
-*有关在 [Microsoft 365 或 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 组织中添加用户的信息，请查看获取有关 Microsoft 365 或 Office 365 域的帮助。*
+*有关 [在组织或Microsoft 365 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) Microsoft 365添加用户的信息，请查看获取有关 Microsoft 365 或 Office 365 的帮助。*
 
 例如：test@customers.adatum.biz
 
@@ -156,14 +156,14 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使�
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>确保在客户租户中拥有适当的权限
 
-只有以全局管理员登录 Microsoft 365 管理中心时，才能添加新域。 
+只有以全局管理员Microsoft 365登录到管理中心时，才能添加新域。 
 
-若要验证你拥有的角色，请登录到 Microsoft 365 管理中心 (，转到"用户活动用户"，然后验证你 https://portal.office.com)   >  具有全局管理员角色。 
+若要验证你拥有的角色，请登录到 Microsoft 365 管理 (，转到"用户活动用户"，然后验证你 https://portal.office.com)   >  具有全局管理员角色。 
 
-有关管理员角色以及如何在 Microsoft 365 或 Office 365 中分配角色的信息，请参阅 [关于管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+有关管理员角色以及如何在管理员或管理员角色Microsoft 365 Office 365，请参阅[关于管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>将子域添加到客户租户并验证
-1. 在 Microsoft 365 管理中心中，转到"**设置**  >  **域**  >  **添加域"。**
+1. 在 Microsoft 365管理中心，转到"**设置**  >  **域**  >  **添加域"。**
 2. 在 **"输入你拥有域"框中** ，键入此租户的子域的 FQDN。 在下面的示例中，子域 sbc1.customers.adatum.biz。
 
     !["添加域"页的屏幕截图](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -183,7 +183,7 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使�
 
     有关详细信息，请参阅在任何 DNS 托管提供商 上 [创建 DNS 记录](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)。
 
-7. 返回到客户的 Microsoft 365 管理中心，然后单击"验证 **"。** 
+7. 返回到客户的管理Microsoft 365，然后单击"验证 **"。** 
 8. 下一页上，选择 **"我将自己** 添加 DNS 记录"，然后单击"下一 **步"。**
 
     !["更新 DNS 设置"页上的选项的屏幕截图](media/direct-routing-9-sbc-update-dns.png)
@@ -207,7 +207,7 @@ SBC 需要证书来验证连接。 对于 SBC 托管方案，运营商需要使�
 
 注册域名后，需要通过添加至少一个用户并分配 SIP 地址（包含与客户租户中创建的子域匹配的 SIP 地址的 FQDN 部分）来激活它。 在子域激活后，可以从用户 (许可证可能需要 24 小时) 。
 
-*有关在 [Microsoft 365 或 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 组织中添加用户的信息，请查看获取有关 Microsoft 365 或 Office 365 域的帮助。*
+*有关 [在组织或Microsoft 365 Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) Microsoft 365添加用户的信息，请查看获取有关 Microsoft 365 或 Office 365 的帮助。*
 
 例如：test@sbc1.customers.adatum.biz
 

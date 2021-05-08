@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: 了解如何使用 FHIR API 将电子医疗保健记录集成到 Microsoft Teams 患者应用中。
+description: 了解如何使用 FHIR API 将电子医疗保健记录Microsoft Teams患者应用。
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 2b4878f67b7738a13e3c1385ee0713d6e3e3d481
@@ -33,7 +33,7 @@ ms.locfileid: "51096206"
 >
 >借助列表，医疗保健组织中的护理团队可针对各种方案创建患者列表，提供圆形和内联团队会议、常规患者监视等。 查看列表的"患者"模板以开始使用。 若要深入了解如何在组织中管理列表应用，请参阅" [列表应用管理](../../manage-lists-app.md)。
 
-本文面向对在医疗信息系统顶层使用 FHIR API 连接到 Microsoft Teams 感兴趣的一般医疗保健 IT 开发人员。 这样可实现符合医疗保健组织需求的护理协调方案。
+本文面向对在医疗信息系统顶层使用 FHIR API 连接到医疗信息系统的一般医疗保健 IT 开发人员Microsoft Teams。 这样可实现符合医疗保健组织需求的护理协调方案。
 
 链接的文章介绍了 Microsoft Teams Patients 应用的 FHIR 接口规范，以下部分介绍了在开发环境或租户中设置 FHIR 服务器并连接到 Patients 应用所需的内容。 还需要熟悉所选 FHIR 服务器的文档，这必须是受支持的选项之一：
 
@@ -43,7 +43,7 @@ ms.locfileid: "51096206"
 - Dapasoft ([Corolar on FHIR) ](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)
 
 > [!NOTE]
-> 此过程不包括使用 Microsoft Teams 管理中心或 PowerShell cmdlet 启用功能的步骤。 配置完全在 FHIR 服务器/服务端和 Patients 应用客户端中完成。
+> 此过程不包括使用 Microsoft Teams 或 PowerShell cmdlet 启用功能的步骤。 配置完全在 FHIR 服务器/服务端和 Patients 应用客户端中完成。
 
 下面演示了 Patients 应用的体系结构：
 
@@ -189,6 +189,6 @@ Patients 应用通过单个终结点连接到合作伙伴服务。 合作伙伴�
 
 ## <a name="get-started-with-fhir"></a>FHIR 入门  
 
-如果你是 FHIR 的新用户，并且需要轻松访问可以公开给 Microsoft Teams EHR 集成接口的 FHIR Server，则 Microsoft 具有可供所有开发人员使用的开源 FHIR 服务器。 请参阅 [什么是适用于 Azure 的 FHIR 服务器](/azure/healthcare-apis/overview-open-source-server) 一文，详细了解 Microsoft 提供的开源 FHIR 服务器，并针对组织部署它。
+如果对 FHIR 很了解，并且需要轻松访问 FHIR Server，并且该服务器可以公开给 Microsoft Teams EHR 集成接口，则 Microsoft 具有可供所有开发人员使用的开源 FHIR 服务器。 请参阅 [什么是适用于 Azure 的 FHIR 服务器](/azure/healthcare-apis/overview-open-source-server) 一文，详细了解 Microsoft 提供的开源 FHIR 服务器，并针对组织部署它。
 
 您还可以使用 HSPC Open 沙盒 EHR 环境创建一个 EHR，该 EHR 还支持打开的 FHIR Server，并使用它来与 Patients 应用一起玩。 建议通读 [HSPC 沙盒文档](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)。 沙盒不仅提供了一种简单、面向 UI 且用户友好的创建、添加和编辑患者的方式，还为你提供了几个入门示例。

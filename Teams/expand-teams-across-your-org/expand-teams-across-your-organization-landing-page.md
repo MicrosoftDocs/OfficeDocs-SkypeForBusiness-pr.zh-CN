@@ -1,6 +1,6 @@
 ---
 title: 在组织中推广 Microsoft Teams
-description: 了解可用于在标准 Teams 部署上构建的资源，以帮助你根据特定组织类型利用 Teams。
+description: 了解可用于在标准部署Teams的资源，以帮助你根据特定组织Teams资源。
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -24,7 +24,7 @@ ms.locfileid: "51121360"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>在组织中推广 Microsoft Teams
 
-这些资源基于标准 Teams 部署指南，旨在帮助你根据特定的组织类型来利用 Teams。 如果尚未部署 Teams，请参阅如何推出 Microsoft Teams 中的 Teams [建议路径](../deploy-overview.md)。
+这些资源基于标准Teams部署指南，旨在帮助你根据特定的组织类型Teams资源。 如果尚未部署Teams，请参阅如何Teams中的建议[路径](../deploy-overview.md)Microsoft Teams。
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 

@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用和管理 Microsoft Teams 中的紧急呼叫路由策略来设置紧急号码并指定紧急呼叫的路由方式。
+description: 了解如何使用和管理紧急呼叫路由策略Microsoft Teams设置紧急号码并指定紧急呼叫的路由方式。
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
@@ -28,11 +28,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096176"
 ---
-# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理紧急呼叫路由策略
+# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>在呼叫中心内管理紧急呼叫Microsoft Teams
 
-如果已在你的组织中部署了电话 [系统直接](direct-routing-landing-page.md) 路由，可以使用 Microsoft Teams 中的紧急呼叫路由策略设置紧急号码并指定紧急呼叫的路由方式。 紧急呼叫路由策略确定是否为分配了该策略的用户启用增强型紧急服务、用于呼叫紧急服务 (例如，美国) 的 911 号码，以及如何路由对紧急服务的呼叫。
+如果已在你的组织中电话系统直接[](direct-routing-landing-page.md)路由，可以使用 Microsoft Teams 中的紧急呼叫路由策略来设置紧急号码并指定紧急呼叫的路由方式。 紧急呼叫路由策略确定是否为分配了该策略的用户启用增强型紧急服务、用于呼叫紧急服务 (例如，美国) 的 911 号码，以及如何路由对紧急服务的呼叫。
 
-可以管理紧急呼叫路由策略，方法为：在 Microsoft Teams 管理中心中访问语音紧急策略，或者  >  使用语音Windows PowerShell。 可以将策略分配给用户和网络 [站点](cloud-voice-network-settings.md)。
+通过以下方法管理紧急呼叫路由策略：在 Microsoft Teams 管理中心中通过语音  >  Windows PowerShell。 可以将策略分配给用户和网络 [站点](cloud-voice-network-settings.md)。
 
 对于用户，可以使用全局策略 (组织范围内的默认) 策略，或者创建和分配自定义策略。 除非创建并分配自定义策略，否则用户将自动获取全局策略。 请记住，可以在全局策略中编辑设置，但不能重命名或删除设置。 对于网络站点，请创建并分配自定义策略。
 
@@ -42,15 +42,15 @@ ms.locfileid: "51096176"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到"**语音** 紧急策略  >  "，然后单击"呼叫 **路由策略"** 选项卡。
+1. 在管理中心左侧导航Microsoft Teams，转到"**语音** 紧急策略  >  "，然后单击"呼叫 **路由策略"** 选项卡。
 2. 单击“**添加**”。
 3. 输入策略的名称和说明。
-4. 若要启用动态紧急呼叫，请打开 **"动态紧急呼叫"。** 启用动态紧急呼叫后，Teams 会从服务检索策略和位置信息，并包含该信息作为紧急呼叫的一部分。
+4. 若要启用动态紧急呼叫，请打开 **"动态紧急呼叫"。** 启用动态紧急呼叫后，Teams从服务检索策略和位置信息，并包含该信息作为紧急呼叫的一部分。
 5. 定义一个或多个紧急号码。 为此，请在"紧急 **号码"下** 单击" **添加**"，然后执行以下操作：
     1. **紧急拨号字符串**：输入紧急拨号字符串。 此拨号字符串指示呼叫是紧急呼叫。
         > [!NOTE]
-        > 对于直接路由，我们正在从发送紧急呼叫的 Teams 客户端过渡，紧急拨号字符串前面有一个"+"。 在转换完成之前，与紧急拨号字符串匹配的语音路由模式应确保匹配具有和没有前面"+"的字符串，例如 911 和 +911。 例如 \\ ^+？911 或 .*。
-    2. **紧急拨号掩码**：对于每个紧急号码，可以指定零个或多个紧急拨号掩码。 拨号掩码是您想要转换为紧急拨号字符串的值的号码。 这允许拨打备用紧急号码，同时仍可让呼叫进入紧急服务。 <br>例如，添加 112 作为紧急拨号掩码，这是欧洲大多数国家/地区紧急服务号码，911 作为紧急拨号字符串。 来自欧洲访问的 Teams 用户可能不知道 911 是美国的紧急号码，当他们拨打 112 时，呼叫将拨打 911。 若要定义多个拨号掩码，请用分号分隔每个值。 例如，112;212。
+        > 对于直接路由，我们正在从发送紧急Teams呼叫的客户端过渡，紧急拨号字符串前面有一个"+"。 在转换完成之前，与紧急拨号字符串匹配的语音路由模式应确保匹配具有和没有前面"+"的字符串，例如 911 和 +911。 例如 \\ ^+？911 或 .*。
+    2. **紧急拨号掩码**：对于每个紧急号码，可以指定零个或多个紧急拨号掩码。 拨号掩码是您想要转换为紧急拨号字符串的值的号码。 这允许拨打备用紧急号码，同时仍可让呼叫进入紧急服务。 <br>例如，添加 112 作为紧急拨号掩码，这是欧洲大多数国家/地区紧急服务号码，911 作为紧急拨号字符串。 正在Teams欧洲的用户可能不知道 911 是美国的紧急号码，当他们拨打 112 时，呼叫将拨打 911。 若要定义多个拨号掩码，请用分号分隔每个值。 例如，112;212。
     3. **PSTN 使用记录**：选择 PSTN 公用电话交换 (PSTN) 使用记录。 PSTN 使用记录用于确定使用哪种路由来路由有权使用紧急呼叫的用户的紧急呼叫。 与此用法关联的路由应指向专用于紧急呼叫的会话启动协议 (SIP) 中继，或指向紧急位置标识号 (ELIN) 网关，该网关将紧急呼叫路由到最近的公共安全应答点 (PSAP) 。
 
     > [!NOTE]
@@ -68,7 +68,7 @@ ms.locfileid: "51096176"
 
 可以编辑全局策略或创建的任何自定义策略。
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到"**语音** 紧急策略  >  "，然后单击"呼叫 **路由策略"** 选项卡。
+1. 在管理中心左侧导航Microsoft Teams，转到"**语音** 紧急策略  >  "，然后单击"呼叫 **路由策略"** 选项卡。
 2. 单击策略名称的左侧以选择用户，然后单击“**编辑**”。
 3. 进行您需要的更改，然后单击"保存 **"。**
 
@@ -94,7 +94,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 ## <a name="related-topics"></a>相关主题
 
-[在 Teams 中管理紧急呼叫策略](manage-emergency-calling-policies.md)
+[管理紧急呼叫策略Teams](manage-emergency-calling-policies.md)
 
 [Teams PowerShell 概览](teams-powershell-overview.md)
 
