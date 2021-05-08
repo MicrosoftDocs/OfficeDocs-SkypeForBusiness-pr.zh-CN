@@ -28,8 +28,8 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/03/2021
 ms.locfileid: "52130232"
 ---
-# <a name="set-up-an-auto-attendant---small-business-tutorial"></a><span data-ttu-id="d2c32-103">设置自动助理 - 小型企业教程</span><span class="sxs-lookup"><span data-stu-id="d2c32-103">Set up an auto attendant - small business tutorial</span></span>
+# <a name="set-up-an-auto-attendant---small-business-tutorial"></a><span data-ttu-id="b4f03-103">设置自动助理 - 小型企业教程</span><span class="sxs-lookup"><span data-stu-id="b4f03-103">Set up an auto attendant - small business tutorial</span></span>
 
-<span data-ttu-id="d2c32-104">自动助理可让你的人呼叫你的组织并导航菜单系统，以与正确的部门、呼叫队列、人员或接线员通话。</span><span class="sxs-lookup"><span data-stu-id="d2c32-104">Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator.</span></span> <span data-ttu-id="d2c32-105">可以使用管理中心为组织创建Microsoft Teams助理。</span><span class="sxs-lookup"><span data-stu-id="d2c32-105">You can create auto attendants for your organization with the Microsoft Teams admin center.</span></span>
+<span data-ttu-id="b4f03-104">自动助理可让你的人呼叫你的组织并导航菜单系统，以与正确的部门、呼叫队列、人员或接线员通话。</span><span class="sxs-lookup"><span data-stu-id="b4f03-104">Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator.</span></span> <span data-ttu-id="b4f03-105">可以使用管理中心为组织创建Microsoft Teams助理。</span><span class="sxs-lookup"><span data-stu-id="b4f03-105">You can create auto attendants for your organization with the Microsoft Teams admin center.</span></span>
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]
