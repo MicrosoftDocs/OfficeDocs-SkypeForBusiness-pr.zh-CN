@@ -1,5 +1,5 @@
 ---
-title: 为什么我在输入英国时遇到问题 地址信息？
+title: 为何在输入英国时遇到问题 地址信息？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,104 +21,106 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
-description: 下面是当您的地址或地址无法在英国（英国）正确验证时遇到问题的一些原因。
-ms.openlocfilehash: ac8a5382d508d683f0467dd77742f19999628976
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 下面一些原因可能导致你无法在英国或英国或英国正确验证 (地址) 。
+ms.openlocfilehash: 7751f2b23ecb15140fc5ff67aa3ede90fadfaf06
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769155"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237928"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a><span data-ttu-id="3f7c7-104">为什么我在输入英国时遇到问题</span><span class="sxs-lookup"><span data-stu-id="3f7c7-104">Why am I having problems entering U.K.</span></span> <span data-ttu-id="3f7c7-105">地址信息？</span><span class="sxs-lookup"><span data-stu-id="3f7c7-105">address information?</span></span>
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a><span data-ttu-id="78ad9-104">为何在输入英国时遇到问题</span><span class="sxs-lookup"><span data-stu-id="78ad9-104">Why am I having problems entering U.K.</span></span> <span data-ttu-id="78ad9-105">地址信息？</span><span class="sxs-lookup"><span data-stu-id="78ad9-105">address information?</span></span>
 
-<span data-ttu-id="3f7c7-106">下面是当您的地址或地址无法在英国（英国）正确验证时遇到问题的一些原因。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-106">Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.).</span></span>
-  
-## <a name="whats-wrong-with-the-company-name"></a><span data-ttu-id="3f7c7-107">公司名称有什么问题？</span><span class="sxs-lookup"><span data-stu-id="3f7c7-107">What's wrong with the company name?</span></span>
+<span data-ttu-id="78ad9-106">[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?</span><span class="sxs-lookup"><span data-stu-id="78ad9-106">[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?</span></span>
 
-<span data-ttu-id="3f7c7-108">如果您在输入公司名称时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="3f7c7-108">If you are having a problem entering the company name, remember:</span></span>
+<span data-ttu-id="78ad9-107">下面一些原因可能导致你无法在英国或英国或英国正确验证 (地址) 。</span><span class="sxs-lookup"><span data-stu-id="78ad9-107">Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.).</span></span>
   
-- <span data-ttu-id="3f7c7-109">它可以包含字母、数字和下列特殊字符：，/-+。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-109">It can have letters, numbers, and the following special characters: , / - + .</span></span> <span data-ttu-id="3f7c7-110">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="3f7c7-110">' &amp; " _</span></span> 
+## <a name="whats-wrong-with-the-company-name"></a><span data-ttu-id="78ad9-108">公司名称出了什么问题？</span><span class="sxs-lookup"><span data-stu-id="78ad9-108">What's wrong with the company name?</span></span>
+
+<span data-ttu-id="78ad9-109">如果在输入公司名称时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="78ad9-109">If you are having a problem entering the company name, remember:</span></span>
+  
+- <span data-ttu-id="78ad9-110">它可以包含字母、数字和以下特殊字符：、 / - + 。</span><span class="sxs-lookup"><span data-stu-id="78ad9-110">It can have letters, numbers, and the following special characters: , / - + .</span></span> <span data-ttu-id="78ad9-111">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="78ad9-111">' &amp; " _</span></span> 
     
     > [!CAUTION]
-    > <span data-ttu-id="3f7c7-111">在英国（英国），公司名称不能有 + 号。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-111">In the United Kingdom (U.K.), the company name can't have the + sign.</span></span> 
+    > <span data-ttu-id="78ad9-112">在英国 (英国) ，公司名称不能有 + 号。</span><span class="sxs-lookup"><span data-stu-id="78ad9-112">In the United Kingdom (U.K.), the company name can't have the + sign.</span></span> 
   
-- <span data-ttu-id="3f7c7-112">它必须是80个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-112">It has to be 80 characters or less.</span></span>
+- <span data-ttu-id="78ad9-113">必须少于 80 个字符。</span><span class="sxs-lookup"><span data-stu-id="78ad9-113">It has to be 80 characters or less.</span></span>
     
-- <span data-ttu-id="3f7c7-113">它不能以特殊字符开头。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-113">It can't start with a special character.</span></span>
+- <span data-ttu-id="78ad9-114">不能以特殊字符开始。</span><span class="sxs-lookup"><span data-stu-id="78ad9-114">It can't start with a special character.</span></span>
     
-## <a name="whats-wrong-with-the-house-number"></a><span data-ttu-id="3f7c7-114">房屋号码有什么问题？</span><span class="sxs-lookup"><span data-stu-id="3f7c7-114">What's wrong with the house number?</span></span>
+## <a name="whats-wrong-with-the-house-number"></a><span data-ttu-id="78ad9-115">门号出了什么问题？</span><span class="sxs-lookup"><span data-stu-id="78ad9-115">What's wrong with the house number?</span></span>
 
-<span data-ttu-id="3f7c7-115">如果输入房屋号码时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="3f7c7-115">If you are having a problem entering the house number, remember:</span></span>
+<span data-ttu-id="78ad9-116">如果在输入门号时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="78ad9-116">If you are having a problem entering the house number, remember:</span></span>
   
-- <span data-ttu-id="3f7c7-116">它可以包含字母、数字和下列特殊字符：-/[]</span><span class="sxs-lookup"><span data-stu-id="3f7c7-116">It can have letters, numbers, and the following special characters: - / [ ]</span></span>
+- <span data-ttu-id="78ad9-117">它可以包含字母、数字和以下特殊字符：- / [ ]</span><span class="sxs-lookup"><span data-stu-id="78ad9-117">It can have letters, numbers, and the following special characters: - / [ ]</span></span>
     
-- <span data-ttu-id="3f7c7-117">它必须以数字开头。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-117">It has to start with a number.</span></span>
+- <span data-ttu-id="78ad9-118">它以数字开始。</span><span class="sxs-lookup"><span data-stu-id="78ad9-118">It has to start with a number.</span></span>
     
-- <span data-ttu-id="3f7c7-118">它必须是20个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-118">It has to be 20 characters or less.</span></span>
+- <span data-ttu-id="78ad9-119">必须少于 20 个字符。</span><span class="sxs-lookup"><span data-stu-id="78ad9-119">It has to be 20 characters or less.</span></span>
     
-- <span data-ttu-id="3f7c7-119">它可以有一个大写或小写字母。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-119">It can have a capital or lowercase letter.</span></span>
+- <span data-ttu-id="78ad9-120">它可以是大写字母或小写字母。</span><span class="sxs-lookup"><span data-stu-id="78ad9-120">It can have a capital or lowercase letter.</span></span>
     
-## <a name="whats-wrong-with-the-house-name"></a><span data-ttu-id="3f7c7-120">住宅名有什么问题？</span><span class="sxs-lookup"><span data-stu-id="3f7c7-120">What's wrong with the house name?</span></span>
+## <a name="whats-wrong-with-the-house-name"></a><span data-ttu-id="78ad9-121">住宅名有什么问题？</span><span class="sxs-lookup"><span data-stu-id="78ad9-121">What's wrong with the house name?</span></span>
 
-<span data-ttu-id="3f7c7-121">如果您在输入房屋名称时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="3f7c7-121">If you are having a problem entering the house name, remember:</span></span>
+<span data-ttu-id="78ad9-122">如果在输入房屋名称时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="78ad9-122">If you are having a problem entering the house name, remember:</span></span>
   
-- <span data-ttu-id="3f7c7-122">它可以包含字母、数字和下列特殊字符：，/-+。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-122">It can have letters, numbers and the following special characters : , / - + .</span></span> <span data-ttu-id="3f7c7-123">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="3f7c7-123">' &amp; " _</span></span>
+- <span data-ttu-id="78ad9-123">它可以包含字母、数字和以下特殊字符：、/ - + 。</span><span class="sxs-lookup"><span data-stu-id="78ad9-123">It can have letters, numbers and the following special characters : , / - + .</span></span> <span data-ttu-id="78ad9-124">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="78ad9-124">' &amp; " _</span></span>
     
-- <span data-ttu-id="3f7c7-124">它必须是50个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-124">It has to be 50 characters or less.</span></span>
+- <span data-ttu-id="78ad9-125">必须少于 50 个字符。</span><span class="sxs-lookup"><span data-stu-id="78ad9-125">It has to be 50 characters or less.</span></span>
     
-- <span data-ttu-id="3f7c7-125">它不能以特殊字符开头。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-125">It can't start with a special character.</span></span>
+- <span data-ttu-id="78ad9-126">不能以特殊字符开始。</span><span class="sxs-lookup"><span data-stu-id="78ad9-126">It can't start with a special character.</span></span>
     
-## <a name="whats-wrong-with-the-street-name"></a><span data-ttu-id="3f7c7-126">街道名称有什么问题？</span><span class="sxs-lookup"><span data-stu-id="3f7c7-126">What's wrong with the street name?</span></span>
+## <a name="whats-wrong-with-the-street-name"></a><span data-ttu-id="78ad9-127">街道名称出了什么问题？</span><span class="sxs-lookup"><span data-stu-id="78ad9-127">What's wrong with the street name?</span></span>
 
-<span data-ttu-id="3f7c7-127">如果您在输入街道名称时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="3f7c7-127">If you are having a problem entering the street name, remember:</span></span>
+<span data-ttu-id="78ad9-128">如果在输入街道名称时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="78ad9-128">If you are having a problem entering the street name, remember:</span></span>
   
-- <span data-ttu-id="3f7c7-128">它可以包含字母、数字和下列特殊字符：，/-+。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-128">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="3f7c7-129">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="3f7c7-129">' &amp; " _</span></span> 
+- <span data-ttu-id="78ad9-129">它可以包含字母、数字和以下特殊字符：、/ - + 。</span><span class="sxs-lookup"><span data-stu-id="78ad9-129">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="78ad9-130">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="78ad9-130">' &amp; " _</span></span> 
     
-- <span data-ttu-id="3f7c7-130">它必须是50个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-130">It has to be 50 characters or less.</span></span>
+- <span data-ttu-id="78ad9-131">必须少于 50 个字符。</span><span class="sxs-lookup"><span data-stu-id="78ad9-131">It has to be 50 characters or less.</span></span>
     
-- <span data-ttu-id="3f7c7-131">它不能以特殊字符开头。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-131">It can't start with a special character.</span></span> 
+- <span data-ttu-id="78ad9-132">不能以特殊字符开始。</span><span class="sxs-lookup"><span data-stu-id="78ad9-132">It can't start with a special character.</span></span> 
     
-## <a name="whats-wrong-with-the-city-or-town"></a><span data-ttu-id="3f7c7-132">城市或城镇有什么问题？</span><span class="sxs-lookup"><span data-stu-id="3f7c7-132">What's wrong with the city or town?</span></span>
+## <a name="whats-wrong-with-the-city-or-town"></a><span data-ttu-id="78ad9-133">城市或城市有什么问题？</span><span class="sxs-lookup"><span data-stu-id="78ad9-133">What's wrong with the city or town?</span></span>
 
-<span data-ttu-id="3f7c7-133">如果您在输入城市或城镇的名称时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="3f7c7-133">If you are having a problem entering the name of the city or town, remember:</span></span>
+<span data-ttu-id="78ad9-134">如果在输入城市或城市名称时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="78ad9-134">If you are having a problem entering the name of the city or town, remember:</span></span>
   
-- <span data-ttu-id="3f7c7-134">它可以包含字母、数字和下列特殊字符：，/-+。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-134">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="3f7c7-135">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="3f7c7-135">' &amp; " _</span></span>
+- <span data-ttu-id="78ad9-135">它可以包含字母、数字和以下特殊字符：、/ - + 。</span><span class="sxs-lookup"><span data-stu-id="78ad9-135">It can have letters, numbers, and the following special characters : , / - + .</span></span> <span data-ttu-id="78ad9-136">' &amp; " _</span><span class="sxs-lookup"><span data-stu-id="78ad9-136">' &amp; " _</span></span>
     
-- <span data-ttu-id="3f7c7-136">它必须是50个字符或更少。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-136">It has to be 50 characters or less.</span></span>
+- <span data-ttu-id="78ad9-137">必须少于 50 个字符。</span><span class="sxs-lookup"><span data-stu-id="78ad9-137">It has to be 50 characters or less.</span></span>
     
-- <span data-ttu-id="3f7c7-137">它不能以特殊字符开头。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-137">It can't start with a special character.</span></span> 
+- <span data-ttu-id="78ad9-138">不能以特殊字符开始。</span><span class="sxs-lookup"><span data-stu-id="78ad9-138">It can't start with a special character.</span></span> 
     
-## <a name="whats-wrong-with-the-postal-code"></a><span data-ttu-id="3f7c7-138">邮政编码有什么问题？</span><span class="sxs-lookup"><span data-stu-id="3f7c7-138">What's wrong with the postal code?</span></span>
+## <a name="whats-wrong-with-the-postal-code"></a><span data-ttu-id="78ad9-139">邮政编码有什么问题？</span><span class="sxs-lookup"><span data-stu-id="78ad9-139">What's wrong with the postal code?</span></span>
 
-<span data-ttu-id="3f7c7-139">如果您在输入邮政编码时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="3f7c7-139">If you are having a problem entering the postal code, remember:</span></span>
+<span data-ttu-id="78ad9-140">如果在输入邮政编码时遇到问题，请记住：</span><span class="sxs-lookup"><span data-stu-id="78ad9-140">If you are having a problem entering the postal code, remember:</span></span>
   
-- <span data-ttu-id="3f7c7-140">它只能包含字母、数字或空格。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-140">It can only have letters, numbers, or spaces.</span></span>
+- <span data-ttu-id="78ad9-141">它只能包含字母、数字或空格。</span><span class="sxs-lookup"><span data-stu-id="78ad9-141">It can only have letters, numbers, or spaces.</span></span>
     
-- <span data-ttu-id="3f7c7-141">它必须包含8个或更少的字母，包括数字和空格。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-141">It has to have 8 or less letters, including numbers and spaces.</span></span>
+- <span data-ttu-id="78ad9-142">必须包含 8 个或更少的字母，包括数字和空格。</span><span class="sxs-lookup"><span data-stu-id="78ad9-142">It has to have 8 or less letters, including numbers and spaces.</span></span>
     
-- <span data-ttu-id="3f7c7-142">**请记住，如果您使用的是英国（英国）**，则**必须**以下列格式之一放置邮政编码，其中字母 A = 字符 a-z，# 符号 = 0-9 的一个数字，而 _ （下划线） = a 空格。</span><span class="sxs-lookup"><span data-stu-id="3f7c7-142">**Remember that if you are in the United Kingdom (U.K.)**, you **must** put the postal code in one of the following formats, where the letter A = character A-Z, the # sign = a number from 0-9, and the _ (underscore) = a blank space.</span></span> <span data-ttu-id="3f7c7-143">下面是一些示例：</span><span class="sxs-lookup"><span data-stu-id="3f7c7-143">Here are some examples:</span></span>
+- <span data-ttu-id="78ad9-143">请记住，如果你在英国 **(英国**) ，则必须将邮政编码采用以下格式之一，其中字母A = 字符 A-Z，# 符号 = 0-9 中的数字，_ (下划线) = 空白。</span><span class="sxs-lookup"><span data-stu-id="78ad9-143">**Remember that if you are in the United Kingdom (U.K.)**, you **must** put the postal code in one of the following formats, where the letter A = character A-Z, the # sign = a number from 0-9, and the _ (underscore) = a blank space.</span></span> <span data-ttu-id="78ad9-144">下面是一些示例：</span><span class="sxs-lookup"><span data-stu-id="78ad9-144">Here are some examples:</span></span>
     
-|<span data-ttu-id="3f7c7-144">**编排**</span><span class="sxs-lookup"><span data-stu-id="3f7c7-144">**Format**</span></span>|<span data-ttu-id="3f7c7-145">**示例**</span><span class="sxs-lookup"><span data-stu-id="3f7c7-145">**Example**</span></span>|
+|<span data-ttu-id="78ad9-145">**格式**</span><span class="sxs-lookup"><span data-stu-id="78ad9-145">**Format**</span></span>|<span data-ttu-id="78ad9-146">**示例**</span><span class="sxs-lookup"><span data-stu-id="78ad9-146">**Example**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3f7c7-146">AA # A_ # AA</span><span class="sxs-lookup"><span data-stu-id="3f7c7-146">AA#A_#AA</span></span>  <br/> |<span data-ttu-id="3f7c7-147">EC3B 2BD</span><span class="sxs-lookup"><span data-stu-id="3f7c7-147">EC3B 2BD</span></span>  <br/> |
-|<span data-ttu-id="3f7c7-148"># A_ # AA</span><span class="sxs-lookup"><span data-stu-id="3f7c7-148">A#A_#AA</span></span>  <br/> |<span data-ttu-id="3f7c7-149">E1W 1AP</span><span class="sxs-lookup"><span data-stu-id="3f7c7-149">E1W 1AP</span></span>  <br/> |
-|<span data-ttu-id="3f7c7-150"># _ # AA</span><span class="sxs-lookup"><span data-stu-id="3f7c7-150">A#_#AA</span></span>  <br/> |<span data-ttu-id="3f7c7-151">F1 2AG</span><span class="sxs-lookup"><span data-stu-id="3f7c7-151">F1 2AG</span></span>  <br/> |
-|<span data-ttu-id="3f7c7-152"># #_ # AA</span><span class="sxs-lookup"><span data-stu-id="3f7c7-152">A##_#AA</span></span>  <br/> |<span data-ttu-id="3f7c7-153">C44 8HT</span><span class="sxs-lookup"><span data-stu-id="3f7c7-153">C44 8HT</span></span>  <br/> |
-|<span data-ttu-id="3f7c7-154">AA # _ # AA</span><span class="sxs-lookup"><span data-stu-id="3f7c7-154">AA#_#AA</span></span>  <br/> |<span data-ttu-id="3f7c7-155">DR3 6HG</span><span class="sxs-lookup"><span data-stu-id="3f7c7-155">DR3 6HG</span></span>  <br/> |
-|<span data-ttu-id="3f7c7-156">AA # #_ # AA</span><span class="sxs-lookup"><span data-stu-id="3f7c7-156">AA##_#AA</span></span>  <br/> |<span data-ttu-id="3f7c7-157">FN35 1TH</span><span class="sxs-lookup"><span data-stu-id="3f7c7-157">FN35 1TH</span></span>  <br/> |
+|<span data-ttu-id="78ad9-147">AA#A_#AA</span><span class="sxs-lookup"><span data-stu-id="78ad9-147">AA#A_#AA</span></span>  <br/> |<span data-ttu-id="78ad9-148">EC3B 2BD</span><span class="sxs-lookup"><span data-stu-id="78ad9-148">EC3B 2BD</span></span>  <br/> |
+|<span data-ttu-id="78ad9-149">A#A_#AA</span><span class="sxs-lookup"><span data-stu-id="78ad9-149">A#A_#AA</span></span>  <br/> |<span data-ttu-id="78ad9-150">E1W 1AP</span><span class="sxs-lookup"><span data-stu-id="78ad9-150">E1W 1AP</span></span>  <br/> |
+|<span data-ttu-id="78ad9-151">A#_#AA</span><span class="sxs-lookup"><span data-stu-id="78ad9-151">A#_#AA</span></span>  <br/> |<span data-ttu-id="78ad9-152">F1 2AG</span><span class="sxs-lookup"><span data-stu-id="78ad9-152">F1 2AG</span></span>  <br/> |
+|<span data-ttu-id="78ad9-153">A##_#AA</span><span class="sxs-lookup"><span data-stu-id="78ad9-153">A##_#AA</span></span>  <br/> |<span data-ttu-id="78ad9-154">C44 8HT</span><span class="sxs-lookup"><span data-stu-id="78ad9-154">C44 8HT</span></span>  <br/> |
+|<span data-ttu-id="78ad9-155">AA#_#AA</span><span class="sxs-lookup"><span data-stu-id="78ad9-155">AA#_#AA</span></span>  <br/> |<span data-ttu-id="78ad9-156">DR3 6HG</span><span class="sxs-lookup"><span data-stu-id="78ad9-156">DR3 6HG</span></span>  <br/> |
+|<span data-ttu-id="78ad9-157">AA##_#AA</span><span class="sxs-lookup"><span data-stu-id="78ad9-157">AA##_#AA</span></span>  <br/> |<span data-ttu-id="78ad9-158">FN35 1TH</span><span class="sxs-lookup"><span data-stu-id="78ad9-158">FN35 1TH</span></span>  <br/> |
 
 > [!NOTE]
-> <span data-ttu-id="3f7c7-158">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="3f7c7-158">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="78ad9-159">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="78ad9-159">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
    
-## <a name="related-topics"></a><span data-ttu-id="3f7c7-159">相关主题</span><span class="sxs-lookup"><span data-stu-id="3f7c7-159">Related topics</span></span>
-[<span data-ttu-id="3f7c7-160">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="3f7c7-160">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="78ad9-160">相关主题</span><span class="sxs-lookup"><span data-stu-id="78ad9-160">Related topics</span></span>
+[<span data-ttu-id="78ad9-161">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="78ad9-161">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="3f7c7-161">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="3f7c7-161">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="78ad9-162">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="78ad9-162">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="3f7c7-162">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="3f7c7-162">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="78ad9-163">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="78ad9-163">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="3f7c7-163">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="3f7c7-163">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="78ad9-164">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="78ad9-164">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
