@@ -20,26 +20,28 @@ ms.custom:
 - Setup
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
-description: '通过图形徽标、帮助和合法 Url 以及页脚文本自定义 Skype 会议邀请。 '
-ms.openlocfilehash: 2f4622a964037feab0c06e731606aded7a9fb758
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: '使用Skype徽标、帮助和法律 URL 以及页脚文本自定义会议邀请。 '
+ms.openlocfilehash: 9998b2edb49b8b1c248fc388974051fe04c69051
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164331"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237518"
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 
-作为管理员，你可以确保所有 Skype for Business 会议邀请包含你的用户可能需要的一些有用信息，例如指向支持网站和法律免责声明的链接、你的公司徽标以及你想要包括的其他文本。 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+作为管理员，你可以确保所有会议Skype for Business包括用户可能需要的一些有用信息，例如指向您的支持网站和法律免责声明的链接、公司徽标以及要包含的其他文本。 
   
 ## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>为会议邀请创建徽标的提示
 <a name="__top"> </a>
 
-1. 创建宽度不188超过30像素的图像（相当小）。
+1. 创建不超过 188 像素宽 x 30 像素高的图像 (该图像的大小) 。
     
-2. 以 JPG 格式保存图像。
+2. 将图像保存为 JPG 格式。
     
-3. 将图像存储在你的企业中的每个人都可以访问的中心位置，例如网络共享、共享的 OneDrive for business 文件夹、Dropbox 等。
+3. 将图像存储在企业中的每个人都可以访问的中央位置，例如网络共享、共享OneDrive for Business文件夹、Dropbox等。
     
     现在，你可以将其添加到会议邀请。 查看后续步骤。
     
@@ -48,35 +50,35 @@ ms.locfileid: "44164331"
 
 ![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
-1. 使用你的工作或学校帐户登录。
+1. 使用工作或学校帐户登录。
     
-2. 从管理中心，选择 "**管理中心** > "**Skype for business**。
+2. 在管理中心中，选择"**管理中心**  >  Skype for Business"。
     
-3. 在 Skype for Business 管理中心中，选择 "**联机会议**"。 
+3. 在Skype for Business中心，选择 **"联机会议"。** 
     
-4. 填写以下框：
+4. 完成以下框：
     
-    ![下面是填写表单以自定义会议邀请时的外观。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+    ![下面是完成表单以自定义会议邀请时的外观。](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
 
    **徽标 URL：** 输入存储徽标的 URL。 请记住，它必须采用 JPG 格式！ 
  
-   **帮助 URL：** 如果你的组织有支持网站，而你希望用户在遇到问题时转到该网站，请在此处输入 URL。 
+   **帮助 URL：** 如果您的组织有一个支持网站，您希望用户出现问题时访问该网站，请在此处输入 URL。 
 
-   **合法 URL：** 如果你的组织拥有法律网站，而你希望其他人在有法律顾虑时转到该网站，请在此处输入 URL。
+   **法律 URL：** 如果您的组织有一个法律网站，您希望人员在有法律疑虑时访问该网站，请在此处输入 URL。
     
-   **页脚文本：** 输入适用于您的用户的纯文本脚注。  
+   **页脚文本：** 输入适合用户的纯文本脚注。  
   
    
 5. 选择" **保存**"。
     
-6. 等待一小时，以便在所有 Microsoft 365 或 Office 365 服务中填充所做的更改。 然后，转到 Outlook 并安排 Skype 会议，以查看您的更改的外观。 
+6. 等待一小时左右，以便在所有服务或Microsoft 365填充Office 365更改。 然后转到Outlook并安排Skype会议，以查看更改的外观。 
     
-    ![下面是自定义邀请（没有图形）的外观](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![下面是自定义邀请的外观，没有图形](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>相关主题
 <a name="__top"> </a>
 
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[尝试或购买音频会议Microsoft 365或Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

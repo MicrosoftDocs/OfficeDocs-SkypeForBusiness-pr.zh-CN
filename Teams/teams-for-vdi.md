@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
-description: 了解如何在 VDI 虚拟桌面基础结构和 VDI (中) Microsoft Teams。
+description: 了解如何在 VDI Microsoft Teams虚拟桌面基础结构 (运行) 应用程序。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,66 +17,66 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7262cc77310a9ea198a51af720e6e5117a72111
-ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
+ms.openlocfilehash: 30f5dc38b713e59b49a166694d5c760accc639be
+ms.sourcegitcommit: 326aa6375cb830cdb0f82ea791b84d570758853a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51874468"
+ms.lasthandoff: 05/05/2021
+ms.locfileid: "52221805"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
-本文介绍在虚拟化环境中使用 Microsoft Teams 的要求和限制。
+本文介绍在虚拟化环境中使用Microsoft Teams的要求和限制。
 
 ## <a name="what-is-vdi"></a>什么是 VDI？
 
 虚拟桌面基础结构 (VDI) 是一种虚拟化技术，在数据中心的集中服务器上托管桌面操作系统和应用程序。 这使具有完全安全且合规的集中源的用户能够获得完全个性化的桌面体验。
 
-虚拟化环境中 Microsoft Teams 支持聊天和协作。 此外，通过 Windows 虚拟桌面、Citrix 和 VMware 平台，也支持呼叫和会议功能。
+Microsoft Teams环境中进行聊天和协作。 此外，Windows虚拟桌面、Citrix 和 VMware 平台，也支持呼叫和会议功能。
 
-虚拟化环境中的团队支持多个配置。 这些模式包括 VDI、专用、共享、持久性和非持久性模式。 功能持续开发，并定期添加，功能将在几个月和数年内扩展。
+Teams环境中配置支持多个配置。 这些模式包括 VDI、专用、共享、持久性和非持久性模式。 功能持续开发，并定期添加，功能将在几个月和数年内扩展。
 
-在虚拟化环境中使用 Teams 可能与在非虚拟化环境中使用 Teams 稍有不同。 例如，某些高级功能在虚拟化环境中可能不可用，并且视频分辨率可能有所不同。
+在Teams环境中使用资源可能稍有不同，Teams虚拟化环境中使用资源。 例如，某些高级功能在虚拟化环境中可能不可用，并且视频分辨率可能有所不同。
 
 若要确保获得最佳用户体验，请遵循本文中的指导。
 
 > [!Note]
-> 有关不同平台上的 Teams VDI 的详细信息，请参阅 [按平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+> 有关在不同平台上Teams VDI 的详细信息，请参阅Teams[平台提供的功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
-## <a name="teams-on-vdi-components"></a>VDI 组件上的 Teams
+## <a name="teams-on-vdi-components"></a>Teams VDI 组件
 
-在虚拟化环境中使用 Teams 需要以下组件。
+在Teams环境中使用云解决方案需要以下组件。
 
 - **虚拟化代理**：虚拟化提供程序（例如 Azure）的资源和连接管理器
-- **虚拟桌面**：运行 Microsoft Teams (VM) 堆栈
+- **虚拟桌面**：虚拟机 (VM) 运行 Microsoft Teams
 - **精简客户端**：用户实际交互的终结点
-- **Teams 桌面应用**：Teams 桌面客户端应用
+- **Teams桌面应用**：Teams桌面客户端应用
 
-## <a name="teams-on-vdi-requirements"></a>Teams on VDI 要求
+## <a name="teams-on-vdi-requirements"></a>Teams VDI 要求
 
 ### <a name="virtualization-provider-requirements"></a>虚拟化提供商要求
 
-Teams 桌面应用已使用领先的虚拟化解决方案提供商进行验证。 对于多个市场提供商，建议咨询虚拟化解决方案提供商，确保满足最低要求。
+桌面Teams已使用领先的虚拟化解决方案提供商进行验证。 对于多个市场提供商，建议咨询虚拟化解决方案提供商，确保满足最低要求。
   
-目前，通过 Windows 虚拟桌面、Citrix 和 VMware (VDI 上的 Teams) AV) 优化。 查看本部分的信息，确保满足正确功能的所有要求。
+目前，Teams虚拟桌面、Citrix 和 VMware (Windows VDI) VDI 上的音频/视频) 优化。 查看本部分的信息，确保满足正确功能的所有要求。
 
-### <a name="platforms-certified-for-teams"></a>通过 Teams 认证的平台
+### <a name="platforms-certified-for-teams"></a>经认证的平台Teams
 
-以下平台具有适用于 Teams 的虚拟桌面基础结构解决方案。
+以下平台提供适用于 Teams 的虚拟桌面基础结构Teams。
 
 |平台|解决方案|
 |----|---|
-|![表示 Microsoft 的徽标](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows 虚拟桌面</a> |
+|![表示 Microsoft 的徽标](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows虚拟桌面</a> |
 |![表示 Citrix 的徽标](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 虚拟应用和桌面</a> |
 |![表示 VMware 的徽标](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
-### <a name="windows-virtual-desktop"></a>Windows 虚拟桌面
+### <a name="windows-virtual-desktop"></a>Windows虚拟桌面
 
-Windows 虚拟桌面为 VDI 上的 Teams 提供 AV 优化。 若要了解更多内容以及要求和安装，请参阅在[Windows 虚拟桌面上使用 Teams。](/azure/virtual-desktop/teams-on-wvd)
+Windows虚拟桌面为 VDI 上的Teams AV 优化。 若要了解更多内容以及要求和安装，请参阅[在虚拟Teams Windows应用](/azure/virtual-desktop/teams-on-wvd)。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix 虚拟应用和桌面要求
 
-Citrix 虚拟应用和桌面 (以前称为 XenApp 和 XenDesktop) 为 VDI 上的 Teams 提供 AV 优化。 借助 Citrix 虚拟应用和桌面，VDI 上的 Teams 除了支持聊天和协作外，还支持呼叫和会议功能。
+Citrix 虚拟应用和桌面 (以前称为 XenApp 和 XenDesktop) 为 VDI 上的 Teams提供 AV 优化。 借助 Citrix 虚拟应用和桌面，Teams VDI 上的应用程序除了支持聊天和协作外，还支持呼叫和会议功能。
 
 可以在 Citrix 下载站点 下载最新版本的 Citrix 虚拟应用 [和桌面](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)。  (需要先登录。) 默认情况下，所需的组件将捆绑到 [Citrix 工作区应用 (CWA) ](https://www.citrix.com/downloads/workspace-app/) 和虚拟交付代理 (VDA) 中。 无需在 CWA 或 VDA 上安装任何其他组件或插件。
 
@@ -84,27 +84,27 @@ Citrix 虚拟应用和桌面 (以前称为 XenApp 和 XenDesktop) 为 VDI 上的
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware Horizon Workspace 和桌面要求
 
-VMware Horizon 是一个新式平台，用于跨混合云安全交付虚拟桌面和应用。 为了提供出色的最终用户体验，VMware Horizon 为 Teams 提供媒体优化。 此优化可跨虚拟桌面和应用提高整体工作效率，并增强使用 Teams 进行呼叫和开会的用户体验。
+VMware Horizon 是一个新式平台，用于跨混合云安全交付虚拟桌面和应用。 为了提供出色的最终用户体验，VMware Horizon 为 Teams。 此优化可跨虚拟桌面和应用提高整体工作效率，并增强使用虚拟桌面和 Teams 进行呼叫和会议时Teams。
 
-可以从 VMware 下载页下载最新版本的 [VMware](https://my.vmware.com/web/vmware/downloads/#all_products) Horizon。 默认情况下，所需的媒体优化组件是 Horizon Agent 和 Horizon 客户端的一部分，无需安装任何其他插件来使用 Teams 的优化功能。
+可以从 VMware 下载页下载最新版本的 [VMware](https://my.vmware.com/web/vmware/downloads/#all_products) Horizon。 默认情况下，所需的媒体优化组件是 Horizon Agent 和 Horizon 客户端的一部分，无需安装任何其他插件来使用适用于 Teams。
 
-若要获取有关如何为 Teams 配置媒体优化的最新要求和说明，请参阅 [此 VMware 网站](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)。
+若要获取最新要求以及如何为用户配置媒体优化Teams，请参阅[此 VMware 网站](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)。
 
-## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上安装或更新 Teams 桌面应用
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI Teams或更新桌面应用
 
-可以使用每台计算机安装或每用户安装使用 MSI 包部署适用于 VDI 的 Teams 桌面应用。 决定使用哪种方法取决于是使用持久性设置还是非持久性设置，以及组织的关联功能需求。
+可以使用每Teams安装或每用户安装，使用 MSI 包部署适用于 VDI 的桌面应用。 决定使用哪种方法取决于是使用持久性设置还是非持久性设置，以及组织的关联功能需求。
 
-对于专用的持久性设置，任一方法都正常工作。 但是，对于非永久性设置，Teams 要求每台计算机安装一次，以便高效工作。 请参阅 [非永久性设置](#non-persistent-setup) 部分。
+对于专用的持久性设置，任一方法都正常工作。 但是，对于非永久性设置，Teams每台计算机安装才能高效工作。 请参阅 [非永久性设置](#non-persistent-setup) 部分。
 
-使用每台计算机安装时，将禁用自动更新。 这意味着要更新 Teams 应用，必须卸载当前版本以更新到较新版本。 通过按用户安装，将启用自动更新。 对于大多数 VDI 部署，建议使用每台计算机安装部署 Teams。
+使用每台计算机安装时，将禁用自动更新。 这意味着，若要更新 Teams应用，必须卸载当前版本以更新到较新版本。 通过按用户安装，将启用自动更新。 对于大多数 VDI 部署，我们建议使用Teams安装来部署 VDI。
 
-若要更新到最新的 Teams 版本，请从卸载过程开始，然后是最新的 Teams 版本部署。
+若要更新到最新版本Teams，请从卸载过程开始，然后是最新的 Teams 版本部署。
 
-若要使 VDI 环境中 Teams AV 优化正常工作，精简客户端终结点必须能够访问 Internet。 如果精简客户端终结点上未提供 Internet 访问，优化启动不会成功。 这意味着用户位于未优化的媒体状态。
+若要Teams VDI 环境中进行 AV 优化，精简客户端终结点必须能够访问 Internet。 如果精简客户端终结点上未提供 Internet 访问，优化启动不会成功。 这意味着用户位于未优化的媒体状态。
 
 #### <a name="dedicated-persistent-setup"></a>专用持久设置
 
-在专用的永久性设置中，用户注销后，会保留用户的本地操作系统更改。 对于永久性安装，Teams 支持按用户和按计算机安装。
+在专用的永久性设置中，用户注销后，会保留用户的本地操作系统更改。 对于永久性安装，Teams支持每用户和每台计算机安装。
 
 下面是建议的最低 VM 配置。
 
@@ -118,58 +118,58 @@ VMware Horizon 是一个新式平台，用于跨混合云安全交付虚拟桌�
 
 在非永久性设置中，用户注销后不会保留用户的本地操作系统更改。 此类设置通常共享多用户会话。 VM 配置因用户数和可用物理盒资源而异。
 
-对于非永久性设置，Teams 桌面应用必须安装在每台计算机的黄金映像中。  (有关详细信息，请参阅在 [VDI](#install-or-update-the-teams-desktop-app-on-vdi) 上安装或更新 Teams 桌面应用部分。) 这可确保在用户会话期间高效启动 Teams 应用。
+对于非永久性设置，Teams桌面应用必须按计算机安装到黄金映像。  (有关详细信息，请参阅在[VDI 上](#install-or-update-the-teams-desktop-app-on-vdi)安装或更新 Teams 桌面应用部分。) 这可确保在用户会话期间有效启动 Teams 应用。
 
-在非持久性设置中使用 Teams 还需要配置文件缓存管理器，以高效同步 Teams 运行时数据。 高效的数据同步可确保在用户的会话 (缓存用户的数据、配置文件) 设置等用户特定信息。 确保同步这两个文件夹中的数据：<br>
+在Teams设置中使用缓存管理器还需要配置文件缓存管理器，Teams运行时数据同步。 高效的数据同步可确保在用户的会话 (缓存用户的数据、配置文件) 设置等用户特定信息。 确保同步这两个文件夹中的数据：<br>
 - C：\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache) 
 - C：\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams) 
 
 > [!NOTE]
-> 漫游文件夹 (，或者，如果使用文件夹重定向，则需要缓存管理器) 以确保 Teams 应用具有运行应用程序所需的运行时数据和文件。 这是缓解网络延迟问题或网络故障所必需的，否则会导致应用程序错误，并且由于数据和文件不可用导致体验变慢。
+> 漫游文件夹 (，或者，如果使用文件夹重定向，则要求缓存管理器) 以确保 Teams 应用具有运行应用程序所需的运行时数据和文件。 这是缓解网络延迟问题或网络故障所必需的，否则会导致应用程序错误，并且由于数据和文件不可用导致体验变慢。
 
 有各种可用的缓存管理器解决方案。 例如 [，FSLogix](/fslogix/overview)。 有关特定配置说明，请参阅缓存管理器提供程序。
 
-##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>用于非持久设置的 Teams 缓存内容排除列表
+##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Teams持久性设置的缓存内容排除列表
 
-从 Teams 缓存文件夹 %appdata%/Microsoft/Teams 中排除以下内容。 排除这些项有助于减小用户缓存大小，以进一步优化非持久性设置。
+从缓存文件夹 %appdata%/Microsoft/Teams 中排除Teams。 排除这些项有助于减小用户缓存大小，以进一步优化非持久性设置。
 
-- .txt 文件
+- .txt文件
 - Media-stack 文件夹
 - meeting-addin\Cache (%appdata%\Microsoft\Teams\meeting-addin\Cache) 
 
-### <a name="microsoft-365-apps-for-enterprise-considerations"></a>适用于企业的 Microsoft 365 应用注意事项
+### <a name="microsoft-365-apps-for-enterprise-considerations"></a>Microsoft 365 企业应用版注意事项
 
-使用适用于企业的 Microsoft 365 应用在 VDI 上部署 Teams 时，请考虑以下事项。
+在 VDI 上通过 Teams 部署Microsoft 365 企业应用版时，请考虑以下事项。
 
-#### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>通过适用于企业的 Microsoft 365 应用部署 Teams 的新部署
+#### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>通过 Teams 部署Microsoft 365 企业应用版
 
-通过 Microsoft 365 企业版应用部署 Teams 之前，必须先卸载任何预先存在的 Teams 应用（如果它们是使用每台计算机安装部署的）。
+在通过 Teams 部署Microsoft 365 企业应用版，必须先卸载任何预先存在的 Teams 应用（如果它们是使用每台计算机安装部署的）。
 
-通过 Microsoft 365 企业版应用安装的 Teams 是按用户安装的。 有关详细信息，请参阅在 VDI 上安装或更新 [Teams 桌面应用](#install-or-update-the-teams-desktop-app-on-vdi) 部分。
+Teams Microsoft 365 企业应用版每个用户安装一次。 有关详细信息，请参阅在[VDI Teams或更新桌面](#install-or-update-the-teams-desktop-app-on-vdi)应用部分。
 
-#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>通过适用于企业更新的 Microsoft 365 应用部署 Teams
+#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Teams更新Microsoft 365 企业应用版部署
 
-Teams 也会添加到 Microsoft 365 企业版应用的现有安装中。 由于 Microsoft 365 企业版应用仅按用户安装 Teams，请参阅在 [VDI](#install-or-update-the-teams-desktop-app-on-vdi) 上安装或更新 Teams 桌面应用部分。
+Teams添加到现有安装中的 Microsoft 365 企业应用版。 由于Microsoft 365 企业应用版仅Teams用户安装，请参阅在[VDI Teams桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)部分。
 
-#### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>将 Teams 与每台计算机安装和适用于企业的 Microsoft 365 应用一同使用
+#### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>将Teams与每台计算机的安装和Microsoft 365 企业应用版
 
-Microsoft 365 企业版应用不支持每台计算机安装 Teams。 若要使用每台计算机安装，必须从 Microsoft 365 企业版应用中排除 Teams。 请参阅 [将 Teams 桌面应用部署到 VM](#deploy-the-teams-desktop-app-to-the-vm) 和 [如何通过适用于企业的 Microsoft 365](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) 应用排除 Teams 部署部分。
+Microsoft 365 企业应用版不支持每台计算机安装 Teams。 若要使用每台计算机安装，必须从Teams排除Microsoft 365 企业应用版。 请参阅[将 Teams 桌面应用部署到 VM](#deploy-the-teams-desktop-app-to-the-vm)和如何Teams[部署Microsoft 365 企业应用版](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise)部分。
 
-#### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>如何通过适用于企业的 Microsoft 365 应用排除 Teams 部署
+#### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>如何排除Teams部署Microsoft 365 企业应用版
 
-若要详细了解 Teams 和 Microsoft 365 企业版应用，请参阅如何从适用于企业的 [Microsoft 365](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) 应用的新安装中排除 Teams 和使用组策略来控制 Teams 的 [安装](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)。
+若要详细了解 Teams 和 Microsoft 365 企业应用版，请参阅如何从 Microsoft 365 企业应用版 的新安装中排除 Teams[和使用组](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)策略来控制[Teams。](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)
 
-### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>将 Teams 桌面应用部署到 VM
+### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>将Teams桌面应用部署到 VM
 
-1. 使用以下链接之一下载与 VDI VM 操作系统匹配的 Teams MSI 包：
+1. 使用Teams之一下载与 VDI VM 操作系统匹配的 MSI 包：
 
     - [32 位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
     - [64 位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
 
     > [!NOTE]
-    > 对于政府云，请参阅 [使用 Microsoft 终结点配置管理器安装 Microsoft Teams，](msi-deployment.md) 了解 MSI 文件的下载链接。
+    > 对于政府云，请参阅使用[Microsoft Teams 安装](msi-deployment.md)Microsoft Endpoint Configuration Manager，了解 MSI 文件的下载链接。
 
-    所需的 Teams 桌面应用最低版本是版本 1.3.00.4461。  (版本不支持 PSTN 保留。) 
+    所需的桌面应用Teams版本为 1.3.00.4461。  (版本不支持 PSTN 保留。) 
 
 2. 运行以下命令之一，将 MSI 安装到 VDI VM：
 
@@ -179,7 +179,7 @@ Microsoft 365 企业版应用不支持每台计算机安装 Teams。 若要使�
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
 
-        此过程是默认安装，用于将 Teams 安装到 %AppData% 用户文件夹。 此时，黄金映像设置已完成。 Teams 无法正常使用非永久性安装上的按用户安装。
+        此过程是默认安装，它Teams %AppData% 用户文件夹。 此时，黄金映像设置已完成。 Teams在非永久性设置上无法正常执行按用户安装。
 
     - 每台计算机安装
 
@@ -187,85 +187,85 @@ Microsoft 365 企业版应用不支持每台计算机安装 Teams。 若要使�
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        此过程将 Teams 安装到 64 位操作系统上的 program Files (x86) 文件夹，以及 32 位操作系统上的 Program Files 文件夹。 此时，黄金映像设置已完成。 非永久性设置需要每台计算机安装 Teams。
+        此过程Teams 64 位操作系统上的 Program Files (x86) 文件夹和 32 位操作系统上的 Program Files 文件夹。 此时，黄金映像设置已完成。 非Teams需要每台计算机安装一个服务。
 
-        下一个交互式登录会话将启动 Teams 并请求凭据。
+        下一个交互式登录会话Teams请求凭据。
 
         > [!NOTE]
-        > 这些示例还使用 **ALLUSERS=1** 参数。 设置此参数时，Teams Machine-Wide 安装程序会显示在"控制面板"中的"程序和功能"中，以及"应用"&"Windows 设置"中针对计算机的所有用户显示的功能。 然后，所有用户都可以卸载 Teams（如果他们具有管理员凭据）。
+        > 这些示例还使用 **ALLUSERS=1** 参数。 设置此参数时，Teams Machine-Wide安装程序会显示在"控制面板"中的"程序和功能"中，&"应用"Windows 设置的"功能"中。 然后，所有用户都可以卸载Teams管理员凭据。
         必须了解 **ALLUSERS=1** 和 **ALLUSER=1 的区别**。 **ALLUSERS=1** 参数可用于非 VDI 和 VDI 环境，而 **ALLUSER=1** 参数仅在 VDI 环境中用于指定每台计算机安装。
 
-3. 从 VDI VM 卸载 MSI。 有两种方法可以卸载 Teams。
+3. 从 VDI VM 卸载 MSI。 有两种方法可以卸载Teams。
 
-    - PowerShell 脚本：可以使用此 [PowerShell 脚本](scripts/powershell-script-deployment-cleanup.md) 卸载 Teams 并删除用户的 Teams 文件夹。 为计算机上安装 Teams 的每个用户配置文件运行脚本。
+    - PowerShell 脚本：可以使用此[PowerShell](scripts/powershell-script-deployment-cleanup.md)脚本卸载Teams并Teams用户的文件夹。 针对计算机上安装了 Teams的每个用户配置文件运行脚本。
     - 命令行：运行以下命令。
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
 
-      此过程从"程序文件" (x86) 或"程序文件"文件夹中卸载 Teams，具体取决于操作系统环境。
+      此过程会卸载Teams文件" (x86) 文件夹或"程序文件"文件夹中，具体取决于操作系统环境。
 
-## <a name="teams-on-vdi-performance-considerations"></a>Teams on VDI 性能注意事项
+## <a name="teams-on-vdi-performance-considerations"></a>Teams VDI 性能注意事项
 
 有各种虚拟化设置配置，每个配置都有不同的优化重点。 例如，配置可能侧重于用户密度。 规划时，请考虑以下事项，以帮助根据组织的工作负荷需求优化设置。
 
 - 最低要求：某些工作负荷可能需要使用高于最低要求的资源进行设置。 例如，对于使用需要更多计算资源的应用程序的开发人员的工作负荷。
-- 依赖项：其中包括对基础结构、工作负荷的依赖关系，以及 Teams 桌面应用外部的其他环境注意事项。
-- VDI 上的已禁用功能：Teams 禁用 VDI 的 GPU 密集型功能，这有助于改善暂时性 CPU 利用率。 禁用了以下功能：
-    - Teams CSS 动画
+- 依赖项：这些依赖项包括对基础结构、工作负荷的依赖，以及桌面应用Teams环境注意事项。
+- VDI 上的已禁用功能：Teams禁用 VDI 的 GPU 密集型功能，这有助于改善暂时性 CPU 利用率。 禁用了以下功能：
+    - TeamsCSS 动画
     - Giphy 自动启动
 
-## <a name="teams-on-vdi-with-calling-and-meetings"></a>VDI 上的 Teams 与通话和会议
+## <a name="teams-on-vdi-with-calling-and-meetings"></a>Teams呼叫和会议在 VDI 上进行通话
 
-除了聊天和协作外，支持虚拟化提供商平台的 VDI 上的 Teams 还支持通话和会议。 支持的功能基于 WebRTC 媒体堆栈和虚拟化提供程序实现。 下图提供了体系结构的概述。
+除了聊天和协作，Teams虚拟化提供商平台提供 VDI 上的呼叫和会议功能。 支持的功能基于 WebRTC 媒体堆栈和虚拟化提供程序实现。 下图提供了体系结构的概述。
 
-![显示 Teams on VDI 体系结构的示意图](media/teams-on-vdi-architecture.png)
+![显示 VDI 体系结构Teams的图表](media/teams-on-vdi-architecture.png)
 
 > [!IMPORTANT]
-> 如果当前运行 Teams 时未在 VDI 中执行 AV 优化，并且使用尚不支持用于优化的功能 (如在应用共享) 时授予和控制，必须设置虚拟化提供程序策略以关闭 Teams 重定向。 这意味着 Teams 媒体会话不会优化。 若要了解如何设置策略以关闭 Teams 重定向，请联系虚拟化提供商。
+> 如果当前运行 Teams 而不在 VDI 中执行 AV 优化，并且使用尚不支持用于优化的功能 (例如，在应用共享) 时授予并控制，必须设置虚拟化提供程序策略以关闭 Teams 重定向。 这意味着Teams不会优化媒体会话。 若要了解如何设置策略以关闭重定向Teams，请与虚拟化提供商联系。
 
 ### <a name="network-requirements"></a>网络要求
 
-建议评估环境，确定可能影响整体云语音和视频部署的任何风险和要求。 使用 [Skype for Business 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885) 测试你的网络是否适用于 Teams。
+建议评估环境，确定可能影响整体云语音和视频部署的任何风险和要求。 使用[Skype for Business评估工具](https://www.microsoft.com/download/details.aspx?id=53885)测试网络是否已准备好Teams。
 
-若要详细了解如何为 Teams 准备网络，请参阅为 [Teams 准备组织的网络](prepare-network.md)。
+若要详细了解如何准备网络Teams，请参阅[准备](prepare-network.md)组织的网络以Teams。
 
-### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>从 VDI 上的 Skype for Business 迁移到 VDI 上的 Teams
+### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>从 VDI Skype for Business迁移到 VDI Teams VDI 上的客户端
 
-如果要从 VDI 上的 Skype for Business 迁移到 VDI 上的 Teams，则除了两个应用程序之间的差异外，也实现 VDI 时存在一些差异。 Skype for Business VDI 中的 Teams VDI 目前不支持的一些功能如下所示：
+如果要从 VDI 上的 Skype for Business 迁移到 VDI 上的 Teams，则除了这两个应用程序之间的差异外，也实现 VDI 时存在一些差异。 VDI 中的 Teams VDI 目前不支持Skype for Business如下：
 
 - 在 VDI 中禁用某些 AV 功能的按平台策略
 - 在应用共享时授予并控制
 - 无音频聊天中的屏幕共享
 - 同时发送和接收视频和屏幕共享
 
-### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Chrome 浏览器上的 Teams 与适用于 VDI 的 Teams 桌面应用
+### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Teams Chrome 浏览器与适用于 VDI Teams桌面应用
 
-Chrome 浏览器上的 Teams 不提供用于 VDI 的 Teams 桌面应用与 AV 优化的替换项。 聊天和协作体验如期工作。 当需要媒体时，某些体验可能无法满足用户在 Chrome 浏览器上的期望：
+Teams Chrome 浏览器上的应用无法通过 AV 优化Teams VDI 桌面应用。 聊天和协作体验如期工作。 当需要媒体时，某些体验可能无法满足用户在 Chrome 浏览器上的期望：
 
 - 音频和视频流式处理体验可能并非最佳。 用户可能会遇到延迟或质量降低的情况。
 - 设备设置在浏览器设置中不可用。
 - 设备管理通过浏览器进行处理，需要在浏览器网站设置中设置多个设置。
-- 可能需要在 Windows 设备管理中设置设备设置。
+- 设备设置可能还需要在设备管理Windows设置。
 
-## <a name="teams-on-vdi-with-chat-and-collaboration"></a>通过聊天和协作在 VDI 上的 Teams
+## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Teams聊天和协作在 VDI 上聊天
 
-如果你的组织只想使用 Teams 中的聊天和协作功能，你可以设置用户级策略以关闭 Teams 中的呼叫和会议功能。 
+如果你的组织只想在 Teams 使用聊天和协作功能，你可以设置用户级策略以在 Teams 中关闭呼叫和Teams。 
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>设置策略以关闭呼叫和会议功能
 
-可以使用 Microsoft Teams 管理中心或 PowerShell 设置策略。 传播策略更改 (可能需要) 几个小时。 如果未立即看到给定帐户的更改，请在几小时后重试。
+可以使用管理中心或 PowerShell Microsoft Teams策略。 传播策略更改 (可能需要) 几个小时。 如果未立即看到给定帐户的更改，请在几小时后重试。
 
-[**调用策略**](teams-calling-policy.md)：Teams 包括内置的 DisallowCalling 调用策略，其中所有调用功能都已关闭。 将 DisallowCalling 策略分配给组织中在虚拟化环境中使用 Teams 的所有用户。
+[**调用策略**](teams-calling-policy.md)：Teams包括内置的 DisallowCalling 调用策略，其中所有调用功能都已关闭。 将 DisallowCalling 策略分配给组织中在虚拟化环境中Teams的所有用户。
 
-[**会议策略**](meeting-policies-in-teams.md)：Teams 包括内置的 AllOff 会议策略，其中所有会议功能都已关闭。 将 AllOff 策略分配给组织中在虚拟化环境中使用 Teams 的所有用户。
+[**会议策略**](meeting-policies-in-teams.md)：Teams包括内置的 AllOff 会议策略，其中所有会议功能都已关闭。 将 AllOff 策略分配给组织中在虚拟化环境中Teams用户。
 
-#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心分配策略
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>使用管理中心Microsoft Teams策略
 
 将 DisallowCalling 调用策略和 AllOff 会议策略分配给用户：
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到"用户 **"。**
+1. 在管理中心左侧导航Microsoft Teams，转到"用户 **"。**
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。
 3. 执行以下操作：
     1.  在 **"调用策略"** 下，**单击"禁止""缩放"。**
@@ -280,7 +280,7 @@ Chrome 浏览器上的 Teams 不提供用于 VDI 的 Teams 桌面应用与 AV �
 
 或者，也可以执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到要分配的策略。 例如：
+1. 在管理中心Microsoft Teams导航中，转到要分配的策略。 例如：
     - 转到 **"语音**  >  **呼叫策略"，** 然后单击"**取消允许""呼叫"。**
     - 转到"**会议**  >  **会议策略"，** 然后单击 **"AllOff"。**
 2. 选择“管理用户”。
@@ -305,23 +305,23 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 若要详细了解使用 PowerShell 管理会议策略，请参阅[Set-CsTeamsMeetingPolicy。](/powershell/module/skype/set-csteamsmeetingpolicy)
 
-## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>通过聊天和协作迁移 VDI 上的 Teams，以通过通话和会议优化 Teams
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>通过Teams和协作在 VDI 上迁移 Teams，以优化呼叫和会议功能
 
-如果 VDI 上的 Teams 具有聊天和协作的现有实现，其中你已设置用户级策略以关闭呼叫和会议功能，并且你将迁移到具有 AV 优化的 Teams，则必须设置策略，为 VDI 用户启用这些 Teams 的呼叫和会议功能。
+如果 VDI 上的 Teams 与聊天和协作的现有实现已设置用户级策略以关闭呼叫和会议功能，并且要迁移到具有 AV 优化的 Teams，则必须设置策略，为 VDI 用户启用这些 Teams 的呼叫和会议功能。
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>设置策略以打开呼叫和会议功能
 
-可以使用 Microsoft Teams 管理中心或 PowerShell 设置呼叫和会议策略并将其分配给用户。 传播策略更改 (可能需要) 几个小时。 如果未立即看到给定帐户的更改，请在几小时后重试。
+可以使用 Microsoft Teams 管理中心或 PowerShell 来设置呼叫和会议策略并将其分配给用户。 传播策略更改 (可能需要) 几个小时。 如果未立即看到给定帐户的更改，请在几小时后重试。
 
-[**调用策略**](teams-calling-policy.md)：Teams 中的调用策略控制哪些呼叫功能可供用户使用。 Teams 包括内置的 AllowCalling 呼叫策略，其中所有通话功能都开启。 若要启用所有调用功能，请分配 AllowCalling 策略。 或者，创建自定义呼叫策略以打开你需要的呼叫功能并将其分配给用户。 
+[**调用策略**](teams-calling-policy.md)：调用策略Teams控制哪些调用功能可供用户使用。 Teams包括内置的 AllowCalling 调用策略，其中所有调用功能都打开。 若要启用所有调用功能，请分配 AllowCalling 策略。 或者，创建自定义呼叫策略以打开你需要的呼叫功能并将其分配给用户。 
 
-[**会议策略**](meeting-policies-in-teams.md)：Teams 中的会议策略控制用户可以创建的会议类型以及组织中用户安排的会议参与者可用的功能。 Teams 包括内置的 AllOn 会议策略，其中所有会议功能都开启。 若要启用所有会议功能，请分配 AllOn 策略。 或者，创建自定义会议策略以打开你需要的会议功能并为其分配用户。
+[**会议策略**](meeting-policies-in-teams.md)：会议Teams控制用户可以创建的会议类型，以及组织中用户安排的会议参与者可用的功能。 Teams包括内置的 AllOn 会议策略，其中所有会议功能都打开。 若要启用所有会议功能，请分配 AllOn 策略。 或者，创建自定义会议策略以打开你需要的会议功能并为其分配用户。
 
-#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心分配策略
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>使用管理中心Microsoft Teams策略
 
 若要向用户分配 AllowCalling 调用策略和 AllOn 会议策略，请执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到"用户 **"。**
+1. 在管理中心左侧导航Microsoft Teams，转到"用户 **"。**
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。
 3. 执行以下操作：
     1.  在 **"调用策略"** 下，单击 **"AllowCalling"。**
@@ -336,7 +336,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 或者，也可以执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到要分配的策略。 例如：
+1. 在管理中心Microsoft Teams导航中，转到要分配的策略。 例如：
     - 转到"**语音**  >  **呼叫策略"，** 然后单击 **"AllowCalling"。**
     - 转到"**会议**  >  **会议策略"，** 然后单击 **"AllOn"。**
 2. 选择“管理用户”。
@@ -361,7 +361,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 若要详细了解使用 PowerShell 管理会议策略，请参阅[Set-CsTeamsMeetingPolicy。](/powershell/module/skype/set-csteamsmeetingpolicy)
 
-## <a name="control-fallback-mode-in-teams"></a>在 Teams 中控制回退模式
+## <a name="control-fallback-mode-in-teams"></a>在控件中控制回退Teams
 
 当用户从不受支持的终结点进行连接时，用户会进入回退模式，其中 AV 未优化。 可以通过设置以下注册表 DWORD 值之一来禁用或启用回退模式：
 
@@ -370,16 +370,16 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 若要禁用回退模式，将值设置为 **1。** 若要仅启用音频，将值设置为 **2。** 如果该值不存在或设置为 **0** (零) ，则启用回退模式。
 
-此功能在 Teams 版本 1.3.00.13565 及更高版本中可用。
+此功能在 Teams 1.3.00.13565 及更高版本中可用。
 
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
 ### <a name="client-deployment-installation-and-setup"></a>客户端部署、安装和设置
 
-- 通过每台计算机安装，VDI 上的 Teams 不会以非 VDI Teams 客户端的方式自动更新。 必须安装新的 MSI 来更新 VM 映像，如在 VDI 上安装或更新 [Teams 桌面应用](#install-or-update-the-teams-desktop-app-on-vdi) 部分中所述。 必须卸载当前版本，以更新到较新版本。
-- 在 Citrix 环境中，如果用户在 Teams 运行时从虚拟机断开连接，则 Teams 更新可能会导致用户在重新连接时为 AV 保持未优化状态。 建议用户在从 Citrix 虚拟机断开连接之前退出 Teams，以避免这种情况。
-- 应按用户或每台计算机部署团队。 不支持针对每个用户和每台计算机的并发部署 Teams。 若要从每台计算机或每个用户迁移到其中一种模式，请按照卸载过程操作并重新部署到任一模式。
-- Windows 虚拟桌面和 VMware 目前不支持基于 MacOS 和 Linux 的客户端。
+- 通过每台计算机安装，Teams VDI 上的配置不会以非 VDI 客户端Teams的方式自动更新。 必须安装新的 MSI 来更新 VM 映像，如在 VDI 上安装或Teams[桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)部分中所述。 必须卸载当前版本，以更新到较新版本。
+- 在 Citrix 环境中，如果用户在运行 Teams 时与虚拟机断开连接，Teams 更新可能会导致用户在重新连接时为 AV 保持未优化状态。 建议用户在从 Citrix 虚拟机Teams之前退出配置，以避免这种情况。
+- Teams用户或每台计算机部署资源。 不支持Teams每个用户和每台计算机的并发数进行部署。 若要从每台计算机或每个用户迁移到其中一种模式，请按照卸载过程操作并重新部署到任一模式。
+- Windows虚拟桌面目前不支持基于 macOS 和 Linux 的客户端。
 
 ### <a name="calling-and-meetings"></a>呼叫和会议
 
@@ -387,51 +387,50 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 - 任何多窗口功能（如新会议体验）或新会议体验附带的任何功能
 - 增强型紧急服务
-- Teams 应用和设备之间的 HID 按钮和 LED 控件
+- 应用和设备之间的 HID 按钮Teams LED 控件
 - 背景模糊和效果
 - 广播和实时事件制作者和演示者角色
 - Location-Based LBR (路由) 
 - 呼叫寄存
-- 呼叫队列
 - 共享系统音频/计算机声音
 - 直接路由的媒体旁路
 - 缩放控件 
 
 > [!NOTE]
-> 我们正在努力添加当前仅在非 VDI 环境中可用的呼叫和会议功能。 这些可能包括对质量的更多管理员控制、其他屏幕共享方案和最近添加到 Teams 的高级功能。 请联系 Teams 代表，详细了解即将推出的功能。
+> 我们正在努力添加当前仅在非 VDI 环境中可用的呼叫和会议功能。 这些可能包括对质量的更多管理员控制、其他屏幕共享方案和最近添加到 Teams。 请联系Teams代表，详细了解即将推出的功能。
 
 以下是呼叫和会议的已知问题和限制：
 
-- Skype for Business 的互操作性仅限于音频通话;没有视频形式。
+- 与音频Skype for Business仅限音频呼叫;没有视频形式。
 - 会议或群组通话仅支持单个传入视频流。 当多人发送视频时，在任何给定时间只显示主要发言人的视频。
 - 传入和传出视频流分辨率限制为 720p 分辨率。 这是 WebRTC 限制。
 - 仅支持来自传入相机或屏幕共享流的一个视频流。 当存在传入的屏幕共享时，将显示该屏幕共享，而不是主扬声器的视频。
-- 如果设备断开连接，然后重新连接，Teams 不会切换为使用用户选择的最后一个音频设备。
+- Teams用户选择的最后一个音频设备（如果设备已断开连接，然后重新连接）不切换到使用。
 - 传出屏幕共享：
     - 不支持应用程序共享。
 - 授予控制权并控制：
     - 在屏幕共享或应用程序共享会话期间不受支持。
-    - 在 PowerPoint 共享会话期间受支持。
+    - 在共享会话PowerPoint支持。
 - 仅 Citrix 限制
     - 在多监视器设置中共享屏幕时，仅共享主监视器。
     - 不支持在 CWA 上高 DPI 缩放。
 
-有关与 VDI 不相关的 Teams 已知问题，请参阅[在组织中支持 Teams。](/MicrosoftTeams/troubleshoot/teams-welcome)
+有关Teams VDI 的已知问题，请参阅[在Teams支持。](/MicrosoftTeams/troubleshoot/teams-welcome)
 
 ## <a name="troubleshooting"></a>疑难解答
 
 ### <a name="troubleshoot-citrix-components"></a>Citrix 组件故障排除
 
-#### <a name="teams-crashes-or-the-teams-sign-in-screen-is-blank"></a>Teams 崩溃或 Teams 登录屏幕为空
+#### <a name="teams-crashes-or-the-teams-sign-in-screen-is-blank"></a>Teams崩溃或Teams登录屏幕为空
 
 这是 Citrix VDA 版本 1906 和 1909 的已知问题。 若要解决此问题，请添加以下注册表 DWORD 值，将其设置为 204 (十六进制) 。
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
-然后重启 VDA。 有关详细信息，请参阅此 Citrix 支持文章 [Teams 的 HDX 优化故障排除](https://support.citrix.com/article/CTX253754)。
+然后重启 VDA。 若要了解有关详细信息，请参阅此 Citrix 支持文章排查针对 Teams[的 HDX 优化](https://support.citrix.com/article/CTX253754)问题。
 
 ## <a name="related-topics"></a>相关主题
 
-- [使用 MSI 安装 Microsoft Teams](msi-deployment.md)
+- [使用 MSI Microsoft Teams安装](msi-deployment.md)
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [在 Windows 虚拟桌面上使用 Microsoft Teams](/azure/virtual-desktop/teams-on-wvd)
+- [在 Microsoft Teams 虚拟Windows上使用](/azure/virtual-desktop/teams-on-wvd)

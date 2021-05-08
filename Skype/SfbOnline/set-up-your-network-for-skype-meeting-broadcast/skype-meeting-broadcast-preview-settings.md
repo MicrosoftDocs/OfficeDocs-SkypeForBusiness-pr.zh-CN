@@ -1,5 +1,5 @@
 ---
-title: Skype 会议直播预览版设置
+title: Skype 会议广播预览设置
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,19 @@ f1.keywords:
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
-description: Skype for Business 客户预览版计划可让你提前访问新产品和功能。 它使组织能够快速了解即将推出的产品、测试自己的环境中的新特性，以及提供反馈，然后再向公众发布产品内部版本。 若要了解更多信息，请参阅 Skype for Business 预览版。
-ms.openlocfilehash: 37c597e2c668bcfb77c928d3c379f9109caf1c49
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 通过Skype for Business预览计划，可提前访问新产品和功能。 它使组织能够快速了解即将推出的产品、测试自己的环境中的新特性，以及提供反馈，然后再向公众发布产品内部版本。 若要了解更多信息，请参阅预览Skype for Business。
+ms.openlocfilehash: d713e3225ed963beb1b201d515db558513020d39
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106498"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237498"
 ---
-# <a name="skype-meeting-broadcast-preview-settings"></a>Skype 会议直播预览版设置
+# <a name="skype-meeting-broadcast-preview-settings"></a>Skype 会议广播预览设置
 
-Skype for Business 客户预览版计划可让你提前访问新产品和功能。 它使组织能够快速了解即将推出的产品、测试自己的环境中的新特性，以及提供反馈，然后再向公众发布产品内部版本。 若要了解更多信息，请参阅 [Skype for Business 预览版](https://www.skypepreview.com/)。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+通过Skype for Business预览计划，可提前访问新产品和功能。 它使组织能够快速了解即将推出的产品、测试自己的环境中的新特性，以及提供反馈，然后再向公众发布产品内部版本。 若要了解更多信息，请参阅预览[Skype for Business。](https://www.skypepreview.com/)
 
 ## <a name="related-topics"></a>相关主题
 [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)

@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中创建呼叫队列 - 小型企业教程
+title: 在企业 - 小型企业Microsoft Teams呼叫队列
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: 了解如何使用 Microsoft 365 Business Voice 设置呼叫队列。
+description: 了解如何使用 Microsoft 365 商务语音 设置呼叫队列。
 ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
 ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ ms.locfileid: "52064818"
 
 - 问候消息。
 
-- 音乐等待队列中等待时，
+- 音乐在等待队列中等待时，
 
 - 调用路由 - 在 *"先* 到先出" (FIFO) 顺序 - 到代理。
 
@@ -45,15 +45,15 @@ ms.locfileid: "52064818"
 
 #### <a name="video-demonstration"></a>视频演示
 
-此视频演示如何在 Teams 中创建呼叫队列。
+此视频演示如何在 Teams。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### <a name="before-you-begin"></a>开始之前
 
-获取一 [些手机系统 - 虚拟](../teams-add-on-licensing/virtual-user.md) 用户许可证（如果还没有）。 为计划设置的每个呼叫队列和自动助理获取一个。 这些许可证是免费的，因此我们建议获取一些额外的许可证，以防你决定在将来对设置进行更改。
+获取电话系统[- 虚拟用户](../teams-add-on-licensing/virtual-user.md)许可证（如果还没有）。 为计划设置的每个呼叫队列和自动助理获取一个。 这些许可证是免费的，因此我们建议获取一些额外的许可证，以防你决定在将来对设置进行更改。
 
-由于呼叫队列中的代理可能会拨出以返回客户呼叫，因此请考虑将呼叫代理的呼叫者 ID 设置为主电话号码或相应的自动助理号码。 有关详细信息 [，请参阅在 Microsoft Teams 中](../caller-id-policies.md) 管理来电显示策略。
+由于呼叫队列中的代理可能会拨出以返回客户呼叫，因此请考虑将呼叫代理的呼叫者 ID 设置为主电话号码或相应的自动助理号码。 有关详细信息[，请参阅管理](../caller-id-policies.md)Microsoft Teams 中的来电显示策略。
 
 <a name="steps"></a>
 
@@ -61,11 +61,11 @@ ms.locfileid: "52064818"
 
 # <a name="step-1brcreate-a-team"></a>[步骤 1 <br> 创建团队](#tab/create-team)
 
-创建呼叫队列时，可以将单个用户添加到队列，或者可以使用现有的安全组、Microsoft 365 组或 Microsoft Teams 团队。 建议使用 [团队频道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 这样，队列成员可以相互聊天、分享想法以及创建文档或其他资源，以帮助他们帮助客户。 团队还提供语音邮箱，让呼叫者在数小时后或队列达到最大容量时留下消息。
+创建呼叫队列时，可以将单个用户添加到队列，或者可以使用现有的安全组、Microsoft 365组或Microsoft Teams团队。 建议使用 [团队频道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 这样，队列成员可以相互聊天、分享想法以及创建文档或其他资源，以帮助他们帮助客户。 团队还提供语音邮箱，让呼叫者在数小时后或队列达到最大容量时留下消息。
 
 创建团队
 
-1. 首先，**单击应用** 左侧的"团队"，然后单击团队列表底部的"加入或创建团队"。
+1. 首先 **，Teams** 左侧的"团队"，然后单击团队列表底部的"加入或创建团队"。
 
 2. 然后单击" **创建团队 (** 卡片，左上角显示) 。
 
@@ -85,7 +85,7 @@ ms.locfileid: "52064818"
 
 添加频道
 
-1. 在 Teams 中，找到刚创建的团队，单击"更多选项" (...) ，然后单击"添加 **频道"。**
+1. 在Teams中，找到刚创建的团队，单击"更多选项" (...) ，然后单击"添加 **频道"。**
 
 2. 键入频道的名称和说明，然后单击"添加 **"。**
 
@@ -94,13 +94,13 @@ ms.locfileid: "52064818"
 
 # <a name="step-2brresource-accounts"></a>[步骤 2 <br> 资源帐户](#tab/resource-account)
 
-创建的每个呼叫队列都需要一个资源帐户。 这类似于用户帐户，但该帐户与自动助理或呼叫队列（而不是人员）相关联。 在此步骤中，我们将创建帐户，为其分配 *Microsoft 365 电话系统 - 虚拟用户* 许可证，然后使用它开始创建呼叫队列。
+创建的每个呼叫队列都需要一个资源帐户。 这类似于用户帐户，但该帐户与自动助理或呼叫队列（而不是人员）相关联。 在此步骤中，我们将创建帐户，为其分配Microsoft 365 电话系统 - 虚拟 *用户* 许可证，然后使用它开始创建呼叫队列。
 
 ### <a name="create-a-resource-account"></a>创建资源帐户
 
-可以在 Teams 管理中心创建资源帐户。
+可以在管理中心内创建Teams帐户。
 
-1. 在 Teams 管理中心中，展开 **"组织范围的设置"，** 然后单击"**资源帐户"。**
+1. 在Teams管理中心，展开 **"组织范围的设置**"，然后单击"**资源帐户"。**
 
 2. 单击“**添加**”。
 
@@ -116,21 +116,21 @@ ms.locfileid: "52064818"
 
 ### <a name="assign-a-license"></a>分配许可证
 
-必须将 Microsoft *365 Phone System - 虚拟用户许可证* 分配给资源帐户。
+必须为资源帐户 *Microsoft 365 电话系统 - 虚拟* 用户许可证。
 
-1. 在 Microsoft 365 管理中心的" **活动** 用户"列表中，单击要为其分配许可证的资源帐户。
+1. 在Microsoft 365管理中心的"**活动** 用户"列表中，单击要为其分配许可证的资源帐户。
 
-2. 在"**许可证和应用"选项卡上的**"许可证 **"下**，选择 **"Microsoft 365 手机系统 - 虚拟用户"。**
+2. 在"**许可证和应用"选项卡上的**"许可证 **"下**，选择 **"Microsoft 365 电话系统 - 虚拟用户"。**
 
 3. 单击"**保存更改"。**
 
-    ![Microsoft 365 管理中心中分配许可证用户界面的屏幕截图](../media/resource-account-assign-virtual-user-license.png)
+    ![在管理中心内分配许可证Microsoft 365屏幕截图](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>创建呼叫队列
 
 接下来，我们将开始创建新的呼叫队列并分配资源帐户。
 
-1. 在 Teams 管理中心中，展开 **"语音"，** 单击"**呼叫队列**"，然后单击"添加 **"。**
+1. 在Teams中心，展开"**语音**"，单击"**呼叫队列**"，然后单击"添加 **"。**
 
 1. 键入呼叫队列的名称。
 
@@ -142,11 +142,11 @@ ms.locfileid: "52064818"
 
 4. 指定是否要在呼叫者到达队列时播放问候语。 必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。
 
-5. 当呼叫者在队列中保持时，Teams 会向呼叫者提供默认音乐。 如果要播放特定音频文件，请选择"播放音频文件 **"并** 上传 MP3、WAV 或 WMA 文件。
+5. Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特定音频文件，请选择"播放音频文件 **"并** 上传 MP3、WAV 或 WMA 文件。
 
    > [!NOTE]
    > 上传的录制内容不能大于 5 MB。
-   > Teams 呼叫队列中提供的默认音乐不收取组织支付的任何版权费。 
+   > 呼叫队列中提供的默认Teams不收取组织支付的任何版权费。 
 
 > [!div class="nextstepaction"]
 > [步骤 3 - 呼叫>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)

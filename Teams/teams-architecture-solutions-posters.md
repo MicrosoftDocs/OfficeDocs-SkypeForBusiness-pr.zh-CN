@@ -15,13 +15,13 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: 总结：了解 Microsoft 365 中生产力服务的逻辑体系结构，以 Microsoft Teams 为主导。 此外，了解用于 Teams 的语音解决方案。
-ms.openlocfilehash: ad67895e734b2fa9e9d0cdfd5ba2343d5caeb8d8
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+description: 总结：了解 Microsoft 365 中生产力服务的逻辑体系结构，以 Microsoft Teams 为主导。
+ms.openlocfilehash: b124a32cc2b0285f364d1211ea8d23eb2d6e64c2
+ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858026"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "52212155"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT 体系结构和语音解决方案海报
 
@@ -31,7 +31,7 @@ Teams 是 Microsoft 365 中生产力服务的逻辑体系结构的中心 - 包�
 
 此系列图示展示了企业架构师生产力服务的逻辑体系结构，以 Teams 为主导。
 
-[![Teams 逻辑体系结构海报缩略图](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf)  <br/>[PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) | [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx)
+[![Teams 逻辑体系结构海报缩略图](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
 
 
 ## <a name="groups-in-microsoft-365"></a>Microsoft 365 中的组
@@ -42,7 +42,7 @@ Teams 是 Microsoft 365 中生产力服务的逻辑体系结构的中心 - 包�
 
 ## <a name="microsoft-voice-solutions"></a>Microsoft 语音解决方案
 
-当你开始在 Microsoft 云中使用 Teams 时，Microsoft 支持多种选项。 此海报可帮助你确定哪种 Microsoft 语音解决方案（云端的电话系统或本地企业语音）适合你组织中的用户，以及你的组织如何连接到公用电话交换网 (PSTN)。
+此海报可帮助你确定哪种 Microsoft 语音解决方案（云端的电话系统或本地企业语音）适合你组织中的用户，以及你的组织如何连接到公用电话交换网 (PSTN)。
 
 [![Microsoft 语音服务解决方案海报缩略图](media/microsoft-telephony-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br/>
 [PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) | [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx)

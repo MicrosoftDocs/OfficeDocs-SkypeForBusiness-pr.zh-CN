@@ -1,5 +1,5 @@
 ---
-title: 为 Skype for business 设置音频会议
+title: 为会议设置音频Skype for Business
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,18 +23,20 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: bfd9c9ec31736b0f7fc16f15a907c87406113871
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: ce5d80b8be0fe2e6983229be8185bcdf02e06ab6
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163941"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237638"
 ---
-# <a name="set-up-audio-conferencing-for-skype-for-business"></a>为 Skype for business 设置音频会议
+# <a name="set-up-audio-conferencing-for-skype-for-business"></a>为会议设置音频Skype for Business
 
-您的组织中的人员有时需要使用电话拨入会议。Skype for business 仅为这种情况提供音频会议功能！用户可以使用手机与 Skype for business 会议通话，而不是在移动设备或电脑上使用 Skype for business 应用。 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+有时，组织中的人员需要使用电话拨入会议。 Skype for Business音频会议功能， 用户可以通过电话Skype for Business呼叫参加会议，而不是在Skype for Business或电脑上使用会议应用。 
   
-You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
+你只需为打算安排或主持会议的人设置音频会议。 拨入会议与会者不需要分配给他们或其他安装程序的许可证。
   
 有关音频会议的常见问题，请参阅 [音频会议的常见问题](/MicrosoftTeams/audio-conferencing-common-questions) 。
 
@@ -45,12 +47,12 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
  
 ## <a name="step-2-get-and-assign-licenses"></a>第 2 步：获取和分配许可证
  
-1. 对于音频会议，需要将设置拨入式会议的每个用户都拥有一个许可证。若要了解需要购买哪些许可证才能购买音频会议和费用，请参阅[Skype for business 附加许可](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+1. 针对音频会议，需要为将设置电话拨入式会议的每个用户购买一个许可证。 若要了解需要为音频会议购买哪些许可证及其费用，请参阅Skype for Business[许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
     >[!NOTE] 
     > Office 365 企业版 E5 许可证中包含音频会议，并用作加载项。
         
-2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅为您购买的适用于您的组织中要安排或领导会议的人员[分配或删除适用于企业的 Microsoft 365 应用的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅[为组织中计划或Microsoft 365 商业应用版](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)的人分配或删除您购买的许可证。
     
 3. 我们还建议你将通信点数许可证（它们不值什么钱）分配给你在上一步骤中分配到许可证的相同人员。 若要了解如何设置通信点数，请参阅[为你的组织设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)。
     
@@ -62,11 +64,11 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
 针对音频会议，你不能使用用户电话号码；你需要获取服务号码。 你可以获取会议网桥的收费或免费电话服务号码。 有三种获取收费和免费电话服务号码的方法： 
   
-- **使用 Skype For business 管理中心**。 对于某些国家/地区，您可以使用 Skype for Business 管理中心获取您的会议桥的服务号码。 参见[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+- **使用 Skype for Business管理中心**。 对于一些国家/地区，可以使用会议管理中心获取Skype for Business号码。 参见[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。
     
-- **转网现有服务号码**。 将当前服务提供商或电话运营商的现有号码移植或转移到 Microsoft 365 或 Office 365。 有关详细信息，请参阅[将电话号码转移到 Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)，从而帮助你执行此操作。  
+- **转网现有服务号码**。 将现有号码从当前服务提供商或电话运营商转Microsoft 365或Office 365。 有关详细信息，请参阅[将电话号码转移到 Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)，从而帮助你执行此操作。  
   
-- **使用新号码的请求表单**。 有时（取决于您所在的国家/地区）您将无法使用 Skype for Business 管理中心获取新的服务号码，或者您需要特定的电话号码或区号。 如果是这样，则需下载表单并将其发回给我们。 有关详细信息，请参阅[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。 
+- **使用新号码的请求表单**。 有时 (你的国家/地区) 你将无法使用 Skype for Business 管理中心获取新服务号码，或者你需要特定的电话号码或区号。 如果是这样，则需下载表单并将其发回给我们。 有关详细信息，请参阅[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。 
     
 ## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>第 4 步：将服务号码分配给会议网桥
 <a name="__top"> </a>
@@ -81,23 +83,23 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
  2. 选择“**语音**” > “**电话号码**”。
  3. 选择电话号码，然后单击“**分配**”。
 
-有关更多详细信息，请参阅[在音频会议网桥上更改电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
+有关详细信息，请参阅 [更改音频会议网桥上的电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
 
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>第 5 步：设置会议网桥的默认和备用语言
 <a name="__top"> </a>
 
-接下来，你希望为会议自动助理在拨入到音频会议的电话号码时使用的[音频会议设置自动助理语言](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)问候呼叫者。 
+接下来，你想要为音频[](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)会议设置自动助理语言，会议自动助理在呼叫者拨入音频会议的电话号码时，使用这些语言问候呼叫者。 
 
 ![显示 Microsoft Teams 徽标的图标](../images/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
 
-1. 从仪表板中，转到**会议** > **会议网桥**。
+1. 从仪表板中，转到 **会议** > **会议网桥**。
 2. 选择会议网桥电话号码，单击“**编辑**”，然后选择默认语言。
 
-![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标：
+![一个图标，显示Skype for Business ](../images/sfb-logo-30x30.png) **徽标使用Skype for Business管理中心：**
 
-1. 转到管理中心**团队** >  >  **> "管理中心"** 团队 "**旧版门户**"。
-2. 选择 "**音频会议** > "**Microsoft 网桥**。 
-3. 选择 "会议桥接电话号码"，选择 "**设置语言**"，然后选择默认语言。
+1. 转到管理中心>**管理Teams**  >    >  **旧门户 。**
+2. 选择 **"音频会议**  >  **""Microsoft 网桥"。** 
+3. 选择会议网桥电话号码，选择 **"设置语言**"，然后选择默认语言。
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>第 6 步：设置你的会议网桥设置
 <a name="__top"> </a>
@@ -106,15 +108,15 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
 ![显示 Microsoft Teams 徽标的图标](../images/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
 
-1. 从仪表板中，转到**会议** > **会议网桥**。
-2. 选择“**网桥设置**”。 这将打开**网桥设置**窗格。 
+1. 从仪表板中，转到 **会议** > **会议网桥**。
+2. 选择“**网桥设置**”。 这将打开 **网桥设置** 窗格。 
 
 有关详细信息，请参阅[更改音频会议网桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)。
 
 ![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心：**
 
 1. 转到 **Microsoft 365 管理中心** > **管理中心** > **Teams** > **旧版门户**。
-2. 选择 "**音频会议** > "**Microsoft bridge 设置**。 这将打开 **Microsoft 网桥设置** 页。 
+2. 选择 **"音频会议**  >  **""Microsoft 网桥设置"。** 这将打开 **Microsoft 网桥设置** 页。 
 
 有关详细信息，请参阅[更改音频会议网桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)。
 
@@ -131,8 +133,8 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
 ![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心：**
 
-1. 转到**Microsoft 365 管理中心** > **团队** > "**旧版门户**"。
-2. 选择 "**音频会议** > **用户**"，然后从列表中选择用户，然后单击 "**编辑**"。 
+1. 转到旧版 **门户 Microsoft 365管理**  >  **Teams**  >  **中心。**
+2. 选择 **"音频会议**  >  **用户**"，然后从列表中选择用户，然后单击"编辑 **"。** 
 
 如果需要更多详细信息，请参阅[将 Microsoft 指定为音频会议提供商](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)。
 

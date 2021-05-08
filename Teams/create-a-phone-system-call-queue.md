@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 创建呼叫队列
+title: 在 Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: 了解如何使用 Microsoft Teams 为呼叫队列设置电话系统，它提供问候消息、保存音乐、呼叫重定向和其他功能。
+description: 了解如何使用 电话系统为呼叫队列设置Microsoft Teams，它提供问候消息、保存音乐、呼叫重定向和其他功能。
 ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
 ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
@@ -39,19 +39,19 @@ ms.locfileid: "52064798"
 
 - 问候消息。
 
-- 音乐等待队列中等待时，
+- 音乐在等待队列中等待时，
 
 - 调用路由 - 在 *"先* 到先出" (FIFO) 顺序 - 到代理。
 
 - 处理队列溢出和超时的选项。
 
-在按照本文中的步骤操作之前，请确保已阅读[规划 Teams 自动](plan-auto-attendant-call-queue.md)助理[](plan-auto-attendant-call-queue.md#getting-started)和呼叫队列，并按照入门步骤操作。
+请确保已阅读自动[助理Teams](plan-auto-attendant-call-queue.md)呼叫队列的计划，并按照入门步骤操作，然后按照本文中的[](plan-auto-attendant-call-queue.md#getting-started)步骤操作。
 
-若要设置呼叫队列，请在 Teams 管理中心展开"语音"，单击"**呼叫队列**"，然后单击"添加 **"。**
+要设置呼叫队列，请在Teams中心展开 **"** 语音"，单击"呼叫 **队列**"，然后单击"添加 **"。**
 
 ## <a name="video-demonstration"></a>视频演示
 
-此视频展示了如何在 Teams 中创建呼叫队列的基本示例。
+此视频演示了如何在呼叫队列中创建呼叫队列的基本Teams。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
@@ -69,11 +69,11 @@ ms.locfileid: "52064798"
 
 指定是否要在呼叫者到达队列时播放问候语。 必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。
 
-当呼叫者在队列中保持时，Teams 会向呼叫者提供默认音乐。 如果要播放特定音频文件，请选择"播放音频文件 **"并** 上传 MP3、WAV 或 WMA 文件。
+Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特定音频文件，请选择"播放音频文件 **"并** 上传 MP3、WAV 或 WMA 文件。
 
 > [!NOTE]
 > 上传的录制内容不能大于 5 MB。
-> Teams 呼叫队列中提供的默认音乐不收取组织支付的任何版权费。 
+> 呼叫队列中提供的默认Teams不收取组织支付的任何版权费。 
 
 ## <a name="call-agents"></a>呼叫代理
 
@@ -81,15 +81,15 @@ ms.locfileid: "52064798"
 
 ![呼叫队列的用户和组设置的屏幕截图](media/call-queue-users-groups.png)
 
-##### <a name="teams-channel"></a>Teams 频道
+##### <a name="teams-channel"></a>Teams频道
 
-可以通过 Teams 频道最多添加 200 个代理。
+可以通过一个客户端通道添加多达 200 Teams代理。
 
-如果要使用 [Teams 频道管理](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)队列，请选择"**选择团队"选项，** 然后单击"**添加频道"。** 搜索想要使用的团队，将其选中，然后单击"添加 **"。** 选择想要使用的频道，然后单击"应用 **"。**
+如果要使用 [频道管理Teams，](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)请选择"**选择团队"选项，** 然后单击"**添加频道"。** 搜索想要使用的团队，将其选中，然后单击"添加 **"。** 选择想要使用的频道，然后单击"应用 **"。**
 
-将 Teams 频道用于呼叫队列时，支持以下客户端： 
+使用呼叫队列的 Teams支持以下客户端： 
 
-  - Microsoft Teams Windows 客户端
+  - Microsoft Teams Windows客户端
   - Microsoft Teams Mac 客户端
 
 ##### <a name="users-and-groups"></a>用户和组
@@ -100,7 +100,7 @@ ms.locfileid: "52064798"
 
 若要将用户添加到队列，请单击"**添加** 用户"，搜索该用户，单击"添加 **"，然后单击**"添加 **"。**
 
-若要将组添加到队列，请单击 **"添加组**"，搜索该组，单击"添加 **"，然后单击**"添加 **"。** 可以使用通讯组列表、安全组和 Microsoft 365 组或 Microsoft Teams 团队。
+若要将组添加到队列，请单击 **"添加组**"，搜索该组，单击"添加 **"，然后单击**"添加 **"。** 可以使用通讯组列表、安全组和Microsoft 365组Microsoft Teams团队。
 
 > [!NOTE]
 > 添加到组的新用户可能需要最多八个小时才能进行第一次呼叫。
@@ -111,10 +111,10 @@ ms.locfileid: "52064798"
 
 **在** 代理接受呼叫后，会议模式可显著减少呼叫者连接到代理所花的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
 
-  - 最新版本的 Microsoft Teams 桌面客户端、Android 应用或 iOS 应用
-  - Microsoft Teams 手机版本 1449/1.0.94.2020051601 或更高版本
+  - 最新版本的桌面Microsoft Teams Android 应用或 iOS 应用
+  - Microsoft Teams 1449/1.0.94.2020051601 或更高版本
   
-代理的 Teams 帐户需要设置为仅 Teams 模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理都使用兼容的客户端，建议为呼叫队列启用会议模式。
+代理Teams帐户需要设置为Teams模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理都使用兼容的客户端，建议为呼叫队列启用会议模式。
 
 > [!NOTE]
 > 如果电话呼叫从为"基于位置的路由"启用的直接路由网关路由到队列，则不支持会议模式。
@@ -139,7 +139,7 @@ ms.locfileid: "52064798"
 如果代理选择不接听呼叫，则无论其可用性状态设置为什么，它们将不会包含在呼叫路由列表中。 
 
 > [!NOTE]
-> 启用基于状态的路由时，使用 Skype for Business 客户端的代理不包括在呼叫路由列表中。 如果你有使用 Skype for Business 的代理，请不要启用基于状态的电话路由。
+> 启用基于Skype for Business路由时，使用客户端的代理不会包含在呼叫路由列表中。 如果代理使用 Skype for Business，请不要启用基于状态的呼叫路由。
 
 **代理警报** 时间指定在队列将呼叫重定向到下一个代理之前，代理的电话将响铃的时间。
 
@@ -176,27 +176,27 @@ ms.locfileid: "52064798"
 
 ## <a name="caller-id-for-outbound-calls"></a>出站呼叫的来电显示
 
-由于呼叫队列中的代理可能会拨出以返回客户呼叫，因此请考虑将呼叫队列成员的呼叫者 ID 设置为相应自动助理的服务号码。 有关详细信息 [，请参阅在 Microsoft Teams 中](caller-id-policies.md) 管理来电显示策略。
+由于呼叫队列中的代理可能会拨出以返回客户呼叫，因此请考虑将呼叫队列成员的呼叫者 ID 设置为相应自动助理的服务号码。 有关详细信息[，请参阅管理](caller-id-policies.md)Microsoft Teams 中的来电显示策略。
 
 ## <a name="supported-clients"></a>支持的客户端
 
 呼叫队列中的呼叫代理支持以下客户端：
 
-  - Skype for Business 桌面客户端 2016 (32 位和 64 位版本) 
+  - Skype for Business桌面客户端 2016 (32 位和 64 位版本) 
   - Lync 桌面客户端 2013 (32 位和 64 位版本) 
-  - Microsoft Teams 支持的所有 IP 电话模型。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
+  - 支持所有 IP 电话型号Microsoft Teams。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
   - Mac Skype for Business 客户端（版本 16.8.196 及更高版本）
   - Android Skype for Business 客户端（版本 6.16.0.9 及更高版本）
   - iPhone Skype for Business 客户端（版本 6.16.0 及更高版本）
   - iPad Skype for Business 客户端（版本 6.16.0 及更高版本）
-  - Microsoft Teams Windows 客户端 (32 位和 64 位版本) 
+  - Microsoft Teams Windows客户端 (32 位和 64 位) 
   - Microsoft Teams Mac 客户端
-  - Microsoft Teams on [虚拟化桌面基础结构](/microsoftteams/teams-for-vdi) (Windows 虚拟桌面、Citrix 和 VMware) 
+  - Microsoft Teams[虚拟桌面、Citrix](/microsoftteams/teams-for-vdi)和 VMware (Windows虚拟桌面基础结构) 
   - Microsoft Teams iPhone 应用
   - Microsoft Teams Android 应用
 
     > [!NOTE]
-    > 分配有直接路由号码的呼叫队列不支持作为代理的 Skype for Business 客户端、Lync 客户端或 Skype for Business IP 电话。
+    > 分配有直接路由号码的呼叫队列不支持将 Skype for Business、Lync 客户端或 Skype for Business IP 电话作为代理。
 
 ## <a name="call-queue-cmdlets"></a>呼叫队列 cmdlet
 
