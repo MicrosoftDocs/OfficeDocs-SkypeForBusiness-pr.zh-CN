@@ -17,21 +17,23 @@ search.appverid: MET150
 description: 了解如何将现有电话号码从当前提供商移动到 Microsoft 365 商务语音。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e950e9e3bf18664a6a877c31e253ce66753a6076
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 26f686197963f53f20477ccd9a16935c86a16d9f
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130261"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282609"
 ---
-# <a name="move-port-phone-numbers-to-business-voice"></a>将电话号码移动（转移）到商务语音
+# <a name="step-7-port-phone-numbers-to-business-voice-optional"></a>步骤 7：将电话号码端口为业务语音（可选）
 
 > [!IMPORTANT]
 > 本文中的信息仅适用于 **包含** 通话套餐的商务语音。 含通话套餐的商业语音仅在所选国家和地区可用。 阅读本文前，请查看[商务语音的国家和地区可用性](country-region-availability.md)，查看你所在的国家或地区是否支持使用包含通话套餐的商务语音。
 >
 > 如果你的租户所在的国家或地区不支持含通话套餐的商务语音，请查看[从 Microsoft 经销商或合作伙伴处获取帮助](reseller-partner-support.md)。
 
-首次设置商务语音时，将获得公司主要电话线路的电话号码以由你分配了商务语音许可证的所有用户的电话号码。 如果你希望在移动到商务语音时保留已有的电话号码，则可以使用称为“携号转网”的过程将电话号码携转到商务语音。 将电话号码转到商务语音后，即可将这些号码分配给用户和业务部门。 旧号码将替换设置业务语音时获取的临时号码。
+在此设置指南之前，你获取公司主要行和已分配了企业语音许可证的任何用户的电话号码。 **如果你是新企业，且没有任何想要引入 Business Voice 的现有电话号码，可以跳过此步骤。**
+
+如果你希望在移动到商务语音时保留已有的电话号码，则可以使用称为“携号转网”的过程将电话号码携转到商务语音。 将电话号码转到商务语音后，即可将这些号码分配给用户和业务部门。 旧数字将替换你在此设置指南中早期获取的临时数字。
 
 在将号码转到商务语音之前，请查看[转移电话号码常见问题](../phone-number-calling-plans/port-order-overview.md)。 这篇文章介绍了一些问题的解答，包括受支持的国家和地区、可以转移和无法转移的号码、你需要的信息。
 
@@ -49,3 +51,6 @@ ms.locfileid: "52130261"
 有关加拿大和美国电话号码的帮助，请将请求发送到 [ptn@microsoft.com](mailto:ptn@microsoft.com)。
 
 有关欧洲电话号码的帮助，请将请求发送到 [ptneu@microsoft.com](mailto:ptneu@microsoft.com)。
+
+> [!div class="nextstepaction"]
+> [下一步：完成业务语音设置](set-up-finish.md)

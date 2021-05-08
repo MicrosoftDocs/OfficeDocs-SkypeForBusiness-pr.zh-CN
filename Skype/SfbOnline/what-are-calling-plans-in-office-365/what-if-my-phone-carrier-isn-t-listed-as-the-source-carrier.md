@@ -1,5 +1,5 @@
 ---
-title: 如果我的电话运营商未列为源运营商，该怎么办？
+title: 如果我的电话运营商未列为源运营商，该做什么？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,23 +21,25 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
-description: '如果您的运营商未在 Skype for Business 中列出，请了解如何操作。 '
-ms.openlocfilehash: a8349e1bedbfbb43310debbd0fdec8414b43fbdd
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '了解如果你的运营商未列在Skype for Business。 '
+ms.openlocfilehash: 4354cb05aa28b09931f8f2524de2f01c6ef57f3f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769285"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237968"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的电话运营商未列为源运营商，该怎么办？
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的电话运营商未列为源运营商，该做什么？
 
-当您看到您的运营商的名称未列出时，这一点很混乱。 在大多数情况下，如果服务提供商或运营商不同，则你要转移的电话号码可能由不同的服务提供商或运营商拥有。 可能会存在列出的服务提供商或运营商可能与当前服务提供商不一致的情况，因为当前服务提供商可能正在与第三方服务提供商合作。 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+当你看到运营商的名称未列出时，这有点令人困惑。 在大多数情况下，如果服务提供商或运营商不同，则你转移的电话号码可能由不同的服务提供商或运营商拥有。 有时列出的服务提供商或运营商可能不同于当前服务提供商，因为当前服务提供商可能正在与第三方服务提供商合作。 
   
-一个示例：
+示例：
   
-- 如果您将 Skype for Business 中的号码作为运营商进行移植，您可能会看到 "按级别3列出"。
+- 如果要将号码从运营商Skype for Business，可能会看到"Level3"已列出。
     
-  **有关完整的分步说明，请参阅[将电话号码转移给团队](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。**
+  **有关完整的分步说明，请参阅 [将电话号码转移到 Teams。](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
 
     > [!NOTE]
     > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

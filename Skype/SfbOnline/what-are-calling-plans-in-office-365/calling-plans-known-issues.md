@@ -18,26 +18,28 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 了解 PSTN 呼叫的通话计划的已知问题以及你可以执行的操作。
-ms.openlocfilehash: 3a97057f61c154ded83b85becbfcf53dc2b4bc78
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: 了解 PSTN 呼叫的呼叫计划的已知问题，以及您可以如何解决这些问题。
+ms.openlocfilehash: 9c660ee3b173f104e26816460db45c5bcf400837
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220732"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238018"
 ---
 # <a name="calling-plans-known-issues"></a>通话套餐已知问题
 
-通话计划是 Skype for Business Online 中发现的一项新功能。以下是当前正在跟踪和主动调查的问题。在将来的内部版本中更新该功能时，它们可能会得到解决。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+呼叫计划是联机通话中的Skype for Business功能。 以下是当前正在跟踪并积极调查的问题。 在将来的生成中更新功能时，它们可能会得到解决。
   
 ## <a name="calling-plans-known-issues"></a>通话套餐已知问题
 
 |**已知问题**|**注释**|
 |:-----|:-----|
-|从技术预览许可证转换到用于通话计划的生产许可证不会自动更新许可证。  <br/> |请首先购买新的许可证，以便准备好将它们分配给你的用户。 删除用户的促销（技术预览版）许可证，然后**立即**将新的**国内呼叫计划**和/或**国内和国际呼叫计划**许可证分配给用户。 <br/> 如果要为多个用户删除和添加许可证，则应使用 Windows PowerShell 删除所有用户的许可证，然后再使用 Windows PowerShell **立即** 为所有用户分配许可证，这一点非常重要。 这样做可确保在处理大量用户许可证分配时，服务不会中断。 有关 PowerShell 脚本示例，请参阅[分配 Skype For business 和 Microsoft 团队许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。  <br/> **注意：** 如果您使用的是混合用户的本地 PSTN 连接，则*只*需分配**电话系统**许可证。 您还**不**应分配语音呼叫计划。 但是，如果在 Microsoft 365 或 Office 365 中为 Microsoft 365 或 Office 365 中的用户启用呼叫计划，则仍需为这些用户分配**国内呼叫计划**或**国内和国际呼叫计划**许可证。 请参阅[分配 Skype For business 和 Microsoft 团队许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+|从技术预览版许可证过渡到调用计划的生产许可证不会自动更新许可证。  <br/> |请首先购买新的许可证，以便准备好将它们分配给你的用户。 从用户中删除 (技术预览版) 许可证，然后立即向该用户分配新的国内呼叫计划和/或国内和国际呼叫计划许可证。  <br/> 如果要为多个用户删除和添加许可证，则应使用 Windows PowerShell 删除所有用户的许可证，然后再使用 Windows PowerShell **立即** 为所有用户分配许可证，这一点非常重要。 这样做可确保在处理大量用户许可证分配时，服务不会中断。 有关示例 PowerShell 脚本，请参阅[分配Skype for Business和Microsoft Teams许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。  <br/> **注意：** 如果为混合用户使用本地 PSTN *连接，则* 只需 **分配一个** 电话系统许可证。 你 **不应分配** 语音呼叫计划。 但是，如果在 Microsoft 365 或 Office 365 中为 Microsoft 365 或 Office 365 中的用户启用呼叫计划，你仍然需要为这些用户分配国内呼叫计划或国内和国际呼叫计划许可证。  请参阅[分配Skype for Business许可证Microsoft Teams许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
 > [!NOTE]
-> 如果您需要获得比这更多的电话号码，请[联系客户支持部门-管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
+> 如果需要获取的电话号码超过此数目，请联系商业产品支持 [人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
    
 ## <a name="related-topics"></a>相关主题
 [关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)

@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 使用 Advisor for Teams 帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093762"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240547"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
-Advisor for Teams 为你提供 Microsoft Teams 推出的分步指导。 它评估 Microsoft 365 组织环境，并确定成功推出 Teams 前可能需要更新或修改的最常见配置。 然后，Advisor for Teams 会创建一个部署团队（在 Teams 中），你要推出的每个工作负载都有对应的频道。部署团队中的每个工作负载都有一个综合 Planner 计划，其中包括每个工作负载的所有推出任务。  使用此 Planner 计划将任务分配给负责推出的每个阶段的人员 - 包括项目经理、Teams 服务管理员、支持人员以及你的采用和用户就绪性团队。 每个推出任务包含成功完成任务所需的所有指南和资源。
+Advisor for Teams 为你提供 Microsoft Teams 推出的分步指导。 它评估 Microsoft 365 组织环境，并确定成功推出 Teams 前可能需要更新或修改的最常见配置。 然后，Advisor for Teams 会创建一个部署团队（在 Teams 中），你要推出的每个工作负载都有对应的频道。部署团队中的每个工作负载都有一个综合 Planner 计划，其中包括每个工作负载的所有推出任务。  如果使用此 Planner 计划，则将任务分配给负责推出的每个阶段的人员 - 包括项目经理、Teams 服务管理员、支持人员以及你的采用和用户准备团队。 每个推出任务包含成功完成任务所需的所有指南和资源。
 
 Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的一部分。 至少必须有 Microsoft 365 商业基础版许可证，才能利用 Advisor for Teams 与 Forms 和 Planner 的集成。 若要开始使用 Teams 顾问，请在仪表板上的“**部署 Teams 工作负载**”小组件中单击“**启动**”按钮。 或者转到“**计划**” > “**Teams 顾问**”。
 
@@ -41,7 +41,7 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 
 ## <a name="using-advisor-for-teams"></a>使用 Advisor for Teams
 
-**必须要有 Teams、Forms 和 Planner 许可证才能使用 Teams 顾问。** 但是，要使用 Teams 顾问，不需要是 Teams 管理员 - 组织中的任何人都可使用它。 我们设置了特殊权限，使非管理员用户可以使用 Advisor for Teams，即使它位于团队管理中心，也是如此。 只有 Teams 管理员、Teams 服务管理员或全局管理员才能打开租户就绪性评估（这是因为特殊的非管理员角色无法访问位于评估底层的 Microsoft Graph API）。
+**必须要有 Teams、Forms 和 Planner 许可证才能使用 Teams 顾问。** 但是，要使用 Teams 顾问，不需要是 Teams 管理员 - 组织中的任何人都可使用它。 我们设置了特殊权限，使非管理员用户可以使用 Advisor for Teams，即使它位于团队管理中心，也是如此。 若要打开租户准备情况评估，你必须是 Teams 管理员、Teams 服务管理员或全局管理员（这是因为特殊的非管理员角色无法访问位于评估底层的 Microsoft Graph API）。
 
 > [!IMPORTANT]
 > 如果 Teams 管理中心的“**计划**”下没有“**Teams 顾问**”，则意味着用户未获得 Teams 许可。
@@ -136,7 +136,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 >
 
 > [!IMPORTANT]
-> Advisor for Teams 机器人仅用于向部署团队发送欢迎消息。 不会收集额外的数据。
+> Teams 顾问机器人仅用于向部署团队发送欢迎消息，而不收集任何额外信息。
 
 > [!IMPORTANT]
 > 默认情况下会启用 Teams 顾问机器人。 如果你使用或计划使用 Teams 顾问，请不要将其禁用。
@@ -206,7 +206,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 
 自定义你的网站并整理学习计划后，请考虑如何提高用户的认知，鼓励他们使用学习途径进行持续学习。
 
-使用你的通信频道推广网站并提高认知。 例如，在与你的用户进行交流时，请加入标准标语，例如“查看我们的培训和支持网站，了解如何通过 Teams 提高工作效率”。
+使用通信频道以推广网站并生成认知。例如，在与用户的交流中加入标准的标语，如“查看我们的培训和支持网站，以了解如何通过 Teams 提高工作效率”。
 
 通过强调用户可以在 Teams 中协作的方式来吸引用户，然后引导他们进入学习路径网站以了解如何操作。
 
@@ -252,7 +252,7 @@ Advisor for Teams 请求你同意收集非 EUII（最终用户标识信息）。
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>能否将 Teams 顾问与 FastTrack 配合使用
 
-可以，针对希望部署 Teams 的所有客户，FastTrack 会利用 Advisor for Teams。 他们可以使用 Advisor for Teams（如果需要）协助部署团队进行初始设置，并在 Teams 推出期间根据需要就特定主题提供支持。
+可以，FastTrack 利用 Teams 顾问来帮助所有希望部署 Teams 的用户。他们可以使用 Teams 顾问协助部署团队进行初始安装（如果需要），还可在推出 Teams 期间根据需要提供关于特定主题的支持。
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>能否在与合作伙伴协作的过程中使用 Teams 顾问
 

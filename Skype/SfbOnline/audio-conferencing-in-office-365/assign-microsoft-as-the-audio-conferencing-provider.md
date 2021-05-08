@@ -22,29 +22,31 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: b0276b0f5ed50e3c287bc872de45d6c1c4c69157
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 74469a7686855d1bb17627282a9f2e5378a0d59e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110038"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237758"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>将 Microsoft 指定为音频会议提供商
 
-若要将 Microsoft 365 或 Office 365 中的音频会议与 Skype for Business 和 Microsoft Teams 一同使用，组织中用户需要为其分配音频会议许可证。 请参阅 [在 Microsoft 365 或 Office 365](try-or-purchase-audio-conferencing-in-office-365.md) 中试用或购买音频会议，获取有关许可及其费用详细信息。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Microsoft 音频会议提供电话拨入电话号码、PIN 和会议 ID，与会者可时用其加入你所在组织的会议。 你只需将 Microsoft 作为音频会议提供商分配给计划或领导 Skype for Business 或 Microsoft Teams 会议的人员。
+要通过 Microsoft 365 或 Office 365 Skype for Business Microsoft Teams 使用音频会议，组织中用户需要为其分配音频会议许可证。 有关[许可及其费用](try-or-purchase-audio-conferencing-in-office-365.md)Microsoft 365，Office 365试用或购买音频会议。
+
+Microsoft 音频会议提供电话拨入电话号码、PIN 和会议 ID，与会者可时用其加入你所在组织的会议。 你只需将 Microsoft 作为音频会议提供商分配给要安排或Skype for Business或Microsoft Teams会议。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>将 Microsoft 指定为音频会议提供商
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) 使用 Skype for Business 管理中心
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![一个图标，显示Skype for Business徽标](../images/sfb-logo-30x30.png) 使用 Skype for Business 管理中心
 
-1. 转到 **Microsoft Teams 管理中心旧**  >  **门户**。
+1. 转到管理 **Microsoft Teams**  >  **旧版门户**。
     
-2. 在 **Skype for Business 管理中心的** 左侧导航中，转到"**音频会议"。**
+2. 在 **Skype for Business管理中心的** 左侧导航中，转到"**音频会议"。**
     
 3. 如果看到横幅通知你有用户已被分配了 **音频会议** 许可证但是还没有将 Microsoft 设置为他们的音频会议提供商，请单击 **单击此处移动他们**。 如果没有看到横幅，请在 **Skype for Business 管理中心** 单击 **用户**，然后选择 **已准备好移动到音频会议的用户** 筛选器。
     
@@ -196,5 +198,5 @@ Script.ps1 -CsvFile <Path of the csv file>
 有关使用 Windows PowerShell 的详细信息，请参阅[使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 ## <a name="related-topics"></a>相关主题
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
+[尝试或购买音频会议Microsoft 365或Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
 [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

@@ -21,19 +21,21 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
-description: 地址验证是设置通话计划的重要部分。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: fbe6102069147d4de71d090f4820b53c392ac00e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: 地址验证是设置呼叫计划的重要部分。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
+ms.openlocfilehash: be266289f3f4eae6739280165b2e309d0e82e44b
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220682"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237918"
 ---
 # <a name="why-has-number-activation-failed"></a>为什么号码激活失败？
-地址验证是设置通话计划的重要部分。 如果由于某些原因由于地址验证而未激活电话号码，你将需要创建服务请求。 你执行此操作的方式基于你的组织规模。
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+地址验证是设置呼叫计划的重要部分。 如果由于某种原因，由于地址验证而未激活电话号码，则需要创建服务请求。 你执行此操作的方式基于你的组织规模。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>对于人数为 150 人或更少的组织，请遵循下列步骤
-1. 在管理中心，选择 "**需要帮助**？"
+1. 在管理中心中，选择"**需要帮助？"**
 2. 在“**需要帮助?**”窗格中，告诉我们你需要什么帮助，然后选择“**获取帮助**”。
 3. 如果“**查看解决方案**”部分中的结果没有帮助，请选择下列选项之一：
     - **允许我们呼叫你(建议)**：确认你的联系号码，然后按“**呼叫我**”。 “**需要帮助?**”窗格中会显示回拨的预期等待时间。
@@ -41,9 +43,9 @@ ms.locfileid: "44220682"
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>对于人数超过 150 人的组织，创建验证紧急地址的服务请求
 
-1. 使用你的工作或学校帐户以管理员身份登录 Microsoft 365 或 Office 365。
+1. 以管理员登录，Microsoft 365 Office 365或学校帐户登录。
     
-2. 在管理中心的左侧导航中，单击 "**支持**  >  **新服务请求**"。
+2. 在管理中心的左侧导航栏中，单击"**支持**  >  **新服务请求"。**
     
 3. 在“**服务请求**”下，单击“**添加**”。
     
@@ -68,11 +70,11 @@ ms.locfileid: "44220682"
       - 国家或地区
     
      > [!IMPORTANT]
-     > **将您在分配电话号码时尝试验证紧急地址的电话计划放在该国家/地区。**
+     > **输入我们提供呼叫计划的国家/地区，当你分配电话号码时，你将尝试验证紧急地址。**
   
       - 邮政编码
     
-6. 单击**下一个**页面，然后单击“**是，继续**”以继续。
+6. 单击 **下一个** 页面，然后单击“**是，继续**”以继续。
     
 7. 在“**添加详细信息**”页面上，选择和输入以下信息：
     
@@ -80,11 +82,11 @@ ms.locfileid: "44220682"
     
    - **有多少用户受到影响?** 选择“**部分用户**”。
     
-   - **输入受此问题影响的用户的电子邮件地址**或保留为空。
+   - **输入受此问题影响的用户的电子邮件地址** 或保留为空。
     
    - **选择要列出的域**
     
-   - 如果你有多个需要验证的地址，请**附加文件**。
+   - 如果你有多个需要验证的地址，请 **附加文件**。
     
    - 单击“**下一步**”。
     
@@ -93,7 +95,7 @@ ms.locfileid: "44220682"
 8. 检查信息，然后单击“**提交请求**”。
     
 > [!TIP]
-> 参考编号将在 Microsoft 365 管理中心的 "**服务请求**" 页面上列出。
+> 参考编号将在管理中心的"服务请求"页上Microsoft 365列出。
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

@@ -1,5 +1,5 @@
 ---
-title: 为什么我在输入英国时遇到问题 地址信息？
+title: 为何在输入英国时遇到问题 地址信息？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,91 +21,93 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
-description: 下面是当您的地址或地址无法在英国（英国）正确验证时遇到问题的一些原因。
-ms.openlocfilehash: ac8a5382d508d683f0467dd77742f19999628976
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 下面一些原因可能导致你无法在英国或英国或英国正确验证 (地址) 。
+ms.openlocfilehash: 7751f2b23ecb15140fc5ff67aa3ede90fadfaf06
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769155"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237928"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么我在输入英国时遇到问题 地址信息？
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>为何在输入英国时遇到问题 地址信息？
 
-下面是当您的地址或地址无法在英国（英国）正确验证时遇到问题的一些原因。
-  
-## <a name="whats-wrong-with-the-company-name"></a>公司名称有什么问题？
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-如果您在输入公司名称时遇到问题，请记住：
+下面一些原因可能导致你无法在英国或英国或英国正确验证 (地址) 。
   
-- 它可以包含字母、数字和下列特殊字符：，/-+。 ' &amp; " _ 
+## <a name="whats-wrong-with-the-company-name"></a>公司名称出了什么问题？
+
+如果在输入公司名称时遇到问题，请记住：
+  
+- 它可以包含字母、数字和以下特殊字符：、 / - + 。 ' &amp; " _ 
     
     > [!CAUTION]
-    > 在英国（英国），公司名称不能有 + 号。 
+    > 在英国 (英国) ，公司名称不能有 + 号。 
   
-- 它必须是80个字符或更少。
+- 必须少于 80 个字符。
     
-- 它不能以特殊字符开头。
+- 不能以特殊字符开始。
     
-## <a name="whats-wrong-with-the-house-number"></a>房屋号码有什么问题？
+## <a name="whats-wrong-with-the-house-number"></a>门号出了什么问题？
 
-如果输入房屋号码时遇到问题，请记住：
+如果在输入门号时遇到问题，请记住：
   
-- 它可以包含字母、数字和下列特殊字符：-/[]
+- 它可以包含字母、数字和以下特殊字符：- / [ ]
     
-- 它必须以数字开头。
+- 它以数字开始。
     
-- 它必须是20个字符或更少。
+- 必须少于 20 个字符。
     
-- 它可以有一个大写或小写字母。
+- 它可以是大写字母或小写字母。
     
 ## <a name="whats-wrong-with-the-house-name"></a>住宅名有什么问题？
 
-如果您在输入房屋名称时遇到问题，请记住：
+如果在输入房屋名称时遇到问题，请记住：
   
-- 它可以包含字母、数字和下列特殊字符：，/-+。 ' &amp; " _
+- 它可以包含字母、数字和以下特殊字符：、/ - + 。 ' &amp; " _
     
-- 它必须是50个字符或更少。
+- 必须少于 50 个字符。
     
-- 它不能以特殊字符开头。
+- 不能以特殊字符开始。
     
-## <a name="whats-wrong-with-the-street-name"></a>街道名称有什么问题？
+## <a name="whats-wrong-with-the-street-name"></a>街道名称出了什么问题？
 
-如果您在输入街道名称时遇到问题，请记住：
+如果在输入街道名称时遇到问题，请记住：
   
-- 它可以包含字母、数字和下列特殊字符：，/-+。 ' &amp; " _ 
+- 它可以包含字母、数字和以下特殊字符：、/ - + 。 ' &amp; " _ 
     
-- 它必须是50个字符或更少。
+- 必须少于 50 个字符。
     
-- 它不能以特殊字符开头。 
+- 不能以特殊字符开始。 
     
-## <a name="whats-wrong-with-the-city-or-town"></a>城市或城镇有什么问题？
+## <a name="whats-wrong-with-the-city-or-town"></a>城市或城市有什么问题？
 
-如果您在输入城市或城镇的名称时遇到问题，请记住：
+如果在输入城市或城市名称时遇到问题，请记住：
   
-- 它可以包含字母、数字和下列特殊字符：，/-+。 ' &amp; " _
+- 它可以包含字母、数字和以下特殊字符：、/ - + 。 ' &amp; " _
     
-- 它必须是50个字符或更少。
+- 必须少于 50 个字符。
     
-- 它不能以特殊字符开头。 
+- 不能以特殊字符开始。 
     
 ## <a name="whats-wrong-with-the-postal-code"></a>邮政编码有什么问题？
 
-如果您在输入邮政编码时遇到问题，请记住：
+如果在输入邮政编码时遇到问题，请记住：
   
 - 它只能包含字母、数字或空格。
     
-- 它必须包含8个或更少的字母，包括数字和空格。
+- 必须包含 8 个或更少的字母，包括数字和空格。
     
-- **请记住，如果您使用的是英国（英国）**，则**必须**以下列格式之一放置邮政编码，其中字母 A = 字符 a-z，# 符号 = 0-9 的一个数字，而 _ （下划线） = a 空格。 下面是一些示例：
+- 请记住，如果你在英国 **(英国**) ，则必须将邮政编码采用以下格式之一，其中字母A = 字符 A-Z，# 符号 = 0-9 中的数字，_ (下划线) = 空白。 下面是一些示例：
     
-|**编排**|**示例**|
+|**格式**|**示例**|
 |:-----|:-----|
-|AA # A_ # AA  <br/> |EC3B 2BD  <br/> |
-|# A_ # AA  <br/> |E1W 1AP  <br/> |
-|# _ # AA  <br/> |F1 2AG  <br/> |
-|# #_ # AA  <br/> |C44 8HT  <br/> |
-|AA # _ # AA  <br/> |DR3 6HG  <br/> |
-|AA # #_ # AA  <br/> |FN35 1TH  <br/> |
+|AA#A_#AA  <br/> |EC3B 2BD  <br/> |
+|A#A_#AA  <br/> |E1W 1AP  <br/> |
+|A#_#AA  <br/> |F1 2AG  <br/> |
+|A##_#AA  <br/> |C44 8HT  <br/> |
+|AA#_#AA  <br/> |DR3 6HG  <br/> |
+|AA##_#AA  <br/> |FN35 1TH  <br/> |
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

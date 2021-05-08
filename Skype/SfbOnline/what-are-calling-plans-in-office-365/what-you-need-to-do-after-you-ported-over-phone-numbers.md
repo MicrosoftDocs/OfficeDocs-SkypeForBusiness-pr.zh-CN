@@ -21,15 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
-description: 查看将电话号码移植到 Skype for Business 后接下来需要执行哪些工作。
-ms.openlocfilehash: 8dcb74cad8a745fd81b22c0aa68d4f3cedd3502a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 查看将电话号码移植到 Skype for Business 之后需要执行哪些Skype for Business。
+ms.openlocfilehash: d49fea9315e44f7d126021ec8733143916f5e366
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101858"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237938"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在通过电话号码进行移植后，需要执行哪些工作？
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
 提交你的移植订单后，我们将联系你的运营商并联系他们了解详细信息。 设置最终转移日期后，我们将通过电子邮件通知您。 但是，在等待运营商接受订单时，请继续创建用于这些号码的所需紧急地址。
   

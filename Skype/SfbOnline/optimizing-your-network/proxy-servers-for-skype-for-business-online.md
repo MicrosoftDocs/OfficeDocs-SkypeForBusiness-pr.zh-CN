@@ -1,5 +1,5 @@
 ---
-title: 团队或 Skype for business Online 的代理服务器
+title: Teams 或 Skype for Business Online 的代理服务器
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,23 +19,25 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 本文提供有关将代理服务器与 Skype for Business 配合使用的信息。
-ms.openlocfilehash: a154b36fc03dc84916d5cb4bd383ff80bef901cd
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: 本文提供有关将代理服务器与 Skype for Business。
+ms.openlocfilehash: 09ed98c5f69d6e244a5f87125e4ad607e4d16226
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863744"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240411"
 ---
-# <a name="proxy-servers-for-skype-for-business-online"></a>Skype for business Online 的代理服务器
+# <a name="proxy-servers-for-skype-for-business-online"></a>Skype for Business Online 的代理服务器
 
-本文提供有关将代理服务器与 Skype for Business 配合使用的指南。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+本文提供有关将代理服务器与 Skype for Business。
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>建议不使用代理服务器
 
-当需要通过代理的 Skype for business 通信时，Microsoft 建议绕过代理。由于流量已加密，因此代理不会使 Skype for business 更安全。
+考虑到通过代理的 Skype for Business 流量，Microsoft 建议绕过代理。 代理不会使Skype for Business更安全，因为流量已加密。
   
-并且拥有代理可能会导致问题。与性能相关的问题可通过延迟和数据包丢失引入环境。此类问题将在此类团队或 Skype for Business 方案中产生消极的体验，因为实时流非常重要。
+另外，使用代理会产生问题。 环境中可能会出现由于延迟和数据包丢失而引起的与性能相关的问题。 此类问题将导致音频和视频等Teams或Skype for Business场景中的负面体验，实时流至关重要。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>如果需要使用代理服务器
 
@@ -49,7 +51,7 @@ Microsoft 还强烈建议：
     
 - 允许 UDP 流量
     
-- 按照我们的网络指南中的其他建议操作：
+- 遵循网络指南中的其他建议：
     
   - [Skype for Business Online 中的媒体质量和网络连接性能](media-quality-and-network-connectivity-performance.md)
     
