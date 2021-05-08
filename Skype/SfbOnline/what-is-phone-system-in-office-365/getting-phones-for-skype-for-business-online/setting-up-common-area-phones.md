@@ -20,14 +20,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解部署步骤，获取正确的固件、根据需要更新固件、分配许可证以及配置公用区域电话的设置。
-ms.openlocfilehash: 16490c10418928f875d4513c509f17e09ac4359d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4fd45f446d71e581305f7e596c7eacc62f54f8ca
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106428"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237348"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 公共区域电话 (CAP) 通常放置在诸如大厅或另一个可供很多人使用的的区域。 例如，CAP 可以是接待室电话、门铃电话或会议室电话，它们设置为设备而不是用户并自动登录网络。 在以下步骤中，我们将帮助你设置带通话套餐的电话系统帐户，以便你为组织部署这些类型的电话。
 
 ## <a name="prerequisites-for-common-area-phones"></a>公共区域电话的先决条件
@@ -37,10 +39,10 @@ ms.locfileid: "51106428"
 - 购买公共区域电话许可证和通话套餐。
 - 搜索并购买批准的手机（[在此处](deploying-skype-for-business-online-phones.md)查看列表）。
 - 更新手机上的固件（请参阅[本主题](getting-phones-for-skype-for-business-online.md)中支持的固件 ）。  可通过以下方式检查手机上的固件：
-  - **Polycom VVX 电话**：转到"**设置**  >  **状态**  >  **平台应用程序**  >    >  **主"。**
+  - **Polycom VVX 电话**：**转到** 设置  >    >  **状态平台**  >  **应用程序**  >  **主**。
   - **Yealink 电话**：转到 **主** 电话屏幕上的"状态"。
   - **AudioCodes 电话****：从开始** 屏幕  >  **转到**  >  **"** 菜单设备状态固件版本"。
-  - **Lync Phone Edition (LPE)** 电话 **：从开始** 屏幕转到  >  "菜单系统信息"。
+  - **Lync 电话 版本 (LPE) 电话**：从开始  >  **系统信息** 转到菜单菜单。
 
     固件更新由 Skype for Business 服务管理。 每个通过 Skype for Business 认证的电话固件都上传到 Skype for Business 更新服务器，并且默认情况下在所有电话上启用设备更新。
 
@@ -52,7 +54,7 @@ ms.locfileid: "51106428"
 ### <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 1. 在管理中心中，转到"**计费**  >  **购买服务"，** 并添加"**其他计划"。**
 
-    ![常用区域电话许可证的屏幕截图](../../images/cap-license.png)
+    !["常用区域"电话屏幕截图](../../images/cap-license.png)
 2. 在 **结账** 页面上点击 >  **公共区域电话****** 立即购买，点击 **立即购买** 。
 3. 点击展开 **外接程序订阅**，然后点击购买通话套餐。 选择"国内 **呼叫计划"或****"国内和国际呼叫计划"。**
 
@@ -82,9 +84,9 @@ ms.locfileid: "51106428"
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>第 3 步 - 将电话号码分配给公共区域电话用户帐户
 
-![一个图标，显示 Skype for Business 徽标使用 Skype for Business 管理中心向用户分配 ](../../images/sfb-logo-30x30.png) **电话号码**
+![一个图标，Skype for Business徽标使用管理中心 ](../../images/sfb-logo-30x30.png) 向用户分配Skype for Business **电话号码**
 
-1. 在管理中心内>   >  **Skype for Business 管理中心**。
+1. 在管理中心>**管理中心Skype for Business。**  >  
 2. 在 **Skype for Business 管理中心** >  **语音** > **电话号码**。
 3. 从电话号码列表中选择一个号码，然后点击 **分配**。
 4. 在 **分配** 页面的 **语音用户** 框中，输入用于电话的用户名称，然后在 **选择语音用户** 下拉列表中选择一个用户。
@@ -98,7 +100,7 @@ ms.locfileid: "51106428"
 
 有关更多内容，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。
 
-如果您想知道，您也可以将您拥有的电话号码与另一家运营商联系并"转口"，或将其转移到 Microsoft 365 或 Office 365。 请参阅将[电话号码转移到 Teams。](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
+如果您想知道，您也可以将您拥有的电话号码与另一个运营商 *和"端口*"一起转移，或者将其转移到 Microsoft 365 或 Office 365。 请参阅[将电话号码转移到 Teams。](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
 ### <a name="step-4---setting-up-your-phone"></a>第 4 步 - 设置电话
 
@@ -138,7 +140,7 @@ ms.locfileid: "51106428"
 
 
 > [!NOTE]
-> CAP 设置站点声明它将 CAP 帐户的密码重置为随机密码。 请注意，CAP 所指的帐户是 Azure Active Directory (AAD) 帐户。 如果仅在 AAD 中创建了帐户，则该过程非常简单。 如果已将本地 Active Directory 同步到 AAD 并使用第三方 IDP 或 ADFS，则 CAP 预配会失败。 在这种情况下，只需使用 Microsoft 365 或 Office 365/Azure Active Directory 帐户 (例如，具有 **onmicrosoft.com** 域) 的帐户，CAP 预配才能正常工作。
+> CAP 设置站点声明它将 CAP 帐户的密码重置为随机密码。 请注意，CAP 所指的帐户是 Azure Active Directory (AAD) 帐户。 如果仅在 AAD 中创建了帐户，则该过程非常简单。 如果已将本地 Active Directory 同步到 AAD 并使用第三方 IDP 或 ADFS，则 CAP 预配会失败。 在这种情况下，只需使用 Microsoft 365 或 Office 365/Azure Active Directory 帐户 (例如，具有 **onmicrosoft.com** 域的帐户) CAP 预配才能正常工作。
 
 
 ### <a name="related-topics"></a>相关主题

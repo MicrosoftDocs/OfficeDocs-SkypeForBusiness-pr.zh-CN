@@ -1,5 +1,5 @@
 ---
-title: 合规性声明-法国
+title: 一致性辅助功能声明 - 法国
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,7 +19,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: "Microsoft 团队 est 365 l'outil intègre qui toutes 果 personnes contenus outils，votre et équipe 不要 besoin être impliquée efficace 加 et。 "
+description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes， contenus et outils don votre équipe a besoin pour être plus impliquée et efficace. "
 ms.openlocfilehash: 2b642e2e48ac0bf7bf3c3d5359fdb731e8130b24
 ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
@@ -30,54 +30,54 @@ ms.locfileid: "46522895"
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 
 
-### <a name="section-1-champ-dapplication"></a>第1部分 Champ d'application
+### <a name="section-1-champ-dapplication"></a>第 1 节 Champ d'application
 
-La présente 证明 de conformitéà la norme [en 301 549](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)相对于 l'accessibilité des produits précise 果 exigences fonctionnelles [matière d'accessibilité](http://mandate376.standards.eu/standard/scope) applicables AUX produits Et services TIC de Microsoft。
+La présente attestation de conformité à la norme [EN 301 549](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) relative à l'accessibilité des produits [précise les exigences fonctionnelles en matière d'accessibilités](http://mandate376.standards.eu/standard/scope) aux produits et services TIC de Microsoft.
 
-### <a name="section-2-rfrences"></a>第2部分 Références
+### <a name="section-2-rfrences"></a>第 2 节 Références
 
 Références [EN 301 549](http://mandate376.standards.eu/standard/references)
 
-### <a name="section-3-dfinitions-et-abrviations"></a>第3部分 Définitions et abréviations
+### <a name="section-3-dfinitions-et-abrviations"></a>第 3 节 Définitions et abréviations
 
 Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standard/definitions-and-abbreviations)
 
-### <a name="section-4-dclarations-de-conformit-aux-exigences-fonctionnelles"></a>第4部分 Déclarations de conformité aux exigences fonctionnelles
+### <a name="section-4-dclarations-de-conformit-aux-exigences-fonctionnelles"></a>第 4 节 Déclarations de conformité aux exigences fonctionnelles
 
-[Déclarations de conformité aux exigences fonctionnelles](http://mandate376.standards.eu/standard/functional-statements) DE norme EN 301 549
+[Déclarations de conformité aux exigences fonctionnelles](http://mandate376.standards.eu/standard/functional-statements) de la norme EN 301 549
 
-> [4.2.1 Utilisation sans 愿景](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=22&functional_statements_submitted=true)
+> [4.2.1 利用 Sans 视觉](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=22&functional_statements_submitted=true)
 > 
-> [4.2.2 Utilisation avec 展望 limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=20&functional_statements_submitted=true)
+> [4.2.2 利用 avec vision limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=20&functional_statements_submitted=true)
 > 
-> [4.2.3 Utilisation sans 感知 des couleurs](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=34&functional_statements_submitted=true)
+> [4.2.3 利用 sans perception des couleurs](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=34&functional_statements_submitted=true)
 > 
-> [4.2.4 Utilisation sans audition](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=36&functional_statements_submitted=true)
+> [4.2.4 利用 Sans 审核](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=36&functional_statements_submitted=true)
 > 
-> [4.2.5 Utilisation avec audition limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=38&functional_statements_submitted=true)
+> [4.2.5 利用 avec audition limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=38&functional_statements_submitted=true)
 > 
-> [4.2.6 Utilisation sans capacité vocale](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=40&functional_statements_submitted=true)
+> [4.2.6 利用 sans capacité utilise](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=40&functional_statements_submitted=true)
 > 
-> [4.2.7 Utilisation avec 操作 ou force limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=42&functional_statements_submitted=true)
+> [4.2.7 利用 avec 操作 ou force limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=42&functional_statements_submitted=true)
 > 
 > [4.2.8 Utilisation avec une](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&functional_statements_submitted=true) portée limitée
 > 
-> [4.2.9 Minimiser 果 déclencheurs de crises photosensibles](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&functional_statements_submitted=true)
+> [4.2.9 一些照片分析器](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&functional_statements_submitted=true)
 > 
-> [4.2.10 Utilisation avec cognition limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=48&functional_statements_submitted=true)
+> [4.2.10 Utilisation avec 认知限制ée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=48&functional_statements_submitted=true)
 > 
-> 4.2.11[尊重 vie privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
+> 4.2.11[尊重](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)权限
 
 ## <a name="exigences-fonctionnelles-daccessibilit"></a>Exigences fonctionnelles d'accessibilité
 
-### <a name="section-5-exigences-gnriques"></a>第5部分 Exigences génériques
+### <a name="section-5-exigences-gnriques"></a>第 5 节 Exigences génériques
 
 <table>
-<caption>第5部分</caption>
+<caption>第 5 部分</caption>
 <tbody>
 <tr class="odd">
 <td><strong>Critères</strong></td>
-<td><strong>Fonctionnalités prises</strong></td>
+<td><strong>Fonctionnalités prises en charge</strong></td>
 <td><strong>Remarques et explications</strong></td>
 </tr>
 <tr class="even">
@@ -86,450 +86,450 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <td>Fonctionnalité fermée</td>
 </tr>
 <tr class="odd">
-<td><h3 id="activation-des-fonctionnalités-daccessibilité">5.2 激活 des fonctionnalités d'accessibilité</h3>
-<p>Dans le cas où la TIC présente des fonctionnalités d'accessibilité documentées，il est 可能 d'activer 果 fonctionnalités qui sont requises répondre： besoin spécifique faire appel： une méthode</p></td>
-<td>Pris 费</td>
+<td><h3 id="activation-des-fonctionnalités-daccessibilité">5.2 激活取消 fonctionnalités d'accessibilité</h3>
+<p>Dans le cas o à la TIC présente des fonctionnalités d'accessibilité documentées， il est possible d'activer les fonctionnalités qui sont requises pour répondre à un besoin spécifique sans faire appel à une méthode qui ne prend pas en charge ce besoin.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="biométrie">5.3 Biométrie</h3>
-<p>Dans le cas où la TIC fait appel à des caractéristiques biologiques，elle ne fait pas l'utilisation d'une caractéristique biologique seul moyen d'identification l'utilisateur de contrôle de TIC de。</p></td>
+<p>Dans le cas o à la TIC fait appel à des caractéristiquesiques， elle ne fait pas de l'utilisation d'une caractéristiqueique le seul moyen d'identification de l'utilisateur ou de contr àle de la TIC.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="préservation-des-informations-daccessibilité-pendant-la-conversion">5.4 Préservation des d'accessibilité pendant la 转换</h3>
-<p>Dans le cas où la TIC convertit des 数据 ou une 通信，elle préserve toutes 果 exclusives documentées qui sont fournies l'accessibilité Dans mesure où peuvent être contenues Dans prises dernier le 格式解除目标 ou ce。</p></td>
+<td><h3 id="préservation-des-informations-daccessibilité-pendant-la-conversion">5.4 Préservation des informations d'accessibilité pendant la conversion</h3>
+<p>Dans le cas oé la TIC convertit des informations ou une communication， elle préserve toutes les informations non exclusives documentées qui sont fournies pour l'accessibilité dans la mesure oré ces informations peuvent être contenues dans le format de destination ou prises en charge par ce dernier.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="mode-de-fonctionnement">5.5.1 模式 de fonctionnement</h3>
-<p>Dans le cas où la TIC présente des éléments actionnables qui doivent être actionnés 果 prenant，en 果 pinçant ou en exerçant une torsion du poignet，autre 模式 de fonctionnement 可 qui ne nécessite est gestes。</p></td>
+<p>Dans le cas oré la TIC présente des éléments actionnables qui doivent être actionnés en les prenant， en les pinçant ou en exerçant une torsion du poignet， un autre mode de fonctionnement accessible qui ne nécessite pas ces gestes estes est proposé.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="discernabilité-des-éléments-actionnables">5.5.2 Discernabilité des éléments actionnables </h3>
-<p>Dans le cas où la TIC des éléments actionnables，elle 建议取消 moyen discerner chaque élément actionnable que soit nécessaire accomplir geste associé cet élément。</p></td>
+<p>Dans le cas o à la TIC a des éléments actionnables， elle 建议 un moyen de discerner chaque élément actionnable sans que la vision ne soit nécessaire et sans accomplir le geste associé à cet élément actionnable.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="statut-tactile-ou-auditif">5.6.1 Statut 触觉 ou auditif</h3>
-<p>Dans le cas où la TIC est dotée d'une commande verrouillage et où cette commande est présentée visuellement à l'utilisateur，la TIC 建议 au moins 无模式 de fonctionnement avec lequel il est 可能的 déterminer le statut de commande le toucher actionner。</p></td>
+<td><h3 id="statut-tactile-ou-auditif">5.6.1 统计信息 tactile ou auditif</h3>
+<p>Dans le cas o à la TIC est dotée d'une commande de verrouillage et oette cette commande est présentée visuellement à l'utilisateur， la TIC 建议 au moins un mode de fonctionnement avec lequel il est possible de déterminer le statut de la commande par le son ou par le toucher sans actionner la commande.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="statut-visuel">5.6.2 Statut visuel</h3>
-<p>Dans le cas où la TIC est dotée d'une commande verrouillage et où cette commande n'est pas présentée visuellement à l'utilisateur，la TIC 建议 au moins 取消模式消除 fonctionnement avec lequel il est déterminer visuellement for statut de commande lorsque commande présentée。</p></td>
+<td><h3 id="statut-visuel">5.6.2 统计信息 visuel</h3>
+<p>Dans le cas oré la TIC est dotée d'une commande de verrouillage et oette cette commande n'est pas présentée visuellement à l'utilisateur， la TIC 建议 au moins un mode de fonctionnement avec lequel il est possible de déterminer visuellement le statut de la commande lorsque la commande est présentée.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="répétition-automatique-des-touches">5.7 Répétition automatique des</h3>
-<p>Dans le cas où la TIC est dotée de la fonction répétition automatique des où cette fonction ne peut être désactivée：</p>
-<p>a） le délai avant la répétition automatique est réglable jusqu'à au moins 2 secondes;东部</p>
-<p>b） la vitesse de répétition peut être réduite jusqu'à caractère par intervalle secondes de。</p></td>
+<td><h3 id="répétition-automatique-des-touches">5.7 Répétition automatique des touches</h3>
+<p>Dans le cas oé la TIC est dotée de la fonction répétition automatique des touches et oette fonction ne peut être désactivée ：</p>
+<p>a) le délai avant la répétition automatique est réglable jusqu'à au moins 2 secondes;et</p>
+<p>b) la vitesse de répétition peut être réduite jusqu'à un caractère par intervalle de 2 secondes.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="acceptation-des-doubles-frappes-sur-le-clavier">5.8 Acceptation des 双 frappes 见 le clavier</h3>
-<p>Dans le cas où取消 clavier est fourni、le délai、après une frappe 见 le clavier、pendant lequel une autre frappe a sera pas acceptée） elle est identique à la frappe précédente est réglable jusqu'à au moins 0、5 seconde。</p></td>
+<td><h3 id="acceptation-des-doubles-frappes-sur-le-clavier">5.8 Acceptation des doubles frappes sur le clavier</h3>
+<p>Dans le cas oré un clavier est fourni， le délai， après une frappe sur le clavier， pendant lequel une autre frappe ne sera pas acceptée si identique à la frappe précédente est réglable jusqu'à au moins 0，5 seconde.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="actions-simultanées-de-lutilisateur">5.9 simultanées de l'utilisateur</h3>
-<p>Dans le cas où la TIC nécessite、浇筑 fonctionner、plusieurs 操作 simultanées de l'utilisateur、cette TIC 建议 au moins 取消模式 de fonctionnement qui nécessite a plusieurs pas simultanées 操作 l'utilisateur de part de fonctionner。</p></td>
-<td>Pris 费</td>
+<td><h3 id="actions-simultanées-de-lutilisateur">5.9 操作 simultanées de l'utilisateur</h3>
+<p>Dans le cas oé la TIC nécessite， pour fonctionner， plusieurs actions simultanées de l'utilisateur， cette TIC 建议 au moins un mode de fonctionnement qui ne nécessite pas plusieurs actions simultanées de la part de l'utilisateur pour fonctionner.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="section-6-tic-avec-communication-voix-bidirectionnelle"></a>第6节 TIC avec 通信 voix bidirectionnelle
+### <a name="section-6-tic-avec-communication-voix-bidirectionnelle"></a>第 6 节 TIC avec 通信 voix bidirectionnelle
 
 <table>
-<caption>第6节</caption>
+<caption>第 6 节</caption>
 <tbody>
 <tr class="odd">
 <td><strong>Critères</strong></td>
-<td><strong>Fonctionnalités prises</strong></td>
+<td><strong>Fonctionnalités prises en charge</strong></td>
 <td><strong>Remarques et explications</strong></td>
 </tr>
 <tr class="even">
-<td><h3 id="bande-passante-audio-pour-la-parole-recommandation-pour-information">6.1 Bande passante 音频浇筑 la parole （recommandation 浇筑信息）</h3>
-<p>Dans le cas où la TIC permet la 通信 voix bidirectionnelle，elle doit être 支持，浇筑 donner une bonne qualité音频，de chiffrer déchiffrer voix la bidirectionnelle Dans une bande fréquence plafonnée moins 7 000 Hz。</p></td>
-<td>Pris 费</td>
+<td><h3 id="bande-passante-audio-pour-la-parole-recommandation-pour-information">6.1 Bande passante audio pour la (recommandation pour information) </h3>
+<p>Dans le cas oré la TIC permet la communication voix bidirectionnelle， elle doit être capable， pour donner une poure qualité audio， de chiffrer et de déchiffrer la communication voix bidirectionnelle dans une bande de fréquence plafonnée à au moins 7 000 Hz.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="communication-en-temps-réel-par-texte-rtt">6.2.1.1 通信 en temps réel par texte （RTT）</h3>
-<p>Dans le cas où la TIC est 兼容 avec la 通信 voix bidirectionnelle Dans contexte d'utilisation spécifié，elle permet à utilisateur communiquer avec 不会 autre。</p></td>
-<td>Pas pris 的费用</td>
+<td><h3 id="communication-en-temps-réel-par-texte-rtt">6.2.1.1 通信 en temps réel par texte (RTT) </h3>
+<p>Dans le cas o à la TIC est compatible avec la communication voix bidirectionnelle dans un contexte d'utilisation spécifié， elle permet à un utilisateur de communiquer avec un autre utilisateur en RTT.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="voix-et-texte-simultanés">6.2.1.2 Voix et texte simultanés</h3>
-<p>Dans le cas où la TIC ou 果 TIC fournies à utilisateur sont compatibles avec voix bidirectionnelle permettent utilisateur communiquer avec autre utilisateur elles proposent mécanisme permettant sélectionner fonctionnement qui permet voix texte et simultanés</p></td>
-<td>Pas pris 的费用</td>
+<p>Dans le cas o à la TIC ou les TIC fournies à un utilisateur sont compatibles avec la communication voix bidirectionnelle et permettent à un utilisateur de communiquer avec un autre utilisateur en RTT， elles proposent un mécanisme permettant de sélectionner un mode de fonctionnement qui permet la voix et le texte simultanés.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="affichage-visuellement-distinguable">6.2.2.1 Affichage visuellement distinguable</h3>
-<p>Dans le cas où la TIC est dotée de capacités d'envoi：，réception du l'affichage texte est envoyé visuellement différencié du celui texte。</p></td>
-<td>Pas pris 的费用</td>
+<p>Dans le cas oé la TIC est dotée de capacités d'envoi et de réception en RTT， l'affichage du texte envoyé est visuellement différencié de enui du texte reçu.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="direction-envoiréception-déterminable-par-un-programme-informatique">6.2.2.2 方向 envoi/réception déterminable 不计划 informatique </h3>
-<p>Dans le cas où la TIC est dotée de capacités d'envoi et réception 半 RTT，la （envoi/réception） du texte transmis est déterminable par informatique moins que n'ait。</p></td>
-<td>Pas pris 的费用</td>
+<td><h3 id="direction-envoiréception-déterminable-par-un-programme-informatique">6.2.2.2 Direction envoi/réception déterminable par un programme informatique </h3>
+<p>Dans le cas o à la TIC est dotée de capacités d'envoi et de réception en RTT， la direction (envoi/réception) du texte transmis est déterminable par un programme informatique， à moins que le RTT n'ait une fonctionnalité fermée.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="interopérabilité">6.2.3 Interopérabilité</h3>
-<p>Dans le cas où une TIC dotée fonctionnalité affiche une interopérabilité avec d'autres TIC dotées fonctionnalité comme l'exige 6.2.1.1 elles sont compatibles avec moins quatre mécanismes au d'interopérabilité ci décrits：</p>
-<p>a） TIC opérant 见 le Réseau Téléphonique 公共（RTC） avec une autre TIC qui se connecte directement au RTC comme décrit dans Recommandation l'une annexes 果 signaux téléphonie texte 见 l'interface de</p>
-<p>b） TIC opérant avec une autre TIC utilisant la VoIP SIP et utilisant une technologie RTT conforme au 文档 RFC 4103;</p>
-<p>c） TIC opérant avec une autre TIC utilisant une technologie RTT conforme à l'ensemble des protocoles IP 多媒体子系统（IM） spécifiés dans 果 134 229 122 173 126 114</p>
-<p>d） TIC opérant avec une autre TIC utilisant une spécification commune adaptée 适用的浇筑 l'échange，qui est publiée et peut être consultée。 Cette spécification commune comprend une méthode 浇筑 indiquer la perte ou de de caractères。</p></td>
-<td>Pas pris 的费用</td>
+<p>Dans le cas oé une TIC dotée de la fonctionnalité RTT affiche une interopérabilité avec d'autres TIC dotées de la fonctionnalité RTT (comme l'exige le 6.2.1.1) ， elles sont compatibles avec au moins un des quatre mécanismes d'interopérabilité RTT décrits ci-dessous ：</p>
+<p>a) TIC inter opérant sur le Réséléphonique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l'une de ses pour les signaux de téléphonie en mode texte sur l'interface RTC ;</p>
+<p>b) TIC -opérant avec une autre TIC utilisant la VoIP SIP et utilisant une technologie RTT conforme au document RFC 4103;</p>
+<p>c) TIC 互操作 avec une autre TIC utilisant une technologie rtT conforme à l'ensemble des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114， TS 122 173 et TS 134 229;</p>
+<p>d) TIC-opérant avec une autre TIC utilisant une spécification adaptée et applicable pour l'échange RTT qui est publiée et peut être consultée. Cette spécification 管理 comprend une méthode pour indiquer la perte ou de la corruption de caractères.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="réactivité-de-la-rtt">6.2.4 Réactivité de la</h3>
-<p>Dans le cas où la TIC utilise la saisie，cette saisie RTT est transmise au réseau TIC 兼容的 RTT Dans la seconde qui for sa saisie。</p></td>
-<td>Pas pris 的费用</td>
+<td><h3 id="réactivité-de-la-rtt">6.2.4 Réactivité de la RTT</h3>
+<p>Dans le cas oré la TIC utilise la transsie RTT， cetteise RTT est transmise au réseau TIC compatible RTT dans la seconde qui suit sa transsie.</p></td>
+<td>Pas pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="identification-de-lappelant">6.3 标识 de l'appelant</h3>
-<p>Dans le cas où la TIC 建议 l'identification de l'appelant et où des fonctions télécommunications similaires sont proposées l'identification l'appelant 果 fonctions télécommunication similaires sont disponibles sous forme texte moins une autre modalité。</p></td>
-<td>Pris 费</td>
+<td><h3 id="identification-de-lappelant">6.3 标识</h3>
+<p>Dans le cas oé la TIC 建议 l'identification de l'appelant et oé fonctions de télécommunications similaires sont proposées， l'identification de l'appelant et les fonctions de télécommunication similaires sont disponibles sous forme de texte et via au moins une autre modalité.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="alternatives-aux-services-basés-sur-la-voix">6.4 basés 见 la voix</h3>
-<p>Dans le cas où la TIC 提议 la 通信 voix en temps réel également des fonctions de messagerie vocale，réception automatique serveur 人声 interactif TIC doit，la OFFRIR utilisateurs moyen aux d'accéder d'exécuter 果 fonctions fournies TIC utiliser ou la l'audition。</p></td>
-<td>Pris 费</td>
+<td><h3 id="alternatives-aux-services-basés-sur-la-voix">6.4 替代项 aux 服务 basés sur la voix</h3>
+<p>Dans le cas oré la TIC 建议 la communication voix en temps réel et propose également des fonctions de messagerievoce， de réception automatique ou de serveur interactif， la TIC doit offrir aux utilisateurs un moyen d'accéder aux informations et d'exécuter les fonctions fournies par la TIC sans utiliser l'audition ou laiques.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="résolution">6.5.2 Résolution</h3>
-<p>Lorqu'une TIC qui permet la 通信 voix bidirectionnelle est également dotée d'une fonctionnalité vidéo temps réel cette TIC：</p>
-<p>a） est 兼容 au moins avec la résolution « QCIF »;</p>
-<p>b） doit de préférence être 兼容 avec au moins la résolution « CIF »。</p></td>
-<td>Pris 费</td>
+<p>Lorqu'une TIC qui permet la communication voix bidirectionnelle est également dotée d'une fonctionnalité vidéo en temps réel， cette TIC ：</p>
+<p>a) est compatible au moins avec la résolution « QCIF » ;</p>
+<p>b) doit de préférence être compatible avec au moins la résolution « CIF ».</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="taux-de-trame-vitesse-dimages">6.5.3 Taux de trame （vitesse d'images）</h3>
-<p>Lorsqu'une TIC qui 提议 la 通信 voix bidirectionnelle est dotée d'une fonctionnalité vidéo temps réel cette TIC：</p>
-<p>a） prend en taux de trame d'au moins 12 图像 par seconde （IPS）;</p>
-<p>b） doit de préférence prendre en taux trame d'au moins seconde 20 映像 par avec （IPS） langue ou sans signes des dans flux données vidéo。</p></td>
-<td>Pris 费</td>
+<td><h3 id="taux-de-trame-vitesse-dimages">6.5.3 Taux deaux deauxe (vitesse d'images) </h3>
+<p>Lorsqu'une TIC qui 建议 la communication voix bidirectionnelle est dotée d'une fonctionnalité de vidéo en temps réel， cette TIC ：</p>
+<p>a) prend en charge un taux deaux deauxe d'au moins 12 images par seconde (ipS) ;</p>
+<p>b) doit de préférence prendre en charge un taux de moins 20 images par seconde (IPS) avec ou sans langue des signes dans le flux de données vidéo.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="synchronisation-entre-le-signal-audio-et-le-signal-vidéo">6.5.4 同步 entre le 信号音频 et le 信号 vidéo</h3>
-<p>Lorsqu'une TIC qui permet la 通信 voix bidirectionnelle est dotée d'une fonctionnalité vidéo temps réel cette TIC doit garantir écart 100 temps entre voix 果 présentées 图像 l'utilisateur：，</p></td>
-<td>Pris 费</td>
+<td><h3 id="synchronisation-entre-le-signal-audio-et-le-signal-vidéo">6.5.4 Synchronisation entre le signal audio et le signal vidéo</h3>
+<p>Lorsqu'une TIC qui permet la communication voix bidirectionnelle est dotée d'une fonctionnalité de vidéo en temps réel， cette TIC doit garantir un écart de temps de temps de 100 ms maximum entre la voix et les images présentées à l'utilisateur.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="alternatives-aux-services-vidéo">6.6 备选 aux 服务 vidéo</h3>
-<p>Dans le cas où la TIC 提议 la 通信 vidéo en temps réel également des fonctions de répondeur，réception automatique réponse TIC doit proposer utilisateurs moyen d'accéder d'accomplir 果 tâches associées fonctions：</p>
-<p>a）浇筑果的 audibles、sans utilisation de l'audition;</p>
-<p>b）浇筑果 commandes vocales，sans utilisation de la voix;</p>
-<p>c）浇筑果 visuelles，sans utilisation de la。</p></td>
-<td>Pris 费</td>
+<td><h3 id="alternatives-aux-services-vidéo">6.6 替代项 aux services vidéo</h3>
+<p>Dans le cas o à la TIC 建议 la communication vidéo en temps réel et propos également des fonctions de répondeur， de réception automatique ou de réponse interactive， la TIC doit proposer aux utilisateurs un moyen d'accéder aux informations et d'accomplir les tâches associées à ces fonctions：</p>
+<p>a) pour les informations audibles， sans utilisation de l'audition;</p>
+<p>b) pour les commandesvoces， sans utilisation de la voix;</p>
+<p>c) pour les informations visuelles， sans utilisation de la vision.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="section-7-tic-avec-fonctions-vido"></a>第7部分 TIC avec fonctions vidéo
+### <a name="section-7-tic-avec-fonctions-vido"></a>第 7 节 TIC avec fonctions vidéo
 
-Cette 第 ne s'applique pas： Skype Entreprise 2016。
+Cette section ne s'applique pas à à Skype Entreprise 2016.
 
-### <a name="section-8-matriel-informatique"></a>第8部分 Matériel informatique
+### <a name="section-8-matriel-informatique"></a>第 8 节 Matériel informatique
 
-Cette 第 ne s'applique pas： Skype Entreprise 2016。
+Cette section ne s'applique pas à à Skype Entreprise 2016.
 
-### <a name="section-9-web"></a>第9部分 Web
+### <a name="section-9-web"></a>第 9 节 Web
 
-Cette 第 ne s'applique pas： Skype Entreprise 2016。
+Cette section ne s'applique pas à à Skype Entreprise 2016.
 
-### <a name="section-10-documents-non-bass-dans-le-web"></a>第10部分文档非 basés dans le Web 
+### <a name="section-10-documents-non-bass-dans-le-web"></a>第 10 节 文档非 basés dans le Web 
 
-Cette 第 ne s'applique pas： Skype Entreprise 2016。
+Cette section ne s'applique pas à à Skype Entreprise 2016.
 
-### <a name="section-11-logiciel"></a>第11部分 Logiciel
+### <a name="section-11-logiciel"></a>第 11 节 Logiciel
 
 <table>
-<caption>第11部分</caption>
+<caption>第 11 节</caption>
 <tbody>
 <tr class="odd">
 <td><strong>Critères</strong></td>
-<td><strong>Fonctionnalités prises</strong></td>
+<td><strong>Fonctionnalités prises en charge</strong></td>
 <td><strong>Remarques et explications</strong></td>
 </tr>
 <tr class="even">
-<td><h3 id="contenu-non-textuel-lecture-décran-prise-en-charge">11.2.1.1 Contenu 非 textuel （讲座 d'écran prise 费）</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui prend l'accès d'assistance aux 11.1 技术 d'écran elle remplit 果 Critères Succès indiqués Dans Tableau Contenu textuel：</p>
-<p>Tout le contenu 非 textuel qui est présentéà l'utilisateur est doté d'un équivalent textuel qui même fonction sauf，dans 果 suivantes 条件：</p>
-<p>Commandes，saisie： Si le contenu 非 textuel est une commande ou s'il permet la saisie d'informations par l'utilisateur，alors il a nom qui décrit fonction sa。</p>
-<p>媒体 limité dans le temps： Si le contenu 非 textuel est 取消媒体 limité dans le temps，alors 果équivalents textuels donnent au moins une 标识描述性解除 ce contenu 非 textuel。</p>
-<p>测试： Si le contenu 非 textuel est 取消测试 ou serait qui invalide s'il était présenté sous forme texte alors，équivalents des textuels donnent moins au une contenu 识别描述性 du textuel 非。</p>
-<p>Contenu sensoriel： Si le Contenu 非 textuel 浇筑 principal objectif créer une expérience sensorielle spécifique alors，équivalents des textuels donnent moins au une Contenu 识别描述性 de textuel 非。</p>
-<p>验证码： Si le contenu 不 textuel sert à confirmer que c'est une personne et ordinateur qui accède contenu alors équivalents： textuels qui identifient * décrivent quoi sert contenu textuel sont fournis formes 验证码 utilisant différents sortie 果 différents sensorielle sont fournies afin répondre besoins différents handicaps。</p>
-<p>Décoration、formatage、不可见： Si le contenu 非 textuel est purement décoratif，s'il n'est utilisé que formatage visuel ou s'il n'est aux présenté，utilisateurs il est alors œuvre，manière</p></td>
-<td>Pris 费</td>
+<td><h3 id="contenu-non-textuel-lecture-décran-prise-en-charge">11.2.1.1 Contenu 非文本 (讲座 d'écran prise en charge) </h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le Tableau 11.1 ： Contenu non textuel：</p>
+<p>Tout le contenu non textuel qui est présenté à l'utilisateur est doté d'un équivalent textuel qui a la même fonction， sauf dans les situations suivantes ：</p>
+<p>Commandes， saisie ： Si le contenu non textuel est une commande ou s'il permet la saisie d'informations par l'utilisateur， alors il a un nom qui décrit sa fonction.</p>
+<p>Media limité dans le temps ： Si le contenu non textuel est un media limité dans le temps， alors les équivalents textuels donnent au moins une identification de ce contenu non textuel.</p>
+<p>测试：Si le contenu non textuel est un test ou un exercice qui serait invalide s'il était présenté sous forme de texte， alors des équivalents textuels donnent au moins une identification descriptive du contenu non textuel.</p>
+<p>Contenu sensoriel ： Si le contenu non textuel a pour principal objectif de créer une expérience sensorielle spécifique， alors des équivalents textuels donnent au moins une identification de ce contenu non textuel.</p>
+<p>CAPTCHA ： Si le contenu non textuel sert à confirmer que c'est une personne et non un ordinateur qui accède au contenu， alors des équivalents textuels qui identifient et décrivent à quoi sert ce contenu non textuel sont fournis， et des formes alternatives de CAPTCHA utilisant différents modes de sortie pour les différents types de perception sensorielle sont fournies afin de répondre aux besoins des différents perceptions.</p>
+<p>放大、格式化、隐身：Si le contenu 非 textuel est purementatif、s'il n'est utilisé que pour le formatage visuel ou s'il n'est pas présenté aux utilisateurs， alors il est mis en être ignoré par la technologie d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="audio-seulement-et-vidéo-seulement-préenregistré">11.2.1.2 音频 seulement et vidéo seulement （préenregistré）</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui prend l'accès d'assistance aux 技术 d'écran 11.2 où aucune sonore préenregistrée n'est 信息 nécessaire permettre l'utilisation fonctions fermées TIC elle remplit 果 Critères Succès indiqués Dans Tableau seulement vidéo seulement préenregistré:</p>
-<p>浇筑果 médias audio seulement préenregistrés et vidéo seulement préenregistrés，果 principes ci après se vérifient sauf lorsque l'audio ou vidéo média remplacement texte： clairement： identifié电话：</p>
-<p>音频 seulement préenregistré： Une 备选 au 媒体 limité dans le temps，qui présente des 产品équivalentes 浇筑 le contenu 音频 seulement préenregistré，est fournie。</p>
-<p>Vidéo seulement préenregistrée： Une 备选 au 媒体 limité dans le temps ou Une piste 音频，qui présente des 产品équivalentes 浇筑 le contenu Vidéo seulement préenregistré，est fournie。</p></td>
+<td><h3 id="audio-seulement-et-vidéo-seulement-préenregistré">11.2.1.2 Audio seulement et vidéo seulement (préenregistré) </h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran et ozu aucune information sonore préenregistrée n'est nécessaire pour permettre l'utilisation des fonctions ferèes de la TIC， elle remplit les Critères de Succès indiqués dans le Tableau 11.2 ： Audio seulement et vidéo seulement (préenregistré) ：</p>
+<p>Pour les èdias audio seulement préenregistrés et vidéo seulement préenregistrés， les principes ci-après se vérifient sauf lorsque l'audio ou la vidéo est un média de remplacement du texte et est clairement identifié comme tel：</p>
+<p>Audio seulement préenregistré ： Une alternative au media limité dans le temps， qui présente des informations équivalentes pour le contenu audio seulement préenregistré， est four一。</p>
+<p>Vidéo seulement préenregistrée ： Une alternative au media limité dans le temps ou une piste audio， qui présente des informations équivalentes pour le contenu vidéo seulement préenregistré， est four一。</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="sous-titres-préenregistrés">11.2.1.3 Sous-titres (préenregistrés)</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.3： Sous-titres （préenregistrés）：</p>
-<p>Des sous-titres sont fournis 浇筑 tout le contenu préenregistré média synchronisé sauf quand，média une le texte est clairement identifié comme 电话。</p></td>
+<td><h3 id="sous-titres-préenregistrés">11.2.1.3 sous-titres (préenregistrés) </h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.3 ： Sous-titres (préenregistrés) ：</p>
+<p>Des sous-titres sont fournis pour tout le contenu audio préenregistré en média synchronisé， sauf quand le média est une alternative au texte et est clairement identifié comme tel.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="audio-description-ou-média-alternatif-préenregistré">11.2.1.4 音频-说明 ou média alternatif （préenregistré）</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui prend l'accès d'assistance aux 技术 11.4 d'écran elle remplit 果 Critères Succès indiqués Dans Tableau média remplacement （préenregistré）的 de （）：</p>
-<p>Une 备选 au média limité dans le temps ou l'audio-描述 du contenu vidéo préenregistré est fournie 浇筑 le média synchronisé，sauf quand le média est Une 的其他 au texte clairement identifié电话。</p></td>
+<td><h3 id="audio-description-ou-média-alternatif-préenregistré">11.2.1.4 Audio-description ou média alternatif (préenregistré) </h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le Tableau 11.4 ： Audio-description ou média de remplacement (préenregistré) ：</p>
+<p>Une alternative au média limité dans le temps ou l'audio-description du contenu vidéo préenregistré est four一 pour le média synchronisé， sauf quand le média est une alternative au texte et est clairement identifié comme tel.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="sous-titres-en-direct">11.2.1.5 Sous-titres （en 直连）</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.5。 Sous-titres （en direct）：</p>
-<p>Des sous-titres sont fournis 浇筑 tout le contenu audio 是直接 se présentant sous la forme d'un média synchronisé。</p></td>
+<td><h3 id="sous-titres-en-direct">11.2.1.5 sous-titres (en direct) </h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.5. Sous-titres (en direct) ：</p>
+<p>Des sous-titres sont fournis pour tout le contenu audio en direct se présentant sous la forme d'un média synchronisé.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="audio-description-préenregistrée">11.2.1.6 音频-说明（préenregistrée）</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.6：音频-说明（préenregistrée）：</p>
-<p>L'audio 说明 est fournie 浇筑 tout le contenu vidéo préenregistré sous forme de média synchronisé。</p></td>
+<td><h3 id="audio-description-préenregistrée">11.2.1.6 audio-description (préenregistrée) </h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.6 ： Audio-description (préenregistrée) ：</p>
+<p>L'audio description est four一 pour tout le contenu vidéo préenregistré sous forme de média synchronisé.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="informations-et-relations">11.2.1.7 的 "关系" et 关系</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui prend l'accès d'assistance aux 11.7 技术 d'écran elle remplit 果 Critères Succès indiqués Dans Tableau</p>
-<p>果，la 结构 et 果关系 véhiculées présentation la peuvent être déterminés informatique ou sont disponibles sous forme de texte。</p></td>
-<td>Pris 费</td>
+<td><h3 id="informations-et-relations">11.2.1.7 信息等关系</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le Tableau 11.7： Informations et 关系：</p>
+<p>Les informations， la structure et les relations véhiculées par la présentation peuvent être déterminés par un programme informatique ou sont disponibles sous forme de texte.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="ordre-séquentiel-logique">11.2.1.8 Ordre séquentiel logique</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui prend l'accès d'assistance aux 11.8 技术 d'écran elle remplit 果 Critères Succès indiqués Dans Tableau Ordre séquentiel logique：</p>
-<p>Lorsque l'ordre présentation du contenu affecte sa signification，ordre 解除讲座的 peut être déterminé不计划 informatique。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le Tableau 11.8 ： Ordre séquentiel logique：</p>
+<p>Lorsque l'ordre de présentation du contenu affecte sa signification， un ordre de 讲座正确 peut être déterminé par un programme informatique.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="caractéristiques-sensorielles">11.2.1.9 Caractéristiques sensorielles</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères Succès indiqués Dans Tableau le Caractéristiques 11.9： Sensorielles：</p>
-<p>果说明 fournies 浇筑 permettre la compréhension et l'utilisation du contenu ne reposent pas uniquement 见果 caractéristiques sensorielles des composants telles que la forme，la taille，l'emplacement visuel，l'orientation ou le 儿子。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.9 ： Caractéristiques sensorielles ：</p>
+<p>Les instructions fournies pour permettre la compréhension et l'utilisation du contenu ne reposent pas uniquement sur les caractéristiques sensorielles des composants telles que la forme， la taille， l'emplacement visuel， l'orientation ou le son.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="utilisation-de-la-couleur">11.2.1.10 Utilisation de la couleur</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.10： Utilisation de couleur：</p>
-<p>La couleur n'est pas utilisée comme le seul moyen visuel transmettre des 数据，d'indiquer une 操作，de répondre rapidement ou de distinguer élément visuel。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas oé la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.10 ： Utilisation de la couleur ：</p>
+<p>La couleur n'est pas utilisée comme le seul moyen visuel de transmettre des informations， d'indiquer une action， de répondre rapidement ou de distinguer un élément visuel.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="contrôle-du-son">11.2.1.11 Contrôle du 儿子</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.11： Contrôle du 儿子：</p>
-<p>Si du contenu 音频 d'un logiciel est 将听到 automatiquement pendant + secondes，il existe mécanisme/ou l'arrêter ou le mettre alors，existe，mécanisme le volume contrôler le volume indépendamment</p></td>
-<td>Pris 费</td>
+<td><h3 id="contrôle-du-son">11.2.1.11 Contrettele du son</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.11 ： Contrettele du son ：</p>
+<p>Si du contenu audio d'un logiciel est audible automatiquement pendant plus de 3 secondes， il existe un ècanisme pour l'arrêter ou le mettre en pause， ou alors il existe un mécanisme pour contrêler le volume audio indépendamment du volume du système général.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="contraste-minimum">11.2.1.12 Contraste （最低）</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.12： Contraste （最低）：</p>
-<p>La présentation visuelle du texte et d'images de texte rapport contraste d'au moins 4.5.1 sauf dans 果 cas suivants：</p>
-<p>Texte agrandi： le Texte agrandi et 果图像 de Texte agrandies présentent rapport contraste d'au moins 3:1。</p>
-<p>Accessoire： Il n'existe aucune exigence de contraste 浇筑 le texte ou 果图像 de texte qui partie d'un composant inactif d'une utilisateur qui sont décoration qui sont visibles personne qui partie，d'une，contenant ailleurs autre，contenu visuel</p>
-<p>Logotypes： Il n'existe aucune exigence de contraste 浇筑 le texte qui fait partie d'un 徽标 ou d'une marque。</p></td>
-<td><h3 id="pris-en-charge">Pris 费</h3></td>
+<td><h3 id="contraste-minimum">11.2.1.12 最低 (对比度) </h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.12 ： Contraste (minimum) ：</p>
+<p>La présentation visuelle du texte et d'images de texte a un rapport de contraste d'au moins 4.5.1， sauf dans les cas suivants ：</p>
+<p>Texte agrandi ： le texte agrandi et les images de texte agrandies présentent un rapport de contraste d'au moins 3 ：1.</p>
+<p>Accessoire ： Il n'existe aucune exigence de contraste pour le texte ou les images de texte qui font partie d'un composant inactif d'une interface utilisateur， qui sont de la pure pouration， qui ne sont visibles pour personne， ou qui font partie d'une image contenant par ailleurs un autre contenu visuel important.</p>
+<p>徽标类型：Il n'existe aucune exigence de contraste pour le texte qui fait partie d'un logo ou d'une marque.</p></td>
+<td><h3 id="pris-en-charge">Pris en charge</h3></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="redimensionner-le-texte">11.2.1.13 Redimensionner le texte</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui permet l'accès aux fonctions d'agrandissement 11.13 de forme technologie d'assistance elle remplit 果 Critères Succès indiqués Dans Tableau Redimensionner texte</p>
-<p>À l'exception des sous-titres et des 图像 de texte，la taille du texte peut être modifiée sans recours à une technologie d'assistance jusqu'à 200% sans perte de contenu ou de fonctionnalités。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès aux fonctions d'agrandissement de la plate-forme ou de la technologie d'assistance， elle remplit les Critères de Succès indiqués dans le Tableau 11.13 ： Redimensionner le texte：</p>
+<p>À l'exception des sous-titres et des images de texte， la taille du texte peut être modifiée sans recours à une technologie d'assistance jusqu'à 200 % sans perte de contenu ou de fonctionnalités.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="images-de-texte">11.2.1.14 图像 de texte</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui prend l'accès d'assistance aux 11.14 技术 d'écran elle remplit 果 Critères Succès indiqués Dans tableau texte：</p>
-<p>Si 果技术 utilisées permettent la présentation visuelle，c'est le texte plutôt que 果图像 de texte qui est utilisé浇筑 transmettre 果 avec： toutefois 果 suivantes 异常：</p>
-<p>Personnalisable： L'image de texte peut être visuellement adaptée aux besoins de l'utilisateur。</p>
-<p>Essentielle： Une présentation particulière du texte est Essentielle aux transmises。</p></td>
-<td>Pris 费</td>
+<td><h3 id="images-de-texte">11.2.1.14 图像文本</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le tableau 11.14： Images de texte：</p>
+<p>Si les technologies utilisées permettent la présentation visuelle， c'est le texte plutettet que les images de texte qui est utilisé pour transmettre les informations， avec toutefois les exceptions suivantes ：</p>
+<p>Personnalisable ： L'image de texte peut être visuellement adaptée aux besoins de l'utilisateur.</p>
+<p>Essentielle ：Une présentation particulière du texte est essentielle aux informations transmises.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="clavier">11.2.1.15 Clavier</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui permet l'accès aux claviers ou à une 接口 clavier，elle remplit 果 Critères Succès indiqués Dans le Tableau 11.1： Clavier：</p>
-<p>Toutes 果 fonctionnalités du contenu peuvent être activées depuis une clavier que l'individu n'ait appuyer nombre spécifique fois 见 clavier sauf le dans où fonction nécessite une saisie qui dépend trajectoire mouvement effectué l'utilisateur seulement départ d'arrivée cette trajectoire，de。</p></td>
-<td>Pris 费用 avec des 异常</td>
-<td>1)果 boutons Full screen haut 选择一个布局 situés en à droite de fenêtre Réunion a bénéficient pas du clavier。<br />
-2)Certaines commandes dans 投票（Q &amp; A）白板 ne peuvent bénéficier du 将重点放在 clavier。<br />
-3)果 commandes de la visionneuse PowerPoint ne sont pas accessibles depuis le clavier。<br />
-4)果的润色消除修改 du clavier s'arrêtent parfois fonctionner lorsque vous donnez prenez contrôle votre écran partagé</td>
+<p>Dans le cas o à la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès aux claviers ou à une interface clavier， elle remplit les Critères de Succès indiqués dans le Tableau 11.1 ： Clavier ：</p>
+<p>Toutes les fonctionnalités du contenu peuvent être activées depuis une interface clavier sans que l'individu n'ait à appuyer un nombre spécifique de fois sur le clavier， sauf dans le cas oé la fonction en question nécessite unedansie qui dépend de la trajectoire duajvement effectué par l'utilisateur et pas seulement du point de départ et du point d'arrivée de cette trajectoire.</p></td>
+<td>Pris en charge avec des exceptions</td>
+<td>1) Les les lesons Full screen et Pick a Layout一一s en haut à droite de la fenêtre Réunion ne bénéficient pas du focus clavier.<br />
+2) Certaines 命令 dans Poll，Q &amp; A et Whiteboard ne peuvent bénéficier du focus clavier.<br />
+3)Les commandes de la visionneuse PowerPoint ne sont pas accessibl depuis le clavier.<br />
+4) Les touches de modification du clavier s'arrêtent parfois de fonctionner lorsque vous donnez ou prenez le contrêle de votre écran partagé.</td>
 </tr>
 <tr class="odd">
 <td><h3 id="pas-de-piège-au-clavier">11.2.1.16 Pas de piège au clavier</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.16： Pas piège au clavier：</p>
-<p>Si le 焦点 du clavier peut être positionné<a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/keyboard-operation-trapping.html#keybrd-interfacedef">见 composant，</a>logiciel，l'aide，il d'une clavier réciproquement peut être déplacé hors même composant simplement l'aide d'une clavier déplacement exige que l'utilisation d'une touche flèche toute autre méthode sortie l'utilisateur informé méthode permettant déplacer hors composant for de le de。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.16 ： Pas de piège au clavier ：</p>
+<p>Si le focus du clavier peut être positionné sur un composant du logiciel à l'aide d'une <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/keyboard-operation-trapping.html#keybrd-interfacedef">interface clavier</a>， réciproquement， il peut être déplacé hors de ce même composant simplement à l'aide d'une interface clavier et， si ce déplacement exige plus que l'utilisation d'une simple touche flèche ou tabulation ou toute autre méthode standard de sortie， l'utilisateur est informé de la èthode permettant de déplacer le focus hors de ce composant.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="réglage-du-délai">11.2.1.17 Réglage du délai</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le tableau 11.17： Réglage du délai：</p>
-<p>浇筑 chaque délai qui est fixé par le logiciel，au moins l'un des 点 suivants est vrai：</p>
-<p>禁止： l'utilisateur est autoriséà supprimer la limite de temps avant de dépasser;单元</p>
-<p><strong>Ajustement：</strong> l'utilisateur est autoriséà ajuster la limite de temps avant de dépasser dans intervalle d'au moins dix fois durée paramétrée défaut par </p>
-<p>Prolongation： l'utilisateur est averti avant que la limite de temps n'expire et il lui est accordé au moins 20 secondes 浇筑 prolonger cette limite une 操作简单（par exemple，« appuyer 见 la barre d'espace »） et l'utilisateur autorisé prolonger limite temps moins dix单元</p>
-<p>L'exception du temps réel： la limite de temps est une partie constitutive d'un événement temps réel （par exemple，une enchère） et aucune n'est （par） et单元</p>
-<p>L'exception de limite essentielle： la limite de temps est essentielle et prolonger invaliderait alors l'activité;单元</p>
-<p>L'exception des 20 heures： la limite de temps est supérieure à 20 heures。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le tableau 11.17 ： Réglage du délai ：</p>
+<p>Pour chaque délai qui est fixé par le logiciel， au moins l'un des points suivants est vrai ：</p>
+<p>抑制：l'utilisateur est autorisé à supprimer la limite de temps avant de la dépasser;ou</p>
+<p><strong>Ajustement ：</strong> l'utilisateur est autorisé à ajuster la limite de temps avant de la dépasser dans un intervalle d'au moins dix fois la durée paramétrée par défaut </p>
+<p>延长： l'utilisateur est utilisi avant que la limite de temps n'expire et il lui est accordé au moins 20 secondes pour prolonger cette limite par une action simple (par exemple， « appuyer sur la barre d'espace ») et l'utilisateur est autorisé à prolonger la limite de temps au moins dix fois ;ou</p>
+<p>L'exception du temps réel ： la limite de temps est une partie de'une partie d'un événement en temps réel (par exemple， une enchère) et aucune alternative n'est possible;ou</p>
+<p>L'exception de la limite essentielle ： la limite de temps est essentielle et la prolonger invaliderait alors l'activité;ou</p>
+<p>L'exception des 20 heures ： la limite de temps est supérieure à 20 heures.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="mettre-sur-pause-arrêter-masquer">11.2.1.18 Mettre 见 pause、arrêter、masquer</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le tableau 11.18： Mettre 见暂停、arrêter、masquer：</p>
-<p>浇筑 toute 信息 en mouvement，clignotante，défilante ou mise à jour automatiquement，tous 果 suivants sont vrais：</p>
-<p>Déplacement，clignotement，défilement：浇筑 toute 信息，mouvement ou clignotante défilante （1） qui démarre，（2） automatiquement + dure cinq et （3） est secondes présentée conjointement 不 avec autre，contenu dispose l'utilisateur d'un 浇筑 la mécanisme，mettre ou la l'arrêter，à masquer moins le que，mouvement clignotement défilement s'avère de élément东部</p>
-<p>Mise： jour automatique：浇筑 toute 信息 Mise à jour （1） automatiquement qui et （2） est démarre automatiquement présentée 没有 conjointement avec，autre dispose contenu l'utilisateur，d'un： mécanisme： mettre： l'arrêter contrôler fréquence mises jour moins que Mise jour automatique。</p></td>
-<td>Pris 费</td>
+<td><h3 id="mettre-sur-pause-arrêter-masquer">11.2.1.18 Mettre sur pause， arrêter， masquer</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le tableau 11.18 ： Mettre sur pause， arrêter， masquer ：</p>
+<p>Pour toute information en更新， clignotante， défilante ou mise à jour automatiquement， tous les points suivants sont vrais ：</p>
+<p>Déplacement， clignotement， défilement ： pour toute information enment， clignotante ou défilante qui (1) démarre automatiquement， (2) dure plus de cinq secondes et (3) est présentée conjointement avec un autre contenu， l'utilisateur dispose d'un ècanisme pour la mettre en pause， l'arrêter ou la masquer， à moins que leeivement， le clignotement ou le défilement s'avère un élément essentiel au bon déroulement de l'activité;et</p>
+<p>Mise à jour automatique ： pour toute information mise à jour automatiquement qui (1) démarre automatiquement et (2) est présentée conjointement avec un autre contenu， l'utilisateur dispose d'un ècanisme pour la mettre en pause， l'arrêter ou pour contrêler la fréquence des mises à jour à moins que la mise à jour automatique s'avère essentielle au bon déroulement de l'activité.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="pas-plus-de-trois-flashs-ou-sous-le-seuil-critique">11.2.1.19 Pas + de trois flashs ou sous le seuil critique</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 critères de succès indiqués Dans le tableau 11.19： trois ou flashs for sous seuil</p>
-<p>Le logiciel est 免税 de tout élément qui flashe + trois fois dans n'importe quel intervalle d'une seconde ou ce flash doit se situer sous le seuil de générique seuil et 鲁日 de。</p></td>
-<td>Pris 费</td>
+<td><h3 id="pas-plus-de-trois-flashs-ou-sous-le-seuil-critique">11.2.1.19 Pas plus de trois flashs ou sous le seuil cridique</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les critères de succès indiqués dans le tableau 11.19 ： Pas plus de trois flashs ou sous le seuil critique：</p>
+<p>Le logiciel est exempt de tout élément qui flashe plus de trois fois fois dans n'importe quel intervalle d'une seconde ou ce flash doit se ous le seuil de flash générique et le seuil de flash rouge.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="parcours-du-focus">11.2.1.22 Parcours du 焦点</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.22： Parcours du 的重点：</p>
-<p>Si 未 logiciel peut être parcouru façon séquentielle que 果 séquences affectent de signification l'action 果éléments reçoivent dans ordre qui préserve for signification l'opérabilité</p></td>
-<td>Pris 费</td>
+<td><h3 id="parcours-du-focus">11.2.1.22 Parcours du focus</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.22 ： Parcours du focus ：</p>
+<p>Si un logiciel peut être parcouru de façon séquentielle et que les séquences de navigation affectent la signification ou l'action， les éléments reçoivent le focus dans un ordre qui préserve la signification et l'opérabilité.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="fonction-du-lien-selon-le-contexte">11.2.1.23 Fonction du lien （selon le contexte）</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.23： Fonction： lien （selon le contexte）：</p>
-<p>La fonction de chaque lien peut être déterminée par le texte du lien seul ou par texte du lien associé： contexte du lien déterminé par informatique，sauf si fonction du lien est ambiguë浇筑 tout utilisateur。</p></td>
-<td>Pris 费</td>
+<td><h3 id="fonction-du-lien-selon-le-contexte">11.2.1.23 Fonction du lien (selon le contexte) </h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.23 ： Fonction du lien (selon le contexte) ：</p>
+<p>La fonction de chaque lien peut être déterminée par le texte du lien seul ou par le texte du lien associé à un contexte du lien déterminé par un programme informatique， sauf si la fonction du lien est ambiguë pour tout utilisateur.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="en-têtes-et-étiquettes">11.2.1.25 En têtes et étiquettes</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.25： En têtes et étiquettes：</p>
-<p>果 en têtes et 果étiquettes décrivent le sujet ou la fonction。</p></td>
-<td>Pris 费</td>
+<td><h3 id="en-têtes-et-étiquettes">11.2.1.25 En-têtes et étique一s</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.25 ： En-têtes et étiqueès：</p>
+<p>Les en-têtes et les étique一s décrivent le sujet ou la fonction.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="visibilité-du-focus">11.2.1.26 Visibilité du 焦点</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères Succès indiqués Dans Visibilité le 11.26： du 重点：</p>
-<p>Toute interface utilisateur utilisable au clavier comporte 取消模式 de fonctionnement dans le cadre duquel l'indicateur clavier</p></td>
-<td>Pris 费用 avec des 异常</td>
-<td>Certaines commandes dans 投票（Q &amp; A）白板 ne présentent pas de clavier。</td>
+<td><h3 id="visibilité-du-focus">11.2.1.26 Visibilité du focus</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le 11.26 ： Visibilité du focus ：</p>
+<p>Toute 接口 utilisateur utilisable au clavier comporte un mode de fonctionnement dans le utilisquel l'indicateur de focus clavier est visible.</p></td>
+<td>Pris en charge avec des exceptions</td>
+<td>Certaines 命令 dans Poll、Q &amp; A et Whiteboard ne présentent pas de focus clavier。</td>
 </tr>
 <tr class="odd">
 <td><h3 id="langue-du-logiciel">11.2.1.27 Langue du logiciel</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui prend l'accès d'assistance aux 11.27 技术 d'écran elle remplit 果 Critères Succès indiqués Dans Tableau Langue logiciel：</p>
-<p>Le langage humain par défaut du logiciel peut être déterminé par 没有计划 informatique。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le Tableau 11.27 ： Langue du logiciel ：</p>
+<p>Le langage humain par défaut du logiciel peut être déterminé par un programme informatique.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="au-focus">11.2.1.29 Au 重点</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.29：</p>
-<p>Quand 没有 composant reçoit le 焦点，il ne doit pas initier 取消 changement de contexte。</p></td>
-<td>Pris 费</td>
+<td><h3 id="au-focus">11.2.1.29 Au 焦点</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.29 ： Au focus ：</p>
+<p>Quand un composant reçoit le focus， il ne doit pas initier un changement de contexte.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="à-la-saisie">11.2.1.30 À la saisie</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.30：À la saisie：</p>
-<p>Le changement de paramètres d'un <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/consistent-behavior-unpredictable-change.html#user-interface-componentdef">composant d'interface utilisateur</a> ne provoque pas automatiquement 解除 changement contexte à moins que l'utilisateur n'ait été avisé comportement avant for d'utiliser。</p></td>
-<td>Pris 费</td>
+<td><h3 id="à-la-saisie">11.2.1.30 À la花样</h3>
+<p>Dans le cas o à la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.30 ： À la花sie ：</p>
+<p>Le changement de paramètres d'un <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/consistent-behavior-unpredictable-change.html#user-interface-componentdef">composant d'interface utilisateur</a> ne provoque pas automatiquement un changement de contexte à moins que l'utilisateur n'ait été avisé de ce comportement avant d'utiliser le composant.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="identification-des-erreurs">11.2.1.33 识别 des erreurs</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui prend l'accès d'assistance aux 11.33 技术 d'écran elle remplit 果 Critères Succès indiqués Dans Tableau erreurs：</p>
-<p>Si une erreur saisie est automatiquement détectée，l'élément porteur de l'erreur est identifié et l'erreur est décrite à l'utilisateur sous forme de texte。</p></td>
-<td>Pris 费</td>
+<td><h3 id="identification-des-erreurs">11.2.1.33 标识分析</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le Tableau 11.33 ： Identification des erreurs：</p>
+<p>Si une erreur de automatsie est automatiquement détectée， l'élément porteur de l'erreur est identifié et l'erreur est décrite à l'utilisateur sous forme de texte.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="étiquettes-ou-instructions">11.2.1.34 Étiquettes ou 指令</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.34：Étiquettes ou 说明：</p>
-<p>Des étiquettes ou 说明 sont présentées quand 取消 contenu requiert une saisie de part de l'utilisateur。</p></td>
-<td>Pris 费</td>
+<td><h3 id="étiquettes-ou-instructions">11.2.1.34 Étique一s ou 说明</h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.34 ： Étiqueès ou instructions：</p>
+<p>Des étique一s ou instructions sont présentées quand un contenu requiert uneiquesie de la part de l'utilisateur.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="suggestion-après-une-erreur">11.2.1.35 建议 après une erreur</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le Tableau 11.35：建议 après une erreur：</p>
-<p>Si une erreur de saisie est automatiquement détectée et des 建议取消更正 sont connues，ces 建议 sont alors proposées à l'utilisateur à moins que cela a risque de compromettre sécurité ou la finalité。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas oé la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.35 ： Suggestion après une erreur：</p>
+<p>Si une erreur deiquesie est automatiquement détectée et si des suggestions de correction sont connues， ces suggestions sont alors proposées à l'utilisateur à moins que cela ne risque de compromettre la sécurité ou la finalité du contenu.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="prévention-des-erreurs-juridiques-financières-de-données">11.2.1.36 Prévention des erreurs （juridiques、financières、de données）</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur，elle remplit 果 Critères de Succès indiqués Dans le tableau 11.36： Prévention des erreurs （juridiques，financières，de données）：</p>
-<p>浇筑果 logiciels qui entraînent des 义务 légales ou des 交易 financières de part de l'utilisateur，qui modifient ou effacent des données contrôlables l'utilisateur dans des systèmes de stockages données qui ou enregistrent 果 réponses l'utilisateur moins des 测试，au l'une suivantes：</p>
-<p>Réversibilité：果 soumissions sont réversibles。</p>
-<p>Vérification：果 données saisies par l'utilisateur sont vérifiées au niveau des erreurs saisie et possibilité est donnée à l'utilisateur de 果 corriger。</p>
-<p>确认：取消 mécanisme est disponible 浇筑检查，confirmer et corriger 果信息 avant de finaliser leur soumission。</p></td>
-<td>Pris 费</td>
+<td><h3 id="prévention-des-erreurs-juridiques-financières-de-données">11.2.1.36 Prévention des erreurs (juridiques， financières， de données) </h3>
+<p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le tableau 11.36 ： Prévention des erreurs (juridiques， financières， de données) ：</p>
+<p>Pour les logiciels qui entraînent des obligations légales ou des transactions financières de la part de l'utilisateur， qui modifient ou effacent des données contr àlables par l'utilisateur dans des systèmes de stockages de données ou qui enregistrent les réponses de l'utilisateur à des tests， au moins l'une des conditions suivantes est vraie：</p>
+<p>Réversibilité： les soumissions sont réversibles.</p>
+<p>Vérification ： les donnéesérsies par l'utilisateur sont vérifiées au niveau des erreurs deie et la possibilité est donnée à l'utilisateur de les corriger.</p>
+<p>确认：un mécanisme est disponible pourmission， confirmer et corriger les informations avant de finaliser leur soumission.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="analyse-syntaxique">11.2.1.37 分析 syntaxique</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui permet l'accès à des 技术 d'assistance，elle remplit 果 Critères de Succès indiqués Dans le 11.37 Tableau</p>
-<p>浇筑 logiciel qui utilise des suivis de langue de telle manière que suivi le indiqué est séparément d'assistance caractéristiques d'accessibilité logiciel d'un agent utilisateur sélectionnable utilisateur 果éléments 功能 suivis début complètes sont imbriqués conformément leurs spécifications contiennent d'attributs dupliqués chaque，，ID est ID est 是唯一的，sauf dans le cas où果 spécifications autorisent ces caractéristiques。</p></td>
-<td>Pris 费</td>
+<td><h3 id="analyse-syntaxique">11.2.1.37 分析语法ique</h3>
+<p>Dans le cas o à la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès à des technologies d'assistance， elle remplit les Critères de Succès indiqués dans le Tableau 11.37： Analyse syntaxique ：</p>
+<p>Pour un logiciel qui utilise des suivis de modification de langue de telle manière que le suivi est indiqué séparément et à la disposition des technologies d'assistance et caractéristiques d'accessibilité du logiciel ou d'un agent utilisateur sélectionnable par un utilisateur， les éléments ont des suivis de modification de début et de fin complètes， ils sont imbriqués conformément à leurs spécifications， ils ne contiennent pas d'ivis dupliqués et chaque ID est unique，sauf dans le cas oé les spécifications autoificationt ces caractéristiques.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom，rôle et valeur</h3>
-<p>Dans le cas où la TIC est 取消 logiciel 非 web qui est doté d'une 接口 utilisateur et qui permet l'accès à des 技术 d'assistance，elle remplit 果 Critères Succès 11.38 indiqués Dans tableau Nom</p>
-<p>浇筑 tout composant d'une interface utilisateur （et notamment des éléments formulaire，liens et composants générés par des 脚本），le nom et le rôle peuvent être déterminés informatique;果états，果 propriétés et 果 valeurs qui peuvent être paramétrés par l'utilisateur peuvent être définis informatique;et 通知 des changements 与éléments 的 mise，utilisateurs à la</p></td>
-<td>Pris 费用 avec des 异常</td>
-<td>1)Pas d'accès de programmation dans 投票，Q &amp; A Et 白板。<br />
-2)Le contenu des fichiers PowerPoint partagé n'est pas exposé par programmation。<br />
-3)果：见 l'appareil audio ne sont pas entièrement exposées par programmation dans 果 boîtes 见果选项。</td>
+<td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom、r与le et valeur</h3>
+<p>Dans le cas o à la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès à des technologies d'assistance， elle remplit les Critères de Succès indiqués dans le tableau 11.38 ： Nom， r àle et valeur ：</p>
+<p>Pour tout composant d'une interface utilisateur (et notamment des éléments de formulaire， liens et composants générés par des scripts) ， le nom et le rréle peuvent être déterminés par un编程 informatique;les états， les propriétés et les valeurs qui peuvent être paramétrés par l'utilisateur peuvent être définis par un programme informatique ;et la notification des changements de ces éléments est mise à la disposition des agents utilisateurs， et notamment des technologies d'assistance.</p></td>
+<td>Pris en charge avec des exceptions</td>
+<td>1) Pas d'accès de 可编程 dans Poll， Q &amp; A et Whiteboard.<br />
+2)Le contenu des fichiers PowerPoint partagé n'est pas exposé par 可编程。<br />
+3) Les informations sur l'appareil audio ne sont pas entièrement exposées par 可编程 dans les boîtes de dialogue sur les options.</td>
 </tr>
 <tr class="even">
 <td><h3 id="section-1">11.2.2.1 – 11.2.2.38</h3></td>
@@ -537,214 +537,214 @@ Cette 第 ne s'applique pas： Skype Entreprise 2016。
 <td>Fonctionnalité fermée</td>
 </tr>
 <tr class="odd">
-<td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-un-logiciel-qui-est-doté-dune-interface-utilisateur">11.3.2.1 Prise en des 服务 d'accessibilité de la forme 浇筑 logiciel qui doté d'une utilisateur 接口</h3>
-<p>Le logiciel de la forme fournit 取消 ensemble de forme documentés qui permettent logiciel qui doté d'une utilisateur fonctionnant 见 logiciel forme d'interagir avec technologie d'assistance</p>
-<p>Le logiciel de la-forme doit être 兼容的 avec 果 exigences 11.3.2.5 à11.3.2.17 étant toutefois entendu que for dans for cas où le 概念 d'une 接口 utilisateur qui 对应于à l'une des 子句11.3.2.5 à 11.3.2.17 n'est pas 兼容的 avec l'environnement logiciel，ces exigences ne s'appliquent pas。 Par exemple，果 attributs de sélection du 11.3.2.14 （修改 du 将焦点 et attributs sélection） peuvent ne pas exister dans 果 environnements qui ne permettent pas sélection，ce qui est souvent le cas de fonction 复印机-coller。</p></td>
+<td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-un-logiciel-qui-est-doté-dune-interface-utilisateur">11.3.2.1 Prise en charge des services d'accessibilité de la plate-forme pour un logiciel qui est doté d'une interface utilisateur</h3>
+<p>Le logiciel de la plate-forme fournit unensemble de services de plate-forme documentés qui permettent à un logiciel qui est doté d'une interface utilisateur fonctionnant sur le logiciel de la plate-forme d'interagir avec la technologie d'assistance.</p>
+<p>Le logiciel de la plate-forme doit être compatible avec les exigences 11.3.2.5 à 11.3.2.17 étant toutefois entendu que， dans le cas o à le concept d'une interface utilisateur qui correspond à l'une des clauses 11.3.2.5 à 11.3.2.17 n'est pas compatible avec l'environnement logiciel， ces exigences ne s'appliquent pas. Par exemple， les leslection du 11.3.2.14 (Modification du focus et modifications de sélection) peuvent ne pas exister dans les environnements qui ne permettent pas la sélection， ce qui est le souvent le cas de la fonction copier-coller.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-les-technologies-dassistance">11.3.2.2 Prise en-us 服务 d'accessibilité de la forme 浇筑果技术 d'assistance</h3>
-<p>Le logiciel de la fournit d'accessibilité forme documentés qui permettent technologie d'assistance d'interagir avec logiciel qui doté d'une utilisateur fonctionnant 见 logiciel forme ensemble</p>
-<p>Le logiciel de la-forme doit répondre aux exigences des 子句11.3.2.5 à11.3.2.17 étant toutefois entendu que，dans le cas où le 概念 d'une 接口 utilisateur qui 对应于à l'une des 子句11.3.2.5 à 11.3.2.17 n'est pas 兼容的 avec l'environnement logiciel，ces exigences ne s'appliquent pas。</p></td>
-<td>不适用</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><h3 id="utilisation-des-services-daccessibilité">11.3.2.3 Utilisation des services d'accessibilité</h3>
-<p>Dans le cas où le logiciel présente une 接口 utilisateur，il utilisera 果服务 documentés d'accessibilité applicables de la-forme。 Si ces 服务 documentés d'accessibilité de la forme ne permettent pas au logiciel remplir 果 exigences applicables des 子句11.3.2.5 à 11.3.2.17 alors logiciel qui doté d'une utilisateur utilise d'autres documentés interagir avec technologie d'assistance 服务。</p></td>
-<td>Pris 费</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><h3 id="technologie-dassistance">11.3.2.4 Technologie d'assistance</h3>
-<h3 id="dans-le-cas-où-la-tic-est-une-technologie-dassistance-elle-utilise-les-services-documentés-daccessibilité-de-la-plate-forme.">Dans le cas où la TIC est une technologie d'assistance，elle utilise 果服务 documentés d'accessibilité de la-forme。</h3></td>
+<td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-les-technologies-dassistance">11.3.2.2 Prise en charge des services d'accessibilité de la plate-forme pour les technologies d'assistance</h3>
+<p>Le logiciel de la plate-forme fournit unensemble de services d'accessibilité de la plate-forme documentés qui permettent à la technologie d'assistance d'interagir avec logiciel qui est doté d'une interface utilisateur fonctionnant sur le logiciel de la plate-forme.</p>
+<p>Le logiciel de la plate-forme doit répondre aux exigences des clauses 11.3.2.5 à 11.3.2.17 étant toutefois entendu que， dans le cas o à le concept d'une interface utilisateur qui correspond à l'une des clauses11.3.2.5 à 11.3.2.17 n'est pas compatible avec l'environnement logiciel， ces exigences ne s'appliquent pas.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="informations-relatives-à-lobjet">11.3.2.5 的亲戚亲戚 l'objet</h3>
-<p>Dans le cas où le logiciel présente une 接口 utilisateur il rendra，en utilisant 果 services décrits Dans la 子句11.3.2.3，le rôle，l'état ou 果états，la frontière，le nom et description des éléments l'interface utilisateur déterminables par informatique 果技术 d'assistance。</p></td>
-<td>Pris 费</td>
+<td><h3 id="utilisation-des-services-daccessibilité">11.3.2.3 利用 des services d'accessibilité</h3>
+<p>Dans le cas oré le logiciel présente une interface utilisateur， il utilisera les services documentés d'accessibilités de la plate-forme. Si ces services documentés d'accessibilité de la plate-forme ne permettent pas au logiciel de remplir les exigences applicables des clauses 11.3.2.5 à 11.3.2.17， alors un logiciel qui est doté d'une interface utilisateur utilise d'autres services documentés pour interagir avec la technologie d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="ligne-colonne-et-titres">11.3.2.6 Ligne，Colonne et titres</h3>
-<p>Dans le cas où le logiciel présente une 接口 utilisateur、il rendra、à l'aide des 服务 décrits Dans la 子句11.3.2.3、la ligne et colonne chaque cellule d'un tableau données compris 果 titres colonne ligne s'il déterminables informatique 果 d'assistance 技术。</p></td>
-<td>Pris 费</td>
+<td><h3 id="technologie-dassistance">11.3.2.4 技术协助</h3>
+<h3 id="dans-le-cas-où-la-tic-est-une-technologie-dassistance-elle-utilise-les-services-documentés-daccessibilité-de-la-plate-forme.">Dans le cas oé la TIC est une technologie d'assistance， elle utilise les services documentés d'accessibilité de la plate-forme.</h3></td>
+<td>不适用</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h3 id="informations-relatives-à-lobjet">11.3.2.5 Informations à l'objet</h3>
+<p>Dans le cas oré le logiciel présente une interface utilisateur il rendra， en utilisant les services décrits dans la clause 11.3.2.3， le r以le， l'état ou les états， la frontière， le nom et la description des éléments de l'interface utilisateur déterminables par un编程 informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><h3 id="ligne-colonne-et-titres">11.3.2.6 Ligne、Colonne et titres</h3>
+<p>Dans le cas oré le logiciel présente une interface utilisateur， il rendra， à l'aide des services décrits dans la clause 11.3.2.3， la ligne et la colonne de chaque cellule d'un tableau de données， y compris les titres de la colonne et de la ligne s'il y en a， déterminables par un programme informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="valeurs">11.3.2.7 Valeurs</h3>
-<p>Dans le cas où le logiciel présente une 接口 utilisateur，il rendra，à l'aide des services décrits Dans la 子句11.3.2.3，la valeur actuelle d'un élément l'interface utilisateur toutes valeurs minimales maximales fourchette l'élément l'interface utilisateur transmet 见 une fourchette valeurs déterminables informatique 果 d'assistance。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas o à le logiciel présente une interface utilisateur， il rendra， à l'aide des services décrits dans la clause 11.3.2.3， la valeur actuelle d'un élément de l'interface utilisateur et toutes valeurs minimales oumaxales de la fourchette， si l'élément de l'interface utilisateur transmet des informations sur une fourchette de valeurs， déterminables par un编程 informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="relations-des-étiquettes">11.3.2.8 关系 des étiquettes</h3>
-<p>Dans le cas où le logiciel présente une interface utilisateur，il exposera la qu'un élément l'interface utilisateur tant qu'étiquette d'un autre élément tant qu'élément étiqueté autre élément l'aide，à décrits des services Dans 11.3.2.3 la sorte que，de soient déterminables ces 服务 informatique 果 d'assistance 技术。</p></td>
-<td>Pris 费</td>
+<td><h3 id="relations-des-étiquettes">11.3.2.8 关系</h3>
+<p>Dans le cas oré le logiciel présente une interface utilisateur， il exposera la relation qu'un élément de l'interface utilisateur a en tant qu'étiquement d'un autre élément， ou en tant qu'élément étiqueté par un autre élément， à l'aide des services décrits dans la clause 11.3.2.3， de sorte que ces informations soient déterminables par un programme informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="relations-parent-enfant">11.3.2.9 关系父母-enfant </h3>
-<p>Dans le cas où le logiciel présente une 接口 utilisateur、il rendra、à l'aide des 服务 décrits Dans la 子句11.3.2.3、la entre élément l'interface des utilisateur éléments enfant déterminables informatique 技术果。</p></td>
-<td>Pris 费</td>
+<td><h3 id="relations-parent-enfant">11.3.2.9 关系父级 </h3>
+<p>Dans le cas o à le logiciel présente une interface utilisateur， il rendra， à l'aide des services décrits dans la clause 11.3.2.3， la relation entre un élément de l'interface utilisateur et des éléments parent ou enfant déterminables par un programme informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="texte">11.3.2.10 Texte</h3>
-<p>Dans le cas où le logiciel présente une 接口 utilisateur、il rendra、à l'aide des 服务 décrits Dans la 子句11.3.2.3、果 contenus textuels、果 attributs textuels et frontière texte： qui apparaît l'écran，déterminables informatique 技术果。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas o à le logiciel présente une interface utilisateur， il rendra， à l'aide des services décrits dans la clause 11.3.2.3， les contenus textuels， les utiliss textuels et la frontière du texte qui apparaît à l'écran， déterminables par un programme informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="liste-des-actions-disponibles">11.3.2.11 Liste des 操作 disponibles</h3>
-<p>Dans le cas où le logiciel présente une 接口 utilisateur、il rendra、à l'aide des 服务 décrits Dans la 子句11.3.2.3、une liste des 操作 disponibles qui peuvent être exécutées 见élément l'interface utilisateur déterminable informatique 果技术 d'assistance。</p></td>
-<td>Pris 费</td>
+<td><h3 id="liste-des-actions-disponibles">11.3.2.11 列出操作 disponibles</h3>
+<p>Dans le cas o à le logiciel présente une interface utilisateur， il rendra， à l'aide des services décrits dans la clause 11.3.2.3， une liste des actions disponibles qui peuvent être exécutées sur un élément de l'interface utilisateur déterminable par un programme informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="exécution-des-actions-disponibles">11.3.2.12 Exécution des 操作 disponibles </h3>
-<p>Si 果 exigences l'autorisent logiciel qui doté d'une utilisateur autorise utilisant，果 décrits dans services 11.3.2.3 l'exécution la programmatique，exposées conformément des 操作 11.3.2.11 par 果技术 d'assistance。</p></td>
-<td>Pris 费</td>
+<td><h3 id="exécution-des-actions-disponibles">11.3.2.12 Exécution des actions disponibles </h3>
+<p>Si les exigences de sécurité l'auto一t， un logiciel qui est doté d'une interface utilisateur autorise， en utilisant les services décrits dans la clause 11.3.2.3， l'exécution programmatique des actions exposées conformément à la clause 11.3.2.11 par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="suivi-du-focus-et-des-attributs-de-sélection">11.3.2.13 Suivi du 将焦点 et 到 des attributs de sélection</h3>
-<p>Dans le cas où le logiciel est doté d'une 接口 utilisateur，il rendra，à l'aide des 服务 décrits Dans：11.3.2.3 果 mécanismes le 焦点，le point nécessaires du suivre et d'insertion texte 果 attributs sélection éléments l'interface utilisateur déterminables informatique</p></td>
-<td>Pris 费</td>
+<td><h3 id="suivi-du-focus-et-des-attributs-de-sélection">11.3.2.13 Suivi du focus et des de sélection</h3>
+<p>Dans le cas oé le logiciel est doté d'une interface utilisateur， il rendra， à l'aide des services décrits dans la clause 11.3.2.3， les informations et mécanismes nécessaires pour suivre le focus， le point d'insertion du texte et lesiques de sélection des éléments de l'interface utilisateur， déterminables par un programme informatique par les technologies d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="modification-du-focus-et-des-attributs-de-sélection">11.3.2.14 修改 du 将焦点 et 到 des attributs de sélection</h3>
-<p>Si 果 exigences l'autorisent logiciel qui doté d'une utilisateur autorise utilisant，果 décrits services dans 11.3.2.3 la 子句果，d'assistance 技术 informatique à修饰符 par 未计划 d'insertion le 焦点，le point texte du 果 et attributs sélection éléments l'interface utilisateur dans mesure où。</p></td>
-<td>Pris 费</td>
+<td><h3 id="modification-du-focus-et-des-attributs-de-sélection">11.3.2.14 修改 du focus et desections de sélection</h3>
+<p>Si les exigences de sécurité l'auto一t， un logiciel qui est doté d'une interface utilisateur autorise， en utilisant les services décrits dans la clause 11.3.2.3， les technologies d'assistance à modifier par un programme informatique le focus， le point d'insertion du texte et les utiliss de sélection des éléments de l'interface utilisateur dans la mesure o à l'utilisateur peut les modifier.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="notification-des-changements">11.3.2.15 通知 des changements </h3>
-<p>Dans le cas où le logiciel est doté d'une 接口 utilisateur，il avisera，à l'aide des 服务 décrits Dans 11.3.2.3 果 d'assistance toute attributs éléments l'interface utilisateur déterminables informatique qui sont référencés Dans 果 exigences 11.3.2.5。</p></td>
-<td>Pris 费</td>
+<td><h3 id="notification-des-changements">11.3.2.15 通知取消更改 </h3>
+<p>Dans le cas o à le logiciel est doté d'une interface utilisateur， il avisera， à l'aide des services décrits dans la 11.3.2.3， les technologies d'assistance de toute modification des éléments de l'interface utilisateur déterminables par un programme informatique qui sont référencés dans les exigences 11.3.2.5 à 11.3.2.11 et 11.3.2.13.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="modifications-de-létat-et-des-propriétés">11.3.2.16 修改消除了 l'état et des propriétés</h3>
-<p>Si 果 exigences sécurité l'autorisent logiciel qui doté d'une utilisateur autorise 果 d'assistance utilisant 果 décrits dans 11.3.2.3 informatique l'état 果 propriétés éléments des l'interface de utilisateur dans，mesure où l'utilisateur peut 果修饰符。</p></td>
-<td>Pris 费</td>
+<td><h3 id="modifications-de-létat-et-des-propriétés">11.3.2.16 修改 de l'état et des propriétés</h3>
+<p>Si les exigences de sécurité l'auto一t， un logiciel qui est doté d'une interface utilisateur autorise les technologies d'assistance， en utilisant les services décrits dans la clause 11.3.2.3， à modifier par un programme informatique l'état et les propriétés des éléments de l'interface utilisateur， dans la mesure o à l'utilisateur peut les modifier.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="modifications-des-valeurs-et-du-texte">11.3.2.17 修改 des valeurs et du texte</h3>
-<p>Si 果 exigences l'autorisent logiciel qui doté d'une utilisateur autorise 果 d'assistance 技术 utilisant，en 果 décrits 服务 dans 11.3.2.3 la 果，à修饰符 valeurs texte et éléments des l'interface de utilisateur l'aide： méthodes des saisie de forme dans où for sécurité utilisateur peut 果 utiliser technologie d'assistance</p></td>
-<td>Pris 费</td>
+<p>Si les exigences de sécurité l'auto一t， un logiciel qui est doté d'une interface utilisateur autorise les technologies d'assistance， en utilisant les services décrits dans la 11.3.2.3， à modifier les valeurs et le texte des éléments de l'interface utilisateur à l'aide des méthodes de ledsie de la plate-forme， dans le cas o à à un utilisateur peut les modifier sans utiliser de technologie d'assistance.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="contrôle-par-lutilisateur-des-caractéristiques-daccessibilité">11.4.1 Contrôle par l'utilisateur des caractéristiques d'accessibilité</h3>
-<p>Dans le cas où取消 logiciel est une 盘子-forme，il 建议 des 模式 d'utilisation suffisants permettre contrôle l'utilisateur 见果 caractéristiques d'accessibilité forme qui sont documentées comme étant destinées utilisateurs。</p></td>
+<td><h3 id="contrôle-par-lutilisateur-des-caractéristiques-daccessibilité">11.4.1 Contrettele par l'utilisateur des caractéristiques d'accessibilité</h3>
+<p>Dans le cas oé un logiciel est une plate-forme， il 建议 des modes d'utilisation suffisants pour permettre un contrettele de l'utilisateur sur les caractéristiques d'accessibilité de la plate-forme qui sont documentées comme étant destinées aux utilisateurs.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="pas-de-perturbation-des-caractéristiques-daccessibilité">11.4.2 Pas de perturbation des caractéristiques d'accessibilité</h3>
-<p>Dans le cas où le logiciel est doté d'une 接口 utilisateur，il ne perturbe pas 果 caractéristiques d'accessibilité documentées qui sont définies Dans forme sauf l'utilisateur si demande le cours fonctionnement du logiciel。</p></td>
-<td>Pris 费</td>
+<p>Dans le cas o à le logiciel est doté d'une interface utilisateur， il ne perturbe pas les caractéristiques d'accessibilité documentées qui sont définies dans la documentation relative à la plate-forme sauf si l'utilisateur le demande en cours de fonctionnement du logiciel.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="préférences-de-lutilisateur">11.5 Préférences de l'utilisateur</h3>
-<p>Dans le cas où le logiciel est doté d'une 接口 utilisateur，il 建议 des 模式 d'utilisation suffisants qui utilisent 果 préférences de l'utilisateur 果（paramètres、forme、警方、couleur de 警察 contraste）、à taille des curseur l'exception logiciels qui sont ils destinés 中的 "être： isolés</p></td>
+<p>Dans le cas oé le logiciel est doté d'une interface utilisateur， il 建议 des modes d'utilisisants qui utilisent les préférences de l'utilisateur pour les paramètres de la plate-forme (couleur， contraste， police， taille de la police et utilisur de focus) ， à l'exception des logiciels qui sont destinés à être isolés de la plate-forme à laquelle ils appartiennent.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>11.6.2 Création de contenu 易于访问</strong></p>
-<p>果 systèmes auteurs permettent et guident la contenu conforme aux 子句9（Contenu Web） ou 10 （Contenu 非 web） telles qu'applicables。</p></td>
+<td><p><strong>11.6.2 可访问的 Création de contenu</strong></p>
+<p>Les systèmes auteurs permettent et guident la production de contenu 符合 aux 子句 9 (Contenu Web) ou 10 (Contenu 非 web) telles qu'applicables.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>11.6.3 Préservation des 见 l'accessibilité dans le cadre des 转换</strong></p>
-<p>Si le système auteur 确保 des 转换消除了 restructuration ou des 转换 recodage alors 果见 l'accessibilité sont préservées dans résultat s'il existe mécanismes équivalents dans technologie du contenu</p></td>
+<td><p><strong>11.6.3 Préservation des informations sur l'accessibilité dans leré des transformations</strong></p>
+<p>Si le système auteur assure des transformations de restructuration ou des transformations de recodage， alors les informations sur l'accessibilité sont préservées dans le résultat s'il existe des mécanismes équivalents dans la technologie du contenu du résultat.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>11.6.4 协助à la réparation</strong></p>
-<p>Si la fonctionnalité de contrôle de l'accessibilité d'un système auteur peut détecter que le contenu ne remplit pas une exigence des 子句9（Contenu Web） ou 10 （Documents） selon le cas，alors le système auteur présente une ou plusieurs 建议 de réparation。</p></td>
+<td><p><strong>11.6.4 协助 à la réparation</strong></p>
+<p>Si la fonctionnalité de contrettele de l'accessibilité d'un système auteur peut détecter que le contenu ne remplit pas une exigence des clauses 9 (Contenu Web) ou 10 (Documents) selon le cas， alors le système auteur présente une ou plusieurs suggestions de réparation.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>11.6.5 Modèles</strong></p>
-<p>Quand 未 système auteur 建议 des modèles，au moins modèle prenant création contenu de conforme exigences aux contenu des 子句9（Web selon） ou 10 （Documents）、disponible le cas、est identifié et comme 电话。</p></td>
+<td><p><strong>11.6.5 修改</strong></p>
+<p>Quand un système auteur 建议 des modèles， au moins un modèle prenant en charge la création de contenu conforme aux exigences des clauses 9 (Web contenu) ou 10 (Documents) ， selon le cas， est disponible et identifié comme tel.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="section-12-documentation-et-services-dassistance"></a>第12款文档 et 服务 d'assistance
+### <a name="section-12-documentation-et-services-dassistance"></a>第 12 节文档和服务 d'assistance
 
 <table>
-<caption>第5部分</caption>
+<caption>第 5 部分</caption>
 <tbody>
 <tr class="odd">
 <td><strong>Critères</strong></td>
-<td><strong>Fonctionnalités prises</strong></td>
+<td><strong>Fonctionnalités prises en charge</strong></td>
 <td><strong>Remarques et explications</strong></td>
 </tr>
 <tr class="even">
-<td><h3 id="caractéristiques-daccessibilité-et-de-compatibilité">12.1.1 Caractéristiques d'accessibilité compatibilité</h3>
-<p>La 文档 produit fournie avec la TIC，qu'elle soit fournie séparément ou intégrée dans la TIC，dresse la liste des caractéristiques d'accessibilité compatibilité TIC explique 果 utiliser。</p></td>
-<td>Pris 费</td>
+<td><h3 id="caractéristiques-daccessibilité-et-de-compatibilité">12.1.1 Caractéristiques d'accessibilité et de compatibilité</h3>
+<p>La documentation produit fouruit avec la TIC， qu'elle soit four一 séparément ou intégrée dans la TIC， dresse la liste des caractéristiques d'accessibilité et de compatibilité de la TIC et explique comment les utiliser.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="documentation-accessible">12.1.2 文档易于访问 </h3>
-<p>La 文档 produit fournie avec la TIC est mise à处置 dans au moins 不带 des 格式électroniques suivants：</p>
-<p>a）取消格式 web qui est conforme à la 子句9，ou</p>
-<p>b）取消非 web qui est conforme à la 子句10的格式。</p></td>
-<td>Pris 费</td>
+<td><h3 id="documentation-accessible">12.1.2 文档可访问 </h3>
+<p>La documentation produit four一 avec la TIC est mise à disposition dans au moins un des formats électroniques suivants：</p>
+<p>a) un format web qui est conforme à la clause 9， ou</p>
+<p>b) 非 web qui est 格式符合 à la 子句 10。</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="informations-sur-les-caractéristiques-daccessibilité-et-de-compatibilité">12.2.2 见果 caractéristiques d'accessibilité et compatibilité</h3>
-<p>果 services d'assistance de TIC communiquent des 服务见果 caractéristiques d'accessibilité compatibilité qui sont mentionnées dans produit la 文档。</p></td>
-<td>Pris 费</td>
+<td><h3 id="informations-sur-les-caractéristiques-daccessibilité-et-de-compatibilité">12.2.2 Informations sur les caractéristiques d'accessibilité et de compatibilité</h3>
+<p>Les services d'assistance de la TIC communiquent des informations sur les caractéristiques d'accessibilité et de compatibilité qui sont mentionnées dans la documentation produit.</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="efficacité-de-la-communication">12.2.3 Efficacité de la 通信 </h3>
-<p>果 services d'assistance de la TIC répondent aux besoins en 通信 des personnes porteuses handicap directement depuis ou référence 无点 de。</p></td>
-<td>Pris 费</td>
-<td><a href="https://support.microsoft.com/answerdesk/accessibility">残疾人士应答台</a></td>
+<td><h3 id="efficacité-de-la-communication">12.2.3 Efficacité de la communication </h3>
+<p>Les services d'assistance de la TIC répondent aux besoins en communication des personnes porteuses deement ou depuis un point de référence.</p></td>
+<td>Pris en charge</td>
+<td><a href="https://support.microsoft.com/answerdesk/accessibility">残障人士Answer Desk</a></td>
 </tr>
 <tr class="even">
-<td><h3 id="documentation-accessible-1">12.2.4 文档易于访问 </h3>
-<p>La 文档 fournie par 果服务 d'assistance est mise à处置 dans au moins 不带 des 格式électroniques suivants：</p>
-<p>a）取消格式 Web qui est conforme à la 子句9，ou</p>
-<p>b）取消非 web qui est conforme à la 子句10的格式。</p></td>
-<td>Pris 费</td>
+<td><h3 id="documentation-accessible-1">12.2.4 文档可访问 </h3>
+<p>La documentation four一 par les services d'assistance est mise à disposition dans au moins un des formats électroniques suivants ：</p>
+<p>a) un format Web qui est conforme à la clause 9， ou</p>
+<p>b) 非 web qui est 格式符合 à la 子句 10。</p></td>
+<td>Pris en charge</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="section-13-tic-assurant-le-relais-ou-laccs--des-services-durgence"></a>第13部分 TIC assurant le relais ou l'accès à des 服务 d'urgence
+### <a name="section-13-tic-assurant-le-relais-ou-laccs--des-services-durgence"></a>第 13 节 TIC assurant le relais ou l'accès à des services d'紧急
 
-Cette 第 ne s'applique pas 的 Skype Entreprise2016。
+Cette section ne s'applique pas à Skype Entreprise2016.
 
 ## 
 
-© 2017 Microsoft Corporation。 Tous droits réservés. 果 noms des sociétés et des produits mentionnés dans le présent document peuvent être 果 marques leurs propriétaires respectifs。 果： qui figurent dans le présent 文档构成 l'opinion actuelle Microsoft Corporation 见果 thèmes concernés à开始日期发布。
-Microsoft ne peut garantir l'exactitude d'une information présentée après la 日期发布。 Microsoft 已满足 régulièrement à jour ses 网站 Internet et publie 见 l'accessibilité produits dès qu'elles sont disponibles 的 nouvelles Information。
+© 2017 年 10 月 Microsoft Corporation。 Tous droits réservés。 Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication.
+Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft 满足 régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
 
-La personnalisation du produit annule la présente déclaration de conformité de de。 果客户功能 la possibilité de faire des déclarations de conformité indépendantes s'ils 功能 contrôlé avec toute raisonnable nécessaire que 果 mesures personnalisation qu'ils 功能 prises remplissent toutes 果 exigences
+La personnalation du produit annule la présente déclaration de conformité de Microsoft. Les clients ont la possibilité de faire des déclarations de conformité indépendantes s'ils ont contrlélé avec toute la diligence raisonnable nécessaire que les mesures de personnalation qu'ils ont prises remplissent toutes les exigences.
 
-浇筑 savoir plus 见果 spécifications compatibilité produits technologie de d'assistance spécifiques consultez vos fournisseurs d'assistance。
+Pour en savoir plus sur les spécifications de compatibilité de produits de technologie d'assistance spécifiques， consultez vos fournisseurs de technologies d'assistance.
 
-Le présent 文档 n'est pas la norme EN 301 549 v 1.1.2 （2015-04） et doit pas être utilisé de remplacement de celle de。果 extraits de la norme EN 301 549 v 1.1.2 qu'il contient sont référencés que décrire de conformité avec de se 处置。Exemplaire complet de la norme EN 301 549 v 1.1.2 （2015-04） est disponible dans ce PDF émanant l'European 电信标准研究所，du Comité Européen Normalisation Comité et Européen Normalisation de Électrotechnique。
+Le présent 文档 n'est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doit pas être utilisé en remplacement de celle-ci.Les extraits de la norme EN 301 549 v 1.1.2 qu'il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses dispositions.Un exemplaire 完成 de la norme EN 301 549 v 1.1.2 (2015-04) est disponible dans ce PDF émanant de l'European Telecommunications Standards Institute， du Comité Européen de Normalisation et du Comité Européen de Normal standards Électrotechnique.
 
 Le présent 文档 est fourni à titre indicatif。 MICROSOFT NE FOURNIT AUCUNE GARANTIE、EXPRESSE OU TACITE、DANS LE PRÉSENT 文档。

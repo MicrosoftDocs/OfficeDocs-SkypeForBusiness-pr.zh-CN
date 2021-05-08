@@ -1,1 +1,1 @@
-尚未在 Microsoft 团队管理中心中看到此功能？ 当前正在推出此功能，可能在贵组织中还不可用。 若要保持在即将到来的团队功能上，请查看 [Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
+在管理中心中Microsoft Teams此功能？ 当前正在推出此功能，可能在贵组织中还不可用。 若要随时了解即将推出的Teams功能，请查看[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。

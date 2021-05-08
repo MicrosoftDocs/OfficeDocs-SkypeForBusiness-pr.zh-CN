@@ -16,17 +16,17 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3e2c4d42d511e2a33a797099132ac42c0475d36
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112188"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264872"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================
 
-有三种类型的日志文件由客户端自动生成，可利用它们来帮助对 Microsoft Teams 进行故障排除：
+有三种类型的日志文件由客户端自动生成，可利用它们来帮助排查Microsoft Teams：
 
 -   调试日志
 
@@ -56,7 +56,7 @@ ms.locfileid: "51112188"
 <a name="debug-logs"></a>调试日志
 ---------------------------
 
-这些是最常见的日志，所有 Microsoft 支持案例都需要这些日志。 调试日志由 Windows 和 Mac 桌面客户端以及基于浏览器的客户端生成。 日志基于文本，从下而上读取。 可以使用任何基于文本的编辑器读取这些日志，并且登录到客户端时会创建新日志。
+这些是最常见的日志，所有 Microsoft 支持案例都需要这些日志。 调试日志由 Windows Mac 桌面客户端以及基于浏览器的客户端生成。 日志基于文本，从下而上读取。 可以使用任何基于文本的编辑器读取这些日志，并且登录到客户端时会创建新日志。
 
 调试日志显示以下数据流：
 
@@ -93,9 +93,9 @@ ms.locfileid: "51112188"
 <a name="media-logs"></a>媒体日志
 ---------------------------
 
-媒体日志包含有关 Teams 会议中音频、视频和屏幕共享的诊断数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
+媒体日志包含有关会议中音频、视频和屏幕共享的Teams数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
 
-默认情况下，媒体日志记录已关闭。 若要记录 Teams 会议的诊断数据，用户必须在 Teams 客户端中打开 该选项。 转到"**设置** 常规"，选中"为会议诊断启用日志记录 (需要重新启动 Teams) 复选框，重新启动 Teams 并  >  重现问题。  
+默认情况下，媒体日志记录已关闭。 若要记录会议Teams数据，用户必须在客户端中打开Teams选项。 转到 **"设置** 常规"，选中"为会议诊断启用日志记录 ("Teams) "复选框，重新启动Teams并重现  >  问题。  
 
 下表概述了媒体日志位置。 将日志文件发送给 Microsoft 支持人员时，请验证日志文件的时间戳，确保日志涵盖重现问题的时间范围。
 
@@ -126,7 +126,7 @@ ms.locfileid: "51112188"
 
 Windows：
 
- - 右键单击 **系统任务栏** 中的 Microsoft Teams 图标，然后选择"**获取日志"。**
+ - 右 **键单击Microsoft Teams** 任务栏中的"日志"图标，然后选择"**获取日志"。**
 
 Mac OsX：
 
@@ -134,7 +134,7 @@ Mac OsX：
 
 Linux：
 
- - 单击系统托盘 **中的 Microsoft Teams** 图标，然后选择"**获取日志"。**
+ - 单击系统 **Microsoft Teams** 中的"日志"图标，然后选择"**获取日志"。**
 
 |客户端 |位置 |
 |---------|---------|
@@ -142,6 +142,26 @@ Linux：
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
+
+<a name="browser-trace"></a>浏览器跟踪
+---------------------------
+
+对于某些类别的错误，Microsoft 支持可能会要求你收集浏览器跟踪。 此信息提供有关发生错误时客户端Teams状态的重要详细信息。
+
+在开始浏览器跟踪之前，请确保已登录到 Teams。 在开始跟踪之前，必须这样做，以便跟踪不包含敏感的登录信息。
+
+登录后，根据浏览器情况选择以下链接之一，然后按照提供的步骤操作。 
+
+-   [Chrome & Edge (Chromium) ](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
+
+-   [Edge](/azure/azure-portal/capture-browser-trace#microsoft-edge-edgehtml?preserve-view=true#resolution)
+
+-   [Safari](/azure/azure-portal/capture-browser-trace#apple-safari?preserve-view=true#resolution)
+
+-   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
+
+> [!NOTE]
+> 在步骤中，将 Azure 门户的所有引用替换为 Teams 客户端。 
 
 ## <a name="related-topics"></a>相关主题
 

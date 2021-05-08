@@ -1,5 +1,5 @@
 ---
-title: 从 Microsoft 团队中的现有团队模板创建新模板
+title: 从 Microsoft Teams 中的现有团队模板创建新Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何使用现有团队模板在 Microsoft 团队中创建新的团队模板。
+description: 了解如何使用现有团队模板在 Microsoft Teams 中创建新的团队模板。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -23,57 +23,57 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 09/30/2020
 ms.locfileid: "48308095"
 ---
-# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>从 Microsoft 团队中的现有团队模板创建新模板
+# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>从 Microsoft Teams 中的现有团队模板创建新Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**教育机构客户尚不支持自定义模板。**
+**EDU 客户尚不支持自定义模板。**
 
-Microsoft 团队提供预构建的模板，可以保存和修改这些模板以满足你的特定组织需求。
+Microsoft Teams提供预构建的模板，可保存和修改这些模板以满足你的特定组织需求。
 
-1. 登录团队管理中心。
+1. 登录到 Teams 管理中心。
 
-2. 在左侧导航中，展开 "**团队**  >  **团队模板**"。
+2. 在左侧导航栏中，展开 **Teams**  >  **团队模板"。**
 
-3. 在 " **团队模板** " 部分中，选择要复制的模板旁边的以突出显示它。
+3. 在 **"团队模板"** 部分中，选择要复制的模板旁边的以突出显示它。
 
-4. 选择 " **复制**"。
+4. 选择"**重复"。**
 
-!["团队模板" 对话框的图像，其中突出显示了 "添加"。](media/template-duplicate.png)
+![突出显示"添加"的"团队模板"对话框的图像。](media/template-duplicate.png)
 
- (或者，您可以选择 "**添加**"，  >  **使用现有模板**打开 "**选择要用作起点的模板"**。 ) 
+ (，也可以选择"使用现有模板添加开始&quot;打开&quot;选择要用作起点的模板  >  ") 
 
-![已突出显示现有模板的团队模板开始点屏幕的图像。](media/template-start-existing-template.png)
+!["团队模板起始点"屏幕的图像，其中突出显示了现有模板的"开始"屏幕。](media/template-start-existing-template.png)
 
-5. 在 " **选择要用作起始点的模板** " 屏幕中，选择 " **下一步**"。
+5. 在"**选择要用作起点的模板"屏幕** 中，选择"下一步 **"。**
 
-    将打开重复的模板，并将 " **副本** " 追加到名称。
+    复制的模板随即打开，名称后面追加了" **复制** "一词。
 
-6. 填写下列字段，然后选择 " **下一步**"：
+6. 完成以下字段，然后选择"下一 **步"：**
     - 模板名称
-    - 模板简要和详细说明
+    - 模板简短和长说明
     - 区域设置可见性  
 
-7. 在 " **频道"、"选项卡" 和 "应用** " 部分中，修改你的团队所需的任何现有频道和应用。
+7. 在 **"频道、选项卡和应用** "部分中，修改团队所需的任何现有频道和应用。
 
-    1. 选择要编辑的频道，然后选择 " **编辑**"。
-    2. 在完成时**应用**所做的更改。
+    1. 选择要编辑的频道，然后选择"编辑 **"。**
+    2. **完成后** 应用更改。
 
-8. 添加你的团队需要的任何频道或应用。
+8. 添加团队所需的任何频道或应用。
 
-    1. 在 " **频道** " 部分中，选择 " **添加**"。
-    2. 在 " **添加** " 对话框中，命名频道。
+    1. 在"**频道"部分中**，选择"**添加"。**
+    2. 在" **添加"** 对话框中，为通道命名。
     3. 添加说明。
-    4. 确定默认情况下是否显示频道。
-    5. 搜索要添加到频道的应用名称。
-    6. 完成后选择 " **应用** "。
+    4. 确定是否默认应显示通道。
+    5. 搜索要添加到通道的应用名称。
+    6. 完成后 **，选择"** 应用"。
 
-7. 完成添加频道和应用程序后，选择 " **提交** "。
+7. 添加 **完** 频道和应用后，选择"提交"。
 
-    新模板将保存到模板库中。
+    新模板将保存到模板库。
 
 > [!Note]
-> 团队用户最多需要24小时才能查看库中的自定义模板。
+> 团队用户最多可能需要 24 小时才能在库中看到自定义模板。
 
 ## <a name="related-articles"></a>相关文章
 

@@ -1,5 +1,5 @@
 ---
-title: 用于政府、教育机构和非盈利性组织
+title: 政府、教育机构和非营利性组织
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,22 +21,24 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关 GOV、EDU 和非营利组织计划的加载项许可证和功能。 '
-ms.openlocfilehash: ea3ac1e76f16de7a5cc7d9e32f16299bc348a613
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a9a0ca689c3e67927ee2d03636da296bbdf35c9a
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692497"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237418"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>用于政府、教育机构和非盈利性组织
+# <a name="gov-edu-and-non-profit-organizations"></a>政府、教育机构和非营利性组织
 
-Most Skype for Business features are available to .gov, .edu, and nonprofit organizations. See the following table for details.
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
+大多数 Skype for Business 功能都适用于 .gov、.edu 和非赢利组织。 有关详细信息，请参阅下表。
 
 |**Skype for Business 功能**|**可用于 .GOV (GCC)**|**可用于 .GOV（非 GCC）**|**可用于 .EDU**|**可用于非营利组织**|
 |:-----|:-----|:-----|:-----|:-----|
 |Skype 会议直播  <br/> |是  <br/> |是  <br/> |否  <br/> |是  <br/> |
-|Skype for Business 音频会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
-|Office 365 电话系统  <br/> |是  <br/> |是  <br/> |是  <br/> |是   <br/> |
+|Skype for Business 音频会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|Office 365 电话系统  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |Office 365 呼叫计划  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
    
 请查看此博客文章：[Office 365 高级功能现在可供美国政府社区云客户使用](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)。

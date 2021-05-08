@@ -1,7 +1,7 @@
 ---
-title: 规划 Skype for Business 到 Microsoft Teams 的升级
-author: msdmaguire
-ms.author: dmaguire
+title: 规划升级Skype for Business Microsoft Teams计划
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,22 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9438f7f8fa97507e78e64633383e29ad032c3e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5dd2fd5241533f54da3e5a06dab90df7f082fe2d
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119071"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282119"
 ---
 # <a name="plan-for-your-upgrade"></a>规划升级
 
-![Teams 升级旅程图](media/upgrade-banner-main.png "确保项目已设置好，以与合适的项目团队一起获得成功。定义项目范围、目标和日程表。确认技术和用户就绪性。执行推出计划。保持动力以最大化结果。")
+![升级Teams示意图](media/upgrade-banner-main.png "确保项目已设置好，以与合适的项目团队一起获得成功。定义项目范围、目标和日程表。确认技术和用户就绪性。执行推出计划。保持动力以最大化结果。")
 
 良好的技术环境、持续采用用户以及实现业务目标都从适当的规划开始。 可靠的计划为升级项目提供了一个框架，并确保所有利益干系人都致力于实现相同的目标。 通过花时间正确定义成功，可以在部署进行时测量结果，并验证是否实现了想要的结果。 规划旅程包括：
 
 - [登记项目利益干系人](upgrade-enlist-stakeholders.md)
 - [定义项目范围](./upgrade-define-project-scope.md)
-- [了解 Skype for Business 和 Teams 的共存和互操作性](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [了解两者共存Skype for Business互操作性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [根据业务需求选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [规划用户试点](pilot-essentials.md)
 

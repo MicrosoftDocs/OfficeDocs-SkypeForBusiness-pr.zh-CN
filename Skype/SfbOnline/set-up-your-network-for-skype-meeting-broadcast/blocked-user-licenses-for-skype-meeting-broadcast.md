@@ -18,48 +18,50 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: 遗憾的是，当用户转到并想要使用 Skype 会议直播时，某些用户许可证 https://broadcast.skype.com 被阻止。 如果用户看到此消息，则他们分配到了阻止的许可证之一。 如果仍希望他们使用它，请为其分配另一个 Office 365 许可证。
-ms.openlocfilehash: 91c1005ee211bd51fc0f713237362b43a79d5e69
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 遗憾的是，某些用户许可证在用户转到并想要使用广播时被Skype 会议 https://broadcast.skype.com 阻止。 如果用户看到此消息，则他们分配到了阻止的许可证之一。 如果仍希望他们使用它，请为其分配另一个Office 365许可证。
+ms.openlocfilehash: a29bdca6deaea9fc622ec34996f9f2ac8be3b023
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103758"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237038"
 ---
-# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>托管 Skype 会议直播的用户许可证被阻止
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>阻止用于托管广播Skype 会议许可证
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Skype for Business Online 将于 2021 年 7 月 31 日停用，此时将结束对该服务的访问。 我们鼓励客户开始升级到 Microsoft Teams，这是 Microsoft 365 中通信和团队合作的核心客户端。
+> Skype for BusinessOnline 将于 2021 年 7 月 31 日停用，此时将结束对服务的访问。 我们鼓励客户开始升级到 Microsoft Teams（Microsoft 365 中通信和团队合作的核心Microsoft 365。
 
-遗憾的是，当用户转到并想要托管 Skype 会议直播时，某些用户许可证被 https://broadcast.skype.com 阻止。 如果用户看到此消息，则他们分配到了阻止的许可证之一。 如果仍希望他们使用它，请为其分配另一个 Office 365 许可证。
+遗憾的是，当用户转到并想要托管直播时，某些用户许可证被 https://broadcast.skype.com Skype 会议阻止。 如果用户看到此消息，则他们分配到了阻止的许可证之一。 如果仍希望他们使用它，请为其分配另一个Office 365许可证。
   
- *"你的公司策略不允许你使用 Skype 会议直播。请与系统管理员联系，确保该服务已启用，并且你拥有正确的许可证。"* 
+ *"你的公司策略不允许你使用 Skype 会议 Broadcast。请与系统管理员联系，确保该服务已启用，并且你拥有正确的许可证。"* 
   
 ## <a name="blocked-user-licenses"></a>阻止的用户许可证 
 
-如果将以下任一用户许可证分配给用户，将阻止托管 Skype 会议直播事件。 流式传输广播事件的与会者不需要任何用户许可证。
+如果将Skype 会议用户许可证分配给用户，将阻止托管直播事件。 流式传输广播事件的与会者不需要任何用户许可证。
   
-- Office 365 教育版 Fac/Staff
+- Office 365 教育版Fac/Staff
     
 - Office 365 教育版学生
     
-- Office 365 教育增强版 Fac/Staff
+- Office 365 教育增强版Fac/Staff
     
-- Office 365 教育增强版学生版
+- Office 365 教育增强版学生
     
-- Office 365 教育版 E1 Fac/Staff
+- Office 365 教育版E1 Fac/Staff
     
-- Office 365 教育版 E1 学生版
+- Office 365 教育版E1 学生
     
-- Office 365 教育版 E3 Fac/Staff
+- Office 365 教育版E3 Fac/Staff
     
-- Office 365 教育版 E3 Fac/Staff Large
+- Office 365 教育版E3 Fac/Staff Large
     
-- Office 365 教育版 E3 学生版
+- Office 365 教育版E3 学生
     
-- Office 365 A1 学生使用权益
+- Office 365 A1学生使用权益
     
-- Microsoft 365 A1 学生使用权益
+- Microsoft 365A1 学生使用权益
 
     
 ## <a name="related-topics"></a>相关主题

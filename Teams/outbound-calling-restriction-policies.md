@@ -1,5 +1,5 @@
 ---
-title: 出站呼叫限制-& PSTN 呼叫的音频会议
+title: 出站呼叫限制 - 音频会议& PSTN 呼叫
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -32,17 +32,17 @@ ms.locfileid: "48908651"
 
 作为管理员，您可以使用出站呼叫控件来限制组织用户可以进行的音频会议和最终用户 PSTN 呼叫类型。 
 
-Outbound call controls can be applied on a per-user basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls. 
+出站通话控件可以应用基于每个用户，并提供了下列两个控件，以便独立限制每种类型的出站呼叫。 默认情况下，这两个控件设置为允许国际和国内出站呼叫。 
 
-|源代码|说明|控件选项|
+|控件|说明|控件选项|
 |:-----|:-----|:-----|
-|音频会议 PSTN 呼叫|限制出站类型 </br>允许从用户组织 </br>的会议内呼叫。|任何目标 (默认) </br>在组织者所在的同一个国家或地区 </br> 仅[对国家或地区进行分区](audio-conferencing-zones.md) </br>不允许|
-|最终用户 PSTN 呼叫|限制可以由用户 </br>拨打的呼叫类型。|国际和国内 （默认值）</br>版</br>无|
+|音频会议 PSTN 呼叫|限制出站类型 </br>允许从用户组织 </br>的会议内呼叫。|任何目标 (默认) </br>与组织者在同一国家/地区 </br> [仅区域 A 国家/地区](audio-conferencing-zones.md) </br>不允许|
+|最终用户 PSTN 呼叫|限制可以由用户 </br>拨打的呼叫类型。|国际和国内 （默认值）</br>国内</br>无|
 
-若要了解哪些国家和地区被视为区域 A，请参阅 [用于音频会议的国家和地区区域](audio-conferencing-zones.md)。
+若要了解哪些国家和地区被视为区域 A，请参阅音频会议 [的国家和地区区域](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > 如果所拨打的号码位于同一个国家/地区，并且已为会议的组织者设置了 Microsoft 365 或 Office 365 的同一国家或地区 () ，或者最终用户 PSTN 呼叫) 的最终用户 (，则会将呼叫视为国内呼叫。 
+   > 如果拨打的号码位于为会议组织者设置了 Microsoft 365 或 Office 365 的国家/地区（对于音频会议 () ）或最终用户 (（对于最终用户 PSTN 呼叫) ）来说，呼叫被视为国内呼叫。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -51,26 +51,26 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，单击 " **用户** "，然后从可用用户列表中单击用户的显示名称。
+1. 在左侧导航栏中，单击 **"用户**"，显示名称可用用户列表中的用户名称。
 
-3. 在 **音频会议** 旁边，单击 **编辑** 。
+3. 在 **音频会议** 旁边，单击 **编辑**。
 
-4. 在 " **从会议拨出** " 下，选择所需的拨出限制选项。
+4. 在 **"从会议拨出"** 下，选择你需要的拨出限制选项。
 
-5. 单击“ **保存** ”。 
+5. 单击“**保存**”。 
 
 ![显示 Skype for Business 徽标的图标](media/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
-1. 在 **Skype for business 管理中心** 的左侧导航中，转到 " **音频会议**  >  **用户** "，然后从可用的用户列表中选择用户。
+1. 在 **Skype for Business** 管理中心的 左侧导航中，转到"音频会议用户"，然后从可用  >  用户列表中选择用户。
 
-2. 在"操作"窗格中，单击" **编辑** "。
+2. 在"操作"窗格中，单击" **编辑**"。
 
 3.  在 **限制此用户从会议拨出** 下，选择所需的拨出限制选项。
 
       ![拨出选项限制](media/restrictions-to-dial-outs.png)
       
 
-4. 单击“ **保存** ”。
+4. 单击“**保存**”。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -79,7 +79,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 出站呼叫限制由名为 OnlineDialOutPolicy 的单个策略控制，其中每个都有一个限制属性。 无法自定义策略，而是为每个设置组织使用预定义策略实例。 
 
-Get CSOnlineDialOutPolicy cmdlet 可用于查看出站呼叫策略并使用 CSDialOutPolicy cmdlet 将其分配给用户。  (请注意，授予 cmdlet 不包含 "Online" 一词，因为 Get cmdlet 是。 )  
+Get CSOnlineDialOutPolicy cmdlet 可用于查看出站呼叫策略并使用 CSDialOutPolicy cmdlet 将其分配给用户。  (请注意，Grant cmdlet 不包含"Online"一词，就像 Get cmdlet 一样)  
 
 下表概述了每个策略。
 
@@ -94,6 +94,6 @@ Get CSOnlineDialOutPolicy cmdlet 可用于查看出站呼叫策略并使用 CSDi
 |    标识='tag:DialoutCPCDomesticPSTNDisabled'    |    参加会议的用户仅可拨打国内号码，同时此用户无法出站呼叫 PSTN 号码，紧急号码除外。    |
 |    标识='tag:DialoutCPCDisabledPSTNDomestic'    |    参加会议的用户无法进行任何拨出，同时此用户仅可出站呼叫国内 PSTN 号码。    |
 |    标识='tag:DialoutCPCandPSTNDisabled'    |    参加会议的用户无法拨打任何号码，同时此用户无法出站呼叫  PSTN 号码，紧急号码除外。    |
-|    Identity = "tag： DialoutCPCZoneAPSTNInternational"    |    会议中的用户只能拨出以对 [国家和地区进行分区](audio-conferencing-zones.md)，并且此用户可以拨出到国际和国内号码的电话。    |
-|    Identity = "tag： DialoutCPCZoneAPSTNDomestic"    |    会议中的用户只能拨出以对 [国家和地区进行分区](audio-conferencing-zones.md)，并且此用户只能拨出到国内 PSTN 号码的出站呼叫。    |
-|    Identity = "tag： DialoutCPCZoneAPSTNDisabled"    |    会议中的用户只能拨出以对 [国家和地区进行分区](audio-conferencing-zones.md)，并且除了紧急号码之外，此用户不能对 PSTN 号码进行任何出站呼叫。    |
+|    Identity='tag：DialoutCPCZoneAPSTNInternational'    |    会议中的用户只能拨出到区域 [A](audio-conferencing-zones.md)国家和地区，并且此用户可以拨打国际和国内号码的出站呼叫。    |
+|    Identity='tag：DialoutCPCZoneAPSTNDomestic'    |    会议中的用户只能拨出到 [区域 A](audio-conferencing-zones.md)国家和地区，并且此用户只能拨打国内 PSTN 号码的出站呼叫。    |
+|    Identity='tag：DialoutCPCZoneAPSTNDisabled'    |    会议中的用户只能拨出到区域 [A](audio-conferencing-zones.md)国家和地区，并且除了紧急号码之外，此用户无法拨打 PSTN 号码的任何出站呼叫。    |

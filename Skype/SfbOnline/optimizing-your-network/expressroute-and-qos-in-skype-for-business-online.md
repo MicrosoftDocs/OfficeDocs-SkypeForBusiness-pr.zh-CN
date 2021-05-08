@@ -20,23 +20,25 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 3ff507dc3cca5e244f6545944d062e5e32dd6175
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6f2ecbf53ab4fc7e2bb066b8eaf4e167a81f181
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100738"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237178"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>Skype for Business Online 中的 ExpressRoute 和 QoS
 
-使用适用于 Microsoft 365 或 Office 365 和 Skype for Business Online 的 Azure ExpressRoute 通过专用网络连接连接到 Microsoft 365 或 Office 365。 适用于 Skype for Business 应用的专用连接将为你提供可靠且可预测的性能，并且在公用 Internet 上也可保持隐私。 现在，你可以购买与 Microsoft 365 或 Office 365 和 Skype for Business Online 更好的网络连接，这增加了可预测性、商业类可靠性并附带运行时间 SLA。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+连接 Azure ExpressRoute Microsoft 365或 Office 365 Online 通过专用网络连接Microsoft 365 Office 365 Skype for Business连接。 适用于 Skype for Business 应用的专用连接将为你提供可靠且可预测的性能，并且在公用 Internet 上也可保持隐私。 现在，你可以购买更好的网络连接到 Microsoft 365 或 Office 365 Skype for Business Online，它增加了可预测性、商业级可靠性并附带运行时间 SLA。
   
 > [!NOTE]
-> 提供带宽计算器的新版本 [：Skype for Business、带宽计算器](https://go.microsoft.com/fwlink/?LinkId=715766)。 但是，本文档中的说明使用 Lync 2010 和 2013 带宽计算器。 
+> 提供带宽计算器的新版本：Skype for Business[带宽计算器](https://go.microsoft.com/fwlink/?LinkId=715766)。 但是，本文档中的说明使用 Lync 2010 和 2013 带宽计算器。 
   
 ## <a name="skype-for-business-online-and-expressroute"></a>Skype for Business Online 和 ExpressRoute
 
-与 Microsoft 的 ExpressRoute 合作伙伴合作，可以通过专用连接连接在云中连接各种 Microsoft 365 和 Office 365 应用程序，包括 Skype for Business Online。 但是，Skype for Business 实时语音和视频通信功能需要专门配置为支持这些 Microsoft 365 或 Office 365 实时工作负荷的网络服务。 这包括具有足够带宽承载所需的流量并且能够支持服务质量 (QoS) 来为用户提供企业级体验的网络。
+与 Microsoft 的 ExpressRoute 合作伙伴合作，可以通过专用连接Microsoft 365 Office 365云中的 Skype for Business Online 等各种应用程序。 但是，Skype for Business实时语音和视频通信功能需要专门配置为支持这些实时Microsoft 365或Office 365网络服务。 这包括具有足够带宽承载所需的流量并且能够支持服务质量 (QoS) 来为用户提供企业级体验的网络。
   
 此文档旨在帮助你、管理员和网络设计师了解支持实时通信所面临的特殊挑战、Microsoft 提供用于帮助你设计能够支持这些要求的网络的工具，并使用案例研究指导你完成设计过程。 
   
@@ -83,7 +85,7 @@ Dewy Law LLC. 是一家相对年轻的公司，律师和其他职员非常熟悉
     
 - 网络交换机和路由器还必须使用不间断电源 (UPS)，这样就可以在发生电源故障期间继续运转。
     
-    他们已Wi-Fi LAN 办公室建立连接，因此强烈建议他们使用 Skype for Business 解决方案Wi-Fi Skype for Business 基础结构 [合作伙伴](https://go.microsoft.com/fwlink/?LinkId=690281)。
+    他们具有Wi-Fi LAN 办公室的关联，因此强烈建议他们使用来自 Skype for Business Solutions 的经认证的 Skype for Business Wi-Fi[基础结构合作伙伴](https://go.microsoft.com/fwlink/?LinkId=690281)。
     
     > [!TIP]
     >  [!提示] 建议使用 802.11n 和 802.11ac 无线接入点。
@@ -92,7 +94,7 @@ Dewy Law LLC. 是一家相对年轻的公司，律师和其他职员非常熟悉
     
 在了解为 Dewey Law LLC. 提供企业级语音服务涵盖的基础知识之后，我们建议从将连接到 Azure ExpressRoute 服务的网络服务合作伙伴使用多协议标签交换 (MPLS) IP 服务。 MPLS 提供的 IP 服务可在发生延迟、抖动和数据包丢失情形时保证性能。 但是，如果 MPLS 不可用，也可以使用连接到我们的其中一个 ExpressRoute 数据交换合作伙伴的以太网。
   
-MPLS 提供商提供许多服务类别级别，但是每个服务类别都使用不同的术语进行标识。 您必须与提供商密切合作，以确保他们了解您输入到 [Lync 2010 和 2013](https://go.microsoft.com/fwlink/?LinkID=690282) 带宽计算器的数据以及可用的选项，建议用于不同的 Microsoft 365 和 Office 365 实时工作负荷应用程序。
+MPLS 提供商提供许多服务类别级别，但是每个服务类别都使用不同的术语进行标识。 您必须与提供商密切合作，以确保他们了解[您输入到 Lync 2010 和 2013](https://go.microsoft.com/fwlink/?LinkID=690282)带宽计算器的数据以及可用的选项，并且建议为不同的 Microsoft 365 和 Office 365 实时工作负荷应用程序提供这些选项。
   
 可以通过两种方法将 Skype for Business 应用中的数据映射到适当的 MPLS 服务类别：
   
@@ -158,7 +160,7 @@ Dewey Law LLC. 的设计过程 首先是根据用户的特征设定不同的"角
    
 你需要在 **按位置和职位列出用户分布情况** Lync 2010 和 2013 带宽计算器的"站点"工作表中的上述表中输入信息。 当区域办事处的用户数相同时，它们被定义为一个"站点"并指定存在三个实例。 此行为也适用于大型和小型分支机构，站点中分别有 24 个和 50 个用户。
   
-在指定每种角色的设置后，你需要在"站点"工作表中输入每个站点每种角色的用户数。 所有站点的用户总数会自动更新。 由于 Microsoft 365 或 Office 365 位置没有用户，因此应全部在工作表的"分支"行中输入。 然后，Lync 2010 和 2013 带宽计算器会填充"尽力而为类别"、"数据流量类别"和"实时流量类别"列。 这显示在下表的数据中。
+在指定每种角色的设置后，你需要在"站点"工作表中输入每个站点每种角色的用户数。 所有站点的用户总数会自动更新。 由于工作表中的"分支"或Microsoft 365 Office 365用户，因此应全部在工作表的"分支"行中输入。 然后，Lync 2010 和 2013 带宽计算器会填充"尽力而为类别"、"数据流量类别"和"实时流量类别"列。 这显示在下表的数据中。
   
 > [!TIP]
 >  [!提示] 完整的电子表格还包括每种应用的最大并发会话数，但我们为节省空间删除了这些列。
@@ -188,7 +190,7 @@ Dewey Law LLC. 的设计过程 首先是根据用户的特征设定不同的"角
 > [!TIP]
 >  同样，尽管 EF 服务类提供最佳性能保证，但如果超过定义的带宽，将立即丢弃任何其他数据包。
   
- **按 QoS 流量类别聚合每个站点的带宽 - (的工作表 - 列 A 和 ML 通过 MR)**
+ **按 QoS 流量类别聚合每个站点的带宽 - (的工作表 - 列 A 和列 ML MR)**
   
 |**站点名称**|**DSCP 0 (尽力而为)**|**数据流量类 (DSCP 自定义)**|**DSCP 34、AF41 (实时流量)**|**优先级流量类别 (DSCP 46、EF)**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -209,14 +211,14 @@ Dewey Law LLC. 的设计过程 首先是根据用户的特征设定不同的"角
 |**大型分支机构** <br/> |70  <br/> |102.00  <br/> |600.00  <br/> |384.00  <br/> |216.30  <br/> |32935.20  <br/> |
 |**小型分支机构** <br/> |36  <br/> |76.50  <br/> |600.00  <br/> |384.00  <br/> |123.60  <br/> |61005.00  <br/> |
    
-这意味着将遍历快速路由的 Skype for Business Online 流量大约为 114 Mbps，因此 Dewey 至少需要 ExpressRoute 的 200 Mbps 订阅。 可以在不同的 ExpressRoute 对等互连位置购买多个 ExpressRoute 线路。 如果 Dewey 的站点位于不同的地理区域，或者为了在连接到 ExpressRoute 线路失败时提供复原能力，建议这样做。 如果在多个 Azure 区域购买 ExpressRoute 线路，需要 ExpressRoute 高级版附加组件才能通过 ExpressRoute 接收全局连接。
+这意味着，Skype for Business快速路由的联机流量大约为 114 Mbps，因此 Dewey 至少需要 ExpressRoute 的 200 Mbps 订阅。 可以在不同的 ExpressRoute 对等互连位置购买多个 ExpressRoute 线路。 如果 Dewey 的站点位于不同的地理区域，或者为了在连接到 ExpressRoute 线路失败时提供复原能力，建议这样做。 如果在多个 Azure 区域购买 ExpressRoute 线路，需要 ExpressRoute 高级版附加组件才能通过 ExpressRoute 接收全局连接。
   
-现在，你已拥有所需的总带宽量和服务类别 (CoS) 带宽数字，你可以向选定的网络服务提供商 (下订单) 。 不要忘记包括其他应用程序和服务的流量估计值。 我们针对其他 Microsoft 365 和 Office 365 服务（包括 Exchange 和 OneDrive 的带宽计算器）提供网络规划指南。 网络服务提供商的带宽订阅会更高，因为需要重新添加站点内部流量。 Lync 2010 和 2013 带宽计算器仅提供预期流量的估计值，因此建议确认网络是否支持该流量进行压力测试。 
+现在，你已拥有所需的总带宽量和服务类别 (CoS) 带宽数字，你可以向选定的网络服务提供商 (下订单) 。 不要忘记包括其他应用程序和服务的流量估计值。 我们针对其他网络和Microsoft 365服务Office 365网络规划指南，包括用于Exchange和OneDrive。 网络服务提供商的带宽订阅会更高，因为需要重新添加站点内部流量。 Lync 2010 和 2013 带宽计算器仅提供预期流量的估计值，因此建议确认网络是否支持该流量进行压力测试。 
   
 > [!TIP]
 > 执行网络预评估时，强烈建议对网络进行压力测试。 
   
-压力测试涉及构建和配置基础结构，然后在监视性能的同时，使用预期数量模拟流量运行它。 在某些情况下，流量估计可能不准确，但至少您可以确保它可以支持 Lync 2010 和 2013 带宽计算器预测的流量。 建议运行压力测试至少几天，但长时间运行它有助于优化数字。 但是，必须权衡延长压力测试期与未携带实际用户网络流量的网络服务的成本。 Microsoft 已认证许多供应商作为 IT 专业人员工具计划的一部分，以提供网络管理和操作工具，包括网络预评估压力工具。 Skype for Business 还提供系统集成商 (SI) ，它可以接受经过认证的 IT 专业人员工具，并可以代你进行网络评估。 可以在 Skype [for Business 解决方案：IT 专业人员工具 中查看更多信息](https://go.microsoft.com/fwlink/?LinkID=690307)。
+压力测试涉及构建和配置基础结构，然后在监视性能的同时，使用预期数量模拟流量运行它。 在某些情况下，流量估计可能不准确，但至少您可以确保它可以支持 Lync 2010 和 2013 带宽计算器预测的流量。 建议运行压力测试至少几天，但长时间运行它有助于优化数字。 但是，必须权衡延长压力测试期与未携带实际用户网络流量的网络服务的成本。 Microsoft 已在其 IT Pro 工具计划中认证了一些供应商，以提供网络管理和操作工具，包括网络预评估压力工具。 Skype for Business还提供系统集成商 (SI) ，该集成商可以使用经过认证的 IT Pro 工具，并可以执行网络评估。 有关详细信息，请参阅 Skype for Business[解决方案：IT Pro 工具](https://go.microsoft.com/fwlink/?LinkID=690307)。
   
 压力测试提供了一些保证，即网络可以支持所需的流量，但实际上 Lync 2010 和 2013 带宽计算器数据可能出于任何原因关闭。 你还应考虑在部署站点网络后，通过持续进行网络评估来继续监视站点网络，以确保带宽足以确保 QoS 机制正常运行。 随着越来越多的真实用户上线，继续监视网络性能非常重要。
   
@@ -224,9 +226,9 @@ Dewey Law LLC. 的设计过程 首先是根据用户的特征设定不同的"角
 
 Microsoft 的 ExpressRoute 服务提供与 Azure 云的专用连接，但 Office 365 实时工作负荷的通信服务需要具有足够带宽的网络服务来承载流量，并且能够支持服务质量 (QoS) 以提供企业级用户体验。 必须配置支持 QoS 的端到端 (电脑、网络交换机和路由器到云) 因为路径中无法支持 QoS 的任何部分可能会降低整个呼叫的质量。
   
-本部分的目的是帮助你了解在使用 Microsoft 的 ExpressRoute Exchange 提供商或网络服务提供商合作伙伴支持 IP 网络中的实时流量，以及配置和支持 Microsoft 365 或 Office 365 实时工作负荷的成功 ExpressRoute 部署时的挑战。
+本部分的目的是帮助了解在使用 Microsoft ExpressRoute Exchange 提供商或网络服务提供商合作伙伴支持 IP 网络中的实时流量，以及配置和支持成功部署 Microsoft 365 或 Office 365 实时工作负荷时面临的挑战。
   
-QoS 仅通过 ExpressRoute 网络线路从网络接受，在 Microsoft 网络中用于 Skype for Business 流量。 目前，Microsoft 的部分出站连接缺少 Skype for Business 的 DSCP 值。 在使用 DSCP 值完全标记出站流量之前，建议遵循本文使用网络访问控制列表 (ACL) 实现 QoS 部分中所述，将 **QoS** 标记添加到网络边界上的流量。
+QoS 仅通过 ExpressRoute 网络线路从网络接受，在 Microsoft 网络中用于Skype for Business流量。 目前，来自 Microsoft 的一些出站连接缺少 DSCP 值Skype for Business。 在使用 DSCP 值完全标记出站流量之前，建议遵循本文使用网络访问控制列表 (ACL) 实现 QoS 部分中所述，将 **QoS** 标记添加到网络边界上的流量。
   
 ### <a name="the-real-time-problem"></a>实时问题
 
@@ -234,7 +236,7 @@ QoS 仅通过 ExpressRoute 网络线路从网络接受，在 Microsoft 网络中
   
 在了解丢失的语音数据包的影响后，设计人员通过两种方法改进了 IP 上语音和视频的性能：
   
-- 使语音编码/解码在数据包丢失时更具复原能力。 为此，可以使用转发错误更正 (FEC) 来更正遇到的错误的百分比，这是 Microsoft 365 或 Office 365 实时传输中的一项功能，或者通过设计语音解码系统来尝试屏蔽丢失数据包的影响（这是 Microsoft 编解码器的特征）。 
+- 使语音编码/解码在数据包丢失时更具复原能力。 为此，可以使用前向错误更正 (FEC) 来更正遇到的错误的百分比，这是 Microsoft 365 或 Office 365 实时传输中的一项功能，或者通过设计语音解码系统来尝试屏蔽丢失数据包的影响（这是 Microsoft 编解码器的特征）。 
     
 - 使用使用服务质量机制的传输服务来保证网络在延迟、数据包丢失和抖动方面的性能，以及数据包之间的延迟变化。
     
@@ -255,9 +257,9 @@ QoS 仅通过 ExpressRoute 网络线路从网络接受，在 Microsoft 网络中
    
 ### <a name="expressroute-as-part-of-a-business-grade-voice-network"></a>ExpressRoute 作为企业级语音网络的一部分
 
-ExpressRoute 通过网络服务提供商 (NSP) 或 Exchange 提供商 (EXP) 3 个连接选项之一提供专用连接： 
+ExpressRoute 通过网络服务提供商 (NSP) 或 Exchange 提供程序 (EXP) 提供专用连接，有 3 种连接选项： 
   
-- 云 Exchange 托管
+- 云Exchange共置
     
 - 点到点以太网连接
     
@@ -271,7 +273,7 @@ ExpressRoute 通过网络服务提供商 (NSP) 或 Exchange 提供商 (EXP) 3 �
 
 由于成本、无法满足 ExpressRoute 先决条件或当前 NSP 的限制，可能无法将所有站点连接到 ExpressRoute。 如果无法使用 ExpressRoute，仍建议遵循以下指南在网络中标记 QoS，并计划与 NSP 之间的合同，以确保有足够的带宽和支持，以基于 QoS 确定流量优先级。
   
-此外，如果办公室位于多个区域，但所有区域没有 ExpressRoute 线路，在配置与卫星办事处之间流量的路由时，应该使用区域 BGP 社区标记，以避免不必要的长距离传输。 例如，假设有一家公司在美国托管 Skype for Business Online 组织，但在欧洲设有分支机构，并且该公司在硅谷只有一条 ExpressRoute 线路。 大多数 Skype for Business Online 流量将路由到组织托管的数据中心 (例如，大多数流量可能首选使用 ExpressRoute 线路与公司) 中的其他用户进行电话会议。 但是，如果欧洲用户要加入由其组织位于欧洲的另一家公司主持的电话会议，则该呼叫中的媒体目标将是第二家公司所在的欧洲数据中心。 通过硅谷的 ExpressRoute 线路路由流量比通过 Internet 进行路由的直接路由要少。 在这种情况下，可能需要在网络内配置路由器 (例如，在欧洲办公室) ，在制定路由规则时检查社区标记，并针对具有欧洲区域标记的流量通过 Internet 而不是硅谷 ExpressRoute 线路进行路由。
+此外，如果办公室位于多个区域，但所有区域没有 ExpressRoute 线路，在配置与卫星办事处之间流量的路由时，应该使用区域 BGP 社区标记，以避免不必要的长距离传输。 例如，假设一家公司在美国托管Skype for Business Online 组织，但在欧洲设有分支机构，并且该公司在硅谷只有一条 ExpressRoute 线路。 大多数 Skype for Business Online 流量将路由到组织托管的数据中心 (例如，大多数流量可能首选使用 ExpressRoute 线路与公司) 中的其他用户进行电话会议。 但是，如果欧洲用户要加入由其组织位于欧洲的另一家公司主持的电话会议，则该呼叫中的媒体目标将是第二家公司所在的欧洲数据中心。 通过硅谷的 ExpressRoute 线路路由流量比通过 Internet 进行路由的直接路由要少。 在这种情况下，可能需要在网络内配置路由器 (例如，在欧洲办公室) ，在制定路由规则时检查社区标记，并针对具有欧洲区域标记的流量通过 Internet 而不是硅谷 ExpressRoute 线路进行路由。
   
 ### <a name="basic-concepts-of-quality-of-service-qosclass-of-service-cos"></a>基于 CoS 的服务质量 (QoS) /服务 (的) 
 
@@ -287,7 +289,7 @@ ExpressRoute 通过网络服务提供商 (NSP) 或 Exchange 提供商 (EXP) 3 �
   
 挑战在于，第 2 层 (（即以太网或 Wi-Fi 层) ）和第 3 层（即) IP 层） (实现了不同的 QoS 技术。 这些不同的 QoS 实现可能需要在网络的每个交换机和路由器以及网络与网络服务提供商的网络之间的接口中配置。
   
-有两个选项可用于如何将各种 Skype for Business 应用程序的数据映射到相应的服务类：
+有两个选项可用于如何将来自各种Skype for Business应用程序的数据映射到相应的服务类：
   
 - 使用不同服务控制点和 DSCP (流量的)  
     
@@ -299,9 +301,9 @@ ExpressRoute 通过网络服务提供商 (NSP) 或 Exchange 提供商 (EXP) 3 �
   
  **建议的 DSCP 设置**
   
-|**流量类**|**处理 (DSCP 标记)**|**Skype for Business 工作负荷**|
+|**流量类**|**处理 (DSCP 标记)**|**Skype for Business工作负荷**|
 |:-----|:-----|:-----|
-|**语音** <br/> |EF (46)   <br/> |Skype for Business 和 Lync 语音  <br/> |
+|**语音** <br/> |EF (46)   <br/> |Skype for Business Lync 语音  <br/> |
 |**交互式** <br/> |AF41 (34)   <br/> |视频  <br/> |
 ||AF21 (18)   <br/> |应用程序共享  <br/> |
 |**Default** <br/> |AF11 (10)   <br/> |文件传输  <br/> |
@@ -378,7 +380,7 @@ IEEE 802.1p 使用 3 位优先级代码点 (PCP) 标识消息的优先级;PCP �
 
 在 ExpressRoute 配置中实现 QoS 的另一方法是使用网络访问控制列表 (ACL) 。 在这种方法中，上游路由器可以基于 UDP 源端口完成标记，而不是让终点在每个数据包的标头中插入相应的 DSCP 标记。 所有交换机和路由器仍必须配置为支持 QoS，以确保维护 DSCP 设置。 更重要的是，连接到服务提供商网络的路由器必须在每个数据包的标头中维护 DSCP，因为 DSCP 设置实质上是向网络服务提供商指示如何处理该数据包。
   
-Lync Server 网络规划、监视和故障排除指南的第 2.6.1.1 部分列出了每个 Skype for Business 应用程序的建议 [端口](https://go.microsoft.com/fwlink/?LinkId=690286) 范围。 这必须协调组织对 QoS 的整体方法，并且你应该注意不同的 QoS 策略和潜在的数据包备注不匹配。
+Lync Server 网络规划、监视和故障排除指南Skype for Business 2.6.1.1 部分中列出了每个应用程序的建议[端口](https://go.microsoft.com/fwlink/?LinkId=690286)范围。 这必须协调组织对 QoS 的整体方法，并且你应该注意不同的 QoS 策略和潜在的数据包备注不匹配。
   
 尽管使用 QoS 和 MPLS 网络服务的主要原因是确保获得良好的实时语音和视频用户体验，但这些功能也可以应用于数据应用程序。 MPLS 网络可以允许组织优先处理某些数据应用程序，而不是同等对待所有应用程序。 使用 MPLS 时，实时应用程序（如信用卡交易或屏幕共享）可以优先于电子邮件等时间敏感型流量。
   
@@ -392,15 +394,15 @@ Lync Server 网络规划、监视和故障排除指南的第 2.6.1.1 部分列�
   
 除了简化转发过程外，MPLS 提供的另一个优势是，网络管理系统将知道网络中每个链路上携带了哪些连接。 通过控制通过网络路由流量的方式，操作员可以保证每个路径将提供 QoS。 因此，与传统或基本 IP 的最佳性能不同，MPLS 操作员可以提供具有可预测性能的 IP 服务。 该 LSP 还使 MPLS 本身比传统 Internet 服务更安全。 因此，对于基本 IP 服务，我们可以希望网络性能足以提供高质量的语音，并使用 FEC 等技术以及复原能力更强的语音编码来提高机率，但通过使用 MPLS，我们可以确信这一点。
   
-MPLS 提供商提供了多种服务渐变，遗憾的是，这些渐变使用不同的术语来标识它们。 您必须与提供商密切合作，确保他们了解 [Lync 2010 和 2013](https://go.microsoft.com/fwlink/?LinkID=690282) 带宽计算器的输出，以及适用于不同 Microsoft 365 或 Office 365 实时工作负荷应用程序的建议选项。
+MPLS 提供商提供了多种服务渐变，遗憾的是，这些渐变使用不同的术语来标识它们。 您必须与提供商密切合作，确保他们了解[Lync 2010 和 2013](https://go.microsoft.com/fwlink/?LinkID=690282)带宽计算器的输出，以及适用于不同 Microsoft 365 或 Office 365 实时工作负荷应用程序的建议选项。
   
 ## <a name="conclusion"></a>结论
 
-Skype for Business 增强了进行业务通信的方式。 Skype for Business 可以将所有这些功能汇集在一个用户界面中，而不是让电话连接到 PBX、独立的视频会议系统、用于电子邮件的单独平台、音频会议外部服务和一些 IM 和状态工具。
+Skype for Business增强业务通信的方式。 Skype for Business 无需将电话连接到 PBX、独立的视频会议系统、单独的电子邮件平台、音频会议外部服务以及用于即时消息和状态的一些工具，Skype for Business 可以将所有这些功能汇集在一个用户界面中。
   
-持续提供企业级实时语音和视频服务需要能够提供 QoS 的端到端网络基础结构。 这包括 LAN 和 WAN 服务。 Microsoft 提供 [Lync 2010 和 2013](https://go.microsoft.com/fwlink/?LinkID=690282) 带宽计算器等工具来估计各种服务所需的网络容量。 此外，IT 专业人员工具计划 [Skype for Business 解决方案：IT 专业人员](https://go.microsoft.com/fwlink/?LinkID=690307) 工具也有合作伙伴，它们提供用于预先评估网络基础结构的工具，并支持监视、报告和故障排除。 如果没有正确调整规模和配置的网络基础结构，则存在 ExpressRoute Skype for Business 部署不符合用户对质量和一致性的期望的风险。
+持续提供企业级实时语音和视频服务需要能够提供 QoS 的端到端网络基础结构。 这包括 LAN 和 WAN 服务。 Microsoft 提供 [Lync 2010 和 2013](https://go.microsoft.com/fwlink/?LinkID=690282) 带宽计算器等工具来估计各种服务所需的网络容量。 此外，IT Pro Tools 计划[Skype for Business 解决方案：IT Pro](https://go.microsoft.com/fwlink/?LinkID=690307)工具中的合作伙伴提供用于预先评估网络基础结构的工具，并支持监视、报告和故障排除。 如果没有正确调整规模和配置的网络基础结构，则存在 ExpressRoute Skype业务部署不符合用户对质量和一致性的期望的风险。
   
-有效的业务工具必须可靠、一致地执行，并提供鼓励用户采用的用户体验。 从网络角度来看，这意味着有一个网络基础结构（包括本地和广区域、固定和移动）可以允许这种情况发生。 规划、设计、实施和维护基础结构并不总是一项轻松的事情。 目前提供硬件、工具和网络服务来实现这一点，但 IT 专业人员有责任确保它们的设计、实施和维护方式能确保用户获得一组通信和协作服务，以便他们高效工作，并且组织可以充分利用此技术所提供的功能。 
+有效的业务工具必须可靠、一致地执行，并提供鼓励用户采用的用户体验。 从网络角度来看，这意味着有一个网络基础结构（包括本地和广区域、固定和移动）可以允许这种情况发生。 规划、设计、实施和维护基础结构并不总是一项轻松的事情。 实现此目的的硬件、工具和网络服务目前可用，但 IT Pro 负责确保它们的设计、实施和维护方式能确保用户获得一组通信和协作服务，以便他们高效工作，并且组织可以充分利用此技术所提供的功能。 
   
 ## <a name="related-topics"></a>相关主题
 

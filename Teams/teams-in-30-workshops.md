@@ -1,5 +1,5 @@
 ---
-title: 30个团队
+title: Teams 30
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: 实时、交互式的研讨会，旨在让你在30天内与 Microsoft 团队保持协作并与他们保持协作。
+description: 实时交互式研讨会，旨在让你在 30 天内Microsoft Teams运行。
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
@@ -26,11 +26,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 10/16/2020
 ms.locfileid: "48515869"
 ---
-# <a name="teams-in-30"></a>30个团队
+# <a name="teams-in-30"></a>Teams 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft 很高兴邀请您加入 <strong>团队</strong>，这是一系列实时、交互式的研讨会，旨在帮助中等规模的组织 (500-5000 员工在30天内与 Microsoft 工作组) 。 请加入我们，了解经过时间检验的指南和最佳做法，并获得您的团队问题的答案。 研讨会参与者还将使用团队专家接收有关开放 mic 办公时间的独占邀请。
-           <p><font color="#6264A7">准备好了吗？</font> 我们鼓励你的项目团队的所有成员从30个会议开始开始 <i>使用团队</i> 。 单击下面的 "会话标题" 进行注册。
+        <p>Microsoft 很高兴邀请你参加<strong>30</strong>中的 Teams，这是一系列实时的交互式研讨会，旨在帮助中型组织 (500-5000 名员工) 在 30 天内使用 Microsoft Teams 启动并运行。 加入我们，了解经过时间测试的指导和最佳做法，并解答Teams问题。 研讨会参与者还将与专家一起收到开放式办公时间Teams邀请。
+           <p><font color="#6264A7">准备好跳入了吗？</font> 我们鼓励项目团队的所有成员在<i>30</i>个会话中入门团队Teams团队。 单击下面的会话标题进行注册。
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -43,9 +43,9 @@ ms.locfileid: "48515869"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>开始在 30 (开始使用团队！ ) </h3>
-                        <P>让您的团队在右页脚的30旅程内开始。 了解应参与的计划，以及可用于确保你成功的资源。</P>
-                        <p><i>受众：企业赞助商、IT 管理员、采纳和更改所有者</i></p>
+                        <h3>30 Teams入门 (从此处开始！) </h3>
+                        <P>在Teams 30 次旅程中开始创建。 了解计划、应参与人员以及可用于确保成功的资源。</P>
+                        <p><i>受众：业务发起人、IT 管理员、采用和更改所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ ms.locfileid: "48515869"
                     </div>
                     <div class="cardText">
                         <h3>最终用户准备就绪：</h3>
-                    <p>探索用于准备用户、构建冠军的一个临时组件以及确保用户接受作为团队推出的核心组件的战略和资源。</p><p><i>受众：采纳和更改所有者</i></p>
+                    <p>发现策略和资源，以便让用户做好准备、构建一批冠军，以及确保用户被认可为用户推广Teams组件。</p><p><i>受众：采用和更改所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -82,8 +82,8 @@ ms.locfileid: "48515869"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>准备环境-第一部分</h3>
-                    <p>设置团队推出的基础。 确定团队先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p><i>受众：IT 管理员</i></p>
+                    <h3>准备环境 - 第 I 部分</h3>
+                    <p>为部署设置Teams基础。 确定Teams先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p><i>受众：IT 管理员</i></p>
 </div>
                 </div>
             </div>
@@ -100,8 +100,8 @@ ms.locfileid: "48515869"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>准备环境-第 II 部分</h3>
-                    <p>既然你已经掌握了基础知识，请了解针对团队实施合规性、保留、管理和音频会议的最佳做法。</p><p><i>受众：IT 管理员</i></p>
+                        <h3>准备环境 - 第 II 部分</h3>
+                    <p>现在，你已建立基础，请了解实现合规性、保留期、监管和音频会议以用于会议Teams。</p><p><i>受众：IT 管理员</i></p>
                     </div>
                 </div>
             </div>
@@ -120,8 +120,8 @@ ms.locfileid: "48515869"
                     </div>
                     <div class="cardText">
                     <h3>优化和扩展</h3>
-                    <p>设计包括优化服务性能、扩大团队功能和加入新用户的计划。</p>
-                    <p><i>受众：企业赞助商、IT 管理员、采纳和更改所有者</i></p>
+                    <p>设计一个计划，其中包括优化服务性能、扩展Teams功能以及载入新用户。</p>
+                    <p><i>受众：业务发起人、IT 管理员、采用和更改所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -139,9 +139,9 @@ ms.locfileid: "48515869"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>粉笔的团队</h3>
-                    <p>通过主题专家的参与，这些在线交互式研讨会提供了一种独特的机会来了解有关团队中的一些最常见和引人注目方案的最佳做法和实践指南。 粉笔讨论假定你已完成基本团队推出。</p>
-                    <p><strong>先决条件</strong>：30研讨会中的团队出席或已为组织内的团队启用。</p>
+                    <h3>Teams小轮次讲座</h3>
+                    <p>这些在线互动研讨会由主题专家主持，提供了一个独一无二的机会，可以了解有关这些主题中一些最流行且最具吸引力的方案的最佳实践和实用Teams。 "开小道"假设你已完成基本Teams推出。</p>
+                    <p><strong>先决条件</strong>：Teams参加 30 场研讨会，或已Teams整个组织。</p>
                     <p><i>受众：IT 管理员</i></p>
                     </div>
                 </div>

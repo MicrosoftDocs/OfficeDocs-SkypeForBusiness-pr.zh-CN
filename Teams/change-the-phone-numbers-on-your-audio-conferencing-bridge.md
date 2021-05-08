@@ -32,12 +32,12 @@ ms.locfileid: "51102657"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
-当你购买 **音频会议许可证** 时，Microsoft 将托管你的组织的音频会议网桥。 音频会议网桥从不同位置提供拨入电话号码，以便会议组织者和参与者可以使用它们通过电话加入 Skype for Business 或 Microsoft Teams 会议。
+当你购买 **音频会议许可证** 时，Microsoft 将托管你的组织的音频会议网桥。 音频会议网桥提供不同位置的拨入电话号码，以便会议组织者和参与者可以使用它们通过电话加入 Skype for Business 或 Microsoft Teams 会议。
   
 除了已分配给会议网桥的电话号码外，您还可以从其他位置获取用于音频会议) 的其他服务号码 [ (](./getting-service-phone-numbers.md) 收费和免费号码，然后将这些号码分配给会议网桥，以便你可以扩大用户的覆盖范围。
   
 > [!NOTE]
-> 为了能够为会议网桥分配/取消分配电话号码，电话号码必须是"*服务"* 号码。 通过导航到 Microsoft Teams 管理中心中的"语音电话号码"并查看"号码类型"列，可以看到  >  **号码** 的类型。 必须先设置 Microsoft 365 或 Office 365 通信信用额度，用户才能拨打免费电话号码拨入网桥。
+> 为了能够为会议网桥分配/取消分配电话号码，电话号码必须是"*服务"* 号码。 导航到管理中心中的"语音"或"电话"并查看"号码类型"Microsoft Teams，  >  可看到号码的类型。  Microsoft 365或Office 365，必须先设置通信信用额度，用户才能拨打免费号码拨入网桥。
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>将新的服务电话号码分配给会议网桥的操作步骤
 
@@ -45,7 +45,7 @@ ms.locfileid: "51102657"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航窗格中，转到"**语音**  >  **电话号码"。**
+1. 在左侧导航窗格中，转到"**语音** 电话  >  **数字"。**
 
 2. 从列表中选择电话号码，然后单击"编辑 **"。**
 
@@ -67,7 +67,7 @@ ms.locfileid: "51102657"
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>步骤 3 - 更改用户的会议邀请中包含的默认电话号码 (可选) 
 
-用户的默认电话号码是安排会议时包含在其会议邀请中的号码。 有关详细信息，包括如何为新用户分配默认电话号码，请参阅在 [Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) 中设置邀请中包含的电话号码或设置 Skype for Business Online 中的邀请中包含的 [电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
+用户的默认电话号码是安排会议时包含在其会议邀请中的号码。 有关详细信息，包括如何为新用户分配默认电话号码，请参阅在 Microsoft Teams 中设置邀请中包含的电话号码[或](set-the-phone-numbers-included-on-invites-in-teams.md)设置 Skype for Business Online 中的邀请[中包含的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
@@ -91,7 +91,7 @@ ms.locfileid: "51102657"
     Start-CsExMeetingMigration user@contoso.com
 ```
 
-- 你还可以查看会议迁移状态。 一旦没有处于 *待处理*  或 *进行中*  状态的操作时，将会重新安排会议。
+- 你还可以查看会议迁移状态。一旦没有处于 *待处理*  或 *进行中*  状态的操作时，将会重新安排会议。
 
 ```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
@@ -114,9 +114,9 @@ ms.locfileid: "51102657"
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
- >还可以在 Microsoft Teams 管理中心更改默认收费或免费用户数。 但是，这不会自动重新安排他们的会议。 
+ >还可在管理中心内更改默认收费或免费Microsoft Teams号码。 但是，这不会自动重新安排他们的会议。 
  
- 有关其他信息，请参阅 [在 Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) 中设置邀请中包含的电话号码或设置 Skype for Business Online 中的邀请 [中包含的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
+ 有关其他信息，请参阅[设置](set-the-phone-numbers-included-on-invites-in-teams.md)邀请中包含的电话号码Microsoft Teams或在 Skype for Business Online 中设置[邀请中包含的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
 
   > [!NOTE]
   > [!注释] 根据组织的规模，这可能需要一段时间才能完成。
@@ -135,7 +135,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航栏中，转到"**语音**  >  **电话号码"。**
+1. 在左侧导航栏中，转到"**语音**  >  **"电话号码"**。
 
 2. 如果电话号码是免费电话号码，请从列表中选择电话号码，然后单击"释放 **"。** 如果电话号码是收费电话号码，请联系 [Microsoft](/microsoft-365/admin/contact-support-for-business-products) 支持部门以取消分配电话号码。
 
@@ -180,7 +180,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   ```
 
     > [!NOTE]
-    > 上面使用的位置需要匹配用户在 Microsoft 365 管理 (设置) 的联系信息。
+    > 上面使用的位置需要匹配用户在管理 (中) 设置的Microsoft 365信息。
 
 ## <a name="troubleshooting"></a>疑难解答
 
@@ -202,15 +202,15 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>有关 Windows PowerShell
 
-可使用 Windows PowerShell 管理用户并管理他们能否执行的操作内容。 Windows PowerShell可帮助你使用单点管理来管理 Microsoft 365 或 Office 365 和 Skype for Business Online，从而简化日常工作，尤其是当你有多个任务需要执行时。 若要开始使用 Windows PowerShell，请参阅下列主题：
+可使用 Windows PowerShell 管理用户并管理他们能否执行的操作内容。 Windows PowerShell单点管理Microsoft 365管理 Office 365 Skype for Business Online，可以简化日常工作，尤其是有多个任务需要执行时。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell比使用 Microsoft 365 管理中心（例如，一次对许多用户进行设置更改时）具有许多速度、简单性和工作效率优势。 通过以下主题了解这些优势：
+Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 通过以下主题了解这些优势：
 
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [使用 Windows PowerShell 管理 Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

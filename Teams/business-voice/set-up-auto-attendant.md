@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解如何设置自动助理 (呼叫队列) Microsoft 365 商务语音。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3ae85545bc1f99c689477146a9b3eaa3bd9f299
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: ea18bcd84ce67dda914461c1bee08fbf8f4f4332
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130360"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282439"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>步骤 6：为公司主电话号码设置自动助理
 
@@ -33,4 +33,4 @@ ms.locfileid: "52130360"
 完成上述所有选项卡以设置自动助理后，单击以下按钮移动到下一篇文章。
 
 > [!div class="nextstepaction"]
-> [下一步：完成业务语音设置](set-up-finish.md)
+> [下一步：将电话号码移植到 Business Voice](port-phone-numbers.md)

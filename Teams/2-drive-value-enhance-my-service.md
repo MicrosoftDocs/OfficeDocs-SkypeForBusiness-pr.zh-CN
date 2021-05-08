@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 audience: admin
-description: 定期评估提高团队服务的机会，监视团队路线图，了解任何有趣的功能增强。
+description: 定期评估增强服务Teams的机会，监视Teams感兴趣的功能增强功能的路线图。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -27,21 +27,21 @@ ms.locfileid: "43779188"
 ---
 # <a name="enhance-my-service"></a>增强服务
 
-本文概述了为你的组织获取最常用云语音服务的要求。 通过持续监视云语音服务功能，你可以确保为你的组织提供最大价值。
+本文概述了为组织最全面使用云语音服务的要求。 通过持续监视云语音服务功能，你可以确保为组织提供最大的价值。
 
-## <a name="enhance-my-service-overview"></a>增强我的服务概述
-在你成功地将音频会议或电话系统与你的组织的呼叫计划服务一起部署并使用质量和可靠性运行服务后，下一步是定期评估你是否有机会增强你的服务。 这是一项持续服务改进计划的一部分，它是云服务管理的现代标准。 
+## <a name="enhance-my-service-overview"></a>增强服务概述
+成功将音频会议或 电话系统 与呼叫计划服务一起部署到组织，并且以质量和可靠性运行服务后，下一步是定期评估你是否有机会增强你的服务。 这是持续服务改进规划的一部分，是云服务管理的现代标准。 
 
-确保您始终充分利用服务的一种非常好的方法是监视[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)，了解可能对组织感兴趣的新功能增强。 如果您拥有 Microsoft 365 管理中心的访问权限，您将通过我们的消息中心接收来自我们的新功能和更改功能的定期更新。 
+确保始终充分利用服务的一种好方法就是监视[Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)公共路线图，了解组织可能感兴趣的新功能增强功能。 如果有权访问管理中心Microsoft 365，我们将通过消息中心定期收到有关新功能和更改功能的更新。 
 
-此外，由于组织的增长和更改，你应该花时间定期重新访问和更新你的业务使用案例，以确保该服务已配置为满足组织的当前需求。  通过在您的组织中建立反馈频道，确保您从您的用户和内部拥护者处获得真实的反馈意见。 这些会议可以是非正式对话、定期会议或通过团队频道或 Yammer 社区进行。 
+此外，由于组织的发展和变化，应定期重新访问和更新业务用例，以确保服务配置为满足组织的当前需求。  在组织中建立反馈渠道，确保从用户和内部支持者获得实际反馈。 这些可以是非正式对话、定期会议，或者通过Teams或社区Yammer。 
 
-当您看到增强您的服务的机会时，请花一些时间来正确操作。 重新访问[在 Microsoft 团队中部署聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，并对端应用相同的指南。 在进行小的增量更改时，不太可能需要完全完成所有活动和任务，但你应该确保评估每个活动和任务，以便为你提供成功结果的最佳机会。
+如果看到了增强服务的机会，请花些时间正确执行。 重新[访问 在应用中](deploy-chat-teams-channels-microsoft-teams-landing-page.md)部署聊天、团队、频道Microsoft Teams应用相同的端到端指导。 进行小规模的增量更改时，不太可能需要完整完成所有活动和任务，但应一路评估每个活动和任务，为自己提供成功结果的最佳机会。
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定哪些人可以监视公共路线图和其他服务公告，以了解你的组织可能从中受益的新功能或服务。</li><li>通过您的指导委员会确定将这些新功能或服务报告回关键利益干系人的节奏。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>实施可让你的服务保持最新的策略，让你的组织发挥最大价值。</li><li>通过完整的项目生命周期推动服务增强，以确保对部署中的影响做出正确的影响。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定谁将监视公共路线图和其他服务公告，以发现您的组织可能受益于的新功能或服务。</li><li>确定通过你的指导委员会向关键利益干系人报告这些新功能或服务的节奏。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>实施策略，使服务保持最新状态，为组织实现最大价值。</li><li>在完整的项目生命周期内推动服务增强功能，确保已正确考虑到它们对部署的影响。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

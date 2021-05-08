@@ -1,13 +1,13 @@
 ---
 title: 准备环境以升级到 Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 在开始从 Skype for Business 升级到 Teams 之前，请验证你的环境和网络就绪性。
+description: 在开始从云到云的升级之前，请验证Skype for Business和网络Teams。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f75d899f2b14915e265ce8d36c57daeaf0ce72d2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e154dc5844c4b8f3994c8c7bc00865c494a4c8c6
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119051"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282139"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>准备环境以升级到 Teams
 
@@ -35,15 +35,15 @@ ms.locfileid: "51119051"
 
 - [登记项目利益干系人](upgrade-enlist-stakeholders.md)
 - [请确定项目范围](./upgrade-define-project-scope.md)
-- [了解 Skype for Business 和 Teams 的共存和互操作性](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [了解两者共存Skype for Business互操作性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [选择了升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-若要在组织中成功升级 Teams，必须验证当前的 Skype for Business 环境和网络就绪性。 准备当前环境有助于确保现在高质量的用户体验，同时提高 Teams 中的用户体验质量。 花时间规划各个步骤有助于加快部署，并确保未跳过任何重要操作项目。
+若要在组织中Teams升级，必须验证当前Skype for Business网络就绪性。 准备当前环境有助于确保现在获得高质量的用户体验，此外，还有助于改善用户在 Teams。 花时间规划各个步骤有助于加快部署，并确保未跳过任何重要操作项目。
 
 在用户准备准备的同时完成这些活动：
 
 - [让 IT 人员](upgrade-prepare-IT-pros.md) 做好准备，帮助确保他们拥有成功完成升级旅程所需的功能。
-- 验证环境是否满足所有 [先决条件](upgrade-plan-journey-prerequisites.md)，并了解 Microsoft 365 或 Office 365 服务和 Teams 之间的依赖关系。
-- [通过使用示例调查问卷](upgrade-plan-journey-evaluate-environment.md) 执行环境发现来评估环境，以确认组织是否做好了成功升级到 Teams 的准备。
-- [通过规划](prepare-network.md) 、准备和为网络采取任何必要的修正步骤来准备网络，以支持 Teams 工作负荷。
-- [使用载入](upgrade-prepare-environment-prepare-service.md) 清单准备推出服务，以确保 Teams 配置已准备好支持将用户从 Skype for Business 迁移到 Teams。
+- 验证环境是否满足所有[先决条件](upgrade-plan-journey-prerequisites.md)，并了解Microsoft 365或Office 365服务Teams。
+- [通过使用示例](upgrade-plan-journey-evaluate-environment.md)调查问卷执行环境发现来评估环境，以确认组织是否准备好进行成功的升级过程，Teams。
+- [通过规划](prepare-network.md)、准备和采取任何必要的补救措施为网络准备网络，以支持Teams工作负荷。
+- [使用载入](upgrade-prepare-environment-prepare-service.md)清单准备推出服务，以确保 Teams 配置已准备好支持将用户从 Skype for Business 迁移到 Teams。

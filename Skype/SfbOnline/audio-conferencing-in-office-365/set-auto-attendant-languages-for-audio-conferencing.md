@@ -21,14 +21,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 请参阅如何在 Skype for Business Online 中为音频会议号码选择音频会议自动助理语言。
-ms.openlocfilehash: d2b4c0d9be666a6ee7de9c2bd36b8dd06cccdf32
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 714312989bc3898fea2ed0d335fed8f5f2eebbb3
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109994"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237018"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>在 Skype for Business Online 中设置音频会议自动助理语言
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
 > 有关在 Microsoft Teams 中设置自动助理语言的信息，请参阅 [在 Microsoft Teams 中设置音频会议自动助理语言](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)。
@@ -45,9 +47,9 @@ Skype for Business 的音频会议自动助理可以在加入会议时以多种�
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>设置会议自动助理语言
 
-只有全局 [管理员或](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Skype [for Business 管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 才能执行此步骤。
+只有全局[管理员或](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)Skype for Business[才能](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)执行此步骤。
     
-1. 在 **Skype for Business 管理中心的** 左侧导航栏中，转到 **旧门户**。 进入旧门户后，选择"**音频会议"，** 然后单击 **"Microsoft 网桥"。**
+1. 在Skype for Business **管理中心的** 左侧导航中，转到 **"旧门户"。** 进入旧门户后，选择"**音频会议"，** 然后单击 **"Microsoft 网桥"。**
     
 2. 从列表中选择音频会议电话号码，在"操作"窗格中，单击"**设置语言"。** 只能更改专用音频会议号码的语言。  
     
@@ -64,14 +66,14 @@ Skype for Business 的音频会议自动助理可以在加入会议时以多种�
     
 - 语言可以设置为专用，但不能设置为共享电话号码。
     
-- 若要查看 Microsoft 365 或使用 Microsoft 作为提供商的 Office 365 中的音频会议可用的国家/地区列表，请参阅音频会议 [的电话号码](phone-numbers-for-audio-conferencing.md)。
+- 若要查看使用 Microsoft 作为提供商的 Microsoft 365 或 Office 365 提供音频会议的国家/地区列表，请参阅音频电话[号码](phone-numbers-for-audio-conferencing.md)。
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell？
 
 若要自动执行此步骤，可以使用 [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) 和 [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) cmdlet。
   
-有关详细信息，请参阅使用 [Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+有关详细信息，请参阅使用[Windows PowerShell 执行常见Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="related-topics"></a>相关主题
 
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[尝试或购买音频会议Microsoft 365或Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

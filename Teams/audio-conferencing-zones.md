@@ -1,5 +1,5 @@
 ---
-title: 音频会议的国家/地区和地区区域
+title: 音频会议的国家/地区与区域
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -27,9 +27,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821272"
 ---
-# <a name="country-and-region-zones-for-audio-conferencing"></a>音频会议的国家/地区和地区区域
+# <a name="country-and-region-zones-for-audio-conferencing"></a>音频会议的国家/地区与区域
 
-本文列出了音频会议的国家/地区和地区。
+本文列出了音频会议的国家/地区。
 
 ## <a name="zone-a-countries-and-regions"></a>区域 A 国家和地区
 

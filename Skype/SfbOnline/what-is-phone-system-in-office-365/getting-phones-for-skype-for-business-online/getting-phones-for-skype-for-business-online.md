@@ -22,27 +22,29 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解哪些电话可从 Polycom、HP 和 Mitel 使用 Skype for Business，以及需要的许可证。 '
-ms.openlocfilehash: 03f9a6d5cf3ac496c4828825e68f068ec98a14ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d6cfbfa56181d8fe8bae55ea4b1efa4680be23c7
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106438"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237358"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
-Skype for Business Online 为想要使用传统手机体验而不是使用 Skype for Business 应用的用户限定并支持座机。 本主题介绍 Skype for Business Online 中支持使用的电话和固件版本，以及当你在组织中设置电话时可提供帮助的其他信息。
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
+Skype for Business对于想要使用传统手机体验而不是使用桌面应用的用户，在线限定并支持Skype for Business电话。 本主题介绍支持在 Skype for Business Online 中使用的电话和固件版本，以及当您在组织中设置电话时可提供帮助的其他信息。
 
 > [!NOTE]
-> Skype for Business 将逐渐被 Microsoft Teams 取代，成为 Microsoft 365 和 Office 365 中的主要通信方法。  有关详细信息 [，请参阅 Office 365 中智能通信](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) 的新愿景。
+> SkypeFor Business 将缓慢地被 Microsoft Teams 替换为 Microsoft 365 和 Office 365。  有关详细信息[，请参阅](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)Office 365 智能通信的新愿景。
 >
->若要获取有关受支持设备的最新更新和最新信息，请参阅用于智能通信的 [Microsoft Teams 设备](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
+>若要获取有关受支持设备的最新更新和最新信息，请参阅智能通信Microsoft Teams[设备](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
   
 ## <a name="supported-phones"></a>支持的电话
   
-Microsoft 与 Polycom、Yealink 和 AudioCodes 密切合作，通过适用于电话系统的合作伙伴 IP 电话计划 (PIP) 开发和认证各种设备。
+Microsoft 与 Polycom、Yealink 和 AudioCodes 密切合作，通过合作伙伴 IP 电话 计划 (PIP) 开发并认证各种设备电话系统。
   
-为 Skype for Business 订购新手机时，购买具有正确产品 *ID 的电话非常重要*。 这些产品 ID 将确保你收到的电话已安装 Skype for Business Online 限定版本。
+为手机订购Skype for Business时，购买具有正确产品 *ID 的电话非常重要*。 这些产品 ID 将确保你收到的电话已安装Skype for Business在线限定版本。
   
 |||
 |:-----|:-----|
@@ -55,16 +57,16 @@ Microsoft 与 Polycom、Yealink 和 AudioCodes 密切合作，通过适用于电
   
 有关 Yealink 电话的更多详细信息，请参阅 [Skype for Business IP 电话](http://www.yealink.com/products_list_10.html#filter2)。
   
-有关 AudioCodes 电话的更多详细信息，请参阅 [Skype for Business IP 电话](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
+有关 AudioCodes 电话的更多详细信息，请参阅[Skype for Business IP 电话](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
   
 > [!NOTE]
 > Lync Phone Edition 支持 Skype for Business Online，但不支持 Microsoft Teams。 对 LPE 平台的主流支持于 2014 年 4 月 10 日结束，扩展支持将持续到 2023 年 4 月 11 日，以便与 Lync Server 2013 的产品支持生命周期保持一致。 有关 LPE 生命周期的详细信息，请参阅 [Microsoft 产品生命周期](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)。 LPE CAP 型号不支持 Skype for Business Online。
 >
-> 今年晚些时候，Office 365 将不支持任何版本低于 1.2 的 TLS。 由于 LPE 底层操作系统不支持 TLS 1.2，将不支持 LPE 连接到 Office 365。 如需了解更多信息，请参阅[为 TLS 1.2 在 Office 365 中的强制使用做准备](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) 。
+> 今年晚些时候，Office 365不支持任何版本低于 1.2 的 TLS。 由于 LPE 底层操作系统不支持 TLS 1.2，将不支持 LPE 连接到 Office 365。 如需了解更多信息，请参阅[为 TLS 1.2 在 Office 365 中的强制使用做准备](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) 。
   
 ## <a name="supported-firmware"></a>支持的固件
 
-这是支持的电话使用电话系统所需的最低软件版本：
+这是受支持的电话使用以下设备所需的最低软件版本电话系统：
   
 ||||
 |:-----|:-----|:-----|
@@ -74,18 +76,18 @@ Microsoft 与 Polycom、Yealink 和 AudioCodes 密切合作，通过适用于电
 |Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
 
-有关当前认证的固件版本的更多详细信息，请参阅 Skype [for Business IP 电话](../../../SfbPartnerCertification/certification/devices-ip-phones.md)。
+有关当前认证的固件版本的更多详细信息，请参阅 Skype for Business [IP 电话](../../../SfbPartnerCertification/certification/devices-ip-phones.md)。
 
 > [!NOTE]
 > [!注释] 你为本地部署设置的 Lync Phone Edition (LPE) 电话必须加以更新，以符合最低或最新的必要固件要求，之后才能将这些用户转移到 Skype for Business Online。如果在更新电话上的固件之前将用户从本地部署迁移到 Skype for Business Online，这些电话将无法连接到 Skype for Business Online。 
   
 ## <a name="required-licenses"></a>所需的许可证
 
-除了用户许可证外，Skype for Business Online 不需要任何其他 Microsoft 许可证。 若要详细了解所需的用户许可证，请参阅 Skype [for Business 和 Microsoft Teams 附加许可](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+Skype for Business除用户许可证外，Online 不需要任何其他 Microsoft 许可证。 若要详细了解所需的用户许可证，请参阅Skype for Business和Microsoft Teams[附加许可。](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-开放式 SIP 和 Skype for Business 认证固件之间的制造商许可模式可能有所不同。 如果打算对开放式 SIP 固件重复使用某个认证模式，则需要向制造商确认固件许可证要求。
+开放式 SIP 和经认证的固件的制造商Skype for Business模型可能有所不同。 如果打算对开放式 SIP 固件重复使用某个认证模式，则需要向制造商确认固件许可证要求。
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype for Business Online 连接电话功能集
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype for Business联网电话功能集
 
 有关完整的设备特性和功能，请查看制造商用户指南。
   

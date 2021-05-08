@@ -1,5 +1,5 @@
 ---
-title: 组织团队的最佳做法
+title: 组织团队的最佳实践
 ms.reviewer: pbethi
 author: SerdarSoysal
 ms.author: serdars
@@ -42,7 +42,7 @@ ms.locfileid: "46581373"
 
 ## <a name="create-channels-to-focus-discussions"></a>创建以讨论为重点的频道
 
-创建团队后，最好开始考虑您需要支持的各种不同项目和对话的类型。 请创建初始频道，这样成员就知道在哪里参与并查找现有对话。 命名描述性频道名称，这样成员就更容易知道到哪里查找每个对话。 请将工具（如 OneNote、Power BI 或 Planner）作为选项卡添加到频道中，这样成员就可以直接在频道中使用所需的一切功能。 也可以将常用网页作为选项卡添加到频道中。
+创建团队后，建议开始考虑需要支持的不同项目和对话类型。 请创建初始频道，这样成员就知道在哪里参与并查找现有对话。 命名描述性频道名称，这样成员就更容易知道到哪里查找每个对话。 请将工具（如 OneNote、Power BI 或 Planner）作为选项卡添加到频道中，这样成员就可以直接在频道中使用所需的一切功能。 也可以将常用网页作为选项卡添加到频道中。
 
 若要详细了解这些面向最终用户的快速提示与技巧，请参阅[在团队中工作](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)。
 
@@ -54,16 +54,16 @@ ms.locfileid: "46581373"
 
 ## <a name="use-the-general-channel"></a>使用常规频道
 
-常规频道**** 默认与团队一起创建。 此频道有多种实用用途：
+常规频道默认与团队一起创建。 此频道有多种实用用途：
 
 - 可用于共享团队所要实现目标的概述，如项目章程或团队成员。
 - 可用于让新团队成员加入，并共享新团队成员可能认为有用的其他概要信息。
 - 可用于发布公告，或配置 SharePoint 新闻连接器，以将最新状态报告发布到此频道。  
 - 对于新团队或单一用途团队，这可能是你一开始决定 Teams 如何最有效地支持你实现目标时的唯一频道。
 
-无法删除、重命名或取消收藏常规频道。 频道按字母顺序显示（常规频道显示在顶部）。 在有许多频道的团队中，使用“隐藏”**** 或“显示”**** 可以显示你最常使用的频道。
+无法删除、重命名或取消收藏常规频道。 频道按字母顺序显示（常规频道显示在顶部）。 在有许多频道的团队中，使用“隐藏”或“显示”可以显示你最常使用的频道。
 
-若要了解详细信息，请仔细阅读 [Teams 和频道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)页上的“在频道中工作”**** 选项卡。
+若要了解详细信息，请仔细阅读 [Teams 和频道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)页上的“在频道中工作”选项卡。
 
 ## <a name="consider-setting-up-moderation-in-your-channels"></a>考虑在频道中设置审核
 

@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 使用此快速入门清单可确保组织开始采用 Microsoft Teams 时成功。
+description: 使用此快速入门清单可确保在组织开始采用新计划时Microsoft Teams。
 f1.keywords:
 - CSH
 ms.custom:
@@ -40,7 +40,7 @@ ms.locfileid: "49809312"
 
 - [了解团队和频道](teams-adoption-understand-teams-and-channels.md)
 - [创建第一个团队](teams-adoption-your-first-teams.md)
-- [你已准备好使用 Teams 了吗？](teams-adoption-assess-readiness.md)
+- [准备好使用Teams？](teams-adoption-assess-readiness.md)
 - [与利益干系人会面](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [识别早期采用者](teams-adoption-assess-readiness.md#identify-early-adopters)
 
@@ -49,8 +49,8 @@ ms.locfileid: "49809312"
 - [创建冠军计划](teams-adoption-create-champions-program.md)
 - [完成治理快速入门](teams-adoption-governance-quick-start.md)
 - [定义使用方案](teams-adoption-define-usage-scenarios.md)
-- [与业务利益干系人沟通](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
-- [确定业务方案的映射和优先级](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
+- [与业务利益干系人进行访谈](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [映射业务方案并设置其优先级](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
 - [登记早期采用者并收集反馈](teams-adoption-onboard-early-adopters.md)
 - [登记支持](teams-adoption-onboard-support.md)
 

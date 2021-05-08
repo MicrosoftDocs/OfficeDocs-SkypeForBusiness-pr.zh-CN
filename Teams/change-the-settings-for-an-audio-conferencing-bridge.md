@@ -33,12 +33,12 @@ ms.locfileid: "51102638"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
-在 Microsoft 365 或 Office 365 中设置音频会议时，你将收到来自音频会议网桥的用户的电话号码。 会议网桥可以包含一个或多个电话号码。 呼叫者拨入会议时，将使用这些电话号码。 电话号码包含在 Skype for Business 或 Microsoft Teams 会议邀请的底部。
+当你在会议或会议Microsoft 365 Office 365，你将收到来自音频会议网桥的用户的电话号码。 会议网桥可以包含一个或多个电话号码。 呼叫者拨入会议时，将使用这些电话号码。 电话号码包含在会议邀请或会议Skype for Business Microsoft Teams底部。
   
-会议网桥应答呼叫，然后使用会议自动助理通过语音提示提示呼叫者，然后根据你的设置，它可以播放通知、让呼叫者录制其姓名并控制 PIN 设置。 PIN 被赋予会议组织者，以允许他们在没有使用 Skype for Business 或 Microsoft Teams 应用时启动会议。
+会议网桥应答呼叫，然后使用会议自动助理通过语音提示提示呼叫者，然后根据你的设置，它可以播放通知、让呼叫者录制其姓名并控制 PIN 设置。 PIN 被赋予给会议组织者，以便他们在没有使用应用或Skype for Business时Microsoft Teams会议。
 
   > [!IMPORTANT]
-  > 只有当 Skype for Business 或 Microsoft Teams 应用用户尚未启动会议时，会议组织者才需要 PIN。 如果每个人都拨入会议，会议组织者需要 PIN 才能启动会议。 
+  > 只有当会议组织者尚未启动会议时，Skype for Business或Microsoft Teams用户才需要 PIN。 如果每个人都拨入会议，会议组织者需要 PIN 才能启动会议。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -63,7 +63,7 @@ ms.locfileid: "51102638"
 4. 若要设置会议的 PIN 长度，请在"PIN 长度"列表中选择 PIN **的位数** 。
 
 5. 若要指定是否向用户发送电子邮件，请启用或禁用"如果用户的音频会议配置发生更改时自动 **向用户发送电子邮件"。**
-    有关详细信息 [，请参阅](emails-sent-to-users-when-their-settings-change-in-teams.md) 当用户的音频会议设置在 Microsoft Teams 中更改时自动向用户发送的电子邮件或当用户在 [Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) 中的设置更改时发送给用户的电子邮件。
+    有关详细信息[，请参阅](emails-sent-to-users-when-their-settings-change-in-teams.md)当用户的音频会议设置在 Microsoft Teams 中更改时自动发送给用户的电子邮件，或当用户在[Skype for Business Online 中更改设置时发送给](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)用户的电子邮件。
  
 6. 单击“**保存**”。 
 
@@ -71,13 +71,13 @@ ms.locfileid: "51102638"
 
 - 若要节省时间或自动执行此过程，可以使用 [Set-CsDialinConferencingBridge](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge) cmdlet。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点，在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心具有许多速度、简单性和工作效率优势，例如，一次对多个用户进行设置更改时。 请在以下主题中了解这些优点： 
+- Windows PowerShell比仅使用 Microsoft 365 管理中心在速度、简单性和工作效率方面具有许多优势，例如，一次对多个用户进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     

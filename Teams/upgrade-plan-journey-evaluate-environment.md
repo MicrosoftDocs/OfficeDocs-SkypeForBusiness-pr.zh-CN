@@ -1,13 +1,13 @@
 ---
-title: 在升级到 Teams 之前评估环境
-author: msdmaguire
-ms.author: dmaguire
+title: 在升级到新环境之前评估Teams
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 了解正确评估当前环境以升级到 Teams 的要求。
+description: 了解正确评估当前环境以升级到 Teams。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 119a80f5a25b4a2d8599df3df6a573a1f5554c1a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aeb236edddea69c1c112b695c9323de19da46092
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119101"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282199"
 ---
-# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>在升级到 Teams 之前评估环境
+# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>在升级到新环境之前评估Teams
 
 ![升级过程图，强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级过程阶段，着重强调技术准备阶段")
 
@@ -33,39 +33,39 @@ ms.locfileid: "51119101"
 
 - [登记项目利益干系人](upgrade-enlist-stakeholders.md)
 - [请确定项目范围](./upgrade-define-project-scope.md)
-- [了解 Skype for Business 和 Teams 的共存和互操作性](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [了解两者共存Skype for Business互操作性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [选择了升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-本文概述了正确评估当前运行 Teams 环境的要求。 通过评估环境，可以识别影响整体部署的风险和要求。 通过事先确定这些项目，可以调整规划以推动成功。
+本文概述了正确评估当前环境以运行环境Teams。 通过评估环境，可以识别影响整体部署的风险和要求。 通过事先确定这些项目，可以调整规划以推动成功。
 
 ## <a name="introduction-to-the-discovery-questionnaire"></a>发现调查问卷简介
 
-为了在 OKR (目标) ，你之前做出过关键服务决策。 下一步是执行环境发现，评估与 IT 基础结构、网络和操作相关的所有方面，以确认组织已准备好实施解决方案。 发现是规划 Teams 之旅时首先执行的关键步骤之一。 环境发现必须包含网络就绪性评估，以确保你的网络可以支持升级到 Teams。 你可以对环境执行详细发现，以更好地了解其当前状态，并揭示任何困难，或者（甚至更重要的是）可能阻碍 Teams 推广的执行。
+为了在 OKR (目标) ，你之前做出过关键服务决策。 下一步是执行环境发现，评估与 IT 基础结构、网络和操作相关的所有方面，以确认组织已准备好实施解决方案。 发现是规划用户旅程时首先执行的关键步骤Teams。 环境发现必须包含网络就绪性评估，以确保网络可以支持升级到Teams。 可以针对环境执行详细发现，以更好地了解其当前状态，并揭示任何困难，或者（甚至更重要的是）可能阻碍用户部署Teams因素。
 
 在环境评估和采用就绪性评估中识别技术风险，并针对每个已识别的风险制定缓解计划。 应该将此信息合并到风险寄存器中。
 
-与现有协作基础结构和 Microsoft 365 或 Office 365 组织、网络、终结点、操作、采用和准备相关的所有事项均包含在环境发现调查问卷中。 与项目团队合作，尽可能详细地提供请求的信息，促进规划活动。
+与现有协作基础结构以及组织或Microsoft 365 Office 365、网络、终结点、操作、采用和准备相关的所有事项均包含在环境发现调查问卷中。 与项目团队合作，尽可能详细地提供请求的信息，促进规划活动。
 
-[调查问卷](upgrade-plan-journey-discovery-questionnaire.md) 分为以下部分，以确认组织在以下几个主要方面对 Teams 部署的准备情况：
+[调查问卷](upgrade-plan-journey-discovery-questionnaire.md)划分为以下部分，以确认组织是否准备好在几个主要Teams部署：
 
-- Microsoft 365 或 Office 365 组织详细信息
+- Microsoft 365或Office 365组织详细信息
 - 现有协作平台摘要
 - 协作平台部署详细信息
-- 网络和访问 Microsoft 365 或 Office 365 服务
+- 网络和访问Microsoft 365 Office 365服务
 - 终结点
 - 运营
 - 采用和准备情况
 
 > [!TIP]
-> 首先，可以将调查问卷复制到 Microsoft Word 文档中。 尝试回答所有问题，在浏览时捕获所有详细信息。
+> 首先，可以将调查问卷复制到文档Microsoft Word文档。 尝试回答所有问题，在浏览时捕获所有详细信息。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>决策点</td><td><ul><li>谁负责完成环境评估？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>决策点</td><td><ul><li>Who将负责完成环境评估？</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>后续步骤</td><td><ul><li>记录环境评估的结果。</li></ul></td></tr>
 </table>
 
 
-## <a name="project-team"></a>项目团队
+## <a name="project-team"></a>Project团队
 
 确保已与项目团队的合适人员合作。 验证在登记项目利益 [干系人 中完成的步骤](upgrade-enlist-stakeholders.md)。
 

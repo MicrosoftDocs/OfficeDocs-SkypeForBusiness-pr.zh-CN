@@ -1,5 +1,5 @@
 ---
-title: 如何查找支持 PIN？
+title: 如何查找我的支持 PIN？
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: mikedav
 search.appverid: MET150
-description: 了解如何查找您的支持 PIN 码。
+description: 了解如何查找支持 PIN。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8d9fbc7805adb2bec12625daea4d0745ffd80472
@@ -20,17 +20,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/13/2020
 ms.locfileid: "44221636"
 ---
-# <a name="how-to-look-up-your-support-pin"></a>如何查找你的支持 PIN
+# <a name="how-to-look-up-your-support-pin"></a>如何查找支持 PIN
 
-若要查找支持 PIN，以便通过电话支持 Microsoft 客户支持，请按照以下步骤操作： 
+若要通过电话查找支持 PIN（支持 Microsoft 客户支持人员），请执行以下步骤： 
 
-1. 登录到[Office 管理中心](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage)。 
+1. 登录到管理[Office中心](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage)。 
 
 2. 单击齿轮图标。
 
-3. 您的支持 PIN 将显示在右下方窗格中。 如果需要，您也可以选择重新生成 PIN 码。  
+3. 你的支持 PIN 将显示在右下窗格中。 如果需要，还可以选择重新生成 PIN。  
 
-   ![显示支持针脚的图表](media/support-pin.png)
+   ![显示支持 PIN 的示意图](media/support-pin.png)
 
 
 

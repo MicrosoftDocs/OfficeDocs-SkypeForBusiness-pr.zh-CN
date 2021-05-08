@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: 当您使用 Microsoft 365 或 Office 365 中的呼叫计划时，您可以下载和打印这些标签，以便进行紧急呼叫。
+description: 当你在呼叫中心或电话中心使用呼叫计划时，你可以下载并打印这些Microsoft 365 Office 365。
 ms.openlocfilehash: 30286acb1d1b91f52287d50eab7a72d7efe94915
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.locfileid: "44691458"
 ---
 # <a name="emergency-calling-labels"></a>紧急呼叫标签
 
-这些是紧急呼叫（911）可用于 Avery 5160 地址标签（1 "x 2 5/8"）的免责声明标签或贴纸，如果要使用其他类型的标签，可调整其大小。
+这些是紧急呼叫 (911) 免责声明标签或贴纸，用于 Avery 5160 地址标签 (1" x 2 5/8") ，或者如果你想要使用其他类型的标签，也可以调整大小。
 
-[单击以下载用于紧急呼叫标签的 .zip 文件（en-us）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)。
+[单击 下载紧急.zip标签的 (](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)文件) 。
 
 ## <a name="related-topics"></a>相关主题
 

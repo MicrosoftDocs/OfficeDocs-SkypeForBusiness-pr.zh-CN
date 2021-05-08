@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: 了解如何使用 Microsoft Teams 管理中心或Windows PowerShell PSTN 呼叫拨号 (创建和管理) 。
-ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 了解如何使用 PSTN Microsoft Teams中心或Windows PowerShell PSTN 呼叫拨号 (创建和管理) 。
+ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120804"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282359"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
-为组织规划拨号计划并找出需要为呼叫路由创建的所有规范化规则后，即可创建拨号计划。 可以使用 Microsoft Teams 管理中心或Windows PowerShell创建和管理拨号计划。  
+为组织规划拨号计划并找出需要为呼叫路由创建的所有规范化规则后，即可创建拨号计划。 使用具有有效 Teams 许可证的管理员帐户，Microsoft Teams管理中心或Windows PowerShell创建和管理拨号计划。  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 ### <a name="create-a-dial-plan"></a>创建拨号计划
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"语音**  >  **拨号计划"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **拨号计划"。**
 2. 单击 **"** 添加"，然后输入拨号计划的名称和说明。
     ![显示用于创建拨号计划的"添加"页面的屏幕截图](media/create-dial-plan.png)
 3. 在 **"拨号计划详细信息**"下，指定外部拨号前缀（如果用户需要拨打一个或多个前导 (例如，9) 才能获取外部线路。 要执行此操作：
@@ -49,14 +49,14 @@ ms.locfileid: "51120804"
 5. 按需要的顺序排列规范化规则。 单击 **"上****移"或**"下移"以更改规则在列表中的位置。
 
     > [!NOTE]
-    > Teams 从上到下遍历规范化规则列表，并使用与拨入号码匹配的第一个规则。 如果设置了拨号计划，以便拨号号码可以匹配多个规范化规则，请确保限制性较强的规则在限制性较少的规则上方排序。
+    > Teams从上到下遍历规范化规则列表，并使用与拨号号码匹配的第一个规则。 如果设置了拨号计划，以便拨号号码可以匹配多个规范化规则，请确保限制性较强的规则在限制性较少的规则上方排序。
 
 6. 单击“**保存**”。
 7. 如果要测试拨号计划，请在"测试拨号计划"下输入电话号码，然后单击"测试 **"。**
 
 ### <a name="edit-a-dial-plan"></a>编辑拨号计划
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"语音**  >  **拨号计划"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **拨号计划"。**
 2. 通过单击拨号计划名称左侧选择拨号计划，然后单击"编辑 **"。**
 3. 进行您需要的更改，然后单击"保存 **"。**
 
@@ -67,7 +67,7 @@ ms.locfileid: "51120804"
 ## <a name="using-powershell"></a>使用 PowerShell
   
 ### <a name="start-powershell"></a>启动 PowerShell
-- 打开 Windows PowerShell 命令提示符并运行以下命令：
+- 打开Windows PowerShell命令提示符并运行以下命令：
 
 ```powershell
   # When using Teams PowerShell Module

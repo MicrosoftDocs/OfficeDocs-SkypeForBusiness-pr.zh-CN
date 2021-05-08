@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
-description: 了解 Microsoft 团队系统内存使用情况，以及桌面应用程序和 web 应用程序之间的内存使用情况。
+description: 了解Microsoft Teams内存使用情况，以及为什么桌面应用程序和 Web 应用程序的内存使用量相同。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -26,44 +26,44 @@ ms.locfileid: "48878716"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams 如何使用内存
 
-某些 Microsoft 团队用户对团队使用内存的方式有疑问。 本文介绍团队如何使用内存，以及团队桌面应用程序 (应用) 和团队 web app 不阻止同一台计算机上的其他应用和工作负荷以最佳运行的内存。 团队设计为使用新式 web 技术。 为了实现此目的，已在电子上开发了团队桌面客户端，该客户端使用 Chromium 进行呈现。 这是当今大多数最热门的浏览器（包括边缘和 Chrome）中的相同呈现引擎。
+某些Microsoft Teams用户对如何使用内存Teams有疑问。 本文介绍 Teams 如何使用内存，以及 Teams 桌面应用程序 (应用) 和 Teams Web 应用为何不会阻止同一计算机上其他应用和工作负荷有足够的内存以最佳方式运行。 Teams旨在使用现代 Web 技术。 为实现此目的，Teams在 Electron 上开发桌面客户端，该客户端Chromium呈现。 这是许多当今最受欢迎的浏览器（包括 Edge 和 Chrome）背后的相同呈现引擎。
 
-## <a name="how-teams-works"></a>团队的工作方式
+## <a name="how-teams-works"></a>如何Teams工作
 
-在电子上设计的团队允许更快地进行开发，并且它还会在不同操作系统 (Windows、Mac 和 Linux) 之间保持不同团队版本之间的奇偶。 这种奇偶校验是可行的，因为电子和 Chromium 在所有版本中维护类似的基本代码。 此体系结构的另一个优点是，团队 web 应用和桌面版本之间存在类似的内存使用率配置文件。 Web 应用和桌面版本使用内存的方式与浏览器使用内存的方式类似。 有关电子的详细信息可在 [其网站](https://electronjs.org/)上使用。
+Teams在 Electron 上设计的版本可以加快开发速度，并且它还在不同操作系统（ (Windows、Mac 和 Linux) ）之间保持 Teams 版本之间的奇偶) 。 这种奇偶校验的可能原因是，Electron 和 Chromium在所有版本之间保持类似的代码库。 此体系结构的另一个优点是，Web 应用和桌面版本Teams类似的内存使用情况配置文件。 Web 应用和桌面版本使用内存的方式与浏览器使用内存的方式类似。 有关 Electron 详细信息，请参阅 [其网站](https://electronjs.org/)。
 
-有关详细信息，请参阅[Chrome 内存中](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md)的[Chromium 内存使用](https://www.chromium.org/developers/memory-usage-backgrounder)和关键概念。
+有关详细信息[Chromium](https://www.chromium.org/developers/memory-usage-backgrounder) Chrome 内存中[的内存使用情况](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md)和关键概念。
 
-下图显示了 Windows 和团队 Web app 的团队桌面应用的并行内存使用情况 (在本示例中，在 Google Chrome) 中运行。
+下图显示了在 Google Chrome) 中运行的 Teams 桌面应用 Windows 和 Teams Web 应用 (的并排内存使用情况。
 
-![桌面应用和 Web 应用的团队内存使用情况](media/teams-memory-clientweb.png)
+![Teams应用和 Web 应用的内存使用情况](media/teams-memory-clientweb.png)
 
-## <a name="memory-usage-in-teams"></a>团队中的内存使用情况
+## <a name="memory-usage-in-teams"></a>内存中的内存Teams
 
-了解团队在系统内存方面的 *预期* 行为并了解真正有问题的系统内存问题的症状非常重要。
+必须了解系统内存Teams预期行为，并了解真正有问题的系统内存问题的症状。
 
-### <a name="expected-memory-usage-by-teams"></a>团队预期的内存使用情况
+### <a name="expected-memory-usage-by-teams"></a>按数据表示的预期Teams
 
-无论您正在运行的是团队桌面应用还是团队 web 应用，Chromium 都会检测出有多少系统内存可用，并充分利用该内存来优化呈现体验。 当其他应用或服务需要系统内存时，Chromium 将为这些进程提供内存。 Chromium 在不断调整团队内存使用情况，以便优化团队性能而不影响当前运行的任何其他内容。
+无论是运行 Teams 桌面应用还是 Teams Web 应用，Chromium 检测有多少系统内存可用，并充分利用该内存来优化呈现体验。 当其他应用或服务需要系统内存时，Chromium为这些进程提供内存。 Chromium持续Teams优化内存使用量，以便优化Teams性能，而不会影响当前正在运行的任何其他内容。
 
-这样，类似的 Chromium 工作负荷可以利用不同数量的内存，具体取决于可用的系统内存量。
+这样，Chromium工作负荷可以利用不同的内存量，具体取决于可用的系统内存量。
 
-下图介绍了两个独立系统上的团队内存使用情况，每个系统具有不同的可用内存量。 每个系统都处理类似的工作负荷 (相同的应用打开并运行) 。
+下图描绘了在四个单独的系统上Teams内存使用情况，每个系统上都有不同的可用内存量。 每个系统正在处理类似的工作负荷， (打开并运行相同的) 。
 
-![团队跨不同系统的内存使用量](media/teams-memory-usage.png)
+![Teams不同系统的内存使用情况](media/teams-memory-usage.png)
 
-当计算机有更多内存时，团队将使用该内存。 在内存不足的系统中，团队将占用较少的时间。
+当计算机具有更多内存时，Teams使用该内存。 在内存不足的系统中，Teams消耗更少。
 
 ### <a name="symptoms-of-system-memory-issues"></a>系统内存问题的症状
 
-如果你在计算机上看到以下一种或多种症状，可能会出现严重的系统内存问题：
+如果在计算机上看到以下一种或多个症状，则可能是系统内存问题严重：
 
-- 高内存在多个大型应用程序同时运行时使用。
-- 系统性能较慢或应用程序挂起。
-- 所有应用的持续总系统内存使用率为90% 或更高。 使用此内存使用量，团队应将内存提供给其他应用和工作负荷。 90% 的持久内存使用意味着团队没有将内存提供给系统，这表示存在问题。
+- 当多个大型应用程序同时运行时，内存使用较高。
+- 系统性能缓慢或应用程序挂起。
+- 在所有应用之间持续使用 90% 或更高的系统内存。 如果内存使用量达到此Teams，应该会向其他应用和工作负荷提供内存。 持续的内存使用率为 90% 可能意味着Teams不会向系统提供内存，这表示出现问题。
 
-下面的图像显示了当系统内存使用异常高时，任务管理器中的视图示例。
+下图显示了当系统内存使用率异常较高时任务管理器中的视图示例。
 
-![任务管理器中的工作组内存使用情况视图](media/teams-memory-high-mem-process-list.png)
+![Teams管理器中的内存使用情况视图](media/teams-memory-high-mem-process-list.png)
 
-![任务管理器中的团队内存使用图](media/teams-memory-high-mem-process-list2.png)
+![Teams管理器中的内存使用情况图](media/teams-memory-high-mem-process-list2.png)

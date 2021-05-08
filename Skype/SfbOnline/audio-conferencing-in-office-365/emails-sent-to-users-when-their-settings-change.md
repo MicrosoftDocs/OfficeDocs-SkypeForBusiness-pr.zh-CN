@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online 中的设置更改时发送给用户的电子邮件
+title: 在 Skype for Business Online 中设置更改时发送给用户的电子邮件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,26 +20,28 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '了解当 Skype for Business Online 中的电话拨入式会议设置更改时，将通过电子邮件自动向用户发送哪些信息。 '
-ms.openlocfilehash: 4ab95af236fdb0ef8ff3aee6004fa8b11bf313af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '了解当用户的电话拨入式会议设置在 Skype for Business Online 中更改时，将通过电子邮件自动向用户发送哪些信息。 '
+ms.openlocfilehash: 75ed80ef7d686ecb649bc1d21f30a43fd115f1a3
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110028"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237338"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Skype for Business Online 中的设置更改时发送给用户的电子邮件
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>在 Skype for Business Online 中设置更改时发送给用户的电子邮件
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 如果要在 Microsoft Teams 中查找自动电子邮件信息，请参阅在 Microsoft Teams 中更改设置时 [发送给用户的电子邮件](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)。
+> 如果要在电子邮件中查找自动电子邮件Microsoft Teams，请参阅用户在电子邮件中设置更改时发送给[Microsoft Teams。](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)
 
 电子邮件将自动发送给使用 Microsoft 作为音频会议[](set-up-audio-conferencing.md)提供商启用音频会议的用户。
   
-默认情况下，有四种类型的电子邮件将发送给启用了音频会议的用户。 但是，如果要限制向用户发送的电子邮件数，你可以将其关闭。 Microsoft 365 或 Office 365 中的音频会议将在以下时间向用户的电子邮件发送电子邮件：
+默认情况下，有四种类型的电子邮件将发送给启用了音频会议的用户。 但是，如果要限制向用户发送的电子邮件数，你可以将其关闭。 当以下Microsoft 365 Office 365音频会议将向用户的电子邮件发送电子邮件：
   
 - **音频会议许可证分配给他们，或者当你将音频会议提供商更改到 Microsoft 时。**
     
-     此电子邮件包括会议 ID、会议的默认会议电话号码、用户的音频会议 PIN，以及使用 Skype for Business Online 会议更新工具（用于更新用户的现有会议）的说明和链接。 请参阅 [分配 Skype for Business 许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) 或将 Microsoft 分配为 [音频会议提供商](assign-microsoft-as-the-audio-conferencing-provider.md)。
+     此电子邮件包括会议 ID、会议的默认会议电话号码、用户的音频会议 PIN，以及使用 Skype for Business Online 会议更新工具（用于更新用户的现有会议）的说明和链接。 请参阅[分配Skype for Business许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)[或将 Microsoft 分配为音频会议提供商](assign-microsoft-as-the-audio-conferencing-provider.md)。
     
     > [!NOTE]
     > [!注释] 如果你的组织已启用动态会议 ID，用户安排的所有会议将具有唯一的会议 ID。 可以在组织中[设置音频会议动态 ID。](./reset-a-conference-id-for-a-user.md) 
@@ -76,7 +78,7 @@ ms.locfileid: "51110028"
     
     从用户删除 **音频** 会议许可证时，或者将用户的音频会议提供商从 Microsoft 更改为第三方音频会议提供商或将提供商设置为"无"时，将 **发生这种情况。** 此电子邮件包含有关用户使用 Skype for Business Online 会议更新工具删除音频会议特定信息（例如默认会议电话号码或会议 ID）的说明和信息。
     
-    请参阅 [为 Microsoft 365 商业版应用分配或删除许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+    请参阅[为应用分配或删除Microsoft 365 商业应用版。](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
     
     下面是此电子邮件的一个示例：
     
@@ -87,7 +89,7 @@ ms.locfileid: "51110028"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>更改发送给用户的电子邮件
 
-您可以更改自动发送给用户的电子邮件，包括"来自联系人"显示名称 *中包含的电子邮件地址和* 电子邮件地址。 默认情况下，电子邮件的发件人来自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和 [Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) cmdlet 更改电子邮件地址和 显示名称。 若要更改向用户发送电子邮件的电子邮件地址，必须：
+您可以更改自动发送给用户的电子邮件，包括"来自联系人"显示名称 *中包含的电子邮件地址和* 电子邮件地址。 默认情况下，电子邮件的发件人来自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和[Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) cmdlet 更改电子邮件地址和 显示名称。 若要更改向用户发送电子邮件的电子邮件地址，必须：
   
 - 在  _SendEmailFromAddress_ 参数中输入电子邮件地址。
     
@@ -110,11 +112,11 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 当禁用电子邮件发送给用户时，即使用户拥有分配的许可证，也不会向其发送电子邮件。 在这种情况下，会议 ID、默认会议电话号码以及更重要的是，其音频会议 PIN 不会发送给用户。 发生这种情况时，你必须通过向用户发送单独的电子邮件或呼叫他们进行通知。
   
-默认情况下，电子邮件将发送给你的用户，但如果你想要阻止他们接收音频会议的电子邮件，可以使用 Skype for Business 管理中心或Windows PowerShell。 
+默认情况下，电子邮件将发送给你的用户，但如果你想要阻止他们接收音频会议的电子邮件，可以使用 Skype for Business 管理中心或 Windows PowerShell。 
  
-![显示 Skype for Business 徽标的图标 ](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**  
+![一个图标，显示Skype for Business ](../images/sfb-logo-30x30.png) **徽标使用Skype for Business管理中心**  
     
-1. 在 **Skype for Business 管理中心的** 左侧导航中，转到"**音频会议**  >  **""Microsoft 网桥设置"。**
+1. 在 **Skype for Business管理** 中心的 左侧导航中，转到"**音频会议**  >  **Microsoft 网桥设置"。**
     
 2. 在 **"Microsoft 网桥设置"** 页面上，选择或清除"如果用户的音频会议设置更改，则自动 **向用户发送电子邮件"。** 
     
@@ -137,7 +139,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 - 有关如何启用和禁用自动向用户发送电子邮件的更多信息，请参阅[启用或禁用发送电子邮件时更改音频会议设置](enable-or-disable-sending-emails-when-their-settings-change.md)。
     
-- 有时用户会丢失其音频信息，你需要能够将其所有音频信息发送给他们。 为此，可以使用 Skype for Business 管理中心，然后单击用户的音频会议属性下的"通过电子邮件发送会议信息"。 请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)。 但是，此信息不包括音频会议 PIN。
+- 有时用户会丢失其音频信息，你需要能够将其所有音频信息发送给他们。 为此，可以使用 Skype for Business管理中心，然后单击用户的音频会议属性下的"通过电子邮件发送会议信息"。 请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)。 但是，此信息不包括音频会议 PIN。
     
     下面是将发送给用户的电子邮件的一个示例：
     
@@ -145,15 +147,15 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 默认情况下，电子邮件的发件人来自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和 [Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) cmdlet 更改电子邮件地址和 显示名称。
+- 默认情况下，电子邮件的发件人来自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和[Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) cmdlet 更改电子邮件地址和 显示名称。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点，在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心具有许多速度、简单性和工作效率优势，例如，一次对多个用户进行设置更改时。 请在以下主题中了解这些优点： 
+- Windows PowerShell比仅使用 Microsoft 365 管理中心在速度、简单性和工作效率方面具有许多优势，例如，一次对多个用户进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

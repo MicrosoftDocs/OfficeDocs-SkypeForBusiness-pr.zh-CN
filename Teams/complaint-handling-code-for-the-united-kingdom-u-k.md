@@ -1,5 +1,5 @@
 ---
-title: 英国的投诉处理代码 -Microsoft 365 通话计划
+title: 英国投诉处理代码 - Microsoft 365通话套餐
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: 提出有关 Skype for business 呼叫服务的投诉（英国的 PSTN 呼叫）、回复的日程表以及解决未解决的投诉的争议。
+description: 针对英国 PSTN Skype呼叫服务 (提出投诉，) 答复时间线，以及解决未解决投诉的争议。
 ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43780271"
 ---
-# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Microsoft 365 中的通话计划-英国的投诉处理代码（英国）
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>英国Microsoft 365的呼叫计划 - 英国 (投诉处理) 
 
-此代码适用于英国（英国）的小型企业客户（具有10个员工或更少的组织），与 Microsoft 365 通话计划服务（"服务"）相关的 Microsoft 呼叫计划服务（"服务"）一致。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
+根据英国通信法规，此代码适用于英国 (英国) Microsoft 365 Microsoft 365 呼叫计划服务 ("服务") 员工数少于 1) 0 名的小型企业客户。 ( 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 
 ## <a name="how-to-make-a-complaint"></a>如何投诉
 
@@ -40,7 +40,7 @@ ms.locfileid: "43780271"
 
 - 免费电话号码： 0800 032 6417
 
-- 联机：登录到 Microsoft 365 管理中心并通过选择 "**支持**" 下的 "**新服务请求**" 提交服务请求。
+- 联机：登录到 Microsoft 365 管理中心，通过在"支持"下选择"新建服务请求"**来提交****服务请求**。
 
 ## <a name="timelines"></a>时间表
 
@@ -52,7 +52,7 @@ ms.locfileid: "43780271"
 
 Skype for Business 将努力在收到投诉的七个 (7) 工作日内解决与服务相关的所有投诉。
 
-如果您对服务投诉的管理方式不满意，您可以通过电话或电子邮件让 Skype for Business 代表处理您的投诉，按照您的服务协议将投诉上报给投诉。 Microsoft 会在收到投诉的七个 (7) 工作日内对投诉进行评估。
+如果对管理服务投诉的方式不满意，可以通过电话或电子邮件要求处理投诉的 Skype for Business 代表根据服务协议上报投诉。 Microsoft 会在收到投诉的七个 (7) 工作日内对投诉进行评估。
 
 ## <a name="alternative-dispute-resolution"></a>备选争议解决办法
 
@@ -64,7 +64,7 @@ Ombudsman Services 独立于 Microsoft，它会对投诉案情作出公正的决
 
 有关向 Ombudsman Services 提交投诉的步骤，请参阅 Ombudsman Services 的[网站](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809)。
 
-你可以通过在 Ombudsman Services "网站上填写联系人窗体或通过电话、信件或电子邮件来访问 Ombudsman 服务：
+您可以在 Ombudsman Services 网站上填写联系人表单，或者通过电话、信函或电子邮件联系 Ombudsman Services：
 
 - 联系表格： [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

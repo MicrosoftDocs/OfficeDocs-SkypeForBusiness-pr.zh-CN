@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 过渡电子邮件和调查 |基本升级
+title: Microsoft Teams转换电子邮件和调查|基本升级
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 要与加速的十步操作计划（从 Skype for Business 升级到 Teams）一起使用的示例电子邮件和调查
+description: 示例电子邮件和调查，通过加速的十步操作计划在 conjunciton 中用于从 Skype for Business Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -82,9 +82,9 @@ If you have questions or need help, please reach out to <<insert company support
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>提醒用户电子邮件，步骤 6
+### <a name="remind-users-email-for-step-6"></a>提醒用户有关步骤 6 的电子邮件
 
-主题行：提醒：准备好升级到 Teams
+主题行：提醒：准备好升级到Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -113,7 +113,7 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>对于步骤 7，欢迎来自执行发起人的用户电子邮件
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>欢迎执行发起人发送的用户电子邮件，以便执行步骤 7
 
 主题行：
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>电子邮件，要求用户在步骤 10 中尝试团队和频道
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>电子邮件，要求用户尝试团队和频道，步骤 10
 
 主题行：
 
@@ -201,29 +201,29 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>示例调查
 
-指示你在 Teams 中执行以下活动的能力，以及是否有一个或多个活动需要了解更多信息。
+指示你在活动中心内执行以下活动的能力Teams以及是否有一个或多个活动需要了解更多信息。
 
-| &nbsp; | 非常熟练 | 技能稍高 | 完全不熟练 | 想要了解更多信息 | 不适用 | 不确定/不熟悉 | | | | |
+| &nbsp; | 非常熟练 | 有点熟练 | 完全不熟练 | 想要了解更多信息 | 不适用 | 不确定/不熟悉 | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 使用 Teams 进行即时消息/与其他人聊天 | | | | | | | | | | |
-| 使用 Teams 召开联机会议 | | | | | | | | | | |
-| 使用 Teams (团队和频道进行协作)  | | | | | | | | | | |
-| 在我的移动设备上使用 Teams | | | | | | | | | | |
+| 使用Teams其他人进行即时消息/聊天 | | | | | | | | | | |
+| 使用Teams联机会议 | | | | | | | | | | |
+| 使用Teams团队和频道 (协作)  | | | | | | | | | | |
+| 在Teams设备上使用" | | | | | | | | | | |
 
-| **什么（如果有）会阻止你使用 Microsoft Teams？** | **选择所有适用项** |
+| **什么（如果有）阻止你使用Microsoft Teams？** | **选择所有适用项** |
 |---|---|
 | 我从未听说过它 | &#9744; |
 | 我的计算机上未安装它 | &#9744; |
 | 我不知道它如何为我或我合作的人带来好处 | &#9744; |
-| 我没有时间评估它以满足我的需求 | &#9744; |
+| 我没有时间评估它以满足我的需要 | &#9744; |
 | 我已使用满足通信和协作需求的其他应用程序 | &#9744; |
 | 在使用它之前，我需要培训 | &#9744; |
-| 我尝试使用过它，但遇到技术问题或体验不佳 | &#9744; |
+| 我尝试使用过它，但遇到技术问题或不好的体验 | &#9744; |
 | 我们的支持人员无法帮助我解决我的问题 | &#9744; |
 | 没有，我当前使用它 | &#9744; |
 | 其他 (请指定)  | &#9744; |
 
-**你向朋友/同事推荐 Microsoft Teams 的可能性有多大？ (0=完全不可能...10=很有可能)**
+**你向朋友/同事推荐Microsoft Teams的可能性有多大？ (0=完全不可能...10=极可能)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

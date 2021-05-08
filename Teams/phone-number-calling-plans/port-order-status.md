@@ -17,32 +17,32 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: cfbbbea1d82cfa2f1905584740e8053e83f19ee6
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 8290ffba7be56f3ede0e275c801110f8c9d9539e
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583089"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205683"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>你的转网订单的状态是什么？
 
-若要查看你的端口顺序的状态，请在 Microsoft 团队管理中心的左侧导航中，转到 > 的**语音** > **端口订单**，然后单击 "**订单历史记录**"。 每个端口订单状态都在 "**状态**" 列中列出。
+若要查看转口订单的状态，请在 Microsoft Teams 管理中心的左侧导航中，转到"语音转>订单"，然后单击"订单  >  **历史记录"。** 每个移植订单状态都列在"状态 **"** 列中。 [查看移植号需要](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers)多久才能了解订单过程。 
 
-下表列出了 "端口顺序" 状态以及可以在需要时执行的操作。
+下表列出了移植订单状态，以及可根据需要采取的操作。
 
-|**状态栏**|**是否可以查看订单？**|**是否可以编辑订单？**|**是否可以取消订单？**|**是否可以删除订单？**|**说明**|
+|**状态**|**可以查看订单吗？**|**可以编辑订单吗？**|**可以取消订单吗？**|**可以删除订单吗？**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**理赔** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |管理员创建订单，并且已由 Microsoft 接收。  <br/> |
-|**联系运营商** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |订单已收到并已由 Microsoft 批准，我们正在处理丢失的运营商以获得批准。  <br/> |
-|**转移已批准** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |订单已被丢失的运营商接受，并且已设置了固定订单承诺（FOC）日期。  <br/> |
-|**转接待处理** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |传输时间少于24小时，因此不能再编辑或取消订单。  <br/> |
-|**Error** <br/> |否  <br/> |必需  <br/> |是   <br/> |是（此时，如果出现错误，则不能删除端口顺序。 需要重新创建 "端口订单"，或者需要联系[PSTN 服务台帮助](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。  <br/> |丢失的运营商拒绝了订单。  <br/> |
-|**完** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |号码已被成功转移。  <br/> |
-|**Upgrade** <br/> |否  <br/> |是  <br/> |否  <br/> |否  <br/> |管理员取消了订单。  <br/> |
+|**正在处理** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |管理员创建了订单，Microsoft 已收到订单。  <br/> |
+|**联系运营商** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |订单已由 Microsoft 接收和批准，我们正在与丢失的运营商合作以获得批准。  <br/> |
+|**已批准的转移** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |订单已由丢失的运营商接受，并且已设置 FOC (") 承诺"。  <br/> |
+|**正在等待转移** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |转移时间不到 24 小时，因此无法再编辑或取消订单。  <br/> |
+|**Error** <br/> |否  <br/> |是  <br/> |是  <br/> |可以 (，如果存在错误，则不能删除移植订单。 需要重新创建移植订单，或者你需要联系[PSTN 服务台帮助。](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |丢失的运营商拒绝了订单。  <br/> |
+|**已完成** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |已成功转移号码。  <br/> |
+|**已取消** <br/> |否  <br/> |是  <br/> |否  <br/> |否  <br/> |管理员取消了订单。  <br/> |
 
-有关完整的分步说明，请参阅[将电话号码转移给团队](transfer-phone-numbers-to-teams.md)。
+有关完整的分步说明，请参阅[将电话号码转移到 Teams。](transfer-phone-numbers-to-teams.md)
 
-如果需要帮助，或者如果需要获取更多电话号码，请联系[PSTN 服务台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+如果你需要帮助或需要获取更多电话号码，请联系 [PSTN 服务台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
 ## <a name="related-topics"></a>相关主题
 

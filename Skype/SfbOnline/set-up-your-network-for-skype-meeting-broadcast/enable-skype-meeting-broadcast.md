@@ -18,42 +18,44 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: 在贵组织的人员可以使用 Skype 会议直播之前，你需要启用它。 为此，你需要了解如何使用Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴为你执行此步骤。
-ms.openlocfilehash: ab59348d32ef130df6b0de6e1eb65c92d0222e04
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在您的组织中的人员可以使用 Skype 会议广播之前，您需要启用它。 为此，你需要了解如何使用Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴为你执行此步骤。
+ms.openlocfilehash: 6cdd7f12483025697b139203907f87f9cd3dc764
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097108"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237008"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>启用 Skype 会议直播
 
-> [!IMPORTANT]
-> Skype for Business Online 将于 2021 年 7 月 31 日停用，此时将结束对该服务的访问。 我们鼓励客户开始升级到 Microsoft Teams，这是 Microsoft 365 中通信和团队合作的核心客户端。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-在贵组织的人员可以使用 Skype 会议直播之前，你需要启用它。 为此，你需要了解如何使用Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 [Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为你执行此步骤。
+> [!IMPORTANT]
+> Skype for BusinessOnline 将于 2021 年 7 月 31 日停用，此时将结束对服务的访问。 我们鼓励客户开始升级到 Microsoft Teams（Microsoft 365 中通信和团队合作的核心Microsoft 365。
+
+在您的组织中的人员可以使用 Skype 会议广播之前，您需要启用它。 为此，你需要了解如何使用Windows PowerShell。 如果你不了解 Windows PowerShell，请考虑聘用 [Microsoft 合作伙伴](https://go.microsoft.com/fwlink/?linkid=391089)为你执行此步骤。
 
 
 
 > [!NOTE]
-> Microsoft Teams 管理中心已取代 Skype for Business 管理中心 (旧版门户) 。 管理 Skype for Business 的所有设置现在都位于 Teams 管理中心。 必须分配全局管理员或 Skype for Business 管理员 [的 Azure AD](/azure/active-directory/roles/permissions-reference) 管理员角色，才能在 Teams 管理中心管理 Skype for Business 功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+> Microsoft Teams管理中心已Skype for Business旧版门户 (管理) 。 现在，管理Skype for Business的所有设置都位于Teams中心。 必须分配全局管理员或 Skype for Business 管理员的[Azure AD](/azure/active-directory/roles/permissions-reference)管理员角色Skype for Business管理中心Teams功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>使用 Skype for Business 管理中心启用 Skype 会议直播
 
 ![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
-1. 使用全局管理员帐户或 Skype for Business 管理员帐户在 登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。
+1. 使用全局管理员帐户登录，或Skype for Business管理员帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。
     
-2. 在管理中心中，转到"**管理中心**  >  **""Teams"。**
+2. 在管理中心中，转到"**管理中心**  >  **Teams"。**
     
-3. 在 **Teams 管理中心中**，转到"**旧门户""** 联机会议""直播  >    >  **会议**"，然后选择"**启用 Skype 会议直播"。**
+3. 在 Teams **管理** 中心，转到"旧门户""联机会议""直播会议"，然后选择"启用Skype 会议  >    >  **广播"。**
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>使用 PowerShell 启用 Skype 会议直播
 
-1. 安装 [Teams PowerShell 模块](/microsoftteams/teams-powershell-install)。
+1. 安装[Teams PowerShell 模块](/microsoftteams/teams-powershell-install)。
     
-2. 打开 Windows PowerShell 命令提示符并运行以下命令： 
+2. 打开Windows PowerShell命令提示符并运行以下命令： 
 
    ```powershell
    # When using Teams PowerShell Module

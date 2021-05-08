@@ -21,19 +21,21 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Skype for Business Online 中向用户分配会议 ID，以及会议 ID 参数应是什么。 '
-ms.openlocfilehash: 79c83999fdf9a9736dfe1ee425337edf938d3375
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f12982298903485d93582fae3a4f39aaed49170c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110008"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237048"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>查看和重置 Skype for Business Online​  中分配给用户的会议 ID
 
-> [!Note]
-> 有关 Microsoft Teams 中的用户会议 ID 的信息，请参阅在 Microsoft Teams 中查看和重置分配给[用户的会议 ID。](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-在 Microsoft 365 或 Office 365 中为音频会议设置并使用 Microsoft 作为音频会议提供商时，会议 ID 将自动分配给 Skype for Business 用户。 安排会议时，将在会议邀请中发送分配的会议 ID。 用户安排的每次会议将分配到一个唯一的会议 id。
+> [!Note]
+> 有关用户在 Microsoft Teams 会议 ID 的信息，请参阅在 Microsoft Teams 中查看和重置分配给[用户Microsoft Teams。](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)
+
+在 Microsoft 365 或 Office 365 中为音频会议设置 Skype for Business 用户并将 Microsoft 用作音频会议提供商时，会议 ID 会自动分配给他们。 安排会议时，将在会议邀请中发送分配的会议 ID。 用户安排的每次会议将分配到一个唯一的会议 id。
 
 尽管会议 ID 将自动创建并分配给用户，但有时用户可能不想使用此 ID，而你想要将其设置为特定号码，或者用户记不起来或已丢失其会议 ID。 可以使用 **Skype for Business 管理中心** 和 Windows PowerShell 来查看、更改和重置其会议 ID。
 
@@ -52,7 +54,7 @@ ms.locfileid: "51110008"
 
 1. 使用工作或学校帐户登录。
 
-2. 转到 Skype for Business > **管理中心**。
+2. 转到管理中心 **> Skype for Business。**
 
 3. 在 **Skype for Business 管理中心**> **音频会议** > **用户**，选择需要会议 ID 的用户。
 
@@ -80,9 +82,9 @@ ms.locfileid: "51110008"
 
 1. 使用工作或学校帐户登录。
 
-2. 转到 Skype for Business > **管理中心**。
+2. 转到管理中心 **> Skype for Business。**
 
-3. 在 **Skype for Business 管理中心** >  **"音频会议** 用户"中，在"会议  >  **ID"** 下的"操作"窗格中，单击"**重置"。**
+3. 在Skype for Business **管理中心**"音频会议用户"中，在"会议 ID"下的"操作" >    >  **窗格中**，单击"重置 **"。**
 
 4. 在"**重置会议 ID？"** 窗口中，单击"**是"。** A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -97,7 +99,7 @@ ms.locfileid: "51110008"
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
    > [!IMPORTANT]
-   >  新建会议 ID 或重置会议 ID 后，呼叫者将不能使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype for Business 会议迁移工具来更新其现有会议。 若要了解如何下载、安装和运行该工具，请参阅 [：Skype for Business](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)和 Lync 的会议更新工具 [、Skype for Business Online、会议迁移工具 (64 ](https://go.microsoft.com/fwlink/?LinkID=626047)位) 和 Skype for Business Online、会议迁移工具 ( [32 ](https://www.microsoft.com/download/details.aspx?id=54079)位) 。
+   >  新建会议 ID 或重置会议 ID 后，呼叫者将不能使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用会议Skype for Business工具来更新其现有会议。 若要了解如何下载、安装和运行该工具，请参阅：适用于 Skype for Business 和[Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)的会议更新工具[、Skype for Business Online、会议迁移工具 (64](https://go.microsoft.com/fwlink/?LinkID=626047)位) 和 Skype for Business Online、会议迁移工具 ([32](https://www.microsoft.com/download/details.aspx?id=54079)位) 。
 
 - 请参阅 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) 以了解有关 cmdlet 的更多信息。
 
@@ -108,15 +110,15 @@ ms.locfileid: "51110008"
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
-- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。 使用 Windows PowerShell，当你有多个任务需要执行时，可以使用可以简化日常工作的单一管理点来管理 Microsoft 365 或 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- 对于 Windows PowerShell，它全部是关于管理用户以及允许或不允许用户执行的操作。 使用 Windows PowerShell，Microsoft 365管理Office 365 Skype for Business管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-  - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- Windows PowerShell比使用 Microsoft 365 管理中心（例如，一次对许多用户进行设置更改时）具有许多速度、简单性和工作效率优势。 通过以下主题了解这些优势：
+- Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 通过以下主题了解这些优势：
 
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [使用 Windows PowerShell 管理 Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
@@ -124,4 +126,4 @@ ms.locfileid: "51110008"
 
 ## <a name="related-topics"></a>相关主题
 
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[尝试或购买音频会议Microsoft 365或Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

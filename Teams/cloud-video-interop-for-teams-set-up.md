@@ -32,7 +32,7 @@ ms.locfileid: "51102598"
 
 ## <a name="plan"></a>规划
 
-有关 [确定要在你的组织中使用的合作伙伴的信息](cloud-video-interop.md) ，请参阅 Microsoft Teams 的云视频互操作。 
+有关[确定组织Microsoft Teams](cloud-video-interop.md)合作伙伴的信息，请参阅 Cloud Video Interop for Microsoft Teams for your organization（云视频互操作）。 
 
 规划基于用户/并发/站点范围的启用： 
 
@@ -92,21 +92,21 @@ ms.locfileid: "51102598"
 
 ## <a name="schedule"></a>计划
 
-接下来，使用视频互操作坐标安排 Teams 会议。 启用的用户可以通过以下方式安排团队会议：
-- [Outlook 的 Teams 会议加载项](teams-add-in-for-outlook.md)
-- Teams 客户端桌面和移动版
+接下来，使用Teams互操作坐标安排会议。 启用的用户可以通过以下方式安排团队会议：
+- [Teams适用于会议的会议Outlook](teams-add-in-for-outlook.md)
+- Teams客户端桌面和移动版
 
 
 ## <a name="join"></a>Join
 
-可通过以下方式使用 VTC 设备加入 Teams 会议：
+可以通过以下Teams与 VTC 设备一起加入会议：
  
 - IVR (交互式语音响应) 
     - 可以使用设备拨入合作伙伴的 IVR tenantkey@domain。 
     - 进入合作伙伴 IVR 后，系统会提示输入 VTC conferenceId，然后它将你连接到 Teams 会议。
 - 直接拨号
-    - 通过使用 tenantkey 的完整字符串使用直接拨号功能，可以直接拨入 Teams 会议，而无需与合作伙伴的 IVR 交互。VTC ConferenceId@domain。
+    - 通过使用 tenantkey 的完整Teams直接拨号功能，可以直接拨入 Teams 会议，而无需与合作伙伴的 IVR 交互。VTC ConferenceId@domain。
 - 一键式拨号
-    - 如果你有集成的 Teams 会议室，可以使用合作伙伴团队提供的一键式拨号功能 (无需键入任何拨号字符串) 。
+    - 如果您有集成的Teams会议室，您可以使用合作伙伴合作伙伴提供的一键式拨号功能 (无需键入任何拨号字符串) 。
 
-最后，使用音频、视频和内容共享在会议中与 Teams 用户互动。
+最后，使用Teams、视频和内容共享与会议中的用户互动。

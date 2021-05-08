@@ -20,15 +20,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '了解如何从 Skype for Business Online 中查找电话拨入式会议号码。 '
-ms.openlocfilehash: f7343010cfdc34325d2f164b5560c542af0551ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '了解如何从 Skype for Business Online 中查找电话拨入式Skype for Business号码。 '
+ms.openlocfilehash: dfb9e0acc57019fa64b6233b37272eb7901f4dc7
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114148"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52236978"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>请参阅  Skype for Business Online 中的音频会议号码列表
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 > 有关 Microsoft Teams 中的音频会议号码的信息，请参阅 [Microsoft Teams 的音频会议号码列表](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams)。
@@ -38,9 +40,9 @@ ms.locfileid: "51114148"
  **正在搜索价格？** 请参阅 [音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
   
 > [!IMPORTANT]
-> **没有包含所有音频会议拨入号码列表的资源。** 如果你希望查看你的地区或国家/地区是否有可用的拨入电话号码，请转到 **Skype for Business** 管理中心"语音电话号码"，单击"添加"，然后单击"新建服务  >    >  **号码"。**  使用“国家/地区”、“省/直辖市/自治区/地区”和“城市”列表来筛选搜索结果。 此外，如果要查找免费服务号码，请从"州 **/** 地区"**列表中选择**"免费"。
+> **没有包含所有音频会议拨入号码列表的资源。** 如果你希望查看你的地区或国家/地区是否有可用的拨入电话号码，请转到 **Skype for Business** 管理中心语音 电话 号码，单击"添加"，然后单击"新建服务号码  >    >  "。   使用“国家/地区”、“省/直辖市/自治区/地区”和“城市”列表来筛选搜索结果。 此外，如果要查找免费服务号码，请从"州 **/** 地区"**列表中选择**"免费"。
   
-如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认号码将包含在 Skype for Business 会议邀请中。
+如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认号码将包含在会议Skype for Business中。
   
 你可以看到设置 [邀请中包含的电话号码](set-the-phone-numbers-included-on-invites.md) 以更改单个用户的拨入电话号码。
   
@@ -54,9 +56,9 @@ ms.locfileid: "51114148"
 
 1. 使用工作或学校帐户登录。
     
-2. 转到 Skype for Business > **管理中心**。
+2. 转到管理中心 **> Skype for Business。**
     
-3. 在 **Skype for Business 管理中心的** 左侧导航中，转到音频 **会议**  >  **Microsoft 网桥**，然后：
+3. 在 **Skype for Business管理** 中心的 左侧导航中，转到"音频 **会议**  >  **Microsoft 网桥**"，然后：
     
    - 您可以查看可用于音频会议的电话号码。
     
@@ -70,13 +72,13 @@ ms.locfileid: "51114148"
 
 - 为节省时间或自动执行此操作，可以使用 [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Get-CsOnlineDialInConferencingServiceNumber) cmdlet。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点，在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心具有许多速度、简单性和工作效率优势，例如，一次对多个用户进行设置更改时。 请在以下主题中了解这些优点：
+- Windows PowerShell比仅使用 Microsoft 365 管理中心在速度、简单性和工作效率方面具有许多优势，例如，一次对多个用户进行设置更改时。 请在以下主题中了解这些优点：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -89,4 +91,4 @@ ms.locfileid: "51114148"
   
 ## <a name="related-topics"></a>相关主题
 
-[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[尝试或购买音频会议Microsoft 365或Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

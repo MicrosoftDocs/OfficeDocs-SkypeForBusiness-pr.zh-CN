@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解如何为紧急事件设置紧急Microsoft 365 商务语音。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 531d1b747a86c84e99c2b6f06a83ae405527f3ba
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130356"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282529"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>步骤 1：设置业务语音紧急位置
 
@@ -32,8 +32,8 @@ ms.locfileid: "52130356"
 
 ## <a name="add-an-emergency-location"></a>添加紧急位置
 
-1. 打开[Microsoft Teams](https://admin.teams.microsoft.com)管理中心，使用全局管理员用户登录 (该帐户通常是用于注册 Microsoft 365) 。
-1. 在管理中心的左侧导航Microsoft Teams，单击 **"位置**  >  **""紧急地址"。**
+1. 打开 Microsoft Teams 管理中心，使用全局管理员用户登录 (该帐户通常是用于注册 Microsoft 365) 。
+1. 在左侧导航窗格中，转到 <a href="https://admin.teams.microsoft.com/locations" target="_blank">**"位置**  >  **""紧急地址"。**</a>
 1. 单击“**添加**”。
 1. 输入位置的名称和说明。
 1. 选择国家/地区，然后输入地址。

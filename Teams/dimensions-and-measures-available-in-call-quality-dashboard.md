@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
-description: 获取有关 Microsoft Teams 和 Skype for Business Online 呼叫质量仪表板 (CQD) 使用的维度和度量的详细信息。
-ms.openlocfilehash: 1c91ce322e51705c9e0813b6c12a29af93319448
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+description: 获取有关呼叫质量仪表板和适用于 Microsoft Teams Online 的 CQD (CQD) 和Skype for Business的详细信息。
+ms.openlocfilehash: 63a9bba74b1c072a9c61885db03fa85357e034e9
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995300"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264942"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>呼叫质量仪表板和 CQD (中的维度和) 
 
-使用 Microsoft Teams (Skype for Business Online) CQD 呼叫质量仪表板可更好地了解这些服务的呼叫质量。 本主题提供有关通过 CQD 可见的维度和度量的详细信息。 若要详细了解 CQD，请参阅使用 [CQD 在 Microsoft Teams](quality-of-experience-review-guide.md)中管理呼叫和会议质量。
+呼叫质量仪表板 (用于) Microsoft Teams Skype for Business Online 的 CQD 仪表板使您可以更好地了解这些服务的呼叫质量。 本主题提供有关通过 CQD 可见的维度和度量的详细信息。 若要了解有关 CQD 的更多信息，请参阅使用 CQD 在 Microsoft Teams 中管理[呼叫和Microsoft Teams。](quality-of-experience-review-guide.md)
 
 ## <a name="first-and-second-endpoint-classification"></a>第一和第二终结点分类
 
@@ -71,10 +71,10 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Second CPU Processor Speed  | CPU 速度，单位为 MHz  | 第二终结点使用的 CPU 的速度，单位为 MHz。 <br/> **示例值** ：1800 | <br/>&bull; 终结点未报告此数据     |
 | First Endpoint  | 字符串  | 如果第一终结点为服务器或云服务客户端，此终结点报告的计算机名称。 <br/> **示例值：** MACHINENAME  | <br/>&bull; 终结点未报告此数据    |
 | Second Endpoint  | 字符串  | 如果第二终结点为服务器或云服务客户端，此终结点报告的计算机名称。 <br/> **示例值：** MACHINENAME | <br/>&bull; 终结点未报告此数据     |
-| First OS  | 字符串  | 第一终结点报告的完整操作系统和体系结构字符串。 <br/> **示例值：** Windows 10.0.14996 SP：0.0 类型：1 (工作站) Suite：256 Arch： x64 WOW64： True | <br/>&bull; 终结点未报告此数据 |
-| Second OS  | 字符串  | 第二终结点报告的完整操作系统和体系结构字符串。 <br/> **示例值：** Windows 10.0.14996 SP：0.0 类型：1 (工作站) Suite：256 Arch： x64 WOW64： True  | <br/>&bull; 终结点未报告此数据 |
-| First OS Filtered  | 字符串  | 第一终结点报告的操作系统名称和主要版本及次要版本。 此字符串可以包含多个 OS 名称和版本。 <br/> **示例值：** Windows 10  | <br/>&bull; 终结点未报告此信息 <br/>&bull; 未收到来自此终结点的报告。  |
-| Second OS Filtered  | 字符串  | 第二终结点报告的操作系统名称和主要版本及次要版本。 此字符串可以包含多个 OS 名称和版本。 <br/> **示例值：** Windows 10  | <br/>&bull; 终结点未报告此信息 <br/>&bull; 未收到来自此终结点的报告 |
+| First OS  | 字符串  | 第一终结点报告的完整操作系统和体系结构字符串。 <br/> **示例值**：Windows 10.0.14996 SP： 0.0 类型：1 (工作站) Suite： 256 Arch： x64 WOW64： True | <br/>&bull; 终结点未报告此数据 |
+| Second OS  | 字符串  | 第二终结点报告的完整操作系统和体系结构字符串。 <br/> **示例值**：Windows 10.0.14996 SP： 0.0 类型：1 (工作站) Suite： 256 Arch： x64 WOW64： True  | <br/>&bull; 终结点未报告此数据 |
+| First OS Filtered  | 字符串  | 第一终结点报告的操作系统名称和主要版本及次要版本。 此字符串可以包含多个 OS 名称和版本。 <br/> **示例值：Windows 10**  | <br/>&bull; 终结点未报告此信息 <br/>&bull; 未收到来自此终结点的报告。  |
+| Second OS Filtered  | 字符串  | 第二终结点报告的操作系统名称和主要版本及次要版本。 此字符串可以包含多个 OS 名称和版本。 <br/> **示例值：Windows 10**  | <br/>&bull; 终结点未报告此信息 <br/>&bull; 未收到来自此终结点的报告 |
 | First OS Architecture  | 字符串  | 第一终结点报告的硬件体系结构。 <br/> **示例值：x64**  | &bull; 终结点未报告此信息 <br/>&bull; 未收到来自此终结点的报告 <br/>&bull; 无法识别体系结构的格式 |
 | Second OS Architecture  | 字符串  | 第二终结点报告的硬件体系结构。 <br/> **示例值：x64**  | &bull; 终结点未报告此信息 <br/>&bull; 未收到来自此终结点的报告 <br/>&bull; 无法识别体系结构的格式  |
 | First Virtualization Flag  | 枚举 <br/>**可能的值：** <br/> "0x00" = 无  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = 虚拟电脑 <br/> "0x08" = Xen PC | 指示第一终结点报告的虚拟化环境类型的标志。 | <br/>&bull; 终结点未报告数据 |
@@ -107,8 +107,8 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | First Network Range  | 字符串  | 第一终结点用于媒体流的子网的网络前缀/范围，基于数据映射子网到租户建筑物。 <br/> **示例值：24** | &bull; 终结点未报告网络数据 <br/>&bull; 子网映射数据中未定义网络 |
 | First Building Name  | 字符串  | 根据子网与租户建筑物映射数据，第一终结点所在的建筑物的名称。  <br/> **示例值：** Main  | &bull; 终结点未报告网络数据 <br/>&bull; 子网映射数据中未定义网络   |
 | First Ownership Type  | 字符串  | 第一终结点所在的建筑物的所有权类型。 基于子网与租户建筑物数据的映射。 <br/> **示例值：** Contoso-IT  | &bull; 终结点未报告网络数据 <br/>&bull; 网络不在企业网络中，或者子网映射数据中未定义网络所有权  |
-| First Building Type   | 字符串  | 根据子网与租户建筑物映射数据，第一终结点所在的建筑物类型。 <br/> **示例值：** 打开 Office | &bull; 终结点未报告网络数据 <br/>&bull; 网络不在企业网络中 <br/>&bull; 子网映射数据中未定义网络建筑物类型  |
-| First Building Office Type  | 字符串  | 根据子网与租户建筑物映射数据，第一终结点所在的建筑物类型。 <br/> **示例值：** 打开 Office | &bull; 终结点未报告网络数据 <br/>&bull; 网络不在企业网络中 <br/>&bull; 子网映射数据中未定义网络建筑物类型  |
+| First Building Type   | 字符串  | 根据子网与租户建筑物映射数据，第一终结点所在的建筑物类型。 <br/> **示例值：** 打开Office | &bull; 终结点未报告网络数据 <br/>&bull; 网络不在企业网络中 <br/>&bull; 子网映射数据中未定义网络建筑物类型  |
+| First Building Office Type  | 字符串  | 根据子网与租户建筑物映射数据，第一终结点所在的建筑物类型。 <br/> **示例值：** 打开Office | &bull; 终结点未报告网络数据 <br/>&bull; 网络不在企业网络中 <br/>&bull; 子网映射数据中未定义网络建筑物类型  |
 | First City  | 字符串  | 根据子网与租户建筑物映射数据，第一终结点所在的城市。 <br/> **示例值：** 雷德蒙德 | &bull; 终结点未报告网络数据 <br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的城市   |
 | First Zip Code  | 字符串  | 根据子网与租户建筑物映射数据，第一终结点所在的邮政编码。 <br/> **示例值** ：98052 | &bull; 终结点未报告网络数据 <br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的邮政编码   |
 | First Country  | 字符串  | 根据子网与租户建筑物映射数据，第一终结点所在的国家/地区。 <br/> **示例值：** 美国 | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的国家/地区 |
@@ -120,8 +120,8 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Second Network Range  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点用于媒体流的子网的网络前缀/范围。 <br/> **示例值：24**  | &bull; 终结点未报告网络数据 <br/>&bull; 网络没有子网映射数据中定义的网络范围  |
 | Second Building Name  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的建筑物的名称。 <br/> **示例值：** Main | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的建筑物名称 |
 | Second Ownership Type  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的建筑物的所有权类型。 <br/> **示例值：** Contoso - IT | &bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的所有权 |
-| Second Building Type  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的建筑物类型。 <br/> **示例值：** 打开 Office | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 子网映射数据中未定义网络建筑物类型   |
-| Second Building Office Type  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的办公大楼类型。 <br/> **示例值：** Office  | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的建筑物办公类型。  |
+| Second Building Type  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的建筑物类型。 <br/> **示例值：** 打开Office | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 子网映射数据中未定义网络建筑物类型   |
+| Second Building Office Type  | 字符串  | Office子网与租户建筑物映射数据，第二终结点所在的建筑物类型。 <br/> **示例值：Office**  | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的建筑物办公类型。  |
 | Second City  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的城市。 <br/> **示例值：** 雷德蒙德 |  <br/>&bull; 终结点未报告网络数据  <br/>&bull; 网络不在企业网络中  <br/>&bull; 网络没有在子网映射数据中定义的城市   |
 | Second Zip Code  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的邮政编码。 <br/> **示例值** ：98052  | <br/>&bull; 终结点未报告网络数据 <br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的邮政编码 |
 | Second Country  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的国家/地区。 <br/> **示例值：** 美国  | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义国家/地区  |
@@ -131,10 +131,10 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | First Inside Corp  | 枚举 <br/>**可能的值：** <br/> 内部、外部  | 根据子网与租户建筑物映射数据，指示第一终结点是否位于企业网络内的子网中。 默认情况下，认为终结点位于外部。 <br/> **示例值：** 内部 | |
 | Second Inside Corp  | 枚举 <br/> **可能的值：** <br/> 内部、外部 | 根据子网与租户建筑物映射数据，指示第二终结点是否位于企业网络内的子网中。 默认情况下，认为终结点位于外部。 <br/>**示例值：** 内部  |  |
 |**Deployment**| | | |
-| First Tenant Id  | 字符串  | 第一终结点的租户 ID。 <br/> **示例值** ：00000000 - 0000 -0000 - 0000 - 000000000000  | <br/>&bull; 无法确定第一终结点的租户 ID。 这可能表示终结点已登录到本地 Skype for Business Server 部署。  |
-| Second Tenant Id  | 字符串  | 第二终结点的租户 ID。 <br/> **示例值** ：00000000 - 0000 - 0000 - 0000 - 000000000000  |  <br/>&bull; 无法确定第二终结点的租户 ID。 这可能表示终结点已登录到本地 Skype for Business Server 部署。  |
-| First Pool  | 字符串  | 分配给第一终结点的 Skype for Business Online 池 FQDN <br/> **示例值：pool1** <span></span> .lync <span></span> .com  | <br/>&bull;  指示终结点已登录到 Microsoft Teams 或 Skype for Business。 只有使用本地 Skype for Business Server 部署的流才填充此字段。 |
-| Second Pool  | 字符串  | 分配给第二终结点的 Skype for Business Online 池 FQDN <br/> **示例值：pool1.lync.com** <span></span>   | &bull; 无法确定第二终结点的 Skype for Business Online 池。 这可能表示终结点已登录到本地 Skype for Business Server 部署。  |
+| First Tenant Id  | 字符串  | 第一终结点的租户 ID。 <br/> **示例值** ：00000000 - 0000 -0000 - 0000 - 000000000000  | <br/>&bull; 无法确定第一终结点的租户 ID。 这可能表示终结点已登录到本地 Skype for Business Server部署。  |
+| Second Tenant Id  | 字符串  | 第二终结点的租户 ID。 <br/> **示例值** ：00000000 - 0000 - 0000 - 0000 - 000000000000  |  <br/>&bull; 无法确定第二终结点的租户 ID。 这可能表示终结点已登录到本地 Skype for Business Server部署。  |
+| First Pool  | 字符串  | 分配给第一终结点的 Skype for Business Online 池 FQDN <br/> **示例值：pool1** <span></span> .lync <span></span> .com  | <br/>&bull;指示终结点已登录到 Microsoft Teams 或 Skype for Business。 只有使用本地部署和本地部署为流填充Skype for Business Server字段。 |
+| Second Pool  | 字符串  | 分配给第二终结点的 Skype for Business Online 池 FQDN <br/> **示例值：pool1.lync.com** <span></span>   | &bull;Skype for Business无法确定第二终结点的联机池。 这可能表示终结点已登录到本地 Skype for Business Server部署。  |
 | Is Federated  | 布尔值  | 如果流在两个联合租户之间，则为 True，否则为 False。   | <br/>&bull; 无法确定这是否为联合流 <br/>&bull; 未收集某些信号数据   |
 |区域 | String   |  部署所在的区域基于租户的主页区域。 <br/> **示例值：** 北美 | <br/>&bull; 未报告网络数据 <br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义区域。 |
 |**Stream**| | | |
@@ -146,14 +146,14 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | First Is Server  | 枚举 <br/>**可能的值：** <br/>&bull; 客户端 <br/>&bull; 服务器  | 指示第一个终结点是会议服务器 (AVMCU、ASMCU) 或其他媒体服务器 (中介服务器) ，还是客户端终结点。  **示例值：** 客户端 | |
 | Second Is Server  | 枚举 <br/>**可能的值：** <br/>&bull; 客户端 <br/>&bull; 服务器   | 指示第二个终结点是服务器终结点，还是客户端终结点。 <br/>  **示例值：** 客户端 | |
 | First Is Caller  | 布尔值  | 如果第一终结点是发起会话的调用方，则为 True。   | |
-| First Network Connection Detail  | 枚举 <br>**可能的值：** <br/>&bull; 有线 <br/>&bull; WiFi <br/>&bull; MobileBB <br/>&bull; 隧道 <br/>&bull; 其他 | 第一终结点使用的网络类型。  <br/> **示例值：** 有线  | &bull; 终结点未报告数据  |
-| Second Network Connection Detail  | 枚举 <br/>**可能的值：** <br/>&bull; 有线 <br/>&bull; WiFi <br/>&bull; MobileBB <br/>&bull; 隧道 <br/>&bull; 其他 | 第二终结点使用的网络类型。  <br/> **示例值：** 有线  | &bull; 终结点未报告数据  |
+| First Network Connection Detail  | 枚举 <br>**可能的值：** <br/>&bull; 有线 <br/>&bull; WiFi <br/>&bull; MobileBB <br/>&bull;Tunnel <br/>&bull; 其他 | 第一终结点使用的网络类型。  <br/> **示例值：** 有线  | &bull; 终结点未报告数据  |
+| Second Network Connection Detail  | 枚举 <br/>**可能的值：** <br/>&bull; 有线 <br/>&bull; WiFi <br/>&bull; MobileBB <br/>&bull;Tunnel <br/>&bull; 其他 | 第二终结点使用的网络类型。  <br/> **示例值：** 有线  | &bull; 终结点未报告数据  |
 | Stream Direction  | 枚举 <br/>**可能的值：** <br/>&bull; 第一到第二个 <br/>&bull; 第二到第一 <br/> | 指示流的方向。 <br/>&bull;**示例值：** 第一到第二个 | &bull; 未报告指示流方向的数据 |
 | Payload Description  | 字符串  | 流中最后使用的编解码器的名称。 <br/> **示例值：** SILKWide | &bull; 无可用数据 |
 | Audio and Video Call  | 布尔值  | 如果呼叫同时包含音频和视频流，则为 True，否则为 False    | &bull; 未报告任何数据来指示流的媒体类型。 |
 | Duration 5 seconds or less  | 布尔值  | 如果流的持续时间为 5 秒或更短，则为 True，否则为 False。   ||
 | Duration 60 seconds or more  | 布尔值  | 如果流的持续时间超过 60 秒，则为 True，否则为 False。   | |
-| 是 Teams  | Boolean  | True 表示流的第一个或第二个用户代理是 Microsoft Teams 终结点。 <br/> False 表示用户代理是 Skype for Business 终结点。 |  |
+| 是Teams  | Boolean  | True 表示流的第一个或第二个用户代理是Microsoft Teams终结点。 <br/> False 表示用户代理Skype for Business终结点。 |  |
 | Duration (Minutes)  | 范围（分钟）  | 流的持续时间，以分钟为单位。值按范围分组表示。<br/> **示例值** ：065：[3-4)  ||
 | Duration (Seconds)  | 范围（秒） | 流的持续时间，以秒为单位。值按范围分组表示。<br/> **示例值** ：062：[1 -2) ||
 |**日期**|||
@@ -311,7 +311,7 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Video Poor Due To VideoFrameRateAvg  | Boolean  | 如果根据以下位置中列出的视频帧速率平均指标阈值将视频流分类为差，则为 True：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非视频流，始终为 False。    | &bull; 终结点未报告此数据  <br/>&bull; 流不是视频流 |
 | VBSS Poor Due To VideoPostFecplr  | Boolean  | 如果基于视频的屏幕共享流根据以下文章中列出的视频发布 FEC PLR 指标阈值被分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非基于视频的屏幕共享流，始终为 False。    | &bull; 终结点未报告此数据 <br/>&bull; 流不是基于视频的屏幕共享流  |
 | VBSS Poor Due To VideoLocalFrameLossPercentageAvg  | Boolean  | 如果基于视频的屏幕共享流根据以下位置列出的视频本地帧丢失百分比平均指标阈值被分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非基于视频的屏幕共享流，始终为 False。    | &bull; 终结点未报告此数据 <br/>&bull; 流不是基于视频的屏幕共享流  |
-| Video Poor Due To Freeze | Boolean  | 1：根据视频冻结实例将视频流分类为差：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md) | &bull; 终结点未报告此数据  <br/>&bull; 流不是视频流。 此字段仅适用于 Microsoft Teams。 |
+| Video Poor Due To Freeze | Boolean  | 1：根据视频冻结实例将视频流分类为差：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md) | &bull; 终结点未报告此数据  <br/>&bull; 流不是视频流。 此字段特定于Microsoft Teams字段。 |
 | VBSS Poor Due To VideoFrameRateAvg  | Boolean  | 如果基于视频的屏幕共享流根据以下位置列出的视频帧速率平均指标阈值被分类为差，则为 [True：](stream-classification-in-call-quality-dashboard.md)呼叫质量仪表板中的流分类。 对于非基于视频的屏幕共享流，始终为 False。   | &bull; 终结点未报告此数据 <br/>&bull; 流不是基于视频的屏幕共享流   |
 | AppSharing Poor Due To SpoiledTilePercentTotal  | Boolean  | 如果根据以下位置中列出的"损坏的平铺百分比总计"指标阈值将应用程序共享流分类为差，则为 [True：呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。   | &bull; 终结点未报告此数据  <br/>&bull; 流不是应用程序共享流。  |
 | AppSharing Poor Due To RelativeOneWayAverage  | Boolean  | 如果根据以下位置中列出的"相对单向平均"指标阈值将应用程序共享流分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。    | &bull; 终结点未报告此数据  <br/>&bull; 流不是应用程序共享流 |
@@ -406,7 +406,7 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Media Relay  | 字符串  | 用于会话的一个或多个媒体中继的 IP 地址。对于流，可能会报告一对中继，中间用"+"隔开。<br/> **示例值：** "13.107.8.2 + 13.107.8.2"  | &bull; 终结点未报告此数据  |
 | Is Anonymous Join Session  | 布尔值  | 如果用户匿名加入会议，则为 True，否则为 False。   | &bull; 无数据可确定用户是匿名加入还是非匿名加入   |
 | 具有媒体诊断 Blob  | 布尔值  | 如何会话具有媒体诊断数据，则为 True，否则为 False。   | &bull; 未为此流收集某些信号数据   |
-| Call Setup Failure Reason  | 枚举  | 通话未能建立媒体连接的原因分类。 <br/>**可能的值：** <br/> **缺少 FW 深度数据包检查免除** 规则 - 指示路径中的网络设备可能会由于深度数据包检查规则而阻止建立媒体路径。 这可能是因为未正确配置代理或防火墙规则。 <br/> **缺少 FW IP 阻止免除** 规则 - 指示路径中的网络设备可能阻止建立到 Office 365 网络的媒体路径。 这可能是因为未正确将代理或防火墙规则配置为允许访问用于 Skype for Business 流量的 IP 地址和端口。 <br/> **其他** - 指示无法建立调用的媒体路径，但无法分类根本原因。 <br/> 不是媒体故障 - 表示在建立媒体路径时未检测到问题。  | &bull; 由于未知媒体问题，呼叫设置失败  |
+| Call Setup Failure Reason  | 枚举  | 通话未能建立媒体连接的原因分类。 <br/>**可能的值：** <br/> **缺少 FW 深度数据包检查免除** 规则 - 指示路径中的网络设备可能会由于深度数据包检查规则而阻止建立媒体路径。 这可能是因为未正确配置代理或防火墙规则。 <br/> **缺少 FW IP** 阻止免除规则 - 指示路径中的网络设备可能阻止建立到网络Office 365路径。 这可能是因为未正确将代理或防火墙规则配置为允许访问用于 Skype for Business 流量的 IP 地址和端口。 <br/> **其他** - 指示无法建立调用的媒体路径，但无法分类根本原因。 <br/> 不是媒体故障 - 表示在建立媒体路径时未检测到问题。  | &bull; 由于未知媒体问题，呼叫设置失败  |
 | 会话类型  | 枚举 <br/>**可能的值：** <br/> Conf、P2P  | 指示呼叫会话类型是使用 P2P () 或对等呼叫 (会议) 。 <br/> **示例值：** Conf | |
 | CDR 响应原因  | 枚举 <br/>**可能的值：** <br/> 0 或 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" | 所有其他 CDR 代码 = "Other" | 提供通话会话结束的原因，无论呼叫是否成功，并允许在未完成的呼叫 (无应答、忙碌、拒绝) 和失败的呼叫 (媒体) 。 <br/> **示例值：** 还行 | <br/>&bull; 值"其他"表示响应代码在 Microsoft 工程团队外部在诊断上没有用 |
 |**DNS**|||
@@ -416,30 +416,20 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Second User ObjectId|String|第二终结点用户的 Active Directory 对象 ID。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 | |
 | 第一个 MAC 地址|String|MAC 中的 (访问控制) 第一终结点的网络设备的地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| |
 | 第二个 MAC 地址|String|MAC 中的 (访问控制) 第二终结点的网络设备的地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| |
-| First Sip Uri|String|会话启动协议 (SIP) 第一终结点用户的 URI。 仅针对 Skype for Business 终结点填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
-| Second Sip Uri|String|第一终结点用户的 SIP URI。 仅针对 Skype for Business 终结点填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
-| 第一个电话号码|String|第一终结点用户的电话号码。 仅为 PSTN 终结点填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
-| 第二个电话号码|String|第二终结点用户的电话号码。 仅为 PSTN 终结点填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
+| First Sip Uri|String|会话启动协议 (SIP) 第一终结点用户的 URI。 仅针对终结点Skype for Business填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
+| Second Sip Uri|String|第一终结点用户的 SIP URI。 仅针对终结点Skype for Business填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
+| First 电话 Number|String|第一终结点用户的电话号码。 仅为 PSTN 终结点填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
+| Second 电话 Number|String|第二终结点用户的电话号码。 仅为 PSTN 终结点填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
 | First UPN|String|用户主体名称 (第) 终结点用户的 UPN 名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
 | Second UPN|String|用户主体名称 (第) 终结点用户的 UPN 名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| <br/>&bull; 并非所有 UserType 都有 UPN;包括 Second UserType 或 Second User ObjectId 维度，了解有关这些终结点的更多信息 |
 | 第一个反馈文本|String|详细反馈文本（如果有）由第一终结点的用户在调用结束时提供。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 | |
 | Second Feedback Text|String| 逐字反馈文本（如果有）由第二终结点用户在调用结束时提供。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
 | 第一个客户端终结点名称|String|第一终结点计算机名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
 | 第二个客户端终结点名称|String|第二终结点计算机名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
-| First Endpoint Product Name|String|Skype for Business 或 Microsoft Teams (第一终结点的产品) 。|
-| Second Endpoint Product Name|String|Skype for Business 或 Microsoft Teams (终结点的产品) 。|
-| First UserType|枚举字符串|第一终结点上的用户类型。 <br/> **可能的值：** 用户、服务器、匿名、应用程序、PSTN、语音邮件、未知 <br/> <br/>**未知** - 如果无法根据收到的信息确定 UserType，则为默认值。 <br/>**PSTN** - PSTN 用户。 <br/>**匿名** - Teams 用户或 Skype for Business 访问者。 <br/>**应用程序** - 机器人。 <br/>**用户** - AAD 用户，可以是 Skype for Business 用户或 Teams 用户。 <br/>**服务器** - 对于会议，至少一端是服务器。 <br/>**语音邮件** - 由语音邮件服务应答终结点。||
-| Second UserType|枚举字符串|第二终结点上的用户类型。 <br/> **可能的值：** 用户、服务器、匿名、应用程序、PSTN、语音邮件、未知 <br/> <br/>**未知** - 如果无法根据收到的信息确定 UserType，则为默认值。 <br/>**PSTN** - PSTN 用户。 <br/>**匿名** - Teams 用户或 Skype for Business 访问者。 <br/>**应用程序** - 机器人。 <br/>**用户** - AAD 用户，可以是 Skype for Business 用户或 Teams 用户。 <br/>**服务器** - 对于会议，至少一端是服务器。 <br/>**语音邮件** - 由语音邮件服务应答终结点。||
-|**Datapair**|||
-| Network Connection Detail Pair  | 枚举对 <br/>**可能的值：** <br/> wifi : wifi <br/> wifi : 有线 <br/> 有线 : wifi <br/> 有线 : 有线 <br/> MobileBB : MobileBB <br/> MobileBB : 其他 <br/> MobileBB : 隧道 <br/> MobileBB : wifi <br/> MobileBB : 有线 <br/> 其他 : 其他 <br/> 其他 : wifi <br/> 其他 : 有线 <br/> 隧道 : 隧道 <br/> 隧道 : wifi <br/> 隧道 : 有线 <br/> : MobileBB <br/> : 其他 <br/> : 隧道 <br/> : wifi <br/> : 有线 <br/> :  | 表示第一和第二终结点的网络连接详情的成对值。  | &bull; 终结点网络连接类型未知。 当无法建立通话时可能会出现这种情况。   |
-| User Agent Category Pair  | 枚举对  | 表示第一和第二终结点的用户代理类别的成对值。 <br/> **示例值：** AV-MCU ：OC  | &bull; 终结点用户代理不是已知类型  |
-| Is Server Pair  | 枚举对 <br/>**可能的值：** 客户端：客户端 <br/> 客户端：服务器 <br/> 服务器：服务器  | 表示第一和第二终结点是客户端还是服务器的成对值。  | 没有空值   |
-| Connectivity Ice Pair  | 枚举对 <br/>**可能的值：** <br/> 直接 : 直接 <br/> 直接 : 失败 <br/> 直接 : HTTP <br/> 失败 : 失败 <br/> 失败 : 中继 <br/> HTTP : 中继 <br/> : <br/> : 直接 <br/> : 失败 <br/> : HTTP <br/> : 中继 | 表示每个终结点使用的 ICE 连接类型的成对值。   | &bull; 终结点使用的 ICE 连接未知或报告   |
-| OS Pair  | 枚举对  | 表示第一和第二终结点的操作系统名称和版本的成对值。 <br/> **示例值：** Windows 10：Windows 10  | &bull; 无法分析 OS 名称或终结点未报告 OS 名称  |
-| Tenant Id Pair  | 枚举对  | 表示第一和第二终结点的租户 ID 的成对值。 <br/> **示例值** ：00000000 - 0000 - 0000 - 0000 - 000000000000 ： 00000000 - 0000 - 0000 - 00000000000000  |  &bull; 无法确定租户标识符。 当终结点登录到了本地 Skype for Business Server 部署时可能会出现此情况。  |
-| Building Name Pair  | 枚举对  | 表示第一和第二终结点的建筑物名称的成对值。  | &bull; 无法确定终结点的建筑物名称。 这可能是因为终结点位于企业网络外部，或正在从没有子网映射的站点访问网络。 <br/> **示例值：** 主建筑物：分支网站建筑物 |
-| Inside Corp Pair  | 枚举对 <br/>**可能的值：** <br/> 内部 : 内部 <br/> 内部 : 外部 <br/> 外部 : 外部 | 根据子网映射，显示终结点位于企业网络内部还是外部的成对值。   |   |
-| Scenario Pair  | 枚举对  | 显示终结点位于企业网络内部还是外部（根据子网映射确定）以及网络连接详情的成对值。 <br/> **注意：** 对由"--"分隔。 <br/> **示例值：** Client-Inside--Client-Inside-wifi  | &bull; 任一终结点或两个终结点的网络连接类型未知。  |
+| First Endpoint Product Name|String|第一终结点的产品名称 (或Skype for Business Microsoft Teams) 。|
+| Second Endpoint Product Name|String|第二终结点的产品名称 (或Skype for Business Microsoft Teams) 。|
+| First UserType|枚举字符串|第一终结点上的用户类型。 <br/> **可能的值：** 用户、服务器、匿名、应用程序、PSTN、语音邮件、未知 <br/> <br/>**未知** - 如果无法根据收到的信息确定 UserType，则为默认值。 <br/>**PSTN** - PSTN 用户。 <br/>**匿名**- Teams或Skype for Business访问者。 <br/>**应用程序** - 机器人。 <br/>**用户**- AAD 用户，可以是Skype for Business用户Teams用户。 <br/>**服务器** - 对于会议，至少一端是服务器。 <br/>**语音邮件** - 由语音邮件服务应答终结点。||
+| Second UserType|枚举字符串|第二终结点上的用户类型。 <br/> **可能的值：** 用户、服务器、匿名、应用程序、PSTN、语音邮件、未知 <br/> <br/>**未知** - 如果无法根据收到的信息确定 UserType，则为默认值。 <br/>**PSTN** - PSTN 用户。 <br/>**匿名**- Teams或Skype for Business访问者。 <br/>**应用程序** - 机器人。 <br/>**用户**- AAD 用户，可以是Skype for Business用户Teams用户。 <br/>**服务器** - 对于会议，至少一端是服务器。 <br/>**语音邮件** - 由语音邮件服务应答终结点。||
 |**PSTN**|||
 |PSTN 呼叫结束原因 (SIP 响应代码) |Int|三位数整数响应代码显示调用的最终状态。 <br/> 有关 SIP 说明详细信息，请参阅 [SIP 响应代码列表](https://www.wikipedia.org/wiki/List_of_SIP_response_codes)。 <br/>**示例** ：404||
 |PSTN 中继 FQDN|String|FQDN 是会话边界控制器 (SBC) FQDN (完全限定) 。<br/>**示例：sbcgw.contoso.com**||
@@ -457,6 +447,16 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 |往返 (延迟) |毫秒|计算每个流的平均网络传播往返时间。 有关详细信息， [请参阅呼叫质量仪表板中的](stream-classification-in-call-quality-dashboard.md) 流分类。<br/>**示例** ：3.49||
 |**会议**|||
 |会议方案|枚举 <br/>**可能的值：** <br/> Bookings <br/> EHR 连接器 <br/> 未知 |由会议安排客户端团队提供的字段 (例如 Bookings、EHR Connector) 遥测数据，以帮助区分其他会议。 截至 2021 年 4 月，只有 Bookings 和 EHR 连接器已注册以提供遥测数据来识别会议方案。|计划客户端尚未通过其遥测提供此参数。|
+|**Datapair**|||
+| Network Connection Detail Pair  | 枚举对 <br/>**可能的值：** <br/> wifi : wifi <br/> wifi : 有线 <br/> 有线 : wifi <br/> 有线 : 有线 <br/> MobileBB : MobileBB <br/> MobileBB : 其他 <br/> MobileBB : 隧道 <br/> MobileBB : wifi <br/> MobileBB : 有线 <br/> 其他 : 其他 <br/> 其他 : wifi <br/> 其他 : 有线 <br/> 隧道 : 隧道 <br/> 隧道 : wifi <br/> 隧道 : 有线 <br/> : MobileBB <br/> : 其他 <br/> : 隧道 <br/> : wifi <br/> : 有线 <br/> :  | 表示第一和第二终结点的网络连接详情的成对值。  | &bull; 终结点网络连接类型未知。 当无法建立通话时可能会出现这种情况。   |
+| User Agent Category Pair  | 枚举对  | 表示第一和第二终结点的用户代理类别的成对值。 <br/> **示例值：** AV-MCU ：OC  | &bull; 终结点用户代理不是已知类型  |
+| Is Server Pair  | 枚举对 <br/>**可能的值：** 客户端：客户端 <br/> 客户端：服务器 <br/> 服务器：服务器  | 表示第一和第二终结点是客户端还是服务器的成对值。  | 没有空值   |
+| Connectivity Ice Pair  | 枚举对 <br/>**可能的值：** <br/> 直接 : 直接 <br/> 直接 : 失败 <br/> 直接 : HTTP <br/> 失败 : 失败 <br/> 失败 : 中继 <br/> HTTP : 中继 <br/> : <br/> : 直接 <br/> : 失败 <br/> : HTTP <br/> : 中继 | 表示每个终结点使用的 ICE 连接类型的成对值。   | &bull; 终结点使用的 ICE 连接未知或报告   |
+| OS Pair  | 枚举对  | 表示第一和第二终结点的操作系统名称和版本的成对值。 <br/> **示例值：Windows 10** ： Windows 10  | &bull; 无法分析 OS 名称或终结点未报告 OS 名称  |
+| Tenant Id Pair  | 枚举对  | 表示第一和第二终结点的租户 ID 的成对值。 <br/> **示例值** ：00000000 - 0000 - 0000 - 0000 - 000000000000 ： 00000000 - 0000 - 0000 - 00000000000000  |  &bull; 无法确定租户标识符。 当终结点登录到了本地 Skype for Business Server 部署时可能会出现此情况。  |
+| Building Name Pair  | 枚举对  | 表示第一和第二终结点的建筑物名称的成对值。  | &bull; 无法确定终结点的建筑物名称。 这可能是因为终结点位于企业网络外部，或正在从没有子网映射的站点访问网络。 <br/> **示例值：** 主建筑物：分支网站建筑物 |
+| Inside Corp Pair  | 枚举对 <br/>**可能的值：** <br/> 内部 : 内部 <br/> 内部 : 外部 <br/> 外部 : 外部 | 根据子网映射，显示终结点位于企业网络内部还是外部的成对值。   |   |
+| Scenario Pair  | 枚举对  | 显示终结点位于企业网络内部还是外部（根据子网映射确定）以及网络连接详情的成对值。 <br/> **注意：** 对由"--"分隔。 <br/> **示例值：** Client-Inside--Client-Inside-wifi  | &bull; 任一终结点或两个终结点的网络连接类型未知。  |
 ||||
 
 
@@ -519,7 +519,7 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 |衡量指标名称 |单位 |说明 |
 |:--- |:--- |:--- |
 |Total Stream Count |流的数量 |无论媒体类型如何，媒体流的数量，包括可能没有媒体类型的可靠性/诊断流。 |
-| CDR 可用流计数总计 | 流的数量 |具有可用可靠性/诊断信息的媒体流的数量。 请参阅 Skype for Business Server [ (CDR) 通话详细信息](/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
+| CDR 可用流计数总计 | 流的数量 |具有可用可靠性/诊断信息的媒体流的数量。 请参阅[在通话中 (CDR) 录音Skype for Business Server](/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
 |Total Media Failed Stream Count |流的数量 |媒体路径未能建立或未正常终止的流的数量。 |
 |Total Call Setup Failed Stream Count |流的数量 |呼叫之初无法在终结点之间建立媒体路径的流的数量。 |
 |Total Call Dropped Stream Count |流的数量 |媒体路径未正常终止的流的数量。 |
@@ -534,7 +534,7 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 |Media Failed Due To Firewall DPI Stream Count |流的数量 |由于深度包检测不允许 Skype for Business 流量导致网络设备阻止访问进而未能建立的流的数量。 这些故障通常表示代理、防火墙或其他网络安全设备未正确配置为访问 Microsoft 365 或 Office 365 中的 Skype for Business 使用的 IP 地址和端口。 |
 |Firewall DPI Media Failure Percentage |百分比 |由于深度包检测不允许 Skype for Business 流量导致网络设备阻止访问进而未能建立的流的百分比。 这些故障通常表示代理、防火墙或其他网络安全设备未正确配置为访问 Microsoft 365 或 Office 365 中的 Skype for Business 使用的 IP 地址和端口。 |
 |Media Failed Due To Firewall IP Blocked Stream Count |流的数量 |由于网络设备阻止访问 Skype for Business 服务器而未能建立的流的数量。 这些故障通常表示代理、防火墙或其他网络安全设备未正确配置为访问 Microsoft 365 或 Office 365 中的 Skype for Business 使用的 IP 地址和端口。 |
-|Firewall IP Blocked Media Failure Percentage |百分比 |由于网络设备阻止访问 Skype for Business 服务器而未能建立的流的百分比。 这些故障通常表示代理、防火墙或其他网络安全设备未正确配置为访问 Microsoft 365 或 Office 365 中的 Skype for Business 使用的 IP 地址和端口。 |
+|Firewall IP Blocked Media Failure Percentage |百分比 |由于网络设备阻止了对服务器的访问而未能建立的Skype for Business百分比。 这些故障通常表示代理、防火墙或其他网络安全设备未正确配置为访问 Microsoft 365 或 Office 365 中的 Skype for Business 使用的 IP 地址和端口。 |
 | 媒体因其他流计数而失败|流的数量| 由于未确定/未分类的原因，在终结点之间无法建立媒体路径的流的数量。| |
 | 其他媒体故障百分比|百分比| 由于未确定/未分类的原因，在终结点之间无法建立媒体路径的流百分比。 ||
 | CDR 可用呼叫计数总计|流的数量|具有可用可靠性/诊断信息的媒体流总数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
@@ -551,9 +551,9 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 |Audio Poor Due To Degradation Count |流的数量 |降级指标超过以下位置列出的阈值的音频流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Audio Poor Due To RoundTrip Count |流的数量 |往返行程超过以下位置中列出的阈值的音频流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Audio Poor Due To ConcealedRatio Count |流的数量 |隐藏比率超过以下位置所列阈值的音频流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
-|Audio SLA Good Call Count |通话的数量 |Microsoft 产品和在线服务的 Skype for Business 语音质量 SLA ([](https://aka.ms/voicequalitysla)批量许可范围内被归类为) 网络性能目标的音频呼叫数。 |
-|Audio SLA Poor Call Count |通话的数量 |Microsoft 产品和在线服务的 Skype for Business 语音质量 SLA ([](https://aka.ms/voicequalitysla)批量许可范围内被归类为) 未满足网络性能目标的音频呼叫数。 |
-|Audio SLA Call Count |通话的数量 |Skype for Business 语音质量 SLA 范围内的音频呼叫数 ([Microsoft](https://aka.ms/voicequalitysla) 产品和在线服务的批量许可) 。 |
+|Audio SLA Good Call Count |通话的数量 |Microsoft 产品和在线服务的语音质量 SLA Skype for Business批量许可 (范围内被分类为[](https://aka.ms/voicequalitysla)) 网络性能目标的音频呼叫数。 |
+|Audio SLA Poor Call Count |通话的数量 |Microsoft 产品和在线服务的Skype for Business SLA (批量许可范围内被归类为) 未满足[](https://aka.ms/voicequalitysla)网络性能目标的音频呼叫数。 |
+|Audio SLA Call Count |通话的数量 |Microsoft 产品与在线服务Skype for Business批量许可Skype for Business语音质量 (SLA 范围内的音频[呼叫](https://aka.ms/voicequalitysla)) 。 |
 |Audio SLA Good Call Percentage |百分比 |Skype for Business 语音质量 SLA（[Microsoft 产品和在线服务的批量许可](https://aka.ms/voicequalitysla)）范围内被分类为满足网络性能目标的音频通话的百分比。 |
 |Audio Good Call Stream Count |流的数量 |根据以下位置列出的网络指标 (通话中的两个音频流 () 被分类为差的音频流的数量：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Audio Poor Call Stream Count |流的数量 |根据以下位置列出的网络指标 (通话段) 中至少有一个音频流被分类为差的音频流的数量：呼叫质量仪表板中的流 [分类](stream-classification-in-call-quality-dashboard.md)。 |
@@ -576,12 +576,12 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 |Video Poor Due To VideoPostFecplr Count |流的数量 |Fec plr 后的视频超过以下文章中列出的阈值的视频流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Poor Due To VideoLocalFrameLossPercentageAvg Count |流的数量 |视频本地帧丢失百分比平均值超过以下所列阈值的视频流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Poor Due To VideoFrameRateAvg Count |流的数量 |视频帧速率平均值超过以下位置中列出的阈值的视频流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
-|Video Poor Due to Freeze Count |流的数量 | 视频冻结指标超过此处所列阈值的主视频流的数量。 [呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 此字段仅适用于 Microsoft Teams |
+|Video Poor Due to Freeze Count |流的数量 | 视频冻结指标超过此处所列阈值的主视频流的数量。 [呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 此字段特定于Microsoft Teams |
 |Video Poor Stream Count |流的数量 |根据通话质量仪表板中的流分类中列出的网络指标分类为差 [的视频流的数量](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Good Stream Count |流的数量 |根据以下位置列出的网络指标被分类为良好视频流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Unclassified Stream Count |流的数量 |根据以下列出的网络指标，没有足够数据被分类为好或差的视频流的数量：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Poor Percentage|百分比 |根据通话质量仪表板中的流分类中列出的网络指标被分类为差的总 [视频流的百分比](stream-classification-in-call-quality-dashboard.md)。 |
-|Video Poor Percentage Due to Freeze|百分比 | 根据"通话质量仪表板"中的流分类中列出的"由于冻结导致的视频差"指标被分类为差的主要视频流的 [百分比](stream-classification-in-call-quality-dashboard.md)。 此字段仅适用于 Microsoft Teams |
+|Video Poor Percentage Due to Freeze|百分比 | 根据"通话质量仪表板"中的流分类中列出的"由于冻结导致的视频差"指标被分类为差的主要视频流的 [百分比](stream-classification-in-call-quality-dashboard.md)。 此字段特定于Microsoft Teams |
 |VBSS Stream Count |流的数量 |基于视频的屏幕共享流的数量。 |
 |VBSS Poor Due To VideoPostFecplr Count |流的数量 |视频发布 Fec plr 超过以下文章中列出的阈值的基于视频的屏幕共享流的数量：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |VBSS Poor Due To VideoLocalFrameLossPercentageAvg Count |流的数量 |视频本地帧丢失百分比平均值超过以下所列阈值的基于视频的屏幕共享流的数量：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 |
@@ -716,13 +716,13 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 
 ## <a name="related-topics"></a>相关主题
 
-[改进和监视 Teams 的通话质量](monitor-call-quality-qos.md)
+[改进和监视呼叫质量Teams](monitor-call-quality-qos.md)
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
 [使用 CQD (设置呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
 
-[上传租户和建筑物数据](CQD-upload-tenant-building-data.md)
+[Upload租户和建筑物数据](CQD-upload-tenant-building-data.md)
 
 [CQD 数据和报表](CQD-data-and-reports.md)
 
@@ -730,4 +730,4 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 
 [CQD 中的流分类](stream-classification-in-call-quality-dashboard.md)
 
-[使用 Power BI 分析 CQD 数据](CQD-Power-BI-query-templates.md)
+[使用Power BI分析 CQD 数据](CQD-Power-BI-query-templates.md)

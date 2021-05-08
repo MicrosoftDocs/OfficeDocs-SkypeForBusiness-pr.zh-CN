@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 阅读本主题，了解如何处理来自团队的出站呼叫和会话边界控制器（SBC）的中继故障转移。
+description: 阅读本主题，了解如何处理从 Teams 到会话边界控制器的出站调用的中继故障转移 (SBC) 。
 ms.openlocfilehash: c88394cba0a98316ac272901a6ab2972e9eaf3c8
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
@@ -25,34 +25,34 @@ ms.locfileid: "41836174"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>出站呼叫发生 Trunk 故障转移
 
-本主题介绍如何在出站呼叫（从团队到会话边界控制器（SBC））中避免中继故障转移。
+本主题介绍如何避免出站调用上的中继故障转移- 从 Teams 到会话边界控制器 (SBC) 。
 
 ## <a name="failover-on-network-errors"></a>网络错误故障转移
 
-如果由于任何原因无法连接主干，则将从另一个 Microsoft 数据中心尝试连接到同一主干。 可能无法连接主干，例如，如果连接被拒绝、TLS 超时或存在任何其他网络级别问题。
-例如，如果管理员仅通过众所周知的 IP 地址限制对 SBC 的访问，但忘记将所有 Microsoft 直接路由数据中心的 IP 地址放入 SBC 的访问控制列表（ACL）中，则连接可能失败。 
+如果由于任何原因无法连接中继，将尝试从不同的 Microsoft 数据中心连接到同一中继。 例如，如果连接被拒绝、TLS 超时或存在任何其他网络级别问题，则中继可能未连接。
+例如，如果管理员仅从已知 IP 地址限制对 SBC 的访问，但忘记将所有 Microsoft 直接路由数据中心的 IP 地址放在 SBC 的访问控制列表 (ACL) ，则连接可能会失败。 
 
-## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>从会话边界控制器（SBC）收到的特定 SIP 代码的故障转移
+## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>从 SBC 会话边界控制器接收的特定 SIP 代码 (SBC) 
 
-如果直接路由接收到任何用于响应传出邀请的4xx 或 6xx SIP 错误代码，则默认情况下该呼叫视为已完成。 "传出" 指通过以下通信流从团队客户端呼叫到公共交换电话网络（PSTN）的呼叫：团队客户端-> 直接路由-> SBC-> 电话网络。
+如果直接路由收到任何 4xx 或 6xx SIP 错误代码以响应传出邀请，则默认情况下，呼叫被视为已完成。 传出是指从 Teams 客户端呼叫公用电话交换网 (PSTN) ，流量流如下：Teams 客户端 -> 直接路由 -> SBC -> 电话网络。
 
-SIP 代码列表可在 "[会话初始协议（SIP） RFC](https://tools.ietf.org/html/rfc3261)" 中找到。
+SIP 代码列表可在 SIP) 的会话启动协议[ (RFC 中。](https://tools.ietf.org/html/rfc3261)
 
-假设 SBC 使用代码 "408 请求超时" 在传入邀请上回复的情况：服务器无法在合适的时间内生成响应，例如，如果无法确定用户的时间位置。 客户端可在以后任何时间重复请求，不进行任何修改。 "
+假设 SBC 在传入邀请中回复了代码"408 请求超时：服务器在合适的时间内无法生成响应，例如，如果它无法确定用户的时间位置。 客户端可以重复请求，无需在以后进行任何修改。"
 
-此特定的 SBC 可能会在连接到被呼叫方时遇到问题，可能是因为网络配置错误或其他错误。 但是，路由中还有一个 SBC 可以访问被呼叫方。
+此特定 SBC 在连接到被叫方时可能遇到问题，可能是因为网络配置错误或其他错误。 但是，路由中可能还有一个 SBC 能够到达被叫方。
 
-在下图中，当用户拨打电话号码时，路由中有两个 SBCs 可潜在地传递此呼叫。 最初，SBC1.contoso.com 已选择用于呼叫，但 SBC1.contoso.com 无法联系 PTSN 网络，因为出现网络问题。
-默认情况下，将在此时完成通话。 
+下图中，当用户呼叫电话号码时，路由中可能有两个 SDC 可以传送此呼叫。 最初，SBC1.contoso.com 为呼叫选择一个连接，SBC1.contoso.com 由于网络问题而无法连接到 PTSN 网络。
+默认情况下，此时将完成调用。 
  
-![图表显示 SBC 由于网络问题而无法访问 PSTN](media/direct-routing-failover-response-codes1.png)
+![显示 SBC 由于网络问题无法访问 PSTN 的示意图](media/direct-routing-failover-response-codes1.png)
 
-但是，路由中的一个 SBC 可能可以发送呼叫。
-如果您配置该参数`Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`，将在下图中尝试第二个 SBC-SBC2.contoso.com：
+但路由中还有一个 SBC 可以传递调用。
+如果配置 参数 `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"` ，将尝试第二个 SBC - SBC2.contoso.com 如下图所示：
 
-![显示路由到第二个 SBC 的图表](media/direct-routing-failover-response-codes2.png)
+![显示到第二个 SBC 的路由的示意图](media/direct-routing-failover-response-codes2.png)
 
-设置参数 FailoverResponseCodes 并指定代码可帮助你微调路由，并在 SBC 由于网络或其他问题而无法进行呼叫时避免潜在问题。
+设置参数 -FailoverResponseCodes 并指定代码有助于微调路由，并避免 SBC 由于网络或其他问题而无法进行调用时的潜在问题。
 
 默认值：408、503、504
 

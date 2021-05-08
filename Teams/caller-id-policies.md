@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用和管理 Microsoft Teams 中的来电显示策略来更改或阻止组织中 Teams 用户的来电显示。
+description: 了解如何使用和管理呼叫者 ID 策略Microsoft Teams更改或阻止组织中Teams用户的来电显示。
 ms.openlocfilehash: cd15245523cdc3f5fb3625a2b4cfdae4deebb7d3
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -29,15 +29,15 @@ ms.locfileid: "51102778"
 
 >[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
 
-作为管理员，可以使用 Microsoft Teams 中的来电显示策略更改或阻止呼叫者 ID (也称为呼叫线路 ID) 。 默认情况下，在呼叫 PSTN 电话时可以看到 Teams 用户的电话号码，在呼叫 Teams 用户时可以看到 PSTN 呼叫者的电话号码。 可以使用来电显示策略显示组织中 Teams 用户的备用电话号码，或阻止显示传入号码。
+作为管理员，可以使用呼叫者 ID 策略Microsoft Teams更改或阻止呼叫者 ID (也称为呼叫线路 ID) 。 默认情况下，呼叫 PSTN Teams时可以看到这些用户的电话号码，而 PSTN 呼叫者在呼叫 PSTN Teams时可以看到。 可以使用来电显示策略显示组织中用户Teams备用电话号码，或阻止显示传入号码。
 
 例如，当用户进行呼叫时，你可以更改呼叫者 ID 以显示组织的主要电话号码，而不是用户的电话号码。
 
-通过访问 Microsoft Teams 管理中心中的"**语音** 呼叫  >  **者 ID"** 策略来管理来电显示策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
+通过访问管理中心中的"语音呼叫者  >  **ID"** 策略Microsoft Teams呼叫者 ID 策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
 
 ## <a name="create-a-custom-caller-id-policy"></a>创建自定义来电显示策略
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"语音**  >  **呼叫者 ID 策略"。**
+1. 在管理中心左侧导航Microsoft Teams，转到 **"语音呼叫**  >  **者 ID 策略"。**
 2. 单击“**添加**”。 <br>
 ![管理中心中新来电显示策略页面的屏幕截图](media/caller-id-policies-add-policy.png)
 3. 输入策略的名称和说明。
@@ -59,7 +59,7 @@ ms.locfileid: "51102778"
 
 可以编辑全局策略或创建的任何自定义策略。 
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **"语音**  >  **呼叫者 ID 策略"。**
+1. 在管理中心左侧导航Microsoft Teams，转到 **"语音呼叫**  >  **者 ID 策略"。**
 2. 单击策略名称的左侧以选择用户，然后单击“**编辑**”。
 3. 更改想要的设置，然后单击"保存 **"。**
 
