@@ -1269,14 +1269,14 @@ items:
             href: business-voice/set-up-assign-numbers.md
           - name: 步骤 6：设置自动助理
             href: business-voice/set-up-auto-attendant.md
+          - name: 步骤 7：端口电话号码（可选）
+            href: business-voice/port-phone-numbers.md
           - name: 设置后的资源
             href: business-voice/set-up-finish.md
       - name: 自定义设置
         items:
           - name: 自定义选项
             href: business-voice/customize-business-voice.md
-          - name: 转移电话号码
-            href: business-voice/port-phone-numbers.md
           - name: 设置通话策略
             href: business-voice/set-up-policies.md
           - name: 管理策略包
