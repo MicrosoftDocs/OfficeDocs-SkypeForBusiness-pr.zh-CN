@@ -17,12 +17,12 @@ description: 如何在管理中心Teams PSTN 分钟Microsoft Teams报告，查�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8df0c1201f963a1c00742532f80089b523ca79aa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4d28e33ae820407ffe8c9561cae8c79863532417
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809342"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52305986"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft TeamsPSTN 分钟池报告
 
@@ -42,7 +42,7 @@ Microsoft Teams 管理中心中的 PSTN 分钟池报告通过显示当前月份�
 |**2**   |单击某个 (许可证) 查看该功能的活动。 |
 |**3**   |X 轴是国家/地区。 Y 轴是分钟数。 <br>将鼠标悬停在图表上的条形图上以查看该使用位置的活动。  |
 |**4**   |可单击图例上的项目筛选要在图表上查看的内容。 例如，单击"**未使用**"、**国内用户****、"无数据**"或"**国际**"，以便仅查看与每个数据相关的信息。 |
-|**5**   |下表按功能与使用位置提供了分钟池的细分。 <ul><li>**"国家/地区** "是使用位置。 </li><li>**功能** 说明是用于调用的许可证的说明。  可能会在此报告中看到的功能说明包括： <ul><li>国内和国际呼叫计划 (1200 分钟国内) </li><li>国内和国际呼叫计划 (国内 3000 分钟) </li><li>国内和国际呼叫计划 (600 分钟) </li></ul></li><br><li>**总分钟** 数是当月可用的总分钟数。</li><li>**使用的分钟** 数是每月使用的分钟数</li> <li>**可用分钟** 数是当月的剩余分钟数。</li><li>**功能** 是用于调用的许可证。 你可能会看到的许可证包括：<ul><li>**MCOPSTNPP** - 通信信用额度</li><li>**MCOPSTN1** - 国内呼叫 (3000 分钟美国/1200 分钟欧盟套餐) </li><li>**MCOPSTN2** - 国际呼叫计划</li><li>**MCOPSTN5** - 国内呼叫计划 (120 分钟呼叫计划) </li><li>**MCOPSTN6** - 国内呼叫 (240 分钟呼叫) </li><li>**MCOMEETADD** - 音频会议</li><li>**MCOMEETACPEA** - 每分钟支付音频会议费用</li></ul></li> </ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。|
+|**5**   |下表按功能与使用位置提供了分钟池的细分。 <ul><li>**"国家/地区** "是使用位置。 </li><li>**功能** 说明是用于调用的许可证的说明。  可能会在此报告中看到的功能说明包括： <ul><li>国内和国际呼叫计划 (1200 分钟国内) </li><li>国内和国际呼叫计划 (国内 3000 分钟) </li><li>国内和国际呼叫计划 (600 分钟) </li></ul></li><br><li>**总分钟** 数是当月可用的总分钟数。</li><li>**使用的分钟** 数是每月使用的分钟数</li> <li>**可用分钟** 数是当月的剩余分钟数。</li><li>**功能** 是用于调用的许可证。 你可能会看到的许可证包括：<ul><li>**MCOPSTN1** - 国内呼叫 (3000 分钟美国/1200 分钟欧盟套餐) </li><li>**MCOPSTN2** - 国际呼叫计划</li><li>**MCOPSTN5** - 国内呼叫计划 (120 分钟呼叫计划) </li><li>**MCOPSTN6** - 国内呼叫 (240 分钟呼叫) </li><li>**MCOMEETADD** - 音频会议</li></ul></li> </ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。|
 |**6**   |选择“**编辑列**”可在表格中添加或删除列。|
 |**7**   |选择 **"全屏** "以全屏模式查看报表。|
 

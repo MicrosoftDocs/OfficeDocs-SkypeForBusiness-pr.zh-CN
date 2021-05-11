@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8afb7738d05fd61122ac2188d049419ef41054ea
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 809de40e8c97eefbd3fc1a938e53328c3be0020f
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282759"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306026"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft Teams 和 Skype for Business 的共存和互操作性
 
@@ -54,7 +54,7 @@ ms.locfileid: "52282759"
 我们建议查看以下共存模式，以帮助确定哪种路径适合你的组织。
 
 > [!Important]
-> 引入新技术或对现有的熟悉的 Skype for Business 环境进行更改，在带来巨大的新业务效益的同时，也会给用户带来颠覆性的影响。 在实施本文所述的任何变更之前，请花时间评估用户准备情况，并实施沟通和培训计划。 此外，我们强烈建议在整个组织实施你的计划之前，先在选定的用户群中进行试点。
+> 2021 年 7 月 31 日停用 Skype for Business Online 后，共存模式将继续存在，但仅与在本地部署 Skype for Business Server 的组织相关。 在停用之前，可以将本地部署中的用户分配到除 TeamsOnly 外的任何模式。 但是，停用 Skype for Business Online 后，云中的用户只能是 TeamsOnly。
 
 ### <a name="islands-mode"></a>“并行”模式
 
@@ -334,7 +334,7 @@ Teams 和 Skype for Business 有单独的联系人列表。 这意味着在一�
 
 - 对于任何 Skype for Business Online 用户来说，他们第一次登录 Teams 时，都将复制 Skype for Business 中的联系人到 Teams 中。  在 Skype for Business Server 中拥有本地账户的用户无法使用此行为。  
 
-- 当用户升级到 TeamsOnly 后 (通过指定 TeamsUpgradePolicy 或通过 Move-CsUser -MoveToTeams)，下次用户登录 Teams 时，Skype for Business 中的现有联系人将与 Teams 中已有的联系人合并。 无论用户的 Skype for Business 账户是在本地还是在线，这种行为都会发生。 
+- 当用户升级到 TeamsOnly 后 (通过指定 TeamsUpgradePolicy 或通过 Move-CsUser -MoveToTeams)，下次用户登录 Teams 时，Skype for Business 中的现有联系人将与 Teams 中已有的联系人合并。 无论用户从本地还是联机移动到 TeamsOnly，都会发生此行为。 
 
 在这两种情况下，从 Skype for Business 到 Teams 的联系人传输是异步的，因此可能要过几分钟才能在 Teams 中出现联系人。 以上两个事件就是触发副本的原因。  
 

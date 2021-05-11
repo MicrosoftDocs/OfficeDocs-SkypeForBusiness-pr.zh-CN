@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c45770258d452c3f84c707a51812d2e336ce48ee
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d323760d4187730b0ae83d45021df44230a982cd
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282169"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306046"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>从Skype for Business本地升级到 Teams
 
@@ -99,19 +99,19 @@ ms.locfileid: "52282169"
     - [共存模式 - 参考](migration-interop-guidance-for-teams-with-skype.md)
     - [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-- 设置Skype for Business混合是迁移到 TeamsOnly 模式的先决条件。 虽然可以在不混合的情况下在群岛模式下使用 Teams，但除非使用[Move-CsUser](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)) 将用户从 Skype for Business 本地移动到 Skype for Business Online (，才能过渡到 TeamsOnly 模式。 有关详细信息，请参阅 [配置混合连接](/skypeforbusiness/hybrid/configure-hybrid-connectivity)。
+- 设置Skype for Business混合是迁移到 TeamsOnly 模式的先决条件。 尽管本地 Skype for Business Server 用户可以在不带混合的情况下在群岛模式下使用 Teams，但如果不使用[Move-CsUser](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)将用户移动到云，则不能过渡到 TeamsOnly 模式，因为需要混合连接。 有关详细信息，请参阅 [配置混合连接](/skypeforbusiness/hybrid/configure-hybrid-connectivity)。 此外，即将停用 Skype for Business Online 不会更改此要求。 若要让组织从Skype for Business Server迁移Teams，它们仍然必须使用同一工具集来设置和配置混合，与停用 *之前完全相同*。
 
-- 如果组织Skype for Business Server尚未配置混合连接，但仍想使用 Teams 管理 Teams 功能，则必须使用具有 .onmicrosoft.com 域的管理帐户。 
+- 若要将本地用户移到云，请使用 `Move-CsUser` 本地管理工具。 目前，如果未指定此开关，则用户从 Skype for Business Server 本地迁移到 Skype for Business Online，其模式保持不变，他们在 Skype for Business Server 中组织的会议将迁移到 Skype for Business Online。 由于即将停用 Skype for Business Online，因此很快不再需要指定 中的开关，将用户直接从本地移动到 `-MoveToTeams` `Move-CsUser` TeamsOnly。  停用后，使用 将用户从本地移动到云时，将自动为用户分配 TeamsOnly 模式，并且其从本地的会议将自动转换为 Teams 会议，就像 ， 而不考虑是否实际指定了开关一样。 `Move-CsUser` `-MoveToTeams switch had been specified` 我们预期在 2021 年 7 月 31 日实际停用之前发布此功能。
 
-- Teams本地 Skype for Business (帐户（即，他们尚未使用 Move-CsUser) 移动到云中）的用户不能与任何 Skype for Business 用户互操作，也不能与外部用户联合。 只有在将用户移动到位于群岛模式或 TeamsOnly 用户 (云环境后，此功能才) 。 
+- 如果组织Skype for Business Server尚未配置混合连接，但仍想使用 Teams，若要管理 Teams 功能，必须使用具有 .onmicrosoft.com 域的管理帐户。 如果没有混合连接，管理工具无法识别本地域。 
 
-- 如果有任何用户在本地Skype for Business帐户，则不能在租户级别分配 TeamsOnly 模式。 必须先使用 将具有本地 Skype for Business 帐户的所有用户移到云，然后禁用混合以 `Move-CsUser` [完成到云的迁移](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)。  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`如果检测到 lyncdiscover DNS 记录指向其他位置，则租户级别Office 365。
+- Teams本地 Skype for Business (帐户（即，他们尚未使用 Move-CsUser) 移动到云中）的用户不能与任何 Skype for Business 用户互操作，也不能与外部用户联合。 只有在将用户移动到云且是 TeamsOnly 用户后，此功能才可用。 
+
+- 如果有任何用户在本地拥有 Skype for Business 帐户，或者对于本地部署仍具有 lyncdiscover DNS 记录，则不能在租户级别分配 TeamsOnly 模式。 必须先使用 将具有本地 Skype for Business 帐户的所有用户移到云，然后按照禁用混合中所述的步骤完成到云的迁移，包括 `Move-CsUser` 删除 DNS 条目。 [](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`如果检测到 lyncdiscover DNS 记录指向其他位置，则租户级别Office 365。
 
 - 必须确保用户使用正确的属性正确同步到 Azure AD Skype for Business属性。 这些属性都是前缀"msRTCSIP-"。 如果用户未正确同步到 Azure AD，Teams管理这些用户。  (例如，除非正确同步这些属性，否则无法将 Teams 策略分配给本地用户。) 有关详细信息，请参阅为 Teams 和 Skype for Business 配置[Azure AD 连接。](/SkypeForBusiness/hybrid/configure-azure-ad-connect)
 
 - 若要在混合组织中创建新的 TeamsOnly 或 Skype for Business Online 用户，必须先在本地 *Skype for Business Server* 中启用该用户，然后使用 Move-CsUser 将用户从本地移动到云。  首先在本地创建用户可确保任何其他剩余的本地Skype for Business用户能够路由到新创建的用户。 所有用户都联机后，不再需要先在本地启用用户。
-
-- 当用户从本地移动到云时，由该用户组织的会议将迁移到 Skype for Business Online 或 Teams -具体取决于是否指定了 -MoveToTeams 开关。
 
 - 如果要在本地用户的 Skype for Business客户端中显示通知，则必须在本地工具集使用 TeamsUpgradePolicy。 只有 NotifySfbUsers 参数与本地用户相关。  本地用户从 TeamsUpgradePolicy 的在线实例接收其模式。 请参阅 [Grant-CsTeamsUpgradePolicy 中的说明](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)。 
 

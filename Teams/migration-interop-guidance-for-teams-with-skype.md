@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3a446213a5c10126b9ae42986fe2fa1986bc9e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96aeda2b14d2aa3dedd810317865f3d02e29f68a
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098328"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52305946"
 ---
 # <a name="coexistence-modes---reference"></a>共存模式 - 参考
 
@@ -51,7 +51,7 @@ ms.locfileid: "51098328"
 
 |模式|通话和聊天|会议计划<sup>1</sup>|Teams &频道|用例|
 |---|---|---|---|---|
-|**TeamsOnly <sup>2</sup>**</br>*需要在 Skype for Business Online 中主页*|Teams|Teams|是|正在升级的最终状态。 也是新租户的默认值。|
+|**TeamsOnly <sup>2</sup>**</br>*仅在用户没有本地帐户的情况下Skype for Business Server*|Teams|Teams|是|正在升级的最终状态。 也是新租户的默认值。|
 |孤岛|任一|任一|是|默认配置。 允许单个用户并排评估这两个客户端。 聊天和通话可以登陆任一客户端，因此用户必须始终运行这两个客户端。 为了避免令人困惑或回归的 Skype for Business 体验，Skype for Business 将继续处理外部 (联合) 通信、PSTN 语音服务和语音应用程序、Office 集成和若干其他集成。|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|是|"会议第一"。 主要面向本地组织Teams会议功能，如果它们尚未准备好将呼叫转移到云。|
 |SfBWithTeamsCollab|Skype for Business|Skype for Business|是|需要更严格管理控制的复杂组织的备用起点。|

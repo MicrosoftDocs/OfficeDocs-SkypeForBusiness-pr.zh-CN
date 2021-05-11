@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d01dc44b626cc2c09a92dabff7649a5e9fddc3c6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 7e4bfb5594b64eb06041e7f761eb0d85cec8c3e5
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282499"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306036"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>适用于 IT 管理员的升级策略
 
@@ -88,6 +88,10 @@ ms.locfileid: "52282499"
 - 可以设置为 SfbWithTeamsCollabAndMeetings，而不是将租户范围策略设置为 SfbWithTeamsCollabAndMeetings。 这会导致所有用户在会议中安排所有新Teams。
 - `Move-CsUser` 是本地工具中的 cmdlet。 开关 `MoveToTeams` 需要 2019 Skype for Business Server 2015 或 2015 Skype for Business Server CU8 或更高版本。 如果使用早期版本，可以先将用户移动到 Skype for Business Online，然后向该用户授予 TeamsOnly 模式。
 - 默认情况下，Skype for Business TeamsOnly 模式或分配 SfbWithTeamsCollabAndMeetings 模式时，Teams会议迁移到其他会议。  
+
+> [!NOTE]
+> 为准备即将停用 Skype for Business Online，Microsoft 将简化组织在Teams迁移方式。 将用户从本地移动到 Teams时，很快将不再需要指定 中的开关，以将用户直接从本地移动到 `-MoveToTeams` `Move-CsUser` TeamsOnly。 目前，如果未指定此开关，用户从本地Skype for Business Server到 Skype for Business Online，其模式保持不变。 停用后，使用 将用户从本地移动到云时，将自动为用户分配 TeamsOnly 模式，并且其会议从本地自动转换为 Teams 会议，就像 ， 而不考虑是否实际指定了开关一样。 `Move-CsUser` `-MoveToTeams switch had been specified` 我们预期在 2021 年 7 月 31 日实际停用之前发布此功能。
+
 
 下图显示了组织中未事先使用特定功能升级功能的概念Teams。 条形图的高度表示用户数。 在升级的任何阶段，所有用户都可以相互通信。  Skype for Business使用互操作与 TeamsOnly 用户通信，反之亦然。 位于群岛模式的用户必须确保运行这两个客户端。
 
