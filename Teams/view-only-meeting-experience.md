@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f9df0bf1c4acaf8ec32db07ce4af961c491ba0d
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: 76137c0ebfe73c6ba500a0dbcdc8ee1a01de85fc
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899113"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328554"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -31,7 +31,7 @@ ms.locfileid: "51899113"
 > [!Note]
 > 如果会议或网络研讨会达到饱和状态，Teams 将无缝扩展至容纳 10,000 人的仅限观看广播体验。 另外，在这个远程工作增加的时期，利用更大规模的 20,000 人广播到今年年底。
 
-Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达到主会议容量后 (300 个用户进入会议) ，其他与会者将加入仅查看体验。
+Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达到主会议的容量后 (1000 个用户进入会议) ，其他与会者将加入仅查看体验。
 
 首先加入会议的与会者（最多为主会议的容量）将获得完整的Teams体验。 他们可以共享音频和视频、查看共享视频、并参与会议聊天。
 
@@ -40,7 +40,7 @@ Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达
 与会者可以通过 Android 和 iOS Teams桌面、Web 和 (加入仅) 。
 
 > [!Note]
-> "主会议"的当前容量限制（换句话说，完全交互用户数）为 300。
+> "主会议"的当前限制容量（换句话说，完全交互式用户数）为 1000，包括GCC。
 
 ## <a name="teams-view-only-experience-controls"></a>Teams仅查看体验控件
 
