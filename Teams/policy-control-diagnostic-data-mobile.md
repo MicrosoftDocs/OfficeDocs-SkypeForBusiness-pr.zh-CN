@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909146"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469644"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -57,7 +57,7 @@ ms.locfileid: "49909146"
   - 显示“**活动**”选项卡。
   - Teams 捕获“**活动**”选项卡事件。
 - **activityTypeDropdown** - 捕获活动筛选器使用情况，以在“**我的活动**”和“**源**”之间切换。
-- **addChannel** - 添加频道。 此项提供有关成功创建频道的成功数据。
+- **addChannel** - 添加频道。此项目提供有关成功创建频道的数据。
 - **addMember**- 已在“**更多**”菜单中选中并触发了“**邀请他人**”按钮。
 - **addMembers** - 将成员添加到团队或专用频道。
 - **addToCalendar** - 为“专用日历”中缺少的日历事件选择“**添加到日历**”按钮。
@@ -121,7 +121,7 @@ ms.locfileid: "49909146"
 - **BYOELiveEventJoin** - BYOE（广播自己的活动）直播活动由用户加入。
 - **calendarLiveChatClicked** - 在“**日程安排**”选项卡上的实时会议中聊天。
 - **calendarMeetingJoin** - 从日历中选择“**加入会议**”按钮。
-- **calendarTab** -在底部栏中选择“**会议**”选项卡。 有助于了解日历的使用情况并与底部栏上的其他应用程序进行比较，或者在从底部栏中选择后确定是否在渲染日历帖子时出现故障。
+- **calendarTab** -在底部栏中选择“**会议**”选项卡。在了解日历使用情况和与底部底部其他应用进行比较，或确定从底部栏选择后，呈现日历文章是否失败非常有用。
 - **calendarTabClicked** - 在下面列出的情况下，这将显示日历的使用情况，并允许你与底部栏上的其他导航栏应用程序进行比较。 这可用于确定在以下情况下是否存在故障：
   - 此时将显示“**日程安排**”选项卡。
   - 在底部栏中选择“**会议**”选项卡。
@@ -222,7 +222,7 @@ ms.locfileid: "49909146"
   - 关闭视频。
   - 实时会议或呼叫过程中选中了视频按钮。
 - **callPark** - 触发时间：
-  - 在 **…** 中选中了 **寄存呼叫** 菜单。
+  - 在 **…** 中选中了 **寄存呼叫**。
   - “**检索**”按钮处于选中状态。
   - 在检索对话框中选中了 **拾取**。
   - 在检索对话框中选中了 **取消**。
@@ -359,6 +359,7 @@ ms.locfileid: "49909146"
 - **composeParticipantAdded** - 当参与者被添加到“排班”应用程序时。
 - **composeSearchResult** - 消息扩展结果选择，有助于理解应用程序搜索结果的相关性。 还增强了应用程序数据的消息发送遥测。
 - **composeSelectExtension** - 点击 ME 应用程序。
+- **composeSendSendreply** - 单击一个智能答复项。
 - **composeSendMessage** - 使用应用程序数据增强消息发送遥测。
 - **confirmAudioOn** - 用户确认他们希望打开音频。
 - **confirmFileShare** - 在确认对话框中选择“**共享**”。
@@ -399,7 +400,7 @@ ms.locfileid: "49909146"
 - **createPlannerTask** - 检查对 Planner 服务的呼叫。 确认已在共享任务列表中成功创建任务。
 - **createShiftClicked** - 当经理选择“**创建排班**”时。
 - **createShiftOrTimeOffClicked** - 如果选择“**创建排班**”或“**休假**”，则触发。
-- **createTask** - 用于创建操作失败时，检查对 Planner 服务的呼叫。 确认任务创建操作失败。
+- **createTask** - 用于创建操作失败时，检查 Planner 服务的调用。确认任务创建操作失败。
 - **createTaskList** - 当用户从主页视图导航到“创建计划”视图时。
 - **createTeam** - 在以下情况下，提供有关创建新团队的成功创建或放弃操作的成功数据：
   - 在“**创建团队**”页面上选择了“**完成**”按钮。
@@ -489,6 +490,7 @@ ms.locfileid: "49909146"
 - **editNavigation** - 在“**更多**”菜单中选择“**重新排序**”以编辑底部栏应用程序的顺序。
 - **editRsvpMeetingOptions** - 选择“**请回复**”以更改先前的选择。
 - **editShiftClicked** - 编辑排班。
+- **editSmartReply** - 已编辑智能答复项。
 - **editTeam** - 用户点击按钮编辑他们拥有或管理的团队。
 - **editTeam, editChannel** - 在以下情况下，与成功增加团队成员和成功创建现有团队有关：
   - 在“**添加成员**”页面（现有团队或频道）中选择“**取消**”按钮。
@@ -522,7 +524,7 @@ ms.locfileid: "49909146"
 - **expand/collapse** - 设备联系人或公司联系人部分。
 - **expandCollapseSection** - 点击一个分区标题以展开或折叠分区。
 - **Expected: atMention - Android: chatSendMessage - iOS: sendMsg** - 在编辑框中 @提及 机器人。
-- **Expected: botClickCardAction - Android: showCard - iOS: missing** - 点击卡片按钮。 卡片是关键的平台结构，测量它们的使用和模式对于理解平台的使用和保持对客户端潜在问题的警惕是必要的。
+- **Expected: botClickCardAction - Android: showCard - iOS: missing** - 点击卡片按钮。卡片是一种关键平台构造，并衡量其使用情况和模式是了解平台使用情况并随时查看客户端上的潜在问题所必需的。
 - **Expected: chatSendMessage - iOS: composeSendMessage** - 点击“**回复**”并回复频道中的机器人聊天。
 - **Expected: composeSendMessage - Android: replyChannel - iOS: missing** - 点击“**回复**”并回复频道中的机器人聊天。
 - **Expected: messageLike - Android: reactLike_CM** - 为聊天机器人消息点赞。
@@ -560,13 +562,13 @@ ms.locfileid: "49909146"
 - **galleryImage** - 已上传图像 - 库。
 - **get_directions_clicked** - 选择了“**获取方向**”按钮。
 - **goToNotificationSettings** - 从“**更新通知设置**”对话框转到“通知设置”页。
-- **GPSPromptClicked** - 在操作系统提示中选择“**允许**”或“**不允许**”。 允许或不允许GPS。
+- **GPSPromptClicked** - 在操作系统提示中选择“**允许**”或“**不允许**”。
 - **group_map_closed** - 用户从聊天打开地图视图。
 - **group_map_open** - 用户关闭地图视图。
 - **groupCallJoin** - 用户加入群呼。
 - **groupClicked** - 跟踪用户选择排班组的时间。
 - **guideMe** - 用户选择通知他们 3P 应用程序阻止通知的横幅，并提供故障排除指导。
-- **hamburgerMenu** - 导航到汉堡菜单。 汉堡包菜单包含重要操作，如帐户切换、通知设置、数据设置和配置文件设置。
+- **hamburgerMenu** - 导航到汉堡菜单。汉堡菜单包含重要操作，例如帐户切换、通知设置、数据设置和配置文件设置。
 - **handoffComplete** - 此设备上的会议或电话已关闭。
 - **handoffJoin** 在操作表上选择了会议移交选项。
 - **hardwareAudioOff** - 通过硬件按钮关闭音频。
@@ -635,7 +637,7 @@ ms.locfileid: "49909146"
 - **location_family_sync** - 显示在 MSA 系列应用程序中创建的家庭组成员。 确认显示所有可授予同意的家庭成员。
 - **location_group_map_sync** - 已打开地图视图。
 - **location_map_load** - 加载地图视图。
-- **location_map_markers_load** - 加载地图视图。 确认所有正在共享的用户的位置标记在地图视图上正确显示。
+- **location_map_markers_load** - 地图视图加载。确认地图视图中正确显示所有主动共享用户的位置标记。
 - **location_message_send** - 用户启动位置共享会话。
 - **location_data_use_privacy_denied** - 用户在解释 TFL使用位置数据的弹出窗口上关闭或选择“**暂不**”。
 - **location_data_use_privacy_granted** - 用户在解释 TFL 使用位置数据的弹出窗口上选择“**允许**”。
@@ -645,6 +647,7 @@ ms.locfileid: "49909146"
 - **loginFailed** - 用户无法登录。
 - **loginSuccess** - 用户能够登录。
 - **manageBlockedNumbers** - 通过设置访问阻止的号码。
+- **manualSendMessage** - 手动发送一封邮件。
 - **mapAppPicker** - 当用户点击位置卡时选择要使用的映射应用程序时。
 - **markAsRead** - 标记为“已读”。
 - **markAsUnread** - 标记为“未读”。
@@ -712,7 +715,7 @@ ms.locfileid: "49909146"
 - **muteParticipant** - 将参与者静音（移到操作表）。
 - **my_location_button_clicked** - 用户通过选择“**我的位置**”按钮将地图在其位置上居中。
 - **my_location_clicked** - 用户通过选择地图上的 **蓝点** 将地图在其位置上居中。
-- **myShiftPickerClicked** - 仅当发送的请求是交换或代班时才记录。 **"Shift"** 已选中选取器。
+- **myShiftPilickClick** - 只有当正在发送的请求是调换或优惠时才能记录。 **选择了"我的班次** 选取器"。
 - **nameGroupChat** - 命名群聊。
 - **nativeTimeClockBreak** - 打卡时钟上的休息时间。
 - **nativeChatLink** - 已选中指向本机聊天的链接。
@@ -1003,7 +1006,7 @@ ms.locfileid: "49909146"
 - **shiftDetailsTodaysCoworkers** - 在上班打卡屏幕上，选择了“**开始**”或“**结束休息时间**”按钮。
 - **shortCircuitContactCount** - 从联系人获取中接收到的与通讯簿匹配的短路联系人数。
 - **showBanner** - **WiFi 连接的次数，未显示 Internet** 横幅。
-- **showCard** - 点击卡片按钮。 卡片是关键的平台结构，测量它们的使用和模式对于理解平台的使用和保持对客户端潜在问题的警惕是必要的。
+- **showCard** - 点击卡片按钮。卡片是一种关键平台构造，并衡量其使用情况和模式是了解平台使用情况并随时查看客户端上的潜在问题所必需的。
 - **shownReadReceiptNotice** - 带设置选项的用户显示功能提示。
 - **signIn** - 在欢迎页上选择了 **登录**，或者点击了 **登录** 按钮。
 - **signUp** - 选择了“**创建免费帐户**”或“**免费注册**”。
@@ -1011,6 +1014,7 @@ ms.locfileid: "49909146"
   - 设置了同时呼叫转发目标。
   - 已启用同步呼叫转移（启用来电时振铃并设置振铃）。
 - **skipVerificationForLink** - 用户选择跳过验证。
+- **smartReply** - 单击智能答复切换按钮。
 - **SMSSendMessage** - 用户发送短信。
 - **sortChanged** - 用户在查看任务列表时更改排序顺序时触发。
 - **startEditing** - 选中了“**编辑**”按钮。
@@ -1044,9 +1048,9 @@ ms.locfileid: "49909146"
 - **switchTeamsDialogTriggered** - 用户查看“**排班**”选项卡。
 - **tabActionCopyLink** - 用户在移动设备上如何发现和使用选项卡复制链接。
 - **tabActionMoreOptions** - 从选项卡中了解省略号 (**…**) 用法。
-- **tabActionOpenInBrowser** - 在浏览器使用情况中打开。 这对于了解用户是否喜欢在 Teams 外打开选项卡是必要的。
+- **TabActionOpenInBroopenser** - 使用浏览器使用情况打开。如果用户更喜欢在 Teams 外部打开选项卡，有必要了解这一点。
 - **tabActionOpenInBrowserFromTab** - 了解从选项卡中在浏览器使用情况中打开，以获得更多选项-可发现性和使用情况。
-- **tabActionOpenInTeams** - 在使用情况中打开。 这是了解选项卡是否可以默认设置为在 Teams 中打开的关键。
+- **TabActionOpenInTeams** - 使用中打开。在了解选项卡是否默认设置为在 Teams 中打开时，这一点是关键。
 - **tabActionRemove** - 了解删除选项的可发现性以及该功能的用法。
 - **tabActionRename** - 了解可发现的重命名以及功能的用法。
 - **tabActionSetting, Android - fix** - 用户如何在移动设备上发现和使用标签配置。
@@ -1065,15 +1069,15 @@ ms.locfileid: "49909146"
 - **tasksAppLaunchDashboardSeeAll** - 任务应用程序从仪表板上的“**查看全部**”按钮打开，通过 MT 服务检查应用程序启动。
 - **tasksAppLaunchDefault** - 任务应用程序从底部抽屉打开，通过 MT 服务检查应用程序启动情况。
 - **tabCalendarClicked** - 用户从团队选取器中选择了团队。
-- **teamChannelChanged** - 当用户从计划列表中选择并导航到计划时触发。 仅发送到 AppInsights，而不是 Aria。
+- **teamChannelChanged** - 当用户从计划列表中选择并导航到计划时触发。仅发送到 appInsights，不能发送到 Aria。
 - **teamCreate** - 用户选择创建新团队的选项。
 - **teamEdit** - 用户编辑他们拥有或管理的团队的某些方面。
 - **teamNav** - 查看 Teams 的菜单选项。
 - **teamsDeviceCallResumed** - 用户使用蓝牙连接外设（移动电话接口）重新激活保持的通话。
 - **teamSelectedClicked** - 当用户选择为时间表 **选定团队** 时。
 - **teamShiftPickerClicked** - 当用户添加新的中断项时。 用户保存改变后立即记录事件。
-- **tenantSwitch** - 正在切换的租户。 MTMA（多租户和多帐户）功能成功指标 ，有助于识别和修复问题，并提供流畅的切换体验。
-- **tenantSwitchUnsupportedError** - 租户不支持错误（当用户看到错误时）。 MTMA（多租户和多帐户）功能成功指标，提供帐户或租户切换错误的遥测，因此我们可以主动识别和修复问题，并提供流畅的切换体验。
+- **租户切换** - 在切换租户上。MTMA（多个租户和多个帐户）的功能成功指标，这有助于主动识别并解决问题，提供流畅的切换体验。
+- **tenantSwitchUnsupportedError** - 租户不支持错误（当用户看到错误时）。MTMA（多个租户和多个帐户）的功能成功指标，提供有关帐户或租户切换错误的遥测，以便我们可以主动识别并修复问题，并提供流畅的切换体验。
 - **timeClockClicked** -用户在“我的排班”选项卡上选择“**打卡时钟**”。
 - **timeOffReasonClicked** - 确定是否引用了休假原因。
 - **timesheetAddClicked** - 当用户添加其休息时间注释时。 用户保存改变后立即记录事件。
@@ -1109,8 +1113,7 @@ ms.locfileid: "49909146"
 - **updatePersonalTask** - 确认已成功更新个人任务。
 - **updatePlaybackSpeedVoicemail** - 已更改语音邮件播放速度值。
 - **updateTask** - 确认更新任务操作失败。
-- **updateTaskState** - 确认任务状态已更新。
-操作。
+- **updateTaskState** - 确认任务状态已更新。行动。
 - **升级** - 在“**更多**”菜单中选择“**升级**”按钮。
 - **上载文件** - 用户选择 **从设备上载**。
 - **uploadSelectedFile** - 在这些情况下触发：
@@ -1186,6 +1189,9 @@ ms.locfileid: "49909146"
 - **load_smart_task_list** - 确认成功获取任务列表视图的智能任务列表任务。
 - **rename_personal_plan** - 确认成功重命名个人任务列表。
 - **rename_planner_plan** - 确认成功重命名共享任务列表。
+- **smart_reply_enabled** - 确认当前用户已启用智能答复。
+- **smart_reply_received** - 确认已收到智能答复建议。
+- **smart_reply_banned** - 确认当前用户无法显示智能答复。
 - **update_planner_task_and_nav_to_view** - 确认成功更新共享任务项，以及用户在操作后登陆结果视图所用的时间。
 - **update_personal_task_and_nav_to_view** - 确认成功更新个人任务项，以及在 - **updatePlannerTask** 后用户登陆结果视图所用的时间 - 确认用户已成功更新共享任务列表中的任务。
 

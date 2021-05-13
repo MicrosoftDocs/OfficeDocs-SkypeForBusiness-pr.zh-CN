@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 77ebc7abc73163bfdc9804d22efa12ade510d925
-ms.sourcegitcommit: 234c928b9ac127716e3d5a92ee2bcdda1a415a38
+ms.openlocfilehash: 543060371a42c3b0c514828779be14676fda8a25
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "51959479"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469614"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -36,7 +36,7 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 - 团队中的一组人员希望有一个专用空间来展开协作，而不必创建单独的团队。
 - 团队中的一部分人员希望使用私人频道来讨论敏感信息，如预算、资源、战略定位等。
 
-锁定图标表示私人频道。 只有私人频道的成员才能查看和参与他们添加到的私人频道。
+锁定图标表示私人频道。只有私人频道的成员才能查看和参与他们添加到的私人频道。
 
 创建私人频道后，它将链接到父团队，并且无法移动到其他团队。 此外，不能将私人频道转换为标准频道，反之亦然。
 
@@ -120,6 +120,8 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 从现有团队创建团队时，不会复制现有团队中任何专用频道。
 
 目前错过的活动电子邮件中不包含来自专用频道的通知。
+
+私人频道中的消息不支持保留策略。
 
 ## <a name="related-topics"></a>相关主题
 

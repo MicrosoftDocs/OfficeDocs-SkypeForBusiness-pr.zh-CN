@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697627"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328504"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -131,7 +131,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 |功能     | 最大限制 |
 |------------|---------------|
-|会议中的人数（可聊天和通话）  | 300. **"仅查看"** 允许最多 10，000 名仅听取参与者加入会议，组织者可拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC 高、DoD）的许可证。 了解关于[仅供查看体验](view-only-meeting-experience.md)的详细信息。|
+|会议中的人数（可聊天和通话）  | 1000，包括 GCC，但还不包括 GCCH 或 DoD。 “**仅供查看**”允许最多 20，000 名仅收听的参与者加入组织者拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC High 和 DoD）许可证。 了解关于[仅供查看体验](view-only-meeting-experience.md)的详细信息。|
 |通过视频或音频通话聊天的人员数 | 20 |
 |PowerPoint 文件的最大大小 | 2GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
@@ -139,7 +139,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 ### <a name="meeting-expiration"></a>会议过期时间
 
 > [!NOTE]
-> 会议 URL 永远不会停止工作。 到期日期仅与任何 PSTN 拨入号码和/或基础会议策略和设置相关。
+> 会议 URL 永远不会停止工作。过期仅涉及任何 PSTN 拨入号码和/或基础会议策略和设置。
 
 |会议类型  |会议将在此时间后过期  |每次发起或更新会议时，过期时间都延长此时间  |
 |---------|---------|---------|
