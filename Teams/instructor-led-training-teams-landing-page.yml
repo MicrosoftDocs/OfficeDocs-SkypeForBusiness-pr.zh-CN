@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: 讲师引导式 Microsoft Teams 培训
-summary: Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专为帮助你使用 Teams 实现起步和发展。 无论你是业务决策制定者、管理员、IT 专业人员还是最终用户，你都会找到恰如你所需的课程。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 若要自己查看我们的培训课程，请访问我们按需的最终用户培训。 单击下面的会话进行注册。
+title: 针对用户的最终用户Microsoft Teams
+summary: Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专为帮助你使用 Teams 实现起步和发展。 无论你是业务决策制定者、管理员、IT 专业人员还是最终用户，你都会找到恰如你所需的课程。 加入我们，了解Microsoft Teams，解答你的问题，并与我们的现场教师互动。 若要自行查看我们的培训课程，请访问我们的按需最终用户培训。 单击下面的会话进行注册。
 brand: teams
 metadata:
-  title: 讲师引导式 Microsoft Teams 培训
-  description: 了解如何注册免费的现场讲师引导式培训课程，了解 Microsoft Teams 的所有相关信息。
+  title: 针对用户的最终用户Microsoft Teams
+  description: Microsoft 很高兴提供免费、实时的虚拟培训课程，旨在帮助你使用Teams。 无论你是业务决策制定者、管理员、IT 专业人员还是最终用户，你都会找到恰如你所需的课程。 加入我们，了解Microsoft Teams，解答你的问题，并与我们的现场教师互动。 单击下面的会话进行注册，并确保在下面查看更多课程。
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: serdars
@@ -16,7 +16,7 @@ highlightedContent:
       url: 'https://aka.ms/SayhelloTeams'
     - title: 按需最终用户培训
       itemType: video
-      url: 'https://aka.ms/TeamsOnDemand'
+      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
     - title: Microsoft 365 采用工具
       itemType: deploy
       url: 'https://adoption.microsoft.com'
@@ -42,7 +42,7 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
       summary: 了解确定为项目和工作组创建工作区的最佳方法的方法。 （访问群体：每个人）
       url: 'https://aka.ms/CollaborateInTeams'
-    - title: 在 Teams 中利用专业技巧
+    - title: 在应用内使用专业Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 了解 Teams 可如何有助于组织工作日，并更轻松地与同事保持联系。 （访问群体：每个人）
       url: 'https://aka.ms/TeamsProTips'
@@ -58,3 +58,13 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: 计划和实施成功升级到 Teams。 （访问群体：IT 专业人员、采用更改管理者）
       url: ./upgrade-workshops-landing-page.yml
+additionalContent:
+  sections:
+    - title: 课程
+      items:
+        - title: Teamwork 专家认证
+          summary: 协作是当今工作的重要技能。 了解企业内部强大的Microsoft Teams如何保持连接并更有效地与团队一起工作
+          url: /learn/paths/teamwork-specialist
+        - title: 服务采用专家认证
+          summary: Microsoft 服务采用专家认证课程的特色Teams。 了解如何在组织中推动Microsoft 服务采用
+          url: /learn/paths/m365-service-adoption
