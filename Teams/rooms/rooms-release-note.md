@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读有关更新的Microsoft Teams 会议室说明，其中列出了 Microsoft Teams 会议室。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 609f477ef91c75cae47e6bbfd13b59cb804211c8
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: e9911061cd3b461c014a184a0ffb1df4d0f49e02
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995290"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469544"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -29,6 +29,7 @@ ms.locfileid: "51995290"
 
 |发布 |发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
@@ -73,6 +74,14 @@ ms.locfileid: "51995290"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 会议室功能简介和问题解决
 
+### <a name="48310-05122021"></a>2021/05/12 (4.8.31.0) 
+
+此更新中引入：
+- Windows 10 20H2 支持 
+
+> [!NOTE]
+> 包含"KYSKLi") Teams 会议室的 HP Elite Slice and Crestron UC-Engine (BIOS 版本日期存在兼容性问题，并且系统 OEM 将在近期提供更新的驱动程序。 Windows 10 20H2 不向这些设备提供。 有关版本支持Windows，请参阅版本[Windows 10支持](./rooms-lifecycle-support.md#windows-10-release-support)。
+
 ### <a name="48250-04222021"></a>2021/04/22 (4.8.25.0) 
 
 此更新中引入：
@@ -80,7 +89,6 @@ ms.locfileid: "51995290"
 
 > [!NOTE]
 > GCCH 客户可以从手动更新设备下载Microsoft Teams 会议室[包](manual-update.md)
-
 
 ### <a name="48190-04062021"></a>4.8.19.0 (2021/04/06) 
 

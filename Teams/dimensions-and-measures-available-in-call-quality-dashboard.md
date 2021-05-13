@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关呼叫质量仪表板和适用于 Microsoft Teams Online 的 CQD (CQD) 和Skype for Business的详细信息。
-ms.openlocfilehash: 63a9bba74b1c072a9c61885db03fa85357e034e9
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 981c5811f00d2e9005bd1387a7b58d23431af848
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264942"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469734"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>呼叫质量仪表板和 CQD (中的维度和) 
 
@@ -416,12 +416,12 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Second User ObjectId|String|第二终结点用户的 Active Directory 对象 ID。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 | |
 | 第一个 MAC 地址|String|MAC 中的 (访问控制) 第一终结点的网络设备的地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| |
 | 第二个 MAC 地址|String|MAC 中的 (访问控制) 第二终结点的网络设备的地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| |
-| First Sip Uri|String|会话启动协议 (SIP) 第一终结点用户的 URI。 仅针对终结点Skype for Business填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
-| Second Sip Uri|String|第一终结点用户的 SIP URI。 仅针对终结点Skype for Business填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
-| First 电话 Number|String|第一终结点用户的电话号码。 仅为 PSTN 终结点填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
-| Second 电话 Number|String|第二终结点用户的电话号码。 仅为 PSTN 终结点填充。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
-| First UPN|String|用户主体名称 (第) 终结点用户的 UPN 名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
-| Second UPN|String|用户主体名称 (第) 终结点用户的 UPN 名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| <br/>&bull; 并非所有 UserType 都有 UPN;包括 Second UserType 或 Second User ObjectId 维度，了解有关这些终结点的更多信息 |
+| First Sip Uri|String|会话启动协议 (SIP) 第一终结点用户的 URI。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| &bull;仅针对终结点Skype for Business填充。 <br/>&bull; 用户无权查看 EUII。 |
+| Second Sip Uri|String|第一终结点用户的 SIP URI。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| &bull;仅针对终结点Skype for Business填充。<br/>&bull; 用户无权查看 EUII。 |
+| First 电话 Number|String|第一终结点用户的电话号码。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 无论 EUII 查看权限如何，最后四位数的 PSTN 号码始终在 CQD 中模糊处理。<br/> **示例值** ：+1425555****| &bull; 仅为 PSTN 终结点填充。 <br/>&bull; 用户无权查看 EUII。 |
+| Second 电话 Number|String|第二终结点用户的电话号码。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 无论 EUII 查看权限如何，最后四位数的 PSTN 号码始终在 CQD 中模糊处理。<br/> **示例值** ：+1425555**** | &bull; 仅为 PSTN 终结点填充。<br/>&bull; 用户无权查看 EUII。 |
+| First UPN|String|用户主体名称 (第) 终结点用户的 UPN 名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| &bull; 并非所有 UserType 都有 UPN;包括第二个 UserType 或 Second User ObjectId 维度，以了解有关这些终结点的更多信息。 |
+| Second UPN|String|用户主体名称 (第) 终结点用户的 UPN 名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| &bull; 并非所有 UserType 都有 UPN;包括第二个 UserType 或 Second User ObjectId 维度，以了解有关这些终结点的更多信息。 |
 | 第一个反馈文本|String|详细反馈文本（如果有）由第一终结点的用户在调用结束时提供。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 | |
 | Second Feedback Text|String| 逐字反馈文本（如果有）由第二终结点用户在调用结束时提供。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
 | 第一个客户端终结点名称|String|第一终结点计算机名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|

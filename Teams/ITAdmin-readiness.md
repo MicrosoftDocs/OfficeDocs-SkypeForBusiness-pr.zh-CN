@@ -19,21 +19,29 @@ ms.custom:
 description: 为管理员PowerPoint计划、部署和运行资源的培训视频、幻灯片、教程Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5015317fb2aff22cdc53fb30f62e6d4ea8c2237
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: c4d75ce28d6c9e23c9fdf0c24ee284a9ba0a4902
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617795"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469564"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>适用于管理员的管理员培训Microsoft Teams
 
 使用培训资源来指导自己Teams学习、指导他人或开展研讨会。 请经常返回此处查看新内容。
 
-|               |               |               |               |
+|       图标        | 说明               |    图标           |说明               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![一个描绘手和向上箭头的图标](/office/media/icons/get-started-teams.png) | [通过几个团队和频道快速入门](./get-started-with-teams-quick-start.md) | ![一个描述两个用户的图标](/office/media/icons/users-people.png) | [为用户获取培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![一个描述勾号的图标](/office/media/icons/success-teams.png) | [在 YouTube 上的"云中的咖啡"频道中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![任务剪贴板符号](/office/media/icons/task-checklist-planning-teams.png) | [Teams指导性对话：了解有关热门应用场景的最佳实践Teams指南](./chalk-talks-landing-page.yml) |
+| [从此处开始推出](./get-started-with-teams-quick-start.md) | [按Teams查看功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
+| [在 YouTube 上的"云中的咖啡"频道中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams指导性对话：了解有关热门应用场景的最佳实践Teams指南](./chalk-talks-landing-page.yml) |
+
+<h2>关键培训产品/服务与课程</h2>
+
+|   图标            | 说明              |  图标             |    说明           |
+| :------------ | :------------ | :------------ | :------------ |
+| [使用 Microsoft Teams 支持远程工作者](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams IT 的必备功能](https://aka.ms/MicrosoftTeamsforIT) | [为 IT 团队协作](/learn/paths/m365-manage-team-collaboration) | [服务采用专家认证](/learn/paths/m365-service-adoption) |
+| [Microsoft 365 中的团队合作简介](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 认证：团队合作管理员协会](/learning/m365-teamwork-administrator.aspx) |
+
 
 <h2>技术培训</h2>
 
@@ -77,7 +85,7 @@ ms.locfileid: "51617795"
 | 标识、访问管理&威胁防护Teams                   | 了解如何使用 Microsoft 管理中心和 PowerShell 配置访问和标识策略，以及如何Office 365高级威胁防护Teams                                                            | [Teams安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
 | 适用于数据的数据丢失防护 (DLP) 策略Microsoft Teams                     | 了解如何将 Microsoft Teams添加到现有 DLP 策略，以及如何创建新策略（无论是基于模板还是完全根据组织的数据保护需求自定义）。                        | [TeamsDLP 指南](https://aka.ms/teamsdlpguide)         |
 | 管理Teams                                                | 使用 Microsoft 365 安全、Microsoft 365 合规性和 Microsoft Teams 管理中心以及 Windows PowerShell 来管理和配置 Office 365 组织的 Microsoft Teams 策略和设置。 | [管理 Teams 指南中的符合性](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Teams顾问：在云中部署聊天、团队、频道Microsoft Teams | 了解如何利用Teams评估环境，并构建用于部署聊天、团队、频道和应用的计划。                                                                                         |  [Teams顾问指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Teams顾问：在云中部署聊天、团队、频道Microsoft Teams | 了解如何使用 Teams 顾问来评估环境，并生成用于部署聊天、团队、频道和应用的计划。                                                                                         |  [Teams顾问指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | 使用 PowerShell Teams动态组简化管理        | 将Office 365组从静态成员身份转换为动态组，Windows PowerShell向所有成员分配新的应用权限策略。                                                                         |  [简化Teams管理指南](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | 在 Teams 管理中心管理Microsoft Teams和来宾访问         | 了解如何为组织配置Microsoft Teams和来宾访问权限。                                                                                                                              | [管理Teams和来宾访问指南](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | 配置Teams 电话系统：自动助理 &呼叫队列                   | 逐步完成创建和部署呼叫队列的过程，自动助理管理中心Microsoft Teams呼叫Microsoft Teams过程。                                                          |  [配置Teams手机系统指南](https://aka.ms/TeamsPhoneInteractiveGuide)             |
@@ -100,7 +108,3 @@ ms.locfileid: "51617795"
 - [教程：Teams 中的音频会议](tutorial-audio-conferencing.yml)
 - [教程：了解 Teams 中的通话功能](tutorial-calling-in-teams.yml)
 
-<h2>课程</h2>
-
-- [使用团队协作Microsoft Teams](/learn/paths/m365-manage-team-collaboration)
-- [Microsoft 服务采用专家](/learn/paths/m365-service-adoption/)

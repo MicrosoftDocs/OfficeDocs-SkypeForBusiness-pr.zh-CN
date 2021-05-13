@@ -1,10 +1,10 @@
 ---
 title: 在对 Microsoft Teams 进行故障排除时使用日志文件
 ms.reviewer: tejeshs
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
@@ -13,26 +13,29 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
+description: 了解调试、媒体和桌面日志Microsoft Teams、可在何处找到它们，以及它们如何帮助进行监视和故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 58460390d9562d77ed6a4e3dfcbb3948cbe2749e
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264872"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337739"
 ---
-<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
-=================================================
+# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用日志文件监视和排查Microsoft Teams
 
-有三种类型的日志文件由客户端自动生成，可利用它们来帮助排查Microsoft Teams：
+有三种类型的日志文件由客户端自动生成，可利用它们来帮助监视和排查Teams：
 
--   调试日志
+-   [调试日志](#debug-logs)
 
--   媒体日志
+-   [媒体日志](#media-logs)
 
--   桌面日志
+-   [桌面日志](#desktop-logs)
+
+本文介绍三个日志及其使用方式。 
+
+有关排查特定问题的信息，请参阅：Teams[故障排除。](/MicrosoftTeams/troubleshoot/teams) 若要了解如何联系支持人员，请参阅 [获取支持](/microsoft-365/business-video/get-help-support)。
 
 通过 Microsoft 支持创建支持请求时，支持工程师需要调试日志。 在创建支持请求之前，如果已处理调试日志，Microsoft 可以快速开始排查问题。 **只有** **Microsoft** 请求时，才需要媒体或桌面日志。
 
@@ -53,8 +56,7 @@ ms.locfileid: "52264872"
 
 有关支持的操作系统和浏览器的完整列表，请参阅[获取 Microsoft Teams 客户端](get-clients.md)。
 
-<a name="debug-logs"></a>调试日志
----------------------------
+## <a name="debug-logs"></a>调试日志
 
 这些是最常见的日志，所有 Microsoft 支持案例都需要这些日志。 调试日志由 Windows Mac 桌面客户端以及基于浏览器的客户端生成。 日志基于文本，从下而上读取。 可以使用任何基于文本的编辑器读取这些日志，并且登录到客户端时会创建新日志。
 
@@ -90,8 +92,7 @@ ms.locfileid: "52264872"
 
 -   浏览器：系统将提示你将调试日志保存到默认保存位置
 
-<a name="media-logs"></a>媒体日志
----------------------------
+## <a name="media-logs"></a>媒体日志
 
 媒体日志包含有关会议中音频、视频和屏幕共享的Teams数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
 
@@ -119,8 +120,7 @@ ms.locfileid: "52264872"
 |Debug-0-s2790420889.blog    | 包含与媒体代理有关的信息，包括呈现质量。          |
 |tscalling-0-2061129496.blog   |在 ts-calling API 中记录事件。       |
 
-<a name="desktop-logs"></a>桌面日志
----------------------
+## <a name="desktop-logs"></a>桌面日志
 
 桌面日志也称为启动程序日志，包含桌面客户端与浏览器之间发生的日志数据。 与媒体日志一样，仅当 Microsoft 要求时，才需要这些日志。 日志基于文本，可以使用任何基于文本的编辑器以自上而下的格式读取。
 
@@ -143,8 +143,7 @@ Linux：
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
 
-<a name="browser-trace"></a>浏览器跟踪
----------------------------
+## <a name="browser-trace"></a>浏览器跟踪
 
 对于某些类别的错误，Microsoft 支持可能会要求你收集浏览器跟踪。 此信息提供有关发生错误时客户端Teams状态的重要详细信息。
 

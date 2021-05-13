@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何使用直接路由电话系统绕过媒体，从而缩短媒体流量的路径并提高性能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9b6624a81994c1d6797ed996fbcc233fe75f8907
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 4978c7ce2a69f23164a3869dd69368b3aaad2c4e
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308351"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469624"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -296,7 +296,7 @@ UDP/SRTP | 客户端 | SBC | 3478-3481 和 49152 – 53247| 在 SBC 上定义 |
 | 流量 | 从 | 到 | 源端口 | 目标端口|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | 传输中继 | SBC | 50 000 -59 999    | 在 SBC 上定义 |
-| UDP/SRTP | SBC | 传输中继 | 在 SBC 上定义 | 50 000 – 59 999, 3478, 3479     |
+| UDP/SRTP | SBC | 传输中继 | 在 SBC 上定义 | 50 000 – 59 999, 3478-3481     |
 
 
 > [!NOTE]
@@ -304,11 +304,11 @@ UDP/SRTP | 传输中继 | SBC | 50 000 -59 999    | 在 SBC 上定义 |
 > 
 > - v4，只能使用端口范围 50 000 到 59 999
 > 
-> - v6，适用于端口 3478、3479
+> - v6，适用于端口 3478-3481
 
 目前，媒体绕过仅支持 v4 版本的传输中继。 我们将在将来引入对 v6 的支持。 
 
-需要打开端口 3478 和 3479 进行转换。 当 Microsoft 引入了对具有媒体旁路的 v6 传输中继的支持时，不需要重新配置网络设备或 SDC。 
+需要打开端口 3478-3481 进行转换。 当 Microsoft 引入了对具有媒体旁路的 v6 传输中继的支持时，不需要重新配置网络设备或 SDC。 
 
 ### <a name="requirements-for-using-media-processors"></a>使用媒体处理器的要求
 
@@ -333,8 +333,8 @@ UDP/SRTP | 传输中继 | SBC | 50 000 -59 999    | 在 SBC 上定义 |
 
 | 流量 | 从 | 到 | 源端口 | 目标端口|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | 媒体处理器 | SBC | 3478、3479 和 49 152 – 53 247    | 在 SBC 上定义 |
-| UDP/SRTP | SBC | 媒体处理器 | 在 SBC 上定义 | 3478、3479 和 49 152 – 53 247     |
+UDP/SRTP | 媒体处理器 | SBC | 3478-3481 和 49 152 – 53 247    | 在 SBC 上定义 |
+| UDP/SRTP | SBC | 媒体处理器 | 在 SBC 上定义 | 3478-3481 和 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>为媒体旁路和非媒体旁路配置单独的中继  
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何开发和执行持续维护和操作，以确保Microsoft Teams 会议室系统可供用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: deb538c8b249faddf16096f052bca4020da6f6c0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b95e1191201e3b5a8f234cc47c1a886cb7f0cf9a
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237978"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469594"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 会议室
 
@@ -28,7 +28,7 @@ ms.locfileid: "52237978"
 
 使用Microsoft Teams管理中心，可以：
 
-- 执行设备管理，例如重新启动或阻止设备，以及下载设备日志
+- 执行设备管理，例如重新启动设备和下载设备日志
 - 应用Teams设置
 - 检查会议室Microsoft Teams及其外围设备（包括相机、显示器、麦克风等）的运行状况
 - 查看当前和过去的会议活动 (，例如有关呼叫质量、网络运行状况和连接的详细信息，以及会议参与者) 
@@ -101,30 +101,16 @@ ms.locfileid: "52237978"
 > [!CAUTION]
 > 重启时使用的设备在重启过程中将不可用。 他们将与进行中的会议断开连接，并且无法加入新会议。
 
-### <a name="remove-or-block-a-device"></a>删除或阻止设备
+### <a name="remove-device"></a>删除设备
 
-删除 **设备** 时，设备将从组织中删除，不再显示在管理中心内Teams 会议室设备Teams列表中。 
+删除设备时，设备将从组织中删除，不再显示在管理中心内Teams 会议室设备Teams列表中。
 
-阻止 **设备** 时，Teams不再与设备通信。 即使阻止的设备包含在一组正在批量编辑的设备中，也不会发送命令。 它仍然列在状态为"已阻止"Teams 会议室设备 **列表中**。
-
-无论设备被阻止还是被删除，如果仍使用有效的用户名和密码配置设备，如果该设备连接到 Teams 会议室 设备列表，它将自动重新添加到 Microsoft 365。
+如果删除了某个设备，但该设备仍配置了有效的用户名和密码，则如果该设备再次连接到 Teams 会议室 设备列表，该设备Microsoft 365列表中。
 
 若要删除一个或多个设备，请执行下列操作：
 
 1. 转到 **"**  >  **设备Teams 会议室** 并选择要删除的设备。
 1. 选择“**删除**”。
-
-若要阻止设备，请执行下列操作：
-
-1. 转到 **"Teams 会议室"，**  >  然后选择要阻止的设备的名称。
-1. 在设备详细信息页上 **，选择页面** 右上角的"操作"。
-1. 选择"**阻止"。**
-
-若要取消阻止设备，请执行下列操作：
-
-1. 转到 **"Teams 会议室"，**  >  然后选择要阻止的设备的名称。
-1. 在设备详细信息页上 **，选择页面** 右上角的"操作"。
-1. 选择 **"取消阻止"。**
 
 ## <a name="download-device-logs"></a>下载设备日志
 

@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接路由的本地媒体优化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a85ed89eef42abca78cfdec16a9eee398ce118c
-ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
+ms.openlocfilehash: aab38cb7f844764faac0e9c19bc03110adac9c10
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999814"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469664"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>直接路由的本地媒体优化
 
@@ -334,5 +334,4 @@ Contoso 根据业务要求，通过直接路由的本地媒体优化实现了两
 | Teams客户端公共 IP 与客户信任IP 列表匹配时Teams标识为内部客户端。 | 本地媒体优化要求Teams子网与租户配置的网络子网[匹配](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
 | 当客户端被标识为内部时，Teams升级会导致丢弃的调用。| 在直接路由 SBC 上禁用本地媒体优化。|
 | 从 1 到 1 的内部客户之间的呼叫升级为多部分呼叫与外部客户/资源之间的呼叫，导致通话中断 | 正在处理修补程序。 或者，在直接路由 SBC 上禁用本地媒体优化。|
-
-
+| Teams将呼叫置于保持状态。 音乐 PSTN 端播放，本地媒体优化正常工作。 用户Teams恢复呼叫。 对 PSTN 的呼叫继续，但本地媒体优化未正常工作，并且呼叫通过 Central (代理) SBC | 当用户暂停呼叫以启动保持音乐 (MoH) 时，呼叫控制器将呼叫从 1：1 升级到多部分调用，以调用媒体控制器和媒体处理器 (作为 AVMCU 混音器) ，MoH 通过该呼叫到达已暂停的用户。 在呼叫恢复后，从不会按设计将呼叫升级为 1：1 调用。 在直接路由 SBC 上禁用本地媒体优化。|

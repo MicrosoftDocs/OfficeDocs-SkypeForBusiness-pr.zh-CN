@@ -1,5 +1,5 @@
 ---
-title: 在应用中自定义 Microsoft Teams
+title: 自定义应用中Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
-ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
+ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52059176"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337799"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 

@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解功能、可用性以及如何为业务计划和Microsoft 电话系统。 '
-ms.openlocfilehash: 926f3cd1b5ec6619c6d8146ad2ede82a7479c3d7
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 877c7d49710821632477803cbc36c8009411cd3a
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697717"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469724"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>电话系统的功能
 
@@ -46,14 +46,14 @@ ms.locfileid: "51697717"
 |||
 |:-----|:-----|
 |**电话系统功能** <br/> |**说明** <br/> |
-|[云自动助理](what-are-phone-system-auto-attendants.md) <br/> |允许您创建一个菜单系统，使外部和内部呼叫者能够定位和拨打或转接组织中公司用户或部门的呼叫。  <br/> |
-|[云呼叫队列](create-a-phone-system-call-queue.md) <br/> |允许你配置如何为组织管理呼叫队列：例如，设置问候语和保持音乐，搜索下一个可用的呼叫代理来处理呼叫，等等。  <br/> |
+|[云自动助理](what-are-phone-system-auto-attendants.md) <br/> |允许您创建一个菜单系统，使外部和内部呼叫者能够定位和拨打或转接组织中公司用户或部门的呼叫。  <br/> 请注意， *用户无需* 启用语音来接收来自自动助理的呼叫。 |
+|[云呼叫队列](create-a-phone-system-call-queue.md) <br> |允许你配置如何为组织管理呼叫队列：例如，设置问候语和保持音乐，搜索下一个可用的呼叫代理来处理呼叫，等等。  <br/> 请注意， *用户需要* 启用语音来接收来自呼叫队列的呼叫。|
 |保留音乐 | 当来自公共电话交换网或 PSTN 呼叫的外部呼叫处于保留状态时 (服务) 默认音乐。 此功能适用于一对一 PSTN 到 Teams呼叫以及呼叫队列的呼叫。 此功能与其他平台提供保留通知奇偶校验。 此功能由管理员配置，但目前 [仅通过 PowerShell 进行配置](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 PSTN 呼叫的咨询转移也不支持保留音乐。|
 |呼叫接听/拨打（按姓名和号码）  <br/> |允许用户通过触摸应答入站呼叫，并拨打完整电话号码或单击客户端中的姓名进行出站呼叫。  <br/> |
 |[呼叫转发选项和同时拨打](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |允许用户设置转发规则，以便呼叫可以随他们随时随地进行，或者呼叫可以转发给同事或语音邮件。  <br/> |
 |[组呼叫取件和转发到组](call-sharing-and-group-call-pickup.md) <br/> | 允许用户与同事共享传入呼叫，以便同事可以应答在用户不可用时发生的呼叫。 与其他形式的呼叫共享（例如呼叫 (或同时拨打呼叫）相比，对收件人的干扰更少) 因为用户可以配置接收传入共享呼叫的通知方式。 |
 |[转接呼叫和咨询转接](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |允许用户将呼叫转接给其他人。 或者，如果他们需要离开办公室，但想要继续对话，他们可以将呼叫从电脑或 IP 电话转接到移动电话。  <br/> |
-|[转接到语音邮件中间呼叫](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 允许用户在通话期间转接到语音邮件。 |
+|[转接到语音邮件中间呼叫*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 允许用户在通话期间转接到语音邮件。 |
 |[呼叫寄存和检索](call-park-and-retrieve.md)  <br/> | 允许用户在云中的 Teams服务中保持呼叫。 当呼叫被停时，服务会生成一个唯一的代码用于调用检索。 然后，将呼叫停放在一起的用户或其他人可以使用该代码和支持的应用或设备来检索呼叫。 <br/> |
 |通过搜索呼叫电话号码  <br/> | 允许用户通过使用 /call 命令并指定名称或号码从搜索框进行呼叫。 <br/> |
 |[来电显示](how-can-caller-id-be-used-in-your-organization.md)  <br/> |来自公司内部的呼叫显示详细的来电显示，该 ID 从公司目录拉取信息，显示图片 ID 和职务，而不是仅显示电话号码。 对于来自外部电话号码的呼叫，将显示电话服务提供商提供的呼叫者 ID。 如果外部电话号码是公司目录中的辅助号码，则会显示公司目录中的信息。  <br/> |
@@ -62,8 +62,8 @@ ms.locfileid: "51697717"
 |[集成的拨号盘](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | 允许用户在搜索栏和拨号盘中的任意位置按姓名或号码进行拨号，从而加快进行出站呼叫的过程。 <br/> |
 |联合呼叫  <br/> |允许用户安全地与联合租户中的用户进行连接、通信和协作。  <br/> |
 |[拨打和接收视频呼叫](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 如果为用户帐户启用了视频呼叫，用户可以与联系人进行面对面视频通话。 他们只需要摄像机、计算机扬声器和麦克风。 如果用户的计算机没有内置音频设备，用户也可使用耳机。<br/> |
-|[云语音邮件](set-up-phone-system-voicemail.md) <br/> | 当用户收到语音邮件时，语音邮件作为电子邮件Exchange以附件形式发送到其邮箱。 用户可以在经过认证的桌面电话上以及所有客户端或Teams Skype for Business收听消息。 自 2017 年 3 月起已添加对语音邮件转录的支持，默认情况下，所有组织和用户都已启用此功能。   <br/> |
-|[云语音邮件用户设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 允许用户配置语音邮件问候语、呼叫应答规则和问候语语言（包括外出问候语）的客户端设置。   |
+|[云语音邮件*](set-up-phone-system-voicemail.md) <br/> | 当用户收到语音邮件时，语音邮件作为电子邮件Exchange以附件形式发送到其邮箱。 用户可以在经过认证的桌面电话上以及所有客户端或Teams Skype for Business收听消息。 自 2017 年 3 月起已添加对语音邮件转录的支持，默认情况下，所有组织和用户都已启用此功能。   <br/> |
+|[云语音邮件用户设置*](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 允许用户配置语音邮件问候语、呼叫应答规则和问候语语言（包括外出问候语）的客户端设置。   |
 |[辅助响铃](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | 具有多个扬声器设备连接到其电脑的用户可以选择除了默认扬声器之外，将辅助设备设置为响铃。 例如，使用耳机连接到电脑和桌面扬声器的用户可以选择在呼叫进入时同时让耳机和桌面扬声器同时响铃，以便他们不会错过呼叫。  |
 |[独特的铃声警报 (Teams](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)仅) <br/> |允许用户为普通呼叫、已转发呼叫和委派呼叫选择单独的铃声，以便区分呼叫类型。  <br/> |
 |[共享线路外观](shared-line-appearance.md) <br/> | 允许用户共享其电话线路，以便其他用户可以代表他们拨打和接听呼叫。|
@@ -71,6 +71,9 @@ ms.locfileid: "51697717"
 |[呼叫阻止](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 允许用户将 (PSTN) 添加到阻止列表中，以便阻止来自该号码的下一个呼叫拨打用户。|
 |[公用区域电话](set-up-common-area-phones.md) <br/> | 公用区域电话通常放置在大厅或会议室等区域中，供多人使用。 常用区域电话设置为设备而不是用户，可以自动登录到网络。|
 |[仅支持 (](direct-routing-plan-media-bypass.md)直接Teams的媒体旁路)  <br/> | 为了提高性能，媒体保留在会话边界控制器 (SBC) 与客户端之间，而不是通过 Microsoft 电话 系统发送。 |
+
+
+\* 用户无需启用语音，就可使用语音邮件功能。
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>高云GCC DoD 云的可用性
 <a name="bkmk_setup"> </a>

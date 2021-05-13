@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何批准使用 Microsoft Teams 中的应用提交 API Teams提交的自定义Microsoft Teams。
-ms.openlocfilehash: 8c12d93a0b4420fd248064c69308e8049dc6326f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e544fdc12e17fc8917a2d3b9ce01dfc5985261de
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116970"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337789"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>发布通过应用提交 API Teams提交的自定义应用
 
@@ -133,24 +133,6 @@ ms.locfileid: "51116970"
 - 当开发人员提交应用并且请求挂起时，只有该开发人员才能向应用提交更新。 其他开发人员只能在应用获得批准后提交更新。
 
 有关使用 Graph API 更新应用的信息，请参阅<a href="/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">此处</a>。
-
-### <a name="update-experience-for-users"></a>用户更新体验
-
-在大多数情况下，发布应用更新后，新版本会自动显示给用户。 但是，需要用户接受才能完成Microsoft Teams清单<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank"></a>的一些更新：
-
-* 已添加或删除机器人
-* 现有机器人的"botId"属性已更改
-* 更改了现有机器人的"isNotificationOnly"属性
-* 机器人的"supportsFiles"属性已更改
-* 已添加或删除消息扩展
-* 添加了一个新连接器
-* 添加了新的静态选项卡
-* 添加了一个新的可配置选项卡
-* "webApplicationInfo"中的属性已更改
-
-![可用的新版本](media/manage-your-custom-apps-update1.png)
-
-![应用的升级选项](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-topics"></a>相关主题
 
