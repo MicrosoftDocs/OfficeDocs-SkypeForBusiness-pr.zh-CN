@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90d5135196de9ecf62085e88053d80299b6e5a58
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9f86d40772eb067a561708c6170ef2354bae521b
+ms.sourcegitcommit: 05411575d07d3eadc79d872d1cf81b36aae25621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097458"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52479069"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
@@ -35,9 +35,7 @@ Teams 中的 Walkie Talkie 应用为团队提供即时 (PTT) 通信，现在可�
 
 ### <a name="deploying-walkie-talkie"></a>部署 Walkie Talkie
 
-目前，未预安装 Walkie Talkie。 若要为组织中用户启用此功能，需要将 Walkie Talkie 添加到从管理中心 [](teams-app-setup-policies.md)分配给用户的应用   [Teams策略](https://admin.teams.microsoft.com/)。
-
-启用后，Walkie Talkie 将在 48 小时内在 Android 应用上可用。
+目前，Walkie Talkie 适用于 Google 移动服务 (GMS) 且未预安装的 Android 设备。 若要为组织中用户启用此功能，需要将 Walkie Talkie 添加到从管理中心 [](teams-app-setup-policies.md)分配给用户的应用   [Teams策略](https://admin.teams.microsoft.com/)。 启用后，Walkie Talkie 将在 48 小时内在 Android 应用上可用。
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>将 Walkie Talkie 添加到应用列表
 
@@ -66,22 +64,24 @@ Teams中的 Walkie Talkie 需要 Internet 连接且低于网络条件才能获�
 如上所述，通过 IP 网络实时媒体的质量受到网络连接质量的很大影响，尤其是以下数量：
 
 - **延迟** - 这是从网络上点 A 到点 B 获取 IP 数据包所花的时间。 此网络传播延迟实质上与两个点之间的物理距离和光速有关，包括两者之间的各种路由器所取的更多开销。 延迟以 RTT 流量的往返 (时间) 。
+- **到达间抖动** - 这是连续数据包之间的延迟的平均变化。
 - **数据包** 丢失 - 这通常定义为给定时间窗口中丢失的数据包的百分比。 数据包丢失直接影响音频质量 -从小型、单个丢失的数据包几乎没有任何影响，到导致音频完全中断的背对背突发丢失。
-- **抖动** - 这是连续数据包之间的延迟的平均变化。
 
-发送或接收音频时，Walkie Talkie 的预期数据使用量约为 20KB/s。 空闲时，Walkie Talkie 的预期数据使用量可忽略不计。
+发送或接收音频时，Walkie Talkie 的预期数据使用量约为 20 Kb/s。 空闲时，Walkie Talkie 的预期数据使用量可忽略不计。
 
 ### <a name="walkie-talkie-devices"></a>Walkie Talkie 设备
 
 一线员工经常需要说话和接听 Walkie Talkie 呼叫，即使他们的电话已锁定。 此体验可以通过具有专用 PTT 按钮的专用设备获得。
 
-- 耳机
-  - Klein Electronics ([有线耳机](https://www.kleinelectronics.com/poc-accessories/mtwt/)) 
-  - [Jabra BlueParrott (无线耳机) ](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-- 粗式手机
-  - Samsung Galaxy XCover Pro
-    - [详细信息](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)。
-    - [设置指南](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)。
+- **耳机**
+  - 无线耳机 
+    - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
+  - 有线耳机 
+    - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
+- **粗式手机**
+  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+    -  手动设置 - 安装Teams后，导航设置 > XCover/Active >高级功能。 打开"使用应用控制 XCover 键"，然后选择"Teams"
+    -  [MDM 设置](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 
 > [!NOTE]
 > 这些设备未经过Teams认证。 已验证它们与 Teams Talkie 一起工作。

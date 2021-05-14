@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解功能、可用性以及如何为业务计划和Microsoft 电话系统。 '
-ms.openlocfilehash: 877c7d49710821632477803cbc36c8009411cd3a
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: eba13d07c41af8b449d0164542c4d241b1b54f66
+ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469724"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52486356"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>电话系统的功能
 
@@ -52,7 +52,7 @@ ms.locfileid: "52469724"
 |呼叫接听/拨打（按姓名和号码）  <br/> |允许用户通过触摸应答入站呼叫，并拨打完整电话号码或单击客户端中的姓名进行出站呼叫。  <br/> |
 |[呼叫转发选项和同时拨打](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |允许用户设置转发规则，以便呼叫可以随他们随时随地进行，或者呼叫可以转发给同事或语音邮件。  <br/> |
 |[组呼叫取件和转发到组](call-sharing-and-group-call-pickup.md) <br/> | 允许用户与同事共享传入呼叫，以便同事可以应答在用户不可用时发生的呼叫。 与其他形式的呼叫共享（例如呼叫 (或同时拨打呼叫）相比，对收件人的干扰更少) 因为用户可以配置接收传入共享呼叫的通知方式。 |
-|[转接呼叫和咨询转接](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |允许用户将呼叫转接给其他人。 或者，如果他们需要离开办公室，但想要继续对话，他们可以将呼叫从电脑或 IP 电话转接到移动电话。  <br/> |
+|[转接呼叫和咨询转接](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |允许用户将呼叫转接给其他人。 或者，如果他们需要离开办公室，但想要继续对话，他们可以将呼叫从电脑或 IP 电话转接到移动电话。  <br/> 请注意， *用户需要* 启用语音功能，以便接收其他用户的转接呼叫。 |
 |[转接到语音邮件中间呼叫*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 允许用户在通话期间转接到语音邮件。 |
 |[呼叫寄存和检索](call-park-and-retrieve.md)  <br/> | 允许用户在云中的 Teams服务中保持呼叫。 当呼叫被停时，服务会生成一个唯一的代码用于调用检索。 然后，将呼叫停放在一起的用户或其他人可以使用该代码和支持的应用或设备来检索呼叫。 <br/> |
 |通过搜索呼叫电话号码  <br/> | 允许用户通过使用 /call 命令并指定名称或号码从搜索框进行呼叫。 <br/> |
