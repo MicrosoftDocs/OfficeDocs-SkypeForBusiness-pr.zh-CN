@@ -447,6 +447,14 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Teams 实时事件使用情况报表
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
+      - name: 日志文件、服务运行状况和支持
+        items:
+          - name: 使用日志文件监视 Teams 和排除 Teams 故障
+            href: log-files.md
+          - name: 验证 Teams 的服务运行状况
+            href: service-health.md
+          - name: 如何查找你的支持 PIN
+            href: support-pin.md
   - name: 聊天、团队和频道
     items:
       - name: 规划部署
@@ -1363,6 +1371,8 @@ items:
             href: teams-custom-app-policies-and-settings.md
           - name: 在 Teams 中自定义应用
             href: customize-apps.md
+          - name: 更新应用体验
+            href: apps-update-experience.md
   - name: 行业和政府指南
     items:
       - name: 概述
