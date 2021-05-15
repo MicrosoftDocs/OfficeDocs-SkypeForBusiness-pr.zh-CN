@@ -19,12 +19,12 @@ ms.custom:
 description: 为管理员PowerPoint计划、部署和运行资源的培训视频、幻灯片、教程Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4d75ce28d6c9e23c9fdf0c24ee284a9ba0a4902
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469564"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498717"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>适用于管理员的管理员培训Microsoft Teams
 
@@ -78,6 +78,14 @@ ms.locfileid: "52469564"
 | 模块 8：Microsoft Teams 会议室 18：14 使用技巧 (18：14) |[视频](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | 一键式加入说明 |  | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
+<h2>TeamsAndroid 设备</h2>
+
+<p>下表包含全面视频培训的链接，以及 Microsoft Teams Android 设备上的 PowerPoint 幻灯片 (（PDF 格式为) ）的链接，其中包括 Teams 显示器、Teams 手机、Teams 会议室 for Android 和 Teams 面板。  
+
+| 模块 | 视频 | PowerPoint幻灯片 (PDF)   |
+| ------------ | -------------------- | -------------------- |
+| 模块 1：Microsoft Teams Android 设备简介  | |[幻灯片](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| 模块 2：规划Microsoft Teams Android 设备|| [幻灯片](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 <h2>交互式指南</h2>
 
 | 标题                                                                       | 摘要                                                                                                                                                                                                               |  指南链接                             |
@@ -107,4 +115,5 @@ ms.locfileid: "52469564"
 - [教程：Teams 中的会议](tutorial-meetings-in-teams.yml)
 - [教程：Teams 中的音频会议](tutorial-audio-conferencing.yml)
 - [教程：了解 Teams 中的通话功能](tutorial-calling-in-teams.yml)
+
 

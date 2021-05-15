@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解每个许可证的附加Microsoft Teams许可证以及获取的功能。
-ms.openlocfilehash: 3925cd7b388ec884990cfb2310e8d53b537e7a64
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff5c9ca199a017406b46061daea99658157318e5
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116910"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491770"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams附加许可证
 
@@ -103,7 +103,7 @@ Microsoft 365 商业标准版 Microsoft 365 商业高级版</td>
 <td>音频会议通信积分</td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 企业版E1/E3<br>Office 365 企业版E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Office 365 F1</td>
+<td>Microsoft 365 企业版E1/E3<br>Office 365 企业版E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1</td>
 <td>Microsoft 365 商务语音<br>国际通话套餐 <br /> (通信) 可选 </td><td>或</td>
 <td>Microsoft 365 商务语音套餐</td><td>或</td>
 <td>音频会议<br> 电话系统<br>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
@@ -150,7 +150,7 @@ Microsoft 365 商业标准版 Microsoft 365 商业高级版</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 企业版E1/E3<br>Office 365 企业版E1/E3<br>Microsoft 365 F3<br>Office 365 F3</td><td>音频会议<br>电话系统<br>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
+<td>Microsoft 365 企业版E1/E3<br>Office 365 企业版E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1<br></td><td>音频会议<br>电话系统<br>国内通话套餐<br>国内和国际呼叫计划 (可选) <br>通信积分</td>
 <td></td>
 </tr>
 <tr class="odd">

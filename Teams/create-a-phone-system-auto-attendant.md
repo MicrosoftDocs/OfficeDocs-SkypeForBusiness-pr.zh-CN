@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为自动助理设置和测试Microsoft Teams。
-ms.openlocfilehash: 9efd30eb91e9760f800dd24935724d2a3cdd97c2
-ms.sourcegitcommit: c56c87e912a4b3729c7c52d8de78fd4d24448a8d
+ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51926048"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498787"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -53,6 +53,12 @@ ms.locfileid: "51926048"
 > - **取消问候** (默认：关闭) - 启用时，标准系统消息"请在听到提示音后留下消息。 完成后，请挂断或按哈希键了解更多选项。" 将被抑制。
 
 若要设置自动助理，请在Teams中心展开 **"语音**"，选择"自动助理"，然后选择"添加 **"。**
+
+## <a name="video-demonstration"></a>视频演示
+
+此视频演示了如何在 Teams 中创建自动助理的基本示例。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 
 ## <a name="general-info"></a>常规信息
 

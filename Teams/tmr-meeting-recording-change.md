@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cad935092b1b3b99209c45bf61b7ee40d285ea6
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469654"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491789"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用OneDrive for Business或SharePoint流进行会议录制
 
@@ -182,7 +182,7 @@ Teams录制文件以OneDrive for Business SharePoint并包含在这些服务的�
 
 在不久的将来，不会弃用作为平台的流。 流中当前提供的视频将一直留在该位置，直到我们开始迁移。 迁移后，这些视频也将迁移到OneDrive for Business SharePoint或视频。 有关详细信息 [，请查看流式](/stream/streamnew/classic-migration) 传输经典迁移。
 
-**如何应用保留标签？**
+**如何将保留标签应用于Microsoft Teams录制？**
 
 请参阅 [如何自动应用保留标签](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)。
 
@@ -190,7 +190,7 @@ Teams录制文件以OneDrive for Business SharePoint并包含在这些服务的�
 
 请参阅[哪个策略优先？。](./assign-policies.md#which-policy-takes-precedence)
 
-**如果用户没有录制内容或OneDrive for Business SharePoint？**
+**如果用户没有存储空间或存储空间，或者存储OneDrive for Business或SharePoint，录制将在哪里？**
 
 录制内容将登陆到临时存储位置，该位置将保存 21 天。 在此期间，组织者必须下载录制内容。 如果未在 21 天内下载，则删除录制内容。
 

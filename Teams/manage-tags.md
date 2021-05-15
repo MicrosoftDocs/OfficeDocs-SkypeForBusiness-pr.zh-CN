@@ -16,18 +16,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在组织内管理标记在 Microsoft Teams。
-ms.openlocfilehash: c63817f5b3ee9c736311982b54dbc9a220564229
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: ab57fe5a0528ad5e33b20929bd224cb33273197e
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030102"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498777"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft Teams 中的标记
 
 ## <a name="overview"></a>概述
 
-使用Microsoft Teams中的标记，用户可以快速轻松地与团队中的一小组人员联系。 可以创建和分配自定义标记，以便根据角色、项目、技能或位置等属性对人员进行分类。 或者，可以在即将推出 [Shifts](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) 应用时，根据人员的计划和班次信息 (标记) 。 将标记添加到一个或多个团队成员后，团队中的任何人都可以在 @mentions 中通过频道帖子使用标记，或者仅与分配了该标记的人开始对话。
+使用Microsoft Teams中的标记，用户可以快速轻松地与团队中的一小组人员联系。 可以创建和分配自定义标记，以便根据角色、项目、技能或位置等属性对人员进行分类。 或者，可以基于人员在 Shifts 应用中的日程安排和班次信息自动将标记 [分配给人员](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts)。 将标记添加到一个或多个团队成员后，团队中的任何人都可以在 @mentions 中通过频道帖子使用标记，或者仅与分配了该标记的人开始对话。
 
 如前所述，该标记有两种类型的Teams。
 
@@ -99,13 +99,13 @@ ms.locfileid: "52030102"
 
 ### <a name="set-up-tagging-by-shift"></a>按 Shift 设置标记
 
+按 shift 标记允许用户实时联系轮班人员。 Teams自动为具有匹配其计划的标记的用户分配，从 Shifts 应用转移组名称，从而启用动态的基于角色的消息传送。 通知仅发送给使用标记开始聊天或频道帖子时轮班的人。 
+
 1. 在Teams，转到[Shifts 应用](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)。
 2. 创建 [班次组](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) ，并基于角色等属性命名。 例如，EngineerOnCall。 班次组名称将是标记的名称。
 3. [通过向团队成员](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea) 分配班次来填写日程安排。 完成后，在 Shifts 应用的右上角，选择"**与团队共享"。**
 4. 等待 15 分钟，让计划的排班填充标记服务。
 5. 在任意位置使用标记，在 Teams。
-
-按 shift 标记可让用户实时联系轮班人员。 通知仅发送给使用标记开始聊天或频道帖子时轮班的人。
 
 ## <a name="related-topics"></a>相关主题
 

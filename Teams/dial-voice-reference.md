@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列拨号和语音识别选项，Teams。
-ms.openlocfilehash: f62a04735d386637489d52956e6a064a2eba1e4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ee79f5024ee15fc1b8f00ecd5026f2eb5a9b4b22
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098438"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491809"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自动助理和呼叫队列拨号和语音识别参考
 
@@ -101,33 +101,9 @@ ms.locfileid: "51098438"
   
 ## <a name="language-support"></a>语言支持
 
-以下语言可用于与传出提示一起使用的文本到语音：
-  
-|-|-|-|
-|:-----|:-----|:-----|
-|阿拉伯语 (EG)  |英语 (NZ)  |韩语 (KO)  |
-|中文 (HK)  |英语 (UK) |挪威语 (NO)  |
-|中文 (TW) |英语 (US) |波兰语 (PL)  |
-|中文 (ZH) |芬兰语 (FI) |葡萄牙语 (BR) |
-|丹麦语 (DA)  |法语 (CA)  |葡萄牙语 (PT) |
-|荷兰语 (NL)   |法语 (FR)  |俄语 (RU) |
-|英语 (AU)  |德语 (DE) |西班牙语 (ES)  |
-|英语 (CA)  |意大利语 (IT) |西班牙语 (MX)|
-|英语 (IN)  |日语 (JP) |瑞典语 (SV)|
+这些支持的语言提供对文本到语音和语音识别 [的语言支持](create-a-phone-system-auto-attendant-languages.md)。
 
-自动助理的语音识别输入以下列语言提供：
-  
-|-|-|
-|:-----|:-----|
-|中文 (ZH)  |法语 (FR)  |
-|英语 (AU)  |德语 (DE)  |
-|英语 (CA)  |意大利语 (IT)  |
-|英语 (IN)  |日语 (JP)  |
-|英语 (UK)  |葡萄牙语 (BR)  |
-|英语 (US)  |西班牙语 (ES)  |
-|法语 (CA)   |西班牙语 (MX)  |
-
-以下语音命令在语音识别支持的 14 种语言中可用：
+以下语音命令可用于语音识别： 
   
 |语音命令| 对应于 |
 |:-----|:-----|
