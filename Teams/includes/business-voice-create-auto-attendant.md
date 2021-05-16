@@ -1,3 +1,9 @@
+#### <a name="video-demonstration"></a>视频演示
+
+此视频演示了如何在 Teams 中创建自动助理的基本示例。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
+
 #### <a name="before-you-begin"></a>开始之前
 
 获取服务号码 (服务号码是自动助理使用的特殊类型电话号码) 你需要自动助理通过直接拨号从组织外部访问这些号码。 这可能包括 [从另一个提供商转移号码](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或 [请求新的服务号码](../getting-service-phone-numbers.md)。
