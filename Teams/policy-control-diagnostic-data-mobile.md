@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469644"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498767"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -385,6 +385,20 @@ ms.locfileid: "52469644"
 - **copyLink** - 将链接复制到频道发布。
 - **contactActivity** - 选择了从联系人卡片查看用户活动的按钮时。
 - **conversation** - 当用户导航到“**聊天**”或“**发布**”选项卡时。
+- **cortanaClose** - 当用户手动关闭 Cortana 画布时。
+- **cortanaEduCategorySelect** - 当用户单击教育提示类别项时。
+- **cortanaEduOpen** - 当教育页面在 Cortana 画布上显示时。
+- **cortanaInvoke** - 当 Cortana 开始收听时。
+- **cortanaKWSSwitchToggle** - 当用户点击 Cortana 设置页面中的 KWS 开关时。
+- **cortanaMicPermissionDialogButtonClick** - 当用户在 Cortana 画布上授予或拒绝麦克风权限时。
+- **cortanaOpen** - 当用户打开 Cortana 画布时。
+- **cortanaOptionsOpen** - 当用户点击 Cortana 画布上的选项按钮时。
+- **cortanaSafetyFirstActions** - 当用户接受安全优先声明时。
+- **cortanaSafetyFirstLaunch** - 当 FRE 完成后用户首次打开 Cortana 时。 
+- **cortanaSettingsOpen** - 当用户通过单击 Cortana 画布上的 Cortana 设置按钮打开 Cortana 设置页面时。 
+- **cortanaStopResponding** - 当用户单击 Cortana 画布上的取消按钮时。
+- **cortanaUserSettingsLaunch** - 当用户在 Teams 设置中打开 Cortana 设置时。
+- **cortanaVoiceSelect** - 当用户在 Cortana 设置页面中选择 Cortana 语音字体时。
 - **createChannel** - 在以下情况下，提供有关成功创建或放弃新频道创建操作的成功数据：
   - 在“**创建频道**”页面上选择了“**完成**”按钮。
   - 在“**创建频道**”页面上选择了“**取消**”按钮。
@@ -655,6 +669,9 @@ ms.locfileid: "52469644"
 - **messageBookmarkMessage** - 连接器卡保存。 将现有遥测与应用特定数据配合使用。 或保存聊天机器人消息。
 - **markAsLastUnread** 连接器卡上下文菜单。
 - **maskCallerId** - 用户启用或禁用呼叫设置来屏蔽呼叫号码。
+- **meetingAttachmentFileClick** - 会议附件项已单击。
+- **meetingAttachmentFileOptions** - 会议附件项选项已单击。
+- **meetingAttachmentSeeMoreClick** - 会议附件“查看更多”按钮已单击。
 - **meetingDetailCalendarList** - 从日历列表中选择“会议详细信息”页，或选择“会议详细信息”页上的“**详细信息**”选项卡。
 - **meetingDetailChatWithParticipants** - 从“会议详细信息”页与参与者聊天。
 - **meetingDetailDeleteMeetingforSelf** - 从“会议详细信息”页中为自己删除会议。
@@ -662,6 +679,10 @@ ms.locfileid: "52469644"
 - **meetingDetailParticipants** - 请参见“会议详细信息”页面中的所有参与者。
 - **meetingDetailScheduledMeeting** - 从计划会议对象 (**…**) 中选择“会议详细信息”页，或选择计划会议的“**详细信息**”选项卡。
 - **meetingDetailSearchParticipants** - 在会议日程中的会议参与者中选择“**搜索**”。
+- **meetingInsightFileClick** - 会议相关文件项已单击。
+- **meetingInsightFileLocatorClick** - 会议相关内容定位符提示按钮已单击。
+- **meetingInsightFileOptions** - 会议相关文件项选项已单击。
+- **meetingInsightSeeMoreClick** - 会议相关内容“查看更多”按钮已单击。
 - **meetingJoinLeave** - 点击了“离开” -> 点击“**加入**”按钮后点击了 **x**。
 - **meetingJoinNow** - 选中了“**现在加入 VOIP**”。
 - **meetingJoinNowWithCallMe** - 用户使用“**呼叫我**”加入会议。
@@ -1172,6 +1193,24 @@ ms.locfileid: "52469644"
 > [!NOTE]
 > 有关场景事件属性的详细信息，请参阅 [与方案事件一起发送的属性](#properties-sent-with-scenario-events)。
 
+- **cortanaError** 监控 Cortana 错误发生。
+- **cortanaView** - 监控 Cortana 画布出现。
+- **cortanaRestart** 监控 Cortana 重启。
+- **cortanaSetNewConversation** 监控 Cortana 设置新对话。
+- **cortanaSpeechRecognization** 监控 Cortana 语音识别延迟。
+- **cortanaStart** 监控 Cortana 后端启动。
+- **cortanaStartListening** 监控 Cortana 开始收听。
+- **cortanaStopListening** 监控 Cortana 停止收听。
+- **cortanaThinking** 监控 Cortana 状态更改为思考（等待服务的响应）。
+- **cortanaTokenRefresh** 监控 Cortana 令牌在前台刷新。 
+- **cortanaWarmingUp** 监控 Cortana 预热开始（Cortana 已打开，但令牌仍在获取）。
+- **cortana_admin_policy_refresh** - 监控 Cortana 管理员策略刷新。
+- **cortana_background_token_refresh** - 监控 Cortana 令牌刷新。
+- **cortana_initialization** - 监控 Cortana 初始化 步骤。
+- **cortana_sdk_events** - 监控 Cortana 启动相关事件。
+- **cortana_skill_action_execution** - 监控 Cortana 操作执行。
+- **cortana_skill_action_delay** - 确认延迟操作开始。
+- **cortana_watchdog** - 监控 Cortana 监视器恢复过程。
 - **create_default_plan_and_nav_to_view** - 确认已成功创建默认共享任务列表，以及用户在操作后登录到结果视图所用的时间。
 - **create_personal_plan_and_nav_to_view** - 确认成功创建个人任务列表，以及用户在操作后登录到结果视图所用的时间。
 - **create_personal_task** - 确认成功创建个人任务项。
@@ -1187,6 +1226,11 @@ ms.locfileid: "52469644"
 - **load_personal_task_list** - 确认成功获取任务列表视图的个人任务列表的任务。
 - **load_shared_task_list** - 确认成功获取任务列表视图的共享任务列表的任务。
 - **load_smart_task_list** - 确认成功获取任务列表视图的智能任务列表任务。
+- **meetingAttachmentRender** - 确认呈现会议附件。
+- **meetingInsightFetch** - 确认获取会议相关内容。
+- **meetingInsightLocatorRender** - 确认呈现会议相关内容定位符提示。
+- **meetingInsightRender** - 确认呈现会议相关内容。
+- **meetingInsightVisible** - 确认会议相关内容可见。
 - **rename_personal_plan** - 确认成功重命名个人任务列表。
 - **rename_planner_plan** - 确认成功重命名共享任务列表。
 - **smart_reply_enabled** - 确认当前用户已启用智能答复。
