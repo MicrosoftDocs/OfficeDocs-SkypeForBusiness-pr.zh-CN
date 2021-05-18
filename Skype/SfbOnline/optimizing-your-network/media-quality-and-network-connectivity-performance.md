@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
-description: 本主题定义 Skype for Business Online 服务的一组网络性能要求，以及如何根据网络连接评估选择使用 Internet 或 ExpressRoute 在网络与 Skype for Business Online 之间连接。 如果决定部署 Azure ExpressRoute 以专用连接到 Microsoft 365 或 Office 365，本文档还提供了有关如何在不同的 Skype for Business Online 部署方案中规划 ExpressRoute 连接的指导。
+description: 本主题定义 Skype for Business Online 服务的一组网络性能要求，以及如何根据网络连接评估选择使用 Internet 或 ExpressRoute 在网络与 Skype for Business Online 之间连接。 如果你决定部署 Azure ExpressRoute 以专用连接到 Microsoft 365 或 Office 365，本文档还提供了有关如何在不同的 Skype for Business Online 部署方案中规划 ExpressRoute 连接的指南。
 ms.openlocfilehash: 0bb750be4d4c21c8fec3cc8dc5d0ab5cf0b4cb6a
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -31,37 +31,37 @@ ms.locfileid: "52240242"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-本主题定义 Skype for Business Online 服务的一组网络性能要求，以及如何根据网络连接评估选择使用 Internet 或 ExpressRoute 在网络与 Skype for Business Online 之间连接。 如果决定部署 Azure ExpressRoute 以专用连接到 Microsoft 365 或 Office 365，本文档还提供了有关如何在不同的 Skype for Business Online 部署方案中规划 ExpressRoute 连接的指导。
+本主题定义 Skype for Business Online 服务的一组网络性能要求，以及如何根据网络连接评估选择使用 Internet 或 ExpressRoute 在网络与 Skype for Business Online 之间连接。 如果你决定部署 Azure ExpressRoute 以专用连接到 Microsoft 365 或 Office 365，本文档还提供了有关如何在不同的 Skype for Business Online 部署方案中规划 ExpressRoute 连接的指南。
   
 IP 上Real-Time媒体 (音频、视频和应用程序共享) 的质量受到端到端网络连接质量的很大影响。 为获得最佳的 Skype for Business Online 媒体质量，确保公司网络与 Skype for Business Online 之间的高质量连接很重要。 实现这一目标的最佳做法是基于网络容量设置内部网络和云连接，以便所有连接都可以承受 Skype for Business Online 的高峰流量。
   
-Azure ExpressRoute 不是 Azure ExpressRoute Microsoft 365 Office 365服务（包括 Skype for Business Online）的要求。 但是，Azure ExpressRoute 是可用的部署选项之一，可帮助确保与 Microsoft 365 或 Office 365 的连接满足 Skype for Business 网络性能要求，并确保最佳的 Skype for Business Online 媒体质量体验。
+Azure ExpressRoute 不是 Microsoft 365 和 Office 365 服务（包括 Skype for Business Online）的要求。 但是，Azure ExpressRoute 是可用的部署选项之一，可帮助确保与 Microsoft 365 或 Office 365 的连接满足 Skype for Business 网络性能要求，并确保最佳的 Skype for Business Online 媒体质量体验。
   
 > [!TIP]
-> 尽管本主题提供了整体网络性能指南，但网络评估的完整指南超出了本文档的范围。 若要查找有助于在全面Skype for Business网络评估中实现网络性能测量的联机合作伙伴列表，请访问合作伙伴解决方案 Skype for Business [。](http://partnersolutions.skypeforbusiness.com/) 
+> 尽管本主题提供了整体网络性能指南，但网络评估的完整指南超出了本文档的范围。 若要查找 Skype for Business Online 合作伙伴的列表，这些合作伙伴可以帮助你进行全面、完整的网络评估的网络性能测量，请访问 [Skype for Business 合作伙伴解决方案](http://partnersolutions.skypeforbusiness.com/)。 
   
 ## <a name="network-connectivity-requirements-to-skype-for-business-online"></a>Skype for Business Online 的网络连接要求
 
-### <a name="factors-that-impact-skype-for-business-online-media-quality"></a>影响联机Skype for Business质量的因素
+### <a name="factors-that-impact-skype-for-business-online-media-quality"></a>影响 Skype for Business Online 媒体质量的因素
 
-影响 Skype for Business Online Real-Time 媒体 (音频、视频和应用程序) 质量的因素有很多，包括使用的设备、环境和网络连接。 
+Skype for Business Online Real-Time 媒体 (音频、视频和应用程序共享质量包括所使用的设备、环境和网络连接) 有许多不同因素。 
   
 #### <a name="devices"></a>设备
 
 在Real-Time会话中，所有参与者使用的媒体捕获和呈现设备（如耳机和 Web 摄像头）对音频和视频的整体质量具有很大的影响。 低品质设备和错误的设备驱动程序会降低整体的音频声音质量和视频图像质量。 另一方面，经认证的设备或高品质设备有助于消除回声、过滤噪音、提高视频分辨率并减少延迟。
   
-尽管不需要经过认证的音频和视频媒体设备，但强烈建议使用经认证的设备Skype for Business获得最佳媒体体验。 有关所有经认证的Skype for Business的列表，请参阅手机和设备 for [Skype for Business。](../../SfbPartnerCertification/certification/devices-ip-phones.md) 您可以使用 Skype for Business[](/microsoftteams/turning-on-and-using-call-quality-dashboard)管理中心中的 Skype for Business Online 呼叫质量仪表板来验证使用中的设备是否正常工作并监视音频和视频媒体质量。
+尽管不需要经过认证的音频和视频媒体设备，但强烈建议使用经 Skype for Business 认证的设备，以获得最佳媒体体验。 有关所有 Skype for Business 认证设备的列表，请参阅 [Skype for Business](../../SfbPartnerCertification/certification/devices-ip-phones.md)的电话和设备。 可以使用 Skype [for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard)呼叫质量仪表板（位于 **Skype for Business** 管理中心）来验证使用中的设备是否正常工作并监视音频和视频媒体质量。
   
 > [!TIP]
-> **为获得最佳媒体质量体验，Skype for Business认证设备**。
+> **需要经过认证的设备才能获得最佳 Skype for Business 媒体质量体验**。
   
-必须记住，任何媒体设备、Skype for Business客户端以及Skype for Business媒体流Real-Time服务器都引入了一定的延迟。 设备和软件处理延迟以及网络延迟对端到端整体延迟和最终用户体验影响很大。
+必须记住，媒体流通过的任何媒体设备、Skype for Business 客户端和 Skype for Business Real-Time都引入了一定的延迟。 设备和软件处理延迟以及网络延迟对端到端整体延迟和最终用户体验影响很大。
   
 #### <a name="environment"></a>环境
 
 用户会面及使用音频和视频设备的环境及周边区域是另一个影响音频和视频质量的重要因素。用户在嘈杂的环境中通话会产生回声和含混不清的音频。用户在黑暗或低光照环境中则无法生成明亮清晰的视频图像画质。在会议室设置中，麦克风和视频设备的位置对参与者接收的声音和图像质量有直接影响。
   
-若要更清晰地了解用户的音频和视频体验，请使用 Skype for Business **应用工具** 选项音频设备或视频设备对使用中的设备进行更改并  >    >  自定义其设置。
+要更清晰地了解用户的音频和视频体验，请使用 Skype for Business 应用工具选项音频设备或视频设备对使用中的设备进行更改并  >    >  自定义其设置。 
 
 #### <a name="network"></a>网络
 
@@ -71,12 +71,12 @@ IP 网络Real-Time媒体的质量受到网络连接质量的很大影响，尤�
     
 - **数据包丢失** 这通常定义为给定时间窗口中丢失的数据包的百分比。 数据包丢失直接影响音频质量 -从小型、单个丢失的数据包几乎没有任何影响，到导致音频完全中断的背对背突发丢失。
     
-- **数据包间到达抖动或只是抖动** 这是连续数据包之间的延迟的平均变化。 大多数现代 VoIP 软件Skype for Business通过缓冲来适应某些级别的抖动。 只有当抖动超过缓冲时，参与者才能注意到抖动的影响。
+- **数据包间到达抖动或只是抖动** 这是连续数据包之间的延迟的平均变化。 大多数现代 VoIP 软件（包括 Skype for Business）可以通过缓冲来适应某些级别的抖动。 只有当抖动超过缓冲时，参与者才能注意到抖动的影响。
     
 > [!NOTE]
 >  抖动缓冲会增加端到端延迟。
   
-对于许多并发 Skype for Business Online Real-Time 媒体会话，以及其他 Microsoft 365 或 Office 365 服务和其他业务应用程序生成的其他网络流量，确保将网络连接到 Skype for Business Online 服务的整个网络路径有足够的带宽至关重要，以避免网络拥塞并确保出色的媒体 Real-Time 媒体 (音频、视频和应用程序共享) 质量。 
+对于许多并发 Skype for Business Online Real-Time 媒体会话，以及其他 Microsoft 365 或 Office 365 服务和其他业务应用程序生成的网络流量，确保将网络连接到 Skype for Business Online 服务的整个网络路径有足够的带宽至关重要，以避免网络拥塞并确保出色的媒体 Real-Time 媒体 (音频、视频和应用程序共享) 质量。 
   
 #### <a name="implementing-quality-of-service-qos-across-congested-networks"></a>实现跨交通 (QoS) 服务质量
 
@@ -84,48 +84,48 @@ IP 网络Real-Time媒体的质量受到网络连接质量的很大影响，尤�
   
 QoS 提供了一种方法，用于为携带音频或视频数据的网络数据包分配更高的优先级。 通过为这些数据包分配更高的优先级，音频和视频通信可能会比涉及文件传输、Web 浏览或数据库备份等内容的网络会话更快地在网络中传输，并且中断更少。 这是因为默认情况下，用于文件传输或数据库备份的网络数据包被分配"尽力而为"作为优先级，并且网络拥塞不会产生太大的影响。 如果不为媒体共享 (音频、视频和应用程序共享) 数据包分配更高的优先级，并且还将其分配为"尽力而为"，则这些数据包也将连同所有其他网络流量一起进行处理。 根据网络拥塞量，这可能会导致用户的整体音频和视频质量体验降低。
   
-强烈建议在网络中实施 QoS，以确保网络拥塞不会影响网络拥塞。 但是，为了产生最大的影响，所有网络终结点都必须支持 QoS，这意味着所有终结点都必须遵守 QoS 标记和数据包优先级。 Skype for Business联机服务在 Microsoft 网络中遵守 QoS 标记和优先级。 但是，通过公共连接（如 Internet）从公司网络路由到 Microsoft 网络的流量不会保留 QoS 标记和数据包优先级。 使用[Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)从网络到 Microsoft 365 或 Office 365 的专用连接提供一种部署解决方案，可保留 QoS 标记和数据包优先级，进而提高最终用户的整体音频和视频质量。
+强烈建议在网络中实施 QoS，以确保网络拥塞不会影响网络拥塞。 但是，为了产生最大的影响，所有网络终结点都必须支持 QoS，这意味着所有终结点都必须遵守 QoS 标记和数据包优先级。 Skype for Business Online 服务在 Microsoft 网络中遵守 QoS 标记和优先级。 但是，通过公共连接（如 Internet）从公司网络路由到 Microsoft 网络的流量不会保留 QoS 标记和数据包优先级。 使用 [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) 从网络到 Microsoft 365 或 Office 365 的专用连接提供一种部署解决方案，可保留 QoS 标记和数据包优先级，进而提高最终用户的整体音频和视频质量。
   
 ## <a name="network-performance-requirements-to-connect-to-skype-for-business-online"></a>连接到 Skype for Business Online 的网络性能要求
 <a name="bkNetworkPerf"> </a>
 
-Skype for Business Real-Time媒体通过许多不同的设备、客户端应用、服务器软件以及跨不同的网络传输。 媒体的端到端延迟Real-Time所有组件和网段引入的总延迟量。 端到端网络连接的质量由质量最差的网络段决定。 此段充当此网络流量的瓶颈。
+Skype for Business Real-Time媒体通过许多不同的设备、客户端应用、服务器软件以及不同的网络传输。 媒体的端到端延迟Real-Time所有组件和网段引入的总延迟量。 端到端网络连接的质量由质量最差的网络段决定。 此段充当此网络流量的瓶颈。
   
-下图演示了会议中的单向音频流，从一个参与者Skype for Business到另一个参与者。
+下图演示了会议中的单向音频流，从一个 Skype for Business 参与者到另一个参与者。
   
-![ExpressRoute 呼叫Flow。](../images/c026e8e5-ba09-42c0-9e03-60fbfda1cb02.png)
+![ExpressRoute 调用流。](../images/c026e8e5-ba09-42c0-9e03-60fbfda1cb02.png)
   
 在此会议方案中，媒体路径包括以下网段：
   
 1. **从用户 1 到 Microsoft 网络边缘的连接** 这通常包括 WiFi 或以太网等网络连接、从用户 1 到 Internet 出口点 (的 WAN 连接) 以及从网络边缘到 Microsoft Network Edge 的 Internet 连接。
     
-2. **Microsoft 网络内部连接** 这位于Microsoft Edge Skype for Business使用 A/V 会议服务器的 Online 数据中心之间。
+2. **Microsoft 网络内部连接** 这是在 Microsoft Edge 到 Skype for Business Online 数据中心之间，使用 A/V 会议服务器。
     
-3. **Microsoft Network 中的连接** 这位于 Skype for Business Online 数据中心和 Microsoft Network Edge 之间。
+3. **Microsoft Network 中的连接** 这是在 Skype for Business Online 数据中心和 Microsoft Network Edge 之间。
     
 4. **从 Microsoft 网络边缘连接到用户 2** 这包括从网络边缘到 Microsoft Network Edge 的 Internet 连接、从用户 2 到 Internet 出口点 (网络的 WAN 连接) 以及 WiFi 或以太网等网络连接。
     
-下图显示了在线 PSTN 呼叫的组件和网络Skype for Business细分：
+下图显示了 Skype for Business Online PSTN 呼叫的组件和网络分段的细分：
   
-![ExpressRoute PSTN 运营商呼叫Flow。](../images/768a88df-c8a9-4171-a158-565a698f0193.png)
+![ExpressRoute PSTN 运营商呼叫流。](../images/768a88df-c8a9-4171-a158-565a698f0193.png)
   
 在 PSTN 呼叫方案中，媒体路径跨以下网段：
   
-1. **从 Skype for Business 客户端调用方到 Microsoft 网络边缘的连接** 这通常包括 WiFi 或以太网等网络连接、从 Skype for Business 客户端调用方到 Internet 出口点 (的 WAN 连接) 以及从网络边缘到 Microsoft Network Edge 的 Internet 连接。
+1. **从 Skype for Business 客户端呼叫者到 Microsoft 网络边缘的连接** 这通常包括 WiFi 或以太网等网络连接、从 Skype for Business 客户端呼叫方到 Internet 出口点 (的 WAN 连接) 以及从网络边缘到 Microsoft Network Edge 的 Internet 连接。
     
-2. **Microsoft 网络内部连接** 这位于Microsoft Edge Skype for Business使用中介服务器的 Online 数据中心之间。
+2. **Microsoft 网络内部连接** 这是在 Microsoft Edge 到 Skype for Business Online 数据中心之间，其中使用了中介服务器。
     
-3. **Microsoft Network 中的连接** 这位于 Skype for Business Online 数据中心和 Microsoft Network Edge 之间。
+3. **Microsoft Network 中的连接** 这是在 Skype for Business Online 数据中心和 Microsoft Network Edge 之间。
     
-4. **Microsoft 网络与 PSTN 服务提供商合作伙伴之间的连接** 这是从 Microsoft 网络外部的客户端Skype for Business PSTN 呼叫的连接。
+4. **Microsoft 网络与 PSTN 服务提供商合作伙伴之间的连接** 这是从 Microsoft 网络外部的 Skype for Business 客户端进行 PSTN 呼叫的连接。
     
-### <a name="network-performance-requirements-from-a-skype-for-business-client-to-microsoft-network-edge"></a>从客户端到 Microsoft network Edge Skype for Business网络性能要求
+### <a name="network-performance-requirements-from-a-skype-for-business-client-to-microsoft-network-edge"></a>从 Skype for Business 客户端到 Microsoft Network Edge 的网络性能要求
 <a name="bkSfBClienttoEdge"></a>
 
-为了Skype for Business媒体质量，从公司网络到 Microsoft Network Edge 的连接需要以下网络性能指标目标或阈值。 此网络段包括内部网络，这包括所有 WiFi 和以太网连接、通过 WAN 连接的任何公司站点到站点流量，例如多协议标签切换 (MPLS) ，以及到 Microsoft Network Edge 的 Internet 或 ExpressRoute 合作伙伴连接。
+为了获得最佳 Skype for Business 媒体质量，从公司网络到 Microsoft Network Edge 的连接需要以下网络性能指标目标或阈值。 此网络段包括内部网络，这包括所有 WiFi 和以太网连接、通过 WAN 连接的任何公司站点到站点流量，例如多协议标签切换 (MPLS) ，以及到 Microsoft Network Edge 的 Internet 或 ExpressRoute 合作伙伴连接。
   
 > [!CAUTION]
-> **公司网络中Skype for Business客户端与 Microsoft 365 服务Office 365必须满足以下网络性能要求和阈值。**
+> **公司网络中 Skype for Business 客户端与 Microsoft 365 或 Office 365 服务之间的连接必须满足以下网络性能要求和阈值。**
   
 |||
 |:-----|:-----|
@@ -143,7 +143,7 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
     
 - 公司站点或站点到 Microsoft Network Edge 连接包括第一跃点网络访问，可以是 WiFi 或其他无线技术。 
     
-- 网络性能目标假定适当的带宽和/或服务质量规划。 换言之，当网络连接负载Skype for Business Real-Time时，这直接适用于媒体流量。
+- 网络性能目标假定适当的带宽和/或服务质量规划。 换言之，当网络连接负载高峰时，这Real-Time Skype for Business 媒体流量。
     
 ### <a name="network-performance-requirements-from-your-network-edge-to-microsoft-network-edge"></a>从网络边缘到 Microsoft Network Edge 的网络性能要求
 <a name="bkYourNetworkEdge"> </a>
@@ -167,7 +167,7 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
   
 - 性能目标要求公司的任何网络边缘及其最近的 Microsoft Network Edge 之间的连接位于同一大洲。
     
-- 网络性能目标假定适当的带宽和/或服务质量规划。 当网络连接负载Skype for Business Real-Time时，这也适用于媒体流量。 有关适当的带宽和 QoS 规划，请参阅[Skype for Business Online 中的 ExpressRoute 和 QoS。](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d)
+- 网络性能目标假定适当的带宽和/或服务质量规划。 这也适用于 Skype for Business Real-Time高峰负载时媒体流量。 有关适当的带宽和 QoS 规划，请参阅 Skype for Business Online 中的[ExpressRoute 和 QoS。](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d)
     
 ## <a name="measuring-network-performance"></a>测量网络性能
 <a name="bkNetworkPerf"> </a>
@@ -177,7 +177,7 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
 >[!NOTE]
 > 通过 ping (ICMP) 测量网络性能并不有效。 因此，从 2020 年 1 月开始，下面公开的任何广播 IP 将停止响应 ICMP 请求。 为了有效地衡量网络性能，Microsoft 建议使用 [网络增强工具](https://www.microsoft.com/download/details.aspx?id=53885)。
   
-若要测试与 Microsoft 网络的 Internet 连接，建议针对以下媒体中继的Skype for Business IP 进行测试。 *Anycast VIP* 将解析为离测试位置最近的 Microsoft Network Edge 站点中的媒体中继的 IP 地址。
+若要测试与 Microsoft 网络的 Internet 连接，建议针对以下 Skype for Business 媒体中继的 IP 进行测试。 *Anycast VIP* 将解析为离测试位置最近的 Microsoft Network Edge 站点中的媒体中继的 IP 地址。
   
 ||||
 |:-----|:-----|:-----|
@@ -186,22 +186,22 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
    
  **下面是评估网络性能时要遵循的一些高级建议：**
   
-- 应评估内部网络，以及连接到 Microsoft 365 或 Office 365。
+- 应评估内部网络以及与 Microsoft 365 或 Office 365 的连接。
     
 - 应评估并收集长时间内所有网络的数据。 建议至少执行一周的网络性能测试，以便查看所有工作天和小时的使用模式。 这将显示高峰时间。
     
-- 应该对网络性能度量进行多次采样。 建议在收集数据的整个时段内每 10 分钟从公司站点进行一次测量。 要比较 Skype for Business Online 网络性能要求，请从此示例数据集中取第 90 百分位度量值。 
+- 应该对网络性能度量进行多次采样。 建议在收集数据的整个时段内每 10 分钟从公司站点进行一次测量。 为了比较 Skype for Business Online 网络性能要求，请从此示例数据集中取第 90 百分位度量值。 
     
 - 应持续评估网络的性能。 由于使用模式更改、使用大量带宽的新基于企业的应用程序，以及组织或物理公司位置的更改，网络利用率会随时间变化。 必须持续监视网络性能，使其符合这些网络性能要求和目标/阈值，并及时进行调整，以确保最佳的媒体Real-Time质量。 
     
 ## <a name="measuring-network-performance-using-azure-vms"></a>使用 Azure VM 测量网络性能
 <a name="bkNetworkPerf"> </a>
 
-客户与合作伙伴提供的网络评估解决方案不是针对 Microsoft 网络边缘站点进行测试，而是利用Skype for Business云中服务的测试设置Microsoft Azure解决方案。 在这些解决方案中，网络评估工具针对在 Azure 云中设置为服务的自定义终结点测试延迟、数据包丢失和抖动。 因此，测试网络流量将经过一个额外的网络段，即 Microsoft 网络内网络边缘与托管网络评估服务的 Azure 数据中心之间的连接。
+Skype for Business 客户和合作伙伴提供的网络评估解决方案不是针对 Microsoft 网络边缘站点进行测试，而是利用 Microsoft Azure 云中服务的测试设置。 在这些解决方案中，网络评估工具针对在 Azure 云中设置为服务的自定义终结点测试延迟、数据包丢失和抖动。 因此，测试网络流量将经过一个额外的网络段，即 Microsoft 网络内网络边缘与托管网络评估服务的 Azure 数据中心之间的连接。
   
 对于这些基于 Azure 托管测试服务的网络评估解决方案。 我们建议在国家/地区内和/或区域执行网络评估。 例如，对于美国东部的客户站点，应针对 Azure 美国东部数据中心区域托管的测试服务实例执行评估。 
   
-下面是基于 Azure (网络) 设置的 RTT 目标延迟。 单向延迟目标将是相应 RTT 目标的一半。 丢包和抖动目标与针对基于媒体中继的测试Skype目标相同。
+下面是基于 Azure (网络) 设置的 RTT 目标延迟。 单向延迟目标将是相应 RTT 目标的一半。 丢包和抖动目标与针对基于 Skype 媒体中继的测试定义的相同。
   
 |||||
 |:-----|:-----|:-----|:-----|
@@ -232,23 +232,23 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
 ## <a name="media-quality-and-expressroute"></a>媒体质量和 ExpressRoute
 <a name="bkNetworkPerf"> </a>
 
-适用于 Microsoft 365 或 Office 365 的 Azure ExpressRoute 是一个专用网络连接，用于连接到 Microsoft 365 或 Office 365。 它使客户能够控制其网络流量采用的路径。 他们不再需要担心 Internet 上发生不可预测的路由，其中数据由未知运营商、提供商和 ISP 携带。 通过 ExpressRoute 发送的网络流量直接通过 ExpressRoute 合作伙伴的网络发送到 Microsoft 网络。 这样，客户Microsoft 365或Office 365专用连接，就像它位于其自己的场外数据中心一样。
+适用于 Microsoft 365 或 Office 365 的 Azure ExpressRoute 是一个专用网络连接，用于连接到 Microsoft 365 或 Office 365。 它使客户能够控制其网络流量采用的路径。 他们不再需要担心 Internet 上发生不可预测的路由，其中数据由未知运营商、提供商和 ISP 携带。 通过 ExpressRoute 发送的网络流量直接通过 ExpressRoute 合作伙伴的网络发送到 Microsoft 网络。 这允许客户将 Microsoft 365 或 Office 365 视为使用专用连接位于其自己的场外数据中心。
   
-Azure ExpressRoute 适用于所有Microsoft 365 Office 365产品/服务。 但是，Azure ExpressRoute 高级版加载项是启用全局路由Microsoft 365 Office 365所需的。 实施 ExpressRoute 的客户至少拥有 500 个席位，可以获取所需的 *ExpressRoute* 高级版附加内容，无需额外付费。
+Azure ExpressRoute 适用于所有 Microsoft 365 和 Office 365 许可产品。 但是，Microsoft 365 和 Office 365 需要 Azure ExpressRoute 高级版加载项才能启用全局路由。 实施 ExpressRoute 的客户至少拥有 500 个席位，可以获取所需的 *ExpressRoute* 高级版附加内容，无需额外付费。
   
 ### <a name="is-expressroute-required-for-good-media-quality"></a>需要 ExpressRoute 才能确保良好的媒体质量吗？
 
-Azure ExpressRoute 不是获得最佳联机媒体质量Skype for Business的要求。 但是，它是可帮助确保云连接满足网络性能目标或阈值Skype for Business选项之一。
+Azure ExpressRoute 不是获得最佳 Skype for Business Online 媒体质量的要求。 但是，它是可帮助确保云连接满足 Skype for Business 网络性能目标或阈值的部署选项之一。
   
-Microsoft 365 Office 365是使用 Internet 的高性能和安全服务。 我们将继续投资新的安全功能和区域边缘节点，以持续提高安全性和性能。 Azure ExpressRoute 不要求使用 Microsoft 365 或 Office 365 服务，Skype for Business Online。 Azure ExpressRoute 是可用的部署选项之一，可帮助确保连接到 Microsoft 365 或 Office 365 满足 Skype for Business 网络性能要求，并确保最佳的 Skype for Business Online 媒体质量体验。
+Microsoft 365 和 Office 365 是使用 Internet 的高性能和安全服务。 我们将继续投资新的安全功能和区域边缘节点，以持续提高安全性和性能。 Azure ExpressRoute 不是 Microsoft 365 或 Office 365 服务（包括 Skype for Business Online）的要求。 Azure ExpressRoute 是可用的部署选项之一，可帮助确保与 Microsoft 365 或 Office 365 的连接满足 Skype for Business 网络性能要求，并确保最佳的 Skype for Business Online 媒体质量体验。
   
-对于 Skype for Business Online 媒体质量，公司站点与 Microsoft Network Edge 之间的连接必须满足[从 Skype for Business](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)客户端到 Microsoft Network Edge 的网络性能要求中的性能目标，并且网络边缘与 Microsoft 网络边缘之间的连接必须满足从网络边缘到 Microsoft Network [Edge](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)的网络性能要求中的性能目标。  
+对于 Skype for Business Online 媒体质量，公司站点与 Microsoft 网络边缘之间的连接必须满足从 [Skype for Business](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) 客户端到 Microsoft Network Edge 的网络性能要求中的性能目标，并且网络边缘与 Microsoft 网络边缘之间的连接满足从网络边缘到 Microsoft Network [Edge](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)的网络性能要求中的性能目标，这一点非常重要。  
   
-公司的物理网络连接（包括内部网络和云连接容量）必须适应高峰媒体流量，这一点也很重要。 Azure ExpressRoute 是帮助客户确保其联机云Skype for Business满足所有这些性能要求的多种方式之一。
+公司的物理网络连接（包括内部网络和云连接容量）必须适应高峰媒体流量，这一点也很重要。 Azure ExpressRoute 是帮助客户确保其 Skype for Business Online 云连接满足所有这些性能要求的多种方式之一。
   
 ### <a name="is-expressroute-required-for-voice-quality-sla"></a>语音质量 SLA 需要 ExpressRoute 吗？
 
-否，ExpressRoute 不是必需的，Skype for Business语音质量 SLA。 Skype for Business Online 语音质量[SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37)适用于任何 Skype for Business Online 语音服务用户在正确的许可证和订阅中拨打的任何符合条件的呼叫，使该用户能够进行任何类型的 VoIP 或 PSTN 呼叫。 语音质量 SLA 应包括满足以下所有条件：
+否，Skype for Business Online 语音质量 SLA 不需要 ExpressRoute。 [Skype for Business Online](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37)语音质量 SLA 适用于任何 Skype for Business Online 语音服务用户在正确的许可证和订阅中拨打的任何符合条件的呼叫，使该用户能够进行任何类型的 VoIP 或 PSTN 呼叫。 语音质量 SLA 应包括满足以下所有条件：
   
 - 来自 Microsoft 认证的 IP 电话的呼叫。
     
@@ -261,38 +261,38 @@ Microsoft 365 Office 365是使用 Internet 的高性能和安全服务。 我们
   
 ### <a name="internet-or-azure-expressroute"></a>Internet 还是 Azure ExpressRoute？
 
-在决定使用 Skype for Business Online 的网络连接选项之前，客户必须基于连接到 Skype for Business Online 的网络性能要求评估其网络和当前 Internet[连接](media-quality-and-network-connectivity-performance.md#bkNetworkPerf)。
+在决定 Skype for Business Online 的网络连接选项之前，客户必须基于连接到 [Skype for Business Online](media-quality-and-network-connectivity-performance.md#bkNetworkPerf)的网络性能要求中所述的网络性能要求评估其网络和当前 Internet 连接。
   
-如果当前 Internet 连接的网络性能设置为在高峰期有足够的容量，并且满足从站点到 Microsoft 网络边缘以及从网络边缘到 Microsoft Network Edge 的网络性能要求，则你可以继续使用现有的 Internet 连接连接到 Skype for Business Online。
+如果当前 Internet 连接的网络性能设置为在高峰期有足够的容量，并且满足从站点到 Microsoft 网络边缘以及从网络边缘到 Microsoft Network Edge 的网络性能要求，你可以继续使用现有的 Internet 连接连接到 Skype for Business Online。
   
-对于不满足网络性能要求的公司站点，强烈建议首先与现有网络服务提供商合作，以提高整体网络性能。 但是，如果仍未满足要求，使用 Azure ExpressRoute 可帮助确保 Skype for Business Online 云连接可帮助满足网络性能要求。
+对于不满足网络性能要求的公司站点，强烈建议首先与现有网络服务提供商合作，以提高整体网络性能。 但是，如果仍未满足要求，使用 Azure ExpressRoute 可帮助确保 Skype for Business Online 云连接可以帮助你满足网络性能要求。
   
 Azure ExpressRoute 提供以下附加优势：
   
 - 服务级别协议 (SLA) 网络与 Microsoft 网络之间的连接可用性。 ExpressRoute 保证的可用性 SLA 为 99.9%。
     
-- 服务和服务所需的计划Microsoft 365 Office 365带宽。 为此，只需使用 ExpressRoute 发送 Microsoft 365、Office 365 或 Skype for Business 流量，然后让所有其他 Internet 流量通过网络的其他 Internet 出口/入口点。
+- Microsoft 365 和 Office 365 服务所需的有计划且有保证的带宽。 您可以通过使用 ExpressRoute 仅发送 Microsoft 365、Office 365 或 Skype for Business 流量，然后让所有其他 Internet 流量通过网络的其他 Internet 出口/入口点来实现此目的。
     
 - ExpressRoute 旨在保留网络和 Microsoft 网络之间的 DSCP QoS 标记。
     
-有关 ExpressRoute QoS 和容量规划的信息，请参阅[Skype for Business Online 中的 ExpressRoute 和 QoS。](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d)
+有关 ExpressRoute QoS 和容量规划的信息，请参阅 Skype for Business Online 中的[ExpressRoute 和 QoS。](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d)
   
-### <a name="can-i-setup-azure-expressroute-for-skype-for-business-online-only"></a>能否设置 Azure ExpressRoute for Skype for Business Online？
+### <a name="can-i-setup-azure-expressroute-for-skype-for-business-online-only"></a>我能否仅为 Skype for Business Online 设置 Azure ExpressRoute？
 
-是的，可以设置 Azure ExpressRoute，以确保从公司网络到仅与 Skype for Business Online 的出色网络连接。 这将为用户提供最佳Real-Time媒体质量，但你可以继续通过 Internet 连接到Microsoft 365 Office 365服务。
+是的，可以设置 Azure ExpressRoute，以确保从公司网络到仅 Skype for Business Online 的极佳网络连接。 这将为用户提供最佳Real-Time媒体质量，但你可以继续通过 Internet 连接到其他 Microsoft 365 或 Office 365 服务。
   
 边界网关协议 (BGP) 是 Internet 上的路由协议，用于通过 Internet 路由网络流量。 它旨在跨 Internet 在自治系统 (AS) 交换路由信息。 BGP 社区值是可应用于传入或传出路由的属性标记。 BGP 社区通常用于向接收 AS 发出信号，指示哪个出站链接可用于根据地理位置、服务类型或其他条件到达给定目标。
   
 借助 BGP 社区支持，Microsoft 将基于前缀和路由所属的服务，使用适当的 BGP 社区值标记前缀和路由。 Microsoft 将标记通过公共对等互连和 Microsoft 对等互连播发的前缀，这些前缀具有相应的 BGP 社区值，指示前缀托管在的区域。 可以依赖社区值做出适当的路由决策，以提供最佳路由。 可以使用 Skype for Business Online BGP 社区值来仅为 Skype for Business Online 设置 ExpressRoute 连接。 可以在 ExpressRoute 路由要求 [中了解更多信息](/azure/expressroute/expressroute-routing)。
   
-## <a name="expressroute-connectivity-scenarios-for-skype-for-business-online"></a>适用于 Skype for Business Online 的 ExpressRoute 连接方案
+## <a name="expressroute-connectivity-scenarios-for-skype-for-business-online"></a>Skype for Business Online 的 ExpressRoute 连接方案
 <a name="bkNetworkPerf"> </a>
 
 如果根据上述建议确定 ExpressRoute 是适合的，下面是应获取的 ExpressRoute 连接位置和数量的建议。
   
 ### <a name="online-only-deployment---single-site"></a>仅联机部署 - 单个站点
 
-如果所有用户都使用 Skype for Business Online 服务，并且办公室以单个物理位置为中心，并且决定部署 Azure ExpressRoute，应在公司站点与最近的[ExpressRoute](/azure/expressroute/expressroute-locations)对等位置之间设置单个 ExpressRoute 连接。
+如果你的所有用户都使用 Skype for Business Online 服务，并且你的办公室以单个物理位置为中心，并且你决定部署 Azure ExpressRoute，你应该在公司站点与最近的 [ExpressRoute](/azure/expressroute/expressroute-locations)对等位置之间设置单个 ExpressRoute 连接。
   
 下图显示了此类部署的示例。 就此示例来说，Contoso 是一所位于美国加州奥兰多的大学。 Contoso 有 10，000 名教职员工和学生。 从位置到 Microsoft 边缘网站的 Internet 测试显示，在高峰课程小时内丢包率超过 5%。 他们决定使用具有过度预配带宽的 ExpressRoute 与 Microsoft 365 或 Office 365 建立专用连接，以避免 Microsoft 365 或 Office 365 的网络拥塞，尤其是 Skype for Business Online Real-Time 流量。 他们通过位于亚特兰大 GA MeetMe 站点的 ExpressRoute 连接到 Microsoft 云。
   
@@ -300,17 +300,17 @@ Azure ExpressRoute 提供以下附加优势：
   
 ### <a name="online-only-deployment---multiple-sites-on-the-same-continent"></a>仅联机部署 - 同一大洲的多个站点
 
-如果公司使用来自同一区域或大洲中多个办公室的 Skype for Business Online 服务，并且你选择实现 Azure ExpressRoute，则建议通过 ExpressRoute 连接主站点，并选择性地为不符合建议的网络性能目标的其他位置添加其他 ExpressRoute 对等互连。
+如果您的公司使用来自同一区域或大洲的多个办公室的 Skype for Business Online 服务，并且您选择了实现 Azure ExpressRoute，则建议通过 ExpressRoute 连接主站点，然后选择性地为不符合建议的网络性能目标的其他位置添加其他 ExpressRoute 对等互连。
   
-在下面的示例中，Contoso 是一家美国旅行服务公司，其总部位于纽约，但在美国设有其他办公室。 其办公室通过 WAN 进行互连，该 WAN 使用 MPLS 连接到 Microsoft 365 或 Office 365。 最初，他们设置一个 ExpressRoute 连接，从其 Internet 路由器（其 Internet 路由器在新泽西的 Hoboken）连接到纽约 MeetMe 站点。 
+在下面的示例中，Contoso 是一家美国旅行服务公司，其总部位于纽约，但在美国设有其他办公室。 他们的办公室通过 WAN 进行互连，该 WAN 使用 MPLS 连接到 Microsoft 365 或 Office 365。 最初，他们设置一个 ExpressRoute 连接，从其 Internet 路由器（其 Internet 路由器在新泽西的 Hoboken）连接到纽约 MeetMe 站点。 
   
-通过此设置，从大多数站点发到 Microsoft Network (New York Edge 站点) 的网络流量可以满足 Skype for Business 客户端到 Microsoft Network Edge 的网络性能要求中所述的[Skype for Business](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)客户端连接网络性能目标。 但是，Contoso 的西海岸办公室到纽约之间的单向延迟超过 50 毫秒。 此外，Hono以 Contoso 为第二大办公场所，从十二山到纽约，单向延迟超过 80 毫秒。 为了确保这些办公室的用户具有良好的媒体质量，Contoso 决定在圣何塞站点与硅谷 ExpressRoute MeetMe 站点之间添加一个西海岸 ExpressRoute 连接。
+通过此设置，从大多数站点发到 Microsoft Network (New York Edge 站点) 的网络流量可以满足从 [Skype for Business](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)客户端到 Microsoft Network Edge 的网络性能要求中所述的 Skype for Business 客户端连接网络性能目标。 但是，Contoso 的西海岸办公室到纽约之间的单向延迟超过 50 毫秒。 此外，Hono以 Contoso 为第二大办公场所，从十二山到纽约，单向延迟超过 80 毫秒。 为了确保这些办公室的用户具有良好的媒体质量，Contoso 决定在圣何塞站点与硅谷 ExpressRoute MeetMe 站点之间添加一个西海岸 ExpressRoute 连接。
   
 ![同一大洲上的 Express 路由器多站点。](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
   
 ### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>仅联机部署 - 位于不同大洲的多个站点
 
-如果所有用户都使用 Skype for Business Online 服务，并且办公室位于多个大洲的多个物理位置，则如果决定部署 Azure ExpressRoute，应在每个大洲的主站点与最近的[ExpressRoute](/azure/expressroute/expressroute-locations)对等位置之间设置至少一个 ExpressRoute 连接。 根据成本与权益，可以选择从不满足网络性能目标的站点部署其他 ExpressRoute 连接。
+如果你的所有用户都使用 Skype for Business Online 服务，并且你的办公室位于多个大洲的多个物理位置，如果你决定部署 Azure ExpressRoute，你应该在每个大洲的主站点与最近的 [ExpressRoute](/azure/expressroute/expressroute-locations)对等位置之间设置至少一个 ExpressRoute 连接。 根据成本与权益，可以选择从不满足网络性能目标的站点部署其他 ExpressRoute 连接。
   
 在下面的示例中，Contoso 是一家大型企业法律公司，其办公室遍布北美和欧洲的主要城市。 Contoso 根据 Internet 连接和内部网络性能评估，决定在北美部署两个 ExpressRoute 连接，并针对其所有欧洲办公室部署一条 ExpressRoute 线路。
   
@@ -318,23 +318,23 @@ Azure ExpressRoute 提供以下附加优势：
   
 ### <a name="hybrid-deployment"></a>混合部署
 
-如果您有本地 Lync 或 Skype for Business 部署并选择实现混合 Skype for Business Online 集成，我们建议您决定部署 Azure ExpressRoute，则对于每个本地 Lync 或 Skype for Business Edge 站点，需要至少具有一个 ExpressRoute 连接，并且每个大洲至少具有一个与办公室的 ExpressRoute 连接。 根据成本与效益，对于每个大洲，可以选择从不满足网络性能目标的办公室部署其他 ExpressRoute 连接。
+如果你有本地 Lync 或 Skype for Business 部署并选择实施混合 Skype for Business Online 集成，我们建议如果你决定部署 Azure ExpressRoute，则对于每个本地 Lync 或 Skype for Business Edge 站点，你至少需要具有一个 ExpressRoute 连接，并且每个大洲至少有一个具有办公室的 ExpressRoute 连接。 根据成本与效益，对于每个大洲，可以选择从不满足网络性能目标的办公室部署其他 ExpressRoute 连接。
   
-如果在本地部署Skype for Business，必须遵循[Edge Server 规划和部署指南](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)。 具体而言，必须从网络外部访问边缘服务器。 这通常是通过向 Edge 服务器分配可路由的公共 IP 地址，或者通过使用 NAT (网络地址) 。
+如果你有本地 Skype for Business 部署，则必须按照 Edge [Server 规划和部署指南 操作](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)。 具体而言，必须从网络外部访问边缘服务器。 这通常是通过向 Edge 服务器分配可路由的公共 IP 地址，或者通过使用 NAT (网络地址) 。
   
-在下面的示例中，Contoso 有一个现有的本地Skype for Business 企业语音部署。 他们希望将本地用户迁移到 Microsoft 365 或 Office 365 联机服务。 他们还决定使用混合部署，以便他们可以继续针对所有本地和联机用户使用其现有 PSTN 基础结构。 Contoso 本地数据中心和 Skype for Business边缘服务器位于芝加哥。 对于部署，Contoso 决定在芝加哥数据中心与芝加哥 ExpressRoute 之间设置一个 ExpressRoute 连接。 他们还添加了一个西海岸 ExpressRoute 连接，以更好地为其十二山办公室提供服务。
+在下面的示例中，Contoso 具有现有的本地 Skype for Business 企业语音部署。 他们希望将本地用户迁移到 Microsoft 365 或 Office 365 联机服务。 他们还决定使用混合部署，以便他们可以继续针对所有本地和联机用户使用其现有 PSTN 基础结构。 Contoso 本地数据中心和 Skype for Business Edge 服务器位于芝加哥。 对于部署，Contoso 决定在芝加哥数据中心与芝加哥 ExpressRoute 之间设置一个 ExpressRoute 连接。 他们还添加了一个西海岸 ExpressRoute 连接，以更好地为其十二山办公室提供服务。
   
 ![ExpressRoute 混合。](../images/a7467c56-642f-44e5-adfb-ecca91ba2dd3.png)
   
 ### <a name="online-deployment-with-cloud-connector-edition"></a>使用 Cloud Connector Edition 进行联机部署
 
-Skype for BusinessOnline Cloud Connector Edition 是一种混合产品/服务，包含一组打包的虚拟机 (用于) 本地 PSTN 连接的 VM。 在虚拟化环境中Skype for Business Server最小网络拓扑，可以通过现有的本地 PSTN 语音基础结构通过座机和移动电话发送和接收呼叫。
+Skype for Business Online Cloud Connector Edition 是一种混合产品/服务，包含一组打包的虚拟机 (用于) 本地 PSTN 连接的 VM。 在虚拟化环境中部署最小的 Skype for Business Server 拓扑后，你将能够通过现有的本地 PSTN 语音基础结构通过座机和移动电话发送和接收呼叫。
   
 如果决定部署 Azure ExpressRoute 和 Cloud Connector Edition，我们建议在每个大洲的主站点与最近的 [ExpressRoute](/azure/expressroute/expressroute-locations)对等位置之间至少设置一个 Express Route 连接。 根据成本与效益，对于每个大洲，可以选择从不满足网络性能目标的站点部署其他 ExpressRoute 连接。
   
-如果有本地部署Skype for Business，则必须按照规划[指南进行](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)Skype for Business 云连接器版本。 具体而言，应为 Access Edge 和 A/V Edge 服务分配公共 IP 地址，并可以访问Microsoft 365或Office 365数据中心。
+如果你有本地 Skype for Business 部署，则必须按照 Skype [for Business Cloud Connector Edition 规划指南操作](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)。 具体而言，应为 Access Edge 和 A/V Edge 服务分配公共 IP 地址，并可以访问 Microsoft 365 或 Office 365 数据中心。
   
-在下面的示例中，Contoso 是一家欧洲会计公司，在几个主要的欧洲国家和地区有业务。 当他们注册 Skype for Business Online 以满足其所有协作需求时，他们决定为具有物理位置的每个国家/地区设置一个云连接器，以继续使用其 PSTN 基础结构和已存在的运营商合同。 基于从所有站点和 Microsoft Network Edge 进行测试，他们确定，伦敦单个 ExpressRoute 连接将有助于满足从 Skype for Business 客户端到 Microsoft Network Edge 的网络性能要求中所述的 Skype for Business 客户端连接[网络性能](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)目标。
+在下面的示例中，Contoso 是一家欧洲会计公司，在几个主要的欧洲国家和地区有业务。 当他们注册 Skype for Business Online 以满足其所有协作需求时，他们决定为有物理位置的每个国家/地区设置一个云连接器，以继续使用其 PSTN 基础结构和已存在的运营商合同。 基于从所有站点和 Microsoft Network Edge 进行测试，他们确定，伦敦单个 ExpressRoute 连接将有助于满足从 Skype for Business 客户端到 [Microsoft](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)Network Edge 的网络性能要求中所述的 Skype for Business 客户端连接网络性能目标。
   
 ![ExpressRoute 云连接器 1。](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   

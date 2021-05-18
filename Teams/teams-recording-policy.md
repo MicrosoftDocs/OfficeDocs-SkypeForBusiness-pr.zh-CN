@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba99e49aa546a57d412492737cae8f6520a9eb84
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: df8a0f5b33bbea100b0303d224d7ba50946c6e5b
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308361"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513875"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>有关Teams会议呼叫的基于策略的录制&简介
 
@@ -216,18 +216,19 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要记录�
 |:--|:--|
 |ASC Technologies |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 |AudioCodes |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
+|CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |配音器 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
-|Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 |Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
-|CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
+|Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 
 <br/>
 以下合作伙伴正在验证其解决方案Microsoft Teams。<br/><br/>
 
 |合作伙伴|解决方案网站 |
 |:--|:--|
+|Insightful Technology |[http://www.insightfultechnology.com/what-we-do/fixed-line-voice-recording/](http://www.insightfultechnology.com/what-we-do/fixed-line-voice-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Oak Innovation |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |

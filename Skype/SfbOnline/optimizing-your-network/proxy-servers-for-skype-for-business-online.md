@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 本文提供有关将代理服务器与 Skype for Business。
+description: 本文提供有关将代理服务器与 Skype for Business 一起使用的信息。
 ms.openlocfilehash: 09ed98c5f69d6e244a5f87125e4ad607e4d16226
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -31,13 +31,13 @@ ms.locfileid: "52240411"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-本文提供有关将代理服务器与 Skype for Business。
+本文提供有关将代理服务器与 Skype for Business 一同使用的指导。
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>建议不使用代理服务器
 
-考虑到通过代理的 Skype for Business 流量，Microsoft 建议绕过代理。 代理不会使Skype for Business更安全，因为流量已加密。
+考虑到通过代理的 Skype for Business 流量，Microsoft 建议绕过代理。 代理不会使 Skype for Business 更安全，因为流量已加密。
   
-另外，使用代理会产生问题。 环境中可能会出现由于延迟和数据包丢失而引起的与性能相关的问题。 此类问题将导致音频和视频等Teams或Skype for Business场景中的负面体验，实时流至关重要。
+另外，使用代理会产生问题。 环境中可能会出现由于延迟和数据包丢失而引起的与性能相关的问题。 此类问题会导致在音频和视频等 Teams 或 Skype for Business 方案中遇到负面体验，实时流至关重要。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>如果需要使用代理服务器
 

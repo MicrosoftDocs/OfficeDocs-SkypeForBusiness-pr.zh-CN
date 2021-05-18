@@ -17,12 +17,12 @@ description: 了解实时事件录制策略。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c808e4ae4e27e48c14c45711ef80ffd1c812125
-ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
+ms.openlocfilehash: f9654c139433ffa764767e0a2140896eab52204b
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51383966"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513845"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>实时事件录制策略Microsoft Teams
 
@@ -52,11 +52,7 @@ ms.locfileid: "51383966"
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | 始终记录               | 已禁用和已选择                                | 启用和选择         |
 | 组织者可以录制或不录制 | 默认情况下启用和选择                  | 默认情况下启用和选择   |
-| 从不录制               | 已禁用且未选中                            | 已启用且未选中      |
-
-当策略设置为"始终 **记录"** 时，策略页具有以下选定选项：
-
-![实时事件策略设置](../media/live-event-recording-policy.png "Microsoft Teams 管理中心中的实时事件策略设置屏幕截图")
+| 从不录制               | 已禁用且未选中                            | 已禁用且未选中      |
 
 ## <a name="storage-and-persistence-behavior"></a>存储和持久性行为
 

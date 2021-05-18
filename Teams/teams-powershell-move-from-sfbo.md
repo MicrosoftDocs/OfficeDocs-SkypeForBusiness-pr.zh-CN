@@ -12,12 +12,12 @@ ms.collection:
 description: 了解如何从 Skype for Business Online 连接器移动到 Teams PowerShell 模块以管理Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e788fc8cd31bd6e8754e410132e02829eaa2cad8
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 0b08505ca97672d5285c8ff46b0e5d3cf58e9f84
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469714"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513865"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>从 Skype for Business Online 连接器迁移到 Teams PowerShell 模块
 
@@ -35,8 +35,10 @@ TeamsPowerShell 模块提供一组完整的 cmdlet，用于Teams PowerShell 命�
 
 从使用 Skype for Business Online 连接器迁移到 Teams PowerShell 模块非常简单。 以下步骤介绍了如何这样做。
 
-1. 安装 PowerShell 模块Teams最新版本。 有关步骤，请参阅[安装 Microsoft Teams Powershell。](teams-powershell-install.md)
+1. 安装 PowerShell 模块Teams最新版本。 有关步骤，请参阅[安装 Microsoft Teams PowerShell。](teams-powershell-install.md)
+
 2. 卸载 Skype For Business Online 连接器。 为此，请在"控制面板"中转到"程序和功能"，选择"Skype for Business Online"，Windows PowerShell"模块 **"，** 然后选择"卸载 **"。**
+
 3. 在 PowerShell 脚本中，更改 从 中引用的模块 ```Import-Module``` 名称
 
     `SkypeOnlineConnector` 或 `LyncOnlineConnector` `MicrosoftTeams` 。
@@ -47,41 +49,50 @@ TeamsPowerShell 模块提供一组完整的 cmdlet，用于Teams PowerShell 命�
 
     ```powershell
        # When using the Skype for Business online connector
-         Import-Module SkypeForBusinessConnector [LyncOnlineConnector]
+         
+         # Establishing a session
+         Import-Module SkypeOnlineConnector [LyncOnlineConnector]
          $credential = Get-Credential
          $SkypeSession = New-CsOnlineSession -Credential $credential
          Import-Session $SkypeSession
     
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
+         
+         # Disconnecting and closing the Session 
+         Get-PsSession $SkypeSession | Remove-PsSession
     
        # When using Teams PowerShell Module 2.0 or later
+       
+         # Establishing a session
          Import-Module MicrosoftTeams
          $credential = Get-Credential
          Connect-MicrosoftTeams -Credential $credential
        
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
-    
-       # Closing the Session when using the Skype for Business online connector
-         Get-PsSession $SkypeSession | Remove-PsSession
-    
-       # Disconnecting from Teams PowerShell Module 
+         
+         # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
 
 ## <a name="online-support"></a>联机支持
 
 通过联机启动服务请求来节省时间。 我们将帮助你找到解决方案或联系技术支持人员。
+
 1.  转到 的管理中心 [https://admin.microsoft.com](https://admin.microsoft.com) 。 如果你收到一条消息，表明你无权访问此页面或执行此操作，那么你不是管理员。我Who拥有管理员权限？
+
 2.  选择" **需要帮助？"** 按钮。
+
 3.  在" **需要帮助？"** 窗格，告诉我们需要帮助的内容，然后按 Enter。
+
 4.  如果结果没有帮助，请选择"**联系支持人员"。**
+
 5.  输入问题说明，确认联系人号码和电子邮件地址，选择首选联系方式，然后选择"**与我联系"。** "需要帮助？" 中指示了预期的等待时间。窗格。
 
 ## <a name="related-topics"></a>相关主题
 
-[安装 Microsoft Teams Powershell](teams-powershell-install.md)
+[安装 Microsoft Teams PowerShell](teams-powershell-install.md)
 
 [使用 Teams PowerShell Teams管理资源](teams-powershell-managing-teams.md)
 
