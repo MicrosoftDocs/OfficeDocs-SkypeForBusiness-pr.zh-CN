@@ -28,18 +28,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52239464"
 ---
-# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a><span data-ttu-id="20f5c-103">用户的 Skype for Business Online 服务计划无效</span><span class="sxs-lookup"><span data-stu-id="20f5c-103">The user's Skype for Business Online service plan isn't valid</span></span>
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a><span data-ttu-id="d6d8b-103">用户的 Skype for Business Online 服务计划无效</span><span class="sxs-lookup"><span data-stu-id="d6d8b-103">The user's Skype for Business Online service plan isn't valid</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-<span data-ttu-id="20f5c-104">很抱歉，Skype for Business分配给此用户的联机服务计划无法识别或无效。</span><span class="sxs-lookup"><span data-stu-id="20f5c-104">Sorry, the Skype for Business Online service plan assigned to this user is not recognized, or is invalid.</span></span>
+<span data-ttu-id="d6d8b-104">很抱歉，Skype for Business分配给此用户的联机服务计划无法识别或无效。</span><span class="sxs-lookup"><span data-stu-id="d6d8b-104">Sorry, the Skype for Business Online service plan assigned to this user is not recognized, or is invalid.</span></span>
   
-<span data-ttu-id="20f5c-105">转到 \*"Microsoft 365管理中心\*\*">"活动 **用户**"，并为此用户分配有效的服务计划。</span><span class="sxs-lookup"><span data-stu-id="20f5c-105">Go to the *Microsoft 365 admin center*\* > **Active users** and assign a valid service plan to this user.</span></span>
+<span data-ttu-id="d6d8b-105">转到 \*"Microsoft 365管理中心\*\*">"活动 **用户**"，并为此用户分配有效的服务计划。</span><span class="sxs-lookup"><span data-stu-id="d6d8b-105">Go to the *Microsoft 365 admin center*\* > **Active users** and assign a valid service plan to this user.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="20f5c-106">相关主题</span><span class="sxs-lookup"><span data-stu-id="20f5c-106">Related topics</span></span>
-[<span data-ttu-id="20f5c-107">设置 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="20f5c-107">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="d6d8b-106">相关主题</span><span class="sxs-lookup"><span data-stu-id="d6d8b-106">Related topics</span></span>
+[<span data-ttu-id="d6d8b-107">设置 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="d6d8b-107">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="20f5c-108">允许 Skype for Business 用户添加 Skype 联系人</span><span class="sxs-lookup"><span data-stu-id="20f5c-108">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="d6d8b-108">允许 Skype for Business 用户添加 Skype 联系人</span><span class="sxs-lookup"><span data-stu-id="d6d8b-108">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
   
   
  

@@ -25,15 +25,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52240017"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="3b57d-102">在组织中设置策略</span><span class="sxs-lookup"><span data-stu-id="3b57d-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="143aa-102">在组织中设置策略</span><span class="sxs-lookup"><span data-stu-id="143aa-102">Set up policies in your organization</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-<span data-ttu-id="3b57d-103">策略可帮助确定 Skype for Business Online 中可供用户使用的功能。</span><span class="sxs-lookup"><span data-stu-id="3b57d-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="3b57d-104">有关完整详细信息，请参阅以下文章。</span><span class="sxs-lookup"><span data-stu-id="3b57d-104">See the following articles for complete details.</span></span>
+<span data-ttu-id="143aa-103">策略可帮助确定 Skype for Business Online 中可供用户使用的功能。</span><span class="sxs-lookup"><span data-stu-id="143aa-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="143aa-104">有关完整详细信息，请参阅以下文章。</span><span class="sxs-lookup"><span data-stu-id="143aa-104">See the following articles for complete details.</span></span>
 
-- [<span data-ttu-id="3b57d-105">阻止点到点文件传输</span><span class="sxs-lookup"><span data-stu-id="3b57d-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
-- [<span data-ttu-id="3b57d-106">创建自定义外部访问策略</span><span class="sxs-lookup"><span data-stu-id="3b57d-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
-- [<span data-ttu-id="3b57d-107">保留附加到会议的大文件</span><span class="sxs-lookup"><span data-stu-id="3b57d-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
-- [<span data-ttu-id="3b57d-108">为你的组织设置会议策略</span><span class="sxs-lookup"><span data-stu-id="3b57d-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
-- [<span data-ttu-id="3b57d-109">为你的组织设置移动策略</span><span class="sxs-lookup"><span data-stu-id="3b57d-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
-- [<span data-ttu-id="3b57d-110">为你的组织设置客户端策略</span><span class="sxs-lookup"><span data-stu-id="3b57d-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
+- [<span data-ttu-id="143aa-105">阻止点到点文件传输</span><span class="sxs-lookup"><span data-stu-id="143aa-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="143aa-106">创建自定义外部访问策略</span><span class="sxs-lookup"><span data-stu-id="143aa-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="143aa-107">保留附加到会议的大文件</span><span class="sxs-lookup"><span data-stu-id="143aa-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="143aa-108">为你的组织设置会议策略</span><span class="sxs-lookup"><span data-stu-id="143aa-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="143aa-109">为你的组织设置移动策略</span><span class="sxs-lookup"><span data-stu-id="143aa-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="143aa-110">为你的组织设置客户端策略</span><span class="sxs-lookup"><span data-stu-id="143aa-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)

@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Skype for Business Online 管理
-summary: Skype for Business Online 将于 2021 年 7 月 31 日停用，此时将结束对该服务的访问。 我们鼓励客户开始升级到 Microsoft Teams（Microsoft 365 中团队合作的中心）。
+summary: Skype for BusinessOnline 将于 2021 年 7 月 31 日停用，此时将结束对服务的访问。 我们鼓励客户开始升级到Microsoft Teams团队协作的中心Microsoft 365。
 metadata:
   title: Skype for Business Online 管理
   description: 了解如何为你的组织管理 Skype for Business Online。
@@ -28,7 +28,7 @@ landingContent:
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Skype for Business Online 将于 2021 年停用
+    - text: Skype for Business在线将于 2021 年停用
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:
