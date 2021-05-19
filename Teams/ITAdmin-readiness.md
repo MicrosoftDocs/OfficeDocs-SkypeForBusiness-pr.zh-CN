@@ -19,28 +19,30 @@ ms.custom:
 description: 为管理员PowerPoint计划、部署和运行资源的培训视频、幻灯片、教程Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498717"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526665"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>适用于管理员的管理员培训Microsoft Teams
 
 使用培训资源来指导自己Teams学习、指导他人或开展研讨会。 请经常返回此处查看新内容。
 
-|       图标        | 说明               |    图标           |说明               |
-| :------------ | :------------ | :------------ | :------------ |
-| [从此处开始推出](./get-started-with-teams-quick-start.md) | [按Teams查看功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
-| [在 YouTube 上的"云中的咖啡"频道中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams指导性对话：了解有关热门应用场景的最佳实践Teams指南](./chalk-talks-landing-page.yml) |
+
+|  |  |
+|---------|---------|
+|[从此处开始推出](./get-started-with-teams-quick-start.md)     |[按Teams查看功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|[在 YouTube 上的"云中的咖啡"频道中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams指导性对话：了解有关热门应用场景的最佳实践Teams指南](./chalk-talks-landing-page.yml)         |
+
 
 <h2>关键培训产品/服务与课程</h2>
 
-|   图标            | 说明              |  图标             |    说明           |
-| :------------ | :------------ | :------------ | :------------ |
-| [使用 Microsoft Teams 支持远程工作者](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams IT 的必备功能](https://aka.ms/MicrosoftTeamsforIT) | [为 IT 团队协作](/learn/paths/m365-manage-team-collaboration) | [服务采用专家认证](/learn/paths/m365-service-adoption) |
-| [Microsoft 365 中的团队合作简介](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 认证：团队合作管理员协会](/learning/m365-teamwork-administrator.aspx) |
+| | |  |
+|---------|---------|---------|
+|[**Teams IT**](https://aka.ms/MicrosoftTeamsforIT)的一些基本信息 - Microsoft Mechanics Teams it"视频系列向管理员展示如何推出、配置和管理 Teams。     |[**使用远程Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 获取所需的指南（包括培训链接）以支持在家工作的用户。         |[**IT 团队协作**](/learn/paths/m365-manage-team-collaboration)- 了解如何使用 Teams促进组织内部跨应用程序和设备的团队协作和通信。         |
+|[**服务采用专家认证**](/learn/paths/m365-service-adoption)- Microsoft 服务采用专家认证课程Teams。 了解如何推动你所在组织采用 Microsoft 服务。     |[**团队协作简介Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - Microsoft 服务采用专家认证课程功能Teams。 了解如何推动你所在组织采用 Microsoft 服务。        |[**Microsoft 365：Teamwork 管理员**](/learning/m365-teamwork-administrator.aspx)关联 - Microsoft 365 Teamwork 管理员配置、部署和管理 Microsoft 365 或 Office 365 工作负荷，例如 SharePoint (联机、本地和混合) 、OneDrive 和 Teams。        |
 
 
 <h2>技术培训</h2>
@@ -80,7 +82,7 @@ ms.locfileid: "52498717"
 
 <h2>TeamsAndroid 设备</h2>
 
-<p>下表包含全面视频培训的链接，以及 Microsoft Teams Android 设备上的 PowerPoint 幻灯片 (（PDF 格式为) ）的链接，其中包括 Teams 显示器、Teams 手机、Teams 会议室 for Android 和 Teams 面板。  
+<p>下表包含全面视频培训的链接，以及) Android 设备上的 PowerPoint 幻灯片 (（PDF 格式为) ）的链接，其中包括 Microsoft Teams Teams 显示器、Teams 手机、Teams 会议室 for Android 和 Teams 面板。  
 
 | 模块 | 视频 | PowerPoint幻灯片 (PDF)   |
 | ------------ | -------------------- | -------------------- |

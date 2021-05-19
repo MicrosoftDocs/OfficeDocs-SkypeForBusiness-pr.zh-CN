@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列，以及如何使用它们来帮助呼叫者浏览菜单系统，以联系组织中人员或部门。
-ms.openlocfilehash: 2e81f1d40c73cb8bcdf0a5ebd48f05c015732afe
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
+ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262637"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52517745"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划Teams助理和呼叫队列
 
@@ -83,8 +83,8 @@ ms.locfileid: "51262637"
 
 将呼叫转接到外部电话号码时，执行转接 (即与自动助理或呼叫队列关联的资源帐户) 必须具有 Microsoft 365 电话系统 虚拟用户许可证，并且分配有以下任一许可证：
 
-- 呼叫 [计划](calling-plans-for-office-365.md) 许可证
-- 联机 [语音路由策略](manage-voice-routing-policies.md)
+- 分配的 [呼叫](calling-plans-for-office-365.md) 计划许可证和电话号码
+- 使用 [直接路由 (](manage-voice-routing-policies.md) 时，可以选择使用联机语音路由策略) 
 
 > [!NOTE]
 > 自动助理和呼叫队列的直接路由服务号码仅支持Microsoft Teams和呼叫代理。<br>
