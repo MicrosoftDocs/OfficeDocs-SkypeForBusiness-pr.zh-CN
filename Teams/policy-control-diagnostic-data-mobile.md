@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
+ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498767"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52569230"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -1188,11 +1188,43 @@ ms.locfileid: "52498767"
 - **whiteboardUsed** - 用户在白板上注释（Web 视图上的任何操作）。
 - **wiki - No AS assigned** - Wiki 用法遥测。
 
+### <a name="panelview"></a>视图面板
+
+> [!NOTE]
+> 关于视图面板事件属性的详细信息，请参阅[与视图面板事件一起发送的属性](#properties-sent-with-panelview-events)。
+
+- **fileDeleteFailed** - 文件删除操作失败时触发。
+- **fileDeleteSuccess** - 文件删除操作成功时触发。
+- **filePreview** - 在以下情况下触发：
+  - 在文件预览屏幕中点击“共享”选项时。
+  - 在文件预览屏幕中点击“复制”选项时。
+  - 在文件预览屏幕中点击“下载”选项时。
+  - 成功加载文件预览时。
+- **files** - 在以下情况下触发：
+  - 在 Teams 应用中预览文件时。
+  - 在 OneDrive 文件屏幕点击“文件上载”选项时。
+  - 在文件预览屏幕中点击“复制链接”选项时。
+  - 文件共享屏幕关闭时。
+  - 打开“文件选项”菜单或单击该菜单中的某个选项时。
+  - “通话中”文件屏幕打开时。
+  - 点击打开文件时。
+- **filesChannel** - 打开频道文件屏幕时触发。
+- **fileSources** - 打开“文件选项”菜单或单击该菜单中的某个选项时触发。
+- **filesPersonal** - 在 OneDrive 或“最近使用的文件”屏幕中加载一批文件时触发。
+- **fileUploadDeleteTriggered** - 从消息区域删除或拆离文件附件时触发。
+- **fileUploadFailed** - 文件上传操作失败时触发。
+- **fileUploadIndividualNotification** - 当文件上载通知的内容更改或与通知交互时触发。 这些交互可能包括如轻扫以消除通知或点击通知等手势。
+- **fileUploadSuccess** - 文件上传操作成功时触发。
+- **fileUploadSummaryNotification** - 当文件上载摘要通知的内容更改或与通知交互时触发。 这些交互可能包括如轻扫以消除通知或点击通知等手势。
+- **meetingFiles** - 打开会议文件屏幕时触发。
+- **navPersonalFiles** - 执行文件屏幕导航时触发。
+
 ### <a name="scenario"></a>使用场景
 
 > [!NOTE]
 > 有关场景事件属性的详细信息，请参阅 [与方案事件一起发送的属性](#properties-sent-with-scenario-events)。
 
+- **chat_add_giphy** - 确认 Giphy GIF 渲染操作成功或失败。
 - **cortanaError** 监控 Cortana 错误发生。
 - **cortanaView** - 监控 Cortana 画布出现。
 - **cortanaRestart** 监控 Cortana 重启。
@@ -1216,6 +1248,7 @@ ms.locfileid: "52498767"
 - **create_personal_task** - 确认成功创建个人任务项。
 - **create_planner_plan_and_nav_to_view** - 确认成功创建共享任务列表，以及用户在操作后登录结果视图所用的时间。
 - **create_planner_task** - 确认成功创建共享任务项目。
+- **forwardExistingAmsObject** 确认媒体转发操作成功或失败。
 - **delete_personal_plan** - 确认成功删除个人任务列表。
 - **delete_personal_task** - 确认成功删除个人任务项。
 - **delete_planner_plan** - 确认成功删除共享任务列表。
@@ -1231,13 +1264,20 @@ ms.locfileid: "52498767"
 - **meetingInsightLocatorRender** - 确认呈现会议相关内容定位符提示。
 - **meetingInsightRender** - 确认呈现会议相关内容。
 - **meetingInsightVisible** - 确认会议相关内容可见。
+- **open_image** 确认全屏图像渲染成功或失败。
 - **rename_personal_plan** - 确认成功重命名个人任务列表。
 - **rename_planner_plan** - 确认成功重命名共享任务列表。
+- **save_image** 确认图像保存操作成功或失败。
+- **share_image** 确认图像共享操作成功或失败。
 - **smart_reply_enabled** - 确认当前用户已启用智能答复。
 - **smart_reply_received** - 确认已收到智能答复建议。
 - **smart_reply_banned** - 确认当前用户无法显示智能答复。
 - **update_planner_task_and_nav_to_view** - 确认成功更新共享任务项，以及用户在操作后登陆结果视图所用的时间。
-- **update_personal_task_and_nav_to_view** - 确认成功更新个人任务项，以及在 - **updatePlannerTask** 后用户登陆结果视图所用的时间 - 确认用户已成功更新共享任务列表中的任务。
+- **update_personal_task_and_nav_to_view** - 确认已成功更新个人任务项，以及用户登陆结果视图所用时间。 
+- **updatePlannerTask** - 确认用户已成功更新共享任务列表中的任务。
+- **upload_images** 确认图像上传操作成功或失败。
+- **upload_voice_messages** 确认语音消息上传操作成功或失败。
+- **voiceMessageUpload** 确认语音消息上传操作成功或失败。
 
 ## <a name="property-lists"></a>属性列表
 

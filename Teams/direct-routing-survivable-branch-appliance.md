@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edf2c2a97bec2b167f1218d983d3c9f7fa4bd667
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6d6342f41b3cd4bfad690794c0b6474ca45e78c8
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096422"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589236"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>用于直接路由 (SBA) 的可生存分支设备
 
@@ -212,5 +212,3 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 - SBA 不支持呼叫转发设置。 
 
 - 不支持对为 E911 (动态紧急呼叫配置的紧急) 紧急呼叫。
-
-- 输出中Get-CsOnlineUser TeamsBranchSurvivabilityPolicy。

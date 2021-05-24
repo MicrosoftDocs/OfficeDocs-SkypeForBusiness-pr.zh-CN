@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7462822626b698f95b80a716a55f94dfe92148ff
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 88fb4459192ad9ff5af8702878d1cbf6a59d8e9d
+ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835022"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52569200"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>直接路由 - 定义和 RFC 标准
 
@@ -90,4 +90,7 @@ ms.locfileid: "41835022"
 
 - **使用媒体旁** 路，所有 RTP 媒体Teams终结点和 SBC 之间流动。 
 
-请注意，SIP 流量始终通过 SIP 代理流动。   
+请注意，SIP 流量始终通过 SIP 代理流动。 
+
+## <a name="dtmf"></a>DTMF
+媒体堆栈不支持带内 DTMF。

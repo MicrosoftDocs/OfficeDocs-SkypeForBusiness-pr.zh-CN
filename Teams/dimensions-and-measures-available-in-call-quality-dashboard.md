@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关呼叫质量仪表板和适用于 Microsoft Teams Online 的 CQD (CQD) 和Skype for Business的详细信息。
-ms.openlocfilehash: 981c5811f00d2e9005bd1387a7b58d23431af848
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: b44323d8fd15b3e0f97269afe7459981348d977b
+ms.sourcegitcommit: d3a5efa1e11e4dad97f31d633d31aa7c9b2dee57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469734"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583921"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>呼叫质量仪表板和 CQD (中的维度和) 
 
@@ -157,7 +157,7 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Duration (Minutes)  | 范围（分钟）  | 流的持续时间，以分钟为单位。值按范围分组表示。<br/> **示例值** ：065：[3-4)  ||
 | Duration (Seconds)  | 范围（秒） | 流的持续时间，以秒为单位。值按范围分组表示。<br/> **示例值** ：062：[1 -2) ||
 |**日期**|||
-|结束时间|  String| 通话结束的一天中的时间。|&bull; 调用设置失败 |
+|结束时间|  String| 通话结束的一天中的时间。|&bull; 调用设置失败或尚未建立 (请参阅 CDR 响应原因)  |
 | Year  | 整型  | 流结束的年份。 值以 UTC 时区报告。 <br/> **示例值** ：2018 | |
 | Month  | 整型  | 流结束的月份。 值以 UTC 时区报告。 <br/> **示例值：2** | |
 | Day  | 整型  | 流结束的一天。 值以 UTC 时区报告。 <br/> **示例值：1** | |
@@ -168,10 +168,10 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Day Of Year  | 整型  | 流结束时的一年中的一天。 值以 UTC 时区报告。 <br/> **示例值：32** | |
 | Day Of Week  | 字符串  | 流结束的一周中的一天。 值以 UTC 时区报告。 <br/> **示例值：** 星期三 | |
 | Day Number Of Week  | 整型  | 流结束的星期数。 值以 UTC 时区报告。 <br/> **示例值：3** | |
-|Week|  String  |通话的开始日期。 <br/> **示例值** ：2019-09-01 |&bull; 调用设置失败 |
+|Week|  String  |通话的开始日期。 <br/> **示例值** ：2019-09-01 |&bull; 调用设置失败或尚未建立 (请参阅 CDR 响应原因)  |
 | Month Year  | 字符串  | 流的结束月份和年份。 值以 UTC 时区报告。 <br/> **示例值** ：2017-02 | |
 | Full Month  | 日期时间  | 流结束的完整月份。 值以 UTC 时区报告。 <br/> **示例值** ：2017-02-01T00：00：00 | |
-|开始时间|String  |通话开始一天的时间。|&bull; 调用设置失败 |
+|开始时间|String  |通话开始一天的时间。|&bull; 调用设置失败或尚未建立 (请参阅 CDR 响应原因)  |
 |**UserAgent** | | |
 | First Domain  | 字符串  | 第一终结点用户的域。 如果第一个终结点是会议服务器，则它使用会议组织者的域。 也可能是场景中使用的服务帐户的域。  <br/> **示例值：contoso** <span></span> .com | |
 | Second Domain  | 字符串  | 第二终结点用户的域。 如果第二终结点是会议服务器，则它使用会议组织者的域。 也可能是场景中使用的服务帐户的域。 <br/> **示例值：contoso** <span></span> .com  | |

@@ -19,12 +19,12 @@ ms.custom:
 description: 为管理员PowerPoint计划、部署和运行资源的培训视频、幻灯片、教程Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 901a6bd2f6eb2c120af45aef8d4ca9eb4bea45e5
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526665"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589186"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>适用于管理员的管理员培训Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "52526665"
 | | |  |
 |---------|---------|---------|
 |[**Teams IT**](https://aka.ms/MicrosoftTeamsforIT)的一些基本信息 - Microsoft Mechanics Teams it"视频系列向管理员展示如何推出、配置和管理 Teams。     |[**使用远程Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 获取所需的指南（包括培训链接）以支持在家工作的用户。         |[**IT 团队协作**](/learn/paths/m365-manage-team-collaboration)- 了解如何使用 Teams促进组织内部跨应用程序和设备的团队协作和通信。         |
-|[**服务采用专家认证**](/learn/paths/m365-service-adoption)- Microsoft 服务采用专家认证课程Teams。 了解如何推动你所在组织采用 Microsoft 服务。     |[**团队协作简介Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - Microsoft 服务采用专家认证课程功能Teams。 了解如何推动你所在组织采用 Microsoft 服务。        |[**Microsoft 365：Teamwork 管理员**](/learning/m365-teamwork-administrator.aspx)关联 - Microsoft 365 Teamwork 管理员配置、部署和管理 Microsoft 365 或 Office 365 工作负荷，例如 SharePoint (联机、本地和混合) 、OneDrive 和 Teams。        |
+|[**服务采用专家认证**](/learn/paths/m365-service-adoption)- Microsoft 服务采用专家认证课程Teams。 了解如何推动你所在组织采用 Microsoft 服务。     |[**团队协作简介Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - Microsoft 服务采用专家认证课程功能Teams。 了解如何推动你所在组织采用 Microsoft 服务。        |[**Microsoft 365：Teamwork 管理员**](/learn/certifications/m365-teamwork-administrator)关联 - Microsoft 365 Teamwork 管理员配置、部署和管理 Microsoft 365 或 Office 365 工作负荷，例如 SharePoint (联机、本地和混合) 、OneDrive 和 Teams。        |
 
 
 <h2>技术培训</h2>
