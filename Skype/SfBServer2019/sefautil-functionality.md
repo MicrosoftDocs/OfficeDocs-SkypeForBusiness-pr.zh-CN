@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 2019 中支持在 PowerShell 中使用 SEFAUtil 功能
+title: 2019 年 2 月支持在 PowerShell Skype for Business Server SEFAUtil 功能
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 摘要：了解如何在安装累积更新 1 后，使用 PowerShell 在 Skype for Business Server 2019 中获取 SEFAUtil 功能。
-ms.openlocfilehash: d97dd84a3d05cf18752e40dd73a8c5f7e9752d3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何在安装累积更新 1 后，在 Skype for Business Server 2019 使用 PowerShell 获取 SEFAUtil 功能。
+ms.openlocfilehash: fa7bccaa30b559bf694274471b1f8883e8482861
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120503"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629001"
 ---
-# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>在 Skype for Business Server 2019 中通过 PowerShell 使用 SEFAUtil 功能
+# <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>在 2019 年 10 月通过 PowerShell Skype for Business Server SEFAUtil 功能
 
-SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Server administrators and helpdesk agents to configure delegate-ringing， call-forwarding， and Group Call Pickup settings on behalf of a Skype for Business Server user. 此工具还允许管理员查询为特定用户发布的呼叫路由设置。 安装 Skype for Business Server 2019 7 月累积更新后，当前仅能通过 SEFAUtil 管理的以下功能也可通过 PowerShell 进行管理：
+SEFAUtil (辅助扩展功能激活) 允许 Skype for Business Server 管理员和技术支持代理代表 Skype for Business Server 用户配置委派响铃、呼叫转发和组内呼叫接听设置。 此工具还允许管理员查询为特定用户发布的呼叫路由设置。 安装 2019 Skype for Business Server 2019 年 7 月累积更新后，当前仅能通过 SEFAUtil 管理的以下功能也可通过 PowerShell 进行管理：
 
 - [呼叫转发设置](#call-forwarding-settings)
 - [委派设置](#delegation-settings)
@@ -52,7 +52,7 @@ SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Ser
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-此 cmdlet 使用两个参数示例再次 (SimulRing 设置，一个针对语音邮件未ansanswered，另一个未ansanswered to other) 。
+此 cmdlet 使用两个参数示例 (同时修改同时响铃设置，一个针对语音邮件未answered，另一个未answered to other) 。
 
 ## <a name="delegation-settings"></a>委派设置
 
@@ -64,7 +64,7 @@ SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Ser
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]`
 
-此 cmdlet 可修改指定用户的委派设置，返回委派列表的对象并显示委派列表（如果成功）。 如果失败，将显示相应的错误消息。 
+此 cmdlet 可修改指定用户的委派设置，返回委派列表的对象，并显示委派列表（如果成功）。 如果失败，将显示相应的错误消息。 
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
 
@@ -102,8 +102,8 @@ SEFAUtil (Secondary Extension Feature Activation) enables Skype for Business Ser
 - CsVoiceAdministrator - 获取和设置所有 cmdlet
 - CsHelpDesk - 获取所有 cmdlet
 
-有关这些管理员角色详细信息，请参阅创建 [Skype for Business Server 控制面板管理员](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)。 管理员可以直接或远程登录到服务器计算机来访问这些 cmdlet。
-对于混合部署，Skype for Business 管理员应能够调用所有 cmdlet 的 Get 和 Set。 有关角色的完整列表详细信息，请参阅关于 [管理员角色](/microsoft-365/admin/add-users/about-admin-roles)。
+有关这些管理员角色详细信息，请参阅 Create [Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)。 管理员可以直接或远程登录到服务器计算机来访问这些 cmdlet。
+对于混合部署，Skype for Business管理员应能够调用所有 cmdlet 的 Get 和 Set。 有关角色的完整列表详细信息，请参阅关于 [管理员角色](/microsoft-365/admin/add-users/about-admin-roles)。
 
 > [!NOTE]
 > 必须启用服务器自动发现。 不会引入其他许可要求来使用 cmdlet。

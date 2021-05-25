@@ -21,17 +21,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 了解如何为自动助理设置和测试Microsoft Teams。
-ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+description: 了解如何为公司中的大型组织设置和测试自动助理Microsoft Teams。
+ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498787"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628941"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
 自动助理可让你的人呼叫你的组织并导航菜单系统，以与正确的部门、呼叫队列、人员或接线员通话。 可以使用管理中心或 PowerShell 为组织Microsoft Teams自动助理。
+
+> [!TIP]
+> 本文是大型组织。 如果你的组织是一家小公司，请改为阅读设置自动助理 [- 小型企业教程](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 。
 
 请确保已阅读自动[助理Teams](plan-auto-attendant-call-queue.md)呼叫队列的计划，并按照入门步骤操作，然后按照本文中的[](plan-auto-attendant-call-queue.md#getting-started)步骤操作。
 

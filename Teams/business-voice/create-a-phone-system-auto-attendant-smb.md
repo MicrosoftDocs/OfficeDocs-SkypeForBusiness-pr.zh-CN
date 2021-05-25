@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 了解如何设置和测试自动助理以Microsoft 365 商务语音。
-ms.openlocfilehash: 54815aa5e7b9740a9bc8028f211edd0d456462b0
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+description: 了解如何为企业中的小型企业设置和测试Microsoft 365 商务语音。
+ms.openlocfilehash: 7dbd9e471b80e2f930b330ad826147b92b1afef8
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130232"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628971"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>设置自动助理 - 小型企业教程
 

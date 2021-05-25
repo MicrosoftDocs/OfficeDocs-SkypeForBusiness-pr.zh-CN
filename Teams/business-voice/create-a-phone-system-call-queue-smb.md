@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: 了解如何使用 Microsoft 365 商务语音 设置呼叫队列。
-ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: 了解如何在 Microsoft 365 商务语音 中为小型企业设置呼叫Microsoft 365 商务语音。
+ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064818"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629051"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>创建呼叫队列 - 小型企业教程
 

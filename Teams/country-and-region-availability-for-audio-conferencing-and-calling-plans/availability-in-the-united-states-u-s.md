@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365美国Skype for Business Microsoft Teams和服务的一些服务。
-ms.openlocfilehash: 65cd883ef6cffc295f8559bbb4b1779cae020946
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b3503c3a8c5421c7a2059019d3798bf23823960d
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094644"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629031"
 ---
 # <a name="availability-in-the-united-states-us"></a>在美国 (U.S.) 的可用性
 
@@ -64,9 +64,9 @@ ms.locfileid: "51094644"
 | 能否对高级号码进行出站呼叫？ <br/> | 目前不支持。 <br/>                                                                                                                                                                                                                                                                                               |
 | 是否可以拨打呼出电话？  <br/>                | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> 到加拿大的呼叫被视为国内呼叫。
+> 当呼叫 (国内或国内和国际呼叫) 美国用户拨打加拿大的电话号码时，将视为国内呼叫。 当加拿大的用户拨打美国的电话号码时，也会发生此情况。但是，如果你还使用呼叫计划策略将用户拨出限制为"国内"，则美国用户将无法呼叫加拿大，同样，加拿大用户将无法呼叫美国用户。
 
->[!Note] 
+>[!Note]
 > 美国国内呼叫包括呼叫美国所有 50 个州和波多黎各。 分配有美国和/或波多黎各许可证使用位置的用户共享相同的分钟数池。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码

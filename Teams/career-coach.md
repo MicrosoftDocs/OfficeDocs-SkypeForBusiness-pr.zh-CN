@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911f880ba817afff10acb2a347a5c8c776d059c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129968"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628901"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>购买、配置和启用职业指导Microsoft Teams
 
@@ -194,13 +194,6 @@ LinkedIn 配置将职业指导与来自 LinkedIn 的公共毕业生数据相连�
 > [!NOTE]
 > 从示例 [课程目录文档]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) 开始入门。
 
-##### <a name="sample-csv-file"></a>示例.CSV文件
-
-```
-courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAltText,educationLevel,topics
-"AA-501","Analytics Foundations","https://example.com/course-id","This course equips the student with the knowledge and skills needed to conduct and present large-scale studies based on advanced analytics.","en-us","In-person","https://via.placeholder.com/360x200","Undergraduate","Alt text for the thumbnail","analytics, data science, data analysis, linear regression"
-```
-
 下表显示了要包括在课程目录中的项目：
 
 
@@ -260,6 +253,10 @@ courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAlt
   
 3. 选择"**应用"。**
 
+## <a name="making-career-coach-available-to-your-organization"></a>为组织提供职业指导
+
+现在，已为组织配置了职业指导。 请按照以下步骤确保职业指导可供组织在Microsoft Teams。
+
 ### <a name="enable-the-app"></a>启用应用
 
 完成配置后，为学生和许可用户启用应用，以便他们有权访问职业指导。  
@@ -276,21 +273,37 @@ courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAlt
   > [!NOTE]
   > 允许意味着该应用可供教育机构中的用户使用。 被阻止意味着该应用对学生不可用。
 
-#### <a name="pin-the-app"></a>固定应用
+### <a name="add-career-coach-as-an-installed-app"></a>将职业指导添加为已安装的应用
+
+> [!NOTE]
+> 此步骤可确保 1) 为组织正确配置职业指导 2) 学生找到职业指导。
+
+1. 登录到管理 **Teams中心**。
+
+2. 选择 **Teams** &gt; **设置策略** &gt; *策略"。* 
+
+3. 在"已安装的应用"下，选择"添加应用"。
+
+4. 在"添加已安装的应用"窗格中，搜索希望用户在启动应用时自动安装Teams。 还可以按应用权限策略筛选应用。 选择应用列表后，选择"添加"。
+
+### <a name="pin-the-app"></a>固定应用
 
 固定职业指导会使应用更易于访问，并且对学生可见。
 
 1. 登录到管理 **Teams中心**。
 
-1. 选择 **Teams** &gt; **设置策略** &gt; *策略"。* 
+2. 选择 **Teams** &gt; **设置策略** &gt; *策略"。* 
 
-2. 在 **"固定的应用"下**，选择 **"添加应用"。**
+3. 在 **"固定的应用"下**，选择 **"添加应用"。**
 
-1. 搜索"**职业指导"，** 然后选择"添加 **"。**
+4. 搜索"**职业指导"，** 然后选择"添加 **"。**
 
-1. 选择显示应用的顺序，然后选择"保存 **"。**
+5. 选择显示应用的顺序，然后选择"保存 **"。**
 
-   学生将收到职业Microsoft Teams已固定的通知。  
+> [!NOTE]
+> 学生将收到职业Microsoft Teams已固定的通知。
+
+有关 [更多详细信息，请参阅在 Microsoft 中](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) 管理应用设置策略。
 
 ## <a name="resources"></a>资源
 

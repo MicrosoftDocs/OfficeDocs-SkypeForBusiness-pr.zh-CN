@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本文，了解如何将模拟设备与 Microsoft 电话直接路由一起使用。
-ms.openlocfilehash: 855bf0dd21659c43037b6171f523983d67c4e755
-ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
+ms.openlocfilehash: dc49c22dceffda6905d1f57652fd14d584d02cf6
+ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841483"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52642092"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>如何将模拟设备与 电话系统直接路由
 
@@ -82,7 +82,7 @@ PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"}
 此命令为数字范围 +1425 XXX XX XX 创建标识为"模拟互操作"的新在线语音路由。  语音路由适用于联机网关列表 sbc.contoso.com 将路由与联机 PSTN 使用情况"互操作"关联。 语音路由包括一个正则表达式，用于标识将通过给定语音路由路由的电话号码：
 
 ```powershell
-PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
+PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7})$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>步骤 4：将语音路由分配到 PSTN 使用情况：
@@ -114,7 +114,7 @@ PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -Po
 此命令为适用于联机网关列表的编号范围 +1425 4XX XX XX 创建标识为"模拟互操作"的联机语音路由 sbc.contoso.com 并关联它与联机 PSTN 使用情况"互操作"。  此命令应该针对具有适当电话号码模式的每个模拟设备运行。 或者，在之前的步骤之一中配置联机语音路由时，可以使用模拟设备的适当数字模式。
 
 ```powershell
-PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6}])$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
+PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6})$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="considerations"></a>注意事项

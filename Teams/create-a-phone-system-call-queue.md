@@ -23,17 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: 了解如何使用 电话系统为呼叫队列设置Microsoft Teams，它提供问候消息、保存音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，该队列提供问候消息、保留音乐、呼叫重定向和其他功能。
+ms.openlocfilehash: 926e3903f0ee59271d0b4806cf61ad02a6f52088
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064798"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628931"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
 呼叫队列提供将呼叫者路由到组织中可以解决特定问题或问题的人的方法。 呼叫一次一个地分配给队列中 (称为代理 *) 。* 
+
+> [!TIP]
+> 本文是大型组织。 如果你的组织是小型企业，请改为阅读创建 [呼叫队列 - 小型企业](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) 教程。
 
 呼叫队列提供：
 
@@ -47,15 +50,17 @@ ms.locfileid: "52064798"
 
 请确保已阅读自动[助理Teams](plan-auto-attendant-call-queue.md)呼叫队列的计划，并按照入门步骤操作，然后按照本文中的[](plan-auto-attendant-call-queue.md#getting-started)步骤操作。
 
-要设置呼叫队列，请在Teams中心展开 **"** 语音"，单击"呼叫 **队列**"，然后单击"添加 **"。**
-
 ## <a name="video-demonstration"></a>视频演示
 
 此视频演示了如何在呼叫队列中创建呼叫队列的基本Teams。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
-## <a name="resource-account-and-language"></a>资源帐户和语言
+## <a name="create-the-call-queue"></a>创建呼叫队列
+
+要设置呼叫队列，请在Teams中心展开 **"** 语音"，单击"呼叫 **队列**"，然后单击"添加 **"。**
+
+### <a name="resource-account-and-language"></a>资源帐户和语言
 
 ![资源帐户和语言设置的屏幕截图](media/call-queue-name-language.png)
 
@@ -65,7 +70,7 @@ ms.locfileid: "52064798"
 
 3. 选择 [受支持的语言](create-a-phone-system-call-queue-languages.md)。 如果启用语音提示和语音听录，此语言 (系统生成的语音) 。
 
-## <a name="greetings-and-music-on-hold-in-queue"></a>队列中保留的问候语和音乐
+### <a name="greetings-and-music-on-hold-in-queue"></a>队列中保留的问候语和音乐
 
 指定是否要在呼叫者到达队列时播放问候语。 必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。
 
@@ -75,7 +80,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 > 上传的录制内容不能大于 5 MB。
 > 呼叫队列中提供的默认Teams不收取组织支付的任何版权费。 
 
-## <a name="call-agents"></a>呼叫代理
+### <a name="call-agents"></a>呼叫代理
 
 查看 [将代理添加到呼叫队列的先决条件](plan-auto-attendant-call-queue.md#prerequisites)。
 
@@ -105,7 +110,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 > [!NOTE]
 > 添加到组的新用户可能需要最多八个小时才能进行第一次呼叫。
 
-## <a name="call-routing"></a>呼叫路由
+### <a name="call-routing"></a>呼叫路由
 
 ![会议模式和路由方法设置的屏幕截图](media/call-queue-conference-mode-routing-method.png)
 
@@ -153,7 +158,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 > [!NOTE]
 > 如果未启用基于状态的路由，并且队列中有多个调用，系统将同时向代理显示这些调用，而不管代理的状态如何。 这会导致向代理发送多个呼叫通知，尤其是当某些代理不应答发送给代理的初始呼叫时。
 
-## <a name="call-overflow-handling"></a>调用溢出处理
+### <a name="call-overflow-handling"></a>调用溢出处理
 
 ![呼叫溢出设置的屏幕截图](media/call-queue-overflow-handling.png)
 
@@ -164,7 +169,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 > [!NOTE]
 > 如果最大呼叫数设置为 0，则问候消息将不会播放。
 
-## <a name="call-timeout-handling"></a>调用超时处理
+### <a name="call-timeout-handling"></a>调用超时处理
 
 ![通话超时设置的屏幕截图](media/call-queue-timeout-handling.png)
 

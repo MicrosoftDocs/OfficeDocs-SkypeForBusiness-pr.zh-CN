@@ -19,23 +19,22 @@ ms.custom:
 description: 为管理员PowerPoint计划、部署和运行资源的培训视频、幻灯片、教程Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 901a6bd2f6eb2c120af45aef8d4ca9eb4bea45e5
-ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
+ms.openlocfilehash: 6aa1224982dce5bad2d2a46cb2100bac283ef3ef
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52589186"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628781"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>适用于管理员的管理员培训Microsoft Teams
 
 使用培训资源来指导自己Teams学习、指导他人或开展研讨会。 请经常返回此处查看新内容。
 
-
-|  |  |
-|---------|---------|
-|[从此处开始推出](./get-started-with-teams-quick-start.md)     |[按Teams查看功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|[在 YouTube 上的"云中的咖啡"频道中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams指导性对话：了解有关热门应用场景的最佳实践Teams指南](./chalk-talks-landing-page.yml)         |
-
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+|![手和向上箭头](/office/media/icons/get-started-teams.png) |[从此处开始推出](./get-started-with-teams-quick-start.md)     |![包含列表的文档](/office/media/icons/document-teams.png)|[按Teams查看功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![视频播放按钮](/office/media/icons/video-play.png) |[在 YouTube 上的"云中的咖啡"频道中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![具有扳手的人](/office/media/icons/administrator.png) |[Teams指导性对话：了解有关热门应用场景的最佳实践Teams指南](./chalk-talks-landing-page.yml)         |
+|  |  | |
 
 <h2>关键培训产品/服务与课程</h2>
 
@@ -84,10 +83,12 @@ ms.locfileid: "52589186"
 
 <p>下表包含全面视频培训的链接，以及) Android 设备上的 PowerPoint 幻灯片 (（PDF 格式为) ）的链接，其中包括 Microsoft Teams Teams 显示器、Teams 手机、Teams 会议室 for Android 和 Teams 面板。  
 
-| 模块 | 视频 | PowerPoint幻灯片 (PDF)   |
-| ------------ | -------------------- | -------------------- |
-| 模块 1：Microsoft Teams Android 设备简介  | |[幻灯片](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| 模块 2：规划Microsoft Teams Android 设备|| [幻灯片](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| 模块 | PowerPoint幻灯片 (PDF)   |
+| ------------| -------------------- |
+| 模块 1：Microsoft Teams Android 设备简介  |[幻灯片](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| 模块 2：规划Microsoft Teams Android 设备|[幻灯片](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+|模块 3：Microsoft Teams Android 设备的功能 |[幻灯片](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+
 <h2>交互式指南</h2>
 
 | 标题                                                                       | 摘要                                                                                                                                                                                                               |  指南链接                             |

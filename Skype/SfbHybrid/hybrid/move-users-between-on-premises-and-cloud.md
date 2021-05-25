@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：在启用了混合的 Skype for Business Server 本地部署中，可以在本地环境和云之间移动用户 (在停用) 之前是 Microsoft Teams 还是 Skype for Business Online。
-ms.openlocfilehash: 8fce1799ba3e10f2e96b8beab0fbde7805c7c229
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
+ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305950"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52642082"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在本地与云之间移动用户
 
@@ -40,7 +40,7 @@ ms.locfileid: "52305950"
 
 - 组织必须正确配置 Azure AD 连接并同步用户的所有相关属性，如配置[Azure AD 连接](configure-azure-ad-connect.md)中所述。
 - Skype for Business配置混合，如配置混合Skype for Business[中所述](configure-federation-with-skype-for-business-online.md)。
-- 必须在计划 2 中为用户分配 Teams Skype for Business Online (许可证) 。 即使停用 Skype for Business Online，Skype for Business仍需要联机许可。  此外：
+- 必须在计划 2 中为用户分配 Teams Skype for Business Online (许可证) 。 即使停用 Skype for Business Online，Skype for Business仍需要联机许可证。  此外：
     - 如果用户在本地启用了电话拨入式会议，则默认情况下，用户还必须在 Teams 中分配音频会议许可证，然后才能将用户联机。 迁移到云后，将在云中为用户预配音频会议。 如果出于某种原因你想要将用户移动到云，但不使用音频会议功能，可以通过在 中指定 参数来覆盖此 `BypassAudioConferencingCheck` 检查 `Move-CsUser` 。
     - 如果在本地为用户企业语音用户，则默认情况下，用户必须在 电话系统 中分配一个 Teams 许可证，然后才能将用户联机。 迁移到云后，将在云中为用户预配手机系统。 如果出于某种原因你想要将用户移动到云，但不使用电话系统功能，可以通过在 中指定 参数来替代此 `BypassEnterpriseVoiceCheck` 检查 `Move-CsUser` 。
 
@@ -68,10 +68,10 @@ ms.locfileid: "52305950"
 
 若要在本地和云之间移动用户，必须在本地部署环境以及 Skype for Business Server 组织中使用具有足够权限Teams帐户。 您可以使用一个拥有所有必要权限的帐户，或者可以使用两个帐户，在这种情况下，您将使用本地凭据访问本地工具，然后在这些工具中，您将为 Teams 管理帐户提供其他凭据。  
 
-- 在本地环境中，执行移动的用户必须具有 Skype for Business Server 中的 CSServerAdminstrator 角色。
+- 在本地环境中，执行移动的用户必须具有 CSServerAdministrator 角色Skype for Business Server。
 - 在Teams中，执行移动的用户必须满足以下条件之一：
   - 用户是全局管理员角色的成员。
-  - 用户是管理员和用户Teams管理员角色的成员。
+  - 用户是用户管理员和Teams管理员角色的成员。
   - 用户是管理员和用户Skype for Business的成员。  
 
     > [!Important]
