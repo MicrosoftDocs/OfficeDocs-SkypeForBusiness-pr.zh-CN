@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c27a73928e0740eb325c269fd5ac625fa4c43086
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628921"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656025"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams标准用户的应用行为
 
@@ -67,8 +67,10 @@ ms.locfileid: "52628921"
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部用户的使用行为和策略
 
-- 外部用户不能使用任何Teams，并且当将外部用户添加到具有本机用户的上下文中时，所有用户（本机用户和外部用户）都无法再使用应用。
-- 外部用户不会受到应用策略的影响，因为他们不能Teams应用。
+- 其他组织中的人员遵守托管组织的默认用户权限策略和组织范围的设置。
+- 托管组织中的用户可以在与其他组织人员的会议聊天中添加应用。 其他组织中的人员不能在会议聊天中添加应用，但一旦添加到聊天中，就可以与机器人和选项卡进行交互。
+- 在聊天中安装机器人后，它可以主动与来自该聊天中其他组织的人通信，并且这些用户可以与机器人通信。
+- 将应用托管组织的数据策略，以及该用户的组织共享的任何第三方应用的数据共享做法。
 
 ## <a name="anonymous-users"></a>匿名用户
 

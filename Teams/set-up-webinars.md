@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理会议网络研讨会Teams策略。
-ms.openlocfilehash: 739c0b5494b0ecc5b9a20fd8db4756313848325b
-ms.sourcegitcommit: e5d6a2c3ad45c1285016b93ec4c7afea907d71a1
+ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275514"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656045"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中设置网络Microsoft Teams
 
@@ -58,10 +58,10 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>配置谁可以注册网络研讨会
 
-可以将注册限制为仅组织内部用户，或者向租户内外的每个人开放注册。 默认情况下 **，WhoCanRegister** 已启用，并设置为"每个人 **"。** 如果要关闭会议注册，将 **WhoCanRegister 设置为** **False。**
+可以将注册限制为仅组织内部用户，或者向租户内外的每个人开放注册。 默认情况下 **，WhoCanRegister** 已启用，并设置为"每个人 **"。** 如果要关闭会议注册，将 **AllowMeetingRegistration 设置为** **False。**
 
 > [!IMPORTANT]
-> 请记住 **，AllowPrivateMeetingScheduling** 必须设置为 **True，WhoCanRegister** 可正常工作。  此外，需要在"Microsoft 列表"中设置SharePoint。 有关详细信息，请参阅 Microsoft [列表的控件设置](/sharepoint/control-lists)。
+> 请记住 **，AllowPrivateMeetingScheduling** 必须设置为 **True，AllowMeetingRegistration 正常工作**。  此外，需要在"Microsoft 列表"中设置SharePoint。 有关详细信息，请参阅 Microsoft [列表的控件设置](/sharepoint/control-lists)。
 
 **若要 *仅* 允许您的组织中的用户注册网络研讨会，请运行：**
 

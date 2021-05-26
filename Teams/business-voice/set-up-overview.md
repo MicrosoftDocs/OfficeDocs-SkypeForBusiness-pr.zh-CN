@@ -17,14 +17,20 @@ search.appverid: MET150
 description: 了解如何在中小型企业Microsoft 365 商务语音中设置服务。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 534005df5161a69fd64ac94c444046508b9d7fd1
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 892b093003accf782b7fb6c0a6234bf1f8beb952
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130359"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656035"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>设置Microsoft 365 商务语音
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEu8R]  
+
+</br>
 
 Business Voice 是一个完整的电话系统，可以取代现有的电话提供商。 无论您是第一次设置电话号码的新企业，还是从旧版本地电话提供商发展的业务，这些文章中的步骤都可以帮助你启动并运行 Business Voice。 完成 Business Voice 设置后：
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30f5dc38b713e59b49a166694d5c760accc639be
-ms.sourcegitcommit: 326aa6375cb830cdb0f82ea791b84d570758853a
+ms.openlocfilehash: a24de985b601b1d84250863e06fed90a77699483
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2021
-ms.locfileid: "52221805"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656075"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -402,8 +402,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 以下是呼叫和会议的已知问题和限制：
 
 - 与音频Skype for Business仅限音频呼叫;没有视频形式。
-- 会议或群组通话仅支持单个传入视频流。 当多人发送视频时，在任何给定时间只显示主要发言人的视频。
-- 传入和传出视频流分辨率限制为 720p 分辨率。 这是 WebRTC 限制。
+- 传入和传出视频流分辨率限制为 720p 分辨率。
 - 仅支持来自传入相机或屏幕共享流的一个视频流。 当存在传入的屏幕共享时，将显示该屏幕共享，而不是主扬声器的视频。
 - Teams用户选择的最后一个音频设备（如果设备已断开连接，然后重新连接）不切换到使用。
 - 传出屏幕共享：

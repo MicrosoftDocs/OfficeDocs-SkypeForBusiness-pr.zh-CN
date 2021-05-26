@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解如何Microsoft 电话系统直接路由将受支持的客户提供的会话边界控制器与 SBC (连接到) Microsoft 电话系统。
-ms.openlocfilehash: 90ed1fe51c3b6e3ee6c498fd586e54a05ab533e3
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 531b1f22a6a59a9ef72bf97be92ab15596736b80
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130281"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656065"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -245,7 +245,10 @@ FQNS（sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com sip3.pstnhub.micro
 需要在防火墙中打开所有这些 IP 地址的端口，以允许传入和传出流量传入和传出地址以发出信号。  如果防火墙支持 DNS 名称，FQDN **sip-all.pstnhub.microsoft.com** 解析为所有这些 IP 地址。 
 
 > [!IMPORTANT]
->  作为直接路由Teams和服务改进的一部分，我们已在澳大利亚部署了 Direct Routing 基础结构的新实例。 这反映在两个额外的 IP 地址 (52.114.16.74 和 52.114.20.29) 之后，澳大利亚客户将解析以下 FQNS – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com。 需要将这两个 IP 地址 (52.114.16.74 和 52.114.20.29) 添加到 IP 访问控制列表 (ACL) 并打开防火墙中所有这些 IP 地址的端口，以允许传入和传出流量传入和传出地址进行信号发送。
+> 作为直接Teams和服务改进的一部分，我们于 2020 年 11 月在澳大利亚部署了 Direct Routing 基础结构的新实例。 这反映在两个额外的 IP 地址 (52.114.16.74 和 52.114.20.29) 澳大利亚客户将解析为以下 FQNS – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com。 需要向 IP 访问控制列表 (ACL) 添加这两个 IP 地址 (52.114.16.74 和 52.114.20.29) ，并打开防火墙中所有这些 IP 地址的端口，以允许传入和传出发信的地址。
+
+> [!IMPORTANT]
+> 作为直接路由Teams和服务改进的一部分，我们于 2021 年 5 月在日本部署了 Direct Routing 基础结构的新实例。 这反映在另外两个 IP 地址 (52.114.36.156 和 52.114.32.169) 日本客户将解析为以下 FQNS – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com。 需要将这两个 IP 地址 (52.114.36.156 和 52.114.32.169) 添加到 IP 访问控制列表 (ACL) ，并打开防火墙中所有这些 IP 地址的端口，以便传入和传出发信的地址。
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365GCCH 和 DoD 环境
 
@@ -341,13 +344,8 @@ SIP 代理和媒体处理器组件部署的位置：
 - 美国 (美国西部和东部数据中心有两个) 
 - 欧洲 (阿姆斯特丹和都柏林数据中心) 
 - 亚洲 (新加坡和香港特别行政区) 
-
-在 SIP 流中仅部署媒体处理器的位置 (上面列出的最靠近的数据中心) ：
 - 日本 (日本东部和西部数据中心) 
 - 澳大利亚 (澳大利亚东部和东南部数据中心) 
-
-
-
 
 ## <a name="media-traffic-codecs"></a>媒体流量：编解码器
 
