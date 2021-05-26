@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
-ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
+ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52328504"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628881"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -53,9 +53,9 @@ ms.locfileid: "52328504"
 
 <sup>2</sup> 此限制包含已存档的团队。 
 
-<sup>3</sup> 若要进一步增加团队数量，必须联系 Microsoft 支持人员，并请求进一步增加租户中的 Azure Active Directory 对象数量。 仅针对真实生产方案进行了增加。
+<sup>3</sup> 若要进一步增加团队数量，必须联系 Microsoft 支持人员，并请求进一步增加租户中的 Azure Active Directory 对象数量。增加仅针对真实生产方案。
 
-<sup>4</sup> 30 天内可还原已删除的频道。 在这 30 天内，已删除的频道仍然计入每个团队 200 个频道或 30 个专用频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队的限额内。
+<sup>4</sup> 已删除的频道可在删除后 30 天内还原。在这 30 天内，已删除的频道仍然计入每个团队 200 个频道或 30 个专用频道的限额内。30 天后，将永久删除已删除的频道及其内容，并且此频道不再计入每个团队的限额内。
 
 <sup>5</sup> 28 KB 是近似限制，因为它包括邮件本身（文本、图像链接等）、@提及、连接线数目以及反应。
 
@@ -78,7 +78,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 <sup>1</sup>如果参与某次聊天的人数超过 20 人，则禁用以下聊天功能：Outlook 自动答复和 Teams 状态消息、键入指示器、视频和音频呼叫、共享、已读回执。当专用组聊天包含超过 20 个成员时，还将删除“设置发送选项”按钮 (!)。
 
-<sup>2</sup> 一次仅有 200 个成员可添加到群组聊天。 [请参阅本文了解详细信息](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)。
+<sup>2</sup> 群聊中一次只能添加 200 名成员。[请参阅此文章以了解详细信息](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)。
 
 <sup>3</sup> 如果附件数超过此限制，你将看到一条错误消息。
 
@@ -131,7 +131,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 |功能     | 最大限制 |
 |------------|---------------|
-|会议中的人数（可聊天和通话）  | 1000，包括 GCC，但还不包括 GCCH 或 DoD。 “**仅供查看**”允许最多 20，000 名仅收听的参与者加入组织者拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC High 和 DoD）许可证。 了解关于[仅供查看体验](view-only-meeting-experience.md)的详细信息。|
+|会议中的人数（可聊天和通话）  | 1000，包括 GCC，但尚不包括 GCCH、DoD 或 A1 (300)。 “**仅供查看**”允许最多 20，000 名仅收听的参与者加入组织者拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC High 和 DoD）许可证。 了解关于[仅供查看体验](view-only-meeting-experience.md)的详细信息。|
 |通过视频或音频通话聊天的人员数 | 20 |
 |PowerPoint 文件的最大大小 | 2GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
