@@ -17,12 +17,12 @@ description: 了解如何使用 Teams 管理中心中的Microsoft Teams活动报
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a528d92a633e42623772f0f43a85658e4e8aecc
-ms.sourcegitcommit: 4cf89ce07184083c8c28892a2acbb85d797c21c4
+ms.openlocfilehash: 071b5eaa37cd2b6a5d353b2f0309a338d28ce971
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51938251"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669234"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 用户活动报告
 

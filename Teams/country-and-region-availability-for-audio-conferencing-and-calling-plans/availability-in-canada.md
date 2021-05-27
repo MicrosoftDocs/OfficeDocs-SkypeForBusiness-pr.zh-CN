@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于加拿大Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: ebd49f2a15467504863e113f1eb06db6ba881f64
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 29bced17ee6b0dd9c5240651728f390b2f014ac3
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629011"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669214"
 ---
 # <a name="availability-in-canada"></a>在加拿大的可用性
 
@@ -65,6 +65,9 @@ ms.locfileid: "52629011"
 | 是否可以拨打呼出电话？  <br/>                 | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/>                                                                                                                                                                  |
 
 > [!Note]
+> 当呼叫 (国内或国内和国际呼叫) 美国用户拨打加拿大的电话号码时，将视为国内呼叫。 当加拿大的用户拨打美国的电话号码时，也会发生此情况。但是，如果你还使用呼叫计划策略将用户拨出限制为"国内"，则美国用户将无法呼叫加拿大，同样，加拿大用户将无法呼叫美国用户。
+
+> [!Note]
 > 呼叫美国将视为国内呼叫。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
@@ -76,9 +79,6 @@ ms.locfileid: "52629011"
 |是否提供免费电话号码？  <br/> |是  <br/> |
 
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
-
-> [!Note]
-> 当呼叫 (国内或国内和国际呼叫) 美国用户拨打加拿大的电话号码时，将视为国内呼叫。 当加拿大的用户拨打美国的电话号码时，也会发生此情况。但是，如果你还使用呼叫计划策略将用户拨出限制为"国内"，则美国用户将无法呼叫加拿大，同样，加拿大用户将无法呼叫美国用户。
 
 ## <a name="communications-credits"></a>通信点数
 

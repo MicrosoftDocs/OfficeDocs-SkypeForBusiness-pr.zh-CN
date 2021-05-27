@@ -17,12 +17,12 @@ description: 了解如何在 Teams 管理中心的"管理应用"页上管理Micr
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d42c9609014e4609e74f3cf5022b350d9890ef58
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 16b139750e5a227cc6702e0f8d57cd2f4625f983
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129661"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669224"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在管理中心内Microsoft Teams应用
 
@@ -149,6 +149,10 @@ RSC (资源) 权限允许团队所有者授予应用访问和修改团队数据�
 
         > [!NOTE]
         > 当 **"允许第三方应用** "关闭时，将禁用传出 [Webhook，](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) 这意味着用户无法创建它们。 启用此设置后，将针对所有用户启用传出 Webhook，并且可以通过应用权限策略 允许或阻止传出 Webhook 应用，在用户级别[控制这些 Webhook。](teams-app-permission-policies.md) <br><br>请注意，如果 Microsoft 应用的现有应用权限策略使用"允许特定应用并阻止所有其他应用"设置，并且希望为用户启用传出 Webhook，则向列表添加传出 Webhook 应用。 [](teams-app-permission-policies.md)
+
+        > [!NOTE]
+        > Teams用户可以在主持会议或与其他组织人员聊天时添加应用。 当其他组织中的人员加入由其他组织主持的会议或聊天时，他们还可以使用他们共享的应用。 将应用托管用户组织的数据策略，以及该用户的组织共享的任何第三方应用的数据共享做法。
+
     - **默认情况下，允许发布到应用商店的所有新的第三方应用**：控制发布到 Teams 应用商店的新第三方应用是否在 Teams 中自动可用。 仅在允许第三方应用时才能设置此选项。
 
 3. 在 **"自定义应用**"下，关闭或打开 **"允许与自定义应用交互"。** 此设置控制用户是否可以与自定义应用交互。 要了解详细信息，请参阅[在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。

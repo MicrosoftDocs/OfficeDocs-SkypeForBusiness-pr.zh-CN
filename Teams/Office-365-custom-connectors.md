@@ -17,15 +17,14 @@ description: 连接器可将内容和更新从你经常使用的服务直接传�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 908469913944aea2a27feb8a35b0e5e5620aae3f
-ms.sourcegitcommit: 44de1da5617f57f8c37780ad3451c0128f60b1f8
+ms.openlocfilehash: 62406da5e9feff7286023b955bd031bddda110b1
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50076414"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669144"
 ---
-<a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 365 中使用 Microsoft Teams 和自定义连接器
-=======================================================
+# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 365 中使用 Microsoft Teams 和自定义连接器
 
 连接器将常用内容和服务更新直接交付到频道，使团队保持最新状态。 使用连接器，Microsoft Teams用户可以在其团队的聊天流中接收来自常用服务（如 Trello、奇妙清单、GitHub 和 Azure DevOps Services）的更新。
 
@@ -33,8 +32,9 @@ ms.locfileid: "50076414"
 
 Microsoft 365连接器可以与 Microsoft Teams Microsoft 365 组一起使用，使所有成员能够更轻松地保持同步并快速接收相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 但值得注意的是，禁用团队所依赖的 Microsoft 365 组的连接器也会禁用为该团队创建连接器的能力。
 
-<a name="add-a-connector-to-a-channel"></a>将连接器添加到通道
-----------------------------
+> [注意]在政府云环境环境中，连接器Community (GCC) 禁用。 如果需要启用它们，请设置 ConnectorsEnabled 或 ConnectorsEnabledForTeams 参数$true [SetOrganizationConfig](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) cmdlet。 以前需要连接到[PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+
+## <a name="add-a-connector-to-a-channel"></a>将连接器添加到通道
 
 目前，可以使用桌面和 Web 客户端Microsoft Teams连接器。 但是，可以在所有客户端（包括移动客户端）中查看这些连接器 **发布** 的信息。
 
@@ -72,7 +72,7 @@ Microsoft 365连接器可以与 Microsoft Teams Microsoft 365 组一起使用，
 > !["URL 是最新的"消息的屏幕截图。](media/Teams_URL_up_to_date.png)
 
 
-<a name="develop-custom-connectors"></a>开发自定义连接器
-----------------------------
+## <a name="develop-custom-connectors"></a>开发自定义连接器
+
 
 还可以生成自定义连接器，以及传入和传出 Webhook。 有关详细信息，请参阅“[开发人员文档](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)”。
