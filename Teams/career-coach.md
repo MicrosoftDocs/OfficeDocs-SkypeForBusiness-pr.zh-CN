@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628901"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684569"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>购买、配置和启用职业指导Microsoft Teams
 
@@ -69,7 +69,7 @@ ms.locfileid: "52628901"
 
 ### <a name="assign-app-licenses-to-users"></a>向用户分配应用许可证
 
-有关分步说明，请参阅[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+有关分步说明，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 ### <a name="turn-on-linkedin-account-connections"></a>打开 LinkedIn 帐户连接
 
@@ -303,7 +303,7 @@ LinkedIn 配置将职业指导与来自 LinkedIn 的公共毕业生数据相连�
 > [!NOTE]
 > 学生将收到职业Microsoft Teams已固定的通知。
 
-有关 [更多详细信息，请参阅在 Microsoft 中](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) 管理应用设置策略。
+有关 [更多详细信息，请参阅在 Microsoft 中](/microsoftteams/teams-app-setup-policies) 管理应用设置策略。
 
 ## <a name="resources"></a>资源
 

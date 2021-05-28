@@ -17,12 +17,12 @@ description: 连接器可将内容和更新从你经常使用的服务直接传�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62406da5e9feff7286023b955bd031bddda110b1
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 3e6e65c3462242b82691a292770de684b6c4404b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669144"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684239"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 365 中使用 Microsoft Teams 和自定义连接器
 
@@ -32,7 +32,8 @@ ms.locfileid: "52669144"
 
 Microsoft 365连接器可以与 Microsoft Teams Microsoft 365 组一起使用，使所有成员能够更轻松地保持同步并快速接收相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 但值得注意的是，禁用团队所依赖的 Microsoft 365 组的连接器也会禁用为该团队创建连接器的能力。
 
-> [注意]在政府云环境环境中，连接器Community (GCC) 禁用。 如果需要启用它们，请设置 ConnectorsEnabled 或 ConnectorsEnabledForTeams 参数$true [SetOrganizationConfig](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) cmdlet。 以前需要连接到[PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+> [!NOTE]
+> 在政府云环境环境中，连接器Community (GCC) 禁用。 如果需要启用它们，请设置 ConnectorsEnabled 或 ConnectorsEnabledForTeams 参数$true [SetOrganizationConfig](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) cmdlet。 以前需要连接到[PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
 
 ## <a name="add-a-connector-to-a-channel"></a>将连接器添加到通道
 

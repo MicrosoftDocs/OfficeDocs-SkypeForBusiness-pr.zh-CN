@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: 了解适用于 Teams 管理员的"患者"应用
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: HT
+ms.openlocfilehash: 2302f117564e1dd00a6f238ca23a8e36c63ae554
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803500"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697839"
 ---
 # <a name="patients-app-overview"></a>患者应用概述
 
@@ -45,7 +45,7 @@ ms.locfileid: "48803500"
 
 ## <a name="configure-patients-app"></a>配置"患者"应用
 
-若要了解如何为环境准备使用 EMR 模式患者应用，请参阅 [电子医疗保健记录集成到 Microsoft Teams](patients-app.md)。 还需要查看有关在 Microsoft Teams [管理应用设置策略](../../teams-app-setup-policies.md) 为组织启用"患者"应用的信息。
+请参阅[管理应用中的应用设置Microsoft Teams](../../teams-app-setup-policies.md)为组织启用患者应用。
 
 有关你的最终用户如何访问这些应用程序并安装到他们拥有或管理的团队的信息，请参阅 [Microsoft Teams 患者信息](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)。
 
@@ -74,6 +74,3 @@ ms.locfileid: "48803500"
 
 是的，有。 安全与合规中心会审核 Microsoft Teams 用户对"患者"应用执行的每一个 UI 操作。 在"患者" [审核日志中介绍了详细信息](patients-audit.md)。
 
-## <a name="related-topics"></a>相关主题
-
-[将电子医疗记录集成到 Microsoft Teams 中](patients-app.md)

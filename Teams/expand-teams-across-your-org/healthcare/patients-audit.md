@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: 了解如何审核患者应用Teams管理员
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3cf850b8ae7312fa6c43f879baefb617f48d30b3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a2c5b006384d113dde82f702dee68a82b99685f6
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096186"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697829"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者应用的审核日志
 
@@ -45,7 +45,7 @@ ms.locfileid: "51096186"
 
 审核依赖于多个以前的配置：
 
-1. 管理员必须咨询其 FHIR 服务提供商，以患者应用使用的格式安装 EMR。 请参阅[将电子医疗保健记录集成到 Microsoft Teams。](patients-app.md)
+1. 管理员必须咨询其 FHIR 服务提供商，以患者应用使用的格式安装 EMR。 
 2. 医疗保健提供商管理员必须启用患者应用，Teams管理中心。 有关详细信息[，请参阅](../../teams-app-setup-policies.md)管理Microsoft Teams和相关文章中的应用设置策略。
 3. 管理员必须启用活动审核，就像启用任何活动日志审核一样，如开始之前和打开或关闭审核日志[搜索中所述](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)。 [](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) 如果审核日志记录已打开，则"患者"应用不需要任何特殊功能。 当医疗保健提供商在团队中安装和运行应用时，审核日志会记录其 PHI 活动。
 4. 然后，管理员需要宣布"患者"应用的可用性，并且医疗保健工作人员必须开始生成活动才能包括在审核中。
@@ -60,7 +60,7 @@ ms.locfileid: "51096186"
 
 Patients 应用具有其自己的记录活动，如下表所示：
 
-|友好名称 |操作|说明|
+|友好名称 | 操作 | 说明|
 |:---|:---|:---|
 | 已查看患者列表 | PatientListView | 用户查看了患者列表。|
 | 已删除患者列表 | PatientListDelete | 用户删除了患者列表。|
@@ -78,7 +78,6 @@ Patients 应用具有其自己的记录活动，如下表所示：
 | 查看了患者详细信息 | PatientView | 用户查看了患者记录。|
 | 编辑了患者详细信息 | PatientDetailsEdit | 编辑了患者记录的详细信息。 |
 | 设置 EHR 连接 | EHRConnectionSet | 设置用于连接到 EHR FHIR 服务连接的 URL。 示例：https://<span>api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
-||||
 
 可以根据需要自定义审核，以搜索或筛选任何这些记录的活动。
 
@@ -87,5 +86,3 @@ Patients 应用具有其自己的记录活动，如下表所示：
 ## <a name="related-topics"></a>相关主题
 
 [搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
-
-[将电子医疗记录集成到 Microsoft Teams 中](patients-app.md)

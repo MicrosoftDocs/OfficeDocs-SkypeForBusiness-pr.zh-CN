@@ -1,5 +1,5 @@
 ---
-title: 在Teams中心使用模板
+title: 在管理中心使用团队模板
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,28 +11,28 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何使用Teams模板为不同主题创建具有频道的协作空间。
+description: 了解如何使用团队模板使用预安装模板为不同主题创建具有频道的协作空间。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56577639e62c954d430d2745f5b105e97f5c56ff
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 773b97197a4f233dea9a404d87e669239b3969f6
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264892"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684449"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-center"></a>管理中心Teams模板入门
+# <a name="get-started-with-team-templates-in-the-admin-center"></a>管理中心中的团队模板入门
 
 **EDU 客户尚不支持创建自定义模板。**
 
 > [!NOTE]
-> 目前，专用通道和敏感度标签在模板中Teams支持。 专用通道创建不包括在模板定义中。 从模板流创建团队 **中的** 敏感度标签选项不会应用于该团队。
+> 团队模板目前不支持专用频道和敏感度标签。 专用通道创建不包括在模板定义中。 从模板流创建团队 **中的** 敏感度标签选项不会应用于该团队。
 
-Teams模板是围绕业务需求或项目设计的团队结构的预构建定义。 使用预建模板或创建自己的模板。 Teams模板可让你通过不同主题的频道快速创建丰富的协作空间，并预安装应用以拉取任务关键型内容和服务。 Teams模板提供预定义的团队结构，可帮助你在整个组织中轻松创建一致的团队。 目前，你可以从 Teams 模板创建团队，或者使用[Microsoft Graph。](get-started-with-teams-templates.md)
+团队模板是围绕业务需求或项目设计的团队结构的预构建定义。 使用预建模板或创建自己的模板。 使用团队模板，可借助不同主题的频道快速创建丰富的协作空间，并预安装应用以提取任务关键型内容和服务。 团队模板提供预定义的团队结构，可帮助你在整个组织中轻松创建一致的团队。 目前，你可以从 Teams 模板创建团队，或者使用[Microsoft Graph。](get-started-with-teams-templates.md)
 
 本文介绍以下功能：
 
@@ -42,11 +42,11 @@ Teams模板是围绕业务需求或项目设计的团队结构的预构建定义
 
 如果你负责规划、部署和管理整个组织的多个团队，则本文适合你
 
-## <a name="teams-template-capabilities"></a>Teams模板功能
+## <a name="team-template-capabilities"></a>团队模板功能
 
-模板包含并支持团队中的大多数属性。 但是，目前不支持一些属性和功能。 下表提供了模板中包含的内容以及不包括Teams摘要。
+模板包含并支持团队中的大多数属性。 但是，目前不支持一些属性和功能。 下表提供了团队模板中包含的内容以及不包含的内容的快速摘要。
 
-| **模板支持Teams属性** | **模板尚不支持Teams属性** |
+| **团队模板支持的团队属性** | **团队模板尚不支持的团队属性** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | 基本模板类型 | 团队成员身份 |
 | 团队名称 | 团队图片 |
@@ -115,11 +115,11 @@ Teams模板是围绕业务需求或项目设计的团队结构的预构建定义
 
 使用以下 cmdlts 在 PowerShell 中管理模板。
 
-- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
-- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
-- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-topics"></a>相关主题
 

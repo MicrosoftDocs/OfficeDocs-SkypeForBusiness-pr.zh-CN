@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 了解消息传送策略以及如何使用策略来控制聊天消息传送Teams。
-ms.openlocfilehash: 800bc37ee25c073d0702c519196620faa1faf92e
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 5b202d0a1895c3fd9b4279d6a7db072cd18f72ad
+ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574161"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689780"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
@@ -86,12 +86,12 @@ ms.locfileid: "51574161"
 
 - **聊天** 如果希望您的组织中的用户能够使用 Teams 应用来与其他用户聊天，请启用此设置。
 - **在对话中使用 Giphy**  如果打开 Giphy，用户可以在与他人的聊天对话中包括 Giphy。 Giphy 是一个联机数据库和搜索引擎，允许用户搜索和共享动态 GIF 文件。 每个 Giphy 都分配有一个内容分级。 除了启用此设置外，还需要启用可选连接 [体验](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) 以允许对话中的 Giphy。
-- **Gipsy 内容分级**
+- **Giphy 内容分级**
     - **无限制** 这意味着，无论内容评级如何，用户都能在聊天中插入任何 Giphy。
     - **中等**  这意味着你的用户将能够在聊天中插入 Giphy，但会适度限制成人内容。
     - **严格**  这意味着你的用户将能够在聊天中插入 Giphy，但将严格限制成人内容。
 - **在对话中使用 Meme** 如果打开 Meme，用户可以在与他人的聊天对话中包括 Meme。
-- **在对话中使用贴纸。 如果启用此功能，用户可以在与他人的聊天对话中包括贴纸。
+- **在对话中使用贴纸** 如果启用此功能，用户可以在与他人的聊天对话中包括贴纸。
 - **允许 URL 预览** 使用此设置可打开或关闭邮件中的自动 URL 预览。
 - **允许用户翻译邮件** 打开此设置，让用户自动将Teams翻译为个人语言设置指定的语言，Microsoft 365 Office 365。
 - **允许沉浸式阅读器查看消息** 打开此设置，让用户在 Microsoft 沉浸式阅读器 中查看消息。 沉浸式阅读器是一种学习工具，可提供全屏阅读体验以提高文本可读性。

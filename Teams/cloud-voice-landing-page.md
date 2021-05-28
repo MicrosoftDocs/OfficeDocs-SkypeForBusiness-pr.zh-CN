@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 详细了解云Microsoft Teams功能和将为组织做出部署决策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d77e0b1ec6277bfeffd85d6657d14fe810aae96
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 92b28a00e1737b533c17cf3f1f670bc23561620d
+ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102568"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689790"
 ---
 # <a name="plan-your-teams-voice-solution"></a>规划Teams语音解决方案 
 
@@ -51,8 +51,10 @@ ms.locfileid: "51102568"
 但是，情况可能更复杂。 例如，你可能在呼叫计划不可用的位置设有办公室。 或者，可能需要一个支持复杂、跨区域部署、对不同地理位置有不同的要求的组合解决方案。 Microsoft 支持解决方案的组合： 
 
 - 电话系统套餐
+- 电话系统您的 PSTN 运营商运营商连接 (目前仅在公共 **预览版中提供)**
 - 电话系统直接路由与自己的 PSTN 运营商联系
-- 一个组合解决方案，将 电话系统 与呼叫计划结合使用，电话系统直接路由
+- 结合使用解决方案，将 电话系统 与呼叫计划结合使用电话系统接线员连接和/或电话系统直接路由
+
 
 ## <a name="what-do-you-need-to-read"></a>需要阅读哪些信息？
 
@@ -62,7 +64,7 @@ ms.locfileid: "51102568"
 | 全部必需 | 说明 |
 | :------------|:-------|
 | [**电话系统**](#phone-system) | Microsoft 在云中启用呼叫控制和专用分支 Exchange (PBX) 功能的技术Microsoft 365云Microsoft Teams。 |
-| [**PSTN 公用电话交换 (PSTN) 连接选项**](#public-switched-telephone-network-connectivity-options) | 可以选择使用 Microsoft 作为电话运营商，还是使用直接路由将你自己的电话运营商Microsoft Teams运营商。 PSTN 连接电话系统结合使用，使用户能够拨打全球电话。|
+| [**PSTN 公用电话交换 (PSTN) 连接选项**](#public-switched-telephone-network-connectivity-options) | 可以选择使用 Microsoft 作为电话运营商，还是使用直接路由或接线员Microsoft Teams将你自己的电话运营商连接。 PSTN 连接电话系统结合使用，使用户能够拨打全球电话。|
 
 **根据你的要求。** 本文中的某些部分与现有的部署和要求相关。 例如，Location-Based直接路由客户在不允许收费绕过的地理位置进行直接路由。
 
@@ -82,7 +84,7 @@ ms.locfileid: "51102568"
 
 
 > [!Important]
-> 本文重点介绍语音解决方案与Microsoft Teams。 虽然 Skype for Business Online 解决方案 ([Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions)电话解决方案) 中所述，但必须了解 Skype for Business Online 将于 2021 年 7 月 31 日停用。  该日期之后，Skype for Business不再可访问联机服务。 此外，将不再支持本地环境之间的 PSTN 连接 &mdash; Skype for Business Server云连接器版本和 Skype for Business Online &mdash; 连接。 本文介绍Teams解决方案，以及如何在必要时连接本地电话网络，以Teams直接路由。
+> 本文重点介绍语音解决方案与Microsoft Teams。 虽然 Skype for Business Online 解决方案 ([Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions)电话解决方案) 中所述，但必须了解 Skype for Business Online 将于 2021 年 7 月 31 日停用。  该日期之后，Skype for Business不再可访问联机服务。 此外，将不再支持本地环境之间的 PSTN 连接 &mdash; Skype for Business Server云连接器版本和 Skype for Business Online &mdash; 连接。 本文介绍Teams语音解决方案，以及如何在必要时使用直接路由或接线员Teams连接本地电话连接。
 
 
 ## <a name="phone-system"></a>电话系统
@@ -147,6 +149,8 @@ ms.locfileid: "51102568"
 - [**电话系统套餐 。**](#phone-system-with-calling-plan) 以 Microsoft 作为 PSTN 运营商的全云解决方案。
 
 - [**电话系统直接**](#phone-system-with-own-pstn-carrier-with-direct-routing)路由将本地环境连接到本地环境，与自己的 PSTN 运营商Teams。
+
+- 电话系统运营商或运营商与自己的 [**PSTN 运营商连接，**](operator-connect-plan.md)目前仅在公共预览 **版中提供。**  使用接线连接，如果现有运营商是 Microsoft 接线员连接参与者，他们可管理将 PSTN 呼叫引入 Teams。 有关操作员服务权益和要求连接，有关参与此计划的操作员的列表，请参阅计划操作员[连接。](operator-connect-plan.md)
 
 还可以选择一组选项，用于为复杂环境设计解决方案，或管理多步骤迁移 (以后迁移) 。
 

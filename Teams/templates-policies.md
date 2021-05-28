@@ -1,5 +1,5 @@
 ---
-title: 在Teams管理中心管理模板
+title: 管理中心中的管理团队模板
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何在管理Teams管理中心管理模板
-ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 了解如何在管理中心中管理团队模板
+ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093922"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684579"
 ---
-# <a name="manage-teams-templates-in-the-admin-center"></a>在Teams管理中心管理模板
+# <a name="manage-team-templates-in-the-admin-center"></a>管理中心中的管理团队模板
 
-管理Teams管理中心中的模板策略，管理最终用户看到的模板。 在每个模板策略中，可以指定显示或隐藏的模板。
-将不同的用户分配到不同的模板策略，以便用户仅查看Teams模板的子集。
+在管理中心创建模板策略，管理最终用户看到的团队模板。 在每个模板策略中，可以指定显示或隐藏的模板。
+将不同的用户分配到不同的模板策略，以便用户仅查看指定的团队模板子集。
 
 观看此简短视频，了解如何管理模板策略。
 
@@ -119,7 +119,7 @@ ms.locfileid: "51093922"
 答：在管理中心：
 
 1. 转到"用户 **"** 部分。
-2. 在"用户"列表表中选择筛选器，然后筛选团队模板策略。
+2. 在"用户"列表表中选择筛选器，并筛选团队模板策略。
 3. 选择"**应用"。**
 
 ![所选模板策略和查看用户](media/template-policies-5.png)

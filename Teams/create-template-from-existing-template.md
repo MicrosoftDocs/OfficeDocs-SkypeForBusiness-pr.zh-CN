@@ -16,16 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8a86794c6517904c2e1329c6c5eab5b55c5c116
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 75702152f073ffe94bb9712840b97bc31eaa394a
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308095"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684359"
 ---
-# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>从 Microsoft Teams 中的现有团队模板创建新Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+# <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>从 Microsoft Teams 中的现有团队模板创建新的团队Microsoft Teams
 
 **EDU 客户尚不支持自定义模板。**
 
@@ -35,7 +33,7 @@ Microsoft Teams提供预构建的模板，可保存和修改这些模板以满�
 
 2. 在左侧导航栏中，展开 **Teams**  >  **团队模板"。**
 
-3. 在 **"团队模板"** 部分中，选择要复制的模板旁边的以突出显示它。
+3. 在 **"团队模板"** 部分中，选择要复制的团队模板旁边的以突出显示它。
 
 4. 选择"**重复"。**
 

@@ -1,5 +1,5 @@
 ---
-title: 通过 Microsoft Teams开始使用模板Graph
+title: 开始使用 Microsoft Graph 的团队模板
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何使用 Microsoft Teams 模板创建具有不同Graph频道的协作空间，并预安装应用以提供内容和服务。
+description: 了解如何使用 Microsoft Graph中的团队模板创建包含不同主题的频道的协作空间，并预安装应用以提供内容和服务。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,19 +19,19 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 898adc4b67124fb6244afde2ecc156996e5a38c4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fdee4dc55d0922796e66ece87b535b953ecf1580
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120703"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684539"
 ---
-# <a name="get-started-with-teams-templates-using-microsoft-graph"></a>通过 Microsoft Teams开始使用模板Graph
+# <a name="get-started-with-team-templates-using-microsoft-graph"></a>开始使用 Microsoft Graph 的团队模板
 
 > [!NOTE]
-> Teams当前不支持创建专用通道。 专用通道创建不包括在模板定义中。
+> 团队模板当前不支持创建专用频道。 专用通道创建不包括在模板定义中。
 
-Teams模板是围绕业务需求或项目设计的团队结构的预构建定义。 可以在 [管理控制台 中创建自己的模板](get-started-with-teams-templates-in-the-admin-console.md)。 使用 Microsoft Graph，可以使用预建的模板 。 可以使用Teams模板通过不同主题的频道快速创建丰富的协作空间，并预安装应用以拉取任务关键型内容和服务。 Teams模板提供预定义的团队结构，可帮助你在整个组织中轻松创建一致的团队。
+团队模板是围绕业务需求或项目设计的团队结构的预构建定义。 可以在 [管理控制台 中创建自己的模板](get-started-with-teams-templates-in-the-admin-console.md)。 使用 Microsoft Graph，可以使用预建的模板 。 可以使用团队模板通过不同主题的频道快速创建丰富的协作空间，并预安装应用以拉取任务关键型内容和服务。 团队模板提供预定义的团队结构，可帮助你在整个组织中轻松创建一致的团队。
 
 本文介绍可在模板中定义的属性、基本模板类型，以及如何使用几个示例请求从模板创建团队。
 
@@ -40,11 +40,11 @@ Teams模板是围绕业务需求或项目设计的团队结构的预构建定义
 - 负责在整个组织中规划、部署和管理多个团队<br>
 - 想要以编程方式创建具有预定义通道和应用的团队的开发人员
 
-## <a name="teams-template-capabilities"></a>Teams模板功能
+## <a name="team-template-capabilities"></a>团队模板功能
 
-模板包含并支持团队中的大多数属性。 但是，目前不支持一些属性和功能。 下表提供了模板中包含的内容以及不包括Teams摘要。
+模板包含并支持团队中的大多数属性。 但是，目前不支持一些属性和功能。 下表提供了团队模板中包含的内容以及不包含的内容的快速摘要。
 
-| **模板支持Teams属性** | **模板尚不支持Teams属性** |
+| **团队模板支持的团队属性** | **团队模板尚不支持的团队属性** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | 基本模板类型 | 团队成员身份 |
 | 团队名称 | 团队图片 |
@@ -60,7 +60,7 @@ Teams模板是围绕业务需求或项目设计的团队结构的预构建定义
 
 ## <a name="what-are-base-template-types"></a>什么是基本模板类型
 
-基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含在应用商店中不可用的专有应用。 此外，基本模板通常包含尚未在模板中单独支持Teams属性。 了解如何使用 Microsoft [Graph 中的团队Graph。](get-started-with-teams-templates.md)
+基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含在应用商店中不可用的专有应用。 此外，基本模板通常包含尚不在团队模板中单独支持的团队属性。 了解如何使用 Microsoft [Graph 中的团队Graph。](get-started-with-teams-templates.md)
 
 定义基本模板类型后，可以使用要指定的其他属性扩展或替代这些特殊模板。 某些基本模板类型包含无法重写的属性。
 
@@ -99,11 +99,11 @@ Teams模板是围绕业务需求或项目设计的团队结构的预构建定义
 |零售 - 经理协作| `retailManagerCollaboration` |频道： <ul><li>常规<li>运营</li><li>学习</li></ul> 应用： <ul><li>Wiki</li></ul>|
 ||||
 
-有关详细信息[，请参阅Teams中心中的](get-started-with-teams-templates-in-the-admin-console.md)模板入门。
+有关详细信息 [，请参阅管理中心中的](get-started-with-teams-templates-in-the-admin-console.md) 团队模板入门。
 
 ## <a name="related-topics"></a>相关主题
 
-- [管理员控制台Teams模板入门](get-started-with-teams-templates-in-the-admin-console.md)
-- [在预览](/graph/api/team-post?view=graph-rest-beta) (创建团队) 
+- [管理员控制台中的团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)
+- [在预览版](/graph/api/team-post?view=graph-rest-beta) (创建团队) 
 - [New-Team](/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams 管理培训](itadmin-readiness.md)

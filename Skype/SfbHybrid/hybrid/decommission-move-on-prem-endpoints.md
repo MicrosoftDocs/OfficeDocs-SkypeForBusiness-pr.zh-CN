@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在停用本地环境之前移动Skype for Business应用程序终结点。
-ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526715"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684379"
 ---
 # <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在停用本地环境之前移动混合应用程序终结点
 
@@ -46,7 +46,7 @@ ms.locfileid: "52526715"
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. 在资源中心[创建](https://docs.microsoft.com/microsoftteams/manage-resource-accounts)和Microsoft 365资源帐户，以替换现有的本地混合应用程序终结点。
+2. 在资源中心[创建](/microsoftteams/manage-resource-accounts)和Microsoft 365资源帐户，以替换现有的本地混合应用程序终结点。
 
 3. 将新的资源帐户与现有的混合应用程序终结点关联。
 
@@ -70,7 +70,7 @@ ms.locfileid: "52526715"
    }
    ```
 
-6. 将电话号码分配给在步骤 2 中创建的新资源帐户。 若要详细了解如何将电话号码分配给资源帐户，请参阅以下文章： [分配服务号码](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)。
+6. 将电话号码分配给在步骤 2 中创建的新资源帐户。 若要详细了解如何将电话号码分配给资源帐户，请参阅以下文章： [分配服务号码](/microsoftteams/manage-resource-accounts#assign-a-service-number)。
 
 7. 通过执行 PowerShell 命令Skype for Business Server本地终结点：
 

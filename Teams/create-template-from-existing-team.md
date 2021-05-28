@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96d1d2192335367023544b7a30bc36bf69c02a19
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: da234258f3326c03b3a49cbb408f4ab9c5bd7c9f
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308115"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684389"
 ---
-# <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>从现有团队创建模板Microsoft Teams
+# <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>从现有团队创建团队模板Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

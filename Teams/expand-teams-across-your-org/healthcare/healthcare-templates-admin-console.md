@@ -1,5 +1,5 @@
 ---
-title: 使用 Teams 医疗模板创建团队
+title: 使用医疗保健模板创建团队
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,31 +20,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 通过提供预定义的设置、频道和应用模板，使用管理中心中的 Microsoft Teams 模板或借助 Microsoft Graph 快速轻松地创建团队。
+description: 在管理中心或 Microsoft Graph使用团队模板，通过提供预定义的设置、频道和应用模板，快速轻松地创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: f90ddfa9682c7000c4698977c51a39c9631ff9b1
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117870"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684349"
 ---
-# <a name="create-a-team-using-teams-healthcare-templates"></a>使用 Teams 医疗模板创建团队
+# <a name="use-a-healthcare-team-templates"></a>使用医疗保健团队模板
 
-通过提供预定义的设置、频道和预安装的应用模板，Microsoft Treams 模板让你能够快速轻松地创建团队。
+模板提供设置、频道和预安装应用的预定义模板，让你可以快速轻松地创建团队。
 
-对于医疗保健组织，模板可能尤其强大，因为它们为用户提供结构，引导他们理解如何有效使用 Teams。 通过模板，管理员还可在组织中部署一致的团队。 如果你负责在整个医疗组织中规划、部署和管理多个团队，则本文非常适合你。
+对于医疗保健组织，模板可能特别强大，因为它们提供结构，让用户以如何有效地使用Microsoft Teams。 通过模板，管理员还可在组织中部署一致的团队。 如果你负责在整个医疗组织中规划、部署和管理多个团队，则本文非常适合你。
 
-选择使用 Teams 医疗模板创建团队的方法：
+选择使用团队医疗保健模板创建团队的方法：
 
 | 人员 | 使用方法： |
 | ---- | --------- |
-| 管理员和 IT 专业人员 | [使用 Teams 管理中心](#use-the-teams-templates-in-the-teams-admin-center) 基于医疗 Teams 模板创建团队。|
-| 开发人员和系统整合者 | [使用 Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) 基于医疗 Taeams 模板创建团队。 |
+| 管理员和 IT 专业人员 | [使用Teams管理中心](#use-the-team-templates-in-the-admin-center)基于医疗保健团队模板创建团队。|
+| 开发人员和系统整合者 | [使用 Microsoft Graph](#use-the-team-templates-with-the-microsoft-graph)根据医疗保健团队模板创建团队。 |
 
-## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>使用 Teams 管理中心中的 Teams 模板
+## <a name="use-the-team-templates-in-the-admin-center"></a>使用管理中心中的团队模板
 
-Microsoft Teams 管理员可以使用 Teams 管理中心使用 Teams 模板创建团队。 我们目前提供两种第一方医疗模板，可用于多种情况。 要在总体上了解团队模板的详细信息，请参阅 [管理中心中的 Teams 模板入门](../../get-started-with-teams-templates-in-the-admin-console.md)。
+Microsoft Teams管理员可以使用Teams管理中心创建具有团队模板的团队。 我们目前提供两种第一方医疗模板，可用于多种情况。 若要了解有关团队模板的一般信息，请参阅管理中心 [中的团队模板入门](../../get-started-with-teams-templates-in-the-admin-console.md)。
 
 ### <a name="collaborate-on-patient-care"></a>协作处理患者护理
 
@@ -65,9 +65,9 @@ Microsoft Teams 管理员可以使用 Teams 管理中心使用 Teams 模板创�
 ||||
 
 
-## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>将 Teams 模板与 Microsoft Graph 一起使用
+## <a name="use-the-team-templates-with-the-microsoft-graph"></a>将团队模板与 Microsoft Graph
 
-开发人员可使用 Microsoft Graph 通过 Teams 模板创建团队。 我们目前提供两种第一方医疗模板，可用于多种情况。 要总体上了解有关团队模板的详细信息，请参阅 [开始使用 Teams 模板](../../get-started-with-teams-templates.md)。 有关 Teams 模板和 Microsoft Graph 的信息，请参阅 [Microsoft Teams API 概述](/graph/teams-concept-overview?view=graph-rest-1.0) 和 [teamsTemplate 资源类型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+开发人员可以使用 Microsoft Graph团队模板创建团队。 我们目前提供两种第一方医疗模板，可用于多种情况。 若要了解有关团队模板的一般信息，请参阅 [团队模板入门](../../get-started-with-teams-templates.md)。 有关团队模板和 Microsoft 模板的信息，Graph [API](/graph/teams-concept-overview?view=graph-rest-1.0)概述Microsoft Teams [teamsTemplate 资源类型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
 
 ### <a name="ward-template"></a>病房模板
 
@@ -93,7 +93,7 @@ Microsoft Teams 管理员可以使用 Teams 管理中心使用 Teams 模板创�
 
 ### <a name="how-to-use-first-party-templates"></a>如何使用第一方模板
 
-要使用这些模板，只需将请求正文中的“template@odata.bind”属性从“标准”更改为上述 TemplateID。  要详细了解如何部署 Teams 模板，请参阅 Microsoft Graph 文章，了解如何[创建团队](/graph/api/team-post?view=graph-rest-beta)。
+要使用这些模板，只需将请求正文中的“template@odata.bind”属性从“标准”更改为上述 TemplateID。  若要详细了解如何部署团队模板，请参阅 Microsoft Graph文章，了解如何[创建团队](/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > 模板中的频道将自动创建在“常规”选项卡下方。
@@ -202,6 +202,6 @@ Microsoft Teams 管理员可以使用 Teams 管理中心使用 Teams 模板创�
 
 ### <a name="related-topics"></a>相关主题
 
-[Teams 模板入门](../../get-started-with-teams-templates.md)
+[团队模板入门](../../get-started-with-teams-templates.md)
 
-[适用于医疗组织的 Teams 入门](teams-in-hc.md)
+[医疗保健组织团队入门](teams-in-hc.md)

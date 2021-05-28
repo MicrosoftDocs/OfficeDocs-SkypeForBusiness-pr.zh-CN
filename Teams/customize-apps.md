@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337799"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684589"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "52337799"
 - "大纲"图标
 - 主题色
 
-有关[可Teams](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema)字段的详细信息，请参阅清单架构。
+有关[可Teams](/microsoftteams/platform/resources/schema/manifest-schema)字段的详细信息，请参阅清单架构。
 
 > [!NOTE]
 > 目前，政府社区云高 (GCCH) 或国防部 (DoD) 不支持自定义应用。
@@ -173,3 +173,4 @@ ms.locfileid: "52337799"
 
 - [管理应用](manage-apps.md)
 - [自定义应用商店](customize-your-app-store.md)
+- [为应用重新品牌](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)
