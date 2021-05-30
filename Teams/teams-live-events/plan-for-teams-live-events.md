@@ -20,12 +20,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: fbacbc4e17d08ae8e5e3a86338f764976ac34b4d
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637854"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699333"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -85,7 +85,7 @@ ms.locfileid: "51637854"
 2. 让该用户接受来宾邀请并加入团队。
 3. [安排直播活动并将来宾添加到活动组](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-作为最佳做法，我们建议你为直播活动的制作者和演示者创建一个频道，以便他们可以在活动前聊天和共享信息。 没有 Microsoft 365 凭据的来宾将无法在 Teams 中看到日历。 为便于用户加入活动，制作者可将活动链接发布到相应频道。 演示者可以打开 Teams，转到该频道，然后选择链接以加入该活动。
+作为最佳做法，我们建议你为直播活动的制作者和演示者创建一个频道，以便他们可以在活动前聊天和共享信息。没有 Microsoft 365 凭据的来宾将无法在 Teams 中看到日历。为便于用户加入活动，制作者可将活动链接发布到相应频道。演示者随后可以打开 Teams，转到该频道，然后单击链接以加入该活动。
 
 ## <a name="who-can-watch-live-events"></a>谁可以观看实时事件
 
@@ -106,7 +106,7 @@ ms.locfileid: "51637854"
 > [!IMPORTANT]
 > **Microsoft 365 实时事件限制的增加**
 >
-> **若要继续支持客户的需求，直至2021年6月30日，我们将扩展现场活动的临时增加限额，包括**：
+> **若要继续支持客户的需求，直至2022年1月，我们将扩展现场活动的临时增加限额，包括**：
 >
 >- 可为多达20,000名与会者提供活动支持
 >- 一个租户可同时举办50场活动
