@@ -16,16 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 有关管理员功能的Microsoft Teams发行说明。
-ms.openlocfilehash: 5f9020afaa230156df2927ceecfd26ae33c2c2ae
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 6d634d89c5b810b0df149385e020ab0944def475
+ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598501"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705256"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>管理员功能Microsoft Teams发行说明
 
 这些发行说明提供有关新版管理员功能的信息Microsoft Teams。
+
+## <a name="april-30-2021"></a>2021 年 4 月 30 日
+
+### <a name="career-coach"></a>职业指导
+
+职业指导是一Microsoft Teams由 LinkedIn 支持的应用，它为教育学生提供个性化指导，帮助其导航其职业之旅。 职业指导为教育机构提供了统一的职业发展解决方案，学生可以发现其职业路径、发展实际技能，并全部在一个地方建立自己的网络。 [了解详细信息](../career-coach.md)。
 
 ## <a name="march-31-2021"></a>2021 年 3 月 31 日
 
@@ -328,11 +334,11 @@ Teams应用可免费安装，某些应用可能需要购买服务订阅，以体
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>使用设备标记功能增强可管理性
 
-作为增强可管理性的一部分，我们将发布设备标记功能。 它可让 IT 管理员使用用户生成的标记对一组特定的设备进行分组，并在同一设备上执行相同的操作。 [了解详细信息](/../../manage-device-tags.md)。
+作为增强可管理性的一部分，我们将发布设备标记功能。 它可让 IT 管理员使用用户生成的标记对一组特定的设备进行分组，并在同一设备上执行相同的操作。 [了解详细信息](../devices/manage-device-tags.md)。
 
 ### <a name="view-only-in-meetings"></a>会议中仅查看
 
-仅查看允许最多 20，000 个仅听参与者加入会议，组织者在此会议中拥有高级通信附加内容 SKU 的许可证。1 这是预览版或早期发布功能。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)。
+仅查看允许最多 20，000 个仅听参与者加入会议，组织者在此会议中拥有高级通信附加内容 SKU 的许可证。1 这是预览版或早期发布功能。 [了解详细信息](../limits-specifications-teams.md#meetings-and-calls)。
 
 ## <a name="july-28-2020"></a>2020 年 7 月 28 日
 

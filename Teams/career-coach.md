@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684569"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699353"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>购买、配置和启用职业指导Microsoft Teams
 
@@ -184,9 +184,6 @@ LinkedIn 配置将职业指导与来自 LinkedIn 的公共毕业生数据相连�
 
 若要创建课程目录，请汇集在教育机构中教授的所有课程的列表，并将其上传为 CSV 文件。 该应用从课程目录中进行绘制，以识别学生的脚本技能，并建议要参加的课程。 
 
-> [!NOTE]
-> 有关[保护学生信息Teams](location-of-data-in-teams.md)[请参阅](security-compliance-overview.md)数据在安全与合规性中的位置。 
-
 ##### <a name="course-catalog-documents-formatting-and-schema"></a>课程目录文档格式和架构
 
 文档需要采用 CSV 格式，最大大小为 18 MB。 文档必须包含必填字段 **课程标题**、**课程 ID** 和 **课程 URL。** 包含建议的字段可返回更好的搜索结果和技能标识，从而改善学生的体验。
@@ -317,13 +314,9 @@ LinkedIn 配置将职业指导与来自 LinkedIn 的公共毕业生数据相连�
 
 - [在管理中心Microsoft Teams应用](manage-apps.md)
 
-- [安全、隐私和合规性Microsoft Teams](security-compliance-overview.md)
-
 - [联机虚拟方向工具包](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
 
 - [通道的限制Teams规范](limits-specifications-teams.md)
-
-- [Microsoft Teams 中的数据位置](location-of-data-in-teams.md)
 
 - [适用于管理员的管理员培训Microsoft Teams](ITAdmin-readiness.md)
 

@@ -21,23 +21,23 @@ ms.collection:
 - m365solution-scenario
 appliesto:
 - Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: ansantam
 description: 使用 Microsoft Teams 设置虚拟就诊系统
-ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: 9c002a90cd91014ca4887386ca5834a4b5b41266
+ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096276"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705246"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>通过 Teams 进行虚拟就诊 - 集成到 EHR
 
-借助 Microsoft Teams 电子健康记录 (EHR) 连接器，临床医生可轻松地直接从 EHR 系统向 Teams 中的其他提供商发起虚拟患者访视或咨询。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
-利用 Teams 的沟通和协作平台，临床医生可轻松解决零碎的体制问题，从而腾出更多时间提供最好的医治。 Microsoft Teams 电子健康记录 (EHR) 连接器可以实现以下操作：
+Microsoft Teams借助 EHR (EHR) 连接器，医生可以轻松直接从 EHR 系统启动虚拟患者访问或咨询Teams提供商。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
+利用 Teams 的沟通和协作平台，临床医生可轻松解决零碎的体制问题，从而腾出更多时间提供最好的医治。 Microsoft TeamsEHR (EHR) 连接器可以：
 
-- 从提供商和患者门户发起 Teams 虚拟就诊。
-- 在发生连接后断开事件时，重新写入 EHR 元数据以启用自动审核和记录保留。
-- 集成到现有临床医生和患者工作流中，同时允许其使用 Microsoft Teams。
+- 启动Teams EHR 系统的虚拟访问和集成的医疗工作流。
+- 使患者能够从患者Teams内加入虚拟访问。
+- 将有关虚拟访问的元数据写回到 EHR 系统Teams与会者连接和断开连接时进行记录，并启用自动审核和记录保留。
 
   请观看此视频，了解如何从 EHR 门户管理虚拟就诊。
 
@@ -49,7 +49,7 @@ ms.locfileid: "51096276"
 
 - 可以访问并使用 [Epic 的 App Orchard 商城](https://apporchard.epic.com/Gallery?id=6153)中的 Microsoft Teams 应用。
 
-- 有效的 Microsoft Cloud for Healthcare 订阅或 Microsoft Teams EHR 连接器独立产品订阅（仅在生产测试期间强制实施）。
+- 活动订阅 Microsoft Cloud for Healthcare 或订阅 EHR 连接器Microsoft Teams产品/服务 (仅在生产测试期间) 。
 
 - 用户必须具有包含 Microsoft Teams 会议的适当 Microsoft 365 或 Office 365 许可证。
 
@@ -79,7 +79,7 @@ ms.locfileid: "51096276"
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>[启动 EHR 连接器配置门户](#launch-the-ehr-connector-configuration-portal)
 
-启动 EHR 连接器配置门户后，即可开始将你的医疗保健组织配置为通过 Microsoft Teams 发起虚拟就诊。 可配置一个或多个组织来测试集成。 在配置门户中配置测试和生产 URL。 在投入生产之前，请从 Epic 的测试环境测试集成。
+通过启动 EHR 连接器配置门户，将医疗保健组织配置为Microsoft Teams虚拟访问。 可配置一个或多个组织来测试集成。 在配置门户中配置测试和生产 URL。 在投入生产之前，请从 Epic 的测试环境测试集成。
   
 - EHR 连接器配置 URL：[https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -99,7 +99,7 @@ ms.locfileid: "51096276"
 
 ### <a name="approve-or-view-configuration"></a>[批准或查看配置](#approve-or-view-configuration)
 
-如果你的医疗保健组织的 Epic 客户分析员已被添加为审批者，其现在必须使用与上一步相同的 EHR 连接器 URL 来利用 Microsoft 365 凭据登录。 验证成功后，审批者必须使用其 Epic 凭据登录以验证 Epic 组织。
+已添加为审批者医疗保健组织的 Epic 客户分析师现在必须使用上一步骤中的同一 EHR 连接器 URL 使用其 Microsoft 365 凭据登录。 验证成功后，审批者必须使用其 Epic 凭据登录以验证 Epic 组织。
 
 > [!Note]
 > 你组织的 Microsoft 365 管理员和 Epic 客户分析员可以是同一个人。 在这种情况下，请将你自己的用户名添加为审批者。 你仍需要登录到 Epic 验证你的访问权限。 Epic 登录仅用于验证 FHIR 基本 URL。 Microsoft 不会通过此登录来存储凭据或访问 EHR 数据。
@@ -126,7 +126,7 @@ ms.locfileid: "51096276"
 
 ## <a name="launch-teams-virtual-visits"></a>启动 Teams 虚拟就诊
 
-完成 EHR 连接器步骤和 Epic 配置后，你的组织已准备好支持通过 Microsoft Teams 进行视频就诊。
+完成 EHR 连接器步骤和长篇大作配置后，组织已准备好使用 Microsoft Teams 支持视频访问。
 
 ### <a name="virtual-visit-prerequisites"></a>虚拟就诊先决条件
 
@@ -175,4 +175,8 @@ ms.locfileid: "51096276"
 
 Teams 与 EHR 系统集成可优化集成和虚拟就诊流期间正在使用和存储的数据量。 该解决方案遵循“Teams 隐私”中概述的总体 Teams 隐私和数据管理原则和准则。
 
-Microsoft Teams EHR 连接器不会存储或传输来自 EHR 系统的任何可识别个人数据或者患者或医疗保健提供商的任何健康记录。 EHR 连接器存储的唯一数据是 EHR 用户的唯一 ID，该 ID 在 Teams 会议设置期间使用。 EHR 用户的唯一 ID 存储在“[Microsoft 365 客户数据的存储位置](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)”中所述的三个地理区域之一。 会议参与者在 Teams 中输入的所有聊天、记录和其他数据都将根据现有的存储策略进行存储。 如需了解有关 Microsoft Teams 中的数据位置的更多信息，请访问 [Teams 中的数据位置](../../location-of-data-in-teams.md)。
+Microsoft Teams EHR 连接器不会存储或传输来自 EHR 系统的任何可识别个人数据或者患者或医疗保健提供商的任何健康记录。 EHR 连接器存储的唯一数据是 EHR 用户的唯一 ID，该 ID 在 Teams 会议设置期间使用。 EHR 用户的唯一 ID 存储在“[Microsoft 365 客户数据的存储位置](/microsoft-365/enterprise/o365-data-locations)”中所述的三个地理区域之一。 会议参与者在 Teams 中输入的所有聊天、记录和其他数据都将根据现有的存储策略进行存储。 如需了解有关 Microsoft Teams 中的数据位置的更多信息，请访问 [Teams 中的数据位置](../../location-of-data-in-teams.md)。
+
+## <a name="related-topics"></a>相关主题
+
+[Teams虚拟访问](ehr-admin-reports.md)
