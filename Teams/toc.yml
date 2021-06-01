@@ -1398,6 +1398,8 @@ items:
             items:
               - name: 通过 Teams 进行虚拟访问 - 集成到 EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: EHR 管理员报告
+                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: 通过 Bookings 和 Teams 进行虚拟访问
                 href: bookings-app-admin.md
           - name: 查看和分配策略包
