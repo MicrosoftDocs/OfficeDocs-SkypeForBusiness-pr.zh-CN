@@ -18,12 +18,12 @@ description: 了解如何配置 Microsoft 呼叫计划并电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2531add2b43b7061b81a23676c54fbc557929c0f
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: 8de3dcbff637a80b871b0f758c8afcd6c7432212
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858005"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718013"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -85,7 +85,7 @@ Microsoft 呼叫计划和直接路由电话系统动态紧急呼叫提供配置�
 - Teams 会议室 4.4.25.0 及更大版本
 
 > [!NOTE]
-> Web 客户端不支持动态紧急呼叫，包括安全Teams通知。 若要防止用户使用 Teams Web 客户端呼叫 PSTN 号码，你可以设置Teams策略并关闭"允许 **Web PSTN** 呼叫"设置。 有关详细信息，[请参阅在](teams-calling-policy.md)Teams[和 Set-CsTeamsCallingPolicy 中调用策略](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。
+> Web 客户端不支持动态紧急呼叫，包括安全Teams通知。 若要防止用户使用 Teams Web 客户端呼叫 PSTN 号码，你可以设置Teams策略并关闭"允许 **Web PSTN** 呼叫"设置。 有关详细信息，[请参阅在](teams-calling-policy.md)Teams[和 Set-CsTeamsCallingPolicy 中调用策略](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 支持子网和 WiFi AP。 此时，Windows 8.1和更高版本支持以太网交换机/端口。 
 
 ## <a name="assign-emergency-addresses"></a>分配紧急地址
 

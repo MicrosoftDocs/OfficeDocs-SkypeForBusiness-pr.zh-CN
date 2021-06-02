@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a24de985b601b1d84250863e06fed90a77699483
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 39150cc5ff6a64c17bad660b4df4b74610399cd1
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656075"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717733"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -182,6 +182,11 @@ Microsoft 365 企业应用版不支持每台计算机安装 Teams。 若要使�
         此过程是默认安装，它Teams %AppData% 用户文件夹。 此时，黄金映像设置已完成。 Teams在非永久性设置上无法正常执行按用户安装。
 
     - 每台计算机安装
+
+        ```console
+        reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
+        ```
+        此过程会将所需的注册表项添加到计算机，使Teams知道它是 VDI 实例。  如果没有它，安装程序将出错，指出："安装失败。  在未检测到 VDI 环境时，无法为所有用户安装。"
 
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1

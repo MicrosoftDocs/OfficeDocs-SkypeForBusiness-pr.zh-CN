@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 阅读本文以查找直接路由的媒体路径国家/地区代码，以便可以选择最佳媒体路径。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648121"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717993"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒体路径国家/地区代码
 
@@ -37,7 +37,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 请注意，只有在调用日志明确指示媒体路径的数据中心默认分配不使用离 SBC 数据中心最近的路径时，Microsoft 才建议设置此参数。 
 
 > [!NOTE]
-> -MediaRelayRoutingLocationOverride - 此命令不可用于直接路由方案。
+> 保留 MediaRelayRoutingLocationOverride 参数，供托管运营商使用。
  
 ## <a name="country-code-reference-table"></a>国家/地区代码参考表
 
@@ -297,4 +297,3 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 | 也门           | YE |
 | 赞比亚          | ZM |
 | 津巴布韦        | ZW |
-

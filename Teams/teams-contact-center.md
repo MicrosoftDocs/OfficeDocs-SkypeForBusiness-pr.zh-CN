@@ -13,12 +13,12 @@ f1.keywords:
 description: CCaaS) 解决方案的集成联系中心作为服务 (概述Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14d83255644d3f748fdc81144b944ec4b62f5fbd
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: 84c012950065cb261a0fc451aa77c498e9ba7d78
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948685"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717783"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>适用于联系人的联系人中心Microsoft Teams
 
@@ -57,10 +57,10 @@ Microsoft Teams客户交互工作流，它充当其通信模式（包括聊天�
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
+| `Cirrus Response` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
-| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |

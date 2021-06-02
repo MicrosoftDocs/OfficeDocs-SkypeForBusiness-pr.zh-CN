@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5533b6d5c2e08cb79ec8dd2052d761d86546b05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e5f8df087ca7ad999a9756467925be68c60e96f
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117840"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718053"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>规划Office 365 政府版 - GCC部署
 
@@ -91,6 +91,3 @@ ms.locfileid: "51117840"
 载入到 Office 365 政府版 - GCC 高"后，请按照如何推出 Microsoft Teams[中概述的建议部署路径](./deploy-overview.md)。 请务必与采用和更改管理团队和Teams合作。
 
 还可以与 [FastTrack 或](https://www.microsoft.com/fasttrack) 所选合作伙伴合作来载入服务。
-
-> [!NOTE]
-> 尚不Teams GCCH 环境的 Mac 客户端。

@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为公司中的大型组织设置和测试自动助理Microsoft Teams。
-ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628941"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717863"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
 自动助理可让你的人呼叫你的组织并导航菜单系统，以与正确的部门、呼叫队列、人员或接线员通话。 可以使用管理中心或 PowerShell 为组织Microsoft Teams自动助理。
 
 > [!TIP]
-> 本文是大型组织。 如果你的组织是一家小公司，请改为阅读设置自动助理 [- 小型企业教程](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 。
+> 本文适用于大型组织。 如果你的组织是小型企业，请改为阅读 [设置自动助理 - 小型企业教程](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 。
 
 请确保已阅读自动[助理Teams](plan-auto-attendant-call-queue.md)呼叫队列的计划，并按照入门步骤操作，然后按照本文中的[](plan-auto-attendant-call-queue.md#getting-started)步骤操作。
 
@@ -77,8 +77,8 @@ ms.locfileid: "52628941"
 
 5. 选择是否要启用语音输入。 启用后，每个菜单选项的名称将成为语音识别关键字。 例如，呼叫者可以说"一"来选择映射到键 1 的菜单选项，也可以说"销售"来选择名为"销售"的菜单选项。
 
-> [!NOTE]
-> 如果在步骤 4 中选择不支持语音输入的语言，此选项将被禁用。
+   > [!NOTE]
+   > 如果在步骤 4 中选择不支持语音输入的语言，此选项将被禁用。
 
 6. 选择"下 **一步"。**
 

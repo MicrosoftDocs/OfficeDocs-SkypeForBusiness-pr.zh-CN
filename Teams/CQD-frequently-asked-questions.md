@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 阅读常见问题解答 (常见问题) 和有关 CQD Microsoft Teams呼叫质量 (的) 。
-ms.openlocfilehash: 3b527b32e194b531be5003c5f8b180a00976cf8e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad718df893b69b333dd63d224663238879fda8c7
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111528"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718003"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>呼叫质量仪表板 (CQD) 常见问题解答 (常见问题) 
 
@@ -44,20 +44,22 @@ ms.locfileid: "51111528"
 
 [为什么我的自定义报表最多只返回 10，000 行，当我知道应该有更多的条目时？](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
+[为什么 WiFi VPN 连接显示为"有线"而不是"WiFi"？](#why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi)
+
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>如果一个或多个会议参与者体验不佳，CQD 为何将通话标记为"良好"？
 
 查看 CQD 用于流分类 [的规则](stream-classification-in-call-quality-dashboard.md)。
  
-对于音频流，根据调用长度计算平均值的 5 个分类器中的任意一个可能都位于"良好"参数内。 这并不意味着用户未遇到导致音频掉线、静态或故障的问题。 
+对于音频流，根据调用长度计算平均值的五个分类器中的任意一个都可能是"良好"参数。 这并不意味着用户未遇到导致音频掉线、静态或故障的问题。 
 
 若要确定它是网络问题，请看会话的平均值与最大值之间的增量。 最大值是会话期间检测到并报告的最大值。
  
-下面是如何排查这种情况的示例。 假设你在调用期间进行网络跟踪，并且前 20 分钟没有丢失数据包，但随后你有 1.5 秒数据包的间隙，然后适合通话的其余部分。 即使在 Wireshark 跟踪 RTP 分析 (，平均丢包率<10%) 0.1。 最大数据包丢失是什么？ 5 秒的 1.5 秒为 0.3 (30%) 。 这发生在五秒钟的采样周期内 (，或者它在采样期间被拆分) ？
+下面是如何排查这种情况的示例。 假设你在调用期间进行网络跟踪，并且前 20 分钟没有丢失数据包，但随后你有 1.5 秒数据包的间隙，然后适合通话的其余部分。 即使在 Wireshark 跟踪 RTP 分析 (，平均丢包率<10%) 0.1。 最大数据包丢失是什么？ 5 秒的 1.5 秒为 0.3 (30%) 。 这是在 5 秒采样期内发生的 (，还是可以在采样期间拆分) ？
  
 如果网络指标在平均值和最大值中看起来不错，则查看其他遥测数据： 
 - 检查"CPU 不足事件比率"，查看检测到的可用 CPU 资源是否不足，导致质量差。 
 - 音频设备是否由于麦克风接近扬声器而以半双工模式阻止反馈？ 
-- 检查设备半双工 AEC 事件比率。 插入集线器或扩展坞时，设备故障或麦克风故障是否由于 USB 音频输出而引入噪音或静态：  
+- 检查设备半双工 AEC 事件比率。 插入集线器或扩展坞时，设备故障或麦克风故障是否由于 USB 音频输出而引入噪音或静态？  
 - 检查"设备故障"和"麦克风故障"事件比率。 设备本身是否正常运行？  
 - 检查捕获和呈现设备无法正常工作的事件比率。
 
@@ -101,13 +103,17 @@ CQDv2 和 CQDv3 始终具有不同的总计计数，因为 CQDv3 将具有 CQDv2
 
 如果 SFB 2019 与数据连接器) 一起使用，则 CQDv3 将包括 SFB 2019 本地呼叫 (、Skype 机器人呼叫 (AA、CVI、VDI) 、实时事件和 PSTN 呼叫。 客户可用的方案/功能，但其数据不在 CQD V2 中。
 
-例如，预期客户和你将看到 200，000 个音频流，CQD V2 摘要报告中有 5000 个失败;与 300，000 个音频流相比，5500 次失败 (来自 CQD V3 中的 2019 个就地呼叫、CVI 呼叫、PSTN) 等。
+例如，预期客户和你将看到 200，000 个音频流，CQD V2 摘要报告中有 5000 个失败;与 300，000 个音频流相比，5500 次失败 (来自 CQD V3 中的 2019 个就地呼叫、CVI 呼叫、PSTN 呼叫等 ) 。
 
 若要确定如果存在任何意外的差异，则必须查看总体数据的各种细分。  与意向进行比较。  按用户代理类别对切片数据是建议的第一项操作之一。  *第一* 个 *产品和第二* 个产品也是很好的切片器。  
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>为什么我的自定义报表最多只返回 10，000 行，当我知道应该有更多的条目时？
 
 CQD 设计用于汇总数据查询，不用于数据导出。 我们建议尽可能重建报表，以防止超过 10，000 行的限制。 首先，使用更大、基数较低的维度（如月、年、日期、区域、国家/地区等）查看 KPI。从该维度中，可以向下钻取到基数越高的维度。 支持人员报表Location-Enhanced报表都提供了此向下钻取工作流的良好示例。
+
+### <a name="why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi"></a>为什么 WiFi VPN 连接显示为"有线"而不是"WiFi"？
+
+这是正常情况。 VPN 供应商创建了一个虚拟以太网适配器，该适配器被视为有线连接。 由于未正确标记，操作系统不知道它是 WiFi 连接，并报告为有线连接。
 
 ## <a name="related-topics"></a>相关主题
 

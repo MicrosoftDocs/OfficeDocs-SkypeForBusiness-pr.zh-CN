@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理会议网络研讨会Teams策略。
-ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656045"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718043"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中设置网络Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "52656045"
 若要允许组织中用户计划网络研讨会，请运行：
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>配置谁可以注册网络研讨会
 
@@ -66,7 +66,7 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 **若要 *仅* 允许您的组织中的用户注册网络研讨会，请运行：**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 然后，运行：
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **若要允许任何人（包括匿名用户）注册网络研讨会，请运行：**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 然后，运行：

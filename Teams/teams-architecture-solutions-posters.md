@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 总结：了解 Microsoft 365 中生产力服务的逻辑体系结构，以 Microsoft Teams 为主导。
-ms.openlocfilehash: b124a32cc2b0285f364d1211ea8d23eb2d6e64c2
-ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
+ms.openlocfilehash: 75f1a4a2be0cc2669537a6f7afd031468d246a1a
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52212155"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717963"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT 体系结构和语音解决方案海报
 
@@ -32,7 +32,6 @@ Teams 是 Microsoft 365 中生产力服务的逻辑体系结构的中心 - 包�
 此系列图示展示了企业架构师生产力服务的逻辑体系结构，以 Teams 为主导。
 
 [![Teams 逻辑体系结构海报缩略图](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
-
 
 ## <a name="groups-in-microsoft-365"></a>Microsoft 365 中的组
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 013cd992619264f875841b1b6bb13aca3943d14e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f2e7ccaac78cd7e96581dc1d9371fc9eef096265
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092441"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717973"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用导出 API Microsoft Teams内容
 
@@ -73,8 +73,9 @@ Teams使用导出 API，你可以从游戏导出 1：1、群组聊天、会议�
 - Microsoft TeamsMicrosoft 中用于Graph敏感数据的 API 被视为受保护的 API。 导出 API 需要具有除权限和许可之外的附加验证才能使用它们。 若要请求访问这些受保护的 API，请完成 [请求表单](https://aka.ms/teamsgraph/requestaccess)。
 - 应用程序权限由在没有登录用户的情况下运行的应用使用;应用程序权限只能由管理员许可。 需要以下权限：
 
-    - *Chat.Read.All：* 允许访问所有 1：1 和群组聊天消息 
-    - *User.Read.All：* 允许访问租户的用户列表 
+    - *Chat.Read.All：* 允许访问所有 1：1、群组聊天和会议聊天消息 
+    - *ChannelMessage.Read.All：* 允许访问所有通道消息  
+    - *User.Read.All：* 允许访问租户的用户列表
 
 ## <a name="json-representation"></a>JSON 表示形式
 

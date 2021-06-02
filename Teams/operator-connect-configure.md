@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e82c862810448552bb9d2dc2d721815b5db43f55
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: bb6ceacb6e7a2cc4d458c86edda96511e5230ace
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689884"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717853"
 ---
 # <a name="configure-operator-connect"></a>配置运算符连接
 
@@ -76,7 +76,7 @@ ms.locfileid: "52689884"
 
 4. **获取数字。** 转到接线员的网站以订购和获取电话号码。 有关运算符网站的列表，请参阅 [运算符](#operators)。 需要提供租户 ID。 如果不知道租户 ID，请参阅查找租户Microsoft 365 [ID](/onedrive/find-your-office-365-tenant-id)了解详细信息。
 
-5. **分配数字。** 操作员完成订单后，将测试编号上传到租户。 可以通过在"语音"Teams管理中心查看号码和> 电话 **提供商**。 使用管理中心或 PowerShell Teams向用户分配号码。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
+5. **分配数字。** 操作员完成订单后，会向租户上传号码。 可以通过在"语音"Teams管理中心查看号码和> 电话 **提供商**。 使用管理中心或 PowerShell Teams向用户分配号码。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
  
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>将号码从通话套餐移动到接线员连接
@@ -108,7 +108,7 @@ ms.locfileid: "52689884"
 
 3. 转到接线员的网站以订购和获取电话号码。 有关运算符网站的列表，请参阅 [运算符](#operators)。 需要提供租户 ID。 如果不知道租户 ID，请参阅查找租户Microsoft 365 [ID](/onedrive/find-your-office-365-tenant-id)了解详细信息。
 
-4. 操作员完成订单后，将测试编号上传到租户。 可以通过在"语音"Teams管理中心查看号码和> 电话 **提供商**。 使用 连接管理中心或 PowerShell 为Teams分配操作员编号。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
+4. 操作员完成订单后，会向租户上传号码。 可以通过在"语音"Teams管理中心查看号码和> 电话 **提供商**。 使用 连接管理中心或 PowerShell 为Teams分配操作员编号。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
 
    
 

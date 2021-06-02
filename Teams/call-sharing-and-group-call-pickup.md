@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 呼叫共享和群组呼叫取件允许用户与同事共享传入呼叫，以便当用户不可用时可以捕获呼叫。
-ms.openlocfilehash: 88c8d41eb0cf58413df995274bb9accd50b897c9
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 98094ff0b4b5d7b037915273b2c2730d42517c22
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637824"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717833"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 
@@ -57,7 +57,7 @@ ms.locfileid: "51637824"
 
 ## <a name="limitations"></a>限制
 
-一个租户最多可以包含 32，768 个呼叫组。 每个呼叫组中最多可以有 25 个用户。 
+每个配置的呼叫组最多可以有 25 个用户或 32，768 个字符。 
 
 ## <a name="more-information"></a>更多信息
 

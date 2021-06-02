@@ -17,12 +17,12 @@ description: 本文介绍更新桌面客户端Microsoft Teams过程。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68e26325f4efcc5ffd7731b73e397f1f96579dd5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 004c615d2b624f4e5942562e6abfed6e1aebf7cd
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119241"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717893"
 ---
 # <a name="teams-update-process"></a>Teams更新过程
 
@@ -58,8 +58,6 @@ Teams管理员无法通过任何传送机制部署更新。
 作为新式联机服务，Teams客户端每两周自动更新一次。 由于Teams受新式生命周期策略约束，因此用户应保持使用桌面客户端的最新版本。 自动更新可确保用户具有最新功能、性能增强功能、安全性和服务可靠性。
 
 若要确定桌面客户端何时过期，如果用户的当前版本为 1 个月到 3 个月，并且是否有可用的新版本，则会显示应用内警报。 此应用内消息传送鼓励用户更新到最新版本的 Teams或者在必要时联系其 IT 管理员。 超过三Teams桌面客户端上的用户将看到一个阻止页面，该页面提供选项用于现在更新、联系其 IT 管理员或继续Teams Web 应用。
-
-首次安装和/或首次运行 Teams 超过三个月的桌面客户端版本在遇到上述服务信息之前有 28 天的宽限期。 在此期间，自动更新过程将更新Teams客户端。 如果未更新，用户将看到一个应用内警报，鼓励他们手动更新到最新版本的 Teams。 系统可能会提示用户联系其 IT 管理员以执行更新。 这包括使用 Teams 桌面客户端作为 Microsoft 365 企业应用版 捆绑包的一部分。
 
 Teams，在进一步通知之前，政府云上的桌面客户端当前对本服务协议有例外。
 

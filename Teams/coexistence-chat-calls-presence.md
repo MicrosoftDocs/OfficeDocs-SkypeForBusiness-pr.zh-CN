@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: 用户之间的共存Teams & Skype for Business，包括路由参数、聊天&呼叫路由、聊天&来自预先存在的线程的呼叫、&状态。
-ms.openlocfilehash: 603356df5e6f5006ea67f6a84141acf1347c1235
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f85843e4f6209731ac6146ef757f5f3dc4a88644
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122336"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718023"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
@@ -80,7 +80,7 @@ Skype for Business 和 Teams 客户端与用户之间的共存和互操作性由
 
 | <br/><br/> 模式 | 发起者 <br/><br/> 客户端 | <br/><br/> SfB &nbsp; homed |<br/><br/>路由 -- >| 收件人 <br/><br/> 孤岛  |
 |--- |--- |--- |--- |--- |
-| 孤岛 | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| Online<br/> Online<br/> 就地<br/>就地| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
+| 孤岛 | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| Online<br/> Online<br/> 就地<br/>就地| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> **不可能**<br/> Skype for Business|
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> 就地<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
@@ -98,7 +98,7 @@ Skype for Business 和 Teams 客户端与用户之间的共存和互操作性由
 
 | <br/><br/> 模式   | 发起者 <br/><br/> 客户端 | <br/><br/> SfB &nbsp; homed |<br/><br/>路由 -- >|   收件人 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| 孤岛   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> 就地<br/> 就地<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| 孤岛   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> 就地<br/> 就地<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>**不可能** <br/>*Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> 就地<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |

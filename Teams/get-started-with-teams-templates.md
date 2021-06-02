@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdee4dc55d0922796e66ece87b535b953ecf1580
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 0208b8c6ad16cc42611768a25237a6e48bf60401
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684539"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717823"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>开始使用 Microsoft Graph 的团队模板
 
@@ -68,14 +68,14 @@ ms.locfileid: "52684539"
 
 | 基本模板类型 | baseTemplateId | 此基本模板包含的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | 无其他应用和属性 |
-| 教育 -<br>课堂团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 应用：<ul><li>OneNote课堂笔记本 (固定到"**常规"选项卡**)  </li><li>作业应用 (固定到" **常规"选项卡**) </li></ul> 团队属性：<ul><li>团队可见性设置为 **HiddenMembership (** 无法重写) </li></ul> |
-| 教育 -<br>教职员工团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 应用：<ul><li>OneNote教职 (笔记本已固定到"**常规"** 选项卡) </li></ul> |
-|教育 -<br>PLC 团队 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 应用：<ul><li>OneNotePLC Notebook (固定到"**常规"选项卡**) </ul></li>|
-| 零售 -<br>商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 频道：<ul><li>换班</li><li>学习</li></ul>团队属性<ul><li>团队可见性设置为“公共”</li></ul>成员权限<ul><li>防止成员创建、更新或删除频道</li><li>防止成员添加或删除应用</li><li>防止成员创建、更新或删除连接器</li></ul> |
-| 零售 -<br>管理器协作 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 频道：<ul><li>学习</li><li>运营</li></ul>团队属性：<ul><li>团队可见性设置为“专用”</li></ul>成员权限：<ul><li>防止成员创建、更新或删除频道</li><li>防止成员添加或删除应用</li><li>防止成员创建、更新或删除连接器</li></ul>|
-| 医疗保健 -<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |频道： <ul><li>公告 \*</li><li>小型会议室 \*</li><li>循环配置</li><li>人员配备 \*</li><li>培训 \*</li></ul>\*自动收藏的频道 |
-|医疗保健 -<br>医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |频道：<ul><li>公告 \*</li><li>合规性 \*</li><li>保管</li><li>人力资源</li></li><li>药房</li></ul>\*自动收藏的通道|
+| Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | 无其他应用和属性 |
+| 教育 -<br>课堂团队 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | 应用：<ul><li>OneNote课堂笔记本 (固定到"**常规"选项卡**)  </li><li>作业应用 (固定到" **常规"选项卡**) </li></ul> 团队属性：<ul><li>团队可见性设置为 **HiddenMembership (** 无法重写) </li></ul> |
+| 教育 -<br>教职员工团队 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 应用：<ul><li>OneNote教职 (笔记本已固定到"**常规"** 选项卡) </li></ul> |
+|教育 -<br>PLC 团队 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 应用：<ul><li>OneNotePLC Notebook (固定到"**常规"选项卡**) </ul></li>|
+| 零售 -<br>商店 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailStore')` | 频道：<ul><li>换班</li><li>学习</li></ul>团队属性<ul><li>团队可见性设置为“公共”</li></ul>成员权限<ul><li>防止成员创建、更新或删除频道</li><li>防止成员添加或删除应用</li><li>防止成员创建、更新或删除连接器</li></ul> |
+| 零售 -<br>管理器协作 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailManagerCollaboration')` | 频道：<ul><li>学习</li><li>运营</li></ul>团队属性：<ul><li>团队可见性设置为“专用”</li></ul>成员权限：<ul><li>防止成员创建、更新或删除频道</li><li>防止成员添加或删除应用</li><li>防止成员创建、更新或删除连接器</li></ul>|
+| 医疗保健 -<br>Ward |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareWard')` |频道： <ul><li>公告 \*</li><li>小型会议室 \*</li><li>循环配置</li><li>人员配备 \*</li><li>培训 \*</li></ul>\*自动收藏的频道 |
+|医疗保健 -<br>医院 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareHospital')` |频道：<ul><li>公告 \*</li><li>合规性 \*</li><li>保管</li><li>人力资源</li></li><li>药房</li></ul>\*自动收藏的通道|
 |||
 
 
