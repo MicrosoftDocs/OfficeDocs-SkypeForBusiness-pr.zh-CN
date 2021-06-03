@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 可以使用名为 CallingLineIdentity 的策略控制 电话系统 用户的入站和出站呼叫的来电显示。
-ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 43d3d6633ca46485aa111a7d97b9bd37b0547818
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308341"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723543"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
@@ -49,9 +49,6 @@ ms.locfileid: "52308341"
 ## <a name="outbound-pstn-caller-id"></a>出站 PSTN 呼叫者 ID
 
 对于出站 PSTN 呼叫者 ID，可以使用以下选项。 
-
-> [!NOTE]
-> 下面指示的一些选项以预览版提供。
   
 - 分配给用户的电话号码，这是默认设置。
 
@@ -61,9 +58,9 @@ ms.locfileid: "52308341"
 
   - 在"呼叫计划"电话号码清单中分类为服务和免费电话号码的电话号码。 它通常分配给一个Teams 自动助理或呼叫队列。
 
-  - **预览版。** 本地电话号码，通过直接路由分配给呼叫队列或呼叫Teams 自动助理资源帐户。 
+  - 本地电话号码，通过直接路由分配给呼叫队列或呼叫Teams 自动助理资源帐户。 
 
-- **预览版。** 在出站 PSTN 呼叫上设置的呼叫方名称或 CNAM。  
+- 在出站 PSTN 呼叫上设置的呼叫方名称或 CNAM。  
     
 有关详细信息，请参阅 [为用户设置来电显示](./set-the-caller-id-for-a-user.md)。
   

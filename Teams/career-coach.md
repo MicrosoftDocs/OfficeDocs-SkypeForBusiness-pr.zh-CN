@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
+ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699353"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729781"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>购买、配置和启用职业指导Microsoft Teams
 
@@ -110,7 +110,7 @@ ms.locfileid: "52699353"
 
 4. 选择 **"职业指导**"，然后选择 **"设置"。**  
 
-    ![显示选中的"职业指导"应用，设置选项](media/app-settings.png)
+    ![显示选中的"职业指导"应用，设置选项](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>配置职业指导应用设置
 
@@ -133,7 +133,7 @@ ms.locfileid: "52699353"
 
 在品牌和首选项设置页面上设置教育机构的名称、徽标和默认语言。
 
-![管理中心的"职业指导品牌"部分](media/brand-preferences.png)
+![管理中心的"职业指导品牌"部分](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>教育机构图标
 
@@ -172,7 +172,7 @@ LinkedIn 配置将职业指导与来自 LinkedIn 的公共毕业生数据相连�
 
 4. 复制验证 URL，并与教育机构的 LinkedIn 页面管理员[LinkedIn 页面管理员文档共享。](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en) 验证链接在 30 天后过期。  
 
-   ![职业指导的链接设置](media/linkedin.png)  
+   ![职业指导的链接设置](media/career-coach-linked-in.png)  
 
 #### <a name="course-catalog"></a>课程目录
 

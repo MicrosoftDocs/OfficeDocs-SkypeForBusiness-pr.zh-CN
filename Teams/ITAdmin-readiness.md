@@ -19,12 +19,12 @@ ms.custom:
 description: 为管理员PowerPoint计划、部署和运行资源的培训视频、幻灯片、教程Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa1224982dce5bad2d2a46cb2100bac283ef3ef
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628781"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723420"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>适用于管理员的管理员培训Microsoft Teams
 
@@ -81,7 +81,7 @@ ms.locfileid: "52628781"
 
 <h2>TeamsAndroid 设备</h2>
 
-<p>下表包含全面视频培训的链接，以及) Android 设备上的 PowerPoint 幻灯片 (（PDF 格式为) ）的链接，其中包括 Microsoft Teams Teams 显示器、Teams 手机、Teams 会议室 for Android 和 Teams 面板。  
+<p>下表包含全面培训的链接，其中包含 PowerPoint 平台 (PDF 格式) ，在 Microsoft Teams Android 设备上，包括 Teams 显示器、Teams 手机、Teams 会议室 for Android 和 Teams 面板。  
 
 | 模块 | PowerPoint幻灯片 (PDF)   |
 | ------------| -------------------- |

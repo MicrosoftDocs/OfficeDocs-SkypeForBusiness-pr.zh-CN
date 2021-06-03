@@ -17,20 +17,22 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 82d9f152dbba345f876ac166bcf6833e53bab799
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768411"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718033"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
 状态是 Microsoft Teams（和所有 Microsoft 365 或 Office 365）中用户配置文件的一部分。 状态表示用户当前对其他用户的可用性和状态。 默认情况下，使用 Teams 的组织中的任何人都可以（几乎实时）查看其他用户是否在线。 当你在移动设备上刷新页面时，将在 Web 和桌面版本上实时更新状态。
 
- > [!Note]
+ > [!NOTE]
  > 有关不同平台上 Teams 用户配置文件的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
+ > [!NOTE]
+ > Teams 尊重你的隐私配置，因此如果已启用隐私模式，外部用户将看不到你的状态。
 ## <a name="presence-states-in-teams"></a>Teams 中的状态
 
 |用户配置|应用配置|
@@ -43,16 +45,17 @@ ms.locfileid: "51768411"
 || ![空心红色圆圈，表示忙碌](media/Presence_Busy_OOF.png) 通话中但外出|
 |  ![带白线的红色圆圈，表示请勿打扰](media/Presence_DND.png) 请勿打扰 ||
 || ![带白线的红色圆圈，表示正在演示](media/Presence_DND.png) 正在演示|
-|| ![带白线的红色圆圈，表示专注](media/Presence_DND.png) 专注。 当用户在日历的 MyAnalytics/Insights 中安排专注时间时，就会发生专注。|
+|| ![带白线的红色圆圈，表示专注](media/Presence_DND.png) 专注。当用户在日历的 MyAnalytics/Insights 中安排专注时间时，就会发生专注。|
 | ![黄色时钟图标，表示离开](media/Presence_Away.png) 离开| ![黄色时钟图标，表示离开](media/Presence_Away.png) 离开|
 || ![黄色时钟图标，表示离开](media/Presence_Away.png)上次上线 *时间* 离开|
 |![黄色时钟图标，表示离开但马上回来](media/Presence_Away.png) 马上回来| |
-|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 显示为脱机|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 脱机。  当用户在几分钟内未登录其任何设备时，他们将显示为脱机。 | |
+|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 显示为脱机|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 脱机。如果用户在几分钟内未登录其任何设备，则将显示为脱机。 | |
 || ![空心灰色圆圈，表示未知状态](media/Presence_Unknown.png) 未知状态|
-|| ![带箭头的紫色圆圈，表示外出](media/Presence_OOF.png) 外出。 设置自动答复时，将使用“外出”。 （仅适用于 Outlook。） |
+|| ![带箭头的紫色圆圈，表示外出](media/Presence_OOF.png) 外出。设置自动答复后，将使用外出。 |
 |||
- > [!Note]
- > 对于进行邮箱托管的用户，预期其状态延迟最大为一小时。
+ > [!NOTE]
+ > 对于将邮箱托管到本地的用户，预期存在一个小时（上限）的状态延迟。
+
 应用配置的状态基于用户活动（在线、离开）、Outlook 日历状态（会议中）或 Teams 应用状态（通话中、正在演示）。 当根据你的日历，你正处于专注模式时，“**专注**”将是人们在 Teams 中看到的状态。 在其他产品中，专注模式将显示为“**请勿打扰**”。
 
 当你锁定计算机或计算机进入空闲或睡眠模式时，你当前的状态将更改为“离开”。 在移动设备上，每当 Teams 应用处于后台时，你的状态就会更改为“离开”。

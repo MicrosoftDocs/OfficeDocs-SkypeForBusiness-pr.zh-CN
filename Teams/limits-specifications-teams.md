@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 3f15b2ad9fce413602ed531067ed7e2b280ed122
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628881"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717723"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -118,17 +118,6 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 ## <a name="meetings-and-calls"></a>会议和通话
 
-> [!IMPORTANT]
-> **Microsoft 365 实时事件限制的增加**
->
-> **若要继续支持客户的需求，直至2021年6月30日，我们将扩展现场活动的临时增加限额，包括**：
->
->- 可为多达20,000名与会者提供活动支持
->- 一个租户可同时举办50场活动
->- 每次广播的活动持续时间为16小时
->
-> 此外，可通过 Microsoft 365 辅助计划规划最多 100,000 名与会者的实时活动。团队将评估每个请求，并共同确定可能可用的选项。[了解详情](https://aka.ms/Stream/Blog/LiveEventOptions)。
-
 |功能     | 最大限制 |
 |------------|---------------|
 |会议中的人数（可聊天和通话）  | 1000，包括 GCC，但尚不包括 GCCH、DoD 或 A1 (300)。 “**仅供查看**”允许最多 20，000 名仅收听的参与者加入组织者拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC High 和 DoD）许可证。 了解关于[仅供查看体验](view-only-meeting-experience.md)的详细信息。|
@@ -139,7 +128,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 ### <a name="meeting-expiration"></a>会议过期时间
 
 > [!NOTE]
-> 会议 URL 永远不会停止工作。过期仅涉及任何 PSTN 拨入号码和/或基础会议策略和设置。
+> 会议 URL 永远不会停止工作。到期日期仅与任何 PSTN 拨入号码、CVI 坐标和/或基础会议策略和设置有关。
 
 |会议类型  |会议将在此时间后过期  |每次发起或更新会议时，过期时间都延长此时间  |
 |---------|---------|---------|
@@ -216,10 +205,10 @@ Microsoft Teams 教育版提供了专为独特教育场景设计的模板，如�
 |功能  |最大限制  |
 |---------|---------|
 |团队中的成员数    | 请参阅本文的[“团队和频道”](#teams-and-channels)部分        |
-|课堂团队中使用“作业”的成员数    | 200        |
-|课堂团队中使用“OneNote 课堂笔记本”的成员数     |200         |
+|课堂团队中使用“作业”的成员数    | 300        |
+|课堂团队中使用 OneNote 课堂笔记本的成员数     |300         |
 
-课堂团队可以支持超过 200 位成员。但是，如果你计划在你的团队中使用“作业”应用或“课堂笔记本”应用，则需要保留低于最大限制的成员数。
+课堂团队可以支持超过 300 位成员。但如果计划在团队中使用“作业”应用或“课堂笔记本”应用，择需要将成员数保持在上述上限之下。
 
 ## <a name="tags"></a>标记
 
