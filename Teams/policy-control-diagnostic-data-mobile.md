@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569230"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717983"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -109,10 +109,6 @@ ms.locfileid: "52569230"
   - 设置中的数字。
 - **blockChat** - 阻止机器人聊天。 这增强了现有聊天的遥测功能，并且只添加了应用程序信息。
 - **botClickCardAction** - 连接器卡用法。
-- **brbFeedback** - 与 BRB 反馈表的性能有关。
-- **brbFormCancelled** - 取消 BRB 反馈表单并且用户返回应用程序时发送的事件。
-- **brbFormOpened** - BRB 表单打开时发送的事件。
-- **brbFormSubmit** - 当用户在反馈表上选择“**提交**”时发送的事件。
 - **breakStartEndClicked** - 在上班打卡屏幕上，选择“**开始**”或“**结束休息时间**”按钮。
 - **breakStartEndTriggered** - 注册用户选择使用休息时间开始或结束。
 - **bucketSelected** - 确认已成功选择存储桶。
@@ -1187,6 +1183,8 @@ ms.locfileid: "52569230"
 - **voicemail - No AS Assigned** - 演讲者点击语音邮件项目。
 - **whiteboardUsed** - 用户在白板上注释（Web 视图上的任何操作）。
 - **wiki - No AS assigned** - Wiki 用法遥测。
+- **poorNetworkBanner** - 显示较差网络横幅。
+- **badNetworkBanner** - 显示错误网络横幅。
 
 ### <a name="panelview"></a>视图面板
 
@@ -1224,6 +1222,11 @@ ms.locfileid: "52569230"
 > [!NOTE]
 > 有关场景事件属性的详细信息，请参阅 [与方案事件一起发送的属性](#properties-sent-with-scenario-events)。
 
+- **app_incremental_sync_launch** 确认冷启动时，将成功更新药丸计数。
+- **app_incremental_sync_resume** 确认药丸数量成功地更新为暖/热启动。
+- **app_start_cold** 为了监控冷启动的应用程序 (仅Android)。
+- **app_start_hot** 为了监测热启动的应用程序 (仅 Android)。
+- **app_start_warm** 为了监视暖启动的应用程序 (仅 Android)。
 - **chat_add_giphy** - 确认 Giphy GIF 渲染操作成功或失败。
 - **cortanaError** 监控 Cortana 错误发生。
 - **cortanaView** - 监控 Cortana 画布出现。
@@ -1278,6 +1281,18 @@ ms.locfileid: "52569230"
 - **upload_images** 确认图像上传操作成功或失败。
 - **upload_voice_messages** 确认语音消息上传操作成功或失败。
 - **voiceMessageUpload** 确认语音消息上传操作成功或失败。
+- **cancel_channel_meeting** 确认取消频道会议已成功或失败。
+- **cancel_meeting** 确认取消会议已成功或失败。
+- **cancel_private_meeting** 确认取消私人会议已成功或失败。
+- **edit_channel_meeting** 确认频道会议编辑操作已成功或失败。
+- **edit_meeting** 确认会议的编辑操作已成功或失败。
+- **server_fetch_agenda_view** 确认使用中间层 API 进行的日历事件同步已成功或失败。
+- **server_fetch_date_picker_view** 确认使用 Outlook REST API 进行的日历事件同步已成功或失败。
+- **server_fetch_agenda_view_group** 确认使用中间层 API 为 TFL 组进行的日历事件同步已成功或失败。
+- **server_fetch_date_picker_view_incremental** 确认使用 Outlook REST API 进行的日历事件增量同步已成功或失败。
+- **meeting_details** 确认会议细节同步成功或失败。
+- **show_meeting_participants** 确认显示会议与会者名单成功或失败。
+
 
 ## <a name="property-lists"></a>属性列表
 
