@@ -26,16 +26,16 @@ metadata:
   appliesto:
     - Microsoft Teams
 productDirectory:
-  summary: 单击任何研讨会标题进行注册。
+  summary: 单击研讨会标题以注册或访问按需录制。
   items:
     - title: 负责视频中音频/视频Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
       summary: 想要确保用户具有最佳的会议和语音功能体验？ 我们将讨论可帮助你管理服务质量的工具、报告和最佳做法 - 从建立主动策略到解决常见问题。
-      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksQuality'
+      url: 'https://aka.ms/ChalkTalkAVQuality'
     - title: 那么...你想使用电话Teams？
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
       summary: 加入我们，深入了解将 PSTN 呼叫功能添加到 Teams 部署。 我们将一起演练调用术语、关键概念和配置。
-      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksCalling'
+      url: 'https://aka.ms/ChalkTalkCalling'
     - title: 使用视频激活实时Microsoft Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
       summary: 使用 Microsoft Teams，通过大型在线虚拟活动吸引受众并Microsoft Teams。 了解确保事件成功的最佳实践。
@@ -43,7 +43,7 @@ productDirectory:
     - title: Teams 基础中的应用
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
       summary: 此基础会话涵盖基本功能，包括应用管理和安全性。 了解如何将工作流、效率应用和日常使用的服务集成到单个统一的体验中。
-      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksApps'
+      url: 'https://aka.ms/ChalkTalkApps'
     - title: 将关键工作流与应用程序中的应用Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
       summary: 连接将组织依赖的应用引入到服务中，为用户改进系统、提高自动化Teams。
@@ -57,7 +57,7 @@ additionalContent:
     - items:
         - title: 仍在使用Skype for Business？
           summary: 查看升级研讨会系列。
-          url: upgrade-workshops-landing-page.yml
+          url: 'https://aka.ms/upgradeworkshops'
         - title: 准备用户
           summary: 通过实时培训让用户Teams运行。
           url: ./instructor-led-training-teams-landing-page.yml

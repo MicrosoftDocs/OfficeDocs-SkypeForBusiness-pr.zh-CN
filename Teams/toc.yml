@@ -1572,7 +1572,7 @@ items:
             href: devices/phones-displays-deploy.md
           - name: USB 音频和视频设备
             href: devices/usb-devices.md
-          - name: 为 Microsoft Teams 部署协作栏
+          - name: 在 Android 上部署 Microsoft Teams 会议室
             href: devices/collab-bar-deploy.md
           - name: 会议室设备和解决方案
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
