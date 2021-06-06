@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为公司中的大型组织设置和测试自动助理Microsoft Teams。
-ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717863"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777795"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -43,17 +43,12 @@ ms.locfileid: "52717863"
 - **接线** 员 - 为自动助理定义的操作员。 定义运算符是可选的。 运算符可定义为此列表中的任何其他目标。
 - **组织中的人** - 组织中可以接收语音呼叫的人。 此人可以是联机用户，也可以是使用 Skype for Business Server 在本地托管的用户。
 - **语音应用** - 另一个自动助理或呼叫队列。  (选择此目标时选择与自动助理或呼叫队列关联的资源帐户) 
-- **语音邮件**- 与指定的Microsoft 365关联的语音邮箱。
+- **语音邮件**- 与指定的Microsoft 365关联的语音邮箱。 你可以选择是否要语音信箱听录和"请在音调后留言"。 系统提示。
 - **外部电话号码** - 任何电话号码。  (请参阅[外部传输技术详细信息) 。](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
 - **音频文件 (通知)** - 播放音频文件。 你上载的已录制公告消息，在 中另存为音频。WAV、.MP3 或 。WMA 格式。 录制内容不能大于 5 MB。 系统播放公告，然后返回到自动助理菜单。
 - **公告 (类型)** - 键入消息。 希望系统阅读的文本。 可以输入最多 1000 个字符。 系统播放公告，然后返回到自动助理菜单。
 
 设置自动助理时，系统会提示你选择各个阶段中的其中一个选项。
-
-> [!NOTE]
-> 选择"语音邮件"作为目标时，还有两个选项可用：
-> - **听录** (默认值：关闭) - 启用后，语音邮件将被转录并包含在电子邮件中。
-> - **取消问候** (默认：关闭) - 启用时，标准系统消息"请在听到提示音后留下消息。 完成后，请挂断或按哈希键了解更多选项。" 将被抑制。
 
 若要设置自动助理，请在Teams中心展开 **"语音**"，选择"自动助理"，然后选择"添加 **"。**
 

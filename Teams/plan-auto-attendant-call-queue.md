@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列，以及如何使用它们来帮助呼叫者浏览菜单系统，以联系组织中人员或部门。
-ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 51ab11603a957dad9748def3a1508de6e42577f5
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517745"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739632"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划Teams助理和呼叫队列
 
@@ -152,7 +152,7 @@ ms.locfileid: "52517745"
 - **组织中的人** - 组织中能够接收语音呼叫的人。 这可以是联机用户，或者使用云托管在本地Skype for Business Server。
 - **语音应用** - 另一个自动助理或呼叫队列。 选择与目标关联的资源帐户。
 - **外部电话号码** - 任何电话号码。  (请参阅[外部传输技术详细信息) 。](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **语音邮件**- 与指定的Microsoft 365关联的语音邮箱。
+- **语音邮件**- 与指定的Microsoft 365关联的语音邮箱。 你可以选择是否要语音信箱听录和"请在音调后留言"。 系统提示。
 - **接线** 员 (自动助理) 自动助理 - 为自动助理定义的接线员。 定义运算符是可选的。 操作员可以是此列表中的任何其他目标。
 
 自动助理为在营业时间外和节假日收到的呼叫提供单独的呼叫路由选项。 非工作时间呼叫路由允许上面列出的所有选项，而假日呼叫路由仅允许重定向或断开呼叫，但允许拨号键选项。

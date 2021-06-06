@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何在 Microsoft 365 商务语音 中为小型企业设置呼叫Microsoft 365 商务语音。
-ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629051"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739666"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>创建呼叫队列 - 小型企业教程
 
@@ -136,9 +136,13 @@ ms.locfileid: "52629051"
 
 2. 单击 **"添加** 帐户"，搜索要用于此呼叫队列的资源帐户，单击"添加 **"，然后单击**"添加 **"。**
 
+3.  (可选) "分配呼叫 **ID"** 下，单击"添加"，搜索为自动助理创建的资源帐户，单击"添加 **"，然后单击**"**添加"。** 这将在呼叫代理进行呼叫时为呼叫代理提供主线呼叫者 ID。
+
+    ![调用 ID 设置的屏幕截图](../media/call-queue-assign-calling-id.png)
+
 3. 选择一种语言。 如果启用语音提示和语音听录，此语言 (系统生成的语音) 。
 
-    ![资源帐户和语言设置的屏幕截图](../media/call-queue-name-language.png)
+    ![资源帐户设置的屏幕截图](../media/call-queue-name-language.png)
 
 4. 指定是否要在呼叫者到达队列时播放问候语。 必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。
 

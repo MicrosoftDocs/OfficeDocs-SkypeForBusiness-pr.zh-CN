@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 2ce282df27a30f0741a7b95a5400fd5ba6d4e367
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865166"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739542"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -54,12 +54,11 @@ ms.locfileid: "49865166"
 
    > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
-<a name="membership-roles-and-settings"></a>成员身份、角色和设置
-------------------------------
+## <a name="membership-roles-and-settings"></a>成员身份、角色和设置
 
 **团队成员身份**
 
-为Microsoft Teams激活团队时，指定的团队所有者可以邀请他们合作的任何员工加入其团队。 Microsoft Teams 使团队所有者能够根据用户姓名在组织中轻松添加。 根据你的组织的设置，属于团队成员但不属于你的组织的来宾也可以添加到你的团队。 有关更多信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。 
+为Microsoft Teams激活团队时，指定的团队所有者可以邀请他们合作的任何员工加入其团队。 Microsoft Teams 使团队所有者能够根据用户姓名在组织中轻松添加。 根据组织的设置，可以将组织外部人员作为来宾添加到团队。 有关更多信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。 
 
 团队所有者还可以基于现有团队组创建Microsoft 365团队。 对组进行的任何更改将自动与Microsoft Teams同步。 基于现有组创建Microsoft 365组不仅简化了邀请和管理成员的过程，而且还可以同步组Microsoft Teams。
 
@@ -71,6 +70,9 @@ ms.locfileid: "49865166"
 - **团队成员** - 所有者邀请加入其团队的人。
 
 此外，如果设置了审核，团队所有者和成员可以具有频道的审阅人功能。 审阅人可以在频道中启动新帖子，并控制团队成员是否可以回复现有频道消息。 团队所有者可以在频道内分配审阅人。  (团队所有者默认具有审阅人功能。) 频道内的审阅人可以添加或删除该频道内的其他审阅人。 有关详细信息，请参阅[在 Microsoft Teams 中设置和管理频道审核](manage-channel-moderation-in-teams.md)。
+
+> [!NOTE]
+> 添加团队所有者时，他们也会添加为成员，除非在 Teams 管理中心中创建团队，或者将团队添加到新的或现有的 Microsoft 365 组。
 
 **团队设置** 
 
@@ -86,8 +88,7 @@ ms.locfileid: "49865166"
 
 让用户参与协作的一个关键早期Microsoft Teams活动是帮助用户思考并了解Teams如何增强日常协作。 与人员交谈，帮助他们选择他们当前以分片方式协作的业务方案。 通过相关选项卡将它们汇集到频道中，以帮助他们完成工作。 Teams 最强大的用例之一就是跨组织流程。 
 
-<a name="example-teams"></a>示例Teams
---------------
+## <a name="example-teams"></a>示例Teams
 
 下面是不同类型的用户如何设置其团队、频道和应用 (选项卡/连接器/机器人) 。 这有助于启动与用户社区Microsoft Teams对话。 在思考如何在组织中实施Microsoft Teams时，请记住，可以提供有关如何构建团队的指导;但是，用户可以控制如何自行组织。 这些示例正是促使团队开始仔细思考各种可能性。
 

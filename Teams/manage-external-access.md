@@ -21,12 +21,12 @@ description: 你的 Teams 管理员或 IT 管理员可以为其他域配置外�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f472ef2a009a3a0b9b87222d951ef34b65da15a
+ms.sourcegitcommit: f5b6a0fe055e42e06eee21ce311813b5127474ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092260"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52741071"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 
@@ -36,7 +36,7 @@ ms.locfileid: "51092260"
 
 在以下情况下使用外部访问：
   
-- 你拥有在不同域中需要协作的用户。 例如，Rob@contoso.com 和 Ann@northwindtraders.com 与 contoso.com 和 northwindtraders.com 域中的其他一些人协作处理某个项目。
+- 你在不同的域中有需要协作的用户。例如，Rob@contoso.com 和 Ann@northwindtraders.com 与 contoso.com 和 northwindtraders.com 域中的其他一些人协作处理某个项目。
 
 - 你希望自己组织内的人员使用 Teams 联系组织外特定企业中的人员。
 
@@ -48,6 +48,9 @@ ms.locfileid: "51092260"
 ## <a name="plan-for-external-access"></a>规划外部访问
 
 默认情况下，Teams 中的外部访问处于启用状态，这意味着你的组织可以与所有外部域进行通信。 如果添加阻止的域，将允许所有其他域；如果添加允许的域，将阻止所有其他域。 此规则的例外是允许匿名参与者参加会议。 在 Teams 管理中心（“**组织范围的设置**” > “**外部访问**”）设置外部访问有三种情形：
+
+> [!NOTE]
+> 主持会议或与来自其他组织的人员聊天时，Teams 用户可以添加应用。 当他们加入由其他组织主持的会议或聊天时，也可以使用由这些组织的人共享的应用。 将应用主持用户组织的数据策略，以及该用户组织共享的任何第三方应用的数据共享实践。
 
 > [!NOTE]
 > 如果关闭组织中的外部访问，外部用户仍可通过匿名加入加入会议。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](./meeting-settings-in-teams.md)。
@@ -94,9 +97,9 @@ ms.locfileid: "51092260"
 
 2. 在 Teams 应用中，通过电子邮件地址搜索该用户，并发送聊天请求。
 
-3. 让你的 Teams 联系人向你发送聊天请求。 如果未收到其请求，则问题源于你的防火墙设置（假设他们已确认他们的防火墙设置正确）。
+3. 要求你的 Teams 联系人向你发送聊天请求。如果未收到其请求，则问题在于你的防火墙设置（假设他们已确认其防火墙设置正确）。
 
-4. 测试问题是否源于防火墙的另一种方法是转到一个不在你防火墙后方的 WiFi 位置。 例如前往某家咖啡店，然后使用 Teams 向联系人发送聊天请求。 如果在这个 WiFi 位置可以顺利传送消息，但在你的工作地点不行，那么可以确定问题源于你的防火墙。
+4. 另一个测试问题是否出自你的防火墙的方法是在不受你的防火墙保护的 WiFi 位置（例如咖啡店）使用 Teams 向你的联系人发送聊天请求。如果消息在 WiFi 位置顺利传送，但不是在你工作的时候，则问题出自你的防火墙。
 
 > [!NOTE]
 > 如果你和另一名用户都启用了外部访问并允许了彼此的域，应该可以正常工作。 如果不正常，另一名用户应确保其配置未阻止你的域。
@@ -124,7 +127,7 @@ ms.locfileid: "51092260"
 
 若要使组织中的用户能与另一个组织中用户进行通信，两个组织必须启用联合身份验证。 为给定组织启用联合身份验证的步骤取决于组织是否完全联机、混合或完全在本地。
 
-|**如果您的组织是** |**启用联合身份验证，如下所示**  |
+| 如果你的组织是 | 启用联合身份验证，如下所示 |
 |:---------|:-----------------------|
 |在线，无需内部部署Skype for Business。 这包括具有 TeamsOnly 用户和/或 Skype for Business Online 用户的组织。| 如果使用 Teams 管理中心： <br>- 请确保已 **外部访问中启用了"** Skype for Business"和"团队"用户之间的通信。<br>- 如果不使用打开的联盟（允许与任何其他域进行联盟），则外部域添加到允许列表中。<br><br>如果使用 PowerShell：<br>- 确保为联合身份验证启用租户： `Get-CsTenantFederationConfiguration` 必须显示 `AllowFederatedUsers=true`。 <br>- 确保用户具有 `CsExternalAccessPolicy` 有效 `EnableFederationAccess=true`。<br>- 如果不使用打开的联盟，请确保目标域列于`AllowedDomains``CsTenantFederationConfiguration`。 |
 |纯本地 | 在本地工具中： <br>- 确保 `CsAccessEdgeConfiguration`已启用。<br>- 确保通过策略 `ExternalAccessPolicy` 用户联盟（通过全局策略、网站策略或用户分配的策略）。 <br> - 如果不使用打开的联盟，请确保目标域列于 `AllowedDomains`。 |
@@ -134,7 +137,7 @@ ms.locfileid: "51092260"
 
 联合组织的传入聊天和呼叫将位于用户的 Teams 或 Skype for Business 客户端，具体取决于 TeamsUpgradePolicy 中收件人的模式。
 
-|**如果您要** |**为此，可以：**  |
+| 如果要 | 执行以下操作： |
 |:---------|:-----------------------|
 | 确保传入的联合聊天和呼叫会到达用户的 Teams 客户端： | 将用户配置为 TeamsOnly。
 | 确保传入的联合聊天和呼叫会到达用户的 Skype for Business 客户端 | 将用户配置为除 TeamsOnly 外的任何模式。 |
@@ -144,7 +147,7 @@ ms.locfileid: "51092260"
 
 若要在组织用户与 Skype 消费者用户之间启用联合身份验证：
 
-|**如果您的组织是** |**启用消费者联合身份验证，如下所示**  |
+| 如果你的组织是 | 启用消费者联合身份验证，如下所示 |
 |:---------|:-----------------------|
 | 纯在线，本地没有 Skype for Business。  这包括具有 TeamsOnly 用户和/或 Skype for Business Online 用户的组织。 | 如果使用 Teams 管理中心： <br>- 确保 **外部访问中启用了 skype** 与 Skype 用户进行通信。<br><br>如果使用 PowerShell： <br>-确保为联合身份验证启用租户： `Get-CsTenantFederationConfiguration` 必须显示 `AllowPublicUsers=true`。 <br> - 确保用户具有 `CsExternalAccessPolicy` 有效 `EnablePublicCloudAccess=true`。 |
 | 纯本地 | 在本地工具中： <br> - 确保启用 Skype 作为联盟合作伙伴。 <br> - 通过 `EnablePublicCloudAccess=true` 确保 `ExternalAccessPolicy` 服务（通过全局策略、网站策略或用户分配的策略）。|

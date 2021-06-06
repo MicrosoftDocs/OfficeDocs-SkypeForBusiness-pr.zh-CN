@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717983"
+ms.locfileid: "52723563"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -344,6 +344,7 @@ ms.locfileid: "52717983"
 - **companionDismissProximity** - 关闭伴侣横幅。
 - **companionJoin** - 在工作表上选择“作为伴侣加入”选项。
 - **companionJoinProximity** - 通过伴侣横幅加入。
+- **completeVaultFRE** - 用户完成生成用于加密其安全数据的主密钥过程。
 - **completionStateChange** - 在任务列表的筛选器视图中选择已完成或未完成的筛选器切换时触发。
 - **composeExpandComposer** - 已点击“**格式**”按钮。
 - **composeFilePick** - 已启动原生文件选取器。
@@ -432,6 +433,7 @@ ms.locfileid: "52717983"
 - **deleteMeeting** - 从“会议详细信息”页面中选择“**删除**”按钮。
 - **deletePersonalTask** - 确认已成功删除个人任务。
 - **deletePersonalSubtask** - 确认已成功删除个人子任务。
+- **deletePersonalVaultItem** - 用户请求删除其个人保险箱。
 - **deletePlannerTask** - 确认共享任务删除操作已成功完成。
 - **deleteShift** - 排班删除。
 - **duration_picker_dismissed** - 当解除持续时间选取器时。
@@ -571,6 +573,8 @@ ms.locfileid: "52717983"
 - **funSelectItem** - 已选择 Giphy 图像。 Teams 中 giphy 附件功能的成功数据。
 - **galleryImage** - 已上传图像 - 库。
 - **get_directions_clicked** - 选择了“**获取方向**”按钮。
+- **giphyUserDisabled** - 用户选择拒绝 Giphy 条款/条件。
+- **giphyUserEnabled** - 用户选择接受 Giphy 条款/条件。
 - **goToNotificationSettings** - 从“**更新通知设置**”对话框转到“通知设置”页。
 - **GPSPromptClicked** - 在操作系统提示中选择“**允许**”或“**不允许**”。
 - **group_map_closed** - 用户从聊天打开地图视图。
@@ -617,6 +621,7 @@ ms.locfileid: "52717983"
 - **labelSelected** - 确认已成功选择标签。
 - **labelUnselected** - 确认已成功取消选择标签。
 - **launchLinksGallery** - 当用户从仪表板进入链接库时。
+- **launchSlideshow** - 用户从三个可能应用功能位置之一启动幻灯片全屏图像查看器。 
 - **Launch source such as direct, link, appShortcut** - 直接或通过链接启动（在应用程序启动时记录移动应用程序管理 (MAM) 或移动设备管理 (MDM) 遥测，为活动用户收集数据）。
 - **leaveChat** - 确认离开聊天。
 - **legacyChatLink** - 已选中旧聊天的链接。
@@ -656,7 +661,9 @@ ms.locfileid: "52717983"
 - **location_sharing_stop** - 用户在聊天中停止共享其实时位置。
 - **loginFailed** - 用户无法登录。
 - **loginSuccess** - 用户能够登录。
+- **logoutVault** - 用户从应用中注销，然后从保险箱中注销。 
 - **manageBlockedNumbers** - 通过设置访问阻止的号码。
+- **manageVaultKey** - 用户更改其安全密钥管理选择 (MSA 与自跟踪)。
 - **manualSendMessage** - 手动发送一封邮件。
 - **mapAppPicker** - 当用户点击位置卡时选择要使用的映射应用程序时。
 - **markAsRead** - 标记为“已读”。
@@ -708,6 +715,7 @@ ms.locfileid: "52717983"
 - **meetingUserFreemium** - 免费增值用户加入了会议。
 - **meetingUserGuest** - 来宾用户加入了会议。
 - **meetingUserTenant** - 租户内用户加入了会议。
+- **memeGenerated** - 当用户输入图像和文本数据生成 Meme 时。 
 - **messageCopyMessage** - 复制邮件。
 - **messageDelete** - 删除邮件。
 - **messageEditMessage** - 编辑邮件。
@@ -940,6 +948,7 @@ ms.locfileid: "52717983"
 - **requestToJoinTeam** - 请求加入团队（公共或私人）。
 - **requestToJoinTeamError** - 加入请求出错。
 - **requestTypeClicked** - 确定人员从请求选取器中选择的请求类型。
+- **resetLocalVault** - 用户重置并清除设备中的所有安全数据。
 - **resolveIssue** - 在通知疑难解答浮出控件中选择了“**解析**”以导航到阻止程序应用。
 - **responseClicked** - 用户选择回复页面。
 - **retryButtonClicked** - 已选中“**重试**”按钮。
@@ -1003,6 +1012,7 @@ ms.locfileid: "52717983"
 - **Setting/Dismiss** - 设备联系人设置。
 - **settingsNavReadReceiptNotice** - 用户从功能通知转到设置。
 - **settingsOpened** - 当用户的设备时区与团队时区不匹配，且用户转到“设置”时，会触发此事件。
+- **setupPinVault** - 用户为其帐户保存安全 PIN。 
 - **shareFile** - 选择“**共享文件**“时触发。 也有助于检查：
   - 用户能够启动共享文件操作。
   - 用户可以成功共享文件。

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，该队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 73b0e0c6c73b86e544ade5a43756e2e80c60c25a
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: fe0c2863c627f728f5418cfeb9b7b17c91d246fa
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717873"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777923"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -60,17 +60,33 @@ ms.locfileid: "52717873"
 
 要设置呼叫队列，请在Teams中心展开 **"** 语音"，单击"呼叫 **队列**"，然后单击"添加 **"。**
 
-### <a name="resource-account-and-language"></a>资源帐户和语言
+键入呼叫队列的名称。
 
-![资源帐户和语言设置的屏幕截图](media/call-queue-name-language.png)
+### <a name="resource-accounts"></a>资源帐户
 
-1. 键入呼叫队列的名称。
+![资源帐户设置的屏幕截图](media/call-queue-name-language.png)
 
-2. 单击 **"添加** 帐户"，搜索要用于此呼叫队列的资源帐户，单击"添加 **"，然后单击**"添加 **"。**  (代理收到传入呼叫时，会看到资源帐户名称。) 
+单击 **"添加** 帐户"，搜索要用于此呼叫队列的资源帐户，单击"添加 **"，然后单击**"添加 **"。**  (代理收到传入呼叫时，会看到资源帐户名称。) 
 
-3. 选择 [受支持的语言](create-a-phone-system-call-queue-languages.md)。 如果启用语音提示和语音听录，此语言 (系统生成的语音) 。
+### <a name="assign-calling-id"></a>分配呼叫 ID
+
+![调用 ID 设置的屏幕截图](media/call-queue-assign-calling-id.png)
+
+如果计划为呼叫代理Teams呼叫代理，可以通过指定一个或多个具有电话号码的资源帐户来为代理分配出站呼叫者 ID 号码。
+
+单击 **"** 添加"，在进行出站调用时搜索要允许代理调用 ID 的资源帐户，单击"添加 **"，然后单击**"添加 **"。**
+
+如果不使用呼叫Teams控制代理成员身份，请考虑直接将呼叫队列成员的呼叫者 ID 设置为呼叫队列的服务号码或相应的自动助理。 有关详细信息[，请参阅管理](caller-id-policies.md)Microsoft Teams 中的来电显示策略。
+
+### <a name="language"></a>语言
+
+![语言设置的屏幕截图](media/call-queue-language.png)
+
+选择 [受支持的语言](create-a-phone-system-call-queue-languages.md)。 如果启用语音提示和语音听录，此语言 (系统生成的语音) 。
 
 ### <a name="greetings-and-music-on-hold-in-queue"></a>队列中保留的问候语和音乐
+
+![队列设置中保持的问候语和音乐的屏幕截图](media/call-queue-greetings-music.png)
 
 指定是否要在呼叫者到达队列时播放问候语。 必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。
 
@@ -136,10 +152,12 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 
 ![路由、选择退出和警报时间设置的屏幕截图](media/call-queue-presence-agents-time.png)
 
-
 **基于状态的路由** 使用呼叫代理的可用性状态来确定是否应在所选路由方法的呼叫路由列表中包含代理。 其可用性状态设置为"可用 **"** 的呼叫代理包含在呼叫路由列表中，可以接收呼叫。 其可用性状态设置为任何其他状态的代理从呼叫路由列表中排除，并且不会接收呼叫，直到其可用性状态更改回"可用 **"。** 
 
 可以使用任何路由方法启用基于状态的呼叫路由。
+
+> [!NOTE]
+> 选择 **"最长** 空闲时间"作为路由方法时，需要并自动启用基于状态的路由，即使基于状态的路由切换将关闭并灰显。
 
 如果代理选择不接听呼叫，则无论其可用性状态设置为什么，它们将不会包含在呼叫路由列表中。 
 
@@ -178,10 +196,6 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 可以选择断开呼叫连接或将其重定向到呼叫路由目标之一。 例如，你可能让呼叫者为队列中的代理留下语音邮件。 有关外部传输，请参阅先决条件和外部[](plan-auto-attendant-call-queue.md#prerequisites)电话号码转移[- 号码](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技术详细信息。
 
 选择通话超时选项后，单击"保存 **"。**
-
-## <a name="caller-id-for-outbound-calls"></a>出站呼叫的来电显示
-
-由于呼叫队列中的代理可能会拨出以返回客户呼叫，因此请考虑将呼叫队列成员的呼叫者 ID 设置为相应自动助理的服务号码。 有关详细信息[，请参阅管理](caller-id-policies.md)Microsoft Teams 中的来电显示策略。
 
 ## <a name="supported-clients"></a>支持的客户端
 

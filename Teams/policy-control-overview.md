@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117780"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777895"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams 的策略控制概述
 
@@ -35,7 +35,7 @@ Microsoft 致力于为你提供所需的信息和控件，可让你在使用作�
 作为这些更改的一部分，我们将提供全新和更新的用户界面 (UI) 元素和策略设置
 
 > [!IMPORTANT]
-> 有关进一步阅读，请查看 M365 的“[策略控制概述](/deployoffice/privacy/overview-privacy-controls)”内容。
+> 有关进一步阅读，请查看 Microsoft 365 的“[策略控制概述](/deployoffice/privacy/overview-privacy-controls)”内容。
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>从 Microsoft 365 企业应用版发送到 Microsoft 的诊断数据
 
@@ -59,9 +59,10 @@ Microsoft 致力于为你提供所需的信息和控件，可让你在使用作�
 - Android
 - 桌面（仅使用 win32 API 的组件）
 
-有关所需移动数据诊断的信息，请参阅“[移动设备的策略控制诊断数据](policy-control-diagnostic-data-mobile.md)”。
+若要查看所需的诊断数据事件及其属性的列表，请参阅下列文章：
 
-有关所需桌面数据诊断的信息，请参阅“[台式机的策略控制诊断数据](policy-control-diagnostic-data-desktop.md)”。
+- [Microsoft Teams 所需的移动诊断数据](policy-control-diagnostic-data-mobile.md)
+- [Microsoft Teams 所需的桌面诊断数据](policy-control-diagnostic-data-desktop.md)
 
 ## <a name="diagnostic-data-sent-from-the-teams-app-to-microsoft"></a>从 Teams 应用发送到 Microsoft 的诊断数据
 
@@ -77,21 +78,22 @@ Teams 软件有三个级别的诊断数据可供你选择：
 
 如果你选择向我们发送可选诊断数据，则还需要包括必需的诊断数据。
 
-作为组织的管理员，你能够使用策略设置来选择要向我们发送哪种级别的诊断数据。 除非你更改设置，否则将向 Microsoft 发送可选诊断数据。 通过提供可选诊断数据，Microsoft 的 Office 工程团队可以更好地检测、诊断和缓解问题，从而降低对组织的影响。
+作为组织的管理员，你能够使用策略设置来选择要向我们发送哪种级别的诊断数据。 除非你更改设置，否则将向 Microsoft 发送可选诊断数据。 通过提供可选诊断数据，Microsoft 的 Office 工程团队可以更好地检测、诊断和缓解问题，从而降低对组织的影响。 
+
+若要选择发送给我们的诊断数据级别，请使用 [Office 云策略服务](/deployoffice/overview-office-cloud-policy-service) 并配置 *配置由 Office 发送到 Microsoft* 策略设置的客户端软件诊断数据的级别。 这是用于配置哪些级别的诊断数据通过其他 Office 应用（如 Word、Excel 和 PowerPoint）随 Microsoft 365 应用程序企业版发送的相同的策略设置。
 
 如果用户使用其组织凭据（有时称为工作或学校帐户）登录 Teams，则他们将无法更改其设备的诊断数据级别。
 
 此诊断数据不包括用户的姓名、电子邮件地址或 Office 文件的内容。 我们的系统会创建一个与用户诊断数据相关联的唯一 ID。 当我们收到显示 Teams 应用崩溃 100 次的诊断数据时，此唯一 ID 可让我们确定是单个用户崩溃了 100 次，还是 100 个不同的用户分别崩溃了一次。 我们不会使用此唯一 ID 来标识特定用户。
 
+若要查看向 Microsoft 发送的诊断数据，你可以使用诊断数据查看器，它可通过 Microsoft 商店免费下载和安装。 有关详细信息，请参阅[将诊断数据查看器与 Office 配合使用](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)。
+
+> [!NOTE]
+> 运行 Android 的设备上 Teams 支持诊断数据查看器。 对运行 Windows、macOS 或 iOS 的设备上对 Teams 的支持正正常运行。
+
 ## <a name="required-service-data-for-connected-experiences"></a>连接体验的所需服务数据
 
-必需服务数据是一种数据，它使我们能够提供这些基于云的连接体验并让这些体验保持安全并按预期运行。 必需服务数据包含三种类型的信息。
-
-- **客户内容**，这是你使用 Office 创建的内容，例如在 Word 文档中键入的文本。
-- **功能数据**，包括连接体验执行其任务所需的信息，例如有关应用的配置信息。
-- **服务诊断数据**，它是让服务保持安全和最新并按预期运行所需的数据。 由于此数据与连接体验严格相关，因此它与必需或可选的诊断数据级别分开。
-
-可选择不向用户提供此功能，在这种情况下，不会向 Microsoft 提供此信息以支持连接体验的功能。 可了解有关[所需服务数据](/deployoffice/privacy/required-service-data)的详细信息。
+必需服务数据是一种数据，它使我们能够提供这些基于云的连接体验并让这些体验保持安全并按预期运行。 可选择不向用户提供此功能，在这种情况下，不会向 Microsoft 提供此信息以支持连接体验的功能。 可了解有关[所需服务数据](/deployoffice/privacy/required-service-data)的详细信息。
 
 ## <a name="essential-services-for-microsoft-teams"></a>Microsoft Teams 的基本服务
 

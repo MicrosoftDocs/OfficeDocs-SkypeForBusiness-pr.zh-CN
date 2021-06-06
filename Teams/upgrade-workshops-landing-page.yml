@@ -37,9 +37,6 @@ productDirectory:
 additionalContent:
   sections:
     - items:
-        - title: 自己时间查看这些研讨会
-          summary: 请访问升级以Microsoft Teams YouTube 上的视频。
-          url: 'https://aka.ms/UpgradeOnDemand'
         - title: 扩展Teams方案？
           summary: 查看我们的Teams It 专业人员的画质对话研讨会。
           url: ./chalk-talks-landing-page.yml

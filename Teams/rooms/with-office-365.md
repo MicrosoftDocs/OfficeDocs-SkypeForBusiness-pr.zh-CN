@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何使用 Microsoft Teams 会议室 或 Microsoft 365 Office 365 部署 Teams，Skype for Business 和 Exchange 联机。
-ms.openlocfilehash: b5cfaab64840fe72dc989f00ed41760058afc765
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 64567cd9925a0a11d9e9b896c522a2c4bfe13f40
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117330"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739642"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用 Microsoft Teams 会议室 或 Microsoft 365 部署Office 365
 
@@ -146,8 +146,8 @@ ms.locfileid: "51117330"
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-> [!NOTE]
-> 如果密码未设置为"永不过期"，则帐户达到到期期限后，该帐户将不再在设备上登录。 然后，需要更改帐户的密码，并在本地更新到"一切"设备。
+    > [!NOTE]
+    > 如果密码未设置为"永不过期"，则帐户达到到期期限后，该帐户将不再在设备上登录。 然后，需要更改帐户的密码，并在本地更新到"一切"设备。
 
 6. 设备帐户需要具有有效的Microsoft 365或Office 365许可证，Exchange Microsoft Teams或Skype for Business无效。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 检索组织或组织的可用 SKUS Microsoft 365 Office 365，如下所示：
 
@@ -181,14 +181,17 @@ ms.locfileid: "51117330"
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
    ```
 
-7. 接下来，需要启用具有 Skype for Business 的设备帐户。 确保你的环境满足以下要求中[Microsoft Teams 会议室要求](requirements.md)。
+    > [!NOTE]
+    > 如果要将Teams 会议室配置为仅以本机Microsoft Teams加入会议，则不应继续执行以下步骤。 只有在还要在本地启用对 Skype for Business 的支持时，才需要以下项。
+
+7. 若要在本地启用设备帐户Skype for Business帐户，请确保环境满足 Microsoft Teams 会议室[要求](requirements.md)。
 
    启动远程[Windows PowerShell会话](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)，如下所示 (确保安装Skype for Business [Online PowerShell 组件](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)) ：
 
-> [!NOTE]
-> Skype for Business联机连接器当前是 PowerShell 模块Teams的一部分。
->
-> 如果使用的是[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams最新版本，则无需安装 Skype for Business Online 连接器。
+   > [!NOTE]
+   > Skype for Business联机连接器当前是 PowerShell 模块Teams的一部分。
+   >
+   > 如果使用的是[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams最新版本，则无需安装 Skype for Business Online 连接器。
 
    ``` Powershell
    # When using Teams PowerShell Module
