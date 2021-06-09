@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读本主题，了解如何在本地Microsoft Teams 会议室Exchange Online Skype for Business Server部署服务。
-ms.openlocfilehash: 5e3446349be8aaef666c02c73370758027736181
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2f92f85ddf39c5e1a813492b3092eeeef9b77e4c
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117340"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796676"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft Teams Rooms
 
@@ -117,6 +117,9 @@ ms.locfileid: "51117340"
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>使用帐户启用Skype for Business Server
 
+> [!NOTE]
+> 如果要将会议设置为Teams 会议室仅Microsoft Teams会议，则无需执行以下步骤。 只有在需要启用对应用程序的支持时，才需要Skype for Business。
+
 1. 从电脑Windows PowerShell远程会话，如下所示：
 
 > [!NOTE]
@@ -144,6 +147,9 @@ ms.locfileid: "51117340"
    ```
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>向Skype for Business Server帐户分配Microsoft Teams 会议室许可证
+
+> [!NOTE]
+> 如果要将会议设置为Teams 会议室仅Microsoft Teams会议，则无需执行以下步骤。 只有在需要启用对应用程序的支持时，才需要Skype for Business。
 
 1. 以租户管理员登录，打开Microsoft 365管理中心，然后单击"管理"应用。
 2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656025"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796645"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams标准用户的应用行为
 
@@ -63,13 +63,13 @@ ms.locfileid: "52656025"
 
 ### <a name="install-update-and-delete-for-external-users"></a>为外部用户安装、更新和删除
 
-外部用户无法在任何上下文中安装、更新或删除应用，例如个人、聊天、频道或会议。 他们无法访问应用商店Teams应用。
+外部用户无法在任何上下文中安装、更新或删除应用，例如个人、聊天、频道或会议。 他们无法访问托管组织的Teams应用商店。
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部用户的使用行为和策略
 
-- 其他组织中的人员遵守托管组织的默认用户权限策略和组织范围的设置。
-- 托管组织中的用户可以在与其他组织人员的会议聊天中添加应用。 其他组织中的人员不能在会议聊天中添加应用，但一旦添加到聊天中，就可以与机器人和选项卡进行交互。
-- 在聊天中安装机器人后，它可以主动与来自该聊天中其他组织的人通信，并且这些用户可以与机器人通信。
+- 其他组织中的人员遵守托管组织的全局 (组织范围内的默认) 策略
+- 托管组织中的用户可以在与其他组织人员的会议聊天中添加应用。 其他组织中的人员不能在会议聊天中添加应用，但一旦添加到聊天中，就可以与机器人、选项卡和消息扩展进行交互。
+- 在会议聊天中安装机器人后，它可以主动与参与该聊天的其他组织中的人员通信，并且这些用户可以与机器人通信。
 - 将应用托管组织的数据策略，以及该用户的组织共享的任何第三方应用的数据共享做法。
 
 ## <a name="anonymous-users"></a>匿名用户

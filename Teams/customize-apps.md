@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684589"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796856"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
@@ -111,6 +111,7 @@ ms.locfileid: "52684589"
 > - 管理员提供的自定义数据存储在最近的区域。
 > - 你负责确保指向使用条款或隐私策略的链接有效。
 > - 如果应用发布者不再允许自定义字段，应用详细信息页上会显示一条消息，通知管理员不再可以自定义的字段。 对该字段进行的所有更改都将还原为原始值。
+> - 建议在生产环境中执行Teams测试租户中的应用自定义更改。
 > - 更改品牌可能需要最多 24 小时，用户才能看到更改。
 
 ## <a name="review-app-details"></a>查看应用详细信息

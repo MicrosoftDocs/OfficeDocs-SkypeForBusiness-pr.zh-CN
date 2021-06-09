@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a454b3c23074a1ab7a750e8d282e9a562257eb
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: f4024e62c90ef99f3280d5aec15cd718b3d2b6de
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282349"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796816"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>从本地Teams升级到 Skype for Business PSTN 注意事项
 
@@ -38,7 +38,9 @@ ms.locfileid: "52282349"
 
 
  > [!NOTE]
- > - 仅在电话系统 TeamsOnly Teams，才支持将 Teams 与应用一起使用。  如果用户在群岛模式下，电话系统仅支持Skype for Business。 
+ > - 仅电话系统模式Teams用户帐户分配升级策略时，才支持Teams策略Teams策略。  
+ > - 只有在电话系统 SfB Skype for Business为用户帐户分配了一个Teams策略时，才支持将 Skype for Business 与应用一起使用。 
+ > - 电话系统为用户帐户分配了一个使用Teams升级策略时，不支持此策略。
  > - 系统不会迁移来自 Skype for Business 的任何呼叫转发、团队呼叫组和委派设置，需要重新重新创建Teams。
  > - 有关云语音Microsoft Teams的一般概述，并帮助确定哪个 Microsoft 语音解决方案适合你的组织，请参阅规划你的Teams[解决方案](cloud-voice-landing-page.md)。
 

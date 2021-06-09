@@ -18,16 +18,19 @@ description: 了解向用户和组中用户和组分配策略包Microsoft Teams�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 0266cb5c34a13df0dac62be2258134e553a357d8
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: e70d5e2bf0db6cb7dfd93e35a8207fce61fa75fd
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574292"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796826"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>将策略包分配给用户和组
 
 本文介绍向用户和组中用户和组分配策略包Microsoft Teams。 在阅读之前，请确保已阅读在 "分配策略 " [Teams - 入门](policy-assignment-overview.md)。
+
+> [!NOTE]
+> 每个用户都需要高级通信加载项才能接收自定义策略包分配。 有关详细信息，请参阅适用于 Microsoft Teams[的高级通信Microsoft Teams。](/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 ## <a name="assign-a-policy-package-to-users"></a>向用户分配策略包
 

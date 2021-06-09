@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在管理用户组的策略时Microsoft Teams管理策略包，以便简化、简化和帮助提供一致性。
-ms.openlocfilehash: 1173f5a626d6ea559dadd75149a0517f515d821b
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 63900f301a8b3a48a8c17c6278808cd52e2445da
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51699306"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52810183"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理策略包Microsoft Teams
 
@@ -36,6 +36,9 @@ Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你�
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理中心中"策略包"页的屏幕截图":::
 
 可以自定义策略包中策略的设置以满足用户的需求。 更改包中的策略设置时，分配到该包的所有用户将获取更新的设置。 可以使用管理中心或 PowerShell Microsoft Teams策略包。
+
+> [!NOTE]
+> 每个用户都需要高级通信加载项才能接收自定义策略包分配。 有关详细信息，请参阅适用于 Microsoft Teams[的高级通信Microsoft Teams。](/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 ## <a name="what-is-a-policy-package"></a>什么是策略包？
 

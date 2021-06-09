@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 了解如何保护Microsoft Teams 会议室设备。
-ms.openlocfilehash: 77c7d71cfb41318b123fb262ee4a57b9aaeba493
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24faadb4e139bdbddd8ed315faba7fd8c8257b83
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117390"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796696"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams 会议室安全性
 
@@ -28,6 +28,7 @@ Microsoft 与合作伙伴合作，提供一种安全的解决方案，不需要�
 
 > [!NOTE]
 > Microsoft Teams 会议室不应视为典型的最终用户工作站。 不仅用例差异很大，默认安全配置文件也大有不同。
+> 本文适用于在 Microsoft Teams 会议室 上运行的设备Windows。
 
 有限的最终用户数据存储在Teams 会议室。 最终用户数据存储在日志文件中，仅进行故障排除和支持。 会议与会者不能使用 Teams 会议室文件复制到硬盘驱动器或以自己方式登录。 最终用户数据不会传输到设备，也不得由Microsoft Teams 会议室访问。
 

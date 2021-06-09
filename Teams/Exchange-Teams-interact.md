@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f468e6e3fea0915322e632ad27f2213d5d63c7
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 6d908373cf3e8df6429823d9245cf53a52fbf901
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598361"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796536"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -50,7 +50,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 | **Exchange Online**                                                 | 是 <sup>1</sup> | 支持<sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
 | **Exchange Online Dedicated vNext**                                 | 是 <sup>1</sup> | 支持<sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
 | **Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）  | 是 <sup>1</sup> | 是 <sup>1、2</sup> | 是 <sup>3</sup> | 是                   | 否                                | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
-| **Exchange 本地**（同步到 Azure AD） | 是 <sup>1，9</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>         | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
+| **Exchange 本地**（同步到 Azure AD） | 是 <sup>1，9</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>         | 是                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
 
 <sup>1</sup> 所有托管选项均支持电子数据展示和合法保留，以实现频道消息合规性。
 
@@ -65,6 +65,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 <sup>6</sup> 仅默认联系人文件夹中的联系人。 不支持访问其他联系人文件夹或子文件夹。
 
 <sup>7</sup> Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果在策略中关闭 **-SetPhotoEnabled** 设置，则用户无法添加、更改或删除其个人资料图片，因此，如果管理员更改了照片，则 porfile 图片不会同步到团队。
+
 <sup>8</sup> 需要满足[为本地托管的邮箱创建和查看会议的要求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)部分中列出的要求。
 
 <sup>9</sup>至少还需要Exchange Online计划 1 许可证。 有关详细信息，请参阅[搜索Teams本地用户的聊天数据](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
@@ -101,7 +102,7 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
   > [!NOTE]
   > Exchange 信任来自 Teams 服务（称为 EvoSTS）的 OAuth 令牌。 步骤 1 应足够，但是仅 EvoSTS; ACS 用于日历中的忙/闲查找。
 
-- 设置 Azure AD Connect 中 Exchange 混合部署功能的复选框。
+- 设置 Azure AD Connect 中 Exchange 混合部署功能的复选框。 有关详细信息，请参阅Exchange[写回](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback)。
 
 - 对于面向 Mac 的日历应用支持和 Teams Outlook 加载项，Exchange Web 服务 Url 必须在 Exchange 服务主体的租户 Azure AD 中配置为 SPN。 此步骤可通过混合配置向导或[混合现代身份验证的以下手动步骤](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)完成。
 

@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理Teams组织的策略包。
-ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117770"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796866"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams政府部署策略包
 
@@ -73,6 +73,9 @@ Teams包括以下政府策略包。
 
 将策略包分配给用户。如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。
 
+> [!NOTE]
+> 每个用户都需要高级通信加载项才能接收自定义策略包分配。 有关详细信息，请参阅适用于 Microsoft Teams[的高级通信Microsoft Teams。](/microsoftteams/teams-add-on-licensing/advanced-communications)
+
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>向一个或多个用户分配策略包
 
 若要将策略包分配给一个或多个用户，请在 Microsoft Teams 管理中心的左侧导航中，转到 **策略包**，然后选择 **管理用户**。  
@@ -101,4 +104,4 @@ Teams包括以下政府策略包。
 
 [在 Teams 中管理策略包](manage-policy-packages.md)
 
-[向 Teams 中的用户分配策略](assign-policies.md)
+[将策略包分配给用户和组](assign-policy-packages.md)
