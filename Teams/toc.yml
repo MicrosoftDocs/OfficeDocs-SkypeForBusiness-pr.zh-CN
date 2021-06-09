@@ -827,10 +827,12 @@ items:
             items:
               - name: 设置云语音邮件
                 href: set-up-phone-system-voicemail.md
+              - name: 管理语音邮件策略
+                href: manage-voicemail-policies.md
               - name: 更改语音邮件的默认语言
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: 语音邮件问候和消息所使用的语言
-                href: languages-for-voicemail-greetings-and-messages.md
+                href: languages-for-voicemail-greetings-and-messages-teams.md
           - name: 来电显示
             items:
               - name: 如何在你的组织中使用来电显示
