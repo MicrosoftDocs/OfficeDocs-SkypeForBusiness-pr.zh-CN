@@ -59,7 +59,7 @@ ms.locfileid: "51115580"
 
 3. <span data-ttu-id="00ff8-130">在"**升级到Teams** 显示"对话框中，选择"计划升级"以设置升级的日期和时间或"**现在升级"。**</span><span class="sxs-lookup"><span data-stu-id="00ff8-130">In the **Upgrade to Teams display** dialogue box, select **Schedule upgrade** to set a date and time for the upgrade or **Upgrade now**.</span></span>
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="显示"升级到屏幕Teams对话框的屏幕截图":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="显示升级到屏幕Teams对话框的屏幕截图":::
 
 > [!NOTE]
 > <span data-ttu-id="00ff8-132">如果收到一条消息，指出所选电话无法升级，请检查以确保选择支持升级 [的电话](#which-teams-phones-can-be-upgraded)，然后重试。</span><span class="sxs-lookup"><span data-stu-id="00ff8-132">If you receive a message that says your selected phones can't be upgraded, check to make sure that you select [phones that support the upgrade](#which-teams-phones-can-be-upgraded), and then try again.</span></span>

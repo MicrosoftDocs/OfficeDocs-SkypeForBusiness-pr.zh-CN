@@ -90,7 +90,7 @@ ms.locfileid: "50997440"
 
 <span data-ttu-id="111f7-157">该磁贴以绿色显示，表示可用的会议空间。</span><span class="sxs-lookup"><span data-stu-id="111f7-157">The tile appears in green for an available meeting space.</span></span> <span data-ttu-id="111f7-158">它以 **醒目** 的文本显示"可用"，并且还会显示"保留"按钮，您可以点击来为临时 [会议保留会议空间](#reserve-meeting-spaces-for-ad-hoc-meetings)。</span><span class="sxs-lookup"><span data-stu-id="111f7-158">It displays **Available** in prominent text, and a **Reserve** button also appears that you can tap to [reserve the meeting space for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings).</span></span> <span data-ttu-id="111f7-159">您可以在右下 (磁贴中查看即将) 日历，以决定临时会议结束时间。</span><span class="sxs-lookup"><span data-stu-id="111f7-159">You can check the upcoming calendar of the meeting space (right bottom tile) to decide the end time for your ad hoc meeting.</span></span>
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此屏幕截图显示Teams可用会议空间时"主页"面板的显示方式":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此屏幕截图显示Teams可用会议空间时主页面板的显示方式":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a><span data-ttu-id="111f7-161">为临时会议保留会议空间</span><span class="sxs-lookup"><span data-stu-id="111f7-161">Reserve meeting spaces for ad hoc meetings</span></span>
 
@@ -104,7 +104,7 @@ ms.locfileid: "50997440"
 <span data-ttu-id="111f7-170">为临时会议保留可用的会议空间：</span><span class="sxs-lookup"><span data-stu-id="111f7-170">To reserve an available meeting space for an ad hoc meeting:</span></span>
 
 1. <span data-ttu-id="111f7-171">在"主页"屏幕上，点击" **保留"** 按钮。</span><span class="sxs-lookup"><span data-stu-id="111f7-171">On the Home screen, tap the **Reserve** button.</span></span>
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams显示"保留"按钮的主屏幕":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams显示保留按钮的主屏幕":::
 2. <span data-ttu-id="111f7-173">在 **临时会议屏幕** 中，查看可用的结束时间选项。</span><span class="sxs-lookup"><span data-stu-id="111f7-173">In the **Ad hoc meeting** screen, review the available end time choices.</span></span> <span data-ttu-id="111f7-174">可以使用向右或向左箭头浏览可用的结束时间选项。</span><span class="sxs-lookup"><span data-stu-id="111f7-174">You can use the right or left arrows to browse the available end time choices.</span></span>
 
     :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="显示结束时间槽位的临时会议屏幕":::
@@ -185,7 +185,7 @@ ms.locfileid: "50997440"
 5. <span data-ttu-id="111f7-235">点击右侧 **屏幕上的"设置** 应用"按钮。</span><span class="sxs-lookup"><span data-stu-id="111f7-235">Tap the **Panels App Settings** button on the right screen.</span></span>
     <span data-ttu-id="111f7-236">将显示具有可用 **面板应用设置的** 屏幕。</span><span class="sxs-lookup"><span data-stu-id="111f7-236">The screen with the available **Panels App** settings is displayed.</span></span>
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此屏幕截图显示具有可用"面板"应用设置的屏幕":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此屏幕截图显示具有可用面板应用设置的屏幕":::
 
     <span data-ttu-id="111f7-238">使用此屏幕更新设备的 **以下面板** 应用设置：</span><span class="sxs-lookup"><span data-stu-id="111f7-238">Use this screen to update the following **Panels App** settings for your device:</span></span>
 

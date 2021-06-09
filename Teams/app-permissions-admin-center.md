@@ -34,7 +34,7 @@ ms.locfileid: "51094654"
 
 <span data-ttu-id="fc29c-113">" **权限"** 列指示应用是否具有需要许可的权限。</span><span class="sxs-lookup"><span data-stu-id="fc29c-113">The **Permissions** column indicates whether an app has permissions that need consent.</span></span> <span data-ttu-id="fc29c-114">对于在 Azure  AD 中注册并拥有需要许可的权限的每个应用，你将看到"查看详细信息"链接。</span><span class="sxs-lookup"><span data-stu-id="fc29c-114">You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent.</span></span> <span data-ttu-id="fc29c-115">请记住，这仅适用于自定义和第三方应用。</span><span class="sxs-lookup"><span data-stu-id="fc29c-115">Keep in mind that this applies only to custom and third-party apps.</span></span> <span data-ttu-id="fc29c-116">你不会看到此链接，也不需要为 Microsoft 发布的应用授予管理员许可。</span><span class="sxs-lookup"><span data-stu-id="fc29c-116">You won't see this link or need to grant admin consent for apps published by Microsoft.</span></span>
 
-:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text=""管理应用"页面上"权限"列的屏幕截图":::
+:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="管理应用页面上权限列的屏幕截图":::
 
 <span data-ttu-id="fc29c-118">若要向应用授予组织范围许可，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="fc29c-118">To grant org-wide consent to an app, follow these steps:</span></span>
 
@@ -45,7 +45,7 @@ ms.locfileid: "51094654"
 
 3. <span data-ttu-id="fc29c-124">在 **"组织范围的权限"下**，选择 **"审阅权限和同意"。**</span><span class="sxs-lookup"><span data-stu-id="fc29c-124">Under **Org-wide permissions**, select **Review permissions and consent**.</span></span>
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="应用"权限"选项卡上组织范围内权限的屏幕截图":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="应用权限选项卡上组织范围内权限的屏幕截图":::
 
     <span data-ttu-id="fc29c-126">只有全局管理员才能这样做。</span><span class="sxs-lookup"><span data-stu-id="fc29c-126">You must be a global admin to do this.</span></span> <span data-ttu-id="fc29c-127">此选项对服务管理员Teams可用。</span><span class="sxs-lookup"><span data-stu-id="fc29c-127">This option isn't available to Teams service admins.</span></span>
 

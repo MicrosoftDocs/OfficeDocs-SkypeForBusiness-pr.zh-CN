@@ -85,7 +85,7 @@ ms.locfileid: "49662597"
 2. <span data-ttu-id="c2c61-198">选择要分配的角色。</span><span class="sxs-lookup"><span data-stu-id="c2c61-198">Select the role you want to assign.</span></span>
 3. <span data-ttu-id="c2c61-199">在角色窗格中，选择"分配 **添加**  >  **"。**</span><span class="sxs-lookup"><span data-stu-id="c2c61-199">In the role pane, select **Assignments** > **Add**.</span></span>
 
-    :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="用于添加角色的"添加"选项的屏幕截图。":::
+    :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="用于添加角色的添加选项的屏幕截图。":::
 
 4. <span data-ttu-id="c2c61-201">在" **常规设置"** 页上的" **工作分配属性**"下，输入此作业的名称。</span><span class="sxs-lookup"><span data-stu-id="c2c61-201">On the **General settings** page, under **Assignment properties**, enter a name for this assignment.</span></span> <span data-ttu-id="c2c61-202">说明是可选的。</span><span class="sxs-lookup"><span data-stu-id="c2c61-202">The description is optional.</span></span> <span data-ttu-id="c2c61-203">选择"下 **一步"。**</span><span class="sxs-lookup"><span data-stu-id="c2c61-203">Choose **Next.**</span></span>
 5. <span data-ttu-id="c2c61-204">在 **"成员**"页面上的"搜索用户或安全组"框中，输入要授予权限的租户中用户或安全组的名称，然后完成选择。</span><span class="sxs-lookup"><span data-stu-id="c2c61-204">On the **Members** page, in the **Search for user or security group** box, enter the name of a user or security group in your tenant to which you want to give permissions, and then complete the selection.</span></span> <span data-ttu-id="c2c61-205">选择"下 **一步"。**</span><span class="sxs-lookup"><span data-stu-id="c2c61-205">Choose **Next**.</span></span> 

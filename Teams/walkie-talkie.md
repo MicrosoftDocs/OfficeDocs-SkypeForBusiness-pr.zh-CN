@@ -41,15 +41,15 @@ ms.locfileid: "52479069"
 
 <span data-ttu-id="c1e61-114">在 Microsoft Teams 管理中心中，Teams **应用** 设置策略"下，应将"允许用户  >  **固定**"设置为"**打开"。**</span><span class="sxs-lookup"><span data-stu-id="c1e61-114">In the Microsoft Teams admin center, under **Teams app** > **Setup policies**, you should have **Allow user pinning** set to **On**.</span></span> <span data-ttu-id="c1e61-115">然后，在"固定应用"部分下，单击 **"+添加应用"。**</span><span class="sxs-lookup"><span data-stu-id="c1e61-115">Then, under the Pinned Apps section, click **+Add Apps**.</span></span>
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="显示"固定的应用"部分和要选择的"添加应用"按钮。":::
+:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="显示固定的应用部分和要选择的添加应用按钮。":::
 
 <span data-ttu-id="c1e61-117">在右侧 **出现的"添加固定** 应用"面板上，使用"搜索" **文本框查找** Walkie Talkie。</span><span class="sxs-lookup"><span data-stu-id="c1e61-117">On the **Add pinned apps** panel that appears on the right, use the **Search** textbox to look for Walkie Talkie.</span></span> <span data-ttu-id="c1e61-118">将名称作为搜索结果时，选择名称右边的"添加"按钮，将其添加到列表中。</span><span class="sxs-lookup"><span data-stu-id="c1e61-118">When you have it as a search result, select the **Add** button to the right of the name to add it to your list.</span></span>
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="显示搜索结果中已输入 Walkie 的"添加固定应用"边栏和搜索结果中的 Walkie Talkie 应用，旁边有"添加"按钮。":::
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="显示搜索结果中已输入 Walkie 的添加固定应用边栏和搜索结果中的 Walkie Talkie 应用，旁边有添加按钮。":::
 
 <span data-ttu-id="c1e61-120">Walkie Talkie 应用现在应显示在"固定应用"列表中，单击"保存"按钮后 **即可使用。**</span><span class="sxs-lookup"><span data-stu-id="c1e61-120">The Walkie Talkie app should now appear on the Pinned Apps list, and be available for use once you click the **Save** button.</span></span>
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="显示已添加 Walkie Talkie 应用的"固定应用"列表，以及列表下方的"保存"按钮。":::
+:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="显示已添加 Walkie Talkie 应用的固定应用列表，以及列表下方的保存按钮。":::
 
 ### <a name="network-documentation"></a><span data-ttu-id="c1e61-122">网络文档</span><span class="sxs-lookup"><span data-stu-id="c1e61-122">Network documentation</span></span>
 

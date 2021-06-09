@@ -32,11 +32,11 @@ ms.locfileid: "50460592"
 
 1.  <span data-ttu-id="1dd0b-106">在管理中心的左侧导航栏中，单击" <https://admin.teams.microsoft.com> **分析**"& \> **报告"使用情况报告"。**</span><span class="sxs-lookup"><span data-stu-id="1dd0b-106">In the left navigation of the admin center at <https://admin.teams.microsoft.com>, click **Analytics & reports** \> **Usage reports**.</span></span> <span data-ttu-id="1dd0b-107">在"**查看报表"选项卡上的**"报表 **"下**，选择"**应用使用情况"。**</span><span class="sxs-lookup"><span data-stu-id="1dd0b-107">On the **View reports** tab, under **Report**, select **Apps Usage**.</span></span>
 
-     :::image type="content" source="media/app-usage-report1.png" alt-text=""使用情况报告"菜单项的屏幕截图":::
+     :::image type="content" source="media/app-usage-report1.png" alt-text="使用情况报告菜单项的屏幕截图":::
 
 2.  <span data-ttu-id="1dd0b-109">在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。</span><span class="sxs-lookup"><span data-stu-id="1dd0b-109">Under **Date range**, select a range, and then click **Run report**.</span></span>
 
-      :::image type="content" source="media/app-usage-report2.png" alt-text=""应用使用情况"报表的屏幕截图":::
+      :::image type="content" source="media/app-usage-report2.png" alt-text="应用使用情况报表的屏幕截图":::
 
 ## <a name="interpret-the-report"></a><span data-ttu-id="1dd0b-111">解释报告</span><span class="sxs-lookup"><span data-stu-id="1dd0b-111">Interpret the report</span></span>
 

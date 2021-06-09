@@ -33,7 +33,7 @@ ms.locfileid: "52810183"
 
 <span data-ttu-id="b6b62-106">可以使用应用程序[中包含的策略包](#policy-packages-included-in-teams)Teams[或创建自己的自定义策略包](#custom-policy-packages)。</span><span class="sxs-lookup"><span data-stu-id="b6b62-106">You can use the [policy packages included in Teams](#policy-packages-included-in-teams) or [create your own custom policy packages](#custom-policy-packages).</span></span>
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理中心中"策略包"页的屏幕截图":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理中心中策略包页的屏幕截图":::
 
 <span data-ttu-id="b6b62-108">可以自定义策略包中策略的设置以满足用户的需求。</span><span class="sxs-lookup"><span data-stu-id="b6b62-108">You can customize the settings of the policies in a policy package to suit the needs of your users.</span></span> <span data-ttu-id="b6b62-109">更改包中的策略设置时，分配到该包的所有用户将获取更新的设置。</span><span class="sxs-lookup"><span data-stu-id="b6b62-109">When you change the settings of policies in a package, all users who are assigned to that package get the updated settings.</span></span> <span data-ttu-id="b6b62-110">可以使用管理中心或 PowerShell Microsoft Teams策略包。</span><span class="sxs-lookup"><span data-stu-id="b6b62-110">You manage policy packages by using the Microsoft Teams admin center or PowerShell.</span></span>
 
@@ -91,7 +91,7 @@ ms.locfileid: "52810183"
 
 1. <span data-ttu-id="b6b62-163">在管理中心左侧导航Microsoft Teams，选择"**策略包**"，然后单击"添加 **"。**</span><span class="sxs-lookup"><span data-stu-id="b6b62-163">In the left navigation of the Microsoft Teams admin center,  select **Policy packages**, and then click **Add**.</span></span>
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心中"策略包"页面上的"添加"按钮的屏幕截图":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心中策略包页面上的添加按钮的屏幕截图":::
 
 2. <span data-ttu-id="b6b62-165">输入包的名称和说明。</span><span class="sxs-lookup"><span data-stu-id="b6b62-165">Enter a name and description for your package.</span></span>
 

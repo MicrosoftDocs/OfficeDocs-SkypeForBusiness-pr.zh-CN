@@ -39,7 +39,7 @@ ms.locfileid: "51096156"
 
 <span data-ttu-id="8823c-115">创建或共享 Microsoft Power Platform 应用后，用户可以在"应用"页面上查看并安装该应用，\*\*\*\* 其方式为"为同事构建的组织名称  >  **生成"。**</span><span class="sxs-lookup"><span data-stu-id="8823c-115">When a Microsoft Power Platform app is created or shared, users can view and install it on the Apps page by going to **Built for *Your Organization Name*** > **Built by your colleagues**.</span></span> <span data-ttu-id="8823c-116"> (创建或共享应用后，可能需要几分钟时间，应用才能在此处显示。) </span><span class="sxs-lookup"><span data-stu-id="8823c-116">(It might take a few minutes after an app is created or shared for the app to appear here.)</span></span>
 
-:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text=""应用"页的屏幕截图，显示"由同事构建"中列出的 Microsoft Power Platform 应用":::
+:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="应用页的屏幕截图，显示由同事构建中列出的 Microsoft Power Platform 应用":::
 
 <span data-ttu-id="8823c-118">如果应用满足 **以下条件之** 一，用户将看到同事生成的应用。</span><span class="sxs-lookup"><span data-stu-id="8823c-118">A user will see an app in **Built by your colleagues** if the app meets one of the following conditions.</span></span>
 
@@ -69,7 +69,7 @@ ms.locfileid: "51096156"
 1. <span data-ttu-id="8823c-146">在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。</span><span class="sxs-lookup"><span data-stu-id="8823c-146">In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.</span></span> <span data-ttu-id="8823c-147">只有全局管理员或Teams才能访问页面。</span><span class="sxs-lookup"><span data-stu-id="8823c-147">You must be a global admin or Teams service admin to access the page.</span></span>
 2. <span data-ttu-id="8823c-148">在应用列表中，执行下列操作之一。</span><span class="sxs-lookup"><span data-stu-id="8823c-148">In the list of apps, do one of the following.</span></span>
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text=""管理应用"页面的屏幕截图，显示共享的 Microsoft Power Platform 应用":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="管理应用页面的屏幕截图，显示共享的 Microsoft Power Platform 应用":::
 
     - <span data-ttu-id="8823c-150">若要阻止在 Power Apps 或 Power Virtual Agents 中创建的应用，请搜索"共享 Power Apps"或"**共享 Power Virtual Agent** 应用 **"，** 将其选中，然后单击"阻止 **"。**</span><span class="sxs-lookup"><span data-stu-id="8823c-150">To block apps created in Power Apps or Power Virtual Agents for all users in your organization, search for **Shared Power Apps** or **Shared Power Virtual Agent Apps**, select it, and then click **Block**.</span></span>
     - <span data-ttu-id="8823c-151">若要允许在 Power Apps 或 Power Virtual Agents 中创建应用，请搜索"共享 Power Apps"或 **"共享 Power Virtual Agent** 应用 **"，** 将其选中，然后单击"允许 **"。**</span><span class="sxs-lookup"><span data-stu-id="8823c-151">To allow apps created in Power Apps or Power Virtual Agents for all users in your organization, search for **Shared Power Apps** or **Shared Power Virtual Agent Apps**, select it, and then click **Allow**.</span></span>

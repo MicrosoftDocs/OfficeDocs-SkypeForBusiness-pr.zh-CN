@@ -34,7 +34,7 @@ ms.locfileid: "52254528"
 
 <span data-ttu-id="b334c-104">使用管理员凭据 (登录时) CQD (Microsoft 呼叫 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 质量仪表板) 。</span><span class="sxs-lookup"><span data-stu-id="b334c-104">Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials).</span></span> <span data-ttu-id="b334c-105">或者转到管理Teams并选择"呼叫 **质量仪表板"。**</span><span class="sxs-lookup"><span data-stu-id="b334c-105">Or go to the Teams admin center and select **Call Quality Dashboard**.</span></span> 
 
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="管理中心内"呼叫质量仪表板"Teams屏幕截图":::
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="管理中心内呼叫质量仪表板Teams屏幕截图":::
 
 <span data-ttu-id="b334c-107">在打开的页面上，单击 **"登录"** 并输入全局管理员帐户或Microsoft Teams管理员帐户信息。</span><span class="sxs-lookup"><span data-stu-id="b334c-107">On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Administrator account information.</span></span> <span data-ttu-id="b334c-108">首次登录后，CQD 将开始收集和处理数据。</span><span class="sxs-lookup"><span data-stu-id="b334c-108">After the first time you sign in, CQD will begin collecting and processing data.</span></span> <span data-ttu-id="b334c-109">请记住，可能需要一小时或几小时才能处理足够的数据，才能在报告中显示有意义的结果。</span><span class="sxs-lookup"><span data-stu-id="b334c-109">Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.</span></span>
 

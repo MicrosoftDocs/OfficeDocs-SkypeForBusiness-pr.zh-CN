@@ -101,7 +101,7 @@ ms.locfileid: "51121540"
 <span data-ttu-id="aba92-144">请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="aba92-144">Please perform these steps:</span></span>
 - <span data-ttu-id="aba92-145">选择 **功能区上的** "视图"选项卡。</span><span class="sxs-lookup"><span data-stu-id="aba92-145">Select **View tab** on the ribbon.</span></span>
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="选择"视图"选项卡以更改配色方案屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="选择视图选项卡以更改配色方案屏幕截图":::
 
 - <span data-ttu-id="aba92-147">从下拉列表中选择颜色架构。</span><span class="sxs-lookup"><span data-stu-id="aba92-147">Select the color schema from the drop-down list.</span></span>
 

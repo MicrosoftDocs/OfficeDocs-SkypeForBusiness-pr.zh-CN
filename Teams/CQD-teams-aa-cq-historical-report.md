@@ -48,7 +48,7 @@ ms.locfileid: "51111508"
 
 - <span data-ttu-id="bfbdd-116">系统会提示选择 CQD 数据管道区域。</span><span class="sxs-lookup"><span data-stu-id="bfbdd-116">You will be prompted to select the CQD data pipeline region.</span></span> <span data-ttu-id="bfbdd-117">选择租户所在的区域。</span><span class="sxs-lookup"><span data-stu-id="bfbdd-117">Select the region where your tenant is located.</span></span>
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="管理中心内"呼叫质量仪表板"Teams屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="管理中心内呼叫质量仪表板Teams屏幕截图":::
 
  - <span data-ttu-id="bfbdd-119">可以使用 Get-CsTenant Skype for Business Online PS cmdlet (查看) 。ServiceInstance 输出。</span><span class="sxs-lookup"><span data-stu-id="bfbdd-119">You can see the region using the Skype for Business Online PS cmdlet (Get-CsTenant).ServiceInstance output.</span></span> 
  <span data-ttu-id="bfbdd-120">区域将显示在 /之后，如以下示例所示：</span><span class="sxs-lookup"><span data-stu-id="bfbdd-120">The region will be displayed after the / like in this example:</span></span> 
@@ -59,11 +59,11 @@ ms.locfileid: "51111508"
  
  - <span data-ttu-id="bfbdd-123">若要查看自己的数据，请单击"开始"选项卡中"查询"下的"Power BI Desktop"。</span><span class="sxs-lookup"><span data-stu-id="bfbdd-123">To see your own data, please click **Refresh** in the Home tab under Queries in Power BI Desktop.</span></span>
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="管理中心内"呼叫质量仪表板"Teams屏幕截图":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="管理中心内呼叫质量仪表板Teams屏幕截图":::
 
 - <span data-ttu-id="bfbdd-125">然后，系统会提示你登录。</span><span class="sxs-lookup"><span data-stu-id="bfbdd-125">You will then be prompted to sign in.</span></span> <span data-ttu-id="bfbdd-126">选择 **"组织帐户**"，然后选择"**登录"。**</span><span class="sxs-lookup"><span data-stu-id="bfbdd-126">Select **Organization account** and then select **Sign in**.</span></span>
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="管理中心内"呼叫质量仪表板"Teams屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="管理中心内呼叫质量仪表板Teams屏幕截图":::
 
 - <span data-ttu-id="bfbdd-128">选择 **连接** 并观看数据刷新。</span><span class="sxs-lookup"><span data-stu-id="bfbdd-128">Select **Connect** and watch the data refresh.</span></span>
 
@@ -83,11 +83,11 @@ ms.locfileid: "51111508"
 <span data-ttu-id="bfbdd-137">请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="bfbdd-137">Please perform these steps:</span></span>
 - <span data-ttu-id="bfbdd-138">选择 **功能区上的** "视图"选项卡。</span><span class="sxs-lookup"><span data-stu-id="bfbdd-138">Select **View tab** on the ribbon.</span></span>
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="管理中心内"呼叫质量仪表板"Teams屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="管理中心内呼叫质量仪表板Teams屏幕截图":::
 
 - <span data-ttu-id="bfbdd-140">从下拉列表中选择颜色架构。</span><span class="sxs-lookup"><span data-stu-id="bfbdd-140">Select the color schema from the drop-down list.</span></span>
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="管理中心内"呼叫质量仪表板"Teams屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="管理中心内呼叫质量仪表板Teams屏幕截图":::
 
 
 ## <a name="cqd-fields-description"></a><span data-ttu-id="bfbdd-142">CQD 字段说明</span><span class="sxs-lookup"><span data-stu-id="bfbdd-142">CQD fields description</span></span>
