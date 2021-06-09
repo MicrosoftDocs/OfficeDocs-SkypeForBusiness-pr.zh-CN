@@ -12,7 +12,7 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content",
-        "ContextObject": "Toc" 
+        "ContextObject": "Toc"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -54,8 +54,12 @@
       "version": 0
     }
   ],
-  "notification_subscribers": ["mor-oitac-eng@moravia.com"],
-  "branches_to_filter": ["live"],
+  "notification_subscribers": [
+    "mor-oitac-eng@moravia.com"
+  ],
+  "branches_to_filter": [
+    "live"
+  ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness",
   "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
@@ -113,5 +117,9 @@
     }
   },
   "need_generate_pdf": true,
-  "need_generate_intellisense": false
+  "need_generate_intellisense": false,
+  "redirection_files": [
+    ".openpublishing.redirection.json",
+    ".openpublishing.redirection.lync.json"
+  ]
 }
