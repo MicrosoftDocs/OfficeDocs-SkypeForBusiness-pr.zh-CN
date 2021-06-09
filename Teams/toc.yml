@@ -481,8 +481,6 @@ items:
         href: teams-policies.md
       - name: 在 Teams 中设置频道审查
         href: manage-channel-moderation-in-teams.md
-      - name: 在 Teams 中共享文件
-        href: sharing-files-in-teams.md
       - name: Teams 和 Outlook 电子邮件集成
         href: teams-outlook-email-integration.md
       - name: 从 Outlook 共享到 Teams
