@@ -51,10 +51,10 @@
       "contributors_to_exclude": [
         "daswifty",
         "MikePlumleyMSFT",
-        "rjagiewich", 
-        "traya1", 
-        "rmca14", 
-        "claydetels19", 
+        "rjagiewich",
+        "traya1",
+        "rmca14",
+        "claydetels19",
         "jborsecnik",
         "tiburd",
         "garycentric"
@@ -69,7 +69,7 @@
         "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": true
       },
       "recommendations": {
-      "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": false
+        "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": false
       }
     },
     "template": [],
