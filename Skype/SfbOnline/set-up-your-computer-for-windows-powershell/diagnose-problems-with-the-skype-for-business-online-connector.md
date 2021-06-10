@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 排查创建远程 PowerShell 会话以连接到 Skype for Business Online 的问题，包括 Import-Module、并发 shell、Live ID 和权限错误。
-ms.openlocfilehash: 02952ea878424cb0b5e84337051c30660101d144
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d220fbbf9df22964833aa42bcd29c5ecaaa6eaa5
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238893"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856061"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 
@@ -153,7 +153,7 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
 
 每个管理员最多允许三个同时进行远程连接才能连接到 Skype for Business Online。 如果已启动并运行三个远程 PowerShell 连接，则尝试进行第四次同时连接的任何尝试都将失败，并出现以下错误消息：
 
-- **错误***：New-PSSession： [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息：WS-Management 服务无法处理请求。已超过此用户的最大并发 shell 数。关闭现有 shell 或提高此用户的配额。有关详细信息，请参阅 https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 [远程故障排除] (*
+- **错误***：New-PSSession： [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息：WS-Management 服务无法处理请求。已超过此用户的最大并发 shell 数。关闭现有 shell 或提高此用户的配额。有关详细信息，请参阅 [远程故障排除] (/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting？view=powershell-5.1*
 
 - **解决方法**：解决此问题的唯一方法就是关闭一个或多个以前的连接。 完成联机会话Skype for Business，建议使用 **Remove-PSSession** cmdlet 终止会话。 这有助于防止此问题。
   
@@ -162,7 +162,7 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
 
 尽管允许每个管理员同时与 Skype for Business Online 租户建立三个连接，但不允许单个租户同时具有 20 多个连接。 例如，六个管理员可能各自有三个打开的会话。 如果第四个管理员尝试建立两 (连接，导致总共 21 个同时连接) ，则此尝试会失败，并出现以下错误消息：
   
-- **错误***：New-PSSession： [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败并出现以下错误消息：WS-Management 服务无法处理请求。已超过此租户的最大并发 shell 数。关闭现有 shell 或提高此租户的配额。有关详细信息，请参阅 https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 [远程故障排除] (*
+- **错误***：New-PSSession： [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败并出现以下错误消息：WS-Management 服务无法处理请求。已超过此租户的最大并发 shell 数。关闭现有 shell 或提高此租户的配额。有关详细信息，请参阅 [远程故障排除] (/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting？view=powershell-5.1*
 
 - **解决方法**：解决此问题的唯一方法就是关闭一个或多个以前的连接。 完成联机会话Skype for Business，建议使用 **Remove-PSSession** cmdlet 终止该会话。 这有助于防止此问题。  
  

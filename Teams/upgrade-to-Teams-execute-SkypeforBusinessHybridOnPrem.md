@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d323760d4187730b0ae83d45021df44230a982cd
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: dd1d519f8be0c82a202417b6271878b9e70e3ae3
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306046"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856391"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>从Skype for Business本地升级到 Teams
 
@@ -70,9 +70,7 @@ ms.locfileid: "52306046"
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>步骤 3：将用户Skype for Business本地移动到Teams用户
 
-最终，需要将用户移动到 TeamsOnly 模式。 这可能涉及一个或两个步骤，具体取决于本地环境。  
-
-有关详细信息，请参阅 [在本地](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)和云之间移动用户和将用户从本地[移动到 Teams。](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 
+Microsoft 最近简化了将用户移动到 TeamsOnly 的过程，现在无论使用哪个 Skype for Business Server 或 Lync Server 2013 版本，这都是一个单一步骤。  有关详细信息，请参阅 [在本地](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)和云之间移动用户和将用户从本地[移动到 Teams。](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>步骤 4：禁用混合以完成到云的迁移
 
@@ -101,7 +99,7 @@ ms.locfileid: "52306046"
 
 - 设置Skype for Business混合是迁移到 TeamsOnly 模式的先决条件。 尽管本地 Skype for Business Server 用户可以在不带混合的情况下在群岛模式下使用 Teams，但如果不使用[Move-CsUser](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)将用户移动到云，则不能过渡到 TeamsOnly 模式，因为需要混合连接。 有关详细信息，请参阅 [配置混合连接](/skypeforbusiness/hybrid/configure-hybrid-connectivity)。 此外，即将停用 Skype for Business Online 不会更改此要求。 若要让组织从Skype for Business Server迁移Teams，它们仍然必须使用同一工具集来设置和配置混合，与停用 *之前完全相同*。
 
-- 若要将本地用户移到云，请使用 `Move-CsUser` 本地管理工具。 目前，如果未指定此开关，则用户从 Skype for Business Server 本地迁移到 Skype for Business Online，其模式保持不变，他们在 Skype for Business Server 中组织的会议将迁移到 Skype for Business Online。 由于即将停用 Skype for Business Online，因此很快不再需要指定 中的开关，将用户直接从本地移动到 `-MoveToTeams` `Move-CsUser` TeamsOnly。  停用后，使用 将用户从本地移动到云时，将自动为用户分配 TeamsOnly 模式，并且其从本地的会议将自动转换为 Teams 会议，就像 ， 而不考虑是否实际指定了开关一样。 `Move-CsUser` `-MoveToTeams switch had been specified` 我们预期在 2021 年 7 月 31 日实际停用之前发布此功能。
+- 若要将本地用户移到云，请使用 `Move-CsUser` 本地管理工具。 不再需要指定将用户从本地直接移动到 `-MoveToTeams` TeamsOnly 的开关。 使用 将用户从本地移动到云时，现在会自动为用户分配 TeamsOnly 模式，并且其会议从本地自动转换为 Teams 会议，就像 ， 而不考虑是否实际指定了开关一样。 `Move-CsUser` `-MoveToTeams switch had been specified`
 
 - 如果组织Skype for Business Server尚未配置混合连接，但仍想使用 Teams，若要管理 Teams 功能，必须使用具有 .onmicrosoft.com 域的管理帐户。 如果没有混合连接，管理工具无法识别本地域。 
 

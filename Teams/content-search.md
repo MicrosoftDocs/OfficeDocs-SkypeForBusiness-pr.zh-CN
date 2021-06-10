@@ -17,15 +17,14 @@ ms.custom: seo-marvel-mar2020
 description: 了解如何使用 Microsoft 365 合规性中心的内容搜索来搜索 Exchange Online、SharePoint Online、OneDrive for Business 和 OneNote 中存储的 Microsoft Teams 内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3758f96dc4755303ce8ccf3cae4443deb2a5cd99
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cb63f3668ef03cdaf760a24ae1df0a815e7f282d
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094282"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855801"
 ---
-<a name="use-content-search-in-microsoft-teams"></a>在"搜索"中Microsoft Teams
-=====================================
+# <a name="use-content-search-in-microsoft-teams"></a>在"搜索"中Microsoft Teams
 
 > [!NOTE]
 > 在专用通道中对消息和文件 [进行](private-channels.md) 内容搜索的方式与在标准通道中不同。 若要了解有关详细信息，请参阅 [专用频道的内容搜索](#content-search-of-private-channels)。

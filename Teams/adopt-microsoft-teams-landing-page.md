@@ -19,17 +19,17 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020875ca5e0938fce322654be0e4a7b3e032ebf6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4083c0cf50062e69554218dd090a14812b29a6c0
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118481"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856381"
 ---
 # <a name="adopt-microsoft-teams"></a>采用 Microsoft Teams
 
 > [!NOTE]
-> 有关转换到远程学习和资源以帮助入门的概述，请参阅我们的[远程学习主页](https://www.microsoft.com/education/remote-learning)。
+> 有关转换到远程学习和资源以帮助入门的概述，请参阅我们的[远程学习主页](/education/remote-learning)。
 
 如果你想要从聊天、Teams团队频道和会议开始推出&，请使用我们的规范性入门指南 ，该指南旨在让你快速启动并运行[](get-started-with-teams-quick-start.md)。 如果你是具有混合或本地 Skype for Business 配置的大型组织，或者想要推出语音功能 (（如 Microsoft 365 或 Office 365 呼叫计划或电话系统) ），可以从我们的入门指南开始，但需要下面的其他指南，在"更深入的采用指南"[下。](#deeper-adoption-guidance)
 

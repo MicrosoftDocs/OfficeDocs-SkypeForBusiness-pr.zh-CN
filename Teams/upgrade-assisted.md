@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e445fd6c5d26a64005ff1c285d8e9d843ca0211
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 9c19a0569fe56e9bf8c822b1418ac2fe0685532b
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656055"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855931"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>协助从 Skype for Business Online 升级到 Microsoft Teams
 
@@ -96,11 +96,11 @@ Skype for Business计划进行辅助升级的联机客户Teams一系列升级通
             >必须在升级完成后的 90 天内迁移联系人。
         - 现有Skype for Business联机会议将转换为Teams会议
             > [!IMPORTANT]
-            > 具有纯 Skype for Business Online 配置的客户需要使用会议迁移服务 (MMS) 将现有 Skype for Business Online 会议迁移到 Teams 会议。 我们建议在辅助升级日期之前使用 MMS。 有关 MMS 详细信息，请参阅[使用会议](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)迁移服务 (MMS) 
+            > 具有纯 Skype for Business Online 配置的客户需要使用会议迁移服务 (MMS) 将现有 Skype for Business Online 会议迁移到 Teams 会议。 我们建议在辅助升级日期之前使用 MMS。 有关 MMS 详细信息，请参阅[使用会议迁移服务 (MMS) 。 ](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
     :::column-end:::
 :::row-end:::
 
-升级完成后，采用混合部署的组织可能会将用户从本地移动到Teams或从Teams移动到本地。  
+如果已Skype for Business Server混合部署并Teams，可以在升级完成后Skype for Business Server Teams用户。
 
 ## <a name="related-content"></a>相关内容
 

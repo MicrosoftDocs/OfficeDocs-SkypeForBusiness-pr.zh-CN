@@ -16,18 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc85b682ee24b466514e297532dc9ac0deb56924
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
-ms.translationtype: HT
+ms.openlocfilehash: 5f7c4e9a827aad18593ee530272bedc8595bc9db
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739280"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856081"
 ---
-<a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
-=================================================
-
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
 
 在 Microsoft Teams 中有两种用户角色：**所有者** 和 **成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 此外，团队所有者和成员可以拥有频道的审核员功能（前提是设置了审核）。 如果团队是通过现有 Microsoft 365 组创建的，则会继承权限。
 
@@ -43,9 +39,9 @@ ms.locfileid: "48739280"
 |          **添加标准频道**          |    是     |    是<sup>2</sup>|
 | **编辑标准频道名称/说明** |    是     |    是<sup>2</sup>|
 |        **删除标准频道**         |    是     |    是<sup>2</sup>|
-|          **_添加私人频道_*          |    是     |    是<sup>2</sup>|
-| **_编辑私人频道名称/说明_* |    否     |    不适用|
-|        **_删除私人频道_*         |    是     |    否|
+|          ***添加私人频道**          |    是     |    是<sup>2</sup>|
+| ***编辑私人频道名称/说明** |    否     |    不适用|
+|        ***删除专用通道**         |    是     |    否|
 |          **添加成员**          |  是<sup>3</sup>   |     否<sup>4</sup>    |
 |          **请求添加成员**          |  不适用   |     是<sup>5</sup>     |
 |           **添加应用**            |    是     |    是<sup>2</sup>|
@@ -76,9 +72,3 @@ ms.locfileid: "48739280"
 ## <a name="permissions-to-create-teams"></a>创建团队的权限
 
 默认情况下，在 Exchange Online 中有邮箱的所有用户都有权创建 Microsoft 365 组，进而有权在 Microsoft Teams 中创建团队。 你可以通过向一组用户委派组创建和管理权限，更加严格地控制和限制新团队的创建，进而控制和限制新 Microsoft 365 组的创建。 有关说明，请参阅[管理哪些人可以创建 Microsoft 365 组](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
-
-
-|图标|标题|描述|
-|---------|---------|---------|
-| ![代表决策点的图标](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |决策点         |是否所有 Microsoft Teams 用户都将能够创建团队（建议）？         |
-| ![表示后续步骤的图标](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |后续步骤         |如果你需要限制可以创建团队的人员，请修改可以创建 Microsoft 365 组的人员的默认权限         |

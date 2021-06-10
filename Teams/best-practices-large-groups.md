@@ -17,15 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9dfecde14e47992588fa13e04aa652a069f7108b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fff84bd660eb19f01c6a7e3388f5289b09896401
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092880"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856341"
 ---
-<a name="manage-large-teams-in-microsoft-teams---best-practices"></a>管理大型团队Microsoft Teams - 最佳做法
-======================================================
+# <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>管理大型团队Microsoft Teams - 最佳做法
 
 Microsoft Teams可以同样有效地促进具有数十个成员的小组与具有数千个成员的大型组之间的通信。 查看[团队规模更新Teams](limits-specifications-teams.md)限制和规范。 团队规模增加会导致独特的管理和运营挑战。 本文介绍创建和管理由数千个成员组成的大型团队的最佳实践。
 

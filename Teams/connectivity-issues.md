@@ -16,15 +16,14 @@ description: 解决 Microsoft Teams 客户端的连接问题（主要由防火�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 25a4fc51e0bb8dec810ce921e3678a529ee7a4cf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f9ef787a5e103649c1526fab321cc8a9a088254c
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101158"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856161"
 ---
-<a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
-==============================================================
+# <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
 
 已发现的有关 Microsoft Teams 客户端的大多数问题都可追溯到防火墙或代理连接。 验证是否在防火墙或代理中打开了所需的 URL、IP 地址和端口可最大程度地减少不必要的故障排除。 有关应用程序所需的 URL 和 IP Microsoft Teams，请参阅 Microsoft 365 和 Office 365 URL 和[IP 地址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支持一文。 以下方案需要在防火墙中打开特定 URL 和端口。
 

@@ -20,15 +20,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c9e34c5e539d32b25259098973e9bfe6795ad7c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 78282b464dd1d9cb25c5d4d2b338c74a2c91d374
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120623"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855921"
 ---
-<a name="turn-off-inline-message-translation-in-microsoft-teams"></a>在邮件中关闭内联Microsoft Teams
-=================================================
+# <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>在邮件中关闭内联Microsoft Teams
 
 内联邮件翻译Microsoft Teams一项功能，允许用户将Teams翻译成[其个人语言](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)设置指定的语言。
 

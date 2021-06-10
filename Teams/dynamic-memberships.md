@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a76600e8ca0a92b2d46e99bc26a857c969bd07e7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 74974f7b94a5d1bcadb340e132dae9e3b39a7704
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120764"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856321"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 
@@ -37,24 +37,18 @@ Microsoft Teams动态成员身份 支持与Microsoft 365组 *关联的团队*。
 
 Microsoft Teams可能需要几分钟到最多 2 小时才能反映动态成员身份更改，一旦这些更改在团队的 Microsoft 365 组中生效。
 
-> [!NOTE]
-> - 规则可以定义团队成员，但不能定义团队所有者。
-> - 有关[团队和频道大小Microsoft Teams，](limits-specifications-teams.md)请参阅团队限制和规范。
-> - 所有者无法添加或删除作为团队成员的用户，因为成员由动态组规则定义。
-> -    成员将不能离开由动态组支持的团队。
+将团队与动态组一起使用时：
 
-## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>创建和管理具有动态Microsoft 365组
+- 规则可以定义团队成员，但不能定义团队所有者。
+- 所有者无法添加或删除作为团队成员的用户，因为成员由动态组规则定义。
+- Teams不允许对团队进行成员管理。 添加成员、编辑成员角色、发送和批准加入请求以及离开团队的选项全部处于隐藏状态。
 
-以租户管理员身份登录时，请遵循创建动态 [组中的说明并检查状态](/azure/active-directory/users-groups-roles/groups-create-rule)。 根据需要，请参阅[组中组的动态成员身份Azure Active Directory。](/azure/active-directory/users-groups-roles/groups-dynamic-membership)
+若要创建使用动态成员身份的团队，请首先创建动态Microsoft 365[组，](/azure/active-directory/users-groups-roles/groups-create-rule)然后[从该组创建团队](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865)。
 
-## <a name="create-a-new-team-with-your-microsoft-365-group"></a>使用你的团队组Microsoft 365团队
+可以将现有团队更改为动态成员身份。 有关[信息，请参阅将静态组成员身份](/azure/active-directory/users-groups-roles/groups-change-type)Azure Active Directory动态。
 
-现在，允许成员身份更改生效，并创建一个新团队，如从现有组创建 [团队中所述](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865)。
+## <a name="related-topics"></a>相关主题
 
-## <a name="apply-dynamic-membership-to-an-existing-team"></a>将动态成员身份应用于现有团队
+[Microsoft Teams 的限制和规范](limits-specifications-teams.md)
 
-还可以选择现有团队，并更改它以拥有动态成员身份，如将静态组成员身份更改为动态在 Azure Active Directory[中所述。](/azure/active-directory/users-groups-roles/groups-change-type)
-
-## <a name="changes-in-client-behavior"></a>客户端行为更改
-
-为团队启用动态成员身份后，Teams不再允许对团队进行成员管理。 添加成员、编辑成员角色、发送和批准加入请求以及离开团队的选项全部处于隐藏状态。
+[组中组的动态成员身份Azure Active Directory](/azure/active-directory/users-groups-roles/groups-dynamic-membership)

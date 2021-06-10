@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下是我们从想要使用音频会议的客户提出的一些热门问题。
-ms.openlocfilehash: 48450dad380294503fdffc9210e225777ad60bb3
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282740"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856411"
 ---
 # <a name="audio-conferencing-common-questions"></a>音频会议常见问题
 
@@ -129,12 +129,21 @@ Skype for Business或Microsoft Teams用户可以在设置后将发送给他们�
   
 ## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>支持哪些会议中拨号盘命令？
 
-- *6（将自己静音/取消静音）
-    
-- *1 (播放可用拨号盘命令的说明)  
+对于会议参与者和组织者：
 
-- *2， *21， *22 (大厅和进入通知) 
-    
+| 命令名称 | 命令键 | 说明                                                     |
+|--------------|--------------|-----------------------------------------------------------------|
+| 命令菜单 | \*1          | 按 \* 1 播放可用的拨号盘命令的说明。 |
+| 静音/取消静音  | \*6          | 按 \* 6 自行静音或取消静音。                         |
+
+仅适用于会议组织者：
+
+| 命令名称                   | 命令键 | 说明                                                 |
+|--------------------------------|--------------|-------------------------------------------------------------|
+| 全部允许                      | \*21         | 按 \* 21 允许所有参与者在大厅中等待。  |
+| 将全部设为静音                       | \*22         | 按 \* 21 将所有参与者设为静音 (组织者以外的) 。 |
+| 切换进入/退出通知 | \*23         | 按 \* 23 启用或禁用 Enter/Exit 公告。    |
+
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>与会者在参加会议或会议时能否拨打Skype for Business Microsoft Teams号码？
 
 是的，与会者可以拨打国际号码并邀请其他呼叫者加入Skype for Business会议Microsoft Teams会议。 请参阅[从会议拨出Microsoft Teams](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)以便其他人可以加入会议或从 Skype for Business Online 会议拨出，以便[其他人可以加入。](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)
@@ -150,7 +159,7 @@ Skype for Business或Microsoft Teams用户可以在设置后将发送给他们�
 - **选项 #1：** 默认情况下，如果会议组织者和所有参与者都使用电话加入会议，会议组织者需要输入其音频会议 PIN 以启动会议。 呼叫者在拨打联机会议的电话号码时，会询问他们是否要作为给定会议的组织者进行身份验证。 在组织者启动之前通过拨入加入会议的所有参与者都将放置在大厅中，并且将收听保持音乐。 对于Skype for Business会议，组织者通过输入其音频会议 PIN 启动会议后，大厅的所有参与者将自动加入会议。 对于Microsoft Teams会议，参与者将按照组织者的会议策略中自动允许人员设置的值加入会议。
 
 - **选项#2："** 允许未经身份验证的呼叫者成为会议的第一人"设置默认情况下处于禁用状态。 如果为给定组织者启用了设置，则组织者安排的所有会议都可以在组织者输入音频会议 PIN 之前启动。 启用此设置后，一旦第一个参与者通过拨入电话号码加入会议，会议就会开始，并且第一个参与者不会进入大厅。 有关详细信息，请参阅在 Microsoft Teams[](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)中管理用户的音频会议设置或管理[Skype for Business Online 中的用户的音频Skype for Business设置](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)。
-   
+  
 ## <a name="related-topics"></a>相关主题
 
 [设置 Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
