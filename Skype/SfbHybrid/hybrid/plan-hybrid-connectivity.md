@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 通过配置混合模式Skype for Business Server Teams Skype for Business Online 之间实现混合Skype for Business连接。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4b38e5aa046224572da485a63bd651b705c83011
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 7d886016495d194997ebf99361916c9c387e5d1f
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308321"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856331"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>规划 Skype for Business Server 和 Teams
 
@@ -54,11 +54,12 @@ ms.locfileid: "52308321"
 - 本地用户可以 (Who也可能使用Teams TeamsOnly 模式) 
 - Teams仅用户。 
 
-对于从 Skype for Business Server Lync Server 2013 移动到 Teams 的组织，他们仍必须使用同一工具集设置和配置混合，就像停用之前 *一样*。 将用户从本地迁移到 Teams，即将不再需要指定 中的开关以将用户直接从本地移动到 `-MoveToTeams` `Move-CsUser` TeamsOnly。 目前，如果未指定此开关，用户会从本地Skype for Business Server切换到 Skype for Business Online，其模式保持不变。 停用后，使用 将用户从本地迁移到云时，将自动为用户分配 TeamsOnly 模式，并且其从本地会议将自动转换为 Teams 会议，就像 `Move-CsUser` ， 一样，无论是否实际指定了切换 `-MoveToTeams switch had been specified` 。  (这包括从 Lync Server 2013（从未具有 switch.) ）的迁移。我们希望在 2021 年 7 月 31 日实际停用之前发布此功能 (它不需要任何本地 `MoveToTeams` updates) 。
+对于从 Skype for Business Server Lync Server 2013 移动到 Teams 的组织，他们仍必须使用同一工具集设置和配置混合，就像停用之前 *一样*。 更改的是，将用户从本地迁移到 Teams 时，不再需要指定 中的开关以将用户直接从本地移动到 `-MoveToTeams` `Move-CsUser` TeamsOnly。 以前，如果未指定此开关，则用户从本地Skype for Business Server转换为 Skype for Business Online，其模式保持不变。 为准备停用，在使用 将用户从本地迁移到云时，现在会自动为用户分配 TeamsOnly 模式，其会议从本地自动转换为 Teams 会议，就像已指定切换一样，无论是否实际指定了交换机。 `Move-CsUser` `-MoveToTeams`  (包括从 Lync Server 2013 迁移，Lync Server 2013 从未具有 `MoveToTeams` switch.)  
 
 停用 Skype for Business Online 后，共存模式将继续存在。 与以前一样，可以将帐户Skype for Business Server本地部署中的用户分配除 TeamsOnly 之外的任何共存模式。 但是，停用后，在线用户只能是 TeamsOnly (TeamsOnly，而目前 Skype for Business Online 用户可以是任何模式) 。  
 
-[!Important] 在 Skype for Business Online 中拥有非 TeamsOnly 用户的现有混合组织应专注于尽快将这些用户升级到 Teams Only 模式，但不得晚于 2021 年 7 月 31 日停用。 如果你的组织仍有非 TeamsOnly Skype for Business Online 中的用户，可以安排 Microsoft 协助的升级，以将这些用户转换为 TeamsOnly。 这不会影响本地部署中Skype for Business Server用户。 在将在线、非 TeamsOnly 用户升级到 Skype for Business Online 之前，计划通知将提前发送给混合客户Teams。
+> [!Important]
+> 在 Skype for Business Online 中拥有非 TeamsOnly 用户的现有混合组织应专注于尽快将这些用户升级到 Teams Only 模式，但不得晚于 2021 年 7 月 31 日停用。 如果你的组织仍有非 TeamsOnly Skype for Business Online 中的用户，可以安排 Microsoft 协助的升级，以将这些用户转换为 TeamsOnly。 这不会影响本地部署中Skype for Business Server用户。 在将在线、非 TeamsOnly 用户升级到 Skype for Business Online 之前，计划通知将提前发送给混合客户Teams。
 
 
 ## <a name="about-shared-sip-address-space-functionality"></a>关于共享 SIP 地址空间功能
