@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或 EDU 设置中的策略，以及如何在 Microsoft Teams 中使用和管理策略包。
-ms.openlocfilehash: 10b87a804523758df69a68ff9c5812a6ea5b448c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a23c54003f700b3d6dc3e0c45cbbc9ee42a311ed
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117790"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796836"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>用于教育的 Teams 策略和策略包
 
@@ -54,7 +54,7 @@ Microsoft Teams 让用户能够执行诸如参加在线会议或实时事件、�
 
 ### <a name="where-to-find-microsoft-teams-policies"></a>在哪里可以找到 Microsoft Teams 策略
 
-登录 Teams 管理中心后，可单击 Teams 管理中心左侧导航中的策略选项，转到需要管理的任何 Teams 区域的策略设置。 我们提供了消息传递策略位置的屏幕截图。
+登录 Teams 管理中心后，可单击 Teams 管理中心左侧导航中的策略选项，转到需要管理的任何 Teams 区域的策略设置。我们已经包括了消息传递策略位置的屏幕截图。
 
 :::image type="content" source="media/edu-messaging-policies.png" alt-text="Teams 管理中心中的消息策略位置。":::
 
@@ -169,7 +169,10 @@ Microsoft Teams 当前包含以下策略包：
 
 ### <a name="assign"></a>分配
 
-将策略包分配给用户。 如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。
+将策略包分配给用户。如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。
+
+> [!NOTE]
+> 为了接受自定义策略包分配，每位用户都需要高级通信加载附加产品。 有关详细信息，请参阅 [Microsoft Teams 高级通信附加产品](/microsoftteams/teams-add-on-licensing/advanced-communications)。
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>向一个或多个用户分配策略包
 
