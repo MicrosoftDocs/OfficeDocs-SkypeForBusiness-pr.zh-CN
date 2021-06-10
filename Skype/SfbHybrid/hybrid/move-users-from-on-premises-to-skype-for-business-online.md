@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 了解如何将用户移动到 Skype for Business Online。
-ms.openlocfilehash: e4536b13b6a9c05757bfcbf629fcc8301f94ed86
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 883db98a424c254e6792fd651594b02201a311f9
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305976"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863193"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>将用户从本地迁移至 Skype for Business Online
 
@@ -34,8 +34,7 @@ ms.locfileid: "52305976"
 在移动任何用户之前，请务必查看 [将](move-users-between-on-premises-and-cloud.md#prerequisites) 用户迁移到云的先决条件。
 
 > [!NOTE]
-> 为准备即将停用 Skype for Business Online，Microsoft 将简化组织在近期内如何移动到 Teams，并且无法再移动到 Skype for Business Online。  一旦提供这些更改，在将用户从本地迁移到云时，将自动为用户分配 TeamsOnly 模式，其从本地会议将自动转换为 Teams 会议，就像已指定交换机一样，无论是否实际指定了交换机。 `-MoveToTeams` 我们希望在 2021 年 7 月 31 日实际停用之前发布此功能。   目前，如果未指定此开关，用户从本地 Skype for Business Server 转换为 Skype for Business Online，其模式保持不变，这是本文中介绍的功能。
-
+> 为准备即将停用 Skype for Business Online，Microsoft 简化了组织移动到 Teams。 将用户从本地迁移到云时，现在会自动为用户分配 TeamsOnly 模式，其从本地会议自动转换为 Teams 会议，就像已指定交换机一样，无论是否实际指定了交换机。 `-MoveToTeams`  停用 Skype for Business Online 之前，需要将用户从本地迁移到 Skype for Business Online 的组织可以通过在将用户移至 *TeamsOnly* 后更新用户模式，分两步完成此操作。 但是，在近期内，将不再可以将 TeamsOnly 模式分配给托管在云中的用户。  
  
 ## <a name="move-users-with-move-csuser"></a>使用迁移功能Move-CsUser 
 
@@ -48,27 +47,36 @@ Move-CsUser命令行管理程序 PowerShell Skype for Business中提供。 您�
 - 如果您没有一个在本地和 Microsoft 365 中具有足够权限的帐户，请使用 -credential 参数在 Microsoft 365 中为帐户提供足够权限。
 - 如果具有此权限的帐户Microsoft 365以".onmicrosoft"结尾。 <span>com"， then you must specify the -HostedMigrationOverrideUrl parameter， with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-以下 cmdlet 序列可用于将用户移动到 Skype for Business Online。 它假定Microsoft 365凭据是一个单独的帐户，并作为输入提供给 Get-Credential 提示。
+以下 cmdlet 序列可用于将用户移动到 Skype for Business Online 并将租户默认模式分配给用户。 它假定Microsoft 365凭据是一个单独的帐户，并作为输入提供给 Get-Credential 提示。
 
 ```PowerShell
+# From an on-premises Skype for Business Server or Lync Server 2013 management shell window, run:
+ 
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
- 
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
+ 
+# And then from a Teams PowerShell window, remove TeamsOnly mode by running: 
+Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName $null
 ```
 
 如果管理员帐户启用了 MFA (多重身份验证) ，则不要指定 -Credential 参数。 将提示管理员输入凭据。
 
-## <a name="move-users-with-skype-for-business-server-control-panel"></a>使用"控制面板Skype for Business Server移动用户 
+## <a name="move-users-with-skype-for-business-server-control-panel-and-teams-admin-center"></a>使用"控制面板Skype for Business Server移动用户Teams管理中心
 
 1. 打开Skype for Business Server控制面板"应用。
 2. 在左侧导航栏中，选择"**用户"。**
 3. 使用 **"** 查找"查找 (要) 移动到 Skype for Business Online 的用户。
-4. Select the user (the) ， and then， from the **Action** dropdown above the list， choose **Move selected users to Skype for Business Online**.
+4. Select the user (s) ， and then， from the **Action** dropdown above the list， choose **Move selected users to Skype for Business Online** or Move selected users to **Teams**. 这两个选项最初都会将用户移动到 TeamsOnly 模式，但在移动后，你可以分配另一种模式。 
 5. 在向导中，单击“下一步”。
 6. 如果系统提示，请Microsoft 365以 .onmicrosoft.com 结尾且具有足够权限的帐户登录。
 7. 单击 **"下****一步**"，再单击"下一步"以移动用户。
 8. 请注意，有关成功或失败的状态消息在主"控制面板"应用的顶部提供，而不是在向导中提供。
+9. 打开Teams管理中心，然后选择左侧导航栏中的"用户"。 
+10. 在 listview 中单击所需的用户。 
+11. 单击 **"升级**"部分中的"编辑 **Teams升级"。**
+12. 在右侧飞出中，选择所需的共存模式， **然后单击应用**。
+ 
 
 ## <a name="see-also"></a>另请参阅
 
