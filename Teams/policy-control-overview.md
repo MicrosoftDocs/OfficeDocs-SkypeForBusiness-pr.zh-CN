@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777895"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863213"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams 的策略控制概述
 
@@ -84,7 +84,7 @@ Teams 软件有三个级别的诊断数据可供你选择：
 
 如果用户使用其组织凭据（有时称为工作或学校帐户）登录 Teams，则他们将无法更改其设备的诊断数据级别。
 
-此诊断数据不包括用户的姓名、电子邮件地址或 Office 文件的内容。 我们的系统会创建一个与用户诊断数据相关联的唯一 ID。 当我们收到显示 Teams 应用崩溃 100 次的诊断数据时，此唯一 ID 可让我们确定是单个用户崩溃了 100 次，还是 100 个不同的用户分别崩溃了一次。 我们不会使用此唯一 ID 来标识特定用户。
+此诊断数据不包括用户姓名、其电子邮件地址或其他用户内容，例如 Teams 中共享的 Office 文件、在 Teams 中发送的聊天消息，或在 Teams 频道中发布的帖子文本。 我们的系统会创建一个与用户诊断数据相关联的唯一 ID。 当我们收到显示 Teams 应用崩溃 100 次的诊断数据时，此唯一 ID 可让我们确定是单个用户崩溃了 100 次，还是 100 个不同的用户分别崩溃了一次。 我们不会使用此唯一 ID 来标识特定用户。
 
 若要查看向 Microsoft 发送的诊断数据，你可以使用诊断数据查看器，它可通过 Microsoft 商店免费下载和安装。 有关详细信息，请参阅[将诊断数据查看器与 Office 配合使用](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)。
 

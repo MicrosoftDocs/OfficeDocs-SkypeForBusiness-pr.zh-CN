@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbac20caa3f1eff0ead7ef0bf7f11d55b7718903
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135994"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863223"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的桌面诊断数据
 
 以下文章包含 Microsoft Teams 桌面事件的列表，以及各个事件收集的属性列表。
+
+要详细了解诊断数据，包括如何控制发送到 Microsoft 的诊断数据，请参阅 [从 Teams 应用发送到 Microsoft 的诊断数据](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft)。 要查看要发送到 Microsoft 的诊断数据，可使用 [诊断数据查看器](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)。
 
 ## <a name="events"></a>事件
 
@@ -41,7 +43,7 @@ ms.locfileid: "48135994"
 - **adalAnonymousUtil.ts：loggingService.getInstance** - 记录应用程序无法启动匿名用户身份验证的错误操作语句。
 - **adal-anonymous-windows.ts：this.logger.logError** -  记录在windows设备上匿名登录时发生的通用 sso 错误。
 - **adalBase.ts： this.loggingService.logError** - 记录确定用户配置文件为NULL或空的的所需信息。
-- **adal-impl-mac.ts:this.loggingService.logError** - 记录解析身份认证过程中接收到的遥测数据时发生的问题，或在Mac设备上登录时发生的通用sso错误。
+- **adal-impl-mac.ts:this.loggingService.logError** - 记录解析身份认证期间分析接收到的遥测数据时发生的问题，或在 Mac 设备上登录时发生的通用 sso 错误。
 - **adal-rigel-windows.ts：this.logger.logError** -一般性日志记录声明，表示在登录到我们的会议室设备上时出现了一个通用sso错误。
 - **adal-sso-windows.ts：this.loggingService.logError** -记录在 Windows 设备上登录时发生的通用sso错误、启动聊天服务时的错误或登录失败信息的错误。
 - **appOnlineService.ts： loggingService.getInstance**  -记录由于在启动过程中无法解析设置或下载预用户认证、预授权设置时发生的错误。
@@ -54,7 +56,7 @@ ms.locfileid: "48135994"
 - **localStorageService.ts： loggingService.getInstance** - 当必要的启动数据无法正常加载运行应用程序时，记录错误的发生。
 - **logProviders\pageDumpProvider.ts：loggingService.getInstance** - 记录应用程序崩溃时的错误信息。
 - **multiWindowManager.ts： this.logError** - 当必要的启动数据无法正常加载运行应用程序时，记录错误的发生。
-- **nativeElectronNotifications\osNotificationService.ts： this.loggingService.logError** - 此事件记录了试图启动有关失败的通知时的发生的错误。
+- **nativeElectronNotifications\osNotificationService.ts： this.loggingService.logError** - 此事件记录了尝试启动有关失败的通知时发生的错误。
 - **OutlookMeetingAddinHelper.ts： loggingService.getInstance** - 记录当使用Outlook会议加载项试图连接到会议时发生的错误。
 - **recoveryManager.ts：loggingService.getInstance** - 记录更新回滚期间发生的错误。
 - **renderer\startPage\startPage.ts：this.logger.logError** - 记录应用程序起始页发生的错误。
@@ -92,12 +94,12 @@ ms.locfileid: "48135994"
 > [!NOTE]
 > 有关跟踪事件属性的详细信息，请参阅 [与日志跟踪事件一起发送的属性](#properties-sent-with-tracking-events)。
 
-- **deeplink_scenario_missing** - 已从深层链接启动了Teams，但是未提供遥测/诊断。
+- **deeplink_scenario_missing** - 已从深层链接启动 Teams，但是未提供遥测/诊断。
 - **desktop_app_initialized** - 记录初始化桌面应用程序时确定应用程序是否已成功启动所需的信息。
 - **desktop_app_quit_exception** - 应用程序在试图关闭时崩溃。
 - **desktop_blankScreenDetected** - 记录桌面应用程序呈现空白屏幕时确定错误所需的信息。
 - **desktop_blankScreenDetectedAfterRepaint** - 在检测渲染尝试时，检测到该页面为空白。
-- **desktop_blankScreenRecoveredAfterRepaint** - 恢复了之前屏幕没有被渲染时的渲染问题。
+- **desktop_blankScreenRecoveredAfterRepaint** - 已从之前未渲染屏幕的渲染问题中恢复。
 - **desktop_configuration_failed_to_save** - 收集在桌面设置无法保存时，确定配置错误所需的信息。
 - **desktop_navigation_error_recovery** - 收集在尝试五次后页面仍旧加载失败时，确定桌面导航错误所需的信息。
 - **desktop_previous_gpu_crashed** - 记录在桌面崩溃时，确定图形处理单元错误所需的信息。
@@ -205,7 +207,7 @@ ms.locfileid: "48135994"
 | Session_DesktopId                 | 唯一会话 ID                                                                  |
 | machineLocked                     | 捕获计算机是否被锁定                                          |
 | windowIsVisible                   | 若应用程序窗口可见，则捕获以便使用                                      |
-| appStates/webAppStates            | 记录应用程序所经历的应用程序状态列表。 这有助于崩溃调查，因为我们可以看到应用的状态 |
+| appStates/webAppStates            | 记录应用所经历的应用状态列表。这有助于崩溃调查，因为我们可以看到应用程序处于什么状态 |
 | crashDesktopSession               | 捕获崩溃会话的 ID                                                 |
 | appRuntime                        | 捕获应用程序的运行时间                                                        |
 | diagnosticEvents                  | 应用程序崩溃前的最后50个网页应用程序诊断事件                                 |
@@ -397,6 +399,6 @@ ms.locfileid: "48135994"
 | TeamsRing                       | 当前用户已登录Teams客户端的振铃                            |
 | TeamsVersion                    | 捕获Teams应用程序的版本                                            |
 | TelemetrySetupCompletedTime     | 完成遥测设置的时间                                   |
-| UpnMismatch                     | Outlook与Teams之间是否存在upn不匹配的情况                  |
+| UpnMismatch                     | Outlook 与Teams 之间是否存在 upn 不匹配的情况                  |
 | UserDomain                      | 用户的域                                                       |
 | ViewUpdatedTime                 | 视图获取更新的时间                                           |

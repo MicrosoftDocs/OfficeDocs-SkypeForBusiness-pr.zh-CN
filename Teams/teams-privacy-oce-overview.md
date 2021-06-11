@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 本文简要介绍了 Microsoft Teams 中的可选连接体验。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b2cf94f660b7935ae61aadf21bdb9a7a78fb21
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 588dd904794ce79cfdcdbfa7fb9e17275f1d3661
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777883"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863233"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Microsoft Teams 中的可选连接体验概述
 
@@ -28,7 +28,7 @@ ms.locfileid: "52777883"
 如果管理员已让你在 Teams 中选择使用可选连接体验，可转到 Teams 中的 **设置** > **隐私**，选择是否要使用可选连接体验。
 
 > [!NOTE]
-> 如果你是管理员，可以授予或限制用户使用可选连接体验的能力。 为此，可使用 [Office 云策略服务](/deployoffice/overview-office-cloud-policy-service) 配置 *允许在 Office 中使用其他可选连接体验* 策略设置。 
+> 如果你是管理员，可以授予或限制用户使用可选连接体验的能力。 为此，可使用 [Office 云策略服务](/deployoffice/overview-office-cloud-policy-service) 配置 *允许在 Office 中使用其他可选连接体验* 策略设置。 这是相同的策略设置，用于控制你的用户在 Microsoft 365企业应用版随附的 Office 应用（如 Word、Excel 和 PowerPoint）中是否可以使用可选的连接体验。
 
 ## <a name="giphy"></a>GIPHY
 

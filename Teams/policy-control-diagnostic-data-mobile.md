@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723563"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863243"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
 以下文章包含 Microsoft Teams 移动设备事件的列表，以及各个事件收集的属性列表。
+
+要详细了解诊断数据，包括如何控制发送到 Microsoft 的诊断数据，请参阅 [从 Teams 应用发送到 Microsoft 的诊断数据](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft)。 要查看要发送到 Microsoft 的诊断数据，可使用 [诊断数据查看器](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)。
 
 ## <a name="events"></a>事件
 
@@ -109,6 +111,8 @@ ms.locfileid: "52723563"
   - 设置中的数字。
 - **blockChat** - 阻止机器人聊天。 这增强了现有聊天的遥测功能，并且只添加了应用程序信息。
 - **botClickCardAction** - 连接器卡用法。
+- **brbFormOpened** - 用户已请求发送反馈。
+- **brbFormSubmit** - 用户已提交反馈。
 - **breakStartEndClicked** - 在上班打卡屏幕上，选择“**开始**”或“**结束休息时间**”按钮。
 - **breakStartEndTriggered** - 注册用户选择使用休息时间开始或结束。
 - **bucketSelected** - 确认已成功选择存储桶。
@@ -338,12 +342,12 @@ ms.locfileid: "52723563"
 - **closeLobbyBanner** - 使用“**关闭**”按钮关闭大堂 toast 的次数。
 - **commentAdded** - 确认已将注释添加到任务中。
 - **commentsClicked** - 确认已成功启动注释 视图。
-- **commentUpdated** - 确认已成功更新任务的注释。
+- **commentUpdated** - 确认已成功更新某个任务的注释。
 - **companionBannerJoin** - 选择顶层横幅上的“**加入**”。
 - **companionDismiss** - 关闭伴侣横幅。
 - **companionDismissProximity** - 关闭伴侣横幅。
 - **companionJoin** - 在工作表上选择“作为伴侣加入”选项。
-- **companionJoinProximity** - 通过伴侣横幅加入。
+- **companionJoinProximity** - 已通过伴侣横幅加入。
 - **completeVaultFRE** - 用户完成生成用于加密其安全数据的主密钥过程。
 - **completionStateChange** - 在任务列表的筛选器视图中选择已完成或未完成的筛选器切换时触发。
 - **composeExpandComposer** - 已点击“**格式**”按钮。
@@ -461,6 +465,7 @@ ms.locfileid: "52723563"
 - **dialOutDialog** - 在操作表中选择了“**新编号**”。
 - **dialOutFailRetry** - 从故障标志中选择“**重试**”。
 - **DialPad** - 从通话列表中选择“**拨号盘**”。
+- **directShare** - 共享指向 Sms/电子邮件本机应用的邀请链接。
 - **disableCategory** - 禁用通知类型或禁用来电通知。
 - **disabled** - 在首次运行体验 (FRE) 中选择 **跳过通知**。 这为跳过 FRE 流中的通知提供了关键的成功数据。
 - **disableQuietDays** - 已禁用“免打扰日”。 免打扰日功能成功遥测。
@@ -625,6 +630,7 @@ ms.locfileid: "52723563"
 - **Launch source such as direct, link, appShortcut** - 直接或通过链接启动（在应用程序启动时记录移动应用程序管理 (MAM) 或移动设备管理 (MDM) 遥测，为活动用户收集数据）。
 - **leaveChat** - 确认离开聊天。
 - **legacyChatLink** - 已选中旧聊天的链接。
+- **链接** - 用户通过输入 Teams 应用程序启动兑换邀请链接。
 - **likeAppDismiss** - 当询问用户是否喜欢该应用程序的提示被取消而没有响应时。
 - **likeAppNo** - 当询问用户是否喜欢该应用程序的提示收到“否”的响应时。
 - **likeAppYes** - 当询问用户是否喜欢该应用程序的提示收到“是”的响应时。
@@ -650,12 +656,13 @@ ms.locfileid: "52723563"
 - **location_active_tracking** - 用户的设备切换为有效跟踪。
 - **locationCard** - 选择位置卡片。
 - **location_family_sync** - 显示在 MSA 系列应用程序中创建的家庭组成员。 确认显示所有可授予同意的家庭成员。
+- **location_data_use_privacy_denied** - 用户已拒绝接收隐私条款。
 - **location_group_map_sync** - 已打开地图视图。
 - **location_map_load** - 加载地图视图。
 - **location_map_markers_load** - 地图视图加载。确认地图视图中正确显示所有主动共享用户的位置标记。
 - **location_message_send** - 用户启动位置共享会话。
 - **location_data_use_privacy_denied** - 用户在解释 TFL使用位置数据的弹出窗口上关闭或选择“**暂不**”。
-- **location_data_use_privacy_granted** - 用户在解释 TFL 使用位置数据的弹出窗口上选择“**允许**”。
+- **location_data_use_privacy_granted** - 用户在解释 TFL 使用位置数据的弹出窗口上选择了“**允许**”。
 - **location_settings_open** - 用户打开位置设置。
 - **location_sharing_start** - 用户在聊天中共享其实时位置。
 - **location_sharing_stop** - 用户在聊天中停止共享其实时位置。
@@ -855,6 +862,9 @@ ms.locfileid: "52723563"
 - **pinChannel** - 固定一个频道以在团队和频道列表上方显示。
 - **pinSelf** - 从操作表固定我自己。
 - **pinUser** - 从操作表固定用户。
+- **place_created** - 用户已创建一个共享地点。
+- **place_deleted** - 用户已删除共享地点。
+- **place_edited** - 用户已编辑共享地点。
 - **播放** - 播放录制内容。
 - **playVoicemail** - 已点击 **播放** 语音邮件项。
 - **plusButtonClicked** - 选择 **加号按钮** (**+**).
@@ -918,6 +928,7 @@ ms.locfileid: "52723563"
 - **reactRemoved_HB** - 当用户通过“回应摘要”页面删除回应时。
 - **readReceipts** - 用户已启用功能。
 - **redeemInvite** - 应用内兑换。
+- **redeemLinkInAppStart** - 用户从 Teams 应用程序中发起兑换邀请链接。
 - **refreshCalendarList** - 下拉以刷新日程视图。
 - **refreshLinksGallery** - 当用户向下滑动以刷新链接库时。
 - **removeAssignee** - 确认从“作业选取器”视图中删除了代理人（与在“作业选择器”视图之外选择 **x** 时触发的 *assignmentRemoved* 相反）。
@@ -933,7 +944,7 @@ ms.locfileid: "52723563"
 - **reorderChannelItem** - 用户重新排序已固定频道。
 - **reportAbuseConfirmation** - 当用户在确认屏幕上选择“**完成**”按钮时。
 - **reportAbuseOpen** 在上下文菜单中选择“**报告问题**”按钮的次数。
-- **reportAbuseSend** - 当用户选择”**报告**“按钮时，遥测应存储所选报告的类型。
+- **reportAbuseSend** - 当用户选择“**报告**”按钮时，遥测应存储所选报告的类型。
 - **replyChain** - 在回复链（会话）中选择“**新消息**”按钮或文本框。
 - **replyChannel** - 频道中选择的“**回复**”按钮。
 - **replyNavigation** - 已选择回复对象以导航到引用的文章。
@@ -958,6 +969,8 @@ ms.locfileid: "52723563"
 - **saveEditMeeting** - 更新会议后，在“会议计划程序”页上选择“**保存**”按钮。
 - **saveNewMeeting** - 在“会议计划程序”页上选择“**保存**”按钮。 记录成功保存的会议以及由于客户端或服务错误而无法创建的会议的百分比。
 - **savePlanClicked** - 从应用程序默认打开的新计划创建者中选择了“**创建**”时触发。
+- **scenarioChannelDashboard** - 用户导航到聊天仪表板上的磁贴。
+- **scenarioDashboardNav** - 用户导航到对话中的仪表板选项卡（聊天选项卡的同级）。
 - **scheduledMeetingJoin** - 从计划会议对象中选择“**会议加入**”按钮。
 - **scrollCalendarList** - 测量日历中的滚动。
 - **scrollDatePicker** - 滚动日历日期选取器控件。
@@ -1013,6 +1026,8 @@ ms.locfileid: "52723563"
 - **settingsNavReadReceiptNotice** - 用户从功能通知转到设置。
 - **settingsOpened** - 当用户的设备时区与团队时区不匹配，且用户转到“设置”时，会触发此事件。
 - **setupPinVault** - 用户为其帐户保存安全 PIN。 
+- **shareCharmCompleted** - 用户已通过应用程序共享超级按钮完成邀请链接的共享。
+- **shareCharmOpened** - 用户已通过应用程序共享超级按钮启动邀请链接的共享。 
 - **shareFile** - 选择“**共享文件**“时触发。 也有助于检查：
   - 用户能够启动共享文件操作。
   - 用户可以成功共享文件。
@@ -1127,6 +1142,8 @@ ms.locfileid: "52723563"
   - 转接目标设置为“人员”。
   - 转接目标设置为“电话号码”。
 - **translateFailed** - 翻译失败（脱机除外）。 邮件翻译功能的功能成功指标。
+- **trigger_created** - 用户已创建地理围栏。
+- **trigger_deleted** - 用户已删除地理围栏。
 - **unansweredCallForward** - 设置了未接听的呼叫转移目标。 还启用未接听呼叫转移（启用了电话振铃和未如果无人应答）。
 - **unblockCaller** - 取消阻止：
   - 操作表中的联系人或号码。
@@ -1225,6 +1242,7 @@ ms.locfileid: "52723563"
 - **fileUploadSuccess** - 文件上传操作成功时触发。
 - **fileUploadSummaryNotification** - 当文件上载摘要通知的内容更改或与通知交互时触发。 这些交互可能包括如轻扫以消除通知或点击通知等手势。
 - **meetingFiles** - 打开会议文件屏幕时触发。
+- **meetNowActionSheet** - 在用户创建“立即开会”的会议时触发。
 - **navPersonalFiles** - 执行文件屏幕导航时触发。
 
 ### <a name="scenario"></a>使用场景
@@ -1238,7 +1256,7 @@ ms.locfileid: "52723563"
 - **app_start_hot** 为了监测热启动的应用程序 (仅 Android)。
 - **app_start_warm** 为了监视暖启动的应用程序 (仅 Android)。
 - **chat_add_giphy** - 确认 Giphy GIF 渲染操作成功或失败。
-- **cortanaError** 监控 Cortana 错误发生。
+- **cortanaError** 监视 Cortana 错误发生。
 - **cortanaView** - 监控 Cortana 画布出现。
 - **cortanaRestart** 监控 Cortana 重启。
 - **cortanaSetNewConversation** 监控 Cortana 设置新对话。
