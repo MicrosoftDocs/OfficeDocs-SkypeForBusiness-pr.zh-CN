@@ -29,11 +29,11 @@ productDirectory:
     - title: 规划升级（从这里开始！）
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
       summary: '无论是在 Skype for Business Online () 2021 年 7 月 31 日停用之前升级到 Teams，还是将方案从 Skype for Business 本地环境迁移到 Teams，成功的转换都解决了技术和用户准备情况。 探索经过验证的框架、最佳做法和资源，以帮助你成功地从 Teams Online、Skype for Business Server 或混合Skype for Business转换到云。 受众 - 所有 (发起人、IT 管理员、用户准备情况/更改经理、项目主管) '
-      url: 'https://microsoftteams.eventbuilder.com/PlanYourUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsPlan'
     - title: 实施Teams升级
       imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
       summary: 加入我们，根据目标和当前环境确定并准备执行最佳技术方法，将所有工作负荷Teams迁移到 Skype for Business 环境。 完成成功转换的大多数客户已Teams当前 Skype for Business Online、Skype for Business Server或混合实现。 此会话将共享关键注意事项和有价值的资源，以帮助你为组织定义最佳迁移策略。 受众 - IT 管理员
-      url: 'https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsImplement'
 additionalContent:
   sections:
     - items:
