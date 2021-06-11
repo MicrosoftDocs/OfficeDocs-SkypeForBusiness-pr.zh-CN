@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以了解适用于用户的已知问题Microsoft Teams 会议室，包括更新、用户界面、硬件、限制和预期行为。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cec5cac544d3935c2c8be0f4dd9d7a57e68d35ec
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: d601db3c028c7c93a97131db48de81bdcab314e4
+ms.sourcegitcommit: bd7b4986044f7921b25506488dfed405fc2e7ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856431"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877484"
 ---
 # <a name="known-issues"></a>已知问题 
  
@@ -32,7 +32,7 @@ ms.locfileid: "52856431"
 | 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
 | 应用程序未启动 |  更新到应用程序版本 4.4.41.0 后，系统会启动到黑屏，或者几分钟后转到登录屏幕。 | 请按照更新到[Microsoft Teams 会议室 4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update)后应用程序无法启动中的步骤来解决此问题。  | 无 |
-|  SfB 会议内容共享未全屏显示         |    在Skype for Business中，使用高 DPI 设置在会议室前显示会议室可能会遇到共享到会议的内容在会议室显示前不显示全屏的问题。 这是由远程桌面协议 Windows 10 RDP (API 中) 问题造成的。 | 使用 `<WinRTRdpEnabled>` XML 设置禁用 Windows 10 RDP API 来解决此问题。 若要禁用，需要将值指定为 `false` 。 有关详细信息，请参阅使用 [XML 配置文件管理控制台设置](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file)。 | 无 |
+|  内容共享后会议音量低         |   Microsoft Teams 会议室 20H2 Windows 10的设备在通过室内 HDMI 共享内容后减少了媒体和会议音量。 这是由 20H2 中出现Windows 10引起的。 | 此问题目前没有解决方法。 为了减少对会议音频音量（例如 (语音）的影响) ，我们已在所有设备上禁用 HDMI Teams 会议室音频。 客户Windows 10正在调查此问题，客户公告将保持有效，直到找到解决方案。 | 无 |
 |  应用已过期         |    Microsoft Teams 会议室控制台显示“系统配置已过期”错误。                |   [使用 Microsoft Teams 会议室恢复工具](recovery-tool.md)             |  无 |
 |  设备已更新为不支持的版本Windows 10   |    Windows 10设备从版本 1803 更新到版本 1809，但不支持。 支持的版本为 1903。 |   如果 [DeferFeatureUpdatesPeriodinDays](/windows/deployment/update/waas-configure-wufb) 设置的组策略或 MDM 设置（允许您将功能更新延迟指定的天数）设置为最长 365 天，则可能会发生这种情况。 <br><br> Windows 10版本 1809 不受支持，Microsoft Teams 会议室版本 1903。 但是，截至 2020 年 3 月 27 日，版本 1809 已超过 365 天。 如果未更改此设置，Windows尝试安装版本 1809，这可能会导致Microsoft Teams 会议室。<br><br>若要避免这种情况， **请删除** 用于延迟更新的任何组策略或 MDM 设置。 这样Windows更新到最新的受支持 OS 版本。 <br><br>**重要** 必须删除组策略或 MDM **设置**， (未配置) 不设置为 **0。** 如果策略设置为 0，Windows可能不支持的最新可用版本。 |  无 |
 
