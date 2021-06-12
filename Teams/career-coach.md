@@ -16,16 +16,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
-ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
+ms.openlocfilehash: 93223a9d8077241cf8a36c3d216fcc78b5db3dc7
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52729781"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910064"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>购买、配置和启用职业指导Microsoft Teams
 
 职业指导是一Microsoft Teams由 LinkedIn 支持的应用，它为教育学生提供个性化指导，帮助其导航其职业之旅。 职业指导为教育机构提供了统一的职业发展解决方案，学生可以发现其职业路径、发展实际技能，并全部在一个地方建立自己的网络。
+
+## <a name="supported-languages"></a>支持的语言
+职业指导已本地化为以下语言：
+
+  - 简体中文 (，中国大陆) 
+  - 繁 (繁体中文，台湾) 
+  - 英语 (US)
+  - 英语 (UK)
+  - 加拿大 (法语) 
+  - 法语 (法国) 
+  - 德国 (德国) 
+  - 日语 (日本) 
+  - 巴西 (葡萄牙语) 
+  - 西班牙语 (西班牙) 
+  - 西班牙语 (墨西哥) 
 
 详细了解职业 [指导](https://aka.ms/career-coach)。
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解如何为用户云语音邮件帐户。 '
-ms.openlocfilehash: 4ed61a825ce4e583c71f052020692e4478324003
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c6fbd02e30c5be0280b05088a1cec281c2534039
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117060"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901900"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -77,96 +77,6 @@ ms.locfileid: "51117060"
     > - [设置新的消息加密功能](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [配置和管理 Azure 信息保护的模板](/information-protection/deploy-use/configure-policy-templates)
     > - [电子邮件的"不转发"选项](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
-
-## <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
-
-> [!WARNING]
-> 对于Skype for Business，通过语音信箱呼叫Microsoft Teams禁用语音邮件可能也会为你的Skype for Business禁用语音邮件服务。
-
-默认情况下，为所有组织和用户启用语音邮件转录并禁用转录亵渎屏蔽；但是，你可以使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) 和 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlet 对其进行控制。
-
-您的组织中的用户收到的语音邮件转录在托管您的组织或Microsoft 365 Office 365区域。 托管租户的区域可能与接收语音邮件的用户所在的区域不同。 若要查看托管租户的区域，请转到"组织配置文件"页，然后单击"[](https://go.microsoft.com/fwlink/p/?linkid=2067339)数据位置"旁边的"查看 **详细信息"。**
-
-> [!IMPORTANT]
-> 不能使用 **New-CsOnlineVoiceMailPolicy** cmdlet 为听录和听录亵渎内容屏蔽创建新的策略实例，并且不能使用 **Remove-CsOnlineVoiceMailPolicy** cmdlet 删除现有策略实例。
-
-可以使用语音邮件策略为用户管理转录设置。 若要查看所有可用的语音邮件策略实例，可以使用 [Get-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlet。
-
-```PowerShell
-PS C:\> Get-CsOnlineVoicemailPolicy
-
-
-Identity                            : Global
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:Default
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:TranscriptionProfanityMaskingEnabled
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : True
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:TranscriptionDisabled
-EnableTranscription                 : False
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-```
-  
-### <a name="turning-off-transcription-for-your-organization"></a>为组织禁用转录
-
-由于组织的听录默认设置为"开"，因此可能需要使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy)禁用它。 为此，请运行：
-
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscription $false
-```
-
-### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>打开组织的转录亵渎屏蔽
-
-默认情况下，为组织禁用转录亵渎屏蔽。 如果有启用它的业务要求，你可以使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) 启用转录亵渎屏蔽。 为此，请运行：
-
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
-```
-
-### <a name="turning-off-transcription-for-a-user"></a>为用户禁用转录
-
-用户策略的优先级高于组织默认设置。 例如，如果为所有用户启用了语音邮件转录，则可以通过 [使用 Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) cmdlet 为特定用户分配禁用转录的策略。
-
-要为单个用户禁用转录，请运行：
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
-```
-
-### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>为用户开启转录亵渎屏蔽
-
-要为特定用户启用转录亵渎屏蔽，你可以使用 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) cmdlet 分配一个策略，以便为特定用户启用转录亵渎屏蔽。
-
-要为单个用户启用转录亵渎屏蔽，请运行：
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
-```
-
-> [!IMPORTANT]
-> 语音信箱和Microsoft 365 Office 365缓存语音邮件策略，并每隔 4 小时更新一次缓存。 因此，你所作的策略更改最长可能需要 4 小时才能生效。
 
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>帮助用户了解Teams语音信箱功能
 

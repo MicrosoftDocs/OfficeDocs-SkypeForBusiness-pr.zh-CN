@@ -17,18 +17,22 @@ search.appverid: MET150
 description: 了解如何为紧急事件设置紧急Microsoft 365 商务语音。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: e8f740034a67e1f2199b5a18aa34d67e16df43e2
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282529"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52907758"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>步骤 1：设置业务语音紧急位置
 
 当贵组织中有人呼叫紧急服务（如火灾、消防或医疗队）时，会使用紧急位置。 当人员呼叫紧急服务时，配置为组织紧急地址的地址将发送到该服务。 此步骤为组织设置主要紧急位置。 此位置将在稍后的步骤中与公司的主要电话号码相关联。
 
 如果用户位于多个位置（如住宅办公室或其他城市的办公室）中，可以配置其他紧急位置。 甚至可以在位置内配置特定位置。 场所可以是不同的建筑物、楼层、办公室或其他用户可能位于的位置。 完成业务语音的初始设置后，可以添加其他位置和地点。
+
+以下视频演示如何在管理中心内完成Teams步骤。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEZGE]
 
 ## <a name="add-an-emergency-location"></a>添加紧急位置
 
