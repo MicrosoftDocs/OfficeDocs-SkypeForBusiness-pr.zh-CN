@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863243"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873839"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -1303,6 +1303,8 @@ ms.locfileid: "52863243"
 - **smart_reply_enabled** - 确认当前用户已启用智能答复。
 - **smart_reply_received** - 确认已收到智能答复建议。
 - **smart_reply_banned** - 确认当前用户无法显示智能答复。
+- **park_call_for_hold_v2** - 使用呼叫暂停确认呼叫保留成功或失败。
+- **unpark_call_for_hold_v2** - 使用未暂停呼叫确认恢复呼叫成功或失败。 
 - **update_planner_task_and_nav_to_view** - 确认成功更新共享任务项，以及用户在操作后登陆结果视图所用的时间。
 - **update_personal_task_and_nav_to_view** - 确认已成功更新个人任务项，以及用户登陆结果视图所用时间。 
 - **updatePlannerTask** - 确认用户已成功更新共享任务列表中的任务。
