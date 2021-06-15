@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ecf4d9abbd3f5c8747744010015ecda35cbeecf
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: ed6ad995cd0a1624171396b68bec3355fc05f559
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717613"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52909944"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -35,7 +35,7 @@ ms.locfileid: "52717613"
 
 | 组件 | 要求 |
 |---------|---------|
-|计算机和处理器    | 至少 1.6 GHz（或更高版本），2 核<br><br>注意：对于 Intel 处理器，必须使用 Intel 用户增强技术实现的最大速度（最大用户频率）         |
+|计算机和处理器    | 至少 1.1 GHz 或更快版本，2 核<br><br>注意：对于 Intel 处理器，必须使用 Intel 用户增强技术实现的最大速度（最大用户频率）         |
 |内存     |    4.0 GB RAM（除任何其它系统要求外，Teams 还需要 4 GB 的专用 RAM）    |
 |硬盘    | 3.0 GB 可用磁盘空间        |
 |显示器    |   1024 x 768 屏幕分辨率 |

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
-ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
+ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52873839"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901939"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -979,18 +979,11 @@ ms.locfileid: "52873839"
   - 搜索成功或用户放弃搜索。
   - 搜索查询成功。
 - **searchContacts** - 从通话清单中搜索。
-- **searchIcon** - 确定：
-  - 如果可以触发搜索。
-  - 搜索触发器的源。
-  - 如果成功找到相关结果。
 - **searchInitiated** - 确定是否可以触发搜索，以及搜索触发器的源。
 - **searchMeetingParticipants** - 搜索要添加到计划程序表单中的参与者。 区分创建的约会数与创建的会议数。
 - **searchResultsClicked** - 确定：
   - 如果能成功找到相关结果。
   - 如果搜索结果来自“所有”选项卡而不是单个域。
-- **searchTab** - 确定：
-  - 搜索结果的域信息 - 用于人员、聊天、消息和文件。
-  - 如果搜索结果来自“所有”选项卡与单个域。
 - **searchTabClicked** - 确定：
   - 搜索结果的域信息 - 用于人员、聊天、消息和文件。
   - 如果成功找到相关结果。
@@ -1322,7 +1315,7 @@ ms.locfileid: "52873839"
 - **server_fetch_date_picker_view_incremental** 确认使用 Outlook REST API 进行的日历事件增量同步已成功或失败。
 - **meeting_details** 确认会议细节同步成功或失败。
 - **show_meeting_participants** 确认显示会议与会者名单成功或失败。
-
+- **搜索** 确认整个搜索会话已成功或失败。
 
 ## <a name="property-lists"></a>属性列表
 
