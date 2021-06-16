@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理会议网络研讨会Teams策略。
-ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 14452b0caeee33f90b59f6581b6fccf4d5e0311b
+ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718043"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926744"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中设置网络Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "52718043"
 
 ## <a name="what-are-webinars"></a>什么是网络研讨会？
 
-网络研讨会是结构化会议，教师和参与者具有明确的角色，通常用于培训或销售和营销潜在顾客生成方案。
+网络研讨会是结构化会议，演示者和参与者具有明确的角色，通常用于培训或销售和营销潜在顾客生成方案。
 
 在组织中设置网络研讨会后，用户可以安排网络研讨会并向与会者开放注册。 与包含许多讨论和任务分配的传统会议不同，网络研讨会适用于交互式演示文稿，并提供用于与会者分析的工具。
 
@@ -47,29 +47,30 @@ ms.locfileid: "52718043"
 有关 cmdlet 详细信息，请阅读[Set-CsTeamsMeetingPolicy。](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 > [!NOTE]
-> 在运行这些 cmdlet 之前，必须连接到 Skype for Business PowerShell。 有关详细信息，请参阅使用[powerShell Skype for Business管理 Microsoft 365 Office 365 Online。](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> 在运行这些 cmdlet 之前，必须先连接到 Microsoft Teams PowerShell。 有关详细信息，请参阅使用[powerShell Teams管理Microsoft Teams。](/microsoftteams/teams-powershell-managing-teams)
 
 ### <a name="allow-users-to-schedule-webinars"></a>允许用户计划网络研讨会
-
-若要允许组织中用户计划网络研讨会，请运行：
-
-```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
-```
-### <a name="configure-who-can-register-for-webinars"></a>配置谁可以注册网络研讨会
 
 可以将注册限制为仅组织内部用户，或者向租户内外的每个人开放注册。 默认情况下 **，WhoCanRegister** 已启用，并设置为"每个人 **"。** 如果要关闭会议注册，将 **AllowMeetingRegistration 设置为** **False。**
 
 > [!IMPORTANT]
-> 请记住 **，AllowPrivateMeetingScheduling** 必须设置为 **True，AllowMeetingRegistration 正常工作**。  此外，需要在"Microsoft 列表"中设置SharePoint。 有关详细信息，请参阅 Microsoft [列表的控件设置](/sharepoint/control-lists)。
+> **AllowPrivateMeetingScheduling** 必须设置为True，AllowMeetingRegistration **正常工作**。 此外，需要在"Microsoft 列表"中设置SharePoint。 有关详细信息，请参阅 Microsoft [列表的控件设置](/sharepoint/control-lists)。
 
-**若要 *仅* 允许您的组织中的用户注册网络研讨会，请运行：**
+1. 打开会议注册
+
+```powershell
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+```
+
+2. 打开私人会议安排
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
-然后，运行：
+3. 配置谁可以注册网络研讨会
+
+**仅 *允许* 您的组织中的用户注册网络研讨会**
 
 ```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
@@ -78,16 +79,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **若要允许任何人（包括匿名用户）注册网络研讨会，请运行：**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
-```
-
-然后，运行：
-
-```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
-> [!IMPORTANT]
+> [!CAUTION]
 > 如果在会议设置中关闭匿名加入，则匿名用户无法加入网络研讨会。 若要了解并启用此设置，请参阅会议[Teams。](meeting-settings-in-teams.md)
 
 ### <a name="collect-meeting-attendance"></a>收集会议出席情况

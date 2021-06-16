@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b2bae63b2a37b5c5739a988cfe69f23b7609e63b
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 7946d6c098979d478f91d8ef67a3214c11823d7d
+ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697817"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929318"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams
 
@@ -29,7 +29,7 @@ IB (信息) 是管理员可以配置的策略，以防止个人或组相互通�
 
 >[!NOTE]
 >- 无法 (IB) 组的信息屏障。
->- 版本 1 Azure Active Directory (不支持Azure Active Directory (Azure AD) 应用以及用于添加用户的一些 API。
+>- 版本 1 Azure Active Directory (不支持使用机器人Azure Active Directory (Azure AD) 应用、用于发送活动源通知的 API 以及用于添加用户的一些 API。
 >- 专用通道符合配置的 IB 策略。
 >- 新增：有关对连接到 SharePoint 网站的支持屏障Teams，请参阅与网站关联的[Microsoft Teams段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 

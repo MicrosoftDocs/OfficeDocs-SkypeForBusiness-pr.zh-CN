@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解如何Microsoft 电话系统直接路由将受支持的客户提供的会话边界控制器与 SBC (连接到) Microsoft 电话系统。
-ms.openlocfilehash: 531b1f22a6a59a9ef72bf97be92ab15596736b80
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: b7d065cd8e89e07203d50e4e21a4ac5eb2ccd843
+ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656065"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926754"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -147,7 +147,7 @@ SBC 域名必须来自在租户的"域"中注册的名称之一。 不能将 \* 
 |DNS 名称|可用于 SBC FQDN|FQDN 名称示例|
 |:--- |:--- |:--- |
 contoso.com|是|**有效名称：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|不支持|SBC onmicrosoft.com 不支持使用 *.onmicrosoft.com 域
+|contoso.onmicrosoft.com|否|SBC onmicrosoft.com 不支持使用 *.onmicrosoft.com 域
 
 假设要使用新的域名。 例如，租户已 contoso.com 作为在租户中注册的域名，并且想要使用 sbc1.sip.contoso.com。 在将 SBC 与名称 sbc1.sip.contoso.com 之前，必须在租户 sip.contoso.com 域中注册域名。 如果在注册域名之前尝试将 SBC 与 sbc1.sip.contoso.com 配对，则收到以下错误："无法使用"sbc1.sip.contoso.com"域，因为它未为此租户配置。"
 添加域名后，还需要使用 UPN 帐户创建用户 user@sip.contoso.com 分配Teams许可证。 将域名添加到租户的"域"后，可能需要最多 24 小时才能完全预配该域名，将创建具有新名称的用户，并将许可证分配给该用户。 
@@ -229,26 +229,18 @@ Microsoft 正在努力根据客户请求添加其他证书颁发机构。
 - 通过查询第一个 FQDN (，在负载较少且最接近分配的 SBC 数据中心时提供最佳) 。
 - 建立从 SBC 到遇到临时问题的数据中心的连接时，提供故障转移。 有关详细信息，请参阅 [下面的故障转移](#failover-mechanism-for-sip-signaling) 机制。  
 
-FQNS（sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com sip3.pstnhub.microsoft.com）将解析为以下 IP 地址之一：
+FQNS（sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com）将解析为以下子网中的 IP 地址：
 
-- 52.114.148.0
-- 52.114.132.46 
-- 52.114.75.24 
-- 52.114.76.76 
-- 52.114.7.24 
-- 52.114.14.70
-- 52.114.16.74
-- 52.114.20.29
-- 52.114.36.156 
-- 52.114.32.169
+- 52.112.0.0/14
+- 52.120.0.0/14
 
-需要在防火墙中打开所有这些 IP 地址的端口，以允许传入和传出流量传入和传出地址以发出信号。  如果防火墙支持 DNS 名称，FQDN **sip-all.pstnhub.microsoft.com** 解析为所有这些 IP 地址。 
+需要在防火墙中打开所有这些 IP 地址范围的端口，以允许传入和传出流量传入和传出地址以发出信号。  如果防火墙支持 DNS 名称，FQDN **sip-all.pstnhub.microsoft.com** 解析为所有这些 IP 子网。 
 
 > [!IMPORTANT]
-> 作为直接Teams和服务改进的一部分，我们于 2020 年 11 月在澳大利亚部署了 Direct Routing 基础结构的新实例。 这反映在两个额外的 IP 地址 (52.114.16.74 和 52.114.20.29) 澳大利亚客户将解析为以下 FQNS – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com。 需要向 IP 访问控制列表 (ACL) 添加这两个 IP 地址 (52.114.16.74 和 52.114.20.29) ，并打开防火墙中所有这些 IP 地址的端口，以允许传入和传出发信的地址。
+> 作为直接Teams和服务改进的一部分，我们于 2020 年 11 月在澳大利亚部署了 Direct Routing 基础结构的新实例。 这反映在两个额外的 IP 地址 (52.114.16.74 和 52.114.20.29) 澳大利亚客户将解析为以下 FQNS – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com。 需要确保 IP 访问控制列表 (ACL) 中允许这两个 IP 地址 (52.114.16.74 和 52.114.20.29) ，并针对防火墙中的所有这些 IP 地址开放端口，以允许传入和传出发信地址的流量。
 
 > [!IMPORTANT]
-> 作为直接路由Teams和服务改进的一部分，我们于 2021 年 5 月在日本部署了 Direct Routing 基础结构的新实例。 这反映在另外两个 IP 地址 (52.114.36.156 和 52.114.32.169) 日本客户将解析为以下 FQNS – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com。 需要将这两个 IP 地址 (52.114.36.156 和 52.114.32.169) 添加到 IP 访问控制列表 (ACL) ，并打开防火墙中所有这些 IP 地址的端口，以便传入和传出发信的地址。
+> 作为直接路由Teams和服务改进的一部分，我们于 2021 年 5 月在日本部署了 Direct Routing 基础结构的新实例。 这反映在另外两个 IP 地址 (52.114.36.156 和 52.114.32.169) 日本客户将解析为以下 FQNS – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.microsoft.com。 需要确保 IP 访问控制列表 (ACL) 中允许这两个 IP 地址 (52.114.36.156 和 52.114.32.169) ，并且防火墙中所有这些 IP 地址的端口都打开，以允许传入和传出发信的地址的流量。
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365GCCH 和 DoD 环境
 
@@ -256,10 +248,9 @@ FQNS（sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com sip3.pstnhub.micro
 
 **sip.pstnhub.dod.teams.microsoft.us** - 全局 FQDN。 由于Office 365 DoD 环境仅存在于美国数据中心，因此没有辅助和第三级 FQD。
 
-FQDN sip.pstnhub.dod.teams.microsoft.us 将解析为以下 IP 地址之一：
+FQDN sip.pstnhub.dod.teams.microsoft.us 将解析为以下子网中的 IP 地址：
 
-- 52.127.64.33
-- 52.127.68.34
+- 52.127.64.0/21
 
 需要在防火墙中打开所有这些 IP 地址的端口，以允许传入和传出流量传入和传出地址以发出信号。
 
@@ -269,10 +260,9 @@ FQDN sip.pstnhub.dod.teams.microsoft.us 将解析为以下 IP 地址之一：
 
 **sip.pstnhub.gov.teams.microsoft.us** - 全局 FQDN。 由于GCC高环境仅存在于美国数据中心，因此没有辅助和第三级 FQDN。
 
-FQDN sip.pstnhub.gov.teams.microsoft.us 解析为以下 IP 地址之一：
+FQDN sip.pstnhub.gov.teams.microsoft.us 将解析为以下子网中的 IP 地址：
 
-- 52.127.88.59
-- 52.127.92.64
+- 52.127.64.0/21
 
 需要在防火墙中打开所有这些 IP 地址的端口，以允许传入和传出流量传入和传出地址以发出信号。 如果防火墙支持 DNS 名称，FQDN **sip-all.pstnhub.gov.teams.microsoft.us** 解析为所有这些 IP 地址。 此 FQDN 还可以用作入站呼叫分类的联合 FQDN。
 

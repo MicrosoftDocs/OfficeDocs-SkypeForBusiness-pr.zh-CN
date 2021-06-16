@@ -15,12 +15,12 @@ f1.keywords:
 description: 了解如何使用安全性和合规性中心将 Microsoft Teams 用户或团队置于法定保留状态，以及了解根据数据要求哪些内容需要法定保留。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f2f269d75a7bf8bd97165329d2ae6b006b940f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3e52b10f0a7a8dd3ac67f7a2c15b9d1e082186ab
+ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112298"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929288"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>将 Microsoft Teams 用户或团队置于法定保留状态
 ==================================================
@@ -34,6 +34,7 @@ ms.locfileid: "51112298"
 
 > [!NOTE]
 > 将用户置于保留状态并不会自动将组置于保留状态，反之亦然。
+> 活动源中发送的通知不能置于法定保留状态。
 
 将用户或团队置于法定保留状态：
 
