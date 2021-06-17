@@ -1,5 +1,5 @@
 ---
-title: 配置运算符连接
+title: 配置 Operator Connect
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -15,29 +15,29 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 详细了解如何配置运算符连接。
+description: 详细了解如何配置 Operator Connect。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb6ceacb6e7a2cc4d458c86edda96511e5230ace
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: c4f4ec3d1d7cf39402da562e5939d794ac9f1624
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717853"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947574"
 ---
-# <a name="configure-operator-connect"></a>配置运算符连接
+# <a name="configure-operator-connect"></a>配置 Operator Connect
 
 >[!NOTE]
->运算符连接目前仅在公共 **预览版中可用**。 公共预览版允许测试即将推出的功能并提供反馈。 公共预览版中包含的功能可能不完整、可能发生更改，并且不受云Office 365 政府版支持。
+>Operator Connect 目前仅在公共预览 **版中可用**。 公共预览版允许测试即将推出的功能并提供反馈。 公共预览版中包含的功能可能不完整、可能发生更改，在 Office 365 政府云中不受支持。
 
-本文介绍如何配置运算符连接。 在配置操作员连接，请务必阅读操作员计划连接，了解先决条件[](operator-connect-plan.md)和许可的信息。
+本文介绍如何配置 Operator Connect。 配置 Operator Connect 之前，请务必阅读 [Operator Connect](operator-connect-plan.md) 计划，了解先决条件和许可信息。
 
 ## <a name="enable-an-operator"></a>启用操作员
 
-可以在管理中心启用、编辑和删除Teams运算符。 在左侧导航窗格中，转到"语音">**运算符"。**
+可以在 Teams 管理中心启用、编辑和删除操作员。 在左侧导航窗格中，转到"语音">**运算符"。**
 
 启用操作员：
 
@@ -45,7 +45,7 @@ ms.locfileid: "52717853"
 
 2. **选择国家/地区。** 在 **"操作员设置**"下，选择要通过所选操作员启用的国家/地区。
 
-3. **提供联系信息 (可选) 。** 如果希望操作员联系您，并提供有关接线员连接，请选中该框并提供联系信息。  
+3. **提供联系信息 (可选) 。** 如果希望操作员联系你有关 Operator Connect 的其他信息，请选中该框并提供联系信息。  
 
 4. **接受数据传输通知。**
 
@@ -55,40 +55,40 @@ ms.locfileid: "52717853"
 
 设置电话号码的方式取决于你是为新用户设置号码，还是从 Microsoft 呼叫计划或直接路由移动现有号码。
 
-- 如果需要获取新用户的电话号码，请参阅[获取新用户Teams号码](#acquire-numbers-for-new-teams-users)。
+- 如果需要获取新用户的电话号码，请参阅 [获取新 Teams 用户的电话号码](#acquire-numbers-for-new-teams-users)。
 
-- 如果要将现有号码从"呼叫计划"移动到"接线员连接，请参阅将号码从"呼叫套餐"移动到"接线[员连接"。](#move-numbers-from-calling-plans-to-operator-connect)
+- 如果要将现有号码从"呼叫计划"移动到"接线员连接"，请参阅将号码从"呼叫计划"[移动到"接线员连接"。](#move-numbers-from-calling-plans-to-operator-connect)
 
-- 如果要将现有号码从"直接路由"移动到"操作员连接，请参阅将数字从"直接路由"移动到["连接"。](#move-numbers-from-direct-routing-to-operator-connect)
+- 如果要将现有号码从直接路由移动到 Operator Connect，请参阅将号码[从直接路由移动到 Operator Connect。](#move-numbers-from-direct-routing-to-operator-connect)
 
 >[!IMPORTANT]
->**紧急地址：** 与从操作员获取的号码关联的紧急地址直接与操作员管理。 请联系接线员进行任何更改。
+>**紧急地址：** 与紧急地址关联的电话号码由接线员管理。 在 Teams 管理中心创建紧急地址后，接线员将电话号码分配给这些紧急地址。 若要更改紧急地址及其分配的电话号码，请联系接线员。
 
-### <a name="acquire-numbers-for-new-teams-users"></a>获取新用户Teams号码
+### <a name="acquire-numbers-for-new-teams-users"></a>获取新 Teams 用户的数字
 
-若要获取新用户Teams号码，请执行以下步骤：
+若要获取新 Teams 用户的数字，请执行以下步骤：
 
-1. **分配电话系统许可证。** 可以从管理中心电话系统 PowerShell 为用户Microsoft 365许可证。 有关详细信息，请参阅[将Teams许可证分配给用户](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+1. **分配电话系统许可证。** 可以从 Microsoft 365 管理中心或 PowerShell 向用户分配电话系统许可证。 有关详细信息，请参阅 [向用户分配 Teams 附加许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
-2. **确保你已进入 TeamsOnly 模式。** 若要检查，请在Teams中心，转到"组织范围的设置"，> Teams **升级"。** 共存模式应设置为仅Teams模式。
+2. **确保你已进入"仅 Teams"模式。** 若要检查组织是否仅在 Teams 模式下，请在 Teams 管理中心转到"组织范围的设置"，> **Teams 升级"。** 若要检查用户是否仅位于 Teams 模式，请转到" **用户"并选择** 用户帐户。 在" **帐户"** 选项卡的 **"Teams** 升级"下，验证共存模式是否设置为"仅 Teams"。
 
-3. **创建和验证紧急地址。** 在Teams管理中心，转到"位置 **">"紧急地址**"以设置紧急地址。 有关详细信息，请参阅为组织添加、更改或删除 [紧急位置](add-change-remove-emergency-location-organization.md)。
+3. **创建和验证紧急地址。** 在 Teams 管理中心，转到"位置 **">"紧急地址** "以设置紧急地址。 有关详细信息，请参阅为组织添加、更改或删除 [紧急位置](add-change-remove-emergency-location-organization.md)。
 
-4. **获取数字。** 转到接线员的网站以订购和获取电话号码。 有关运算符网站的列表，请参阅 [运算符](#operators)。 需要提供租户 ID。 如果不知道租户 ID，请参阅查找租户Microsoft 365 [ID](/onedrive/find-your-office-365-tenant-id)了解详细信息。
+4. **获取数字。** 转到接线员的网站以订购和获取电话号码。 有关运算符网站的列表，请参阅 [运算符](#operators)。 需要提供租户 ID。 如果不知道租户 ID，请参阅查找 Microsoft [365 租户 ID](/onedrive/find-your-office-365-tenant-id) 了解详细信息。
 
-5. **分配数字。** 操作员完成订单后，会向租户上传号码。 可以通过在"语音"Teams管理中心查看号码和> 电话 **提供商**。 使用管理中心或 PowerShell Teams向用户分配号码。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
+5. **分配数字。** 操作员完成订单后，会向租户上传号码。 可以通过在 Teams 管理中心中通过"语音"或"电话号码"> **提供商**。 使用 Teams 管理中心或 PowerShell 向用户分配号码。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
  
 
-### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>将号码从通话套餐移动到接线员连接
+### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>将号码从呼叫计划移动到 Operator Connect
 
-1. 联系接线员将号码移植到接线员连接。 请参阅 [运算符](#operators) 以查找操作员的网站。
+1. 联系接线员将号码移植到 Operator Connect。 请参阅 [运算符](#operators) 以查找操作员的网站。
 
 2. 运营商完成移植订单后，可以取消分配用户的"呼叫计划"电话号码，并删除"呼叫计划许可证"。 然后，操作员可以将数字上传到租户。
 
-3. 使用 连接管理中心或 PowerShell 为Teams分配操作员编号。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
+3. 使用 Teams 管理中心或 PowerShell 向用户分配接线员连接号码。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
 
  
-### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>将数字从"直接路由"移动到"操作员连接
+### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>将号码从直接路由移动到 Operator Connect
 
 1. 删除用户的现有电话号码，如下所示：  
 
@@ -106,17 +106,17 @@ ms.locfileid: "52717853"
 
 2. 删除与用户关联的任何 PSTNUsage，否则呼叫将路由到 PSTN 使用中指定的网关。 若要了解如何删除 PSTN 使用情况，请参阅[Set-CsOnlinePstnUsage。](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)
 
-3. 转到接线员的网站以订购和获取电话号码。 有关运算符网站的列表，请参阅 [运算符](#operators)。 需要提供租户 ID。 如果不知道租户 ID，请参阅查找租户Microsoft 365 [ID](/onedrive/find-your-office-365-tenant-id)了解详细信息。
+3. 转到接线员的网站以订购和获取电话号码。 有关运算符网站的列表，请参阅 [运算符](#operators)。 需要提供租户 ID。 如果不知道租户 ID，请参阅查找 Microsoft [365 租户 ID](/onedrive/find-your-office-365-tenant-id) 了解详细信息。
 
-4. 操作员完成订单后，会向租户上传号码。 可以通过在"语音"Teams管理中心查看号码和> 电话 **提供商**。 使用 连接管理中心或 PowerShell 为Teams分配操作员编号。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
+4. 操作员完成订单后，会向租户上传号码。 可以通过在 Teams 管理中心中通过"语音"或"电话号码"> **提供商**。 使用 Teams 管理中心或 PowerShell 向用户分配接线员连接号码。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
 
    
 
 ### <a name="assign-numbers"></a>分配数字
 
-无论是添加新用户Teams还是将现有用户移动到接线员连接，分配号码的步骤如下：
+无论是添加新的 Teams 用户还是将现有用户移动到 Operator Connect，分配号码的步骤如下所示：
 
-若要使用管理中心Teams号码，请转到电话 **号码**。 步骤与为呼叫计划分配号码相同。 有关详细信息，请参阅 [向用户分配电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)。
+若要使用 Teams 管理中心分配号码，请转到"**电话号码"。** 步骤与为呼叫计划分配号码相同。 有关详细信息，请参阅 [向用户分配电话号码](assign-change-or-remove-a-phone-number-for-a-user.md)。
 
 若要使用 PowerShell 分配数字，请使用 Set-CsOnlineVoiceUser cmdlet，如下所示：
 

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: f0bd721dd11c81cb294ce3fc5694798867bc3526
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 594470affe3de69d2190fadcdbbae96aaa9bc3c7
+ms.sourcegitcommit: a188b3457a923744ffdc35f8efe3e5440af83256
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910074"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52957681"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams认证的设备
 
@@ -44,7 +44,8 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 |设备模型                         | 固件版本                                                                                                                                                                                                                           | 发布日期
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| 具有或不带话筒 (的 Crestron UC-P10-T)     | 1.0.0.80                                                 | 2021 年 5 月                     |
+| 具有或不带话筒 (的 Crestron UC-P10-T)     | 1.0.0.80                                                 | 2021 年 5 月             |
+| 带和不带话筒 (的 Crestron UC-P8-T)      | 1.0.0.56                                                 | 2021 年 2 月        
 | 带或不带话筒的 (UC-P10-C-T)   | 1.0.0.80                                                 | 2021 年 5 月                     |
 | 带或不带话筒的 (UC-P8-C-T)    | 1.0.0.80                                                 | 2021 年 5 月                     |
 | Yealink MP52                           | 145.15.0.6                                               | 2021 年 4 月                   |
@@ -52,7 +53,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 | AudioCodes C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 | AudioCodes C448HD (CAP 模式仅)       | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
-|Crestron UC-2                           |1.0.1.46                                                  | 2020 年 7 月                    |
+| Crestron UC-2                          |1.0.1.46                                                  | 2020 年 7 月                    |
 | Crestron M100                          | 此产品已停用。 有关详细信息，请访问[Crestron 网站上"Crestron M100"。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) | 已于 2020 (5 月 11 日)  |
 | Crestron Flex UC-P100-T & UC-P110-T    | 此产品已停用。 有关详细信息，请访问[电话](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)的网站上 UC 链接。                  | 已于 2020 (5 月 11 日)  |
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | 2020 年 4 月                   |
@@ -101,6 +102,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 |:------------------------|:-----------------|:--------------|
 |Crestron TSS-770 | 1.003.0082 |2021 年 2 月 |
 |Crestron TSS-1070 | 1.003.0082 |2021 年 2 月 |
+|Yealink RoomPanel | 147.15.0.2 |2021 年 5 月 |
 
 ### <a name="product-release-information-for-teams-phones"></a>适用于手机的产品Teams信息
 

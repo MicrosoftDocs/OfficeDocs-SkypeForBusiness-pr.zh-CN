@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 有关管理员功能的Microsoft Teams发行说明。
-ms.openlocfilehash: 6d634d89c5b810b0df149385e020ab0944def475
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: 94213748d55e91022f19e29a48dab7f4fe6e5199
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705256"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947604"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>管理员功能Microsoft Teams发行说明
 
@@ -31,13 +31,13 @@ ms.locfileid: "52705256"
 
 ### <a name="career-coach"></a>职业指导
 
-职业指导是一Microsoft Teams由 LinkedIn 支持的应用，它为教育学生提供个性化指导，帮助其导航其职业之旅。 职业指导为教育机构提供了统一的职业发展解决方案，学生可以发现其职业路径、发展实际技能，并全部在一个地方建立自己的网络。 [了解详细信息](../career-coach.md)。
+职业指导是一Microsoft Teams 教育版由 LinkedIn 支持的应用，它为教育学生提供个性化指导，帮助其导航其职业之旅。 职业指导为教育机构提供统一的职业发展解决方案，学生可以发现其职业路径、培养实际技能，并全部在一个地方构建其网络。 [了解详细信息](../career-coach.md)。
 
 ## <a name="march-31-2021"></a>2021 年 3 月 31 日
 
 ### <a name="share-to-teams-from-outlook"></a>从Teams共享到Outlook
 
-通过Teams共享Outlook，你可以将电子邮件或对话（包括附件）的副本发送到Teams和频道。 在 **电子邮件的功能Teams** 或操作菜单中Outlook"共享到电子邮件"选项。 共享到Teams支持Outlook、Outlook Windows和新的Outlook for Mac Preview。 [了解详细信息](../teams-outlook-share-teams.md)。
+通过Teams共享Outlook，你可以将电子邮件或对话（包括附件）的副本发送到Teams和频道。 在 **电子邮件的功能Teams** 或操作菜单中Outlook"共享到电子邮件"选项。 共享到Teams支持Outlook 网页版、Outlook Windows和新的Outlook for Mac Preview。 [了解详细信息](../teams-outlook-share-teams.md)。
 
 ## <a name="march-30-2021"></a>2021 年 3 月 30 日
 
@@ -146,7 +146,7 @@ Microsoft Teams管理员必须启用 Google Workspace Teams会议加载项，租
 
 ## <a name="december-9-2020"></a>2020 年 12 月 9 日
 
-### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>使用 Teams 学习Microsoft 365的顾问
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>使用 Teams 路径Microsoft 365 Learning顾问
 
 Microsoft 365 学习途径是一种按需学习解决方案，你可以自定义该解决方案来培训用户，并提高组织中 Teams 的使用率和采用率。 将学习途径与 Teams 顾问配合使用，让你的用户能够快速启动和运行，并推动采用。
 
@@ -170,7 +170,7 @@ Microsoft Teams提供许多对医院和其他医疗保健组织有用的功能�
 
 ### <a name="teams-displays"></a>Teams显示器
 
-Microsoft Teams显示器是一类一体式专用Teams设备，具有环境触摸屏和 Cortana 提供的免费免提体验。 [了解详细信息](../devices/teams-displays.md)。
+Microsoft Teams显示器是一类一体式专用Teams设备，具有环境触摸屏和由屏幕支持的免费Cortana。 [了解详细信息](../devices/teams-displays.md)。
 
 ## <a name="october-22-2020"></a>2020 年 10 月 22 日
 
@@ -258,7 +258,7 @@ Microsoft Teams有一种保存会议录制的新方法。 作为从经典 Micros
 
 ### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>Skype for Business集成到 PowerShell 模块Teams联机连接器
 
-PowerShell Teams最新版本与 Skype for Business Online 连接器集成，为 PowerShell 管理提供Teams模块。 [了解详细信息](../teams-powershell-overview.md#manage-teams-with-powershell)。
+PowerShell Teams最新版本与 Skype for Business Online 连接器集成，为 PowerShell 管理提供Teams模块。  [了解详细信息](../teams-powershell-overview.md)。
 
 ## <a name="september-8-2020"></a>2020 年 9 月 8 日
 
@@ -298,11 +298,11 @@ PowerShell Teams最新版本与 Skype for Business Online 连接器集成，为 
 
 ## <a name="august-14-2020"></a>2020 年 8 月 14 日
 
-### <a name="cortana-voice-skills-in-teams"></a>Cortana 语音技能Teams
+### <a name="cortana-voice-skills-in-teams"></a>Cortana语音技能Teams
 
-移动应用中的 Cortana 语音Teams用户只需使用口语的自然语言，就可以帮助用户执行会议、通信和协作任务。 用户可以通过单击 Teams 应用中的麦克风按钮来与 Cortana 通话，并发出"呼叫 Megan"或"将消息发送到下一次会议"等请求（如果他们需要在处理家庭琐事或走狗或一般在路旁）与某人联系。 用户只需说"加入我的下一次会议"，或者通过询问"我早上拥有什么"来查看他们的日历，就可以加入会议。 进入会议或通话后，他们可以从会议台的溢出菜单中调用 Cortana，并执行典型的会议内任务，例如按姓名或号码添加人员 ("将 Megan 添加到呼叫") ，幻灯片演示文稿 ("演示季度评论幻灯片") 或导航幻灯片 ("转到附录幻灯片") 。 该功能支持的其他操作包括查找和共享文件、搜索 Teams 应用以及导航 ("打开与 John 的聊天，转到我的未读活动，转到我的提及等) 。
+Cortana移动应用中Teams，用户只需使用口语自然语言就执行会议、通信和协作任务。 用户可以通过单击 Teams 应用中的麦克风按钮来与 Cortana 通话，并发出"呼叫 Megan"或"将消息发送到下一次会议"等请求（如果他们需要与某人联系，同时处理家庭琐事或步行狗或通常在路旁）。 用户只需说"加入我的下一次会议"，或者通过询问"我早上拥有什么"来查看他们的日历，就可以加入会议。 进入会议或通话后，他们可以从会议阶段的溢出菜单中调用 Cortana，并执行典型的会议内任务，例如按姓名或数字添加人员 ("将 Megan 添加到呼叫") ，幻灯片演示文稿 ("演示季度评审幻灯片") 或导航幻灯片 ("转到附录幻灯片") 。 该功能支持的其他操作包括查找和共享文件、搜索 Teams 应用以及导航 ("打开与 John 的聊天，转到我的未读活动，转到我的提及等) 。
 
-Teams 中的 Cortana 满足 Cortana 企业服务的企业级隐私、安全性和合规性承诺，如联机服务条款 ([OST) 。 ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [了解详细信息](../cortana-in-teams.md)。
+Cortana Teams 满足 Cortana 企业服务的企业级隐私、安全性和合规性承诺，如联机服务条款[ (OST ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)) 一样。 [了解详细信息](../cortana-in-teams.md)。
 
 ### <a name="teams-devices-administrator"></a>Teams设备管理员
 
