@@ -13,58 +13,44 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件管理Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: e91a200ee79cb8906b6f9fce210d965ea0f42a8f
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768351"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947554"
 ---
-# <a name="microsoft-teams-powershell-overview"></a><span data-ttu-id="fa110-103">Microsoft TeamsPowerShell 概述</span><span class="sxs-lookup"><span data-stu-id="fa110-103">Microsoft Teams PowerShell Overview</span></span>
+# <a name="microsoft-teams-powershell-overview"></a><span data-ttu-id="659ee-103">Microsoft TeamsPowerShell 概述</span><span class="sxs-lookup"><span data-stu-id="659ee-103">Microsoft Teams PowerShell Overview</span></span>
 
-<span data-ttu-id="fa110-104">Microsoft TeamsPowerShell 是一组 cmdlet，用于Teams PowerShell 命令行管理数据。</span><span class="sxs-lookup"><span data-stu-id="fa110-104">Microsoft Teams PowerShell is a set of cmdlets for managing Teams directly from the PowerShell command line.</span></span> <span data-ttu-id="fa110-105">PowerShell 以 .NET Standard 编写Teams适用于 Windows、PowerShell 6.x 和更高版本的所有平台上的 PowerShell 5.1，包括 Azure Cloud Shell。</span><span class="sxs-lookup"><span data-stu-id="fa110-105">Written in .NET Standard, Teams PowerShell works on PowerShell 5.1 on Windows, PowerShell 6.x and higher on all platforms including Azure Cloud Shell.</span></span>
+<span data-ttu-id="659ee-104">Microsoft TeamsPowerShell 模块是一组 cmdlet，用于Teams PowerShell 命令行管理数据。</span><span class="sxs-lookup"><span data-stu-id="659ee-104">Microsoft Teams PowerShell module is a set of cmdlets for managing Teams directly from the PowerShell command line.</span></span> <span data-ttu-id="659ee-105">PowerShell 为自动化提供了强大的功能，这些功能可用于管理Teams工作负荷。</span><span class="sxs-lookup"><span data-stu-id="659ee-105">PowerShell provides powerful features for automation that can be leveraged for managing your Teams workload.</span></span>  
 
-<span data-ttu-id="fa110-106">在开始使用 PowerShell 之前，需要 [安装它](teams-powershell-install.md)。</span><span class="sxs-lookup"><span data-stu-id="fa110-106">Before you can start using PowerShell, you'll need to [install it](teams-powershell-install.md).</span></span> 
+<span data-ttu-id="659ee-106">可以使用以下Microsoft Teams之一使用 PowerShell 模块：</span><span class="sxs-lookup"><span data-stu-id="659ee-106">You can use the Microsoft Teams PowerShell module using one of the following methods:</span></span> 
 
-> [!WARNING]
-> <span data-ttu-id="fa110-107">PowerShell 7 和 PowerShell Teams问题。</span><span class="sxs-lookup"><span data-stu-id="fa110-107">There are known issues with PowerShell 7 and Teams PowerShell.</span></span> <span data-ttu-id="fa110-108">我们建议使用 PowerShell 5.1，直到问题得到解决。</span><span class="sxs-lookup"><span data-stu-id="fa110-108">We recommend using PowerShell 5.1 until the issues are resolved.</span></span>
-
-## <a name="releases"></a><span data-ttu-id="fa110-109">发布</span><span class="sxs-lookup"><span data-stu-id="fa110-109">Releases</span></span>
+- <span data-ttu-id="659ee-107">通过 PowerShell Microsoft Teams安装[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模块， (建议) 。</span><span class="sxs-lookup"><span data-stu-id="659ee-107">Install the Microsoft Teams PowerShell module via [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) (recommended option).</span></span> 
+- <span data-ttu-id="659ee-108">通过手动Microsoft Teams安装 PowerShell[模块](https://www.powershellgallery.com/packages/MicrosoftTeams)。</span><span class="sxs-lookup"><span data-stu-id="659ee-108">Install the Microsoft Teams PowerShell module via [Manual Download](https://www.powershellgallery.com/packages/MicrosoftTeams).</span></span> 
 
 
-<span data-ttu-id="fa110-110">TeamsPowerShell 在[PowerShell 库中提供两](https://www.powershellgallery.com/packages/MicrosoftTeams)种发布类型。</span><span class="sxs-lookup"><span data-stu-id="fa110-110">Teams PowerShell is available on [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) in two release types.</span></span>
+## <a name="features"></a><span data-ttu-id="659ee-109">功能</span><span class="sxs-lookup"><span data-stu-id="659ee-109">Features</span></span> 
 
-- <span data-ttu-id="fa110-111">**常规可用性 (GA) ：** 生产就绪型 cmdlet，每月更新一次。</span><span class="sxs-lookup"><span data-stu-id="fa110-111">**General Availability (GA)**: Production-ready cmdlets, updated monthly.</span></span>
+<span data-ttu-id="659ee-110">Microsoft Teams PowerShell 模块包括以下功能：</span><span class="sxs-lookup"><span data-stu-id="659ee-110">The Microsoft Teams PowerShell module includes the following features:</span></span> 
 
-- <span data-ttu-id="fa110-112">**公共预览** 版：提前访问功能。</span><span class="sxs-lookup"><span data-stu-id="fa110-112">**Public Preview**: Early access to features.</span></span> <span data-ttu-id="fa110-113">更新频率可能高于 GA。</span><span class="sxs-lookup"><span data-stu-id="fa110-113">May be updated more frequently than GA.</span></span>
+- <span data-ttu-id="659ee-111">使用单个模块来管理管理Teams的所有方面，包括用户、团队、策略和配置。</span><span class="sxs-lookup"><span data-stu-id="659ee-111">Uses a single module to manage all aspects of Teams administration, including users, teams, policies, and configuration.</span></span>  
+- <span data-ttu-id="659ee-112">支持身份验证机制，例如访问令牌和凭据。</span><span class="sxs-lookup"><span data-stu-id="659ee-112">Supports authentication mechanisms such as access tokens and credentials.</span></span> 
 
-<span data-ttu-id="fa110-114">有关两个版本中的功能添加和改进的详细信息，请阅读[powerShell](teams-powershell-release-notes.md)Teams说明 。</span><span class="sxs-lookup"><span data-stu-id="fa110-114">For detailed information on feature additions and improvements for both releases, read the [Teams PowerShell release notes](teams-powershell-release-notes.md).</span></span>
+##  <a name="data-collection"></a><span data-ttu-id="659ee-113">数据收集</span><span class="sxs-lookup"><span data-stu-id="659ee-113">Data collection</span></span> 
 
+<span data-ttu-id="659ee-114">Microsoft TeamsPowerShell 模块默认设置收集遥测数据。</span><span class="sxs-lookup"><span data-stu-id="659ee-114">Microsoft Teams PowerShell module default settings collect telemetry data.</span></span> <span data-ttu-id="659ee-115">Microsoft 聚合收集的数据，以识别使用模式和常见问题（例如成功率较低的 cmdlet），帮助我们确定工作优先级，Teams PowerShell 体验。</span><span class="sxs-lookup"><span data-stu-id="659ee-115">Microsoft aggregates collected data to identify patterns of usage and common issues, such as cmdlets with low success, to help us prioritize our work to improve the Teams PowerShell experience.</span></span> <span data-ttu-id="659ee-116">Microsoft TeamsPowerShell 模块不收集任何私人或个人数据。</span><span class="sxs-lookup"><span data-stu-id="659ee-116">Microsoft Teams PowerShell module does not collect any private or personal data.</span></span>  
 
-## <a name="manage-teams-with-powershell"></a><span data-ttu-id="fa110-115">使用 PowerShell Teams管理资源</span><span class="sxs-lookup"><span data-stu-id="fa110-115">Manage Teams with PowerShell</span></span>
+## <a name="related-topics"></a><span data-ttu-id="659ee-117">相关主题</span><span class="sxs-lookup"><span data-stu-id="659ee-117">Related topics</span></span>
 
-<span data-ttu-id="fa110-116">将使用 PowerShell 模块Teams完全管理Teams：</span><span class="sxs-lookup"><span data-stu-id="fa110-116">You'll use Teams PowerShell modules to fully manage Teams:</span></span>
+[<span data-ttu-id="659ee-118">安装 Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="659ee-118">Installing Teams PowerShell</span></span>](teams-powershell-install.md)
 
-- <span data-ttu-id="fa110-117">[Microsoft Teams PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)：Teams PowerShell 模块包含用于管理团队、聊天和频道的 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="fa110-117">[Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/): The Teams PowerShell module contains cmdlets for managing teams, chat, and channels.</span></span>
+[<span data-ttu-id="659ee-119">使用 Teams PowerShell Teams管理资源</span><span class="sxs-lookup"><span data-stu-id="659ee-119">Managing Teams with Teams PowerShell</span></span>](teams-powershell-managing-teams.md)
 
-> [!NOTE]
-> <span data-ttu-id="fa110-118">PowerShell [Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)版本 2.0 或更高版本包括所有 Skype for Business Online Connector cmdlet，为 PowerShell 管理提供Teams模块。</span><span class="sxs-lookup"><span data-stu-id="fa110-118">The [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) version 2.0 or higher includes all  Skype for Business Online Connector cmdlets, providing a single module for Teams PowerShell management.</span></span>
+[<span data-ttu-id="659ee-120">TeamsPowerShell 发行说明</span><span class="sxs-lookup"><span data-stu-id="659ee-120">Teams PowerShell Release Notes</span></span>](teams-powershell-release-notes.md)
 
-- <span data-ttu-id="fa110-119">[Skype for Business PowerShell 连接器](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)：Skype for Business PowerShell 连接器现在是 PowerShell 模块Teams的一部分。</span><span class="sxs-lookup"><span data-stu-id="fa110-119">[Skype for Business PowerShell Connector](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): The Skype for Business PowerShell connector is now a part of Teams PowerShell module.</span></span>
+[<span data-ttu-id="659ee-121">Microsoft Teams cmdlet 参考</span><span class="sxs-lookup"><span data-stu-id="659ee-121">Microsoft Teams cmdlet reference</span></span>](/powershell/teams/?view=teams-ps)
 
-<span data-ttu-id="fa110-120">有关使用这些模块管理Teams的完整指南，请参阅使用 powerShell Teams [Teams管理应用程序](teams-powershell-managing-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="fa110-120">For a complete guide to managing Teams using these modules, please see [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md).</span></span>
+[<span data-ttu-id="659ee-122">Skype for Business cmdlet 参考</span><span class="sxs-lookup"><span data-stu-id="659ee-122">Skype for Business cmdlet reference</span></span>](/powershell/skype/intro?view=skype-ps)
 
-
-## <a name="related-topics"></a><span data-ttu-id="fa110-121">相关主题</span><span class="sxs-lookup"><span data-stu-id="fa110-121">Related topics</span></span>
-
-[<span data-ttu-id="fa110-122">安装 Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="fa110-122">Installing Teams PowerShell</span></span>](teams-powershell-install.md)
-
-[<span data-ttu-id="fa110-123">使用 Teams PowerShell Teams管理资源</span><span class="sxs-lookup"><span data-stu-id="fa110-123">Managing Teams with Teams PowerShell</span></span>](teams-powershell-managing-teams.md)
-
-[<span data-ttu-id="fa110-124">TeamsPowerShell 发行说明</span><span class="sxs-lookup"><span data-stu-id="fa110-124">Teams PowerShell Release Notes</span></span>](teams-powershell-release-notes.md)
-
-[<span data-ttu-id="fa110-125">Microsoft Teams cmdlet 参考</span><span class="sxs-lookup"><span data-stu-id="fa110-125">Microsoft Teams cmdlet reference</span></span>](/powershell/teams/?view=teams-ps)
-
-[<span data-ttu-id="fa110-126">Skype for Business cmdlet 参考</span><span class="sxs-lookup"><span data-stu-id="fa110-126">Skype for Business cmdlet reference</span></span>](/powershell/skype/intro?view=skype-ps)
-
-[<span data-ttu-id="fa110-127">使用 Microsoft Teams 管理员角色管理 Teams</span><span class="sxs-lookup"><span data-stu-id="fa110-127">Use Microsoft Teams admin roles to manage Teams</span></span>](using-admin-roles.md)
+[<span data-ttu-id="659ee-123">使用 Microsoft Teams 管理员角色管理 Teams</span><span class="sxs-lookup"><span data-stu-id="659ee-123">Use Microsoft Teams admin roles to manage Teams</span></span>](using-admin-roles.md)
