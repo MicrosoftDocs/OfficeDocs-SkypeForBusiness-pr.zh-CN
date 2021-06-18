@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '了解如何启用或禁用Skype固定更改或会议号码更改等设置时向用户发送电子邮件Microsoft Teams。 '
-ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 17c2864703eafa2c70709da0381f870abba58ad0
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092700"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004164"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中启用或禁用在音频会议设置更改时发送电子邮件
 
@@ -75,6 +75,14 @@ ms.locfileid: "51092700"
 
 **使用Windows PowerShell**
   
+也可使用 PowerShell Microsoft Teams并运行：
+
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
+```
+
+可以使用 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) 管理组织的其他设置，包括电子邮件。
+
 有关详细信息[，Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)参考。
 
     

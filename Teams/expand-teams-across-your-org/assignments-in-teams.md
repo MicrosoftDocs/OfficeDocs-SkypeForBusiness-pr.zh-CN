@@ -17,22 +17,22 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: 了解如何在 Teams 教育Microsoft Teams管理中心内管理作业。
+description: 了解如何在 Teams 教育版 Microsoft Teams 管理中心内管理Teams 教育版。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410f5d32dd8af4775639a080725cd5680b6a70c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: abf17b12e8555ce12642627093d856f917dce439
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121370"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004144"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的分配
 
-教育Teams中的作业和成绩功能允许教师为其学生分配任务、工作或测验。 教师可以管理作业时间表、说明、添加要上交的资源、使用标准评分等。 他们还可以在"成绩"选项卡中跟踪班级和单个学生的进度。
+"作业和成绩"功能Teams 教育版教师向学生分配任务、工作或测验。 教师可以管理作业时间表、说明、添加要上交的资源、使用标准评分等。 他们还可以在"成绩"选项卡中跟踪班级和单个学生的进度。
 
-[了解有关教育Teams作业和成绩。](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[详细了解作业和作业Teams 教育版。](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
 > 有关不同平台上Teams分配的详细信息，请参阅Teams[平台提供的功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -107,3 +107,10 @@ MakeCode 是一种 Microsoft 产品，受 Microsoft[使用条款和](https://go.
 ![显示复制 API 密钥的屏幕截图](./educationImages/Assignments_mopo_turnitin3.png)
 
 在管理 **中心** 中单击此设置的"保存"按钮后，请等待几个小时让这些设置生效。
+
+### <a name="removing-assignments-and-grades"></a>删除作业和成绩
+可以使用Teams策略删除特定用户或整个租户的作业和成绩。 
+
+若要删除单个用户的作业和成绩，请转到Teams **管理** 中心并导航到"Teams应用">"权限 **策略**"以创建新的应用权限策略定义。  创建新的策略定义时，将 Microsoft **应用** 策略设置为"阻止特定应用"并允许其他所有应用，并添加 **"** 分配"到阻止的应用程序列表。 保存新策略定义后，将其分配给相应的用户。
+
+若要删除整个租户的作业和成绩，请转到 Teams管理中心，导航到 Teams **应用>"管理应用"，** 然后从应用程序列表中搜索并选择"作业"。  将"分配应用程序设置"页中的状态设置更改为 _"已阻止"。_ 

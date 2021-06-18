@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在芬兰获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: df4daad247460a202ebaa8ed8d0ce384dbe2d959
-ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
+ms.openlocfilehash: 2778fb49ab47cc8ec8a5932019753e0ff5c8ca7e
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52589256"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993925"
 ---
 # <a name="phone-number-management-for-finland"></a>电话芬兰的号码管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "52589256"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。<br/> |在芬兰，可以使用管理中心为组织Microsoft Teams电话号码。 您也可以通过下载表单并向我们发送来 [提交新的电话号码请求](mailto:ptneu@microsoft.com)。<br/><br/>[针对芬兰的新电话号码请求 (v.1.0)  (en-fi) 。 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)<br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整填写，然后发送给我们。<br/><br/>新订单可能需要两到三周来填充此市场。   |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。<br/> |在芬兰，可以使用管理中心为组织Microsoft Teams电话号码。 您也可以通过下载表单并向我们发送来 [提交新的电话号码请求](mailto:ptneu@microsoft.com)。<br/><br/>[针对芬兰的新电话号码请求 (v.1.0)  (en-fi) 。 ](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf)<br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整填写，然后发送给我们。<br/><br/>新订单可能需要两到三周来填充此市场。   |
 |获取转接给我们的电话号码。| 下载此表单。 <br/>[芬兰 (LOA) 授权书 ()  (v.1.0)  (1.0) ](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/><br/>转移号码可能需要 2 到 3 周才能在此市场中完成。 <br/><br/> 这些号码目前不能用于会议。   |
 |发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
