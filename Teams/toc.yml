@@ -791,6 +791,8 @@ items:
                 href: rooms/lrs-migration.md
               - name: 内容照相机
                 href: rooms/content-camera.md
+              - name: 智能扬声器的语音识别控件
+                href: rooms/voice-recognition.md
           - name: 管理
             items:
               - name: 管理概述
