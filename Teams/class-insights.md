@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9be2f3e173a450f99b4ca6451684dd22e7ab267e
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+ms.openlocfilehash: 62b0fec32218d2e3a04c92d5a58c82b6a8d7572c
+ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064848"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52997721"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -44,7 +44,7 @@ ms.locfileid: "52064848"
 
 使用见解并不需要任何先决条件，教师只需将见解添加到左侧应用栏，或在 Teams 中将其添加为每个课堂的选项卡。
 
-教师由教职员工许可证标识。 教师必须拥有教职员工许可证，并且是课堂团队所有者，这样才能查看“见解”中的数据。
+教师由教职员工许可证标识。教师必须拥有教职员工许可证，并且是课堂团队所有者，这样才能查看“Insights”中的数据。
 
 ### <a name="education-leaders"></a>教育领导者
 教育领导者是机构中所有需要通过组织视图了解学生参与度、进步和幸福感等信息的角色。当教师拥有课堂团队并且需要比课堂视图更多的信息时，教师也可以是教育领导者，例如学科部门的负责人。 
@@ -80,7 +80,7 @@ ms.locfileid: "52064848"
 
 见解将展示课堂团队的所有频道中的活动数据，但它只能作为选项卡添加到公共频道。 该选项卡显示课堂团队中不是所有者的每个人（包括不是课堂团队所有者的教师）的活动。
 
-在两种视图中，教师都可以访问课堂数据。 使用个人应用，教师需要向下钻取到课堂级别，而选项卡则允许直接访问课堂数据。
+在两种视图中，教师都可以访问课堂数据。使用个人应用，教师需要向下钻取到课堂级别，而选项卡则允许直接访问课堂数据。
 
 在课堂级别，如果教师拥有课堂团队，则无需 IT 管理员执行任何其他操作即可使用见解。
 
@@ -115,12 +115,12 @@ ms.locfileid: "52064848"
 :::image type="content" source="media/insights-learning-cycle.png" alt-text="见解在整个学习周期中为学习社区提供支持":::
 
 ## <a name="how-insights-works"></a>见解如何工作？
-见解可生成强大的分析，以帮助教师提高学习成果。 为此，它会分析 Teams 中的学生活动，并选择性地利用你提供的学生信息系统 (SIS) 数据来帮助将该活动置于上下文中考虑并进行分组。 
+Insights 可生成强大的分析，以帮助教师提高学习成果。为此，它会分析 Teams 中的学生活动，并选择性地利用你提供的学生信息系统 (SIS) 数据来帮助将该活动置于上下文中考虑并进行分组。 
 
 在开始为你的机构部署见解之前，请快速了解见解的工作方式、我们对数据伦理的承诺以及所需的许可。
 
 ### <a name="data-collection"></a>数据收集
-见解将从 Teams 的学生和教师活动中收集数据。 它不收集来宾数据。
+Insights 将从 Teams 的学生和教师活动中收集数据。它不收集来宾数据。
 
 见解 *不* 显示教师的相关数据。 对数据的分析为教学提供了切实可行的见解。
 
@@ -136,7 +136,7 @@ ms.locfileid: "52064848"
 | **[反映](reflect.md)** |   签入（包括值）。|
 
 > [!NOTE]
-> 几分钟后，所收集的大部分数据都会显示在见解中。 在会议结束后的几个小时会出现参加课堂会议（与某个课堂频道相关的会议）的提示，通常最多不超过 24 小时。
+> 几分钟后，所收集的大部分数据都会显示在 Insights 中。在会议结束后的几个小时会出现参加课堂会议（与某个课堂频道相关的会议）的提示，通常最多不超过 24 小时。
 
 ### <a name="privacy-and-security"></a>隐私和安全
 通过见解收集和显示的信息符合[ 90 多个法规和行业标准](/compliance/regulatory/offering-home)，包括 [GDPR](/compliance/regulatory/gdpr) 和关于学生和儿童安全的[《家庭教育权利和隐私法案》(FERPA)](/compliance/regulatory/offering-ferpa)，以及其他类似的面向隐私的法规。
@@ -182,16 +182,16 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 若要了解详细信息，请阅读 [**将学生信息系统 (SIS) 数据与教育版见解同步**](education-insights-sis-data-sync.md)。
 
 ## <a name="manage-permissions"></a>管理权限
-你需要为教育领导者、地区领导、学校校长、班主任、辅导员、学区主管、项目主管、社会工作者和心理学家提供权限。 如果教师拥有课堂团队，则会 *自动* 获得权限。
+作为 IT 管理员，你可以为教育领导者、地区领导、学校校长、班主任、辅导员、学区主管、项目主管、社会工作者和心理学家提供权限。 如果教师拥有课堂团队，则会 *自动* 获得权限。
 
 若要了解更多信息，请阅读 [**管理用户对教育版 Insights 的访问权限**](education-insights-manage-access.md)。
 
 ## <a name="manage-the-setup-policy"></a>管理设置策略
-作为 IT 管理员，你可以使用应用设置策略在教师和领导者启动 Teams 时默认为其安装见解。 使用该设置策略，你可以自定义 Teams 以突出显示见解，并将其固定在应用栏中。
+作为 IT 管理员，你可以使用应用设置策略在教师和领导者启动 Teams 时默认为其安装 Insights。 使用该设置策略，你可以自定义 Teams 以突出显示见解，并将其固定在应用栏中。
 
 如果教师希望直接访问各个课堂，则可在顶部导航菜单上手动安装“见解”选项卡。 此选项卡允许位于 Teams 课堂中的教师直接访问相关数据，以便在课堂上下文中查看该数据。 
 
-在两种视图中，教师都可以访问课堂数据。 使用个人应用，教师需要向下钻取到课堂级别，而选项卡则允许直接访问课堂数据。
+在两种视图中，教师都可以访问课堂数据。使用个人应用，教师需要向下钻取到课堂级别，而选项卡则允许直接访问课堂数据。
 
 > [!TIP]
 > 有关更多详细信息，请阅读[面向教育的 Teams 策略和策略包](./policy-packages-edu.md)。
@@ -210,18 +210,18 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 适用于教育 **者的资料**：
 *   [适用于教育组织的见解支持页面](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)。
 
-## <a name="turn-insights-off-or-on"></a>启用或关闭见解
+## <a name="turn-insights-on-or-off"></a>启用或关闭 Insights
 默认情况下，已启用见解。 当你选择退出时，我们将 *删除为见解收集的所有数据*。 重新启用见解，我们将从重新启用时开始收集数据。
 
-### <a name="turn-off-insights-using-school-data-sync-sds"></a>使用学校数据同步 （SDS） 关闭见解
 学校数据同步 (SDS) 有助于自动执行将学生信息系统 (SIS) 数据导入和同步到 Teams 的过程。
 
-使用见解 *不* 需要使用 SDS。 但是，你随时可以选择从见解中退出。 打开 [SDS 管理中心](https://sds.microsoft.com)，转到“**设置**” > “**管理教育版见解**”。 关闭“**为见解收集数据**”以禁用见解。 
+使用见解 *不* 需要使用 SDS。 但是，你随时可以选择从见解中退出。 
 
-:::image type="content" source="media/insights-sds-settings.png" alt-text="启用或禁用见解的开关。":::
+* 若要一起关闭/打开 Insights，请打开 [SDS 管理中心](https://sds.microsoft.com/)，转到“**设置**” > “**管理教育版 Insights**”。 关闭/开启“**为 Insights 收集数据**”以禁用/启用 Insights。
 
-### <a name="turn-on-insights"></a>打开见解
-如果已关闭见解，你可以快速启用它。 打开 [SDS 管理中心](https://sds.microsoft.com)，转到“**设置**” > “**管理教育版见解**”。 打开“**为见解收集数据**”以启用见解
+* 若要关闭使用学校数据同步的 Insights，请按照[为 Insights 禁用 SDS](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights) 中的说明操作。
+
+* 要重新打开它，请按照[如何为 Insights 部署 SDS](/schooldatasync/how-to-deploy-sds-for-insights) 中的说明进行操作。
 
 ### <a name="how-to-delete-your-data"></a>如何删除数据
 见解存储学生和教师在课堂团队环境中进行的操作。 此数据被视为混合数据集，因此一旦从组织中删除学生或教师用户帐户，就不会自动将其从服务中删除。
@@ -236,11 +236,11 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 
 如果没有账户管理员，请开立一份票证。 转到“[Office 365 管理中心](https://admin.microsoft.com/AdminPortal/)” > “**支持**” > “**新服务请求**”。  在票证标题中，写入：“”需要有关教育版验证的帮助”。
  
-同时，验证是否已启用见解的数据收集。 默认情况下，IT 管理员可能已将其关闭，因此会删除 Insights 保留的所有数据。
+同时，验证是否已启用 Insights 的数据收集。默认情况下，IT 管理员可能已将其关闭，因此会删除 Insights 保留的所有数据。
 
-若要验证此项，请打开 [SDS 管理中心](https://sds.microsoft.com)，转到“**设置**” > “**管理教育版见解**”。 检查“为见解收集数据”的状态。
+若要验证此项，请打开 [SDS 管理中心](https://sds.microsoft.com)，转到“**设置**” > “**管理教育版 Insights**”。 检查“为 Insights 收集活动数据”的状态。
 
-如果将其关闭，请将其再次打开。  见解开始收集数据，但可能需要多达 24 小时才能在报告中查看。 
+如果为关闭状态，请将其再次打开。Insights 开始收集数据，但可能需要多达 24 小时才能在报告中查看。 
 
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>为什么会看到某些学生或班级的数据，而不是全部？
@@ -254,7 +254,7 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 此外，检查学生是否 *没有* [Teams 帐户或帐户来加入课堂](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 在此情况下不会收集学生活动。
 
 > [!TIP]
-> 对于那些想要跟踪学生出席情况的教师，你可以建议在会议期间发送一条消息，要求学生回复。 这将在几分钟内注册他们的出席情况。
+> 对于那些想要跟踪学生出席情况的教师，你可以建议在会议期间发送一条消息，要求学生回复。这将在几分钟内注册他们的出席情况。
 
 > [!NOTE]
 > 如果问题仍未解决，请 [打开支持票证](https://aka.ms/edusupport)。 包括阐明问题以及问题发生日期的相关屏幕截图。 添加你认为可帮助我们解决该问题的其他数据。
