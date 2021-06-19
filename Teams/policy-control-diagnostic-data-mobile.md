@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: 8ede7588f0de085c41eeecd1e8e2e0f496772b11
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901939"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993865"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -595,6 +595,7 @@ ms.locfileid: "52901939"
 - **hide** - 隐藏聊天。
 - **hideChannel** -从团队和频道列表中隐藏频道。
 - **image** - 图像。
+- **inAppNotification**- 当用户在应用中处于活动状态时点击通知时触发。
 - **immediateCallForward** - 已设置即时呼叫转接目标，或启用即时呼叫转接（禁用来电时振铃）。
 - **importanceToggleClicked** - **!** 时触发的情况 已在任务项详细信息中切换字段。
 - **importantMessage_select** - 用户从优先级上下文菜单中选择重要消息。
@@ -791,6 +792,7 @@ ms.locfileid: "52901939"
 - **notBlockedDevice** - 用户在 30 天内未达到后台活动失败的阈值。
 - **notNow** - 在提醒中选中“**暂不**”。
 - **notNowUpdate** - UpdateDefer.
+- **notification/notification_clicked** – 在点击通知时触发。
 - **notificationNavChannelConversation** - 使用频道对话通知启动应用程序。
 - **notificationNavChannelThreadConversation** - 使用频道对话中特定消息的通知启动应用程序。
 - **notificationSettingTurnedOff** - 关闭 Android 版 Teams 应用程序的推送通知。
@@ -1044,14 +1046,17 @@ ms.locfileid: "52901939"
 - **showCard** - 点击卡片按钮。卡片是一种关键平台构造，并衡量其使用情况和模式是了解平台使用情况并随时查看客户端上的潜在问题所必需的。
 - **shownReadReceiptNotice** - 带设置选项的用户显示功能提示。
 - **signIn** - 在欢迎页上选择了 **登录**，或者点击了 **登录** 按钮。
-- **signUp** - 选择了“**创建免费帐户**”或“**免费注册**”。
+- **SignInWithOTP** - 用户选择该选项以来宾身份使用一次性密码 (OTP) 登录。 
+- **signUp** - 已选择“**创建免费帐户**”或“**免费注册**”。
+- **SignUpFromSignIn**- 用户点击 **从登录创建新帐户** 选项。
 - **simultaneousCallForward** - 触发时间：
   - 设置了同时呼叫转发目标。
   - 已启用同步呼叫转移（启用来电时振铃并设置振铃）。
-- **skipVerificationForLink** - 用户选择跳过验证。
+- **skipVerificationForLink** - 用户已选择跳过验证。
 - **smartReply** - 单击智能答复切换按钮。
 - **SMSSendMessage** - 用户发送短信。
 - **sortChanged** - 用户在查看任务列表时更改排序顺序时触发。
+- **SSOAccountListItem**：当用户点击 SSO 帐户登录时触发。
 - **startEditing** - 选中了“**编辑**”按钮。
 - **startPresentPhoto** - 开始演示照片。
 - **startPresentVideo** - 开始展示视频。
@@ -1079,6 +1084,7 @@ ms.locfileid: "52901939"
 - **stuckOnConnectingRetrySelected** - 在抽屉上选择“**重试**”。
 - **stuckOnConnectingShownDismissed** - 用户已关闭抽屉。
 - **suggested_place_selected** - 用户通过选择建议位置来共享静态位置。
+- **切换**- 从应用切换租户或帐户。 这是主动度量帐户/租户切换问题并提供平滑的帐户/租户切换体验所必需的。
 - **switchTeamAction** -用户在打卡时钟内切换团队。 这将在用户选择要切换到哪个团队后触发。
 - **switchTeamsDialogTriggered** - 用户查看“**排班**”选项卡。
 - **tabActionCopyLink** - 用户在移动设备上如何发现和使用选项卡复制链接。
@@ -1211,6 +1217,7 @@ ms.locfileid: "52901939"
 > [!NOTE]
 > 关于视图面板事件属性的详细信息，请参阅[与视图面板事件一起发送的属性](#properties-sent-with-panelview-events)。
 
+- **appInstall**：在安装后用户首次打开应用时触发。
 - **fileDeleteFailed** - 文件删除操作失败时触发。
 - **fileDeleteSuccess** - 文件删除操作成功时触发。
 - **filePreview** - 在以下情况下触发：
@@ -1237,21 +1244,31 @@ ms.locfileid: "52901939"
 - **meetingFiles** - 打开会议文件屏幕时触发。
 - **meetNowActionSheet** - 在用户创建“立即开会”的会议时触发。
 - **navPersonalFiles** - 执行文件屏幕导航时触发。
+- **signInSSOPage**：用户在登录时查看单一登录页时触发。
+-- **signInError**：用户在登录时遇到任何错误时触发。 这是主动识别和修复用户在登录期间遇到的问题所必需的。 
+-- **TfLSignInSuccessful**：当用户成功登录到个人 Microsoft 帐户时触发。 这是了解登录和注册可靠性以及主动识别和修复问题所必需的。
+-- **TfWFreemiumSignInSuccessful**：当用户成功登录到 freemium 帐户时触发。 这是了解登录和注册可靠性以及主动识别和修复问题所必需的。
+-- **TfWSignInSuccessful**：当用户成功登录到工作或学校帐户时触发。 这是了解登录和注册可靠性以及主动识别和修复问题所必需的。
 
 ### <a name="scenario"></a>使用场景
 
 > [!NOTE]
 > 有关场景事件属性的详细信息，请参阅 [与方案事件一起发送的属性](#properties-sent-with-scenario-events)。
-
-- **app_incremental_sync_launch** 确认冷启动时，将成功更新药丸计数。
-- **app_incremental_sync_resume** 确认药丸数量成功地更新为暖/热启动。
-- **app_start_cold** 为了监控冷启动的应用程序 (仅Android)。
-- **app_start_hot** 为了监测热启动的应用程序 (仅 Android)。
-- **app_start_warm** 为了监视暖启动的应用程序 (仅 Android)。
-- **chat_add_giphy** - 确认 Giphy GIF 渲染操作成功或失败。
-- **cortanaError** 监视 Cortana 错误发生。
-- **cortanaView** - 监控 Cortana 画布出现。
-- **cortanaRestart** 监控 Cortana 重启。
+> 
+- **acquire_resource_token_interactive**- 通过交互式登录获取身份验证令牌时触发的必需服务调用。 
+- **acquire_resource_token_silent**- 通过无提示登录获取身份验证令牌时触发的必需服务调用。
+- **app_crash2** - 在应用意外崩溃时触发。 提供有关 Teams 应用崩溃频率的信息。 
+- **app_incremental_sync_launch** - 确认药丸计数已为冷启动成功更新。
+- **app_incremental_sync_resume** - 确认药丸计数已为暖/热启动成功更新。
+- **app_start_cold** - 监视应用冷启动（仅限 Android）。
+- **app_start_hot** - 监视应用热启动（仅限 Android）。
+- **app_start_warm** - 监视应用暖启动（仅限 Android）。
+- **auth_adal_tokens**- 执行无提示身份验证所需的服务调用。 当用户启动应用或令牌在到期时刷新时触发。
+- **chat_add_giphy** - 确认 Giphy GIF 渲染操作已成功或失败。
+- **chat_send_message_sfc**- 在 SfC 互操作聊天中发送聊天消息时触发。
+- **cortanaError** - 监视 Cortana 错误发生。
+- **cortanaView** - 监视 Cortana 画布出现。
+- **cortanaRestart** - 监视 Cortana 重启。
 - **cortanaSetNewConversation** 监控 Cortana 设置新对话。
 - **cortanaSpeechRecognization** 监控 Cortana 语音识别延迟。
 - **cortanaStart** 监控 Cortana 后端启动。
@@ -1268,6 +1285,7 @@ ms.locfileid: "52901939"
 - **cortana_skill_action_delay** - 确认延迟操作开始。
 - **cortana_watchdog** - 监控 Cortana 监视器恢复过程。
 - **create_default_plan_and_nav_to_view** - 确认已成功创建默认共享任务列表，以及用户在操作后登录到结果视图所用的时间。
+- **create_new_chat_thread_sfc**- 为 SfC 互操作聊天创建新的聊天线程时触发。
 - **create_personal_plan_and_nav_to_view** - 确认成功创建个人任务列表，以及用户在操作后登录到结果视图所用的时间。
 - **create_personal_task** - 确认成功创建个人任务项。
 - **create_planner_plan_and_nav_to_view** - 确认成功创建共享任务列表，以及用户在操作后登录结果视图所用的时间。
@@ -1277,7 +1295,12 @@ ms.locfileid: "52901939"
 - **delete_personal_task** - 确认成功删除个人任务项。
 - **delete_planner_plan** - 确认成功删除共享任务列表。
 - **delete_planner_task** - 确认成功删除共享任务项。
+- **json_parse_failure**- 提供有关 JSON 分析问题的频率的信息。
+- **getProfilePicture**- 获取用户配置图片必需的服务调用。 
+- **get_resource_token_async**：异步获取 Azure Active Directory 资源令牌所需的服务调用。
+- **get_resource_token_sync**：同步获取 Azure Active Directory 资源令牌所需的服务调用。
 - **get_sender_sub_scenario** - 在活动中获取发送方子方案。
+- **interactiveAuthNopa2** – 在无密码用户中断以进行交互式身份验证时触发。
 - **load_chat_plans_list** - 确认成功获取聊天计划视图的计划。
 - **load_home_page** - 确认成功获取主要主页视图的个人和共享任务列表。
 - **load_personal_task_list** - 确认成功获取任务列表视图的个人任务列表的任务。
@@ -1292,7 +1315,8 @@ ms.locfileid: "52901939"
 - **rename_personal_plan** - 确认成功重命名个人任务列表。
 - **rename_planner_plan** - 确认成功重命名共享任务列表。
 - **save_image** 确认图像保存操作成功或失败。
-- **share_image** 确认图像共享操作成功或失败。
+- **saveMeProfile**- 用户保存配置文件时触发的所需服务调用
+- **share_image** 确认图像共享操作已成功或失败。
 - **smart_reply_enabled** - 确认当前用户已启用智能答复。
 - **smart_reply_received** - 确认已收到智能答复建议。
 - **smart_reply_banned** - 确认当前用户无法显示智能答复。
@@ -1313,9 +1337,10 @@ ms.locfileid: "52901939"
 - **server_fetch_date_picker_view** 确认使用 Outlook REST API 进行的日历事件同步已成功或失败。
 - **server_fetch_agenda_view_group** 确认使用中间层 API 为 TFL 组进行的日历事件同步已成功或失败。
 - **server_fetch_date_picker_view_incremental** 确认使用 Outlook REST API 进行的日历事件增量同步已成功或失败。
-- **meeting_details** 确认会议细节同步成功或失败。
-- **show_meeting_participants** 确认显示会议与会者名单成功或失败。
-- **搜索** 确认整个搜索会话已成功或失败。
+- **meeting_details** - 确认会议详细信息同步已成功或失败。
+- **show_meeting_participants** - 确认显示会议参与者名单已成功或失败。
+- **搜索** - 确认整个搜索会话已成功或失败。
+- **time_based_retention_shared_channel** - 捕获用于修剪数据库的性能数据。
 
 ## <a name="property-lists"></a>属性列表
 
