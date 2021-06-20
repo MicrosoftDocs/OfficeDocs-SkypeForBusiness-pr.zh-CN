@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 8dd0120f0a92591b3417d01c7a86c396161215a1
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 53eeff9791ac07939756f56a7ebce635ac7cd819
+ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004154"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53023233"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -95,7 +95,7 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 >新 SharePoint 管理中心的活动网站页面中不包括专用频道 SharePoint 网站。
 >在 2021 年 6 月 28 日之后创建的专用频道 SharePoint 网站将具有自定义模板 ID TEAMCHANNEL#1。
 
-专用频道网站同步数据分类，并继承父团队网站的来宾访问权限。 网站集所有者和成员组的成员资格将与 Teams 中私人频道的成员资格保持同步。 在 SharePoint Online 中对所有者或成员组的成员资格所做的任何更改都将在四个小时内自动还原为私人频道成员资格。 在某些用户需要访问文档而无需访问私人频道消息的情况下，请将它们添加到网站上的“访问者”组或与所有者和成员组分开的新组中。
+专用频道网站同步数据分类，并继承父团队网站的来宾访问权限。 网站集所有者和成员组的成员资格将与 Teams 中私人频道的成员资格保持同步。 在 SharePoint Online 中对所有者或成员组的成员资格所做的任何更改都将在四个小时内自动还原为私人频道成员资格。 在某些用户需要访问文档而无需访问私人频道消息的情况下，请将它们添加到文档和库上的访问者组或与所有者和成员分开的新组中。
 
 团队管理专用频道网站的生命周期。 如果在 Teams 外部删除了网站集，则只要私人频道仍处于活动状态，后台作业将在四个小时内还原该网站。 如果永久删除该网站，为专用频道预配了新网站。
 
