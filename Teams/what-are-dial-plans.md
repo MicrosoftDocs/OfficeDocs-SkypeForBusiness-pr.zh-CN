@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '了解 PSTN 呼叫 (套餐) 哪些类型的Teams以及如何为组织选择一个。  '
-ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 010065c32135d893b15bcc692e84a1b59269650d
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100978"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046219"
 ---
 # <a name="what-are-dial-plans"></a>什么是拨号计划？
 
@@ -60,7 +60,7 @@ ms.locfileid: "51100978"
 请参阅 [创建和管理拨号计划](create-and-manage-dial-plans.md) 以创建租户拨号计划。
 
 > [!NOTE]
-> 在未将拨号计划规范化规则应用于拨号号码的情况下，拨号字符串仍规范化为在"+抄送"前，其中 CC 是拨号用户的使用位置的国家/地区代码。 这适用于呼叫计划、直接路由和 PSTN 会议拨出方案。
+> 在未将拨号计划规范化规则应用于拨号号码的情况下，拨号字符串仍规范化为在"+抄送"前，其中 CC 是拨号用户的使用位置的国家/地区代码。 这适用于呼叫计划、直接路由和 PSTN 会议拨出方案。 此外，如果租户拨号计划规范化规则导致号码不是以"+"开始，则呼叫服务将尝试根据租户拨号计划规范化从 Teams 客户端收到的号码，如果不匹配，则针对区域拨号计划。 为了避免双重规范化，建议直接路由客户规范化数字以包含 +，然后使用中继翻译规则删除 +。 
 
 ## <a name="planning-for-tenant-dial-plans"></a>规划租户拨号计划
 

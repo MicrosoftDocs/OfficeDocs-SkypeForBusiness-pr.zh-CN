@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 了解如何使用 PSTN Microsoft Teams中心或Windows PowerShell PSTN 呼叫拨号 (创建和管理) 。
-ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 59867dfe49436635f690ff9f5d56a2be36e553ec
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282359"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046229"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -49,7 +49,7 @@ ms.locfileid: "52282359"
 5. 按需要的顺序排列规范化规则。 单击 **"上****移"或**"下移"以更改规则在列表中的位置。
 
     > [!NOTE]
-    > Teams从上到下遍历规范化规则列表，并使用与拨号号码匹配的第一个规则。 如果设置了拨号计划，以便拨号号码可以匹配多个规范化规则，请确保限制性较强的规则在限制性较少的规则上方排序。
+    > Teams从上到下遍历规范化规则列表，并使用与拨号号码匹配的第一个规则。 如果设置了拨号计划，以便拨号号码可以匹配多个规范化规则，请确保限制性较强的规则在限制性较少的规则上方排序。 如果设置一个将拨号号码规范化而不使用"+"的拨号计划，则呼叫服务将尝试使用租户和区域拨号计划规则再次规范化该号码。 为了避免双规范化，建议所有规范化规则都将导致数字以"+"开始。 如果需要，直接 [路由](direct-routing-translate-numbers.md) 客户可以使用中继转换规则删除"+"。 
 
 6. 单击“**保存**”。
 7. 如果要测试拨号计划，请在"测试拨号计划"下输入电话号码，然后单击"测试 **"。**
