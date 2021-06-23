@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何使用直接路由电话系统绕过媒体，从而缩短媒体流量的路径并提高性能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4978c7ce2a69f23164a3869dd69368b3aaad2c4e
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 8d60513dbcf1128d303102f494600a67335b366d
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469624"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075395"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -197,19 +197,11 @@ Teams在以下情况中，媒体处理器始终插入到媒体路径中：
 - 从 SBC 建立到遇到临时问题的数据中心的连接时，提供故障转移。 有关详细信息，请参阅下面的故障转移机制。
 
 
-FQDN **sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com** 和 **sip3.pstnhub.microsoft.com** 将解析为以下 IP 地址之一：
-- 52.114.148.0
-- 52.114.132.46 
-- 52.114.75.24 
-- 52.114.76.76 
-- 52.114.7.24 
-- 52.114.14.70
-- 52.114.16.74
-- 52.114.20.29
-- 52.114.36.156 
-- 52.114.32.169
+FQDN **sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com** 和 **sip3.pstnhub.microsoft.com** 将解析为以下子网中的 IP 地址：
+- 52.112.0.0/14
+- 52.120.0.0/14
 
-需要在防火墙中打开所有这些 IP 地址的端口，以允许传入和传出流量传入和传出地址以发出信号。 如果防火墙支持 DNS 名称，FQDN **sip-all.pstnhub.microsoft.com** 解析为所有这些 IP 地址。 
+需要在防火墙中打开所有这些 IP 范围的端口，以允许传入和传出流量传入和传出地址以发出信号。 如果防火墙支持 DNS 名称，FQDN **sip-all.pstnhub.microsoft.com** 解析为所有这些 IP 子网。 
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
 
@@ -217,12 +209,11 @@ FQDN **sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com** 和 **sip3.pstnh
 
 **sip.pstnhub.dod.teams.microsoft.us** - 全局 FQDN。 由于Office 365 DoD 环境仅存在于美国数据中心，因此没有辅助和第三级 FQD。
 
-FQNS – sip.pstnhub.dod.teams.microsoft.us 解析为以下 IP 地址之一：
+FQDN sip.pstnhub.dod.teams.microsoft.us 将解析为以下子网中的 IP 地址：
 
-- 52.127.64.33
-- 52.127.68.34
+- 52.127.64.0/21
 
-需要在防火墙中打开所有这些 IP 地址的端口，以允许传入和传出流量传入和传出地址以发出信号。  如果防火墙支持 DNS 名称，FQDN sip.pstnhub.dod.teams.microsoft.us 解析为所有这些 IP 地址。 
+需要在防火墙中打开所有这些 IP 范围的端口，以允许传入和传出流量传入和传出地址以发出信号。  如果防火墙支持 DNS 名称，FQDN sip.pstnhub.dod.teams.microsoft.us 解析为所有这些 IP 子网。 
 
 ### <a name="office-365-gcc-high-environment"></a>Office 365 GCC高环境
 
@@ -230,12 +221,11 @@ FQNS – sip.pstnhub.dod.teams.microsoft.us 解析为以下 IP 地址之一：
 
 **sip.pstnhub.gov.teams.microsoft.us** - 全局 FQDN。 由于GCC高环境仅存在于美国数据中心，因此没有辅助和第三级 FQDN。
 
-FQNS – sip.pstnhub.gov.teams.microsoft.us 解析为以下 IP 地址之一：
+FQDN sip.pstnhub.gov.teams.microsoft.us 将解析为以下子网中的 IP 地址：
 
-- 52.127.88.59
-- 52.127.92.64
+- 52.127.64.0/21
 
-需要在防火墙中打开所有这些 IP 地址的端口，以允许传入和传出流量传入和传出地址以发出信号。  如果防火墙支持 DNS 名称，FQDN sip.pstnhub.gov.teams.microsoft.us 解析为所有这些 IP 地址。 
+需要在防火墙中打开所有这些 IP 范围的端口，以允许传入和传出流量传入和传出地址以发出信号。  如果防火墙支持 DNS 名称，FQDN sip.pstnhub.gov.teams.microsoft.us 解析为所有这些 IP 子网。 
 
 ## <a name="sip-signaling-ports"></a>SIP 信号：端口
 

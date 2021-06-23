@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何为用户启用Microsoft 电话直接路由。
-ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122216"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075365"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>为用户启用直接路由、语音和语音邮件
 
@@ -47,7 +47,7 @@ ms.locfileid: "51122216"
 有两个选项用于创建新用户或Microsoft 365 Office 365。 但是，Microsoft 建议组织选择一个选项以避免路由问题： 
 
 - 在本地 Active Directory 创建用户，将该用户同步到云。 请参阅[将本地目录与 Azure Active Directory。](/azure/active-directory/connect/active-directory-aadconnect)
-- 直接在管理中心Microsoft 365用户。 请参阅[将用户单独或批量添加到Microsoft 365或Office 365 - 管理员帮助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
+- 直接在用户Microsoft 365 管理中心。 请参阅[将用户单独或批量添加到Microsoft 365或Office 365 - 管理员帮助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
 
 如果您的 Skype for Business Online 部署与本地 Skype for Business 2015 或 Lync 2010 或 2013 共存，则唯一支持的选项是在本地 Active Directory 中创建用户，将用户同步到云 (选项 1) 。 
 
@@ -102,8 +102,8 @@ ms.locfileid: "51122216"
     如果用户"Spencer Low"和"Stacy Quinn"共享同一个具有唯一扩展名的基号，请输入以下代码
     
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
     建议但不要求将使用的电话号码配置为包含国家/地区代码的完整 E.164 电话号码。 支持使用分机配置电话号码，当针对基本号码的查找返回多个结果时，将用来查找用户。 这允许公司配置相同基本号码和唯一分机的电话号码。 若要成功查找，邀请必须包含扩展名的完整号码，如下所示：

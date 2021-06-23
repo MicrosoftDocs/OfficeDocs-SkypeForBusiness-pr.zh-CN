@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解音频会议、电话系统、呼叫计划、通信信用额度以及收费和免费电话号码在一个或多个国家/地区是否可用。
-ms.openlocfilehash: 3890fa79173dd6327830cc995bf41d79a0b2dde0
-ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
+ms.openlocfilehash: 099548bc9b88293dcb1fcc0acddd49ac295ab56e
+ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52873819"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53069375"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -157,7 +157,7 @@ ms.locfileid: "52873819"
 > - [委内瑞拉](availability-in-venezuela.md)
 > - [Vietnam（越南）](availability-in-vietnam.md)
 
-如果要查找包含所有国家和地区的电子表格，请下载并保存云 **[语音功能国家/地区可用性电子表格](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-05252021)-(en-us).xlsx)**。
+如果要查找包含所有国家和地区的电子表格，请下载并保存云 **[语音功能国家/地区可用性电子表格](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-06162021)-(en-us).xlsx)**。
 
 ***
 

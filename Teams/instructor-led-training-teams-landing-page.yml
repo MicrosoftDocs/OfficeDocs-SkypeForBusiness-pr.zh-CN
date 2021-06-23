@@ -57,7 +57,7 @@ productDirectory:
     - title: 升级规划研讨会
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: 计划和实施成功升级到 Teams。 （访问群体：IT 专业人员、采用更改管理者）
-      url: ./upgrade-workshops-landing-page.yml
+      url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
     - title: 课程

@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 了解如何重置用户的音频会议 PIN Microsoft Teams了解有关 PIN 的重要事实。
-ms.openlocfilehash: 7ea380fbeb722337eaec598823b12dbe18f49918
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117630"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075375"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft Teams 中重置音频会议 PIN
 
 PIN 是由为启用了音频会议的每个Microsoft Teams创建的数字的代码。 音频会议 PIN 由会议组织者用来标识他们是会议组织者并允许他们通过电话启动会议。 如果他们使用Microsoft Teams启动会议，则不需要 PIN。 如果用户忘记了 PIN，在启用音频会议时发送给他们的电子邮件中找不到 PIN，则管理员可以重置其 PIN，也可以重置自己的 PIN。
   
-当经过身份验证的用户使用 Microsoft Teams 应用加入时，或者当组织者通过电话使用 PIN 加入时，可以启动会议。 如果会议要求提供 PIN 才能启动，则通过电话加入会议的所有用户都将进入会议厅并将收听保持音乐，直至会议启动。 如果会议组织者不需要 PIN 来通过电话启动会议，则当呼叫者加入会议时，系统不会要求他们提供 PIN。
+当经过身份验证的用户使用 Microsoft Teams 应用加入时，或者当组织者通过电话使用 PIN 加入时，可以启动会议。 当会议需要 PIN 才能启动时，通过电话加入的用户将被置于会议厅中，并收听保持音乐，直到组织者准许他们加入。 如果会议组织者不需要 PIN 来通过电话启动会议，则当呼叫者加入会议时，系统不会要求他们提供 PIN。
 
 ## <a name="reset-a-users-pin"></a>重置用户的 PIN
 

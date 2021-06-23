@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39150cc5ff6a64c17bad660b4df4b74610399cd1
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: a6eba4f1da849a2cf8e355454fd1ba794a3496db
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717733"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075385"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -396,9 +396,10 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 背景模糊和效果
 - 广播和实时事件制作者和演示者角色
 - Location-Based LBR (路由) 
-- 呼叫寄存
+- PSTN 呼叫回铃音
 - 共享系统音频/计算机声音
 - 直接路由的媒体旁路
+- 呼叫寄存
 - 缩放控件 
 
 > [!NOTE]
