@@ -445,6 +445,8 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Teams 实时事件使用情况报表
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
+              - name: Teams 信息保护许可证报告
+                href: teams-analytics-and-reports/information-protection-license-report.md
       - name: 日志文件、服务运行状况和支持
         items:
           - name: 使用日志文件监视 Teams 和排除 Teams 故障
