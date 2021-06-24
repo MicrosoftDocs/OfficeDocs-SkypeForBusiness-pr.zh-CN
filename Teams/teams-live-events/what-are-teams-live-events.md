@@ -21,42 +21,42 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 8f196e1539085966c22a775a784913ced417c9cb
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 0d1d453e0d9d6575ec108b4bc17cdce1f4dac839
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506719"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096326"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么
 
 ## <a name="overview"></a>概述
 
-借助Teams直播活动，您的组织中的用户可以向大量在线观众广播视频和会议内容。
+借助 Teams 实时事件，组织中的用户可以向大量在线受众广播视频和会议内容。
 
 Microsoft 365 实时事件将实时视频流式处理带到了新高度。 实时事件鼓励在整个预订周期内，与参会者在实时事件前、中、后建立连接。 无论受众、团队或社区驻留在何处，都可以使用 Microsoft Stream、Teams 或 Yammer 创建实时事件。  
 
-Teams 可以实现基于聊天的协作、呼叫、会议和实时事件，这样你可以展开会议的受众。 Teams 实时事件是 Teams 会议的拓展，它使得用户能够向大体量网络受众广播视频和会议内容。 实时事件是一种一对多的通信，事件主持人领导交互，受众参与主要参与方式是查看主持人共享的内容。 与会者可以在 Yammer、Teams 或 Stream 中观看实时或录制的事件，并且可以使用主持的问答&或 Yammer 对话与演示者交互。
+Teams 可以实现基于聊天的协作、呼叫、会议和实时事件，这样你可以展开会议的受众。 Teams 实时事件是 Teams 会议的拓展，它使得用户能够向大体量网络受众广播视频和会议内容。 实时事件是一种一对多的通信，事件主持人领导交互，受众参与主要参与方式是查看主持人共享的内容。 与会者可以在 Yammer、Teams 或 Stream 中观看实时事件或录制事件，并能使用受到监管的问答或 Yammer 对话与演示者进行互动。
 
-Teams 实时事件是 Skype 会议直播的下一版本，会最终代替 Skype 会议直播中的功能。 目前，Microsoft 将继续支持 Skype 会议直播，以及正在在组织中使用 Skype for Business 的用户，不会中断新的或未来事件的服务。 但是，我们鼓励你尝试Teams活动，以使用所有令人兴奋的新功能，包括屏幕共享和外部硬件/软件编码器支持。
+Teams 实时事件是 Skype 会议直播的下一版本，会最终代替 Skype 会议直播中的功能。 目前，Microsoft 将继续支持 Skype 会议直播，以及正在在组织中使用 Skype for Business 的用户，不会中断新的或未来事件的服务。 但是，我们鼓励你尝试 Teams 实时事件，来利用所有包括屏幕共享和外部硬件/软件编码器在内的新颖且令人激动的功能。
 
-所以，让我们开始吧。 首先，看看下面的关系图，它显示了 Microsoft 365 实时事件中的高级组件及它们之间联系的方式。
+让我们开始吧。首先，看看下面的关系图，它显示了 Microsoft 365 实时事件中的高级组件及它们之间联系的方式。
 
 ![实时事件的主要组件](../media/live-event-flow-diagram.png  "实时事件的主要组件，日程安排、生成、数据流平台和认证第三方 eCDN 提供商")
 
 > [!Note]
-> 我们希望强调，考虑到广播Teams的性质，实时事件通常超出会议 () 的正常情况。
+> 我们想要强调的是，鉴于广播技术的性质，Teams 直播活动通常会超过普通（内部）的会议人数。
 >
-> 与其他较大的媒体广播服务一样，我们依赖于内容交付网络将实时事件的内容传送给收件人。 此内容受加密方法的保护，受访问令牌授权，这些令牌仅基于实时事件会议配置颁发给收件人。
+> 与其他规模较大的媒体广播服务一样，我们依靠内容分发网络将实时事件的内容传递给收件人。 此内容受加密方法保护，并受访问令牌授权，这些令牌仅根据实时事件会议配置颁发给收件人。
 >
-> 应格外小心，确保会议内容适合如此多的受众，或者适当减少受众以适合敏感内容。  
+> 应格外小心地确保会议内容适合如此众多的受众，或者适当减少敏感内容的受众。  
 >
-> 与行业一样，对人员或基础结构等安全要素的泄漏可能会影响实时事件的安全性。 组织应考虑在安全规划和练习中包括实时事件和其他广播服务。
+> 正如业内常见的情况一样，对安全的其他要素（例如人员或基础结构）的入侵可能会影响实时事件的安全性。 组织应考虑在其安全规划和练习中包括直播活动和其他广播服务。
 
 ### <a name="event-group-roles"></a>活动组角色
 
-实时事件Teams组织者、 (、演示者和与会者) 角色成功广播和参与活动。 了解更多信息，请参阅[事件组角色](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)。
+Teams 中的实时事件让多种角色（组织者、制作者、演示者和与会者）能成功地广播和参与到事件中。 了解更多信息，请参阅[事件组角色](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)。
 
 ## <a name="key-components"></a>主要组件
 
