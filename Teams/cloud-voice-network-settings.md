@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 10547a99b0e63585ae39cc90a5b0cf573a9c94e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e97ddf7f6b7410e83a5e2257d7df6ae2ad27cb7f
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834332"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096279"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>云语音功能的网络设置Microsoft Teams
 
@@ -61,3 +61,6 @@ ms.locfileid: "49834332"
 如果用户的外部 IP 地址与受信任的 IP 地址列表中的 IP 地址匹配，云语音功能会检查以确定用户终结点所在的内部子网。 可以针对 IPv4 或 IPv6 IP 地址进行匹配，并且取决于发送到网络设置的 IP 数据包的格式。  (如果公共 IP 地址同时具有 IPv4 和 IPv6，则必须将两者添加为受信任的 IP 地址.) 
 
 如果用户的外部 IP 地址与受信任的 IP 地址列表中的 IP 地址不匹配，则终结点被分类为位于未知位置。
+
+> [!Important]
+> 修改源 IP 地址的云代理服务部署不支持网络配置设置查找Teams客户端。

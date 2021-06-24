@@ -18,12 +18,12 @@ description: 本文介绍在 Microsoft Teams 管理中心Teams报表。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d195c90dc7e959146546dde1a75fedf0764c24a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 57135e50b604c8e92a7ff78963af9520ccc87b8a
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478342"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096316"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -36,7 +36,7 @@ ms.locfileid: "51478342"
 转到Microsoft Teams中心，在左侧导航栏中，选择"分析&报表"，然后在"报表"下选择要运行的报表。 
 
 > [!NOTE]
-> Microsoft Teams管理中心中的报表独立于Teams管理中心中Microsoft 365活动Microsoft 365报表。 有关管理中心中的活动报告Microsoft 365，请参阅 Teams 管理中心[Microsoft 365活动报告](../teams-activity-reports.md)
+> Microsoft Teams管理中心中的报表独立于 Teams 活动报告，这些报表是 Microsoft 365 报表的Microsoft 365 管理中心。 有关活动报告中的活动报告Microsoft 365 管理中心，请参阅Teams[中的活动Microsoft 365 管理中心](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams报告参考
 
@@ -54,6 +54,8 @@ ms.locfileid: "51478342"
 |[TeamsPSTN 分钟池报告](pstn-minute-pools-report.md) |  国家或地区<br>功能 (许可证)  <br>总分钟数<br>使用的分钟数<br>可用分钟数|
 |[TeamsPSTN 使用情况报告 - 呼叫计划](pstn-usage-report.md#calling-plans)|  时间戳<br>用户名<br>电话数字<br>呼叫类型 <br>调用到<br>到国家/地区 <br>从 调用 <br>从国家/地区<br>费用<br>货币<br>持续时间<br>国内/国际<br>呼叫 ID<br>数字类型<br>国家或地区<br>会议 ID<br>功能 (许可证) |
 |[TeamsPSTN 使用情况报告 - 直接路由](pstn-usage-report.md#direct-routing)  |  时间戳<br>显示名称<br>SIP 地址<br>电话数字 <br>呼叫类型<br>调用到<br>开始时间<br>邀请时间<br>故障时间<br>结束时间<br>持续时间<br>数字类型<br>媒体旁路<br>SBC FQDN<br>Azure 区域<br>事件类型<br>最终 SIP 代码<br>最终 Microsoft 子代码<br>最终 SIP 短语<br>关联 ID  |
+|[Teams信息保护许可证报告 - 直接路由](information-protection-license-report.md)  | <br>用户是否具有通过更改通知推送其消息的有效许可证</br><br>由用户分类的更改通知事件总数</br><br>哪些应用正在侦听组织范围的更改通知事件</br>|
+
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
@@ -61,9 +63,9 @@ ms.locfileid: "51478342"
 
 若要使用户活动Teams设备使用情况报告匿名Teams，您必须是全局管理员。 这会在报表及其导出中隐藏显示名称、电子邮件和 AAD ID 等可识别信息。
 
-1. 在Microsoft 365管理中心，转到"设置 Org设置"，在"服务" \> **选项卡** 下，选择"报表 **"。**
+1. 在Microsoft 365 管理中心中，转到 **"设置** \> **Org 设置"，** 在"服务 **"** 选项卡下，选择"报表 **"。**
     
-2. 选择 **"报告**"，然后选择"**显示匿名标识符"。** 此设置既应用于管理中心中的使用情况Microsoft 365，也适用于Teams中心。
+2. 选择 **"报告**"，然后选择"**显示匿名标识符"。** 此设置同时应用于管理中心Microsoft 365 管理中心使用情况Teams报表。
   
 3. 选择"**保存更改"。**
 

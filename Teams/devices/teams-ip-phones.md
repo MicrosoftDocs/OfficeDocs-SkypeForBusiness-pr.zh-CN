@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: 594470affe3de69d2190fadcdbbae96aaa9bc3c7
-ms.sourcegitcommit: a188b3457a923744ffdc35f8efe3e5440af83256
+ms.openlocfilehash: db6240e972ac346c38961d94aa1a408e20f3cd4b
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52957681"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105144"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams认证的设备
 
@@ -77,6 +77,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 | 设备模型 | 固件版本 | 发布日期  | 房间大小                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Logitech Rally Bar      | 1.2.788     |       2021 年 6 月    |    中型会议室 (450 万 x 6 米)        |
 | AudioCodes RXV80 | 1.9.155        |   2021 年 5 月  | 3 米 x 3 米 (3 米的)  </br> 小型会议室 (450 万 x 450 万)  |
 | EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | 2021 年 4 月 | 3 米 x 3 米 (3 米的)  </br> 小型会议室 (450 万 x 450 万)  |
 | Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 中型会议室 (450 万 x 6 米)  |

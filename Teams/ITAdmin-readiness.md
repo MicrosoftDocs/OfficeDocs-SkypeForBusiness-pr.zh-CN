@@ -19,12 +19,12 @@ ms.custom:
 description: 为管理员PowerPoint计划、部署和运行资源的培训视频、幻灯片、教程Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723420"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105024"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>适用于管理员的管理员培训Microsoft Teams
 
@@ -87,7 +87,8 @@ ms.locfileid: "52723420"
 | ------------| -------------------- |
 | 模块 1：Microsoft Teams Android 设备简介  |[幻灯片](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
 | 模块 2：规划Microsoft Teams Android 设备|[幻灯片](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|模块 3：Microsoft Teams Android 设备的功能 |[幻灯片](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+|模块 3：Microsoft Teams Android 设备的功能 |[幻灯片](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|模块 4：Microsoft Teams Android 设备|[幻灯片](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
 
 <h2>交互式指南</h2>
 
@@ -107,10 +108,11 @@ ms.locfileid: "52723420"
 | 配置Microsoft Teams一线员工                           | 了解如何为 Firstline Workforce Microsoft Teams和部署适当的部署环境。                                                                                                                  | [为一Microsoft Teams员工配置服务指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 一线员工的身份：为 IT、经理和一线员工提供支持                    | 了解如何将 Microsoft Teams与现有 HR 系统集成、配置轻型委派标识管理，以及为使用共享设备的用户配置简化的登录和无缝转换。                                                                                                                  | [一线辅助角色标识指南](https://aka.ms/FLWIdentityIG)              |
 | 部署Microsoft Teams 会议室                           | 了解如何创建和配置帐户以用于 Microsoft Teams 会议室管理中心中的Microsoft Teams设备。                                                                                                                  | [部署Microsoft Teams 会议室](https://aka.ms/teamsroomslab)              |
+|使用Teams Android 设备|了解如何管理和升级手机Microsoft Teams、Microsoft Teams显示Microsoft Teams 会议室和Microsoft Teams面板。|[使用Microsoft Teams Android 设备](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>快速入门指南</h2>
 
-- [快速入门：Teams教育管理员入门](teams-quick-start-edu.yml)
+- [快速入门：Teams 教育版管理员](teams-quick-start-edu.yml)
 - [快速入门：在 Teams 中配置呼叫Teams](configuring-teams-calling-quickstartguide.md)
 
 <h2>教程</h2>

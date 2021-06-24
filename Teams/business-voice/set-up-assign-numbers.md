@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解如何为Microsoft 365 商务语音分配电话号码。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d380fe3b3f5524f756a85f7b51037a07cd8cfc45
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 0792b644c97194867c448ed67fb574bfb7735325
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282569"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105154"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>步骤 5：向用户分配业务语音电话号码
 
@@ -32,6 +32,10 @@ ms.locfileid: "52282569"
 
 > [!NOTE]
 > 如果看不到任何电话号码，请稍候。 新电话号码可能需要几个小时才能在 Teams。
+
+以下视频演示如何在管理中心内完成Teams步骤。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYO]
 
 1. 打开 Microsoft Teams 管理中心，使用全局管理员用户登录 (该帐户通常是用于注册 Microsoft 365) 。
 1. 在左侧导航窗格中，转到"<a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**语音**  >  **"电话数字"。**</a>

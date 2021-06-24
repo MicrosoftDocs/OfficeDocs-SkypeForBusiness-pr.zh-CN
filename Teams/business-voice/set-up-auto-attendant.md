@@ -17,16 +17,18 @@ search.appverid: MET150
 description: 了解如何设置自动助理 (呼叫队列) Microsoft 365 商务语音。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea18bcd84ce67dda914461c1bee08fbf8f4f4332
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 1313edc2a1336218f9ab86f53aa207a92d2b6b39
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282439"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105174"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>步骤 6：为公司主电话号码设置自动助理
 
 使用自动助理可以设置呼叫菜单，以便呼叫主电话号码的呼叫者可以从选项列表中选择。 例如，你可以选择连接到销售或支持部门、特定个人、切换面板，甚至其他自动助理。
+
+以下视频演示如何在管理中心内完成Teams步骤。
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]
 

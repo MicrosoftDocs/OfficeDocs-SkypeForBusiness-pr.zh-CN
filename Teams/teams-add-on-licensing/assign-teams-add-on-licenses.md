@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 了解如何向用户Teams音频会议、音频会议、电话系统和呼叫计划等功能分配附加许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b30df309412d159b878b4b57655787c9b4b292a8
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116930"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53095576"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>向Teams分配附加许可证
 
@@ -30,7 +30,7 @@ ms.locfileid: "51116930"
 > [!NOTE]
 > 请参阅[Teams附加许可证](./microsoft-teams-add-on-licensing.md)Teams附加许可证提供的功能。 你还将找到有关需要购买哪些许可证以及如何购买许可证的信息 (具体取决于你的计划) ，以便用户可以获取音频会议、免费号码和呼叫组织外部电话号码等功能。 确定要为用户提供哪些功能后，请为其分配许可证。
 
-可以使用 Microsoft 365 管理中心或 PowerShell 为组织的用户分配许可证。 你必须成为全局管理员或用户管理管理员才能管理许可证。
+可以使用 Microsoft 365 管理中心 PowerShell 为组织的用户分配许可证。 你必须成为全局管理员或用户管理管理员才能管理许可证。
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>分配许可证、呼叫计划和通信电话系统许可证之前需了解哪些信息
 
@@ -48,7 +48,7 @@ ms.locfileid: "51116930"
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 管理中心
 
-使用Microsoft 365管理中心一次向单个用户或少量用户分配许可证。 在"许可证"页 **或** " ("页面上，一次最多为 20) **分配** 许可证。 选择的方法取决于你想要管理特定用户的产品许可证还是管理特定产品的用户许可证。
+使用Microsoft 365 管理中心一次向单个用户或少量用户分配许可证。 在"许可证"页面上 (一次最多为 20 个用户分配许可证) 或"活动用户"页 (最多一次为 40 个用户分配) 。 选择的方法取决于你想要管理特定用户的产品许可证还是管理特定产品的用户许可证。
 
 有关分步说明，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
 

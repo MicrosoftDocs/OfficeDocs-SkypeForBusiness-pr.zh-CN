@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f204869bf068350bdc49801654f84856f32a44a0
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796626"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096296"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用OneDrive for Business或SharePoint流进行会议录制
 
@@ -86,8 +86,7 @@ AMS 中存储的会议录制在自动删除前 21 天内可用。 如果需要�
    # When using Teams PowerShell Module
    
    Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
+   Connect-MicrosoftTeams
    ```
 
 5. 使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)设置 Teams 会议策略，以从流存储转换为OneDrive for Business SharePoint。
@@ -118,7 +117,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |与内部方进行 1：1 通话             |被叫方                 |被呼叫者OneDrive for Business帐户                        |被呼叫者是所有者，拥有完全权利。 <br /><br />如果 (租户中具有只读访问权限，则调用方会进行调用。 无共享访问权限。 <br /><br />如果 (租户中，调用方) 无法访问。 被呼叫者必须共享给呼叫方。|
 |通过外部呼叫进行 1：1 通话             |呼叫者                 |呼叫方OneDrive for Business帐户                        |调用方是所有者，拥有完全权限。<br /> <br />被呼叫者没有访问权限。 呼叫方必须共享给被呼叫者。|
 |通过外部呼叫进行 1：1 通话             |被叫方                 |被呼叫者OneDrive for Business帐户                        |被呼叫者是所有者，拥有完全权利。<br /><br />调用方没有访问权限。 被呼叫者必须共享给呼叫方。|
-|群组通话                                 |呼叫的任何成员 |单击记录帐户的OneDrive for Business成员  |单击"记录"的成员具有完全权限。 <br /><br /> 同一租户的其他 fr 具有读取权限。 <br /><br /> 不同租户的其他组成员没有权限。|
+|群组通话                                 |呼叫的任何成员 |单击记录帐户的OneDrive for Business成员  |单击"记录"的成员具有完全权限。 <br /><br /> 同一租户中的其他成员具有读取权限。 <br /><br /> 不同租户的其他组成员没有权限。|
 |临时会议/已计划会议                    |组织者              |组织者的OneDrive for Business帐户                     |组织者对录制内容拥有完全权限。 <br /><br /> 会议的其他所有成员都具有读取访问权限。|
 |临时会议/已计划会议                    |其他会议成员   |单击"记录"的会议成员                                  |单击"录制"的成员对录制具有完全权限。 <br /><br />组织者具有编辑权限，可以共享。<br /><br /> 所有其他会议成员具有读取访问权限。|
 |与外部用户的临时/计划会议|组织者              |组织者的OneDrive for Business帐户                     |组织者对录制内容拥有完全权限。<br /> <br /> 会议的所有其他成员与组织者同一租户具有读取访问权限。 <br /><br /> 所有其他外部成员没有访问权限，组织者必须将其共享给他们。|
@@ -192,4 +191,3 @@ Teams录制文件以OneDrive for Business SharePoint并包含在这些服务的�
 **如果用户没有存储空间或存储空间，或者存储OneDrive for Business或SharePoint，录制将在哪里？**
 
 录制内容将登陆到临时存储位置，该位置将保存 21 天。 在此期间，组织者必须下载录制内容。 如果未在 21 天内下载，则删除录制内容。
-
