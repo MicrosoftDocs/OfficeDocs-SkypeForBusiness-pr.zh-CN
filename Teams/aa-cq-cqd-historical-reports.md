@@ -21,45 +21,46 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 了解如何使用呼叫质量仪表板 Power BI 报表查看自动助理呼叫队列历史数据。
-ms.openlocfilehash: 77b74eb48a16992f7f601bd6cccf3c61b421fc30
-ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
+description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理呼叫队列历史数据。
+ms.openlocfilehash: 994e135cfd579d473da02879adde0d3603ab0ed2
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53023243"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129332"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理 &队列历史报告
 
-CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报告：
+CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告：
 
-- 自动助理 - 显示对进入自动助理的呼叫的分析。
-- 呼叫队列 - 显示进入呼叫队列的呼叫的分析。
-- 代理时间线 - 显示呼叫队列调用中处于活动状态的代理的时间线视图。
+- [自动助理](media/cqd-teams-aa-cq-historical-report-sample-aa.png) - 显示对进入自动助理的呼叫的分析。
+- [呼叫队列](media/cqd-teams-aa-cq-historical-report-sample-cq.png) - 显示进入呼叫队列的呼叫的分析。
+- [代理时间线](media/cqd-teams-aa-cq-historical-report-sample-at.png) - 显示呼叫队列调用中处于活动状态的代理的时间线视图。
 
 这些报告使用来自呼叫质量仪表板 [数据存储](CQD-Power-BI-query-templates.md) 的数据。 它们允许组织报告自动助理和呼叫队列正在处理的呼叫数。  它们还提供有关调用队列中代理性能的见解。
 
-## <a name="what-are-the-requirements"></a>要求是什么？ 
+## <a name="prerequisites"></a>先决条件
 
-需要安装 Power BI Desktop。 可以从 Microsoft Windows 应用商店 [安装它](https://aka.ms/pbidesktopstore)。
+### <a name="power-bi-desktop"></a>Power BI Desktop
+需要安装Power BI Desktop。 可以从 Microsoft store [Windows安装它](https://aka.ms/pbidesktopstore)。
 
-可以使用 Power BI Desktop 的免费版本。 最低兼容版本为 2020 年 9 月 (2.85.681.0) 。
+可以使用免费版本的 Power BI Desktop。 最低兼容版本为 2020 年 9 月 (2.85.681.0) 。
 
-## <a name="permissions-to-access-the-cqd-pipeline"></a>访问 CQD 管道的权限
+### <a name="permissions-to-access-the-cqd-pipeline"></a>访问 CQD 管道的权限
 
 用于查看 AA & CQ Analytics 历史报告的帐户需要具有访问 CQD 数据管道的权限。 有关详细信息，请参阅 [CQD 访问角色](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
 
 ## <a name="installation"></a>安装 
 
-以下步骤假定已在计算机上安装 Power BI Desktop，并且帐户具有访问 CQD 数据管道所需的权限。
+以下步骤假定已在计算机上安装Power BI Desktop，并且帐户具有访问 CQD 数据管道所需的权限。
 
 执行以下步骤：
 
-- 下载 [CQD Power BI 查询模板](https://www.microsoft.com/download/details.aspx?id=102291) ，将 zip 文件保存到计算机的目录。
+- 下载[CQD Power BI查询模板](https://www.microsoft.com/download/details.aspx?id=102291)，将 zip 文件保存到计算机的目录。
 
 - 双击 zip 文件以打开它。
 
-- 双击"CQ 和 AA 组合分析 20201105.pbit"模板文件，Power BI Desktop 应启动。
+- 双击"CQ 和 AA 组合分析 20201105.pbit"模板文件，Power BI Desktop启动。
 
 - 系统会提示选择 CQD 数据管道区域。 选择租户所在的区域。
 
@@ -78,7 +79,7 @@ CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报�
 
  - 报告将随示例数据一起启动。
  
- - 若要查看自己的数据， **请在"Power** BI Desktop 中的查询"下的"开始"选项卡中选择"刷新"。
+ - 若要查看自己的数据，请在"开始 **"** 选项卡上的"查询"下选择"Power BI Desktop"。
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="选择刷新选项的屏幕截图":::
 
@@ -86,7 +87,7 @@ CQD Teams 自动助理 &队列历史报告 Power BI 模板提供以下三个报�
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="显示登录的屏幕截图":::
 
-- 选择 **"连接** "并观看数据刷新。
+- 选择 **连接** 并观看数据刷新。
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>数据延迟和 AA & CQ 分析
 

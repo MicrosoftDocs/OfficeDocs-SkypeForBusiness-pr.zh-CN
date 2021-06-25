@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何为用户启用Microsoft 电话直接路由。
-ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075365"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129322"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>为用户启用直接路由、语音和语音邮件
 
@@ -42,7 +42,7 @@ ms.locfileid: "53075365"
 3. 配置电话号码并启用企业语音和语音邮件。 
 4. 将Teams模式分配给用户。
 
-## <a name="create-a-user-and-assign-the-license"></a>创建用户并分配许可证 
+## <a name="create-a-user-and-assign-the-license"></a>创建用户并分配许可证
 
 有两个选项用于创建新用户或Microsoft 365 Office 365。 但是，Microsoft 建议组织选择一个选项以避免路由问题： 
 
@@ -53,9 +53,9 @@ ms.locfileid: "53075365"
 
 有关许可证要求的信息，请参阅计划 [直接路由](direct-routing-plan.md#licensing-and-other-requirements) 中的许可 [和其他要求](direct-routing-plan.md)。
 
-## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>确保用户是联机家庭用户，并且电话号码未从本地 (同步，Skype for Business Server 企业语音迁移到 Teams 直接路由) 
+## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>确保用户联机 (，Skype for Business Server 企业语音迁移到直接路由Teams的用户) 
 
-直接路由要求用户联机进行归居。 可以通过查看 RegistrarPool 参数来检查，该参数需要在 infra.lync.com 中。 OnPremLineUriManuallySet 参数也应设置为 True。 这可以通过配置电话号码和使用 Skype for Business PowerShell 启用企业语音和语音邮件。
+直接路由要求用户联机进行归居。 可以通过查看 RegistrarPool 参数来检查，该参数需要在 infra.lync.com 中。 在将用户迁移到直接路由时，建议（但不要求）将 LineURI 的管理从本地更改为联机Teams。 
 
 1. 连接 Skype for Business PowerShell 会话。
 
@@ -64,13 +64,16 @@ ms.locfileid: "53075365"
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    如果 OnPremLineUriManuallySet 设置为 False 且 LineUri 中填充了 <E.164 电话号码>，请在使用 Skype for Business Online PowerShell 配置电话号码之前，使用本地 Skype for Business 命令行管理程序清理参数。 
+    如果 OnPremLineUriManuallySet 设置为 False 且 LineUri 填充了 <E.164 电话号码>，则电话号码已在本地分配并同步到 O365。 如果要联机管理电话号码，在使用 Skype for Business Online PowerShell 配置电话号码之前，使用本地 Skype for Business 命令行管理程序清除 参数并同步到 O365。 
 
 1. 从 Skype for Business 命令行管理程序发出命令： 
 
    ```PowerShell
-   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+   Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
+ > [!NOTE]
+ > 请勿将 EnterpriseVoiceEnabled 设置为 False，因为不需要这样做，如果旧式 Skype for Business 电话使用，并且使用 UseOnPremDialPlan $True 设置租户混合配置，则可能会导致拨号计划规范化问题。 
+    
    将更改同步到 Office 365 预期 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` 输出为：
 
    ```console
@@ -79,16 +82,22 @@ ms.locfileid: "53075365"
    OnPremLineURI                        : 
    LineURI                              : 
    ```
+ > [!NOTE]
+ > 必须先在线管理用户的手机属性，然后才能将本地设备Skype for Business[环境](/skypeforbusiness/hybrid/decommission-on-prem-overview)。 
 
-## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>配置电话号码并启用企业语音和语音邮件 
+## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>配置电话号码并联机启用企业语音和语音邮件 
 
-创建用户并分配许可证后，下一步是配置用户的电话号码和语音邮件。 
+创建用户并分配许可证后，下一步是配置用户的联机电话设置。 
 
-添加电话号码并启用语音邮件：
  
 1. 连接 Skype for Business PowerShell 会话。 
 
-2. 发出命令： 
+2. 如果在本地管理用户的电话号码，请发出命令： 
+
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
+3. 如果联机管理用户的电话号码，请发出以下命令： 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>

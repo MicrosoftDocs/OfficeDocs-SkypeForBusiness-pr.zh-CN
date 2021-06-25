@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 了解如何重置用户的音频会议 PIN Microsoft Teams了解有关 PIN 的重要事实。
-ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 6470085fed25a83c1a8dc46ab45e8c6ea57b5603
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075375"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114021"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft Teams 中重置音频会议 PIN
 
@@ -64,7 +64,7 @@ PIN 是由为启用了音频会议的每个Microsoft Teams创建的数字的代�
     
 - 默认情况下，会自动向用户发送电子邮件，并且当用户启用音频会议或重置 PIN 时，将收到一封包含其 PIN 的电子邮件。 但是，如果已禁用自动发送电子邮件，则 PIN 重置电子邮件不会发送给用户，您必须手动将 PIN 信息发送给用户。
     
-- 当会议启动时，会议厅中的所有用户都将自动加入该会议。 例如，如果两个参与者在会议开始之前尝试加入会议，他们将进入会议厅并收听保持音乐，当会议组织者通过电话使用其 PIN 加入时，会议将开始，会议厅中的参与者将加入会议。
+- 会议开始时，组织者需要允许大厅内的所有 PSTN 用户加入会议。 例如，如果两个 PSTN 参与者在会议开始之前尝试加入会议，他们将进入会议厅并收听保持音乐，当会议组织者通过电话使用 PIN 加入时，会议将开始，组织者可以使用会议内命令 (按 *21) 以允许大厅的所有 PSTN 用户。
     
 - 默认设置是不允许匿名呼叫者启动会议。
     

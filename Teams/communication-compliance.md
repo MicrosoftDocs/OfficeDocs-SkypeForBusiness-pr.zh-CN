@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: 从内部风险解决方案集（内部风险解决方案的一部分）Microsoft Teams通信符合性 (这是 M365 通信合规性功能的一) 。
+description: Learning通信符合性（内部风险解决方案的一部分）的一部分，从 Microsoft Teams 的角度来看 (这是 M365 通信合规性功能的一) 。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf032669edc7255571e2501774ac0d0ee0df47d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5957e8900a9b3d9915a88e3ad8bf5e18c7a08b3
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121530"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126898"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>与 Microsoft Teams 通信符合性
 
 通信合规性是一种内部风险解决方案，Microsoft 365帮助检测、捕获和操作组织中不适当的邮件，从而最大程度地降低通信风险。
 
-对于Microsoft Teams，通信符合性可帮助识别以下类型的不适当内容[](/microsoft-365/compliance/communication-compliance-feature-reference)Teams频道或 1：1 和群组聊天中：
+对于Microsoft Teams，通信符合性有助于识别 Teams 通道、[](/microsoft-365/compliance/communication-compliance-feature-reference)专用 Teams 通道或 1：1 和群组聊天中的以下不适当内容类型：
 
 - 冒犯性、亵渎和攻击性语言
 - 成人、不性与成人图像
@@ -46,7 +46,7 @@ Microsoft Teams通信符合性入门，首先规划和创建预定义或自定�
 Teams管理员可以在下列级别配置通信符合性策略：
 
 - **用户级别**：此级别的策略适用于单个Teams用户，也可以应用于Teams用户。 这些策略涵盖这些用户可以在 1：1 或群组聊天中发送的消息。 用户的聊天通信会在用户作为成员的所有Microsoft Teams自动进行监视。
-- **Teams级别**：此级别的策略适用于 Microsoft 团队频道。 这些策略仅涵盖在 Teams 中发送的消息。
+- **Teams级别**：此级别的策略适用于 Microsoft 团队频道，包括专用频道。 这些策略仅涵盖在 Teams 中发送的消息。
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>在邮件中处理不适当的Microsoft Teams
 

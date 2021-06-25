@@ -19,12 +19,12 @@ ms.custom:
 description: 为管理员PowerPoint计划、部署和运行资源的培训视频、幻灯片、教程Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: dfb21be79f22628d7b30b2328ef18248cd35864e
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105024"
+ms.locfileid: "53113961"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>适用于管理员的管理员培训Microsoft Teams
 
@@ -42,7 +42,6 @@ ms.locfileid: "53105024"
 |---------|---------|---------|
 |[**Teams IT**](https://aka.ms/MicrosoftTeamsforIT)的一些基本信息 - Microsoft Mechanics Teams it"视频系列向管理员展示如何推出、配置和管理 Teams。     |[**使用远程Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 获取所需的指南（包括培训链接）以支持在家工作的用户。         |[**IT 团队协作**](/learn/paths/m365-manage-team-collaboration)- 了解如何使用 Teams促进组织内部跨应用程序和设备的团队协作和通信。         |
 |[**服务采用专家认证**](/learn/paths/m365-service-adoption)- Microsoft 服务采用专家认证课程Teams。 了解如何推动你所在组织采用 Microsoft 服务。     |[**团队协作简介Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - Microsoft 服务采用专家认证课程功能Teams。 了解如何推动你所在组织采用 Microsoft 服务。        |[**Microsoft 365：Teamwork 管理员**](/learn/certifications/m365-teamwork-administrator)关联 - Microsoft 365 Teamwork 管理员配置、部署和管理 Microsoft 365 或 Office 365 工作负荷，例如 SharePoint (联机、本地和混合) 、OneDrive 和 Teams。        |
-
 
 <h2>技术培训</h2>
 
@@ -89,6 +88,7 @@ ms.locfileid: "53105024"
 | 模块 2：规划Microsoft Teams Android 设备|[幻灯片](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 |模块 3：Microsoft Teams Android 设备的功能 |[幻灯片](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
 |模块 4：Microsoft Teams Android 设备|[幻灯片](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|模块 5：Microsoft Teams Android 设备 - 故障排除 |[幻灯片](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
 
 <h2>交互式指南</h2>
 
@@ -120,5 +120,3 @@ ms.locfileid: "53105024"
 - [教程：Teams 中的会议](tutorial-meetings-in-teams.yml)
 - [教程：Teams 中的音频会议](tutorial-audio-conferencing.yml)
 - [教程：了解 Teams 中的通话功能](tutorial-calling-in-teams.yml)
-
-

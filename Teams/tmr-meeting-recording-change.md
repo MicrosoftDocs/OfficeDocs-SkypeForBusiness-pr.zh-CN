@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096296"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114011"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用OneDrive for Business或SharePoint流进行会议录制
 
@@ -57,7 +57,7 @@ AMS 中存储的会议录制在自动删除前 21 天内可用。 如果需要�
 - 多地域支持 - 录制存储在特定于该用户的区域
 - 自带密钥 (BYOK) 支持
 
-查看当前可用的 [功能的完整列表以及随着时间的推移预期的功能](https://docs.microsoft.com/stream/streamnew/features-new-version-stream)。 
+查看当前可用的 [功能的完整列表以及随着时间的推移预期的功能](/stream/streamnew/features-new-version-stream)。 
 
 有关详细信息，请观看"Microsoft Teams录制的新增功能"。
 
@@ -142,7 +142,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **如何处理以前员工的录音？**
 
-由于视频与文件和视频OneDrive for Business文件SharePoint，因此处理员工离职后的所有权和保留期将遵循正常的OneDrive for Business SharePoint[过程]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
+由于视频与文件和视频OneDrive for Business文件SharePoint，因此处理员工离职后的所有权和保留期将遵循正常的OneDrive for Business SharePoint[过程](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
 
 **Who有权查看会议录制内容？**
 
@@ -155,7 +155,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **如何管理字幕？**
 
-只有当用户在录制Teams已打开听录时，才能在播放过程中使用会议录制的隐藏式字幕。 管理员必须通过 [策略启用录制听录]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) ，以确保其用户可以选择使用听录录制来录制会议。
+只有当用户在录制Teams已打开听录时，才能在播放过程中使用会议录制的隐藏式字幕。 管理员必须通过 [策略启用录制听录](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) ，以确保其用户可以选择使用听录录制来录制会议。
 
 题注可帮助所有功能观看者创建包容性内容。 作为所有者，您可以在会议录制内容上隐藏字幕，尽管会议脚本仍可用于Teams，除非将其删除。 
 

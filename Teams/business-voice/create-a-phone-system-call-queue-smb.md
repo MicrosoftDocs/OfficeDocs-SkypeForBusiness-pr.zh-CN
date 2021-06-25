@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何在 Microsoft 365 商务语音 中为小型企业设置呼叫Microsoft 365 商务语音。
-ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739666"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126918"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>创建呼叫队列 - 小型企业教程
 
@@ -118,13 +118,13 @@ ms.locfileid: "52739666"
 
 必须为资源帐户 *Microsoft 365 电话系统 - 虚拟* 用户许可证。
 
-1. 在Microsoft 365管理中心的"**活动** 用户"列表中，单击要为其分配许可证的资源帐户。
+1. 在Microsoft 365 管理中心"**活动** 用户"列表中，单击要为其分配许可证的资源帐户。
 
 2. 在"**许可证和应用"选项卡上的**"许可证 **"下**，选择 **"Microsoft 365 电话系统 - 虚拟用户"。**
 
 3. 单击"**保存更改"。**
 
-    ![在管理中心内分配许可证Microsoft 365屏幕截图](../media/resource-account-assign-virtual-user-license.png)
+    !["许可证分配"用户界面的屏幕截图Microsoft 365 管理中心](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -157,7 +157,7 @@ ms.locfileid: "52739666"
 
 # <a name="step-3brcall-agents"></a>[步骤 3 <br> 呼叫代理](#tab/call-agents)
 
-若要将代理添加到呼叫队列，我们会将它们添加到我们之前创建的团队和频道。
+若要将代理添加到呼叫队列，我们会将它们添加到我们之前创建的团队和频道。 你需要是团队的成员来这样做。
 
 1. 选择"**选择团队"选项，** 然后单击 **"添加频道"。**
 2. 键入创建的团队的名称，将其选中，然后单击"添加 **"。**
