@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 了解如何使用呼叫暂停和检索在呼叫中保持Microsoft Teams。
-ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197577"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147180"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
@@ -46,6 +46,8 @@ ms.locfileid: "51197577"
 ## <a name="configure-call-park-and-retrieve"></a>配置呼叫停放和检索
 
 只有管理员Teams才能配置呼叫停放和检索。 默认情况下，它处于禁用状态。 你可以为用户启用它，然后使用呼叫允许策略创建用户组。 将同一策略应用到一组用户时，他们可以在用户之间停放和检索调用。
+
+呼叫取件号码的范围预定义为 10-99，不能修改。 将呈现第一个已停放的呼叫的取件代码 10，下一个已停放的调用将呈现 11 的取件代码，等等。 直到 99 呈现为取件代码。 之后，呈现的提货代码从 10 重新开始。  如果有 89 个活动的已停接调用，则呈现的取件代码将不断递增超过 99，这样，对于提货代码，第 90 个活动的已停接调用将呈现 100，则第 91 个活动的已停接调用将呈现一个取件代码 101。
 
 启用呼叫公园策略
 

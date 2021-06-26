@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在卢森堡获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 37ae92d4e162eef5d70015230037e4b6b0e751a4
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: f5b97447a1a6e473ccaad0058c6e3a8abcf7e48b
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993877"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147150"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>电话卢森堡的号码管理
 
@@ -38,7 +38,7 @@ ms.locfileid: "52993877"
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
 |获取未在管理中心中列出的新用户Microsoft Teams电话号码。 |在卢森堡，可以使用管理中心为组织Microsoft Teams电话号码。 您也可以通过下载表单并向我们发送来 [提交新的电话号码请求](mailto:ptneu@microsoft.com)。<ul><li>[适用于卢森堡 v.1.0 (1.0)  (en-lu) 的新电话号码请求 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[卢森堡的新电话号码请求 - 德语 (v.1.0)  (de-DE) ](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[适用于卢森堡的新电话号码请求 - 卢森堡语 (v.1.0)  (lu-LU) ](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[适用于卢森堡的新电话号码请求 - 法语 (v.1.0)  (lu-FR) ](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li></ul> <br/>在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整填写，然后发送给我们。<br/><br/>新订单可能需要两到三周来填充此市场。 |
-|获取转接给我们的电话号码。| 下载此表单。 <br/>[卢森堡 (LOA) 授权书 ()  (v.1.0)  (en-lu) ](https://download.microsoft.com/download/c/b/2/cb259b46-16bc-4ce0-925d-42b1a905b851/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.0)-(en-lu).pdf) <br/> <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/><br/>转移号码可能需要 2 到 3 周才能在此市场中完成。<br/><br/>这些号码目前不能用于会议。    |
+|获取转接给我们的电话号码。| 下载此表单。 <br/>[卢森堡 (LOA) 授权书 ()  (v.1.0)  (en-lu) ](https://download.microsoft.com/download/5/d/e/5dec4f65-c5a9-4dae-a576-56c737f739d2/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.1)-(en-lu).pdf) <br/> <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/><br/>转移号码可能需要 2 到 3 周才能在此市场中完成。<br/><br/>这些号码目前不能用于会议。    |
 |发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |

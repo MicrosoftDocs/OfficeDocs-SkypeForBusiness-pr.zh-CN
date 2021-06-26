@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ede7588f0de085c41eeecd1e8e2e0f496772b11
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: ab0ae8fe2e1e3fee37a01de178c62fd45558b1d0
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993865"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114121"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -1249,6 +1249,9 @@ ms.locfileid: "52993865"
 -- **TfLSignInSuccessful**：当用户成功登录到个人 Microsoft 帐户时触发。 这是了解登录和注册可靠性以及主动识别和修复问题所必需的。
 -- **TfWFreemiumSignInSuccessful**：当用户成功登录到 freemium 帐户时触发。 这是了解登录和注册可靠性以及主动识别和修复问题所必需的。
 -- **TfWSignInSuccessful**：当用户成功登录到工作或学校帐户时触发。 这是了解登录和注册可靠性以及主动识别和修复问题所必需的。
+- **appDrawer** - 成功打开应用抽屉时触发。
+- **appPolicyChange** - 当用户在本地重置并保存新选项卡顺序时触发。
+- **app_stageview** - 成功呈现阶段视图时触发。
 
 ### <a name="scenario"></a>使用场景
 
@@ -1341,6 +1344,40 @@ ms.locfileid: "52993865"
 - **show_meeting_participants** - 确认显示会议参与者名单已成功或失败。
 - **搜索** - 确认整个搜索会话已成功或失败。
 - **time_based_retention_shared_channel** - 捕获用于修剪数据库的性能数据。
+- **sync_user_entitlements_and_app_definitions** - 提取 aggregatedEntitlements 所需的服务调用。
+- **bots_load_mediacards** - 在聊天和频道中配置连接器卡片时实例化捕获。
+- **bots_load_one_card** - 在与机器人聊天时，捕获是否存在并加载了至少一张卡片。
+- **load_assignments** - 捕获用于加载分配应用的异常处理。
+- **load_channel_tab** - 捕获频道选项卡的加载。（仅限 Android）
+- **load_messaging_extension_results** - 捕获消息传递扩展搜索/查询结果的加载。 （仅限 Android）
+- **load_static_tab** - 捕获静态选项卡的加载。（仅限 Android）
+- **app_authenticated** - 确认身份验证成功且已提取令牌。 （仅限 Android）
+- **blocked_by_conditional_access** - 在身份验证中接收条件访问阻止的错误代码时。 （在这种情况下，系统尝试强制刷新主令牌）。 （仅限 Android）
+- **get_resource_token_sync** - 在系统尝试同步提取应用资源的令牌时触发。 （仅限 Android）
+- **get_resource_token_async** - 在系统尝试异步提取应用资源的令牌时触发。 （仅限 Android）
+
+## <a name="oneplayer-events"></a>OnePlayer 事件
+> [!NOTE]
+> 对于 OnePlayer 事件，仅应用 [OnePlayer 事件属性列表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events) 中列出的属性。
+### <a name="oneplayer-user-action-events"></a>OnePlayer 用户操作事件
+- **PlayerPlay** - 确认用户是否点击 OnePlayer 视图中的“播放”按钮。
+- **PlayerPause** - 确认用户是否点击 OnePlayer 视图中的“暂停”按钮。
+- **PlayerSeek** - 确认用户是使用 OnePlayer 视图中的查找栏还是“”向前/向后”按钮查找视频（仅限 iOS）。
+- **VideoPlayerSeekForward** - 确认用户是使用 OnePlayer 视图中的查找栏还是“向前”按钮查找视频（仅限 Android）。
+- **VideoPlayerSeekBackward** - 确认用户是使用 OnePlayer 视图中的查找栏还是“向后”按钮查找视频（仅限 Android）。
+- **ChangePlaybackSpeed** - 确认用户是否选择了新的播放速度。
+- **changePlaybackQuality** - 确认用户是否选择了新的视频质量进行播放。
+- **ShareVideo** - 确认用户是否已点击“共享”图标。
+- **PlayerClose** - 确认用户是否已点击“关闭”图标。
+- **VideoCaptionsOn** - 确认用户是否已打开字幕。
+- **VideoCaptionsOff** - 确认用户是否已关闭字幕。
+- **ChangePlayerOrientation** - 确认用户是否更改了设备的方向。
+- **OpenPlayerSettingsMenu** - 确认用户是否已打开“设置”菜单。
+- **OpenPlaybackSpeedMenu** - 确认用户是否已打开“播放速度”菜单。
+- **PlayerAction** - 主机应用提供的自定义操作。
+
+### <a name="oneplayer-playback-events"></a>OnePlayer 播放事件
+- **PlayerHeartbeat** - 这是一个定期事件，可将玩家的当前状态和播放发送到日志。
 
 ## <a name="property-lists"></a>属性列表
 
@@ -1439,3 +1476,101 @@ ms.locfileid: "52993865"
 | 属性名称 | 说明                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | Trace_message | 包含错误字符串和有关可能发生故障的原因的详细信息 |
+
+## <a name="property-lists-for-oneplayer-events"></a>OnePlayer 事件的属性列表
+
+### <a name="1-properties-sent-with-all-oneplayer-events"></a>1. 与所有 OnePlayer 事件一起发送的属性
+##### <a name="11-standard-properties"></a>1.1 标准属性
+| 属性名称 | 说明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| eventType | 事件类型（Applogic、ErrorAlert、Performance、UserAction） |
+| accountType   | 用户账户类型（例如，业务） |
+| 组件     | OnePlayer |
+| 语言      | 应用的区域设置/语言 |
+| 平台      | OnePlayer 的平台 (iOS/Android) |
+| tenantId      | 租户 ID|
+| 版本       | 正在使用的 OnePlayer 版本 |
+| aadUserId     | 用户 ID |                                
+
+##### <a name="12-player-properties"></a>1.2 播放器属性
+| 属性名称 | 说明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| engineName    | 基础播放器名称（适用于 iOS 的 AVFoundation/适用于 Android 的 ExoPlayer） |
+| engineVersion | 操作系统版本 |
+| loadMode      | 播放器的加载模式 |
+| playbackSessionId | 播放的会话 ID |
+
+##### <a name="13-host-properties"></a>1.3 主机属性 
+| 属性名称 | 说明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| hostIntegrationType | 主机集成类型（例如，包、OneUP） |
+| hostPlatform  | 主机应用的平台 |
+| hostProperties| 主机属性（如果有）（仅限 iOS） |
+| hostApp       | 主机应用名称 |
+| hostVersion   | 主机应用的版本 |
+
+##### <a name="14-experimentation-properties"></a>1.4 实验属性
+| 属性名称 | 说明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| 振铃          | 用户所属的振铃 |
+| hostSettings  | 主机应用设置的属性 (moreOptionsEnabled、shareFeatureEnabled、playbackQualityFeatureEnabled、playbackSpeedFeatureEnabled) |
+| flightFilters | 说明 |
+| flightsOverridden | 已覆盖或未覆盖外部测试版布尔值 |
+
+##### <a name="15-service-properties"></a>1.5 服务属性
+| 属性名称 | 说明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| contentType   | 正在接受服务的内容的类型 |
+| 环境   | 环境名称  |
+| mediaService  | 正在使用哪些媒体（SOP、ODB、ODC、IC3-AMS、未知） |
+| mediaType     | 正在播放的媒体类型  |
+| playbackTech  | 媒体的播放技术  |
+| correlationId | 媒体的相关 ID（如果有） |
+
+### <a name="2-properties-sent-with-all-oneplayer-user-action-events"></a>2. 与所有 OnePlayer 用户操作事件一起发送的属性 
+| 属性名称 | 说明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| actionType    | 正在执行的操作类型，如单击、拖动和轻拂（仅限 iOS）|
+| isIntentional | 操作为有意或无意时的布尔值（仅限 iOS） |
+
+#### <a name="21-properties-sent-with-changeplaybackquality-event"></a>2.1 与 changePlaybackQuality 事件一起发送的属性
+| 属性名称 | 说明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| currentPlaybackQuality | 当前播放的质量 |
+
+#### <a name="22-properties-sent-with-changeplaybackspeed-event"></a>2.2 与 ChangePlaybackSpeed 事件一起发送的属性
+| 属性名称 | 说明 |
+|---------------|------------------------------------------------------------------------------------------------|
+| previousPlaybackRate  | 视频的上一个播放速率（仅限 iOS） |
+| currentPlaybackRate   | 视频的当前播放速率 |
+
+#### <a name="23-properties-sent-with-playerseek-event-ios-only"></a>2.3 与 PlayerSeek 事件一起发送的属性（仅限 iOS）
+| 属性名称 | 说明 |
+|---------------|------------------------------------------------------------------------------------------------|
+| seekSource    | 查找的源（搜索条、forwardButton、backwardButton） |
+| seekValue     | 查找位置 |
+
+### <a name="3-properties-sent-with-oneplayer-heartbeat-event"></a>3. 与 OnePlayer 心跳事件一起发送的属性
+| 属性名称 | 说明 |
+|---------------|------------------------------------------------------------------------------------------------|
+| mediaCurrentTime | 媒体的当前播放时间（仅限 iOS）|
+| isLoaded | 已加载媒体 |
+| loadTimeMs | 所花费的加载时间（以毫秒为单位） |
+| numberOfStalls | 播放期间停滞次数（仅限 iOS） |
+| bufferingCount | 播放期间停滞次数（仅限 Android） |
+| observedBitrate | 播放期间观察到的比特率（仅限 iOS） |
+| avgBitrateBitsPerSecond | 播放期间观察到的比特率（仅限 Android） |
+| playedSeconds | 事件发生前已播放秒数 |
+| rebufferingSeconds | 播放期间重新缓冲秒数 |
+| timeSinceSourceSetMs | 自设定源起的时间（毫秒） |
+| triggerType | 触发类型（缓冲、错误、errorLog、canPlayThrough、intervalHeartbeat、sourceset、卸载） |
+| errorId | 错误（如果有）的错误 ID |
+| errorCorrelationId | 错误（如果有）的错误相关 ID |
+| errorLog | 错误（如果有）的错误日志 |
+| errorType | 错误（如果有）的错误类型 |
+| errorMessage | 错误（如果有）的错误消息 |
+| errorStack | 错误（如果有）的扩展错误信息 |
+| metaUrl | 媒体的 Meta URL |
+| odspDocId | 媒体的 ODSP 文档 ID |
+| siteId | 媒体的网站 ID |
+| teamsCallId | 媒体的 Teams 呼叫 ID（如果有） |
