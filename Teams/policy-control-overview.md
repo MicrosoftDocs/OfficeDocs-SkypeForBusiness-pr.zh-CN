@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863213"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142808"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams 的策略控制概述
 
@@ -35,7 +35,7 @@ Microsoft 致力于为你提供所需的信息和控件，可让你在使用作�
 作为这些更改的一部分，我们将提供全新和更新的用户界面 (UI) 元素和策略设置
 
 > [!IMPORTANT]
-> 有关进一步阅读，请查看 Microsoft 365 的“[策略控制概述](/deployoffice/privacy/overview-privacy-controls)”内容。
+> 有关延伸阅读，请查看 [Microsoft 365 企业应用版隐私控制的概述](/deployoffice/privacy/overview-privacy-controls)。
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>从 Microsoft 365 企业应用版发送到 Microsoft 的诊断数据
 
