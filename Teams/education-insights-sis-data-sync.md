@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b0d9ae3788be09e4a66724e6122791a91b6879f
-ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
+ms.openlocfilehash: 5d5ba5c2c5179d5c333472450fd9b2e9c270a4e9
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52997731"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142838"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>将学生信息系统 (SIS) 数据与教育版见解同步
 向[教育版见解](class-insights.md)提供的数据越多，教师就越能更好地为学生提供支持，并且教育领导者也可以为教师提供更好的支持。
@@ -33,43 +33,40 @@ ms.locfileid: "52997731"
 ## <a name="plan-your-school-data-sync-integration"></a>计划学校数据同步集成
 Microsoft 学校数据同步系统 (又称 SDS) 提供了学校信息系统 (又称 SIS) 的数据和它的教育系统的层次结构，并映射出哪个用户分配到哪里，还提供了关于学生和组织层次的额外数据。
 
-Insights 在使用 [SDS V2 及以上文件格式](/schooldatasync/sds-v2-csv-file-format) 时效果最佳，但也支持 *功能受限* 的 [SDS V1 文件格式](/schooldatasync/school-data-sync-format-csv-files-for-sds)。
+Insights 在使用 [SDS V2.1 文件格式](/schooldatasync/sds-v2.1-csv-file-format) 时效果最佳，但也支持 *功能受限* 的 [SDS V2 文件格式](/schooldatasync/sds-v2-csv-file-format) 和 [SDS V1 文件格式](/schooldatasync/school-data-sync-format-csv-files-for-sds)。
 
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>SDS V1 和 V2 文件格式之间的差异
 
-若要充分利用见解，建议使用文件格式 v2 或 v2.1 (即将推出)
-
-| 数据类型 | V1 | V2 |
+| 数据类型 | V1 | V2 和 V2.1 |
 |:--- |:--- |:--- |
-| **用户** | V1 格式 **仅包含教育工作者**，因此若要为教育领导者设置组织级权限，则需要手动定义每个人的权限。 | V2 格式包含 **所有角色**，因此你可以分配基于角色的权限。 |
-| **组织** | V1 格式 **仅包含学校**，因此你只能看到一个汇总级别（所有学校）。 你可以使用平面列表来放大特定的学校，但是此列表可能包含大量学校，或者包含难以比较的不同类型的学校（例如小学与中学，或者理工院校与艺术院校）。<br/><br/> 有了层次结构，你可以创建有意义的级别，例如科学或艺术系。| V2 格式包含 **你所在地区或机构的完整层次结构**，包括大学、学院、院系、校园、区域、课程等。<br/><br/> 使用层次结构，你可以按层次结构的各个级别查看相关汇总、快速比较每个级别的组织单位、为特定级别分配权限、按组织级别设置目标等。|
+| **用户** |仅支持“教师”角色，因此需要手动设置教育领导者的组织级别权限|支持多个角色，以便可以设置基于角色的权限|
+| **组织** | 仅支持“学校”，聚合级别。<br><br>因此，不提供多个聚合级别，并提供有限的功能来比较不同类型的学校（例如，小学与中学、科学学校和艺术学校）|支持多层层次结构，包括地区/机构、大学、学院、院系、校区、区域、计划等。<br><br>允许多个聚合级别，并轻松比较每个级别的组织单位、向特定级别分配权限、按组织级别设置目标等。|
+| **其他可选信息** |无|**仅 V2.1 文件格式**<br><br>*学术课程* - 课程的时间范围（学期、学年等）<br><br>人口统计和学生标志* - 诸如种族、民族和性别的数据，以及特殊计划（IEP、504）|
 
 > [!NOTE]
 > 自 2021 年 7 月 15 日起，客户将不能使用 v2 文件格式，而需要使用 v2.1 格式，所有未来的升级和新能力将在 v2.1 格式上完成且它将完全向后兼容 v1 文件格式。
 
-## <a name="best-practices"></a>最佳做法
+### <a name="best-practices"></a>最佳做法
+
 借助层次结构以及每个人在该层次结构中的位置的准确映射，Insights 可以为不同类型的教育领导者提供准确数据以及更为精确且相关的见解。
 
 所提供的细节越多，报告和聚光灯就越有用且越有针对性。
 
-下面提供了一些最佳做法来确保 SDS 的顺利部署，以便你的用户能够充分利用 Insights。
+#### <a name="file-format-version-to-use-adn-data-to-sync"></a>要使用的文件格式版本和要同步的数据
+*   使用文件格式 V2.1 并同步教育版 Insights 使用的如 [此处](/schooldatasync/sds-for-insights-overview#education-insights-capabilities-matrix-and-sds-v21-csv) 所述的可选数据。
 
-### <a name="file-format-version-to-ue"></a>文件格式版本要 ue
-*   使用文件格式 V2.1 (即将推出) 并同步教育版 Insights 使用的可选数据
-
-### <a name="users-and-roles"></a>用户和角色
+#### <a name="users-and-roles"></a>用户和角色
 *   请确保 **所有用户** 都列出在你提供的文件中并且已同步。 这包括需要查看其所在组织单位的数据的所有学生和教职员工。
-    如果你当前只在 SIS 中列出了教师，则将文件上传到 SDS 并同步数据之前，请手动添加其他用户。
-    Insights 收集的数据仅来自于注册的学生，如果遗漏了某些学生，这将对数据和结论产生误导。
+*   如果当前只在 SIS 中列出了教师，请先手动添加其他用户，再将文件上传到 SDS 并同步数据。 Insights 收集的数据仅来自于注册的学生，如果遗漏了某些学生，所得数据和结论将产生误导。
     
-*   请确保 **提供每个用户的名字和姓氏**。 否则，他们将通过他们的电子邮件地址受到引用，这在报告和聚光灯 (有关于学生活动或表现 Insights 的卡片) 中提供了非最优化的体验。
+*   如果还使用 SDS 进行预配，请确保 **提供每个用户的名字和姓氏**。 否则，将按学生的电子邮件地址引用学生，从而获得非最佳体验。
 
 *   年级/年份必须基于此 [映射列表](#supported-grade-level-values)。 
 
-*   为 **所有学生添加年份/年级** 是非常重要的，这样活动数据就可以通过它进行汇总和过滤。    
+*   请务必 **将年级/年份级别添加到所有学生**。    
 
-*   请确保 **将每个用户分配到其相关的组织单位**。 这样，教育版 Insights 就不会在教育版 Inisghts 聚光灯下显示误导性数据。
+*   请确保 **将每个用户分配到其相关的组织单位**。
 
     *   一名学生可以与一个以上的组织单位相关联，例如，注册在一个特殊项目或两个院系的学生。 如果学生有一个以上的组织单位，请在该学生的用户文件中为每个单位提供一行。
     
@@ -77,18 +74,18 @@ Insights 在使用 [SDS V2 及以上文件格式](/schooldatasync/sds-v2-csv-fil
     
 *   **该角色至关重要**。 尽管这是一个封闭列表，但请尝试将[列表](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)中的角色与所上传的每个用户的真实角色进行匹配。 这将使你能够相应地分配基于角色的权限。 例如，为所有校长提供查看其学校中的班级的权限，或授予所有教授查看教职员工的权限。 
 
-### <a name="organizations"></a>组织
+#### <a name="organizations"></a>组织
 
-* 请确保 **反映组织真实和完整的层次结构**。 这可以通过手动添加文件来实现。 在某些情况下，SIS 中未反映此层次结构。 尽管如此，可能仍有必要按层次结构的每一级查看相关的汇总情况，将权限分配给特定级别，按组织级别设置目标，等等。 
+* 请确保 **反映组织真实和完整的层次结构**。 在某些情况下，此层次结构不会反映在 SIS 中，在这种情况下，需要在同步前将其手动添加到 CSV 文件中。
 
-* 请确保 **组织树下的所有组织单位都包括学生或班级**，为他们汇总学生数据。 我们建议学生位于树的最低分支上。
+* 确保 **组织树下的所有组织单位包括学生或班级**。 我们建议学生位于树的最低分支上。
 
 > [!NOTE]
 > 有关 SDS 部署的详细信息，请访问[规划 SDS](/schooldatasync/planning-school-data-sync)。
 
 ## <a name="integrate-sis-data-using-sds"></a>使用 SDS 集成 SIS 数据
 
-Office 365 教育版中提供了学校数据同步 (SDS)。 SDS 从教育机构的学生信息系统 (SIS) 中读取数据，并将其与 Microsoft 的应用程序 (如 Teams) 整合，以实现自动创建在线教室和用户。
+学校数据同步 (SDS) 随 Office 365 教育版一并提供。SDS 从教育机构的学生信息系统 (SIS) 中读取数据，并将其与 Microsoft 的应用程序（如 Teams）整合，以实现自动创建在线教室和用户。
 
 它还将 SIS 数据与 Insights 同步。
 
