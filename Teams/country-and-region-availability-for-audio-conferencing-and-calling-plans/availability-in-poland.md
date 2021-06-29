@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于波兰Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: bb60f6f100ec118349f39ac45371ff593013111c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 30cfa3fcc7d417402c0a5cb478c78b183f4492ee
+ms.sourcegitcommit: d7a4707192d73b718b23abc32beb6f1684c2f928
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129641"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177688"
 ---
 # <a name="availability-in-poland"></a>在波兰的可用性
 
@@ -56,6 +56,9 @@ ms.locfileid: "52129641"
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐
+
+> [!IMPORTANT]
+> 我们目前在波兰面临新的电话号码订单和移植订单的意外延迟。 您可以继续下单，但请注意，我们预计此延迟将在 9 月之前解决，届时所有待处理订单都将完成。
 
 |**功能**|**详细信息**|
 |:-----|:-----|
