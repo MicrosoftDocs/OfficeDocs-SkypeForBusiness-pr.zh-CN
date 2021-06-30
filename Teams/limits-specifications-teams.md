@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bc57372526e231e4f2111c0dd2cc00783598cf3
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: e35ad06e8123bc2525439dd81334a8600fd0a555
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069300"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203601"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -124,6 +124,9 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |通过视频或音频通话聊天的人员数 | 20 |
 |PowerPoint 文件的最大大小 | 2GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
+  
+> [!NOTE]
+> 分组讨论室只能在与会者少于 300 人的会议上创建。 此外，在会议中创建分组讨论室会自动将会议平台的数量限制在 300 个。 建议最终用户不要在预计超过 300 人的会议上启动分组讨论室。 有关大型 Team 会议的更多信息，请与最终用户共享 [大型 Teams 会议的最佳实践](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) 指南。 
 
 ### <a name="meeting-expiration"></a>会议过期时间
 
@@ -185,7 +188,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 |------------------------|---------|---------|---------|---------|---------|---------|
 |存储空间                 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。   |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 空间           |
 |Teams 文件存储空间 |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |每个网站或组最多 25 TB |
-|文件上传限制（每个文件）    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|文件上传限制（每个文件）    |250GB    |250GB    |250GB    |250GB    |250GB    |250GB    |
 
 频道由 SharePoint Online 网站（以前称为“网站集”）中专为团队创建的文件夹提供支持，因此频道中的文件选项卡共同享有其所属的团队的存储空间限额。
 
