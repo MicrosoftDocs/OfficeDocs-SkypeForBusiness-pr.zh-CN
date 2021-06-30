@@ -20,12 +20,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e3baf6a27b98d9f8b3fb30572391cd3442530c3d
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: e1d7def6710d98e2a77358abfcc43ec80fa89bb8
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069360"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203591"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -139,7 +139,7 @@ ms.locfileid: "53069360"
 |实时辅助字幕与字幕 |&#x2714; |&#x2714; |&#x274C; |
 |实时事件录制字幕 |&#x2714; |&#x2714; |&#x2714; |
 |与会者 DVR 控件（暂停、后退） |&#x2714; |&#x2714; |&#x2714; |
-|合作伙伴 eCDN 支持 |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
+|合作伙伴 eCDN 支持 |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |制作者直播后受众报告 |&#x2714; |&#x2714; |&#x274C; |
 |受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

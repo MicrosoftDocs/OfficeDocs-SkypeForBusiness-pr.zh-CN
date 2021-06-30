@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4a8a5d0b866a3eb278ffdba575966f97c549d6
-ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
+ms.openlocfilehash: 96f82b398ff75cdaf651eb841c412c502c5108d4
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52997742"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203581"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智能扬声器的语音识别技术控制
 
@@ -83,7 +83,7 @@ ms.locfileid: "52997742"
 |-|-|-|
 |enrollUserOverride|用于设置租户的语音配置文件捕获Teams注册。 |**禁用**<br><ul><li> 从未注册的用户无法查看、注册或重新注册。<li>注册流的入口点将隐藏。<li>如果用户选择注册页面的链接，他们将看到一条消息，指出未为组织启用此功能。  <li>已注册的用户可以在语音设置中查看和删除其Teams配置文件。 删除其语音配置文件后，他们将无法查看、访问或完成注册流。</li></ul><br>**已启用**<br><ul><li> 用户可以查看、访问和完成注册流。<li>入口点会显示在"Teams"选项卡下的"设置 **"页面上**。</li></ul>|
 |roomAttributeUserOverride|在会议室中控制基于语音的用户标识。 此设置是帐户Teams 会议室必需的。| **禁用**<br><ul><li>Teams 会议室设备不会从会议室发送节省音频流的带宽。 <li>不会对会议室用户进行属性或区分，也不会检索或使用其语音签名。<li>会议室用户未知。</li></ul> <br>**属性**<br><ul><li>聊天室用户将基于其注册状态进行属性管理。<li>注册的用户在听录中显示其姓名。  <li>未注册的用户将显示为"发言人 n"。<li>设备Teams 会议室从会议室发送 7 个音频流。</ul> <br>**区分**<br> *此设置将在以后可用。*|
-|enabletranscription|用户和聊天室Teams必需。|**True** 和 **False**|
+|AllowTranscription|用户和聊天室Teams必需。|**True** 和 **False**|
 ||||
 
 在Teams管理中心中，设置"**允许听录"** 策略。 设置默认 **为"关闭**"。

@@ -1,7 +1,7 @@
 ---
 title: 适用于虚拟化桌面基础结构的 Teams
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6eba4f1da849a2cf8e355454fd1ba794a3496db
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075385"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203621"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -121,6 +121,7 @@ VMware Horizon 是一个新式平台，用于跨混合云安全交付虚拟桌�
 对于非永久性设置，Teams桌面应用必须按计算机安装到黄金映像。  (有关详细信息，请参阅在[VDI 上](#install-or-update-the-teams-desktop-app-on-vdi)安装或更新 Teams 桌面应用部分。) 这可确保在用户会话期间有效启动 Teams 应用。
 
 在Teams设置中使用缓存管理器还需要配置文件缓存管理器，Teams运行时数据同步。 高效的数据同步可确保在用户的会话 (缓存用户的数据、配置文件) 设置等用户特定信息。 确保同步这两个文件夹中的数据：<br>
+
 - C：\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache) 
 - C：\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams) 
 
@@ -186,6 +187,7 @@ Microsoft 365 企业应用版不支持每台计算机安装 Teams。 若要使�
         ```console
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
+
         此过程会将所需的注册表项添加到计算机，使Teams知道它是 VDI 实例。  如果没有它，安装程序将出错，指出："安装失败。  在未检测到 VDI 环境时，无法为所有用户安装。"
 
         ```console
@@ -256,7 +258,7 @@ Teams Chrome 浏览器上的应用无法通过 AV 优化Teams VDI 桌面应用�
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Teams聊天和协作在 VDI 上聊天
 
-如果你的组织只想在 Teams 使用聊天和协作功能，你可以设置用户级策略以在 Teams 中关闭呼叫和Teams。 
+如果你的组织只想在 Teams 使用聊天和协作功能，你可以设置用户级策略以在 Teams 中关闭呼叫和Teams。
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>设置策略以关闭呼叫和会议功能
 
@@ -273,8 +275,8 @@ Teams Chrome 浏览器上的应用无法通过 AV 优化Teams VDI 桌面应用�
 1. 在管理中心左侧导航Microsoft Teams，转到"用户 **"。**
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。
 3. 执行以下操作：
-    1.  在 **"调用策略"** 下，**单击"禁止""缩放"。**
-    2.  在"**会议策略"** 下，单击 **"AllOff"。**
+    1. 在 **"调用策略"** 下，**单击"禁止""缩放"。**
+    2. 在"**会议策略"** 下，单击 **"AllOff"。**
 4. 单击“**应用**”。
 
 若要一次向多个用户分配策略，请执行以下操作：
@@ -318,7 +320,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 可以使用 Microsoft Teams 管理中心或 PowerShell 来设置呼叫和会议策略并将其分配给用户。 传播策略更改 (可能需要) 几个小时。 如果未立即看到给定帐户的更改，请在几小时后重试。
 
-[**调用策略**](teams-calling-policy.md)：调用策略Teams控制哪些调用功能可供用户使用。 Teams包括内置的 AllowCalling 调用策略，其中所有调用功能都打开。 若要启用所有调用功能，请分配 AllowCalling 策略。 或者，创建自定义呼叫策略以打开你需要的呼叫功能并将其分配给用户。 
+[**调用策略**](teams-calling-policy.md)：调用策略Teams控制哪些调用功能可供用户使用。 Teams包括内置的 AllowCalling 调用策略，其中所有调用功能都打开。 若要启用所有调用功能，请分配 AllowCalling 策略。 或者，创建自定义呼叫策略以打开你需要的呼叫功能并将其分配给用户。
 
 [**会议策略**](meeting-policies-in-teams.md)：会议Teams控制用户可以创建的会议类型，以及组织中用户安排的会议参与者可用的功能。 Teams包括内置的 AllOn 会议策略，其中所有会议功能都打开。 若要启用所有会议功能，请分配 AllOn 策略。 或者，创建自定义会议策略以打开你需要的会议功能并为其分配用户。
 
@@ -329,8 +331,8 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 1. 在管理中心左侧导航Microsoft Teams，转到"用户 **"。**
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。
 3. 执行以下操作：
-    1.  在 **"调用策略"** 下，单击 **"AllowCalling"。**
-    2.  在"**会议策略"** 下，单击 **"AllOn"。**
+    1. 在 **"调用策略"** 下，单击 **"AllowCalling"。**
+    2. 在"**会议策略"** 下，单击 **"AllOn"。**
 4. 单击“**应用**”。
 
 若要一次向多个用户分配策略，请执行以下操作：
@@ -377,6 +379,90 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 此功能在 Teams 1.3.00.13565 及更高版本中可用。
 
+## <a name="disable-audio-and-video-settings-for-vdi"></a>禁用 VDI 的音频和视频设置
+
+TeamsVDI 策略在 Microsoft Teams 中提供。 这些策略处于活动状态，在未优化的 VDI 环境中强制实施。
+
+- New-CsTeamsVdiPolicy  
+- Grant-CsTeamsVdiPolicy
+- Remove-CsTeamsVdiPolicy
+- Set-CsTeamsVdiPolicy
+
+> [!NOTE]
+> 这仅适用于未优化的环境。
+
+### <a name="update-a-module-name"></a>更新模块名称
+
+update-Module -Name MicrosoftTeams -AllowPrerelease
+
+```PowerShell
+<# Import and connect to online (CSOnline runs the policies) #>
+Import-Module microsoftTeams
+if( -not $sess){
+    $session = New-CsOnlineSession
+    $pss = Import-PSSession $session
+}
+<# Check out the commands #>
+Get-Command -Noun *VDI*
+<#
+```
+
+### <a name="set-policies-to-limit-calling-features"></a>设置策略以限制调用功能
+
+如果具有此 VDI 策略设置 -DisableCallsAndMeetings $true登录到 VDI Teams，则他们不应能够：
+
+- 拨打电话。
+- 加入会议。
+- 通过聊天执行屏幕共享。
+
+应禁用所有类型的调用。
+
+> [!NOTE]
+> 这仅适用于未优化的环境。
+
+```PowerShell
+#>
+New-CsTeamsVdiPolicy -Identity DisableCallsAndMeetingsTrue -DisableCallsAndMeetings $true -DisableAudioVideoInCallsAndMeetings $false
+<# Assign Policy #>
+$user = 'meganb@jvteams.xyz'
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName DisableCallsAndMeetingsTrue
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<#
+Show all Policies  
+#>
+Get-CsTeamsVdiPolicy | FT Iden*, Disable*
+<#
+```
+
+当具有 VDI 策略设置 -DisableAudioVideoInCallsAndMeetings $true登录到 VDI Teams时，他们应该能够：
+
+- 通过聊天执行屏幕共享。
+- 加入会议并共享屏幕。 将其音频移动到手机。
+- 用户不应能够从 VDI 进行人对人的音频和视频呼叫。
+
+> [!NOTE]
+> 这仅适用于未优化的环境。
+
+```powershell
+#>
+$PolName = "DisableCallsAndMeetingsAV"
+New-CsTeamsVdiPolicy -Identity $PolName -DisableCallsAndMeetings $false -DisableAudioVideoInCallsAndMeetings $true
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $PolName
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<# ## Cleanup afterwards #>
+$cleanup = $false
+if($cleanup){
+    "Doing cleanup"
+    # de-assign policy from user  
+    Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $null
+    get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+    # remove Policies
+    Get-CsTeamsVdiPolicy | ?{$_.identity -ne 'Global'} | remove-csTeamsVdiPolicy
+}
+```
+
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
 ### <a name="client-deployment-installation-and-setup"></a>客户端部署、安装和设置
@@ -400,7 +486,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 共享系统音频/计算机声音
 - 直接路由的媒体旁路
 - 呼叫寄存
-- 缩放控件 
+- 缩放控件
 
 > [!NOTE]
 > 我们正在努力添加当前仅在非 VDI 环境中可用的呼叫和会议功能。 这些可能包括对质量的更多管理员控制、其他屏幕共享方案和最近添加到 Teams。 请联系Teams代表，详细了解即将推出的功能。

@@ -3,8 +3,8 @@ title: Microsoft Teams 管理员培训
 ms.reviewer: ''
 description: 这些最终用户、管理员和讲师指导培训资源和教程视频可帮助你在组织中充分利用 Microsoft Teams。
 ms.topic: overview
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648111"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186901"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
@@ -61,8 +61,7 @@ ms.locfileid: "51648111"
 
 :::row:::
    :::column:::
-   **[采用专家认证](/learn/paths/m365-service-adoption/)** </br>
-   Microsoft 服务采用专家认证课程以 Teams 为特色。 了解如何推动你所在组织采用 Microsoft 服务。
+   **[采用专家认证](/learn/paths/m365-service-adoption/)** </br> Microsoft 服务采用专家认证课程以 Teams 为特色。请了解如何促使 Microsoft 服务在你组织中的采用。
 
    :::column-end:::
 
