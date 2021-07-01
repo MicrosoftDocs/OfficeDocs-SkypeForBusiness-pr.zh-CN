@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公共预览版。尝试新增功能�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b0719e68dcbf1c73c15ee58e8c7d6be08f359aa5
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: e2724901a2a1b534053e2145da442e989aed4e6c
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863253"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230539"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 
@@ -46,7 +46,7 @@ Microsoft Teams 的公共预览版可让用户抢先体验 Teams 中的未发布
 3. 选择“**添加**”。
 4. 为更新策略命名，添加说明，然后打开“**显示预览功能**”。
 
-你也可以用 PowerShell 的 `CsTeamsUpdateManagementPolicy`cmdlet 来设置策略。
+还可以使用带有 `-AllowPreview` 布尔参数的 `Set-CsTeamsUpdateManagementPolicy` cmdlet 通过 PowerShell 设置策略。
 
 ## <a name="enable-public-preview"></a>启用公共预览版
 
