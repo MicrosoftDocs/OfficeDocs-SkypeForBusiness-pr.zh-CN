@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 下面介绍音频会议的网络内开放预览版功能。
-ms.openlocfilehash: d6df81cc077c69fdeb4246d682797d2ebb26b875
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+description: 下面介绍了音频会议的网络内功能。
+ms.openlocfilehash: b7851bd2457debe8ee0de3144e24a15edb521222
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637834"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230559"
 ---
-# <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>打开音频会议网络会议预览版
+# <a name="on-network-conferencing-for-audio-conferencing"></a>音频会议的网络内会议
 
-网络会议开放预览版可供所有客户使用。 网络会议允许组织通过直接路由向 Microsoft 拨入号码发送入站和出站音频会议呼叫。 此功能不旨在将音频会议支持扩展到第三方拨入号码。 如果网络会议用于通过第三方拨入电话号码或 Microsoft 音频会议网桥的出站呼叫将入站呼叫路由到音频会议服务，则不支持网络会议。 
+网络会议允许组织通过直接路由向 Microsoft 拨入号码发送入站和出站音频会议呼叫。 此功能不旨在将音频会议支持扩展到第三方拨入号码。 如果网络会议用于通过第三方拨入电话号码或 Microsoft 音频会议网桥的出站呼叫将入站呼叫路由到音频会议服务，则不支持网络会议。 
 
 本文介绍为组织启用网络会议所需的先决条件和配置步骤。
 
@@ -151,19 +151,6 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 默认情况下，Teams E.164 格式（即 + ）拨打 PSTN \<country code\> \<number\> 号码。 但是，拨号计划可用于允许用户以其他格式拨打电话号码，例如 4 位数分机号码。
 
 如果要通过网络内会议启用基于分机的拨号，可以设置拨号计划，以将分机拨号模式与贵组织的电话号码范围相匹配。 若要设置拨号计划，请参阅 [创建和管理拨号计划](create-and-manage-dial-plans.md)。
-
-
-## <a name="known-issues-in-open-preview"></a>开放预览版中的已知问题
-
-下面是网络会议开放预览版当前存在已知问题的列表。 Microsoft 正在努力解决这些问题。
-
-| 问题 | 解决方法 |
-| :--- | :--- |
-| 通过网络会议路由的具有匿名/隐藏呼叫 ID 的拨入呼叫无法连接到会议。 | 如果可能，在 PBX 或 SBC 中设置配置，始终发送通过网络会议路由的呼叫的来电显示。|
-| 在某些情况下，当用户拨入服务时向用户播放的欢迎消息 ("欢迎使用音频会议服务...") 将被截断，用户不会听到"欢迎"一词。| 目前没有此问题的解决方法。 |
-
-
-
 
 ## <a name="related-topics"></a>相关主题
 

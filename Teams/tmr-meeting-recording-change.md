@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
+ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114011"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219119"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用OneDrive for Business或SharePoint流进行会议录制
 
@@ -35,6 +35,7 @@ ms.locfileid: "53114011"
 |从 2021 年 1 月 7 日开始推出<br> *(完成)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|所有Teams会议录制都将保存到 OneDrive for Business 和 SharePoint，除非你通过修改组织的 Teams 会议策略并显式将其设置为"流式传输"来延迟此 **更改。** 将策略报告视为流是不够的。 需要将策略值显式设置为"流 **式传输"。**|
 |从 2021 年 1 月 11 日开始推出<br> *(完成)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC仅**<br> 虽然GCC客户可以从 10 月 5 日起选择退出，但无法选择加入。 此功能将于 2021 年 1 GCC 11 日开始向所有客户推出，除非已选择退出。<br>  <br>从 2021 年 1 月 11 日开始，GCC 客户的所有新 Teams 会议录制都将保存到 OneDrive for Business 和 SharePoint，除非你通过修改组织的 Teams 会议策略并显式将其设置为流式传输来延迟此 **更改。** <br><br>如果已选择退出，但已准备好启用此功能，则为此，可显式Teams会议策略以 **OneDrive for Business。** |
 |从 2021 年 3 月 1 日推出<br> *(完成)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High 和 DoD**<br> 现在，客户可以首次在Microsoft Teams启用云会议录制。 默认情况下，这些录音将存储并OneDrive SharePoint播放。 |
+|从 2021 年 7 月 7 日开始推出<br> *(完成)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**所有客户 (Enterprise、教育GCC)**<br> 对于Teams录制到 OneDrive 和 SharePoint 并且也在会议期间实时转录的 Microsoft 搜索 会议，现可在 Microsoft 搜索 中搜索以根据脚本查找会议录制文件。 |
 |从 2021 年 8 月 16 日逐步推出 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**所有客户 (Enterprise、教育GCC)**<br>无法将新的会议录制保存到经典 (Microsoft Stream) ;即使所有客户将会议策略更改为OneDrive for Business，SharePoint会议录制也将自动保存到Teams流式传输。<br><br> 我们建议客户为了更好地控制组织的变化，每当你习惯更改时都选择加入，而不是等待更改发生。 |
 
 Microsoft Teams有一种保存会议录制的新方法。 作为从经典 Microsoft Stream 过渡到新 Stream[](/stream/streamnew/new-stream)的第一阶段，此方法将录制存储在 Microsoft OneDrive for Business 和 SharePoint Microsoft 365 中，并提供许多优势。
@@ -53,6 +54,7 @@ AMS 中存储的会议录制在自动删除前 21 天内可用。 如果需要�
 - 请求访问流
 - 提供OneDrive for Business和SharePoint链接
 - 会议录制更快可用
+- 在会议中记录的搜索基础脚本
 - **Go 本地** 租户支持
 - 多地域支持 - 录制存储在特定于该用户的区域
 - 自带密钥 (BYOK) 支持

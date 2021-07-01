@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 管理员可以了解如何在 GCCH 和 DoD 环境中将音频会议与直接路由一同使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 4daea8636ce99ed711d7fd982cd42eb9aa8c6b93
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262617"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230579"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>适用于 GCC High 和 DoD 且含直接路由的音频会议
 
@@ -170,8 +170,6 @@ ms.locfileid: "51262617"
 以下是音频会议功能，对于高和 DoD，使用直接路由GCC音频会议功能：
 
 - 使用名称录制的进入和退出通知。 对于具有直接路由的音频会议，进入和退出通知在会议以音调播放。
-
-- 音频会议的出站呼叫限制策略。 用于限制出站呼叫的用户级控件不适用于通过直接路由路由的会议拨出呼叫。
 
 - 禁止对会议特定组织者使用免费号码。 限制使用免费号码加入组织会议的用户级控件不适用于通过直接路由路由的呼叫。
 

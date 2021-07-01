@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解哪些会话边界控制器 (SDC) 直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b15ff9956e988047b0246e7a965fcd58b1d9d74b
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: e06b3eeeec6f5e383f6fd4aaafcb1f034dd43338
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526735"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230569"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -73,7 +73,7 @@ Microsoft 与每个供应商合作，以：
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      支持的 3.20 (推荐 4.0)         |  &#10004;    |  &#10004;   |    
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 用于媒体旁路)       |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) 1000 系列集成服务路由器        |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r (推荐 17.3.2)          |    &#10004;     |   |  
 |                                   |     Cisco Unified Border Element (CUBE) 4000 系列集成服务路由器        |     &#10004;   | &#10004; |   支持的 IOS XE 阿姆斯特丹 17.2.1r (推荐 17.3.2)          |   &#10004;      |    |  
 |                                   |     适用于 1000V 系列云服务路由器 (CUBE) Cisco Unified Border Element       |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r (推荐 17.3.2)          |    &#10004;     |    |  

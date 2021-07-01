@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解Microsoft 365 Office 365呼叫者 ID (用户分配的电话号码) 呼叫线路 ID。 可以更改或阻止用户的来电显示。
-ms.openlocfilehash: dbbb48952264d82ca24bdd82dbb45538b0428368
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308331"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230599"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
 
@@ -39,6 +39,7 @@ ms.locfileid: "52308331"
     
   > [!NOTE]
   > 若要使用 Service *参数，* 必须指定有效的服务编号。
+  > 如果下拉列表中看不到资源帐户编号，则需要使用 PowerShell cmdlet。
   
 - **阻止出站来电显示。** 你可以阻止传出呼叫者 ID 在用户的传出 PSTN 呼叫上发送。 执行此操作将阻止其电话号码显示在被呼叫者的电话上。
     
@@ -138,7 +139,7 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     
 - [你可能想要使用 Windows PowerShell 管理Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 通过以下主题了解这些优势：
+- Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次为许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
     
 - [使用 Microsoft 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca53c75d12964de2d4d458b240878b14fd2ad04b
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 4f3546983c3d783c8eb08e0fc371cb9a9feb84f8
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699343"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219109"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -44,7 +44,16 @@ Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达
 
 ## <a name="teams-view-only-experience-controls"></a>Teams仅查看体验控件
 
-使用 PowerShell 启用仅查看体验。
+你使用 [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) [SkypeForBusiness PowerShell](/powershell/module/skype/?view=skype-ps) 模块中的 cmdlet 或 [MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams)模块的至少 2.0.0 版本启用仅查看体验。
+
+若要使用建议的 `MicrosoftTeams` 模块，请：
+
+```PowerShell
+Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
+Connect-MicrosoftTeams
+```
+
+若要启用仅查看体验，可以使用以下 PowerShell 代码片段：
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled

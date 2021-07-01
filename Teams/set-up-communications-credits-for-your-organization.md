@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 98591d7603cdf63a76bef3478834f37504d8ff6c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 33206e09a63a74689361fcfb34d51c5b0b4a4973
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117100"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219129"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
@@ -58,9 +58,9 @@ ms.locfileid: "51117100"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步骤 2：为组织设置通信信用额度
 
-1. 使用工作[或Microsoft 365帐户](https://portal.office.com/Adminportal)登录到管理中心。
+1. 使用工作[或Microsoft 365 管理中心](https://portal.office.com/Adminportal)登录帐户。
     
-2. 在管理中心的左侧导航Microsoft 365，转到"**计费购买**  >  **服务"。** 向下滚动并选择"**附加内容"。**
+2. 在左侧导航栏中Microsoft 365 管理中心，转到"**计费**  >  **购买服务"。** 向下滚动并选择"**附加内容"。**
 
 3. 选择 **"通信信用额度"。**
     
@@ -79,7 +79,7 @@ ms.locfileid: "51117100"
       > [!NOTE]
      > 使用服务时，资金将仅应用于 Microsoft 发布的通信信用额度。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。 
      > 
-     > 只有在已使用已分配资金后，才能应用通信信用额度的每月计费，若要了解如何检查每月使用情况，请阅读[PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) Skype for Business报告
+     > 使用自动充值功能时，当达到触发金额并处理充值交易时，将生成通信积分的开票。 通信信用额度以先出先出的方式使用。 若要了解如何检查每月使用情况，请阅读[PSTN Skype for Business报告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. 输入您的付款信息并单击 **下订单** 。
     >[!IMPORTANT]
@@ -91,9 +91,9 @@ ms.locfileid: "51117100"
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步骤 3：向用户分配通信信用额度许可证
 
-1. 使用工作[或Microsoft 365帐户](https://portal.office.com/Adminportal)登录到管理中心。
+1. 使用工作[或Microsoft 365 管理中心](https://portal.office.com/Adminportal)登录帐户。
     
-2. 在管理中心的左侧导航Microsoft 365，转到"**用户**  >  **""活动** 用户"，然后从列表中选择一个用户。
+2. 在左侧导航栏中Microsoft 365 管理中心，转到"**用户**  >  **""活动** 用户"，然后从列表中选择一个用户。
     
 3. 选择 **"许可证和应用"。**
     
@@ -115,7 +115,7 @@ ms.locfileid: "51117100"
     
 - [电话系统计划](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-也可通过登录管理中心并访问"计费订阅Microsoft 365"添加订阅 ["来](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)  >    >  **查看信息**。
+也可通过登录订阅并访问"计费订阅 [Microsoft 365 管理中心"添加订阅"来](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)  >    >  **查看信息**。
   
 若要查看包含每个功能所需的许可证的表，请参阅Microsoft Teams[许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

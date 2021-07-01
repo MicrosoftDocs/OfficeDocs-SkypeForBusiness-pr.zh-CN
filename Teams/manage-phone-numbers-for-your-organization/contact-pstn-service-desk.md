@@ -23,16 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 当你获得电话号码或转网 (为) 号码时，可能需要在 PSTN 服务台获取帮助和支持。
-ms.openlocfilehash: 226a3c5926aa77e5bf1c73f3195fe50b73456b1f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afbf6c9beed27f907c28743937053bb08ae5dee6
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121350"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219149"
 ---
 # <a name="pstn-service-desk-contact-information"></a>PSTN 服务台联系信息
 
 若要联系 PSTN 服务台团队，请将电子邮件发送到下表中列出的相应别名。
+
+> [!NOTE]
+> 即将推出与 PSTN 服务台交互的新过程。 此时，将停用当前电子邮件系统。 新流程允许你在一个与管理中心集成的单个位置打开票证、跟踪通信和查看Teams票证。 未来几周将进行更多更新。
+<br>
 
 | **我想要转移/转转现有号码**  | **我想订购新号码** |
 |:-----:|:------:|

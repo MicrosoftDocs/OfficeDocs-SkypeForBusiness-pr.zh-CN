@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解如何Microsoft 电话系统直接路由将受支持的客户提供的会话边界控制器与 SBC (连接到) Microsoft 电话系统。
-ms.openlocfilehash: b7d065cd8e89e07203d50e4e21a4ac5eb2ccd843
-ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
+ms.openlocfilehash: 6474d9a4d7d4dfd3b970fdd9b189ecbfa85a00a9
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926754"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230609"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -333,7 +333,7 @@ SBC 会进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置
 SIP 代理和媒体处理器组件部署的位置：
 - 美国 (美国西部和东部数据中心有两个) 
 - 欧洲 (阿姆斯特丹和都柏林数据中心) 
-- 亚洲 (新加坡和香港特别行政区) 
+- 亚洲 (新加坡数据中心) 
 - 日本 (日本东部和西部数据中心) 
 - 澳大利亚 (澳大利亚东部和东南部数据中心) 
 
