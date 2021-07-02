@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec6b257f91c7e5003a4a69079e37b20b5f338528
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
-ms.translationtype: HT
+ms.openlocfilehash: c99fc4bfb185ec291a98a96572167b389b3e6252
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617754"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252647"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留策略
 
@@ -63,13 +63,17 @@ Teams 支持聊天和频道消息中的保留策略。因此，作为管理员�
 
 在许多情况下，组织认为与频道消息相比，私人聊天数据将造成更大的负担，因为频道消息通常是与项目更为相关的会话。
 
-你可以为私人聊天（一对一或一对多聊天）和频道消息设置单独的保留策略。 你还可以配置适用于组织中特定用户或团队的唯一策略。 对于 Teams 聊天，可选择要为其应用策略的用户。 对于 Teams 频道消息，可选择要为其应用策略的团队。
+可以非常高效地配置所有消息的单个保留Teams策略。 或者，为了进行更精细的控制，可以：
 
-例如，对于频道消息来说，可以将保留策略应用于组织中的特定团队，并将保留策略配置为 1 年后删除。 然后，将另一个保留策略应用到所有其他团队，并将该策略配置为 3 年后删除。
+- 对于私人聊天，请 (1：1 或 1：) 聊天、来自标准通道的消息或来自专用通道的消息制定单独的保留策略。
+
+- 将策略仅应用于组织的特定用户或团队。 对于Teams和专用频道，可以选择策略所应用到的用户。 对于 Teams 频道消息，可选择要为其应用策略的团队。
+
+例如，对于标准频道消息：为组织中特定团队创建保留策略，在 1 年后使用删除操作配置该策略。 然后为所有其他团队的标准频道消息创建另一个保留策略，然后在 3 年后通过删除操作配置该策略。
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>在 Teams 创建并管理保留策略：
 
-如需为 Teams 聊天和频道消息创建或编辑保留策略，请使用 [用于 Teams 位置的保留策略](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)中的说明。
+若要为邮件创建或编辑Teams策略，请使用保留策略[中的说明Teams位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
 
 该页包含为 Microsoft 365 中其他工作负荷创建和管理保留策略的补充信息。 例如，你可能还想要为 Microsoft 365 组创建保留策略，以保留和删除可通过 Teams 访问并存储在 OneDrive 或 SharePoint 中的文件。  
 
@@ -91,7 +95,7 @@ Teams 支持聊天和频道消息中的保留策略。因此，作为管理员�
 > [!NOTE]
 > 此时，无法配置用户看到的由于删除消息而显示的消息。
 
-这些显示的消息中的链接将转到[Teams 消息中的保留策略](https://support.microsoft.com/zh-CN/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。 此文档适用于最终用户，有助于回答一些基本问题，让用户了解为什么他们的消息会被删除。 但是，作为保留策略部署的一部分，请确保向用户和技术支持人员传达配置设置的影响。
+这些显示的消息中的链接将转到[Teams 消息中的保留策略](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。 此文档适用于最终用户，有助于回答一些基本问题，让用户了解为什么他们的消息会被删除。 但是，作为保留策略部署的一部分，请确保向用户和技术支持人员传达配置设置的影响。
 
 ## <a name="related-topics"></a>相关主题
 

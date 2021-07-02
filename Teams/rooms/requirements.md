@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解支持设备的要求Microsoft Teams 会议室，包括选择合适的设备、麦克风、扬声器、摄像头和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f39749cd24053d7849b23b30f87264dc9d0209cd
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: 7618d4bb94941660e9ed98b995330f1a559ec262
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105104"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252657"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -122,6 +122,8 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室房间
 |[Aver VB342+ 相机声栏](https://www.averusa.com/products/conference-camera/vb342plus) | 声栏：0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
+|[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |00.0.7200.3 |
+|[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7400.03 |
 |[Bose 视频栏 VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[带麦克风的 Biamp Devio SCR-20CX Web-Based会议中心](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[带桌面麦克风的 Biamp Devio SCR-20TX Web-Based会议中心](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e2cecf24d9bbd9e8c510ce722b059d2e00837d5
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 83b95032e89accca311eb66933a9991d4f0ca195
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186801"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252637"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -47,9 +47,9 @@ ms.locfileid: "53186801"
     
 有关使用团队和频道的帮助，请查看[Teams和频道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
-观看此简短视频，详细了解创建团队和频道的最佳实践。
+观看此简短视频，详细了解创建团队和频道的最佳实践：
 
-   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+- [技术提示：有关在](https://youtu.be/WkAVgNKn0hs)21：08 Teams & 21：08 Microsoft Teams (中创建包括专用频道在内的频道的) 
 
 ## <a name="membership-roles-and-settings"></a>成员身份、角色和设置
 
@@ -108,6 +108,6 @@ Teams是打破组织孤岛和提升跨职能团队的不错选择，因此请鼓
 
 如果组织的用户数不超过 5，000，可以创建组织范围的团队。 组织范围的团队为组织中的每个人提供自动方式，以便成为单个团队的一部分进行协作。 有关详细信息，包括创建和管理组织范围内团队的最佳实践，请参阅在 Microsoft Teams 中创建组织[范围的Microsoft Teams。](create-an-org-wide-team.md)
 
-## <a name="next-steps"></a>下一步
+## <a name="next-steps"></a>后续步骤
 
 阅读[聊天、团队](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、频道&应用，Teams浏览对推出计划Teams列表。

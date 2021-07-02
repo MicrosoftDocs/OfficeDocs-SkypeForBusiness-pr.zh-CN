@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff84b1dc161aa5b8ab99a74509fa7a93a1a9b270
-ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
+ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51399139"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230549"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 
-借助 Microsoft Teams 探索 体验，组织中拥有 Azure Active Directory (Azure AD) 且未获得 Teams 许可的用户可以启用 Teams 的探索体验。 管理员可以为组织中的用户打开或关闭此功能。 以前的 [Microsoft 商业云试用版]() 现已替换为 Teams 探索体验。
+通过 Microsoft Teams 探索体验，组织中具有 Azure Active Directory (Azure AD) 但未获得 Teams 许可证的用户可以启动 Teams 探索体验。管理员可以为组织中的用户打开或关闭此功能。
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory 体验中包含哪些服务
 
@@ -52,7 +52,7 @@ ms.locfileid: "51399139"
 - Whiteboard（计划 1）
 - Yammer 企业版
 
-  <sup>1</sup> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](tmr-meeting-recording-change.md) 将是一种分阶段的方法。 启动时，你可以选择加入此体验。 在 11 月，如果想继续使用 Stream，你将必须选择退出。 2021 年初，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+  <sup>1</sup> 从使用 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint for meeting 进行会议录制](tmr-meeting-recording-change.md) 将分阶段进行。在启动时，你将可以选择加入这种体验。11 月时，如果希望继续使用 Stream，则必须选择退出。到 2021 年初，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 ## <a name="whos-eligible"></a>符合资格的人员
 
@@ -138,26 +138,12 @@ Teams Exploratory 体验自带 Exchange Online 许可证，但在管理员分配
 
 可以像管理拥有普通付费许可证的用户一样管理拥有 Teams Exploratory 许可证的用户。有关更多信息，请参见[为你的组织管理Teams 设置](enable-features-office-365.md)。
 
-### <a name="upgrade-users-from-the-teams-exploratory-license"></a>从 Teams 探索许可证升级用户
+### <a name="upgrade-users-from-teams-exploratory"></a>从 Teams 探索升级用户
 
-要从 Teams 探索许可证升级用户（必须拥有管理员权限），请执行以下操作：
-
-1. 购买包含 Teams 的订阅。
-
-2. 删除用户的 Teams Exploratory 订阅。
-
-3. 分配新购买的许可证。
-
-有关详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
+必须具有管理员权限才能从 Teams 探索升级用户。 有关详细信息，请参阅 [从 Teams 探索试用版升级用户](upgrade-from-teams-exploratory.md)。
 
 > [!NOTE]
-> 如果 Teams Exploratory 许可证已结束，而用户没有立即升级到包含 Teams 的订阅，则他们有 30 天的宽限期，在这 30 天之后就要删除数据。用户仍然存在于 Azure 域服务中。如果用户在宽限期内添加订阅，则一旦为用户分配了新的许可证以再次启用 Teams 功能，所有内容将仍然存在。
-
-## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>这对旧版 Microsoft Teams 商业云试用版许可证有何影响
-
-从2020年2月起，符合条件的用户可以开始使用最新的 Microsoft Teams 探索版体验。所有遗留的 Teams 商业云试用许可证将在试用版期满前自动转换为新的优惠。
-
-当用户首次登录过期的 Teams 商业云试用版时，我们会自动为这些用户分配一个 Teams 探索版体验授权。在用户在登录前不会转换。
+> 如果 Teams 探索许可证已终止，而用户没有立即升级到包含 Teams 的订阅，则他们在 30 天宽限期之后会失去对 Teams 的访问权限。再过 30 天后，会删除用户的数据。用户仍然存在于 Azure Active Directory 中。如果向用户分配新的许可证以再次启用 Teams 功能，并且用户是在宽限期内添加的，则所有内容将仍然存在。
 
 ### <a name="remove-a-teams-exploratory-license"></a>删除 Teams 探索许可证
 
@@ -184,4 +170,4 @@ Teams Exploratory 体验自带 Exchange Online 许可证，但在管理员分配
 > [!NOTE]
 > 在上一个探索体验许可证到期后的 3 个月内客户将被禁用并阻止开始新的探索试用许可证。
 
-有关详细信息，请参阅上文中的 [Teams Exploratory中升级用户](#upgrade-users-from-the-teams-exploratory-license))。
+有关详细信息，请参阅上文中的 [从 Teams 探索中升级用户](#upgrade-users-from-teams-exploratory)。
