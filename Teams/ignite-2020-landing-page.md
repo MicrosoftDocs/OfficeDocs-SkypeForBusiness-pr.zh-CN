@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 8426438b0fe4d10d4a4d68406709bc7cb344c062
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 3c9e23d8072adf9f64a83821300819bbe0455b80
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909136"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278475"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams Ignite 2020 研讨会
 
@@ -27,7 +27,7 @@ ms.locfileid: "49909136"
 |[通过会议更智能地召开会议、保持专注Microsoft Teams实现更多目标](https://aka.ms/DB151)  |会议是完成工作的基础。 了解Teams会议如何帮助您和组织提高工作效率，同时适应新的工作方式。  |Shiraz Cupala|
 |[Microsoft Teams调用变得简单](https://aka.ms/DB149)  |Enterprise在 Teams 中调用 非常简单，部署和使用起来很简单。 了解通话Teams的基础知识，同时在通话中了解最新信息，例如新的通话体验和协作呼叫。 |Paul Cannon、Laura Kramer、Lauraa Kim|
 |[一个供管理员管理Microsoft Teams的地方：可管理性Teams新增功能](https://aka.ms/DB144) |Teams管理员具有灵活精细的管理功能。 这些功能允许他们为组织创建最符合业务需求的自定义体验。 在此会话中，我们将围绕团队管理中心门户介绍最新和最好的功能，讨论策略、应用管理、设备管理、报告、分析和故障排除以及 PowerShell 中的新增功能。 |Ronit Ben-Sheffer、Jamie Ron|
-|[缩放和自定义虚拟会议和事件Microsoft Teams](https://aka.ms/DB138) |会议采用所有形状和大小 - 了解如何使用Teams组织和管理下一个大型活动。 Teams组织的需求无缝缩放，为各种规模的活动提供自定义和提供最佳与会者体验的方式。  |Christina Torok、Ashwin App christ|
+|[缩放和自定义虚拟会议和事件Microsoft Teams](https://aka.ms/DB138)|会议采用所有形状和大小 - 了解如何使用Teams组织和管理下一个大型活动。 Teams组织的需求无缝缩放，为各种规模的活动提供自定义和提供最佳与会者体验的方式。  |Christina Torok、Ashwin App christ|
 |[使用设备在混合工作区中实现Microsoft Teams体验](https://aka.ms/DB147) |设备Microsoft Teams简介。 Teams设备旨在帮助用户最大程度地发挥Teams并缩小远程工作区和共享工作区之间的间距。 了解旨在提供以人为中心的会议室体验和重新设计个人工作区的设备，从而在设备上实现更具包容性的协作Microsoft Teams体验。  |Kendra Baker、Greg Baribault|
 |[使用 Microsoft Teams 平台Microsoft Teams工作区](https://aka.ms/DB157) |了解新平台中所有新的和现有的扩展Teams点。 了解如何创建功能强大的应用和解决方案来解决业务需求。|Archana Saseetharan、Michal Lesiczka|
 |[使用 Microsoft 365 平台重新Microsoft 365工作](https://aka.ms/DB146)|该Microsoft 365平台可帮助组织定制其环境的方方面面，帮助用户更好地工作和协作。 通过添加 Microsoft Graph 中的见解和相关的数据，了解每个应用如何进一步Graph。 了解每个应用如何与跨应用的工作流集成，包括Microsoft Teams。 了解应用如何跨设备提供独特且吸引人的体验。 利用可以加速应用创建的关键构建基块。|米萨纳竞技场、Mike Ammerlaan|
@@ -95,12 +95,12 @@ ms.locfileid: "49909136"
 
 | 标题 | 摘要            | 等级| 扬声器 |
 |---|----------|---|---|---|
-|[教育Teams部署和管理](https://aka.ms/PR103) |了解教育机构的整体治理。 此会话介绍聊天策略、会议策略、应用策略、通过组进行作业、如何配置学生安全和自动创建团队课堂的方法。 |300|Jethro Seghers|
+|[部署和管理Teams 教育版](https://aka.ms/PR103) |了解教育机构的整体治理。 此会话介绍聊天策略、会议策略、应用策略、通过组进行作业、如何配置学生安全和自动创建团队课堂的方法。 |300|Jethro Seghers|
 |[与医疗保健Microsoft Teams虚拟运行状况和协作](https://aka.ms/PR116)|医疗保健组织可以使用Microsoft Teams团队。 此会话侧重于虚拟运行状况和运行状况团队协作。 深入了解医疗保健、虚拟访问Teams客户案例等领域的最新公告。 此外，还将了解如何将Microsoft Teams用作解决许多当前医疗保健方案的平台。|200|Evan Westenberger、Tom McGuinness、Kristina Behr、Daniel Canning|
 |[为Microsoft Teams定制产品](https://aka.ms/PR117)|我们将分享有关如何使用模板启动协作体验的详细信息。 使用我们的行业库。 根据组织需求自定义这些模板。 将模板部署到组织的各个部分。 通过策略包进行管理。|200|Prem Kuchi，Aaron Glick|
 |[在政府中Microsoft Teams协作和通信](https://aka.ms/PR118) |州、地方和联邦机构使用Microsoft Teams来协作，改善响应时间和公众参与度。 了解如何充分利用现有功能。 了解接下来将发生哪些情况以及我们未来在Microsoft Teams愿景。 |200|Rima Reyes、Karuma Gatimu、Roxy Ndebumadu、Sarah Sarah|
-|[与 Microsoft Teams 教育应用平台集成](https://aka.ms/PR120)|Teams是一个开放平台，供教育机构集成应用和创建自定义工作流。 我们将介绍如何在Teams之间使用应用商店，以与 IT 技术支持集成。 了解第三方应用治理、开源应用模板。 查看 App Studio 的动手示例，为机构创建快速自定义网站应用。|300|Dominic Williamson|
-|[使用适用于教育的 Teams远程和混合学习](https://aka.ms/PR139)|我们将深入探讨远程和混合学习所需的一切信息。 包括如何使用正确的会议选项和策略创建联机会议。 了解如何通过自动化创建课堂团队。 了解如何支持协作教室环境。|200|Juliano Menegazzo Souza|
+|[与 Microsoft Teams 教育版 应用平台集成](https://aka.ms/PR120)|Teams是一个开放平台，供教育机构集成应用和创建自定义工作流。 我们将介绍如何在Teams之间使用应用商店，以与 IT 技术支持集成。 了解第三方应用治理、开源应用模板。 查看 App Studio 的动手示例，为机构创建快速自定义网站应用。|300|Dominic Williamson|
+|[使用远程和混合Teams 教育版](https://aka.ms/PR139)|我们将深入探讨远程和混合学习所需的一切信息。 包括如何使用正确的会议选项和策略创建联机会议。 了解如何通过自动化创建课堂团队。 了解如何支持协作教室环境。|200|Juliano Menegazzo Souza|
 ||||||
 
 ### <a name="frontline-worker"></a>一线辅助角色
@@ -109,5 +109,5 @@ ms.locfileid: "49909136"
 |---|----------|---|---|---|
 |[使用 Microsoft Teams 为一线员工启用业务连续性](https://aka.ms/OD258)|随着组织继续调整运营和员工以保持业务连续性，Microsoft Teams一线员工专注于满足客户需求。此会话重点介绍班次、任务和核心通信以及 Walkie Talkie 功能，以创建安全且集中的用户体验，从而节省时间和金钱。|200|Scott Scott Scotton、Zoe Haf|
 |[部署和管理Teams设备以满足一线员工的各种需求](https://aka.ms/PR114)|了解如何部署特定于前端的设备，使工作人员能够以新的方式专注于其前面的作业。  本演练将包含有关Teams Talkie 和免提协作的方案。 |200|James Chaudhry、James Ellis|
-|[使用中心管理中心中的功能管理Microsoft 365一线员工](https://aka.ms/PR115)|发现有关一线员工在 Microsoft 365中热门 IT 部署和管理方案的最佳实践和实用指南。 了解如何在客户中构建适当的体验Microsoft Teams成功推出解决方案以支持一线员工。 |300|Irina Parsina、Zoe Hainaf|  
+|[使用中心管理中心中的功能管理Microsoft 365一线员工](https://aka.ms/PR115)|发现有关一线员工在 Microsoft 365中热门 IT 部署和管理方案的最佳实践和实用指南。 了解如何在客户中构建适当的体验Microsoft Teams成功推出解决方案以支持一线员工。|300|Irina Parsina、Zoe Hainaf|  
 |||||

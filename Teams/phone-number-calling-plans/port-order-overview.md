@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 大致了解什么是转口订单以及如何将电话号码从服务提供商转移到Teams。
-ms.openlocfilehash: d7ca4769dcd1f320a7d0b8a8ed18fdba5b06abbd
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: f30bdc825caf7feadbb09bd4bbe65a4d5771a6a6
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615048"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278645"
 ---
 # <a name="whats-a-port-order"></a>什么是转网订单？
 

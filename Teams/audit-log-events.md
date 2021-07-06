@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: 了解如何从Microsoft Teams中心审核日志检索Microsoft 365数据。
+description: 了解如何从Microsoft Teams中检索审核日志数据Microsoft 365 合规中心。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4398ed1c89b1ece93bf2e1ca31947f6fadf7afa
-ms.sourcegitcommit: ea2ccf77ba86c3cc10184a2c8a2eceafc6842d1b
+ms.openlocfilehash: 027d3691a5e5c501beb69448a4d4060de4a7fad9
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52091669"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275671"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -127,37 +127,55 @@ ms.locfileid: "52091669"
 
 下面是为用户和管理员活动记录的所有事件的列表，Teams活动Microsoft 365 审核日志。 该表包括"活动"列中显示的友好名称，以及导出搜索结果时在审核记录的详细信息和 CSV 文件中显示的相应操作的名称。
 
-|友好名称  |操作|说明 |
-|---------|---------|---------|
+|友好名称  |操作 |说明 |
+|:---------|:---------|:---------|
 |向团队添加了机器人   |BotAddedToTeam        |用户向团队添加机器人。        |
 |添加频道   |ChannelAdded         |用户向团队添加频道。         |
 |添加了连接器  |ConnectorAdded          |用户向通道添加连接器。        |
 |添加了成员    |MemberAdded         |团队所有者将成员添加到团队、频道或群组聊天。         |
 |"已添加"选项卡    |TabAdded         |用户向频道添加选项卡。        |
 |更改了频道设置    |ChannelSettingChanged         |当团队成员执行以下活动时，将记录 ChannelSettingChanged 操作。 对于上述每个活动，更改的设置的说明 (显示在搜索结果的"项"列中，审核日志显示。  <ul><li>更改团队频道的名称 (**频道名称)**</li><li>更改团队频道的说明 (**频道说明)**</li> </ul>      |
-|已更改组织设置   |TeamsTenantSettingChanged         |当管理员中心的全局管理员执行以下活动时，将记录 TeamsTenantSettingChanged Microsoft 365操作。 这些活动会影响组织范围的Teams设置。 有关详细信息，请参阅[管理Teams的自定义设置](enable-features-office-365.md)。 <br>对于上述每个活动，更改的设置的说明 (显示在) 搜索结果中的"项"审核日志列中。 <ul><li>为组织Teams启用或禁用 **(Microsoft Teams) 。**</li><li>为组织启用或禁用Microsoft Teams与Skype for Business之间的 (Skype for Business **互操作性) 。**</li><li>在"组织结构图"视图中启用或禁用 **Microsoft Teams" ("组织结构图) 。**</li><li>启用或禁用团队成员安排私人会议 (**私人会议安排) 。**</li><li>启用或禁用团队成员安排频道会议 (**频道会议) 。**</li><li>为会议启用或禁用Teams会议 (**视频Skype会议) 。**</li><li>为组织的会议Microsoft Teams启用或禁用 (屏幕共享Skype **会议**) 。</li><li>启用或禁用添加名为 Giphys (动画图像) Teams动态 (**动画**) 。</li><li>更改组织的内容分级设置 (**内容分级) 。** 内容分级限制可在对话中显示的动画图像类型。</li><li>启用或禁用团队成员将可自定义图像（称为 (meme) 从 Internet 添加到团队对话 (Internet 中的可自定义图像) 。 </li><li>允许或禁用团队成员向团队对话添加可编辑图像 (贴纸) 添加到 (**可** 编辑) 。</li><li>启用或禁用团队成员在组织范围内聊天Microsoft Teams聊天和频道 (**机器人) 。**</li><li>为机器人启用特定Microsoft Teams。 这不包括 T-Bot，这是Teams为组织启用机器人时可用的帮助机器人， (**机器人**) 。</li><li>启用或禁用团队成员在"扩展"或选项卡 (**扩展或选项卡) 。**</li><li>启用或禁用专有机器人的旁加载Microsoft Teams (**机器人的旁加载) 。**</li><li>启用或禁用用户向频道电子邮件Microsoft Teams频道 (**发送电子邮件) 。**</li></ul>|
+|已更改组织设置   |TeamsTenantSettingChanged         |当团队中的全局管理员执行以下活动时，将记录 TeamsTenantSettingChanged Microsoft 365 管理中心。 这些活动会影响组织范围的Teams设置。 有关详细信息，请参阅[管理Teams的自定义设置](enable-features-office-365.md)。 <br>对于上述每个活动，更改的设置的说明 (显示在) 搜索结果中的"项"审核日志列中。 <ul><li>为组织Teams启用或禁用 **(Microsoft Teams) 。**</li><li>为组织启用或禁用Microsoft Teams与Skype for Business之间的 (Skype for Business **互操作性) 。**</li><li>在"组织结构图"视图中启用或禁用 **Microsoft Teams" ("组织结构图) 。**</li><li>启用或禁用团队成员安排私人会议 (**私人会议安排) 。**</li><li>启用或禁用团队成员安排频道会议 (**频道会议) 。**</li><li>为会议启用或禁用Teams会议 (**视频Skype会议) 。**</li><li>为组织的会议Microsoft Teams启用或禁用 (屏幕共享Skype **会议**) 。</li><li>启用或禁用添加名为 Giphys (动画图像) Teams动态 (**动画**) 。</li><li>更改组织的内容分级设置 (**内容分级) 。** 内容分级限制可在对话中显示的动画图像类型。</li><li>启用或禁用团队成员将可自定义图像（称为 (meme) 从 Internet 添加到团队对话 (Internet 中的可自定义图像) 。 </li><li>允许或禁用团队成员向团队对话添加可编辑图像 (贴纸) 添加到 (**可** 编辑) 。</li><li>启用或禁用团队成员在组织范围内聊天Microsoft Teams聊天和频道 (**机器人) 。**</li><li>为机器人启用特定Microsoft Teams。 这不包括 T-Bot，这是Teams为组织启用机器人时可用的帮助机器人， (**机器人**) 。</li><li>启用或禁用团队成员在"扩展"或选项卡 (**扩展或选项卡) 。**</li><li>启用或禁用专有机器人的旁加载Microsoft Teams (**机器人的旁加载) 。**</li><li>启用或禁用用户向频道电子邮件Microsoft Teams频道 (**发送电子邮件) 。**</li></ul>|
 |更改了团队成员在团队中的角色    |MemberRoleChanged         |团队所有者更改了团队中成员的角色。 以下值指示分配给用户的角色类型。 <br><br>**1** - 指示成员角色。<br>**2** - 指示"所有者"角色。<br>**3** - 指示来宾角色。<br><br>"成员"属性还包括组织名称和成员的电子邮件地址。        |
 |已更改团队设置    |TeamSettingChanged        |团队所有者执行以下活动时，将记录 TeamSettingChanged 操作。 对于上述每个活动，更改的设置的说明 (显示在) 搜索结果中的"项"审核日志列中。 <ul><li>更改团队的访问类型。 Teams可设置为专用或公用 (**团队访问类型) 。** 当团队是专用 (默认设置) ，用户只能通过邀请访问该团队。 当团队公开时，任何人都可以发现它。</li><li>更改团队信息分类 (**团队) 。** 例如，可以将团队数据分类为高业务影响、中等业务影响或低业务影响。</li><li>将团队名称 (**团队名称) 。**</li><li>将团队说明 (**团队说明) 。**</li><li>对团队设置所做的更改。 若要访问这些设置，团队所有者可以右键单击某个团队，选择"**管理团队"，** 然后单击"设置选项卡。 对于这些活动，更改的设置的名称会显示在搜索结果的"项"审核日志列中。 </li></ul>         |
+|创建聊天 <sup>1</sup>|   ChatCreated|    已Teams聊天。|
 |已创建团队    |TeamCreated         |用户创建团队。         |
 |删除所有组织应用|DeletedAllOrganizationApps           |从目录中删除所有组织应用。     |
 |已删除的应用 |AppDeletedFromCatalog           |应用已从目录中删除。     |
 |已删除的通道     |ChannelDeleted         |用户从团队中删除频道。         |
 |已删除的团队  |TeamDeleted            |团队所有者删除团队。      |
 |在邮件中编辑了包含 URL 链接Teams     |MessageEditedHasLink         |用户编辑消息，并将 URL 链接添加到消息Teams。         |
+|导出的消息 <sup>1</sup> |   MessagesExported |已导出聊天或频道消息|.
+|提取的聊天 <sup>1</sup> |ChatRetrieved  |检索Microsoft Teams聊天。|
+|提取消息的所有托管内容<sup>1</sup>    |MessageHostedContentsListed    |检索了消息中所有托管的内容，例如图像或代码片段。|
 |已安装的应用 |AppInstalled         |已安装应用。   |
 |对卡片执行的操作|PerformedCardAction|用户在聊天中对自适应卡采取措施。 机器人通常使用自适应卡来丰富信息，以及聊天中的交互。 <br/><br/>**注意：** 只有聊天内自适应卡上的内联输入操作才能在聊天审核日志。 例如，当用户在轮询机器人生成的自适应卡上的通道聊天中提交轮询响应时。 用户操作（如"查看结果"）将打开一个对话框，或者对话框中的用户操作在对话框中审核日志。|
+|发布新消息 <sup>1</sup>  |消息发送新消息已发布至聊天或频道。|
 |已发布的应用 |AppPublishedToCatalog           |应用程序已添加到目录。     |
+|阅读邮件 <sup>1</sup>    |MessageRead    |检索了聊天或频道的消息。|
+|读取邮件的托管内容 <sup>1</sup>  |MessageHostedContentRead   |检索了消息中的托管内容，例如图像或代码片段。|
 |已从团队中删除机器人   |BotRemovedFromTeam         |用户从团队中删除机器人。       |
 |删除了连接器     |ConnectorRemoved         |用户从通道中删除连接器。         |
 |已删除成员    |MemberRemoved        |团队所有者从团队、频道或群组聊天中删除成员。         |
 |"已删除"选项卡    |TabRemoved         |用户从频道中删除选项卡。         |
+|检索的消息 <sup>1</sup>    |MessagesListed |检索了来自聊天或频道的消息。|
 |在邮件中发送了包含 URL 链接Teams |MessageCreatedHasLink|用户发送一条消息，其中包含一个 URL Teams。|
+|发送了消息创建更改通知 <sup>1</sup> |MessageCreatedNotification |已发送更改通知，向订阅的侦听器应用程序通知新消息。|
+|已发送消息删除更改通知 <sup>1</sup> |MessageDeletedNotification |已发送更改通知，以通知订阅的侦听器应用程序已删除消息。|
+|消息更新<sup>1</sup>的已发送更改通知   |MessageUpdatedNotification |已发送更改通知，以通知订阅的侦听器应用程序已更新消息。|
+|订阅消息更改通知 <sup>1</sup>    |SubscribedToMessages   |侦听器应用程序创建了一个订阅，用于接收消息更改通知。|
 |已卸载的应用 |AppUninstalled           |应用已卸载。     |
 |更新的应用 |AppUpdatedInCatalog           |在目录中更新了应用。     |
+|更新了聊天 <sup>1</sup>    |ChatUpdated    |更新Teams聊天。|
+|更新了消息 <sup>1</sup> |MessageUpdated |聊天或频道的消息已更新。|
 |更新的连接器    |ConnectorUpdated         |用户修改了通道中的连接器。         |
 |"更新"选项卡   |TabUpdated         |用户修改了频道中的选项卡。         |
 |升级后的应用 |AppUpgraded           |应用已升级到目录中的最新版本。     |
 |用户登录到 Teams     |TeamsSessionStarted         |用户登录 Microsoft Teams 客户端。 此事件不会捕获令牌刷新活动。         |
+||||
+
+> [!NOTE]
+> <sup>1</sup>只有在通过调用 Microsoft Graph API 执行该操作时，才记录此事件的审核记录。 如果在客户端中Teams操作，将不会记录审核记录
 
 ## <a name="shifts-in-teams-activities"></a>活动Teams班次
 
@@ -205,4 +223,4 @@ Teams (的成员身份更改（例如，通过 Azure Active Directory (Azure AD)
 
 ## <a name="related-topics"></a>相关主题
 
-- [在审核日志中心Microsoft 365搜索](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [在审核日志搜索Microsoft 365 合规中心](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

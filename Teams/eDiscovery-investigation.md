@@ -17,12 +17,12 @@ description: 了解需要执行电子数据展示（例如，需要提交所有�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca1a679fbdce7ca2840c41266053cf13f1452fe0
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: ebc1bb12b8a864e65cf6cb26b3d2022ae2e1563b
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197527"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275681"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -38,23 +38,23 @@ ms.locfileid: "51197527"
 
 | 内容类型 | 电子数据展示 | 注释 |
 |:--- | :--- |:--- |
-|录音 | 不支持 | |
+|录音 | 否 | |
 |卡片内容|是|有关详细信息 [，请参阅搜索](#search-for-card-content) 卡片内容。|
 |聊天链接 | 是 | |
 |聊天消息 | 是 |这包括以下Teams中的内容、1：1 聊天、1：N 群组聊天，以及与来宾用户参与者的聊天。  |
-|代码片段 | 不支持 | |
+|代码片段 | 否 | |
 |已编辑的消息 | 是 | 如果用户保持保留状态，也会保留以前版本的已编辑消息。 |
 |表情符号、GIF 和贴纸 | 是 | |
 |内联图像 | 是 | |
 |会议 IM 对话 | 是 | |
 |会议元数据<sup>1</sup> | 是 |  |
-|频道名称 | 不支持 | |
+|频道名称 | 否 | |
 |专用频道消息 | 是 | |
 |引号 | 是 | 引用的内容可搜索。 但是，搜索结果并不指示内容已引用。 |
-|反应 (，如喜欢、心声和其他反应)  | 不支持 | |
+|反应 (，如喜欢、心声和其他反应)  | 否 | |
 |主题 | 是 | |
 |表 | 是 | |
-|源通知 | 不支持 | |
+|源通知 | 否 | |
 |||
 
 <sup>1</sup> 会议 (呼叫) 元数据包括以下内容：
@@ -82,7 +82,7 @@ ms.locfileid: "51197527"
 
 Microsoft Teams电子数据展示导出输出中，Excel IM 或对话。 导出邮件 `.pst` 后，Outlook打开文件以查看这些邮件。
 
-查看团队的 .pst 文件时，所有对话都保留在"对话历史记录"下的"团队聊天"文件夹中。 消息的标题包含团队名称和频道名称。 例如，下图显示了 Bob 发来的消息，他向制造规范Project 7 标准频道发送消息。
+查看团队的 .pst 文件时，所有对话都位于"对话历史记录"下的"团队聊天"文件夹中。 消息的标题包含团队名称和频道名称。 例如，下图显示了 Bob 发来的消息，他向制造规范Project 7 标准频道发送消息。
 
 ![用户邮箱中的团队聊天文件夹的屏幕截图Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 

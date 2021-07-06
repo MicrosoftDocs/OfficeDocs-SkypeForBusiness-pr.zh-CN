@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 配置Teams 会议室设备，Surface Hub一台设备加入会议时加入会议。
-ms.openlocfilehash: 57dc91e4a7d923e218cd1f8f6f0ce22679d550e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b81d6fca5c263bb8ba1dcd07e80167425bd42fc0
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117560"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278675"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>使用会议设置协调Microsoft Teams 会议室Surface Hub
 
@@ -46,13 +46,13 @@ ms.locfileid: "51117560"
 
 ## <a name="step-2-get-your-devices-upns"></a>步骤 2：获取设备的 UPN
 
-当您在会议室中设置协调会议体验时，您需要告知Teams 会议室会议室中的设备和 Surface Hub 要协调哪些设备。 为此，将用户主体名称 (UPN) 应协调到其配置的设备中。 如果不知道要为协调会议设置的每个设备的 UPN，可以使用管理中心Microsoft 365 UPN。 
+当您在会议室中设置协调会议体验时，您需要告知Teams 会议室会议室中的设备和 Surface Hub 要协调哪些设备。 为此，将用户主体名称 (UPN) 应协调到其配置的设备中。 如果不知道要为协调会议设置的每个设备的 UPN，可以使用Microsoft 365 管理中心。 
 
-需要为用户分配管理员角色才能访问Microsoft 365中心。 有关详细信息，请参阅 [关于管理员角色](/microsoft-365/admin/add-users/about-admin-roles)。
+需要分配管理员角色才能访问Microsoft 365 管理中心。 有关详细信息，请参阅 [关于管理员角色](/microsoft-365/admin/add-users/about-admin-roles)。
 
 若要获取 Teams 会议室 和 Surface Hub 的 UPN，请执行下列操作：
 
-1. 访问 登录到 Microsoft 365 管理中心 https://admin.microsoft.com 。
+1. 访问 登录到 https://admin.microsoft.com Microsoft 365 管理中心。
 2. 转到"**用户**  >  **""活动用户"。**
 3. 在"显示名称"Teams 会议室或Surface Hub"名称"列中 ("搜索"框，如果有许多用户) 。 
 4. 在"用户名"列中找到UPN (该 UPN 的外观与 alias@contoso.com 或 alias@contoso.onmicrosoft.com) 。

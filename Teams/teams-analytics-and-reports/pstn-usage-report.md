@@ -17,12 +17,12 @@ description: 了解如何使用 Teams 管理中心Microsoft Teams PSTN 使用情
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 402e602e9f15beef30f0c44901398fa22b63c807
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: af904400b7a20befe650977c4baea035f998cf86
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262664"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278515"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft TeamsPSTN 使用情况报告
 
@@ -140,7 +140,7 @@ CSV 的第一行包含列名称。 所有日期均采用 UTC 和 [ISO 8601](http
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | 唯一调用标识符 |
 > | 1 | SIP 地址 | `nvarchar(128)` | 进行或接收呼叫的用户或机器人的地址。<br/>请注意，这实际上是 UserPrincipalName (UPN，) 登录Azure Active Directory，这通常与 SIP 地址相同 |
-> | 2 | 显示名称 | `nvarchar(128)` | 用户或呼叫机器人的名称，例如 (管理中心自动助理) 呼叫队列Microsoft 365名称 |
+> | 2 | 显示名称 | `nvarchar(128)` | 用户或呼叫机器人的名称，例如 (队列或自动助理) 中设置Microsoft 365 管理中心 |
 > | 3 | 用户国家/地区 | `nvarchar(2)` | 用户的国家/地区代码 [，ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | 邀请时间 | `datetimeoffset` | 当初始邀请在出站时Teams用户或机器人调用 SBC，或者从 SBC 直接路由的 SIP 代理组件在入站到 Teams 或机器人调用时收到 |
 > | 5 | 开始时间 | `datetimeoffset` | SIP 代理从出站 (Teams/机器人上的 SBC 收到最终答案 (SIP 消息"200 正常") 给 PSTN 用户) 的时间，或者 SIP 代理在入站呼叫 (PSTN 用户上向 Teams/Bot) 发送 Teams 后端内的下一跃点邀请后的时间。<br/>对于失败和未接听的调用，这相当于邀请或失败时间 |

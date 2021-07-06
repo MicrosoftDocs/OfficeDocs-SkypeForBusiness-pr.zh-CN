@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 外围设备和设备 (耳机、免提电话、网络摄像机和监视器) 认证Microsoft Teams。
-ms.openlocfilehash: f8caa5a2d4ef374ce834e801f80370e5cb4251ac
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: e3225490e52b527e02449796d614107221853554
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105124"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278505"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经认证的 USB 音频和视频设备Microsoft Teams
 
@@ -74,10 +74,11 @@ ms.locfileid: "53105124"
 
 ## <a name="certified-devices"></a>认证设备
 
-*表更新时间：2021 年 6 月*
+*表更新时间：2021 年 7 月*
 
 | 制造商        | 模型                                                     | 限定      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |认证Microsoft Teams                           |
 |Dell                 |Ultrasharp 网络摄像机 WB7022                                   |6/16/2021       |认证Microsoft Teams                           |
 |NEC                  |WD551 Windows协作显示                        |5/21/2021       |认证Microsoft Teams                           |
 |Logitech             |C920e 网络摄像机                                               |4/22/2021       |认证Microsoft Teams                           |

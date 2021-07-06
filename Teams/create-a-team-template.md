@@ -16,18 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 5e4fc9b8ace3cec2161008cffe61a8b312e61f39
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506730"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278455"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft Teams 中创建自定义团队模板
 
 **EDU 客户尚不支持自定义模板。**
 
 自定义团队模板是一个预定义的团队结构，包含一组频道、选项卡和应用。 可以开发一个模板来帮助你快速创建正确的协作空间。 自定义团队模板使用首选设置。  
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4P5rx]
+
 
 若要开始，请：
 
@@ -64,7 +69,7 @@ ms.locfileid: "51506730"
 新模板将显示在"团队 **模板"** 列表中。 该模板可用于在 Teams。
 
 > [!Note]
-> 团队用户最多可能需要 24 小时才能在库中看到自定义模板。
+> 团队用户最多可能需要 24 小时才能在库中查看自定义模板更改。
 
 ## <a name="customizing-website-tab-apps"></a>自定义网站选项卡应用
 

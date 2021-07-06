@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用 API 管理组织中专用Graph通道。
-ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 263c490156a3dc02ddc8f81233a049ff020c72f8
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117740"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278525"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>管理专用频道在 Microsoft Teams
 
@@ -149,7 +149,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
-    
+
     **响应**
 
     ```Graph API
@@ -177,7 +177,8 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
               }
           ]
     }
-    ```    
+    ```
+
 2. 使用以下代码将成员提升为所有者，其中，group_id 、channel_id 和 ID 从上一个 &lt; &gt; &lt; &gt; &lt; &gt; 调用返回。 请注意，从上一个调用返回的 ID 和 userId 不相同， &lt; &gt; &lt; &gt; 并且不可互换。 请确保使用 &lt; ID &gt; 。
 
     **请求**

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 使用Microsoft Teams配置设计器Surface Hub管理Microsoft Intune Windows设置
-ms.openlocfilehash: 9c16fa4875febd3c9e0a8457626db5e09bf90545
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d368bed6db1d86e9c97d849d462edd1ff0a21c6d
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117380"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278465"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>管理Microsoft Teams上的Surface Hub
 
