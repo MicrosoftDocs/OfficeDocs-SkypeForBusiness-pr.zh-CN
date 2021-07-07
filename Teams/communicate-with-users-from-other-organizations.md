@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 了解如何使用外部访问（联盟）和来宾访问在 Microsoft Teams 中与组织外部的人员进行通话和聊天以及查找和添加这些人员。
-ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bda5652aedd8d071984334a3851e50ba52400943
+ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115990"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53301997"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用来宾访问权限和外部访问权限与组织外部的人员进行协作
 
@@ -77,7 +77,7 @@ ms.locfileid: "51115990"
 | 组织外部的人员可以 | 外部访问用户 | 来宾 |
 |---------|-----------------------|--------------------|
 | 访问 Teams 资源 | 否 | 是 |
-| 被添加到群聊 | 否 | 是 |
+| 被添加到群聊 | 是 | 是 |
 | 受邀加入会议 | 是 | 是 |
 | 拨打私人电话 | 是 | 是<sup>5</sup> |
 | 查看拨入会议参与者的电话号码 | 否<sup>4</sup> | 是 |
