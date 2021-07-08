@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解如何从Microsoft Teams中检索审核日志数据Microsoft 365 合规中心。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 027d3691a5e5c501beb69448a4d4060de4a7fad9
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: d130ea4e72b6343def4bfe232934063e0385b72d
+ms.sourcegitcommit: 08bcad09296c96354f0e6203a623dc548e827aa2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275671"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53324455"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -69,7 +69,7 @@ ms.locfileid: "53275671"
 
   ![搜索审核日志屏幕截图](media/audit-log-search.png)
 
-- 若要显示使用 cmdlet 运行的活动的事件，请在"活动"列表中选择"显示所有活动 **的结果**"。 如果知道这些活动的操作名称，请搜索所有活动，然后在"活动"列中的框中键入操作 **的名称来筛选** 结果。 若要了解有关详细信息，请参阅 [步骤 3：筛选搜索结果](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)。
+- 若要显示使用 cmdlet 运行的活动的事件，请在"活动"列表中选择"显示所有活动 **的结果**"。 如果知道这些活动的操作名称，请搜索所有活动，然后在"活动"列中的框中键入操作 **的名称来筛选** 结果。 若要了解有关详细信息，请参阅 [步骤 3：筛选搜索结果](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)。
 
 - 若要清除当前搜索条件，请单击"清除 **"。** 日期范围将返回到过去七天的默认值。 还可以单击"全部 **清除"以显示所有活动的结果，** 以取消所有选定的活动。
 
@@ -87,13 +87,13 @@ ms.locfileid: "53275671"
 
 你可能希望从业务角度关注一个方案，即将外部用户Teams环境中。 如果启用了外部用户，则监视其状态是个不错的主意。  可以使用[云应用安全识别](/cloud-app-security/what-is-cloud-app-security)潜在威胁。
 
-![由大量删除触发的事件列表的屏幕截图](media/TeamsExternalUserAddPolicy.png)
+![用于监视添加外部用户的策略](media/TeamsExternalUserAddPolicy.png)
 
 此策略的屏幕截图用于监视添加外部用户，允许命名策略、根据业务需求设置严重性、将严重性设置为 (（在这种情况下为) 个活动）并创建专门监视非内部用户的添加的参数，然后将此活动限制为 Teams。
 
 可以在活动日志中查看此策略的结果：
 
-![由大量删除触发的事件列表的屏幕截图](media/TeamsExternalUserList.png)
+![外部用户策略触发的事件](media/TeamsExternalUserList.png)
 
 可在此处查看已设置的策略的匹配项，根据需要做出任何调整，或导出结果以在其他地方使用。
 
@@ -101,13 +101,13 @@ ms.locfileid: "53275671"
 
 如前所述，可以监视删除方案。 可以创建一个策略来监视大量删除Teams站点。 本示例设置了基于警报的策略，以在 30 分钟内检测团队的大规模删除。
 
-![策略创建页的屏幕截图，其中显示了大规模团队删除检测策略的设置](media/TeamsMassDeletePolicy.png)
+![显示大规模团队删除检测策略设置的策略](media/TeamsMassDeletePolicy.png)
 
 如屏幕截图所示，您可以为此策略设置许多不同的参数来监视 Teams 删除，包括严重性、单一或重复操作，以及限制此操作以Teams和站点删除的参数。 可以独立于模板完成此操作，或者根据组织需求创建模板，以基于此策略。
 
 建立适用于业务的策略后，可以在触发事件时查看活动日志中的结果：
 
-![由大量删除触发的事件列表的屏幕截图](media/TeamsMassDeleteList.png)
+![由大量删除触发的屏幕截图事件](media/TeamsMassDeleteList.png)
 
 可以筛选到已设置的策略，以查看该策略的结果。 如果在活动日志中获得的结果不理想 (可能是因为看到的结果很多，或者) 没有任何结果，这可以帮助你微调查询，使其与需要它执行哪些操作更相关。
 
@@ -146,7 +146,7 @@ ms.locfileid: "53275671"
 |已删除的团队  |TeamDeleted            |团队所有者删除团队。      |
 |在邮件中编辑了包含 URL 链接Teams     |MessageEditedHasLink         |用户编辑消息，并将 URL 链接添加到消息Teams。         |
 |导出的消息 <sup>1</sup> |   MessagesExported |已导出聊天或频道消息|.
-|提取的聊天 <sup>1</sup> |ChatRetrieved  |检索Microsoft Teams聊天。|
+|提取的聊天 <sup>1</sup>  |ChatRetrieved  |检索Microsoft Teams聊天。|
 |提取消息的所有托管内容<sup>1</sup>    |MessageHostedContentsListed    |检索了消息中所有托管的内容，例如图像或代码片段。|
 |已安装的应用 |AppInstalled         |已安装应用。   |
 |对卡片执行的操作|PerformedCardAction|用户在聊天中对自适应卡采取措施。 机器人通常使用自适应卡来丰富信息，以及聊天中的交互。 <br/><br/>**注意：** 只有聊天内自适应卡上的内联输入操作才能在聊天审核日志。 例如，当用户在轮询机器人生成的自适应卡上的通道聊天中提交轮询响应时。 用户操作（如"查看结果"）将打开一个对话框，或者对话框中的用户操作在对话框中审核日志。|

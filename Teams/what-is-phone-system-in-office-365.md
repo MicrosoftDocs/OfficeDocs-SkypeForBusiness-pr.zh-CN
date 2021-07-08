@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 本文介绍 电话系统 和 Office 365 中的 Microsoft 365 技术。
-ms.openlocfilehash: 0c750a4abe92b9fee83a3d152db92c767147d295
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0b05c5e0f3fe0f684f160e75e62cec2f36fc86b
+ms.sourcegitcommit: 70f47cc2333e790c15c3f9f209302afdbb5a07d7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100918"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53333086"
 ---
 # <a name="what-is-phone-system"></a>什么是电话系统？
 
@@ -55,7 +55,7 @@ PBX Exchange (专用) 是企业内的电话系统。 电话系统 PBX 功能，�
 
   对于Teams，可以使用直接路由将本地电话基础结构连接到 电话系统。 有关详细信息，请参阅直接[电话系统路由](direct-routing-landing-page.md)。
 
-  有关所有 Microsoft 电话解决方案的更多信息，请参阅 [Microsoft 电话解决方案](/SkypeForBusiness/hybrid/msft-telephony-solutions)。
+  有关所有 Microsoft 电话解决方案的更多信息，请参阅[规划语音Teams解决方案](cloud-voice-landing-page.md)。
 
 
 ## <a name="phone-system-with-services"></a>电话系统服务
