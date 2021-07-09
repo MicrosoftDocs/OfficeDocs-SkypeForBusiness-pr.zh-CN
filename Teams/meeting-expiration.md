@@ -17,23 +17,18 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 了解如何使用会议策略设置来控制会议Microsoft Teams。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6e8821781eab70696c9b24c8df18cc8dd0b46870
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e201348ba1734539844a76b0fee2e2f072757e87
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598611"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337811"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>会议策略和会议到期时间Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-## <a name="overview"></a>概述
-
 [会议](meeting-policies-in-teams.md)Microsoft Teams用于控制您的组织中的用户是否可以启动和安排会议，以及可供会议参与者用于用户安排的会议的功能。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 在管理中心内Microsoft Teams使用 Get、New、Set、Remove、Grant [](/powershell/module/skype/new-csteamsmeetingpolicy)-CsTeamsMeetingPolicy PowerShell cmdlet 管理会议策略。 [](/powershell/module/skype/get-csteamsmeetingpolicy) [](/powershell/module/skype/set-csteamsmeetingpolicy) [](/powershell/module/skype/remove-csteamsmeetingpolicy) [](/powershell/module/skype/grant-csteamsmeetingpolicy)
 
-控制用户是否可以启动和安排会议的会议策略设置还控制用户安排的会议的到期时间。 当会议的会议加入链接和会议 ID 过期时，没有人可以加入会议。 以下会议策略设置确定用户是否可以在 Teams 中启动和安排会议，我们整篇文章中都提到了这些设置。
+会议策略设置，用于控制用户是否可以启动和安排会议，以及控制用户安排的会议的到期时间。 当会议的会议加入链接和会议 ID 过期时，没有人可以加入会议。 以下会议策略设置确定用户是否可以在 Teams 中启动和安排Teams。 本文介绍会议设置。
 
 - [在频道中允许](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)"现在开会"：控制用户是否可以在频道中启动即席会议。
 - [允许频道会议计划](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)：控制用户是否可以在频道中安排会议。
@@ -63,14 +58,14 @@ ms.locfileid: "51598611"
 
 ## <a name="meeting-expiration-scenarios"></a>会议过期方案
 
-下面汇总了本文中讨论的每个会议策略设置的会议到期工作原理。 
+下面汇总了本文中讨论的每个会议策略设置的会议到期工作原理。
 
-|如果你想要... |执行此操作  |会议加入行为  |
-|---------|---------|---------|
-|使频道"现在开会"由用户启动的会议过期  |在频道 **中关闭"允许现在开会"。**|没有人可以加入频道会议现在由用户启动的会议。         |
-|使用户安排的频道会议过期   |关闭"**允许频道会议计划"。**         |没有人可以加入用户安排的频道会议。 这可以防止用户加入以下活动：<ul><li>过去发生的频道会议。</li> <li>计划在将来召开但尚未发生的频道会议。</li><li>将来的定期频道会议实例。</li></ul>       |
-|使用户安排的私人会议过期    |关闭 **"允许安排私人会议***"，并关闭*"允许 **Outlook加载项"。**          |没有人可以加入用户安排的私人会议。 这可以防止用户加入以下活动： <ul><li>过去发生的私人会议。</li> <li>计划在将来召开但尚未发生的私人会议。</li><li>将来的定期私人会议实例。</li></ul> "**允许安排私人** 会议"和"**允许** Outlook必须关闭加载项，以使用户安排的私人会议过期。 如果一个设置处于关闭状态，另一个设置处于打开状态，则现有会议的会议加入链接和会议 ID 将保持活动状态，并且不会过期。      |
-|使专用会议现在由用户启动的会议过期  |在私人 **会议中关闭"允许现在开会"。**          |现在没有人可以加入由用户启动的私人会议。         |
+|如果你希望...&nbsp;&nbsp; |执行此操作&nbsp;&nbsp;&nbsp;&nbsp;  |会议加入行为&nbsp;&nbsp;&nbsp;&nbsp;  |
+|---------------------------|---------------------|---------|
+|使专用会议现在由用户启动的会议过期&nbsp;&nbsp;|在私人 **会议中关闭"允许现在开会"。**&nbsp;&nbsp;|现在没有人 **可以加入由** 用户启动的私人会议。|
+|使用户安排的私人会议过期&nbsp;&nbsp;|关闭 **"允许安排私人会议**_"，并关闭_"允许 **Outlook加载项"。** &nbsp;&nbsp;|没有人可以加入用户安排的私人会议。 这可以防止用户加入以下会议：<ul><li>过去发生的私人会议。</li><li>计划在将来召开但尚未发生的私人会议。</li><li>将来的定期私人会议实例。</li></ul><br>"**允许安排私人** 会议"和"**允许** Outlook必须关闭加载项，以使用户安排的私人会议过期。 如果一个设置处于关闭状态，另一个设置处于打开状态，则现有会议的会议加入链接和会议 ID 将保持活动状态，并且不会过期。|
+|使频道 **"现在开会** "由用户启动的会议过期&nbsp;&nbsp;|在频道 **中关闭"允许现在开会"，**_并_ 关闭"**允许频道会议安排"。**&nbsp;&nbsp;|没有人可以加入频道 **会议现在** 由用户启动的会议。|
+|使用户安排的频道会议过期&nbsp;&nbsp;|关闭"**允许频道会议计划"。**&nbsp;&nbsp;|没有人可以加入用户安排的频道会议。 这可以防止用户加入以下会议：<ul><li>过去发生的频道会议。</li><li>计划在将来召开但尚未发生的频道会议。</li><li>将来的定期频道会议实例。</li></ul>|
 
 如果希望用户访问以前由特定用户安排或启动的会议，您可以：
 

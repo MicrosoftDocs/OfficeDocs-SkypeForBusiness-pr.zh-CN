@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何为用户启用Microsoft 电话直接路由。
-ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
-ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
+ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53129322"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345708"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>为用户启用直接路由、语音和语音邮件
 
@@ -53,7 +53,9 @@ ms.locfileid: "53129322"
 
 有关许可证要求的信息，请参阅计划 [直接路由](direct-routing-plan.md#licensing-and-other-requirements) 中的许可 [和其他要求](direct-routing-plan.md)。
 
-## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>确保用户联机 (，Skype for Business Server 企业语音迁移到直接路由Teams的用户) 
+## <a name="ensure-that-the-user-is-homed-online"></a>确保用户已联机进行家庭管理 
+
+此步骤适用于将Skype for Business Server 企业语音迁移到直接路由Teams的用户。
 
 直接路由要求用户联机进行归居。 可以通过查看 RegistrarPool 参数来检查，该参数需要在 infra.lync.com 中。 在将用户迁移到直接路由时，建议（但不要求）将 LineURI 的管理从本地更改为联机Teams。 
 

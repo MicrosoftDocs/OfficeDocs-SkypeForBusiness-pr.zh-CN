@@ -18,12 +18,12 @@ description: 了解如何配置 Microsoft 呼叫计划并电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5454eff6e09e923a6db8de1ba8c9e9fe47c3f0f2
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 5e399c5e18bc90f99ebe59f3f4e603da5f7cbfe9
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096306"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337831"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -83,6 +83,9 @@ Microsoft 呼叫计划和直接路由电话系统动态紧急呼叫提供配置�
 - Teams Android 客户端和 Google Play 商店版本 1416/1.0.0.2019121201 及更大版本的移动客户端
 - Teams 1449/1.0.94.2019110802 及更大版本
 - Teams 会议室 4.4.25.0 及更大版本
+
+> [!NOTE]
+> 3PIP 电话不支持动态紧急呼叫。 
 
 > [!NOTE]
 > Web 客户端不支持动态紧急呼叫，包括安全Teams通知。 若要防止用户使用 Teams Web 客户端呼叫 PSTN 号码，你可以设置Teams策略并关闭"允许 **Web PSTN** 呼叫"设置。 有关详细信息，[请参阅在](teams-calling-policy.md)Teams[和 Set-CsTeamsCallingPolicy 中调用策略](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 
