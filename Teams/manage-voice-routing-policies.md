@@ -1,7 +1,7 @@
 ---
-title: 管理语音路由策略Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: 管理直接路由的语音路由策略
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在语音路由服务中创建和管理Microsoft Teams。
-ms.openlocfilehash: ac856ef05d425208af43307ebe12ff0c4776ca51
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7023100850eb34d6adf61c99de5f3568afed6aeb
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101068"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354282"
 ---
-# <a name="manage-voice-routing-policies-in-microsoft-teams"></a>管理语音路由策略Microsoft Teams
+# <a name="manage-voice-routing-policies-for-direct-routing"></a>管理直接路由的语音路由策略
 
 如果已在你的组织中部署了[电话系统 直接](direct-routing-landing-page.md)路由，则使用语音路由策略允许 Teams 和 Skype for Business Online 用户使用本地电话基础结构接收公用电话交换网 (PSTN) 并拨打电话。
 

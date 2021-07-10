@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 3c9e23d8072adf9f64a83821300819bbe0455b80
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 81f50df8b008fe8be945917b6fa085ead85c2b25
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278475"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354388"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams Ignite 2020 研讨会
 
@@ -23,16 +23,16 @@ ms.locfileid: "53278475"
 
 | 标题                      |  摘要                                                |                    扬声器                                                        |
 |--------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------|
-|[创建具有弹性、包容性和混合Microsoft Teams](https://aka.ms/DB156) |组织正在迁移到混合工作区，以支持远程员工和现场员工的需求。 第一部分，了解团队如何Teams会议、虚拟事件和通话以及新的设备体验保持联系。 我们将展示该Teams如何有助于简化工作流、改进决策以及集成应用程序生态系统。 <br> 另请查看本系列的第二部分会话代码 DB158。|Nicole Herskowitz                 |
-|[通过会议更智能地召开会议、保持专注Microsoft Teams实现更多目标](https://aka.ms/DB151)  |会议是完成工作的基础。 了解Teams会议如何帮助您和组织提高工作效率，同时适应新的工作方式。  |Shiraz Cupala|
-|[Microsoft Teams调用变得简单](https://aka.ms/DB149)  |Enterprise在 Teams 中调用 非常简单，部署和使用起来很简单。 了解通话Teams的基础知识，同时在通话中了解最新信息，例如新的通话体验和协作呼叫。 |Paul Cannon、Laura Kramer、Lauraa Kim|
-|[一个供管理员管理Microsoft Teams的地方：可管理性Teams新增功能](https://aka.ms/DB144) |Teams管理员具有灵活精细的管理功能。 这些功能允许他们为组织创建最符合业务需求的自定义体验。 在此会话中，我们将围绕团队管理中心门户介绍最新和最好的功能，讨论策略、应用管理、设备管理、报告、分析和故障排除以及 PowerShell 中的新增功能。 |Ronit Ben-Sheffer、Jamie Ron|
-|[缩放和自定义虚拟会议和事件Microsoft Teams](https://aka.ms/DB138)|会议采用所有形状和大小 - 了解如何使用Teams组织和管理下一个大型活动。 Teams组织的需求无缝缩放，为各种规模的活动提供自定义和提供最佳与会者体验的方式。  |Christina Torok、Ashwin App christ|
-|[使用设备在混合工作区中实现Microsoft Teams体验](https://aka.ms/DB147) |设备Microsoft Teams简介。 Teams设备旨在帮助用户最大程度地发挥Teams并缩小远程工作区和共享工作区之间的间距。 了解旨在提供以人为中心的会议室体验和重新设计个人工作区的设备，从而在设备上实现更具包容性的协作Microsoft Teams体验。  |Kendra Baker、Greg Baribault|
-|[使用 Microsoft Teams 平台Microsoft Teams工作区](https://aka.ms/DB157) |了解新平台中所有新的和现有的扩展Teams点。 了解如何创建功能强大的应用和解决方案来解决业务需求。|Archana Saseetharan、Michal Lesiczka|
-|[使用 Microsoft 365 平台重新Microsoft 365工作](https://aka.ms/DB146)|该Microsoft 365平台可帮助组织定制其环境的方方面面，帮助用户更好地工作和协作。 通过添加 Microsoft Graph 中的见解和相关的数据，了解每个应用如何进一步Graph。 了解每个应用如何与跨应用的工作流集成，包括Microsoft Teams。 了解应用如何跨设备提供独特且吸引人的体验。 利用可以加速应用创建的关键构建基块。|米萨纳竞技场、Mike Ammerlaan|
-|[使用低代码解决方案简化Microsoft Teams & Microsoft 365](https://aka.ms/DB141) |Teams和Microsoft 365是适合所有人的平台，即使你没有任何专业开发经验。  了解针对 Teams 和 Microsoft 365 的低代码创新如何让团队更轻松地构建和使用自定义应用、机器人、自动化和数据来解决具有挑战性业务流程的问题。|在 Weston Lander 中，在 2016、2016、2016、20|
-|[安全与合规性Microsoft Teams新增功能](https://aka.ms/DB140) | 启用安全的远程工作非常重要。 在此会话中，了解跨安全性和Teams的最新功能。 我们将介绍如何使用组织内部的智能和Microsoft 365 Teams确保组织的安全与合规。 主题包括保护信息免受数据泄漏影响、启用安全且包容性的会议，以及跨全球法规和业务要求维护合规的组织。|John Gruszczyk|
+|[创建具有弹性、包容性和混合Microsoft Teams](https://aka.ms/IG20-DB156-R1) |组织正在迁移到混合工作区，以支持远程员工和现场员工的需求。 第一部分，了解团队如何Teams会议、虚拟事件和通话以及新的设备体验保持联系。 我们将展示该Teams如何有助于简化工作流、改进决策以及集成应用程序生态系统。 <br> 另请查看本系列的第二部分会话代码 DB158。|Nicole Herskowitz                 |
+|[通过会议更智能地召开会议、保持专注Microsoft Teams实现更多目标](https://aka.ms/IG20-DB151)  |会议是完成工作的基础。 了解Teams会议如何帮助您和组织提高工作效率，同时适应新的工作方式。  |Shiraz Cupala|
+|[Microsoft Teams调用变得简单](https://aka.ms/IG20-DB149)  |Enterprise在 Teams 中调用 非常简单，部署和使用起来很简单。 了解通话Teams的基础知识，同时在通话中了解最新信息，例如新的通话体验和协作呼叫。 |Paul Cannon、Laura Kramer、Lauraa Kim|
+|[一个供管理员管理Microsoft Teams的地方：可管理性Teams新增功能](https://aka.ms/IG20-DB144) |Teams管理员具有灵活精细的管理功能。 这些功能允许他们为组织创建最符合业务需求的自定义体验。 在此会话中，我们将围绕团队管理中心门户介绍最新和最好的功能，讨论策略、应用管理、设备管理、报告、分析和故障排除以及 PowerShell 中的新增功能。 |Ronit Ben-Sheffer、Jamie Ron|
+|[缩放和自定义虚拟会议和事件Microsoft Teams](https://aka.ms/IG20-DB138)|会议采用所有形状和大小 - 了解如何使用Teams组织和管理下一个大型活动。 Teams组织的需求无缝缩放，为各种规模的活动提供自定义和提供最佳与会者体验的方式。  |Christina Torok、Ashwin App christ|
+|[使用设备在混合工作区中实现Microsoft Teams体验](https://aka.ms/IG20-DB147) |设备Microsoft Teams简介。 Teams设备旨在帮助用户最大程度地发挥Teams并缩小远程工作区和共享工作区之间的间距。 了解旨在提供以人为中心的会议室体验和重新设计个人工作区的设备，从而在设备上实现更具包容性的协作Microsoft Teams体验。  |Kendra Baker、Greg Baribault|
+|[使用 Microsoft Teams 平台Microsoft Teams工作区](https://aka.ms/IG20-DB157) |了解新平台中所有新的和现有的扩展Teams点。 了解如何创建功能强大的应用和解决方案来解决业务需求。|Archana Saseetharan、Michal Lesiczka|
+|[使用 Microsoft 365 平台重新Microsoft 365工作](https://aka.ms/IG20-DB146)|该Microsoft 365平台可帮助组织定制其环境的方方面面，帮助用户更好地工作和协作。 通过添加 Microsoft Graph 中的见解和相关的数据，了解每个应用如何进一步Graph。 了解每个应用如何与跨应用的工作流集成，包括Microsoft Teams。 了解应用如何跨设备提供独特且吸引人的体验。 利用可以加速应用创建的关键构建基块。|米萨纳竞技场、Mike Ammerlaan|
+|[使用低代码解决方案简化Microsoft Teams & Microsoft 365](https://aka.ms/IG20-DB141) |Teams和Microsoft 365是适合所有人的平台，即使你没有任何专业开发经验。  了解针对 Teams 和 Microsoft 365 的低代码创新如何让团队更轻松地构建和使用自定义应用、机器人、自动化和数据来解决具有挑战性业务流程的问题。|在 Weston Lander 中，在 2016、2016、2016、20|
+|[管理安全与合规Microsoft Teams](https://aka.ms/IG20-OD268) | 启用安全的远程工作非常重要。 在此会话中，了解跨安全性和Teams的最新功能。 我们将介绍如何使用组织内部的智能和Microsoft 365 Teams确保组织的安全与合规。 主题包括保护信息免受数据泄漏影响、启用安全且包容性的会议，以及跨全球法规和业务要求维护合规的组织。|John Gruszczyk|
 ||                                                     |                                                                                     |
 
 ## <a name="pre-recorded-sessions"></a>预先录制的会话
@@ -42,15 +42,15 @@ ms.locfileid: "53278475"
 | 标题 | 摘要            | 等级| 扬声器  |
 |---|----------|---|---|---|
 |[通过智能Teams会议和设备创新](https://aka.ms/PR104) |我们正在持续创新会议并重做构想。 了解我们如何在会议中引入更多智能，以及我们最新的设备创新，为智能带来生命。  |200|米斯拉拉 Chhabra|
-|[高级呼叫功能](https://aka.ms/OD265)|探索新的通话体验时，请更深入地了解"呼叫"。 接收有关协作呼叫、e911、Location-Based路由和其他功能的其他信息。 了解呼叫如何针对高级方案做好准备，无论公司规模如何。 |200|Alan Xie、Roy Alantz|
-|[Microsoft Teams共享空间的设备](https://aka.ms/OD261) |Microsoft Teams设备旨在帮助用户最大程度地发挥Teams并缩小远程工作区和共享工作区之间的间隙。 借助Teams功能、以客户为中心的会议室体验和行业领先的硬件，用户可以从低摩擦、包容性和交互式会议中获益。 无论用户远程加入还是会议室，会议功能都可用。 了解共享空间设备（如Microsoft Teams 会议室、协作栏Surface Hub可帮助团队在混合工作区中保持连接和协作。|200|Greg Baribault、Kendra Baker、Sandhya Rao|
+|[高级呼叫功能](https://aka.ms/IG20-OD265)|探索新的通话体验时，请更深入地了解"呼叫"。 接收有关协作呼叫、e911、Location-Based路由和其他功能的其他信息。 了解呼叫如何针对高级方案做好准备，无论公司规模如何。 |200|Alan Xie、Roy Alantz|
+|[Microsoft Teams共享空间的设备](https://aka.ms/IG20-OD261) |Microsoft Teams设备旨在帮助用户最大程度地发挥Teams并缩小远程工作区和共享工作区之间的间隙。 借助Teams功能、以客户为中心的会议室体验和行业领先的硬件，用户可以从低摩擦、包容性和交互式会议中获益。 无论用户远程加入还是会议室，会议功能都可用。 了解共享空间设备（如Microsoft Teams 会议室、协作栏Surface Hub可帮助团队在混合工作区中保持连接和协作。|200|Greg Baribault、Kendra Baker、Sandhya Rao|
 |[在Skype for Business？设计目标Microsoft Teams](https://aka.ms/OD251)|加入此会话，根据当前实施和Skype for Business确定最合适的方法。 无论你是在线Skype for Business服务器客户，我们都将分享提示、资源和指南，让你Microsoft Teams了解。 |200|Lisa McKee、Laszlo Somi
 |[个人设备Teams创新](https://aka.ms/PR108)  |客户正在寻找适用于远程工作Teams设备，尤其是其许多员工远程工作。 加入我们，了解个人设备Teams创新。我们将分享功能和认证设备以及远程工作的提示。 |200|Sandhya Rao、ArashChanie-Sichanie、Kruthika Ponnusamy|
 |[会议中的主虚拟Microsoft Teams会议室](https://aka.ms/PR109) |加入我们，通过虚拟分组讨论室了解最新的Teams。 在此会话中，我们将重点介绍有关通过虚拟分组讨论室促进小组构思、集体讨论、学习和讨论的用例和最佳做法。 |200|James Skay、Nakul Madaan|
 |[使用会议和Teams控件确保会议安全且包含内容](https://aka.ms/PR110) |加入此会话，详细了解会议安全、安全和审核。 我们重点介绍了将所有与会者硬设为静音、请求说话功能和配置分组讨论室的功能。 我们将介绍有助于使会议更具包容性的功能，例如回应和举手。|200|Nakul Madaan、Rajiv Rama一语|
 |[Microsoft Teams作为平台的呼叫和会议](https://aka.ms/PR111) |了解Teams云通信 API、联系中心和合规性记录更新Graph呼叫和会议平台功能。 我们将在其他平台体验中分享即将发布的消息。 |200|斯里维利特亚·里德拉西卡an、Mansoor Mansoor Mank|
 |[利用Teams为员工、客户和社区提供吸引人的虚拟事件](https://aka.ms/PR112) |加入此会话，了解如何Microsoft Teams无缝缩放以帮助传递所有类型的事件。 Imagine公司会场、培训网络研讨会和在线会议。 我们还将分享功能的愿景和路线图，以帮助缩放和自定义虚拟会议和活动。 |200|Christina Torok、Ashwin App christ|
-|[有关使用会议召开更高效且更具影响力的会议Microsoft Teams](https://aka.ms/OD267)|Teams会议在不断演变，并深度集成到协作的延续中。 使会议更加高效、安全且更具包容性。 在Teams创新将帮助你更好地准备、执行和简化会议。  在此会话中，我们将展示提示，帮助你利用会议并随时处理工作。|200|Shiraz Cupola|
+|[有关使用会议召开更高效且更具影响力的会议Microsoft Teams](https://aka.ms/IG20-OD267)|Teams会议在不断演变，并深度集成到协作的延续中。 使会议更加高效、安全且更具包容性。 在Teams创新将帮助你更好地准备、执行和简化会议。  在此会话中，我们将展示提示，帮助你利用会议并随时处理工作。|200|Shiraz Cupola|
 |||||
 
 ### <a name="deployment-management-and-security"></a>部署、管理和安全性

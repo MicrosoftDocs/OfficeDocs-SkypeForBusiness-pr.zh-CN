@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: d58d9aaecd2c5d07922a96e0d5b0cb1ead4ba25b
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197517"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345698"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登录 Microsoft Teams
 ==========================
@@ -39,13 +39,13 @@ Microsoft Teams 使用新式身份验证使登录体验简单而安全。若要�
 
 每个使用 Teams 的组织都可以使用现代身份验证。 如果用户无法完成此过程，则你的组织的 Azure AD 配置可能存在基础问题。 有关详细信息，请参阅[为什么我无法登录 Microsoft Teams？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
-- 如果用户已通过其工作或学校帐户登录到 Windows 或其他 Office 应用，则当他们启动 Teams 时，会直接转到该应用。 他们无需输入凭据。
+- 如果用户已使用工作或学校帐户登录到 Windows 或其他 Office 应用，在启动 Teams 时将直接进入应用。无需输入其凭据。
 
 - Microsoft 建议使用 Windows 10 版本 1903 或更高版本获取最佳单一登录体验。
 
-- 如果用户未在任何其他位置登录其 Microsoft 工作或学校帐户，则当他们启动 Teams 时，系统会要求他们提供单重或多重身份验证（SFA 或 MFA）。 此过程取决于你的组织决定需要登录过程的要求。
+- 如果用户未在任何其他位置登录其 Microsoft 工作或学校帐户，则当他们启动 Teams 时，系统会要求他们提供单一或多重身份验证（SFA 或 MFA），此流程具体取决于组织已决定采用的必要登录程序。
 
-- 如果用户登录到了加入域的计算机，则当他们启动 Teams 时，系统可能会要求他们多执行一个身份验证步骤，具体取决于你的组织选择了需要 MFA，还是用户的计算机已经要求进行 MFA 登录。 如果用户的计算机已经要求进行 MFA 登录，则当他们打开 Teams 时，该应用会自动启动。
+- 如果用户登录到已加入域的计算机，则在启动 Teams 时，系统可能会要求他们再执行一个身份验证步骤，具体取决于你的组织是选择要求 MFA 还是其计算机已要求通过 MFA 登录。如果他们的计算机已要求通过 MFA 登录，则当他们打开 Teams 时，应用会自动启动。
 
 - 在加入域的电脑上，如果无法进行 SSO，Teams 可能会使用用户主体名称 (UPN) 预填充其登录屏幕。 在某些情况下，你可能不希望采取这种做法，尤其是在你的组织在本地和 Azure Active Directory 中使用不同 UPN 的情况下。 如果是这种情况，则可以使用以下 Windows 注册表项来关闭 UPN 的预填充：
 
@@ -72,7 +72,7 @@ Microsoft Teams 使用新式身份验证使登录体验简单而安全。若要�
 
 登录时，移动用户将看到当前已登录的或其设备上以前登录的所有 Microsoft 365 帐户的列表。 用户可点击任意帐户进行登录。 移动登录有两种方案：
 
-1. 如果所选帐户当前已登录到其他 Office 365 或 Microsoft 365 应用，则用户将直接进入 Teams。 用户无需输入其凭据。
+1. 如果所选帐户当前已登录到其他 Office 365 或 Microsoft 365 应用，则用户将直接登录到 Teams。用户无需输入其凭据。
 
 2. 如果用户未在其他任何位置登录到其 Microsoft 365 帐户，则系统会要求他们提供单因素或多重身份验证（SFA 或 MFA），具体取决于你的组织已针对“移动登录”策略配置的内容。
 
@@ -89,7 +89,7 @@ Teams for iOS 和 Android 支持多个工作、学校和多个个人帐户并行
 
 ## <a name="restrict-sign-in-to-teams"></a>无法登录到 Teams
 
-组织可能希望限制在受管理的设备上使用公司许可的应用的方式，例如，限制学生或员工访问其他组织中的数据，或将公司许可的应用用于个人的情况。 可通过设置 Teams 应用程序识别的设备策略来强制实施这些限制。   
+组织可能希望限制企业批准的应用在托管设备上的使用方式，例如限制学生或员工从其他组织访问数据或将公司批准的应用用于个人方案的能力。可以通过设置 Teams 应用程序识别的设备策略来强制实施这些限制。   
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>如何限制移动设备上的登录
 
@@ -119,7 +119,7 @@ Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策�
 在设备上配置此策略时，用户仅可使用位于 Azure AD 租户（包含于策略中定义的 “租户允许列表” ）中的帐户登录。 该策略应用于所有登录，包括第一个和其他帐户。 如果你的组织包括多个 Azure AD 租户，则可以在允许列表中包含多个租户 ID。 Teams 应用中的 “添加其他帐户” 的链接可能仍处于可见状态，但它们不可操作。
 
 > [!NOTE]
->1. 该策略仅限制登录。它不限制用户在其他 Azure AD 租户中被邀请为来宾，或切换到其他租户。
+>1. 策略仅限制登录，不会限制将用户邀请为其他 Azure AD 租户中的来宾，或切换到其他租户（其中已将用户邀请为来宾）的功能。
 >2. 该策略要求 Teams for Windows 版本1.3.00.30866 或更高版本以及Teams for MacOS 版本1.3.00.30882 （发布时间为 2020 年 11 月中）。
 
 **Windows** 管理模板文件 （ADMX/ADML） 策略从 [下载中心](https://www.microsoft.com/download/details.aspx?id=49030) 提供（管理模板文件中的策略设置说明性名称是"限制登录到特定租户中的 Teams 的帐户"）。 另外，你可以在 Windows 注册表中手动设置密钥：

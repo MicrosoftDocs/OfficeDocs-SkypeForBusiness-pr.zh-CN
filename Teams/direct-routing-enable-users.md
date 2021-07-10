@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何为用户启用Microsoft 电话直接路由。
-ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: 6dab88312634a0dc3c595fec109905b308acbdaa
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345708"
+ms.locfileid: "53354292"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>为用户启用直接路由、语音和语音邮件
 
@@ -126,7 +126,7 @@ ms.locfileid: "53345708"
     > 如果用户的电话号码在本地管理，请使用本地 Skype for Business命令行管理程序或控制面板来配置用户的电话号码。 
 
 
-## <a name="configuring-sending-calls-directly-to-voicemail"></a>配置直接向语音邮件发送呼叫
+## <a name="configure-sending-calls-directly-to-voicemail"></a>配置将呼叫直接发送到语音邮件
 
 直接路由允许你结束对用户的呼叫，并将其直接发送到用户的语音邮件。 如果要将呼叫直接发送到语音邮件，请将 opaque=app：voicemail 附加到请求 URI 标头。 例如，"sip：user@yourdomain.com;opaque=app：voicemail"。 在这种情况下，Teams不会收到呼叫通知，呼叫将直接连接到用户的语音邮件。
 

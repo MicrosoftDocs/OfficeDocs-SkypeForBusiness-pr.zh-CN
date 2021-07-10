@@ -1,7 +1,7 @@
 ---
-title: 管理紧急呼叫路由策略
-author: cichur
-ms.author: v-cichur
+title: 管理直接路由的紧急呼叫路由策略
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -21,14 +21,14 @@ description: 了解如何使用和管理紧急呼叫路由策略Microsoft Teams�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 0fb3a80bf5c1a064435754c4f999f6a62214b021
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86f73bed2e086efee666e5592ca3f42e9756096c
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096176"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354302"
 ---
-# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>在呼叫中心内管理紧急呼叫Microsoft Teams
+# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>管理直接路由的紧急呼叫路由策略
 
 如果已在你的组织中电话系统直接[](direct-routing-landing-page.md)路由，可以使用 Microsoft Teams 中的紧急呼叫路由策略来设置紧急号码并指定紧急呼叫的路由方式。 紧急呼叫路由策略确定是否为分配了该策略的用户启用增强型紧急服务、用于呼叫紧急服务 (例如，美国) 的 911 号码，以及如何路由对紧急服务的呼叫。
 

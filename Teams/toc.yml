@@ -587,6 +587,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: 从用户中删除 RestrictedAnonymousAccess 会议策略
                     href: meeting-policies-restricted-anonymous-access.md
+          - name: 会议策略和会议过期时间
+            href: meeting-expiration.md
           - name: 管理会议设置
             href: meeting-settings-in-teams.md
           - name: 用户设置更改时向其发送的电子邮件

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16713d115dafaac4667fcf8ca1b52624a3b95424
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: abff04e9fd51f0d7e399b8619442dbf9e3070c43
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275651"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345718"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -120,10 +120,14 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 |功能     | 最大限制 |
 |------------|---------------|
-|会议中的人数（可聊天和通话）  | 1000，包括 GCC、GCCH 和 DoD，但不包括 A1 (300)。 “**仅供查看**”允许最多 20，000 名仅收听的参与者加入组织者拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC High 和 DoD）许可证。 了解关于[仅供查看体验](view-only-meeting-experience.md)的详细信息。|
+|会议中的人数（可聊天和通话）  | 1000，包括 GCC、GCCH 和 DoD，但不包括 A1 (300)。 “**仅供查看**”允许最多 20，000 名仅收听的参与者加入组织者拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC High 和 DoD）许可证。 了解关于 [仅供查看体验](view-only-meeting-experience.md) 的详细信息。<sup>1，2</sup>|
 |通过视频或音频通话聊天的人员数 | 20 |
 |PowerPoint 文件的最大大小 | 2GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
+  
+<sup>1</sup> 为了获得大型会议的最佳体验，建议使用 Teams 桌面客户端或 Teams 移动客户端。
+  
+<sup>2</sup> 在大型会议中，建议演示者使用 Teams 桌面客户端。 有关托管大型会议的更多提示，请参阅 [大型 Teams 会议最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
   
 > [!NOTE]
 > 分组讨论室只能在与会者少于 300 人的会议上创建。 此外，在会议中创建分组讨论室会自动将会议平台的数量限制在 300 个。 建议最终用户不要在预计超过 300 人的会议上启动分组讨论室。 有关大型 Team 会议的更多信息，请与最终用户共享 [大型 Teams 会议的最佳实践](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) 指南。 
