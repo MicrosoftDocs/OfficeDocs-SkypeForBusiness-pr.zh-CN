@@ -3,8 +3,8 @@ title: 管理员快速入门 - Microsoft Teams 中的会议和实时事件
 ms.reviewer: ''
 description: 管理员快速入门指南，介绍如何为 Microsoft Teams 获取许可证、在其中部署和配置在线会议和实时事件。
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 03611f2d166883ce960e272e2f3b11300cd20c54
+ms.sourcegitcommit: 616b6d0d5be2b333519b79ab59a4117036ba647e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517735"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363577"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理员快速入门 - Microsoft Teams 中的会议和实时事件
 
@@ -42,15 +42,9 @@ ms.locfileid: "52517735"
 
 任何人都可以免费参加 Teams 会议或公开实时事件 - 无需许可证。与会者可通过点击 Teams 中的 **加入** 按钮或会议邀请来加入 Teams 会议或实时事件。会议音频是 Teams 会议的一部分，但如果你希望其他人可以通过电话拨入会议，则需要提供一个拨入号码。
 
-对于将组织、安排和主持会议或实时事件的人员，他们将需要下表中所列出的 Microsoft 365 或 Office 365 许可证之一。如果你已在使用 Teams，则可能已经拥有了组织和主持会议和实时事件所需的许可证。
+对于将组织、安排和主持会议或实时事件的人员，他们将需要 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)中所述的许可套餐之一。 
 
-:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="包含 Teams 会议或实时事件所需许可证的表":::
-
-> <sup>1</sup>  会议组织者需要具有[音频会议附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)才能发送包含拨入式会议的邀请。
->
-> <sup>2</sup>  会议拨出至 [**拨打** 号码](set-up-the-call-me-feature-for-your-users.md)需要组织者有 E5 或 [音频会议加载项许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。可能还需要一个 [拨号计划](what-are-dial-plans.md)。
-
-若要了解有关许可的详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
+如果你已在使用 Teams，那么你可能拥有组织和主持会议和实时事件所需的许可证。
 
 ## <a name="make-sure-your-networks-ready"></a>请确保网络已准备就绪
 
