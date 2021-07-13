@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解Microsoft 365 Office 365呼叫者 ID (用户分配的电话号码) 呼叫线路 ID。 可以更改或阻止用户的来电显示。
-ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
+ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230599"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53388647"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
 
@@ -35,11 +35,11 @@ ms.locfileid: "53230599"
   
 默认情况下，以下来电显示设置 **已关闭**。 这意味着，Teams呼叫 PSTN 电话时，可以看到该用户的电话号码。 可以更改这些设置，如下所示：
   
-- **传出来电显示** 你可以将用户的来电显示（默认为用户的电话号码）替换为另一个电话号码。 例如，你可以将用户的来电显示从其电话号码改为企业的主要电话号码，或者将用户的主叫号码从其电话号码改为法律部门的主要电话号码。 您可以将呼叫 ID 号码更改为收费或免费 (的任何联机服务) 。 您还可以通过直接路由将呼叫 ID 号码更改为本地电话号码，该路由分配给呼叫队列或呼叫自动助理资源帐户。
+- **传出来电显示** 你可以将用户的来电显示（默认为用户的电话号码）替换为另一个电话号码。 例如，你可以将用户的来电显示从其电话号码更改为企业的主要电话号码，或者更改为法律部门的主要电话号码。 此外，您可以将呼叫 ID 号码设置为任何联机服务号码 (收费或免费) ，或者通过直接路由将本地电话号码设置为分配给 自动助理 或呼叫队列使用的资源帐户。
     
   > [!NOTE]
   > 若要使用 Service *参数，* 必须指定有效的服务编号。
-  > 如果下拉列表中看不到资源帐户编号，则需要使用 PowerShell cmdlet。
+  > 如果资源帐户号在下拉列表中不可见，则需要在 Teams PowerShell 模块 2.3.1 或更高版本中将 PowerShell cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity 用于资源帐户编号。
   
 - **阻止出站来电显示。** 你可以阻止传出呼叫者 ID 在用户的传出 PSTN 呼叫上发送。 执行此操作将阻止其电话号码显示在被呼叫者的电话上。
     
@@ -90,7 +90,7 @@ Connect-MicrosoftTeams -Credential $credential
 3. 使用 Grant-CsCallingIdentity cmdlet 应用创建的新策略。 例如，以下示例将新策略应用到用户 Amos Marble。
     
      ```PowerShell
-      Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
+     Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
      ```
    有关详细信息，请参阅 [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet。
     
