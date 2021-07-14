@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: 475753931cc2620e6ea51491abda74c2ea3f4d84
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 76a4d88cc82379911f6f4716f199bb2424328959
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278495"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408761"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams认证的设备
 
@@ -182,6 +182,10 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 | 设备模型  | 固件版本 | 包含的产品发布 |
 |:--------------|:-----------------|:-------------------------|
+| Yealink VC210 |118.15.0.54   | 2021 更新#2    |
+| Yealink MeetingBar A20 | 133.15.0.60     | 2021 更新#2    |
+| Yealink MeetingBar A30 | 133.15.0.60    | 2021 更新#2    |
+| Yealink CTP18 | 137.15.0.37    | 2021 更新#2    |
 | Poly Studio X30 | 3.5.0.344025          | 2021 更新#2    |
 | Poly Studio X50 | 3.5.0.344025        | 2021 更新#2    |
 | Poly TC8 | 3.5.0.210489                 | 2021 更新#2    |

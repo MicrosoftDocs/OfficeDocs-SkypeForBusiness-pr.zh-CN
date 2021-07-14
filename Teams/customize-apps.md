@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2a217648abbcec4075e942b303542621f7d317a
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796856"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408741"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
@@ -43,6 +43,7 @@ ms.locfileid: "52796856"
 
 > [!NOTE]
 > 目前，政府社区云高 (GCCH) 或国防部 (DoD) 不支持自定义应用。
+> 目前，此功能不适用于旁加载Microsoft Teams应用。
 
 ## <a name="customize-the-apps-details"></a>自定义应用的详细信息
 

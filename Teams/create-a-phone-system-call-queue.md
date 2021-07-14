@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，该队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: c07c5a42241a62f9ecfe90340cab473800469ca9
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: b3a17343b21f0dcb35ba2f2d6bb99178bdafffd0
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126888"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420847"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -62,7 +62,7 @@ ms.locfileid: "53126888"
 
 键入呼叫队列的名称。
 
-### <a name="resource-accounts"></a>资源帐户
+## <a name="resource-accounts"></a>资源帐户
 
 ![资源帐户设置的屏幕截图](media/call-queue-name-language.png)
 
@@ -78,25 +78,24 @@ ms.locfileid: "53126888"
 
 如果不使用呼叫Teams控制代理成员身份，请考虑直接将呼叫队列成员的呼叫者 ID 设置为呼叫队列的服务号码或相应的自动助理。 有关详细信息[，请参阅管理](caller-id-policies.md)Microsoft Teams 中的来电显示策略。
 
-### <a name="language"></a>语言
+## <a name="language"></a>语言
 
 ![语言设置的屏幕截图](media/call-queue-language.png)
 
 选择 [受支持的语言](create-a-phone-system-call-queue-languages.md)。 如果启用语音提示和语音听录，此语言 (系统生成的语音) 。
 
-### <a name="greetings-and-music-on-hold-in-queue"></a>队列中保留的问候语和音乐
+## <a name="greetings-and-music-on-hold-in-queue"></a>队列中保留的问候语和音乐
 
 ![队列设置中保持的问候语和音乐的屏幕截图](media/call-queue-greetings-music.png)
 
-指定是否要在呼叫者到达队列时播放问候语。 必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。
+指定是否要在呼叫者到达队列时播放问候语。 必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。 上传的录制内容不能大于 5 MB。
 
-Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特定音频文件，请选择"播放音频文件 **"并** 上传 MP3、WAV 或 WMA 文件。
+Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提供的默认Teams不收取组织支付的任何版权费。 如果要播放特定音频文件，请选择"播放音频文件 **"并** 上传 MP3、WAV 或 WMA 文件。
 
 > [!NOTE]
-> 上传的录制内容不能大于 5 MB。
-> 呼叫队列中提供的默认Teams不收取组织支付的任何版权费。 
+> 你负责独立清除和保护使用任何音乐或音频文件的一切必要权限Microsoft Teams服务， 其中可能包括来自所有相关权利持有者的任何音乐、声音效果、音频、品牌、名称和其他内容中的知识产权和其他权利，其中可能包括艺术家、执行者、执行者、艺术家、歌曲作者、作曲者、录制标签、音乐发布者、联盟、团体、权利代理人、集体管理组织以及拥有、控制或许可音乐版权、声音效果、音频和其他知识产权的其他任何方。
 
-### <a name="call-agents"></a>呼叫代理
+## <a name="call-agents"></a>呼叫代理
 
 查看 [将代理添加到呼叫队列的先决条件](plan-auto-attendant-call-queue.md#prerequisites)。
 
@@ -126,7 +125,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 > [!NOTE]
 > 添加到组的新用户可能需要最多八个小时才能进行第一次呼叫。
 
-### <a name="call-routing"></a>呼叫路由
+## <a name="call-routing"></a>呼叫路由
 
 ![会议模式和路由方法设置的屏幕截图](media/call-queue-conference-mode-routing-method.png)
 
@@ -140,6 +139,9 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 > [!NOTE]
 > 如果电话呼叫从为"基于位置的路由"启用的直接路由网关路由到队列，则不支持会议模式。
 
+> [!TIP]
+> 建议 **将"会议****模式"设置为**"自动"。
+
 **路由** 方法确定代理从队列接收调用的顺序。 从以下选项中进行选择：
 
 - **助理路由** 同时将队列中的所有代理环环。 第一个接电话的呼叫代理获取呼叫。
@@ -150,33 +152,33 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 
 - **最长空闲** 时间将每次调用路由到空闲时间最长的代理。 如果代理的状态为"可用"或其状态为"离开"时间少于 10 分钟，则代理被视为空闲状态。 状态为"离开"超过 10 分钟的代理不被视为空闲状态，在将状态更改为"可用"之前，他们无法接听呼叫。 
 
+> [!TIP]
+> 建议 **将路由方法****设置为轮循机制****或** 最长空闲时间。
+
 ![路由、选择退出和警报时间设置的屏幕截图](media/call-queue-presence-agents-time.png)
 
 **基于状态的路由** 使用呼叫代理的可用性状态来确定是否应在所选路由方法的呼叫路由列表中包含代理。 其可用性状态设置为"可用 **"** 的呼叫代理包含在呼叫路由列表中，可以接收呼叫。 其可用性状态设置为任何其他状态的代理从呼叫路由列表中排除，并且不会接收呼叫，直到其可用性状态更改回"可用 **"。** 
 
 可以使用任何路由方法启用基于状态的呼叫路由。
 
-> [!NOTE]
-> 选择 **"最长** 空闲时间"作为路由方法时，需要并自动启用基于状态的路由，即使基于状态的路由切换将关闭并灰显。
-
 如果代理选择不接听呼叫，则无论其可用性状态设置为什么，它们将不会包含在呼叫路由列表中。 
 
 > [!NOTE]
+> 选择 **"最长** 空闲时间"作为路由方法时，需要并自动启用基于状态的路由，即使基于状态的路由切换将关闭并灰显。
+>
+> 如果未启用基于状态的路由，并且队列中有多个调用，系统将同时向代理显示这些调用，而不管代理的状态如何。 这会导致向代理发送多个呼叫通知，尤其是当某些代理不应答发送给代理的初始呼叫时。
+> 
 > 启用基于Skype for Business路由时，使用客户端的代理不会包含在呼叫路由列表中。 如果代理使用 Skype for Business，请不要启用基于状态的呼叫路由。
+
+> [!TIP]
+> 建议 **将基于状态路由设置为****"** 打开"。
 
 **代理警报** 时间指定在队列将呼叫重定向到下一个代理之前，代理的电话将响铃的时间。
 
-建议设置以下设置：
+> [!TIP]
+> 建议 **将代理警报时间****设置为 20** 秒。
 
-- **"会议模式** "到 **"自动"**
-- **路由到轮****循机制或****最长空闲时间的方法**
-- **基于状态到"打开"** 的 **路由**
-- **代理警报时间：****到 20 秒**
-
-> [!NOTE]
-> 如果未启用基于状态的路由，并且队列中有多个调用，系统将同时向代理显示这些调用，而不管代理的状态如何。 这会导致向代理发送多个呼叫通知，尤其是当某些代理不应答发送给代理的初始呼叫时。
-
-### <a name="call-overflow-handling"></a>调用溢出处理
+## <a name="call-overflow-handling"></a>调用溢出处理
 
 ![呼叫溢出设置的屏幕截图](media/call-queue-overflow-handling.png)
 
@@ -187,7 +189,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 > [!NOTE]
 > 如果最大呼叫数设置为 0，则问候消息将不会播放。
 
-### <a name="call-timeout-handling"></a>调用超时处理
+## <a name="call-timeout-handling"></a>调用超时处理
 
 ![通话超时设置的屏幕截图](media/call-queue-timeout-handling.png)
 
@@ -196,6 +198,15 @@ Teams在队列中保持时向呼叫者提供默认音乐。 如果要播放特�
 可以选择断开呼叫连接或将其重定向到呼叫路由目标之一。 例如，你可能让呼叫者为队列中的代理留下语音邮件。 有关外部传输，请参阅先决条件和外部[](plan-auto-attendant-call-queue.md#prerequisites)电话号码转移[- 号码](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技术详细信息。
 
 选择通话超时选项后，单击"保存 **"。**
+
+## <a name="summary-of-recommended-call-queue-settings"></a>建议的呼叫队列设置摘要
+
+建议设置以下设置：
+
+- **"会议模式** "到 **"自动"**
+- **路由到轮****循机制或****最长空闲时间的方法**
+- **基于状态到"打开"** 的 **路由**
+- **代理警报时间：****到 20 秒**
 
 ## <a name="supported-clients"></a>支持的客户端
 
