@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899083"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420827"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备组织网络 
 
@@ -32,12 +32,7 @@ ms.locfileid: "51899083"
 
 如果您已[针对 Microsoft 365 或Office 365 应用优化了网络](/Office365/Enterprise/assessing-network-connectivity)，您可能已准备好使用 Microsoft Teams。 无论是哪种情况——尤其是将Teams作为首个 Microsoft 365 或 Office 365 工作负载迅速推出以支持 **远程工作者** 时——请在推出 Teams 之前检查以下内容：
 
-1.  是否所有场所都可以访问 Internet （以便连接到 Microsoft 365 或 Office 365）？ 除常规 Web 流量之外，请确保已对所有场所的 Teams 媒体至少开放以下项目：
-
-    |  |  |
-    |---------|---------|
-    |端口     |UDP 端口 <strong>3478</strong> 到 <strong>3481</strong>        |
-    |[IP 地址](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, 和 <strong>52.120.0.0/14</strong>         |
+1.  是否所有场所都可以访问 Internet （以便连接到 Microsoft 365 或 Office 365）？ 除了正常的 Web 流量，请确保已打开在 [Office 365 URL 和 IP 地址范围中为 Teams 列出的 TCP 端口和 IP 地址](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。
 
     > [!IMPORTANT]
     > 如果需要与本地或联机 Skype for Business 联合，则需要配置一些额外的 DNS 记录。
@@ -149,10 +144,173 @@ ms.locfileid: "51899083"
 
 Teams 旨在不受网络条件限制，提供最佳音频、视频和内容共享体验。 话虽如此，当带宽不足时，Teams 将优先确保音频质量，其次才是视频质量。
 
-在带宽 *不* 受限制的情况下，Teams 将优化媒体质量，包括最高 1080p 视频分辨率，最高 30fps 的视频和 15fps 的内容，以及高保真音频。 
+如果带宽不受限制，Teams 会优化媒体质量，包括高保真音频、高达 1080p 的视频分辨率，以及高达 30fps（帧/秒）的视频和内容。
 
-[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
+下表介绍 Teams 如何使用带宽。 Teams 在带宽利用率方面始终保守，可在 1.5Mbps 以下提供高清视频质量。 每个音频/视频通话或会议中的实际带宽消耗量将取决于多种因素，如视频布局、视频分辨率和每秒视频帧。 如果有更多带宽可用，质量和使用率将会增加，以提供最佳体验。
 
+:::row:::
+   :::column span="":::
+      **形态**
+   :::column-end:::
+   :::column span="3":::
+      **带宽要求（比特率 KB/s 向上/向下）**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+      **最小值**
+   :::column-end:::
+   :::column span="":::
+      **建议**
+   :::column-end:::
+   :::column span="":::
+      **最佳性能**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **音频**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一对一
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        会议
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Video**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一对一
+   :::column-end:::
+   :::column span="":::
+        150/150
+   :::column-end:::
+   :::column span="":::
+        1,500/1,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        会议
+   :::column-end:::
+   :::column span="":::
+        150/200
+   :::column-end:::
+   :::column span="":::
+        2,500/4,000
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **屏幕共享**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一对一
+   :::column-end:::
+   :::column span="":::
+        200/200
+   :::column-end:::
+   :::column span="":::
+        1,500/1,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        会议
+   :::column-end:::
+   :::column span="":::
+        250/250
+   :::column-end:::
+   :::column span="":::
+        2,500/2,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **同框场景模式**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一对一
+   :::column-end:::
+   :::column span="":::
+        不适用
+   :::column-end:::
+   :::column span="":::
+        不适用
+   :::column-end:::
+   :::column span="":::
+        不适用
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        会议
+   :::column-end:::
+   :::column span="":::
+        1,000/1,500
+   :::column-end:::
+   :::column span="":::
+        1,500/2,500
+   :::column-end:::
+   :::column span="":::
+        2,500/4,000
+   :::column-end:::
+:::row-end:::
+
+**最小**、 **推荐** 和 **最佳性能** 带宽要求基于每个终结点的使用情况。 通常，每个用户都有一个终结点，例如计算机或移动设备。 但是，如果用户在 *同时* 计算机 *和移动设备* 加入 Teams 会议，则两个终结点将与该用户关联。
+
+- **视频通话的最小** 带宽要求最高为 240p 分辨率，屏幕共享内容帧速率自适应为 1.875 到 7.5fps，而"协同模式/大型库"视频分辨率高达 540p。  
+
+- **建议** 视频通话带宽要求高达 1080p 分辨率<sup>\*</sup>、屏幕共享内容帧速率自适应 7.5 到 30fps，以及高达 1080p 分辨率的汇总模式/大型库视频<sup>\*</sup>。  
+
+- **最佳性能** 指南允许使用屏幕共享内容帧速率自适应 15 到 30fps，为较大的与会者会议、高损失环境和更高的运动内容提供更高的保真视频。
+
+<sup>\*</sup>预期质量最高为 1080p，但根据网络条件，视频分辨率和质量将相应地进行优化。  
 
 ## <a name="related-topics"></a>相关主题
 

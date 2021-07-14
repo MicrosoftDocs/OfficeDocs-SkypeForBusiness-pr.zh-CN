@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 946847793ea90e549a555cd9d100cd1ae2809fa3
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230549"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408751"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 
@@ -69,7 +69,7 @@ ms.locfileid: "53230549"
 
 用户在以下情况下不适合条件：
 
-- 目前或以前拥有的来自付费、未付费或试用版许可证的 Teams
+- 当前拥有来自付费许可证或试用许可证的 Teams，或以前具有试用许可证
 - 位于至少已使用或收到一个特殊 COVID 优惠的租户中。
 
 如果你是联合合作伙伴客户，或者是 GCC、GCC High、DoD 或 EDU 客户，则你的组织没有资格使用该服务。
