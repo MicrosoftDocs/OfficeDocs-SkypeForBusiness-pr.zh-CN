@@ -1,5 +1,5 @@
 ---
-title: 将混合应用程序终结点移动到云
+title: 将混合应用程序终结点迁移到云
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,15 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 在停用本地环境之前移动Skype for Business应用程序终结点。
-ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+description: 在停用本地环境之前迁移Skype for Business应用程序终结点。
+ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684379"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420797"
 ---
-# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在停用本地环境之前移动混合应用程序终结点
+# <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在停用本地环境之前迁移混合应用程序终结点
 
 本文介绍如何在停用本地部署环境之前，将所需的混合应用程序终结点Skype for Business Microsoft 云。 这是停止使用本地环境的以下步骤的第 3 步：
 
@@ -32,14 +32,14 @@ ms.locfileid: "52684379"
 
 - 步骤 2. [禁用混合配置](cloud-consolidation-disabling-hybrid.md)。
 
-- **步骤 3.将混合应用程序终结点从本地移动到联机。**  (本文) 
+- **步骤 3.将混合应用程序终结点从本地迁移到联机。**  (本文) 
 
 - 步骤 4. [删除本地部署Skype for Business部署](decommission-remove-on-prem.md)。
 
 
-## <a name="move-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>将所有必需的混合应用程序终结点从本地移动到联机
+## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>将所有必需的混合应用程序终结点从本地迁移到联机
 
-在可以将这些终结点移动到联机状态之前，必须确保已更新 DNS 记录，以指向Microsoft 365所使用的所有 sip 域的 DNS 记录。 如果 DNS 记录指向本地，则不能创建联机资源帐户。 有关详细信息，请参阅 [禁用混合配置](cloud-consolidation-disabling-hybrid.md)。
+在可以将这些终结点移动到联机状态之前，必须确保已更新 DNS 记录，以指向Microsoft 365所使用的所有 sip 域的 DNS 记录。 请注意，一旦将 DNS 更新为指向Microsoft 365，在您完成此步骤之前，任何现有的混合应用程序终结点将无法再被发现。 由于此步骤 (如果 DNS 记录指向本地) ，则不能创建联机资源帐户，因此您应计划在同一维护窗口中执行步骤 2 和步骤 3。 有关详细信息，请参阅 [禁用混合配置](cloud-consolidation-disabling-hybrid.md)。
 
 1. 通过执行以下本地部署和 PowerShell 命令检索和导出Skype for Business Server应用程序终结点设置：
 
