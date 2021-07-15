@@ -61,7 +61,7 @@ ms.locfileid: "53186901"
 
 :::row:::
    :::column:::
-   **[采用专家认证](/learn/paths/m365-service-adoption/)** </br> Microsoft 服务采用专家认证课程以 Teams 为特色。请了解如何促使 Microsoft 服务在你组织中的采用。
+   **[采用专家认证](/learn/paths/m365-service-adoption/)** </br>Teams 提供 Microsoft 服务采用专家认证特色课程。了解如何在组织中推动 Microsoft 服务的采用。
 
    :::column-end:::
 

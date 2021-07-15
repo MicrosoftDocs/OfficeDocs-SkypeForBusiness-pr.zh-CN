@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b343a3f69d2b0f97f9d7d3054951719da2e9e43
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: 3d0f31c8841a5a357034cc083f1a62d0d6704805
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219139"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53428208"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana语音帮助Teams
 
@@ -35,10 +35,6 @@ ms.locfileid: "53219139"
 > Cortana预览下Microsoft Teams 会议室语音帮助。 在其预览版中，Cortana在连接了 Rally 麦克风的设备上仅支持语言 EN-US 的语言。
 
 Cortana Teams 移动应用、Windows 上的 Microsoft Teams 会议室 和 Microsoft Teams 显示设备上提供语音帮助，Microsoft 365 企业版 用户可以使用口语自然语言简化通信、协作和会议相关任务。 用户可以通过Cortana Teams 移动应用右上角的麦克风按钮，或者通过在 Microsoft Teams 会议室中说出 &#8220;Cortana&#8221; 或者使用 Microsoft Teams 显示器来与 Microsoft Teams 讲话。 要免费与团队快速联系，用户可以说查询，例如 &#8220;呼叫 Megan&#8221; 或 &#8220;将消息发送到我的下一个会议&#8221;。 用户还可以加入会议，&#8220;加入下一&#8221;会议，并使用语音协助共享文件、查看其日历等。 这些语音协助体验[是使用 Cortana](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide)企业级服务提供的，这些服务完全符合 Office 365 的隐私、安全性和合规性承诺，如在线服务条款[ (OST ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)) 所反映。
-
-该图像显示在移动设备上使用Cortana发送聊天。
-
-![一系列显示聊天会话Cortana屏幕](media/cortana-on-teams-mobile.png)
 
 ## <a name="admin-control-and-limitations"></a>管理员控制和限制
 
@@ -94,22 +90,6 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 通过使用设备中的Cortana Teams，可以控制设备是否已启用设备内设置。
 
-### <a name="teams-mobile-app-or-the-microsoft-teams-display"></a>Teams移动应用或Microsoft Teams显示
-
-  1. 打开 Teams 移动应用。
-
-  2. 选择  >  **"设置Cortana"。**
-
-  3. 将开关移动到 **"开"或**"**关"。**
-
-### <a name="microsoft-teams-display"></a>Microsoft Teams显示
-
-  1. 转到显示器 () 环境Microsoft Teams环境。
-
-  2. 选择用户头像，然后选择 **"设置"。** 如果Cortana，请说"Cortana，转到设置"。
-
-  3. 将开关移动到 **"开"或**"**关"。**
-  
 ### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams 会议室上Windows
 
 如果在租户级别启用了 Cortana，则可在设备级别进行更改。 Cortana将默认释放"关"。

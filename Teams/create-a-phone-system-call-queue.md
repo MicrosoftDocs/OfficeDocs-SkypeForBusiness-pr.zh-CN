@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，该队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: b3a17343b21f0dcb35ba2f2d6bb99178bdafffd0
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420847"
+ms.locfileid: "53428198"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -111,6 +111,9 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
   - Microsoft Teams Windows客户端
   - Microsoft Teams Mac 客户端
+
+> [!NOTE]
+> 如果使用此选项，则呼叫队列可能需要 24 小时才能完全正常运行。
 
 ##### <a name="users-and-groups"></a>用户和组
 

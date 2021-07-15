@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e37efe19e5256d4722cca54f128e8131e24a116
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 677f642bdb940706079370635a5aa9eec87241fb
+ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282469"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437629"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>适用于 IT 管理员的Teams &mdash; 升级工具
 
@@ -41,15 +41,11 @@ ms.locfileid: "52282469"
 > [!NOTE]
 > 如果当前使用 Skype for Business Online 连接器来管理服务，则需要移动到 powerShell Teams并更新现有的 PowerShell 脚本。 有关详细信息[，请参阅](teams-powershell-move-from-sfbo.md)从 Skype for Business Online 连接器移动到 Teams PowerShell 模块。
 
-无论你是使用 Skype for Business 模式执行选择功能转换，还是只是从默认的 Islands 配置升级到 TeamsOnly 模式，TeamsUpgradePolicy 都是已拥有 Skype for Business Online 的用户的主要工具。 与 Teams策略一样，可以直接将 TeamsUpgradePolicy 分配给用户。 还可以将策略设置为租户范围的默认值。 向用户分配的任何作业优先于租户默认设置。  可以在管理控制台的 Teams PowerShell 中管理策略。
+无论你是使用新模式执行Skype for Business转换，还是只是从默认的 Islands 配置升级到 TeamsOnly 模式，TeamsUpgradePolicy 都是主要工具。与 Teams策略一样，可以直接将 TeamsUpgradePolicy 分配给用户。 还可以将策略设置为租户范围的默认值。 向用户分配的任何作业优先于租户默认设置。  可以在管理控制台的 Teams PowerShell 中管理策略。
 
-还可以将 TeamsUpgradePolicy 的任何模式（TeamsOnly 模式除外）分配给Skype for Business本地用户。 **TeamsOnly 模式只能分配给** 已位于 Skype for Business Online 中的用户。 这是因为只有在用户位于 Skype for Business Online 中时，才能与 Skype for Business 用户以及联合身份验证Microsoft 365 电话系统功能 Skype for Business进行互操作。 此外，如果有 Skype for Business 本地部署 (，则不能将 **TeamsOnly** 模式分配为租户范围的默认值 (存在指向 Office 365 之外的位置的 lyncdiscover DNS 记录检测到此模式。
+可以将 TeamsUpgradePolicy 的任何模式（TeamsOnly 模式除外）分配给本地Skype for Business用户。 相反，只能为托管在云中的用户分配 TeamsOnly 模式。 **TeamsOnly** 模式只能分配给已托管在云中的用户，因为只有该用户位于 Skype for Business Online 中，才能与 Skype for Business 用户以及 Microsoft 365 电话系统 功能进行互操作和联合。  此外，如果有 Skype for Business 本地部署 (，则不能将 **TeamsOnly** 模式分配为租户范围的默认值，该部署通过存在指向 Office 365 外部位置的 lyncdiscover DNS 记录检测到。 有关详细信息，请参阅[禁用混合配置以完成迁移到"仅Teams"。](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-在本地Skype for Business帐户的用户必须联机 (移动到 Skype for Business Online，或者直接Teams) Move-CsUser Skype for Business 本地工具集。 [](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 这些用户可以通过 1 或 2 个步骤移动到 TeamsOnly：
-
--   1 步：在 Move-CsUser 中指定 -MoveToTeams 开关。 这需要 2019 Skype for Business Server或 2015 Skype for Business Server CU8 或更高版本。
-
--   2 个步骤：运行 Move-CsUser 后，使用 TeamsUpgradePolicy 向用户授予 TeamsOnly 模式。
+在本地Skype for Business帐户的用户必须使用 Teams 工具集Move-CsUser[](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)本地工具Skype for Business移动到"仅"模式。 
 
 与其他策略不同，不可在 Microsoft 365 或 Office 365 中创建新的 TeamsUpgradePolicy 实例。 所有现有实例都内置于服务中。   (请注意，模式是 TeamsUpgradePolicy 中的一个属性，而不是策略实例的名称。) 在某些（但并非所有）情况下，策略实例的名称与模式相同。 具体而言，若要将 TeamsOnly 模式分配给用户，需要向该用户授予 TeamsUpgradePolicy 的"UpgradeToTeams"实例。 若要查看所有实例的列表，可以运行以下命令：
 
@@ -66,7 +62,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user
 若要将本地用户Skype for Business TeamsOnly 模式，Move-CsUser工具集：
 
 ```PowerShell
-Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
+Move-CsUser -identity $user -Target sipfed.online.lync.com -credential $cred
 ```
 
 若要更改租户中所有用户的模式，但具有按用户显式授予权限的用户除外 (优先) ，请运行以下命令：
@@ -77,7 +73,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->如果有任何用户在本地Skype for Business帐户，则不能在租户级别分配 TeamsOnly 模式。 必须使用 Move-CsUser 将这些用户单独移动到云。
+>如果有任何用户在本地Skype for Business帐户，则不能在租户级别分配 TeamsOnly 模式。 必须使用 Move-CsUser Teams这些用户单独移动到"仅"模式。
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>在客户端Skype for Business通知
