@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 有关停止使用Skype for Business Server。
-ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420787"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454335"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>删除本地 Skype for Business 环境
 
@@ -38,7 +38,7 @@ ms.locfileid: "53420787"
 
 
 > [!IMPORTANT] 
-> 本文中的步骤仅在使用方法 2 管理用户属性时适用，如此处 [所述](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory)。 如果使用的是方法 1，请不要使用本文中所述的步骤删除Skype for Business服务器。 相反，你可以重新映像服务器。
+> 本文中的步骤仅在使用方法 2 管理用户属性时适用，如此处 [所述](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory)。 如果使用的是方法 1，请不要使用本文中所述的步骤删除Skype for Business服务器。 相反，你可以重新映像服务器。
 
 若要完成本文中的步骤，需要 Schema Admins 组和管理员组Enterprise权限。 您需要这些权限来撤消对 Active Directory 域Skype for Business Server和林级别的更改。 您还需要是 RTCUniversalServerAdmins 组的成员。
 
