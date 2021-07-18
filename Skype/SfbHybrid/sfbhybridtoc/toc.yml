@@ -26,8 +26,14 @@
           href: ../hybrid/decommission-on-prem-overview.md
         - name: 将用户移至云
           href: ../hybrid/decommission-move-on-prem-users.md
-        - name: 禁用混合以完成到云的迁移
-          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: 禁用混合以仅完成到 Teams 的迁移
+          items:
+            - name: 禁用混合以仅完成到 Teams 的迁移
+              href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+            - name: 更新 DNS 条目
+              href: ../hybrid/decommission-manage-dns-entries.md
+            - name: 决定如何在解除授权后管理属性
+              href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: 将应用程序终结点移动到云
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: 删除本地 Skype for Business 环境
