@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: cd4d8b4136639a057250bf72aa969e13f8619e1d
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219119"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454345"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用OneDrive for Business或SharePoint流进行会议录制
 
@@ -161,9 +161,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 题注可帮助所有功能观看者创建包容性内容。 作为所有者，您可以在会议录制内容上隐藏字幕，尽管会议脚本仍可用于Teams，除非将其删除。 
 
-从录制会议开始Teams 60 天内，会议录制都支持隐藏式字幕。
+目前，录制视频文件的隐藏式字幕链接到会议Teams脚本。 在大多数情况下，此链接将保留在文件的生存期内，但有时可能会中断，例如，如果在同一 OneDrive 或 SharePoint 网站中复制视频文件，则会导致字幕在新的录制视频文件中不可用。
 
-如果将会议录制内容移动或Teams从会议录制内容的原始位置移动或复制，则隐藏式字幕OneDrive for Business SharePoint。
+此处和消息中心通知中将阐明将来的任何更改，并确保录制文件在 60 天内将会议脚本显示为任何迁移期间的标题。
 
 > [!NOTE]
 > 会议听录中尚 (提供仅英语隐藏式字幕GCC) 。
