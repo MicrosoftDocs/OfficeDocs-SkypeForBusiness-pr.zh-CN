@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66fe753e289cb989b354a27e1f0eccad0d3327ea
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
+ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506331"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53479049"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>快速入门 - 会议、网络研讨会和直播活动 
 
@@ -46,27 +46,20 @@ ms.locfileid: "53506331"
 
 | 会议类型 | 参与者人数 | 交互 | 支持注册 |
 |----------|--------|--------|-----|
-| 会议  | 最多 20,000 人* <br> | - 最多 1,000 名参与者具有完全交互式平等会议功能。 <br> - 超过 1,000 名参与者（最多 20,000 人）具有“[仅供查看](view-only-meeting-experience.md)”功能。  | 弱 |
-| 网络研讨会 | -最多 1,000 个<br>- 即将推出的“[仅供查看](view-only-meeting-experience.md)”功能增加了限制。 |- 最多 1,000 名参与者具有完全交互式功能。 <br> - 受众交互可配置。 <br> - 可以指定演示者。 | 是 |
-| 直播活动 | 最多 20，000 人** |- 向大量受众广播。 <br>- 针对受众交互的审核问答。 <br> - 可以指定制作者和演示者，包括外部演示者。<br>- 支持更高级的生产功能。 | 弱 |
+| 会议  | 最多 20,000 人* <br> | - 最多 1,000 名参与者具有完全交互式平等会议功能 <br> - 超过 1,000 名参与者（最多 20,000 人）具有 [仅供查看](view-only-meeting-experience.md) 功能  | 弱 |
+| 网络研讨会 | 最多 20,000 人* |- 最多 1,000 名参与者具有完全交互式功能 <br> - 超过 1,000 名参与者（最多 20,000 人）具有 [仅供查看](view-only-meeting-experience.md) 功能  <br> - 受众交互可配置 <br> - 可以指定演示者 | 是 |
+| 直播活动 | 最多 20，000 人** |- 向大量受众广播 <br>- 调控下的受众交互问答 <br> - 可以指定制作者和演示者，包括外部演示者<br>- 支持更高级的生产功能 | 弱 |
 ||||
 
 *由通常的 10,000 人增加到 2021 年 12 月 31 日的 20,000 人。<br>
 
 **由通常的 10,000 人增加到 2021 年 12 月 31 日的 20,000 人。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](/stream/live-events-assistance)。 
 
-**大型会议、网络研讨会和直播活动的注意事项** - 在主持大型会议时，请考虑以下事项：
-
-- 为了获得大型会议、网络研讨会和直播活动最佳体验，Microsoft 建议使用 Teams 桌面客户端或 Teams 移动客户端。 
-
-- 大型会议、网络研讨会和直播活动中的演示者应使用 Teams 桌面客户端。 
-
-- 有关托管大型会议的更多提示，请参阅 [大型 Teams 会议最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
+为了获得大型会议的最佳体验，Microsoft 建议使用 Teams 桌面客户端或 Teams 移动客户端。 大型会议中的演示者应使用 Teams 桌面客户端。 有关托管大型会议的更多提示，请参阅 [大型 Teams 会议最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
 
 有关仅供查看会议体验的信息，请参阅 [Teams 仅供查看会议体验](view-only-meeting-experience.md)。
 
 请注意，NDI 在会议、网络研讨会和直播活动中完全受到支持，因此可以使用 OBS 和 Wirecast 等工具生成广播。 有关详细信息，请参阅 [在 Microsoft Teams 使用 NDI® 技术](use-ndi-in-meetings.md)。
-
 
 ### <a name="meetings"></a>会议
 

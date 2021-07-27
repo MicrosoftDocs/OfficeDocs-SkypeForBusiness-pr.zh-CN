@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解如何打开和使用呼叫质量仪表板，并获取呼叫质量的摘要报告。
-ms.openlocfilehash: c71cb25732a99f207467a988ad0db54c959d15f4
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8c720a9ef99537be517f29a8b558db8912ea6a75
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52254528"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596611"
 ---
-# <a name="set-up-call-quality-dashboard-cqd"></a>设置 CQD (呼叫质量) 
+# <a name="how-to-set-up-call-quality-dashboard"></a>如何设置呼叫质量仪表板
 
 使用管理员凭据 (登录时) CQD (Microsoft 呼叫 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 质量仪表板) 。 或者转到管理Teams并选择"呼叫 **质量仪表板"。** 
 
@@ -51,7 +51,7 @@ CQD 显示 2019 年 10 月 Microsoft Teams、Skype for Business Online 和 Skype
 如果希望非管理员用户 (（例如支持工程师和技术支持) ）使用呼叫质量仪表板，可以分配以下角色之一，从而授予对 CQD 的访问权限。 
 
 
-|  |查看报表  |查看 EUII 字段  |创建报表  |Upload生成数据  |
+|&nbsp;  |查看报表  |查看 EUII 字段  |创建报表  |Upload生成数据  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |全局管理员     |是         |是         |是         |是         |
 |Teams 管理员     |是         |是         |是         |是         |

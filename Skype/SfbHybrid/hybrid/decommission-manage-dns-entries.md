@@ -17,23 +17,25 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 有关如何在停用本地部署环境时管理 DNS Skype for Business说明。
-ms.openlocfilehash: 77011f0680c0a47e28b5cd44c2be2ff6bb62f1a8
-ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.openlocfilehash: a5321aa187a88505b3973c3e5418f4a88e1e6f69
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53482395"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486242"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>更新 DNS 条目，使组织能够"仅Teams"
 
-以前具有本地部署的 Skype for Business Server 或 Lync Server 的组织可能仍具有指向本地部署部署Skype for Business条目。 如果组织包括本地用户，则这些记录Skype for Business要求。 但是，一旦组织不再具有任何本地 Skype for Business 或 Lync Server 用户，本地部署不再需要这些原始记录，并且这些 DNS 条目必须更新为指向 **Microsoft 365 (，** 或者在某些情况下，作为从本地迁移到 Teams Only 的一部分删除 *) ，Microsoft* 无法执行此步骤。
+以前具有本地部署的 Skype for Business Server 或 Lync Server 的组织可能仍具有指向本地部署部署Skype for Business条目。 如果组织包括本地用户，则这些记录Skype for Business要求。 但是，一旦组织不再具有任何本地 Skype for Business 或 Lync Server 用户，本地部署不再需要这些原始记录，并且这些 DNS 条目必须更新为指向 Microsoft 365 (，或者在某些情况下，作为从本地迁移到 Teams Only 的一部分删除 **) 。** *Microsoft 无法代表你更新这些 DNS 记录。*
 
-尝试将 TeamsOnly 授予整个租户时，Teams DNS，以确定组织中是否存在已验证Microsoft 365的任何 DNS 记录。 如果找到任何记录，并且它们指向 Microsoft 365，尝试将租户共存模式更改为 TeamsOnly 将按设计失败。 这样可以防止具有本地用户的混合组织错误地将 TeamsOnly 模式应用到租户，因为这样做会破坏组织中所有本地 Skype for Business 用户的联盟 (无论使用 Teams 还是 Skype for Business) 。
+尝试将 TeamsOnly 授予整个租户时，Teams将检查 DNS 以确定下面列出的任何 DNS 记录是否存在于组织的每个 Microsoft 365 验证域中。 如果找到任何记录，并且它们指向 Microsoft 365，尝试将租户共存模式更改为 TeamsOnly 将按设计失败。 这样可以防止具有本地用户的混合组织错误地将 TeamsOnly 模式应用到租户，因为这样做会破坏组织中所有本地 Skype for Business 用户的联盟 (无论使用 Teams 还是 Skype for Business) 。
 
 
 ## <a name="how-to-identify-stale-dns-records"></a>如何识别过时的 DNS 记录
 
-若要确定任何阻止组织成为仅Teams DNS 记录，可以使用 Teams 管理中心将共存模式更改为 TeamsOnly。 转到"**组织范围的设置Teams**  ->  **升级"。** 任何阻止组织成为Teams仅 DNS 记录都将包含在错误消息中。  如果未找到 DNS 记录，组织的共存模式将更改为 TeamsOnly。   或者，您可以使用 Teams PowerShell 执行相同的工作。
+若要确定任何阻止组织成为仅Teams DNS 记录，可以使用 Teams 管理中心将共存模式更改为 TeamsOnly。 转到"**组织范围的设置Teams**  ->  **升级"。** 任何阻止组织成为Teams仅 DNS 记录都将包含在错误消息中。  如果未找到 DNS 记录，组织的共存模式将更改为 TeamsOnly。   
+
+或者，可以使用 Teams PowerShell 执行相同的操作，如下所示：
 
    ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global

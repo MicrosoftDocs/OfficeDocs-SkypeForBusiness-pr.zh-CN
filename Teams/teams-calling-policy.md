@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的呼叫策略
+title: 呼叫策略Microsoft Teams：呼叫和呼叫转发功能
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -20,15 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51653945"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596628"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams 中的呼叫策略
-===================================
+#  <a name="calling-and-call-forwarding-in-teams"></a>在 Teams 中调用和呼叫Teams
 
 在Microsoft Teams，调用策略控制哪些呼叫和呼叫转发功能可供用户使用。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转发或同时拨打其他用户或外部电话号码、将呼叫路由到语音邮件、将呼叫发送到呼叫组、对入站和出站呼叫使用委派，等等。
 
@@ -106,6 +105,6 @@ ms.locfileid: "51653945"
 
 ## <a name="related-topics"></a>相关主题
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [向 Teams 中的用户分配策略](assign-policies.md)

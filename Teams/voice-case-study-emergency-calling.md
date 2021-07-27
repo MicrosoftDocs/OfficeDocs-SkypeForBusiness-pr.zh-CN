@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 案例研究
+title: Teams Contoso 案例研究：紧急呼叫
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams多语言公司语音案例研究
+description: Teams公司的语音案例研究：紧急呼叫
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4503576df8d8e9f3d332cda45eb235d8162cf53
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 69231adb4588039012cceec1063571ddc201c2bb
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785976"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587471"
 ---
 # <a name="contoso-case-study-emergency-calling"></a>Contoso 案例研究：紧急呼叫
 

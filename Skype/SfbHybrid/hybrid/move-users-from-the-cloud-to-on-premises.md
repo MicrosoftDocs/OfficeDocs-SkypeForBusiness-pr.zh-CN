@@ -17,19 +17,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 了解如何将用户从 Skype for Business Online 移动到本地。
-ms.openlocfilehash: 78e86e48e9f409c9e2a9f348cada9c24f30c6279
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: 了解如何将用户从Teams本地。
+ms.openlocfilehash: db1557c3929bdf62557e31a7fce78050569016ee
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509783"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574087"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>将用户从云移动到本地 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-如果需要，可以将之前从本地迁移到云的用户 (无论是使用 Skype for Business Online 还是 Teams 仅) 迁移到本地。 若要将用户从 Skype for Business Online 或 TeamsOnly 模式移回 Skype for Business Server 本地部署，请使用 Move-CsUser cmdlet 或 Skype for Business Server 控制面板，这两者都是本地工具。 将用户移回本地部署时，必须决定将用户移动到哪个池。
+如果需要，可以将之前从本地迁移的用户移动到本地Teams迁移回本地。 若要将用户从 Skype for Business Online 或 TeamsOnly 模式移回 Skype for Business Server 本地部署，请使用 Move-CsUser cmdlet 或 Skype for Business Server 控制面板，这两者都是本地工具。 将用户移回本地部署时，必须决定将用户移动到哪个池。
 
 > [!Important]
 > 如果用户之前使用的是 TeamsOnly 模式，并且你使用的是比 Skype for Business Server 2015 版本更早的 CU8，则还必须删除该用户的 TeamsUpgradePolicy 的 TeamsOnly 模式分配。 本地用户不能具有 mode= TeamsOnly。  后续版本的Skype for Business Server自动删除此分配。 有关详细信息，请参阅 [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)。

@@ -15,12 +15,12 @@ description: 使用本指南将 Microsoft Teams作为第一个Microsoft 365或Of
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81ecf9a0f963a1be577149c585424c140df2abd5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 89fb1ac43e199b3c8081735705a7d05bfcae710b
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119351"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587361"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>首先Microsoft Teams
 
@@ -113,7 +113,8 @@ OneDrive for Business (Teams 中的 **) P2P** 文件共享：在 Teams 和频道
 <td><p>能够通过加载项创建内部和外部Outlook会议。</p>
 <p>PSTN 拨入和拨出功能随音频会议许可证一起提供。</p>
 <p>Teams日历访问Exchange 2016 CU3+ 本地部署并Exchange混合：使用混合配置向导创建<a href="/exchange/hybrid-deployment/deploy-hybrid">混合部署。</a> </p>
-<p>除了混合Exchange，Exchange OAuth 身份验证：在组织与Exchange Exchange Online <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> OAuth 身份验证"。</p>
+
+除了混合Exchange配置外，Exchange OAuth 身份验证：在组织与Exchange Exchange Online [OAuth 身份验证](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。 
 
 </p></td>
 </tr>
@@ -192,7 +193,7 @@ VoIP/PSTN Teams</td>
 <p>PSTN 拨入和拨出功能随音频会议许可证一起提供。</p>
 <p>Teams日历访问Exchange 2016 CU3+ 本地部署，并且Exchange混合：<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">使用混合配置向导创建混合部署。</a></p>
-<p>管理员可以 Skype for Business Outlook通过 Teams 会议策略的 PreferredMeetingProviderForIslandsMode 属性<a href="/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps">set-csteamsmeetingpolicy</a>控制该加载项。</p> 
+<p>管理员可以 Skype for Business Outlook通过 Teams 会议策略的 PreferredMeetingProviderForIslandsMode 属性<a href="/powershell/module/skype/set-csteamsmeetingpolicy">set-csteamsmeetingpolicy</a>控制该加载项。</p> 
 </td>
 </tr>
 <tr class="even">

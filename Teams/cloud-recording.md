@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
+ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486142"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565708"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -179,6 +179,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |我希望 100% 禁止录制内容转录。 |<ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowTranscription = False。 <li>向所有用户授予了全局 CsTeamsMeetingPolicy，或授予了 AllowTranscription = False 的 CsTeamsMeetingPolicy 策略之一。 </ol>|
 |我希望对大多数用户禁用转录，但有选择地启用允许其进行转录的特定用户。 |<ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False。 <li>为大多数用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一。 <li>为所有其他用户授予了 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一。 </ol>|
 
+### <a name="terms-of-use-acceptance"></a>使用条款接受
+如果你的组织具有你希望用户在录制会议之前接受的会议录制策略，请使用 [Azure Active Directory使用条款](/azure/active-directory/conditional-access/terms-of-use)功能。 此功能允许用户在访问 Microsoft Teams 之前接受组织的用户策略条款。 此功能并不特定于单击录制按钮，但与整体使用 Teams 或其他 Microsoft 365 应用相关。 我们的建议是将会议录制信息添加到使用 Teams 或 Microsoft 365 的总体使用条款中。 
 
 ## <a name="permissions-and-storage"></a>权限和存储
 
@@ -220,8 +222,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 | 会议类型  | 谁单击了“录制”？| 录制内容位于何处？ | 谁具有访问权限？ R/W、R 或共享  |
 |-------------|-----------------------|------------------------|------------------------|
-|与内部参与方进行 1 对 1 通话             |呼叫方                 |呼叫方的 OneDrive for Business 账户                        |呼叫方是所有者，且具有完全权限。 <br /><br />被呼叫方（如果在同一租户中）具有只读访问权限。 无共享访问权限。 <br /><br /> 被呼叫方（如果位于不同租户中）没有访问权限。 呼叫方必须将其共享给被呼叫方。|
-|与内部参与方的 1 对 1 通话             |被呼叫方                 |被呼叫方的 OneDrive for Business 账户                        |被呼叫方是所有者，且具有完全权限。 <br /><br />呼叫方（如果在同一租户中）具有只读访问权限。 无共享访问权限。 <br /><br />呼叫方（如果位于不同的租户中）无访问权限。 被呼叫方必须将其共享给呼叫方。|
+|与内部参与方进行 1 对 1 通话             |呼叫方                 |呼叫方的 OneDrive for Business 账户                        |呼叫方是所有者，且具有完全权限。 <br /><br />被呼叫方（如果在同一租户中）具有只读访问权限。没有共享访问权限。 <br /><br /> 被呼叫方（如果位于不同租户中）没有访问权限。 呼叫方必须将其共享给被呼叫方。|
+|与内部参与方的 1 对 1 通话             |被呼叫方                 |被呼叫方的 OneDrive for Business 账户                        |被呼叫方是所有者，且具有完全权限。 <br /><br />呼叫方（如果在同一租户中）具有只读访问权限。 <br /><br />呼叫方（如果位于不同的租户中）无访问权限。 被呼叫方必须将其共享给呼叫方。|
 |使用外部呼叫进行 1：1 通话             |呼叫方                 |呼叫方的 OneDrive for Business 账户                        |呼叫方是所有者，且具有完全权限。<br /> <br />被呼叫方没有访问权限。 呼叫方必须将其共享给被呼叫方。|
 |使用外部呼叫进行 1：1 通话             |被呼叫方                 |被呼叫方的 OneDrive for Business 账户                        |被呼叫方是所有者，且具有完全权限。<br /><br />呼叫方没有访问权限。 被呼叫方必须将其共享给呼叫方。|
 |群组通话                                 |通话的任何成员 |单击“录制”的组成员的 OneDrive for Business 帐户  |单击“录制”的成员具有完全权限。 <br /><br /> 来自同一租户的其他成员具有读取权限。 <br /><br /> 来自不同租户的其他组成员则没有权限。|
@@ -262,9 +264,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 仅当用户在录制时打开了听录功能时，才会在播放期间提供 Teams 会议录制内容的隐藏式字幕。 管理员必须 [通过策略启用录制听录](#turn-on-or-turn-off-recording-transcription)，以确保其用户可以选择使用听录来记录会议。
 
-字幕有助于为具有各种能力的观众创建包容性内容。 作为所有者，你可以隐藏会议录制内容中的字幕，尽管会议脚本仍可在 Teams 上使用，除非你将其从 Teams 删除。
+作为所有者，你可以隐藏会议录制内容中的字幕，尽管会议脚本仍可在 Teams 上使用，除非你将其从 Teams 删除。
 
-今天,录制内容视频文件的隐藏式字幕已链接到 Teams 会议脚本。 在大多数情况下，此链接将在文件的生命周期内一直保存，但如果在同一 OneDrive for Business 或 SharePoint Online 网站中复制该视频文件，则链接可能会损坏，这将导致字幕在复制的视频文件上不可用。
+现在，录制视频文件的隐藏式字幕已关联到 Teams 会议脚本。在大多数情况下，此链接将在文件的生命周期内一直保存，但如果在同一 OneDrive for Business 或 SharePoint Online 网站中复制该视频文件，则链接可能会损坏，这将导致字幕在复制的视频文件上不可用。
 
 将来对 Teams 中脚本和录制内容之间的链接所做的任何更改都将在此处和消息中心通知中进行阐明。 如果将来进行任何更改，我们将确保录制时间 不到 60 天的录制文件可以将会议的脚本显示为字幕。
 

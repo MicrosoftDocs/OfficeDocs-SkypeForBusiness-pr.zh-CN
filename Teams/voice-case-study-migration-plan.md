@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 案例研究
+title: Teams Contoso 案例研究升级计划
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams多语言公司语音案例研究
+description: Teams公司的语音案例研究：升级规划。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a458f2c98b0f6de8bc2d3b3d23e2b68e4cadd931
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093722"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587441"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso 案例研究：Teams升级计划
 

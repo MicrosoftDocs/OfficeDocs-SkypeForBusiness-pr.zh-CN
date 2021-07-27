@@ -293,6 +293,8 @@ items:
             href: legal-hold.md
           - name: 内容搜索
             href: content-search.md
+          - name: 高级电子数据展示中的 Teams 工作流
+            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: 审核
             href: audit-log-events.md
           - name: 客户密钥
@@ -813,7 +815,7 @@ items:
                 href: rooms/rooms-manage.md
               - name: 维护和操作
                 href: rooms/rooms-operations.md
-              - name: '在组织中支持 Teams '
+              - name: 已知问题
                 href: rooms/known-issues.md
               - name: 具有 Azure Monitor 的设备
                 href: rooms/azure-monitor-manage.md
@@ -899,7 +901,13 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: 通话套餐的国家和地区可用性
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: 电话系统直接路由
+          - name: 运营商连接
+            items:
+              - name: 运营商连接计划
+                href: operator-connect-plan.md
+              - name: 配置运营商连接
+                href: operator-connect-configure.md
+          - name: 直接路由
             items:
               - name: 概述
                 href: direct-routing-landing-page.md
@@ -975,12 +983,6 @@ items:
                         href: direct-routing-protocols-media.md
                   - name: 直接路由 Survivable Branch Appliance
                     href: direct-routing-survivable-branch-appliance.md
-          - name: 运营商连接
-            items:
-              - name: 运营商连接计划
-                href: operator-connect-plan.md
-              - name: 配置运营商连接
-                href: operator-connect-configure.md
       - name: 电话号码
         items:
           - name: 管理组织的电话号码
@@ -1469,6 +1471,8 @@ items:
                 href: class-insights.md
               - name: 使用见解同步 SIS 数据
                 href: education-insights-sis-data-sync.md
+              - name: 管理对 Insights 的用户访问
+                href: education-insights-manage-access.md
               - name: 开始使用 Reflect
                 href: reflect.md
           - name: Teams 教育版中的分配
@@ -1485,7 +1489,7 @@ items:
             href: sku-reference-edu.md
       - name: 适合一线员工的 Teams
         items:
-          - name: 适合一线员工的快速入门
+          - name: 一线员工快速入门指南
             href: flw-quickstart.yml
           - name: 一线员工脚本化部署
             href: flw-scripted-deployment.md

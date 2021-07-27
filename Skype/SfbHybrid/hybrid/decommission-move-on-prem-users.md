@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在停用本地环境Skype for Business移动用户。
-ms.openlocfilehash: 992f2dd479e0b8ca8a3f11f069e8ef049259ad9c
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: bc98ebfcfb7ad4d4b2c64942b5f84500a98cdc84
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420807"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510713"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>在停用本地环境之前移动所需用户
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 本文介绍如何在停用本地部署环境之前，将所需用户Skype for Business Microsoft 云。 这是停止使用本地环境的以下步骤的第 1 步：
 

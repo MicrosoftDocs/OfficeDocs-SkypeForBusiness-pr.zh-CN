@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在停用本地环境之前迁移Skype for Business应用程序终结点。
-ms.openlocfilehash: ee437f7f6c35ee67168c81e8e8ad440b1b0ba824
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 556c6dca43f1fb273d1934dfe581bdc86356ca15
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574237"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510533"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在停用本地环境之前迁移混合应用程序终结点
 
@@ -57,7 +57,7 @@ ms.locfileid: "53574237"
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. 由于这些帐户的电话号码有可能在 Microsoft 365 而非本地管理，因此在 PowerShell 中Teams命令：
+5. 由于这些帐户的电话号码有可能在 Microsoft 365 而非本地管理，因此在 Skype for Business PowerShell 中运行以下命令：
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"

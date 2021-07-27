@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文介绍如何在停用本地环境后管理属性。
-ms.openlocfilehash: 32cd4c6da893e4ba336007d3f5d5f3f8fdb5ca90
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574317"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510643"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>决定如何在解除授权后管理属性
 
@@ -59,7 +59,7 @@ ms.locfileid: "53574317"
 
   ![Active Directory 用户和计算机工具](../media/disable-hybrid-1.png)
   
--  如果用户在移动之前最初没有本地值，您可以使用 Teams `msRTCSIP-Line` `onpremLineUri` PowerShell 模块中[Set-CsUser cmdlet](/powershell/module/skype/set-csuser?view=skype-ps)中的 - 参数修改电话号码。
+-  如果用户在移动之前最初没有本地值，您可以使用 `msRTCSIP-Line` Skype for Business Online PowerShell 模块中 `onpremLineUri` [Set-CsUser cmdlet](/powershell/module/skype/set-csuser?view=skype-ps)中的 - 参数修改电话号码。
 
 这些步骤对于禁用混合后创建的新用户来说不是必需的，可以直接在云中管理这些用户。 如果你习惯混合使用这些方法，并习惯将 msRTCSIP 属性留在本地 Active Directory 中，则只需重新映像本地 Skype for Business 服务器。 但是，如果你希望清除所有 msRTCSIP 属性，并执行传统卸载Skype for Business Server，请使用方法 2。
 
@@ -140,13 +140,13 @@ ms.locfileid: "53574317"
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. 等待用户预配完成。 可以通过运行以下 PowerShell 命令来监视Teams设置进度。 下面的 powerShell Teams在进程完成后将返回空结果。
+7. 等待用户预配完成。 可以通过运行以下命令来监视用户预配Skype for Business Online PowerShell 命令。 以下 Skype for Business Online PowerShell 命令将在进程完成后返回空结果。
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. 执行以下 Teams PowerShell 命令来分配电话号码并允许用户电话系统：
+8. 执行以下 Skype for Business Online PowerShell 命令来分配电话号码并允许用户电话系统：
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -161,7 +161,7 @@ ms.locfileid: "53574317"
    > [!Note]
    >  如果仍有Skype for Business终结点 (客户端Skype第三方) ，则还需要将 -HostedVoiceMail 设置为 $true。 如果您的组织仅对启用Teams使用语音终结点，则此设置不适用于您的用户。 
 
-9. 确认具有电话系统功能的用户已正确设置。 下面的 powerShell Teams在进程完成后将返回空结果。
+9. 确认具有电话系统功能的用户已正确设置。 以下 Skype for Business Online PowerShell 命令将在进程完成后返回空结果。
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -187,13 +187,11 @@ ms.locfileid: "53574317"
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-
-    TeamsPowerShell 命令：
+    Skype for Business联机 PowerShell 命令：
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-
 12. 完成方法 2 的所有步骤后，请参阅将混合[](decommission-move-on-prem-endpoints.md)应用程序终结点从本地移动到联机和删除本地[Skype for Business Server，](decommission-remove-on-prem.md)了解删除本地 Skype for Business Server 部署的其他步骤。
 
 

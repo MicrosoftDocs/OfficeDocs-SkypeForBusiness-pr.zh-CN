@@ -16,28 +16,28 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 通过配置混合模式Skype for Business Server Teams Skype for Business Online 之间实现混合Skype for Business连接。
+description: 通过配置混合模式Skype for Business Server和Teams实现Skype for Business连接。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: acfd94d78609ef3428029832ffaf030ca0f34b64
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509823"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574257"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>规划 Skype for Business Server 和 Teams
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-阅读本主题，了解如何规划 Skype for Business Server Teams (或 Skype for Business Online 之间的混合连接，直到 2021 年 7 月 31) 。 设置混合连接是将本地环境迁移到云的第一步。
+阅读本主题可了解如何规划 Skype for Business Server 与 Teams 之间的混合连接。 设置混合连接是将本地环境迁移到云的第一步。
 
 如果你的本地 Skype for Business 用户也使用 Teams（并行），则这些用户无法从其 Teams 客户端与 Skype for Business 用户进行交互操作，也无法从 Teams 客户端与联合组织中的用户进行通信。 若要在 Teams 中获得此功能，必须将这些用户从本地 Skype for Business 移动到云，这需要配置 Skype for Business 混合模式。 此外，为了获得最佳体验，这些用户应使用"仅 Teams"模式，这可确保来自任何用户的所有传入呼叫和聊天都登录用户的 Teams 客户端。
 
 在弃用本地 Skype for Business 部署之前，还需要设置混合连接并将所有用户移动到云。  设置混合连接后，你可以选择根据你的计划和业务需求将用户移动到云。 借助直接路由，你可以在迁移到云和完成迁移后，利用本地语音基础结构。
 
-本主题介绍配置现有本地 Skype for Business Server部署部署与 Teams 或 Skype for Business Online 之间的混合连接所需的基础结构和Skype for Business要求。
+本主题介绍配置现有本地部署与部署环境之间的混合连接所需的Skype for Business Server和Teams。
 
-阅读本主题并准备好配置混合连接后，请参阅配置 Skype for Business Server 与 Microsoft 365 或[Office 365 之间的混合Office 365。](configure-hybrid-connectivity.md) 配置主题提供有关在本地部署和 Teams 或 Skype for Business Online 之间设置混合连接的分步指南。
+阅读本主题并准备好配置混合连接后，请参阅配置 Skype for Business Server 与 Microsoft 365 或[Office 365 之间的混合Office 365。](configure-hybrid-connectivity.md) 配置主题提供有关在本地部署和部署环境之间设置混合连接的分Teams。
 
 > [!Important]
 > Skype for BusinessOnline 将于 2021 年 7 月 31 日停用，此后服务将不再可用。  此外，将不再支持通过 Skype for Business Server 或云连接器版本与 Skype for Business Online 本地环境之间的 PSTN 连接。  了解如何使用直接路由将本地电话网络Teams[到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
@@ -70,9 +70,9 @@ ms.locfileid: "53509823"
 
 <a name="BKMK_Overview"> </a>
 
- 在 Skype for Business Server 本地部署和 Teams 或 Skype for Business Online 内部部署之间设置混合连接后，你可以将一些用户设置为本地，而某些用户则在线进行。
+ 在 Skype for Business Server 和 Teams 本地部署之间设置混合连接后，你可以将一些用户设置为本地，而某些用户则联机进行。
 
-此类配置依赖于共享 SIP 地址空间功能，有时称为"拆分域"，这意味着域（如 contoso.com）的用户在本地使用 Skype for Business Server 与 Teams 或 Skype for Business Online 之间拆分，如下图所示：
+此类配置依赖于共享 SIP 地址空间功能，有时称为"拆分域"，这意味着域（如 contoso.com）的用户在本地使用 Skype for Business Server 和 Teams 之间拆分，如下图所示：
 
 ![Skype for Business 混合连接 - 拆分域](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
@@ -101,16 +101,16 @@ ms.locfileid: "53509823"
 - Azure Active Directory 连接将本地目录与Microsoft 365或Office 365。 有关详细信息，请参阅[Azure AD 连接：帐户和权限](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
 - Skype for Business Server管理工具。 将用户从本地移动到云需要这些权限。 这些工具必须安装在可以访问本地部署和 Internet 的服务器上。
-- 联机管理工具。 可以使用管理中心或 Teams 管理Windows PowerShell管理 Teams Skype for Business Online。 若要使用 PowerShell 管理 Teams 或 Skype for Business Online，请下载并安装 Teams PowerShell 模块。  (Skype for Business Online Connector 已停用) 。
+- 联机管理工具。 可以使用管理中心或Teams管理Windows PowerShell管理Teams。 若要使用 PowerShell 管理 Teams，请下载并安装 Teams PowerShell 模块。  (Skype for Business Online Connector 已停用) 。
 - 必须启用共享 SIP 地址空间，并且必须将本地部署配置为将 Microsoft 365 或 Office 365 用作宿主提供商。 有关配置混合连接所需的步骤详细信息，请参阅配置 [混合连接](configure-hybrid-connectivity.md)。
 
-配置混合连接后，可以将用户移动到 Teams 或 Skype for Business Online。 有关详细信息，请参阅将用户[从](move-users-from-on-premises-to-teams.md)本地移动到 Teams 和 将用户从本地移动到[Skype for Business Online。](move-users-from-on-premises-to-skype-for-business-online.md)
+配置混合连接后，可以将用户移动到Teams。 有关详细信息，请参阅将[用户从本地移动到Teams。](move-users-from-on-premises-to-teams.md)
 
 ## <a name="server-version-requirements"></a>服务器版本要求
 
 <a name="BKMK_Topology"> </a>
 
-若要将部署配置为与 Teams 或 **Skype for Business Online** 进行混合部署，您需要具有以下受支持的拓扑之一：
+若要将部署配置为与 Teams **混合，** 您需要具有以下受支持的拓扑之一：
 
 - Skype for Business Server 2019 部署（所有服务器都运行 Skype for Business Server 2019）。
 - Skype for Business Server 2015 部署（所有服务器都运行 Skype for Business Server 2015）。
@@ -120,7 +120,7 @@ ms.locfileid: "53509823"
   - Lync Server 2013 和 Skype for Business Server 2019
   - Lync Server 2013 和 Skype for Business Server 2015
 
-如果 *任何* 拓扑中均需要混合语音，则指定为联盟边缘的边缘服务器以及与 SIP 联盟关联的池都必须运行 Skype for Business 2015 或更高版本。 如果存在，用户可以保留在 Lync 2013 池中。 有关详细信息，请参阅 Plan[电话系统 with PSTN Connectivity in Skype for Business Server](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)。
+如果 *任何* 拓扑中均需要混合语音，则指定为联盟边缘的边缘服务器以及与 SIP 联盟关联的池都必须运行 Skype for Business 2015 或更高版本。 如果存在，用户可以保留在 Lync 2013 池中。 有关详细信息，请参阅 [规划语音解决方案](/MicrosoftTeams/cloud-voice-landing-page.md)。
 
 对于即时消息和会议，Skype for Business Online 支持以下包含 **Lync Server 2010** 的拓扑。 混合语音也不支持包含 **Lync Server 2010 的Teams。**
 

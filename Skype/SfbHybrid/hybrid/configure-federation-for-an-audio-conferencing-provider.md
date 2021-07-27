@@ -18,14 +18,17 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：了解如何在 Skype for Business Online 中为音频会议提供商配置联盟。
-ms.openlocfilehash: 5d9c49299452f579cd7c58adf54facb09f0b8a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4c2f0b9163202ff8469f2a2223c88ba10db193c3
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118971"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510563"
 ---
 # <a name="configure-federation-for-an-audio-conferencing-provider-in-your-hybrid-deployment"></a>在混合部署中为音频会议提供商配置联盟
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 **摘要：** 了解如何在 Skype for Business Online 中为音频会议提供商配置联盟。
 

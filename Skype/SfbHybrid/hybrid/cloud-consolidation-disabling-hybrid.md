@@ -1,5 +1,5 @@
 ---
-title: 禁用混合以完成仅Teams迁移
+title: 禁用混合以仅完成到 Teams 的迁移
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文包括禁用混合功能的详细步骤，作为云解决方案和Teams Skype for Business。
-ms.openlocfilehash: 87bd1f6e0dcabed067174972dd0f0fc51149beb0
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453641"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510503"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>禁用混合配置以完成仅Teams迁移 
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 本文介绍如何在停用本地部署环境之前禁用Skype for Business配置。 这是停止使用本地环境的以下步骤的第 2 步：
 

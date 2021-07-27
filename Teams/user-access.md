@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 770dcea62d6f3dc65f576a3d64a520dd4de2ecad
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: c996df5c0253f3eee02a2b76297952ccf9cf56d3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637724"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587481"
 ---
 # <a name="manage-user-access-to-teams"></a>管理对 Teams 的用户访问
 
@@ -52,9 +52,9 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 
 两者步骤有所不同，具体取决于你是使用 **“许可证”** 页面还是 **“活动用户”** 页面。  有关分步说明，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
-|||
+|&nbsp;|&nbsp;|
 |---------|---------|
-|![已为用户启用 Teams 许可证的屏幕截图](media/assign-teams-licenses-1.png)    | ![已为用户启用 Teams 许可证的屏幕截图](media/assign-teams-licenses-2.png)        |
+|![为用户启用Teams许可证的屏幕截图 1](media/assign-teams-licenses-1.png)    | ![为用户Teams许可证的屏幕截图 2](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>删除 Teams 许可证
 
@@ -63,9 +63,9 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 
 从用户删除 Teams 许可证时，将针对该用户禁用 Teams，然后他们将不会再在应用启动器或主页中看到 Teams。 有关详细步骤，请参阅[取消分配用户许可证](/microsoft-365/admin/manage/remove-licenses-from-users)。
 
-|||
+|&nbsp;|&nbsp;|
 |---------|---------|
-|![已为用户禁用 Teams 许可证的屏幕截图](media/remove-teams-licenses-1.png)    | ![已为用户禁用 Teams 许可证的屏幕截图](media/remove-teams-licenses-2.png)        |
+|![用户禁用Teams许可证的屏幕截图 1](media/remove-teams-licenses-1.png)    | ![用户禁用Teams许可证的屏幕截图 2](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
