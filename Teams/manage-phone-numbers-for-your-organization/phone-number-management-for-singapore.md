@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理新加坡用户的电话号码Microsoft Teams。
-ms.openlocfilehash: 1935f692fc7e236d47ba79cfa1963abe7b2d1f27
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 250e3bb0822b7587d276725517b85858d844b52e
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130331"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509753"
 ---
 # <a name="phone-number-management-for-singapore"></a>电话新加坡的号码管理
 
@@ -37,12 +37,11 @@ ms.locfileid: "52130331"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 |新加坡可以使用管理中心获取组织Microsoft Teams电话号码。 您也可以通过下载表单并向我们发送来 [提交新的电话号码请求](mailto:ptneu@microsoft.com)。<br/><br/>[新加坡新电话号码请求 (v.1.0)  (en-sg) 。 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/>在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整填写，然后发送给我们。<br/><br/>新订单可能需要两到三周来填充此市场。  |
-|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[新加坡的 (LOA) 授权书 (所有)  (v.1.0)  (en-sg) ](https://download.microsoft.com/download/e/3/0/e304e2d3-96b4-43fd-801d-68df4825ce6b/letter-of-authorization-(loa)-for-singapore-(all-numbers)-(v.1.0)-(en-sg).pdf) <br/> <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/><br/>转移号码可能需要一到六周才能在此市场中完成，具体取决于端口的复杂性。 <br/><br/>这些号码目前不能用于会议。  |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
-|将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 |新加坡可以使用管理中心获取组织Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 PTSN 以说明](contact-pstn-service-desk.md)。<br/><br/>[新加坡新电话号码请求 (v.1.0)  (en-sg) 。 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/>在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整完成，并 [联系 PTSN 了解说明](contact-pstn-service-desk.md)。<br/><br/>新订单可能需要两到三周来填充此市场。  |
+|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[新加坡的 (LOA) 授权书 (所有)  (v.1.0)  (en-sg) ](https://download.microsoft.com/download/e/3/0/e304e2d3-96b4-43fd-801d-68df4825ce6b/letter-of-authorization-(loa)-for-singapore-(all-numbers)-(v.1.0)-(en-sg).pdf) <br/> <br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 <br/><br/>转移号码可能需要一到六周才能在此市场中完成，具体取决于端口的复杂性。 <br/><br/>这些号码目前不能用于会议。  |
+|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
+|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。|
-
    
 ## <a name="related-topics"></a>相关主题
 

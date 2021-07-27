@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc1ce6eec084dfe2f4bb736f018352e0eb0e2c88
-ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
+ms.openlocfilehash: b77f63afe0307d9dcf3c883d8b93242d26c7f7cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51397555"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587241"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams Outlook电子邮件集成
 
@@ -31,7 +31,7 @@ Microsoft Teams包括一些功能，使您的组织中的用户能够轻松地�
 
 ![屏幕截图显示"共享到Outlook"功能Teams](media/share-to-outlook.png)
 
-若要使用此功能，Outlook必须打开 Web 上的应用。 如果Outlook关闭，则"共享到Outlook"选项不会显示在Teams中。 若要了解如何在 Web 上打开Outlook关闭邮箱，请参阅启用或Outlook邮箱的[Web 应用](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)。
+若要使用此功能，Outlook 网页版用户必须启用此功能。 如果Outlook 网页版，"共享到Outlook"选项不会显示在Teams中。 有关如何打开和关闭邮箱Outlook 网页版，请参阅[为邮箱启用Outlook 网页版或禁用邮箱。](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
 ## <a name="actionable-activity-emails"></a>可操作活动电子邮件
 
@@ -46,4 +46,4 @@ Microsoft Teams包括一些功能，使您的组织中的用户能够轻松地�
 
 可以将 [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) cmdlet 与 **SmtpActionableMessagesEnabled** 参数一起用于关闭可操作电子邮件。 默认情况下 **，SmtpActionableMessagesEnabled** 参数设置为 **true。** 将 参数设置为 **false** 会关闭整个 Office 365。 对于Teams用户，这意味着在错过的活动电子邮件中Outlook直接答复的"答复"选项不可用。 相反，错过的活动电子邮件包括"答复 **"Teams"选项**，以便用户在电子邮件中Teams。
 
-另请参阅[组和组Outlook Office 365邮件](https://docs.microsoft.com/outlook/actionable-messages/)。
+另请参阅[组和组Outlook Office 365邮件](/outlook/actionable-messages/)。

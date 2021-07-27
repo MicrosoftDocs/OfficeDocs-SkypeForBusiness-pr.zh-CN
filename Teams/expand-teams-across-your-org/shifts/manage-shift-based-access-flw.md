@@ -1,5 +1,5 @@
 ---
-title: 管理工作电话中一线员工基于排班Teams
+title: 管理公司中一线员工基于排班Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaku
@@ -15,14 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c69f5678b2a3884f52dd3dc676fce21e2ee67f4f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9c1d8ed8e964d1ffeda8e862992335560c9a6aab
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092540"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536838"
 ---
-# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>管理工作电话中一线员工基于排班Teams
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>管理公司中一线员工基于排班Teams
 
 > [!IMPORTANT]
 > 从 2020 年 6 月 30 开始，Microsoft StaffHub 已停用。 我们正在将 StaffHub 功能构建到 Microsoft Teams。 如今，Teams 包含用于日程安排管理的“班次”应用，并且随着时间推移将推出其他功能。 StaffHub 于 2020 年 6 月 30 日停止为所有用户工作。 尝试打开 StaffHub 的任何用户都会看到一则提示其下载 Teams 的消息。 若要了解详细信息，请参阅 [Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
@@ -31,19 +31,19 @@ ms.locfileid: "51092540"
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-"Microsoft Teams状态"表示用户当前的可用性和其他用户的状态。 一线员工的存在通常不如其他员工预测，因为每天的工作时间通常不同。 作为管理员，您可以配置Teams为您的组织中的一线员工显示一组基于排班的显示状态，以指示其何时上班和下班。
+"Microsoft Teams状态"表示用户当前的可用性和其他用户的状态。 一线员工的存在通常不如其他员工预测，因为每天的工作时间通常不同。 作为管理员，您可以配置Teams为您的组织中的一线员工显示一组基于排班的显示状态，以指示他们何时上班和下班。
 
 这些基于班次的显示状态实心绿色对号，表示"上移时"，灰色圆圈带 x，表示"关班""关班 &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; "，"实心红圈"，[](../../presence-admins.md)表示"忙碌"与 Teams 中的默认状态集分开。 通过这两组状态，你可以根据用户的角色为组织成员配置不同的体验。
 
-使用基于班次的访问，可以在一线员工Teams，管理对非班次的访问。 例如，可以将"Teams设置为显示一条消息，即"第一线工作人员必须确认"，Teams排班时才能使用电话。  
+使用基于排班的访问，可以在一线Teams排班时管理对员工的访问权限。 例如，您可以设置Teams，以显示一条消息，即一线员工必须先确认，Teams排班时才能使用排班。  
 
 ## <a name="scenario"></a>使用场景
 
 下面是组织如何管理基于班次的访问的示例。
 
-您的组织中的一线员工只应支付其经理安排和批准的排班工时。 不应为在计划排班外工作的时间支付这些费用，包括使用 Teams 应用。 您设置了一条自定义消息，显示"当您在 Teams 上排班的时间不计入应付时间"，当一线员工尝试在轮班时访问 Teams 时，会显示该消息。 如果他们选择使用Teams，他们单击"我接受"，了解这一次不会付费。
+您的组织中的一线员工只应支付其经理安排和批准的排班工时。 不应为在计划排班外工作的时间支付这些费用，包括使用 Teams 应用。 您设置了一条自定义消息，显示"在 Teams 上排班的时间不计入应付时间"，当一线员工尝试在轮班时访问 Teams 时，会显示该消息。 如果他们选择使用Teams，他们单击"我接受"，了解这一次不会付费。
 
-您组织中还有一些具有薪金和不工作班次的信息工作者。 将信息工作者配置为使用默认状态Teams为一线员工提供基于班次的显示。
+您组织中还有一些具有薪金和不工作班次的信息工作者。 将信息工作者配置为使用Teams状态，同时为一线员工提供基于班次的显示。
 
 ## <a name="shift-based-presence-states"></a>基于班次的状态
 
@@ -53,11 +53,11 @@ ms.locfileid: "51092540"
 |---------|---------|---------|
 |![实心绿色对号，指示"正在上移"](../../media/flw-presence-on-shift.png) 轮班     |         |在班次开始时自动设置         |
 |![带 x 的灰色圆圈，指示"关班"](../../media/flw-presence-off-shift.png) 非班次     |         |在班次结束时自动设置         |
-|![实心红色圆圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌      | ![实心红色圆圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌         |自动设置。 还可以在前线工作人员上班时手动设置。|
+|![实心红色圆圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌      | ![实心红色圆圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌         |自动设置。 还可以在一线工作人员上班时手动设置。|
 
 ## <a name="off-shift-access-to-teams"></a>不轮班访问Teams
 
-此功能允许管理在一线Teams非班次时对员工的访问权限。 可以设置Teams，以在"第一线员工"在轮Teams时向"一线员工"显示消息。 一线员工必须 **单击"我接受**"才能确认消息，然后才能Teams。
+此功能允许管理在一线Teams员工排班时对员工的访问权限。 您可以设置Teams，以在一线员工在轮班时访问Teams向一线员工显示消息。 一线员工必须单击 **"我接受**"才能确认消息，才能Teams。
 
 您可以使用默认消息，从一组预定义邮件中选择，或自定义邮件以显示任何需要的文本。 下面是默认消息：
 
@@ -67,7 +67,7 @@ ms.locfileid: "51092540"
 
 ## <a name="manage-shift-based-access"></a>管理基于班次的访问
 
-作为管理员，可以使用策略来控制组织中一线员工基于排班的存在。 可以使用以下 PowerShell cmdlet 管理这些策略：
+作为管理员，您可以使用策略来控制组织中一线员工基于排班的存在。 可以使用以下 PowerShell cmdlet 管理这些策略：
 
 - [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy)

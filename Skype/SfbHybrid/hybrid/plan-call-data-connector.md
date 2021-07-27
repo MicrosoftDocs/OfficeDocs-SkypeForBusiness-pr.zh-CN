@@ -12,16 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Overview of using Skype for Business Online telemetry tools to monitor an on-premises implementation in a hybrid scenario.
-ms.openlocfilehash: 7b6076224280446b7fc52c505fe5fc3ab8d41be4
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856351"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509763"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
 
 ## <a name="overview"></a>概述
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 本主题介绍实施呼叫数据连接器的好处、规划注意事项Skype for Business Server要求。 有关配置呼叫数据连接器的信息，请参阅配置 [呼叫数据连接器](configure-call-data-connector.md)。
 

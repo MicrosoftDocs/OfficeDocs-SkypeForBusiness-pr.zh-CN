@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e79eecaaa0fbdbc00b73358f8a9fa2e147675e6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 2c0933d9347a1aa2da49abf85e7b420413a5961a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282179"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587181"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>准备 IT 人员以Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "52282179"
 
 
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否涉及可能参与部署和支持所有支持人员Teams？</li><li>你已制定培训计划，以在升级过程中培训其他员工？</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>验证 IT 人员是否具有他们所需的信息。</li><li>新功能发布后，请重新访问培训和准备计划。</li></ul>|

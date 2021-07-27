@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2b805f4cfddce18f1fa055b7de96a4afcaa47fb
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: c68965bb658328646b5308ad85092ce23bc0ab02
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684559"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574047"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>在管理中心使用常规团队模板
 
@@ -34,7 +34,7 @@ ms.locfileid: "52684559"
 
 本文介绍每个团队模板，并推荐其使用方法。
 
-如果你负责规划、部署和管理整个财务组织的多个团队，则本文适合你。 你已在贵组织内部署 Teams 服务。 如果尚未推出Teams，请首先阅读如何[推出](./deploy-overview.md)Microsoft Teams。
+如果你负责在整个组织中规划、部署和管理多个团队，则本文适合你。 你已在贵组织内部署 Teams 服务。 如果尚未推出Teams，请首先阅读如何[推出](./deploy-overview.md)Microsoft Teams。
 
 若要了解有关团队模板的一般信息，请参阅 [团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)。
 

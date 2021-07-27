@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，该队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
-ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
+ms.openlocfilehash: 17e6113b19a09500fba1050b7f8f33efd110ef44
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53428198"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506371"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -229,7 +229,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
   - Microsoft Teams Android 应用
 
     > [!NOTE]
-    > 分配有直接路由号码的呼叫队列不支持将 Skype for Business、Lync 客户端或 Skype for Business IP 电话作为代理。
+    > 分配有直接路由号码的呼叫队列不支持将 Skype for Business、Lync 客户端或 Skype for Business IP 电话作为代理。 只有 Teams 共存模式才支持 Teams[客户端](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
 ## <a name="call-queue-cmdlets"></a>呼叫队列 cmdlet
 

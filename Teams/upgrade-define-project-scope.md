@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6ad3c5062a96a4becff32136c551a3247aa660f
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 949c3189b80e9843b4b256f8d3f65cc3b52e2d1a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282579"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586971"
 ---
 # <a name="define-your-project-scope"></a>定义项目范围
 
@@ -37,7 +37,7 @@ ms.locfileid: "52282579"
 
 花时间定义项目愿景、范围、目标和治理有助于确保所有项目利益干系人保持一致，并致力于实现相同的最终成果。 这一点尤其重要，因为技术准备团队和用户准备团队将独立协作，将各自的部分汇集在一起。 完成本部分后，请在整个项目中引用它，以确保你一切如期实现所需的结束状态。 使用下面确定的目标衡量结果，并根据需要缓解。
 
-| | |
+| &nbsp;| &nbsp;|
 |---|---|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>您希望通过此项目完成哪些 (换句话说，为什么在项目) ？</li><li>成功的外观是什么？</li><li>风险是什么？缓解这些风险的计划是什么？</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>与项目团队和发起人讨论以下部分。</li><li>记录你对此项目的愿景、范围、目标和风险。</li><li>重新访问项目团队，验证你已与正确的团队合作。</li></ul>|

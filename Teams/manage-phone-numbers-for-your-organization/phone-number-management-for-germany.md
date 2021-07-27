@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在德国获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: d033d0089a1656819288ac5f3c18c7d93882eacb
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 111f2c72e953ea4205c35faa000ac700c3d96e6c
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460872"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510133"
 ---
 # <a name="phone-number-management-for-germany"></a>德国的电话号码管理
 
@@ -35,10 +35,10 @@ ms.locfileid: "50460872"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。  <br/> | 在德国，你无法通过管理中心获取Microsoft Teams电话号码。 你必须提交新的电话号码申请。 <br/><br/>下载这些表单之一。 <br/>[德国 v.5.0 ()  (de-de) 的新电话号码请求 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [德国 5.0 (5.0)  (的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|获取转接给我们的电话号码。  <br/> | 下载这些表单之一。 <br/><br/> 对于用户电话号码：<br/>[德国 ()  ( (v.5.0)  (de-de-de) 的德国 (LO) A)  (授权书 ](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  对于免费电话号码：<br/>[德国 (LOA) 授权书 (免费电话号码)  (v.5.0)  (de-de-de) ](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
-|将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。  <br/> | 在德国，你无法通过管理中心获取Microsoft Teams电话号码。 你必须提交新的电话号码申请。 <br/><br/>下载这些表单之一。 <br/>[德国 v.5.0 ()  (de-de) 的新电话号码请求 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [德国 5.0 (5.0)  (的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。  <br/> |
+|获取转接给我们的电话号码。  <br/> | 下载这些表单之一。 <br/><br/> 对于用户电话号码：<br/>[德国 ()  ( (v.5.0)  (de-de-de) 的德国 (LO) A)  (授权书 ](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  对于免费电话号码：<br/>[德国 (LOA) 授权书 (免费电话号码)  (v.5.0)  (de-de-de) ](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> 填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。  <br/> |
+|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
+|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题

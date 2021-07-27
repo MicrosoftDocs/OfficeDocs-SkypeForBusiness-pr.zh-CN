@@ -19,76 +19,67 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e5c23c362d9d425c163a46dde93c6daa3c593a92
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617774"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486142"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
-在 Microsoft Teams 中，用户可录制其 Teams 会议和组内通话，以便捕获音频、视频和屏幕共享活动。 还有一个用于为录像添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制在云中进行，并保存在 [Microsoft Stream](/stream/) 中，因此用户可以安全地在组织中共享录像。
+在 Microsoft Teams 中，用户可录制其 Teams 会议和组内通话，以便捕获音频、视频和屏幕共享活动。 还有一个用于为录制内容添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制在云中进行，并保存在 Microsoft OneDrive for Business 和 Microsoft SharePoint Online 中，因此用户可以安全地在组织中共享录像。
+
+录制会议时，自动执行以下操作：
+
+- 上传到 OneDrive for Business 或 SharePoint Online。
+- 向受邀加入会议的人员授予权限
+- 在会议聊天中链接
+- 在 Teams 日历中会议的“录制和脚本”选项卡中显示
+- 添加到 Microsoft 365 的各种文件列表：与我共享、office.com、推荐、最近使用等。
+- 为 Microsoft 365 搜索编制索引
 
 相关：[Teams 会议录制最终用户文档](https://aka.ms/recordmeeting)
 
 >[!Note]
-> 将会议录制从 Microsoft Stream 改为 OneDrive for Business 和 SharePoint 将是一项分阶段的措施。 有关详细信息，请参阅 [使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议记录](tmr-meeting-recording-change.md)。
+> 从使用 Microsoft Stream（经典）到 OneDrive for Business 和 SharePoint Online 进行会议录制的更改将于 2021 年 8 月自动发生。 有关详细信息，请参阅 [使用 OneDrive for Business 和 SharePoint Online 或 Stream 进行会议录制](tmr-meeting-recording-change.md)。
 
 > [!NOTE]
 > 有关在 Teams 会议中使用角色以及如何更改用户角色的信息，请参阅 [Teams 会议中的角色](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。 有关实时事件录制选项，请参阅 [Teams 中的实时事件录制策略](teams-live-events/live-events-recording-policies.md)。
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 云会议录制的先决条件
 
-要录制 Teams 用户的会议，必须为租户启用 Microsoft Stream。 此外，会议组织者和将发起录制的人员需要满足下列先决条件：
+要录制 Teams 用户的会议，必须为租户启用 OneDrive for Business 和 SharePoint Online。 此外，会议组织者和将启动录制的人员都需要满足下列先决条件：
 
-- 用户拥有 Office 365 E1、E3、E5、A1、A3、A5、Microsoft 365 商业高级版、商业标准版或商业基础版 <sup>1</sup>
-- 用户已同意公司指南（如果由管理员设置）
-- 用户在 Microsoft Stream 中有足够的存储空间来保存录像
-- 为了录制会议和组内通话，用户已将 CsTeamsMeetingPolicy -AllowCloudRecording 的设置设为 true
-- 为了录制一对一通话，用户已将 CsTeamsCallingPolicy -AllowCloudRecordingForCalls 的设置设为 true
-- 用户在会议中不是匿名用户、来宾用户或联合用户。
-- 要为用户会议启用转录功能，所分配到的 Teams 会议策略必须将 -AllowTranscription 设置设为 true。
+- 用户在 OneDrive for Business 中有足够的存储空间，以保存非频道会议录制内容。
 
-<sup>1</sup> 自 2020 年 8 月 20 日起，具有 A1 的用户对会议录制文件的访问权限将在 21 天后过期。 有关详细信息，请参阅 [将 Microsoft Teams 会议录制内容上传到 Stream](/stream/portal-upload-teams-meeting-recording)。
+- Teams 的频道在 SharePoint Online 中有足够的存储空间，可以保存频道会议录制内容。
 
-> [!IMPORTANT] 
+- 用户已将 `CsTeamsMeetingPolicy -AllowCloudRecording` 设置设置为 true，以便录制会议和群组通话。
+
+- 用户已将 `CsTeamsCallingPolicy -AllowCloudRecordingForCalls` 设置设置为 true 以便录制 1 对 1 通话。
+
+- 用户不是会议中的匿名、来宾或联合用户。
+
+- 要为用户会议启用转录功能，所分配到的 Teams 会议策略必须将 `-AllowTranscription` 设置设为 true。
+
+- 要使频道会议录制内容能够保存，以使频道成员无法编辑或下载录制内容，必须将 `CSTeamsMeetingPolicy -ChannelRecordingDownload` 设置设为阻止。
+
+> [!IMPORTANT]
 >
-> 如果希望用户仅录制和下载录制内容，则无需为用户分配 Microsoft Stream 许可证。 这意味着录制内容将不会存储在 Microsoft Stream 中，而是存储在 Teams 异步媒体服务 (AMS) 中，且仅有 21 天存储期限，之后则将删除。 目前管理员无法对其进行控制和管理，包括无法将其删除。
+> 如果希望用户仅录制和下载录制内容，则用户将无需启用 OneDrive for Business 或 SharePoint Online。 这意味着录制内容不会存储在 OneDrive for Business 或 SharePoint Online 中，而是改为存储在临时 Teams 存储中 21 天，之后才会删除。 目前，管理员无法对其进行控制、管理或删除。
 >
-> 另外请注意，对于 AMS 上的记录，录制内容保留还将受聊天消息本身的影响。 因此，如果删除原始 AMS 录制聊天消息，用户将无法访问该录制内容。 有两种方案可能会影响到此情况：
-> 
-> - 用户手动删除聊天消息
-> 
->   在这种情况下，由于原始邮件不再可用，用户将不再能够访问录制内容，并且无法再进一步下载。 但是，录制内容本身仍可在 Microsoft 内部系统中保留一段时间（不超过原始的 21 天）。
-> 
-> - 通过聊天保留策略删除录制聊天消息
-> 
->   AMS 记录直接关联聊天保留策略。 因此，虽然默认情况下 AMS 上的录制内容将在删除前保留 21 天，但如果由于聊天消息保留策略的原因在该 21 天时间段之前删除聊天消息，则录制内容也将删除。 此后将无法恢复录制内容。
+> 有关 [临时会议录制内容存储工作原理的详细信息](#temp-storage)，请参阅下文。  
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>为组织中的用户设置 Teams 云会议录制
 
-本部分介绍如何设置和规划 Teams 会议录制。
-
-### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>为组织中的用户打开 Microsoft Stream
-
-Microsoft Stream 可作为符合条件的 Microsoft 365 和 Office 365 订阅的一部分或作为独立服务提供。  有关详细信息，请参阅 [Stream 许可概述](/stream/license-overview)。  Microsoft Stream 现已包含在 Microsoft 365 商业版、Microsoft 365 商业标准版和 Microsoft 365 商业基础版中。
-
-深入了解如何 [向 Microsoft 365 或 Office 365 中的用户分配许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便用户可以访问 Microsoft Stream。 请确保不会如 [阻止注册 Microsoft Stream](/stream/disable-user-organization) 中所定义一样阻止用户使用 Microsoft Stream。
-
-### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>请确保用户在 Microsoft Stream 中拥有上传视频的权限
-
-默认情况下，只要 Stream 处于启用状态并获得许可证，公司中的每个人都可在 Stream 中创建内容。 Microsoft Stream 管理员可以[限制员工在 Stream 中创建内容](https://docs.microsoft.com/stream/restrict-uploaders)。 此受限列表中的用户仍可以录制会议，但其录制内容不会发送到 Stream。 这些录制内容将改为在 AMS 上暂时存储 21 天。 在此期间，必须在 21 天结束时删除之前下载录制内容。
-
-### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>通知员工让其同意 Microsoft Stream 中的公司指南
-
-如果 Microsoft Stream 管理员已[设置公司指南策略](/stream/company-policy-and-consent)并要求员工在保存内容前接受此策略，则用户必须先执行此操作，然后才能在 Microsoft Teams 中进行录制。 在组织中推出录制功能前，请确保用户已同意该策略。
+本部分介绍如何通过 [Teams 会议策略](./assign-policies.md) 设置和计划录制 Teams 会议。
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>打开或关闭云录制
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制是否可以录制用户的会议。
 
-在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许云录制**”设置。 要了解有关详细信息，请参阅 [音频和视频的会议策略设置](meeting-policies-audio-and-video.md#allow-cloud-recording)。
+在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许云录制**”设置。 要了解详细信息，请参阅 [音频和视频的会议策略设置](meeting-policies-audio-and-video.md#allow-cloud-recording)。
 
 借助 PowerShell，你可以配置 TeamsMeetingPolicy 中的 AllowCloudRecording 设置。 若要了解详细信息，请参阅[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)。
 
@@ -106,52 +97,57 @@ Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 若要在全局策略中更改 AllowCloudRecording 的值，请使用以下 cmdlet：
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 ```
 
-</br>
-</br>
+|使用场景|步骤|
+|--|--|
+| 我希望公司中的所有用户都能够录制自己的会议。 | <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = True。<li>所有用户都具有全局 CsTeamsMeetingPolicy，或具有 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一。</ol> |
+| 我希望大多数用户能够录制会议，但有选择地禁用不允许其进行录制的特定用户。 | <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = True。<li>大多数用户都具有全局 CsTeamsMeetingPolicy，或具有 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一。<li>为所有其他用户授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一。</ol> |
+| 我希望 100% 禁止录制。 | <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False。<li>为所有用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一。 |
+| 我希望关闭大多数用户的录制功能，但有选择地启用允许录制的特定用户。 | <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False。<li>为大多数用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一。<li>为所有其他用户授予了 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一。 <ol> |
 
 
-|                                                                 使用场景                                                                 |                                                                                                                                                                         步骤                                                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                    我希望公司中的所有用户都能录制自己的会议                                    |                                                                     <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = True<li>所有用户都拥有全局 CsTeamsMeetingPolicy 或拥有 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一 </ol>                                                                     |
-| 我希望大多数用户能够录制会议，但有选择地禁用不允许其进行录制的特定用户 |        <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = True<li>大多数用户都拥有全局 CsTeamsMeetingPolicy 或拥有 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一<li>为所有其他用户授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一</ol>         |
-|                                                   我希望 100% 禁止录制                                                   |                                                                <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False<li>为所有用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一                                                                 |
-|      我希望关闭大多数用户的录制功能，但有选择地启用允许录制的特定用户       | <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False<li>为大多数用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一<li>为所有其他用户授予了 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一 <ol> |
-|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
+<a name="bd-channel"></a>
+### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>阻止或允许下载频道会议录制内容
 
-#### <a name="where-your-meeting-recordings-are-stored"></a>会议录像的存储位置
+此设置控制频道会议是否保存到频道中的“录制内容”文件夹或“录制内容\仅供查看”文件夹。
 
-会议录制存储在 Microsoft Stream 云存储空间内。 目前，对于 Teams 数据存储在国内的客户而言，如果 Microsoft Stream 在其存放数据的国内数据驻留区域中不可用，则会为其关闭 Teams 会议录制功能。 即使 Microsoft Stream 在其国内数据驻留区域中不可用，其数据存储在国内的客户也可以使用会议录制功能。 通过允许录制内容存储在 Microsoft Stream 的最近地理区域，即可实现此功能。 
+此设置的两个值为：
 
-如果你的 Teams 数据存储在国内，并且你希望在国内存储会议录像，我们建议你关闭该功能，然后在我们将 Microsoft Stream 部署到你所用的国内数据驻留区域后再将其打开。 若要为组织中的所有用户关闭该功能，请在 Microsoft Teams 管理中心内关闭全局 Teams 会议策略中的“**允许云录制**”设置。 但是，如果仍希望启用录制以存储在 Microsoft Stream 最近的地理区域中，则必须在进行此更改之前打开“**允许云录制**”和“**允许录制内容区域外存储**”。
+- **允许**（默认）- 将频道会议录制内容保存到频道中的“录制内容”文件夹。 录制文件的权限将基于频道 SharePoint Online 权限。 这与为频道上传的任何其他文件相同。
 
-要在全局策略中启用区域内录制，请使用以下 cmdlet：
+- **阻止** - 将频道会议录制内容保存到频道中的“录制内容\仅供查看”文件夹。 频道所有者将具有对此文件夹中录制内容的完全权限，但频道成员将仅拥有读取权限，而无法下载。
+
+使用 PowerShell 在 TeamsMeetingPolicy 中配置 ChannelRecordingDownload 设置。 要了解详细信息，请参阅 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)。
+
+除非已向用户分配自定义策略，否则用户将获取全局策略，默认情况下，该策略将 ChannelRecordingDownload 设置为“允许”。
+
+要让用户回退到全局策略，请使用以下 cmdlet 删除向用户进行的特定策略分配：
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-以下是当此更改生效时，打开会议录制时发生的情况摘要：
+要更改全局策略中 ChannelRecordingDownload 的值，请使用以下 cmdlet：
 
-|如果打开会议录制...|会议录制内容存储于... |
-|---|---|
-|在 Microsoft Stream 在你的国内数据驻留区域中可用之前 |在最近的 Microsoft Stream 区域中|
-|在 Microsoft Stream 在你的国内数据驻留区域中可用之后 |在你的国内数据驻留区域中|
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
+```
 
-对于尚未开启会议录制的新增和现有租户，当 Microsoft Stream 在国内数据驻留区域中可用后，新录制的内容将存储在国内。 但是，在 Microsoft Stream 在国内数据驻留区域中可用之前，如果租户已启用会议录制，则将继续使用 Microsoft Stream 存储用于现有和新增录制内容，即使 Microsoft Stream 在国内数据驻留区域中可用之后也是如此。
-
-若要查找你的 Microsoft Stream 数据的存储区域，请在 Microsoft Stream 中单击右上角的 **?**， 单击“**关于 Microsoft Stream**”，然后单击“**您的数据存储于**”。  若要深入了解 Microsoft Stream 存储数据的区域，请参阅 [Microsoft Stream 常见问题解答](/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
-
-要深入了解 Microsoft 365 或 Office 365 中各种服务存储数据的位置，请参阅 [你的数据存储在何处？](https://products.office.com/where-is-your-data-located?rtc=1)
+> [!NOTE]
+> ChannelRecordingDownload 设置仅在 Teams PowerShell 模块版本 2.4.1 预览版或更高版本中可用。 要下载模块的最新预览版本，请使用此命令：
+>
+>```powershell
+>Install-Module -Name MicrosoftTeams -Force -AllowClobber -AllowPrerelease
+>```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>打开或关闭录制转录
 
 此设置控制播放会议录制内容期间是否提供字幕和转录功能。 如果将其关闭，则在播放会议录制内容期间“**搜索**”和“**CC**”选项将不可用。 启动录制的人员需要打开此设置，以便录制内容也包含脚本。
 
 > [!NOTE]
-> 录制会议转录功能目前仅支持在 Teams 中语言设置为英语，以及在会议中使用英语的用户。 脚本与会议录制内容一起存储在 Microsoft Stream 云存储中。
+> 录制会议转录功能目前仅支持在 Teams 中语言设置为英语，以及在会议中使用英语的用户。 它们与会议录制内容一起存储在 OneDrive for Business 和 SharePoint Online 云存储中。
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 
@@ -178,26 +174,125 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 |使用场景|步骤 |
 |---|---|
-|我希望公司的所有用户都能够在发起会议录制时进行转录 |<ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowTranscription = True <li>所有用户都拥有全局 CsTeamsMeetingPolicy 或拥有 AllowTranscription = True 的 CsTeamsMeetingPolicy 策略之一。 </ol>|
-|我希望大多数用户能够转录会议录制，但有选择地禁用不允许其进行转录的特定用户 |<ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowTranscription = True <li>大多数用户都拥有全局 CsTeamsMeetingPolicy 或拥有 AllowTranscription = True 的 CsTeamsMeetingPolicy 策略之一 <li>为所有其他用户授予了 AllowTranscription = False 的 CsTeamsMeetingPolicy 策略之一 </ol>|
-|我希望 100% 禁止录制转录 |<ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowTranscription = False <li>为所有用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowTranscription = False 的 CsTeamsMeetingPolicy 策略之一 </ol>|
-|希望对大多数用户禁用转录，但有选择地启用允许其进行转录的特定用户 |<ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False <li>为大多数用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一 <li>为所有其他用户授予了 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一 </ol>|
-|||
+|我希望公司的所有用户都能够在发起会议录制时进行转录。 |<ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowTranscription = True。 <li>所有用户都具有全局 CsTeamsMeetingPolicy ，或具有 AllowTranscription = True 的 CsTeamsMeetingPolicy 策略之一。 </ol>|
+|我希望大多数用户能够转录会议录制内容，但有选择地禁用未获允许进行转录的特定用户。 |<ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowTranscription = True。 <li>大多数用户都具有全局 CsTeamsMeetingPolicy，或具有 AllowTranscription = True 的 CsTeamsMeetingPolicy 策略之一。 <li>为所有其他用户授予了 AllowTranscription = False 的 CsTeamsMeetingPolicy 策略之一。 </ol>|
+|我希望 100% 禁止录制内容转录。 |<ol><li>确认全局 CsTeamsMeetingPolicy 具有 AllowTranscription = False。 <li>向所有用户授予了全局 CsTeamsMeetingPolicy，或授予了 AllowTranscription = False 的 CsTeamsMeetingPolicy 策略之一。 </ol>|
+|我希望对大多数用户禁用转录，但有选择地启用允许其进行转录的特定用户。 |<ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False。 <li>为大多数用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一。 <li>为所有其他用户授予了 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一。 </ol>|
+
+
+## <a name="permissions-and-storage"></a>权限和存储
+
+会议录制内容存储在 OneDrive for Business 和 SharePoint Online 云存储中。 位置和权限取决于会议类型和用户在会议中的角色。 下面列出了应用于录制内容的默认权限，对视频录制文件具有完全编辑权限的用户可以更改权限，并稍后根据需要与其他人共享。
+
+### <a name="non-channel-meetings"></a>非频道会议
+
+- 录制内容存储在单击“录制”用户的 OneDrive for Business 中名为 **录制内容** 的文件夹中。 
+
+  示例：<i>录制者的 OneDrive for Business</i>/**录制内容**
+
+- 受邀加入会议的人员（外部用户除外）将自动获得对录制文件的查看权限，但无法下载。
+
+- 会议所有者和单击“录制”的人员将获得完全的编辑权限，能够更改权限并与其他人共享。
+
+### <a name="channel-meetings"></a>频道会议
+
+如果将 `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` 设置为允许（默认值），则：
+
+- 录制内容存储在 Teams 网站文档库中名为 **录制内容** 的文件夹中。 
+
+  示例：<i>Teams 名称 - 频道名称</i>/**文档**/**录制内容**
+
+- 单击“录制”的成员对录制内容具有编辑权限。
+
+- 其他每个成员的权限都基于频道 SharePoint Online 权限。
+
+如果将 `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` 设置为阻止，则：
+
+- 录制内容存储在 Teams 网站文档库中名为 **录制内容/仅供查看** 的文件夹中。 
+
+  示例：<i>Teams 名称 - 频道名称</i>/**文档/录制内容/仅供查看**
+
+- 频道所有者将对此文件夹中录制内容具有完全的编辑和下载权限。
+
+- 频道成员则将仅具有查看权限，而无法下载。
+
+有关特定会议类型的详细信息，请参阅下表：
+
+| 会议类型  | 谁单击了“录制”？| 录制内容位于何处？ | 谁具有访问权限？ R/W、R 或共享  |
+|-------------|-----------------------|------------------------|------------------------|
+|与内部参与方进行 1 对 1 通话             |呼叫方                 |呼叫方的 OneDrive for Business 账户                        |呼叫方是所有者，且具有完全权限。 <br /><br />被呼叫方（如果在同一租户中）具有只读访问权限。 无共享访问权限。 <br /><br /> 被呼叫方（如果位于不同租户中）没有访问权限。 呼叫方必须将其共享给被呼叫方。|
+|与内部参与方的 1 对 1 通话             |被呼叫方                 |被呼叫方的 OneDrive for Business 账户                        |被呼叫方是所有者，且具有完全权限。 <br /><br />呼叫方（如果在同一租户中）具有只读访问权限。 无共享访问权限。 <br /><br />呼叫方（如果位于不同的租户中）无访问权限。 被呼叫方必须将其共享给呼叫方。|
+|使用外部呼叫进行 1：1 通话             |呼叫方                 |呼叫方的 OneDrive for Business 账户                        |呼叫方是所有者，且具有完全权限。<br /> <br />被呼叫方没有访问权限。 呼叫方必须将其共享给被呼叫方。|
+|使用外部呼叫进行 1：1 通话             |被呼叫方                 |被呼叫方的 OneDrive for Business 账户                        |被呼叫方是所有者，且具有完全权限。<br /><br />呼叫方没有访问权限。 被呼叫方必须将其共享给呼叫方。|
+|群组通话                                 |通话的任何成员 |单击“录制”的组成员的 OneDrive for Business 帐户  |单击“录制”的成员具有完全权限。 <br /><br /> 来自同一租户的其他成员具有读取权限。 <br /><br /> 来自不同租户的其他组成员则没有权限。|
+|临时/计划的会议                    |组织者              |组织者的 OneDrive for Business 账户                     |组织者对录制内容具有完全权限。 <br /><br /> 会议的所有其他成员都具有读取权限，但无法下载。|
+|临时/计划的会议                    |其他会议成员   |单击“录制”的会议成员                                  |单击“录制”的成员对录制内容具有完全权限。 <br /><br />组织者具有编辑权限，且可以共享。<br /><br /> 所有其他会议成员都具有读取权限，但无法下载。|
+|与外部用户的临时/计划会议|组织者              |组织者的 OneDrive for Business 账户                     |组织者对录制内容具有完全权限。<br /> <br /> 来自组织者所在同一租户的会议的所有其他成员都具有读取权限，但无法下载。 <br /><br /> 所有其他外部成员均无访问权限，并且组织者必须将其共享给他们。|
+|与外部用户的临时/计划会议|其他会议成员   |单击“录制”的成员                                  |单击“录制”的成员对录制内容具有完全权限。 组织者具有编辑权限，且可以共享。 <br /><br /> 来自组织者所在同一租户的会议的所有其他成员都具有读取权限，但无法下载。 <br /><br />所有其他外部成员均无访问权限，并且组织者必须将其共享给他们。|
+|频道会议                            |频道成员         |该频道 Teams 的 SharePoint Online 位置                   |如果将 Set-CsTeamsMeetingPolicy -ChannelRecordingDownload 设置为允许（默认），则单击“录制”的成员具有对录制内容的编辑权限。 其他每个成员的权限都基于频道 SharePoint Online 权限。<Br><Br>如果将 Set-CsTeamsMeetingPolicy -ChannelRecordingDownload 设置为阻止，则频道所有者将对录制内容具有完全权限，但频道成员将仅具有读取权限，而无法下载。|
+
+<a name="temp-storage"></a>
+### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>无法上传到 OneDrive for Business 和 SharePoint Online 时的临时存储
+
+如果会议录制内容无法上传到 OneDrive for Business 和 SharePoint Online，则将在删除之前的 21 天内可以暂时从 Teams 下载。 目前管理员无法对其进行控制和管理，也无法将其删除。
+
+会议录制内容可能由于以下原因存储在此临时存储中：
+
+- 对于非频道会议，如果用户录制内容未设置OneDrive for Business，或 OneDrive for Business 已达到其存储配额
+- 对于频道会议，如果 SharePoint Online 网站已达到其存储配额，或网站尚未预配
+- 如果启用了特定的 OneDrive for Business 和 SharePoint Online 策略，则限制用户在不在特定 IP 范围内时上传文件，等等。
+
+因此而进行的录制内容保留是临时存储，受到聊天消息本身的影响。 因此，如果删除录制内容的原始聊天消息，用户将无法访问该录制内容。 有两种方案可能会影响到此情况：
+
+- **用户手动删除聊天消息** - 在这种情况下，由于原始消息不再可用，用户将不再能够访问录制内容，并将无法再进一步下载。 但是，录制内容本身仍可在 Microsoft 内部系统中保留一段时间（不超过原始的 21 天）。
+
+- **按聊天保留策略删除录制聊天消息** - 临时存储录制内容与聊天保留策略直接相关。 因此，虽然默认情况下 Teams 临时存储上的录制内容将在删除前保留 21 天，但如果由于聊天消息保留策略的原因在该 21 天时段之前删除了聊天消息，则录制内容也将删除。 此后将无法恢复录制内容。
 
 ### <a name="planning-for-storage"></a>存储规划
 
-1 小时录像的大小为 400 MB。 请务必了解所录文件所需要的容量，并确保在 Microsoft Stream 中有足够的可用存储空间。  请参阅 [Microsoft Stream 许可概述](/stream/license-overview)，以了解订阅中包含的基本存储空间以及如何购买额外的存储空间。
+1 小时录像的大小为 400 MB。 请确保你已了解已录制文件所需的容量，并在 OneDrive for Business 和 SharePoint Online 中有足够的存储空间。  阅读 [设置 OneDrive for Business 的默认存储空间](/onedrive/set-default-storage-space) 和 [管理 SharePoint Online 网站存储限制](/sharepoint/manage-site-collection-storage-limits)，以了解订阅中包含的基本存储空间以及如何购买其他存储空间。
 
-## <a name="manage-meeting-recordings"></a>管理会议录像
+## <a name="manage-meeting-recordings"></a>管理会议录制内容
 
-我们将会议录像视为租户所有的内容。 如果录像的所有者离开了公司，管理员可以在管理员模式下打开 Microsoft Stream 中的录制视频 URL。 管理员可以删除相应录像、更新任何录制元数据或更改所录制视频的权限。 深入了解 [Stream 中的管理员功能](/stream/manage-content-permissions)。
+会议录制内容作为视频文件存储在 OneDrive for Business 和 SharePoint Online 中，并遵循这些平台中提供的管理和治理选项。 有关详细信息，请参阅 [SharePoint Online 治理概述](/sharepoint/governance-overview)、[适用于企业的 OneDrive for Business 指南](/onedrive/plan-onedrive-enterprise)，或 [适用于小型企业OneDrive for Business 指南](/onedrive/one-drive-quickstart-small-business)。
+
+对于非频道会议，录制内容存储在录制者的 OneDrive for Business 中，因此在员工离职后所有权处理和保留将遵循常规的 [OneDrive for Business 和 SharePoint Online 流程](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
+
+## <a name="closed-captions-for-recordings"></a>录制内容的隐藏式字幕
+
+仅当用户在录制时打开了听录功能时，才会在播放期间提供 Teams 会议录制内容的隐藏式字幕。 管理员必须 [通过策略启用录制听录](#turn-on-or-turn-off-recording-transcription)，以确保其用户可以选择使用听录来记录会议。
+
+字幕有助于为具有各种能力的观众创建包容性内容。 作为所有者，你可以隐藏会议录制内容中的字幕，尽管会议脚本仍可在 Teams 上使用，除非你将其从 Teams 删除。
+
+今天,录制内容视频文件的隐藏式字幕已链接到 Teams 会议脚本。 在大多数情况下，此链接将在文件的生命周期内一直保存，但如果在同一 OneDrive for Business 或 SharePoint Online 网站中复制该视频文件，则链接可能会损坏，这将导致字幕在复制的视频文件上不可用。
+
+将来对 Teams 中脚本和录制内容之间的链接所做的任何更改都将在此处和消息中心通知中进行阐明。 如果将来进行任何更改，我们将确保录制时间 不到 60 天的录制文件可以将会议的脚本显示为字幕。
 
 > [!NOTE]
-> 有关管理录像和用户访问的其他信息，请参阅[管理 Microsoft Stream 中的用户数据](/stream/managing-user-data)和 [Microsoft Stream 中的权限和隐私](/stream/portal-permissions)。
+> 将提供仅限英语的隐藏式字幕（会议听录在 GCC 中尚不可用）。
 
-## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会议录像的合规性和电子数据展示
+## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会议录制内容的合规性和电子数据展示
 
-会议录制内容存储在 Microsoft Stream 中，该服务符合 Microsoft 365 和 Office 365 C 级要求。 为了在 Microsoft Stream 中支持对会议或通话录像感兴趣的合规性管理员的电子数据展示请求，我们会在 Microsoft Teams 的合规性内容搜索功能中提供录制已完成的消息。 合规性管理员可在合规性内容搜索预览中的项目主题行中查找关键字“录像”，找到组织中的会议和通话录像。 查看所有录像的前提条件是，他们需要在 Microsoft Stream 中具有管理员访问权限。 深入了解如何[分配 Stream 中的管理员权限](/stream/assign-administrator-user-role)。
+### <a name="ediscovery"></a>电子数据展示
+
+会议录制内容存储在 OneDrive for Business 和 SharePoint Online 中，符合 Microsoft 365 和 Office 365 D 层的要求。 为了支持对会议或通话录制感兴趣的合规性管理员的电子数据展示请求，我们在 Microsoft Teams 的合规性内容搜索功能中提供了录制已完成消息。 合规性管理员可在合规性内容搜索预览中的项目主题行中查找关键字“录像”，找到组织中的会议和通话录像。
+
+此外，还可以通过电子数据展示搜索 SharePoint Online 和 OneDrive for Business 上的文件来找到会议录制内容视频文件。
+
+要了解有关电子数据展示的详细信息，请参阅 [Microsoft 365 的电子数据展示解决方案](/microsoft-365/compliance/ediscovery)
+
+### <a name="retention-policies"></a>保留策略
+
+你可以通过 ProgID 属性以仅将 Teams 会议录制视频文件为目标来应用自动保留标签。 有关详细信息，请参阅 [如何为 Teams 会议录制内容自动应用保留标签](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)。
+
+### <a name="data-loss-prevention-dlp-policies"></a>数据丢失防护 (DLP) 策略
+
+也可以通过 ProgID 属性将 DLP 策略应用于会议录制文件。 在 SharePoint Online 和 OneDrive for Business 中的文件的 DLP 规则中，条件设置为：
+
+- Document 属性 = *ProgID*
+- 值 = *Media.Meeting*
+
+要了解有关 DLP 的详细信息，请参阅文章 [了解数据丢失防护](/microsoft-365/compliance/dlp-learn-about-dlp)
 
 ## <a name="related-topics"></a>相关主题
 

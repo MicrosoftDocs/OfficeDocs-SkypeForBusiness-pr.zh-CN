@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1048b6451163cd7b0cdbcd3f52e48c6b0f4811d1
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: df03c4d59b55780f38b5f99983a11fd5dc905e40
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717793"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587011"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
 
@@ -35,7 +35,7 @@ Microsoft Teams允许组织向用户提供目录的自定义视图。 Microsoft 
 > [!NOTE]
 > 在Exchange环境中，此功能仅适用于Exchange Online邮箱，而与本地邮箱不同。
 
-另请参阅[Exchange Online 中的通讯簿策略](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)。
+另请参阅[Exchange Online 中的通讯簿策略](/exchange/address-books/address-book-policies/address-book-policies)。
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>何时应该使用范围目录搜索？
 

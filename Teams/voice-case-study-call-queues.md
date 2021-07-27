@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 案例研究
+title: Teams Contoso 案例研究：自动助理和呼叫队列
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams多语言公司语音案例研究
+description: Teams多语言公司语音案例研究：自动助理和呼叫队列
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cb8029a8f4e979a76afe069ee9b22e7be897913
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0251c4baa9aca86f871b7c1dc1af44695bd1585
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121290"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587161"
 ---
 # <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso 案例研究：自动助理和呼叫队列
 

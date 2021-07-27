@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 详细了解云Microsoft Teams功能和将为组织做出部署决策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95b8f60f9d664432fbb68c48ee61d6f26902eeae
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: ad80bbdaa5a51540d8444ca97fa72c087f2f1763
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354378"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486122"
 ---
 # <a name="plan-your-teams-voice-solution"></a>规划Teams语音解决方案 
 
@@ -61,7 +61,7 @@ ms.locfileid: "53354378"
 | 全部必需 | 说明 |
 | :------------|:-------|
 | [**电话系统**](#phone-system) | Microsoft 在云中启用呼叫控制和专用分支 Exchange (PBX) 功能的技术Microsoft 365云Microsoft Teams。 |
-| [**PSTN 公用电话交换 (PSTN) 连接选项**](#public-switched-telephone-network-connectivity-options) | 可以选择使用 Microsoft 作为电话运营商，还是使用直接路由或接线员Microsoft Teams将你自己的电话运营商连接。 PSTN 连接电话系统结合使用，使用户能够拨打全球电话。|
+| [**PSTN 公用电话交换 (PSTN) 连接选项**](#public-switched-telephone-network-connectivity-options) | 可以选择使用 Microsoft 作为电话运营商，还是使用接线员或直接Microsoft Teams将你自己的电话运营商连接电话运营商。 PSTN 连接电话系统结合使用，使用户能够拨打全球电话。|
 
 **根据你的要求。** 本文和相关文章中的一些部分与现有的部署和要求相关。 例如，Location-Based直接路由客户在不允许收费绕过的地理位置进行直接路由。
 
@@ -143,9 +143,9 @@ ms.locfileid: "53354378"
 
 - [**电话系统套餐 。**](pstn-connectivity.md#phone-system-with-calling-plan) 以 Microsoft 作为 PSTN 运营商的全云解决方案。
 
-- [**电话系统直接**](pstn-connectivity.md#phone-system-with-direct-routing)路由将本地环境连接到本地环境，与自己的 PSTN 运营商Teams。
-
 - 电话系统运营商或运营商与自己的 [**PSTN 运营商连接，**](operator-connect-plan.md)目前仅在公共预览 **版中提供。**  使用接线连接，如果现有运营商是 Microsoft 接线员连接参与者，他们可管理将 PSTN 呼叫引入 Teams。 有关操作员服务权益和要求连接，有关参与此计划的操作员的列表，请参阅计划操作员[连接。](operator-connect-plan.md)
+
+- [**电话系统直接**](pstn-connectivity.md#phone-system-with-direct-routing)路由将本地环境连接到本地环境，与自己的 PSTN 运营商Teams。
 
 还可以选择一组选项，用于为复杂环境设计解决方案，或管理多步骤迁移 (以后迁移) 。
 

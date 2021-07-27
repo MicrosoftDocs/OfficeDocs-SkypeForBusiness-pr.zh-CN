@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: 了解如何在你的组织中设置和管理适合一线员工的 Teams 中的“班次”应用。
+description: 了解如何在应用程序中为组织的一线Teams设置和管理 Shifts 应用。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 218b041d83cde91a23201ab864160ce3b8b7cb6e
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 7af23cf4586074420f7f95b916ababaf797cdb4b
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909086"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536758"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -36,12 +36,12 @@ ms.locfileid: "49909086"
 
 ## <a name="overview-of-shifts"></a>“班次”概述
 
-Microsoft Teams 中的“班次”应用让一线员工能够保持联系和同步。它以移动优先为构建理念，以便为团队实现快速有效的时间管理和沟通。 “班次”让一线员工及其经理可以使用各自的移动设备管理日程安排并保持联系。
+应用中的 Shifts 应用Microsoft Teams一线员工保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 排班可让一线员工及其经理使用其移动设备管理日程安排并保持联系。
 
-- 经理可创建、更新和管理团队的班次安排。 他们可以向一个人（“地板上洒了水”）或整个团队（“区域总经理将在 20 分钟后到达”）发送消息。 他们还可以发送政策文档、新闻公告和视频。 
-- 员工可查看即将到来的排班、查看当天还有谁的排班、申请调班或转班以及申请请假。 
+- 经理可创建、更新和管理团队的班次安排。 他们可以向一个人（“地板上洒了水”）或整个团队（“区域总经理将在 20 分钟后到达”）发送消息。 他们还可以发送政策文档、新闻公告和视频。
+- 员工可查看即将到来的排班、查看当天还有谁的排班、申请调班或转班以及申请请假。
 
-需要指出的是，“班次”当前不支持来宾用户。 这意味着在 Teams 中启用来宾访问时，无法将团队中的来宾添加到排班计划，他们也无法使用排班计划。 
+必须知道，Shifts 当前不支持来宾。 这意味着在 Teams 中启用来宾访问时，无法将团队中的来宾添加到排班计划，他们也无法使用排班计划。 
 
 > [!Note]
 > 有关不同平台上的“班次”功能的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -68,19 +68,19 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>为你的组织中的特定用户启用或禁用“班次”
 
-若要允许或阻止组织的特定用户使用“班次”，请确保在“[管理应用](../../manage-apps.md)”页面上为你的组织启用“班次”，然后创建自定义应用权限策略并将其分配给那些用户。 若要了解详细信息，请参阅[在 Teams 中管理应用权限策略](../../teams-app-permission-policies.md)。
+若要允许或阻止组织中特定用户使用 Shifts，请确保在"管理应用"页面上为组织启用[Shifts。](../../manage-apps.md) 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](../../teams-app-permission-policies.md)。
 
-### <a name="use-the-frontlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FrontlineWorker 应用设置策略将“班次”固定到 Teams
+### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstLineWorker 应用设置策略将 Shifts 固定到Teams
 
 利用应用设置策略，你可自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用会固定到应用栏（&mdash;Teams 桌面客户端的边栏以及 Teams 移动客户端的底栏&mdash;），用户可以快速方便地访问。
  
-Teams 包含内置的 FrontlineWorker 应用设置策略，可将其分配给组织中的一线员工。 默认情况下，该策略包括“活动”、“班次”、“聊天”和“通话”应用。 
+Teams包括内置 FirstLineWorker 应用设置策略，可将其分配给组织的一线员工。 默认情况下，该策略包括“活动”、“班次”、“聊天”和“通话”应用。
 
-若要查看 FrontlineWorker 策略，请在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**应用设置策略**”。
+若要查看 FirstLineWorker 策略，在 Microsoft Teams 管理中心的左侧导航栏中，转到"Teams  >  **应用设置策略"。**
 
-![FrontlineWorker 应用设置策略的屏幕截图](../../media/firstline-worker-app-setup-policy.png "Microsoft Teams 管理中心中的 FrontlineWorker 应用设置策略的屏幕截图")
+![FirstLineWorker 应用设置策略的屏幕截图](../../media/firstline-worker-app-setup-policy.png "用户管理中心中 FirstLineWorker 应用Microsoft Teams的屏幕截图")
 
-#### <a name="assign-the-frontlineworker-app-setup-policy-to-users"></a>将 FrontlineWorker 应用设置策略分配给用户
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>将 FirstLineWorker 应用设置策略分配给用户
 
 [!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
@@ -94,5 +94,5 @@ Teams 包含内置的 FrontlineWorker 应用设置策略，可将其分配给组
 
 ## <a name="related-topics"></a>相关主题
 
-- [一线员工相关的班次帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [一线员工排班帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [向 Teams 中的用户分配策略](../../assign-policies.md)

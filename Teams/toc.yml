@@ -565,14 +565,14 @@ items:
         href: set-up-your-team-hierarchy.md
       - name: 非教育租户受监督聊天
         href: supervised-chat-non-edu.md
-  - name: 会议、大会和实时活动
+  - name: 会议和音频会议
     items:
-      - name: 快速入门 - 会议和实时事件
-        href: quick-start-meetings-live-events.md
       - name: 规划部署
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: 会议
+      - name: 会议、网络研讨会和直播活动
         items:
+          - name: 快速启动
+            href: quick-start-meetings-live-events.md
           - name: 管理会议策略
             items:
               - name: 概述
@@ -599,42 +599,58 @@ items:
             href: meeting-settings-in-teams.md
           - name: 用户设置更改时向其发送的电子邮件
             href: emails-sent-to-users-when-their-settings-change-in-teams.md
-          - name: 使用户能够在加入会议时录制其姓名
-            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-          - name: 打开或关闭会议的进入和退出通知
-            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-          - name: 在 Teams 中使用 NDI® 技术
-            href: use-NDI-in-meetings.md
-          - name: Teams 会议中的举手选项
-            href: raise-hand-meetings.md
-          - name: 在不受支持的浏览器上举行 Teams 会议
-            href: unsupported-browsers.md
-          - name: 在 Teams 中配置桌面共享
-            href: configure-desktop-sharing.md
-          - name: Teams 云会议录制
-            href: cloud-recording.md
-          - name: 使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议录制
-            href: tmr-meeting-recording-change.md
-          - name: 联系人中心集成
-            href: teams-contact-center.md
-          - name: 在 Outlook 中使用 Teams 会议外接程序
-            href: teams-add-in-for-outlook.md
-          - name: 将 Skype 会议应用配置为与 Teams 配合使用
-            href: configure-skype-meetings-app-to-work-with-teams.md
-          - name: 为用户设置“致电我”功能
-            href: set-up-the-call-me-feature-for-your-users.md
-          - name: 获取会议出席情况报告
-            href: teams-analytics-and-reports/meeting-attendance-report.md
-          - name: 设置会议迁移服务 (MMS)
+          - name: 管理会议和会议功能
+            items:
+              - name: 使用户能够在加入会议时录制其姓名
+                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+              - name: 打开或关闭会议的进入和退出通知
+                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+              - name: 在 Teams 中使用 NDI® 技术
+                href: use-NDI-in-meetings.md
+              - name: 在不受支持的浏览器上举行 Teams 会议
+                href: unsupported-browsers.md
+              - name: 在 Teams 中配置桌面共享
+                href: configure-desktop-sharing.md
+              - name: Teams 云会议录制
+                href: cloud-recording.md
+              - name: 使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议录制
+                href: tmr-meeting-recording-change.md
+              - name: 联系人中心集成
+                href: teams-contact-center.md
+              - name: 在 Outlook 中使用 Teams 会议外接程序
+                href: teams-add-in-for-outlook.md
+              - name: 将 Skype 会议应用配置为与 Teams 配合使用
+                href: configure-skype-meetings-app-to-work-with-teams.md
+              - name: 为用户设置“致电我”功能
+                href: set-up-the-call-me-feature-for-your-users.md
+              - name: 获取会议出席情况报告
+                href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: 在 Teams 中管理白板
+                href: manage-whiteboard.md
+              - name: 为 Google Workspace 设置 Teams 会议加载项
+                href: google-workspace-addon-teams.md
+              - name: 云视频互操作
+                href: cloud-video-interop.md
+              - name: 仅查看会议体验
+                href: view-only-meeting-experience.md
+          - name: 设置会议迁移服务 （MMS）
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: 在 Teams 中管理白板
-            href: manage-whiteboard.md
-          - name: 为 Google Workspace 设置 Teams 会议加载项
-            href: google-workspace-addon-teams.md
-          - name: 云视频互操作
-            href: cloud-video-interop.md
           - name: 在 Microsoft Teams 中为网络研讨会进行设置
             href: set-up-webinars.md
+          - name: 实时事件
+            items:
+              - name: 什么是 Teams 实时事件？
+                href: teams-live-events/what-are-teams-live-events.md
+              - name: 规划 Teams 实时事件
+                href: teams-live-events/plan-for-teams-live-events.md
+              - name: 设置 Teams 实时事件
+                href: teams-live-events/set-up-for-teams-live-events.md
+              - name: 使用 PowerShell 设置 Teams 实时事件策略
+                href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+              - name: 配置 Teams 实时事件设置
+                href: teams-live-events/configure-teams-live-events.md
+              - name: 实时事件录制策略
+                href: teams-live-events/live-events-recording-policies.md
       - name: 音频会议
         items:
           - name: 规划部署
@@ -725,20 +741,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: 视频 - Teams 音频会议
                 href: ./audio-conferencing-in-office-365.md
-      - name: 实时事件
-        items:
-          - name: 什么是 Teams 实时事件？
-            href: teams-live-events/what-are-teams-live-events.md
-          - name: 规划 Teams 实时事件
-            href: teams-live-events/plan-for-teams-live-events.md
-          - name: 设置 Teams 实时事件
-            href: teams-live-events/set-up-for-teams-live-events.md
-          - name: 使用 PowerShell 设置 Teams 实时事件策略
-            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-          - name: 配置 Teams 实时事件设置
-            href: teams-live-events/configure-teams-live-events.md
-          - name: 实时事件录制策略
-            href: teams-live-events/live-events-recording-policies.md
       - name: Microsoft Teams 会议室
         items:
           - name: 概述

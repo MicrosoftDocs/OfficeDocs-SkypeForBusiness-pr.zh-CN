@@ -21,22 +21,22 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 889c3f4149489f6bcea44acde93d897a7f2e50e1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d4901258f7e0422b373553beba509bdfa0673d96
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092550"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536708"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的排班
 
-Teams为组织中一线员工提供有效通信和协作所需的工具。 本文演示如何设置和管理。 排班并使用日程安排Teams。
+Teams为组织中一线员工提供有效通信和协作所需的工具。 请参阅以下资源，详细了解如何设置和管理班次（Teams）。
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>为组织设置和管理班次
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[管理组织中班次](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![设计](../media/Help-small.svg)  | **[一线员工相关的班次帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[管理组织中班次](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![设计](../media/Help-small.svg)  | **[一线员工排班帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>班次扩展
 

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e1656af8ee457cb4c112d229c2dee03d2590ece
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6e7f20bc34b22449a115b0742a7cfdac88792f4c
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856371"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506391"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 
@@ -59,6 +59,8 @@ Teams用户可以直接从云自动助理接收和接听来自云自动助理的
 -    Microsoft Teams Mac 客户端
 -    Microsoft Teams iPhone 应用
 -    Microsoft Teams Android 应用
+
+只有 Teams 共存模式才支持 Teams[客户端](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为呼叫配置自动助理和呼叫队列Microsoft Teams
 

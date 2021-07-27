@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32bd773975ff6b67d28ab765ffa7c932e978af7d
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 7980b062d864b7354a329ce5743b0209d9a54e2a
+ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145930"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565698"
 ---
 # <a name="manage-user-access-to-education-insights"></a>管理用户对 Education Insights 的访问权限
 
@@ -39,32 +39,65 @@ ms.locfileid: "50145930"
 
 
 
-## <a name="grant-permissions"></a>授予权限
+## <a name="manange-permissions"></a>管理权限
 
 * 打开 Insights 应用，单击“**设置**”，然后选择“**用户权限**”
 
 :::image type="content" source="media/insights-user-permissions.png" alt-text="设置":::
 
-* 选择“**添加用户**”。
-* 输入每个用户的用户名或电子邮件地址。
-* 选择权限级别：
-  * **对所有组织的访问权限** 意味着用户将能够看到所有级别的组织单位。
-  * **对特定学校的访问权限** 意味着用户将能够看到所选学校。 开始键入，然后从列表中选择相应学校。 你可以将多所学校添加到一起。
-* 单击“**添加新用户**”。
-
-:::image type="content" source="media/insights-add-users.png" alt-text="授予权限":::
-
 > [!NOTE]
+> 为组织级别提供权限时，用户可以看到其下所有组织单位。 仅向有需要的教育领导者提供权限。
+> 
 > 仅向有需要的教育领导者和他们负责的组织单位提供权限。 如果你不确定是否需要特定组织的用户权限，请咨询机构的隐私主题专家，例如法律或人事部门人员。
 
-## <a name="edit-permissions"></a>编辑权限
-* 选择特定用户，然后选择“**编辑权限**”。
-* 更新权限级别或学校列表，然后单击“**更新权限**”。
+## <a name="role-based-permissions"></a>基于角色的权限
 
-:::image type="content" source="media/insights-edit-users.png" alt-text="编辑权限":::
+如果使用 [SDS V2.1 文件格式](/schooldatasync/sds-v2.1-csv-file-format)或 [SDS V2 文件格式](/schooldatasync/sds-v2-csv-file-format)，则可以在教育系统中导入所有角色和学校的完整层次结构。 通过此完整映射，可以向角色分配权限。 
 
-## <a name="remove-permissions"></a>删除权限
-* 选择要删除的用户，然后选择“**删除用户**”。
-* 这些用户将不再有权访问组织级别的见解，但如果他们拥有课堂团队，则将仍然有权访问课堂级别的见解。
+> [!NOTE]
+> 为用户分配角色时，他们将自动获得正确的权限，用以查看与他们相关的数据。
 
-:::image type="content" source="media/insights-remove-users.png" alt-text="删除权限":::
+* 如果需要，请单击 **基于角色的权限** 选项卡。
+
+  你将看到教育组织中的角色列表、每个角色的层次结构中的级别、获得某角色的用户数以及角色的权限级别。 
+  
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="基于角色的权限":::
+  
+  如果某个角色位于多个组织级别，则该角色会出现多次，每个级别显示一次。 在屏幕截图中，学校和学区级别都有主体，因此“主体”有两行。
+  
+* 对于每个角色，请单击铅笔图标以选择权限级别。 默认情况下，角色无权查看见解。
+* 选择权限级别–**查看其组织的数据** 或 **无**。
+* 单击 **保存更改**。
+
+  此权限级别现在会自动分配给具有此角色和组织级别的任何新用户。 用户将能看到在其层次结构级别中及以下的所有组织单位的数据。
+  
+  如果在列表中发现了需要更细微的权限级别的用户，请在“单个权限”中对其进行调整。
+  
+  如果用户不再处于某个角色中，则会自动撤销他们该角色享有的权限（尽管他们可能仍然具有单个权限）。
+
+
+## <a name="individual-permissions"></a>单个权限
+
+如果尚未使用 SDS V2 为组织导入 SIS 数据，请使用单个权限调整用户的权限或为每个用户分配权限。
+
+* 单击 **单个权限** 选项卡。
+  
+  你将会看到教育组织中被授予了单个权限的用户。 
+  
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="单个权限":::
+  
+### <a name="grant-individual-permission-to-a-user"></a>向用户授予个人权限
+* 单击屏幕左上角的 **授予单个权限**。
+* 输入每个用户的用户名或电子邮件地址。
+* 选择权限级别：
+  * **所有** 意味着用户会看到所有级别的所有组织单位。 这很少使用。
+  * **特定组织** 意味着用户会看到所选组织单位及其下的所有组织单位。 开始键入并从列表中选择组织单位。
+* 单击 **授予权限** 来保存。
+
+### <a name="change-the-individual-permission-of-a-user"></a>更改用户的单个权限
+* 对于相关用户，请单击铅笔图标以选择单个权限级别。
+* 选择权限级别：
+  * **所有** 意味着用户会看到所有级别的所有组织单位。 这很少使用。
+  * **特定组织** 意味着用户会看到所选组织单位及其下的所有组织单位。 开始键入并从列表中选择组织单位。
+  * **无** 表示用户只能看到由其角色自动分配的组织单位（如果有）。
+* 单击 **保存更改** 来保存。

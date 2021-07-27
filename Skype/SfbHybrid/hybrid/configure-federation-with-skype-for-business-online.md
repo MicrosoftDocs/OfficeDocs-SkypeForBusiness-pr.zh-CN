@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：了解如何配置本地部署和本地部署之间的Teams。
-ms.openlocfilehash: 2c6fda43b939a616071009be2b8d28e636036101
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 5593dce3bef26e2b3f528618d88e4f87e1996596
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305966"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574127"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>配置 Skype for Business 混合环境
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 若要配置 Skype for Business 混合，需要执行以下操作：
 
@@ -33,11 +35,11 @@ ms.locfileid: "52305966"
 - [将本地环境配置为信任Teams并启用共享 SIP 地址空间](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams)。
 - [在组织中启用共享 SIP 地址Teams空间](#enable-shared-sip-address-space-in-your-organization)。
 
-如果你有本地Exchange，你可能想要在本地和联机环境Exchange OAuth Skype for Business OAuth。 有关详细信息，请参阅在 Skype for Business Server 中管理服务器到服务器身份验证[Skype for Business Exchange。](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) [](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) 
+如果在本地Exchange，可能需要在本地和联机环境Exchange OAuth。 有关详细信息，请参阅在 Skype for Business Server 中管理服务器到服务器身份验证[Skype for Business Exchange。](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) [](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-teams"></a>配置内部部署边缘服务以与 Teams
 
-联合身份验证允许本地部署中的用户与Teams Skype for Business Online 用户进行通信。 若要配置联盟，请运行命令行管理程序Skype for Business Server cmdlet：
+联合身份验证允许本地部署中的用户与Teams用户进行通信。 若要配置联盟，请运行命令行管理程序Skype for Business Server cmdlet：
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -78,7 +80,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > SharedSipAddressSpace 属性需要保持"True"，直到最终移动到联机，并且没有用户保持本地。 
   
-若要与 Teams (或 Skype for Business Online) 建立远程 PowerShell 会话，首先需要安装 Teams [PowerShell 模块](/microsoftteams/teams-powershell-install)。 The Teams PowerShell module replaces the Skype for Busines Online Connector module， which has been retired.
+若要建立与远程 PowerShell Teams，首先需要安装 Teams [PowerShell 模块](/microsoftteams/teams-powershell-install)。 The Teams PowerShell module replaces the Skype for Busines Online Connector module， which has been retired.
   
 安装模块后，可以使用以下 cmdlet 建立远程会话：
    ```powershell

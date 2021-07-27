@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78215457177689b549112a19a9477fdd01c91de2
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d0184198d7e419642a582f8642b312238900f1f8
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282509"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586991"
 ---
 # <a name="about-the-upgrade-framework"></a>关于升级框架
 
@@ -55,7 +55,7 @@ ms.locfileid: "52282509"
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>计划：创建升级计划，帮助确保组织已针对长期成功进行设置
 
-| 步骤 |  | 摘要 | 资源 |
+| 步骤 |&nbsp;| 摘要 | 资源 |
 |------|--|---------|----------|
 | **1** | **定义利益干系人** | 为推动升级成功的项目工作组成员分配负责。 | [召集利益干系人](upgrade-enlist-stakeholders.md) |
 | **2** | **定义项目愿景和范围** | 设计"大图"愿景和当前项目范围，为升级过程创建蓝图。 | [Project视觉](upgrade-define-project-scope.md#project-vision) <br> <br>[Project范围](upgrade-define-project-scope.md#project-scope) |
@@ -67,7 +67,7 @@ ms.locfileid: "52282509"
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>准备：评估组织的准备情况Teams
 
-| 步骤 |  | 摘要 | 资源 |
+| 步骤 |&nbsp;  | 摘要 | 资源 |
 |------|--|---------|----------|
 | **1** | **评估环境并完成Teams加入** | 确保环境已准备就绪，Teams用户体验优化，并随着时间的推移促进升级。 | [在升级到 Teams 之前，请评估Teams。](upgrade-plan-journey-evaluate-environment.md)<br><br> [准备服务以升级到 Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **优化Teams网络，尤其是实时媒体方案** | 如果要部署音频、视频或会议，请执行这些附加步骤来优化网络以使用该功能。 | [准备网络以升级到 Teams](prepare-network.md) |
@@ -78,7 +78,7 @@ ms.locfileid: "52282509"
 
 ### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>试点：运行试运行，确认组织已准备就绪，并告知最佳运行Teams
 
-| 步骤 |  | 摘要 | 资源 |
+| 步骤 | &nbsp; | 摘要 | 资源 |
 |------|--|---------|----------|
 | **1** | **概述试点物流** | 定义正式的试点物流，帮助验证组织是否准备好升级或共存。 | [概述试点物流](pilot-essentials.md#1-outline-pilot-logistics) |
 | **2** | **选择试点参与者和测试方案** | 确定可帮助验证团队协作方案并验证Teams的用户。 | [选择试点参与者和测试方案](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
@@ -89,7 +89,7 @@ ms.locfileid: "52282509"
 
 ### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>部署：在Teams共存中运行Skype for Business
 
-| 步骤 |  | 摘要 | 资源 |
+| 步骤 |&nbsp;  | 摘要 | 资源 |
 |------|--|---------|----------|
 | **1** | **宣布正式发布Teams** | 准备就绪后，通过发送正式发布公告来Teams和动力。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **实现升级** | 要执行的步骤取决于当前部署Skype for Business。 | [实现升级](upgrade-to-teams.md) |
@@ -102,7 +102,7 @@ ms.locfileid: "52282509"
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>升级：实现从Skype for Business到Teams
 
-| 步骤 |  | 摘要 | 资源 |
+| 步骤 |&nbsp;  | 摘要 | 资源 |
 |------|--|---------|----------|
 | **1** | **确认已完成上述升级前活动** | 确认完成所有规划和准备活动，帮助确保升级成功。 | 以上所有内容 |
 | **2** | **启动与第一个升级组中用户的通信** | 通知用户升级正在启动，并在整个过程中随时通知他们。 | [准备用户就绪性计划](upgrade-user-readiness.md) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
@@ -116,7 +116,7 @@ ms.locfileid: "52282509"
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>操作：衡量升级是否成功
 
-| 步骤 |  | 摘要 | 资源 |
+| 步骤 | &nbsp; | 摘要 | 资源 |
 |------|--|---------|----------|
 | **1** | **评估初始升级成功** | 根据升级前阶段制定的目标评估进度。 | [Project目标](upgrade-define-project-scope.md#project-goals) |
 | **2** | **针对任何未实现的目标实施缓解计划** | 针对未达到的目标定义缓解或课程更正策略。 | [Project目标](upgrade-define-project-scope.md#project-goals) |

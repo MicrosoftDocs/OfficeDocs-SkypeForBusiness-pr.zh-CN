@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dfc2be330f0890a73bdfa34077c910e7cfc3e84
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 705ad7ab9dbfccf12f269636e8c38312c3b8a3c7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282709"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587221"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>准备用户就绪性计划
 
@@ -43,7 +43,7 @@ ms.locfileid: "52282709"
 > [!Tip]
 > 除了示例 [升级项目](https://aka.ms/UpgradeSuccessKit) 计划和试点测试计划外，下载模板用户准备情况材料（例如通信和用户调查）的升级成功工具包。
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>如何创建就绪计划来加快用户采用新解决方案？</li><li>您是否具有与用户处理更改的能力以及定义的用户角色保持一致的正确认知、培训和支持资源？</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用下面的列表生成准备计划的想法。 选择最相关的活动（或添加自己的活动）以设计针对组织优化的就绪计划。 请记得将面向整个组织的 (和有针对性的) 组合用于 (或特定角色) 活动，以获得最佳效果。</li></ul>|

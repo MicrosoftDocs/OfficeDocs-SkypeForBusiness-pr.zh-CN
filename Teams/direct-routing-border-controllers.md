@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解哪些会话边界控制器 (SDC) 直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 33df0f9d00d0c02d28c5f69ef26ae151586803d2
-ms.sourcegitcommit: 9b794b579e57d478e5e4bd76b8ca79fdea6f90c4
-ms.translationtype: MT
+ms.openlocfilehash: af721c97d809204eacc897c09a6f504a0d6d5722
+ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53465380"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53482325"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -93,7 +93,7 @@ Microsoft 与每个供应商合作，以：
 |                     [M5 Technologies (以前称为 Media5 Corporation) ](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Sentinel 系列   |     &#10004;     |         |      DGW 48.0.2340 (推荐 DGW 48.1.2503)       |     |    |
 |                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops 会话边界控制器 (ONeSBC)    |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    ONEvSBC (Ekinops 虚拟会话边界)    |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
-|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    超融合语音   |     &#10004;     |         |      HCVoice 1.0.6       |     |    |
+|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    超融合语音   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
 
 <br/>
 

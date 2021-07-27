@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 案例研究
+title: Teams语音 Contoso 案例研究：基于位置的路由
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams多语言公司语音案例研究
+description: Teams国家/地区公司的语音案例研究：基于位置的路由
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba92794b2ba17cc23e1bca55800c9307707636
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: b9c63cfc4df61303ce5181c09e7e8b949ffb51b1
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785952"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587151"
 ---
 # <a name="contoso-case-study-location-based-routing"></a>Contoso 案例研究：Location-Based路由
 
@@ -47,11 +47,11 @@ Contoso 在一个国家/地区有两个办公室，其中绕过公共电话交�
 
 **原始部署**
 
-![显示状态前的图表](media/voice-case-study-5.png)
+![显示状态前的图表。](media/voice-case-study-5.png)
 
 **使用直接路由进行部署**
 
-![显示状态前的图表](media/voice-case-study-6.png)
+![显示状态前的图 2。](media/voice-case-study-6.png)
 
 
 ## <a name="configuration"></a>配置： 

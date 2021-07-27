@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f86d40772eb067a561708c6170ef2354bae521b
-ms.sourcegitcommit: 05411575d07d3eadc79d872d1cf81b36aae25621
+ms.openlocfilehash: c1e7391163ec41d385b99cab4ae6d135892284e2
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52479069"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536728"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
@@ -96,7 +96,7 @@ Walkie Talkie 应用包含在所有订阅中Teams付费Office 365[许可证](/of
 ## <a name="further-information"></a>更多信息
 
 - ITAdmins 可以通过应用策略保持对谁使用 Walkie Talkie 的控制。
-- 如果 FrontLine 工作人员使用移动数据通过 Teams 通信，Walkie Talkie 将使用相同的方法。
+- 如果一线员工使用移动数据通过 Teams 通信，Walkie Talkie 将使用相同的方法。
 - Walkie Talkie 应在低带宽情况下或智能手机已连接且正常工作的情况下运行良好。 当没有任何连接时，Walkie Talkie 将不起作用。
 
 有关最终用户体验的进一步阅读，请参阅：

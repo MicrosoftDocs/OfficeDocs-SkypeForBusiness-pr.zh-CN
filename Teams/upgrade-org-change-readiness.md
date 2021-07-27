@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6131883d4d3711b99006b3b54d51dd50ee37daa
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 3e18ecaf8d4149542008d2e1bba719d2ddaf7da6
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282319"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587271"
 ---
 # <a name="assess-organizational-change-readiness"></a>评估组织更改是否就绪
 
@@ -46,7 +46,7 @@ ms.locfileid: "52282319"
 > [!Note]
 > 你可以根据组织的任何更改计划调整下面给出的评估活动。 只需根据项目范围回答问题。 在下列讨论中，"新解决方案"可应用于音频呼叫、音频会议或从 Skype for Business 升级到 Teams。
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>当需要改变时，组织的文化是什么？</li><li>新技术如何优化用户的工作方式？</li><li>哪些用户可能需要特别注意才能让他们更改工作方式？</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用以下指南和关联的活动捕获组织的用户准备情况配置文件。</li></ul>|
@@ -106,7 +106,7 @@ Microsoft Teams扩展了 Skype for Business 的功能，提供了全面的通信
 
 若要在团队中Teams，请制定包含这两种方案的团队合作策略，帮助用户Teams工作。
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>将采用哪些可翻译的团队合作方案来帮助用户加速采用Teams并促进从Skype for Business？</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用下面的示例来帮助创建自己的团队协作方案。 在"升级工作簿 ["中记录它们](https://aka.ms/upgradesuccesskit)。</li><li>有关其他方案和示例，请转到 [生产力库](https://www.microsoft.com/microsoft-365/success/)</li></ul>|

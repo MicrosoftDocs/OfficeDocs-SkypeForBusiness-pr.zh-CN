@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 外围设备和设备 (耳机、免提电话、网络摄像机和监视器) 认证Microsoft Teams。
-ms.openlocfilehash: e3225490e52b527e02449796d614107221853554
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 476d61d2e2465dd1791b950d2922299073b5e210
+ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278505"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53495182"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经认证的 USB 音频和视频设备Microsoft Teams
 
@@ -81,6 +81,13 @@ ms.locfileid: "53278505"
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |认证Microsoft Teams                           |
 |Dell                 |Ultrasharp 网络摄像机 WB7022                                   |6/16/2021       |认证Microsoft Teams                           |
 |NEC                  |WD551 Windows协作显示                        |5/21/2021       |认证Microsoft Teams                           |
+|Poly                 |EncorePro 520 和 DA85-M                                   |4/26/2021       |认证Microsoft Teams                           |
+|Poly                 |EncorePro 510 和 DA85-M                                   |4/26/2021       |认证Microsoft Teams                           |
+|Poly                 |EncorePro 525-M                                            |4/26/2021       |认证Microsoft Teams                           |
+|Poly                 |EncorePro 515-M                                            |4/26/2021       |认证Microsoft Teams                           |
+|Dell                 |WL7022 Premier Wireless ANC Headset                        |4/22/2021       |认证Microsoft Teams                           |
+|Dell                 |WL5022 Pro Wireless Headset                                |4/22/2021       |认证Microsoft Teams                           |
+|Dell                 |WH3022 Pro有线耳机                                   |4/22/2021       |认证Microsoft Teams                           |
 |Logitech             |C920e 网络摄像机                                               |4/22/2021       |认证Microsoft Teams                           |
 |Poly                 |Studio P5 网络摄像机                                           |4/22/2021       |认证Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype for Business升级到 Microsoft Teams      |

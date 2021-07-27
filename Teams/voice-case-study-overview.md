@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 案例研究
+title: Teams Contoso 案例研究概述
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams多语言公司语音案例研究
+description: Teams多语言公司语音案例研究：语音迁移概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae8a09ab48215b1915c06e46b3d6a3a693958621
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097488"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587171"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Contoso 案例研究：Teams语音迁移概述
 
@@ -30,9 +30,9 @@ ms.locfileid: "51097488"
 
 Contoso 部署了 Microsoft 365 企业版，并针对以下事项解决了主要设计决策和实施细节：网络、标识、Windows 10 企业版、Office 365 专业增强版、移动设备管理、信息保护、安全性、从 Skype for Business 升级到 Teams、电话系统 和音频会议。  
 
-本文重点介绍 Contoso 如何将其本地用户迁移到 Teams统一通信、协作和语音。 有关 Contoso 如何使用 Microsoft 云服务加速数字化转型的背景信息，请参阅从 [Contoso](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)案例研究概述 开始的所有核心文章。
+本文重点介绍 Contoso 如何将其本地用户迁移到 Teams统一通信、协作和语音。 有关 Contoso 如何使用 Microsoft 云服务加速数字化转型的背景信息，请参阅从 [Contoso](/microsoft-365/enterprise/contoso-case-study)案例研究概述 开始的所有核心文章。
 
-https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
+[https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study](/microsoft-365/enterprise/contoso-case-study) 
 
 在核心文章中，可找到以下信息：  
 

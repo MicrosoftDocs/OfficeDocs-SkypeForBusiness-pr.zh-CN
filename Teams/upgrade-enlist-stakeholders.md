@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81a20980530f28f20fb48fa06a2068088dc1a305
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 8fc726dbe05358844c23a3ee90a8885e8b97f54d
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282519"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586961"
 ---
 # <a name="enlist-your-project-stakeholders"></a>登记项目干系人
 
@@ -40,7 +40,7 @@ ms.locfileid: "52282519"
 
 （可选）可以创建一个指导委员会。 有时，大型或更复杂的项目最终会导致"食谱太多"，导致利益干系人组断开连接。 对于这些项目，你可能希望组建一个指导委员会。 指导委员会负责推动决策、提供战略监督、支持项目计划，并在必要时删除阻止者。 有关实施指导委员会的信息，请参阅指导 [委员会指南](./envision-steering-committee-complete-guide.md)。
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点 | <ul><li>Who适合充当此项目利益干系人团队的人吗？</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>考虑项目范围并分配相关利益干系人。</li><li>请使用下表作为指南，但请注意，此列表并不全面。<br><strong>提示</strong><br>构建一个责任负责、咨询 (的 [ RACI) ](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) 矩阵，以进一步区分那些将负责的人与只是需要及时了解项目特定领域信息的人。</li> |
@@ -63,7 +63,7 @@ ms.locfileid: "52282519"
 | 电话服务主管 | 提供电话设计和实现见解 |
 | 服务所有者/质量冠军 | 拥有Teams的操作，包括用户体验的质量 |
 | 桌面和设备潜在顾客 | 提供对客户端、设备和桌面应用的输入 |
-| IT Pro/租户管理员 | 确保网络就绪Microsoft 365管理中心配置已就绪 |
+| IT Pro/租户管理员 | 确保网络就绪Microsoft 365 管理中心配置已就绪 |
 | 支持主管 | 管理支持台的准备情况 |
 | 更改管理主管 | 监督用户变更管理和采用计划 |
 | 营销主管 | 设计和实施通信活动 |

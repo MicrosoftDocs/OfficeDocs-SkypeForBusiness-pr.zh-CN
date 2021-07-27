@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed657590e024104e773b7a96b785b3b3db0ccbfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 384c7d98dbbae5fa1c471130f8699c9c570c79ac
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120743"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536818"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何为一线工作人员大规模预配 Teams
 
@@ -99,7 +99,7 @@ ms.locfileid: "51120743"
 
 例如：.\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
 
-### <a name="setup-credentials"></a>设置凭据
+### <a name="set-up-credentials"></a>设置凭据
 
 > [!IMPORTANT]
 > 这些脚本中的凭据管理方式可能不适合你使用，而且它们可轻松更改以满足你的要求。 始终遵循公司的标准和做法来保护服务帐户和托管身份。
@@ -181,13 +181,13 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 *最佳实践讨论*：对于下面的每个策略，我们将选择实际创建两个策略：一个用于一线工作人员，一个用于一线管理人员。 可以根据需要导入任意数目的联系人。 对于大多数客户来说，最好从两个联系人开始，即使你最初为每个组进行了相同的设置也不例外。 随着 Teams 体验的发展，你可以选择进一步区分自己的体验，创建两个单独的策略可简化这项工作。
 
-### <a name="create-teams-message-policies"></a>创建 Teams 消息策略
+### <a name="create-teams-messaging-policies"></a>创建 Teams 消息传递策略。
 
 消息传递策略用于控制为 Microsoft Teams 中的用户提供哪些聊天和频道消息功能。
 
 *最佳实践讨论*：尽管可使用自动创建的默认全局策略，但我们选择了按照以下步骤创建自定义策略，为一线管理人员和一线工作人员提供更加锁定、简单和差异化的体验。
 
-#### <a name="steps-to-create-teams-message-policies"></a>创建 Teams 消息策略的步骤
+#### <a name="steps-to-create-teams-messaging-policies"></a>创建 Teams 消息传递策略的步骤。
 
 1. 在存储库的脚本文件夹中查找 **TeamsMessagingPolicies.csv** 文件。
 1. 使用组织的特定信息来更新 **TeamsMessagingPolicies.csv** 文件。 有关各选项的详细信息，请参阅[此处](./messaging-policies-in-teams.md#messaging-policy-settings)。
@@ -201,11 +201,11 @@ Connect-MicrosoftTeams -Credential $teams_cred
 - 自定义 Teams 以突出显示对用户最为重要的应用。 选择要固定的应用并设置其显示顺序。 通过固定应用，可展示组织中的用户所需的应用，包括由第三方或组织中的开发人员构建的应用。
 - 控制用户是否可以将应用固定到 Teams。
 
-将应用程序固定到应用栏。 这是 Teams 桌面客户端的侧边栏和 Teams 移动客户端（iOS 和 Android）的底边栏。
+将应用钉在应用程序栏上。这是在 Teams 桌面客户端的侧面和 Teams 移动客户端 (iOS 和 Android) 的底部的栏。
 
 |Teams 桌面客户端  |         |Teams 移动客户端  |
 |---------|---------|---------|
-|![Teams 桌面客户端的屏幕截图，其中应用已固定到 *应用* 栏。](media/FLW-Teams-Desktop-Client.png)         |         |![Teams 桌面客户端的屏幕截图，其中应用已固定到 *底部* 栏。](media/FLW-Teams-Mobile-Client.png) |
+|![Teams 桌面客户端的屏幕截图，其中应用已固定到底栏。](media/flw-teams-desktop-client.png)         |         |![Teams 手机客户端的屏幕截图，其中应用已固定到底栏。](media/flw-teams-mobile-client.png) |
 
 *最佳实践讨论*：在 Microsoft Teams 管理中心管理应用设置策略。 无法使用 PowerShell 创建它们。 可使用全局（组织范围的默认）策略，或者创建自定义策略并将其分配给用户。 除非你创建并分配了自定义策略，否则你组织中的用户将自动分配到全局策略。 出于我们的目的，我们将为一线工作人员和一线管理人员创建两个新策略，以便为他们提供更简单、更精简的体验，从而轻松地同时加入大量用户。 你可以选择根据业务需求自定义体验。
 
@@ -215,23 +215,26 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **设置策略**”。
 2. 单击“ **添加**”。  
-3. 输入策略的名称和说明。 例如，**一线管理人员应用设置策略**。
-![一线管理人员应用设置策略图像。](media/FLW-FLM-App-Setup-Policy.png)
+3. 输入策略的名称和说明。 例如，一线管理人员应用设置策略图像。
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="屏幕截图：一线管理人员应用设置策略的示例名称和说明":::
 
 4. 关闭“**上载自定义应用**”。
 5. 关闭“**允许用户固定**”。
-![允许用户固定切换图像。](media/FLW-Allow-User-Pinning.png)
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="屏幕截图：允许用户固定设置":::
 
-6. 如果尚未列出 **班次** 应用，请添加。 有关 **班次** 的更多信息，请单击 [此处](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
-![“添加固定的应用”屏幕，显示班次应用（列在“添加”按钮旁边）。](media/FLW-Add-Pinned-Apps.png)
+6. 如果尚未列出 **班次** 应用，请添加。 有关班次的详细信息，请单击[此处](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="屏幕截图：“添加固定的应用”屏幕，显示班次应用。“班次”应用的“添加”按钮":::
 
-7. 删除显示的呼叫 注意：删除此功能不会针对用户禁用它，但会阻止它出现在应用栏，从而简化最终用户体验。
+7. 删除呼叫，如果出现的话。删除此功能不会针对用户禁用它，但会阻止它出现在应用栏，从而简化最终用户体验。
 8. 按以下顺序排列应用以指定其在 Teams 应用栏中的顺序，然后单击“ **保存**”。
-    1. 活动
-    1. 聊天
-    1. 团队
-    1. 日历
-    1. 班次 ![按顺序显示的管理人员应用程序列表的屏幕截图](media/FLW-Manager-Pinned-Apps.png)
+
+    - 活动
+    - 聊天
+    - 团队
+    - 日历
+    - 班次
+
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="屏幕截图：按顺序列出的一线管理人员的应用":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>创建一线工作人员应用设置策略
 
@@ -239,22 +242,25 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **设置策略**”。
 2. 单击“ **添加**”。
-3. 输入策略的名称和说明。 例如：**一线工作人员应用设置策略**。
-![一线工作人员应用设置策略图像。](media/FLW-FLW-App-Setup-Policy.png)
+3. 输入策略的名称和说明。 例如，一线工作人员应用设置策略。
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="屏幕截图：一线工作人员应用设置策略的示例名称和说明":::
 
 4. 关闭“**上载自定义应用**”。
 5. 关闭“**允许用户固定**”。
-![允许用户固定切换图像。](media/FLW-Allow-User-Pinning.png)
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="屏幕截图：允许用户固定设置":::
 
-6. 如果尚未列出 **班次** 应用，请添加。 有关 **班次** 的详细信息，请单击此处。
-![“添加固定的应用”屏幕，显示班次应用（列在“添加”按钮旁边）。](media/FLW-Add-Pinned-Apps.png)
+6. 如果尚未列出 **班次** 应用，请添加。 有关班次的详细信息，请单击[此处](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
 
-7. 删除显示的会议和呼叫 注意：删除这些功能不会针对用户禁用它们，但会阻止它们出现在应用栏，从而简化最终用户体验。
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="屏幕截图：“添加固定的应用”屏幕，显示班次应用。“班次”应用的“添加”按钮":::
+
+7. 删除会议和呼叫，如果它们出现的话。删除这些功能不会针对用户禁用它们，但会阻止它们出现在应用栏，从而简化最终用户体验。
 8. 按以下顺序排列应用以指定其在 Teams 应用栏中的顺序，然后单击“ **保存**”。
-    1. 活动
-    1. 聊天
-    1. Teams
-    1. 班次 ![按顺序显示的工作人员应用的屏幕截图。](media/FLW-Worker-Pinned-Apps.png)
+    - 活动
+    - 聊天
+    - Teams
+    - 班次
+
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="屏幕截图：按顺序列出的一线工作人员的应用":::
 
 ### <a name="create-teams-app-permission-policies"></a>创建 Teams 应用权限策略
 
@@ -268,12 +274,13 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **权限策略**”。
 2. 单击“ **添加**”。
-![显示添加应用权限策略页面，包含针对 Microsoft、第三方和租户应用的部分。](media/FLW-add-app-permission-policy.png)
+
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="屏幕截图：添加应用权限策略页面":::
 
 3. 输入策略的名称和说明。 例如，一线管理人员应用权限策略。
-4. 在 Microsoft 应用下，选择“**允许所有应用**”。
-5. 在第三方应用下，选择“**允许所有应用**”。
-6. 在租户应用下，选择“**允许所有应用**”。
+4. 在  **Microsoft 应用** 下，选择“**允许所有应用**”。
+5. 在  **第三方应用** 下，选择“**允许所有应用**”。
+6. 在“**自定义应用**”下，选择“**允许所有应用**”。
 7. 单击“ **保存**”。
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>创建一线员工应用权限策略
@@ -282,12 +289,13 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **权限策略**”。
 2. 单击“ **添加**”。
-![显示添加应用权限策略页面，包含针对 Microsoft、第三方和租户应用的部分。](media/FLW-add-app-permission-policy.png)
+
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="屏幕截图：添加应用权限策略页面":::
 
 3. 输入策略的名称和说明。 例如，一线员工应用权限策略。
-4. 在 Microsoft 应用下，选择“**允许所有应用**”。
-5. 在第三方应用下，选择“**阻止所有应用**”。
-6. 在租户应用下，选择“**允许所有应用**”。
+4. 在  **Microsoft 应用** 下，选择“**允许所有应用**”。
+5. 在  **第三方应用** 下，选择“**阻止所有应用**”。
+6. 在“**自定义应用**”下，选择“**允许所有应用**”。
 7. 单击“ **保存**”。
 
 ## <a name="users-and-security-groups"></a>用户和安全组
@@ -354,7 +362,7 @@ Microsoft 付费的云服务（如 Microsoft 365、Office 365、企业移动性 
 
 ## <a name="test-and-validate"></a>测试和验证
 
-### <a name="login-to-teams-with-a-test-user"></a>以测试用户身份登录 Teams
+### <a name="sign-in-to-teams-with-a-test-user"></a>以测试用户身份登录 Teams
 
 你已经完成所有步骤，现在可以验证已完成的工作了。
 

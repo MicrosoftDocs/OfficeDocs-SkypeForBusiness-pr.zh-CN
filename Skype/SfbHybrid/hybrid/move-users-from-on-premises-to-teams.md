@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：了解如何迁移用户设置以及将用户移动到Teams。
-ms.openlocfilehash: b9b21dafc2290dfff5522f5d54c0872121294dd9
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 1df8c617d40b88813074319d7eb041995ff71ca5
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856301"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509773"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>将用户从本地移至团队
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 当用户从本地移动到 Teams Only 时，用户的 Skype for Business 家庭版从本地移动到联机，并且为该用户分配 TeamsUpgradePolicy mode=TeamsOnly。  将用户从本地移动到 TeamsOnly 模式后：
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找在匈牙利获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 5e590a861c7a68b15dd65a3ce304373fe49525d8
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: c47511d5f50071f20e19bb5929424632e212d962
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993945"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510023"
 ---
 # <a name="phone-number-management-for-hungary"></a>电话匈牙利的号码管理
 
@@ -37,10 +37,10 @@ ms.locfileid: "52993945"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。<br/> |在匈牙利，可以使用管理中心获取Microsoft Teams电话号码。 您也可以通过下载表单并向我们发送来 [提交新的电话号码请求](mailto:ptneu@microsoft.com)。<br/><br/>[针对匈牙利的新电话号码请求 (v.1.0)  (hu-hu) 。 ](https://download.microsoft.com/download/f/7/7/f7782f40-8a64-49b6-b97d-89bfb111f1ea/Know%20your%20customer%20for%20Hungary.pdf)<br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整填写，然后发送给我们。<br/><br>新订单可能需要两到三周来填充此市场。  |
-|获取转接给我们的电话号码。<br/> | 下载此表单。 <br/>[匈牙利 (LOA) 授权书 ()  (v.1.0)  (hu-hu) ](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/><br/>转移号码可能需要 2 到 3 周才能在此市场中完成。 <br/><br/>这些号码目前不能用于会议。   |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。<br/> |在匈牙利，可以使用管理中心获取Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 PTSN 以说明](contact-pstn-service-desk.md)。<br/><br/>[针对匈牙利的新电话号码请求 (v.1.0)  (hu-hu) 。 ](https://download.microsoft.com/download/f/7/7/f7782f40-8a64-49b6-b97d-89bfb111f1ea/Know%20your%20customer%20for%20Hungary.pdf)<br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整填写，然后发送给我们。<br/><br>新订单可能需要两到三周来填充此市场。  |
+|获取转接给我们的电话号码。<br/> | 下载此表单。 <br/>[匈牙利 (LOA) 授权书 ()  (v.1.0)  (hu-hu) ](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 <br/><br/>转移号码可能需要 2 到 3 周才能在此市场中完成。 <br/><br/>这些号码目前不能用于会议。   |
 |发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
-|将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
+|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |
 ## <a name="related-topics"></a>相关主题
 

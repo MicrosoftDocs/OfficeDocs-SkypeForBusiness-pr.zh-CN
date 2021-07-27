@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809072"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586981"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升级基本通信的示例电子邮件和调查
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 指示你在活动中心内执行以下活动的能力Teams以及是否有一个或多个活动需要了解更多信息。
 
-| &nbsp; | 非常熟练 | 有点熟练 | 完全不熟练 | 想要了解更多信息 | 不适用 | 不确定/不熟悉 | | | | |
+| &nbsp; | 非常熟练 | 有点熟练 | 完全不熟练 | 想要了解更多信息 | 不适用 | 不确定/不熟悉 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 使用Teams其他人进行即时消息/聊天 | | | | | | | | | | |
 | 使用Teams联机会议 | | | | | | | | | | |

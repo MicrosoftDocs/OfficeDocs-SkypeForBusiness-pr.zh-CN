@@ -19,20 +19,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 6e715786a6cf139da303a73b7f076f3f30e8e004
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186901"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587191"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
-|               |               |
+| &nbsp; | &nbsp; |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[管理员培训](./itadmin-readiness.md)** </br> 在这些教程、视频和其他培训资源中了解 Teams 并促进其在你的组织内的使用。 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams 实时培训](./instructor-led-training-teams-landing-page.yml)** </br> Microsoft 主持的免费实时在线培训课程专为帮助你使用 Teams 实现起步和发展。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Teams 联机培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 利用这些自学培训资源来帮助组织内部用户充分利用 Teams。 |
+| <img src="/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[管理员培训](./itadmin-readiness.md)** </br> 在这些教程、视频和其他培训资源中了解 Teams 并促进其在你的组织内的使用。 
+| <img src="/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams 实时培训](./instructor-led-training-teams-landing-page.yml)** </br> Microsoft 主持的免费实时在线培训课程专为帮助你使用 Teams 实现起步和发展。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 
+| <img src="/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Teams 联机培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 利用这些自学培训资源来帮助组织内部用户充分利用 Teams。 |
 
 ## <a name="dont-miss-these-key-training-offerings"></a>不要错过这些关键培训服务
 

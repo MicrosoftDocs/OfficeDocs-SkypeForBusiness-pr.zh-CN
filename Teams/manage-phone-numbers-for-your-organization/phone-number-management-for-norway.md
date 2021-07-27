@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在挪威获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: eba8ad5c5b9aebbb4190f0305e037cd2549febc8
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: 208d69aceaf03921af60bdbceba9fe6b2e9a155d
+ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993876"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53495172"
 ---
 # <a name="phone-number-management-for-norway"></a>电话挪威的号码管理
 
@@ -37,8 +37,7 @@ ms.locfileid: "52993876"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。<br/> |在挪威，可以使用管理中心获取组织Microsoft Teams电话号码。 您也可以通过下载表单并向我们发送来 [提交新的电话号码请求](mailto:ptneu@microsoft.com)。<br/><br/><ul><li>[针对挪威的新电话号码请求 (v.1.0)  (nb-NO) ](https://download.microsoft.com/download/3/9/a/39adb4f0-74b8-424d-8830-2a116b576bee/know-your-customer-for-norway-(v.1.0)-(nb-NO).pdf)
-</li><li>[挪威的新电话号码请求 - 挪威语博克马尔语 (v.1.0)  (nb-no) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)</li></ul><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整填写，然后发送给我们。 <br/><br/>新订单可能需要两到三周来填充此市场。  |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。<br/> |在挪威，可以使用管理中心获取组织Microsoft Teams电话号码。 您也可以通过下载表单并向我们发送来 [提交新的电话号码请求](mailto:ptneu@microsoft.com)。<br/><br/><ul><li>[针对挪威的新电话号码请求 (v.1.0)  (nb-NO) ](https://download.microsoft.com/download/3/9/a/39adb4f0-74b8-424d-8830-2a116b576bee/know-your-customer-for-norway-(v.1.0)-(nb-NO).pdf)</li><li>[挪威的新电话号码请求 - 挪威语博克马尔语 (v.1.0)  (nb-no) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)</li></ul><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整填写，然后发送给我们。 <br/><br/>新订单可能需要两到三周来填充此市场。  |
 |获取转接给我们的电话号码。<br/> | 下载此表单。 <br/>[挪威的 (LOA) 授权书 ()  (v.1.0)  (en-nw) ](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/><br/>转移号码可能需要四到五周才能完成此市场。<br/><br/> 这些号码目前不能用于会议。  |
 |发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |

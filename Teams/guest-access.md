@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-ms.openlocfilehash: d927c601380223b3381a65e09549a632ed32903e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598531"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536828"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 
@@ -40,7 +40,7 @@ Teams 中的来宾都可享受其余 Microsoft 365 产品中同样的合规性�
 来宾体验体验在设计上有限制。 有关来宾在 Teams 中可以和不可执行的操作的完整列表，请参阅[团队成员和来宾功能比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)。
 
 > [!IMPORTANT]
-> 来宾用户遵循共存升级模式下的 Teams 组织范围内设置。 此选项无法更改。
+> 来宾用户遵循共存升级模式下的 Teams 组织范围内设置。此设置不能更改。
 
 若要设置来宾访问，请参阅[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。 
 
@@ -72,10 +72,7 @@ Teams 中的来宾访问是一种组织范围的设置，默认情况下处于�
 
 ## <a name="licensing-for-guest-access"></a>来宾访问的许可
 
-所有 Microsoft 365 商业标准版、Microsoft 365 企业版和 Microsoft 365 教育版订阅均包含来宾访问功能。 无需额外的 Microsoft 365 许可证。 Teams 不对可添加的来宾数量进行限制。 但是，可添加到你的租户的来宾总数可能受到 Azure AD 的付费功能的限制。 有关详细信息，请参阅 [Azure AD 外部标识的计费模型](/azure/active-directory/b2b/licensing-guidance)。
-
-> [!NOTE]
-> 你组织中仅拥有独立 Microsoft 365 订阅计划（例如 Exchange Online 计划 2）的用户不可作为来宾被邀请加入你的组织，因为 Teams 将这些用户视为属于该组织。 要让这些用户使用 Teams，必须向他们分配 Microsoft 365 商业标准版、Office 365 企业版或 Office 365 教育版订阅。 
+所有 Microsoft 365 商业标准版、Microsoft 365 企业版和 Microsoft 365 教育版订阅均可与来宾访问功能一起使用。 无需额外的 Microsoft 365 许可证。 [Azure Active Directory for External Identities 的计费模式](/azure/active-directory/b2b/licensing-guidance)适用于 Microsoft 365 中的来宾。 只能邀请组织外部的人员作为来宾。
 
 ## <a name="guest-access-reviews"></a>来宾访问评审
 

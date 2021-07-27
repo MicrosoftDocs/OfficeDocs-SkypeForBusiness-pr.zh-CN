@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 案例研究
+title: Contoso 案例研究：电话系统国家/直连公司
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,17 +13,17 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams多语言公司语音案例研究
+description: Teams公司的语音案例研究：电话系统
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995b4ddf9c07dea57c8d4de9940776d5137c2d02
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ee15ef9bb42a28023c86963dd9100797c51edc3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101028"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587141"
 ---
-# <a name="contoso-case-study-phone-system"></a>Contoso 案例研究：电话系统
+# <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso 案例研究：电话系统国家/直连公司
 
 根据地理位置和其他因素，Contoso 设有办公室，其电话解决方案如下：
 
@@ -55,16 +55,16 @@ Contoso Skype for Business 企业语音已设置为中心和分支。 有一个�
 Contoso 基于以下问题做出决策：
 
 - 问： 我们是否需要保留本地部署提供的功能？<br>
-  答： 不支持 
+  答： 弱 
 
 - 问： 我们是否需要和第三方 PBX 系统和其他电话设备互操作？<br>
-  答： 不支持 
+  答： 弱 
 
-- 问： 我们是否需要保留当前第三方运营商？<br> 答：是 (国家/地区) 和否 
+- 问： 我们是否需要保留当前第三方运营商？<br> A.是 (国家/地区) 和否 
 
-- 问： 是否需要部署 SDC 的 ROI？<br> 答：是和否  
+- 问： 是否需要部署 SDC 的 ROI？<br> A.是和否  
 
-- 问： Microsoft PSTN 呼叫计划是否在此区域可用？<br> 答：是和否 
+- 问： Microsoft PSTN 呼叫计划是否在此区域可用？<br> A.是和否 
 
 Contoso 根据其问题的答案决定：
 
@@ -74,7 +74,7 @@ Contoso 根据其问题的答案决定：
 
 下图显示了初始部署Skype for Business 企业语音以及此部署如何迁移到 Microsoft 呼叫计划和直接路由：
 
-![显示状态之前和之后](media/voice-case-study-1.png)
+![关系图显示状态之前和之后。](media/voice-case-study-1.png)
 
 ## <a name="site-type-b-traditional-legacy-telephony-systems"></a>站点类型 B：传统传统电话系统
 
@@ -83,13 +83,13 @@ Contoso 有许多办公室利用旧式电话系统。 有一部分用户拥有 E
 Contoso 基于以下问题做出决策：
 
 - 问： 我们是否需要保留本地部署提供的功能？<br>
-  答： 不支持 
+  答： 弱 
 
-- 问： 我们是否需要和第三方 PBX 系统和其他电话设备互操作？<br> 答：是的
+- 问： 我们是否需要和第三方 PBX 系统和其他电话设备互操作？<br> A.是的
 
-- 问： 我们是否需要保留当前第三方运营商？<br> 答：不 
+- 问： 我们是否需要保留当前第三方运营商？<br> A.不 
 
-- 问： Microsoft PSTN 的呼叫计划是否在我们的区域可用？<br> 答：是和否 
+- 问： Microsoft PSTN 的呼叫计划是否在我们的区域可用？<br> A.是和否 
 
 Contoso 根据其问题的答案决定： 
 
@@ -102,12 +102,12 @@ Contoso 根据其问题的答案决定：
 下图显示了使用远程站点的原始旧系统部署，以及使用本地媒体优化迁移到直接路由部署：
 
 **原始旧版部署**  
- ![显示状态之前和之后](media/voice-case-study-2.png)
+ ![图表显示状态之前和之后。](media/voice-case-study-2.png)
 
 
 **使用直接路由进行部署**
 
-![显示状态之前和之后](media/voice-case-study-3.png)
+![显示状态之前和之后的图表。](media/voice-case-study-3.png)
  
 ## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>站点类型 C：Skype for Business 企业语音传统旧电话系统的组合
 
@@ -116,15 +116,15 @@ Contoso Skype for Business 企业语音用户号码位于运营商发自 SBC 的
 Contoso 基于以下问题做出决策：
 
 - 问： 我们是否需要保留本地部署提供的功能？<br>
-  答： 不支持 
+  答： 弱 
 
-- 问： 我们是否需要和第三方 PBX 系统和其他电话设备互操作？<br> 答：不 
+- 问： 我们是否需要和第三方 PBX 系统和其他电话设备互操作？<br> A.不 
 
-- 问： 我们是否需要保留当前第三方运营商？<br> 答：不 
+- 问： 我们是否需要保留当前第三方运营商？<br> A.不 
 
-- 问： 是否需要部署 SDC 的 ROI？<br> 答：是和否  
+- 问： 是否需要部署 SDC 的 ROI？<br> A.是和否  
 
-- 问： Microsoft 的 PSTN 呼叫计划是否在此区域可用？<br> 答：不 
+- 问： Microsoft 的 PSTN 呼叫计划是否在此区域可用？<br> A.不 
 
 Contoso 根据其问题的答案决定以下事项： 
 
@@ -137,21 +137,21 @@ Contoso 根据其问题的答案决定以下事项：
 下图显示了原始Skype for Business 企业语音旧电话系统部署以及使用直接路由迁移到混合部署：
 
 **原始混合部署** 
- ![显示状态前的图表](media/voice-case-study-4.png)
+ ![显示前状态图 1。](media/voice-case-study-4.png)
 
 **使用直接路由的混合部署** 
- ![显示状态前的图表](media/voice-case-study-4a.png)
+ ![图 2 显示之前的状态。](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>通话套餐
 
 为了确定调用计划的配置要求，Contoso 查看了调用 [计划核心部署决策](calling-plan-landing-page.md#core-deployment-decisions)。 做出以下决策： 
 
-- 问： 我的用户是否需要国际呼叫？<br> 答：是的 
+- 问： 我的用户是否需要国际呼叫？<br> A.是的 
 
 - 问： 我的用户是否都有直接向内 DID 电话号码？<br> 答：今天不能。 启用的所有用户都将收到 DID。 
 
-- 问： 是否要屏蔽或禁用来电显示？<br> 答：用户的来电显示将被屏蔽为 Contoso 的本地号码。 
+- 问： 是否要屏蔽或禁用来电显示？<br> A.用户的来电显示将被屏蔽为 Contoso 的本地号码。 
 
 
 ## <a name="direct-routing"></a>直接路由

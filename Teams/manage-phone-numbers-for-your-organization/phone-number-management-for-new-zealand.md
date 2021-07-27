@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在新西兰获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 930b2068071fe6a0d99019e136eb50179e60cae9
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: db8cfb0457ab6dea2a32fbe80bfe94001dff2e73
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993895"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509983"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>电话新西兰的号码管理
 
@@ -37,10 +37,10 @@ ms.locfileid: "52993895"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。|在新西兰，可以使用管理中心为组织Microsoft Teams电话号码。 您也可以通过下载表单并向我们发送来 [提交新的电话号码请求](mailto:ptneu@microsoft.com)。<br/><br/>[针对新西兰的新电话号码请求 (v.1.0)  (mi-nz) 。 ](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf) <br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整填写，然后发送给我们。<br/><br/>新订单可能需要两到三周来填充此市场。  |
-|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[新西兰 (LOA) 授权书 (v.1.0)  (1.0)  (nz) ](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/><br>转移号码可能需要一到六周才能在此市场中完成，具体取决于端口的复杂性。<br/><br/>这些号码目前不能用于会议。  |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
-|将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。|在新西兰，可以使用管理中心为组织Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 PTSN 以说明](contact-pstn-service-desk.md)。<br/><br/>[针对新西兰的新电话号码请求 (v.1.0)  (mi-nz) 。 ](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf) <br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整完成，并 [联系 PTSN 了解说明](contact-pstn-service-desk.md)。<br/><br/>新订单可能需要两到三周来填充此市场。  |
+|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[新西兰 (LOA) 授权书 (v.1.0)  (1.0)  (nz) ](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 <br/><br>转移号码可能需要一到六周才能在此市场中完成，具体取决于端口的复杂性。<br/><br/>这些号码目前不能用于会议。  |
+|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
+|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。|
 
 ## <a name="related-topics"></a>相关主题
