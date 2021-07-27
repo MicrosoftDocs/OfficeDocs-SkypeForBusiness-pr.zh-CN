@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
-ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
+ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
+ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53479049"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463295"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>快速入门 - 会议、网络研讨会和直播活动 
 
@@ -42,7 +42,8 @@ ms.locfileid: "53479049"
 
 不同类型的会议还具有不同的参与者限制和参与者功能。 
 
-下表简要总结了三种类型的会议、推荐的参与者数目以及参与者在会议中的交互方式。有关每种类型会议的详细信息，请参阅表格。 <br><br>
+下表简要总结了三种类型的会议、推荐的参与者数目以及参与者在会议中的交互方式。 有关每种类型会议的详细信息，请参阅表格。
+<br><br>
 
 | 会议类型 | 参与者人数 | 交互 | 支持注册 |
 |----------|--------|--------|-----|
@@ -53,7 +54,7 @@ ms.locfileid: "53479049"
 
 *由通常的 10,000 人增加到 2021 年 12 月 31 日的 20,000 人。<br>
 
-**由通常的 10,000 人增加到 2021 年 12 月 31 日的 20,000 人。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](/stream/live-events-assistance)。 
+**由通常的 10,000 人增加到 2021 年 12 月 31 日的 20,000 人。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](https://docs.microsoft.com/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](https://docs.microsoft.com/stream/live-events-assistance)。 
 
 为了获得大型会议的最佳体验，Microsoft 建议使用 Teams 桌面客户端或 Teams 移动客户端。 大型会议中的演示者应使用 Teams 桌面客户端。 有关托管大型会议的更多提示，请参阅 [大型 Teams 会议最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
 
@@ -140,7 +141,7 @@ Teams 中的 **会议** 包括最多 1,000 人的音频、视频和屏幕共享�
 
 ## <a name="apps-for-meetings"></a>会议应用
 
-通过 Microsoft，可以通过集成和使用会议应用来增强会议体验。例如，Teams 会议中的 Whiteboard 集成由 Whiteboard Web 应用提供支持，允许 Teams 会议参与者在共享数字画布上一起绘制、速记和书写。
+通过 Microsoft，可以通过集成和使用会议应用来增强会议体验。 Microsoft Teams 会议中的 Whiteboard 集成由 Whiteboard Web 应用（预览版）提供支持，Teams 会议参与者可以通过此应用在共享数字画布上一起进行绘制、速记和撰写。
 
 可以通过使用 Teams 提供的应用、使用经过认证的第三方应用和模板，以及创建自己的自定义应用将会议应用添加到 Teams 部署中。 
 

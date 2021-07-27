@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 有关如何在停用本地部署环境时管理 DNS Skype for Business说明。
-ms.openlocfilehash: a5321aa187a88505b3973c3e5418f4a88e1e6f69
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: d51cd3bb7617eaca563de35e708bb6ab56368ab3
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486242"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510763"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>更新 DNS 条目，使组织能够"仅Teams"
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 以前具有本地部署的 Skype for Business Server 或 Lync Server 的组织可能仍具有指向本地部署部署Skype for Business条目。 如果组织包括本地用户，则这些记录Skype for Business要求。 但是，一旦组织不再具有任何本地 Skype for Business 或 Lync Server 用户，本地部署不再需要这些原始记录，并且这些 DNS 条目必须更新为指向 Microsoft 365 (，或者在某些情况下，作为从本地迁移到 Teams Only 的一部分删除 **) 。** *Microsoft 无法代表你更新这些 DNS 记录。*
 
