@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7980b062d864b7354a329ce5743b0209d9a54e2a
-ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
+ms.openlocfilehash: 2a8883b48b2fc5efc33b3c4e0128cc5ac3d3c760
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53565698"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587291"
 ---
 # <a name="manage-user-access-to-education-insights"></a>管理用户对 Education Insights 的访问权限
 
@@ -37,8 +37,6 @@ ms.locfileid: "53565698"
 > [!TIP]
 > 我们建议为所有教育领导者启用 Insights，以便他们能够获得了解每所学校所需的数据，并能够快速发现问题并为教师提供支持。 即使只是运行试点项目，为所有教育领导者启用 Insights 可能仍然很有帮助，但这只针对试点用户组的通信。
 
-
-
 ## <a name="manange-permissions"></a>管理权限
 
 * 打开 Insights 应用，单击“**设置**”，然后选择“**用户权限**”
@@ -46,7 +44,7 @@ ms.locfileid: "53565698"
 :::image type="content" source="media/insights-user-permissions.png" alt-text="设置":::
 
 > [!NOTE]
-> 为组织级别提供权限时，用户可以看到其下所有组织单位。 仅向有需要的教育领导者提供权限。
+> 为组织级别提供权限时，用户可以看到其下所有组织单位。
 > 
 > 仅向有需要的教育领导者和他们负责的组织单位提供权限。 如果你不确定是否需要特定组织的用户权限，请咨询机构的隐私主题专家，例如法律或人事部门人员。
 
@@ -56,6 +54,9 @@ ms.locfileid: "53565698"
 
 > [!NOTE]
 > 为用户分配角色时，他们将自动获得正确的权限，用以查看与他们相关的数据。
+>
+> 如果用户不再处于某个角色中，则会自动撤销他们该角色享有的权限（尽管他们可能仍然具有单个权限）。
+
 
 * 如果需要，请单击 **基于角色的权限** 选项卡。
 
@@ -67,13 +68,14 @@ ms.locfileid: "53565698"
   
 * 对于每个角色，请单击铅笔图标以选择权限级别。 默认情况下，角色无权查看见解。
 * 选择权限级别–**查看其组织的数据** 或 **无**。
+
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="基于角色的权限面板":::
+  
+  如果在列表中看到需要更细微权限级别的用户，请在 [从 SIS 导入的数据](education-insights-sis-data-sync.md) 中调整其角色和/或组织，并 [向他们授予个人权限](#grant-individual-permission-to-a-user)（如果需要）。
+
 * 单击 **保存更改**。
 
-  此权限级别现在会自动分配给具有此角色和组织级别的任何新用户。 用户将能看到在其层次结构级别中及以下的所有组织单位的数据。
-  
-  如果在列表中发现了需要更细微的权限级别的用户，请在“单个权限”中对其进行调整。
-  
-  如果用户不再处于某个角色中，则会自动撤销他们该角色享有的权限（尽管他们可能仍然具有单个权限）。
+  此权限级别现在会自动分配给具有此角色和组织级别的任何新用户。 用户将能看到在其层次结构级别中及以下的所有组织单位的数据。  
 
 
 ## <a name="individual-permissions"></a>单个权限
@@ -100,4 +102,7 @@ ms.locfileid: "53565698"
   * **所有** 意味着用户会看到所有级别的所有组织单位。 这很少使用。
   * **特定组织** 意味着用户会看到所选组织单位及其下的所有组织单位。 开始键入并从列表中选择组织单位。
   * **无** 表示用户只能看到由其角色自动分配的组织单位（如果有）。
+  
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="个人权限面板":::
+
 * 单击 **保存更改** 来保存。

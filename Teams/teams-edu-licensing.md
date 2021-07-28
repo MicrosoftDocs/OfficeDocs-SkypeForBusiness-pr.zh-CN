@@ -1,5 +1,5 @@
 ---
-title: 面向教育版管理员的 Microsoft Teams 资源
+title: 教育版管理员的 Microsoft Teams 资源：为 EDU 分配 Teams 许可证
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83448f32ddfc96800a14b5a599ef9cb7af52bb9b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e51d472bbf3310b03fea6344b354fc307c8ce08a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119231"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587371"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>为教育版分配 Microsoft Teams 许可证
 

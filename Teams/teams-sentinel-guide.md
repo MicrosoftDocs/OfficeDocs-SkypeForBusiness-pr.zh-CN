@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3b2c37f7f3731b34abb5337bf954250e0c3564d
-ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
+ms.openlocfilehash: 55307637e18f81775229bb46db51a6f5738cce7c
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51712764"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587041"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 和 Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams 在 Microsoft 365 云中的通信和数据共享中发挥核心作用。 �
 
 本文重点介绍如何在 Azure Sentinel 中收集 Teams 活动日志。
 
-已发送的信息允许管理员在一个位置执行安全管理。 其中包括管理：
+Sentinel 允许管理员在一个位置进行安全管理。这包括管理以下内容：
 
 - 第三方设备
 - Microsoft 威胁防护
@@ -53,7 +53,7 @@ Teams 在 Microsoft 365 云中的通信和数据共享中发挥核心作用。 �
 
 ## <a name="step-1-collect-teams-logs-enable-audit-logs-in-microsoft-365"></a>步骤 1：收集团队日志：在 Microsoft 365 中启用审核日志
 
-由于 Teams 通过 Microsoft 365 记录活动，因此默认情况下不会收集审核日志。 通过[以下步骤](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)启用此功能。 Teams 数据在 Microsoft 365 审核中根据 *Audit.General* 进行收集。
+由于 Teams 通过 Microsoft 365 记录活动，因此默认情况下不会收集审核日志。 通过[以下步骤](/microsoft-365/compliance/turn-audit-log-search-on-or-off)启用此功能。 Teams 数据在 Microsoft 365 审核中根据 *Audit.General* 进行收集。
 
 ## <a name="step-2-connect-office-365-logs-to-azure-sentinel"></a>步骤 2：将 Office 365 日志连接到 Azure Sentinel
 
@@ -228,6 +228,6 @@ SigninLogs
 
 [在 Azure AD 中注册应用程序](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[启用或禁用审核日志搜索](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[启用或禁用审核日志搜索](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [什么是 Azure Sentinel?](/azure/sentinel/overview)
