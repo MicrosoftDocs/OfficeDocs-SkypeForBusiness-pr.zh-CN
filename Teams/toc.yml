@@ -1487,7 +1487,7 @@ items:
             href: sku-reference-edu.md
       - name: 适合一线员工的 Teams
         items:
-          - name: 适合一线员工的快速入门
+          - name: 一线员工快速入门指南
             href: flw-quickstart.yml
           - name: 一线员工脚本化部署
             href: flw-scripted-deployment.md
