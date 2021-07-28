@@ -293,6 +293,8 @@ items:
             href: legal-hold.md
           - name: 内容搜索
             href: content-search.md
+          - name: 高级电子数据展示中的 Teams 工作流
+            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: 审核
             href: audit-log-events.md
           - name: 客户密钥
@@ -899,7 +901,13 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: 通话套餐的国家和地区可用性
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: 电话系统直接路由
+          - name: 运营商连接
+            items:
+              - name: 运营商连接计划
+                href: operator-connect-plan.md
+              - name: 配置运营商连接
+                href: operator-connect-configure.md
+          - name: 直接路由
             items:
               - name: 概述
                 href: direct-routing-landing-page.md
@@ -975,12 +983,6 @@ items:
                         href: direct-routing-protocols-media.md
                   - name: 直接路由 Survivable Branch Appliance
                     href: direct-routing-survivable-branch-appliance.md
-          - name: 运营商连接
-            items:
-              - name: 运营商连接计划
-                href: operator-connect-plan.md
-              - name: 配置运营商连接
-                href: operator-connect-configure.md
       - name: 电话号码
         items:
           - name: 管理组织的电话号码
