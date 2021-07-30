@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '了解如何为大厅、接收区和会议室设置公用区域电话 '
-ms.openlocfilehash: bb17b21eac262c160abc3e16a4b552fb32b97d00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d04b1262c88a2600e2167cbaf5498672983cb0b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117110"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646213"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
@@ -40,7 +40,7 @@ ms.locfileid: "51117110"
 
 ## <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 
-1. 在Microsoft 365中心，转到"**计费**  >  **购买服务**"，然后展开"**其他计划"。**
+1. 在Microsoft 365 管理中心，转到"**计费**  >  **购买服务**"，然后展开"**其他计划"。**
 
     ![显示"公共区域"磁贴电话屏幕截图](media/set-up-common-area-phone-image1.png)
 
@@ -61,7 +61,7 @@ ms.locfileid: "51117110"
 公共区域电话支持： 
 
 
-|   |  公共区域电话  |
+| &nbsp;  |  公共区域电话  |
 |---------|---------|
 |Skype for Business |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
@@ -80,7 +80,7 @@ ms.locfileid: "51117110"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>第 2 步 - 为手机创建一个新的用户帐户并分配许可证
 
-1. 在Microsoft 365管理中心，转到 **"活动**  >  **用户""**  >  **添加用户"。**
+1. 在Microsoft 365 管理中心，转到 **活动**  >  **用户添加**  >  **用户**。
 
 2. 输入用户名，例如"Main"作为名字，输入"接收"作为第二个名称。
 
@@ -92,7 +92,7 @@ ms.locfileid: "51117110"
 
 6. 将许可证分配给用户。 在同一页面上，点击展开 **产品许可证**。 打开"公用区域"电话，选择"国内呼叫计划"**或"****国内和国际呼叫计划"。** 
 
-    ![显示许可证分配的屏幕截图](media/set-up-common-area-phone-image2.png)
+    ![显示许可证分配的屏幕截图，其中突出显示了国内呼叫计划以及国内和国际计划选项](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > 如果使用 Microsoft 电话直接路由，则无需分配呼叫计划许可证。
@@ -113,7 +113,7 @@ ms.locfileid: "51117110"
 
 6. 点击 **保存**，你的用户将显示如下：
 
-   ![显示许可证分配的屏幕截图](media/set-up-common-area-phone-image3.png)
+   ![屏幕截图显示示例用户许可证分配](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > 用户只有在应用了许可证后电话系统显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。

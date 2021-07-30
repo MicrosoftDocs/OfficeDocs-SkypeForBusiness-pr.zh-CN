@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解会议中不同类型的呼叫和会议功能的可用Microsoft Teams 会议室。
-ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 03557d1e833241b36bb1bc5df3a5ef36ff2ca450
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117450"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646683"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 会议室许可更新
 
@@ -35,7 +35,7 @@ ms.locfileid: "51117450"
 
 Microsoft 为会议室设备（例如 Microsoft Teams 会议室、Microsoft Surface Hub 和协作栏）提供两个专用的 SKUS，用于为会议授权会议以及按设备进行呼叫 (例如 Microsoft Teams) 。
 
-||Microsoft Teams 会议室标准 |Microsoft Teams 会议室 高级版 |
+|&nbsp;|Microsoft Teams 会议室标准 |Microsoft Teams 会议室 高级版 |
 |:--- |:---: |:---: |
 |Skype for Business |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -64,7 +64,7 @@ Microsoft 为会议室设备（例如 Microsoft Teams 会议室、Microsoft Surf
 > [!NOTE]
 > [!注释] 要设置的会议室需为用户对象，并且要为其分配这些许可证。
 
-|  | 你拥有 Microsoft Teams 或 Skype for Business Online <br/> 需要购买以下产品：   |你拥有Skype for Business Server 2015/2019 (或混合) 。 <br/> 需要购买以下产品：|
+| &nbsp; | 你拥有 Microsoft Teams 或 Skype for Business Online <br/> 需要购买以下产品：   |你拥有Skype for Business Server 2015/2019 (或混合) 。 <br/> 需要购买以下产品：|
 |:-----|:-----|:-----|
 |加入计划的会议  | Microsoft Teams 会议室标准或高级版  |Skype for Business Server 标准 CAL  |
 |启动临时会议 | Microsoft Teams 会议室标准或高级版  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL|

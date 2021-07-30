@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读本主题，了解如何在本地Microsoft Teams 会议室Exchange Online Skype for Business Server部署服务。
-ms.openlocfilehash: 2f92f85ddf39c5e1a813492b3092eeeef9b77e4c
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 6684173df916b268b35061c735614188e1d58e40
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796676"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646243"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft Teams Rooms
 
@@ -37,7 +37,7 @@ ms.locfileid: "52796676"
 若要使用 Microsoft Teams 会议室 部署Exchange Online，请执行以下步骤。 确保你有合适的权限来运行相关 cmdlet。 
 
    > [!NOTE]
-   >  本部分[Windows PowerShell Azure Active Directory cmdlet](/powershell/azure/active-directory/overview?view=azureadps-1.0)的 Azure Active Directory 模块 (例如，Set-MsolUser) 已在为 Microsoft Teams 会议室 设备设置帐户中进行测试。 其他 cmdlet 可能正常工作，但是，它们尚未在此特定方案中进行测试。
+   >  本部分[Windows PowerShell Azure Active Directory cmdlet](/powershell/azure/active-directory/overview)的 Azure Active Directory 模块 (例如，Set-MsolUser) 已在为 Microsoft Teams 会议室 设备设置帐户中进行测试。 其他 cmdlet 可能正常工作，但是，它们尚未在此特定方案中进行测试。
 
 如果部署了 Active Directory 联合身份验证服务 (AD FS) ，则执行这些步骤之前，可能需要将用户帐户转换为托管用户，然后在完成这些步骤后将用户转换回联合用户。
   
@@ -84,14 +84,14 @@ ms.locfileid: "52796676"
     > 选择 **"密码永不过期**"是Skype for Business Server Microsoft Teams 会议室。 你的域规则可能禁止使用不过期的密码。 如果是这样，则需要为每个用户帐户创建Microsoft Teams 会议室异常。
   
 4. 单击“**完成**”创建帐户。
-5. 创建帐户后，运行目录同步。 这可以通过在 PowerShell 中使用 [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) 实现。 完成后，转到"用户"页，验证在之前步骤中创建的两个帐户已合并。
+5. 创建帐户后，运行目录同步。 这可以通过在 PowerShell 中使用 [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) 实现。 完成后，转到"用户"页，验证在之前步骤中创建的两个帐户已合并。
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>分配Microsoft 365或Office 365许可证
 
-1. 首先，连接到 Azure AD 以应用某些帐户设置。 你可以通过运行此 cmdlet 来进行连接。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory (MSOnline) 1.0。](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+1. 首先，连接到 Azure AD 以应用某些帐户设置。 你可以通过运行此 cmdlet 来进行连接。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory (MSOnline) 1.0。](/powershell/azure/active-directory/overview)
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0。](/powershell/azure/active-directory/overview?view=azureadps-2.0)
+   > [Azure Active Directory PowerShell 2.0。](/powershell/azure/active-directory/overview)
 
     ``` PowerShell
    Connect-MsolService -Credential $cred
@@ -122,17 +122,17 @@ ms.locfileid: "52796676"
 
 1. 从电脑Windows PowerShell远程会话，如下所示：
 
-> [!NOTE]
-> Skype for Business联机连接器当前是 PowerShell 模块Teams的一部分。
->
-> 如果使用的是[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams最新版本，则无需安装 Skype for Business Online 连接器。
+   > [!NOTE]
+   > Skype for Business Online 连接器目前是最新 Teams PowerShell 模块的一部分。
+   >
+   > 如果使用的是[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams最新版本，则无需安装 Skype for Business Online 连接器。
 
-    ``` Powershell
-    # When using Teams PowerShell Module
-    Import-Module MicrosoftTeams
-    $credential = Get-Credential
-    Connect-MicrosoftTeams -Credential $credential
-    ```
+   ``` Powershell
+   # When using Teams PowerShell Module
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
 
 2. 若要为Microsoft Teams 会议室帐户Skype for Business Server，请运行此命令：
 
@@ -151,7 +151,7 @@ ms.locfileid: "52796676"
 > [!NOTE]
 > 如果要将会议设置为Teams 会议室仅Microsoft Teams会议，则无需执行以下步骤。 只有在需要启用对应用程序的支持时，才需要Skype for Business。
 
-1. 以租户管理员登录，打开Microsoft 365管理中心，然后单击"管理"应用。
+1. 以租户管理员角色登录，打开Microsoft 365 管理中心，然后单击"管理"应用。
 2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。
 3. 单击Microsoft Teams 会议室帐户，然后单击笔图标以编辑帐户信息。
 4. 单击“**许可证**”。

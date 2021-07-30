@@ -17,12 +17,12 @@ description: 了解如何在 Teams 管理中心的"管理应用"页上管理Micr
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 6ea09ae40068277c5e450c19b6e258d04fd40fdc
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: e237fc1e511694b80cb9b98ca4e1f9c36f1eba25
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126908"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646463"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在管理中心内Microsoft Teams应用
 
@@ -51,7 +51,7 @@ ms.locfileid: "53126908"
 - **状态**：组织级别的应用状态，可以是下列其中一项：
 - **允许**：该应用可供你组织的所有用户使用。
 - **已** 阻止：应用被阻止，并且不适用于组织的任何用户。
-  - **阻止组织范围**：应用在组织范围内的应用设置中受阻。
+- **阻止组织范围**：应用在组织范围内的应用设置中受阻。
       必须知道，此列表示以前位于" **组织** 范围的设置"窗格中的应用的允许和阻止状态。 现在，您可以在"管理应用"页面上的组织范围内查看、阻止和 **允许应用** 。
 - **许可证**：指示应用是否提供软件即服务 (SaaS) 订阅进行购买。 此列仅适用于第三方应用。 每个第三方应用将具有以下值之一：
 - **现在购买**：该应用提供 SaaS 订阅，可供购买。  
@@ -63,6 +63,7 @@ ms.locfileid: "53126908"
 - **-**： 应用没有需要许可的权限。
 - **类别**：适用于应用的类别。
 - **版本**：应用版本。
+- **管理员可以在会议中安装**：指示管理员是否可以在团队会议中安装应用。 [了解详细信息](teams-app-setup-policies.md#install-apps)
 
 若要在表中查看信息，请选择右上角的"编辑列"，向表中添加或删除列。
 

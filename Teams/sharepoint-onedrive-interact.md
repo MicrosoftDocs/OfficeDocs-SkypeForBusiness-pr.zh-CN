@@ -18,19 +18,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 99667735c6e0e71532084f3aff6771df4408f892
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855951"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646203"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>如何SharePoint OneDrive交互Microsoft Teams
 
 > [!Tip]
 > 观看以下会话，了解 Teams 如何与 Azure Active Directory (AAD) 、Microsoft 365 组、Exchange、SharePoint 和 OneDrive 交互：Microsoft Teams [](https://aka.ms/teams-foundations)
 
-每个团队Microsoft Teams都有一个团队网站SharePoint，团队中的每个标准频道在默认团队网站文档库中都有一个文件夹。 每个[专用频道](private-channels.md)都有自己的独立SharePoint站点。
+每个团队Microsoft Teams都有一个团队网站SharePoint，团队中的每个标准频道在默认团队网站文档库中都有一个文件夹。 每个[专用频道](private-channels.md)都有自己的独立SharePoint站点。 若要了解有关这些团队网站和频道网站的信息，请参阅[管理Teams网站和频道网站](/sharepoint/teams-connected-sites)。
 
 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。 若要了解更改网站地址对SharePoint的影响，请阅读[更改网站地址](/sharepoint/change-site-address)。
 

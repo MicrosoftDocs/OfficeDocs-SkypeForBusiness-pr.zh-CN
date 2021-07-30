@@ -13,22 +13,21 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 最佳做法是验证 Teams 服务以及其他 Microsoft 365 或 Office 365 组件（例如 Exchange、SharePoint 和 OneDrive for Business）。
+description: 最佳做法是验证 Teams 服务是否正常，其他 Microsoft 365 或 Office 365 组件（例如 Exchange、SharePoint 和 OneDrive for Business）。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53184bbdc25cc96e667cd8c0ddff9eae5bfdfe8c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e2a3cfb82522a731d8902223e070a9f1c3dd1b95
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107508"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646023"
 ---
-<a name="verify-service-health-for-microsoft-teams"></a>验证 Microsoft Teams 的服务运行状况
-===========================================
+# <a name="verify-service-health-for-microsoft-teams"></a>验证 Microsoft Teams 的服务运行状况
 
-服务运行状况Microsoft Teams显示在 Microsoft 365 管理中心。 在对问题进行故障排除之前，建议验证 Teams 服务是否正常运行。 转到Teams<a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">运行状况</a>控制台查看服务运行状况。
+服务运行状况Microsoft Teams显示在服务Microsoft 365 管理中心。 在对问题进行故障排除之前，建议验证 Teams 服务是否正常运行。 转到Teams<a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">运行状况</a>控制台查看服务运行状况。
 
-此外，请记住，Microsoft Teams基于其他 Microsoft 365 或 Office 365 服务构建，因此在查看服务运行状况时，请记住还要检查 Exchange、SharePoint 和 OneDrive for Business 的状态。 这些其他服务的服务运行状况问题并不自动表示 Teams 受到影响（例如，Exchange 中的通讯簿下载不可用），但你应该查看针对这些受影响服务的建议，以确定是否影响 Microsoft Teams。
+此外，请记住，Microsoft Teams基于其他 Microsoft 365 或 Office 365 服务构建，因此在查看服务运行状况时，请记住还要检查 Exchange、SharePoint 和 OneDrive for Business 的状态。 这些其他服务的服务运行状况问题不会自动意味着 Teams 受到影响 (例如，Exchange 中的通讯簿下载不可用) ，但应查看有关这些受影响服务的公告，以确定对 Microsoft Teams 是否有影响。
 
 ![“服务运行状况”页面屏幕截图。](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 

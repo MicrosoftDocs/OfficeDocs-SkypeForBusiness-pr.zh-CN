@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 本文介绍部署新一代会议室系统Microsoft Teams 会议室相关的Skype注意事项。
-ms.openlocfilehash: fae50e076467efdfe69115d967f3d6564ba9266a
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: d07783e2e3df7b4a8c2563b39fb702369751d139
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726273"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646983"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>计划Microsoft Teams 会议室
 
@@ -56,7 +56,7 @@ Microsoft Teams 会议室包括以下关键组件，以提供出色的用户体�
 
 可以使用 Microsoft Teams 会议室 部署Microsoft Teams、Skype for Business Online 或 Skype for Business 混合或本地部署。  有关[Teams 会议室许可证的信息](rooms-licensing.md)，请参阅许可更新。
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![决定部署](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否将Microsoft Teams 会议室部署？ </li><li>如何购买你的Microsoft Teams 会议室-捆绑、作为独立组件或作为集成单元？</li></ul> |
 | ![标识活动](../media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>确定谁将在整个部署中执行关键活动。</li><li>查看已 (并计划设置) ，以了解要在何处部署 Microsoft Teams 会议室 以及适合会议室大小的外围设备。</li></ul> |
@@ -94,7 +94,7 @@ Microsoft Teams 会议室包括以下关键组件，以提供出色的用户体�
 
 作为发现的一部分，考虑房间音响效果和布局是关键。 例如，检查房间中的椅子是否不会阻止相机视图。 验证房间没有过多的回声或嘈杂的空调，并且该房间是否有足够的电源供屏幕和Microsoft Teams 会议室。 有许多因素需要考虑，你的音频视觉 (AV) 团队或合作伙伴能够提供建议。 
 
-|    |     |
+| &nbsp;   | &nbsp;    |
 |-----------|------------|
 | ![deplyment rooms](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>查看作用域中的聊天室，并Microsoft Teams 会议室其配置。</li></ul>|
 
@@ -115,7 +115,7 @@ _示例会议/会议室清单_
 
 **Pro提示**- 某些聊天室类型可能不适用于部署。
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![范围内房间](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>从清单中，哪些类型的会议室在部署范围内？</li><li>将针对每种聊天室类型部署哪些系统？</li></ul>|
 | ![收集材料](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始收集所选系统的关键操作材料，并吸引采购团队参与。</li></ul>|
@@ -139,7 +139,7 @@ _适用于Microsoft Teams 会议室的示例部署模板_
 
 根据部署规模和方式，可能决定将Microsoft Teams 会议室和支持的外围设备运送到中心位置进行初始配置和分配。 这可能是跨多个站点进行分步推广的一个好方法。 或者，您可以选择将捆绑包直接发运到网站。 
 
-|    |     |
+|   &nbsp; |  &nbsp;   |
 |-----------|------------|
 | ![发货组件](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否直接将组件运送到站点或过渡设施？</li><li>Who决定使用一个 (，请管理过渡) ？</li></ul>|
 | ![计划操作](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>规划操作。</li><li>规划采用和更改管理。</li></ul>|
@@ -152,7 +152,7 @@ _适用于Microsoft Teams 会议室的示例部署模板_
 
 请考虑将路由哪个支持人员队列Microsoft Teams 会议室Microsoft Teams 会议室</DICT__Microsoft⚐Teams⚐会议室>以及他们可以执行的主要故障排除步骤。 此常见问题解答的一个好起点[是用户帮助和](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)[已知问题](known-issues.md)。
 
-|    |     |
+|  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![选择管理器](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定谁将管理Microsoft Teams 会议室。</li><li>确定要路由与Microsoft Teams 会议室呼叫的支持人员队列。</li></ul>|
 | ![准备主机帐户](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>准备托管帐户。 </li></ul>|

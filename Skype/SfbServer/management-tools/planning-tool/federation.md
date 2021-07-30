@@ -1,5 +1,5 @@
 ---
-title: '联合 (规划工具) '
+title: 联合规划工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,14 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 可以将边缘服务器配置为允许内部和外部用户访问合作伙伴组织或服务中的联系人。
-ms.openlocfilehash: 0ca870518bc373a251f9db5a4255f8f55f1cf4b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0f7526a8cbe2822bbbf6350ced81ca16063cfb7
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095176"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646283"
 ---
-# <a name="federation-planning-tool"></a>联合 (规划工具) 
+# <a name="federation-planning-tool"></a>联合规划工具
  
 可以将边缘服务器配置为允许内部和外部用户访问合作伙伴组织或服务中的联系人。
   

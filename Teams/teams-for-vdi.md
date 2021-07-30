@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: b4ed46623d741d0bf370203a90a24e5bbaa0750f
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203621"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646523"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "53203621"
 
 虚拟桌面基础结构 (VDI) 是一种虚拟化技术，在数据中心的集中服务器上托管桌面操作系统和应用程序。 这使具有完全安全且合规的集中源的用户能够获得完全个性化的桌面体验。
 
-Microsoft Teams环境中进行聊天和协作。 此外，Windows虚拟桌面、Citrix 和 VMware 平台，也支持呼叫和会议功能。
+Microsoft Teams环境中进行聊天和协作。 此外，通过 Azure 虚拟桌面、Citrix 和 VMware 平台，也支持呼叫和会议功能。
 
 Teams环境中配置支持多个配置。 这些模式包括 VDI、专用、共享、持久性和非持久性模式。 功能持续开发，并定期添加，功能将在几个月和数年内扩展。
 
@@ -58,7 +58,7 @@ Teams环境中配置支持多个配置。 这些模式包括 VDI、专用、共�
 
 桌面Teams已使用领先的虚拟化解决方案提供商进行验证。 对于多个市场提供商，建议咨询虚拟化解决方案提供商，确保满足最低要求。
   
-目前，Teams虚拟桌面、Citrix 和 VMware (Windows VDI) VDI 上的音频/视频) 优化。 查看本部分的信息，确保满足正确功能的所有要求。
+目前，Teams Azure 虚拟桌面、Citrix 和 VMware (AV) 优化的 VDI 上测试。 查看本部分的信息，确保满足正确功能的所有要求。
 
 ### <a name="platforms-certified-for-teams"></a>经认证的平台Teams
 
@@ -66,13 +66,13 @@ Teams环境中配置支持多个配置。 这些模式包括 VDI、专用、共�
 
 |平台|解决方案|
 |----|---|
-|![表示 Microsoft 的徽标](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows虚拟桌面</a> |
+|![表示 Microsoft 的徽标](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure 虚拟桌面</a> |
 |![表示 Citrix 的徽标](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 虚拟应用和桌面</a> |
 |![表示 VMware 的徽标](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
-### <a name="windows-virtual-desktop"></a>Windows虚拟桌面
+### <a name="azure-virtual-desktop"></a>Azure 虚拟桌面
 
-Windows虚拟桌面为 VDI 上的Teams AV 优化。 若要了解更多内容以及要求和安装，请参阅[在虚拟Teams Windows应用](/azure/virtual-desktop/teams-on-wvd)。
+Azure 虚拟桌面为 VDI 上的Teams AV 优化。 若要了解更多内容以及要求和安装，请参阅在[Azure 虚拟Teams使用应用程序](/azure/virtual-desktop/teams-on-wvd)。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix 虚拟应用和桌面要求
 
@@ -467,10 +467,10 @@ if($cleanup){
 
 ### <a name="client-deployment-installation-and-setup"></a>客户端部署、安装和设置
 
-- 通过每台计算机安装，Teams VDI 上的配置不会以非 VDI 客户端Teams的方式自动更新。 必须安装新的 MSI 来更新 VM 映像，如在 VDI 上安装或Teams[桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)部分中所述。 必须卸载当前版本，以更新到较新版本。
+- 通过每台计算机安装，Teams VDI 上的配置不会以非 VDI 客户端Teams的方式自动更新。 必须安装新的 MSI 来更新 VM 映像，如在 VDI 上安装或Teams[桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)部分中所述。 必须卸载当前版本才能更新到较新版本。
 - 在 Citrix 环境中，如果用户在运行 Teams 时与虚拟机断开连接，Teams 更新可能会导致用户在重新连接时为 AV 保持未优化状态。 建议用户在从 Citrix 虚拟机Teams之前退出配置，以避免这种情况。
 - Teams用户或每台计算机部署资源。 不支持Teams每个用户和每台计算机的并发数进行部署。 若要从每台计算机或每个用户迁移到其中一种模式，请按照卸载过程操作并重新部署到任一模式。
-- Windows虚拟桌面目前不支持基于 macOS 和 Linux 的客户端。
+- Azure 虚拟桌面目前不支持基于 macOS 和 Linux 的客户端。
 
 ### <a name="calling-and-meetings"></a>呼叫和会议
 
@@ -524,4 +524,4 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 - [使用 MSI Microsoft Teams安装](msi-deployment.md)
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [在 Microsoft Teams 虚拟Windows上使用](/azure/virtual-desktop/teams-on-wvd)
+- [在 Azure Microsoft Teams桌面版](/azure/virtual-desktop/teams-on-wvd)

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfa593aaeabe8d7aab9446a1070134b267ea6ef4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4a4c9097c4111ecd7f224bb268f6d90434569c9a
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107608"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646393"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>安全与合规Microsoft Teams
 
@@ -67,11 +67,11 @@ Teams实施团队范围和组织范围的双因素身份验证、通过 Active D
 
 ### <a name="safe-links"></a>保险箱链接
 
-虽然目前，高级威胁防护 (ATP) 安全链接在 Microsoft Teams 中不可用，但现在通过技术采用计划 (TAP [](/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide)) 提供公共预览版，虽然尚未设置公开发布的发布日期，但我们将在该时间到来时更新本文。 同时，有关链接或Microsoft 365 Office 365 保险箱的信息，请查看[ATP 保险箱链接。](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) ATP 保险箱 1 和[ATP 计划 2](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)中均提供 ATP 链接。
+虽然目前，高级威胁防护 (ATP) 安全链接在 Microsoft Teams 中不可用，但现在通过技术采用计划 (TAP [](/microsoft-365/security/office-365-security/atp-safe-links-for-teams)) 提供公共预览版，虽然尚未设置公开发布的发布日期，但我们将在该时间到来时更新本文。 同时，有关链接或Microsoft 365 Office 365 保险箱的信息，请查看[ATP 保险箱链接。](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) ATP 保险箱 1 和[ATP 计划 2](/microsoft-365/security/office-365-security/office-365-atp)中均提供 ATP 链接。
 
 ### <a name="safe-attachments"></a>保险箱附件
 
-保险箱附件是一项功能，旨在通过检查和检测恶意附件来增强用户安全性。 全局管理员或安全管理员会创建[](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide)策略来处理这些可疑的恶意附件，以防止它们发送给用户、单击这些附件并采取行动。 保险箱附件保护适用于 SharePoint、OneDrive 和 Microsoft Teams，Microsoft 365 或 Office 365 高级威胁防护计划 1 和[2](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)具有此功能。 在 Microsoft Defender for 保险箱 的"附件"中阅读有关附件保险箱帮助保护组织[Office 365。](/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
+保险箱附件是一项功能，旨在通过检查和检测恶意附件来增强用户安全性。 全局管理员或安全管理员会创建[](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies)策略来处理这些可疑的恶意附件，以防止它们发送给用户、单击这些附件并采取行动。 保险箱附件保护适用于 SharePoint、OneDrive 和 Microsoft Teams，Microsoft 365 或 Office 365 高级威胁防护计划 1 和[2](/microsoft-365/security/office-365-security/office-365-atp)具有此功能。 在 Microsoft Defender for 保险箱 的"附件"中阅读有关附件保险箱帮助保护组织[Office 365。](/microsoft-365/security/office-365-security/atp-safe-attachments)
 
 ### <a name="secure-score"></a>安全评分
 
@@ -95,7 +95,7 @@ Microsoft Teams桌面应用程序支持 AppLocker。  有关 AppLocker 先决条
 
 ## <a name="compliance"></a>合规性
 
-Teams 提供广泛的信息来帮助你处理合规性领域，包括通道、聊天和附件的通信符合性、保留策略、数据丢失防护 (DLP) 、针对通道、聊天和文件的电子数据展示和法定保留、审核日志 搜索以及使用 Microsoft Intune 的移动应用程序管理。 我们在下面提供了所有这些主题的一些信息，你可以转到Microsoft 365[中心](https://compliance.microsoft.com)来管理这些设置。
+Teams 提供广泛的信息来帮助你处理合规性领域，包括通道、聊天和附件的通信符合性、保留策略、数据丢失防护 (DLP) 、针对通道、聊天和文件的电子数据展示和法定保留、审核日志 搜索以及使用 Microsoft Intune 的移动应用程序管理。 我们在下面提供了所有这些主题的一些信息，你可以转到Microsoft 365 合规中心管理这些设置。 [](https://compliance.microsoft.com)
 
 ### <a name="information-barriers"></a>信息屏障
 
@@ -135,7 +135,7 @@ Microsoft Teams 中的数据丢失防护 (DLP) ，以及适用于 Microsoft 365 
 
 客户可以按要求利用电子数据展示[Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery)功能。 下表概括列出了这两者之间的差异：
 
-| |电子数据展示  |高级电子数据展示  |
+|&nbsp; |电子数据展示  |高级电子数据展示  |
 |---------|---------|---------|
 |案例管理     |X        |X         |
 |访问控制  |X         |X         |
@@ -155,11 +155,11 @@ Microsoft Teams 中的数据丢失防护 (DLP) ，以及适用于 Microsoft 365 
 
 在任一情况下，设置保留后，它可确保即使最终用户删除或编辑组邮箱中的频道邮件，该内容的不可变副本也通过电子数据展示搜索进行维护和提供。 法定保留通常应用于电子数据展示案例的上下文中。
 
-请参阅[保留策略概述](/microsoft-365/compliance/retention-policies)，详细了解保留和保留Microsoft 365中心。 有关Teams保留的更多特定信息，我们还有一个Microsoft Teams保留用户或[](legal-hold.md)团队，供你了解详细信息。
+请参阅[保留策略概述](/microsoft-365/compliance/retention-policies)，详细了解保留和保留Microsoft 365 合规中心。 有关Teams保留的更多特定信息，我们还有一个Microsoft Teams保留用户或[](legal-hold.md)团队，供你了解详细信息。
 
 ### <a name="compliance-content-search"></a>合规性内容搜索
 
-内容搜索可用于通过丰富的筛选Teams搜索所有数据。 生成的数据可以导出到特定容器，以用于合规性和诉讼支持。 在有无电子数据展示案例的情况下，均可执行此操作。 这样，合规性管理员Teams所有用户收集数据，查看并导出这些数据进行进一步处理。 请参阅内容[搜索](/microsoft-365/compliance/content-search)，详细了解如何针对 Microsoft Teams 和其他 Microsoft 365 或 Office 365 内容执行合规性Microsoft 365搜索。
+内容搜索可用于通过丰富的筛选Teams搜索所有数据。 生成的数据可以导出到特定容器，以用于合规性和诉讼支持。 在有无电子数据展示案例的情况下，均可执行此操作。 这样，合规性管理员Teams所有用户收集数据，查看并导出这些数据进行进一步处理。 请参阅内容[搜索](/microsoft-365/compliance/content-search)，详细了解如何针对 Microsoft Teams 和其他Microsoft 365或Office 365内容执行合规性Microsoft 365 合规中心。
 
 > [!TIP]
 > 使用内容搜索，可向下筛选Microsoft Teams内容，例如聊天和频道消息、会议和呼叫（如有必要）。
@@ -168,7 +168,7 @@ Microsoft Teams 中的数据丢失防护 (DLP) ，以及适用于 Microsoft 365 
 
 ### <a name="auditing-and-reporting"></a>审核和报告
 
-审核日志搜索直接插入到 Microsoft 365 合规中心，通过允许导出工作负荷特定或通用事件集，以便管理员在无限制的审核时间线上使用和调查，从而设置警报以及报告审核事件。 可以在合规中心内设置所有审核日志Microsoft 365警报，并筛选和导出此数据进行进一步分析。 请参阅搜索[审核日志，](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)详细了解如何针对用户或用户执行审核Microsoft 365 Office 365。 若要详细了解如何搜索 Microsoft Teams 合规性中心Microsoft 365事件，我们还将打开审核[Teams供你](audit-log-events.md)查看。
+审核日志搜索直接插入到 Microsoft 365 合规中心 并让你能够设置警报以及报告审核事件，从而允许导出工作负荷特定或通用事件集，以便管理员在无限制的审核时间线中使用和调查。 可以针对日志内的所有审核日志数据设置Microsoft 365 合规中心，并筛选和导出此数据进行进一步分析。 请参阅搜索[审核日志，](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)详细了解如何针对用户或用户执行审核Microsoft 365 Office 365。 若要详细了解如何搜索 Microsoft Teams 事件，Microsoft 365 合规中心"启用审核"Teams[供你](audit-log-events.md)查看。
 
 ## <a name="customer-key"></a>客户密钥
 
@@ -179,8 +179,8 @@ Microsoft 365为内容提供基于服务加密的附加加密层。 使用提供
 - Teams媒体消息 (图像、代码片段、视频和 Wiki 图像) 
 - Teams存储中存储的呼叫和Teams录制
 - Teams聊天通知
-- Teams Cortana 提供聊天建议
-- Teams状态消息 有关详细信息，请参阅租户级别的[Microsoft 365](/microsoft-365/compliance/customer-key-tenant-level)客户密钥概述，并阅读 Microsoft Teams 博客，其中介绍了客户密钥对[Microsoft Teams 的支持，](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)现在处于公共预览状态。 有关在租户级别包含客户密钥的 Microsoft 信息保护版本的信息，请阅读宣布推出新的 Microsoft 信息保护功能，了解 [和保护敏感数据](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)。
+- Teams聊天建议Cortana
+- Teams状态消息 有关详细信息，请参阅租户级别的[Microsoft 365](/microsoft-365/compliance/customer-key-tenant-level)客户密钥概述，并阅读 Microsoft Teams 博客，其中介绍了客户密钥对[Microsoft Teams 的支持，](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)现在处于公共预览状态。 有关租户Microsoft 信息保护包含客户密钥的订阅版本的信息，请阅读宣布推出新的Microsoft 信息保护功能，了解和保护[敏感数据](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)。
 
 ## <a name="privacy"></a>隐私
 
@@ -218,7 +218,7 @@ Microsoft 365为内容提供基于服务加密的附加加密层。 使用提供
 
 Teams 中的数据位于与 Microsoft 365 或 Office 365 组织关联的地理区域中。 若要了解当前支持的区域，请查看数据在 Microsoft Teams[中的位置](location-of-data-in-teams.md)。
 
-如果需要查看哪个区域存储租户的数据，请转到管理中心Microsoft 365"设置 [](https://portal.office.com/adminportal/home)  >    >  **配置文件"。** 向下滚动到 **数据位置**。
+如果需要查看哪个区域存储租户的数据，请转到"Microsoft 365 管理中心设置 [](https://portal.office.com/adminportal/home)  >    >  **配置文件 。** 向下滚动到 **数据位置**。
 
 > [!div class="mx-imgBorder"]
 > !["数据位置"表的屏幕截图，Teams管理中心内的数据位置](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何在 Microsoft 365 商务语音 中为小型企业设置呼叫Microsoft 365 商务语音。
-ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: 0e0f6dde164f270987d4b01c6bc3528f8799a662
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126918"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646483"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>创建呼叫队列 - 小型企业教程
 
@@ -87,7 +87,9 @@ ms.locfileid: "53126918"
 
 1. 在Teams中，找到刚创建的团队，单击"更多选项" (...) ，然后单击"添加 **频道"。**
 
-2. 键入频道的名称和说明，然后单击"添加 **"。**
+2. 键入频道的名称和说明。
+
+3. 在 **"隐私**"**下，选择"标准 - 可供团队中所有人访问"，** 然后单击"添加 **"。**
 
 > [!div class="nextstepaction"]
 > [步骤 2 - 资源帐户>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
@@ -122,7 +124,7 @@ ms.locfileid: "53126918"
 
 2. 在"**许可证和应用"选项卡上的**"许可证 **"下**，选择 **"Microsoft 365 电话系统 - 虚拟用户"。**
 
-3. 单击"**保存更改"。**
+3. 单击 **保存更改**。
 
     !["许可证分配"用户界面的屏幕截图Microsoft 365 管理中心](../media/resource-account-assign-virtual-user-license.png)
 

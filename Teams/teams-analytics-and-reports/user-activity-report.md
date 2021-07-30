@@ -17,12 +17,12 @@ description: 了解如何使用 Teams 管理中心中的Microsoft Teams活动报
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 071b5eaa37cd2b6a5d353b2f0309a338d28ce971
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 13d2d261358fc5c373304c46b48684d1f116fc06
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669234"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646053"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 用户活动报告
 
@@ -42,7 +42,7 @@ ms.locfileid: "52669234"
 
 ## <a name="interpret-the-report"></a>解释报告
 
-|标注 |说明  |
+| 标注 |说明  |
 |--------|-------------|
 |**1**   |可以查看Teams用户活动报告，了解过去 7 天、30 天或 90 天的趋势。 |
 |**2**   |每个报表包含此报表的生成日期。 报告通常反映活动时间 24 小时的延迟。 |
@@ -60,9 +60,9 @@ ms.locfileid: "52669234"
 
 若要使用户活动Teams数据匿名，你必须是全局管理员。 这会隐藏报告中的可识别信息，显示名称、电子邮件和 AAD ID 及其导出。
 
-1. 在Microsoft 365管理中心，转到"设置 Org设置"，在"服务" \> **选项卡** 下，选择"报表 **"。**
+1. 在Microsoft 365 管理中心中，转到 **"设置** \> **Org 设置"，** 在"服务 **"** 选项卡下，选择"报表 **"。**
     
-2. 选择 **"报告**"，然后选择"**显示匿名标识符"。** 此设置同时应用于管理中心和Microsoft 365中的使用情况Teams报表。
+2. 选择 **"报告**"，然后选择"**显示匿名标识符"。** 此设置同时应用于管理中心Microsoft 365 管理中心Teams使用情况报告。
   
 3. 选择"**保存更改"。**
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理呼叫队列历史数据。
-ms.openlocfilehash: cfd72d0397407205aef729188c630e99148f154c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd6214871a471341ed2d3836e72c5f729e3f6a9f
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111508"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660690"
 ---
 # <a name="what-are-the-requirements"></a>要求是什么？ 
 需要安装Power BI Desktop。 可以从 Microsoft store [Windows安装它](https://aka.ms/pbidesktopstore)。
@@ -98,7 +98,7 @@ ms.locfileid: "51111508"
 |自动助理链开始时间         |datetime                 |AA 链开始时间                    |
 |自动助理目录搜索方法  |string                   |最后一个通讯簿搜索方法        |
 |自动助理传输操作          |string                   |呼叫转接目标类型<br>可能的值：<br>§ unknown - 未指定实体类型<br>§ user - 用户实体<br>§ orgaa - 自动助理实体<br>§ hunt_group - 调用队列实体<br>§ 应用程序 - 语音应用程序实体<br>§ external_pstn - 外部 PSTN 实体<br>§ shared_voicemail - 共享语音邮件实体|
-|自动助理通话结果              |string                   |调用结果：<br>§ 未知<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|自动助理通话结果              |string                   |调用结果：<br>§ 未知 - 调用设置或传输失败，服务未收到任何有意义的失败原因 <br>§ transferred_to_user - 通过"按名字/分机拨叫"或配置的"菜单选项"将呼叫转接到用户 <br>§ transferred_to_operator - 呼叫已转接到配置的操作员，例如，如果为 AA 配置了接线员数小时 <br>§ failover_to_operator - 传输失败或名称识别在三次尝试后不起作用时回退到运算符<br>§ user_terminated - 调用方已终止呼叫 <br>§ service_declined - 按服务拒绝的调用，如果服务无法提取自动助理配置，则可能会发生这种情况 <br>§ service_terminated - 后端服务终止了调用，如果目标传输失败且未将任何运算符配置为回退， <br>§ failed_to_establish_media - 调用方和服务之间的媒体建立失败 <br>§ terminated_no_operator - 名称识别在三次尝试后失败，并且未配置运算符 <br>§ terminated_transfer_failed - 转移到目标失败且未配置运算符 <br>§ terminated_automatic_selection - 如果未在几个小时内或之后配置任何操作，则调用将默认终止 <br>§ transferred_to_shared_voicemail - 将呼叫转接到共享语音邮件（如果已配置为目标） <br>§ oaa_chain_too_long - 当自动助理连续超过五个自动助理时，呼叫将终止以避免可能的呼叫循环 <br>§ oaa_session_too_long - 调用超出了允许的最大会话长度并且已退出 |
 |自动助理呼叫Flow                |string                   |封装调用的不同自动助理状态<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 公告|
 |是否自动助理涉及              |Boolean                  |指示 AA 是否参与呼叫 |
 |自动助理调用方操作计数      |int                      |调用方使用的操作计数         |

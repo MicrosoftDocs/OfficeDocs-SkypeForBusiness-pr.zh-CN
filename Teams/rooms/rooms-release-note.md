@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读有关更新的Microsoft Teams 会议室说明，其中列出了 Microsoft Teams 会议室。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796846"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646873"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>适用于 Microsoft Teams 会议室 的发行说明
 
@@ -29,6 +29,7 @@ ms.locfileid: "52796846"
 
 |发布 |发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
@@ -74,6 +75,15 @@ ms.locfileid: "52796846"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 会议室功能简介和问题解决
 
+### <a name="49120-7282021"></a>2021/7/28 (4.9.12.0) 
+
+此更新中引入：
+- Microsoft Teams模式现在在应用程序设置中可用，因此无需再设置Skype for Business帐户。 在此模式下，登录到仅Teams模式的设备Skype for Business作为来宾用户加入会议。
+- 修复了 HDMI 音频导致呼叫音量降低的问题。 对于应用程序版本 4.9.12.0 的所有设备，会自动启用 HDMI 音频功能。
+
+> [!NOTE]
+> 当Skype for Business生命周期结束时，建议更新为仅Teams模式。
+
 ### <a name="48310-05122021"></a>2021/05/12 (4.8.31.0) 
 
 此更新中引入：
@@ -110,12 +120,12 @@ ms.locfileid: "52796846"
 此更新中引入：
 
 - 在会议与会议参与者Teams HDMI 音频
-- Cortana 语音技能 (预览版) 
+- Cortana语音技能 (预览版) 
 - 当聊天室作为与会者加入时，Teams基于音频权限取消静音。 有关详细信息，请参阅[管理会议中的与会者Teams权限](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。
 - 从会议室控制台聚焦某人Teams，在会议室显示器上使用聚焦视频
 
 > [!NOTE]
-> Cortana 语音技能适用于位于美国的租户的精选音频外围设备。 将来会添加其他国家和地区。 有关详细信息，请参阅[Cortana 语音帮助Teams](../cortana-in-teams.md)
+> Cortana语音技能适用于位于美国的租户的精选音频外围设备。 将来会添加其他国家和地区。 有关详细信息，请参阅Cortana[语音帮助Teams](../cortana-in-teams.md)
 
 ### <a name="46230-10192020"></a>2020/10/19 (4.6.23.0) 
 
@@ -195,7 +205,7 @@ ms.locfileid: "52796846"
 
 - 修复了某些配置中出现的窗口大小调整/闪烁问题
 - 删除了第三方会议的日历处理
-- Cortana 状态设置已删除
+- Cortana状态设置已删除
 
 ### <a name="43230-12132019"></a>2019/12/13 (4.3.23.0) 
 
@@ -303,7 +313,7 @@ ms.locfileid: "52796846"
 
 - "报告问题"功能改进Teams模式 ("提供反馈"等效于Skype for Business模式) 
 - 支持从 SIP 呼叫Teams Skype for Business到呼叫模式
-- 辅助功能改进 (讲述人放大镜) 
+- "讲述人 (放大镜"选项的辅助功能) 
 - 应用 XML 预配更改后，如果需要，自动重启应用
 - 其他修补程序
 

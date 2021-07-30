@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d0f31c8841a5a357034cc083f1a62d0d6704805
-ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
+ms.openlocfilehash: 368cb8b0c2d34e985d10adf11a405fb0603f1aff
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53428208"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646413"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana语音帮助Teams
 
@@ -89,6 +89,8 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 - 在Cortana显示设备Microsoft Teams说"Microsoft Teams"。
 
 通过使用设备中的Cortana Teams，可以控制设备是否已启用设备内设置。
+
+![显示启用移动窗口时移动窗口Cortana](media/cortana-mobile-sequence.png)
 
 ### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams 会议室上Windows
 

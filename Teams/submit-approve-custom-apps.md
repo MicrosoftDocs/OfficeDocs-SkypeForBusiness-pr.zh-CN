@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何批准使用 Microsoft Teams 中的应用提交 API Teams提交的自定义Microsoft Teams。
-ms.openlocfilehash: e544fdc12e17fc8917a2d3b9ce01dfc5985261de
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: 19d0378376e1abbc57d4a992a37c5c0286b9b29f
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337789"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646623"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>发布通过应用提交 API Teams提交的自定义应用
 
@@ -50,9 +50,9 @@ ms.locfileid: "52337789"
 
 ### <a name="submit-the-app"></a>提交应用
 
-当应用准备好在生产环境中使用时，开发人员可以使用 Teams 应用提交 API 提交应用，该应用可以从<a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">Graph API、</a>集成开发环境 (IDE) （如 Visual Studio Code）或平台（如 Power Apps 和 Power Virtual Agents）调用。 这样，应用就可以在 Microsoft Teams<a href="/microsoftteams/manage-apps" target="_blank"></a>管理中心的"管理应用"页面上使用，你（管理员）可以在其中查看和批准它。
+当应用准备好在生产环境中使用时，开发人员可以使用 Teams 应用提交 API 提交应用，该应用可以从[Graph API、](/graph/api/teamsapp-publish)集成开发环境 (IDE) （如 Visual Studio Code）或平台（如 Power Apps 和 Power Virtual Agents）调用。 这样，应用就可以在 Microsoft Teams<a href="/microsoftteams/manage-apps" target="_blank"></a>管理中心的"管理应用"页面上使用，你（管理员）可以在其中查看和批准它。
 
-基于<a href="/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph</a>的 Teams 应用提交 API 允许组织在自己选择的平台上进行开发，并自动完成 Teams 上的自定义应用的提交审批过程。
+基于<a href="/graph/api/teamsapp-publish" target="_blank">Microsoft Graph</a>的 Teams 应用提交 API 允许组织在自己选择的平台上进行开发，并自动完成 Teams 上的自定义应用的提交审批过程。
 
 下面是此应用提交步骤在应用中的外观Visual Studio Code：
 
@@ -60,7 +60,7 @@ ms.locfileid: "52337789"
 
 请记住，这不会将应用发布到组织的应用商店。 此步骤将应用提交到Microsoft Teams管理中心，可以在其中批准该应用发布到组织的应用商店。
 
-有关使用 Graph API 提交应用的信息，请参阅<a href="/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&quot; target=&quot;_blank&quot;>此处</a>。
+有关使用 Graph API 提交应用的信息，请参阅<a href="/graph/api/teamsapp-publish&quot; target=&quot;_blank&quot;>此处</a>。
 
 ## <a name=&quot;validate&quot;></a>验证
 
@@ -74,7 +74,7 @@ ms.locfileid: "52337789"
 
 ![已提交应用的应用详细信息页面](media/custom-app-lifecycle-app-details.png)
 
-有关使用 Graph API 检查发布 **状态的信息**，请参阅 <a href="/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">此处</a>。
+有关使用 Graph API 检查发布 **状态的信息**，请参阅 <a href="/graph/api/appcatalogs-list-teamsapps" target="_blank">此处</a>。
 
 ## <a name="publish"></a>发布
 
@@ -132,7 +132,7 @@ ms.locfileid: "52337789"
 - 应用获得批准后，任何用户都可以向应用提交更新。 这意味着其他开发人员（包括最初提交该应用的开发人员）可以提交应用更新。
 - 当开发人员提交应用并且请求挂起时，只有该开发人员才能向应用提交更新。 其他开发人员只能在应用获得批准后提交更新。
 
-有关使用 Graph API 更新应用的信息，请参阅<a href="/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">此处</a>。
+有关使用 Graph API 更新应用的信息，请参阅<a href="/graph/api/teamsapp-update">此处</a>。
 
 ## <a name="related-topics"></a>相关主题
 
@@ -141,4 +141,4 @@ ms.locfileid: "52337789"
 - [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)
 - [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
 - [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">适用于 Graph 应用的 Microsoft Teams API</a>
+- <a href="/graph/api/resources/teamsapp" target="_blank">适用于 Graph 应用的 Microsoft Teams API</a>

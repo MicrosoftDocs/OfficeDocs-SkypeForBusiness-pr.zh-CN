@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，该队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 17e6113b19a09500fba1050b7f8f33efd110ef44
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 2b07275b75fdb9e915fad026e8ef1c96dcb3ec89
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506371"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646763"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -105,7 +105,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 可以通过一个客户端通道添加多达 200 Teams代理。
 
-如果要使用 [频道管理Teams，](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)请选择"**选择团队"选项，** 然后单击"**添加频道"。** 搜索想要使用的团队，将其选中，然后单击"添加 **"。** 选择想要使用的频道，然后单击"应用 **"。** 您必须是团队的成员、频道的创建者或所有者。
+如果要使用 [频道管理Teams，](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)请选择"**选择团队"选项，** 然后单击"**添加频道"。** 搜索想要使用的团队，将其选中，然后单击"添加 **"。** 选择想要使用的频道， (仅支持标准) 然后单击"应用 **"。** 您必须是团队的成员、频道的创建者或所有者。
 
 使用呼叫队列的 Teams支持以下客户端： 
 

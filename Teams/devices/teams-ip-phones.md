@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: b531f6bb3a6a097f1480b3bcbfc938cdf20a8ec4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 467192fbf3635d7ef478b246e9376dfbc3d16829
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510343"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646223"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams认证的设备
 
@@ -129,8 +129,8 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 | 设备模型        | 固件版本     | 包含的产品发布  |
 |:--------------------|:---------------------|:-------------------------|
-| Poly Trio C60   | 7.0.3.0342  | 2021 更新#2                        |
-| Poly CCX400/CCX500/CCX600   | 7.0.3.0347 | 2021 更新#2                     |
+| Poly Trio C60   | 7.0.3.0517  | 2021 更新#2                        |
+| Poly CCX400/CCX500/CCX600   | 7.0.3.0515 | 2021 更新#2                     |
 | 音频代码 C448HD/C450HD/C470HD   | 1.10.143  | 2021 更新#2           |
 | Yealink T55/T56/T58   | 58.15.0.131  | 2021 更新#2                       |
 | Yealink VP59   | 91.15.0.63  | 2021 更新#2                               |
@@ -183,7 +183,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 | 设备模型  | 固件版本 | 包含的产品发布 |
 |:--------------|:-----------------|:-------------------------|
-| AudioCodes RXV80 |1.13.356   | 2021 更新#2 |
+| AudioCodes RXV80 |1.13.361   | 2021 更新#2 |
 | Yealink VC210 |118.15.0.54   | 2021 更新#2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | 2021 更新#2    |
 | Yealink MeetingBar A30 | 133.15.0.60    | 2021 更新#2    |

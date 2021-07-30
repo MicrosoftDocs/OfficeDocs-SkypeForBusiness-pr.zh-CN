@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae3efe06e36c653069c06127c98f228fb25cac37
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6daa5391e90c1931e7de1e3008c41782b0b22976
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831202"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646823"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
@@ -39,7 +39,7 @@ ms.locfileid: "49831202"
 若要详细了解团队和频道，请参阅团队和频道概述[Microsoft Teams。](teams-channels-overview.md) 有关全面Teams采用指南，请获取Teams[采用指南。](https://aka.ms/teamstoolkit) 若要了解有关组Teams Microsoft 365，请参阅Microsoft 365[组](office-365-groups.md)Microsoft Teams和了解有关组[Microsoft 365。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
-|  |  |
+| &nbsp; |&nbsp;  |
 |---------|---------|
 | 观看此简短视频   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 

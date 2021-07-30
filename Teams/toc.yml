@@ -1471,6 +1471,8 @@ items:
                 href: class-insights.md
               - name: 使用见解同步 SIS 数据
                 href: education-insights-sis-data-sync.md
+              - name: 管理对 Insights 的用户访问
+                href: education-insights-manage-access.md
               - name: 开始使用 Reflect
                 href: reflect.md
           - name: Teams 教育版中的分配
@@ -1865,4 +1867,4 @@ items:
       - name: 升级发现调查表
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 管理员功能的发行说明
-        href: release-notes/release-notes.md
+        href: /OfficeUpdates/teams-admin

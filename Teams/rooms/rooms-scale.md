@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 2348d0f3e9d94aed80494155fbaab8288ddd97a6
-ms.sourcegitcommit: 95386369e2256ba382b4d6e34adb7473de050b26
+ms.openlocfilehash: 1dabc8e4b3f2e238945bf68fdbad73cebebd7fd5
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51410108"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646673"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Teams 会议室 部署Microsoft Endpoint Configuration Manager
 
@@ -709,8 +709,7 @@ Microsoft Teams 会议室和 Surface Pro 都Surface Pro 4。 需要为环境中�
 
 12. 选择"**关闭"。**
 
-<a name="validate-and-troubleshoot-the-solution"></a>验证和排查解决方案问题
---------------------------------------
+**验证和排查解决方案问题**
 
 完成任务序列Microsoft Endpoint Configuration Manager，需要执行测试运行来验证任务序列是否可部署和配置Microsoft Teams 会议室单位。
 

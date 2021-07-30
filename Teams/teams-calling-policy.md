@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 061573176da10c48dc5cbee72a49f22eb4994c09
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53596628"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53661912"
 ---
 #  <a name="calling-and-call-forwarding-in-teams"></a>在 Teams 中调用和呼叫Teams
 
@@ -79,11 +79,11 @@ ms.locfileid: "53596628"
 - **已禁用**  语音邮件不可用于入站呼叫。
 - **用户控制** 用户可以确定是否希望语音邮件可用。
 
-### <a name="inbound-calls-can-be-routed-to-call-groups"></a>入站呼叫可以路由到呼叫组 
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>入站呼叫可以路由到呼叫组
 
 此设置控制是否可以将传入呼叫转发到呼叫组。
 
-### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>允许委派入站和出站呼叫
+### <a name="delegation-for-inbound-and-outbound-calls"></a>入站和出站呼叫的委派
 
 此设置允许将入站呼叫路由到代理人，允许代理人代表其具有委派权限的用户进行出站呼叫。 有关详细信息，请参阅 [与代理人共享电话线](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)。
 
@@ -91,19 +91,23 @@ ms.locfileid: "53596628"
 
 将此设置 **设置为"开** "会通过 PSTN 发送呼叫并产生费用，而不是通过网络发送呼叫和绕过收费。
 
-### <a name="busy-on-busy-is-available-while-in-a-call"></a>呼叫时"忙碌"可用
+### <a name="busy-on-busy-is-available-when-in-a-call"></a>在通话中忙碌时可用
 
-"忙碌" (") "选项"是一个新设置，用于配置在用户已处于呼叫或会议状态或呼叫处于保持状态时如何处理传入呼叫。 新的或传入的呼叫可能会被拒绝并发出繁忙信号，也可以相应地根据用户的未答设置进行路由。 可以在租户级别或用户级别启用繁忙选项。 无论如何配置其忙碌选项，呼叫或会议中的用户或呼叫保持的用户不会阻止发起新的呼叫或会议。 此设置在默认情况下处于禁用状态。
+"忙碌" (") "选项"中，您可以配置在用户已进入呼叫或会议或者呼叫处于保持状态时如何处理传入呼叫。 新的或传入的呼叫可能会被拒绝并发出繁忙信号，也可以相应地根据用户的未答设置进行路由。 可以在租户级别或用户级别启用繁忙选项。 无论如何配置其忙碌选项，呼叫或会议中的用户或呼叫保持的用户不会阻止发起新的呼叫或会议。 此设置在默认情况下处于禁用状态。
 
-### <a name="allow-web-pstn-calling"></a>允许 Web PSTN 呼叫
+### <a name="web-pstn-calling"></a>Web PSTN 呼叫
 
 此设置允许用户使用客户端客户端呼叫 PSTN Teams PSTN 号码。
+
+### <a name="incoming-meeting-invites-are-automatically-answered"></a>自动应答传入会议邀请
+
+此设置控制是否自动应答传入会议邀请。 默认情况下处于禁用状态。 请记住，此设置仅适用于传入的会议邀请。 它不适用于其他类型的调用。
 
 ### <a name="allow-music-on-hold"></a>允许保留音乐
 
 此设置允许你在 PSTN 呼叫者处于保持状态时打开或关闭保持音乐。 默认情况下，它已打开。 此设置不适用于呼叫公园和老板代理人功能，目前仅通过 PowerShell 提供。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 

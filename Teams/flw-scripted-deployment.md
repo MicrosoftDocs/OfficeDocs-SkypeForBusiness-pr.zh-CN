@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 384c7d98dbbae5fa1c471130f8699c9c570c79ac
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 452fd19bdd89ced22a3e233fc851c52395e48e9b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536818"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646473"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何为一线工作人员大规模预配 Teams
 
@@ -211,7 +211,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>创建一线管理人员应用设置策略
 
-可以自定义以下设置以满足你的业务需求。 我们已根据最佳实践选择了一些推荐的选项，并提高了大规模加入新用户的轻松度。 有关详细信息，请单击[此处](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)。
+可以自定义以下设置以满足你的业务需求。 我们已根据最佳实践选择了一些推荐的选项，并提高了大规模加入新用户的轻松度。 有关详细信息，请单击[此处](teams-app-setup-policies.md)。
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **设置策略**”。
 2. 单击“ **添加**”。  
@@ -238,7 +238,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>创建一线工作人员应用设置策略
 
-可以自定义以下设置以满足你的业务需求。 我们已根据最佳实践选择了一些推荐的选项，并提高了大规模加入新用户的轻松度。 有关详细信息，请单击[此处](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)。
+可以自定义以下设置以满足你的业务需求。 我们已根据最佳实践选择了一些推荐的选项，并提高了大规模加入新用户的轻松度。 有关详细信息，请单击[此处](teams-app-setup-policies.md)。
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **设置策略**”。
 2. 单击“ **添加**”。
