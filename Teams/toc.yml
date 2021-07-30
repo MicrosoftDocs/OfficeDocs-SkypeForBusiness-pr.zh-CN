@@ -217,8 +217,6 @@ items:
                 href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
               - name: 将用户从本地移至团队
                 href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
-              - name: 将用户从本地迁移至 Skype for Business Online
-                href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
               - name: 将用户从云移动到本地
                 href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
               - name: 管理会议迁移
