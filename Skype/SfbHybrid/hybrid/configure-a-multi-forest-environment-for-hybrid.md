@@ -17,20 +17,20 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 以下各节提供有关如何在资源/用户林模型中配置具有多个林的环境的指导，以Skype for Business混合方案中的林功能。
-ms.openlocfilehash: 38e41a2ae845120bbdc49419d47b264f69c0a5fe
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: 以下各节描述如何配置资源/用户林模型中具有多个林的环境，以在混合方案中提供功能。
+ms.openlocfilehash: 84014d7564265de5c2fb87ef91deb0ba291ccff0
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510693"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660720"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>部署资源林拓扑
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
  
-以下各节提供有关如何在资源/用户林模型中配置具有多个林的环境的指导，以Skype for Business混合方案中的林功能。 
+以下各节介绍如何配置资源/用户林模型中具有多个林的环境，以在混合方案中提供功能。 
   
 ![用于混合的多林环境](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
@@ -38,7 +38,7 @@ ms.locfileid: "53510693"
 
 支持多个用户林。 请注意以下几点： 
     
-- 有关 Lync Server 的受支持版本Skype for Business Server混合配置中的服务器版本要求，[](plan-hybrid-connectivity.md#server-version-requirements)请参阅规划 Skype for Business Server 与 Microsoft 365 或 Office 365 之间的混合[连接](plan-hybrid-connectivity.md)。
+- 有关 Lync Server 的受支持版本Skype for Business Server，请参阅规划[混合连接](plan-hybrid-connectivity.md)。
     
 - Exchange Server部署在一个或多个林中，其中可能包含（也可能不包含）包含Skype for Business Server。 确保已应用最新的累积更新。
     
@@ -47,15 +47,21 @@ ms.locfileid: "53510693"
   
 ## <a name="user-homing-considerations"></a>用户hoshoing considerations
 
-Skype for Business本地的用户可以拥有Exchange本地或联机部署。 Skype for Business联机用户应该Exchange Online最佳体验;但是，这不是必需的。 Exchange两种情况下，都无需Skype for Business本地部署。
+Skype for Business本地的用户可以拥有Exchange本地或联机部署。 Teams用户应Exchange Online最佳体验;但是，这不是必需的。 Exchange两种情况下，都无需Skype for Business本地部署。
   
 ## <a name="configure-forest-trusts"></a>配置林信任
 
-在资源林拓扑中，承载资源Skype for Business Server必须信任每个包含将访问该帐户的用户帐户的帐户林。 如果有多个用户林，则启用跨林身份验证时，必须针对其中每个林信任启用名称后缀路由。 有关说明，请参阅 [管理林信任](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11))。 如果您已经Exchange Server另一个林中部署，并且它为 Skype for Business 用户提供了功能，则托管Exchange必须信任林托管Skype for Business Server。 例如，如果Exchange部署在帐户林中，则实际上意味着该配置需要帐户Skype for Business林之间的双向信任。
+在资源林拓扑中，承载资源Skype for Business Server必须信任每个包含将访问该帐户的用户帐户的帐户林。 
+
+如果有多个用户林，则启用跨林身份验证时，必须针对其中每个林信任启用名称后缀路由。 有关说明，请参阅 [管理林信任](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11))。 
+
+如果您已经Exchange Server另一个林中部署，Exchange为 Skype for Business 用户提供功能，则托管林Exchange必须信任林托管Skype for Business Server。 例如，如果Exchange部署在帐户林中，则帐户和帐户林之间需要Skype for Business信任。
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>将帐户同步到林托管Skype for Business
 
-当 Skype for Business Server 部署在一个林中时 (资源林) ，但向一个或多个其他林 (帐户林) 中的用户提供功能时，其他林中的用户必须表示为部署了 Skype for Business Server 的林中的已禁用用户对象。 需要部署和配置标识管理产品（如 Microsoft Identity Manager）以设置用户，以及将用户从帐户林同步到部署了Skype for Business Server林。 用户必须作为禁用的用户对象Skype for Business Server林托管服务器。 用户无法同步为 Active Directory 联系人对象，Azure Active Directory 连接无法将联系人正确同步到 Azure AD 以用于Skype。
+假定Skype for Business Server部署在一个林中 (资源林) ，但向一个或多个其他林中的用户 (帐户林) 。 在这种情况下，其他林中的用户必须表示为已禁用的用户对象，其中林中Skype for Business Server用户对象。
+
+您需要使用标识管理产品（如 Microsoft Identity Manager）来设置用户，以及将用户从帐户林同步到部署了Skype for Business Server林。 用户必须作为禁用的用户对象Skype for Business Server林托管服务器。 用户无法同步为 Active Directory 联系人对象，Azure Active Directory 连接无法将联系人正确同步到 Azure AD 以用于Skype。
   
 无论采用何种多林配置，Skype for Business Server都还可以为同一林中任何已启用的用户提供功能。
   
@@ -70,15 +76,15 @@ Skype for Business本地的用户可以拥有Exchange本地或联机部署。 Sk
    
 所选 [帐户链接属性](/azure/active-directory/hybrid/plan-connect-design-concepts) 将用作源定位标记。 如果您喜欢使用一个不同的不可变属性，您可以这样做;只需确保在 AAD 声明配置期间编辑 AD FS 声明规则并选择连接属性。
   
-不要同步林之间的 UPN。 在测试期间，我们发现我们需要为每个用户林使用唯一的 UPN，因为您不能在多个林之间使用相同的 UPN。 因此，我们提供了两种可能性，即同步 UPN 或不同步。 
+不要同步林之间的 UPN。 您需要对每个用户林使用唯一 UPN，因为您不能在多个林之间使用相同的 UPN。 因此，有两种可能性：同步 UPN 或不同步。 
   
-- 如果每个用户林中的唯一 UPN 未同步到资源林中关联的已禁用对象，则单一登录 (SSO) 将至少中断初始登录尝试 (假定用户选择了保存密码) 的选项。 在Skype for Business客户端中，我们假定 SIP/UPN 值相同。 由于此方案中的 SIP 地址是 user@company.com，但用户林中已启用对象的 UPN 实际上为 user@contoso.company.com，因此初始登录尝试将失败，并提示用户输入凭据。 输入正确/实际 UPN 后，将针对用户林中的域控制器完成身份验证请求，并且登录将成功。
+- 如果每个用户林中的唯一 UPN 未同步到资源林中关联的已禁用对象，则单一登录 (SSO) 将至少中断初始登录尝试 (假定用户选择了保存密码) 的选项。 在Skype for Business客户端中，我们假定 SIP/UPN 值相同。 由于此方案中的 SIP 地址是 user@company.com，但用户林中已启用对象的 UPN 实际上为 user@contoso.company.com，因此初始登录尝试将失败，并提示用户输入凭据。 输入正确的 UPN 后，将针对用户林中的域控制器完成身份验证请求，并且登录将成功。
     
 - 如果将每个用户林中的唯一 UPN 同步到资源林中关联的已禁用对象，则 AD FS 身份验证将失败。 匹配规则将在资源林中的对象上查找 UPN，该 UPN 已被禁用，无法用于身份验证。 
     
-## <a name="create-a-microsoft-365-or-office-365-organization"></a>创建Microsoft 365或Office 365组织
+## <a name="create-a-microsoft-365-organization"></a>创建Microsoft 365组织
 
-接下来，你需要预配Microsoft 365或Office 365组织以用于你的部署。 有关详细信息，请参阅 Microsoft 云产品/服务订阅、许可证 [、帐户和租户](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
+你需要预配一个Microsoft 365组织以用于你的部署。 有关详细信息，请参阅 Microsoft 云产品/服务订阅、许可证 [、帐户和租户](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
   
 ## <a name="configure-active-directory-federation-services"></a>配置 Active Directory 联合身份验证服务
 
@@ -94,29 +100,29 @@ Skype for Business本地的用户可以拥有Exchange本地或联机部署。 Sk
     
 通过将 AD FS 服务器场置于每个用户林中，并针对每个林使用唯一的 SIP/SMTP/UPN，我们解决了这两个问题。 在身份验证尝试期间，将仅搜索并匹配该特定用户林中的帐户。 这将帮助提供更加无缝的身份验证过程。 
   
-这将是 R2 AD FS Windows Server 2012标准部署，应在继续之前正常工作。 有关说明，请参阅[如何安装 AD FS 2012 R2 For Microsoft 365 or Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)。 
+此部署将是 R2 AD FS Windows Server 2012标准部署，应在继续之前正常工作。 有关说明，请参阅[如何安装 AD FS 2012 R2 for Microsoft 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)。 
   
-部署后，您必须编辑声明规则以匹配之前选择的"源定位标记"。 在 AD FS MMC 中的"信赖方信任"下，右键单击 **"Microsoft 365标识** 平台"或 **"Microsoft Office 365标识** 平台"，然后选择"编辑声明 **规则"。** 编辑第一个规则，将 ObjectSID 更改为 **employeeNumber**。 
+部署后，您需要编辑声明规则以匹配之前选择的"源定位标记"。 在 AD FS MMC 中的"信赖方信任"下，右键单击 **"Microsoft 365标识** 平台"或 **"Microsoft Office 365标识** 平台"，然后选择"编辑声明 **规则"。** 编辑第一个规则，将 ObjectSID 更改为 **employeeNumber**。 
   
 ![多林编辑规则屏幕](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## <a name="configure-aad-connect"></a>配置 AAD 连接
 
-在资源林拓扑中，资源林和任何帐户林中的用户属性 (帐户) 同步到 Azure AD。 为此，最简单且推荐的方法就是让 Azure AD 连接启用用户帐户的所有林和包含用户帐户的林中的用户标识Skype for Business。 有关详细信息，请参阅[配置 Azure AD 连接 for Skype for Business and Teams](configure-azure-ad-connect.md)。
+在资源林拓扑中，资源林和任何帐户林中的用户属性 (帐户) 同步到 Azure AD。 Microsoft 建议 Azure AD 连接启用用户帐户的所有林和包含用户帐户的林中的用户标识进行Skype for Business。 有关详细信息，请参阅[配置 Azure AD 连接 for Skype for Business and Teams](configure-azure-ad-connect.md)。
 
-请注意，AAD 连接帐户和资源林之间不提供本地同步。 必须使用产品或类似产品单独Microsoft Identity Manager配置，如前面所述。
+请注意，Azure AD 连接帐户和资源林之间不提供本地同步。 必须使用产品或类似产品Microsoft Identity Manager配置，如前面所述。
   
-完成后，AAD 连接合并时，如果查看 metaverse 中的对象，应该会看到类似以下内容： 
+完成操作且 Azure AD 连接合并后，如果查看 metaverse 中的对象，应看到与以下内容类似的内容： 
   
 ![多林 Metaverse 对象屏幕](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-绿色突出显示的属性从资源林Microsoft 365或Office 365，黄色来自用户林，蓝色来自资源林。 
+从资源林合并绿色突出显示Microsoft 365，黄色来自用户林，蓝色来自资源林。 
   
-这是一个测试用户，可以看到 AAD 连接 已标识用户中的 sourceAnchor 和 cloudSourceAnchor，以及 Microsoft 365 或 Office 365 中的资源林对象，在我们的案例 1101 中，这是之前选择的 employeeNumber。 然后，它能够将该对象合并到您上面看到的对象中。 
+本示例中，Azure AD 连接标识了用户的 sourceAnchor 和 cloudSourceAnchor，以及 Microsoft 365 中的资源林对象，在这种情况下为 1101，即之前选择的 employeeNumber。 Azure AD 连接他们能够将该对象合并到上面看到的对象中。 
   
 有关详细信息，请参阅[将本地](/azure/active-directory/hybrid/whatis-hybrid-identity)目录与 Azure Active Directory 集成。 
   
-AAD 连接应该使用默认值进行安装，以下项除外： 
+Azure AD 连接应该使用默认值进行安装，以下项除外： 
   
 1. 单一登录 - 已部署 AD FS 且正常工作：选择 **"不配置"。**
     

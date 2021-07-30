@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 安全指南
+title: Microsoft Teams 安全指南：在共享计算机上安全地使用 Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45497c824cfc20644a59e35f7812b17058f61c2c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc886b2783d1398a85e00927a224968d65a9539b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117050"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646003"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>在共享计算机上安全使用 Microsoft Teams
 
@@ -46,14 +46,14 @@ ms.locfileid: "51117050"
 
 1. 利用操作系统平台的安全功能。
     1. 确保操作系统已配置为自动安装来自操作系统提供商的更新（ Microsoft 系统可通过 [**Windows 更新**](https://support.microsoft.com/help/12373/windows-update-faq)进行设置）。 
-    1. 确保已启用设备加密功能，如 [**bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-overview) 等，并确保访问设备的密匙也受到保护。  请注意，大多数新式 [**Windows 10 设备支持 bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
+    1. 确保启用任何设备加密功能，如 [**bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-overview)，并且用于访问设备的密钥受到保护。 请注意，大多数新式 [**Windows 10设备支持 bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
     1. 使用 [**Windows Defender**](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 等提供的防病毒功能。
     1. 强烈建议每个用户用[单独的用户帐户](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)使用同一系统。
     1. *不要* 对非管理功能授予或使用管理员特权（例如浏览网页、启动 Teams 等）。
 
-如果无法满足上述指南要求，我们建议使用其他浏览器安全最佳方案：
+如果无法满足上述指导，我们建议使用其他浏览器安全最佳做法：
 
-1. 利用浏览器的安全功能。
+1. 应用浏览器安全功能。
     1. 启用隐私浏览模式，尽量减少保留在磁盘上的数据与历史记录。 例如，[在 Microsoft Edge 中以 inPrivate 模式进行浏览](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)， [在Google Chrome 中以无痕模式进行浏览](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)，或使用其他浏览器的隐私浏览功能。 
     1. 建议将系统行为设置为 *默认使用* 隐私浏览模式。 
 
@@ -64,7 +64,7 @@ ms.locfileid: "51117050"
     1. 关闭所有浏览器选项卡和窗口。
     1. 注销此设备。
 
-上述建议不涵盖所有情况下的最佳实践或安全控制方案，不同环境中您也可能采取其他措施，（例如，如果您购买了 [Office 365 ATP 计划 1 或 2](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2) ，安全管理员可能会选择使用 Teams 中的安全链接或安全附件）。 但这些步骤仍可帮助您开始创建在共享设备上使用 Teams 的安全指南。
+上述项目不是涵盖所有情况的最佳做法或安全控制措施的综合列表，并且可能在你的环境中执行额外的操作（例如，如果你 [Office 365 ATP 计划 1 或 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)，安全管理员可以选择使用 Teams 的安全链接和安全附件）。但是，这些步骤是构建有关从共享设备使用 Teams 的指南的起点。
 
 ## <a name="more-information"></a>详细信息
 
