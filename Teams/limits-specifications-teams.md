@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 的限制和规范
-author: microsoftheidi
+author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.topic: reference
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f28e9f1b0fcc4d8855b0c053dbd71ee30cf58747
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 08b6686a640e039cbd84d95196824d4b35fb9f35
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506341"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646033"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -125,12 +125,12 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |PowerPoint 文件的最大大小 | 2GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
   
-<sup>1</sup> 为了获得大型会议、网络研讨会和直播活动最佳体验，Microsoft 建议使用 Teams 桌面客户端或 Teams 移动客户端。
-  
+<sup>1</sup> 为了在大型会议、网络研讨会和直播活动中获得最佳体验，Microsoft 建议使用最新版本的 Teams 桌面客户端或 Teams 移动客户端。
+
 <sup>2</sup> 大型会议、网络研讨会和直播活动中的演示者应使用 Teams 桌面客户端。 有关托管大型会议的更多提示，请参阅 [大型 Teams 会议最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
-  
+
 > [!NOTE]
-> 分组讨论室只能在与会者少于 300 人的会议上创建。 此外，在会议中创建分组讨论室会自动将会议平台的数量限制在 300 个。 建议最终用户不要在预计超过 300 人的会议上启动分组讨论室。 有关大型 Team 会议的更多信息，请与最终用户共享 [大型 Teams 会议的最佳实践](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) 指南。 
+> 分组讨论室只能在与会者少于 300 人的会议上创建。 此外，在会议中创建分组讨论室会自动将会议平台的数量限制在 300 个。 建议最终用户不要在预计超过 300 人的会议上启动分组讨论室。 有关大型 Team 会议的更多信息，请与最终用户共享 [大型 Teams 会议的最佳实践](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) 指南。
 
 ### <a name="meeting-expiration"></a>会议过期时间
 
@@ -169,7 +169,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 >- 一个租户可同时举办50场活动
 >- 每次广播的活动持续时间为16小时
 >
-> 此外，可通过 Microsoft 365 辅助计划规划最多 100,000 名与会者的实时活动。团队将评估每个请求，并共同确定可能可用的选项。[了解详情](https://aka.ms/Stream/Blog/LiveEventOptions)。 
+> 此外，可通过 Microsoft 365 辅助计划规划最多 100,000 名与会者的实时活动。团队将评估每个请求，并共同确定可能可用的选项。[了解详情](https://aka.ms/Stream/Blog/LiveEventOptions)。
 
 ## <a name="presence-in-outlook"></a>Outlook 中的状态
 

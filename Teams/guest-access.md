@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: ac699c662c8e0ac61180c1031cfc77c300c51d19
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536828"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646423"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 
@@ -54,6 +54,12 @@ Teams 中的来宾访问需要在 Microsoft 365 中配置其他设置，包括 A
 - 若要与使用 Azure Active Directory 的合作伙伴组织进行协作，并允许来宾自行注册以实现团队访问，请参阅[创建托管有来宾的 B2B 外联网](/microsoft-365/solutions/b2b-extranet)。
 
 Teams 中的来宾访问是一种组织范围的设置，默认情况下处于关闭状态。 可使用[敏感度标签](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)控制来宾对各个团队的访问。
+
+### <a name="turning-guest-access-off"></a>关闭来宾访问权限
+
+如果在 Teams 中关闭来宾访问权限，现有来宾将失去对其团队的访问权限。 但不会从团队中删除他们。 他们仍然对团队成员可见，并且后者可以 @提及他们。 如果再次启用 Teams 来宾访问权限，他们将重新获得访问权限。
+
+如果计划关闭来宾访问权限，可能需要建议团队所有者手动从其团队中删除来宾帐户。 虽然这些来宾无权访问，但其帐户在团队中可见可能会导致其他团队成员感到困惑。
 
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>来宾如何成为团队成员
 
