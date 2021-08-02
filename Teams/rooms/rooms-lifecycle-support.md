@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: 了解动态支持Microsoft Teams 会议室生命周期支持，包括动态支持结构及其阶段。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6ac865a59f2342b97ddb8cb0ae5807427c10b85
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c34f448eeaadbf946ab708378caa835a94836ccc
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469674"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679727"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 会议室应用版本支持
  
@@ -73,10 +73,6 @@ Windows 10设备上不会立即提供新功能Microsoft Teams 会议室更新。
 > 
 > 具有一致问题的设备包括：
 > 
-> - HP Elite 切片
-> - HP Elite 切片 G2 MS SRS 音频就绪
-> - HP Elite 切片 MS SRS 合作伙伴就绪
-> - 使用 MS ELITE 的 HP Elite 切片 G2
 > - Crestron UC-Engine (BIOS 版本/日期包含"KYSKLI"-指示一个金子山 BIOS)  
 
 ## <a name="related-topics"></a>相关主题

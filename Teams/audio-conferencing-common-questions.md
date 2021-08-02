@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下是我们从想要使用音频会议的客户提出的一些热门问题。
-ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: c8c5ea445e9c8d01f869a9340934fe75fe92a329
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856411"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679747"
 ---
 # <a name="audio-conferencing-common-questions"></a>音频会议常见问题
 
@@ -111,7 +111,7 @@ Skype for Business Microsoft Teams用户将随机分配会议 ID。 用户无法
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>用户如何访问或更改他们的会议 ID？
 
-Skype for Business或Microsoft Teams用户可以通过在 Web 上安排会议来查找分配给Outlook Outlook的会议 ID。 此外，用户可以在设置后将发送给他们的电子邮件中查找会议 ID。
+Skype for Business或Microsoft Teams用户可以通过在会议中安排会议来查找分配给他们的Outlook Outlook 网页版。 此外，用户可以在设置后将发送给他们的电子邮件中查找会议 ID。
   
 > [!NOTE]
 > [!注释] 用户无法重置他们的会议 ID。 会议 ID 只能由你（组织的 [管理员](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)）重置。 
@@ -131,10 +131,11 @@ Skype for Business或Microsoft Teams用户可以在设置后将发送给他们�
 
 对于会议参与者和组织者：
 
-| 命令名称 | 命令键 | 说明                                                     |
-|--------------|--------------|-----------------------------------------------------------------|
-| 命令菜单 | \*1          | 按 \* 1 播放可用的拨号盘命令的说明。 |
-| 静音/取消静音  | \*6          | 按 \* 6 自行静音或取消静音。                         |
+| 命令名称    | 命令键 | 说明                                                                 |
+|--------------   |--------------|-----------------------------------------------------------------------------|
+| 命令菜单    | \*1          | 按 \* 1 播放可用的拨号盘命令的说明。 |
+| 举手/下手| \*5          | 按 \* 5 抬起或下手。                                           |  
+| 静音/取消静音     | \*6          | 按 \* 6 自行静音或取消静音。                                     |
 
 仅适用于会议组织者：
 
@@ -150,7 +151,7 @@ Skype for Business或Microsoft Teams用户可以在设置后将发送给他们�
   
 ## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>用户或Skype for Business Microsoft Teams音频会议详细信息安排会议？
 
-为用户分配音频会议许可证，并且用户在 Outlook 或 web 上的 Outlook 中创建新的 Skype for Business 或 Microsoft Teams 会议时，拨入电话号码和会议 ID 将自动添加到会议邀请中。
+为用户分配音频会议许可证，并且用户在 Outlook 或 Outlook 网页版 中创建新的 Skype for Business 或 Microsoft Teams 会议时，拨入电话号码和会议 ID 将自动添加到会议邀请中。
   
 ## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>当所有与会者都将使用电话拨入时，用户如何安排和启动会议？
 

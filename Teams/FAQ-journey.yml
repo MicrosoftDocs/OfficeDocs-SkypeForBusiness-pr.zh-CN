@@ -21,24 +21,125 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: a753374ec71014352b04721f2019f5e9a6425acd
-  ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+  ms.openlocfilehash: e02aca3c02f73bbb2835bc1ff2d949b1e3415a96
+  ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 06/09/2021
-  ms.locfileid: "52856271"
+  ms.lasthandoff: 08/01/2021
+  ms.locfileid: "53679757"
 title: 常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 summary: ''
 sections:
-- name: 已忽略
+- name: Skype for Business Online 停用
   questions:
   - question: 客户从 Skype for Business Online 迁移至 Teams 是否有严格的最后期限？
     answer: >
       是。 [Skype for Business Online 将于](skype-for-business-online-retirement.md)2021 年 7 月 31 日停用，此时它将无法再访问。 我们鼓励 Skype for Business Online 客户立即开始使用 Teams 并开始计划他们的升级，以便有充足的时间在停用日期之前完成升级。
+  - question: 为什么 Skype for Business Online 停用？
+    answer: >
+      自其简介Skype for Business，Skype for Business Online 已成为全世界数百万用户的重要工具。 通过将即时消息、呼叫和视频合并到一个应用程序中，Skype for Business Online 为业务通信建立了新的可能性。 Microsoft Teams是该愿景的下一章。
+
+
+      Microsoft Teams的功能超出了 Skype for Business Online 的功能。 通过将聊天、视频、通话、文档协作和应用程序集成合并到单个体验中，Teams实现全新的工作方式。 持续的平台创新与开发意味着Teams更丰富的性能、功能、灵活性和安全性而受益。
+
+
+      Teams不只是 Skype for Business Online 的升级，它是一种强大的工具，使公司、学校和组织变得更加灵活，并提高了关键工作流的效率。 在 Forrester 白皮书 forrester 的"总经济影响™"中详细了解 Teams 对组织的潜在[Microsoft Teams。](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)
+  - question: 这对客户Skype for Business意味着什么？
+    answer: >
+      在Skype for Business 2021 年 7 月 31 日停用 Online 后，不再可访问该服务。 在此之前，当前Skype for Business Online 客户在服务方面不会发生变化。 从 2019 年 9 月 1 Microsoft 365，所有新的客户已直接加入Teams聊天、会议和通话。
+
+
+      完全升级到 Teams所需时间取决于组织的独特特征，包括用户数、技术复杂性和内部适应能力的变化。 强烈建议立即开始升级，Teams升级。 从今天开始升级，你有足够的时间在停用日期之前完成升级。 从 8 月份开始，Microsoft 将提供辅助升级过程，帮助你将任何剩余的 Skype for Business Online 用户移到Teams帐户。
+
+
+      Teams大多数 Microsoft 365 商业Enterprise计划中提供，并且现有许可投资会Teams。 现在 Skype for Business Online 中作为优质工作负荷的功能将继续在 Teams 中作为优质工作负荷。 例如，如果你独立购买了音频会议或作为 E5 的一部分Skype for Business，音频会议将在 Teams 中启用。
+
+
+      Skype使用者服务和Skype for Business Server不受 Skype for Business Online 停用的影响。
+
+
+      [阅读常见问题解答](FAQ-journey.yml)，了解升级到 Teams 的过程Teams路线图。
   - question: 当联机版Skype for Business Server，本地Microsoft Teams是否需要Skype for Business升级？
     answer: "不能。 停用 Skype for Business Online 不会影响本地用户。 尽管我们鼓励所有客户利用扩展的功能和性能 Microsoft Teams 产品/服务，但某些 Skype for Business Server 客户可能需要单独使用产品，或者作为混合配置的一部分使用 Microsoft Teams。 有关版本[支持日期](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server)，请参阅 Microsoft 生命周期策略Skype for Business Server。 \n"
+  - question: Microsoft 在帮助客户升级到 Teams？
+    answer: >
+      强烈建议立即开始从 Skype for Business Online Teams升级。 从今天开始升级，你有足够的时间在停用日期之前完成升级。
+
+
+      利用可用的资源来帮助规划部署和Teams部署和升级Skype for Business：
+
+
+      - [Teams部署和升级文档](upgrade-start-here.md)- IT 管理员的免费技术指南。
+
+
+      - [Teams计划](./upgrade-workshops-landing-page.yml)研讨会 - 免费的交互式升级规划研讨会，你将在这里获得指导、最佳做法和资源，以帮助你规划和实施升级到 Teams。
+
+
+      - [协助从 Skype for Business Online](upgrade-assisted.md)升级到 Microsoft Teams – 自动化程序，可帮助你完成将 Skype for Business Online 用户升级到 Teams。
+
+
+      - [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams计划可用的部署帮助。
+
+
+      - [Teams培训](./instructor-led-training-teams-landing-page.yml)- 免费在线培训课程，旨在帮助组织通过实时培训Teams。
+
+
+      - [Teams会议](./chalk-talks-landing-page.yml)- IT 专业人员和决策者的免费在线研讨会，分享有关这些方案中一些最流行且最具吸引力Teams。
+
+
+      - [Microsoft 合作伙伴](https://www.microsoft.com/solution-providers/home)- Microsoft 解决方案提供商可帮助你充分利用Teams。
+
+
+      - [Microsoft Teams博客](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)- 获取最新的Teams新闻，包括新功能、采用和使用资源、Teams设备，以及与其他业务生产力应用程序的集成。
+
+
+      如果你是当前在线Skype for Business，请立即开始规划升级到 Teams。 我们很高兴你能够体验其强大的通信和协作功能，我们一直致力于帮助。
+  - question: 停用 Skype for Business后会发生什么情况？
+    answer: >
+      Microsoft 将为在停用时处于"仅Skype for Business模式的用户Teams辅助升级。 客户将在计划升级日期之前 90 天在 Teams 管理中心和 Microsoft 365 消息中心中收到通知，以留出时间进行技术和用户准备。
+
+
+      完成辅助升级后，所有联机用户都将Teams模式。 "仅Teams模式的用户接收传入的聊天和呼叫，并安排会议，Teams。 仅Teams模式的用户将无法启动聊天或通话或在 Skype for Business Online 中安排会议。 Teams只有用户仍能够加入Skype for Business用户计划的会议Skype for Business Server。
+
+
+      有关详细信息，请参阅从联机到 Skype for Business[的辅助Microsoft Teams。](upgrade-assisted.md)
   - question: Skype 会议广播是否将在联机时Skype for Business停用？
     answer: "是。 Teams实时事件是实时直播Skype 会议解决方案。    \n"
+  - question: 使用混合配置的组织 (Skype for Business Online 和本地Skype for Business Server) 停用时Skype for Business情况？
+    answer: >
+      在 2021 年 7 月 31 日停用之前，需要具有在线和本地配置的混合客户将联机用户从 Skype for Business Online 升级到 Microsoft Teams。
+
+      Microsoft 将提供辅助升级，帮助升级剩余Skype for Business，使 Online 用户Teams停用日期后进入"仅"模式。
+
+
+      具有混合配置的组织可以继续并Skype for Business和Teams，直到准备好移动到"仅Teams模式。 在 Skype for Business Online 停用日期之后，Skype for Business Server用户移动到云时，该用户将进入"仅Teams模式。
+
+
+      有关详细信息，请访问 “[与 Skype for Business 共存](coexistence-chat-calls-presence.md)”和 “[了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)”。
+  - question: 停用 Skype for Business Online 将如何影响具有本地公用电话交换网 (PSTN) 混合 Skype for Business 配置和联机电话系统的组织？
+    answer: >
+      某些组织将用户拆分为本地 PSTN 连接和在线家庭用户，电话系统功能。 对 Skype for Business Online 的访问结束后，组织需要将联机用户升级到 Microsoft Teams并通过直接路由 将其本地电话网络Teams[连接](./direct-routing-landing-page.md)。
+
+
+      我们鼓励具有合格订阅的客户使用 [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) 协助加入 Teams。
+  - question: 停用 Skype for Business Online 后，所有云中的客户都会受到 Microsoft Skype for Business？
+    answer: >
+      某些云环境（例如 GCC High、DoD、世纪网和 Microsoft Cloud Germany）需要独特的升级体验，在 Skype for Business Online 停用时，不会包括在 Microsoft 辅助的 Teams 升级中。
+  - question: Skype for Business Server 的未来会怎样？
+    answer: >
+      我们认识到，客户可能需要Skype for Business Server用户或地理位置使用资源组， 在这些情况下，我们鼓励组织结合使用 Teams 和 Skype for Business Server 来推动团队合作和协作。 最新版本的 2019 Skype for Business Server于 2018 年 10 月发布，计划到 2024 年 1 月 9 日提供主流支持。
+  - question: 这对服务使用者服务Skype意味着什么？
+    answer: >
+      停用 Skype for Business Online 不会影响Skype服务。
+  - question: 这对现有客户Microsoft 365意味着什么？
+    answer: "我们已将一套关键的 Skype for Business Online 功能Teams以及语音、视频和会议的新功能和创新功能。 我们鼓励所有Microsoft 365客户立即开始Teams、独立或并排使用 Skype for Business Server。\n       \n"
+  - question: 如何获取Teams许可证？
+    answer: >
+      Teams许多 Microsoft 365 套件中均提供。 现在 Skype for Business Online 中作为优质工作负荷的功能将继续在 Teams 中作为优质工作负荷。 客户在现有许可上的投入将转到 Teams 中。 例如，如果客户单独购买了音频会议或购买了包含音频会议的 E5（附带 Skype for Business），则将在 Teams 中启用音频会议，因为它现在可用。
+  - question: 停用 Online 后，使用第三方音频会议 (ACP) 客户Skype for Business会发生什么情况？
+    answer: "我们认为，使用音频会议的客户的最佳音频Teams我们的音频会议服务。 出于此原因，我们没有计划支持第三方音频会议提供商Teams。 对在 Skype for Business Online 中集成第三方音频会议提供商的支持将于 2021 年 7 月 31 日以及 Skype for Business Online 结束。\n         \n"
+- name: 升级到 Teams
+  questions:
   - question: 我的组织升级到 Teams 需要多长时间？
     answer: >
       旅程从 Skype for Business 到 Teams 的路径因组织的特征而异，例如技术复杂性、更改能力、自定义应用程序和工作流集成等。 为了帮助你规划和执行升级，我们基于经验证的框架制定了全面的升级指南，旨在帮助你了解变更的技术和组织要素。 通过熟悉我们的[升级成功框架](upgrade-framework.md)和相关资源开启你的旅程，这些资源是开启从 Skype for Business 到 Teams 迁移之旅的基石。
@@ -83,15 +184,19 @@ sections:
   - question: 从许可方面来看，这意味着什么？ 客户如何支付音频会议和通话等功能Teams？
     answer: >
       Teams 在 Microsoft 365 和 Office 365 套件中提供。 现在 Skype for Business Online 中作为优质工作负荷的功能将继续在 Teams 中作为优质工作负荷。 客户在现有许可上的投入将转到 Teams 中。 例如，如果客户单独购买了音频会议或购买了包含音频会议的 E5（附带 Skype for Business），则将在 Teams 中启用音频会议，因为它现在可用。
-  - question: Teams 的后端基础结构的优势是什么？
+  - question: 对于已在 Skype for Business Online 中的电话系统（云 PBX）上部署的客户，有什么指导？
+    answer: "Microsoft Teams 中的呼叫功能可满足你的所有通信需求。 我们鼓励所有Microsoft 365客户Teams尽快开始使用。 使用 Teams 有助于确保在停用 Teams Online 服务之前为Skype for Business工作负荷。           \n"
+  - question: 对于希望迁移至 Teams 并使用呼叫功能的企业语音客户，有什么指导？
     answer: >
-      Teams 专为高度可扩展的微服务架构中的云构建，它可减少带宽消耗，提供更强大的遥测功能，并可在尽量减少中断的情况下进行维护和升级。 因此，用户无需下载插件，即可享有更快的会议加入时间和更好的浏览器体验。利用此现代基础结构，可以轻松地利用 Microsoft 认知服务，其中包括转录、翻译、语音识别和机器学习功能，可使通信和协作更加轻松和高效。
-  - question: 客户如何了解何时将在 Teams 中提供 Skype for Business 功能？
+      希望将自己的电话服务加入 Teams 的客户现在可以通过通用版本的[直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359)来实现。 在 Microsoft Teams 中可以选择使用直接路由和通话套餐拨打电话。
+  - question: Teams 中的音频会议覆盖范围与 Skype for Business 是否不同？
     answer: >
-      请参阅 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)。
-  - question: 将为 Teams 提供哪些 API 和 SDK？
+      由于音频会议在 Teams 中可用，因此音频会议的覆盖范围没有变化。 我们目前覆盖 90 多个国家/地区和 400 多个城市，此覆盖范围在两个产品中将继续有效。 有关当前列表，请参阅[音频会议和通话套餐的国家/地区可用性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+  - question: 最新一代的 Skype Room Systems v2 是否支持 Teams 中的会议？
     answer: >
-      有关可用 API 和 SDK 的信息，请访问 [Microsoft Teams 开发人员平台](/microsoftteams/platform/)。
+      我们Skype会议室系统Microsoft Teams 会议室，它完全支持 Microsoft Teams 会议，并且只需在设备上启用 Teams，提供从 Skype for Business 到 Teams 的轻松迁移路径。 除了允许用户使用邻近感应检测识别附近的 Microsoft Teams 会议室 外，Teams 会议还可以与单键式双屏幕支持 Microsoft Whiteboard 一起加入，我们将继续引入创新功能，例如具有智能捕获的内容相机。
+- name: 常规
+  questions:
   - question: 你是否支持 Teams 中的第三方开发机会？
     answer: >
       支持，应用集成是采用 Teams 的主要优势之一。 我们目前支持 Teams 中的第三方聊天机器人、连接器和扩展。 此外，我们在 Microsoft Teams 应用商店中提供一个大型外接程序生态系统。
@@ -103,19 +208,14 @@ sections:
   - question: Microsoft 的联机语音功能的计划是什么？
     answer: >
       我们语音解决方案的核心是现已推出的电话系统。 客户还可以添加 Microsoft 通话套餐，它为呼叫提供全面支持，包括直接在 Microsoft 365 中进行号码获取和分配。 希望保留其电信电话干线的客户可以使用直接路由功能 – 它包含在电话系统中。 根据组织的需要将两者混合使用，以便拥有完整的语音解决方案。
-  - question: 对于已在 Skype for Business Online 中的电话系统（云 PBX）上部署的客户，有什么指导？
-    answer: "Microsoft Teams 中的呼叫功能可满足你的所有通信需求。 我们鼓励所有Microsoft 365客户Teams尽快开始使用。 使用 Teams 有助于确保在停用 Teams Online 服务之前为Skype for Business工作负荷。 \n"
-  - question: 对于希望迁移至 Teams 并使用呼叫功能的企业语音客户，有什么指导？
+  - question: 将为 Teams 提供哪些 API 和 SDK？
     answer: >
-      希望将自己的电话服务加入 Teams 的客户现在可以通过通用版本的[直接路由](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359)来实现。 在 Microsoft Teams 中可以选择使用直接路由和通话套餐拨打电话。
-  - question: Teams 中的音频会议覆盖范围与 Skype for Business 是否不同？
+      有关可用 API 和 SDK 的信息，请访问 [Microsoft Teams 开发人员平台](/microsoftteams/platform/)。
+  - question: Teams 的后端基础结构的优势是什么？
     answer: >
-      由于音频会议在 Teams 中可用，因此音频会议的覆盖范围没有变化。 我们目前覆盖 90 多个国家/地区和 400 多个城市，此覆盖范围在两个产品中将继续有效。 有关当前列表，请参阅[音频会议和通话套餐的国家/地区可用性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
-  - question: Teams 是否支持第三方音频会议提供商 (ACP)？
+      Teams 专为高度可扩展的微服务架构中的云构建，它可减少带宽消耗，提供更强大的遥测功能，并可在尽量减少中断的情况下进行维护和升级。 因此，用户无需下载插件，即可享有更快的会议加入时间和更好的浏览器体验。利用此现代基础结构，可以轻松地利用 Microsoft 认知服务，其中包括转录、翻译、语音识别和机器学习功能，可使通信和协作更加轻松和高效。
+  - question: 客户如何了解何时将在 Teams 中提供 Skype for Business 功能？
     answer: >
-      没有计划在 Teams 中支持第三方音频会议提供商 (ACP)。 我们认为，对于使用 Teams 和 Skype for Business 的客户，最佳的音频会议体验就是使用音频会议服务。 需要在 Skype for Business 会议中利用 ACP 支持的客户可以继续使用 Skype for Business 客户端加入 Skype for Business 会议。 在 Teams 中安排的会议将需要使用 Microsoft 365 的音频会议服务。 针对将第三方音频会议提供商 (ACP) 集成到 Skype for Business Online 的支持服务已延长到 2021 年 7 月 31 日，并为剩余活动租户提供有限支持，以便延长过渡时间。 这是 2018 年 4 月宣布的 ACP 时间表的更新。
+      请参阅 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)。
   - question: 对 Teams 会议的视频互操作性支持有什么计划？
-    answer: >
-      [会议室设备](https://products.office.com/microsoft-teams/across-devices)对于我们对新式工作场所的愿景至关重要。 通过现有 VTC 系统支持 Teams 会议的[云视频互操作性服务](./cloud-video-interop.md)通过我们的合作伙伴 Pexip、Polycom 和 Blue Jeans 提供。
-  - question: 最新一代的 Skype Room Systems v2 是否支持 Teams 中的会议？
-    answer: 我们Skype会议室系统Microsoft Teams 会议室，它完全支持 Microsoft Teams 会议，并且只需在设备上启用 Teams，提供从 Skype for Business 到 Teams 的轻松迁移路径。 除了允许用户使用邻近感应检测识别附近的 Microsoft Teams 会议室 外，Teams 会议还可以与单键式双屏幕支持 Microsoft Whiteboard 一起加入，我们将继续引入创新功能，例如具有智能捕获的内容相机。
+    answer: '[会议室设备](https://products.office.com/microsoft-teams/across-devices)对于我们对新式工作场所的愿景至关重要。 通过现有 VTC 系统支持 Teams 会议的[云视频互操作性服务](./cloud-video-interop.md)通过我们的合作伙伴 Pexip、Polycom 和 Blue Jeans 提供。'

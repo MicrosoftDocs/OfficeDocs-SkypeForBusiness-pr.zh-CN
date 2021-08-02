@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 使用 Advisor for Teams 帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b86ade0aa067e895ebf21b912801c761e7657ba
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240547"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646613"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -71,8 +71,16 @@ Advisor for Teams 当前提供以下计划：
     - Forms 用户调查
     - Teams 顾问机器人
     - Skype for Business 升级计划专为当前正在使用 Skype for Business Online 或 Skype for business 本地环境的客户而设计，将帮助你摆脱升级旅程中的猜测。 通过利用经过验证的成功框架实施更改，无论是刚开始使用 Teams、已在 Skype for Business 中使用 Teams，还是已准备好升级，该计划都将指导你完成分步操作。 该计划还将连接到[联机指南和最佳实践](./upgrade-start-here.md)、[可下载资产](https://aka.ms/UpgradeSuccessKit)、[实时 1：许多规划研讨会](./upgrade-workshops-landing-page.yml)，以及支持成功的其他资源。
+1. 教育（仅对教育组织可见）
+    - 租户评估
+    - Planner 计划，包括采用任务
+    - Forms 用户调查
+    - Teams 顾问机器人
+    - 教育计划专为教育组织设计，将帮助你在教育机构中部署、采用和管理 Teams。
 
-建议从“聊天、团队、频道和应用”计划开始。 该工作负载部署完成后，请返回到 Teams 顾问，然后选择“**添加频道**”以开始下一个工作负载。
+对于商业组织，建议从聊天、团队、频道和应用计划开始。 对于教育组织，我们建议从教育计划开始。 该工作负载部署完成后，请返回到 Teams 顾问，然后选择“**添加频道**”以开始下一个工作负载。
+
+
 
 ## <a name="tenant-assessment"></a>租户评估
 
