@@ -1,5 +1,5 @@
 ---
-title: 'Exchange 统一消息设置 (规划工具) '
+title: Skype for Business Server Exchange统一消息设置规划工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,15 +15,15 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: Skype for Business Server 2015 支持与 Exchange 统一消息 (UM) 集成，以将语音邮件和电子邮件合并到单个邮件基础结构中。
-ms.openlocfilehash: 7f73e3ea6f7033103242c9ff8ee425963e9f6729
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server与统一Exchange集成，以将语音邮件和电子邮件合并到单个邮件基础结构中。
+ms.openlocfilehash: e17be4642c2d9d09cc0468a49fde024f2ccd19fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772583"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange 统一消息设置 (规划工具) 
+# <a name="skype-for-business-server-exchange-unified-messaging-settings-planning-tool"></a>Skype for Business Server Exchange统一消息设置规划工具
 
 Skype for Business Server 2015 支持与 Exchange 统一消息 (UM) 集成，以将语音邮件和电子邮件合并到单个邮件基础结构中。
 

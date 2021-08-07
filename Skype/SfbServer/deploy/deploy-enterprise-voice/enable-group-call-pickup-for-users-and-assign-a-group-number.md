@@ -1,5 +1,5 @@
 ---
-title: 为用户启用组内呼叫接听，并分配 Skype for Business 中的组号码
+title: 为用户启用组内呼叫接听，并分配Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: 在 Skype for Business Server 中为用户启用企业语音，并分配组号码。
-ms.openlocfilehash: 5469e9634e16b855993518092114184a2dca7359
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在呼叫组中为用户启用Skype for Business Server 企业语音，并分配组号码。
+ms.openlocfilehash: 6765cfab12cd888bb5e86f7b1c9b709b8edc7a8855d35de071ebb25619e48ce8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111828"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305904"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>为用户启用组内呼叫接听，并分配 Skype for Business 中的组号码
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>为用户启用组内呼叫接听，并分配Skype for Business
 
-在 Skype for Business Server 中为用户启用企业语音，并分配组号码。
+在呼叫组中为用户启用Skype for Business Server 企业语音，并分配组号码。
 
 将呼叫接听组号码添加到呼叫等待通道表后，使用 SEFAUtil 工具将组号码分配给用户，并为其启用组内呼叫接听。
 

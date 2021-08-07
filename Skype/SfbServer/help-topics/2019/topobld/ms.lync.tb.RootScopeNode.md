@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lync Server 节点列出了拓扑中的中央站点。 可以执行以下操作：
-ms.openlocfilehash: 90d1b7fed5dec0372a7db33d7ffa5791f189ac13
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5416a32c2dc00651a19c6ebcce263d11cba18faa04cd9a536360e03740068ac4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305614"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server 根范围节点
  
@@ -38,11 +38,11 @@ Lync **Server** 节点列出了拓扑中的中央站点。 可以执行以下操
     
 - **将拓扑副本另存为**。 将当前拓扑保存到稍后可在拓扑生成器中重新加载的文件。
     
-- **发布拓扑**。 使用该选项将此拓扑发布到中央管理存储，以便开始部署服务器。
+- **发布拓扑**。使用该选项将此拓扑发布到中央管理存储，以便开始部署服务器。
     
 - **安装数据库**。 使您可以创建部署所需的数据库。
     
-- **合并 Office Communications Server 2007 R2 拓扑**。 启动拓扑生成器合并向导。 此工具收集有关以前的 Office Communications Server 环境的信息（包括边缘服务器信息）并发布到共享数据库。 
+- **合并 Office Communications Server 2007 R2 拓扑**。 启动拓扑生成器合并向导。 此工具收集有关以前的 Communications Server Office的信息，包括边缘服务器信息，并发布该信息到共享数据库。 
     
 - **删除部署**。 启动"删除部署"向导，以开始删除整个部署。
     

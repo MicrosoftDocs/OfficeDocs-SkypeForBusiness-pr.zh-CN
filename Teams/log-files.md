@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解调试、媒体和桌面日志Microsoft Teams、可在何处找到它们，以及它们如何帮助进行监视和故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a18dbef0441055c1202c2b77ce4f8af87040e561
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: d6baa1b7cbaff690899945ac554d1a3bcf9ff170
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689690"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724955"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用日志文件监视和排查Microsoft Teams
 
@@ -48,7 +48,7 @@ Mac：选择"帮助"菜单，然后选择"**收集支持文件"。**
 
 调试、桌面和媒体日志将收集到一个文件夹中，其名称为 MSTeams 诊断日志 <local data and time> 。 向 Microsoft 支持人员提出支持请求时，可以压缩和共享此文件夹。 该文件夹将包含桌面、会议 (媒体) 和调试 (Web) 。 可以使用以下键盘快捷方式收集文件：
 
-Windows：Crtl + Alt + Shift + 1
+Windows：Ctrl + Alt + Shift + 1
 
 Mac：Option + Command + Shift + 1
 
@@ -85,7 +85,7 @@ Mac：Option + Command + Shift + 1
 
 收集 Linux 日志：键盘快捷方式：Ctrl + Alt + Shift + 1 文件将在 ~/Downloads 中提供
 
-收集浏览器日志：键盘快捷方式：Crtl + Alt + Shift + 1 %userprofile%\Downloads 中提供文件
+收集浏览器日志：键盘快捷方式：Ctrl + Alt + Shift + 1 %userprofile%\Downloads 中提供文件
 
 ## <a name="media-logs"></a>媒体日志
 

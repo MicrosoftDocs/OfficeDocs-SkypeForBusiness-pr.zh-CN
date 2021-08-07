@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
-description: 如果有前端池、控制器池或边缘服务器池，则需要为这些池部署负载平衡。 负载平衡会将流量分配到池中的各台服务器上。 有关详细信息，请参阅：
-ms.openlocfilehash: 59a77b4c3e02d2b1df45284ffba0e0dffd366898
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 如果您有前端池、控制器池或边缘服务器池，则需要为这些池部署负载平衡。 负载平衡会将流量分配到池中的各台服务器上。 有关详细信息，请参阅：
+ms.openlocfilehash: 6996a28861d37be21b13350e2109676df6a6a74d96de4c2acb1acc7e72e721c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836102"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277267"
 ---
 # <a name="load-balancer-planning-tool"></a>负载平衡器 (规划工具) 
  
-如果有前端池、控制器池或边缘服务器池，则需要为这些池部署负载平衡。 负载平衡会将流量分配到池中的各台服务器上。 有关详细信息，请参阅：
+如果您有前端池、控制器池或边缘服务器池，则需要为这些池部署负载平衡。 负载平衡会将流量分配到池中的各台服务器上。 有关详细信息，请参阅：
   
-- [Skype for Business 的负载平衡要求](../../../plan-your-deployment/network-requirements/load-balancing.md)
+- [负载平衡要求Skype for Business](../../../plan-your-deployment/network-requirements/load-balancing.md)
     
 
     

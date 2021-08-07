@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 删除依赖于这些数据库和实例的服务器，或者在将服务器重新配置为使用另一个数据库之后，删除这些服务器数据库和实例。 当您停用当前 SQL Server 或重新配置当前服务器时，您需要执行本主题中的过程，使其呈现数据库已过时或不可用。
-ms.openlocfilehash: 6e108e4dfef86b482b839bd440f54702ab42107d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 在删除Microsoft SQL Server依赖数据库和实例的服务器后，或者将服务器重新配置为使用另一个数据库后，可以删除这些数据库和实例。 停用当前数据库时，您需要执行本主题中的过程SQL Server或重新配置当前服务器，使其使数据库过时或不可用。
+ms.openlocfilehash: f9e942f1f5516c0bf3437dd3fc9e2dc25b4cc4236e3cffabbf07ff08dde1e404
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306205"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>删除后端服务器上的 SQL Server 实例和数据库
 
-删除依赖于这些数据库和实例的服务器，或者在将服务器重新配置为使用另一个数据库之后，删除这些服务器数据库和实例。 当您停用当前 SQL Server 或重新配置当前服务器时，您需要执行本主题中的过程，使其呈现数据库已过时或不可用。
+在删除Microsoft SQL Server依赖数据库和实例的服务器后，或者将服务器重新配置为使用另一个数据库后，可以删除这些数据库和实例。 停用当前数据库时，您需要执行本主题中的过程SQL Server或重新配置当前服务器，使其使数据库过时或不可用。
   
-若要删除存档服务器或监视服务器的数据库或实例，必须首先删除该服务器角色。 同样，若要删除前端池的实例或数据库，必须首先删除或重新配置相关的服务器角色。 在并置的数据库或单独的服务器实例之间，这些过程没有差别。 这些过程不受数据库并置的影响。
+若要删除存档服务器或监控服务器的数据库或实例，必须先删除服务器角色。 同样，若要删除前端池的实例或数据库，则必须先删除或重新配置从属服务器角色。 在并置的数据库或单独的服务器实例之间，这些过程没有差别。 这些过程不受数据库并置的影响。
   
 ## <a name="in-this-section"></a>本节内容
 

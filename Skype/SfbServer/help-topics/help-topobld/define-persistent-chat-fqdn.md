@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
-description: 使用"定义新的持久聊天池"向导创建新的持久聊天服务器或持久聊天服务器池。 选择多计算机池或单计算机池。 如果选择单个计算机池，但之后需要多计算机池，则需要删除单个计算机池，然后定义一个多计算机池。
-ms.openlocfilehash: e96cc1f3c71dee7bab50d3101281596c17084207
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 使用"定义新的持久聊天池"向导创建新的持久聊天服务器或持久聊天服务器池。 选择"多计算机池"或"单计算机池"。 如果选择单计算机池，但后来需要多计算机池，则需要删除单计算机池，然后定义多计算机池。
+ms.openlocfilehash: 8c900574b84f2780bc3556242949bf7dce4e72b499acc53e514b1924b99ecabb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818442"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305454"
 ---
 # <a name="define-persistent-chat-fqdn"></a>定义持久聊天 FQDN
  
-使用"定义新的持久聊天池"向导创建新的持久聊天服务器或 **持久聊天服务器** 池。 选择多 **计算机池或****单计算机池**。 如果选择单个计算机池，但之后需要多计算机池，则需要删除单个计算机池，然后定义一个多计算机池。
+使用"定义新的持久聊天池"向导创建新的持久聊天服务器或 **持久聊天服务器** 池。 选择"多 **计算机池"或**"**单计算机池"。** 如果选择单计算机池，但后来需要多计算机池，则需要删除单计算机池，然后定义多计算机池。
   
-还必须为持久聊天服务器或持久聊天服务器池定义池 **FQDN。** 单个计算机池 (FQDN) 的池完全限定域名必须与单个服务器池的计算机的 FQDN 相同。 对于多计算机池，FQDN 必须是您选择代表此多计算机池的名称，并且由主机 A (和 AAAA 在 DNS 中定义（如果使用 IPv6) 记录）。
+还必须为持久聊天服务器或持久聊天服务器池定义池 **FQDN。** 单个计算机池的池 (FQDN) 的完全限定域名必须与单个服务器池的计算机的 FQDN 相同。 对于多计算机池，FQDN 必须是您选择用于表示此多计算机池的名称，并且由主机 A (和 AAAA 在 DNS 中定义（如果使用 IPv6) 记录）。
   
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 2015 中规划持久聊天服务器](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [将持久聊天服务器添加到 Skype for Business Server 2015 拓扑](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

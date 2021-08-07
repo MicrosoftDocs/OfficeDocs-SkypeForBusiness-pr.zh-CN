@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中配置无媒体旁路的中继
+title: Skype for Business Server：配置没有媒体旁路的中继
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
-description: 摘要：为 Skype for Business Server 配置未启用媒体旁路功能的中继。
-ms.openlocfilehash: ff1c34e36906c8b9f5c88495e3c24239f572184a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：配置未启用媒体旁路功能的中继Skype for Business Server。
+ms.openlocfilehash: 4cf17da7233697d31f386501be6f7089bf803205
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772423"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>在 Skype for Business Server 中配置无媒体旁路的中继
+# <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype for Business Server：配置没有媒体旁路的中继
 
-**摘要：** 为 Skype for Business Server 配置未启用媒体旁路功能的中继。
+**摘要：** 配置未启用媒体旁路功能的中继Skype for Business Server。
 
-如果要配置禁用媒体旁路功能的中继，请执行以下步骤。 如果要配置启用媒体旁路功能的中继，请参阅在 [Skype for Business Server](configure-trunk-with-media-bypass.md)中配置带媒体旁路功能的中继。
+如果要配置禁用媒体旁路功能的中继，请执行以下步骤。 如果要配置启用媒体旁路功能的中继，请参阅在"配置具有媒体旁路功能的中继[Skype for Business Server"。](configure-trunk-with-media-bypass.md)
 
 如下所述，中继配置可对应用于已分配此中继配置的中继的一组参数进行分组。特定中继配置的作用域可以是全局中继（针对没有更多特定站点或池配置的所有中继）、站点或者池。池级中继配置用于将特定中继配置的作用域限制为单个中继。
 
 ### <a name="to-configure-a-trunk-without-media-bypass"></a>配置无媒体旁路功能的中继
 
-1. 打开 Skype for Business Server 控制面板。
+1. 打开Skype for Business Server控制面板"。
 
 2. 在左侧导航栏中，单击“语音路由”，然后单击“Trunk 配置”。
 
@@ -64,7 +64,7 @@ ms.locfileid: "51106378"
 
 7. 如果中继对等方支持接收来自中介服务器的 SIP REFER 请求，请选中" **允许向** 网关发送参考"复选框。
 
-8. （可选）若要启用中继间路由，请对此中继配置关联和配置 PSTN 用法记录。 与此中继配置关联的 PSTN 用法将应用于通过并非源自 Skype for Business Server 终结点的中继的所有传入呼叫。 若要管理与中继配置关联的 PSTN 用法记录，请使用以下方法之一：
+8. （可选）若要启用中继间路由，请对此中继配置关联和配置 PSTN 用法记录。 与此中继配置关联的 PSTN 用法将应用于通过并非来自 Skype for Business Server 终结点的中继的所有传入呼叫。 若要管理与中继配置关联的 PSTN 用法记录，请使用以下方法之一：
 
    - 若要从部署中提供的所有 PSTN 用法记录列表中选择一个或多个企业语音，请单击"选择 **"。** 突出显示要与此中继配置关联的记录，然后单击“确定”。
 
@@ -85,7 +85,7 @@ ms.locfileid: "51106378"
 
      - 要删除 PSTN 用法记录中的某个路由，请选择相应的路由，然后单击“删除”。
 
-     - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”。 有关详细信息，请参阅在 Skype for Business 中创建或修改 [语音路由](create-or-modify-a-voice-route.md)。
+     - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”。 有关详细信息，请参阅 Create [or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md)。
 
      - 要编辑与此 PSTN 用法记录相关联的路由，请选择相应的路由，然后单击“显示详细信息”。
 
@@ -101,7 +101,7 @@ ms.locfileid: "51106378"
 
      - 要删除 PSTN 用法记录中的某个路由，请选择相应的路由，然后单击“删除”。
 
-     - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”。 有关详细信息，请参阅在 Skype for Business 中创建或修改 [语音路由](create-or-modify-a-voice-route.md)。
+     - 要定义新路由并将其与此 PSTN 用法记录相关联，请单击“新建”。 有关详细信息，请参阅 Create [or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md)。
 
      - 要编辑与此 PSTN 用法记录相关联的路由，请选择相应的路由，然后单击“显示详细信息”。
 
@@ -113,7 +113,7 @@ ms.locfileid: "51106378"
 9. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置，请选择 PSTN 用法记录，然后单击向上或向下箭头。
 
     > [!IMPORTANT]
-    > PSTN 用法记录在中继配置中的列出顺序十分重要。 Skype for Business Server 从上到下遍历该列表。
+    > PSTN 用法记录在中继配置中的列出顺序十分重要。 Skype for Business Server从上到下遍历列表。
 
 10. 应选择“启用 RTP 闭锁”，以便为 NAT 或防火墙之后的客户端以及支持闭锁的 SBC 启用媒体旁路。
 
@@ -123,11 +123,11 @@ ms.locfileid: "51106378"
 
 13. 应选择“启用出站路由故障转移计时器”以支持快速故障转移。 与此中继关联的网关可以在 10 秒内发出正在处理出站呼叫的通知。 如果中介服务器未收到此通知，将重新路由到另一个中继。 在延迟设置可能延迟响应时间或网关需要 10 秒以上时间进行响应的网络中，应禁用快速故障转移。
 
-14. （可选）关联和配置中继的“呼叫号码转换规则”。 这些转换规则适用于出站呼叫的呼叫号码
+14. （可选）关联和配置中继的“呼叫号码转换规则”。这些转换规则适用于出站呼叫的呼叫号码
 
-    - 若要从部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
+    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
 
-    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅[Translation rules in Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。
 
@@ -140,9 +140,9 @@ ms.locfileid: "51106378"
 
 15. （可选）关联和配置中继的“已呼叫号码转换规则”。这些转换规则适用于出站呼叫中的已呼叫号码。
 
-    - 若要从部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
+    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
 
-    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅[Translation rules in Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。
 
@@ -156,17 +156,17 @@ ms.locfileid: "51106378"
 16. 确保中继的转换规则按正确的顺序排列。 若要更改规则在列表中的位置，请突出显示规则名称，然后单击向上箭头或向下箭头。
 
     > [!IMPORTANT]
-    > Skype for Business Server 从上到下遍历转换规则列表，并使用第一个匹配拨打号码的规则。 如果要配置中继以使拨打号码可以匹配多个转换规则，请确保限制较严格的规则排在限制较宽松的规则上方。 例如，如果包含的转换规则与任意 11 位数字匹配，而转换规则仅与以 +1425 开头的 11 位数字匹配，请确保匹配任意 11 位数字的规则排序在限制较严格的规则下面。 
+    > Skype for Business Server从上到下遍历转换规则列表，并使用第一个匹配拨打号码的规则。 如果要配置中继以使拨打号码可以匹配多个转换规则，请确保限制较严格的规则排在限制较宽松的规则上方。 例如，如果包含的转换规则与任意 11 位数字匹配，而转换规则仅与以 +1425 开头的 11 位数字匹配，请确保匹配任意 11 位数字的规则排序在限制较严格的规则下面。 
 
 17. 完成中继的配置后，单击“确定”。
 
 18. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 任何时候创建或修改中继配置，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business。](voice-route-config-changes.md)
+    > 任何时候创建或修改中继配置，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 中配置带媒体旁路的中继](configure-trunk-with-media-bypass.md)
+[在客户端中配置具有媒体旁路Skype for Business Server](configure-trunk-with-media-bypass.md)
 
 [定义转换规则](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)

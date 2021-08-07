@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解向会议网桥分配新服务电话号码以扩大用户的覆盖范围所需的步骤。
-ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4514c9cf34049f9c9b92be697176c7897e560605
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102657"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724505"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
@@ -133,13 +133,14 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>步骤 3 - 从音频会议网桥取消分配旧电话号码
 
-![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+使用 Unregister-CsOnlineDialInConferencingServiceNumber cmdlet 从会议网桥取消注册收费或免费电话号码
 
-1. 在左侧导航栏中，转到"**语音**  >  **"电话号码"**。
+```PowerShell
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
+```
+注意：若要查找会议网桥 ID，请运行以下 PowerShell：Get-CsOnlineDialInConferencingBridge。
 
-2. 如果电话号码是免费电话号码，请从列表中选择电话号码，然后单击"释放 **"。** 如果电话号码是收费电话号码，请联系 [Microsoft](/microsoft-365/admin/contact-support-for-business-products) 支持部门以取消分配电话号码。
-
-3. 如果电话号码是免费电话号码，请在确认窗口中 **单击"是** "。
 
    > [!IMPORTANT]
    > 从音频会议网桥取消分配电话号码后，用户将无法再使用电话号码加入新会议或现有会议。
@@ -180,7 +181,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   ```
 
     > [!NOTE]
-    > 上面使用的位置需要匹配用户在管理 (中) 设置的Microsoft 365信息。
+    > 上面使用的位置需要匹配用户在 (中) 设置的联系人Microsoft 365 管理中心。
 
 ## <a name="troubleshooting"></a>疑难解答
 
@@ -195,7 +196,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 
 结果（除了标识、名称和区域等其他信息）还应包含 DefaultServiceNumber。
 
-**示例**， 要取消分配，DefaultServiceNumber 为 "8005551234"
+**示例**， 要取消分配，请取消分配 DefaultServiceNumber "8005551234"
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
@@ -208,7 +209,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 通过以下主题了解这些优势：
+Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次为许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
 
   - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 

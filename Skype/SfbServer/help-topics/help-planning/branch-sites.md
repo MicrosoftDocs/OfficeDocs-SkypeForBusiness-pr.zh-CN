@@ -1,5 +1,5 @@
 ---
-title: '分支站点 (规划工具) '
+title: Lync Server Branch Sites 规划工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,13 +16,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: 有关分支站点恢复能力的详细信息，请参阅 Planning for Branch-Site Voice Resiliency。
-ms.openlocfilehash: 96ef2d9afc376b5dee648f431d243ba5f67fe06b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: af049e151b8067242fcd9bfe08fba40962d57aa1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116130"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772593"
 ---
-# <a name="branch-sites-planning-tool"></a>分支站点 (规划工具) 
+# <a name="lync-server-branch-sites-planning-tool"></a>Lync Server Branch Sites 规划工具
 
 有关分支站点恢复能力的详细信息，请参阅 [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency)。

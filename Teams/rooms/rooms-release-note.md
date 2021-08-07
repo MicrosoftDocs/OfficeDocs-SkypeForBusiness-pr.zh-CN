@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读有关更新的Microsoft Teams 会议室说明，其中列出了 Microsoft Teams 会议室。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: f870f746a5ff085fc997d9071ba243e43a8046b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772723"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>适用于 Microsoft Teams 会议室 的发行说明
 
@@ -90,7 +90,7 @@ ms.locfileid: "53646873"
 - Windows 10 20H2 支持 
 
 > [!NOTE]
-> 包含"KYSKLi") Teams 会议室的 HP Elite Slice and Crestron UC-Engine (BIOS 版本日期存在兼容性问题，并且系统 OEM 将在近期提供更新的驱动程序。 Windows 10 20H2 不向这些设备提供。 有关版本支持Windows，请参阅版本[Windows 10支持](./rooms-lifecycle-support.md#windows-10-release-support)。
+> Crestron UC-Engine (包含"KYSKLi"的 BIOS 版本日期) Teams 会议室存在兼容性问题，并且系统 OEM 将在近期提供更新的驱动程序。 Windows 10 20H2 不向这些设备提供。 有关版本支持Windows，请参阅版本[Windows 10支持](./rooms-lifecycle-support.md#windows-10-release-support)。
 
 ### <a name="48250-04222021"></a>2021/04/22 (4.8.25.0) 
 

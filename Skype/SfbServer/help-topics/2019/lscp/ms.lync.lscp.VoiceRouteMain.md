@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: a9b55948228144fecbddc0d70b69c883b96590cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 99d4d86c42534307a9f935cba81a314d33b931dd785e50c9c597a273661b49a9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122076"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277307"
 ---
 # <a name="voice-route"></a>语音路由
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [在 Skype for Business 中创建或修改语音路由](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [Create or modify a voice route in Skype for Business](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
 - [修改语音路由](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)

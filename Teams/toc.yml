@@ -489,6 +489,8 @@ items:
         href: teams-policies.md
       - name: 在 Teams 中设置频道审查
         href: manage-channel-moderation-in-teams.md
+      - name: 管理实时组件
+        href: live-components-in-teams.md
       - name: Teams 和 Outlook 电子邮件集成
         href: teams-outlook-email-integration.md
       - name: 从 Outlook 共享到 Teams
@@ -1594,6 +1596,8 @@ items:
             href: devices/usb-devices.md
           - name: 在 Android 上部署 Microsoft Teams 会议室
             href: devices/collab-bar-deploy.md
+          - name: 设置 Microsoft Teams Android 设备用户接口
+            href: devices/Teams-Android-devices-user-interface.md
           - name: 会议室设备和解决方案
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams 认证设备

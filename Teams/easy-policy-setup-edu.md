@@ -1,5 +1,5 @@
 ---
-title: Teams教育策略向导，轻松应用安全学习策略
+title: Teams 教育版策略向导：轻松应用策略以安全学习
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,20 +15,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用 Teams 教育策略向导轻松应用学生和教师的策略，确保学习环境安全。
+description: 了解如何使用策略Teams 教育版轻松为学生和教师应用策略，确保学习环境安全。
 f1keywords: ''
-ms.openlocfilehash: 7eca1fca8a4c054d2787b205c5e57ced274416da
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2824ed511f1c2f5a5a7389760de9d50559e5da2a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772403"
 ---
-# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>使用 Teams 教育策略向导轻松应用安全学习环境的策略
+# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>使用Teams 教育版向导轻松应用安全学习环境的策略
 
 ## <a name="overview"></a>概述
 
-教育Microsoft Teams向导简化了学生和教师的策略管理。 使用它轻松快速地应用与创建安全高效学习体验相关的最重要的策略集。
+"Microsoft Teams 教育版策略向导"简化了学生和教师的策略管理。 使用它轻松快速地应用与创建安全高效学习体验相关的最重要的策略集。
 
 使用Teams策略可以控制Teams的行为方式，以及哪些功能可供用户使用。 例如，有呼叫策略、会议策略和消息传递策略，例如，可以自定义每个策略区域以满足组织的需求。
 
@@ -41,9 +41,9 @@ ms.locfileid: "51111088"
 本文逐步介绍如何运行向导。
 
 > [!IMPORTANT]
-> 向导应用的策略将满足大多数教育Teams的需求。 该向导使用 (安全建议的设置来调整) 组核心策略的全局范围默认策略定义，并应用于学生。 该向导还会创建一组自定义策略并将其分配给教师和教职员工。 大多数Teams教育客户在运行此向导后不需要使用其他策略分配方法。 只有在希望 *手动为学生* 、教师和教职员工创建和管理策略时，才使用其他策略分配方法。
+> 向导应用的策略将满足大多数客户Teams 教育版的需求。 该向导使用 (安全建议的设置来调整) 组核心策略的全局范围默认策略定义，并应用于学生。 该向导还会创建一组自定义策略并将其分配给教师和教职员工。 大多数Teams 教育版客户在运行此向导后不需要使用其他策略分配方法。 只有在希望 *手动为学生* 、教师和教职员工创建和管理策略时，才使用其他策略分配方法。
 
-## <a name="teams-for-education-policy-wizard"></a>Teams教育策略向导
+## <a name="teams-for-education-policy-wizard"></a>Teams 教育版策略向导
 
 <a name="polwiz_intro"> </a>
 
@@ -55,6 +55,8 @@ ms.locfileid: "51111088"
 - **教师和教** 职员工：该向导为向导涵盖的每个策略区域创建一组自定义策略定义，其设置专门针对教师和教职员工的需求。 然后，它将策略定义分配给你选择的教师和教职员工组。 这样，教师和教职员工可以获取一组更宽松的策略，帮助他们获得成功。
 
 只需运行向导一次。 新学生会自动获取 (应用全局域组织范围的默认) 策略定义，并自动为添加到所选组的新教职员工分配自定义策略。
+
+此外，每当向 Teams 添加新功能时，该功能的策略的相关 EDU 相关默认值将自动添加到全局 (组织范围的默认值) 而无需任何管理员干预。 这有助于确保制定正确的策略，确保学生的安全和参与。
 
 > [!NOTE]
 > 有关 [向导应用的策略](#policies-applied-by-the-wizard) 定义的详细列表，请参阅向导应用的策略。
@@ -135,9 +137,9 @@ ms.locfileid: "51111088"
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>步骤 3：检查消息中心的策略更新
 
-目前，该向导在运行时应用我们建议的策略。 必须知道，当新策略在 Teams 中可用时，向导不会自动添加全局 (组织范围内用于学生安全的默认) 设置。 此功能将在将来的版本中提供。
+目前，该向导在运行时应用我们建议的策略。 必须知道，当新策略在 Teams 中可用时，向导会自动更新全局 (组织范围内用于学生安全的默认) 设置。 
 
-在此功能可用之前，请经常[](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (Microsoft 365 管理中心) "消息中心"，随时了解 Teams 中的新策略和策略设置。 新功能可用时，可能需要手动更新策略，确保学习环境安全。
+但请经常检查[](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)消息 (中心Microsoft 365 管理中心) ，随时了解最新功能及其策略和策略Teams。 
 
 ## <a name="make-changes-in-the-wizard"></a>在向导中进行更改
 

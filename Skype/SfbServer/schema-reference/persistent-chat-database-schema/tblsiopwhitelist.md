@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
 description: tblSiopWhiteList 是可与节点关联的注册外接程序的列表。
-ms.openlocfilehash: cf7a727bd34e5c6f29f5bf0b203411983c90ae53
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3f1ad0461bc227970d4a2a0864dbc6318ef0af32d854402180321bab74aa91e5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305374"
 ---
 # <a name="tblsiopwhitelist"></a>tblSiopWhiteList
  
@@ -32,7 +32,7 @@ tblSiopWhiteList 是可与节点关联的注册外接程序的列表。
 |siopName  <br/> |nvarchar (50)，不为 null  <br/> |外接程序的显示名称。  <br/> |
 |siopUrl  <br/> |nvarchar (255)，不为 null  <br/> |外接程序的 URL。  <br/> |
    
-**注册表项**
+**键**
 
 |**列**|**说明**|
 |:-----|:-----|

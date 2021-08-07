@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: 位置策略确定是否启用增强型 9-1-1 (E9-1-1) 和如何使用它，以及如何将位置信息用于用户和联系人。
-ms.openlocfilehash: 9f6d7468520b3398f186adeacffd5b393ce159b8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: eabd1ce415f420ef62e9f85a7b4a7c4342e0f4d1ea1a34cf71b14319761f002a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109568"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305744"
 ---
 # <a name="location-policy"></a>位置策略
 
@@ -35,7 +35,7 @@ ms.locfileid: "51109568"
 - **用户策略 (可选) ：** 可以创建一个或多个用户位置策略，每个策略都适用于特定用户或用户组。 用户策略会覆盖全局策略和站点策略。
 
 > [!NOTE]
-> 也可以向网络站点（即子网组）分配位置策略。 分配给网络站点的位置策略优先于所有其他用户策略。 有关使用 cmdlet 向网络站点分配位置策略的详细信息，请参阅在 [Skype for Business Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)中向网络站点添加位置策略。 有关使用 Skype for Business Server 控制面板向网络站点分配位置策略的详细信息，请参阅 [配置网络站点](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
+> 也可以向网络站点（即子网组）分配位置策略。 分配给网络站点的位置策略优先于所有其他用户策略。 有关使用 cmdlet 向网络站点分配位置策略的详细信息，请参阅在 Skype for Business Server 中向网络站点[添加位置策略](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)。 有关使用 Skype for Business Server 控制面板向网络站点分配位置策略的详细信息，请参阅[配置网络站点](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
 
 “位置策略”页显示一个为组织定义的所有位置策略的列表。
 
@@ -70,7 +70,7 @@ ms.locfileid: "51109568"
 
 - **E9-1-1** 选中分配了此位置策略的用户是否已启用 E9-1-1。
 
-- **位置** 指定当用户的客户端在 Skype for Business Server 的新位置注册时是否提示用户输入位置信息，以及当用户在未输入位置信息的情况下消除提示时是否看到免责声明。
+- **位置** 指定当用户的客户端向 Skype for Business Server 注册到新位置时是否提示用户输入位置信息，以及当用户在未输入位置信息的情况下消除提示时是否看到免责声明。
 
 - **PSTN 用法** 指定公用电话交换网 (PSTN) 用法，用于确定使用此配置文件路由来自客户端的紧急呼叫的语音路由。
 
@@ -78,4 +78,4 @@ ms.locfileid: "51109568"
 
 - **E9-1-1 掩码** 指定用户拨打的、然后转换为紧急拨号号码的号码。
 
-有关紧急企业语音功能的详细信息，请参阅规划文档中的[Overview of E9-1-1。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)。
+有关紧急企业语音功能的详细信息，请参阅规划文档中的 Overview of [E9-1-1。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)。

@@ -11,34 +11,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
-description: Skype for Business Server 通过服务器池、通过池配对进行灾难恢复以及多种模式的后端服务器高可用性（包括 AlwaysOn 可用性组、数据库镜像和 SQL群集）提供高可用性。
-ms.openlocfilehash: 68baae183ff45571e38e922035d287e733bcc930
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server服务器池、通过池配对进行灾难恢复以及多种模式的后端服务器高可用性（包括 AlwaysOn 可用性组、数据库镜像和故障转移群集）SQL高可用性。
+ms.openlocfilehash: bb9a4428a1655308ca97fc837a20da799c8c09702c9cb906cf7d0157cda90c15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830612"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305874"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>部署高可用性和灾难恢复
  
-Skype for Business Server 通过服务器池、通过池配对进行灾难恢复以及多种模式的后端服务器高可用性（包括 AlwaysOn 可用性组、数据库镜像和 SQL群集）提供高可用性。 
+Skype for Business Server服务器池、通过池配对进行灾难恢复以及多种模式的后端服务器高可用性（包括 AlwaysOn 可用性组、数据库镜像和故障转移群集）SQL高可用性。 
   
-高可用性是指确保 Skype for Business Server 服务可用，即使一台或多台服务器不可用。灾难恢复是指在自然或人为灾难时使服务继续工作，并尽可能保留灾难之前尽可能多的数据。
+高可用性是指确保即使一Skype for Business Server台或多台服务器不可用，也可以使用高可用性服务。灾难恢复是指在发生自然或人为灾难时使服务继续工作，并尽可能保留灾难发生之前尽可能多的数据。
   
-本节介绍了如何部署这些功能，还介绍了您可以为某些其他服务器角色的高可用性和灾难恢复采取哪些步骤。
+本节介绍了如何部署这些功能，还介绍了您可以采取哪些步骤实现某些其他服务器角色的高可用性和灾难恢复。
 
 > [!NOTE]
-> SQL镜像在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法是 Skype for Business Server 2019 的首选。
+> SQL镜像在 Skype for Business Server 2015 中可用，但在 2019 年 2 月不再Skype for Business Server支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法在 Skype for Business Server 2019 中Skype for Business Server首选。
   
 ## <a name="related-sections"></a>相关章节
 
-[在 Skype for Business Server 中规划高可用性和灾难恢复](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+[规划 Skype for Business Server 中的高可用性和Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 的后端服务器上部署 AlwaysOn 可用性组](alwayson-availability-group.md)
+[在 Skype for Business Server 中的后端服务器上部署 AlwaysOn 可用性Skype for Business Server](alwayson-availability-group.md)
 
-[在 Skype for Business Server 中部署配对前端池进行灾难恢复](front-end-pools-for-disaster-recovery.md)
+[部署配对的前端池，以在 Skype for Business Server](front-end-pools-for-disaster-recovery.md)
   
-[在 skype SQL Server 2015 中部署后端服务器高可用性的镜像](sql-mirroring-for-high-availability.md)
+[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](sql-mirroring-for-high-availability.md)
   

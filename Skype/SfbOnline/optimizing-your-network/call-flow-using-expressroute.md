@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 本文旨在介绍 Skype for Business Online 和 ExpressRoute 的核心呼叫流原理，并提供详细呼叫流示例来帮助你正确理解和规划呼叫流。
-ms.openlocfilehash: bca31191356d127245d251117904c0a300862aa5
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 098949c41430bc939197a21373489b1aaa10c1678943d0ee695cd7ade02be142
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304634"
 ---
 # <a name="call-flow-using-expressroute"></a>使用 ExpressRoute 的呼叫流
 
@@ -83,7 +83,7 @@ Skype for Business Online 的网络流量分为两大类，在调用流中显示
 
 此流量的目标位于所有Office 365服务Microsoft 365 [IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)地址Office 365范围。 对于每个 URL，它指示该部分流量是否可以遍历 ExpressRoute Microsoft 365或Office 365。 有关显示启用 ExpressRoute 时，Internet 仍用于某些流量的图表，请参阅 Azure [ExpressRoute for Office 365。](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd) 必须知道，即使列为通过 ExpressRoute 可路由的 URL 也可通过 Internet 进行路由。 这意味着，在某些情况下，决定是使用 Internet 还是 ExpressRoute 取决于客户端的位置以及代理服务器和防火墙的配置。 还必须了解，由于并非所有与 Microsoft 365 或 Office 365 关联的 URL 都能够使用 ExpressRoute，因此即使从 ExpressRoute 合作伙伴购买 ExpressRoute，也还需要 Internet 连接。
 
-只能通过 Internet 发送的流量包括常见的 Internet 依赖项，例如证书吊销列表 (CTL) 、DNS 查找和名称解析、共享 Microsoft 365 或 Office 365 服务的 URL（例如 Microsoft 365 管理中心）以及 Skype for Business Online 的一些非实时通信功能，例如用于与 Skype 使用者互操作性的遥测和联合身份验证，以及针对 Skype 会议 Broadcast 流式传输的媒体。 若要帮助做出决策，请参阅[使用 ExpressRoute](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)进行Office 365，了解规划网络路由时需要考虑的更多注意事项。
+只能通过 Internet 发送的流量包括常见的 Internet 依赖项，例如证书吊销列表 (CCL) 、DNS 查找和名称解析、共享 Microsoft 365 或 Office 365 服务（例如 Microsoft 365 管理中心）的 URL，以及 Skype for Business Online 的一些非实时通信功能，例如用于与 Skype 使用者互操作性的遥测和联合身份验证，以及针对 Skype 会议 Broadcast 流式传输的媒体。 若要帮助做出决策，请参阅[使用 ExpressRoute](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)进行Office 365，了解规划网络路由时需要考虑的更多注意事项。
 
 ## <a name="principles-for-call-flows-with-skype-for-business"></a>使用 Skype for Business 的呼叫流原则
 

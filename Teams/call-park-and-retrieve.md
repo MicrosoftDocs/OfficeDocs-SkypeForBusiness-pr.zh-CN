@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 了解如何使用呼叫暂停和检索在呼叫中保持Microsoft Teams。
-ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
-ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
+ms.openlocfilehash: 751101a250c7a3f38ac7ba51dc8a22cc91d4d7b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53147180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772603"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
@@ -53,7 +53,7 @@ ms.locfileid: "53147180"
 
 1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **呼叫""公园策略"。**
 2. 在"**管理策略"选项卡** 上，单击"**添加"。**
-3. 为策略命名，然后将"允许 **呼叫停放"切换为**"**开"。**
+3. 为策略命名，然后将"允许 **呼叫停放"切换为**"**开"。**  (无法自定义呼叫取件范围和超时。) 
 
     ![呼叫公园策略设置的屏幕截图](media/call-park-add-policy.png)
 

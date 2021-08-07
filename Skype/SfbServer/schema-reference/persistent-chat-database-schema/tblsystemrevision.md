@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
-description: tblSystemRevision 包含用于 tblAdminLock 表的修订号，以实现多个管理员客户端的一致性。
-ms.openlocfilehash: 5bbcf547d6e6f31cc3e9d71415fed6f351c82910
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblSystemRevision 包含用于 tblAdminLock 表的修订号，以实现多个管理员客户端之间的一致性。
+ms.openlocfilehash: dfe2de9b16aa7433e3047d012d4e4a29966ed3f6a303d78f49e4ca6d810ea2a5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305354"
 ---
 # <a name="tblsystemrevision"></a>tblSystemRevision
  
-tblSystemRevision 包含用于 tblAdminLock 表的修订号，以实现多个管理员客户端的一致性。
+tblSystemRevision 包含用于 tblAdminLock 表的修订号，以实现多个管理员客户端之间的一致性。
   
 **Columns**
 

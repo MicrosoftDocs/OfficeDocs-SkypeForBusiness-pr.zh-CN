@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的对等 IM 报告
+title: 报告中的对等 IM Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 摘要：了解 Skype for Business Server 中的对等 IM 报告。
-ms.openlocfilehash: 1962d2d39ce23b6cdfeaedf7db6a3ada3b1e8eab
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 32f68fcf4d191896fc86aa1bc18007920f0b0f7cb29ba446385ced478dc5879c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276807"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等 IM 报告
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>报告中的对等 IM Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的对等 IM 报告。
   
@@ -27,7 +27,7 @@ ms.locfileid: "49823492"
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>访问对等 IM 报告
 
-只有打开 [Skype for Business Server](peer-to-peer-activity-summary-report.md) 中的对等活动摘要报告，然后单击以下指标之一，才能访问对等 IM 报告：
+只有在 Skype for Business Server 中打开对等活动摘要报告，然后单击以下指标[之一，才能](peer-to-peer-activity-summary-report.md)访问对等 IM 报告：
   
 - 对等 IM 会话总数
     
@@ -46,8 +46,8 @@ ms.locfileid: "49823492"
 |**名称**|**说明**|
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期和时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|"自" <br/> |时间范围的结束日期和时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最大值数，则仅显示最大值数（从开始日期开始）。 例如，如果您选择开始日期为 2015/7/7、结束日期为 2/28/2015 的"每天"间隔， 数据显示在 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
+|**To** <br/> |时间范围的结束日期和时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
+|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最大值数，则仅显示最大值数（从开始日期开始）。 例如，如果您选择开始日期为 2015/7/7 和结束日期为 2015/2/28 的"每天"间隔， 显示 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
 |**报告依据** <br/> | 指示要在报告中使用的值。选择下列选项之一： <br/>  会话计数 <br/>  消息计数 <br/> |
    
 ## <a name="metrics-for-peer-to-peer-im-session-by-pool"></a>按池列出的点对点 IM 会话的指标
@@ -70,7 +70,7 @@ ms.locfileid: "49823492"
 
 |**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**身份验证类型** <br/> |否  <br/> | 会话参与者使用的身份验证的类型。通常可指定下列值之一： <br/>  企业版 <br/>  联合 <br/>  PIC <br/> |
+|**身份验证类型** <br/> |否  <br/> | 会话参与者使用的身份验证的类型。通常可指定下列值之一： <br/>  企业版 <br/>  Federated <br/>  PIC <br/> |
 |**日期/时间** <br/> |否  <br/> |会话发生的日期和时间。  <br/> |
 |**Total** <br/> |否  <br/> |会话总数或消息总数。  <br/> |
    
