@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 了解 Skype for Business Server 企业语音 中的呼叫允许控制，如果呼叫的媒体质量较差，呼叫允许控制企业语音。
-ms.openlocfilehash: a802babc1b97eaf73b338f56c8c0a2b6c1f0efd6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ee51e83c8c797a958ce520e0215b438927a65005d8cb1b3caf4c75793cb55f99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306903"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>在 Skype for Business Server 中规划呼叫允许控制
 
@@ -185,15 +185,15 @@ CAC 带宽策略可以定义以下任意或全部：
 > 所有 CAC 带宽值都表示最大  *单向带宽*  限制。
 
 > [!NOTE]
-> Skype for Business Server 语音策略功能提供了覆盖带宽策略检查的功能，以检查传入用户的呼叫 (而不是用户呼叫者拨打的传出) 。 建立会话后，将准确计算带宽消耗。 应慎用此设置。 有关详细信息，请参阅部署文档中的在 Skype for Business 中创建或修改语音策略和配置 [PSTN](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) 用法记录或修改语音策略和配置 [PSTN 用法](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) 记录。
+> 通过Skype for Business Server语音策略功能，可以覆盖带宽策略检查，以检查到用户的传入呼叫 (而不是覆盖用户呼叫者拨打的传出) 。 建立会话后，将准确计算带宽消耗。 应慎用此设置。 有关详细信息，请参阅部署文档中的创建或修改语音策略和配置[PSTN](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)用法Skype for Business或修改语音策略和配置[PSTN 用法](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)记录。
 
 若要基于每个会话优化带宽利用率，请考虑将使用的音频和视频编解码器的类型。 特别是，要避免为预期经常使用的编解码器分配带宽不足。 相反，如果要阻止媒体使用要求更多带宽的编解码器，则应该将每个会话的最大带宽设置为足够低以阻止此类使用。 对于音频，并非每个编解码器都适用于每个方案。 例如：
 
-- 在考虑编解码器带宽和优先顺序时，Skype for Business 终结点之间的对等音频呼叫将使用 RTAudio (8kHz) 或 RTAudio (16kHz) 。
+- 当您考虑编解码器带宽和优先顺序时，Skype for Business 终结点之间的对等音频呼叫将使用 RTAudio (8kHz) 或 RTAudio (16kHz) 。
 
-- Skype for Business 终结点和 A/V 会议服务之间的电话会议将使用 G.722 或 Siren。
+- 会议终结点Skype for Business A/V 会议服务之间的电话会议将使用 G.722 或 Siren。
 
-- 对公用电话交换网 (PSTN) 或 Skype for Business 终结点的呼叫将使用 G.711 或 RTAudio (8kHz) 。
+- 对公用电话交换网 (PSTN) 的呼叫将使用 Skype for Business G.711 或 RTAudio (8kHz) 。
 
 使用下表可帮助优化每个会话的最大带宽设置。
 
@@ -214,9 +214,9 @@ CAC 带宽策略可以定义以下任意或全部：
 
 G.722.1 和 Siren 编解码器相似，但它们提供不同的比特率。
 
-G.722 是 Skype for Business Server 会议的默认编解码器，与 G.722.1 和 Siren 编解码器完全不同。
+G.722 是会议的默认编解码器Skype for Business Server G.722.1 和 Siren 编解码器完全不同。
 
-在下列情况下，在 Skype for Business Server 中使用 Siren 编解码器：
+Siren 编解码器用于Skype for Business Server的情况：
 
 - 如果带宽策略设置得太低，无法使用 G.722。
 
@@ -228,10 +228,10 @@ G.722 是 Skype for Business Server 会议的默认编解码器，与 G.722.1 �
 |:-----|:-----|:-----|:-----|
 |对等音频呼叫  <br/> |45 kbps  <br/> |62 kbps  <br/> |91 kbps  <br/> |
 |电话会议  <br/> |53 kbps  <br/> |101 kbps  <br/> |165 kbps  <br/> |
-|PSTN 呼叫 (Skype for Business 和 PSTN 网关之间，媒体旁路)   <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
-|PSTN 呼叫 (Skype for Business 和中介服务器之间，无需媒体旁路)   <br/> |45 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
+|PSTN 呼叫 (网关Skype for Business PSTN 网关之间，媒体旁路)   <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
+|PSTN 呼叫 (服务器Skype for Business中介服务器之间，没有媒体旁路)   <br/> |45 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
 |PSTN 呼叫 (中介服务器和 PSTN 网关之间，没有媒体旁路)   <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
-|Skype for Business - Polycom 呼叫  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |
+|Skype for Business - Polycom 调用  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |
 
 ### <a name="identify-ip-subnets"></a>标识 IP 子网
 
@@ -240,7 +240,7 @@ G.722 是 Skype for Business Server 会议的默认编解码器，与 G.722.1 �
 在我们的示例中，为北美地区的纽约站点分配了以下 IP 子网：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 假设通常在底特律工作的 Bob 出差到纽约办事处接受培训。 打开计算机并连接到网络时，他的计算机将获取为纽约保留的四个范围之一中的 IP 地址，例如 172.29.80.103。
 
 > [!CAUTION]
-> 在服务器上进行网络配置期间指定的 IP 子网必须与客户端计算机提供的格式相匹配，才能正确用于媒体旁路。 Skype for Business 客户端采用其本地 IP 地址，并屏蔽具有关联子网掩码的 IP 地址。 在确定与每个客户端关联的绕过 ID 时，注册器将比较与每个网络站点关联的 IP 子网列表和客户端提供的子网，以确定完全匹配。 因此，在服务器上进行网络配置期间输入的子网是实际子网而不是虚拟子网，这一点很重要。  (如果部署呼叫允许控制 ) ， 但不是媒体旁路，即使配置了虚拟子网，呼叫允许控制也会正常工作。例如，如果客户端登录 IP 地址为 172.29.81.57 的计算机上 IP 子网掩码为 255.255.255.0，Skype for Business 将请求与子网 172.29.81.0 关联的绕过 ID。 如果子网定义为 172.29.0.0/16，那么即使客户端属于虚拟子网，注册器也不会将此看做匹配，因为注册器会专门查找子网 172.29.81.0。 因此，管理员必须完全按照 Skype for Business 客户端提供的子网输入子网 (这些客户端在网络配置期间静态或由 DHCP.) 
+> 在服务器上进行网络配置期间指定的 IP 子网必须与客户端计算机提供的格式相匹配，才能正确用于媒体旁路。 客户端Skype for Business其本地 IP 地址，并屏蔽具有关联子网掩码的 IP 地址。 在确定与每个客户端关联的绕过 ID 时，注册器将比较与每个网络站点关联的 IP 子网列表和客户端提供的子网，以确定完全匹配。 因此，在服务器上进行网络配置期间输入的子网是实际子网而不是虚拟子网，这一点很重要。  (如果部署呼叫允许控制 ) ， 但不是媒体旁路，即使配置了虚拟子网，呼叫允许控制也会正常工作。例如，如果客户端登录 IP 地址为 172.29.81.57 的计算机上 IP 子网掩码为 255.255.255.0，Skype for Business 将请求与子网 172.29.81.0 关联的绕过 ID。 如果子网定义为 172.29.0.0/16，那么即使客户端属于虚拟子网，注册器也不会将此看做匹配，因为注册器会专门查找子网 172.29.81.0。 因此，管理员必须完全按照 Skype for Business 客户端提供的子网输入子网 (这些客户端在网络配置期间静态或由 DHCP.) 
 
 ## <a name="best-practices-for-call-admission-control"></a>呼叫允许控制最佳做法
 

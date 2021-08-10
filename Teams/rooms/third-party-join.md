@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文讨论如何配置组织和设备Teams 会议室以支持加入 Cisco WebEx 和 Zoom 的第三方会议。
-ms.openlocfilehash: ef14d1f342c6f2b34ad7c948a2688fa39a09801d
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 9857c4dee31c02c96212ccead33408b9e55b989de5b00d1d38aa975dc0413aab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796686"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275928"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>启用Teams会议室设备加入第三方会议
 

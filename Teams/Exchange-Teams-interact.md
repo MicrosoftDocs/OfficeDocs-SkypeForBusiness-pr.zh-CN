@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d908373cf3e8df6429823d9245cf53a52fbf901
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2088272756886b210ae99b32f8c3148d237b10ccb367702745f0327cc4e2896
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796536"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590776"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -45,12 +45,12 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 **支持的操作：**
 
-| 用户的邮箱托管在：                                        | 电子数据展示       | 合法&nbsp;保留    | 保留  | 团队和频道管理 | 在 Teams 中创建和查看会议 | 修改用户个人资料图片 | 呼叫历史记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件  | 添加和配置连接器 | 添加和配置选项卡 | 添加和配置聊天机器人 |
-|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                 | 是 <sup>1</sup> | 支持<sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
-| **Exchange Online Dedicated vNext**                                 | 是 <sup>1</sup> | 支持<sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
-| **Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）  | 是 <sup>1</sup> | 是 <sup>1、2</sup> | 是 <sup>3</sup> | 是                   | 否                                | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
-| **Exchange 本地**（同步到 Azure AD） | 是 <sup>1，9</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>         | 是                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
+| 用户的邮箱托管在：                                       | 电子数据展示         | 合法&nbsp;保留    | 保留        | 团队和频道管理 | 在 Teams 中创建和查看会议 | 修改用户个人资料图片 | 呼叫历史记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件        | 添加和配置连接器 | 添加和配置选项卡 | 添加和配置聊天机器人 |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | 是 <sup>1</sup>   | 支持<sup>1</sup>   | 是              | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是              | 是                          | 是                    | 是                    |
+| **Exchange Online Dedicated vNext**                                | 是 <sup>1</sup>   | 支持<sup>1</sup>   | 是              | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是              | 是                          | 是                    | 是                    |
+| **Exchange Online Dedicated - Legacy**（同步到所需 Azure AD） | 是 <sup>1</sup>   | 是 <sup>1、2</sup> | 是 <sup>3</sup> | 是                   | 否                                | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>             | 是                    | 是                    |
+| **Exchange 本地**（同步到 Azure AD）                        | 是 <sup>1，9</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>                  | 是<sup>10</sup>            | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>             | 是                    | 是                    |
 
 <sup>1</sup> 所有托管选项均支持电子数据展示和合法保留，以实现频道消息合规性。
 
@@ -64,11 +64,13 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 <sup>6</sup> 仅默认联系人文件夹中的联系人。 不支持访问其他联系人文件夹或子文件夹。
 
-<sup>7</sup> Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果在策略中关闭 **-SetPhotoEnabled** 设置，则用户无法添加、更改或删除其个人资料图片，因此，如果管理员更改了照片，则 porfile 图片不会同步到团队。
+<sup>7</sup> Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果在策略中关闭 **-SetPhotoEnabled** 设置，则用户无法添加、更改或删除其个人资料图片，因此，如果管理员更改了照片，配置文件图片将不会同步到团队。
 
 <sup>8</sup> 需要满足[为本地托管的邮箱创建和查看会议的要求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)部分中列出的要求。
 
 <sup>9</sup>至少还需要Exchange Online计划 1 许可证。 有关详细信息，请参阅[搜索Teams本地用户的聊天数据](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+
+<sup>10</sup>本地用户可以使用 Teams更新其个人资料图片，即使 Web 邮箱Outlook上的设置设置为 `SetPhotoEnabled` `false` 。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的要求
 

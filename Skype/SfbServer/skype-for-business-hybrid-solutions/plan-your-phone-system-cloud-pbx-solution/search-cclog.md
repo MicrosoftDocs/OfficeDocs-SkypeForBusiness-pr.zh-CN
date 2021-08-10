@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
-description: Search-CcLog cmdlet 用于在 Skype for Business 云连接器版本设备日志目录中搜索传入和传出呼叫日志。
-ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此Search-CcLog cmdlet 搜索设备日志目录中的Skype for Business 云连接器版本呼叫日志。
+ms.openlocfilehash: 5fd062295ac9145660ca9a53f56973f77783cd9730993d958c7348b7761c4387
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306603"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
-Search-CcLog cmdlet 用于在 Skype for Business 云连接器版本设备日志目录中搜索传入和传出呼叫日志。
+此Search-CcLog cmdlet 搜索设备日志目录中的Skype for Business 云连接器版本呼叫日志。
   
 ```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
@@ -33,7 +33,7 @@ Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <str
 
 ### <a name="example-1"></a>示例 1
 
-以下示例使用默认文件名在设备日志目录中搜索传入和传出呼叫日志：
+以下示例使用默认文件名搜索设备日志目录中的传入和传出呼叫日志：
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
@@ -41,7 +41,7 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 
 ### <a name="example-2"></a>示例 2
 
-以下示例使用给定文件路径和名称搜索传入和传出呼叫日志：
+下一个示例使用给定的文件路径和名称搜索传入和传出呼叫日志：
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
@@ -55,16 +55,16 @@ Search-CsClsLogging cmdlet 提供用于搜索集中日志记录服务所生成�
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必需**|**类型**|**说明**|
+|**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-|StartTime  <br/> | 必需 <br/> |System.Datetime  <br/> | 要搜索的日志条目的开始日期和时间。指定本地时区。 <br/> |
-|EndTime  <br/> |必需  <br/> |System.Datetime  <br/> |要搜索的日志条目的结束日期和时间。指定本地时区。  <br/> |
+|StartTime  <br/> | 必需 <br/> |System.Datetime  <br/> | 要搜索的日志条目的开始日期和时间。 指定本地时区。 <br/> |
+|EndTime  <br/> |必需  <br/> |System.Datetime  <br/> |要搜索的日志项目的结束日期和时间。 指定本地时区。  <br/> |
 |FileName  <br/> |必需  <br/> |System.String  <br/> |指定包含搜索结果的文本文件的完整路径。  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
 
-无。Search-CcLog cmdlet 不接受主线输入。
+无。 Search-CcLog cmdlet 不接受通过管道的输入。
   
 ## <a name="return-types"></a>返回类型
 <a name="ReturnTypes"> </a>

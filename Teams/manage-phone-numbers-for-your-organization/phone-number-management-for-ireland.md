@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在爱尔兰获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 4050ea64677bad9f6481025feea52a8b593b4fa6
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: ed4496cfc8f1a5882d2126cb1f9bc3225bae0e03bb1b770849bd8862221775a9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306354"
 ---
 # <a name="phone-number-management-for-ireland"></a>爱尔兰的电话号码管理
 

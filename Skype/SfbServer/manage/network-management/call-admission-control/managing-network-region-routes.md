@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 网络区域路由 定义一对网络区域之间的路由。 呼叫允许控制部署中的每对网络区域均需要网络区域路由。
-ms.openlocfilehash: c91f46ff45dd50f638cdb4f256fb93f2d33781ec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 822785657020e9f1f071623f844766cfb1a12dd1b5cee1c20c23edcf584addad
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118551"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590756"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络区域路由
 
@@ -24,20 +24,20 @@ ms.locfileid: "51118551"
 
 ## <a name="view-network-region-route-information"></a>查看网络区域路由信息 
 
-呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 使用以下过程在 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序 中查看现有网络区域路由。 
+呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 使用以下过程在控制面板或命令行管理程序Skype for Business Server现有Skype for Business Server路由。 
 
-### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>在 Skype for Business Server 控制面板中查看网络区域路由信息
+### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>在控制面板中查看Skype for Business Server路由信息
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
 3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **路由"。**
 
 4.  在“区域路由”页上，单击要查看的区域路由。
 
 
-    > [!NOTE]  
+    > [!NOTE]
     > 您一次只能查看一个区域路由。
 
 
@@ -46,34 +46,34 @@ ms.locfileid: "51118551"
 
 ### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 查看网络区域Windows PowerShell信息
 
-网络区域路由信息可以通过使用 Windows PowerShell 和 Get-CsNetworkInterRegionRoute cmdlet 进行查看。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 
+网络区域路由信息可以通过使用 Windows PowerShell 和 Get-CsNetworkInterRegionRoute cmdlet 进行查看。 此 cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。 
 
 ### <a name="to-view-network-region-route-information"></a>查看网络区域路由信息
 
-  - 若要查看有关所有网络区域路由的信息，请在 Skype for Business Server 命令行管理程序 中键入以下命令，然后按 Enter：
+  - 若要查看有关所有网络区域路由的信息，请在命令行管理程序中Skype for Business Server以下命令，然后按 Enter：
     
-        Get-CsNetworkInterRegionRoute
+    **Get-CsNetworkInterRegionRoute**
     
     这将返回与以下类似的信息：
     
-        Identity                  : TransAmericaRoute
-        NetworkRegionLinks        : {NorthwestToNortheast}
-        InterNetworkRegionRouteID : TransAmericaRoute
-        NetworkRegionID1          : Pacific Northwest
-        NetworkRegionID2          : Northeast
+    标识 ： TransAmericaRoute<br/>
+    NetworkRegionLinks ： {NorthwestToNortheast}<br/>
+    InterNetworkRegionRouteID ： TransAmericaRoute<br/>
+    NetworkRegionID1： Pacific Northwest<br/>
+    NetworkRegionID2：东部<br/>
 
 有关详细信息，请参阅 [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet 的帮助主题。
 
 
 ## <a name="create-or-modify-network-region-routes"></a>创建或修改网络区域路由
 
-呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 可以使用 Skype for Business Server 控制面板配置网络区域路由。 从 Skype for Business Server 控制面板中，可以创建、修改或删除网络区域路由。 使用本主题创建或修改网络区域路由。 
+呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 可以使用"Skype for Business Server控制面板"配置网络区域路由。 从Skype for Business Server控制面板中，可以创建、修改或删除网络区域路由。 使用本主题创建或修改网络区域路由。 
 
 ### <a name="to-create-a-network-region-route"></a>创建网络区域路由
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
 3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **路由"。**
 
@@ -82,7 +82,7 @@ ms.locfileid: "51118551"
 5.  在“新建区域路由”的“名称”字段中键入值。
    
     > [!NOTE]  
-    > 此值在 Skype for Business Server 部署中必须是唯一的。
+    > 此值在部署中必须Skype for Business Server。
 
 6.  从" **网络区域 \# 1"** 下拉列表中，选择要通过此路由连接的两个区域之一。
 
@@ -100,7 +100,7 @@ ms.locfileid: "51118551"
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
 3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **路由"。**
 
@@ -115,13 +115,13 @@ ms.locfileid: "51118551"
 
 ## <a name="delete-existing-network-region-routes"></a>删除现有网络区域路由
 
-呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 可以使用 Skype for Business Server 控制面板配置网络区域路由。 从 Skype for Business Server 控制面板中，可以创建、修改或删除网络区域路由。 使用本主题可删除现有网络区域路由。 
+呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 可以使用"Skype for Business Server控制面板"配置网络区域路由。 从Skype for Business Server控制面板中，可以创建、修改或删除网络区域路由。 使用本主题可删除现有网络区域路由。 
 
 ### <a name="to-delete-a-network-region-route"></a>删除网络区域路由
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
 3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"区域 **路由"。**
 

@@ -17,12 +17,12 @@ description: 了解如何在 Teams 管理中心的"管理应用"页上管理Micr
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: e237fc1e511694b80cb9b98ca4e1f9c36f1eba25
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: bf286dd4be3c294d8da0928ddb2317814102e7fbadf6fac306919bbae1bb0b88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304854"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在管理中心内Microsoft Teams应用
 

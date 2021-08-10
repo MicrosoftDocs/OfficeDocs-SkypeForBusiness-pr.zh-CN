@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
-description: tblNode 包含对象树 (类别或聊天室节点) 在控制面板和管理 cmdlet 中进行管理。
-ms.openlocfilehash: cd2353d768ef61787b81efcdfe35f9c57409cc12
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblNode 包含对象树 (类别或聊天室节点) 控制面板和管理 cmdlet 中管理的对象树节点。
+ms.openlocfilehash: 2d26e61fc9404e2649ca71d4e48d4bb3f147c88ec787dfd798753eaa5f83a5b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815922"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306713"
 ---
 # <a name="tblnode"></a>tblNode
  
-tblNode 包含对象树 (类别或聊天室节点) 在控制面板和管理 cmdlet 中进行管理。
+tblNode 包含对象树 (类别或聊天室节点) 控制面板和管理 cmdlet 中管理的对象树节点。
   
 **Columns**
 
@@ -37,7 +37,7 @@ tblNode 包含对象树 (类别或聊天室节点) 在控制面板和管理 cmdl
 |invite  <br/> |bit  <br/> | 针对类别： <br/>  如果邀请打开，则为 True。 <br/>  如果邀请关闭，则为 False。 <br/>  针对聊天室： <br/>  如果邀请关闭，则为 False（覆盖父类别）。 <br/>  如果邀请设置是继承自父类别，则为 Null。 <br/> |
 |已记录  <br/> |bit  <br/> | 针对类别： <br/>  如果聊天历史记录打开，则为 True。 <br/>  如果聊天历史记录关闭，则为 False。 <br/>  针对聊天室： <br/>  Null。 <br/> |
 |filePost  <br/> |bit  <br/> | 针对类别： <br/>  如果允许文件上载，则为 True。 <br/>  如果不允许文件上载，则为 False。 <br/>  针对聊天室： <br/>  Null。 <br/> |
-|已禁用  <br/> |bit，不为 null  <br/> |如果聊天室已禁用，则为 True。仅适用于聊天室。（对于类别则为 False。）  <br/> |
+|disabled  <br/> |bit，不为 null  <br/> |如果聊天室已禁用，则为 True。仅适用于聊天室。（对于类别则为 False。）  <br/> |
 |behavior  <br/> |smallint，不为 null  <br/> | 行为（在 EnumValue 表中查找）： <br/>  4：普通（普通聊天室）。 <br/>  5：大会堂（大会堂聊天室，仅演示者可以参与）。 <br/>  仅适用于聊天室。 <br/> |
 |visibility  <br/> |smallint，不为 null  <br/> | 可见性（在 EnumValue 表中查找）： <br/>  2：专用 <br/>  3：范围 <br/>  6：打开 <br/>  仅适用于聊天室。 <br/> |
 |siopID  <br/> |GUID  <br/> |如果外接程序与此聊天室关联，则为外接程序 GUID。（类别没有外接程序。）  <br/> 外接程序信息在 SiopWhiteList 表中进行查找。  <br/> |
@@ -45,7 +45,7 @@ tblNode 包含对象树 (类别或聊天室节点) 在控制面板和管理 cmdl
 |nodeAddedOn  <br/> |bigint，不为 null  <br/> |节点创建的时间戳。  <br/> |
 |nodeUpdatedBy  <br/> |int，不为 null  <br/> |对此节点执行最新更新的主体的 ID。  <br/> |
 |nodeUpdatedOn  <br/> |bigint，不为 null  <br/> |此节点最新更新的时间戳。  <br/> |
-|purgedOn  <br/> |datetime  <br/> |影响此节点的最近一次清除操作（从 tblScopedPrincipal 表中删除范围，从 tblPrincipalRole 表中删除角色）的时间。 聊天服务的内部缓存更新机制会使用此功能。  <br/> |
+|purgedOn  <br/> |datetime  <br/> |影响此节点的最近一次清除操作（从 tblScopedPrincipal 表中删除范围，从 tblPrincipalRole 表中删除角色）的时间。 这由聊天服务的内部缓存更新机制使用。  <br/> |
    
 **Keys**
 

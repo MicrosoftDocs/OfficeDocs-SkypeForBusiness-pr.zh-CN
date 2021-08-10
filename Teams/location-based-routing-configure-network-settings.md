@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a7dd707a6066cfe9a8dfcbcc9b3ae36d450d1dd1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 06bccad77991aa4e9d11160bfd7b7b3e6759189f1160100ebd064e3c133e965d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306364"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>为基于位置的路由配置网络设置
 
@@ -52,7 +52,7 @@ ms.locfileid: "49822942"
 
 如果用户的外部 IP 地址与受信任的 IP 地址列表中的 IP 地址匹配，Location-Based路由检查以确定用户终结点所在的内部子网。 如果用户的外部 IP 地址与受信任的 IP 地址列表中定义的任何 IP 地址不匹配，则终结点被分类为位于未知位置，并且阻止与启用了 Location-Based 路由的用户之间的任何 PSTN 呼叫。
 
-## <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>下一步
 
 转到"[为直接Location-Based启用路由"。](location-based-routing-enable.md)
 

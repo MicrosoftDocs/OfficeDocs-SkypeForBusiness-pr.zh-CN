@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '请参阅Microsoft Teams为用户和许多其他电话拨入式会议设置分配电话拨入式会议许可证和会议 ID 的步骤。 '
-ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d779a0740e5f0a8c0b305e4b441c01b628571f9ddf3292a1d92cd6c2d3ecb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276408"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理贵组织的音频会议设置
 
@@ -40,13 +40,13 @@ ms.locfileid: "51101088"
 ## <a name="assign-an-audio-conferencing-license"></a>分配音频会议许可证
 
 > [!NOTE]
-> 你不能使用许可证分配Teams。 必须使用 Microsoft 365管理中心。 请参阅[分配Microsoft Teams附加许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+> 你不能使用许可证分配Teams。 必须使用Microsoft 365 管理中心。 请参阅[分配Microsoft Teams附加许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **为用户分配许可证**
   
 1. 使用工作Microsoft 365登录帐户。
     
-2. 在管理Microsoft 365左侧导航中，转到"用户  >  **""活动** 用户"，然后从可用用户列表中选择用户。
+2. 在左侧导航栏中Microsoft 365 管理中心，转到"用户  >  **""活动** 用户"，然后从可用用户列表中选择用户。
     
     > [!NOTE]
     > [!注释] 如果要同时向多达 20 个用户分配许可证，则可以使用" **选择视图**"下拉列表，然后选择其中一个选项或创建你自己的视图。 然后单击" **编辑**"，单击 **下一步** 两次，然后选择许可证并单击" **提交**"。  

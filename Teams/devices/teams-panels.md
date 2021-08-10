@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文概述了这些面板支持的功能Microsoft Teams功能。
-ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fcb482303eb82990936ee090be6d8d78146f57c1f9ba78f967803bd3f37a599b
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102138"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591116"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams面板
 
@@ -48,7 +48,7 @@ Teams面板支持以下功能：
 可以从以下Teams之一获取设备面板设备：
 
 - Crestron
--  (Yealink 即将) 推出
+- Yealink
 
 ## <a name="teams-panels-requirements"></a>Teams面板要求
 
@@ -105,7 +105,7 @@ Teams面板支持以下功能：
 
 每个Teams面板设备都需要Microsoft 365会议室资源帐户。 使用资源帐户凭据登录到面板Microsoft Teams应用。
 
-若要为Microsoft 365面板Teams资源帐户，建议购买标准Microsoft Teams 会议室[许可证](#license-requirement)。 若要了解如何创建资源帐户并为其分配许可证，请参阅使用管理中心 创建Microsoft 365[帐户](resource-account-ui.md)。
+若要为Microsoft 365面板Teams资源帐户，建议购买标准Microsoft Teams 会议室[许可证](#license-requirement)。 若要了解如何创建资源帐户并为其分配许可证，请参阅使用 Microsoft 365 管理中心 创建[资源帐户](resource-account-ui.md)。
 
 > [!NOTE]
 >
@@ -127,7 +127,7 @@ Teams面板支持以下功能：
 
 若要管理Teams面板设备，在 Microsoft Teams 管理中心的左侧导航中，转到"设备Teams  >  **面板"。** 可在此处更改设备配置文件、管理更新、重启设备、添加和删除设备标记等。 有关详细信息，请参阅在[Teams 中管理设备](device-management.md)。
 
-## <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>下一步
 
 [如何使用Microsoft Teams面板设备](use-teams-panels.md)
 

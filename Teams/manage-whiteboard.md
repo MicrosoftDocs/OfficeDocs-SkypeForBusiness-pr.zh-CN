@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理白板
+title: 管理白板Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
-description: 本文介绍了如何在 Microsoft Teams 中管理和使用 Whiteboard Web 应用。
+description: 本文将了解如何在应用中管理和使用 Whiteboard web Microsoft Teams。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,29 +20,29 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85e78480aec97ef9a498028d715fc898858d2606
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 1e7b9e659a933576f552bd5e25e2d1a5d4b9ccde1e47b2838bd55da107979915
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276388"
 ---
-# <a name="manage-the-whiteboard-in-microsoft-teams"></a>在 Microsoft Teams 中管理白板
+# <a name="manage-the-whiteboard-in-microsoft-teams"></a>管理白板Microsoft Teams
 
-Microsoft Whiteboard 是一种自由形式的数字画布，人、内容和创意汇集在一起。 Microsoft Teams 会议中的白板集成由 Whiteboard Web 应用提供，允许 Teams 会议参与者在共享的数字画布上一起绘制、速记和书写。
+Microsoft Whiteboard是一种自由形式的数字画布，其中人员、内容和观点汇集在一起。 会议中的白板Microsoft Teams由 Whiteboard Web 应用支持，Teams参与者在共享数字画布上一起绘制、绘制草图和书写。
 
-用户可以共享白板，使其可供 Teams 会议的所有参与者使用。 同一白板同时在 Windows 10、iOS 和 Web 应用上的所有 Whiteboard 应用程序中可用。
+用户可以共享白板，使其可用于会议Teams参与者。 同一白板同时可用于 Windows 10、iOS 和 Web 应用上的所有 Whiteboard 应用程序。
 
-若要打开或关闭 Whiteboard 应用，请参阅[为组织启用 Microsoft Whiteboard。](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24) 请记住，此设置将为整个组织启用或禁用 Whiteboard，而不只是 Teams。
+若要打开或关闭 Whiteboard 应用，请参阅[为Microsoft Whiteboard启用应用](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)。 请记住，此设置将为整个组织启用或禁用 Whiteboard，而不只是启用或禁用Teams。
 
-## <a name="whiteboard-on-surface-hub"></a>Surface Hub 上的白板
+## <a name="whiteboard-on-surface-hub"></a>白板Surface Hub
 
-尝试使用 Microsoft Whiteboard 之前，请确保 Surface Hub 设备上已安装 Whiteboard 应用。 如果未安装 Whiteboard，在 Surface Hub 设备上，转到 Microsoft Store 应用并获取[Microsoft Whiteboard。](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab) 有关详细信息，请参阅在[Surface Hub 上启用 Microsoft Whiteboard。](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
+在尝试使用 Microsoft Whiteboard之前，请确保 Whiteboard 应用已安装在 Surface Hub 设备上。 如果未安装 Whiteboard，在 Surface Hub 设备上，转到 Microsoft Store 应用[，并获取](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab)Microsoft Whiteboard。 有关详细信息，请参阅在 Surface Hub[上启用Microsoft Whiteboard。](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
 
 ## <a name="more-information"></a>更多信息
 
 有关详细信息，请参阅：
 
-- [在 Microsoft Teams 中使用 Whiteboard](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee)
-- [为组织启用 Microsoft Whiteboard](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)
-- [在 Surface Hub 上启用 Microsoft Whiteboard](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)
+- [在"应用"Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee)
+- [为Microsoft Whiteboard启用管理](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)
+- [在Microsoft Whiteboard上启用Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)

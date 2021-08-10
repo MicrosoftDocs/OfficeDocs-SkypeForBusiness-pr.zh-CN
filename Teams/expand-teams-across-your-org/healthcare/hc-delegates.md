@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: 了解状态为“离开”或“请勿打扰”的用户如何在其状态消息中明确将其他用户设置为代理人。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
-ms.translationtype: HT
+ms.openlocfilehash: 967ed83f89d991ad001dbac9001d4d20b412efec80f0edb5bf4caca77e487a87
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276527"
 ---
 # <a name="message-delegation"></a>消息委派
 

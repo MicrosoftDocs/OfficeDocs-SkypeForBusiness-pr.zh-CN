@@ -16,22 +16,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要：了解 Skype for Business Server 中边缘服务器的系统要求。
-ms.openlocfilehash: d5003a265a53c3603892133077a961f54c974401
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc1541604a4a26c9af3c184282648ef2f96469fa4346a6b6cc379eed2f5f023f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112738"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306973"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Skype for Business Server 中的边缘服务器系统要求
  
-**摘要：** 了解 Skype for Business Server 中边缘服务器的系统要求。
+**摘要：** 了解边缘服务器在 Skype for Business Server 中的系统Skype for Business Server。
   
-对于 Skype for Business Server 边缘服务器部署，需要针对环境本身的一个或多个服务器执行这些操作，以及规划环境结构。 有关拓扑、DNS、证书和其他基础结构问题的信息，请查看环境要求文档。
+对于边缘Skype for Business Server部署，需要针对环境本身的一个或多个服务器执行这些操作，以及规划环境结构。 有关拓扑、DNS、证书和其他基础结构问题的信息，请查看环境要求文档。
   
 ## <a name="components"></a>组件
 
-讨论边缘服务器环境时，我们主要引用在外围网络 (中部署的组件，即位于工作组或 Skype for Business Server 域结构) 外部的域中。
+讨论边缘服务器环境时，我们将引用大部分部署在外围网络 (即位于工作组中或 Skype for Business Server 域结构) 外部的域中的组件。
   
 请记住，这些组件是成功部署边缘时需要记住的组件：
   
@@ -50,28 +50,28 @@ ms.locfileid: "51112738"
 ### <a name="edge-servers"></a>边缘服务器
 <a name="EdgeServers"> </a>
 
-这些是部署在外围环境的 Skype for Business 服务器。 他们的角色是向外部用户发送和接收由内部 Skype for Business Server 部署提供的服务的网络流量。 要成功执行这一操作，每台边缘服务器将运行：
+这些服务器Skype for Business部署在外围环境中。 他们的角色是向外部用户发送和接收由内部部署提供的服务的Skype for Business Server通信。 要成功执行这一操作，每台边缘服务器将运行：
   
 - **访问边缘服务**：为出站和入站会话初始协议提供单一的受信任连接点 (SIP) 流量。
     
-- **Web 会议边缘服务**：允许外部用户加入在内部 Skype for Business Server 环境中托管的会议。
+- **Web 会议边缘服务**：允许外部用户加入在内部会议环境中Skype for Business Server会议。
     
 - **A/V 边缘服务**：使音频、视频、应用程序共享和文件传输对外部用户可用。
     
 - **XMPP 代理** 服务：接受 XMPP 联盟伙伴 (和发送) XMPP 联盟伙伴的可扩展消息传递和状态协议。
     
-授权的外部用户可以使用边缘服务器连接到内部 Skype for Business Server 部署，但在其他情况下，他们不会为任何人提供对内部网络的其他访问。
+授权的外部用户可以使用边缘服务器连接到内部Skype for Business Server部署，但在其他情况下，他们不会为任何人提供对内部网络的其他访问。
   
 > [!NOTE]
-> 边缘服务器部署为启用的 Skype for Business 客户端和其他边缘服务器提供连接， (联盟方案中) 。 无法从其他终端客户端或服务器类型进行连接。 XMPP 网关服务器可以允许与配置的 XMPP 合作伙伴建立连接。 但同样，这些类型是唯一能工作的客户端和联盟类型。 
+> 部署边缘服务器为启用的客户端Skype for Business联盟方案中的其他边缘 (服务器) 。 无法从其他终端客户端或服务器类型进行连接。 XMPP 网关服务器可以允许与配置的 XMPP 合作伙伴建立连接。 但同样，这些类型是唯一能工作的客户端和联盟类型。 
 
 > [!NOTE]
-> XMPP 网关和代理在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 有关详细信息 [，请参阅迁移 XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 联盟。
+> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. 有关详细信息 [，请参阅迁移 XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 联盟。
   
 ### <a name="reverse-proxies"></a>逆向代理
 <a name="ReverseProxies"> </a>
 
-反向代理 (RP) 服务器没有 Skype for Business Server 角色，但是边缘服务器部署的重要组件。 反向代理允许外部用户：
+反向代理 (RP) 服务器没有Skype for Business Server角色，但是边缘服务器部署的重要组件。 反向代理允许外部用户：
   
 - 使用简单 URL 连接到会议或电话拨入式会议。
     
@@ -89,9 +89,9 @@ ms.locfileid: "51112738"
   
 - 它允许他们自动发现提供移动服务的前端服务器。
     
-- 它支持从 Microsoft 365 或 Office 365 向移动设备发送推送通知。
+- 它支持从移动设备Microsoft 365 Office 365到移动设备的推送通知。
     
-我们的当前反向代理建议可在 Skype for [Business](../../../SfbPartnerCertification/certification/infra-gateways.md) 电话基础结构页面上找到。 因此反向代理：
+我们的当前反向代理建议可在"电话基础结构[for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md)页面上找到。 因此反向代理：
   
 - 应该能够使用传输层安全性 (TLS) 通过公共证书引入环境，以连接到以下已发布的外部 Web 服务：
     
@@ -129,24 +129,24 @@ ms.locfileid: "51112738"
 ### <a name="directors"></a>控制器
 <a name="Directors"> </a>
 
-这是可选角色。 它可以是单个服务器或运行控制器角色的服务器池。 这是在内部 Skype for Business Server 环境中找到的角色。
+这是可选角色。 它可以是单个服务器或运行控制器角色的服务器池。 它是在内部管理环境中Skype for Business Server角色。
   
-控制器是内部的下一个跃点服务器，它接收来自发往 Skype for Business Server 内部服务器的边缘服务器的入站 SIP 流量。 它会预授权入站请求，并重定向到用户主池或服务器。 此预身份验证允许你删除无法识别的用户帐户请求。
+控制器是内部的下一个跃点服务器，它接收来自发往内部服务器的边缘服务器的入站 SIP Skype for Business Server流量。 它会预授权入站请求，并重定向到用户主池或服务器。 此预身份验证允许你删除无法识别的用户帐户请求。
   
-为什么这很重要？ 控制器的一个重要功能是保护 Standard Edition 服务器和前端服务器或前端池免受恶意流量的攻击，例如拒绝服务 (DoS) 攻击。 如果网络被无效外部流量淹没，流量将停止在控制器上。
+为什么这很重要？ 控制器的一个重要功能是Standard Edition服务器和前端服务器或前端池免受恶意流量的攻击，例如拒绝服务 (DoS) 攻击。 如果网络被无效外部流量淹没，流量将停止在控制器上。
   
 ### <a name="load-balancers"></a>负载均衡器
 <a name="LoadBalancers"> </a>
 
-Skype for Business Server 扩展的合并边缘拓扑已针对新部署的 DNS 负载平衡进行了优化，建议这样做。 如果您需要高可用性，我们建议针对一种特定情况使用硬件负载平衡器：
+扩展Skype for Business Server边缘拓扑已针对新部署的 DNS 负载平衡进行了优化，建议这样做。 如果您需要高可用性，我们建议针对一种特定情况使用硬件负载平衡器：
   
-- Exchange 2013 之前使用 Exchange UM **的远程用户的** Exchange UM。
+- Exchange2013 年 10 月Exchange UM **的** 远程Exchange UM。
     
 > [!IMPORTANT]
-> 值得注意的是，不能混合使用负载平衡器。 在 Skype for Business Server 环境中，所有接口都必须使用 DNS 或 HLB。 
+> 值得注意的是，不能混合使用负载平衡器。 在Skype for Business Server环境中，所有接口都必须使用 DNS 或 HLB。 
   
 > [!NOTE]
-> Skype for Business Server 不支持 (直接服务器) DSR 或 NAT。 
+> 不支持直接服务器 (DSR) NAT Skype for Business Server。 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>运行 A/V 边缘服务的边缘服务器的硬件负载平衡器要求
 
@@ -164,7 +164,7 @@ Skype for Business Server 扩展的合并边缘拓扑已针对新部署的 DNS �
     
 #### <a name="hlb-requirements"></a>HLB 要求
 
-Skype for Business Server 没有很多基于 Cookie 的关联要求。 因此，无需使用基于 Cookie 的持久性，除非 **(且** 这是特定于 Skype for Business Server 2015 的) 你将在 Skype for Business Server 环境中拥有 Lync Server 2010 前端服务器或前端池。 它们将需要 Lync Server 2010 推荐的配置方法中基于 Cookie 的关联。
+Skype for Business Server没有很多基于 Cookie 的关联要求。 因此，无需使用基于 Cookie 的持久性，除非 **(** 且这是 Skype for Business Server 2015 特定的) 您将在 Skype for Business Server 环境中具有 Lync Server 2010 前端服务器或前端池。 它们将需要 Lync Server 2010 推荐的配置方法中基于 Cookie 的关联。
   
 > [!NOTE]
 > 如果决定为 HLB 启用基于 Cookie 的关联，则这样做不会出现问题，即使您的环境不需要它。 
@@ -195,7 +195,7 @@ Skype for Business Server 没有很多基于 Cookie 的关联要求。 因此，
   
 以下是前端池 Web 服务中 (控制器) 所需的 (HLB) HLB 要求：
   
-- 对于内部 Web 服务 IP，Source_addr HLB (端口 80，443) 持久性。 对于 Skype for Business Server，Source_addr持久性意味着始终向一台服务器发送来自单个 IP 地址的多个连接，以维持会话状态。
+- 对于内部 Web 服务 IP，Source_addr HLB (端口 80，443) 持久性。 对于Skype for Business Server，Source_addr持久性意味着始终向一台服务器发送来自单个 IP 地址的多个连接，以维持会话状态。
     
 - 使用 TCP 空闲超时 1800 秒。
     
@@ -205,9 +205,9 @@ Skype for Business Server 没有很多基于 Cookie 的关联要求。 因此，
 
 |**客户端/用户位置**|**外部 Web 服务 FQDN 关联要求**|**内部 Web 服务 FQSN 相关性要求**|
 |:-----|:-----|:-----|
-|Skype for Business Web App (内部和外部用户)   <br/> 移动设备 (内部和外部用户  <br/> |无相关性  <br/> |源地址相关性  <br/> |
-|Skype for Business Web App (外部用户)   <br/> 移动设备 (内部和外部用户  <br/> |无相关性  <br/> |源地址相关性  <br/> |
-|Skype for Business Web App (内部用户)   <br/> 移动设备（未部署）  <br/> |无相关性  <br/> |源地址相关性  <br/> |
+|Skype for Business Web应用 (内部和外部用户)   <br/> 移动设备 (内部和外部用户  <br/> |无相关性  <br/> |源地址相关性  <br/> |
+|Skype for Business Web应用 (外部用户只能)   <br/> 移动设备 (内部和外部用户  <br/> |无相关性  <br/> |源地址相关性  <br/> |
+|Skype for Business Web应用 (内部用户只能)   <br/> 移动设备（未部署）  <br/> |无相关性  <br/> |源地址相关性  <br/> |
    
 #### <a name="port-monitoring-for-hlbs"></a>HLB 的端口监控
 
@@ -220,8 +220,8 @@ Skype for Business Server 没有很多基于 Cookie 的关联要求。 因此，
    
 ## <a name="hardware-and-software-requirements"></a>硬件和软件要求
 
-我们在 Skype [for Business Server 2015 的总体服务器要求和 Skype for Business Server 2019](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 的系统要求文档中介绍了  [边缘服务器](../../../SfBServer2019/plan/system-requirements.md) 硬件和软件要求。
+我们在[2015 年 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)年的总体服务器要求和 Skype for Business Server Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)的系统要求文档中介绍了边缘服务器硬件和软件要求。
   
 ## <a name="collocation"></a>并置
 
-我们在 [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md) 文档中介绍了边缘服务器并置。
+我们在[Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md)文档中介绍了边缘服务器并置。

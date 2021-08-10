@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0262d50ec74bfdb2934ced0d17eb015f742a9fbc1ec2d093a2f936e91c61edd6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092500"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306474"
 ---
 # <a name="teams-for-education"></a>Teams 教育版
 
@@ -35,6 +35,6 @@ ms.locfileid: "51092500"
 | ------------- | ------------- |
 | ![向右箭头图标的屏幕截图](../media/arrow-right-2-teams.svg)  |  [快速入门 - Teams 教育版管理员](../teams-quick-start-edu.yml) |
 | ![纸张和铅笔图标的屏幕截图](../media/sign-up-teams.svg) | [Teams 教育版中的分配](./assignments-in-teams.md) |
-| ![见解图标的屏幕截图](../media/insights-teams.svg) | [Teams 教育中的见解](../class-insights.md) |
-| ![工具箱图标的屏幕截图](../media/toolbox.svg)  |  [适用于Teams管理员的资源](../resources-teams-edu.md) |
-| ![清单图标的屏幕截图](../media/task-checklist-planning-teams.svg)  |  [适用于教育Teams的治理常见问题解答](../plan-teams-governance-edu.md) |
+| ![见解图标的屏幕截图](../media/insights-teams.svg) | [Insights Teams 教育版](../class-insights.md) |
+| ![工具箱图标的屏幕截图](../media/toolbox.svg)  |  [适用于管理员Teams 教育版的资源](../resources-teams-edu.md) |
+| ![清单图标的屏幕截图](../media/task-checklist-planning-teams.svg)  |  [适用于管理员的Teams 教育版常见问题解答](../plan-teams-governance-edu.md) |

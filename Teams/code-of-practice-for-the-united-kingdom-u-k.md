@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 了解英国 PSTN 呼叫计划Skype for Business，包括在何处获取帮助，以及如何提交投诉和解决争议。
-ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306563"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>在 Microsoft 365 中调用计划 - 英国 (英国) 
 
@@ -44,7 +44,7 @@ Skype for Business 在英国由 Microsoft Ireland Operations Limited 提供，�
 
 免费电话号码：0800 032 6417
 
-联机：登录到 Microsoft 365 管理中心，通过在"支持"下选择"新建服务请求"**来提交****服务请求**。
+联机：登录到服务Microsoft 365 管理中心在"支持"下选择"新建服务请求"**来提交****服务请求**。
 
 正常营业时间是周一至周五上午 9:00 至下午 5:00。
 

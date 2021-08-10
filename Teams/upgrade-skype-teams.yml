@@ -88,8 +88,8 @@ additionalContent:
   sections:
     - title: 需要其他帮助？
     - items:
-        - title: 与 FastTrack 联系以寻求部署帮助
-          summary: 当Teams项目需要更多参与协助时，具有合格订阅的客户可以与 FastTrack 联系以寻求支持。
+        - title: 与FastTrack联系，寻求部署帮助
+          summary: 当Teams项目需要更多参与协助时，具有合格订阅的客户可以FastTrack获取支持。
           url: 'https://www.microsoft.com/fasttrack'
         - title: 查找 Microsoft 合作伙伴
           summary: 需要其他指导？ Microsoft 解决方案提供商可帮助你管理升级的技术和物流。

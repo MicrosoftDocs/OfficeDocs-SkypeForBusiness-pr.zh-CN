@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 08b6686a640e039cbd84d95196824d4b35fb9f35
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 61affb487b7fe7020865ba7d69eafed2664b7ded8856d7cfa6a2722e39a1b9c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646033"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304874"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 

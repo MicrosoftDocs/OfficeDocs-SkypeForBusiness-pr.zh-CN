@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解Microsoft 365 Office 365呼叫者 ID (用户分配的电话号码) 呼叫线路 ID。 可以更改或阻止用户的来电显示。
-ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
-ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
+ms.openlocfilehash: ea3d9676caf0984c19137abe286f792aacfcceca393fd4ccfeff9117edef9011
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53388647"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275948"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
 

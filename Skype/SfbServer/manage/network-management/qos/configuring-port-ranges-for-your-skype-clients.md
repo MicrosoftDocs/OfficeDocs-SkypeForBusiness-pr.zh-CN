@@ -14,73 +14,70 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本文介绍如何为客户端配置端口范围，以及如何在 Skype for Business Server 中为在 Windows 10 上运行的客户端配置服务质量策略。
-ms.openlocfilehash: 9cd5fe3fa84c4acd9365e02c0e5801b63d5497d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 本文介绍如何为客户端配置端口范围，以及如何在 Skype for Business Server 中为在 Windows 10 上运行的客户端配置服务质量Windows 10。
+ms.openlocfilehash: d2d38ff777322aa952efd427c7e528afbb0e333252aabec2a943b1a9007d0ca7
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122426"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591136"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>在 Skype for Business Server 中为客户端配置端口范围和服务质量策略
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>为客户端配置端口范围和服务质量策略Skype for Business Server
 
-本文介绍如何为客户端配置端口范围，以及如何在 Skype for Business Server 中为在 Windows 10 上运行的客户端配置服务质量策略。
+本文介绍如何为客户端配置端口范围，以及如何在 Skype for Business Server 中为在 Windows 10 上运行的客户端配置服务质量Windows 10。
 
 ## <a name="configure-port-ranges"></a>配置端口范围
 
-默认情况下，当涉及通信会话时，Skype for Business 客户端应用程序可以使用端口 1024 和 65535 之间的任意端口;这是因为不会为客户端自动启用特定端口范围。 但是，若要使用服务质量，您将需要为一系列特定端口范围重新分配各种通信类型（音频、视频、媒体、应用程序共享和文件传输）。 可使用 Set-CsConferencingConfiguration cmdlet 完成此操作。
+默认情况下，Skype for Business当涉及通信会话时，客户端应用程序可以使用端口 1024 和 65535 之间的任意端口;这是因为不会为客户端自动启用特定端口范围。 但是，若要使用服务质量，您将需要为一系列特定端口范围重新分配各种通信类型（音频、视频、媒体、应用程序共享和文件传输）。 可使用 Set-CsConferencingConfiguration cmdlet 完成此操作。
 
 > [!NOTE]  
 > 最终用户无法自行进行这些更改。 端口更改只能由管理员使用 Set-CsConferencingConfiguration cmdlet。
 
 
-通过从 Skype for Business Server 命令行管理程序中运行以下命令，可以确定当前用于通信会话的端口范围：
+通过从命令行管理程序内运行以下命令，可以确定当前用于通信会话Skype for Business Server范围：
 
-    Get-CsConferencingConfiguration
+**Get-CsConferencingConfiguration**
 
-假定自安装 Skype for Business Server 后，你未对会议设置进行任何更改，应返回包含以下属性值的信息：
+假设您自安装会议之后尚未对会议设置Skype for Business Server，您应返回包含以下属性值的信息：
 
-    ClientMediaPortRangeEnabled : False
-    ClientAudioPort             : 5350
-    ClientAudioPortRange        : 40
-    ClientVideoPort             : 5350
-    ClientVideoPortRange        : 40
-    ClientAppSharingPort        : 5350
-    ClientAppSharingPortRange   : 40
-    ClientFileTransferPort      : 5350
-    ClientTransferPortRange     : 40
+ClientMediaPortRangeEnabled ： False<br/>
+ClientAudioPort ： 5350<br/>
+ClientAudioPortRange ： 40<br/>
+ClientVideoPort ： 5350<br/>
+ClientVideoPortRange ：40<br/>
+ClientAppSharingPort ：5350<br/>
+ClientAppSharingPortRange ：40<br/>
+ClientFileTransferPort ： 5350<br/>
+ClientTransferPortRange ：40<br/>
 
-如果您仔细查看上面的输出，您会发现两点很重要。 首先，ClientMediaPortRangeEnabled 属性设置为 False：
+如果您仔细查看上面的输出，您会发现两点很重要。首先，ClientMediaPortRangeEnabled 属性设置为 False：
 
-    ClientMediaPortRangeEnabled : False
+**ClientMediaPortRangeEnabled ： False**
 
-这一点很重要，因为当此属性设置为 False 时，Skype for Business 客户端将在涉及通信会话时使用端口 1024 和 65535 之间的任何可用端口;无论使用何种其他端口设置， (，例如 ClientMediaPort 或 ClientVideoPort) 。 如果要将用法限制为一组指定的端口 (并且如果计划实施服务质量) ，则希望这样做，则必须先启用客户端媒体端口范围。 可以使用以下命令完成Windows PowerShell操作：
+这一点很重要，因为当此属性设置为 False 时，Skype for Business客户端将在涉及通信会话时使用端口 1024 和 65535 之间的任何可用端口;无论使用何种其他端口设置， (，例如 ClientMediaPort 或 ClientVideoPort) 。 如果要将用法限制为一组指定的端口 (并且如果计划实施服务质量) ，则希望这样做，则必须先启用客户端媒体端口范围。 可以使用以下命令完成Windows PowerShell操作：
 
-    Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True
+**Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True**
 
 上述命令为会议配置设置的全局集合启用客户端媒体端口范围；但是，这些设置也可应用于站点范围和/或服务范围（仅限会议服务器服务）。若要为特定站点或服务器启用客户端媒体端口范围，请在调用 Set-CsConferencingConfiguration 时指定该站点或服务器的标识：
 
-    Set-CsConferencingConfiguration -Identity "site:Redmond" -ClientMediaPortRangeEnabled $True
+**Set-CsConferencingConfiguration -Identity "site：Redmond" -ClientMediaPortRangeEnabled $True**
 
 或者，也可以使用此命令同时为您的所有会议配置设置启用端口范围：
 
-    Get-CsConferencingConfiguration | Set-CsConferencingConfiguration  -ClientMediaPortRangeEnabled $True
+**Get-CsConferencingConfiguration |Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True**
 
 您将发现的另一个重要事项是，示例输出显示默认情况下为每种类型的网络通信设置的媒体端口范围是相同的：
 
-    ClientAudioPort             : 5350
-    ClientVideoPort             : 5350
-    ClientAppSharingPort        : 5350
-    ClientFileTransferPort      : 5350
+ClientAudioPort ： 5350<br/>
+ClientVideoPort ： 5350<br/>
+ClientAppSharingPort ：5350<br/>
+ClientFileTransferPort ： 5350<br/>
 
 若要实施 QoS，其中每个端口范围都需要是唯一的。例如，您可以按如下所示配置端口范围：
 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -118,31 +115,28 @@ ms.locfileid: "51122426"
 
 另外，您可能已注意到，为服务器上的应用程序共享留出了 8348 个端口，但为客户端上的应用程序共享只留出了 20 个端口。 这也是推荐方法，但不是一种硬性规定。 通常，你可以考虑每个可用的端口来表示单个通信会话：如果端口范围内有 100 个可用端口，这意味着该计算机在任何给定时间最多可以参与 100 个通信会话。 因为服务器参与的会话数可能多于客户端，所以在服务器上打开的端口数应多于在客户端上打开的端口数。 为客户端上的应用程序共享留出 20 个端口意味着用户可以参与指定设备上的 20 个应用程序共享会话，并且所有会话是同时进行的。 对于您的大多数用户来说，这样做应该足够了。
 
-若要将上述端口范围分配给全局会议配置设置集合，可以使用以下 Skype for Business Server 命令行管理程序命令：
+若要将上述端口范围分配给全局会议配置设置集合，可以使用命令行管理程序Skype for Business Server命令行管理程序命令：
 
-    Set-CsConferencingConfiguration -Identity global -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
+**Set-CsConferencingConfiguration -Identity global -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20**
 
 或者，使用此命令为您的所有会议配置设置分配这些相同的端口范围：
 
-    Get-CsConferencingConfiguration | Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
+**Get-CsConferencingConfiguration |Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20**
 
-各个用户必须从 Skype for Business 注销，然后重新登录，这些更改才能实际生效。
+各个用户必须注销Skype for Business然后重新登录，这些更改才能实际生效。
 
 > [!NOTE]  
-> 您还可以启用客户端媒体端口范围，然后使用单个命令分配这些端口范围。 例如：<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
+> 您还可以启用客户端媒体端口范围，然后使用单个命令分配这些端口范围。例如：<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
 
-## <a name="configure-quality-of-service-policies-for-clients-running-on-windows-10"></a>为在 Windows 10 上运行的客户端配置服务质量策略
+## <a name="configure-quality-of-service-policies-for-clients-running-on-windows-10"></a>为在客户端上运行的客户端配置服务质量Windows 10
 
-除了指定供 Skype for Business 客户端使用的端口范围之外，还必须创建将应用于客户端计算机的单独的服务质量策略。  (为会议、应用程序和中介服务器创建的服务质量策略不应应用于客户端计算机。) 此信息仅适用于运行 Skype for Business 客户端和 Windows 10 的计算机。
+除了指定供客户端使用的端口范围Skype for Business，还必须创建将应用于客户端计算机的单独的服务质量策略。  (为会议、应用程序和中介服务器创建的服务质量策略不应应用于客户端计算机。) 此信息仅适用于运行 Skype for Business 客户端和 Windows 10 的计算机。
 
 以下示例使用此端口范围的设置创建音频策略和视频策略：
 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -175,7 +169,7 @@ ms.locfileid: "51122426"
 </tbody>
 </table>
 
-若要为 Windows 10 计算机创建服务质量音频策略，请首先登录到安装了组策略管理的计算机。 打开"组策略 (，单击"开始"，指向"管理工具"，然后单击"组策略管理) "，然后完成以下过程： 
+若要为计算机创建服务质量音频策略Windows 10，请首先登录到安装了组策略管理的计算机。 打开"组策略 (，单击"开始"，指向"管理工具"，然后单击"组策略管理) "，然后完成以下过程： 
 
 1.  在组策略管理中，找到其中应创建新策略的容器。 例如，如果所有客户端计算机都位于名为"客户端"的 OU 中，应在客户端 OU 中新建策略。
 
@@ -185,11 +179,11 @@ ms.locfileid: "51122426"
 
 4.  右键单击新创建的策略，然后单击"编辑 **"。**
 
-5.  在组策略管理编辑器中，展开"计算机配置"，展开 **"Windows** 设置"，右键单击"基于策略的 **QoS"，** 然后单击"**创建新策略"。**
+5.  在组策略管理编辑器中，展开"计算机配置"，Windows 设置"，右键单击"基于策略 **的 QoS"，** 然后单击"**创建新策略"。** 
 
 6.  在" **基于策略的 QoS"** 对话框的打开页上，在"名称"框中键入新 **策略** 的名称。 选择“指定 DSCP 值”，并将该值设置为“46”。 将“指定出站调节率”保留为未选中状态，然后单击“下一步”。
 
-7.  On the next page， select **Only applications with this executable name，** enter **Lync.exe** as the name， and then click **Next**. 此设置指示策略仅设置来自 Skype for Business 客户端的匹配流量的优先级。
+7.  On the next page， select **Only applications with this executable name，** enter **Lync.exe** as the name， and then click **Next**. 此设置指示策略仅对来自客户端的匹配流量Skype for Business优先级。
 
 8.  第三页上，确保选中"任何 **源 IP** 地址"和"任何目标 **IP** 地址"，然后单击"下一步 **"。** 这两个设置确保将管理这些数据包，与哪台计算机（IP 地址）发送这些数据包及哪台计算机（IP 地址）将接收这些数据包无关。
 
@@ -207,7 +201,7 @@ ms.locfileid: "51122426"
 
 如果您决定创建用于管理应用程序共享流量的策略，请进行以下替换：
 
-  - 使用不同的策略 (和) 策略名称 (例如 **，Skype for Business Server 应用程序共享**) 。
+  - 使用不同的策略 (和唯) 策略 (例如，Skype for Business Server **应用程序共享**) 。
 
   - 将 DSCP 设置为“24”代替 46。（另外，此值不必为 24；只是必须用于不同于音频和视频的 DSCP 值。）
 
@@ -215,19 +209,19 @@ ms.locfileid: "51122426"
 
 对于文件传输策略：
 
-  - 使用不同的 (和唯) 策略 (例如 **，Skype for Business Server 文件** 传输) 。
+  - 使用不同的 (和唯) 策略 (例如，Skype for Business Server **文件** 传输) 。
 
-  - 将 DSCP 值设置为 **14。**  (，此值不一定为 14;它只是一个唯一的 DSCP 代码) 
+  - 将 DSCP 值设置为“14”。（另外，此值不必为 14；只是它必须为唯一 DSCP 代码。）
 
   - 使用以前为应用程序配置的端口范围。 例如，如果为应用程序共享保留端口 42020 至 42039，则端口范围设置为 **：42020：42039。**
 
 在客户端计算机上刷新组策略之前，已创建的新策略不会生效。尽管组策略会定期自行刷新，但是您可以通过在需要刷新的组策略所在的每台计算机上运行下列命令来强制立即刷新：
 
-    Gpupdate.exe /force
+**Gpupdate.exe /force**
 
 可从在管理员凭据下运行的任何命令窗口运行此命令。要在管理员凭据下运行命令窗口，请单击“开始”，右键单击“命令提示符”，然后单击“以管理员身份运行”。
 
-请记住，应该将这些策略指向客户端计算机目标。 它们不应应用于运行 Skype for Business Server 的服务器。
+请记住，应该将这些策略指向客户端计算机目标。 它们不应应用于运行 Skype for Business Server。
 
 要确保将网络数据包标记为相应的 DSCP 值，还应该通过完成以下过程在每台计算机上创建新的注册表项：
 
@@ -267,4 +261,4 @@ ms.locfileid: "51122426"
 
 ## <a name="see-also"></a>另请参阅
 
-[在 Windows 10 中创建组策略对象](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
+[在策略中创建组策略Windows 10](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
