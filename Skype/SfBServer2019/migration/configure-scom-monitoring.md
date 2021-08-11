@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 迁移到 Microsoft Skype for Business Server 2019 后，必须完成几个任务以配置 Skype for Business Server 2019，才能与 System Center Operations Manager 配合使用。
-ms.openlocfilehash: ef40890cb3ac01d8223c4b9a9cd0c4712e544376
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 迁移到 Microsoft Skype for Business Server 2019 后，必须完成一些任务，将 Skype for Business Server 2019 配置为使用 System Center Operations Manager。
+ms.openlocfilehash: 477fbd3c405328ffac4aa70a722120d375e95b295bf5a23d19882248d1ece54e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279610"
 ---
 # <a name="configure-scom-monitoring"></a>配置 SCOM 监控
 
-迁移到 Skype for business Server 2019 后，您必须完成几个任务来配置 Skype for Business Server 2019 以使用 System Center Operations Manager。
+迁移到 2019 Skype for Business Server之后，必须完成一些任务，将 Skype for Business Server 2019 配置为使用 System Center Operations Manager。
   
-- 将更新应用到选择的服务器以管理中央发现逻辑。
+- 对选择用于管理中央发现逻辑的服务器应用更新。
     
 - 更新中央发现候选服务器注册表项。
     
-- 将主 System Center Operations Manager 管理服务器配置为覆盖候选中央发现节点。
+- 配置主System Center Operations Manager 管理服务器以覆盖候选中央发现节点。
     
 下面提供了有关执行所有这些任务的说明。
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>将更新应用到选择的服务器以管理中央发现逻辑。
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>对选择用于管理中央发现逻辑的服务器应用更新。
 
 1. 选择安装了 System Center Operations Manager 代理文件且配置为候选发现节点的服务器。 
     
-2. 将更新应用到此服务器。 请参阅[应用更新](apply-updates.md)中的主题。
+2. 对此服务器应用更新。 请参阅主题应用 [更新](apply-updates.md)。
     
 ### <a name="update-the-central-discovery-candidate-server-registry-key"></a>更新中央发现候选服务器注册表项。
 
-1. 在选择了管理中央发现逻辑的服务器上，打开 Windows PowerShell 命令窗口。 
+1. 在选择管理中央发现逻辑的服务器上，打开Windows PowerShell命令窗口。 
     
 2. 在命令行中键入：
     
@@ -53,16 +53,16 @@ ms.locfileid: "44754042"
     > [!NOTE]
     > 在您编辑注册表时，如果已存在注册表项，则您可能会遇到一个指示命令失败的错误。如果遇到此错误，可以安全地将其忽略。 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>将您的主 System Center Operations Manager 管理服务器配置为覆盖候选中央发现观察程序节点。
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>配置主System Center Operations Manager 管理服务器以覆盖候选中心发现观察程序节点。
 
-1. 在已安装 System Center Operations Manager 控制台的计算机上，展开“管理包对象”****，然后选择“对象发现”****。
+1. 在已安装 System Center Operations Manager 控制台的计算机上，展开“管理包对象”，然后选择“对象发现”。
     
-2. 单击 "**更改范围**"
+2. 单击" **更改范围"**
     
-3. 从“范围管理包对象”**** 页中，选择“LS 发现候选”****。
+3. 从“范围管理包对象”页中，选择“LS 发现候选”。
     
-4. 将“LS 发现候选有效值”**** 覆盖为在之前的过程中选定的候选服务器的名称。 
+4. 将“LS 发现候选有效值”覆盖为在之前的过程中选定的候选服务器的名称。 
     
-若要完成所做的更改，请重新启动 System Center Operations Manager 根管理服务器上的运行状况服务。
+若要完成更改，请重新启动 System Center Operations Manager 根管理服务器上运行状况服务。
   
 

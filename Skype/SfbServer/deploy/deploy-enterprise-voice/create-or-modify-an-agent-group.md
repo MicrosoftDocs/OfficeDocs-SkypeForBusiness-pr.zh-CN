@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 中创建或修改代理组
+title: 在代理组中创建或修改Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
-description: Create or modify an agent group in Response Group， in Skype for Business Server 企业语音.
-ms.openlocfilehash: 0c0e7d54008ba6affa2bae5bd3228c93e430a114
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在响应组内创建或修改代理Skype for Business Server 企业语音。
+ms.openlocfilehash: 3d4be038b156152a16059b717ae872962177478df888f151e95c89e32281f274
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105808"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298702"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>在 Skype for Business 中创建或修改代理组
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>在代理组中创建或修改Skype for Business
  
-Create or modify an agent group in Response Group， in Skype for Business Server 企业语音.
+在响应组内创建或修改代理Skype for Business Server 企业语音。
   
 创建代理组时要选择分配给该组的代理并指定其他组设置，如路由方法以及代理能否登录到组和从组注销。 
   
-必须登录到组和从组注销（与登录或注销 Skype for Business 不同）的代理称为正式代理。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Skype for Business 中的菜单项打开 Windows Internet Explorer Internet 浏览器并显示网页控制台，登录和注销组。
+必须登录到组和从组注销（与登录或注销组不同）Skype for Business称为正式代理。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Skype for Business 中的菜单项登录和注销其组Windows Internet Explorer Internet 浏览器并显示网页控制台。
   
-不登录到组或从组注销的代理称为非正式代理。 非正式代理在登录到 Skype for Business 时自动登录到组，并且无法从组注销。
+不登录到组或从组注销的代理称为非正式代理。 非正式代理在登录组时自动登录到Skype for Business，并且无法从组注销。
   
 只有内部部署用户可以成为代理。如果代理从内部部署移动到联机状态，则不会将响应组呼叫路由到该代理。
   
@@ -40,14 +40,14 @@ Create or modify an agent group in Response Group， in Skype for Business Serve
 > [!IMPORTANT]
 > 如果将用户分配为响应组代理，需告知用户，如果他们已启用隐私模式，则需搜索“RGS Presence Watcher”联系人并将其添加到联系人列表。已启用隐私模式但未将“RGS Presence Watcher”添加到联系人列表中的代理将无法接收拨打到响应组的呼叫。未启用隐私模式的代理不受影响。 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>使用 Skype for Business Server 控制面板创建或修改代理组
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>使用Skype for Business Server控制面板创建或修改代理组
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
     > [!NOTE]
     > 如果您是托管工作流的委派响应组管理员之一，则可创建组并在管理的工作流中使用这些组。 
   
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。  
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
 3. 在左侧导航栏中，单击“响应组”，然后单击“组”。
     
@@ -63,9 +63,9 @@ Create or modify an agent group in Response Group， in Skype for Business Serve
     
 7. 在 **“参与策略”** 中，选择下列操作之一，从而设置组的登录行为：
     
-   - 选择 **“非正式”** 指定组中的代理无需登录组和从组中注销。 代理登录到 Skype for Business 时，将自动登录到组。
+   - 选择 **“非正式”** 指定组中的代理无需登录组和从组中注销。 代理登录到组后，将自动登录到Skype for Business。
     
-   - 选择 **“正式”** 指定组中的代理必须登录到组和从组中注销。 选择此选项后，代理将单击 Skype for Business 中的菜单项以打开Internet Explorer并显示用于登录组和从组中退出的网页控制台。
+   - 选择 **“正式”** 指定组中的代理必须登录到组和从组中注销。 选择此选项后，代理将单击用户Skype for Business打开Internet Explorer并显示用于登录组和从组退出的网页控制台。
     
 8. 在“警报时间(秒)”中，指定将呼叫转至下一个空闲的代理之前，向某位代理响铃的秒数（默认为 20 秒）。
     
@@ -74,7 +74,7 @@ Create or modify an agent group in Response Group， in Skype for Business Serve
   
 9. 在“路由方法”中，选择将呼叫路由至组中代理的方法，具体如下：
     
-   - 要首先向空闲时间最长的代理提供新呼叫 (Skype for Business 中处于"空闲"或"非活动"状态的时间最长的) ，请单击"最长空闲 **"。** 
+   - 要首先向空闲时间最长的代理提供新呼叫 (在 Skype for Business 中处于"空闲"或"非活动"状态的时间) "最长空闲时间 **"。** 
     
    - 要将新呼叫同时路由至所有空闲的代理，请单击 **“并行”**。呼叫将发往第一个接受该呼叫的代理。
     
@@ -82,7 +82,7 @@ Create or modify an agent group in Response Group， in Skype for Business Serve
     
    - 要将新呼叫始终按照 **“代理”** 列表中代理的排列顺序路由至代理，请单击 **“串行”**。 
     
-   - 要同时向登录到 Skype for Business 的所有代理和响应组应用程序提供新呼叫，无论其当前状态如何，请单击"**助理"。** 配置为代理的用户可以看到所有正在等待的呼叫，并可以按任意顺序应答等待的呼叫。 呼叫将发送给第一个接受该呼叫的代理，之后其他代理将不再看到该呼叫。
+   - 要同时向登录到 Skype for Business 和响应组应用程序的所有代理提供新呼叫，无论其当前状态如何，请单击"助理 **"。** 配置为代理的用户可以看到所有正在等待的呼叫，并可以按任意顺序应答等待的呼叫。 呼叫将发送给第一个接受该呼叫的代理，之后其他代理将不再看到该呼叫。
     
 10. 在“代理”中，指定创建代理列表要采用的方式：
     
@@ -104,7 +104,7 @@ Create or modify an agent group in Response Group， in Skype for Business Serve
     
       - 如果选择串行路由或循环路由，则服务器会根据路由方法和通讯组列表中代理的排列顺序，将传入呼叫路由至相应的代理。
     
-      - 如果通讯组列表包含启用了 Lync Server 2010 但没有启用企业语音用户，则这些用户将被添加为不正常的代理。 确保通讯组列表的所有成员都企业语音用户帐户启用。
+      - 如果通讯组列表包含已启用 Lync Server 2010 但没有企业语音用户，则这些用户将被添加为不正常的代理。 确保通讯组列表的所有成员都企业语音用户帐户启用。
     
     > [!IMPORTANT]
     > 如果使用电子邮件通讯组列表，则响应组管理员或用户可能会看到隐藏成员身份或隐藏列表。 
@@ -113,17 +113,17 @@ Create or modify an agent group in Response Group， in Skype for Business Serve
     
      - 如果通讯组列表配置为隐藏成员身份，并且响应组管理员将通讯组列表分配给代理列表，则用户可以呼叫该组来查明成员是谁。 
     
-     - 如果通讯组列表配置为在 Exchange 全局地址列表中隐藏，则响应组管理员可能能够看到通讯组列表，如果响应组进程具有相应的用户权限，则即使该管理员没有相应的用户权限，也能够将其分配给代理列表。
+     - 如果通讯组列表配置为在 Exchange 全局地址列表中隐藏，则响应组管理员也许能够查看通讯组列表，并将其分配给代理列表（如果响应组进程具有相应的用户权限，即使管理员没有相应的用户权限）。
     
 11. 单击“提交”。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>使用 Skype for Business Server 命令行管理程序创建或修改代理组
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>使用 Skype for Business Server命令行管理程序创建或修改代理组
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
-3. 使用 **New-CsRgsAgentGroup** 可创建新代理组。 使用 **Set-CsRgsAgentGroup** 可修改现有代理组。 在命令行中运行：
+3. 使用 **New-CsRgsAgentGroup** 可创建新代理组。使用 **Set-CsRgsAgentGroup** 可修改现有代理组。在该命令行处，运行：
     
    ```powershell
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];

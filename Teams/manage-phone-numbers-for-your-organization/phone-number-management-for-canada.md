@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 使用此表查找有关获取和管理加拿大用户的电话号码Microsoft Teams。
-ms.openlocfilehash: 885d10d3372c676771d451745559e737b2ea0cd8
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 68430413afa5ecf765404ab55ef930cd4637c114f658f9f0eb44e3186e2867e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510193"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279709"
 ---
 # <a name="phone-number-management-for-canada"></a>加拿大的电话号码管理
 

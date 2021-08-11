@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 使用 Windows PowerShell 和 Get-CsTenant Get-CsTenantLicensingConfiguration cmdlet 获取有关 Skype for Business Online 租户的信息。
-ms.openlocfilehash: 2fa95bf8997dd0aff7271b1383c69d9b27c4f4a9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 733d7e30bc25f15bcf05c2746ef1eb2cb8aa5cfd8e7e780356c4a972ef97a183
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238782"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298742"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>管理 Skype for Business Online 组织
 

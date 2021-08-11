@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 6e715786a6cf139da303a73b7f076f3f30e8e004
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: af234dd572b2a5aa63702a1c5495a19a648c037a6b98924b4d6b269abf902fe9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587191"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310391"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 

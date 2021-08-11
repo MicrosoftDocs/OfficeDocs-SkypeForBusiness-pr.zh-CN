@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: 了解如何在云连接器版本中部署多个 PSTN 站点。
-ms.openlocfilehash: 059b9a39a082e876b1dd9cd772a235c384a29107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098398"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289380"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>在云连接器中部署多个站点
 
 > [!Important] 
-> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](/MicrosoftTeams/direct-routing-landing-page)
+> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话Teams[连接到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
 
 了解如何在云连接器版本中部署多个 PSTN 站点。
   
@@ -34,7 +34,7 @@ ms.locfileid: "51098398"
   
 ## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>多个公用电话交换网 (PSTN) 站点
 
-下面显示了为不同 PSTN 站点部署 Skype for Business 云连接器版本的示例配置。 在开始部署之前，请确保配置设置正确。
+下面显示了为不同 PSTN 站点部署Skype for Business 云连接器版本的示例配置。 在开始部署之前，请确保配置设置正确。
   
 PSTN 站点 1
   
@@ -82,7 +82,7 @@ ExternalMRPublicIPs=104.42.226.134
 
 下表列出了支持 HA 的单站点和多站点部署之间的差异。
   
-|**类别**|**项目**|**具有 HA 的单站点**|**多站点**|
+|**类别**|**项**|**具有 HA 的单站点**|**多站点**|
 |:-----|:-----|:-----|:-----|
 |配置  <br/> |设备主机名 <br/> |**不同** 设备 <br/> |**不同** PSTN 站点 <br/> |
 |设置  <br/> |共享文件夹  <br/> |需要跨 **设备** 使用相同的共享文件夹 <br/> |需要不同 **设备** 之间的不同共享文件夹 <br/> |
@@ -98,4 +98,4 @@ ExternalMRPublicIPs=104.42.226.134
 |配置  <br/> |DNS 记录  <br/> |添加具有相同的外部 **访问** FQDN 和 **不同** IP 地址的记录 <br/> |添加具有不同的 **外部访问** FQN **和不同** IP 地址的记录 <br/> |
 |设置  <br/> |混合租户  <br/> |设置 HybridPSTNSite  <br/> 设置用于回退的 PeerDestination  <br/> |设置 HybridPSTNSite  <br/> 设置用于回退的 PeerDestination  <br/> |
 |设置  <br/> |网关  <br/> |此站点中的 MS GW **M：N** 映射 <br/> |每个 PSTN 站点 (PSTN 网关) 应仅连接到同一站点中的中介 (服务器) 服务器  <br/> |
-|设置  <br/> |User  <br/> |设置 UserPSTNSettings  <br/> |设置 UserPSTNSettings  <br/> |
+|设置  <br/> |用户  <br/> |设置 UserPSTNSettings  <br/> |设置 UserPSTNSettings  <br/> |

@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: 摘要：了解 Get Cube 操作，该操作是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
-ms.openlocfilehash: a3527f21bc1751c23bba088ae06c3e6702cb8c8e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解 Get Cube 操作，该操作是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
+ms.openlocfilehash: bc65a9d6886b9375a799c62a6abaefd33738dae5fd8a4d4aee83a536d9a82948
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832622"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278720"
 ---
 # <a name="get-cube"></a>获取多维数据集
  
-**摘要：** 了解"获取多维数据集"操作，该操作是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+**摘要：** 了解 Get Cube 操作，该操作是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
   
 Get Cube 操作是通话质量仪表板的数据 API 的一部分。
   
 ## <a name="get-cube"></a>获取多维数据集
 
-获取多维数据集操作返回可用维度和度量的列表。
+Get Cube 操作返回可用维度和度量的列表。
   
 
 |**方法**|**请求 URI**|**HTTP 版本**|
@@ -47,10 +47,10 @@ Get Cube 操作是通话质量仪表板的数据 API 的一部分。
   
  **响应标头** - 无其他标头。
   
- **响应正文** - 下面是 JSON 中的示例响应负载。
+ **响应正文** - 下面是 JSON 中的示例响应有效负载。
   
 > [!NOTE]
-> 此示例只显示每个 Cube 元素组的前两个元素。 
+> 此示例只显示每个 Cube 元素组前两个元素。 
   
 ```json
 {
@@ -95,8 +95,8 @@ Get Cube 操作是通话质量仪表板的数据 API 的一部分。
 
  *KPI*  - 保留。 请求有效负载的 KPI 部分允许运行查询操作返回多维数据集中定义的 KPI 的值。 QoE 多维数据集中尚不存在 KPI。
   
- *Dimensions*  - 可用于运行查询操作的请求负载的"筛选器"和"维度"部分中的维度列表。 若要在筛选器表达式中使用维度，需要指定一维度成员，可以使用 Get Dimension Members 操作获取该维度。
+ *Dimensions*  - 可用于运行查询操作的请求有效负载的 Filters 和 Dimensions 部分中的维度列表。 若要在筛选器表达式中使用维度，需要指定一个维度成员，可以使用"获取维度成员"操作获取该维度。
   
- *度量*  - 运行查询操作的请求有效负载的"度量"部分可能使用的度量列表。
+ *度量*  - 可用于运行查询操作的请求有效负载的"度量"部分中的度量列表。
   
 

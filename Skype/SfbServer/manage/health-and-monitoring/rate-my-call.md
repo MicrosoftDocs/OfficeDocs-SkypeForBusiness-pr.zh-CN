@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中评价我的呼叫
+title: 在呼叫中评价我的Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,47 +11,47 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 摘要：了解 Skype for Business Server 中的"评价我的呼叫"功能。
-ms.openlocfilehash: 597a8213576e7aa2316ace68ed91288475df2a0d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Summary： Learn about the Rate My Call feature in Skype for Business Server.
+ms.openlocfilehash: 6623729dced8128e010ac0a61dfd2fccd95f1c558deda1342b0db92936f0b31f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326428"
 ---
-# <a name="rate-my-call-in-skype-for-business-server"></a>在 Skype for Business Server 中评价我的呼叫
+# <a name="rate-my-call-in-skype-for-business-server"></a>在呼叫中评价我的Skype for Business Server
 
-**摘要：** 了解 Skype for Business Server 中的"评价我的呼叫"功能。
+**摘要：** 了解呼叫者中的"评价我的呼叫Skype for Business Server。
 
 评价我的呼叫是 Windows 上的 Skype for Business 2015 和 2016 客户端中的一项新功能，可为企业提供一种从最终用户获取反馈的方法。
 
-"评价我的呼叫"窗口提供"星形"评级系统和用于音频和视频呼叫的预定义令牌。 此外，管理员可以启用自定义域以提供反馈。
+"评价我的呼叫"窗口提供"星形"评级系统和用于音频和视频呼叫的预定义令牌。 此外，管理员可以启用自定义字段以提供反馈。
 
 收集的"评价我的呼叫"数据当前未包含在任何现有监控报告中，但具有单独的监控报告。 数据收集在SQL查询可以访问的SQL表中。
 
 ## <a name="rate-my-call-prerequisites"></a>评价我的呼叫先决条件
 
-在 Skype for Business Server 部署中的用户可以访问"评价我的呼叫"功能之前，必须部署和配置以下组件集：
+必须先部署和配置Skype for Business Server组组件，然后您的部署中的用户可以访问"评价我的呼叫"功能：
 
--  必须在版本 9160 或更高版本 (Skype for Business Server) 。
+-  必须安装Skype for Business Server 9160 (更高版本的) 。
 
-- 让用户安装并更新到最新版本的 Skype for Business，并让他们使用 Skype for Business UI。
+- 让用户安装和更新最新版本的 Skype for Business并让他们使用 Skype for Business UI。
 
-- 用户必须位于 Skype for Business Server 前端池上。
+- 用户必须位于前端Skype for Business Server上。
 
-- 你必须已部署 Skype for Business Server 监控数据库，并且该数据库已与 Skype for Business Server 池关联。
+- 您必须已部署Skype for Business Server监控数据库并关联到您的Skype for Business Server数据库。
 
-- 我们建议将通话质量仪表板 (CQD) 。
+- 我们建议在 CQD (部署呼叫质量) 。
 
 ## <a name="configure-rate-my-call"></a>配置"评价我的呼叫"
 
-"评价我的呼叫"功能默认在具有以下设置的客户端策略中启用：
+The Rate My Call feature is enabled by default in the Client policy with the following settings：
 
 - 评价我的呼叫显示百分比 - 10%
 
 - 评价我的呼叫允许自定义用户反馈 - 已禁用
 
-虽然无需任何操作来启用基本功能，但如果您需要自定义反馈，则需要单独启用它。 以下 Windows PowerShell cmdlet 是启用自定义最终用户反馈以及将间隔从 10% 更改到 80% 的示例。
+无需任何操作来启用基本功能，但是，如果你需要自定义反馈，则需要单独启用它。 以下 Windows PowerShell cmdlet 是启用自定义最终用户反馈以及将间隔从 10% 更改到 80% 的示例。
 
 ```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
@@ -69,9 +69,9 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
 |||
 |:-----|:-----|
-|1   <br/> |DistortedSpeech  <br/> |
-|2   <br/> | ElectronicFeedback <br/> |
-|3   <br/> | BackgroundNoise <br/> |
+|1  <br/> |DistortedSpeech  <br/> |
+|2  <br/> | ElectronicFeedback <br/> |
+|3  <br/> | BackgroundNoise <br/> |
 |4   <br/> |MuffledSpeech  <br/> |
 |5   <br/> |回声  <br/> |
 | 21  <br/> | FrozenVideo <br/> |
@@ -110,7 +110,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
  **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表包含"星形"投票的轮询结果和客户反馈（如果已启用）。
 
-可以通过使用 **\* [Table.Name]** 查询中的选择或通过使用 Management Studio Microsoft SQL Server来调用表中的数据。
+通过使用 [Table.Name] 查询中的 select 或 **\* Microsoft SQL Server Management Studio，** 可以调用表中的Microsoft SQL Server Management Studio。
 
 可以使用SQL查询：
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>更新令牌定义
 
-最新的 Skype for Business 客户端报告 (100) 中可能不存在的新问题令牌 \> ID[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用最新的令牌定义更新数据库表，可以使用 SQL Management Studio 在监控Microsoft SQL Server运行以下命令。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
+最新Skype for Business客户端报告的新问题令牌 ID (\> 100) [QoeMetrics].[dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用最新的令牌定义更新数据库表，可以使用以下 SQL 命令在监控数据库上Microsoft SQL Server Management Studio。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

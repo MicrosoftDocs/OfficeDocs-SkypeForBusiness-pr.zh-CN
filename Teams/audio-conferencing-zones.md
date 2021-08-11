@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-mar2020
 description: 列出音频会议的区域以及每个区域中的国家和地区。
-ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8f09956b2d5a2e0e874926c50b78f79f5357117ce76ba47126842c266777ceca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821272"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279779"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>音频会议的国家/地区与区域
 

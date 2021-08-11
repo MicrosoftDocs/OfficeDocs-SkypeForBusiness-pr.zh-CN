@@ -1,5 +1,5 @@
 ---
-title: " (Skype for Business) 定义响应组假日集的可选选项"
+title: " (可选) 定义响应组假日集Skype for Business"
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Create or modify Response Group holiday sets， in Skype for Business Server 企业语音.
-ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 创建或修改响应组假日集，Skype for Business Server 企业语音。
+ms.openlocfilehash: a265f1c8a09133dec6a9f88a705ca6041b1a09a167b5a24252a540e8152deca8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103678"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298692"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (Skype for Business) 定义响应组假日集的可选选项
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (可选) 定义响应组假日集Skype for Business
  
-Create or modify Response Group holiday sets， in Skype for Business Server 企业语音.
+创建或修改响应组假日集，Skype for Business Server 企业语音。
   
 假日设置定义响应组停止办公的日期并指定在这些日期采取的操作。假日集是指适用于响应组的假日的集合。
   
@@ -33,7 +33,7 @@ Create or modify Response Group holiday sets， in Skype for Business Server 企
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
 3. 对于要定义的每个假日，请运行：
     
@@ -57,7 +57,7 @@ Create or modify Response Group holiday sets， in Skype for Business Server 企
 
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business 中设计和创建响应组工作流](designing-and-creating-response-group-workflows.md)
+[在工作流中设计和创建响应组Skype for Business](designing-and-creating-response-group-workflows.md)
 
 [New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

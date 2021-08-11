@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: 摘要：了解"获取集成日志"操作，该操作是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
-ms.openlocfilehash: 69827fa9f3fd3f56843a41867b029a071799ba66
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解获取集成日志操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
+ms.openlocfilehash: c52546a93cd2feb1a6d97f1909c15453cc864fc49e290466c8e22eb2fd0af9ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832592"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278690"
 ---
 # <a name="get-integration-log"></a>获取集成日志
  
-**摘要：** 了解"获取集成日志"操作，该操作是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+**摘要：** 了解"获取集成日志"操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
   
 获取集成日志操作是通话质量仪表板的数据 API 的一部分
   
@@ -30,10 +30,10 @@ ms.locfileid: "49832592"
 
 获取集成日志操作返回描述 QoE 多维数据集处理中的活动的日志条目列表。
   
-出于安全考虑，此操作默认处于禁用状态。 禁用后，它将返回一个空字符串。 若要启用此操作，管理员需要配置web.config API 的主机 Web 应用程序的应用程序。
+出于安全考虑，此操作默认处于禁用状态。 禁用后，它将返回一个空字符串。 若要启用此操作，管理员需要为数据 API 的web.config Web 应用程序配置数据库。
   
 
-|Method|**请求 URI**|**HTTP 版本**|
+|方法|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
 |GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    

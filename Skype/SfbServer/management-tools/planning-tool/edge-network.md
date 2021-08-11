@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 大多数边缘组件都部署在外围网络中。 以下组件组成外围网络的边缘拓扑。 除非特别说明，否则这些组件是 Skype for Business Server 2015 中边缘服务器方案的一部分，并且位于外围网络中。 边缘组件包括下列各项：
-ms.openlocfilehash: 6d43b9f26555cd33a2c0a7f7f994b9e2746cefd6
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 8123d1a4c04e4f1c21cc432295b2424572594d1a701d5e5199a08e21094a486c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280017"
 ---
 # <a name="edge-network-planning-tool"></a>边缘网络规划工具
  

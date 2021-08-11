@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解 Skype 在 pin 或默认会议数等设置发生更改时如何启用或禁用向用户发送的电子邮件。 '
-ms.openlocfilehash: f6596e3e5c52dd82f4f61ad176ae4d656a5f146c
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f2c0112f3817bfd64184018770348ee50ecb5f31c9b6dd161c90f70bdae97eb5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335732"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议设置更改时启用或禁用发送电子邮件
 
@@ -113,7 +113,7 @@ ms.locfileid: "52237318"
     
   - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心在速度、简单性和工作效率方面具有许多优势，例如，一次对多个用户进行设置更改时。 请在以下主题中了解这些优点： 
+- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

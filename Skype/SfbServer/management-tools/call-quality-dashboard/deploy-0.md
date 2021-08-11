@@ -1,5 +1,5 @@
 ---
-title: 部署 Skype for Business Server 的呼叫质量仪表板
+title: 部署呼叫质量仪表板Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: 摘要：了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是 Skype for Business Server 的工具。
-ms.openlocfilehash: 1f59209575284035fcdca52e4f18220aa05337af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解呼叫质量仪表板的部署过程。 通话质量仪表板是一种用于Skype for Business Server。
+ms.openlocfilehash: eaabfe4700a2466c469776fcd839beab358ed763ede49c96a72d0be5f10f660c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278740"
 ---
-# <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>部署 Skype for Business Server 的呼叫质量仪表板
+# <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>部署呼叫质量仪表板Skype for Business Server
  
-**摘要：** 了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是 Skype for Business Server 的工具。
+**摘要：** 了解呼叫质量仪表板的部署过程。 通话质量仪表板是一种用于Skype for Business Server。
   
 ## <a name="deployment-overview"></a>部署概述
 
@@ -58,7 +58,7 @@ QoE 存档的安装过程涉及创建 QoE 存档数据库、部署将数据从�
 
 1. 将CallQualityDashboard.msi复制到要安装 CQD 存档数据库组件的计算机 (这是已安装SQL Server的计算机) 。 
     
-2. 执行 MSI (Windows 将提示使用管理员权限运行，) 。 
+2. 执行 MSI (Windows将提示使用管理员权限运行，) 。 
     
 3. 接受 EULA。
     
@@ -68,7 +68,7 @@ QoE 存档的安装过程涉及创建 QoE 存档数据库、部署将数据从�
     
 6. 在"QoE 存档配置"页上，提供以下信息：
     
-   - **QoE 指标SQL Server：** SQL Server QoE 指标 DB 所在的实例 (将成为数据源) 。
+   - **QoE 指标SQL Server：SQL Server** QoE 指标 DB 所在的实例 (将成为 QoE 指标数据库) 。
     
    - **QoE 存档SQL Server名称：** 这是只读字段，并修复为本地计算机完全限定的域名。 存档 DB 只能安装在本地计算机上。
     
@@ -78,17 +78,17 @@ QoE 存档的安装过程涉及创建 QoE 存档数据库、部署将数据从�
     
    - **数据库文件目录：** 存档数据库的数据库文件 (.mdf 和 .ldf) 的位置的路径。 这应该位于推荐的硬件配置 (HDD2 的驱动器) 操作系统。 请注意，由于文件名在安装中是固定的，为了避免任何潜在的冲突，建议使用没有文件的空白目录。
     
-   - **使用多个分区：** 默认设置为"多个分区"，这需要商业智能版本或企业版SQL Server。 对于 Standard Edition，选择"单分区"选项。 请注意，如果使用单个分区，则多维数据集处理性能可能会受到影响。
+   - **使用多个分区：** 默认设置为"多个分区"，这需要商业智能版本或 Enterprise 版本SQL Server。 对于 Standard Edition，选择"单分区"选项。 请注意，如果使用单个分区，则多维数据集处理性能可能会受到影响。
     
      > [!NOTE]
      > 安装程序完成后，无法更改"使用多个分区"选项的选择。 若要更改它，需要首先卸载多维数据集功能，然后使用控制面板中的"更改"选项重新安装。 
   
-   - **分区文件目录：** QoE 存档数据库的分区应放置的位置的路径。 这应该位于推荐硬件配置 (HDD3 的驱动器上) 操作系统驱动器和SQL日志文件驱动器。 请注意，由于文件名在安装中是固定的，为了避免任何潜在的冲突，建议使用没有文件的空白目录。
+   - **分区文件目录：** QoE 存档数据库的分区应放置的位置的路径。 这应位于推荐硬件配置 (HDD3 的驱动器) 操作系统驱动器和SQL日志文件驱动器上。 请注意，由于文件名在安装中是固定的，为了避免任何潜在的冲突，建议使用没有文件的空白目录。
     
-   - **SQL代理作业用户 - 用户名 &amp;** 密码：域服务帐户名和密码 (已屏蔽) 将用于运行 SQL Server 代理作业 (该作业将运行存储过程以将数据从 QoE 指标数据库提取到存档 DB 的"QoE 存档数据"步骤，因此此帐户必须具有对 QoE 指标 DB 的读取访问权限，如"帐户"部分所述。 此帐户还需要在 QoE 存档实例SQL Server登录) 。
+   - **SQL代理作业用户 - 用户名 &amp;** 密码：域服务帐户名和密码 (已屏蔽) ，将用于运行 SQL Server 代理作业 (该作业将运行存储过程以将数据从 QoE 指标数据库提取到存档 DB 中，因此此帐户必须具有对 QoE 指标 DB 的读取访问权限，如"帐户"部分所述。 此帐户还需要在 QoE 存档实例SQL Server登录) 。
     
      > [!NOTE]
-     > 运行实例SQL Server的帐户（如 NT SERVICE\MSSQLSERVER）必须具有对上述给定目录的访问/权限，安装才能成功。 有关详细信息，请参阅 [为数据库引擎访问配置文件系统权限](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
+     > 运行该 SQL Server 实例的帐户（如 NT SERVICE\MSSQLSERVER）必须具有对上述给定目录的访问/权限，安装才能成功。 有关详细信息，请参阅[Configure File System Permissions for 数据库引擎 Access](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
   
 7. 单击下一步后，安装程序将执行先决条件检查并报告是否遇到任何问题。 当所有先决条件检查通过时，安装程序将转到"多维数据集配置"页。 
     
@@ -99,29 +99,29 @@ QoE 存档的安装过程涉及创建 QoE 存档数据库、部署将数据从�
     
    - **QoE 存档SQL Server名称：** 这是只读字段，并修复为本地计算机完全限定的域名。 只能从具有 QoE 存档数据库的计算机安装多维数据集 (注意。 多维数据集本身可以安装在远程计算机上。 请参阅下面的) 
     
-   - **QoE 存档SQL Server实例：** SQL Server QoE 存档 DB 所在的实例名称。 若要指定默认实例SQL Server，请保留此字段为空。 若要指定SQL Server实例，请输入实例名称 (例如"名称"之后 \") 。 如果选择了 QoE 存档组件进行安装，则此字段将预填充"QoE 存档配置"页上提供的值。
+   - **QoE 存档SQL Server实例：SQL Server** QoE 存档数据库所在的位置的实例名称。 若要指定默认实例SQL Server，请保留此字段为空。 若要指定SQL Server实例，请输入实例 (，例如"名称"之后 \") 。 如果选择了 QoE 存档组件进行安装，则此字段将预填充"QoE 存档配置"页上提供的值。
     
-   - **多维数据集分析服务器：** SQL Server创建多维数据集的 Analysis Service 实例名称。 这可以是其他计算机，但安装用户必须是 Analysis Service 实例的目标服务器SQL Server的成员。
+   - **多维数据集分析服务器**：SQL Server创建多维数据集的 Analysis Service 实例名称。 这可以是其他计算机，但安装用户必须是 Analysis Service 实例的目标服务器SQL Server的成员。
     
      > [!NOTE]
      >  有关配置服务器管理员Analysis Services，请参阅授予 [服务器管理员权限 (Analysis Services) ](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15)
   
-   - **使用多个分区：** 默认设置为"多个分区"，这需要商业智能版本或企业版SQL Server。 对于 Standard Edition，选择"单分区"选项。 请注意，如果使用"单个分区"，则多维数据集处理性能可能会受到影响。
+   - **使用多个分区：** 默认设置为"多个分区"，这需要商业智能版本或 Enterprise 版本SQL Server。 对于 Standard Edition，选择"单分区"选项。 请注意，如果使用"单个分区"，则多维数据集处理性能可能会受到影响。
     
      > [!NOTE]
      >  安装程序完成后，无法更改"使用多个分区"选项的选择。 若要更改它，需要首先卸载多维数据集功能，然后使用控制面板中的"更改"选项重新安装。
   
-   - **多维数据集用户 - &amp; 用户名密码：** 域服务帐户名和密码 (将) 多维数据集处理的掩码。 如果选择了 QoE 存档组件进行安装，则此字段将预填充"SQL 代理作业用户"的"存档配置"页上提供的值，但我们建议指定其他域服务帐户，以便安装程序可以授予最低要求的特权。
+   - **多维数据集用户 - &amp; 用户名密码：** 域服务帐户名和密码 (将) 多维数据集处理的掩码。 如果选择了 QoE 存档组件进行安装，则此字段将用 SQL 代理作业用户的"存档配置"页上提供的值进行预填充，但我们建议指定不同的域服务帐户，以便安装程序可以授予最低要求的特权。
     
 9. 单击下一步时，将执行另一轮验证，并报告任何问题。 成功完成验证后，安装程序将转到"门户配置"页。 
     
 10. 在"门户配置"页上，提供以下信息：
     
-    - **QoE 存档SQL Server：** SQL Server QoE 存档数据库所在的实例名称。 请注意，与"QoE 存档配置"页和"多维数据集配置"页不同，计算机名称不是固定的，必须提供。 如果选择了 QoE 存档组件进行安装，则此字段将预填充"QoE 存档配置"页上提供的值。
+    - **QoE 存档SQL Server：SQL Server** QoE 存档数据库所在的位置的实例名称。 请注意，与"QoE 存档配置"页和"多维数据集配置"页不同，计算机名称不是固定的，必须提供。 如果选择了 QoE 存档组件进行安装，则此字段将预填充"QoE 存档配置"页上提供的值。
     
-    - **多维数据集分析服务器：** SQL Server多维数据集所在的 Analysis Service 实例名称。 如果选择了多维数据集组件进行安装，则此字段将预填充"多维数据集配置"页上提供的值。
+    - **多维数据集分析服务器**：SQL Server多维数据集所在的 Analysis Service 实例名称。 如果选择了多维数据集组件进行安装，则此字段将预填充"多维数据集配置"页上提供的值。
     
-    - **存储库SQL Server：** SQL Server存储库数据库的位置的实例名称。 如果 QoE 存档数据库所在的 SQL Server 实例名称已在其他组件) 的安装 (中先前提供，则此字段将预先填充 QoE 存档数据库 SQL Server 实例名称。 这可以是任何SQL Server实例。
+    - **存储库SQL Server：SQL Server** 创建存储库数据库的实例名称。 如果 QoE 存档数据库所在的 SQL Server 实例名称已在其他组件) 的安装 (中提供，则此字段将预先填充 QoE 存档数据库 SQL Server 实例名称。 这可以是任何SQL Server实例。
     
     - **存储库数据库：** 默认情况下，该选项设置为"新建数据库"。 由于不支持 Repository DB 升级，因此可以使用"使用现有数据库"选项的唯一情形是，现有 Repository DB 与要安装内部版本具有相同的架构。
     
@@ -129,11 +129,11 @@ QoE 存档的安装过程涉及创建 QoE 存档数据库、部署将数据从�
     
 11. 单击下一步时，将完成最后一轮验证，以确保可以使用提供的凭据访问 SQL Server 实例，并确保 IIS 在计算机中可用。 成功完成验证后，安装程序将继续安装。 
     
-安装程序完成后，很可能SQL Server代理作业正在进行中，同时执行 QoE 数据的初始负载和多维数据集处理。 根据 QoE 中数据的数量，门户尚没有可供查看的数据。 若要检查数据加载和多维数据集处理的状态，请转到  `http://<machinename>/CQD/#/Health` 。 
+安装程序完成后，很可能正在SQL Server代理作业，同时执行 QoE 数据的初始负载和多维数据集处理。 根据 QoE 中数据的数量，门户尚没有可供查看的数据。 若要检查数据加载和多维数据集处理的状态，请转到  `http://<machinename>/CQD/#/Health` 。 
 > [!NOTE]
 > 请注意，用于检查下载多维数据集处理状态的 URL 区分大小写。 如果输入"运行状况"，URL 将不起作用。 必须在 URL 末尾输入大写 H 的"Health"。 
   
-如果启用调试模式，将显示详细的日志消息。 若要启用调试模式，请转到 **%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config，** 并更新以下行，以便值设置为 **True**：
+如果启用调试模式，将显示详细的日志消息。 若要启用调试模式，请转到 **%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config**，并更新以下行，以便值设置为 **True**：
 
 ```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
@@ -194,9 +194,9 @@ QoE 存档的安装过程涉及创建 QoE 存档数据库、部署将数据从�
 
 *在多维数据集上运行查询时，无法执行查询。使用查询编辑器修改查询并修复任何问题。此外，请确保多维数据集是可访问的。*
 
-这意味着必须先在 CQD 中SQL Server Analysis Services处理多维数据集。 可以按照以下步骤解决此问题：
+这意味着，在 CQD 中SQL Server Analysis Services必须处理多维数据集。 可以按照以下步骤解决此问题：
 
-1. 打开 SQL Management Studio 并选择 **"Analysis Services"。**
+1. 打开SQL Management Studio并选择 **"Analysis Services"。**
 
 2. 展开 **QoECube** 对象，选择 **"QoE** 指标"，右键单击，然后选择"浏览 **"。** 
 
@@ -215,11 +215,11 @@ QoE 存档的安装过程涉及创建 QoE 存档数据库、部署将数据从�
     
      ![部署通话质量仪表板](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
-2. 单击"身份验证"。 如果"匿名身份验证"、"ASP.NET 模拟"、"表单身份验证"和"Windows 身份验证"与下面显示的设置不匹配，请手动更改它们以匹配以下设置。 应禁用所有其他身份验证机制。
+2. 单击"身份验证"。 如果"匿名身份验证"、"ASP.NET 模拟"、"表单身份验证"和"Windows 身份验证"与下面所示的设置不匹配，请手动更改它们以匹配以下设置。 应禁用所有其他身份验证机制。
     
      ![部署通话质量仪表板](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
-3. 对于"Windows 身份验证"，单击右侧"高级设置"。
+3. 对于"Windows身份验证"，请单击设置"高级身份验证"。
     
      ![部署通话质量仪表板](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
@@ -235,7 +235,7 @@ QoE 存档的安装过程涉及创建 QoE 存档数据库、部署将数据从�
   
 1. 在 IIS 中配置安全套接字层，请参阅在 [IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10))中配置安全套接字层。 完成后，将  `http` 替换为 `https` 。
     
-2. 有关在连接连接中启用 TLS SQL Server，请参阅如何使用 [Microsoft](https://support.microsoft.com/kb/316898/)管理控制台为 SQL Server 实例启用 SSL 加密。
+2. 有关在连接连接中启用 TLS SQL Server，请参阅如何使用[Microsoft](https://support.microsoft.com/kb/316898/)管理控制台为 SQL Server 实例启用 SSL 加密。
     
 ## <a name="cube-sync-fails"></a>多维数据集同步失败
 
@@ -278,7 +278,7 @@ QoEMetrics 可能包含一些基于最终用户时钟的无效记录。 如果�
   
 - 总部
     
-- 远程 Office
+- 远程Office
     
 - 联合位置
     
@@ -363,7 +363,7 @@ NetworkNameID 和 NetworkName 参数是必需的，NetworkType 参数是可选�
 > [!NOTE]
 > 此步骤是可选的，但建议执行此步骤。 
   
-在导入新建筑物之前，应该已经标识了预定义的 BuildingKey。 为此，请发出"SELECT MAX (BuildingKey) FROM CqdBuilding"SQL 命令来标识当前值，并将其添加到结果中。
+在导入新建筑物之前，应该已经标识了预定义的 BuildingKey。 为此，请发出"SELECT MAX (BuildingKey) FROM CqdBuilding"SQL命令来标识当前值，并将其添加到结果中。
   
  **示例SQL语法**
   
@@ -388,7 +388,7 @@ BuildingKey、BuildingName、BuildingShortName、OwnershipTypeId、BuildingTypeI
 > [!NOTE]
 > 此步骤是可选的，但建议执行此步骤。
   
-导入子网，然后将它们映射到上一步中导入的大楼。 如果您决定不填充 NetworkName，请确保此表中的每个条目都使用 NetworkNameID 0。 有关呼叫质量SQL语法和参数的信息，请参阅使用 Skype for Business Server 的呼叫 [质量仪表板](./use.md)。
+导入子网，然后将它们映射到上一步中导入的大楼。 如果您决定不填充 NetworkName，请确保此表中的每个条目都使用 NetworkNameID 0。 有关呼叫质量SQL语法和参数的信息，请参阅使用呼叫质量仪表板[进行](./use.md)Skype for Business Server。
   
  **示例SQL语法**
   
@@ -431,7 +431,7 @@ VALUES
 |:-----|:-----|:-----|
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00-00 (必须使用分隔的 fformat)   <br/> |
-|控制器  <br/> |生成  <br/> |阿鲁巴岛 AP 7  <br/> |
+|控制者  <br/> |生成  <br/> |阿鲁巴岛 AP 7  <br/> |
 |设备  <br/> |ess  <br/> |Controller1  <br/> |
 |无线电广播  <br/> |phy  <br/> |bgn  <br/> |
    

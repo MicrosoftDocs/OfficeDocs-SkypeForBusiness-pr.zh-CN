@@ -21,12 +21,12 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
 description: 通过Skype for Business预览计划，可提前访问新产品和功能。 它使组织能够快速了解即将推出的产品、测试自己的环境中的新特性，以及提供反馈，然后再向公众发布产品内部版本。 若要了解更多信息，请参阅预览Skype for Business。
-ms.openlocfilehash: d713e3225ed963beb1b201d515db558513020d39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b372fcdbe23ed5fcd663cf7af0a0d4aea1cd684277d670308daab120625d2238
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237498"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298732"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype 会议广播预览设置
 

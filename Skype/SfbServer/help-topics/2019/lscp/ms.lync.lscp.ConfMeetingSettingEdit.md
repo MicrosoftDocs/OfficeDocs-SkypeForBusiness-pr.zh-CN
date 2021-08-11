@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会议配置设置定义用户安排的会议的用户加入体验。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
-ms.openlocfilehash: 3d37b1894531a62f605f083cbe1e2f36953f2ff2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4038f4175849481c43d2d8a9fc0849f44f0530906c3702580a892cd0edb17871
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121126"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326484"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>会议配置：创建新的或编辑现有的
 
@@ -44,7 +44,7 @@ ms.locfileid: "51121126"
 
   - **所有人** 选择此选项可自动指定任何人为演示者。
 
-- **默认情况下分配的会议类型** 此设置控制 Outlook 会议外接程序是否始终使用组织者分配的会议安排会议，这意味着安排的会议始终具有相同的加入 URL 和音频信息。 选中此复选框，使已安排的会议始终使用相同的加入 URL。 清除此复选框以针对每个会议使用不同的加入 URL。
+- **默认情况下分配的会议类型** 此设置控制会议Outlook加载项是否始终使用组织者分配的会议来安排会议，这意味着安排的会议始终具有相同的加入 URL 和音频信息。 选中此复选框，使已安排的会议始终使用相同的加入 URL。 清除此复选框以针对每个会议使用不同的加入 URL。
 
 - **默认情况下允许匿名用户** 如果默认情况下允许匿名 (（即未经身份验证) 用户参加会议，请选中此复选框。 如果默认情况下不允许匿名用户参加会议，请清除此复选框。
 
@@ -56,4 +56,4 @@ ms.locfileid: "51121126"
 
 - **自定义页脚文本** 键入要用于自定义会议邀请的文本。
 
-有关使用会议配置的详细信息，请参阅操作文档中的[Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings)。 有关设置大型会议的会议配置的详细信息，请参阅规划文档中的[Setting Up Support for Large Meetings](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-support-for-large-meetings)。
+有关使用会议配置的详细信息，请参阅操作文档中的[Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings)。有关设置大型会议的会议配置的详细信息，请参阅规划文档中的[Setting Up Support for Large Meetings](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-support-for-large-meetings)。

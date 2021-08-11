@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解应该了解的 PIN 以及如何在 Skype for Business Online 中重置它们。 '
-ms.openlocfilehash: 95c2d19a7d867d97ab977b722648de1373a4739b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 79568b3b050f456d64ba4dfc9f1c86b46401536274caf88a4cbc51f20cbd14cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310241"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>在 Skype for Business Online 中重置音频Skype for Business PIN
 
@@ -94,7 +94,7 @@ PIN 是由为启用了音频会议的每个Skype for Business创建的数字的�
     
   - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点：
+- Windows PowerShell比仅使用 Microsoft 365 管理中心 具有许多速度、简单性和工作效率优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

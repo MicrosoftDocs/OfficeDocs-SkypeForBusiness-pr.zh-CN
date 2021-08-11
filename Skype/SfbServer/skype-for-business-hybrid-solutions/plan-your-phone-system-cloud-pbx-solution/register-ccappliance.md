@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
-description: Register-CcAppliance cmdlet 将设备信息注册到联机租户配置中的 PSTN 站点。 必须先注册设备，Skype for Business 云连接器版本管理服务才能对其进行部署和管理。
-ms.openlocfilehash: a94f9d7189f4872fcee2439afd2b210933f8bb06
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此Register-CcAppliance cmdlet 将设备信息注册到联机租户配置中的 PSTN 站点。 设备必须先注册，然后才能由 Skype for Business 云连接器版本管理服务进行部署和管理。
+ms.openlocfilehash: 5b63ce38b358d41fea15551df1e8134d1b56db00851317cbc5c81ac8f3aea058
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824298"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288800"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
-Register-CcAppliance cmdlet 将设备信息注册到联机租户配置中的 PSTN 站点。 必须先注册设备，Skype for Business 云连接器版本管理服务才能对其进行部署和管理。
+此Register-CcAppliance cmdlet 将设备信息注册到联机租户配置中的 PSTN 站点。 设备必须先注册，然后才能由 Skype for Business 云连接器版本管理服务进行部署和管理。
   
 ```powershell
 Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
@@ -41,7 +41,7 @@ Register-CcAppliance
 
 ### <a name="example-2"></a>示例 2
 
-以下示例在本地检查用于注册的配置，而不连接到联机租户配置：
+下一个示例检查本地注册的配置，而不连接到联机租户配置：
   
 ```powershell
 Register-CcAppliance -Local
@@ -49,7 +49,7 @@ Register-CcAppliance -Local
 
 ### <a name="example-3"></a>示例 3
 
-以下示例将当前设备以名称“Appliance1”注册到 PSTN 站点“Site1”：
+下一个示例将名称为"Appliance1"的当前设备注册到 PSTN 站点"Site1"：
   
 ```powershell
 Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
@@ -58,45 +58,45 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-必须提供租户管理员帐户名称和密码。 请使用你为云连接器在线管理创建的帐户。 
+必须提供租户管理员帐户名称和密码。 使用你为云连接器联机管理创建的帐户。 
   
-在版本1.4.2 及更早版本中，按照说明提供外部证书密码、安全模式管理员密码、域管理员密码和 VM 管理员密码。 
+在版本 1.4.2 及更早版本中，按照说明提供外部证书密码、安全模式管理员密码、域管理员密码和 VM 管理员密码。 
   
-在 2.0 版和更高版本中，按照说明提供外部证书密码、CceService 密码和 CABackupFile 密码。
+在 2.0 版及更高版本中，按照说明提供外部证书密码、CceService 密码和 CABackupFile 密码。
   
-注册结束后，重新启动云连接器管理服务，并以 CceService 帐户身份登录服务。
+注册结束时，重新启动云连接器管理服务，然后以 CceService 帐户登录服务。
   
-CloudConnector.ini 文件中与边缘服务器外部 FQDN 组合在一起的 SiteName 被视为 PSTN 站点标识。如果注册站点时既未使用 SiteName 也未使用边缘服务器外部 FQDN，将在联机租户配置中为此设备创建新站点。如果找到 PSTN 站点标识，PSTN 站点将使用此标识，并且设备将注册到此 PSTN 站点。 
+SiteName 与边缘服务器外部 FQDN 组合在CloudConnector.ini被视为 PSTN 站点标识。 如果未使用 SiteName 和边缘服务器外部 FQDN 注册站点，将在联机租户配置中为此设备创建一个新站点。 如果找到 PSTN 站点标识，PSTN 站点将使用此标识，设备将注册到此 PSTN 站点。 
   
-在下面的情况下，cmdlet 将失败，并指示 Site1 已注册。 
+在下列情况下，cmdlet 将失败，并指示已注册 Site1： 
   
-- SiteName 为 Site1 且边缘服务器外部 FQDN 为 edgserver1.contoso.com。 
+- SiteName 为 Site1，边缘服务器外部 FQDN edgserver1.contoso.com。 
     
-- 其 SiteName 为 Site1 且边缘服务器外部 FQDN 为 edgserver.contoso.com 的 PSTN 站点。
+- 站点名称为 Site1 且边缘服务器外部 FQDN 为 pstN edgserver.contoso.com。
     
-- 其 SiteName 为 NewSite 且边缘服务器外部 FQDN 为 edgserver1.contoso.com 的 PSTN 站点已注册。 
+- 已注册其 SiteName 为 NewSite 和边缘服务器外部 FQDN edgserver1.contoso.com PSTN 站点。 
     
-CloudConnector.ini 文件中与中介服务器 FQDN 组合在一起的 ApplianceName 被视为设备标识。如果注册设备时既未使用 ApplianceName 也未使用中介服务器外部 FQDN，将在联机租户配置中创建新设备。如果设备已注册，cmdlet 将失败。
+设备名称与中介服务器 FQDN CloudConnector.ini文件被视为设备标识。 如果 ApplianceName 和中介服务器 FQDN 都未用于注册设备，将在联机租户配置中新建设备。 如果设备已注册，该 cmdlet 将失败。
   
-在下面的情况下，cmdlet 将失败，并指示设备已注册。 
+在下列情况下，该 cmdlet 将失败，并指示设备已注册： 
   
-- ApplianceName 为 Appliance1 且中介服务器 FQDN 为 ms1.vdomain.com。
+- ApplianceName 为 Appliance1，中介服务器 FQDN ms1.vdomain.com。
     
-- 在当前 PSTN 站点中，如果其名称为 Appliance1 且中介服务器 FQDN 为 ms.vdomain.com 的设备或其名称为 NewAppliance 且中介服务器 FQDN 为 ms1.vdomain.com 的设备已注册。
+- 在当前 PSTN 站点中，如果名称为 Appliance1 和中介服务器 FQDN 的设备为 ms.vdomain.com 或者已注册其名称为 NewAppliance 和中介服务器 FQDN ms1.vdomain.com 设备。
     
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必需**|**类型**|**说明**|
+|**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-|SiteName  <br/> |可选  <br/> |System.String  <br/> |向其注册设备的 PSTN 站点名称。默认值是 CloudConnector.ini 文件中的 SiteName 值。  <br/> |
-|ApplianceName  <br/> |可选  <br/> |System.String  <br/> |当前设备的名称。默认值是主机服务器的计算机名称。  <br/> |
-|本地  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |在本地检查用于注册的配置，而不连接到联机租户配置。  <br/> |
+|SiteName  <br/> |可选  <br/> |System.String  <br/> |设备注册到的 PSTN 站点名称。 默认值为网站配置文件中的 SiteName CloudConnector.ini值。  <br/> |
+|ApplianceName  <br/> |可选  <br/> |System.String  <br/> |当前设备的名称。 默认值是主机服务器的计算机名称。  <br/> |
+|本地  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |检查本地注册的配置，而无需连接到联机租户配置。  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
 
-无。Register-CcAppliance cmdlet 不接受主线输入。
+无。 Register-CcAppliance cmdlet 不接受通过管道的输入。
   
 ## <a name="return-types"></a>返回类型
 <a name="ReturnTypes"> </a>

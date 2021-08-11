@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本 的信息，这是一组打包的虚拟机 (VM) 使用云 PBX 电话系统 (本地 PSTN) 。
-ms.openlocfilehash: 4d4573b89f743ea8224905687869cb607a85c00d
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 147fabd9866386b67c17022a37369149273de3caeecf40e471abbed40e0e33cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288850"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划Skype for Business 云连接器版本
 
@@ -422,7 +422,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 主机必须能够访问外部资源才能成功安装、更新和管理云连接器。 下表显示了主机计算机和外部资源之间所需的目标及端口。
 
-|Direction  <br/> |源 IP  <br/> |目标 IP  <br/> |源端口  <br/> |目标端口  <br/> |协议  <br/> |用途  <br/> |
+|方向  <br/> |源 IP  <br/> |目标 IP  <br/> |源端口  <br/> |目标端口  <br/> |协议  <br/> |用途  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |出站  <br/> |云连接器主机 IP  <br/> |任意  <br/> |任意  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |出站  <br/> |云连接器主机 IP  <br/> |任意  <br/> |任意  <br/> |80, 443  <br/> |TCP  <br/> |CRL (证书吊销)   <br/> |
@@ -458,7 +458,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 首先，需要定义以下常见部署参数：
 
 
-|**项目**|**说明**|**注释**|
+|**项**|**说明**|**注释**|
 |:-----|:-----|:-----|
 |SIP 域  <br/> |公司用户使用的 SIP URI。 提供此部署将服务的所有 SIP 域。 可以具有多个 SIP 域。  <br/> ||
 |PSTN 站点数  <br/> |要部署的 PSTN 站点数。  <br/> ||

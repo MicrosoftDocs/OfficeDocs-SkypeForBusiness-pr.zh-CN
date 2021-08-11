@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
-description: Exit-CcUpdate cmdlet 用于在 Skype for Business 云连接器版本主机服务器上退出更新维护模式。
-ms.openlocfilehash: 315d6b7dccb6708901128bf8faa29a60f712e833
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此Exit-CcUpdate cmdlet 在主机服务器上退出更新Skype for Business 云连接器版本模式。
+ms.openlocfilehash: d55004f071caa67492d5368e36007d9c3c307b90aabbc33d79d1feeb4aa37356
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288831"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
-Exit-CcUpdate cmdlet 用于在 Skype for Business 云连接器版本主机服务器上退出更新维护模式。 
+此Exit-CcUpdate cmdlet 在主机服务器上退出更新Skype for Business 云连接器版本模式。 
   
 此 cmdlet 适用于 Skype for Business 云连接器版本 1.4.1、1.4.2。 
   
@@ -39,7 +39,7 @@ Exit-CcUpdate
 
 ### <a name="example-1"></a>示例 1
 
-以下命令将运行它的设备恢复到生产模式： 
+以下命令将运行该设备的设备重新置于生产模式下： 
   
 ```powershell
 Exit-CcUpdate
@@ -48,14 +48,14 @@ Exit-CcUpdate
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-如果有通过指定 Enter-CcUpdate cmdlet 被置于维护模式的设备，Exit-CcUpdate cmdlet 可将这些设备恢复到生产模式。 
+如果有通过指定 Enter-CcUpdate cmdlet 进入维护模式的设备，Exit-CcUpdate cmdlet 会重新进入生产模式。 
   
-有关将设备置于维护模式的详细信息，请参阅 Enter-CcUpdate。
+有关将设备置于维护模式详细信息，请参阅 Enter-CcUpdate。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
 
-无。Exit-CcUpdate cmdlet 不接受主线输入。
+无。 Exit-CcUpdate cmdlet 不接受通过管道的输入。
   
 ## <a name="return-types"></a>返回类型
 <a name="ReturnTypes"> </a>

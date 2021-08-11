@@ -1,5 +1,5 @@
 ---
-title: Plan for 企业语音 resiliency in Skype for Business Server
+title: 规划企业语音中的恢复Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
-description: 了解如何在中央站点和分支站点支持 Skype for Business Server 企业语音语音恢复能力。 分支站点选项包括部署 Survivable Branch 设备或 Survivable Branch Servers。
-ms.openlocfilehash: 357fca70ac179a23d733542bede540031a6dafdd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 了解如何在中央站点和分支站点Skype for Business Server 企业语音语音恢复能力。 分支站点选项包括部署 Survivable Branch 设备或 Survivable Branch Servers。
+ms.openlocfilehash: ed5a410c30d1091a335e3c3ce3e4c7a5523f28399281f3a3f6f4686de08024a4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101528"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280033"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for 企业语音 resiliency in Skype for Business Server
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>规划企业语音中的恢复Skype for Business Server
 
-了解如何在中央站点和分支站点支持 Skype for Business Server 企业语音语音恢复能力。 分支站点选项包括部署 Survivable Branch 设备或 Survivable Branch Servers。
+了解如何在中央站点和分支站点Skype for Business Server 企业语音语音恢复能力。 分支站点选项包括部署 Survivable Branch 设备或 Survivable Branch Servers。
 
 语音恢复能力是指在承载 Skype for Business Server 的中央站点不可用时（无论是通过广域网 (WAN) 故障还是其他原因）用户继续发出和接收呼叫的能力。 如果中央站点发生故障，企业语音服务必须通过无缝故障转移至备份站点以保持不中断。 如果发生 WAN 故障，分支站点的呼叫必须重定向到本地 PSTN 网关。 本节讨论了如何规划在中央站点或 WAN 发生故障时的语音恢复能力。
 
 ## <a name="central-site-resiliency"></a>中央站点恢复能力
 
-企业在全球拥有多个站点的情况日益普遍。 维护紧急服务、访问技术支持以及当中央站点停止服务时执行关键业务任务的能力对于任何恢复能力解决方案企业语音至关重要。 当中央站点不可用时，必须满足以下条件：
+企业在全球拥有多个站点的情况日益普遍。 维护紧急服务、访问支持人员以及当中央站点停止服务时执行关键业务任务的能力对于任何恢复能力解决方案企业语音至关重要。 当中央站点不可用时，必须满足以下条件：
 
 - 必须提供语音故障转移。
 
@@ -43,7 +43,7 @@ ms.locfileid: "51101528"
 
 ### <a name="architecture-and-topology"></a>体系结构和拓扑
 
-规划中央站点的语音恢复能力需要基本了解 Skype for Business Server 注册器在启用语音故障转移时所扮演的中心角色。 Skype for Business Server 注册器是一项支持客户端注册和身份验证并提供路由服务的服务。 它在所有 Standard Edition Server、前端服务器、控制器或 Survivable Branch Appliance 上运行。 注册器池由在前端池上运行并位于同一站点的注册器服务组成。 Skype for Business 客户端通过以下发现机制发现前端池：
+在中央站点规划语音恢复能力需要基本了解由 Skype for Business Server 注册器在启用语音故障转移中扮演的中心角色。 Skype for Business Server注册器是一项支持客户端注册和身份验证并提供路由服务的服务。 它在所有 Standard Edition、前端服务器、控制器或 Survivable Branch Appliance 上运行。 注册器池由在前端池上运行并位于同一站点的注册器服务组成。 Skype for Business客户端通过以下发现机制发现前端池：
 
 1. DNS SRV 记录
 
@@ -51,7 +51,7 @@ ms.locfileid: "51101528"
 
 3. DHCP 选项 120
 
-Skype for Business 客户端连接到前端池后，负载平衡器会将其定向到池中的一台前端服务器。 反过来，该前端服务器会将客户端重定向到池中的首选注册器。
+在Skype for Business连接到前端池后，负载平衡器会将其定向到池中的一台前端服务器。 反过来，该前端服务器会将客户端重定向到池中的首选注册器。
 
 每个用户都企业语音注册器池，该注册器池将成为该用户的主注册器池。 在给定的站点上，通常成百上千个用户共享一个主注册器池。 要说明其状态、会议或故障转移依赖于中央站点的任何分支站点用户使用中央站点资源的情况，建议您将每个分支站点用户视作已在中央站点注册的用户。 分支站点用户（包括在 Survivable Branch Appliance 中注册的用户）的数量当前没有限制。
 
@@ -59,14 +59,14 @@ Skype for Business 客户端连接到前端池后，负载平衡器会将其定�
 
 以下步骤介绍了客户端发现和注册过程：
 
-1. 客户端通过 DNS SRV 记录发现 Skype for Business Server。 在 Skype for Business Server 中，可以将 DNS SRV 记录配置为向 DNS SRV 查询返回多个 FQDN。 例如，如果企业 Contoso 具有三个中央站点（北美、欧洲和亚太），且每个中央站点有一个控制器池，则 DNS SRV 记录可以指向每个位置中的控制器池 FQDN。 只要其中一个位置中的控制器池可用，客户端就可以连接到第一个跃点 Skype for Business Server。
+1. 客户端通过 DNS SRV Skype for Business Server发现安全记录。 在Skype for Business Server，可以将 DNS SRV 记录配置为向 DNS SRV 查询返回多个 FQDN。 例如，如果企业 Contoso 具有三个中央站点（北美、欧洲和亚太），且每个中央站点有一个控制器池，则 DNS SRV 记录可以指向每个位置中的控制器池 FQDN。 只要其中一个位置中的控制器池可用，客户端就可以连接到第一个跃点Skype for Business Server。
 
     > [!NOTE]
     > 可以选择使用控制器池。 可以改为使用前端池。
 
-2. 控制器池向 Skype for Business 客户端通知用户的主注册器池和备份注册器池。
+2. 控制器池向Skype for Business客户端通知用户的主注册器池和备份注册器池。
 
-3. Skype for Business 客户端首先尝试连接到用户的主注册器池。 如果主注册器池可用，则该注册器接受注册。 如果主注册器池不可用，Skype for Business 客户端将尝试连接到备份注册器池。 如果备份注册器池可用，并且已确定用户的主注册器池不可用 (则通过检测指定故障转移间隔的检测信号不足) 则备份注册器池将接受用户的注册。 在备份注册器检测到主注册器再次可用后，备份注册器池会将故障转移客户端重定向到其主池。
+3. 客户端Skype for Business首先尝试连接到用户的主注册器池。 如果主注册器池可用，则该注册器接受注册。 如果主注册器池不可用，Skype for Business客户端将尝试连接到备份注册器池。 如果备份注册器池可用，并且已确定用户的主注册器池不可用 (则通过检测指定故障转移间隔的检测信号不足) 则备份注册器池将接受用户的注册。 在备份注册器检测到主注册器再次可用后，备份注册器池会将故障转移客户端重定向到其主池。
 
 ### <a name="requirements-and-recommendations"></a>要求与建议
 
@@ -76,13 +76,13 @@ Skype for Business 客户端连接到前端池后，负载平衡器会将其定�
 
 - 每个中央站点必须包含由一个或多个注册器组成的注册器池。
 
-- 必须使用 DNS 负载平衡和/或硬件负载平衡来平衡每个注册器池的负载。 有关规划负载平衡配置的详细信息，请参阅[Load balancing requirements for Skype for Business。](../../plan-your-deployment/network-requirements/load-balancing.md)
+- 必须使用 DNS 负载平衡和/或硬件负载平衡来平衡每个注册器池的负载。 有关规划负载平衡配置的详细信息，请参阅 load [balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md)。
 
-- 必须使用 Skype for Business Server 命令行管理程序 **set-CsUser** cmdlet 或 Skype for Business Server 控制面板将每个用户分配给主注册器池。
+- 必须使用命令行管理程序 **set-CsUser** cmdlet 或 Skype for Business Server 控制面板将每个用户分配给Skype for Business Server注册器池。
 
 - 主注册器池必须具有单个备份注册器池，该注册器池位于不同的中央站点。
 
-- 必须将主注册器池配置为可故障转移到备份注册器池。 默认情况下，将主注册器设置为每隔 300 秒故障转移到备份注册器池。 可以使用 Skype for Business Server 拓扑生成器更改此间隔。
+- 必须将主注册器池配置为可故障转移到备份注册器池。 默认情况下，将主注册器设置为每隔 300 秒故障转移到备份注册器池。 可以使用拓扑生成器更改此Skype for Business Server间隔。
 
 - 配置故障转移路由。 配置该路由后，指定网关，该网关的站点与在主路由中指定的网关的站点不同。
 
@@ -90,14 +90,14 @@ Skype for Business 客户端连接到前端池后，负载平衡器会将其定�
 
 ### <a name="dependencies"></a>相关性
 
-Skype for Business Server 依赖于以下基础结构和软件组件以确保语音恢复能力：
+Skype for Business Server取决于以下基础结构和软件组件以确保语音恢复能力：
 
 |**组件** <br/> |**功能** <br/> |
 |:-----|:-----|
 |DNS  <br/> |解析有关服务器到服务器和服务器到客户端连接的 SRV 记录和 A 记录  <br/> |
 |Exchange 和 Exchange Web 服务 (EWS)  <br/> |联系人存储；日历数据  <br/> |
 |Exchange 统一消息和 Exchange Web 服务  <br/> |呼叫日志、语音邮件列表、语音邮件  <br/> |
-|DHCP 选项 120  <br/> |如果 DNS SRV 不可用，则客户端将尝试使用 DHCP 选项 120 来发现注册器。 为此，必须配置 DHCP 服务器或启用 Skype for Business Server DHCP。  <br/> |
+|DHCP 选项 120  <br/> |如果 DNS SRV 不可用，则客户端将尝试使用 DHCP 选项 120 来发现注册器。 为此，必须配置 DHCP 服务器或Skype for Business Server DHCP。  <br/> |
 
 ### <a name="survivable-voice-features"></a>Survivable 语音功能
 
@@ -129,9 +129,9 @@ Skype for Business Server 依赖于以下基础结构和软件组件以确保语
 
   - 更改 DNS SRV 记录，使中央站点的 Exchange UM 服务器指向其他站点的备份 Exchange UM 服务器。
 
-  - 将每个用户的 Exchange UM 拨号计划配置为同时包含中央站点和备份站点的 Exchange UM 服务器，但将备份 Exchange UM 服务器指定为禁用。 如果主站点变得不可用，Exchange 管理员必须标记备份站点的 Exchange UM 服务器为已启用。
+  - 将每个用户的 um 拨号Exchange在中央站点和备份站点包含 Exchange UM 服务器，但将 UM 服务器的备份Exchange指定为禁用。 如果主站点变得不可用，Exchange管理员必须Exchange备份站点的 UM 服务器标记为已启用。
 
-    如果上述解决方案都不可用，则当中央站点不可用时，Exchange UM 将不可用。
+    如果上述两个解决方案都不可用，Exchange在中央站点不可用时 UM 将不可用。
 
 - 所有类型的会议
 
@@ -159,7 +159,7 @@ Skype for Business Server 依赖于以下基础结构和软件组件以确保语
 
 - 自动恢复分支服务器
 
-- 分支站点的完整 Skype for Business Server 部署
+- 分支Skype for Business Server部署的完整部署
 
 本指南将帮助您评估最适合组织的恢复能力解决方案，并基于您的恢复能力解决方案选择要使用的 PSTN 连接解决方案。还将通过介绍先决条件和其他规划注意事项来帮助您准备部署所选择的解决方案。
 
@@ -185,7 +185,7 @@ Skype for Business Server 依赖于以下基础结构和软件组件以确保语
 
 - 用户身份验证和授权
 
-只有当恢复能力解决方案是在分支站点上全面部署 Skype for Business Server 时，以下功能才可用：
+以下功能仅在恢复能力解决方案是分支站点的Skype for Business Server部署时可用：
 
 - IM、Web 会议和 A/V 会议
 
@@ -206,15 +206,15 @@ Skype for Business Server 依赖于以下基础结构和软件组件以确保语
 
 ### <a name="branch-site-resiliency-solutions"></a>分支站点恢复能力解决方案
 
-为组织提供分支站点复原的好处显而易见。 具体来说，如果失去与中央站点的连接，分支站点用户将继续拥有 企业语音 服务和语音邮件 (如果您配置语音邮件重新路由设置) 。 但是，对于用户少于 25 名的站点，复原解决方案可能无法为投资带来相应的回报。
+为组织提供分支站点复原的好处显而易见。 具体来说，如果失去与中央站点的连接，分支站点用户将继续拥有 企业语音 Service 和语音邮件 (如果您配置语音邮件重新路由设置) 。 但是，对于用户少于 25 名的站点，复原解决方案可能无法为投资带来相应的回报。
 
 如果决定提供分支站点复原，有三个选项可供使用。使用下表帮助确定最适合贵组织的选项。
 
 |**如果您...**|**建议使用...**|
 |:-----|:-----|
-|分支站点承载 25 到 1000 位用户，并且投资回报不支持完整部署，或本地管理支持不可用  <br/> |Survivable Branch Appliance  <br/> Survivable Branch Appliance 是行业标准刀片式服务器，其 Skype for Business Server 注册器和中介服务器在 Windows Server 2008 R2 上运行。 Survivable Branch Appliance 还包含 PSTN 网关中的公用 (电话) 网络。 合格第三方设备（由 Microsoft 合作伙伴在 Survivable Branch Appliance (SBA) 资格鉴定/认证计划中开发）在 WAN 发生故障时可以提供连续的 PSTN 连接，但不能提供可恢复的状态和会议，因为这些功能依赖于中央站点的前端服务器。  <br/> 有关 Survivable Branch Appliance 的详细信息，请参阅本主题稍后介绍的"Survivable Branch Appliance 详细信息"。  <br/> **注意：** 如果还决定将 SIP 中继与 Survivable Branch Appliance 一同使用，请与 Survivable Branch Appliance 供应商联系，以了解哪个服务提供商最适合您的组织。 <br/> |
-|分支站点承载 1000 到 2000 个用户，缺少可恢复的 WAN 连接，并且具有经过培训的 Skype for Business Server 管理员  <br/> |Survivable Branch Server 或两个 Survivable Branch 设备。  <br/> Survivable Branch Server 是满足指定硬件要求的 Windows Server，已安装 Skype for Business Server 注册器和中介服务器软件。 它必须连接到 PSTN 网关或电话服务提供商的 SIP 中继。  <br/> 有关 Survivable Branch Server 的详细信息，请参阅本主题稍后介绍的"Survivable Branch Server 详细信息"。  <br/> |
-|如果你需要状态和会议功能以及语音功能（最多 5000 个用户）并且具有经过培训的 Skype for Business Server 管理员可用  <br/> |将 Standard Edition Server 部署为中央站点，而非分支站点。  <br/> 全面的 Skype for Business Server 部署在 WAN 出现故障时提供连续的 PSTN 连接以及可恢复状态和会议。  <br/> |
+|分支站点承载 25 到 1000 位用户，并且投资回报不支持完整部署，或本地管理支持不可用  <br/> |Survivable Branch Appliance  <br/> Survivable Branch Appliance 是行业标准刀片式服务器，Skype for Business Server注册器和中介服务器在 Windows Server 2008 R2 上运行。 Survivable Branch Appliance 还包含 PSTN 网关中的公用 (电话) 网络。 合格第三方设备（由 Microsoft 合作伙伴在 Survivable Branch Appliance (SBA) 资格鉴定/认证计划中开发）在 WAN 发生故障时可以提供连续的 PSTN 连接，但不能提供可恢复的状态和会议，因为这些功能依赖于中央站点的前端服务器。  <br/> 有关 Survivable Branch Appliance 的详细信息，请参阅本主题稍后介绍的"Survivable Branch Appliance 详细信息"。  <br/> **注意：** 如果还决定将 SIP 中继与 Survivable Branch Appliance 一同使用，请与 Survivable Branch Appliance 供应商联系，以了解哪个服务提供商最适合您的组织。 <br/> |
+|分支站点承载 1000 到 2000 个用户，缺少可恢复的 WAN 连接，并且具有经过培训Skype for Business Server管理员  <br/> |Survivable Branch Server 或两个 Survivable Branch 设备。  <br/> Survivable Branch Server 是一Windows服务器，满足指定的硬件要求，Skype for Business Server安装有注册器和中介服务器软件。 它必须连接到 PSTN 网关或电话服务提供商的 SIP 中继。  <br/> 有关 Survivable Branch Server 的详细信息，请参阅本主题稍后介绍的"Survivable Branch Server 详细信息"。  <br/> |
+|如果需要状态和会议功能以及最多 5000 名用户的语音功能，并且具有经过培训Skype for Business Server管理员  <br/> |将 Standard Edition Server 部署为中央站点，而非分支站点。  <br/> 全面部署Skype for Business Server在 WAN 出现故障时提供连续的 PSTN 连接以及可恢复状态和会议。  <br/> |
 
 #### <a name="resiliency-topologies"></a>复原拓扑
 
@@ -226,7 +226,7 @@ Skype for Business Server 依赖于以下基础结构和软件组件以确保语
 
 #### <a name="survivable-branch-appliance-details"></a>Survivable Branch Appliance 详细信息
 
-Skype for Business Server Survivable Branch Appliance 包括以下组件：
+Survivable Branch Appliance Skype for Business Server包括以下组件：
 
 - 注册器，用于用户身份验证、注册和呼叫路由
 
@@ -240,18 +240,18 @@ Survivable Branch Appliance 还包括 PSTN 中继、模拟端口和以太网适�
 
 如果分支站点与中央站点的 WAN 连接变得不可用，内部分支用户将继续向 Survivable Branch Appliance 注册器注册，并通过使用 Survivable Branch Appliance 与 PSTN 的连接获得不间断的语音服务。 从主机或其他远程位置进行连接的分支站点用户，可在连接到分支站点的 WAN 链路不可用时，在中央站点上的注册服务器中注册。 这些用户将具有完整的统一通信功能，一个例外是分支站点的入站呼叫将转到语音邮件。 WAN 连接可用时，将为分支站点用户恢复完整功能。 故障转移到 Survivable Branch Appliance 和还原服务都不需要 IT 管理员存在。
 
-Skype for Business Server 在分支站点最多支持两台 Survivable Branch Appliance。
+Skype for Business Server分支站点最多支持两台 Survivable Branch Appliance。
 
 #### <a name="survivable-branch-appliance-deployment-overview"></a>Survivable Branch Appliance 部署概述
 
-Survivable Branch Appliance 由与 Microsoft 合作的原始设备制造商制造，由增值零售商代表其进行部署。 只有在中央站点部署了 Skype for Business Server、与分支站点的 WAN 连接已就位，并且分支站点用户启用了 skype for Business Server 后，才能进行此企业语音。
+Survivable Branch Appliance 由与 Microsoft 合作的原始设备制造商制造，由增值零售商代表其进行部署。 只有在中央站点部署了 Skype for Business Server，与分支站点的 WAN 连接已就位，并且为分支站点用户启用了 企业语音 之后，才能进行此部署。
 
 有关这些阶段的详细信息，请参阅部署文档中的[Deploying a Survivable Branch Appliance or Server](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-a-survivable-branch-appliance-or-server)。
 
 |**阶段**|**步骤**|**用户权限**|
 |:-----|:-----|:-----|
 |为 Survivable Branch Appliance 设置 Active Directory 域服务  <br/> |**在中央站点：** <br/>  为将在分支站点 (并) Survivable Branch Appliance 的技术人员创建域用户帐户或企业标识帐户。 <br/>  为 Active Directory (Survivable Branch Appliance (FQDN) ) 计算机帐户帐户。 <br/>  在拓扑生成器中，创建并发布 Survivable Branch Appliance。 <br/> |技术人员用户帐户必须是 RTCUniversalSBATechnicians 的成员。 Survivable Branch Appliance 必须属于 RTCSBAUniversalServices 组，使用拓扑生成器时会自动发生此情况。  <br/> |
-|安装并激活 Survivable Branch Appliance。  <br/> |**在分支站点：** <br/>  将 Survivable Branch Appliance 连接到以太网端口和 PSTN 端口。 <br/>  启动 Survivable Branch Appliance。 <br/>  使用在中央站点为 Survivable Branch Appliance 创建的域用户帐户，将 Survivable Branch Appliance 加入域。 设置 FQDN 和 IP 地址以匹配在计算机帐户中创建的 FQDN。 <br/>  使用 OEM 用户界面配置 Survivable Branch Appliance。 <br/>  测试 PSTN 连接。 <br/> |技术人员用户帐户必须是 RTCUniversalSBATechnicians 的成员。  <br/> |
+|安装并激活 Survivable Branch Appliance。  <br/> |**在分支站点：** <br/>  连接 Survivable Branch Appliance 连接到以太网端口和 PSTN 端口。 <br/>  启动 Survivable Branch Appliance。 <br/>  使用在中央站点为 Survivable Branch Appliance 创建的域用户帐户，将 Survivable Branch Appliance 加入域。 设置 FQDN 和 IP 地址以匹配在计算机帐户中创建的 FQDN。 <br/>  使用 OEM 用户界面配置 Survivable Branch Appliance。 <br/>  测试 PSTN 连接。 <br/> |技术人员用户帐户必须是 RTCUniversalSBATechnicians 的成员。  <br/> |
 
 #### <a name="survivable-branch-server-details"></a>Survivable Branch Server 详细信息
 
@@ -282,33 +282,33 @@ Survivable Branch Appliance 由与 Microsoft 合作的原始设备制造商制�
 > [!IMPORTANT]
 > 创建分支机构备份路由时，建议将两个 PSTN 电话用法记录添加到分支机构用户策略中，并为每个记录分配单独的路由。 第一个路由（或主要路由）将呼叫直接路由至与 SBA 或分支服务器 (Survivable Branch Appliance) 网关;第二个路由（即备份）将呼叫直接路由至中央站点的网关。 在定向呼叫时，SBA 或分支服务器会在尝试所有分配给第一个 PSTN 用法记录的路由后，再尝试第二个用法记录。
 
-为了帮助确保在分支网关或 Survivable Branch Appliance 站点的 Windows 组件不可用时，向分支站点用户的入站呼叫将到达这些用户 (发生此情况， 例如，如果 Survivable Branch Appliance 或分支网关因维护) 而关闭，在网关 (上创建故障转移路由或与外线直拨拨号 (DID) 提供商) 一起将传入呼叫重定向到中央站点的备份注册器池。 在此处，呼叫将会通过 WAN 链路路由到分支用户。 确保路由转换号码以符合 PSTN 网关或其他中继对等方接受的电话号码格式。 有关创建故障转移路由的详细信息，请参阅[Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)。 另外，您还可以为与分支站点网关相关联的中继创建服务级别拨号计划，以规范化传入呼叫。 如果在分支站点上有两个 Survivable Branch 设备，则您可以为这两者创建站点级别的拨号计划，除非需要为每个设备创建单独的服务级别计划。
+为了帮助确保在 Survivable Branch Appliance 站点的分支网关或 Windows 组件不可用时，向分支站点用户的入站呼叫将到达这些用户 (发生此情况， 例如，如果 Survivable Branch Appliance 或分支网关因维护) 而关闭，在网关 (上创建故障转移路由或与外线直拨拨号 (DID) 提供商) 一起将传入呼叫重定向到中央站点的备份注册器池。 在此处，呼叫将会通过 WAN 链路路由到分支用户。 确保路由转换号码以符合 PSTN 网关或其他中继对等方接受的电话号码格式。 有关创建故障转移路由的详细信息，请参阅[Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)。 另外，您还可以为与分支站点网关相关联的中继创建服务级别拨号计划，以规范化传入呼叫。 如果在分支站点上有两个 Survivable Branch 设备，则您可以为这两者创建站点级别的拨号计划，除非需要为每个设备创建单独的服务级别计划。
 
 > [!NOTE]
 > 要说明其状态、会议或故障转移依赖于中央站点的任何分支站点用户使用中央站点资源的情况，建议您将每个分支站点用户视作已在中央站点进行注册。 分支站点用户（包括在 Survivable Branch Appliance 中注册的用户）的数量当前没有限制。
 
-我们还建议您创建一个用户级别的拨号计划和语音策略，然后将它分配给分支站点用户。 有关详细信息，请参阅部署文档中的 [在 Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) 创建或修改拨号计划和为分支用户创建 [VoIP](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users) 路由策略。
+我们还建议您创建一个用户级别的拨号计划和语音策略，然后将它分配给分支站点用户。 有关详细信息，[请参阅部署文档中](../../deploy/deploy-enterprise-voice/dial-plans.md)的在 Skype for Business Server 创建或修改拨号计划和为分支用户创建[VoIP](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users)路由策略。
 
 #### <a name="routing-extension-numbers"></a>路由分机号
 
-为分支站点用户准备拨号计划和语音策略时，请确保包含与 msRTCSIP-line (或线路 URI) 属性中使用的字符串和号码格式相匹配的规范化规则和转换规则，以便分支站点用户和中央站点用户之间启用的 Skype for Business 呼叫能够正确路由，尤其是在由于 WAN 链路不可用而必须通过 PSTN 重新路由呼叫时。 此外，还需要特别注意包括分机号的已拨号码，而不只是电话号码。
+为分支站点用户准备拨号计划和语音策略时，请确保包含与 msRTCSIP-line (或线路 URI) 属性中使用的字符串和号码格式匹配的规范化规则和转换规则，以便分支站点用户和中央站点用户之间启用的 Skype for Business 呼叫能够正确路由，尤其是在由于 WAN 链路不可用而必须通过 PSTN 重新路由呼叫时。 此外，还需要特别注意包括分机号的已拨号码，而不只是电话号码。
 
 与包含分机号（无论是只包含一个完整的 E.164 电话号码还是包含其他的电话号码）的线路 URI 匹配的标准化规则和转换规则还有其他要求。本节介绍了为带分机号的线路 URI 路由呼叫的几种示例情况。
 
-如果您的组织没有为单个用户配置外线直拨分机 (DID) 电话号码，并且每个用户的线路 URI 只 配置了一个分机号，则内部用户只需拨打分机号即可相互呼叫。 但是，您必须配置规范化规则，并且这些规则要能应用到与这些分机号相匹配的从分支站点用户发给中央站点用户的呼叫。
+如果您的组织没有为单个用户配置外线直拨分机 (DID) 电话号码，并且每个用户的线路 URI 只 配置了一个分机号，则内部用户只需拨打分机号即可相互呼叫。但是，您必须配置规范化规则，并且这些规则要能应用到与这些分机号相匹配的从分支站点用户发给中央站点用户的呼叫。
 
 如果分支站点和中央站点之间的 WAN 链路可用，那么分支站点用户发给中央站点用户的呼叫就无需通过匹配的规范化规则来转换号码，因为该呼叫不会通过 PSTN 来路由。例如：
 
 |**规则名称**|**说明**|**号码模式**|**翻译**|**示例**|
 |:-----|:-----|:-----|:-----|:-----|
-|5digitExtensions  <br/> |不要转换 5 位数字  <br/> |^ (\d {5}) $  <br/> |$1  <br/> |10001 无法转换  <br/> |
+|5digitExtensions  <br/> |不要转换 5 位数字  <br/> |^(\d{5})$  <br/> |$1  <br/> |10001 无法转换  <br/> |
 
 您还必须针对特定的方案考虑分机号，如分支站点和中央站点之间的 WAN 链路不可用，以及必须通过 PSTN 路由来自分支站点的呼叫等情况。 在 WAN 中断期间，如果分支站点用户仅通过拨打中央站点用户的分机来呼叫中央站点用户，则必须具有添加中央站点用户的完整电话号码的出站转换规则。 如果用户的线路 URI 包含组织的完整电话号码和用户的唯一分机号码，而不是用户唯一的完整电话号码，则必须具有改为添加组织的完整电话号码的出站转换规则。 例如：
 
 |**说明**|**匹配模式**|**翻译**|**示例**|
 |:-----|:-----|:-----|:-----|
-|将 5 位数号码转换为用户的电话号码和分机号  <br/> |^ (\d {5}) $  <br/> |+14255550123;ext=$1  <br/> |10001 将转换为 +14255550123;ext=10001  <br/> |
-|将 5 位数号码转换为组织的电话号码和用户的分机号  <br/> |^ (\d {5}) $  <br/> |+14255550100;ext=$1  <br/> |10001 将转换为 +14255550100;ext=10001  <br/> |
+|将 5 位数号码转换为用户的电话号码和分机号  <br/> |^(\d{5})$  <br/> |+14255550123;ext=$1  <br/> |10001 将转换为 +14255550123;ext=10001  <br/> |
+|将 5 位数号码转换为组织的电话号码和用户的分机号  <br/> |^(\d{5})$  <br/> |+14255550100;ext=$1  <br/> |10001 将转换为 +14255550100;ext=10001  <br/> |
 
 在这种情况下，如果处理 PSTN 重新路由任务的中继对等方不支持分机号，则出站转换规则还必须删除分机号。例如：
 
@@ -320,19 +320,19 @@ Survivable Branch Appliance 由与 Microsoft 合作的原始设备制造商制�
 
 #### <a name="preparing-for-voice-mail-survivability"></a>准备语音邮件生存能力
 
-Exchange 统一 (UM) 通常只安装在中央站点，而不是分支站点。 即使分支站点和中央站点之间的 WAN 链路不可用，呼叫者也应能够留下语音邮件。 因此，除了适用于该语音邮件号码的语音策略、拨号计划和规范化规则外，为为分支站点用户提供语音邮件的 Exchange UM 自动助理 电话号码配置线路 URI 还需要特别注意。
+Exchange统一 (UM) 通常只安装在中央站点，而不是分支站点。 即使分支站点和中央站点之间的 WAN 链路不可用，呼叫者也应能够留下语音邮件。 因此，除了适用于该语音邮件号码的语音策略、拨号计划和规范化规则外，还需要特别注意为为分支站点用户提供语音邮件的 Exchange UM 自动助理 电话号码的线路 URI。
 
-Survivable Branch Appliances (SBA) 和 Survivable Branch Servers 在 WAN 中断期间为分支用户提供语音邮件生存能力。 具体来说，如果您使用的是 Survivable Branch Appliance 或 Survivable Branch Server 并且 WAN 变得不可用，则 SBA 或 Survivable Branch Server 会通过 PSTN 将未接听的呼叫重新路由到中央站点的 Exchange UM。 使用 SBA 或 Survivable Branch Server，用户还可以在 WAN 中断期间通过 PSTN 检索语音邮件。 最后，在 WAN 中断期间，Survivable Branch Appliance 或 Survivable Branch Server 对未接来电通知进行排队，然后在 WAN 还原时将它们上载到 Exchange UM 服务器。 为了帮助确保语音邮件重新路由具有弹性，请确保将中央站点池的 FQDN 条目和边缘服务器 FQDN 的条目添加到 Survivable Branch Server 上的主机文件中。 否则，在分支站点上没有 DNS 服务器的情况下，DNS 解析可能会超时。
+Survivable Branch Appliances (SBA) 和 Survivable Branch Servers 在 WAN 中断期间为分支用户提供语音邮件生存能力。 具体来说，如果您使用的是 Survivable Branch Appliance 或 Survivable Branch Server 且 WAN 变得不可用，则 SBA 或 Survivable Branch Server 会通过 PSTN 将未接听的呼叫重新路由到中央站点上的 Exchange UM。 使用 SBA 或 Survivable Branch Server，用户还可以在 WAN 中断期间通过 PSTN 检索语音邮件。 最后，在 WAN 中断期间，Survivable Branch Appliance 或 Survivable Branch Server 对未接来电通知进行排队，然后在 WAN 还原时将它们上载到 Exchange UM 服务器。 为了帮助确保语音邮件重新路由具有弹性，请确保将中央站点池的 FQDN 条目和边缘服务器 FQDN 的条目添加到 Survivable Branch Server 上的主机文件中。 否则，在分支站点上没有 DNS 服务器的情况下，DNS 解析可能会超时。
 
 我们建议使用以下配置为分支站点用户配置语音邮件生存能力：
 
-- Microsoft Exchange 管理员应配置 Exchange UM 自动助理 (AA) 以仅接受邮件。 该配置禁用所有其他常规功能（例如，转接给用户或转接给操作员）并将 AA 限制为仅接受邮件。 或者，Exchange 管理员也可以使用常规 AA 或自定义 AA 将呼叫路由至操作员。
+- Microsoft Exchange管理员应Exchange AA 自动助理 (UM) 仅接受邮件。 该配置禁用所有其他常规功能（例如，转接给用户或转接给操作员）并将 AA 限制为仅接受邮件。 或者，Exchange 管理员也可以使用常规 AA 或自定义 AA 将呼叫路由至操作员。
 
-- Skype for Business Server 管理员应采用 AA 电话号码，并使用该电话号码作为 Survivable Branch Appliance 或分支服务器的语音邮件重新路由设置中的 **exchange um** 自动助理号码。
+- 管理员Skype for Business Server AA 电话号码，并使用该电话号码作为 Survivable Branch Appliance 或分支服务器的语音邮件重新路由设置中的 **exchange um** 自动助理号码。
 
-- Skype for Business Server 管理员应获取 Exchange UM 订阅者访问电话号码，并使用该号码作为 Survivable Branch Appliance 或 Survivable Branch Server 的语音邮件重新路由设置中的订阅者访问号码。
+- Skype for Business Server管理员应获取 Exchange UM 订阅者访问电话号码，并使用该号码作为 Survivable  Branch Appliance 或 Survivable Branch Server 的语音邮件重新路由设置中的订阅者访问号码。
 
-- Skype for Business Server 管理员应配置 Exchange UM，以便只有一个拨号计划与 WAN 中断期间需要访问语音邮件的所有分支用户关联。
+- 该Skype for Business Server管理员应Exchange UM，以便只有一个拨号计划与 WAN 中断期间需要访问语音邮件的所有分支用户关联。
 
 - WAN 链路不可用时，可以路由到分支站点用户的呼叫到用户的 Exchange 统一消息 (UM) 语音邮箱，但只有在应用于该呼叫的语音策略指定了唯一且不包括分机号的语音邮件电话号码时。
 
@@ -349,11 +349,11 @@ Survivable Branch Appliances (SBA) 和 Survivable Branch Servers 在 WAN 中断�
 > [!NOTE]
 > 分支站点中不必有域控制器。 Survivable Branch Appliance 使用特殊证书对客户端进行身份验证，该证书在客户端登录时发送客户端以响应客户端的证书请求。
 
-Skype for Business 客户端可以使用 DHCP 选项 120 (SIP 注册器选项来发现 Skype for Business Server) 。 可通过以下两种方法之一配置该功能：
+Skype for Business使用 DHCP 选项 120 Skype for Business Server SIP 注册器选项来发现 (SIP 注册器选项) 。 可通过以下两种方法之一配置该功能：
 
 - 配置分支站点上的 DHCP 服务器以答复 DHCP 120 查询，这将返回 Survivable Branch Appliance 或 Survivable Branch Server 上注册器的 FQDN。
 
-- 打开 Skype for Business Server DHCP。 启用此功能后，Skype for Business Server 注册器将响应 DHCP 选项 120 查询。 请注意，该注册器不会响应除 DHCP 选项 120 之外的任何 DHCP 查询。
+- 打开 DHCP Skype for Business Server DHCP。 打开此选项时，Skype for Business Server注册器将响应 DHCP 选项 120 查询。 请注意，该注册器不会响应除 DHCP 选项 120 之外的任何 DHCP 查询。
 
 此外，对于具有多个子网的大型分支站点，应启用 DHCP 中继代理来将 DHCP 选项 120 查询转发给 DHCP 服务器（配置 1）或注册器（配置 2）。
 
@@ -361,9 +361,9 @@ Skype for Business 客户端可以使用 DHCP 选项 120 (SIP 注册器选项来
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Survivable Branch Server 的要求
 
-Survivable Branch Server 的要求与前端服务器的要求相同。 有关详细信息，请参阅 [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+Survivable Branch Server 的要求与前端服务器的要求相同。 有关详细信息，请参阅[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
 
-#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Skype for Business Server Full-Scale 部署Branch-Site要求
+#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>部署Full-Scale Skype for Business Server Branch-Site要求
 
 有关详细信息，请参阅规划[文档中的 Server requirements for Skype for Business Server 2015。](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
 

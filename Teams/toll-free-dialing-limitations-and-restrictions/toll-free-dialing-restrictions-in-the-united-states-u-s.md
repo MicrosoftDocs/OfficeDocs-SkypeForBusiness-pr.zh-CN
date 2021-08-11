@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何在美国拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 1fa2f86fa06755754dc9ef01bfdfc8647ea91aa0
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
+ms.openlocfilehash: b46823d7ee88b980e1da3babb6aaa6e54384e8348ebe9b17d54f29e2a77a2394
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142906"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335822"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-unites-states"></a>美国的免费拨号限制
 

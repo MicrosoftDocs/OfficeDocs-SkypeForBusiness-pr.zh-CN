@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 阅读本主题，了解使用云连接器版本 2.0 版及更高版本部署媒体旁路的步骤。
-ms.openlocfilehash: c9dc79a3079fd27e8901d31abf1a27310d18ed28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289430"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中部署媒体旁路
  
 > [!Important]
-> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](/MicrosoftTeams/direct-routing-landing-page)
+> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话Teams[连接到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
 
 阅读本主题，了解使用云连接器版本 2.0 版及更高版本部署媒体旁路的步骤。 
   
@@ -38,7 +38,7 @@ ms.locfileid: "51119361"
   
 租户管理员必须在内部生产 Active Directory 中配置 DNS A 记录。 如果您具有复杂的多站点环境，请参阅示例：复杂多站点环境中媒体旁路网站 [DNS 记录中的示例](deploy-media-bypass-in-cloud-connector.md#Example)。 DNS 记录应仅为内部网络客户端解析;它不应解析为外部网络客户端。
   
-配置 DNS 后，使用远程 PowerShell 和 Skype for Business 管理员凭据连接到 Skype for Business Online。 有关详细信息，请参阅为[计算机设置Windows PowerShell。](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+配置 DNS 后，使用远程 PowerShell Skype for Business管理员凭据连接到 Skype for Business Online。 有关详细信息，请参阅为[计算机设置Windows PowerShell。](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 在 PowerShell 会话中，输入以下命令以启用媒体旁路：
   
@@ -69,7 +69,7 @@ Get-CsNetworkConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-要检查客户端设置，请注销 Skype for Business 客户端，重新登录并确认客户端已收到服务 URL，如下所示：
+若要检查客户端设置，请注销 Skype for Business 客户端，重新登录并确认客户端已收到服务 URL，如下所示：
   
 1. 打开 %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog。 
     
@@ -122,7 +122,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
   
 Fore more information about Windows 2016 DNS Policies， see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](/windows-server/networking/dns/deploy/primary-geo-location).
   
-下面是使用 Windows 2016 DNS 策略进行基于流量管理Geo-Location公司的配置示例。
+下面是使用基于流量管理的 Windows 2016 DNS 策略Geo-Location公司的配置示例。
   
 绕过服务的名称为"hybridvoice.adatum.biz"。
   

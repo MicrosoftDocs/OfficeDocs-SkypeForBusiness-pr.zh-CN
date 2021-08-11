@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
-description: VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 6341febeb8d43e36975c5b4cc446ac24ff1287c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此视图在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: 9caf8cac3c45088cde68635a46ab9ebd79b5ca3bc203f71dc2ea0fce34968e3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834342"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279948"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail 视图
  
-VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
+VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此视图在 Microsoft Lync Server 2013 中引入。
   
 |**列**|**数据类型**|**说明**|
 |:-----|:-----|:-----|
@@ -39,10 +39,10 @@ VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此�
 |被叫方  <br/> |nvarchar (450)   <br/> |被叫方 URI。  <br/> |
 |CallerUserAgent  <br/> |nvarchar (256)   <br/> |呼叫者的用户代理字符串。  <br/> |
 |CallerUserAgentType  <br/> |smallint  <br/> |呼叫者的用户代理的类型。 有关详细信息， [请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)   <br/> |呼叫者的用户代理的类别。 有关详细信息， [请参阅 QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)   <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
 |CalleeUserAgent  <br/> |nvarchar (256)   <br/> |被叫方的用户代理字符串。  <br/> |
-|CalleeUserAgentType  <br/> |smallint  <br/> |被叫方的用户代理类型。 有关信息 [，请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)   <br/> |被叫方的用户代理的类别。 有关信息 [，请参阅 QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
+|CalleeUserAgentType  <br/> |smallint  <br/> |被叫方的用户代理的类型。 有关信息 [，请参阅 UserAgent](useragent.md) 表。 <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)   <br/> |被叫方的用户代理的类别。 有关信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
 |CallerEndpoint  <br/> |nvarchar (256)   <br/> |呼叫者的终结点名称。  <br/> |
 |CalleeEndpoint  <br/> |nvarchar (256)   <br/> |被叫方终结点名称。  <br/> |
 |CallerOS  <br/> |nvarchar (128)   <br/> |操作系统 () 终结点的操作系统。  <br/> |
@@ -53,8 +53,8 @@ VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此�
 |CalleeCPUNumberOfCores  <br/> |smallint  <br/> |被叫方终结点的 CPU 内核数。  <br/> |
 |CallerCPUProcessorSpeed  <br/> |int  <br/> |呼叫者的终结点的 CPU 处理器速度。  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |被叫方终结点的 CPU 处理器速度。  <br/> |
-|CallerVirtualizationFlag  <br/> |tinyint  <br/> |指示呼叫者的系统是否在虚拟化环境中运行。 有关详细信息， [请参阅 Endpoint](endpoint.md) 表。 <br/> |
-|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |指示被叫方的系统是否在虚拟化环境中运行。 有关详细信息， [请参阅 Endpoint](endpoint.md) 表。 <br/> |
+|CallerVirtualizationFlag  <br/> |tinyint  <br/> |指示呼叫者的系统是否在虚拟化环境中运行。 有关详细信息 [，请参阅 Endpoint](endpoint.md) 表。 <br/> |
+|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |指示被叫方的系统是否在虚拟化环境中运行。 有关详细信息 [，请参阅 Endpoint](endpoint.md) 表。 <br/> |
 |ConnectivityIce  <br/> |tinyint  <br/> |有关媒体路径的信息，例如直接或中继。 有关详细信息， [请参阅 MediaLine](medialine-0.md) 表。 <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |关于呼叫者的位标志中所述的互动式连接建立 (ICE) 过程的信息。有关详细信息，请参阅“用户体验质量监控服务器协议规范”。  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |关于被叫方的位标志中所述的互动式连接建立 (ICE) 过程的信息。有关详细信息，请参阅“用户体验质量监控服务器协议规范”。  <br/> |
@@ -65,10 +65,10 @@ VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此�
 |CalleeIPAddr  <br/> |var (50)   <br/> |被叫方的 IP 地址。 这可能是 IPv4 或 IPv6 地址。  <br/> |
 |CalleePort  <br/> |int  <br/> |被叫方所使用的端口。  <br/> |
 |CalleeInside  <br/> |bit  <br/> |指示呼叫者是否位于组织网络的内部。1 表示被叫方位于企业网络内部，0 表示被叫方位于该网络外部。  <br/> |
-|CallerUserSite  <br/> |nvarchar (128)   <br/> |呼叫者网站的名称。  <br/> |
+|CallerUserSite  <br/> |nvarchar (128)   <br/> |呼叫者站点的名称。  <br/> |
 |CallerRegion  <br/> |nvarchar (128)   <br/> |呼叫者网站的国家/地区的名称。  <br/> |
 |CalleeUserSite  <br/> |nvarchar (128)   <br/> |被叫方网站的名称。  <br/> |
-|CalleeRegion  <br/> |nvarchar (128)   <br/> |被叫方网站的国家/地区的名称。  <br/> |
+|CalleeRegion  <br/> |nvarchar (128)   <br/> |被叫方网站的国家/地区名称。  <br/> |
 |CallerRelayIPAddr  <br/> |var (50)   <br/> |呼叫者所使用的 A/V 边缘服务的 IP 地址。 有关详细信息， [请参阅 IPAddress](ipaddress.md) 表。 <br/> |
 |CallerRelayPort  <br/> |int  <br/> |呼叫者使用的 A/V 边缘服务上的端口。  <br/> |
 |CalleeRelayIPAddr  <br/> |var (50)   <br/> |被叫方所使用的 A/V 边缘服务的 IP 地址密钥。 有关详细信息， [请参阅 IPAddress](ipaddress.md) 表。 <br/> |
@@ -76,7 +76,7 @@ VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此�
 |CallerCaptureDev  <br/> |varchar (256)   <br/> |呼叫者的捕获设备名称。  <br/> |
 |CallerRenderDev  <br/> |varchar (256)   <br/> |呼叫者的呈现设备名称。  <br/> |
 |CallerCaptureDevDriver  <br/> |varchar (256)   <br/> |呼叫者的捕获设备驱动程序名称。  <br/> |
-|CallerRenderDevDriver  <br/> |varchar (256)   <br/> |呼叫者的呈现设备驱动程序名称。  <br/> |
+|CallerRenderDevDriver  <br/> |varchar (256)   <br/> |调用方的呈现设备驱动程序名称。  <br/> |
 |CalleeCaptureDev  <br/> |varchar (256)   <br/> |被叫方捕获设备名称。  <br/> |
 |CalleeRenderDev  <br/> |varchar (256)   <br/> |被叫方呈现设备名称。  <br/> |
 |CalleCaptureDevDriver  <br/> |varchar (256)   <br/> |被叫方捕获设备驱动程序名称。  <br/> |

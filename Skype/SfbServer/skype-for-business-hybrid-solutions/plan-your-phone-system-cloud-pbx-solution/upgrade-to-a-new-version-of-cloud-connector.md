@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 了解如何升级云连接器版本部署。
-ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2670557f3f5ab44545c511b759971a457bd37e333d01b323ad6cc35d82526858
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279968"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>升级至新版本的云连接器
 
 > [!Important]
-> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](/MicrosoftTeams/direct-routing-landing-page)
+> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话Teams[连接到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
  
 了解如何升级云连接器版本部署。
   
-如果已设置联机管理租户帐户并启用自动更新，则 Skype for Business 云连接器版本的现有部署将自动升级到较新版本，根据自动更新时间窗口配置。 您也可以执行手动升级。 
+如果已设置联机管理租户帐户并启用自动更新，则 Skype for Business 云连接器版本 的现有部署将按照自动更新时间窗口配置自动升级到较新版本。 您也可以执行手动升级。 
   
 默认情况下，云连接器版本 1.4.1 版和更高版本执行自动更新。 如果要手动升级到最新版本 (2.1) ，请参阅本主题稍后将单个网站升级到新版本。 [](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade)
   
@@ -58,7 +58,7 @@ ms.locfileid: "51109128"
     
   - 卸载旧的 msi 文件;安装新的 msi 文件。
     
-  - 下载新版本的 Skype for Business bits。
+  - 下载新版本的 Skype for Business 位。
     
   - 通过调用 Register-CcAppliance 注册设备。
     
@@ -78,7 +78,7 @@ ms.locfileid: "51109128"
     
 2. 从 安装新版本的 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) CloudConnector.msi。
     
-3. 确认你具有要CloudConnector.ini的版本的文件，并且已更新环境的所有必需值。 不能使用以前版本中的 .ini 文件。 如果要升级云连接器，请参阅主题准备云连接器设备，并确保[](prepare-your-cloud-connector-appliance.md)在云连接器文件中将 SiteName 和 EnableReferSupport 设置为正确的CloudConnector.ini值。
+3. 确认你具有要CloudConnector.ini的版本的文件，并且已更新环境的所有必需值。 不能使用以前.ini中的文件。 如果要升级云连接器，请参阅主题准备云连接器设备，并确保[](prepare-your-cloud-connector-appliance.md)在云连接器文件中将 SiteName 和 EnableReferSupport 设置为正确的CloudConnector.ini值。
     
 4. 以管理员角色启动 PowerShell 控制台并运行以下 cmdlet 以注册当前设备：
     
@@ -106,7 +106,7 @@ ms.locfileid: "51109128"
 
 如果站点中存在多个设备，请按照上述步骤分别升级每台设备。
   
-如果要更新域管理员、虚拟机管理员、安全模式管理员和租户管理员凭据，可以使用  _UpdateAllCredentials_ 参数运行 cmdlet 以重置所有凭据：
+如果要更新域管理员、虚拟机管理员、保险箱模式管理员和租户管理员凭据，可以使用 _UpdateAllCredentials_ 参数运行 cmdlet 以重置所有凭据：
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 16dcd0170aa9294b37ed5ae42c32d19afbaaadd3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 016485055e7df9e388554128498e27a3d2146860b1ff232df0b47888208186a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326448"
 ---
 # <a name="url-filter"></a>URL 筛选器
 

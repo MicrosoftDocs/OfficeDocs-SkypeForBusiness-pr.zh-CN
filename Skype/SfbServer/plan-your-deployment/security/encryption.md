@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 加密
+title: 加密Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-description: Skype for Business Server 使用 TLS 和 MTLS 加密即时消息。 所有服务器到服务器流量都需要 MTLS，无论通信是限制在内部网络还是跨内部网络外围。 将 Skype for Business Server 连接到第三方 IPPBX 系统或 SIP 中继时，TLS 是可选的，但强烈建议在中介服务器和媒体网关之间使用 TLS。 如果在此链接上配置了 TLS，则 MTLS 是必需的。 因此，必须使用中介服务器信任的 CA 颁发的证书配置网关。
-ms.openlocfilehash: 269a5394f5438802c68dabed17081c71a353a2b5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server TLS 和 MTLS 加密即时消息。 所有服务器到服务器流量都需要 MTLS，无论通信是限制在内部网络还是跨内部网络外围。 在将Skype for Business Server IPPBX 系统或 SIP 中继连接到第三方 IPPBX 系统或 SIP 中继时，TLS 是可选的，但强烈建议在中介服务器和媒体网关之间使用 TLS。 如果在此链接上配置了 TLS，则 MTLS 是必需的。 因此，必须使用中介服务器信任的 CA 颁发的证书配置网关。
+ms.openlocfilehash: a315b26f14db16759eb2c6c6fc9d6d6562060221efdd1b642f259aeecffadc7b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289530"
 ---
-# <a name="encryption-for-skype-for-business-server"></a>Skype for Business Server 加密
+# <a name="encryption-for-skype-for-business-server"></a>加密Skype for Business Server
  
-Skype for Business Server 使用 TLS 和 MTLS 加密即时消息。 所有服务器到服务器流量都需要 MTLS，无论通信是限制在内部网络还是跨内部网络外围。 将 Skype for Business Server 连接到第三方 IPPBX 系统或 SIP 中继 TLS 是可选的，但强烈建议在中介服务器和媒体网关之间使用 TLS。 如果在此链接上配置了 TLS，则 MTLS 是必需的。 因此，必须使用中介服务器信任的 CA 颁发的证书配置网关。
+Skype for Business Server TLS 和 MTLS 加密即时消息。 所有服务器到服务器流量都需要 MTLS，无论通信是限制在内部网络还是跨内部网络外围。 在将Skype for Business Server连接到第三方 IPPBX 系统或 SIP 中继时，TLS 是可选的，但强烈建议在中介服务器和媒体网关之间使用 TLS。 如果在此链接上配置了 TLS，则 MTLS 是必需的。 因此，必须使用中介服务器信任的 CA 颁发的证书配置网关。
   
 > [!NOTE]
 > 2014 年发布了关于 SSL 3.0 的安全公告。 支持在 Skype for Business Server 2015 中禁用 SSL 3.0。 若要了解有关安全公告的详细信息，请参阅[Disabling SSL 3.0 in Lync Server 2013 and Skype for Business Server 2015。](/archive/blogs/uclobby/disabling-ssl-3-0-in-lync-server-2013)<br/>
-**安全说明：** 为了确保使用最强加密协议，Skype for Business Server 2015 将按以下顺序向客户端提供 TLS 加密协议 **：TLS 1.2、TLS 1.1、TLS 1.0。** TLS 是 Skype for Business Server 2015 的关键方面，因此维护支持的环境需要 TLS。<br/>
-**安全说明：** 为了确保使用最强加密协议，Skype for Business Server 2019 将按以下顺序向客户端提供 TLS 加密协议 **：TLS 1.3、TLS 1.2。** TLS 是 Skype for Business Server 2019 的一个关键方面，因此需要 TLS 才能维护支持的环境。 
+**安全说明：** 为确保使用最强加密协议，Skype for Business Server 2015 将按以下顺序向客户端提供 TLS 加密协议 **：TLS 1.2、TLS 1.1、TLS 1.0。** TLS 是 2015 Skype for Business Server的一个关键方面，因此维护受支持的环境需要 TLS。<br/>
+**安全说明：** 为确保使用最强加密协议，Skype for Business Server 2019 将按以下顺序向客户端提供 TLS 加密协议 **：TLS 1.3、TLS 1.2**。 TLS 是 2019 Skype for Business Server的一个关键方面，因此维护受支持的环境需要 TLS。 
   
 下表汇总了每种类型的通信的协议要求。 
   
@@ -52,4 +52,4 @@ Skype for Business Server 使用 TLS 和 MTLS 加密即时消息。 所有服务
   
 ## <a name="fips"></a>FIPS
 
-如果 Windows Server 操作系统配置为使用 FIPS 140-2 算法进行系统加密，则 Skype for Business Server 和 Microsoft Exchange Server 2016 支持联邦信息处理标准 (FIPS) 140-2 算法。 若要实现 FIPS 支持，必须配置运行 Skype for Business Server 的每台服务器以支持它。
+Skype for Business Server 和 Microsoft Exchange Server 2016 支持联邦信息处理标准 (FIPS) 140-2 算法（如果将 Windows Server 操作系统配置为使用 FIPS 140-2 算法进行系统加密）。 若要实现 FIPS 支持，必须配置每台运行 FIPS Skype for Business Server以支持它。

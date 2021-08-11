@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中配置位置数据库
+title: 在数据库中配置位置Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: 在 Skype for Business Server 企业语音 中配置、填充和发布 E9-1-1 位置企业语音。
-ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 配置、填充和发布 E9-1-1 位置Skype for Business Server 企业语音。
+ms.openlocfilehash: 9e97c959af9dc88ff43fd93e734e21bae051583206be3dd89390dcae59c6ca0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326598"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>在 Skype for Business Server 中配置位置数据库
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>在数据库中配置位置Skype for Business Server
  
-在 Skype for Business Server 企业语音 中配置、填充和发布 E9-1-1 位置企业语音。 
+配置、填充和发布 E9-1-1 位置Skype for Business Server 企业语音。 
   
 为使客户端能够自动检测其在网络中的位置，首先需要配置位置数据库。 
   
 若要配置位置数据库，请执行以下任务：
   
-- 使用网络元素到位置的映射填充数据库。 如果使用 ELIN (ELIN) 紧急位置标识号，则需要在字段中包括 \<CompanyName\> ELIN。
+- 使用网络元素到位置的映射填充数据库。 如果使用 ELIN 网关中的紧急 (标识号) ELIN，则需要在字段中包括 \<CompanyName\> ELIN。
     
     如果未填充位置数据库，并且位置策略中的“所需位置”设置为“是”或“免责声明”，客户端将提示用户手动输入位置。
     
@@ -41,7 +41,7 @@ ms.locfileid: "49804082"
     
 ## <a name="populate-the-location-database"></a>填充位置数据库
 
-要在网络中自动定位客户端，首先需要使用网络线路映射 填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。 可以使用子网、无线访问点、交换机和端口来定义线路映射。
+要在网络中自动定位客户端，首先需要使用网络线路映射 填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。可以使用子网、无线访问点、交换机和端口来定义线路映射。
   
 可以分别将地址添加到位置数据库中，也可以使用包含下表所述的列格式的 CSV 文件批量添加。
   
@@ -52,7 +52,7 @@ ms.locfileid: "49804082"
 |**无线访问点** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Subnet** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**开关** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>将网络元素添加到位置数据库
 
@@ -120,7 +120,7 @@ ms.locfileid: "49804082"
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>验证位于位置数据库中的地址
 
-1.  启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+1.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
 2. 运行以下 cmdlet 以配置紧急服务提供商连接。
     
@@ -135,17 +135,17 @@ ms.locfileid: "49804082"
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
-   您还可以使用 **Test-CsLisCivicAddress cmdlet** 验证各个地址。
+   您还可以使用 **Test-CsLisCivicAddress cmdlet** 验证单个地址。
     
 ## <a name="publish-the-location-database"></a>发布位置数据库
 
 添加到位置数据库的新位置在发布之前对客户端不可用。
   
-如果使用紧急位置标识号 (ELIN) 网关，则还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。 PSTN 运营商可能要求您对 ELIN 记录使用特定格式。 有关详细信息，请与 PSTN 运营商联系。 可以从位置信息服务数据库导出记录并按需要设置格式。
+如果使用紧急位置标识号 (ELIN) 网关，则还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。 PSTN 运营商可能要求对 ELIN 记录使用特定格式。 有关详细信息，请与 PSTN 运营商联系。 可以从位置信息服务数据库中导出记录，并设置这些记录的格式。
   
 ### <a name="to-publish-the-location-database"></a>发布位置数据库
 
--  启动 Skype for Business Server命令行管理程序：单击"开始"，**单击"所有** 程序"，再单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+-  启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
 - 运行以下 cmdlet 以发布位置数据库。
     

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在管理中心中管理团队模板
-ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: a8fa2833f00c1d943bfa1b935492a80bd98444d1780eff1382b0952781aa471e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684579"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310401"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理中心中的管理团队模板
 
@@ -90,7 +90,7 @@ ms.locfileid: "52684579"
 
 **问：能否批量将用户分配到团队模板策略？**
   
-答：是的，我们支持在 PowerShell 中对模板策略进行批处理分配。 此操作的策略类型是 TeamsTemplatePermissionPolicy。 [了解更多信息](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+答：是的，我们支持在 PowerShell 中对模板策略进行批处理分配。 此操作的策略类型是 TeamsTemplatePermissionPolicy。 [了解详细信息](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **问：能否将组分配到团队模板策略？**
 
