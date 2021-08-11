@@ -14,15 +14,15 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: 了解如何使用 Microsoft 365 合规性中心的内容搜索来搜索 Exchange Online、SharePoint Online、OneDrive for Business 和 OneNote 中存储的 Microsoft Teams 内容。
+description: 了解如何使用 Microsoft 365 合规中心 中的内容搜索搜索 Microsoft Teams 存储在 Exchange Online、SharePoint Online、OneDrive for Business 和 OneNote 中的内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb63f3668ef03cdaf760a24ae1df0a815e7f282d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6810355304371564a2a305c82290df7667f5efd41889e598021636cc9ccd11d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278210"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>在"搜索"中Microsoft Teams
 

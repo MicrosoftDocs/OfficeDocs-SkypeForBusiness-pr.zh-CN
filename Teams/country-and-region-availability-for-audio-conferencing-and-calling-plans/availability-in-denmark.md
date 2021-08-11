@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于丹麦Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 51bfd797eef5383133f30b8a718cc191a6314d97
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e7e73c439ec971762c71399ad899afea7f3fc371485af84a3886f5b02fc562c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118191"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278161"
 ---
 # <a name="availability-in-denmark"></a>在丹麦的可用性
 

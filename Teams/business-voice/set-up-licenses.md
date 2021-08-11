@@ -17,22 +17,22 @@ search.appverid: MET150
 description: 了解如何向用户Microsoft 365 商务语音许可证
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5da524c636ade2c177acece602d16d7292fc81fd
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 53ae830e12ea360ed212cec56190e09f94aaae0870a01e880f0f1872a996e56b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910024"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312950"
 ---
 # <a name="step-3-assign-business-voice-licenses"></a>步骤 3：分配业务语音许可证
 
 需要为每个需要使用该Microsoft 365 商务语音的用户分配 Business Voice 许可证。
 
-以下视频演示如何在管理中心内完成Microsoft 365步骤。
+以下视频演示如何在以下步骤中完成Microsoft 365 管理中心。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENAx]
 
-1. 打开 Microsoft 365 管理中心，使用全局管理员用户登录 (该帐户通常是用于注册 Microsoft 365) 。
+1. 打开Microsoft 365 管理中心帐户，使用全局管理员用户登录 (该帐户通常是用于注册帐户的帐户Microsoft 365) 。
 1. 在左侧导航窗格中，转到"帐单 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">  >  **许可证"。**</a>
 1. 选择 **"Microsoft 365 商务语音"。**
 1. 在产品详细信息页上，选择"**分配许可证"。**

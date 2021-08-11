@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: 了解管理中心内 表扬 应用中Microsoft Teams设置
-ms.openlocfilehash: becaccc9c8370d25e3d085e3c896d4f1a8a0ad95
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 52dbadcc20e1c73d48d5f5b7f762493f2dd61c64aa29e7a924e03dd09c63bed6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278131"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 表扬 管理中心Microsoft Teams应用
 

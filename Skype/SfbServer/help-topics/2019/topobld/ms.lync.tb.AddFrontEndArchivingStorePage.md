@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
-description: 存档需要受支持的 64 位版本的 Microsoft SQL Server 数据库软件来存储存档数据。 除了要用于新的 SQL Server 数据库 (（可以是默认实例）或指定指定) 的命名实例的 SQL Server 实例之外，还可以选择以前定义的用于存档的 SQL Server 数据库，或者通过指定 SQL Server 数据库所在的服务器的完全限定域名 (FQDN) 来定义新的 SQL Server 数据库。
-ms.openlocfilehash: ae9c90cedc7be4e60689978b28eecce2031a4991
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 存档需要受支持的 64 位版本的 Microsoft SQL Server 数据库软件来存储存档数据。 除了要用于新的 SQL Server 数据库 (的实例（可以是默认实例）或指定指定) 的命名实例之外，还可以选择以前定义的 SQL Server 数据库进行存档，或者通过指定 SQL Server SQL Server 数据库所在的服务器的完全限定域名 (FQDN) 来定义新的 SQL Server 数据库。
+ms.openlocfilehash: da7f43720359a379bcd7c917bd6b81f7c6f0ce3d25b349de11d95a377cd8f100
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302836"
 ---
 # <a name="add-front-end-archiving-store"></a>添加前端存档存储
 
-存档需要受支持的 64 位版本的 Microsoft SQL Server 数据库软件来存储存档数据。 除了要用于新的 SQL Server 数据库 (（可以是默认实例）或指定指定) 的命名实例的 SQL Server 实例之外，还可以选择以前定义的用于存档的 SQL Server 数据库，或者通过指定 SQL Server 数据库所在的服务器的完全限定域名 (FQDN) 来定义新的 SQL Server 数据库。
+存档需要受支持的 64 位版本的 Microsoft SQL Server 数据库软件来存储存档数据。 除了要用于新的 SQL Server 数据库 (的实例（可以是默认实例）或指定指定) 的命名实例之外，还可以选择以前定义的 SQL Server 数据库进行存档，或者通过指定 SQL Server SQL Server 数据库所在的服务器的完全限定域名 (FQDN) 来定义新的 SQL Server 数据库。
 
 > [!NOTE]
 > 如果用于发布拓扑的帐户具有相应的用户权限，则可以在发布拓扑时创建监控数据库。 您还可以稍后创建数据库，该数据库包含在安装过程中。

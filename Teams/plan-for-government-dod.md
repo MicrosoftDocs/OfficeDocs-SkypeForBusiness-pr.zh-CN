@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd649507c0108e9a3d500f4d30cae46a3181d75d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 318ea793a037ecf47d48663e94b1c19e09fb2bcb8556b9f401f314d0bb9e998d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339470"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>规划Office 365 政府版 - DoD 部署
 
@@ -90,7 +90,7 @@ ms.locfileid: "51117850"
 
 载入到 Office 365 政府版 – DoD 后，请遵循如何推出 Microsoft Teams 中概述[的建议部署Microsoft Teams。](./deploy-overview.md) 请务必与采用和更改管理团队和Teams合作。
 
-还可以与 [FastTrack 或](https://www.microsoft.com/fasttrack) 所选合作伙伴合作来载入服务。
+还可以与合作伙伴或[FastTrack](https://www.microsoft.com/fasttrack)合作，加入该服务。
 
 > [!NOTE]
 > 尚不Teams DOD 环境的 Mac 客户端。

@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中创建会议配置设置
+title: 在会议环境中创建会议Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 摘要：了解如何在 Skype for Business Server 中创建会议配置设置。
-ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何在会议环境中创建会议Skype for Business Server。
+ms.openlocfilehash: 11871685d51a73f5f2e9dbcbaa2835060d8a7cdc59958af1785d689c3c9246ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321685"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business Server 中创建会议配置设置
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在会议环境中创建会议Skype for Business Server
  
-**摘要：** 了解如何在 Skype for Business Server 中创建会议配置设置。
+**摘要：** 了解如何在会议环境中创建会议Skype for Business Server。
   
-可以使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序创建会议配置设置。
+可以使用控制面板或命令行管理程序Skype for Business Server会议配置Skype for Business Server设置。
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板创建会议配置设置
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用"控制面板"Skype for Business Server会议配置设置
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
     
-2.  打开 Skype for Business Server 控制面板。
+2.  打开Skype for Business Server控制面板"。
     
 3. 在左侧导航栏中，单击 **"会议"，** 然后单击"会议 **配置"。**
     
@@ -53,7 +53,7 @@ ms.locfileid: "51119511"
     
 8. 要阻止自动允许匿名（未经身份验证）用户参加会议，请清除 **“默认允许匿名用户”** 复选框。默认情况下，自动允许匿名用户参加会议。
     
-9. 若要自定义发送给参与者的会议邀请，请执行下列操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 帮助 **URL** 除外，如果不为自定义项指定值，则它们将不会包含在会议中。 如果不包括自定义帮助 URL，Skype for Business 的默认帮助 URL 将显示在邀请中。 
+9. 若要自定义发送给参与者的会议邀请，请执行下列操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 帮助 **URL** 除外，如果不为自定义项指定值，则它们将不会包含在会议中。 如果不包含自定义帮助 URL，则邀请中将显示Skype for Business的默认帮助 URL。 
     
    - 若要自定义会议邀请中出现的徽标，请在"徽标 **URL"** 中输入徽标的位置。 徽标必须是大小为 188 x 30 像素的 GIF 或 JPG 图像。 
     
@@ -65,7 +65,7 @@ ms.locfileid: "51119511"
     
 10. 单击“提交”。
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序创建会议配置设置
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server会议配置设置
 
 若要创建会议配置设置，请使用 **New-CsMeetingConfiguration** cmdlet。
   

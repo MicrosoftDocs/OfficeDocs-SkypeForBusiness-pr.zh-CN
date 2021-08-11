@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在新西兰获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: db8cfb0457ab6dea2a32fbe80bfe94001dff2e73
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 8065da758022f1a3b345fc9b20f508ed9ead6fdd7deb0a6ccc353ebd9e710c9a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278141"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>电话新西兰的号码管理
 

@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
-description: 在"新建设备配置"或"编辑设备配置"页上，可以创建或修改用于管理 Skype for Business Phone Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: b0973c73580aee3cfc81dfb79ac65613ddfcf204
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在"新建设备配置"或"编辑设备配置"页上，可以创建或修改用于管理 Skype for Business 电话 Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
+ms.openlocfilehash: 826f20dcd28002f293ebcf227a954f9bfd61c28f36fd4dd23414e2be59ef4f62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302706"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>设备配置：创建新的或编辑现有的
  
-在" **新建设备配置** " **或** "编辑设备配置"页上，可以创建或修改用于管理 Skype for Business Phone Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
+在"**新建设备配置**"**或**"编辑设备配置"页上，可以创建或修改用于管理 Skype for Business 电话 Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
   
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -42,7 +42,7 @@ ms.locfileid: "51119921"
     
 - **名称** 你可以添加或修改设备配置的名称。
     
-- **SIP 安全性** 你可以为 Skype for Business Phone Edition 设备配置传输和身份验证要求。 可以从以下选项中进行选择：
+- **SIP 安全性** 你可以为 Skype for Business 电话 Edition 设备配置传输和身份验证要求。 可以从以下选项中进行选择：
     
   - **低** 允许任何类型的授权或传输。
     
@@ -52,7 +52,7 @@ ms.locfileid: "51119921"
     
 - **日志记录级别** 可以在 UC 设备上启用日志记录。 有效值为：Off;低;中;高。 默认值为 Off。
     
-- **QoS (语音服务质量)** 你可以指定分配给来自 Skype for Business Phone Edition 设备的语音流量的 DSCP 值。 默认值为 40。 但是，40 并不是通常用于音频流量的值；音频流量几乎始终用 DSCP 代码 46 进行标记。 为了在整个网络中保持一致性，您可能需要将此值更改为 46。
+- **QoS (语音服务质量)** 可以指定分配给来自 Skype for Business 电话 Edition 设备的语音流量的 DSCP 值。 默认值为 40。 但是，40 并不是通常用于音频流量的值；音频流量几乎始终用 DSCP 代码 46 进行标记。 为了在整个网络中保持一致性，您可能需要将此值更改为 46。
     
 - **电话锁定** 可以指定 UC 电话是否将在指定的非活动时间后自动锁定自身。 以下是可以配置的设置：
     
@@ -60,7 +60,7 @@ ms.locfileid: "51119921"
     
   - **最小 PIN 长度** 你可以指定用于解锁电话的个人标识 (PIN) 的最小长度。 PIN 长度的范围为 4 到 15 位数字。 默认长度为六位数字。
     
-  - **电话锁定的退出** 你可以指定电话自行锁定之前的最小时间长度。 该退出的范围是 0 到 60 分钟;默认值为 10 分钟。 输入 HH：MM：SS 格式的值。
+  - **电话锁定的** 你可以指定电话自行锁定之前的最小时间长度。 该退出的范围是 0 到 60 分钟;默认值为 10 分钟。 输入 HH：MM：SS 格式的值。
     
 ## <a name="see-also"></a>另请参阅
 

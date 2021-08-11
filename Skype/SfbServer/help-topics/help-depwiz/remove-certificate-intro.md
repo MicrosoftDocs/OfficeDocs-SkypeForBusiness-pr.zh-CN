@@ -15,15 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
 description: 在"删除证书简介"页上，仔细阅读有关删除证书的含义的信息。 阅读此信息后，单击"下一步"继续。
-ms.openlocfilehash: 1c62971c765593c630eda0f38239a0fdd35049f9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3e545fc2a7660368f9c6b33a8dcf8e431b504b3bd2811d4ec2206da12c926caa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829732"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285102"
 ---
 # <a name="remove-certificate-intro"></a>删除证书（简介）
  
-在 **"删除证书** 简介"页上，仔细阅读有关删除证书的含义的信息。 阅读此信息后，单击"下一 **步"** 继续。
+在 **"删除证书** 简介"页上，仔细阅读有关删除证书的含义的信息。 阅读此信息后，单击"下 **一步"** 继续。
   
 

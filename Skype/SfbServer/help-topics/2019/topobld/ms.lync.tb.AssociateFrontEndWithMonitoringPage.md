@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 每个前端池和 Survivable Branch Appliance 只能拥有一台关联的监控服务器。如果为站点启用监控，监控服务器会提供呼叫详细信息记录 (CDR) 和用户体验质量 (QoE) 数据收集和报告。
-ms.openlocfilehash: 51335126c64d17d2ea6c8cfafe3c8cab0c9fad17
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f338cd75d44c1c90dc57092b3e7ea06261b964900c9e3625ee4092fbd041b75c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811342"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285262"
 ---
 # <a name="associate-front-end-with-monitoring"></a>将前端与监控关联
  

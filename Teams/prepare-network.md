@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: 282a6646c321d14618b9aaede36918db8db58c774d7bd99ff79f15cac729f83e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312690"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备组织网络 
 
@@ -306,7 +306,7 @@ Teams 旨在不受网络条件限制，提供最佳音频、视频和内容共�
 
 - **视频通话的最小** 带宽要求最高为 240p 分辨率，屏幕共享内容帧速率自适应为 1.875 到 7.5fps，而"协同模式/大型库"视频分辨率高达 540p。  
 
-- **建议** 视频通话带宽要求高达 1080p 分辨率<sup>\*</sup>、屏幕共享内容帧速率自适应 7.5 到 30fps，以及高达 1080p 分辨率的汇总模式/大型库视频<sup>\*</sup>。  
+- **建议** 视频通话带宽要求高达 1080p 分辨率 <sup>\*</sup>、屏幕共享内容帧速率自适应 7.5 到 30fps，以及高达 1080p 分辨率的汇总模式/大型库视频 <sup>\*</sup>。  
 
 - **最佳性能** 指南允许使用屏幕共享内容帧速率自适应 15 到 30fps，为较大的与会者会议、高损失环境和更高的运动内容提供更高的保真视频。
 

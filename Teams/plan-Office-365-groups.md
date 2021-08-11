@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 7e93b66f9a7a0abc4dfc2e3484818da28a65f36a
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: fedd643cd597ee3c8819273fcd98a27996e8502bb3e5cb59d51e6693a6914881
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312760"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>在Microsoft 365团队时规划团队Microsoft Teams
 ==========================================================
@@ -34,7 +34,7 @@ ms.locfileid: "52030042"
 
 有两种方案需要讨论组Microsoft 365计划及其对组 (或) Microsoft Teams：
 
--   首先，由于客户可以在组方面拥有现有投资，我们目前同时支持公共组和专用组，有关当前支持的成员数，请参阅组的限制[和Microsoft Teams。](./limits-specifications-teams.md) 如前所述，您希望使用客户端（而不是管理中心）Teams团队Microsoft 365成员身份。 鉴于此方案，如果用户习惯于 Microsoft 365 组中话题对话，则值得注意的是，组对话本质上是电子邮件，与 Teams 通道中的聊天消息不同。 向你的用户解释此差异，并建议他们采用 Teams 中更加灵活的聊天消息，而不是使用 Outlook 或 OWA 向组发送电子邮件。
+-   首先，由于客户可以在组方面拥有现有投资，我们目前同时支持公共组和专用组，有关当前支持的成员数，请参阅组的限制[和Microsoft Teams。](./limits-specifications-teams.md) 如前所述，您希望使用客户端（而不是团队）Teams团队Microsoft 365 管理中心。 鉴于此方案，如果用户习惯于 Microsoft 365 组中话题对话，则值得注意的是，组对话本质上是电子邮件，与 Teams 通道中的聊天消息不同。 向你的用户解释此差异，并建议他们采用 Teams 中更加灵活的聊天消息，而不是使用 Outlook 或 OWA 向组发送电子邮件。
 
 -   其次，对于没有在 Microsoft 365 中定义现有组的客户，可以使用 Microsoft 365 管理中心、Teams Web 或桌面客户端创建组。 如前所述，使用客户端管理Microsoft 365组的所有Teams成员身份。 由于团队成员身份也在定义组Microsoft 365成员身份，因此应让人员为此更改做好准备。
 
@@ -48,6 +48,6 @@ ms.locfileid: "52030042"
 
 -   [在 Outlook 中通过组获得更多](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
--   [使用管理中心Microsoft 365组中添加Microsoft 365成员](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [使用"组"Microsoft 365组中添加或删除Microsoft 365 管理中心](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
 -   [还原已删除的组](/microsoft-365/admin/create-groups/restore-deleted-group)

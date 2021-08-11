@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: '了解如何为用户设置隐私模式，以便他们可以更好地控制用户查看其可用性的方式。 '
-ms.openlocfilehash: f8589dfb648693f0c0c4331a1a16119a3d7fe748
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 29eb3baad5ee270d594d283ba51cb1cde75222d8ad66e34ca4df33676aeab2da
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239949"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339316"
 ---
 # <a name="configure-presence-privacy-mode"></a>配置状态隐私模式
 
