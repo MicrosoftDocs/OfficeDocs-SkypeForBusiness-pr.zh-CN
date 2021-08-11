@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用"持久聊天"页的"类别"部分来配置类别。 持久聊天室类别是组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
-ms.openlocfilehash: 10b9483bd400ff4fc17c7ebbf56d07c11da9f787
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 33bae567cfacc6ae877979302817c2432c14f9681712837e011763b0ea4d1dfa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307613"
 ---
 # <a name="persistent-chat-category-main-page"></a>持久聊天类别主页
 
 > [!NOTE] 
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 Teams 中提供了相同的功能。 有关详细信息，请参阅 [Skype for Business 到 Microsoft Teams 的升级](/MicrosoftTeams/upgrade-start-here)。 如果需要使用持久聊天，你的选择是：将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[Skype for Business Microsoft Teams升级](/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: “客户端移动策略”页显示部署中可用的移动策略。
-ms.openlocfilehash: 4ea7e3113a1a2b12920f83d2d8c5a3e5d0df0a97
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 20012db7c679e3145f8fda348afc2b242bc3531420675abe31eec068b1b5980a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307414"
 ---
 # <a name="clients-mobility-policy"></a>客户端：移动策略
 

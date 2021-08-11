@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果需要删除当前充当 Skype for Business Server 2015 部署的文件存储的文件服务器，或者需要进行其他会使当前文件存储不可用的更改，则首先需要创建新的共享。 然后，您需要执行以下步骤：
-ms.openlocfilehash: 2d65e517b10a76013fbeb332b183b5b816e99083
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d57bfe10df36f200f927d4a2c9850eee0d21e9cf38724f31cc62bf84f76708e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119641"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307113"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Move File Store Data to a New File Store in Skype for Business Server 2015
 
 如果需要删除当前充当 Skype for Business Server 2015 部署的文件存储的文件服务器，或者需要进行其他会使当前文件存储不可用的更改，则首先需要创建新的共享。 然后，您需要执行以下步骤：
 
-1. 关闭使用计划删除的文件存储的 Skype for Business Server 2015 服务。
+1. 关闭Skype for Business Server文件存储的 2015 服务。
 
 2. 在拓扑生成器中定义文件存储并发布更改，使新文件存储可供部署使用。
 
@@ -38,15 +38,15 @@ ms.locfileid: "51119641"
 
 1. 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 组（其中安装了 Skype for Business Server 2015 管理工具）的成员登录到计算机。
 
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“拓扑”，然后单击“状态”。
 
-4. 对于使用计划删除的文件存储的每个控制器池、控制器、Standard Edition Server 和前端池，选择服务器或池，单击"操作"，然后单击"停止 **所有服务"。**
+4. 对于使用计划删除的文件存储的每个控制器池、控制器、Standard Edition 服务器和前端池，选择服务器或池，单击 **"操作**"，然后单击"停止 **所有服务"。**
 
 5. 以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-6. 启动拓扑生成器 **：单击"** 开始"，单击"所有程序"，单击 **"Skype for Business Server 2015"，** 然后单击 **"Skype for Business Server 2015Topology Builder"。**
+6. 启动拓扑生成器：单击"开始"，单击"所有程序"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
 
 7. 选择使用文件存储的服务器或池，然后执行以下操作：
 
@@ -65,7 +65,7 @@ ms.locfileid: "51119641"
 
 13. 在 **"编辑属性**"中的 **"关联"下的**"**文件** 存储"中，选择新的文件共享，然后单击"确定 **"。**
 
-14. 发布拓扑，检查复制状态，然后根据需要运行 Skype for Business Server 部署向导。 有关详细信息，请参阅[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))。
+14. 发布拓扑，检查复制状态，然后根据需要Skype for Business Server部署向导。 有关详细信息，请参阅[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))。
 
 15. 启动命令提示符：单击 **"开始"，** 单击 **"运行**"，然后键入cmd.exe。
 

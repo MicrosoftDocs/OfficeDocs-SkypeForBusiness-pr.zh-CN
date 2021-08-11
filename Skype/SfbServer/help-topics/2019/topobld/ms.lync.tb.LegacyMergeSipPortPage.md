@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 与客户端、旧版前端池和服务器通信的默认传输控制协议 (TCP) SIP 端口为 5061。 如果未使用默认值，则选择“所有池和服务器的 SIP 端口:”并输入新值。
-ms.openlocfilehash: e9bab801a5cf5df3e7aa38d1214f9aa0b6fce053
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 与客户端、旧版前端池和服务器通信的默认传输控制协议 (TCP) SIP 端口为 5061。如果未使用默认值，则选择“所有池和服务器的 SIP 端口:”并输入新值。
+ms.openlocfilehash: c1edad0c098937dd6cd518f295f65c690982fec2b3c8c6b42d2f6cf0480eebe5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835672"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307563"
 ---
 # <a name="legacy-merge-sip-port"></a>旧版合并 SIP 端口
  
 与客户端、旧版前端池和服务器通信的默认传输控制协议 (TCP) SIP 端口为 5061。如果未使用默认值，则选择“所有池和服务器的 SIP 端口:”并输入新值。
   
-如果旧部署配置为自动客户端登录，请选择"自动发现每个 **池的 SIP 端口** 配置"，然后单击"下一步"继续。
+如果旧部署配置为自动客户端登录，请选择"自动发现每个池 **的 SIP 端口配置** "，然后单击"下一 **步"** 继续。
   
 

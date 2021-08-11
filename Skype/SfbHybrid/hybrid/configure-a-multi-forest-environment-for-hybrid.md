@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 以下各节描述如何配置资源/用户林模型中具有多个林的环境，以在混合方案中提供功能。
-ms.openlocfilehash: 84014d7564265de5c2fb87ef91deb0ba291ccff0
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: d622b225c03002e96c7f613a25d31fc047a52b5d8eb751364c62e9ad608d3edd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660720"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277447"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>部署资源林拓扑
 
@@ -70,7 +70,7 @@ Skype for Business本地的用户可以拥有Exchange本地或联机部署。 Te
 |**用户林**|**资源林**|
 |:-----|:-----|
 |选择的帐户链接属性  <br/> |选择的帐户链接属性  <br/> |
-|mail  <br/> |mail  <br/> |
+|邮件  <br/> |邮件  <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
