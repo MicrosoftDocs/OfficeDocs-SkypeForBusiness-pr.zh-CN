@@ -1,5 +1,5 @@
 ---
-title: 未分配的电话号码 创建新的或编辑现有的
+title: 未分配电话号码 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: 49837269f81eaee09a0c191008234345d1d6d19f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 47eed42a5ce1b16826f907f56294e0d4b8656946d4940cb21bbeeed5d4b4c570
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283534"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未分配电话号码：创建新的或编辑现有的
 
 > [!NOTE]
-> 将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成后，Exchange UM 在 Skype for Business Server 2019 中仍然可用。 由于 Exchange 2019 支持的变化，Exchange UM 集成的重要性正在减少，以支持云语音邮件和云自动助理功能。
+> Exchange将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成后，UM 在 Skype for Business Server 2019 中仍然可用。 由于 2019 年 Exchange 支持的变化，EXCHANGE UM 集成的重要性正在减少，以支持 云语音邮件 和云自动助理功能。
 
 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
 
@@ -46,7 +46,7 @@ ms.locfileid: "51097048"
 
   - 该数字必须与正则表达式 `tel:` () ？ () ？[ \+ 1-9]\d {0,17} (;ext=[1-9]\d {0,9}) ？。 这意味着该号码可能以字符串"tel："开头。 如果不指定该字符串，将自动添加该字符串，例如加号 (+) ，以及 1 到 9 之间的数字。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
 
-- **通知服务** 选择 **"** 通知"让通知应用程序处理传入呼叫，或 **选择 Exchange UM** 让 Exchange UM 自动助理处理传入呼叫。
+- **通知服务** 选择 **"** 通知"让通知应用程序处理传入呼叫或Exchange **UM，** 让 um Exchange UM 自动助理处理传入呼叫。
 
 - 如果选择“通知”作为“通知服务”：
 
@@ -56,6 +56,6 @@ ms.locfileid: "51097048"
 
 - 如果选择“Exchange UM”作为“通知服务”：
 
-  - **自动助理电话号码** 选择 Exchange UM 服务的电话号码自动助理。
+  - **自动助理电话号码** 选择 UM 呼叫Exchange电话号码自动助理。
 
-有关通知特性和功能的详细信息，请参阅规划文档中的 Plan [for the Announcement application in Skype for Business。](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)。
+有关通知特性和功能的详细信息，请参阅规划文档中Skype for Business[中的规划](../../../plan-your-deployment/enterprise-voice-solution/announcement.md)通知应用程序。 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)。

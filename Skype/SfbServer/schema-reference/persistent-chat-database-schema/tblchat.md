@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat 表包含所有聊天消息。
-ms.openlocfilehash: b375c8c5dcd626a02f59aa9a916d3ca883e4767d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2e764fa9ca64089a7015885bb4d33dc466d7dc214532e698505a19d2cf1a0d4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329416"
 ---
 # <a name="tblchat"></a>tblChat
  
@@ -33,10 +33,10 @@ tblChat 表包含所有聊天消息。
 |chatDate  <br/> |bigint，不为 null  <br/> |聊天消息的时间戳。  <br/> |
 |userId  <br/> |int，不为 null  <br/> |发布者的主要 ID。  <br/> |
 |isAlert  <br/> |bit，不为 null  <br/> |如果消息是警报消息，则为 True。否则为 False。  <br/> |
-|content  <br/> |nvarchar (max)，不为 null  <br/> | 聊天内容（纯文本版本）。该内容通常为纯文本，但以下情况除外： <br/>  文件表示为 ma-filelink: 链接。 <br/>  链接表示为 HTML 元素（但内容类型不能被视为 HTML）。 <br/>  情景编码为"[STORY]...."类似格式。 <br/> |
+|content  <br/> |nvarchar (max)，不为 null  <br/> | 聊天内容（纯文本版本）。该内容通常为纯文本，但以下情况除外： <br/>  文件表示为 ma-filelink: 链接。 <br/>  链接表示为 HTML 元素（但内容类型不能被视为 HTML）。 <br/>  情景编码为"[STORY]...."-like 格式。 <br/> |
 |rtf  <br/> |varchar (max)   <br/> |聊天内容（RTF 版本）。 如果客户端未提供，可能为 Null。  <br/> |
    
-**注册表项**
+**键**
 
 |**列**|**说明**|
 |:-----|:-----|

@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何在沙特阿拉伯拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 757db82618ecc4abcbcca65f47c15565f89de7df
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 881b973dfb6496d9d9009f431d8e0d53d4cce34ebbe5ccb0f42dcfe51b6fd83c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300818"
 ---
 # <a name="toll-free-dialing-restrictions-in-saudi-arabia"></a>沙特阿拉伯的免费拨号限制
 

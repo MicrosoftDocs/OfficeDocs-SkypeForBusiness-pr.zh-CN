@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
-description: 右键单击拓扑生成器层次结构树中的共享组件以创建新的共享组件或访问拓扑级别选项。
-ms.openlocfilehash: b38980f9cf3cff9ea7e4a5e4b9033ac9c6f3b32b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 右键单击拓扑生成器层次结构树中的"共享组件"以创建新的共享组件或访问拓扑级别选项。
+ms.openlocfilehash: 048905cbf5adfaf23670ec4e2b7791d2eed3d0e45f9fe362e5d6a57ce712aea4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283384"
 ---
 # <a name="shared-components-scope-node"></a>共享组件范围节点
  
-右 **键单击拓扑** 生成器层次结构树中的共享组件以创建新的共享组件或访问拓扑级别选项。
+右 **键单击拓扑** 生成器层次结构树中的"共享组件"以创建新的共享组件或访问拓扑级别选项。
   
 ![共享组件范围节点](../../media/Shared_Components_Scope_Node.jpg)
   
-选择 **"** 新建"以创建新的文件存储、新的 IP/PSTN 网关、新的 Office Web Apps 服务器、SQL Server存储或新的 Trunk。
+选择 **"** 新建"以创建新的文件存储、新的 IP/PSTN 网关、Office Web Apps Server、新的 SQL Server 存储或新的 Trunk。
   
 > [!NOTE]
 > 请参阅每个选项的帮助主题。 

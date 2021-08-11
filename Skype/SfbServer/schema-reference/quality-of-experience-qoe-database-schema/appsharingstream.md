@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 表包含用于应用程序共享的网络流的用户体验质量指标。 此表在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: d95e0d78175f8e17363dc558d82cafefba36ce28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 68f43e9d783cd0f30d89bf9f4f13c0fe5329bbf3755e6b2c3eba897b86ead6c5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329347"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 表
  
 AppSharingStream 表包含用于应用程序共享的网络流的用户体验质量指标。 此表在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |主、外  <br/> |会话开始的日期和时间。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主、外  <br/> |用于区分在相同日期和时间开始的会话的顺序标识符。  <br/> |

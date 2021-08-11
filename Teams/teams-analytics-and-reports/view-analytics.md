@@ -16,12 +16,12 @@ MS.collection:
 description: 了解 Teams 中的跨团队分析、按团队分析和按频道分析，让用户查看他们参与的团队或频道的使用情况数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ac44638a3f1b79ba98d1b2ebc6cf3645ef44bd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e5eac5dd4b16511041da58bc16d142a613c365982fb5f58b3c308b05df2924ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292949"
 ---
 # <a name="view-analytics-in-teams"></a>在 Teams 中查看Teams
 

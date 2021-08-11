@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 中管理应用程序级响应组设置
+title: 管理应用程序中的应用程序级响应组Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Managing application-level Response Group settings， such as music-on-hold and ringback settings， in Skype for Business Server 企业语音.
-ms.openlocfilehash: 941164fb3a99f62303b45f587b64e7aff9cb1393
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 管理应用程序级响应组设置，如保持音乐设置和回Skype for Business Server 企业语音。
+ms.openlocfilehash: a6883247f7be8816a8363c9b2790d6d0e45599484037d23af860b3e0f191dc10
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103468"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337152"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>在 Skype for Business 中管理应用程序级响应组设置
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>管理应用程序中的应用程序级响应组Skype for Business
  
-Managing application-level Response Group settings， such as music-on-hold and ringback settings， in Skype for Business Server 企业语音.
+管理应用程序级响应组设置，如保持音乐设置和回Skype for Business Server 企业语音。
   
 响应组应用程序的应用程序级别设置包括默认的保持音乐配置、默认的保持音乐音频文件、代理回响宽限期和呼叫上下文配置。 您只能针对每个池定义一组应用程序级别设置。 要查看应用程序级别设置，请使用 **Get-CsRgsConfiguration** cmdlet。 要修改应用程序级别设置，请使用 **Set-CsRgsConfiguration** cmdlet。
   
@@ -35,7 +35,7 @@ Managing application-level Response Group settings， such as music-on-hold and 
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
 3. 在命令行中运行：
     

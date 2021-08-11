@@ -1,5 +1,5 @@
 ---
-title: 删除 Skype for Business Server 中的存档配置
+title: 删除存档配置Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 摘要：了解如何删除 Skype for Business Server 中的存档配置。
-ms.openlocfilehash: 43913485ce18660b6c7fa7ce747ceeaaebd49923
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何删除存档配置Skype for Business Server。
+ms.openlocfilehash: b6a8aec925bf6bfb7914b6cf830ee6e38751ed7187c862ca2d26104ca3384f39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320254"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>删除 Skype for Business Server 中的存档配置
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>删除存档配置Skype for Business Server
 
-**摘要：** 了解如何删除 Skype for Business Server 中的存档配置。
+**摘要：** 了解如何删除存档配置Skype for Business Server。
   
 可以删除站点配置或池配置，但无法删除全局配置。 如果删除全局配置，该配置将自动重置为默认值。
   
@@ -31,7 +31,7 @@ ms.locfileid: "51095406"
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
 3. 在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。
     
@@ -58,7 +58,7 @@ Remove-CsArchivingConfiguration -Identity "site:Redmond"
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
-下一个命令将删除已禁用 Exchange 存档的所有存档配置设置：
+下一个命令将删除已禁用存档Exchange的所有存档配置设置：
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration

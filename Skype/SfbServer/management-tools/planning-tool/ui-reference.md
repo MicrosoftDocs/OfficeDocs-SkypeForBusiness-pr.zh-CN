@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: ed304be8ea6f46d3bcbd16537da9b23c84227f9b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8ded9db153aa9bf5388c4afe9957e86bb739be05085e669e8bd36feb472e2ed6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278400"
 ---
 # <a name="planning-tool-ui-reference"></a>规划工具 UI 参考
  
@@ -33,7 +33,7 @@ ms.locfileid: "49823302"
     
 - [企业语音 (规划工具) ](../../help-topics/help-planning/enterprise-voice.md)
     
-- [Exchange 统一消息设置 (规划工具) ](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
+- [Exchange统一消息设置 (规划工具) ](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     
 - [呼叫允许控制 (规划工具) ](../../help-topics/help-planning/call-admission-control.md)
     
@@ -41,7 +41,7 @@ ms.locfileid: "49823302"
     
 - [持久聊天 (规划工具) ](../../help-topics/help-planning/persistent-chat.md)
     
-- [Mobility (Planning Tool) ](../../help-topics/help-planning/mobility.md)
+- [移动 (规划工具) ](../../help-topics/help-planning/mobility.md)
     
 - [联合 (规划工具) ](../../help-topics/help-planning/federation.md)
     
@@ -53,7 +53,7 @@ ms.locfileid: "49823302"
     
 - [功能概述 (规划工具) ](../../help-topics/help-planning/feature-overview.md)
     
-- [Exchange 统一消息 (规划工具) ](../../help-topics/help-planning/exchange-unified-messaging.md)
+- [Exchange统一消息 (规划工具) ](../../help-topics/help-planning/exchange-unified-messaging.md)
     
 - [负载平衡器 (规划工具) ](../../help-topics/help-planning/load-balancer.md)
     
@@ -67,7 +67,7 @@ ms.locfileid: "49823302"
     
 - [分支站点 (规划工具) ](../../help-topics/help-planning/branch-sites.md)
     
-- [边缘网络 (规划工具) ](../../help-topics/help-planning/edge-network.md)
+- [Edge Network (Planning Tool) ](../../help-topics/help-planning/edge-network.md)
     
 - [媒体旁路 (规划工具) ](../../help-topics/help-planning/media-bypass.md)
     

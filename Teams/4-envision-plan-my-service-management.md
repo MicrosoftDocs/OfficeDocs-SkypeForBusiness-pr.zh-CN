@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b940ad9347e2a91a3816eb95817e59368692290
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3335d47917dcb14536c4edd19c3cbbe54bd24f1b9f0b6fb0e735d7e6c325e7c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094740"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329357"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 
@@ -117,7 +117,7 @@ ms.locfileid: "51094740"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定谁对组织中云语音操作负责。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>下载服务管理规划完整指南。</li><li>下载质量体验评审指南。</li><li>完整查看操作指南。</li><li>向每个运营团队成员提供所有指南，以便查看并熟悉操作要求。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>下载服务管理规划完整指南。</li><li>下载质量体验评审指南。</li><li>完整查看操作指南。</li><li>向每个运营团队成员提供所有指南，以便查看并熟悉操作要求。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

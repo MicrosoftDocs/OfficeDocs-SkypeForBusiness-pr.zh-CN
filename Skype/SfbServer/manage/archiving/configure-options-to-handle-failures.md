@@ -1,5 +1,5 @@
 ---
-title: 配置存档选项以处理 Skype for Business Server 中的故障
+title: 配置存档选项以处理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: 摘要：了解如何在 Skype for Business Server 发生故障时阻止阻止存档的 IM 和会议会话。
-ms.openlocfilehash: 8bfe4d3f8e02fa0d7d7d3f1f6b55f224aaa1451a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何在出现可能阻止存档的Skype for Business Server阻止 IM 和会议会话。
+ms.openlocfilehash: 8baf245b1c8e95394aec756cb019b9562555f4bbe17dc0444615d5815da846df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095446"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320264"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>配置存档选项以处理 Skype for Business Server 中的故障
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>配置存档选项以处理Skype for Business Server
 
-**摘要：** 了解如何在 Skype for Business Server 发生故障时阻止阻止存档的 IM 和会议会话。
+**摘要：** 了解如何在出现可能阻止存档的故障时Skype for Business Server IM 和会议会话。
   
-如果存档是组织的要求，可以在 Skype for Business Server 发生故障时阻止 IM 和会议会话，这将阻止存档。 这有时称为关键模式。 例如，如果存储服务出现问题，将阻止其通信已启用存档的用户使用 IM。 IM 和会议都能在修复故障后自动恢复。 
+如果存档是组织的要求，可以在出现可能阻止存档的故障时Skype for Business Server IM 和会议会话。 这有时称为关键模式。 例如，如果存储服务出现问题，将阻止其通信已启用存档的用户使用 IM。 IM 和会议都能在修复故障后自动恢复。 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>使用控制面板配置关键模式
 
@@ -31,7 +31,7 @@ ms.locfileid: "51095446"
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
 3. 在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。
     

@@ -14,12 +14,12 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: a00573b06c1900718fd670c96a21ffab069b491e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9ad2517641a4a7bbfe0d353497331ef8fade52c24099cc770477530dc6021b99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806722"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283404"
 ---
 # <a name="mediation-server-general-settings-expander"></a>中介服务器常规设置扩展器
  
@@ -29,13 +29,13 @@ ms.locfileid: "49806722"
 
 中介服务器池或中介服务器的完全限定域名 (FQDN)。编辑服务器的 FQDN 以更改该值。必须具有与新值一致的域名系统 (DNS) 主机 (A) 记录。
   
-在 **“关联”** 部分中，选择要与中介服务器池或中介服务器关联的边缘服务器或边缘服务器池。 选择中介服务器的媒体组件用于外部用户访问的边缘企业语音。
+在 **“关联”** 部分中，选择要与中介服务器池或中介服务器关联的边缘服务器或边缘服务器池。 选择中介服务器的媒体组件用于外部用户配置的边缘企业语音。
   
 如果当前未定义边缘服务器，而需要将中介服务器与边缘服务器关联，请单击 **“新建”**，然后通过“定义新的边缘池”向导定义新的边缘服务器或边缘服务器池。
   
 ## <a name="next-hop-settings"></a>下一跃点设置
 
-通过从下拉列表中选择定义的 Enterprise Edition 前端池或 Standard Edition 前端服务器，可指定中介服务器池或中介服务器的下一个跃点。 控制器或控制器池不是中介服务器池或中介服务器下一个跃点的有效选择，不会显示在列表中。 单击 **"** 确定"接受并保存更改。 单击“取消”将放弃所做的更改并退出属性页面。
+通过从下拉列表中选择定义的 Enterprise Edition 前端池或 Standard Edition 前端服务器，可指定中介服务器池或中介服务器的下一个跃点。 控制器或控制器池不是中介服务器池或中介服务器下一个跃点的有效选择，不会显示在列表中。 单击 **"确定** "接受并保存更改。 单击“取消”将放弃所做的更改并退出属性页面。
   
 ## <a name="pstn-gateway-settings"></a>PSTN 网关设置
 

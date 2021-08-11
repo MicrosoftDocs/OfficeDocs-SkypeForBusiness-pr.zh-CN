@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
-description: 摘要：了解作为项目服务的一部分的 Get Item 操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
-ms.openlocfilehash: 896540c4572fb3991356ce055f01690ed702c6f2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解作为项目服务的一部分的"获取项目"操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
+ms.openlocfilehash: fa82d158b41826a950a852633e6c039e9262543d4aabece5c04397eba40be8ae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832562"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278440"
 ---
 # <a name="get-item"></a>获取项目
  
-**摘要：** 了解作为项目服务的一部分的 Get Item 操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+**摘要：** 了解作为项目服务的一部分的"获取项目"操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
   
-Get Item 操作是呼叫质量仪表板的存储库 API 中的项目服务的一部分。
+Get Item 操作是呼叫质量仪表板存储库 API 中的项目服务的一部分。
   
 ## <a name="get-item"></a>获取项目
 
@@ -42,11 +42,11 @@ Get Item 返回存储库中的特定项。
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 200 (确定) 。 如果找不到指定的项目 ID，则返回状态代码 404 (未找到) 。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。 如果未找到指定的项目 ID，它将返回状态代码 404 (未找到) 。
   
  **响应标头** - 无其他标头。
   
- **响应正文** - 下面是 JSON 中的示例响应负载。
+ **响应正文** - 下面是 JSON 中的示例响应有效负载。
   
 ```json
 {
@@ -66,6 +66,6 @@ Get Item 返回存储库中的特定项。
   
  *type*  - 内容的类型。 此字段由应用程序设置。
   
- *subItemIds*  - 子项的 ID（如果有）。 这是 Get Sub-Items 操作以保存呼叫的短电路。 此外，应用程序可以使用 Get Sub-Items获取相同的信息。
+ *subItemIds*  - 子项的 ID（如果有）。 这是 Get Sub-Items 操作以保存呼叫的短电路。 或者，应用程序可以使用 Get Sub-Items相同的信息。
   
 

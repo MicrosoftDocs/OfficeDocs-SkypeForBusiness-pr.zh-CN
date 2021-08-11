@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中部署配对前端池进行灾难恢复
+title: 部署配对的前端池，以在 Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-description: 您可能决定使用配对的前端池来提供灾难恢复保护，但这不是一项要求。
-ms.openlocfilehash: 7d066de60bf3ab98d73d8aeee08044803fad983c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 您可以决定使用配对的前端池来提供灾难恢复保护，但这不是一项要求。
+ms.openlocfilehash: bc061e05931c6a4b58d754623bde580e35c2c51367228a05126783d83d3fd27a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830602"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312050"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在 Skype for Business Server 中部署配对前端池进行灾难恢复
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>部署配对的前端池，以在 Skype for Business Server
  
-您可能决定使用配对的前端池来提供灾难恢复保护，但这不是一项要求。
+您可以决定使用配对的前端池来提供灾难恢复保护，但这不是一项要求。
   
 您可以使用拓扑生成器轻松部署配对前端池的灾难恢复拓扑。 
   
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>部署配对前端池
 
-1. 如果池是新的且尚未定义，则使用拓扑生成器创建池。
+1. 如果池是新的且尚未定义，请使用拓扑生成器创建池。
     
 2. 在拓扑生成器中，右键单击两个池之一，然后单击"编辑 **属性"。**
     
@@ -53,9 +53,9 @@ ms.locfileid: "49830602"
 
     这将配置确保备份配对正常运行所需的其他服务。
     
-9. 一旦引导程序完成在两个池中每个前端服务器上安装备份配对所需的组件后，请确保重新应用之前在两个池中这些前端服务器上应用的任何现有累积更新，然后继续执行下一步。
+9. 一旦引导程序在两个池中的前端服务器上完成安装备份配对所需的组件后，请确保重新应用之前在两个池中的这些前端服务器上应用的任何现有累积更新，然后继续执行下一步。
 
-10. 在 Skype for Business Server 命令行管理程序 命令提示符下，运行以下命令： 
+10. 从命令行Skype for Business Server命令行管理程序命令提示符中，运行以下命令： 
     
    ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
@@ -71,7 +71,7 @@ ms.locfileid: "49830602"
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     ```
 
-    同步数据可能需要一些时间。 您可以使用以下 cmdlet 检查同步状态。 确保两个方向的状态都稳定。
+    同步数据可能需要一些时间。 您可以使用以下 cmdlet 检查同步状态。 确保两个方向的状态均稳定。
     
     ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -82,8 +82,8 @@ ms.locfileid: "49830602"
     ```
 
 > [!NOTE]
-> " **语音的** 自动故障转移和故障回复"选项以及拓扑生成器中的关联时间间隔仅适用于 Lync Server 中引入的语音恢复功能。 选择此选项并不意味着本文档中讨论的池故障转移将自动执行。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
+> " **语音的自动** 故障转移和故障回复"选项以及拓扑生成器中的关联时间间隔仅适用于 Lync Server 中引入的语音恢复能力功能。 选择此选项并不意味着本文档中讨论的池故障转移将自动执行。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
   
 ## <a name="see-also"></a>另请参阅
 
-[Skype for Business Server 中的前端池灾难恢复](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[前端池的灾难恢复Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

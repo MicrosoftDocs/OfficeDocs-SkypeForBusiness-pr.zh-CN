@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 425083bacb5664915f66485cae6f5a86f780aa7a
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: e9cf6d911f77f47ad2631a6560afd5be8df171e32ee3e0d3907eb59f3ba01146
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300828"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从Skype for Business到Teams
 
@@ -197,7 +197,7 @@ ms.locfileid: "52282309"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>决策点</td><td><ul> 哪种升级方案适用于组织？<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul> 根据消息传递、会议和呼叫业务需求确定组织的升级过程日程表。<br><br> 确定完成升级旅程所需的额外工作。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul> 根据消息传递、会议和呼叫业务需求确定组织的升级过程日程表。<br><br> 确定完成升级旅程所需的额外工作。<br><br></ul></td></tr>
 </table>
 
 为组织选择最佳升级旅程后，[请执行升级到 Teams。](./upgrade-to-teams.md)

@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中测试电话拨入式会议
+title: 测试电话拨入式会议Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 摘要：了解如何在 Skype for Business Server 中测试电话拨入式会议。
-ms.openlocfilehash: be1cf5bba5a5bec2076f78880343582be19eda70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何在 Skype for Business Server 中测试电话拨入式Skype for Business Server。
+ms.openlocfilehash: 6ed82ac33fc9fc63bab127834c039d045e585c9efd4ea2c15b5dba2fdaf8edbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096728"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283344"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business Server 中测试电话拨入式会议
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>测试电话拨入式会议Skype for Business Server
  
-**摘要：** 了解如何在 Skype for Business Server 中测试电话拨入式会议。
+**摘要：** 了解如何在 Skype for Business Server 中测试电话拨入式Skype for Business Server。
   
-作为电话拨入式会议配置的最终验证，可以搜索电话拨入式会议区域未由任何访问号码使用的拨号计划，以及尚未指定电话拨入式会议区域的访问号码。 还应验证"电话拨入式会议设置"网页和拨入访问号码是否正常工作。
+作为电话拨入式会议配置的最终验证，可以搜索电话拨入式会议区域未由任何访问号码使用的拨号计划，以及尚未指定电话拨入式会议区域的访问号码。 还应验证电话拨入式会议设置网页和拨入访问号码是否正常工作。
   
 ## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>查找具有访问号码未使用的电话拨入式会议区域拨号计划
 
 1. 以 RTCUniversalServerAdmins 组成员或者 Cs-ServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
 3. 在命令提示符下，运行以下内容：
     
@@ -45,7 +45,7 @@ ms.locfileid: "51096728"
 
 1. 以 RTCUniversalServerAdmins 组成员或者 Cs-ServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
 3. 在命令提示符下，运行以下内容：
     
@@ -69,7 +69,7 @@ ms.locfileid: "51096728"
 
 1. 以 RTCUniversalServerAdmins 组成员或者 Cs-ServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
 3. 在命令提示符下，运行以下内容：
     
