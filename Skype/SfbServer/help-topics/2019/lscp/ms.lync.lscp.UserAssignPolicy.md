@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 6c925ecfa749402f98d21d5562dae5e5bf663af8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 25cc2b74e19ecc7f3a2d7cc300e5acd1dfd32b4ff673a23b058a3e1e0569ed4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120111"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287521"
 ---
 # <a name="users-assign-policies"></a>用户：分配策略
 
@@ -30,7 +30,7 @@ ms.locfileid: "51120111"
 
 - [指定用户登录支持的客户端版本](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [在 Skype for Business Server 中分配每用户 PIN 策略](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [在策略中分配每用户 PIN Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [为用户配置联盟、远程用户访问和公共 IM 连接](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

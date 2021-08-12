@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 的容量规划用户模型使用情况
+title: 容量规划用户模型Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,20 +12,20 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
-description: 本文根据 Skype for Business Server 中的用户模型中所述的用法，提供有关站点需要多少台服务器的指南。
-ms.openlocfilehash: a0fb1c193787f62e210f6d5bb7911ccfa40e5cf3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 本文根据网站中的用户模型中所述的用法，提供有关站点中需要多少台服务器的指南，该站点中的用户数Skype for Business Server。
+ms.openlocfilehash: b7222390f379bca79dfee7ab2e9f2c081118b22d635a1ef2edb2f1fc9ac0b70b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338110"
 ---
-# <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Skype for Business Server 的容量规划用户模型使用情况
+# <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>容量规划用户模型Skype for Business Server
 
-本文根据 [User models in Skype for Business Server](user-models.md)中所述的用法，提供有关站点中需要多少台服务器的指南。
+本文根据 User [models in Skype for Business Server](user-models.md)中所述的用法，提供有关网站中需要多少台服务器的指南。
 
 > [!NOTE]
-> 本文中所有建议都假定你已在你的服务器上安装了 Skype for Business 累积更新（2015 年 11 月或更高版本）。
+> 本文中所有建议均假定你已Skype for Business 2015 年 11 月版累积更新或更高版本。
 
 ## <a name="tested-hardware-platform"></a>测试的硬件平台
 
@@ -35,7 +35,7 @@ ms.locfileid: "51118521"
 
 |**硬件组件**|**建议**|
 |:-----|:-----|
-|CPU  <br/> |64 位双处理器、十六核、2.26 GHz (GHz) 或更高。  <br/> Skype for Business Server 服务器角色不支持 Intel Itanium 处理器。  <br/> |
+|CPU  <br/> |64 位双处理器、十六核、2.26 GHz (GHz) 或更高。  <br/> Intel Itanium 处理器不支持用于Skype for Business Server角色。  <br/> |
 |内存  <br/> |32 GB (GB) 。  <br/> |
 |磁盘  <br/> |具有至少 72 GB 可用磁盘空间的 8 个或多个 10，000 RPM 硬盘驱动器。 其中两个磁盘驱动器应使用 RAID 1，另外六个磁盘驱动器应使用 RAID 10。  <br/> - 或者 - <br/>固态硬盘 (SSD) 提供的性能类似于 8 个 10，000 RPM 机械磁盘驱动器。 <br/> |
 |网络  <br/> |1 个双端口网络适配器，建议使用 1 Gbps (2 Gbps 或更高，这需要与单个 MAC 地址和单个 IP 地址) 。  <br/> |
@@ -47,19 +47,19 @@ ms.locfileid: "51118521"
 |**服务器角色**|**受支持的最大用户数**|
 |:-----|:-----|
 |具有 12 台前端服务器和一台后端服务器或一对镜像后端服务器的前端池。  <br/> |80，000 个同时登录的唯一用户，以及 50% 多点登录 (MPOP) （代表非移动实例）以及 40% 的用户（共 152，000 个终结点）启用了移动功能。  <br/> |
-|A/V 会议  <br/> |前端池提供的 A/V 会议服务支持池的会议（假定最大会议大小为 250 个用户，且一次仅运行一个这样的大型会议）。  <br/> **注意：** 此外，通过部署具有两台前端服务器的单独前端池来承载大型会议，您可以支持 250 到 1000 个用户的大型会议。 有关详细信息，请参阅在 Skype for Business Server 中规划 [大型会议](../../plan-your-deployment/conferencing/large-meetings.md)。  <br/> |
+|A/V 会议  <br/> |前端池提供的 A/V 会议服务支持池的会议（假定最大会议大小为 250 个用户，且一次仅运行一个这样的大型会议）。  <br/> **注意：** 此外，通过部署具有两台前端服务器的单独前端池来承载大型会议，您可以支持 250 到 1000 个用户的大型会议。 有关详细信息，请参阅在 Skype for Business Server[中规划大型Skype for Business Server。](../../plan-your-deployment/conferencing/large-meetings.md)  <br/> |
 |一台边缘服务器  <br/> |12，000 个并发远程用户。  <br/> |
 |一台控制器  <br/> |12，000 个并发远程用户。  <br/> |
-|监控和存档  <br/> |监控和存档前端服务在每个前端服务器上运行，而不是在单独的服务器角色中运行。  <br/> 监控和存档仍然需要各自的数据库存储。 如果还运行 Exchange 2013 或更高版本，可以将存档数据保留于 Exchange 中，而不是专用存档SQL数据库中。  <br/> |
+|监控和存档  <br/> |监控和存档前端服务在每个前端服务器上运行，而不是在单独的服务器角色中运行。  <br/> 监控和存档仍然需要各自的数据库存储。 如果还运行 Exchange 2013 或更高版本，可以将存档数据保留Exchange，而不是专用存档SQL数据库中。  <br/> |
 |一台中介服务器  <br/> |与前端服务器并排的中介服务器在池中的前端服务器上运行，并且应为池中的用户提供足够容量。 有关独立的中介服务器，请参阅本主题稍后介绍的"中介服务器"部分。  <br/> |
-|一台 Standard Edition Server  <br/> |强烈建议在使用 Standard Edition 服务器托管用户时，始终使用两台服务器，使用规划高可用性和灾难恢复中的建议 [进行配对](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery)。 对中的每台服务器可承载多达 2，500 个用户，如果一台服务器出现故障，则其余服务器可以在故障转移方案中支持 5，000 个用户。  <br/>  如果您的部署包含大量音频或视频流量，则每台服务器的用户数超过 2，500 名时，服务器性能可能会下降。 在这种情况下，应考虑添加更多 Standard Edition 服务器或移动到 Skype for Business Server Enterprise Edition。 <br/> |
+|一台 Standard Edition Server  <br/> |强烈建议在使用 Standard Edition 服务器来托管用户时，始终使用两台服务器，使用规划高可用性和灾难恢复中的建议[进行配对](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery)。 对中的每台服务器可承载多达 2，500 个用户，如果一台服务器出现故障，则其余服务器可以在故障转移方案中支持 5，000 个用户。  <br/>  如果您的部署包含大量音频或视频流量，则每台服务器的用户数超过 2，500 名时，服务器性能可能会下降。 在这种情况下，应考虑向服务器添加更多Standard Edition或移动到Skype for Business Server Enterprise Edition。 <br/> |
 
 ## <a name="front-end-server"></a>Front End Server － 前端服务器
 
 > [!NOTE]
 > 此服务器角色不支持拉伸池。
 
-在前端池中，假设池中所有服务器上都启用了超线程，并且服务器硬件符合 [Server requirements for Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md) 或 System requirements for Skype for Business Server  [2019](../../../SfBServer2019/plan/system-requirements.md)中的建议，则对于池中每 6，660 个用户应拥有一台前端服务器。 一个前端池中的最大用户数为 80，000，同样假定池中的所有服务器上都启用了超线程。 如果站点上的用户数超过 80,000，则可部署多个前端池。
+在前端池中，应为池中每 6，660 个用户设置一台前端服务器，前提是池中的所有服务器上都启用了超线程，并且服务器硬件符合[Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md)的服务器要求或[Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md)的系统要求中的建议。 一个前端池中的最大用户数为 80，000，同样假定池中的所有服务器上都启用了超线程。 如果站点上的用户数超过 80,000，则可部署多个前端池。
 
 在考虑到前端池中的用户数时，请包含分支机构中与此前端池关联的 Survivable Branch 设备和 Survivable Branch Servers 上的任何用户。
 
@@ -69,7 +69,7 @@ ms.locfileid: "51118521"
 
 前端池的最大用户数是 80,000。 池中前端服务器的最大数量为 12 台。
 
-对于具有 80，000 个用户的前端池，在遵循 [Skype for Business Server](user-models.md)中的用户模型的典型部署中，12 台前端服务器将适用于性能。 旨在支持灾难恢复故障转移的部署假定在两个配对前端池中每个池中最多可承载 40，000 个用户，其中每个池具有足够的前端服务器来包含两个池中的用户（如果一个池需要故障转移到另一个池）。
+对于具有 80，000 个用户的前端池，在采用 Skype for Business Server 中的用户模型的典型部署中，12 台前端服务器[将适用于Skype for Business Server。](user-models.md) 旨在支持灾难恢复故障转移的部署假定在两个配对前端池中每个池中最多可承载 40，000 个用户，其中每个池具有足够的前端服务器来包含两个池中的用户（如果一个池需要故障转移到另一个池）。
 
 由于以下原因，特定前端池支持具有良好性能的用户数量可能与这些数字不同：
 
@@ -77,26 +77,26 @@ ms.locfileid: "51118521"
 
 - 组织的使用情况与用户模型大为不同，例如，如果你的会议流量更多。
 
-下表显示了在给定用户模型的情况下 IM 和状态的平均带宽，如 [User models in Skype for Business Server 中的定义](user-models.md)。
+下表显示了在给定用户模型的情况下 IM 和状态的平均带宽，如 Skype for Business Server 中的[用户模型所定义](user-models.md)。
 
 |**每个用户的平均带宽**|**用户数为 6，660 的前端服务器的带宽要求**|
 |:-----|:-----|
 |1.3 Kpbs  <br/> |13 Mbps  <br/> |
 
 > [!NOTE]
-> 若要提高前端服务器上位于同一位置的 A/V 会议和中介服务器的媒体性能，应在前端服务器上网络适配器上启用接收端缩放 (RSS) 。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅文档文档中的 [接收 (RSS) RSS Windows Server 2012内容](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 若要详细了解如何启用 RSS，需要参阅网络适配器文档。
+> 若要提高前端服务器上位于同一位置的 A/V 会议和中介服务器的媒体性能，应在前端服务器上网络适配器上启用接收端缩放 (RSS) 。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅文档文档中 ([RSS) 侧Windows Server 2012缩放](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 若要详细了解如何启用 RSS，需要参阅网络适配器文档。
 
 ## <a name="conferencing-maximums"></a>会议最大值
 
-根据用户模型，池中 5% 的用户可能随时参加会议，80，000 个用户的池可以同时有约 4，000 个用户参加会议。 这些会议可能混合多种媒体（如一些仅含 IM、一些含有 IM 和音频、一些含有音频/视频）并拥有大量参与者。 对于允许的实际会议数没有硬性限制，实际使用将决定实际性能。 例如，如果贵组织具有的混合模式会议多于用户模型中假定的混合模式会议，您可能需要部署比本文中的建议更多的前端服务器或 A/V 会议服务器。 有关用户模型中的假设的详细信息，请参阅[User models in Skype for Business Server。](user-models.md)
+根据用户模型，池中 5% 的用户可能随时参加会议，80，000 个用户的池可以同时有约 4，000 个用户参加会议。 这些会议可能混合多种媒体（如一些仅含 IM、一些含有 IM 和音频、一些含有音频/视频）并拥有大量参与者。 对于允许的实际会议数没有硬性限制，实际使用将决定实际性能。 例如，如果贵组织具有的混合模式会议多于用户模型中假定的混合模式会议，您可能需要部署比本文中的建议更多的前端服务器或 A/V 会议服务器。 有关用户模型中的假设的详细信息，[请参阅用户模型中](user-models.md)Skype for Business Server。
 
-由同时承载用户的常规 Skype for Business Server 前端池承载的最大支持会议大小为 250 个参与者。 在召开具有 250 个用户的会议时，池仍支持其他会议，因此共有 5% 的池用户参加并发会议。 例如，在 12 台前端服务器和 80，000 名用户的池中，当召开具有 250 个用户的会议时，Skype for Business Server 支持 3，750 个其他用户参加规模较小的会议。
+由同时承载用户的常规Skype for Business Server托管的最大支持会议大小为 250 个参与者。 在召开具有 250 个用户的会议时，池仍支持其他会议，因此共有 5% 的池用户参加并发会议。 例如，在 12 台前端服务器和 80，000 个用户池中，当召开具有 250 个用户的会议时，Skype for Business Server 支持 3，750 个其他用户参加小型会议。
 
-无论托管在前端池或 Standard Edition Server 上的用户数如何，Skype for Business Server 都至少支持 125 个其他用户在承载 250 个用户的会议的同一池或服务器上参加小型会议。
+无论前端池或 Standard Edition 服务器上托管的用户数量如何，Skype for Business Server 都至少支持 125 个其他用户在承载 250 个用户的会议的同一池或服务器上参加小型会议。
 
-若要启用用户数在 250 到 1000 之间的会议，可以设置单独的前端池来承载这些会议。 此前端池不会托管任何用户。 有关详细信息，请参阅在 [Skype for Business Server 中规划大型会议](../../plan-your-deployment/conferencing/large-meetings.md)。
+若要启用用户数在 250 到 1000 之间的会议，可以设置单独的前端池来承载这些会议。 此前端池不会托管任何用户。 有关详细信息，请参阅在 Skype for Business Server[中规划大型Skype for Business Server。](../../plan-your-deployment/conferencing/large-meetings.md)
 
-如果您的组织具有的混合模式会议的数量多于用户模型中假定的混合模式会议的数量，您可能需要部署的前端服务器数超过本文档中的建议 (最多部署 12 台前端服务器) 。 有关用户模型中的假设的详细信息，请参阅[User models in Skype for Business Server。](user-models.md)
+如果您的组织具有的混合模式会议的数量多于用户模型中假定的混合模式会议的数量，您可能需要部署的前端服务器数超过本文档中的建议 (最多部署 12 台前端服务器) 。 有关用户模型中的假设的详细信息，[请参阅用户模型中](user-models.md)Skype for Business Server。
 
 ## <a name="edge-server"></a>边缘服务器
 
@@ -128,9 +128,9 @@ ms.locfileid: "51118521"
 
 如果部署独立的中介服务器池，则要部署的中介服务器数量取决于许多因素，包括用于中介服务器的硬件、您拥有的 VoIP 用户数、每个中介服务器池所控制网关对等方的数量、通过这些网关的忙碌时间流量，以及具有绕过中介服务器的媒体的呼叫百分比。
 
-下表提供了中介服务器可以处理的并发呼叫数的指南，前提是中介服务器的硬件满足服务器硬件平台中的要求，并且启用了超线程。 [](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) 有关中介服务器可伸缩性的详细信息，请参阅[Estimating voice usage and traffic for Skype for Business Server](estimating-voice-traffic.md)和 Deployment guidelines for Mediation Server in Skype for Business [Server。](mediation-server-deployment-guidelines.md)
+下表提供了中介服务器可以处理的并发呼叫数的指南，前提是中介服务器的硬件满足服务器硬件平台中的要求，并且启用了超线程。 [](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) 有关中介服务器可伸缩性的详细信息，请参阅[Estimating voice usage and traffic for Skype for Business Server](estimating-voice-traffic.md) and Deployment guidelines for Mediation Server in [Skype for Business Server](mediation-server-deployment-guidelines.md)。
 
-以下所有表都假定用法如 User [models in Skype for Business Server 中概述](user-models.md)。
+以下所有表都假定用法如 user [models in Skype for Business Server 中Skype for Business Server。](user-models.md)
 
 **独立中介服务器容量：70% 为内部用户，30% 为具有非旁路呼叫容量的外部用户 (中介服务器执行媒体转码)**
 
@@ -158,11 +158,11 @@ ms.locfileid: "51118521"
 
 尽管大部分数据库信息主要存储在前端服务器上，但应确保后端服务器满足本节前面和服务器硬件平台中列出的 [硬件建议](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)。
 
-若要提供后端服务器的高可用性，我们建议部署 AlwaysOn 可用性组或服务器镜像。 有关详细信息，请参阅 [Skype for Business Server 中的后端服务器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)。
+若要提供后端服务器的高可用性，我们建议部署 AlwaysOn 可用性组或服务器镜像。 有关详细信息，请参阅 Skype for Business Server 中的后端[服务器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)。
 
 ## <a name="monitoring-and-archiving"></a>监控和存档
 
-如果部署监控或存档，这些服务的前端功能在前端服务器上运行，监控和存档各自使用自己的数据库存储，独立于后端存储。 或者，如果已部署 Exchange 2013，您可以在 Exchange 中存储即时消息存档数据，而不是存储在专用的 SQL 存储中。
+如果部署监控或存档，这些服务的前端功能在前端服务器上运行，监控和存档各自使用自己的数据库存储，独立于后端存储。 或者，如果部署了 Exchange 2013，可以将即时消息存档数据存储在 Exchange 而非专用 SQL 存储中。
 
 下表指示每个用户每天监控和存档数据所需的数据库存储量。
 
@@ -183,7 +183,7 @@ Microsoft 在其性能测试期间将下表中的硬件数据库服务器用于�
 
 **建议的磁盘配置**
 
-|**驱动器** <br/> |**RAID 配置** <br/> |**磁盘数** <br/> |
+|**Drive** <br/> |**RAID 配置** <br/> |**磁盘数** <br/> |
 |:-----|:-----|:-----|
 |单个驱动器上的 CDR、QoE 和存档数据库数据文件  <br/> |1+0  <br/> |16   <br/> |
 |CDR 数据库日志文件  <br/> |1  <br/> |2  <br/> |

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 通过配置混合模式Skype for Business Server和Teams实现Skype for Business连接。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 0941922fe5f5f4505932614422ec79ea310f7cf0
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: fee78cf4532ff1cb0be7a24fc29e407001647f452cdef5fbb5e60859989f8112
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287881"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>规划 Skype for Business Server 和 Teams
 
@@ -136,7 +136,7 @@ Microsoft 支持以下类型的多林混合方案：
   - 托管用户的Skype for Business必须信任包含用户的林。
     有关资源林混合方案的详细信息，请参阅部署混合部署的资源林[Skype for Business。](configure-a-multi-forest-environment-for-hybrid.md)
 
-- **多个林中有多个 Skype for Business Server 部署。** 这种配置可能是合并和收购方案以及更复杂的企业的结果。 对于具有多个 Skype for Business 部署的任何组织，只要满足以下关键要求，就可以在单个 Microsoft 365 组织中将所有用户从本地合并到云：
+- **在多个林中Skype for Business Server部署多个林。** 这种配置可能是合并和收购方案以及更复杂的企业的结果。 对于具有多个 Skype for Business 部署的任何组织，只要满足以下关键要求，就可以在单个 Microsoft 365 组织中将所有用户从本地合并到云：
   - 涉及的组织最多必须Microsoft 365一个。 不支持在具有多个组织的方案中进行合并。
   - 在任何给定时间，只有一个本地Skype for Business林可以处于混合模式 (共享 SIP 地址空间) 。 所有其他本地Skype for Business林必须完全保持本地 (并可能相互联盟) 。 请注意，如果需要，这些其他本地组织可以同步到 AAD，并新增功能以禁用自 2018 年 12 月起可用的联机 [SIP](/powershell/module/skype/disable-csonlinesipdomain) 域。
 

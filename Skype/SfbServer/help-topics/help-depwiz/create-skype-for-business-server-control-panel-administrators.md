@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 description: 若要授予对 Skype for Business Server 2015 的访问权限，请执行下列操作：
-ms.openlocfilehash: 40c119f99182dc2416a1414db2a2fc143e818352
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 84be74295a4c6f345fcfb0b852f10d5897974d22219476e583085a0794a6c379
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301638"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>创建 Skype for Business Server 控制面板管理员
  
@@ -37,7 +37,7 @@ ms.locfileid: "49811072"
 5. 在“成员”选项卡上，确认所选的用户或组存在。单击“确定”。
     
 > [!TIP]
-> Skype for Business Server 控制面板是基于角色的访问控制工具。 CsAdministrator 组的成员身份为使用 Skype for Business Server 控制面板的用户提供了所有可用配置功能的完全控制权限。 为特定功能提供了其他专门的角色。 用户不需要启用 Skype for Business Server，就成为管理组的成员。 
+> 该Skype for Business Server控制面板是基于角色的访问控制工具。 CsAdministrator 组的成员身份为使用 Skype for Business Server 控制面板的用户提供了对所有可用配置功能的完全控制权限。 为特定功能提供了其他专门的角色。 用户不需要启用Skype for Business Server，就成为管理组的成员。 
   
 其他角色包括：
   
@@ -49,14 +49,14 @@ ms.locfileid: "49811072"
     
 - **CsResponseGroupAdministrator：** 成员可以管理和配置响应组服务
     
-- **CsServerAdministrator：** 成员可以管理、监视所有运行 Skype for Business Server 的服务器并排除故障。
+- **CsServerAdministrator：** 成员可以管理、监视所有运行 Skype for Business Server 的服务器并排除Skype for Business Server。
     
 - **CsUserAdministrator：** 成员可以管理、启用和禁用用户，以及将现有策略分配给用户。
     
-- **CsViewOnlyAdministrator：** 成员可以查看服务器信息的部署和配置。 此成员身份使成员能够监视运行 Skype for Business Server 2015 的服务器运行状况。
+- **CsViewOnlyAdministrator：** 成员可以查看服务器信息的部署和配置。 此成员身份使成员能够监视运行 2015 年 2015 Skype for Business Server的运行状况。
     
-- **CsVoiceAdministrator：** 成员可以在 Skype for Business Server 中创建、配置和管理与语音相关的设置。
+- **CsVoiceAdministrator：** 成员可以在用户环境中创建、配置和管理与语音Skype for Business Server。
     
-若要帮助保留安全性和基于角色的访问控制完整性，请向组添加用户，这些组定义了用户在 Skype for Business Server 部署管理中执行的角色。
+为了帮助保留安全性和基于角色的访问控制完整性，将用户添加到组，这些组定义了用户在管理 Skype for Business Server 的角色。
   
 

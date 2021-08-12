@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解如何为用户云语音邮件帐户。 '
-ms.openlocfilehash: c6fbd02e30c5be0280b05088a1cec281c2534039
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: eb1d3d054cf1109ddb9ba048c69dc3dda665aa1e8e0d3e2b1d72926835389a39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316698"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -60,7 +60,7 @@ ms.locfileid: "52901900"
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>在组织中启用受保护的语音邮件
 
-当某人为您的组织中的用户留下语音邮件时，语音邮件作为电子邮件附件传送到用户的邮箱。 使用邮件流规则应用邮件加密，可以防止这些语音邮件转发给其他收件人。 启用受保护的语音邮件后，用户可以通过呼叫进入其语音邮件邮箱或在 Outlook、Outlook 网页版或 Outlook for Android 或 iOS 中打开邮件来收听受保护的语音邮件。 受保护的语音邮件无法通过语音信箱或Skype for Business Microsoft Teams。
+当某人为您的组织中的用户留下语音邮件时，语音邮件作为电子邮件附件传送到用户的邮箱。 使用邮件流规则应用邮件加密，可以防止这些语音邮件转发给其他收件人。 启用受保护的语音邮件后，用户可以通过呼叫进入其语音邮件邮箱或在 Outlook、Outlook 网页版 或 Outlook for Android 或 iOS 中打开该邮件来收听受保护的语音邮件。 受保护的语音邮件无法通过语音信箱或Skype for Business Microsoft Teams。
 
 有关邮件加密的信息，请参阅 [电子邮件加密](/microsoft-365/compliance/email-encryption?view=o365-worldwide)。
 

@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: 持久聊天服务器部署可以承载许多并发持久聊天室。 聊天室可以组织到服务器上的一组类别中。 每个聊天室属于一个类别，并可从该类别继承部分设置。 这种组织方式可创建一种非常有用的结构以基于对话的业务目的识别对话，并有助于方便委托管理和简化控制。
-ms.openlocfilehash: 720e171bfe05105b650fabfdb17172f34d8b69b5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f02bd8eef8accc36b2e05525db180c8483aded94be08c06d090e42377b023c4c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120183"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301758"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>持久聊天配置主页
 
 > [!NOTE] 
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 Teams 中提供了相同的功能。 有关详细信息，请参阅 [Skype for Business 到 Microsoft Teams 的升级](/MicrosoftTeams/upgrade-start-here)。 如果需要使用持久聊天，你的选择是：将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[Skype for Business Microsoft Teams升级](/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。

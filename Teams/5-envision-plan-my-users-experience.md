@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d20d914ab6ceca1d264a23662c9c8a067798a82
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2a0557603c0086fdcc561dec3257b9f9bd1bef32b7db6d680a018202f0aa59aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338010"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
@@ -91,7 +91,7 @@ Teams终结点可在许多设备上运行，包括电脑、Mac、平板电脑和
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>组织中Teams哪些客户端？</li><li>最初如何向用户Teams客户端？</li><li>Who负责评估终结点和设备，以验证它们是否满足Teams体验的要求？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录部署客户端时要遵循Teams的过程。</li><li>评估终结点和设备，并执行所需的修正。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录部署客户端时要遵循Teams的过程。</li><li>评估终结点和设备，并执行所需的修正。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -114,7 +114,7 @@ Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>决定组织针对用户和会议室体验的总体设备策略。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>为组织完成一个"从设备到设备"映射练习。</li><li>记录为用户和会议室获取设备的过程。</li><li>记录为用户和会议室部署和配置设备的过程。</li><li>购买初始设备以开始部署。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>为组织完成一个"从设备到设备"映射练习。</li><li>记录为用户和会议室获取设备的过程。</li><li>记录为用户和会议室部署和配置设备的过程。</li><li>购买初始设备以开始部署。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

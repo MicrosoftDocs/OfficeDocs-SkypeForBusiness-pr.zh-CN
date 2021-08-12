@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 摘要：配置启用了媒体旁路功能的中继Skype for Business Server。 这将可以最大程度地减少中介服务器的数量，假设 SIP 中继提供商支持中介服务器的数量。
-ms.openlocfilehash: d5178a4adedb380193dc0ce55c0a8a4a414e59d3
+ms.openlocfilehash: f009cc15279cde28b531747adf77a7adf89fa407efaa9a30ff731e37f2f23f0e
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772743"
+ms.locfileid: "54287621"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype for Business Server：配置具有媒体旁路的中继
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 摘要：了解如何使用命令行管理程序测试 SIP Skype for Business Server设置。
-ms.openlocfilehash: 19e0ad72b33d6ebbd5411fb269c3cdcbf2849a18
+ms.openlocfilehash: 5298ef579a8fd08d9859790a636a02d8f82ea783a06f5468e234d7000f26d881
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772753"
+ms.locfileid: "54287541"
 ---
 # <a name="skype-for-business-server-test-sip-trunk-configuration-settings"></a>Skype for Business Server：测试 SIP 中继配置设置
  

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
 description: 查看将电话号码移植到 Skype for Business 之后需要执行哪些Skype for Business。
-ms.openlocfilehash: d49fea9315e44f7d126021ec8733143916f5e366
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b4a3a3f680b1618798e3bb28f529dbf0a706b3225661fadb028f3690aaf5847d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237938"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326638"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在通过电话号码进行移植后，需要执行哪些工作？
 

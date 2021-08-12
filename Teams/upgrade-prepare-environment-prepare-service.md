@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ad5887c50b15efc2dcddd000a8f117c2f350ac5
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: da6ccd1283eda3bd96fd9b4b2856c6318d79c1f36573a62394d1a4d404123ca5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337850"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>准备服务以升级到 Teams
 
@@ -70,7 +70,7 @@ ms.locfileid: "52282182"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>决策点</td><td><ul><li>Who将负责监督登记清单的完成情况？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>下载载入清单。</li><li>根据组织的部署计划逐步完成登记清单项。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>下载载入清单。</li><li>根据组织的部署计划逐步完成登记清单项。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

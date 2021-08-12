@@ -21,16 +21,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 了解如何使用 PSTN Microsoft Teams中心或Windows PowerShell PSTN 呼叫拨号 (创建和管理) 。
-ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849197"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
-为组织规划拨号计划并找出需要为呼叫路由创建的所有规范化规则后，即可创建拨号计划。 使用具有有效 Teams 许可证的管理员帐户，Microsoft Teams管理中心或Windows PowerShell创建和管理拨号计划。  
+为组织规划拨号计划并找出需要为语音路由创建的所有规范化规则后，即可创建拨号计划。 使用具有有效 Teams 许可证的管理员帐户，Microsoft Teams管理中心或Windows PowerShell创建和管理拨号计划。  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
@@ -39,17 +39,17 @@ ms.locfileid: "54282865"
 1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **拨号计划"。**
 2. 单击 **"** 添加"，然后输入拨号计划的名称和说明。
     ![显示用于创建拨号计划的"添加"页面的屏幕截图](media/create-dial-plan.png)
-3. 在 **"拨号计划详细信息**"下，指定外部拨号前缀（如果用户需要拨打一个或多个前导 (例如，9) 才能获取外部线路。 要执行此操作：
+3. 在 **"** 拨号计划详细信息"下，指定外部拨号前缀（如果用户需要拨打一个或多个前导 (例如，9) 才能获取外部线路。 要执行此操作：
     1. 在" **外部拨号前缀** "框中，输入外部拨号前缀。 前缀可以是最多四个字符 (#、*和 0-9) 。
     2. 打开 **"优化设备拨号"。** 如果指定外部拨号前缀，则还必须启用此设置才能应用前缀，以便可以在组织外部进行呼叫。
-4. 在 **"规范化规则**"下，为拨号计划配置 [和关联一](what-are-dial-plans.md#normalization-rules) 个或多个规范化规则。 每个拨号计划必须至少有一个与之关联的规范化规则。  为此，请执行以下一项或多项操作：
+4. 在 **"规范化规则**"下，为 [拨号计划配置](what-are-dial-plans.md#normalization-rules) 和关联一个或多个规范化规则。 每个拨号计划必须至少有一个与之关联的规范化规则。  为此，请执行以下一项或多项操作：
     - 若要创建新的规范化规则并将其与拨号计划关联，请单击 **"添加**"，然后定义规则。
     - 若要编辑已与拨号计划关联的规范化规则，请单击规则名称左侧选择规则，然后单击"编辑 **"。** 进行您需要的更改，然后单击"保存 **"。**
     - 若要从拨号计划中删除规范化规则，请单击规则名称左侧选择规则，然后单击"删除 **"。**
 5. 按需要的顺序排列规范化规则。 单击 **"上****移"或**"下移"以更改规则在列表中的位置。
 
     > [!NOTE]
-    > Teams从上到下遍历规范化规则列表，并使用与拨号号码匹配的第一个规则。 如果设置了拨号计划，以便拨号号码可以匹配多个规范化规则，请确保限制性较强的规则在限制性较少的规则上方排序。 如果设置一个将拨号号码规范化而不使用"+"的拨号计划，则呼叫服务将尝试使用租户和区域拨号计划规则再次规范化该号码。 为了避免双规范化，建议所有规范化规则都将导致数字以"+"开始。 如果需要，直接 [路由](direct-routing-translate-numbers.md) 客户可以使用中继转换规则删除"+"。 
+    > Teams从上到下遍历规范化规则列表，并使用与拨号号码匹配的第一个规则。 如果设置了拨号计划，以便拨号号码可以匹配多个规范化规则，请确保限制性较强的规则在限制性较少的规则上方排序。 如果设置一个拨号计划来规范化不带"+"的拨号号码，则呼叫服务将尝试使用租户和区域拨号计划规则再次规范化该号码。 为了避免双规范化，建议所有规范化规则都将导致数字以"+"开始。 如果需要，直接 [路由](direct-routing-translate-numbers.md) 客户可以使用中继转换规则删除"+"。 
 
 6. 单击“**保存**”。
 7. 如果要测试拨号计划，请在"测试拨号计划"下输入电话号码，然后单击"测试 **"。**
@@ -57,7 +57,7 @@ ms.locfileid: "54282865"
 ### <a name="edit-a-dial-plan"></a>编辑拨号计划
 
 1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **拨号计划"。**
-2. 通过单击拨号计划名称左侧选择拨号计划，然后单击"编辑 **"。**
+2. 单击拨号计划名称左侧选择拨号计划，然后单击"编辑 **"。**
 3. 进行您需要的更改，然后单击"保存 **"。**
 
 ### <a name="assign-a-dial-plan-to-users"></a>向用户分配拨号计划
@@ -67,7 +67,7 @@ ms.locfileid: "54282865"
 ## <a name="using-powershell"></a>使用 PowerShell
   
 ### <a name="start-powershell"></a>启动 PowerShell
-- 打开Windows PowerShell命令提示符并运行以下命令：
+- 打开 Windows PowerShell 命令提示符并运行以下命令：
 
 ```powershell
   # When using Teams PowerShell Module

@@ -16,12 +16,12 @@ f1.keywords:
 description: Teams公司的语音案例研究：电话系统
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ee15ef9bb42a28023c86963dd9100797c51edc3
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: b1221ff8fe47e26f04df621f99a0d4cd1a85a3205fcede766b7cc78189251708
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316588"
 ---
 # <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso 案例研究：电话系统国家/直连公司
 

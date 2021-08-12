@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：
-ms.openlocfilehash: c887ffaa16818e377035109632871b7bc7ed25d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6f716093556919dab790e0c2258c22ba1e5159529deace41941b75c8802e817
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347068"
 ---
 # <a name="edge-settings-expander"></a>边缘设置扩展器
 
@@ -37,7 +37,7 @@ ms.locfileid: "51108798"
 
 边缘服务器池的内部池完全限定域名 (FQDN)。编辑池的 FQDN 以更改此设置。
 
-如果要设置与 Skype for Business Server 2015 服务器的联盟，请选中 (端口 **5061**) 为此边缘池启用联盟复选框。
+如果要设置与 Skype for Business Server 2015 服务器的联盟，请选中"在端口 **5061** (启用此边缘池联盟) 复选框。
 
 为“内部配置复制端口(HTTPS)”指定端口号。
 

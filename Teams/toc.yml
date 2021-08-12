@@ -303,6 +303,8 @@ items:
             href: teams-privacy.md
           - name: Teams 中的数据位置
             href: location-of-data-in-teams.md
+          - name: Microsoft Teams 反馈隐私
+            href: teams-privacy-feedback.md
           - name: 阻止特定用户对 Sharepoint Online 的访问
             href: block-access-sharepoint.md
           - name: 策略控制概述
@@ -1479,6 +1481,8 @@ items:
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: 面向教育版管理员的 Teams 资源
             href: resources-teams-edu.md
+          - name: Teams 教育版的设备
+            href: devices-for-education.md
           - name: 面向管理员的 Microsoft 教育版管理常见问题解答
             href: plan-teams-governance-edu.md
           - name: 安装 Moodle 集成
@@ -1585,9 +1589,13 @@ items:
           - name: Teams 显示
             href: devices/teams-displays.md
           - name: Teams 面板
-            href: devices/teams-panels.md
-          - name: 使用 Teams 面板
-            href: devices/use-teams-panels.md
+            items:
+              - name: Teams 面板
+                href: devices/teams-panels.md
+              - name: 使用 Teams 面板
+                href: devices/use-teams-panels.md
+              - name: Teams 面板上的应用支持
+                href: app-support-on-Teams-panels.md
           - name: 将 Teams 手机升级至 Teams 显示
             href: devices/upgrade-phones-to-displays.md
           - name: 使用 Intune 部署 Teams 和 Teams 显示

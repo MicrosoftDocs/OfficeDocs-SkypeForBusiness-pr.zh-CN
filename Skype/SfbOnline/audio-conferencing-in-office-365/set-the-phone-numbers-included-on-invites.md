@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 84bf0240270bfc9633f9d845130a6049d36c8cad
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9ed22a26ddb13d058e81d7fdd046d794623cb3a5176c333429b7227cd279afaa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237728"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326978"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>设置包含在 Skype for Business Online 邀请中的电话号码
 
@@ -116,13 +116,13 @@ ms.locfileid: "52237728"
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - 若要将没有免费电话号码的所有用户的默认免费电话号码设置为 +18005551234，请运行：
+  - 若要为没有免费电话号码的所有用户设置默认免费电话号码，请18005551234：
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - 若要将具有 +18005551234 作为默认免费电话号码的所有用户的默认免费电话号码更改为 +18005551239，请运行：
+  - 若要将具有 +18005551234 的默认免费电话号码的所有用户的默认免费电话号码更改为 +18005551239，请运行：
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
@@ -140,7 +140,7 @@ ms.locfileid: "52237728"
     
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 通过以下主题了解这些优势：
+- Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次为许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
     
   - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

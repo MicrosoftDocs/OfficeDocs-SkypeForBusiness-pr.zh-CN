@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解消息传送中的Microsoft Teams通知。
-ms.openlocfilehash: 19eaec4d724dced16d8ca67c5ce0bfb0d03e1b53
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f5d68de25daebe79604d8069966a855e0c5b2db9971c35e973c0a726df92bbcd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799862"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316668"
 ---
 # <a name="messaging-policies-licensing"></a>消息策略许可
 

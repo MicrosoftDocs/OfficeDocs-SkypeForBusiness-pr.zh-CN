@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6983a828ccb2a59aad4e12c46db0fe873d3bfef3
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: cf53c22895df1ad164ef688ad922c78a9c3ec761a6117ddf24eed633fe8e056a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301957"
 ---
 <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>使用Microsoft 365增强现有Microsoft Teams组
 =======================================================

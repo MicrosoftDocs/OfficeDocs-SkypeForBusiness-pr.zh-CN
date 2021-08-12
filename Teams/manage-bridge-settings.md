@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams
-ms.openlocfilehash: 0cb4f97c73193632fbb9754618f588f142d55821
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: f5856d0754fc4ea72358d1e8a8c0473138b4a861495386cbbfeeb276cfce8bc5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726778"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301947"
 ---
 # <a name="manage-bridge-settings-in-teams"></a>管理 Teams 中的网桥设置
 

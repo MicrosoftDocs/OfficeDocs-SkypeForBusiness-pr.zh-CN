@@ -17,12 +17,12 @@ description: 如何在管理中心Teams PSTN 分钟Microsoft Teams报告，查�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d28e33ae820407ffe8c9561cae8c79863532417
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 6e1d87ac58c6f5916a393e9e85351be12bdd7ae2ba0cd62f467b44b418470f6b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305986"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316618"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft TeamsPSTN 分钟池报告
 
