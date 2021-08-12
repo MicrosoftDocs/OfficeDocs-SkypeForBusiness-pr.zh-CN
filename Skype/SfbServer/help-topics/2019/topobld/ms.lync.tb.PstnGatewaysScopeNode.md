@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 ROBOTS: NOINDEX, NOFOLLOW
-description: “PSTN 网关”节点列出了拓扑中的公用电话交换网 (PSTN) 网关。 可以执行以下操作：
-ms.openlocfilehash: 05d92143f7b4eff5111671310b7dea7482f2b902
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: “PSTN 网关”节点列出了拓扑中的公用电话交换网 (PSTN) 网关。可以执行以下操作：
+ms.openlocfilehash: 55baff18aad1ba4e2dc5b18a37197fa2b5a64f8fb909616dd5956154e23f26d6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822272"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281845"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 网关范围节点
  

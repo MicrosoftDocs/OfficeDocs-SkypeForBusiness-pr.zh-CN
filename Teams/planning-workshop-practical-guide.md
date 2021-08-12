@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 02afbcc062501a14f0d5d9f3ed905b88b4060992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f384baff6aa12b241e69e0214f5aa9561e5c1df68970c949d9448a344b94cb7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282555"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>工具和研讨会：规划、交付和采用 Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "51108248"
 
    您Teams之旅与企业客户的体验非常类似。 随着Teams租户的已普遍可用，我们建议你首先阅读我们的 Microsoft 365[政府 -](plan-for-government-gcc.md) GCC 部署一文和管理员[快速入门指南](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)。 我们的[安全性和符合性](security-compliance-overview.md)概述可帮助你确信Teams环境中的安全性。
 
-- [Teams教育 - 管理员快速入门](./teams-quick-start-edu.yml)
+- [Teams 教育版 - 管理员快速入门](./teams-quick-start-edu.yml)
 
     使用本教程指导你完成Teams组织的大规模推广。
 

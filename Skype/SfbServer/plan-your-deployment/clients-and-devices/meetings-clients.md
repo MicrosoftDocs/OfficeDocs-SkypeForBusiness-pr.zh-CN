@@ -1,5 +1,5 @@
 ---
-title: '规划 Web app 和会议 (会议应用程序的会议) '
+title: 'Plan for Meetings clients (Web App and Meetings App) '
 ms.author: v-cichur
 author: cichur
 ms.reviewer: PhillipGarding
@@ -16,95 +16,95 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-description: 摘要：IT 专业人员应在规划 Skype for Business Server 时查看 Skype for Business Web App 和 Skype 会议应用的支持要求。 本文不面向这些应用的用户。
-ms.openlocfilehash: 4956a11c0ed163cbe50c49233e9aa05a0fbbd872
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：IT 专业人员应在规划会议Skype for Business Web应用Skype查看 Skype for Business Server。 本文不适合这些应用的用户。
+ms.openlocfilehash: 575b1c7a5d335350ade6008cd0713b89b7e14ad07e86f290c98b72fcfdcd7cd4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826012"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281695"
 ---
-# <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划 Web app 和会议 (会议应用程序的会议) 
+# <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Plan for Meetings clients (Web App and Meetings App) 
  
-**摘要：** IT 专业人员应在规划 Skype for Business Server 时查看 Skype for Business Web App 和 Skype 会议应用的支持要求。 本文不面向这些应用的用户。
+**摘要：** IT 专业人员应在规划会议Skype for Business Web应用Skype查看 Skype for Business Server。 本文不适合这些应用的用户。
   
-实现 Skype for Business Server 后，组织的用户可能会将 Skype for Business 客户端安装为部署过程的一部分。 
+实施部署Skype for Business Server，组织的用户可能会将 Skype for Business客户端作为部署过程的一部分进行安装。 
   
-稍后，这些用户可能会创建会议并邀请组织外部的用户，并且这些会议被邀请者可能没有任何版本的 Skype for Business 客户端。 当这些用户单击会议邀请的 URL 时，将检测到缺少客户端，并且将要求没有 Skype for Business 客户端的被邀请者下载并安装一个仅会议轻型客户端，以便他们可以加入会议。
-  
-> [!NOTE]
-> Skype for Business Web App 和 Skype 会议应用仅在尝试在没有 Skype for Business 的情况下登录会议时可用。 这些应用的用户帮助位于 [https://aka.ms/smahelp](https://aka.ms/smahelp) 。 
+稍后，这些用户可以创建会议并邀请组织外部的用户，并且这些会议被邀请者可能没有任何版本的 Skype for Business 客户端。 当这些用户单击会议邀请的 URL 时，将检测到缺少客户端，并且将要求没有 Skype for Business 客户端的被邀请者下载并安装轻型仅会议客户端，以便他们可以加入会议。
   
 > [!NOTE]
-> 你无法预安装 Skype for Business Web App 或 Skype 会议[](https://products.office.com/skype-for-business/download-app?tab=tabs-1)应用，但智能手机和[平板电脑](https://products.office.com/skype-for-business/download-app?tab=tabs-2)用户可以安装他们可用于参加会议的低成本移动客户端。
-  
-默认情况下，主持会议的服务器将指示用户下载并安装 Skype for Business Web App 以加入会议。 Skype for Business Web App 存储在前端服务器上，并发送给与会者。 
-  
-对于 Skype for Business Server，Windows) 上的 Skype 会议应用 (和 Mac 版 Skype for Business () 可以替代以 CU5 开头的 Skype for Business Web App，但提供替换应用需要启用 Skype 会议应用以替换 [Skype for Business Web App (可选) ](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)中所述的其他配置。 如果启用了 Skype 会议应用和 Skype for Business for Mac，用户将从 Microsoft 365 或 Office 365 内容交付网络 (CDN) 而不是从 Skype for Business 服务器下载最新版本的应用。 对于 Skype for Business Server 2019，使用 Skype 会议应用和 Skype for Business for Mac 是唯一的选项。
-  
-Skype 会议应用提供简化的浏览器体验，用于下载和安装应用以及加入会议，包括一键加入Internet Explorer。 Skype 会议应用还改进了 Skype for Business Web App 的可靠性以及会议体验。 
+> "Skype for Business Web应用Skype会议"应用仅在尝试在不登录会议的情况下登录会议Skype for Business。 有关这些应用的用户帮助位于 [https://aka.ms/smahelp](https://aka.ms/smahelp) 。 
   
 > [!NOTE]
-> 自 Skype for Business Server 2015 CU5 或更高版本起，使用 Skype for Business Online 召开的会议将不再向无客户端用户发送 Skype for Business Web App，而是在 Windows) 或 Mac) 上的 Skype for Business (上发送 Skype 会议应用 (。 从 Skype for Business Server 2015 CU5 或更高版本开始，如果启用 Skype 会议应用来替换 [Skype for Business Web App (可选) ， ](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)则向无客户端用户发送 Skype 会议应用或 Skype for Business for Mac，而不是 Skype for Business Web App。 
+> 不能预安装 Skype for Business Web应用 或 Skype 会议应用，但智能手机和平板电脑用户可能会安装他们可用于[](https://products.office.com/skype-for-business/download-app?tab=tabs-1)参加会议的低成本[](https://products.office.com/skype-for-business/download-app?tab=tabs-2)移动客户端。
+  
+默认情况下，主持会议的服务器将指示用户下载并安装Skype for Business Web应用加入会议。 会议Skype for Business Web应用前端服务器上存储，并发送给与会者。 
+  
+For Skype for Business Server， Skype Meetings App (on Windows) and Mac版Skype for Business (on Mac) are available as replacements for Skype for Business Web应用 beginning with CU5， but providing the replacement apps requires the additional configuration described in [Enable Skype Meetings App to replace Skype for Business Web应用 (Optional) ](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). 如果Skype会议应用Mac版Skype for Business，用户将从 Microsoft 365 或 Office 365 内容分发网络 (CDN) 而不是从 Skype for Business 服务器下载应用的最新版本。 对于 Skype for Business Server 2019，Skype会议应用和Mac版Skype for Business是唯一的选项。
+  
+Skype会议 应用提供了一种简化的浏览器体验，用于下载和安装应用以及加入会议，包括一键加入 Internet Explorer。 Skype会议 应用在可靠性和会议体验Skype for Business Web应用方面进行了许多改进。 
+  
+> [!NOTE]
+> 自 Skype for Business Server 2015 CU5 或更高版本起，使用 Skype for Business Online 召开的会议将不再向无客户端用户发送 Skype for Business Web应用，而是在 Windows) 或 Mac) 上的 Mac版Skype for Business (上Skype 会议应用 (。 从 Skype for Business Server 2015 CU5 或更高版本开始，如果启用 Skype 会议应用以替换[Skype for Business Web应用 (可选) ，](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)则无客户端用户Skype会议应用或 Mac版Skype for Business 而不是 Skype for Business Web应用。 
   
 ## <a name="software-requirements"></a>软件要求
 <a name="OS-Browser"> </a>
 
-若要使用 Skype for Business Web App，用户必须具有以下支持的操作系统和浏览器组合之一。 
+若要使用Skype for Business Web应用，用户必须具有以下支持的操作系统和浏览器组合之一。 
   
-**适用于 Skype for Business Web App 的操作系统和最低浏览器支持**
+**操作系统和最低浏览器支持Skype for Business Web应用**
 
-| 操作系统 | Microsoft Edge | 32 位和 64 位 Internet Explorer 11 或更高版本 | 32 位和 64 位Internet Explorer 10或更高版本 | 32 位和 64 位Internet Explorer 9或更高版本 | Safari 6.2.8 的 32 位和 64 位版本 - 11.X | 32 位和 64 位版本的 Chrome 18.X 或更高版本 |
+| 操作系统 | Microsoft Edge | 32 位和 64 位 Internet Explorer 11 或更高版本 | 32 位和 64 位Internet Explorer 10或更高版本 | 32 位和 64 位Internet Explorer 9或更高版本 | Safari 6.2.8 - 11.X 的 32 位和 64 位版本 | 32 位和 64 位版本的 Chrome 18.X 或更高版本 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Windows 10  <br/> |是  <br/> |是  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |是&#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |不适用  <br/> |是  <br/> |不适用  <br/> |不适用  <br/> |不适用 <br/> |是&#x2778; <br/> |
 |Windows 8 (Intel) &#x2776; <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |不适用 <br/> |不适用  <br/> |是&#x2778; <br/> |
 |Windows 7 SP1 &#x2777; <br/> |不适用  <br/> |是  <br/> |否  <br/> |否  <br/> |不适用 <br/>|是&#x2778; <br/> |
-|Windows Server 2008 R2 SP1 &#x2777; <br/> |不适用  <br/> |是  <br/> |是  <br/> |是  <br/> |不适用 <br/>|是&#x2778; <br/> |
-|macOS 10.8 (基于 Intel 的) &#x2777; <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |是 <br/> |
+|WindowsServer 2008 R2 SP1 &#x2777; <br/> |不适用  <br/> |是  <br/> |是  <br/> |是  <br/> |不适用 <br/>|是&#x2778; <br/> |
+|基于 Intel 的 (macOS 10.8) &#x2777; <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |是  <br/> |是 <br/> |
    
-&#x2776; Skype for Business Web App 浏览器插件需要特定的共享插件，以使用基于计算机的语音、视频、共享以及查看正在进行的屏幕共享和其他功能。 当与会者加入会议或启动这些功能之一时，可以选择安装共享插件。 在 Windows 8 和 Windows 8.1 上，只有在桌面版中运行 Internet Explorer 10 或 Internet Explorer 11 时，才能安装共享插件。 这些功能不适用于非桌面版本的 Internet Explorer 10 11。 请注意，Firefox 和 Safari 版本 12.0 及更高版本不再受支持。
+&#x2776;浏览器Skype for Business Web应用插件需要特定的共享插件，以使用基于计算机的语音、视频、共享以及查看正在进行的屏幕共享和其他功能。 当与会者加入会议或启动其中一项功能时，可以选择安装共享插件。 在 Windows 8 和 Windows 8.1 上，只有在桌面版中运行 Internet Explorer 10 或 Internet Explorer 11 时，才能安装共享插件。 这些功能不适用于非桌面版 Internet Explorer 10 11。 请注意，Firefox 和 Safari 版本 12.0 及更高版本不再受支持。
   
-&#x2777; 在受支持的 Windows 7、Windows Server 2008 R2 和 Macintosh 操作系统上，所有功能都可用，包括基于计算机的语音、视频、应用程序查看、应用程序共享、桌面查看和桌面共享。 若要使用这些功能，必须在系统提示时安装插件。 请注意，不再支持 Mac OS X 版本 10.7。  另请注意，Web 应用不会安装在 OS X 10.15 或更高版本上。  我们建议使用支持匿名加入方案的最新版本的 Skype for Business for Mac。
+&#x2777; 在受支持的 Windows 7、Windows Server 2008 R2 和 Macintosh 操作系统上，所有功能都可用，包括基于计算机的语音、视频、应用程序查看、应用程序共享、桌面查看和桌面共享。 若要使用这些功能，必须在系统提示时安装插件。 请注意，不再支持 Mac OS X 版本 10.7。  另请注意，Web 应用不会安装在 OS X 10.15 或更高版本上。  我们建议使用最新版本的 Mac版Skype for Business支持匿名加入方案。
   
-&#x2778; Windows 上的 Chrome 访问 Web 应用将启动一个小程序，该程序在嵌入式框架Internet Explorer Web 应用。 若要正确加载 Web App，此Internet Explorer安装支持的版本之一。
+&#x2778;从 Chrome 访问 Web Windows将启动一个小程序，该程序将在嵌入的 Internet Explorer 框架中加载 Web 应用。 此程序要求安装受支持的版本之Internet Explorer Web App 以正确加载。
   
 > [!NOTE]
-> Microsoft 365 和 Office 365 用户可以将 Internet Explorer 10或更高版本与 Skype for Business 一同使用。 
+> Microsoft 365和Office 365用户可以将Internet Explorer 10或更高版本与Skype for Business。 
   
 ### <a name="skype-meetings-app"></a>Skype 会议应用
 
-Skype 会议应用作为应用在安装了 32 位和 64 位 Internet Explorer 11 或更高版本的 Windows 10、Windows 8.1、Windows 8、Windows 7 的计算机上运行。 
+Skype会议应用作为应用在安装了 32 位和 64 位 Internet Explorer 11 或更高版本的 Windows 10、Windows 8.1、Windows 8、Windows 7 的计算机上运行。 
   
-有关任何其他依赖项，请参阅 Skype [会议应用支持的平台](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+有关任何其他依赖项，请参阅支持的平台[Skype会议应用](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
 ### <a name="skype-for-business-for-mac"></a>Mac 版 Skype for Business
 
-Skype for Business for Mac 使用 macOS 版本 10.8 或更高版本在计算机上运行。 
+Mac版Skype for Business macOS 版本 10.8 或更高版本的计算机上运行。 
 
 ## <a name="hardware-requirements"></a>硬件要求
 <a name="OS-Browser"> </a>
 
-计算机硬件要求由操作系统和浏览器确定。 语音和电话功能需要麦克风和扬声器、带麦克风的耳机或与计算机兼容的等效设备。 视频功能需要与计算机兼容的视频设备。 有关视频硬件支持和预期视频质量的详细信息，请参阅 Skype [for Business 客户端视频分辨率](video-resolutions.md)。
+计算机硬件要求由操作系统和浏览器决定。 语音和电话功能需要麦克风和扬声器、带麦克风的耳机或与计算机兼容的等效设备。 视频功能需要与计算机兼容的视频设备。 有关视频硬件支持和预期视频质量的详细信息，请参阅Skype for Business[客户端视频分辨率](video-resolutions.md)。
   
 ## <a name="network-requirements"></a>网络要求
 <a name="Network"> </a>
 
-如果 Skype for Business Web App 或 Skype 会议应用的用户遇到连接问题，则其组织的网络基础结构可能未配置为支持 [Office 365，如 Office 365 URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)和 IP 地址范围中所述。 无论是 Skype for Business Online 用户还是 Skype for Business Server 用户创建了会议，都是如此。 
+如果 Skype for Business Web应用 或 Skype 会议应用的用户遇到会议连接问题，则其组织的网络基础结构可能未配置为支持[Office 365，](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)如 Office 365 URL 和 IP 地址范围中所述。 这是会议是由 Skype for Business Online 或 Skype for Business Server。 
   
-如果用户处于未如描述配置的网络，则许多应用功能可能工作，也可能不起作用，并且他们可能无法连接到会议。
+如果用户处于未如所述配置的网络，则许多应用功能可能工作，也可能不起作用，并且他们可能无法连接到会议。
   
 ## <a name="supported-meetings-features"></a>支持的会议功能
 <a name="BKMK_Conferencing"> </a>
 
-此表比较 Skype for Business 客户端、Skype for Business Web App、Skype 会议应用和 Lync Web App 的用户可用的会议功能。 出于功能比较目的列出 Lync Web App：用户只有在 Lync 2013 服务器上承载会议时才能下载和使用 Lync Web App。
+此表比较了 Skype for Business 客户端、Skype for Business Web应用、Skype 会议应用和 Lync Web App 的用户可用的会议功能。 列出了 Lync Web App 以用于功能比较：如果用户在 Lync 2013 服务器上承载会议，则用户将仅下载和使用 Lync Web App。
 
-| 功能 | Skype for Business 2016 或 2019 客户端 | Mac 客户端上的 Skype for Business | Skype 会议应用 | Skype for Business Web 应用 | Lync Web App |
+| 功能 | Skype for Business 2016 或 2019 客户端 | Skype for Business Mac 客户端上 | Skype 会议应用 | Skype for Business Web 应用 | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |添加计算机音频  <br/> |&#x2714;|&#x2714;|&#x2714; (需要插件)   <br/> |&#x2714; (需要插件)   <br/> |&#x2714; (需要插件)   <br/> |
 |添加视频  <br/> |&#x2714;|&#x2714;|&#x2714; (需要插件)   <br/> |&#x2714; (需要插件)   <br/> |&#x2714; (需要插件)   <br/> |
 |为经过身份验证的参与者将音频切换到电话  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|为来宾参与者将音频切换到电话  <br/> |&#x2714;|&#x2714;|&#x2714;|||
+|将音频切换到来宾参与者的电话  <br/> |&#x2714;|&#x2714;|&#x2714;|||
 |查看多方视频 (库视图)   <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |基于视频的屏幕共享  <br/> |&#x2714;|&#x2714; <br/> |&#x2714; (仅查看)   <br/> |||
 |使用会议中演示者控件  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -112,11 +112,11 @@ Skype for Business for Mac 使用 macOS 版本 10.8 或更高版本在计算机�
 |参与多方 IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |将 IM 消息设置为高重要性  <br/> |&#x2714;|||||
 |共享桌面（如果已启用）  <br/> |&#x2714;|&#x2714;|&#x2714; (需要插件)   <br/> |&#x2714; (需要插件)   <br/> |&#x2714; (需要插件)   <br/> |
-|共享程序（如果已启用）  <br/> |&#x2714;||&#x2714; (在 Windows 上运行;需要插件)   <br/> |&#x2714; (在 Windows 上运行;需要插件)   <br/> |&#x2714; (在 Windows 上运行;需要插件)   <br/> |
-|控制其他用户的共享桌面或程序  <br/> |&#x2714;||&#x2714; (&#x2776; 仅在 Windows 上;需要插件)   <br/> |&#x2714; (&#x2776; 仅在 Windows 上;需要插件)   <br/> |&#x2714; (&#x2776; 仅在 Windows 上;需要插件)   <br/> |
+|共享程序（如果已启用）  <br/> |&#x2714;||&#x2714; (On Windows;需要插件)   <br/> |&#x2714; (On Windows;需要插件)   <br/> |&#x2714; (On Windows;需要插件)   <br/> |
+|控制其他用户的共享桌面或程序  <br/> |&#x2714;||&#x2714; (&#x2776; On Windows;需要插件)   <br/> |&#x2714; (&#x2776; On Windows;需要插件)   <br/> |&#x2714; (&#x2776; On Windows;需要插件)   <br/> |
 |让其他用户控制你的共享桌面或程序  <br/> |&#x2714;|||||
 |添加匿名参与者（如果已启用）  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|按名称邀请参与者  <br/> |&#x2714;|&#x2714;||||
+|按姓名邀请参与者  <br/> |&#x2714;|&#x2714;||||
 |按电话号码邀请参与者  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |通过电子邮件邀请参与者  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |使用拨入音频会议  <br/> |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
@@ -124,51 +124,51 @@ Skype for Business for Mac 使用 macOS 版本 10.8 或更高版本在计算机�
 |录制会议  <br/> |&#x2714;|||||
 |添加和下载附件  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |添加并演示 Microsoft PowerPoint 文件  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|导航 Microsoft PowerPoint 文件  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|添加和编辑 OneNote 会议笔记  <br/> |&#x2714;||仅编辑 (不添加)   <br/> |仅编辑 (不添加)   <br/> |仅编辑 (不添加)   <br/> |
+|导航 Microsoft PowerPoint文件  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|添加和编辑OneNote会议笔记  <br/> |&#x2714;||仅编辑 (添加)   <br/> |仅编辑 (添加)   <br/> |仅编辑 (添加)   <br/> |
 |使用白板  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |发起投票  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|上载文件以与他人共享  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|安排会议  <br/> |Outlook 或 Skype for Business Web 计划程序  <br/> |Outlook 或 Skype for Business Web 计划程序  <br/> |Skype for Business Web 计划程序  <br/> |Skype for Business Web 计划程序  <br/> |Skype for Business Web 计划程序  <br/> |
+|Upload与其他人共享的文件  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|安排会议  <br/> |Outlook 或 Skype for Business Web计划程序  <br/> |Outlook 或 Skype for Business Web计划程序  <br/> |Skype for Business Web计划程序  <br/> |Skype for Business Web计划程序  <br/> |Skype for Business Web计划程序  <br/> |
 |问答 &amp; 管理器  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |禁用与会者视频  <br/> |&#x2714;|||||
 |禁用会议 IM  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|将受众静音  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|静音受众  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |使每个人都成为与会者  <br/> |&#x2714;|||||
-|生成 Skype 会议直播  <br/> |&#x2714;|||||
+|生成Skype 会议广播  <br/> |&#x2714;|||||
    
- &#x2776;参与者无法控制 Skype for Business for Mac、Lync for Mac 2011 或 Communicator For Mac 2011 用户共享的桌面。 这同样对 Max OSX 上的 Skype for Business Web App 不起作用。
+ &#x2776;参与者无法控制由 Mac版Skype for Business、Lync for Mac 2011 或 Communicator For Mac 2011 用户共享的桌面。 这同样对在最大 OSX Skype for Business Web应用不起作用。
   
- &#x2777;对于 Skype for Business Online，此功能需要 Microsoft PSTN 会议、Exchange 统一消息或第三方音频会议提供商。
+ &#x2777; 对于 Skype for Business Online，此功能需要 Microsoft PSTN 会议、Exchange统一消息或第三方音频会议提供商。
   
- &#x2778; Skype for Business Web App 在会议共享 Microsoft Office 2013 PowerPoint 演示文稿时，Lync for Mac 2011 客户端无法查看这些演示文稿。
+ &#x2778; Lync for Mac 2011 客户端无法查看 Microsoft Office 2013 PowerPoint演示文稿（如果已由 Skype for Business Web应用 在会议中共享）。
   
 ## <a name="known-issues-and-troubleshooting"></a>已知问题和疑难解答
 <a name="BKMK_Conferencing"> </a>
 
-对于最终用户， [这些应用的](https://aka.ms/smahelp) 联机帮助随时可用。 IT 专业人员应了解以下问题：
+对于最终用户， [这些应用的](https://aka.ms/smahelp) 联机帮助随时可用。 IT 专业人员应注意以下问题：
   
 - 如果用户位于未配置为满足网络要求的网络上，则许多应用功能[](meetings-clients.md#Network)可能工作，也可能不起作用，并且他们可能无法连接到会议。
     
-- 某些用户可能拥有公司管理的计算机，这些计算机具有安装应用的禁用权限。 对于这些用户，这两种应用都不是一个选项 [，但智能手机](https://products.office.com/skype-for-business/download-app?tab=tabs-1) 和 [平板电脑](https://products.office.com/skype-for-business/download-app?tab=tabs-2) 用户可能无法安装他们可用于参加会议的低成本移动客户端。
+- 某些用户可能拥有公司管理的计算机，这些计算机具有安装应用的已禁用权限。 对于这些用户，这两种应用都不是一个选项[](https://products.office.com/skype-for-business/download-app?tab=tabs-1)，但智能手机和[平板电脑](https://products.office.com/skype-for-business/download-app?tab=tabs-2)用户可能无法安装他们可用于参加会议的低成本移动客户端。
     
     其他安装问题也涵盖在帮助 [主题中](https://support.office.com/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US)。 
     
-- 用户首次运行会议应用时可能会看到防火墙警告。 系统可能会提示他们打开端口以优化体验，这可能需要他们在计算机上可能没有的管理员权限。 应用仍应正常运行，用户可以安全地拒绝打开请求的端口。 
+- 用户首次运行会议应用时可能会看到防火墙警告。 系统可能会提示他们打开端口以优化体验，这可能需要用户可能没有的管理员权限。 应用应仍可运行，用户可以安全地拒绝打开请求的端口。 
     
-- 即使 IE [不是ActiveX浏览器](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) ，Internet Explorer在未进行筛选的情况下启用此配置。 在 Skype for Business Web App 中，ActiveX控件（一个向 Web 应用或其他程序添加其他功能的小模块）是音频、视频和屏幕共享所需的。
+- 即使 IE[不是ActiveX](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US)浏览器，Internet Explorer也必须先启用 IE。 在Skype for Business Web应用中，ActiveX、视频和屏幕共享需要一个控件（一个向 Web 应用或其他程序添加其他功能的小模块）。
     
-- 若要使 Skype for Business Web App 的一些功能正常工作，[](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93)必须允许浏览器在计算机或设备上保存 Cookie。
+- 若要使Skype for Business Web应用某些功能正常工作，必须允许浏览器在计算机或设备上保存 Cookie。 [](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93)
     
-- 你可能需要在 [浏览器中打开 JavaScript](https://support.office.com/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) 支持，使某些 Skype for Business Web App 功能能够正常工作。
+- 你可能需要在[浏览器中启用 JavaScript](https://support.office.com/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd)支持，某些 Skype for Business Web应用功能可以正常工作。
     
 ### <a name="aes-support"></a>AES 支持 
 
-自 Skype for Business Server 2015 CU5 起，ASP.NET 4.6 不支持 AES，这可能会导致 Skype 会议应用无法启动。 [ASP .NET 4.5 的](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) 加密要求具有更多详细信息。
+自 Skype for Business Server 2015 CU5 起，ASP.NET 4.6 不支持 AES，这可能会导致 Skype 会议应用无法启动。 [由于 4.5 ASP.NET 加密](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) 要求的详细信息。
   
 ## <a name="see-also"></a>另请参阅
 <a name="BKMK_Conferencing"> </a>
 
-[在 Skype for Business Server 中部署 Web 可下载客户端](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[在客户端部署 Web 可下载Skype for Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-[Skype 会议应用支持的平台](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+[Skype会议应用支持的平台](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

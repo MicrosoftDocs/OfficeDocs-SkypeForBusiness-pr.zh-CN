@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要授予对 Skype for Business Server 的访问权限，请执行下列操作：
-ms.openlocfilehash: cb1449aa4fcca534e01b4d8a47a7ac9c39cd64c7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 若要授予对Skype for Business Server的访问权限，请执行下列操作：
+ms.openlocfilehash: 191149db88df737d0f20cdeb510bb03b4f17ddc40a4e85918240571a50ba5e5e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824962"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282155"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>创建 Skype for Business Server 控制面板管理员
  
-若要授予对 Skype for Business Server 的访问权限，请执行下列操作：
+若要授予对Skype for Business Server的访问权限，请执行下列操作：
   
 1. 以 Domain Admins 组或 RTCUniversalServerAdmins 组成员的身份登录。
     
@@ -37,7 +37,7 @@ ms.locfileid: "49824962"
 5. 在“成员”选项卡上，确认所选的用户或组存在。单击“确定”。
     
 > [!TIP]
-> Skype for Business Server 控制面板是基于角色的访问控制工具。 CsAdministrator 组的成员身份为使用 Skype for Business Server 控制面板的用户提供了所有可用配置功能的完全控制权限。 为特定功能提供了其他专门的角色。 用户不需要启用 Skype for Business Server，就成为管理组的成员。 
+> 该Skype for Business Server控制面板是基于角色的访问控制工具。 CsAdministrator 组的成员身份为使用 Skype for Business Server 控制面板的用户提供了对所有可用配置功能的完全控制权限。 为特定功能提供了其他专门的角色。 用户不需要启用Skype for Business Server，就成为管理组的成员。 
   
 其他角色包括：
   
@@ -49,14 +49,14 @@ ms.locfileid: "49824962"
     
 - **CsResponseGroupAdministrator：** 成员可以管理和配置响应组服务
     
-- **CsServerAdministrator：** 成员可以管理、监视所有运行 Skype for Business Server 的服务器并排除故障。
+- **CsServerAdministrator：** 成员可以管理、监视所有运行 Skype for Business Server 的服务器并排除Skype for Business Server。
     
 - **CsUserAdministrator：** 成员可以管理、启用和禁用用户，以及将现有策略分配给用户。
     
-- **CsViewOnlyAdministrator：** 成员可以查看服务器信息的部署和配置。 此成员身份使成员能够监视运行 Skype for Business Server 的服务器运行状况。
+- **CsViewOnlyAdministrator：** 成员可以查看服务器信息的部署和配置。 通过此成员身份，成员可以监视运行 Skype for Business Server。
     
-- **CsVoiceAdministrator：** 成员可以在 Skype for Business Server 中创建、配置和管理与语音相关的设置。
+- **CsVoiceAdministrator：** 成员可以在用户环境中创建、配置和管理与语音Skype for Business Server。
     
-若要帮助保留安全性和基于角色的访问控制完整性，请向组添加用户，这些组定义了用户在 Skype for Business Server 部署管理中执行的角色。
+为了帮助保留安全性和基于角色的访问控制完整性，将用户添加到组，这些组定义了用户在管理 Skype for Business Server 的角色。
   
 

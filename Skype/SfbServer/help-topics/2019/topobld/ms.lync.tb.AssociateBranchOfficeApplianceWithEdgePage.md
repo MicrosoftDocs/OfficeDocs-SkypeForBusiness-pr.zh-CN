@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果已部署边缘服务器并且必须提供媒体服务供外部使用，则通过在下拉列表中选择与 Survivable Branch Appliance 或 Survivable Branch Server 关联的边缘服务器或池。 单击"下一步"继续。
-ms.openlocfilehash: 8a6857a91a441ed5cc098268976d579ee356db7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: eaaebf18bcee74dc822df4972df5d63cfb3d3954684765e1a365b555092b5be4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309831"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>将分支机构设备与边缘关联
  

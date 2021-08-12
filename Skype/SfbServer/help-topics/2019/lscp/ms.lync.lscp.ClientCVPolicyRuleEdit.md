@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: 客户端版本策略由一组客户端版本规则组成。这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。
-ms.openlocfilehash: a461dad500f0c7d3095ef56483a6b592cec6c20d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f30ddcc69ad8ebc4374bfed67b84de0317c584192b58ccb09bf1842eb311bd5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109618"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282165"
 ---
 # <a name="client-version-rule"></a>客户端版本规则
 
@@ -44,13 +44,13 @@ ms.locfileid: "51109618"
 |:-----|:-----|
 |Lync 2013、Lync 2010、Office Communicator  <br/> |OC  <br/> |
 |Lync Web App，Communicator Web Access  <br/> |CWA  <br/> |
-|Lync Phone Edition、Office Communicator Phone  <br/> |OCPhone  <br/> |
+|Lync 电话 Edition，Office Communicator 电话  <br/> |OCPhone  <br/> |
 |Communicator Phone Edition 平台  <br/> |CPE  <br/> |
 |统一通信平台  <br/> |UCCP  <br/> |
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
 |Live Meeting 外接程序  <br/> |LiveMeetingAddins  <br/> |
 |Office Live Meeting  <br/> |LMC  <br/> |
-|Windows Messenger  <br/> |WM  <br/> |
+|WindowsMessenger  <br/> |WM  <br/> |
 |实时通信客户端  <br/> |RTC  <br/> |
 |Lync 2010 for iPad  <br/> |iPadLync  <br/> |
 |Lync 2010 for iPhone  <br/> |iPhoneLync  <br/> |
@@ -90,13 +90,13 @@ ms.locfileid: "51109618"
   - **允许和升级** 允许客户端登录并接收来自 Windows Server Update Service 或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
 
     > [!NOTE]
-    > 选择此操作将导致用户在下次登录 Skype for Business 时显示通知。 该通知指出有可用更新，即使更新尚未发布到 Windows Server Update Service 或 Microsoft Update。 为了避免混淆，您只应在更新可用后选择此操作。
+    > 选择此操作将导致用户在下次登录时显示Skype for Business。 该通知指出有可用更新，即使更新尚未发布到 Windows Server Update Service 或 Microsoft Update。 为了避免混淆，您只应在更新可用后选择此操作。
 
   - **允许使用 URL** 允许客户端登录并显示有关下载其他客户端版本位置的消息。 可以在“URL”字段中指定 URL。
 
   - **阻止** 阻止客户端登录。
 
-  - **阻止和升级** 阻止客户端登录并允许客户端接收来自 Windows Server Update Service 或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
+  - **阻止和升级** 阻止客户端登录并允许客户端接收来自 Windows Update Service 或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
 
   - **使用 URL 阻止**   阻止客户端登录并显示有关下载其他客户端版本的位置的消息。可以在“URL”字段中指定 URL。
 

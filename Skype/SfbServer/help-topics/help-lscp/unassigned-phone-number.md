@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: aeb81aef1b2dba23dc3daaa6ec8a788c0b232529
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c3f6bcf9c60b8126416bd330eeb67b2a58cff3d9cf2ce8f905f429936f011a05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122516"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309451"
 ---
 # <a name="unassigned-phone-number"></a>未分配电话号码
 
@@ -53,10 +53,10 @@ ms.locfileid: "51122516"
 
 - **编辑** 打开选定的未分配号码范围进行编辑，选择列表中的所有未分配号码范围，或删除所选的未分配号码范围。
 
-- **上移** 将所选未分配号码范围在列表中上移，以便 Skype for Business Server 能够更早地找到该号码范围，并应用指定的操作，然后再应用为列表中其他范围指定的操作。
+- **上移** 将所选未分配号码范围在列表中上移，以便Skype for Business Server找到该号码范围，并应用指定的操作，然后再应用为列表中其他范围指定的操作。
 
     > [!NOTE]
-    > Skype for Business Server 从上到下搜索未分配号码表，并使用匹配未分配号码的第一个范围。 例如，如果有一个范围指定了最后一种操作，请确保将该范围置于列表底部。
+    > Skype for Business Server从上到下搜索未分配号码表，并使用第一个匹配未分配号码的范围。 例如，如果有一个范围指定了最后一种操作，请确保将该范围置于列表底部。
 
 - **下移** 在列表中将选定的未分配号码范围向下移动。
 

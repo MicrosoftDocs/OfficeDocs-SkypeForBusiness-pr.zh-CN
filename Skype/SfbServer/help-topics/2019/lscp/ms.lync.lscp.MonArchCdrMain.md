@@ -15,20 +15,20 @@ localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 38f98075cb81dfde17fbe2a80ec741e2a4b0a66c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 156359b8e59bef72d12268632cda71b979a08dbe2aa1d1fe4e8578daafaafad8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833642"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282055"
 ---
 # <a name="call-detail-recording"></a>呼叫详细信息记录
  
 要执行什么操作？ 单击要执行的任务的链接。
   
-- [在 Skype for Business Server 中启用呼叫详细信息记录](../../../manage/health-and-monitoring/enable-cdr.md)
+- [启用呼叫详细信息记录Skype for Business Server](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [指定在 Skype for Business Server 中保留 CDR 数据](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [指定 CDR 数据的保留Skype for Business Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 

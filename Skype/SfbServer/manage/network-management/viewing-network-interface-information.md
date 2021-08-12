@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 可以使用 cmdlet 和 Windows PowerShell cmdlet 查看Get-CsNetworkInterface信息。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。
-ms.openlocfilehash: 0e72b2550413004038b110292b693dda25affaf8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 482655d36a16158866207e9157d25288e418f7e9ee00dc88ea7a59d653e5c566
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281795"
 ---
-# <a name="viewing-network-interface-information-in-skype-for-business-server"></a>在 Skype for Business Server 中查看网络接口信息
+# <a name="viewing-network-interface-information-in-skype-for-business-server"></a>在服务器中查看网络Skype for Business Server
 
 可以使用 **Get-CsNetworkInterface** cmdlet 和 Windows PowerShell查看网络接口信息。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 
 
 ## <a name="to-view-network-interface-information"></a>查看网络接口信息
 
-  - 若要查看网络接口信息，请在 Skype for Business Server 命令行管理程序 中键入以下命令，然后按 Enter：
+  - 若要查看网络接口信息，请在命令行管理程序中Skype for Business Server以下命令，然后按 Enter：
     
         Get-CsNetworkInterface
     

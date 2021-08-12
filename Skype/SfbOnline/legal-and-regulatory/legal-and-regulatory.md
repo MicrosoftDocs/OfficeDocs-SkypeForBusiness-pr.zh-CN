@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Legal
 description: '必须发布此内容，以满足法国 Skype for Business Online 的辅助功能、合规性和法规要求。 '
-ms.openlocfilehash: 04f723dfaf9f77594fd9beb6637a1f0acee6a887
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0c872d427b55fe5449e1e7a2e22daa0f2b920549aab10e85ef634ddfdfc5904b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281345"
 ---
 # <a name="legal-and-regulatory"></a>法律和监管
 

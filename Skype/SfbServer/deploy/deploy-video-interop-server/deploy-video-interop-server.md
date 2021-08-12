@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中部署视频互操作服务器
+title: 在部署视频互操作服务器Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,36 +12,36 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
-description: 摘要：在 Skype for Business Server 中部署 VIS 服务器角色。
-ms.openlocfilehash: 7b3ee96b1ff2e6c633efa9e1cc98aa14bb5babc3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：在客户端部署 VIS 服务器Skype for Business Server。
+ms.openlocfilehash: 9a661bf31f3c22866396a46be5d583591674736bb8111d11b71ac257e063a416
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801952"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282335"
 ---
-# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>在 Skype for Business Server 中部署视频互操作服务器
+# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>在部署视频互操作服务器Skype for Business Server
  
-**摘要：** 在 Skype for Business Server 中部署 VIS 服务器角色。
+**摘要：** 部署 VIS 服务器角色Skype for Business Server。
   
-Skype for Business Server 现在可以直接与 Cisco 电话会议系统 (VTC) 如 Cisco C60 或 Cisco MX300。 这需要引入名为视频互操作服务器 (VIS) 的新服务器角色，并正确配置将进行互操作的 VIS 和设备。 VTC 向现有 Cisco 基础结构（如 Cisco 统一通信管理器 (CUCM) ）注册，在 CUCM 和 VIS 池之间使用视频 SIP 中继。
+Skype for Business Server现在可以直接与 Cisco 电话会议系统 (VTC) 如 Cisco C60 或 Cisco MX300 集成。 这需要引入名为视频互操作服务器 (VIS) 的新服务器角色，并正确配置 VIS 及其将进行互操作的设备。 VTC 向现有 Cisco 基础结构（如 Cisco 统一通信管理器 (CUCM) ）注册，并且视频 SIP 中继在 CUCM 和 VIS 池之间使用。
   
 ## <a name="in-this-section"></a>本节内容
 
-配置 VIS 服务器或池与 VTC 系统之间的互操作性需要执行以下五个过程： 
+在 VIS 服务器或池与 VTC 系统之间配置互操作性需要执行以下五个过程： 
   
-- [在 Skype for Business Server 中创建 VIS 池](create-a-vis-pool.md)
+- [在池中创建 VIS Skype for Business Server](create-a-vis-pool.md)
     
-- [在 Skype for Business Server 中部署 VIS 服务器角色](deploy-the-vis-server-role.md)
+- [部署 VIS 服务器角色Skype for Business Server](deploy-the-vis-server-role.md)
     
-- [在 Skype for Business Server 中配置视频互操作服务器](configure-the-vis.md)
+- [配置视频互操作服务器Skype for Business Server](configure-the-vis.md)
     
-- [配置 CUCM 以与 Skype for Business Server 进行互操作](configure-cucm-for-interoperation.md)
+- [配置 CUCM 以与 Skype for Business Server](configure-cucm-for-interoperation.md)
     
-- [配置 VTC 以与 Skype for Business Server 进行互操作](configure-a-vtc-for-interoperation.md)
+- [配置 VTC 以与 Skype for Business Server](configure-a-vtc-for-interoperation.md)
     
 ## <a name="related-sections"></a>相关章节
 
-[在 Skype for Business Server 中规划视频互操作服务器](../../plan-your-deployment/video-interop-server.md)
+[规划视频互操作服务器Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   
 

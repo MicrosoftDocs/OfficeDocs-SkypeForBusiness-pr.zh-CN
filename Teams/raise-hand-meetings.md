@@ -18,16 +18,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解有关 Microsoft Teams 会议的举手功能。
-ms.openlocfilehash: 9f431354b412cd51afb662a86246f9f23662a676
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
-ms.translationtype: HT
+ms.openlocfilehash: cdf3e04b3144a9928dc837833d9b09f1d4a8241a8ac64b6ea5cd41af60191cb9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310441"
 ---
 # <a name="raise-your-hand-option-in-teams-meetings"></a>Teams 会议中的举手选项
 
-在 Microsoft Teams 会议期间，参与者可以使用**举手**选项引起演讲者和主持人的注意。
+在 Microsoft Teams 会议期间，参与者可以使用 **举手** 选项引起演讲者和主持人的注意。
 
 由于以下原因，此功能很重要：
 
@@ -35,15 +35,15 @@ ms.locfileid: "44755416"
 
 - 主持人或发言人可以查看会议中是否有人想讲话。  
 
-- **举手**鼓励参与者参加，使会议更具包容性。
+- **举手** 鼓励参与者参加，使会议更具包容性。
 
-- **举手**提供了一种简单快速的方法来对会议参与者进行投票。
+- **举手** 提供了一种简单快速的方法来对会议参与者进行投票。
 
 Teams 管理员无需创建用于在会议中显示的功能策略。
 
 ## <a name="raise-your-hand-display"></a>举手显示
 
-**举手**始终可用于你加入的任何会议，并且支持所有客户端（但不包括会议室设备）。
+**举手** 始终可用于你加入的任何会议，并且支持所有客户端（但不包括会议室设备）。
 
 - 举起的手对所有会议参与者可见，并使用一个手形图标指示。
 
@@ -51,7 +51,7 @@ Teams 管理员无需创建用于在会议中显示的功能策略。
 
 - 举起的手在参与者姓名旁边显示为黄色。
 
-参与者被确认后，他们可以使用**放下手**选项。 会议主持人也可以放下参与者的手。
+参与者被确认后，他们可以使用 **放下手** 选项。 会议主持人也可以放下参与者的手。
 
 ## <a name="related-article"></a>相关文章
 

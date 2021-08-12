@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Skype for Business"联机"允许创建其他外部访问策略。 与客户端或会议策略（可以有多个组合）不同，有三个预定义的外部访问策略可以涵盖大多数方案。
-ms.openlocfilehash: f9d99789bdb400cee9b7597bfcdc4079c1d3612d
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 4db20c286f342662adffeeaeae17737651791f56f74be6558138756b7e65e767
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282385"
 ---
 # <a name="create-custom-external-access-policies"></a>创建自定义外部访问策略
 
@@ -54,7 +54,7 @@ Skype for Business"联机"允许创建其他外部访问策略。 与客户端�
 ## <a name="start-windows-powershell"></a>启动Windows PowerShell
 
 > [!NOTE]
-> Skype for Business联机连接器当前是 PowerShell 模块Teams的一部分。 如果使用最新的 PowerShell Teams版本，则无需安装 Skype for Business Online 连接器。
+> Skype for Business Online 连接器目前是最新 Teams PowerShell 模块的一部分。 如果使用的是最新 Teams PowerShell 公共版本，则无需安装 Skype for Business Online 连接器。
 1. 安装[Teams PowerShell 模块](/microsoftteams/teams-powershell-install)。
     
 2. 打开Windows PowerShell命令提示符并运行以下命令： 
@@ -90,7 +90,7 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
     
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 通过以下主题了解这些优势：
+- Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次为许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
     
   - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

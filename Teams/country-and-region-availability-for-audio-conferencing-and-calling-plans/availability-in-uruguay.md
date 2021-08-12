@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 8f316fc79b5c1dc8e9bb85fda30dc86dba23c13e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 38a761dd4696d0b958ab4635ec243a4b6fa916c4a5e6380261f330de4712832c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281635"
 ---
 # <a name="availability-in-uruguay"></a>在乌拉圭的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "51094484"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |不支持  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |弱  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统

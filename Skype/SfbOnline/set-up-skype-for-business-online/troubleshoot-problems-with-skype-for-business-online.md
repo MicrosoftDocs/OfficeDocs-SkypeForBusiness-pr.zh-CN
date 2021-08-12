@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 了解如何修复管理员和用户的问题Skype for Business Microsoft 365 Office 365。
-ms.openlocfilehash: b64cd39cee9a9981c5a5d605953d1e11c5ba06f0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239411"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310101"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>解决 Skype for Business Online 中的问题
 

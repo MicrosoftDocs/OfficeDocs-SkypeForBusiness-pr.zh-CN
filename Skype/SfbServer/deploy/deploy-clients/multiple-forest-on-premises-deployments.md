@@ -1,5 +1,5 @@
 ---
-title: Skype 会议室系统多林本地部署
+title: Skype会议室系统多林本地部署
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
-description: 阅读本主题，了解如何在多林本地环境中部署 Skype 会议室系统。
-ms.openlocfilehash: d215ce13059c414d6c6142d7cd1e93ea9011c97b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 阅读本主题，了解如何在多林Skype部署会议室系统。
+ms.openlocfilehash: dc1d7fa3a3ca7cbcf62f7c038fb8fd6b4fcedc84319452ec8eaf02781f311bf3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310061"
 ---
-# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype 会议室系统多林本地部署
+# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype会议室系统多林本地部署
  
-阅读本主题，了解如何在多林本地环境中部署 Skype 会议室系统。
+阅读本主题，了解如何在多林Skype部署会议室系统。
   
 > [!NOTE]
-> 为了在多个林中部署，Skype 会议室系统需要 2014 年 8 Exchange Server 2013 CU6。 避免对 Skype 会议室系统重新使用现有邮箱。 使用新的 (删除旧邮箱，然后) Skype 会议室系统的资源邮箱。 若要通过删除邮箱来还原丢失的会议，请参阅 [连接或还原已删除的邮箱](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help)。 
+> 为了在多个林中部署，Skype 2014 年 8 月 26 Exchange Server发布的 2013 CU6。 避免对会议室系统重新Skype邮箱。 使用新的 (删除旧邮箱，然后为会议室) 重新创建Skype邮箱。 若要通过删除邮箱来还原丢失的会议，请参阅连接[或还原已删除的邮箱](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help)。 
   
-创建邮箱后，可以使用Set-CalendarProcessing配置邮箱。 有关更多详细信息，请参阅单林本地部署下的步骤 3 至 6。 为 Skype 会议室系统创建 Exchange 资源邮箱后，按照在单林本地部署下为 Skype for Business 启用 Skype 会议室系统帐户中的步骤为 Skype for Business 启用帐户。
+创建邮箱后，可以使用Set-CalendarProcessing配置邮箱。 有关更多详细信息，请参阅单林本地部署下的步骤 3 至 6。 为 Skype 会议室系统创建 Exchange 资源邮箱后，按照单林本地部署下为 Skype for Business 启用 Skype 会议室系统帐户中的步骤为 Skype for Business 启用帐户。
   
 ## <a name="option-1-create-a-new-resource-mailbox"></a>选项 1：创建新的资源邮箱
 
-在多林环境中部署 Skype 会议室系统：
+若要Skype多林环境中部署会议室系统：
   
 1. 在 Active Directory 身份验证 (林) 创建链接用户 (LinkedRoomTest) 。
     
-2. 在命令行管理程序Exchange Server命令：
+2. 在命令行管理程序中Exchange Server命令：
     
    ```powershell
    $cred = Get-Credential AuthForest\LinkedRoomTest
    new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
    ```
 
-## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>选项 2：将现有会议室邮箱更改为链接 (Skype 会议室) 邮箱
+## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>选项 2：将现有会议室邮箱更改为Skype链接 (会议室) 邮箱
 
 ```powershell
 $cred=Get-Credential AuthForest\LinkedRoomTest1

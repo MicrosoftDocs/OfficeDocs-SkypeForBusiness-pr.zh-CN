@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何拨打中国北部的免费号码，包括可用性、有线/固定线路和移动网络可用性，以及限制。
-ms.openlocfilehash: 8aa0a330e51a99dc53ebdacd94e53691dc165367
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c30a0225e552f669300b9f087002712bbe89a986c89693b6431ba7f56c5e04a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116790"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310431"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>中国的免费拨号限制 - 北部（10 800 714 XXXX 范围）
 
@@ -44,7 +44,7 @@ ms.locfileid: "51116790"
 |涵盖的岛屿/区域  <br/> |仅限中国北方/中国网通网络  <br/> |
 |未涵盖的岛屿/区域  <br/> |中国南方  <br/> |
 |有线/固定线路可用性  <br/> |仅限从中国网通访问  <br/> |
-|移动网络可用性  <br/> |不支持  <br/> |
+|移动网络可用性  <br/> |弱  <br/> |
 |注释、限制和访问问题  <br/> |不能使用付费电话访问。  <br/> |
    
 ## <a name="related-topics"></a>相关主题
