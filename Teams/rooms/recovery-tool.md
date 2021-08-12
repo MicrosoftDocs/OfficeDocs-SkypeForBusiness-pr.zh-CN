@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文讨论如何使用恢复工具Microsoft Teams 会议室恢复工具，该工具用于将已过时系统转换为受支持的状态。
-ms.openlocfilehash: 9a856312229ae326b4adbfd039ee0553213ca09c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 65cb123de9284d4b65b461390a325ce413d069f381b2c075a137cedfb0121aca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280687"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft Teams 会议室恢复工具
 
@@ -38,7 +38,7 @@ ms.locfileid: "51117490"
 3) 运行 `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` 。
 4) 若要执行恢复出厂设置，请执行以下操作：
    1. 当脚本提示时，请选择选项 2： **重置**。
-   2. 如果BitLocker，请按照脚本输出末尾提供的说明将其禁用。
+   2. 如果 BitLocker 已打开，请按照脚本输出末尾提供的说明禁用它。
    3. 执行工厂还原。
       1. 打开 **设置** 应用，然后选择"**更新&安全性"**
       2. 导航到"恢复 **"** 选项卡。

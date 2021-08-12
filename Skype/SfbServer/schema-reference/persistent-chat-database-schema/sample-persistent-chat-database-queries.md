@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: 本节包含持久聊天数据库的示例查询。
-ms.openlocfilehash: 74cb6c1029cdeaabcd74a34898731b44c71f05a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0b79d7753d6fca7ef27c2274416d17793c9c886ab05bad6b485b899700a3df51
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823102"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337640"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>示例持久聊天数据库查询
  
 本节包含持久聊天数据库的示例查询。
   
-使用以下示例获取特定日期后最活跃的持久聊天室的列表。
+使用以下示例可获取特定日期后最活跃的持久聊天室的列表。
   
 ```SQL
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages

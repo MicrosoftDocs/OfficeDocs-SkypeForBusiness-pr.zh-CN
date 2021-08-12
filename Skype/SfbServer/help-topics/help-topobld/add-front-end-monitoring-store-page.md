@@ -15,30 +15,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 通过配置以下属性“定义监视 SQL Server 存储”：
-ms.openlocfilehash: 5f8a3ccb22aea1efde0b214b9afa61c140e63014
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: db0956b14f7fa4f594c752bfe16a366b166ac7274abc303d947e2511b334378d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803542"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290760"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>添加前端监控存储页
  
 通过配置以下属性“定义监视 SQL Server 存储”：
   
-- **监控SQL Server存储**：选择SQL Server完全限定的域名 (（可选）从) 实例。
+- **监视SQL Server存储**：选择SQL Server完全限定的域名 (（可选）从) 实例。
     
-    单击 **"** 新建"SQL Server FQDN 定义和监控服务器存储的实例名称（可选）。
+    单击 **"** 新建"以SQL Server FQDN 定义和监控服务器存储的实例名称（可选）。
     
-- 如果要 **为监控SQL Server** 数据库镜像，请选中"启用数据库存储镜像"复选框。
+- 如果要 **为SQL Server** 服务器添加数据库镜像，请选中"启用存储镜像"复选框。
     
     从列表选择一个现有的“监控 SQL Server 存储镜像”。
     
-    单击 **"** 新建"SQL Server FQDN 定义和镜像存储的实例名称（可选）。
+    单击 **"** 新建"以SQL Server FQDN 定义和镜像存储的实例名称（可选）。
     
-- 如果选择 **"启用** SQL Server 存储镜像"，可以选择使用 **SQL Server** 镜像见证启用自动故障转移，以从SQL Server选择镜像见证存储。
+- 如果选择 **"启用** SQL Server镜像"，则选择"使用 **SQL Server 镜像** 见证启用自动故障转移"以从SQL Server选择镜像见证存储。
     
-    单击 **"** 新建"SQL Server FQDN 定义和镜像见证存储的实例名称（可选）。
+    单击 **"** 新建"以SQL Server FQDN 定义和镜像见证存储的实例名称（可选）。
     
 单击“上一步”以回到上一个池定义对话框。
   
@@ -50,4 +50,4 @@ ms.locfileid: "49803542"
   
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 2015 中将监控存储与前端池关联](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[将监控存储与 Skype for Business Server 2015 中的前端池关联](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

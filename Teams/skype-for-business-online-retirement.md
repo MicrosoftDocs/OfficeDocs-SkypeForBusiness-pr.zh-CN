@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17f1445d19961cc6f7825fc613dfde453900bf82
-ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+ms.openlocfilehash: ba3f7efa43377cb69b0142e319d079b6aa2a26b9d923111fe2833cc337176129
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2021
-ms.locfileid: "53679767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280577"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online 停用
 
@@ -61,7 +61,7 @@ Skype使用者服务和Skype for Business Server不受 Skype for Business Online
 
 - [协助从 Skype for Business Online](upgrade-assisted.md)升级到 Microsoft Teams – 自动化程序，可帮助你完成将 Skype for Business Online 用户升级到 Teams。
 
-- [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams计划可用的部署帮助。
+- [FastTrack计划Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams计划可用的部署帮助。
 
 - [Teams培训](./instructor-led-training-teams-landing-page.yml)- 免费在线培训课程，旨在帮助组织通过实时培训Teams。
 

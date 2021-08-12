@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
-description: ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记录表示一个会议会话，它可以是具有会议状态中心的会话，也可以是具有特定会议服务器的会话。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: d7ea4e7e793f26c377386082e26376a0ca5acb7d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记录表示一个会议会话，它可以是具有会议状态中心的会话，也可以是具有特定会议服务器的会话。 此视图在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: d11573f8911f02001101c2d6f2e13dd5ec2112017ada115282b9c0ed008176f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337650"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails 视图
  
-ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记录表示一个会议会话，它可以是具有会议状态中心的会话，也可以是具有特定会议服务器的会话。 此视图是在 Microsoft Lync Server 2013 中引入的。
+ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记录表示一个会议会话，它可以是具有会议状态中心的会话，也可以是具有特定会议服务器的会话。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
 |**InviteTime** <br/> |datetime  <br/> |第一个 INVITE 请求的时间。此字段通常用从会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则此字段将用第一条相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。  <br/> |
 |**ConferenceUri** <br/> |nvarchar (450)   <br/> |会议的 URI。  <br/> |
 |**ConferenceUriType** <br/> |nvarchar (256)   <br/> |会议 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
@@ -36,7 +36,7 @@ ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记
 |**McuConferenceUriType** <br/> |nvarchar (256)   <br/> |会议服务器 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
 |**UserUri** <br/> |nvarchar (450)   <br/> |会话所涉及的用户的 URI。  <br/> |
 |**UserUriType** <br/> |nvarchar (256)   <br/> |已作为会话的一部分的用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
-|**UserTenant** <br/> |nvarchar (256)   <br/> |已作为会话的一部分的用户的租户。 有关详细信息 [，请参阅"租户](tenants.md) "表。 <br/> |
+|**UserTenant** <br/> |nvarchar (256)   <br/> |已作为会话的一部分的用户的租户。 有关详细信息 [，请参阅租户](tenants.md) 表。 <br/> |
 |**UserEndpointId** <br/> |uniqueidentifier  <br/> |已作为会话的一部分的用户的唯一标识符。  <br/> |
 |**EndTime** <br/> |datetime  <br/> |会话的结束时间。  <br/> |
 |**ConferenceClientVersion** <br/> |nvarchar (256)   <br/> |会议服务器的版本。  <br/> |
@@ -47,13 +47,13 @@ ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记
 |**UserClientCategory** <br/> |nvarchar (64)   <br/> |已作为会话的一部分的用户所使用的客户端的类别名称。  <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar (450)   <br/> |作为启动会话的主体的用户的 URI。  <br/> |
 |**OnBehalfOfUriType** <br/> |nvarchar (256)   <br/> |代表启动会话的用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar (256)   <br/> |代表启动会话的用户的租户。 有关详细信息 [，请参阅"租户](tenants.md) "表。 <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar (256)   <br/> |代表启动会话的用户的租户。 有关详细信息 [，请参阅租户](tenants.md) 表。 <br/> |
 |**ReferredByUri** <br/> |nvarchar (450)   <br/> |提交会话的用户的 URI。  <br/> |
 |**ReferredByUriType** <br/> |nvarchar (256)   <br/> |提交会话的用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
-|**ReferredByUriTenant** <br/> |nvarchar (256)   <br/> |提交会话的用户的租户。 有关详细信息 [，请参阅"租户](tenants.md) "表。 <br/> |
+|**ReferredByUriTenant** <br/> |nvarchar (256)   <br/> |提交会话的用户的租户。 有关详细信息 [，请参阅租户](tenants.md) 表。 <br/> |
 |**DialogId** <br/> |varstring (775)   <br/> |SIP 对话 ID。格式如下：  <br/> :d ialog;from-tag;to-tag  <br/> |
-|**ReplaceDialogIdTime** <br/> |datetime  <br/> |用于标识由当前会话取代的对话的 ID 号。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 ReplaceDialogIdTime 结合使用来唯一地标识此会话替换的会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**ReplaceDialogIdTime** <br/> |datetime  <br/> |用于标识由当前会话取代的对话的 ID 号。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 ReplaceDialogIdTime 结合使用来唯一地标识此会话替换的会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
 |**ReplacesDialogId** <br/> |varchar (775)   <br/> |会话取代的 SIP 对话 ID。格式如下：  <br/> dialog;from-tag;to-tag  <br/> |
 |**IsStartedByConfServer** <br/> |bit  <br/> |指示会议服务器是否已启动会话。  <br/> |
 |**IsEndedByConfServer** <br/> |bit  <br/> |指示会议服务器是否已结束会话。  <br/> |

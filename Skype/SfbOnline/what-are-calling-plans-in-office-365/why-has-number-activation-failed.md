@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
 description: 地址验证是设置呼叫计划的重要部分。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: be266289f3f4eae6739280165b2e309d0e82e44b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b1f9f8269028d81e7819972472bb7efb8054fc671fe1cf08e3f643f668449498
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237918"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312270"
 ---
 # <a name="why-has-number-activation-failed"></a>为什么号码激活失败？
 
@@ -95,7 +95,7 @@ ms.locfileid: "52237918"
 8. 检查信息，然后单击“**提交请求**”。
     
 > [!TIP]
-> 参考编号将在管理中心的"服务请求"页上Microsoft 365列出。
+> 参考编号将列在"服务请求"**页上的**"Microsoft 365 管理中心"。
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

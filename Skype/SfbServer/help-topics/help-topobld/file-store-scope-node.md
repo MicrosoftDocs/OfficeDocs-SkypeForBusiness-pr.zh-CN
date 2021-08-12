@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
-description: 此节点显示此文件存储的 FQDN () 池的完全限定域名。 可以执行以下操作：
-ms.openlocfilehash: 4fd675b972e1bcbd4e6543773bb2c142a018d560
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 此节点显示该文件存储 (的 FQDN) 池的完全限定域名。 可以执行以下操作：
+ms.openlocfilehash: 0d37bb084f4c25a95b4739e0dd19372b1a20905b2c9430fd360117279a8f9f4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329696"
 ---
 # <a name="file-store-scope-node"></a>文件存储范围节点
  
-此节点显示此文件存储的 FQDN () 池的完全限定域名。 可以执行以下操作：
+此节点显示该文件存储 (的 FQDN) 池的完全限定域名。 可以执行以下操作：
   
 - **编辑属性**。打开该服务器的“编辑属性”页，在其中可以更改 FQDN 和文件存储名称。
     

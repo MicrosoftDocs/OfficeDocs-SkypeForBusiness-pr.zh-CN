@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d19033ac0feb9e88b3564e725574a14a1564022
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afc949e71292f88bbd5d955349782938b724bdae94806339d05ddb404aafaf76
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280537"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>为 Microsoft Teams 上线支持
 

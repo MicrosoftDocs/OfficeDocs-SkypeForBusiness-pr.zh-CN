@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 右键单击拓扑生成器中的中继以执行以下操作：
-ms.openlocfilehash: fdef7e2fa020692ba8132ede221629a715278fd9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 右键单击拓扑生成器中的"Trunks"以执行下列操作：
+ms.openlocfilehash: 2760f0b1c0187f6662d68aa886bde5cf6f09247abb1177f37934354dddcea3d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807542"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279000"
 ---
 # <a name="trunks-scope-node"></a>中继范围节点
  
-右 **键单击** 拓扑生成器中的中继以执行以下操作：
+右键单击 **拓扑生成器中的"Trunks"** 以执行下列操作：
   
 - **新建 Trunk**：启动用于定义新的 SIP 中继的“定义新的 Trunk”向导。
     

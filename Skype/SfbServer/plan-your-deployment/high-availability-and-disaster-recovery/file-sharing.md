@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的文件共享高可用性
+title: 文件共享高可用性Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-description: 了解如何使用 DFS 确保 Skype for Business Server 中文件共享的高可用性。
-ms.openlocfilehash: f47d8207969063472af23d898ef8a52c2383df0d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 了解如何使用 DFS 确保文件共享在Skype for Business Server高可用性。
+ms.openlocfilehash: c707a1049bf1c54302c4dde270856379e4731fd4e23b1e886b3144445b4e2aaf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093090"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337760"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Skype for Business Server 中的文件共享高可用性
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>文件共享高可用性Skype for Business Server
  
-了解如何使用 DFS 确保 Skype for Business Server 中文件共享的高可用性。
+了解如何使用 DFS 确保文件共享在Skype for Business Server高可用性。
   
-为了确保文件共享在 Skype for Business Server 部署中的高可用性，可以使用分布式文件系统 (DFS) 。 DFS 支持同一个数据中心内从一个文件服务器到另一个文件服务器的故障转移。 对于大型部署，建议您使用通过 DFS 配对的专用文件服务器。 有关 DFS 中 DFS Windows Server 2012，请参阅 [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) 。 有关 Windows Server 2008 上的 DFS 的信息，请参阅 [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) 。
+若要确保文件共享在部署中的高可用性Skype for Business Server，可以使用分布式文件系统 (DFS) 。 DFS 支持同一个数据中心内从一个文件服务器到另一个文件服务器的故障转移。 对于大型部署，建议您使用通过 DFS 配对的专用文件服务器。 有关 DFS 中 DFS Windows Server 2012，请参阅 [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) 。 有关 Windows Server 2008 上的 DFS 的信息，请参阅 [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) 。
   
 根据您的网络规模和所需的恢复工作量，可以使用一对服务器来承载一个站点中的所有文件共享，也可以为每个前端池使用一对服务器。
   

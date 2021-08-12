@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在管理中心管理Skype for Business功能Microsoft Teams设置。
-ms.openlocfilehash: 6e1052b4f4a0e85d4d18123b3c0a0f051f6065f8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f05bdd7dfb53e75d5cc83945985dd6b511635d5ab5792afc0291b5349433ae22
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280557"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>在 Skype for Business 管理中心Microsoft Teams设置
 

@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
-description: 您可以使用搜索查询的结果为 Skype for Business Server 配置用户。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: 117f1c6a5a697cb1cf9e8e1f5c6cbf8363c517bf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 您可以使用搜索查询的结果为用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
+ms.openlocfilehash: 75e5a3ddf063477351946ad1d5efa1e5877f38d1a6b8d2109fc2b91869bc6cde
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119931"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320644"
 ---
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
 
-您可以使用搜索查询的结果为 Skype for Business Server 配置用户。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
+您可以使用搜索查询的结果为用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -40,13 +40,13 @@ ms.locfileid: "51119931"
 
 - [向用户分配策略](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
-- [在 Skype for Business Server 2015 企业语音用户进行登录](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [在 2015 企业语音中Skype for Business Server用户](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [为用户配置联盟、远程用户访问和公共 IM 连接](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
 - [为用户配置电话](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
 
 ## <a name="ui-reference"></a>用户界面参考
 
@@ -76,7 +76,7 @@ ms.locfileid: "51119931"
 
 ### <a name="search-results-menus"></a>搜索结果菜单
 
-- **启用用户** 单击以打开" [用户： 新建 Lync Server](users-new-lync-server-user.md) 用户"对话框，可在其中向 Skype for Business Server 添加新用户。
+- **启用用户** 单击以打开"[用户： 新建 Lync Server](users-new-lync-server-user.md)用户"对话框，可在其中添加新用户Skype for Business Server。
 
     若要添加新联系人，请单击向下箭头，然后选择"启用 **联系人** "以打开"用户： [新建联系人对象"](users-new-contact-objects.md) 对话框。
 
@@ -86,7 +86,7 @@ ms.locfileid: "51119931"
 
   - **重新启用 Lync Server** 在临时禁用所选用户帐户后启用该帐户。
 
-  - **暂时禁用 Lync Server** 在重新启用之前禁用 Skype for Business Server 中的用户帐户，而不删除用户帐户。
+  - **暂时禁用 Lync Server** 在重新启用Skype for Business Server之前禁用用户帐户，而不删除用户帐户。
 
   - **分配策略** 打开 ["用户： 分配策略](users-assign-policies.md) "对话框，可在其中配置分配给用户的策略。
 
@@ -98,7 +98,7 @@ ms.locfileid: "51119931"
 
   - **解锁 PIN** 删除用户 PIN 上的锁定。
 
-  - **从 Lync Server 中删除** 从 Skype for Business Server 中删除用户帐户。 不会从 Active Directory 中删除用户。
+  - **从 Lync Server 中删除** 从帐户中删除Skype for Business Server。 不会从 Active Directory 中删除用户。
 
   - **删除用户证书** 删除授予用户的所有证书。
 

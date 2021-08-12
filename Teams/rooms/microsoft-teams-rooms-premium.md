@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解Microsoft Teams 会议室服务。
 f1keywords: ''
-ms.openlocfilehash: beb8c0a7cf4a2a78364b145da1da83e2ae04bd0b
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: c6ec09b889272b7efb02e6e2f0223f8fc3bf6da3f4332c4bfb50b58895c90bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858015"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280697"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 会议室托管服务
 
@@ -41,7 +41,7 @@ Microsoft Teams 会议室 托管服务是基于云的 IT 管理和监视服务�
 |**房间规划和推出**   |房间规划功能，可让你了解会议室设备库存，并针对新房间部署制定设备标准。         |
 |**监视和故障排除**  |房间运行状况监视，可检测房间系统和外围设备的问题，并提供由 Microsoft 驱动的主动事件管理响应。         |
 |**更新管理**    |管理和交付由 Microsoft 执行的会议室系统及其外围设备的应用程序和固件更新。         |
-|**见解和建议**     |深入了解客户运行状况、使用情况、利用率和设备可靠性。         |
+|**Insights和建议**     |Insights运行状况、使用情况、利用率和设备可靠性。         |
 |**符合性和认证**   |满足所有适用的标准Microsoft Online Services。         |
 |**客户支持**   |24x7x365 票证支持，通过专用 Microsoft Teams 会议室 托管服务操作中心 (SOC) 。 在适用时代表你向其他主要供应商升级。 有关详细信息，请参阅 [客户支持](#customer-support)。|
 |**支持的设备**    |认证Microsoft Teams 会议室及其外围设备。<br>*Surface Hub 2021 年下半月提供支持*        |
@@ -60,7 +60,7 @@ Microsoft Teams 会议室 托管服务是基于云的 IT 管理和监视服务�
 |**监视**    |应用程序、操作系统、外围设备和固件运行状况监视。 针对由于外围设备运行状况等问题而影响会议体验的问题的自动事件检测。 通过托管服务门户对整个房间空间和Microsoft Teams 会议室运行状况概述。|
 |**故障排除和修正**     |自动诊断和自动修正（如果适用）。 Microsoft Teams 会议室非自动化事例提供托管服务 SOC 辅助的事件补救。 用于事件协调的"现在服务"集成。         |
 |**更新管理**   |基于客户可配置的部署环的自动化会议应用程序和固件更新业务流程         |
-|**见解和建议**   |使用情况、事件、运行状况和总体报告 (历史视图)          |
+|**Insights和建议**   |使用情况、事件、运行状况和总体报告 (历史视图)          |
 
 ## <a name="service-prerequisites"></a>服务先决条件
 

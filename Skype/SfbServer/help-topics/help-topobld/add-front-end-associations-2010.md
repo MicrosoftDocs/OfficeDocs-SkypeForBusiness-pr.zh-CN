@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 此时，通过将服务器角色与前端池关联，可以启用对需要部署其他服务器的特定功能的支持。 还可以稍后将服务器角色与前端池关联。 可以与前端池关联的服务器角色包括：
-ms.openlocfilehash: 36f115cf39714a70245e9acfa7a37770890456ce
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c431ed232d3be1532ac4d1598dbe352ef714c7ab0fce43ea1536b731d34ef548
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106918"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290780"
 ---
 # <a name="add-front-end-associations-2010"></a>添加前端关联 2010
 

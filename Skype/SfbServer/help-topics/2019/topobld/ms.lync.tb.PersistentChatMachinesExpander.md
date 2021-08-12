@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用计算机状态设置中列出的服务器或池激活或停用部署的持久聊天服务器或持久聊天服务器池。 在列表中选择一个服务器或池，并单击“变为活动状态”按钮可将服务器或池设为活动状态。
-ms.openlocfilehash: 78e07d75cb53fafa425e53e027903d3c811bddfd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 194555bd15b1142adb7035382d2cb57fc1b3e61f585a870a2ba2384353342ff1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320734"
 ---
 # <a name="persistent-chat-machines-expander"></a>持久聊天计算机扩展器
 
 > [!NOTE] 
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 Teams 中提供了相同的功能。 有关详细信息，请参阅 [Skype for Business 到 Microsoft Teams 的升级](/MicrosoftTeams/upgrade-start-here)。 如果需要使用持久聊天，你的选择是：将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[Skype for Business Microsoft Teams升级](/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。

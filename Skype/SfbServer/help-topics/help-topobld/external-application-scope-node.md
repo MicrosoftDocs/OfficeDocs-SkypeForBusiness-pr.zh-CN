@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 此节点显示此受信任应用程序池的池完全限定域名 (FQDN)、复制设置和下一跃点池。可以执行以下操作：
-ms.openlocfilehash: 7520b70515c6134555652d0314c44ea05b1671f9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c55311345fadc2598d83aa1d3c3ace9242192c77903e39a70d891c2329dc9b4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823922"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329716"
 ---
 # <a name="external-application-scope-node"></a>外部应用程序范围节点
  
@@ -28,7 +28,7 @@ ms.locfileid: "49823922"
   
 - **新建服务器**。启动 **“定义新的服务器”** 向导，以向该受信任应用程序池中添加其他服务器。
     
-- **编辑属性**。 打开此服务器的"编辑属性"页，您可以在其中设置内部和外部池 FQDN 和端口，启用和禁用联盟和网络地址转换 (NAT) ，并指定下一个跃点池。
+- **编辑属性**。 打开此服务器的"编辑属性"页，可在其中设置内部和外部池 FQDN 和端口，启用和禁用联盟和网络地址转换 (NAT) ，并指定下一个跃点池。
     
 - **删除**。从拓扑中删除池。
     

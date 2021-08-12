@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 895d31782961fafdf1697adc2c5a5f15daeb354a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad6d04d5703d0cb34accc3cdd351336046b3a29bbd2d168727c8c740b45adf99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279310"
 ---
 # <a name="associate-a-subnet"></a>关联子网
 

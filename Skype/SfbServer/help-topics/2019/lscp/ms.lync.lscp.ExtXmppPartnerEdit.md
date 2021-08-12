@@ -15,20 +15,20 @@ localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 58148b1901071ee3579b7c183712e141357cb1d7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d7e1eb26fb32c99ce9effda4cd0ea5be7c53aefd1d238e15dc8ea5da1514ab10
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100468"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300118"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP 联盟伙伴：创建新的或编辑现有的
 
 > [!NOTE]
-> XMPP 网关和代理在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 有关详细信息 [，请参阅迁移 XMPP](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) 联盟。
+> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. 有关详细信息 [，请参阅迁移 XMPP](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) 联盟。
 
 要执行什么操作？ 单击要执行的任务的链接。
 
 - [创建或编辑 XMPP 合作伙伴配置](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-xmpp-partner-configuration)
 
-- [XMPP 联盟伙伴的协商设置表](/previous-versions/office/lync-server-2013/lync-server-2013-negotiation-settings-for-xmpp-federated-partners)
+- [XMPP 联盟伙伴设置协商表](/previous-versions/office/lync-server-2013/lync-server-2013-negotiation-settings-for-xmpp-federated-partners)

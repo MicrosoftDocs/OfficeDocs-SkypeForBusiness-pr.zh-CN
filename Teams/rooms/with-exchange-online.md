@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读本主题，了解如何在本地Microsoft Teams 会议室Exchange Online Skype for Business Server部署服务。
-ms.openlocfilehash: 6684173df916b268b35061c735614188e1d58e40
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: a72fb8cfb484c9838253b9d87452c745c5e6695525bb0eed380ea6b21be64ee2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280677"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft Teams Rooms
 

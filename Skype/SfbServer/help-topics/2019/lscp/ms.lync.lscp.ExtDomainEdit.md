@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: d93cf0fa3d47a91c46fb8a3883e9a90d579ec371
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1063b8ff57c1b431a65c4dcdfaca00ccc0b9877b7bc1858a161f25ebdf2d03cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121116"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300188"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>联盟域：创建新的或编辑现有的
 
