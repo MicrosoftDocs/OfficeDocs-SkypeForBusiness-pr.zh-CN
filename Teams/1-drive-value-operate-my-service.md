@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5684ad62107fa61af7c9f2f22c6f15b4bfe1da30
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 222d983a3fc67323ea3d7942c681a3c2ec3b41f00f597ead360869880881e83b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112648"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302116"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -46,7 +46,7 @@ ms.locfileid: "51112648"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定如何为任务实现Teams。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>完整查看操作指南。</li><li>实施与组织的目标相一致的运营策略，以提供云语音工作负荷的质量和可靠性。</li><li>查看["监视呼叫质量"。](monitor-call-quality-qos.md)</li><li> 实施运营策略，定期执行体验质量评审，确保云语音部署以峰值功能运行。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>完整查看操作指南。</li><li>实施与组织的目标相一致的运营策略，以提供云语音工作负荷的质量和可靠性。</li><li>查看["监视呼叫质量"。](monitor-call-quality-qos.md)</li><li> 实施运营策略，定期执行体验质量评审，确保云语音部署以峰值功能运行。</li></ul></td></tr>
 </table>
 
 
@@ -65,7 +65,7 @@ ms.locfileid: "51112648"
 协议到位后，相应的团队应开始实施其角色。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td>
 <td><ul><li>使用本文档促进操作角色映射练习。</li><li>与相应的支持团队会面，为所需活动列表中的每个项目分配名称。</li><li>接受或签收已分配的角色。</li><li>确保相应的团队具有适当的培训、准备情况和资源，以完成所需的活动。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams服务依赖项
@@ -112,7 +112,7 @@ Microsoft Teams将跨团队或Microsoft 365技术Office 365，为团队合作提
 
 | 监视工具                       | 优点                                            | 何时使用                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Microsoft 365管理中心                     | 可从具有受支持浏览器的任何设备使用。 | 在不需要实时通知时使用 。                                          |
+| Microsoft 365 管理中心                     | 可从具有受支持浏览器的任何设备使用。 | 在不需要实时通知时使用 。                                          |
 | Microsoft 365 或 Office 365 Admin 应用                  | 向移动设备提供推送通知。  | 在需要获得服务事件通知时，使用 。                  |
 | Microsoft System Center               | 与 Microsoft System Center。           | 当需要高级监视功能和通知支持时，请使用 。                       |
 | Microsoft 365 或 Office 365 Service Communications API | 以编程方式Microsoft 365或Office 365运行状况。   | 当需要集成第三方监视工具或想要构建自己的解决方案时，请使用 。 |
@@ -120,9 +120,9 @@ Microsoft Teams将跨团队或Microsoft 365技术Office 365，为团队合作提
 > [!NOTE]
 > 只有分配有全局管理员 **或** 服务管理员角色 **的个人** 可以查看服务运行状况。
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>使用 Microsoft 365 管理中心进行监视
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>使用监视Microsoft 365 管理中心
 
-["Microsoft 365管理](https://portal.office.com/)中心"提供了一个服务[](https://portal.office.com/adminportal/home#/servicehealth)运行状况仪表板，可在其中查看除从属服务Teams服务当前运行状况。
+该[Microsoft 365 管理中心](https://portal.office.com/)提供了[一个](https://portal.office.com/adminportal/home#/servicehealth)服务运行状况仪表板，可在其中查看除依赖服务Teams服务当前运行状况。
 
 ### <a name="monitoring-with-the-mobile-app"></a>使用移动应用进行监视
 
@@ -203,7 +203,7 @@ Microsoft Teams是基于云的服务。 因此，能够快速提供新功能。 
 |----|----|----|-----|
 | 用户影响                  | 低                  |                                                                 |                        |
 | 需要用户就绪性      | 是                  |                                                                 |                        |
-| 通信就绪         | 不支持                   | 通信电子邮件已草拟-待审阅。            | 通信团队    |
+| 通信就绪         | 弱                   | 通信电子邮件已草拟-待审阅。            | 通信团队    |
 | 培训就绪               | 是                  | 培训将利用现有 Microsoft 视频。                | 培训团队          |
 
 **状态跟踪**
@@ -241,7 +241,7 @@ Microsoft Teams是基于云的服务。 因此，能够快速提供新功能。 
 
 如果使用量不是预期，这可能是由于部署问题、采用计划未正确执行或其他一些问题。 根据使用率低的实际原因，服务管理员必须与相关团队协作，帮助消除使用障碍。
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>使用管理中心Microsoft 365使用情况
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>使用指标测量Microsoft 365 管理中心
 
 报告仪表板Teams中的使用情况数据。 Teams使用情况数据可在三个不同的报告中找到。 第一份报告提供跨产品视图，其中显示用户如何使用 Office 365 中的各种服务进行通信和Office 365。 可在此处找到此报告[：Office 365活动用户报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -281,9 +281,9 @@ Microsoft Teams是基于云的服务。 因此，能够快速提供新功能。 
 
 ### <a name="references"></a>References 
 
-[关于 Microsoft 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[关于Microsoft 365 管理中心](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[管理中心Microsoft 365报告](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+["活动报告"Microsoft 365 管理中心](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

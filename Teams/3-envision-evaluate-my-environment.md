@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6b65e6f2f6db4f5e824e55368d0a7a097eb39ad9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2498d634bda4760d34b6d76762312e56ae51efe4ea08a9b42b875ac250759403
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302086"
 ---
 # <a name="evaluate-my-environment"></a>评估环境
 
@@ -51,7 +51,7 @@ ms.locfileid: "51094770"
 <table>
 <tr><td>标题</td><td>描述</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>Who将负责完成环境评估？</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录环境评估的结果。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录环境评估的结果。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -69,7 +69,7 @@ ms.locfileid: "51094770"
 <table>
 <tr><td>标题</td><td>描述</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户以前是否成功采用软件或服务？</li><li>能否跟踪使用情况上升？</li><li>你是否拥有资源来设计和管理初始和持续采用活动， (认知、培训和 &mdash; &mdash; 支持) ？</li><li>您是否有专门的用户采用/更改管理团队，或者您是否可以投资这些资源以确保业务成果？</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>如果上述所有人员都回答了"是"，请确定适当的用户变更管理利益干系人 &quot; &quot; 并开始用户准备情况规划。</li><li>如果你对上述部分或所有内容都回答了"否"，请考虑利用外部资源来帮助推动组织变更管理和采用 &quot; &quot; 相关的活动。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>如果上述所有人员都回答了"是"，请确定适当的用户变更管理利益干系人 &quot; &quot; 并开始用户准备情况规划。</li><li>如果你对上述部分或所有内容都回答了"否"，请考虑利用外部资源来帮助推动组织变更管理和采用 &quot; &quot; 相关的活动。</li></ol></td></tr>
 </table>
 
 
@@ -224,7 +224,7 @@ QoS (服务质量) 优先和分隔流量，从而解决障碍。 某些组织选
 <table>
 <tr><td>标题</td><td>描述</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>Who负责在所有网段和组织位置完成适当的网络评估？</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>可以执行详细的网络评估，帮助确保网络已准备好进行Microsoft Teams部署。</li><li>根据每个网络段的评估结果执行网络修正。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>可以执行详细的网络评估，帮助确保网络已准备好进行Microsoft Teams部署。</li><li>根据每个网络段的评估结果执行网络修正。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

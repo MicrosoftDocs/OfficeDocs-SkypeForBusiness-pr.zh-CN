@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
-description: Endpoint 表是一个支持表，用于存储有关已参与数据库中记录的会话的终结点的信息。 表中的每条记录表示一个终结点。
-ms.openlocfilehash: 9caa0571e562a84c1678208f0e70c27317deda3c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Endpoint 表是一个支持表，用于存储有关已参与数据库中记录的会话的终结点的信息。 表中的每条记录都代表一个终结点。
+ms.openlocfilehash: 821f24ae2be38a699ce1c21255a66ec4a2fa2f17e448a1cc7b69a5a91d91d714
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823062"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302196"
 ---
 # <a name="endpoint-table"></a>Endpoint 表
  
-Endpoint 表是一个支持表，用于存储有关已参与数据库中记录的会话的终结点的信息。 表中的每条记录表示一个终结点。
+Endpoint 表是一个支持表，用于存储有关已参与数据库中记录的会话的终结点的信息。 表中的每条记录都代表一个终结点。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**EndpointKey** <br/> |int  <br/> |主  <br/> |标识此终结点的唯一编号。  <br/> |
 |**名称** <br/> |nvarchar (256)   <br/> |独特  <br/> |终结点名称。  <br/> |

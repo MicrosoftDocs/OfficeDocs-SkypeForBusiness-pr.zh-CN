@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用有关设备、网络和连接的按用户呼叫分析详细信息来排查用户Microsoft Teams和会议的问题。
-ms.openlocfilehash: 4732cf68624b824a452455fc779b22ae7eb32d56
-ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
+ms.openlocfilehash: c6c95bd5fca4a5c1da84e5eedcc150242d4757adc03d309db66bbcb9fbbe0cef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760556"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327368"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用呼叫分析排查通话质量不佳的问题
 

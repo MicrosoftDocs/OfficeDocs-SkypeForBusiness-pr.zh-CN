@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: 了解通话套餐或通话套餐的免费拨出Microsoft 365 Office 365套餐Office 365音频Microsoft Teams。
-ms.openlocfilehash: 0f40e35e30de5698ffcb4bf9592868685d8223ed
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bf82b9ffc24000244a2666dedf2bb3ff8cd280cb476d6550747807411a4b9475
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347386"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
@@ -48,7 +48,7 @@ ms.locfileid: "49918878"
 
 此外，在免费拨出期间，有 900 分钟的限制，例如：
 
-具有许可证使用位置 (位置是在任何 ___ 国家/地区的 Microsoft 365 管理中心) 的许可区域中定义的用户国家/地区位置，可以从会议拨出到 44 个区域 [A 国家和地区](audio-conferencing-zones.md)中的任意一个。 每个用户每月向任何区域[A](audio-conferencing-zones.md)国家和地区（在租户级别进行池）接收 900 分钟。 例如，客户购买了 115 个音频会议订阅许可证，在美国有 10 个用户，英国有 100 个用户，印度有 5 个用户，所有这些用户都分配有音频会议订阅许可证。
+具有许可证使用位置 (位置是在任何 ___ 国家/地区的 Microsoft 365 管理中心) 许可区域中定义的用户国家/地区位置，可以从会议拨出到 44 个区域 [A 国家和地区](audio-conferencing-zones.md)中的任意一个。 每个用户每月向任何区域[A](audio-conferencing-zones.md)国家和地区（在租户级别进行池）接收 900 分钟。 例如，客户购买了 115 个音频会议订阅许可证，在美国有 10 个用户，英国有 100 个用户，印度有 5 个用户，所有这些用户都分配有音频会议订阅许可证。
 
 - 所有 115 个用户共享一个池 (，该池的 115 个用户 X 900 分钟) = 每个日历月 103，500 个会议拨出分钟数，可用于向任何区域 [A](audio-conferencing-zones.md)国家和地区拨打出站呼叫。
 

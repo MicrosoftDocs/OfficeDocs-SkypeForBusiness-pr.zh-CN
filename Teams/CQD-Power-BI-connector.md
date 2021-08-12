@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安装 Power BI 连接器以使用 CQD (查询) 呼叫质量仪表板
-ms.openlocfilehash: 388dddc683340238ccff968261595bd46d4bfc65e323cfd1929f699d3c5eed83
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+ms.openlocfilehash: 535a1d067dff81c8019a1c08d1a2a617019300989f515f97f89f471e845ca885
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288500"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>安装 Microsoft 呼叫质量连接器Power BI使用呼叫质量仪表板查询模板
 
@@ -85,9 +85,6 @@ ms.locfileid: "57799053"
 3. 接下来，选择要筛选的任何维度，并将其拖动到"筛选器"窗格中 *此可视* 字段上的 *"筛选器* "。 Microsoft 呼叫质量连接器目前支持基本筛选 (从可能维度值) 列表中选择值，高级筛选 (手动指定要筛选的值和操作数，类似于呼叫质量仪表板) ，而相对日期筛选 *(* 仅适用于"结束时间和开始时间"维度) 。    呼叫质量仪表板不支持根据 *前 N* 个进行筛选。
 
     ![屏幕截图：Power BI连接器](media/CQD-power-bi-connector5-resize.png)
-
-    > [!IMPORTANT]
-    > 筛选器仅在应用于维度时受支持。 通话质量仪表板中不支持筛选度量值。
 
 4. 最后， *选择"可视化* 效果"窗格中 *的"* 格式"选项卡，设置查询的样式和格式。
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams：教育管理员的资源
+title: 面向教育版管理员的 Microsoft Teams 资源
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,14 +17,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ed3e57b22fa97acc68afc930f2bf10ab687abd5ab4d2442c45012ca034889d1
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 801ef646b23b410c8671b9c04a66e57f60731e7ad9b6d1ff0548dbdc335fcbb8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316968"
 ---
-# <a name="microsoft-teams-resources-for-education-admins"></a>面向教育版管理员的 Microsoft Teams 资源
+<a name="microsoft-teams-resources-for-education-admins"></a>面向教育版管理员的 Microsoft Teams 资源
+==============================================
 
 ## <a name="resources-for-remote-learning"></a>用于远程学习的资源
 
@@ -32,27 +33,27 @@ ms.locfileid: "57849107"
 
 ## <a name="adoption-content"></a>采用内容
 
-通过现在Microsoft Teams的电子邮件、海报、讲义和更多资源，让学校感到兴奋。 还可使用填充了横幅、GIF 和视频的新数字工具包在线和跨校园接触学生。 从今天开始！
+通过现在Microsoft Teams的电子邮件、海报、讲义和其他资源，让学校感到兴奋。 还可使用填充了横幅、GIF 和视频的新数字工具包在线和跨校园接触学生。 从今天开始！
 
 在使用这些 [材料之前，](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) 请阅读条款和条件。
 
 ### <a name="physical-assets"></a>物理资产
 
-|&nbsp; | &nbsp; |
+| |  |
 |---------|---------|
-|海报 -[可自定义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)[且可打印](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![海报的照片](media/edu-adoption-posters.png)     |[讲义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![讲义的照片](media/edu-adoption-handouts.png)|
-|[传单](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![传单的照片](media/edu-adoption-flyers.png)   |[书籍](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![一本书的照片。](media/edu-adoption-book-adverts.png)         |
-|["使用技巧和技巧"小册子的照片。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![示例小册子的照片](media/edu-adoption-get-started.png)    |
+|海报 -[可自定义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)[且可打印](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![海报的屏幕截图](media/edu-adoption-posters.png)     |[讲义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![讲义的屏幕截图](media/edu-adoption-handouts.png)|
+|[传单](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![传单的屏幕截图](media/edu-adoption-flyers.png)   |[书籍](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![书籍的屏幕截图](media/edu-adoption-book-adverts.png)         |
+|[使用技巧和技巧手册](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![屏幕截图](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>数字资产
 
 请务必查看数字Toolkit[指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)，以最大程度地Teams发布！ 
 
-| &nbsp; |&nbsp;  |
+|  |  |
 |---------|---------|
-|[电子邮件模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![示例讲义的照片。](media/edu-adoption-email-templates.png)    |[GIF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![GIF 中的屏幕截图](media/edu-adoption-gifs.png)      |
-|[Web 横幅](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![示例 Web 横幅的照片](media/edu-adoption-web-banners.png)    |[视频](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![示例视频打开器屏幕截图](media/edu-adoption-videos.png)          |
-|[数字屏幕界面](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![数字屏幕广告的照片](media/edu-adoption-digital-screen-adverts.png)   |      |
+|[电子邮件模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![屏幕截图](media/edu-adoption-email-templates.png)    |[GIF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![GIF 中的屏幕截图](media/edu-adoption-gifs.png)      |
+|[Web 横幅](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Web 横幅的屏幕截图](media/edu-adoption-web-banners.png)    |[视频](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![屏幕截图](media/edu-adoption-videos.png)          |
+|[数字屏幕界面](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![数字屏幕广告的屏幕截图](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>行动号召
 

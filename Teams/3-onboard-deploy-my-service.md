@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c3f0105a04484efcabd5ab6c55d1269c3627895
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 35ac2d0b8158a089e3f002108172066dcf6853c3525c6358dcdd2c8c57d19fa0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112628"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288690"
 ---
 # <a name="deploy-my-service"></a>部署服务
 
@@ -109,7 +109,7 @@ Playbook 的重点是解决影响用户对语音部署Teams的因素。 活动�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定是否需要站点启用 Playbook 进行部署。</li><li>确定谁将负责为要部署的每一个Microsoft Teams自定义网站启用 Playbook。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">下载网站启用 Playbook。</a></li><li>为第一个网站自定义网站启用 Playbook。</li><li>根据需要对其他网站重复上述步骤。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">下载网站启用 Playbook。</a></li><li>为第一个网站自定义网站启用 Playbook。</li><li>根据需要对其他网站重复上述步骤。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

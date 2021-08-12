@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在葡萄牙获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: fad26e785297df115bb283e4f88389c647c0c301
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 529d96eedeb9e7223a5bde76651a321de68060b31a2facfb57437fb6aa0305c0
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849257"
 ---
 # <a name="phone-number-management-for-portugal"></a>电话葡萄牙的号码管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "53509953"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [针对葡萄牙的新电话号码请求 (v.5.0)  (pt-pt) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [针对葡萄牙 5.5.0 (5.0)  (的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。<br/><br/> 还必须填写三方协议，签署该协议，并 [联系 PTSN 了解说明](contact-pstn-service-desk.md)。 在您下订单获取新电话号码后，我们的 PSTN 服务台团队将发送给您此表单。 <br/><br/>|
-|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[葡萄牙的 (LOA) 授权书 (v.6.0)  (6.0)  (pt-pt) ](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 <br/><br/> 还必须填写三方协议，签署该协议，并 [联系 PTSN 了解说明](contact-pstn-service-desk.md)。 在您下订单转移电话号码后，我们的 PSTN 服务台团队将发送给您此表单。<br/><br/>|
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md)      <br/> |
-|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [针对葡萄牙的新电话号码请求 (v.5.0)  (pt-pt) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [针对葡萄牙 5.5.0 (5.0)  (的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。<br/><br/> 还必须填写三方协议，签署该协议，并 [联系 PTSN 服务台了解说明](contact-pstn-service-desk.md)。 在您下订单获取新电话号码后，我们的 PSTN 服务台团队将发送给您此表单。 <br/><br/>|
+|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[葡萄牙的 (LOA) 授权书 (v.6.0)  (v.6.0)  (pt-pt) ](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 <br/><br/> 还必须填写三方协议，签署该协议，并 [联系 PTSN 服务台了解说明](contact-pstn-service-desk.md)。 在您下订单转移电话号码后，我们的 PSTN 服务台团队将发送给您此表单。<br/><br/>|
+|发布/取消发布 () 电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。      <br/> |
+|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PTSN 服务台，获得说明](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题
 

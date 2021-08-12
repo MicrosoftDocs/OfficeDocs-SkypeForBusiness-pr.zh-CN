@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: Dialogs 表是一个支持表，用于存储有关对等会话的 DialogID 的信息。
-ms.openlocfilehash: a4f0bb8c63e165985ef09af8f9aafa071529bf1f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 368abb6131367434edbdf1fe142a376fe9a155277eec8b369482545146dbdc3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302276"
 ---
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 Dialogs 表
  
 Dialogs 表是一个支持表，用于存储有关对等会话的 DialogID 的信息。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |主  <br/> |会话请求的时间;与 SessionIDSeq 结合使用来唯一地标识会话。  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |主  <br/> |用于标识会话的 ID 号。 与 SessionIDTime 结合使用来唯一地标识会话。  <br/> |

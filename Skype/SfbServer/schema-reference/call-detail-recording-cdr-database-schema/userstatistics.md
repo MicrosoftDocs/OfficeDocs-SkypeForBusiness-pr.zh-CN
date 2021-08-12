@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
-description: UserStatistics 表是一个支持表。 表中的每条记录存储有关单个用户对系统使用情况的信息。 此表在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 65017c9f807b272097b39bac88c80cc81e617ff4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: UserStatistics 表是一个支持表。 表中的每条记录都存储有关单个用户对系统的使用情况的信息。 此表在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: d0d3fde20f7c8c94629f75ff00f310111cac16d386fc0b0373ee07b5c2a35fb5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813102"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302206"
 ---
 # <a name="userstatistics-table"></a>UserStatistics 表
  
-UserStatistics 表是一个支持表。 表中的每条记录存储有关单个用户对系统使用情况的信息。 此表在 Microsoft Lync Server 2013 中引入。
+UserStatistics 表是一个支持表。 表中的每条记录都存储有关单个用户对系统的使用情况的信息。 此表在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**UserId** <br/> |int  <br/> |主  <br/> |用于标识此用户的唯一编号。  <br/> |
 |**LastLogInTime** <br/> |datetime  <br/> ||用户上次登录时间。  <br/> |

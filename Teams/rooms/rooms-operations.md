@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 阅读本主题，了解下一Microsoft Teams 会议室一代会议室Skype管理。
-ms.openlocfilehash: 52234f72c380c4f5af8f47fff51998fa8c3d1459
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c10b428e8ae08dfeceec5205295c1f669cd910aabc8b7617dac5be0f1ade824a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117430"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316839"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 会议室维护和操作 
  

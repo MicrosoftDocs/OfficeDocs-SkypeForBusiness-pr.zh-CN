@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 了解如何使用和管理适用于医疗保健组织的 Teams 策略包。
-ms.openlocfilehash: 19c0fee14138b248c4e25d88a9103df4a5618598
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 6102d6a2041db445a0a8900bce3a1c60047f33010ab54dc9e0730011c3cdc225
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796806"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316958"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Teams 医疗保健策略包
 
@@ -87,7 +87,7 @@ Teams 当前包括以下医疗保健策略包。
 将策略包分配给用户。如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。
 
 > [!NOTE]
-> 每个用户都需要高级通信加载项才能接收自定义策略包分配。 有关详细信息，请参阅适用于 Microsoft Teams[的高级通信Microsoft Teams。](/microsoftteams/teams-add-on-licensing/advanced-communications)
+> 为了接受自定义策略包分配，每位用户都需要高级通信加载附加产品。 有关详细信息，请参阅 [Microsoft Teams 高级通信附加产品](/microsoftteams/teams-add-on-licensing/advanced-communications)。
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>向一个或多个用户分配策略包
 
