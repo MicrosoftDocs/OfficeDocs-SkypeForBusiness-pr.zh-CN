@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
 description: 配置监控服务器并将其与控制器或控制器池关联：
-ms.openlocfilehash: f4c61893ab6d703afd9dc82b5fc21a9b611261fd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d8edad120b8f2d8e90e32cfd23beca597e08ecd513a688b4a1a65323cf9c6547
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346568"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>将控制器与 Lync Server 2010 监控页面关联
  
@@ -28,7 +28,7 @@ ms.locfileid: "49818572"
   
 在 **"监控服务器** "下，从列表中选择监控服务器。
   
-如果没有监控服务器，并且您想要立即创建监控服务器，请单击"**新建"。**
+如果没有监控服务器，并且要立即创建监控服务器，请单击"新建 **"。**
   
  **返回**：返回到之前的对话框
   

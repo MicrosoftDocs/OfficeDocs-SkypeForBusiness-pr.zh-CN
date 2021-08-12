@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 阅读本主题，查看使用云连接器版本 2.0 版和更高版本实现媒体旁路的规划注意事项。 有关部署媒体旁路的信息，请参阅在云连接器版本中部署媒体旁路。
-ms.openlocfilehash: bae10c77a6b382eaca7189ed6ae52960a6fb1bf9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 622bb6cbc4acf5987d28a2c4823bdfd0e495445cba84ed01762423c8e65de576
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339888"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>云连接器版本中的媒体旁路规划
  
@@ -37,13 +37,13 @@ ms.locfileid: "51096196"
 
 虽然信号采用相同路径（带或不带媒体旁路功能）时，媒体流将有所不同。 下图显示了具有和没有媒体旁路的拓扑中的媒体和信号路径。 
   
-例如，在下列拓扑（不采用媒体旁路）中，Skype for Business 客户端向外部号码发出 PSTN 呼叫，SIP 信号将转到 Microsoft 365 或 Office 365，根据最终用户语音策略将信号流量引导到该拓扑。 对于云连接器用户，语音策略将信号通信路由到云连接器边缘服务器，然后该服务器通过云连接器中介服务器将信号通信路由到 PSTN 会话边界控制器 (SBC) 或网关。 媒体从 Skype for Business 客户端流到云连接器中介服务器，然后流到 SBC 或网关，如下图所示：
+例如，在下列拓扑（没有使用媒体旁路）中，Skype for Business 客户端向外部号码发出 PSTN 呼叫，SIP 信号将转到 Microsoft 365 或 Office 365，根据最终用户语音策略将信号流量引导到该拓扑。 对于云连接器用户，语音策略将信号通信路由到云连接器边缘服务器，然后该服务器通过云连接器中介服务器将信号通信路由到 PSTN 会话边界控制器 (SBC) 或网关。 媒体从 Skype for Business 客户端流到云连接器中介服务器，然后流到 SBC 或网关，如下图所示：
   
 **没有媒体旁路的媒体和信号路径**
 
 ![无媒体旁路功能的信号](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
-来自 PSTN 的入站呼叫在相反方向使用相同的信号路径。 对于内部用户，媒体最终仍将在 Skype for Business 客户端和云连接器中介服务器之间流动，然后再在 SBC 或网关之间流动。
+来自 PSTN 的入站呼叫在相反方向使用相同的信号路径。 对于内部用户，媒体最终仍将在 Skype for Business 客户端与云连接器中介服务器之间流动，然后流至 SBC 或网关。
   
 在采用媒体旁路的下一个拓扑中，信号采用相同的路径，但媒体直接在 Skype for Business 客户端和 SBC 或网关之间流动，如下图所示：
   
@@ -59,7 +59,7 @@ ms.locfileid: "51096196"
 
 ![云连接器多站点示例](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. SIP 流量从苏黎世的用户流向 Microsoft 365 或 Office 365。
+1. SIP 流量从苏黎世的用户流向Microsoft 365 Office 365。
     
 2. 然后，流量将路由到位于阿姆斯特丹的云连接器设备，如用户语音路由策略中指定。
     
@@ -75,18 +75,18 @@ ms.locfileid: "51096196"
   
 ## <a name="supported-clients-for-media-bypass"></a>支持媒体旁路的客户端
 
-首次发布媒体旁路功能后，唯一受支持的客户端是 Skype for Business 2016 Windows 客户端，它是 Microsoft 365 企业应用版版本 16.0.7870.2020 或更大版本的一部分。 客户可以使用任何频道：Current、Deferred 或 First Release Deferred。 
+对于第一个版本的媒体旁路，唯一受支持的客户端是 Skype for Business 2016 Windows 客户端，它是 Microsoft 365 企业应用版 版本 16.0.7870.2020 或更高的一部分。 客户可以使用任何频道：Current、Deferred 或 First Release Deferred。 
   
 > [!NOTE]
-> 如果你将客户端 VPN 解决方案与 Skype for Business 客户端结合使用，则媒体旁路仅受 VPN 拆分隧道配置支持。 
+> 如果结合使用客户端 VPN 解决方案和 Skype for Business，则只有 VPN 拆分隧道配置才支持媒体旁路。 
   
-有关发布频道详细信息，请参阅 [Microsoft 365](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)企业应用版更新频道概述。
+有关发布频道的信息，请参阅更新频道概述[Microsoft 365 企业应用版。](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)
   
-有关不同渠道中客户端的当前发行版，请参阅 [Microsoft 365](/officeupdates/release-notes-office365-proplus)企业应用版更新的发布信息。 
+有关不同渠道中客户端的当前版本，请参阅发布更新信息以[Microsoft 365 企业应用版。](/officeupdates/release-notes-office365-proplus) 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>媒体旁路的云连接器容量注意事项
 
-没有媒体旁路功能（具体取决于硬件）云连接器设备可以处理 50 到 500 个同时呼叫，这些呼叫需要媒体通过中介服务器。 有关详细信息，请参阅[Plan for Skype for Business Cloud Connector Edition。](./plan-skype-for-business-cloud-connector-edition.md) 
+没有媒体旁路功能（具体取决于硬件）云连接器设备可以处理 50 到 500 个同时呼叫，这些呼叫需要媒体通过中介服务器。 有关详细信息，请参阅规划[Skype for Business 云连接器版本。](./plan-skype-for-business-cloud-connector-edition.md) 
   
 启用媒体旁路后，受支持版本上的内部客户端不使用中介服务器，因此内部客户端的数量会显著增加。 
   
@@ -100,7 +100,7 @@ ms.locfileid: "51096196"
   
 始终绕过需要在用户和 PSTN 站点内的 PSTN 网关之间建立无结构连接。 
   
-有关详细信息，请参阅[Plan for Skype for Business Cloud Connector Edition。](./plan-skype-for-business-cloud-connector-edition.md) 
+有关详细信息，请参阅规划[Skype for Business 云连接器版本。](./plan-skype-for-business-cloud-connector-edition.md) 
   
 例如，在下图中，欧洲用户必须很好地连接到位于阿姆斯特丹的三个会话边界控制器 (SDC) ，而美国西部的用户必须很好地连接到西雅图的两个 SDC。 连接良好意味着它们位于与 SDC 或网关相同的网络站点中，或者位于具有适当带宽的 WAN 链路上。
   

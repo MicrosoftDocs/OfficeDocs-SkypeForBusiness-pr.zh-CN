@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解如何Microsoft 电话系统直接路由将受支持的客户提供的会话边界控制器与 SBC (连接到) Microsoft 电话系统。
-ms.openlocfilehash: 6474d9a4d7d4dfd3b970fdd9b189ecbfa85a00a9
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 54c3ad54bfe3ba677ed9e087f9b30bb19fd21e06b030faf8c1c332fbc1cfd500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339799"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -147,7 +147,7 @@ SBC 域名必须来自在租户的"域"中注册的名称之一。 不能将 \* 
 |DNS 名称|可用于 SBC FQDN|FQDN 名称示例|
 |:--- |:--- |:--- |
 contoso.com|是|**有效名称：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|否|SBC onmicrosoft.com 不支持使用 *.onmicrosoft.com 域
+|contoso.onmicrosoft.com|弱|SBC onmicrosoft.com 不支持使用 *.onmicrosoft.com 域
 
 假设要使用新的域名。 例如，租户已 contoso.com 作为在租户中注册的域名，并且想要使用 sbc1.sip.contoso.com。 在将 SBC 与名称 sbc1.sip.contoso.com 之前，必须在租户 sip.contoso.com 域中注册域名。 如果在注册域名之前尝试将 SBC 与 sbc1.sip.contoso.com 配对，则收到以下错误："无法使用"sbc1.sip.contoso.com"域，因为它未为此租户配置。"
 添加域名后，还需要使用 UPN 帐户创建用户 user@sip.contoso.com 分配Teams许可证。 将域名添加到租户的"域"后，可能需要最多 24 小时才能完全预配该域名，将创建具有新名称的用户，并将许可证分配给该用户。 

@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中管理 SIP 中继服务提供商的位置
+title: 管理 SIP 中继服务提供商在Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
-description: 在 Skype for Business Server 企业语音 中，为使用 SIP 中继提供商的 E9-1-1 部署规划位置信息数据库或类似外部数据库企业语音。
-ms.openlocfilehash: b175c2cc3d0ed02a124a365787c8cb5d7cd37d10
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 规划使用 SIP 中继提供商的 E9-1-1 部署的位置信息数据库或类似外部数据库所必需的决策Skype for Business Server 企业语音。
+ms.openlocfilehash: cd62ad46fc592f8ea5357d44b65bf94809c858e74472a6f2830047a5f37f5aba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101438"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286491"
 ---
-# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>在 Skype for Business Server 中管理 SIP 中继服务提供商的位置
+# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>管理 SIP 中继服务提供商在Skype for Business Server
 
-在 Skype for Business Server 企业语音 中，为使用 SIP 中继提供商的 E9-1-1 部署规划位置信息数据库或类似外部数据库企业语音。
+规划使用 SIP 中继提供商的 E9-1-1 部署的位置信息数据库或类似外部数据库所必需的决策Skype for Business Server 企业语音。
 
-要配置 Skype for Business Server 以在网络中自动定位客户端，你需要使用网络线路映射填充位置信息服务数据库并发布位置，或链接到已包含正确映射的外部数据库。 作为此过程的一部分，您需要使用 E9-1-1 服务提供商验证位置的市政地址。 有关详细信息，请参阅[部署文档中的 Configure the Location Database。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)
+若要Skype for Business Server网络内自动定位客户端，您需要使用网络线路映射填充位置信息服务数据库并发布位置，或链接到已包含正确映射的外部数据库。 作为此过程的一部分，您需要使用 E9-1-1 服务提供商验证位置的市政地址。 有关详细信息，请参阅[部署文档中的 Configure the Location Database。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)
 
 You populate the Location Information service database with an Emergency Response Location (ERL) ， which consists of a civic address and the specific address within a building. 位置信息服务 **位置** 字段是建筑物内的特定位置，最大长度为 20 个字符， (包括) 。 在该有限的长度内，请尝试包括以下内容：
 
 - 一个易于理解的、指示 911 呼叫者的位置的名称，以帮助确保紧急响应者到达市政地址后能够迅速找到具体位置。此位置名称可能包括楼号、楼层数、侧楼标识、房间号码等等。应避免使用仅员工知晓的昵称，这样可能导致紧急响应者找错位置。
 
-- 可帮助用户轻松查看其 Skype for Business 客户端已选取正确位置的位置标识符。 Skype for Business 客户端会自动连接并在其标头中显示发现的 **Location** 和 **City** 字段。 一个好的做法是将建筑物的街道地址添加到每个位置标识符 (例如，"1st <street number> Floor") 。 如果没有街道地址，那么通用的位置标识符（例如“1st Floor”）可以适用于城市中的所有建筑。
+- 一个位置标识符，可帮助用户轻松查看其Skype for Business客户端选取了正确的位置。 客户端Skype for Business连接并在其标头中显示发现的 **Location** 和 **City** 字段。 一个好的做法是将建筑物的街道地址添加到每个位置标识符 (例如，"1st <street number> Floor") 。 如果没有街道地址，那么通用的位置标识符（例如“1st Floor”）可以适用于城市中的所有建筑。
 
 - 如果位置是近似值，因为它由无线访问点确定，您可以添加 **单词 [Near]** (例如，"Near 1st Floor 1234") 。
 
@@ -52,9 +52,9 @@ You populate the Location Information service database with an Emergency Respons
 
  **是否具有已包含位置映射的第三方数据库？**
 
-通过使用辅助位置信息服务选项连接到第三方数据库，您可以使用脱机平台对位置进行分组和管理。 此方案的优势在于除了将位置与网络标识符关联外，还可以将位置与用户关联。 这意味着位置信息服务可以将源自辅助位置信息服务的多个地址返回到 Skype for Business 客户端。 然后用户可以选择最合适的位置。
+通过使用辅助位置信息服务选项连接到第三方数据库，您可以使用脱机平台对位置进行分组和管理。 此方案的优势在于除了将位置与网络标识符关联外，还可以将位置与用户关联。 这意味着位置信息服务可以将来自辅助位置信息服务的多个地址返回给一个Skype for Business客户端。 然后用户可以选择最合适的位置。
 
-若要与位置信息服务集成，第三方数据库必须遵循 Lync Server 位置请求/响应架构。 有关详细信息，请参阅["[MS-E911WS]： Web Service for E911 Support Protocol Specification"。](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的在 [Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) 中配置辅助位置信息服务。
+若要与位置信息服务集成，第三方数据库必须遵循 Lync Server 位置请求/响应架构。 有关详细信息，请参阅["[MS-E911WS]： Web Service for E911 Support Protocol Specification"。](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) 有关部署辅助位置信息服务的详细信息，请参阅部署文档中Skype for Business Server配置[](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)辅助位置信息服务。
 
 有关填充位置数据库的详细信息，请参阅部署文档中的 Configure [the Location Database。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)
 

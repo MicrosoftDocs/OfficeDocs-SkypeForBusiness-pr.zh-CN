@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用Power BI分析 CQD 数据Microsoft Teams。
-ms.openlocfilehash: 5ef98f75854cb4a255bf3f01aeb32de66c059b76
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7314a0fb4a5bd1058e2270a3302e165eacc05d07dca4ebcc599a75aed687cd74
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286231"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用Power BI分析用于存储的 CQD Microsoft Teams
 

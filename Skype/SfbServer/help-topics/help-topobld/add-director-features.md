@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 description: 如果希望控制器池包含监控服务器，请选择"监控" (CDR 和 QoE) 。
-ms.openlocfilehash: 246aafa8b8b8ae12461d64f01813eb493f75972e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 205af3c41f46d18fb22cab816fb4ff9eac9c504624b71851319a6228da351071
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119821"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346768"
 ---
 # <a name="add-director-features"></a>添加控制器功能
 

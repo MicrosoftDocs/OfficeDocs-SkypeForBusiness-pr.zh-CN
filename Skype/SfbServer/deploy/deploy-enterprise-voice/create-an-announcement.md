@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 创建或删除通知
+title: 在邮件中删除通知Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: Create or delete announcements for Announcement application in Skype for Business Server 企业语音. 这会影响如何处理对未分配号码的呼叫。
-ms.openlocfilehash: 571dce52366430c0e13f442de4917a2c51ed056f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 创建或删除通知应用程序中通知Skype for Business Server 企业语音。 这会影响如何处理对未分配号码的呼叫。
+ms.openlocfilehash: f382c86ee6773f586e1fb1d1080c9c9ce64a46dc253ff81275252a28db1addd0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093280"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283874"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>在 Skype for Business Server 创建或删除通知
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>在邮件中删除通知Skype for Business Server
 
-Create or delete announcements for Announcement application in Skype for Business Server 企业语音. 这会影响如何处理对未分配号码的呼叫。
+创建或删除通知应用程序中通知Skype for Business Server 企业语音。 这会影响如何处理对未分配号码的呼叫。
 
 配置通知的同时，实际也配置了对未分配号码的呼叫的处理方式。可以播放提示（可以是音频文件或文本到语音转换 (TTS) 文件），或者在不播放提示的情况下直接将呼叫转接到指定目标。
 
@@ -52,9 +52,9 @@ Create or delete announcements for Announcement application in Skype for Busines
 
 1. 对于音频提示，请创建音频文件。
 
-2. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
+2. 以 RTCUniversalServerAdmins 组的成员或必要的用户权限（如D委托安装权限中所述）登录到安装了命令行管理程序Skype for Business Server **的计算机。**
 
-3. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+3. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
 4. 对于音频提示，请运行：
 
@@ -90,9 +90,9 @@ Create or delete announcements for Announcement application in Skype for Busines
 
 ### <a name="to-delete-an-announcement"></a>删除通知
 
-1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
+1. 以 RTCUniversalServerAdmins 组的成员或必要的用户权限（如D委托安装权限中所述）登录到安装了命令行管理程序Skype for Business Server **的计算机。**
 
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
 3. 列出组织中的所有通知。在命令行运行：
 
@@ -117,7 +117,7 @@ Create or delete announcements for Announcement application in Skype for Busines
 
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 创建或删除通知](create-an-announcement.md)
+[在邮件中删除通知Skype for Business Server](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 

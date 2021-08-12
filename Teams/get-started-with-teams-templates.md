@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0208b8c6ad16cc42611768a25237a6e48bf60401
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 8bee4379eb82d577104d2d69ff2e11c168f2de62d3e903fcff196d45293c2365
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717823"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322554"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>开始使用 Microsoft Graph 的团队模板
 
@@ -46,7 +46,7 @@ ms.locfileid: "52717823"
 
 | **团队模板支持的团队属性** | **团队模板尚不支持的团队属性** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| 基本模板类型 | 团队成员身份 |
+| 基本模板类型 | 团队成员资格 |
 | 团队名称 | 团队图片 |
 | 团队说明 | 频道设置 |
 | 团队可见性 (公共或专用)  | 连接器 |

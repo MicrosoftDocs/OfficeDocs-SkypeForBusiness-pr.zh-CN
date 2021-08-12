@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 使用此表查找有关在美国获取和管理电话号码的信息，包括 (波多黎各) Microsoft Teams。
-ms.openlocfilehash: 573e77fa1cfdb7048240f642e7c7db40953e2673
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 8baef73ea10c9d4f4a48cd78a694146c76daa313b6effa9ac5c4b262e1520d9b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322524"
 ---
 # <a name="phone-number-management-for-the-united-states"></a>电话美国的电话号码管理
 

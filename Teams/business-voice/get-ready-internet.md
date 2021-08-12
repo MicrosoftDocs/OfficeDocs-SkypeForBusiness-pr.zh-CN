@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37bd749e44c2020d35a927491553662c74bff01f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 0b5aed539e7d32db7650bb1b9778c912d0065b411832337438c251177d88e809
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286061"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>检查用于企业语音的 Internet 连接
 
@@ -65,7 +65,7 @@ ms.locfileid: "44610971"
 3. 在“**网络计划**”下，选择“**添加**”。 输入计划的名称，然后选择“**应用**”。 网络计划应如下所示：
 
     ![网络规划器主屏幕](../media/network-planner-main.png)
-1. 选择网络计划的名称。 （即上图中的**主要办公室**。）
+1. 选择网络计划的名称。 （即上图中的 **主要办公室**。）
 2. 在下一页上，选择“**网络站点**”选项卡上的“**添加网络站点**”。
 3. 仅填写以下屏幕截图中所示的字段，然后选择“**保存**”。 将此屏幕上的其他字段留空，不要选择“**ExpressRoute**”或“**已连接到 WAN**”选项。
 
@@ -91,7 +91,7 @@ ms.locfileid: "44610971"
 
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>确保网络上的计算机和设备可以访问 Microsoft 365
 
-使用企业语音的计算机和设备必须使用特定的网络端口与 Microsoft 365 服务器进行通信。 这些端口本质上是一种“门”；设备通过这个门在网络或 Internet 上互相通信。 你的防火墙需要允许网络上的设备通过下列*出站*网络端口访问 Microsoft 365：
+使用企业语音的计算机和设备必须使用特定的网络端口与 Microsoft 365 服务器进行通信。 这些端口本质上是一种“门”；设备通过这个门在网络或 Internet 上互相通信。 你的防火墙需要允许网络上的设备通过下列 *出站* 网络端口访问 Microsoft 365：
 
 * **TCP 端口** 80 和 443
 * **UDP 端口** 3478、3479、3480 和 3481
@@ -106,7 +106,7 @@ ms.locfileid: "44610971"
 
    * 如果呼叫已接通，并且可以听到自己的留言，则表示你的防火墙已正确设置。
    * 如果呼叫已接通，但无法听到语音指示或留言，请确保已正确设置扬声器和麦克风，然后重试。
-   * 如果呼叫未接通，或已经接通但无法听到留言，则可能需要更新防火墙，以便允许访问所需的网络端口。 请查看防火墙的文档，或联系 IT 专家获取帮助。
+   * 如果呼叫未接通，或已经接通但无法听到留言，则可能需要更新防火墙，以便允许访问所需的网络端口。请查看防火墙的文档，或联系 IT 专家获取帮助。
 
  如果你是 IT 专业人员，想要详细了解如何准备大型或更复杂的网络来支持企业语音，请查看[评估环境](../3-envision-evaluate-my-environment.md)。 这篇文章提供了有关带宽、代理和防火墙要求的信息，还介绍了如何使用[网络评估工具](../3-envision-evaluate-my-environment.md#test-the-network)来测试网络。
 

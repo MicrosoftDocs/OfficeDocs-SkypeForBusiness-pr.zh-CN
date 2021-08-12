@@ -14,13 +14,13 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
-description: “执行命令”页显示正在检索待处理证书的命令的状态。 完成此任务后，“检索待处理证书”日志文件将可用。 单击“查看日志”以查看处理情况和任务完成状态。 单击"下一步"继续。
-ms.openlocfilehash: b1f22d0dcd6d5c3a594a83a289a2261df8f211b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: “执行命令”页显示正在检索待处理证书的命令的状态。完成此任务后，“检索待处理证书”日志文件将可用。单击“查看日志”以查看处理情况和任务完成状态。单击“下一步”继续。
+ms.openlocfilehash: 2a5e755e07b8985563cd17df842d2f9b42b1e33b8e5967221c72e65228f39fca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298542"
 ---
 # <a name="pending-certificate-invoke"></a>待处理的证书（调用）
  

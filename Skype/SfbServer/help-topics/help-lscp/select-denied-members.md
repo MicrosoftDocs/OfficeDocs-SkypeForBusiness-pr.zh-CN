@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: 持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别时，持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户) 这些主体有权访问特定类别的聊天室的成员/创建者。 持久聊天管理员还可以将 DeniedMembers 添加到类别，这些成员将成为允许列表的显式排除项。 DeniedMembers 会覆盖 AllowedMembers 中的功能。
-ms.openlocfilehash: 5a31716c2fae15c6216ed050b543673479415a76
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2e4927532e6991565095693d7c087bcdf5b826d47aaf3fa101e30cecced7664a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331564"
 ---
 # <a name="select-denied-members"></a>选择被拒绝的成员
 
@@ -34,7 +34,7 @@ ms.locfileid: "51107958"
 
 - [新增的群聊服务器功能](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 

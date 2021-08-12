@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: 可以配置位置策略以确定增强型 9-1-1 (E9-1-1) 是否已启用，如何使用它，以及如何将位置信息用于用户和联系人。
-ms.openlocfilehash: 587d239551111c028026aef463c853a1ac93714f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: adb3129adbcee49ed20e6f7d7191d075487ea221c06c2db9c1d5e6003555675a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331580"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>位置策略：创建新的或编辑现有的
 
@@ -68,4 +68,4 @@ ms.locfileid: "51099708"
 
   - **双向** 指定第三方可以参与呼叫者与 PSAP 接线员之间的呼叫。
 
-有关紧急企业语音功能的详细信息，请参阅规划文档中的[Overview of E9-1-1。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)。
+有关紧急企业语音功能的详细信息，请参阅规划文档中的 Overview of [E9-1-1。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)。

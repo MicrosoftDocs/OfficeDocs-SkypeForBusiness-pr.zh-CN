@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中部署媒体旁路
+title: 部署媒体旁路Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
-description: Deploy media bypass in Skype for Business Server 企业语音. 包括先决条件和部署过程清单。
-ms.openlocfilehash: be29d86dc9e7bd627a83b41d4666eacfcb6d46a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 部署媒体旁路Skype for Business Server 企业语音。 包括先决条件和部署过程清单。
+ms.openlocfilehash: 35b6ec05fe1ca410b51cf9d573e003774904d875182d195d8d221e45be42b9bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322454"
 ---
-# <a name="deploy-media-bypass-in-skype-for-business-server"></a>在 Skype for Business Server 中部署媒体旁路
+# <a name="deploy-media-bypass-in-skype-for-business-server"></a>部署媒体旁路Skype for Business Server
  
-Deploy media bypass in Skype for Business Server 企业语音. 包括先决条件和部署过程清单。
+部署媒体旁路Skype for Business Server 企业语音。 包括先决条件和部署过程清单。
   
-本主题假定你已发布并配置了至少一台或多台中介服务器以及至少一个对等网关以提供 PSTN 连接。 有关这些任务的更多详细信息，请参阅[Deploy a Mediation Server in Topology Builder in Skype for Business Server](deploy-a-mediation-server.md)和 Define a gateway in [Topology Builder in Skype for Business Server。](define-a-gateway.md)
+本主题假定你已发布并配置了至少一台或多台中介服务器以及至少一个对等网关以提供 PSTN 连接。 有关这些任务的更多详细信息，请参阅 Skype for Business Server[](deploy-a-mediation-server.md)中的在拓扑生成器中部署中介服务器和在拓扑生成器中定义[Skype for Business Server。](define-a-gateway.md)
   
  如果您连接到的对等方是 SIP 中继提供商的 SBC，请确保该提供商是合格的提供商，并且该提供商支持媒体旁路。 例如，很多 SIP 中继提供商仅允许其 SBC 接收来自中介服务器的流量。 如果这样，则不得为出现故障的中继启用绕过。 同时，只有您的组织向 SIP 中继提供商显示其内部网络 IP 地址后，您才能启用媒体绕过。
   
@@ -47,6 +47,6 @@ Deploy media bypass in Skype for Business Server 企业语音. 包括先决条�
   
 |**阶段**|**步骤**|**Roles**|**部署文档**|
 |:-----|:-----|:-----|:-----|
-|配置用于媒体旁路的中继  <br/> |如果尚未配置，请为媒体旁路配置一个或多个中继。  <br/> | RTCUniversalServerAdmins 组的成员，或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成员 <br/> |[在 Skype for Business Server 中配置带媒体旁路的中继](configure-trunk-with-media-bypass.md) <br/> |
-|全局配置媒体旁路  <br/> |为 PSTN 的所有呼叫或基于网络站点和网络区域的某些呼叫配置媒体旁路。  <br/> | RTCUniversalServerAdmins 组的成员，或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成员 <br/> |[在 Skype for Business Server 中配置媒体旁路以始终绕过中介服务器](bypass-the-mediation-server.md) <br/> [在 Skype for Business Server 中配置媒体旁路全局设置以使用站点和地区信息](use-site-and-region-information.md) <br/> |
+|配置用于媒体旁路的中继  <br/> |如果尚未配置，请为媒体旁路配置一个或多个中继。  <br/> | RTCUniversalServerAdmins 组的成员，或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成员 <br/> |[在客户端中配置具有媒体旁路Skype for Business Server](configure-trunk-with-media-bypass.md) <br/> |
+|全局配置媒体旁路  <br/> |为 PSTN 的所有呼叫或基于网络站点和网络区域的某些呼叫配置媒体旁路。  <br/> | RTCUniversalServerAdmins 组的成员，或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成员 <br/> |[配置媒体旁路Skype for Business Server以始终绕过中介服务器](bypass-the-mediation-server.md) <br/> [配置媒体旁路全局Skype for Business Server以使用站点和地区信息](use-site-and-region-information.md) <br/> |
 |如有必要，将子网与网络站点关联  <br/> |如果将媒体旁路配置为使用站点和地区信息，则必须将部署的子网与网络站点和 (如果尚未针对其他语音功能进行关联)   <br/> | RTCUniversalServerAdmins 组的成员，或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成员 <br/> |[将子网与网络站点关联](deploy-network.md#BKMK_AssociateSubnets) <br/> |

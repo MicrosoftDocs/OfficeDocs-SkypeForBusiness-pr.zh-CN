@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何在 Microsoft 365 商务语音 中为小型企业设置呼叫Microsoft 365 商务语音。
-ms.openlocfilehash: 0e0f6dde164f270987d4b01c6bc3528f8799a662
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 7c374819fd142d86d53c92b32f2799b861833006371ee4038a4769eaeb396f0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286181"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>创建呼叫队列 - 小型企业教程
 

@@ -1,5 +1,5 @@
 ---
-title: 安装和配置 Skype for Business Server 的忙碌选项
+title: 安装和配置忙碌选项Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: 了解如何在 Skype for Business Server 中安装和配置忙碌选项。
-ms.openlocfilehash: 04690e9f2c7fbf16b67432526fe5c8fd6e5b95af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 了解如何安装和配置忙碌选项。Skype for Business Server。
+ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322394"
 ---
-# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安装和配置 Skype for Business Server 的忙碌选项
+# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安装和配置忙碌选项Skype for Business Server
 
-了解如何在 Skype for Business Server 中安装和配置忙碌选项。
+了解如何安装和配置忙碌选项。Skype for Business Server。
 
 忙碌选项是 2016 年 7 月累积更新中引入的新语音策略，允许你配置当用户正在接听电话或参加会议或将呼叫置于保留状态时如何处理传入呼叫。 可以使用繁忙信号拒绝新呼叫或传入呼叫，也可以将新呼叫或传入呼叫转发到语音邮件。
 
-如果为组织启用了忙碌选项，企业版中的所有用户（包括企业语音和非企业语音用户）都可以使用以下配置选项：
+如果为组织启用了忙碌选项，Enterprise所有用户（企业语音和非 企业语音 用户）都可以使用以下配置选项：
 
 - Busy on Busy - 在用户忙碌时，新传入呼叫将因繁忙信号而被拒绝。
 
@@ -36,11 +36,11 @@ ms.locfileid: "51106308"
 
 无论用户如何配置忙碌选项，呼叫或会议中的用户或呼叫保持的用户不会阻止发起新呼叫或会议。
 
-有关忙碌选项功能的详细信息，请参阅 Plan [for Busy Options for Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)
+有关忙碌选项功能的详细信息，请参阅 Plan [for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
 
 ## <a name="install"></a>安装
 
-请确保已安装最新版本的 Skype for Business Server，并且已安装最新的修补程序。 为此，首先停止所有服务，然后运行 Skype for Business Server 更新安装程序，如下所示：
+请确保已安装最新版本的 Skype for Business Server并且已安装最新的修补程序。 为此，首先停止所有服务，然后Skype for Business Server更新安装程序，如下所示：
 
 1. 运行 Stop-CsWindowsService 命令。
 
@@ -91,7 +91,7 @@ ms.locfileid: "51106308"
    Update-CsAdminRole
    ```
 
-5. 最后，通过运行 [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) 命令，在安装和启用忙碌选项的所有池中的所有前端服务器上启动 Skype for Business Server Windows 服务：
+5. 最后，通过Skype for Business Server Windows [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps)命令，在安装和启用忙碌选项的所有池中的所有前端服务器上启动前端服务：
 
    ```powershell
    Start-CsWindowsService
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-您还可以使用 Windows 事件查看器验证忙碌选项安装是否成功，以及 Skype for Business Server 已成功加载忙碌选项。 若要验证忙碌选项，请打开事件查看器 - 应用程序和服务日志 **- Skype (或 Lync) \> \> Server** 并搜索事件 ID = 30253。
+您还可以使用事件Windows验证忙碌选项安装是否成功，以及是否Skype for Business Server忙碌选项。 若要验证忙碌选项，请打开事件查看器 - 应用程序和服务日志 **- Skype (或 Lync) \> \> Server** 并搜索事件 ID = 30253。

@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解附加许可证、你将使用哪些功能、如何为产品购买它们以及如何将现有运营商与它们一起使用。 可以获取有关 Office 365 的定价信息和套餐详情、通信点数和通话套餐的信息。 '
-ms.openlocfilehash: 5bbd455a0cb3bf2bff8bc7bf0dd4362135214a39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 39bc25454e5a8be7513c17124392ab1201bdcafccb821dd3f3e176de8246596e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283904"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Skype for Business 附加许可
 
@@ -84,7 +84,7 @@ Skype for Business 许可旨在为你提供最大的灵活性。 例如，使用
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>如何查看价格和购买附加许可证
 <a name="bkmk_how"> </a>
 
- **购买套餐Microsoft 365，你将通过** 管理中心查看价格并Microsoft 365加载项。
+ **购买购买Microsoft 365计划** 后，你将看到价格并通过"购买"Microsoft 365 管理中心。
 
 根据你所需要的附加许可证，我们建议你[比较一下更改为已经包含这些功能的某项计划是否更加划算](https://go.microsoft.com/fwlink/?linkid=844053)。
 

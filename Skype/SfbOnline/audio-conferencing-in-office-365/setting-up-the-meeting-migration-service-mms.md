@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 会议迁移 (MMS) 是在后台运行的服务，可Skype for Business Microsoft Teams会议。 MMS 旨在消除用户运行会议迁移工具以更新其会议Skype for Business Microsoft Teams的需求。
-ms.openlocfilehash: db4889bb30ec453a64bfcf760a1233fbc7c1e2f5
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 71fefa3986d9daf3a9eb7cd1403ba9490cbbf7ff687853a7876f05cd0a75eed1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282109"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298872"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务 (MMS)
 
