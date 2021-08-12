@@ -1,5 +1,5 @@
 ---
-title: 配置云连接器与 Microsoft 365 或 Office 365 组织的集成
+title: 配置云连接器与组织Microsoft 365或Office 365集成
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,26 +15,26 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
-description: 了解如何配置与 Microsoft 365 或 Office 365 组织的云连接器集成。
-ms.openlocfilehash: 74696023dcffbc91641bb4e9950f2988a89abbdd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 了解如何配置云连接器与组织或Microsoft 365 Office 365集成。
+ms.openlocfilehash: 48220c2e48046c87e80fea2f82c74951b7024fc69b8ec9ba3111975d780f47ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095086"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349634"
 ---
-# <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>配置云连接器与 Microsoft 365 或 Office 365 组织的集成
+# <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>配置云连接器与组织Microsoft 365或Office 365集成
 
 > [!Important] 
-> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](/MicrosoftTeams/direct-routing-landing-page)
+> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话Teams[连接到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
 
-了解如何配置与 Microsoft 365 或 Office 365 组织的云连接器集成。
+了解如何配置云连接器与组织或Microsoft 365 Office 365集成。
   
-Skype for Business 云连接器版本安装完成后，执行本节中的步骤以配置部署，并连接到 Microsoft 365 或 Office 365 组织。
+完成Skype for Business 云连接器版本后，执行本节中的步骤以配置部署，并连接到 Microsoft 365 或 Office 365 组织。
   
 ## <a name="configure-firewall-settings"></a>配置防火墙设置
 
-为外围网络配置内部和外部防火墙设置的防火墙设置，以打开所需端口，如 Plan for Skype [](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) for Business Cloud Connector Edition 中的端口和[协议中所述](plan-skype-for-business-cloud-connector-edition.md)。
+为外围网络配置内部和外部防火墙设置的防火墙设置，以打开所需的端口，如 Plan for Skype for Business 云连接器版本 中的[端口](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports)[和协议中所述](plan-skype-for-business-cloud-connector-edition.md)。
   
 ## <a name="set-up-public-switched-telephone-network-pstn-gateways"></a>设置 PSTN 网关 (公用电话) 网
 
@@ -56,21 +56,21 @@ Skype for Business 云连接器版本安装完成后，执行本节中的步骤�
     
 ## <a name="update-the-domain-for-your-tenant"></a>更新租户的域
 
-请确保已完成在 Microsoft 365 或 Office 365 中更新域的步骤，并且能够添加 DNS 记录。 若要详细了解如何在 Microsoft 365 或 Office 365 中设置域，请参阅将域添加到[Microsoft 365 或 Office 365。](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
+确保已完成在域中更新域Microsoft 365 Office 365并能够添加 DNS 记录。 若要详细了解如何在 Microsoft 365 或 Office 365 中Microsoft 365域，请参阅将域Microsoft 365[或Office 365。](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
   
 ## <a name="add-dns-records-for-your-edge"></a>为边缘添加 DNS 记录
 
-将以下 DNS 记录添加到 Microsoft 365 或 Office 365 组织。 若要了解如何添加 DNS 记录，请参阅在 [Microsoft 365 或 Office 365](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)中添加或编辑自定义 DNS 记录。
+将以下 DNS 记录添加到你的Microsoft 365或Office 365组织。 若要了解如何添加 DNS 记录，请参阅 Add [or edit custom DNS records in Microsoft 365 or Office 365](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)。
   
 1. 为访问边缘添加 DNS A 记录。
     
-2. SRV 记录将自动由 Microsoft 365 或 Office 365 和部署脚本创建。 确认您可以在边缘上查找以下两个 SIP 服务 \_ ：sip 和 \_ sipfederationtls。
+2. SRV 记录将自动由部署Microsoft 365 Office 365和部署脚本创建。 确认您可以在边缘上查找以下两个 SIP 服务 \_ ：sip 和 \_ sipfederationtls。
     
      ![SRV 记录确认](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
-## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-microsoft-365-or-office-365"></a>设置云连接器版本与 Microsoft 365 或 Office 365 之间的混合连接
+## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-microsoft-365-or-office-365"></a>设置云连接器版本与云连接器版本Microsoft 365或Office 365
 
-若要配置 Skype for Business 云连接器版本部署与 Microsoft 365 或 Office 365 组织之间的混合连接，在远程 PowerShell 会话中运行以下 cmdlet。 若要了解如何建立远程 PowerShell 会话，请参阅：为计算机设置[Windows PowerShell。](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+若要配置您的 Skype for Business 云连接器版本 部署与 Microsoft 365 或 Office 365 组织之间的混合连接，请运行远程 PowerShell 会话中的以下 cmdlet。 若要了解如何建立远程 PowerShell 会话，请参阅：为计算机设置[Windows PowerShell。](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 此 cmdlet 设置访问边缘外部 FQDN。 在命令的第一个中， \<External Access Edge FQDN\> 应为 SIP 访问边缘角色的 。 默认情况下，这应该是 ap. \<Domain Name\> 。
   
@@ -104,11 +104,11 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
     
 ## <a name="set-up-your-users"></a>设置用户
 
-登录到 Microsoft 365 管理中心，添加将启用联机语音服务的用户，并将 E5 许可证或电话系统加载项分配给这些用户的 E3 许可证。 有关添加用户的信息，请参阅 [将用户添加到 Microsoft 365 商业版](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)。
+登录到 Microsoft 365 管理中心，添加将启用联机语音服务的用户，并将 E5 许可证或 电话系统 加载项分配给这些用户。 有关添加用户的信息，请参阅向企业[Microsoft 365用户](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)。
   
-## <a name="enable-users-for-phone-system-voice-and-voicemail-services"></a>为用户启用电话系统语音和语音邮件服务
+## <a name="enable-users-for-phone-system-voice-and-voicemail-services"></a>为用户启用电话系统语音邮件服务
  
-将用户添加到 Microsoft 365 或 Office 365 后，为他们的帐户启用电话系统语音服务，包括语音邮件。 若要启用这些功能，必须使用具有全局管理员角色的帐户登录到 Microsoft 365 或 Office 365 组织，并能够运行远程 PowerShell。 若要了解如何建立远程 PowerShell 会话，请参阅： [为计算机设置Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+将用户添加到 Microsoft 365 或 Office 365 后，电话系统语音服务（包括语音邮件）启用其帐户。 若要启用这些功能，必须使用具有全局管理员角色的帐户登录到 Microsoft 365 或 Office 365 组织，并能够运行远程 PowerShell。 若要了解如何建立远程 PowerShell 会话，请参阅：[为计算机设置Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 - 将策略分配给用户并配置用户的业务语音电话号码（使用 **Identity** 参数的值指定）：
     
@@ -135,9 +135,9 @@ $user.HostedVoiceMail
 $user.VoicePolicy
 ```
 
-你需要确定你的用户是否应该能够进行国际呼叫。 默认情况下，将启用国际呼叫。 可以使用联机 Skype for Business 管理中心禁用或启用用户进行国际拨号。
+你需要确定你的用户是否应该能够进行国际呼叫。 默认情况下，将启用国际呼叫。 可以使用联机拨号管理中心禁用或启用Skype for Business拨号。
   
-若要基于每个用户禁用国际呼叫，请运行 Skype for Business Online PowerShell 中的以下 cmdlet：
+若要基于每个用户禁用国际呼叫，请运行 Skype for Business Online PowerShell 中的 cmdlet：
   
 ```powershell
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
@@ -161,18 +161,18 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ```
 
 > [!NOTE]
-> 如果没有向用户分配 PSTN 站点，Skype for Business 云连接器版本部署与 Microsoft 365 或 Office 365 组织之间的混合连接将回退到使用租户级别默认一个 (对等目标) 以便可以完成呼叫。 
+> 如果未向用户分配 PSTN 站点，Skype for Business 云连接器版本 部署与 Microsoft 365 或 Office 365 组织之间的混合连接将回退到使用租户级别默认一个 (对等目标) 以便可以完成呼叫。 
   
 ## <a name="configure-online-hybrid-mediation-server-settings"></a>配置联机混合中介服务器设置
 <a name="BKMK_ConfigureMediationServer"> </a>
 
-当 P2P 呼叫升级为 PSTN 会议时，Skype for Business Online 会议服务器将向云连接器中介服务器发送邀请。 若要确保 Microsoft 365 或 Office 365 可以成功路由此邀请，你需要在联机租户中为每个云连接器中介服务器配置设置，如下所示： 
+当 P2P 呼叫升级为 PSTN 会议时，Skype for Business Online 会议服务器将向云连接器中介服务器发送邀请。 若要确保Microsoft 365或Office 365成功路由此邀请，你需要在联机租户中为每个云连接器中介服务器配置设置，如下所示： 
   
-1. 在 Microsoft 365 管理中心创建用户。 使用您想要的任何用户名，例如"MediationServer1"。
+1. 在"管理"中Microsoft 365 管理中心。 使用您想要的任何用户名，例如"MediationServer1"。
     
-    使用云连接器的默认 SIP 域 (.ini 文件的第一个 SIP 域) 用户域。
+    使用云连接器的默认 SIP 域 (文件的第一个 SIP .ini sip) 用户域。
     
-    请注意，用户传播到 Skype for Business Online 目录仅需要许可证分配。 将 Microsoft 365 或 Office 365 许可证 (（如 E5) ）分配给你创建的帐户，最多允许传播更改一小时，通过运行以下 cmdlet 验证用户帐户是否正确预配到 Skype for Business Online 目录，然后从此帐户中删除许可证。
+    请注意，用户传播到联机目录仅需要许可证Skype for Business分配。 将 Microsoft 365 或 Office 365 许可证 (（如 E5) ）分配给你创建的帐户，允许传播更改最多一小时，通过运行以下 cmdlet 验证用户帐户是否正确预配到 Skype for Business 联机目录，然后从此帐户中删除许可证。
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
@@ -183,7 +183,7 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. 使用你的 Skype for Business 租户管理员凭据启动租户 Skype for Business 远程 PowerShell 会话，然后运行以下 cmdlet 将中介服务器和边缘服务器 FQDN 设置为该用户帐户，将 替换为你在步骤 1 中创建的帐户的用户的显示名称 \<DisplayName\> ：
+3. 使用 Skype for Business 租户管理员凭据启动租户 Skype for Business 远程 PowerShell 会话，然后运行以下 cmdlet 将中介服务器和边缘服务器 FQDN 设置为该用户帐户，将 替换为步骤 1 中创建的帐户的用户的显示名称 \<DisplayName\> ：
     
    ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
-description: 媒体行视图存储有关数据库中每个媒体行的信息。 一个音频会话通常包含一个音频媒体行。 一个音频与视频 (A/V) 会话通常包含一个音频媒体行和一个视频媒体行；但是，如果使用了会议设备或库视图，则会话可能包含两个视频媒体行。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: c31fe1c5b8f6ed97d49c695986ad14fd890ae26f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 媒体行视图存储有关数据库中每个媒体行的信息。 一个音频会话通常包含一个音频媒体行。 一个音频与视频 (A/V) 会话通常包含一个音频媒体行和一个视频媒体行；但是，如果使用了会议设备或库视图，则会话可能包含两个视频媒体行。 此视图在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: fa527c31c1011fdcad38d21534e9ec1c1a4ec96e4a704dd79722313e73a39056
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296919"
 ---
 # <a name="medialine-view"></a>MediaLine 视图
  
-媒体行视图存储有关数据库中每个媒体行的信息。 一个音频会话通常包含一个音频媒体行。 一个音频与视频 (A/V) 会话通常包含一个音频媒体行和一个视频媒体行；但是，如果使用了会议设备或库视图，则会话可能包含两个视频媒体行。 此视图是在 Microsoft Lync Server 2013 中引入的。
+媒体行视图存储有关数据库中每个媒体行的信息。 一个音频会话通常包含一个音频媒体行。 一个音频与视频 (A/V) 会话通常包含一个音频媒体行和一个视频媒体行；但是，如果使用了会议设备或库视图，则会话可能包含两个视频媒体行。 此视图在 Microsoft Lync Server 2013 中引入。
   
 |**列**|**数据类型**|**details**|
 |:-----|:-----|:-----|
@@ -39,11 +39,11 @@ ms.locfileid: "49802742"
 |CallerMacAddress  <br/> |varchar (256)   <br/> |呼叫者使用的网络接口的 MAC 地址。  <br/> |
 |CallerRelayIPAddr  <br/> |var (50)   <br/> |呼叫者所使用的 A/V 边缘服务的 IP 地址。 有关详细信息， [请参阅 IPAddress](ipaddress.md) 表。 <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |呼叫者在 A/V 边缘服务中使用的端口。  <br/> |
-|CallerReiveiveIPAddr  <br/> |var (50)   <br/> |A/V 边缘服务报告的呼叫者的 IP 地址。 如果客户端位于 NAT 之后，则此地址可能与 CallerIPAddr 不同。  <br/> |
+|CallerRe提示IPAddr  <br/> |var (50)   <br/> |A/V 边缘服务报告的呼叫者的 IP 地址。 如果客户端位于 NAT 之后，则此地址可能与 CallerIPAddr 不同。  <br/> |
 |CallerCaptureDev  <br/> |varchar (256)   <br/> |呼叫者的捕获设备名称。  <br/> |
 |CallerRenderDev  <br/> |varchar (256)   <br/> |呼叫者的呈现设备名称。  <br/> |
 |CallerCaptureDevDriver  <br/> |varchar (256)   <br/> |呼叫者的捕获设备驱动程序名称。  <br/> |
-|CallerRenderDevDriver  <br/> |varchar (256)   <br/> |呼叫者的呈现设备驱动程序名称。  <br/> |
+|CallerRenderDevDriver  <br/> |varchar (256)   <br/> |调用方的呈现设备驱动程序名称。  <br/> |
 |CallerWifiDriverDeviceDesc  <br/> |varchar (256  <br/> |呼叫者的 Wifi 驱动程序说明。  <br/> |
 |CallerWifiDriverVersion  <br/> |varchar (256)   <br/> |呼叫者的 Wifi 驱动程序版本。  <br/> |
 |CalleeNetworkConnectionDetail  <br/> |varchar (256)   <br/> |呼叫者的网络连接的详细信息。 有关详细信息， [请参阅 NetworkConnectionDetail](networkconnectiondetail.md) 表。 <br/> |
@@ -55,7 +55,7 @@ ms.locfileid: "49802742"
 |CalleeMacAddress  <br/> |varchar (256)   <br/> |被叫方使用的网络接口的 MAC 地址。  <br/> |
 |CalleeRelayIPAddr  <br/> |var (50)   <br/> |被叫方使用的 A/V 边缘服务的 IP 地址。 有关详细信息， [请参阅 IPAddress](ipaddress.md) 表。 <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |被叫方在 A/V 边缘服务中使用的端口。  <br/> |
-|CalleeReiveiveIPAddr  <br/> |var (50)   <br/> |A/V 边缘服务报告的被叫方 IP 地址。 如果客户端位于 NAT 之后，则此地址可能与 CalleeIPAddr 不同。  <br/> |
+|CalleeReipiveIPAddr  <br/> |var (50)   <br/> |A/V 边缘服务报告的被叫方 IP 地址。 如果客户端位于 NAT 之后，则此地址可能与 CalleeIPAddr 不同。  <br/> |
 |CalleeCaptureDev  <br/> |var (50)   <br/> |被叫方捕获设备名称。  <br/> |
 |CalleeRenderDev  <br/> |varchar (256)   <br/> |被叫方呈现设备名称。  <br/> |
 |CalleeCaptureDevDriver  <br/> |varchar (256)   <br/> |被叫方捕获设备驱动程序名称。  <br/> |
@@ -67,7 +67,7 @@ ms.locfileid: "49802742"
 |CalleeVPN  <br/> |bit  <br/> |指示被叫方是否通过虚拟专用网连接。1 是虚拟专用网 (VPN)，0 是非 VPN。  <br/> |
 |ConversationalMOS  <br/> |decimal (3，2)   <br/> |音频会话的窄带交谈 MOS（基于两个音频流）。  <br/> |
 |AppliedBandwidthLimit  <br/> |int  <br/> |这是应用于指定发送端流指定的多种策略设置（TURN、API、SDP、策略服务器等）的实际带宽。不应将其与有效带宽混淆，因为根据带宽预估的不同，有效带宽可能会减少。这基本上是发送流可禁止带宽预估设定的限制的最大带宽。  <br/> |
-|AppliedBandwidthSource  <br/> |varchar (256)   <br/> |所设定的带宽限制的来源。 它描述带宽限制来自何处 (例如，"Policy Server"、"TURN Server"或"Modality") 。  <br/> |
+|AppliedBandwidthSource  <br/> |varchar (256)   <br/> |所设定的带宽限制的来源。 它描述带宽限制来自何处 (例如，"策略服务器"、"TURN 服务器"或"形式") 。  <br/> |
 |Caller  <br/> |bit  <br/> |指示是否已收到来自呼叫者的度量；1 为是，0 为否。  <br/> |
 |被叫方  <br/> |bit  <br/> |指示是否已收到来自呼叫接收者的度量；1 为是，0 为否。  <br/> |
 |MidCallReport  <br/> |bit  <br/> |指示报告用于呼叫的一部分还是用于整个呼叫。  <br/> |

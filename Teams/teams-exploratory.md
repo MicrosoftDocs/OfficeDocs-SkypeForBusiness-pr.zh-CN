@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 571bc53925bb807d11c16d72f25ad247fe9496b3
-ms.sourcegitcommit: f781600a40e174cfc522e29375a4820b1142e23a
+ms.openlocfilehash: 2c3aff476b997bb7d032fa9a2e636aa739f36c7daf86f4516098006278f11617
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53596390"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312590"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 

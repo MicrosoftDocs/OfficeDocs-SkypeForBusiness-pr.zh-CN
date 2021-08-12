@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5c2f6029b0c5314c507de7734abf8c479af709
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 073f5ecf262d51853aecf14f982af144434791b19be617887f4ac788f11b301c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098218"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312500"
 ---
 # <a name="share-to-teams-from-outlook"></a>从Teams共享到Outlook
 
@@ -49,9 +49,9 @@ Outlook PowerShell cmdlet 选择性地禁用或启用Teams共享到用户的共�
 
 ## <a name="browsers-and-single-sign-on"></a>浏览器和单一登录
 
-共享到Teams（在 web Outlook和桌面客户端Outlook都依赖于浏览器 WebView。 有关[哪些客户端使用Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins)的详细信息，请参阅加载项使用的浏览器。 
+共享到Teams（Outlook 网页版和Outlook客户端）都依赖于浏览器 WebView。 有关[哪些客户端使用Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins)的详细信息，请参阅加载项使用的浏览器。 
 
 > [!IMPORTANT]
 > 共享Teams需要为用户的浏览器启用第三方 Cookie 和本地存储访问权限。
 
-共享Teams使用单一登录 (SSO) ，这意味着用户在通过"共享到共享"功能使用加载项时不需要提供Teams。 默认情况下，Outlook SSO for Web https://outlook.office365.com/owa/extSSO.aspx 支持 https://outlook.office.com/owa/extSSO.aspx 并回复 URL。 对于虚域，管理员需要添加相应的Azure Active Directory URL。
+共享Teams使用单一登录 (SSO) ，这意味着用户在通过"共享到共享"功能使用加载项时不需要提供Teams。 默认情况下，Outlook 网页版 https://outlook.office365.com/owa/extSSO.aspx SSO 支持和 https://outlook.office.com/owa/extSSO.aspx 回复 URL。 对于虚域，管理员需要添加相应的Azure Active Directory URL。

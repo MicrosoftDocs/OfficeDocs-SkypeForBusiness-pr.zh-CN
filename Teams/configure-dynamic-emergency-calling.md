@@ -18,12 +18,12 @@ description: 了解如何配置 Microsoft 呼叫计划并电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e399c5e18bc90f99ebe59f3f4e603da5f7cbfe9
-ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
+ms.openlocfilehash: fc15048dcb99ab3bbb3a087467bff88f5552b970c4f1006bef97924d8d92cdf0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53337831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322744"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 

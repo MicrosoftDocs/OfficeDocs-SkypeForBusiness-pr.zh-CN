@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 请阅读本主题，了解如何在本地Microsoft Teams 会议室混合环境中部署Exchange部署。
-ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5424e670dcea86aff5f3c8842e2ab3e61cfecf480922ac664ac055ea502dbb09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296649"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange on premises 部署 Microsoft Teams Rooms
 
@@ -69,7 +69,7 @@ Microsoft[提供SkypeRoomProvisioningScript.ps1，](https://go.microsoft.com/fwl
     > [!NOTE]
     > 选择 **"密码永不过期**"是Skype for Business Server Microsoft Teams 会议室。 你的域规则可能禁止使用不过期的密码。 如果是这样，则需要为每个设备帐户创建Microsoft Teams 会议室异常。
   
-4. 创建该帐户后，运行目录同步。 完成后，转到管理中心中的"用户"Microsoft 365，验证在之前步骤中创建的帐户已合并到联机状态。
+4. 创建该帐户后，运行目录同步。 完成后，转到用户页Microsoft 365 管理中心验证在之前步骤中创建的帐户已合并到联机状态。
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>启用远程邮箱并设置属性
 
@@ -142,7 +142,7 @@ Skype for Business联机 PowerShell 用于管理服务 Microsoft Teams Skype for
 
 1. 从电脑Windows PowerShell远程会话，如下所示：
 > [!NOTE]
-> Skype for Business联机连接器当前是 PowerShell 模块Teams的一部分。
+> Skype for Business Online 连接器目前是最新 Teams PowerShell 模块的一部分。
 >
 > 如果使用的是[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams最新版本，则无需安装 Skype for Business Online 连接器。
 
@@ -185,7 +185,7 @@ Skype for Business联机 PowerShell 用于管理服务 Microsoft Teams Skype for
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>向帐户分配Microsoft Teams 会议室许可证
 
-1. 以租户管理员登录，打开Microsoft 365管理中心，然后单击"管理"应用。
+1. 以租户管理员角色登录，打开Microsoft 365 管理中心，然后单击"管理"应用。
 2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。
 3. 单击Microsoft Teams 会议室帐户，然后单击笔图标以编辑帐户信息。
 4. 单击“**许可证**”。

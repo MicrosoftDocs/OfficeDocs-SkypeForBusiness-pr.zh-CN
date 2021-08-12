@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: FileTransfer 视图存储有关对等文件传输会话的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 8b3c2db012b8969bd4b5b75ca19ed090f8227c53
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: FileTransfer 视图存储有关对等文件传输会话的信息。 此视图在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: e805b770038eb7fae93337c5d6c26d7059e5764436328f6321e65c948e40c88d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821682"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349684"
 ---
 # <a name="filetransfers-view"></a>FileTransfers 视图
  
-FileTransfer 视图存储有关对等文件传输会话的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
+FileTransfer 视图存储有关对等文件传输会话的信息。 此视图在 Microsoft Lync Server 2013 中引入。
   
 > [!NOTE]
 > FileTransfers 视图包含 [SessionDetails](sessiondetails-0.md) 视图中的所有列以及下面列出的列。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |**FileName** <br/> |nvarchar (256)   <br/> |文件传输的名称。  <br/> |
 |**Cookie** <br/> |nvarchar (128)   <br/> |用于标识与此关联时的每条后续消息。  <br/> |

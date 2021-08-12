@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 中规划媒体旁路
+title: 规划媒体旁路Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
-description: 在 Skype for Business Server 企业语音 中规划媒体旁路所必需的决策。 包括与 CAC 呼叫允许控制 (的) 。
-ms.openlocfilehash: 62a3c1605c7a54043539bc94892fdb8e3923f21a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 规划媒体中媒体旁路Skype for Business Server 企业语音。 包括与 CAC 呼叫允许控制 (的) 。
+ms.openlocfilehash: 386272fd2a20d2d780f146c8eb03d75878cdf69cdfa27145d42c0421ba4ba91f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284699"
 ---
-# <a name="plan-for-media-bypass-in-skype-for-business"></a>在 Skype for Business 中规划媒体旁路
+# <a name="plan-for-media-bypass-in-skype-for-business"></a>规划媒体旁路Skype for Business
 
-在 Skype for Business Server 企业语音 中规划媒体旁路所必需的决策。 包括与 CAC 呼叫允许控制 (的) 。
+规划媒体中媒体旁路Skype for Business Server 企业语音。 包括与 CAC 呼叫允许控制 (的) 。
 
 媒体旁路功能是指在可能的情况下，从信号遍历中介服务器的呼叫的媒体路径中删除中介服务器。
 
@@ -33,7 +33,7 @@ ms.locfileid: "51101388"
 
  在没有中介服务器的分支站点通过具有限定带宽的一个或多个 WAN 链路连接到中央站点时，媒体旁路功能通过允许来自分支站点的客户端的媒体直接流动到其本地网关来降低带宽要求，而不必首先通过 WAN 链路流至中央站点上的中介服务器并流回。
 
-通过使中介服务器避免进行媒体处理，媒体旁路还可以减少中介基础结构所需的企业语音服务器的数量。 一般而言，应尽可能启用媒体旁路。
+通过使中介服务器避免进行媒体处理，媒体旁路还可以减少中介基础结构所需的企业语音数量。 一般而言，应尽可能启用媒体旁路。
 
 下图显示了具有和没有媒体旁路功能的拓扑中的基本媒体和信号路径。
 
@@ -41,7 +41,7 @@ ms.locfileid: "51101388"
 
 ![语音 CAC 媒体旁路连接强制](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-如果希望将部署的中介服务器数目降至最低，媒体绕过非常有用。 通常会在中央站点部署中介服务器池，中介服务器池将控制分支站点的网关。 启用媒体旁路后，来自分支站点中客户端的公用电话交换网 (PSTN) 呼叫的媒体可直接通过这些站点中的网关流动。 必须正确配置 Skype for Business Server 出站呼叫路由企业语音策略，以便来自分支站点客户端的 PSTN 呼叫路由到相应的网关。
+如果希望将部署的中介服务器数目降至最低，媒体绕过非常有用。 通常会在中央站点部署中介服务器池，中介服务器池将控制分支站点的网关。 启用媒体旁路后，来自分支站点中客户端的公用电话交换网 (PSTN) 呼叫的媒体可直接通过这些站点中的网关流动。 Skype for Business Server配置出站呼叫路由企业语音策略，以便从分支站点上的客户端发送的 PSTN 呼叫路由到相应的网关。
 
 Wi-Fi 网络通常会比有线网络丢失更多的数据包。通常网关无法恢复这些丢失的数据包。因此，我们建议，在决定是否对无线子网启用绕过功能之前，先评估 Wi-Fi 网络的质量。同时，还需要在降低延迟和恢复丢失的数据包之间取得平衡。RTAudio 是一种可用于未绕过中介服务器的呼叫的编解码器，它更适合处理数据包丢失。
 
@@ -104,7 +104,7 @@ Wi-Fi 网络通常会比有线网络丢失更多的数据包。通常网关无�
 
     如果要使用站点和区域配置控制绕过决定，那么即使在全局范围内禁用 CAC，也需要为每个站点和链接定义带宽策略。 带宽实际值或其形式的方式并不重要。 最终目标是让系统自动计算不同的绕过 ID，以便与连接不佳的不同区域设置关联。 根据定义，定义带宽限制是指链接连接不佳。
 
-- 启用 CAC，但未启用媒体旁路。 该配置仅适用于所有网关和 IP-PBX 均连接不佳，或不满足媒体旁路的其他要求的情况。 有关媒体旁路的要求的详细信息，请参阅[Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass)。
+- 启用 CAC，但未启用媒体旁路。该配置仅适用于所有网关和 IP-PBX 均连接不佳，或不满足媒体旁路的其他要求的情况。有关媒体旁路的要求的详细信息，请参阅[Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass)。
 
 ## <a name="technical-requirements"></a>技术要求
 
@@ -114,6 +114,6 @@ Wi-Fi 网络通常会比有线网络丢失更多的数据包。通常网关无�
 
 - 中介服务器对等方必须支持媒体旁路的必要功能，最重要的是处理称为"早期对话" (分叉响应) 。 与网关、PBX 制造商或 ITSP 联系，以获取网关、PBX 或 SBC 可接受的最大早期对话数的值。
 
-- 中介服务器对等方必须直接接受来自 Skype for Business 终结点的媒体流量。 许多 ITSP 仅允许其 SBC 接收来自中介服务器的流量。 联系 ITSP 以确定其 SBC 是否接受直接来自 Skype for Business 终结点的媒体流量。
+- 中介服务器对等方必须直接接受来自Skype for Business流量。 许多 ITSP 仅允许其 SBC 接收来自中介服务器的流量。 与您的 ITSP 联系，以确定其 SBC 是否接受直接来自Skype for Business流量。
 
-- Skype for Business 客户端和中介服务器对等方必须连接良好，这意味着它们位于相同的网络区域，或者位于通过没有带宽限制的 WAN 链路连接到该区域的网络站点
+- Skype for Business客户端和中介服务器对等方必须连接良好，这意味着它们位于相同的网络区域，或者位于通过没有带宽限制的 WAN 链路连接到该区域的网络站点

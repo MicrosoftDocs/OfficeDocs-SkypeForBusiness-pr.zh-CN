@@ -15,12 +15,12 @@ description: 使用本指南将 Microsoft Teams作为第一个Microsoft 365或Of
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89fb1ac43e199b3c8081735705a7d05bfcae710b
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: ddc107db668a582ad164e20f3b3ded169bd5d86125d949fe45d4d2f89090a8f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312570"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>首先Microsoft Teams
 

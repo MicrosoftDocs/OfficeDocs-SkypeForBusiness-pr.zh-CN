@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: ce5d80b8be0fe2e6983229be8185bcdf02e06ab6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 48ce96b4b2ab6ad87054784bea93d8a7a45638ee6f2d86938cca1be60f30d442
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341088"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>为会议设置音频Skype for Business
 
@@ -133,7 +133,7 @@ ms.locfileid: "52237638"
 
 ![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心：**
 
-1. 转到旧版 **门户 Microsoft 365管理**  >  **Teams**  >  **中心。**
+1. 转到旧  >  **Microsoft 365 管理中心Teams**  >  **门户 。**
 2. 选择 **"音频会议**  >  **用户**"，然后从列表中选择用户，然后单击"编辑 **"。** 
 
 如果需要更多详细信息，请参阅[将 Microsoft 指定为音频会议提供商](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)。

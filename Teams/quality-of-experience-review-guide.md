@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 85b860965c7883d5df9bc734bc336fb2d24a5ed8
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 45fe1737aec2fca951ab71e0925961ada57873ab289abcafd33b2588f189e259
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332564"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>使用 CQD 管理呼叫和会议质量Microsoft Teams 
 

@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
-description: “Enterprise Edition 前端池”节点列出了此站点中的前端池，“Standard Edition 前端服务器”节点列出了此站点中的 Standard Edition Server。 可以执行以下操作：
-ms.openlocfilehash: 428d3c0df5fe1237268ed21c30ad16a69d7cb621
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: “Enterprise Edition 前端池”节点列出了此站点中的前端池，“Standard Edition 前端服务器”节点列出了此站点中的 Standard Edition Server。可以执行以下操作：
+ms.openlocfilehash: a2f40f4af3b5a07ec84daa5e479861b210a1cffa6040158a67709bfa408aadfd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835732"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340968"
 ---
 # <a name="front-end-servers-scope-node"></a>前端服务器范围节点
  

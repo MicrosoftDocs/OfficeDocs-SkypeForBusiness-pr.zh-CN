@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 了解如何在 CQD 仪表板的呼叫质量仪表板 (租户和) 。
-ms.openlocfilehash: 7a1f6de78e01a8988317aa99aae917aa0018e19a
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: be51f4ec7eb19f56a07413749abf5455856754ed0984d00cd27ed72d9aaa8316
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322804"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Upload CQD 服务中的呼叫质量仪表板 (租户和) 
 

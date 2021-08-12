@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: 以下主题详细介绍了每个呼叫详细记录 (CDR) 数据库架构表中的列。
-ms.openlocfilehash: 5b271d336cfe5dd17a83cf318debf7eb2675d344
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7b22676a675d70359cf895261f3f0ad3cec13a6835805efefaacb6be7a7416ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296965"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 CDR 表详细信息
  
@@ -26,7 +26,7 @@ ms.locfileid: "49813372"
   
 ## <a name="in-this-section"></a>本节内容
 
-- [Skype for Business Server 2015 中的 Application 表](application.md)
+- [Skype for Business Server 2015 中的应用程序表](application.md)
     
 - [Skype for Business Server 2015 中的 CallPriorities 表](callpriorities.md)
     
@@ -34,13 +34,13 @@ ms.locfileid: "49813372"
     
 - [Skype for Business Server 2015 中的 ClientVersions 表](clientversions.md)
     
-- [Skype for Business Server 2015 中的 ConferenceJoinTimeThresholds 表](conferencejointimethresholds.md)
+- [ConferenceJoinTimeThresholds table in Skype for Business Server 2015](conferencejointimethresholds.md)
     
 - [Skype for Business Server 2015 中的 ConferenceMessageCount 表](conferencemessagecount.md)
     
-- [Skype for Business Server 2015 中的 Conferences 表](conferences.md)
+- [2015 年 Skype for Business Server 中的 Conferences 表](conferences.md)
     
-- [Skype for Business Server 2015 中的 ConferenceSessionDetails 表](conferencesessiondetails-0.md)
+- [ConferenceSessionDetails table in Skype for Business Server 2015](conferencesessiondetails-0.md)
     
 - [Skype for Business Server 2015 中的 ConferenceUris 表](conferenceuris.md)
     
@@ -56,7 +56,7 @@ ms.locfileid: "49813372"
     
 - [Skype for Business Server 2015 中的 ErrorCategory 表](errorcategory.md)
     
-- [Skype for Business Server 2015 中的 ErrorDef 表](errordef.md)
+- [2015 年 Skype for Business Server 中的 ErrorDef 表](errordef.md)
     
 - [Skype for Business Server 2015 中的 ErrorReport 表](errorreport.md)
     
@@ -80,7 +80,7 @@ ms.locfileid: "49813372"
     
 - [Skype for Business Server 2015 中的 Mcus 表](mcus.md)
     
-- [Media 表](media.md)
+- [媒体表](media.md)
     
 - [MediaList 表](medialist.md)
     
@@ -98,7 +98,7 @@ ms.locfileid: "49813372"
     
 - [注册表](registration.md)
     
-- [Roles 表](roles.md)
+- [角色表](roles.md)
     
 - [Servers 表](servers.md)
     

@@ -21,12 +21,12 @@ f1.keywords:
 description: 了解如何衡量大规模启用服务后的结果和Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f53c39611e28bde40ccf8bab0f92635383b11e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ef85a84c247c18528b8c13181943d970afe05d1c5c72976739b4b79a77cf8c6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834192"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332424"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用定义结果和成功
 
@@ -81,7 +81,7 @@ Teams是一种转型技术，因此，根据组织的规模和现有技术，可
 | 使用云进行云Teams | 通过合作伙伴启用潜在顾客协作Teams | 公司和组织Teams所有员工 | 启用Teams和Skype for Business | 将用户从 Skype for Business 迁移到 Teams |
 | - 适用于新的或低使用量Microsoft 365或Office 365客户 <br/>- 在Teams方案中使用潜在顾客 <br/>- 突出显示集成用户体验和加速实现价值Microsoft 365 Office 365 <br/>- 一起执行规划工作负荷启用以避免串行实现 | - 启用Teams和 OneDrive SharePoint Online <br/>- 创建公司 Intranet 以与 Microsoft Stream 共享新闻资源和视频<br/>**更好地在一起**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- 对于少于 5000 个席位的客户 (当前限制) <br/>- 通过一个团队实现跨组织协作<br/>- 自动执行 (休假请求、员工调查、高管参与等常见)  |- 使用Teams核心策略加速协作<br/>- 根据所需的大小和功能集突出显示会议方案指南</br>- 将 Skype for Business 用于企业调用、互操作性和混合方案<br/>- 使用公共路线图进行功能规划。 |- 通过为客户Teams Skype for Business策略路线图，计划从云迁移<br/>- 附加到功能发布计划<br/>- 建议包括并排和Teams核心以轻松切换
 
-下面是我们针对大多数客户组织的建议。 但是，存在例外情况。 若要获取此处未介绍的任何方案的指南，请在我们的推动采用社区中提出问题，或联系 FastTrack 团队或 Microsoft 合作伙伴网络。
+下面是我们针对大多数客户组织的建议。 但是，存在例外情况。 若要获取此处未介绍的任何方案的指南，请在我们的推动采用社区中提出问题，或联系FastTrack团队或 Microsoft 合作伙伴网络。
 
 - **选择Teams First** 或 Teams Core：大多数组织在 Microsoft 技术方面已有投资。 可以一次启用多个工作负荷，例如 Exchange Online、OneDrive for Business 或 SharePoint。 在这些情况下，选择"Teams"或"Teams核心"是明智选择。 它将使你的用户能够习惯增强的协作体验，Teams。 然后，协作项目团队可以计划推出其他功能，以及成功实施所需的培训和支持。 
 

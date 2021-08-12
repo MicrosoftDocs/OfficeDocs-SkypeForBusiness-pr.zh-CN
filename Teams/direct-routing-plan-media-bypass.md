@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何使用直接路由电话系统绕过媒体，从而缩短媒体流量的路径并提高性能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d60513dbcf1128d303102f494600a67335b366d
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 0a498f432c927cf8e3818c42a538949d81e99f69d0f8af84ff2734b6ce9b25ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322604"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 

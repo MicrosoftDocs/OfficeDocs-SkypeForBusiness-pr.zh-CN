@@ -16,16 +16,16 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文概述了屏幕屏幕支持的功能Microsoft Teams功能。
-ms.openlocfilehash: 8b91667265531833920e31a5ab99fca307d151d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a812aad7b26758ce41052672b20e5031da0729e7d1b1b802513ed2b311353b30
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322674"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams显示
 
-Microsoft Teams显示器是一类一体式专用Teams设备，具有环境触摸屏和 Cortana 提供的免费免提体验。 本文概述了各种Teams，可帮助你规划、传送和管理Teams显示。
+Microsoft Teams显示器是一类一体式专用Teams设备，具有环境触摸屏和由屏幕支持的免费Cortana。 本文概述了各种Teams，可帮助你规划、传送和管理Teams显示。
 
 Teams显示功能将你喜欢Teams聊天、会议、呼叫、日历和文件功能汇集到 &ndash; &ndash; 单个设备中。 借助Teams，用户可以使用麦克风、相机和扬声器或耳机 (蓝牙耳机) 可靠的呼叫和会议体验。 Teams显示器与用户Windows电脑集成，带来一种支持无缝跨设备交互的配套体验。
 
@@ -37,7 +37,7 @@ Teams显示功能将你喜欢Teams聊天、会议、呼叫、日历和文件功�
 
 - **适用于 Teams 的专用Teams** 用户可以访问所有核心Teams功能，包括聊天、会议、通话、团队和频道、文件等。
 - **环境体验** 用户可以轻松地使用始终开启且易于查看的显示来了解重要的活动和通知，而无需在主要工作设备上切换上下文。 用户还可通过Teams自定义背景来个性化显示。
-- **使用 Cortana 免提** 用户可以使用语音Teams显示来轻松加入和参加会议、口述对 Teams 聊天的答复、查看日历上的内容等。
+- **免提操作Cortana** 用户可以使用语音Teams显示来轻松加入和参加会议、口述对 Teams 聊天的答复、查看日历上的内容等。
 - **在锁屏上留下备注** 来宾可以选择保留音频、视频和文本笔记，用户可以查看来宾留下笔记并查看被谁阻止。  
 
 ## <a name="required-licenses"></a>所需的许可证
@@ -70,4 +70,4 @@ Teams显示是手机Teams的演变。 您可以使用 Teams 管理中心将Teams
 
 [将 IP 电话升级到Teams显示](upgrade-phones-to-displays.md)
 
-[Cortana 语音帮助Teams](../cortana-in-teams.md)
+[Cortana语音帮助Teams](../cortana-in-teams.md)

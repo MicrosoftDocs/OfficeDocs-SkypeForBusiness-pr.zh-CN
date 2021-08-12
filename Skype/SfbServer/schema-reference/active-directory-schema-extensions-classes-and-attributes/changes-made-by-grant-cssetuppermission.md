@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server Grant-CsSetupPermission所做的更改
+title: 由 Grant-CsSetupPermission 中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
-description: 若要委派安装程序，您可以授予特定 Active Directory 组织单位 (OU) 的 RTCUniversalServerAdmins 通用组的权限，从而使该 OU 中的 RTCUniversalServerAdmins 组的成员无需是 Domain Admins 组的成员即可在指定的域中安装 Skype for Business Server。
-ms.openlocfilehash: 3f6de30e7068f9f44ca6d958f8ca30af866b536a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 若要委派安装，您可以授予特定 Active Directory 组织单位 (OU) 的 RTCUniversalServerAdmins 通用组的权限，从而使该 OU 中的 RTCUniversalServerAdmins 组的成员可以在指定域中安装 Skype for Business Server，而无需是 Domain Admins 组的成员。
+ms.openlocfilehash: 32c0d48c5b6c63a38ff48e7808b8009c3ef265e6f0b6eb739094f797e47ace4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831832"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349704"
 ---
-# <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>Skype for Business Server Grant-CsSetupPermission所做的更改
+# <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>由 Grant-CsSetupPermission 中Skype for Business Server
  
-若要委派安装程序，您可以授予特定 Active Directory 组织单位 (OU) 的 RTCUniversalServerAdmins 通用组的权限，从而使该 OU 中的 RTCUniversalServerAdmins 组的成员无需是 Domain Admins 组的成员即可在指定的域中安装 Skype for Business Server。 
+若要委派安装，您可以授予特定 Active Directory 组织单位 (OU) 的 RTCUniversalServerAdmins 通用组的权限，从而使该 OU 中的 RTCUniversalServerAdmins 组的成员可以在指定域中安装 Skype for Business Server，而无需是 Domain Admins 组的成员。 
   
 **Grant-CsSetupPermission** cmdlet 向 OU 授予 RTCUniversalServerAdmins 组权限，如下表中所述：
   

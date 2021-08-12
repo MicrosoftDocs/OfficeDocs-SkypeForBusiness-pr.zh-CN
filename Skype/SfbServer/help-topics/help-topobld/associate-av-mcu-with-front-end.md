@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a436e41-c902-4968-8d6e-8e7c0adf9f40
 description: 所有启用会议的 Enterprise Edition 前端池都必须具有并置的 A/V 会议服务或使用独立的 A/V 会议池。可以选择当前具有并置的 A/V 会议服务的任何现有 Enterprise Edition 前端池以改用新的独立 A/V 会议池。
-ms.openlocfilehash: 8c2b010c598a8ad693de65c400694f4445e77d12
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dd4be45cd5247cba03ea7406ccd1209e2db556914f1711164102e7ac1c9728ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284812"
 ---
 # <a name="associate-av-mcu-with-front-end"></a>将 AV MCU 与前端关联
  

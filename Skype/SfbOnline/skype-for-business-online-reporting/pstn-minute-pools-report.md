@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 新的Skype for Business管理中心报告"区域显示你的组织的呼叫和音频会议活动。 它使你能够钻取到报表，从而更细致地了解每个用户的活动。 例如，可以使用 PSTN Skype for Business报告查看组织内部当月使用的分钟数。
-ms.openlocfilehash: d82f360c48b6e7478ef552826ee80ecaf508db0f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: 新的"Skype for Business中心报告"区域显示组织中呼叫和音频会议活动。 它使你能够深入了解报表，从而更细致地了解每个用户的活动。 例如，可以使用 PSTN Skype for Business报告查看组织内部当月使用的分钟数。
+ms.openlocfilehash: dae86688a5fb0204802f62d28504c3454613bb3d7f7d23f17d09972b94303390
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850247"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分钟池报告
 
@@ -33,31 +33,29 @@ ms.locfileid: "52238176"
 >[!NOTE]
 >此报告仅适用于预览版客户。
 
-新的"Skype for Business中心报告"区域显示组织中呼叫和音频会议活动。 它使你能够钻取到报表，从而更细致地了解每个用户的活动。 例如，可以使用 **PSTN** Skype for Business报告查看组织内部当月使用的分钟数。
+新的Skype for Business管理中心 **报告**"区域显示贵组织的呼叫和音频会议活动。 它使你能够深入了解报表，从而更细致地了解每个用户的活动。 例如，可以使用 **PSTN** Skype for Business报告查看组织内部当月使用的分钟数。
   
 有关更多 [可用报表，](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 请查看报表概述。
   
 此报表以及其他Skype for Business一起提供有关整个组织活动的详细信息。 在调查、规划和为组织做出其他业务决策以及设置通信信用额度时，这些详细信息非常有用[](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> 以管理员Skype for Business登录到管理中心时，可以看到所有Microsoft 365报表。 
+> 以管理员角色登录到 Skype for Business时，可以看到所有 Microsoft 365 管理中心。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>如何访问 PSTN Skype for Business报告
 
 ![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
-- 转到管理中心>**管理Skype for Business**  >  **报告**  >    >  **PSTN 分钟池**。
+- 转到管理中心，>**管理中心**  >  **Skype for Business"**  >    >  **报告 PSTN 分钟池"。**
     
 > [!NOTE]
 > 根据你Microsoft 365或Office 365订阅，可能看不到此处显示的所有相同详细信息。 
   
-## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>解释 PSTN Skype for Business池报告
+## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>解释SKYPE FOR BUSINESS PSTN 分钟池报告
 
 通过查看显示的每个列，Skype for Business分钟池的视图。
   
 以下是此报告的外观。
-  
-## 
 
 ![Skype for BusinessPSTN 分钟池报告](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
@@ -70,7 +68,7 @@ ms.locfileid: "52238176"
      * MCOPSTN6 - 国内呼叫 (240 分钟呼叫计划) 
      * MCOMEETADD - 音频会议
 *    **功能** 说明是调用使用的许可类型的说明。
-*    **国家/** 地区分钟池是共享分钟池 (用户) 许可证使用位置。 
+*    **国家/** 地区分钟池是共享分钟 (的用户) 许可证使用位置。 
 *    **"已** 用分钟数"是每月使用的分钟数。
 *    **总分钟** 数是当月可用的总分钟数。 
 *    **"已** 用百分比"表示当月使用的分钟数百分比。 
@@ -81,9 +79,9 @@ ms.locfileid: "52238176"
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 
-- [Skype for Business活动报告](activity-report.md)你可以看到你的用户使用对等会议会话、组织会议会话和参与会议会话的用户数。
+- [Skype for Business活动报表](activity-report.md)你可以看到你的用户使用对等会议会话、组织会议会话和参与会议会话的用户数。
     
-- [Skype for Business设备使用情况报告](device-usage-report.md)你可以查看设备，包括Windows操作系统和移动设备，这些设备已安装Skype for Business应用，并使用它进行即时消息和会议。
+- [Skype for Business设备使用情况报告](device-usage-report.md)你可以查看设备，包括Windows操作系统和移动设备，这些设备已安装Skype for Business应用并使用它进行即时消息和会议。
     
 - [Skype for Business组织者活动报告](conference-organizer-activity-report.md)可以看到有多少用户正在组织使用即时消息、音频/视频、应用程序共享、Web、/拨出 - 第三方和 /dial out - Microsoft 的会议。
     

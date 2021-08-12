@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何Teams Microsoft Power Platform 工具（包括 Power BI、Power 应用、Power automate 和 Power Virtual Agents）。
-ms.openlocfilehash: c6442cd654dd8da6e26de048d50b7c80ef95cf26
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 35663c2e16afe26d339b54ba4c093beb2c8a9f7f1ade8ece1204a673cff28fd7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111038"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312470"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Microsoft Power Platform 集成
 

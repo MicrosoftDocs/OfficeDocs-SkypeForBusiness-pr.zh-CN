@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
-description: Gateways 表是一个支持表。 每条记录都存储有关公用电话交换网中涉及的一个网关的信息， (PSTN) 数据库中具有记录的呼叫。
-ms.openlocfilehash: e945e5464093eb0eb58965fa1ef8a734ea0afa75
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Gateways 表是一个支持表。 每条记录都存储有关在公用电话交换网中涉及的一个网关的信息 (数据库中具有记录的 PSTN) PSTN 呼叫。
+ms.openlocfilehash: 62bbe3ab802736a50d1fb049a3585cba286ee7ec16907335aa831ab49259b0fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349664"
 ---
 # <a name="gateways-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 Gateways 表
  
-Gateways 表是一个支持表。 每条记录都存储有关公用电话交换网中涉及的一个网关的信息， (PSTN) 数据库中具有记录的呼叫。
+Gateways 表是一个支持表。 每条记录都存储有关在公用电话交换网中涉及的一个网关的信息 (数据库中具有记录的 PSTN) PSTN 呼叫。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**GatewayId** <br/> |int  <br/> |主  <br/> |标识此网关的唯一编号。  <br/> |
 |**网关** <br/> |nvarchar (256)   <br/> | <br/> |网关名称。  <br/> |
