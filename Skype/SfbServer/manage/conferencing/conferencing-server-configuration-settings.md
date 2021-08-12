@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中管理会议服务器配置设置
+title: 管理会议服务器配置设置Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,26 +12,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 摘要：了解如何在 Skype for Business Server 中管理会议服务器配置设置。
-ms.openlocfilehash: db44ad62acb99bab32b732ea0686784b14c3b2b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2175b1bc66425b98ade2a421a3f3cb477856ffb240bd835646164bc85dd668d8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341887"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business Server 中管理会议服务器配置设置
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>管理会议服务器配置设置Skype for Business Server
  
-**摘要：** 了解如何在 Skype for Business Server 中管理会议服务器配置设置。
+**摘要：** 了解如何在 Skype for Business Server 中管理会议服务器配置Skype for Business Server。
   
-本主题介绍如何管理会议配置设置。 若要详细了解如何计划和部署会议，请参阅在 [Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) 中规划会议和在 Skype for Business Server 中部署 [会议](../../deploy/deploy-conferencing/deploy-conferencing.md)。
+本主题介绍如何管理会议配置设置。 若要详细了解如何计划和部署会议，请参阅在 Skype for Business Server 中规划会议[Skype for Business Server。](../../plan-your-deployment/conferencing/conferencing.md) [](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
-会议配置设置可确定诸如会议内容和讲义允许的最大大小等内容;应用程序共享会议服务的最大带宽量;存储限制和过期期限;支持客户端的内部和外部下载的 URL;指向用户可获取会议帮助和资源的内部 URL 和外部 URL 的指针;以及用于应用程序共享、客户端音频、文件传输和媒体流量的端口。 这些设置允许您管理实际服务器本身。 可以使用 Skype for Business Server 命令行管理程序设置这些设置。
+会议配置设置可确定诸如会议内容和讲义允许的最大大小等内容;应用程序共享会议服务的最大带宽量;存储限制和过期期限;支持客户端的内部和外部下载的 URL;指向用户可获取会议帮助和资源的内部 URL 和外部 URL 的指针;以及用于应用程序共享、客户端音频、文件传输和媒体流量的端口。 这些设置允许您管理实际服务器本身。 这些设置可以使用命令行管理程序Skype for Business Server设置。
   
-安装 Skype for Business Server 时，系统会在全局集合集中提供一个会议 (设置) 。 如果您需要为站点或服务创建自定义设置，则可以使用 **New-CsConferencingConfiguration** cmdlet 来完成。 请注意，新设置只能在站点范围或服务范围应用;您无法创建新的会议配置设置的全局集合，但可以使用 **Set-CsConferencingConfiguration** cmdlet 修改全局集合。 此外，任何站点或服务都不得承载多个设置集合。 如果尝试为 Redmond 站点创建新设置，并且 Redmond 站点已经托管了一组会议配置设置，则命令将失败。
+在安装Skype for Business Server时，系统会为全局集合 (一个会议配置) 。 如果您需要为站点或服务创建自定义设置，则可以使用 **New-CsConferencingConfiguration** cmdlet 来完成。 请注意，新设置只能在站点范围或服务范围应用;您无法创建新的会议配置设置的全局集合，但可以使用 **Set-CsConferencingConfiguration** cmdlet 修改全局集合。 此外，任何站点或服务都不得承载多个设置集合。 如果尝试为 Redmond 站点创建新设置，并且 Redmond 站点已经托管了一组会议配置设置，则命令将失败。
   
-## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序管理会议配置设置
+## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序管理Skype for Business Server配置设置
 
-若要使用 Skype for Business Server 命令行管理程序管理会议配置设置，请使用以下 cmdlet：
+若要使用命令行管理程序管理Skype for Business Server配置设置，请使用以下 cmdlet：
   
 **会议配置设置**
 
@@ -64,4 +64,4 @@ $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
 ```
 
-如果不调用 **Set-CsConferencingConfiguration** cmdlet，则新设置永远不会生效。 相反，一旦结束会话或删除 Windows PowerShell，它们就会$x。
+如果不调用 **Set-CsConferencingConfiguration** cmdlet，则新设置永远不会生效。 相反，一旦结束会话或删除Windows PowerShell，它们就会$x。

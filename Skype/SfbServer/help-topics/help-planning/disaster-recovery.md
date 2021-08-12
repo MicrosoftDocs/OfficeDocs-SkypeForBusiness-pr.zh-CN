@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype for Business Server 2015 年包括灾难恢复措施，使您可对位于两个数据中心的前端池进行配对。
-ms.openlocfilehash: 3cec8edad0c4c5ab1394783948af94a19c1b7864
+ms.openlocfilehash: 052b0710736d45516518ff8b37d36ad2d5d5bd55d2c3e8fe87f9a0ec2ca7b06c
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772713"
+ms.locfileid: "54333824"
 ---
 # <a name="skype-for-business-server-disaster-recovery-planning-tool"></a>Skype for Business Server灾难恢复规划工具
  

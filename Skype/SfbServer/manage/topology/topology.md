@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中管理拓扑
+title: 在部署中管理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
-description: 摘要：了解在 Skype for Business Server 中管理拓扑的步骤。
-ms.openlocfilehash: bf8a6efd745cd6746e8494f2e2f1ef0da8e93f7f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解在部署中管理拓扑Skype for Business Server。
+ms.openlocfilehash: 7738d7ad662a1d06c9536e016456d91882c775a030857c9c839fd04a55d0da76
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290270"
 ---
-# <a name="manage-your-topology-in-skype-for-business-server"></a>在 Skype for Business Server 中管理拓扑 
+# <a name="manage-your-topology-in-skype-for-business-server"></a>在部署中管理Skype for Business Server 
  
-**摘要：** 了解在 Skype for Business Server 中管理拓扑的步骤。
+**摘要：** 了解在部署中管理拓扑Skype for Business Server。
   
-以下主题提供有关管理 Skype for Business Server 拓扑和前端服务器所涉及的任务的分步说明。
+以下主题提供有关管理部署拓扑和前端服务器Skype for Business Server任务的分步说明。
   
 - [管理前端服务器](manage-front-end-servers.md)
     
 - [使用 AlwaysOn 可用性组管理数据库](manage-databases.md)
 
-- [修补或更新后端服务器或 Standard Edition Server](patch-or-update-a-back-end-or-standard-edition-server.md)
+- [修补或更新后端服务器或Standard Edition服务器](patch-or-update-a-back-end-or-standard-edition-server.md)
     
 - [将文件存储数据移动到新文件存储](../../help-topics/help-topobld/move-file-store-data.md)
 

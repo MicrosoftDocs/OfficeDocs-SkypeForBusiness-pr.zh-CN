@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: 使用Microsoft Teams Microsoft Graph构建的预定义模板，快速轻松地为中小型企业创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e3d29dca0bbdbd7b3487ac1738b84396a3d41117
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 971b7b0d3be009938a05b7b8fd38105cc273d6158309c69c30cb7c22c51d3fce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116990"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323934"
 ---
 # <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams Microsoft Graph 小型企业版中构建的模板
 

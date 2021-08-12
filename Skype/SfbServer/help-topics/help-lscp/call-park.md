@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: 当呼叫被取回时，该呼叫将转接到临时号码，呼叫将一直持续到有人取回或它退出。您需要配置一个表，该表包含要为已呼叫预留的分机号码范围。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 每个运行呼叫库应用程序的池都可以有一个或多个扩展范围。 这些范围在部署中必须是全局唯一的。
-ms.openlocfilehash: 30e0493c065c8bcd16b8d18a625c2650522ee8ee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 025dc470a31fef85f28df9fed5ec611880547d609e461eb7a6ce485b7ffb646e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095396"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334214"
 ---
 # <a name="call-park"></a>呼叫寄存
 
@@ -58,4 +58,4 @@ The **Call Park** page displays a list of all the Call Park number ranges that a
 
 - **目标** FQDN 的 (FQDN) 或托管号码范围的呼叫托管应用程序的应用程序服务的服务 ID。
 
-有关呼叫等待特性和功能的详细信息，请参阅 Plan [for Call Park in Skype for Business 2015。](../../plan-your-deployment/enterprise-voice-solution/call-park.md) 有关使用呼叫等待号码范围的详细信息，请参阅 Configure [Phone Number Extensions for Parking Calls。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)
+有关呼叫等待特性和功能的详细信息，请参阅 Plan [for Call Park in Skype for Business 2015。](../../plan-your-deployment/enterprise-voice-solution/call-park.md) 有关使用呼叫等待号码范围的详细信息，请参阅 Configure[电话 Number Extensions for Parking Calls。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)

@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中规划响应组应用程序
+title: 在响应组中规划响应组Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
-description: 在 Skype for Business Server 企业语音规划响应组，这使您能够设置到用户组的呼叫路由。 包括音频文件要求。
-ms.openlocfilehash: b27f3d1c40a384bd7465e7d2c8843a0523687d19
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 规划呼叫Skype for Business Server 企业语音，从而使您能够设置到用户组的呼叫路由。 包括音频文件要求。
+ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290080"
 ---
-# <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>在 Skype for Business Server 中规划响应组应用程序
+# <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>在响应组中规划响应组Skype for Business Server
 
-在 Skype for Business Server 企业语音规划响应组，这使您能够设置到用户组的呼叫路由。 包括音频文件要求。
+规划呼叫Skype for Business Server 企业语音，从而使您能够设置到用户组的呼叫路由。 包括音频文件要求。
 
 如果您的组织具有一组应答和管理某些类型的呼叫（例如客户服务、内部技术支持或部门常规电话支持）的呼叫，您可以部署响应组应用程序来管理这些类型的呼叫。 响应组应用程序将传入呼叫路由到指定人员（称为代理）并排入队列。 您可以通过响应组来增加电话支持服务的使用并降低运行这些服务的开销。
 
@@ -48,7 +48,7 @@ ms.locfileid: "51114598"
 
 ## <a name="management-of-response-groups"></a>响应组的管理
 
-在 Skype for Business Server 中，有两个管理角色可用于管理响应组：响应组管理员和响应组管理员。 响应组管理员可以管理任何响应组的各个方面。 响应组管理员只能管理某些方面，并且只能管理他们拥有的响应组。 Manager 角色可以帮助您降低管理成本，因为您可以将特定响应组的有限责任委派给启用了此角色企业语音。 请注意，用户可以是响应组管理员和响应组管理员。
+在Skype for Business Server中，有两个管理角色可用于管理响应组：响应组管理员和响应组管理员。 响应组管理员可以管理任何响应组的各个方面。 响应组管理员只能管理某些方面，并且只能管理他们拥有的响应组。 Manager 角色可以帮助您降低管理成本，因为您可以将特定响应组的有限责任委派给启用了此角色企业语音。 请注意，用户可以是响应组管理员和响应组管理员。
 
 为了适应 Manager 角色，响应组应用程序使用 **"** 托管"或"非托管"的工作流类型。 下表介绍了托管响应组和非托管响应组。
 
@@ -56,7 +56,7 @@ ms.locfileid: "51114598"
 
 |**响应组类型**|**说明**|
 |:-----|:-----|
-|非托管  <br/> | 非托管响应组未分配有 Manager。 只有响应组管理员可以配置这些响应组。 <br/>  多个非托管响应组可共享一个队列或代理组。 <br/>  将响应组从早期版本迁移到 Skype for Business Server 时，类型设置为"非托管"。 <br/> |
+|非托管  <br/> | 非托管响应组未分配有 Manager。 只有响应组管理员可以配置这些响应组。 <br/>  多个非托管响应组可共享一个队列或代理组。 <br/>  将响应组从早期版本迁移到 Skype for Business Server时，类型设置为"非托管"。 <br/> |
 |托管  <br/> | 响应组管理员可以配置托管响应组的任何方面。 <br/>  响应组管理员无法查看或修改未明确分配给他们的响应组。 <br/>  响应组管理员只能为显式分配给他们的响应组配置某些设置。 <br/>  托管响应组无法与任何其他响应组（托管或非托管）共享任何队列或代理组。 <br/> |
 
 下表介绍了响应组管理员可以/不能为分配给这些响应组的响应组执行的操作。
@@ -72,25 +72,25 @@ ms.locfileid: "51114598"
 - Skype for Business Server 控制面板
 
     > [!NOTE]
-    > 响应组管理员只能使用此工具管理响应组设置。 其他 Skype for Business Server 设置对经理不可用。
+    > 响应组管理员只能使用此工具管理响应组设置。 其他Skype for Business Server管理员不可用。
 
 - 响应组配置工具
 
 - Skype for Business Server 命令行管理程序
 
-响应组可很好地扩展到部门或工作组 (，有关详细信息，请参阅 Capacity [Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) and can be deployed in entirely new telephony installations。 它支持来自本地企业语音和本地运营商网络的传入呼叫。 代理可以使用 Skype for Business、Lync 2013、Lync 2010、Lync 2010 Attendant 或 Lync Phone Edition 将呼叫路由到他们。
+响应组可很好地扩展到部门或工作组 (，有关详细信息，请参阅 Capacity [Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) and can be deployed in entirely new telephony installations。 它支持来自本地企业语音和本地运营商网络的传入呼叫。 代理可以使用 Skype for Business、Lync 2013、Lync 2010、Lync 2010 Attendant 或 Lync 电话 Edition 将呼叫路由到他们。
 
 ## <a name="deployment-and-requirements"></a>部署和要求
 
-部署响应组应用程序时，将自动启用企业语音。
+部署响应组应用程序时，会自动启用企业语音。
 
 ### <a name="hardware-and-software-requirements"></a>硬件和软件要求
 
 响应组应用程序具有与前端服务器相同的硬件要求、操作系统要求和必备软件。
 
-如果将 Windows Media 音频 (.wma) 文件用于响应组音乐和通知，则运行响应组应用程序的所有前端服务器或 Standard Editions 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或者为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation。 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为 Windows 桌面体验的一部分进行安装。
+如果将 Windows Media Audio (.wma) 文件用于响应组音乐和通知，则运行响应组应用程序的所有前端服务器或 Standard EditionS 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或者为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation。 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。
 
-响应组 **使用语言包** 支持文本到语音和语音识别。 在配置消息（如欢迎邮件和其他提示）以及 IVR (互动语音响应) 使用这些语音技术。 默认情况下，部署 Skype for Business Server 时将安装 26 个支持的语言包。
+响应组 **使用语言包** 支持文本到语音和语音识别。 在配置消息（如欢迎邮件和其他提示）以及 IVR (互动语音响应) 使用这些语音技术。 默认情况下，在部署语言包时，会安装 26 Skype for Business Server。
 
 ### <a name="port-requirements"></a>端口要求
 
@@ -104,11 +104,11 @@ ms.locfileid: "51114598"
     > 此端口用于 Match Making 服务，在具有多个前端服务器的池中部署响应组应用程序时需要此端口。
 
    > [!NOTE]
-   > 这些端口是默认设置，您可以使用 **Set-CsApplicationServer** cmdlet 更改。 有关此 cmdlet 的详细信息，请参阅 Skype for Business Server 命令行管理程序文档。
+   > 这些端口是默认设置，您可以使用 **Set-CsApplicationServer** cmdlet 更改。 有关此 cmdlet 的详细信息，请参阅 Skype for Business Server命令行管理程序文档。
 
 ### <a name="audio-file-requirements"></a>音频文件要求
 
-响应组应用程序支持 wave (.wav) 文件格式和 Windows Media 音频 (.wma) 文件格式处理响应组消息、保持音乐或互动语音响应 (IVR) 问题。
+响应组应用程序支持针对响应组消息、保持音乐或互动语音响应 (IVR) 问题的 wave (.wav) 文件格式和 Windows Media 音频 (.wma) 文件格式。
 
 Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windows Server 2008 的前端服务器上安装 Windows Media Format Runtime。 有关详细信息，请参阅本节前面介绍的"软件要求"。
 
@@ -128,7 +128,7 @@ Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windo
 
 #### <a name="supported-windows-media-audio-file-formats"></a>支持的 Windows Media 音频文件格式
 
-如果使用 Windows Media 音频文件，请考虑使用低比特率，并验证负载下的系统性能。
+如果使用 Windows 音频文件，请考虑使用低比特率，并验证负载下的系统性能。
 
 您可以使用 Microsoft Expression Encoder 4 将文件转换为 Windows Media 音频格式。 若要下载 Expression Encoder 4，请参阅 [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843) 。
 
@@ -143,10 +143,10 @@ Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windo
 
 |**操作系统**|**Web 浏览器**|
 |:-----|:-----|
-|Windows Vista Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
+|WindowsVista Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
 |Windows 7  <br/> Windows 7 Service Pack 1  <br/> |Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
-|Windows Server 2008 with Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
-|Windows Server 2008 R2  <br/> Windows Server 2008 R2 Service Pack 1  <br/> |Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
+|WindowsServer 2008 Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
+|Windows Server 2008 R2  <br/> WindowsServer 2008 R2 Service Pack 1  <br/> |Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
 |Windows Server 2012  <br/> ||
 |Windows Server 2012 R2  <br/> ||
 
@@ -161,10 +161,10 @@ Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windo
 
 |**操作系统**|**Web 浏览器**|
 |:-----|:-----|
-|Windows Vista Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
+|WindowsVista Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
 |Windows 7  <br/> Windows 7 Service Pack 1  <br/> |Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
-|Windows Server 2008 with Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
-|Windows Server 2008 R2  <br/> Windows Server 2008 R2 Service Pack 1  <br/> |Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
+|WindowsServer 2008 Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> |
+|Windows Server 2008 R2  <br/> WindowsServer 2008 R2 Service Pack 1  <br/> |Internet Explorer 8 (本机模式)   <br/> Internet Explorer 9 (本机模式)   <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
 |Windows Server 2012  <br/> |
 |Windows Server 2012 R2  <br/> |
 
@@ -172,7 +172,7 @@ Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windo
 
 响应组应用程序支持以下客户端：
 
-- Skype for Business 桌面客户端
+- Skype for Business桌面客户端
 
 - Lync 2013 桌面客户端
 
@@ -191,9 +191,9 @@ Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windo
 
 - **呼叫者** 可使用前面列出的任何客户端和公用电话交换网 (PSTN) 上的标准电话来呼叫响应组。
 
-- **非正式代理** (组登录和注销的代理接受呼叫，) Attendant、Lync 或 Lync Phone Edition 接受呼叫。 非正式代理使用这些客户端之一登录到 Skype for Business Server 时，将自动登录到其组。
+- **非正式代理** (组登录和注销的代理接受呼叫，) 使用 Attendant、Lync 或 Lync 电话 Edition 接受呼叫。 非正式代理在使用这些客户端之一登录Skype for Business Server自动登录到其组。
 
-- 正式 **代理** (必须登录到组和从组中注销才能接受呼叫的代理) 可以通过使用 Skype for Business 和从菜单项访问代理控制台，或者通过使用 Attendant 并直接从 Internet Explorer 访问代理控制台来接受呼叫。
+- 正式 **代理** (必须登录到组和从组注销才能接受呼叫的代理) 可以通过使用 Skype for Business 和从菜单项访问代理控制台，或者通过使用 Attendant 并直接从 Internet Explorer 访问代理控制台来接受呼叫。
 
 ## <a name="capacity-planning"></a>容量规划
 
@@ -207,7 +207,7 @@ Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windo
 
 **响应组用户模型**
 
-|**跃点数**|**每个 Enterprise Edition 池  <br/> (8 台前端服务器)**|**每台 Standard Edition Server**|
+|**跃点数**|**每个Enterprise Edition池 <br/> (具有 8 台前端服务器)**|**每台 Standard Edition Server**|
 |:-----|:-----|:-----|
 |每秒传入的呼叫数  <br/> |16   <br/> |2  <br/> |
 |连接到 IVR 或 MoH 的并发呼叫数  <br/> |480  <br/> |60  <br/> |

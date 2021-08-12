@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 在 2019 年 10 月Skype for Business Server云自动助理概述
-ms.openlocfilehash: 61ffefab04dc70167d768332132217ebd6564e31
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 0a9eaa3498541371314f268f2d4dfaef2200ab457267fe98f631430ce7c2f035
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315048"
 ---
 # <a name="plan-cloud-auto-attendants"></a>规划云自动助理
 
@@ -64,7 +64,7 @@ ms.locfileid: "53509793"
 
 ## <a name="migration-and-interoperability"></a>迁移和互操作性
 
-如果计划部署 Skype for Business Server 2019 和/或 Exchange Server 2019，则必须仔细规划迁移以确保对自动助理的持续支持。 请注意以下几点：
+如果计划部署 Skype for Business Server 2019 和/或 Exchange Server 2019，则必须仔细规划迁移以确保对自动助理的持续支持。 请注意下列事项：
 
 - Exchange Server 2019 不再提供Exchange UM 功能
 - Exchange统一消息进入停用模式

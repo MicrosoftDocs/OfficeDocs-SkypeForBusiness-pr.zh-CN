@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理意大利用户的电话号码Microsoft Teams。
-ms.openlocfilehash: f88c116837fb496ce101523b577ce78ab6fb6808
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 036b116589db15c5f0f02b75175d5b642f4f1ce730a7860c14f311ef51168934
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510033"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282645"
 ---
 # <a name="phone-number-management-for-italy"></a>电话意大利的号码管理
 

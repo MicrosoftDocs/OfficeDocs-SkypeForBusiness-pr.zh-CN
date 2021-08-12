@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 响应组由代理组、队列和工作流组成。 响应组工作流定义响应组应用程序收到电话呼叫时采取的操作。
-ms.openlocfilehash: d5ab0f197817a5905df54e236db10a3d526685bd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 56c0f111cde8d2fbfdd1c704310a7804e0998294da6449303e2e5025c4572527
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333834"
 ---
 # <a name="response-groups-workflow"></a>响应组工作流
 
@@ -60,4 +60,4 @@ ms.locfileid: "51122526"
 
 - **已启用** 指示是否激活工作流以接收呼叫。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中的[Plan for the Response Group application in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用响应组工作流的详细信息，请参阅操作文档中的[Managing Response Group Workflows。](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows)
+有关响应组特性和功能的详细信息，请参阅规划文档中的 Plan [for the Response Group application in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用响应组工作流的详细信息，请参阅操作文档中的[Managing Response Group Workflows。](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows)

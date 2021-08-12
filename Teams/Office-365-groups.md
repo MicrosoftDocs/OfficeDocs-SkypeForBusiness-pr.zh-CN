@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 了解如何Microsoft 365组和组成员身份与Microsoft Teams。
-ms.openlocfilehash: d258fa4252f6bbb02d2b9a8211dd5919c2d7a67b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 37668b4315f2a46a99f5d9409e395b70f5446ac0f9b0ab5fb86fdbbe644246d6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105238"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282895"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365组和Microsoft Teams
 
@@ -42,7 +42,7 @@ Microsoft 365组是应用程序中的跨应用程序成员身份Microsoft 365。
 
 ## <a name="group-membership"></a>组成员身份
 
-如果删除团队的成员，则他们Microsoft 365组中删除。 从组中删除会立即从客户端中删除团队Teams频道。 如果使用 Microsoft 365 管理中心从组中删除人员，他们将不再有权访问其他协作方面，例如 SharePoint Online 文档库、Yammer 组或共享OneNote。 但是，他们仍可在大约两小时内访问团队的聊天功能。
+如果删除团队的成员，则他们Microsoft 365组中删除。 从组中删除会立即从客户端中删除团队Teams频道。 如果使用 Microsoft 365 管理中心 从组中删除人员，他们将不再有权访问其他协作方面，例如 SharePoint Online 文档库、Yammer 组或共享OneNote。 但是，他们仍可在大约两小时内访问团队的聊天功能。
 
 作为管理团队成员的最佳实践，在 Teams 客户端中添加和删除这些成员，以确保快速更新其他组连接的工作负荷的权限。 如果使用 Microsoft 365 管理中心、Azure AD 或 Exchange Online PowerShell) 在 Teams 客户端 (外部添加或删除团队成员，则更改最多可能需要 24 小时才能反映在 Teams 中。
 

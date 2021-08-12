@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中管理身份验证
+title: 管理身份验证Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,36 +12,36 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
-description: 摘要：使用以下过程管理 Skype for Business Server 安全性和身份验证。
-ms.openlocfilehash: 08cfe113c73c3abc39e617da8340d63f758438c3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：使用以下过程管理Skype for Business Server和身份验证。
+ms.openlocfilehash: ce142b4f28c40e13d17e8990696d88a24e8e212bfbfe2b4f0c2635131b35f352
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119581"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341907"
 ---
-# <a name="manage-authentication-in-skype-for-business-server"></a>在 Skype for Business Server 中管理身份验证
+# <a name="manage-authentication-in-skype-for-business-server"></a>管理身份验证Skype for Business Server
  
-**摘要：** 使用以下过程管理 Skype for Business Server 安全性和身份验证。
+**摘要：** 使用以下过程可管理Skype for Business Server和身份验证。
   
-使用以下过程管理 Skype for Business Server 安全性和身份验证。
+使用以下过程可管理Skype for Business Server和身份验证。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [如何使用 Skype for Business (ADAL) 新式验证](/microsoft-365/enterprise/hybrid-modern-auth-overview)
+- [如何将新式验证与 (ADAL) 一Skype for Business](/microsoft-365/enterprise/hybrid-modern-auth-overview)
     
-- [在 Skype for Business Server 中使用 -Roll 在 Set-CsCertificate 中阶段 AV 和 OAuth 证书](stage-av-and-oauth-certificates.md)
+- [在 Set-CsCertificate Skype for Business Server -Roll 在证书中阶段 AV 和 OAuth 证书](stage-av-and-oauth-certificates.md)
     
-- [将服务器到服务器身份验证证书分配给 Skype for Business Server](assign-a-server-to-server-certificate.md)
+- [将服务器到服务器身份验证证书分配给Skype for Business Server](assign-a-server-to-server-certificate.md)
 
-- [为 Skype for Business Server 混合环境配置服务器到服务器身份验证。](configure-a-hybrid-environment.md)
+- [为混合环境配置Skype for Business Server身份验证。](configure-a-hybrid-environment.md)
 
-- [为 Skype for Business Server 配置本地合作伙伴应用程序](configure-an-on-premises-partner-app.md)
+- [为部署环境配置本地合作伙伴Skype for Business Server](configure-an-on-premises-partner-app.md)
     
-- [在 Skype for Business Server 中管理注册器配置设置](registrar-configuration-settings.md)
+- [管理注册器配置Skype for Business Server](registrar-configuration-settings.md)
     
-- [在 Skype for Business Server 中管理 Web 服务配置设置](web-service-configuration-settings.md)
+- [管理 Web 服务配置设置Skype for Business Server](web-service-configuration-settings.md)
     
-- [在 Skype for Business Server 中管理 PIN 设置](pin-settings.md)
+- [在管理中管理 PIN Skype for Business Server](pin-settings.md)
     
-- [在 Skype for Business Server 中管理双重身份验证](two-factor-authentication.md)
+- [在客户端中管理双重Skype for Business Server](two-factor-authentication.md)

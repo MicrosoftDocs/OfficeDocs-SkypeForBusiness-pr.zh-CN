@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '了解如何获取新号码、转网号码或转移现有号码Teams以及如何向用户显示更改。 '
-ms.openlocfilehash: c80f7a54af697322665c110c14aeccaf5fa4f667
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: cb74b070e9c9c74c71e98309e9a06e3f9a85021872a2072f4852f89de52cbd01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315278"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 

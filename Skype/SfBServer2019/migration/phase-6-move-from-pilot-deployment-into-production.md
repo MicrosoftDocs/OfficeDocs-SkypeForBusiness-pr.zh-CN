@@ -1,5 +1,5 @@
 ---
-title: 第6阶段从试点部署移动到生产环境
+title: 第 6 阶段：从试点部署转移到生产
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本节中的主题介绍在将 Skype for business Server 2019 部署从试验部署迁移到生产级部署之前必须完成的任务。
-ms.openlocfilehash: 2af1d78d866a935a975b3baa520f54fc780b0922
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 本节中的主题介绍在将 Skype for Business Server 2019 部署从试点部署移动到生产级部署之前必须完成的任务。
+ms.openlocfilehash: aaeb1f30f71d802e91e7243ce6ce07c6da57167421d5c4f5ba98ea855c20e240
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315068"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>第 6 阶段：从试点部署移动到生产中
 
-本节中的主题介绍在将 Skype for business Server 2019 的部署从试点部署迁移到生产级部署之前，您必须完成的任务。
+本节中的主题介绍在将 Skype for Business Server 2019 部署从试点部署移动到生产级别部署之前必须完成的任务。
   
 ## <a name="in-this-section"></a>本节内容
 
@@ -30,6 +30,6 @@ ms.locfileid: "44752484"
     
 - [迁移后更改简单 URL](change-simple-urls-after-migration.md)
     
-- [将其余用户移动到 Skype for Business Server 2019](move-remaining-users.md)
+- [将剩余用户移动到 Skype for Business Server 2019](move-remaining-users.md)
     
 

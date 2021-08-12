@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '了解如何尝试或购买 Microsoft 365 或 Office 365 的 PSTN (会议) 许可证，以设置用户可以拨入的电话会议。 '
-ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bcf67443b395e5951d9499124d360061c4ea9a21c130eef5e9efe4187caa7088
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323764"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>试用或购买音频会议Microsoft 365 Microsoft Teams
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: 可以在此页面上配置属性，以将边缘服务器指向访问边缘服务、Web 会议边缘服务和 A/V 边缘服务的外部位置。
-ms.openlocfilehash: b93330d1e3e93d516264748fedba1ad1b6bde4da
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7b903009cee0633a04a5c1fb335418ec3c2a3b0a0a0c0128ff993be71203f2c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103398"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291080"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>添加边缘服务器外部 IP 2010
 

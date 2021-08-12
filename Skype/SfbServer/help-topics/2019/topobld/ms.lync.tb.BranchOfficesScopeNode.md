@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 ROBOTS: NOINDEX, NOFOLLOW
-description: “分支站点”节点列出了与此中央站点关联的分支站点。 可以执行以下操作：
-ms.openlocfilehash: 53e74901466c7d20af55483c4f39dd8e00cc895f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: “分支站点”节点列出了与此中央站点关联的分支站点。可以执行以下操作：
+ms.openlocfilehash: 43d824c281f1d8f9061d733de0ec17c82a58dbee83354202d7dd1808d6cbfcfe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811192"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299988"
 ---
 # <a name="branch-offices-scope-node"></a>分支机构范围节点
  

@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 2015 中为持久聊天服务器配置合规性服务
+title: Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要：了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。
-ms.openlocfilehash: ee7dbc3ad8e7eedcadcc60850e35b753c5fadb43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815062"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349304"
 ---
-# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中为持久聊天服务器配置合规性服务
+# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015
 
 **摘要：** 了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。
 
-持久聊天合规性使管理员能够维护持久聊天消息和活动存档。 合规性服务记录和存档与每个持久聊天服务器对话相关的数据，包括参与者：
+持久聊天合规性使管理员能够维护持久聊天消息以及活动的存档。 合规性服务记录和存档与每个持久聊天服务器对话相关的数据，包括参与者：
 
 - 加入持久聊天室
 
@@ -38,20 +38,20 @@ ms.locfileid: "49815062"
 
 - 下载文件
 
-如果需要，可以从合规性数据库SQL此信息。 
+可根据需要从合规性数据库SQL此信息。 
 
 > [!NOTE]
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 Teams 中也提供相同的功能。 有关详细信息，请参阅 [Microsoft Teams](/microsoftteams/upgrade-start-here)升级入门。 如果你需要使用持久聊天，你的选择是：将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
 
-## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>使用客户端配置合规性Windows PowerShell
+## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>使用合规性服务配置Windows PowerShell
 
-使用拓扑生成器启用合规性服务后，可以使用 **Set-CsPersistenChatComplianceConfiguration** cmdlet 配置该服务：
+在使用拓扑生成器启用合规性服务后，可以使用 **Set-CsPersistenChatComplianceConfiguration** cmdlet 配置该服务：
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
-或者
+或
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
@@ -61,7 +61,7 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 - AdapterType - 允许你指定适配器类型。 适配器是一种第三方产品，可将合规性数据库中的数据转换为特定格式。 XML 为默认值。
 
-- OneChatRoomPerOutputFile - 此参数允许您指定为每个聊天室创建单独的报告。
+- OneChatRoomPerOutputFile - 此参数允许您指定要为每个聊天室创建单独的报告。
 
 - AddChatRoomDetails - 启用后，此参数将记录有关数据库中每个聊天室的其他详细信息。 由于此设置可以大大增加数据库的大小，因此默认情况下将禁用它。
 
@@ -69,35 +69,35 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 - Identity - 此参数允许将合规性设置的范围设定为特定集合，包括全局、站点和服务级别。 默认值为全局级别。 
 
-- RunInterval - 此参数指示服务器创建下一个合规性输出文件之前的时间 (默认值为 15) 。
+- RunInterval - 此参数指示服务器创建下一个合规性输出文件之前 (默认值为 15 分钟) 。
 
-## <a name="use-a-customized-compliance-adapter"></a>使用自定义的合规性适配器
+## <a name="use-a-customized-compliance-adapter"></a>使用自定义合规性适配器
 
 您可以编写自定义适配器，而不是使用随持久聊天服务器一起安装的 XmlAdapter。 若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。 必须将此程序集放在持久聊天服务器池中每台服务器的持久聊天服务器安装文件夹中。 任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。
 
-接口在命名空间中的 Compliance.dll 程序集中定义  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 。 该接口定义自定义适配器必须实现两种方法。
+接口在命名空间 中的 Compliance.dll 程序集中定义  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 。 该接口定义自定义适配器必须实现的两个方法。
 
-当适配器首次加载时，持久聊天合规性服务器将调用以下方法。 包含  `AdapterConfig` 与合规性适配器相关的持久聊天合规性配置：
+持久聊天合规性服务器将在适配器首次加载时调用以下方法。 `AdapterConfig`包含与合规性适配器相关的持久聊天合规性配置：
 
 ```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-只要有要转换的新数据，持久聊天合规性服务器就定期调用以下方法。 此时间间隔等于持久聊天  `RunInterval` 合规性配置中设置的时间间隔：
+只要有新数据要转换，持久聊天合规性服务器就定期调用以下方法。 此时间间隔等于持久  `RunInterval` 聊天合规性配置中设置的：
 
 ```cpp
 void Translate(ConversationCollection conversations)
 ```
 
-包含  `ConversationCollection` 上次调用此方法时收集的对话信息。
+`ConversationCollection`包含上次调用此方法时收集的对话信息。
 
 ## <a name="customize-the-xslt-definition-file"></a>自定义 XSLT 定义文件
 
-合规性数据以 XML 形式提供，您可以使用 XSLT 定义文件将其转换为最适合组织的格式。 本主题介绍合规性服务创建的 XML 文件。 它还提供 XSLT 定义和输出文件的示例。
+合规性数据以 XML 形式提供，您可以使用 XSLT 定义文件将其转换为最适合贵组织的格式。 本主题介绍合规性服务创建的 XML 文件。 它还提供 XSLT 定义和输出文件的示例。
 
 ### <a name="output-format"></a>输出格式
 
-合规性服务输出按对话元素 (会话) ，然后按消息 (Messages 元素) 进行分类，如以下代码示例所示：
+合规性服务输出按 Conversation 元素 (对话) 然后按消息 (Messages 元素) 进行分类，如以下代码示例所示：
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -138,7 +138,7 @@ void Translate(ConversationCollection conversations)
 
 |**属性**|**说明**|**可选/必需**|
 |:-----|:-----|:-----|
-|类型  <br/> |指定消息类型。消息类型将在“Message 元素消息类型”表中进行介绍。  <br/> |必填  <br/> |
+|类型  <br/> |指定消息类型。消息类型将在“Message 元素消息类型”表中进行介绍。  <br/> |必需  <br/> |
 |内容  <br/> |包含消息的内容。具有 Join 或 Part 类型的消息不使用此属性。  <br/> |可选  <br/> |
 |ID  <br/> |指定内容的唯一 ID。此属性仅用于具有 Chat 类型的消息。  <br/> |可选  <br/> |
 
@@ -149,12 +149,12 @@ void Translate(ConversationCollection conversations)
 |**属性**|**说明**|**可选/必需**|
 |:-----|:-----|:-----|
 |用户名  <br/> |发送者的名称。  <br/> |可选  <br/> |
-|ID  <br/> |发件人的唯一 ID。  <br/> |必填  <br/> |
+|ID  <br/> |发件人的唯一 ID。  <br/> |必需  <br/> |
 |电子邮件  <br/> |发件人的电子邮件地址。  <br/> |可选  <br/> |
 |内部  <br/> |确定用户是内部用户还是联盟用户。如果值设为 True，则用户为内部用户。  <br/> |可选  <br/> |
-|Uri  <br/> |用户的 SIP URI。  <br/> |必填  <br/> |
+|Uri  <br/> |用户的 SIP URI。  <br/> |必需  <br/> |
 
-以下示例显示 Messages 元素可以包含的邮件类型。 它还提供了如何使用每个元素的示例。
+以下示例显示 Messages 元素可以包含的消息类型。 它还提供了如何使用每个元素的示例。
 
 Join - 用户加入聊天室。
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
 description: 配置控制器或控制器池的常规属性：
-ms.openlocfilehash: e31dcf72297bfcbc9afd4f45e232de71c5620b7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7f0e7e80f024c3245907750deeb5c7f30bf3fd7b27c5f9283dd2e49544495a3a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835352"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333704"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的控制器常规设置扩展器
  
@@ -34,9 +34,9 @@ ms.locfileid: "49835352"
   
 单击“新建”以定义一个新的文件存储
   
-选中 **"关联监控服务器** "复选框，然后从列表中选择监控服务器
+选中" **关联监控服务器** "复选框，然后从列表中选择监控服务器
   
-单击 **"** 新建"以定义新的监控服务器
+单击 **"新建** "以定义新的监控服务器
   
  **确定** 接受更改并通过对话框提交更改。
   
