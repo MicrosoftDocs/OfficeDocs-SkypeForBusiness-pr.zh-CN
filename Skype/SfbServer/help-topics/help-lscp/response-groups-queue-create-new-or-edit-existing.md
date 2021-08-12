@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: 响应组队列保留对响应组的呼叫，直到代理应答呼叫。
-ms.openlocfilehash: 4226c30ad560d4f5e5396b8af4ab657e55f087c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3029911d6b2290dc6d117f829d084d71a4bd5ed0f9dca652498088a87afcb643
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122553"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319225"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>响应组队列：创建新的或编辑现有的
 
@@ -36,7 +36,7 @@ ms.locfileid: "51122553"
 
 - **组** 选择要分配给队列的代理组。 单击 **"选择** "将代理组添加到列表中。 单击 **"** 删除"从列表中删除所选代理组。
 
-    向上和向下箭头可在列表中向上和向下移动所选代理组。 代理组的顺序会影响 Skype for Business Server 搜索可用代理的顺序。 即，首先搜索列表中的第一个组以查找可用代理，随后是第二个组，依此类推。
+    向上和向下箭头可在列表中向上和向下移动所选代理组。 代理组的顺序会影响搜索Skype for Business Server代理的顺序。 即，首先搜索列表中的第一个组以查找可用代理，随后是第二个组，依此类推。
 
 - **启用队列退出** 选中此复选框可指定呼叫者在代理应答呼叫之前等待等待的最大时间。 如果选择此选项，则还需要指定以下内容：
 
@@ -72,4 +72,4 @@ ms.locfileid: "51122553"
 
   - **转发到另一个队列** 如果选择此选项，请浏览到在达到队列溢出阈值时接收呼叫的队列。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中的[Plan for the Response Group application in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)。
+有关响应组特性和功能的详细信息，请参阅规划文档中的 Plan [for the Response Group application in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用队列的详细信息，请参阅操作文档中的[Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)。

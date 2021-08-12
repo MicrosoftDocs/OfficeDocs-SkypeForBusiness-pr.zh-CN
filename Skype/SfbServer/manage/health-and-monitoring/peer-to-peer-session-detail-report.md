@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的对等会话详细信息报告
+title: 报告中的对等会话详细信息Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 摘要：了解 Skype for Business Server 中的对等会话详细信息报告。
-ms.openlocfilehash: 4dfa2b87b1fbba72282b52fa2ca58ca0f1e70630
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 14df5ae82706a719086c31a3c8582009ed48d85b825057ab49ce6e92fa258116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286801"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等会话详细信息报告
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>报告中的对等会话详细信息Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的对等会话详细信息报告。
   
@@ -37,7 +37,7 @@ ms.locfileid: "49816762"
     
 - 故障列表报告 
     
-在点对点会话详细信息报告中，可以通过单击诊断报告 (详细信息"指标来访问 [Skype for Business Server](diagnostic-report.md)) 报告。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
+从点对点会话详细信息报告中，可以通过单击诊断报告Skype for Business Server详细信息"指标来[](diagnostic-report.md)访问 (详细信息) 报告。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
   
 - 响应
     

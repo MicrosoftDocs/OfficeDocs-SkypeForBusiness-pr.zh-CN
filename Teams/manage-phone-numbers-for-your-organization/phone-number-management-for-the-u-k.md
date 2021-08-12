@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在英国获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 2e222d5db5d5bd2825bc759ce939ec7ebefefb844fae545122a27a8591d32d99
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b04764d10adf3a0f945a0b7e25f1a029dd1e98d7755053163aec2209405e1f7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848497"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>电话英国的电话号码管理
 
@@ -36,11 +36,11 @@ ms.locfileid: "54337370"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载此表单。 <br/> [针对英国 v.5.0 (1) 00000000000000000000000000000000000000000000000)  (](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。  <br/> |
-|获取转接给我们的电话号码。  <br/> |下载此表单： <br/> [英国 (LOA) 授权书 ()  (v.6.1)  (1) ](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> 填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。  <br/> |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
-|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载此表单。 <br/> [针对英国 v.5.0 (10.0)  (100000000000000000000000000000000000000000) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
+|获取转接给我们的电话号码。  <br/> |下载此表单： <br/> [英国 (LOA) 授权书 ()  (v.6.1)  (1) ](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> 填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
+|发布/取消发布 () 电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。 <br/> |
+|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PTSN 服务台，获得说明](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题
 

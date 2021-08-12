@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 要编辑现有前端池或 Standard Edition Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: a899f7adc670009aaafff3b946432c13702935be
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c2dc27177898c4ec8dbd260b6539e877d5eaf4ede8f402e44f09c5d4e095f1f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120934"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348067"
 ---
 # <a name="front-end-general-settings-expander"></a>前端常规设置扩展器
 
@@ -36,7 +36,7 @@ ms.locfileid: "51120934"
 
 ## <a name="front-end-pool"></a>前端池
 
-对于前端池，可以配置常规设置、恢复能力设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 有关定义和配置前端池设置的详细信息，请参阅[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
+对于前端池，可以配置常规设置、复原设置、Web 服务设置和中介服务器设置。有关详细信息，请参阅以下子节中的信息。有关定义和配置前端池设置的详细信息，请参阅[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
 
 ### <a name="general-settings"></a>常规设置
 
@@ -50,7 +50,7 @@ ms.locfileid: "51120934"
 
   - **会议**。包含音频、视频和应用程序共享。选择此选项后，您可以选择电话拨入式 (PSTN) 会议。可以在本节后面的“中介服务器设置”子节下指定并定义公用电话交换网 (PSTN) 网关。
 
-  - **企业语音**。 允许向合格的话筒、设备和 Skype for Business 客户端发出内部 IP 语音呼叫。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
+  - **企业语音**。 允许向合格的话筒、设备和客户端发出内部 IP Skype for Business呼叫。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
 
 - 在“关联”中，编辑或指定以下内容：
 
@@ -131,7 +131,7 @@ ms.locfileid: "51120934"
 
 ## <a name="standard-edition-server"></a>Standard Edition Server
 
-对于 Standard Edition Server，可以配置常规设置、恢复能力设置、Web 服务设置和中介服务器设置。 有关详细信息，请参阅以下子节中的信息。 有关定义和配置 Standard Edition Server 设置的详细信息，请参阅[Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)和[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
+对于 Standard Edition Server，可以配置常规设置、恢复能力设置、Web 服务设置和中介服务器设置。有关详细信息，请参阅以下子节中的信息。有关定义和配置 Standard Edition Server 设置的详细信息，请参阅[Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)和[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
 
 ### <a name="general-settings"></a>常规设置
 
@@ -147,7 +147,7 @@ ms.locfileid: "51120934"
 
   - **会议**。包含音频、视频和应用程序共享。选择此选项后，您可以选择“电话拨入式 (PSTN) 会议”。稍后可以在中介服务器设置下指定并定义 PSTN 网关。
 
-  - **企业语音**。 允许向合格的话筒、设备和 Skype for Business 客户端发出内部 IP 语音呼叫。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
+  - **企业语音**。 允许向合格的话筒、设备和客户端发出内部 IP Skype for Business呼叫。 若要启用外部呼叫功能，需要包含中介服务器。 有关详细信息，请参阅本主题后面的“中介服务器”。
 
 - 在“关联”中，可以编辑或指定以下内容：
 

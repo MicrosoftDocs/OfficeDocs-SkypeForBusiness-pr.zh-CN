@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 阅读本主题，了解如何使用 Microsoft Operations Management Suite (OMS) 云连接器版本 2.1 和更高版本) 。
-ms.openlocfilehash: 55685aae01bdcc3c7c979627dbba910bb33203fa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e2156ec8cff777b7bbad595b9792972508edbd455d6a1d27a65b95ad01c5def
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339988"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>使用 Operations Management Suite (OMS) 监视云连接器
 
 > [!Important]
-> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](/MicrosoftTeams/direct-routing-landing-page)
+> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话Teams[连接到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
 
 阅读本主题，了解如何使用 Microsoft Operations Management Suite (OMS) 云连接器版本 2.1 和更高版本) 。
 
@@ -53,7 +53,7 @@ ms.locfileid: "51098538"
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>配置云连接器以使用 OMS
 
-你需要将云连接器本地环境配置为使用 OMS。 为此，您需要 OMS 工作区 ID 和密钥，可通过使用 OMS 门户找到，如下所示：设置 -- 连接源 \> -- \> Windows 服务器：
+你需要将云连接器本地环境配置为使用 OMS。 为此，您需要 OMS 工作区 ID 和密钥，您可以通过使用 OMS 门户找到这些 ID 和密钥，如下所示：设置 -- 连接源 -- Windows \> \> 服务器：
 
 ![云连接器 OMS 的屏幕截图](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
@@ -86,7 +86,7 @@ ms.locfileid: "51098538"
 
 - **对于所有方案，验证代理是否按如下方式连接：**
 
-    在 OMS 门户中，转到设置 - \> 连接源 - \> Windows 服务器。 你将看到已连接计算机的列表。 
+    在 OMS 门户中，转到"设置 - 连接 \> 源 - \> Windows服务器"。 你将看到已连接计算机的列表。 
 
 ## <a name="configure-oms"></a>配置 OMS
 
@@ -100,7 +100,7 @@ ms.locfileid: "51098538"
 
 在 OMS 门户中，必须指定有关事件日志和性能计数器的信息，如下所示：
 
-1. 转到设置 - \> 数据 - Windows \> 事件日志，并添加事件日志： 
+1. 转到"设置- \> 数据- \> Windows事件日志"，并添加事件日志： 
 
    - Lync Server
 
@@ -109,13 +109,13 @@ ms.locfileid: "51098538"
      > [!NOTE]
      > 您必须在文本框中手动输入 Lync Server。 它不会显示为下拉列表中的选项。 
 
-     有关详细信息，请参阅 Log [Analytics 中的 Windows 事件日志数据源](/azure/log-analytics/log-analytics-data-sources-windows-events)
+     有关详细信息，请参阅 log [Analytics Windows事件日志数据源](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
-2. 转到设置 - \> 数据 - Windows 性能计数器，并 \> 添加性能计数器： 
+2. 转到设置- \> 数据 \> Windows性能计数器，并添加性能计数器： 
 
    - **操作系统级别计数器**。 可以添加操作系统级别计数器（如处理器使用率、内存使用率、网络使用情况）或使用现有解决方案（如容量和性能、网络性能监视器）而无需显式添加计数器。 无论你决定如何监视它们，Microsoft 都建议您监视这些操作系统计数器。
 
-   - **Skype for Business 计数器**。 Skype for Business 提供了许多计数器。 通过登录到任何中介服务器并打开性能监视器，可以找到这些计数器。 这些计数器以"LS："开始。 Microsoft 建议你至少从以下容量计数器开始，并添加感兴趣的其他计数器：
+   - **Skype for Business计数器**。 系统提供了许多计数器Skype for Business。 通过登录到任何中介服务器并打开性能监视器，可以找到这些计数器。 这些计数器以"LS："开始。 Microsoft 建议你至少从以下容量计数器开始，并添加感兴趣的其他计数器：
 
      总活动呼叫：
 
@@ -132,7 +132,7 @@ ms.locfileid: "51098538"
      > [!NOTE]
      > 您必须手动在文本框中输入性能计数器。 它们不会显示为下拉列表中的选项。 
 
-     有关详细信息，请参阅 Log Analytics 中的 [Windows 和 Linux 性能数据源](/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     有关详细信息，请参阅 Log [Analytics](/azure/log-analytics/log-analytics-data-sources-performance-counters) Windows和 Linux 性能数据源
 
 ### <a name="create-alerts"></a>创建警报
 
@@ -256,4 +256,4 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 - [了解 Log Analytics 中的警报](/azure/log-analytics/log-analytics-alerts)
 
-- [将 Windows 计算机连接到 Azure 中的 Log Analytics 服务](/azure/log-analytics/log-analytics-windows-agents)
+- [连接 Windows计算机登录到 Azure 中的 Log Analytics 服务](/azure/log-analytics/log-analytics-windows-agents)

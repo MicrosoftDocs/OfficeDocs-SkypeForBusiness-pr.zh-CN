@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中创建网络区域间路由
+title: 在网络网络中创建网络区域间Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: 创建或修改网络区域间路由，这些路由企业语音 Skype for Business Server 中的呼叫允许控制。
-ms.openlocfilehash: d9ea8def930a075c93effede73ddb3f12d999334
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 创建或修改网络区域间路由，这些路由企业语音呼叫允许控制Skype for Business Server。
+ms.openlocfilehash: 4d3451d43d364e5b9506289e7909456c8bdc657b8ac575dfea360a960352b8d8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093120"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294889"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>在 Skype for Business Server 中创建网络区域间路由
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>在网络网络中创建网络区域间Skype for Business Server
  
-创建或修改网络区域间路由，这些路由企业语音 Skype for Business Server 中的呼叫允许控制。 
+创建或修改网络区域间路由，这些路由企业语音呼叫允许控制Skype for Business Server。 
   
 网络区域间路由定义一对网络区域之间的路由。 呼叫允许控制部署中的每对网络区域都需要网络区域间路由。 这样部署中的每个网络区域便能够访问任何其他区域。
   
@@ -33,11 +33,11 @@ ms.locfileid: "51093120"
   
 在示例拓扑中，必须为三个区域对分别定义网络区域间路由：北美/EMEA、EMEA/APAC 和北美/APAC。 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序创建网络区域间路由
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序创建网络区域Skype for Business Server路由
 
-1. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
-2. 运行 **New-CsNetworkInterRegionRoute** cmdlet 来定义所需路由。 例如，运行：
+2. 运行 **New-CsNetworkInterRegionRoute** cmdlet 来定义所需路由。例如，运行：
     
    ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -54,9 +54,9 @@ ms.locfileid: "51093120"
     > [!NOTE]
     > 北美/APAC 网络区域间路由需要两个网络区域链接，因为它们之间没有直接网络区域链接。 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板创建网络区域间路由
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>使用控制面板创建网络区域Skype for Business Server路由
 
-1. 打开 Skype for Business Server 控制面板。
+1. 打开Skype for Business Server控制面板"。
     
 2. 在左侧导航栏中，单击“网络配置”。
     

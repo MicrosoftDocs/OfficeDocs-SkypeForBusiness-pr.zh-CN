@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中创建会议目录
+title: 在会议目录中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 摘要：了解如何在 Skype for Business Server 中创建会议目录。
-ms.openlocfilehash: e4d73cc73a5c3c343e8a4734923cf80fb2590211
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何在会议Skype for Business Server。
+ms.openlocfilehash: b1b1a09b00a7b0c87caff474d52e000db1e95a4a79ba8e54cb4a15a3f4ca32de
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319105"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server"></a>在 Skype for Business Server 中创建会议目录
+# <a name="create-conference-directories-in-skype-for-business-server"></a>在会议目录中Skype for Business Server
  
-**摘要：** 了解如何在 Skype for Business Server 中创建会议目录。
+**摘要：** 了解如何在会议目录中创建Skype for Business Server。
   
 会议目录维护使用 Skype for Business 时参与者用于加入会议的字母数字会议 ID 与电话拨入式会议参与者加入会议时使用的仅数字会议 ID 之间的映射。 
   

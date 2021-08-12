@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 中配置呼叫等待设置
+title: 在呼叫管理中配置呼叫Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: 修改 Skype for Business Server 企业语音 中的呼叫企业语音。
-ms.openlocfilehash: c1eecd55dac398752915ccb63886bbf85858fe47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 修改呼叫管理中的呼叫Skype for Business Server 企业语音。
+ms.openlocfilehash: 09888fd0d22ce182688a2fbd0456ce7e5cc6564e1b33ebb1b957ebb0f23b02df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111908"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294899"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>在 Skype for Business 中配置呼叫等待设置
+# <a name="configure-call-park-settings-in-skype-for-business"></a>在呼叫管理中配置呼叫Skype for Business
 
-修改 Skype for Business Server 企业语音 中的呼叫企业语音。
+修改呼叫管理中的呼叫Skype for Business Server 企业语音。
 
 如果不想使用默认呼叫呼叫管理设置，可以自定义这些设置。 安装呼叫管理应用程序时，默认情况下将配置全局设置。 您可以修改全局设置，也可以指定特定于站点的设置。 使用 **New-CsCpsConfiguration** cmdlet 可创建新的特定于站点的设置。 使用 **Set-CsCpsConfiguration** cmdlet 可修改现有设置。
 
@@ -44,7 +44,7 @@ ms.locfileid: "51111908"
 
 ### <a name="to-configure-call-park-settings"></a>配置呼叫呼叫管理设置
 
-1. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
 2. 运行：
 
@@ -53,7 +53,7 @@ ms.locfileid: "51111908"
    ```
 
    > [!TIP]
-   > 使用 **Get-CsSite** cmdlet 可标识站点。 有关详细信息，请参阅 Skype for Business Server Management Shell 文档。
+   > 使用 **Get-CsSite** cmdlet 可标识站点。 有关详细信息，请参阅Skype for Business Server命令行管理程序文档。
 
     例如：
 

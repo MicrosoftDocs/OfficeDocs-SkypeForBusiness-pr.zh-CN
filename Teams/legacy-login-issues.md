@@ -17,17 +17,16 @@ description: 排查与在旧系统上接收消息和调用相关的问题
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1c209d1acc83e63792722b00b63be5a6b9f3721a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b013817ab363b91f7041d285616f7bd919dc84b9afd1298ec74d8e9dc64046a5
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848377"
 ---
-<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在旧系统上接收消息和调用时的问题
-==============================================================
+# <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在旧系统上接收消息和调用时的问题
 
-如果用户使用的是旧版应用程序，或者已使用其他应用程序登录，则Teams接收消息或呼叫时可能收到问题。
+如果用户使用的是旧版应用程序，或者已使用其他应用程序登录，则Teams或呼叫时可能收到问题。
 
 ## <a name="legacy-adu-setups"></a>旧版 ADU 设置
 

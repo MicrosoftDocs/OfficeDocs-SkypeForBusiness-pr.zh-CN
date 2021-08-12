@@ -17,17 +17,16 @@ description: 了解帮助主题、视频、发行说明和反馈论坛，以便�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cf562ae3ead64d263681cb29bc97264af1e319bd5be36610468182c721a1b54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 50026fba70ae817eb8325d52c3bcf1bd0153e2c803ee7d7c76935570c6e45420
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848367"
 ---
-<a name="get-help-in-microsoft-teams"></a>在 Microsoft Teams 中获取帮助
-============================================
+# <a name="get-help-in-microsoft-teams"></a>在 Microsoft Teams 中获取帮助
 
-用户和Microsoft Teams中的"帮助"按钮是用户和支持人员在使用这些应用时查找Teams。
+用户和Microsoft Teams中的"帮助"按钮是用户和支持人员在使用"帮助"功能时Teams。
 
 Teams为帮助内容提供本地化语言支持。 有关最新的支持语言列表，请参阅 [Microsoft Teams 支持的帮助内容语言](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)。
 

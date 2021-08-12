@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: 阅读本主题，了解如何规划云连接器版本 PSTN 站点以确保有效且经济高效的呼叫路由。
-ms.openlocfilehash: b42f9109a52b5c30996abc3e42ef4ff0aa5f31dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51bc6c0b7bf536849ebc9d6b1338faa6db8800fee86c4515db4c5f15bf9115b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096226"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339958"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>云连接器版本 PSTN 站点规划
 
 > [!Important]
-> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](/MicrosoftTeams/direct-routing-landing-page)
+> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话Teams[连接到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
  
 阅读本主题，了解如何规划云连接器版本 PSTN 站点以确保有效且经济高效的呼叫路由。
   
-本主题介绍你需要了解的云连接器版本和呼叫路由，以便你可以规划云连接器 PSTN 站点。 PSTN 站点是云连接器设备的组合，部署在同一位置，并连接了常见的 PSTN 网关。 本主题重点介绍如何设置云连接器站点拓扑，以确保云连接器站点可以尽可能经济高效的方式为分配到站点的所有用户处理入站和出站路由。 有关云连接器和 PSTN 站点优势的信息，请务必阅读 Plan for [Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)。 
+本主题介绍你需要了解的云连接器版本和呼叫路由，以便你可以规划云连接器 PSTN 站点。 PSTN 站点是云连接器设备的组合，部署在同一位置，并连接了常见的 PSTN 网关。 本主题重点介绍如何设置云连接器站点拓扑，以确保云连接器站点可以尽可能经济高效的方式为分配到站点的所有用户处理入站和出站路由。 有关云连接器和 PSTN 站点优势的信息，请务必阅读 Plan for [Skype for Business 云连接器版本](plan-skype-for-business-cloud-connector-edition.md)。 
   
 ## <a name="cloud-connector-pstn-sites-and-call-routing"></a>云连接器 PSTN 站点和呼叫路由
 
@@ -40,7 +40,7 @@ ms.locfileid: "51096226"
   
 每个云连接器设备都可以连接到 SDC 或 SDC (多个 IP 网关、IP PBX 或) 。 由于网关和 PBX 连接到 telco 中继 (PRI 或 SIP 中继) ，因此云连接器设备在逻辑上连接到 PSTN 中继进行入站和出站呼叫。 通过云连接器和本地 PSTN 连接，你可以从本地运营商获取中继和相关电话号码。 如果你的企业是大型企业，你可能拥有多个运营商，尤其是在你的企业跨越多个城市、州或国家/地区时。 由于运营商拥有电话号码，因此运营商负责处理紧急呼叫。
   
-Skype for Business Online 同等对待站点内的所有云连接器设备，并旋转将出站呼叫路由到同一站点中的云连接器设备。 站点中的每个云连接器都交叉连接到同一组 PSTN 中继 (完全网格化) 。 由于每个用户都与云连接器 PSTN 站点关联，因此来自该用户 (正常或紧急) 的任何出站呼叫都将分配给与该用户关联的 PSTN 站点中的云连接器设备之一。 
+Skype for BusinessOnline 同等对待站点内的所有云连接器设备，并旋转将出站呼叫路由到同一站点中的云连接器设备。 站点中的每个云连接器都交叉连接到同一组 PSTN 中继 (完全网格化) 。 由于每个用户都与云连接器 PSTN 站点关联，因此来自该用户 (正常或紧急) 的任何出站呼叫都将分配给与该用户关联的 PSTN 站点中的云连接器设备之一。 
   
 云连接器将静态呼叫路由到其连接的 IP 网关、IP-PBX、SDC 或直接 PSTN 中继。 云连接器尚不能够基于目标 (（成本最低路由) 或基于源 (静态或动态紧急呼叫) ） 进行动态路由。 入站呼叫不是问题，因为呼叫只能来自与号码关联的中继。 但是，出站呼叫可以转到站点 (并扩展连接到该云连接器设备的 PSTN 中继) 这可能会导致不需要的长途呼叫。 此外，如果云连接器 PSTN 站点扩展到具有不同区号或运营商的数据中心，紧急呼叫将不会通过。
   

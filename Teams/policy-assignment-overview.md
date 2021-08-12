@@ -18,12 +18,12 @@ description: 了解向用户和组中用户和组分配策略和策略包Microso
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 00f78b3b134c6741a89c0d7b3f43d32a11c182cc
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 9d0f82ab377b1c09f60db7f953c1016f396b2e706417f0f7acb17903ad83c8bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328997"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>在 Teams 中分配策略 – 入门
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 通过配置以下内容定义 IP 或公用电话交换网 (PSTN) 的根 Trunk：
-ms.openlocfilehash: bcb63361291d241139fb9eb126b26cd038ea8b34
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad9f98eae7220294ab18e48d49b01ee2fdcb6a97ce95fab28f2165760762a416
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303715"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定义新 IP 或 PSTN 网关的根中继
 

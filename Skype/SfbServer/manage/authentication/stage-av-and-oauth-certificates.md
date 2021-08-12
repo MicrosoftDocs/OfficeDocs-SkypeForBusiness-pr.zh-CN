@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中使用 -Roll 在 skype for Business Server 中Set-CsCertificate
+title: 使用 -Roll 在Skype for Business Server中将 AV 和 OAuth 证书Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: 摘要：为 Skype for Business Server 阶段 AV 和 OAuth 证书。
-ms.openlocfilehash: 87527d4bb51a5c38e0f85f72b299b67f235f2cf8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：为用户阶段 AV 和 OAuth Skype for Business Server。
+ms.openlocfilehash: f030dfd4a8958fe4efdc20c350b0e3b377da6cf2762604a57eecd3adca3e3430
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319165"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>在 Skype for Business Server 中使用 -Roll 在 skype for Business Server 中Set-CsCertificate
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>使用 -Roll 在Skype for Business Server中将 AV 和 OAuth 证书Set-CsCertificate
  
-**摘要：** 为 Skype for Business Server 阶段 AV 和 OAuth 证书。
+**摘要：** 为用户阶段 AV 和 OAuth Skype for Business Server。
   
-音频/ (A/V) 通信是 Skype for Business Server 的一个关键组件。 应用程序共享以及音频和视频会议等功能依赖于分配给 A/V 边缘服务（特别是 A/V 身份验证服务）的证书。
+音频/视频 (A/V) 通信是音频/视频Skype for Business Server。 应用程序共享以及音频和视频会议等功能依赖于分配给 A/V 边缘服务（特别是 A/V 身份验证服务）的证书。
   
 > [!IMPORTANT]
 > 此新功能设计用于 A/V 边缘服务和 OAuthTokenIssuer 证书。 其他证书类型可以与 A/V 边缘服务和 OAuth 证书类型一起设置，但无法从 A/V 边缘服务证书的共存行为中获益。
   
-用于管理 Skype for Business Server 证书的 Skype for Business Server 命令行管理程序 PowerShell cmdlet 将 A/V 边缘服务证书作为 AudioVideoAuthentication 证书类型，将 OAuthServer 证书作为类型OAuthTokenIssuer 引用。 对于本主题的其余部分和唯一标识证书，它们将被相同的标识符类型 AudioVideoAuthentication 和OAuthTokenIssuer 引用。
+用于Skype for Business Server Skype for Business Server 证书的命令行管理程序 PowerShell cmdlet 将 A/V 边缘服务证书引用为 AudioVideoAuthentication 证书类型，将 OAuthServer 证书作为类型OAuthTokenIssuer。 对于本主题的其余部分和唯一标识证书，它们将被相同的标识符类型 AudioVideoAuthentication 和OAuthTokenIssuer 引用。
   
-A/V 身份验证服务负责颁发供客户端和其他 A/V 使用者使用的令牌。 这些令牌是根据证书上的属性生成的，当证书到期时，会断开连接并需要用新证书生成的新令牌重新连接。 Skype for Business Server 中的一项新功能将缓解此问题，即能够在旧证书过期之前阶段新证书并允许这两个证书继续运行一段时间。 此功能使用 Skype for Business Server 命令行管理Set-CsCertificate cmdlet 中的更新功能。 新参数 -Roll 以及现有参数 -EffectiveDate 将新的 AudioVideoAuthentication 证书放在证书存储中。 旧 AudioVideoAuthentication 证书仍将保留，以便根据该证书验证颁发的令牌。 随着新 AudioVideoAuthentication 证书的就绪，将发生以下一系列事件：
+A/V 身份验证服务负责颁发供客户端和其他 A/V 使用者使用的令牌。 这些令牌是根据证书上的属性生成的，当证书到期时，会断开连接并需要用新证书生成的新令牌重新连接。 Skype for Business Server中的一项新功能将缓解此问题 - 能够在旧证书过期之前阶段新证书并允许这两个证书继续运行一段时间。 此功能使用命令行管理程序 cmdlet 中的Set-CsCertificate Skype for Business Server功能。 新参数 -Roll 以及现有参数 -EffectiveDate 将新的 AudioVideoAuthentication 证书放在证书存储中。 旧 AudioVideoAuthentication 证书仍将保留，以便根据该证书验证颁发的令牌。 随着新 AudioVideoAuthentication 证书的就绪，将发生以下一系列事件：
   
 > [!TIP]
-> 使用 Skype for Business Server 命令行管理程序 cmdlet 管理证书，可以针对边缘服务器上每个用途分别请求不同的证书。 在 Skype for Business Server 部署向导中使用证书向导可帮助你创建证书，但通常是默认类型，用于边缘服务器的所有证书都结合到一个证书上。 如果要使用滚动证书功能，建议的做法是将 AudioVideoAuthentication 证书与其他证书用途分离开。 您可以设置和暂存默认类型的证书，但只有已合并证书的 AudioVideoAuthentication 部分将从暂存中受益。 例如， (中涉及) 证书过期时执行即时消息对话的用户将需要注销并重新登录，才能使用与访问边缘服务关联的新证书。 对于使用 Web 会议边缘服务参与 Web 会议的用户，也会发生类似行为。 OAuthTokenIssuer 证书是一种跨所有服务器共享的特定类型证书。 您可以在一处创建和管理证书，证书将存储在所有其他服务器的中央管理存储中。
+> 使用 Skype for Business Server命令行管理程序 cmdlet 管理证书，可以针对边缘服务器上每个用途请求单独且不同的证书。 使用 Skype for Business Server 部署向导中的证书向导有助于创建证书，但通常是默认类型，用于将边缘服务器的所有证书都结合到一个证书中。 如果要使用滚动证书功能，建议的做法是将 AudioVideoAuthentication 证书与其他证书用途分离开。 您可以设置和暂存默认类型的证书，但只有已合并证书的 AudioVideoAuthentication 部分将从暂存中受益。 例如， (中涉及) 证书过期时执行即时消息对话的用户将需要注销并重新登录，才能使用与访问边缘服务关联的新证书。 对于使用 Web 会议边缘服务参与 Web 会议的用户，也会发生类似行为。 OAuthTokenIssuer 证书是一种跨所有服务器共享的特定类型证书。 您可以在一处创建和管理证书，证书将存储在所有其他服务器的中央管理存储中。
   
 需要更多详细信息才能充分了解您在使用 Set-CsCertificate cmdlet 并在当前证书到期之前将其用于暂存证书时的选择和要求。 -Roll 参数很重要，但基本上只有一个用途。 如果您将参数定义为参数，则告知 Set-CsCertificate您将提供有关受 -Type (（例如 AudioVideoAuthentication 和 OAuthTokenIssuer) ）定义的影响的证书的信息，证书将在 -EffectiveDate 定义后生效。
   
@@ -133,7 +133,7 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 ## <a name="see-also"></a>另请参阅
 
-[Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server](server-to-server-and-partner-applications.md)
+[管理 OAuth 客户端和合作伙伴 (中的) 到服务器身份验证Skype for Business Server](server-to-server-and-partner-applications.md)
 
 [Set-CsCertificate](/powershell/module/skype/set-cscertificate?view=skype-ps)
   

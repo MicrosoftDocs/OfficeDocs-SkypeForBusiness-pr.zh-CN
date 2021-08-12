@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在波兰获取和管理波兰用户的电话号码Microsoft Teams。
-ms.openlocfilehash: abba192cdb4b94a6e5c6032980923c02d338c27f
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: b49ea2281d507f7b7559f95f6f3c7ade9bb45d1fe65b1a013be997a3ab322e08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509963"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329117"
 ---
 # <a name="phone-number-management-for-poland"></a>电话波兰的号码管理
 

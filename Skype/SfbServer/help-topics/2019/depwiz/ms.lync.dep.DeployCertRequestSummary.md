@@ -14,13 +14,13 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 ROBOTS: NOINDEX, NOFOLLOW
-description: “证书请求摘要”页显示证书的所有选项和配置的详细摘要。 摘要中显示证书请求将包含的内容，以及后续将如何颁发证书。 您应仔细阅读摘要以确保选择的所有条目和选项都是正确的。 如果选择正确，可以单击“下一步”继续生成请求的操作，并且准备将其发送给证书颁发机构 (CA)。
-ms.openlocfilehash: 216465d78caed2ab2a181faf9bc5a67202f479bf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: “证书请求摘要”页显示证书的所有选项和配置的详细摘要。摘要中显示证书请求将包含的内容，以及后续将如何颁发证书。您应仔细阅读摘要以确保选择的所有条目和选项都是正确的。如果选择正确，可以单击“下一步”继续生成请求的操作，并且准备将其发送给证书颁发机构 (CA)。
+ms.openlocfilehash: 03d44be1be21d6af860b03a256f9be67f7589f365051e79edfd94503a153683f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291690"
 ---
 # <a name="certificate-request-summary"></a>证书请求（摘要）
  

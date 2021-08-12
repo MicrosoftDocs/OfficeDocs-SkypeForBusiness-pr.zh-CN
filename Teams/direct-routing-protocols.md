@@ -1,5 +1,5 @@
 ---
-title: 电话系统直接路由
+title: Teams电话系统直接路由：定义和 RFC 标准
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,19 +14,19 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 直接路由协议
+description: 系统Microsoft 电话路由如何实现 RFC 标准协议。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88fb4459192ad9ff5af8702878d1cbf6a59d8e9d
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: 19e3b459cef954bc432f97c93c90eaa92091d27bb17c77cecc17e8699e83e65b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848057"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>直接路由 - 定义和 RFC 标准
 
-本文介绍如何Microsoft 电话直接路由实现 RFC 标准协议。 本文面向负责配置本地会话边界控制器 (SBC) 与会话启动协议 (SIP) 代理服务之间的连接的语音管理员。
+本文介绍如何Microsoft 电话直接路由实现 RFC 标准协议。 本文适用于负责在本地会话边界控制器 (SBC) 与会话启动协议 (SIP) 代理服务之间配置连接的语音管理员。
 
 客户 SBC 与后端中的以下Microsoft Teams接口： 
 
@@ -63,11 +63,11 @@ ms.locfileid: "52569200"
 
 - [RFC 5245 Interactive Connectivity Establishment (ICE) 用于媒体旁路](https://tools.ietf.org/html/rfc5245)。  SBC 必须支持以下各项：
   - ICE Lite - Teams是完整的 ICE 客户端
-  - [ICE 重启](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)。 有关 ICE 重启用例和示例，请参阅 ICE 重启：传输到不支持媒体旁路的终结点的媒体旁路呼叫   
-- [RFC RFC 5589 会话启动协议 (SIP) 呼叫控制 – 传输。](https://tools.ietf.org/html/rfc5589) 
+  - [ICE 重新启动](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)。 有关 ICE 重启用例和示例，请参阅 ICE 重启：转移到不支持媒体旁路的终结点的媒体旁路呼叫   
+- [RFC RFC 5589 会话启动协议 (SIP) 呼叫控制 – 传输](https://tools.ietf.org/html/rfc5589)。 
 - [RFC 3960 ](https://tools.ietf.org/html/rfc3960)会话启动协议 (SIP) 中的 RFC 3960 早期媒体和铃声生成，请参阅第 3.1、Forking 和 3.2 部分：铃声生成 
 - [RFC 5389 会话遍历实用工具，适用于 NAT (STUN) ](https://tools.ietf.org/html/rfc5389)
-- [RFC 5766 使用围绕 NAT (TURN) 的中继进行遍历：中继扩展到 NAT (STUN) ](https://tools.ietf.org/html/rfc5766)
+- [RFC 5766 遍历使用围绕 NAT (TURN) 的中继：中继扩展到 NAT (STUN) ](https://tools.ietf.org/html/rfc5766)
 
 ### <a name="standards-applicable-to-support-conveying-location-information-to-e911-providers"></a>适用于支持向 E911 提供商传达位置信息的标准
 
@@ -80,7 +80,7 @@ ms.locfileid: "52569200"
 | RFC 和节 | 说明 | 偏差 |
 | :---------------------  |:---------------------- |:-----------------------|
 | [RFC 6337，第 5.3 节媒体保留和恢复](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC 允许使用"a=inactive"、"a=sendonly"、"a=recvonly"来保持呼叫。 |SIP 代理仅支持"a=inactive"，并且不知道 SBC 是发送"a=sendonly"还是"a=recvonly"。
-| [RFC 6337，第 5.4 节"使用 c=0.0.0.0 接收 SDP 的行为](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) 要求代理能够接收连接地址为 0.0.0.0 的 SDP，在这种情况下，这意味着不应将 RTP 和 RTCP 发送到对等方。 | SIP 代理不支持此选项。 |
+| [RFC 6337 第 5.4 节"使用 c=0.0.0.0 接收 SDP 的行为](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) 要求代理能够接收连接地址为 0.0.0.0 的 SDP，在这种情况下，这意味着不应将 RTP 和 RTCP 发送到对等方。 | SIP 代理不支持此选项。 |
 
 ## <a name="operational-modes"></a>操作模式
 

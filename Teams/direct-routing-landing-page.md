@@ -1,5 +1,5 @@
 ---
-title: 电话系统直接路由
+title: 电话中建立系统直接Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,18 +15,18 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 详细了解直接路由，例如配置、必要的核心部署决策和语音路由注意事项。
+description: 了解直接路由配置、必要的核心部署决策和语音路由注意事项。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cfa0f6aecf2dfeb708d51ff6ebd98f13a36167125f295329f3e37b2e39c0daf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55676d855d3e15c3f767203da981a4fae241f3128a270f5656d770a229f00059
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848067"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 
@@ -48,7 +48,7 @@ ms.locfileid: "54280905"
 -  [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
 -  [迁移到直接路由](direct-routing-migrating.md)
 -  [采用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
-- 观看以下会话，详细了解直接路由：[直接路由Microsoft Teams](https://aka.ms/teams-direct-routing)
+- 观看以下会话，详细了解直接路由：直接[路由Microsoft Teams](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>核心部署决策
 
@@ -66,13 +66,13 @@ ms.locfileid: "54280905"
 
 |询问你自己|操作 |
 |:------------|:-------|
-| 在哪里以及如何部署 SDC？ | 有关详细信息，请参阅 [配置直接路由](direct-routing-configure.md) | 
+| 在何处以及如何部署 SDC？ | 有关详细信息，请参阅 [配置直接路由](direct-routing-configure.md) | 
 是否有多个租户？ | 有关详细信息，请参阅 [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)。|
 |||
 
 ### <a name="voice-routing-considerations"></a>语音路由注意事项
 
-需要配置一个电话系统将调用路由到特定 SDC。
+需要配置一个电话系统将调用路由到特定的 SDC。
 
 |询问你自己|操作 |
 |:------------|:-------|
@@ -80,13 +80,13 @@ ms.locfileid: "54280905"
 | 将哪些用户分配到我定义的语音路由策略？ | 请参阅配置语音 [路由中的示例](direct-routing-configure.md)。 |
 |||
 
-### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>确保传入呼叫使用 TeamsUpgradePolicy Teams传入客户端
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>确保传入呼叫使用 TeamsUpgradePolicy Teams客户端
 
 直接路由仅支持Microsoft Teams。 若要通过直接路由接收 PSTN 呼叫，需要配置 TeamsUpgradePolicy 以确保在 Teams。 用户必须进入Teams模式，为此，可以通过为用户分配 TeamsUpgradePolicy 的"UpgradeToTeams"实例。 
 
 |询问你自己|操作 |
 |:------------|:-------|
-|仅Teams模式意味着什么？ | 有关详细信息，请参阅将 Teams 与 Skype for Business[一起用于组织的迁移和互操作性Skype for Business。](./migration-interop-guidance-for-teams-with-skype.md)|
+|"仅Teams模式"意味着什么？ | 有关详细信息，请参阅[迁移和互操作性指南，](./migration-interop-guidance-for-teams-with-skype.md)了解将 Teams 与 Skype for Business 一Skype for Business。|
 |||
 
 ## <a name="additional-deployment-considerations"></a>其他部署注意事项

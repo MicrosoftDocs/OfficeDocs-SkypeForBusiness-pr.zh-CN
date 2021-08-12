@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在瑞典获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: e070b0f28d2c8637bf953027205b00443d1d63e806d025e55ba3181a9ffcf3f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f71651e78e31fdb7c049cf9f6ed058a5c6ee15913c769412af8476907c24988
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848507"
 ---
 # <a name="phone-number-management-for-sweden"></a>电话瑞典的号码管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "54349454"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [瑞典新电话号码请求 (v.5.0)  (sv-se) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [瑞典英语 v.5.0 (5.0)  (的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。|
-获取转接给我们的电话号码。  <br/> |下载此表单。 <br/>[瑞典 (LOA) 授权书 (所有)  (v.5.0)  (sv-se) ](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 <br/> |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md)      <br/> |
-|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [瑞典新电话号码请求 (v.5.0)  (sv-se) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [瑞典 5.0 (5.0)  (2016 的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。|
+获取转接给我们的电话号码。  <br/> |下载此表单。 <br/>[瑞典的 (LOA) 授权书 (所有)  (v.5.0)  (sv-se) ](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 <br/> |
+|发布/取消发布 () 电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。      <br/> |
+|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PTSN 服务台，获得说明](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在斯洛伐克获取和管理斯洛伐克 for Microsoft Teams。
-ms.openlocfilehash: 2afbb2f081ef59f086ffeb4543a16f09f05c8eb8118e93c8aeb900d4da19d549
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d06ddb2e69729b961fa084e763780d92fba45523069e202951644454d27dde8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848517"
 ---
 # <a name="phone-number-management-for-slovakia"></a>电话斯洛伐克的号码管理
 
@@ -37,11 +37,11 @@ ms.locfileid: "54281555"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 |在斯洛伐克，可以使用管理员中心获取Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 PTSN 以说明](contact-pstn-service-desk.md)。<br/><br/>[斯洛伐克新电话号码请求 (v.1.0)  (en-sk) 。 ](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf) <br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整完成，并 [联系 PTSN 了解说明](contact-pstn-service-desk.md)。<br/><br/>新订单可能需要两到三周来填充此市场。  |
-|获取转接给我们的电话号码。   | 下载此表单。 <br/>[斯洛伐克的 (LOA) 授权书 ()  (v.1.1)  (en-sk ](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf)) 。 <br/> <br/>斯洛伐克[ (LO) A (授权书 ()  (v.1.0)  (sk-sk ](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf)) 。 <br/><br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 <br/><br/>转移号码可能需要四到五周才能完成此市场。 <br/><br/>这些号码目前不能用于会议。 |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
-|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 |在斯洛伐克，可以使用管理员中心获取Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 PTSN 服务台以请求说明](contact-pstn-service-desk.md)。<br/><br/>[针对斯洛伐克的新电话号码请求 (v.1.0)  (en-sk) 。 ](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf) <br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，完整完成它，并联系 [PTSN 服务台了解说明](contact-pstn-service-desk.md)。<br/><br/>新订单可能需要两到三周来填充此市场。  |
+|获取转接给我们的电话号码。   | 下载此表单。 <br/>[斯洛伐克 (LOA) 授权书 ()  (v.1.1)  (en-sk ](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf)) 。 <br/> <br/>[斯洛伐克的 (LOA) 授权书 ()  (v.1.0)  (sk-sk ](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf)) 。 <br/><br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 <br/><br/>转移号码可能需要四到五周才能完成此市场。 <br/><br/>这些号码目前不能用于会议。 |
+|发布/取消发布 () 电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。 <br/> |
+|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PTSN 服务台，获得说明](contact-pstn-service-desk.md)。 |
    
 ## <a name="related-topics"></a>相关主题
 

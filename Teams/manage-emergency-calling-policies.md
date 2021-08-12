@@ -20,12 +20,12 @@ description: 了解如何使用和管理紧急呼叫Microsoft Teams，以定义�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 34f6e901049dd080ee070e7858f24b70535ee189
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75c1d66f598d8d480414f1bdb728f442fbfeb82bb212275ed7f03ec8861eb07f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120563"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329137"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理紧急呼叫策略Microsoft Teams
 
