@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
-description: 此节点显示 FQDN (的完全限定) 、关联的池和服务器，以及有关此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
-ms.openlocfilehash: 3d40ebefe5966985f2f755bff68190d989654457
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 此节点显示 FQDN (的完全限定域名) 关联的池和服务器，以及有关此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
+ms.openlocfilehash: 1783194430b8bbbf44f79d97f118dc89ccb32b498bb7471a4aebefe1f16d8ce5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323344"
 ---
 # <a name="branch-office-appliance-scope-node"></a>分支机构设备范围节点
  
-此节点显示 FQDN (的完全限定) 、关联的池和服务器，以及有关此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
+此节点显示 FQDN (的完全限定域名) 关联的池和服务器，以及有关此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
   
-- **编辑属性**。 打开此Survivable Branch Appliance 的"编辑属性"页，可在其中更改 FQDN (（如果尚未发布) 、关联和恢复能力设置）。
+- **编辑属性**。 打开此Survivable Branch Appliance 的"编辑属性"页，其中可以更改 FQDN (（如果拓扑尚未发布) 、关联和恢复能力设置）。
     
 - **删除**。从拓扑中删除服务器。
     

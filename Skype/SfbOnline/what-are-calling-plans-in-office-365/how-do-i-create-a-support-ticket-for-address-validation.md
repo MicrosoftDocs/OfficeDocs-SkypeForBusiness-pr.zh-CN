@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: 地址验证是设置呼叫计划的重要部分。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: e163e80e3c3a14dba2431f812b53167e8d0af31a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7129398a661a1b89e4f7cbfe51e8a770d45b3714d60df679600d0c70ac6a5491
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238008"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334424"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>如何创建支持票证以进行地址验证？
 
@@ -100,7 +100,7 @@ ms.locfileid: "52238008"
 8. 检查信息，然后单击“**提交请求**”。
     
 > [!TIP]
-> 参考编号将在管理中心的"服务请求"页上Microsoft 365列出。
+> 参考编号将列在"服务请求"**页上的**"Microsoft 365 管理中心"。
   
 ## <a name="related-topics"></a>相关主题
 [关于转移电话号码的常见问题](/microsoftteams/transferring-phone-numbers-common-questions)

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑现有网站的属性，请执行下列操作：
-ms.openlocfilehash: 4bcf07ef1b550fb96ce503f31b4026ccc4ae6960
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d5982c39fdb3228c73adb80e2a3e3728b62a163d55b68a9508a57cf5abf154
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311700"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 站点设置扩展器
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理意大利用户的电话号码Microsoft Teams。
-ms.openlocfilehash: 036b116589db15c5f0f02b75175d5b642f4f1ce730a7860c14f311ef51168934
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 32b930279c11c97180bfc39d295ec7f23e27dd507712b07c7e7009632d036c27
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849717"
 ---
 # <a name="phone-number-management-for-italy"></a>电话意大利的号码管理
 
@@ -34,10 +34,10 @@ ms.locfileid: "54282645"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br>  [针对意大利的新电话号码请求 (v.5.0)  (it-it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  [针对意大利 5 (.5.0)  (5.0)  (的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 |
-|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[意大利的 (LOA) 授权书 ()  (v.6.0)  (所有) ](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md)      <br/> |
-|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br>  [针对意大利 v.5.0 (的新电话号码)  (it-it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  [意大利 5.0 (5.0)  (的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 |
+|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[意大利的 (LOA) 授权书 ()  (v.6.0)  (it-it) ](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 |
+|发布/取消发布 () 电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。      <br/> |
+|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请下载此适用于 [意大利 (v.1.0)  (it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)的目录服务表单，填写并联系 [PTSN](contact-pstn-service-desk.md)了解说明。 |
 |查看服务条款| 下载并阅读意大利服务 ([v.1.0)  (it-it) 。 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true) |
 

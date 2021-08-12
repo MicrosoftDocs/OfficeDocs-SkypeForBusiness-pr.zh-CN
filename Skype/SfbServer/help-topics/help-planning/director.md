@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: 控制器是运行 2015 Skype for Business Server软件的服务器，可以对用户请求进行身份验证，但不管理任何用户帐户。
-ms.openlocfilehash: fa55cfb04684cd363e6be8a6e7d02f281c9eeed8
+ms.openlocfilehash: 969b45a39da201a1de31fe1cf3261dce2cb20070de454770691a9d6c85dcae3a
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772693"
+ms.locfileid: "54344961"
 ---
 # <a name="skype-for-business-server-director-planning-tool"></a>Skype for Business Server控制器规划工具
  

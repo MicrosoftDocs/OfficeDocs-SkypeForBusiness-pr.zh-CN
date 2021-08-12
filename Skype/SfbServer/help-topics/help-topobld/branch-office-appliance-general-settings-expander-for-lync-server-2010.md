@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 若要编辑 Survivable Branch Appliance 或 Survivable Branch Server 的属性，在"常规"下，配置：
-ms.openlocfilehash: 72bbd89ffd20108cc6b4bcf0786fec7130eea382
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 178e7acd1a5e8b34bc4d3b01a10be369834636e6a67c6a2145f650e2211cadca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313320"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 分支机构设备常规设置扩展器
  
-若要编辑 Survivable Branch Appliance 或 Survivable Branch Server 的属性，在 **"常规**"下，配置：
+若要编辑 Survivable Branch Appliance 或 Survivable Branch Server 的属性，在 **"常规**"下配置：
   
 - **FQDN：** 键入 Survivable Branch Appliance 或 Survivable Branch Server 的完全限定域名。
     
-    **使用所有配置的 IP 地址** 将 Survivable Branch Appliance 或 Survivable Branch Server 上配置的 IP 地址用于所有用途。
+    **Use all configured IP addresses** uses the IP addresses configured on the Survivable Branch Appliance or Survivable Branch Server for all purposes.
     
     **将服务用途限制为所选 IP 地址** 配置定义服务器的不同地址和要用于 PSTN 的 IP 地址。
     
@@ -36,7 +36,7 @@ ms.locfileid: "49833212"
     
     **PSTN IP 地址**：与公用电话交换网 (PSTN) 功能关联的 IP 地址。
     
-- 配置 **关联** 以确保其他服务器角色已配置并且与 Survivable Branch Appliance 或 Survivable Branch Server 关联。
+- 配置 **关联以确保** 其他服务器角色已配置并关联到 Survivable Branch Appliance 或 Survivable Branch Server。
     
     **关联存档服务器** 从列表中选择要与 Survivable Branch Appliance 或 Survivable Branch Server 关联的存档服务器
     

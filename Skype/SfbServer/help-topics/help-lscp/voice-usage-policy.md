@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
-description: 有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅"管理 Skype for Business Server 2015"。
-ms.openlocfilehash: b6ea85ce35de45c56cc9387609678e71e1f992b3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage Skype for Business Server 2015。
+ms.openlocfilehash: 07905528100dfd3261de21d8327f3c0f510b8eb99e3802957a6e4e42cd893991
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345011"
 ---
 # <a name="voice-usage-policy"></a>语音用法策略
  
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
   
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于秘鲁Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 32ab54fed54ec1aefa3ee688676d52e0710ed871
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8f681741b27030496fd33502432f31584ebe978a5aea39d5c0f634aa08c14585
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334733"
 ---
 # <a name="availability-in-peru"></a>在秘鲁的可用性
 

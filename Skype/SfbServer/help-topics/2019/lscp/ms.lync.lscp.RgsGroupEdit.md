@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理组定义可应答针对响应组（称为代理）的呼叫的人员以及应用于组中所有代理的设置。
-ms.openlocfilehash: 944cd48745a2524ccfcd795d9edc60e806859301
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 732aef1d5c4e6c23fc084e8f178705888d1fec0ef938f5aeef65eb250b48f42b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118961"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291560"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>响应组：创建新的或编辑现有的代理组
 
@@ -56,7 +56,7 @@ ms.locfileid: "51118961"
 
 - **代理** 通过下列方法之一选择作为响应组代理的用户：
 
-  - 选择 **"使用现有电子邮件通讯组列表** "以使用 Exchange 通讯组列表。 在“通讯组列表地址”中键入该通讯组列表的电子邮件地址。
+  - 选择 **"使用现有电子邮件通讯组列表**"以使用Exchange通讯组列表。 在“通讯组列表地址”中键入该通讯组列表的电子邮件地址。
 
     > [!NOTE]
     > 只能为每个代理组选择一个通讯组列表。如果通讯组列表包括嵌套的通讯组列表，则该嵌套的通讯组列表将不会被包括在代理组中。
@@ -65,10 +65,10 @@ ms.locfileid: "51118961"
     > 通讯组列表中代理排列的顺序将影响代理接收呼叫以进行循环和串行路由的顺序。
 
     > [!NOTE]
-    > 响应组管理员或用户可能会看到隐藏成员身份或隐藏列表。 有关详细信息，请参阅[Create or modify an agent group in Skype for Business。](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)
+    > 响应组管理员或用户可能会看到隐藏成员身份或隐藏列表。 有关详细信息，请参阅 Create [or modify an agent group in Skype for Business](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)。
 
   - 选择“定义自定义代理组”可选择您要分配为响应组代理的用户。单击“选择”可将代理添加到列表中。单击“删除”可从列表中删除所选代理。
 
     向上和向下箭头可在代理列表中向上和向下移动所选代理。列表中代理的排列顺序将影响代理接收呼叫以进行循环和串行路由的顺序。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中的 Plan [for the Response Group application in Skype for Business Server。](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)。
+有关响应组特性和功能的详细信息，请参阅规划文档中Skype for Business Server[规划响应](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)组应用程序。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)。

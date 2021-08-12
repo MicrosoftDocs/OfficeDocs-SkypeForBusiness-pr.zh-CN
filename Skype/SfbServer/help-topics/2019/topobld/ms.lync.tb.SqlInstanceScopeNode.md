@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 此节点显示此 (FQDN) 的完全限定域名Microsoft SQL Server以及该服务器上 SQL Server 的实例以及使用此域的池或SQL Server。 可以执行以下操作：
-ms.openlocfilehash: 5e9363c90f9b9b06b06fe5845c60ba77416a5c15
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 此节点显示此 (的完全限定域名) FQDN Microsoft SQL Server以及该服务器上 SQL Server 的实例以及使用此 SQL Server 的池或服务器。 可以执行以下操作：
+ms.openlocfilehash: 4412cacf94a39341ffc73878ffff9280193847454dc27e8c9d1d7637854b5f27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805542"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311680"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 实例范围节点
  
-此节点显示此 (FQDN) 的完全限定域名Microsoft SQL Server以及该服务器上 SQL Server 的实例以及使用此域的池或SQL Server。 可以执行以下操作：
+此节点显示此 (的完全限定域名) FQDN Microsoft SQL Server以及该服务器上 SQL Server 的实例以及使用此 SQL Server 的池或服务器。 可以执行以下操作：
   
-- **编辑属性**。 打开此服务器的"编辑属性"页，其中可以更改服务器 (（如果尚未发布) ）的 FQDN 以及SQL Server实例。
+- **编辑属性**。 打开此服务器的"编辑属性"页，其中可以更改服务器 (（如果拓扑尚未发布) ）和要使用的 SQL Server 实例。
     
 - **删除**。从拓扑中删除服务器。
     

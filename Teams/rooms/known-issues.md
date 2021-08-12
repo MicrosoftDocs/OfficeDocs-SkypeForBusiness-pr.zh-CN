@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以了解适用于用户的已知问题Microsoft Teams 会议室，包括更新、用户界面、硬件、限制和预期行为。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3656e73226f29f6580a4ae3a1807ee8273731a8
-ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+ms.openlocfilehash: 2fdc4a641c5f507ed52f76779cee77aebe3897188f508f46a54747b4710ba424
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/01/2021
-ms.locfileid: "53679777"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345361"
 ---
 # <a name="known-issues"></a>已知问题 
  

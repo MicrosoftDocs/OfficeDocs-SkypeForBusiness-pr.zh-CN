@@ -16,18 +16,18 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 请阅读本主题，了解如何为用户部署协作Microsoft Teams。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334713"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>使用 PowerShell Microsoft 365资源帐户
 
 请阅读本主题，了解如何使用 PowerShell 为协作栏创建Microsoft Teams帐户。
 
-创建资源帐户的最简单方法是使用 Microsoft 365 管理中心。 [请参阅此文章了解如何执行此操作](resource-account-ui.md)。
+创建资源帐户的最简单方法是使用Microsoft 365 管理中心。 [请参阅此文章了解如何执行此操作](resource-account-ui.md)。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 

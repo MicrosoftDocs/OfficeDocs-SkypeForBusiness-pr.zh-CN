@@ -1,5 +1,5 @@
 ---
-title: 迁移后服务器的管理
+title: 迁移后管理服务器
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 通常，使用的管理工具必须与要管理的服务器版本对应。
-ms.openlocfilehash: e18d54b660b675334d2cd37320a10340ea2f1497
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 57795ac509a57b514adebc92935cddd5285672b34473c65bf3168825438ba5be
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752474"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334574"
 ---
-# <a name="administering-servers-after-migration"></a>迁移后服务器的管理
+# <a name="administering-servers-after-migration"></a>迁移后管理服务器
 
-通常，使用的管理工具必须与要管理的服务器版本对应。 不能在同一台计算机上安装不同版本的管理工具。
+通常，使用的管理工具必须与要管理的服务器版本对应。 不能在同一计算机上安装不同版本中的管理工具。
   
 > [!IMPORTANT]
-> 部署 Skype for Business Server 试点池后，不能使用拓扑生成器或控制面板来管理任何2019资源。 必须使用2019工具来管理所有当前和以前的版本资源。 
+> 部署Skype for Business Server池后，无法使用拓扑生成器或控制面板管理任何 2019 资源。 必须使用 2019 工具管理所有当前和以前的版本资源。 
   

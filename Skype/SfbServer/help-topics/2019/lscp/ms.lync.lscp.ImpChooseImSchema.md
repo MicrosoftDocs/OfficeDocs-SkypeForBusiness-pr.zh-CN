@@ -14,13 +14,13 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用“选择超链接前缀”对话框选择要阻止、要发送警告消息或要允许的超链接类型，方法是，从“超链接前缀”下的类别中选择（以阻止或发送警告消息）或清除（以允许）其扩展名的复选框。 单击箭头可展开类别并查看该类别的所有超链接前缀。 如果要选择某个类别的所有超链接前缀，请选择该类别名称。
-ms.openlocfilehash: de99006dbfee660bf32cac8a32f637a28253985b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 使用“选择超链接前缀”对话框选择要阻止、要发送警告消息或要允许的超链接类型，方法是，从“超链接前缀”下的类别中选择（以阻止或发送警告消息）或清除（以允许）其扩展名的复选框。单击箭头可展开类别并查看该类别的所有超链接前缀。如果要选择某个类别的所有超链接前缀，请选择该类别名称。
+ms.openlocfilehash: 71e2d018430f61e171f59069e0178e14107ed4338020c8792bdd21ac31d588ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334394"
 ---
 # <a name="select-hyperlink-prefix"></a>选择超链接前缀
  

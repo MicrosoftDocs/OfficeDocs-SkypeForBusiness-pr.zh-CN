@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
 description: '了解如何在联机管理员显示Skype for Business的限制内工作。 '
-ms.openlocfilehash: 00726dd76d59bfd177d6626d97c69ecb259bb2ec
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d2a5903f2ce5fb5671123e7b8fca090826f39a69a8f98f5c628d0351a4b73bd9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334464"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype for Business联机管理中心用户页面限制
 

@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
-description: 要在拓扑设计中部署存档服务器，则需要指定要在其上部署存档的服务器的完全限定域名 (FQDN)。 在发布包含存档和安装 Skype for Business Server 的拓扑之前，应该已完成部署存档的所有先决条件。
-ms.openlocfilehash: e9a09e963065da0c0d2d88906cc6318bc91f8f33
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 要在拓扑设计中部署存档服务器，则需要指定要在其上部署存档的服务器的完全限定域名 (FQDN)。 在发布包括存档和安装存档的拓扑Skype for Business Server，您应已完成部署存档的所有先决条件。
+ms.openlocfilehash: 852e12072a454e02f138c705e6de20674162d97aebe5685a482368b9fd4d600a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803672"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313350"
 ---
 # <a name="add-archiving-server"></a>添加存档服务器
  
-要在拓扑设计中部署存档服务器，则需要指定要在其上部署存档的服务器的完全限定域名 (FQDN)。 在发布包含存档和安装 Skype for Business Server 的拓扑之前，应该已完成部署存档的所有先决条件。 
+要在拓扑设计中部署存档服务器，则需要指定要在其上部署存档的服务器的完全限定域名 (FQDN)。 在发布包括存档和安装存档的拓扑Skype for Business Server，您应已完成部署存档的所有先决条件。 
   
 

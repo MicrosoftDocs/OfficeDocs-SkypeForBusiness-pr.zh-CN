@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 2a23ccb2ac70f04ec28b9f9205b7d61a8db3dfa9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2c7c532a0862a91fc067729886ce57838071d92e29f681e387ed6df2986ee6bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115220"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313360"
 ---
 # <a name="users-assign-policies"></a>用户：分配策略
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115220"
 
 - [指定用户登录支持的客户端版本](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [在 Skype for Business Server 2015 中分配每用户 PIN 策略](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [在 2015 年 10 月Skype for Business Server每用户 PIN 策略](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [为用户配置联盟、远程用户访问和公共 IM 连接](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -44,4 +44,4 @@ ms.locfileid: "51115220"
 
 - [分配Per-User持久聊天策略](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。

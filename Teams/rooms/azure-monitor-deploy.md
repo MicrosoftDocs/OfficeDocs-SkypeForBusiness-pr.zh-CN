@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何使用 Azure Monitor 以Microsoft Teams 会议室的端到端方式部署设备管理。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312680"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
 
@@ -379,7 +379,7 @@ ms.locfileid: "51117590"
     2.  为"操作组名称"*和"短名称"字段**提供合适的* 名称。
     3.  指定唯一 *的操作名称，* 选择"**电子邮件/短信/推送/语音**"，然后选择"**编辑详细信息"。**
     4.  选中 **"电子邮件** "复选框，并提供将接收警报的联系人或组的电子邮件地址。
-    5.  您还可以提供电话号码，以便通过语音呼叫短信或同时接收通知。
+    5.  您也可以提供电话号码，以便通过短信和/或语音呼叫获得通知。
     6. 选择"**确定"。**
 
 8. **如果要** 覆盖警报电子邮件的主题行，请自定义"操作"。

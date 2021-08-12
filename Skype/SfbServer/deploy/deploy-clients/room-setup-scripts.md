@@ -1,5 +1,5 @@
 ---
-title: Skype 会议室系统会议室设置脚本
+title: Skype会议室系统会议室设置脚本
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: 阅读本主题，查找用于预配 Skype 会议室系统帐户的示例脚本。
-ms.openlocfilehash: 93a97b42f3b800011030787ea39cfb503767e42c
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: 阅读本主题，查找用于预配会议室系统帐户Skype脚本。
+ms.openlocfilehash: b485a8d08dc5b121d43545ab89ce9c992b4a5860eb874ba806b57c4ac09cfbe3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294929"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype 会议室系统会议室设置脚本
+# <a name="skype-room-system-room-setup-scripts"></a>Skype会议室系统会议室设置脚本
  
-阅读本主题，查找用于预配 Skype 会议室系统帐户的示例脚本。
+阅读本主题，查找用于预配会议室系统帐户Skype脚本。
   
-本部分演示可用于预配 Skype 会议室系统帐户的示例脚本。 这些脚本仅用于说明目的。 只有在咨询 IT 专家或域管理员后，才应使用它们。
+本节演示可用于预配会议室系统帐户Skype脚本。 这些脚本仅用于说明目的。 只有在咨询 IT 专家或域管理员后，才应使用。
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>示例安装脚本：Skype for Business 和 Exchange Server (本地) 
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>示例安装脚本：Skype for Business和Exchange Server (本地) 
 
 ```powershell
 # On Exchange 
@@ -39,17 +39,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>示例安装脚本：Skype for Business 和 Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>示例设置脚本：Skype for Business Exchange Server Online
 
 在运行脚本之前，请确保已查看以下先决条件：
   
-- Microsoft Online Services Sign-In IT 专业人员 BETA 的 Microsoft Online Services Sign-In 助手
+- Microsoft Online Services Sign-In IT 专业人员 BETA 助手
     
-- Windows Azure 64 位Windows PowerShell (或 32 位) 或 32 位 (的 Active Directory 模块) 
+- Windows Azure Active Directory 64 Windows PowerShell (32 位) 或 (32 位版本的) 
     
-- Teams PowerShell 模块
+- TeamsPowerShell 模块
     
-- 如果需要，请重启
+- 如果需要，请重新启动
     
 ```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment
