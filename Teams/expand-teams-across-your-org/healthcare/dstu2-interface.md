@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: 了解应用中的 DSTU2 Teams规范，包括设置或重新配置 FHIR 服务器以使用 Microsoft Teams Patients 应用。
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 12833ea55977cf7e8d18ee5c10b1f17d898b27b3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: 8ec2b1a88d99937e83bc8553f7dbcdd8d92f78b5a8e5708301147a26f0cffe4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308761"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 接口规范
 

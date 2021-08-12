@@ -17,12 +17,12 @@ description: 了解如何使用 Teams 管理中心中的Microsoft Teams信息保
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5652ee503d6810a11f1b152dc0ea2dad23cf4df
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 1ea5916cdf2d91a8440f5b674b1dc60ceb29f804dd5b547d1867ffaad69af8d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308333"
 ---
 # <a name="microsoft-teams-information-protection-license-report"></a>Microsoft Teams信息保护许可证报告
 

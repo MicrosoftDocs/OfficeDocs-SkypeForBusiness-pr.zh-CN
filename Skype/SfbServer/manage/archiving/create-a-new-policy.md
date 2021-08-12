@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中创建新的存档策略
+title: 在存档中创建新的存档Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 摘要：了解如何为 Skype for Business Server 创建新的存档策略。
-ms.openlocfilehash: fe3a80708d3810a085f1814e6d16ff3cd4c6057c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何为用户创建新的存档Skype for Business Server。
+ms.openlocfilehash: 7793575e75fcee4509c96cd6a569520a4a34576e850818a52dd20518ee725de2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280975"
 ---
-# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>在 Skype for Business Server 中创建新的存档策略
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>在存档中创建新的存档Skype for Business Server
 
-**摘要：** 了解如何为 Skype for Business Server 创建新的存档策略。
+**摘要：** 了解如何为用户创建新的存档Skype for Business Server。
   
 可以使用控制面板或 cmdlet 创建新的存档Windows PowerShell策略。
   
@@ -31,7 +31,7 @@ ms.locfileid: "51095416"
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
 3. 在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档策略”**。
     
@@ -54,11 +54,11 @@ ms.locfileid: "51095416"
 6. 单击“提交”。
     
     > [!IMPORTANT]
-    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅 [在 Skype for Business Server 中向用户应用存档策略](apply-a-policy-to-users.md)。 
+    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[向用户应用存档Skype for Business Server。](apply-a-policy-to-users.md) 
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>使用策略创建新的存档Windows PowerShell
 
-您还可以使用 **New-CsArchivingPolicy** cmdlet Windows PowerShell新的存档策略。 有关详细信息，请参阅 [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet 的帮助主题。
+您还可以使用 **New-CsArchivingPolicy** cmdlet Windows PowerShell存档策略。 有关详细信息，请参阅 [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet 的帮助主题。
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>在站点级别创建新的存档策略
 

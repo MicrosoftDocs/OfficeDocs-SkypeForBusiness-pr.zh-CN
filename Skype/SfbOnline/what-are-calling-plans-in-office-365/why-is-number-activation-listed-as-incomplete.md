@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateIncomplete
 description: 地址验证是设置呼叫计划的重要部分。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: 39f63f670685acff79163299ce9cd1a7858821da
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c3ab63ce08eebdcc88b44edc5447d7b2dad0ac412f9320de595f0bb783226317
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279510"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>为什么号码激活列为未完成？
 
@@ -96,7 +96,7 @@ ms.locfileid: "52237898"
 8. 检查信息，然后单击“**提交请求**”。
     
 > [!TIP]
-> 参考编号将在管理中心的"服务请求"页上Microsoft 365列出。
+> 参考编号将列在"服务请求"**页上的**"Microsoft 365 管理中心"。
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

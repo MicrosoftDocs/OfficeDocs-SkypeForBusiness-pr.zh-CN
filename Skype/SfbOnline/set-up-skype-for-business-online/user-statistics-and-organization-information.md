@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 description: 了解Skype用户统计信息的可用信息，例如已启用的用户数、启用会议的用户数，或者为 Microsoft 365 或 Office 365。
-ms.openlocfilehash: bb784b89810189be498caa464357f64df2990fcc
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a3a34fb81cdceea09a88ddb0540403cb1b0fae66b2876cd6350099d829ad495a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281315"
 ---
 # <a name="user-statistics-and-organization-information"></a>用户统计信息和组织信息
 

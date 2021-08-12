@@ -14,35 +14,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 通过即时消息 (IM) 连接，您的组织中的用户可以使用 IM 与公共 IM 服务提供商提供的 IM 服务的用户进行通信。
-ms.openlocfilehash: 28bb1c94cb42068fe99f07a6608a3ac1c50991ad
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 通过公共即时消息 (IM) 连接，您的组织中的用户可以使用 IM 与公共 IM 服务提供商提供的 IM 服务的用户进行通信。
+ms.openlocfilehash: 33efe5c5c48dc84a29f642de9e8d2445ad3cd02c1ee82089e26e532c52dbf3c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309381"
 ---
-# <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>配置策略以控制 Skype for Business Server 中的公共用户访问
+# <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>配置策略以控制公共用户访问Skype for Business Server
 
-公共即时消息 (IM) 连接使组织用户可以使用 IM 与公共 IM 服务提供商提供的 IM 服务的用户进行通信。 配置一个或多个外部用户访问策略，以控制公共用户是否可以与内部 Skype for Business Server 用户进行协作。 公共即时消息连接是一项附加功能，它依赖于部署和用户的配置。 它还取决于在公共 IM 提供商处设置服务。 
+公共即时消息 (IM) 连接使贵组织的用户能够使用 IM 与公共 IM 服务提供商提供的 IM 服务的用户进行通信。 您可以配置一个或多个外部用户访问策略，以控制公共用户能否与内部用户Skype for Business Server协作。 公共即时消息连接是一项新增功能，依赖于部署和用户的配置。 它还取决于在公共 IM 提供商处设置服务。 
 
-若要控制公共用户访问，可以在全局、站点和用户级别配置策略。 在一个策略级别应用的 Skype for Business Server 策略设置可以覆盖在另一个策略级别应用的设置。 Skype for Business 服务器策略优先级是：用户策略（最大影响力）覆盖站点策略，然后站点策略覆盖全局策略（最小影响）。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
+若要控制公共用户访问，可以在全局、站点和用户级别配置策略。 Skype for Business Server一个策略级别应用的策略设置可以覆盖在另一个策略级别应用的设置。 Skype for Business 服务器策略优先级是：用户策略（最大影响力）覆盖站点策略，然后站点策略覆盖全局策略（最小影响）。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
 
 对于 IM 邀请，响应取决于客户端软件。除非外部发件人被用户配置的规则（即，用户客户端的“允许”和“阻止”列表中的设置）显式阻止，否则将接受请求。此外，如果用户选择阻止来自其“允许”列表之外的用户的所有 IM，也可以阻止 IM 邀请。
 
 
 
 > [!NOTE]  
-> 即使没有为组织启用联盟，也可以配置控制公共用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联盟的详细信息，请参阅["启用或禁用远程用户访问"。](../access-edge/enable-or-disable-remote-user-access.md) 此外，如果指定用户策略来控制公共用户访问，则此策略仅适用于已启用 Skype for Business Server 且配置为使用该策略的用户。 有关指定可登录到 Skype for Business Server 的公共用户的详细信息，请参阅"[分配外部用户访问策略"。](assign-an-external-user-access-policy.md)
+> 即使没有为组织启用联盟，也可以配置控制公共用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联盟的详细信息，请参阅 [启用或禁用远程用户访问](../access-edge/enable-or-disable-remote-user-access.md)。 此外，如果指定用户策略来控制公共用户访问，则此策略仅适用于已启用该策略Skype for Business Server配置为使用该策略的用户。 有关指定可登录到 Skype for Business Server 用户的详细信息，请参阅分配[外部用户访问策略](assign-an-external-user-access-policy.md)。
 
 
 使用以下过程来配置策略，以支持一个或多个公共 IM 提供商的用户进行访问。
 
 ## <a name="to-configure-an-external-access-policy-to-support-public-user-access"></a>配置外部访问策略以支持公共用户访问
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
 3.  在左侧导航栏中，单击“外部用户访问”，然后单击“外部访问策略”。
 
@@ -66,7 +66,7 @@ ms.locfileid: "49823584"
 
 7.  单击“提交”。
 
-要启用公共用户访问，还必须在组织中启用对联盟的支持。 有关详细信息，请参阅 [配置策略以控制 Skype for Business Server 中的联盟用户访问](configure-policies-to-control-federated-user-access.md)。
+要启用公共用户访问，还必须在组织中启用对联盟的支持。 有关详细信息，请参阅[Configure policies to control federated user access in Skype for Business Server](configure-policies-to-control-federated-user-access.md)。
 
 如果这是一个用户策略，您还必须将该策略应用到您希望能与公共用户协作的公共用户。 
 

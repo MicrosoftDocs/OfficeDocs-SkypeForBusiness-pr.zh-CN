@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区拨打免费电话号码所需的访问代码。
-ms.openlocfilehash: 7af2a6927fc360fb8efd40160c46104ea20e9b82
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1ce0358533b644a5b60b847e98f4d1635f4010dc79b5ba380604e4d018605a54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308323"
 ---
 # <a name="toll-free-dialing-restrictions-in-south-africa"></a>南非的免费拨号限制
 

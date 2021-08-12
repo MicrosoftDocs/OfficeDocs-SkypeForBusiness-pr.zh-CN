@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要在分支站点为 Survivable Branch Appliance 定义公用电话交换网 (PSTN) 网关，请指定以下内容：
-ms.openlocfilehash: 30b5922e3d18b4dfe57bef23ddb0f00a25df7f9f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d08470d63fe4d4c0130e413f9a1a67b924fbdf37ca1c10f1f0c685af65fed53b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281125"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>添加 Survivable Branch Appliance PSTN
  

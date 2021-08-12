@@ -15,38 +15,38 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
-description: 在 Skype for Business Server 企业语音 中部署呼叫企业语音。
-ms.openlocfilehash: 02c6669b9cadb952f7ccc71d785416db7414d8a8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在 Skype for Business Server 企业语音 中部署呼叫管理功能。
+ms.openlocfilehash: 61452c8b9f5a072e78d4b85dd17e65ef63c27a0e3daab4f71b0e04d9d13c5a1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836852"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307803"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>在 Skype for Business 中部署呼叫管理功能
  
-在 Skype for Business Server 企业语音 中部署呼叫企业语音。
+在 Skype for Business Server 企业语音 中部署呼叫管理功能。
   
-企业语音呼叫管理功能控制如何路由和应答传入呼叫。 Skype for Business Server 提供以下呼叫管理功能： 
+企业语音呼叫管理功能控制如何路由和应答传入呼叫。 Skype for Business Server提供了以下呼叫管理功能： 
   
-- **呼叫停止**：允许语音用户临时呼叫，然后从同一电话或其他电话接听呼叫。
+- **呼叫呼叫** 停止：允许语音用户临时呼叫，然后从同一电话或其他电话接听呼叫。
     
 - **组内** 呼叫应答：使用户能够通过拨打呼叫应答组号码来应答分配给应答组的其他用户的呼叫。
     
-- **响应组**：使用搜索组或互动语音响应将传入呼叫路由到代理组， (IVR) 和答案。
+- **响应组**：使用 IVR 中的寻线或互动语音响应将传入呼叫路由至 (IVR) 和答案。
     
 - **通知**：向对未分配号码发出的呼叫播放消息，或将其路由至其他位置，或同时执行两者。
     
-本节介绍如何在部署期间配置这些企业语音功能。
+本节介绍如何在部署期间配置这些呼叫企业语音功能。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [Skype for Business 中呼叫等待的部署过程](deployment-process-for-call-park.md)
+- [呼叫管理中的呼叫Skype for Business](deployment-process-for-call-park.md)
     
-- [Skype for Business 中的组内呼叫分拣的部署过程](deployment-process-for-group-call-pickup.md)
+- [组中组内呼叫接听的部署Skype for Business](deployment-process-for-group-call-pickup.md)
     
-- [Skype for Business 中响应组的部署过程](deployment-process-for-response-group.md)
+- [响应组的部署Skype for Business](deployment-process-for-response-group.md)
     
-- [Skype for Business Server 中的通知应用程序的部署过程](deployment-process-for-the-announcement-application.md)
+- [通知应用程序的部署过程Skype for Business Server](deployment-process-for-the-announcement-application.md)
     
 

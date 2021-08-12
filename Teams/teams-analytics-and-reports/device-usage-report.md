@@ -17,12 +17,12 @@ description: 了解如何使用 Teams 管理中心中的Microsoft Teams设备使
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d47888884ce86bfa56546a9df600ce958380e0d
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 15dfe1fe7e79e909b11093c019ac38c6cb5d967e46146d4ce0262499ca880018
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478352"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308373"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams 设备使用情况报告
 
@@ -51,9 +51,9 @@ Teams管理中心中的Microsoft Teams使用情况报告提供了用户如何连
 
 若要使设备使用情况Teams数据匿名，您必须是全局管理员。 这会在报表及其导出中隐藏显示名称、电子邮件和 AAD ID 等可识别信息。
 
-1. 在Microsoft 365管理中心，转到"设置 Org设置"，在"服务" \> **选项卡** 下，选择"报表 **"。**
+1. 在Microsoft 365 管理中心中，转到 **"设置** \> **Org 设置"，** 在"服务 **"** 选项卡下，选择"报表 **"。**
     
-2. 选择 **"报告**"，然后选择"**显示匿名标识符"。** 此设置既应用于管理中心中的使用情况Microsoft 365，也适用于Teams中心。
+2. 选择 **"报告**"，然后选择"**显示匿名标识符"。** 此设置同时应用于管理中心Microsoft 365 管理中心使用情况Teams报表。
   
 3. 选择"**保存更改"。**
 

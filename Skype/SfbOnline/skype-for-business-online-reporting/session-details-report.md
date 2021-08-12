@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: "\"报表\"仪表板显示组织中Microsoft 365或Office 365活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。"
-ms.openlocfilehash: 8b861cc863603a8ab51451e9906cd62313bd9cf9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 522a82bf9b93a590f8f319d59e805b23ba34d4665b34eb05541aa18d1b9ba89e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308013"
 ---
 # <a name="session-details-report"></a>会话详细信息报告
 
@@ -37,7 +37,7 @@ ms.locfileid: "52238217"
 此报告以及其他活动Skype for Business提供有关活动的详细信息，包括整个组织的会话详细信息。 当你为组织进行调查、规划和做出其他业务决策以及设置通信信用额度时，这些详细信息[非常有用。](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> 以管理员Skype for Business登录到管理中心时，可以看到所有Microsoft 365报表。 
+> 以管理员角色登录到 Skype for Business时，可以看到所有 Microsoft 365 管理中心。 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>如何访问"Skype for Business会话详细信息"报表
 

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: 了解如何创建、修改用户以及将其添加到 Microsoft Teams 中的自定义调用策略，以及各种调用策略设置。
+description: 了解如何创建、修改用户以及将用户添加到 Microsoft Teams 中的自定义呼叫策略，以及各种呼叫策略设置。
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -20,58 +20,58 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 061573176da10c48dc5cbee72a49f22eb4994c09
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: e38a566e025c711a9b17a050137e67af7507e63d5c5e829ba4448ee4a1577790
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53661912"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309241"
 ---
-#  <a name="calling-and-call-forwarding-in-teams"></a>在 Teams 中调用和呼叫Teams
+#  <a name="calling-and-call-forwarding-in-teams"></a>呼叫和呼叫Teams
 
-在Microsoft Teams，调用策略控制哪些呼叫和呼叫转发功能可供用户使用。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转发或同时拨打其他用户或外部电话号码、将呼叫路由到语音邮件、将呼叫发送到呼叫组、对入站和出站呼叫使用委派，等等。
+在 Microsoft Teams 中，呼叫策略控制哪些呼叫和呼叫转移功能可供用户使用。 呼叫策略确定用户是否可以拨打私人电话、将呼叫转发或同时响铃用于其他用户或外部电话号码、将呼叫路由到语音邮件、将呼叫发送到呼叫组、对入站和出站呼叫使用委派等。
 
-可以使用自动创建的 (组织范围的) 策略，或者创建和分配自定义策略。
+可以使用自动创建的全局 (组织范围的默认) 策略，也可以创建和分配自定义策略。
 
-## <a name="create-a-custom-calling-policy"></a>创建自定义调用策略
+## <a name="create-a-custom-calling-policy"></a>创建自定义呼叫策略
 
-按照以下步骤创建自定义调用策略。
+按照以下步骤创建自定义呼叫策略。
 
-1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **呼叫策略"。**
+1. 在管理中心左侧导航Microsoft Teams，转到"**语音**  >  **呼叫策略"。**
 2. 选择“**添加**”。
-3. 打开或关闭要用于呼叫策略的功能。
-4. 若要控制用户是否可以将入站呼叫路由到语音邮件，请选择"**已启用"或**"**用户控制"。** 若要阻止路由到语音邮件，请选择"已 **禁用"。**
+3. 打开或关闭要在呼叫策略中使用的功能。
+4. 若要控制用户是否可以将来电路由到语音邮件，请选择“**已启用**”或“**用户控制**”。 若要阻止路由到语音邮件，请选择“**已禁用**”。
 5. 选择“**保存**”。
 
 ## <a name="edit-a-calling-policy"></a>编辑呼叫策略
 
-按照以下步骤编辑现有的调用策略。
+按照以下步骤编辑现有呼叫策略。
 
 1. 在管理中心的左侧导航Microsoft Teams，选择"**语音**  >  **呼叫策略"。**
-2. 单击要修改的策略旁边的 ，然后选择"编辑 **"。**
+2. 单击要修改的策略旁边的""，然后选择"编辑 **"。**
 3. 进行您需要的更改，然后单击"保存 **"。**
 
 ## <a name="assign-a-custom-calling-policy-to-users"></a>向用户分配自定义呼叫策略
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="calling-policy-settings"></a>调用策略设置
+## <a name="calling-policy-settings"></a>呼叫策略设置
 
-下面是你可以为调用策略配置的设置。
+下面是你可以为呼叫策略配置的设置。
 
 ### <a name="make-private-calls"></a>拨打私人电话
 
-此设置控制所有调用Teams。 关闭此选项可关闭所有呼叫Teams。
+此设置控制呼叫服务中Teams。 关闭此选项将关闭 Teams 中的所有呼叫功能。
 
-### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>呼叫转发和同时拨打给您的组织中的人员
+### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>对组织中的人员呼叫转移和同时响铃
 
-此设置控制传入呼叫是否可以转发给其他用户，还是可以同时拨打其他人。 
+此设置控制传入呼叫是可转发给其他用户，还是可以同时拨打其他人电话。 
 
-### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>呼叫转发和同时拨打外部电话号码
+### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>呼叫转接并同时拨打外部电话号码
 
-此设置控制传入呼叫是否可以转发到外部号码，或者是否可以同时拨打外部号码。
+此设置控制传入呼叫是可转发到外部号码，还是可以同时拨打外部号码。
 
-### <a name="voicemail-is-available-for-routing-inbound-calls"></a>语音邮件可用于路由入站呼叫
+### <a name="voicemail-is-available-for-routing-inbound-calls"></a>语音邮件可用于路由来电
 
 此设置允许将入站呼叫发送到语音邮件。 有效选项包括：
 
@@ -79,33 +79,33 @@ ms.locfileid: "53661912"
 - **已禁用**  语音邮件不可用于入站呼叫。
 - **用户控制** 用户可以确定是否希望语音邮件可用。
 
-### <a name="inbound-calls-can-be-routed-to-call-groups"></a>入站呼叫可以路由到呼叫组
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>来电可路由到呼叫组
 
 此设置控制是否可以将传入呼叫转发到呼叫组。
 
 ### <a name="delegation-for-inbound-and-outbound-calls"></a>入站和出站呼叫的委派
 
-此设置允许将入站呼叫路由到代理人，允许代理人代表其具有委派权限的用户进行出站呼叫。 有关详细信息，请参阅 [与代理人共享电话线](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)。
+此设置允许将入站呼叫路由到代理，从而允许代理代表其拥有委派权限的用户进行出站呼叫。 有关详细信息，请参阅与代理人 [共享电话线路](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)。
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>防止收费绕过并通过 PSTN 发送呼叫 
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>防止绕过收费并通过 PSTN 发送呼叫 
 
-将此设置 **设置为"开** "会通过 PSTN 发送呼叫并产生费用，而不是通过网络发送呼叫和绕过收费。
+将此设置 **设置为"开** "将通过 PSTN 发送呼叫并产生费用，而不是通过网络发送呼叫并绕过收费。
 
-### <a name="busy-on-busy-is-available-when-in-a-call"></a>在通话中忙碌时可用
+### <a name="busy-on-busy-is-available-when-in-a-call"></a>呼叫时忙/闲状态可用
 
-"忙碌" (") "选项"中，您可以配置在用户已进入呼叫或会议或者呼叫处于保持状态时如何处理传入呼叫。 新的或传入的呼叫可能会被拒绝并发出繁忙信号，也可以相应地根据用户的未答设置进行路由。 可以在租户级别或用户级别启用繁忙选项。 无论如何配置其忙碌选项，呼叫或会议中的用户或呼叫保持的用户不会阻止发起新的呼叫或会议。 此设置在默认情况下处于禁用状态。
+Busy on Busy (Busy Options) lets you configure how incoming calls are handled when a user is already in a call or conference or has a call on hold. 新呼叫或传入呼叫可以使用繁忙信号拒绝，也可以相应地路由到用户的未接听设置。 您可以在租户级别或用户级别启用忙碌选项。 无论如何配置忙碌选项，不会阻止呼叫或会议中的用户或呼叫保持状态的用户发起新的呼叫或会议。 默认情况下，禁用此设置。
 
 ### <a name="web-pstn-calling"></a>Web PSTN 呼叫
 
-此设置允许用户使用客户端客户端呼叫 PSTN Teams PSTN 号码。
+通过此设置，用户可以使用 web 客户端Teams PSTN 号码。
 
 ### <a name="incoming-meeting-invites-are-automatically-answered"></a>自动应答传入会议邀请
 
-此设置控制是否自动应答传入会议邀请。 默认情况下处于禁用状态。 请记住，此设置仅适用于传入的会议邀请。 它不适用于其他类型的调用。
+此设置控制是否自动应答传入会议邀请。 默认情况下，它已关闭。 请记住，此设置仅适用于传入会议邀请。 它不适用于其他类型的呼叫。
 
-### <a name="allow-music-on-hold"></a>允许保留音乐
+### <a name="allow-music-on-hold"></a>允许播放保留音乐
 
-此设置允许你在 PSTN 呼叫者处于保持状态时打开或关闭保持音乐。 默认情况下，它已打开。 此设置不适用于呼叫公园和老板代理人功能，目前仅通过 PowerShell 提供。
+此设置允许你在将 PSTN 呼叫者置于呼叫等待时打开或关闭保持音乐。 默认情况下，此选项处于启用状态。 此设置不适用于呼叫管理和代理代理功能，当前仅通过 PowerShell 提供。
 
 ## <a name="related-articles"></a>相关文章
 

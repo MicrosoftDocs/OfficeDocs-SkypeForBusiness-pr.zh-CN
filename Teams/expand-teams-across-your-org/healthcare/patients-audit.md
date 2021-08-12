@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: 了解如何审核患者应用Teams管理员
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a2c5b006384d113dde82f702dee68a82b99685f6
-ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.openlocfilehash: 288877032c662ee03e0fd575a1f9ce2e96d1b4336c290899e98eeef92a11fecf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52697829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308731"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者应用的审核日志
 

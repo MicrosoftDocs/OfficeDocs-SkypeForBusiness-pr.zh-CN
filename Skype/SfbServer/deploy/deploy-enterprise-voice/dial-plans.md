@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中创建或修改拨号计划
+title: 在拨号计划中创建或修改Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
-description: 摘要：了解如何使用 Skype for Business Server 控制面板创建或修改拨号计划。
-ms.openlocfilehash: 718d0733aa5fabc072991708d09983ce8cb4267d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何使用"控制面板"Skype for Business Server拨号计划。
+ms.openlocfilehash: 3b2a1e9189f2e54eff0db79ea11732ba5175f4fc6825bb7a71615422b2f9f4dc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281265"
 ---
-# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>在 Skype for Business Server 中创建或修改拨号计划
+# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>在拨号计划中创建或修改Skype for Business Server
 
-**摘要：** 了解如何使用 Skype for Business Server 控制面板创建或修改拨号计划。
+**摘要：** 了解如何使用控制面板创建或修改拨号Skype for Business Server拨号计划。
 
 ### <a name="to-create-a-dial-plan"></a>创建拨号计划
 
-1. 打开 Skype for Business Server 控制面板。
+1. 打开Skype for Business Server控制面板"。
 
 2. 在左侧导航栏中，单击“语音路由”，然后单击“拨号计划”。
 
@@ -70,7 +70,7 @@ ms.locfileid: "51104898"
 
     - 若要从部署中提供的所有规范化规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择规范化规则”中，突出显示要与拨号计划关联的规则，然后单击“确定”。
 
-   - 要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”。 有关定义新规则的详细信息，请参阅 [Create or modify a normalization rule in Skype for Business](normalization-rules.md)。
+   - 要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”。 有关定义新规则的详细信息，请参阅 Create [or modify a normalization rule in Skype for Business](normalization-rules.md)。
 
    - 要编辑已经与拨号计划关联的规范化规则，请突出显示相应的规则名称，然后单击“显示详细信息”。
 
@@ -79,12 +79,12 @@ ms.locfileid: "51104898"
    - 要从拨号计划中删除某个规范化规则，请突出显示相应的规则名称，然后单击“删除”。
 
      > [!NOTE]
-     > 每个拨号计划都必须至少有一个关联的规范化规则。 若要了解如何确定拨号计划所需的全部规范化规则，请参阅规划文档中的规划 [Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) 中的出站语音路由。
+     > 每个拨号计划都必须至少有一个关联的规范化规则。 若要了解如何确定拨号计划所需的全部规范化规则，请参阅规划文档中的 Plan [for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation。
 
 10. 验证拨号计划的规范化规则是否按正确的顺序排列。 若要更改规则在列表中的位置，请突出显示规则名称，然后单击向上箭头或向下箭头。
 
     > [!IMPORTANT]
-    > Skype for Business Server 从上到下遍历规范化规则列表，并使用第一个匹配拨打号码的规则。 如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。 >默认的"全部保留 **"** 规范化规则^ (\d) $ 匹配任何 {11} 11 位数字。 例如，如果添加与以 1425 开头的 11 位数字相匹配的规范化规则，请确保"全部保留"排序在限制性较严格的^ (1425\d) $ 规则 {7} 下。
+    > Skype for Business Server从上到下遍历规范化规则列表，并使用第一个与拨打号码相匹配的规则。 如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。 >默认的"全部保留 **"** 规范化规则^ (\d) $ 匹配任何 {11} 11 位数字。 例如，如果添加与以 1425 开头的 11 位数字相匹配的规范化规则，请确保"全部保留"排序在限制性较严格的^ (1425\d) $ 规则 {7} 下。
 
 11. （可选）输入一个号码来测试拨号计划，然后单击“执行”。测试结果会显示在“输入要测试的号码”下。
 
@@ -93,13 +93,13 @@ ms.locfileid: "51104898"
 13. 在“拨号计划”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 任何时候创建拨号计划，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business。](voice-route-config-changes.md)
+    > 任何时候创建拨号计划，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ### <a name="to-modify-a-dial-plan"></a>修改拨号计划
 
-1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 **Delegate Setup Permissions**。
+1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅 **Delegate Setup Permissions**。
 
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“语音路由”，然后单击“拨号计划”。
 
@@ -129,7 +129,7 @@ ms.locfileid: "51104898"
 
    - 若要从部署中提供的所有规范化规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择规范化规则”对话框中，突出显示要与拨号计划关联的规则，然后单击“确定”。
 
-   - 要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”。 有关定义新规则的详细信息，请参阅 [Create or modify a normalization rule in Skype for Business](normalization-rules.md)。
+   - 要定义新的规范化规则并将其与拨号计划相关联，请单击“新建”。 有关定义新规则的详细信息，请参阅 Create [or modify a normalization rule in Skype for Business](normalization-rules.md)。
 
    - 要编辑已经与拨号计划关联的规范化规则，请突出显示相应的规则名称，然后单击“显示详细信息”。
 
@@ -138,25 +138,25 @@ ms.locfileid: "51104898"
    - 要从拨号计划中删除某个规范化规则，请突出显示相应的规则名称，然后单击“删除”。
 
      > [!NOTE]
-     > 每个拨号计划都必须至少有一个关联的规范化规则。 若要详细了解如何确定拨号计划所需的全部规范化规则，请参阅规划文档中的 Plan [for outbound voice routing in Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)
+     > 每个拨号计划都必须至少有一个关联的规范化规则。 若要详细了解如何确定拨号计划所需的全部规范化规则，请参阅规划文档中的 Plan [for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation。
 
 10. 验证拨号计划的规范化规则是否按正确的顺序排列。 若要更改规则在列表中的位置，请突出显示规则名称，然后单击向上箭头或向下箭头。
 
     > [!IMPORTANT]
-    > Skype for Business Server 从上到下遍历规范化规则列表，并使用第一个匹配拨打号码的规则。 如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。 >默认的"全部保留 **"** 规范化规则^ (\d) $ 匹配任何 {11} 11 位数字。 例如，如果添加与以 1425 开头的 11 位数字相匹配的规范化规则，请确保"全部保留"排序在限制性较严格的^ (1425\d) $ 规则 {7} 下。
+    > Skype for Business Server从上到下遍历规范化规则列表，并使用第一个与拨打号码相匹配的规则。 如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。 >默认的"全部保留 **"** 规范化规则^ (\d) $ 匹配任何 {11} 11 位数字。 例如，如果添加与以 1425 开头的 11 位数字相匹配的规范化规则，请确保"全部保留"排序在限制性较严格的^ (1425\d) $ 规则 {7} 下。
 
 11. （可选）输入一个号码来测试拨号计划，然后单击“执行”。测试结果会显示在“输入要测试的号码”下。
 
     > [!NOTE]
-    > 您可以保存尚未通过测试的拨号计划，并在稍后对其进行重新配置。 有关详细信息，请参阅[Testing Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)。
+    > 您可以保存尚未通过测试的拨号计划，并在稍后对其进行重新配置。有关详细信息，请参阅[Testing Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)。
 
 12. 单击“确定”。
 
 13. 在“拨号计划”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 任何时候创建或修改拨号计划，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business。](voice-route-config-changes.md)
+    > 任何时候创建或修改拨号计划，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business 中发布对语音路由配置的挂起更改](voice-route-config-changes.md)
+[在语音路由配置中发布待处理Skype for Business](voice-route-config-changes.md)

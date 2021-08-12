@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何在阿拉伯联合酋长国拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 483165d439e8eefe10c665534d9ad1050331f4f8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 324b4e68efdffafa99d678e362d91def535736ab2f89f72edd0a91d8fdf74910
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308213"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>阿拉伯联合酋长国的免费拨号限制
 

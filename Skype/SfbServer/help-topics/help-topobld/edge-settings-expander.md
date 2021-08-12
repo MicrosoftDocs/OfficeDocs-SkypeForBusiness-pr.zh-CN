@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 要编辑包含单个或多个服务器的现有边缘池的设置，可参考以下各节内容：
-ms.openlocfilehash: 5b4bbb302f76a38a5a485d17ad6df5c0d1db1c6b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 28d998986f21e089b34c9a58b9acb238c2aa8ab3108296566ce14210c87220d7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281115"
 ---
 # <a name="edge-settings-expander"></a>边缘设置扩展器
 
@@ -38,7 +38,7 @@ ms.locfileid: "51119651"
 
 边缘服务器池的内部池完全限定域名 (FQDN)。编辑池的 FQDN 以更改此设置。
 
-如果要设置与 Lync Server 2013、Microsoft Lync Server 2010 或 Microsoft Office Communications Server 2007 R2 受信任伙伴的联盟，请选中"为此边缘池启用联盟 **(端口 5061) "** 复选框。
+如果要设置与 Lync Server 2013、Microsoft Lync Server 2010 或 Microsoft Office Communications Server 2007 R2 受信任伙伴的联盟，请选中"为此边缘池启用联盟 (**端口 5061) "** 复选框。
 
 选中“为此边缘池启用 XMPP 联盟”可启用 XMPP 联盟。
 
