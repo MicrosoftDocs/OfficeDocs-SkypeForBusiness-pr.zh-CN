@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本主题，了解如何处理从 Teams 到会话边界控制器的出站调用的中继故障转移 (SBC) 。
-ms.openlocfilehash: c88394cba0a98316ac272901a6ab2972e9eaf3c8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 874372c27a88a912d575317fa9ab960ff9b2d4ccfe8eb7e280425667826e9f1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293849"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>出站呼叫发生 Trunk 故障转移
 

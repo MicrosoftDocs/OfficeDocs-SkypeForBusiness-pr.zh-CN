@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于罗马尼亚的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: c094a08cd748adac8cd07b406cce3e43cf4ae17c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 4d9bfd3b0d6f5dc13b6922b12b4c005fd86130889b5c923ecf9955a12852fc01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337530"
 ---
 # <a name="availability-in-romania"></a>在罗马尼亚的可用性
 

@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何拨打香港特别行政区的免费号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 459fbe7d8f98a5196973cf24ad797cad42778bb1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8638547b7d9eae45d74a678e66b00dd9e2e75f6f420baa472afaae13fb0a1a56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345201"
 ---
 # <a name="toll-free-dialing-restrictions-in-hong-kong"></a>中国香港的免费拨号限制
 

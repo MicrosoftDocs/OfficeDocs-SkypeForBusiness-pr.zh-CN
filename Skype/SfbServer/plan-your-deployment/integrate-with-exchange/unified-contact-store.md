@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中规划统一联系人存储
+title: 规划统一联系人存储Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,35 +13,35 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
-description: 摘要：在计划将 Skype for Business Server 与 Exchange 2013 集成时，请查看本主题。
-ms.openlocfilehash: 3ce06118f8225e78c5c84a8f9124e4815f79d593
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：在规划与 Skype for Business Server 2013 Exchange本主题。
+ms.openlocfilehash: 12f76c1e10eea445adb21147c20ab79f33e38f3c8c578aeab8ec24296bb06594
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816252"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284622"
 ---
-# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划统一联系人存储
+# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>在 2015 年 10 月Skype for Business Server统一联系人存储
  
-**摘要：** 在计划将 Skype for Business Server 与 Exchange 2013 或 Exchange 2016 集成时，请查看本主题。
+**摘要：** 在计划将 2013 Skype for Business Server 2016 Exchange本主题。
   
-统一联系人存储跨 Microsoft Office 产品提供一致的联系人体验，并使用户能够在 Exchange 2013 中存储所有联系人信息，但允许信息跨 Skype for Business、Exchange、Outlook 和 Outlook Web Access 全局提供。
+统一联系人存储跨 Microsoft Office 产品提供一致的联系人体验，并使用户能够在 Exchange 2013 中存储所有联系人信息，但允许信息在 Skype for Business、Exchange、Outlook 和 Outlook Web Access 中全局提供。
   
 ## <a name="requirements-for-unified-contact-store"></a>统一联系人存储的要求
 
-若要在 Skype for Business Server 中实现统一的联系人存储，
+若要在统一的联系人存储中Skype for Business Server：
   
-- 必须运行 Skype for Business Server 和 Exchange 2013 或 2016。
+- 必须在 2013 Skype for Business Server 2016 Exchange和运行。
     
-- 用户必须使用 Skype for Business 将其联系人从 Skype for Business Server 迁移到 Exchange 2013 或 2016。
+- 用户必须使用 Skype for Business将其联系人从 Skype for Business Server 迁移到 Exchange 2013 或 2016。
     
 - 用户邮箱必须迁移到 Exchange 2013。
     
-- 必须在 Skype for Business Server 和 Exchange 2013 或 Exchange 2016 之间配置服务器到服务器身份验证。
+- 您必须在 2013 或 Skype for Business Server Exchange 2016 之间配置服务器到服务器身份验证。
     
     > [!NOTE]
-    > 有关在 Skype for Business Server 和 Exchange 2013 或 Exchange 2016 之间设置身份验证的详细要求，请参阅操作文档中的"管理服务器到服务器身份验证 [ (OAuth) ](../../manage/authentication/server-to-server-and-partner-applications.md) 和 Skype for Business Server 中的合作伙伴应用程序"。
+    > 有关在 Skype for Business Server 和 Exchange 2013 或 2016 之间设置身份验证的详细要求，请参阅操作文档中的在 Skype for Business Server 中管理服务器到服务器身份验证[ (OAuth) ](../../manage/authentication/server-to-server-and-partner-applications.md)和合作伙伴应用程序。
   
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 中部署统一的联系人存储](../../deploy/deploy-unified-contact-store.md)
+[在统一联系人存储中Skype for Business Server](../../deploy/deploy-unified-contact-store.md)

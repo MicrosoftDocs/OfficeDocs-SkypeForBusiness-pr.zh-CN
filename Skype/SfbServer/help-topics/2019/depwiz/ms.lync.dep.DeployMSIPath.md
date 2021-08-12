@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 ROBOTS: NOINDEX, NOFOLLOW
-description: 有关使用部署向导安装 Skype for Business Server 的详细信息，请参阅"安装 Skype for Business Server"。
-ms.openlocfilehash: c63b3bc1dde6fb156c06d84fa9f90a083bf7e052
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 有关使用部署向导安装 Skype for Business Server的详细信息，请参阅安装Skype for Business Server。
+ms.openlocfilehash: ee477914b612197fb63adaca462195414e4601f54c34b031a57b843e1329aefc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303006"
 ---
 # <a name="deployment-wizard-path-to-msi-installer"></a>部署向导：MSI 安装程序路径
  
-有关使用部署向导安装 Skype for Business Server 的详细信息，请参阅["安装 Skype for Business Server"。](../../../deploy/install/install.md)
+有关使用部署向导安装部署Skype for Business Server的详细信息，请参阅 Install [Skype for Business Server](../../../deploy/install/install.md)。
   
 

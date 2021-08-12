@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何通过一次切换所有用户电话系统 Microsoft Teams或实施分阶段的按建议方法 (媒体旁路) 。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 74cfdb0d0bd92849b062d84df20e4ca1428f4034b2e8864bfc89ff70b77c6c3c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284183"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>使用直接路由配置媒体旁路
 

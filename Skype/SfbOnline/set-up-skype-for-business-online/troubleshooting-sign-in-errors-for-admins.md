@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '了解 Skype for Business Online 登录错误的常见原因, 并解决这些问题。 '
-ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1fdb764f9557e9c5b759b50cadf2650a6af75dc1dc262ff45648360807436881
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239400"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303346"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>针对管理员的 Skype for Business Online 登录错误进行故障排除
 

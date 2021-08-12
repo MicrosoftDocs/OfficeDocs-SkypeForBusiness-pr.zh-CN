@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 6e23adf6f30955b1b9c3a97c0a64113c628eab04
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 95932ffefe5410e739255f844a058ca43da72505cb1e06a378f32470c6df59a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284313"
 ---
 # <a name="availability-in-thailand"></a>在泰国的可用性
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 分步指南详细介绍了如何为组织在 电话系统 (或) 中设置云 PBX Microsoft 365 Office 365。
-ms.openlocfilehash: c00b628716a54adcb19c3dd1f00e8e9e2b6f4c40
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 1fd75870b53dafa5ade4db4f66a82593cce81836994cd4b5e01f1f1bda4864b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701210"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292999"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在组织中设置电话系统
 

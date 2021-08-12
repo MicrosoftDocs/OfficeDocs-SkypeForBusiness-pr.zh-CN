@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
-description: SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 71875dd1f3399b382c1fac3754436ada052873af
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 此视图在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: 7b8822766b885ea729bed28e3191846281033225383faada0120b14d00e1a1ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809952"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284512"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails 视图
  
-SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 此视图是在 Microsoft Lync Server 2013 中引入的。
+SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015](dialogs.md) 表中的 Dialogs 表。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md) Table 中的 Dialogs 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
 |**InviteTime** <br/> |datetime  <br/> |第一个 INVITE 请求的时间。此字段通常由从会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则该字段由第一个相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。  <br/> |
 |**FromUri** <br/> |nvarchar (450)   <br/> |启动会话的用户的 URI。  <br/> |
 |**ToUri** <br/> |nvarchar (450)   <br/> |加入会话的用户的 URI。  <br/> |
 |**FromUriType** <br/> |nvarchar (256)   <br/> |启动会话的用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
 |**ToUriType** <br/> |nvarchar (256)   <br/> |加入会话的用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
-|**FromTenant** <br/> |nvarchar (450)   <br/> |启动会话的用户的租户。 有关详细信息 [，请参阅"租户](tenants.md) "表。 <br/> |
-|**ToTenant** <br/> |nvarchar (256)   <br/> |加入会话的用户的租户。 有关详细信息 [，请参阅"租户](tenants.md) "表。 <br/> |
+|**FromTenant** <br/> |nvarchar (450)   <br/> |启动会话的用户的租户。 有关详细信息 [，请参阅租户](tenants.md) 表。 <br/> |
+|**ToTenant** <br/> |nvarchar (256)   <br/> |加入会话的用户的租户。 有关详细信息 [，请参阅租户](tenants.md) 表。 <br/> |
 |**FromEndpointId** <br/> |uniqueidentifier  <br/> |启动会话的用户的终结点的唯一标识符。  <br/> |
 |**ToEndpointId** <br/> |uniqueidentifier  <br/> |加入会话的用户的终结点的唯一标识符。  <br/> |
 |**EndTime** <br/> |datetime  <br/> |会话的结束时间。  <br/> |
@@ -50,14 +50,14 @@ SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-Vo
 |**TargetUriType** <br/> |nvarchar (450)   <br/> |会话的目标用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar (450)   <br/> |代表启动会话的用户的 URI。  <br/> |
 |**OnnnBehalfOfUriType** <br/> |nvarchar (256)   <br/> |代表启动会话的用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar (256)   <br/> |代表启动会话的用户的租户。 有关详细信息 [，请参阅"租户](tenants.md) "表。 <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar (256)   <br/> |代表启动会话的用户的租户。 有关详细信息 [，请参阅租户](tenants.md) 表。 <br/> |
 |**ReferredByUri** <br/> |nvarchar (450)   <br/> |提交会话的用户的 URI。  <br/> |
 |**ReferredByUriType** <br/> |nvarchar (256)   <br/> |提交会话的用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
-|**ReferredByTenant** <br/> |nvarchar (256)   <br/> |提交会话的用户的租户。 有关详细信息 [，请参阅"租户](tenants.md) "表。 <br/> |
+|**ReferredByTenant** <br/> |nvarchar (256)   <br/> |提交会话的用户的租户。 有关详细信息 [，请参阅租户](tenants.md) 表。 <br/> |
 |**DialogId** <br/> |varchar (775)   <br/> |SIP 对话 ID。格式为：  <br/> dialog;from-tag;to-tag  <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> |用于关联多个会话的 GUID。  <br/> |
-|**ReplaceDialogIdTime** <br/> |datetime  <br/> |由会话取代的对话的时间。 与 ReplaceDialogIdSeq 结合起来使用，以唯一地标识由此会话取代的对话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 ReplacesDialogIdTime 结合使用来唯一地标识由该会话取代的会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**ReplaceDialogIdTime** <br/> |datetime  <br/> |由会话取代的对话的时间。 与 ReplaceDialogIdSeq 结合起来使用，以唯一地标识由此会话取代的对话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 ReplacesDialogIdTime 结合使用来唯一地标识由该会话取代的会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
 |**ReplacesDialogId** <br/> |varchar (775)   <br/> |会话取代的 SIP 对话 ID。格式为：  <br/> dialog;from-tag;to-tag  <br/> |
 |**ResponseTime** <br/> |datetime  <br/> |对第一个 INVITE 消息的响应时间。此字段通常由来自会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则该字段由第一个相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。  <br/> |
 |**ResponseCode** <br/> |int  <br/> |会话邀请的 SIP 响应代码。此字段通常由来自会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则该字段由第一个相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。  <br/> |
@@ -74,6 +74,6 @@ SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-Vo
 |**ToUserFlag** <br/> |smallint  <br/> |指示启动会话的用户的属性。允许以下属性定义：  <br/> 0x01 - 与桌面电话集成  <br/> |
 |**CallFlag** <br/> |smallint  <br/> |指示呼叫属性。允许以下属性定义：  <br/> 0x01 - 重试会话  <br/> 0x02 - 代表响应组的代理进行的呼叫  <br/> |
 |**位置** <br/> |varchar (max)   <br/> |紧急呼叫的位置。  <br/> |
-|**LastModifiedTime** <br/> |Datetime  <br/> |供监控服务内部使用。  <br/> 此字段在 Skype for Business Server 2015 中引入。  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> |供监控服务内部使用。  <br/> 此字段是在 2015 年 Skype for Business Server引入的。  <br/> |
    
 

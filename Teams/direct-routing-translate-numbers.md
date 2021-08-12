@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何配置 Microsoft 电话直接路由。
-ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff560ca9417e5386819a90961562520da94d5cfcd65bd5348bd7718601610bf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337410"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>将电话号码转换为备用格式
 
@@ -72,8 +72,8 @@ New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –Inb
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>示例 1：对十位数号码的入站呼叫
 
-Bob 使用非 E.164 十位数号码呼叫 Alice。 Bob 拨打 2065550100 联系 Alice。
-SBC 在 RequestURI 和 To 标头中使用 2065550100，在 From 标头中使用 4255550100。
+Bob 使用非 E.164 十位数号码呼叫 Alice。 Bob 拨打2065550100联系 Alice。
+SBC 在 requestURI 2065550100 和 To 标头中使用 4255550100 和 From 标头。
 
 
 |标头  |源语言 |翻译的标头 |应用的参数和规则  |
@@ -85,7 +85,7 @@ SBC 在 RequestURI 和 To 标头中使用 2065550100，在 From 标头中使用 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>示例 2：对四位数号码的入站呼叫
 
 Bob 使用四位数字呼叫 Alice。 Bob 拨打 0100 联系 Alice。
-SBC 在 RequestURI 和 To 标头中使用 0100，在 From 标头中使用 4255550100。
+SBC 在 RequestURI 和 To 标头4255550100 0100。
 
 
 |标头  |源语言 |翻译的标头 |应用的参数和规则  |
@@ -99,7 +99,7 @@ SBC 在 RequestURI 和 To 标头中使用 0100，在 From 标头中使用 425555
 Alice 使用十位数号码呼叫 Bob。 Alice 拨打 425 555 0100 联系 Bob。
 SBC 配置为对用户和 PSTN 用户使用非 E.164 十Teams数字。
 
-在此方案中，拨号计划先转换号码，然后再将其发送到直接路由接口。 当 Alice 在 Teams 客户端中输入 425 555 0100 时，该号码通过国家/地区拨号计划转换为 +14255550100。 生成的号码是拨号计划规则和翻译规则的累积规范化Teams规则。 呼叫Teams规则删除拨号计划添加的"+1"。
+在此方案中，拨号计划先转换号码，然后再将其发送到直接路由接口。 当 Alice 在 Teams 客户端中输入 425 555 0100 时，该号码将14255550100国家/地区拨号计划转换为 +14255550100。 生成的号码是拨号计划规则和翻译规则的累积规范化Teams规则。 呼叫Teams规则删除拨号计划添加的"+1"。
 
 
 |标头  |源语言 |翻译的标头 |应用的参数和规则  |

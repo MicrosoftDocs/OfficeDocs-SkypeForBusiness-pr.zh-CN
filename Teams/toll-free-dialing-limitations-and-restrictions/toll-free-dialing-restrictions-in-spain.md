@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何拨打西班牙的免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 137c038f8369f21871d755397967b445535dd192
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0e66b49178709aa7db6540e7901bdb3f2c27693feab3436ede1270b5b9050ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116610"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345151"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>西班牙的免费拨号限制
 

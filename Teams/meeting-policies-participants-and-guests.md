@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在参与者和来宾的Teams管理会议策略设置。
-ms.openlocfilehash: bec3f82c66984147f109dc68cc97376c502dd9a6
-ms.sourcegitcommit: f5b6a0fe055e42e06eee21ce311813b5127474ea
+ms.openlocfilehash: 30ef20368adeb7b0f14ff0c811a1c6ec9d4ce29b6debeeb198f0b74ae75d441d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52741051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293269"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 

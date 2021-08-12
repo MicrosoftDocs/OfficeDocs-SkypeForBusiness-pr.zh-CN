@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 88bac0a8f05a37a5a8da5ca353ea0542ab1bbb53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d422876cb4a6f93c5919346e7f99d5cc7b8983e5e373fae74d6f90e7e176ab5c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345121"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>用户：查看或配置存档策略
 

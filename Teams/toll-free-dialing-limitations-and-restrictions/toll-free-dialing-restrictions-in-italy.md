@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式显示拨打免费电话号码所需的每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 7503c1f78693a4d89f7288990e3fbc5cdb0058e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f03fd38c6ae06459c3099896fc936420565e60876a87df5867d93f6ec4a52425
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098038"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345171"
 ---
 # <a name="toll-free-dialing-restrictions-in-italy"></a>意大利的免费拨号限制
 

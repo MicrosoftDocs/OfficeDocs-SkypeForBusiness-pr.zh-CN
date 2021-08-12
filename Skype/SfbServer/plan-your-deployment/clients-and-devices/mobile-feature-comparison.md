@@ -1,5 +1,5 @@
 ---
-title: Skype for Business 的移动客户端功能比较
+title: 移动客户端功能比较Skype for Business
 ms.author: v-cichur
 author: cichur
 ms.reviewer: PhillipGarding
@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 摘要：在规划 Skype for Business Server 时查看移动客户端的功能支持。
-ms.openlocfilehash: cdd6e5d5afc95fe6488ee89ed96739963b5f5ac0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：在规划移动客户端功能支持的同时，检查Skype for Business Server。
+ms.openlocfilehash: 790bcb217e90b4b24422a3f2b76ebb6f8915cc0f8c25eb302d2fb2193d8d299a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825992"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293979"
 ---
-# <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Skype for Business 的移动客户端功能比较
+# <a name="mobile-client-feature-comparison-for-skype-for-business"></a>移动客户端功能比较Skype for Business
  
-**摘要：** 在规划 Skype for Business Server 时查看对移动客户端的功能支持。
+**摘要：** 在规划移动客户端的同时查看对移动客户端Skype for Business Server。
   
-本文将 Skype for Business 移动客户端和 Skype for Business 桌面客户端之间的特性和功能分为以下几类：
+本文比较了移动客户端Skype for Business客户端Skype for Business桌面客户端之间的特性和功能：
   
 - 登录、推送通知和常规功能
     
@@ -38,7 +38,7 @@ ms.locfileid: "49825992"
     
 - 即时消息 (IM)
     
-- Skype for Business 到 Skype for Business 音频和视频
+- Skype for Business Skype for Business音频和视频
     
 - 会议
     
@@ -50,51 +50,51 @@ ms.locfileid: "49825992"
     
 -  新式验证
     
-下表列出了 Skype for Business Server 本地部署中 Skype for Business 用户可用的功能。 Skype for Business Online 和 Microsoft 365 或 Office 365 用户也可使用相同功能，除非表脚注中另有说明。
+下表列出了可供 Skype for Business本地部署中的用户使用的功能Skype for Business Server。 相同的功能也可供 Skype for Business Online 和 Microsoft 365 或 Office 365 用户使用，除非表脚注中另有说明。
   
 > [!NOTE]
-> 有关最终用户的联机帮助和资源，请参阅["发现 Skype for Business"。](https://go.microsoft.com/fwlink/p/?LinkId=528686) 
+> 有关最终用户的联机帮助和资源，请参阅[发现Skype for Business。](https://go.microsoft.com/fwlink/p/?LinkId=528686) 
   
 > [!NOTE]
-> 若要比较其他 Skype for Business 客户端中提供的功能，请参阅 [Skype for Business 的桌面客户端功能比较](desktop-feature-comparison.md)。 
+> 若要比较其他客户端中Skype for Business的功能，请参阅桌面客户端[功能比较Skype for Business。](desktop-feature-comparison.md) 
 
 > [!NOTE]
-> SKYPE (Server 2019 中不再提供对) 移动客户端的 MCX 移动服务支持。 所有当前的 Skype for Business 移动客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
+> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
   
 ## <a name="sign-in-push-notifications-and-general-features"></a>登录、推送通知和常规功能
 
  
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Skype for Business 会话保持登录状态  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
+|Skype for Business会话保持登录  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
 |支持推送通知  <br/> |&#x2714; &#x2778; |&#x2714;|&#x2714; &#x2779; |&#x2714; &#x2779; |
 |可在同一设备上缓存多个用户的帐户信息  <br/> |&#x2714;||||
 |屏幕阅读器/语音播放  <br/> |&#x2714;|&#x2714; &#x2777;           英语  <br/> |&#x2714;|&#x2714;|
 |使用外部键盘实现辅助功能  <br/> |&#x2714;||&#x2714;|&#x2714;|
 |Microsoft 客户体验改善计划支持  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
- &#x2776; Windows Phone 上，Skype for Business 会在一段时间不活动后自动注销，如下所示：
+ &#x2776;在Windows Phone，Skype for Business一段时间不活动后自动注销，如下所示：
   
-- 如果用户已启用推送通知，Skype for Business 在 10 天不活动后注销。
+- 如果用户已启用推送通知，Skype for Business 10 天后注销。
     
-- 如果用户未启用推送通知，Skype for Business 在用户离开应用后即会退出。
+- 如果用户尚未启用推送通知，Skype for Business离开应用后尽快退出。
     
-在 iOS 设备上，由于网络连接中断或其他问题，移动客户端在 10 天内未与服务器联系后，Skype for Business 将自动退出。
+在 iOS Skype for Business，由于网络连接中断或其他问题，移动客户端在 10 天内未与服务器联系后，系统会自动退出。
   
- &#x2777;应用内。
+ &#x2777;仅在应用内。
   
- &#x2778;在后台运行时，通知可用。
+ &#x2778;在后台运行时，"通知"可用。
  
  &#x2779; Google/Android/GCNS 和 Apple/APNS 移动通知服务均使用 HTTPS/TLS 加密传递通知。 通知有效负载在通知提供程序处理时以纯文本处理。
  
--   Skype for Business for Android 接收简单通知 (GCNS) 无客户数据。
--   Skype for Business for iOS (通过 APNS) 发送的通知，其中可能包含呼叫或邮件的客户数据。
+-   Android版Skype for Business接收通过 GCNS (传递的简单) 无客户数据。
+-   Skype for Business iOS (通过 APNS) 发送的通知，其中可能包含呼叫或邮件的客户数据。
  
   
 ## <a name="enhanced-presence-support"></a>增强状态支持
 
 
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |发布和查看状态  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |根据日历闲/忙信息查看状态  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -102,14 +102,14 @@ ms.locfileid: "49825992"
 |添加自定义位置  <br/> |&#x2714;||||
 |添加自定义注释  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |根据日历闲/忙信息发布状态  <br/> |&#x2714; &#x2776; ||||
-|设置手动状态 (如忙碌、请勿打扰等)   <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|设置手动状态 (，如忙碌、请勿打扰等)   <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
- &#x2776; Skype for Business 移动客户端不会基于用户的忙/闲日历信息更新用户状态。 如果移动客户端用户还登录到 Skype for Business 桌面客户端，桌面客户端将基于用户的忙/闲日历信息更新用户状态。 如果用户仅登录到移动客户端，则用户状态不会基于忙/闲日历信息进行更新。
+ &#x2776; Skype for Business客户端不会根据用户的忙/闲日历信息更新用户状态。 如果移动客户端用户还登录到 Skype for Business 桌面客户端，桌面客户端将基于用户的忙/闲日历信息更新用户状态。 如果用户仅登录到移动客户端，则用户状态不会基于忙/闲日历信息进行更新。
   
 ## <a name="contacts-and-contact-groups-support"></a>联系人和联系人组支持
 
 
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |查看联系人列表  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |查看联系人组  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -125,14 +125,14 @@ ms.locfileid: "49825992"
 |显示或隐藏联系人照片  <br/> |&#x2714;|&#x2714;|||
 |将联系人固定到主屏幕  <br/> ||&#x2714;|||
    
- &#x2776; Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户不可用。
+ &#x2776; Online Skype for Business/或 Microsoft 365 或 Office 365 用户不可用。
   
 ## <a name="instant-messaging-support"></a>即时消息支持
 
 
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|与联系人 (即时消息) 即时消息  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|启动与联系人 (即时消息) 即时消息通信  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |参与多方 IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |从对话窗口中邀请其他人  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |显示当前对话  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -145,13 +145,13 @@ ms.locfileid: "49825992"
    
  &#x2776;即使 IM 对话中的当前消息显示，此设备每次收到 IM 时都会振动
   
-## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>Skype for Business 到 Skype for Business 音频和视频
+## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>Skype for Business Skype for Business音频和视频
 
 
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Skype for Business 到 Skype for Business 语音  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Skype for Business 到 Skype for Business 视频  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Skype for Business到Skype for Business语音  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Skype for Business到Skype for Business视频  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
 > [!NOTE]
 > 移动设备上的视频默认需要 WiFi 连接。 
@@ -159,7 +159,7 @@ ms.locfileid: "49825992"
 ## <a name="conferencing-support"></a>会议支持
 
 
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |单击会议提醒中的链接以加入视频或 VoIP 会议  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |参与多方 IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -172,27 +172,27 @@ ms.locfileid: "49825992"
 |访问音频会议的详细会议名单  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |访问 IM 会议的详细会议名单  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |共享桌面或程序  <br/> |&#x2714;||||
-|通过 VbSS 或 RDP (查看共享桌面或)   <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
-|查看共享 PowerPoint 文件  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777;&#x2778; |&#x2714; &#x2777; &#x2778;|
-|上载和显示 PowerPoint 文件  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
-|使用会议 (白板、投票、共享文件)   <br/> |&#x2714;||||
+|查看 VbSS 或 RDP (共享桌面或)   <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
+|查看共享PowerPoint文件  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777;&#x2778; |&#x2714; &#x2777; &#x2778;|
+|Upload和PowerPoint文件  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
+|使用会议 (白板、进行投票、共享文件)   <br/> |&#x2714;||||
 |导航您的会议列表  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|即使没有 Skype for Business 帐户，也加入会议  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|即使没有帐户，也Skype for Business会议  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |查看有关会议参与者详细信息  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |直接从客户端或设备启动与多个参与者的未计划组对话  <br/> |&#x2714;|&#x2714;|&#x2714;||
    
- &#x2776;对于 Microsoft 365 或 Office 365 用户，此功能企业语音 E5 许可证的一部分。
+ &#x2776;对于Microsoft 365或Office 365用户，此功能企业语音 E5 许可证的一部分。
   
  &#x2777;需要 WiFi 连接。
  
- &#x2778;不支持在 PowerPoint 演示文稿中查看嵌入的视频。
+ &#x2778;不支持在PowerPoint中查看嵌入的视频。
   
 ## <a name="telephony-support"></a>电话支持
 
 
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|在 Skype for Business 中，点击呼叫图标以呼叫联系人  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|在Skype for Business中，点击呼叫图标以呼叫联系人  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |转接呼叫  <br/> |&#x2714;|&#x2714;|&#x2714;||
 |咨询转接  <br/> |&#x2714; &#x2778; ||||
 |管理呼叫转接  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;|&#x2714;|
@@ -202,59 +202,59 @@ ms.locfileid: "49825992"
 |支持紧急服务  <br/> |&#x2714; &#x2777; ||||
 |代表其他联系人发起呼叫（经理/代理方案）  <br/> |&#x2714; &#x2776; ||||
 |处理其他联系人的呼叫（如果配置为代理人）  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
-|使用通过工位电话呼叫  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
+|使用通过工作电话呼叫  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
 |访问语音邮件  <br/> |&#x2714;|&#x2714;|&#x2714;||
-|在 Skype for Business 中使用小键盘  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
+|在键盘上Skype for Business  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
    
- &#x2776; Skype for Business Online 和/或 Office 365 E5 用户，以及位于 Skype for Business Server 或 Lync Server 2013 上且启用了 企业语音 的用户。
+ &#x2776; Online Skype for Business/或 Office 365 E5 用户，以及位于 Skype for Business Server 或 Lync Server 2013 上且启用了 企业语音 的用户。
   
- &#x2777;对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，Microsoft 合作伙伴支持此功能。
+ &#x2777; 对于 Skype for Business Online 和/Microsoft 365 或 Office 365 用户，Microsoft 合作伙伴支持此功能。
   
- &#x2778; Windows 桌面客户端。
+ &#x2778; Windows桌面客户端。
   
 ## <a name="external-user-support"></a>外部用户支持
 
 
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |启动与公共联系人的 IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |启动与联盟联系人的 IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |进行与外部用户的双方呼叫  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |进行与外部用户的多方呼叫  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|使用通过工号呼叫通过拨打其已发布的工作电话号码来联系其移动电话上的联盟&#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
+|通过拨打已发布的工作电话号码，使用通过工号呼叫来联系其移动电话上的联盟&#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
    
- &#x2776;默认情况下，为联盟用户分配外部联系人私人关系。 要能够通过呼叫联盟联系人的已发布工作号码，可以在移动电话上联系联盟联系人，该联盟联系人必须手动分配给您"同事"私人关系。
+ &#x2776;默认情况下，为联盟用户分配"外部联系人"私人关系。 要能够通过呼叫联盟联系人的已发布工作号码来通过移动电话联系联盟联系人，该联盟联系人必须手动将"同事"私人关系分配给您。
   
 ## <a name="address-book-integration"></a>通讯簿集成
 
 
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |呼叫设备通讯簿联系人  <br/> ||&#x2714;|&#x2714;|&#x2714;|
-|直接从设备通讯簿向联系人进行 Skype for Business 呼叫  <br/> ||||&#x2714;|
+|直接从Skype for Business通讯簿呼叫联系人  <br/> ||||&#x2714;|
    
 ## <a name="archiving-and-compliance-support"></a>存档和合规性支持
 
 
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |提供客户端存档  <br/> |&#x2714;||||
 |提供客户端记录  <br/> |&#x2714; &#x2776; ||||
    
- &#x2776; Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户不可用。
+ &#x2776; Online Skype for Business/或 Microsoft 365 或 Office 365 用户不可用。
   
 ## <a name="modern-authentication"></a>新式验证
 
-此表涵盖需要支持新式验证的功能。
+此表涵盖需要新式验证支持的功能。
   
-新式身份验证还需要在 Skype for Business 拓扑中介绍 [的拓扑，该拓扑受新式验证支持](../../plan-your-deployment/modern-authentication/topologies-supported.md)。
+新式验证还需要新式验证支持Skype for Business[中介绍的拓扑](../../plan-your-deployment/modern-authentication/topologies-supported.md)。
   
 
- | 功能  | Skype for Business 桌面客户端  | Windows Phone  | iOS  | Android |
+ | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |新式验证  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |多重身份验证  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |基于证书的身份验证  <br/> |&#x2714; (已加入域的设备)   <br/> ||&#x2714;|&#x2714;|
-|通过 Intune (移动应用程序管理)   <br/> |||&#x2714;|&#x2714;|
+|移动应用程序管理 (Intune)   <br/> |||&#x2714;|&#x2714;|
    
 

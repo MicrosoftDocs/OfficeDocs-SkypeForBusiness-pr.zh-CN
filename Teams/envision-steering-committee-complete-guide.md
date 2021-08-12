@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 08073551b77956a4b7ff77739e6fc0fa7b1101d5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e064548e1a4879fda88d41584de9ada096a61feb18126d9d73b67a5aea928ef4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284123"
 ---
 # <a name="steering-committee"></a>指导委员会
 
@@ -166,7 +166,7 @@ ms.locfileid: "49822752"
 
 7.  向与会者发送包含您创建的演示文稿的跟进电子邮件，并追加任何笔记。 请务必包括未参加的任何人。
 
-## <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>下一步
 
 查看指导委员会概述后，现在可以采取行动了。项目团队应开始工作，将指导委员会实施到项目日程表中，并准备定期指导委员会会议节奏。 理想情况下，委员会将在项目开始之前组建，并在其所有阶段提供指导，但如果情况并非如此，请组建委员会来指导项目团队取得成功的结果。
 

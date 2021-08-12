@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab70daffa91b534f15b032cd0c137efe89abb438
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f55183b114919048776b7fcb6f39ae6a084c29832652c32f87b97d258fb7f835
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293069"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -40,7 +40,7 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 |-        |-        |-        |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |决策点|<ul><li>组织是否需要团队的特定命名约定？</li><li>团队创建者是否需要能够将组织特定的分类分配给团队？</li><li>是否需要限制按团队将来宾添加到团队的能力？</li><li>组织是否需要限制可以创建团队的人？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|后续步骤|<ul><li>记录组织对团队创建、命名、分类和来宾访问的要求。</li><li>计划实施这些要求作为实施计划的一Teams部分。</li><li>沟通并发布策略Teams告知用户预期的行为。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|下一步|<ul><li>记录组织对团队创建、命名、分类和来宾访问的要求。</li><li>计划实施这些要求作为实施计划的一Teams部分。</li><li>沟通并发布策略Teams告知用户预期的行为。</li></ul>|
 
 > [!NOTE]
 > 为帮助你提前规划， [请详细了解如何设置这些策略及其需要哪些许可证](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
@@ -75,14 +75,14 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 > [!TIP]
 > 使用下表捕获组织的要求。
 
-|功能 |详细信息 |需要 Azure AD 高级版许可证 |决定 |
+|功能 |详细信息 |Azure AD Premium许可证 |决定 |
 |---------|---------|---------|---------|
 |过期策略 |通过设置过期Microsoft 365管理组生命周期。 |P1 |TBD|
-|保留策略 |在安全与合规中心中设置保留策略，Teams保留或删除&数据。 **注意**：使用此功能需要获得 E3 Microsoft 365或Office 365 企业版许可。 |不支持 |TBD |
-|存档和还原 |当团队不再处于活动状态，但你想要保留该团队供参考或将来重新激活时，请将其存档。 |不支持 |TBD |
+|保留策略 |在安全与合规中心中设置保留策略，Teams保留或删除&数据。 **注意**：使用此功能需要获得 E3 Microsoft 365或Office 365 企业版许可。 |弱 |TBD |
+|存档和还原 |当团队不再处于活动状态，但你想要保留该团队供参考或将来重新激活时，请将其存档。 |弱 |TBD |
 
 > [!Note]
-> 组过期是 Azure AD 高级版功能。 若要提供此功能，租户必须具有 Azure AD 高级版订阅，以及配置设置和受影响组成员的管理员的许可证。
+> 组过期是一项Azure AD Premium功能。 若要提供此功能，租户必须具有订阅，Azure AD Premium和许可证的管理员配置设置和受影响组的成员。
 
 #### <a name="additional-information"></a>其他信息
 
@@ -108,7 +108,7 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 > [!TIP]
 > 使用下表捕获组织的要求。
 
-| 功能 | 详细信息 | 需要 Azure AD 高级版许可证 | 决定 |
+| 功能 | 详细信息 | Azure AD Premium许可证 | 决定 |
 |:-|:-|:-|:-|
 | 访问评审 | 设置访问评审，定期重新认证特定团队的成员身份 | P2 | TBD |
 | 权利管理 | 设置访问包以允许用户和来宾请求访问团队 | P2 | TBD |

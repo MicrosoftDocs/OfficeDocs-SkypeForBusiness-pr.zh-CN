@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: “客户端移动策略”页显示部署中可用的移动策略。
-ms.openlocfilehash: 641280af27b793eccff2f1bfab327708b93b0a46
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b70c79f0595be785ebc22f3a1685475e674c03e2a5fab06be0f7e2f3562b58f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302976"
 ---
 # <a name="clients-mobility-policy"></a>客户端：移动策略
 

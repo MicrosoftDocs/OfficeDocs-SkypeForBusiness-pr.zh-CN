@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的会议详细信息报告
+title: 会议详细信息报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 摘要：了解 Skype for Business Server 中使用的会议详细信息报告。
-ms.openlocfilehash: 245691fcb304a872942be4d5a9aabe8183b4db14
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解会议详细信息报告中Skype for Business Server。
+ms.openlocfilehash: 5da5c703916cb1f8ac24624efa14c5a65cec5cdd7b3d45da5d13ce8ac00fbfcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816902"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328117"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server"></a>Skype for Business Server 中的会议详细信息报告
+# <a name="conference-detail-report-in-skype-for-business-server"></a>会议详细信息报告Skype for Business Server
 
-**摘要：** 了解 Skype for Business Server 中使用的会议详细信息报告。
+**摘要：** 了解会议详细信息报告中用于Skype for Business Server。
 
-会议详细信息报告提供有关参与会议的所有用户的详细信息。 例如，你可以看到诸如用户加入会议的日期和时间、用户离开会议的日期和时间以及用于将该用户连接到会议的终结点的用户代理等信息。 还可以查看用户在每个会议角色中的角色信息， (演示者或与会者) 。 也许最重要的是，你可以快速了解哪些用户已成功加入和完成会议，哪些用户未能成功加入和完成会议。
+会议详细信息报告提供有关参与会议的所有用户的详细信息。 例如，可以看到用户加入会议的日期和时间、用户离开会议的日期和时间，以及用于将该用户连接到会议的终结点的用户代理等信息。 还可以查看用户在每个会议角色中的角色信息 (例如演示者或与会者) 。 也许最重要的是，您可以快速了解哪些用户已成功加入和完成会议，哪些用户未能成功加入和完成会议。
 
 ## <a name="accessing-the-conference-detail-report"></a>访问会议详细信息报告
 
 可以从以下报告访问会议详细信息报告：
 
-- 呼叫 [允许控制报告](call-admission-control-report.md) (会议详细信息指标进行) 
+- 呼叫 [允许控制报告](call-admission-control-report.md) (会议记录的详细信息指标来) 
 
-- 故障 [列表报告](failure-list-report.md) (会议指标) 
+- 故障 [列表报告](failure-list-report.md) ("会议"指标) 
 
-- 用户 [活动报告 (](call-diagnostic-reports-per-user.md) 单击会议 URI 指标) 
+- 用户 [活动报告](call-diagnostic-reports-per-user.md) (会议 URI 指标) 
 
-从会议详细信息报告中，可以通过单击诊断报告[](diagnostic-report.md) (详细信息) 报告。
+从会议详细信息报告中，可以通过单击诊断报告 ([详细信息) 报告](diagnostic-report.md) 。
 
 ## <a name="filters"></a>筛选器
 
-无。 您无法对会议详细信息报告进行筛选。
+无。 不能筛选会议详细信息报告。
 
-## <a name="metrics"></a>指标
+## <a name="metrics"></a>度量标准
 
 下表列出了会议详细信息报告的"会议信息"部分提供的信息。
 
@@ -62,13 +62,13 @@ ms.locfileid: "49816902"
 
 |**名称**|**说明**|
 |:-----|:-----|
-|"用户" <br/> |参与会议的用户的 SIP 地址。  <br/> |
+|**用户** <br/> |参与会议的用户的 SIP 地址。  <br/> |
 |**角色** <br/> |会议参与者扮演的角色（例如“演示者”）。  <br/> |
 |**连接** <br/> |参与者的网络连接（通常为“来自内部”或“来自外部”）。  <br/> |
 |**加入时间** <br/> |参与者加入会议的日期和时间。  <br/> |
 |**离开时间** <br/> |参与者离开会议的日期和时间。  <br/> |
 |**用户代理** <br/> |参与者终结点使用的软件的标识符。  <br/> |
-|**诊断报告** <br/> |提供诊断和疑难解答信息。 包括 SIP 响应代码、诊断标头、会议加入时间以及失败的会话的诊断 ID。  <br/> |
+|**诊断报告** <br/> |提供诊断和疑难解答信息。 包括失败的会话的 SIP 响应代码、诊断标头、会议加入时间以及诊断 ID。  <br/> |
 
 下表列出了会议详细信息报告的"会议形式"部分提供的信息。
 
@@ -76,10 +76,10 @@ ms.locfileid: "49816902"
 
 |**名称**|**说明**|
 |:-----|:-----|
-|"用户" <br/> |参与会议的用户的 SIP 地址。  <br/> |
+|**用户** <br/> |参与会议的用户的 SIP 地址。  <br/> |
 |**加入时间** <br/> |参与者加入会议的日期和时间。  <br/> |
 |**离开时间** <br/> |参与者离开会议的日期和时间。  <br/> |
 |**会议服务器 URI** <br/> |会议中使用的会议服务器的 URI。  <br/> |
-|**诊断报告** <br/> |提供诊断和疑难解答信息。 包括 SIP 响应代码、诊断标头、会议加入时间以及失败的会话的诊断 ID。  <br/> |
+|**诊断报告** <br/> |提供诊断和疑难解答信息。 包括失败的会话的 SIP 响应代码、诊断标头、会议加入时间以及诊断 ID。  <br/> |
 
 

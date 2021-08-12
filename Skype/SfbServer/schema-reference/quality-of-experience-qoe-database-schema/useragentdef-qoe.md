@@ -1,5 +1,5 @@
 ---
-title: 'UserAgentDef 表 (QoE) '
+title: 'QoE (UserAgentDef) '
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
-description: UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是用于连接到 Skype for Business Server 的软件客户端。
-ms.openlocfilehash: 2398601df248310a9482c797fcd8e98cef8f7e76
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是软件客户端，用于连接到Skype for Business Server。
+ms.openlocfilehash: 9bba40cf33aa69203499ddcbe3555b41d563394f6d7ef12d7b34ca8b2b7db846
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799922"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337540"
 ---
-# <a name="useragentdef-table-qoe"></a>UserAgentDef 表 (QoE) 
+# <a name="useragentdef-table-qoe"></a>QoE (UserAgentDef) 
  
-UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是用于连接到 Skype for Business Server 的软件客户端。
+UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是软件客户端，用于连接到Skype for Business Server。
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1   <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|2   <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
+|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4   <br/> |OC  <br/> |OC  <br/> |
 |8   <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |16   <br/> |LMC  <br/> |LMC  <br/> |

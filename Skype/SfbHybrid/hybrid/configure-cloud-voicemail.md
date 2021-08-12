@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 为托管在 Skype for Business Server 上的用户实施基于云的语音邮件的说明。
-ms.openlocfilehash: 76d65efcc0df59396942c8a38ebc22006427a0f0
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 8a0c04d90d77b0843ef8b9097abec91c04ee7bb336bf04e0cbfcc9c7fe5fe38a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337252"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>为云语音邮件用户配置 云语音邮件 服务
 
