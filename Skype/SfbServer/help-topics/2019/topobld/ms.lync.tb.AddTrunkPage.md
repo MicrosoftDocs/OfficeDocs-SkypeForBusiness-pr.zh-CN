@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通过提供以下信息定义一个新的会话初始协议 (SIP) Trunk：
-ms.openlocfilehash: 540076814d2916f74a5e11be42f99b57711da2b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 49411ca6416a99d30d7a889aca0151f3ef89b9f7a8b7e559c39366c585144378
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093270"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295419"
 ---
 # <a name="define-a-new-trunk"></a>定义新中继
 
@@ -40,6 +40,6 @@ ms.locfileid: "51093270"
 
 ## <a name="see-also"></a>另请参阅
 
-[Skype for Business Server 中的 M：N 中继](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
+[M：N 中继Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
 [如何实施 SIP 中继？](/previous-versions/office/lync-server-2013/lync-server-2013-how-do-i-implement-sip-trunking)

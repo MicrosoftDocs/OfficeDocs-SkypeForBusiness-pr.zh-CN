@@ -15,23 +15,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 可以删除"外部访问策略"页上"Skype for Business Server控制面板"中列出的任何站点或用户策略。
-ms.openlocfilehash: 154fb4434e074a3585a817994cb6b919a2b755eef8d5a8e6a082cacad4e25aae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79858592b8ba7dbcee692807bba3d2a472a8579cbc843ddeb96c25c811cc6df7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848677"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>删除外部用户访问的站点或用户策略
 
-如果创建或配置了不想再使用的外部用户访问策略，可以执行以下操作：
+如果已创建或配置了不再需要的外部用户访问策略，可以执行下列方法：
 
   - 删除已创建的任何站点策略或用户策略。
 
   - 将全局策略重置为默认设置。默认的全局策略设置拒绝任何外部用户访问。无法删除全局策略。
 
 
-可以删除"外部访问策略"页上"Skype for Business Server控制面板"中列出的任何 **站点** 或用户策略。 删除全局策略时不会真正删除该策略，而只是将其重置为不支持任何外部用户访问选项的默认设置。 有关重置全局策略的详细信息，请参阅 [重置外部用户访问的全局策略](reset-the-global-policy-for-external-user-access.md)。
+可以删除"外部访问策略"页上"Skype for Business Server控制面板"中列出的任何站点或 **用户** 策略。 删除全局策略不会实际删除它，而只是将其重置为默认设置，其中不包括任何外部用户访问选项的支持。 有关重置全局策略的详细信息，请参阅 [重置外部用户访问的全局策略](reset-the-global-policy-for-external-user-access.md)。
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>删除外部用户访问的站点或用户策略
@@ -49,28 +49,22 @@ ms.locfileid: "54309251"
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 删除WINDOWS POWERSHELL PIN 策略
 
-可以使用 Windows PowerShell cmdlet 删除外部Remove-CsExternalAccessPolicy策略。 此 cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。 
+可以使用 Windows PowerShell cmdlet 删除外部Remove-CsExternalAccessPolicy策略。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>删除特定外部访问策略
 
-  - 此命令删除适用于 Redmond 站点的外部访问策略：
-    
-        Remove-CsExternalAccessPolicy -Identity "site:Redmond"
+  - 此命令删除适用于 Redmond 站点的外部访问策略：<br/><br/>Remove-CsExternalAccessPolicy -Identity "site：Redmond"
 
 
 ## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>删除应用于每用户范围的所有外部访问策略
 
-  - 此命令删除在每用户范围配置的所有外部访问策略：
-    
-        Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
+  - 此命令删除在每用户范围配置的所有外部访问策略：<br/><br/>Get-CsExternalAccessPolicy -Filter "tag：*" |Remove-CsExternalAccessPolicy
 
 
 ## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>删除禁用外部用户访问的所有外部访问策略
 
-  - 此命令删除已禁用外部用户访问的所有外部访问策略：
-    
-        Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
+  - 此命令删除已禁用外部用户访问的所有外部访问策略：<br/><br/>Get-CsExternalAccessPolicy |Where-Object {$_.EnableOutsideAccess -eq $False} |Remove-CsExternalAccessPolicy
 
 
 有关详细信息，请参阅 [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet 的帮助主题。

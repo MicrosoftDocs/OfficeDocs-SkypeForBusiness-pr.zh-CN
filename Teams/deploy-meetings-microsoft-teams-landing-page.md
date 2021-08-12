@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5464e84526e466bdfaa643e912ecf90ccc252b2070fcffc810374dc6f03b52bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295169"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -228,4 +228,4 @@ Teams 提供两种用于监视和排除通话质量问题的方法：[通话分�
 - 在整个组织中[推动采用](adopt-microsoft-teams-landing-page.md)会议。
 - [添加音频会议](deploy-audio-conferencing-teams-landing-page.md)
 - [部署云语音](cloud-voice-landing-page.md)
-- 在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用的过程中添加其他[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)。
+- 在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。在推动 Teams 采用的过程中添加其他[应用、聊天机器人、连接器](deploy-apps-microsoft-teams-landing-page.md)。

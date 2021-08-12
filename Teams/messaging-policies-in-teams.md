@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 了解消息传送策略以及如何使用策略来控制聊天消息传送Teams。
-ms.openlocfilehash: 5b202d0a1895c3fd9b4279d6a7db072cd18f72ad
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: 3fc25286f9c17d2e4521fbbaa2ff438b33552d4344550d689043f571bfc5c4f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350684"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 

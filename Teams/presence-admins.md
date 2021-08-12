@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82d9f152dbba345f876ac166bcf6833e53bab799
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 17848cd1abd588ea1cd5106327ee576a318191bd06035389a8475b1fc258f8f2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718033"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350514"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 

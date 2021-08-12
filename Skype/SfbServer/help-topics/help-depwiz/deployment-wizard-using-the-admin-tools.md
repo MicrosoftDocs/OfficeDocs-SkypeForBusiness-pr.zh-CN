@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
-description: 有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅安装 Skype for Business Server 2015。
-ms.openlocfilehash: 22a157d4c73412d740a6ccb2b6b9dda03530fdb5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅 Install Skype for Business Server 2015。
+ms.openlocfilehash: 48aef827840654a54d43f6f1c77d88baaa2c3cb5700b51933a9b806e6581789a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331674"
 ---
 # <a name="deployment-wizard-using-the-admin-tools"></a>部署向导：使用管理工具
  
-有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅[安装 Skype for Business Server 2015。](../../deploy/install/install.md)
+有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅 Install [Skype for Business Server 2015](../../deploy/install/install.md)。
   
 

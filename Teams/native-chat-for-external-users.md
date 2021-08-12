@@ -15,12 +15,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 了解在两Teams TeamsOnly 升级模式下 (联合) 用户Microsoft Teams外部访问的本机聊天聊天体验。
-ms.openlocfilehash: 02bf09a7623079eb207ffca1b122bc03bf07c5c8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3d94c55dc184d80edbc22be53f1df18c256423c5aa04b7e342b8964463db1aa7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240458"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350594"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>针对本地用户 (联合) 的本机聊天Microsoft Teams
 

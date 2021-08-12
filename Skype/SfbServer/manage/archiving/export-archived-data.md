@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中导出存档数据
+title: 导出存档数据Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
-description: 摘要：了解如何导出 Skype for Business Server 的存档数据。
-ms.openlocfilehash: e69c283304395d697e99ef0607e2aec1eb7960e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何导出存档数据Skype for Business Server。
+ms.openlocfilehash: bb23861ea7615584de3ce6247f7281d94b5c60853767aaaa6ae495d3a6264dc7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095376"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311080"
 ---
-# <a name="export-archived-data-in-skype-for-business-server"></a>在 Skype for Business Server 中导出存档数据
+# <a name="export-archived-data-in-skype-for-business-server"></a>导出存档数据Skype for Business Server
 
-**摘要：** 了解如何导出 Skype for Business Server 的存档数据。
+**摘要：** 了解如何导出存档数据Skype for Business Server。
   
 存档数据库中存档的数据不可搜索或不可读，但您可以使用 **Export-CsArchivingData** cmdlet 从数据库中提取记录并将其另存为 Outlook 电子邮件 (EML) 文件。
   
-如果启用 Microsoft Exchange 集成，数据将存档在 Exchange 存储中。 Exchange 中存档的数据可搜索和发现。 有关访问 Exchange 中存档的数据的详细信息，请参阅 Exchange 文档。
+如果启用 Microsoft Exchange集成，数据将存档在Exchange存储中。 存档在Exchange中的数据可搜索和发现。 有关访问存档在 Exchange 中数据的详细信息，请参阅Exchange文档。
   
 ## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 导出Windows PowerShell数据
 

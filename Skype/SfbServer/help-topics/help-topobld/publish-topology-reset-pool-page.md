@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: 这是初步文档，可能会更改。 空白主题作为占位符包含在内。
-ms.openlocfilehash: a7463a3089b3944817f266e0e279501c607d6569
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6e942fbfdc1ea17c6c59a2aa7bf9595736afe193579a1dd134d00a5150daa8f2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823672"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341927"
 ---
 # <a name="publish-topology-reset-pool-page"></a>发布拓扑重设池页面
  
 这是初步文档，可能会更改。 空白主题作为占位符包含在内。
   
-若要将新计算机添加到现有池，必须重置该池以允许 Windows Fabric 重新定义该池的所有成员之间的连接。 为此，请选择已添加服务器的池，然后单击"下一 **步"。**
+若要将新计算机添加到现有池，必须重置该池以允许Windows Fabric重新定义该池的所有成员之间的连接。 为此，请选择已添加服务器的池，然后单击"下一步 **"。**
   
 ## <a name="see-also"></a>另请参阅
 

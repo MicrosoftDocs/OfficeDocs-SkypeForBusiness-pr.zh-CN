@@ -17,12 +17,12 @@ description: 使用管理中心中的 PSTN Microsoft Teams报告，大致了解�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ed775c3796e40a775b3be2b78f22e162a047bf78
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 18c68579a4bc3886f19e73198c576590f06180dbc2d83e1b847da51e9df93411
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350404"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft TeamsPSTN 阻止的用户报告
 

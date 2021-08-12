@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 description: 指定要创建的前端池的完全限定域名 (FQDN)。发布包含前端池的拓扑后，就无法更改该池的 FQDN。如果需要重命名池，必须先删除该池，然后添加具有新 FQDN 的新池。
-ms.openlocfilehash: 45fa22a6ce69b900fc57618825d299ec0930900a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 00ca8c887545da802c0394499fd5b4a078f411f9bf521988e4cecb56e2e79efe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833352"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287061"
 ---
 # <a name="add-front-end-pool-fqdn"></a>添加前端池 FQDN
  

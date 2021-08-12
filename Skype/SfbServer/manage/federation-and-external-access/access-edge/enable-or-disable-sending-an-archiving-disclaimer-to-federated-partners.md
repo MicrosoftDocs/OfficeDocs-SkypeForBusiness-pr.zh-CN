@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 83c548f948c4c368ba1d8186fbdc9f212b9fb67b463f8eaec845f7698f4c0720
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 打开或关闭向联盟伙伴发送存档免责声明Skype for Business Server。
+ms.openlocfilehash: 5c3e5b864b26977c2d25e534cdb62f9619644587a2b0658a788727ad2cd3fef4
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848857"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>启用或禁用向联盟伙伴发送存档免责声明Skype for Business Server
 
@@ -49,18 +49,13 @@ ms.locfileid: "54313170"
 
 ## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用或禁用Windows PowerShell免责声明
 
-存档免责声明的使用可通过使用 Windows PowerShell 和 Set-CsAccessEdgeConfiguration cmdlet 进行管理。 此 cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。 
+存档免责声明的使用可通过使用 Windows PowerShell 和 Set-CsAccessEdgeConfiguration cmdlet 进行管理。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>启用存档免责声明
 
-  - 要启用存档免责声明，请将 **EnableArchivingDisclaimer** 属性的值设置为 True ($True)：
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
+  - 要启用存档免责声明，请将 **EnableArchivingDisclaimer** 属性的值设置为 True ($True)：<br/><br/>Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 
 ## <a name="to-disable-the-archiving-disclaimer"></a>禁用存档免责声明
 
-  - 要禁用存档免责声明，请将 **EnableArchivingDisclaimer** 属性的值设置为 False ($False)：
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
-
+  - 要禁用存档免责声明，请将 **EnableArchivingDisclaimer** 属性的值设置为 False ($False)：<br/><br/>Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 

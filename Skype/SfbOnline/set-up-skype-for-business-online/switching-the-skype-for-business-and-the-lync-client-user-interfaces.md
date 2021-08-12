@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '了解如何使用 PowerShell 在 Skype for Business 或客户端用户界面之间Microsoft 365 lync Office 365 '
-ms.openlocfilehash: 4fad8e0953e95885e9074d62d8eb0c2a59494976
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3bd4f2eda05808428eadde5f2d596a5b9fe38cea6f1a6c253b2da64f9473f097
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239577"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320966"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>在 Skype for Business 与 Lync 客户端用户界面之间切换
 

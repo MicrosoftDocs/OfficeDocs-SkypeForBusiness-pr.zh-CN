@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中向用户应用存档策略
+title: 将存档策略应用于用户Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 摘要：了解如何在 Skype for Business Server 中向用户分配存档策略。
-ms.openlocfilehash: 1fce0dbd0cc7b0595dcf3cd91baeba9ed364e28a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何将存档策略分配给 Skype for Business Server。
+ms.openlocfilehash: b7dbd8a4222065c2bc53029b75672d6905dcd73b3a79e0d35ebfc6ce980f9865
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095486"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311090"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>在 Skype for Business Server 中向用户应用存档策略
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>将存档策略应用于用户Skype for Business Server
 
-**摘要：** 了解如何在 Skype for Business Server 中向用户分配存档策略。
+**摘要：** 了解如何向用户分配存档策略Skype for Business Server。
   
-如果为 Skype for Business Server 上用户创建了一个或多个存档用户策略，则可以通过向特定用户或用户组应用相应的策略来实现对特定用户的存档支持。 例如，如果创建支持内部通信存档的策略，可以至少将策略应用于一个用户或用户组以支持该用户的 Skype for Business Server 通信的存档。
+如果为位于 Skype for Business Server 上的用户创建了一个或多个用户存档策略，则可以通过向特定用户或用户组应用相应的策略来实现对特定用户的存档支持。 例如，如果创建支持内部通信存档的策略，可以至少将策略应用于一个用户或用户组，以支持存档用户的 Skype for Business Server 通信。
   
 > [!NOTE]
-> 如果为部署启用了 Microsoft Exchange 集成，Exchange In-Place 保留策略将控制是否对位于 Exchange 上且其邮箱置于"保留"状态In-Place存档。 有关详细信息，请参阅 [在 Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) 中规划存档和为 Skype for Business Server 配置与 Exchange [存储的集成](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
+> 如果为部署启用了 Microsoft Exchange 集成，Exchange In-Place 保留策略将控制是否对位于 Exchange 上且其邮箱置于"In-Place保留"的用户启用存档。 有关详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)和 Configure integration with Exchange storage for [Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>使用控制面板应用用户策略
 
@@ -34,7 +34,7 @@ ms.locfileid: "51095486"
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
 3. 在左侧导航栏中，单击“用户”，然后搜索要配置的用户帐户。 
     

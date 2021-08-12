@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 如何启用和禁用匿名用户访问Skype for Business Server。
+ms.openlocfilehash: c06135c0678309c527ec4bda341c17de2d643ce4d6b947077a3a2d02d71dea55
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848697"
 ---
-# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>在 Skype for Business Server 中启用或禁用匿名用户访问
+# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>启用或禁用匿名用户访问Skype for Business Server
 
 匿名用户是在你的组织的 Active Directory 域服务或受支持的联盟域中没有用户帐户，但可以受邀远程参加内部部署会议的用户。 通过允许匿名参加会议，匿名用户（即仅通过会议密钥验证其身份的用户）可以加入会议。 允许匿名参与需要为组织启用匿名参与。
 
@@ -35,7 +35,7 @@ ms.locfileid: "51119381"
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
 3.  在左侧导航栏中，单击“外部用户访问”，然后单击“访问边缘配置”。
 
@@ -52,21 +52,17 @@ ms.locfileid: "51119381"
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用或禁用匿名Windows PowerShell访问
 
-您可以通过使用 Windows PowerShell **和 Set-CsAccessEdgeConfiguration** cmdlet 管理匿名用户访问。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 
+可以使用 **Set-CsAccessEdgeConfiguration** cmdlet Windows PowerShell匿名用户访问。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 ## <a name="to-enable-anonymous-user-access"></a>启用匿名用户访问
 
-  - 要启用匿名用户访问，请将 **AllowAnonymousUsers** 属性的值设置为 True ($True)：
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - 要启用匿名用户访问，请将 **AllowAnonymousUsers** 属性的值设置为 True ($True)：<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>禁用匿名用户访问
 
-  - 要禁用匿名用户访问，请将 **AllowAnonymousUsers** 属性的值设置为 False ($False)：
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - 要禁用匿名用户访问，请将 **AllowAnonymousUsers** 属性的值设置为 False ($False)：<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>另请参阅
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

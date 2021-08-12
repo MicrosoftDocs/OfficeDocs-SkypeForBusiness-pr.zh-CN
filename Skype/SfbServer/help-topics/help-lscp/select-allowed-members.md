@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 正确使用类别可更轻松地创建和管理持久聊天室。 持久聊天管理员可以为每个类别定义 AllowedMembers 和 Creators，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 cmdlet 创建和管理Windows PowerShell类别。
-ms.openlocfilehash: 47abbec64f6799a85f3f6123a898eeae00becbdb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f757d7c25a429279bbde3c63e717af9d1930cb9ea40076ac9aa5b9d9567356a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107988"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342167"
 ---
 # <a name="select-allowed-members"></a>选择允许的成员
 
@@ -36,7 +36,7 @@ ms.locfileid: "51107988"
 
 - [新增的群聊服务器功能](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅[管理 Skype for Business Server 2015。](../../manage/manage.md)
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 

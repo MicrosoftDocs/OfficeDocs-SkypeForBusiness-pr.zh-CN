@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: 从 Microsoft Office Communications Server 2007 R2 迁移到 Lync Server 2013 使用拓扑生成器的功能合并现有拓扑。 摘要屏幕指定在配置将 Office Communications Server 2007 R2 合并到 Lync Server 2013 拓扑生成器配置期间执行的所有操作和选择。
-ms.openlocfilehash: 4505a90a82c7ea4fefe6245700554b663d4b11ee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5ced1007dc8653146858a22ef5cb1a20b55d6d503217af988f6404ed8ca1b974
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106788"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311110"
 ---
 # <a name="legacy-merge-summary-page"></a>旧版合并摘要页
 

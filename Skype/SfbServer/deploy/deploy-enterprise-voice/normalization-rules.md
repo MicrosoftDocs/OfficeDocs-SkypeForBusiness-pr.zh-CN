@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 中创建或修改规范化规则
+title: 创建或修改规范化规则Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: 摘要：了解如何在 Skype for Business Server 中定义、创建和修改规范化规则。
-ms.openlocfilehash: 3550e27884d125f065c4688fec2ace797f9e8ce2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何在规则中定义、创建和修改Skype for Business Server。
+ms.openlocfilehash: e491c58951be9c5341927a4edc949f7d119145533d77b9f2cb65d9e6a1a3cc4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320844"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>在 Skype for Business 中创建或修改规范化规则
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>创建或修改规范化规则Skype for Business
 
-**摘要：** 了解如何在 Skype for Business Server 中定义、创建和修改规范化规则。
+**摘要：** 了解如何在规则中定义、创建和修改Skype for Business Server。
 
-在 Skype for Business Server 中定义、创建和修改规范化规则。
+定义、创建和修改规则中的Skype for Business Server。
 
 ### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a>使用"建立规范化规则"定义规范化规则
 
-1. 打开 Skype for Business Server 控制面板
+1. 打开Skype for Business Server控制面板
 
-2.  (可选) 按照在[Skype for Business Server](dial-plans.md)中创建或修改拨号计划中的步骤执行步骤，通过步骤 11[](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)或修改拨号计划完成步骤 10。
+2.  (可选) 按照步骤 11 中的Skype for Business Server[](dial-plans.md)创建或修改拨号计划"或"修改拨号计划"中的步骤操作，完成步骤[](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)10。
 
 3. 在 **"新建****规范化规则**"或"编辑规范化规则"中，键入描述正在规范化的号码模式 **的名称 (例如**，5DigitExtension) 。
 
@@ -51,7 +51,7 @@ ms.locfileid: "51103388"
 
      这些字段中输入的值将反映在“要匹配的模式”和“转换规则”中。 例如，如果将"起始数字"留空，请在"长度"字段中键入 7 并选择"完全"，在"要删除的数字"中指定 0，则"要匹配的模式"中生成的 **正则表达式为：** 
 
-     ^ (\d {7}) $
+     ^(\d{7})$
 
 6. 在“转换规则”中，指定转换后的 E.164 电话号码格式的模式，如下所示：
 
@@ -66,7 +66,7 @@ ms.locfileid: "51103388"
 8. （可选）输入一个号码以测试规范化规则，然后单击“执行”。测试结果会显示在“输入要测试的号码”下。
 
     > [!NOTE]
-    > 您可以保存尚未通过测试的规范化规则，并在稍后对其进行重新配置。 有关详细信息，请参阅[Test Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)。
+    > 您可以保存尚未通过测试的规范化规则，并在稍后对其进行重新配置。有关详细信息，请参阅[Test Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)。
 
 9. 单击“确定”保存规范化规则。
 
@@ -75,13 +75,13 @@ ms.locfileid: "51103388"
 11. 在“拨号计划”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 无论何时创建或更改规范化规则，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business。](voice-route-config-changes.md)
+    > 无论何时创建或更改规范化规则，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ### <a name="to-define-a-normalization-rule-manually"></a>手动定义规范化规则
 
-1. 打开 Skype for Business Server 控制面板
+1. 打开Skype for Business Server控制面板
 
-2.  (可选) 按照 Create [or modify a dial plan in Skype for Business Server 中的步骤操作](dial-plans.md)。
+2.  (可选) 按照创建[或修改](dial-plans.md)拨号计划中的步骤操作Skype for Business Server。
 
 3. 在 **"新建** 规范化规则"或"编辑规范化规则"中，在"**名称" (** 中键入描述要规范化的号码模式的名称，例如，将规范化规则5DigitExtension) 。
 
@@ -108,4 +108,4 @@ ms.locfileid: "51103388"
 11. 在“拨号计划”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 无论何时创建或更改规范化规则，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business。](voice-route-config-changes.md)
+    > 无论何时创建或更改规范化规则，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
