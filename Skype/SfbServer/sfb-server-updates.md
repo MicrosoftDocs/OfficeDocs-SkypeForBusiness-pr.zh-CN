@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个地方查找和管理 Skype for Business Server 2015/2019 和 Lync 2013 的更新。 单击此页面上的链接可以详细了解并下载这些更新。
-ms.openlocfilehash: d59037f500bff249ab814632fef100821d63b7b7
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574117"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341517"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -30,19 +30,19 @@ ms.locfileid: "53574117"
 
 KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所有累积更新和修补程序的所有历史列表。 
 
-|软件包名称|KB 编号|发布日期|
+|程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
 |Skype for Business Server 2019 累积更新 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 9 月 |
 |Skype for Business Server 2019 年累积更新 3 修补程序 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 7 月 |
 |Skype for Business Server 2019 累积更新 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 3 月 |
 |Skype for Business Server 2019 累积更新 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 12 月 |
-|Skype for Business Server 2019 累积更新 1 修补程序 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 9 月 |
+|Skype for Business Server 2019 累积更新 1 修补程序 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年九月 |
 |Skype for Business Server 2019 累积更新 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 7 月 |
 | | | |
 
 ### <a name="skype-for-business-server-2019-tools"></a>Skype for Business Server 2019 工具
 
-|软件包名称 |发布日期|
+|程序包名称 |发布日期|
 |:--- |:--- |
 |[UCMA 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019 年 6 月       |
 |[Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | 2018 年 6 月        |
@@ -54,7 +54,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 [KB 3061064](https://support.microsoft.com/kb/3061064) 包含已发布的所有累积更新。 
 
-|软件包名称|KB 编号|发布日期|
+|程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
 |Skype for Business Server 2015 累积更新 11 修补程序 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 7 月 |
 |Skype for Business Server 2015 累积更新 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 5 月 13 日 |
@@ -78,7 +78,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ### <a name="skype-for-business-server-2015-tools"></a>Skype for Business Server 2015 工具
 
-|软件包名称 |发布日期|
+|程序包名称 |发布日期|
 |:--- |:--- |
 |[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015 年 5 月       |
 |[Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344)     |   2015 年 5 月      |
@@ -89,10 +89,10 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 [KB 2809243](https://support.microsoft.com/kb/2809243) 包含已发布的所有累积更新。
 
-|软件包名称|KB 编号|发布日期|
+|程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
 |Lync Server 2013 累积更新 10 修补程序 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2020 年 7 月|
-|Lync Server 2013 累积更新 10 修补程序 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019 年 9 月|
+|Lync Server 2013 累积更新 10 修补程序 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019年九月|
 |Lync Server 2013 累积更新 10 修补程序 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019 年 6 月|
 |Lync Server 2013 累积更新 10 修补程序 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019 年 1 月|
 |Lync Server 2013 累积更新 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|2018 年 7 月 |
@@ -123,7 +123,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ### <a name="lync-server-2013-dev-tools"></a>Lync Server 2013 开发工具
 
-|软件包名称|发布日期|
+|程序包名称|发布日期|
 |:--- |:--- |
 | 统一通信托管 API 4.0 运行时累积更新 |2013 年 7 月 |
 | Lync Server 2013 SDK |2013 年 2 月|
@@ -138,7 +138,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 完整拓扑包含 7 个虚拟机，通过这些虚拟机，您可以完全评估 Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013 和 UC 开发人员平台 API (包括 Microsoft Lync 2013 SDK、Exchange Web Services Managed API 2.0、Microsoft Lync Server 2013 SDK 和 Microsoft Unified Communications Managed API 4.0) 。
 
-软件包名称 |发布日期|
+程序包名称 |发布日期|
 |:--- |:--- |
 |[测试驱动器 - Lync Server 2013 - 第 1 部分，第 3 部分，第 3 部分](https://www.microsoft.com/download/details.aspx?id=40266) |2013 年 9 月 |
 |[测试驱动器 - Lync Server 2013 - 第 2 部分，第 3 部分](https://www.microsoft.com/download/details.aspx?id=40267) |2013 年 9 月 |
@@ -146,7 +146,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ### <a name="lync-2013-tools"></a>Lync 2013 工具
 
-|软件包名称 |发布日期|
+|程序包名称 |发布日期|
 |:--- |:--- |
 | Lync Connectivity Analyzer (32 位) 已停用 |2017 年 6 月 |
 | Lync Connectivity Analyzer (64 位) 已停用 |2017 年 6 月 |
@@ -165,7 +165,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ### <a name="lync-2013-downloadable-documentation"></a>Lync 2013 可下载文档
 
-软件包名称 |发布日期|
+程序包名称 |发布日期|
 |:--- |:--- |
 |[Lync Server 2013 文档帮助文件](https://www.microsoft.com/download/details.aspx?id=35405)|2015 年 8 月 |
 
@@ -175,7 +175,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 [KB 2493736](https://support.microsoft.com/kb/2493736) 包含已发布的所有累积更新。
 
-|软件包名称|KB 编号|发布日期|
+|程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
 |Lync Server 2010 累积更新 18 修补程序 1 | KB 2493736 |2019 年 6 月|
 |Lync Server 2010 累积更新 18| KB 2493736 |2019 年 1 月|
@@ -199,7 +199,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ### <a name="group-chat-2010-updates"></a>群聊 2010 更新
 
-|软件包名称|KB 编号|发布日期|
+|程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
 |Lync Server 2010 群聊的累积更新 |[KB 2884623](https://support.microsoft.com/kb/2884623) |2013 年 10 月|
 |Lync Server 2010 群聊管理工具的累积更新 |[KB 2884631](https://support.microsoft.com/kb/2884631) |2013 年 10 月|
@@ -207,7 +207,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ### <a name="lync-2010-dev-tools"></a>Lync 2010 开发人员工具
 
-|软件包名称 |发布日期|
+|程序包名称 |发布日期|
 |:--- |:--- |
 | Lync Server 2010 SDK |2010 年 11 月 |
 | Lync 2010 SDK |2011 年 3 月 |
@@ -218,7 +218,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ### <a name="lync-2010-tools"></a>Lync 2010 工具
 
-|软件包名称 |发布日期|
+|程序包名称 |发布日期|
 |:--- |:--- |
 | Im an Expert for Microsoft Lync Server 2010 |2012 年 3 月 |
 | Lync Server 2010 最佳做法分析器 |2011 年 2 月 |
@@ -231,7 +231,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ### <a name="lync-2010-downloadable-documentation"></a>Lync 2010 可下载文档
 
-软件包名称 |发布日期|
+程序包名称 |发布日期|
 |:--- |:--- |
 |[Lync Server 2010 文档帮助文件](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|2012 年 3 月 |
 |[Lync Server 2010 欢迎页面](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|2012 年 10 月 |
@@ -247,7 +247,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ### <a name="group-chat"></a>群聊版
 
-软件包名称 |发布日期|
+程序包名称 |发布日期|
 |:--- |:--- |
 | Lync Server 2010 Group Chat |2010 年 11 月 |
 | Lync Server 2010 群聊管理工具 |2010 年 11 月 |

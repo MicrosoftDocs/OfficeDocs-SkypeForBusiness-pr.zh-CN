@@ -16,12 +16,12 @@ description: 了解如何在管理中心购买第三方Teams应用Microsoft Team
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 57530ec952b6bbe806e685d0980fcee3a21d1887
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc46ea58421901a4d11f20160c2e9528a5311794bb084291c3c72e5e006ddc18
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117680"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285651"
 ---
 <a name="purchase-third-party-apps-for-teams"></a>为应用购买第三方Teams
 ======================================================
@@ -59,7 +59,7 @@ Teams应用可免费安装，某些应用可能需要购买服务订阅，以体
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="应用详细信息页的计划和定价选项卡的屏幕截图":::
 
-选择 **"管理** 许可证"，转到Microsoft 365管理中心，查看和管理购买的许可证以及管理用户的许可证分配。
+选择 **"管理** 许可证"转到Microsoft 365 管理中心以查看和管理购买的许可证以及管理用户的许可证分配。
 
 全局管理员可以查看组织中任何人的购买，Teams管理员只能查看自己购买的购买。  
 

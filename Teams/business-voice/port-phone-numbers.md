@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解如何将现有电话号码从当前提供商移动到 Microsoft 365 商务语音。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26f686197963f53f20477ccd9a16935c86a16d9f
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 230b49c60376fa63df6955c5946be0b0cfdfdd9805882d260f9e3c6ec3b6ce60
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341457"
 ---
 # <a name="step-7-port-phone-numbers-to-business-voice-optional"></a>步骤 7：将电话号码端口为业务语音（可选）
 

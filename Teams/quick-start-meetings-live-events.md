@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 854443e529736207520cbfdbe845c0b4992f9cd6
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 0c4e9b4e3133927aaea883fb64d4798b6761b65ebe83f6a887bf9b50ba589e70
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53647013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285681"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>快速入门 - 会议、网络研讨会和直播活动 
 

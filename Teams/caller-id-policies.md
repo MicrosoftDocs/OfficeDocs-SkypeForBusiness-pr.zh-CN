@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理呼叫者 ID 策略Microsoft Teams更改或阻止组织中Teams用户的来电显示。
-ms.openlocfilehash: cd928af5213a1e6fa927662adaba0fefecb687d5
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 7157f1a2a7997a8278ac05ac74db676cb551b20d5858b8732e373429f4b5e5aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341437"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理呼叫方 ID 策略
 

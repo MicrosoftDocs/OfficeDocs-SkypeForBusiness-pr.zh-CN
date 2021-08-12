@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.custom: httpsfix
 description: 以下主题提供有关更新 DNS 条目、移动内容管理服务器、停用池以及从旧部署停用和删除服务器和池的指南。 并非本节中列出的所有过程都是必需的。 请阅读本文档并确定要使用的停用过程。
-ms.openlocfilehash: b1080c68e3b4075ce92aaef497854855135dc47d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113238"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285512"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>第 8 阶段：停用旧池
 
@@ -40,6 +40,6 @@ ms.locfileid: "51113238"
 > 
 > [删除监控服务器关联](remove-the-monitoring-server-association.md)
 > 
-> [删除 Enterprise Edition 前端服务器或 Standard Edition 前端服务器](remove-the-front-end-server.md)
+> [删除Enterprise Edition前端服务器或Standard Edition前端服务器](remove-the-front-end-server.md)
 > 
 > [删除后端服务器上的 SQL Server 实例和数据库](remove-sql-server-instances-and-databases-on-the-back-end-server.md)

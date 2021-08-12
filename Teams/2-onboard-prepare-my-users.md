@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2a98c2b847844de38608782c8feabf754ed25187d5cf4f041bcdf14a8dda8d56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322874"
 ---
 # <a name="prepare-my-users"></a>准备用户
 
@@ -52,7 +52,7 @@ ms.locfileid: "41825080"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>您是否以让用户购买此新解决方案的方式向用户表述了好处和价值？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>为当前项目范围创建愿景和价值陈述，确保它们与目标保持一致。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>为当前项目范围创建愿景和价值陈述，确保它们与目标保持一致。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -63,7 +63,7 @@ ms.locfileid: "41825080"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户是否已准备好并愿意更改到新解决方案？</li><li>用户是否具有促进更改的能力或能力？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>在需要更改时，请使用以下对话入门来了解组织文化。 此信息有助于告知可能需要为项目实施多少认知和培训。
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>在需要更改时，请使用以下对话入门来了解组织文化。 此信息有助于告知可能需要为项目实施多少认知和培训。
 </li></ul></td></tr>
 </table>
 
@@ -92,7 +92,7 @@ ms.locfileid: "41825080"
 
  
 > [!TIP]
-> 学习不是一成多的。 通过了解用户的最佳学习方式，可以创建一个可靠的培训计划来帮助加快其学习速度。 如果许多用户都是自我激励的，则链接到视频和用户指南可能就足够了。 对于需要专门关注的用户，请务必安排一对一，或召集你的支持者来帮助这些用户 &mdash; 完成学习曲线。
+> Learning不是一个全尺寸的。 通过了解用户的最佳学习方式，可以创建一个可靠的培训计划来帮助加快其学习速度。 如果许多用户都是自我激励的，则链接到视频和用户指南可能就足够了。 对于需要专门关注的用户，请务必安排一对一，或召集你的支持者来帮助这些用户 &mdash; 完成学习曲线。
 
 <!--ENDOFSECTION-->
 
@@ -102,7 +102,7 @@ ms.locfileid: "41825080"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>某些用户或队列是否依赖于此解决方案才能有效地执行其作业？</li><li>是否有可以通过使用此新解决方案促进的特定用例？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>映射用户角色。 首先，将用户群细分为人员/队列组 (主管、道路运输人员、协作工作者、零售) 。 为易于管理，请列出不超过八个组。  (有关示例对话入门，请参阅下文。) 使用你的发现进一步设计用户准备活动，将试点用户与可能受益于以后升级的用户进行细分。
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>映射用户角色。 首先，将用户群细分为人员/队列组 (主管、道路运输人员、协作工作者、零售) 。 为易于管理，请列出不超过八个组。  (有关示例对话入门，请参阅下文。) 使用你的发现进一步设计用户准备活动，将试点用户与可能受益于以后升级的用户进行细分。
 </li><li>映射用例。 确定将受益于此新技术的核心用户组后，请考虑一般用户群体。 通过了解跨团队用例和方案，可以将使用此新技术的组织可视化。 此外，向通信和培训计划添加用例示例确实有助于使其与用户相关。</li></ul></td></tr>
 </table>
 
@@ -140,7 +140,7 @@ ms.locfileid: "41825080"
 
 -   新解决方案如何优化用户体验？
 
-有关用例的示例，请访问 [FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)。
+有关用例的示例，请访问 FastTrack [Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)。
 
 <!--ENDOFSECTION-->
 
@@ -149,7 +149,7 @@ ms.locfileid: "41825080"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>可以提供哪些准备计划来帮助促进和加速新解决方案的采用？</li><li>您是否具有与用户处理更改的能力以及定义的用户角色保持一致的正确认知、培训和支持资源？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>使用以下部分中的列表生成准备计划的想法。 选择最相关的计划 &mdash; ，或添加自己的计划 &mdash; ，以设计针对组织优化的就绪计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>使用以下部分中的列表生成准备计划的想法。 选择最相关的计划 &mdash; ，或添加自己的计划 &mdash; ，以设计针对组织优化的就绪计划。</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>准备计划想法

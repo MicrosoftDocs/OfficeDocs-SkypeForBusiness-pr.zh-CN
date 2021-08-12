@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中管理 ELIN 网关的位置
+title: 管理 ELIN 网关在Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-description: 在 Skype for Business Server 企业语音 中，为使用 ELIN 网关的 E9-1-1 部署规划位置信息数据库或类似外部数据库企业语音。
-ms.openlocfilehash: dd16270aa5a41e3ca50e92859bd1a789426e647b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 规划使用 ELIN 网关的 E9-1-1 部署的位置信息数据库或类似外部数据库所必需的决策Skype for Business Server 企业语音。
+ms.openlocfilehash: e3843735006460792f414e685c15552c54a64e1c7896b02b1b0922b31a84e106
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323074"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>在 Skype for Business Server 中管理 ELIN 网关的位置
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>管理 ELIN 网关在Skype for Business Server
 
-在 Skype for Business Server 企业语音 中，为使用 ELIN 网关的 E9-1-1 部署规划位置信息数据库或类似外部数据库企业语音。
+规划使用 ELIN 网关的 E9-1-1 部署的位置信息数据库或类似外部数据库所必需的决策Skype for Business Server 企业语音。
 
-若要使 Skype for Business Server 自动为网络内的客户端提供位置，需要执行以下任务：
+若要Skype for Business Server为网络内的客户端提供位置，需要执行以下任务：
 
 - 使用网络线路映射填充位置信息服务数据库，并在 CompanyName (包含紧急) 标识号。
 
@@ -38,7 +38,7 @@ ms.locfileid: "51092910"
 有关如何执行这些任务的详细信息，请参阅部署文档中的[Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)。
 
 > [!NOTE]
-> 添加到中央位置数据库的位置在通过使用 Skype for Business Server 命令行管理程序命令发布并复制到池的本地存储之前，对客户端不可用。 有关详细信息，请参阅部署文档中的[Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database)。
+> 在使用 Skype for Business Server 命令行管理程序命令发布添加到中央位置数据库的位置并复制到池的本地存储之前，这些位置对客户端不可用。 有关详细信息，请参阅部署文档中的[Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database)。
 
 此部分介绍在您计划更新和维护位置数据库时应考虑的事项。
 
@@ -52,7 +52,7 @@ ms.locfileid: "51092910"
 
 - 一个容易理解的名称，用于标识 911 呼叫者的位置，以确保紧急响应者在到达市政地址后能迅速找到具体位置。此位置名称可包含建筑物编号、楼层、建筑物标识、房间号等。应避免使用仅对员工可知的昵称，以防紧急响应者去往错误的位置。
 
-- 一个位置标识符，可帮助用户轻松查看其客户端选取了正确的位置。 Skype for Business 客户端会自动连接并在其标头中显示发现的 **Location** 和 **City** 字段。 一个好的做法是将建筑物的街道地址添加到每个位置标识符 (例如，"1st <street number> Floor") 。 如果没有街道地址，那么通用的位置标识符（例如“1st Floor”）可以适用于城市中的所有建筑。
+- 一个位置标识符，可帮助用户轻松查看其客户端选取了正确的位置。 客户端Skype for Business连接并在其标头中显示发现的 **Location** 和 **City** 字段。 一个好的做法是将建筑物的街道地址添加到每个位置标识符 (例如，"1st <street number> Floor") 。 如果没有街道地址，那么通用的位置标识符（例如“1st Floor”）可以适用于城市中的所有建筑。
 
 - 如果位置是近似值，因为它由无线访问点确定，您可能需要添加 **单词 [Near]** (例如，"Near 1st Floor 1234") 。
 
@@ -84,9 +84,9 @@ ms.locfileid: "51092910"
 
  **是否具有已包含位置映射的第三方数据库？**
 
-通过使用辅助位置信息服务选项连接到第三方数据库，您可以使用脱机平台对位置进行分组和管理。 此方案的优势在于除了将位置与网络标识符关联外，还可以将位置与用户关联。 这意味着位置信息服务可以将源自辅助位置信息服务的多个地址返回到 Skype for Business 客户端。 然后用户可以选择最合适的位置。
+通过使用辅助位置信息服务选项连接到第三方数据库，您可以使用脱机平台对位置进行分组和管理。 此方案的优势在于除了将位置与网络标识符关联外，还可以将位置与用户关联。 这意味着位置信息服务可以将来自辅助位置信息服务的多个地址返回给一个Skype for Business客户端。 然后用户可以选择最合适的位置。
 
-若要与位置信息服务集成，第三方数据库必须遵循 Skype for Business Server 位置请求/响应架构。 有关详细信息，请参阅[Web Service for E911 Support Protocol。](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的在 [Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) 中配置辅助位置信息服务。
+若要与位置信息服务集成，第三方数据库必须遵循Skype for Business Server请求/响应架构。 有关详细信息，请参阅[Web Service for E911 Support Protocol。](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) 有关部署辅助位置信息服务的详细信息，请参阅部署文档中Skype for Business Server配置[](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)辅助位置信息服务。
 
 有关填充位置数据库的详细信息，请参阅部署文档中的 Configure [the Location Database。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)
 
@@ -98,6 +98,6 @@ ms.locfileid: "51092910"
 
 有许多方案需要更新位置数据，包括添加无线接入点 (WAP)、重新布置办公室缆线（需要不同的交换机分配）和子网扩展。是直接更新每个位置，还是使用 CSV 文件执行所有位置的批量更新？
 
- **您是否将使用 SNMP 应用程序将 Skype for Business 客户端 MAC 地址与端口和交换机标识符相匹配？**
+ **您是否将使用 SNMP 应用程序将客户端 MAC Skype for Business与端口和交换机标识符相匹配？**
 
 如果使用 SNMP 应用程序，需要设计用于保持 SNMP 应用程序和位置数据库之间的交换机机架和端口信息一致的手动过程。 如果 SNMP 应用程序返回数据库中不包括的机架 IP 地址或端口 ID，则位置信息服务将无法将位置返回给客户端。

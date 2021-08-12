@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的会议摘要子报告
+title: 会议摘要子报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 摘要：了解 Skype for Business Server 中的会议摘要子报告。
-ms.openlocfilehash: 9a42e16bc22f01f196274f1e25396d8516e26af2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解会议摘要子报告Skype for Business Server。
+ms.openlocfilehash: ec72c499a7a523dfcac3adaad43728c8e623526a5ff7264e12a7d6eb77df75cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298162"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Skype for Business Server 中的会议摘要子报告
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>会议摘要子报告Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中的会议摘要子报告。
+**摘要：** 了解会议摘要子报告Skype for Business Server。
   
 会议摘要子报告提供了失败的会议会话的总体概述。这些失败的会话按以下会话类型进一步细分：焦点会话和 MCU 会话。
   
@@ -34,10 +34,10 @@ ms.locfileid: "49826472"
 |**名称**|**说明**|
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|"自" <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
+|**To** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**Pool** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。<br/> |
    
-## <a name="metrics"></a>指标
+## <a name="metrics"></a>度量标准
 
 下表列出了会议摘要子报告中提供的信息。
   

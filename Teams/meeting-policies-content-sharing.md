@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 了解如何在用于内容共享的Teams管理会议策略设置。
-ms.openlocfilehash: 7b318ad0025d6c68b041c65d8fbb78cbfbc87723
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 6fc70359c8ef2dc06c02b68ce35977e5e45ef686cd8b44de558a1868ce7cb47e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598712"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285821"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会议策略设置 - 内容共享
 

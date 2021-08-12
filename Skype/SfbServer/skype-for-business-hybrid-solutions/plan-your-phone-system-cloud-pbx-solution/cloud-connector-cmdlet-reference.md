@@ -12,20 +12,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
-description: 下表列出了 Skype for Business 云连接器版本 cmdlet，并提供了简要说明和详细信息链接。
-ms.openlocfilehash: 3739518dd8ddcd17bce8108228d0d643ebaa79a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 下表列出了这些Skype for Business 云连接器版本 cmdlet，并提供了简要说明和指向详细信息的链接。
+ms.openlocfilehash: a5a29003db50f79440b6bd0393bce63b8597d90df35cded4b7b6c0114b165b97
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092930"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341487"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>云连接器 cmdlet 参考
  
 > [!Important]
-> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](/MicrosoftTeams/direct-routing-landing-page)
+> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话Teams[连接到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
 
-下表列出了 Skype for Business 云连接器版本 cmdlet，并提供了简要说明和详细信息链接。
+下表列出了这些Skype for Business 云连接器版本 cmdlet，并提供了简要说明和指向详细信息的链接。
   
 > [!NOTE]
 > 必须在云连接器主机上运行所有 cmdlet，并且必须以管理员角色运行 PowerShell 会话。 
@@ -36,7 +36,7 @@ ms.locfileid: "51092930"
 |[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |使用客户提供的 R2 ISO (VHDX) 基本虚拟Windows Server 2012硬盘文件。 VHDX 文件将在部署云连接器期间使用。  <br/> |
 |[Enter-CcUpdate](enter-ccupdate.md) <br/> |通过将云连接器主机服务器置于维护模式，为更新过程做好准备。 设备"排出";即，所有现有呼叫都将完成，但新呼叫将被拒绝。  <br/> |
 |[Exit-CcUpdate](exit-ccupdate.md) <br/> |在云连接器主机服务器上退出更新维护模式。  <br/> |
-|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | 将 Skype for Business 云连接器版本配置导出到 Skype for Business 云连接器版本主机服务器上的本地文件。 <br/> |
+|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | 将Skype for Business 云连接器版本配置导出到主机服务器上Skype for Business 云连接器版本文件。 <br/> |
 |[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |将云连接器示例配置文件 (.ini) 导出到云连接器设备的设备目录。 可以修改和重命名文件以用于部署。  <br/> |
 |[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> 版本 1.4.2 及更高版本  <br/> |将根 CA 证书导出到云连接器主机服务器上本地文件。  <br/> |
 |[Get-CcApplianceDirectory](get-ccappliancedirectory.md) <br/> |检索云连接器主机服务器上的工作目录。 所有部署文件都存储在此目录中。  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "51092930"
 |[Get-CcSiteDirectory](get-ccsitedirectory.md) <br/> |显示存储站点级别配置文件的当前目录。 该文件夹包含基本 VHD 和云连接器安装文件。 此文件夹应该与云连接器站点的所有其他设备共享。  <br/> |
 |[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |显示存储云连接器的站点级别日志的当前目录。  <br/> |
 |[Get-CcVersion](get-ccversion.md) <br/> 版本 2.0 及更高版本  <br/> |返回云连接器实例上的版本。 Get-CCVersion只能在云连接器的主机中使用。  <br/> |
-|[Import-CcConfiguration](import-ccconfiguration.md) <br/> 版本 2.0 及更高版本  <br/> |将 Skype for Business 云连接器版本配置从本地文件导入云连接器主机服务器。  <br/> |
+|[Import-CcConfiguration](import-ccconfiguration.md) <br/> 版本 2.0 及更高版本  <br/> |将Skype for Business 云连接器版本配置从本地文件导入到云连接器主机服务器。  <br/> |
 |[Install-CcAppliance](install-ccappliance.md) <br/> |在主机服务器上安装云连接器设备（包括 AD、中央管理存储、中介服务器和边缘服务器虚拟机）。  <br/> |
 |[Publish-CcAppliance](publish-ccappliance.md) <br/> | 从联机租户配置获取高可用性信息，并发布到主机服务器上云连接器设备。 <br/> |
 |[Register-CcAppliance](register-ccappliance.md) <br/> | 在联机租户配置中将设备信息注册到 PSTN 站点。 必须先注册设备，然后才能由云连接器管理服务部署和管理该设备。 <br/> |

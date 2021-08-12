@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
-description: 可以使用混合可管理性向导执行设置 Skype for Business Online 混合部署所需的一些配置任务。 若要详细了解如何配置混合部署，请参阅"使用混合可管理性"向导配置环境。
-ms.openlocfilehash: f930bba3a8e8de1a31f9947c54a949cc8bb58b41
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 可以使用混合可管理性向导执行使用 Skype for Business Online 设置混合部署所需的一些配置任务。 若要详细了解如何配置混合部署，请参阅使用混合可管理性向导配置环境。
+ms.openlocfilehash: dee80f6cd5dc5c668d525a8440b39c31ccbb103f5029f33e7d5f525ef4c09a68
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285332"
 ---
 # <a name="hybrid-manageability-wizard"></a>混合可管理性向导
 
-可以使用混合可管理性向导执行设置 Skype for Business Online 混合部署所需的一些配置任务。 若要详细了解如何配置混合部署，请参阅"使用混合可管理性"向导 [配置环境](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。
+可以使用混合可管理性向导执行使用 Skype for Business Online 设置混合部署所需的一些配置任务。 若要详细了解如何配置混合部署，请参阅使用混合可管理性 [向导配置环境](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。
 
 

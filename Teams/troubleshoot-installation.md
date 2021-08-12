@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: 了解如何解决 Windows 上 Teams 桌面客户端应用的安装和更新问题。
-ms.openlocfilehash: 6235bd6336940d7d36a7de526eaaf1fbb93f5323
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 7b482daae7378027418896fee718ae5beb88f02f0bcccc9ed8ce6fc988cf8ab6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768363"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350186"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>解决 Windows 上的 Microsoft Teams 安装和更新问题
 
@@ -52,7 +52,7 @@ ms.locfileid: "51768363"
 成功安装 Teams 后，日志位置将从 %LocalAppData%\SquirrelTemp 切换到 %LocalAppData%\Microsoft\Teams。 在这里，有两个需要关注的日志文件：SquirrelSetup.log 和 logs.txt。
 
 - 这里的 SquirrelSetup.log 文件是由 Update.exe 写入的，后者是为 Teams 应用服务的可执行文件。
-- Logs.txt 文件用于 Teams 应用（具体来说，是 Teams.exe）记录重要应用程序事件。 它可能包含失败信息。
+- Teams 应用（特别是 Teams.exe）使用 Logs.txt 文件记录重要的应用程序事件。文件中有可能包含失败信息。
 
 这些日志文件包含个人身份信息 (PII)，因此不会发送给 Microsoft。
 
@@ -80,7 +80,7 @@ Teams 可以自动启动更新进程（具体取决于策略），或者，用�
         ```console
         cd /d %TEMP%
         ```
-    2. 复制安装和应用程序日志。 请注意，根据故障点，某些日志可能不会显示。
+    2. 复制安装程序和应用程序日志。请注意，根据故障点，其中一些日志可能不存在。
 
         ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log

@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48fedc9050b397e3c14f76a240e34f192b9d7565
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7801e2a80f65e90a26cd99124047f229c04222a8b4d846acf53bd46a9d8510f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116882"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285661"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用优化反馈和报告功能
 
-遵循用户反馈和服务运行状况报告最佳实践，确保从服务和员工处收到信号。  在某些情况下，可能需要管理员权限才能访问某些服务使用情况和运行状况报告。 如果你不是组织的Microsoft 365管理员Office 365管理员，请与在 Microsoft 365 管理中心中授予报表读取者角色的用户合作，以访问其中一些数据。
+遵循用户反馈和服务运行状况报告最佳实践，确保从服务和员工处收到信号。  在某些情况下，可能需要管理员权限才能访问某些服务使用情况和运行状况报告。 如果你不是组织的Microsoft 365管理员Office 365管理员，请与组织中被授予报表读者角色的个人一起Microsoft 365 管理中心访问其中一些数据。
 
 ## <a name="incorporating-feedback"></a>合并反馈 
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1d8ed8e964d1ffeda8e862992335560c9a6aab
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 379b5ea63e32cec08343a65ce06c4aaf21e016814875c444947fa0dac6a9fecd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341338"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>管理公司中一线员工基于排班Teams
 

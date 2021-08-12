@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 要使具有受信任客户或伙伴组织帐户的用户（包括伙伴域用户和支持的公共即时消息 (IM) 提供商用户）能够与组织中的用户进行协作，必须具有联盟支持。
-ms.openlocfilehash: 34991040e6eed9cfec8d2e3abd3fd3d944057d868f0ca9b83cd4131d3fd13ad0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9c7b4ee7a861bc395c8599283f8d993b25ef4774d9487263e334207e9e277c8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849967"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>启用或禁用联盟和公共 IM 连接Skype for Business Server
 
@@ -28,7 +28,7 @@ ms.locfileid: "54276837"
 
 要支持联盟域用户访问，必须启用联盟。如果为组织启用联盟，则还必须指定是否实现以下选项：
 
-  - **启用合作伙伴域发现**  如果启用此选项，Skype for Business Server 将使用域名系统 (DNS) 记录尝试发现未列在允许域列表中的域，自动评估来自已发现联盟伙伴的传入流量，并基于信任级别、流量和管理员设置限制或阻止该流量。 如果不选择此选项，则仅对包括在允许域列表上的域中的用户启用联盟用户访问。 无论选择此选项，都可以指定阻止或允许各个域，包括限制对在联盟域中运行访问边缘服务的特定服务器的访问。 有关控制联盟域的访问的详细信息，请参阅 [配置对允许的外部域的支持](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
+  - **启用合作伙伴域发现**  如果启用此选项，Skype for Business Server 将使用域名系统 (DNS) 记录尝试发现未列在允许域列表中的域，自动评估来自发现的联盟伙伴的传入流量，并基于信任级别、流量和管理员设置限制或阻止该流量。 如果不选择此选项，则仅对包括在允许域列表上的域中的用户启用联盟用户访问。 无论选择此选项，都可以指定阻止或允许各个域，包括限制对在联盟域中运行访问边缘服务的特定服务器的访问。 有关控制联盟域的访问的详细信息，请参阅 [配置对允许的外部域的支持](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
 
   - **向联盟合作伙伴发送存档免责声明**    向联盟合作伙伴发送免责声明通知，告知在您的部署中使用了存档功能。如果支持存档与联盟伙伴域的外部通信，应启用存档免责声明通知以提醒伙伴将对他们的消息进行存档。
 
@@ -65,21 +65,17 @@ ms.locfileid: "54276837"
 若要使联盟用户能够与 Skype for Business Server 部署中的用户进行协作，还必须至少配置一个外部访问策略以支持联盟用户访问。 有关详细信息，请参阅 [配置策略以控制联盟用户访问](../external-access-policies/configure-policies-to-control-federated-user-access.md)。 若要控制对特定联盟域的访问，请参阅 [配置对允许的外部域的支持](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
 
 
-## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用或禁用联盟Windows PowerShell IM 连接
+## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用或禁用联盟和公共 IM Windows PowerShell连接
 
-联盟和公共 IM 连接也可通过使用 Windows PowerShell 和 Set-CsAccessEdgeConfiguration cmdlet 进行管理。 此 cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。 
+联盟和公共 IM 连接也可使用 Windows PowerShell 和 Set-CsAccessEdgeConfiguration cmdlet 进行管理。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 ## <a name="to-enable-federation-and-public-im-connectivity"></a>启用联盟和公共 IM 连接
 
-  - 若要启用联盟和公共 IM 连接，请将 **AllowFederatedUsers** 属性的值设置为 True ($True)：
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
+  - 若要启用联盟和公共 IM 连接，请将 **AllowFederatedUsers** 属性的值设置为 True ($True)：<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 
 
 ## <a name="to-disable-federation-and-public-im-connectivity"></a>禁用联盟和公共 IM 连接
 
-  - 若要禁用联盟和公共 IM 连接，请将 **AllowFederatedUsers** 属性的值设置为 False ($False)：
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
+  - 若要禁用联盟和公共 IM 连接，请将 **AllowFederatedUsers** 属性的值设置为 False ($False)：<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 

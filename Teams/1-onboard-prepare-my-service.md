@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42ded974ba5f4400bdcb5796410a8277fbed4488
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a8aa2818cb2b4be85054f8804fa6a11112c4e8a68cc171e9b9f7191e3f3a5bfd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322914"
 ---
 # <a name="prepare-my-service"></a>准备服务
 
@@ -56,11 +56,11 @@ ms.locfileid: "51103968"
 当您按网站载入用户时，强烈建议使用 [适用于 Voice (Playbook ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 的站点启用 Playbook) 作为这些清单的补充指南。
 
 >[!NOTE]
->大多数配置设置在 Teams 和 Skype for Business Online 之间很常见。 使用 Microsoft 365 管理中心Microsoft Teams管理中心配置这些设置。
+>大多数配置设置在 Teams 和 Skype for Business Online 之间很常见。 使用 Microsoft 365 管理 中心Microsoft Teams管理中心配置这些设置。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>Who将负责监督登记清单的完成情况？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>下载载入清单。</li><li>根据组织的部署计划逐步完成登记清单项。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>下载载入清单。</li><li>根据组织的部署计划逐步完成登记清单项。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -187,7 +187,7 @@ ms.locfileid: "51103968"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定将部署哪些音频会议功能 (服务决策) 。</li><li>确定音频会议的用户功能要求。</li><li>确定音频会议的服务配置要求。</li><br><li>确定是否部署和配置直接路由或呼叫计划。<li>确定电话系统服务决策部署哪些 (功能) 。</li><li>确定调用计划或直接路由的用户功能要求。</li><li>确定调用计划或直接路由的服务配置要求。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>开发和记录测试计划方法。</li><li>在音频会议功能的范围内准备服务环境和用户。</li><li>在调用计划或直接路由功能的范围内准备服务环境和用户。</li><li>对要启用的音频会议功能执行测试验证。</li><li>对要启用的呼叫计划或直接路由功能执行测试验证。</li><li>对于任何测试失败，请确认配置是否正确，查看社区文章，并（如果需要）提出支持案例。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>开发和记录测试计划方法。</li><li>在音频会议功能的范围内准备服务环境和用户。</li><li>在调用计划或直接路由功能的范围内准备服务环境和用户。</li><li>对要启用的音频会议功能执行测试验证。</li><li>对要启用的呼叫计划或直接路由功能执行测试验证。</li><li>对于任何测试失败，请确认配置是否正确，查看社区文章，并（如果需要）提出支持案例。</li></ul></td></tr>
 </table>
 
 

@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-jul2020
 hideEdit: true
 description: Fournir des expériences accessibles à tous est au c'ur de la mission de Microsoft， qui consiste à permettre à chaque personne et à chaque 组织 de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Entreprise et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: df9204b5228c520cf73d3dc630250aa70005f868
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: e8e05e8eeb8a5af889507e7111cbdd478aaab2894cc92f0c5bea5f8bb58e79b8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333004"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>适用于法国 Skype for Business Online Microsoft Teams 的辅助功能解决方案
 

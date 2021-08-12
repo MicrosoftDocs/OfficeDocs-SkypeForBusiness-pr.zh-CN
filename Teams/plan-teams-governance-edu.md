@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ada92509adc0f066bf957ddaa8f5de8dd0c47653
-ms.sourcegitcommit: 8906fc384cd13255972df53d2a07d12589154d42
+ms.openlocfilehash: 1859286fd14e3820a75615adc5da82fea863e74101e5a7911e888490e5799db3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52085844"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285801"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>面向管理员的 Microsoft 教育版管理常见问题解答
 
@@ -38,7 +38,7 @@ ms.locfileid: "52085844"
 -   **分类** 可以创建组织中用户在创建组时可以设置的Microsoft 365分类。 
 
 > [!IMPORTANT]
-> 使用 Microsoft 365 组命名策略要求每个唯一用户（即一个或多个组的成员）拥有 Azure Active Directory 高级版 P1 许可证或 Azure AD 基本 EDU Microsoft 365许可证。
+> 使用 Microsoft 365 组命名策略要求Azure Active Directory Premium P1一个或多个组的成员的每个唯一用户拥有多个许可证或 Azure AD 基本 EDU Microsoft 365许可证。
 
 有关详细说明，请参阅Office[组命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
@@ -78,7 +78,7 @@ ms.locfileid: "52085844"
 -   **存档团队：** 此设置将团队置于只读模式。 它们仍然可以浏览和搜索，但没有人可以添加任何新文章。 [存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)介绍了团队所有者如何存档团队;团队所有者还可使用 Graph API ([beta](/graph/api/resources/teams-api-overview)) 存档或还原团队。
  
 > [!IMPORTANT]
-> 使用Microsoft 365组过期策略Azure Active Directory 高级版一个或多个组的成员的每个唯一用户的 P1 Microsoft 365许可证。
+> 使用Microsoft 365组过期策略Azure Active Directory Premium P1组的成员的每个唯一用户的许可证Microsoft 365许可证。
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>创建团队时，是否有供教职员工使用的团队模板？
 
