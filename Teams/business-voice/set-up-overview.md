@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解如何在中小型企业Microsoft 365 商务语音中设置服务。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 892b093003accf782b7fb6c0a6234bf1f8beb952
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 8b8d5c89fca6fd9ff84d06b784b51040dbafe20c0e2ccc74fde845b6990095e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656035"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314128"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>设置Microsoft 365 商务语音
 

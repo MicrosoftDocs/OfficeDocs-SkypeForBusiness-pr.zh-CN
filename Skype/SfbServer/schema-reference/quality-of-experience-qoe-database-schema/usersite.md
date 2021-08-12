@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
-description: UserSite 表是一个支持表。 每条记录代表一个在网络配置设置中定义的用户站点。
-ms.openlocfilehash: 88df08875ea3254ee355a96aa3b12d3ee7f5ccaf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: UserSite 表是一个支持表。每条记录代表一个在网络配置设置中定义的用户站点。
+ms.openlocfilehash: 01ab76218040d37176355d62768c6a8b8f4b7336d22ce7263c61ac9fc8c289ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799912"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314328"
 ---
 # <a name="usersite-table"></a>UserSite 表
  
 UserSite 表是一个支持表。每条记录代表一个在网络配置设置中定义的用户站点。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**UserSiteKey** <br/> |int  <br/> |主  <br/> |标识用户站点的唯一编号。  <br/> |
 |**UserSiteName** <br/> |nvarchar (128)   <br/> |独特  <br/> |用户网站的名称。  <br/> |

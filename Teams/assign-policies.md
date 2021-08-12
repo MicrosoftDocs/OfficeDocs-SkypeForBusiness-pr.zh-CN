@@ -18,12 +18,12 @@ description: 了解向用户分配策略的不同方法Microsoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 05ed811c38b3f49e21933d575c82128360ca3390
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: deb5106ebca49644f6e3a23f607d5d1c352fc29e67c2390c39c1182d75a0bb53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739712"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347547"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft Teams 中的用户分配策略
 
@@ -141,7 +141,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 下载并安装[Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (（如果尚未安装) ，然后运行以下代码进行连接。
 
 > [!NOTE]
-> Skype for Business联机连接器当前是 PowerShell 模块Teams的一部分。
+> Skype for Business Online 连接器目前是最新 Teams PowerShell 模块的一部分。
 >
 > 如果使用的是[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams最新版本，则无需安装 Skype for Business Online 连接器。
 

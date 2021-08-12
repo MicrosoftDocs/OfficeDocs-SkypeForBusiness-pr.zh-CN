@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 了解如何在会议环境中管理常规会议Teams。
-ms.openlocfilehash: ecbdceefa5d60ca3c7d5b09aaa094054b88f60f915b17934a734fa07bdf3da23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aaeabbb61879e9e96c6b887a90fb3814fd7a3c4f3462d5e4f943a58b5dfacc56
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850293"
 ---
 # <a name="meeting-policy-settings---general"></a>会议策略设置 - 常规
 
@@ -43,7 +43,7 @@ ms.locfileid: "54293289"
 
 ## <a name="allow-meet-now-in-channels"></a>允许在频道中立即开会
 
-这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在频道中启动Teams会议。 如果启用此功能，用户可以单击"会议"按钮以在频道中启动临时会议或安排会议。 默认值为 True。
+这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在频道中启动临时Teams会议。 如果启用此功能，用户可以单击"会议"按钮以在频道中启动临时会议或安排会议。 默认值为 True。
 
 [![显示消息下方的"现在开会"图标的屏幕截图 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -53,7 +53,7 @@ ms.locfileid: "54293289"
 
 ![截图显示了安排新会议的能力](media/meeting-policies-outlook-add-in.png)
 
-如果关闭此功能，用户在 Teams中创建新会议时无法安排Outlook。 例如，在 Windows 上的 Outlook 中，**“新 Teams 会议”** 选项不会显示在功能区中。
+如果将其关闭，则当用户在 Outlook 中创建新会议时，无法安排Teams会议。 例如，在 Windows 上的 Outlook 中，**“新 Teams 会议”** 选项不会显示在功能区中。
 
 ## <a name="allow-channel-meeting-scheduling"></a>允许安排频道会议
 
@@ -90,13 +90,13 @@ ms.locfileid: "54293289"
 
 频道日历应用将显示在应用权限策略页面的 **Microsoft 应用** 部分。
 
-![显示管理中心内应用权限Teams屏幕截图。](media/manage-microsoft-apps-policy.png)
+![显示管理中心内应用权限Teams的屏幕截图。](media/manage-microsoft-apps-policy.png)
 
 ## <a name="allow-scheduling-private-meetings"></a>允许安排私人会议
 
 这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在 Teams 中安排私人会议。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
 
-请注意，如果 **关闭"允许** 安排私人会议"和"**允许** 频道会议安排"，则"添加必需的与会者"和"添加频道"选项将禁用Teams。 默认情况下，此设置已启动。
+请注意，如果 **关闭"允许** 安排私人会议"和"允许频道会议安排"，则"添加必需的与会者"和"添加频道"选项将禁用Teams。  默认情况下，此设置已启动。
 
 ## <a name="allow-meet-now-in-private-meetings"></a>允许在私人会议中立即开会
 
@@ -124,9 +124,9 @@ ms.locfileid: "54293289"
 
 目前，只能使用 PowerShell 来配置此策略设置。 可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
 
-若要启用会议组织者下载会议出席报告，请将 **AllowEngagementReport** 参数设置为 **已启用**。 启用后，下载报告的选项会显示在 **“参与者”** 窗格中。
+若要使会议组织者能够下载会议出席情况报告，将 **AllowEngagementReport** 参数设置为"已启用 **"。** 启用后，下载报告的选项会显示在 **“参与者”** 窗格中。 默认情况下，此设置已启用。
 
-若要防止会议组织者下载报告，请将该参数设置为 **禁用**。 默认情况下，该设置是禁用的，并且下载报告的选项不可用。
+若要防止会议组织者下载报告，请将该参数设置为 **禁用**。
 
 ## <a name="meeting-provider-for-islands-mode"></a>群岛模式的会议提供商
 

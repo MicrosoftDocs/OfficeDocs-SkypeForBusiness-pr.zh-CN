@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512809"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314318"
 ---
 # <a name="document-my-success-plan"></a>记录成功计划
 
@@ -52,7 +52,7 @@ ms.locfileid: "44512809"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定Teams组织的部署执行模型。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录Teams部署执行模型，并包括业务和技术理由。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录Teams部署执行模型，并包括业务和技术理由。</li></ul></td></tr></table>
 
 ## <a name="raci-modeling"></a>RACI 建模
 
@@ -76,7 +76,7 @@ ms.locfileid: "44512809"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定与云语音实现项目相关的活动/角色。</li><li>根据云语音实施项目的 RACI 矩阵 (决定要分配到) 或人员。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录 RACI 矩阵。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录 RACI 矩阵。</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>季度执行计划
 
@@ -101,14 +101,14 @@ ms.locfileid: "44512809"
 <table>
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定季度执行计划，以实现目标关键结果 (OKR) 。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录季度执行计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录季度执行计划。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
 ## <a name="communications-and-governance-plan"></a>通信和治理计划
 
-若要使项目利益干系人随时了解部署进度，需要制定一个计划，规定核心项目工作组成员与利益干系人之间如何沟通，以根据既定的 KSIS、运营指标和业务目标讨论与项目状态、关键里程碑、阻止程序和各种项目评审相关的事项。
+若要使项目利益干系人随时了解部署进度，需要制定一个计划，规定核心项目工作组成员与利益干系人之间如何通信，以讨论与项目状态、关键里程碑、阻止程序以及针对已建立的 KSIS 对项目进行的各种评审相关的事项， 运营指标和业务目标。
 
 下面是可以在云语音实现项目中利用的通信和管理计划的示例。
 
@@ -124,7 +124,7 @@ ms.locfileid: "44512809"
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定通信和管理计划，包括日常状态更新的频率 (每日、每周、每月或每季度) 、用于召开状态更新会议的方法以及每个会议的所有者。</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录通信和治理计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录通信和治理计划。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -133,7 +133,7 @@ ms.locfileid: "44512809"
 
 成功计划是在"构想"阶段创建的文档摘要。
 
-成功计划为项目团队（可能包括 FastTrack 或部署合作伙伴）提供足够的信息，以实现组织实现音频会议或电话系统呼叫计划服务的目标。
+成功计划为项目团队（包括 FastTrack 或部署合作伙伴）提供足够的信息，以实现组织实现音频会议或电话系统呼叫计划服务的目标。
 
 一般而言，成功计划包含以下主要部分，其中许多部分将在"构想"阶段完成：
 
@@ -184,7 +184,7 @@ ms.locfileid: "44512809"
 <table>
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>决定如何记录传送云语音工作负荷的整个成功计划。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>确认成功计划的所有组件已记录。</li><li>将成功计划的单个组件聚合到单个摘要文档中， (可选) 。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>确认成功计划的所有组件已记录。</li><li>将成功计划的单个组件聚合到单个摘要文档中， (可选) 。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

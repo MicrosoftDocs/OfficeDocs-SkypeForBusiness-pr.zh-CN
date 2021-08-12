@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 了解如何在 CQD 仪表板的呼叫质量仪表板中创建可用于上传租户和 (建筑物) 。
-ms.openlocfilehash: 890e5e9b394cf8b600e635014c90ebb9053a1e07
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fbe033511ad0c717dd79bb5d0bb5b480037175abaa9ce7e5dd40aee334094fff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584031"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314288"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>为 CQD 呼叫质量仪表板创建 (地图) 
 

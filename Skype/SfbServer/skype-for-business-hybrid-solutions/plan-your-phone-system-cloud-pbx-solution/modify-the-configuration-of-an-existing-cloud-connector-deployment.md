@@ -15,20 +15,20 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
-description: 按照本主题中的步骤修改现有 Skype for Business 云连接器版本 1.4.1 或更高版本部署的配置。
-ms.openlocfilehash: 7fdfdd5ac5a76ebbc3ac58e12a69e2e3af1330cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 按照本主题中的步骤修改现有部署Skype for Business 云连接器版本 1.4.1 或更高版本部署。
+ms.openlocfilehash: 151408d48f7623d72d5af4f8fef605d9dcc7d690a915cc7e8454a91f051dd0f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324181"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改现有云连接器部署的配置
 
 > [!Important]
-> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](/MicrosoftTeams/direct-routing-landing-page)
+> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话Teams[连接到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
 
-按照本主题中的步骤修改现有 Skype for Business 云连接器版本 1.4.1 或更高版本部署的配置。 
+按照本主题中的步骤修改现有部署Skype for Business 云连接器版本 1.4.1 或更高版本部署。 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>修改单个网站的配置
 <a name="BKMK_SIngleSite"> </a>
@@ -61,7 +61,7 @@ ms.locfileid: "51109168"
    Register-CcAppliance
    ```
 
-6. 运行以下 cmdlet 以安装 Skype for Business 云连接器版本：
+6. 运行以下 cmdlet 以安装Skype for Business 云连接器版本：
     
    ```powershell
    Install-CcAppliance
@@ -112,12 +112,12 @@ ms.locfileid: "51109168"
 
 若要修改部署中多个站点的配置，请按照单个站点的步骤操作，一次更新一个站点。
   
-## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>修改 Microsoft 365 或 Office 365 组织的配置以启用自动更新
+## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>修改组织或组织Microsoft 365 Office 365以启用自动更新
 <a name="BKMK_MultipleSites"> </a>
 
 若要启用操作系统自动更新和 Bits 自动更新，必须使用 Skype for Business 租户管理员帐户进行联机管理，并使用租户远程 PowerShell，如下所示。
   
-如果禁用操作系统自动更新或 Bits 自动更新，主机和虚拟机可能会错过重要的 Windows 更新，并且云连接器不会自动升级到新版本。 强烈建议您启用自动更新。
+如果禁用操作系统自动更新或 Bits 自动更新，主机和虚拟机可能会错过重要的 Windows 更新，云连接器不会自动升级到新版本。 强烈建议您启用自动更新。
   
 1. 网站的 EnableAutoUpdate 属性需要设置为 true， (默认值) 。 运行以下 cmdlet 以确保 EnableAutoUpdate 设置为 true：
     
@@ -164,7 +164,7 @@ ms.locfileid: "51109168"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>更新专用租户管理员凭据
 <a name="BKMK_MultipleSites"> </a>
 
-云连接器的 Microsoft 365 或 Office 365 组织的管理更改通过具有所需权限的帐户进行。 在 2.0 以前的云连接器版本中，该帐户是专用全局租户管理员帐户。 在云连接器 2.0 版及更高版本中，该帐户可以是具有 Skype for Business 管理员权限的 Microsoft 365 或 Office 365 帐户。
+云连接器Microsoft 365组织或 Office 365 中的管理更改是由具有所需权限的帐户进行。 在 2.0 以前的云连接器版本中，该帐户是专用全局租户管理员帐户。 在云连接器 2.0 版及更高版本中，该帐户可以是具有 Microsoft 365 或 Office 365 管理员权限Skype for Business帐户。
   
 如果你的管理员帐户凭据在 Microsoft 365 或 Office 365 中更改，则还需要更新云连接器中本地缓存的凭据，只需在已部署的每个云连接器设备上运行以下管理员 PowerShell 命令：
   
@@ -178,7 +178,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本部分适用于云连接器 2.0 版和更高版本。 
   
-所有云连接器凭据都存储在以下文件中："%SystemDrive%\Programdata\Cloudconnector\credentials." \<CurrentUser\>xml"。 当主机服务器上密码更改时，您需要更新本地存储的凭据。
+所有云连接器凭据都存储在以下文件中："%SystemDrive%\Programdata\Cloudconnector\credentials"。 \<CurrentUser\>.xml"。 当主机服务器上密码更改时，您需要更新本地存储的凭据。
   
 若要更新云连接器设备本地存储的凭据，请使用 [Get-CcCredential](get-cccredential.md) 和 [Set-CcCredential](set-cccredential.md) cmdlet 并按照以下步骤操作：
   
@@ -194,7 +194,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. 重新启动主机服务器。
     
-4. 删除以下文件："%SystemDrive%\Programdata\Cloudconnector\credentials." \<CurrentUser\>xml"。
+4. 删除以下文件："%SystemDrive%\Programdata\Cloudconnector\credentials"。 \<CurrentUser\>.xml"。
     
 5. 以管理员角色启动 PowerShell 控制台，然后运行"Register-CcAppliance -Local"，按照说明重新输入密码。 请务必输入之前为云连接器部署输入的相同密码。
     
@@ -218,13 +218,13 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 此部分适用于云连接器版本 2.0.1 及更高版本。 
   
-云连接器服务运行云连接器管理服务。 CceService 帐户在云连接器版本部署期间创建，并存储在以下文件中："%SystemDrive%\Programdata\Cloudconnector\credentials." \<CurrentUser\>xml"和"%SystemDrive%\Programdata\Cloudconnector\credentials..CceService.xml"。
+云连接器服务运行云连接器管理服务。 CceService 帐户在云连接器版本部署期间创建，并存储在以下文件中："%SystemDrive%\Programdata\Cloudconnector\credentials"。 \<CurrentUser\>.xml"和"%SystemDrive%\Programdata\Cloudconnector\credentials..CceService.xml"。
   
-为了确保所有设备都可以访问站点目录共享，在站点内部署的所有设备上，CceService 帐户的密码必须相同。 请注意下列事项：
+为了确保所有设备都可以访问站点目录共享，在站点内部署的所有设备上，CceService 帐户的密码必须相同。 请注意以下几点：
   
 - 默认情况下，CceService 帐户配置为"密码永不过期"。 更新密码时，Microsoft 建议保留此配置。
     
-- 你应该在非高峰使用时段以及位或 Windows 更新的自动更新时间窗口之外更新密码。 更新密码时，设备需要排出并重启，这需要花费一些时间。 重新启动设备将中断自动更新操作。 
+- 您应在非高峰使用时段和自动更新时间窗口之外更新密码，以更新位或Windows更新。 更新密码时，设备需要排出并重启，这需要花费一些时间。 重新启动设备将中断自动更新操作。 
     
 - 更改 CceService 帐户密码时，将需要指定所有凭据，并在本地存储的文件中更新它们。 
     
@@ -285,7 +285,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 若要将新的 SIP 域 (或多个 SIP) 添加到现有云连接器部署中，请执行下列操作：
   
-1. 请确保你已完成在 Microsoft 365 或 Office 365 中更新域的步骤，并且能够添加 DNS 记录。 若要详细了解如何在 Microsoft 365 或 Office 365 中设置域，请参阅将域添加到[Microsoft 365 或 Office 365。](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
+1. 请确保已完成在域中更新域Microsoft 365 Office 365并能够添加 DNS 记录。 若要详细了解如何在 Microsoft 365 或 Office 365 中Microsoft 365域，请参阅将域Microsoft 365[或Office 365。](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
     
 2. 使用新的 SIP 域更新云连接器配置文件。
     
@@ -306,7 +306,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 如果需要更改云连接器部署中的主 SIP 域，请执行下列操作：
   
-1. 请确保你已完成在 Microsoft 365 或 Office 365 中更新域的步骤，并且能够添加 DNS 记录。 若要详细了解如何在 Microsoft 365 或 Office 365 中设置域，请参阅将域添加到[Microsoft 365 或 Office 365。](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
+1. 请确保已完成在域中更新域Microsoft 365 Office 365并能够添加 DNS 记录。 若要详细了解如何在 Microsoft 365 或 Office 365 中Microsoft 365域，请参阅将域Microsoft 365[或Office 365。](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
     
 2. 使用新的 SIP 域更新云连接器配置文件。
     
@@ -328,7 +328,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 6. 
     
-    在 Skype for Business Online PowerShell 中运行以下 cmdlet，删除每个站点的站点注册：
+    在 Skype for Business Online PowerShell 中运行以下 cmdlet，删除每个站点的网站注册：
     
    ```powershell
    Remove-CsHybridPSTNSite

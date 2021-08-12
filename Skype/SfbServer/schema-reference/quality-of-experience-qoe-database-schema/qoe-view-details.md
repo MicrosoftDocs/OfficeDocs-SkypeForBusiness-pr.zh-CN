@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
-description: 视图涉及有关从 QoE SQL 数据库返回数据的最常见方案。 建议使用用于生成自定义报表的视图，而不是直接访问数据库表;这是因为视图更有可能保持与将来版本的向后兼容性。
-ms.openlocfilehash: cabe483da624d801b9b87d51ba61caed7a22f7d4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 视图涉及有关从 QoE SQL 数据库返回数据的最常见方案。 建议将视图用于生成自定义报表，而不是直接访问数据库表;这是因为视图更有可能保持与未来版本的向后兼容性。
+ms.openlocfilehash: f8d6536522a04623f150ab03ba448af8c55bd401adc8e4484ac47d1cf48ccffa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347717"
 ---
 # <a name="qoe-view-details"></a>QoE 视图列表
  
-视图涉及有关从 QoE SQL 数据库返回数据的最常见方案。 建议使用用于生成自定义报表的视图，而不是直接访问数据库表;这是因为视图更有可能保持与将来版本的向后兼容性。
+视图涉及有关从 QoE SQL 数据库返回数据的最常见方案。 建议将视图用于生成自定义报表，而不是直接访问数据库表;这是因为视图更有可能保持与未来版本的向后兼容性。
   
 |**视图名称**|**说明**|
 |:-----|:-----|

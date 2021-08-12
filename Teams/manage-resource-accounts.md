@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 本文将了解如何在 Microsoft Teams 中创建、编辑和管理资源帐户。
-ms.openlocfilehash: 21824c360e26e568ae47a9729960fca01a100ae8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd366e59e99b41386d4f5e7a9373401ca67381cf0cf08f44dae1763e401dff53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094242"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324102"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -47,7 +47,7 @@ ms.locfileid: "51094242"
 
 本文稍后将介绍如何将许可证分配给资源帐户。
 
-若要获取虚拟用户许可证，在 Microsoft 365 管理中心，转到"计费购买服务"附加订阅并滚动到末尾 - 会看到"电话系统  >    >  *- 虚拟用户* 许可证"。 选择"**立即购买"。** 成本为零，但仍需要按照以下步骤获取许可证。
+若要获取虚拟用户许可证，Microsoft 365 管理中心"帐单购买服务"附加订阅并滚动到末尾 - 会看到"电话系统  >    >  *- 虚拟用户* 许可证"。 选择"**立即购买"。** 成本为零，但仍需要按照以下步骤获取许可证。
 
 ### <a name="obtain-service-numbers"></a>获取服务编号
 
@@ -79,13 +79,13 @@ ms.locfileid: "51094242"
 
 对于每个资源帐户，必须分配一个Microsoft 365 电话系统 *- 虚拟用户* 许可证或 *电话系统* 许可证。
 
-![在管理中心内分配许可证Microsoft 365屏幕截图](media/resource-account-assign-virtual-user-license.png)
+!["许可证分配"用户界面的屏幕截图Microsoft 365 管理中心](media/resource-account-assign-virtual-user-license.png)
 
-1. 在Microsoft 365管理中心，单击要为其分配许可证的资源帐户。
+1. 在Microsoft 365 管理中心，单击要为其分配许可证的资源帐户。
 
 2. 在"**许可证和应用"选项卡上的**"许可证 **"下**，选择 **"Microsoft 365 电话系统 - 虚拟用户"。**
 
-3. 单击"**保存更改"。**
+3. 单击 **保存更改**。
 
 ## <a name="assign-a-service-number"></a>分配服务编号
 
@@ -106,7 +106,7 @@ ms.locfileid: "51094242"
 
 `Set-CsOnlineApplicationInstance -Identity aa-contoso_main@contoso64.net -OnpremPhoneNumber +19295550150`
 
-## <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>下一步
 
 完成资源帐户设置并根据需要分配服务号码后，即可将资源帐户与自动助理或呼叫队列一同使用。
 
@@ -120,7 +120,7 @@ ms.locfileid: "51094242"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>将现有资源帐户更改为使用虚拟用户许可证
 
-如果决定将现有资源帐户上的许可证从 **电话系统** 许可证切换到虚拟用户许可证，则需要获取免费的虚拟用户许可证，然后按照 Microsoft 365 管理中心中的步骤将用户移到其他 [订阅。](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+如果决定将现有资源帐户上的许可证从 **电话系统** 许可证切换到虚拟用户许可证，则需要获取免费的虚拟用户许可证，然后按照 Microsoft 365 管理中心 中的步骤将用户移到其他 [订阅。](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > 始终删除完整的电话系统许可证，并在同一许可证活动中分配虚拟用户许可证。 如果删除旧许可证，请保存帐户更改，添加新许可证，然后再次保存帐户设置，资源帐户可能不再正常运行。 如果发生这种情况，建议为虚拟用户许可证创建新的资源帐户，并删除损坏的资源帐户。
@@ -150,7 +150,7 @@ ms.locfileid: "51094242"
 
 在删除电话号码之前，请确保从资源帐户取消关联电话号码，以避免服务号码停滞在挂起模式。
 
-执行该操作后，可以在管理中心的"Microsoft 365"选项卡下删除资源帐户。
+执行该操作后，可以在"用户"选项卡下Microsoft 365 管理中心资源帐户。
 
 若要取消关联资源帐户的直接路由电话号码，请使用以下 cmdlet：
 

@@ -18,12 +18,12 @@ description: 了解向用户和组中用户和组分配策略Microsoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: ce10ead528e2e5615d23bd784131ed04416f1349
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 3b53c887536a3bd033b6c1feaeabae58a609f90e8ecbb0a7197de851173f46cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314148"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>将策略分配给用户和组
 
@@ -60,7 +60,7 @@ ms.locfileid: "52856311"
  下载并安装[Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (（如果尚未安装) ，然后运行以下代码进行连接。
 
 > [!NOTE]
-> Skype for Business联机连接器当前是 PowerShell 模块Teams的一部分。
+> Skype for Business Online 连接器目前是最新 Teams PowerShell 模块的一部分。
 >
 > 如果使用的是[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams最新版本，则无需安装 Skype for Business Online 连接器。
 

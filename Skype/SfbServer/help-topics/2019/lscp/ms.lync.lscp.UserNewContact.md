@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 21271d2659d9cffa0ebbc25b036c3d8d512fa504
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: eea59ef42d30a22e2f976883f3fe72325ef878d0dde9d9042f06b106ac65cfd2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313660"
 ---
 # <a name="users-new-contact-objects"></a>用户：新建联系人对象
 
@@ -32,7 +32,7 @@ ms.locfileid: "51120051"
 
 - [指定用户登录支持的客户端版本](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [在 Skype for Business Server 中分配每用户 PIN 策略](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [在策略中分配每用户 PIN Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [为用户配置联盟、远程用户访问和公共 IM 连接](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -40,7 +40,7 @@ ms.locfileid: "51120051"
 
 - [向用户分配位置策略](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [在 Skype for Business Server 企业语音用户进行登录](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [为用户启用企业语音Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [为用户配置联盟、远程用户访问和公共 IM 连接](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

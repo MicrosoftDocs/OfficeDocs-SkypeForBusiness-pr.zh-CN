@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: None
 description: 了解云语音邮件。
-ms.openlocfilehash: ffee6d4dbde77c33acb24dfb969df40fed3e5c91
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b58b0c8ef06f8c7c172172e7c1b53b20575d43d0c269f647913e7cb910f78ce0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295809"
 ---
 # <a name="license-options-based-on-your-plan"></a>基于计划的许可证选项
 

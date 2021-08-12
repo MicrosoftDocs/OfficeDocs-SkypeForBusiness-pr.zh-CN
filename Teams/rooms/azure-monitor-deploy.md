@@ -15,18 +15,18 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何使用 Azure Monitor 以Microsoft Teams 会议室的端到端方式部署设备管理。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6fe149f2d2cb0e6e68ad50c0c9cf1d2328439ff8dc0f43f56646e8a0152da7b8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850307"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
 
 本文讨论如何使用 设置和部署集成的端到端 :::no-loc text="Microsoft Teams Rooms"::: 设备管理 :::no-loc text="Azure Monitor"::: 。
 
-可在 内 :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: 进行配置，提供有助于管理会议室设备的基本遥测和 :::no-loc text="Microsoft Teams Rooms"::: 警报。 随着管理解决方案的成熟，可以决定部署其他数据和管理功能，以创建设备可用性和性能的更详细视图。
+可以在 内 :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: 进行配置，提供有助于管理会议室设备 :::no-loc text="Microsoft Teams Rooms"::: 的基本遥测和警报。 随着管理解决方案的成熟，可以决定部署其他数据和管理功能，以创建设备可用性和性能的更详细视图。
 
 遵循本指南，可以使用如以下示例所示的仪表板获取有关设备可用性、应用程序和硬件运行状况以及应用程序和操作系统版本分发 :::no-loc text="Microsoft Teams Rooms"::: 的详细状态报告。
 
@@ -55,7 +55,7 @@ ms.locfileid: "54312680"
 如果需要创建新工作区，请按照在门户中创建工作区 :::no-loc text="Log Analytics"::: [一文 :::no-loc text="Log Analytics"::: 的说明 :::no-loc text="Azure"::: 进行操作](/azure/azure-monitor/learn/quick-create-workspace)
 
 > [!NOTE]
-> 若要 :::no-loc text="Log Analytics"::: 与 :::no-loc text="Azure Monitor"::: 一同使用，需要具有活动 :::no-loc text="Azure"::: 订阅。 如果没有订阅，可以创建免费 :::no-loc text="Azure"::: [试用版](https://azure.microsoft.com/free) 订阅作为起点。
+> 若要 :::no-loc text="Log Analytics"::: 与 :::no-loc text="Azure Monitor"::: 一同使用，需要具有活动 :::no-loc text="Azure"::: 订阅。 如果没有订阅，可以创建免费试用订阅 :::no-loc text="Azure"::: 作为起点。 [](https://azure.microsoft.com/free)
 
 ### <a name="configure-no-loc-textlog-analytics-to-collect-no-loc-textmicrosoft-teams-rooms-event-logs"></a>配置为 :::no-loc text="Log Analytics"::: 收集 :::no-loc text="Microsoft Teams Rooms"::: 事件日志
 
@@ -81,7 +81,7 @@ ms.locfileid: "54312680"
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>生成 :::no-loc text="Microsoft Teams Rooms"::: 示例事件
 
-将 :::no-loc text="Microsoft Monitoring"::: 代理部署到测试设备后，验证 所需的事件日志数据是否由 收集 :::no-loc text="Azure Monitor"::: 。
+将 :::no-loc text="Microsoft Monitoring"::: 代理部署到测试设备后，验证所需的事件日志数据是否由 收集 :::no-loc text="Azure Monitor"::: 。
 
 > [!NOTE]
 > 安装代理后重新启动设备，并确保会议应用已启动，以便它可以在事件日志中生成 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 新事件。
@@ -156,12 +156,12 @@ ms.locfileid: "54312680"
 ## <a name="define-the-no-loc-textmicrosoft-teams-rooms-views-in-no-loc-textlog-analytics"></a>在 :::no-loc text="Microsoft Teams Rooms"::: 中定义视图 :::no-loc text="Log Analytics":::
 <a name="Define_Views"> </a>
 
-收集数据并映射自定义字段后，可以使用视图设计器开发包含各种磁贴的仪表板来监视 :::no-loc text="Microsoft Teams Rooms"::: 事件。 使用视图设计器创建以下磁贴。 有关详细信息，请参阅中的[使用视图设计器创建自定义视图 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/view-designer)
+收集数据并映射自定义字段后，可以使用视图设计器开发包含各种磁贴的仪表板来监视 :::no-loc text="Microsoft Teams Rooms"::: 事件。 使用视图设计器创建以下磁贴。 有关详细信息，请参阅在[中使用视图设计器创建自定义视图 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/view-designer)
 
 > [!NOTE]
 > 本指南中的先前步骤应已完成，仪表板磁贴应能正常工作。
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>使用导入Microsoft Teams 会议室创建一个仪表板
+### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>使用Microsoft Teams 会议室创建仪表板
 
 可以导入 :::no-loc text="Microsoft Teams Rooms"::: 仪表板并开始快速监视设备。 执行以下步骤导入仪表板：
 
@@ -214,7 +214,7 @@ ms.locfileid: "54312680"
     **组标题：** 留空<br>
     **新建组：** 未选中
 3.  定义 **磁贴** 属性：<br>
-    **图例：** 非活动设备 (最近 20 分钟内未发送任何检测信号) <br>
+    **图例：** 非活动 (过去 20 分钟内未发送任何检测信号) <br>
     **图块查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定义 **列表** 属性：<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
@@ -372,7 +372,7 @@ ms.locfileid: "54312680"
 
 6. 配置评估设置，然后选择"完成 **"：** <br>
     **时间段 (分钟) ：60**<br>
-    **频率 (分钟) ：60**<br>
+    **频率 (分钟数) ：60**<br>
 
 7. 配置操作组：
     1.  选择 **"新建"**
@@ -396,13 +396,13 @@ ms.locfileid: "54312680"
 
 重复相同的过程，但使用以下查询列出过去一小时内遇到应用程序问题的设备。
 
-    ```
-    Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
-    | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
-    | sort by TimeGenerated desc
-    ```
+ ```
+ Event
+ | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
+ | summarize arg_max(TimeGenerated, *) by Computer
+ | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+ | sort by TimeGenerated desc
+ ```
 
 现已完成警报定义。 可以使用上述示例定义其他警报。
 
@@ -432,13 +432,13 @@ ms.locfileid: "54312680"
 4.  创建新的组策略对象，并将其分配给计算机帐户 :::no-loc text="Microsoft Teams Rooms"::: 所在的组织单位。
 
 5.  配置 PowerShell 执行策略：
-    1.  编辑新建的组策略对象并导航到"计算机配置 \\ 策略 \\ ""管理模板组件 \\ :::no-loc text="Windows"::: " \\:::no-loc text="Windows PowerShell":::
+    1.  编辑新建的组策略对象，并导航到"计算机配置 \\ 策略 \\ ""管理模板组件 \\ :::no-loc text="Windows"::: " \\:::no-loc text="Windows PowerShell":::
     2.  启用"**启用脚本执行"，将****"执行策略"设置为****"允许本地脚本"。**
 
 6.  配置启动脚本：
     1.  复制以下脚本并将其另存为Install-MMAgent.ps1。
     2.  修改 WorkspaceId、WorkspaceKey 和 SetupPath 参数，以匹配配置。
-    3.  编辑同一组策略对象，导航到"计算机配置策略"设置 \\ \\ :::no-loc text="Windows"::: \\ 脚本 (启动/关闭) 
+    3.  编辑同一组策略对象，导航到"计算机配置策略 \\ \\ :::no-loc text="Windows"::: "设置 \\ 脚本 (启动/关闭) 
     4.  双击选择"启动 **"，** 然后选择 **"PowerShell 脚本"。**
     5.  选择 **"显示** 文件"， **然后将Install-MMAgent.ps1文件** 复制到该文件夹。
     6.  选择 **"添加"，** 然后选择"**浏览"。**

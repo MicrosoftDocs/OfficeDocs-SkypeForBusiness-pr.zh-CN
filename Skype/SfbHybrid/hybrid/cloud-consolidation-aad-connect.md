@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 此附录包括有关更新 AAD 连接以将多个林作为云整合的一部分以用于Teams Skype for Business。
-ms.openlocfilehash: 5ca5789ca50f24266ce5fccf16bcf06118e42742
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 885e37b2131d455cc4c114f99bb4a95e7aa4896f2d43b55b398e543dc3674e55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295929"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>将 AAD Connect 更新为包含多个林
 

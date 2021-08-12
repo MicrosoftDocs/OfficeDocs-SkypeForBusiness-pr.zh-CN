@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5514e550bb8ba259779f390b1a87d74dcb7e3e3f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 175b08fa5121d158ad89740cff096ba8bd1d34fa73e4c65027def7f031e5c349
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116870"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335864"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团体
 
@@ -35,14 +35,14 @@ ms.locfileid: "51116870"
 | 团队名称 | 建议的频道名称 |
 | --------- | ---------------------- |
 | 了解Teams | 常规</br> 打招呼</br> 如何？</br>反馈 </br> 将来团队的理念 </br> 支持 |
-| Microsoft Teams实现 | 常规 <br/> 认知和采用 <br/> Business Engagement <br/> 早期采用者计划 <br/> 反馈和见解 <br/> 安全性和符合性 <br/> 策略和规划 <br/> 服务运行状况和事件 <br/> 培训 <br/> Watercooler Chat |
+| Microsoft Teams实现 | 常规 <br/> 认知和采用 <br/> Business Engagement <br/> 早期采用者计划 <br/> 反馈Insights <br/> 安全性和符合性 <br/> 策略和规划 <br/> 服务运行状况和事件 <br/> 培训 <br/> Watercooler Chat |
 | Teamwork 冠军 | 常规 <br/> 最佳做法、培训和操作方法 <br/> 冠军角 <br/> 反馈和支持 <br/> 计划潜在顾客 <br/> 社交中心 |
 
 在Microsoft Teams中，选项卡库可[](/microsoftteams/platform/concepts/tabs/tabs-overview)让你访问管理员Microsoft 365 Office 365启用的所有应用或第三方应用。 为了从产品获得最大价值，我们建议在每个相应的频道中将关键资源固定为选项卡。 请参阅以下示例。
 
 ![显示默认和自定义选项卡的屏幕截图](media/teams-adoption-tab-example.png)
 
-在初始团队中，我们建议固定以下项目，方便在团队频道中参考。 这些资产是笔记本分区OneNote资源。 如果你正在与 FastTrack 团队协作，他们将帮助你配置这些第一个团队。 
+在初始团队中，我们建议固定以下项目，方便在团队频道中参考。 这些资产是笔记本分区OneNote资源。 如果你正在与我们的团队FastTrack，他们将帮助你配置这些第一个团队。 
 
 |团队/频道名称 | 固定选项卡 |
 |----------------- | ---------- |

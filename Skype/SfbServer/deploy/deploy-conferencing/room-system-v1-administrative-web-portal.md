@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中部署 SRS v1 管理 Web 门户
+title: 在部署 SRS v1 管理 Web 门户Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
-description: Skype for Business Server Skype 会议室系统 v1 (SRS v1（以前称为 Lync Room System) 管理 Web 门户）是一个 Web 门户，组织可以使用该门户维护其 Skype 会议室系统会议室。 管理员可以使用 SRS v1 管理 Web 门户监视设备运行状况，例如通过监视音频/视频设备。 通过此门户，管理员可以远程收集诊断信息来监视会议室运行状况。
-ms.openlocfilehash: 94e163ccbeff3bde78569aa864b44525b267ccd8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server Skype Room Systems v1 (SRS v1（以前称为 Lync Room System) Administrative Web Portal）是一个 Web 门户，组织可以使用它来维护其 Skype Room Systems 会议室。 管理员可以使用 SRS v1 管理 Web 门户监视设备运行状况，例如通过监视音频/视频设备。 通过此门户，管理员可以远程收集诊断信息来监视会议室运行状况。
+ms.openlocfilehash: c2b576eb79f91c72fdd3f19cad1265c79fd559abf52a97d80ea34a2688263c6e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313730"
 ---
-# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在 Skype for Business Server 中部署 SRS v1 管理 Web 门户
+# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在部署 SRS v1 管理 Web 门户Skype for Business Server
 
-Skype for Business Server Skype 会议室系统 v1 (SRS v1（以前称为 Lync Room System) 管理 Web 门户）是一个 Web 门户，组织可以使用该门户维护其 Skype 会议室系统会议室。 管理员可以使用 SRS v1 管理 Web 门户监视设备运行状况，例如通过监视音频/视频设备。 通过此门户，管理员可以远程收集诊断信息来监视会议室运行状况。
+Skype for Business Server Skype Room Systems v1 (SRS v1（以前称为 Lync Room System) Administrative Web Portal）是一个 Web 门户，组织可以使用它来维护其 Skype Room Systems 会议室。 管理员可以使用 SRS v1 管理 Web 门户监视设备运行状况，例如通过监视音频/视频设备。 通过此门户，管理员可以远程收集诊断信息来监视会议室运行状况。
 
-若要使用此功能，需要在每个 Skype for Business Server 前端服务器上部署 SRS v1 管理 Web 门户。 本指南为管理员提供了有关如何安装和配置 SRS 管理 Web 门户的说明。 它适用于了解 Skype for Business Server 管理并且具有修改 Skype for Business Server 拓扑的管理员用户权限的管理员。
+若要使用此功能，需要将 SRS v1 管理 Web 门户部署在前端Skype for Business Server服务器上。 本指南为管理员提供了有关如何安装和配置 SRS 管理 Web 门户的说明。 它适用于具有管理知识且具有管理员用户Skype for Business Server修改拓扑的管理员Skype for Business Server管理员。
 
 在服务器上部署 SRS v1 管理 Web 门户后，管理员可以通过从自己的计算机或笔记本电脑登录到网站来检查 SRS v1 设备的状态。
 
 > [!IMPORTANT]
-> 下载 [适用于 Skype for Business Server 2015 的 Microsoft Skype 会议室系统 v1](https://www.microsoft.com/download/details.aspx?id=46906)管理 Web 门户。
+> 下载[Microsoft Skype Room Systems v1 Administrative Web Portal for Skype for Business Server 2015。](https://www.microsoft.com/download/details.aspx?id=46906)
 
 本主题内容：
 
@@ -47,13 +47,13 @@ Skype for Business Server Skype 会议室系统 v1 (SRS v1（以前称为 Lync R
 > [!IMPORTANT]
 > 如果服务器同时配置了 Kerberos 和 NTLM 身份验证，并且 SRS 正在未加入域的计算机上运行，则 Kerberos 身份验证将失败，并且用户将不会在管理门户中看到 SRS 的状态。 若要解决此问题，请配置具有 NTLM 身份验证的服务器或同时使用 NTLM 和 TLS-DSK 身份验证 (而无需 Kerberos) ，或者将 SRS 计算机加入域。
 
-1. 在 Skype for Business Server 拓扑中安装 Skype for Business Server 累积更新。
+1. 在Skype for Business Server拓扑中安装Skype for Business Server累积更新。
 
-    若要获取更新或查看其中包含的信息，请参阅[Updates for Skype for Business Server 2015。](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
+    若要获取更新或查看它中包含的内容，请参阅 updates [for Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)。
 
 2. 创建启用 SIP 的 Active Directory 用户。
 
-    SRS v1 管理 Web 门户使用这些凭据从 Skype for Business Server 查询信息。 给定示例中的用户名是 LRSApp。
+    SRS v1 管理 Web 门户使用这些凭据从网站Skype for Business Server。 给定示例中的用户名是 LRSApp。
 
 3. 创建名称为 LRSSupportAdminGroup 的 Active Directory 安全组。
 
@@ -61,13 +61,13 @@ Skype for Business Server Skype 会议室系统 v1 (SRS v1（以前称为 Lync R
 
 4. 创建名称为 LRSFullAccessAdminGroup 的 Active Directory 安全组。
 
-    创建组作用域为全局组，将组类型作为安全组。添加到该组的启用 SIP 的用户有权使用单个 Skype 会议室上的所有管理门户功能。 若要包含对 Skype 会议室批量管理的支持，请参阅步骤 5。
+    创建组作用域为全局组，组类型为安全组。添加到该组的启用 SIP 的用户有权在单个聊天室使用所有管理门户Skype功能。 若要包含对聊天室的批量Skype支持，请参阅步骤 5。
 
      ![具有安全组角色的管理员组列表](../../media/LRS_LRSFullAccessAdminGroup.png)
 
 5. 创建名称为 LRSPowerUserAdminsGroup 的 Active Directory 安全组。
 
-    创建组作用域为全局组，组类型为安全组。 添加到此组的启用 SIP 的用户有权使用所有管理门户功能，包括批量管理 Skype for Business 会议室。
+    创建组作用域为全局组，组类型为安全组。 添加到此组的启用 SIP 的用户有权使用所有管理门户功能，包括聊天室Skype for Business管理。
 
 6. 将 LRSFullAccessAdminGroup 添加为 LRSSupportAdminGroup 的成员。
 
@@ -77,26 +77,26 @@ Skype for Business Server Skype 会议室系统 v1 (SRS v1（以前称为 Lync R
 
      ![LRSSupportAdminGroup 属性成员页](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
-8. 安装[ASP.NET SP1 Visual Studio 2010 Visual Web Developer 2010 SP1 的 MVC 4。](https://go.microsoft.com/fwlink/p/?LinkId=323967)
+8. 安装[ASP.NET 2010 SP1 Visual Studio Visual Web Developer 2010 SP1 的 MVC 4。](https://go.microsoft.com/fwlink/p/?LinkId=323967)
 
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>安装 SRS v1 管理 Web 门户
 <a name="Install_SRS"> </a>
 
-下载 [适用于 Skype for Business Server 2015 的 Microsoft Skype 会议室系统 v1](https://www.microsoft.com/download/details.aspx?id=46906)管理 Web 门户。
+下载[Microsoft Skype Room Systems v1 Administrative Web Portal for Skype for Business Server 2015。](https://www.microsoft.com/download/details.aspx?id=46906)
 
 若要安装 SRS v1 管理 Web 门户，请使用以下步骤。
 
-1. 在 Skype for Business Server 命令行管理程序 中运行以下 cmdlet 配置受信任应用程序端口：
+1. 通过运行命令行管理程序中的以下 cmdlet 配置受信任Skype for Business Server端口：
 
    ```powershell
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
-2. 若要安装会议室门户， **请** 下载MeetingRoomPortalInstaller.msi，然后以管理员角色运行它。
+2. 若要安装 会议室 门户，请 **MeetingRoomPortalInstaller.msi，然后** 以管理员角色运行它。
 
 3. 从Web.config打开文件：
 
-    %Program Files%\Skype for Business Server 2015\Web Components\Meeting Room Portal\Int\Handler\
+    %Program Files%\Skype for Business Server 2015\Web Components\会议室 Portal\Int\Handler\
 
 4. 在 Web.Config 文件中，将 PortalUserName 更改为在"为[SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)管理 Web 门户配置环境"部分下的步骤 2 中创建的用户名 (步骤中的推荐名称为 LRSApp) ：
 
@@ -155,7 +155,7 @@ Skype for Business Server Skype 会议室系统 v1 (SRS v1（以前称为 Lync R
 
 - **Tag** 管理员为会议室提供自定义名称。 可以通过单击会议室名称在门户中设置 Tag。
 
-- **运行状况** 聊天室的运行状况状态，派生自"会议室设置"页的"运行状况"部分下的"聚合运行状况"状态。
+- **运行状况** 聊天室的运行状况状态，派生自会议室的"聚合运行状况"状态，显示在"会议室运行状况"页的"运行状况"设置下。
 
 - **下一次会议** 安排下一次会议的日期和时间。
 
@@ -174,9 +174,9 @@ Skype for Business Server Skype 会议室系统 v1 (SRS v1（以前称为 Lync R
 
 #### <a name="settings"></a>设置
 
-在"设置"部分，可以设置会议室的密码、会议室标记和默认音量级别。 如果配置这些设置，则仅在重新启动 SRS 控制台后复制更改。 你将仅看到使用版本 15.12 及更高版本的 SRS 设备的系统更新设置。
+在设置部分中，你可以设置会议室的密码、会议室标记和默认音量级别。 如果配置这些设置，则仅在重新启动 SRS 控制台后复制更改。 你将仅看到使用版本 15.12 及更高版本的 SRS 设备的系统更新设置。
 
-![Lync 会议室系统管理门户聊天室设置](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Lync 会议室系统管理门户设置](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
 #### <a name="details"></a>详细信息
 
@@ -190,7 +190,7 @@ Skype for Business Server Skype 会议室系统 v1 (SRS v1（以前称为 Lync R
 
 #### <a name="health"></a>健康
 
-"运行状况"部分直观指示 Skype for Business Server 连接、音频设备、视频设备、恢复能力状态和屏幕设备的运行状况。
+"运行状况"部分直观指示连接、音频Skype for Business Server、视频设备、恢复能力状态和屏幕设备的运行状况。
 
 ![Lync 会议室系统管理门户聊天室运行状况](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 
@@ -217,9 +217,9 @@ SRS 聊天室的批量管理是专为高级 IT 管理员设计的一项功能，
 
 #### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>为什么我在管理 Web 门户中看不到 SRS v1？
 
-- 确保部署中具有 SRS 帐户，并且这些帐户是按照 SRS 管理 Web 门户部署建议创建的。 确保在 Skype for Business Server 中使用 Enable-CsMeetingRoom 而非 Enable-CsUser 预配 SRS 帐户。
+- 确保部署中具有 SRS 帐户，并且这些帐户是按照 SRS 管理 Web 门户部署建议创建的。 请确保使用 Enable-CsMeetingRoom（而不是 Enable-CsUser）预配 SRS Skype for Business Server。
 
-- 如果你已创建 SRS 帐户，但无法在管理 Web 门户中查看这些帐户，则使用 Skype for Business Server 日志记录工具收集服务器日志，同时选择 **MeetingPortal** 组件，然后将这些日志发送到 SRS 支持联系人。
+- 如果已创建 SRS 帐户，但无法在管理 Web 门户中查看这些帐户，请通过使用 Skype for Business Server 日志记录工具（选择 **MeetingPortal** 组件）收集服务器日志，然后将这些日志发送到 SRS 支持联系人。
 
 - 如果已创建 SRS 帐户，但无法在管理 Web 门户中查看这些帐户，则使用 Fiddler 收集客户端日志，然后从浏览器开发工具复制控制台日志，然后将它们发送给 SRS 支持联系人。 您还可以修改跟踪级别值Web.config获取更详细的日志。
 
@@ -246,6 +246,6 @@ SRS 聊天室的批量管理是专为高级 IT 管理员设计的一项功能，
 
 确保 LRSApp 用户帐户已启用 SIP，并且属于 LRSPowerUserAdminsGroup 安全组。
 
-#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>SRS v1 管理 Web 门户是否与 Microsoft Teams 会议室一起工作？
+#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>SRS v1 管理 Web 门户是否与 Microsoft Teams 会议室？
 
-不正确。
+否。

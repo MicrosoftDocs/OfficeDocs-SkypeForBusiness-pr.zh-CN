@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 详细了解云Microsoft Teams功能和将为组织做出部署决策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad80bbdaa5a51540d8444ca97fa72c087f2f1763
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 3b82b858e49040628cd53c06c03be4235b3fdac9fa674cd733bd84f6ba8816cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486122"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347497"
 ---
 # <a name="plan-your-teams-voice-solution"></a>规划Teams语音解决方案 
 

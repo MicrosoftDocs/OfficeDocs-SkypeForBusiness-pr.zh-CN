@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: Skype for Business Online 安全指南 <add description>
-ms.openlocfilehash: 5b99744b9b798f7748870f9155b48bff16ad2b24
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0100eaab0a06cdbc618f39bd02ae832dca71abd5ac0498143fd51e8da9ea0e3e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240438"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295939"
 ---
 # <a name="security-and-skype-for-business-online"></a>安全和 Skype for Business Online
 
@@ -79,11 +79,11 @@ SfBO 使用相互 TLS (MTLS) 在 Microsoft 365 或 Office 365 内与客户端之
 ### <a name="rtp-replay-attack"></a>RTP 重放攻击
 如果双方之间的有效媒体传输被截获并重新传输用于恶意目的，就会发生重放攻击。 SfBO 将 SRTP 和安全信号协议结合使用，该协议通过使接收方能够维护已接收 RTP 数据包的索引并将每个新数据包与索引中已列出的数据包进行比较，来保护传输免受重播攻击。
 
-### <a name="spim"></a>SPIM
+### <a name="spim"></a>Spim
 Spim 是主动提供的商业即时消息或状态订阅请求。虽然 Spim 本身并不会导致网络问题，但至少会有些烦人，占用资源和生产时间，而且可能会导致网络问题。例如，用户通过发送请求相互发送垃圾消息。用户可以相互阻止对方来防止出现这种情况，但对于联盟，如果建立了协作的 Spim 攻击，则很难防止出现这种情况，除非你禁用联盟伙伴关系。
 
 ### <a name="viruses-and-worms"></a>病毒与蠕虫
-病毒是旨在重现其他类似代码单位的代码单位。 病毒需要主机（如文件、电子邮件或程序）才能起作用。 和病毒一样，蠕虫是一种代码单元，它的代码旨在繁殖更多的类似代码单元，但与病毒不同的是，蠕虫不需要宿主。 病毒和蠕虫主要是在客户端之间传送文件期间或从其他用户发送 URL 时出现。 例如，如果你的计算机上存在某种病毒，则该病毒可使用你的身份代表你发送即时消息。 标准的客户端安全最佳实践（例如定期扫描病毒）可以缓解此问题。 
+病毒是一个代码单元，其目的是复制其他类似的代码单元。若要正常工作，病毒需要主机，如文件、电子邮件或程序。与病毒一样，蠕虫也是一个代码单元，它编码为复制其他类似的代码单元，但与病毒不同的是，蠕虫不需要主机。病毒和蠕虫主要在客户端之间文件传输期间或从其他用户发送 URL 时出现。例如，如果计算机上存在病毒，它可以使用你的身份并代表你发送即时消息。标准客户端安全最佳做法（例如定期扫描病毒）可以缓解此问题。 
 
 ## <a name="personally-identifiable-information"></a>个人身份信息
 SfBO 有可能通过可能链接到个人的公共网络披露信息。 这些信息类型具体可分为两大类：

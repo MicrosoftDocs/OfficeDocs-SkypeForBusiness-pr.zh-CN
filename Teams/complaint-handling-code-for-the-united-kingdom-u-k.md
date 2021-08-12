@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 针对英国 PSTN Skype呼叫服务 (提出投诉，) 答复时间线，以及解决未解决投诉的争议。
-ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780271"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347407"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>英国Microsoft 365的呼叫计划 - 英国 (投诉处理) 
 
@@ -40,7 +40,7 @@ ms.locfileid: "43780271"
 
 - 免费电话号码： 0800 032 6417
 
-- 联机：登录到 Microsoft 365 管理中心，通过在"支持"下选择"新建服务请求"**来提交****服务请求**。
+- 联机：登录到服务Microsoft 365 管理中心在"支持"下选择"新建服务请求"**来提交****服务请求**。
 
 ## <a name="timelines"></a>时间表
 

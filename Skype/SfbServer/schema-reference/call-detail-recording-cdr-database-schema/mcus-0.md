@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
-description: Mcus 视图存储有关已参与会议会话的 MCU 的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 3b16505337c241f08b1da99ca2e9e7f8a17a4eaa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Mcus 视图存储有关已参与会议会话的 MCU 的信息。 此视图在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: 2f5843a627fa8d4df693fb887c49b6c24df77526cd59668e8395a135771ae78d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821462"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347747"
 ---
 # <a name="mcus-view"></a>Mcus 视图
  
-Mcus 视图存储有关已参与会议会话的 MCU 的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
+Mcus 视图存储有关已参与会议会话的 MCU 的信息。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |**McuId** <br/> |int  <br/> |标识 MCU 的唯一编号。  <br/> |
 |**McuUri** <br/> |nvarchar (450)   <br/> |MCU 的 URI。  <br/> |
