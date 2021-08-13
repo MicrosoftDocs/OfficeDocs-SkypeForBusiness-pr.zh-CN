@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中启用用户体验质量
+title: 启用用户体验质量Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,30 +11,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: 摘要：了解如何在 Skype for Business Server (QoE) 用户体验质量。
-ms.openlocfilehash: 9f3e032506641cd22fbaa78054fcf6e40a72665e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何在 Skype for Business Server 中 (QoE) 用户体验质量。
+ms.openlocfilehash: 12428d02784c858f07f8aeb937420299f0c5e1220772e19c49c388a49eef216a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301358"
 ---
-# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>在 Skype for Business Server 中启用用户体验质量
+# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>启用用户体验质量Skype for Business Server
 
-**摘要：了解如何** 在 Skype for Business Server (QoE) 用户体验质量。
+**摘要：了解如何** 在 Skype for Business Server 中 (QoE) 用户体验质量Skype for Business Server。
 
-用户体验质量 (QoE) 记录指示媒体质量以及有关呼叫和会话中所涉及参与者、设备名称、驱动程序、IP 地址和终结点类型的信息的数值型数据。 有关详细信息，请参阅规划文档中的[Planning for Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)。
+用户体验质量 (QoE) 记录指示媒体质量以及有关呼叫和会话中所涉及参与者、设备名称、驱动程序、IP 地址和终结点类型的信息的数值型数据。有关详细信息，请参阅规划文档中的[Planning for Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)。
 
 使用以下过程为整个组织或组织中的每个站点启用 QoE。
 
 > [!NOTE]
-> 为了启用 QoE，必须首先配置监控和监控后端数据库。 有关详细信息，请参阅[Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)。
+> 为了启用 QoE，必须首先配置监控和监控后端数据库。有关详细信息，请参阅[Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)。
 
-### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板启用 QoE
+### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>使用"控制面板"启用Skype for Business Server QoE
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
 
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“监控和存档”，然后单击“用户体验质量数据”。
 
@@ -42,7 +42,7 @@ ms.locfileid: "51095206"
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 启用 qoE Windows PowerShell Cmdlet
 
-可以使用 Windows PowerShell **和 Set-CsQoEConfiguration** cmdlet 启用 QoE。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
+可以使用 Windows PowerShell **Set-CsQoEConfiguration** cmdlet 启用 QoE。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>对单个位置启用 QoE
 

@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: 这是初步文档，可能会更改。 空白主题作为占位符包含在内。
-ms.openlocfilehash: 0827732e1ffae5d5728b75074820ac131947c44e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 848e4f936ec3e18937fb9ffdff6e4e5ca725d360e109f0c33d7ae80b0fc89a83
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119631"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301428"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications Server 范围节点
 
 这是初步文档，可能会更改。 空白主题作为占位符包含在内。
 
-单击 **"Office Communications Server 2007 R2"** 展开节点下的节，或者右键单击以访问"拓扑选项"或访问此"帮助 **"** 页。
+You click **Office Communications Server 2007 R2** to expand the sections under the node， or you right click to access **Topology** options， or to access this **Help** page.
 
 ## <a name="see-also"></a>另请参阅
 

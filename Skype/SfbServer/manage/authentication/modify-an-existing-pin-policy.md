@@ -1,5 +1,5 @@
 ---
-title: 修改 Skype for Business Server 中的现有 PIN 策略
+title: 修改现有 PIN 策略Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,31 +12,31 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-description: 摘要：修改 Skype for Business Server 中的现有 PIN 策略。
-ms.openlocfilehash: d97d535c8930c1b9155da4f8c35171f2b70692e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：修改现有 PIN 策略Skype for Business Server。
+ms.openlocfilehash: 7770e34315dc0e407ecc4523fc133fce696d9c5b5eadba35979937761230b0cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828352"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297338"
 ---
-# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>修改 Skype for Business Server 中的现有 PIN 策略
+# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>修改现有 PIN 策略Skype for Business Server
  
-**摘要：** 修改 Skype for Business Server 中的现有 PIN 策略。
+**摘要：** 修改现有 PIN 策略Skype for Business Server。
   
-可以使用 **"PIN** 策略"选项卡向使用 IP 电话 (Skype for Business) PIN 身份验证提供个人标识号。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
+可以使用 **"PIN** 策略"选项卡向 (IP 电话) PIN Skype for Business个人标识号。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
   
 按照以下步骤修改用户级别或站点级别的 PIN 策略。 
   
 ### <a name="to-modify-an-existing-pin-policy"></a>修改现有 PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
 3. 在左侧导航栏中，单击“安全性”，然后单击“PIN 策略”。
     
-4. 在 **"PIN 策略"** 页上，单击某个策略，再单击 **"** 编辑"，然后单击"**显示详细信息"。**
+4. 在 **"PIN 策略"** 页上，单击某个策略，单击 **"编辑"，** 然后单击"显示 **详细信息"。**
     
 5. 在“编辑 PIN 策略”的“最小 PIN 长度”中，键入或选择希望允许的最小 PIN 长度。默认的最小长度为 5 位数。
     

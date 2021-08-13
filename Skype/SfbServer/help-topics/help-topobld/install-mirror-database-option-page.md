@@ -15,21 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 通过以下定义配置“镜像数据库设置”：
-ms.openlocfilehash: 63e3795cc52b9b8e3601b2260df253fdcd2d9c59
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0555d61a41d846404855fdf487f4bc70b8c9c75d0d4416b2eeb43187de916cf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301418"
 ---
 # <a name="install-mirror-database-option-page"></a>安装镜像数据库选项页
  
 通过以下定义配置“镜像数据库设置”：
   
-- 键入 **文件共享的路径** ，以定义要镜像SQL Server备份文件的位置。
+- 键入 **文件共享的路径** 以定义要镜像的数据库SQL Server备份文件的位置。
     
     > [!NOTE]
-    > 主SQL Server实例 (实例或默认实例) 必须具有您在此处定义的文件共享的写入权限。 镜像SQL Server实例 (实例或默认实例) 必须具有对同一文件共享的读取权限。 
+    > 主SQL Server实例 (命名实例或默认) 必须具有对此处定义的文件共享的写入权限。 镜像SQL Server实例 (命名实例或默认) 必须具有对同一文件共享的读取权限。 
   
   **确定** 接受更改并通过对话框提交更改。
   
@@ -39,4 +39,4 @@ ms.locfileid: "49806892"
   
 ## <a name="see-also"></a>另请参阅
 
-[在 skype SQL Server 2015 中部署后端服务器高可用性的镜像](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

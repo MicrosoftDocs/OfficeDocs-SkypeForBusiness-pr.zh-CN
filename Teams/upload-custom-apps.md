@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在管理中心将自定义应用上传到Microsoft Teams应用商店。
-ms.openlocfilehash: 9473c8e2fc4284c4ca205666152ef183b0210841
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: add429a0f662db852f78d9b178b046611ecb4e39ebf86729a1d0398fa1583e2f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321044"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>通过上传应用包发布自定义应用
 

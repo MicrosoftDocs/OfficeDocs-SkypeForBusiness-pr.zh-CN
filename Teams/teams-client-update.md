@@ -18,12 +18,12 @@ localization_priority: Priority
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 136cca899b0c79b549ee9ae890e90f1e84c04eaa
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 96077e5b50dff12f29f6e1ccf903cd0f7de96352dacf0d8b3c2cc7406750737e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321134"
 ---
 # <a name="teams-update-process"></a>Teams 更新过程
 
@@ -31,7 +31,7 @@ Teams Web 应用每周更新一次。
 
 在通过我们的技术采用计划 (TAP) 进行严格的内部测试和验证后，Teams 桌面客户端更新每两周发布一次。 更新通常在星期二进行。 如果需要的是关键更新，Teams 将不采用此计划，而是在更新可用时立即发布。
 
-桌面客户端会自动更新自身。 Teams 每隔几个小时在后台检查更新，下载更新，然后等待计算机处于空闲状态，然后再无提示安装更新。
+桌面客户端会自动更新。Teams 每隔几个小时在后台检查更新，下载更新，然后等待计算机处于空闲状态，然后再无提示安装更新。
 
 用户还可以通过在应用右上角的“**个人资料**”下拉菜单上选择“**检查更新**”手动下载更新。 如果更新可用，则将在计算机处于空闲状态时下载并以无提示方式安装更新。
 

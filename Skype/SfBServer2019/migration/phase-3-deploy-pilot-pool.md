@@ -1,5 +1,5 @@
 ---
-title: 第3阶段部署 Skype for Business Server 2019 试点池
+title: 第 3 阶段Skype for Business Server 2019 试点池
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
-description: 本节介绍了部署 Skype for business Server 2019 的引导池所需的步骤。 部署 Skype for Business Server 2019 需要使用拓扑生成器来定义您的拓扑和要部署的组件，为部署 Skype for Business Server 2019 组件准备环境，在第一台前端服务器上发布拓扑设计，然后为部署的组件安装和配置 Skype for Business Server 2019 软件。 完成后，你的 Skype for Business Server 2019 试点池部署将与现有旧版池共存。
-ms.openlocfilehash: 53cbb0eca580a7dd70cf638a219615eafce8c14e
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 本节介绍在 2019 年 10 月部署试点Skype for Business Server所需的步骤。 部署 Skype for Business Server 2019 需要使用拓扑生成器来定义拓扑和要部署的组件，准备部署 Skype for Business Server 2019 组件的环境，发布第一台前端服务器的拓扑设计，然后为部署的组件安装和配置 Skype for Business Server 2019 软件。 完成后，您的 Skype for Business Server 2019 试点池部署将与现有的旧池共存。
+ms.openlocfilehash: e4ff2f9c28e01ada82fd827644e46542e18581bf8f1ff2e511883bc6bb27e96f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752344"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300568"
 ---
-# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>第3阶段：部署 Skype for Business Server 2019 试点池
+# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>第 3 阶段：Skype for Business Server 2019 试点池
 
-本节介绍了部署 Skype for business Server 2019 的引导池所需的步骤。 部署 Skype for Business Server 2019 需要使用拓扑生成器来定义您的拓扑和要部署的组件，为部署 Skype for Business Server 2019 组件准备环境，在第一台前端服务器上发布拓扑设计，然后为部署的组件安装和配置 Skype for Business Server 2019 软件。 完成后，你的 Skype for Business Server 2019 试点池部署将与现有旧版池共存。
+本节介绍在 2019 年 10 月部署试点Skype for Business Server所需的步骤。 部署 Skype for Business Server 2019 需要使用拓扑生成器来定义拓扑和要部署的组件，准备部署 Skype for Business Server 2019 组件的环境，发布第一台前端服务器的拓扑设计，然后为部署的组件安装和配置 Skype for Business Server 2019 软件。 完成后，您的 Skype for Business Server 2019 试点池部署将与现有的旧池共存。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [为 Skype for business Server 准备 Active Directory](prepare-active-directory.md)
+- [为 Active Directory 准备Skype for Business Server](prepare-active-directory.md)
     
 - [从现有部署下载拓扑](download-topology-from-existing-deployment.md)
     

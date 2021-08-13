@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08b5c68c302f8fe830e5b5fcfcd37a76bde44a03
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: b257b8e2e12c4b6408f43e21b92e0904971ddc4032da075bac7cae93659ad8f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321254"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -100,7 +100,7 @@ Teams 的特点在于打破组织界限及推动跨职能团队，因此，鼓�
 |人力资源     |人才管理<br></br>招聘<br></br>绩效考核计划<br></br>信念         |人力资源工具<br></br>外部公开招聘网站<br></br>Growbot         |
 |跨组织 <br></br>虚拟团队 |战略<br></br>员工团队发展<br></br>完成和调研         |Power BI<br></br>Microsoft Stream         |
 
-可以根据组织结构创建团队。 对于想要推动士气、举行团队特定评审、澄清员工入职流程、讨论人力计划并提高跨分散人力的可见性的领导来说，这最为适用。  
+可以根据组织结构创建团队。对于想要推动士气、举行团队特定评审、阐明员工入职流程、讨论员工计划并在不同员工之间拉近距离的领导来说，这最为适用。  
 
 ![在 Microsoft Teams 中组织的团队和频道的层次结构图。](media/overview-of-teams-and-channels-image1.png)
 

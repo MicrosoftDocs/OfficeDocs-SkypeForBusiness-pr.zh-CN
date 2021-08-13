@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文介绍经认证的手机列表，Microsoft Teams认证手机支持的功能Microsoft Teams。
-ms.openlocfilehash: 2299c16bb3849119b93eb5e3e7d03f5ef6744430
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ab205a8a23b2cc83461cfcab047458fa4027db7e4257f95891caa0a5a6998ec9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102208"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321454"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
@@ -67,7 +67,7 @@ Teams许可证可以作为订阅和订阅[的一Microsoft 365 Office 365购买](
 
 ## <a name="upgrade-your-phones-to-teams-displays"></a>将手机升级到Teams屏幕
 
-[Microsoft Teams显示器](teams-displays.md)是一类一体式专用Teams设备，具有环境触摸屏和 Cortana 提供的免费免提体验。 借助Teams，用户可以使用麦克风、相机和扬声器或耳机 (蓝牙耳机) 可靠的呼叫和会议体验。 Teams显示器与用户的 Windows 电脑集成，带来一种支持无缝跨设备交互的配套体验
+[Microsoft Teams显示器](teams-displays.md)是一类一体式专用Teams设备，它们具有环境触摸屏和由 Cortana 支持的免费Cortana。 借助Teams，用户可以使用麦克风、相机和扬声器或耳机 (蓝牙耳机) 可靠的呼叫和会议体验。 Teams显示器与用户的 Windows 电脑集成，带来一种支持无缝跨设备交互的配套体验
 
 你可以升级Teams中的电话，Teams管理中心Microsoft Teams显示。 此选项仅适用于支持升级到显示器Teams手机。 若要了解有关详细信息，请参阅[将Teams升级到 Teams 显示器](upgrade-phones-to-displays.md)。
 

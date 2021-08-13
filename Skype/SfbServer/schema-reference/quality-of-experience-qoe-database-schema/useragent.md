@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
-description: UserAgent 表是一个支持表，用于存储已参与数据库中记录的会话的各种用户代理的列表。 表中的每条记录表示一个用户代理
-ms.openlocfilehash: a1d0e647ff78d409555988a27592228fac2643be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: UserAgent 表是一个支持表，用于存储已参与数据库中记录的会话的各种用户代理的列表。 表中的每条记录代表一个用户代理
+ms.openlocfilehash: a2480131b224dfe0469b39e34296b7848461bb33bd71c39c313016f8203f6266
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799928"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301248"
 ---
 # <a name="useragent-table"></a>UserAgent 表
  
-UserAgent 表是一个支持表，用于存储已参与数据库中记录的会话的各种用户代理的列表。 表中的每条记录表示一个用户代理
+UserAgent 表是一个支持表，用于存储已参与数据库中记录的会话的各种用户代理的列表。 表中的每条记录代表一个用户代理
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**UserAgentKey** <br/> |int  <br/> |主  <br/> |标识此用户代理的唯一编号。  <br/> |
 |**UserAgent** <br/> |nvarchar (256)   <br/> |独特  <br/> |用户代理字符串。  <br/> |
-|**UAType** <br/> |smallint  <br/> | <br/> |1 是中介服务器。  <br/> 2 是 A/V 会议服务器。  <br/> 4 是 Skype for Business。  <br/> 8 是 IP 电话。  <br/> 16 是 Live Meeting 控制台。  <br/> 32 是部署验证工具 (DVDT) 。  <br/> 64 是 Macintosh 计算机上的 Skype for Business Server。  <br/> 128 是 Skype for Business Server Attendant。  <br/> 256 是会议通知服务。  <br/> 512 是会议自动助理。  <br/> 1024 是响应组应用程序。  <br/> 2048 是外部语音控制。  <br/> |
+|**UAType** <br/> |smallint  <br/> | <br/> |1 是中介服务器。  <br/> 2 是 A/V 会议服务器。  <br/> 4 表示Skype for Business。  <br/> 8 是 IP 电话。  <br/> 16 是 Live Meeting 控制台。  <br/> 32 是部署验证工具 (DVT) 。  <br/> 64 Skype for Business Server Macintosh 计算机上。  <br/> 128 是Skype for Business Server助理。  <br/> 256 是会议公告服务。  <br/> 512 是会议自动助理。  <br/> 1024 是响应组应用程序。  <br/> 2048 是外部语音控制。  <br/> |
    
 

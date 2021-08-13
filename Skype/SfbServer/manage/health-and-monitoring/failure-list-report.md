@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的故障列表报告
+title: 报告中的故障Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,15 +11,15 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 摘要：了解 Skype for Business Server 中的故障列表报告。
-ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Summary： Learn about the Failure List Report in Skype for Business Server.
+ms.openlocfilehash: b132982af91f81af1ac1d151853a3f7fdc597ff31476e6a5484fc04b9d9efa4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816842"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301348"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Skype for Business Server 中的故障列表报告 
+# <a name="failure-list-report-in-skype-for-business-server"></a>报告中的故障Skype for Business Server 
  
 **摘要：** 了解 Skype for Business Server 中的故障列表报告。
   
@@ -27,7 +27,7 @@ ms.locfileid: "49816842"
   
 ## <a name="accessing-the-failure-list-report"></a>访问故障列表报告
 
-通过单击 Skype for Business Server 中的故障分布报告上的以下任一指标可以访问故障 [列表报告](failure-distribution-report.md)：
+通过单击"故障分布报告"中的以下任一指标可以访问故障列表[Skype for Business Server：](failure-distribution-report.md)
   
 - 主要诊断原因（会话）
     
@@ -45,15 +45,15 @@ ms.locfileid: "49816842"
     
 - 主要来源用户代理（会话）
     
-从故障列表报告中，可以通过单击对等会话的会话详细信息指标来访问 [Skype for Business Server](peer-to-peer-session-detail-report.md) 中的对等会话详细信息报告。 您还可以通过单击会议的"会议"指标来访问会议详细信息报告。
+从故障列表报告中，可以通过单击对等会话的"会话[详细信息](peer-to-peer-session-detail-report.md)"指标Skype for Business Server中访问"对等会话详细信息报告"。 您还可以通过单击会议的"会议"指标来访问会议详细信息报告。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>充分利用故障列表报告
 
-在故障列表报告中，只需将鼠标悬停在该值上即可查看每个响应代码或每个诊断 ID 的说明。 例如，如果你将鼠标悬停在诊断 ID 7025 上，你将在工具提示中看到以下内容：
+在故障列表报告中，只需将鼠标悬停在该值上即可查看每个响应代码或每个诊断 ID 的说明。 例如，如果你将鼠标悬停在诊断 ID 7025 上，你将看到工具提示中显示以下内容：
   
 为用户创建媒体时出现内部服务器错误。
   
-值得注意的是，故障列表报告不提供直接检索至少参与一个失败会话的所有用户列表的直观方法，也不提供用于确定失败会话通常涉及哪些用户的方法。  (首先，故障列表报告没有筛选功能。) 但是，如果您导出数据，然后将数据转换为逗号分隔值文件，您可以使用 Windows PowerShell 查找类似这些问题的解答。 例如，假设将数据保存到一个 。名为 C:\Data\Failure_List.csv 的 CSV 文件。 根据该文件中保存的数据，此命令将列出参与至少一个失败会话的所有用户： 
+需要注意的是，故障列表报告不提供直接检索至少参与一个失败会话的所有用户的列表的直观方法，也不提供一种确定失败会话中通常涉及的用户的方法。  (首先，故障列表报告没有筛选功能。) 但是，如果您导出数据并将其转换为逗号分隔值文件，您可以使用 Windows PowerShell 查找类似这些问题的解答。 例如，假设您将数据保存到名为 .CSV 的文件C:\Data\Failure_List.csv。 根据该文件中保存的数据，此命令将列出至少一个失败会话中涉及的所有用户： 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
@@ -72,7 +72,7 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
     Ken.Myer@litwareinc.com
 </pre>
 
-以下两个命令将报告每个用户参与的失败会话总数：
+以下两个命令报告每个用户参与的失败会话总数：
   
 ```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
@@ -95,7 +95,7 @@ Count    Name
 
 无。 无法筛选故障列表报告。
   
-## <a name="metrics"></a>指标
+## <a name="metrics"></a>度量标准
 
 下表列出了每个失败呼叫的故障列表报告中提供的信息。
   

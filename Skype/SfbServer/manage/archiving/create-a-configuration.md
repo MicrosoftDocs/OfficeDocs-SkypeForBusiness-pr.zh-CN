@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中创建存档配置
+title: 在部署中创建Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: 摘要：了解如何为 Skype for Business Server 创建存档配置。
-ms.openlocfilehash: f00e5b2b9254b53760351c162ea86cd195473788
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何创建存档Skype for Business Server。
+ms.openlocfilehash: c171b0ec86a8b29ede72b5dc0c577c890fcc497d4850148469d5ba64756ce472
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335012"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在 Skype for Business Server 中创建存档配置
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在部署中创建Skype for Business Server
 
-**摘要：** 了解如何为 Skype for Business Server 创建存档配置。
+**摘要：** 了解如何为用户创建存档Skype for Business Server。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>使用控制面板配置存档选项
 
@@ -29,7 +29,7 @@ ms.locfileid: "51095426"
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
 3. 在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。
     
@@ -51,7 +51,7 @@ ms.locfileid: "51095426"
     
    - 要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息 (IM) 或 Web 会议会话”复选框。
     
-   - 若要使用Microsoft Exchange Server存储存档数据，请单击 **"Microsoft Exchange 集成"** 复选框。
+   - 若要使用Microsoft Exchange Server存储存档数据，请单击"Microsoft Exchange **集成"** 复选框。
     
    - 若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：
     

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文概述了屏幕屏幕支持的功能Microsoft Teams功能。
-ms.openlocfilehash: ee5b536aaadaf458b6edf9b32dea299a3ecad9a0
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: 1ccf933cfb0f4e9eab4af4f884cbd6503d0667138d56d8c005574c57d839626a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321474"
 ---
 # <a name="deploy-teams-phones-and-teams-displays-using-intune"></a>使用 intune Teams手机Teams和显示器
 

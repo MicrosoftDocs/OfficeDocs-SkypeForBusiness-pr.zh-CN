@@ -1,5 +1,5 @@
 ---
-title: 第1阶段规划迁移
+title: 阶段 1 规划迁移
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本节介绍了用于迁移到 Skype for business Server 2019 的规划主题。
-ms.openlocfilehash: 312a8ef1dcf5beb1a0d23fe0df58a3916d66981f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 本节涵盖有关迁移到 Skype for Business Server 2019 的规划主题。
+ms.openlocfilehash: b7e6b72de69dafbf6218196c23eec82cbb7ad33c2996185e6cbbc70cd16fd0d1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300588"
 ---
 # <a name="phase-1-plan-your-migration"></a>第 1 阶段：规划迁移
 
-本节介绍了用于迁移到 Skype for business Server 2019 的规划主题。 
+本节涵盖有关迁移到 Skype for Business Server 2019 的规划主题。 
   
 ## <a name="in-this-section"></a>本节内容
 

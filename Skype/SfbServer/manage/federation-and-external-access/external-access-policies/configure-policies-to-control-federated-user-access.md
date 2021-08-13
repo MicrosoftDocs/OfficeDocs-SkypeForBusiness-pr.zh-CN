@@ -15,27 +15,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。 '
-ms.openlocfilehash: 6107615767d0360180baf9f22d5fddc6a5f8e565
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 57b674e0b75a310b56b6aaedaf4338eda94d75452f7f4b3d59580a4a52759453
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099038"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301388"
 ---
-# <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>配置策略以控制 Skype for Business Server 中的联盟用户访问
+# <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>配置策略以控制联盟用户访问Skype for Business Server
 
-如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。 可以配置一个或多个外部用户访问策略，以控制联盟域的用户是否可以与 Skype for Business Server 用户进行协作。 要控制联盟用户访问，可以在全局、站点和用户级别配置策略。 在一个策略级别应用的 Skype for Business Server 策略设置可以覆盖在另一个策略级别应用的设置。 Skype for Business 服务器策略优先级是：用户策略（最大影响力）覆盖站点策略，然后站点策略覆盖全局策略（最小影响）。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
+如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。 可以配置一个或多个外部用户访问策略，以控制联盟域的用户是否可以与联盟Skype for Business Server协作。 要控制联盟用户访问，可以在全局、站点和用户级别配置策略。 Skype for Business Server一个策略级别应用的策略设置可以覆盖在另一个策略级别应用的设置。 Skype for Business 服务器策略优先级是：用户策略（最大影响力）覆盖站点策略，然后站点策略覆盖全局策略（最小影响）。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
 
 
 > [!NOTE]  
-> 即使没有为组织启用联盟，也可以配置控制联盟用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联盟的详细信息，请参阅 [启用或禁用远程用户访问](../access-edge/enable-or-disable-remote-user-access.md)。  此外，如果指定用户策略来控制联盟用户访问，则此策略仅适用于启用了 Skype for Business Server 且配置为使用该策略的用户。
+> 即使没有为组织启用联盟，也可以配置控制联盟用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联盟的详细信息，请参阅 [启用或禁用远程用户访问](../access-edge/enable-or-disable-remote-user-access.md)。  此外，如果指定用户策略来控制联盟用户访问，则此策略仅适用于启用了联盟Skype for Business Server配置为使用该策略的用户。
 
 
 ## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>配置策略以支持联盟域用户访问
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3.  在左侧导航栏中，单击“外部用户访问”，然后单击“外部访问策略”。
 
@@ -67,9 +67,9 @@ ms.locfileid: "51099038"
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  启动 Skype for Busines 服务器命令行管理程序：单击"开始"，单击"所有程序"，**单击****"Skype for Business Server"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2.  启动"Skype命令行管理程序"：单击"开始"，单击"所有程序"，单击 **"Skype for Business Server"，** 然后单击"Skype for Business Server **命令行管理程序"。** 
 
-3.  在 Skype for Business Server 命令行管理程序 中键入以下内容：
+3.  在命令行管理程序Skype for Business Server以下内容：
     
     ```PowerShell
     Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
@@ -77,16 +77,16 @@ ms.locfileid: "51099038"
        
 
     > [!TIP]  
-    > 参数"EnablePublicCloudAudioVideoAccess"在 Skype for Business Server 控制面板中没有对应的选择
+    > 参数"EnablePublicCloudAudioVideoAccess"在"控制面板"中Skype for Business Server选择
 
 
 ## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用 Windows PowerShell 创建新策略以支持联盟域用户访问
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，**单击****"Microsoft Skype for Business Server"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Microsoft Skype for Business Server"，** 然后单击"Skype for Business Server **命令行管理程序"。** 
 
-3.  在 Skype for Business Server 命令行管理程序 中键入以下内容：
+3.  在命令行管理程序Skype for Business Server以下内容：
     
     ```PowerShell
     New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
@@ -103,7 +103,7 @@ ms.locfileid: "51099038"
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  在 Skype for Business Server 命令行管理程序 中键入以下内容
+2.  在命令行管理程序Skype for Business Server以下内容
     
     `Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy>`
     

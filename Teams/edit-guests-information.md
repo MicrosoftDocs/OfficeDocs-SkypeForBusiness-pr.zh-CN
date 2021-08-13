@@ -20,20 +20,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: feffdb827c33628749e16083c858b03c9837efd1
-ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
+ms.openlocfilehash: d753b93d248a84632f4ce606ca6b31a1a25c39f089e798c0791c4517156c85e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734260"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321394"
 ---
 # <a name="edit-guest-user-information"></a>编辑来宾用户信息
 
-可以从管理中心或 Microsoft 365门户编辑Azure Active Directory信息。
+可以从门户或门户Microsoft 365 管理中心来宾Azure Active Directory信息。
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>管理员中的Microsoft 365用户
 
-1. 若要在管理中心内编辑Microsoft 365 [信息，](https://admin.microsoft.com)请选择"**用户**  >  **""来宾用户"。**
+1. 若要编辑"来宾用户 ["Microsoft 365 管理中心，请选择](https://admin.microsoft.com)"**用户**  >  **""来宾用户"。**
 
    ![正在编辑的来宾用户信息](media/access-guest-user.png)
 

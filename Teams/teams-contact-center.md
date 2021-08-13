@@ -13,12 +13,12 @@ f1.keywords:
 description: CCaaS) 解决方案的集成联系中心作为服务 (概述Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be22f4c8da84ba416bbd41b9247aa5d3a8ee4124
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: b12b28f4898b3b6dc722086d22c616e3938f4580b5f9c4956367663ea841d305
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993956"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321144"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>适用于联系人的联系人中心Microsoft Teams
 

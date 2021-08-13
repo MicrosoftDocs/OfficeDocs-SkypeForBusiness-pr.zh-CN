@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何准备基础结构以部署Microsoft Teams 会议室以便可以利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 46f44d9a07aadc06598495a765bedcd67d1ed03b395c4d9cf4e6696023227c0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117420"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346169"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 

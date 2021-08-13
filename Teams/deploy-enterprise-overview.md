@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd3e60fafecd3cf025187935a9dc28b492c39d1b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f8521de23466f0551d9c09e072aa0b10b487bbedd6ed473e4ff2a9997f456d28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346308"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams 企业部署概述
 
-如果你是中型企业或大型企业，你需思考如何将该服务部署到用户、将 Microsoft Teams 客户端部署到他们、网络设计如何影响实时通信质量等。 查看以下各部分，查看指向可帮助你在组织中规划 Teams 的文章的指针。
+如果是中型或大型企业，则需要考虑如何向用户推出服务、如何将 Microsoft Teams 客户端部署到用户、网络设计如何影响实时通信的质量等。请查看以下部分，获取指向可帮助你在组织中规划 Teams 的文章的指针。
 
 > [!NOTE]
-> 如果尚未进行部署，强烈建议通过试点开始团队部署。 试点将允许你和一些早期采用者在规划和推出之前熟悉 Teams 及其功能。若要详细了解如何开始进行试点，请参阅 [Microsoft Teams](get-started-with-teams-quick-start.md)。
+> 若尚未进行部署，强烈建议通过试点开始 Teams 部署。 试点将允许你和一些早期采用者在规划和推出之前熟悉 Teams 及其功能。若要详细了解如何开始进行试点，请参阅 [Microsoft Teams](get-started-with-teams-quick-start.md)。
 
 阅读以下部分并准备好开始在组织中部署 Teams 之后，请参阅 [企业部署中的 Microsoft Teams](deploy-enterprise-setup.md)。
 
