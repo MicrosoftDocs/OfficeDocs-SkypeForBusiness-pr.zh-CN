@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文介绍实施服务的好处、规划注意事项和Microsoft 云语音邮件要求。 有关配置配置云语音邮件的信息，请参阅配置云语音邮件。
-ms.openlocfilehash: cfde9867bcdd4c2b7492f8b50df782a5ca6fe34b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323674"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>规划云语音邮件本地用户的部署服务
 
@@ -88,7 +88,7 @@ Skype for Business Server 2019 Exchange 2016 年 12 月 16 日版邮箱位于早
 
 ## <a name="migration-and-interoperability"></a>迁移和互操作性
 
-如果您计划部署 Skype for Business Server 2019 和/或 Exchange Server 2019，则必须仔细规划迁移以确保语音邮件服务持续有效。 请注意以下几点：
+如果您计划部署 Skype for Business Server 2019 和/或 Exchange Server 2019，则必须仔细规划迁移以确保语音邮件服务持续有效。 请注意下列事项：
 
 - Exchange Server 2019 不再提供Exchange UM 功能
 - Skype for Business Server 2019 不再与 UM Exchange Online集成

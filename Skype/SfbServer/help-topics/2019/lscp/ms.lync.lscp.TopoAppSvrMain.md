@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: '“拓扑: 服务器应用程序”页将显示部署中的服务器应用程序。'
-ms.openlocfilehash: 719f49ca48ac8c9b5808178779405e56f47fc7fe
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d91c18ab8519631698c9e8d41485778b0bfa0075353f996e7881170bacba96df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338620"
 ---
 # <a name="topology-server-application"></a>拓扑：服务器应用程序
 

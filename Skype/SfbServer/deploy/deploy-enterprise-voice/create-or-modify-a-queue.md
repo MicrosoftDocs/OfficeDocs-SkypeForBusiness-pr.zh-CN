@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 中创建或修改队列
+title: 在服务中创建或修改Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: Create or modify a Response Group queue， in Skype for Business Server 企业语音.
-ms.openlocfilehash: b355cde0d8a99938538488152276a6c8eb4c6d4b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 创建或修改响应组队列，Skype for Business Server 企业语音。
+ms.openlocfilehash: d8b875063d37d38ece7a6ec59c9b0bffbb16ee091e31f67087eb2cc0b52616e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103578"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338740"
 ---
-# <a name="create-or-modify-a-queue-in-skype-for-business"></a>在 Skype for Business 中创建或修改队列
+# <a name="create-or-modify-a-queue-in-skype-for-business"></a>在服务中创建或修改Skype for Business
  
-Create or modify a Response Group queue， in Skype for Business Server 企业语音.
+创建或修改响应组队列，Skype for Business Server 企业语音。
   
 队列使呼叫者处于保持状态，直到有代理应答呼叫为止。 当响应组应用程序搜索可用代理时，它会按代理组的列出顺序进行搜索。 可以选择分配给队列的代理组并指定队列的行为，如限制队列可容纳的呼叫数，以及呼叫等待代理应答呼叫的时间长度。
   
 使用以下其中一个过程来创建或修改队列。
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>使用 Skype for Business Server 控制面板创建或修改队列
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>使用Skype for Business Server控制面板创建或修改队列
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
     > [!NOTE]
     > 如果您是托管工作流的委派响应组管理员之一，则可以创建或修改响应组队列，并将其分配给您管理的工作流。 
   
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。  
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
 3. 在左侧导航栏中，单击“响应组”，然后单击“队列”。
     
@@ -99,14 +99,14 @@ Create or modify a Response Group queue， in Skype for Business Server 企业�
     
 10. 单击“提交”。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>使用 Skype for Business Server 命令行管理程序创建或修改队列
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>使用 Skype for Business Server命令行管理程序创建或修改队列
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
     > [!NOTE]
     > 如果您是托管工作流的委派响应组管理员，您将能够创建代理组和队列并将代理组分配给队列。 
   
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
 3. 创建在达到队列超时阈值时要显示的提示，并将其保存在变量中。在命令行中运行：
     
@@ -168,13 +168,13 @@ Create or modify a Response Group queue， in Skype for Business Server 企业�
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
    ```
 
-7. 检索响应组服务的服务名称，并将其分配给变量。 在命令行中运行：
+7. 检索响应组服务的服务名称，并将其分配给变量。在命令行中运行：
     
    ```powershell
    $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
    ```
 
-8. 获取要分配给队列的代理组的标识。 在命令行中运行：
+8. 获取要分配给队列的代理组的标识。在命令行中运行：
     
    ```powershell
    $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;

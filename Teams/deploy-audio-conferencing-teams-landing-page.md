@@ -21,12 +21,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92a103262c0d6f997ace41fa0f1d6240452bb8d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de08e353a64d2b82c5d13baaeac54fcb7b2c70e0ca7a94eff31c22f01d1fb93a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094368"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340458"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音频会议
 
@@ -69,7 +69,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>会议网桥和电话号码
 
-会议网桥使用户能够使用电话拨入会议。 可以使用会议网桥的默认设置，也可以更改电话号码（收费和免费）和其他设置（如 PIN 或使用的语言）。
+借助会议网桥，用户可以使用电话拨号方式加入会议。你可以为会议网桥使用默认设置，也可以更改电话号码（收费和免费）和其他设置，例如 PIN 或使用的语言。
 
 请参阅[音频会议](audio-conferencing-in-office-365.md)了解详情。
 
@@ -92,7 +92,7 @@ Teams 音频会议允许你为会议网桥设置默认语言和备用语言。
 
 ### <a name="conferencing-bridge-settings"></a>会议网桥设置 
 
-设置了会议网桥（包括默认语言和备用语言）之后，你应验证诸如进入/退出通知和 PIN 长度等默认设置是否符合你的要求。 如果不符合，你可以更改这些设置。 
+设置了会议网桥（包括默认语言和备用语言）之后，你应验证诸如进入/退出通知和 PIN 长度等默认设置是否符合你的要求。如果不符合，你可以更改这些设置。 
 
 |询问你自己|操作 |
 |------------|-------|
@@ -161,4 +161,4 @@ Teams 提供两种用于监视和排除通话质量问题的方法：[通话分�
 ## <a name="next-steps"></a>后续步骤
 - 在组织内[推动采用](adopt-microsoft-teams-landing-page.md)音频会议。
 - [部署云语音](cloud-voice-landing-page.md)
-- 在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用的过程中添加其他[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)。
+- 在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。在推动 Teams 采用的过程中添加其他[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)。

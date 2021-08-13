@@ -14,13 +14,13 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用“选择文件类型扩展名”对话框，通过选中（以阻止）或清除（以允许）“文件类型扩展名”下的扩展名旁边的复选框，可以选择要阻止或允许的文件类型扩展名。 单击箭头可展开类别并查看该类别的所有文件类型扩展名。 如果要选择某个类别的所有文件类型扩展名，请选择该类别名称。
-ms.openlocfilehash: 08709a2ff2504081ccf0172d3c6d559d6e2693b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 使用“选择文件类型扩展名”对话框，通过选中（以阻止）或清除（以允许）“文件类型扩展名”下的扩展名旁边的复选框，可以选择要阻止或允许的文件类型扩展名。单击箭头可展开类别并查看该类别的所有文件类型扩展名。如果要选择某个类别的所有文件类型扩展名，请选择该类别名称。
+ms.openlocfilehash: 161b56adf12386d4510d91a83404af68058d3e590a1193c290813f89918c1f65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324401"
 ---
 # <a name="select-file-type-extensions"></a>选择文件类型扩展名
  

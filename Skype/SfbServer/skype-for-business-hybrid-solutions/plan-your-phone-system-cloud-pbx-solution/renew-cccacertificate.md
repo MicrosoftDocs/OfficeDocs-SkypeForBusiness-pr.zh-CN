@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: Renew-CcCACertificate cmdlet 可续订即将过期或已过期的 Skype for Business 云连接器版本根 CA 证书。 在云连接器2.0 和更高版本中，此命令已更改为更新-CcCACertificate。
-ms.openlocfilehash: e92709cd1da0ffccd2b356000dbd2345ba56a1d9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此Renew-CcCACertificate cmdlet 续订Skype for Business 云连接器版本即将过期或已过期的根 CA 证书。 在云连接器 2.0 Update-CcCACertificate版本中，此命令已更改为 Update-CcCACertificate。
+ms.openlocfilehash: 49b58e18d6393d5a3f9665fea98cba73f22d9c3259f0036dc93dce9dbf67e567
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340778"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-Renew-CcCACertificate cmdlet 可续订即将过期或已过期的 Skype for Business 云连接器版本根 CA 证书。 在云连接器2.0 和更高版本中，此命令已更改为更新-CcCACertificate。
+此Renew-CcCACertificate cmdlet 续订Skype for Business 云连接器版本即将过期或已过期的根 CA 证书。 在云连接器 2.0 Update-CcCACertificate版本中，此命令已更改为 Update-CcCACertificate。
   
 ```powershell
 Renew-CcCACertificate
@@ -46,18 +46,18 @@ Renew-CcCACertificate
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-云连接器根 CA 证书的有效期是自安装证书颁发机构服务之日起的 5 年。
+云连接器根 CA 证书的有效期为自安装证书颁发机构服务之日起 5 年。
   
-如果根证书即将过期或已过期，请运行 Renew-CcCACertificate cmdlet 来续订证书。续订了根证书后，将自动为 AD 服务器、中央管理存储及边缘服务器颁发新证书。
+如果根证书即将过期或已过期，请运行 Renew-CcCACertificate cmdlet 来续订证书。 续订根证书后，将自动向 AD 服务器、中央管理存储和边缘服务器颁发新证书。
   
-如果同一 PSTN 站点中有多台设备，请在同一 PSTN 站点中的所有设备上运行 Renew-CcCACertificate cmdlet。
+如果同一 PSTN 站点中有多个设备，请Renew-CcCACertificate PSTN 站点的所有设备中运行该 cmdlet。
   
-最后一步，运行 Export-CcRootCertificate 以将根证书导出为第一台设备上的本地文件，然后将导出的证书复制并安装到 PSTN 网关。
+最后一步，Export-CcRootCertificate将根证书导出到第一个设备中的本地文件，然后将导出的证书复制并安装到 PSTN 网关。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
 
-无。Renew-CcCACertificate cmdlet 不接受主线输入。
+无。 Renew-CcCACertificate cmdlet 不接受通过管道的输入。
   
 ## <a name="return-types"></a>返回类型
 <a name="ReturnTypes"> </a>

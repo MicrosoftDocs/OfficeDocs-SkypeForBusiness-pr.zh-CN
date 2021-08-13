@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 如果用户已启用 Skype for Business Server，则可以通过向特定用户应用适当的策略，在 Skype for Business Server 控制面板中配置 SIP 联盟、远程用户访问和公共即时消息 (IM) 连接。
-ms.openlocfilehash: d53840f1abd13b504916340b585aa53ee7324330c2fe34c463e66c54dc180417
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: 如果用户已启用 Skype for Business Server，则可以通过将相应的策略应用于特定用户，在 Skype for Business Server 控制面板中配置 SIP 联盟、远程用户访问和公共即时消息 (IM) 连接。
+ms.openlocfilehash: dbb4c89fd67f128fff0707e1190e8720ad2a166b72b861bb4510496ac0cd5744
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849557"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320194"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>将外部用户访问策略分配给Skype for Business用户
 
-如果用户已启用 Skype for Business Server，则可以通过向特定用户应用适当的策略，在 Skype for Business Server 控制面板中配置 SIP 联盟、远程用户访问和公共即时消息 (IM) 连接。 例如，如果创建了支持远程用户访问的策略，则必须将其应用于用户，然后用户才能从远程位置连接到 Skype for Business Server 并与远程位置的内部用户进行协作。
+如果用户已启用 Skype for Business Server，则可以通过将相应的策略应用于特定用户，在 Skype for Business Server 控制面板中配置 SIP 联盟、远程用户访问和公共即时消息 (IM) 连接。 例如，如果创建了支持远程用户访问的策略，则必须将其应用于用户，然后用户才能从远程位置连接到 Skype for Business Server 并与远程位置的内部用户进行协作。
 
 
 > [!NOTE]  
@@ -50,23 +50,30 @@ ms.locfileid: "57849557"
 > 这些设置 **\<Automatic>** 将应用默认服务器或全局策略设置。
 
 
-## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>使用 Per-User Cmdlet 分配外部Windows PowerShell策略
+## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>使用 Per-User Cmdlet 分配Windows PowerShell访问策略
 
-每用户外部访问策略可以使用 Windows PowerShell 和 Grant-CsExternalAccessPolicy cmdlet 进行分配。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
+每用户外部访问策略可以使用 Windows PowerShell cmdlet Grant-CsExternalAccessPolicy分配。 此 cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a>将每用户外部访问策略分配给单个用户
 
-  - 此命令向用户 Ken Myer 分配每用户外部访问策略 RedmondExternalAccessPolicy。<br/><br/>Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName "RedmondExternalAccessPolicy"
+  - 此命令向用户 Ken Myer 分配每用户外部访问策略 RedmondExternalAccessPolicy。
+    
+        Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName "RedmondExternalAccessPolicy"
 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>将每用户外部访问策略分配给多个用户
 
-  - 此命令向在 Active Directory 的 UnitedStates OU 中拥有帐户的所有用户分配每用户外部访问策略 USAExternalAccessPolicy。 有关此命令中使用的 OU 参数详细信息，请参阅 [Get-CsUser](/powershell/module/skype/Get-CsUser) cmdlet 的文档。<br/><br/>Get-CsUser -OU "ou=United States，dc=litwareinc，dc=com" |Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
+  - 此命令向在 Active Directory 的 UnitedStates OU 中拥有帐户的所有用户分配每用户外部访问策略 USAExternalAccessPolicy。 有关此命令中使用的 OU 参数详细信息，请参阅 [Get-CsUser](/powershell/module/skype/Get-CsUser) cmdlet 的文档。
+    
+        Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
 
 ## <a name="to-unassign-a-per-user-external-access-policy"></a>取消分配每用户外部访问策略
 
-  - 此命令取消分配之前为 Ken Myer 分配的任何每用户外部访问策略。在取消分配每用户策略后，将自动使用全局策略或本地站点策略（如果有）管理 Ken Myer。站点策略优先于全局策略。<br/><br/>Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
+  - 此命令取消分配之前为 Ken Myer 分配的任何每用户外部访问策略。在取消分配每用户策略后，将自动使用全局策略或本地站点策略（如果有）管理 Ken Myer。站点策略优先于全局策略。
+    
+        Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
+
 
 
 有关详细信息，请参阅 [Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy) cmdlet 的帮助主题。

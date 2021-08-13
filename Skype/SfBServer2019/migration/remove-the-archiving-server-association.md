@@ -10,41 +10,41 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 若要删除存档服务器，您需要更改或清除关联的前端池、前端服务器、Survivable 分支设备和 Survivable 分支服务器上的依赖项。 您可以编辑前端池、前端服务器、Survivable 分支设备和 Survivable 分支服务器的属性以删除依赖项。 清除依赖项并在拓扑生成器中删除服务器后，系统会通知拓扑生成器中关联的数据库存储对象也将被删除。
-ms.openlocfilehash: bba21dadc70f5c9f62fea5073ef5bf815c8b35a1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 若要删除存档服务器，您需要更改或清除关联前端池、前端服务器、Survivable Branch Appliance 和 Survivable Branch Server 的依赖项。 编辑前端池、前端服务器、Survivable Branch Appliance 和 Survivable Branch Server 的属性以删除依赖项。 在清除依赖关系并删除拓扑生成器中的服务器后，将会收到通知，拓扑生成器中的关联数据库存储对象也将被删除。
+ms.openlocfilehash: 6265642a45b891180e53d3b00d39a9053b663a434aaa1a4a26e92b619dfba257
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340328"
 ---
 # <a name="remove-the-archiving-server-association"></a>删除存档服务器关联
 
-若要删除存档服务器，您需要更改或清除关联的前端池、前端服务器、Survivable 分支设备和 Survivable 分支服务器上的依赖项。 您可以编辑前端池、前端服务器、Survivable 分支设备和 Survivable 分支服务器的属性以删除依赖项。 清除依赖项并在拓扑生成器中删除服务器后，系统会通知拓扑生成器中关联的数据库存储对象也将被删除。
+若要删除存档服务器，您需要更改或清除关联前端池、前端服务器、Survivable Branch Appliance 和 Survivable Branch Server 的依赖项。 编辑前端池、前端服务器、Survivable Branch Appliance 和 Survivable Branch Server 的属性以删除依赖项。 在拓扑生成器中清除依赖关系并删除服务器后，将会收到通知，拓扑生成器中的关联数据库存储对象也将被删除。
   
 ### <a name="to-remove-the-archiving-server-association"></a>删除存档服务器关联
 
 1. 在 Skype for Business Server 2019 前端服务器上，打开拓扑生成器。
     
-2. 导航到旧版安装节点。
+2. 导航到旧安装节点。
     
-3. 在拓扑生成器中，展开 " **Enterprise Edition 前端池**"、" **Standard edition 前端服务器**" 或 "**分支站点**"，具体取决于定义存档服务器的位置。
+3. 在拓扑生成器中，Enterprise Edition前端 **池**、Standard Edition **前端服务器** 或分支站点，具体取决于存档服务器的定义位置。 
     
-4. 如果你有与 Survivable 分支服务器相关联的，请展开 "**分支站点**"，展开分支站点名称，然后展开 " **Survivable 分支设备**"。
+4. 如果关联了 Survivable Branch Server，请展开"分支站点"，展开"分支站点名称"，然后展开 **"Survivable Branch 设备"。**
     
     > [!NOTE]
-    > 用户界面中的**Survivable 分支设备**适用于 Survivable 分支服务器和 Survivable 分支设备。 
+    > **用户界面中的 Survivable Branch Appliance** 适用于 Survivable Branch Server 和 Survivable Branch Appliance。 
   
-5. 右键单击与存档服务器关联的池、服务器或设备，然后单击 "**编辑属性**"。
+5. 右键单击与存档服务器关联的池、服务器或设备，然后单击"编辑 **属性"。**
     
-6. 在 "**编辑属性**" 中的 "**常规**  >  **关联**" 下，清除 "**关联存档服务器**" 复选框，然后单击 **"确定"**。
+6. 在 **"编辑属性**"中的"**常规**  >  **关联"下**，清除"**关联存档服务器**"复选框，然后单击"确定 **"。**
     
-7. 对与要删除的存档服务器关联的任何其他池、服务器或设备重复上述步骤。
+7. 对与要删除的存档服务器关联的任何其他池、服务器或设备重复上一步。
     
-8. 右键单击存档服务器，然后单击 "**删除**"。
+8. 右键单击存档服务器，然后单击"删除 **"。**
     
-9. 在“删除相关存储”**** 上，单击“确定”****。
+9. 在“删除相关存储”上，单击“确定”。
     
-10. 发布拓扑，检查复制状态，然后根据需要运行 Skype for Business Server 部署向导。 
+10. 发布拓扑，检查复制状态，然后根据需要Skype for Business Server部署向导。 
     
 

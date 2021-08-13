@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要开始扩展 Skype for Business Server 架构的任务，请从"准备架构"页开始。 单击“下一步”继续执行架构准备。
-ms.openlocfilehash: bc78b854de98a86def5c06787292b174629b2ac7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 若要开始扩展架构的任务，Skype for Business Server准备架构"页开始。 单击“下一步”继续执行架构准备。
+ms.openlocfilehash: f5a98b05ed2ead2bdcbf954d003111f5a4d0fff61eaa09eba024beed20b710a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836712"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324461"
 ---
 # <a name="prepare-schema-intro"></a>准备架构（简介）
  
-若要开始扩展 Skype for Business Server 架构的任务，请从"准备架构" **页** 开始。 单击 **“下一步”** 继续执行架构准备。
+若要开始扩展架构的任务，Skype for Business Server准备 **架构"** 页开始。 单击 **“下一步”** 继续执行架构准备。
   
 

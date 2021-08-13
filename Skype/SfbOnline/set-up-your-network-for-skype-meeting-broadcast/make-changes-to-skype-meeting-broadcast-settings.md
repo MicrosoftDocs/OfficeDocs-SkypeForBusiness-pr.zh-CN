@@ -20,12 +20,12 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: 您可以启用Skype 会议直播，并更改这些会议的设置和策略。
-ms.openlocfilehash: fae53601c858bf67db57352e18dbc9799243f996
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c942c1f862097f9ccfb7ae67793632b1d02f85ed0ae4995147512698ab54e480
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339230"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>对组织的Skype 会议广播设置进行更改
 

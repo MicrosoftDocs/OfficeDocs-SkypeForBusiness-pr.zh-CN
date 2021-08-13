@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 4a996f35-96e0-4370-ac28-869631611e03
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要定义部署中的首个站点，请指定首个站点的名称。（可选）可以指定首个站点的说明。
-ms.openlocfilehash: f03938d6d9df6feb40b572de3f8901787e544e27
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 08a971492d5bec3f57c623f3d85e935878cad2151d15d7a9b149a9e12a79e90f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807592"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338520"
 ---
 # <a name="add-site-name"></a>添加站点名称
  

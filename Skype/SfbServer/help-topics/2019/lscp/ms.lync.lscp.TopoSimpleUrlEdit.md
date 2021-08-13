@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: e92d26a9c4a2bb3169fd33b46840b80d95810891
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fa80a0799e94c87fb5dd8ee0f73a78bbf2517af4fec42e280554fe6795861787
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324371"
 ---
 # <a name="topology-view-simple-url-detail"></a>拓扑：查看简单 URL 的详细信息
 

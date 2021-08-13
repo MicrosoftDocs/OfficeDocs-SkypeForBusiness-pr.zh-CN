@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
-description: Reset-CcCACertificate cmdlet 重新安装证书颁发机构服务 AD 服务器以创建新的根 CA 证书。
-ms.openlocfilehash: 6a7f377642ca8aa8722933e503a6c0c2f2613544
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此Reset-CcCACertificate cmdlet 将重新安装证书颁发机构服务 AD 服务器以创建新的根 CA 证书。
+ms.openlocfilehash: 8e0cb93e6f10f28df28213579674a6cda6e7e2cd1cf201319f77dc26be69de80
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340718"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
-Reset-CcCACertificate cmdlet 重新安装证书颁发机构服务 AD 服务器以创建新的根 CA 证书。
+此Reset-CcCACertificate cmdlet 将重新安装证书颁发机构服务 AD 服务器以创建新的根 CA 证书。
   
 ```powershell
 Reset-CcCACertificate
@@ -46,14 +46,14 @@ Reset-CcCACertificate
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-如果根 CA 证书已损坏或不再安全，则必须更新根 CA 证书和根 CA 颁发的所有证书。 Reset-CcCACertificate cmdlet 会吊销所有证书、卸载并重新安装证书颁发机构，然后清除与旧证书颁发机构服务相关的所有证书。 
+如果根 CA 证书受到威胁或不再安全，则必须更新根 CA 证书以及根 CA 颁发的所有证书。 此Reset-CcCACertificate cmdlet 将吊销所有证书，卸载并重新安装证书颁发机构，然后清除与旧证书颁发机构服务相关的所有证书。 
   
-有关详细信息，请参阅有关云连接器部署疑难解答中的 "证书颁发机构证书或颁发给 CMS、中介服务器和边缘服务器的内部证书已过期或已泄露"。
+有关详细信息，请参阅云连接器部署疑难解答中的"颁发给 CMS、中介服务器和边缘服务器的证书颁发机构证书或内部证书即将过期或受到威胁"。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
 
-无。Reset-CcCACertificate cmdlet 不接受主线输入。
+无。 Reset-CcCACertificate cmdlet 不接受通过管道的输入。
   
 ## <a name="return-types"></a>返回类型
 <a name="ReturnTypes"> </a>
@@ -63,13 +63,13 @@ Reset-CcCACertificate
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[Renew-CcCACertificate](renew-cccacertificate.md) 仅限于版本 1.4.2
+[Renew-CcCACertificate](renew-cccacertificate.md) 仅版本 1.4.2
   
-[Renew-CcServerCertificate](renew-ccservercertificate.md) 仅限于版本 1.4.2
+[Renew-CcServerCertificate](renew-ccservercertificate.md) 仅版本 1.4.2
   
-[Update-CcCACertificate](update-cccacertificate.md) 2.0 版及更高版本
+[Update-CcCACertificate](update-cccacertificate.md) 版本 2.0 及更高版本
   
-[续订-CcServerCertificate](renew-ccservercertificate.md)版本2.0 和更高版本
+[Renew-CcServerCertificate](renew-ccservercertificate.md) 版本 2.0 及更高版本
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

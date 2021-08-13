@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 下载、安装并使用 Skype for Business Online 连接器创建连接到 Windows PowerShell Online 的远程Skype for Business会话。
-ms.openlocfilehash: e9429b385f83f6b76e211614f953f7d439df524e
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: fd0a114bcd434e624937b323fbfa787d252db96ffafb701c3f13ff3a677b7118
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339280"
 ---
 # <a name="download-and-install-the-teams-powershell-module"></a>下载并安装 Teams PowerShell 模块
 

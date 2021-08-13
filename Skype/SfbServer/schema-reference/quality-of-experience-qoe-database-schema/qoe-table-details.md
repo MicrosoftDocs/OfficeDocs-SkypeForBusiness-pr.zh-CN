@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: 以下各节详细介绍每个用户体验质量 (QoE) 数据库架构表中的列。
-ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 42085494d2d302742c2a18b5af17506ba8f79a3ff9812f86b817506ea401d98f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321594"
 ---
 # <a name="qoe-table-details"></a>QoE 表详细信息
  
@@ -44,7 +44,7 @@ ms.locfileid: "49815752"
     
 - [DeviceDriver 表](devicedriver.md)
     
-- [Dialog 表](dialog.md)
+- [对话框表](dialog.md)
     
 - [Endpoint 表](endpoint.md)
     
@@ -64,7 +64,7 @@ ms.locfileid: "49815752"
     
 - [PayloadDescription 表](payloaddescription.md)
     
-- [池表](pool.md)
+- [Pool 表](pool.md)
     
 - [QoE (PurgeSettings) ](purgesettings-qoe.md)
     
@@ -84,7 +84,7 @@ ms.locfileid: "49815752"
     
 - [UserAgent 表](useragent.md)
     
-- [UserAgentDef 表 (QoE) ](useragentdef-qoe.md)
+- [QoE (UserAgentDef) ](useragentdef-qoe.md)
     
 - [UserSite 表](usersite.md)
     

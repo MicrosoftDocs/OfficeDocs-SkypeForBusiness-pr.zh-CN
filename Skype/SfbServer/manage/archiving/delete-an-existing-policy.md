@@ -1,5 +1,5 @@
 ---
-title: 删除 Skype for Business Server 中的现有存档策略
+title: 删除现有存档策略Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: 摘要：了解如何删除 Skype for Business Server 的存档策略。
-ms.openlocfilehash: 2baad7d862b1b6739019a4459492bfb3b67e04cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何删除存档策略Skype for Business Server。
+ms.openlocfilehash: bee5cb3d48c079f0c918e15c607c163f3f67aea9e1dfed92309700b1795c699d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095386"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320244"
 ---
-# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>删除 Skype for Business Server 中的现有存档策略
+# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>删除现有存档策略Skype for Business Server
 
-**摘要：** 了解如何删除 Skype for Business Server 的存档策略。
+**摘要：** 了解如何删除存档策略Skype for Business Server。
   
-可以删除用户策略或站点策略，但不能删除全局策略。 如果删除全局策略，Skype for Business Server 会自动将策略重置为默认值。
+可以删除用户策略或站点策略，但不能删除全局策略。 如果删除全局策略，Skype for Business Server自动将策略重置为默认值。
   
 ## <a name="delete-a-policy-by-using-the-control-panel"></a>使用控制面板删除策略
 
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
 3. 在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档策略”**。
     

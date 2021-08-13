@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要指定网站的网站详细信息，请执行下列操作：
-ms.openlocfilehash: 15097700648634ad3865971e7e8e6742e101f561
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6739abe517dd9e0c84b300f7ac00096d67fecfb7b4059f20064204cabc348593
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322145"
 ---
 # <a name="add-branch-site-details"></a>添加分支站点详细信息
 

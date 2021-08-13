@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 查看部署选项Skype for Business Server方案，无论是希望使用单个服务器，还是首选具有 DNS 或 HLB 的服务器池。
-ms.openlocfilehash: 97ce574c575210dfddcae3ffeae018f533840a8b
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 599cc1a779b0d62aa7870c07013e0766a9f8da1e4e5723e988b402b51a0c8f2c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320125"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>规划边缘服务器的高级部署Skype for Business Server
  

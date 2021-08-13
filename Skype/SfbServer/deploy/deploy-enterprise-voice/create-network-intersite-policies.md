@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中创建网络站点间策略
+title: 在站点内创建网络站点间Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: 创建网络站点间策略，这些策略企业语音 Skype for Business Server 中的呼叫允许控制。
-ms.openlocfilehash: 7c0ca45c691ab1ef70d3660c3d49a08c40bdd40d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 创建网络站点间策略，这些策略企业语音呼叫允许控制Skype for Business Server。
+ms.openlocfilehash: 8e5fb020ece1762868f9d943eb2aad955903b91329d636a981e644b2e9892b67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338750"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>在 Skype for Business Server 中创建网络站点间策略
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>在站点内创建网络站点间Skype for Business Server
  
-创建网络站点间策略，这些策略企业语音 Skype for Business Server 中的呼叫允许控制。 
+创建网络站点间策略，这些策略企业语音呼叫允许控制Skype for Business Server。 
   
 网络站点间策略定义在站点之间具有直接 WAN 链路的站点之间的带宽限制。
   
@@ -36,7 +36,7 @@ ms.locfileid: "51093080"
   
 ### <a name="to-create-a-network-inter-site-policy"></a>创建网络站点间策略
 
-1. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
 2. 运行 New-CsNetworkInterSitePolicy cmdlet 创建网络站点间策略，并针对具有直接交叉链接的两个站点应用相应的带宽策略配置文件。 例如，运行：
     

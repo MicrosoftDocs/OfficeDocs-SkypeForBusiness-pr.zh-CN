@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 会议策略定义会议期间用户可以使用的各种功能。
-ms.openlocfilehash: 6d69c463a9aa8a1e151b0787dfbfebf4e24fb693
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0acc18e27942c9a7b7c1198ee8372e47bd8fb79d34e3f94320cde441331e2bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342277"
 ---
 # <a name="conferencing-policy"></a>会议策略
 
@@ -77,4 +77,4 @@ ms.locfileid: "51115362"
 
 - **录制** 如果会议策略指定允许在会议中录制，则选中。
 
-有关会议特性和功能的详细信息，请参阅规划文档中的[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)。 有关使用会议策略的详细信息，请参阅操作文档中的[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)。
+有关会议特性和功能的详细信息，请参阅规划文档中的[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)。有关使用会议策略的详细信息，请参阅操作文档中的[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)。

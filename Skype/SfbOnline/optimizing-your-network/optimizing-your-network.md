@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
-description: 以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还提供与 Microsoft FastTrack 中心、Microsoft 服务和帐户团队或 Microsoft 合作伙伴合作时要讨论的问题，以了解如何满足这些要求。
-ms.openlocfilehash: a32e7864a15945fc9bad64c12466aa376cb924f9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: 以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还提供与 Microsoft FastTrack 中心、Microsoft 服务和帐户团队或 Microsoft 合作伙伴合作，了解如何满足这些要求时要讨论的问题。
+ms.openlocfilehash: 048efdec25b1a84221adb6e765d21918e48c109c2e18ab8f501bae757348c792
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323654"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>为 Skype for Business Online 优化网络
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还提供与 [Microsoft FastTrack 中心、Microsoft](https://fasttrack.microsoft.com/office)服务和帐户团队或 [Microsoft](https://partnercenter.microsoft.com/pcv/search) 合作伙伴合作时要讨论的问题，以了解如何满足这些要求。
+以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还提供与[Microsoft FastTrack 中心、Microsoft](https://fasttrack.microsoft.com/office)服务和帐户团队或[Microsoft](https://partnercenter.microsoft.com/pcv/search)合作伙伴合作时要讨论的问题，以了解如何满足这些要求。
 
 ## <a name="a-quick-overview"></a>简要概述
 

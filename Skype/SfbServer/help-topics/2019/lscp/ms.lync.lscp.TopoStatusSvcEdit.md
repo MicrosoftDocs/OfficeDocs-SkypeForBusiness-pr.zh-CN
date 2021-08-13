@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: b4503e3f97132bab4724aa13da2ff260390697dd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d9e2ac8ce611b2eb349c3123eaca6b41a202241000231be316a5af4969bf403f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323474"
 ---
 # <a name="topology-view-service-detail"></a>拓扑：查看服务详细信息
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [查看运行 Skype for Business Server 或 Lync Server 的计算机列表](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
+- [查看运行 Lync Server 或 Lync Server Skype for Business Server的计算机列表](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
 - [查看有关服务的详细信息](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 

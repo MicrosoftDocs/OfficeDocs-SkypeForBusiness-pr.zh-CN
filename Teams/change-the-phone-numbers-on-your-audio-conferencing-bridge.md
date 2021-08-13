@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解向会议网桥分配新服务电话号码以扩大用户的覆盖范围所需的步骤。
-ms.openlocfilehash: 4514c9cf34049f9c9b92be697176c7897e560605
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: e7b3f441a36ed608f06b0faa92133c0c3cd59c54d07ef86a650cb79bd5d35ec4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53724505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340478"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
