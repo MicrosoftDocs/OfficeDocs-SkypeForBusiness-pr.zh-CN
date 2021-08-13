@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要处理待处理的联机证书请求（即已发送给联机证书颁发机构但是在管理上设置为需要手动批准过程的请求），请单击“下一步”。
-ms.openlocfilehash: e42817eb4dbca56298ddd8c2268e2cbaee7325bc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 633b09cb22d4efdf07795763bb26c0baf8ada9830fa32f8a98494b535eb85318
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837002"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304324"
 ---
 # <a name="pending-certificate-intro"></a>待处理的证书（简介）
  

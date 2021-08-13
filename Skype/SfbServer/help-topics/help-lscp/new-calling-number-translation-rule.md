@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
-description: 您可以使用“新建 Trunk 配置”：“新建呼叫号码转换规则”来创建新的转换规则。 有关转换规则的详细信息，请参阅以下主题：
-ms.openlocfilehash: e43ae3461ae3e651a563088c6c6554b03404dc59
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 您可以使用“新建 Trunk 配置”：“新建呼叫号码转换规则”来创建新的转换规则。有关转换规则的详细信息，请参阅以下主题：
+ms.openlocfilehash: d6ac1db58005a74e95e02a5c54a85ed68829b0493633b099fdb344509c54233c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099568"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303954"
 ---
 # <a name="new-calling-number-translation-rule"></a>新建呼叫号码转换规则
 

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 为组织获取电话号码或端口（转接）号码时，可能需要在 PSTN 服务台获取帮助和支持。
-ms.openlocfilehash: b3925fbd473094b06133fb7cfe31479396434b80
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
-ms.translationtype: MT
+ms.openlocfilehash: 4fa1a72c68c43f82715fb5f54a77a2e3a2181445f37afeb4f1bf640bb2766de6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310670"
 ---
 # <a name="pstn-service-desk"></a>PSTN 服务台 
 
@@ -48,7 +48,7 @@ ms.locfileid: "53510273"
 > [!NOTE]
 > 仅允许同一租户中的某人创建案例。 也就是说，@fabrikam.com 中的某人无法代表 @contoso.com 创建案例。 
 
-在电话号码服务中心，你可以创建新案例、查看现有案例、与服务台通信以及管理用户配置文件。 以下各节更详细地介绍了这些任务。
+在电话号码服务中心，可以创建新案例、查看现有案例、与服务台通信以及管理用户配置文件。以下各节更详细地描述了这些任务。
 
 - **电话号码服务中心** – 导航到门户主页。 
 

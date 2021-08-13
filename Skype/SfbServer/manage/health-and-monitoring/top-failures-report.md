@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的热门故障报告
+title: 报告中的故障Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 摘要：了解 Skype for Business Server 中的顶级故障报告。
-ms.openlocfilehash: bd03dc921e8df122f4e1ac3ca5cf15195a84b13e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Summary： Learn about the Top Failures Report in Skype for Business Server.
+ms.openlocfilehash: 04088bce640ec19675afb1513645639a59ed4351ab581280bbec4904d57f835e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816682"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317549"
 ---
-# <a name="top-failures-report-in-skype-for-business-server"></a>Skype for Business Server 中的热门故障报告
+# <a name="top-failures-report-in-skype-for-business-server"></a>报告中的故障Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中的顶级故障报告。
+**摘要：** 了解 Skype for Business Server 中的顶部故障Skype for Business Server。
   
 主要故障报告说明了最常报告的故障及其在一段时间内的趋势。故障基于以下两项指标的组合：
   
 - **诊断 ID**。附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式）。诊断 ID 提供的信息在解决与呼叫相关的问题时很有用。
     
-- **响应代码**。 响应代码在 SIP 通信会话中用来响应 SIP 请求。 例如，假定 Ken 将 INVITE 请求发送给 Pilar Ackerman（即，假定 Ken Myer 呼叫 Pilar Ackerman）。 如果 Pilar 应答，则她的电话将发送响应代码 200（确定），以便让 Ken 的电话获知 Pilar 已应答。 顶级故障报告仅包括为响应呼叫失败而发送的响应代码;Skype for Business Server 不会跟踪呼叫过程中发出的所有响应代码。
+- **响应代码**。 响应代码在 SIP 通信会话中用来响应 SIP 请求。 例如，假定 Ken 将 INVITE 请求发送给 Pilar Ackerman（即，假定 Ken Myer 呼叫 Pilar Ackerman）。 如果 Pilar 应答，则她的电话将发送响应代码 200（确定），以便让 Ken 的电话获知 Pilar 已应答。 顶级故障报告仅包括为响应呼叫失败而发送的响应代码;Skype for Business Server不会跟踪呼叫过程中发出的所有响应代码。
     
 不仅将报告与出现故障的会话的总数相关的信息，而且还将报告与受故障影响的用户总数相关的信息。
   
 ## <a name="accessing-the-top-failures-report"></a>访问主要故障报告
 
-可从监控报告主页访问主要故障报告。 单击报告的会话指标将进入 Skype for [Business Server 中的故障分布报告](failure-distribution-report.md)。
+可从监控报告主页访问主要故障报告。 单击"报告的会话"指标将进入"报告"中的"故障分布[Skype for Business Server"](failure-distribution-report.md)。
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>最充分地利用主要故障报告
 
-主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。  (通常一次只能筛选一个项目（如一个用户 ) SIP 地址）。若要筛选多个诊断 ID，只需在诊断 ID 框中输入每个 ID，使用逗号分隔 ID。  (，可以在每个逗号后留一个空格。) 例如：
+主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。  (通常一次只能筛选一个项目（如一个用户 SIP 地址）。) 若要筛选多个诊断 ID，只需在"诊断 ID"框中输入每个 ID，使用逗号分隔这些 ID。  (如果需要，可以在每个逗号后留一个空格) 例如：
   
 1011, 2412, 1033, 52116, 1008
   
@@ -58,15 +58,15 @@ ms.locfileid: "49816682"
 |**名称**|**说明**|
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|"自" <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**活动类型** <br/> | 活动的类型。选择下列选项之一： <br/>  [全部] <br/>  对等 <br/>  会议 <br/> |
+|**To** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
+|**活动类型** <br/> | 活动的类型。选择下列选项之一： <br/>  [All] <br/>  对等 <br/>  会议 <br/> |
 |**形式** <br/> |在这里，只能选择“[所有]”选项。  <br/> |
 |**Pool** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。<br/> |
 |**类别** <br/> | 遇到的故障的类型。选择下列选项之一： <br/>  预期失败和意外失败 <br/>  意外失败 <br/>  “预期失败”是指预计会出现的失败情况。例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。“意外失败”是指在本该正常运行的系统中出现的失败情况。例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。如果终止，则会被标记为意外失败。 <br/> |
 |**响应代码** <br/> |会议失败时发送的 SIP 响应代码。请输入完整的响应代码。例如：  <br/> 400  <br/> |
 |**诊断 ID** <br/> |附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。诊断标头是可选的（SIP 会话可以不包含这些标头），并且只对遇到此类问题的会话报告诊断 ID。  <br/> |
    
-## <a name="metrics"></a>指标
+## <a name="metrics"></a>度量标准
 
 下表列出了主要故障报告中提供的信息。
   

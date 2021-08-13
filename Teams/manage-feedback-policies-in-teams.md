@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用反馈策略来控制Teams用户是否可以向 Microsoft Teams反馈。
-ms.openlocfilehash: 66f14467e66456f244664a8273e0ff962297c05f
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 749027ae6dcb9766564444b659d5695abfe733210bc11837946bd4b328d3ab47
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310680"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理反馈策略Microsoft Teams
 
@@ -47,7 +47,7 @@ ms.locfileid: "51656718"
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>设置用户是否可以向 Microsoft Teams反馈
 
-作为管理员，您可以控制您的组织中的用户是否可以通过"提供反馈"Teams Microsoft 发送有关用户反馈，以及他们是否收到调查。 默认情况下，将自动为组织中的所有用户分配全局 (组织范围的默认) 策略，并且"提供反馈"功能与调查在策略中启用。 教育Teams例外，其中功能为教师启用，学生禁用。
+作为管理员，您可以控制您的组织中的用户是否可以通过"提供反馈"Teams Microsoft 发送有关用户反馈，以及他们是否收到调查。 默认情况下，将自动为组织中的所有用户分配全局 (组织范围的默认) 策略，并且"提供反馈"功能与调查在策略中启用。 例外情况是Teams 教育版，其中为教师启用和禁用了学生的功能。
 
 可以编辑全局策略，也可以创建和分配自定义策略。 编辑全局策略或分配自定义策略后，可能需要几个小时更改才能生效。
 

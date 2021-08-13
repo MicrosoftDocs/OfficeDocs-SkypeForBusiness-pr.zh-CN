@@ -1,5 +1,5 @@
 ---
-title: 更改 Skype for Business Server 中的现有存档策略
+title: 更改现有存档策略Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 摘要：了解如何更改 Skype for Business Server 的用户存档策略。
-ms.openlocfilehash: 47c9d5938c22b93db48c96265831cbf24ecc24d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解如何更改用户存档策略Skype for Business Server。
+ms.openlocfilehash: 571f32a4cf5fb0bddd006719f3a9886c852df3f7196adf774f554cda216ea0a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817702"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315708"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>更改 Skype for Business Server 中的现有存档策略
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>更改现有存档策略Skype for Business Server
  
-**摘要：** 了解如何更改 Skype for Business Server 的用户存档策略。
+**摘要：** 了解如何更改用户存档策略Skype for Business Server。
   
-首次部署 Skype for Business Server 时，将设置初始存档策略，以确定如何为部署中的用户实施存档。 本主题介绍如何管理和修订策略。 
+首次部署Skype for Business Server时，将设置初始存档策略，以确定如何为部署中的用户实施存档。 本主题介绍如何管理和修订策略。 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>使用控制面板更改存档策略
 
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
 3. 在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档策略”**。
     
@@ -50,7 +50,7 @@ ms.locfileid: "49817702"
 6. 单击“提交”。
     
     > [!IMPORTANT]
-    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅 [在 Skype for Business Server 中向用户应用存档策略](apply-a-policy-to-users.md)。 
+    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[向用户应用存档Skype for Business Server。](apply-a-policy-to-users.md) 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>使用策略更改存档Windows PowerShell
 

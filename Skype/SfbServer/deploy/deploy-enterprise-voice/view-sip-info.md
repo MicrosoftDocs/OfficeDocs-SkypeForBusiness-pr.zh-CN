@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 摘要：了解如何查看有关 Skype for Business Server 中的 SIP 中继的信息。
-ms.openlocfilehash: 2f4cc3a7435577d6c9d635a7dc910873b21f9981
+ms.openlocfilehash: bbb1a08252240341ceb6e27181dce999753924c897d470a182341be4178ae2a4
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772793"
+ms.locfileid: "54304464"
 ---
 # <a name="skype-for-business-server-view-information-about-individual-sip-trunks"></a>Skype for Business Server：查看有关单个 SIP 中继的信息 
  

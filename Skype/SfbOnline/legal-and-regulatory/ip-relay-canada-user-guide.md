@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 如何使用加拿大的 IP 中继帐户。
-ms.openlocfilehash: b7f276bdf921fdc721ef1df883d3c5d714e4a94f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: ac3ac8b480f1759437fa74572544d85f17542e9288c925ebd07bfaea9a25e0de
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316508"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>加拿大 IP 中继 - 用户指南
 

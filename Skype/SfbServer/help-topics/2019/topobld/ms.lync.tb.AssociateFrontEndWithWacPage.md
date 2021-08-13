@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Office Web Apps Server 提供的服务类似于演示者上载文档以用于会议，但启用以前版本未启用的其他功能。
-ms.openlocfilehash: 566bd3f6137c3f8c52557218bd9251b8123f74c1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Office Web Apps Server 提供了类似于演示者上载文档以用于会议的服务，但启用以前版本未启用的其他功能。
+ms.openlocfilehash: 73637639988d80ece99cdc7519b2e50abce4b354929ded1f3b9e78cdf4591e97
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122623"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304134"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>将前端与 Office Web Apps Server 页面关联
 
-Office Web Apps Server 提供的服务类似于演示者上载文档以用于会议，但启用以前版本未启用的其他功能。
+Office Web Apps Server 提供了类似于演示者上载文档以用于会议的服务，但启用以前版本未启用的其他功能。
 
-如果你已选择会议作为 Skype for Business Server 配置的功能选项之一，则选择用于部署的 Office Web Apps 服务器。
+如果选择会议Office配置的功能选项之一，请选择用于部署的 Web Apps Skype for Business Server选项。
 
 此对话框中的选项为您提供以下选择：
 
-1. **将池与 Office Web Apps 服务器** 关联 - 如果要为会议用户提供和部署 Office Web Apps 服务器，请选中此复选框。
+1. **将池与 Office Web Apps Server** 关联 - 如果要为会议用户提供和部署 Office Web Apps Server，请选中此复选框。
 
 2. 如果选中了此复选框，则使用列表选择已定义的 Office Web Apps 服务器。
 

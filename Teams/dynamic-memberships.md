@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74974f7b94a5d1bcadb340e132dae9e3b39a7704
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 2bec8b60385185cf1e7417fb5396ef164eb585bad03d003eb174d0bb9cf30c4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315298"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 
@@ -33,7 +33,7 @@ Microsoft Teams动态成员身份 支持与Microsoft 365组 *关联的团队*。
 - 大学可创建特定大学内所有教职员工（包括经常更改的教职员工）的团队。
 - 航空公司想要为每个航班团队创建一个团队 (例如周二下午从芝加哥到亚特兰大) 并根据需要自动分配或删除经常更改的航班乘务员。
 
-使用此功能，给定团队成员将基于一组特定条件自动更新，而不是手动管理成员身份。 执行此操作需要 Azure AD 高级版 P1 许可证，并且只要拥有[](/azure/active-directory/users-groups-roles/groups-dynamic-membership)租户和管理员帐户，租户管理员就可以将团队成员身份分配给任何用户的 Azure AD 属性。
+使用此功能，给定团队成员将基于一组特定条件自动更新，而不是手动管理成员身份。 执行此操作需要Azure AD Premium P1拥有租户和管理员帐户，租户管理员可以将许可证[](/azure/active-directory/users-groups-roles/groups-dynamic-membership)和团队成员身份分配给任何用户的 Azure AD 属性。
 
 Microsoft Teams可能需要几分钟到最多 2 小时才能反映动态成员身份更改，一旦这些更改在团队的 Microsoft 365 组中生效。
 

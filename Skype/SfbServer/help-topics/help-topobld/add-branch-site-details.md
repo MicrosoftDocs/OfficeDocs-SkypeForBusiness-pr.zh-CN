@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 若要指定网站的网站详细信息，请执行下列操作：
-ms.openlocfilehash: ce3101141d25279a4509c7980800d0e3e2c3fd0c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 72f0641897e34ad7b42a6f1c9f49738d5e6b6895ab1b0d97ad06a90f8a91ae00
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303884"
 ---
 # <a name="add-branch-site-details"></a>添加分支站点详细信息
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为公司中的大型组织设置和测试自动助理Microsoft Teams。
-ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: b25a3126e697b30093f38148c43cf29e55ba776a4b2adca14a75779dcd4dc8c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315388"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -139,11 +139,11 @@ ms.locfileid: "52777795"
 - *+\<phone number>x\<extension>*
 - *x\<extension>*
 
-- 示例 1：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678;ext=5678"
+- 示例 1：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
 - 示例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678x5678"
 - 示例 3：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-可以在管理中心或 Microsoft 365[管理](https://admin.microsoft.com/)中心中Azure Active Directory[扩展](https://aad.portal.azure.com)。 更改最多可能需要 12 小时才能提供给自动助理和呼叫队列。
+可以在管理中心或 Microsoft 365 管理中心[中Azure Active Directory](https://admin.microsoft.com/)[扩展](https://aad.portal.azure.com)。 更改最多可能需要 12 小时才能提供给自动助理和呼叫队列。
 
 > [!NOTE]
 > 如果要同时使用"按姓名拨叫"和"按分机号码拨叫"功能，可以在主自动助理上分配拨号键，以联系为"按姓名拨叫"启用 **的自动助理**。 在此自动助理中，你可以分配 1 个没有与之关联的 (的密钥，) 电话分机 **自动** 助理。

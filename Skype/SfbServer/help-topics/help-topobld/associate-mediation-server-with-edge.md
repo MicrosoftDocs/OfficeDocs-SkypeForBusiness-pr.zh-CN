@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 要定义中介服务器，请指定将中介服务器与前端服务器和边缘服务器或池相关联的设置。要将中介服务器或池与边缘服务器或边缘服务器池相关联，请执行以下操作：
-ms.openlocfilehash: ffd369c76db96185e76665728a88ed8d8419a03d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 20a6e3de81bae13fd14683af62a6c79627a148cf00d50d7584c15ca27d8da0ee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315808"
 ---
 # <a name="associate-mediation-server-with-edge"></a>将中介服务器与边缘关联
  
@@ -33,6 +33,6 @@ ms.locfileid: "49835472"
 > [!NOTE]
 > 如果尚未在部署中定义边缘服务器或边缘服务器池，则下拉列表中不会包含任何条目。向部署中添加边缘服务器或池之后，可以单击“下一步”继续操作，并编辑中介服务器的设置。
   
-有关其他详细信息，请参阅 [在 Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)的拓扑生成器中部署中介服务器。
+有关其他详细信息，请参阅[Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015。](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)
   
 

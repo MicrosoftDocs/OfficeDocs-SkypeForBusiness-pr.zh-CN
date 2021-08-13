@@ -1,5 +1,5 @@
 ---
-title: 使用 Skype for Business Server 的呼叫质量仪表板
+title: 使用呼叫质量仪表板进行Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 摘要：了解如何使用呼叫质量仪表板。 呼叫质量仪表板是 Skype for Business Server 的工具。
-ms.openlocfilehash: d4787671955159d2bef0144872c50caccbbbb8eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何使用呼叫质量仪表板。 通话质量仪表板是一种用于Skype for Business Server。
+ms.openlocfilehash: a2f5cbe503f914fe32b42119397be44ab82617cddd9951ab7064a2d08c0289f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317577"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用 Skype for Business Server 的呼叫质量仪表板
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用呼叫质量仪表板进行Skype for Business Server
 
-**摘要：** 了解如何使用呼叫质量仪表板。 呼叫质量仪表板是 Skype for Business Server 的工具。
+**摘要：** 了解如何使用呼叫质量仪表板。 通话质量仪表板是一种用于Skype for Business Server。
 
 呼叫质量仪表板 (CQD) 使 IT 专业人员可以使用聚合数据，通过比较用户组的统计信息来确定趋势和模式，从而发现产生媒体质量问题的问题。 CQD 并非专注于解决单个呼叫问题，而是侧重于识别适用于许多用户的问题和解决方案。
 
 ## <a name="call-quality-dashboard-user-guide"></a>呼叫质量仪表板用户指南
 
-CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速创建和组织报告。 CQD 部署 SSAS 多维数据集以聚合 QoE 指标数据库中的数据，使管理员能够创建和修改报告或实时进行调查。 虽然可以使用 Excel 直接连接到多维数据集，但门户针对涉及 QoE 数据的多个工作流进行了优化。 数据包括：
+CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速创建和组织报告。 CQD 部署 SSAS 多维数据集以聚合 QoE 指标数据库中的数据，使管理员能够创建和修改报告或实时进行调查。 虽然可以使用 Excel直接连接到多维数据集，但门户已针对涉及 QoE 数据的几个工作流进行了优化。 数据包括：
 
 - 用于快速访问的缓存报表数据
 - 用于信息共享和发布的报告页面的深层链接
@@ -55,7 +55,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 
 在顶层，"音频流每月趋势"报告显示所有音频流的每月趋势。 将鼠标移动到条形图中的条形图上，以显示条形图所代表的数据的更详细的视图。 单击"音频流每月趋势"报告的标题以导航到"托管音频流与非托管音频流"报告，其中报告在托管呼叫和非托管呼叫之间拆分。 托管呼叫是在公司防火墙内通过有线连接拨打的呼叫。 非托管呼叫包括从公司防火墙外拨打的呼叫，以及通过 WI-Fi 进行的所有呼叫。
 
-另一个顶级报告称为"用户报告的呼叫质量分级直方图"。 通话质量评级是 Skype for Business 用户在呼叫结束时提供的数字，用于指示呼叫质量。 评分数字范围为 1 到 5，1 表示最差，5 表示最佳。 直方图显示一个月内评级为指示的音频呼叫数。
+另一个顶级报告称为"用户报告的呼叫质量分级直方图"。 呼叫质量评级是呼叫结束时Skype for Business用户给出的号码，用于指示呼叫质量。 评分数字范围为 1 到 5，1 表示最差，5 表示最佳。 直方图显示一个月内评级为指示的音频呼叫数。
 
 单击任何报告的标题以导航到具有更多数据筛选器的报告。 在系统报告中，每个子报告都显示其父报告中可用数据的子集。 问题解决模型很简单：调查将问题限制到的数据或趋势的子报告，并逐渐缩小问题空间。 创建子报表的能力允许您调查自己对特定数据趋势的原因的猜测。
 
@@ -103,32 +103,32 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 
 **CqdBuilding**
 
-|Column|数据类型|是否允许 Null？|详细信息|
+|列|数据类型|是否允许 Null？|详细信息|
 |:-----|:-----|:-----|:-----|
 |BuildingKey |int |否 |CqdBuilding 表的主键。 |
 |BuildingName |varchar (80)  |否 |大楼名称。 |
 |BuildingShortName |varchar (10)  |否 |生成名称的更短版本。 |
 |OwnershipTypeId |int |否 |外键，与 CqdBuildingOwners 表中的条目之一匹配。 |
 |BuildingTypeId |int |否 |外键，与 CqdBuildingType 表中的条目之一匹配。 |
-|Latitude |float |是的。 |大楼的纬度。 |
-|Longitude |float |是的。 |大楼的经度。 |
-|CityName |varchar (30)  |是的。 |大楼所在的城市名称。 |
-|ZipCode |varchar (25)  |是的。 |大楼所在的邮政编码。 |
-|CountryShortCode |varchar (2)  |是的。 |大楼所在的国家/地区 ISO 3166-1 alpha-2 代码。 |
-|StateProvinceCode |varchar (3)  |是的。 |大楼所在的省/市/市/县的三字母缩写。 |
-|InsideCorp |bit |是的。 |Bit 指示建筑物是否是企业网络的一部分。 |
-|BuildingOfficeType |nvarchar (150)  |是的。 |大楼办公类型的说明。 |
-|地区 |varchar (25)  |是的。 |大楼所在的区域。 |
+|Latitude |float |是 |大楼的纬度。 |
+|Longitude |float |是 |大楼的经度。 |
+|CityName |varchar (30)  |是 |大楼所在的城市名称。 |
+|ZipCode |varchar (25)  |是 |大楼所在的邮政编码。 |
+|CountryShortCode |varchar (2)  |是 |大楼所在的国家/地区 ISO 3166-1 alpha-2 代码。 |
+|StateProvinceCode |varchar (3)  |是 |大楼所在的省/市/市/县的三字母缩写。 |
+|InsideCorp |bit |是 |Bit 指示建筑物是否是企业网络的一部分。 |
+|BuildingOfficeType |nvarchar (150)  |是 |大楼办公类型的说明。 |
+|地区 |varchar (25)  |是 |大楼所在的区域。 |
 |||||
 
 **CqdNetwork**
 
-|Column|数据类型|是否允许 Null？|详细信息|
+|列|数据类型|是否允许 Null？|详细信息|
 |:-----|:-----|:-----|:-----|
 |网络 |varchar (25)  |否 |子网地址。 |
-|NetworkRange |tinyint |是的。 |子网掩码。 |
-|NetworkNameID |int |是的。 |（可选）映射到 CqdNetworkName 表中的行。 |
-|BuildingKey |int |是的。 |外键，与 CqdBuilding 表中的条目之一匹配。 |
+|NetworkRange |tinyint |是 |子网掩码。 |
+|NetworkNameID |int |是 |（可选）映射到 CqdNetworkName 表中的行。 |
+|BuildingKey |int |是 |外键，与 CqdBuilding 表中的条目之一匹配。 |
 |UpdatedDate |datetime |否 |上次更新条目的日期/时间。 |
 ||||||
 
@@ -136,7 +136,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 
 **CqdBuildingType**
 
-|Column|数据类型|是否允许 Null？|详细信息|
+|列|数据类型|是否允许 Null？|详细信息|
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |int |否 |CqdBuildingType 表的主键。 |
 |BuildingTypeDesc |char (18)  |否 |大楼类型说明。 |
@@ -146,25 +146,25 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 
 **CqdBuildingOwnershipType**
 
-|Column|数据类型|是否允许 Null？|详细信息|
+|列|数据类型|是否允许 Null？|详细信息|
 |:-----|:-----|:-----|:-----|
 |OwnershipTypeId |int |否 |CqdBuildingOwnershipType 表的主键。 |
 |OwnershipTypeDesc |varchar (25)  |否 |所有权类型说明。 |
-|LeaseInd |tinyint |是的。 |引用 CqdBuildingOwnershipType 表中另一行的索引，用于标识租用的大楼。 |
-|所有者 |varchar (50)  |是的。 |大楼所有者。 |
+|LeaseInd |tinyint |是 |引用 CqdBuildingOwnershipType 表中另一行的索引，用于标识租用的大楼。 |
+|所有者 |varchar (50)  |是 |大楼所有者。 |
 |||||
 
 默认情况下，此下一个表具有一 (0、"Unknown"、0 和 null) 。
 
 **CqdBssid**
 
-|Column|数据类型|是否允许 Null？|详细信息|
+|列|数据类型|是否允许 Null？|详细信息|
 |:-----|:-----|:-----|:-----|
 |bss |nvarchar(50) |否 |CqdBssid 表的主键。 是 WiFi 接入点的 BSSID。 |
-|ess |nvarchar(50) |是的。 |Wifi 接入点控制器信息。 |
-|phy |nvarchar(50) |是的。 |Phy 信息。 |
-|ap |nvarchar(50) |是的。 |Wifi 接入点名称。 |
-|生成 |nvarchar (500)  |是的。 |WiFi 访问点所在的建筑物名称。 |
+|ess |nvarchar(50) |是 |Wifi 接入点控制器信息。 |
+|phy |nvarchar(50) |是 |Phy 信息。 |
+|ap |nvarchar(50) |是 |Wifi 接入点名称。 |
+|生成 |nvarchar (500)  |是 |WiFi 访问点所在的建筑物名称。 |
 ||||
 
 ## <a name="cqd-streams"></a>CQD 流

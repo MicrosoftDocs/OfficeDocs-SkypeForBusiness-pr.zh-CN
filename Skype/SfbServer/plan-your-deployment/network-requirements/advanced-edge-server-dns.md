@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 查看部署选项Skype for Business Server方案。 无论是希望使用单个服务器，还是首选具有 DNS 或 HLB 的服务器池，本主题都应有所帮助。
-ms.openlocfilehash: 49a0af504833a30154c54e90f595b972712a530f
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: d7f3847cb538dcdfbb09809b6313a9aa9b4f42e5431aa279d411a97bb0979752
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53724585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315468"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高级边缘服务器 DNS 规划Skype for Business Server
  
