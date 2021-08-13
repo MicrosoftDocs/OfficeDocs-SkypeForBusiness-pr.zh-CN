@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0bb2924eddd957e2a56548df4426b74e782af56dc9e727142b17869e6630e273
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121560"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318625"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -81,7 +81,7 @@ Microsoft 在最近发布的新型冠状病毒肺炎（COVID-19）疫情公告�
 
 - 如果您从事教育行业工作，而且想要在 Teams 上设定教师、学生和系统管理员，请使用 Office 365 A1，即可供教育机构使用的 Office 365 免费版。 访问 [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) 进行注册。
 
-### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>我已有 Microsoft 365，但没有使用 Teams。 是否提供试用版许可证？
+### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>我已有 Microsoft 365，但没有使用 Teams。是否提供试用版许可证？
 
 如果有 Microsoft 365，则表示已经拥有 Teams。 为用户[启用 Teams](Office-365-set-up.md)。 启用后，用户可以通过安装[桌面版](get-clients.md#desktop-client)和[移动版](get-clients.md#mobile-clients)客户端运行 Teams，或从[浏览器](get-clients.md#mobile-clients)，在 [https://teams.microsoft.com](https://teams.microsoft.com) 上运行。 
 

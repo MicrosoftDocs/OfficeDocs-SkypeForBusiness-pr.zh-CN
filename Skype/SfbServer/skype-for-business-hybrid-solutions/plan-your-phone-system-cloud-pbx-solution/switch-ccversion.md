@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
-description: 'Switch-CcVersion cmdlet 可将正在运行的设备断开连接，并切换到新部署的设备或备份设备。 '
-ms.openlocfilehash: 31dbb841caae51de0accedf081fa576ec378044b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 该Switch-CcVersion cmdlet 断开正在运行的设备，并切换到新部署的或备份的设备。
+ms.openlocfilehash: 1558f34d2388dc75bf4398ba15fc09cd36c439e2d70a39588ee697bc0ef04341
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824146"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320035"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
-Switch-CcVersion cmdlet 可将正在运行的设备断开连接，并切换到新部署的设备或备份设备。  
+该Switch-CcVersion cmdlet 断开正在运行的设备，并切换到新部署的或备份的设备。 
   
 ```powershell
 Switch-CcVersion [-Force]
@@ -33,7 +33,7 @@ Switch-CcVersion [-Force]
 
 ### <a name="example-1"></a>示例 1
 
-以下示例将排出当前正在运行的设备的服务，然后切换到新部署的设备或备份设备：
+以下示例排出当前正在运行的设备的服务，然后切换到新部署的或备份的设备：
   
 ```powershell
 Switch-CcVersion
@@ -41,7 +41,7 @@ Switch-CcVersion
 
 ### <a name="example-2"></a>示例 2
 
-下一个示例将排出当前正在运行的设备的服务，并在排出服务失败时强制停止服务。 然后，该命令将切换到新部署的设备或备份设备。
+下一个示例将排出当前正在运行的设备的服务，如果排出服务失败，将强制停止服务。 然后，该命令将切换到新部署的或备份设备：
   
 ```powershell
 Switch-CcVersion -Force
@@ -50,14 +50,14 @@ Switch-CcVersion -Force
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-CcVersion cmdlet 用于在中介服务器和 Edge 服务器上消耗云连接器服务。 所有正在运行的呼叫都将完成，但设备将拒绝任何新呼叫。 排出后，cmdlet 会从企业和 Internet 网络中断开正在运行的设备，关闭属于该设备的所有虚拟机，然后将备份设备连接至企业和 Internet 网络。
+此Switch-CcVersion cmdlet 会排出中介服务器和边缘服务器上云连接器服务。 所有正在运行的呼叫都将完成，但设备将拒绝任何新呼叫。 排出后，该 cmdlet 会断开正在运行的设备与企业网络和 Internet 网络连接，关闭属于该设备的所有虚拟机，然后将备份设备连接到企业网络和 Internet 网络。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必需**|**类型**|**说明**|
+|**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| Force <br/> | 可选 <br/> |System.Management.Automation.SwitchParameter  <br/> |  在排出服务失败时强制停止服务。 <br/> |
+| Force <br/> | 可选 <br/> |System.Management.Automation.SwitchParameter  <br/> | 如果排出服务失败，强制停止服务。 <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

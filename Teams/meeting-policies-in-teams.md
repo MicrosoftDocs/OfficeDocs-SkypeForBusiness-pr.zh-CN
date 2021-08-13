@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理会议策略设置。 使用策略设置来控制用户安排会议参与者可用的功能。
-ms.openlocfilehash: 09d821eb4a0ae6f1315ff5ff817c4b702512a974
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 3af33814333f23438c8c645b0a22782f231d275ce446a3816752aef8301dfd66
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282789"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319875"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理 Teams 中的会议策略
 
@@ -470,9 +470,9 @@ Daniela 可以在 Amanda 的会议上做笔记，而 Amanda 不能在任何会�
 |---------|---------|
 |**每个人**   |所有参会人员无需在大厅等待，直接加入会议。 这包括经过认证的用户、来自受信任组织的外部用户 (联合)、客人和匿名用户。     |
 |**我的组织中人员、受信任的组织和来宾**     |组织中经过身份验证的用户（包括来宾用户和受信任的组织的用户）直接加入会议，而无需等待。匿名用户等待等待。   |
-|**组织中用户和来宾**    |来自组织内部的认证用户，包括来宾用户，直接加入会议，无需在大厅等待。 来自可信组织的用户和匿名用户在大厅里等待。 这是默认设置。           |
+|**组织中用户和来宾**    |组织中经过身份验证的用户（包括来宾用户）无需在大厅中等待即可直接加入会议。来自受信任组织的用户和匿名用户则在大厅中等待。这是默认设置。           |
 |**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人，包括组织内部的认证用户、访客用户、来自受信任组织的用户和匿名用户都必须在大厅里等待。           |
-|**我的组织中人员**  |来自组织内部的认证用户，包括来宾用户，直接加入会议，无需在大厅等待。 来自可信组织的用户和匿名用户在大厅里等待。|
+|**我的组织中人员**  |组织中经过身份验证的用户（不包括来宾用户）直接加入会议，而无需在大厅等待。匿名用户等待等待。来自受信任组织和匿名用户的来宾和用户在大厅中等待。|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允许拨入用户绕过大厅
 

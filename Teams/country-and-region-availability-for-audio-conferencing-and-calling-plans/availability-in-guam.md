@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的 Skype for Business Microsoft Teams 服务。
-ms.openlocfilehash: 46e29df9990c6631c71a748ed51073549c533c9a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d37de29936565afa0b6e23c70d6f91f8ee06896a742ea68f7f20ef17248fa974
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319995"
 ---
 # <a name="availability-in-guam"></a>在波多黎各的可用性
 
@@ -42,7 +42,7 @@ ms.locfileid: "51118040"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费  <br/> |
-|是否自动分配音频会议的电话号码？  <br/> | 不支持 |
+|是否自动分配音频会议的电话号码？  <br/> | 弱 |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用额度 <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -69,7 +69,7 @@ ms.locfileid: "51118040"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | 不适用 <br/> |
-|是否提供收费电话号码？  <br/> |不支持 <br/> |
+|是否提供收费电话号码？  <br/> |弱 <br/> |
 |免费电话号码是否可用？  <br/> |是  <br/> |
    
  如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取音频会议的服务电话号码[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)

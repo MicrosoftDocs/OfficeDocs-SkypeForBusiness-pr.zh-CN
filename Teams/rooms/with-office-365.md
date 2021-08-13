@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何使用 Microsoft Teams 会议室 或 Microsoft 365 Office 365 部署 Teams，Skype for Business 和 Exchange 联机。
-ms.openlocfilehash: 64567cd9925a0a11d9e9b896c522a2c4bfe13f40
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: 5f700dfd839515cd34a1fec864994867055b11ec184bc0f70b4ea2107ddd16f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739642"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318266"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用 Microsoft Teams 会议室 或 Microsoft 365 部署Office 365
 
@@ -189,7 +189,7 @@ ms.locfileid: "52739642"
    启动远程[Windows PowerShell会话](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)，如下所示 (确保安装Skype for Business [Online PowerShell 组件](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)) ：
 
    > [!NOTE]
-   > Skype for Business联机连接器当前是 PowerShell 模块Teams的一部分。
+   > Skype for Business Online 连接器目前是最新 Teams PowerShell 模块的一部分。
    >
    > 如果使用的是[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams最新版本，则无需安装 Skype for Business Online 连接器。
 

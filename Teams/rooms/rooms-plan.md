@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 本文介绍部署新一代会议室系统Microsoft Teams 会议室相关的Skype注意事项。
-ms.openlocfilehash: d07783e2e3df7b4a8c2563b39fb702369751d139
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 6112e341d9a76b77d2c8f1a93d27c2c24d0d86cd7c17a499e0e55cfa7d2e1b23
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348777"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>计划Microsoft Teams 会议室
 
@@ -59,7 +59,7 @@ Microsoft Teams 会议室包括以下关键组件，以提供出色的用户体�
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![决定部署](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否将Microsoft Teams 会议室部署？ </li><li>如何购买你的Microsoft Teams 会议室-捆绑、作为独立组件或作为集成单元？</li></ul> |
-| ![标识活动](../media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>确定谁将在整个部署中执行关键活动。</li><li>查看已 (并计划设置) ，以了解要在何处部署 Microsoft Teams 会议室 以及适合会议室大小的外围设备。</li></ul> |
+| ![标识活动](../media/audio_conferencing_image9.png)<br/>下一步 | <ul><li>确定谁将在整个部署中执行关键活动。</li><li>查看已 (并计划设置) ，以了解要在何处部署 Microsoft Teams 会议室 以及适合会议室大小的外围设备。</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment&quot;></a>确定谁将在整个部署中执行关键活动
@@ -96,7 +96,7 @@ Microsoft Teams 会议室包括以下关键组件，以提供出色的用户体�
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
-| ![deplyment rooms](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>查看作用域中的聊天室，并Microsoft Teams 会议室其配置。</li></ul>|
+| ![deplyment rooms](../media/audio_conferencing_image9.png)<br/>下一步|<ul><li>查看作用域中的聊天室，并Microsoft Teams 会议室其配置。</li></ul>|
 
 _示例会议/会议室清单_
 
@@ -118,7 +118,7 @@ _示例会议/会议室清单_
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![范围内房间](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>从清单中，哪些类型的会议室在部署范围内？</li><li>将针对每种聊天室类型部署哪些系统？</li></ul>|
-| ![收集材料](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始收集所选系统的关键操作材料，并吸引采购团队参与。</li></ul>|
+| ![收集材料](../media/audio_conferencing_image9.png)<br/>下一步|<ul><li>开始收集所选系统的关键操作材料，并吸引采购团队参与。</li></ul>|
 
 _适用于Microsoft Teams 会议室的示例部署模板_
 
@@ -142,7 +142,7 @@ _适用于Microsoft Teams 会议室的示例部署模板_
 |   &nbsp; |  &nbsp;   |
 |-----------|------------|
 | ![发货组件](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否直接将组件运送到站点或过渡设施？</li><li>Who决定使用一个 (，请管理过渡) ？</li></ul>|
-| ![计划操作](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>规划操作。</li><li>规划采用和更改管理。</li></ul>|
+| ![计划操作](../media/audio_conferencing_image9.png)<br/>下一步|<ul><li>规划操作。</li><li>规划采用和更改管理。</li></ul>|
 
 ## <a name="plan-for-operations"></a>操作计划 
 
@@ -155,7 +155,7 @@ _适用于Microsoft Teams 会议室的示例部署模板_
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![选择管理器](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定谁将管理Microsoft Teams 会议室。</li><li>确定要路由与Microsoft Teams 会议室呼叫的支持人员队列。</li></ul>|
-| ![准备主机帐户](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>准备托管帐户。 </li></ul>|
+| ![准备主机帐户](../media/audio_conferencing_image9.png)<br/>下一步|<ul><li>准备托管帐户。 </li></ul>|
 
 
 ## <a name="plan-for-adoption-and-change-management"></a>规划采用和更改管理

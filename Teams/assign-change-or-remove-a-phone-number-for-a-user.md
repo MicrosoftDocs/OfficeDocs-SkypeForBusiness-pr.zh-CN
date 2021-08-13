@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何为用户分配、更改或删除工作电话号码Teams以便外部企业和客户可以呼叫。
-ms.openlocfilehash: 4f40049b3856f24d3ae5ddd3999be7213817bcdc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 443fdb5833e657c3f45c0f53d1d4ce6744bd67b0b83247e72084e3d29f6c1bc7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120814"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320025"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>为呼叫计划用户分配、更改或删除 (电话号码) 
 
@@ -38,7 +38,7 @@ ms.locfileid: "51120814"
 若要了解如何在加载项中Teams套餐及其费用，请参阅Teams[附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 > [!NOTE]
-> 查看用户是否分配了许可证的一种方式是，在"用户"Microsoft Teams管理 **>。** 如果分配了许可证，将在页面上指示该许可证。  也可使用 Microsoft 365 管理中心。
+> 查看用户是否分配了许可证的一种方式是，在"用户"Microsoft Teams管理 **>。** 如果分配了许可证，将在页面上指示该许可证。  也可使用Microsoft 365 管理中心。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>向用户分配电话号码
  

@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c665b96c0c44c2ea763c343bb2857d4c2b9dbb26
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e33e31c5fc6b005459e8b216a2cfec984b80e73dc821d4e13fcaac0d02acf86
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117270"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319675"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 脚本示例 - 创建和分配消息传递策略
 
 使用此 PowerShell 脚本在脚本中创建消息Microsoft Teams并将其分配给用户。 
 
-有关使用此 PowerShell 脚本的信息，请参阅[快速入门 - Teams 教育。](../teams-quick-start-edu.yml)
+有关使用此 PowerShell 脚本的信息，请参阅[快速入门 - Teams 教育版。](../teams-quick-start-edu.yml)
 
 此脚本使用 Skype for Business Online PowerShell 模块中的[Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) cmdlet。 请参阅[Teams PowerShell 概述](../teams-powershell-overview.md)，了解有关使用 PowerShell Teams管理应用程序。
 

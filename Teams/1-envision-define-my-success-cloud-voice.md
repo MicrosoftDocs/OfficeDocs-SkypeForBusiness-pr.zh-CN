@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 94430052082d523861ed4a938e0e0b02b70049f9
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 04cd584be5b6333c579ab8b4685ad917236e660474d9e49150eb0f563670fa6c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610981"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320005"
 ---
 # <a name="define-my-success"></a>定义成功
 
@@ -99,7 +99,7 @@ ms.locfileid: "44610981"
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |决策点|<ul><li>可以在组织中识别的音频会议的所有业务用例是什么？</li><li>呼叫计划的所有业务用例是什么？可以在组织中识别哪些情况？</li><li>可以在组织中识别的直接路由的所有业务用例是什么？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|后续步骤|<ul><li>记录组织音频会议的所有业务用例。</li><li>记录组织通话套餐的所有业务用例。</li><li>记录组织直接路由的所有业务用例。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|下一步|<ul><li>记录组织音频会议的所有业务用例。</li><li>记录组织通话套餐的所有业务用例。</li><li>记录组织直接路由的所有业务用例。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -134,7 +134,7 @@ ms.locfileid: "44610981"
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|决策点|<ul><li>Who将填补组织的每个关键利益干系人角色？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|后续步骤|<ul><li>记录所有关键利益干系人，并将角色的职责和期望传达给每个分配的个人。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|下一步|<ul><li>记录所有关键利益干系人，并将角色的职责和期望传达给每个分配的个人。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -227,7 +227,7 @@ KSIs 通过详细说明好结果和/或坏结果来测量关键结果的质量�
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|决策点|<ul><li>组织的 OKR&#39;KSIS 是什么？</li><li>你已确定哪些风险与组织中音频会议的实施相关？ 针对已识别的风险的缓解计划是什么？</li><li>你已发现哪些风险与组织中通话套餐的实施相关？ 针对已识别的风险的缓解计划是什么？</li><li>确定哪些风险与组织中直接路由的实施相关？ 针对已识别的风险的缓解计划是什么？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|后续步骤|<ul><li>记录 OKR 和 KSIS，并建立风险注册。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|下一步|<ul><li>记录 OKR 和 KSIS，并建立风险注册。</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -268,7 +268,7 @@ KSIs 通过详细说明好结果和/或坏结果来测量关键结果的质量�
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|决策点|<ul><li>确定组织是否需要一个指导委员会。</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|后续步骤|<ul><li>确定指导委员会的成员。</li><li>安排指导委员会会议。</li><li>准备指导委员会会议。</li><li>召开指导委员会会议。</li><li>根据指导委员会会议输入采取措施。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|下一步|<ul><li>确定指导委员会的成员。</li><li>安排指导委员会会议。</li><li>准备指导委员会会议。</li><li>召开指导委员会会议。</li><li>根据指导委员会会议输入采取措施。</li></ul>|
 
 有关如何操作适当指导委员会的其他详细指南，可在指导 [委员会指南中找到](envision-steering-committee-complete-guide.md)。
 

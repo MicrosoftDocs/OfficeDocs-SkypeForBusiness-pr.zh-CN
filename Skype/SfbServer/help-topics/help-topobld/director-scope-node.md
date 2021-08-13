@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 此节点显示该控制器池的完全限定域名 (FQDN)、端口和关联的文件存储。可以执行以下操作：
-ms.openlocfilehash: 9c3978314ab1e4e227e5a5efff2d183c75a4353d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4ebb472f04e9ffde1ec37c96062a8fba40124a5e2b75e29820fc79f020d9c599
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835322"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333664"
 ---
 # <a name="director-scope-node"></a>控制器范围节点
  

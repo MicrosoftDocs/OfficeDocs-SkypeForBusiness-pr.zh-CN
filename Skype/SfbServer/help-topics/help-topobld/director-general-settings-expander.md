@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 要编辑现有控制器的设置，可参考以下各节内容：
-ms.openlocfilehash: b7478779e54a7860726ae967eb1e203625c8b17b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f928061059ac17ccebf06705f3862440f19e8e06632dcfdfbbf4e01581fa8e6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333674"
 ---
 # <a name="director-general-settings-expander"></a>控制器常规设置扩展器
  
@@ -52,7 +52,7 @@ ms.locfileid: "49835332"
 对于“内部 Web 服务”，可以指定以下内容：
   
 > [!CAUTION]
-> 如果您具有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 **pool01.contoso.com，** 则不能将 pool01.contoso.com **用于另** 一个前端池或前端服务器。 如果还要部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器是唯一的。 如果您决定使用自定义的 FQDN 覆盖内部 Web 服务，则每个 FQDN 都必须与任何其他前端池、控制器或控制器池是唯一的。
+> 如果您具有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 **pool01.contoso.com，** 则不能将 **pool01.contoso.com** 用于另一个前端池或前端服务器。 如果还要部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器是唯一的。 如果您决定使用自定义的 FQDN 覆盖内部 Web 服务，则每个 FQDN 都必须与任何其他前端池、控制器或控制器池是唯一的。
   
 如果选择“覆盖 FQDN”，则可以为池上的内部 Web 服务标识指定不同的 FQDN。默认情况下，该设置是为控制器池定义的当前池名称。
   

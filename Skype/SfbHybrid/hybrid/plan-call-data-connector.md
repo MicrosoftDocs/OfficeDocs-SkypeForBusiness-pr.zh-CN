@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Overview of using Skype for Business Online telemetry tools to monitor an on-premises implementation in a hybrid scenario.
-ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318067"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
 

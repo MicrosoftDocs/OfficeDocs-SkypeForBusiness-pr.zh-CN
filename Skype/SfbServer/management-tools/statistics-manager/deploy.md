@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: 摘要：阅读本主题，了解如何部署 Skype for Business Server 统计信息管理器。
-ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：阅读本主题，了解如何为组织部署统计信息Skype for Business Server。
+ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333254"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署 Skype for Business Server 的统计信息管理器
  
-**摘要：** 阅读本主题，了解如何为 Skype for Business Server 部署统计信息管理器。
+**摘要：** 阅读本主题，了解如何为组织部署统计信息Skype for Business Server。
   
- Skype for Business Server 统计信息管理器是一款功能强大的工具，可让你实时查看 Skype for Business Server 运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。
+ 统计信息管理器Skype for Business Server一个强大的工具，可用于实时Skype for Business Server运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。
   
-在尝试安装统计信息管理器之前，请确保你熟悉软件、网络和硬件要求。 有关详细信息，请参阅[Plan for Statistics Manager for Skype for Business Server。](plan.md)
+在尝试安装统计信息管理器之前，请确保你熟悉软件、网络和硬件要求。 有关详细信息，请参阅规划统计信息[管理器Skype for Business Server。](plan.md)
   
 > [!NOTE]
-> 如果要从以前的统计信息管理器版本升级，请参阅 Upgrade Statistics [Manager for Skype for Business Server。](upgrade.md) 
+> 如果要从以前版本的统计信息管理器升级，请参阅升级统计信息[管理器了解Skype for Business Server。](upgrade.md) 
   
 > [!NOTE]
 > 统计信息管理器网站已经过测试，在 Internet Explorer 11+、Edge 20.10240+ 和 Chrome 46+ (当前常青版本) 上正常运行。 
@@ -55,12 +55,12 @@ ms.locfileid: "51105378"
     
 3. 在主机上安装网站。
     
-4. 在你要监视的每个 Skype for Business Server 计算机上安装代理。
+4. 在要监视的每台Skype for Business Server安装代理。
     
 5. 导入要监视的服务器拓扑。
     
 > [!NOTE]
-> Redis、侦听器服务和网站必须全部安装在同一台主机上。 请确保主机未安装 Skype for Business Server。 
+> Redis、侦听器服务和网站必须全部安装在同一台主机上。 请确保主机未安装Skype for Business Server。 
   
 ### <a name="prepare-the-listener-host-machine"></a>准备侦听器主机
 
@@ -126,7 +126,7 @@ ms.locfileid: "51105378"
     
 ### <a name="install-the-website"></a>安装网站
 
-通过运行 Skype for Business Server 中包含的 StatsManWebSite.msi (、Real-Time 统计信息管理器 [ (64 ](https://www.microsoft.com/en-in/download/details.aspx?id=57518) 位) ) 并指定以下内容，在主机上安装网站：
+通过运行 Skype for Business Server、Real-Time 统计信息管理器[ (64](https://www.microsoft.com/en-in/download/details.aspx?id=57518)位) ) 中包含的 StatsManWebSite.msi (并指定以下内容，在主机上安装网站：
   
 1. 查看许可协议，如果同意，请选择"**我接受许可协议中的条款"，** 然后单击"下一步 **"。** 
     
@@ -150,7 +150,7 @@ Web 安装程序添加本地安全组，称为 StatsManWebSiteUsers。 你可以
   
 ### <a name="install-the-agents"></a>安装代理
 
-在你希望监视的每个 Skype for Business Server 上安装代理，具体方法为运行 StatsManPerfAgent.msi并指定以下内容：
+通过运行 Skype for Business Server并指定以下内容，在要监视的每个StatsManPerfAgent.msi安装代理：
   
 1. 查看许可协议，如果同意，请选择"**我接受许可协议中的条款"，** 然后单击"下一步 **"。** 
     
@@ -179,11 +179,11 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>导入拓扑
 <a name="BKMK_ImportTopology"> </a>
 
-安装并运行统计信息管理器后，你需要导入 Skype for Business Server 拓扑，以便统计信息管理器知道每台服务器的站点、池和角色。 若要导入 Skype for Business Server 拓扑，将使用 [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) cmdlet 检索有关组织使用的每个池的信息，然后将此信息导入统计信息管理器。
+安装并运行统计信息管理器后，您需要导入Skype for Business Server拓扑，以便统计信息管理器知道每台服务器的站点、池和角色。 若要导入Skype for Business Server拓扑，您将使用[Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) cmdlet 检索有关组织使用的每个池的信息，然后将此信息导入统计信息管理器。
   
-若要导入 Skype for Business Server 拓扑，请按照以下步骤操作：
+若要导入Skype for Business Server拓扑，请按照以下步骤操作：
   
-1. 在具有 Skype for Business Server PowerShell cmdlet 的主机上：
+1. 在具有 PowerShell cmdlet Skype for Business Server主机上：
     
     a. 运行以下命令： 
     
@@ -243,7 +243,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
     
     1. 确保按照导入拓扑的说明进行操作。 请参阅 [导入拓扑](deploy.md#BKMK_ImportTopology)。
         
-    2. 如果代理位于拓扑 (未列出的服务器上，例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加 [代理](deploy.md#BKMK_ImportTopology)。
+    2. 如果代理位于拓扑中未列出的服务器上 (例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加[代理](deploy.md#BKMK_ImportTopology)。
     
 - 代理能否联系侦听器？
     
@@ -267,7 +267,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-有关你可能在应用程序事件日志中看到的所有事件的信息，请参阅 Troubleshoot Statistics [Manager for Skype for Business Server。](troubleshoot.md)
+有关您可能在应用程序事件日志中看到的所有事件的信息，请参阅 Troubleshoot Statistics [Manager for Skype for Business Server](troubleshoot.md)。
   
 ## <a name="create-a-self-signed-certificate"></a>"创建自签名证书"
 <a name="BKMK_SelfCert"> </a>
@@ -305,4 +305,4 @@ Microsoft 强烈建议使用由受信任的证书颁发机构签名的证书。 
     
 - [更新 Skype for Business Server 的统计信息管理器](upgrade.md)
     
-- [Skype for Business Server 统计信息](troubleshoot.md) 管理器疑难解答
+- [统计信息管理器疑难解答 Skype for Business Server](troubleshoot.md)操作

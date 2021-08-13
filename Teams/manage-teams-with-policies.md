@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574181"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319945"
 ---
 # <a name="manage-teams-with-policies"></a>使用Teams管理策略
 
@@ -52,9 +52,9 @@ ms.locfileid: "51574181"
 
 ### <a name="teams-for-education"></a>Teams 教育版
 
-还可使用 Teams[教育](easy-policy-setup-edu.md)策略向导轻松设置和管理学习环境的策略。
+此外，[还可使用Teams 教育版](easy-policy-setup-edu.md)向导轻松设置和管理学习环境的策略。
 
-![教育Teams向导的屏幕截图。](media/easy-policy-setup-quick-setup.png)
+![策略向导Teams 教育版屏幕截图。](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>策略类型
 
@@ -74,4 +74,4 @@ ms.locfileid: "51574181"
 * [管理反馈策略Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [管理团队策略Microsoft Teams](teams-policies.md)
 * [在 Microsoft Teams 中为实时事件进行设置](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams教育策略和策略包](policy-packages-edu.md)
+* [Teams 教育版策略和策略包](policy-packages-edu.md)

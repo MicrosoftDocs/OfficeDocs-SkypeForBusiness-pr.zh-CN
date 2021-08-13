@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何在土耳其拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 4e082cf2ea2ae069960136c9ab9c13d52e35f44d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e09cf25c070644b0b7dd86a1184faa25eaa6926549694eb78a7fb221f4763c22
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097618"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318196"
 ---
 # <a name="toll-free-dialing-restrictions-in-turkey"></a>土耳其的免费拨号限制
 
@@ -44,7 +44,7 @@ ms.locfileid: "51097618"
 |涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |未涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |有线/固定线路可用性  <br/> | 是，Super Online 除外。 <br/> |
-|移动网络可用性  <br/> |不支持  <br/> |
+|移动网络可用性  <br/> |弱  <br/> |
 |注释、限制和访问问题  <br/> |无  <br/> |
    
 ## <a name="related-topics"></a>相关主题

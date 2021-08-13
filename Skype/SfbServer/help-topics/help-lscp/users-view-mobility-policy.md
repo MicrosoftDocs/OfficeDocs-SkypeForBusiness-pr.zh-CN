@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: “视图 - 移动策略”对话框显示所选移动策略的属性。
-ms.openlocfilehash: b59bbff622da79835113527d6e03a1346c64ee85
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d39a83b35aed6b614b6e1d7439c0c280fa22c06979087b65d976720ffca983ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348247"
 ---
 # <a name="users-view-mobility-policy"></a>用户：查看移动策略
 

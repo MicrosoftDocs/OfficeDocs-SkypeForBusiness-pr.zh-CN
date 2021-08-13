@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解附加许可证、功能以及如何为计划Microsoft 365 商业标准版购买。 '
-ms.openlocfilehash: e7a63c210264109eab0df1e89cf214de3cc5d827
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c5469958a14c860223117742d4a0b3eb2c4d7a9e6f0168e3a7748413fc8426bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318027"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 商业标准版
 

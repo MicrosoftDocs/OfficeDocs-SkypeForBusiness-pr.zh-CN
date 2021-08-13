@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 了解如何使用会议策略设置来控制会议Microsoft Teams。
-ms.openlocfilehash: e201348ba1734539844a76b0fee2e2f072757e87
-ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
+ms.openlocfilehash: ee93aeb3b341ce9d046443675e3c6404e370bd00dd3f9589b6a96bc87917c2ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53337811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318295"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>会议策略和会议到期时间Microsoft Teams
 

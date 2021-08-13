@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c859cfe3b062bcf8ad379544078684624a6586cc6d528ac0dce6493de8004a0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117890"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319865"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -74,7 +74,7 @@ ms.locfileid: "51117890"
 
 ## <a name="customize-meeting-invitations"></a>自定义会议邀请
 
-你可以自定义 Teams 会议邀请，以满足组织的需求。 可添加组织的徽标，并包含有用的信息，如支持网站的链接和法律免责声明，以及纯文本页脚。
+可以自定义 Teams 会议邀请以满足组织的需求。可添加组织的徽标，并包含有用的信息，如支持网站的链接和法律免责声明，以及纯文本页脚。
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>为会议邀请创建徽标的提示  
 
@@ -82,7 +82,7 @@ ms.locfileid: "51117890"
 2. 将图像保存为 JPG 或 PNG 格式。
 3. 将图像存储在收到邀请的每个人都可以访问的位置，例如公共网站。
 
-    现在，你可以将其添加到会议邀请。 查看后续步骤。
+    现在，可以将其添加到会议邀请。请参阅后续步骤。
 
 ### <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 

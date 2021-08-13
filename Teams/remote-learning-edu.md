@@ -1,5 +1,5 @@
 ---
-title: 面向教育版管理员的 Microsoft Teams 资源
+title: 开始使用 Microsoft Teams 进行远程学习
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 5b811ca1dfbbe763fd2b5b31c762356951838ca77913319ca473883635b4d27b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849117"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -230,7 +230,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 #### <a name="recommended-best-practices"></a>建议的最佳做法
 
-- 及早部署！ 尽早部署，以确保所有东西都能有效地工作，并为开学第一天做好准备。
+- 尽早部署，以确保所有东西都能有效地工作，并为开学第一天做好准备。
 - 如果你有超过 50 万的团队，我们建议使用[教师指导团队创建方法](#educator-led-team-creation-from-office-365-class-groups)。 它仅创建相关和所需的课堂团队，减少未使用的团队和垃圾邮件。  
 - 如果通过 SDS 自动创建团队时存在任何问题（例如，缺少课程），并且教师立即需要它们，则他们可以使用[由教师领导的团队创建方法](#educator-led-team-creation-from-office-365-class-groups)重试。 [手动创建团队](#manual-team-creation)是另一种解决方案，但是，它不会更新您的团队成员。  
 - 租户团队限制为50万个团队。 因此，管理员应该主动尝试减少未使用团队的数量，以避免达到这些限制以至延长设置时间。 有关限制的详细信息，请参阅[ Microsoft Teams 的限制和规范](limits-specifications-teams.md)。  

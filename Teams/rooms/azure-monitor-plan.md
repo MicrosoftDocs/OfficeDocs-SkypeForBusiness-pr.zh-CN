@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 本文讨论使用 Azure Monitor 管理 Microsoft Teams 会议室 实施或Skype for Business设备Teams注意事项。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 56b22dddfc475efc83fb5bb3ef5734743b1eb0c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd5ee73fa9414a07385c7e94cce2b3387ecd217a105d072755752f979e77599a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348828"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>使用 Azure Monitor Microsoft Teams 会议室计划管理
  

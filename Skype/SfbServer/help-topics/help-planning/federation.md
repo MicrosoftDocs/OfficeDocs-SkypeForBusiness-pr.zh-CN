@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 可以将边缘服务器配置为允许内部和外部用户访问合作伙伴组织或服务中的联系人。
-ms.openlocfilehash: 05683829abf10d090062a43dd48a2405e900ef07
+ms.openlocfilehash: 9007f5285e9c76d3b3e8359ae1b1247c987c0534763bbdb934f4bb0e073466f9
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772383"
+ms.locfileid: "54348217"
 ---
 # <a name="lync-server-federation-planning-tool"></a>Lync Server 联盟规划工具
  

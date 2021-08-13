@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: 从 Slack 迁移到 Microsoft Teams 的完整指南。
-ms.openlocfilehash: b1e04a0dc8c829ed938b925e498e2716529356f9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 63bb33e225a45710ee0c2ef2a8bc2ddd51adda32c1881b31f20829067baa0783
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319835"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>从 Slack 迁移到 Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "51098358"
 
 ## <a name="plan-your-migration-from-slack"></a>制定从 Slack 迁移的计划
 ### <a name="what-you-can-and-cant-migrate"></a>可以迁移和无法迁移的内容
-Slack 服务计划将明确可以迁移和无法迁移的内容。 例如，某些 Slack 服务计划只允许你导出公共频道历史记录和文件，而其他计划则必须通过 DocuSign 请求将专用频道和直接消息纳入导出内容。 
+Slack 服务计划将明确可以迁移和无法迁移的内容。例如，某些 Slack 服务计划可以导出公共频道历史记录和文件，而其他计划则必须通过 DocuSign 请求将专用频道和直接消息纳入导出内容。 
 
 若要确定你的 Slack 工作区服务级别，请登录 Slack 并记下 **关于此工作区** 页面上的计划类型。
 
@@ -69,7 +69,7 @@ Slack 服务计划将明确可以迁移和无法迁移的内容。 例如，某�
 若要详细了解 Slack 导出选项，请转至 Slack 网站：https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
 > [!IMPORTANT]
-> 查看组织在频道数据方面的隐私和合规性要求。 除需遵守最终用户可识别内容 (EUII) 生命周期规定外，你所在的组织可能还对这类数据的控制、存储和处理做出了合规性要求。
+> 查看组织在频道数据方面的隐私和合规性要求。除需遵守最终用户可识别内容 (EUII) 生命周期规定外，你所在的组织可能还对这类数据的控制、存储和处理做出了合规性要求。
 
 ### <a name="export-direct-messages"></a>导出直接消息
 直接消息与 Teams 中的聊天相同，即 1 对 1 或 1 对多的非频道对话。 “导出”功能取决于你的 Slack 服务计划，以及你是否请求将直接消息纳入 Slack 导出。 目前 Teams 不支持导入直接消息。 请咨询 Microsoft 合作伙伴，了解可通过哪些第三方解决方案将直接消息内容导入 Teams。
@@ -78,7 +78,7 @@ Slack 服务计划将明确可以迁移和无法迁移的内容。 例如，某�
 
 ### <a name="apps-and-custom-integrations"></a>应用和自定义集成
 
-Slack 中的应用与 Teams 中的应用相差无几。 获得工作区中的应用及其配置的列表后，你可以在 Teams 应用商店中进行搜索，看看这些应用是否适用于 Teams*。 
+Slack 中的应用与 Teams 中的应用相差无几。获得工作区中的应用及其配置的列表后，可以在 Teams 应用商店中进行搜索，看看这些应用是否适用于 Teams*。 
 
 转至 <your Slack workspace>.slack.com/apps/manage，获取应用和自定义集成的列表。 此页面还显示了使用每个应用的配置数目。 自定义集成的“迁移能力”各不相同。 如果是 Webhook，你通常可以将其发送到 Microsoft 365 或 Office 365 连接器，将工作流转入 Teams。 逐个评估机器人和其他应用，做好将其迁移到 Teams 的规划。
 
@@ -196,11 +196,11 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 使用你在上面的“规划”部分编译的频道清单，并与 Slack 所有者和管理员共同确定哪些频道应成为团队，以及哪些频道应成为团队中的频道。 利用 Excel 或 PowerBI 来进行这项分析 - 这两种工具都可提供更多见解，帮助推动就要保留哪些频道展开讨论。
 
 > [!TIP]
-> Teams 目前规定每个团队不能超过 200 个频道。 如果频道列表接近该限制，则应想办法将其拆分为两个单独的团队。
+> Teams 目前规定每个团队不能超过 200 个频道。如果频道列表接近该限制，则应想办法将其拆分为两个单独的团队。
 
 ### <a name="channel-history"></a>频道历史记录
 
-你可以使用 GitHub 上的免费解决方案和付费解决方案，具体取决于你所在的组织在保留公共频道和专用频道历史记录方面的要求。 此外，还可通过编写脚本来将此内容纳入 Teams。
+你可以使用 GitHub 上的免费解决方案和付费解决方案，具体取决于你所在的组织在保留公共频道和专用频道历史记录方面的要求。此外，还可通过编写脚本来将此内容纳入 Teams。
 
 在 Teams 中设置新的团队和频道结构后，可将导出的文件复制到 Teams 频道中的相应文档库。
 
@@ -208,7 +208,7 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 
 ### <a name="channel-files"></a>频道文件
 
-多数解决方案都会导出文件。 但是，这些文件通常以频道历史记录中的链接的形式提供，需要借助 API 密钥以编程方式取回。
+多数解决方案都会导出文件。但是，这些文件通常以频道历史记录中的链接的形式提供，需要借助 API 密钥以编程方式取回。
 
 对于 Slack 中存储的文件，当在 Teams 中设置好团队和频道后，你可以以编程方式将其从 Slack 复制到目标 Teams 频道。
 
@@ -342,7 +342,7 @@ Write-Host -ForegroundColor Green "$(Get-TimeStamp) Exiting.."
 - New Relic
   - 请查看这一[向 Teams 发送 New Relic 警报](https://discuss.newrelic.com/t/new-relic-alerts-not-working-with-microsoft-teams/48609/3)的用户解决方案
 - Nagios
-  - 现在可通过连接器集成警报。 https://github.com/isaac-galvan/nagios-teams-notify
+  - 现在可通过连接器集成警报。https://github.com/isaac-galvan/nagios-teams-notify
 - ZenDesk
   - Teams 商店中拥有该应用
 - Jenkins

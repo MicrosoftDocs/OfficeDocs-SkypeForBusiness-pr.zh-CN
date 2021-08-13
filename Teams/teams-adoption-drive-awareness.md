@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c9dbeaecd5c1ed15dff5e5a0e2ae3823216a1a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7ea6dbf8dbf7e1f50164348095e673d086ffbcaadcf18866e9e1248ff35bfa0e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348607"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
@@ -69,6 +69,6 @@ ms.locfileid: "49834152"
 
 使用井号标签共享从反馈渠道获取的见解#TeamsStories方便检索。 在 Intranet 上每月共享 #TeamsStory 以重点介绍支持变更以提高工作效率和增强环境协作的员工。 此外，在 Microsoft Technical Community 上的推动采用论坛中与我们分享它们。 在您自己的公司内共享这些实际示例对于实现用户社区随着时间的推移持续变化非常有用。
 
-[在管理中心Microsoft Teams使用情况报告Microsoft 365。](teams-activity-reports.md)
+[若要详细了解Microsoft Teams使用情况报告，请Microsoft 365 管理中心。](teams-activity-reports.md)
 
 ![一个图标，描述下一 ](media/teams-adoption-next-icon.png) 步骤"下 [一步：计划服务运行状况评审"](teams-adoption-schedule-service-health-reviews.md)
