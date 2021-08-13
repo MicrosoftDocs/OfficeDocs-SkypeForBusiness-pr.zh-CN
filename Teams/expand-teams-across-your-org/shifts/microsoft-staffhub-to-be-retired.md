@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78737ec26d0aabfedcefa01abc3fb14c4bf118c7
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: b6483ad432eb066e5f3a62e839704b33f65ed8e14ac2f32dedb227ba0c98d1ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948698"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336232"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
@@ -163,7 +163,7 @@ Teams支持与 Skype for Business 共存。 有关详细信息，请参阅了解
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>报告是否可用于查看整个组织的班次使用情况？
 
-由于 Shifts 是应用中Teams，因此可以通过报表Teams使用情况。 有关详细信息，请查看 Teams 管理中心中的Microsoft Teams[报告](../../teams-analytics-and-reports/teams-reporting-reference.md)Teams管理中心中的Microsoft 365[活动报告](../../teams-activity-reports.md)。
+由于 Shifts 是应用中Teams，因此可以通过报表Teams使用情况。 有关详细信息，请查看 Teams[管理Microsoft Teams中的](../../teams-analytics-and-reports/teams-reporting-reference.md)Teams[报告](../../teams-activity-reports.md)，并查看 Microsoft 365 管理中心。
 
 #### <a name="where-can-i-provide-feedback"></a>在哪里提供反馈？
   

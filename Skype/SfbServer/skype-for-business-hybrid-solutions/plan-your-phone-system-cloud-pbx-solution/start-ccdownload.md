@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
-description: Start-CcDownload cmdlet 可同步下载 Skype for Business 云连接器版本 bits 和 msi 文件。
-ms.openlocfilehash: 3298b02fbb792392860f05ebb15a9221b45e47b4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此Start-CcDownload cmdlet 同步下载Skype for Business 云连接器版本位和 msi 文件。
+ms.openlocfilehash: 0447c75ac3e6df79a20d2c87b664bfb92cf7124fc7253c839a88fad1b335eaec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351911"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
-Start-CcDownload cmdlet 可同步下载 Skype for Business 云连接器版本 bits 和 msi 文件。
+此Start-CcDownload cmdlet 同步下载Skype for Business 云连接器版本位和 msi 文件。
   
-使用云连接器 2.0 版和更高版本时，你还可以指定 DownloadBitsOnly 参数。
+对于云连接器 2.0 版和更高版本，还可以指定 DownloadBitsOnly 参数。
   
 ```powershell
 Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonParameters>]
@@ -35,7 +35,7 @@ Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonPara
 
 ### <a name="example-1"></a>示例 1
 
-以下示例从云连接器公共下载网站同步下载云连接器位和 msi 文件：
+以下示例从云连接器公共下载站点同步下载云连接器 bits 和 msi 文件：
   
 ```powershell
 Start-CcDownload
@@ -43,7 +43,7 @@ Start-CcDownload
 
 ### <a name="example-2"></a>示例 2
 
-下一个示例从私人下载网站同步下载云连接器位和 msi 文件：
+下一个示例从专用下载站点同步下载云连接器 bits 和 msi 文件：
   
 ```powershell
 Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
@@ -51,7 +51,7 @@ Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
 
 ### <a name="example-3"></a>示例 3
 
-第三个示例将从私有下载站点中同步下载云连接器 bits 和 msi 文件。
+第三个示例从专用下载站点同步下载云连接器 bits 和 msi 文件。
   
 ```powershell
 Start-CcDownload -DownloadBitsOnly
@@ -60,20 +60,20 @@ Start-CcDownload -DownloadBitsOnly
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-如果下载网站中有新版本可用，CcDownload 将从下载网站下载并安装 msi 文件，然后同步下载云连接器位。 如果没有新版本的 msi 文件，Start-CcDownload 将只下载云连接器 bits。 如果已下载云连接器 bits，则不执行 Start-CcDownload。
+如果下载站点中提供了新版本，Start-CcDownload下载站点下载并安装 msi 文件，然后同步下载云连接器 bits。 如果没有新版本的 msi 文件，Start-CcDownload将仅下载云连接器 bits。 如果已下载云连接器位，Start-CcDownload不执行。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必需**|**类型**|**说明**|
+|**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-|DownloadUrlRoot   <br/> | 可选 <br/> |System.String  <br/> | 专用下载网站中的特定版本的云连接器的完整 URL。 使用此参数时要小心，请务必注意你正在下载的云连接器版本。 <br/> |
-|DownloadBitsOnly   <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |跳过从下载站点下载和安装 MSI 的步骤，只下载云连接器 bits。  <br/> |
+|DownloadUrlRoot  <br/> | 可选 <br/> |System.String  <br/> | 专用下载站点中云连接器特定版本的完整 URL。 请谨慎使用此参数 ，确保了解要下载的云连接器版本。 <br/> |
+|DownloadBitsOnly  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |跳过从下载站点下载并安装 MSI 的步骤，仅下载云连接器 bits。  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
 
-无。 Start-CcDownload cmdlet 不接受主线输入。
+无。 Start-CcDownload cmdlet 不接受通过管道的输入。
   
 ## <a name="return-types"></a>返回类型
 <a name="ReturnTypes"> </a>

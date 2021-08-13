@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文概述了这些面板支持的功能Microsoft Teams功能。
-ms.openlocfilehash: 6970aaf1df6a318cd529840c9ea01d1de7cc24bfa81a6654d516ea3fc19afe9c
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: fe9d482cdce9cce9aa7f31735267b57f2e675c1c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849777"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233057"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams面板
 
@@ -63,22 +63,22 @@ Teams面板支持以下功能：
 
 ## <a name="deploy-teams-panels-devices"></a>部署Teams面板设备
 
-如果涉及到规划、部署和管理 Teams面板设备，则本部分适合你。 本部分不面向这些面板的Teams用户。
+如果涉及到规划、部署和管理Teams面板设备，则本部分适合你。 本部分不面向这些面板的Teams用户。
 
-可以将Teams面板设备的部署细分为以下任务：
+部署Teams面板设备可以细分为以下任务：
 
-- [会议空间清单与](#inventory-sites-and-meeting-spaces)功能规划：创建组织网站和会议空间的清单，用于Teams面板设备。
+- [会议空间清单与](#inventory-sites-and-meeting-spaces)功能规划：创建组织网站和会议空间的清单，以Teams面板设备。
 - [采购](#procurement)：从所选设备合作伙伴采购设备。  
 - [站点就绪](#site-readiness)性：确认部署位置 (会议) 满足部署要求。
 - [配置和部署](#configuration-and-deployment)：创建资源帐户并将其分配给设备。
 
 ## <a name="inventory-sites-and-meeting-spaces"></a>库存网站和会议空间
 
-记录组织中现有可预订会议空间的清单。 标识在部署面板时范围内Teams空间。 与设施和音频视觉团队协作，确定安装 Teams 面板设备的位置和方式，以及安装面板所需的任何其他硬件。
+记录组织中现有可预订会议空间的清单。 标识在部署面板时范围内Teams空间。 与设施和音频团队协作，确定安装 Teams 面板设备的位置和方式，以及安装面板所需的任何其他硬件。
 
 ## <a name="procurement"></a>采购
 
-根据部署面板的作用域内会议空间Teams，从经认证的合作伙伴之一购买Teams[面板。](#partners-certified-for-teams-panels) 请访问合作伙伴的网站，了解有关设备和采购选项的详细信息。
+根据在面板中部署Teams范围内的会议空间数，从经认证的合作伙伴之一购买Teams[面板。](#partners-certified-for-teams-panels) 请访问合作伙伴的网站，了解有关设备和采购选项的详细信息。
 
 您的组织中的会议空间在安装或装载设备时可能有不同的硬件要求。 例如，将设备安装在玻璃窗、玻璃窗、干墙或木面板上所需的硬件可能不同。 有关可用的装载选项，请参阅设备合作伙伴的文档。
 
@@ -105,13 +105,13 @@ Teams面板支持以下功能：
 
 每个Teams面板设备都需要Microsoft 365会议室资源帐户。 使用资源帐户凭据登录面板Microsoft Teams应用。
 
-若要为Microsoft 365设置Teams资源帐户，建议购买标准[Microsoft Teams 会议室许可证](#license-requirement)。 若要了解如何创建资源帐户并为其分配许可证，请参阅使用 Microsoft 365 管理中心 创建[资源帐户](resource-account-ui.md)。
+若要为Microsoft 365面板Teams资源帐户，建议购买Microsoft Teams 会议室[许可证](#license-requirement)。 若要了解如何创建资源帐户并为其分配许可证，请参阅使用 Microsoft 365 管理中心 创建[资源帐户](resource-account-ui.md)。
 
 > [!NOTE]
 >
 >- 如果已针对要安装面板的会议空间设置了会议室资源帐户，请使用同一会议室资源帐户登录到面板设备。 但是，请确保为会议室资源帐户分配Microsoft Teams 会议室标准许可证，以便将其用作面板资源帐户。
 >
->- 如果已在会议Microsoft Teams 会议室中部署了一个 Teams 面板，则无需购买单独的许可证来部署面板。 管理员使用与同一空间的 Microsoft Teams 会议室相同的凭据登录面板设备。
+>- 如果已在Microsoft Teams 会议室面板的会议空间中部署了一个 Teams，则无需购买单独的许可证来部署面板。 管理员使用与同一空间的 Microsoft Teams 会议室相同的凭据登录面板设备。
 >
 >- 对于具有多个入口的大型会议室（如会议室或会议室）来说，您可以在每个进入处装载一个面板设备。 属于单个会议空间的多个面板共享相同的资源帐户，并使用相同的凭据登录。 无需为同一空间的每个面板创建单独的资源帐户。
 
@@ -121,13 +121,13 @@ Teams面板支持以下功能：
 
 ### <a name="testing"></a>测试
 
-部署面板后，应测试它们。 检查[部署Teams支持](#features-supported-by-teams-panels)的功能是否正常工作。 尝试通过您的计算机上的 Teams 或 Outlook 365 为不同的时间段创建多个会议。 检查面板是否正确显示会议详细信息和已计划会议的可用性。 尝试使用" **保留** "按钮检查是否可直接从设备预订可用的会议空间。
+部署面板后，应测试它们。 检查[这些面板Teams的功能](#features-supported-by-teams-panels)在已部署的设备上是否正常工作。 尝试通过您的计算机上的 Teams 或 Outlook 365 为不同的时间段创建多个会议。 检查面板是否正确显示会议详细信息和已计划会议的可用性。 尝试使用" **保留** "按钮检查是否可直接从设备预订可用的会议空间。
 
 ## <a name="manage-teams-panels-in-your-organization"></a>在Teams管理仪表板
 
 若要管理Teams面板设备，在 Microsoft Teams 管理中心的左侧导航中，转到"设备"Teams  >  **面板"。** 可在此处更改设备配置文件、管理更新、重启设备、添加和删除设备标记等。 有关详细信息，请参阅在[Teams 中管理设备](device-management.md)。
 
-## <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>下一步
 
 [如何使用Microsoft Teams面板设备](use-teams-panels.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 在服务器中创建新的中继配置Skype for Business Server
+title: Skype for Business Server：创建新的中继配置设置集合
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。
-ms.openlocfilehash: 174b1ac2d47b491bb927ca1e55a0a02d4ca0b1087bb9adc597cc7393d9c36618
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: SIP 中继配置设置定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系。
+ms.openlocfilehash: 41cfc9e4c9c20eee43352b4cf62e32c3305c534d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333444"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232647"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在服务器中创建新的中继配置Skype for Business Server
+# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server：创建新的中继配置设置集合
 
 SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。这些设置按下面的指示执行此类操作：
 - 是否应对中继启用媒体旁路。
@@ -58,7 +58,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 
 1. 在"Skype for Business Server控制面板"中，单击"**语音路由**"，然后单击"**中继配置"。**
 2. 在“Trunk 配置”选项卡上，单击“新建”，然后单击“站点 Trunk”以创建站点作用域的新设置，或“池 Trunk”创建服务作用域的新设置。
-3. 在"选择站点"或"选择服务"对话框中 (出现的对话框将取决于是创建站点作用域设置还是服务作用域设置) ，选择新配置设置的位置，然后单击"确定 **"。** 如果对话框为空，这意味着没有位置创建新设置;例如，如果"选择站点"对话框为空，则意味着所有站点已分配有中继配置站点的集合，并且每个站点 (和每个服务) 只能承载一个此类集合。 在此情况下，您可删除现有集合并创建新的集合，或只修改现有集合。
+3. 在"选择站点"或"选择服务"对话框中 (出现的对话框将取决于是创建站点范围设置还是服务范围的设置) ，选择新配置设置的位置，然后单击"确定 **"。** 如果对话框为空，这意味着没有位置创建新设置;例如，如果"选择站点"对话框为空，则意味着所有站点已分配有中继配置站点的集合，并且每个站点 (和每个服务) 只能承载一个此类集合。 在此情况下，您可删除现有集合并创建新的集合，或只修改现有集合。
 4. 在“新建 Trunk 配置”对话框中，进行适当的选择，然后单击“确定”。
 5. 集合的“状态”属性将更新为“未提交”。若要提交更改和删除集合，请单击“提交”，然后单击“全部提交”。
 6. 在“未提交的语音配置设置”对话框中，单击“确定”。

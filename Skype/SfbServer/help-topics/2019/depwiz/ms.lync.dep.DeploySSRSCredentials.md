@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要指定 SQL Server Reporting Services (SSRS) 的凭据以访问监控数据库，请执行以下操作：
-ms.openlocfilehash: 1f373eff9748adc3e52eef24dfecb026a71f48ed
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9f01b2a6526186d934949593d124f269a0cb491eed11d27988de96c46dcd16d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122116"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324481"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services（凭据）
  
@@ -31,4 +31,4 @@ ms.locfileid: "51122116"
 > [!NOTE]
 > 有关详细信息，请参阅 位于 的"指定报告数据源的凭据和连接 (SSRS [https://go.microsoft.com/fwlink/p/?LinkId=263431](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources)) "。 
   
-有关为运行监控的服务器部署 Reporting Services 报告的详细信息，请参阅在 Skype for Business Server 中 [安装监控报告](../../../deploy/deploy-monitoring/install-monitoring-reports.md)。
+有关为运行监控的服务器部署 Reporting Services 报告的详细信息，请参阅 Install [Monitoring Reports in Skype for Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md)。

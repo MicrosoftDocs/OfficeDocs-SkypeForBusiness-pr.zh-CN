@@ -18,27 +18,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 使用此表查找有关在丹麦获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 7c19f6b2c6b543f70f67ab1fd138c48e647fd701d0b09ed9bb01194f5ac00e00
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 使用此表查找有关在丹麦获取和管理丹麦地区电话号码的信息，Microsoft Teams。
+ms.openlocfilehash: ee9e1172a521841dfe1db22f63ef43b450377390
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336142"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232607"
 ---
 # <a name="phone-number-management-for-denmark"></a>电话丹麦的号码管理
 
-使用此表查找有关在丹麦获取和管理电话号码的信息，Microsoft Teams。
+使用此表查找有关在丹麦获取和管理丹麦地区电话号码的信息，Microsoft Teams。
   
 有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization.md)。
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [针对丹麦的新电话号码请求 (v.5.0)  (da-dk) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[针对丹麦的新电话号码请求 (v.5.0)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。
-|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[丹麦的 (LOA) 授权书 ()  (v.5.0)  (da-dk) ](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 <br/> |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md)      <br/> |
-|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [针对丹麦的新电话号码请求 (v.5.0)  (da-dk) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[适用于丹麦的新电话号码请求 (v.5.0)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。
+|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[丹麦的 (LOA) 授权书 ()  (v.5.0)  (da-dk) ](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 <br/> |
+|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。      <br/> |
+|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台，获得说明](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题
 

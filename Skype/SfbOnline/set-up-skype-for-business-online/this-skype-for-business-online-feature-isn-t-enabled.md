@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.FeatureNotEnabled
 description: '在出现未启用联机功能错误Skype for Business查找可能的原因和操作建议。 '
-ms.openlocfilehash: ffe80aa252eecf88a5ef8c3e5b4bc7a294b463d7
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 89920c366d9465534279bd8fe2e31f6a3140027a4ed8e21697ad489da8ab552d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332304"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>此Skype for Business Online 功能未启用
 
@@ -36,9 +36,9 @@ ms.locfileid: "52239421"
   
 |**可能的原因**|**建议的操作**|
 |:-----|:-----|
-|你有可用的许可证，但尚未为此用户启用此功能。  <br/> |转到管理 **Microsoft 365**  >  **活动用户对此** 用户进行许可。 <br/> |
-|用户位于此功能不可用的位置。  <br/> |如果可能，请转到 **Microsoft 365** 活动用户，并将此用户分配到  >  可用功能的位置。 <br/> |
-|尚未为组织启用该功能。  <br/> |转到 **Microsoft 365中心**  >  **Skype for Business，** 为整个组织启用该功能。 <br/> |
+|你有可用的许可证，但尚未为此用户启用此功能。  <br/> |转到 **"Microsoft 365 管理中心**  >  **活动用户"以** 授予此用户许可证。 <br/> |
+|用户位于此功能不可用的位置。  <br/> |如果可能，请转到 **Microsoft 365 管理中心** 活动用户，并将此用户分配到  >  可用功能的位置。 <br/> |
+|尚未为组织启用该功能。  <br/> |转到  >  **Microsoft 365 管理中心Skype for Business，** 为整个组织启用该功能。 <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

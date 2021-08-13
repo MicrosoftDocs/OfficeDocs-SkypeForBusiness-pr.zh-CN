@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
-description: 摘要：了解作为用户服务的一部分的"获取用户"操作。 用户服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
-ms.openlocfilehash: a830663fc97d8fda727d1ebb008d97407796cc7c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解作为用户服务的一部分的"获取用户"操作。 用户服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
+ms.openlocfilehash: 9efb2e10a4197a2ad323ce521617c3ce8c1600eb490077ffcf122d4d4628cdd8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331244"
 ---
 # <a name="get-users"></a>获取用户
  
-**摘要：** 了解作为用户服务的一部分的"获取用户"操作。 用户服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+**摘要：** 了解"获取用户"操作，该操作是用户服务的一部分。 用户服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
   
-Get Users 操作是呼叫质量仪表板的存储库 API 中的用户服务的一部分。
+"获取用户"操作是呼叫质量仪表板的存储库 API 中的用户服务的一部分。
   
 ## <a name="get-users"></a>获取用户
 
-Get Users returns a list of users in the repository.
+Get Users 返回存储库中的用户列表。
   
 |**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
@@ -46,10 +46,10 @@ Get Users returns a list of users in the repository.
   
  **响应标头** - 无其他标头。
   
- **响应正文** - 下面是 JSON 中的示例响应负载。
+ **响应正文** - 下面是 JSON 中的示例响应有效负载。
   
 > [!NOTE]
-> 返回 User 对象的数组。 有关 User 对象的详细信息，请参阅"获取用户"。 
+> 返回 User 对象的数组。 有关 User 对象的详细信息，请参阅获取用户。 
   
 ```json
 [{

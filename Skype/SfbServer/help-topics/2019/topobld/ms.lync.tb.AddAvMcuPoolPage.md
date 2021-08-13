@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 中央站点中没有并置的 A/V 会议服务的所有 Enterprise Edition 前端服务器可使用相同的独立 A/V 会议池。对于每个 A/V 会议池，必须为其指定完全限定域名 (FQDN)，并指定该池将具有单台 A/V 会议服务器还是多台负载平衡的 A/V 会议服务器。
-ms.openlocfilehash: f0bfa6155320a23467545be19de290a3f1df19dd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d07a2651030b71f6667f0a0dbaabd1dfd4322be68eef1c5de07a9a73583c5972
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812022"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335562"
 ---
 # <a name="add-av-mcu-pool"></a>添加 A/V MCU 池
  

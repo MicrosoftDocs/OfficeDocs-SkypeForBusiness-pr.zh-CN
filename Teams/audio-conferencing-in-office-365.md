@@ -25,15 +25,15 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: 了解会议或会议Microsoft 365音频Office 365允许用户从他们的电话呼入会议。
-ms.openlocfilehash: 166ec76e8f63373056f73efd647b6810818a53ca410594ca06dc2f137e6ece02
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+ms.openlocfilehash: 46c3c1c7e2fde92d2c8fa37978c9c3c19928dadd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799063"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232817"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>音频会议Microsoft 365
-音频和视频Microsoft 365 Office 365允许用户从他们的电话呼入会议。 音频会议允许最多 1000 个电话与会者。
+使用音频和视频Microsoft 365 Office 365用户可以从他们的电话呼入会议。 音频会议允许最多 1000 个电话与会者。
 
 ## <a name="what-is-audio-conferencing"></a>什么是音频会议？
 对于因在旅途中而无法使用其笔记本电脑或移动设备上的 Skype for Business 或 Microsoft Teams 应用参与会议的用户来说，呼入（或拨入）会议非常有用。 但还有其他一些情况，使用手机参加 Skype for Business 或 Microsoft Teams 会议可能比在计算机上使用应用更好：

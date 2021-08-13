@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的呼叫允许控制报告
+title: 呼叫允许控制报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 摘要：了解 Skype for Business Server 中使用的呼叫允许控制报告。
-ms.openlocfilehash: ce7f8e622ece066d58cbc2c23a6423e19b084622
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解呼叫允许控制报告在Skype for Business Server。
+ms.openlocfilehash: 36dfe7c15948ea8405558d9e97fa4de4ac4a8081a22aa7e6bd83256a40c8c9f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826522"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336622"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server"></a>Skype for Business Server 中的呼叫允许控制报告
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>呼叫允许控制报告Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中使用的呼叫允许控制报告。
+**摘要：** 了解呼叫允许控制报告在呼叫Skype for Business Server。
   
-呼叫允许控制报告提供有关点对点和由呼叫允许控制设置限制下举行的会议会话的信息。 呼叫允许控制为管理员提供了一种允许 (或不允许) 基于带宽限制的通信会话的方法。 例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。 如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
+呼叫允许控制报告提供有关点对点和由呼叫允许控制设置限制下举行的会议会话的信息。 呼叫允许控制为管理员提供了一种根据带宽 (允许) 通信会话的方法。 例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。 如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
   
 ## <a name="accessing-the-call-admission-control-report"></a>访问呼叫允许控制报告
 
@@ -52,10 +52,10 @@ ms.locfileid: "49826522"
 |**名称**|**说明**|
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/17/12015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/17/12015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/13/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|"自" <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/17/12015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/17/12015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/13/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
+|**To** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/17/12015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/17/12015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/13/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**Pool** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。<br/> |
-|**活动类型** <br/> | 活动的类型。选择下列活动之一： <br/>  [全部] <br/>  对等 <br/>  会议 <br/> |
-|**呼叫类别** <br/> | 指示对呼叫使用 CAC 的原因。选择下列选项之一： <br/>  [全部] <br/>  由于呼叫允许控制，呼叫被拒绝 <br/>  由于呼叫允许控制，呼叫通过 PSTN 重新路由 <br/> |
+|**活动类型** <br/> | 活动的类型。选择下列活动之一： <br/>  [All] <br/>  对等 <br/>  会议 <br/> |
+|**呼叫类别** <br/> | 指示对呼叫使用 CAC 的原因。选择下列选项之一： <br/>  [All] <br/>  由于呼叫允许控制，呼叫被拒绝 <br/>  由于呼叫允许控制，呼叫通过 PSTN 重新路由 <br/> |
    
 ## <a name="metrics-for-peer-to-peer-sessions"></a>点对点会话的指标
 

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 网络区域* 是呼叫允许控制、E9-1-1 和媒体旁路配置中使用的网络中心或网络中枢。
-ms.openlocfilehash: cf71a4e92245417fe23ba998bd9ba6e0357eda618601504838c4944d09ef01b1
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 9e38528dd34f25fa2b70b51485657168868d6628
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590946"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232797"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络区域
 
@@ -27,7 +27,7 @@ ms.locfileid: "54590946"
 ## <a name="view-network-region-information"></a>查看网络区域信息 
 
 
-网络区域将跨多个地理区域的网络的各个部分相互连接起来。 每个网络区域都必须与中央站点关联。 中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。 可以使用"Skype for Business Server"来查看网络区域。 网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。 使用本主题可查看现有网络区域。 
+网络区域将跨多个地理区域的网络的各个部分相互连接起来。 每个网络区域都必须与中央站点关联。 中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。 可以使用"Skype for Business Server控制面板"来查看网络区域。 网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。 使用本主题可查看现有网络区域。 
 
 ### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>使用控制面板查看有关Skype for Business Server区域的信息
 
@@ -47,11 +47,11 @@ ms.locfileid: "54590946"
 
 ### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看Windows PowerShell信息
 
-可以使用 **Get-CsNetworkRegion** cmdlet 和 Windows PowerShell查看网络区域信息。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
+可以通过使用 Windows PowerShell **和 Get-CsNetworkRegion** cmdlet 查看网络区域信息。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 ### <a name="to-view-network-region-information"></a>查看网络区域信息
 
-  - 若要查看有关所有网络区域的信息，请在命令行管理程序中Skype for Business Server以下命令，然后按 Enter：
+  - 若要查看有关所有网络区域的信息，请在命令行管理程序中键入Skype for Business Server命令，然后按 Enter：
     
     **Get-CsNetworkRegion**
     

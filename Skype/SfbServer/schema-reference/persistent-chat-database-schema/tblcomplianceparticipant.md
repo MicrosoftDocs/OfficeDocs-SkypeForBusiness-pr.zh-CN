@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: tblComplianceParticipant 包含每个通道和每台服务器的当前参与者。
-ms.openlocfilehash: c6aae3c1e7b13456708034512c6b68d67d6d1f92
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4da7a5511caba65dc1ab4027647bed3262601dd4ef2e35949ae0bc0978451145
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351921"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  
@@ -36,7 +36,7 @@ tblComplianceParticipant 包含每个通道和每台服务器的当前参与者�
 |serverID  <br/> |int  <br/> |服务器标识（如 tblServerIdentity.serverID 表中所示）。  <br/> |
 |sessionId  <br/> |bigint  <br/> |服务器会话。它是每次聊天服务启动时生成的随机数字。它用于区分会话以便标识孤立参与者。  <br/> |
    
-**注册表项**
+**键**
 
 |**列**|**说明**|
 |:-----|:-----|

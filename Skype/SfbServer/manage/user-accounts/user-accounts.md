@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 本文中的各节介绍如何启用、临时禁用 Active Directory 用户或删除 active Directory Skype for Business Server。
-ms.openlocfilehash: 43b48daf7a3ad7242076c29a1372e608130763e8e7add95ac86e97ed9c3a9e97
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 27871597674724126369bd8f90fd6c2a67c2a8ea
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850177"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232687"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>管理用户的用户帐户Skype for Business Server
 
@@ -140,7 +140,7 @@ ms.locfileid: "57850177"
 
 使用以下过程禁用企业语音启用的用户帐户Skype for Business Server。
 
-### <a name="to-disable-a-user-account-for-enterprise-voice"></a>为用户帐户禁用企业语音
+### <a name="to-disable-a-user-account-for-enterprise-voice"></a>为用户禁用用户帐户企业语音
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
@@ -161,7 +161,7 @@ ms.locfileid: "57850177"
 
 8. 单击“提交”。
 
-用户现在无法使用企业语音功能。 相关信息： <br/>[企业语音移动性](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [为用户启用企业语音Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 命令行管理程序](../management-shell.md)
+用户现在无法使用企业语音功能。 相关信息： <br/>[企业语音移动性](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [在用户企业语音中Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 命令行管理程序](../management-shell.md)
 ## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server用户帐户
 <a name="Remove"> </a>
 

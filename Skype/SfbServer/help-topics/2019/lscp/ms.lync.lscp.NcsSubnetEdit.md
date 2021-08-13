@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 4f58ac91c449f71ee9fa2fc03d9dd59c3aa03503
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0cbe5acf4ed01f343818759eaefe8a381e1d4828dca6cbcc1f9a3dd20d210b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109298"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335592"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>关联子网：添加新的或编辑现有的
 

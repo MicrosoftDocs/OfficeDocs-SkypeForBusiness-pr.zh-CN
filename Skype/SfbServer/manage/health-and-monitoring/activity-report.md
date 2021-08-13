@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的会议活动报告
+title: 会议活动报告中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: 摘要：了解 Skype for Business Server 中使用的会议活动报告。
-ms.openlocfilehash: 74cc303fc4347b81e66d855a3ca5a71e58cb9649
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解会议活动报告中Skype for Business Server。
+ms.openlocfilehash: ebee49f78d7f3ed83c5d8218357181d457fe04b73f638b4a70191bc975ba38de
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817132"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336632"
 ---
-# <a name="conference-activity-report-in-skype-for-business-server"></a>Skype for Business Server 中的会议活动报告
+# <a name="conference-activity-report-in-skype-for-business-server"></a>会议活动报告中Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中使用的会议活动报告。
+**摘要：** 了解会议活动报告中Skype for Business Server。
   
-会议活动报告使你能够轻松回答以下问题：每天召开多少场会议，以及何时召开这些会议？ 这种信息不仅对自身有用，而且用作疑难解答工具。 例如，假设用户报报在一天中网络看上去特别慢。 快速查看会议活动报告可能会说明一个可能的原因：在上午 10：00 到下午 2：00 之间安排的会议任何其他时间都计划得更多。
+会议活动报告使你能够轻松回答类似以下问题：每天要召开多少场会议，以及何时召开这些会议？ 这样的信息不仅对自身有用，而且用作疑难解答工具。 例如，假设用户抱怨在一天中网络看上去特别慢。 快速浏览会议活动报告可能会建议一个可能的原因：在上午 10：00 到下午 2：00 之间安排的会议将远超过任何其他时间。
   
 如果因网速慢而导致出现问题，您可以鼓励用户将他们的一些会议重新安排在一天中流量较少的时段。
   
 ## <a name="accessing-the-conference-activity-report"></a>访问会议活动报告
 
-会议活动报告通过单击以下任一指标从 [Skype for Business Server](conference-summary-report.md) 中的会议摘要报告访问：
+会议活动报告通过单击以下指标之一[Skype for Business Server会议摘要](conference-summary-report.md)报告中的访问：
   
 - 会议总数
     
@@ -54,8 +54,8 @@ ms.locfileid: "49817132"
 |**名称**|**说明**|
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|"自" <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**Interval** <br/> | 时间间隔。选择下列任意选项： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果您选择开始日期为 2015/7/7、结束日期为 2/28/2015 的"每天"间隔， 数据显示在 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
+|**To** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
+|**Interval** <br/> | 时间间隔。选择下列任意选项： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果您选择开始日期为 2015/7/7 和结束日期为 2015/2/28 的"每天"间隔， 显示 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
 |**报告依据** <br/> | 指示要在报告中使用的值。可选择下列选项之一： <br/>  参与者计数 <br/>  参与分钟数 <br/>  会议计数 <br/> |
    
 ## <a name="metrics-for-conferences-by-pool"></a>按池分类的会议的指标

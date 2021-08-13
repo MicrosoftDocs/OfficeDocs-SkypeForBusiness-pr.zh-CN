@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 5f94fe5ac3dc347b550f804a001e6c967f41b066
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a9e22fe4eba58922377bcc08ed1e8f762f93fea742693c4f4b4c3ac300d88b64
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118030"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336362"
 ---
 # <a name="availability-in-guatemala"></a>在危地马拉的可用性
 
@@ -42,7 +42,7 @@ ms.locfileid: "51118030"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是。 仅按分钟付费。  <br/> |
-|是否自动分配音频会议的电话号码？  <br/> | 不支持 |
+|是否自动分配音频会议的电话号码？  <br/> | 弱 |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用额度 <br/> |
 
 ## <a name="phone-system"></a>电话系统
@@ -70,7 +70,7 @@ ms.locfileid: "51118030"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | 库伊达达省<br/> |
 |是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> 收费号码只能从国内访问。|
-|免费电话号码是否可用？  <br/> |不支持  <br/> |
+|免费电话号码是否可用？  <br/> |弱  <br/> |
 
  如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取音频会议的服务电话号码[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
   

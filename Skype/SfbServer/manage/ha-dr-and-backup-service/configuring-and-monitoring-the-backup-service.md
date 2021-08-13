@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 可以使用命令行Skype for Business Server命令行管理程序命令配置和监视备份服务。
-ms.openlocfilehash: ea4dd6bba87b06cb9c51320be9c040869c17204619656dfc4291054fcb6c214a
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 1c2ec1ff2cd87388015515d092bdfc058aa10cb0
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849537"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232847"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>配置和监视备份服务Skype for Business Server
 

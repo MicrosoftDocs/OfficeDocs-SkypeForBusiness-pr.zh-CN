@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78f602fcacf6ee2f9a29393aa9a4d6b860251e2d
-ms.sourcegitcommit: 39d26edd43b6066d5a6dee2a5ad1354a1e560a0d
+ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324821"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>运营商与 Microsoft for Operator 连接
 
@@ -37,4 +37,4 @@ Microsoft 会通过 API 向每个参与运营商提供呼叫详细信息记录�
 
 每个运营商都将通过 API 向 Microsoft 提供客户使用 MICROSOFT TEAMS。 Microsoft 将使用这些记录为客户提供使用情况信息，并确保我们的记录与运营商的记录一致。 Microsoft 将按照适用的法律和法规以及 Microsoft 隐私声明存储和处理这些记录。
 
-有关详细信息：[购买、配置和启用](career-coach.md)职业指导Microsoft Teams
+有关详细信息：[购买、配置和启用职业指导配置Microsoft Teams](career-coach.md)

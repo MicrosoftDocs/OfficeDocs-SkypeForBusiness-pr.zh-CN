@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server (CDR) 记录呼叫详细信息
+title: 呼叫详细信息记录 (CDR) 中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,32 +11,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
-description: 摘要：了解 Skype for Business Server (CDR) 记录中的呼叫详细信息记录。
-ms.openlocfilehash: 566a345cb48cd318976c4653abc74cbb5d4c9747
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解呼叫详细信息记录 (CDR) 中使用的 CDR Skype for Business Server。
+ms.openlocfilehash: 8559104bffb4e1062f926e70972c0654522670887488740a2c9589d48b104959
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817102"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336612"
 ---
-# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Skype for Business Server (CDR) 记录呼叫详细信息
+# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>呼叫详细信息记录 (CDR) 中Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server (CDR) 记录中的呼叫详细信息记录。
+**摘要：** 了解呼叫详细信息记录 (CDR) 中使用的 CDR Skype for Business Server。
   
-呼叫详细信息记录 (CDR) 记录了有关对等活动（包括即时消息、IP 语音 (VoIP) 呼叫、应用程序共享、文件传输和会议）的使用和诊断信息。 使用数据可以用于计算投资回报率 (ROI)，诊断数据可以用于解决对等活动和会议中遇到的问题。 安装 Skype for Business Server 时，还将安装 CDR 的预定义全局配置设置集合。 使用本节中的过程可配置 CDR。
+呼叫详细信息记录 (CDR) 记录了有关对等活动（包括即时消息、IP 语音 (VoIP) 呼叫、应用程序共享、文件传输和会议）的使用和诊断信息。 使用数据可以用于计算投资回报率 (ROI)，诊断数据可以用于解决对等活动和会议中遇到的问题。 安装 CDR Skype for Business Server，还将安装 CDR 的全局配置设置的预定义集合。 使用本节中的过程可配置 CDR。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [在 Skype for Business Server 中查看 CDR 配置信息](view-configuration-information.md)
+- [查看 CDR 配置信息Skype for Business Server](view-configuration-information.md)
     
-- [在 Skype for Business Server 中启用呼叫详细信息记录](enable-cdr.md)
+- [启用呼叫详细信息记录Skype for Business Server](enable-cdr.md)
     
-- [在 Skype for Business Server 中创建或修改 CDR 配置设置的集合](create-or-modify-a-collection-of-settings.md)
+- [Create or modify a collection of CDR configuration settings in Skype for Business Server](create-or-modify-a-collection-of-settings.md)
     
-- [删除 Skype for Business Server 中的 CDR 配置设置的现有集合](delete-configuration-settings.md)
+- [删除现有 CDR 配置设置集合Skype for Business Server](delete-configuration-settings.md)
     
-- [在 Skype for Business Server 中手动清除呼叫详细信息记录和用户体验质量数据库](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+- [手动清除呼叫详细信息记录和用户体验质量数据库中的Skype for Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 中配置呼叫详细信息记录和用户体验质量设置](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
+[配置呼叫详细信息记录和用户体验质量设置Skype for Business Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
