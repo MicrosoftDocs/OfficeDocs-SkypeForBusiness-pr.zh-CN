@@ -14,27 +14,27 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 摘要：配置旧客户端使用的个人联系人存储。
-ms.openlocfilehash: 5f2131fd1e960e658d4257f0c86dd61a241aa499
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 806bdf8ac43c8126e0537ccb121cbc521066aab6cd42c7136d0d8b951d5b9d19
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109668"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319455"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>在 Lync 2010 客户端计算机上配置个人联系人存储
   
-如果要集成 Skype for Business Server 2015 和 Exchange Server 2016 或 Exchange Server 2013，则应该配置客户端使用的个人联系人存储。 特别是，应该将 Skype for Business 配置为将 Exchange 用作个人联系人存储，同时确保用户无法覆盖该决定。 这可以通过在每个客户端计算机上创建和配置注册表值来完成。
+如果要集成 Skype for Business Server 2015 和 Exchange Server 2016 或 Exchange Server 2013，则应该配置客户端使用的个人联系人存储。 特别是，您应将Skype for Business配置为将 Exchange 用作个人联系人存储，同时确保用户无法替代该决定。 这可以通过在每个客户端计算机上创建和配置注册表值来完成。
   
 > [!NOTE]
-> 以下过程仅适用于使用 Lync 2010 客户端或更早版本客户端的客户端。 Lync 2013 客户端以及所有 Skype for Business 客户端将不能覆盖联系人存储设置。
+> 以下过程仅适用于使用 Lync 2010 客户端或更早版本客户端的客户端。 Lync 2013 客户端和Skype for Business客户端将不能覆盖联系人存储设置。
   
 要在单个计算机上配置此值，请完成下列过程：
   
 1. 在客户端计算机上，单击"**开始"，** 然后单击"运行 **"。**
 2. 在" **运行** "对话框中，键入 regedit，然后按 Enter。
 3. 在注册表编辑器中，展开"HKEY_LOCAL_MACHINE"、"**软件**"、"策略"和 **"Microsoft"，** 然后展开 **"Communicator"。**
-4. 右键单击 **"Communicator"，** 指向"**新建**"，然后单击 **"DWORD (32 位) 值"。**
+4. 右键单击 **"Communicator"，** 指向"新建"，然后单击 **"DWORD (32 位) 值"。**
 5. 创建新值后，键入 PersonalContactStoreOverride，然后按 Enter 来重命名该值。
 6. 验证将 PersonalContactStoreOverride 的值设置为 0，然后关闭注册表编辑器。
 
-如果您要在多台计算机上执行相同的更改，则可以通过创建自定义组策略对象执行此操作。 有关在 Windows 10 中执行此操作的详细信息，请参阅创建 [组策略对象](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) 一文。
+如果您要在多台计算机上执行相同的更改，则可以通过创建自定义组策略对象执行此操作。 有关在组策略Windows 10的详细信息，请参阅创建[组策略对象](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)一文。

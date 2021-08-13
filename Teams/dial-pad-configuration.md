@@ -17,12 +17,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 了解如何在客户端中配置拨号盘Teams，以便用户可以使用 PSTN (电话) 网络。
-ms.openlocfilehash: 44fcbb766cadaa4b31aa065fae80fdcd48c5453f
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012411"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344311"
 ---
 # <a name="dial-pad-configuration"></a>拨号盘配置
 

@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何拨打中国南部的免费电话号码，包括可用性、有线/固定线路和移动网络可用性，以及限制。
-ms.openlocfilehash: ea2b2e535f491f57e5aad41244e56afff3490ebb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fecf60fc6d5f1c73e3fcf16d2f8178b6734f9d20520c50a6caa08215193c87cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296479"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>中国的免费拨号限制 - 南部（10 800 140 XXXX 范围）
 

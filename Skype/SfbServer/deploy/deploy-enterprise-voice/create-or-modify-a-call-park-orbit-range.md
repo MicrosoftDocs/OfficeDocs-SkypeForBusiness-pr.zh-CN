@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Create or modify a Call Park orbit range table in Skype for Business Server 企业语音.
-ms.openlocfilehash: eab1c3e6e53eaa878546b5fe4a9684147a00c583
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 135a04d5e36a7a0590bd1809f8119360d549071627716605f7f7e13994561dbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106318"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332004"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Create or modify a Call Park orbit range in Skype for Business
 
 Create or modify a Call Park orbit range table in Skype for Business Server 企业语音.
 
-呼叫呼叫库使用通道来接听呼叫。 用户必须先配置呼叫离开通道表，然后用户才能呼叫和取回呼叫。 您需要指定组织为 (保留的) 通道的分机号码范围，并指定哪个呼叫池处理每个范围，从而定义这些范围的路由。 定义通道范围时，目标是具有足够的通道，以便不会在短时间内重用任何一个通道，但又不能有太多通道，以致于不得不限制用户或其他服务可使用的分机数量。 你可以为部署了呼叫库应用程序的每个 Skype for Business Server 池创建多个呼叫等待通道范围。 每个呼叫 Park 通道范围必须具有一个全局唯一的名称和一组唯一的分机。
+呼叫呼叫库使用通道来接听呼叫。 用户必须先配置呼叫离开通道表，然后用户才能呼叫和取回呼叫。 您需要指定组织为 (保留的) 通道的分机号码范围，并指定哪个呼叫池处理每个范围，从而定义这些范围的路由。 定义通道范围时，目标是具有足够的通道，以便不会在短时间内重用任何一个通道，但又不能有太多通道，以致于不得不限制用户或其他服务可使用的分机数量。 您可以为部署了呼叫Skype for Business Server的每个呼叫池创建多个呼叫等待通道范围。 每个呼叫 Park 通道范围必须具有一个全局唯一的名称和一组唯一的分机。
 
 > [!IMPORTANT]
 > 每个通道范围包含的通道数通常不超过 100。范围可以更大一点，只要每个范围的通道数小于最大值 10,000 且每个池的通道数小于 50,000。如果范围太小，很快就会重用通道。
@@ -39,11 +39,11 @@ Create or modify a Call Park orbit range table in Skype for Business Server 企�
 
 使用下列过程之一可创建或修改呼叫寄存通道范围。
 
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>使用 Skype for Business Server 控制面板创建或修改用于呼叫等待的号码范围
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>使用Skype for Business Server控制面板创建或修改用于呼叫等待的号码范围
 
-1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 **Delegate Setup Permissions**。
+1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅 **Delegate Setup Permissions**。
 
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“语音功能”，然后单击“呼叫寄存”。
 
@@ -66,7 +66,7 @@ Create or modify a Call Park orbit range table in Skype for Business Server 企�
 
    - 如果通道范围以 字符或 #开头，则范围 \* 必须大于 100。
 
-   - 有效值：必须与正则表达式字符串匹配 ([ \\ *|#]？[1-9]\d {0,7}) | ([1-9]\d {0,8}) 。 这意味着该值必须是以字符或 # 或数字 1 到 9 开头的字符串 (第一个字符不能为 \* 零) 。 如果第一个字符是 或 #，则下一个字符必须是 1 到 \* 9 (不能是零) 。 后续字符可以是 0 到 9 之间的任意数字 (例如 \* ，"#6000"、"92000"、"95551212"和 \* "915551212") 。 如果第一个字符不是 或 #，则第一个字符必须是 1 到 9 个数字 (不能为零) ，后跟最多八个字符，每个字符从 0 到 \* 9 (例如，"915551212"、"41212"、"300") 。
+   - 有效值：必须与正则表达式字符串匹配 ([ \\ *|#]？[1-9]\d {0,7}) | ([1-9]\d {0,8}) 。 这意味着该值必须是以字符或 # 或数字 1 到 9 开头的字符串 (第一个字符不能为 \* 零) 。 如果第一个字符是 或 #，则下一个字符必须是 1 到 \* 9 (不能是零) 。 后续字符可以是 0 到 9 之间的任意数字 (例如 \* ，"#6000"、"92000"、"95551212"和 \* "915551212") 。 如果第一个字符不是 或 #，则第一个字符必须是 1 到 9 个数字 (不能为零) ，后跟最多八个字符，每个字符从 0 到 9 (例如 \* ，"915551212"、"41212"、"300") 。
 
    - 每个池不应包含 50,000 个以上的通道。每个通道范围包含的通道数通常不超过 100，但是该数目可以更大，只要不超过 10,000。例如，不要将起始号码指定为“7000000”并将结束号码指定为“8000000”，而考虑将起始号码指定为“7000000”并将结束号码指定为“7000100”。
 
@@ -74,13 +74,13 @@ Create or modify a Call Park orbit range table in Skype for Business Server 企�
 
 7. 单击 **“提交”**。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>使用 Skype for Business Server 命令行管理程序创建或修改用于呼叫等待的号码范围
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>使用Skype for Business Server命令行管理程序创建或修改用于呼叫等待的号码范围
 
-1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
+1. 以 RTCUniversalServerAdmins 组的成员或必要的用户权限（如D委托安装权限中所述）登录到安装了命令行管理程序Skype for Business Server **的计算机。**
 
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
-3. 使用 **New-CsCallParkOrbit** 可创建通道号码的新范围。 使用 **Set-CsCallParkOrbit** 可修改通道号码的现有范围。
+3. 使用 **New-CsCallParkOrbit** 可创建通道号码的新范围。使用 **Set-CsCallParkOrbit** 可修改通道号码的现有范围。
 
     在命令行中运行：
 

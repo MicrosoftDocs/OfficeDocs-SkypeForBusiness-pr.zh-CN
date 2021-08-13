@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 摘要：阅读本主题，了解如何为用户配置Skype for Business体验。
-ms.openlocfilehash: 4ad311917ef868a8eea55fab88e7aad6dd854dfe
+ms.openlocfilehash: 4cdfc0a44f07de5488d9b6a27019af0cd9fc03a74476367367b9e23170313fb6
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772683"
+ms.locfileid: "54332064"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>在 2015 Skype for Business客户端体验
  
@@ -132,13 +132,13 @@ Lync
 
 |**服务器版本**|**EnableSkypeUI 设置**|**客户端体验**|
 |:-----|:-----|:-----|
-|Skype for Business Server |默认值  <br/> |Skype for Business  <br/> |
+|Skype for Business Server |默认  <br/> |Skype for Business  <br/> |
 |Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |False  <br/> |如果将 UI 设置更改为" ("，系统要求用户稍后Skype for Business切换到 Lync 模式$true)   <br/> |
-|Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |默认值  <br/> |如果将 UI 设置更改为" ("，系统要求用户稍后Skype for Business切换到 Lync 模式$true)   <br/> |
+|Skype for Business Server  |错误  <br/> |如果将 UI 设置更改为" ("，系统要求用户稍后Skype for Business切换到 Lync 模式$true)   <br/> |
+|Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |默认  <br/> |如果将 UI 设置更改为" ("，系统要求用户稍后Skype for Business切换到 Lync 模式$true)   <br/> |
 |Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |True  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |False  <br/> |如果将 UI 设置更改为" ("，系统要求用户稍后Skype for Business切换到 Lync 模式$true)   <br/> |
-|Lync Server 2010 或 Lync Server 2013 (修补程序)   <br/> |默认值  <br/> |要求用户切换到 Lync 模式 (用户以后无法Skype for Business切换到)   <br/> |
+|Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |错误  <br/> |如果将 UI 设置更改为" ("，系统要求用户稍后Skype for Business切换到 Lync 模式$true)   <br/> |
+|Lync Server 2010 或 Lync Server 2013 (修补程序)   <br/> |默认  <br/> |要求用户切换到 Lync 模式 (用户以后无法Skype for Business切换到)   <br/> |
    
 下表显示了管理员更改自定义 UI 体验的初始设置时Skype体验：
   
@@ -146,10 +146,10 @@ Lync
 |**服务器版本**|**EnableSkypeUI 设置**|**客户端 UI = Lync**|**客户端 UI = Skype for Business**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Server |True  <br/> |要求用户切换到Skype for Business  <br/> |Skype for Business  <br/> |
-|Skype for Business Server |False  <br/> |Lync 模式  <br/> |要求用户切换到 Lync 模式  <br/> |
+|Skype for Business Server |错误  <br/> |Lync 模式  <br/> |要求用户切换到 Lync 模式  <br/> |
 |Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |True  <br/> |要求用户切换到Skype for Business  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |False  <br/> |Lync 模式  <br/> |要求用户切换到 Lync 模式  <br/> |
-|Lync Server 2010 或 Lync Server 2013 (修补程序)   <br/> |默认值  <br/> |Lync 模式 (无法切换到Skype for Business)   <br/> |Lync 模式 (无法切换到Skype for Business)   <br/> |
+|Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |错误  <br/> |Lync 模式  <br/> |要求用户切换到 Lync 模式  <br/> |
+|Lync Server 2010 或 Lync Server 2013 (修补程序)   <br/> |默认  <br/> |Lync 模式 (无法切换到Skype for Business)   <br/> |Lync 模式 (无法切换到Skype for Business)   <br/> |
    
 管理客户端配置所需的修补程序Skype for Business为：
   

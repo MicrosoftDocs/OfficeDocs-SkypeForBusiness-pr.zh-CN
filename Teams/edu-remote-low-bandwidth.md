@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17520645f23500550c6bc991c9d25ad2f72b2b6e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 87f1be3a538d708c62aef46dd673e7fd3ed5c1156c3e50c986fc9ec0753cad39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299241"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>帮助 EDU 解决 Teams 低带宽问题
 
-使用 Microsoft Teams 时，很多网络元素可能会影响性能。 低带宽是完全无法掌控的情况之一。 请考虑以下情况:
+使用 Microsoft Teams 时，有许多网络因素可能会影响性能，而低带宽就是一种让人感觉完全无法控制的因素。请考虑以下情况：
 
 - 学校的低速 Internet 连接。
 - 一名或多名学生的低速 Internet 连接。
@@ -42,7 +42,7 @@ ms.locfileid: "51598421"
 
 ## <a name="resolving-low-bandwidth-issues-for-admins"></a>解决管理员的低带宽问题
 
-作为 IT 管理员，需要记住的重要一点就是，虽然提供了可快速解决问题的低带宽问题的解决方案，但应仔细考虑解决方案。 某些问题可能可以通过在教育者甚至学生/家长层面采取更集中的关注来解决。
+作为 IT 管理员，请务必注意，虽然有可以迅速解决广泛低带宽问题的解决方案，但应仔细考虑，因为一些问题可以通过更加重点关注教师或学生/家长级别来解决。
 
 简而言之，如果低带宽问题发生在广大学生群体中，或者如果在学生/教师级别采取的措施没有效果，最好以 IT 管理员身份采取措施。
 
@@ -51,7 +51,7 @@ ms.locfileid: "51598421"
 
 ### <a name="meetings-and-video"></a>会议和视频
 
-低带宽问题的主要关注点是会议; 特别是会议中的视频。 信息技术管理员在处理学生或教育工作者报告的有关在教育环境中获得最佳会议体验的问题时，应考虑以下措施。
+低带宽问题的主要焦点是会议，具体而言，是会议中的视频。信息技术管理员在处理学生或教育工作者报告的有关在教育环境中获得最佳会议体验的问题时，应考虑以下措施。
 
 #### <a name="meeting-policies"></a>会议策略
 
@@ -91,6 +91,6 @@ ms.locfileid: "51598421"
 
 也有一些情况，你应该主动与教师讨论，因为带宽问题可能出在学生这边（例如，很多学生能够顺利观看视频课程，但少数学生遇到问题）。
 
-期望许多家长能够解决这些问题并不合理。 低带宽问题可能是学生或家长无法控制的 (他们的家庭可能无法获得高带宽，他们可能在其附近地区有许多人消耗带宽并影响他们可以做的事情，可能存在网络不稳定等)。
+期望许多家长能够排查这些问题是不合理的，低带宽问题可能超出了学生或家长的控制范围（他们家中可能没有高带宽；附近地区可能有很多人在消耗带宽，并对他们的操作产生影响；可能会出现 Internet 不稳定等情况）。
 
 我们也已将面向家长和学生的指南归入[在低带宽时使用 Teams 完成课业](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262)一文中；如果你有任何问题，可以查看并尝试其中的建议。

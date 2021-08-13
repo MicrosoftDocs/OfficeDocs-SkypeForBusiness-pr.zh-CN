@@ -16,12 +16,12 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: 236b3444d78950ea4f84fb28187d6d4d3046205c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 23fdfe702d4ae776893368838332ce4747463e0bfc15938c418f076279d8bf74
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299429"
 ---
 # <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>购买订阅所需的管理员Microsoft 365 商务语音
 
@@ -31,11 +31,11 @@ ms.locfileid: "51102848"
 
 ## <a name="how-can-i-buy-business-voice"></a>如何购买 Business Voice？
 
-Business Voice 是一种附加内容，Microsoft 365 Office 365。 在购买 Business Voice 之前，您需要注册 Microsoft 365 或 Office 365。 注册后，或者如果你已有 Microsoft 365 或 Office 365 订阅，则可以通过访问 [Microsoft 365](https://admin.microsoft.com)管理中心计费购买服务附加内容来购买 Business Voice 加载项许可证 (滚动到) >  >    >    >   **Microsoft 365 商务语音** 页面的底部。
+Business Voice 是一种附加内容，Microsoft 365 Office 365。 在购买 Business Voice 之前，您需要注册 Microsoft 365 或 Office 365。 注册后，或者如果你已有 Microsoft 365 或 Office 365 订阅，可以通过访问 [Microsoft 365 管理中心](https://admin.microsoft.com)计费购买服务附加内容 (滚动到页面底部) > Microsoft 365 商务语音 购买 Business Voice 加载项  >    >    >  **许可证**。
 
 ## <a name="why-dont-i-see-an-option-to-buy-business-voice"></a>为什么我看不到购买 Business Voice 的选项？
 
-如果无法访问 Microsoft 365管理中心，如果没有看到购买 Business Voice 的选项，或者收到错误，原因可能是以下之一：
+如果无法访问 Microsoft 365 管理中心，如果没有看到购买 Business Voice 的选项，或者收到错误，原因可能是以下之一：
 
 - **权限不足**- 若要将许可证（包括 Business Voice）添加到 Microsoft 365 或 Office 365 组织，您的帐户需要是全局管理员，或者需要分配有计费管理员角色。 与你的Microsoft 365或Office 365联系，获取适当的权限或添加 Business Voice 许可证。
 - 登录到非管理员帐户 **-** 如果你是 Microsoft 365 或 Office 365 组织的全局管理员或帐单管理员，并且遵循与管理员帐户分开的"常规"用户帐户的建议做法，请注销常规用户帐户并登录到管理员帐户。

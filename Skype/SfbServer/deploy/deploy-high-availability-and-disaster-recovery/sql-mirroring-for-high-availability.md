@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 为了能够部署 SQL 镜像，您的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主、镜像和见证。 有关详细信息，请参阅 cumulative update package 9 for SQL Server 2008 Service Pack 1。
-ms.openlocfilehash: 38c3e749b39cd510623232e9f29ace03a1c19f6c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 454222526790e4185b7416c2f7df36ea024ebf5a40fc085cdc37d56dfa646217
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319485"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Deploy SQL mirroring for Back End Server high availability in Skype for Business server 2015
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>在 SQL Server 2015 中部署后端服务器高可用性Skype for Business镜像
 
 
 为了能够部署 SQL 镜像，您的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主、镜像和见证。 有关详细信息，请参阅 cumulative [update package 9 for SQL Server 2008 Service Pack 1。](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)
 
 通常，在两台具有见证的后端服务器之间设置 SQL 镜像需要满足以下条件：
 
-- 主服务器的版本必须支持SQL Server镜像SQL版本。
+- 主服务器的版本必须支持SQL Server镜像SQL镜像。
 
 - 主、镜像和见证（如果部署）必须具有同一版本的 SQL Server。
 
 - 主和镜像必须具有同一版本的 SQL Server。见证可以具有不同版本。
 
-有关SQL角色支持哪些版本SQL最佳实践，请参阅数据库 [镜像见证](/sql/database-engine/database-mirroring/database-mirroring-witness)。
+有关SQL角色支持哪些版本SQL最佳实践，请参阅数据库[镜像见证](/sql/database-engine/database-mirroring/database-mirroring-witness)。
 
 使用拓扑生成器部署SQL镜像。 在拓扑生成器中选择一个选项来镜像数据库，拓扑生成器将设置镜像 (包括设置见证（如果需要在发布拓扑时) 设置见证服务器）。 请注意，您在设置或删除镜像的同时将设置或删除见证。 没有用于仅部署或删除见证的单独命令。
 
@@ -49,7 +49,7 @@ ms.locfileid: "51100718"
 对于 SQL 镜像，可在创建池时或之后为镜像配置拓扑。
 
 > [!IMPORTANT]
-> 只有在主服务器、镜像服务器和见证服务器SQL需要时，才支持使用拓扑生成器或 cmdlet 设置和删除 (镜像) 服务器都属于同一个域。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。
+> 仅在主服务器、镜像服务器和见证 (服务器都属于同一域时，才支持使用拓扑生成器或 cmdlet 设置和删除) SQL 镜像。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。
 
 > [!IMPORTANT]
 > 只要更改后端数据库镜像关系，就必须重新启动池中的所有前端服务器。 >对于镜像中的更改， (（如更改镜像) 的位置）必须使用拓扑生成器执行以下三个步骤：
@@ -127,7 +127,7 @@ ms.locfileid: "51100718"
 
 设置镜像的最简单方法是使用拓扑生成器，但您也可以使用 cmdlet 来设置镜像。
 
-1. 打开 Skype for Business Server 2015 命令行管理程序窗口并运行以下 cmdlet：
+1. 打开 Skype for Business Server 2015 命令行管理程序 窗口并运行以下 cmdlet：
 
    ```powershell
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose

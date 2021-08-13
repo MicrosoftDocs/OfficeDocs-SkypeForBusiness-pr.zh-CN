@@ -14,13 +14,13 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 要使用电子邮件向用户发送 PIN，请单击“打开我的电子邮件应用程序以将新 PIN 发送给用户”。 要将 PIN 复制到电子邮件中，请选择“显示 PIN”。
-ms.openlocfilehash: 2eec6b6912a690871aad6805615abbe57a00d1ef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 要使用电子邮件向用户发送 PIN，请单击“打开我的电子邮件应用程序以将新 PIN 发送给用户”。要将 PIN 复制到电子邮件中，请选择“显示 PIN”。
+ms.openlocfilehash: 40a6343cab7b65f0525dc1f5638e483b3cac645798470eafa564f93e181846e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331824"
 ---
 # <a name="pin-set-successfully"></a>PIN 设置成功
  

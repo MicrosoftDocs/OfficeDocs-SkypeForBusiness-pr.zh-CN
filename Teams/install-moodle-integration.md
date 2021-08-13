@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 search.appverid: MET150
-description: 了解如何安装和配置适用于 Microsoft Teams 的 Moodle 开源学习管理系统 (LMS) 应用。
+description: 了解如何安装和配置适用于 Microsoft Teams 的 Moodle Learning MANAGEMENT System (LMS) 应用。
 keywords: TeamsMoodle 应用集成插件
 localization_priority: Normal
 f1.keywords:
@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d547d3c811f499faee5727634068a7807566293
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: fca7bc34eeaf0f7b2c6bd552038b9b2567c872351d91c264936ec9072957bc2b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344015"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安装 Moodle 与 Microsoft Teams
 
 > [!VIDEO https://www.youtube.com/embed/OHlPt22nKoE]
 
-[Moodle（](https://moodle.org/)世界上最常用的开源学习管理系统 (LMS) ）现在与 Microsoft Teams 集成！ 此集成可帮助教师和教师围绕 Moodle 课程展开协作，提出有关其成绩和作业的问题，并及时了解最新通知 - 就在Teams！
+[Moodle（](https://moodle.org/)世界上最常用的开源 Learning MANAGEMENT System (LMS) ）现在与 Microsoft Teams！ 此集成可帮助教师和教师围绕 Moodle 课程展开协作，提出有关其成绩和作业的问题，并及时了解最新通知 - 就在Teams！
 
 为了帮助 IT 管理员轻松设置此集成，我们已使用以下功能更新了开源 Moodle 插件：
 

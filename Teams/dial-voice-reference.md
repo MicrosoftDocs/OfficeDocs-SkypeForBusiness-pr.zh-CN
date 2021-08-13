@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列拨号和语音识别选项，Teams。
-ms.openlocfilehash: ee79f5024ee15fc1b8f00ecd5026f2eb5a9b4b22
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: 6dfb1265d3eb5e1200a2b0638d66415c025ed7682c222aa51767d8a5fea3e0f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491809"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344301"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自动助理和呼叫队列拨号和语音识别参考
 
@@ -108,7 +108,7 @@ ms.locfileid: "52491809"
 |语音命令| 对应于 |
 |:-----|:-----|
 |是 | 按 1 表示"是"。 |
-|不支持 | 按 2 表示"否"。 |
+|弱 | 按 2 表示"否"。 |
 |重复 |重复选项列表。 按键盘上的 *重复选项列表。 |
 |接线员 | 按 0 表示"运算符" |
 |主菜单  |为呼叫者返回到自动助理的主菜单。 |

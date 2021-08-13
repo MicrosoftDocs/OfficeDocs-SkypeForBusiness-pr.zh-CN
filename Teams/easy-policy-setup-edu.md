@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用策略Teams 教育版轻松为学生和教师应用策略，确保学习环境安全。
 f1keywords: ''
-ms.openlocfilehash: 2824ed511f1c2f5a5a7389760de9d50559e5da2a
+ms.openlocfilehash: 335061c2dfb662673a4ec026bb3a29015cdb59b4b198bdafc9a971e4480938d4
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772403"
+ms.locfileid: "54344055"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>使用Teams 教育版向导轻松应用安全学习环境的策略
 

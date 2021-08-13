@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中创建或修改未分配号码范围
+title: Create or modify an unassigned number range in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: Create， modify or delete unassigned number ranges for Announcement application in Skype for Business Server 企业语音. 这会影响如何处理对未分配号码的呼叫。
-ms.openlocfilehash: 72c9ec5b6b1e3d4577507ede0a5ed61560928f03
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 创建、修改或删除通知应用程序中的未分配号码Skype for Business Server 企业语音。 这会影响如何处理对未分配号码的呼叫。
+ms.openlocfilehash: ab6573b618782434e18bebc3d47dd52fc1fbd4055f13464c7121fbafb2b08aba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093050"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331994"
 ---
-# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在 Skype for Business Server 中创建或修改未分配号码范围
+# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Create or modify an unassigned number range in Skype for Business Server
  
-Create， modify or delete unassigned number ranges for Announcement application in Skype for Business Server 企业语音. 这会影响如何处理对未分配号码的呼叫。
+创建、修改或删除通知应用程序中的未分配号码Skype for Business Server 企业语音。 这会影响如何处理对未分配号码的呼叫。
   
-Skype for Business Server 使你可以说出对电话号码的传入呼叫会发生什么情况，这些号码对您的组织有效，但是未分配给用户或电话。 若要处理此类呼叫，请设置未分配号码表。 可以使用表将呼叫路由到通知应用程序或 Exchange UM 服务器。
+Skype for Business Server使您可以说出对电话号码的传入呼叫会发生什么情况，这些号码对您的组织有效，但没有分配给用户或电话。 若要处理此类呼叫，请设置未分配号码表。 可以使用表将呼叫路由到通知应用程序或 UM Exchange UM 服务器。
   
 配置未分配号码表的方式取决于要使用该表的方式。可以使用组织的所有有效分机、仅使用未分配的分机或使用这两类号码的组合来配置该表。未分配号码表可以同时包含已分配和未分配的号码，但仅当呼叫者拨打当前未分配号码时，才会调用该表。如果在未分配号码表中包含所有有效分机，则可以指定某人离开组织时所执行的操作，而无需重新配置该表。如果在该表中包含未分配的分机，则可以为特定号码修改所执行的操作。例如，如果更改客户服务台的分机，则可以在该表中包含旧的客户服务号码，然后将其分配给提供新号码的通知。
   
@@ -36,16 +36,16 @@ Skype for Business Server 使你可以说出对电话号码的传入呼叫会发
 使用以下过程之一为通知应用程序配置未分配号码范围。
   
 > [!IMPORTANT]
-> 配置未分配号码表之前，系统必须已定义通知或已设置 Exchange 统一消息 (UM) 自动助理消息。 
+> 在配置未分配号码表之前，系统必须已定义通知或已设置 Exchange 统一消息 (UM) 自动助理消息。 
   
 > [!TIP]
-> 当有人呼叫未分配号码时，Skype for Business Server 会从上到下搜索未分配号码表，并使用第一个匹配范围。 因此，要在万不得已时执行的操作应指定给表中最后一个范围。 
+> 当有人呼叫未分配号码时，Skype for Business Server从上到下搜索未分配号码表并使用第一个匹配范围。 因此，要在万不得已时执行的操作应指定给表中最后一个范围。 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>使用 Skype for Business Server 控制面板配置未分配的电话号码
+### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>使用Skype for Business Server控制面板配置未分配的电话号码
 
-1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 **Delegate Setup Permissions**。
+1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅 **Delegate Setup Permissions**。
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。  
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
 3. 在左侧导航栏中，单击“语音功能”，然后单击“未分配号码”。
     
@@ -85,17 +85,17 @@ Skype for Business Server 使你可以说出对电话号码的传入呼叫会发
 10. 在“未分配号码”页上，确保未分配号码范围按照所需顺序排列。要更改号码范围在表中的位置，请在范围列表中单击一个或多个连续名称，然后单击向上箭头或向下箭头。
     
     > [!TIP]
-    > Skype for Business Server 从上到下搜索未分配号码表，并使用匹配未分配号码的第一个范围。 如果有重叠的范围并且有一个范围指定了最后的操作，请确保将该范围置于列表底部。 
+    > Skype for Business Server从上到下搜索未分配号码表，并使用第一个匹配未分配号码的范围。 如果有重叠的范围并且有一个范围指定了最后的操作，请确保将该范围置于列表底部。 
   
 11. 按照希望的顺序排列未分配号码范围后，单击“全部提交”。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>使用 Skype for Business Server 命令行管理程序配置未分配的电话号码
+### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>使用 Skype for Business Server命令行管理程序配置未分配的电话号码
 
-1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
+1. 以 RTCUniversalServerAdmins 组的成员或必要的用户权限（如D委托安装权限中所述）登录到安装了命令行管理程序Skype for Business Server **的计算机。**
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
-3. 使用 **New-CsUnassignedNumber** 可创建新的未分配号码范围。 使用 **Set-CsUnassignedNumber** 可修改现有未分配号码范围。
+3. 使用 **New-CsUnassignedNumber** 可创建新的未分配号码范围。使用 **Set-CsUnassignedNumber** 可修改现有未分配号码范围。
     
     > [!TIP]
     > 如果您具有重叠的范围并希望按某个特定顺序应用这些范围，请包含 Priority 参数。 优先级最高的范围将应用于呼叫。 值 0 表示最高优先级。
@@ -134,11 +134,11 @@ Skype for Business Server 使你可以说出对电话号码的传入呼叫会发
 
 ## <a name="delete-an-unnasigned-number-range"></a>删除未签名号码范围
 
-### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>使用 Skype for Business Server 控制面板删除未分配号码范围
+### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>使用Skype for Business Server控制面板删除未分配号码范围
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 **Delegate Setup Permissions**。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。有关详细信息，请参阅 **Delegate Setup Permissions**。
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。  
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
 3. 在左侧导航栏中，单击“语音功能”，然后单击“未分配号码”。
     
@@ -148,11 +148,11 @@ Skype for Business Server 使你可以说出对电话号码的传入呼叫会发
     
 6. 单击“全部提交”。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>使用 Skype for Business Server 命令行管理程序删除未分配号码范围
+### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>使用 Skype for Business Server命令行管理程序删除未分配号码范围
 
-1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
+1. 以 RTCUniversalServerAdmins 组的成员或必要的用户权限（如D委托安装权限中所述）登录到安装了命令行管理程序Skype for Business Server **的计算机。**
     
-2. 启动 Skype for Business Server命令行管理程序：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击 **"Skype for Business Server 命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
 3. 在命令行中键入：
     

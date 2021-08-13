@@ -16,12 +16,12 @@ f1.keywords:
 description: Teams公司的语音案例研究：紧急呼叫
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69231adb4588039012cceec1063571ddc201c2bb
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 409293fd463b5cbc2792f6e6f485df6212fa6746f1ac445bd5ebd71aa01e87ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296409"
 ---
 # <a name="contoso-case-study-emergency-calling"></a>Contoso 案例研究：紧急呼叫
 

@@ -16,12 +16,12 @@ f1.keywords:
 description: Teams多语言公司语音案例研究：自动助理和呼叫队列
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0251c4baa9aca86f871b7c1dc1af44695bd1585
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: bf1d7a5457af0d7463207c0bdbc9d50433b3142e2f72e7efc7f8c89ade82bc93
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296419"
 ---
 # <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso 案例研究：自动助理和呼叫队列
 
