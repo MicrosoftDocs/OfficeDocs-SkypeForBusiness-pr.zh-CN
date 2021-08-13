@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中创建会议策略
+title: 在会议部署中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 摘要：了解如何在 Skype for Business Server 中创建会议策略。
-ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解如何在会议Skype for Business Server。
+ms.openlocfilehash: 2cce451135c82894d9d82c89e6a62682d95526d31082d209bcaf8144752426b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344741"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server"></a>在 Skype for Business Server 中创建会议策略
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>在会议部署中Skype for Business Server
  
-**摘要：** 了解如何在 Skype for Business Server 中创建会议策略。
+**摘要：** 了解如何在会议Skype for Business Server。
   
-可以使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序创建会议策略。
+可以使用控制面板或命令行管理程序Skype for Business Server会议策略Skype for Business Server策略。
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板创建会议策略
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用控制面板创建Skype for Business Server策略
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
     
-2. 打开 Skype for Business Server 控制面板。
+2. 打开Skype for Business Server控制面板"。
     
 3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议策略"。**
     
@@ -84,7 +84,7 @@ ms.locfileid: "51119521"
     
     - 要阻止文件传输，请清除 **“允许参与者传输文件”** 复选框。默认情况下，用户可以传输文件。
     
-    - 要阻止使用批注，请清除 **“启用批注”** 复选框。 若要在共享的 PowerPoint 演示文稿中使用批注，请清除"**启用 PowerPoint 批注"。** 默认情况下，允许使用批注。
+    - 要阻止使用批注，请清除 **“启用批注”** 复选框。 若要在共享演示文稿和演示文稿PowerPoint批注，请清除"启用PowerPoint **批注"。** 默认情况下，允许使用批注。
     
     - 要阻止使用投票，请清除 **“启用投票”** 复选框。默认情况下，允许使用投票。
     
@@ -116,7 +116,7 @@ ms.locfileid: "51119521"
     
 21. 单击“提交”。
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序创建会议策略
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server会议策略
 
 若要创建会议策略，请使用 **New-CsConferencingPolicy** cmdlet。
   

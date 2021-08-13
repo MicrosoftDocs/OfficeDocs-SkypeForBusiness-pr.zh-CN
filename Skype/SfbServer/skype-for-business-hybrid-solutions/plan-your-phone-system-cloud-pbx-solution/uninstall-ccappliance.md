@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
-description: Uninstall-CcAppliance cmdlet 用于从主机服务器中卸载正在运行的 Skype for Business 云连接器版本设备。
-ms.openlocfilehash: c92ad5c31e2e254e4f10511835b6cc9f60c7c43c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此Uninstall-CcAppliance cmdlet 从主机Skype for Business 云连接器版本正在运行的设备。
+ms.openlocfilehash: f82459e71ee3c7eea88030a2f265f0076a633a280ee3182920e599402f69a96c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344551"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
-Uninstall-CcAppliance cmdlet 用于从主机服务器中卸载正在运行的 Skype for Business 云连接器版本设备。 
+此Uninstall-CcAppliance cmdlet 从主机Skype for Business 云连接器版本正在运行的设备。 
   
 ```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
@@ -33,7 +33,7 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 
 ### <a name="example-1"></a>示例 1
 
-下面的示例从主服务器中耗尽和卸载云连接器装置：
+以下示例从主机服务器排出和卸载云连接器设备：
   
 ```powershell
 Uninstall-CcAppliance
@@ -41,7 +41,7 @@ Uninstall-CcAppliance
 
 ### <a name="example-2"></a>示例 2
 
-下一个示例将排出并强制卸载主机服务器上正在运行的云连接器装置，即使排出过程失败：
+下一个示例排出并强制卸载主机服务器上正在运行的云连接器设备，即使排出过程失败：
   
 ```powershell
 Uninstall-CcAppliance -Force
@@ -49,7 +49,7 @@ Uninstall-CcAppliance -Force
 
 ### <a name="example-3"></a>示例 3
 
-下一示例在没有用户确认的情况下卸载云连接器备份版本：
+下一个示例卸载云连接器备份版本，而无需用户确认：
   
 ```powershell
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
@@ -58,21 +58,21 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-如果你卸载的是当前运行的云连接器版本，将首先在中介服务器和 Edge 服务器上运行排水管服务，以便在卸载虚拟机之前，让并发调用完成。 如果你要卸载备份版本，则不执行排出操作。
+如果要卸载当前正在运行的云连接器版本，则首先在中介服务器和边缘服务器上运行排出服务，以允许并发呼叫在卸载虚拟机之前完成。 如果要卸载备份版本，则不执行排出操作。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必需**|**类型**|**说明**|
+|**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| 版本 <br/> | 可选 <br/> |System.String  <br/> | 将从主机服务器卸载的云连接器的版本。 如果未指定，将卸载当前正在运行的版本。 <br/> |
-|强制  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |如果卸载当前正在运行的版本，将先尝试在中介服务器和边缘服务器上排出服务，然后卸载虚拟机。如果指定“Force”开关，即使排出服务失败，也会卸载虚拟机。此参数仅用于卸载当前正在运行的版本。  <br/> |
-|确认  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |询问用户确认以卸载虚拟机。 默认值为 TRUE。  <br/> |
+| 版本 <br/> | 可选 <br/> |System.String  <br/> | 从主机服务器卸载的云连接器的版本。 如果未指定，请卸载当前运行的版本。 <br/> |
+|Force  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |如果卸载当前运行的版本，尝试在卸载虚拟机之前排出中介服务器和边缘服务器中的服务器。 如果指定"Force"开关，即使排出服务失败，也会卸载虚拟机。 此参数仅用于卸载当前运行的版本。  <br/> |
+|确认  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |要求用户确认卸载虚拟机。 默认值为 TRUE。  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
 
-无。Uninstall-CcAppliance cmdlet 不接受主线输入。
+无。 Uninstall-CcAppliance cmdlet 不接受通过管道的输入。
   
 ## <a name="return-types"></a>返回类型
 <a name="ReturnTypes"> </a>

@@ -20,12 +20,12 @@ f1.keywords:
 search.appverid: MET150
 ms.topic: landing-page
 ms.author: v-cichur
-ms.openlocfilehash: 5e4c866935fe9ddb15f598ba6540fe8ed266f447
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4f2d6e2b096e5220c0dffd6f04103ea65fd9ce0aa77eef6f845f0b99f306b9cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822712"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299042"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 

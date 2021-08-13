@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 列出教育教职员工和学生许可计划和 SKU ID。
 f1keywords: ''
-ms.openlocfilehash: dc8b476e4af134199fe402c998a20dbd84d0919d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 38bfcfc39179253a30b45f2ce2c52be1b605a4b65832a5565521209c308a6205
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834242"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297768"
 ---
 # <a name="education-sku-reference"></a>教育 SKU 参考
 
@@ -41,7 +41,7 @@ ms.locfileid: "49834242"
 |Office 365 教育版E4（教职员工）      |ENTERPRISEWITHSCAL_FACULTY         |16732e85-c0e3-438e-a82f-71f39cbe2acb         |
 |Microsoft 365 教育版A3（教职员工）      |M365EDU_A3_FACULTY         |4b590615-0888-425a-a965-b3bf7789848d         |
 |Microsoft 365 教育版A5（教职员工）       |M365EDU_A5_FACULTY         |e97c048c-37a4-45fb-ab50-922fbf07a370         |
-|Microsoft 365没有音频会议（教职员工）的 A5     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
+|Microsoft 365 A5没有教职员工音频会议     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
 |Office 365 教育版教职员工家庭学校     |STANDARDWOFFPACK_HOMESCHOOL_FAC         |43e691ad-1491-4e8c-8dc9-da6b8262c03b         |
 |Office 365 A1设备 (教职员工)      |STANDARDWOFFPACK_FACULTY_DEVICE         |af4e28de-6b52-4fd3-a5f4-6bf708a304d3         |
 
@@ -58,9 +58,9 @@ ms.locfileid: "49834242"
 |Microsoft 365 教育版适用于学生的 A3      |M365EDU_A3_STUDENT         |7cfd9a2b-e110-4c39-bf20-c6a3f36a3121         |
 |Microsoft 365 教育版适用于学生的 A3 使用权益       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
 |Microsoft 365 教育版A5（学生）        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
-|Microsoft 365A5 学生使用权益     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
-|Microsoft 365适用于学生的无音频会议 A5      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
-|Microsoft 365没有音频会议（学生）使用权益的 A5    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
+|Microsoft 365 A5学生使用权益     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
+|Microsoft 365 A5学生音频会议      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
+|Microsoft 365 A5音频会议的学生使用权益    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3学生     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
 |Office 365 A3学生使用权益     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
 |Office 365 A5学生使用权益    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |

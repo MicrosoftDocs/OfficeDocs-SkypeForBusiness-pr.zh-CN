@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的故障分布报告
+title: 报告中的故障分布Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 摘要：了解 Skype for Business Server 中的故障分布报告。
-ms.openlocfilehash: 251cf8e2017312d9e42e0d1aebcfe5d1d9bd3568
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Summary： Learn about the Failure Distribution Report in Skype for Business Server.
+ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823522"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344721"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Skype for Business Server 中的故障分布报告
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>报告中的故障分布Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中的故障分布报告。
+**摘要：** 了解报告中的故障分布Skype for Business Server。
   
 故障分布报告按以下类别对失败会话进行分级：
   
@@ -47,13 +47,13 @@ ms.locfileid: "49823522"
 
 您可以通过单击“预期失败量”或“意外失败量”指标，从以下任意报告中访问故障分布报告：
   
-- [Skype for Business Server 中的热门故障报告](top-failures-report.md)
+- [报告中的故障Skype for Business Server](top-failures-report.md)
     
-- [Skype for Business Server 中的会议诊断报告](conference-diagnostic-report.md)
+- [会议诊断报告Skype for Business Server](conference-diagnostic-report.md)
     
-- [Skype for Business Server 中的对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)
+- [Skype for Business Server 中的对等活动诊断Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-从故障分布报告中，可以单击以下任一指标以查看 Skype for Business Server 中的故障 [列表报告](failure-list-report.md)：
+从故障分布报告中，可以单击以下任一指标以查看"故障列表[报告](failure-list-report.md)Skype for Business Server：
   
 - 主要诊断原因（会话）
     
@@ -92,10 +92,10 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 |**名称**|**说明**|
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|"自" <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
+|**To** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**Pool** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。<br/> |
-|**活动类型** <br/> | 要筛选的活动类型。选择下列选项之一： <br/>  [全部] <br/>  对等 <br/>  会议 <br/> |
-|**会话类别** <br/> | 指示相应活动已成功还是失败。选择下列选项之一： <br/>  [全部] <br/>  成功 <br/>  预期失败 <br/>  意外失败 <br/>  “预期失败”是指预计会出现的失败情况。例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。“意外失败”是指在本该正常运行的系统中出现的失败情况。例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。如果终止，则会被标记为意外失败。 <br/> |
+|**活动类型** <br/> | 要筛选的活动类型。选择下列选项之一： <br/>  [All] <br/>  对等 <br/>  会议 <br/> |
+|**会话类别** <br/> | 指示相应活动已成功还是失败。选择下列选项之一： <br/>  [All] <br/>  成功 <br/>  预期失败 <br/>  意外失败 <br/>  “预期失败”是指预计会出现的失败情况。例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。“意外失败”是指在本该正常运行的系统中出现的失败情况。例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。如果终止，则会被标记为意外失败。 <br/> |
 |**诊断 ID** <br/> |附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。诊断标头是可选的（SIP 会话可以不包含这些标头），并且只对遇到此类问题的会话报告诊断 ID。  <br/> |
    
 ## <a name="metrics-for-top-diagnostic-reasons"></a>主要诊断原因的指标
@@ -130,7 +130,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 |**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**Rank** <br/> |否  <br/> |失败会话的相对等级，基于执行会话的注册器池或边缘服务器。  <br/> |
+|**Rank** <br/> |否  <br/> |失败会话的相对等级，取决于执行会话的注册器池或边缘服务器。  <br/> |
 |**主要池** <br/> |否  <br/> |注册器池或边缘服务器的名称。  <br/> |
 |**会话** <br/> |否  <br/> |每个注册器池或边缘服务器的失败会话总数。  <br/> |
    
@@ -154,7 +154,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 |**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**Rank** <br/> |否  <br/> |失败会话的相对等级，基于组件 (例如 ExumRouting、GroupChat 或 MediationServer) 。  <br/> |
+|**Rank** <br/> |否  <br/> |失败会话的相对等级，根据组件 (例如 ExumRouting、GroupChat 或 MediationServer) 。  <br/> |
 |**主要组件** <br/> |否  <br/> |失败会话所涉及的组件的名称。  <br/> |
 |**会话** <br/> |否  <br/> |每个组件的失败会话总数。  <br/> |
    

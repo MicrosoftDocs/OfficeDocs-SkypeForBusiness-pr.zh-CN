@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '了解如何为 PSTN (服务) 通信) 支付Skype for Business，并查看为用户提供持续电话系统访问的计划。 '
-ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6f96b56400e3186a6d4df3276204359c6943d10113f3967eef59322e461f1092
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344411"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
@@ -77,7 +77,7 @@ ms.locfileid: "51121490"
 
 - [电话系统计划](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-也可通过登录管理中心并Microsoft 365订阅"添加订阅"来  >    >  **查看信息**。
+也可通过登录订阅并访问"计费订阅Microsoft 365 管理中心"添加订阅"来  >    >  **查看信息**。
   
 若要查看包含每个功能所需的许可证的表，请参阅Microsoft Teams[许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

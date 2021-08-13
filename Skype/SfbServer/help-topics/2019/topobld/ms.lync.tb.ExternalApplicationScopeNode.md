@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示此受信任应用程序池的池完全限定域名 (FQDN)、复制设置和下一跃点池。可以执行以下操作：
-ms.openlocfilehash: e28aab7db916615b1c5a07125f37c33ea0ba52d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 62c837aef82c9063d3df3ffc8a0e6920909f52c3e2b3bccfd31309373097a052
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330296"
 ---
 # <a name="external-application-scope-node"></a>外部应用程序范围节点
  
@@ -28,7 +28,7 @@ ms.locfileid: "49815482"
   
 - **新建服务器**。启动 **“定义新的服务器”** 向导，以向该受信任应用程序池中添加其他服务器。
     
-- **编辑属性**。 打开此服务器的"编辑属性"页，您可以在其中设置内部和外部池 FQDN 和端口，启用和禁用联盟和网络地址转换 (NAT) ，并指定下一个跃点池。
+- **编辑属性**。 打开此服务器的"编辑属性"页，可在其中设置内部和外部池 FQDN 和端口，启用和禁用联盟和网络地址转换 (NAT) ，并指定下一个跃点池。
     
 - **删除**。从拓扑中删除池。
     

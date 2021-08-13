@@ -1,5 +1,5 @@
 ---
-title: 第7阶段完成迁移后任务
+title: 阶段 7 完成迁移后任务
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本节中的主题介绍了在完成到 Skype for business Server 2019 的迁移之后，您需要执行的任务。
-ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 本节中的主题介绍在迁移到 Skype for Business Server 2019 后需要执行的任务。
+ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298902"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>第 7 阶段：完成迁移后任务
 
-本节中的主题介绍了在完成到 Skype for business Server 2019 的迁移之后，您需要执行的任务。
+本节中的主题介绍在迁移到 Skype for Business Server 2019 后需要执行的任务。
   
 ## <a name="in-this-section"></a>本节内容
 

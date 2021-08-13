@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要配置“Microsoft 推送通知”和“Apple 推送通知”，您必须创建一个定义所需推送通知类型的策略。
-ms.openlocfilehash: 693b954fffbbce56a2d95ce29128482937b6fa05
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1400fe60ba9c0accad602a968a646a0f6a8aabe06ac7418dbdaf7d8cd492dc84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836672"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316268"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>移动客户端：推送通知配置
  
@@ -29,7 +29,7 @@ ms.locfileid: "49836672"
 在主配置屏幕上，单击“刷新”可刷新并重新填充策略列表。利用搜索框可缩小所显示策略的列表。当您键入要搜索的名称时，策略列表会自动缩小。
   
 > [!IMPORTANT]
-> 在一个策略级别应用的策略设置可覆盖在其他策略级别应用的设置。 策略优先级为：用户策略 (站点) 覆盖站点策略，然后站点策略覆盖全局策略 (影响最小) 。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。 
+> 在一个策略级别应用的策略设置可覆盖在其他策略级别应用的设置。 策略优先级为：用户策略 (影响) 站点策略，然后站点策略覆盖全局策略， (影响最小) 。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。 
   
 有两个选项可用于策略创建和编辑：
   

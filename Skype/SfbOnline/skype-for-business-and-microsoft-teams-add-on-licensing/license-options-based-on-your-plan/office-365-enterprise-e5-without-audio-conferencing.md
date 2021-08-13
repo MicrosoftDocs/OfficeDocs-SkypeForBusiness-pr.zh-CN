@@ -20,21 +20,21 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '了解附加许可证、功能以及如何为没有音频会议或计划 (Office 365 企业) 购买。 '
-ms.openlocfilehash: 92029f5b8d4430d9bfec51dd5130c001f34d3e09
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: '了解附加许可证、功能以及如何在没有音频会议Office 365 企业版 (购买) 套餐。 '
+ms.openlocfilehash: 3c4ad93d8e1429e2971fd3a9505f0cb391641435c019eb15639c16533d68873c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316408"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5（不含音频会议）
 
-如果你已购买不带音频会议) 计划的 Office 365 企业版 E5 (，以下是你需要购买的 Skype for Business 附加许可证才能获取更多功能。
+如果你已购买没有音频会议) 计划的 Office 365 企业版 E5 (，以下是你需要购买的 Skype for Business 附加许可证才能获取更多功能。
 
 |||
 |:-----|:-----|
 |**要添加的功能** <br/> |**需要购买的项目** <br/> |
 |**音频会议** <br/> | 要获取此附加许可，请执行以下操作： <br/><br/> 1. 如果已购买 E5 计划，但音频会议功能在你的国家/地区不可用，则需要使用第三方音频会议提供商。 在 Microsoft PinPoint 中查找第三方 [音频会议提供商](https://go.microsoft.com/fwlink/?LinkId=797530)。  <br/><br/>  查看本文，了解音频会议在你的国家/地区是否可用：音频会议和呼叫计划的 ["国家/地区可用性"](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) <br/><br/> 2. 如果可用，请使用[切换套餐按钮](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)移动到 Office 365 企业版 E5。 你也会获得到更多功能！ <br/> |
-|**包括“电话系统”！** <br/> | 呼叫计划 [：从](/MicrosoftTeams/calling-plans-for-office-365) Office 365 购买呼叫计划。 <br/>  或者，使用[您现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
-|**包含云语音邮件！** <br/> |您无需其他任何东西。  <br/> |
+|**包括“电话系统”！** <br/> | 呼叫计划：从[Office 365](/MicrosoftTeams/calling-plans-for-office-365)购买呼叫Office 365。 <br/>  或者，使用[您现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
+|**云语音邮件包含！** <br/> |您无需其他任何东西。  <br/> |

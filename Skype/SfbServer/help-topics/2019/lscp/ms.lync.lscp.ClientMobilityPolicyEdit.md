@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在“编辑移动策略”对话框上，您可以编辑移动策略的详细信息。
-ms.openlocfilehash: 7c72a586cc2fee883206491b399a7bf7ea4f73aa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bb3db80f77e96e3affa47265bdd105d1a3f7d3293743fc6f6f37a09d00accea2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330396"
 ---
 # <a name="edit-client-mobility-policy"></a>编辑客户端移动策略
 

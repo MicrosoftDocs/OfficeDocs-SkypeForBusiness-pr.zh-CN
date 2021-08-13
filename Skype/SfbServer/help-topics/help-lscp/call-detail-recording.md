@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 212bf9e39f60cf765f3b5e54f9f42259529dd0be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 707556186987be9a80b9fe51aa369b30c08278a95694438503572d0f4b7780cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298412"
 ---
 # <a name="call-detail-recording"></a>呼叫详细信息记录
  
 要执行什么操作？ 单击要执行的任务的链接。
   
-- [在 Skype for Business Server 2015 中启用呼叫详细信息记录](../../manage/health-and-monitoring/enable-cdr.md)
+- [在 2015 年 10 月Skype for Business Server呼叫详细信息记录](../../manage/health-and-monitoring/enable-cdr.md)
     
-- [在 Skype for Business Server 2015 中指定 CDR 数据的保留](../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [指定 CDR 数据在 Skype for Business Server 2015 中的保留](../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-有关可以使用 Skype for Business Server 控制面板执行的不同过程的详细信息，请参阅["管理 Skype for Business Server 2015"。](../../manage/manage.md)
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
 

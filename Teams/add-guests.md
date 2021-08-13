@@ -19,12 +19,12 @@ ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
 description: 管理员可以了解如何在桌面和 Web 客户端以及 B2B 协作门户Microsoft Teams组织Azure Active Directory来宾。
-ms.openlocfilehash: 1d44aff9b62a5ba6de7c22499f5a20f187d7781b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1525a389b5299491dc7d0de2adfd744d0d3437aff7fbeb5832cd37790ab24ffb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344391"
 ---
 # <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 

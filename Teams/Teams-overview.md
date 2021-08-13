@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0e20b4b9b696d7fc23c227afcd67d2132c5952
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598391"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298102"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 准备好使用 Teams 时，请从 [如何推出 Teams](./deploy-overview.md) 和 [设置与 Microsoft 365 和 Microsoft Teams 的安全协作](/microsoft-365/solutions/setup-secure-collaboration-with-teams) 开始。
@@ -79,7 +79,7 @@ Teams 是 Microsoft 365 和 Office 365 中的主要智能通信客户端，它�
 如果你正在运行 Skype for Business 并准备升级到 Teams，或者你正在同时运行 Skype for Business 和 Teams 并准备完全转为运行 Teams，我们提供了工具、提示和指导，以帮助你成功完成过渡。 若要了解详细信息，请参阅[升级到 Teams](upgrade-start-here.md)。
 
 ## <a name="teamwork"></a>团队合作
-每个团队各不相同，因此不存在适用于所有团队的通用协作方法。 Microsoft 365 和 Office 365 旨在满足每个团队的独特需求，从而使大家能够通过专用的集成应用进行交流、协作以及取得更大的成就。
+每个团队都是不同的，协作没有一刀切的方法。Microsoft 365 和 Office 365 旨在满足每个团队的独特需求，从而使大家能够通过专用的集成应用进行交流、协作以及取得更大的成就。
 
 在决定要使用的 Microsoft 365 或 Office 365 应用和服务时，应考虑贵组织的工作内容以及你的团队需要采用的对话类型。 
 

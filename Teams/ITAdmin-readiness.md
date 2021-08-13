@@ -19,12 +19,12 @@ ms.custom:
 description: 为管理员PowerPoint计划、部署和运行资源的培训视频、幻灯片、教程Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfb21be79f22628d7b30b2328ef18248cd35864e
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
+ms.openlocfilehash: 9b89dc087f97a924aeb89130a4dd9536a3afceb76b5cdfe8d96d60c3af02653b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53113961"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298112"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>适用于管理员的管理员培训Microsoft Teams
 
@@ -48,17 +48,17 @@ ms.locfileid: "53113961"
 | 模块 | 视频 | PowerPoint平台  |
 | ------------ | -------------------- | -------------------- |
 | [Microsoft Mechanics - Teams Essentials for IT YouTube 频道](https://aka.ms/MicrosoftTeamsforIT) | [视频：Teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) 10：13 (IT 的"基本信息) <br>[视频：部署&配置Teams -](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)简介 (8：22 分钟)   <br>[视频：安全与 (](https://youtu.be/91lHNKVVvQ4) 12：42 分钟) <br>[视频：Teams](https://www.youtube.com/watch?v=Km4T4hMM__k) 10：54 (安全与合规性控制) ||
-| 基础 - 核心组件 | [视频](https://aka.ms/teams-foundations) | [幻灯片](https://aka.ms/teams-foundations-deck) |
-| Windows桌面客户端 | [视频](https://aka.ms/teams-clients) | [幻灯片](https://aka.ms/teams-clients-deck) |
-| 治理、管理和生命周期 | [视频](https://aka.ms/teams-governance) | [幻灯片](https://aka.ms/teams-governance-deck) |
-| 安全&符合性 | [视频](https://aka.ms/teams-security-compliance) | [幻灯片](https://aka.ms/teams-security-compliance-deck) |
-| 呼叫质量概述 | [视频](https://aka.ms/teams-quality) | [幻灯片](https://aka.ms/teams-quality-deck) |
-| 会议简介 | [视频](https://aka.ms/teams-meetings-intro) | [幻灯片](https://aka.ms/teams-meetings-intro-deck) |
-| 媒体 - 为什么会议简单|[视频](https://aka.ms/media-in-teams)  | [幻灯片](https://aka.ms/media-in-teams-deck)|
-| 媒体 - 媒体流 | [视频](https://aka.ms/teams-media-flows) | [幻灯片](https://aka.ms/teams-media-flows-deck)  |
-| 动态紧急呼叫 | [视频](https://aka.ms/teams-dec) |  [幻灯片](https://aka.ms/teams-dec-deck) |
-| 实时事件 | [视频](https://aka.ms/teams-live-events-session) | [幻灯片](https://aka.ms/teams-live-events-deck) |
-| 电话系统简介 | [视频](https://aka.ms/teams-phone-system) | [幻灯片](https://aka.ms/teams-phone-system-deck) |
+| 基础 - 核心组件 | [Video](https://aka.ms/teams-foundations) | [幻灯片](https://aka.ms/teams-foundations-deck) |
+| Windows桌面客户端 | [Video](https://aka.ms/teams-clients) | [幻灯片](https://aka.ms/teams-clients-deck) |
+| 治理、管理和生命周期 | [Video](https://aka.ms/teams-governance) | [幻灯片](https://aka.ms/teams-governance-deck) |
+| 安全&符合性 | [Video](https://aka.ms/teams-security-compliance) | [幻灯片](https://aka.ms/teams-security-compliance-deck) |
+| 呼叫质量概述 | [Video](https://aka.ms/teams-quality) | [幻灯片](https://aka.ms/teams-quality-deck) |
+| 会议简介 | [Video](https://aka.ms/teams-meetings-intro) | [幻灯片](https://aka.ms/teams-meetings-intro-deck) |
+| 媒体 - 为什么会议简单|[Video](https://aka.ms/media-in-teams)  | [幻灯片](https://aka.ms/media-in-teams-deck)|
+| 媒体 - 媒体流 | [Video](https://aka.ms/teams-media-flows) | [幻灯片](https://aka.ms/teams-media-flows-deck)  |
+| 动态紧急呼叫 | [Video](https://aka.ms/teams-dec) |  [幻灯片](https://aka.ms/teams-dec-deck) |
+| 实时事件 | [Video](https://aka.ms/teams-live-events-session) | [幻灯片](https://aka.ms/teams-live-events-deck) |
+| 电话系统简介 | [Video](https://aka.ms/teams-phone-system) | [幻灯片](https://aka.ms/teams-phone-system-deck) |
 | 直接路由 | [视频 1：规划直接路由Teams](https://aka.ms/teams-dr-plan)<br>[视频 2：在 Teams 中配置和管理直接路由](https://aka.ms/teams-dr-config)<br>[视频 3：迁移到云中的直接Teams](https://aka.ms/teams-dr-migrate)  | [幻灯片](https://aka.ms/teams-direct-routing-deck) |
 | 从 Skype for Business 升级到 Teams | [视频 1：升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频 2：规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频 3：共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频 4：管理员体验](https://aka.ms/teams-upgrade-admin) | [幻灯片](https://aka.ms/teams-upgrade-deck)|
 
@@ -68,14 +68,14 @@ ms.locfileid: "53113961"
 
 | 模块 | 视频 | PowerPoint幻灯片 (PDF)   |
 | ------------ | -------------------- | -------------------- |
-| 模块 1：Microsoft Teams 会议室 (18：29 分钟)  | [视频](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| 模块 2：Microsoft Teams网络 (34：10 分钟)  | [视频](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| 模块 3：在 18：45 分钟 (选择正确的设备)  | [视频](https://www.youtube.com/watch?v=jUac7mT7xP4) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| 模块 4：部署Microsoft Teams 会议室 (56：36 分钟)  | [视频](https://www.youtube.com/watch?v=IJZPczMAsEM) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| 模块 5：配置并Microsoft Teams 会议室 (32：27 分钟)  | [视频](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| 模块 6：管理Microsoft Teams 会议室，第 1 部分 (18：31 分钟)  | [视频](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| 模块 7：管理Microsoft Teams 会议室，第 2 部分 (41：06 分钟)  | [视频](https://www.youtube.com/watch?v=vDCYM5sKylc) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| 模块 8：Microsoft Teams 会议室 18：14 使用技巧 (18：14) |[视频](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| 模块 1：Microsoft Teams 会议室 (18：29 分钟)  | [Video](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| 模块 2：Microsoft Teams网络 (34：10 分钟)  | [Video](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| 模块 3：在 18：45 分钟 (选择正确的设备)  | [Video](https://www.youtube.com/watch?v=jUac7mT7xP4) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| 模块 4：部署Microsoft Teams 会议室 (56：36 分钟)  | [Video](https://www.youtube.com/watch?v=IJZPczMAsEM) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| 模块 5：配置并Microsoft Teams 会议室 (32：27 分钟)  | [Video](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| 模块 6：管理Microsoft Teams 会议室，第 1 部分 (18：31 分钟)  | [Video](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| 模块 7：管理Microsoft Teams 会议室，第 2 部分 (41：06 分钟)  | [Video](https://www.youtube.com/watch?v=vDCYM5sKylc) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| 模块 8：Microsoft Teams 会议室 18：14 使用技巧 (18：14) |[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | 一键式加入说明 |  | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
 <h2>TeamsAndroid 设备</h2>

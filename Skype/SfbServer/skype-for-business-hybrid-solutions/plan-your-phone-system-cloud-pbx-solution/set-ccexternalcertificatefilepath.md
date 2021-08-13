@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
-description: Set-CcExternalCertificateFilePath cmdlet 指定中介服务器或边缘服务器的证书的存储路径。
-ms.openlocfilehash: 9216b82626da7160d6e1bfa8d611757321a2683a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此Set-CcExternalCertificateFilePath cmdlet 指定存储中介服务器或边缘服务器的证书的路径。
+ms.openlocfilehash: 7b9b494b27f3ed05dd1ef1cdb91bd583abf2d2b391f1a49c0b2615fd3485187c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824196"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344561"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
-Set-CcExternalCertificateFilePath cmdlet 指定中介服务器或边缘服务器的证书的存储路径。
+此Set-CcExternalCertificateFilePath cmdlet 指定存储中介服务器或边缘服务器的证书的路径。
   
-在部署过程中或添加 Skype for Business 云连接器版本的新设备时，需要此证书。该命令还用于在部署后为中介服务器导入新证书。
+此证书在部署期间或添加新设备时Skype for Business 云连接器版本。 该命令还允许在部署后导入中介服务器的新证书。
   
 此 cmdlet 适用于 Skype for Business 云连接器版本 1.4.1、1.4.2。
   
@@ -45,7 +45,7 @@ Set-CcExternalCertificateFilePath -Target EdgeServer -Path C:\CloudConnector\Cer
 
 ### <a name="example-2"></a>示例 2
 
-以下示例设置中介服务器的证书路径：
+下一个示例设置中介服务器的证书路径：
   
 ```powershell
 Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnector\Certificates\AdatumPublicMediation.pfx
@@ -53,7 +53,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 ### <a name="example-3"></a>示例 3
 
-以下示例更新中介服务器的证书：
+下一个示例更新中介服务器的证书：
   
 ```powershell
 Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnector\Certificates\AdatumPublicMediation.pfx -Import
@@ -62,22 +62,22 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-在部署过程中或修改拓扑时，需要为边缘服务器证书指定路径，也可以选择为中介服务器证书指定路径。 
+在部署期间或修改拓扑时，需要指定边缘服务器证书的路径，并选择性地指定中介服务器证书的路径。 
   
-如果将在网关与中介服务器之间使用 TLS，需要中介服务器的证书。 部署云连接器设备并希望部署 TLS 时，只能指定将在中介服务器上部署的证书的路径。 但是，如果你希望更新已部署的设备上的中介证书，则需要指定路径和 -Import 参数。 要查看参数，请使用 Get-CCExternalCertificateFilePath cmdlet。
+如果在网关服务器和中介服务器之间使用 TLS，则 (服务器) 证书。 部署云连接器设备并想要部署 TLS 时，只能指定将在中介服务器上部署的证书的路径。 但是，如果要更新已部署的设备的中介证书，则需要指定路径和 -Import 参数。 若要查看路径，请使用 Get-CCExternalCertificateFilePath cmdlet。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
 
-|**参数**|**必需**|**类型**|**说明**|
+|**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| 目标 <br/> | 必需 <br/> |System.String  <br/> |要求的文件路径类型。类型包括：  <br/> EdgeServer（默认设置）  <br/> MediationServer  <br/> |
-|导入  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |指示必须将证书导入中介服务器。如果是首次部署设备，则不需要此参数。如果你要更改已部署的版本上的现有证书，则需要此参数。  <br/> |
+| Target <br/> | 必需 <br/> |System.String  <br/> |请求的文件路径的类型。 类型包括：  <br/> EdgeServer (默认)   <br/> MediationServer  <br/> |
+|导入  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |指示必须将证书导入中介服务器。 如果首次部署设备，则不需要此参数。 如果要更改已部署版本上的现有证书，则参数是必需的。  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
 
-Set-CcExternalCertificateFilePath cmdlet 不接受主线输入。
+Set-CcExternalCertificateFilePath cmdlet 不接受通过管道的输入。
   
 ## <a name="return-types"></a>返回类型
 <a name="ReturnTypes"> </a>
