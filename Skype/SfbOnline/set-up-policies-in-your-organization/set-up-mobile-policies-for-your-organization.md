@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 您可以在移动设备上使用 Skype for Business 应用设置用户如何连接到 Skype for Business Online，例如允许用户使用工作电话号码（而不是移动电话号码）在移动电话上拨打和接听电话的功能。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
-ms.openlocfilehash: e29a02bddcb9ace29ebd059f8cbc42c5a85c3f12
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3bb723c3ca1a9b867c37abf8e638436b4492ae2a7d40d16c22980c7873c70f98
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240064"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325599"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 
@@ -42,7 +42,7 @@ ms.locfileid: "52240064"
 ### <a name="start-windows-powershell"></a>启动Windows PowerShell
 
 > [!NOTE]
-> Skype for Business联机连接器当前是 PowerShell 模块Teams的一部分。 如果使用最新的 PowerShell Teams版本，则无需安装 Skype for Business Online 连接器。
+> Skype for Business Online 连接器目前是最新 Teams PowerShell 模块的一部分。 如果使用的是最新 Teams PowerShell 公共版本，则无需安装 Skype for Business Online 连接器。
 1. 安装[Teams PowerShell 模块](/microsoftteams/teams-powershell-install)。
     
 2. 打开Windows PowerShell命令提示符并运行以下命令： 
@@ -118,7 +118,7 @@ ms.locfileid: "52240064"
     
   - [你可能希望使用 Windows PowerShell 管理Microsoft 365或Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell管理中心相比，Microsoft 365在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 通过以下主题了解这些优势：
+- Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次为许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
     
   - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

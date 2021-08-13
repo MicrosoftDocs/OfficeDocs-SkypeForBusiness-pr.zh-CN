@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是文莱Microsoft 365 Office 365文莱Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: ef8d96157a814ed6fe94170c7e63bb42b9936568
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2a35186ad5b062a16754332fff2f55a2828303df9f54d100845c2bf3eba3cf06
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118301"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310800"
 ---
 # <a name="availability-in-brunei"></a>在文莱的可用性
 
@@ -70,7 +70,7 @@ ms.locfileid: "51118301"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |不适用  <br/> |
-|是否提供收费电话号码？  <br/> |不支持  <br/> |
+|是否提供收费电话号码？  <br/> |弱  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。

@@ -13,7 +13,7 @@ ms.collection:
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: 了解实时事件如何让用户广播视频和内容，以增加 Teams、Yammer 和 Stream 中的在线受众。
+description: 了解实时事件如何使用户能够在 Teams、Yammer 和 Stream 中向大量在线受众广播视频和内容。
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 83a1311df59ccad264951e8eeffa5052ac2231c15b000e4c25b1a36de227bca9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f18a6963c59aa371715d35b40137946d1b29b163b905d3ef842e8b3ddc434d63
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848257"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么
 
@@ -43,7 +43,7 @@ Teams 实时事件是 Skype 会议直播的下一版本，会最终代替 Skype 
 
 让我们开始吧。首先，看看下面的关系图，它显示了 Microsoft 365 实时事件中的高级组件及它们之间联系的方式。
 
-![实时事件的主要组件](../media/live-event-flow-diagram.png  "实时事件的主要组件，日程安排、生成、数据流平台和认证第三方 eCDN 提供商")
+![实时事件的主要组件](../media/live-event-flow-diagram1.png  "实时事件的主要组件，日程安排、生成、数据流平台和认证第三方 eCDN 提供商")
 
 > [!Note]
 > 我们想要强调的是，鉴于广播技术的性质，Teams 直播活动通常会超过普通（内部）的会议人数。
@@ -91,7 +91,7 @@ Teams 允许组织者创建具有相应与会者权限的事件、指定事件�
 
 实时事件流式处理平台由以下部分组成：
 
-- **Microsoft Azure 媒体服务**：[Microsoft Azure 媒体服务](/azure/media-services/previous/)提供给你广播质量的视频流式处理服务，以帮助你在现在最常用的移动设备上触及更大的受众群。 媒体服务强化可及性、分发和可伸缩性，使得数据流内容能够轻松且低成本地传输到本地和世界的受众 - 同时保护你的内容。
+- **Microsoft Azure 媒体服务**：[Microsoft Azure 媒体服务](/azure/media-services/previous/)提供给你广播质量的视频流式处理服务，以帮助你在现在最常用的移动设备上触及更大的受众群。 媒体服务增强了可访问性、分发和可扩展性，使得数据流内容能够轻松且低成本地传输到本地和世界的受众 - 同时保护你的内容。
 - **Azure 内容交付网络 (CDN)**：当你的数据流实时后，它将通过 [Azure 内容交付网络 (CDN)](/azure/cdn/) 交付。 Microsoft Azure 媒体服务提供集成的 CDN 作为流式处理端点。 这允许数据流在世界范围内无需缓冲就能查看。
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络 (eCDN)

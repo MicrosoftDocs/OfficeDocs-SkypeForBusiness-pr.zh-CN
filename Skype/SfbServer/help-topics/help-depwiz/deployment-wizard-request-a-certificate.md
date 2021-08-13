@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
-description: 有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅安装 Skype for Business Server 2015。
-ms.openlocfilehash: 4ac9e200612822f7f03b9a7f961db8fae3acd16a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅 Install Skype for Business Server 2015。
+ms.openlocfilehash: 76a8bf66dee53aae95b15d9c5aa5d039cecdb5290ad2193bb0342fab5701cdb9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827342"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314648"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>部署向导：请求证书
  
-有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅[安装 Skype for Business Server 2015。](../../deploy/install/install.md)
+有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅 Install [Skype for Business Server 2015](../../deploy/install/install.md)。
   
 

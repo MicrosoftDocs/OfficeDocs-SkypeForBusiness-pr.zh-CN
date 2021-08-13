@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 管理中心中管理团队
+title: 在 Microsoft Teams 管理中心中管理 Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95a9769fad45917515a27b0f3d726d2eb3dbc931efbfa4fd26af19eced92d190
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86feedbb0212908ebd61f89c6e62e6d468813bd14ed1d86edec3abc00bf1d582
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848187"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心中管理团队
 
@@ -37,7 +37,7 @@ ms.locfileid: "54306344"
 - 全局管理员
 - Teams 管理员
 
-可以在[使用 Microsoft Teams 管理员角色管理 Teams](using-admin-roles.md) 中详细了解 Teams 中的管理员角色，还可以阅读有关如何在 [Microsoft Teams cmdlet 参考](/powershell/teams/?view=teams-ps)中使用 PowerShell cmdlet 管理团队的详细信息。
+可以在[使用 Microsoft Teams 管理员角色管理 Teams](using-admin-roles.md) 中详细了解 Teams 中的管理员角色，还可以阅读有关如何在 [Microsoft Teams cmdlet 参考](/powershell/teams/)中使用 PowerShell cmdlet 管理团队的详细信息。
 
 
 
@@ -121,7 +121,7 @@ Teams 概述网格中的团队列表中缺少一些团队。
 
 **解决方法：通过 MS Graph 手动将属性设置为正确的值**
 
-使用 **“[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)”** cmdlet 将查询中相关实际组 ID 的 **{groupid}**（可通过 Exchange Online PowerShell 获取）替换为“**ExternalDirectoryObjectId**”属性。
+使用 **“[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup)”** cmdlet 将查询中相关实际组 ID 的 **{groupid}**（可通过 Exchange Online PowerShell 获取）替换为“**ExternalDirectoryObjectId**”属性。
 
 1. 访问 [Graph 浏览器](https://developer.microsoft.com/graph/graph-explorer)。
 
@@ -137,6 +137,6 @@ Teams 概述网格中的团队列表中缺少一些团队。
 
 ## <a name="learn-more"></a>了解详细信息
 
-- [Teams cmdlet 参考](/powershell/teams/?view=teams-ps)  
+- [Teams cmdlet 参考](/powershell/teams/)  
 - [使用 Teams 管理员角色管理 Teams](using-admin-roles.md)
 - [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)

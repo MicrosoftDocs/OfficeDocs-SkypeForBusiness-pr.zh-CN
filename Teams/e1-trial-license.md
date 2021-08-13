@@ -15,18 +15,16 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fbc1e51c22fbc2efc5ab286b1082f1169c14e89c2abae573ae810a8be04dd63
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7e1b8eb064b273bbc41b823fba6dae40a83bedbc3085a156cd6770578cd3c53
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849347"
 ---
-<a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 试用版
-==============================
+# <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 试用版
 
 自 2020 年 7 月 1 日起，Office 365 E1 试用版许可证不再可用。 如果需要向 Microsoft Teams 授予用户许可，请阅读 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)，了解包含 Teams 的付费订阅列表。 或者，符合条件的组织可使用 **[Teams 的免费版本](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或者员工可以激活 **[Teams 探索](teams-exploratory.md)** 体验。
-
 
 如果你是 Teams 教育版的客户，请查看免费的 [Office 365 A1 许可证](teams-edu-licensing.md)。
 
@@ -39,7 +37,7 @@ ms.locfileid: "54315288"
 激活 Office 365 E1 试用版后，请打开许可证供需要它的任何用户使用。 要了解操作方式，请参阅[管理用户对 Teams 的访问](user-access.md)。
 
 
-为需要 E1 试用版的用户启用该版本后，你可像管理拥有付费许可证的用户一样管理这些用户。 有关详细信息，请参阅[为你的组织管理 Teams 设置](enable-features-office-365.md)。
+为需要 E1 试用版的用户启用该版本后，你可像管理拥有付费许可证的用户一样管理这些用户。有关详细信息，请参阅[为你的组织管理 Teams 设置](enable-features-office-365.md)。
 
 
 

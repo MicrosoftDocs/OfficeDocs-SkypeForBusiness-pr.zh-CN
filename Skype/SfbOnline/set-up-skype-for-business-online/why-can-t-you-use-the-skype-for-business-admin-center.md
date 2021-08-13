@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: '了解在将服务迁移到其他 Microsoft 数据中心时，Skype for Business管理中心中可以使用的功能和其他功能。 '
-ms.openlocfilehash: 725a60be96a2d61bcec6367e1a0a33f2bc5dcee6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f00f349a42ddea2de1019d206cc2097f1e7b29eaca78e5e0e19c1996f3782f43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300418"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>为什么我当前无法使用 Skype for Business Online 管理中心？
 
@@ -48,7 +48,7 @@ ms.locfileid: "52238913"
     
 - **迁移** 这几乎与"移动"相同。 在这种情况下，这意味着我们将你的 Skype for Business Online 用户和设置从一个数据中心移动到离你更近的另一个数据中心，以改进你的服务。
     
-- **延迟** 这是访问管理中心、更改设置Microsoft 365保存这些更改所花的时间。
+- **延迟** 这是访问应用、进行设置Microsoft 365 管理中心，然后保存这些更改所花的时间。
     
 - **关联 ID** 你可能在刚刚收到的邮件中看到了此内容。 Microsoft 支持工程师使用此信息来帮助你排查错误。 如果联系 Microsoft 支持部门，系统可能会要求你提供相关 ID。
     

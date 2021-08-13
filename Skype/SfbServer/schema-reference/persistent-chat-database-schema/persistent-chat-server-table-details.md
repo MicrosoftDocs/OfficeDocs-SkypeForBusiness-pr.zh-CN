@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: 以下主题详细介绍了每个持久聊天数据库架构表中的列。
-ms.openlocfilehash: 71cec482d5b799eefc1817b84993a9fbe3ca884a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4419f9e5b0735aee8d2aae5ae9804cc7f93a7dc9403a1419a4247afca3f23ddb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812992"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341677"
 ---
 # <a name="persistent-chat-server-table-details"></a>持久聊天服务器表详细信息
  

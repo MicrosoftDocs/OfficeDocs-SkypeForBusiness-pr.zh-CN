@@ -13,25 +13,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: 注册视图存储有关用户注册的信息。 Lync Server 2013 中引入了此视图。
-ms.openlocfilehash: 12508e7efcd96bdb9e3956b4e62c1065235a3f60
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a28b094fd78f0a5d8b339edc372acf4503ba854d7e59e8cc81fff942e22cdcfc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823122"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341697"
 ---
 # <a name="registration-view"></a>注册视图
  
 注册视图存储有关用户注册的信息。 Lync Server 2013 中引入了此视图。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅 [Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
 |**RegisterTime** <br/> |datetime  <br/> |注册发生的时间。  <br/> |
 |**UserUri** <br/> |nvarchar (450)   <br/> |注册用户的 URI。  <br/> |
 |**UserUriType** <br/> |nvarchar (256)   <br/> |注册用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
-|**UserTenant** <br/> |nvarchar (256)   <br/> |注册用户的租户。 有关详细信息 [，请参阅"租户](tenants.md) "表。 <br/> |
+|**UserTenant** <br/> |nvarchar (256)   <br/> |注册用户的租户。 有关详细信息 [，请参阅租户](tenants.md) 表。 <br/> |
 |**EndpointId** <br/> |uniqueidentifier  <br/> |用户注册使用的终结点的唯一标识符。  <br/> |
 |**EndpointEra** <br/> |uniqueidentifier  <br/> |用于区分涉及相同用户和相同终结点的注册的唯一标识符。  <br/> |
 |**DeRegisterType** <br/> |datetime  <br/> |取消注册发生的时间。  <br/> |
@@ -50,7 +50,7 @@ ms.locfileid: "49823122"
 |**IsUserServiceAvailable** <br/> |bit  <br/> |指示 UserService 在注册时是否可用。  <br/> |
 |**IsPrimaryRegistrar** <br/> |bit  <br/> |指示注册是否是使用主注册器的注册。  <br/> |
 |**DeviceMacAddress** <br/> |bigint  <br/> |已注册设备的 MAC 地址。  <br/> |
-|**DeviceManufacturer** <br/> |nvarchar (256)   <br/> |已注册设备的制造商。 有关详细信息 [，请参阅 Skype for Business Server 2015 中的](manufacturers.md) 制造商表。 <br/> |
-|**DeviceHardwareVersion** <br/> |nvarchar (256)   <br/> |已注册设备的硬件版本。 有关详细信息， [请参阅 Skype for Business Server 2015 中的 HardwareVersions](hardwareversions.md) 表。 <br/> |
+|**DeviceManufacturer** <br/> |nvarchar (256)   <br/> |已注册设备的制造商。 有关详细信息[，请参阅 Skype for Business Server 2015](manufacturers.md)中的制造商表。 <br/> |
+|**DeviceHardwareVersion** <br/> |nvarchar (256)   <br/> |已注册设备的硬件版本。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 HardwareVersions](hardwareversions.md)表。 <br/> |
    
 

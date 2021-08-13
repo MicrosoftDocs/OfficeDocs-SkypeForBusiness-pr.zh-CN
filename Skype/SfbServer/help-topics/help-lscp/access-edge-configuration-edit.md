@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 9cdf82cab76887d00838cdf64f6338a92513c63e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5a30b1d92037ba4d162505c7c2d8fdc94d41f84102ccdf7906a9d49e967afd16
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311460"
 ---
 # <a name="access-edge-configuration-edit"></a>访问边缘配置：编辑
 

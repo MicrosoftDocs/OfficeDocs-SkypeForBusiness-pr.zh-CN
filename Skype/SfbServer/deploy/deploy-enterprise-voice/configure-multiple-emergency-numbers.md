@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 中配置多个紧急号码
+title: 在呼叫中配置多个Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,22 +14,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: 阅读本主题，了解如何在 Skype for Business Server 中配置多个紧急号码。
-ms.openlocfilehash: dc05e94e88b371bb9ee22568eff567e758311233
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 阅读本主题，了解如何在 Skype for Business Server 中配置多个紧急Skype for Business Server。
+ms.openlocfilehash: e0a12bb63578e5070a079b6ab4561d67255f7199a0042066467fb40eafb54637
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111888"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300338"
 ---
-# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>在 Skype for Business 中配置多个紧急号码
+# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>在呼叫中配置多个Skype for Business
 
-阅读本主题，了解如何在 Skype for Business Server 中配置多个紧急号码。
+阅读本主题，了解如何在 Skype for Business Server 中配置多个紧急Skype for Business Server。
 
-Skype for Business Server 现在支持客户端的多个紧急号码。 多个紧急号码是 2016 年 6 月累积更新中引入的新功能。 在将环境配置为支持多个紧急号码之前，请务必阅读在 Skype for Business Server 中规划多个 [紧急号码](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)。
+Skype for Business Server现在支持客户端的多个紧急号码。 多个紧急号码是 2016 年 6 月累积更新中引入的新功能。 在将环境配置为支持多个紧急号码之前，请务必阅读规划多个紧急号码[Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)
 
 > [!NOTE]
-> 如果你尚未升级到 2016 年 11 月累积更新，请参阅[Updates to Skype for Business Server 2015。](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) 随着 2016 年 11 月累积更新，支持紧急号码的数量从 5 增加至 100。
+> 如果尚未升级到 2016 年 11 月累积更新，请参阅[2015 年 11](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)月Skype for Business Server更新。 随着 2016 年 11 月累积更新，支持紧急号码的数量从 5 增加至 100。
 
 ## <a name="configure-multiple-emergency-numbers"></a>配置多个紧急号码
 

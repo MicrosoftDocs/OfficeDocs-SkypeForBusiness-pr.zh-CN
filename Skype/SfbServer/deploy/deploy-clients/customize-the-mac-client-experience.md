@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 中自定义 Mac 客户端体验
+title: 自定义 Mac 客户端体验Skype for Business
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,57 +11,57 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: 本文介绍了适用于 Mac 客户端上的 Skype for Business 的客户端首选项和默认值，以及如何从应用外部编辑它们。
-ms.openlocfilehash: cdbd1c109fffddf6d922657285f60d9b4f06924a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 本文介绍了适用于 Mac 客户端上 Skype for Business的客户端首选项和默认值，以及如何从应用外部编辑它们。
+ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325489"
 ---
-# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在 Skype for Business 中自定义 Mac 客户端体验
+# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>自定义 Mac 客户端体验Skype for Business
  
-本文介绍了适用于 Mac 客户端上的 Skype for Business 的客户端首选项和默认值，以及如何从应用外部编辑它们。
+本文介绍了适用于 Mac 客户端上 Skype for Business的客户端首选项和默认值，以及如何从应用外部编辑它们。
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac 上的 Skype for Business 客户端首选项设置
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>Skype for Business Mac 客户端首选项设置
 
-Mac 客户端上的 Skype for Business 可用的某些功能和行为由客户端上的首选项设置确定。 Mac 上的 Skype for Business 首选项位于安装了 Skype for Business 客户端的 Mac 上的文件中，该文件位于以下路径： 
+Mac 客户端上提供的某些Skype for Business和行为由客户端上的首选项设置确定。 Mac Skype for Business首选项位于已安装以下路径的 Skype for Business 客户端的 Mac 上文件中： 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-若要设置这些首选项，请在客户端的 Mac 上获取终端提示，并根据需要输入默认值，使用下表中描述的首选项键写入 com.microsoft.SkypeForBusiness 键命令。
+若要设置这些首选项，请在客户端的 Mac 上获取终端提示，并根据需要输入默认值，使用下表中所述的首选项键编写 com.microsoft.SkypeForBusiness 键命令。
   
-**客户端首选项项**
+**客户端首选项键**
 
 
 | 键 | 类型 | 值 | 说明 |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |Bool    |0 = 手动服务器配置  <br/> 1 = 自动服务器检测 (默认)     |指定 Skype for Business 如何标识登录期间使用的传输和服务器。 如果启用此策略设置，则必须指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL。**   |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = 手动服务器配置  <br/> 1 = 自动服务器检测 (默认值)     |指定Skype for Business标识登录期间使用的传输和服务器。 如果启用此策略设置，则必须指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL**。   |
 |internalAutoDiscoveryURL    |String    |完整自动发现 URL    |内部自动发现 URL    |
 |externalAutoDiscoveryURL    |String    |完整自动发现 URL    |外部自动发现 URL    |
 |httpProxyDomain    |String    ||HTTP 代理域    |
 |httpProxyUserName    |String    ||HTTP 代理用户名    |
 |httpProxyPassword    |String    ||HTTP 代理密码    |
 |trustedDomainList    |数组    ||HTTP 重定向的受信任域列表。    |
-|autoAcceptTimeout    |数字    |默认为 300 (300)     |没有服务器端对话历史记录的用户的自动接受超时。    |
+|autoAcceptTimeout    |数字    |默认值为 300 (300)     |没有服务器端对话历史记录的用户的自动接受超时。    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = 已禁用  <br/> 1 = 已启用    |从未知位置拨打紧急号码时警告用户。    |
-|sipAddress    |String    ||SIP 地址 (用于) Skype for Business 的电子邮件。    |
-|userName    |String    ||UPN (用户名) 用于登录 Skype for Business。    |
-|userNameInAdvancedOnly    |Bool    |0 = 在主登录屏幕和"高级属性"对话框中显示"用户名"字段  <br/> 1 = 仅在默认选项的"高级属性"对话框中 (用户名)     |指定登录期间用户名字段的显示位置。    |
+|sipAddress    |String    ||用于登录 (电子邮件) SIP 地址Skype for Business。    |
+|userName    |String    ||UPN (UserName) 用于登录到 Skype for Business。    |
+|userNameInAdvancedOnly    |Bool    |0 = 在主登录屏幕和"高级属性"对话框中显示"用户名"字段  <br/> 1 = 仅在"高级属性"对话框中显示"用户名"字段 (默认)     |指定登录期间"用户名"字段的显示位置。    |
    
 ### <a name="usage-examples"></a>用法示例
 
-若要将单个域 (Contoso.com) 到受信任域列表中，请使用 trustedDomainList 密钥，如下所示：
+若要将单个域 (Contoso.com) 添加到受信任域列表中，请使用 trustedDomainList 项，如下所示：
   
 defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   
-若要将多个域添加到受信任的域列表，请使用 trustedDomainList 密钥，如下所示：
+若要将多个域添加到受信任的域列表，可使用 trustedDomainList 密钥，如下所示：
   
 defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
-### <a name="sample-unedited-settings"></a>未ited 设置示例
+### <a name="sample-unedited-settings"></a>未edited 设置示例
 
-为了参考，下面是一个仅使用默认设置的示例设置文件： 
+为参考，下面是一个仅使用默认设置的示例设置文件： 
   
 ```console
 {

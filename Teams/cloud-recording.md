@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4688c0a7d86e09b8114ddd00c85996c6a7c917e10e561013b1a3e902ce98c0ac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9664cbad906149eccfce3f93d366f93b53e77798be0c080c3b57c3e46d3114d6
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848967"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -262,6 +262,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 本文中讨论的自动到期功能尚未启动。 有关传送日期的详细信息，请参阅 [路线图（功能 ID： 84580）](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) 。 
 > 
 > 我们将提供此功能将来工作原理的信息，以便能够为此更改作出计划，并提前修改 Teams 策略设置。 
+>
+> 用于在 Teams 中抢先更改 MeetingExpirationDays 设置的 CMD 尚不可用。 在启用过期功能之前，所有租户都可以在 9 月 1 日之前使用其进行设置。
+>
+> 可以使用 PowerShell 修改 “MeetingRecordingExpirationDays.” 这可以在 9 月 1 日之后完成，只要该设置出现在 PowerShell 中，即使该功能尚未启用。 示例命令为: “Set-CsTeamsMeetingPolicy -标识全局 -MeetingRecordingExpirationDays 50。”
+>
 
 请参阅面向管理员和最终用户的常见问题，以深入了解 Teams 会议录制的自动到期如何工作、现在可以采取哪些操作，以及在功能启动后可以采取哪些操作。 
   
@@ -287,16 +292,40 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 我们认为，通过删除 60 天后可能永远不会重新播放的录制内容，几乎所有客户都从租户的存储负载降低中获益。 我们的目标是在默认情况下为所有客户提供尽可能无干扰的体验。 
   
+**即使已访问或下载数据，30 天后其仍将自动删除?**
+  
+访问文件不会更改过期日期。 
+  
+**过期日期作为列表中的列可见吗?**
+
+在文件过期前 14 天，具有录制内容视图访问权限的用户将在 OneDrive 或 SharePoint 文件夹中的文件旁边看到红色图标。 当前无法将列添加到具有过期日期的列表中。
+  
 **如何计算到期日期？**
   
 到期日的计算为创建会议录制的日期加上管理员在 Teams 设置中设置的默认天数。 
   
+**能否更改每个 TMR 的过期日期，例如数据 A 过期日期为 30 天，数据 B 过期日期为 60 天?**
+
+是，过期日期设置为每个文件。 用户可以在 OneDrive 或 SharePoint 的选定文件的详细信息窗格中修改过期日期。
+
 **管理员如何更改到期日？**
   
 管理员现在就可以在 PowerShell 中更改默认到期设置。 当启动功能时，管理员可以在 Teams 管理中心更改此设置。 更改到期设置只会影响从该时间点开始新建的 TMR。 这不会影响在该日期之前进行的任何录制。 
 
 管理员可以应用的最大到期天数为 99，999 天或 273 年。 在发布此功能之前，管理员无法更改已上传到 OneDrive 或 SharePoint 的现有 TMR 的到期日。 这将保护拥有 TMR 用户的意图。 
+  
+**播放录制内容会更改过期日期吗?**
 
+否，播放不会影响过期日期。
+  
+**如果下载并重新上传 TMR，过期日期会发生什么?**
+
+无论用户的 SKU 如何，重新上传时都将清除过期日期。
+  
+**如果将 TMR 复制或移动到其他位置或站点，会发生什么?**
+
+仅为移动的 TMR 文件保留日期。 复制文件不会具有过期日期，就像重新上传的 TMR 一样。
+  
   示例 PowerShell 命令： 
   
   ```powershell

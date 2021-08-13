@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会议策略定义会议期间用户可以使用 (也称为会议) 。
-ms.openlocfilehash: 0599411cd8e0832b1d5d09fc2f8ac6bc676d931d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: af3769f1a5dd7b1025ea7add7fc8b83ae956a56f7ebc490cc7370e24cf0707e1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118891"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314868"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>会议策略：创建新的或编辑现有的
 
@@ -63,7 +63,7 @@ ms.locfileid: "51118891"
 
 - **允许匿名参与者拨出** 如果允许用户拨入会议，并且希望允许未经身份验证的 (匿名) 用户使用拨出式电话加入会议，请选中此复选框。 通过拨出式电话，会议服务器会呼叫用户，用户接听电话即可加入会议。
 
-- **允许未启用企业语音拨出** 如果在"音频 **/** 视频"中启用了音频，则选中此复选框可允许未启用 企业语音 的用户使用拨出式电话加入会议。 通过拨出式电话，会议服务器会呼叫用户，然后用户接听电话以加入会议。
+- **允许未启用企业语音进行拨出** 如果在"音频 **/** 视频"中启用了音频，则选中此复选框可允许未启用 企业语音 的用户使用拨出式电话加入会议。 通过拨出式电话，会议服务器会呼叫用户，然后用户接听电话以加入会议。
 
 - **允许多个视频流** 如果在"音频/视频"中 **启用了** 视频，请选中此复选框以允许用户使用库视图视频组织会议。 选中此复选框后，此设置允许用户组织发送多个视频流的会议。 未选中此复选框时，用户只能组织发送单个视频流的会议。
 
@@ -80,7 +80,7 @@ ms.locfileid: "51118891"
 
   - **启用批注** 如果允许数据协作，请选中此复选框以允许参与者对会议期间共享的内容进行屏幕批注。
 
-  - **启用 PowerPoint 批注** 如果允许批注，请选中此复选框以允许参与者在会议期间共享的 PowerPoint 幻灯片中做注释。
+  - **启用PowerPoint批注** 如果允许批注，请选中此复选框以允许参与者在会议期间PowerPoint幻灯片进行批注。
 
   - **启用投票** 如果允许数据协作，请选中此复选框以允许参与者在会议期间进行投票。
 
@@ -107,4 +107,4 @@ ms.locfileid: "51118891"
     > [!NOTE]
     > “允许多个视频流”确定会议是否允许多个视频流。
 
-有关会议特性和功能的详细信息，请参阅规划文档中的[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)。 有关使用会议策略的详细信息，请参阅操作文档中的[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)。
+有关会议特性和功能的详细信息，请参阅规划文档中的[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)。有关使用会议策略的详细信息，请参阅操作文档中的[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)。

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解部署步骤，获取正确的固件、根据需要更新固件、分配许可证以及配置公用区域电话的设置。
-ms.openlocfilehash: 4fd45f446d71e581305f7e596c7eacc62f54f8ca
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a73de696e8ac7410e9cccbca99dbabb74df392f58a8bf0ad82e5bdf1ec9ccd75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237348"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300398"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的Skype for Business管理中心报告"区域显示你的组织的呼叫和音频会议活动。 它使你能够钻取到报表，从而更细致地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 您可以查看音频会议 PSTN 使用详细信息，包括呼叫费用，以便了解使用情况和呼叫计费详细信息，以确定组织内部的使用情况。
-ms.openlocfilehash: 2c6a0410611919662f5eaf37a03bfcca11b543be
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 511065a4371ae4f9521022a27c2fdf6804736d48ccc807ee1d3aa0d0148fe3a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278445"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300438"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 

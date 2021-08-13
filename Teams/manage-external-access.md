@@ -21,12 +21,12 @@ description: 你的 Teams 管理员或 IT 管理员可以为其他域配置外�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 5f472ef2a009a3a0b9b87222d951ef34b65da15a
-ms.sourcegitcommit: f5b6a0fe055e42e06eee21ce311813b5127474ea
+ms.openlocfilehash: ff3b2bd28468c0db33194f5004bcaec026a037a861c28e3b9a3d442dab356410
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52741071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310690"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 

@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-description: 要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从组织的公钥基础结构 (PKI) 请求证书，需要确认所需的其他组成员身份（如果有）。 在请求任务期间，你可以输入备用凭据，这些凭据将用于从 PKI 的颁发 CA 请求证书。
-ms.openlocfilehash: f8c21cf141d2145e7592a0615a32eafdfa8de10e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从组织的公钥基础结构 (PKI) 申请证书，需要确认需要其他哪些组成员身份（如果有）。 在请求任务期间，你可以输入备用凭据，这些凭据将用于从 PKI 的颁发 CA 请求证书。
+ms.openlocfilehash: 03c4cd91137f30206d7a1e2076e2e2bdf72080b9221f0857b4f2e08b5df603b8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299878"
 ---
 # <a name="certificate-wizard"></a>证书向导
  
-要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从组织的公钥基础结构 (PKI) 请求证书，需要确认所需的其他组成员身份（如果有）。 在请求任务期间，你可以输入备用凭据，这些凭据将用于从 PKI 的颁发 CA 请求证书。
+要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从组织的公钥基础结构 (PKI) 申请证书，需要确认需要其他哪些组成员身份（如果有）。 在请求任务期间，你可以输入备用凭据，这些凭据将用于从 PKI 的颁发 CA 请求证书。
   
 要请求新证书，请单击“请求”。
   
@@ -45,7 +45,7 @@ ms.locfileid: "49805082"
 要导入证书存储中没有的证书，请单击“导入证书”。
   
 > [!NOTE]
-> “导入证书”通常用于处理通过某个进程接收而非通过证书向导请求的证书。 例如，KPI 管理员会创建证书，然后提供给您使用。 使用 **导入证书** 将证书导入计算机的证书存储，并将其提供给 Skype for Business Server 进行分配。
+> “导入证书”通常用于处理通过某个进程接收而非通过证书向导请求的证书。 例如，KPI 管理员会创建证书，然后提供给您使用。 使用 **"导入** 证书"将证书导入到计算机的证书存储中，并供Skype for Business Server使用。
   
 要完成需要 CA 管理员批准的从组织中的 CA 请求证书的过程，请单击“处理待处理的请求”。证书请求应该返回待处理状态，并显示待处理请求的标识号。要继续处理待处理状态的证书，请单击“刷新”以启用“处理待处理的请求”按钮。“处理待处理的请求”按钮将变得可用（不再灰显）。然后您就可以尝试检索待处理的请求，但是请求状态仍将保持为待处理，直至 CA 管理员颁发或拒绝该证书。如果不存在证书向导创建的有效的待处理请求，则此按钮将不可用。
   

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '了解如何在小型、中型Skype for Business组织中计划和部署客户，以及如何让用户使用。 '
-ms.openlocfilehash: e23d4310d47bfae68a12c2b928741a2994588a57
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: e503455827759966af675ff186f3d72568df613ea407f372450691511a9a6ee5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300488"
 ---
 # <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>将 Skype for Business 客户端部署到 Microsoft 365 或 Office 365
 
@@ -47,21 +47,21 @@ ms.locfileid: "52239895"
 
 作为[管理员](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)，你可以选择是否向用户Skype for Business应用。
   
-- **若要控制贵公司的每个人** 是否获取软件：登录到 Microsoft 365 管理中心，转到"安装 **我的** 软件"，然后选择希望可供用户使用的软件。
+- **若要控制贵公司的每个人都** 是否获取软件：登录到 Microsoft 365 管理中心，转到"安装 **我的** 软件"，然后选择希望可供用户使用的软件。
     
     ![选择要提供给公司人员的软件。](../images/5eb9e9d4-6ea2-4cc1-a61d-8a1af5a7c121.png)
   
-- 要控制贵公司的特定人员是否获取软件：登录到 Microsoft 365 管理中心，转到"用户  >  **活动** 用户"，选择要授予其软件访问权限的用户，然后单击"产品许可证"旁边的"编辑"，然后打开或关闭许可证。
+- 要控制贵公司 **的特定** 人员是否获取软件：登录到 Microsoft 365 管理中心，转到"用户  >  **""** 活动用户"，选择要授予其软件访问权限的用户，然后单击"产品许可证"旁边的"编辑"，然后打开或关闭许可证。
     
     ![选择希望用户访问的软件。](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> 如果需要查看为组织人员分配了哪些计划，请登录到管理中心Microsoft 365"用户>  >  **活动用户"。** 从列表中选择人员，然后在"产品许可证 **"下查看**。 如果使用经典管理中心，请查找"分配的 **许可证"下**。 
+> 如果需要查看为组织中人员分配了哪些计划，请登录到"用户Microsoft 365 管理中心 >  >  **活动用户"。** 从列表中选择人员，然后在"产品许可证 **"下查看**。 如果使用经典管理中心，请查找"分配的 **许可证"下**。 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>手动将Skype for Business部署到用户
 <a name="bkmk_manual_1"> </a>
 
-如果希望用户从网络Skype for Business位置（而不是从 Internet）安装应用，可以下载安装文件。 为此，请转到管理中心的"手动部署用户 **Microsoft 365** 部分。 然后，可以选择 **"安装** "，将安装程序.exe文件保存到网络位置。
+如果希望用户从网络Skype for Business位置（而不是从 Internet）安装应用，可以下载安装文件。 为此，请转到本文 **的"手动** 部署用户软件"Microsoft 365 管理中心。 然后，可以选择 **"安装** "，将安装程序.exe文件保存到网络位置。
   
 另一个选项是Skype for Business基本应用。 可以下载[Microsoft Skype for Business Basic (32 或 64 位) 。 ](https://www.microsoft.com/download/details.aspx?id=49440)
   
@@ -78,11 +78,11 @@ ms.locfileid: "52239895"
   
 使用 Office 365，如果要控制安装应用Skype for Business，可以使用多个选项来部署应用。 其中一些选项包括：
   
-- 将Skype for Business应用从 Microsoft 365 管理中心下载到本地网络，如手动将 Skype for Business[部署到用户 中所述](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)。
+- 将Skype for Business应用从 Microsoft 365 管理中心 下载到本地网络，如手动将 Skype for Business[部署到用户 中所述](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)。
     
 - 使用 **[Office 部署工具](https://go.microsoft.com/fwlink/p/?LinkID=626065)** 将 Microsoft 365 企业应用版 或 Skype for Business 应用下载到本地网络。 然后，使用 Office 部署工具将应用部署到用户。 使用 Office 部署工具可以控制部署的某些方面，例如语言和版本 (32 位或 64 位) 。
     
-- 使用现有的软件部署工具和过程（例如 Microsoft Endpoint Configuration Manager）Microsoft 365 企业应用版或 Skype for Business 应用。 可以将现有工具和过程与 Office[部署](https://go.microsoft.com/fwlink/p/?LinkID=626065)工具或从管理中心下载Microsoft 365一起使用。
+- 使用现有的软件部署工具和过程（例如 Microsoft Endpoint Configuration Manager）Microsoft 365 企业应用版或 Skype for Business 应用。 可以将现有工具和过程与 Office[部署](https://go.microsoft.com/fwlink/p/?LinkID=626065)工具或从部署工具下载的软件Microsoft 365 管理中心。
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>有关使用 Office 部署工具的信息
 
@@ -106,7 +106,7 @@ ms.locfileid: "52239895"
     
 ### <a name="more-info-on-using-microsoft-endpoint-configuration-manager"></a>有关使用 Microsoft Endpoint Configuration Manager
 
-可以使用现有的软件部署工具和进程（例如 Microsoft Endpoint Configuration Manager）来部署 Skype for Business 应用。 可以将这些工具和过程与从 Microsoft 365 管理中心下载的软件或 Office 部署工具一起使用。
+可以使用现有的软件部署工具和进程（例如 Microsoft Endpoint Configuration Manager）来部署 Skype for Business 应用。 可以将这些工具和过程与从 Microsoft 365 管理中心 下载的软件一起使用，Office部署工具。
   
 有关使用 Configuration Manager 部署软件的信息，请参阅以下文章：
   
