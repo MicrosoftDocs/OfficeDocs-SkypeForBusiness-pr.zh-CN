@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 中配置 IP 地址类型
+title: 配置 IP 地址类型Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: 摘要：在实施 Skype for Business Server 之前，请查看下面的 IP 地址类型注意事项。
-ms.openlocfilehash: ba10dd223e7e099d27e31bddce478603f50e49a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：实施 IP 地址前，请查看下面的 IP 地址Skype for Business Server。
+ms.openlocfilehash: 2af34980f4a06189fdae996d01bfdf13a8fee7ac769f022b4dc1bc1e03d94a81
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351332"
 ---
-# <a name="configure-ip-address-types-in-skype-for-business"></a>在 Skype for Business 中配置 IP 地址类型
+# <a name="configure-ip-address-types-in-skype-for-business"></a>配置 IP 地址类型Skype for Business
 
-**摘要：** 在实施 Skype for Business Server 之前，请查看下面的 IP 地址类型注意事项。
+**摘要：** 在实施 IP 地址类型之前，请查看下面的 IP 地址Skype for Business Server。
 
 通过使用在拓扑生成器中配置的拓扑设置来部署 IP 地址类型。 本节介绍如何在前端服务器、中介服务器和边缘服务器上部署 IP 地址类型。
 
@@ -53,7 +53,7 @@ ms.locfileid: "51101248"
    - **PSTN IP 地址**。在前端服务器上并置中介服务器时定义一个 PSTN IP 地址。该地址必须符合选择的地址类型的格式。
 
 > [!NOTE]
-> 不支持安装其他网络接口 (NIC) 以支持 PSTN IP 地址配置 (或出于任何其他) 原因在前端服务器上安装网络接口卡。 有关 Skype for Business Server 支持的 NIC 配置的详细信息，请参阅[Server hardware platforms for Lync Server 2013。](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+> 不支持安装其他网络接口 (NIC) 以支持 PSTN IP 地址配置 (或出于任何其他) 原因在前端服务器上安装网络接口卡。 有关 Lync Server 2013 支持的 NIC Skype for Business Server的详细信息，请参阅[Server hardware platforms for Lync Server 2013。](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>在中介服务器上部署 IP 地址类型
 
@@ -81,8 +81,8 @@ ms.locfileid: "51101248"
 > 我们仅在专用中介服务器上支持 *两个* 网卡。 如果中介 Sserver 角色并位于前端，则不支持双网卡。 
 
 > [!NOTE]
-> - 有关 Skype for Business Server 2015 支持的 NIC 配置详细信息，请参阅 [Hardware for Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
-> - 有关 Skype for Business Server 2019 支持的 NIC 配置详细信息，请参阅 [Hardware for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+> - 有关 2015 年 NIC 支持配置Skype for Business Server，请参阅[Hardware for Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - 有关 2019 年 NIC 支持配置Skype for Business Server，请参阅[Hardware for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
 
 
 

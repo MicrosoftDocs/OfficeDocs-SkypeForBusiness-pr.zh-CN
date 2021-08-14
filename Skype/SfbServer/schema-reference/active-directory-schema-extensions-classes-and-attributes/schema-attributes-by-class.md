@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中按类分类的架构属性
+title: 按类分类的架构Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-description: 本部分列出了可包含在每个 Skype for Business Server 类中的架构属性以及可包含在其他类中的类。 有关所有类及其说明的列表，请参阅 Skype for Business Server 中的架构类和说明。 有关所有属性及其说明的列表，请参阅 Skype for Business Server 中的架构属性和说明。
-ms.openlocfilehash: 00f524fce7e786c9d30c9442eb964c5356db5e16
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 本节列出了可包含在每个 Skype for Business Server 类中的架构属性以及可包含在其他类中的类。 有关所有类及其说明的列表，请参阅架构类及其Skype for Business Server。 有关所有属性及其说明的列表，请参阅架构属性和Skype for Business Server。
+ms.openlocfilehash: 75ca1dea65462d97cdef8053ab24274646408dd135890592a7c93e2654638685
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326288"
 ---
-# <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Skype for Business Server 中按类分类的架构属性
+# <a name="schema-attributes-by-class-in-skype-for-business-server"></a>按类分类的架构Skype for Business Server
  
-本部分列出了可包含在每个 Skype for Business Server 类中的架构属性以及可包含在其他类中的类。 有关所有类及其说明的列表，请参阅 Skype for Business Server 中的架构类 [和说明](schema-classes-and-descriptions.md)。 有关所有属性及其说明的列表，请参阅 Skype for Business Server 中的架构属性 [和说明](schema-attributes-and-descriptions.md)。
+本节列出了可包含在每个 Skype for Business Server 类中的架构属性以及可包含在其他类中的类。 有关所有类及其说明的列表，请参阅架构[类和Skype for Business Server。](schema-classes-and-descriptions.md) 有关所有属性及其说明的列表，请参阅架构[属性](schema-attributes-and-descriptions.md)和Skype for Business Server。
   
 ## <a name="attributes-by-class"></a>按类分组的属性
 
 |**Class**|**可包含以下属性**|
 |:-----|:-----|
-|Contact  <br/> |msDS-SourceObjectDN  <br/> msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationDestination  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ApplicationPrimaryLanguage  <br/> msRTCSIP-ApplicationSecondaryLanguages  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-ProxyAddresses  <br/> msRTCSIP-SourceObjectType  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|联系人  <br/> |msDS-SourceObjectDN  <br/> msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationDestination  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ApplicationPrimaryLanguage  <br/> msRTCSIP-ApplicationSecondaryLanguages  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-ProxyAddresses  <br/> msRTCSIP-SourceObjectType  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
 |Mail-Recipient  <br/> |msExchUCVoiceMailSettings  <br/> msExchUserHoldPolicies  <br/> |
 |msRTCSIP-ApplicationServerService  <br/> |msRTCSIP-ApplicationServerBL  <br/> |
 |msRTCSIP-ApplicationServerSettings  <br/> |msRTCSIP-ApplicationList  <br/> msRTCSIP-ApplicationServerPoolLink  <br/> msRTCSIP-ExtensionData  <br/> msRTCSIP-ServerVersion  <br/> |

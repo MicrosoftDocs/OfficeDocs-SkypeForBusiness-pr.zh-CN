@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: 用户之间的共存Teams & Skype for Business，包括路由参数、聊天&呼叫路由、聊天&来自预先存在的线程的呼叫、&状态。
-ms.openlocfilehash: f9bf83d9c61f759bc74c4e2c5b8d6b4db68c320d
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 2b98fead25ccfd8098e5281749358db931d64bc32a24be2a9d186c62a1d1a57b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453661"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351152"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 

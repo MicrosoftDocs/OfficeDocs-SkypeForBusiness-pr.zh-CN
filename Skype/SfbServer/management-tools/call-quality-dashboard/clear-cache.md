@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
-description: 摘要：了解"清除缓存"操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
-ms.openlocfilehash: c9b966bb1e35a5a6255cd75ea6c685daaf220a09
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：了解"清除缓存"操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
+ms.openlocfilehash: b6767302256d8d448141b9aab5ddeda6c80935173c8381747ae9d91e425d833f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351402"
 ---
 # <a name="clear-cache"></a>清除缓存
  
-**摘要：** 了解"清除缓存"操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for Business Server 的工具。
+**摘要：** 了解"清除缓存"操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
   
-清除缓存操作是通话质量仪表板的数据 API 的一部分。
+"清除缓存"操作是通话质量仪表板的数据 API 的一部分。
   
 ## <a name="clear-cache"></a>清除缓存
 
-清除缓存操作会删除服务器上用于查询和数据的缓存。 这将重置缓存，我们将在以后获取新请求的 QoE 多维数据集中的新数据。
+清除缓存操作会删除服务器上用于查询和数据的缓存。 这将重置缓存，之后我们将从 QoE 多维数据集获取新请求的新数据。
   
 
 |**方法**|**请求 URI**|**HTTP 版本**|

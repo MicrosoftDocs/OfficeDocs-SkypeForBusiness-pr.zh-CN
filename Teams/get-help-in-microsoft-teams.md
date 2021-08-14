@@ -17,12 +17,12 @@ description: 了解帮助主题、视频、发行说明和反馈论坛，以便�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50026fba70ae817eb8325d52c3bcf1bd0153e2c803ee7d7c76935570c6e45420
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 78391b9afa0ea4edcc6f901f26d4f587eeb94249
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848367"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233577"
 ---
 # <a name="get-help-in-microsoft-teams"></a>在 Microsoft Teams 中获取帮助
 
@@ -37,6 +37,6 @@ Teams为帮助内容提供本地化语言支持。 有关最新的支持语言�
  - **新增功能** - 
    用户和团队所有者的定期发行说明，说明新的或更新Teams功能。
 
- - **分享想法**- 我们始终希望倾听你的声音，了解如何改进Teams。 此选项将你带至我们的产品反馈论坛，可以在其中提交新功能请求或对现有功能请求进行投票。 在规划新功能时，我们会不断查看此信息。 
+ - **共享创意**- 我们始终希望倾听你的声音，了解如何改进Teams。 此选项将你带至我们的产品反馈论坛，可以在其中提交新功能请求或对现有功能请求进行投票。 在规划新功能时，我们会不断查看此信息。 
 
 

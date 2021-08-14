@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 使用本文中的过程查看、创建、修改或删除网络带宽策略配置文件。
-ms.openlocfilehash: 4905a80f402b15328f4bca5476dc47262030f323cee8ec12910b25e35aee6eda
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: af3ca2d956e1a280ca6b3d55aa68e9abf1a53aa1
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590956"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233657"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络带宽策略配置文件
 
@@ -41,7 +41,7 @@ ms.locfileid: "54590956"
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络带宽策略Windows PowerShell信息
 
-通过使用 cmdlet 和 Windows PowerShell 可以查看Get-CsNetworkBandwidthPolicyProfile配置文件。 此 cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。 
+通过使用 cmdlet 和 Windows PowerShell 可以查看Get-CsNetworkBandwidthPolicyProfile配置文件。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>查看网络带宽策略配置文件信息
@@ -107,7 +107,7 @@ ms.locfileid: "54590956"
 
 5.  在“编辑”菜单上，单击“显示详细信息”。
 
-6.  在" **编辑带宽策略配置文件** "页上，根据需要 (字段，有关详细信息，请参阅创建新的带宽策略 [配置文件](#to-create-a-new-bandwidth-policy-profile)) 。
+6.  在" **编辑带宽策略配置文件** "页上，根据需要修改 (，请参阅创建新的带宽策略 [配置文件](#to-create-a-new-bandwidth-policy-profile)) 。
 
 7.  单击“提交”。
 

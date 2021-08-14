@@ -14,39 +14,39 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
-description: 您可以使用持久聊天组的"持久聊天策略"页在全局、池、站点或用户级别管理策略，包括配置默认全局策略和为部署创建一个或多个其他用户和站点策略。 如果策略为用户启用了持久聊天服务器，则持久聊天服务器环境将显示在其客户端中。
-ms.openlocfilehash: 9664cbf182fe388fbffd2b270e306a4c17b36e95
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 您可以使用持久聊天组的"持久聊天策略"页来管理全局、池、站点或用户级别的策略，包括配置默认全局策略和为部署创建一个或多个其他用户和站点策略。 如果策略为用户启用了持久聊天服务器，则持久聊天服务器环境将显示在其客户端中。
+ms.openlocfilehash: c540ba5a21ddac731e3d68814421bcd80a205a3700e95e48b926add490a8baab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328327"
 ---
 # <a name="persistent-chat-policy-main-page"></a>持久聊天策略主页
  
-您可以使用持久聊天组的"持久聊天策略"页在全局、池、站点或用户级别管理策略，包括配置默认全局策略和为部署创建一个或多个其他用户和站点策略。 如果策略为用户启用了持久聊天服务器，则持久聊天服务器环境将显示在其客户端中。
+您可以使用持久聊天组的"持久聊天策略"页来管理全局、池、站点或用户级别的策略，包括配置默认全局策略和为部署创建一个或多个其他用户和站点策略。 如果策略为用户启用了持久聊天服务器，则持久聊天服务器环境将显示在其客户端中。
   
 > [!NOTE]
-> 在拓扑中，持久聊天服务器站点策略全局、每用户池、每用户站点或每用户应用。 
+> 在拓扑中，持久聊天服务器站点策略全局应用、每用户池、每用户站点或每用户应用。 
   
-部署持久聊天服务器时会自动创建全局策略，可以配置全局策略，但不能将其删除。 由于全局策略适用于所有用户，因此不必按用户进行设置。
+全局策略是在部署持久聊天服务器时自动创建的，可以配置全局策略，但不能将其删除。 由于全局策略适用于所有用户，因此不必按用户进行设置。
   
-可以创建和配置多个站点和用户策略，这些策略与全局策略一起为用户启用持久聊天服务器。 池和站点持久聊天服务器策略会覆盖全局持久聊天服务器策略，但仅适用于该网站的用户。 用户策略将覆盖分配有用户策略的用户的全局、池和网站策略。
+可以创建和配置多个站点和用户策略，这些策略与全局策略一起为用户启用持久聊天服务器。 池和站点持久聊天服务器策略会覆盖全局持久聊天服务器策略，但仅适用于该站点的用户。 用户策略将覆盖分配有用户策略的用户的全局、池和网站策略。
   
 > [!NOTE]
-> 若要配置和使用持久聊天服务器，必须先使用拓扑生成器向拓扑中添加持久聊天服务器支持，然后发布拓扑。 有关详细信息，请参阅 [将持久聊天服务器添加到 Skype for Business Server 2015 拓扑](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)。 
+> 若要配置和使用持久聊天服务器，必须先使用拓扑生成器向拓扑中添加持久聊天服务器支持，然后发布拓扑。 有关详细信息，请参阅[Add Persistent Chat Server to your Skype for Business Server 2015 topology](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)。 
   
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 
-您可以在"持久聊天策略"页上执行 **以下任务：** 启用和管理持久聊天服务器策略。
+您可以在"持久聊天策略"页上执行以下任务：启用和管理持久聊天服务器策略。
   
 ## <a name="to-configure-the-global-policy-for-persistent-chat"></a>配置持久聊天的全局策略
 
 1. 使用分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 从 **"开始** "菜单中，选择 Skype for Business Server 控制面板或打开浏览器窗口，然后输入管理 URL。
+2. 从"**开始**"菜单中，Skype for Business Server控制面板或打开浏览器窗口，然后输入管理 URL。
     
-3. 在 Skype for Business Server 控制面板中，单击 **"持久聊天**"，然后单击"**持久聊天策略"。**
+3. 在Skype for Business Server控制面板中，单击"**持久聊天**"，然后单击"**持久聊天策略"。**
     
 4. 单击策略列表中的“全局”，再单击“编辑”，然后单击“显示详细信息”。
     
@@ -54,9 +54,9 @@ ms.locfileid: "49819302"
     
    - 在“名称”中，如果不想使用全局策略的默认名称 Global，可以为其指定新名称。
     
-   - 在 **"说明**"中，提供有关用户策略 (例如  _centralSiteName_ 的全局策略) 。
+   - 在 **"说明**"中，提供有关用户策略 (例如  _centralSiteName_ 策略的全局策略) 。
     
-   - 若要控制未通过站点策略或用户策略专门控制的所有站点和用户的持久聊天，请选中或清除"启用 **持久聊天"** 复选框。
+   - 若要控制未通过站点策略或用户策略明确控制的所有站点和用户的持久聊天，请选中或清除" **启用持久聊天** "复选框。
     
 6. 单击“提交”。
     
@@ -68,7 +68,7 @@ ms.locfileid: "49819302"
   
 1. 使用分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 从 **"开始** "菜单中，选择 Skype for Business Server 控制面板或打开浏览器窗口，然后输入管理 URL。
+2. 从"**开始**"菜单中，Skype for Business Server控制面板或打开浏览器窗口，然后输入管理 URL。
     
 3. 在左侧导航栏中，单击“持久聊天”，然后单击“持久聊天策略”。
     
@@ -88,13 +88,13 @@ ms.locfileid: "49819302"
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>为持久聊天创建用户策略
 
-在 Skype for Business Server 控制面板中，定义可以分配给用户中的用户 **的用户策略**。
+在Skype for Business Server控制面板中，定义可在"用户"中分配给用户 **的用户策略**。
   
 用户策略将覆盖全局策略和站点策略，但仅适用于分配了该用户策略的特定用户。
   
 1. 使用分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 从 **"开始** "菜单中，选择 Skype for Business Server 控制面板或打开浏览器窗口，然后输入管理 URL。
+2. 从"**开始**"菜单中，Skype for Business Server控制面板或打开浏览器窗口，然后输入管理 URL。
     
 3. 在左侧导航栏中，单击“持久聊天”，然后单击“持久聊天策略”。
     
@@ -104,30 +104,30 @@ ms.locfileid: "49819302"
     
    - 在“名称”中，指定新用户策略的名称。
     
-   - 在 **"** 说明"中，提供有关用户策略 (例如，特定用户的持久聊天策略) 。
+   - 在 **"说明**"中，提供有关用户策略 (例如，特定用户的持久聊天策略) 。
     
-   - 若要控制未通过用户策略明确控制的所有用户的持久聊天，请选中或清除"启用 **持久聊天"** 复选框。
+   - 若要控制未通过用户策略明确控制的所有用户的持久聊天，请选中或清除" **启用持久聊天** "复选框。
     
 6. 单击“提交”。
     
 ## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a>将持久聊天用户策略应用于用户帐户
 
-如果用户已启用 Skype for Business，可以将相应的策略应用于特定用户，以对持久聊天服务器启用或禁用这些策略。
+如果为用户启用了Skype for Business，您可以将相应的策略应用于特定用户，以对持久聊天服务器启用或禁用这些策略。
   
 使用本主题中的过程将以前创建的持久聊天用户策略应用于一个或多个用户帐户或用户组。
   
 1. 使用分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 从 **"开始** "菜单中，选择 Skype for Business Server 控制面板或打开浏览器窗口，然后输入管理 URL。
+2. 从"**开始**"菜单中，Skype for Business Server控制面板或打开浏览器窗口，然后输入管理 URL。
     
 3. 在左侧导航栏中，单击“用户”，然后搜索要配置的用户帐户。
     
 4. 在列出搜索结果的表中，单击相应的用户帐户，再单击“编辑”，然后单击“显示详细信息”。
     
-5. 在 **"编辑持久聊天****策略下的** Lync Server 用户"中，选择要应用持久聊天用户策略。
+5. 在 **"编辑 Lync Server 用户"** 中的" **持久聊天** 策略"下，选择要应用持久聊天用户策略。
     
     > [!NOTE]
-    > 设置 **\<Automatic\>** 应用默认的有效策略。 服务器将自动应用这些设置。
+    > 设置 **\<Automatic\>** 将应用默认的有效策略。 服务器将自动应用这些设置。
   
 6. 单击“提交”。
     

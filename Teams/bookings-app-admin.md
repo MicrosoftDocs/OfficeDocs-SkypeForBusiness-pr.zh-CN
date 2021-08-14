@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Teams 和 Bookings 应用进行虚拟访问
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams 和使用 Bookings 应用进行虚拟访问
-ms.openlocfilehash: 9d2c2fe9fd1852d030d512d95bf5c944b8b1e1ed119b97a2bac23569cbb83f69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ef4708cfcbdda5ba55c1aa7069e6e1e6babebc2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295199"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233397"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 应用进行虚拟访问
 
@@ -41,7 +41,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 - 必须为组织启用 Microsoft Bookings。
 
-- 用户必须具有相应的许可证。 *支持 Office 365 A3、A5、E3 和 E5、Microsoft 365 商业高级版，以及 Microsoft 365 商业标准版、A3、A5、E3 和 E5。
+- 用户必须具有相应的许可证。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、Business Standard。
 
 - Bookings 应用的所有用户以及所有与会员工必须具有支持 Teams 会议安排的许可证。
 

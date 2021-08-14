@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 阅读本文以查找直接路由的媒体路径国家/地区代码，以便可以选择最佳媒体路径。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 0d51a3a5d6b878a607d9e5ee6b71d75319c9802fa48b3192f2023df179db3b49
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327737"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒体路径国家/地区代码
 

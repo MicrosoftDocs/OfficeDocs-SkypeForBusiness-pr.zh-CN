@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于越南Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: ffdb7009b8b57754c3ac9797ef23709a26173b86
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bef354a60840983e62cff158aad907951a33a59279b9fb14af63ce00ef5d8fe9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104028"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327777"
 ---
 # <a name="availability-in-vietnam"></a>在越南的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "51104028"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |不支持  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |弱  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统

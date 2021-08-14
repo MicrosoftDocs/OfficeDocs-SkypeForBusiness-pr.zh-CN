@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 了解如何将手机Teams到Teams管理中心Microsoft Teams显示。
-ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327757"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>将Teams手机升级到Teams显示器
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115580"
 
 本文概述了如何将手机升级为Teams中心Teams显示Microsoft Teams设备。 这样，设备可以为用户提供丰富的体验，就像在显示设备Teams一样。
 
-Teams显示器是一类一体式专用Teams设备，具有环境触摸屏和 Cortana 提供的免费免提体验。 Teams显示是手机Teams的演变。 除了手机[支持](phones-for-teams.md#features-supported-by-teams-phones)的功能Teams，Teams显示还包括一些功能，例如始终打开显示，所有 Teams 活动和协作选项始终可用。 若要详细了解显示器所Teams的功能，请参阅Microsoft Teams[显示](teams-displays.md)。
+Teams显示器是一类一体式专用Teams设备，具有环境触摸屏和由屏幕支持的免费Cortana。 Teams显示是手机Teams的演变。 除了手机[支持](phones-for-teams.md#features-supported-by-teams-phones)的功能Teams，Teams显示还包括一些功能，例如始终打开显示，所有 Teams 活动和协作选项始终可用。 若要详细了解显示器所Teams的功能，请参阅Microsoft Teams[显示](teams-displays.md)。
 
 ## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>有关升级到显示器的Teams信息
 
@@ -90,4 +90,4 @@ Le会想Smart View 设备可以升级到Teams显示。
 
 [经认证的 IP 电话Microsoft Teams](teams-ip-phones.md)
 
-[Cortana 语音帮助Teams](../cortana-in-teams.md)
+[Cortana语音帮助Teams](../cortana-in-teams.md)

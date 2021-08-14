@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于土耳其Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: edec9e66c303a3d4ee8487f5a3b34e2e9135e778
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d99ecea4d87bf45c3cf603ef92465afe6ba54bcf5af3cfe77d257d0ae105eeaa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327787"
 ---
 # <a name="availability-in-turkey"></a>在土耳其的可用性
 

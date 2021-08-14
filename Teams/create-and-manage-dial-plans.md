@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 了解如何使用 PSTN Microsoft Teams中心或Windows PowerShell PSTN 呼叫拨号 (创建和管理) 。
-ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: bb5574893ec940129a0669608d2bb89d474fb0b6
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849197"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233297"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -39,7 +39,7 @@ ms.locfileid: "57849197"
 1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **拨号计划"。**
 2. 单击 **"** 添加"，然后输入拨号计划的名称和说明。
     ![显示用于创建拨号计划的"添加"页面的屏幕截图](media/create-dial-plan.png)
-3. 在 **"** 拨号计划详细信息"下，指定外部拨号前缀（如果用户需要拨打一个或多个前导 (例如，9) 才能获取外部线路。 要执行此操作：
+3. 在 **"拨号计划详细信息**"下，指定外部拨号前缀（如果用户需要拨打一个或多个前导 (例如，9) 才能获取外部线路。 要执行此操作：
     1. 在" **外部拨号前缀** "框中，输入外部拨号前缀。 前缀可以是最多四个字符 (#、*和 0-9) 。
     2. 打开 **"优化设备拨号"。** 如果指定外部拨号前缀，则还必须启用此设置才能应用前缀，以便可以在组织外部进行呼叫。
 4. 在 **"规范化规则**"下，为 [拨号计划配置](what-are-dial-plans.md#normalization-rules) 和关联一个或多个规范化规则。 每个拨号计划必须至少有一个与之关联的规范化规则。  为此，请执行以下一项或多项操作：

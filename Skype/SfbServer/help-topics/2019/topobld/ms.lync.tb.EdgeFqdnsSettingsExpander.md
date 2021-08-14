@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要编辑或指定边缘服务器的外部设置，首先必须确定是否对会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务使用单独的 IP 地址。
-ms.openlocfilehash: 830a4ad2b18592e209080f86be648ede4dc736b4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 若要为边缘服务器编辑或指定外部 设置，首先必须确定是否对会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务使用单独的 IP 地址。
+ms.openlocfilehash: 49fddf486877711ebd6ba3b0f20960f475a5268ed9cda81632c3ab21a09b83c7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328487"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>边缘服务器 FQDN 设置扩展器
 
-若要编辑或指定边缘服务器的外部设置，首先必须确定是否对会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务使用单独的 IP 地址。
+若要编辑或指定边缘服务器的外部 **设置，** 首先必须确定是否对会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务使用单独的 IP 地址。
 
 如果它们都要使用单独的 IP 地址，请选中 **“为 Web 会议和 A/V 启用单独的 FQDN 和 IP 地址”** 复选框。每个服务必须具有为其创建的对应域名系统 (DNS) 主机 (A) 记录。
 

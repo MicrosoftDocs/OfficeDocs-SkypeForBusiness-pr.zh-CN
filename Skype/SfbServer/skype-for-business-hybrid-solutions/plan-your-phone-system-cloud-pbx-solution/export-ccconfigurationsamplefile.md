@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
-description: Export-CcConfigurationSampleFile cmdlet 用于将 Skype for Business 云连接器版本示例配置文件 (.ini) 导出到云连接器设备的设备目录。你可以修改和重命名该文件以用于你的部署。
-ms.openlocfilehash: a29a3db8e77ee239263d015bd7a3efcf4f3f7c5c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此Export-CcConfigurationSampleFile cmdlet 将Skype for Business 云连接器版本示例配置文件 (.ini) 云连接器设备的设备目录。 可以修改和重命名文件以用于部署。
+ms.openlocfilehash: f59e93cf241ca762dcb41cf23d617017a62581b453cb84cebc915b1703f5a019
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801002"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326258"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
-Export-CcConfigurationSampleFile cmdlet 用于将 Skype for Business 云连接器版本示例配置文件 (.ini) 导出到云连接器设备的设备目录。你可以修改和重命名该文件以用于你的部署。
+此Export-CcConfigurationSampleFile cmdlet 将Skype for Business 云连接器版本示例配置文件 (.ini) 云连接器设备的设备目录。 可以修改和重命名文件以用于部署。
   
 此 cmdlet 适用于 Skype for Business 云连接器版本 1.4.1、1.4.2。
   
@@ -39,7 +39,7 @@ Export-CcConfigurationSampleFile
 
 ### <a name="example-1"></a>示例 1
 
-以下示例从 Microsoft 网站下载示例配置文件，并将其写入云连接器设备的装置目录中：
+以下示例从 Microsoft 站点下载示例配置文件，并写入云连接器设备的设备目录：
   
 ```powershell
 Export-CcConfigurationSampleFile
@@ -48,14 +48,14 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-云连接器的当前版本要求你在 .ini 文件中提供多个参数;例如，诸如云连接器组件、组件名称、网关参数等的虚拟机的 IP 地址等参数。
+云连接器的当前版本要求你在云连接器文件中提供.ini参数;例如，云连接器组件虚拟机的 IP 地址、组件名称、网关参数等参数。
   
-此 cmdlet 在云连接器的主机计算机上运行时，将从 Microsoft 网站下载一个示例 .ini 文件和配置示例。 该 cmdlet 将文件写入云连接器装置的装置目录中。 设备目录通过使用 Set-CcApplianceDirectory cmdlet 来指定。
+此 cmdlet 在云连接器的主机上运行时，会从 Microsoft .ini下载包含配置示例的示例文件。 此 cmdlet 将文件写入云连接器设备的设备目录。 设备目录是使用 Set-CcApplianceDirectory cmdlet 指定的。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
 
-无。Export-CcConfigurationSampleFile cmdlet 不接受主线输入。 
+无。 Export-CcConfigurationSampleFile cmdlet 不接受通过管道的输入。 
   
 ## <a name="return-types"></a>返回类型
 <a name="ReturnTypes"> </a>

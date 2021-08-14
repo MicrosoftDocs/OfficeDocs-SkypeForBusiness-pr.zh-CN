@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。 '
-ms.openlocfilehash: 449901d771a1ac473a4e183b44edd270cad4542473abf7ad06b1bb9a9ebad1f8
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 641d7b896c540301af1adaca24cb8e1057179262
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591086"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233677"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中链接网络区域
 
@@ -27,7 +27,7 @@ ms.locfileid: "54591086"
 您可以查看两个网络区域之间作为呼叫允许控制 (CAC) 的一部分的链接。 网络内的区域通过物理广域网 (WAN) 连接进行链接。 可以使用"Skype for Business Server控制面板"查看两个网络区域之间的现有链接。 
 
 
-### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>在控制面板中Skype for Business Server网络区域链接
+### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>在控制面板中查看Skype for Business Server链接
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
@@ -44,18 +44,18 @@ ms.locfileid: "54591086"
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络区域Windows PowerShell信息
 
-可以使用 **Get-CsNetworkRegionLink** cmdlet 和 Windows PowerShell 查看网络区域链接。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 
+可以通过使用 Windows PowerShell **和 Get-CsNetworkRegionLink** cmdlet 查看网络区域链接。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 
 
 
 ### <a name="to-view-network-region-link-information"></a>查看网络区域链接信息
 
-  - 若要查看有关所有网络区域链接的信息，请在命令行管理程序中Skype for Business Server以下命令，然后按 Enter：
+  - 若要查看有关所有网络区域链接的信息，请在命令行管理程序中键入Skype for Business Server命令，然后按 Enter：
     
     **Get-CsNetworkRegionLink**
     
     此命令会返回类似下列信息：
     
-       标识 ：NorthwestToCalifor pacific BWPolicyProfileID ： NetworkRegionLinkID ： NorthwestToCalifor进行 NetworkRegionID1 ： Pacific Northwest NetworkRegionID2 ： 加利福尼亚
+       标识 ： NorthwestToCalifor一维网 BWPolicyProfileID ： NetworkRegionLinkID ： NorthwestToCalifor一 networkRegionID1 ： Pacific Northwest NetworkRegionID2 ： 加利福尼亚
 
 
 有关详细信息，请参阅[Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)。
@@ -78,7 +78,7 @@ ms.locfileid: "54591086"
 5.  在 **"新建区域链接**"中的"名称"字段中 **键入** 值。
  
     > [!NOTE]  
-    > 此值在部署中必须Skype for Business Server。
+    > 此值在部署中必须Skype for Business Server唯一。
 
 6.  从" **网络区域 \# 1"** 下拉列表中，选择要链接的两个区域之一。
 

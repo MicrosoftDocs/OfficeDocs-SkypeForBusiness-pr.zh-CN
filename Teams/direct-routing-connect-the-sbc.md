@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何配置 SBC 并连接到 电话系统路由。
-ms.openlocfilehash: 697f426b9c9dc3215d653520658282fab1787001
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 46eabb56056526032d45669f0faf12fecf1762e10a1ee020dd9de9be17bff74e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122246"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327747"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>连接将会话边界控制器 (SBC) 直接路由
 
@@ -161,17 +161,17 @@ Enabled               : True
 |必填？|Microsoft Teams管理中心设置|PowerShell 参数|描述|默认值|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |是|**为 SBC 添加 FQDN**|FQDN |无|FQDN 名称，限制为 63 个字符|字符串，请参阅[Active Directory](https://support.microsoft.com/help/909264)中计算机、域、站点和 OUS 的命名约定中允许和禁止的字符列表|
-|不支持|**已启用**|已启用|使用 为出站调用启用 SBC。 可以使用此功能在 SBC 更新期间或维护期间暂时将其从服务中删除。 |False|True<br/>False|Boolean|
+|弱|**已启用**|已启用|使用 为出站调用启用 SBC。 可以使用此功能在 SBC 更新期间或维护期间暂时将其从服务中删除。 |False|True<br/>False|Boolean|
 |是|**SIP 信号端口**|SipSignalingPort |这是一个侦听端口，用于通过 TLS 协议使用传输层 (直接) 路由。|无|任何端口|0 到 65535 |
-|不支持|**发送 SIP 选项**|SendSIPOptions |定义 SBC 是否发送 SIP 选项消息。 强烈建议启用此设置。 当此设置关闭时，SBC 将排除在监视和警报系统中。|True|True<br/>False|Boolean|
-|不支持|**转发呼叫历史记录**|ForwardCallHistory |指示是否通过中继转发呼叫历史记录信息。 打开此选项时，Microsoft 365代理Office 365发送 History-info 和 Referred-by 标头。 |False|True<br/>False|Boolean|
-|不支持|**将 P-Asserted-identity (PAI) 标头**|ForwardPAI|指示 PAI 标头是否随调用一起转发。 PAI 标头提供了一种验证呼叫者身份的方法。 如果启用此设置，则还会发送 Privacy：ID 标头。|False|True<br/>False|Boolean|
-|不支持|**并发调用容量**|MaxConcurrentSessions |设置值时，当并发会话数为 90% 或高于此值时，警报系统将通知你。 如果未设置值，不会生成警报。 但是，监视系统将每 24 小时报告一次并发会话数。 |Null|Null<br/>1 到 100，000 ||
-|不支持|**故障转移响应代码**|FailoverResponseCodes<br>|如果直接路由收到任何 4xx 或 6xx SIP 错误代码以响应传出邀请，则默认情况下，呼叫被视为已完成。 传出是指使用流量流从 Teams 客户端呼叫 PSTN：Teams 客户端 -> 直接路由 -> SBC -> 电话) 。 指定故障转移响应代码时，如果 SBC 由于网络或其他问题而无法进行呼叫，则当用户) 的语音路由策略中存在另一个 SBC 时，这会强制直接路由尝试另一个 SBC (。 有关详细信息，请参阅从会话边界控制器或[SBC (接收的特定 SIP) 。 ](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
-|不支持|**故障转移时间 (秒)**|FailoverTimeSeconds |设置值时，网关在您设置的时间内未应答的出站调用将路由到下一个可用的中继。 如果没有其他中继，则会自动丢弃呼叫。 默认值为 10 秒。 在网络和网关响应速度缓慢的组织中，这可能会导致不必要的呼叫被丢弃。|10|数字|Int|
-|不支持|**媒体流量的首选国家/地区**|MediaRelayRoutingLocationOverride |使用 手动设置媒体流量的首选国家/地区。 建议仅在调用日志明确指示媒体路径的数据中心默认分配不使用离 SBC 数据中心最近的路径时，才设置此选项。 默认情况下，直接路由基于 SBC 的公共 IP 地址分配数据中心，并始终选择最靠近 SBC 数据中心的路径。 但是，在某些情况下，默认路径可能不是最佳路径。 此参数允许手动设置媒体流量的首选区域。 |无|ISO 格式的国家/地区代码||
-|不支持|**SBC 支持对紧急呼叫使用 PIDF/LO**|PidfloSupported|指定 SBC 是否支持紧急呼叫的 PIDF/LO (状态信息数据格式) 对象。||||
-|不支持| - |MediaBypass|此设置指示 SBC 是否支持媒体旁路，以及是否要将媒体旁路用于此 SBC。 |无|True<br/>False|Boolean|
+|弱|**发送 SIP 选项**|SendSIPOptions |定义 SBC 是否发送 SIP 选项消息。 强烈建议启用此设置。 当此设置关闭时，SBC 将排除在监视和警报系统中。|True|True<br/>False|Boolean|
+|弱|**转发呼叫历史记录**|ForwardCallHistory |指示是否通过中继转发呼叫历史记录信息。 打开此选项时，Microsoft 365代理Office 365发送 History-info 和 Referred-by 标头。 |False|True<br/>False|Boolean|
+|弱|**将 P-Asserted-identity (PAI) 标头**|ForwardPAI|指示 PAI 标头是否随调用一起转发。 PAI 标头提供了一种验证呼叫者身份的方法。 如果启用此设置，则还会发送 Privacy：ID 标头。|False|True<br/>False|Boolean|
+|弱|**并发调用容量**|MaxConcurrentSessions |设置值时，当并发会话数为 90% 或高于此值时，警报系统将通知你。 如果未设置值，不会生成警报。 但是，监视系统将每 24 小时报告一次并发会话数。 |Null|Null<br/>1 到 100，000 ||
+|弱|**故障转移响应代码**|FailoverResponseCodes<br>|如果直接路由收到任何 4xx 或 6xx SIP 错误代码以响应传出邀请，则默认情况下，呼叫被视为已完成。 传出是指使用流量流从 Teams 客户端呼叫 PSTN：Teams 客户端 -> 直接路由 -> SBC -> 电话) 。 指定故障转移响应代码时，如果 SBC 由于网络或其他问题而无法进行呼叫，则当用户) 的语音路由策略中存在另一个 SBC 时，这会强制直接路由尝试另一个 SBC (。 有关详细信息，请参阅从会话边界控制器或[SBC (接收的特定 SIP) 。 ](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
+|弱|**故障转移时间 (秒)**|FailoverTimeSeconds |设置值时，网关在您设置的时间内未应答的出站调用将路由到下一个可用的中继。 如果没有其他中继，则会自动丢弃呼叫。 默认值为 10 秒。 在网络和网关响应速度缓慢的组织中，这可能会导致不必要的呼叫被丢弃。|10|数字|Int|
+|弱|**媒体流量的首选国家/地区**|MediaRelayRoutingLocationOverride |使用 手动设置媒体流量的首选国家/地区。 建议仅在调用日志明确指示媒体路径的数据中心默认分配不使用离 SBC 数据中心最近的路径时，才设置此选项。 默认情况下，直接路由基于 SBC 的公共 IP 地址分配数据中心，并始终选择最靠近 SBC 数据中心的路径。 但是，在某些情况下，默认路径可能不是最佳路径。 此参数允许手动设置媒体流量的首选区域。 |无|ISO 格式的国家/地区代码||
+|弱|**SBC 支持对紧急呼叫使用 PIDF/LO**|PidfloSupported|指定 SBC 是否支持紧急呼叫的 PIDF/LO (状态信息数据格式) 对象。||||
+|弱| - |MediaBypass|此设置指示 SBC 是否支持媒体旁路，以及是否要将媒体旁路用于此 SBC。 |无|True<br/>False|Boolean|
 
 ## <a name="see-also"></a>另请参阅
 

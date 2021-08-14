@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 受信任应用程序是基于 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序，受 Skype for Business Server。
-ms.openlocfilehash: 2025e8cf51852caeaebd96273c918764c58ce146d87bd4673854514c78b0794f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b174c0b45c3a90a1f0af53f31d7c507ffaca85cd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848467"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233987"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>在应用程序中管理受信任Skype for Business Server
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在比利时获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 1974feecccfc1a8914386033d74536ec541f4f0ca5ab2bbd2b00a732329ef4cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 95ed000114d0efe60142a07cfaf1967ec4c1426d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321284"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233817"
 ---
 # <a name="phone-number-management-for-belgium"></a>比利时的电话号码管理
 
@@ -35,11 +35,11 @@ ms.locfileid: "54321284"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |在比利时，你无法通过 Microsoft Teams 中心获取组织的电话号码，你必须提交新的电话号码请求。 <br/><br/>下载下列表单之一： <br/>  [针对比利时的新电话号码请求 (v.5.0)  (取消) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [比利时新电话号码请求 (v.5.0)  (fr-be) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [针对比利时的新电话号码请求 (v.5.0)  (nl-be) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/>   [比利时英语 v.5.0 (5.0)  (的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 <br/>|
-|获取转接给我们的电话号码。  <br/> | 下载这些表单之一。 <br/>[比利时的 (LOA (授权书) ， (v.5.0)  (v.5.0)  (所有号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf) <br/> [比利时 (LOA (LOA)  ()  (v.6.1)  (fr-be) ](https://download.microsoft.com/download/d/f/3/df304a78-db38-41f9-98d2-0b590cf8c68f/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.1)-(fr-be).pdf)<br/> [比利时的 (LOA) 授权书 (，)  (v.6.2)  (nl-be) ](https://download.microsoft.com/download/4/b/a/4bacc856-3bf2-45f7-ade2-8b1d81fc09c6/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v6.2)-(nl-be).pdf) <br/>   <br/>   填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 <br/> |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md)      <br/> |
-|将用户号码更改为服务号码。  <br/> |有关要转换为服务号码的用户号码列表的说明，请联系[PTSN。](contact-pstn-service-desk.md) <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |在比利时，你无法通过 Microsoft Teams 管理中心获取组织的电话号码，你必须提交新的电话号码请求。 <br/><br/>下载下列表单之一： <br/>  [针对比利时的新电话号码 (v.5.0)  (取消) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [比利时新电话号码请求 (v.5.0)  (fr-be) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [针对比利时的新电话号码请求 (v.5.0)  (nl-be) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/>   [针对比利时 5.5.0 (5.0)  (的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 <br/>|
+|获取转接给我们的电话号码。  <br/> | 下载这些表单之一。 <br/>[比利时的 (LOA (授权书) ， (v.5.0)  (v.5.0)  (取消) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf) <br/> [比利时 (LOA (LOA)  ()  (v.6.1)  (fr-be) ](https://download.microsoft.com/download/d/f/3/df304a78-db38-41f9-98d2-0b590cf8c68f/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.1)-(fr-be).pdf)<br/> [比利时的 (LOA) 授权书 (所有号码)  (v.6.2)  (nl-be) ](https://download.microsoft.com/download/4/b/a/4bacc856-3bf2-45f7-ade2-8b1d81fc09c6/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v6.2)-(nl-be).pdf) <br/>   <br/>   填写它， [并联系 PTSN 了解说明](contact-pstn-service-desk.md)。 <br/> |
+|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。      <br/> |
+|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台，获得说明](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题
 

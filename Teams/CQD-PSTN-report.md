@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 CQD Microsoft Teams呼叫质量仪表板 (PSTN) ) 路由报告来监视和排查 PSTN 呼叫Microsoft Teams。
-ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351252"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>使用 CQD PSTN 直接路由报告
 
@@ -40,7 +40,7 @@ CQD PSTN 直接路由报告包含四个部分：
 
   - [网络参数](#network-parameters)
 
-## <a name="highlights"></a>好友动态
+## <a name="highlights"></a>突出显示
 
 1. 按呼叫类型、SBC、呼叫方和被叫方国家/地区进行分析
 

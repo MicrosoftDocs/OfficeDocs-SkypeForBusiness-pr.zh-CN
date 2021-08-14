@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87f3577d34df6d2b0665a45b60b441d29cd0265b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b5bdfb924376170540985c586ac21c17f09ad978303ea9790d63563ec686b727
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092610"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326188"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft Teams 中 (QoS) 服务质量Microsoft Teams
 
