@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
-description: Start-CcLogging cmdlet 用于为 Skype for Business 云连接器版本设备生成传入和传出呼叫日志。
-ms.openlocfilehash: bf84b55484e7f1d4f557730408676e337063a040
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 此Start-CcLogging cmdlet 为设备生成传入和传出呼叫Skype for Business 云连接器版本日志。
+ms.openlocfilehash: c1e78f19a0df22749480b21410d3bcfcdba54f429ef1c8afb48467edd0ee7dbc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824166"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329317"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
-Start-CcLogging cmdlet 用于为 Skype for Business 云连接器版本设备生成传入和传出呼叫日志。 
+此Start-CcLogging cmdlet 为设备生成传入和传出呼叫Skype for Business 云连接器版本日志。 
   
 ```powershell
 Start-CcLogging
@@ -46,12 +46,12 @@ Start-CcLogging
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-CcLogging cmdlet 为管理员提供了一种在云连接器设备上开始记录传入和传出调用的方法。 默认情况下，日志记录将在四个小时后自动停止。
+此 Start-CcLogging cmdlet 为管理员提供了一种在云连接器设备中开始记录传入和传出呼叫的方法。 默认情况下，日志记录将在四小时后自动停止。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
 
-无。Start-CcLogging cmdlet 不接受主线输入。
+无。 Start-CcLogging cmdlet 不接受通过管道的输入。
   
 ## <a name="return-types"></a>返回类型
 <a name="ReturnTypes"> </a>

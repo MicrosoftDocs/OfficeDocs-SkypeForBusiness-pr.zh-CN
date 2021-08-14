@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中删除 PIN 策略
+title: 在邮件中删除 PIN Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
-description: 摘要：删除用户的 Skype for Business Server 电话拨入式会议 PIN。
-ms.openlocfilehash: b85d2bb29f8a1a28279a59f72957d201886d1dc4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：删除用户的电话拨入式会议 PIN Skype for Business Server。
+ms.openlocfilehash: 97c8f6ce8ab2f86e1a44032e90b6d23f91e0552587f52d46ba89c84202576339
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096788"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336882"
 ---
-# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>在 Skype for Business Server 中删除 PIN 策略
+# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>在邮件中删除 PIN Skype for Business Server
  
-**摘要：** 删除用户的 Skype for Business Server 电话拨入式会议 PIN。
+**摘要：** 删除用户的电话拨入式会议 PIN Skype for Business Server。
   
 按照以下步骤删除个人标识号 (PIN) 策略。
   
 > [!NOTE]
 > 无法删除全局 PIN 策略。 
   
-### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>在 Skype for Business Server 控制面板中删除 PIN 策略
+### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>在控制面板中删除 PIN Skype for Business Server
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。  
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
 3. 在左侧导航栏中，单击“安全性”，然后单击“PIN 策略”。
     
@@ -45,7 +45,7 @@ ms.locfileid: "51096788"
     
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 删除WINDOWS POWERSHELL PIN 策略
 
-可以使用 cmdlet 和 Windows PowerShell 删除Remove-CsPinPolicy策略。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中是相同的。
+可以使用 cmdlet 和 Windows PowerShell 删除Remove-CsPinPolicy策略。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
   
 ### <a name="to-remove-a-specific-pin-policy"></a>删除特定 PIN 策略
 

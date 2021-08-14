@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'SIP 中继配置设置定义中介服务器与服务提供商的 PST) 网关、PBX 或 SBC 之间的关系和功能。 '
-ms.openlocfilehash: b6154c1f6a608d0cac0084b3c49caf2b7aa630229464d922926f0eeb4ad20f7f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: d3e327271db0426415137123e58426b18d185403
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848987"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234887"
 ---
 # <a name="skype-for-business-server---test-sip-trunk-configuration-settings"></a>Skype for Business Server - 测试 SIP 中继配置设置
 
@@ -28,7 +28,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 
 在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。 管理员还可使用 [Test-CsTrunkConfiguration](/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet 验证中继能否将用户拨打的号码转换为网关可以处理的号码。
 
-只能使用 Windows PowerShell 和 Test-CsTrunkConfiguration cmdlet 测试中继配置设置。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
+只能使用 Windows PowerShell 和 Test-CsTrunkConfiguration cmdlet 测试中继配置设置。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 **测试 SIP 中继配置设置**
 

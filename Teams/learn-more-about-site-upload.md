@@ -22,15 +22,14 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a617cdabba70a836327f6b2153ccecacb5d695040c99007845c79e776e478a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20204d0c766a9ff248ff8354d9367a9903149d46
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321324"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235007"
 ---
-<a name="add-and-update-reporting-labels"></a>添加和更新报告标签
-============================
+# <a name="add-and-update-reporting-labels"></a>添加和更新报告标签
 
 报告标签在组织中用于指示办公室、建筑物或组织网站的物理位置。 使用 Microsoft Teams 管理中心中的"报告标签"页，可以提供文本文件 (.csv 或 .tsv) ，其中包含物理位置及其关联网络子网的列表。 调用分析使用此文件生成报告。 上传子网映射时，这些服务提供的报表也将包含位置名称，使报表更易于理解和用于修正任何潜在问题。
 
@@ -53,7 +52,7 @@ ms.locfileid: "54321324"
 > [!IMPORTANT]
 > 数据文件不应包含列标题 (例如网络、网络名称等) 。 此处仅用于提供信息。 <br>
 
-|网络|网络名称|网络范围|建筑物名称|所有权类型|建筑物类型|生成Office类型|城市|邮政编码|国家/地区|省/市/自治区|区域|内部公司|Express Route|
+|网络|网络名称|网络范围|建筑物名称|所有权类型|建筑物类型|构建Office类型|城市|邮政编码|国家/地区|省/市/自治区|区域|内部公司|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |10.0.128.0    |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山脉视图|94043|美国|CA|美国|1|1|
 |10.0.130.0    |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山脉视图|94043|美国|CA|美国|1|1|

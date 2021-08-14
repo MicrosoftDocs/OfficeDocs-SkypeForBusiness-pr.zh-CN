@@ -21,16 +21,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55676d855d3e15c3f767203da981a4fae241f3128a270f5656d770a229f00059
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b83e7ea9fd93787f71828141c3e9e3b681d9557b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848067"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234257"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 
-你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许你已部署会议[&会议。](deploy-meetings-microsoft-teams-landing-page.md) 现在，你已准备好添加云语音工作负荷，并且你已决定使用自己的电话运营商进行公共电话交换网 (PSTN) 连接，电话系统直接路由。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许你已部署[会议&会议。](deploy-meetings-microsoft-teams-landing-page.md) 现在，你已准备好添加云语音工作负荷，并且你已决定使用自己的电话运营商进行公用电话交换网 (PSTN) 连接，电话系统直接路由。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
 
 本文介绍直接路由的核心部署决策，以及可能需要根据组织需求考虑的其他注意事项。 还应阅读[云语音Microsoft Teams](cloud-voice-landing-page.md)了解有关 Microsoft 云语音产品/服务的信息。
 
@@ -72,7 +72,7 @@ ms.locfileid: "57848067"
 
 ### <a name="voice-routing-considerations"></a>语音路由注意事项
 
-需要配置一个电话系统将调用路由到特定的 SDC。
+需要配置一个电话系统将调用路由到特定 SDC。
 
 |询问你自己|操作 |
 |:------------|:-------|
@@ -82,7 +82,7 @@ ms.locfileid: "57848067"
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>确保传入呼叫使用 TeamsUpgradePolicy Teams客户端
 
-直接路由仅支持Microsoft Teams。 若要通过直接路由接收 PSTN 呼叫，需要配置 TeamsUpgradePolicy 以确保在 Teams。 用户必须进入Teams模式，为此，可以通过为用户分配 TeamsUpgradePolicy 的"UpgradeToTeams"实例。 
+直接路由仅支持Microsoft Teams。 若要通过直接路由接收 PSTN 呼叫，需要配置 TeamsUpgradePolicy 以确保在 Teams。 用户必须进入Teams模式，为此，可通过为用户分配 TeamsUpgradePolicy 的"UpgradeToTeams"实例。 
 
 |询问你自己|操作 |
 |:------------|:-------|
@@ -95,6 +95,6 @@ ms.locfileid: "57848067"
 
 | 询问你自己| 操作 |
 | :------------|:-------|
-| 是否具有已配置Skype for Business Server连接的现有部署？ |  若要了解如何预配和管理混合环境中用户帐户，请参阅具有 [PSTN 连接的混合环境中用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)。| 
+| 是否具有配置了Skype for Business Server连接的现有部署？ |  若要了解如何预配和管理混合环境中用户帐户，请参阅具有 [PSTN 连接的混合环境中用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)。| 
 | 你是从调用计划还是从本地环境Skype for Business直接路由？ | 若要详细了解如何从现有环境迁移到直接路由，请参阅 [迁移到直接路由](direct-routing-migrating.md)。 |
 |||

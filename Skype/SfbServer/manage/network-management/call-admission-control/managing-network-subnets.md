@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 在大多数实现呼叫允许Skype for Business Server CAC (CAC) 部署中，通常会存在大量子网。 因此，最好从命令行管理程序配置Skype for Business Server子网。
-ms.openlocfilehash: c42d0cf4a3970a354183de3bb39878f7955b8678aae93c4f0703257a1ae1f901
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+description: 在大多数实现呼叫Skype for Business Server CAC (CAC) 部署中，通常会存在大量子网。 因此，通常最好从命令行管理程序配置Skype for Business Server子网。
+ms.openlocfilehash: a31e8b40e0523b8bc0a4b90a97fb0ae98fbc7668
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591096"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234957"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络子网
 
-可以使用命令行管理Skype for Business Server命令行管理程序Skype for Business Server网络子网。 在大多数实现呼叫允许Skype for Business Server CAC (CAC) 部署中，通常会存在大量子网。 因此，最好从命令行管理程序配置Skype for Business Server子网。
+可以使用命令行管理Skype for Business Server命令行管理程序Skype for Business Server网络子网。 在大多数实现呼叫Skype for Business Server CAC (CAC) 部署中，通常会存在大量子网。 因此，通常最好从命令行管理程序配置Skype for Business Server子网。
 
 使用本文中的各节查看网络子网信息或创建、修改或删除网络子网。 
 
@@ -45,11 +45,11 @@ ms.locfileid: "54591096"
 
 ### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络子网Windows PowerShell信息
 
-网络子网信息可以通过使用 Windows PowerShell cmdlet 和 Get-CsNetworkSubnet cmdlet 进行查看。 此 cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。 
+网络子网信息可以通过使用 Windows PowerShell cmdlet Get-CsNetworkSubnet查看。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
 
 ### <a name="to-view-network-subnet-information"></a>查看网络子网信息
 
-  - 若要查看有关所有网络子网的信息，请在命令行管理程序中Skype for Business Server以下命令，然后按 Enter：
+  - 若要查看有关所有网络子网的信息，请在命令行管理程序中键入Skype for Business Server命令，然后按 Enter：
     
     **Get-CsNetworkSubnet**
     
@@ -69,7 +69,7 @@ ms.locfileid: "54591096"
 
 网络子网必须与一个网络站点关联，以便确定属于此子网的主机的地理位置。 可以使用"Skype for Business Server控制面板"配置子网。 从Skype for Business Server控制面板中，可以创建、修改或删除网络子网。 
 
-在大多数实现呼叫允许Skype for Business Server CAC (CAC) 部署中，通常会存在大量子网。 因此，最好从命令行管理程序配置Skype for Business Server子网。 可以从中调用 **New-CsNetworkSubnet** 与 Windows PowerShell cmdlet **Import-CSV**。 通过将这些 cmdlet 配合使用，可以从逗号分隔值 (.csv) 文件读入子网设置，并且同时创建多个子网。 有关如何从 .csv 文件创建子网的示例，请参阅 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)。
+在大多数实现呼叫Skype for Business Server CAC (CAC) 部署中，通常会存在大量子网。 因此，通常最好从命令行管理程序配置Skype for Business Server子网。 可以从中调用 **New-CsNetworkSubnet** 与 Windows PowerShell cmdlet **Import-CSV**。 通过将这些 cmdlet 配合使用，可以从逗号分隔值 (.csv) 文件读入子网设置，并且同时创建多个子网。 有关如何从 .csv 文件创建子网的示例，请参阅 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)。
 
 
 ### <a name="to-create-a-network-subnet"></a>创建网络子网
@@ -116,7 +116,7 @@ ms.locfileid: "54591096"
 
 您可以使用以下过程删除子网。 从Skype for Business Server控制面板中，可以创建、修改或删除网络子网。 
 
-在大多数实现呼叫允许Skype for Business Server CAC (CAC) 部署中，通常会存在大量子网。 因此，最好从命令行管理程序配置Skype for Business Server子网。 可以从中调用 **New-CsNetworkSubnet** 与 Windows PowerShell cmdlet **Import-CSV**。 通过将这些 cmdlet 配合使用，可以从逗号分隔值 (.csv) 文件读入子网设置，并且同时创建多个子网。 有关如何从 .csv 文件创建子网的示例，请参阅 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)。
+在大多数实现呼叫Skype for Business Server CAC (CAC) 部署中，通常会存在大量子网。 因此，通常最好从命令行管理程序配置Skype for Business Server子网。 可以从中调用 **New-CsNetworkSubnet** 与 Windows PowerShell cmdlet **Import-CSV**。 通过将这些 cmdlet 配合使用，可以从逗号分隔值 (.csv) 文件读入子网设置，并且同时创建多个子网。 有关如何从 .csv 文件创建子网的示例，请参阅 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)。
 
 
 ### <a name="to-delete-a-network-subnet"></a>删除网络子网

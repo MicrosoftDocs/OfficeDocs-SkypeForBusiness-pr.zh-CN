@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何使用 Azure Monitor 以Microsoft Teams 会议室的端到端方式部署设备管理。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6fe149f2d2cb0e6e68ad50c0c9cf1d2328439ff8dc0f43f56646e8a0152da7b8
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850307"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234237"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ ms.locfileid: "57850307"
 
 遵循本指南，可以使用如以下示例所示的仪表板获取有关设备可用性、应用程序和硬件运行状况以及应用程序和操作系统版本分发 :::no-loc text="Microsoft Teams Rooms"::: 的详细状态报告。
 
-![示例 Log Analytics 视图的屏幕截图，Microsoft Teams 会议室](../media/Deploy-Azure-Monitor-1.png "示例 Log Analytics 视图Microsoft Teams 会议室")
+![示例 Log Analytics 视图的屏幕截图Microsoft Teams 会议室](../media/Deploy-Azure-Monitor-1.png "示例 Log Analytics 视图Microsoft Teams 会议室")
 
 你需要在高级别执行以下任务：
 
@@ -50,7 +50,7 @@ ms.locfileid: "57850307"
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>验证 :::no-loc text="Log Analytics"::: 配置
 <a name="validate_LogAnalytics"> </a>
 
-需要一个 :::no-loc text="Log Analytics"::: 工作区，以开始从设备收集 :::no-loc text="Microsoft Teams Rooms"::: 日志。 工作区是具有其自己的数据存储库、数据源和解决方案的独特 :::no-loc text="Log Analytics"::: 环境。 如果已有一个工作区，可以使用它来监视部署，也可以创建特定于监视 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 需求的专用 :::no-loc text="Microsoft Teams Rooms"::: 工作区。
+需要一个 :::no-loc text="Log Analytics"::: 工作区，以开始从设备收集 :::no-loc text="Microsoft Teams Rooms"::: 日志。 工作区是一个 :::no-loc text="Log Analytics"::: 唯一的环境，具有自身的数据存储库、数据源和解决方案。 如果已有一个工作区，可以使用它来监视部署，也可以创建特定于监视 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 需求的专用 :::no-loc text="Microsoft Teams Rooms"::: 工作区。
 
 如果需要创建新工作区，请按照在门户中创建工作区 :::no-loc text="Log Analytics"::: [一文 :::no-loc text="Log Analytics"::: 的说明 :::no-loc text="Azure"::: 进行操作](/azure/azure-monitor/learn/quick-create-workspace)
 
@@ -61,7 +61,7 @@ ms.locfileid: "57850307"
 
 :::no-loc text="Log Analytics"::: 仅从设置 :::no-loc text="Windows"::: 中指定的事件日志中收集事件。 对于每个日志，只会收集具有所选严重性的事件。
 
-需要配置为 :::no-loc text="Log Analytics"::: 收集监视设备和应用程序状态 :::no-loc text="Microsoft Teams Rooms"::: 所需的日志。 :::no-loc text="Microsoft Teams Rooms"::: 设备使用 **:::no-loc text="Skype Room System":::** 事件日志。
+需要配置 :::no-loc text="Log Analytics"::: 以收集监视设备和应用程序状态 :::no-loc text="Microsoft Teams Rooms"::: 所需的日志。 :::no-loc text="Microsoft Teams Rooms"::: 设备使用 **:::no-loc text="Skype Room System":::** 事件日志。
 
 若要 :::no-loc text="Log Analytics"::: 配置为收集 :::no-loc text="Microsoft Teams Rooms"::: 事件，请参阅 中的[ :::no-loc text="Windows"::: 事件日志数据源 :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
@@ -245,7 +245,7 @@ ms.locfileid: "57850307"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>创建显示 :::no-loc text="Microsoft Teams Rooms"::: 操作系统版本的磁贴
 
-1.  从 **库中&"** 按钮"，然后添加新磁贴。
+1.  从 **库中&"Donut"** 列表，然后添加新磁贴。
 2.  定义 **"常规"** 属性：<br>
     **组标题：** 操作系统详细信息<br>
     **新建组：** 已选择
@@ -269,7 +269,7 @@ ms.locfileid: "57850307"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>创建显示应用程序 :::no-loc text="Microsoft Teams Rooms"::: 版本的磁贴
 
-1.  从 **库中&"** 按钮"，然后添加新磁贴。
+1.  从 **库中&"Donut"** 列表，然后添加新磁贴。
 2.  定义 **"常规"** 属性：<br>
     **组标题：** :::no-loc text="Microsoft Teams Rooms"::: 应用程序详细信息<br>
     **新建组：** 已选择
@@ -335,7 +335,7 @@ ms.locfileid: "57850307"
 
 :::no-loc text="Azure Monitor"::: 当主机遇到问题时，可以 :::no-loc text="Microsoft Teams Rooms"::: 引发警报以通知管理员。
 
-:::no-loc text="Azure Monitor"::: 包括内置警报机制，该机制定期通过计划的日志搜索运行。 如果日志搜索结果与特定条件匹配，则创建警报记录。
+:::no-loc text="Azure Monitor"::: 包括内置警报机制，该机制定期运行计划的日志搜索。 如果日志搜索结果与特定条件匹配，则创建警报记录。
 
 然后，规则可以自动运行一个或多个操作，主动通知你警报或调用另一个进程。 警报的可能选项包括：
 -   发送电子邮件
@@ -354,7 +354,7 @@ ms.locfileid: "57850307"
 
 2. 导航到工作区 :::no-loc text="Log Analytics"::: ，选择 **"警报"，** 然后选择" **新建警报规则"**
 
-3. 选择 **"添加条件** "，然后选择" **自定义日志搜索"**
+3. 选择 **"添加条件** "，然后选择 **"自定义日志搜索"**
 
 4.  在"搜索查询"文本框中输入以下查询。<br>
     ```
@@ -372,7 +372,7 @@ ms.locfileid: "57850307"
 
 6. 配置评估设置，然后选择"完成 **"：** <br>
     **时间段 (分钟) ：60**<br>
-    **频率 (分钟数) ：60**<br>
+    **频率 (分钟) ：60**<br>
 
 7. 配置操作组：
     1.  选择 **"新建"**
@@ -489,7 +489,7 @@ Stop-Transcript
 ```
 
 > [!NOTE]
-> 可以在需要 [重新配置代理、 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/agent-manage) 将其移到其他工作区或修改初始安装后修改代理设置时，参阅管理和维护代理一文。
+> 可以在需要 [重新配置代理、 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/agent-manage) 将其移动到其他工作区或修改初始安装后修改代理设置时，参阅管理和维护代理一文。
 
 ## <a name="additional-solutions"></a>其他解决方案
 <a name="Solutions"> </a>

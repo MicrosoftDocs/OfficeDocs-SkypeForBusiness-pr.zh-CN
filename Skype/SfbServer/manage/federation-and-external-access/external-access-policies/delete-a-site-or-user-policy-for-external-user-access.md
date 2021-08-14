@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 可以删除"外部访问策略"页上"Skype for Business Server控制面板"中列出的任何站点或用户策略。
-ms.openlocfilehash: 79858592b8ba7dbcee692807bba3d2a472a8579cbc843ddeb96c25c811cc6df7
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 99daff71590c6296a7f3a68405726c2854afae1c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848677"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235497"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>删除外部用户访问的站点或用户策略
 
@@ -31,7 +31,7 @@ ms.locfileid: "57848677"
   - 将全局策略重置为默认设置。默认的全局策略设置拒绝任何外部用户访问。无法删除全局策略。
 
 
-可以删除"外部访问策略"页上"Skype for Business Server控制面板"中列出的任何站点或 **用户** 策略。 删除全局策略不会实际删除它，而只是将其重置为默认设置，其中不包括任何外部用户访问选项的支持。 有关重置全局策略的详细信息，请参阅 [重置外部用户访问的全局策略](reset-the-global-policy-for-external-user-access.md)。
+可以删除"外部访问策略"页上"Skype for Business Server控制面板"中列出的任何 **站点或用户** 策略。 删除全局策略不会实际删除它，而只是将其重置为默认设置，其中不包括任何外部用户访问选项的支持。 有关重置全局策略的详细信息，请参阅 [重置外部用户访问的全局策略](reset-the-global-policy-for-external-user-access.md)。
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>删除外部用户访问的站点或用户策略
@@ -49,7 +49,7 @@ ms.locfileid: "57848677"
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 删除WINDOWS POWERSHELL PIN 策略
 
-可以使用 Windows PowerShell cmdlet 删除外部Remove-CsExternalAccessPolicy策略。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
+可以使用 cmdlet 和 Windows PowerShell 删除Remove-CsExternalAccessPolicy策略。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>删除特定外部访问策略

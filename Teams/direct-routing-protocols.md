@@ -1,5 +1,5 @@
 ---
-title: 电话系统直接路由
+title: Teams电话系统直接路由：定义和 RFC 标准
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 直接路由协议
+description: 系统Microsoft 电话路由如何实现 RFC 标准协议。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 015b07f538ad33079bbe04649849d22bfebbfb081feb30cea154cb30f9f10fd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26178fa52105f43ce9f7f18c0058a2ead3ef1c02
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347168"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235337"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>直接路由 - 定义和 RFC 标准
 
@@ -64,10 +64,10 @@ ms.locfileid: "54347168"
 - [RFC 5245 Interactive Connectivity Establishment (ICE) 用于媒体旁路](https://tools.ietf.org/html/rfc5245)。  SBC 必须支持以下各项：
   - ICE Lite - Teams是完整的 ICE 客户端
   - [ICE 重启](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)。 有关 ICE 重启用例和示例，请参阅 ICE 重启：传输到不支持媒体旁路的终结点的媒体旁路呼叫   
-- [RFC RFC 5589 会话启动协议 (SIP) 呼叫控制 – 传输。](https://tools.ietf.org/html/rfc5589) 
+- [RFC RFC 5589 会话启动协议 (SIP) 呼叫控制 – 传输](https://tools.ietf.org/html/rfc5589)。 
 - [RFC 3960 ](https://tools.ietf.org/html/rfc3960)会话启动协议 (SIP) 中的 RFC 3960 早期媒体和铃声生成，请参阅第 3.1、Forking 和 3.2 部分：铃声生成 
 - [RFC 5389 会话遍历实用工具，适用于 NAT (STUN) ](https://tools.ietf.org/html/rfc5389)
-- [RFC 5766 使用围绕 NAT (TURN) 的中继进行遍历：中继扩展到 NAT (STUN) ](https://tools.ietf.org/html/rfc5766)
+- [RFC 5766 遍历使用围绕 NAT (TURN) 的中继：中继扩展到 NAT (STUN) ](https://tools.ietf.org/html/rfc5766)
 
 ### <a name="standards-applicable-to-support-conveying-location-information-to-e911-providers"></a>适用于支持向 E911 提供商传达位置信息的标准
 
@@ -75,12 +75,12 @@ ms.locfileid: "54347168"
 
 ### <a name="deviations-from-the-rfcs"></a>与 RFC 的偏差
 
-下表列出了 RFC 协议 (部分) 其中 Microsoft 对 SIP 或媒体堆栈的实现偏离标准：
+下表列出了 RFC 协议 (部分) 其中 Microsoft 对 SIP 或媒体堆栈的实现偏离了标准：
 
 | RFC 和节 | 说明 | 偏差 |
 | :---------------------  |:---------------------- |:-----------------------|
 | [RFC 6337，第 5.3 节媒体保留和恢复](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC 允许使用"a=inactive"、"a=sendonly"、"a=recvonly"来保持呼叫。 |SIP 代理仅支持"a=inactive"，并且不知道 SBC 是发送"a=sendonly"还是"a=recvonly"。
-| [RFC 6337，第 5.4 节"使用 c=0.0.0.0 接收 SDP 的行为](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) 要求代理能够接收连接地址为 0.0.0.0 的 SDP，在这种情况下，这意味着不应将 RTP 和 RTCP 发送到对等方。 | SIP 代理不支持此选项。 |
+| [RFC 6337 第 5.4 节"使用 c=0.0.0.0 接收 SDP 的行为](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) 要求代理能够接收连接地址为 0.0.0.0 的 SDP，在这种情况下，这意味着不应将 RTP 和 RTCP 发送到对等方。 | SIP 代理不支持此选项。 |
 
 ## <a name="operational-modes"></a>操作模式
 

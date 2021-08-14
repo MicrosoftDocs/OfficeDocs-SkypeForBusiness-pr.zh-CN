@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77b40518379fd0334bce54362b07d129efe6f1a9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 72f5f353f09df16512cefa3efc700fb254d8d1b385f76c5b3d3bd9e6030e7999
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116940"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328957"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -84,7 +84,7 @@ ms.locfileid: "51116940"
 
 1. 确保员工可充分访问 Internet 并具有足够的带宽来使用 Teams。 使用[为 Teams 准备贵组织的网络](prepare-network.md)中的指南来了解如何确保足够的带宽。
 
-   - 带宽受限将会影响 Teams 会议的音质。 为确保在低带宽条件下获得最佳会议体验，鼓励用户限制视频，并使用 PSTN 进行通话和会议音频。 
+   - 有限带宽可能会影响 Teams 会议中的音频质量。要确保在低带宽条件下获得最佳会议体验，请鼓励用户限制视频，并使用 PSTN 进行通话和会议音频。 
 
    - 请阅读这篇即时博客（2020 年 3 月 6 日）：[如何快速优化远程办公人员的 Microsoft 365 或 Office 365 流量并降低你的基础结构上的负载](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)。
 

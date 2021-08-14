@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: 了解如何在会议中管理会议策略Teams并使用它们来控制可供会议参与者用于用户安排的会议的功能。
-ms.openlocfilehash: 12ba479cd88da3f1c77e53750608817bdda40c1d2176e7055ed7d04cd8d29de7
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 4db3b935526daad03d3d51281944422b597cbc00
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850047"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234757"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>管理会议Microsoft Teams
 

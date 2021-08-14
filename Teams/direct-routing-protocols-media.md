@@ -17,12 +17,12 @@ f1.keywords:
 description: hHw Direct Routing 支持媒体旁路，同时为 ICE Lite 启用会话边界控制器。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15ec422b59cfb19e63acb0c8b2768792d0e4387dc3200db720ec9c0d8d00f67b
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c32838d282d6f5fff5eb1e85c36d78eee8828d41
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849527"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234567"
 ---
 # <a name="overview"></a>概述
 
@@ -38,13 +38,13 @@ ms.locfileid: "57849527"
 
 - 临时应答 (183) - 用于加快呼叫设置的被呼叫方终结点发送答案，并输入建立媒体流所需的候选项和密钥。 这是在用户可能从该特定被叫方实例 (200OK) 时完成。 使用分路时，调用方应已准备好接收多个临时答案。
 
-- Re-Invite – 具有 ICE 控制终结点选择的最终候选项的优惠。 这将具有 a=remote-candidate 属性，以解决处理多个分叉时的任何竞争条件。
+- Re-Invite - 具有 ICE 控制终结点选择的最终候选项的优惠。 这将具有 a=remote-candidate 属性，以解决处理多个分叉时的任何竞争条件。
 
 - Teams终结点 – 可以是媒体处理器 (传输中继) 服务器，Teams客户端。
 
 ## <a name="message-format"></a>消息格式
 
-基础Teams遵循 RFC 5245 for ICE-Lite。 这意味着所有 STUN 消息都将符合[RFC 5389。](https://tools.ietf.org/html/rfc5389)
+该Teams遵循 RFC 5245 for ICE-Lite。 这意味着所有 STUN 消息都将符合[RFC 5389。](https://tools.ietf.org/html/rfc5389)
 
 RFC 5389 要求的 SDC 必须忽略它们无法识别的任何 STUN 属性，并继续处理具有已知属性的消息。 
 
@@ -61,7 +61,7 @@ SBC 只能提供一个可公开联系的候选项。 目前仅支持 IPV4 候选
 
 #### <a name="connectivity-checks"></a>连接性检查
 
-ICE Lite 实现必须响应收到的任何连接检查。 ICE Lite 终结点不得发送任何连接检查请求。  (如果违反连接检查，则完整实现将做出响应，这可能会导致意外的对等派生候选项被发现，并且可能会导致调用失败。) 
+ICE Lite 实现必须响应收到的任何连接检查。 ICE Lite 终结点不得发送任何连接检查请求。  (如果违反连接检查发送，则完整实现将做出响应，这可能会导致意外的对等派生候选项被发现，并且可能会导致调用失败。) 
 
 #### <a name="nominations"></a>提名
 
@@ -71,9 +71,9 @@ ICE 完整实现终结点将始终是控制终结点，并且将按照"常规"�
 
 #### <a name="converging-for-forking"></a>为分型聚合
 
-如果 SBC 中的产品/服务分叉到多个 Teams终结点，则Teams终结点可能会做出响应并启动连接检查。 SBC 必须准备好接收连接检查，并响应来自多个对等终结点的连接检查。 例如，Teams用户可以同时登录到桌面和移动电话。 两台设备都将收到入站呼叫的通知，并尝试使用 SBC 进行连接检查。
+如果 SBC 中的产品/Teams终结点，Teams终结点可能会做出响应并启动连接检查。 SBC 必须准备好接收连接检查，并响应来自多个对等终结点的连接检查。 例如，Teams用户可以同时登录到桌面和移动电话。 两台设备都将收到入站呼叫的通知，并尝试使用 SBC 进行连接检查。
 
-最终只有一个终结点会应答 (200OK) 。 收到 200OK 时，SBC 可以设置用于处理媒体数据包的合适上下文。
+最终，只有一个终结点会应答 (200OK) 。 收到 200OK 时，SBC 可以设置用于处理媒体数据包的合适上下文。
 
 ## <a name="scenarios"></a>方案
 
@@ -83,9 +83,9 @@ ICE 完整实现终结点将始终是控制终结点，并且将按照"常规"�
 
 - 服务器终结点通常使用 200OK 直接响应。 这些是通常在语音邮件、呼叫队列和自动助理方案中涉及的完整 ICE 终结点。
 
-- 客户端终结点可以发送多个临时答案，其"从/到"标记 (183) 后跟来自应答呼叫的终结点的 200OK。 这些是完整的 ICE 终结点，通常代表最终用户客户端。
+- 客户端终结点可以发送多个临时答案，其"从/到"标记 (183) 后跟来自应答呼叫的终结点的 200OK。 这些是完整 ICE 终结点，通常代表最终用户客户端。
 
-- 其他 SBC 终结点。 这些是 ICE Lite 终结点，通常涉及同时拨打客户端终结点和另一个电话号码 (呼叫) 。
+- 其他 SBC 终结点。 这些是 ICE Lite 终结点，通常涉及同时拨打客户端终结点和另一个电话号码 () 。
 
 SBC 必须响应从完整 ICE 终结点接收的所有有效连接检查请求。 根据 RFC，完整的 ICE 终结点将成为控制终结点。 客户端Teams (服务器) 将执行"常规"提名以完成连接检查。 最终的 200Ok 可以来自发送早期媒体的终结点，也可以来自其他终结点。 收到 200Ok 时，SBC 必须为媒体流设置正确的上下文。 
 
@@ -95,7 +95,7 @@ SBC 必须响应从完整 ICE 终结点接收的所有有效连接检查请求�
 
 ### <a name="outbound-call-to-sbc"></a>对 SBC 的出站调用
 
-Teams终结点是此方案的调用方，将是控制终结点。 收到临时答案 (183) 或最终答案 (200OK) 时，Teams 终结点将启动连接检查并继续进行"常规"提名以完成连接检查。
+Teams终结点是此方案的调用方，将是控制终结点。 收到临时答案 (183) 或最终答案 (200OK) 时，Teams 终结点将开始连接检查，并继续进行"常规"提名以完成连接检查。
 
 注意：如果 SBC 发送临时答案 (183) ，则 SBC 必须准备好接收连接检查请求，并有可能在 SBC 发送 200OK 之前完成提名。 如果在收到 200OK 之前已完成检查和/或提名，则 200OK 收到后，将不会再次执行检查和/或提名。 SBC 不得更改 ICE 候选项、密码和 ufrag (183) 200 之间的用户名片段。
 
@@ -103,7 +103,7 @@ Teams终结点是此方案的调用方，将是控制终结点。 收到临时�
 
 ## <a name="srtp-support-requirements"></a>SRTP 支持要求
 
-SBC 必须支持 SRTP 加密AES_CM_128_HMAC_SHA1_80以下格式提供和应答：
+SBC 必须支持 SRTP 加密密码AES_CM_128_HMAC_SHA1_80以下格式提供和应答：
 
 ```console
 "inline:" <key||salt> ["|" lifetime]
@@ -153,7 +153,7 @@ a=rtcp-mux
 
 ```
 
-## <a name="format-for-offer-from-teams-to-sbc"></a>产品/服务的格式Teams SBC 
+## <a name="format-for-offer-from-teams-to-sbc"></a>产品/服务从 Teams 到 SBC 的格式 
 
 ### <a name="format-for-sdes-only-offer-to-sbc"></a>仅适用于 SBC 的 SDES 产品/服务的格式
 

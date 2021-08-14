@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何在 Android 设备上远程预配Teams登录
-ms.openlocfilehash: b0c2658bac556febb9a4289fc5053c38feec32c343901ee679a744641f9f1144
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何对 Android 设备进行远程预配Teams登录
+ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337970"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235377"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 设备的远程预配Teams登录
 
@@ -43,10 +43,12 @@ IT 管理员可以远程预配和登录到 Teams Android 设备。 若要远程�
 |Teams手机|  Poly Trio C60|  7.0.2.1071|
 |Teams手机|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams手机|  音频代码 C448HD/C450HD/C470HD|   1.10.120|
+|Teams面板|  Crestron 770/1070|  1.004.0115|
+
 
 ## <a name="add-a-device-mac-address"></a>添加设备 MAC 地址
 
-完成以下步骤来预配新设备。
+完成以下步骤以预配新设备。
 
 1. 登录到 Teams 管理中心。
 2. 展开 **"设备"。**

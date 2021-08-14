@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76348dcbc71c706915db3d8ad9a21e65ad6abdd7d661a8bace6c6e6d349ae116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d12f09fe5043093b55e57d32bb70d9c332157511
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292879"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234427"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -29,18 +29,18 @@ ms.locfileid: "54292879"
 > Microsoft 365 E3/E5 和 Microsoft 365 A3/A5 中提供了仅查看广播。 该功能将于 2021 年 3 月 1 日启用，默认为“关闭”。 Microsoft 365 政府社区云 (GCC) 中的该功能将于 2021 年 3 月底开始推出。 政府社区云高 (GCCH) 和国防部 (DoD) 将在日后推出。 如果想让该功能默认为 “启动”，必须在该日期之后更改默认策略。 使用 PowerShell 启用策略 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`。
 
 > [!Note]
-> 如果会议达到容量，Teams无缝缩放，以容纳 10，000 人仅查看的直播体验。 另外，在这个远程工作增加的时期，利用更大规模的 20,000 人广播到今年年底。
+> 如果会议达到容量，Teams无缝缩放，以容纳 10，000 人仅查看的直播体验。 另外，在这个远程工作增加的时期，利用更大规模的 20,000 人广播到今年年底。 网络研讨会目前不支持仅查看广播体验。
 
-Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达到主会议的容量后 (1000 个用户进入会议) ，其他与会者将加入仅查看体验。
+Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达到主会议容量后 (1000 个用户进入会议) ，其他与会者将加入仅查看体验。
 
-首先加入会议的与会者（最多为主会议的容量）将获得完整的Teams体验。 他们可以共享音频和视频、查看共享视频、并参与会议聊天。
+首先加入会议的与会者（最多是主会议的容量）将获得完整的Teams体验。 他们可以共享音频和视频、查看共享视频、并参与会议聊天。
 
 在达到主会场容量后加入的与会者将有仅查看体验。
 
-与会者可以通过 Android 和 iOS Teams桌面、Web 和 (加入仅) 。
+与会者将能够使用 Android 和 iOS) 通过桌面、Web 和 Teams 移动设备加入 (体验。
 
 > [!Note]
-> "主会议"的当前限制容量（换句话说，完全交互式用户数）为 1000，包括GCC。
+> "主会议"（换句话说，完全交互式用户数）的当前限制为 1000，包括GCC和网络研讨会。
 
 ## <a name="teams-view-only-experience-controls"></a>Teams仅查看体验控件
 
@@ -65,7 +65,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-将来，你将能够在管理中心启用或禁用仅Teams体验。
+将来，你将能够在管理中心启用或禁用Teams体验。
 
 ## <a name="impact-to-users"></a>对用户的影响
 

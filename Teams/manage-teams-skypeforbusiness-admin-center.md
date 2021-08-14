@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: 了解如何在从 Teams 管理中心中的 Teams 转换Microsoft 365 管理中心管理中心期间管理租户范围Teams用户设置。
+description: 了解如何在从 Teams 中心转换到新的 Microsoft 365 管理中心 管理中心Teams租户范围和Teams设置。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: ef613b992f11ca8ab53ed03292480021c554661c701efc60e5eaa2e9f0206f76
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 83066f98eac9efd22558848b8ae12a06ff1e5d5b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850107"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235307"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "57850107"
 
 ## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>设置迁移到新的 Microsoft Teams 管理中心
 
-下表标识了已迁移Teams体验的各个部分，并显示了当前设置与新管理门户中的策略之间的关系。
+下表标识了已迁移的 Teams部分，并显示了当前设置与新管理门户中的策略之间的关系。
 
 |Teams 中的Microsoft 365 管理中心  |将名称 (租户级别)   |Microsoft Teams管理中心策略   |级别：租户或用户   |
 |---------|---------|---------|---------|
@@ -77,7 +77,7 @@ ms.locfileid: "57850107"
 |消息传递     |允许用户删除自己的消息         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |用户         |
 |消息传递     |允许用户私下聊天         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |用户         |
 
-<sup>1</sup> 已弃用来宾。 现在可以在管理中心内管理启用/Microsoft Teams来宾。 很快将弃Teams/禁用 Enterprise for Business Enterprise、Edu Student 和 Edu 教职员工。 这应该通过向用户分配许可证Microsoft 365 管理中心。 请参阅[管理用户对 Microsoft Teams](user-access.md)的访问权限。
+<sup>1</sup> 已弃用来宾。 现在可以在管理中心管理启用/Microsoft Teams来宾。 启用/禁用 Teams for Business Enterprise、Edu Student 和 Edu 教职员工很快将被弃用。 这应该通过向用户分配许可证Microsoft 365 管理中心。 请参阅[管理用户对 Microsoft Teams](user-access.md)的访问权限。
 <br><br>
 <sup>2</sup> 旁加载拆分如下：
 
@@ -87,11 +87,11 @@ ms.locfileid: "57850107"
 <sup>3</sup> 可以在 TeamsAppPermissionPolicy 的用户级别启用和禁用默认应用和外部应用。 此外，可以在组织范围的应用设置中在租户级别阻止应用，从而覆盖任何用户和租户级别的设置。
 
 > [!NOTE]
-> 对于与组和频道相关的Microsoft 365 管理中心，将继续使用Teams仪表板。 设置应用的应用将保留在Teams的"Microsoft 365 管理中心"区域中，稍后将迁移。
+> 对于与组和频道相关的Microsoft 365 管理中心，将继续使用Teams仪表板。 设置应用"将保留在Teams的"Microsoft 365 管理中心"区域中Microsoft 365 管理中心以后迁移。
 
 ## <a name="manage-settings-during-the-migration"></a>在迁移过程中管理设置
 
-在租户完成分区的迁移Microsoft 365 管理中心，可以继续修改Skype for Business管理中心中的设置。
+在租户完成分区的迁移Microsoft 365 管理中心，可以继续Skype for Business和管理中心中的设置。
 
 下表显示了在迁移过程中可以管理功能的地方。
 

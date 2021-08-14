@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何在委内瑞拉拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: f1dca1950854c5fc8b78b97fea3278018062f243
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e00830c9ee740ddd1108bc4952cff9349ba7c13d1b47edc7a7c8f9dd0bb9f84e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330836"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>巴拿马的免费拨号限制
 
@@ -44,7 +44,7 @@ ms.locfileid: "51097848"
 |涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |未涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |有线/固定线路可用性  <br/> |仅限 C&amp;W。  <br/> |
-|移动网络可用性  <br/> |不支持  <br/> |
+|移动网络可用性  <br/> |弱  <br/> |
 |注释、限制和访问问题  <br/> |客户必须拨打 011 (收费号码之前拨打国际长途) 代码。  <br/> |
    
 ## <a name="related-topics"></a>相关主题

@@ -1,5 +1,5 @@
 ---
-title: 面向教育版管理员的 Microsoft Teams 资源
+title: 开始使用 Microsoft Teams 进行远程学习
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a312a15af363fc796f88d5743950ea97c300a35422a691a2d00406d922f74dbd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9562deeb7ec2cf4225d80c723d093c3e40e814dc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319815"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234247"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -215,7 +215,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 #### <a name="manual-team-creation"></a>初始团队创建
 
-当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 按[此处](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)查看教师设置自己的班级类型团队并邀请学生。 教师可以通过[将学生添加到团队](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[共享加入代码](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)或[共享指向团队的链接](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)来邀请学生。 如果可能，最好让教师将学生添加到团队，以确保学生获得访问权限并收到其已添加到团队的通知。
+当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 按[此处](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)查看教师设置自己的班级类型团队并邀请学生。 教师可以通过[将学生添加到团队](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[共享加入代码](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)或[共享指向团队的链接](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)来邀请学生。 如果可能，最好让教师将学生添加到团队，以确保学生获得访问权限并收到其已添加到团队的通知。
 
 ##### <a name="benefits"></a>优点
 

@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公共预览版。尝试新增功能�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f60ac1ade0cc0c91cc07c389eef383271303be43c85166fed2502821468b6f9c
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c9e6ba763edd0791310d30f8dc1e71cccc8a4cf8
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848757"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235197"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 

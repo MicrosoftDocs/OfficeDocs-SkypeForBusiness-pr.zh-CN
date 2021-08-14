@@ -15,14 +15,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 了解如何配置对 SIP 联盟提供程序用户的支持。
-ms.openlocfilehash: 8d4c6224a66454f8fb28bb4f991faf6ad672f596
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823562"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336692"
 ---
-# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>在 Skype for Business Server 中管理组织的 SIP 联盟提供程序
+# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>在组织中管理组织的 SIP 联盟Skype for Business Server
 
 要配置对 SIP 联盟提供程序用户的支持，需要执行以下操作：
 
@@ -32,22 +32,22 @@ ms.locfileid: "49823562"
 
   - 指定要支持哪些公共 IM 提供程序
 
-## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>在 Skype for Business Server 中创建或编辑公共 SIP 联盟提供程序
+## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>创建或编辑公共 SIP 联盟Skype for Business Server
 
-公共即时消息 (IM) 连接使组织用户可以使用 IM 与公共提供商提供的 IM 服务的用户进行通信。
+公共即时消息 (IM) 连接使贵组织的用户能够使用 IM 与公共提供商提供的 IM 服务的用户进行通信。
 
-Skype for Business Server 具有用于即时消息的公共提供商配置。 每个公共提供程序均使用提供程序的边缘服务器完全限定域名和默认验证级别“仅允许用户与其联系人列表中使用此提供程序的人员进行通信”进行配置。
+Skype for Business Server即时消息的公共提供程序配置。 每个公共提供程序均使用提供程序的边缘服务器完全限定域名和默认验证级别“仅允许用户与其联系人列表中使用此提供程序的人员进行通信”进行配置。
 
-作为默认设置，将不启用任何公共提供程序。 您应先完成许可协议和设置工作，然后再启用公共提供程序。 您可以先启用提供程序，然后再完成许可和设置工作。 在完成首要工作之前，用户将无法与这些提供程序的联系人进行通信。 有关公共提供商的许可和设置的详细信息，请参阅配置 [策略以控制公共用户加入](../external-access-policies/configure-policies-to-control-public-user-access.md)。
+作为默认设置，将不启用任何公共提供程序。 您应先完成许可协议和设置工作，然后再启用公共提供程序。 您可以先启用提供程序，然后再完成许可和设置工作。 在完成首要工作之前，用户将无法与这些提供程序的联系人进行通信。 有关公共提供商的许可和设置的详细信息，请参阅配置 [策略以控制公共用户访问](../external-access-policies/configure-policies-to-control-public-user-access.md)。
 
 使用以下过程可创建或编辑公共提供程序。
 
 
 ### <a name="to-create-or-edit-public-providers"></a>创建或编辑公共提供程序
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
 3.  在左侧导航栏中，单击“联盟和外部访问”，然后单击“SIP 联盟提供程序”。
 
@@ -61,7 +61,7 @@ Skype for Business Server 具有用于即时消息的公共提供商配置。 �
     
       - **提供程序名称**   必需属性，键入此提供程序的名称，因为 SIP 联盟提供程序的列表中将反映此名称。
     
-      - **访问边缘服务 (FQDN) ：**   必需属性，键入要配置的提供商的访问边缘服务的完全限定域名。 此信息作为默认项提供，并且应仅在公共提供商对公共提供商的访问边缘服务的 FQDN 进行更改时进行更改。
+      - **访问边缘服务 (FQDN)**    必需属性，键入您正在配置的提供程序的访问边缘服务的完全限定域名。此信息作为默认项提供，并且只应在公共提供程序更改其访问边缘服务的 FQDN 时被更改。
     
       - **默认验证级别**   默认设置“允许用户与其联系人列表中使用此提供程序的人员进行通信”将只允许与您接受的且位于您的联系人列表中的联系人进行通信。
         
@@ -69,9 +69,9 @@ Skype for Business Server 具有用于即时消息的公共提供商配置。 �
 
 7.  配置完这些设置后，请单击“提交”以进行保存，或单击“取消”以放弃更改。
 
-## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>在 Skype for Business Server 中创建或编辑托管 SIP 联盟提供程序
+## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>在网站创建或编辑托管 SIP 联盟Skype for Business Server
 
-托管提供商即时消息 (IM) 连接使组织用户可以使用 IM 与托管提供商提供的 IM 服务的用户进行通信。
+托管提供商即时消息 (IM) 连接使贵组织的用户能够使用 IM 与宿主提供商提供的 IM 服务的用户进行通信。
 
 使用提供程序的边缘服务器的完全限定域名以及默认验证级别 **仅允许用户与其联系人列表上使用此提供程序的人员进行通信** 来配置每个托管提供程序。
 
@@ -79,9 +79,9 @@ Skype for Business Server 具有用于即时消息的公共提供商配置。 �
 
 ### <a name="to-create-or-edit-hosted-providers"></a>创建或编辑托管提供程序
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或已分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
 3.  在左侧导航栏中，单击“联盟和外部访问”，然后单击“SIP 联盟提供程序”。
 
@@ -95,7 +95,7 @@ Skype for Business Server 具有用于即时消息的公共提供商配置。 �
     
       - **提供程序名称**   必需属性，键入此提供程序的名称，因为 SIP 联盟提供程序的列表中将反映此名称。
     
-      - **访问边缘服务 (FQDN) ：**   必需属性，键入要配置的托管提供商的访问边缘服务的完全限定域名。 此信息应由托管提供商提供，并且只有在托管提供商对托管提供商的访问边缘服务的 FQDN 进行更改时才能更改。
+      - **访问边缘服务(FQDN):**    这是一个必需属性，键入您正在配置的托管提供程序的访问边缘服务的完全限定域名。此信息应由托管提供程序提供，并且只应在托管提供程序对托管提供程序处的访问边缘服务的 FQDN 进行了更改时才改变。
     
       - **默认验证级别:**    默认设置“允许用户与其联系人列表上使用此提供程序的人员进行通信”将通信限制在您已接受并位于您的联系人列表中的联系人。
         
@@ -107,7 +107,7 @@ Skype for Business Server 具有用于即时消息的公共提供商配置。 �
 ## <a name="see-also"></a>另请参阅
 
 
-[配置策略以控制公共用户加入](../external-access-policies/configure-policies-to-control-public-user-access.md)
+[配置策略以控制公共用户访问](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 [启用或禁用联盟和公共 IM 连接](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 

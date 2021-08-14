@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
-description: “下一个跃点 FQDN”标识旧版边缘服务器将内部流量路由到的下一个跃点服务器。 键入此边缘服务器将内部流量路由到的下一个跃点服务器的完全限定的域名 (FQDN)，然后选择该服务器是“前端池”还是“控制器”。
-ms.openlocfilehash: 741ad8b959868179af86b7f66d9807941c7cc758
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: “下一个跃点 FQDN”标识旧版边缘服务器将内部流量路由到的下一个跃点服务器。键入此边缘服务器将内部流量路由到的下一个跃点服务器的完全限定的域名 (FQDN)，然后选择该服务器是“前端池”还是“控制器”。
+ms.openlocfilehash: 2f3578a8e8aa8554931a89842cb97adc7552a30e519c9e1eaa7a769a912e8116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835292"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336912"
 ---
 # <a name="legacy-merge-next-hop"></a>旧版合并下一跃点
  

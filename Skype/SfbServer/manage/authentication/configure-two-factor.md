@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 摘要：在部署中配置双重Skype for Business Server。
-ms.openlocfilehash: 304b8e288954e14b251bf17f628e3206b79aedb3888f957456fca9fafb59e0fc
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 128ae4fcc1a9e7cd9817e73539b1bf1290883a1d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590726"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234637"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>在客户端中配置双重Skype for Business Server
 
 **摘要：** 在客户端中配置双重Skype for Business Server。
 
-以下各节介绍为部署配置双重身份验证所需的步骤。 有关双重身份验证详细信息，请参阅为联机管理员启用Office 365多重身份验证[- 网格用户帖子](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
+以下各节介绍为部署配置双重身份验证所需的步骤。 有关双重身份验证详细信息，请参阅[Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>配置Enterprise根证书颁发机构以支持智能卡身份验证
 
@@ -58,9 +58,9 @@ ms.locfileid: "54590726"
 
     - 使用"读取/注册"权限添加单个用户 AD (允许) 用户 AD 帐户，或
 
-    - 添加一个安全组，其中包含具有读取/注册权限的 (允许) 智能卡用户，或者
+    - 添加一个安全组，其中包含具有读取/注册权限 (允许) 智能卡用户，或者
 
-    - 添加具有"读取/注册"权限的"域 (") "权限
+    - 添加具有"读取/注册"权限 (域) 组
 
 ## <a name="configure-windows-8-for-virtual-smart-cards"></a>配置Windows 8智能卡的组
 
@@ -87,7 +87,7 @@ ms.locfileid: "54590726"
 6. 从 TPM 管理控制台中，验证 TPM 规范版本是否至少为 1.2
 
     > [!NOTE]
-    > 如果您收到一个对话框，指出找不到兼容的信任平台模块 (TPM) ，请验证计算机是否具有兼容的 TPM 模块，以及它在系统 BIOS 中是否已启用。
+    > 如果您收到一个对话框，指出找不到兼容信任平台模块 (TPM) ，请验证计算机是否具有兼容的 TPM 模块，以及它在系统 BIOS 中是否已启用。
 
 7. 关闭 TPM 管理控制台
 
@@ -120,11 +120,11 @@ ms.locfileid: "54590726"
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>为用户注册智能卡身份验证
 
-1. 使用启用Windows 8的用户的凭据登录到Skype for Business工作站。
+1. 使用启用Windows 8的用户的凭据登录到 Skype for Business 工作站。
 
 2. 启动Internet Explorer。
 
-3. 浏览到证书 **颁发机构 Web 注册** 页 (例如 https://MyCA.contoso.com/certsrv) 。
+3. 浏览到证书 **颁发机构 Web 注册** (例如 https://MyCA.contoso.com/certsrv) 。
 
     > [!NOTE]
     > 如果你使用的是 Internet Explorer 10，可能需要在兼容模式下查看此网站。
@@ -133,7 +133,7 @@ ms.locfileid: "54590726"
 
 5. 接下来，选择"**高级请求"。**
 
-6. 选择 **"创建"，然后向此 CA 提交请求**。
+6. 选择 **"创建并提交对此 CA 的请求"。**
 
 7. 选择 **"证书模板****"部分下的**"智能卡用户"，然后使用下列值完成高级证书请求：
 
@@ -145,7 +145,7 @@ ms.locfileid: "54590726"
 
     - 对于 **"密钥** 用法 **"，Exchange (** 这是唯一可用于密钥) 。
 
-    - 对于 **"密钥大小"，** 输入 2048
+    - 对于 **"密钥大小**"，输入 2048
 
     - 确认 **已选择"自动密钥** 容器名称"
 
@@ -172,7 +172,7 @@ ms.locfileid: "54590726"
 
     > [!NOTE]
     >  如果证书请求失败并出现错误"此 Web 浏览器不支持生成证书请求"，则有三种可能的方法可以解决此问题：
-    >- 启用"兼容性视图"Internet Explorer。
+    >- 启用兼容性视图Internet Explorer。
     >- 启用"打开 Intranet 设置"选项Internet Explorer。
     >- 选择"选项"菜单中"安全"选项卡下的"将所有区域重置为Internet Explorer设置。
 
@@ -189,7 +189,7 @@ ms.locfileid: "54590726"
 
 2. 启动 Windows PowerShell。
 
-3. 从Windows PowerShell命令行运行以下命令：
+3. 在Windows PowerShell命令行中，运行以下命令：
 
   ```PowerShell
   add-pssnapin Microsoft.Adfs.PowerShell
@@ -205,7 +205,7 @@ ms.locfileid: "54590726"
 
 6. 展开 **"信任**  >  **关系信赖方信任"。**
 
-7. 验证是否为用户创建了新的Skype for Business Server。
+7. 验证是否为用户创建了新的信任Skype for Business Server。
 
 8. 通过运行以下命令，使用 Windows PowerShell为信赖方信任创建和分配颁发授权规则：
 
@@ -232,7 +232,7 @@ ms.locfileid: "54590726"
 
 11. 选择颁发 **授权规则** 选项卡并验证是否成功创建了新的授权规则。
 
-12. 选择" **颁发转换规则** "选项卡，并验证是否成功创建了新的转换规则。
+12. 选择颁发 **转换规则** 选项卡并验证是否成功创建了新的转换规则。
 
 ## <a name="configuring-ad-fs-20-to-support-client-authentication"></a>配置 AD FS 2.0 以支持客户端身份验证
 
@@ -276,7 +276,7 @@ ms.locfileid: "54590726"
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>配置Skype for Business Server身份验证
 
-下一节介绍如何配置Skype for Business Server以支持被动身份验证。 启用后，启用双重身份验证的用户需要使用物理或虚拟智能卡和有效 PIN 才能使用 Skype for Business 登录。
+下一节介绍如何配置Skype for Business Server以支持被动身份验证。 启用后，启用了双重身份验证的用户需要使用物理或虚拟智能卡和有效 PIN 才能使用 Skype for Business 客户端登录。
 
 > [!NOTE]
 > 强烈建议客户在服务级别为注册器和 Web 服务启用被动身份验证。 如果在全局级别为注册器和 Web 服务启用被动身份验证，则可能导致未使用受支持的桌面客户端登录的用户在组织范围内进行身份验证失败。
@@ -287,9 +287,9 @@ ms.locfileid: "54590726"
 
 ### <a name="to-create-a-custom-web-service-configuration"></a>创建自定义 Web 服务配置
 
-1. 使用管理员Skype for Business Server登录到 Skype for Business 前端服务器。
+1. 使用 Skype for Business Server 管理员帐户登录到 Skype for Business 前端服务器。
 
-2. 启动 Skype for Business Server命令行管理程序。
+2. 启动 Skype for Business Server 命令行管理程序。
 
 3. 从 Skype for Business Server 命令行管理程序命令行中，通过运行以下命令，为每个将启用被动身份验证的控制器、Enterprise 池和 Standard Edition 服务器创建新的 Web 服务配置：
 
@@ -312,7 +312,7 @@ ms.locfileid: "54590726"
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
   ```
 
-6. 通过运行以下 cmdlet 验证是否成功禁用了所有其他身份验证类型：
+6. 通过运行以下 cmdlet 验证所有其他身份验证类型是否成功禁用：
 
   ```PowerShell
   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
@@ -326,7 +326,7 @@ ms.locfileid: "54590726"
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>创建自定义代理配置
 
-1. 在 Skype for Business Server 命令行管理程序命令行中，通过运行以下命令为每个将启用被动身份验证的 Skype for Business Server 边缘池、Enterprise 池和 Standard Edition 服务器创建新的代理配置：
+1. 从 Skype for Business Server 命令行管理程序命令行中，为将运行以下命令启用被动身份验证的每个 Skype for Business Server 边缘池、Enterprise 池和 Standard Edition 服务器创建新的代理配置：
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -336,7 +336,7 @@ ms.locfileid: "54590726"
   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
-2. 通过运行以下命令验证是否成功禁用所有其他代理身份验证类型：
+2. 通过运行以下命令验证所有其他代理身份验证类型是否成功禁用：
 
   ```PowerShell
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth

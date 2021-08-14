@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ecc733c181e268dd6092f169e91d2f9acb4ee47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 989d1cbd469edac8a4d69c9b5ac18f2965ddf21e3d273411f740a82d4ab220f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117830"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330896"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>规划Microsoft 365政府 - GCC部署
 
@@ -110,7 +110,7 @@ Microsoft 365 政府 - GCC 环境符合美国政府对云服务（包括 FedRAMP
 
 在加入政府 - Microsoft 365后，GCC遵循如何推出 Microsoft Teams[中概述的建议部署Microsoft Teams。](./deploy-overview.md) 请务必与采用和更改管理团队和Teams合作。
 
-还可以与 [FastTrack 或](https://www.microsoft.com/fasttrack) 所选合作伙伴合作来载入服务。
+还可以与合作伙伴或[FastTrack](https://www.microsoft.com/fasttrack)合作，加入该服务。
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>第 7 步 为Teams和语音部署语音
 

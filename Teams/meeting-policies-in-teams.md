@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理会议策略设置。 使用策略设置来控制用户安排会议参与者可用的功能。
-ms.openlocfilehash: 02dd4cdca98f021230aed937317070ba1202d2969b185e624b6910a9dc19e298
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 92b43f305ed96b88eaeb30838742373599abda5a
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850097"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234847"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理 Teams 中的会议策略
 

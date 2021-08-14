@@ -18,12 +18,12 @@ description: 如何使用 PowerShell 在 Teams 中设置策略的示例，以控
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95b78b520b6978c85715e6dc1c1314ed279a305b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2b55589a3cabf1b696c1034ce4e20cd7a56af3444f7fa51e0f81f44430ead6bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328927"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
@@ -146,5 +146,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### <a name="related-topics"></a>相关主题
-- [设置 Teams 实时事件](set-up-for-teams-live-events.md)
+- [设置 Teams 直播活动](set-up-for-teams-live-events.md)
 - [Teams PowerShell 概览](../teams-powershell-overview.md)

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 了解如何在会议环境中管理常规会议Teams。
-ms.openlocfilehash: aaeabbb61879e9e96c6b887a90fb3814fd7a3c4f3462d5e4f943a58b5dfacc56
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850293"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235207"
 ---
 # <a name="meeting-policy-settings---general"></a>会议策略设置 - 常规
 
@@ -53,7 +53,7 @@ ms.locfileid: "57850293"
 
 ![截图显示了安排新会议的能力](media/meeting-policies-outlook-add-in.png)
 
-如果将其关闭，则当用户在 Outlook 中创建新会议时，无法安排Teams会议。 例如，在 Windows 上的 Outlook 中，**“新 Teams 会议”** 选项不会显示在功能区中。
+如果关闭此功能，用户在Teams会议时无法安排Outlook。 例如，在 Windows 上的 Outlook 中，**“新 Teams 会议”** 选项不会显示在功能区中。
 
 ## <a name="allow-channel-meeting-scheduling"></a>允许安排频道会议
 
@@ -96,7 +96,7 @@ ms.locfileid: "57850293"
 
 这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在 Teams 中安排私人会议。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
 
-请注意，如果 **关闭"允许** 安排私人会议"和"允许频道会议安排"，则"添加必需的与会者"和"添加频道"选项将禁用Teams。  默认情况下，此设置已启动。
+请注意，如果 **关闭"允许** 安排私人会议"和"**允许** 频道会议安排"，则"添加所需的与会者"和"添加频道"选项将禁用Teams。 默认情况下，此设置已启动。
 
 ## <a name="allow-meet-now-in-private-meetings"></a>允许在私人会议中立即开会
 

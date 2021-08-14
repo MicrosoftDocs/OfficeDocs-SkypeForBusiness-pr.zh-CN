@@ -1,5 +1,5 @@
 ---
-title: 直接路由本地媒体优化
+title: 为本地媒体优化配置直接路由Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,16 +16,16 @@ f1.keywords:
 description: 为直接路由配置本地媒体优化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b617ab6721b940756f1d2bc8c758f1eff39e38463dd01380bef9cebb48f09c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf370087d109ebd12da150af44d2f13b455f4f6e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318485"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235357"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>为直接路由配置本地媒体优化
 
-本地媒体优化的配置基于其他云语音功能常用的网络设置，例如Location-Based和动态紧急呼叫。 若要详细了解网络区域、网络站点、网络子网和受信任的 IP 地址，请参阅云 [语音功能的网络设置](cloud-voice-network-settings.md)。
+本地媒体优化的配置基于其他云语音功能常用的网络设置，例如Location-Based路由和动态紧急呼叫。 若要详细了解网络区域、网络站点、网络子网和受信任的 IP 地址，请参阅云 [语音功能的网络设置](cloud-voice-network-settings.md)。
 
 配置本地媒体优化之前，请参阅 [直接路由的本地媒体优化](direct-routing-media-optimization.md)。  
 
@@ -107,11 +107,11 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description
 
 本部分介绍如何为网络拓扑定义网络区域、网络站点和网络子网。
 
-所有参数都区分大小写，因此需确保使用与设置期间使用的大小写相同的大小写。   (例如，GatewaySiteID 值"越南"和"越南"将视为不同的站点。) 
+所有参数都区分大小写，因此需确保使用与设置期间使用的大小写相同的大小写。   (例如，GatewaySiteID 值"越南"和"越南"将视为不同的 sites.) 
 
 ### <a name="define-network-regions"></a>定义网络区域
 
-若要定义网络区域，请使用 New-CsTenantNetworkRegion cmdlet。 RegionID 参数是一个逻辑名称，表示区域地理位置，没有依赖关系或限制。 CentralSite <site ID> 参数是可选的。
+若要定义网络区域，请使用 New-CsTenantNetworkRegion cmdlet。 RegionID 参数是一个逻辑名称，表示区域地理位置，没有依赖关系或限制。 CentralSite `<site ID>` 参数是可选的。
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -147,7 +147,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
-以下示例定义三个网络子网，并使它们与三个网络站点关联：越南、印度尼西亚和新加坡：
+以下示例定义三个网络子网，并使它们与三个网络站点（越南、印度尼西亚和新加坡）关联：
 
 ```
 New-CsTenantNetworkSubnet -SubnetID 192.168.1.0 -MaskBits 24 -NetworkSiteID “Vietnam”
@@ -168,7 +168,7 @@ PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -M
    - 如果客户具有单个 SBC，则 -ProxySBC 参数必须是具有集中式中继方案的 $null 或 SBC FQDN 值 (Central S) BC。
    - -MediaBypass 参数必须设置为 $true 以支持本地媒体优化。
    - 如果 SBC 未设置 -BypassMode 参数，将不会发送 X-MS 标头。 
-   - 所有参数都区分大小写，因此需确保使用与设置期间使用的大小写相同的大小写。   (例如，GatewaySiteID 值"越南"和"越南"将视为不同的站点。) 
+   - 所有参数都区分大小写，因此需确保使用的大小写与设置期间使用的大小写相同。   (例如，GatewaySiteID 值"越南"和"越南"将视为不同的站点。) 
 
 以下示例使用"始终绕过"模式将三个 SDC 添加到 APAC 区域的网络站点越南、印度尼西亚和新加坡：
 
@@ -180,11 +180,11 @@ Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
-注意：若要确保在同时配置本地媒体优化和 Location-Based 路由 (LBR) 时不间断操作，必须通过将 GatewaySiteLbrEnabled 参数设置为每个下游 SBC 的 $true 来为 LBR 启用下游 SBC。  (代理 SBC.) 
+注意：若要确保在同时配置本地媒体优化和 Location-Based 路由 (LBR) 时不间断操作，必须通过将每个下游 SBC 的 GatewaySiteLbrEnabled 参数设置为 $true 来为 LBR 启用下游 SBC。  (代理 SBC.) 
 
 根据上述信息，直接路由将包括三个专有的 SIP 标头到 SIP 邀请和重新邀请，如下表所示。
 
-在邀请和邀请的直接路由中引入的 X-MS Re-Invites（如果已定义 BypassMode）：
+如果定义了 BypassMode，则直接路由邀请和Re-Invites引入的 X-MS 标头：
 
 | 标头名称 | 值 | 备注 | 
 |:------------|:-------|:-------|
@@ -262,7 +262,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 下图显示了使用 AlwaysBypass 模式的入站呼叫中的 SIP 阶梯，并且用户与 SBC 位于同一位置。
 
-![显示 SIP 阶梯的示意图](media/direct-routing-media-op-11.png)
+![显示 SIP 阶梯的示意图。](media/direct-routing-media-op-11.png)
 
 
 #### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>出站呼叫和用户是外部的始终绕过
@@ -274,7 +274,7 @@ AlwaysBypass |  外部 |  不适用 | 出站 |
 
 下图显示了使用 AlwaysBypass 模式的出站呼叫的 SIP 阶梯，用户是外部用户：
 
-![显示 SIP 阶梯的示意图](media/direct-routing-media-op-12.png)
+![关系图显示 SIP 阶梯。](media/direct-routing-media-op-12.png)
 
 下表显示了直接路由服务发送的 X-MS 标头：
 
@@ -294,7 +294,7 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 
 下图显示了具有 AlwaysBypass 模式的入站呼叫的 SIP 阶梯，并且用户是外部用户。
 
-![显示 SIP 阶梯的示意图](media/direct-routing-media-op-13.png)
+![再次显示 SIP 阶梯的图表。](media/direct-routing-media-op-13.png)
 
 
 ### <a name="only-for-local-users-mode"></a>仅适用于本地用户模式
@@ -320,9 +320,9 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |   内部 |与 SBC 相同   | 出站 |
 
-下图显示了具有 OnlyForLocalUsers 模式的出站调用，并且用户与 SBC 位于同一位置。 当用户与 SBC 位于同一位置时，此流显示在出站 [调用中](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
+下图显示了具有 OnlyForLocalUsers 模式的出站调用，并且用户与 SBC 位于同一位置。 当用户与 SBC 位于同一位置时，这是出站调用 [中显示的同一流](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
 
-![显示 SIP 阶梯的示意图](media/direct-routing-media-op-14.png)
+![图表再次显示 SIP 阶梯。](media/direct-routing-media-op-14.png)
 
 
 #### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>入站呼叫和用户位于 SBC 的同一位置，仅针对本地用户
@@ -333,7 +333,7 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 
 下图显示了具有 OnlyForLocalUsers 模式的入站调用，并且用户与 SBC 位于同一位置。 当用户与 SBC 位于同一位置时，此流与入站调用 [中所示的流相同](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
 
-![显示 SIP 阶梯的示意图](media/direct-routing-media-op-15.png)
+![另一个显示 SIP 阶梯的图表。](media/direct-routing-media-op-15.png)
 
 
 #### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>用户不与 SBC 位于同一位置，而是位于企业网络中，仅针对本地用户
@@ -347,7 +347,7 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 
 下图显示了具有 OnlyForLocalUsers 模式的出站调用，以及与 SBC 不在同一位置的内部用户。
 
-![显示 SIP 阶梯的示意图](media/direct-routing-media-op-16.png)
+![另一张图显示了 SIP 阶梯。](media/direct-routing-media-op-16.png)
 
 
 #### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>入站呼叫和用户是内部用户，但不与仅针对本地用户的 SBC 位于同一位置
@@ -356,9 +356,9 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers | 内部 |    不同于 SBC |    入站 |
 
-下图显示了具有 OnlyForLocalUsers 模式的入站呼叫，以及与 SBC 不在同一位置的内部用户。
+下图显示了具有 OnlyForLocalUsers 模式的入站调用，以及与 SBC 不在同一位置的内部用户。
 
-![显示 SIP 阶梯的示意图](media/direct-routing-media-op-17.png)
+![另一张显示 SIP 阶梯的图表。](media/direct-routing-media-op-17.png)
 
 
 

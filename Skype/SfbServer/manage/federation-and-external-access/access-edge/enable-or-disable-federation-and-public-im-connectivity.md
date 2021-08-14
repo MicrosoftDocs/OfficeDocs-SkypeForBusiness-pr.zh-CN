@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 要使具有受信任客户或伙伴组织帐户的用户（包括伙伴域用户和支持的公共即时消息 (IM) 提供商用户）能够与组织中的用户进行协作，必须具有联盟支持。
-ms.openlocfilehash: f9c7b4ee7a861bc395c8599283f8d993b25ef4774d9487263e334207e9e277c8
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 105ed8a4090835be22847aa1ce2cc9788af74b5d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849967"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234167"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>启用或禁用联盟和公共 IM 连接Skype for Business Server
 
@@ -35,7 +35,7 @@ ms.locfileid: "57849967"
 如果稍后要暂时或永久阻止联盟域用户访问，则可以为组织禁用联盟。可以使用本节中的过程为组织启用或禁用联盟用户访问，包括指定组织所支持的相应联盟选项。
 
 > [!NOTE]  
-> 为组织启用联盟只能指定运行访问边缘服务的服务器支持路由到联盟域。 只有至少再配置一个策略以支持联盟用户访问，联盟域中的用户才能参与组织中的 IM 或会议。 只有至少再配置一个策略以支持公共 IM 连接，公共 IM 服务提供商的用户才能参与组织中的 IM 或会议。 Skype for Business Server在配置提供路由信息的托管语音邮件策略之前，Skype for Business Server 无法使用托管 Exchange 服务为邮箱位于托管 Exchange 服务上的用户提供呼叫应答、Outlook Voice Access (（包括语音邮件) ）或自动助理服务。 有关配置与其他组织中联盟域用户通信的策略的详细信息，请参阅管理组织的 [SIP 联盟域](../sip-domains/manage-sip-federated-domains-for-your-organization.md)。 此外，如果要支持与 IM 服务提供商用户的通信，必须配置支持此类通信的策略，还必须配置对要支持的各个服务提供商的支持。 有关详细信息，请参阅   [管理组织的 SIP 联盟提供程序](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
+> 为组织启用联盟只能指定运行访问边缘服务的服务器支持路由到联盟域。 只有至少再配置一个策略以支持联盟用户访问，联盟域中的用户才能参与组织中的 IM 或会议。 只有至少再配置一个策略以支持公共 IM 连接，公共 IM 服务提供商的用户才能参与组织中的 IM 或会议。 Skype for Business Server 在配置提供路由信息的托管语音邮件策略之前，Skype for Business Server 无法使用托管 Exchange 服务为邮箱位于托管 Exchange 服务上的用户提供呼叫应答、Outlook Voice Access (（包括语音邮件) ）或自动助理服务。 有关配置与其他组织中联盟域用户通信的策略的详细信息，请参阅管理组织的 [SIP 联盟域](../sip-domains/manage-sip-federated-domains-for-your-organization.md)。 此外，如果要支持与 IM 服务提供商用户的通信，必须配置支持此类通信的策略，还必须配置对要支持的各个服务提供商的支持。 有关详细信息，请参阅   [管理组织的 SIP 联盟提供程序](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
 
 
 ## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>为组织启用或禁用联盟用户访问
@@ -67,7 +67,7 @@ ms.locfileid: "57849967"
 
 ## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用或禁用联盟和公共 IM Windows PowerShell连接
 
-联盟和公共 IM 连接也可使用 Windows PowerShell 和 Set-CsAccessEdgeConfiguration cmdlet 进行管理。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
+联盟和公共 IM 连接也可使用 Windows PowerShell 和 Set-CsAccessEdgeConfiguration cmdlet 进行管理。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
 
 ## <a name="to-enable-federation-and-public-im-connectivity"></a>启用联盟和公共 IM 连接
 

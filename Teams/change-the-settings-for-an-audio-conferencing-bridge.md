@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: 更改音频会议网桥设置，包括进入和退出通知、播放姓名或电话号码、音调，以及提示呼叫者录制其姓名。
-ms.openlocfilehash: 7609ac7639012eb29d6d6cab4b482c1502d27c51
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: eaa757a45c94d0dd6d01366db3039150dce057243709b30c711a7ca69963cbca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329287"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
@@ -77,7 +77,7 @@ ms.locfileid: "51102638"
     
   - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心在速度、简单性和工作效率方面具有许多优势，例如，一次对多个用户进行设置更改时。 请在以下主题中了解这些优点： 
+- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     

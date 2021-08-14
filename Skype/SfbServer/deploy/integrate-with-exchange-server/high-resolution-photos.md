@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中配置高分辨率照片的使用
+title: 配置高分辨率照片在Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,30 +13,30 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: 摘要：在 Exchange Server 2019、Exchange Server 2016、Exchange Server 2013 或 Exchange Online 和 Skype for Business Server 中配置高分辨率照片的使用。
-ms.openlocfilehash: f5cc44f9f390c1d3241e7fae68054754ff7b0f76
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：配置 Exchange Server 2019、Exchange Server 2016、Exchange Server 2013 或 Exchange Online 和 Skype for Business Server 中的高分辨率照片的使用。
+ms.openlocfilehash: 778603c2ae455fc20e3de6e6825c4cfe5b230eaa8b59323cbb7a25ff91bbca02
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330496"
 ---
-# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>在 Skype for Business Server 中配置高分辨率照片的使用
+# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>配置高分辨率照片在Skype for Business Server
  
-**摘要：** 在 Exchange Server 2019、Exchange Server 2016、Exchange Server 2013 或 Exchange Online 和 Skype for Business Server 中配置高分辨率照片的使用。
+**摘要：** 在 Exchange Server 2019、Exchange Server 2016、Exchange Server 2013 或 Exchange Online 和 Skype for Business Server 中配置对高分辨率照片的使用。
   
 在 Skype for Business Server 中，照片可存储在用户的 Exchange Server 2019、Exchange Server 2016、Exchange Server 2013 或 Exchange Online 邮箱中，允许照片大小最高为 648 像素 x 648 像素。 此外，Exchange Server可根据需要自动调整这些照片的大小以用于不同的产品。 通常，这意味着有三种不同的照片大小和分辨率：
   
-- 64 像素 x 64 像素，用于 Active Directory thumbnailPhoto 属性的大小。 如果将照片上传到Exchange Server，Exchange 将自动创建该照片的 64 x 64 像素版本，并更新用户的 thumbnailPhoto 属性。 但请注意，相反的情况并不成立：如果在 Active Directory 中手动更新 thumbnailPhoto 属性，用户的 Exchange 邮箱中的照片将不会自动更新。
+- 64 像素 x 64 像素，用于 Active Directory thumbnailPhoto 属性的大小。 如果将照片上传到Exchange Server，Exchange会自动创建该照片的 64 x 64 像素版本，并更新用户的 thumbnailPhoto 属性。 但请注意，相反的情况并不成立：如果在 Active Directory 中手动更新 thumbnailPhoto 属性，用户的 Exchange 邮箱中的照片将不会自动更新。
     
-- 96 像素 x 96 像素，用于 Microsoft Outlook 2013 Web App、Microsoft Outlook 2013、Skype for Business Web App 和 Skype for Business。
+- 96 像素 x 96 像素，用于 Microsoft Outlook 2013 Web App、Microsoft Outlook 2013、Skype for Business Web应用 和 Skype for Business。
     
-- 648 像素 x 648 像素，用于 Skype for Business 和 Skype for Business Web App Skype for Business Web App。
+- 648 像素 x 648 像素，用于Skype for Business Skype for Business Web应用 Skype for Business Web应用。
     
 > [!NOTE]
-> 如果你有资源，建议上传 648 x 648 照片;在任何 Office 2013 应用程序中提供最大分辨率和最佳图片质量。 每个大小为 648 x 648 且深度为 24 位的 JPEG 照片都会导致文件大小约为 240 KB。 这意味着，每四张用户照片将占用约 1 MB 的磁盘空间。 
+> 如果你有资源，建议上传 648 x 648 照片;在 2013 年 3 月的任何应用程序中提供最大分辨率和最佳图片Office质量。 每个大小为 648 x 648 且深度为 24 位的 JPEG 照片都会导致文件大小约为 240 KB。 这意味着，每四张用户照片将占用约 1 MB 的磁盘空间。 
   
-高分辨率照片（通过使用 Exchange Web 服务访问）可通过运行 Outlook 2013 Web App 的用户上载;仅允许用户更新自己的照片。 但是，管理员可以使用 Exchange 命令行管理程序 以及一系列类似如下的 Windows PowerShell 命令来更新任何用户的照片：
+运行 Exchange 2013 Web App 的用户可以上载高分辨率照片Outlook Web 服务;仅允许用户更新自己的照片。 但是，管理员可以使用命令行管理程序以及一系列Exchange命令行管理程序Windows PowerShell更新任何用户的照片：
   
 ```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
@@ -44,7 +44,7 @@ Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-上述示例中的第一个命令使用 cmdlet 读取文件文件C:\Photos\Kenmyer.jpg将数据存储在名为 $photo 的 `Get-Content` 变量中。 第二个命令使用 Exchange cmdlet 上载照片并将该照片附加到 `Set-UserPhoto` Ken Myer 的用户帐户。
+上述示例中的第一个命令使用 cmdlet 读取文件文件C:\Photos\Kenmyer.jpg将数据存储在名为 $photo 的 `Get-Content` 变量中。 第二个命令Exchange cmdlet 上载照片并将该照片附加到 `Set-UserPhoto` Ken Myer 的用户帐户。
   
 > [!NOTE]
 > 在此示例中，Ken Myer 的 Active Directory 显示名称将用作用户帐户标识。 也可以通过使用其他标识符（例如，用户的 SMTP 地址或其用户主体名称）来引用用户帐户。 有关详细信息，请参阅 Set-UserPhoto cmdlet [https://go.microsoft.com/fwlink/p/?LinkId=268536](/powershell/module/exchange/set-userphoto) 的文档。
@@ -55,12 +55,12 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-若要验证新照片已分配给用户帐户，Ken Myer 可以登录到 Skype for Business，选择 **选项，然后选择** 我的 **图片**。 新上载的照片应显示为 Ken 的个人照片。 此外，管理员可通过启动 Internet Explorer 并导航到与以下 URL 类似的 URL 来验证任何用户的照片：
+若要验证新照片已分配给用户帐户，Ken Myer 可以登录到 Skype for Business，选择 **选项，然后选择**"我的 **图片"。** 新上载的照片应显示为 Ken 的个人照片。 此外，管理员可通过启动 Internet Explorer 并导航到与以下 URL 类似的 URL 来验证任何用户的照片：
   
 ```console
 https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 
-如果管理员可以使用 Internet Explorer但用户无法在 Skype for Business 中查看其照片，则 Exchange Web 服务或 Exchange 自动发现服务可能存在连接问题。
+如果管理员可以使用 Internet Explorer但用户无法在 Skype for Business则可能是 Exchange Web 服务或 Exchange 自动发现服务存在连接问题。
   
-另请注意，在 Skype for Business 中提供此照片不需要其他配置。 相反，照片在上载并运行 `Set-UserPhoto` cmdlet 后会立即可用。
+另请注意，无需进行其他配置，此照片在Skype for Business。 相反，照片在上载并运行 `Set-UserPhoto` cmdlet 后会立即可用。

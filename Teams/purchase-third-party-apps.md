@@ -16,12 +16,12 @@ description: 了解如何在管理中心购买第三方Teams应用Microsoft Team
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5fa6c57b009ce7a7d6fef7ce1dd353ae32521a690fda254e469159cf0661dcd0
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c87b81fecd1e6624f8c36b1eebbe74a79994b7db
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849673"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235187"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>购买适用于 Teams 的第三方Teams
 
@@ -30,7 +30,7 @@ ms.locfileid: "57849673"
 
 Teams应用可免费安装，某些应用可能需要购买服务订阅，以体验应用的完整功能和范围。 这些服务订阅称为软件即服务 (SaaS) 产品/服务，可以通过[AppSource](https://appsource.microsoft.com/)购买，现在可以通过 Microsoft Teams 管理中心购买。
 
-管理[中心](manage-apps.md)中的"Microsoft Teams"页面是查看和管理组织Teams应用的地方。 例如，可以看到应用的组织级状态和属性、将新的自定义应用上载到组织的应用商店、在组织级别阻止或允许应用，以及管理组织范围内的应用设置。
+管理[中心中的](manage-apps.md)"Microsoft Teams"页面是查看和管理组织Teams应用的地方。 例如，可以看到应用的组织级状态和属性、将新的自定义应用上载到组织的应用商店、在组织级别阻止或允许应用，以及管理组织范围内的应用设置。
 
 在此处，还可以购买第三方应用为组织用户提供的服务的许可证。 表中的 **"** 许可证"列指示应用是否提供 SaaS 订阅进行购买。
 
@@ -46,7 +46,7 @@ Teams应用可免费安装，某些应用可能需要购买服务订阅，以体
 3. 找到应用时，单击"立即 **购买** "转到应用详细信息 **页的** "计划和定价"选项卡。 查看应用的 SaaS 套餐的计划和定价信息。 如果你需要更多信息，请单击" **了解详细信息"** 链接以转到 [AppSource](https://appsource.microsoft.com/)上的应用页面。  
 4. 若要购买计划，请单击"立即 **购买"。** 将重定向到与应用关联的产品/Teams体验。 可在此完成对服务或 SaaS 产品/服务的购买。
 5. 选择想要的计划。 如果 SaaS 产品/服务包括多个计划，请单击" **更改** "以查看可用计划列表。
-6. 选择计费 **(每月或** 每年) ，然后输入要购买的用户许可证数。
+6. 选择计费期限 **(每月或** 每年) ，然后输入要购买的用户许可证数量。
 7. 输入你的付款方式。
 8. 准备就绪后，选择"下 **单"。**
 9. 单击 **"立即** 配置"，在发布者的网站上激活订阅。
@@ -60,7 +60,7 @@ Teams应用可免费安装，某些应用可能需要购买服务订阅，以体
 
 选择 **"管理** 许可证"转到Microsoft 365 管理中心以查看和管理购买的许可证以及管理用户的许可证分配。
 
-全局管理员可以查看组织中任何人的购买Teams服务管理员只能查看自己购买的购买。  
+全局管理员可以查看组织中任何人的购买，Teams管理员只能查看自己购买的购买。  
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>想要在 Teams 管理中心和 AppSource 中列出和销售的 Microsoft Teams SaaS 产品/服务？
 

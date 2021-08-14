@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解支持设备的要求Microsoft Teams 会议室，包括选择合适的设备、麦克风、扬声器、摄像头和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17f791298d86bfc6988899a2e090d0d11651e91558bc14c23d515c75ad91cce0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b0e7b0a80b188fb7b4abc5ba95473aa6e55f17c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348817"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234217"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -38,7 +38,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室房间
 > [!NOTE]
 > Microsoft Teams 会议室可登录到 Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015 或 Skype for Business Online，并且可参加由任何这些服务主持的会议。
 >
-> Microsoft Teams 会议室不支持 Lync Server 2013 等早期平台。 Microsoft Teams 会议室由世纪Microsoft 365或 DoD Office 365或运营的云中不支持。
+> Microsoft Teams 会议室不支持 Lync Server 2013 等早期平台。 Microsoft Teams 会议室由世纪Microsoft 365或 doD Office 365或运营的云中不支持。
 >
 > 如果你有本地 Exchange Server，则 Microsoft Teams 会议室需要使用 Exchange Server 2013 SP1 或更高版本。
 
@@ -59,9 +59,9 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室房间
   |[将 Crestron Flex UC-MX150-T 与 Intel NUC 一起](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 GB |128 GB |
    [将 Crestron Flex UC-B160-T 与 Intel NUC 一起](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
   |[将 Crestron Flex UC-C160-T 与 Intel NUC 一起](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
-  |[使用 UC 演示发射器和 ASUS 电脑 (UC-PR) Flex UC-MMX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|Core i5|8 GB |128 GB |
+  |[将 Crestron Flex UC-MMX30-T 与 UC 演示发射器 (UC-PR) ASUS 电脑](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|Core i5|8 GB |128 GB |
   |[将 UC 演示发射器与 UC-PR (和 ASUS 电脑) 的 Crestron Flex UC-BX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T)|Core i5|8 GB |128 GB |
-  |[将 Crestron Flex UC-CX100-T 与 UC 演示发射器 (UC-PR) ASUS 电脑](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5|8 GB |128 GB |
+  |[将 UC 演示发射器和 UC-PR (和 ASUS 电脑) 的 Crestron Flex UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5|8 GB |128 GB |
   |[将 Crestron Flex UC-B30-T 与 ASUS 电脑一起](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B30-T)|Core i5|8 GB |128 GB |
    |[将 Crestron Flex UC-C100-T 与 ASUS 电脑一起](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)|Core i5|8 GB |128 GB |
    |[将 Crestron Flex UC-M50-T 与 ASUS 电脑一起](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T)|Core i5|8 GB |128 GB |
@@ -75,6 +75,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室房间
   |[HP 切片合作伙伴 Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
+  |Lenovo ThinkSmart Core Kit |Core i5|8 GB|128 GB|
   |[Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap 和 Intel Tiger Canyon NUC 电脑 |Core i5|8 GB|128 GB|
   |[Logitech Tap 和 Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
@@ -189,6 +190,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室房间
 |[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 Ceiling Microphone]() +</br> [QSC EnergyStar Power 放大版 SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS 系列网络交换机 NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC 柱面装入扬声器 AD-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) +</br> [QSC PTZ 20x60 相机](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |Q-sys Designer：8.4.0.1 </br> <br> TCC2：1.5.1 Dante 1.2.0 </br>  <br> 不适用 </br>  <br>N1100v6.4.2.8 </br> 不适用 </br> <br> 6.3.2.2|
 |[QSC Q-SYS Core 8 Flex 处理器](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) +</br> [QSC PTZ 20x60 相机](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [Sennheiser TCC2 Ceiling Microphone](https://sennheiser.com/tcc2) +</br> [QSC Ceiling Speaker AD-C6T-LP](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c6t-lp/) |QSC PTZ IP 20x60 相机：9.0 </br> QSC Q-SYS Core 8-Flex：Q-SYS Designer 9.0.1-2104.002 </br> QSC Q-SYS Nano：Q-SYS Designer 9.0.1-2104.002 </br> Sennheiser TCC2 Ceiling Microphone： TCC2 - 1.5.1 Dante 1.2.0 </br> SPA 系列 EnergyStar Energys：N/A </br> AcousticDesign 系列扬声器：N/A|
 |[QSC Q-SYS Core Nano 处理器](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) +</br> [QSC PTZ 20x60 相机](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [Sennheiser TCC2 Ceiling Microphone](https://sennheiser.com/tcc2) +</br> [QSC Ceiling Speaker AD-C6T-LP](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c6t-lp/) |QSC PTZ IP 20x60 相机：9.0 </br> QSC Q-SYS Core 8-Flex：Q-SYS Designer 9.0.1-2104.002 </br> QSC Q-SYS Nano：Q-SYS Designer 9.0.1-2104.002 </br> Sennheiser TCC2 Ceiling Microphone： TCC2 - 1.5.1 Dante 1.2.0 </br> SPA 系列 EnergyStar Energys：N/A </br> AcousticDesign 系列扬声器：N/A|
+|[QSC PTZ IP 12x72 相机](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [QSC Q-SYS NV-32-H 处理器](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/) +</br> [Sennheiser TCC2 Ceiling Microphone](https://sennheiser.com/tcc2) +</br> [QSC EnergyStar Power 放大 SPA2-60](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/spa2-60/) 或 [QSC CX-Q 2K4 网络设备](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-network-amplifiers/cx-q-series/cx-q-2k4/) +</br> [Q-SYS NS 系列网络交换机 NS-1108P Netgear M4250-10G2XF](https://www.qsc.com/solutions-products/q-sys-ecosystem/networking/ns-series-network-switches/) +</br> [AcousticDesign 系列扬声器](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/surface-mount/acousticdesign-series/) +</br> QSC Q-Sys I/O USB 桥 |QSC PTZ IP 12x72 相机：9.0 </br> Q-SYS Designer 9.0.1-2104.002 </br> TCC2 - 1.5.1 Dante 1.2.0 </br> QSC EnergyStar PowerSpa SPA2-60：N/A </br> QSC CX-Q 2K4 网络放大器：N/A </br> Q-SYS NS 系列网络交换机 NS-1108P Netgear M4250-10G2XF：N1100v6.4.2.8 </br> AcousticDesign 系列扬声器：N/A </br> QSC Q-Sys I/O USB 桥：Q-SYS Designer Software 9.0.1|
 
 
 &Dagger; 客户可以选择 Biamp/Sennheiser 为此捆绑包推荐的 Dante 界面或网络交换机。

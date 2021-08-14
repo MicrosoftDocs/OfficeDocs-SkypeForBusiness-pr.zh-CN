@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4024e62c90ef99f3280d5aec15cd718b3d2b6de
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: b5586b0d366c1e8a237212dde98b4c270f4de02d1830d0885b3f6fdd3b905e36
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796816"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330826"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>从本地Teams升级到 Skype for Business PSTN 注意事项
 

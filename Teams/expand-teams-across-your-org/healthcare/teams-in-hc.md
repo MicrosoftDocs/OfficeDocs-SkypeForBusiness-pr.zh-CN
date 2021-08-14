@@ -26,12 +26,12 @@ description: 了解 Microsoft Teams 括号、EHR 集成、第一线工作者系�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 110eaed40d3e1821ef78c4494238be81be4a382dd08286607af76ba9517eb4cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: be5f75af292000b108b665391c3b5398ed79bb2c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344037"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235027"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -63,7 +63,7 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 | [Teams 模板](#teams-templates-for-healthcare-organizations) | 创建包含设置、通道和预安装的应用的预定义模板，用于在医院、<3> <2> <3>或部门，或在医院内的多个帐户、频道和部门之间沟通和协作。 | 用户必须具有适当的许可证*。  |
 | [护理协调与协作](#care-coordination-and-collaboration) | 医师和教职员工可以在排程、文档、任务等进行内部协作。| 用户必须具有适当的许可证*。 |
 
-*支持 Office 365 A3、A5、E3 和 E5，以及 Microsoft 365 商业版标准版、A3、A5、E3 和 E5。 有关常规 Teams 许可详细信息，请参阅"管理 [Teams](../../user-access.md)。
+*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、Business Standard。 有关常规 Teams 许可详细信息，请参阅"管理 [Teams](../../user-access.md)。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虚拟访问和电子医疗保健记录 （EHR） 集成
 

@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 5489eec7d94e1914fd4211927d65705fea08daae9770d4ed8bf3165ebe75e553
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 如何启用和禁用匿名用户访问Skype for Business Server。
+ms.openlocfilehash: 4f7fb11e7b168922a4027e75703c164638dd1f2d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297238"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234387"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>启用或禁用匿名用户访问Skype for Business Server
 
@@ -52,21 +52,17 @@ ms.locfileid: "54297238"
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用或禁用匿名Windows PowerShell访问
 
-可以使用 **Set-CsAccessEdgeConfiguration** cmdlet Windows PowerShell匿名用户访问。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
+可以通过使用 Windows PowerShell **和 Set-CsAccessEdgeConfiguration** cmdlet 管理匿名用户访问。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 ## <a name="to-enable-anonymous-user-access"></a>启用匿名用户访问
 
-  - 要启用匿名用户访问，请将 **AllowAnonymousUsers** 属性的值设置为 True ($True)：
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - 要启用匿名用户访问，请将 **AllowAnonymousUsers** 属性的值设置为 True ($True)：<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>禁用匿名用户访问
 
-  - 要禁用匿名用户访问，请将 **AllowAnonymousUsers** 属性的值设置为 False ($False)：
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - 要禁用匿名用户访问，请将 **AllowAnonymousUsers** 属性的值设置为 False ($False)：<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>另请参阅
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

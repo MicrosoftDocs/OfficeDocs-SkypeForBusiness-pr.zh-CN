@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 无法完全删除全局策略。 使用 **全局** 策略上的"删除"选项仅将全局策略重置为默认设置，其中不包括任何外部用户访问选项的支持。
-ms.openlocfilehash: ebdd18d85570156a00cb4b31d36ec5660365223318ed748b799e9100c1deaaa5
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: a60516ce3eef125eb754d8d9635b3112d91d51dd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848667"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234817"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>重置外部用户访问的全局策略Skype for Business Server 
 
@@ -45,7 +45,7 @@ ms.locfileid: "57848667"
 5.  当系统提示您确认删除时，单击“确定”。此时会在页面顶部显示一条消息，通知您已重置全局策略。
 
 
-## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 重置全局Windows PowerShell策略
+## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 重置全局外部访问Windows PowerShell策略
 
 全局外部访问策略可以使用 Windows PowerShell 和 Remove-CsExternalAccessPolicy cmdlet 进行重置。 可以从命令行管理程序或远程Skype for Business Server命令行管理程序运行此 cmdlet Windows PowerShell。 
 

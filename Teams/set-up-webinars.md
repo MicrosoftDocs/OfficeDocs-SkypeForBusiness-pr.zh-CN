@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理会议网络研讨会Teams策略。
-ms.openlocfilehash: 14452b0caeee33f90b59f6581b6fccf4d5e0311b
-ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
+ms.openlocfilehash: 8386ef4ea9dd90d60cdc8c891461c3dc1a6b37ad4f3f7c47e42808e3c8f826a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926744"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330876"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中设置网络Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "52926744"
 可以将注册限制为仅组织内部用户，或者向租户内外的每个人开放注册。 默认情况下 **，WhoCanRegister** 已启用，并设置为"每个人 **"。** 如果要关闭会议注册，将 **AllowMeetingRegistration 设置为** **False。**
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** 必须设置为True，AllowMeetingRegistration **正常工作**。 此外，需要在"Microsoft 列表"中设置SharePoint。 有关详细信息，请参阅 Microsoft [列表的控件设置](/sharepoint/control-lists)。
+> **AllowPrivateMeetingScheduling** 必须设置为True，AllowMeetingRegistration **正常工作**。 此外，Microsoft Lists需要在 SharePoint 中设置。 若要了解有关详细信息，请参阅[控件的控件Microsoft Lists。](/sharepoint/control-lists)
 
 1. 打开会议注册
 
