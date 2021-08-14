@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 使用拓扑生成器安装数据库时，应用程序从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须使用 Windows PowerShell 命令行接口和 Install-CsDatabase cmdlet。
-ms.openlocfilehash: 92e0c8c0221fbd697ce59587ff4543d6cf7e119d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 916762135d89c242c00310e0f30e2acf10e3025a6f47175dac1a7988a06d5578
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101828"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343776"
 ---
 # <a name="create-database"></a>创建数据库
  
-拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 使用拓扑生成器安装数据库时，应用程序从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须改为使用 Windows PowerShell 命令行接口和 [Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet。
+拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 使用拓扑生成器安装数据库时，应用程序从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须使用 Windows PowerShell 命令行接口和[Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet。
   
 ### <a name="creating-a-database"></a>创建数据库
 

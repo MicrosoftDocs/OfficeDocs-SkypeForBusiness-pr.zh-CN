@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 摘要：为 System Center 2015 配置主管理服务器、System Center Operations Manager 和导入管理包Skype for Business Server包。
-ms.openlocfilehash: ed010eb8665a1d36644c2351f965398dcedaa014
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: c9a55c44dddbe542fc53e9e047d1309a02bacfaaceee04920d5b63a1f7e25e79
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725335"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343386"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>如何配置主管理服务器
 

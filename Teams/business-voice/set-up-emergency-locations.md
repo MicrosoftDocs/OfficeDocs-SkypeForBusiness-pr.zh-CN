@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解如何为紧急事件设置紧急Microsoft 365 商务语音。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8f740034a67e1f2199b5a18aa34d67e16df43e2
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: ade5e4d7ca978f2ed8690230e6a0636849155bc9da3a7602aa9d09710faa93d0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52907758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345509"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>步骤 1：设置业务语音紧急位置
 

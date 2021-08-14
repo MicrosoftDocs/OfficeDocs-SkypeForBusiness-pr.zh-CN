@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 编辑“复原”的设置并配置以下属性：
-ms.openlocfilehash: c53aa49771a7e2c1a239319901059dc5d22b7eaf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3a8fd98ac4b928eca8ce969c10b2de7410cbace623a09f5ef71de6e1a98b47a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343756"
 ---
 # <a name="registrar-sba-settings-expander"></a>注册器 SBA 设置扩展器
 

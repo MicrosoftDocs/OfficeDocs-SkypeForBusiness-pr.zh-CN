@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings 表包括用于指定是否（以及何时）自动从 CDR 数据库中删除过时的呼叫详细信息记录的信息。 请注意，还可通过运行以下命令从 Skype for Business Server 2015 中获取清除相关信息：
-ms.openlocfilehash: 2e834f64ca5500f8d8bab1d89fb263d2708fa60c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 80e8e19a8df9a6f597967a71430686fd399d9bb2e8647989a410845af5b66e0e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098658"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343206"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings 表
  
@@ -32,7 +32,7 @@ Get-CsCdrConfiguration
   
 此表在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**Id** <br/> |int  <br/> |主  <br/> |CDR 清除设置集的唯一标识符。  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||设置为 True 时 (1) Skype for Business Server 2015 将定期清除 CDR 数据库中的过时记录。 将每天在 PurgeHour 设置所指定的时间执行清除。 如果设置为 False (0)，则不会从数据库中自动清除记录。 默认值为 True。  <br/> |

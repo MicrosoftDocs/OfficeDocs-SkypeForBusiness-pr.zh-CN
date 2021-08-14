@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 访问边缘池内部 FQDN 用于内部用户与联盟、远程用户访问和公共 IM 连接的外部用户进行通信的各种方案。 如果旧版环境中部署了负载平衡边缘服务器，请输入内部负载平衡器的完全限定域名 (FQDN)。
-ms.openlocfilehash: 9e4446a89b1f8976db4d325175c3e760865ac118
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0bfbff4fcd04d0e2e202febe8601079364d4a02e966449242b1e87693c5634f9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827442"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342327"
 ---
 # <a name="legacy-merge-fqdn"></a>旧版合并 FQDN
  

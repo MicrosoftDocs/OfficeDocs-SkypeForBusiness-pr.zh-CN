@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: "\"报表\"仪表板显示组织中Microsoft 365或Office 365活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用 Skype for Business 设备使用情况报告来查看安装了 Skype for Business 应用并正在用于即时消息和会议的设备，包括基于 Windows 的操作系统和移动设备。 有关详细信息，请查看管理中心中的活动报告。"
-ms.openlocfilehash: d093e13a4f5895de2b31d00669e3aff3d28eee49
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f7a3269b19b2a051bfc6739b1c453bf33c7df1acf2976658a019e75c772d9223
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342677"
 ---
 # <a name="device-usage-report"></a>设备使用报告
 
@@ -38,7 +38,7 @@ ms.locfileid: "52238237"
 此报表以及其他Skype for Business一起提供有关在整个组织中使用的客户端/设备类型的详细信息。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。
   
 > [!NOTE]
-> 以管理员Skype for Business登录到管理中心时，可以看到所有Microsoft 365报表。 
+> 以管理员角色登录到 Skype for Business时，可以看到所有 Microsoft 365 管理中心。 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>如何访问设备Skype for Business报告
 

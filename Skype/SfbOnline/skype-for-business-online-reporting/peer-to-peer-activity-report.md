@@ -22,12 +22,12 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 4e46ef6c200ff82898b5a2c9cc89a512139d1404
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 29fad24fd9e6f3ea018b9e96f3390141c5281e3b72de91076495031a7e3486ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238227"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342627"
 ---
 # <a name="peer-to-peer-activity-report"></a>对等活动报告
 
@@ -40,7 +40,7 @@ ms.locfileid: "52238227"
 此报表以及其他Skype for Business一起提供有关整个组织活动的详细信息。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。 
   
 > [!NOTE]
-> 以管理员Skype for Business登录到管理中心时，可以看到所有Microsoft 365报表。 
+> 以管理员角色登录到 Skype for Business时，可以看到所有 Microsoft 365 管理中心。 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>如何获取 Skype for Business 对等活动报告
 

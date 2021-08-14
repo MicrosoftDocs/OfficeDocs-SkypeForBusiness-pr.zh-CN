@@ -14,28 +14,28 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
-description: 右键单击拓扑生成器中的持久聊天池以执行以下操作：
-ms.openlocfilehash: 974340d7e852525295cdf03838fc2164e8cacd3c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 右键单击拓扑生成器中的持久聊天池以执行下列操作：
+ms.openlocfilehash: 2d6d49548ad34b6015ef81be37639ede60192720ba9c6b59a24a711b470a1a0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343566"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>创建持久聊天服务器范围节点
  
-右键单击拓扑 **生成器中的** 持久聊天池以执行以下操作：
+右键单击拓扑 **生成器中的** 持久聊天池以执行下列操作：
   
-- **新建持久聊天池**：启动 **用于定义新的** 持久聊天服务器或池的"定义新的持久聊天池"向导。
+- **新建持久聊天池**： **启动用于定义** 新的持久聊天服务器或池的"定义新的持久聊天池"向导。
     
 除了“新的持久聊天池”选项之外，还可以执行以下常规任务：
   
 - **拓扑**。 可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的 Lync Server 的组件或删除部署。
     
-- **Help**. 可以使用此选项访问活动节点的“帮助”。
+- **帮助**。可以使用此选项访问活动节点的“帮助”。
     
 ## <a name="see-also"></a>另请参阅
 
-[在 Skype for Business Server 2015 中规划持久聊天服务器](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [将持久聊天服务器添加到 Skype for Business Server 2015 拓扑](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

@@ -1,5 +1,5 @@
 ---
-title: 将文件存储数据移动到 Skype for Business Server 中的新文件存储
+title: 将文件存储数据移动到文件存储中的Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 如果需要删除当前充当 Skype for Business Server 部署的文件存储的文件服务器，或者需要进行其他更改，使当前文件存储不可用，则首先需要创建新共享。 然后，您需要执行以下步骤：
-ms.openlocfilehash: a2870f024964a385852b7ecc781dbfb5647550b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 如果需要删除当前充当 Skype for Business Server 部署的文件存储的文件服务器，或者需要进行其他会使当前文件存储不可用的更改，则首先需要创建新的共享。 然后，您需要执行以下步骤：
+ms.openlocfilehash: 4e9a28fa1793e642fbf3407c6a6306a979fa287844a9862a55780f1bd1169f82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342477"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>将文件存储数据移动到 Skype for Business Server 中的新文件存储
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>将文件存储数据移动到文件存储中的Skype for Business Server
 
-如果需要删除当前充当 Skype for Business Server 部署的文件存储的文件服务器，或者需要进行其他更改，使当前文件存储不可用，则首先需要创建新共享。 然后，您需要执行以下步骤：
+如果需要删除当前充当 Skype for Business Server 部署的文件存储的文件服务器，或者需要进行其他会使当前文件存储不可用的更改，则首先需要创建新的共享。 然后，您需要执行以下步骤：
 
-1. 关闭使用计划删除的文件存储的 Skype for Business Server 服务。
+1. 关闭Skype for Business Server文件存储的共享服务。
 
 2. 在拓扑生成器中定义文件存储并发布更改，使新文件存储可供部署使用。
 
@@ -36,17 +36,17 @@ ms.locfileid: "51093300"
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>将文件存储数据从一个文件存储移动到新文件存储
 
-1. 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 组（其中安装了 Skype for Business Server 管理工具）的成员登录到计算机。
+1. 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 组（其中安装了 Skype for Business Server 管理工具）的成员登录计算机。
 
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“拓扑”，然后单击“状态”。
 
-4. 对于使用计划删除的文件存储的每个控制器池、控制器、Standard Edition Server 和前端池，选择服务器或池，单击"操作"，然后单击"停止 **所有服务"。**
+4. 对于使用计划删除的文件存储的每个控制器池、控制器、Standard Edition 服务器和前端池，选择服务器或池，单击 **"操作**"，然后单击"停止 **所有服务"。**
 
 5. 以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-6. 启动拓扑生成器 **：单击"** 开始"，单击"**所有程序"，** 单击 **"Skype for Business Server"，** 然后单击 **"Skype for Business Server 拓扑生成器"。**
+6. 启动拓扑生成器：单击"**开始"，单击**"所有程序"，Skype for Business Server"，然后单击"Skype for Business Server **拓扑生成器"。**  
 
 7. 选择使用文件存储的服务器或池，然后执行以下操作：
 
@@ -65,7 +65,7 @@ ms.locfileid: "51093300"
 
 13. 在 **"编辑属性**"中的 **"关联"下的**"**文件** 存储"中，选择新的文件共享，然后单击"确定 **"。**
 
-14. 发布拓扑，检查复制状态，然后根据需要运行 Skype for Business Server 部署向导。 有关详细信息，请参阅[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))。
+14. 发布拓扑，检查复制状态，然后根据需要Skype for Business Server部署向导。 有关详细信息，请参阅[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))。
 
 15. 启动命令提示符：单击 **"开始"，** 单击 **"运行**"，然后键入cmd.exe。
 

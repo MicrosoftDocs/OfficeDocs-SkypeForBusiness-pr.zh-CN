@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中使用监控仪表板
+title: 使用监控仪表板Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 摘要：了解 Skype for Business Server 中的监视仪表板。
-ms.openlocfilehash: 83a04a60e63deb39666ee4d042f74973b7d16d0b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：了解 Skype for Business Server 中的监控Skype for Business Server。
+ms.openlocfilehash: f731030d3534af9494a4d70d29b27cc8b3ec95bcd5eede97d3ab3c65c2a54b9f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345569"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>在 Skype for Business Server 中使用监控仪表板
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>使用监控仪表板Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中的监控仪表板。
+**摘要：** 了解 Skype for Business Server 中的监控Skype for Business Server。
   
-监控仪表板为管理员提供了 Skype for Business Server 系统运行状况和系统使用情况的快速概述。 仪表板旨在显示关键系统指标的聚合视图，并且通过显示以下任一项来实现此目标：
+通过监控仪表板，管理员可以快速概览其Skype for Business Server运行状况和系统使用情况。 仪表板旨在显示关键系统指标的聚合视图，并且通过显示以下任一项来实现此目标：
   
 - 当前天的总计。 请注意，当前天显示的值表示从午夜到当前时间记录的数据 (报告服务器记录的本地时间) 。 这意味着你通常会查看部分日期的数据，而不是 24 小时的数据。 例如，如果服务器的本地时间是上午 8：00，则会看到 8 个小时的数据，因为午夜和当前时间上午 8：00 之间有 8 个小时。
     
@@ -31,7 +31,7 @@ ms.locfileid: "51118601"
     
 - 当月总计和过去六个月的趋势总计 (系统使用情况) 。
     
-请注意，您可以使用 [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet 返回用于访问 Skype for Business Server 监控报告的 URL：
+请注意，您可以使用[Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet 返回用于访问监控报告Skype for Business Server URL：
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -41,7 +41,7 @@ Get-CsReportingConfiguration
   
 ## <a name="system-usage-metrics"></a>系统使用情况指标
 
- **Registration**
+ **注册**
   
 - 唯一用户登录
     
@@ -179,7 +179,7 @@ Get-CsReportingConfiguration
     
 - Word
     
-若要导出当前仪表板视图 (及其值) ，请单击所需的导出选项。 Skype for Business Server 生成指定格式的报告，然后为您提供打开或保存该报告的选项。 请注意，默认情况下，Skype for Business Server 将报告标题设置为"监控仪表板"，并保存到"下载"文件夹中。 若要为报表指定其他名称或将其存储在不同的文件夹中，请单击"保存"按钮旁边的箭头，然后单击"另 **存为"。** 如果名称监控仪表板和将报告保存在"下载"文件夹中，只需单击"保存 **"** 按钮即可。
+若要导出当前仪表板视图 (及其值) ，请单击所需的导出选项。 Skype for Business Server生成指定格式的报告，然后为您提供打开或保存该报告的选项。 请注意，默认情况下，Skype for Business Server报告 **的标题设置为"** 监控仪表板"，并保存到"下载"文件夹中。 若要为报表指定其他名称或将其存储在不同的文件夹中，请单击"保存"按钮旁边的箭头，然后单击"另 **存为"。** 如果名称监控仪表板和将报告保存在"下载"文件夹中，只需单击"保存 **"** 按钮即可。
   
 当您尝试导出仪表板数据时，可能会显示"安全警报"对话框以及消息"当前设置不允许下载此文件"。 如果发生这种情况，请执行下列操作：
   
@@ -187,12 +187,12 @@ Get-CsReportingConfiguration
     
 - 在 **"Internet 选项**"对话框中的"安全"选项卡上，单击"**受信任的** 站点"，然后单击"站点 **"。**
     
-- 在"**受信任的站点"** 对话框中，单击"添加"以将运行 Skype for Business Server 报表的 Skype for Business Server 添加到受信任网站的集合。
+- 在"**受信任的网站"** 对话框中，单击"添加"Skype for Business Server将运行"报告Skype for Business Server报告"添加到受信任网站的集合。
     
 - 单击 **"关闭**"，然后单击"确定 **"。**
     
 然后，您需要刷新监控仪表板，更改才能生效。 为此，请按 F5 或单击仪表板工具栏中的 **"** 刷新"图标。  (**刷新图标** 是一个圆形，其中有一对绿色箭头。) 
   
-还可以创建包含实时数据源的 Excel 电子表格，其中包含指向最新监控仪表板数据的链接。 若要创建实时数据馈送文件，请单击工具栏中的橙色 **"导出到数据源** "图标。
+您还可以创建一个Excel数据馈送的电子表格，其中包含指向最新监控仪表板数据的链接。 若要创建实时数据馈送文件，请单击工具栏中的橙色 **"导出到数据源** "图标。
   
 如果希望打印当前仪表板，请单击工具栏中的打印机图标。

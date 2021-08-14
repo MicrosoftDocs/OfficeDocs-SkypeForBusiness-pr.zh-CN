@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BPartActivity
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 012450cca19d34457d9b66598dec566e5a11b93d
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 75e19e665cef14c2b06202368948b0ab19e2836a987552634d72e84bf6e6527a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342687"
 ---
 # <a name="conference-participant-activity-report"></a>会议参与者活动报告
 
@@ -38,7 +38,7 @@ ms.locfileid: "52238247"
 此报告以及其他会议Skype for Business一起提供有关整个组织的会议活动的详细信息。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。
   
 > [!NOTE]
-> 以管理员Skype for Business登录到管理中心时，可以看到所有Microsoft 365报表。 
+> 以管理员角色登录到 Skype for Business时，可以看到所有 Microsoft 365 管理中心。 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>如何访问 Skype for Business 会议参与者报告
 

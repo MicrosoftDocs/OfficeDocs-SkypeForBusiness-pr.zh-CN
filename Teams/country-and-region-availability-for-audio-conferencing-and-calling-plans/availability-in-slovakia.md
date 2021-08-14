@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于斯洛伐克Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 696cf7220dcfbab66b67e9d5dcdb81f48b2ed930
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: b0b64e9d540b64a7c8b2d5147af80c7259ff7c6422cec01d4da00eb32e98fcc4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343046"
 ---
 # <a name="availability-in-slovakia"></a>在斯洛伐克的可用性
 

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
-description: 可通过视图轻松访问有关用于从 CDR 数据库返回数据的最常见方案的信息。 建议您使用视图来生成自定义报告，而不是使用实际的 CDR 数据库表;这是因为数据库视图更有可能保持与将来版本的向后兼容性。
-ms.openlocfilehash: 0a3b40c9b31bb521075e78a1a8d46479200249d5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 可通过视图轻松访问有关用于从 CDR 数据库返回数据的最常见方案的信息。 建议您使用视图来生成自定义报告，而不是使用实际的 CDR 数据库表;这是因为数据库视图更有可能保持与未来版本的向后兼容性。
+ms.openlocfilehash: 3e0598c33dac7fb139166a8dd9b82deed134a59e24d59cbe8c1884778cb627a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343236"
 ---
 # <a name="list-of-cdr-views"></a>CDR 视图列表
  
-可通过视图轻松访问有关用于从 CDR 数据库返回数据的最常见方案的信息。 建议您使用视图来生成自定义报告，而不是使用实际的 CDR 数据库表;这是因为数据库视图更有可能保持与将来版本的向后兼容性。
+可通过视图轻松访问有关用于从 CDR 数据库返回数据的最常见方案的信息。 建议您使用视图来生成自定义报告，而不是使用实际的 CDR 数据库表;这是因为数据库视图更有可能保持与未来版本的向后兼容性。
   
 |**视图名称**|**说明**|
 |:-----|:-----|
@@ -38,7 +38,7 @@ ms.locfileid: "49813152"
 |[Mcus 视图](mcus-0.md) <br/> |返回有关会议服务器的信息。  <br/> |
 |[媒体视图](media-0.md) <br/> |返回有关对等通信会话中使用的媒体类型的信息。  <br/> |
 |[ProgressReport 视图](progressreport-0.md) <br/> |返回有关已完成会话的信息。  <br/> |
-|[注册视图](registration-0.md) <br/> |返回有关使用 Skype for Business Server 2015 注册的信息。  <br/> |
+|[注册视图](registration-0.md) <br/> |返回有关在 Skype for Business Server 2015 中注册的信息。  <br/> |
 |[SessionDetails 视图](sessiondetails-0.md) <br/> |返回有关对等会话的信息，包括 VoIP-VoIP 电话呼叫、双方 IM 会话或其他对等通信会话。  <br/> |
 |[用户视图](user.md) <br/> |返回参与通信会话的用户的相关信息。  <br/> |
 |[VoIPDetails 视图](voipdetails.md) <br/> |返回至少包括一个 VoIP (Voice over IO) 用户的对等会话的相关信息。  <br/> |

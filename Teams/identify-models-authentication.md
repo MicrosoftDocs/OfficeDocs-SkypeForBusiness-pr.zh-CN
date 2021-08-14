@@ -18,12 +18,12 @@ description: 了解适用于云环境的不同标识Microsoft Teams，例如仅�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dff34a6a56294c8c62295e143f753777875bfbda
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cea02bf51c474e9be7aca205aa73fd9558f03ad104e5e1a1bde8f5ddc39e95ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342976"
 ---
 # <a name="identity-models-and-authentication-for-microsoft-teams"></a>标识模型和身份验证Microsoft Teams
 
@@ -43,8 +43,8 @@ Microsoft Teams支持可用于 Microsoft 365 和 Office 365 的所有标识模�
 
 |标识模式 |部署清单  |其他信息  |
 |---------|---------|---------|
-|全部     |<ol type="1"><li>比较Microsoft 365和Office 365选项，并获取订阅和租户。</li><li>为租户Microsoft 365 Office 365或组织。</li><li>为Microsoft 365 Office 365购买许可证或许可证</li><li>配置域和管理员用户帐户。</li></ol>  |<ul><li>[Office 365计划选项](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)</li><li>[比较Microsoft 365计划](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[购买或删除订阅许可证](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[向订阅添加许可证](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[为Microsoft 365设置服务](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[使用设置向导添加域](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li></ul><br>[Microsoft FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) 可为您提供帮助。  |
-|云标识     |<ul><li>使用管理中心Microsoft 365用户帐户</li></ul> |<ul style="list-style-type:none"><li>[添加用户并分配许可证](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul> |
+|全部     |<ol type="1"><li>比较Microsoft 365和Office 365选项，并获取订阅和租户。</li><li>为租户Microsoft 365 Office 365或组织。</li><li>为Microsoft 365 Office 365购买许可证或许可证</li><li>配置域和管理员用户帐户。</li></ol>  |<ul><li>[Office 365计划选项](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)</li><li>[比较Microsoft 365计划](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[购买或删除订阅许可证](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[向订阅添加许可证](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[为Microsoft 365设置服务](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[使用设置向导添加域](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li></ul><br>[Microsoft FastTrack](https://www.microsoft.com/fasttrack/microsoft-365)可为您提供帮助。  |
+|云标识     |<ul><li>使用帐户创建Microsoft 365 管理中心</li></ul> |<ul style="list-style-type:none"><li>[添加用户并分配许可证](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul> |
 |混合标识     |<ol type="1"><li>安装 Azure AD 连接。</li><li>配置目录同步。</li><li>使用 AD DS 工具管理用户和组。</li></ol> |<ul style="list-style-type:none"><li>[设置目录同步](/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
 |使用联合身份验证的混合标识    |<ol type="1"><li>安装和配置联合标识提供者，例如 AD FS。</li><li>安装 Azure AD 连接并配置目录同步和联合身份验证。</li><li>使用 AD DS 工具管理用户和组。</li></ol> |<ul><li>[规划 AD FS 部署](/previous-versions/azure/azure-services/dn151324(v=azure.100))</li><li>[清单：部署联合服务器场](/previous-versions/azure/azure-services/dn528856(v=azure.100))</li><li>[为 AD FS 配置 Extranet 访问](/previous-versions/azure/azure-services/dn528859(v=azure.100))</li><li>[在 AD FS 与 Azure AD 之间设置信任](/previous-versions/azure/azure-services/jj205461(v=azure.100))</li><li>[使用 ADFS 验证和管理单一登录](/previous-versions/azure/azure-services/jj151809(v=azure.100))</li><li>[设置目录同步](/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
 ||||

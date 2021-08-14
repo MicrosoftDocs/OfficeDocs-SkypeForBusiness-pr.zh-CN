@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中创建新的 PIN 策略
+title: 在"密码"中创建新的 PIN Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
-description: 摘要：在 Skype for Business Server 中创建新的 PIN 策略。
-ms.openlocfilehash: b0d1be74e509fbaddfc59250f4f5ce05a2021260
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：在"密码"中创建新的 PIN Skype for Business Server。
+ms.openlocfilehash: a4bacce5d6a3bcaae2d2c114b6b4dd7dfda5bf6147da4ba51c14abd4d10ed1d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828402"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345699"
 ---
-# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>在 Skype for Business Server 中创建新的 PIN 策略
+# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>在"密码"中创建新的 PIN Skype for Business Server
  
-**摘要：** 在 Skype for Business Server 中创建新的 PIN 策略。
+**摘要：** 在"密码"中创建新的 PIN Skype for Business Server。
   
-可以使用 **"PIN** 策略"页向使用 IP 电话 (Skype for Business (PIN) 身份验证提供个人标识号。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
+可以使用 **"PIN** 策略"页向 (IP 电话) PIN Skype for Business个人标识号。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
   
 按照以下步骤创建用户级别或站点级别的 PIN 策略。 
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>创建用户或站点 PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。 
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
 3. 在左侧导航栏中，单击“安全性”，然后单击“PIN 策略”。
     
@@ -56,7 +56,7 @@ ms.locfileid: "49828402"
     
 11. 在“PIN 历史记录计数”中，键入用户可以重复使用某个 PIN 之前，必须创建的 PIN 数目。默认情况下，用户可以重复使用其 PIN。
     
-12. 若要在 PIN 中允许数字的常见模式，例如"1234"和"8888"，请选中"允许通用 **模式"复选框** 。 如果未选择此选项，则仅允许使用数字的复杂模式。 默认情况下，仅允许使用数字的复杂模式。
+12. 若要在 PIN 中允许数字的常见模式，例如"1234"和"8888"，请选中" **允许** 通用模式"复选框。 如果未选择此选项，则仅允许使用数字的复杂模式。 默认情况下，仅允许使用数字的复杂模式。
     
     > [!IMPORTANT]
     > 我们建议您不要允许使用通用模式。 

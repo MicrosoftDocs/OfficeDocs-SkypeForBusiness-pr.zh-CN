@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中使用监控报告
+title: 使用监控报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: 摘要：了解 Skype for Business Server 中的监控报告。
-ms.openlocfilehash: 32e16d02f458ca36fb18b52790966c68a354503e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Summary： Learn about Monitoring Reports in Skype for Business Server.
+ms.openlocfilehash: 8a1dd4e75b813f2208eb59f7608622b757d4f3ac58c93a012722afbc051a6de1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345559"
 ---
-# <a name="using-monitoring-reports-in-skype-for-business-server"></a>在 Skype for Business Server 中使用监控报告 
+# <a name="using-monitoring-reports-in-skype-for-business-server"></a>使用监控报告Skype for Business Server 
  
-**摘要：** 了解 Skype for Business Server 中的监控报告。
+**摘要：** 了解监控报告中Skype for Business Server。
   
-Skype for Business Server 包括由 Microsoft SQL Server Reporting Service 发布的一组标准报告。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。
+Skype for Business Server由报告服务发布的一组Microsoft SQL Server报告。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。
   
-若要使用这些报告，必须在运行报告实例的计算机上安装监控SQL Server。
+若要使用这些报告，必须在运行监控报告实例的计算机上安装监控SQL Server。
   
 ## <a name="in-this-section"></a>本部分内容
 
-- [在 Skype for Business Server 中使用监控仪表板](monitoring-dashboard.md) 为管理员提供其系统运行状况和系统使用情况的快速概述。
+- [使用监控仪表板Skype for Business Server](monitoring-dashboard.md)为管理员提供其系统运行状况和系统使用情况的快速概述。
     
-- [Skype for Business Server 中的系统使用情况报告](system-usage-reports.md) 基于 Skype for Business Server 收集的 CDR 数据提供系统使用情况信息。
+- [Skype for Business Server 中的系统使用情况Skype for Business Server](system-usage-reports.md)提供基于由用户收集的 CDR 数据的系统Skype for Business Server。
     
-- [Skype for Business Server (每个用户) 诊断报告](call-diagnostic-reports-per-user.md) 提供有关失败的对等会话和会议会话的每个用户的信息。
+- [呼叫诊断报告 (中每个用户) 报告Skype for Business Server](call-diagnostic-reports-per-user.md)提供有关失败的点对点会话和会议会话的每个用户的信息。
     
-- [Skype for Business Server 中的呼叫诊断报告](call-diagnostic-reports.md) 提供失败的对等会话和会议会话的摘要信息和诊断数据。
+- [呼叫诊断报告中Skype for Business Server](call-diagnostic-reports.md)提供失败的对等会话和会议会话的摘要信息和诊断数据。
     
-- [Skype for Business Server 中的媒体质量诊断报告](media-quality-diagnostic-reports.md) 提供有关呼叫质量的信息，以及失败的呼叫的诊断和故障排除信息。
+- [媒体质量诊断报告中Skype for Business Server](media-quality-diagnostic-reports.md)提供有关呼叫质量的信息，以及失败的呼叫的诊断和故障排除信息。
     
 ## <a name="locating-records"></a>查找记录
 
-监控报告在任一时刻仅在屏幕上显示有限数量的记录。 屏幕上显示的实际记录数因报告而异。 若要查看屏幕上当前未显示的记录，可以使用在每个报表的工具栏 (上找到的标准向前和向后控件) 该控件使您能够分页查看数据。 您还可以快速跳转到数据集的第一页或最后一页。
+监控报告在任一时刻仅在屏幕上显示有限数量的记录。 屏幕上显示的实际记录数因报告而异。 若要查看屏幕上当前未显示的记录，可以使用在每个报表的工具栏 (上找到的标准向前和向后控件) 使您能够分页查看数据。 您还可以快速跳转到数据集的第一页或最后一页。
   
 除了使用前进和后退控件，您还可以通过在“当前页”框中键入页码，然后按 Enter 来跳转到数据集中的任一页。
   
@@ -49,7 +49,7 @@ Skype for Business Server 包括由 Microsoft SQL Server Reporting Service 发�
   
 如前所述，监控报告仅提供最基本的搜索功能。例如，您无法指定应在哪个字段中查找值。搜索机制自动在每条记录中的每个字段中搜索匹配值。您无法在搜索中使用通配符，所有搜索都将查找部分值。这意味着，如果您搜索 111，则搜索不仅将返回值 111，还返回值 11100、811、3112、611A5B 以及在字段中的任何位置包含值 111 的任何其他字段。
   
-每个报告配置为显示一组默认记录。 例如，默认情况下，用户注册报告显示上周的用户注册活动。 有些情况下，这可能生成不返回任何记录的报告。 在这种情况下，意味着上周没有发生任何用户注册。 如果您看到消息"没有与报告筛选器匹配的结果"，请尝试更改筛选器值 (例如，将时间段更改为过去一个月而不是过去一周) 并重新运行查询。 有关详细信息，请参阅本主题后面的“筛选数据”一节。
+每个报告配置为显示一组默认记录。 例如，默认情况下，用户注册报告显示上周的用户注册活动。 有些情况下，这可能生成不返回任何记录的报告。 在这种情况下，意味着上周没有发生任何用户注册。 如果您看到消息"没有与报告筛选器匹配的结果"，请尝试更改筛选器值 (例如，将时间段更改为过去一个月而不是上周) 然后重新运行查询。 有关详细信息，请参阅本主题后面的“筛选数据”一节。
   
 ## <a name="filtering-data"></a>筛选数据
 

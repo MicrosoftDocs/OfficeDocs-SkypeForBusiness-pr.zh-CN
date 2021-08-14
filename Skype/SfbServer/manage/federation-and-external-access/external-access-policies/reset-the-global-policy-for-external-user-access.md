@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 无法完全删除全局策略。 使用 **全局** 策略上的"删除"选项仅将全局策略重置为默认设置，其中不包括任何外部用户访问选项的支持。
-ms.openlocfilehash: a60516ce3eef125eb754d8d9635b3112d91d51dd
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: 无法完全删除全局策略。使用全局策略的“删除”选项只能将全局策略重置为默认设置，不包括对任何外部用户访问选项的支持。
+ms.openlocfilehash: 824d9f6c924a197a379f668263a23a6df89c27a980c82ea4d13abdd8621968da
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343426"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>重置外部用户访问的全局策略Skype for Business Server 
 
-如果已创建或配置了不再需要的外部用户访问策略，可以使用以下方法：
+如果创建或配置了不想再使用的外部用户访问策略，可以执行以下操作：
 
   - 删除已创建的任何站点策略或用户策略。
 
-  - 将全局策略重置为默认设置。 默认的全局策略设置拒绝任何外部用户访问。 无法删除全局策略。
+  - 将全局策略重置为默认设置。默认的全局策略设置拒绝任何外部用户访问。无法删除全局策略。
 
-无法完全删除全局策略。 全局 **策略** 上的"删除"选项仅将全局策略重置为默认设置，其中不包括任何外部用户访问选项的支持。
+无法完全删除全局策略。使用全局策略的“删除”选项只能将全局策略重置为默认设置，不包括对任何外部用户访问选项的支持。
 
 ## <a name="to-reset-the-global-policy-to-the-default-settings"></a>将全局策略重置为默认设置
 
-1.  从 RTCUniversalServerAdmins 组的成员或具有同等用户权限的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
@@ -47,10 +47,12 @@ ms.locfileid: "58234817"
 
 ## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 重置全局外部访问Windows PowerShell策略
 
-全局外部访问策略可以使用 Windows PowerShell 和 Remove-CsExternalAccessPolicy cmdlet 进行重置。 可以从命令行管理程序或远程Skype for Business Server命令行管理程序运行此 cmdlet Windows PowerShell。 
+全局外部访问策略可以使用 Windows PowerShell 和 Remove-CsExternalAccessPolicy cmdlet 进行重置。 此 cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。 
 
 ## <a name="to-reset-the-global-external-access-policy"></a>重置全局外部访问策略
 
-  - 此命令重置全局外部访问策略：<br/><br/>Remove-CsExternalAccessPolicy -Identity "global"
+  - 此命令重置全局外部访问策略：
+    
+        Remove-CsExternalAccessPolicy -Identity "global"
 
 有关详细信息，请参阅 [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet 的帮助主题。

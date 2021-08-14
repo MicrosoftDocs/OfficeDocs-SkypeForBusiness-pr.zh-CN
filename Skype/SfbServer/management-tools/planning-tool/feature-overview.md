@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Descripbes the Skype for Business Server 2015 planning tool.
-ms.openlocfilehash: 6e91a6f03c489ad531c048c085423aff1ff9866d
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: c642b08f87701335329d87fedc650884ded63105f4f9b9c0766e5fa04225b097
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343416"
 ---
 # <a name="feature-overview-planning-tool"></a>功能概述规划工具
  

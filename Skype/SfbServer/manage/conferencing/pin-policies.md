@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 中管理电话拨入式会议 PIN 策略
+title: 管理电话拨入式会议在Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 摘要：了解如何在 Skype for Business Server 中管理电话拨入式会议 PIN 策略。
-ms.openlocfilehash: 34b006b54242c25fb9afcd3fc9fd6e6692e9cbd2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d803e7d21be9743704402e2d9532fcfee413d804296cade2e56cbb875c965361
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096744"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343436"
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business Server 中管理电话拨入式会议 PIN 策略
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>管理电话拨入式会议在Skype for Business Server
  
 **摘要：** 了解如何在 Skype for Business Server 中管理电话拨入式会议 PIN 策略。
   
-组织中具有 Active Directory 域服务 (AD DS) 凭据的 Skype for Business Server 用户可以使用个人标识号 (PIN) 以经过身份验证的用户身份加入电话拨入式会议。 PIN 策略定义电话拨入式会议 PIN 工作方式的规则。
+Skype for Business Server组织中具有 Active Directory 域服务 (AD DS) 凭据的用户可以使用个人标识号 (PIN) 以经过身份验证的用户身份加入电话拨入式会议。 PIN 策略定义电话拨入式会议 PIN 工作方式的规则。
   
  如果要在整个组织中使用相同的 PIN 策略，则可以使用全局 PIN 策略并根据需要对其进行修改。 全局 PIN 策略在林级别定义电话拨入式会议 PIN 的规则。 可以修改全局 PIN 策略，但无法将其删除。
   
@@ -33,19 +33,19 @@ PIN 策略既可以应用于少数用户，也可以应用于众多用户。 如
   
 ## <a name="view-information-about-pin-policies"></a>查看有关 PIN 策略的信息
 
-可以使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序查看有关 PIN 策略的信息。
+可以使用控制面板或命令行管理程序Skype for Business Server PIN 策略Skype for Business Server的信息。
   
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板查看有关 PIN 策略的信息
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>使用控制面板查看有关 PIN Skype for Business Server的信息
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
-2.  打开 Skype for Business Server 控制面板。
+2.  打开Skype for Business Server控制面板"。
     
 3. 在左侧导航栏中，单击“会议”，然后单击“PIN 策略”。
     
 4. 在 **"PIN 策略"** 页上，单击要查看的 PIN 策略，再单击"编辑"，然后单击"显示 **详细信息"。**
     
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序查看有关 PIN 策略的信息
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序查看有关 PIN Skype for Business Server的信息
 
 若要查看有关 PIN 策略的信息，请使用 **Get-CsPinPolicy** cmdlet。 例如，以下命令返回有关 Identity 为 site：Redmond 的单个 PIN 策略的信息：
   
@@ -57,13 +57,13 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 ## <a name="modify-the-global-pin-policy"></a>修改全局 PIN 策略
 
-可以使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序修改全局 PIN 策略。
+可以使用控制面板或命令行管理程序Skype for Business Server全局 PIN 策略Skype for Business Server全局 PIN 策略。
   
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板修改全局电话拨入式会议 PIN 策略
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用控制面板修改全局电话拨入式会议 PIN Skype for Business Server策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
-2.  打开 Skype for Business Server 控制面板。
+2.  打开Skype for Business Server控制面板"。
     
 3. 在左侧导航栏中，单击“会议”，然后单击“PIN 策略”。
     
@@ -88,7 +88,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 12. 单击“提交”。
     
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序修改全局电话拨入式会议 PIN 策略
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序修改全局电话拨入式会议 PIN Skype for Business Server策略
 
 若要修改全局电话拨入式会议 PIN 策略，请使用 **Set-CsPinPolicy** cmdlet。
   
@@ -102,13 +102,13 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 ## <a name="create-a-user-or-site-pin-policy"></a>创建用户或站点 PIN 策略
 
-可以使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序创建用户或站点 PIN 策略。
+可以使用控制面板或命令行管理程序创建Skype for Business Server或站点 PIN Skype for Business Server策略。
   
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板创建用户或站点 PIN 策略
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用控制面板创建用户或站点 PIN Skype for Business Server
 
-1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1. 从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
-2.  打开 Skype for Business Server 控制面板。
+2.  打开Skype for Business Server控制面板"。
     
 3. 在左侧导航栏中，单击“会议”，然后单击“PIN 策略”。
     
@@ -139,7 +139,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 13. 单击“提交”。
     
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序创建用户或站点 PIN 策略
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序创建用户或Skype for Business Server PIN 策略
 
 若要创建用户或站点 PIN 策略，请使用 **New-CsPinPolicy** cmdlet。
   
@@ -153,13 +153,13 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>修改用户或站点 PIN 策略
 
-可以使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序修改用户或站点 PIN 策略。
+可以使用控制面板或命令行管理程序Skype for Business Server用户或站点 PIN Skype for Business Server策略。
   
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板修改用户或站点 PIN 策略
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用控制面板修改用户或站点 PIN Skype for Business Server
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
-2.  打开 Skype for Business Server 控制面板。
+2.  打开Skype for Business Server控制面板"。
     
 3. 在左侧导航栏中，单击“会议”，然后单击“PIN 策略”。
     
@@ -169,7 +169,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
     
 6. 单击“提交”。
     
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序修改用户或站点 PIN 策略
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序修改用户或站点 PIN Skype for Business Server
 
 若要修改电话拨入式会议 PIN 策略，请使用 **Set-CsPinPolicy** cmdlet。
   
@@ -183,19 +183,19 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>删除用户或站点 PIN 策略
 
-可以使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序删除用户或站点 PIN 策略。
+可以通过使用控制面板或命令行管理程序Skype for Business Server用户或站点 PIN Skype for Business Server策略。
   
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business Server 控制面板删除用户或站点 PIN 策略
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用控制面板删除用户或Skype for Business Server PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
-2.  打开 Skype for Business Server 控制面板。
+2.  打开Skype for Business Server控制面板"。
     
 3. 在左侧导航栏中，单击“会议”，然后单击“PIN 策略”。
     
 4. 在 **"PIN 策略"** 页上，单击要更改的 PIN 策略，再单击"编辑"，然后单击"删除 **"。**
     
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序删除用户或站点 PIN 策略
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序删除用户或Skype for Business Server PIN 策略
 
 若要删除用户或站点 PIN 策略，请使用 **Remove-CsPinPolicy** cmdlet。
   
