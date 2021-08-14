@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 108aea98ca8edd65c04c135e923fcab80c615b4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c9fffeef387a208cb5dbff6f8828cbc6b79e1fc6fd96eb2aa0a2073dae0a66fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352360"
 ---
 # <a name="availability-in-lithuania"></a>在立陶宛的可用性
 
@@ -71,7 +71,7 @@ ms.locfileid: "51122286"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |维尔纽斯  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
-|是否提供免费电话号码？  <br/> |不支持  <br/> |
+|是否提供免费电话号码？  <br/> |弱  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   

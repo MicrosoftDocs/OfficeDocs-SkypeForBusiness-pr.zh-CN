@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 412a43c5d71dce3a9a0ac0bda52c890dbf77af1b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0f5cb9be98dcde2ddac9866f74c72b2997e6d2683a81f0640dedd165ef0dabee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118160"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352370"
 ---
 # <a name="availability-in-egypt"></a>在埃及的可用性
 
@@ -42,7 +42,7 @@ ms.locfileid: "51118160"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |不支持  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |弱  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -69,8 +69,8 @@ ms.locfileid: "51118160"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |不适用  <br/> |
-|是否提供收费电话号码？  <br/> |不支持  <br/> |
-|是否提供免费电话号码？  <br/> |不支持 <br/> |
+|是否提供收费电话号码？  <br/> |弱  <br/> |
+|是否提供免费电话号码？  <br/> |弱 <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   

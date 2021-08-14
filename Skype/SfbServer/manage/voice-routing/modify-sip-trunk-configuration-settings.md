@@ -1,5 +1,5 @@
 ---
-title: Skype for BusinessServerModify SIP 中继配置设置
+title: 修改 SIP 中继配置设置Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'SIP 中继配置设置定义中介服务器与服务提供商的公用电话交换网网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 '
-ms.openlocfilehash: befb9aac46d815cd89b25104c11a08ef2653a7ab
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: 'SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 '
+ms.openlocfilehash: 73ab5eed311cf10b674034edad58afce0f6e66c9deb5b763e8ef0f38b95822a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351482"
 ---
-# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for BusinessServerModify SIP 中继配置设置
+# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>修改 SIP 中继配置设置Skype for Business Server
 
 SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。这些设置按下面的指示执行此类操作：
 
@@ -26,9 +26,9 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 - 发送实时传输控制协议 (RTCP) 数据包的条件。
 - 每个中继上是否需要安全实时协议 (SRTP) 加密。
 
-在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。 稍后可以使用"控制面板"或"Skype for Business Server"来修改Windows PowerShell。
+在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。 稍后可以使用"控制面板"或"Skype for Business Server"来修改这些集合Windows PowerShell。
 
-使用 Skype for Business Server 控制面板修改 SIP 中继配置设置时，可以使用以下选项：
+使用 Skype for Business Server 服务器控制面板修改 SIP 中继配置设置时，可以使用以下选项：
 
 |UI 设置 |PowerShell 参数 |说明 |
 |--|--|--|
@@ -53,7 +53,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 |||
 
 > [!Note]
-> CsTrunkConfiguration cmdlet Skype for Business Server支持"控制面板"中未Skype for Business Server属性。 有关详细信息，请参阅 [Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) cmdlet 的帮助主题。 
+> CsTrunkConfiguration cmdlet Skype for Business Server CsTrunkConfiguration cmdlet 支持未显示在"Skype for Business Server控制面板"中的其他属性。 有关详细信息，请参阅 [Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) cmdlet 的帮助主题。 
 
 **使用"控制面板"Skype for Business Server SIP 中继配置设置**
 

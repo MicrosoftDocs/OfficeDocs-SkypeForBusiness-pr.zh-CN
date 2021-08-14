@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 本文中的各节介绍如何启用、临时禁用 Active Directory 用户或删除 active Directory Skype for Business Server。
-ms.openlocfilehash: 27871597674724126369bd8f90fd6c2a67c2a8ea
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9ff446b6829ed0d6f8e7b36de5b20fe30db5c7ba7fcf426abfd2068ff549a5bc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351512"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>管理用户的用户帐户Skype for Business Server
 
@@ -25,7 +25,7 @@ ms.locfileid: "58232687"
 
 若要了解如何启用 Active Directory 用户，请参阅创建新的 [用户帐户](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732336(v=ws.11))。 若要了解如何删除 Active Directory 用户，请参阅删除 [用户帐户](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))。
 
-这些过程应在维护时段内执行，Skype for Business使用率最低时。 这是按日计划还是按周完成，这由组织的需求决定。
+这些过程应在维护时段内执行，Skype for Business使用率最低时。 这是按每天还是按周计划完成，这由组织的需求决定。
 
 本文包含以下过程：
 
@@ -44,7 +44,7 @@ ms.locfileid: "58232687"
 
 您可以使用搜索查询的结果为 Active Directory 用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。
 
-可以使用"控制面板"或"Skype for Business Server"Active Directory 用户和计算机"管理单元来搜索用户。 以下过程介绍如何使用Skype for Business Server控制面板搜索用户。
+可以使用"Active Directory 用户和计算机"Skype for Business Server控制面板或"Active Directory 用户和计算机"管理单元搜索用户。 以下过程介绍如何使用Skype for Business Server控制面板搜索用户。
 
 > [!NOTE]
 > 在具有中央林拓扑的环境中，当您按用户的电子邮件地址搜索用户时，搜索结果可能不准确。 可以改为通过指定 SIP 地址前缀（例如，sip:name）来搜索用户，然后添加搜索筛选器并选择包含部分电子邮件地址的 SIP 地址，或使用 **Get-CSUser** cmdlet。
@@ -74,7 +74,7 @@ ms.locfileid: "58232687"
 
 在 Active Directory 用户和计算机中启用用户帐户后，可以使用 Skype for Business Server 控制面板创建和启用新的 Skype for Business Server 用户帐户，通过将 Active Directory 用户添加到 Skype for Business Server。
 
-您还可以使用 cmdlet，特别是 [Enable-CsUser](/powershell/module/skype/enable-csuser)。
+您还可以使用 cmdlet，特别是 [Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)。
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
@@ -88,14 +88,14 @@ ms.locfileid: "58232687"
 
 6. 在“搜索用户”框中，键入所需 Active Directory 用户帐户的完整的名称、显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、电子邮件地址、用户主体名称 (UPN) 或电话号码，或这些内容的第一部分，然后单击“查找”。
 
-7. 在表中，选择要添加到Skype for Business Server帐户，然后单击"确定 **"。**
+7. 在表中，选择要添加到帐户的帐户Skype for Business Server然后单击"确定 **"。**
 
 8. 将该用户分配给某个池，指定其他任何详细信息，并向所需用户分配策略，然后单击“启用”。
 
 ## <a name="disable-or-re-enable-a-user-account-previously-enabled-for-skype-for-business-server"></a>禁用或重新启用以前为用户启用的Skype for Business Server
 <a name="Disable"> </a>
 
-可以使用以下过程在 Skype for Business Server禁用以前启用的用户帐户，Skype for Business Server用户帐户配置的所有设置。 由于不会丢失Skype for Business Server设置，因此可以重新启用以前启用的用户帐户，而无需重新配置用户帐户。
+可以使用以下过程在 Skype for Business Server禁用以前启用的用户帐户，Skype for Business Server用户帐户配置的所有设置。 由于不会丢失Skype for Business Server用户帐户设置，因此可以重新启用以前启用的用户帐户，而无需重新配置用户帐户。
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
@@ -109,13 +109,13 @@ ms.locfileid: "58232687"
 
 6. 在“操作”菜单上，执行下列操作之一：
 
-   - 若要暂时禁用用户的用户帐户Skype for Business Server，请单击"暂时禁用 Lync **Server"。**
+   - 若要暂时禁用用户的用户帐户Skype for Business Server，请单击"**暂时禁用 Lync Server"。**
 
-   - 若要为用户帐户启用Skype for Business Server，请单击 **"重新启用 Lync Server"。**
+   - 若要为用户帐户启用Skype for Business Server，请单击 **"为 Lync Server 重新启用"。**
 
 ### <a name="use-windows-powershell-to-disable-or-re-enable-user-accounts"></a>使用 Windows Powershell 禁用或重新启用用户帐户
 
-可以使用 **Set-CsUser** cmdlet 暂时禁用用户帐户，稍后再重新启用。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 该过程在 Skype for Business Server 中Skype for Business Server。
+可以使用 **Set-CsUser** cmdlet 暂时禁用用户帐户，稍后再重新启用。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
 
 ### <a name="to-disable-a-user-account"></a>禁用用户帐户
 
@@ -133,14 +133,14 @@ ms.locfileid: "58232687"
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-有关详细信息，请参阅 [Set-CsUser](/powershell/module/skype/set-csuser) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) cmdlet 的帮助主题。
 
 ## <a name="disable-a-user-for-enterprise-voice"></a>为用户禁用企业语音
 <a name="Disable_EV"> </a>
 
 使用以下过程禁用企业语音启用的用户帐户Skype for Business Server。
 
-### <a name="to-disable-a-user-account-for-enterprise-voice"></a>为用户禁用用户帐户企业语音
+### <a name="to-disable-a-user-account-for-enterprise-voice"></a>为用户帐户禁用企业语音
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
@@ -161,11 +161,11 @@ ms.locfileid: "58232687"
 
 8. 单击“提交”。
 
-用户现在无法使用企业语音功能。 相关信息： <br/>[企业语音移动性](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [在用户企业语音中Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 命令行管理程序](../management-shell.md)
+用户现在无法使用 企业语音 功能。 相关信息： <br/>[企业语音移动性](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [为用户启用企业语音Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 命令行管理程序](../management-shell.md)
 ## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server用户帐户
 <a name="Remove"> </a>
 
-可以使用以下过程删除以前在 Skype for Business Server 中添加的用户帐户。
+可以使用以下过程删除以前在 Skype for Business Server 中添加的Skype for Business Server。
 
 > [!NOTE]
 > 移除用户将导致您丢失为用户帐户配置的所有设置。 如果要临时禁用用户帐户，请参阅禁用或重新启用以前为用户帐户启用[Skype for Business Server。](user-accounts.md#Disable)
@@ -186,7 +186,7 @@ ms.locfileid: "58232687"
 
 ### <a name="remove-user-accounts-with-windows-powershell-cmdlets"></a>使用 Powershell cmdlet Windows用户帐户
 
-您可以使用 Disable-CsUser cmdlet 删除用户帐户。 可以从命令行管理程序或远程Skype for Business Server命令行管理程序运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 该过程在 Skype for Business Server 中Skype for Business Server。
+您可以使用 Disable-CsUser cmdlet 删除用户帐户。 此 cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
 
 ### <a name="to-remove-a-user-account"></a>删除用户帐户
 若要移除用户帐户，请使用 Disable-CsUser cmdlet。例如：
@@ -195,13 +195,13 @@ ms.locfileid: "58232687"
   Disable-CsUser -Identity "Ken Myer"
   ```
 
-在此命令运行后，没有办法重新启用该帐户及其以前的设置。您将需要使用 Enable-CsUser cmdlet 为 Ken Myer 创建全新的帐户。
+    After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
 
-有关详细信息，请参阅 [Disable-CsUser](/powershell/module/skype/disable-csuser) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps) cmdlet 的帮助主题。
 
 ## <a name="see-also"></a>另请参阅
 <a name="Remove"> </a>
 
-[Enable-CsUser](/powershell/module/skype/enable-csuser)
+[Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)
 
-[Disable-CsUser](/powershell/module/skype/disable-csusers)
+[Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps)

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 94e872130c57d08d509a99d6a2a1b593a79eb54f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0193b97c1c2fa6134b0ab5865dfc9d7306e796d0abf562856ad55ad36b3e5ef5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351732"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -60,16 +60,16 @@ ms.locfileid: "52240232"
 若要使用免费号码，需要通信信用额度，因为这些呼叫按分钟计费。 此外，我们建议你为呼叫计划和音频会议用户设置通信积分，这些用户需要能够拨出到 **任何 PSTN 目的地**。 包括许多国家/地区，但某些目的地可能不包含在呼叫计划或音频会议订阅中。 如果未设置通信信用额度或为用户分配许可证，并且你的组织 (根据你的呼叫计划、音频会议计划或国家/地区) 而用完了分钟数，则这些用户将无法拨打电话或从在线音频会议会议拨出。
   
 > [!NOTE]
-> 必须设置通信信用额度，然后为管理中心"用户活动用户"Microsoft 365  >  **每个用户分配** 通信信用  >  **额度许可证**。 通信信用额度许可证的数量将显示为无限制，因为它们用于向分配通信信用额度许可证的任何用户授予对通信信用额度余额的访问权限。
+> 必须设置通信信用额度，然后为"用户活动用户"中的Microsoft 365 管理中心分配通信 **信用**  >    >  **额度许可证**。 通信信用额度许可证的数量将显示为无限制，因为它们用于向分配通信信用额度许可证的任何用户授予对通信信用额度余额的访问权限。
   
 建议仔细评估组织的 PSTN 服务使用情况，以了解通信信用额度的最佳设置。 你可以阅读有关 PSTN 服务电话系统[呼叫计划和](calling-plan-landing-page.md)音频会议[常见问题。](Audio-Conferencing-common-questions.md)
   
 您可以使用预付余额的一次性资金设置使用计费，或者设置自动充值 **(** **推荐的**) 金额，最低余额将触发该充值金额的购买。 一开始，建议你设置自动充值金额，以便你监视实际的使用量并找到满足你的需求和使用模式的合适的自动充值阈值。 应随着时间的推移监视通信信用额度，然后根据需要调整最低余额和充值金额，以满足每个组织的需求。
   
 > [!NOTE]
-> 可以通过登录管理中心并访问"计费订阅""添加订阅 [Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)查看  >    >  **计划和定价**。 
+> 可以通过登录订阅并访问"计费订阅""添加订阅 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)查看  >    >  **计划和定价**。 
   
-在 **Microsoft 365** 管理中心"帐单购买服务加载项"中，可以选择"通信信用额度"来添加信用额度，并且你随时都可以手动  >    >    >  添加信用额度。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 如果选择以一次金额为通信信用额度余额提供资金，但余额下降到零，则上述其他呼叫方案将不再有效，包括免费电话号码。 因此，建议你使用自动充值设置，以免在通信信用额度余额达到 0 或零时发生任何 (中断) 。 你可以查看当前通信信用额度余额，方法为"**对** 产品通信信用额度  >    >  **计费"。**
+在 **Microsoft 365 管理中心** 购买服务加载项"中，可以选择"通信信用额度"来添加信用额度，并且你随时都可以手动  >    >    >  添加信用额度。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 如果选择以一次金额为通信信用额度余额提供资金，但余额下降到零，则上述其他呼叫方案将不再有效，包括免费电话号码。 因此，建议你使用自动充值设置，以免在通信信用额度余额达到 0 或零时发生任何 (中断) 。 你可以查看当前通信信用额度余额，方法为"**对** 产品通信信用额度  >    >  **计费"。**
 
 > [!NOTE]
 >您将向具有 Lync 服务管理员、公司管理员、计费管理员、公司管理员、用户帐户管理员、支持管理员的所有用户发送电子邮件。 服务支持管理员、计费管理员、Lync 服务管理员、设备管理员、应用程序管理员、许可证管理员、云设备管理员、身份验证管理员、特权身份验证管理员、Teams 通信管理员、Teams 通信支持工程师、Teams 通信支持专家、Teams 管理员管理员角色，当充值交易成功时，充值交易失败 (例如过期的信用卡) ，或者您的通信信用额度余额达到 0 (零) 。
@@ -118,7 +118,7 @@ ms.locfileid: "52240232"
     
 - [电话系统](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-还可通过登录管理中心并访问"计费购买服务 ["Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)查看 **有关**  >  **定价的信息**。
+还可通过登录订阅并进入计费购买服务 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)查看 **有关**  >  **定价的信息**。
   
 若要查看包含每个功能所需的许可证的表，请参阅Microsoft Teams[许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

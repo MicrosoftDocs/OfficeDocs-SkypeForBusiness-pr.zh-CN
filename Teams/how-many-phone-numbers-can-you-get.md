@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: 根据号码的类型和许可证数量Microsoft Teams可以获取多少个电话号码。
-ms.openlocfilehash: ecd3eacc978d81bddc67b64b9e2480bba950aa1f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0f31444cfa62bcbfe79059f985165526494cafc7813cefcfd18ce645e0763128
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092220"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352241"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>可以获得多少个电话号码？
 

@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
-description: ConfernceUris 视图存储有关已参与会议会话的 URI 的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 0c3ab5d72c8058ea7d13d2e54df8cae25bf239c1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: ConfernceUris 视图存储有关已参与会议会话的 URI 的信息。 此视图在 Microsoft Lync Server 2013 中引入。
+ms.openlocfilehash: 4e9ee22dfc078e5870dd38ed3de8ee5e93e7fe8716886d3e7c2cb066745b2535
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816122"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352530"
 ---
 # <a name="conferenceuris-view"></a>ConferenceUris 视图
  
-ConfernceUris 视图存储有关已参与会议会话的 URI 的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
+ConfernceUris 视图存储有关已参与会议会话的 URI 的信息。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |ConferenceUriId  <br/> |int  <br/> |标识此会议 URI 的唯一编号。  <br/> |
 |ConferenceUri  <br/> |nvarchar (450)   <br/> |会议的 URI。  <br/> |

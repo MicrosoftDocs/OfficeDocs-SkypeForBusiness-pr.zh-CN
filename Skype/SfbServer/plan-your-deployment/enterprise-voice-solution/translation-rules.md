@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的转换规则
+title: 转换规则Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
-description: 了解 Skype for Business Server 企业语音 中的转换规则和拨号字符串规范化。
-ms.openlocfilehash: d02e4d3b84c03ee40dddbcb9b174adb66dcd6cd0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 了解呼叫中的转换规则和拨号字符串Skype for Business Server 企业语音。
+ms.openlocfilehash: c053ea0244c6b8d0578b9776da9d7ecd40bb8043b0f5884c9d7437b688f5dd65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110628"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352690"
 ---
-# <a name="translation-rules-in-skype-for-business-server"></a>Skype for Business Server 中的转换规则
+# <a name="translation-rules-in-skype-for-business-server"></a>转换规则Skype for Business Server
 
-了解 Skype for Business Server 企业语音 中的转换规则和拨号字符串规范化。
+了解呼叫中的转换规则和拨号字符串Skype for Business Server 企业语音。
 
- 企业语音需要将所有拨号串规范化为 E.164 格式，以便通过 RNL (反向号码) 。 被叫号码和呼叫号码均支持转换规则。 中继对等 (，即关联网关、专用交换机 (PBX) 或 SIP 中继) 可能要求号码采用本地拨号格式。 要将 E.164 格式的号码转换为本地拨号格式，可以在将其路由至中继对等方之前，定义一个或多个转换规则以处理请求 URI。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
+ 企业语音要求所有拨号串规范化为 E.164 格式，以便执行 RNL (反向号码) 。 被叫号码和呼叫号码均支持转换规则。 中继对等 (，即关联网关、专用交换机 (PBX) 或 SIP 中继) 可能要求号码采用本地拨号格式。 要将 E.164 格式的号码转换为本地拨号格式，可以在将其路由至中继对等方之前，定义一个或多个转换规则以处理请求 URI。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
 
 通过在服务器上执行出站路由转换，可以降低每个单独中继对等方上的配置要求，以便将电话号码转换为本地拨号格式。 在规划要与特定中介服务器群集关联的网关和网关数时，将具有类似本地拨号要求的中继对等方分组可能很有用。 这可减少所需的转换规则数和编写转换规则所需的时间。
 
