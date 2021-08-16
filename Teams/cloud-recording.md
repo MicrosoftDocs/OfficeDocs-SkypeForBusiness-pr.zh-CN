@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9664cbad906149eccfce3f93d366f93b53e77798be0c080c3b57c3e46d3114d6
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b2402e94dbbf123d9a7df7f18cb99321c5fa331f
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848967"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234127"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -306,7 +306,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **能否更改每个 TMR 的过期日期，例如数据 A 过期日期为 30 天，数据 B 过期日期为 60 天?**
 
-是，过期日期设置为每个文件。 用户可以在 OneDrive 或 SharePoint 的选定文件的详细信息窗格中修改过期日期。
+是，到期日期按每个文件设置。用户可以在 OneDrive 或 SharePoint 中所选文件的详细信息窗格中修改到期日期。
 
 **管理员如何更改到期日？**
   

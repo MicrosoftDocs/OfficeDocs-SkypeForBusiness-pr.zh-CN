@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0048b4b4b7c58f5a967cca40122b424d0af42b8d6229c3e50f326be2804ca5ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c55733e6175efb4adb02a621210ddc5d78ac9f6
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322764"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234187"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -210,14 +210,22 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 适用于教育 **者的资料**：
 *   [适用于教育组织的见解支持页面](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)。
 
-## <a name="turn-insights-on-or-off"></a>启用或关闭 Insights
-默认情况下，已启用见解。 当你选择退出时，我们将 *删除为见解收集的所有数据*。 重新启用见解，我们将从重新启用时开始收集数据。
+### <a name="turn-insights-on-or-off"></a>启用或关闭 Insights
+
+默认情况下，Insights 处于打开状态，这使我们能够收集 Teams 中学生活动的分析，以便在见解中使用。 你可以决定选择退出 Insights，在这种情况下，我们 *删除为 Insights 收集的所有数据* 并停止收集任何未来数据。 如果重新启用 Insights，我们将从重新启用时开始收集数据。
+
+* 要关闭或打开 Insights，请打开 [SDS 管理中心](https://sds.microsoft.com/)，转到“**设置**” > “**管理教育版 Insights**”。 关闭或打开 **为 Insights 收集活动数据** 以禁用或启用 Insights。
+
+:::image type="content" source="media/insights-settings.png" alt-text="SDS 管理中心页面的屏幕截图，可在其中使用设置选项打开或关闭 Insights。":::
+
+> [!NOTE]
+> 如果已关闭 Insights，则删除已收集的数据。 选择退出时删除的数据无法在以后还原，即使重新启用了 Insights 也是如此。
+
+### <a name="turn-sds-for-insights-on-or-off"></a>打开或关闭用于 Insights 的 SDS
 
 学校数据同步 (SDS) 有助于自动执行将学生信息系统 (SIS) 数据导入和同步到 Teams 的过程。
 
 使用见解 *不* 需要使用 SDS。 但是，你随时可以选择从见解中退出。 
-
-* 若要一起关闭/打开 Insights，请打开 [SDS 管理中心](https://sds.microsoft.com/)，转到“**设置**” > “**管理教育版 Insights**”。 关闭/开启“**为 Insights 收集数据**”以禁用/启用 Insights。
 
 * 若要关闭使用学校数据同步的 Insights，请按照[为 Insights 禁用 SDS](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights) 中的说明操作。
 
