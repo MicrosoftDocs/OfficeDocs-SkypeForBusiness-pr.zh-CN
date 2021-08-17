@@ -217,6 +217,8 @@ items:
                 href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
               - name: 将用户从本地移至团队
                 href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
+              - name: 将用户从本地迁移至 Skype for Business Online
+                href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
               - name: 将用户从云移动到本地
                 href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
               - name: 管理会议迁移
@@ -227,16 +229,10 @@ items:
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: 将用户移至云
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-              - name: 禁用混合以仅完成到 Teams 的迁移
-                items:
-                  - name: 禁用混合以仅完成到 Teams 的迁移
-                    href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
-                  - name: 更新 DNS 条目
-                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
-                  - name: 决定如何在解除授权后管理属性
-                    href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
+              - name: 禁用混合以完成到云的迁移
+                href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
               - name: 将应用程序终结点移动到云
-                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
               - name: 删除 Skype for Business 部署
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: 部署资源林拓扑
@@ -291,8 +287,6 @@ items:
             href: legal-hold.md
           - name: 内容搜索
             href: content-search.md
-          - name: 高级电子数据展示中的 Teams 工作流
-            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: 审核
             href: audit-log-events.md
           - name: 客户密钥
@@ -303,8 +297,6 @@ items:
             href: teams-privacy.md
           - name: Teams 中的数据位置
             href: location-of-data-in-teams.md
-          - name: Microsoft Teams 反馈隐私
-            href: teams-privacy-feedback.md
           - name: 阻止特定用户对 Sharepoint Online 的访问
             href: block-access-sharepoint.md
           - name: 策略控制概述
@@ -453,8 +445,6 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Teams 实时事件使用情况报表
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              - name: Teams 信息保护许可证报告
-                href: teams-analytics-and-reports/information-protection-license-report.md
       - name: 日志文件、服务运行状况和支持
         items:
           - name: 使用日志文件监视 Teams 和排除 Teams 故障
@@ -491,8 +481,8 @@ items:
         href: teams-policies.md
       - name: 在 Teams 中设置频道审查
         href: manage-channel-moderation-in-teams.md
-      - name: 管理实时组件
-        href: live-components-in-teams.md
+      - name: 在 Teams 中共享文件
+        href: sharing-files-in-teams.md
       - name: Teams 和 Outlook 电子邮件集成
         href: teams-outlook-email-integration.md
       - name: 从 Outlook 共享到 Teams
@@ -567,16 +557,14 @@ items:
         href: cortana-in-teams.md
       - name: 设置团队目标层次结构
         href: set-up-your-team-hierarchy.md
-      - name: 非教育租户受监督聊天
-        href: supervised-chat-non-edu.md
-  - name: 会议和音频会议
+  - name: 会议、大会和实时活动
     items:
+      - name: 快速入门 - 会议和实时事件
+        href: quick-start-meetings-live-events.md
       - name: 规划部署
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: 会议、网络研讨会和直播活动
+      - name: 会议
         items:
-          - name: 快速启动
-            href: quick-start-meetings-live-events.md
           - name: 管理会议策略
             items:
               - name: 概述
@@ -597,64 +585,46 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: 从用户中删除 RestrictedAnonymousAccess 会议策略
                     href: meeting-policies-restricted-anonymous-access.md
-          - name: 会议策略和会议过期时间
-            href: meeting-expiration.md
           - name: 管理会议设置
             href: meeting-settings-in-teams.md
           - name: 用户设置更改时向其发送的电子邮件
             href: emails-sent-to-users-when-their-settings-change-in-teams.md
-          - name: 管理会议和会议功能
-            items:
-              - name: 使用户能够在加入会议时录制其姓名
-                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-              - name: 打开或关闭会议的进入和退出通知
-                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-              - name: 在 Teams 中使用 NDI® 技术
-                href: use-NDI-in-meetings.md
-              - name: 在不受支持的浏览器上举行 Teams 会议
-                href: unsupported-browsers.md
-              - name: 在 Teams 中配置桌面共享
-                href: configure-desktop-sharing.md
-              - name: Teams 云会议录制
-                href: cloud-recording.md
-              - name: 使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议录制
-                href: tmr-meeting-recording-change.md
-              - name: 联系人中心集成
-                href: teams-contact-center.md
-              - name: 在 Outlook 中使用 Teams 会议外接程序
-                href: teams-add-in-for-outlook.md
-              - name: 将 Skype 会议应用配置为与 Teams 配合使用
-                href: configure-skype-meetings-app-to-work-with-teams.md
-              - name: 为用户设置“致电我”功能
-                href: set-up-the-call-me-feature-for-your-users.md
-              - name: 获取会议出席情况报告
-                href: teams-analytics-and-reports/meeting-attendance-report.md
-              - name: 在 Teams 中管理白板
-                href: manage-whiteboard.md
-              - name: 为 Google Workspace 设置 Teams 会议加载项
-                href: google-workspace-addon-teams.md
-              - name: 云视频互操作
-                href: cloud-video-interop.md
-              - name: 仅查看会议体验
-                href: view-only-meeting-experience.md
-          - name: 设置会议迁移服务 （MMS）
+          - name: 使用户能够在加入会议时录制其姓名
+            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+          - name: 打开或关闭会议的进入和退出通知
+            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+          - name: 在 Teams 中使用 NDI® 技术
+            href: use-NDI-in-meetings.md
+          - name: Teams 会议中的举手选项
+            href: raise-hand-meetings.md
+          - name: 在不受支持的浏览器上举行 Teams 会议
+            href: unsupported-browsers.md
+          - name: 在 Teams 中配置桌面共享
+            href: configure-desktop-sharing.md
+          - name: Teams 云会议录制
+            href: cloud-recording.md
+          - name: 使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议录制
+            href: tmr-meeting-recording-change.md
+          - name: 联系人中心集成
+            href: teams-contact-center.md
+          - name: 在 Outlook 中使用 Teams 会议外接程序
+            href: teams-add-in-for-outlook.md
+          - name: 将 Skype 会议应用配置为与 Teams 配合使用
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: 为用户设置“致电我”功能
+            href: set-up-the-call-me-feature-for-your-users.md
+          - name: 获取会议出席情况报告
+            href: teams-analytics-and-reports/meeting-attendance-report.md
+          - name: 设置会议迁移服务 (MMS)
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: 在 Teams 中管理白板
+            href: manage-whiteboard.md
+          - name: 为 Google Workspace 设置 Teams 会议加载项
+            href: google-workspace-addon-teams.md
+          - name: 云视频互操作
+            href: cloud-video-interop.md
           - name: 在 Microsoft Teams 中为网络研讨会进行设置
             href: set-up-webinars.md
-          - name: 实时事件
-            items:
-              - name: 什么是 Teams 实时事件？
-                href: teams-live-events/what-are-teams-live-events.md
-              - name: 规划 Teams 实时事件
-                href: teams-live-events/plan-for-teams-live-events.md
-              - name: 设置 Teams 实时事件
-                href: teams-live-events/set-up-for-teams-live-events.md
-              - name: 使用 PowerShell 设置 Teams 实时事件策略
-                href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-              - name: 配置 Teams 实时事件设置
-                href: teams-live-events/configure-teams-live-events.md
-              - name: 实时事件录制策略
-                href: teams-live-events/live-events-recording-policies.md
       - name: 音频会议
         items:
           - name: 规划部署
@@ -745,6 +715,20 @@ items:
                 href: audio-conferencing-zones.md
               - name: 视频 - Teams 音频会议
                 href: ./audio-conferencing-in-office-365.md
+      - name: 实时事件
+        items:
+          - name: 什么是 Teams 实时事件？
+            href: teams-live-events/what-are-teams-live-events.md
+          - name: 规划 Teams 实时事件
+            href: teams-live-events/plan-for-teams-live-events.md
+          - name: 设置 Teams 实时事件
+            href: teams-live-events/set-up-for-teams-live-events.md
+          - name: 使用 PowerShell 设置 Teams 实时事件策略
+            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+          - name: 配置 Teams 实时事件设置
+            href: teams-live-events/configure-teams-live-events.md
+          - name: 实时事件录制策略
+            href: teams-live-events/live-events-recording-policies.md
       - name: Microsoft Teams 会议室
         items:
           - name: 概述
@@ -809,15 +793,13 @@ items:
                 href: rooms/lrs-migration.md
               - name: 内容照相机
                 href: rooms/content-camera.md
-              - name: 智能扬声器的语音识别控件
-                href: rooms/voice-recognition.md
           - name: 管理
             items:
               - name: 管理概述
                 href: rooms/rooms-manage.md
               - name: 维护和操作
                 href: rooms/rooms-operations.md
-              - name: 已知问题
+              - name: '在组织中支持 Teams '
                 href: rooms/known-issues.md
               - name: 具有 Azure Monitor 的设备
                 href: rooms/azure-monitor-manage.md
@@ -829,6 +811,8 @@ items:
     items:
       - name: 规划 Teams 语音解决方案
         href: cloud-voice-landing-page.md
+      - name: 在 Teams 中管理语音和呼叫策略
+        href: voice-and-calling-policies.md
       - name: 电话系统
         items:
           - name: 什么是电话系统
@@ -843,8 +827,6 @@ items:
             items:
               - name: 设置云语音邮件
                 href: set-up-phone-system-voicemail.md
-              - name: 管理语音邮件策略
-                href: manage-voicemail-policies.md
               - name: 更改语音邮件的默认语言
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: 语音邮件问候和消息所使用的语言
@@ -889,102 +871,100 @@ items:
             href: shared-line-appearance.md
           - name: 拨号盘配置
             href: dial-pad-configuration.md
-      - name: PSTN 连接选项
+      - name: 通话套餐
+        items:
+          - name: 哪种通话套餐适合你？
+            href: calling-plan-landing-page.md
+          - name: 如何购买通话套餐
+            href: calling-plans-for-office-365.md
+          - name: 为组织设置通话套餐
+            href: set-up-calling-plans.md
+          - name: 快速入门指南：配置通话套餐
+            href: configuring-teams-calling-quickstartguide.md
+          - name: 通话套餐的国家和地区可用性
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+      - name: 电话系统直接路由
         items:
           - name: 概述
-            href: pstn-connectivity.md
-          - name: 通话套餐
-            items:
-              - name: 哪种通话套餐适合你？
-                href: calling-plan-landing-page.md
-              - name: 为组织设置通话套餐
-                href: set-up-calling-plans.md
-              - name: 快速入门指南：配置通话套餐
-                href: configuring-teams-calling-quickstartguide.md
-              - name: 通话套餐的国家和地区可用性
-                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: 运营商连接
-            items:
-              - name: 运营商连接计划
-                href: operator-connect-plan.md
-              - name: 配置运营商连接
-                href: operator-connect-configure.md
-          - name: 直接路由
+            href: direct-routing-landing-page.md
+          - name: 规划直接路由
+            href: direct-routing-plan.md
+          - name: 经认证可用于直接路由的会话边界控制器列表
+            href: direct-routing-border-controllers.md
+          - name: 配置直接路由
             items:
               - name: 概述
-                href: direct-routing-landing-page.md
-              - name: 规划直接路由
-                href: direct-routing-plan.md
-              - name: 经认证可用于直接路由的会话边界控制器列表
-                href: direct-routing-border-controllers.md
-              - name: 配置直接路由
+                href: direct-routing-configure.md
+              - name: 第 1 步：连接 SBC
+                href: direct-routing-connect-the-sbc.md
+              - name: 第 2 步：启用用户
+                href: direct-routing-enable-users.md
+              - name: 第 3 步：配置语音路由
+                href: direct-routing-voice-routing.md
+              - name: 第 4 步：转换电话号码
+                href: direct-routing-translate-numbers.md
+              - name: 为多个租户配置 SBC
+                href: direct-routing-sbc-multiple-tenants.md
+              - name: 如何将模拟设备与直接路由结合使用
+                href: direct-routing-analog-devices.md
+          - name: 基于位置的路由
+            items:
+              - name: 为直接路由计划基于位置的路由
+                href: location-based-routing-plan.md
+              - name: 为基于位置的路由配置网络设置
+                href: location-based-routing-configure-network-settings.md
+              - name: 为直接路由启用基于位置的路由
+                href: location-based-routing-enable.md
+          - name: 直接路由的媒体旁路
+            items:
+              - name: 使用直接路由规划媒体旁路
+                href: direct-routing-plan-media-bypass.md
+              - name: 使用直接路由配置媒体旁路
+                href: direct-routing-configure-media-bypass.md
+          - name: 直接路由本地媒体优化
+            items:
+              - name: 本地媒体优化计划
+                href: direct-routing-media-optimization.md
+              - name: 配置本地媒体优化
+                href: direct-routing-media-optimization-configure.md
+          - name: 采用 PSTN 连接的混合环境中的用户帐户
+            href: direct-routing-user-accounts-in-a-hybrid-environment.md
+          - name: 迁移到直接路由
+            href: direct-routing-migrating.md
+          - name: 对直接路由进行监视和故障排除
+            items:
+              - name: 概述
+                href: direct-routing-monitor-and-troubleshoot.md
+              - name: 运行状况面板
+                href: direct-routing-health-dashboard.md
+          - name: 直接路由技术参考
+            items:
+              - name: 出站呼叫发生语音中继故障转移
+                href: direct-routing-trunk-failover-on-outbound-call.md
+              - name: 媒体路径国家/地区代码
+                href: direct-routing-country-codes.md
+              - name: 用于测试会话边界控制器连接的 PowerShell 脚本
+                href: sip-tester-powershell-script.md
+              - name: 管理呼叫通知
+                href: direct-routing-call-notifications.md
+              - name: 协议
                 items:
-                  - name: 概述
-                    href: direct-routing-configure.md
-                  - name: 第 1 步：连接 SBC
-                    href: direct-routing-connect-the-sbc.md
-                  - name: 第 2 步：启用用户
-                    href: direct-routing-enable-users.md
-                  - name: 第 3 步：配置语音路由
-                    href: direct-routing-voice-routing.md
-                  - name: 第 4 步：转换电话号码
-                    href: direct-routing-translate-numbers.md
-                  - name: 为多个租户配置 SBC
-                    href: direct-routing-sbc-multiple-tenants.md
-                  - name: 如何将模拟设备与直接路由结合使用
-                    href: direct-routing-analog-devices.md
-                  - name: 管理语音路由策略
-                    href: manage-voice-routing-policies.md
-                  - name: 管理呼叫通知
-                    href: direct-routing-call-notifications.md
-              - name: 基于位置的路由
-                items:
-                  - name: 为直接路由计划基于位置的路由
-                    href: location-based-routing-plan.md
-                  - name: 为基于位置的路由配置网络设置
-                    href: location-based-routing-configure-network-settings.md
-                  - name: 为直接路由启用基于位置的路由
-                    href: location-based-routing-enable.md
-              - name: 直接路由的媒体旁路
-                items:
-                  - name: 使用直接路由规划媒体旁路
-                    href: direct-routing-plan-media-bypass.md
-                  - name: 使用直接路由配置媒体旁路
-                    href: direct-routing-configure-media-bypass.md
-              - name: 直接路由本地媒体优化
-                items:
-                  - name: 本地媒体优化计划
-                    href: direct-routing-media-optimization.md
-                  - name: 配置本地媒体优化
-                    href: direct-routing-media-optimization-configure.md
-              - name: 采用 PSTN 连接的混合环境中的用户帐户
-                href: direct-routing-user-accounts-in-a-hybrid-environment.md
-              - name: 迁移到直接路由
-                href: direct-routing-migrating.md
-              - name: 对直接路由进行监视和故障排除
-                items:
-                  - name: 概述
-                    href: direct-routing-monitor-and-troubleshoot.md
-                  - name: 运行状况面板
-                    href: direct-routing-health-dashboard.md
-              - name: 直接路由技术参考
-                items:
-                  - name: 出站呼叫发生语音中继故障转移
-                    href: direct-routing-trunk-failover-on-outbound-call.md
-                  - name: 媒体路径国家/地区代码
-                    href: direct-routing-country-codes.md
-                  - name: 用于测试会话边界控制器连接的 PowerShell 脚本
-                    href: sip-tester-powershell-script.md
-                  - name: 协议
-                    items:
-                      - name: 定义和 RFC 标准
-                        href: direct-routing-protocols.md
-                      - name: SIP 协议
-                        href: direct-routing-protocols-SIP.md
-                      - name: 媒体协议
-                        href: direct-routing-protocols-media.md
-                  - name: 直接路由 Survivable Branch Appliance
-                    href: direct-routing-survivable-branch-appliance.md
+                  - name: 定义和 RFC 标准
+                    href: direct-routing-protocols.md
+                  - name: SIP 协议
+                    href: direct-routing-protocols-SIP.md
+                  - name: 媒体协议
+                    href: direct-routing-protocols-media.md
+              - name: 管理语音路由策略
+                href: manage-voice-routing-policies.md
+              - name: 直接路由 Survivable Branch Appliance
+                href: direct-routing-survivable-branch-appliance.md
+      - name: 运营商连接
+        items:
+          - name: 运营商连接计划
+            href: operator-connect-plan.md
+          - name: 配置运营商连接
+            href: operator-connect-configure.md
       - name: 电话号码
         items:
           - name: 管理组织的电话号码
@@ -1049,10 +1029,8 @@ items:
                 href: emergency-calling-labels.md
           - name: 管理紧急呼叫策略
             href: manage-emergency-calling-policies.md
-          - name: 管理直接路由的紧急呼叫路由策略
+          - name: 管理紧急呼叫路由策略
             href: manage-emergency-call-routing-policies.md
-      - name: 在 Teams 中管理语音和呼叫策略
-        href: voice-and-calling-policies.md
       - name: Contoso 语音迁移案例研究
         items:
           - name: 概述
@@ -1420,8 +1398,6 @@ items:
             items:
               - name: 通过 Teams 进行虚拟访问 - 集成到 EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: EHR 管理员报告
-                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: 通过 Bookings 和 Teams 进行虚拟访问
                 href: bookings-app-admin.md
           - name: 查看和分配策略包
@@ -1473,16 +1449,12 @@ items:
                 href: class-insights.md
               - name: 使用见解同步 SIS 数据
                 href: education-insights-sis-data-sync.md
-              - name: 管理对 Insights 的用户访问
-                href: education-insights-manage-access.md
               - name: 开始使用 Reflect
                 href: reflect.md
           - name: Teams 教育版中的分配
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: 面向教育版管理员的 Teams 资源
             href: resources-teams-edu.md
-          - name: Teams 教育版的设备
-            href: devices-for-education.md
           - name: 面向管理员的 Microsoft 教育版管理常见问题解答
             href: plan-teams-governance-edu.md
           - name: 安装 Moodle 集成
@@ -1493,7 +1465,7 @@ items:
             href: sku-reference-edu.md
       - name: 适合一线员工的 Teams
         items:
-          - name: 一线员工快速入门指南
+          - name: 适合一线员工的快速入门
             href: flw-quickstart.yml
           - name: 一线员工脚本化部署
             href: flw-scripted-deployment.md
@@ -1545,8 +1517,6 @@ items:
             href: g1-trial-license.md
           - name: 管理 Teams 探索体验
             href: teams-exploratory.md
-          - name: 从 Teams 探索升级用户
-            href: upgrade-from-teams-exploratory.md
           - name: 管理 Teams 的免费版本
             href: manage-freemium.md
           - name: 将 Teams 免费升级到订阅版本
@@ -1574,6 +1544,8 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 和 OneDrive for Business 与 Teams 如何交互
             href: sharepoint-onedrive-interact.md
+          - name: Microsoft 365 和 Office 365 支持多地理位置的租户中的 Teams 体验
+            href: teams-experience-o365odb-spo-multi-geo.md
       - name: 支持的设备
         items:
           - name: 在 Teams 中管理设备
@@ -1589,23 +1561,17 @@ items:
           - name: Teams 显示
             href: devices/teams-displays.md
           - name: Teams 面板
-            items:
-              - name: Teams 面板
-                href: devices/teams-panels.md
-              - name: 使用 Teams 面板
-                href: devices/use-teams-panels.md
-              - name: Teams 面板上的应用支持
-                href: app-support-on-Teams-panels.md
+            href: devices/teams-panels.md
+          - name: 使用 Teams 面板
+            href: devices/use-teams-panels.md
           - name: 将 Teams 手机升级至 Teams 显示
             href: devices/upgrade-phones-to-displays.md
           - name: 使用 Intune 部署 Teams 和 Teams 显示
             href: devices/phones-displays-deploy.md
           - name: USB 音频和视频设备
             href: devices/usb-devices.md
-          - name: 在 Android 上部署 Microsoft Teams 会议室
+          - name: 为 Microsoft Teams 部署协作栏
             href: devices/collab-bar-deploy.md
-          - name: 设置 Microsoft Teams Android 设备用户接口
-            href: devices/Teams-Android-devices-user-interface.md
           - name: 会议室设备和解决方案
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams 认证设备
@@ -1877,4 +1843,4 @@ items:
       - name: 升级发现调查表
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 管理员功能的发行说明
-        href: /OfficeUpdates/teams-admin
+        href: release-notes/release-notes.md
