@@ -269,7 +269,7 @@ items:
             href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: AppLocker 应用程序控制策略
             href: applocker-in-teams.md
-          - name: 阻止对 Sharepoint 的访问
+          - name: 阻止对 SharePoint 的访问
             href: block-access-sharepoint.md
       - name: 合规性
         items:
@@ -515,6 +515,8 @@ items:
         items:
           - name: 在管理中心中使用团队模板
             href: get-started-with-teams-templates-in-the-admin-console.md
+          - name: 使用Microsoft Graph开始使用团队模板
+            href: get-started-with-teams-templates.md
           - name: 适用于中小型企业的 Graph 内置团队模板
             href: smb-templates.md
           - name: 创建自定义团队模板
@@ -1405,8 +1407,6 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: 所有行业
         items:
-          - name: 团队模板入门
-            href: get-started-with-teams-templates.md
           - name: Teams 中的班次
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             items:
