@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在瑞典获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: f15b918536ff20f8baeeccbb5a11364346a173d3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 85d6d4c35acfa8a9768444d07f23d929227a934f
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233027"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380586"
 ---
 # <a name="phone-number-management-for-sweden"></a>电话瑞典的号码管理
 
@@ -34,7 +34,7 @@ ms.locfileid: "58233027"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [瑞典新电话号码请求 (v.5.0)  (sv-se) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [瑞典 5.0 (5.0)  (2016 的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。|
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [瑞典新电话号码请求 (v.5.0)  (sv-se) ](https://download.microsoft.com/download/5/e/3/5e3b17c3-9cc3-4098-8b03-4235dd42e724/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf) <br/>  [瑞典 5.0 (5.0)  (100 的新电话号码) ](https://download.microsoft.com/download/a/3/0/a30b10be-42db-458d-bda2-adb320f2e2f3/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf)<br/>  <br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。|
 获取转接给我们的电话号码。  <br/> |下载此表单。 <br/>[瑞典的 (LOA) 授权书 (所有)  (v.5.0)  (sv-se) ](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 <br/> |
 |发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。      <br/> |
 |将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |

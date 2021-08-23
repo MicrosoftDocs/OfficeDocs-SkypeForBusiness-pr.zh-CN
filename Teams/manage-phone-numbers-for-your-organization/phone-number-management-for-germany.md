@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在德国获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 5df4949bd69967173ec9cc20bae7af77c6d02fdc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 38d8f6d746e68340afd019666fac072054ef44c3
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232657"
+ms.locfileid: "58348484"
 ---
 # <a name="phone-number-management-for-germany"></a>德国的电话号码管理
 
@@ -35,8 +35,8 @@ ms.locfileid: "58232657"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。  <br/> | 在德国，你无法通过管理中心获取Microsoft Teams电话号码。 你必须提交新的电话号码申请。 <br/><br/>下载这些表单之一。 <br/>[德国 v.5.0 ()  (de-de) 的新电话号码请求 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [有关德国 5.5.0 (5.0)  (的新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
-|获取转接给我们的电话号码。  <br/> | 下载这些表单之一。 <br/><br/> 对于用户电话号码：<br/>[德国 (LOA)  ()  (v.5.0)  (de-de-de) ](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  对于免费电话号码：<br/>[德国的 (LOA) 授权书 (免费号码)  (v.5.0)  (de-de-de) ](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> 填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。  <br/> | 在德国，你无法通过管理中心获取Microsoft Teams电话号码。 你必须提交新的电话号码申请。 <br/><br/>下载这些表单之一。 <br/>[德国 v.5.0 ()  (de-de) 的新电话号码请求 ](https://download.microsoft.com/download/3/d/0/3d08f249-93a6-4bec-8c89-a2614ee0b84d/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf) <br/>  [有关德国 5.5.0 (5.0)  (的新电话号码) ](https://download.microsoft.com/download/e/0/4/e043635c-f275-40dc-a45e-3120dfe0d748/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf)<br/><br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
+|获取转接给我们的电话号码。  <br/> | 下载这些表单之一。 <br/><br/> 对于用户电话号码：<br/>[德国的 (LOA) 授权书 ()  (v.5.0)  (de-de-de) ](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  对于免费电话号码：<br/>[德国的 (LOA) 授权书 (免费电话号码)  (v.5.0)  (de-de-de) ](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> 填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
 |发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。 <br/> |
 |将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台，获得说明](contact-pstn-service-desk.md)。 |

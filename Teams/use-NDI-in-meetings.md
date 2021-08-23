@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中使用 NDI
+title: 在 Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eebbea6ce5d632d38e94465f05fd9f60a3300a4e060106e7ba2f6218433c5e8b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2a9eed33ba105584379f207697c27e8d6bd6cde5
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335812"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359179"
 ---
-# <a name="use-ndi-technology-in-microsoft-teams"></a>在 ® 中使用 NDI Microsoft Teams 技术
+# <a name="use-ndi-technology-in-microsoft-teams"></a>在 ® 中使用 NDI Microsoft Teams
 
- NewTek NDI® (网络设备接口) 技术是一种现代解决方案，用于将媒体设备与 (例如工作室摄像头和混音器) 。 NDI-®技术无需使用物理连接，而是通过本地 Intranet（包括在本地计算机上）建立连接。
+ NewTek NDI® (网络设备接口) 技术是一种现代解决方案，用于将媒体设备与 (例如工作室相机和混音器) 。 NDI-®技术无需使用物理连接，而是通过本地 Intranet（包括本地计算机）建立连接。
 
-NDI® 技术已成为一种标准行业解决方案，用于为流生成实时内容，并获得了专业广播世界的重要认知和采用。
+NDI®技术已成为一种标准行业解决方案，用于为流生成实时内容，并获得了专业广播世界的重要认知和采用。
 
 Skype 2018 年底® NDI Skype功能。 Microsoft Teams此功能来改善会议体验。
 
@@ -37,15 +37,17 @@ NDI®仅限本地网络，只应视为生产工作流的一部分，而不是广
 
 NDI®技术要求为用户启用两个步骤。
 
-1. 租户管理员必须在 CsTeamsMeetingPolicy 中启用"AllowNDIStreaming"属性。
+1. 租户管理员必须允许最终用户为会议策略启用 NDI。 可以在管理门户中单独完成此操作，Teams CsTeamsMeetingPolicy 中的 _AllowNDIStreaming_ 属性通过 Teams PowerShell 完成此操作。
 
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
-```
+    ```PowerShell
+    Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+    ```
 
-2. 填充此更改后，最终用户必须从"权限"®**客户端启用** NDI设置  >  **技术**。
+2. 填充此更改后，最终用户必须从"权限"®启用其特定客户端 **的** NDI设置  >  **技术**。
 
-当用户加入会议时，他们将看到一条消息，通知他们正在直播会议。 如果用户不希望包含在直播中，则需要从会议删除。
+为用户及其特定客户端启用后，用户可以通过溢出菜单并选择"通过 NDI 广播"来启用 NDI。
+
+启动 NDI 并让终结点订阅 NDI 源后，他们将看到一条消息，通知他们会议正在直播。 如果用户不希望包含在直播中，则需要从会议删除。
 
 下图显示了用户在会议或会议Teams消息。
 
@@ -54,16 +56,10 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 横幅包含指向 [Microsoft 隐私策略 的链接](https://aka.ms/teamsprivacy)。
 
 > [!NOTE]
-> NDI®每个会话激活。 下次登录时，用户必须先激活它，然后才能使用 NDI®。
+> NDI®每个会话激活。 下一次会议中，用户必须先激活它，然后才能使用 NDI®。
 
 ## <a name="supported-locales-and-user-types"></a>支持区域设置和用户类型
 
-所有®都支持 NDI-®技术。 NDI 技术流中包含®用户，但并非所有用户都可以访问 NDI®流：
+所有®都支持 NDI-®技术。
 
-- 租户内 - 完全支持，基于由会议策略组控制的 ring/tenantId/userId (提供) 
-- 联合 - 即使 (1 上具有 NDI®技术，也) <sup>流访问</sup>
-- 高级版 - 无流访问
-- 匿名 – 无流访问
-- 来宾 – 无流访问  
-
-<sup>1</sup> 设备具有默认® NDI 技术设置。 如果会议参与者使用的设备具有 NDI®技术，则需要启用 NDI®技术。
+尝试使用 NDI 的访问权限取决于尝试激活该功能的用户的会议策略。 对于最安全的解决方案，请不要将 NDI 策略作为全局设置打开。

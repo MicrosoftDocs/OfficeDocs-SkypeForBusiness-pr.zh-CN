@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9562deeb7ec2cf4225d80c723d093c3e40e814dc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c1fe798b4077524b14588d4bb0824ecaae2a20b2
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234247"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380386"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -127,7 +127,7 @@ Microsoft Teams 教育版提供了针对教育用途的  [特定团队类型](
 
 #### <a name="automatic-team-creation-using-sds"></a>使用 SDS 自动创建团队
 
-自动创建团队可节省 IT 管理员和教师的时间。 它确保教师已经创建了所有课堂团队，并已准备好在登录时设置。 [学校数据同步 (SDS)](/SchoolDataSync)是一款免费的 Office 365 教育工具，可以从教育机构的记录系统中读取数据，例如学生信息系统（SIS）或学习管理系统（LMS）。 SDS 使用这些数据以多种方式丰富 Office 365 的设置，包括批量创建课堂团队，以及与信息系统保持同步，以便在注册情况发生变化时随时更新教师和学生成员。 SDS 可以导入任何记录系统中的数据，并将内置连接器用于许多世界现有[ SIS 供应商](/schooldatasync/what-sis-and-mis-vendors-does-school-data-sync-support)。 我们强烈推荐使用SDS，因为它有以下优点。  
+自动创建团队可节省 IT 管理员和教师的时间。 它确保教师已经创建了所有课堂团队，并已准备好在登录时设置。 [学校数据同步 (SDS)](/SchoolDataSync)是一款免费的 Office 365 教育工具，可以从教育机构的记录系统中读取数据，例如学生信息系统（SIS）或学习管理系统（LMS）。 SDS 使用这些数据以多种方式丰富 Office 365 的设置，包括批量创建课堂团队，以及与信息系统保持同步，以便在注册情况发生变化时随时更新教师和学生成员。 SDS 可以导入任何记录系统中的数据，并将内置连接器用于许多世界现有[ SIS 供应商](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support)。 我们强烈推荐使用SDS，因为它有以下优点。  
 
 ###### <a name="benefits"></a>优点
 

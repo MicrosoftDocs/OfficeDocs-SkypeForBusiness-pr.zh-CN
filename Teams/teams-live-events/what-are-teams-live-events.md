@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: d4a4e57acf5987d670ebb75385bdcfc4406ba505
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b445c44fa7517c7ffbc6bdefdb0505cff88c999
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233237"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359209"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么
 
@@ -43,7 +43,7 @@ Teams 实时事件是 Skype 会议直播的下一版本，会最终代替 Skype 
 
 让我们开始吧。首先，看看下面的关系图，它显示了 Microsoft 365 实时事件中的高级组件及它们之间联系的方式。
 
-![实时事件的主要组件](../media/live-event-flow-diagram1.png  "实时事件的主要组件，日程安排、生成、数据流平台和认证第三方 eCDN 提供商")
+![实时事件的主要组件](../media/live-events-flow-diagram.png  "实时事件的主要组件，日程安排、生成、数据流平台和认证第三方 eCDN 提供商")
 
 > [!Note]
 > 我们想要强调的是，鉴于广播技术的性质，Teams 直播活动通常会超过普通（内部）的会议人数。

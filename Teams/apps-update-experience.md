@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何在应用中更新Microsoft Teams。
-ms.openlocfilehash: e271af73800e87ddf5c0f83009fbd85002fc059e8da3f2479198de9ae64ea698
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何在 Microsoft Teams 中更新应用。
+ms.openlocfilehash: a1a5cc6d926e7bc183db9950f1d11c1e3ffcd06c
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288400"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359139"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>更新应用中Microsoft Teams
 
@@ -32,11 +32,9 @@ ms.locfileid: "54288400"
 * 已添加或删除机器人
 * 现有机器人的"botId"属性已更改
 * 更改了现有机器人的"isNotificationOnly"属性
-* 机器人的"supportsFiles"属性已更改
-* 已添加或删除消息扩展
+* 添加了机器人的 SupportsCalling、SupportsVideo 和 SupportsFiles 功能
+* 已添加消息传送扩展
 * 添加了一个新连接器
-* 添加了新的静态选项卡
-* 添加了一个新的可配置选项卡
 * "webApplicationInfo"中的属性已更改
 
 ![可用的新版本](media/manage-your-custom-apps-update1.png)

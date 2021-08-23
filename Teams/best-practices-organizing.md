@@ -17,15 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8abb6718fe79b4ee15a679e768711fde8310536e67d34ccea440684717e03596
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff8aede350f132d28ffed9b09e7bc776553e4c0a
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305084"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372042"
 ---
-<a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
-======================================================
+# <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 
 团队是为了实现共同目标而聚集在一起的人员集合。 这组人可能来自一个部门，也可能来自整个组织。 他们为了实现共同目标而聚集在一起。 团队成员可以不同的节奏工作，或以不同的方式创建资产，但根据我们的经验，他们经常快速地相互协作，我们将这一过程称为“高速团队合作”。  
 

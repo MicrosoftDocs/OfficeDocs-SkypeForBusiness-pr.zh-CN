@@ -1,5 +1,5 @@
 ---
-title: 为本地媒体优化配置直接路由Teams
+title: 为直接路由配置本地媒体优化
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,23 +16,23 @@ f1.keywords:
 description: 为直接路由配置本地媒体优化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf370087d109ebd12da150af44d2f13b455f4f6e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235357"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365629"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>为直接路由配置本地媒体优化
 
-本地媒体优化的配置基于其他云语音功能常用的网络设置，例如Location-Based路由和动态紧急呼叫。 若要详细了解网络区域、网络站点、网络子网和受信任的 IP 地址，请参阅云 [语音功能的网络设置](cloud-voice-network-settings.md)。
+本地媒体优化的配置基于其他云语音功能常用的网络设置，例如Location-Based和动态紧急呼叫。 若要详细了解网络区域、网络站点、网络子网和受信任的 IP 地址，请参阅云 [语音功能的网络设置](cloud-voice-network-settings.md)。
 
 配置本地媒体优化之前，请参阅 [直接路由的本地媒体优化](direct-routing-media-optimization.md)。  
 
 若要配置本地媒体优化，需要执行以下步骤。 可以使用 Teams 管理中心或 PowerShell。 有关详细信息，请参阅 [管理网络拓扑](manage-your-network-topology.md)。
 
 1. 根据本文 (配置用户和 SBC) 。
-2. 根据 SBC 供应商规范 (为本地媒体优化配置 SBC) 。
+2. 根据 SBC 供应商规范配置用于本地媒体优化 (SBC) 。
 
 下图显示了本文中示例中使用的网络设置。
 
@@ -52,36 +52,7 @@ ms.locfileid: "58235357"
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>根据 SBC (规范) SBC 优化的 SBC 配置
 
-本文介绍 Microsoft 组件的配置。 有关 SBC 配置的信息，请参阅 SBC 供应商文档。
-
-以下 SBC 供应商支持本地媒体优化：
-
-| 供应商 | 产品 |    软件版本 |
-|:------------|:-------|:-------|
-| [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
-|            |  Mediant 800 SBC |   7.20A.256 | 
-|            |  Mediant 2600 SBC |  7.20A.256 | 
-|            |  Mediant 4000 SBC |  7.20A.256 | 
-|            |  Mediant 1000B SBC | 7.20A.256 | 
-|            |  Mediant 9000 SBC |  7.20A.256 | 
-|            |  Mediant Virtual Edition SBC |   7.20A.256 | 
-|            |  Mediant Cloud Edition SBC | 7.20A.256 |
-| [功能区 SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
-|            |  SBC 5210         | 8.2  |
-|            |  SBC 5400         | 8.2  |
-|            |  SBC 7000         | 8.2  |
-|            |  SBC SWe          | 8.2  |
-| [功能区 SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
-|               | SBC 1000 | 8.1.5  |
-|               | SBC 2000 | 8.1.5  |
-| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
-| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
-|        | AP 3900 | 8.4.0.0.0 |
-|        | AP 4600 | 8.4.0.0.0 | 
-|        | AP 6300 | 8.4.0.0.0 |
-|        | AP 6350 | 8.4.0.0.0 | 
-|        | VME     | 8.4.0.0.0 |
-
+本文介绍 Microsoft 组件的配置。 有关 SBC 配置的信息，请参阅 SBC 供应商文档。 有关哪些 SBC 供应商支持本地媒体优化的信息，请参阅为直接路由 [认证的会话边界控制器](direct-routing-border-controllers.md)。
 
 ## <a name="manage-external-trusted-ip-addresses"></a>管理外部受信任的 IP 地址
 
@@ -165,10 +136,10 @@ PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -M
 ```
 
 请注意以下事项： 
-   - 如果客户具有单个 SBC，则 -ProxySBC 参数必须是具有集中式中继方案的 $null 或 SBC FQDN 值 (Central S) BC。
+   - 如果客户具有单个 SBC，则 -ProxySBC 参数必须是具有集中式中继方案的 $null 或 SBC FQDN (Central SBC 的必需) 。
    - -MediaBypass 参数必须设置为 $true 以支持本地媒体优化。
    - 如果 SBC 未设置 -BypassMode 参数，将不会发送 X-MS 标头。 
-   - 所有参数都区分大小写，因此需确保使用的大小写与设置期间使用的大小写相同。   (例如，GatewaySiteID 值"越南"和"越南"将视为不同的站点。) 
+   - 所有参数都区分大小写，因此需确保使用的大小写与设置期间使用的大小写相同。   (例如，GatewaySiteID 值"越南"和"越南"将视为不同的 sites.) 
 
 以下示例使用"始终绕过"模式将三个 SDC 添加到 APAC 区域的网络站点越南、印度尼西亚和新加坡：
 
@@ -184,7 +155,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 根据上述信息，直接路由将包括三个专有的 SIP 标头到 SIP 邀请和重新邀请，如下表所示。
 
-如果定义了 BypassMode，则直接路由邀请和Re-Invites引入的 X-MS 标头：
+在邀请和邀请的直接路由中引入的 X-MS Re-Invites（如果已定义 BypassMode）：
 
 | 标头名称 | 值 | 备注 | 
 |:------------|:-------|:-------|
@@ -290,7 +261,7 @@ AlwaysBypass |  外部 |  不适用 | 出站 |
 |:------------|:-------|:-------|:-------|
 AlwaysBypass |  外部 |  不适用 |   入站 |
 
-对于入站呼叫，默认情况下，连接到直接路由的 SBC 需要发送重新邀请 (，如果用户的位置在外部，则始终提供本地媒体候选) 。  X-MediaPath 基于指定的 Record-Route SBC 用户计算。
+对于入站呼叫，连接到直接路由的 SBC 需要默认发送重新邀请 (，如果用户的位置在外部，则始终提供本地媒体候选) 。  X-MediaPath 基于指定的 Record-Route SBC 用户计算。
 
 下图显示了具有 AlwaysBypass 模式的入站呼叫的 SIP 阶梯，并且用户是外部用户。
 
@@ -314,13 +285,13 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 |:------------|:-------|:-------|:-------|:-------|
 | 越南 | +84 4 3926 3000 |  +84 4 5555 5555 | 优先级 1：^ \+ 84 (\d {9}) $ -VNsbc.contoso.com <br> 优先级 2：.* - proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – 始终绕过 |
 
-#### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>出站呼叫和用户位于 SBC 的同一位置，仅针对本地用户
+#### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>出站呼叫和用户与 SBC 位于同一位置，仅针对本地用户
 
 | 模式 | 用户 | 站点 | 呼叫方向 |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |   内部 |与 SBC 相同   | 出站 |
 
-下图显示了具有 OnlyForLocalUsers 模式的出站调用，并且用户与 SBC 位于同一位置。 当用户与 SBC 位于同一位置时，这是出站调用 [中显示的同一流](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
+下图显示了具有 OnlyForLocalUsers 模式的出站调用，并且用户与 SBC 位于同一位置。 当用户与 SBC 位于同一位置时，此流显示在出站 [调用中](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
 
 ![图表再次显示 SIP 阶梯。](media/direct-routing-media-op-14.png)
 
@@ -356,7 +327,7 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers | 内部 |    不同于 SBC |    入站 |
 
-下图显示了具有 OnlyForLocalUsers 模式的入站调用，以及与 SBC 不在同一位置的内部用户。
+下图显示了具有 OnlyForLocalUsers 模式的入站呼叫，以及与 SBC 不在同一位置的内部用户。
 
 ![另一张显示 SIP 阶梯的图表。](media/direct-routing-media-op-17.png)
 

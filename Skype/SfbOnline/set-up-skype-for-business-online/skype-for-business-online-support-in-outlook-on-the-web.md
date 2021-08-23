@@ -18,25 +18,24 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Outlook 网页版 (Outlook Web App) 导航Microsoft 365 Office 365导航栏中Skype for Business Web 客户端。 此基本客户端适用于管理员尚未配置其应用和Microsoft 365虚 URL Office 365。 只要用户帐户处于联机状态且没有虚 URL，即使其组织具有本地的一些用户帐户，他们仍将看到体验。 在本地拥有用户帐户的用户 (无论他们是否具有虚 URL) 或由 Microsoft 管理的用户都将在 Outlook Web 应用中看到 Lync 体验。
-ms.openlocfilehash: a8ac60b9710720410a0bf0de39d6c5bc5473909bceeaf576add8f65008553183
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Outlook 网页版 (Outlook Web App) 导航Microsoft 365 Office 365导航栏中提供Skype for Business Web 客户端的基本信息。 此基本客户端适用于其管理员尚未为用户和用户配置虚 URL Microsoft 365 Office 365。 只要用户帐户处于联机状态且没有虚 URL，即使其组织有一些本地用户帐户，他们仍将看到体验。 在本地拥有用户帐户的用户 (无论他们是否具有虚 URL) 或由 Microsoft 管理，都将在 Outlook Web 应用中看到 Lync 体验。
+ms.openlocfilehash: b7f8577ec54413f30874cf3ff07a99ce4bdaa741
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294969"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407231"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Outlook 网页版中的 Skype for Business Online 支持
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Outlook 网页版 (Outlook Web App) 导航Microsoft 365 Office 365导航栏中Skype for Business Web 客户端。 此基本客户端适用于管理员尚未配置其应用和Microsoft 365虚 URL Office 365。 只要用户帐户处于联机状态且没有虚 URL，即使其组织具有本地的一些用户帐户，他们仍将看到体验。 在本地拥有用户帐户的用户 (无论他们是否具有虚 URL) 或由 Microsoft 管理的用户都将在 Outlook Web 应用中看到 Lync 体验。
+Outlook 网页版 (Outlook Web App) 导航Microsoft 365 Office 365导航栏中提供Skype for Business Web 客户端的基本信息。 此基本客户端适用于其管理员尚未为用户和用户配置虚 URL Microsoft 365 Office 365。 只要用户帐户处于联机状态且没有虚 URL，即使其组织有一些本地用户帐户，他们仍将看到体验。 在本地拥有用户帐户的用户 (无论他们是否具有虚 URL) 或由 Microsoft 管理，都将在 Outlook Web 应用中看到 Lync 体验。
   
 下表汇总了你可能拥有的不同设置以及所使用的 Web 客户端。
   
-||||
-|:-----|:-----|:-----|
 |**已定位用户帐户** <br/> |**已配置虚 URL 或存在专用组织** <br/> |**Skype for Business 还是 Lync 体验？** <br/> |
+|:-----|:-----|:-----|
 |Online  <br/> |否  <br/> |Skype for Business Web 体验  <br/> |
 |Online  <br/> |是  <br/> |Lync Web 体验  <br/> |
 |混合但联机托管  <br/> |否  <br/> |Skype for Business Web 体验  <br/> |

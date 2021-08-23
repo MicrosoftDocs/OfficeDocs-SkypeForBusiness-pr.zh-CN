@@ -14,33 +14,33 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 本文介绍在 Microsoft Teams 管理中心Teams报表。
+description: 本文介绍在 Teams 管理中心中可用的Microsoft Teams报表。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d134e80727a39d88239802b696b86565a60847aa0f7d934cfad5d53377b8668d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61e40646318105d633b14d44a2eb8bfe41f13fa8
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321266"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399101"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
-新的分析和报告体验可在 Microsoft Teams 管理中心Microsoft Teams体验。 可以运行不同的报告来深入了解组织中用户如何使用Teams。 例如，你可以看到多少用户通过通道和聊天消息进行通信，以及他们用于连接到Teams。 组织可以使用报告中的信息更好地了解使用模式、帮助做出业务决策，以及告知培训和沟通工作。
+新的分析和报告体验Microsoft Teams管理中心提供Microsoft Teams体验。 可以运行不同的报表来深入了解组织中用户如何使用 Teams。 例如，你可以看到多少用户通过通道和聊天消息进行通信，以及他们用于连接到Teams。 组织可以使用报告中的信息更好地了解使用模式、帮助做出业务决策，以及告知培训和沟通工作。
 
 ## <a name="how-to-access-the-reports"></a>如何访问报表
 
-若要访问报表，你必须是管理员或管理员Microsoft 365 Office 365、Teams管理员或Skype for Business管理员。若要详细了解Teams角色以及每个管理员角色可以访问哪些报告，请参阅使用 Teams[管理员角色管理Teams。](../using-admin-roles.md)
+若要访问报表，您必须是 Microsoft 365 或 Office 365 中的全局管理员、Microsoft 365 或 Office 365 中的全局Teams管理员或 Skype for Business 管理员。若要详细了解管理员Teams以及每个管理员角色可以访问哪些报告，请参阅使用 Teams[管理员角色管理Teams。](../using-admin-roles.md)
 
-转到Microsoft Teams中心，在左侧导航栏中，选择"分析&报表"，然后在"报表"下选择要运行的报表。 
+转到Microsoft Teams管理中心，在左侧导航栏中，选择"分析&报表"，然后在"报表"下选择要运行的报表。  
 
 > [!NOTE]
-> Microsoft Teams管理中心中的报表独立于 Teams 活动报告，这些报表是 Microsoft 365 报表的Microsoft 365 管理中心。 有关活动报告中的活动报告Microsoft 365 管理中心，请参阅Teams[中的活动Microsoft 365 管理中心](../teams-activity-reports.md)
+> Microsoft Teams 管理中心中的报表独立于 Teams 中组报表Microsoft 365活动Microsoft 365 管理中心。 有关活动报告中的活动报告Microsoft 365 管理中心，请参阅Teams[中的活动Microsoft 365 管理中心](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams报告参考
 
-下面是管理中心Teams报表的列表Microsoft Teams以及每个报告中可用的一些信息的概述。
+下面是管理中心Teams报表的列表Microsoft Teams以及每个报告中提供的一些信息的概述。
 
 我们正在不断改进报告体验Teams添加特性和功能。 随着时间的过去，我们将向报表构建其他功能，并添加新报表，Microsoft Teams管理中心。
 
@@ -54,16 +54,16 @@ ms.locfileid: "54321266"
 |[TeamsPSTN 分钟池报告](pstn-minute-pools-report.md) |  国家或地区<br>功能 (许可证)  <br>总分钟数<br>使用的分钟数<br>可用分钟数|
 |[TeamsPSTN 使用情况报告 - 呼叫计划](pstn-usage-report.md#calling-plans)|  时间戳<br>用户名<br>电话数字<br>呼叫类型 <br>调用到<br>到国家/地区 <br>从 调用 <br>从国家/地区<br>费用<br>货币<br>持续时间<br>国内/国际<br>呼叫 ID<br>数字类型<br>国家或地区<br>会议 ID<br>功能 (许可证) |
 |[TeamsPSTN 使用情况报告 - 直接路由](pstn-usage-report.md#direct-routing)  |  时间戳<br>显示名称<br>SIP 地址<br>电话数字 <br>呼叫类型<br>调用到<br>开始时间<br>邀请时间<br>故障时间<br>结束时间<br>持续时间<br>数字类型<br>媒体旁路<br>SBC FQDN<br>Azure 区域<br>事件类型<br>最终 SIP 代码<br>最终 Microsoft 子代码<br>最终 SIP 短语<br>关联 ID  |
-|[Teams信息保护许可证报告 - 直接路由](information-protection-license-report.md)  | <br>用户是否具有通过更改通知推送其消息的有效许可证</br><br>由用户分类的更改通知事件总数</br><br>哪些应用正在侦听组织范围的更改通知事件</br>|
+|[Teams信息保护许可证报告 - 直接路由](information-protection-license-report.md)  | <br>用户是否具有通过更改通知推送其消息的有效许可证</br><br>用户触发的更改通知事件总数</br><br>哪些应用正在侦听组织范围的更改通知事件</br>|
 
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>使用户特定的数据匿名
 
-若要使用户活动Teams设备使用情况报告匿名Teams，您必须是全局管理员。 这会在报表及其导出中隐藏显示名称、电子邮件和 AAD ID 等可识别信息。
+若要使用户活动Teams数据Teams设备使用情况报告匿名，你必须是全局管理员。 这会在报表及其导出中隐藏显示名称、电子邮件和 AAD ID 等可识别信息。
 
-1. 在Microsoft 365 管理中心中，转到 **"设置** \> **Org 设置"，** 在"服务 **"** 选项卡下，选择"报表 **"。**
+1. 在Microsoft 365 管理中心，转到"设置 Org \> **设置"，在**"服务"选项卡下，选择"报表 **"。**
     
 2. 选择 **"报告**"，然后选择"**显示匿名标识符"。** 此设置同时应用于管理中心Microsoft 365 管理中心使用情况Teams报表。
   

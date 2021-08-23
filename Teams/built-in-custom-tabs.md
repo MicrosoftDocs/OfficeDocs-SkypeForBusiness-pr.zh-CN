@@ -16,19 +16,18 @@ search.appverid: MET150
 description: 了解如何使用内置选项卡和自定义选项卡来包括对话、文件、地图等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78d4950f6c85910bb5b6c155c63a1048d73022d00ea9447fff3521c3b617fd6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5eb82e322f8e8f28c7e1afc8c3c0b76ce277a36
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295229"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372062"
 ---
-<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft Teams 中使用内置选项卡和自定义选项卡
-==================================================
+# <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft Teams 中使用内置选项卡和自定义选项卡
 
-选项卡允许团队成员访问频道内或聊天中专用空间中的服务和内容。 这样，团队可以直接处理工具和数据，并可以在频道或聊天的上下文中就工具和数据展开对话。
+选项卡允许团队成员访问频道或聊天中专用空间中的服务和内容。 这样，团队可以直接处理工具和数据，并可以在频道或聊天的上下文中就工具和数据展开对话。
 
-所有者和团队成员可以向频道、私人聊天和群组聊天中添加选项卡，以帮助集成其云服务。 可以添加选项卡以帮助用户轻松访问和管理所需的数据，或者与大多数用户进行交互。 这可以是 Power BI 报表、仪表板，甚至可以是 [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) 视频频道，你可以在此发布培训视频。
+所有者和团队成员可以向频道、私人聊天和群组聊天中添加选项卡，以帮助集成其云服务。 可以添加选项卡来帮助用户轻松访问和管理所需的数据，或者与大多数用户进行交互。 这可以是 Power BI 报表、仪表板，甚至可以是 [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) 视频频道，你可以在此发布培训视频。
 
 ![三个显示选项卡中各种内容的屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
@@ -58,7 +57,7 @@ ms.locfileid: "54295229"
 
 ## <a name="develop-custom-tabs"></a>开发自定义选项卡
 
-除了内置选项卡外，您还可以设计和开发自己的选项卡，以集成到Teams或与社区的其他人共享。 有关详细信息，请参阅“[开发人员文档](/microsoftteams/platform/tabs/what-are-tabs)”。
+除了内置选项卡外，还可以设计和开发自己的选项卡，以Teams或与社区的其他人共享。 有关详细信息，请参阅“[开发人员文档](/microsoftteams/platform/tabs/what-are-tabs)”。
 
 ![Microsoft Teams 中的示例自定义选项卡屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

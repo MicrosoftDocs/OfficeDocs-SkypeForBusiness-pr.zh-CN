@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理法国用户的电话号码Microsoft Teams。
-ms.openlocfilehash: 81778d63eeb6f63497d9f37597e51e7c4e5eca6b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 862f746c7911ab86d292a0d99699d8fcec86e52a
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233277"
+ms.locfileid: "58348344"
 ---
 # <a name="phone-number-management-for-france"></a>法国的电话号码管理
 
@@ -35,8 +35,8 @@ ms.locfileid: "58233277"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> | 下载这些表单之一。 <br/> [法国 v.6.)  (0 (fr-fr) 的新电话号码请求 ](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [针对法国的 v.5.0 (5.0)  (新电话号码) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/>
-|获取转接给我们的电话号码。  <br/> |下载这些表单之一。 <br/><br/> 对于用户电话号码：<br/>[法国 ()  ()  (v.5.0)  (fr-fr) ](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>对于免费电话号码： <br/>[法国的 (LOA) 授权书 (免费电话号码)  (v.6.0)  (fr-fr) ](https://download.microsoft.com/download/b/5/0/b502c0e2-80d1-4d5c-8914-12617a173933/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.6.0)-(fr-fr).pdf) <br/> <br/> 填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> | 下载这些表单之一。 <br/> [法国 v.6.0 (fr-fr)  (的新电话号码) ](https://download.microsoft.com/download/0/b/0/0b033801-8340-4d68-bf27-7a242df27516/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [法国 5.0 (5.0)  (的新电话号码) ](https://download.microsoft.com/download/b/c/9/bc9f48ba-09d5-4345-a6a7-9cd460b481c1/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf)<br/> <br/>   填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/>
+|获取转接给我们的电话号码。  <br/> |下载这些表单之一。 <br/><br/> 对于用户电话号码：<br/>[法国 (LOA)  ()  (v.5.0)  (fr-fr) ](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>对于免费电话号码： <br/>[法国 (6.0) 免费电话号码 ()  (6.0)  (fr-fr) ](https://download.microsoft.com/download/b/5/0/b502c0e2-80d1-4d5c-8914-12617a173933/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.6.0)-(fr-fr).pdf) <br/> <br/> 填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
 |发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。 <br/> |
 |将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |

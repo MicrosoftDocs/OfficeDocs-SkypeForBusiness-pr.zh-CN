@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d12f09fe5043093b55e57d32bb70d9c332157511
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ba2a2a404c71aba007d667e5276d789b05890a8b
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234427"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380466"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -31,16 +31,16 @@ ms.locfileid: "58234427"
 > [!Note]
 > 如果会议达到容量，Teams无缝缩放，以容纳 10，000 人仅查看的直播体验。 另外，在这个远程工作增加的时期，利用更大规模的 20,000 人广播到今年年底。 网络研讨会目前不支持仅查看广播体验。
 
-Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达到主会议容量后 (1000 个用户进入会议) ，其他与会者将加入仅查看体验。
+Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达到主会议的容量后 (1000 个用户进入会议) ，其他与会者将加入仅查看体验。
 
-首先加入会议的与会者（最多是主会议的容量）将获得完整的Teams体验。 他们可以共享音频和视频、查看共享视频、并参与会议聊天。
+首先加入会议的与会者（最多为主会议的容量）将获得完整的Teams体验。 他们可以共享音频和视频、查看共享视频、并参与会议聊天。
 
 在达到主会场容量后加入的与会者将有仅查看体验。
 
-与会者将能够使用 Android 和 iOS) 通过桌面、Web 和 Teams 移动设备加入 (体验。
+与会者可以通过 Android 和 iOS 桌面版、Web 版和 Teams 移动版 (仅查看) 。
 
 > [!Note]
-> "主会议"（换句话说，完全交互式用户数）的当前限制为 1000，包括GCC和网络研讨会。
+> "主会议"的当前限制容量（换句话说，完全交互式用户数）为 1000，包括GCC和网络研讨会。
 
 ## <a name="teams-view-only-experience-controls"></a>Teams仅查看体验控件
 
@@ -115,7 +115,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 共享他们的音频或视频。
 - 查看或参与会议聊天。
 - 除非与会者是主动发言的人，否则可以看到会议参与者的视频源。
-- 请参阅PowerPoint Live 功能或单个应用程序共享PowerPoint桌面或屏幕共享功能共享 (共享的文件) 。
+- 请参阅PowerPoint Live 功能或单个应用程序共享共享PowerPoint桌面或屏幕共享 (共享的文件) 。
 - 在会议中举手。
 - 发送或查看回应。
 - 与集成到会议会议的任何 3P Teams交互，包括投票。
@@ -123,10 +123,12 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ## <a name="view-only-feature-limitations"></a>仅查看功能限制
 
 - 仅查看与会者只能在桌面和 Web 上看到实时字幕。 目前只支持英文字幕。
+- 仅查看与会者无法注册网络研讨会。
 - 仅查看的与会者将得到流媒体处理技术的支持。
 - 仅查看的与会者不会列入出席报告中。
 - 仅查看的与会者将有单一的视频体验。 他们可以看到活动发言人或共享的内容，但不能两者同时看到。
-- 我们当前不支持 **库**、**大型库** 或仅供与会者浏览的 **同框场景模式**。  
+- 我们当前不支持 **库**、**大型库** 或仅供与会者浏览的 **同框场景模式**。
+- 仅查看与会者仅受以下大厅策略支持："仅你"、"我的组织成员和来宾"、"我的组织、受信任组织的人以及来宾"和"每个人"。 如果使用不支持仅查看与会者的大厅策略，将拒绝仅查看与会者。 
 - 仅查看的与会者不会有和普通与会者一样的延迟。 <sup>1</sup>
 
   <sup>1</sup> 仅查看的与会者将在会议上有 30 秒的视频和音频延迟。  

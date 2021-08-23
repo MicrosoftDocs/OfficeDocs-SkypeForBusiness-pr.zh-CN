@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c4e9b4e3133927aaea883fb64d4798b6761b65ebe83f6a887bf9b50ba589e70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9f97065a6bf7dd8be3d3a417b7482b3b5f50935
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285681"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365669"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>快速入门 - 会议、网络研讨会和直播活动 
 
@@ -83,7 +83,7 @@ Teams 中的 **会议** 包括最多 1,000 人的音频、视频和屏幕共享�
 | 文章 | 说明 | 
 |----------|--------|
 | [会议设置](meeting-settings-in-teams.md) |  介绍如何为匿名用户、会议邀请和媒体流量配置会议设置。  |
-| [会议策略](meeting-policies-in-teams.md)  | 介绍如何创建和管理策略，以确定哪些功能可供会议参与者使用。 | 
+| [会议策略](meeting-policies-overview.md)  | 介绍如何创建和管理策略，以确定哪些功能可供会议参与者使用。 | 
 | [管理 Teams 云会议录制](cloud-recording.md) | 介绍如何管理会议录制。 |
 | [管理组织的设备](device-management.md)。| 介绍如何管理组织的设备，例如手机和 Teams 会议室。 |
 ||

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在爱尔兰获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 1d0cccb8301d46401719b1014b61452343d9c293
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 76524c7ea2e064753186efb30a42e92684ad052d
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234457"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365639"
 ---
 # <a name="phone-number-management-for-ireland"></a>爱尔兰的电话号码管理
 
@@ -35,9 +35,9 @@ ms.locfileid: "58234457"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 <br/> |在爱尔兰，你无法通过管理中心获取Microsoft Teams电话号码。 你必须提交新的电话号码申请。 <br/><br/>下载此表单。<br/>[针对爱尔兰的新电话号码请求 (v.5.0)  (en-us) 。 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> 填写它，并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
-|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[爱尔兰 (LOA) 授权书 (6.0)  (6.0)  () ](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 <br/> |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。 <br/> |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 <br/> |在爱尔兰，你无法通过管理中心获取Microsoft Teams电话号码。 你必须提交新的电话号码申请。 <br/><br/>下载此表单。<br/>[针对爱尔兰的新电话号码请求 (v.5.0)  (en-us) 。 ](https://download.microsoft.com/download/9/e/5/9e5634d7-ce23-489f-b867-6f5120645fb1/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf) <br/><br/> 填写它，并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
+|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[爱尔兰的 (LOA) 授权书 (6.0)  (6.0)  () ](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 <br/> |
+|发布/取消发布 (电话号码) 国内电话目录中。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。 <br/> |
 |将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台](contact-pstn-service-desk.md)。 |
 

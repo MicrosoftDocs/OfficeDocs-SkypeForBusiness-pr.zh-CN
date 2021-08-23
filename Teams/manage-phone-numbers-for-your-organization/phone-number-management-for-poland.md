@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在波兰获取和管理波兰的电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 0c67e4766391f87269dcdad6073b12a3ba9b6157
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: fcfcc032e32a62d8e982c0ee37d93636b063960b
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232807"
+ms.locfileid: "58348474"
 ---
 # <a name="phone-number-management-for-poland"></a>电话波兰的号码管理
 
@@ -40,9 +40,9 @@ ms.locfileid: "58232807"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。  |在波兰，可以使用管理中心获取组织Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 PTSN 服务台以请求说明](contact-pstn-service-desk.md)。<br/><br/>[适用于波兰的新电话号码请求 (v.1.0)  (pl-pl) 。 ](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整完成，并联系 [PTSN 服务台了解说明](contact-pstn-service-desk.md)。<br/><br/>电话数字将按 10 个块排序。 客户只需为订阅的通话计划许可证付费。<br/><br/>新订单可能需要四到六周来填充此市场。 |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。  |在波兰，可以使用管理中心获取Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 PTSN 服务台以请求说明](contact-pstn-service-desk.md)。<br/><br/>[适用于波兰的新电话号码请求 (v.1.0)  (pl-pl) 。 ](https://download.microsoft.com/download/a/1/3/a130f4bd-3d48-4918-aea2-62cc24874c78/new-phone-number-request-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"表单，将其完整完成，并联系 [PTSN 服务台了解说明](contact-pstn-service-desk.md)。<br/><br/>电话数字将按 10 个块排序。 客户只需为订阅的通话计划许可证付费。<br/><br/>新订单可能需要四到六周来填充此市场。 |
 |获取转接给我们的电话号码。| 下载此表单。 <br/>[波兰 (LOA) 授权书 ()  (v.1.0)  (pl-pl) ](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 <br/><br/>转移号码可能需要四到六周才能在此市场中完成。 <br/><br/> 这些号码目前不能用于会议。    |
-|发布/取消发布 (电话号码) 国内电话目录中。  <br/> |[请联系 PTSN 服务台](contact-pstn-service-desk.md) ，了解要发布/取消发布的电话号码列表的说明。 <br/> |
+|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[请联系 PTSN 服务台](contact-pstn-service-desk.md) ，了解要发布/取消发布的电话号码列表的说明。 <br/> |
 |将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PTSN 服务台，获得说明](contact-pstn-service-desk.md)。 |
 

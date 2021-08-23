@@ -1,5 +1,5 @@
 ---
-title: 使用 intune Teams手机Teams和显示器
+title: 使用 Intune Teams Android Teams手机、Microsoft Teams 会议室和平板电脑
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -15,23 +15,23 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 localization_priority: Normal
-description: 本文概述了屏幕屏幕支持的功能Microsoft Teams功能。
-ms.openlocfilehash: 1ccf933cfb0f4e9eab4af4f884cbd6503d0667138d56d8c005574c57d839626a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 本文概述了显示器支持的功能Microsoft Teams功能。
+ms.openlocfilehash: e7772de5767b9aefe69e1192051be65ccb632656
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321474"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359159"
 ---
-# <a name="deploy-teams-phones-and-teams-displays-using-intune"></a>使用 intune Teams手机Teams和显示器
+# <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>使用 Intune Teams Android Teams手机、Microsoft Teams 会议室和平板电脑
 
-本文概述了如何部署。 Teams Intune Teams手机和显示器。
+本文概述了如何使用 Intune 在 Android Teams手机、Teams和Microsoft Teams 会议室设备。
 
 ## <a name="conditional-access"></a>条件访问
 
-条件访问Azure Active Directory (Azure AD) 功能，可帮助确保访问资源的设备Office 365管理正确且安全。  如果将条件访问策略应用到 Teams 服务，则 Android 设备 (（包括 Teams 手机和 Teams）将显示需要将访问 Teams 注册到 Intune 的) ，并且其设置需要符合策略。  如果设备未注册到 Intune，或者设备已注册，但其设置不符合策略，则条件访问将阻止用户登录或使用该设备上 Teams 应用。
+条件访问Azure Active Directory (Azure AD) 功能，可帮助确保访问资源的设备Office 365管理正确且安全。  如果将条件访问策略应用到 Teams 服务，Android (设备（包括 Teams 手机、Teams 显示器和 Microsoft Teams 会议室）在 Android) 上需要将访问 Teams 的设备注册到 Intune 中，并且其设置需要符合策略。  如果设备未注册到 Intune，或者设备已注册，但其设置不符合策略，则条件访问将阻止用户登录或使用该设备上 Teams 应用。
 
-通常，Intune 中定义的符合性策略将分配给用户组。  这意味着，如果将 Android 符合性策略分配给 user@contoso.com，该策略同样适用于其 Android 智能手机和任何登录Teams Android user@contoso.com 应用。
+通常，Intune 中定义的符合性策略将分配给用户组。  这意味着，如果将 Android 符合性策略分配给 user@contoso.com，该策略同样适用于其 Android 智能手机和任何登录Teams基于 Android user@contoso.com 设备。
 
 如果使用条件访问（要求强制使用 Intune 注册）在组织中，需要设置一些操作，以允许成功进行 Intune 注册：
 
@@ -59,9 +59,9 @@ Teams基于 Android 的设备由 Intune 通过 Android 设备管理员 (DA) 管�
    必须Teams注册到 Intune 的设备的用户分配有效的 Intune 许可证。 有关详细信息，请参阅 [向用户分配许可证，以便他们可以在 Intune 中注册设备](/intune/fundamentals/licenses-assign)。
 1. 分配设备管理员符合性策略。  
 
-   a. 创建 Android 设备管理员符合性策略。
+   1. 创建 Android 设备管理员符合性策略。
 
-   b. 将其分配给Azure Active Directory用户组，该组包含要登录 Teams设备。 请参阅 [使用符合性策略为使用 Intune 管理的设备设置规则](/mem/intune/protect/device-compliance-get-started)。
+   1. 将其分配给Azure Active Directory组，该组包含要登录Teams的用户。 请参阅 [使用符合性策略为使用 Intune 管理的设备设置规则](/mem/intune/protect/device-compliance-get-started)。
 
 ## <a name="see-also"></a>另请参阅
 
@@ -69,7 +69,7 @@ Teams基于 Android 的设备由 Intune 通过 Android 设备管理员 (DA) 管�
 
 [经认证的 IP 电话Microsoft Teams](teams-ip-phones.md)
 
-[Teams显示器](teams-displays.md)
+[Teams显示](teams-displays.md)
 
 [在 Teams 中管理设备](device-management.md)
 

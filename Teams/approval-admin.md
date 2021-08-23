@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffcb99684c3f92bcc442c5f732d41643bf549b3f3c1d2aca7e5cb42df4269ebe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df725792ec8843b77ba2ff4956617d2959e718e2
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288420"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399081"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -45,7 +45,7 @@ ms.locfileid: "54288420"
 
 ## <a name="required-permissions-and-licenses"></a>所需权限和许可证
 
-若要使用“审批”应用，你需要以下项目的权限：
+若要部署"审批"应用，需要以下项的权限：
 
 - 创建 Microsoft CDS 数据库的权限。
 
@@ -57,6 +57,8 @@ ms.locfileid: "54288420"
 
 - 用户需要 Microsoft Forms 许可证才能设置新的审批模板。
 
+若要使用"审批"应用，需要一个Power Automate许可证，你的帐户将在第一次审批分配时自动添加到目标环境中"审批用户"角色。
+
 ## <a name="storage-with-cds"></a>通过 CDS 进行存储
 
 Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享数据语言。 它包括由 Microsoft 和我们的合作伙伴发布的一组标准化的可扩展数据架构，可使数据及其含义在应用程序和业务流程之间保持一致。 了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。
@@ -66,9 +68,9 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 从模板创建的审批仍将数据存储在 CDS 中，例如其标题、详细信息、模板 ID 等。 在审批请求中提交的响应存储在 Forms 中。 详细了解 Microsoft  [Forms 的数据存储](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
 
 >[!Note]
->如果删除 Microsoft Forms 网站的表单模板，将中断审批模板，用户将无法启动请求。 尝试打开 Microsoft Forms 上已删除的审批模板时，用户收到错误"CDB TableNotFound"。
+>如果删除 Microsoft Forms 站点上的表单模板，将中断审批模板，用户将无法启动请求。 尝试打开 Microsoft Forms 上已删除的审批模板时，用户收到错误"CDB TableNotFound"。
 
-审批模板存储在"云数据"存储 (SDS) 中，这是一个仅在 Microsoft 内部使用的合规存储平台。 组织范围的模板存储在 SDS 的"租户分片"中，团队范围的模板存储在 SDS 的"组分片"中。 这意味着组织范围的模板共享租户的相同生存期，团队范围的模板共享团队的相同生存期。 因此，永久删除团队会删除相关的模板。
+审批模板存储在"云数据"存储 (SDS) 中，这是一个仅在 Microsoft 内部使用的合规存储平台。 组织范围的模板存储在 SDS 的"租户分片"中，团队范围的模板存储在 SDS 的"组分片"中。 这意味着，组织范围的模板共享租户的相同生存期，团队范围的模板共享团队的相同生存期。 因此，永久删除团队会删除相关的模板。
 
 ## <a name="approvals-teams-app-permissions"></a>“审批”Teams 应用权限
 
@@ -201,10 +203,10 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 - 你选择使用的特定电子签名提供商的许可证。 若要获取组织的许可证，您需要转到提供商的网站。
 
-对于"审批"电子签名功能，默认情况下，第三方签名合作伙伴Teams"审批"应用中。 可以通过访问管理中心中的应用设置来禁用Teams签名提供程序。
+对于"审批电子签名"功能，第三方签名合作伙伴默认显示在Teams审批"应用中。 可以通过访问管理中心中的应用设置来禁用Teams签名提供程序。
 
 1. 在Teams管理中心的"**管理应用"下**，选择"审批 **"** 应用并选择 **"设置"。**
 
-2. 默认情况下，每个电子签名提供商旁边都有一个开关，该开关位于 (位置) 右侧。 向左滑动切换开关以禁用特定的电子签名提供程序。 如果Teams管理员禁用提供商，则最终用户在创建审批时不会看到提供商。 最终用户也无法查看通过该提供商提出的任何电子签名请求。
+2. 默认情况下，每个电子签名提供商旁边都有一个开关，该开关位于 (位置) 右侧。 向左滑动切换开关以禁用特定的电子签名提供程序。 如果Teams管理员禁用了提供商，则最终用户在创建审批时不会看到提供商。 最终用户也无法查看通过该提供商提出的任何电子签名请求。
 
 从"审批"应用创建的电子签名审批存储在所选提供商的云中。 因此，您需要转到提供商的网站才能导出有关电子签名的任何数据。 请参阅提供商的文档，了解这些协议的导出和保留。

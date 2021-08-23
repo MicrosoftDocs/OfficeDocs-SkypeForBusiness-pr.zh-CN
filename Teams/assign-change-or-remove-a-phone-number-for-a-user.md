@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何为用户分配、更改或删除工作电话号码Teams以便外部企业和客户可以呼叫。
-ms.openlocfilehash: 443fdb5833e657c3f45c0f53d1d4ce6744bd67b0b83247e72084e3d29f6c1bc7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79323338a901cf587b590b7930a11f6c296271e1
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320025"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372242"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>为呼叫计划用户分配、更改或删除 (电话号码) 
 
-设置呼叫计划时，你向用户分配电话号码。 在Microsoft Teams，当用户单击"呼叫"时，将列出你 **分配的电话号码**。 有关在直接路由方案中为用户分配、更改或删除电话号码的说明，请参阅为用户启用直接路由、语音和 [语音邮件](./direct-routing-enable-users.md)。
+设置呼叫计划时，你向用户分配电话号码。 在Microsoft Teams中，当用户单击"呼叫"时，将列出你 **分配的电话号码**。 有关在直接路由方案中为用户分配、更改或删除电话号码的说明，请参阅为用户启用直接路由、语音和 [语音邮件](./direct-routing-enable-users.md)。
 
 ![用户的电话号码显示在Teams。](media/teams-phone-number.png)
 
@@ -38,23 +38,23 @@ ms.locfileid: "54320025"
 若要了解如何在加载项中Teams套餐及其费用，请参阅Teams[附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 > [!NOTE]
-> 查看用户是否分配了许可证的一种方式是，在"用户"Microsoft Teams管理 **>。** 如果分配了许可证，将在页面上指示该许可证。  也可使用Microsoft 365 管理中心。
+> 查看用户是否分配了许可证的一种方式是，在"用户"中Microsoft Teams管理 **>"**。 如果分配了许可证，将在页面上指示该许可证。  也可使用Microsoft 365 管理中心。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>向用户分配电话号码
  
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
     
-1. 在左侧导航栏中，单击 **"语音**  >  **电话数字"**。
+1. 在左侧导航栏中，单击 **"语音**  >  **电话数字"。**
 2. 在 **"电话"** 页面上，选择列表中的未分配号码，然后单击"编辑 **"。**  
-3. 在"**编辑"** 窗格的 **"** 分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
+3. 在"**编辑"** 窗格的"分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
 4. 若要分配或更改关联的紧急位置，请在"紧急位置"下搜索，然后选择该位置。
 5. 根据是否要向用户发送包含其电话号码信息的电子邮件，请关闭或打开包含 **电话号码信息的电子邮件用户**。 默认情况下，此选项为"打开"。 
 6. 单击“**保存**”。
 
-有关 PowerShell 示例，请参阅[Set-CsOnlineVoiceUser。](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+有关 PowerShell 示例，请参阅[Set-CsOnlineVoiceUser。](/powershell/module/skype/set-csonlinevoiceuser)
 
-    > [!NOTE]
-    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+> [!NOTE]
+> 由于 Microsoft 365 或 Office 365 Teams 之间的延迟，最多可能需要 24 小时才能启用用户。 如果电话号码在 24 小时后未正确分配，请联系商业产品 [支持人员 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。 我们随时为你提供帮助！
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>更改用户的电话号码
@@ -62,28 +62,28 @@ ms.locfileid: "54320025"
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
     
 1. 在左侧导航中，单击"用户"，找到并双击用户，单击"帐户"，然后在"常规信息"下记下分配给用户的电话号码。 
-2. 在左侧导航栏中，单击 **"语音**  >  **电话数字"**。
+2. 在左侧导航栏中，单击 **"语音**  >  **电话数字"。**
 3. 在 **"电话"** 页上，选择在步骤 1 中标识的数字，然后单击"编辑 **"。**  
 4. 在" **编辑** "窗格的 **"分配到"下**，单击 **"X"** 以删除用户。
 5. 单击“**保存**”。
 6. 在 **"电话"** 页面上，选择列表中的未分配号码，然后单击"编辑 **"。**  
-7. 在"**编辑"** 窗格的 **"** 分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
+7. 在"**编辑"** 窗格的"分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
 8. 若要分配或更改关联的紧急位置，请在"紧急位置"下搜索，然后选择该位置。
 9. 单击“**保存**”。
 
-有关 PowerShell 示例，请参阅[Set-CsOnlineVoiceUser。](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+有关 PowerShell 示例，请参阅[Set-CsOnlineVoiceUser。](/powershell/module/skype/set-csonlinevoiceuser)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>删除用户的电话号码
  
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，单击"用户"，找到并双击用户，单击"帐户"，然后在"常规信息"下记下分配给用户的电话号码。 
-2. 在左侧导航栏中，单击 **"语音**  >  **电话数字"**。
-3. 在 **"电话"** 页面上，选择在步骤 2 中标识的数字，然后单击"编辑 **"。**  
+2. 在左侧导航栏中，单击 **"语音**  >  **电话数字"。**
+3. 在 **"电话"** 页上，选择在步骤 2 中标识的数字，然后单击"编辑 **"。**  
 4. 在" **编辑** "窗格的 **"分配到"下**，单击 **"X"** 以删除用户。
 5. 单击“**保存**”。
 
-有关 PowerShell 示例，请参阅[Set-CsOnlineVoiceUser。](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+有关 PowerShell 示例，请参阅[Set-CsOnlineVoiceUser。](/powershell/module/skype/set-csonlinevoiceuser)
 
 ## <a name="related-topics"></a>相关主题
 
@@ -95,6 +95,6 @@ ms.locfileid: "54320025"
 
 [紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
 
 [呼叫套餐Microsoft 365](./calling-plans-for-office-365.md)

@@ -1,5 +1,5 @@
 ---
-title: 管理团队策略Microsoft Teams
+title: 管理团队中的Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: 了解如何在组织中使用和管理团队策略来控制用户可在团队和频道中执行哪些操作。
-ms.openlocfilehash: 4c980f6881a1ec73131e35cae1f04bf33f844026dccb1c14045d8310e2c755a5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f5c8e638b5166c15223f0aee0034f1b18743bcf
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321104"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359149"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>管理团队策略Microsoft Teams
+# <a name="manage-teams-policies-in-microsoft-teams"></a>管理团队中的Microsoft Teams
 
 作为管理员，可以使用团队策略Microsoft Teams控制组织中用户可在团队和频道中执行哪些操作。 例如，可以设置是否允许用户创建专用通道。
 
@@ -41,7 +41,7 @@ ms.locfileid: "54321104"
 
 ## <a name="create-a-custom-teams-policy"></a>创建自定义团队策略
 
-1. 在管理中心左侧导航Microsoft Teams，转到 **"Teams Teams**  >  **策略"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到 **"Teams Teams**  >  **策略"。**
 2. 单击“**添加**”。
 3. 输入策略的名称和说明。
 
@@ -54,7 +54,7 @@ ms.locfileid: "54321104"
 
 可以编辑全局策略或创建的任何自定义策略。
 
-1. 在管理中心左侧导航Microsoft Teams，转到 **"Teams Teams**  >  **策略"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到 **"Teams Teams**  >  **策略"。**
 2. 单击策略名称的左侧以选择用户，然后单击“**编辑**”。
 3. 打开或关闭想要的设置，然后单击"保存 **"。**
 
@@ -63,6 +63,8 @@ ms.locfileid: "54321104"
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>相关主题
+
+[管理Teams连接的站点和频道网站](/SharePoint/teams-connected-sites)
 
 [专用频道Teams](private-channels.md)
 

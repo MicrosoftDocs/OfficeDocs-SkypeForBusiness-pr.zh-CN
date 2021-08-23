@@ -13,12 +13,12 @@ ms.collection:
 description: 了解 PowerShell 中的最新Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85a903a3b795a49208520e1658eec2a34ee25eee28abd10d219762f91662a43
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3fbffcf36e05aab945833bcf6a09e097d6c0c39
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342757"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380446"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft TeamsPowerShell 发行说明
 
@@ -31,8 +31,11 @@ ms.locfileid: "54342757"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2021 年 8 月 | [2.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.0) |<li>使用 MicrosoftTeams 连接 AccessToken 登录的更新。</li><li>修复了 Cloudshell 中的 Connect-MicrosoftTeams交互式登录。</li><li>改进了New-Team创建方案的 cmdlet。</li><li>TeamsUnassignedNumberTreatment cmdlet 现已可用。</li><li>Get-CsCsOnlineDialInConferencingBridge Set-CsOnlineDialInConferencingBridge。</li><li>发布 Get-CsTenant 现代化版本，Get-CsOnlineUser (-identity 参数的) 。</li>|
+| 2021 年 7 月 | [2.4.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.1-preview) |<li>现在可以授予 cmdlet 更改。</li><li>发布了新的语音相关 cmdlet。</li><li>删除 -Cs* cmdlet 的证书指纹身份验证。</li><li>所有 cmdlet 的日志记录文件的日志记录修复。</li><li>修复了 *TeamChannelUser cmdlet 的问题。</li>|
+| 2021 年 6 月 | [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>仅预览版 Get-CsTenant、Get-CsOnlineUser (且仅具有 -identity 参数的) 、Get-CsOnlineDialInConferencingLanguagesSupported 和 Import-CsOnlineAudioFile。</li><li>现代化版本的 Get-CsOnlineDialInConferencingLanguagesSupported Import-CsOnlineAudioFile 预期与远程处理版本类似/相同。</li><li>使用 -identity 参数Get-CsTenant和Get-CsOnlineUser (时，) 版本不会发出已弃用的属性。</li><li>使用 -identity 参数Get-CsTenant Get-CsOnlineUser (时，) 和远程处理计数器部分) 更新版本的格式更改。</li><li>Releases [Get \| Set \| Grant New \| \| Remove]-CsTeamsAudioConferencingPolicy cmdlets。</li><li>发布 Get-CsOnlineAudioFile Remove-CsOnlineAudioFile cmdlet。</li><li>Set-TeamTargetingHierarchy、Remove-TeamTargetingHierarchy Get-TeamTargetingHierarchyStatus现在可用于GCC客户。</li><li>修复了 Get-TeamTargetingHierarchyStatus 调用的终结点。</li>|
 | 2021 年 5 月 | [2.3.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>支持使用 连接-MicrosoftTeams 进行 AccessToken 登录。 添加了接受令牌数组的 -AccessTokens 参数。 使用 AccessTokens Teams需要 MSGraph 和 Teams 资源令牌。</li><li>删除了 AadAccessToken 和 MsAccessToken 参数。</li>|
-| 2021 年 5 月 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>从 更新。NETCore 2.1 到 3.1</li><li>添加了 cmdlet，用于获取用户和组的多地域区域</li><li>修复了集成 Windows 身份验证，以将 -AccountId 与 Connect-MicrosoftTeams</li><li>TeamsCallHoldPolicy cmdlet 现已可用</li><li>更新了许多命令的输入参数和输出格式</li><li>修复了远程处理命令时出现的大型延迟问题</li><li>GA 自定义程序包功能</li>|
+| 2021 年 5 月 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>从 更新。NETCore 2.1 到 3.1</li><li>添加了 cmdlet，用于获取用户和组的多地域区域</li><li>修复了集成 Windows 身份验证以将 -AccountId 与 Connect-MicrosoftTeams</li><li>TeamsCallHoldPolicy cmdlet 现已可用</li><li>更新了许多命令的输入参数和输出格式</li><li>修复了远程处理命令时出现的大型延迟问题</li><li>GA 自定义程序包功能</li>|
 | 2021 年 4 月 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>修复了集成身份验证Windows -AccountId 与 连接-MicrosoftTeams。</li><li>添加了 cmdlet，用于获取可发送给用户的总更改通知事件的详细信息。</li><li>添加了 cmdlet，用于获取用户和组的多地域区域。</li><li>处理传递给 TeamsEnvironment 名称的值区分大小写。 这已修复。</li><li>模块内远程会话管理的主要重构，以便于单元测试。 租户管理员不应有功能更改。</li>|
 | 2021 年 4 月 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>修复了某些远程处理 cmdlet (例如 Get-CsTeamsNetworkRoamingPolicy、Get-CsTeamsMeetingPolicy、Get-CsTeamsMessagingPolicy 等) 的输出格式。</li><li>更新了策略管理 cmdlet 的参数列表。</li>|
 | 2021 年 3 月 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>使用 MSAL 进行身份验证&授权</li> <li>Connect-MicrosoftTeams是所有 cmdlet 的入口点。</li><li>New-csOnlineSession 不再可用。 已替换为 连接-MicrosoftTeams。</li><li>不再需要 Enable-csonlinesessionforreconnection。 此功能已在 PowerShell 模块中Teams实现。</li> <li>重构策略包 cmdlet 并添加组包分配</li><li>Get-Team cmdlet 的重要性能增强</li> <li>改进了现有 cmdlet 的日志记录和调试选项 </li> <li>添加了模板管理 cmdlet</li> <li>弃用New-CsOnlineSession</li>|

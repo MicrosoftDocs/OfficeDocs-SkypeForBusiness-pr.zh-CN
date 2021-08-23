@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 了解如何在会议环境中管理常规会议Teams。
-ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e9e38f724d5327ed54bad8098c1f7fae0c300e34
+ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235207"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58392919"
 ---
 # <a name="meeting-policy-settings---general"></a>会议策略设置 - 常规
 
@@ -38,12 +38,14 @@ ms.locfileid: "58235207"
 - [允许安排私人会议](#allow-scheduling-private-meetings)
 - [允许在私人会议中立即开会](#allow-meet-now-in-private-meetings)
 - [指定的演示者角色模式](#designated-presenter-role-mode)
-- [会议出席情况报告](#meeting-attendance-report)
+- [允许参与报告](#allow-engagement-report)
+- [允许会议注册](#allow-meeting-registration)
+- [Who注册](#who-can-register)
 - [群岛模式的会议提供商](#meeting-provider-for-islands-mode)
 
 ## <a name="allow-meet-now-in-channels"></a>允许在频道中立即开会
 
-这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在频道中启动临时Teams会议。 如果启用此功能，用户可以单击"会议"按钮以在频道中启动临时会议或安排会议。 默认值为 True。
+这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在频道中启动Teams会议。 如果启用此功能，用户可以单击"会议"按钮以在频道中启动临时会议或安排会议。 默认值为 True。
 
 [![显示消息下方的"现在开会"图标的屏幕截图 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -96,7 +98,7 @@ ms.locfileid: "58235207"
 
 这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在 Teams 中安排私人会议。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
 
-请注意，如果 **关闭"允许** 安排私人会议"和"**允许** 频道会议安排"，则"添加所需的与会者"和"添加频道"选项将禁用Teams。 默认情况下，此设置已启动。
+请注意，如果 **关闭"允许** 安排私人会议"和"允许频道会议安排"，则"添加必需的与会者"和"添加频道"选项将禁用Teams。  默认情况下，此设置已启动。
 
 ## <a name="allow-meet-now-in-private-meetings"></a>允许在私人会议中立即开会
 
@@ -108,7 +110,7 @@ ms.locfileid: "58235207"
 
 通过 **“谁能演示?”** 会议组织者可以选择谁可以成为会议中的演示者。 要了解更多信息，请参阅 [更改 Teams 会议的与会者设置](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) 和 [Teams 会议中的角色](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)。
 
-目前，只能使用 PowerShell 来配置此策略设置。 可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
+目前，只能使用 PowerShell 来配置此策略设置。 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
 
 要在 Teams 中指定 **“谁能演示?”** 设置的默认值，请将 **DesignatedPresenterRoleMode** 参数设置为以下之一:
 
@@ -118,15 +120,44 @@ ms.locfileid: "58235207"
 
 请记住，在设置默认值后，会议组织者仍然可以在 Teams 中更改此设置，并选择谁可以在他们安排的会议中演示。
 
-## <a name="meeting-attendance-report"></a>会议出席情况报告
+## <a name="allow-engagement-report"></a>允许参与报告
 
 这是按用户策略。 此设置控制会议组织者是否可以下载 [会议出席报告](teams-analytics-and-reports/meeting-attendance-report.md)。
 
-目前，只能使用 PowerShell 来配置此策略设置。 可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
+此策略默认为关闭状态，允许组织者查看谁注册并参加他们设置的会议和网络研讨会。 若要在管理中心Teams，请转到"**会议**  >  **会议** 策略"，将策略设置为"已启用 **"。**
 
-若要使会议组织者能够下载会议出席情况报告，将 **AllowEngagementReport** 参数设置为"已启用 **"。** 启用后，下载报告的选项会显示在 **“参与者”** 窗格中。 默认情况下，此设置已启用。
+可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
+
+若要使会议组织者能够下载会议出席情况报告，将 **AllowEngagementReport** 参数设置为"已启用 **"。** 启用后，下载报告的选项会显示在 **“参与者”** 窗格中。 默认情况下，此设置未启用。
 
 若要防止会议组织者下载报告，请将该参数设置为 **禁用**。
+
+## <a name="allow-meeting-registration"></a>允许会议注册
+
+这是按用户策略。 如果启用此功能，您的组织中的用户可以设置网络研讨会。 默认启用此策略。
+
+若要在管理中心内编辑Teams策略，请转到 **"会议**  >  **会议策略"。** 若要关闭会议注册，将策略设置为"关闭 **"。**
+
+可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
+
+若要启用会议注册，将 **AllowMeetingRegistration 参数** 设置为 **True。** 默认设置为 **True。**
+
+若要关闭会议注册并防止用户安排网络研讨会，将 参数设置为 **False。**
+
+## <a name="who-can-register"></a>Who注册
+
+此策略控制哪些用户可以注册和参加网络研讨会。 此策略有两个选项，仅在启用 **"允许会议** 注册"时可用。
+
+- 如果希望 **Who** 包括匿名用户在内的所有人注册和参加组织中用户设置的网络研讨会，请设置"可注册到每个人"。
+- 如果希望 **Who** 注册并参加网络研讨会，请设置"可注册到组织中所有人"。
+
+默认情况下 **，Who注册设置为**"每个人 **"。** 若要在管理中心内编辑Teams策略，请转到 **"会议**  >  **会议策略"。**
+
+可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
+
+若要允许每个人（包括匿名用户）注册和参加网络研讨会，将 **WhoCanRegister** 参数设置为 **"每个人"。** 默认情况下，此选项 **设置为"每个人** "。
+
+若要仅允许您的组织中的用户注册并参加网络研讨会，将 参数设置为 **EveryoneInCompany。**
 
 ## <a name="meeting-provider-for-islands-mode"></a>群岛模式的会议提供商
 
@@ -134,7 +165,7 @@ ms.locfileid: "58235207"
 
 你只能将此策略应用于处于孤岛模式且其 Teams 会议策略中的 **AllowOutlookAddIn** 参数设置为 **True** 的用户。
 
-目前，只能使用 PowerShell 来设置该策略。 可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
+目前，只能使用 PowerShell 来设置该策略。 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
 
 若要指定希望用户可以使用哪种会议加载项，请按以下方式设置 **PreferredMeetingProviderForIslandsMode** 参数:
 
@@ -153,5 +184,5 @@ AllowMeetingReactions 设置只能使用 PowerShell 应用。 在 Teams 管理�
 ## <a name="related-topics"></a>相关主题
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [向 Teams 中的用户分配策略](assign-policies.md)
+- [在 Teams](policy-assignment-overview.md)
 - [从用户删除 RestrictedAnonymousAccess Teams 会议策略](meeting-policies-restricted-anonymous-access.md)
