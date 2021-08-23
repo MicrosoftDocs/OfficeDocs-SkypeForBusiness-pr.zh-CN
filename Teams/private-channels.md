@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: a8235f5a4ffe509de748a39254f38acf99e71f27a66286264392f71322fb0a67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 047ff506a2d9ebccda96ecadedb4a30222ba59bf
+ms.sourcegitcommit: 3884bd3a849e92cde5980c3185d53bd4287fe764
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341248"
+ms.lasthandoff: 08/21/2021
+ms.locfileid: "58455957"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -92,14 +92,21 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 每个专用频道都有其自己的 SharePoint 网站。 单独的网站用于确保仅访问专用频道文件的成员。 默认情况下，这些网站集是使用文档库创建的，并且可通过[网站管理界面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)轻松增强为功能齐全的网站集。 每个网站创建在与父团队网站相同的地理区域创建。 这些轻型网站具有自定义模板 ID“TEAMCHANNEL#0”，可通过 PowerShell 和 Graph API 实现更轻松的管理。 
 
 >[!NOTE]
+>只有拥有在 Microsoft Teams 中授予的所有者或成员权限的用户才能访问专用频道网站中的内容。
 >新 SharePoint 管理中心的活动网站页面中不包括专用频道 SharePoint 网站。
 >在 2021 年 6 月 28 日之后创建的专用频道 SharePoint 网站将具有自定义模板 ID TEAMCHANNEL#1。
 
-专用频道网站同步数据分类，并继承父团队网站的来宾访问权限。 网站集所有者和成员组的成员资格将与 Teams 中私人频道的成员资格保持同步。 在 SharePoint Online 中对所有者或成员组的成员资格所做的任何更改都将在四个小时内自动还原为私人频道成员资格。 在某些用户需要访问文档而无需访问私人频道消息的情况下，请将它们添加到文档和库上的访问者组或与所有者和成员分开的新组中。
+
+专用频道网站同步数据分类，并继承父团队网站的来宾访问权限。 网站集所有者和成员组的成员资格将与 Teams 中私人频道的成员资格保持同步。 在 SharePoint Online 中对所有者或成员组的成员资格所做的任何更改都将在四个小时内自动还原为私人频道成员资格。 
 
 团队管理专用频道网站的生命周期。 如果在 Teams 外部删除了网站集，则只要私人频道仍处于活动状态，后台作业将在四个小时内还原该网站。 如果永久删除该网站，为专用频道预配了新网站。
 
 如果还原了含有专用频道的专用频道或团队，网站将随其一起还原。 如果已还原私人频道网站集，并且超出了私人频道的 30 天软删除时间段，则该网站集将作为独立网站集运行。
+
+> [!NOTE]
+> 在 Microsoft Teams 中创建新团队或专用频道时，将自动创建 SharePoint 中的团队网站。 若要编辑此团队网站的网站说明或分类，请转到相应频道的[在 Microsoft Teams 中设置](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)。
+>
+> 了解有关管理 [Microsoft Teams 连接的团队网站](/SharePoint/teams-connected-sites)的详细信息。
 
 ## <a name="private-channel-message-compliance-records"></a>私人频道消息合规记录
 

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b257b8e2e12c4b6408f43e21b92e0904971ddc4032da075bac7cae93659ad8f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 190204ac352567458e1e19c5d06179950c1188be
+ms.sourcegitcommit: 3884bd3a849e92cde5980c3185d53bd4287fe764
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321254"
+ms.lasthandoff: 08/21/2021
+ms.locfileid: "58455947"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -79,7 +79,12 @@ Teams 中有两个主要角色：
 
 默认情况下，所有用户都有权创建团队。 若要修改此设置，请参阅[在 Teams 中分配角色和权限](assign-roles-permissions.md)。
 
-吸引用户使用 Teams 的一项关键早期计划活动是帮助人们考虑和了解 Teams 如何在其日常生活中增强协作。 与其他用户交谈，帮助他们选择当前以分散方式协作的业务场景。 将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一是任何跨组织流程。 
+吸引用户使用 Teams 的一项关键早期计划活动是帮助人们考虑和了解 Teams 如何在其日常生活中增强协作。 与其他用户交谈，帮助他们选择当前以分散方式协作的业务场景。 将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一是任何跨组织流程。
+
+> [!NOTE]
+> 在 Microsoft Teams 中创建新团队或专用频道时，将自动创建 SharePoint 中的团队网站。 若要编辑此团队网站的网站说明或分类，请转到相应频道的[在 Microsoft Teams 中设置](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)。
+>
+> 了解有关管理 [Microsoft Teams 连接的团队网站](/SharePoint/teams-connected-sites)的详细信息。
 
 ## <a name="example-teams"></a>示例团队
 
