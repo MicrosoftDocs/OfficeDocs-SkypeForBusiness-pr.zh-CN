@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何对 Android 设备进行远程预配Teams登录
-ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: 了解如何在 Android 设备上远程预配Teams登录
+ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235377"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483109"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 设备的远程预配Teams登录
 
@@ -44,7 +44,17 @@ IT 管理员可以远程预配和登录到 Teams Android 设备。 若要远程�
 |Teams手机|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams手机|  音频代码 C448HD/C450HD/C470HD|   1.10.120|
 |Teams面板|  Crestron 770/1070|  1.004.0115|
-
+|Teams 会议室 Android 上的应用|Logitech Rally Bar Mini|1.2.982|
+|Teams 会议室 Android 上的应用|Logitech Rally Bar|1.2.982|
+|Teams 会议室 Android 上的应用|AudioCodes RXV80|1.13.361|
+|Teams 会议室 Android 上的应用|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Teams 会议室 Android 上的应用|Yealink MeetingBar A30|133.15.0.60|
+|Teams 会议室 Android 上的应用|Yealink MeetingBar A20|133.15.0.60|
+|Teams 会议室 Android 上的应用|Yealink CTP18 触摸控制台|137.15.0.37|
+|Teams 会议室 Android 上的应用|Poly Studio X30|3.5.0.344025|
+|Teams 会议室 Android 上的应用|Poly Studio X50|3.5.0.344025|
+|Teams 会议室 Android 上的应用|Poly TC8 触摸控制台 |3.5.0.210489|
+|Teams 会议室 Android 上的应用|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>添加设备 MAC 地址
 
@@ -102,7 +112,7 @@ IT 管理员可以远程预配和登录到 Teams Android 设备。 若要远程�
 
 预配的设备显示在"等待 **登录"选项卡** 中。通过选择单个设备启动远程登录过程。
 
-1. 从"等待登录 **"选项卡中选择设备** 。
+1. 从"等待登录" **选项卡中选择设备** 。
 
    ![一个窗口，其中列出了已准备好登录的设备。](../media/remote-device1.png)
 
