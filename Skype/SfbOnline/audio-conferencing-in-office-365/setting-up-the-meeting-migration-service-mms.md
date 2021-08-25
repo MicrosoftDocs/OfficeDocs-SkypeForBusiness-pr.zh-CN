@@ -21,17 +21,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 会议迁移 (MMS) 是在后台运行的服务，可Skype for Business Microsoft Teams会议。 MMS 旨在消除用户运行会议迁移工具以更新其会议Skype for Business Microsoft Teams的需求。
-ms.openlocfilehash: 71fefa3986d9daf3a9eb7cd1403ba9490cbbf7ff687853a7876f05cd0a75eed1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 会议迁移服务 (MMS) 是在后台运行的服务，可Skype for Business Microsoft Teams会议。 MMS 旨在消除用户运行会议迁移工具以更新其会议Skype for Business Microsoft Teams的需求。
+ms.openlocfilehash: 68a3ef384c67835b25ff5db7ee6dfccf8b2ca1a7
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298872"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523863"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务 (MMS)
 
-会议迁移服务 (MMS) 是一种在下列情况下更新用户现有会议的服务：
+会议迁移服务 (MMS) 是一种在以下情况中更新用户现有会议的服务：
 
 - 当用户从本地迁移到云环境时 (是Skype for Business Online 还是 TeamsOnly) 。
 - 当管理员更改用户的音频会议设置时 
@@ -50,9 +50,9 @@ ms.locfileid: "54298872"
 
 ## <a name="how-mms-works"></a>MMS 的工作原理
 
-为给定用户触发 MMS 时，该用户的迁移请求将置于队列中。 为避免出现任何竞争情况，在至少 90 分钟之前，特意不处理排队的请求。 MMS 处理请求后，会执行以下任务：
+为给定用户触发 MMS 时，该用户的迁移请求将置于队列中。 为了避免出现任何竞争情况，在至少 90 分钟之前，特意不处理排队的请求。 MMS 处理请求后，会执行以下任务：
 
-1. 它会在用户的邮箱中搜索该用户组织的所有现有会议，并计划在将来。
+1. 它会在用户的邮箱中搜索该用户组织的所有现有会议，并计划在将来进行。
 2. 根据在用户的邮箱中发现的信息，它会在 Teams 或 Skype for Business Online 中为该用户更新或安排新会议，具体取决于具体方案。
 3. 在电子邮件中，它将替换会议详细信息中的联机会议块。
 4. 它代表会议组织者将会议的更新版本发送给所有会议收件人。 会议被邀请者将收到其电子邮件中更新的会议坐标的会议更新。 
@@ -64,7 +64,7 @@ ms.locfileid: "54298872"
 **注意**：
 
 - MMS 在迁移会议时会替换联机会议信息块中的所有内容。 因此，如果用户编辑了信息块，它们的更改会被覆盖。 用户拥有的所有联机会议信息块以外的内容不会受到影响。 这意味着，附加到会议邀请的任何文件仍将包含在内。 
-- 仅Skype for Business Microsoft Teams Web 上单击 Outlook 中的"添加 Skype 会议"按钮或者使用 Outlook 的 Skype 会议 加载项安排的 Outlook 会议。 如果用户将联机会议信息Skype粘贴到新会议，则新会议不会更新，因为原始服务中没有任何会议。
+- 仅Skype for Business web Outlook 中的"添加 **Skype** 会议"按钮或者使用 Outlook 的 Skype 会议 加载项安排的 Microsoft Teams 或 Microsoft Teams 会议。 如果用户将联机会议信息从一Skype复制并粘贴到新会议，该新会议将不会更新，因为原始服务中没有任何会议。
 - 创建或附加到会议的会议内容 (白板、投票等) MMS 运行后不会保留。 如果你的会议组织者提前对会议附加了内容，在 MMS 运行之后需要重新创建该内容。
 - 日历项以及 Skype 会议中共享会议笔记的链接也会被覆盖。 请注意，存储在会议记录中OneNote会议笔记仍将存在;它是唯一覆盖的共享笔记的链接。
 - 与会者超过 250（包括组织者）的会议不会迁移。
@@ -83,7 +83,7 @@ ms.locfileid: "54298872"
 
 这是 MMS 可帮助为用户创建更平滑过渡的最常见方案。 如果不进行会议迁移，则由本地用户Skype for Business Server的现有会议在用户联机移动后将不再有效。 因此，使用本地管理工具 (管理控制面板) 将用户移动到云时，现有会议会自动移动到 `Move-CsUser` 云，如下所示：
 
-- 如果指定了 中的开关，会议将直接迁移到Teams `MoveToTeams` `Move-CsUser` 用户将进入 TeamsOnly 模式。 此开关的使用要求在 2015 Skype for Business Server CU8 或更高版本。 这些用户仍可使用 Skype for Business Skype for Business 客户端或 Skype 会议 App 加入他们受邀参加的任何Skype 会议会议。
+- 如果指定了 中的开关，会议将直接迁移到Teams `MoveToTeams` `Move-CsUser` 用户将进入 TeamsOnly 模式。 此开关的使用要求在 2015 Skype for Business Server CU8 或更高版本。 这些用户仍可使用Skype for Business客户端或应用Skype for Business加入任何Skype 会议会议。
 - 否则，会议将迁移到 Skype for Business Online。
 
 在任一情况下，如果在将用户移动到云之前为用户分配了音频会议许可证，则使用拨入坐标创建会议。 如果将用户从本地移动到云，并且希望该用户使用音频会议，我们建议在移动用户之前先分配音频会议，以便仅触发 1 个会议迁移。
@@ -108,13 +108,13 @@ ms.locfileid: "54298872"
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>分配 TeamsUpgradePolicy 时更新会议
 
-默认情况下，当向用户授予 具有 或 的实例时，会自动 `TeamsUpgradePolicy` 触发 `mode=TeamsOnly` 会议迁移 `mode= SfBWithTeamsCollabAndMeetings` 。 如果在授予上述任一模式时不想迁移会议，则使用 PowerShell) 时，在 (中指定 ，或者取消选中用于迁移会议的框（如果使用 Teams 管理门户) ，则设置用户的共存模式 `MigrateMeetingsToTeams $false` `Grant-CsTeamsUpgradePolicy` (）。
+默认情况下，当向用户授予 具有 或 的实例时，会自动 `TeamsUpgradePolicy` 触发 `mode=TeamsOnly` 会议迁移 `mode= SfBWithTeamsCollabAndMeetings` 。 如果在授予上述任一模式时不想迁移会议，则使用 PowerShell) 时，在 (中指定 ，或者取消选中用于迁移会议的框 (（如果使用 Teams 管理门户 `MigrateMeetingsToTeams $false` `Grant-CsTeamsUpgradePolicy`) ）。
 
 另请注意以下事项：
 
 - 只有当为特定用户授予权限时， `TeamsUpgradePolicy` 才调用会议迁移。 如果在租户范围内使用 或 进行授权，则不 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode=SfBWithTeamsCollabAndMeetings` 调用会议迁移。 
 - 如果用户是在线家庭用户，则只能向用户授予 TeamsOnly 模式。 必须如前所述使用 移动本地 `Move-CsUser` 用户。
-- 授予 TeamsOnly 或 SfBWithTeamsCollabAndMeetings Teams模式不会将现有会议Skype for Business会议。
+- 授予 TeamsOnly 或 SfBWithTeamsCollabAndMeetings Teams模式不会将现有Skype for Business转换为会议。
 
 ### <a name="trigger-meeting-migration-manually-via-powershell-cmdlet"></a>通过 PowerShell cmdlet 手动触发会议迁移
 
@@ -122,8 +122,8 @@ ms.locfileid: "54298872"
 
 **TargetMeetingType：**
 
-- 使用 `TargetMeetingType Current` 指定Skype for Business保留Skype for Business，Teams保留Teams会议。 但是，音频会议坐标可能会更改，任何本地会议Skype for Business迁移到 Skype for Business Online。 这是 TargetMeetingType 的默认值。
-- 使用 指定必须将任何现有会议迁移到 Teams，无论会议是托管在 Skype for Business 在线还是本地，也无论是否需要任何音频会议更新 `TargetMeetingType Teams` 。 
+- 使用 `TargetMeetingType Current` 指定Skype for Business保留Skype for Business，Teams保留Teams会议。 但是，音频会议坐标可能会更改，任何本地会议Skype for Business将迁移到 Skype for Business Online。 这是 TargetMeetingType 的默认值。
+- 使用 指定必须将任何现有会议迁移到 Teams，无论会议是托管在 Skype for Business Online 还是本地，以及是否需要任何音频会议更新。 `TargetMeetingType Teams` 
 
 **SourceMeetingType：**
 - `SourceMeetingType SfB`使用 指示仅Skype for Business会议 (是本地还是联机) 更新。
@@ -176,13 +176,14 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
     ```PowerShell
     Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
-2. 对于每个受影响的用户，请运行会议迁移工具以手动迁移其会议。
+2. 对于每个受影响的用户，请运行会议迁移工具手动迁移其会议。
 
 3. 如果使用会议迁移工具还是无法完成迁移，你有两个选择：
 
     - 让用户创建新的 Skype 会议。
     - [联系支持人员](/microsoft-365/Admin/contact-support-for-business-products)。
 
+cmdlet 可用于检索过去 150 天内触发的迁移 `Get-CsMeetingMigrationStatus` 的状态。 超过 150 天的迁移记录会从系统中清除。
 
 ### <a name="enabling-and-disabling-mms"></a>启用和禁用 MMS
 
@@ -202,7 +203,7 @@ Get-CsTenantMigrationConfiguration
 ```PowerShell
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
-如果在组织中启用了 MMS，并且你想要检查是否为音频会议更新启用了 MMS，请检查 的输出中的 `AutomaticallyMigrateUserMeetings` 参数值 `Get-CsOnlineDialInConferencingTenantSettings` 。 若要为音频会议启用或禁用 MMS，请使用 `Set-CsOnlineDialInConferencingTenantSettings` 。 例如，若要为音频会议禁用 MMS，请运行以下命令：
+如果在组织中启用了 MMS，并且你想要检查是否启用了音频会议更新，请检查 的输出中的 `AutomaticallyMigrateUserMeetings` 参数值 `Get-CsOnlineDialInConferencingTenantSettings` 。 若要为音频会议启用或禁用 MMS，请使用 `Set-CsOnlineDialInConferencingTenantSettings` 。 例如，若要为音频会议禁用 MMS，请运行以下命令：
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false

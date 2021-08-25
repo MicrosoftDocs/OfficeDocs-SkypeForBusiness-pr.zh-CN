@@ -18,12 +18,12 @@ description: 本文介绍在 Teams 管理中心中可用的Microsoft Teams报表
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61e40646318105d633b14d44a2eb8bfe41f13fa8
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 362dce90521cb5fe948735f7e8a435e5f158ed3e
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399101"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523823"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -54,20 +54,20 @@ ms.locfileid: "58399101"
 |[TeamsPSTN 分钟池报告](pstn-minute-pools-report.md) |  国家或地区<br>功能 (许可证)  <br>总分钟数<br>使用的分钟数<br>可用分钟数|
 |[TeamsPSTN 使用情况报告 - 呼叫计划](pstn-usage-report.md#calling-plans)|  时间戳<br>用户名<br>电话数字<br>呼叫类型 <br>调用到<br>到国家/地区 <br>从 调用 <br>从国家/地区<br>费用<br>货币<br>持续时间<br>国内/国际<br>呼叫 ID<br>数字类型<br>国家或地区<br>会议 ID<br>功能 (许可证) |
 |[TeamsPSTN 使用情况报告 - 直接路由](pstn-usage-report.md#direct-routing)  |  时间戳<br>显示名称<br>SIP 地址<br>电话数字 <br>呼叫类型<br>调用到<br>开始时间<br>邀请时间<br>故障时间<br>结束时间<br>持续时间<br>数字类型<br>媒体旁路<br>SBC FQDN<br>Azure 区域<br>事件类型<br>最终 SIP 代码<br>最终 Microsoft 子代码<br>最终 SIP 短语<br>关联 ID  |
-|[Teams信息保护许可证报告 - 直接路由](information-protection-license-report.md)  | <br>用户是否具有通过更改通知推送其消息的有效许可证</br><br>用户触发的更改通知事件总数</br><br>哪些应用正在侦听组织范围的更改通知事件</br>|
+|[Teams信息保护许可证报告](information-protection-license-report.md)  | <br>用户是否具有通过更改通知推送其消息的有效许可证</br><br>用户触发的更改通知事件总数</br><br>哪些应用正在侦听组织范围的更改通知事件</br>|
 
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>使用户特定的数据匿名
 
-若要使用户活动Teams数据Teams设备使用情况报告匿名，你必须是全局管理员。 这会在报表及其导出中隐藏显示名称、电子邮件和 AAD ID 等可识别信息。
+若要使用户活动Teams数据并Teams设备使用情况报告匿名，你必须是全局管理员。 这会隐藏报表及其导出显示名称标识信息，例如电子邮件、电子邮件和 AAD ID。
 
-1. 在Microsoft 365 管理中心，转到"设置 Org \> **设置"，在**"服务"选项卡下，选择"报表 **"。**
+1. 在Microsoft 365 管理中心中，转到 \> **"设置"设置"，在**"服务 **"** 选项卡下，选择"报表 **"。**
     
 2. 选择 **"报告**"，然后选择"**显示匿名标识符"。** 此设置同时应用于管理中心Microsoft 365 管理中心使用情况Teams报表。
   
 3. 选择"**保存更改"。**
 
 > [!NOTE]
-> 启用此设置将取消标识用户Teams[报告](user-activity-report.md)和设备Teams[报告的信息](device-usage-report.md)。 它不会影响管理中心内提供的其他Teams报告。
+> 启用此设置将取消标识用户活动[Teams和设备使用情况](user-activity-report.md)Teams[报告中](device-usage-report.md)的信息。 它不会影响管理中心内提供的其他Teams报告。

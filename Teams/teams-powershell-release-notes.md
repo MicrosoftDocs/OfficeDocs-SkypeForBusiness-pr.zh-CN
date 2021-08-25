@@ -13,12 +13,12 @@ ms.collection:
 description: 了解 PowerShell 中的最新Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3fbffcf36e05aab945833bcf6a09e097d6c0c39
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 88c00fbad17c07e179c1163ec393c95859ac4705
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380446"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523783"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft TeamsPowerShell 发行说明
 
@@ -31,7 +31,7 @@ ms.locfileid: "58380446"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
-| 2021 年 8 月 | [2.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.0) |<li>使用 MicrosoftTeams 连接 AccessToken 登录的更新。</li><li>修复了 Cloudshell 中的 Connect-MicrosoftTeams交互式登录。</li><li>改进了New-Team创建方案的 cmdlet。</li><li>TeamsUnassignedNumberTreatment cmdlet 现已可用。</li><li>Get-CsCsOnlineDialInConferencingBridge Set-CsOnlineDialInConferencingBridge。</li><li>发布 Get-CsTenant 现代化版本，Get-CsOnlineUser (-identity 参数的) 。</li>|
+| 2021 年 8 月 | [2.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.0) |<li>该New-Team cmdlet 已更新为较新的 API，以防止之前观察到的团队创建失败。 因此，cmdlet 的失败次数和延迟已改善。</li><li>现在，Connect-MicrosoftTeams的访问令牌登录使用统一的令牌数组，而不是每个特定于资源的令牌的单独参数。 可在此处找到 [更多详细信息](/powershell/module/teams/connect-microsoftteams?view=teams-ps)。</li><li>修复了 Cloudshell 中Connect-MicrosoftTeams登录失败的问题。 现在默认使用用户的登录标识，而不是提示重新身份验证。</li><li>TeamsUnassignedNumberTreatment cmdlet 现已可用。</li><li>Get-CsOnlineDialInConferencingBridge Set-CsOnlineDialInConferencingBridge cmdlet 现已从旧实现迁移到较新的 API。</li><li>仅已发布具有 -identity Get-CsTenant Get-CsOnlineUser (-identity 参数的) 版本。 与它们的远程处理对应对象相比，它们不再发出已弃用的属性，并且有一些格式更改。</li>|
 | 2021 年 7 月 | [2.4.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.1-preview) |<li>现在可以授予 cmdlet 更改。</li><li>发布了新的语音相关 cmdlet。</li><li>删除 -Cs* cmdlet 的证书指纹身份验证。</li><li>所有 cmdlet 的日志记录文件的日志记录修复。</li><li>修复了 *TeamChannelUser cmdlet 的问题。</li>|
 | 2021 年 6 月 | [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>仅预览版 Get-CsTenant、Get-CsOnlineUser (且仅具有 -identity 参数的) 、Get-CsOnlineDialInConferencingLanguagesSupported 和 Import-CsOnlineAudioFile。</li><li>现代化版本的 Get-CsOnlineDialInConferencingLanguagesSupported Import-CsOnlineAudioFile 预期与远程处理版本类似/相同。</li><li>使用 -identity 参数Get-CsTenant和Get-CsOnlineUser (时，) 版本不会发出已弃用的属性。</li><li>使用 -identity 参数Get-CsTenant Get-CsOnlineUser (时，) 和远程处理计数器部分) 更新版本的格式更改。</li><li>Releases [Get \| Set \| Grant New \| \| Remove]-CsTeamsAudioConferencingPolicy cmdlets。</li><li>发布 Get-CsOnlineAudioFile Remove-CsOnlineAudioFile cmdlet。</li><li>Set-TeamTargetingHierarchy、Remove-TeamTargetingHierarchy Get-TeamTargetingHierarchyStatus现在可用于GCC客户。</li><li>修复了 Get-TeamTargetingHierarchyStatus 调用的终结点。</li>|
 | 2021 年 5 月 | [2.3.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>支持使用 连接-MicrosoftTeams 进行 AccessToken 登录。 添加了接受令牌数组的 -AccessTokens 参数。 使用 AccessTokens Teams需要 MSGraph 和 Teams 资源令牌。</li><li>删除了 AadAccessToken 和 MsAccessToken 参数。</li>|
