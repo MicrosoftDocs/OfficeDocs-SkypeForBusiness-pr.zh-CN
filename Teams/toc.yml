@@ -232,7 +232,7 @@ items:
                   - name: 禁用混合以仅完成到 Teams 的迁移
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                   - name: 更新 DNS 条目
-                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
                   - name: 决定如何在解除授权后管理属性
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: 将应用程序终结点移动到云
@@ -265,6 +265,8 @@ items:
             href: identify-models-authentication.md
           - name: 登录 Microsoft Teams
             href: sign-in-teams.md
+          - name: 注销 Microsoft Teams
+            href: sign-out-of-teams.md
           - name: Teams 中安全链接
             href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: AppLocker 应用程序控制策略
@@ -757,6 +759,10 @@ items:
                 href: rooms/microsoft-teams-rooms-premium.md
               - name: 基于角色的访问控制
                 href: rooms/microsoft-teams-rooms-premium-rbac.md
+              - name: 获取并分配许可证
+                href: rooms/obtaining-assigning-license.md
+              - name: 注册 MTRP 托管服务
+                href: rooms/enrolling-mtrp-managed-service.md
           - name: 计划
             items:
               - name: Microsoft Teams 会议室规划概述
@@ -1497,6 +1503,8 @@ items:
             href: flw-onboarding-wizard.md
           - name: 一线员工脚本化部署
             href: flw-scripted-deployment.md
+          - name: 管理排班应用
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           - name: 为一线员工管理基于班次的访问
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
           - name: 管理排班管理的计划所有者
@@ -1620,6 +1628,8 @@ items:
             href: alerts/teams-admin-alerts.md
           - name: Teams 设备运行状况监视
             href: alerts/device-health-status.md
+          - name: 设备管理的管理单元功能
+            href: administrative-unit.md
       - name: Teams PowerShell
         items:
           - name: 概述
