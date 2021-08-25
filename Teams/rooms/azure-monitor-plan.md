@@ -13,32 +13,32 @@ localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
-description: 本文讨论使用 Azure Monitor 管理 Microsoft Teams 会议室 实施或Skype for Business设备Teams注意事项。
+description: 本文讨论使用 Azure Monitor 管理 Microsoft Teams 会议室 或 Skype for Business 或 Teams 设备的规划注意事项。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd5ee73fa9414a07385c7e94cce2b3387ecd217a105d072755752f979e77599a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1cd848b6ccf963e7b21083ac65c0332f74542967
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348828"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505410"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>使用 Azure Monitor Microsoft Teams 会议室计划管理
  
- 本文讨论使用 Azure Monitor 管理 Microsoft Teams 会议室 实施或Microsoft Teams设备Skype for Business注意事项。
+ 本文讨论使用 Azure Monitor 管理Microsoft Teams 会议室或云Microsoft Teams中的Skype for Business注意事项。
   
 [Azure Monitor](/azure/azure-monitor/overview) 是一系列从一开始在云中设计的管理服务。 Azure Monitor 组件完全托管在 Azure 中，而不是部署和管理本地资源。 只需进行最少的配置，即可在几分钟内开机运行。 通过一些自定义工作，它可以通过为各个会议室系统提供系统运行状况或故障实时通知，帮助管理 Microsoft Teams 会议室 会议系统，并且它可能会扩展为管理数千个 Microsoft Teams 会议室 会议室。
   
-本文介绍实现基于 Azure Monitor 的 Microsoft Teams 会议室 会议设备管理所需的要求、设计/体系结构和实施最佳做法，并提供指向有关实现用于 Microsoft Teams 会议室 的 Azure Monitor 的详细文章的链接，以及用于持续监视 Microsoft Teams 会议室 会议室的关键参考信息。 
+本文介绍实现基于 Azure Monitor 的 Microsoft Teams 会议室 会议设备管理所需的要求、设计/体系结构和实施最佳做法，并提供指向有关实现适用于 Microsoft Teams 会议室 的 Azure Monitor 的详细文章的链接，以及用于持续监视 Microsoft Teams 会议室 会议室的关键参考信息。 
   
 ## <a name="functional-overview"></a>功能概述
 
-![使用 Azure Monitor Microsoft Teams 会议室管理图表](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
+![使用 Azure monitor Microsoft Teams 会议室管理图表](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
-主机Microsoft Teams 会议室应用将事件写入其事件Windows日志中。 安装 Microsoft Monitoring Agent 后，会将信息传递给 Azure Monitor 服务。 
+主机Microsoft Teams 会议室应用将事件写入其事件Windows日志。 安装 Microsoft Monitoring Agent 后，会将信息传递给 Azure Monitor 服务。 
   
-正确配置后，Log Analytics 会分析事件说明中嵌入的 JSON 有效负载，Microsoft Teams 会议室系统的运行方式以及检测到哪些故障。 
+正确配置后，Log Analytics 将分析事件说明中嵌入的 JSON 有效负载，Microsoft Teams 会议室系统的运行方式以及检测到哪些故障。 
   
-使用 Azure Monitor 的管理员可以接收Microsoft Teams 会议室或遇到应用、连接或硬件故障的系统的通知，以及知道系统是否需要重新启动。 每个系统状态会经常更新，因此这些通知接近实时更新。
+使用 Azure Monitor 的管理员可以Microsoft Teams 会议室处于脱机状态或遇到应用、连接或硬件故障的系统的通知，并知道系统是否需要重启。 每个系统状态会经常更新，因此这些通知接近实时更新。
   
 ## <a name="azure-monitor-requirements"></a>Azure Monitor 要求
 
@@ -48,13 +48,13 @@ ms.locfileid: "54348828"
   
 ### <a name="related-tasks"></a>相关任务
 
-1. 订阅 Azure Monitor Log Analytics 后， (创建自定义[字段，如](azure-monitor-deploy.md#Custom_fields)映射自定义字段) 分析从 Microsoft Teams 会议室 控制台发送的信息所需。 这包括了解了解日志条目 中 [介绍的](azure-monitor-manage.md#understand-the-log-entries)JSON 架构。
+1. 订阅 Azure Monitor Log Analytics 后， (创建自定义字段，如映射自定义字段[) 分析](azure-monitor-deploy.md#Custom_fields)从 Microsoft Teams 会议室 控制台发送的信息所需的字段。 这包括了解了解日志条目 中 [介绍的](azure-monitor-manage.md#understand-the-log-entries)JSON 架构。
     
-2. 在 Log Analytics Microsoft Teams 会议室管理视图。 可以使用导入[方法Microsoft Teams 会议室](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method)仪表板，也可以手动创建Microsoft Teams 会议室[仪表板。](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)
+2. 在 Log Analytics Microsoft Teams 会议室管理视图。 可以[手动创建Microsoft Teams 会议室仪表板。](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)
     
 ## <a name="individual-microsoft-teams-rooms-console-requirements"></a>单个Microsoft Teams 会议室主机要求
 
-每个 Microsoft Teams 会议室 主机都是一个在 Surface Pro 设备上以展台模式运行的应用 (通常配置为可以在设备上运行的唯一) 。 与任何Windows一样，Microsoft Teams 会议室应用会将启动和硬件故障等事件写入Windows日志。 在设备上添加 Microsoft Monitor Microsoft Teams 会议室可以收集这些事件。  (请参阅[连接 Windows计算机到 Azure 中的 Log Analytics](/azure/azure-monitor/platform/agent-windows)服务了解详细信息。) 
+每个 Microsoft Teams 会议室 主机都是一个在 Surface Pro 设备上以展台模式运行的应用 (通常配置为可以在设备上运行的唯一) 。 与任何Windows一样，Microsoft Teams 会议室应用会将启动和硬件故障等事件写入Windows日志。 在设备上添加 Microsoft Monitor Microsoft Teams 会议室可以收集这些事件。  (请参阅连接 Windows [Azure 中的 Log Analytics](/azure/azure-monitor/platform/agent-windows)服务获取详细信息。) 
   
 ## <a name="ongoing-management"></a>正在进行的管理
 
@@ -62,10 +62,10 @@ ms.locfileid: "54348828"
   
 ### <a name="related-tasks"></a>相关任务
 
-- 请参阅标题为"了解日志Microsoft Teams 会议室部分 (警报及其解决方式) [](azure-monitor-manage.md#understand-the-log-entries)
+- 请参阅标题为"了解Microsoft Teams 会议室日志条目"部分 (警报及其) [](azure-monitor-manage.md#understand-the-log-entries)
     
 ## <a name="see-also"></a>另请参阅
 
-[使用 Azure Monitor Microsoft Teams 会议室管理](azure-monitor-deploy.md)
+[使用 Azure monitor Microsoft Teams 会议室管理](azure-monitor-deploy.md)
   
 [使用 Azure Monitor Microsoft Teams 会议室设备](azure-monitor-manage.md)

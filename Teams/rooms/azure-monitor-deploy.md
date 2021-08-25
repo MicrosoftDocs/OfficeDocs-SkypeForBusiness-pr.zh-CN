@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何使用 Azure Monitor 以Microsoft Teams 会议室的端到端方式部署设备管理。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234237"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505400"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
 
@@ -50,7 +50,7 @@ ms.locfileid: "58234237"
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>验证 :::no-loc text="Log Analytics"::: 配置
 <a name="validate_LogAnalytics"> </a>
 
-需要一个 :::no-loc text="Log Analytics"::: 工作区，以开始从设备收集 :::no-loc text="Microsoft Teams Rooms"::: 日志。 工作区是一个 :::no-loc text="Log Analytics"::: 唯一的环境，具有自身的数据存储库、数据源和解决方案。 如果已有一个工作区，可以使用它来监视部署，也可以创建特定于监视 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 需求的专用 :::no-loc text="Microsoft Teams Rooms"::: 工作区。
+需要一个 :::no-loc text="Log Analytics"::: 工作区，以开始从设备收集 :::no-loc text="Microsoft Teams Rooms"::: 日志。 工作区是具有其自己的数据存储库、数据源和解决方案的独特 :::no-loc text="Log Analytics"::: 环境。 如果已有一个工作区，可以使用它来监视部署，也可以创建特定于监视 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 需求的专用 :::no-loc text="Microsoft Teams Rooms"::: 工作区。
 
 如果需要创建新工作区，请按照在门户中创建工作区 :::no-loc text="Log Analytics"::: [一文 :::no-loc text="Log Analytics"::: 的说明 :::no-loc text="Azure"::: 进行操作](/azure/azure-monitor/learn/quick-create-workspace)
 
@@ -61,7 +61,7 @@ ms.locfileid: "58234237"
 
 :::no-loc text="Log Analytics"::: 仅从设置 :::no-loc text="Windows"::: 中指定的事件日志中收集事件。 对于每个日志，只会收集具有所选严重性的事件。
 
-需要配置 :::no-loc text="Log Analytics"::: 以收集监视设备和应用程序状态 :::no-loc text="Microsoft Teams Rooms"::: 所需的日志。 :::no-loc text="Microsoft Teams Rooms"::: 设备使用 **:::no-loc text="Skype Room System":::** 事件日志。
+需要配置为 :::no-loc text="Log Analytics"::: 收集监视设备和应用程序状态 :::no-loc text="Microsoft Teams Rooms"::: 所需的日志。 :::no-loc text="Microsoft Teams Rooms"::: 设备使用 **:::no-loc text="Skype Room System":::** 事件日志。
 
 若要 :::no-loc text="Log Analytics"::: 配置为收集 :::no-loc text="Microsoft Teams Rooms"::: 事件，请参阅 中的[ :::no-loc text="Windows"::: 事件日志数据源 :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
@@ -160,16 +160,9 @@ ms.locfileid: "58234237"
 
 > [!NOTE]
 > 本指南中的先前步骤应已完成，仪表板磁贴应能正常工作。
-
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>使用Microsoft Teams 会议室创建仪表板
-
-可以导入 :::no-loc text="Microsoft Teams Rooms"::: 仪表板并开始快速监视设备。 执行以下步骤导入仪表板：
-
-1.  获取 [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) 仪表板文件。
-2.  登录到门户[ :::no-loc text="Microsoft Azure"::: ，](https://portal.azure.com)转到并选择 :::no-loc text="Log Analytics"::: 工作区。
-3.  打开 **"视图设计器"。**
-4.  选择 **"导入**"，然后选择 **SkypeRoomSystems_v2.omsview** 文件。
-5.  选择“**保存**”。
+>
+> [!IMPORTANT]
+> [Azure Monitor 中的视图设计器将于 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) 年 8 月 31 日停用，创建和克隆功能已在 2020 年 11 月 30 日禁用。 工作簿可以改为使用。 有关视图设计器转换指南到工作簿的信息，请参阅使用预设视图 [设计器模板快速入门](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)。
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>手动Microsoft Teams 会议室仪表板
 
@@ -214,7 +207,7 @@ ms.locfileid: "58234237"
     **组标题：** 留空<br>
     **新建组：** 未选中
 3.  定义 **磁贴** 属性：<br>
-    **图例：** 非活动 (过去 20 分钟内未发送任何检测信号) <br>
+    **图例：** 非活动设备 (最近 20 分钟内未发送检测信号) <br>
     **图块查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定义 **列表** 属性：<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
@@ -245,7 +238,7 @@ ms.locfileid: "58234237"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>创建显示 :::no-loc text="Microsoft Teams Rooms"::: 操作系统版本的磁贴
 
-1.  从 **库中&"Donut"** 列表，然后添加新磁贴。
+1.  从 **库中&"** 按钮"，然后添加新磁贴。
 2.  定义 **"常规"** 属性：<br>
     **组标题：** 操作系统详细信息<br>
     **新建组：** 已选择
@@ -269,7 +262,7 @@ ms.locfileid: "58234237"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>创建显示应用程序 :::no-loc text="Microsoft Teams Rooms"::: 版本的磁贴
 
-1.  从 **库中&"Donut"** 列表，然后添加新磁贴。
+1.  从 **库中&"** 按钮"，然后添加新磁贴。
 2.  定义 **"常规"** 属性：<br>
     **组标题：** :::no-loc text="Microsoft Teams Rooms"::: 应用程序详细信息<br>
     **新建组：** 已选择
@@ -354,7 +347,7 @@ ms.locfileid: "58234237"
 
 2. 导航到工作区 :::no-loc text="Log Analytics"::: ，选择 **"警报"，** 然后选择" **新建警报规则"**
 
-3. 选择 **"添加条件** "，然后选择 **"自定义日志搜索"**
+3. 选择 **"添加条件** "，然后选择" **自定义日志搜索"**
 
 4.  在"搜索查询"文本框中输入以下查询。<br>
     ```
