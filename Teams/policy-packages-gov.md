@@ -14,20 +14,20 @@ appliesto:
 - Microsoft Teams
 f1.keywords: ''
 ms.custom: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用和管理Teams组织的策略包。
-ms.openlocfilehash: d9c229e9795a9e93caed37832baf0b03ef58c47305f41d2961420eea485bc608
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f796a2fc3c7e359f311f2a709f058e172f8f454
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316988"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582166"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams政府部署策略包
 
 > [!NOTE]
-> 目前，在政府高级部署Microsoft 365 DoD GCC策略包不可用。
+> 策略包目前不适用于政府Microsoft 365高级GCC DoD 部署。
 
 ## <a name="overview"></a>概述
 
@@ -51,7 +51,7 @@ Teams包括以下政府策略包。
 
 ![医疗保健策略包的屏幕截图](media/policy-packages-gov.png)
 
-将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。 例如，将"公共安全人员"策略包分配给组织中用户时，PublicSafety_Officer包中每个策略创建名为 PublicSafety_Officer 的策略。
+将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。 例如，向组织中用户分配"公共安全人员"策略包时，PublicSafety_Officer包中每个策略创建一个名为 PublicSafety_Officer 的策略。
 
 ![医疗保健临床工作者策略包中策略的屏幕截图](media/policy-packages-public-safety-officer.png)
 

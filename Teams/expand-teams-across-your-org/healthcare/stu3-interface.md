@@ -9,22 +9,22 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: 了解如何将电子健康记录集成到Microsoft Teams应用和 STU3 接口规范中。
+description: 了解如何将电子健康记录集成到 Microsoft Teams 应用和 STU3 接口规范中。
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e51372f2c44bdd5bdeea8e4a7699d3f46881564e0c98f3049b95dcbd21eb66c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 64fc61072510942b67d51542095a927e7e67c697
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344036"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582326"
 ---
 # <a name="stu3-interface-specification"></a>STU3 接口规范
 
@@ -33,7 +33,7 @@ ms.locfileid: "54344036"
 >
 >借助列表，医疗保健组织中的护理团队可针对各种方案创建患者列表，提供圆形和内联团队会议、常规患者监视等。 查看列表的"患者"模板以开始使用。 若要深入了解如何在组织中管理列表应用，请参阅" [列表应用管理](../../manage-lists-app.md)。
 
-设置或重新配置 FHIR 服务器以使用Microsoft Teams患者应用需要了解应用需要访问哪些数据。 FHIR 服务器必须使用捆绑包支持以下资源的 POST 请求：
+设置或重新配置 FHIR 服务器以使用 Microsoft Teams患者应用需要了解应用需要访问哪些数据。 FHIR 服务器必须使用捆绑包支持以下资源的 POST 请求：
 
 - [Patient](#patient)
 - [观察](#observation)
@@ -41,11 +41,11 @@ ms.locfileid: "54344036"
 - [Encounter](#encounter)
 - [仇恨者](#allergyintolerance)
 - [覆盖范围](#coverage)
-- [药物 (](#medication-request) 替代 PatientsApp) 的 DSTU2 版本中的 PatientOrder
-- 位置 (此资源所需信息的位置可以包含在"遇到") 
+- [药物 (](#medication-request) 替代 PatientsApp) DSTU2 版本中的一种药物) 
+- 位置 (此资源所需信息的位置信息可包含在"遇到") 
 
 > [!NOTE]
-> 患者资源是唯一必需的资源 (，如果没有它，应用将完全不加载) ;但是，建议合作伙伴根据下面提供的规范实施对上述所有资源的支持，以获得最佳患者应用最终用户Microsoft Teams体验。
+> 患者资源是唯一必需的资源 (，如果没有它，应用将完全不加载) ;但是，建议合作伙伴根据下面提供的规范实现对上述所有资源的支持，以获得最佳患者应用最终用户Microsoft Teams体验。
 
 来自 Microsoft Teams Patients 应用的查询针对多个资源应发布一个捆绑包 (BATCH) FHIR 服务器 URL 的请求。 服务器应处理每个请求并返回每个请求匹配的资源捆绑包。 有关详细信息和示例，请参阅 [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) 。
 
@@ -60,7 +60,7 @@ ms.locfileid: "54344036"
     - 资源：类型
     - 安全性 [：OAuth URI 扩展](https://hl7.org/fhir/extension-oauth-uris.html)
     
- - FhirVersion (我们的代码需要此代码来了解应该透视到哪个版本) 
+ - FhirVersion (我们的代码要求它了解应该透视到哪个版本) 
 
 有关 [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) 此字段集的其他详细信息，请参阅 。
 
@@ -83,10 +83,10 @@ ms.locfileid: "54344036"
 资源搜索使用 /Patient/_search 的 POST 方法以及以下参数：
 
  - id
- - family= (搜索其家庭名称包含其值的所有) 
+ - family= (搜索其家庭名称包含其值) 
  - given=\<substring>
  - birthdate= (完全匹配) 
- - gender= (值是管理性别关系之一) 
+ - gender= (值是管理性别差异之一) 
  - \_count (应返回的结果的最大)  <br> 响应应包含搜索结果返回的记录总数，并且 PatientsApp 将用来限制返回 \_ 的记录数。
  - identifier=\<mrn>
 
@@ -243,7 +243,7 @@ Response:
 
 这些是最小必填字段，这些字段是 [Argonaut Vital-Signs配置文件 的子集](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)。
 
- - 有效 (日期时间或) 
+ - 有效 (日期时间或时间段) 
  - Code.Code.Code
  - ValueQuantity.Value
 
@@ -475,7 +475,7 @@ Response:
 这些是最小必填字段，这些字段是 ["美国核心药物请求"配置文件的子集](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html)：
 
  - 如果参考， (显示) 
- - 如果 CodableConcept (，将使用"药物.文本) 
+ - 如果 CodableConcept (，将发送一) 
  - AuthoredOn
  - Requester.Agent.Display
 

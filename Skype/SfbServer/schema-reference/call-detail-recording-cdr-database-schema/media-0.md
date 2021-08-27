@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: “媒体”视图存储有关在对等会话中使用的一种媒体类型的信息。 如果使用多个媒体类型，则一个会话由表中的多条记录表示。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 9e1165e19db4d007f04007233a7751a9119fcf310cf61b257e7e5014599357c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7297e3c0e4d8839fc820334ee4dabb7412242245
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322954"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617678"
 ---
 # <a name="media-view"></a>媒体视图
  
@@ -29,7 +29,7 @@ ms.locfileid: "54322954"
   
 媒体视图包含 [SessionDetails](sessiondetails-0.md) 视图中的所有列以及下面列出的列。
   
-|**列**|**数据类型**|**详细信息**|
+|**列**|**数据类型**|**Details**|
 |:-----|:-----|:-----|
 |**Media** <br/> |nvarchar (256)   <br/> |媒体类型。 有关详细信息， [请参阅 MediaList](medialist.md) 表。 <br/> |
 |**MediaStartTime** <br/> |datetime  <br/> |发出媒体请求的时间。  <br/> |

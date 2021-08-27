@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: 本节介绍由 Skype for Business Server 使用的所有架构类。
-ms.openlocfilehash: 9b7e22b6950728804986ea662659f04484834e0d65e6d9bd755c0138dc09e5e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec9c4a7612455df6d004289f88ccdb7efb3d6334
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297069"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596436"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>架构中的架构类和Skype for Business Server
  
@@ -67,14 +67,14 @@ ms.locfileid: "54297069"
 |msRTCSIP-PhoneRoutes（作废）  <br/> |此类是多个最低成本路由的容器，并且自身不包含任何属性。  <br/> |在 Lync Server 2010 中已过时。  <br/> |
 |msRTCSIP-Policies（作废）  <br/> |此类包含多个 Lync Server 策略类，并且自身没有任何属性。  <br/> |在 Lync Server 2010 中已过时。  <br/> |
 |msRTCSIP-Pool  <br/> |此类表示单个Skype for Business Server池。  <br/> |-  <br/> |
-|msRTCSIP-Pools  <br/> |此类包含多个Skype for Business Server，并且自身没有任何属性。  <br/> |-  <br/> |
+|msRTCSIP-Pools  <br/> |此类包含多个Skype for Business Server池，并且自身没有任何属性。  <br/> |-  <br/> |
 |msRTCSIP-PoolService  <br/> |此类表示池的服务控制点。如果用户承载于池中，其 msRTCSIP-PrimaryHomeServer 属性将指向此类的实例。  <br/> |-  <br/> |
 |msRTCSIP-Presence  <br/> |存储全局状态设置的容器。  <br/> |-  <br/> |
 |msRTCSIP-Registrar  <br/> |这是 msRTCSIP-GlobalContainer 的辅助类，其中包含表示由 SIP 注册器服务器维护的用户设置的属性。  <br/> |-  <br/> |
 |msRTCSIP-RouteUsage（作废）  <br/> |此类是表示电话路由用法的实例的容器。电话路由用法类由一个属性字段和一个说明字段组成。属性字段定义用法类型。通过说明字段，管理员可以描述此属性在电话路由中的用法。  <br/> |在 Lync Server 2010 中已过时。  <br/> |
 |msRTCSIP-RouteUsages（作废）  <br/> |此类包含 msRTCSIP-RouteUsage 类的多个实例，并且自身没有任何属性。  <br/> |在 Lync Server 2010 中已过时。  <br/> |
 |msRTCSIP-Search  <br/> |这是 msRTCSIP-GlobalContainer 的辅助类，它包含用于限定和控制搜索结果范围的属性。  <br/> |-  <br/> |
-|msRTCSIP-Server  <br/> |此类表示运行 Skype for Business Server。  <br/> |-  <br/> |
+|msRTCSIP-Server  <br/> |此类表示运行数据库的单个Skype for Business Server。  <br/> |-  <br/> |
 |msRTCSIP-Service  <br/> |此类包含全局设置容器和 msRTCSIP-Domain 对象。  <br/> |-  <br/> |
 |msRTCSIP-TrustedMCU  <br/> |此类包含表示受信任会议服务器的设置的属性。  <br/> |Communications Server 2007 中的新增功能。  <br/> |
 |msRTCSIP-TrustedMCUs  <br/> |此类包含 msRTCSIP-TrustedMCU 类的多个实例，并且自身没有任何属性。  <br/> |Communications Server 2007 中的新增功能。  <br/> |

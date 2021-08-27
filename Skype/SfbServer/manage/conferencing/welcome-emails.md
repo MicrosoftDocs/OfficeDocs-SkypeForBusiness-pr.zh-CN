@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 摘要：了解如何欢迎用户在 Skype for Business Server 中加入电话拨入式Skype for Business Server。
-ms.openlocfilehash: 1b585d4e0ff05bdb1faca0aa9c8b0863dd26f10f7d06bb1140211a2f1663e6b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4304952bbede0f35183a80f789783bbfc4a8cfbd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578796"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>向电话拨入用户发送欢迎电子邮件Skype for Business Server
  
@@ -54,7 +54,7 @@ ms.locfileid: "54313190"
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer** 默认情况下，脚本使用此参数的保留环境 **$PSEmailServer** 的值。 如果未 **$PSEmailServer** 变量，则必须指定此参数。
+**SmtpServer** 默认情况下，脚本使用此参数的保留 **$PSEmailServer变量的值** 。 如果未 **$PSEmailServer** 变量，则必须指定此参数。
     
 **凭据** 默认情况下，脚本使用当前用户的凭据。 如果当前用户无权代表指定的"发送者"地址发送电子邮件，则必须指定此参数。 一般而言，如果不将电子邮件地址指定为"发送地址"，请指定此参数。
     

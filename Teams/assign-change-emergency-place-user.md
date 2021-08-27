@@ -13,29 +13,29 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 本文介绍了如何为贵组织的用户分配或更改紧急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d60cb3f5ec1daf5e65064fe659ff4be677ad4d06290f3c29af8caf6dae95fb9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 146c97be9b416b0e338b6b6c49eeb19171b26cee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340648"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617598"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>为用户分配或更改紧急位置的位置
 
-将电话号码分配给用户时，每个活动电话号码必须具有关联的紧急位置。  (在 Office 365 中收到电话号码或转移电话号码时关联地址。) 将号码与紧急位置关联时，还可以添加一个位置，在物理位置内提供更精确的位置。 一个地方可以是用户所在的楼层、建筑侧或办公室号码。 对于给定的紧急位置，你可以有无限数量的地点，并且如果用户移动到其他办公室或建筑物，你可以更改位置。 例如，如果用户从 34 楼移到 35 楼。
+将电话号码分配给用户时，每个活动电话号码必须具有关联的紧急位置。  (在 Office 365 中收到电话号码时或转移电话号码时，您将地址关联。) 当您将号码与紧急位置关联时，您还可以添加一个位置，在物理位置中提供更精确的位置。 一个地方可以是用户所在的楼层、建筑侧或办公室号码。 对于给定的紧急位置，你可以有无限数量的地点，并且如果用户移动到其他办公室或建筑物，你可以更改位置。 例如，如果用户从 34 楼移到 35 楼。
   
-若要了解如何获取通话套餐及其费用，请参阅Teams[附加许可。](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+若要了解如何获取通话套餐及其费用，请参阅Teams[许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-可以在管理中心或 PowerShell 中为Microsoft Teams位置分配或更改紧急位置。
+可以在管理中心或 PowerShell 中为用户分配或更改Microsoft Teams位置。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在管理中心左侧导航Microsoft Teams，单击 **"语音电话**  >  **号码"。**
+1. 在管理中心的左侧导航Microsoft Teams，单击 **"语音电话**  >  **号码"。**
 
 2. 在 **"电话"页面上**，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
 

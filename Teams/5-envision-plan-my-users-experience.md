@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: 选择Teams客户端应用，规划终结点质量，获取有关在终结点Wi-Fi和选择音频设备的建议。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a0557603c0086fdcc561dec3257b9f9bd1bef32b7db6d680a018202f0aa59aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f6482baa6738d4f7c3495085f86ae9b9a054d0eb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338010"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624834"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
@@ -31,7 +31,7 @@ ms.locfileid: "54338010"
 
 ## <a name="client-deployment"></a>客户端部署
 
-Microsoft Teams客户端可用于 Web、桌面 (Windows 和 Mac) ，以及 Android (和 iOS) 。 有关如何安装桌面客户端和 Mac (Windows和移动) 的其他详细信息，请参阅获取适用于 Microsoft Teams 的[客户端](./get-clients.md)。
+Microsoft Teams客户端可用于 Web、桌面 (Windows和 Mac) ，以及 Android (和 iOS) 。 有关如何安装桌面客户端 (Windows Mac) 和移动客户端的其他详细信息，请参阅获取适用于 Microsoft Teams 的[客户端](./get-clients.md)。
 
 ## <a name="client-updates"></a>客户端更新
 
@@ -53,12 +53,12 @@ Teams终结点可在许多设备上运行，包括电脑、Mac、平板电脑和
 
 规划的第一部分是确保组织内的所有电脑和其他设备都可以运行Teams。 这不仅要查看硬件要求，而且还要了解 PC 在后台执行的其他操作。 许多组织会运行其他软件，包括入侵检测系统和反恶意软件，这些软件会影响设备的基础性能。
 
-有关 Web、桌面和移动Teams每个平台上Teams (客户端的软件要求) ，请参阅获取适用于[Microsoft Teams。](./get-clients.md)
+有关 Web、桌面Teams移动 (平台上客户端的软件要求) ，请参阅获取客户端[Microsoft Teams。](./get-clients.md)
 
 ## <a name="endpoint-firewalls"></a>终结点防火墙
 
 客户端防火墙会对用户体验产生很大影响。
-客户端防火墙会影响通话质量，以及阻止建立通话。 根据客户端防火墙中的信息配置相应的排除项，Microsoft 365 Office 365 [URL](/microsoft-365/enterprise/urls-and-ip-address-ranges)和 IP 地址范围。 你的第三方供应商会提供有关如何创建排除项的具体指导。
+客户端防火墙会影响通话质量，以及阻止建立通话。 根据 URL 或 IP 地址范围 中Microsoft 365 Office 365在客户端防火墙上配置适当的[排除项](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 你的第三方供应商会提供有关如何创建排除项的具体指导。
 
 >[!NOTE]
 > Microsoft Teams 会自动为 Windows 防火墙更新适当的防火墙配置。
@@ -69,7 +69,7 @@ Teams终结点可在许多设备上运行，包括电脑、Mac、平板电脑和
 
 ### <a name="wi-fi-drivers"></a>Wi-Fi 驱动程序
 
-某些Wi-Fi驱动程序可能存在问题。 例如，某个驱动程序可能存在在接入点之间进行非常积极的漫游行为，从而导致通话质量较差。
+某些Wi-Fi驱动程序可能会出现问题。 例如，某个驱动程序可能存在在接入点之间进行非常积极的漫游行为，从而导致通话质量较差。
 这不是常见情况，但必须确保在部署Wi-Fi更新和测试电脑上的驱动程序。
 
 ### <a name="wi-fi-bands"></a>Wi-Fi 频带
@@ -91,7 +91,7 @@ Teams终结点可在许多设备上运行，包括电脑、Mac、平板电脑和
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>组织中Teams哪些客户端？</li><li>最初如何向用户Teams客户端？</li><li>Who负责评估终结点和设备，以验证它们是否满足Teams体验的要求？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录部署客户端时要遵循Teams的过程。</li><li>评估终结点和设备，并执行所需的修正。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录部署客户端时要遵循Teams的过程。</li><li>评估终结点和设备，并执行所需的修正。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -114,7 +114,7 @@ Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>决定组织针对用户和会议室体验的总体设备策略。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>为组织完成一个"从设备到设备"映射练习。</li><li>记录为用户和会议室获取设备的过程。</li><li>记录为用户和会议室部署和配置设备的过程。</li><li>购买初始设备以开始部署。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>为组织完成一个"从设备到设备"映射练习。</li><li>记录为用户和会议室获取设备的过程。</li><li>记录为用户和会议室部署和配置设备的过程。</li><li>购买初始设备以开始部署。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

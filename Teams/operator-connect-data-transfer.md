@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 与运营商与 Microsoft 之间的数据传输或信息相关的特定隐私信息，特别是与运营商连接。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324821"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582186"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>运营商与 Microsoft for Operator 连接
 
@@ -35,6 +35,6 @@ Microsoft 会通过 API 向每个参与运营商提供呼叫详细信息记录�
 
 ## <a name="call-duration-data"></a>通话持续时间数据
 
-每个运营商都将通过 API 向 Microsoft 提供客户使用 MICROSOFT TEAMS。 Microsoft 将使用这些记录为客户提供使用情况信息，并确保我们的记录与运营商的记录一致。 Microsoft 将按照适用的法律和法规以及 Microsoft 隐私声明存储和处理这些记录。
+每个运营商都将通过 API 向 Microsoft 提供客户使用 Microsoft Teams。 Microsoft 将使用这些记录为客户提供使用情况信息，并确保我们的记录与运营商的记录一致。 Microsoft 将按照适用的法律和法规以及 Microsoft 隐私声明存储和处理这些记录。
 
-有关详细信息：[购买、配置和启用职业指导配置Microsoft Teams](career-coach.md)
+有关详细信息：[购买、配置和启用职业指导Microsoft Teams](career-coach.md)

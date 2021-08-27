@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于波兰Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 40b300016a6d747614fec8ddae26780ec6ca39903dd239b93d0d0f1ec39046a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是适用于波兰Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 93296a036a1c5f145267e508dacd6f43b147838e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617528"
 ---
 # <a name="availability-in-poland"></a>在波兰的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于波兰Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+以下是适用于波兰Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解附加许可证、功能以及如何为计划Microsoft 365 商业标准版购买。 '
-ms.openlocfilehash: c5469958a14c860223117742d4a0b3eb2c4d7a9e6f0168e3a7748413fc8426bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f092b8f17eff3aa48717be385795a2ca1c18a36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318027"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589164"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 商业标准版
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-如果你拥有[Microsoft 365 商业标准版，](https://products.office.com/en/business/office-365-business-premium)可以使用 Skype for Business 呼叫企业中订阅中的其他人。 例如，如果你的企业有 10 个人，则可以使用 Skype for Business 相互通话和发送即时消息。
+如果拥有[Microsoft 365 商业标准版，](https://products.office.com/en/business/office-365-business-premium)可以使用 Skype for Business 呼叫企业中订阅中的其他人。 例如，如果你的企业有 10 个人，则可以使用 Skype for Business 相互通话和发送即时消息。
 
  **要与企业外部的人员相互拨打和接听电话，可以采用以下两个选项：**
 
@@ -43,7 +43,7 @@ ms.locfileid: "54318027"
     建议开始先使用 Skype 应用，以确定它是否能满足你的需要。如果不能，再考虑下一个选项，即升级你的计划。
 
     > [!IMPORTANT]
-    > 必须设置切换开关，以允许员工使用Skype for Business搜索Skype用户。 请参阅[允许Skype for Business添加Skype联系人](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)。
+    > 必须设置切换开关，以允许员工使用Skype for Business搜索Skype用户。 请参阅[允许用户Skype for Business添加Skype联系人。](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)
 
 
 - **选项 2. 升级您的套餐和购买电话系统的国内或国内和国际通话套餐**。
@@ -55,7 +55,7 @@ ms.locfileid: "54318027"
 
 2. 购买 **电话系统** 加载项。
     
-3. 为 [用户购买Office 365](/MicrosoftTeams/calling-plans-for-office-365)套餐：只有在购买附加 **电话系统才能购买**。
+3. 购买 [适用于 Office 365](/MicrosoftTeams/calling-plans-for-office-365)的呼叫计划：只有在购买附加 **电话系统才能购买**。
     
     对于有多人需要拨打和接听外部电话的企业而言，第二个选项是理想的选择。
 
@@ -76,8 +76,8 @@ ms.locfileid: "54318027"
 
 1. 切换到 E1 或 E3 计划。
 
-2. 转到管理中心>  >  **计费订阅"。**
+2. 转到管理中心，>  >  **计费订阅"。**
 
-3. 选择" **附加许可证**"。 现在，你将看到该电话系统的价格以及购买它的选项。
+3. 选择" **附加许可证**"。 现在，你将看到该电话系统的价格以及购买选项。
 
 4. 购买 **电话系统** 许可证后，你将看到通话套餐的价格及其购买选项。

@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: 小型企业设置 Teams 可允许用户通过聊天和文件共享进行协作、安排并参加大小型会议及通过视频和语音相互交流。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 92bd4ef4d53cbae8902719da3ce55a5b88a270c4b18d43bfe75ab89578fe204a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a7e15a8a327d40ea11412229205fca6e856e9f7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322694"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596316"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>小型企业设置 Microsoft Teams
 

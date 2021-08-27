@@ -12,26 +12,26 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndSqlStorePage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
-description: 定义要配置SQL Server前端池的前端池存储的属性。
-ms.openlocfilehash: 06f48b4f515db23980fb5aedbd701a43cb8c5854bff630586f059bc52e9de6f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 定义要配置的新SQL Server池的前端池存储的属性。
+ms.openlocfilehash: f999327894b406ba814b0e46dc6c6c7007a50776
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343586"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610779"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>添加 Lync Server 2010 的前端 SQL 存储页
  
-定义要配置SQL Server前端池的前端池存储的属性。
+定义要配置的新SQL Server池的前端池存储的属性。
   
 > [!IMPORTANT]
 > 如果要配置服务器Standard Edition，将显示此对话框，但无法配置设置。 单击“下一步”继续。
   
 可以配置的设置：
   
-- **使用以前定义的SQL Server存储**：从SQL Server前端池存储的列表中选择现有池存储。
+- **使用以前定义的SQL Server** 存储：从SQL Server前端池存储的列表中选择现有池存储。
     
 - 选择 **"定义新的SQL Server** 存储"以创建新的SQL Server存储。
     

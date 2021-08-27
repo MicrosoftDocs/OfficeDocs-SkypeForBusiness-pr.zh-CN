@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 您可以使用以下两种方法将单个用户或用户组移动到新的 Microsoft Skype for Business Server 2019 部署：Skype for Business Server控制面板和 Skype for Business Server 命令行管理程序。 本节中的主题介绍在试点部署期间以及将 Skype for Business Server 2019 部署从试点部署移动到生产级别部署之前必须完成的任务。
-ms.openlocfilehash: 612ec4dd77821a6ad36d6bb06feddd1c59f9cb3b0c78836db3b4133741aa3262
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 您可以使用以下两种方法将单个用户或用户组移动到新的 Microsoft Skype for Business Server 2019 部署：Skype for Business Server控制面板和 Skype for Business Server 命令行管理程序。 本节中的主题介绍在试点部署期间以及将 Skype for Business Server 2019 部署从试点部署移动到生产级部署之前必须完成的任务。
+ms.openlocfilehash: 0f6cb406ede12ec6580ec1bcae6e1e22099196cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300538"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589256"
 ---
 # <a name="phase-4-move-test-users-to-the-pilot-pool"></a>阶段 4：将测试用户移至试点池
 
-您可以使用以下两种方法将单个用户或用户组移动到新的 Microsoft Skype for Business Server 2019 部署：Skype for Business Server控制面板和 Skype for Business Server 命令行管理程序。 本节中的主题介绍在试点部署期间以及将 Skype for Business Server 2019 部署从试点部署移动到生产级别部署之前必须完成的任务。
+您可以使用以下两种方法将单个用户或用户组移动到新的 Microsoft Skype for Business Server 2019 部署：Skype for Business Server控制面板和 Skype for Business Server 命令行管理程序。 本节中的主题介绍在试点部署期间以及将 Skype for Business Server 2019 部署从试点部署移动到生产级部署之前必须完成的任务。
   
 ## <a name="in-this-section"></a>本节内容
 

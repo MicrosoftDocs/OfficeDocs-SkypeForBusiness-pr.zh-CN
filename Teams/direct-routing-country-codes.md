@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: reference
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,16 +17,16 @@ f1.keywords:
 - NOCSH
 description: 阅读本文以查找直接路由的媒体路径国家/地区代码，以便可以选择最佳媒体路径。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d51a3a5d6b878a607d9e5ee6b71d75319c9802fa48b3192f2023df179db3b49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36124a8aadc94bfd73ffd195ec8ee0a2acf0c2a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327737"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582346"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒体路径国家/地区代码
 
-选择媒体的路由路径时，默认情况下，直接路由始终基于会话边界控制器 (SBC) 的公共 IP 地址分配数据中心，并始终选择最靠近 SBC 数据中心的路径。
+为媒体选择路由路径时，默认情况下，直接路由始终根据会话边界控制器 (SBC) 的公共 IP 地址分配数据中心，并始终选择最靠近 SBC 数据中心的路径。
 
 但是，在某些情况下，默认媒体路径可能不是最佳媒体路径;例如，可以将美国范围的公共 IP 分配到位于欧洲的 SBC。 
 
@@ -37,7 +37,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 请注意，只有在调用日志明确指示媒体路径的数据中心默认分配不使用离 SBC 数据中心最近的路径时，Microsoft 才建议设置此参数。 
 
 > [!NOTE]
-> 保留 MediaRelayRoutingLocationOverride 参数，供托管运营商使用。
+> 保留 MediaRelayRoutingLocationOverride 参数，用于托管运营商。
  
 ## <a name="country-code-reference-table"></a>国家/地区代码参考表
 

@@ -10,19 +10,19 @@ audience: admin
 description: 了解在 Microsoft Teams 中组织团队以满足贵组织需求的最佳做法。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff8aede350f132d28ffed9b09e7bc776553e4c0a
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 727425a1dfcd1ea4ebeec27cc79982d996db42fa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372042"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596376"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 

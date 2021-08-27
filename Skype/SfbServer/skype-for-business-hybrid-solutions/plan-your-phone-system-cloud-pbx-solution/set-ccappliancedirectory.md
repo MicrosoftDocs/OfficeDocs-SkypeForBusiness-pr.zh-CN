@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
 description: 此Set-CcApplianceDirectory cmdlet 可设置主机Skype for Business 云连接器版本工作目录。 所有部署文件都存储在此目录中。
-ms.openlocfilehash: 8ca6b8b8e175058e5f19c86a9dd1c6e0cf8a43ab6ef7a439eee4e09b5430f6a2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f64fbb52cd12020104e98051564379d1fbc4985
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306593"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617664"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
@@ -44,7 +44,7 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 
 |**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | 必需 <br/> |System.String  <br/> | 指定存储所有部署文件的路径。 <br/> |
+| 路径 <br/> | 必需 <br/> |System.String  <br/> | 指定存储所有部署文件的路径。 <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

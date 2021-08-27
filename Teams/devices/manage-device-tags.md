@@ -12,16 +12,16 @@ ms.collection:
 f1.keywords:
 - CSH
 description: 了解如何在设备上管理和筛选Microsoft Teams标记。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a264b6f2679576fac0eb95dbbfafa93037b98cfc3b5f5dfbfa9a07d6b6eeb3bc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dec09762531b15e6889b2be77e7792d9313c606b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321484"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596296"
 ---
 # <a name="manage-microsoft-teams-device-tags"></a>管理Microsoft Teams标记
 
@@ -98,4 +98,4 @@ ms.locfileid: "54321484"
 7. 如果要添加更多设备标记，请选择"添加更多"，并针对要添加的每个标记重复步骤 6。
 8. 选择"**应用"。**
 
-在设备列表中筛选设备后，可以像平时一样对设备执行操作。 例如，可以选择它们，然后分配配置、编辑其 (（如果Teams 会议室设备) ，等等。 完成后，可以通过选择"标记筛选器"条目旁边的 **"X"** 或在列表右侧选择"全部清除"来删除筛选器。
+筛选设备列表中的设备后，可以像平时一样对设备执行操作。 例如，可以选择它们，然后分配配置、编辑其设置 (（如果Teams 会议室设备) ，等等。 完成后，可以通过选择"标记筛选器"条目旁边的 **"X"** 或在列表右侧选择"全部清除"来删除筛选器。

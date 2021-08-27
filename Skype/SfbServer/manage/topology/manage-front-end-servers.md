@@ -1,5 +1,5 @@
 ---
-title: 管理前端服务器Skype for Business Server
+title: 管理部署中的前端Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,22 +9,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: 摘要：了解如何在服务器中添加、删除、修补或更新Skype for Business Server。
-ms.openlocfilehash: b091f1fd74cfd2c3d93ee14e9ea6f1b584ec4111443b99f881786e94e038d8b2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何在前端服务器中添加、删除、修补或更新Skype for Business Server。
+ms.openlocfilehash: 4a58eb7ab54102d1287a61a9f736b9d0c1a87108
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290300"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578786"
 ---
-# <a name="manage-front-end-servers-in-skype-for-business-server"></a>管理前端服务器Skype for Business Server
+# <a name="manage-front-end-servers-in-skype-for-business-server"></a>管理部署中的前端Skype for Business Server
  
 本文介绍如何添加或删除前端服务器以及如何将升级或修补程序应用到前端服务器。
 
   > [!NOTE]
-> Skype for Business Server 2019 不支持Enterprise Edition两台前端服务器的前端池，并且不允许在该方案中发布拓扑。
+> Skype for Business Server 2019 Enterprise Edition两台前端服务器的前端池，并且不允许在该方案中发布拓扑。
 
 ## <a name="add-or-remove-front-end-servers"></a>添加或删除前端服务器
   
@@ -56,7 +56,7 @@ ms.locfileid: "54290300"
   > [!NOTE]
 > 此外，在池中添加或删除服务器时，必须在添加或删除的每台计算机中运行 Skype for Business Server 部署向导，有关详细信息，请参阅在拓扑中的服务器上安装[Skype for Business Server](../../deploy/install/install-skype-for-business-server.md)
   
-4. 如果通过以下任一方式更改了前端池中的服务器数量，请通过键入以下 cmdlet 重置池：Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
+4. 如果您通过以下任一方式更改了前端池中的服务器数量，则通过键入以下 cmdlet 重置池：Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     
    ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>

@@ -15,29 +15,29 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
-description: 获取有关呼叫质量仪表板和适用于 Microsoft Teams Online 的 CQ) D (CQD Microsoft Teams和Skype for Business的详细信息。
-ms.openlocfilehash: 22829b91fe4e40d0690194eff37d60ca5b99d53f
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+description: 获取有关呼叫质量仪表板和 CQD (CQD) 用于 Microsoft Teams Skype for Business 度量的详细信息。
+ms.openlocfilehash: 366c68b0fdafedabd5af366ee2c4244ea4005576
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505430"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582386"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>呼叫质量仪表板和 CQD (中的维度和) 
 
-呼叫质量仪表板 (适用于) Microsoft Teams Skype for Business Online 的 CQD 仪表板可让你更好地了解这些服务的呼叫质量。 本主题提供有关通过 CQD 可见的维度和度量的详细信息。 若要详细了解 CQD，请参阅使用 CQD 在 Microsoft Teams 中[管理呼叫和Microsoft Teams。](quality-of-experience-review-guide.md)
+呼叫质量仪表板 (用于) Microsoft Teams Skype for Business Online 的 CQD 仪表板使您可以更好地了解这些服务的呼叫质量。 本主题提供有关通过 CQD 可见的维度和度量的详细信息。 若要详细了解 CQD，请参阅使用 CQD 在 Microsoft Teams 中管理[呼叫和Microsoft Teams。](quality-of-experience-review-guide.md)
 
 ## <a name="first-and-second-endpoint-classification"></a>第一和第二终结点分类
 
 CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑用于确定将流或通话中涉及的哪些终结点标为第一。
 
-- 当服务器 (流或调用时，) AV MCU、中介服务器等服务器终结点视为 First。
+- 当服务器 (流或调用时，将) AV MCU、中介服务器等服务器终结点视为 First。
 - 除非流在两个服务器终结点之间，否则客户端终结点被视为"第二"。
 - 如果两个终结点的类型相同，则根据用户代理类别的内部顺序设置第一个和第二个终结点，以确保排序一致。
 
@@ -121,7 +121,7 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Second Building Name  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的建筑物的名称。 <br/> **示例值：** Main | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的建筑物名称 |
 | Second Ownership Type  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的建筑物的所有权类型。 <br/> **示例值：** Contoso - IT | &bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的所有权 |
 | Second Building Type  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的建筑物类型。 <br/> **示例值：** 打开Office | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 子网映射数据中未定义网络建筑物类型   |
-| Second Building Office Type  | 字符串  | Office子网与租户建筑物映射数据，第二终结点所在的建筑物类型。 <br/> **示例值：Office**  | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的建筑物办公类型。  |
+| Second Building Office Type  | 字符串  | Office子网与租户建筑物数据映射，第二终结点所在的建筑物类型。 <br/> **示例值：Office**  | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的建筑物办公类型。  |
 | Second City  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的城市。 <br/> **示例值：** 雷德蒙德 |  <br/>&bull; 终结点未报告网络数据  <br/>&bull; 网络不在企业网络中  <br/>&bull; 网络没有在子网映射数据中定义的城市   |
 | Second Zip Code  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的邮政编码。 <br/> **示例值** ：98052  | <br/>&bull; 终结点未报告网络数据 <br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义的邮政编码 |
 | Second Country  | 字符串  | 根据子网与租户建筑物映射数据，第二终结点所在的国家/地区。 <br/> **示例值：** 美国  | <br/>&bull; 终结点未报告网络数据<br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义国家/地区  |
@@ -133,7 +133,7 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 |**Deployment**| | | |
 | First Tenant Id  | 字符串  | 第一终结点的租户 ID。 <br/> **示例值** ：00000000 - 0000 -0000 - 0000 - 000000000000  | <br/>&bull; 无法确定第一终结点的租户 ID。 这可能表示终结点已登录到本地 Skype for Business Server部署。  |
 | Second Tenant Id  | 字符串  | 第二终结点的租户 ID。 <br/> **示例值** ：00000000 - 0000 - 0000 - 0000 - 000000000000  |  <br/>&bull; 无法确定第二终结点的租户 ID。 这可能表示终结点已登录到本地 Skype for Business Server部署。  |
-| First Pool  | 字符串  | 分配给第一终结点的 Skype for Business Online 池 FQDN <br/> **示例值：pool1** <span></span> .lync <span></span> .com  | <br/>&bull;指示终结点已登录到 Microsoft Teams 或 Skype for Business。 只有使用本地部署和本地部署的流Skype for Business Server此字段。 |
+| First Pool  | 字符串  | 分配给第一终结点的 Skype for Business Online 池 FQDN <br/> **示例值：pool1** <span></span> .lync <span></span> .com  | <br/>&bull;指示终结点已登录到 Microsoft Teams 或 Skype for Business。 只有使用本地部署和部署为流填充Skype for Business Server字段。 |
 | Second Pool  | 字符串  | 分配给第二终结点的 Skype for Business Online 池 FQDN <br/> **示例值：pool1.lync.com** <span></span>   | &bull;Skype for Business无法确定第二终结点的联机池。 这可能表示终结点已登录到本地 Skype for Business Server部署。  |
 | Is Federated  | 布尔值  | 如果流在两个联合租户之间，则为 True，否则为 False。   | <br/>&bull; 无法确定这是否为联合流 <br/>&bull; 未收集某些信号数据   |
 |区域 | String   |  部署所在的区域基于租户的主页区域。 <br/> **示例值：** 北美 | <br/>&bull; 未报告网络数据 <br/>&bull; 网络不在企业网络中 <br/>&bull; 网络没有在子网映射数据中定义区域。 |
@@ -142,8 +142,8 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | CDR Record Available  | 布尔值  | 如果为通话/会话提供至少一个呼叫详细记录，则为 True。     | |
 | Media Line Label  | 整型  | SDP 中用于媒体行的标签。使用"媒体类型"来确定是否为视频、音频、应用共享或基于视频的屏幕共享使用标签。<br/> **示例值：0**  | &bull; 终结点未报告此数据。  |
 | Media Type  | 字符串  | 媒体的类型（视频、音频、应用共享或基于视频的屏幕共享）。 <br/> **示例值：** 音频 |  |
-|媒体行标签文本 | String |会话说明协议 (SDP) 与流相对应的媒体行的标签属性。 有关更多详细信息，请参阅[RFC 4574。](https://tools.ietf.org/html/rfc4574) <br/> **示例值**： <br/> main-audio<br/> main-video<br/> main-video1<br/> main-video2<br/> main-video3<br/> main-video4<br/> main-video5<br/> main-video6<br/> main-video7<br/> main-video8<br/> main-video9<br/> 全景视频<br/> applicationsharing-video<br/> 数据   | |
-| First Is Server  | 枚举 <br/>**可能的值：** <br/>&bull; 客户端 <br/>&bull; 服务器  | 指示第一终结点是会议服务器 (AVMCU、ASMCU) 或其他媒体服务器 (中介服务器) 等服务器终结点，还是客户端终结点。  **示例值：** 客户端 | |
+|媒体行标签文本 | String |会话说明协议 (SDP) 与流对应的媒体行的标签属性。 有关[更多详细信息，请参阅 RFC 4574。](https://tools.ietf.org/html/rfc4574) <br/> **示例值**： <br/> main-audio<br/> main-video<br/> main-video1<br/> main-video2<br/> main-video3<br/> main-video4<br/> main-video5<br/> main-video6<br/> main-video7<br/> main-video8<br/> main-video9<br/> 全景视频<br/> applicationsharing-video<br/> 数据   | |
+| First Is Server  | 枚举 <br/>**可能的值：** <br/>&bull; 客户端 <br/>&bull; 服务器  | 指示第一个终结点是服务器终结点，例如会议服务器 (AVMCU、ASMCU) 或其他媒体服务器 (中介服务器) ，还是客户端终结点。  **示例值：** 客户端 | |
 | Second Is Server  | 枚举 <br/>**可能的值：** <br/>&bull; 客户端 <br/>&bull; 服务器   | 指示第二个终结点是服务器终结点，还是客户端终结点。 <br/>  **示例值：** 客户端 | |
 | First Is Caller  | 布尔值  | 如果第一终结点是发起会话的调用方，则为 True。   | |
 | First Network Connection Detail  | 枚举 <br>**可能的值：** <br/>&bull; 有线 <br/>&bull; WiFi <br/>&bull; MobileBB <br/>&bull;Tunnel <br/>&bull; 其他 | 第一终结点使用的网络类型。  <br/> **示例值：** 有线  | &bull; 终结点未报告数据  |
@@ -218,7 +218,7 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | 第一个本地地址类型 | 枚举 <br/>**可能的值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第一个本地地址的候选类型。 IceAddrType_Turn表示中继调用。 其余类型指示直接连接。 | &bull; 未报告传输诊断类型 <br/>&bull; 未建立媒体路径 |
 | 第二个本地地址类型 | 枚举 <br/>**可能的值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第二个本地地址的候选类型。 IceAddrType_Turn表示中继调用。 其余类型指示直接连接。 | &bull; 未报告传输诊断类型 <br/>&bull; 未建立媒体路径 |
 | 第一个远程地址 | String | 第一终结点在媒体连接检查结束时将媒体发送到的第二终结点的 IP 地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 <br/> **示例值** ：10.0.0.10 | &bull; 未报告传输诊断类型 <br/>&bull; 未建立媒体路径 |
-| 第二个远程地址 | String | 媒体连接检查结束时，第二终结点将媒体发送到的第一终结点的 IP 地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 <br/> **示例值** ：10.0.0.10 | &bull; 未报告传输诊断类型 <br/>&bull; 未建立媒体路径 |
+| 第二个远程地址 | String | 第二终结点在媒体连接检查结束时将媒体发送到的第一终结点的 IP 地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 <br/> **示例值** ：10.0.0.10 | &bull; 未报告传输诊断类型 <br/>&bull; 未建立媒体路径 |
 | 第一个远程地址类型 | 枚举 <br/>**可能的值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第一个远程地址的候选类型。 IceAddrType_Turn表示中继调用。 其余值指示直接连接。 | &bull; 未报告传输诊断类型 <br/>&bull; 未建立媒体路径 |
 | 第二个远程地址类型 | 枚举  <br/>**可能的值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第二个远程地址的候选类型。 IceAddrType_Turn表示中继调用。 其余值指示直接连接。 | &bull; 未报告传输诊断类型 <br/>&bull; 未建立媒体路径 |
 | 第一个本地站点 | String | 媒体中继服务器看到的第一终结点的 IP 地址。 这通常是与流的第一终结点关联的公共 Internet IP 地址。 如果出于某种原因中继不可访问或分配失败，这将是第一终结点上本地接口的 IP。 <br/> 这类似于第一个反身本地 IP，但此信息由传输诊断事件而不是 QoE 报告。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 <br/> **示例值** ：104.43.195.251 | &bull; 未报告传输诊断类型 <br/>&bull; 未建立媒体路径 |
@@ -232,8 +232,8 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | 第一个传输协议 | 枚举字符串 | 第一终结点用于发送媒体的通信协议。 <br/>**可能的值** <br/>&bull;UDP - 用于 TURN 和主机分配的多用途 UDP <br/>&bull;TurnTCP - TCP TURN 分配。 如果指定了代理设置，则使用代理 <br/>&bull;TCPHostPassive - 被动连接类型的 TCP 侦听主机套接字 <br/>&bull;TCPHostActive - 使用活动连接类型的 TCP 连接 <br/>&bull;复合TCP - 上游和下游 TCP 连接的组合。 通常通过 HTTPS 协议。 <br/>&bull;MultiTCP - 一种连接模型，它使用多个 TCP 连接，并使用轮循机制将数据包分发到每个连接。 </br> | &bull; 未报告传输诊断类型 <br/>&bull; 未建立媒体路径 |
 | 第二个传输协议 | 枚举字符串 | 第二终结点用于发送媒体的通信协议。 <br/>**可能的值** <br/>&bull;UDP - 用于 TURN 和主机分配的多用途 UDP <br/>&bull;TurnTCP - TCP TURN 分配。 如果指定了代理设置，则使用代理 <br/>&bull;TCPHostPassive - 被动连接类型的 TCP 侦听主机套接字 <br/>&bull;TCPHostActive - 使用活动连接类型的 TCP 连接 <br/>&bull;复合TCP - 上游和下游 TCP 连接的组合。 通常通过 HTTPS 协议。 <br/>&bull;MultiTCP - 一种连接模型，它使用多个 TCP 连接，并使用轮循机制将数据包分发到每个连接。 </br> | &bull; 未报告传输诊断类型 <br/>&bull; 未建立媒体路径 |
 |**Device**| |||
-| First Capture Dev  | 字符串  | 第一终结点使用的捕获设备的名称。对于：<br/> **音频流** = 用于麦克风的设备 <br/> **视频流** = 用于相机的设备 <br/> **基于视频的屏幕共享流** = 屏幕剪贴器 <br/> **应用共享流** = 空白 <br/> **示例值：** Microsoft LifeChat LX-6000 (耳机麦克风)   | &bull; 终结点未报告数据 <br/>&bull; 未建立媒体路径 <br/>&bull; 流是基于视频的屏幕共享或应用程序共享。  |
-| Second Capture Dev  | 字符串  | 第二终结点使用的捕获设备的名称。  <br/> **音频流** = 用于麦克风的设备 <br/> **视频流** = 用于相机的设备 <br/> **基于视频的屏幕共享流** = 屏幕剪贴器 <br/> **应用共享流** = 空白 <br/> **示例值：** Microsoft LifeChat LX-6000 (耳机麦克风)  | <br/>&bull; 终结点未报告数据 <br/>&bull; 未建立媒体路径 <br/>&bull; 流是基于视频的屏幕共享或应用程序共享   |
+| First Capture Dev  | 字符串  | 第一终结点使用的捕获设备的名称。对于：<br/> **音频流** = 用于麦克风的设备 <br/> **视频流** = 用于相机的设备 <br/> **基于视频的屏幕共享流** = 屏幕剪贴器 <br/> **应用共享流** = 空白 <br/> **示例值：** Headset Microphone (Microsoft LifeChat LX-6000)   | &bull; 终结点未报告数据 <br/>&bull; 未建立媒体路径 <br/>&bull; 流是基于视频的屏幕共享或应用程序共享。  |
+| Second Capture Dev  | 字符串  | 第二终结点使用的捕获设备的名称。  <br/> **音频流** = 用于麦克风的设备 <br/> **视频流** = 用于相机的设备 <br/> **基于视频的屏幕共享流** = 屏幕剪贴器 <br/> **应用共享流** = 空白 <br/> **示例值：** Headset Microphone (Microsoft LifeChat LX-6000)  | <br/>&bull; 终结点未报告数据 <br/>&bull; 未建立媒体路径 <br/>&bull; 流是基于视频的屏幕共享或应用程序共享   |
 | First Capture Dev Driver  | 字符串  | 第一终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流** = 用于麦克风的驱动程序 <br/> **视频流** = 用于相机的驱动程序 <br/> **基于视频的屏幕共享与应用共享流** = 空白  <br/> **示例值：** Microsoft：10.0.14393.0 | <br/>&bull; 终结点未报告数据 <br/>&bull; 未建立媒体路径 <br/>&bull; 流是基于视频的屏幕共享或应用程序共享。  |
 | Second Capture Dev Driver  | 字符串  | 第二终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流** = 用于麦克风的驱动程序 <br/> **视频流** = 用于相机的驱动程序 <br/> **基于视频的屏幕共享与应用共享流** = 空白 <br/> **示例值：** Microsoft：10.0.14393.0  | <br/>&bull; 终结点未报告数据 <br/>&bull; 未建立媒体路径 <br/>&bull; 流是基于视频的屏幕共享或应用程序共享。  |
 | First Render Dev  | 字符串  | 第一终结点使用的呈现设备的名称。对于：<br/> 音频流 - 用于扬声器的设备 <br/> 基于视频和视频的屏幕共享流 - 用于显示的设备 <br/> 应用共享流 - 空  <br/> **示例值：** Headset Earphone (Microsoft LifeChat LX-6000)  | <br/>&bull; 终结点未报告此数据 <br/>&bull; 未建立媒体路径  <br/>&bull; 流是应用程序共享    |
@@ -310,17 +310,17 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Video Poor Due To VideoLocalFrameLossPercentageAvg  | Boolean  | 如果根据以下位置列出的视频本地帧丢失百分比平均值指标阈值将视频流分类为差，则为 [True：呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非视频流，始终为 False。   | &bull; 终结点未报告此数据  <br/>&bull; 流不是视频流。 |
 | Video Poor Due To VideoFrameRateAvg  | Boolean  | 如果根据以下位置中列出的视频帧速率平均指标阈值将视频流分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非视频流，始终为 False。    | &bull; 终结点未报告此数据  <br/>&bull; 流不是视频流 |
 | VBSS Poor Due To VideoPostFecplr  | Boolean  | 如果基于视频的屏幕共享流根据以下文章中列出的视频发布 FEC PLR 指标阈值被分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非基于视频的屏幕共享流，始终为 False。    | &bull; 终结点未报告此数据 <br/>&bull; 流不是基于视频的屏幕共享流  |
-| VBSS Poor Due To VideoLocalFrameLossPercentageAvg  | Boolean  | 如果基于视频的屏幕共享流根据以下位置列出的视频本地帧丢失百分比平均值指标阈值被分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非基于视频的屏幕共享流，始终为 False。    | &bull; 终结点未报告此数据 <br/>&bull; 流不是基于视频的屏幕共享流  |
+| VBSS Poor Due To VideoLocalFrameLossPercentageAvg  | Boolean  | 如果基于视频的屏幕共享流根据以下位置列出的视频本地帧丢失百分比平均指标阈值被分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非基于视频的屏幕共享流，始终为 False。    | &bull; 终结点未报告此数据 <br/>&bull; 流不是基于视频的屏幕共享流  |
 | Video Poor Due To Freeze | Boolean  | 1：如果根据视频冻结实例将视频流分类为差：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md) | &bull; 终结点未报告此数据  <br/>&bull; 流不是视频流。 此字段特定于Microsoft Teams字段。 |
 | VBSS Poor Due To VideoFrameRateAvg  | Boolean  | 如果基于视频的屏幕共享流根据以下位置列出的视频帧速率平均指标阈值被分类为差，则为 [True：](stream-classification-in-call-quality-dashboard.md)呼叫质量仪表板中的流分类。 对于非基于视频的屏幕共享流，始终为 False。   | &bull; 终结点未报告此数据 <br/>&bull; 流不是基于视频的屏幕共享流   |
 | AppSharing Poor Due To SpoiledTilePercentTotal  | Boolean  | 如果根据以下位置中列出的"损坏的平铺百分比总计"指标阈值将应用程序共享流分类为差，则为 [True：呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。   | &bull; 终结点未报告此数据  <br/>&bull; 流不是应用程序共享流。  |
-| AppSharing Poor Due To RelativeOneWayAverage  | Boolean  | 如果根据以下位置中列出的"相对单向平均"指标阈值将应用程序共享流分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。    | &bull; 终结点未报告此数据  <br/>&bull; 流不是应用程序共享流 |
+| AppSharing Poor Due To RelativeOneWayAverage  | Boolean  | 如果根据以下位置中列出的相对单向平均指标阈值将应用程序共享流分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。    | &bull; 终结点未报告此数据  <br/>&bull; 流不是应用程序共享流 |
 | AppSharing Poor Due To RDPTileProcessingLatencyAverage | Boolean  | 如果根据以下位置列出的 RDP 磁贴处理延迟平均指标阈值将应用程序共享流分类为差，则为 [True：呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，始终为 False。    | &bull; 终结点未报告此数据  <br/>&bull; 流不是应用程序共享流 |
 | Audio Poor Due To Jitter  | 布尔值  | 如果根据以下位置列出的抖动指标阈值将音频流分类为差，则为 [True：呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。    | &bull; 终结点未报告此数据 <br/>&bull; 流不是音频共享流 |
 | Audio Poor Due To RoundTrip  | 布尔值  | 如果根据以下位置中列出的"往返行程"指标阈值将音频流分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。   | &bull; 终结点未报告此数据 <br/>&bull; 流不是音频共享流 |
 | Audio Poor Due To Packet Loss  | 布尔值  | 如果根据以下位置中列出的数据包丢失指标阈值将音频流分类为差，则为 [True：呼叫质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。    | &bull; 终结点未报告此数据 <br/>&bull; 流不是音频共享流 |
 | Audio Poor Due To Degradation  | 布尔值  | 如果根据以下位置中列出的降级指标阈值将音频流分类为差，则为 [True：](stream-classification-in-call-quality-dashboard.md)呼叫质量仪表板中的流分类。 对于非音频流，始终为 False。 注意：分类器中已弃用此功能。   | &bull; 终结点未报告此数据 <br/>&bull; 流不是音频共享流 |
-| Audio Poor Due To Concealed Ratio  | 布尔值  | 如果根据以下位置中列出的"隐藏比率"指标阈值将音频流分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。 注意：已在 classifer 中弃用。   | &bull; 终结点未报告此数据 <br/>&bull; 流不是音频共享流 |
+| Audio Poor Due To Concealed Ratio  | 布尔值  | 如果根据以下位置中列出的"隐藏比率"指标阈值将音频流分类为差，则为 True：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 对于非音频流，始终为 False。 注意：在 classifer 中已弃用。   | &bull; 终结点未报告此数据 <br/>&bull; 流不是音频共享流 |
 | Poor Reason  | 标志 <br/>**可能的值：** <br/>&bull; 隐藏比率 <br/>&bull; 降级 <br/>&bull; 抖动 <br/>&bull; 数据包丢失 <br/>&bull; 往返行程 <br/> Video Frame Rate Avg <br/> Video Local Frame Loss Percentage Avg <br/>&bull; 视频 FEC PLR 发布后 <br/>&bull; RDP 平铺处理平均延迟 <br/>&bull; 相对 OneWay 平均值 <br/>&bull; 损坏的平铺百分比总计 | 用于确定为何将流分类为差的一系列标志。 由于将流分类为差的原因有很多，因此可能会有设置多个标记。 有关详细信息， [请参阅呼叫质量仪表板中的](stream-classification-in-call-quality-dashboard.md) 流分类。  | &bull; 流未分类为差 |
 | Poor  | 布尔值  | 如果流有足够的数据被分类为好或差，并且流被分类为差，则为 True。 否则为 False。   |   |
 | Good  | 布尔值  | 如果流有足够的数据被分类为好或差，并且流被分类为良好，则为 True。 否则为 False。   |   |
@@ -333,7 +333,7 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Second Feedback Tokens  | 字符串  | 包含反馈令牌列表的字符串，其布尔标志指示令牌是否由提供第二终结点反馈的用户设置。 <br/> **示例值** ：{DistortedSpeech：1;ElectronicFeedback：1;BackgroundNoise：1;MuffledSpeech：1;Echo：1;}  | &bull; 第二终结点的用户未提供反馈  |
 | First Feedback Has Audio Issue  | 布尔值  | 如果第一终结点的反馈标记指出流包含音频问题，则为 True，否则为 False。   |  |
 | Second Feedback Has Audio Issue  | 布尔值  | 如果来自第二终结点的反馈令牌指示流存在音频问题，则为 True，否则为 False。    ||
-| First Feedback Has Video Issue  | 布尔值  | 如果来自第一终结点的反馈令牌指示流出现视频问题，则为 True，否则为 False。    | |
+| First Feedback Has Video Issue  | 布尔值  | 如果来自第一终结点的反馈令牌指示流存在视频问题，则为 True，否则为 False。    | |
 | Second Feedback Has Video Issue  | 布尔值  | 如果来自第二终结点的反馈令牌指示流出现视频问题，则为 True，否则为 False。    | |
 | First Feedback Has AppSharing Issue  | Boolean  | 如果来自第一终结点的反馈令牌指示流存在应用共享问题，则为 True。 否则为 False。 | |  
 | Second Feedback Has Appsharing Issue  | Boolean  | 如果来自第二终结点的反馈令牌指示流存在应用共享问题，则为 True。 否则为 False。 | |  
@@ -352,10 +352,10 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Second Send Noise Level  | 范围（dB、分贝）  | 第二终结点分类为单声道噪音或立体声左声道噪音的音频的平均能量水平。 值按范围分组表示。 <br/> **示例值** ：048：[-50 - -45)   | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
 | 首次接收的噪音级别  | 范围（dB、分贝）  | 第一终结点收到的单声道噪音或立体声左声道噪音的平均能量水平。 值按范围分组表示。 <br/> **示例值** ：048：[-50 - -45)   | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
 | Second Received Noise Level  | 范围（dB、分贝）  | 第二终结点收到的单声道噪音或立体声左声道噪音的平均能量水平。 值按范围分组表示。 <br/> **示例值** ：048：[-50 - -45)   | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
-|First Initial Signal Level RMS | 范围（dB、分贝） | 第一终结点 (30) 接收信号的 RMS 的均方根数。 请参阅 [2.2.1.28.1 子元素](/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)  | |
+|First Initial Signal Level RMS | 范围（dB、分贝） | 第一终结点 (前 30) 接收信号的 RMS 的均方根数。 请参阅 [2.2.1.28.1 子元素](/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)  | |
 | Second Initial Signal Level RMS |范围（dB、分贝） | RMS 的 (均方) 表示第二终结点调用前 30 秒收到的信号。 有关详细信息 [，请参阅 2.2.1.28.1](/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) 子元素。||
-| First RxAGC Signal Level |范围（dB、分贝）| 第一个入站音频流的 AGC (自动增益控制) 接收的信号级别。| |
-| Second RxAGC Signal Level |范围（dB、分贝）|在 AGC 的自动增益控制 (接收) 第二个入站音频流的信号级别。|| 
+| First RxAGC Signal Level |范围（dB、分贝）| 第一个入站音频流的 AGC (AGC) 接收的信号级别。| |
+| Second RxAGC Signal Level |范围（dB、分贝）|第二个入站音频流的 AGC (AGC) 接收的信号级别。|| 
 | First RxAGC Noise Level|范围（dB、分贝）|第一个入站音频流的 AGC (AGC) 接收的噪音级别。 ||
 | Second RxAGC Noise Level|范围（dB、分贝）|第二个入站音频流的 AGC (AGC) 接收的噪音级别。||
 | First Render Loopback Signal Level |范围（dB、分贝）| 第一个入站音频流的环回信号级别。 ||
@@ -407,21 +407,21 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 | Is Anonymous Join Session  | 布尔值  | 如果用户匿名加入会议，则为 True，否则为 False。   | &bull; 无数据可确定用户是匿名加入还是非匿名加入   |
 | 具有媒体诊断 Blob  | 布尔值  | 如何会话具有媒体诊断数据，则为 True，否则为 False。   | &bull; 未为此流收集某些信号数据   |
 | Call Setup Failure Reason  | 枚举  | 通话未能建立媒体连接的原因分类。 <br/>**可能的值：** <br/> **缺少 FW 深度数据包检查免除** 规则 - 指示路径中的网络设备可能会由于深度数据包检查规则而阻止建立媒体路径。 这可能是因为未正确配置代理或防火墙规则。 <br/> **缺少 FW IP** 阻止免除规则 - 指示路径中的网络设备可能阻止建立到网络Office 365路径。 这可能是因为未正确将代理或防火墙规则配置为允许访问用于 Skype for Business 流量的 IP 地址和端口。 <br/> **其他** - 指示无法建立调用的媒体路径，但无法分类根本原因。 <br/> 不是媒体故障 - 表示在建立媒体路径时未检测到问题。  | &bull; 由于未知媒体问题，呼叫设置失败  |
-| 会话类型  | 枚举 <br/>**可能的值：** <br/> Conf、P2P  | 指示呼叫会话类型是使用 P2P () 还是对等 (呼叫) 会议。 <br/> **示例值：** Conf | |
+| 会话类型  | 枚举 <br/>**可能的值：** <br/> Conf、P2P  | 指示呼叫会话类型是在 P2) P 方案中 () 还是对等 (会议。 <br/> **示例值：** Conf | |
 | CDR 响应原因  | 枚举 <br/>**可能的值：** <br/> 0 或 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" | 所有其他 CDR 代码 = "Other" | 提供通话会话结束的原因，无论呼叫是否成功，并允许在未完成的呼叫 (无应答、忙碌、拒绝) 和失败的呼叫 (媒体) 。 <br/> **示例值：** 还行 | <br/>&bull; 值"其他"表示响应代码在 Microsoft 工程团队外部在诊断上没有用 |
 |**DNS**|||
 | 已用 DNS 解析缓存  | 布尔值  | 如果终结点使用了 DNS 缓存来解析媒体中继地址，则为 True，否则为 False。    | <br/>&bull; 终结点未报告此数据    |
 |**UserData**| |||
 | First User ObjectId|String|第一终结点用户的 Active Directory 对象 ID。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。  | |
 | Second User ObjectId|String|第二终结点用户的 Active Directory 对象 ID。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 | |
-| 第一个 MAC 地址|String|MAC 中的 (访问控制) 第一终结点的网络设备的地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| |
-| 第二个 MAC 地址|String|MAC 上的 (访问控制) 第二终结点的网络设备的地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| |
+| 第一个 MAC 地址|String|MAC 上的 (访问控制) 第一终结点的网络设备的地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| |
+| 第二个 MAC 地址|String|MAC 中的 (访问控制) 第二终结点的网络设备的地址。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| |
 | First Sip Uri|String|会话启动协议 (SIP) 第一终结点用户的 URI。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| &bull;仅针对终结点Skype for Business填充。 <br/>&bull; 用户无权查看 EUII。 |
 | Second Sip Uri|String|第一终结点用户的 SIP URI。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| &bull;仅针对终结点Skype for Business填充。<br/>&bull; 用户无权查看 EUII。 |
 | First 电话 Number|String|第一终结点用户的电话号码。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 无论 EUII 查看权限如何，最后四位数的 PSTN 号码始终在 CQD 中模糊处理。<br/> **示例值：+1425555******| &bull; 仅为 PSTN 终结点填充。 <br/>&bull; 用户无权查看 EUII。 |
 | Second 电话 Number|String|第二终结点用户的电话号码。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 无论 EUII 查看权限如何，最后四位数的 PSTN 号码始终在 CQD 中模糊处理。<br/> **示例值：+1425555****** | &bull; 仅为 PSTN 终结点填充。<br/>&bull; 用户无权查看 EUII。 |
-| First UPN|String|用户主体名称 (第一) 用户的 UPN 名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| &bull; 并非所有 UserType 都有 UPN;包括 Second UserType 或 Second User ObjectId 维度，了解有关这些终结点的更多信息。 |
-| Second UPN|String|用户主体名称 (第) 终结点用户的 UPN 名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| &bull; 并非所有 UserType 都有 UPN;包括 Second UserType 或 Second User ObjectId 维度，了解有关这些终结点的更多信息。 |
+| First UPN|String|用户主体名称 (第) 终结点用户的 UPN 名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| &bull; 并非所有 UserType 都有 UPN;包括 Second UserType 或 Second User ObjectId 维度，了解有关这些终结点的更多信息。 |
+| Second UPN|String|用户主体名称 (终结点) 用户的 UPN 名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。| &bull; 并非所有 UserType 都有 UPN;包括 Second UserType 或 Second User ObjectId 维度，了解有关这些终结点的更多信息。 |
 | 第一个反馈文本|String|详细反馈文本（如果有）由第一终结点的用户在调用结束时提供。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。 | |
 | Second Feedback Text|String| 逐字反馈文本（如果有）由第二终结点用户在通话结束时提供。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
 | 第一个客户端终结点名称|String|第一终结点计算机名称。 仅适用于过去 28 天的数据，并且仅对具有允许 EUII 访问的角色的用户可见。|
@@ -434,8 +434,8 @@ CQD 中的许多维度和度量被标记为第一个或第二个。 以下逻辑
 |PSTN 呼叫结束原因 (SIP 响应代码) |Int|三位数整数响应代码显示调用的最终状态。 <br/> 有关 SIP 说明详细信息，请参阅 [SIP 响应代码列表](https://www.wikipedia.org/wiki/List_of_SIP_response_codes)。 <br/>**示例** ：404||
 |PSTN 中继 FQDN|String|FQDN 是会话边界控制器 (SBC) FQDN (完全限定) 。<br/>**示例：sbcgw.contoso.com**||
 |PSTN 运营商名称|String|由监管机构授权运营电信系统的公司。<br/>**示例：** Colt|直接路由没有运营商。 只有呼叫计划具有运营商。|
-|PSTN 呼叫类型|String|此字符串结合了服务类型和调用类型。<br/><br/>服务类型：<br/>user ->呼叫计划<br/>byot ->直接路由<br/>conf -> 音频会议<br/>ucap -> 语音应用<br/>紧急 -> 紧急号码<br/><br/>呼叫类型：<br/>在 -> 入站呼叫中<br/>出>出站呼叫<br/>Out_transfer ->出站呼叫转接到第三方<br/>Out_forward ->将出站呼叫转发给第三方<br/>Out_conf -> PSTN 参与者进行出站呼叫<br/><br/>**示例：** ByotIn||
-|PSTN 连接类型|String|PSTN 连接类型包括直接路由、呼叫计划或音频会议。 目前，只有直接路由在 CQD (呼叫质量仪表板) 。<br/>**示例：** 直接路由||
+|PSTN 呼叫类型|String|此字符串结合了服务类型和调用类型。<br/><br/>服务类型：<br/>user ->呼叫计划<br/>byot ->直接路由<br/>conf -> 音频会议<br/>ucap -> 语音应用<br/>紧急 ->紧急号码<br/><br/>呼叫类型：<br/>在 -> 入站呼叫中<br/>出>出站呼叫<br/>Out_transfer -> 出站呼叫转接到第三方<br/>Out_forward ->将出站呼叫转发给第三方<br/>Out_conf -> PSTN 参与者进行出站呼叫<br/><br/>**示例：** ByotIn||
+|PSTN 连接类型|String|PSTN 连接类型包括直接路由、呼叫计划或音频会议。 目前，只有直接路由在呼叫质量仪表板和 CQD (可用) 。<br/>**示例：** 直接路由||
 |PSTN 最终 SIP 代码短语|String|对应于 SIP 响应代码和 Microsoft 响应代码的原因短语。<br/>**示例：** BYE||
 |PSTN 呼叫结束子原因|Int|从 Microsoft 组件发送的响应代码，指示发生的特定操作。<br/>**示例** ：540000||
 |PSTN 事件类型|String|提供遥测的事件类型。<br/>**示例：** End||
@@ -537,8 +537,8 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Firewall IP Blocked Media Failure Percentage |百分比 |由于网络设备阻止了对服务器的访问而未能建立的Skype for Business百分比。 这些故障通常表示代理、防火墙或其他网络安全设备未正确配置为访问 Skype for Business 或 Microsoft 365 中使用的 IP Office 365。 |
 | 媒体因其他流计数而失败|流的数量| 由于未确定/未分类的原因，在终结点之间无法建立媒体路径的流的数量。| |
 | 其他媒体故障百分比|百分比| 由于未确定/未分类的原因，在终结点之间无法建立媒体路径的流百分比。 ||
-| CDR 可用呼叫计数总计|流的数量|具有可用可靠性/诊断信息的媒体流总数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的说明。|
-| 媒体失败呼叫计数总计|流的数量|在终结点之间无法建立媒体路径的流的数量。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的说明。|
+| CDR 可用呼叫计数总计|流的数量|具有可用可靠性/诊断信息的媒体流总数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
+| 媒体失败呼叫计数总计|流的数量|在终结点之间无法建立媒体路径的流的数量。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
 |Audio Stream Count |流的数量 |音频流的数量。 |
 |Audio Poor Stream Count |流的数量 |根据以下位置列出的网络指标被分类为差的音频流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
  |Audio Good Stream Count |流的数量 |根据以下位置列出的网络指标被分类为良好音频流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
@@ -559,16 +559,16 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Audio Poor Call Stream Count |流的数量 |根据以下位置列出的网络指标 (呼叫段) 中至少有一个音频流被分类为差的音频流的数量：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Audio Unclassified Call Stream Count |流的数量 |由于缺少网络指标，无法 (呼叫) 音频流的音频流的数量。 |
 |Audio Poor Call Level Percentage |百分比 |通话中至少有一个音频流 (呼叫段) 根据以下列出的网络指标被分类为差的所有音频流的百分比：呼叫质量仪表板中的流 [分类](stream-classification-in-call-quality-dashboard.md)。 |
-| 音频呼叫计数 | 数字 |涉及音频的呼叫数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的说明。|
-| Audio Poor Call Count|数字  |涉及被分类为差的音频的呼叫数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的说明。|
+| 音频呼叫计数 | 数字 |涉及音频的呼叫数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
+| Audio Poor Call Count|数字  |涉及被分类为差的音频的呼叫数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
 | 音频良好呼叫计数 |通话的数量|涉及被分类为良好音频的呼叫数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的说明。|
-| 音频未分类呼叫计数 |通话的数量|涉及无法分类为"良好"或"差"的音频的呼叫数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
-| Audio Poor Call Percentage |通话百分比|涉及被分类为差的音频的通话的百分比。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
+| 音频未分类呼叫计数 |通话的数量|涉及无法分类为"良好"或"差"的音频的呼叫数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的说明。|
+| Audio Poor Call Percentage |通话百分比|涉及被分类为差的音频的通话的百分比。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的说明。|
 |AppSharing Stream Count |流的数量 |基于 RDP 的应用程序共享流的数量。 |
 |AppSharing Poor Due To SpoiledTilePercentTotal Count |流的数量 |损坏的磁贴百分比总指标超过以下位置列出的阈值的应用程序共享流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |AppSharing Poor Due To RelativeOneWayAverage Count |流的数量 |损坏的磁贴百分比总指标超过以下位置列出的阈值的应用程序共享流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |AppSharing Poor Due To RDPTileProcessingLatencyAverage Count |流的数量 |RDP 磁贴处理平均延迟超过以下位置列出的阈值的应用程序共享流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
-|AppSharing Poor Stream Count |流的数量 |根据以下位置列出的网络指标被分类为差的应用程序共享流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
+|AppSharing Poor Stream Count |流的数量 |根据以下列出的网络指标分类为差的应用程序共享流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |AppSharing Good Stream Count |流的数量 |根据以下列出的网络指标分类为良好应用程序共享流的数量：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |AppSharing Unclassified Stream Count |流的数量 |根据以下列出的网络指标，没有足够数据被分类为好或差的应用程序共享流的数量：呼叫质量仪表板中的 [流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |AppSharing Poor Percentage |百分比 |根据以下位置列出的网络指标被分类为差的应用程序共享流总数百分比：呼叫质量仪表板 [中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
@@ -608,13 +608,13 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Avg First Echo Percent Send |百分比 |在流持续期间，第一终结点在消除回声之后通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。 |
 |Avg Second Echo Percent Send |百分比 |在流持续期间，第二终结点在消除回声之后通过捕获设备或麦克风设备在音频中检测到回声的持续时间的平均百分比。 |
 | Avg First Initial Signal Level RMS| 范围 (分贝)  |第一终结点调用前 30 (RMS) 平均平方根数的平均值。  有关详细信息 [，请参阅 2.2.1.28.1](/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) 子元素|
-| Avg Second Initial Signal Level RMS|范围 (分贝)  |第二终结点调用前 30 秒 (RMS) 平均平方根数的平均值。||
+| Avg Second Initial Signal Level RMS|范围 (分贝)  |第二终结点调用前 30 (RMS) 平均平方根数的平均值。||
 | Avg First RxAGC Signal Level|范围 (分贝)   |第一个入站音频流的自动增益控制接收的平均信号级别。 | |
 | Avg Second RxAGC Signal Level|范围 (分贝)  |第二个入站音频流的自动增益控制接收的平均信号级别。| |
 | Avg First RxAGC Noise Level|范围 (分贝)  |第一个入站音频流的自动增益控制收到的平均噪音级别。||
 | Avg Second RxAGC Noise Level|范围 (分贝)  |第二个入站音频流的自动增益控制收到的平均噪音级别。| |
 | Avg First Render Loopback Signal Level|范围 (分贝)  | 在应用任何设备卸载 (后，第一个扬声器环回信号的平均) 。|
-| Avg Second Render Loopback Signal Level|范围 (分贝)  | 在应用任何设备卸载 (后，第二扬声器环回信号的平均) 。|
+| Avg Second Render Loopback Signal Level|范围 (分贝)  | 在应用任何设备卸载 (后，第二个扬声器环回信号的平均) 。|
 |Avg First Audio Send Signal Level |分贝 |对于被分类为单声道语音或左声道立体声语音的音频，第一终结点发送的音频的平均能量水平。 |
 |Avg Second Audio Send Signal Level |分贝 |对于被分类为单声道语音或左声道立体声语音的音频，第二终结点发送的音频的平均能量水平。 |
 |Avg First Audio Received Signal Level |分贝 |对于被分类为单声道语音或左声道立体声语音的音频，第一终结点接收的音频的平均能量水平。 |
@@ -640,7 +640,7 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Avg Jitter Max |毫秒 |流的最大网络抖动值，以毫秒为单位。 |
 |Avg Packet Loss Rate |比率 |以 5 秒钟时间间隔计算到的流的平均丢包百分比的平均值。 0.1 表示数据包丢失 10%。 |
 |Avg Packet Loss Rate Max |比率 |以 5 秒钟时间间隔计算到的流的最大丢包百分比的平均值。 0.1 表示数据包丢失 10%。 |
-| Avg Send Listen MOS |数字 |从用户发送的音频流的宽带 (平均意见 (MOS-LQ) 预测的平均值。 <br/>请参阅 Lync 监视报告解码器中"平均 [发送 MOS"](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
+| Avg Send Listen MOS |数字 |从用户发送的音频流的宽带 (平均意见评分预测 (MOS-L) Q 评分的平均值。 <br/>请参阅 Lync 监视报告解码器中"平均 [发送 MOS"](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
 |Avg Overall Avg Network MOS |平均意见得分 (0-5) |流的网络平均意见得分的平均值。表示通过考虑网络损耗、抖动和编解码器对所收到的音频质量的平均估计。 |
 |Avg Ratio Concealed Samples |比率 |含有丢包隐藏生成样本的音频帧数与流的总音频帧数的平均比率的平均值。0.1 表示 10% 的帧包含隐藏样本。 |
 | 平均隐藏比率最大值| 比率 |丢包隐藏生成的样本的音频帧数与流的总音频帧数的最大比率的平均值。 0.1 表示 10% 的帧包含隐藏样本。| |
@@ -649,7 +649,7 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 | Avg Healer FEC Packet Used Ratio|范围 (比率) |已用 FEC 数据包与已接收 FEC 数据包总数的平均比率。|
 |Avg Round Trip |毫秒 |计算的平均网络传播往返时间的平均值，根据 RFC3550 以毫秒为单位指定。 |
 |Avg Round Trip Max |毫秒 |计算的最大网络传播往返时间的平均值，根据 RFC3550 以毫秒为单位指定。 |
- 平均数据包利用率|数据包数|在会话中Real-Time每秒发送 (RTP) 的平均传输协议数。|
+ 平均数据包利用率|数据包数|在会话中Real-Time传输协议 (RTP) 每秒发送的数据包数。|
 |Avg Network Jitter |毫秒 |   会话期间在 20 秒时段内计算的网络抖动平均值。 |
 | Avg Network Jitter Max|毫秒 |会话期间在 20 秒时段内计算的最大网络抖动的平均值（以毫秒为单位）。  ||
 | Avg Network Jitter Min|毫秒|在会话期间为流计算的最小网络抖动值（以毫秒为单位）的平均值。| |
@@ -674,10 +674,10 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Avg Second Device Capture Not Functioning Event Ratio |比率 |第二终结点检测到捕获设备未正常工作的通话的分数的平均值。 |
 |Avg First Device Render Not Functioning Event Ratio |比率 |第一终结点检测到呈现设备未正常工作的通话的分数的平均值。 |
 |Avg Second Device Render Not Functioning Event Ratio |比率 |第二终结点检测到呈现设备未正常工作的通话的分数的平均值。 |
-|Avg First Mic 故障率| 故障数|对于流的终结点麦克风 (，平均第一个麦克风故障率) 5 分钟的故障。  ||
+|Avg First Mic 故障率| 故障数|对于流的终结点麦克风 (，第一个麦克风故障率) 每 5 分钟故障数。  ||
 | Avg Second Mic Glitch Rate|故障数|对于流的终结点麦克风 (，第二个麦克风故障率) 每 5 分钟故障数。 ||
 | Avg First Speaker Glitch Rate|故障数|对于流的终结点扬声器 (扬声器，第一扬声器故障) 平均故障率。 |
-| Avg Second Speaker Glitch Rate|故障数|对于流的终结点扬声器 (扬声器，第二扬声器故障) 平均故障率。 |
+| Avg Second Speaker Glitch Rate|故障数|对于流的终结点扬声器 (，第二扬声器故障率) 每 5 分钟故障数。 |
 | First User Count|数字 | 唯一或不同的第一终结点用户数。 仅适用于过去 28 天的数据。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
 | Second User Count|数字|唯一或不同的第二终结点用户数。 仅适用于过去 28 天的数据。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
 | Avg First Device Glitches Event Ratio|百分比|满足以下条件的平均通话分数：第一终结点检测到媒体播放或捕获的故障或间隙，导致发送或接收的媒体质量差。|
@@ -689,7 +689,7 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |PSTN 入站尝试计数 | 通话的数量 | 尝试的入站呼叫总数，包括选定时间范围内成功的调用和失败的调用。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
 |PSTN 入站连接计数 | 通话的数量 | 所选时间范围内成功连接的入站呼叫总数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
 |PSTN 出站尝试计数 | 通话的数量 | 尝试的出站呼叫总数，包括所选时间范围内成功的调用和失败的调用。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
-|PSTN 出站连接计数 | 呼叫次数 | 所选时间范围内成功连接的出站呼叫总数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
+|PSTN 出站连接计数 | 呼叫次数 | 所选时间范围内成功连接的出站呼叫总数。 此度量值最多存在 0.2% 的错误。 有关详细信息，请参阅下面的说明。|
 |PSTN 总分钟数 | 分钟 | 所选时间范围内的总分钟使用量。|
 |PSTN 入站总分钟数 | 分钟 | 所选时间范围内入站分钟用量总计。|
 |PSTN 出站总分钟数 | 分钟 | 所选时间范围内出站分钟用量总计。|
@@ -702,7 +702,7 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |P50 数据包丢失率 | 百分比 | 50% 的请求应低于给定的数据包丢失率。|
 |PSTN 传出后拨号延迟| 毫秒 | 从拨打号码到呼叫方听到铃声的传出呼叫发生的延迟。|
 |PSTN 传入后拨号延迟 | 毫秒 | 从拨打号码到呼叫方或被呼叫方听到铃声的传入呼叫发生的时间或延迟。|
-|PSTN NER 良好百分比 | 百分比 | NER 通过测量已发送的呼叫数与发送给收件人的呼叫数，测量网络传送呼叫的能力。<br/>NER = (应答呼叫 + 用户忙 + 无应答 + 终端拒绝放弃）/ 总尝试呼叫数 x 100。 此措施最多有 0.2% 的错误。 有关详细信息，请参阅下面的注释。|
+|PSTN NER 良好百分比 | 百分比 | NER 通过测量已发送的呼叫数与发送给收件人的呼叫数，测量网络传送呼叫的能力。<br/>NER = (应答呼叫 + 用户忙 + 无应答 + 终端拒绝放弃）/ 总尝试呼叫数 x 100。 此措施最多有 0.2% 的错误。 有关详细信息，请参阅下面的说明。|
 ||||
 
 ### <a name="notes-on-measurements"></a>有关度量的注意事项
@@ -720,7 +720,7 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[设置 CQD (呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
+[使用 CQD (设置呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
 
 [Upload租户和建筑物数据](CQD-upload-tenant-building-data.md)
 

@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves 视图存储有关用户加入和离开某个会议服务器的信息。 此视图中的每条记录都包含有关用户加入或离开与会议服务器的组合的呼叫详细信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 50213655ad1dc48e85015d47ac4bd5bb450e05559556e0d6b4123dc2c9c32d69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1b37d0609c82c40e65beb0e58bffc639b738487f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318715"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617728"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves 视图
  
 McuJoinsAndLeaves 视图存储有关用户加入和离开某个会议服务器的信息。 此视图中的每条记录都包含有关用户加入或离开与会议服务器的组合的呼叫详细信息。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**详细信息**|
+|**列**|**数据类型**|**Details**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |会议实例的时间。 与 SessionIdSeq 结合使用来唯一地标识会议实例。 有关详细信息[，请参阅 Skype for Business Server 2015](conferences.md)中的 Conferences 表。 <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |用于标识会议实例的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会议实例。 有关详细信息[，请参阅 Skype for Business Server 2015](conferences.md)中的 Conferences 表。 <br/> |

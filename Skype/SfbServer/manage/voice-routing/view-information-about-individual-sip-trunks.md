@@ -1,5 +1,5 @@
 ---
-title: 查看有关服务中单个 SIP 中继Skype for Business Server
+title: Skype for Business Server - 查看有关单个 SIP 中继的信息
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,20 +9,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 在Skype for Business Server中，可以将多个中继分配给一个 PSTN 网关;这意味着网关和中继不同，管理员必须使用 Get-CsTrunk cmdlet 查看有关单个 SIP 中继的信息。
-ms.openlocfilehash: 1fd465bcbf547471f9ca5ead562d8b77976be79621bd4246be85341126577936
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 在Skype for Business Server中，可以将多个中继分配给一个 PSTN 网关。 网关和中继不是同一个，管理员必须使用 Get-CsTrunk cmdlet 查看有关单个 SIP 中继的信息。
+ms.openlocfilehash: 2c39a35ee0a42e2f54e87541cec857b3d90cd2c6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351452"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617798"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>查看有关服务中单个 SIP 中继Skype for Business Server
+# <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>Skype for Business Server - 查看有关单个 SIP 中继的信息
 
 在Skype for Business Server中，可以将多个中继分配给一个 PSTN 网关;这意味着网关和中继不是一个相同的，并且管理员必须使用[Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) cmdlet 查看有关单个 SIP 中继的信息。
 
-该Get-CsTrunk cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。
+该Get-CsTrunk cmdlet 可以从命令行管理程序Skype for Business Server或远程会话运行Windows PowerShell。
 
 **查看所有 SIP 中继的信息**
 

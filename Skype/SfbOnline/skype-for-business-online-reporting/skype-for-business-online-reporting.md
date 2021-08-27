@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 3eb1228e06dbf5880789ea5a8175d325a5439d9aefc7642c045963884fde70c3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7e1f5ff50763b224269a9fd9410f372da5cf9b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334434"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589154"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online 报告
 
@@ -32,10 +32,10 @@ ms.locfileid: "54334434"
 
 作为组织的管理员，在 Skype for Business Online 中提供所有不同报表的完整列表会很方便。 其中包括所有不同报告以及每个报告提供的信息。
   
-若要访问 Skype for Business Online 报表，请Microsoft 365 管理中心用户帐户和密码登录到该报表。 用于登录的帐户必须分配有全局管理员角色或委派 Skype for Business 服务管理员角色，才能查看报告。
+若要访问 Skype for Business Online 报告，请Microsoft 365 管理中心用户帐户和密码登录到该报表。 用于登录的帐户必须分配有全局管理员角色或委派 Skype for Business 服务管理员角色，才能查看报告。
   
 > [!NOTE]
-> 若要验证权限，在管理中心  >  **>"活动用户"。** Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
+> 若要验证权限，在管理中心 **>"**  >  **活动用户"。** Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Skype for Business Online 报告参考
 
@@ -43,7 +43,7 @@ ms.locfileid: "54334434"
   
  **查看报表**
   
-1. 转到管理中心或Skype for Business **中心**  >  **报告"。**
+1. 转到管理中心或Skype for Business **报告**  >  **"。**
     
 2. 在仪表板窗口中，单击报告小组件或从列表中进行选择，以选择所需的报告。
     

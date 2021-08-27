@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -29,17 +29,17 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: '了解如何为 PSTN (服务) 通信) 支付Skype for Business，并查看为用户提供持续电话系统访问的计划。 '
-ms.openlocfilehash: 6f96b56400e3186a6d4df3276204359c6943d10113f3967eef59322e461f1092
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '了解如何为 PSTN (PSTN) 支付Skype for Business费用，并查看为用户提供持续电话系统访问的计划。 '
+ms.openlocfilehash: fe3b80e41c6fdc411304ec43eebb0ab560063033
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344411"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617608"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
-通信信用额度是一种在 电话系统 或 Microsoft 365 通话套餐Office 365。 通信信用额度有助于确保在无法：
+通信信用额度是一种便捷方式，电话系统或Microsoft 365套餐Office 365。 通信信用额度有助于确保在无法：
   
 - 使用免费拨入电话号码拨入音频会议。
 
@@ -60,10 +60,10 @@ ms.locfileid: "54344411"
   
 你可以随时更新你的付款选项。 在" **订阅"** 页上，选择 **"通信信用额度**"，然后进行更新。
   
-使用服务时，资金将仅应用于 Microsoft 发布的通信信用额度。 在购买日期的 12 (12) 内未使用的任何资金都将过期并失效。
+使用服务时，资金将仅应用于 Microsoft 发布的通信信用额度。 在购买日期的 12 (12) 内未使用的任何资金都将过期并失去。
   
 > [!TIP]
-> 当通过自动充值添加资金、自动充值失败时 (例如，当信用卡于) 到期以及余额低于零时，我们将向您发送电子邮件通知。
+> 当通过自动充值添加资金、自动充值失败时 (例如，当信用卡) 到期以及余额低于零时，我们将向您发送电子邮件通知。
   
 有关详细信息，请参阅 [什么是通信信用额度？](what-are-communications-credits.md)
   

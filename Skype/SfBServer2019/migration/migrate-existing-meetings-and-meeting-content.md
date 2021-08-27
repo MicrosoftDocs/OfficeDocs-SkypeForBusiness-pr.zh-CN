@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 将用户帐户从 2019 Skype for Business Server 2019 服务器时，会随该用户帐户一起移动以下信息：
-ms.openlocfilehash: e28cbce30608672d27578cfaa5ab92dbe1ed3c4cd6b234da7389b1f9a6978350
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 826b511250e46e2c87720a5b074b43cd545b15c6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312290"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589298"
 ---
 # <a name="migrate-existing-meetings-and-meeting-content"></a>迁移现有会议和会议内容
 

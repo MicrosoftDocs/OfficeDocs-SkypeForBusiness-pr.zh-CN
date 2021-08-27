@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: 了解适合你的 Microsoft Teams 部署选项。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0c5f5becb6ce22dc54f49d8f8aede6410cd0e20611f4add2ede192c4fd3cb65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301238"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596326"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams 部署概述
 

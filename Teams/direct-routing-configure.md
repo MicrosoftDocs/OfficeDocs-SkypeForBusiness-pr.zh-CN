@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何配置Microsoft 电话直接路由，将本地电话基础结构连接到 Microsoft Teams。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f903511dd4adc439705513f6ef10ed9648d1bbb4aab42ac6dec1aa7bef6064e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284173"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582356"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -43,12 +43,12 @@ Microsoft 电话使用系统直接路由可将本地电话基础结构连接到 
 - [AudioCodes 部署文档](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Oracle 部署文档](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [功能区通信部署文档](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [TE-Systems (anynode) 部署文档](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [TE-Systems (部署) 节点](https://www.anynode.de/anynode-and-microsoft-teams/)
 - [Metaswitch 部署文档](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
 有关受支持的 SDC 的完整列表，请参阅通过直接路由 认证的 [会话边界控制器列表](direct-routing-border-controllers.md)。
 
-若要配置Microsoft 电话系统并允许用户使用直接路由，请执行以下步骤： 
+若要配置Microsoft 电话并允许用户使用直接路由，请执行以下步骤： 
 
 - **第 1 步** [连接系统Microsoft 电话 SBC 并验证连接](direct-routing-connect-the-sbc.md)
 - **第 2 步** [为用户启用直接路由、语音和语音邮件](direct-routing-enable-users.md)

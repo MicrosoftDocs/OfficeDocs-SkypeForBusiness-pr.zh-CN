@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: 通过规划运营角色并分配质量保证者，提供和维护高质量的部署。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3335d47917dcb14536c4edd19c3cbbe54bd24f1b9f0b6fb0e735d7e6c325e7c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df7d051f6ea140ab74532904994ea3ed5914d066
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329357"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624864"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "54329357"
 
 对于大多数组织而言，服务管理概念很可能不是一个新概念。 你可能已经实施了与现有服务关联的流程和任务。 尽管如此，当你现在规划服务管理以在将来支持 Microsoft Teams 时，你可能会扩大已实施的方面。
 
-服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 服务管理的一些组件（Microsoft 365 或 Office 365 服务本身包含的基础结构组件）由 Microsoft 负责，而客户对其用户负责管理 Teams、网络和他们提供的终结点的各个方面。
+服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 服务管理的某些组件（Microsoft 365 或 Office 365 服务本身包含的基础结构组件）由 Microsoft 负责，而客户对其用户负责管理 Teams、网络和他们提供的终结点的各个方面。
 有关客户对服务管理的责任Teams及其与影响用户体验质量的关键组件之间的关联，请参阅服务管理和质量[规划](./prepare-network.md)。
 
 ![质量的三个组件示意图](media/plan-my-service-management-image1.png "质量的三个组件（Microsoft 365或Office 365、网络和终结点）的示意图，以及服务管理如何与这三个组件重叠。")
@@ -67,7 +67,7 @@ ms.locfileid: "54329357"
 |服务所有者|服务所有者，与业务部门的界面，策略|TBA|TBA|
 |音频会议操作|日常操作、用户和设备帐户移动/添加/更改、监视|TBA| TBA| 
 |租户管理员|更改租户范围的设置，启用新功能|TBA|TBA|
-|技术支持|用于获取支持的用户的界面|TBA|TBA|
+|技术支持|用于获取支持的用户界面|TBA|TBA|
 |网络操作|运行 LAN、WAN、Wi-Fi 和 Internet 访问|TBA|TBA|
 |客户端&终结点团队|管理桌面部署|TBA|TBA|
 |标识操作|管理 Active Directory (Active Directory、Active Directory 联合身份验证服务、Azure AD) |TBA|TBA|
@@ -91,7 +91,7 @@ ms.locfileid: "54329357"
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>《体验质量评审指南》简介
 
-质量体验评审指南具有一组活动，在对改善用户体验影响最大的关键领域评估和提供修正指南，如下图所示。
+质量体验评审指南具有一组活动，评估对改善用户体验影响最大的主要领域并提供修正指南，如下图所示。
 
 ![说明在质量体验评审过程中要检查的关键问题](media/plan-my-service-management-image2.png "在质量体验评审期间要检查的关键问题：音频、可靠性和用户测试结果。")
 
@@ -117,7 +117,7 @@ ms.locfileid: "54329357"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定谁对组织中云语音操作负责。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>下载服务管理规划完整指南。</li><li>下载质量体验评审指南。</li><li>完整查看操作指南。</li><li>向每个运营团队成员提供所有指南，以便查看并熟悉操作要求。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>下载服务管理规划完整指南。</li><li>下载质量体验评审指南。</li><li>完整查看操作指南。</li><li>向每个运营团队成员提供所有指南，以便查看并熟悉操作要求。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
