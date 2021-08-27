@@ -11,19 +11,19 @@ f1.keywords:
 - ms.lync.plan.Director
 - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: 控制器是运行 Skype for Business Server 2015 通信软件的服务器，可以对用户请求进行身份验证，但不提供任何用户帐户。
-ms.openlocfilehash: c6f1a9a16d8d97888be4b9453a7ce3746298cce4cf38beebcf82ff2f89e77904
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 控制器是运行 Skype for Business Server 2015 通信软件的服务器，可以对用户请求进行身份验证，但不管理任何用户帐户。
+ms.openlocfilehash: 0ba0163ebb07554c1f402183fd84f3818d4c4ebb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610599"
 ---
 # <a name="director-planning-tool"></a>控制器规划工具
  
-控制器是运行 2015 Skype for Business Server软件的服务器，可以对用户请求进行身份验证，但不管理任何用户帐户。 
+控制器是运行 Skype for Business Server 2015 通信软件的服务器，可以对用户请求进行身份验证，但不提供任何用户帐户。 
   
 此角色是可选的，您可以选择在下列两种方案中部署控制器：
   

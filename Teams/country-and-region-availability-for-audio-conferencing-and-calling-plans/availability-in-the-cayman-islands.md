@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,26 +23,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于Microsoft 365 Office 365群岛的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 2065769b03aaaa8575a28652ff4f200acfb779c6e35f3cfdd1ca5dbab72df0b0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 3e2212c62281858b8325bd9196c86fe7662c8b74
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284223"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603441"
 ---
 # <a name="availability-in-the-cayman-islands"></a>在维尔京群岛的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365群岛的Skype for Business Microsoft Teams服务。
+以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费  <br/> |
-|是否自动分配音频会议的电话号码？  <br/> | 弱 |
+|是否自动分配音频会议的电话号码？  <br/> | 否 |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用额度 <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -69,10 +69,10 @@ ms.locfileid: "54284223"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | 不适用 <br/> |
-|是否提供收费电话号码？  <br/> |弱  <br/> |
+|是否提供收费电话号码？  <br/> |否  <br/> |
 |免费电话号码是否可用？  <br/> |是  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取音频会议的服务电话号码[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通信点数
 

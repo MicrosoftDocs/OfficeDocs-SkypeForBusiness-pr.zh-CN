@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 了解你需要做些什么以及会议组织者可以如何使用 Skype for Business 拨叫其他人。
-ms.openlocfilehash: 9b87fb911cf4e010a82aba8b9874b25efa60d1b6b795502cc7f0d56cd58eea12
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298892"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581976"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>从会议拨出Skype for Business以便其他人可以加入会议
 
@@ -41,7 +41,7 @@ ms.locfileid: "54298892"
     
 - 你作为会议组织者已启用音频会议。
 
-若要通过拨出功能将其他参与者添加到组织的会议中，至少需要与组织者 (相同的组织中至少有一个经过身份验证的用户) 您的组织) 才能允许通过拨出添加其他参与者。 
+若要通过拨出功能将其他参与者添加到组织的会议中，至少需要与组织者 (相同的组织中至少一个经过身份验证的用户) 您的组织) 才能允许通过拨出添加其他参与者。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -56,7 +56,7 @@ ms.locfileid: "54298892"
   
 ## <a name="supported-countries-and-regions"></a>支持的国家和地区
 
-拨出功能仅适用于某些国家/地区。 有关完整列表，请参阅音频会议和通话计划的"国家[/地区"和"区域可用性"。](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+拨出功能仅适用于某些国家/地区。 有关完整列表，请参阅音频会议和呼叫计划的"[国家/地区"和"区域可用性"。](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要了解有关音频会议更多信息？
 

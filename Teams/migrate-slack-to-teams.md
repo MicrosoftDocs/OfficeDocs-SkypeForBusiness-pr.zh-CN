@@ -14,16 +14,16 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: 从 Slack 迁移到 Microsoft Teams 的完整指南。
-ms.openlocfilehash: 63bb33e225a45710ee0c2ef2a8bc2ddd51adda32c1881b31f20829067baa0783
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c30b8f34c44c8b41309e796ffa44cedc61d8768
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319835"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617258"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>从 Slack 迁移到 Microsoft Teams
 

@@ -17,13 +17,13 @@ f1.keywords:
 description: 直接路由呼叫通知
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 8326a9eb1f7a6ad9fb13c622c4f03d0f9af40af8
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+ms.openlocfilehash: 27e06a45cef49f2291fdf75a8375026b9a930953
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233037"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617408"
 ---
 # <a name="manage-call-notifications"></a>管理呼叫通知
 
@@ -37,7 +37,7 @@ ms.locfileid: "58233037"
 当呼叫到达时，SBC 将分叉电话系统直接路由和第三方 SBC 之间的呼叫。
 
 
-![显示分叉Teams的示意图](media/direct-routing-call-notification-1.png)
+![显示分叉终结点Teams图](media/direct-routing-call-notification-1.png)
 
 如果第三方 SBC (在分叉 2 上接受) ，Teams将生成"未接呼叫"通知。  
 
@@ -45,7 +45,7 @@ ms.locfileid: "58233037"
 
 原因：SIP;cause=200;text"Callcompleted else" 
 
-呼叫不会作为成功的呼叫注册到 Microsoft 电话 系统的呼叫详细信息记录中。 该调用将注册为最终 SIP 代码"487"、最终 Microsoft 子代码"540200"和最终 SIP 代码短语"呼叫已在其他位置完成"的"尝试"。   (要查看呼叫详细信息记录，请转到 Teams 管理门户、分析和报告、使用情况报告，然后选择"PSTN 使用情况.) 
+呼叫不会在系统呼叫详细信息记录中注册Microsoft 电话成功调用。 该调用将注册为最终 SIP 代码"487"、最终 Microsoft 子代码"540200"和最终 SIP 代码短语"呼叫已在其他位置完成"的"尝试"。   (要查看呼叫详细信息记录，请转到 Teams 管理门户、分析和报告、使用情况报告，然后选择 PSTN 使用情况.) 
 
 
 下图演示了分叉 1 的 SIP 阶梯，解释了呼叫流以及"取消"消息中的预期原因。 

@@ -10,21 +10,21 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 查找和管理 Skype for Business Server Lync 2013 的更新。 使用链接获取详细信息，然后下载更新。
-ms.openlocfilehash: 7358bf9c35ca516de84ca81ab91564946e13a754d6816c8e6378ccb9cf85d3c0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2da27f65f9468c164e706da05692919017ce5ea9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279848"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578546"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business 下载和更新
 
 已 _Skype for Business_ Technet 上下载和更新网页。 内容已重新组织到客户端和服务器页面。 按照以下链接访问所需的内容：
 
-- [包含Skype for Business](sfb-client-updates.md)的客户端更新：
+- [包含Skype for Business](sfb-client-updates.md)的客户端的更新：
     - [Skype for Business 2016 客户端更新](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [Skype for Business 2015 客户端更新](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Skype for Business Mac 客户端更新](sfb-client-updates.md)

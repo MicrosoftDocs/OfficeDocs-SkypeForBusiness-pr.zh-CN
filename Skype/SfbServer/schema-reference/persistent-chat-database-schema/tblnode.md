@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
-description: tblNode 包含对象树 (类别或聊天室节点) 控制面板和管理 cmdlet 中管理的对象树节点。
-ms.openlocfilehash: 2d26e61fc9404e2649ca71d4e48d4bb3f147c88ec787dfd798753eaa5f83a5b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: tblNode 包含对象树 (类别或聊天室节点) 在控制面板和管理 cmdlet 中进行管理。
+ms.openlocfilehash: 9f5df4f01482dfe2b44987d74ad650a310a192df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306713"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578606"
 ---
 # <a name="tblnode"></a>tblNode
  
-tblNode 包含对象树 (类别或聊天室节点) 控制面板和管理 cmdlet 中管理的对象树节点。
+tblNode 包含对象树 (类别或聊天室节点) 在控制面板和管理 cmdlet 中进行管理。
   
-**Columns**
+**列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|

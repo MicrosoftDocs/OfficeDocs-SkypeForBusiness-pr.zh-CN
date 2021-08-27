@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于澳大利亚Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 1e6b99f955f0f095a36351b85ad4526608b53e412e071072f6eda3c87a1eca2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 640fd651c4ba41c26dc9faf41c616ee887778947
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310820"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624794"
 ---
 # <a name="availability-in-australia"></a>在澳大利亚的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于澳大利亚Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
 
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -75,10 +75,10 @@ ms.locfileid: "54310820"
 |**功能**|**详细信息**|
 |---------|---------|
 |美洲    |美国、美国外岛      |
-|APAC     |孟加拉、斯里兰卡、文莱、菲律宾、香港特别行政区、印度尼西亚、老挝、澳门、马来西亚、群岛、缅甸、尼泊尔、菲律宾、新加坡、斯里兰卡、泰国、菲律宾、越南|
-|EMEA    |奥兰群岛、卢森堡、奥地利、比利时、 布维埃岛、保加利亚、克罗地亚、塞浦路斯、捷克共和国、丹麦、爱沙尼亚、法罗群岛、芬兰、法国、德国、卢森堡、希腊、格陵兰、根西岛、匈牙利、冰岛、爱尔兰、马恩岛、意大利、马延岛、瑞典、拉脱维亚、列支敦士登、立陶宛、卢森堡、马耳他、摩纳哥、荷兰、挪威、波兰、葡萄牙、罗马尼亚、圣安东尼奥、斯洛伐克、斯洛文尼亚、西班牙、斯valbard、瑞典、瑞士、英国、梵蒂冈  |
+|APAC     |孟加拉、斯里兰卡、文莱、菲律宾、香港特别行政区、印度尼西亚、老挝、澳门、马来西亚、菲律宾、缅甸、尼泊尔、菲律宾、新加坡、斯里兰卡、泰国、菲律宾、越南|
+|EMEA    |奥兰群岛、卢森堡、奥地利、比利时、 布维埃岛、保加利亚、克罗地亚、塞浦路斯、捷克共和国、丹麦、爱沙尼亚、法罗群岛、芬兰、法国、德国、卢森堡、希腊、格陵兰、根西岛、匈牙利、冰岛、爱尔兰、马恩岛、意大利、Jan Mayen、Jersey、拉脱维亚、列支敦士登、立陶宛、卢森堡、马耳他、摩纳哥、荷兰、挪威、波兰、葡萄牙、罗马尼亚、圣安东尼奥、斯洛伐克、斯洛文尼亚、西班牙、Svalbard、瑞典、瑞士、英国、梵蒂冈  |
 
-请注意，一旦 Telstra 预配，Telstra 呼叫将只针对位于澳大利亚和上面列出的国家和地区的用户显示为附加内容。 对于其他地理位置的用户，他们将继续附加 Microsoft 呼叫计划或直接路由（如果适用）。 有关详细信息，请参阅[Telstra Calling。](https://aka.ms/TelstraVoicePlan)
+请注意，一旦 Telstra 预配，Telstra 呼叫将只针对位于澳大利亚和上面列出的国家和地区的用户显示为附加内容。 对于其他地理区域的用户，他们将继续附加 Microsoft 呼叫计划或直接路由（如果适用）。 有关详细信息，请参阅[Telstra Calling。](https://aka.ms/TelstraVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

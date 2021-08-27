@@ -10,18 +10,18 @@ ms.reviewer: dstrome
 description: 了解 Microsoft Teams 与各种 Exchange 设置之间存在哪些功能，例如，创建和加入团队、创建频道等。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167c6534fbb8cade9c45b0d4d44441c3a385fd19
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235387"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624804"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -70,7 +70,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 <sup>9</sup>至少还需要Exchange Online计划 1 许可证。 有关详细信息，请参阅[搜索Teams本地用户的聊天数据](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
-<sup>10</sup>本地用户可以使用 Teams 更新其个人资料图片，即使 web 邮箱Outlook策略设置为 。 `SetPhotoEnabled` `false`
+<sup>10</sup>本地用户可以使用 Teams 更新其个人资料图片，即使 Web 邮箱策略Outlook设置为 ，也可以 `SetPhotoEnabled` 更新其个人资料图片 `false` 。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的要求
 
@@ -110,12 +110,12 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 
 若要为这些用户启用日历委派，请执行以下操作：
 
-- 还必须完成在 Skype for Business Online 和 Exchange Server 之间配置集成和[OAuth 中所述Exchange Server;](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)这些步骤将为用户Teams应用程序提供确认委托权限所需的权限。
+- 还必须完成在 Skype for Business Online 和 Exchange Server 之间配置集成[和 OAuth 中所述的步骤](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises);这些步骤将为用户Teams应用程序提供确认代理权限所需的权限。
  
   > [!NOTE]
   > 步骤 2 包括 ArchiveApplication 的角色分配，这不是委派所必需的。
 
-- 代表Teams安排会议时，Outlook计划加载项Exchange 2013 CU19 或更高版本。 这是为了支持我们的服务对邮箱进行未经身份验证的发现，以检查代理人对委托人邮箱的权限。 代理人和委托人位置可以是 Exchange 2013 或更高版本，或者是 Exchange Online，但自动发现必须解析为 Exchange 2013 CU19 或更高版本。
+- Teams代表其他人安排会议时，Outlook计划加载项Exchange 2013 CU19 或更高版本。 这是为了支持我们的服务对邮箱进行未经身份验证的发现，以检查代理人对委托人邮箱的权限。 代理人和委托人位置可以是 Exchange 2013 或更高版本，或者是 Exchange Online，但自动发现必须解析为 Exchange 2013 CU19 或更高版本。
 
 ## <a name="additional-considerations"></a>其他注意事项
 

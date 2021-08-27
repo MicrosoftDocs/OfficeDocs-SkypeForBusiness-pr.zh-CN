@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: 这将记录持久聊天数据库中持久聊天数据库的Skype for Business Server。
-ms.openlocfilehash: bc314413d2bb7a3d5916396f1e8f281d2217e9058d087dcec8bcc486ee7f172f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 673cca8acf2ecad76c578ba05d8d22a20a253a9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280925"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610579"
 ---
 # <a name="persistent-chat-database-schema"></a>持久聊天数据库架构
  
 这将记录持久聊天数据库中持久聊天数据库的Skype for Business Server。
   
-持久聊天数据库是指与与 mgccomp 数据库) 对应的 mgc 数据库) 和 **PersistentChatComplianceStore** (对应的 Skype for Business Server 后端服务器角色 **PersistentChatStore** (的数据库。 发布此架构的目的是让您能够生成查询和一定程度地了解如何生成有关聊天使用、活跃的聊天室、置顶帖等内容的有用报告。
+持久聊天数据库是指与 mgccomp 数据库) 对应的 mgc 数据库) 和 **PersistentChatComplianceStore** (对应的 Skype for Business Server 后端服务器角色 **PersistentChatStore** (。 发布此架构的目的是让您能够生成查询和一定程度地了解如何生成有关聊天使用、活跃的聊天室、置顶帖等内容的有用报告。
   
 > [!IMPORTANT]
 > 我们保留改进此架构的权利。Microsoft 不对保留此已发布架构的完全向后兼容性做任何保证。 

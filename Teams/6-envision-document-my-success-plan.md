@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: 选择一个部署模型，根据 RACI (制定责任) ，创建执行和管理计划。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b891db54d7202eb24df969e3d510a4cc5d7c8be3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314318"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624814"
 ---
 # <a name="document-my-success-plan"></a>记录成功计划
 
@@ -31,7 +31,7 @@ ms.locfileid: "54314318"
 
 ## <a name="execution-planning"></a>执行计划 
 
-定义如何在组织中通过呼叫计划解决方案电话系统音频会议或音频会议后，需要规划实施项目的执行。
+定义如何在组织中通过呼叫计划电话系统音频会议或音频会议后，需要规划实施项目的执行。
 
 如果您的组织只有一个或两个网站，您可能不需要完成本文中提供的所有详细信息，但您应该通读它来指导您的方法。
 
@@ -51,12 +51,12 @@ ms.locfileid: "54314318"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定Teams组织的部署执行模型。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录Teams部署执行模型，并包括业务和技术理由。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定Teams适用于组织的部署执行模型。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录Teams部署执行模型，并包括业务和技术理由。</li></ul></td></tr></table>
 
 ## <a name="raci-modeling"></a>RACI 建模
 
-为确保明确了谁负责项目中哪些内容，请使用责任分配矩阵 (RACI-负责、负责、咨询、明智-矩阵) 。 列出每个任务负责和负责的一个或多个人员或组，以及决策过程中要咨询的利益干系人，以及在整个项目执行过程中向利益干系人通知每个决策和操作。
+为确保明确谁负责项目内容，请使用责任分配矩阵 (也称为 RACI-负责、负责、咨询并明智的矩阵) 。 列出每个任务负责和负责的一个或多个人员或组，以及决策过程中要咨询的利益干系人，以及在整个项目执行过程中向利益干系人通知每个决策和操作。
 
 下面是云语音实现 RACI 矩阵的示例。
 
@@ -75,12 +75,12 @@ ms.locfileid: "54314318"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定与云语音实现项目相关的活动/角色。</li><li>根据云语音实施项目的 RACI 矩阵 (决定要分配到) 或人员。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录 RACI 矩阵。</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定与云语音实现项目相关的活动/角色。</li><li>根据云语音实现项目的 RACI 矩阵 (确定要分配到) 或人员。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录 RACI 矩阵。</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>季度执行计划
 
-若要在可管理的工作区块中执行云语音部署，建议根据目标关键结果 (OKR) 、所选的部署模型和组织的项目执行功能创建季度执行计划。
+若要在可管理的工作区块中执行云语音部署，建议根据目标关键结果 (OKR) 、所选的部署模型以及组织的项目执行功能创建季度执行计划。
 
 这样，可以按季跟踪进度、根据需要修订计划，以及根据组织的执行能力部署云语音功能。
 
@@ -100,8 +100,8 @@ ms.locfileid: "54314318"
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定季度执行计划，以实现目标关键结果 (OKR) 。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录季度执行计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定季度执行计划，以通过确定值 (关键) 。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录季度执行计划。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -114,7 +114,7 @@ ms.locfileid: "54314318"
 
 | 类型                                        | 目标                                                                                                                                                      | 参与者 | 天/时间                                     | 位置             | 会议所有者 |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
-| Project支持通话                       | 同步项目状态，跟踪关键里程碑和阻止程序                                                                                           | TBA          | 星期一、星期二、星期三、星期四下午 5 点 PST | 虚拟              | TBA           |
+| Project支持呼叫                       | 同步项目状态，跟踪关键里程碑和阻止程序                                                                                           | TBA          | 星期一、星期二、星期三、星期四下午 5 点 PST | 虚拟              | TBA           |
 | 每周指导委员会                   | 查看云语音项目的状态、向管理人员报告、提出需要高层帮助才能解决的问题                                        | TBA          | 每周五上午 11 点 PST                        | 虚拟              | TBA           |
 | 每月项目业务/运营评审 | 与扩展的利益干系人、主要联系人和执行发起人一起检查项目状态;查看部署计划、KSIS 和操作指标 | TBA          | 月份第二个星期二                       | 虚拟或当场 | TBA           |
 | QBR (季度业务)              | 检查项目状态，根据业务目标、KSIS 和运营指标查看进度;如果需要，请重新访问计划                                 | TBA          | 每个季度的最后一个星期四                | 当场            | TBA           |
@@ -124,7 +124,7 @@ ms.locfileid: "54314318"
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定通信和管理计划，包括日常状态更新的频率 (每日、每周、每月或每季度) 、用于召开状态更新会议的方法以及每个会议的所有者。</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录通信和治理计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录通信和治理计划。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -133,9 +133,9 @@ ms.locfileid: "54314318"
 
 成功计划是在"构想"阶段创建的文档摘要。
 
-成功计划为项目团队（包括 FastTrack 或部署合作伙伴）提供足够的信息，以实现组织实现音频会议或电话系统呼叫计划服务的目标。
+成功计划为项目团队（可能包括FastTrack合作伙伴）提供足够的信息，以实现组织实现音频会议或电话系统呼叫计划服务的目标。
 
-一般而言，成功计划包含以下主要部分，其中许多部分将在"构想"阶段完成：
+一般情况下，成功计划包含以下主要部分，其中许多部分将在"构想"阶段完成：
 
 -   业务案例
 
@@ -151,21 +151,21 @@ ms.locfileid: "54314318"
 
 ### <a name="business-case"></a>业务案例
 
-业务用例、利益干系人列表、OKR 和 KSIS、风险寄存器和项目时间线通常包含业务案例所需的大部分信息。 应记录这些文档作为成功计划的一部分。
+业务用例、利益干系人列表、OKR 和 KSIS、风险注册和项目时间线通常包含业务案例所需的大部分信息。 应记录这些文档作为成功计划的一部分。
 
 ### <a name="service-readiness"></a>服务就绪
 
 环境评估提供确定组织实现音频会议的技术准备情况所需的初始信息，以及/或电话系统呼叫计划。
 
-此处包括服务准备情况评估和解决需要通过环境评估发现的修正领域的计划。
+此处包含服务准备情况评估和解决需要通过环境评估发现的修正领域的计划。
 
 ### <a name="service-decisions"></a>服务决策
 
-记录你计划音频会议或会议电话系统组织的呼叫计划服务技术实现。
+使用呼叫计划服务技术实现电话系统计划音频会议或会议。
 
 ### <a name="execution-plan"></a>执行计划
 
-记录你计划如何执行项目，以在整个组织中实施解决方案。
+记录如何计划项目的执行，以在整个组织中实施解决方案。
 
 ### <a name="adoption-plan"></a>采用计划
 
@@ -173,7 +173,7 @@ ms.locfileid: "54314318"
 
 确定资源以支持采用活动，例如传单、欢迎电子邮件和培训材料，以及满足组织要求所需的任何自定义项。
 
-从客户成功工具包 下载Microsoft Teams[活动的模板](https://aka.ms/TeamsCustomerSuccess)。
+从客户成功工具包 下载采用[Microsoft Teams模板](https://aka.ms/TeamsCustomerSuccess)。
 
 ### <a name="operational-plan"></a>运营计划
 
@@ -184,7 +184,7 @@ ms.locfileid: "54314318"
 <table>
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>决定如何记录传送云语音工作负荷的整个成功计划。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>确认成功计划的所有组件已记录。</li><li>将成功计划的单个组件聚合到单个摘要文档中， (可选) 。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>确认成功计划的所有组件已记录。</li><li>将成功计划的单个组件聚合到单个摘要文档中， (可选) 。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要分配证书，请从本地证书存储中选择证书。 单击"下一步"继续。
-ms.openlocfilehash: c0519e476b281b47d40aefa5436b3bc5a91b4130e7c8cb9a5ab15bc561915677
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 33bd3b4b2a453b5941c8e651b8122b3eb920a699
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323484"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581786"
 ---
 # <a name="certificate-list"></a>证书列表
  

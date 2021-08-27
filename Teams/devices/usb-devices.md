@@ -11,34 +11,34 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 查看哪些 USB 外设和设备 (耳机、免提电话、网络摄像机和显示器) 认证Microsoft Teams。
-ms.openlocfilehash: a79cb575d6b55be691b0c51a127d4ba4cfafdc88
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: 查看哪些 USB 外围设备和设备 (耳机、免提电话、网络摄像机和监视器) 认证Microsoft Teams。
+ms.openlocfilehash: 3512ea4dd830a3fcd8469c86061c2b1d641b96a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234597"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624664"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经认证的 USB 音频和视频设备Microsoft Teams
 
-外围设备认证计划可确保 USB 外围设备 (耳机、免提电话、网络摄像机和监视器) 提供丰富的音频或视频质量。 经过认证的设备 (插件&，) 无需额外配置，并且通过 Microsoft Teams 和 Skype for Business。 这些产品为最终用户和管理员提供了出色的体验。
+外围设备认证计划可确保 USB 外围设备 (耳机、免提电话、网络摄像机和监视器) 提供丰富的音频或视频质量。 经过认证的设备 (插件&，) 无需额外配置，并且使用 Microsoft Teams 和 Skype for Business。 这些产品为最终用户和管理员提供了出色的体验。
 
 若要浏览经测试并认证Microsoft Teams的设备，请前往 Teams[应用商店](https://products.office.com/microsoft-teams/across-devices/devices)。
 
-有关使用耳机的呼叫控制支持[Teams，请参阅](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)使用耳机在 Teams。
+有关使用耳机进行呼叫控制支持[Teams，请参阅](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)在 Teams。
 
 > [!TIP]
-> 正在寻找经认证的设备Skype for Business？ 前往经认证的 USB 音频和视频[设备，Skype for Business。](/skypeforbusiness/certification/devices-usb-devices)
+> 正在寻找经认证的设备Skype for Business？ 前往经[认证的 USB 音频和视频设备，Skype for Business。](/skypeforbusiness/certification/devices-usb-devices)
 
 ## <a name="understanding-certification-categories"></a>了解认证类别
 
 从 Skype for Business 升级到之前认证的设备时，用户无需Teams设备。  所有认证设备都支持Microsoft Teams Skype for Business用户，但只有一些差异。  认证还为某些设备类别提供进一步指定。
 
-- **Skype for Business升级Teams认证** 在此级别认证的设备最初已通过认证Skype for Business。 Microsoft 一直与设备制造商合作，在不更改原始硬件Teams提供最佳集成体验。 挂 *接开关* 按钮在Teams时充当一个按钮，并且可能随着时间的推移包含更多函数。  此类别中的设备可能在营销材料Teams认证徽章。
-- **认证Microsoft Teams** 在此级别认证的设备表示最新设备已认证，因此无需Teams体验。 这些设备提供之前认证的所有优势，还包括一个专用按钮Teams LED 指示器。 对于大多数外形因素，Teams按钮将是一个易于查找的具有徽标的Teams按钮。 随着时间的推移，Microsoft 将继续与设备制造商合作，通过固件更新提供新价值。
+- **Skype for Business升级Teams认证** 在此级别认证的设备最初已通过认证Skype for Business。 Microsoft 与设备制造商合作，在不更改原始硬件Teams提供最佳集成体验。 当 *不在调用* 中时Teams挂钩切换按钮充当一个按钮，并且可能会随着时间的推移包含更多函数。  此类别中的设备可能在营销材料Teams认证徽章。
+- **认证Microsoft Teams** 此级别认证的设备表示最新设备已认证，无需Teams体验。 这些设备提供之前认证的所有优势，还包括一个专用的 led Teams按钮。 对于大多数外形因素，Teams按钮是一个易于查找的具有徽标的Teams按钮。 随着时间的推移，Microsoft 将继续与设备制造商合作，通过固件更新提供新价值。
 
 ### <a name="special-usage-designations"></a>特殊用途指定
 
@@ -52,7 +52,7 @@ ms.locfileid: "58234597"
 ### <a name="new-teams-certification-benefits"></a>新的Teams认证权益
 
 - 专用Teams按钮和 LED 指示灯。
-- 来自客户端的事件和警报的用户Teams通知 (例如会议开始、语音邮件或错过的呼叫) 。
+- 来自客户端的事件和警报的用户Teams通知 (例如会议开始、语音邮件或错过) 。
 - 能够激活Teams客户端，或者通过按按钮响应通知 (例如，在客户端上) 。
 - 旨在扩展性 (通过固件更新服务交付的新设备/客户端功能) 。
 
@@ -60,7 +60,7 @@ ms.locfileid: "58234597"
 
 - 自动选择默认音频设备，如果存在多个音频外围设备，则确定优先级。
 - 设备会自动注册到Teams客户端，并可供使用。
-- 音频设备 (，例如耳机和免提电话) 产品：
+- 音频设备 (耳机和免提电话等) 产品：
   - 与电脑或 Mac 设备一起使用时，基本呼叫控制。 基本控件包括应答/挂断、静音/取消静音和音量控制。
   - 无回声、失真或过度故障的宽带音频。 还支持跨设备消除回声。
 - 视频设备满足噪音、颜色、图像详细信息、抖动、延迟、帧速率和视野的要求。

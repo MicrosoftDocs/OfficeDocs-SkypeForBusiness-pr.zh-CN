@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 您可以使用 Skype for Business Server 2019 控制面板或 Skype for Business Server 2019 命令行管理程序将用户从旧池移动到 Skype for Business Server 2019 试点池。 在下面的示例的"注册器池"列中，pool01.contoso.net 是旧池，这六个用户全部连接到此池。 使用以下过程使用 Skype for Business Server 2019 控制面板和命令行管理程序Skype for Business Server Skype for Business Server 2019 池。
-ms.openlocfilehash: 98fd1ce168cf5b44a85c1b0a93ee90634a84f885ced3cb3ffaaca8cee836a620
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 您可以使用 Skype for Business Server 2019 控制面板或 Skype for Business Server 2019 命令行管理程序将用户从旧池移动到 Skype for Business Server 2019 试点池。 在下面的示例的"注册器池"列中，pool01.contoso.net 是旧池，这六个用户全部连接到此池。 使用以下过程使用 Skype for Business Server 2019 控制面板和命令行管理程序将Skype for Business Server 2019 Skype for Business Server池。
+ms.openlocfilehash: 987eeec96d28257b995b5e27ce02e282df019980
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303386"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596156"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>将单个用户移动到试点池
 
-您可以使用 Skype for Business Server 2019 控制面板或 Skype for Business Server 2019 命令行管理程序将用户从旧池移动到 Skype for Business Server 2019 试点池。 在下面的示例的"注册器池"列中，pool01.contoso.net是旧池，这六个用户全部连接到此池。 使用以下过程使用 Skype for Business Server 2019 控制面板和命令行管理程序Skype for Business Server Skype for Business Server 2019 池。 
+您可以使用 Skype for Business Server 2019 控制面板或 Skype for Business Server 2019 命令行管理程序将用户从旧池移动到 Skype for Business Server 2019 试点池。 在下面的示例的"注册器池"列中，pool01.contoso.net是旧池，并且所有这六个用户都连接到此池。 使用以下过程使用 Skype for Business Server 2019 控制面板和命令行管理程序将Skype for Business Server 2019 Skype for Business Server池。 
   
 ## <a name="to-move-a-user-by-using-the-skype-for-business-server-2019-control-panel"></a>使用 Skype for Business Server 2019 控制面板移动用户
   
@@ -38,7 +38,7 @@ ms.locfileid: "54303386"
     
 7. 单击“操作”，然后单击“将所选用户移动到池”。单击“确定”。
   
-8. 确认用户的"**注册器池**"列现在包含 Skype for Business Server 2019 池，这表明已成功移动用户。 
+8. 确认用户的"**注册** 器池"列现在包含 Skype for Business Server 2019 池，这表明已成功移动用户。 
     
 ## <a name="to-move-a-user-by-using-the-skype-for-business-server-2019-management-shell"></a>使用命令行管理程序移动Skype for Business Server 2019
 

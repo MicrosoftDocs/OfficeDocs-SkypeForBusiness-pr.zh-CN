@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 在管理中心或 Microsoft Graph使用团队模板，通过提供预定义的设置、频道和应用模板，快速轻松地创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c5da6c5df17dacbfb38e519ca4f1f751ed40fc02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336252"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596176"
 ---
 # <a name="use-a-healthcare-team-templates"></a>使用医疗保健团队模板
 
@@ -40,7 +40,7 @@ ms.locfileid: "54336252"
 | 人员 | 使用方法： |
 | ---- | --------- |
 | 管理员和 IT 专业人员 | [使用Teams管理中心](#use-the-team-templates-in-the-admin-center)基于医疗保健团队模板创建团队。|
-| 开发人员和系统整合者 | [使用 Microsoft Graph](#use-the-team-templates-with-the-microsoft-graph)根据医疗保健团队模板创建团队。 |
+| 开发人员和系统整合者 | [使用 Microsoft Graph](#use-the-team-templates-with-the-microsoft-graph)创建基于医疗保健团队模板的团队。 |
 
 ## <a name="use-the-team-templates-in-the-admin-center"></a>使用管理中心中的团队模板
 

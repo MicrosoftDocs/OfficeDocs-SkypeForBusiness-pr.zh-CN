@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: c9fffeef387a208cb5dbff6f8828cbc6b79e1fc6fd96eb2aa0a2073dae0a66fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是适用于立陶宛Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: b61d09f9e6045580de9161bcca82b0bb811c2ce9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352360"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603521"
 ---
 # <a name="availability-in-lithuania"></a>在立陶宛的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+以下是适用于立陶宛Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -71,7 +71,7 @@ ms.locfileid: "54352360"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |维尔纽斯  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
-|是否提供免费电话号码？  <br/> |弱  <br/> |
+|是否提供免费电话号码？  <br/> |否  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 摘要：了解可用于监视运行统一通信 Web API (UCWA) 和 Skype for Business Server Mcx Mobility Service 的服务器的性能计数器。
-ms.openlocfilehash: 83097ed6e1503fafa8b82815ef36a3411fa09f8af1c8f83470d9e8ee02ae6b88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4ea7ba3f7c4d9685fe01c64157324a64f823c5bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286781"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578776"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>移动性能计数器Skype for Business Server
  
@@ -30,7 +30,7 @@ UCWA 表中计数器的类别名称是 **LS：WEB - UCWA**。
 Mcx Mobility Service 表中计数器的类别名称为 **LS：WEB - Mobile Communication Service**。
 
 > [!NOTE]
-> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
+> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
   
 ## <a name="performance-counters-for-ucwa"></a>UCWA 的性能计数器
 
@@ -52,17 +52,17 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS：WEB - Mobile Commu
 |AS MCU 联接失败  <br/> |AS MCU 联接失败数  <br/> |
 |AV MCU 联接失败  <br/> |AV MCU 联接失败数  <br/> |
 |Average Application Startup Time (ms)   <br/> |应用程序启动平均时间（以毫秒为单位）  <br/> |
-|会话的平均生存期 (毫秒)   <br/> |会话的平均生存时间（以毫秒为单位）  <br/> |
+|会话会话的平均 (毫秒)   <br/> |会话的平均生存时间（以毫秒为单位）  <br/> |
 |Data MCU Join Failures  <br/> |Data MCU Join Failures 的数量  <br/> |
 |Exchange联系人搜索延迟 (毫秒)   <br/> |此计数器显示搜索联系人 (的平均) 毫秒Exchange  <br/> |
-|ExchangeHD Photo Get Latency (ms)   <br/> |此计数器显示从 (照片) 的平均时间（以毫秒Exchange  <br/> |
+|ExchangeHD Photo Get Latency (ms)   <br/> |此计数器显示从用户 (照片) 的平均时间（以毫秒Exchange  <br/> |
 |HTTP 4xx 响应/秒  <br/> |HTTP 4xx 代码的每秒响应速率  <br/> |
 |HTTP 5xx 响应/秒  <br/> |HTTP 5xx 代码的每秒响应速率  <br/> |
 |IM MCU Join Failures  <br/> |IM MCU Join Failures 的数量  <br/> |
 |Active Directory 照片获取失败次数  <br/> |从 Active Directory 检索照片的总失败次数  <br/> |
-|联系人搜索失败次数  <br/> |搜索联系人的失败总数Exchange  <br/> |
+|联系人搜索失败次数  <br/> |搜索联系人失败的总次数Exchange  <br/> |
 |反序列化失败次数  <br/> |反序列化失败总数  <br/> |
-|HD 照片获取失败次数  <br/> |从服务器检索 HD 照片的总失败Exchange  <br/> |
+|HD 照片获取失败次数  <br/> |从设备中检索 HD 照片的失败Exchange  <br/> |
 |超过每个应用程序的最大订阅数  <br/> |每个应用程序允许的最大订阅请求数  <br/> |
 |超过每个批次的最大订阅数  <br/> |超过每个批次允许的最大订阅请求数  <br/> |
 |状态订阅失败  <br/> |订阅状态失败次数  <br/> |
@@ -85,7 +85,7 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS：WEB - Mobile Commu
 |**计数器**|**描述**|
 |:-----|:-----|
 |Average Lifetime for a Session in Milliseconds  <br/> |会话的平均生存时间（以毫秒为单位）  <br/> |
-|Current Push Notification Subscriptions  <br/> |当前推送通知订阅数。 此数字与 Currently Active Session Count 一起表示为 Windows Mobile 或 iPhone 注册的当前活动会话的子集。  <br/> |
+|Current Push Notification Subscriptions  <br/> |当前推送通知订阅数。 此数字与 Currently Active Session Count 一起使用表示为移动设备或移动设备注册Windows活动iPhone子集。  <br/> |
 |Currently Active Network Timeout Poll Count  <br/> |超时的网络投票数  <br/> |
 |Currently Active Poll Count  <br/> |当前活动投票数（与服务器的长期连接）  <br/> |
 |Currently Active Session Count  <br/> |当前注册到 Mobility Service 中的终结点的数目  <br/> |
@@ -117,4 +117,4 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS：WEB - Mobile Commu
 |Total Successful Outbound Voice Calls  <br/> |成功的出站语音呼叫总数  <br/> |
    
 > [!NOTE]
-> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
+> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。

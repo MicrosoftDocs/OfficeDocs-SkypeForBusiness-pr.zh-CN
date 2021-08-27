@@ -14,26 +14,26 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
-description: 下面一些原因可能导致你无法在英国或英国或英国正确验证 (地址) 。
-ms.openlocfilehash: 7b3cd80b351c64d3d9f5911d0854a215ba1b407d6e4b2b439d1f28d68d06db7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 下面是一些可能遇到问题，导致你无法在英国或英国 (正确验证的地址) 。
+ms.openlocfilehash: 0222a7d228405e745b1f6704cb9e03f1af3c2868
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324641"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581936"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>为何在输入英国时遇到问题 地址信息？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-下面一些原因可能导致你无法在英国或英国或英国正确验证 (地址) 。
+下面是一些可能遇到问题，导致你无法在英国或英国 (正确验证的地址) 。
   
 ## <a name="whats-wrong-with-the-company-name"></a>公司名称出了什么问题？
 
@@ -98,7 +98,7 @@ ms.locfileid: "54324641"
     
 - 必须包含 8 个或更少的字母，包括数字和空格。
     
-- 请记住，如果你在英国 **(英国**) ，则必须将邮政编码采用以下格式之一，其中字母A = 字符 A-Z，# 符号 = 0-9 中的数字，_ (下划线) = 空白。 下面是一些示例：
+- 请记住，如果你在英国 **(英国**) ，则必须将邮政编码采用以下格式之一，其中字母 A = 字符 A-Z，# 符号 = 0-9 中的数字，_ (下划线) = 空白。 下面是一些示例：
     
 |**格式**|**示例**|
 |:-----|:-----|

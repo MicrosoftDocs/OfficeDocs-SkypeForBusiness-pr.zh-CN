@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: serdars
 description: 找到在组织中部署 Microsoft Teams 的正确途径。 了解 Teams 基础结构以及如何与 Microsoft 365 或 Office 365 配合使用。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d16047b643ee8312a250156cbb5abcd083b01bc2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298102"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603641"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 准备好使用 Teams 时，请从 [如何推出 Teams](./deploy-overview.md) 和 [设置与 Microsoft 365 和 Microsoft Teams 的安全协作](/microsoft-365/solutions/setup-secure-collaboration-with-teams) 开始。

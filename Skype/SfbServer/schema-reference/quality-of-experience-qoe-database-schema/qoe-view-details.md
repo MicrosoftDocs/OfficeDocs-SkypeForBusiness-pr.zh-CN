@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: 视图涉及有关从 QoE SQL 数据库返回数据的最常见方案。 建议将视图用于生成自定义报表，而不是直接访问数据库表;这是因为视图更有可能保持与未来版本的向后兼容性。
-ms.openlocfilehash: f8d6536522a04623f150ab03ba448af8c55bd401adc8e4484ac47d1cf48ccffa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bed72ae4fe5a9468d6ac2b18148f62fe9aa0196
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347717"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578586"
 ---
 # <a name="qoe-view-details"></a>QoE 视图列表
  

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 将媒体旁路配置为仅用于 Skype for Business Server 企业语音 中的某些站点和Skype for Business Server 企业语音。
-ms.openlocfilehash: 38fa42374b4b5dd8c8f304de04c9beeb59f2635d955b2e9ee5afb1fb16de7789
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d90393c19dffaac425025379258a0ceae24da9cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322334"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588984"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>配置媒体旁路全局Skype for Business Server以使用站点和地区信息
  
@@ -32,7 +32,7 @@ ms.locfileid: "54322334"
 > [!NOTE]
 > 启用呼叫允许控制和媒体旁路高级企业语音功能后，会在两者之间共享网络区域和网络站点信息。因此，如果您已配置了呼叫允许控制，则不需要使用以下过程专门为媒体旁路编辑站点和区域信息。如果尚未为呼叫允许控制配置网络区域和站点，并且想要更改媒体旁路设置，请按照该过程中的步骤进行操作。 
   
-若要使媒体旁路正常工作，必须在拓扑生成器中定义的站点与配置网络区域和网络站点时定义的站点保持一致。 例如，如果您有一个在拓扑生成器中定义为仅部署了 PSTN 网关的分支站点，则必须使用允许分支站点用户通过分支站点的 PSTN 网关路由其 PSTN 呼叫的 企业语音 策略配置该分支站点。
+若要使媒体旁路正常工作，必须在拓扑生成器中定义的站点与配置网络区域和网络站点时定义的站点保持一致。 例如，如果您有一个在拓扑生成器中定义为仅部署了 PSTN 网关的分支站点，则必须使用 企业语音 策略配置该分支站点，该策略允许分支站点用户通过分支站点的 PSTN 网关路由其 PSTN 呼叫。
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>为媒体旁路配置站点和区域信息
 

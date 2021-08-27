@@ -9,20 +9,20 @@ audience: admin
 ms.reviewer: ''
 description: 本文介绍如何导航浏览Teams。
 f1.keywords: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 7790714434dfa3fb6de6bf5808ec7f8f3097a50fdd79c540e0ef7ee70fc0861b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b8b3c057ae5748f135d9085a5a3caf8b26e7f72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350554"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617218"
 ---
 # <a name="navigate-microsoft-teams"></a>导航Microsoft Teams
 
-现在，你已清楚了解组织的独特路径和需求，现在可以开始你强大的协作之旅了。 使用下面的部分了解如何导航 Kaziala 的功能，这些功能在 Teams。
+现在，你已清楚了解组织的独特路径和需求，现在可以开始进行强大的协作之旅了。 使用下面的部分了解如何导航 Kaziala 的功能，这些功能在 Teams。
 
 ## <a name="getting-started"></a>入门
 
@@ -30,19 +30,19 @@ ms.locfileid: "54350554"
 
 ## <a name="starting-new-chats-11-audio-and-video-calls"></a>开始新聊天，1：1 音频和视频通话
 
-创建 1：1 或群组聊天，以与较小的群组协作或在群组内私下Teams。 你可以固定聊天并保存消息以便快速访问。 若要开始使用格式文本格式、表情符号和 gif 聊天，请参阅在[Teams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
+创建 1：1 或群组聊天，以与较小的群组协作或在群组内进行私人Teams。 你可以固定聊天并保存消息以便快速访问。 若要开始使用格式文本格式、表情符号和 gif 聊天，请参阅在[Teams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
 
 通过开始 1：1 或群组通话与组织中任何人进行高效沟通。 使用Teams，你可以灵活地进行音频和视频呼叫。  若要开始，请参阅 [进行调用](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)。
 
 ## <a name="getting-work-done"></a>完成工作
 
-操作卡Kaizala目前存在于Microsoft Teams。 就完成工作来说，正确的工具可以提高效率。 现在有 300 多个外部应用程序可用于 Microsoft Teams。 请继续阅读，了解如何使用应用和模板创建会议邀请、[](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)公告和精确位置签入，以在整个组织中保持连接。
+操作卡Kaizala目前存在于Microsoft Teams。 就完成工作来说，正确的工具可以提高效率。 现在有 300 多个外部应用程序在 Microsoft Teams。 请继续阅读，了解如何使用应用和模板创建会议邀请、[](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)公告和精确位置签入，以在整个组织中保持连接。
 
 ### <a name="announcements"></a>公告
 
-可以在 "公告"中与员工共享重要更新[Teams。](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)
+可以在 "通知"中与员工共享重要更新[Teams。](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)
 
-通过与公司 [communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) 应用聊天，创建和发送面向多个团队或大量员工的消息。 它的简单界面允许指定用户以目标方式创建、预览、协作和发送消息。 使用直接与管理决策相关的见解生成自定义目标通信功能，例如自定义遥测，了解有多少用户确认或与消息进行交互。
+通过与公司 [communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) 应用聊天，创建和发送面向多个团队或大量员工的消息。 它的简单界面允许指定用户以目标方式创建、预览、协作和发送消息。 使用直接与管理决策相关的见解生成自定义目标通信功能，例如自定义遥测，了解多少用户已确认或与消息进行交互。
 
 ### <a name="check-ins"></a>签入
 
@@ -64,25 +64,25 @@ ms.locfileid: "54350554"
 
 若要导航管理中心，请访问 Microsoft Teams[管理中心](https://admin.teams.microsoft.com/)。
 
-可以使用安全中心和安全中心监视Microsoft 365的安全Microsoft 365[合规性](/microsoft-365/security/defender/overview-security-center)。 [](/microsoft-365/compliance/microsoft-365-compliance-center)
+可以使用安全中心和安全中心监视Microsoft 365[的安全Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center)[合规性](/microsoft-365/security/defender/overview-security-center)。
 
-在管理中心保护业务并Azure Active Directory用户[，](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)可在其中查看组、标识、许可证和跨Microsoft 365。
+保护业务，在 Azure Active Directory 管理中心[](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)内为用户提供权限，可在其中查看跨域的组、标识、许可证Microsoft 365。
 
 ### <a name="end-users"></a>最终用户
 
-用户可以通过桌面或移动应用创建团队。 若要批量将用户添加到团队 ， 请考虑通过组、Office 365组、Office 365列表或安全组创建团队。
+用户可以通过桌面或移动应用创建团队。 若要批量将用户添加到团队 ， 请考虑通过组Office 365组、Office 365列表或安全组创建团队。
 
 通过团队中的搜索栏搜索组织中任何人。 您也可以使用搜索栏结果查看文件、消息和文章。
 
 借助内置报告和可下载数据，利用投票、[](https://www.office.com/launch/forms?auth=2)调查和清单享受[](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)丰富的分析。 还可以借助 Planner 中 [的任务分配作业](https://support.microsoft.com/office/manage-tasks-in-planner-ee61ecb0-a0bb-4c39-8682-f47fe7674f05) 。
 
-若要 [在团队](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) 中启用扩展，请使用菜单中的"连接器"选项 (...) 连接器所需的任何频道。
+若要 [在团队](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) 中启用扩展，请对需要连接器的任何 (...) 菜单中的"连接器"选项。
 
-若要查看使用情况、活动和总体采用情况报告，团队所有者可以通过从菜单导航来访问团队的报告 (...) 以管理团队>分析。
+若要查看使用情况、活动和总体采用情况报告，团队所有者可以通过导航菜单" (...) 访问团队报告，以便>分析。
 
 ## <a name="kaizala-group-dissolution"></a>Kaizala组成员
 
-转换到Teams和聊天时，可以考虑Kaizala组迁移，以确保组织有一个集中的通信位置。  删除Kaizala组会从"聊天"列表中删除该组。 如果你是组中唯一的管理员，则需要在删除之前将管理员角色分配给该组中的至少一个人。
+在转换到Teams和聊天时，可以考虑Kaizala组迁移，以确保组织有一个集中的通信位置。  删除Kaizala组会从"聊天"列表中删除该组。 如果你是组中唯一的管理员，则需要在删除之前将管理员角色分配给该组中的至少一个人。
 
 删除组：
 
@@ -92,7 +92,7 @@ ms.locfileid: "54350554"
 
 ## <a name="kaizala-tenant-data-export"></a>Kaizala租户数据导出
 
-使用 Teams 时，仍可在 Kaizala 中控制企业Kaizala。 有关详细信息，请参阅 [从管理门户导出租户数据](/office365/kaizala/export-or-delete-your-data)。
+使用 Teams 时，仍可在 Kaizala 中保持对公司数据的Kaizala。 有关详细信息，请参阅 [从管理门户导出租户数据](/office365/kaizala/export-or-delete-your-data)。
 
 ## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>与外部用户 (供应商/合作伙伴) 
 
@@ -110,7 +110,7 @@ ms.locfileid: "54350554"
 
 来宾是不是员工或组织成员的人。 他们在你的组织中没有工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。
 
-任何不是组织成员的人都可以在 Teams[中添加为来宾](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team)。 这意味着拥有业务帐户 (即 Azure Active Directory 帐户) 或使用者电子邮件帐户 (（例如 outlook.com、gmail.com 等）的任何人都可以作为) 的来宾参与 Teams，并有权访问团队和频道体验。
+任何不是组织成员的人[都可以作为来宾](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team)添加到 Teams。 这意味着拥有业务帐户 (即 Azure Active Directory 帐户) 或消费者电子邮件帐户 (（例如 outlook.com、gmail.com 等）的任何人都可以作为) 中的来宾参与 Teams，并有权访问团队和频道体验。
 
 >[!NOTE]
 > 来宾必须先由管理员在团队中启用来宾访问，来宾才能加入Teams。

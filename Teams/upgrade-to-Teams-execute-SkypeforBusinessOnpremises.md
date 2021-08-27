@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 了解如何将组织从本地Microsoft Teams转换为Skype for Business部署。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf5529cf37ca3217c5af0411a1d12f0e752c583cb869273f9ba5b068d5633da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 690595338cbf8f6f2689a6bd4d75842b00afaf28
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298992"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582122"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>从 Skype for Business 本地部署升级到 Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "54298992"
 
 将用户升级到 Teams的主要先决条件是部署混合连接。
 
-有关详细信息，请参阅在 Skype for Business Server 与 Skype for Business Online 之间[部署Skype for Business连接](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+有关详细信息，请参阅在 Skype for Business Server 与 Skype for Business Online 之间[部署混合连接](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步骤 2：为组织实施所选的升级过程
 
@@ -66,6 +66,6 @@ ms.locfileid: "54298992"
 
 从本地电话系统转换到 Teams 将允许你利用 电话系统 直接路由 ("直接路由") 或 Microsoft 提供的 Microsoft 365 或 Office 365 呼叫计划。
 
-如果不使用呼叫计划，则需要在升级到 Teams 期间，将企业语音部署电话系统直接路由。
+如果不使用呼叫计划，则需要在升级到 Teams 期间，将企业语音部署转换为电话系统直接Teams。
 
 有关详细信息，请参阅直接[路由的其他电话系统注意事项](./direct-routing-landing-page.md)。 如果你计划使用呼叫计划，请参阅我们的指南，将你的电话号码转移到[Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

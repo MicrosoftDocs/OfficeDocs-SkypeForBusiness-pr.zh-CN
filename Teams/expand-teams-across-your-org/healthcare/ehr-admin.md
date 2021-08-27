@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -23,19 +23,19 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 使用 Microsoft Teams 设置虚拟就诊系统
-ms.openlocfilehash: 24df1df8ad7aaa05e3738b6c963475dc1366fe01e2fcb90b6962c9cd78c7916a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5dd103651c4cd368b5304d4d33d753b5d13ab73d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336272"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596196"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>通过 Teams 进行虚拟就诊 - 集成到 EHR
 
-Microsoft Teams借助 EHR (EHR) 连接器，医生可以轻松直接从 EHR 系统启动虚拟患者访问或咨询Teams提供商。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
+Microsoft Teams借助 EHR (EHR) 连接器，医生可以直接从 EHR 系统启动虚拟患者访问或咨询 Teams提供商。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
 利用 Teams 的沟通和协作平台，临床医生可轻松解决零碎的体制问题，从而腾出更多时间提供最好的医治。 Microsoft TeamsEHR (EHR) 连接器可以：
 
-- 启动Teams EHR 系统的虚拟访问和集成的医疗工作流。
+- 从Teams EHR 系统通过集成的医疗工作流启动虚拟访问。
 - 使患者能够从患者Teams内加入虚拟访问。
 - 将有关虚拟访问的元数据写回到 EHR 系统Teams与会者连接和断开连接时进行记录，并启用自动审核和记录保留。
 
@@ -49,7 +49,7 @@ Microsoft Teams借助 EHR (EHR) 连接器，医生可以轻松直接从 EHR 系�
 
 - 可以访问并使用 [Epic 的 App Orchard 商城](https://apporchard.epic.com/Gallery?id=6153)中的 Microsoft Teams 应用。
 
-- 活动订阅 Microsoft Cloud for Healthcare 或订阅 EHR 连接器Microsoft Teams产品/服务 (仅在生产测试期间) 。
+- 活动订阅 Microsoft Cloud for Healthcare 或订阅 Microsoft Teams EHR 连接器独立产品/ (仅在生产测试期间) 。
 
 - 用户必须具有包含 Microsoft Teams 会议的适当 Microsoft 365 或 Office 365 许可证。
 
@@ -79,7 +79,7 @@ Microsoft Teams借助 EHR (EHR) 连接器，医生可以轻松直接从 EHR 系�
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>[启动 EHR 连接器配置门户](#launch-the-ehr-connector-configuration-portal)
 
-通过启动 EHR 连接器配置门户，将医疗保健组织配置为Microsoft Teams虚拟访问。 可配置一个或多个组织来测试集成。 在配置门户中配置测试和生产 URL。 在投入生产之前，请从 Epic 的测试环境测试集成。
+通过启动 EHR 连接器配置门户Microsoft Teams医疗保健组织启动虚拟访问。 可配置一个或多个组织来测试集成。 在配置门户中配置测试和生产 URL。 在投入生产之前，请从 Epic 的测试环境测试集成。
   
 - EHR 连接器配置 URL：[https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 

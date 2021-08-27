@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 description: Microsoft Teams for RealWear 客户端 IT 管理员演练。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415d3f31c499dc7d52398f8873a1c047b69b382fce3216618a169c352a657e9a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39ec36c8162acb4bc95430afa48dac7bb80c772e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315268"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617398"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams for RealWear
 

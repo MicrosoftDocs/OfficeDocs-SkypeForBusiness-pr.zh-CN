@@ -15,27 +15,27 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: 可以使用名为 CallingLineIdentity 的策略控制 电话系统 用户的入站和出站呼叫的来电显示。
-ms.openlocfilehash: ddd01d899597a96b5085c92ac9e20681b0a5c92b18ca342008b499e44892743a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 可以使用名为 CallingLineIdentity 的策略控制 电话系统 用户的入站和出站调用的来电显示。
+ms.openlocfilehash: 97070be995d56451a7b6b1969c8d3751ebaaffe5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293819"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624604"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
 调用方 ID 由两个面向用户的可识别信息片段组成：
 
-- 电话号码 (称为 CLID 或呼叫线路 ID) 。 这是 PSTN 公用 (号码) 表示为呼叫者的标识。
+- 电话号码 (称为 CLID 或呼叫线路 ID) 。 这是 PSTN 公用 (号码) 显示为呼叫者的标识。
 
-- 呼叫方名称 (称为 CNAM) 。 
+- 呼叫方 (通常称为 CNAM) 。 
   
 无论 PSTN 连接选项如何，电话系统呼叫者 ID 功能都可用：
 
@@ -58,7 +58,7 @@ ms.locfileid: "54293819"
 
   - 在"呼叫计划"电话号码清单中分类为服务和免费电话号码的电话号码。 它通常分配给一个Teams 自动助理或呼叫队列。
 
-  - 本地电话号码，通过直接路由分配给呼叫队列或呼叫Teams 自动助理资源帐户。 
+  - 本地电话号码，通过直接路由分配给呼叫队列或呼叫Teams 自动助理使用的资源帐户。 
 
 - 在出站 PSTN 呼叫上设置的呼叫方名称或 CNAM。  
     
@@ -86,7 +86,7 @@ ms.locfileid: "54293819"
 
 - 使用资源帐户电话号码替换仅适用于Teams用户。 服务电话号码的替换适用于 Skype for Business Online Teams用户。
 
-- 呼叫方名称仅在呼叫方 ID 替换为 LineUri、服务或资源帐户电话号码以及呼叫方是用户时Teams发送。
+- 呼叫方名称仅在呼叫方 ID 替换为 LineUri、服务或资源帐户电话号码以及呼叫方是呼叫方用户时Teams发送。
 
 - 呼叫方名称最多可包含 200 个字符，但下游系统可能支持较少的字符。
 
@@ -97,7 +97,7 @@ ms.locfileid: "54293819"
    
 ## <a name="inbound-caller-id"></a>入站来电显示
 
-电话系统来电显示作为来电显示的外部电话号码。 如果号码与 Azure AD 中的用户或联系人或个人联系人相关联，Skype for Business客户端Teams基于该信息显示呼叫者 ID。 如果电话号码不在 Azure AD 或个人联系人中，则会显示由显示名称提供的电话号码（如果可用）。
+电话系统来电显示作为来电显示的外部电话号码。 如果该号码与 Azure AD 中的用户或联系人或个人联系人相关联，Skype for Business Teams 客户端将基于该信息显示呼叫者 ID。 如果电话号码不在 Azure AD 或个人联系人中，则会显示由显示名称提供的电话号码（如果可用）。
 
 BlockIncomingCallerID 属性可以用于阻止 PSTN 来电的来电显示。 可以设置此属性，但它在用户设置页上对最终用户不可用。 启用此设置后，传入 PSTN 呼叫者将显示为来自匿名。
   

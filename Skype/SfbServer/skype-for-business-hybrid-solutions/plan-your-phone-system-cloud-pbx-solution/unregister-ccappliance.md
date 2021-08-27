@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
-description: 此Unregister-CcAppliance cmdlet 从 PSTN Skype for Business 云连接器版本联机租户配置中注销当前设备。
-ms.openlocfilehash: de872082f6a025a736b871a76d41061c888acb1f401739229ba7ad670a0c19ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 此Unregister-CcAppliance cmdlet 从联机租户配置中的 PSTN Skype for Business 云连接器版本注销当前设备。
+ms.openlocfilehash: c48a7b53d757dab446a8939a3e3203d8e66fccab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344541"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603651"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
-此Unregister-CcAppliance cmdlet 从 PSTN Skype for Business 云连接器版本联机租户配置中注销当前设备。
+此Unregister-CcAppliance cmdlet 从联机租户配置中的 PSTN Skype for Business 云连接器版本注销当前设备。
   
 ```powershell
 Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]

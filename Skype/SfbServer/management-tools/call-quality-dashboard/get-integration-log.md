@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 摘要：了解获取集成日志操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: c52546a93cd2feb1a6d97f1909c15453cc864fc49e290466c8e22eb2fd0af9ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c4d94497a7ed2b7ca1a9c716ede0eef466b0f1ad
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278690"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578766"
 ---
 # <a name="get-integration-log"></a>获取集成日志
  
@@ -45,7 +45,7 @@ ms.locfileid: "54278690"
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 200 (确定) 。
+ **状态代码** - 成功操作返回状态代码 200， (确定) 。
   
  **响应标头** - 无其他标头。
   

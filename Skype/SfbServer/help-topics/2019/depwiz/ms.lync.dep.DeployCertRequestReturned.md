@@ -11,24 +11,24 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: “联机证书请求状态”页将显示与成功创建并发出联机证书请求有关的重要信息。 该页提供了可以唯一标识证书的证书指纹。 默认情况下，选中"为此证书分配Skype for Business Server证书用法"复选框。 如果单击"完成"，证书将自动分配给Skype for Business Server证书请求创建步骤期间定义的目的。 默认情况下，分配证书的目的如下：
-ms.openlocfilehash: 8665053e3f625f39ec2843467a448f6620d9f7d0110e931ee6298f2be5c72193
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285492"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581776"
 ---
 # <a name="certificate-request-returned"></a>证书请求（已返回）
  
-“联机证书请求状态”页将显示与成功创建并发出联机证书请求有关的重要信息。 该页提供了可以唯一标识证书的证书指纹。 默认情况下，选中"为此 **证书分配Skype for Business Server证书用法**"复选框。 如果单击 **"完成**"，证书将自动分配给Skype for Business Server证书请求创建步骤期间定义的目的。 默认情况下，分配证书的目的如下：
+“联机证书请求状态”页将显示与成功创建并发出联机证书请求有关的重要信息。 该页提供了可以唯一标识证书的证书指纹。 默认情况下，选中"**为此证书分配Skype for Business Server证书用法**"复选框。 如果单击 **"完成**"，证书将自动分配给Skype for Business Server证书请求创建步骤期间定义的目的。 默认情况下，分配证书的目的如下：
   
-- 相互传输层安全性的服务器默认值 (MTLS) - 与客户端和其他服务器的连接
+- 相互传输层安全性服务器的默认 (MTLS) - 与客户端和其他服务器的连接
     
-- Web 服务内部 - 内部 Web 服务站点上的客户端和服务器连接，用于传输层安全性/安全套接字层 (TLS/SSL) 
+- Web 服务内部 - 内部 Web 服务网站上传输层安全性/安全套接字层与 TLS/SSL (客户端和服务器) 
     
 - 外部 Web 服务 - TLS/SSL 的外部 Web 服务站点上的客户端和服务器连接
     

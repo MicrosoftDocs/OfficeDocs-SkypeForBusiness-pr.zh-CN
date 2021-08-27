@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 摘要：了解如何在 Skype for Business Server中为部分或所有用户部署通过工作电话呼叫。
-ms.openlocfilehash: ce4c49a1ba8766dbec6efbfe2b04ea91702eadf40c91cb6108f027765609cac4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6113c4447e30d59a262bf2c02b3f7ff2db171f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303156"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624414"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>在部署中部署通过工Skype for Business Server
  
@@ -34,11 +34,11 @@ ms.locfileid: "54303156"
   
 - 必须将中介服务器部署为前端服务器的一部分或作为独立角色。 还必须部署 IP-PBX 网关。
     
-- 所有将启用通过工号拨号功能的用户都必须在 PBX 电话系统 (DID) 外线直拨电话。 
+- 将启用通过工号拨号的所有用户都必须在 PBX 电话系统上具有 (外) DID 电话。 
     
 - 必须启用所有通过工位呼叫的用户企业语音。 在这样做时，必须将每个用户的 DID Skype for Business配置为相应的 PBX 电话系统的对应 DID 号码。 
     
-- 使用单位电话呼叫的所有用户必须在其客户端的高级连接选项中选中Skype for Business配置。 这使客户端能够发现 UCWA URL。 **自动配置** 是默认选择。
+- 在使用单位电话呼叫的所有用户的客户端中，必须在其高级连接选项中选中Skype for Business配置。 这使客户端能够发现 UCWA URL。 **自动配置** 是默认选择。
     
 - 对于每个通过工位呼叫的用户，启用呼叫转发和同时响铃。 
     
@@ -50,7 +50,7 @@ ms.locfileid: "54303156"
 
 满足先决条件后，执行以下操作：
   
-- 为部署创建全局电话号码，Skype for Business通过工号呼叫的用户的 PBX 呼叫者 ID 显示该号码。 
+- 为部署创建全局电话号码，Skype for Business通过工号呼叫的用户的 PBX 呼叫者 ID 上显示该号码。 
     
 - 创建一个或多个通过工位呼叫策略
     

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: 此Export-CcConfigurationSampleFile cmdlet 将Skype for Business 云连接器版本示例配置文件 (.ini) 云连接器设备的设备目录。 可以修改和重命名文件以用于部署。
-ms.openlocfilehash: f59e93cf241ca762dcb41cf23d617017a62581b453cb84cebc915b1703f5a019
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 409514761c3bfeccebb671d289201fc67f58d220
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326258"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603661"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
@@ -50,7 +50,7 @@ Export-CcConfigurationSampleFile
 
 云连接器的当前版本要求你在云连接器文件中提供.ini参数;例如，云连接器组件虚拟机的 IP 地址、组件名称、网关参数等参数。
   
-此 cmdlet 在云连接器的主机上运行时，会从 Microsoft .ini下载包含配置示例的示例文件。 此 cmdlet 将文件写入云连接器设备的设备目录。 设备目录是使用 Set-CcApplianceDirectory cmdlet 指定的。
+此 cmdlet 在云连接器的主机上运行时，会从 Microsoft 站点下载包含.ini示例的示例文件。 此 cmdlet 将文件写入云连接器设备的设备目录。 设备目录使用 Set-CcApplianceDirectory cmdlet 指定。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>
