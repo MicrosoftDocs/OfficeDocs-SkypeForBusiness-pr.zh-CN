@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 摘要：了解如何在 Skype for Business Server 中配置 CDR 和 QoE。
-ms.openlocfilehash: 7c7cd1efefb2cfc52e6cf40d3b78cbc87774b40db4e4d2b012e79d1f657994cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e04ac3fcf269ba9520e874e123f165f2fd4269a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304364"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604231"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>配置呼叫详细信息记录和用户体验质量设置Skype for Business Server
  
@@ -33,12 +33,12 @@ ms.locfileid: "54304364"
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-在安装Skype for Business Server时，还将为 CDR 和 QoE 安装预定义的全局配置设置集合。 下表显示了呼叫详细记录使用的一些较常用设置的默认值：
+在安装 Skype for Business Server时，还将为 CDR 和 QoE 安装预定义的全局配置设置集合。 下表显示了呼叫详细记录使用的一些较常用设置的默认值：
   
 |**属性**|**说明**|**默认值**|
 |:-----|:-----|:-----|
-|EnableCDR  <br/> |指示是否启用 CDR。如果为 True，将收集所有 CDR 记录并写入监控数据库。  <br/> |True  <br/> |
-|EnablePurging  <br/> |指示是否定期从数据库中删除 CDR 记录。如果为 True，则将在属性 KeepCallDetailForDays（对于 CDR 记录）和 KeepErrorReportForDays（对于 CDR 错误）指定的时间段后删除记录。如果为 False，则将无限期保留 CDR 记录。  <br/> |True  <br/> |
+|EnableCDR  <br/> |指示是否启用 CDR。如果为 True，将收集所有 CDR 记录并写入监控数据库。  <br/> |正确  <br/> |
+|EnablePurging  <br/> |指示是否定期从数据库中删除 CDR 记录。如果为 True，则将在属性 KeepCallDetailForDays（对于 CDR 记录）和 KeepErrorReportForDays（对于 CDR 错误）指定的时间段后删除记录。如果为 False，则将无限期保留 CDR 记录。  <br/> |正确  <br/> |
 |KeepCallDetailForDays  <br/> |指示 CDR 记录在数据库中保留的天数；超过指定天数的任何记录将自动删除。但是，只有在启用了清除时才会发生这种情况。  <br/> KeepCallDetailForDays 可以设置为 1 到 2562 天（大约 7 年）之间的任意整数值。  <br/> |60 天  <br/> |
 |KeepErrorReportForDays  <br/> |指示保留 CDR 错误报告的天数；超过指定天数的任何报告将自动删除。 CDR 错误报告是由客户端应用程序（如客户端应用程序）上载的诊断Skype for Business Server。  <br/> 您可以将此属性设置为 1 到 2562 天之间的任意整数值。  <br/> |60 天  <br/> |
    
@@ -46,8 +46,8 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
   
 |**属性**|**说明**|**默认值**|
 |:-----|:-----|:-----|
-|EnableQoE  <br/> |指示是否启用 QoE 监控。如果为 True，将收集所有 QoE 记录并写入监控数据库。  <br/> |True  <br/> |
-|EnablePurging  <br/> |指示是否定期从数据库中删除 QoE 记录。如果为 True，则将在属性 KeepQoEDataForDays 指定的时间段后删除记录。如果为 False，则将无限期保留 QoE 记录。  <br/> |True  <br/> |
+|EnableQoE  <br/> |指示是否启用 QoE 监控。如果为 True，将收集所有 QoE 记录并写入监控数据库。  <br/> |正确  <br/> |
+|EnablePurging  <br/> |指示是否定期从数据库中删除 QoE 记录。如果为 True，则将在属性 KeepQoEDataForDays 指定的时间段后删除记录。如果为 False，则将无限期保留 QoE 记录。  <br/> |正确  <br/> |
 |KeepQoEDataForDays  <br/> |指示 QoE 记录在数据库中保留的天数；超过指定天数的任何记录将自动删除。但是，只有在启用了清除时才会发生这种情况。  <br/> 可将 KeepCallDetailForDays 设置为 1 到 2562 天之间的任意整数值。  <br/> |60 天  <br/> |
    
 如果您需要修改这些全局设置，可以使用 Set-CsCdrConfiguration 和 Set-CsQoEConfiguration cmdlet 来完成。 例如，此命令 (命令行管理程序Skype for Business Server，) 全局范围禁用 CDR 监控;这是通过将 EnableCDR 属性设置为 False ($False) ：

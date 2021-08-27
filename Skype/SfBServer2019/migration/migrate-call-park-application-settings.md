@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 呼叫保留应用程序的迁移包括为 Skype for Business Server 2019 池设置已在旧安装中上载的任何自定义保持音乐文件、还原服务级别设置以及将所有呼叫保留通道重新定向到 Skype for Business Server 2019 池。 如果在池中配置了自定义保持音乐文件，则需要将这些文件复制到新的 Skype for Business Server 2019 池中。 此外，建议您将任何呼叫保留音乐自定义文件从另一个目标备份到另一个目标，以保留为呼叫保留上载的任何自定义保持音乐文件的单独备份副本。 呼叫寄存应用程序的自定义保持音乐文件存储在池的文件存储中。 若要将音频文件从池文件存储复制到 Skype for Business Server 2019 文件存储，请使用带下列参数的 Xcopy 命令：
-ms.openlocfilehash: f83e1095361ddd272a35bf9100171c0d06caf003dfae84f19c01b2aa53de7977
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 呼叫保留应用程序的迁移包括为 Skype for Business Server 2019 池设置已在旧安装中上载的任何自定义保持音乐文件、还原服务级别设置以及将所有呼叫保留通道重新定向到 Skype for Business Server 2019 池。 如果在池中配置了自定义保持音乐文件，则需要将这些文件复制到新的 Skype for Business Server 2019 池。 此外，建议您将任何呼叫保留音乐自定义文件从备份到另一个目标，以保留为呼叫保留上载的任何自定义保持音乐文件的单独备份副本。 呼叫寄存应用程序的自定义保持音乐文件存储在池的文件存储中。 若要将音频文件从池文件存储复制到 Skype for Business Server 2019 文件存储，请使用带下列参数的 Xcopy 命令：
+ms.openlocfilehash: b8d2c5a898ca9ce4c2c1e8be4b9cbf3e7355a8cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312320"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597536"
 ---
 # <a name="migrate-call-park-application-settings"></a>迁移呼叫寄存应用程序设置
 
-呼叫保留应用程序的迁移包括为 Skype for Business Server 2019 池设置已在旧安装中上载的任何自定义保持音乐文件、还原服务级别设置以及将所有呼叫保留通道重新定向到 Skype for Business Server 2019 池。 如果在池中配置了自定义保持音乐文件，则需要将这些文件复制到新的 Skype for Business Server 2019 池中。 此外，建议您将任何呼叫保留自定义保持音乐文件备份到另一个目标，以保留为呼叫保留上载的任何自定义保持音乐文件的单独备份副本。 呼叫寄存应用程序的自定义保持音乐文件存储在池的文件存储中。 若要将音频文件从池文件存储复制到 Skype for Business Server 2019 文件存储，请使用带下列参数的 **Xcopy** 命令： 
+呼叫保留应用程序的迁移包括为 Skype for Business Server 2019 池设置已在旧安装中上载的任何自定义保持音乐文件、还原服务级别设置以及将所有呼叫保留通道重新定向到 Skype for Business Server 2019 池。 如果在池中配置了自定义保持音乐文件，则需要将这些文件复制到新的 Skype for Business Server 2019 池。 此外，建议您将任何呼叫保留自定义保持音乐文件备份到另一个目标，以保留为呼叫保留上载的任何自定义保持音乐文件的单独备份副本。 呼叫寄存应用程序的自定义保持音乐文件存储在池的文件存储中。 若要将音频文件从池文件存储复制到 Skype for Business Server 2019 文件存储，请使用带下列参数的 **Xcopy** 命令： 
 
 ```console
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
@@ -41,7 +41,7 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
 2. 在命令行中键入：
 
     > [!NOTE]
-    > 如果您的 2019 Skype for Business Server 2019 呼叫管理应用程序设置与旧设置相同，可以跳过此步骤。 如果 2019 和旧环境中呼叫Skype for Business Server应用程序设置不同，请使用下面的 cmdlet 作为模板来更新这些更改。 
+    > 如果您的 2019 Skype for Business Server 2019 呼叫管理应用程序设置与旧设置相同，可以跳过此步骤。 如果 2019 和旧环境的呼叫Skype for Business Server设置不同，请使用下面的 cmdlet 作为模板来更新这些更改。 
 
    ```PowerShell
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
@@ -63,7 +63,7 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
 
 ## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>使用命令行管理程序重新分配所有呼叫Skype for Business Server范围
 
-1. 打开Skype for Business Server命令行管理程序"。
+1. 打开 Skype for Business Server 命令行管理程序。
 
 2. 在命令行中键入：
 
@@ -71,7 +71,7 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
    Get-CsCallParkOrbit
    ```
 
-    此 cmdlet 列出了部署中的所有呼叫寄存轨道范围。 必须重新分配将 **CallParkServiceId** 和 **CallParkServerFqdn** 参数设置为旧池的所有呼叫保留通道。 
+    此 cmdlet 列出了部署中的所有呼叫寄存轨道范围。 必须重新分配 **CallParkServiceId** 和 **CallParkServerFqdn** 参数设置为旧池的所有呼叫保留通道。 
 
     若要将旧呼叫Skype for Business Server范围重新分配给 Skype for Business Server 2019 池，在命令行中键入以下内容：
 

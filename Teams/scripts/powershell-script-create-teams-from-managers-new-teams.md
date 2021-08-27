@@ -10,22 +10,22 @@ audience: admin
 description: 使用此 PowerShell 脚本为每个经理创建一个团队，其直接下属作为团队成员。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 939b18a5f3dc137fb3953f48d9289a007933baca6c1975c91764bcfe999c833a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f30bab1e96fc16b135b178a1933bbfd08289e861
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341198"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577792"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell 脚本示例 - 创建新的人员经理团队
 
-使用此 PowerShell 脚本为每个经理创建一个团队，其直接下属作为团队成员。 运行此脚本之前，请运行 [导出](powershell-script-create-teams-from-managers-export-managers.md) 管理器脚本 (Active Directory 导出) 组织的经理及其直接人员列表。
+使用此 PowerShell 脚本为每个经理创建一个团队，其直接下属作为团队成员。 运行此脚本之前，请运行 [导出](powershell-script-create-teams-from-managers-export-managers.md) 管理器脚本， (Active Directory 导出) 组织经理及其主管的列表。
 
 若要了解此 PowerShell 脚本，请阅读 [创建人员经理团队](../create-manager-directs-teams.md)。
 

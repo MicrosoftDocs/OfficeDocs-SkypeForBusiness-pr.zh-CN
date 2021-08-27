@@ -11,20 +11,20 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithWacPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Office Web Apps Server 提供了类似于演示者上载文档以用于会议的服务，但启用以前版本未启用的其他功能。
-ms.openlocfilehash: 73637639988d80ece99cdc7519b2e50abce4b354929ded1f3b9e78cdf4591e97
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Office Web Apps Server 提供的服务类似于演示者上载文档以用于会议，但启用以前版本未启用的其他功能。
+ms.openlocfilehash: 2a9ae984f30e582c89294f8f2bef51a07cbc0862
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304134"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625384"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>将前端与 Office Web Apps Server 页面关联
 
-Office Web Apps Server 提供了类似于演示者上载文档以用于会议的服务，但启用以前版本未启用的其他功能。
+Office Web Apps Server 提供的服务类似于演示者上载文档以用于会议，但启用以前版本未启用的其他功能。
 
 如果选择会议Office配置的功能选项之一，请选择用于部署的 Web Apps Skype for Business Server选项。
 

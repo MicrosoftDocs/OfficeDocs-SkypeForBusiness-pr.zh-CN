@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
-description: 摘要：了解如何在客户端Skype for Business和测试Windows Phone。
-ms.openlocfilehash: bbb1947ac1982b54ab8cd2e0005cdf4c7aec62ff69e88f8f32df881616c7d11f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何在客户端上Skype for Business和测试Windows Phone。
+ms.openlocfilehash: f912c1f5bd3c0bd5f8c3cc553c64ee3b7850f63e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338860"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618148"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>安装和测试Windows Phone版Skype for Business
  
 **摘要：** 了解如何在客户端上Skype for Business和测试Windows Phone。
   
-该Windows Phone版Skype for Business应用为Skype for Business移动设备 (即时消息) 语音和视频呼叫Windows功能。 使用 Lync 2013 的用户将自动获得更新的应用，或收到手动更新应用的提示，具体取决于其用户设置。 新用户可以从 Windows Phone [Marketplace 下载它](https://go.microsoft.com/fwlink/p/?linkid=231901)。 Windows Phone版Skype for Business应用仅适用于 Windows Phone 8.1 及更高版本。
+该Windows Phone版Skype for Business应用Skype for Business移动设备提供 (即时消息) 以及语音和视频呼叫Windows功能。 使用 Lync 2013 的用户将自动获得更新的应用，或收到手动更新应用的提示，具体取决于其用户设置。 新用户可以从 Windows Phone [Marketplace 下载它](https://go.microsoft.com/fwlink/p/?linkid=231901)。 Windows Phone版Skype for Business应用仅适用于 Windows Phone 8.1 及更高版本。
   
 在引导贵组织的用户下载应用之前，你需要运行以下测试，以确保它正确集成到你的环境中。 
   
@@ -39,20 +39,20 @@ ms.locfileid: "54338860"
 
 1. 在 **"开始**"屏幕上，向左轻扫以查看已安装的应用，Windows Phone版Skype for Business，然后点击图标以打开该应用。
     
-2. Enter your sign-in address (for example， user@domain.com) and password， and then tap **Done**.
+2. 输入你的登录地址 (例如，user@domain.com) 和密码， **然后点击完成**。
     
      系统可能会要求你同时提供用户名和登录地址。 用户名是登录到组织网络时使用的名称，user@domain.com 域\用户名。
     
-3. 在 **"客户体验改善计划**"屏幕上，点击"**加入**"，将有关应用问题和使用情况的匿名数据发送到Microsoft，如果不想参与，则选择"否"。
+3. 在 **"客户体验改善计划**"屏幕上，点击"**加入**"，将有关应用问题和使用情况的匿名数据发送到Microsoft;如果不想参与，则选择"否"。
     
-4. 在" **从不错过你的工作呼叫"** 屏幕上，输入具有国家/地区代码的移动号码。 当Windows Phone版Skype for Business无法通过 Wi-Fi 或手机数据网络进行音频或视频呼叫时，系统将自动通过此号码呼叫你并连接到呼叫的音频部分。
+4. 在" **从不错过你的工作呼叫"** 屏幕上，输入具有国家/地区代码的移动号码。 Windows Phone版Skype for Business使用 Wi-Fi 或手机数据网络进行音频或视频呼叫时，系统将自动通过此号码呼叫你并连接到呼叫的音频部分。
     
 5. 点击 **"下** 一步"并查看通知和电话簿访问设置：
     
-   - **推送通知** 收到新的 IM 或呼叫时获取警报。 正常 **情况下， (** 推荐) 。
+   - **推送通知** 收到新 IM 或呼叫时收到警报。 正常 **情况下， (** 推荐) 。
     
      > [!IMPORTANT]
-     > 如果关闭此设置，将不会收到有关 IM、呼叫或其他Windows Phone版Skype for Business通知，除非应用处于活动状态。 
+     > 如果关闭此设置，将不会收到任何 IMS、呼叫或其他Windows Phone版Skype for Business通知，除非应用处于活动状态。 
   
    - **允许电话簿访问** 在移动电话上搜索联系人时，在移动电话上搜索Windows Phone版Skype for Business。
     
@@ -94,11 +94,11 @@ ms.locfileid: "54338860"
 
 1. 为此测试选择两个不同的用户帐户。 
     
-2. 在用户 A Windows Phone，登录Windows Phone版Skype for Business A 的帐户登录。
+2. 在用户 A 的Windows Phone，登录Windows Phone版Skype for Business A 的帐户登录。
     
 3. 在设备上打开另一个应用程序。
     
-4. 在不同的客户端（如桌面客户端）上，Skype for Business B 的帐户登录。
+4. 在不同的客户端（如桌面客户端）上，Skype for Business B 的帐户登录登录。
     
 5. 将 IM 从用户 B 发送到用户 A。
     

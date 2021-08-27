@@ -9,23 +9,23 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-description: 创建或修改网络区域、网络站点，并关联网络Skype for Business Server。 所有这些功能均用于高级企业语音功能：媒体旁路、呼叫允许控制和基于位置的路由。
-ms.openlocfilehash: e031936fe8f8411f5527812326b751da59c2a05f77b7162a40901588bbc6138e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 创建或修改网络区域、网络站点，并关联网络Skype for Business Server。 所有这些功能都用于高级企业语音功能：媒体旁路、呼叫允许控制和基于位置的路由。
+ms.openlocfilehash: 5c9105dd49afaaeeba1925859357b801cb252cb4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320884"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604251"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>在站点部署网络区域、站点和Skype for Business
 
-创建或修改网络区域、网络站点，并关联网络Skype for Business Server。 所有这些功能均用于高级企业语音功能：媒体旁路、呼叫允许控制和基于位置的路由。
+创建或修改网络区域、网络站点，并关联网络Skype for Business Server。 所有这些功能都用于高级企业语音功能：媒体旁路、呼叫允许控制和基于位置的路由。
 
 高级企业语音包括[呼叫允许](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)控制、[媒体旁](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)路、基于位置的[路由](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和[E9-1-1。](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) 这些功能都要求创建网络区域、网络站点和子网。 例如，所有这些功能都要求拓扑中的每个子网与特定网络站点关联，并且每个网络站点必须与一个网络区域关联。 有关这些术语详细信息，请参阅 network [settings for the advanced 企业语音 features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)。
 
@@ -81,7 +81,7 @@ ms.locfileid: "54320884"
 
 9. 要为拓扑完成网络区域的创建，请使用其他区域的设置重复步骤 4 至 8。
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>使用命令行管理程序修改Skype for Business Server区域
+### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server网络区域
 
 1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
@@ -97,7 +97,7 @@ ms.locfileid: "54320884"
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
-    本示例通过更改说明修改了 ("NorthAmerica"的现有网络区域) 创建。 如果"NorthAmerica"区域存在说明，此命令会用此值覆盖它;如果尚未设置说明，则此命令将设置它。
+    在此示例中，您修改了一个称为"NorthAmerica"的现有网络区域 (使用本主题前面介绍的过程通过更改) 创建的区域。 如果"NorthAmerica"区域存在说明，此命令会用此值覆盖它;如果尚未设置说明，则此命令将设置它。
 
 3. 要修改其他网络区域，请使用其他区域的设置重复步骤 2。
 
@@ -121,7 +121,7 @@ ms.locfileid: "54320884"
 
 ## <a name="create-or-modify-a-network-site"></a>创建或修改网络站点
 
-如果已经为这些功能之一创建了网络站点，则无需创建新的网络站点;其他高级企业语音功能将使用相同的网络站点。 但是，可能需要修改现有的网络站点定义来应用特定于功能的设置。 例如，如果已为 E9-1-1 创建网络站点，则需要在部署呼叫允许控制的过程中修改该网络站点，以便应用带宽策略配置文件。
+如果已针对这些功能之一创建了网络站点，则无需创建新的网络站点;其他高级企业语音功能将使用相同的网络站点。 但是，可能需要修改现有的网络站点定义来应用特定于功能的设置。 例如，如果已为 E9-1-1 创建网络站点，则需要在部署呼叫允许控制的过程中修改该网络站点，以便应用带宽策略配置文件。
 
 ### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序创建Skype for Business Server站点
 
@@ -224,7 +224,7 @@ ms.locfileid: "54320884"
 
 必须将部署中音频/视频边缘服务器的所有已配置公共 IP 地址添加到网络配置设置中。 这些 IP 地址是作为掩码为 32 的子网进行添加的。 关联的网络站点应与相应的已配置网络站点相对应。 例如，与中央站点芝加哥的 A/V 边缘服务对应的公用 IP 地址是 NetworkSiteID Chicago。
 
-### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序将子网与网络站点Skype for Business Server关联
+### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序将子网与Skype for Business Server关联
 
 1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
@@ -260,7 +260,7 @@ ms.locfileid: "54320884"
 
 2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
-3. 运行以下 cmdlet 以导入 **subnet.csv，然后将** 其内容存储在 Lync Server 管理存储中：
+3. 运行以下 cmdlet 以导入 **subnet.csv，** 然后将其内容存储在 Lync Server 管理存储中：
 
    ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}

@@ -9,28 +9,28 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: 了解如何准备基础结构以部署Microsoft Teams 会议室以便可以利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46f44d9a07aadc06598495a765bedcd67d1ed03b395c4d9cf4e6696023227c0a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5003bbb3554436ca388990aeebfec4ce6dfb9f57
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346169"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577956"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
-本部分包含准备环境所需的步骤概述，以便可以使用所有 Microsoft Teams 会议室。
+本部分包含准备环境所需的步骤概述，以便可以使用 Microsoft Teams 会议室。
   
 1. 为每台主机准备Microsoft Teams 会议室帐户。 有关详细信息[，Microsoft Teams 会议室](rooms-deploy.md)部署应用程序。
     
 2. 确保有运行良好的网络/Internet 连接可供设备使用。 
     
-   它必须能够使用 DHCP 接收 IP 地址。  (Microsoft Teams 会议室第一个单元启动时无法使用静态 IP 地址进行配置，但之后，可以在设备或上游交换机或路由器.) 
+   它必须能够使用 DHCP 接收 IP 地址。  (Microsoft Teams 会议室单元启动时无法使用静态 IP 地址进行配置，但之后，可以在设备或上游交换机或路由器上配置设备的静态 IP 地址) 
 
    除了为媒体服务打开 (，还必须让这些端口打开) ：
    - HTTPS：443
@@ -48,7 +48,7 @@ ms.locfileid: "54346169"
     
 ### <a name="create-and-test-a-device-account"></a>创建和测试设备帐户
 
-*设备帐户* 是一个帐户，Microsoft Teams 会议室客户端用来从日历等Exchange访问功能，以及启用Skype for Business。 有关详细信息[，Microsoft Teams 会议室](rooms-deploy.md)部署应用程序。
+*设备帐户* 是一个帐户，Microsoft Teams 会议室客户端用来从日历Exchange访问功能，以及启用Skype for Business。 有关详细信息[，Microsoft Teams 会议室](rooms-deploy.md)部署应用程序。
   
 ### <a name="check-network-availability"></a>检查网络可用性
 
@@ -70,7 +70,7 @@ ms.locfileid: "54346169"
   
 ### <a name="certificates"></a>证书
 
-你的 Microsoft Teams 会议室 设备使用证书Exchange Web 服务、Microsoft Teams或Skype for Business、网络使用情况和身份验证。 如果相关服务器使用公用证书（联机部署和部分本地部署便属于这种情况），则无需在管理部分执行任何进一步操作来安装证书。 另一方面，如果证书颁发机构为私有 CA（通常用于本地部署），则设备需要信任该 CA，这意味着在设备中安装了 CA + CA 链证书。 将设备添加到域时，可以自动执行此任务。
+你的Microsoft Teams 会议室设备使用证书Exchange Web 服务、Microsoft Teams或Skype for Business、网络使用情况和身份验证。 如果相关服务器使用公用证书（联机部署和部分本地部署便属于这种情况），则无需在管理部分执行任何进一步操作来安装证书。 另一方面，如果证书颁发机构为私有 CA（通常用于本地部署），则设备需要信任该 CA，这意味着在设备中安装了 CA + CA 链证书。 将设备添加到域时，可以自动执行此任务。
   
 安装证书的方式与任何其他 Windows 客户端一样。 
   
@@ -81,8 +81,8 @@ ms.locfileid: "54346169"
 
 Microsoft Teams 会议室旨在从操作系统继承代理Windows设置。 通过以下方式访问 Windows OS：
   
-1. 在 Microsoft Teams 会议室 UI 中，单击 设置 齿轮图标，系统会提示输入设备的本地管理员密码 (默认密码是 **sfb**) 。
-2. 点击 **设置，** 然后点击"转到 **Windows"** 按钮，然后点击转到"管理员登录"按钮，然后单击"管理员"按钮 (如果计算机已加入域，请选择"其他用户"，然后使用 .\admin作为用户名) 。 
+1. 在 Microsoft Teams 会议室 UI 中，单击 设置 齿轮图标，其中将提示你在设备上输入本地管理员密码 (默认密码是 **sfb**) 。
+2. 点击 **设置，** 然后点击"转到 **Windows"** 按钮，然后点击转到"管理员登录"按钮，然后单击"管理员"按钮 (如果计算机已加入域，请选择"其他用户"，然后使用 .\admin 作为用户名) 。 
 3. 在"**搜索Windows"** 框中，键入 regedit (长按屏幕或右键单击并选择"以管理员角色运行") 。 
 4. 单击 HKEY_USERS 文件夹（你将看到计算机用户 SID 列表），确保选择根文件夹 HKEY_USERS。
        
@@ -117,7 +117,7 @@ Microsoft Teams 会议室旨在从操作系统继承代理Windows设置。 通�
     
 11. 返回登录屏幕，选择 **Skype** 用户。 如果上述所有步骤都成功，Microsoft Teams 会议室设备将成功登录。
     
-有关[FQDN、](./security.md#network-security)端口和 IP 地址范围的详细信息，请参阅网络安全一文Microsoft Teams 会议室。
+请参阅[网络安全一文](./security.md#network-security)，了解有关 FQDN、端口和 IP 地址范围进行配置所需的Microsoft Teams 会议室。
   
   
 ### <a name="create-provisioning-packages"></a>创建设置包
@@ -139,7 +139,7 @@ Microsoft Teams 会议室旨在从操作系统继承代理Windows设置。 通�
   
 ### <a name="admin---local-administrator-account"></a>“Admin”- 本地管理员帐户
 
-Microsoft Teams 会议室默认密码设置为"sfb"。 可以通过转到 Windows 设置 转到 Windows 或在 AutoUnattend.xml 文件中更改密码 (使用 ADK 中的 Windows 系统映像管理器更改 xml 文件 \>) 。
+Microsoft Teams 会议室默认密码设置为"sfb"。 可以通过转到 Windows 设置 转到 Windows 或在 AutoUnattend.xml 文件中更改密码 (使用 ADK 中的 Windows 系统映像管理器对 xml 文件 \>) 。
   
 > [!CAUTION]
 > 请务必尽快更改Microsoft Teams 会议室密码。 
@@ -150,7 +150,7 @@ Microsoft Teams 会议室默认密码设置为"sfb"。 可以通过转到 Window
   
 ### <a name="machine-account"></a>计算机帐户
 
-与任何Windows一样，可以通过右键单击"关于重命名电脑"设置 \> **重命名** 计算机 \> **名称**。
+与任何Windows一样，可以通过右键单击"关于重命名电脑"设置 \> **重命名** \> **计算机名称**。
   
 如果要在将计算机加入域后重命名计算机，请使用 **Rename-Computer（PowerShell** 命令，后跟计算机的新名称）。
   
@@ -166,4 +166,4 @@ Microsoft Teams 会议室默认密码设置为"sfb"。 可以通过转到 Window
   
 [管理 Microsoft Teams 会议室](rooms-manage.md)
 
-[课程适用于企业的 Microsoft Store教育的先决条件](/microsoft-store/prerequisites-microsoft-store-for-business)
+[教育适用于企业的 Microsoft Store的先决条件](/microsoft-store/prerequisites-microsoft-store-for-business)

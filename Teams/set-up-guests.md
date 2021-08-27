@@ -16,18 +16,18 @@ ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 - ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-description: 了解如何以管理员或管理员Microsoft Teams或Office 365来宾访问功能。
-ms.openlocfilehash: 58c8de6a54555ce9fea1e3880eabcb5b549684bd55c2b69585343058fe6dd18f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何以管理员的管理员Microsoft Teams或关闭Office 365功能。
+ms.openlocfilehash: e9701defbf987d68f2c0ce79a9797064a07111bf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327538"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590736"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>开启或关闭对 Microsoft Teams 的来宾访问。
 
@@ -35,7 +35,7 @@ ms.locfileid: "54327538"
 
 > 在 **2021 年 2** 月之前，来宾访问默认已关闭。 必须先为用户启用来宾Teams管理员或团队所有者才能添加来宾。 启用来宾访问后，更改可能需要几个小时才能生效。 如果用户 **尝试将来宾** 添加到团队时看到消息"联系管理员"，则可能是来宾访问尚未打开或设置尚未生效。
 
-> **2021** 年 2 月之后，Microsoft Teams中尚未配置此设置的现有客户的&默认启用来宾访问。 实施此更改后，如果尚未在 Microsoft Teams 中配置来宾访问功能，将在租户中启用该功能。 如果希望组织的来宾访问保持禁用状态，则需要确认来宾访问设置设置为"关闭 **"，而不是**"服务 **默认"。**
+> **2021** 年 2 月之后，Microsoft Teams中未配置此设置的现有客户的&默认启用来宾访问。 实施此更改后，如果尚未在租户中配置来宾Microsoft Teams，将在租户中启用该功能。 如果希望组织的来宾访问保持禁用状态，则需要确认来宾访问设置设置为"关闭 **"，而不是**"服务 **默认"。**
 
 > [!IMPORTANT]
 > 启用来宾访问取决于Azure Active Directory、Microsoft 365、SharePoint和Teams。 有关详细信息，请参阅 [在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。
@@ -58,12 +58,12 @@ ms.locfileid: "54327538"
           - 将此设置设置为 **"已禁用**"，以删除来宾在 Teams 中共享其屏幕Teams。
           - 将此设置设置为 **"单个应用程序** "，以允许共享单个应用程序。
           - 将此设置设置为 **"整个屏幕** "以允许完整的屏幕共享。
-      - **允许"现在** 开会"-**将此设置设置为"打开**"，以允许来宾使用"现在开会"功能Microsoft Teams。
+      - **允许"现在** 开会"-**将此设置设置为"开**"，以允许来宾使用"现在开会"功能Microsoft Teams。
       - **编辑已发送的消息** - 将此设置 **设置为"打开** "以允许来宾编辑他们之前发送的消息。
       - **来宾可以删除已发送的消息** – 将此设置 **设置为"打开** "以允许来宾删除以前发送的消息。
       - **聊天**- 启用 **此设置，** 使来宾能够在聊天中Teams。
       - **在对话中使用 Giphy** -启用此设置以允许来宾在对话中使用 Giphy。 Giphy 是一个联机数据库和搜索引擎，允许用户搜索和共享动态 GIF 文件。 每个 Giphy 都分配有一个内容分级。
-      - **Giphy 内容分级** - 从下拉列表中选择分级：
+      - **Giphy 内容分级** - 从下拉列表中选择一个分级：
           - **允许所有** 内容 - 来宾能够在聊天中插入所有 Giphy，而不考虑内容分级。
           - **中等** - 来宾能够在聊天中插入 Giphy，但会适度限制成人内容。
           - **严格** - 来宾可以在聊天中插入 Giphy，但无法插入成人内容。

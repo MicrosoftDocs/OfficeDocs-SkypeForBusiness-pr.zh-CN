@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server：配置没有媒体旁路的中继
+title: Skype for Business Server：配置无媒体旁路的中继
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 摘要：配置未启用媒体旁路功能的中继Skype for Business Server。
-ms.openlocfilehash: 737fbc850583513b6782878fbd75484716364bcf258db2e5183e0800700d3891
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2f6edcf34f7da82da53ca10b523468b4ba794209
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312070"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590576"
 ---
-# <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype for Business Server：配置没有媒体旁路的中继
+# <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype for Business Server：配置无媒体旁路的中继
 
 **摘要：** 配置未启用媒体旁路功能的中继Skype for Business Server。
 
@@ -52,7 +52,7 @@ ms.locfileid: "54312070"
 
 4. 选择以下“加密支持级别”选项之一：
 
-   - **必需**：必须使用安全实时传输协议 (SRTP) 加密来帮助保护中介服务器与网关或专用交换机 PBX (之间的通信) 。
+   - **必需**：必须使用安全实时传输协议 (SRTP) 加密来帮助保护中介服务器与网关或专用交换机与 PBX (之间的通信) 。
 
    - **可选**：如果服务提供商或设备制造商支持 SRTP，则使用 SRTP 加密。
 
@@ -119,7 +119,7 @@ ms.locfileid: "54312070"
 
 11. **应选择"** 启用前向呼叫历史记录"以允许将呼叫历史记录信息发送到中介服务器的对等网关。
 
-12. 应选择"启用转发 **P-Asserted-Identity** 数据"，以使 PAI 呼叫发起方信息可以在中介服务器端和网关端 (（如果) ）进行转发。
+12. 应选择"启用转发 **P-Asserted-Identity** 数据"，以使 PAI 呼叫发起方信息可以在中介服务器端和网关端 (（如果) ）转发。
 
 13. 应选择“启用出站路由故障转移计时器”以支持快速故障转移。 与此中继关联的网关可以在 10 秒内发出正在处理出站呼叫的通知。 如果中介服务器未收到此通知，将重新路由到另一个中继。 在延迟设置可能延迟响应时间或网关需要 10 秒以上时间进行响应的网络中，应禁用快速故障转移。
 
@@ -127,7 +127,7 @@ ms.locfileid: "54312070"
 
     - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
 
-    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 Translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。
 
@@ -142,7 +142,7 @@ ms.locfileid: "54312070"
 
     - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
 
-    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 Translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。
 
@@ -163,7 +163,7 @@ ms.locfileid: "54312070"
 18. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 任何时候创建或修改中继配置，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 任何时候创建或修改中继配置，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ## <a name="see-also"></a>另请参阅
 

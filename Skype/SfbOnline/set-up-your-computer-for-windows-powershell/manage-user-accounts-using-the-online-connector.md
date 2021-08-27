@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: 使用 Get-CsOnlineUser 中的 Windows PowerShell cmdlet 获取有关组织 Skype for Business Online 用户的信息。
-ms.openlocfilehash: 943a3030c8012d56fb5082c5d85cf58aafa228b662f2b045d90c9d3ba97d80aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f5caf9df905364c078226501d880db5271db92f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323544"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590596"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>使用联机连接器管理用户帐户
 
@@ -48,7 +48,7 @@ ms.locfileid: "54323544"
 ### <a name="return-information-about-all-your-skype-for-business-online-users"></a>返回有关所有 Lync Online 用户的信息
 <a name="BKAllUsers"> </a>
 
-若要返回有关已启用 Skype for Business Online 的所有用户的信息，请调用不带任何其他参数的[Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet。
+若要返回有关已启用 Skype for Business Online 的所有用户的信息，请调用[Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet，而无需任何其他参数。
 
 ```PowerShell
 Get-CsOnlineUser
@@ -90,7 +90,7 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>在 Skype for Business Online 中返回特定用户的特定信息
 <a name="BKSpecificUsers"> </a>
 
-默认情况下[，Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet 会针对每个 Skype for Business Online 用户帐户返回大量信息。 如果只对该信息的子集感兴趣，请通过管道将返回的数据通过管道返回到 **Select-Object** cmdlet。 例如，此命令返回用户 Ken Myer 的所有数据，然后使用 **Select-Object** cmdlet 将屏幕上显示的信息限制为 Ken 的 AD DS 显示名称和拨号计划。
+默认情况下[，Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet 会针对每个 Skype for Business 用户帐户返回大量信息。 如果只对该信息的子集感兴趣，请通过管道将返回的数据通过管道返回到 **Select-Object** cmdlet。 例如，此命令返回用户 Ken Myer 的所有数据，然后使用 **Select-Object** cmdlet 将屏幕上显示的信息限制为 Ken 的 AD DS 显示名称和拨号计划。
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
@@ -111,11 +111,11 @@ Get-CsOnlineUser | Get-Member
 ### <a name="return-a-filtered-list-of-users-in-skype-for-business-online"></a>返回 Skype for Business Online 中的已筛选用户列表
 <a name="BKListofUsers"> </a>
 
-通过使用 [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet 和 _LdapFilter_ 或 _Filter_ 参数，可以轻松返回有关一组目标用户的信息。 例如，此命令返回财务部门工作的所有用户。
+通过使用 [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet 和 _LdapFilter_ 或 _Filter_ 参数，可以轻松返回有关一组目标用户的信息。 例如，此命令返回财务部门中的所有用户。
 
 ```PowerShell
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
 ## <a name="related-topics"></a>相关主题
-[使用 Skype for business Online 管理设置计算机Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[使用 skype for business Online 管理设置Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

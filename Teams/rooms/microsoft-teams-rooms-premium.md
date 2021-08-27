@@ -13,22 +13,22 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解Microsoft Teams 会议室服务。
 f1keywords: ''
-ms.openlocfilehash: c6ec09b889272b7efb02e6e2f0223f8fc3bf6da3f4332c4bfb50b58895c90bee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b60f920d6364599021f77d23fe890e11fae5c43e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280697"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597586"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 会议室托管服务
 
-Microsoft Teams 会议室 托管服务是基于云的 IT 管理和监视服务，可使 Microsoft Teams 会议室 设备及其外围设备保持最新状态并主动进行监视，支持针对出色的用户体验进行优化的环境。
+Microsoft Teams 会议室托管服务是基于云的 IT 管理和监视服务，可使 Microsoft Teams 会议室 设备及其外围设备保持最新状态并主动进行监视，支持针对出色的用户体验进行优化的环境。
 
-这种Microsoft Teams 会议室托管服务适用于寻求通过为设备提供主动管理来改进其会议室体验并快速扩展其占用空间Microsoft Teams 会议室的组织。 该服务允许组织节省时间、资金和专业知识，否则花费在"自己执行"房间管理上。  
+这种Microsoft Teams 会议室托管服务适用于希望通过为设备提供主动管理来改进其会议室体验并快速扩展其占用空间Microsoft Teams 会议室的组织。 该服务允许组织节省时间、资金和专业知识，否则花费在"自己执行"房间管理上。  
 
 此Microsoft Teams 会议室托管服务建立在 Microsoft 在支持软件管理终点、机器学习和智能自动化方面的专业知识的强大基础。 这种Microsoft Teams 会议室托管服务可帮助组织跨多个远程站点提供高质量的体验，并可以适应组织可能需要的任何增长速度。
 
@@ -64,7 +64,7 @@ Microsoft Teams 会议室 托管服务是基于云的 IT 管理和监视服务�
 
 ## <a name="service-prerequisites"></a>服务先决条件
 
-若要Microsoft Teams 会议室托管服务保持服务质量，注册的会议室必须是[Microsoft Teams 会议室](requirements.md#hardware-requirements)支持的设备，并且您必须使用会议室设备完全允许和访问所有必需的 Office 365 URL 和[IP](/office365/enterprise/urls-and-ip-address-ranges)地址范围来准备环境。 若要了解有关详细信息，请参阅[准备环境文档](rooms-prep.md)Microsoft Teams 会议室环境。
+若要Microsoft Teams 会议室托管服务保持服务质量，注册的会议室必须是[Microsoft Teams 会议室](requirements.md#hardware-requirements)支持的设备，并且必须使用会议室设备完全允许和访问的所有必需的 Office 365 URL 和[IP](/office365/enterprise/urls-and-ip-address-ranges)地址范围来准备环境。 若要了解有关详细信息，请参阅[准备环境文档](rooms-prep.md)Microsoft Teams 会议室环境。
 
 作为托管服务的提供商，Microsoft 需要与组织中聊天室的负责利益干系人合作，使聊天室保持正常状态，从问题中恢复。 你负责在会议室、已选择在会议室设备中部署的第三方或自定义软件中使用的未经认证的设备，并遵循 Microsoft 建议的变更管理做法。
 
@@ -80,7 +80,7 @@ Microsoft Teams 会议室 托管服务是基于云的 IT 管理和监视服务�
 |**受众**  |仅 IT 操作         |
 |**支持的语言**    |英语         |
 |**通过门户支持可用性**   | 24X7      |
-|**托管服务 SOC Microsoft Teams 会议室响应时间**   |  4 小时       |
+|**托管服务 SOC Microsoft Teams 会议室的初始响应时间**   |  4 小时       |
 |**在客户不活动的情况下自动关闭票证**    |客户启动的票证：3 个工作日<br>系统启动的票证：15 个工作日</li>   </ul>      |
 |**重定向到更广泛的 Microsoft 支持**   |与托管服务范围外的另一个 Microsoft Microsoft Teams 会议室相关的问题将定向到相应的支持团队。         |
 |**重定向到原始设备制造商 (OEM) 支持**    |托管Microsoft Teams 会议室 SOC 可协助了解问题，并有助于协调与 OEM 的支持。 在某些情况下，您可能负责直接与 OEM 合作。         |
@@ -91,7 +91,7 @@ Microsoft Teams 会议室 托管服务是基于云的 IT 管理和监视服务�
 
 ## <a name="supported-regions"></a>支持的区域
 
-此Microsoft Teams 会议室 高级版许可证在所有提供许可证的国家和地区Microsoft 365可用。 有关国家和地区的完整列表，请参阅Microsoft 365[可用性](https://www.microsoft.com/microsoft-365/business/international-availability)。
+此Microsoft Teams 会议室 高级版许可证在所有可用国家和地区Microsoft 365可用。 有关国家和地区的完整列表，请参阅Microsoft 365[可用性。](https://www.microsoft.com/microsoft-365/business/international-availability)
 
 ## <a name="support-inclusions-and-exclusions"></a>支持包含和排除
 
@@ -99,7 +99,7 @@ Microsoft Teams 会议室 托管服务是基于云的 IT 管理和监视服务�
 |包含哪些内容 |排除的 |针对排除项的支持通道  |
 |---------|---------|---------|
 |**服务配置**   |         |         |
-|用户配置的调查Microsoft Teams 会议室 Windows指南，Microsoft Teams 会议室应用设置、第一方网络配置、第一方软件设置以及推荐的电源设置和配置。     |不直接属于会议室应用的任何第三方软件配置Microsoft Teams调查。 此外，任何需要第一方窗口外部配置的特定于 OEM 的配置，或Microsoft Teams会议室应用设置。         |第三方标准支持渠道         |
+|用户配置Microsoft Teams 会议室 Windows指南，Microsoft Teams 会议室应用设置、第一方网络配置、第一方软件设置以及推荐的电源设置和配置。     |不直接属于会议室应用的任何第三方软件配置Microsoft Teams调查。 此外，任何需要第一方窗口外部配置的特定于 OEM 的配置，或Microsoft Teams会议室应用设置。         |第三方标准支持渠道         |
 |**会议室帐户设置**    |         |         |
 |有关应请求设置会议室帐户的可用文档的方向。 对于登录或帐户配置问题，将执行初始调查。     |执行建议的修正或执行建议的补救措施时的问题、配置第三方身份验证提供程序以及配置单个帐户功能。        |Microsoft 主流支持和第三方身份验证提供程序支持         |
 |**外围设备支持**    |         |         |
@@ -107,9 +107,9 @@ Microsoft Teams 会议室 托管服务是基于云的 IT 管理和监视服务�
 |**RMA 和设备更换**   |         |         |
 |初始调查针对经认证的外围设备（如摄像头、麦克风和扬声器）执行。 向 OEM 支持人员提交，让 OEM 满足更换或保修请求。    |采购、寄送或安装更换件。         |OEM 支持         |
 |**根本原因分析**     |         |         |
-|会议室体验中遇到的问题的所有根本原因均在可用时提供，但会尽可能执行。     |不包括第三方软件问题的根本原因分析。         |第三方标准支持渠道         |
+|在会议室体验中遇到问题的所有根本原因均在可用时提供，但会尽可能执行。     |不包括第三方软件问题的根本原因分析。         |第三方标准支持渠道         |
 |**会议体验**   |         |         |
-|应请求，我们Microsoft Teams 会议室在设备上正确配置服务质量指南，以调查会议设置中的问题。      |此范围内不包括通话质量问题或网络相关问题的根本原因分析或调查。         |Microsoft 主流支持         |
+|应要求，我们Microsoft Teams 会议室应用中的会议设置中的问题，以及正确配置设备上服务质量的指南。      |此范围内不包括通话质量问题或网络相关问题的根本原因分析或调查。         |Microsoft 主流支持         |
 |**修正、载入和持续**     |         |         |
 |客户会获得指南，指导其聊天室符合载入时托管Microsoft Teams 会议室建议的标准    |有关内部自定义软件映像或不符合来自托管服务的建议软件版本Microsoft Teams 会议室调查不在范围内。          |         |
 

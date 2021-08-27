@@ -12,24 +12,24 @@ ms.collection: M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 了解如何手动提交移植订单请求。
-ms.openlocfilehash: 13732092921951ee60749e91f4963942f31cb9c45211a0d66cbd9b6f688d220a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5313e7f19554c3c4a82514a247b1bb81b589b5a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276138"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577936"
 ---
 # <a name="manually-submit-a-port-order"></a>手动提交转网订单
 
 在某些国家和地区，可能需要手动提交服务请求才能获取电话号码、转移电话号码、释放电话号码或更改地址。 若要了解每个国家/地区所需的功能或了解有关号码移植的更多信息，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-如果国家/地区未在管理中心的移植向导中列出，请使用本文中的步骤手动提交[Microsoft Teams订单](transfer-phone-numbers-to-teams.md)。
+如果你的一个或多个国家/地区未在管理中心的移植向导中列出，请使用本文中的步骤Microsoft Teams[订单](transfer-phone-numbers-to-teams.md)。
 
 ## <a name="manually-submit-a-new-port-order-request"></a>手动提交新的移植订单请求
 

@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解可以在默认系统消息Skype for Business语音信箱问候语中设置的语言。
-ms.openlocfilehash: f8e16be05b5c6001be8a9c37b6e0e23dac0525a16938c8c378450439f57aee88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 78c3bd30da636bb9a38d413275e2d5b1ae59f0c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348995"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590796"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams语音信箱问候语和消息的语言
 
@@ -61,9 +61,9 @@ Teams语音信箱问候语支持以下语言。
 |法语        |加拿大             |是                                          |是                                   |可以，但 (法语) 法语。   |
 |法语        |法国             |是                                          |是                                   |是 |
 |法语        |瑞士        |可以，但 (法语) 法语。            |是                                   |是 |
-|德语        |奥地利            |是的，但 (德语) 德国。           |是                                   |否  |
+|德语        |奥地利            |可以，但 (德语) 德语。           |是                                   |否  |
 |德语        |德国            |是                                          |是                                   |是 |
-|德语        |瑞士        |是的，但 (德语) 德国。           |是                                   |否  |
+|德语        |瑞士        |可以，但 (德语) 德语。           |是                                   |否  |
 |希腊语         |希腊             |是                                          |是                                   |否  |
 |希伯来语        |以色列             |是                                          |否                                    |否  |
 |印地语         |印度              |是                                          |否                                    |否  |
@@ -77,7 +77,7 @@ Teams语音信箱问候语支持以下语言。
 |挪威语（博克马尔语）   |挪威      |是                                          |是                                   |否  |
 |波兰语        |波兰             |是                                          |是                                   |否  |
 |葡萄牙语    |巴西             |是的，但使用 (葡萄牙语) 葡萄牙。      |是                                   |是 |
-|葡萄牙语    |葡萄牙           |是                                          |是                                   |是的，但使用巴西 (葡萄牙语) 葡萄牙语。  |
+|葡萄牙语    |葡萄牙           |是                                          |是                                   |可以，但使用 (巴西) 葡萄牙语。  |
 |罗马尼亚语      |罗马尼亚            |是                                          |是                                   |否  |
 |俄语       |俄罗斯             |是                                          |是                                   |否  |
 |斯洛伐克语        |斯洛伐克           |是                                          |是                                   |否  |

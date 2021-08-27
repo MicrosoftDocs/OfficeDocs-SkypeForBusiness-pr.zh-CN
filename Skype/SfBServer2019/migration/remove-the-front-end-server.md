@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 本主题中概述的过程旨在指导您完成删除前端池Enterprise Edition前端服务器Standard Edition的过程。 迁移到 Skype for Business Server 2019 后，这是停用旧环境的第一步之一。
-ms.openlocfilehash: 4a0240d185bfbc715a7d9b9f42bd15df04e81337642b4f5697083a6b5b8f02cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 本主题中概述的过程旨在指导您完成删除前端池Enterprise Edition前端服务器Standard Edition的过程。 迁移到 2019 Skype for Business Server，这是停用旧环境的第一步之一。
+ms.openlocfilehash: a325855ea18055f9ab082062c46f445b95a59338
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300528"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597516"
 ---
 # <a name="remove-the-front-end-server"></a>删除前端服务器
 
-本节中概述的过程旨在指导您完成从前端池Enterprise Edition前端服务器Standard Edition过程。 迁移到 2019 Skype for Business Server，这是停用旧环境的第一步之一。
+本节中概述的过程旨在指导您完成删除前端池Enterprise Edition前端服务器Standard Edition过程。 迁移到 2019 Skype for Business Server，这是停用旧环境的第一步之一。
   
 ## <a name="in-this-section"></a>本节内容
 

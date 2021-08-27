@@ -1,7 +1,7 @@
 ---
 title: 设置云语音邮件
-author: dstrome
-ms.author: dstrome
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -21,38 +21,35 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '了解如何为用户云语音邮件帐户。 '
-ms.openlocfilehash: eb1d3d054cf1109ddb9ba048c69dc3dda665aa1e8e0d3e2b1d72926835389a39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '了解如何为用户云语音邮件服务。 '
+ms.openlocfilehash: 477bc16de7953033bafb0b32d0ac3d2eac74f90a
+ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316698"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548297"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
-本文适用于Microsoft 365或Office 365管理员，如想要为业务中的云语音邮件设置管理员角色中所述。 [](/microsoft-365/admin/add-users/about-admin-roles)
+本文适用于Microsoft 365或Office 365管理员，如关于想要为企业中的云语音邮件设置管理员角色中所述[](/microsoft-365/admin/add-users/about-admin-roles)。
 
 > [!NOTE]
 > 云语音邮件仅支持将语音邮件Exchange邮箱中，并且不支持任何第三方电子邮件系统。 
 
 > [!NOTE]
-> 当代理人代表代理人应答呼叫时，通知在云语音邮件。 用户可以接收未接来电的通知。
+> 当代理人代表代理人应答呼叫时，通知在 云语音邮件。 用户可以接收未接来电的通知。
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>仅云环境：为联机云语音邮件设置电话系统环境
+## <a name="cloud-voicemail-for-teams-users"></a>云语音邮件用户Teams
 
-对于 Online 电话系统用户，云语音邮件分配用户许可证后，系统会自动为用户 **电话系统设置和** 预配这些许可证。 
-
-> [!NOTE]
-> 对于Skype for Business 电话系统本地提供电话号码的 Online 用户，可能需要使用[Set-CsUser -HostedVoicemail](/powershell/module/skype/set-csuser?view=skype-ps)$True。 
+对于Teams用户，云语音邮件自动设置和预配。 请注意，电话系统不需要许可证云语音邮件。 
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>为云语音邮件用户Exchange Server邮箱用户
 
-以下信息用于配置云语音邮件，以便与联机进行登录但邮箱位于电话系统的用户Exchange Server。 
+以下信息有关配置 云语音邮件，以便与联机进行登录但邮箱位于电话系统的用户Exchange Server。 
   
-1. 语音邮件通过 SMTP 通过 Exchange 发送到用户的邮箱Exchange Online Protection。 若要成功传递这些消息，请确保在 Exchange 服务器和服务器之间正确Exchange连接器Exchange Online Protection;[使用连接器配置邮件Flow。](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
+1. 语音邮件通过 SMTP Exchange发送到用户的邮箱，Exchange Online Protection。 若要成功传递这些消息，请确保在 Exchange 服务器和服务器之间正确Exchange连接器Exchange Online Protection;[使用连接器配置邮件Flow。](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
 
-2. 若要启用语音邮件功能，例如自定义 Skype for Business 客户端中的问候语和可视语音邮件，需要从 Microsoft 365 或 Office 365 通过 Exchange Web 服务连接到 Exchange 服务器邮箱。 若要启用此连接，必须配置在 Exchange 与 Exchange Online 组织之间配置[OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)身份验证中所述的新 Exchange Oauth 身份验证协议，或者从 Exchange 2013 CU5 或更高版运行 Exchange 混合向导。 此外，必须在 Skype for Business Online 和 Exchange 服务器之间配置集成和 Oauth，如在 Skype for Business Online 和 Exchange Server 之间配置集成和[OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述。 
+2. 若要启用语音邮件功能，例如自定义 Skype for Business 客户端中的问候语和可视语音邮件，需要通过 Exchange Web 服务从 Microsoft 365 或 Office 365 连接到 Exchange 服务器邮箱。 若要启用此连接，必须配置配置 Exchange 与 Exchange Online 组织之间的[OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)身份验证中所述的新 Exchange Oauth 身份验证协议，或者从 Exchange 2013 CU5 或更高版运行 Exchange 混合向导。 此外，必须在 Skype for Business Online 和 Exchange 服务器之间配置集成和 Oauth，如在 Skype for Business Online 和 Exchange Server[之间配置集成和 OAuth 中所述](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)。 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>为云语音邮件用户Skype for Business Server组
 
@@ -70,7 +67,7 @@ ms.locfileid: "54316698"
 2. 选择 **"全部显示**"，然后转到"管理 **中心**  >  **Exchange"。**
 3. 在"Exchange管理中心"中，选择"**邮件流规则**  >  **"。**
 4. 选择 **+** **"添加**"，然后选择 **"Office 365 邮件加密和权限保护"。**
-5. 提供新邮件流规则的名称，然后在"如果应用此规则 **"** 下，选择"邮件 **属性**  >  **包括邮件类型**  >  **""语音邮件"。** 选择"**确定"。**
+5. 提供新邮件流规则的名称，然后在"如果应用此规则 **"** 下选择"邮件 **属性**  >  **包括邮件类型**  >  **"语音邮件"。** 选择"**确定"。**
 6. 在 **"执行下列操作"** 下，选择 **"Office 365 邮件加密邮件应用权限保护**"，然后选择"选择 **一个"。** 在 **"RMS 模板"** 下，选择 **"不转发"。** 选择 **"确定**"，然后选择"**保存"。**
     > [!NOTE]
     > 如果 **RMS 模板** 列表为空，则需要设置消息加密。 有关设置消息加密的信息，请参阅以下文章：
@@ -78,7 +75,7 @@ ms.locfileid: "54316698"
     > - [配置和管理 Azure 信息保护的模板](/information-protection/deploy-use/configure-policy-templates)
     > - [电子邮件的"不转发"选项](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
-## <a name="help-your-users-learn-teams-voicemail-features"></a>帮助用户了解Teams语音信箱功能
+## <a name="help-your-users-learn-teams-voicemail-features"></a>帮助用户了解Teams功能
 
 我们针对你的用户提供有关管理其语音邮件设置的信息以及其他呼叫功能，Teams：
 

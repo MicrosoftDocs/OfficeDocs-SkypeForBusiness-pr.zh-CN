@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: 本主题定义 Microsoft Teams 服务的一组网络性能要求，以及如何根据对网络连接的评估选择使用 Internet 或 ExpressRoute 在网络和 Microsoft Teams 之间连接。 如果决定部署 Azure ExpressRoute 以专用连接 Microsoft 365 或 Office 365，本文档还提供了有关如何在不同部署方案中规划 ExpressRoute Microsoft Teams的指导。
-ms.openlocfilehash: c73922af3befc9070127d9b9937a82f8b8d94e0b
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 3699e225f69deda5fd69b2308dc50337a1d0b228
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407031"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618238"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-microsoft-teams"></a>媒体质量和网络中网络连接Microsoft Teams
 
@@ -76,7 +76,7 @@ IP 网络Real-Time媒体的质量受到网络连接质量的很大影响，尤�
 > [!NOTE]
 >  抖动缓冲会增加端到端延迟。
   
-对于许多并发 Microsoft Teams Real-Time 媒体会话以及其他 Microsoft 365 或 Office 365 服务和其他业务应用程序生成的网络流量，请确保将网络连接到 Microsoft Teams 服务的整个网络路径有足够的带宽对于避免网络拥塞和确保出色的媒体 Real-Time 媒体 (音频、视频和应用程序共享) 质量至关重要。 
+由于存在许多并发 Microsoft Teams Real-Time 媒体会话以及其他 Microsoft 365 或 Office 365 服务和其他业务应用程序生成的网络流量，因此，请确保将网络连接到 Microsoft Teams 服务的整个网络路径有足够的带宽对于避免网络拥塞和确保出色的媒体 Real-Time 媒体 (音频、视频和应用程序共享) 质量至关重要。 
   
 #### <a name="implementing-quality-of-service-qos-across-congested-networks"></a>跨交通网络 (QoS) 服务质量
 
@@ -97,13 +97,13 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
   
 在此会议方案中，媒体路径包括以下网段：
   
-1. **从用户 1 到 Microsoft 网络边缘的连接** 这通常包括 WiFi 或以太网等网络连接、从用户 1 到 Internet 出口点的 WAN 连接 (网络边缘设备) ，以及从网络边缘到 Microsoft Network Edge 的 Internet 连接。
+1. **从用户 1 到 Microsoft 网络边缘的连接** 这通常包括 WiFi 或以太网等网络连接、从用户 1 到 Internet 出口点 (的 WAN 连接) 以及从网络边缘到 Microsoft Network Edge 的 Internet 连接。
     
-2. **Microsoft 网络内部连接** 这是在Microsoft Edge Microsoft Teams，使用 A/V 会议服务器的数据中心之间。
+2. **Microsoft 网络内部连接** 这是在Microsoft Edge Microsoft Teams/V 会议服务器的数据中心之间。
     
 3. **Microsoft Network 中的连接** 这是在数据中心Microsoft Teams Microsoft Network Edge 之间。
     
-4. **从 Microsoft 网络边缘连接到用户 2** 这包括从网络边缘到 Microsoft Network Edge 的 Internet 连接、从用户 2 到 Internet 出口点 (的 WAN 连接) 以及 WiFi 或以太网等网络连接。
+4. **从 Microsoft 网络边缘连接到用户 2** 这包括从网络边缘到 Microsoft Network Edge 的 Internet 连接、从用户 2 到 Internet 出口点的 WAN 连接 (网络边缘) ）以及网络连接（如 WiFi 或以太网）。
     
 下图显示了 PSTN 呼叫的组件和网络Microsoft Teams细分：
   
@@ -111,7 +111,7 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
   
 在 PSTN 呼叫方案中，媒体路径跨以下网段：
   
-1. **从 Skype for Business 客户端调用方到 Microsoft 网络边缘的连接** 这通常包括 WiFi 或以太网等网络连接、从 Skype for Business 客户端调用方到 Internet 出口点的 WAN 连接 (网络边缘设备) ，以及从网络边缘到 Microsoft Network Edge 的 Internet 连接。
+1. **从客户端Skype for Business到 Microsoft 网络边缘的连接** 这通常包括 WiFi 或以太网等网络连接、从 Skype for Business 客户端调用方到 Internet 出口点 (的 WAN 连接 (以及从网络边缘到 Microsoft Network Edge) 的 Internet 连接。
     
 2. **Microsoft 网络内部连接** 这是在Microsoft Edge Microsoft Teams数据中心之间，其中使用了中介服务器。
     
@@ -125,7 +125,7 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
 为了Skype for Business媒体质量，从公司网络到 Microsoft Network Edge 的连接需要以下网络性能指标目标或阈值。 此网络段包括内部网络，这包括所有 WiFi 和以太网连接、通过 WAN 连接的任何公司站点到站点流量，例如多协议标签切换 (MPLS) ，以及到 Microsoft Network Edge 的 Internet 或 ExpressRoute 合作伙伴连接。
   
 > [!CAUTION]
-> **公司网络中Skype for Business客户端与Microsoft 365服务Office 365必须满足以下网络性能要求和阈值。**
+> **公司网络中Skype for Business客户端与 Microsoft 365 服务Office 365必须满足以下网络性能要求和阈值。**
 
 |**指标** <br/> |**目标** <br/> |
 |:-----|:-----|
@@ -142,7 +142,7 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
     
 - 公司站点或站点到 Microsoft Network Edge 连接包括第一跃点网络访问，可以是 WiFi 或其他无线技术。 
     
-- 网络性能目标假定适当的带宽和/或服务质量规划。 换言之，当网络连接负载Skype for Business Real-Time，这直接适用于媒体流量。
+- 网络性能目标假定适当的带宽和/或服务质量规划。 换言之，当网络连接负载Skype for Business Real-Time时，这直接适用于媒体流量。
     
 ### <a name="network-performance-requirements-from-your-network-edge-to-microsoft-network-edge"></a>从网络边缘到 Microsoft Network Edge 的网络性能要求
 <a name="bkYourNetworkEdge"> </a>
@@ -170,12 +170,12 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
 ## <a name="measuring-network-performance"></a>测量网络性能
 <a name="bkNetworkPerf"> </a>
 
-若要测量从任何公司网络站点到网络边缘的实际网络性能，尤其是延迟和数据包丢失，可以使用 ping 等工具，针对从 Microsoft Edge 和数据中心站点运行的一组 Skype for Business 媒体中继服务进行测试。 
+若要测量从任何公司网络站点到网络边缘的实际网络性能，尤其是针对延迟和数据包丢失，可以使用 ping 等工具，针对从 Microsoft Edge 和数据中心站点运行的一组 Skype for Business 媒体中继服务进行测试。 
 
 >[!NOTE]
 > 通过 ping (ICMP) 测量网络性能并不有效。 因此，从 2020 年 1 月开始，下面公开的任何广播 IP 将停止响应 ICMP 请求。 为了有效地衡量网络性能，Microsoft 建议使用 [网络增强工具](https://www.microsoft.com/download/details.aspx?id=53885)。
   
-若要测试与 Microsoft 网络的 Internet 连接，建议针对以下媒体中继的 SKYPE FOR BUSINESS测试。 *Anycast VIP* 将解析为离测试位置最近的 Microsoft Network Edge 站点中的媒体中继的 IP 地址。
+若要测试到 Microsoft 网络的 Internet 连接，建议针对以下媒体中继的 SKYPE FOR BUSINESS测试。 *Anycast VIP* 将解析为离测试位置最近的 Microsoft Network Edge 站点中的媒体中继的 IP 地址。
   
 
 |**IP 地址** <br/> |**类型** <br/> |**位置** <br/>|
@@ -190,12 +190,12 @@ Skype for Business Real-Time媒体通过许多不同的设备、客户端应用�
     
 - 应该对网络性能度量进行多次采样。 建议在收集数据的整个时段内每 10 分钟从公司站点进行一次测量。 要比较Microsoft Teams性能要求，请从此示例数据集中取第 90 百分位度量值。 
     
-- 应持续评估网络的性能。 由于使用模式更改、使用大量带宽的新基于企业的应用程序，以及组织或物理公司位置的更改，网络利用率会随时间变化。 必须持续监视网络性能，使其符合这些网络性能要求和目标/阈值，并及时进行调整，以确保最佳的媒体Real-Time性能。 
+- 应持续评估网络的性能。 由于使用模式更改、使用大量带宽的新基于企业的应用程序，以及组织或物理公司位置的更改，网络利用率会随时间变化。 必须持续监视网络性能，使其符合这些网络性能要求和目标/阈值，并及时进行调整，以确保最佳的媒体Real-Time质量。 
     
 ## <a name="measuring-network-performance-using-azure-vms"></a>使用 Azure VM 测量网络性能
 <a name="bkNetworkPerf"> </a>
 
-除了针对 Microsoft 网络边缘站点进行测试，还有来自 Skype for Business 客户和合作伙伴的网络评估解决方案，这些解决方案对云中的服务使用Microsoft Azure设置。 在这些解决方案中，网络评估工具针对在 Azure 云中设置为服务的自定义终结点测试延迟、数据包丢失和抖动。 因此，测试网络流量会经过另一个网络段，即 Microsoft 网络内网络边缘与托管网络评估服务的 Azure 数据中心之间的连接。
+除了针对 Microsoft 网络边缘站点进行测试，还有来自 Skype for Business 客户和合作伙伴的网络评估解决方案，这些解决方案使用测试设置来测试云Microsoft Azure服务。 在这些解决方案中，网络评估工具针对在 Azure 云中设置为服务的自定义终结点测试延迟、数据包丢失和抖动。 因此，测试网络流量会经过另一个网络段，即 Microsoft 网络内网络边缘与托管网络评估服务的 Azure 数据中心之间的连接。
   
 对于这些基于 Azure 托管测试服务的网络评估解决方案。 我们建议在国家/地区内和/或区域执行网络评估。 例如，对于美国东部的客户站点，应针对 Azure 美国东部数据中心区域托管的测试服务实例执行评估。 
   
@@ -247,7 +247,7 @@ Microsoft 365 Office 365是使用 Internet 的高性能和安全服务。 我们
   
 ### <a name="is-expressroute-required-for-voice-quality-sla"></a>语音质量 SLA 需要 ExpressRoute 吗？
 
-否，ExpressRoute 不是语音质量 SLA Microsoft Teams要求。 语音[Microsoft Teams SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37)适用于任何 Microsoft Teams 语音服务用户在正确的许可证和订阅中拨打的任何符合条件的呼叫，使该用户能够进行任何类型的 VoIP 或 PSTN 呼叫。 语音质量 SLA 应包括满足以下所有条件：
+否，ExpressRoute 不是语音质量 SLA Microsoft Teams要求。 Microsoft Teams质量[SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37)适用于任何 Microsoft Teams 语音服务用户在正确的许可证和订阅中拨打的任何符合条件的呼叫，使该用户能够进行任何类型的 VoIP 或 PSTN 呼叫。 语音质量 SLA 应包括满足以下所有条件：
   
 - 来自 Microsoft 认证的 IP 电话的呼叫。
     
@@ -260,11 +260,11 @@ Microsoft 365 Office 365是使用 Internet 的高性能和安全服务。 我们
   
 ### <a name="internet-or-azure-expressroute"></a>Internet 还是 Azure ExpressRoute？
 
-在决定要连接的网络连接选项Microsoft Teams，客户必须基于网络性能要求中所述的网络性能要求评估其网络和当前[Internet](media-quality-and-network-connectivity-performance.md#bkNetworkPerf)连接，以连接到 Microsoft Teams。
+在决定要连接的网络连接选项Microsoft Teams，客户必须基于网络性能要求中所述的网络性能要求评估其网络和当前 Internet 连接，以连接到[Microsoft Teams。](media-quality-and-network-connectivity-performance.md#bkNetworkPerf)
   
-如果当前 Internet 连接的网络性能设置为在高峰期有足够的容量，并且满足从站点到 Microsoft 网络边缘以及从网络边缘到 Microsoft 网络边缘的网络性能要求，则你可以继续使用现有的 Internet 连接连接到 Microsoft Teams。
+如果当前 Internet 连接的网络性能设置为在高峰期有足够的容量，并且满足从站点到 Microsoft 网络边缘以及从网络边缘到 Microsoft Network Edge 的网络性能要求，则你可以继续使用现有的 Internet 连接连接到 Microsoft Teams。
   
-对于不满足网络性能要求的公司站点，强烈建议首先与现有网络服务提供商合作，以提高整体网络性能。 但是，如果仍未满足要求，使用 Azure ExpressRoute 可帮助确保云Microsoft Teams可帮助满足网络性能要求。
+对于不满足网络性能要求的公司站点，强烈建议首先与现有网络服务提供商合作，以提高整体网络性能。 但是，如果仍未满足要求，使用 Azure ExpressRoute 可帮助确保Microsoft Teams云连接有助于满足网络性能要求。
   
 Azure ExpressRoute 提供以下附加优势：
   
@@ -274,15 +274,15 @@ Azure ExpressRoute 提供以下附加优势：
     
 - ExpressRoute 旨在保留网络和 Microsoft 网络之间的 DSCP QoS 标记。
     
-有关 ExpressRoute QoS 和容量规划的信息，请参阅[ExpressRoute](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d)和 Microsoft Teams。
+有关 ExpressRoute QoS 和容量规划的信息，请参阅 Microsoft Teams 中的[ExpressRoute 和 QoS。](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d)
   
 ### <a name="can-i-set-up-azure-expressroute-for-microsoft-teams-only"></a>能否将 Azure ExpressRoute 设置为仅Microsoft Teams？
 
-是的，可以设置 Azure ExpressRoute，以确保从公司网络到仅与公司建立良好的网络连接Microsoft Teams。 这将为用户提供最佳Real-Time媒体质量，但你可以继续通过 Internet 连接到Microsoft 365 Office 365服务。
+是的，可以设置 Azure ExpressRoute，确保从公司网络到仅与公司建立良好的网络连接Microsoft Teams。 这将为用户提供最佳Real-Time媒体质量，但随后可以通过 Internet 继续连接到Microsoft 365或Office 365服务。
   
 边界网关协议 (BGP) 是 Internet 上的路由协议，用于通过 Internet 路由网络流量。 它设计用于在通过 Internet 找到的 (AS) 系统之间交换路由信息。 BGP 社区值是可应用于传入或传出路由的属性标记。 BGP 社区通常用于向接收 AS 发出信号，接收 AS 的出站链接用于根据地理位置、服务类型或其他条件到达给定目标。
   
-借助 BGP 社区支持，Microsoft 将基于前缀和路由所属的服务，使用适当的 BGP 社区值标记前缀和路由。 Microsoft 将标记通过公共对等互连和 Microsoft 对等互连播发的前缀，这些前缀具有相应的 BGP 社区值，指示前缀托管在的区域。 可以依赖社区值做出适当的路由决策，以提供最佳路由。 可以使用 BGP Microsoft Teams设置 ExpressRoute 连接，仅针对 Microsoft Teams。 可以在 ExpressRoute 路由要求 [中了解更多信息](/azure/expressroute/expressroute-routing)。
+借助 BGP 社区支持，Microsoft 将基于前缀和路由所属的服务，使用适当的 BGP 社区值标记前缀和路由。 Microsoft 将标记通过公共对等互连和 Microsoft 对等互连播发的前缀，这些前缀具有相应的 BGP 社区值，指示前缀托管在的区域。 可以依赖社区值做出适当的路由决策，以提供最佳路由。 可以使用 Microsoft Teams BGP 社区值来设置 ExpressRoute 连接，Microsoft Teams。 可以在 ExpressRoute 路由要求 [中了解更多信息](/azure/expressroute/expressroute-routing)。
   
 ## <a name="expressroute-connectivity-scenarios-for-microsoft-teams"></a>适用于 Microsoft Teams 的 ExpressRoute 连接Microsoft Teams
 <a name="bkNetworkPerf"> </a>
@@ -299,11 +299,11 @@ Azure ExpressRoute 提供以下附加优势：
   
 ### <a name="online-only-deployment---multiple-sites-on-the-same-continent"></a>仅联机部署 - 同一大洲的多个站点
 
-如果公司使用来自同一区域或大洲中多个办公室的 Microsoft Teams 服务，并且已选择实施 Azure ExpressRoute，则建议通过 ExpressRoute 连接主站点，并选择性地为不符合建议的网络性能目标的其他位置添加其他 ExpressRoute 对等互连。
+如果公司使用来自同一区域或大洲中多个办公室的 Microsoft Teams 服务，并且已选择实现 Azure ExpressRoute，则建议通过 ExpressRoute 连接主站点，并选择性地为不符合建议的网络性能目标的其他位置添加其他 ExpressRoute 对等互连。
   
 在下面的示例中，Contoso 是一家美国旅行服务公司，其总部位于纽约，但在美国设有其他办公室。 其办公室通过 WAN 进行互连，该 WAN 使用 MPLS 连接到 Microsoft 365 或 Office 365。 最初，他们设置一个 ExpressRoute 连接，从其 Internet 路由器（其 Internet 路由器在新泽西的 Hoboken）连接到纽约 MeetMe 站点。 
   
-通过此设置，从大多数站点发到 Microsoft Network (New York Edge 站点) 的网络流量可以满足 Skype for Business 客户端到 Microsoft Network Edge 的网络性能要求中所述的[Skype for Business](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)客户端连接网络性能目标。 但是，Contoso 的西海岸办公室到纽约之间的延迟单向超过 50 毫秒。 此外，Hono以 Contoso 为第二大办公室，从金山到纽约的延迟单向超过 80 毫秒。 为了确保这些办公室的用户具有良好的媒体质量，Contoso 决定在圣何塞站点与硅谷 ExpressRoute MeetMe 站点之间添加一个西海岸 ExpressRoute 连接。
+通过此设置，从大多数站点发到 Microsoft Network (New York Edge 站点) 的网络流量可以满足 Skype for Business 客户端从 Skype for Business 客户端到 Microsoft Network Edge 的网络性能要求中所述的[Skype for Business](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)客户端连接网络性能目标。 但是，Contoso 的西海岸办公室到纽约之间的延迟单向超过 50 毫秒。 此外，Hono以 Contoso 为第二大办公室，从金山到纽约的延迟单向超过 80 毫秒。 为了确保这些办公室的用户具有良好的媒体质量，Contoso 决定在圣何塞站点与硅谷 ExpressRoute MeetMe 站点之间添加一个西海岸 ExpressRoute 连接。
   
 ![同一大洲上的 Express 路由器多站点。](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
   
@@ -319,7 +319,7 @@ Azure ExpressRoute 提供以下附加优势：
 
 如果您有本地 Lync 或 Microsoft Teams 部署并选择实现混合 Microsoft Teams 集成，我们建议您决定部署 Azure ExpressRoute，则对于每个本地 Lync 或 Microsoft Teams Edge 站点，需要至少具有一个 ExpressRoute 连接，并且每个大洲至少具有一个 ExpressRoute 连接（办公室）。 根据成本与效益，对于每个大洲，可以选择从不满足网络性能目标的办公室部署其他 ExpressRoute 连接。
   
-如果有本地部署Microsoft Teams，必须遵循[Edge Server 规划和部署指南](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)。 具体而言，必须从网络外部访问边缘服务器。 这通常是通过向边缘服务器分配可路由的公共 IP 地址，或者通过使用 NAT (网络) 。
+如果在本地部署Microsoft Teams，必须遵循[Edge Server 规划和部署指南](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)。 具体而言，必须从网络外部访问边缘服务器。 这通常是通过向边缘服务器分配可路由的公共 IP 地址，或者通过使用 NAT (网络地址) 。
   
 在下面的示例中，Contoso 有一个现有的本地Microsoft Teams 企业语音部署。 他们希望将本地用户迁移到 Microsoft 365 或Office 365联机服务。 他们还决定使用混合部署，以便他们可以继续针对所有本地和联机用户使用其现有 PSTN 基础结构。 Contoso 本地数据中心和 Skype for Business边缘服务器位于芝加哥。 对于部署，Contoso 决定在芝加哥数据中心与芝加哥 ExpressRoute 之间设置一个 ExpressRoute 连接。 他们还添加了一个西海岸 ExpressRoute 连接，以更好地为其十二山办公室提供服务。
   
@@ -327,13 +327,13 @@ Azure ExpressRoute 提供以下附加优势：
   
 ### <a name="online-deployment-with-cloud-connector-edition"></a>使用 Cloud Connector Edition 进行联机部署
 
-Skype for Business 云连接器版本是一种混合产品/服务，包含一组打包的虚拟机 (VM) 实现本地 PSTN 连接。 在虚拟化环境中Skype for Business Server最小网络拓扑，可以通过现有的本地 PSTN 语音基础结构通过座机和移动电话发送和接收呼叫。
+Skype for Business 云连接器版本混合产品/服务，包含一组打包的虚拟机 (用于) 本地 PSTN 连接的 VM。 在虚拟化环境中Skype for Business Server最小网络拓扑后，你将能够通过现有的本地 PSTN 语音基础结构通过座机和移动电话发送和接收呼叫。
   
 如果决定部署 Azure ExpressRoute 和 Cloud Connector Edition，我们建议在每个大洲的主站点与最近的 [ExpressRoute](/azure/expressroute/expressroute-locations)对等位置之间至少设置一个 Express Route 连接。 根据成本与效益，对于每个大洲，可以选择从不满足网络性能目标的站点部署其他 ExpressRoute 连接。
   
-如果在本地部署Microsoft Teams，必须遵循适用于 的[规划Skype for Business 云连接器版本。](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md) 具体而言，应为 Access Edge 和 A/V Edge 服务分配公共 IP 地址，Microsoft 365数据中心Office 365访问。
+如果在本地部署Microsoft Teams，必须遵循适用于 的[规划Skype for Business 云连接器版本。](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md) 具体而言，应为 Access Edge 和 A/V Edge 服务分配公共 IP 地址，并可以访问Microsoft 365或Office 365数据中心。
   
-在下面的示例中，Contoso 是一家欧洲会计公司，在几个主要的欧洲国家和地区有业务。 当他们注册 Microsoft Teams满足其所有协作需求时，他们决定为具有物理位置的每个国家/地区设置云连接器，以继续使用其 PSTN 基础结构和已存在的运营商合同。 基于从所有站点和 Microsoft Network Edge 进行测试，他们确定，伦敦单个 ExpressRoute 连接将有助于满足从 Skype for Business 客户端到 Microsoft Network [Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)的网络性能要求中所述的 Microsoft Teams 客户端连接网络性能目标。
+在下面的示例中，Contoso 是一家欧洲会计公司，在几个主要的欧洲国家和地区有业务。 当他们注册Microsoft Teams所有协作需求时，他们决定为有物理位置的每个国家/地区设置一个云连接器，以继续使用其 PSTN 基础结构和已存在的运营商合同。 根据从所有站点和 Microsoft Network Edge 进行的测试，他们确定，伦敦单个 ExpressRoute 连接将有助于满足从 Skype for Business 客户端到 Microsoft Network Edge 的网络性能要求中所述的[Microsoft Teams](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)客户端连接网络性能目标。
   
 ![ExpressRoute 云连接器 1。](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   

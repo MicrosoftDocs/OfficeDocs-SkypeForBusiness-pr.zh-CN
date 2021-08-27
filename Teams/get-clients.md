@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 510806c6b33260913454fa30f560b785b862b661dc04bf8eaf5279995c5a51a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 002aa42786e1464e4aa62c72755c21b37e3225d4
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352281"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523843"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端
 
@@ -54,7 +54,7 @@ Microsoft Teams 桌面客户端是一个独立应用程序，在[Microsoft 365 �
 IT 管理员可以选择其首选方法将安装文件分发到其组织中的计算机上。 一些示例包括 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 要获取用于 Windows 分发的 MSI 包，请参阅[使用 MSI 安装 Microsoft Teams](msi-deployment.md)。
 
 > [!NOTE]
-> 通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。
+> 通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，而不适用于将来的更新。
 
 ### <a name="windows"></a>Windows
 

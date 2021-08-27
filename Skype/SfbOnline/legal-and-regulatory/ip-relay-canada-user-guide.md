@@ -1,5 +1,5 @@
 ---
-title: IP 中继加拿大用户指南
+title: IP Relay Canada 用户指南
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,19 +12,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 如何使用加拿大的 IP 中继帐户。
-ms.openlocfilehash: ac3ac8b480f1759437fa74572544d85f17542e9288c925ebd07bfaea9a25e0de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316508"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618258"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>加拿大 IP 中继 - 用户指南
 
@@ -64,18 +64,18 @@ https://aka.ms/IPRelay
 
 ### <a name="how-to-receive-a-voice-to-text-call"></a>如何接收"语音到文本"呼叫：
 - 语音用户需要知道 IP 消息中继用户名，才能进行语音转文本呼叫。
-- 语音用户可以呼叫 (866) 660-8613 以使用 IP 消息中继操作员进行连接。
+- 语音用户可以呼叫 (866) 660-8613 以使用 IP Message Relay 运算符进行连接。
 - 必须登录到 IP 消息中继门户以接收呼叫或聊天。
 
 ### <a name="how-to-place-a-911-call"></a>如何拨打 911 电话：
-如果遇到紧急情况，可以选择位于屏幕底部的相应紧急按钮， (如下所示) 。
+如果遇到紧急情况，可以选择位于屏幕底部的相应紧急 (，如下所示) 。
 
 ![紧急按钮](../images/ip-relay-emergency-buttons.png)
 
 IP 消息中继操作员将联系 911，确认你的地址，并联系各种紧急中心进行翻译，直到不再需要他/她，并且相应的部门已分派到你的位置。
 
 > [!WARNING]
-> 请不要测试此服务，因为将联系相应的机构并可能调度它，即使你指出它只是一个测试，并且你可能需要向紧急机构收取假调度费用。
+> 请不要测试此服务，因为将联系相应的机构并可能调度它，即使你指出它只是一个测试，并且你可能需要从紧急机构收取假调度费用。
 
 #### <a name="customer-support"></a>客户支持：
 请联系 222-1733 specialprojects@northern911.com 或 (705) 特殊项目。 [](mailto:specialprojects@northern911.com)
