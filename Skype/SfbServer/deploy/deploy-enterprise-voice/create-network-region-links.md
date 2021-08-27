@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 创建或修改网络区域链接，企业语音呼叫允许控制Skype for Business Server。
-ms.openlocfilehash: a332d3cb966247118d951626ac305c4a9f85e21d4b90b6011a07a1220f01170a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bea44eaabf94c2b37db4d9e50f9266744670fb2a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325459"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594160"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>在站点内创建网络Skype for Business Server
  
@@ -45,7 +45,7 @@ ms.locfileid: "54325459"
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>使用控制面板创建网络区域Skype for Business Server
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>使用控制面板创建网络Skype for Business Server链接
 
 1. 打开Skype for Business Server控制面板"。
     

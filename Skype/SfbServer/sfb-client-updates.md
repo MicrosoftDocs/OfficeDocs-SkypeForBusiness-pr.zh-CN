@@ -1,5 +1,5 @@
 ---
-title: '使用 Windows Installer (MSI Skype for Business 的 (版本的最新) '
+title: '使用 MSI 安装程序Skype for Business安装程序Windows版本的 (的最新) '
 ms.author: phillipg
 author: PhillipGarding
 manager: serdars
@@ -9,30 +9,30 @@ ms.topic: reference
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供指向 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新信息的链接
-ms.openlocfilehash: 93691e0bccf48e6f1be8a37f817ae3617a4a9301cf12c6e462bb1d66f57a7a84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349674"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581336"
 ---
-# <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI Skype for Business 的 (版本的最新) 
+# <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 MSI 安装程序Skype for Business安装程序Windows版本的 (的最新) 
 
 使用此页面上的链接可以详细了解并下载 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端的永久版本的最新更新。
 
 > [!NOTE]
 > - 本文中的信息仅适用于使用 msI Skype for Business 安装技术的 Windows Installer () 版本。 例如，如果你安装了批量许可版本的 Skype for Business，Skype for Business包含在Office 专业增强版 2016。
-> - 本文中的信息不适用于 Microsoft 365 或 Office 365 Skype for Business 版本的 Skype for Business Microsoft 365 企业应用版。
-> - 有关最新的移动客户端更新，请转到 iTunes、Google Play 或 (移动客户端的应用程序Microsoft Store) 查看详细信息并安装更新。
+> - 本文中的信息不适用于 Microsoft 365 或 Office 365 Skype for Business 版本，Skype for Business Microsoft 365 企业应用版。
+> - 有关最新的移动客户端更新，请转到 iTunes、Google Microsoft Store) Play 或 (移动客户端的应用程序商店，查看详细信息并安装更新。
 > - 若要了解你使用的Skype for Business版本，请参阅我拥有Skype for Business[版本？](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - 有关安装 Office 更新的详细信息，请参阅[安装 Office 更新](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)。
 
-Skype for Business环境Microsoft 365或Office 365环境兼容性取决于部署的系统要求：
+Skype for Business环境Microsoft 365或Office 365本地环境的兼容性取决于部署的系统要求：
 
-- Microsoft 365和Office 365支持的任何版本的 Skype for Business，其中包括最新版本的 Skype for Business 2016。 对于早期版本的 Skype for Business，只有那些具有扩展支持的版本可以继续使用 Microsoft 365 或 Office 365，尽管功能已缩减。 有关详细信息，请参阅 [Microsoft 生命周期策略](https://support.microsoft.com/lifecycle)。
+- Microsoft 365 Office 365支持的任何版本的 Skype for Business，其中包括最新版本的 Skype for Business 2016。 对于早期版本的 Skype for Business，只有那些具有扩展支持的版本可以继续使用 Microsoft 365 或 Office 365，尽管功能已缩减。 有关详细信息，请参阅 [Microsoft 生命周期策略](https://support.microsoft.com/lifecycle)。
 
 - 对于Skype for Business Server部署，请遵循版本部署Skype for Business：
 
@@ -48,7 +48,7 @@ Skype for Business环境Microsoft 365或Office 365环境兼容性取决于部署
 |:---  |:---  |:---  |
 |Skype for Business 2016 的更新 |[KB 4484133](https://support.microsoft.com/kb/4484133) | 2019 年 12 月|
 |Skype for Business 2016 的更新 |[KB 4484102](https://support.microsoft.com/kb/4484102) | 2019 年 10 月|
-|Skype for Business 2016 的更新 |[KB 4475577](https://support.microsoft.com/kb/4475577) | 2019年九月|
+|Skype for Business 2016 的更新 |[KB 4475577](https://support.microsoft.com/kb/4475577) | 2019 年 9 月|
 |Skype for Business 2016 的更新 |[KB 4475548](https://support.microsoft.com/kb/4475548) | 2019 年 8 月|
 |Skype for Business 2016 的更新 |[KB 4475545](https://support.microsoft.com/kb/4475545) | 2019 年 7 月|
 |Skype for Business 2016 的更新 |[KB 4464576](https://support.microsoft.com/kb/4464576) | 2019 年 6 月|
@@ -118,7 +118,7 @@ Skype for Business环境Microsoft 365或Office 365环境兼容性取决于部署
 |Skype for Business 2015/Lync 2013 的更新 |[KB 4011255](https://support.microsoft.com/kb/4011255) | 2017 年 11 月 |
 |Skype for Business 2015/Lync 2013 的安全更新|[KB 4011179](https://support.microsoft.com/kb/4011179) | 2017 年 10 月 |
 |Skype for Business 2015/Lync 2013 的安全更新|[KB 4011107](https://support.microsoft.com/kb/4011107) | 2017 年 9 月 |
-|Lync 2015/Lync 2013 Skype for Business Lync 2013 的 Lynchelploc 安全更新|[KB 3213568](https://support.microsoft.com/kb/3213568) | 2017 年 9 月 |
+|Lync 2015/Lync 2013 Skype for Business Lync 的 Lynchelploc 安全更新|[KB 3213568](https://support.microsoft.com/kb/3213568) | 2017 年 9 月 |
 |Skype for Business 2015/Lync 2013 的更新 |[KB 4011046](https://support.microsoft.com/kb/4011046) | 2017 年 8 月 |
 |Skype for Business 2015/Lync 2013 的更新 |[KB 3213574](https://support.microsoft.com/kb/3213574) | 2017 年 7 月 |
 |Skype for Business 2015/Lync 2013 的安全更新|[KB 3191939](https://support.microsoft.com/kb/3191939) | 2017 年 6 月 |
@@ -151,7 +151,7 @@ Skype for Business环境Microsoft 365或Office 365环境兼容性取决于部署
 
 ### <a name="skype-for-business-on-mac-client-updates"></a>Skype for Business Mac 客户端更新
 
-[Mac 版 Skype for Business发行说明](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac)
+[Mac 上适用于 Skype for Business 的当前发行说明](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac)
 
 * * *
 
@@ -264,7 +264,7 @@ Skype for Business环境Microsoft 365或Office 365环境兼容性取决于部署
 
 程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Lync for Mac 2011 的更新 |[KB 3175174](https://support.microsoft.com/kb/3175174)|2016 年 7 月|
+|Lync for Mac 2011 更新 |[KB 3175174](https://support.microsoft.com/kb/3175174)|2016 年 7 月|
 |Lync for Mac 2011 累积更新 |[KB 3074981](https://support.microsoft.com/kb/3074981)|2015 年 7 月|
 
 ### <a name="lync-2010-client-updates"></a>Lync 2010 客户端更新
@@ -292,11 +292,11 @@ Skype for Business环境Microsoft 365或Office 365环境兼容性取决于部署
 
 程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Lync 2010 Attendee (管理员级别安装的安全更新)  |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017 年 9 月|
-|Lync 2010 Attendee (管理员级别安装的安全更新)  |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017 年 6 月|
+|Lync 2010 Attendee 管理员级别 (安全更新程序)  |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017 年 9 月|
+|Lync 2010 Attendee 管理员级别 (安全更新程序)  |[KB 4025866](https://support.microsoft.com/kb/4025866) |2017 年 6 月|
 |Lync 2010 Attendee 的安全更新 (用户级别安装)  |[KB 4020734](https://support.microsoft.com/kb/4020734) |2017 年 6 月|
 |Lync 2010 Attendee 上的 Microsoft 图形组件的安全更新 (管理员级别安装)  |[KB 4010301](https://support.microsoft.com/kb/4010301) |2017 年 3 月|
-|Lync 2010 Attendee (管理员级别安装的安全更新)  |[KB 3188400](https://support.microsoft.com/kb/3188400) |2016 年 10 月|
+|Lync 2010 Attendee 管理员级别 (安全更新程序)  |[KB 3188400](https://support.microsoft.com/kb/3188400) |2016 年 10 月|
 |Lync 2010 Attendee - 管理员级别安装的累积更新的说明 |[KB 3171502](https://support.microsoft.com/kb/3171502)|2016 年 6 月 |
 |Lync 2010 Attendee 的累积更新说明 - 用户级别安装 |[KB 3171496](https://support.microsoft.com/kb/3171496) |2016 年 6 月 |
 |Lync 2010 Attendee 的安全更新 (管理员级别安装)  |[KB 3081089](https://support.microsoft.com/kb/3081089) |2015 年 9 月 |

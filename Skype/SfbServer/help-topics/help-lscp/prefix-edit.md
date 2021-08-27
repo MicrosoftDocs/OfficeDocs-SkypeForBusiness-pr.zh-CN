@@ -12,20 +12,20 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceRoutePrefixEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: 要定义前缀或起始数字，请添加此路由应处理的号码前缀，包括 +（如有必要）。 例如，可以匹配以 +123 开始的所有数字。
-ms.openlocfilehash: 67a6598281267c6a36028b6030e0f1b2dd8b9c1adb5b3130ac986cf89e07d82c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5603b70b35144412446dcc1433c0be6dd8b40cb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311270"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581556"
 ---
 # <a name="prefix-edit"></a>前缀编辑
  
 要定义前缀或起始数字，请添加此路由应处理的号码前缀，包括 +（如有必要）。 例如，可以匹配以 +123 开始的所有数字。
   
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
   
 

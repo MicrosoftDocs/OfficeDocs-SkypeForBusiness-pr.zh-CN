@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 部署试点池之前，必须更新试点池的 DNS 主机 A 条目。 要成功完成此过程，您应该以 Domain Admins 组或 DnsAdmins 组的成员身份登录到服务器或域。
-ms.openlocfilehash: 270b0bda7da679cb0c75e9a99e10a898dcee6ac70413ce276abfe19ba1eb2231
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 在部署试点池之前，必须更新试点池的 DNS 主机 A 条目。 要成功完成此过程，您应该以 Domain Admins 组或 DnsAdmins 组的成员身份登录到服务器或域。
+ms.openlocfilehash: e77a85d84debadc19e52cb2d195ac86f5b3e6055
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337830"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588054"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>为试点池部署配置 DNS 记录
 
@@ -30,7 +30,7 @@ ms.locfileid: "54337830"
     
 3. 单击“新建主机(A 或 AAAA)”。
     
-4. 单击 **"** 名称"，键入 Skype for Business Server 2019 池的主机名 (该域名从记录定义的区域假定，并且不需要作为 A 记录的一) 。
+4. 单击 **"** 名称"，键入 Skype for Business Server 2019 池的主机名 (假定域名来自记录定义的区域，并且不需要作为 A 记录的一) 。
     
 5. 单击 **"IP 地址**"，然后键入前端池的 IP 地址。
     

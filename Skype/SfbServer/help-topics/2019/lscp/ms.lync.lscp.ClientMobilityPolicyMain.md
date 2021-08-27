@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: “客户端移动策略”页显示部署中可用的移动策略。
-ms.openlocfilehash: b70c79f0595be785ebc22f3a1685475e674c03e2a5fab06be0f7e2f3562b58f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5afd377b050cdd4062d85a2967a22f70fd526df7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607479"
 ---
 # <a name="clients-mobility-policy"></a>客户端：移动策略
 
@@ -44,7 +44,7 @@ ms.locfileid: "54302976"
 
 - **搜索字段** 在文本框中键入字符串以筛选显示的策略。
 
-- **新建** 单击 **"新建**"，然后选择" **站点** "或 **"** 用户"以创建新的移动策略。
+- **新建** 单击 **"新建**"，然后选择" **站点** " **或** "用户"以创建新的移动策略。
 
 - **编辑** 选择一个策略，然后单击"编辑"编辑所选策略的属性。
 

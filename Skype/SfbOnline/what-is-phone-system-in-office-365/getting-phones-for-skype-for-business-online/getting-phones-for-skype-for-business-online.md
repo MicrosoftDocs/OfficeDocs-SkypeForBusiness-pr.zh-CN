@@ -16,24 +16,24 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: '了解哪些电话可从 Polycom、HP 和 Mitel 使用 Skype for Business，以及需要的许可证。 '
-ms.openlocfilehash: de18fdc6d7b945987efdde8eaffd8db0c0e5154cf4d1c758572db5696b23f617
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320954"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607429"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business对于想要使用传统手机体验而不是使用桌面应用的用户，在线限定并支持Skype for Business电话。 本主题介绍支持在 Skype for Business Online 中使用的电话和固件版本，以及当您在组织中设置电话时可提供帮助的其他信息。
+Skype for Business对于想要使用传统手机体验而不是使用手机应用的用户，Online 限定并支持Skype for Business电话。 本主题介绍支持在 Skype for Business Online 中使用的电话和固件版本，以及当您在组织中设置电话时可提供帮助的其他信息。
 
 > [!NOTE]
 > SkypeFor Business 将缓慢地被 Microsoft Teams 替换为 Microsoft 365 和 Office 365。  有关详细信息[，请参阅](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)Office 365 智能通信的新愿景。
@@ -42,9 +42,9 @@ Skype for Business对于想要使用传统手机体验而不是使用桌面应�
   
 ## <a name="supported-phones"></a>支持的电话
   
-Microsoft 与 Polycom、Yealink 和 AudioCodes 密切合作，通过合作伙伴 IP 电话 计划 (PIP) 开发并认证各种设备电话系统。
+Microsoft 与 Polycom、Yealink 和 AudioCodes 密切合作，通过适用于 电话系统 的合作伙伴 IP 电话 计划 (PIP) 开发和认证各种设备。
   
-为手机订购Skype for Business时，购买具有正确产品 *ID 的电话非常重要*。 这些产品 ID 将确保你收到的电话已安装Skype for Business在线限定版本。
+为手机订购Skype for Business时，必须购买具有正确 *产品 ID 的手机*。 这些产品 ID 将确保你收到的电话已安装Skype for Business在线限定版本。
   
 |||
 |:-----|:-----|

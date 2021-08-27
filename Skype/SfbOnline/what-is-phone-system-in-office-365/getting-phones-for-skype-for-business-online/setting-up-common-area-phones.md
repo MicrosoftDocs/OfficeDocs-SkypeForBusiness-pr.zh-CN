@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: 了解部署步骤，获取正确的固件、根据需要更新固件、分配许可证以及配置公用区域电话的设置。
-ms.openlocfilehash: a73de696e8ac7410e9cccbca99dbabb74df392f58a8bf0ad82e5bdf1ec9ccd75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14c7a76ed8f0aa319049d4352c1cdc6ce4c4ce98
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300398"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607419"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 
@@ -64,7 +64,7 @@ ms.locfileid: "54300398"
 有关许可证的更多信息，请参阅 [Skype for Business 和 Microsoft Teams 外接程序许可](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>第 2 步 - 为手机创建一个新的用户帐户并分配许可证
-1. 在管理中心，转到"**用户**  >  **""活动用户**  >  **""添加用户"。**
+1. 在管理中心，转到"**用户**  >  **活动用户**  >  **""添加用户"。**
 2. 输入 **用户名**，如“Main”为第一个词，“Reception”为第二个词。
 3. 如果没有自动生成“Main Reception”用户名，则输入 **显示名称**。
 4. 输入一个 **用户名**，如“MainReception”或“Mainlobby”。
@@ -86,7 +86,7 @@ ms.locfileid: "54300398"
 
 ![一个图标，Skype for Business徽标使用管理中心 ](../../images/sfb-logo-30x30.png) 向用户分配Skype for Business **电话号码**
 
-1. 在管理中心>**管理中心Skype for Business。**  >  
+1. 在管理中心内>**管理中心Skype for Business。**  >  
 2. 在 **Skype for Business 管理中心** >  **语音** > **电话号码**。
 3. 从电话号码列表中选择一个号码，然后点击 **分配**。
 4. 在 **分配** 页面的 **语音用户** 框中，输入用于电话的用户名称，然后在 **选择语音用户** 下拉列表中选择一个用户。

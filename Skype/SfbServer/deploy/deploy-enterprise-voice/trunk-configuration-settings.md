@@ -1,5 +1,5 @@
 ---
-title: 在服务器中创建新的中继配置Skype for Business Server
+title: 在服务器中创建新的中继配置设置Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
-description: 摘要：了解如何使用"安全"控制面板创建新的中继配置Skype for Business Server集合。
-ms.openlocfilehash: 2fc0a939a5f321254378ae93afe56015135d4f9873482d8489e06568651913e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何使用"控制面板"创建新的中继配置Skype for Business Server集合。
+ms.openlocfilehash: 74a1b9b88adcce3164cd8bebc761d9868e8b0f1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297558"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594090"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在服务器中创建新的中继配置Skype for Business Server 
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在服务器中创建新的中继配置设置Skype for Business Server 
 
 **摘要：** 了解如何使用"安全"控制面板创建新的中继配置Skype for Business Server集合。
   
-SIP 中继配置设置定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP-Public 交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 这些设置按下面的指示执行此类操作：
+SIP 中继配置设置定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP-Public Branch eXchange (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 这些设置按下面的指示执行此类操作：
   
 - 是否应对中继启用媒体旁路。
     

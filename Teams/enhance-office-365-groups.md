@@ -11,28 +11,28 @@ audience: admin
 description: 了解如何通过Microsoft 365通讯组列表Microsoft Teams团队、添加启用邮件的安全组等，增强组的安全性。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 206b289a8d241b09c0aeb02eb5f211c30bf697f2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 74a108ba78b26c94045c0fdcb917a71d584b7c05
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232627"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578366"
 ---
-# <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>使用 Microsoft 365 增强现有Microsoft Teams
+# <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>使用Microsoft 365增强现有Microsoft Teams
 
-Microsoft Teams用户可以增强现有组Microsoft 365组Teams功能。 在增强公共Microsoft 365组时，如果成员数等于或小于 5，000，用户可以这样做。
+Microsoft Teams用户可以增强现有的Microsoft 365组Teams功能。 在增强公共Microsoft 365组时，如果成员数等于或小于 5，000，用户可以这样做。
 
 为此，用户应该从 Microsoft Teams 客户端完成创建新团队的流程。 从 **"Microsoft 365"** 组中选择"创建"，然后选择想要使用"创建"来  >  增强Teams。 现有组成员将自动作为成员添加到该团队。
 
 > [!IMPORTANT]
-> 只有Microsoft 365所有者有权使用组来增强现有组Teams，并且该组必须包含的用户数必须少于 5，000。 Teams已增强的项不会显示在列表中。
+> 只有Microsoft 365所有者有权使用组来增强现有Teams，并且该组必须包含的用户数必须少于 5，000。 Teams已增强的项不会显示在列表中。
 >
 >除非满足这些条件，否则Microsoft 365组创建团队的选项不可用。
 

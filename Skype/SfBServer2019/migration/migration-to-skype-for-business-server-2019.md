@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本节中的主题将指导您完成迁移到 Skype for Business Server 2019 的过程。
-ms.openlocfilehash: 1014fe5d491823c427eb588aac86757afb997578b519abf2249f481c91a3d4aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6eb192c11ec8d1f44539e3bd5180249d85180d2b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303396"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587974"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>迁移到 Skype for Business Server 2019
 
@@ -34,7 +34,7 @@ ms.locfileid: "54303396"
   
 **迁移：** 将生产部署从 Lync Server 2013 或 Skype for Business Server 2015 Skype for Business Server 2019。
     
-**共存：** 迁移过程中存在的临时环境，其中某些功能已迁移到 Skype for Business Server 2019，而其他功能仍保留在早期版本上。
+**共存：** 迁移期间存在的临时环境，其中某些功能已迁移到 Skype for Business Server 2019，而其他功能仍保留在早期版本上。
     
 **互操作性：** 您的部署在共存期间能否成功运行。
 

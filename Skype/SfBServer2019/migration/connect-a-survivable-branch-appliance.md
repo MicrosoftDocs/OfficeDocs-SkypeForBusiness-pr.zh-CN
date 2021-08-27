@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 每个 Survivable Branch Appliance (SBA) 与充当 SBA 的备份注册机构的前端池关联。 将前端池迁移到 Skype for Business Server 2019 时，在升级池时，必须将 SBA 与前端池解除关联，在将池迁移到 Skype for Business Server 2019 后，SBA 可以与升级的前端池重新关联。 这包括从拓扑生成器中的旧拓扑中删除 SBA，然后将 SBA 添加到 Skype for Business Server 2019 拓扑。 在从拓扑中删除 SBA 之前，必须先将位于旧 SBA 上的用户移动到另一个前端池。 将 SBA 添加到 Skype for Business Server 2019 拓扑后，可以将这些用户移回 SBA。 这些步骤概括如下：
-ms.openlocfilehash: 4977868c45b274adea514d84e251f682da02cc8ee486a5a182d984ee652f3ae2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 每个 Survivable Branch Appliance (SBA) 与充当 SBA 的备份注册机构的前端池关联。 在将前端池迁移到 Skype for Business Server 2019 时，在升级池时，必须将 SBA 与前端池解除关联，在将池迁移到 Skype for Business Server 2019 后，可以将 SBA 与升级后的前端池重新关联。 这包括从拓扑生成器中的旧拓扑中删除 SBA，然后将 SBA 添加到 Skype for Business Server 2019 拓扑。 在从拓扑中删除 SBA 之前，必须先将位于旧 SBA 上的用户移动到另一个前端池。 将 SBA 添加到 Skype for Business Server 2019 拓扑后，可以将这些用户移回 SBA。 这些步骤概括如下：
+ms.openlocfilehash: c431451503efd23039b4c358488bfc5bce03ba65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313870"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588044"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>连接 Survivable Branch Appliance
 
-每个 Survivable Branch Appliance (SBA) 与充当 SBA 备份注册机构的前端池关联。 在将前端池迁移到 Skype for Business Server 2019 时，在升级该池时，必须将 SBA 与前端池解除关联。 在将池迁移到 2019 Skype for Business Server后，可以将 SBA 与升级的前端池重新关联。 这包括从拓扑生成器中的旧拓扑中删除 SBA，然后将 SBA 添加到 Skype for Business Server 2019 拓扑。 在从拓扑中删除 SBA 之前，必须先将位于旧 SBA 上的用户移动到另一个前端池。 将 SBA 添加到 Skype for Business Server 2019 拓扑后，可以将这些用户移回 SBA。 这些步骤概括如下：
+每个 Survivable Branch Appliance (SBA) 都与充当 SBA 的备份注册机构的前端池关联。 在将前端池迁移到 2019 Skype for Business Server时，在升级池时，必须将 SBA 与前端池解除关联。 在将池迁移到 2019 Skype for Business Server之后，可以将 SBA 与升级的前端池重新关联。 这包括从拓扑生成器中的旧拓扑中删除 SBA，然后将 SBA 添加到 Skype for Business Server 2019 拓扑。 在从拓扑中删除 SBA 之前，必须先将位于旧 SBA 上的用户移动到另一个前端池。 将 SBA 添加到 Skype for Business Server 2019 拓扑后，可以将这些用户移回 SBA。 这些步骤概括如下：
   
 1. 将位于旧 SBA 上的分支用户移动到另一个前端池。
     
@@ -58,7 +58,7 @@ ms.locfileid: "54313870"
     
     2. 右键单击旧版本，然后单击 **新建。**
     
-    3. 单击 **Survivable Branch Appliance**。
+    3. 单击 **"Survivable Branch Appliance"。**
     
 9. 按照打开的向导中的说明执行操作。 有关向导项的信息，请参阅    
    <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](/previous-versions/office/lync-server-2013/lync-server-2013-define-a-survivable-branch-appliance-or-server). -->

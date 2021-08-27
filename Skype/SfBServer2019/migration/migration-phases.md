@@ -9,20 +9,20 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 在 Skype for Business Server 2019 中，定义网络上包含 2019 Skype for Business Server站点。 站点是一组通过高速度、低延迟网络（例如单个局域网 (LAN) 或由高速光纤网络连接的两个网络）正确连接的计算机。
-ms.openlocfilehash: 0e79dca32a0e3c377eea8e60e0e19514dcb7f4dfb459922b68c9913f4bd3c363
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 在 Skype for Business Server 2019 中，定义网络上包含 2019 Skype for Business Server的站点。 站点是一组通过高速度、低延迟网络（例如单个局域网 (LAN) 或由高速光纤网络连接的两个网络）正确连接的计算机。
+ms.openlocfilehash: 8066e9ed7e46c54e6a6eac89bcf65dca1447aa57
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303416"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587984"
 ---
 # <a name="migration-phases"></a>迁移阶段
 
-在 Skype for Business Server 2019 中，定义网络上包含 2019 Skype for Business Server站点。 站点是一组通过高速度、低延迟网络（例如单个局域网 (LAN) 或由高速光纤网络连接的两个网络）正确连接的计算机。 
+在 Skype for Business Server 2019 中，定义网络上包含 2019 Skype for Business Server的站点。 站点是一组通过高速度、低延迟网络（例如单个局域网 (LAN) 或由高速光纤网络连接的两个网络）正确连接的计算机。 
   
-前端池 是一组配置相同的前端服务器，这些服务器协同工作来为公用组用户提供服务。 池为用户提供可伸缩性和故障转移功能。 池中的每台服务器必须运行一个或多个相同的服务器角色。 一Standard Edition为小型组织设计的服务器，它还定义了一个池并运行在单台服务器上。 这样，您Skype for Business Server 2019 功能的成本更低，但无法提供真正的高可用性解决方案。 
+前端池 是一组配置相同的前端服务器，这些服务器协同工作来为公用组用户提供服务。 池为用户提供可伸缩性和故障转移功能。 池中的每台服务器必须运行一个或多个相同的服务器角色。 一Standard Edition为小型组织设计的服务器，它还定义了一个池，并运行在单台服务器上。 这样一来，您Skype for Business Server 2019 功能，但无法提供真正的高可用性解决方案。 
   
 以下阶段介绍了到 2019 年 10 月Skype for Business Server过程。 对于包含多个池的多个站点，每个池都应遵循此分阶段方法。
   

@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
 description: '必须发布此内容，以满足法国 Skype for Business Online 的辅助功能、合规性和法规要求。 '
-ms.openlocfilehash: 0c872d427b55fe5449e1e7a2e22daa0f2b920549aab10e85ef634ddfdfc5904b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e93c3fa07b87a9ecafb53223b993c95233ccc6c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281345"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594228"
 ---
 # <a name="legal-and-regulatory"></a>法律和监管
 

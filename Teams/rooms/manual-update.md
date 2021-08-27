@@ -11,16 +11,16 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 了解如何手动将设备Microsoft Teams 会议室到特定版本。
-ms.openlocfilehash: 2a37a6b1eb349d38d1579bf5c69822db8dac7dd0dd000e60bfdba034cdf62680
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36d5477ef84eb97971727314aa39ab19e4139488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350464"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578246"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>手动更新Microsoft Teams 会议室设备
 
@@ -29,7 +29,7 @@ Microsoft Teams 会议室应用通过 Microsoft Store。 从应用程序自动�
 如果无法从 Microsoft Store 获取更新，可以使用脱机应用更新 PowerShell 脚本手动将 Teams 会议室 设备更新到较新版本的 Teams 会议室 应用。 按照本文中的步骤手动更新Teams 会议室设备。
 
 > [!NOTE]
-> 此过程只能使用已安装Teams 会议室更新Teams 会议室设备。 它不能用于执行新安装。 它还不能用于将应用降级到较旧版本。 若要执行新安装 Teams 会议室，请联系设备制造商，了解特定于它的媒体，或参阅[准备安装媒体](console.md#prepare-the-installation-media)。
+> 此过程只能使用已安装Teams 会议室更新Teams 会议室设备。 它不能用于执行新安装。 它还不能用于将应用降级到较旧版本。 若要执行新安装 Teams 会议室，请联系设备的制造商，了解特定于它的媒体，或参阅[准备安装媒体](console.md#prepare-the-installation-media)。
 
 ## <a name="step-1-download-the-offline-app-update-script"></a>步骤 1：下载脱机应用更新脚本
 
@@ -48,7 +48,7 @@ Microsoft Teams 会议室应用通过 Microsoft Store。 从应用程序自动�
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>步骤 2：运行脚本以更新 Teams 会议室 应用
 
-脱机应用更新脚本需要从提升的命令提示符下运行，而 Skype 用户 (运行应用的用户) 登录。 若要详细了解如何在 Skype 用户仍登录时登录到管理员帐户以使用提升的命令提示符，请参阅切换到管理员模式，以及当 Microsoft Teams 会议室 应用[运行时](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)返回。
+脱机应用更新脚本需要从提升的命令提示符运行，而 Skype 用户 (运行应用的用户) 登录。 若要详细了解如何在 Skype 用户仍登录时登录到管理员帐户以使用提升的命令提示符，请参阅切换到管理员模式，在 Microsoft Teams 会议室 应用[运行时](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)返回 。
 
 执行以下操作，从提升的命令提示符运行脚本：
 
@@ -72,6 +72,6 @@ PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.
 
 ## <a name="step-3-verify-the-app-has-been-updated-successfully"></a>步骤 3：验证应用已成功更新
 
-如果脚本成功运行，设备将重新启动到Teams 会议室应用。
+如果脚本成功运行，设备将重新启动到 Teams 会议室 应用。
 
 如果脚本遇到问题，它将指示命令行上的问题，并记录其输出到文件。 按照脚本提供的任何说明进行操作。 如果需要联系 Microsoft 支持部门，请确保包括日志文件支持请求。 该脚本将提供目标路径日志文件。

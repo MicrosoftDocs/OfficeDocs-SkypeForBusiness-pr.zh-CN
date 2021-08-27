@@ -11,20 +11,20 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要将其他简单 URL 添加到部署定义中，请指定新的简单 URL 的 URL。
-ms.openlocfilehash: 962f3fbac8314eedb5df5416c7a68027ef3d2862f3c6f0c4bc906576328f0c16
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2b765aacbaaefeecb8c5619572c83075c19ed3aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314728"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581626"
 ---
 # <a name="add-simple-url"></a>添加简单 URL
  
-若要将其他简单 URL 添加到部署定义中，请指定新的简单 URL 的 URL。 URL 的格式为 _http:// \<simple URL type\> 。 \<domain name\>_ 或 _http:// \<domain name\> / \<simple URL type\>_，其中简单 URL 类型为以下类型之一：
+若要将其他简单 URL 添加到部署定义中，请指定新的简单 URL 的 URL。 URL 的格式为 _\<simple URL type\> http://。 \<domain name\>_ 或 _http:// \<domain name\> / \<simple URL type\>_，其中简单 URL 类型为以下类型之一：
   
 - Meet
     

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 您可以通过在中央管理存储所在的内部计算机或安装了 Skype for Business Server 2019 核心组件 (OcsCore.msi) 的任何加入域的计算机上运行 Skype for Business Server 2019 Get-CsManagementStoreReplicationStatus cmdlet，验证配置信息是否复制到边缘服务器。
-ms.openlocfilehash: e681781598af876f722094b0191aa784da2c533adc509a9f9fc4fad96fa4db4c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff46dbad696ac4bf200bb669de768a28d0815e1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335742"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594260"
 ---
 # <a name="verify-configuration-settings"></a>验证配置设置
 

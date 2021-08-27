@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 在开始之前，我们建议您先阅读本文档和以下指南，以便熟悉如何部署相应的角色：
-ms.openlocfilehash: d450ba89936e9b61f862d59072849fbe5d21e6b66c79ba351f5f275d2a4ff4e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7827a08e4ed840e4931ab20e6369f75dd798f31b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319545"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588084"
 ---
 # <a name="before-you-begin-the-migration"></a>开始迁移之前的准备工作
 

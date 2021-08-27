@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: ecdff1463b68f0c5dc26c1ef179b7e05bedc62f1b49776531bcdf75a3dc0f56a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 56e599c20d956659c11def8a5101a2a6081564e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614730"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web 服务安全设置：创建新的或修改现有的
 

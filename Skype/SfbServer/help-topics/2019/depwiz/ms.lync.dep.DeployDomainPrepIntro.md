@@ -11,19 +11,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: "\"准备域\"页将开始为域准备域Skype for Business Server。 单击“下一步”开始准备域。"
-ms.openlocfilehash: 60fb91b298c38e9267e8948c8ebcfbd4e23a170e57462cbb98ec7b18a2b6b4f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1149e57e4f3b8aa71273740f0fcaa1327c603c34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330446"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621644"
 ---
 # <a name="prepare-current-domain-intro"></a>准备当前域（简介）
  
-"**准备域**"页将开始准备域以用于Skype for Business Server。 单击“下一步”开始准备域。
+"**准备域**"页将开始为域准备域Skype for Business Server。 单击“下一步”开始准备域。
   
 
