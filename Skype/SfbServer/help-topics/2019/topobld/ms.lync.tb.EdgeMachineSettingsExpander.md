@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑边缘服务器池中的服务器的属性，请执行以下操作：
-ms.openlocfilehash: 17412ba6e4ef2a90d2227566a8e9762a0baaeda81b8c6834e00b910bb40323f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d297de5e4e503932387c1ba207959261cd19024c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579186"
 ---
 # <a name="edge-machine-settings-expander"></a>边缘计算机设置扩展器
  

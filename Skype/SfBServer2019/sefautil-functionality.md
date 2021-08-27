@@ -1,5 +1,5 @@
 ---
-title: 2019 年 2 月支持在 PowerShell Skype for Business Server SEFAUtil 功能
+title: 支持在 2019 年 2019 年使用 PowerShell Skype for Business Server SEFAUtil 功能
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: 摘要：了解如何在安装累积更新 1 后，在 Skype for Business Server 2019 使用 PowerShell 获取 SEFAUtil 功能。
-ms.openlocfilehash: afb0c34afedde91bac40ee90b155809ed3c2b557d88608028b77e0835eb9661d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何在安装累积更新 1 后，使用 PowerShell 在 Skype for Business Server 2019 中获取 SEFAUtil 功能。
+ms.openlocfilehash: 88e62543f41d9a497b9b0ca28c55322fbe5f5be7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277617"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578176"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>在 2019 年 10 月通过 PowerShell Skype for Business Server SEFAUtil 功能
 
@@ -43,7 +43,7 @@ SEFAUtil (辅助扩展功能激活) 允许 Skype for Business Server 管理员�
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
-此 cmdlet 可禁用用户的呼叫转发设置， (此处显示了两个不同的参数) 。
+此 cmdlet 可禁用用户的呼叫 (我们在此处显示了两个不同的参数) 。
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
@@ -52,7 +52,7 @@ SEFAUtil (辅助扩展功能激活) 允许 Skype for Business Server 管理员�
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-此 cmdlet 使用两个参数示例 (同时修改同时响铃设置，一个针对语音邮件未answered，另一个未answered to other) 。
+此 cmdlet 使用两个参数示例 (同时修改同时响铃设置，一个针对语音邮件未answered，另一个未) 。
 
 ## <a name="delegation-settings"></a>委派设置
 
@@ -94,7 +94,7 @@ SEFAUtil (辅助扩展功能激活) 允许 Skype for Business Server 管理员�
 
 此 cmdlet 将团队列表设置给特定成员。
 
-## <a name="more-information"></a>更多信息
+## <a name="more-information"></a>详细信息
 
 对于本地部署，根据下面指定的访问级别，此功能中引入的 cmdlet 只能由以下各组的成员运行：
 

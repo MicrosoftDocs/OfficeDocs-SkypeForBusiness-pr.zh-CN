@@ -9,29 +9,29 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
-description: 了解池中的前端池Skype for Business Server包括管理池、仲裁丢失和仅包含两台前端服务器的池的特殊步骤。
-ms.openlocfilehash: 697cebf352d4fa0e2f245f50395107477ac3bae712346302e94746f173ce4d39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解池中的前端池Skype for Business Server，包括管理池、仲裁丢失和仅包含两台前端服务器的池的特殊步骤。
+ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276617"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585006"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端池高可用性和管理
  
-了解池中的前端池Skype for Business Server包括管理池、仲裁丢失和仅包含两台前端服务器的池的特殊步骤。
+了解池中的前端池Skype for Business Server，包括管理池、仲裁丢失和仅包含两台前端服务器的池的特殊步骤。
   
-在Skype for Business Server中，前端池的体系结构使用分布式系统模型，每个用户的数据在池中的三个前端服务器上保留。 建议您的所有前端Enterprise Edition都至少包含三台前端服务器。
+在Skype for Business Server中，前端池的体系结构使用分布式系统模型，每个用户的数据将保存在池中的三个前端服务器上。 我们建议您的所有前端Enterprise Edition池至少包含三台前端服务器。
 
 > [!NOTE]
 > Skype for Business Server 2019 不支持Enterprise Edition两台前端服务器的前端池，并且不允许在该方案中发布拓扑。
   
 ## <a name="planning-for-the-management-of-front-end-pools"></a>规划前端池的管理
 
- Skype for Business Server基于分布式系统模型Windows Fabric。 在此模型中，每个用户和会议的重要数据存储在前端池中的三台前端服务器上。 这三个存储特定数据集的服务器称为replicas。
+ Skype for Business Server基于系统模型使用分布式Windows Fabric。 在此模型中，每个用户和会议的重要数据存储在前端池中的三台前端服务器上。 这三个存储特定数据集的服务器称为replicas。
   
 使用前端池的分布式模型，必须运行一定数量的池服务器，池正常运行。 池有两种丢失模式。
   
@@ -45,33 +45,33 @@ ms.locfileid: "54276617"
   
 |池中的服务器总数  <br/> |首次启动池时必须运行的服务器数  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
-|3  <br/> |3  <br/> |
-|4   <br/> |3  <br/> |
+|2   <br/> |1   <br/> |
+|3   <br/> |3   <br/> |
+|4   <br/> |3   <br/> |
 |5   <br/> |4   <br/> |
 |6   <br/> |5   <br/> |
 |7   <br/> |5   <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
 |10   <br/> |8   <br/> |
-|11  <br/> |9   <br/> |
+|11   <br/> |9   <br/> |
 |12   <br/> |10   <br/> |
-|16 **For Skype for Business Server 2019** <br/> |12   <br/> |
+|16 **For Skype for Business Server For 2019** <br/> |12   <br/> |
 
 
    
-每次启动池时，都应启动 85% 的服务器 (如上表所示) 。 如果无法启动此数量的服务器 (但可以启动足够的服务器，以便不处于池级别的仲裁丢失) ，您可以使用 cmdlet 使池从此路由组级别仲裁丢失中恢复并推进。 `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` 有关如何使用此 cmdlet 的信息，请参阅 [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
+每次启动池时，都应启动 85% 的服务器 (如上表所示) 。 如果无法启动此数量的服务器 (但可以启动足够的服务器，以便您不在池级别的仲裁丢失) 中，您可以使用 cmdlet 使池从此路由组级别仲裁丢失中恢复并推进。 `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` 有关如何使用此 cmdlet 的信息，请参阅 [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
   
 > [!NOTE]
-> 在服务器数量为等数的池中，Skype for Business Server主SQL数据库作为见证。 在此类池中，如果关闭主数据库并切换到镜像副本，并关闭足够的前端服务器，以便根据上表运行不足，整个池将停机。 有关详细信息，请参阅数据库 [镜像见证](/sql/database-engine/database-mirroring/database-mirroring-witness)。 
+> 在服务器数为等数的池中，Skype for Business Server主SQL数据库作为见证。 在此类池中，如果关闭主数据库并切换到镜像副本，并关闭足够的前端服务器，以便根据上表运行不足，整个池将停机。 有关详细信息，请参阅数据库 [镜像见证](/sql/database-engine/database-mirroring/database-mirroring-witness)。 
   
 #### <a name="pool-level-quorum-loss"></a>池级别仲裁丢失
 
-前端池可以正常工作，它不能处于池级别仲裁丢失状态。 如果正在运行的服务器数量低于下表中所示的功能级别，则池中的其余服务器将停止所有Skype for Business Server服务。 请注意，下表中的数字假定池中的后端服务器正在运行。
+前端池可以正常工作，它不能处于池级别仲裁丢失状态。 如果正在运行的服务器数量低于下表所示的功能级别，则池中的其余服务器将停止所有Skype for Business Server服务。 请注意，下表中的数字假定池中的后端服务器正在运行。
   
 |池中的前端服务器总数  <br/> |要使池正常工作所必须运行的服务器的数目  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|2   <br/> |1   <br/> |
 |3-4  <br/> |任意 2 个  <br/> |
 |5-6  <br/> |任意 3 个  <br/> |
 |7   <br/> |任意 4 个  <br/> |
@@ -110,7 +110,7 @@ ms.locfileid: "54276617"
     
 ## <a name="front-end-pool-configuration-failures-and-changes"></a>前端池配置失败和更改
 
-如果前端服务器出现故障，且在几天或几天内不太可能替换，请从拓扑中删除该服务器。 当新的前端服务器再次可用时，将新前端服务器添加到拓扑中。
+如果前端服务器出现故障且在几天或几天内不可能替换，请从拓扑中删除该服务器。 当新的前端服务器再次可用时，将新前端服务器添加到拓扑。
   
 每当对前端池进行配置更改（如添加或删除服务器）时，都必须遵循以下准则：
   

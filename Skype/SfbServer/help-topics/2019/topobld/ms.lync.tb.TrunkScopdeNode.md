@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击拓扑生成器中的现有 SIP 中继以执行以下操作：
-ms.openlocfilehash: a4cb9dc241ce5e18610645431739422ad5949e6162eb82028771971cdcffd986
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ccd49b54900a6f482cc672555e7ac9d6c839ebea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335382"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605231"
 ---
 # <a name="trunk-scope-node"></a>中继范围节点
  

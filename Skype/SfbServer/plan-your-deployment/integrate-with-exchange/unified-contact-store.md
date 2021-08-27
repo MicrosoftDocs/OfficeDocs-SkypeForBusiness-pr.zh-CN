@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
-description: 摘要：在规划与 Skype for Business Server 2013 Exchange本主题。
-ms.openlocfilehash: 12f76c1e10eea445adb21147c20ab79f33e38f3c8c578aeab8ec24296bb06594
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：在计划将 Skype for Business Server与 Exchange 2013 集成时，请查看本主题。
+ms.openlocfilehash: 711340ebe7ef2b71d56bfefbb23fe50c0c230f82
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584996"
 ---
-# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>在 2015 年 10 月Skype for Business Server统一联系人存储
+# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>规划 2015 年 Skype for Business Server 统一联系人存储
  
 **摘要：** 在计划将 2013 Skype for Business Server 2016 Exchange本主题。
   
@@ -37,7 +37,7 @@ ms.locfileid: "54284622"
     
 - 用户邮箱必须迁移到 Exchange 2013。
     
-- 您必须在 2013 或 Skype for Business Server Exchange 2016 之间配置服务器到服务器身份验证。
+- 必须在 2013 或 Skype for Business Server Exchange 2016 之间配置服务器到服务器身份验证。
     
     > [!NOTE]
     > 有关在 Skype for Business Server 和 Exchange 2013 或 2016 之间设置身份验证的详细要求，请参阅操作文档中的在 Skype for Business Server 中管理服务器到服务器身份验证[ (OAuth) ](../../manage/authentication/server-to-server-and-partner-applications.md)和合作伙伴应用程序。

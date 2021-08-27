@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: 摘要：了解 Mobility Service (Mcx) 和 Skype for Business Server 中的统一通信 Web API (UCWA) 。
-ms.openlocfilehash: 3e7d64a4dbefed7132206186069ef9646deb802ac0eb9de02d39b602c2dc4ffe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解 Mobility Service (Mcx) 以及 Skype for Business Server 中的统一通信 Web API (UCWA) 。
+ms.openlocfilehash: 556e50a162e455b1d0805c55fa34cb8f4de1603e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345589"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598886"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>监视移动性能以Skype for Business Server
  
@@ -26,7 +26,7 @@ ms.locfileid: "54345589"
 Skype for Business Server Mobility Service (Mcx) 和统一通信 Web API (UCWA) 会增加前端服务器和前端池的负载。 即使移动应用程序已最小化，也保持与服务器连接的移动设备（如运行 Lync 2010 Mobile 的 Android 和 Nokia 设备，以及运行 Lync 2013 Mobile 的 Android 和 Apple 设备）比在最小化移动应用程序时终止与服务器连接的设备造成更大的负载。 随着移动使用率的增加，您必须监视移动性能以确定何时需要增加容量。
 
 > [!NOTE]
-> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
+> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
   
 有几项限制会影响移动性能： 
   
@@ -42,7 +42,7 @@ Skype for Business Server Mobility Service (Mcx) 和统一通信 Web API (UCWA) 
   
 ## <a name="in-this-section"></a>本节内容
 
-- [监视服务器内存容量限制Skype for Business Server](server-memory-capacity-limits.md)
+- [Monitor for server memory capacity limits in Skype for Business Server](server-memory-capacity-limits.md)
     
 - [监视移动服务和 UCWA 在Skype for Business Server](service-and-ucwa-usage.md)
     

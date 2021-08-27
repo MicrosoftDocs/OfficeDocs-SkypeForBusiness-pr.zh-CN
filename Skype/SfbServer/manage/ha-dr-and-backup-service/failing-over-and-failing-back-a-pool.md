@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 55dd80e5c71dd52dacd82f3fb12e1141a8bff470000280b582eccde7581231b1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c0c18672296254d1b532f0b33cdf809e68d249b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336662"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612271"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>对池中的池进行Skype for Business Server
 
@@ -35,7 +35,7 @@ Datacenter1 包含 Pool1，Pool1 已失败。 将故障切换至位于 Datacente
 
 池故障转移的多数工作都涉及对中央管理存储进行故障转移（如果需要）。 当池的用户进行故障管理时，中央管理存储必须工作正常。
 
-如果Front-End池出现故障，但该站点中的边缘池仍在运行，则必须知道边缘池是否将故障池用作下一个跃点池。 如果是这样，则必须将边缘池更改为使用另一个Front-End池，然后再对故障池Front-End池。 更改下一个跃点设置的方式取决于边缘要使用的池与边缘池在同一站点中还是在不同站点中。
+如果Front-End池出现故障，但该站点中的边缘池仍在运行，则必须知道边缘池是否将故障池用作下一个跃点池。 如果是这样，则必须将边缘池更改为使用另一个Front-End池，然后再对发生故障的Front-End池。 更改下一个跃点设置的方式取决于边缘要使用的池与边缘池在同一站点中还是在不同站点中。
 
 **将边缘池设置为在同一站点使用下一个跃点池**
 
@@ -53,13 +53,13 @@ Datacenter1 包含 Pool1，Pool1 已失败。 将故障切换至位于 Datacente
 
 **在灾难中对池进行故障转移**
 
-1. 在 Pool2 中的管理服务器上键入以下 cmdlet，Front-End中央管理服务器的主机池：
+1. 在 Pool2 中的中央管理服务器上键入以下 cmdlet，Front-End中央管理服务器的主机池：
 
         Invoke-CsManagementServerFailover -Whatif
 
     此 cmdlet 的结果显示当前托管中央管理服务器的池。 在此过程的其余部分中，此池称为 CMS \_ 池。
 
-2. 使用拓扑生成器查找在 CMS Skype for Business Server运行的版本 \_ 。 如果它正运行Skype for Business Server，请使用以下 cmdlet 查找池 1 的备份池。
+2. 使用拓扑生成器查找在 CMS Skype for Business Server运行的版本 \_ 。 如果池池Skype for Business Server，请使用以下 cmdlet 查找池 1 的备份池。
 
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
 
@@ -71,7 +71,7 @@ Datacenter1 包含 Pool1，Pool1 已失败。 将故障切换至位于 Datacente
 
     此 cmdlet 应显示 ActiveMasterFQDN 和 ActiveFileTransferAgents 都指向 CMS 池的 \_ FQDN。 如果它们为空，中央管理服务器将不可用，您必须进行故障转移。
 
-4.  如果中央管理存储不可用或中央管理存储在 Pool1 (（即故障池) ）上运行，则必须在故障转移池之前对中央管理服务器进行故障转移。 如果需要对托管在运行 Skype for Business Server 的池上的中央管理服务器进行故障转移，请使用此过程步骤 5 中的 cmdlet。 如果不需要对中央管理服务器进行故障转移，请跳到此过程的步骤 7。
+4.  如果中央管理存储不可用或中央管理存储在 Pool1 (（即故障) 的池）上运行，则必须在故障转移池之前对中央管理服务器进行故障转移。 如果需要对托管在运行该服务器的池上的中央Skype for Business Server进行故障转移，请使用此过程的步骤 5 中的 cmdlet。 如果不需要对中央管理服务器进行故障转移，请跳到此过程的步骤 7。
 
 5.  若要对运行中央管理存储的池进行Skype for Business Server，请执行下列操作：
 
@@ -79,7 +79,7 @@ Datacenter1 包含 Pool1，Pool1 已失败。 将故障切换至位于 Datacente
 
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - 如果备份池中Back-End服务器 \_ 是主体，请键入：
+      - 如果备份Back-End服务器 \_ 的主服务器是主体，请键入：
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
@@ -125,7 +125,7 @@ Datacenter1 包含 Pool1，Pool1 已失败。 将故障切换至位于 Datacente
         
         检查所有副本的值是否为 True。
     
-      - 在备份池中的其余前端服务器上安装中央管理 \_ 服务器服务。 为此，请在所有前端服务器上运行以下命令（在此过程前面强制中央管理存储移动时所使用的命令除外）：
+      - 在备份池中的其余前端服务器上安装中央管理 \_ 服务器服务。 为此，请在所有前端服务器上运行以下命令，除了在此过程前面强制中央管理存储移动时所使用的命令：
         
             Bootstrapper /Setup 
 
@@ -170,13 +170,13 @@ Datacenter1 包含 Pool1，Pool1 已失败。 将故障切换至位于 Datacente
 
 5.  选择 **"操作"，** 选择 **"拓扑"，** 选择"**发布"。** 当"发布拓扑 **"上看到提示时，选择**"下一 **步"。** 完成发布后，**选择完成。**
 
-6.  在边缘服务器上，打开"Skype for Business Server部署"向导。 选择 **"安装或Skype for Business Server系统**"，然后选择"安装 **或删除Skype for Business Server组件"。** 选择 **"再次运行"。**
+6.  在边缘服务器上，打开"Skype for Business Server部署"向导。 选择 **"安装或Skype for Business Server** 系统"，然后选择"安装 **或删除Skype for Business Server组件"。** 选择 **"再次运行"。**
 
-7.  选择 **下一步**。 摘要屏幕将显示已执行的操作。 部署完成后，选择" **查看日志"** 以查看可用的日志文件。 选择 **"完成** "以完成部署。
+7.  选择“**下一步**”。 摘要屏幕将显示已执行的操作。 部署完成后，选择" **查看日志"** 以查看可用的日志文件。 选择 **"** 完成"以完成部署。
     
     如果包含故障边缘池的站点包含仍在运行的前端服务器，则必须更新这些 Front-End 池上的 Web 会议服务和 A/V 会议服务，以使用仍在运行的远程站点中的边缘池。 
 
- ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>对用于 XMPP 联盟的边缘池进行故障转移Skype for Business Server 
+ ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>故障转移用于 XMPP 联盟的边缘池Skype for Business Server 
 
 在您的组织中，已将一个边缘池指定为用于 XMPP 联盟的池。如果该池出现故障，您必须先对 XMPP 联盟进行故障转移以使用其他边缘池，直到 XMPP 联盟可重新正常工作。
 
@@ -209,7 +209,7 @@ Datacenter1 包含 Pool1，Pool1 已失败。 将故障切换至位于 Datacente
     
         Start-CsWindowsService
 
-## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>对用于联盟或 XMPP 联盟Skype for Business Server故障回复 
+## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>故障回复用于联盟或 XMPP 联盟Skype for Business Server边缘池 
 
 在用于承载联盟的故障边缘池重新联机后，使用此过程对 Skype for Business Server 联盟路由和/或 XMPP 联盟路由进行故障回复，以再次使用此还原的边缘池。
 
@@ -229,7 +229,7 @@ Datacenter1 包含 Pool1，Pool1 已失败。 将故障切换至位于 Datacente
     
       - 在边缘服务器上，打开"Skype for Business Server部署"向导。 选择 **"安装或Skype for Business Server系统"，** 然后选择"安装或删除 **Skype for Business Server组件"。** 选择 **"再次运行"。**
     
-      - 选择 **下一步**。 摘要屏幕将显示已执行的操作。 部署完成后，选择" **查看日志"** 以查看可用的日志文件。 选择 **"完成** "以完成部署。
+      - 选择“**下一步**”。 摘要屏幕将显示已执行的操作。 部署完成后，选择" **查看日志"** 以查看可用的日志文件。 选择 **"** 完成"以完成部署。
 
 3.  如果想要对 XMPP 联盟路由进行故障回复以使用恢复的边缘服务器，请执行以下操作：
     

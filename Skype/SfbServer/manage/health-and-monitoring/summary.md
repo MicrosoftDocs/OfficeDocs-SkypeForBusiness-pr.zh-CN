@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 中的媒体质量摘要报告
+title: 媒体质量摘要报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,23 +9,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 摘要：了解 Skype for Business Server 中的媒体质量摘要报告。
-ms.openlocfilehash: d8c8bcee2d5869ef0812c9a34ccb1fcc376dcb5b84e41a84110b712713fec4a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8478ed9d4ba3bc35451c140346bec4e407c25596
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349364"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598846"
 ---
-# <a name="media-quality-summary-report-in-skype-for-business-server"></a>Skype for Business Server 中的媒体质量摘要报告
+# <a name="media-quality-summary-report-in-skype-for-business-server"></a>媒体质量摘要报告Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的媒体质量摘要报告。
   
 媒体质量摘要报告可能最适合用来分析组织内部的呼叫质量，此报告提供了分为以下几个类别的详细的用户体验质量 (QoE) 呼叫指标：
   
-- UC 对等呼叫 (，例如Skype for Business Skype for Business呼叫) 
+- UC 对等呼叫 (，例如Skype for Business呼叫Skype for Business呼叫) 
     
 - UC 会议会话
     
@@ -41,7 +41,7 @@ ms.locfileid: "54349364"
     
 一打开报告您就会看到有关所有这些类别的摘要信息。 无需退出报告，即可展开每个类别来查看子类别，例如从 Office Communicator 2007 R2 到 Skype for Business。 反过来，您可以向下钻取这些子类别以查看有关在该类别中进行的每个呼叫的详细信息。
   
-此外Skype for Business Server媒体质量摘要报告进一步将数据分为三种呼叫类型：音频呼叫、视频呼叫和应用程序共享呼叫。 每种呼叫类型在报告中都具有自己对应的部分，并具有自己的自定义呼叫指标集。
+此外Skype for Business Server媒体质量摘要报告会进一步将数据分为三种呼叫类型：音频呼叫、视频呼叫和应用程序共享呼叫。 每种呼叫类型在报告中都具有自己对应的部分，并具有自己的自定义呼叫指标集。
   
 此外，可利用媒体质量摘要报告来应用一些筛选器，以便能够比较有线呼叫与无线呼叫的呼叫质量、内部呼叫与外部呼叫的呼叫质量以及 VPN 呼叫与非 VPN 呼叫的呼叫质量。
   

@@ -1,5 +1,5 @@
 ---
-title: 团队过期和续订Microsoft Teams
+title: 团队到期和续订Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: abgupta
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b2b6b346e9ffed5a9f4d3e6b03519db2f716b3ed584e0fccdfcbcfd3326d32c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e8f123bf7a351689747649b75f429588445a5d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339400"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625924"
 ---
-# <a name="team-expiration-and-renewal-in-microsoft-teams"></a>团队过期和续订Microsoft Teams
+# <a name="team-expiration-and-renewal-in-microsoft-teams"></a>团队到期和续订Microsoft Teams
 
-具有大量团队的组织通常拥有从未实际使用的团队。 发生这种情况的原因有多种，包括产品试验、短期团队协作或团队所有者离开组织。 随着时间的推移，此类团队可能会累积，给租户资源带来负担。  
+具有大量团队的组织通常拥有从未实际使用的团队。 发生这种情况的原因有多种，包括产品试验、短期团队协作或团队所有者离开组织。 随着时间的推移，此类团队可能会累积，给租户资源造成负担。  
 
-若要减少未使用的团队数，作为管理员，可以使用Microsoft 365[过期](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)策略自动清理未使用的团队。 由于团队受组支持，因此组过期策略也会自动应用于团队。
+若要减少未使用的团队数，作为管理员，可以使用组过期Microsoft 365自动清理未使用的[](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)团队。 由于团队受组支持，因此组过期策略也会自动应用于团队。
 
 向团队应用过期策略时，团队所有者将在团队到期日期之前 30 天、15 天和 1 天收到团队续订通知。 当团队所有者收到通知时，他们可以在团队设置中单击"立即续订"以续订团队。
 
@@ -37,7 +37,7 @@ ms.locfileid: "54339400"
 
 ## <a name="team-auto-renewal"></a>团队自动续订
 
-有时，团队所有者可能因为忘记续订或续订到期时离开而无法续订团队。 在这些情况下，由于适用于该团队的过期策略，活动使用中的团队可能会被删除。  
+有时，团队所有者可能因为忘记续订或续订到期而无法续订团队。 在这些情况下，由于适用于该团队的过期策略，活动使用中的团队可能会被删除。  
 
 为了防止意外删除，将自动为组过期策略中的团队启用自动续订。 设置组过期策略后，在到期日期之前至少具有任何团队成员的一个频道访问的任何团队都会自动续订，无需团队所有者的任何手动干预。
 

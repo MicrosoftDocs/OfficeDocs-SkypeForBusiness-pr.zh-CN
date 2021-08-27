@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,18 +21,18 @@ ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
 description: '了解如何在联机管理员显示Skype for Business的限制内工作。 '
-ms.openlocfilehash: d2a5903f2ce5fb5671123e7b8fca090826f39a69a8f98f5c628d0351a4b73bd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e05a07bbf4cca57a8f5c983dedec159956250cc0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334464"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592076"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype for Business联机管理中心用户页面限制
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-出于性能原因 **，Skype for Business管理中心** 会显示用户列表中的前 1，000 个用户。 如果用户数超过 1，000，请使用"筛选器筛选器"和"搜索搜索"查找要 ![ ](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)  ![ ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) 查找的特定人员。
+出于性能原因 **，Skype for Business管理中心** 会显示用户列表中的前 1，000 个用户。 如果用户数超过 1，000，请使用筛选器筛选器和搜索搜索查找要 ![ ](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)  ![ ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) 查找的特定人员。
   
 ## <a name="bulk-editing"></a>批量编辑
 <a name="__top"> </a>

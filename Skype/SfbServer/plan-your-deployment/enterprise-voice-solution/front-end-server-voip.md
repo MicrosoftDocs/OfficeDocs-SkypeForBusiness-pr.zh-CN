@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
-description: 了解位于 企业语音 前端服务器的 Skype for Business Server 组件，包括翻译服务和各种路由组件。
-ms.openlocfilehash: 5df2937d0329796f634c5b4fac21b6921001d65bf3795589ce718ba08ecd9c36
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解企业语音前端服务器上部署的组件，Skype for Business Server包括翻译服务和各种路由组件。
+ms.openlocfilehash: d3baa24366b36d1962c1102b4c25c1745a4ea625
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333114"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585016"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>用于服务器的前端服务器 VoIP Skype for Business Server
 
-了解位于 企业语音 前端服务器的 Skype for Business Server 组件，包括翻译服务和各种路由组件。
+了解企业语音前端服务器上部署的组件，Skype for Business Server包括翻译服务和各种路由组件。
 
 位于前端服务器的 VoIP 组件如下所示：
 
@@ -57,9 +57,9 @@ ms.locfileid: "54333114"
 
 ## <a name="exchange-um-routing-component"></a>Exchange UM 路由组件
 
-Exchange UM 路由组件处理 Skype for Business Server 与运行 Exchange 统一消息 (UM) 的服务器之间的路由，Skype for Business Server统一消息功能。
+um Exchange 组件处理 Skype for Business Server 与运行 Exchange 统一消息 (UM) 的服务器之间的路由，Skype for Business Server统一消息功能。
 
-如果Exchange UM 服务器不可用，则 UM 路由组件还处理通过 PSTN Exchange语音邮件的重新路由。 如果您在分支企业语音没有指向中央站点的可恢复 WAN 链接的邮箱用户，则分支站点部署的 Survivable Branch Appliance 在 WAN 中断期间为分支用户提供语音邮件生存能力。 WAN 链路不可用时，Survivable Branch Appliance 将执行以下操作：
+如果Exchange UM 服务器不可用，则 UM 路由组件还处理通过 PSTN Exchange语音邮件的重新路由。 如果分支企业语音没有指向中央站点的可恢复 WAN 链路的邮箱用户，则分支站点部署的 Survivable Branch Appliance 在 WAN 中断期间为分支用户提供语音邮件生存能力。 WAN 链路不可用时，Survivable Branch Appliance 将执行以下操作：
 
 - 通过 PSTN 将未应答的呼叫重新路由到中央站点上的 Exchange 统一消息服务器
 

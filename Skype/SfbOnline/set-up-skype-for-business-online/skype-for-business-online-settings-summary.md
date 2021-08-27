@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 ms.appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOIDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: '此摘要Skype for Business和用户设置可以帮助你了解有关公共 IM 连接、会议邀请、录制呼叫和会议等内容。  '
-ms.openlocfilehash: 7c7bb451411b8aa865f94679f70c07df1efdc2bf0b2df0c0ee0da5b92438f63a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a1320951049e5558574c36e4bde4feea46d8ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295099"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592026"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online 设置摘要
 
@@ -55,7 +55,7 @@ ms.locfileid: "54295099"
 |音频和视频  <br/> |进行音频和视频对话：使用 Skype for Business Online  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |录制  <br/> |录制呼叫和会议  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |匿名与会者拨出  <br/> |通过让音频会议提供商呼叫匿名 Skype for Business Online 与会者来允许他们进行连接  <br/> |已启用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|禁用非存档功能  <br/> | 关闭组织设置向案例添加内容并保留电子数据展示中心内电子数据[](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)展示中心内Exchange的功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/>  如果法律要求您以电子形式存储信息，请选择此选项。 <br/> |已禁用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|禁用非存档功能  <br/> | 关闭组织设置向案例添加内容并保留电子数据展示中心内电子数据[](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)展示中心内 Exchange的功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/>  如果法律要求您以电子形式存储信息，请选择此选项。 <br/> |已禁用  <br/> |[管理员：为单个用户配置 Skype for Business 设置](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: 响应组由代理组、队列和工作流组成。 响应组队列保留对响应组的呼叫，直到代理应答呼叫。
-ms.openlocfilehash: 875a76febbee305e8e2f25c6efee087575fac8d0736bd4405557795bff38e04a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1343425fd84ad2d0ad8f09513f996dfe5c30cdc3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298362"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579006"
 ---
 # <a name="response-groups-queue"></a>响应组队列
 

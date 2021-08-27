@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在管理中心中管理团队模板
-ms.openlocfilehash: a8fa2833f00c1d943bfa1b935492a80bd98444d1780eff1382b0952781aa471e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310401"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578186"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理中心中的管理团队模板
 
-在管理中心创建模板策略，管理最终用户看到的团队模板。 在每个模板策略中，可以指定显示或隐藏的模板。
+在管理中心创建模板策略，管理最终用户看到的团队模板。 在每个模板策略中，可以指定显示或隐藏哪些模板。
 将不同的用户分配到不同的模板策略，以便用户仅查看指定的团队模板子集。
 
 观看此简短视频，了解如何管理模板策略。
@@ -90,7 +90,7 @@ ms.locfileid: "54310401"
 
 **问：能否批量将用户分配到团队模板策略？**
   
-答：是的，我们支持在 PowerShell 中对模板策略进行批处理分配。 此操作的策略类型是 TeamsTemplatePermissionPolicy。 [了解详细信息](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+答：是的，我们支持在 PowerShell 中对模板策略进行批处理分配。 此操作的策略类型是 TeamsTemplatePermissionPolicy。 [了解更多信息](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **问：能否将组分配到团队模板策略？**
 
@@ -100,7 +100,7 @@ ms.locfileid: "54310401"
 
 答：默认情况下，任何新模板都可见。 可以选择在"模板策略"部分的管理中心中隐藏模板。
 
-**问：删除模板后会发生什么情况？**
+**问：删除模板时会发生什么情况？**
 
 答：任何已删除的模板将不再存在于任何模板策略中。
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用搜索查询的结果为用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: 963eec6e1db213a86c945abf4024fa188d5fd7f8aecf901c1ec944ee5892b029
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f3a605ae5352507319ec1ee5d626a20688c1beea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324351"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579216"
 ---
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
 
@@ -76,7 +76,7 @@ ms.locfileid: "54324351"
 
 ### <a name="search-results-menus"></a>搜索结果菜单
 
-- **启用用户** 单击以打开"[用户： 新建 Lync Server](ms.lync.lscp.UserNew.md)用户"对话框，可在其中添加新用户Skype for Business Server。
+- **启用用户** 单击以打开"[用户： 新建 Lync Server](ms.lync.lscp.UserNew.md)用户"对话框，可在其中添加新用户以Skype for Business Server。
 
     若要添加新联系人，请单击向下箭头，然后选择"启用 **联系人** "以打开"用户： [新建联系人对象"](ms.lync.lscp.UserNewContact.md) 对话框。
 
@@ -104,4 +104,4 @@ ms.locfileid: "54324351"
 
   - **将所选用户移动到池** 打开 ["移动用户](ms.lync.lscp.UserMove.md) "对话框，可在其中选择要将所选用户移动到的池。
 
-  - **将所有用户移动到池** 打开 ["移动用户](ms.lync.lscp.UserMove.md) "对话框，可在其中选择要将所有选定用户移动到的池。
+  - **将所有用户移动到池** 打开 ["移动用户](ms.lync.lscp.UserMove.md) "对话框，您可以在其中选择要将所有选定用户移动到的池。

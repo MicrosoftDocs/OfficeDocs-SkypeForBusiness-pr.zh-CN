@@ -11,22 +11,22 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 阅读本主题，了解下一Microsoft Teams 会议室一代会议室Skype管理。
-ms.openlocfilehash: c10b428e8ae08dfeceec5205295c1f669cd910aabc8b7617dac5be0f1ade824a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 阅读本主题，了解如何管理Microsoft Teams 会议室下一代会议室Skype管理。
+ms.openlocfilehash: 7b1773248bc34459ac0626ec39a3934461b503d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316839"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578196"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 会议室维护和操作 
  
-阅读本主题，了解下一Microsoft Teams 会议室一代会议室Skype管理。
+阅读本主题，了解如何管理Microsoft Teams 会议室下一代会议室Skype管理。
   
-Microsoft Teams 会议室是 Microsoft 的最新会议解决方案，旨在将会议室转换为丰富的协作体验。 用户将喜欢其熟悉的Microsoft Teams或Skype for Business界面，IT 管理员将非常欣赏轻松部署和管理的Windows 10 Skype 会议应用。 Microsoft Teams 会议室旨在利用现有设备（例如，用于轻松安装）的"MICROSOFT TEAMS或Skype for Business进入会议室。
+Microsoft Teams 会议室是 Microsoft 的最新会议解决方案，旨在将会议室转换为丰富的协作体验。 用户会喜欢其熟悉的Microsoft Teams或Skype for Business界面，IT 管理员将喜欢轻松部署和管理Windows 10 Skype 会议应用。 Microsoft Teams 会议室旨在利用现有设备（例如，用于轻松安装）的"MICROSOFT TEAMS或Skype for Business进入会议室。
   
-通过附加配置，Microsoft Azure Monitor 实现远程管理，如使用[Azure Monitor](azure-monitor-plan.md)规划 Microsoft Teams 会议室 管理、使用 Azure Monitor 部署[Microsoft Teams 会议室](azure-monitor-deploy.md)管理、使用[Azure Monitor 管理 Microsoft Teams 会议室](azure-monitor-deploy.md)设备中所述。 还可使用 XML [Microsoft Teams 会议室](xml-config-file.md)远程管理主机设置，其中包括应用自定义显示主题。 
+通过附加配置，Microsoft Azure Monitor 实现远程管理，如使用 Azure [Monitor](azure-monitor-plan.md)规划 Microsoft Teams 会议室 管理、使用[Azure Monitor](azure-monitor-deploy.md)部署 Microsoft Teams 会议室 管理、使用[Azure Monitor 管理 Microsoft Teams 会议室](azure-monitor-deploy.md)设备中所述。 还可使用 XML [Microsoft Teams 会议室](xml-config-file.md)远程管理主机设置，其中包括应用自定义显示主题。 
   
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>在 Microsoft Teams 会议室
 <a name="Logs"> </a>
@@ -45,12 +45,12 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 将会议室前端显示屏配置为扩展模式。 这样做可确保当你在显示器上循环电源时，控制台 UI 不会重复显示。
   
 > [!NOTE]
-> 如果希望房间前显示自动切换到活动视频源 (例如当源从备用模式唤醒时) 的一个"市/站"控制台，则必须满足某些条件。 此功能是可选的，但受 Microsoft Teams 会议室的支持，但基础硬件支持该功能。 用作房间前显示器的消费者电视需要支持 HDMI 的使用者 (CEC) 功能。  根据所选的扩展坞或主机 (可能不支持 CEC，请参阅制造商支持文档) ，需要来自 Crestron 的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 Extron 的 [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) 等控制器才能启用所需行为。 
+> 如果希望房间前显示自动切换到活动视频源 (例如当源从备用模式唤醒时) 的一个监控主机，则必须满足某些条件。 此功能是可选的，但受 Microsoft Teams 会议室的支持，但基础硬件支持该功能。 用作房间前显示器的消费者电视需要支持 HDMI 的 CEC (控制) 功能。  根据所选的扩展坞或主机 (可能不支持 CEC，请参阅制造商支持文档) ，需要来自 Crestron 的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 Extron 的 [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) 等控制器才能实现所需行为。 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams 会议室重置 (恢复出厂) 
 <a name="Reset"> </a>
 
-如果Microsoft Teams 会议室运行不佳，执行恢复出厂设置可能会有所帮助。 为此，请使用"Microsoft Teams[恢复工具](recovery-tool.md)，并按照工厂还原说明进行操作。
+如果Microsoft Teams 会议室运行不佳，执行恢复出厂设置可能会有所帮助。 为此，请使用"Microsoft Teams[恢复工具](recovery-tool.md)并按照工厂还原说明进行操作。
 
 > [!NOTE]
 > 存在一个已知问题 **，Microsoft Teams 会议室"** 保留我的文件 - 删除应用和设置，但保留个人文件"选项在"重置"过程中Windows不可用。 *请不要* 使用此选项。
@@ -63,7 +63,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |工作组 |未加入域|加入域|
 |:-----|:-----|:-----|
-|重新启动  <br/> |Teams管理中心  <br/> 远程桌面  <br/> 远程 PowerShell  <br/> | <br/>远程桌面 (需要进一步配置)   <br/> 远程 Powershell (需要进一步配置)   <br/> 配置管理器  <br/> |
+|重新启动  <br/> |Teams管理中心  <br/> 远程桌面  <br/> 远程 PowerShell  <br/> | <br/>远程桌面 (需要进一步)   <br/> 远程 Powershell (需要进一步配置)   <br/> 配置管理器  <br/> |
 |更新操作系统  <br/> |Windows 更新  <br/> |Windows 更新  <br/> WSUS  <br/> |
 |应用更新  <br/> |Windows 应用商店  <br/> |Windows 应用商店  <br/> 配置管理器  <br/> |
 |帐户配置  <br/> |Teams管理中心  <br/> |Teams管理中心  <br/> |
@@ -84,7 +84,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 配置文件项 中讨论了使用组 [策略传输文件](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))。
 
 > [!NOTE]
-> 当Microsoft Teams 会议室与下一版本的 Windows 10 OS 兼容时，设备会通过 Windows 更新自动更新到下一版本。 Microsoft Teams 会议室 设备不应手动或通过启用 Windows Update for Business (WUFB) 组策略手动升级到下一个 Windows 10 版本"，而应该通过 GPO 启用"选择要接收的更新的 Windows 就绪状态级别"和"选择何时收到预览版本和功能更新"。 已知启用了这些组策略的设备在更新应用时Windows 10 OS Microsoft Teams 会议室问题。
+> 当Microsoft Teams 会议室与下一版本的 Windows 10 OS 兼容时，设备会通过 Windows 更新自动更新到下一版本。 Microsoft Teams 会议室 设备不应手动或通过启用 Windows Update for Business (WUFB) 组策略"选择要接收的更新的 Windows 就绪状态级别"和通过 GPO 启用"选择何时接收预览版本和功能更新"来手动升级到下一版本 Windows 10。 已知启用了这些组策略的设备在应用Windows 10 OS Microsoft Teams 会议室时遇到问题。
 
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 进行远程管理
 <a name="RemotePS"> </a>
@@ -106,7 +106,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 1. 在设备上以管理员Microsoft Teams 会议室登录。
 2. 打开提升权限的 PowerShell 命令提示符。
 3. 输入以下命令： `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. 打开"本地安全策略"，*将"管理员* 安全组"添加到"安全设置  >    >  **策略用户** 权限分配  >  **从网络访问此计算机**。
+4. 打开"本地安全策略"，*将"管理员* 安全组"添加到"安全设置  >    >  **策略""** 用户权限分配  >  **"从网络访问此计算机**。
 
 执行管理操作：
   
@@ -114,7 +114,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 2. 在电脑上打开常规 PowerShell 命令提示符。
 3. 复制下表中的命令文本，并将其粘贴到提示符下。
 4. 将  `<Device fqdn>` 字段替换为适合环境的 FQDN 值。
-5. 将  *\<path\>*  替换为主文件配置文件或主题SkypeSettings.xml的 (和本地) 。
+5. 将  *\<path\>*  替换为主文件夹配置文件SkypeSettings.xml或主题 (的文件名) 。
     
 获取附加设备
   
@@ -165,16 +165,16 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>软件更新
 <a name="SWupdate"> </a>
 
-默认情况下，Microsoft Teams 会议室尝试连接到 Windows Store 以获取最新版本的 Microsoft Teams 会议室 软件，因此设备需要定期 Internet 访问。 在联系 Microsoft 解决支持问题之前，Microsoft Teams 会议室设备已加载最新版本的应用。
+默认情况下，Microsoft Teams 会议室尝试连接到 Windows Store 以获得最新版本的 Microsoft Teams 会议室 软件，因此设备需要定期 Internet 访问。 在联系 Microsoft 解决支持问题之前，Microsoft Teams 会议室设备已加载最新版本的应用。
   
 默认情况下，Microsoft Teams 会议室连接到 Windows Update 以检索操作系统和 USB 外围设备固件更新，并安装在配置的营业时间之外。 你可以通过登录管理员帐户并运行“设置”应用来配置办公时间。
   
-如果要手动管理更新，并且无法遵循[适用于企业的 Microsoft Store](https://businessstore.microsoft.com/store)分发脱机应用的常规过程，可以从部署工具包[ (](https://go.microsoft.com/fwlink/?linkid=851168) [](/microsoft-store/distribute-offline-apps)获取相应的 APPX 文件和依赖项，这些说明中提供了配置[Microsoft Teams 会议室](console.md)控制台) ，该说明可用于配置管理器。 部署工具包发布滞后于应用商店版本，因此可能无法始终匹配最新的可用版本。
+如果要手动管理更新，并且无法按照[适用于企业的 Microsoft Store](https://businessstore.microsoft.com/store)分发脱机应用的常规过程操作，可以从部署工具包[ (](https://go.microsoft.com/fwlink/?linkid=851168)获取相应的 APPX 文件和依赖项，这些操作遵循配置[Microsoft Teams 会议室](console.md)控制台) （可与配置管理器一起使用）的说明。 [](/microsoft-store/distribute-offline-apps) 部署工具包发布滞后于应用商店版本，因此可能无法始终匹配最新的可用版本。
   
 ### <a name="to-update-using-powershell"></a>使用 Powershell 进行更新
 
 1. 将程序包从 [安装 MSI 提取](https://go.microsoft.com/fwlink/?linkid=851168) 到设备可以访问的共享。
-2. 针对以下设备运行Microsoft Teams 会议室脚本，并 \<share\> 适当地更改到设备共享：
+2. 针对以下设备运行Microsoft Teams 会议室脚本， \<share\> 并适当地更改到设备共享：
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -183,12 +183,12 @@ Copy-Item $movefile $targetDevice
 ## <a name="admin-mode-and-device-management"></a>管理模式和设备管理
 <a name="AdminMode"> </a>
 
-某些管理功能（例如手动安装专用 CA 证书）需要将 Surface Pro设备置于管理模式。 
+某些管理功能（如手动安装专用 CA 证书）需要将 Surface Pro设备置于管理模式。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>切换到管理模式，在应用运行时Microsoft Teams 会议室后退
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>切换到管理模式，在应用运行时Microsoft Teams 会议室切换
 
 1. 挂断任何正在进行的呼叫，然后返回到主屏幕。
-2. 选择"齿轮"图标并弹出菜单， (**选项包括** 设置、**辅助功能** 和 **重启设备) 。**
+2. 选择"齿轮"图标并弹出菜单， (选项包括 **设置、** 辅助功能 **和****重启设备) 。**
 3. 选择“**设置**”。
 4. 输入管理员密码。 将显示“设置”屏幕。  如果设备未加入域，则默认 (用户名"Admin") 本地管理帐户。 此帐户的默认密码为"sfb"，请尽快更改密码。 如果计算机已加入域，可以使用适当的特权域帐户登录。 
 5. 选择 **Windows 设置** 列中的"列"。

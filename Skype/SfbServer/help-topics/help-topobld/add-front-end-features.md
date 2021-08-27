@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: 选择要为前端池启用的每个功能。 至少必须部署即时消息 (IM)，IM 始终启用且不能取消选择。 还可以选择部署其他功能，如会议、企业语音以及呼叫允许控制 (CAC)。 某些功能依赖于拓扑。
-ms.openlocfilehash: 9c55d0dbd9f40da1782bba13ed280774fd8dfad62e9855f53bf4f6cc6e60c26d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79aadaa3d7adde3c047c6d389626d72fbfc88dc3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298332"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578946"
 ---
 # <a name="add-front-end-features"></a>添加前端功能
 

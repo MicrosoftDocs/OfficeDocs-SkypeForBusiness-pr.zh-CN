@@ -9,18 +9,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: '如何配置启用媒体旁路功能的中继。 '
-ms.openlocfilehash: 1f129abf44cf35f0c76e026861ba6b0fba1e551e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 00a13c046fa3d830f73e933d9764ac9024687a88
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598806"
 ---
 # <a name="skype-for-business-server---configure-a-trunk-without-media-bypass"></a>Skype for Business Server - 配置无媒体旁路的中继
 
-如果要配置禁用媒体旁路功能的中继，请执行以下步骤。 如果要配置启用媒体旁路功能的中继，请参阅在"配置具有媒体旁路功能的中继[Skype for Business Server"。](configure-a-trunk-with-media-bypass.md)
+如果要配置禁用媒体旁路功能的中继，请执行以下步骤。 如果要配置启用媒体旁路功能的中继，请参阅在"配置具有媒体旁路[功能的中继Skype for Business Server"。](configure-a-trunk-with-media-bypass.md)
 
 如下所述，中继配置可对应用于已分配此中继配置的中继的一组参数进行分组。特定中继配置的作用域可以是全局中继（针对没有更多特定站点或池配置的所有中继）、站点或者池。池级中继配置用于将特定中继配置的作用域限制为单个中继。
 
@@ -76,10 +76,10 @@ ms.locfileid: "58233937"
 
 11. 应选择“启用 RTP 闭锁”，以便为 NAT 或防火墙之后的客户端以及支持闭锁的 SBC 启用媒体旁路。
 12. **应选择"** 启用前向呼叫历史记录"以允许将呼叫历史记录信息发送到中介服务器的对等网关。
-13. 应选择"启用转发 **P-Asserted-Identity** 数据"，以便可以在中介服务器端和网关端 (之间转发 PAI 呼叫发起方信息，反之亦然) （存在此情况）。
+13. 应选择"启用转发 **P-Asserted-Identity** 数据"，以使 PAI 呼叫发起方信息可以在中介服务器端和网关端 (（如果) ）转发。
 14. 应选择“启用出站路由故障转移计时器”以支持快速故障转移。 与此中继关联的网关可以在 10 秒内发出正在处理出站呼叫的通知。 如果中介服务器未收到此通知，将重新路由到另一个中继。 在延迟设置可能延迟响应时间或网关需要 10 秒以上时间进行响应的网络中，应禁用快速故障转移。
 15.  (可选) **关联和配置中继** 的呼叫号码转换规则。 这些转换规则适用于出站呼叫的呼叫号码。
-    - 若要从部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
+    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
     - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关定义新规则的详细信息，请参阅在 Skype for Business Server[中定义转换规则](defining-translation-rules.md)。
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。 有关详细信息，请参阅在 Skype for Business Server 中[定义转换规则](defining-translation-rules.md)。
     - 要复制现有的转换规则以作为定义新规则的起点，请单击相应的规则名称，再单击“复制”，然后单击“粘贴”。 有关详细信息，请参阅在 Skype for Business Server 中[定义转换规则](defining-translation-rules.md)。
@@ -89,7 +89,7 @@ ms.locfileid: "58233937"
     > 如果已在关联的中继对等方上配置了转换规则，则不要将任何转换规则与中继相关联，因为这两种规则可能会发生冲突。 
 
 16. （可选）关联和配置中继的“已呼叫号码转换规则”。这些转换规则适用于出站呼叫中的已呼叫号码。
-    - 若要从部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在"选择转换规则"中，单击要与中继关联的规则，然后单击"确定 **"。**
+    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在"选择转换规则"中，单击要与中继关联的规则，然后单击"确定 **"。**
     - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关定义新规则的详细信息，请参阅在 Skype for Business Server[中定义转换规则](defining-translation-rules.md)。
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。 有关详细信息，请参阅在 Skype for Business Server 中[定义转换规则](defining-translation-rules.md)。
     - 要复制现有的转换规则以作为定义新规则的起点，请单击相应的规则名称，再单击“复制”，然后单击“粘贴”。 有关详细信息，请参阅在 Skype for Business Server 中[定义转换规则](defining-translation-rules.md)。

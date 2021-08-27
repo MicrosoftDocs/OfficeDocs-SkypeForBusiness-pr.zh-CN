@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: 使用Microsoft Teams Microsoft Graph构建的预定义模板，快速轻松地为中小型企业创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 971b7b0d3be009938a05b7b8fd38105cc273d6158309c69c30cb7c22c51d3fce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80ebae188ce6b6f00186a9e97a25eb4c006930da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625944"
 ---
 # <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams Microsoft Graph 小型企业版中构建的模板
 
@@ -57,11 +57,11 @@ Content-Type: application/json
 
 ## <a name="executive-team-template"></a>执行团队模板
 
-"执行团队"模板非常适合创建一个团队，供公司主管就年度优先级、预算、战略计划以及顶级客户等公司计划进行沟通和协作。 此模板附带一个 *专用* 通道，用于邀请特定主题的选定用户。
+"执行团队"模板非常适合创建一个团队，供公司主管就年度优先级、财务预算、战略计划以及顶级客户等公司计划进行沟通和协作。 此模板附带一个 *专用* 通道，用于邀请特定主题的选定用户。
 
 | 基本模板类型  | baseTemplateId | 此基本模板包含的属性 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>高管团队 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 频道 <ul><li>常规\*</li><li>专用 \*</li></ul> 应用<ul><li>OneNote (固定到专用 **频道)**</li> <li>Planner (固定到"专用 **"** 频道)  </li></ul><br>团队属性 <ul><li>团队可见性设置为“专用”</li></ul> | 
+| SMB - <br>高管团队 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | 频道 <ul><li>常规\*</li><li>专用 \*</li></ul> 应用<ul><li>OneNote (已固定到专用 **频道**) </li> <li>Planner (已固定到" **专用"** 频道)  </li></ul><br>团队属性 <ul><li>团队可见性设置为“专用”</li></ul> | 
 
 *自动收藏的频道<br>
 
@@ -81,11 +81,11 @@ Content-Type: application/json
 
 ## <a name="departmental-team-template"></a>部门团队模板
 
-部门团队模板可用于为各个部门或项目创建团队。 财务团队模板非常适合财务团队成员和高层团队成员内部的所有帖子、公告以及日常协作和通信。 该模板附带一个 *专用* 通道，用于邀请特定主题的选定用户。 我们还为财务团队提供以下脚本，该脚本可用于通过添加、删除或编辑来将模板扩展到其他部门或特定项目。 例如，如果您有 *营销部门，* 则可以通过将团队从 Finance 重命名为 *Marketing* 来修改脚本，以创建新的市场营销团队
+部门团队模板可用于为各个部门或项目创建团队。 财务团队模板非常适合财务团队成员和高层团队成员内部的所有帖子、公告以及日常协作和通信。 该模板附带一个 *专用* 频道，用于邀请特定主题的选定用户。 我们还为财务团队提供以下脚本，该脚本可用于通过添加、删除或编辑来将模板扩展到其他部门或特定项目。 例如，如果您有 *营销部门，* 则可以通过将团队从 Finance 重命名为 *Marketing* 来修改脚本，以创建新的市场营销团队
 
 | 基本模板类型 | baseTemplateId | 此基本模板包含的属性 |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>财务  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 频道 <ul><li>常规\*</li><li>专用 \*</li></ul><br> 应用<ul><li>OneNote (固定到专用 **频道)**</li> <li>Planner (固定到"专用 **"** 频道)  </li> </ul><br>团队属性 <ul><li>团队可见性设置为“专用”</li></ul> | 
+| SMB - <br>财务  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| 频道 <ul><li>常规\*</li><li>专用 \*</li></ul><br> 应用<ul><li>OneNote (已固定到专用 **频道**) </li> <li>Planner (已固定到" **专用"** 频道)  </li> </ul><br>团队属性 <ul><li>团队可见性设置为“专用”</li></ul> | 
 
 *自动收藏的频道
 

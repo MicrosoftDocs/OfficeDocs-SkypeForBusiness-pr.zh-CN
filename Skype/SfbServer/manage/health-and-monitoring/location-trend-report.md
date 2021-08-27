@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 摘要：了解 Skype for Business Server 中的位置趋势报告。
-ms.openlocfilehash: 1ca84e4122c26743cfc97addad6c3ef09d568a28b838e1b93dc1f4e900d2e48a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Summary： Learn about the Location Trend Report in Skype for Business Server.
+ms.openlocfilehash: e0d74d6c2ed44695ac95c47f3c9ad7313989d559
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276767"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598959"
 ---
 # <a name="location-trend-report-in-skype-for-business-server"></a>位置趋势报告Skype for Business Server
  

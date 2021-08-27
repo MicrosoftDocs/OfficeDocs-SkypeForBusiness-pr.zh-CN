@@ -9,29 +9,29 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 摘要：了解 Skype for Business Server 中的系统使用情况报告。
-ms.openlocfilehash: 05704b507e52785e0b34c69616fce338a0e6c3a271e72d4f15eb5a126771bb11
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f98e78319e872f978004ac32e24802c6b62bd36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280057"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598826"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>系统使用情况报告中Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的系统使用情况Skype for Business Server。
   
-系统使用情况报告基于呼叫 (详细信息记录和 CDR) 收集的 CDR Skype for Business Server提供系统Skype for Business Server。
+系统使用情况报告根据呼叫详细信息记录和 CDR (提供系统使用情况) 由呼叫者收集的数据Skype for Business Server。
   
 ## <a name="in-this-section"></a>本节内容
 
 - [用户注册报告中Skype for Business Server](user-registration-report.md)
     
-    根据注册事件（如用户登录Skype for Business Server用户连接摘要。 该报告提供了一种查看内部和外部登录，并将登录到 Skype for Business Server 的用户数与登录时实际使用该服务的用户数进行比较的方法。
+    根据注册事件（如用户登录Skype for Business Server用户连接摘要。 该报告提供了一种方法，用于查看内部和外部登录，并将登录到 Skype for Business Server 的用户数与登录时实际使用该服务的用户数进行比较。
     
-- [报告中的对等活动摘要Skype for Business Server](peer-to-peer-activity-summary-report.md)
+- [企业中的点对点活动摘要Skype for Business Server](peer-to-peer-activity-summary-report.md)
     
     提供点对点即时消息 (IM)、音频、视频、文件传输和应用程序共享会话摘要。点对点会话是仅涉及两个用户的会话。
     
@@ -49,7 +49,7 @@ ms.locfileid: "54280057"
     
 - [IP 电话清单报告Skype for Business Server](ip-phone-inventory-report.md)
     
-    提供有关组织中当前使用的 IP 电话的信息。 报告基于电话注册和登录。 不应将清单视为完整的清单。 例如，您可能已删除报告中仍然列出的电话，因为它们至少登录过一次。 同样，您可能还具有新电话，它们不会显示在报告中，原因很简单，因为用户尚未登录Skype for Business Server新电话进行登录。
+    提供有关组织中当前使用的 IP 电话的信息。 报告基于电话注册和登录。 它不应被视为完整的清单。 例如，您可能已删除报告中仍列出的电话，因为它们至少登录过一次。 同样，您也可能有一些新电话不会在报告中显示，原因很简单，因为用户尚未登录Skype for Business Server新电话进行登录。
     
 - [呼叫允许控制报告Skype for Business Server](call-admission-control-report.md)
     

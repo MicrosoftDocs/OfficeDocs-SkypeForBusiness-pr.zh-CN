@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何提高认知度并实施培训计划，以Microsoft Teams采用。
 f1.keywords:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ea6dbf8dbf7e1f50164348095e673d086ffbcaadcf18866e9e1248ff35bfa0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7590d2041ed64f62765b33c291414abb618d1699
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348607"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625864"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
-认知和培训是总体采用策略的市场营销和通信部分。 这将确保你的员工了解 Microsoft Teams 的新功能及其基础Microsoft 365或Office 365应用。
+认知和培训是总体采用策略的市场营销和通信部分。 这将确保员工了解服务应用的新功能Microsoft Teams其基础Microsoft 365或Office 365应用。
    
 对于初始试点和最终公司范围内的部署，内部沟通都应该是一个优先事项。 它们应包括：
 
@@ -45,7 +45,7 @@ ms.locfileid: "54348607"
 
 完成初始试点后，可以扩展上述工作，以覆盖整个组织。 根据你的大小，这可能需要一些时间，并按区域、用户配置文件或组织分阶段处理。 在此大规模推出期间，鼓励组织中通信者的参与。 我们建议这些人员尽早参与，并且通常使用可用的采用材料或设计自己的材料。
 
-如果您的公司有一个中央 Intranet 门户用于新闻、信息或支持，您可以使用它作为中心来了解此推出的信息。提供广泛可用的自助信息、培训和书面指南可让用户快速上手。 一旦可用，许多Teams就会跳入，我们鼓励这样做。 我们还知道，每个人都以不同方式学习;中心信息门户可以支持组织内的所有学习风格。
+如果您的公司有一个中央 Intranet 门户用于新闻、信息或支持，您可以使用它作为中心来了解此推出的信息。提供广泛可用的自助信息、培训和书面指南可让用户快速上手。 许多用户只需在可用Teams就跳入，我们鼓励这样做。 我们还知道，每个人都以不同方式学习;中心信息门户可以支持组织内的所有学习风格。
 
 ## <a name="implement-end-user-training"></a>实施最终用户培训
 
@@ -54,7 +54,7 @@ ms.locfileid: "54348607"
 - [教师引导型最终用户培训Teams](instructor-led-training-teams-landing-page.yml)
 - [管理员培训Teams](itadmin-readiness.md)
 - [在线最终用户视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [云中咖啡在线培训，& IT 专业人员](https://aka.ms/CoffeeintheCloud) 
+- [云中咖啡在线培训，为& IT 专业人员](https://aka.ms/CoffeeintheCloud) 
 - [采用工具](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>度量和分享成功

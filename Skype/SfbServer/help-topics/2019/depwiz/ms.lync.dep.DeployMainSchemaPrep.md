@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要为 Active Directory 域服务准备架构，请运行部署向导中的"准备Skype for Business Server步骤。 单击“运行”可开始准备架构。
-ms.openlocfilehash: d2dfd0525d0ec1fa1ee46479194b029b1db591781303436f008ed5d3900f01be
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5dd2a7958eafc65f69a6df4344f10973714b58a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340118"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626054"
 ---
 # <a name="prepare-schema"></a>准备架构
  
@@ -44,9 +44,9 @@ ms.locfileid: "54340118"
     
 4. 架构扩展成功后，将域控制器重新连接到网络，并确保复制为活动状态且正常工作。
     
-5. 万一架构扩展失败，则使用之前执行的系统状态备份还原域控制器和 Active Directory 的系统状态。
+5. 如果架构扩展失败，则使用之前使用的"系统状态"备份还原域控制器和 Active Directory 的系统状态。
     
 > [!NOTE]
-> 如果需要查看 Skype for Business Server 部署向导创建的日志文件，可以在运行部署向导的计算机上找到这些文件，位置是运行该步骤的 Active Directory 用户的 Users 目录。 例如，如果用户以域 Contoso.net 的域管理员身份登录，则日志文件位于：C：\Users\Administrator.Contoso\AppData\Local\Temp 
+> 如果需要查看 Skype for Business Server 部署向导创建的日志文件，可以在运行部署向导的计算机上找到这些文件，位置为运行该步骤的 Active Directory 用户的 Users 目录。 例如，如果用户以域 Contoso.net 的域管理员身份登录，则日志文件位于：C：\Users\Administrator.Contoso\AppData\Local\Temp 
   
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 摘要：了解呼叫诊断摘要报告Skype for Business Server。
-ms.openlocfilehash: 35b6a9ac84bf504b218200ec2ac49e6f19632e520eba90335e9ab0257f4bcfcc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b3da3315566db66876329ab257ff6fa8d78f81b3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281835"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585076"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>呼叫诊断摘要报告Skype for Business Server
  
@@ -37,7 +37,7 @@ ms.locfileid: "54281835"
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>访问呼叫诊断摘要报告
 
-呼叫诊断摘要报告是从监控报告主页访问的。 从呼叫诊断摘要报告中，可以通过单击报告的点对点会话摘要部分下的故障率指标来访问[Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)中的点对点活动诊断报告。 您还可以通过单击以下任一会议指标[Skype for Business Server](conference-diagnostic-report.md)会议诊断报告：
+呼叫诊断摘要报告是从监控报告主页访问的。 从呼叫诊断摘要报告中，可以通过单击报告的点对点会话摘要部分下的故障率指标来访问[Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)中的点对点活动诊断报告。 您还可以通过单击以下任[](conference-diagnostic-report.md)一会议Skype for Business Server访问会议诊断报告：
   
 - 总体会话故障率
     
