@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
 description: 管理员可以了解如何将会议室Skype电脑加入 Active Directory 域，以及执行此操作的注意事项。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: caab82c853eb584ba304569daa49963eea847143b59a8413f77455ee9800c8fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7956160f57971e48f1f979a7c0a905d760b767bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346159"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579596"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -30,12 +30,12 @@ ms.locfileid: "54346159"
   
 ## <a name="domain-joining-considerations"></a>域加入注意事项
 
-可以将会议室Skype设备电脑加入 Active Directory 域，或将该设备留在"工作组"中。 做此决定之前请考虑以下事项：
+可以将会议室Skype设备电脑加入 Active Directory 域，或将设备留在"工作组"中。 做此决定之前请考虑以下事项：
   
 - 将会议室系统Skype电脑加入域有助于自动导入组织的专用根证书链。
 - 使用会议室系统Skype电脑加入域可授予域用户和组管理权限。 这样做，你不必记住本地计算机级别的管理员帐户密码。
-- 将 Skype 会议室系统设备电脑加入域时，需要创建单独的组织单位 (OU) ，以便可以将组策略对象 (GPO) 排除项提供到所有 Skype 会议室系统计算机对象所在的 OU。 执行此操作时，在 OU 中创建计算机对象，Skype会议室系统设备电脑加入域。
-- 许多组织具有以下 GPO，这Skype会议室系统设备电脑功能。 确保在会议室系统 OU 中重写或阻止Skype GPO：
+- 将 Skype 会议室系统设备电脑加入域时，需要创建单独的组织单位 (OU) ，以便可以将组策略对象 (GPO) 排除项提供到所有 Skype 会议室系统计算机对象所在的 OU。 这样做时，在 OU 中创建计算机对象，Skype会议室系统设备电脑加入域。
+- 许多组织具有以下 GPO，这Skype会议室系统设备电脑功能。 确保在会议室系统 OU 中重写或阻止Skype GPO 的继承：
 
   - 登录会话的超时（自动锁定）
   - 与电源管理相关的策略
@@ -46,9 +46,9 @@ ms.locfileid: "54346159"
   - 在所有加入域的计算机上创建另一个域用户帐户。
   - 将Windows更新推送Skype会议室系统
     
-- 或者，你可能决定将家用电脑留在工作组中。 与桌面客户端Microsoft Teams Skype for Business一样，这要求在会议室系统设备电脑上Skype根证书链。 如果部署使用的是公共证书链，则不需要导入根证书链 (例如，Entrust、VeriSign 等) 。 
+- 或者，你可能决定将家用电脑留在工作组中。 与桌面客户端Microsoft Teams Skype for Business一样，这要求在会议室系统Skype上手动导入根证书链。 如果部署使用的是公共证书链，则不需要导入根证书链 (例如，Entrust、VeriSign 等) 。 
     
-如果计划将 Skype Room System 计算机加入域，为了避免无意中将 Skype 会议室系统计算机加入意外的 OU（可能无法从 GPO 中释放）中，请确保加入正确的 OU。 可以使用会议室系统计算机中的以下 cmdlet Skype加入正确的 OU，并且不会收到可能会阻止 LRS 功能的 GPO。 请联系系统管理员或 OEM 合作伙伴来运行以下 cmdlet：
+如果计划将 Skype Room System 计算机加入域，为了避免无意中将 Skype 会议室系统计算机加入意外的 OU（可能无法从 GPO 中释放）中，请确保加入正确的 OU。 可以使用会议室系统Skype以下 cmdlet 加入正确的 OU，并且不会收到可能会阻止 LRS 功能的 GPO。 请联系系统管理员或 OEM 合作伙伴来运行以下 cmdlet：
   
 ```powershell
 $username = "contso.local\LRS01"

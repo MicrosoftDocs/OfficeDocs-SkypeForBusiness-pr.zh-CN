@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
 description: 了解如何使用服务质量 (QoS) 优化桌面客户端Microsoft Teams网络流量。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: efe36f1ada9e8c98a82d8d5ece0cee2d9058aa318ef174f6d1b704f1c7f1e178
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c283a66db274bc8723d429631bf265fdb0f5206b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282885"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606011"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>在客户端中实现服务质量 (QoS) Microsoft Teams服务
 
@@ -53,11 +53,11 @@ ms.locfileid: "54282885"
 
 1. 在组策略管理编辑器中，展开"**计算机** 配置"，展开Windows 设置，右键单击"基于策略的 **QoS"，** 然后单击"**创建新策略"。** 
 
-1. 在" **基于策略的 QoS"** 对话框的打开页上，在"名称"框中键入新 **策略** 的名称。 选择 **"指定 DSCP 值**"，将值设置为 **46。** 将 **"指定出站限制速率"** 保留未选择，然后单击"下一 **步"。**
+1. 在" **基于策略的 QoS"** 对话框的打开页上，在"名称"框中键入新 **策略** 的名称。 选择 **"指定 DSCP 值**"，将值设置为 **46。** 将 **"指定出站限制速率"** 保留未选择，并单击"下一 **步"。**
 
-1. 下一页上，选择"**仅具有此可执行文件** 名称的应用程序"，Teams.exe **名称，** 然后单击"下一 **步"。** 此设置指示策略仅优先处理来自客户端的Teams流量。
+1. 下一页上，选择"**仅具有此可执行文件** 名称的应用程序"，输入Teams.exe，然后单击"下 **一****步"。** 此设置指示策略仅优先处理来自客户端的Teams流量。
 
-1. 第三页上，确保同时选中"任何 **源 IP** 地址"和"任何 **目标 IP** 地址"，并单击"下一步 **"。** 这两个设置可确保无论哪个计算机 (IP 地址) 数据包，以及哪个计算机 (IP 地址) 数据包都将进行管理。
+1. 第三页上，确保同时选中"任何 **源 IP** 地址"和"任何 **目标 IP** 地址"，并单击"下一步 **"。** 这两个设置可确保无论哪个计算机 (IP 地址) 数据包，以及哪个计算机 (IP 地址) 数据包都会进行管理。
 
 1. 在"第 4 页"的"**选择此 QoS** 策略应用于的协议"下拉列表中选择"TCP 和 **UDP"。** TCP (传输控制协议) UDP (用户数据报协议) 是最常用的两种网络协议。
 
@@ -79,7 +79,7 @@ ms.locfileid: "54282885"
 
 若要验证组策略对象中的值是否已设置，请执行以下步骤：
 
-1. 以管理员角色打开命令提示符 (*以管理员角色运行) 。*
+1. 以管理员角色打开命令提示符 (*以管理员) 。*
 
 1. 在命令提示符下，输入
 

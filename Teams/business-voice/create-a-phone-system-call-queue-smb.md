@@ -1,5 +1,5 @@
 ---
-title: 在企业 - 小型企业Microsoft Teams呼叫队列
+title: 在小型企业教程中Microsoft Teams呼叫队列
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -15,29 +15,29 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何在 Microsoft 365 商务语音 中为小型企业设置呼叫Microsoft 365 商务语音。
-ms.openlocfilehash: 7c374819fd142d86d53c92b32f2799b861833006371ee4038a4769eaeb396f0a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7267d2d7116f40d29405510a924b5ec560037d0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286181"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605981"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>创建呼叫队列 - 小型企业教程
 
-呼叫队列提供将呼叫者路由到组织中可以解决特定问题或问题的人的方法。 呼叫一次一个地分配给队列中 (称为代理 *) 。* 
+呼叫队列提供了将呼叫者路由到组织中可以解决特定问题或问题的人的方法。 呼叫一次一个地分配给队列中 (称为代理 *) 。* 
 
 呼叫队列提供：
 
 - 问候消息。
 
-- 音乐在等待队列中等待时，
+- 音乐排入队列等待时，将打开队列。
 
 - 调用路由 - 在 *"先* 到先出" (FIFO) 顺序 - 到代理。
 
@@ -45,13 +45,13 @@ ms.locfileid: "54286181"
 
 #### <a name="video-demonstration"></a>视频演示
 
-此视频演示如何在 Teams。
+此视频演示如何在 Teams 中创建呼叫队列。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### <a name="before-you-begin"></a>开始之前
 
-获取电话系统[- 虚拟用户](../teams-add-on-licensing/virtual-user.md)许可证（如果还没有）。 为计划设置的每个呼叫队列和自动助理获取一个。 这些许可证是免费的，因此我们建议获取一些额外的许可证，以防你决定在将来对设置进行更改。
+获取电话系统[-](../teams-add-on-licensing/virtual-user.md)虚拟用户许可证（如果还没有）。 为计划设置的每个呼叫队列和自动助理获取一个。 这些许可证是免费的，因此如果你决定在将来对设置进行更改，我们建议额外获取一些许可证。
 
 由于呼叫队列中的代理可能会拨出以返回客户呼叫，因此请考虑将呼叫代理的呼叫者 ID 设置为主电话号码或相应的自动助理号码。 有关详细信息[，请参阅管理](../caller-id-policies.md)Microsoft Teams 中的来电显示策略。
 
@@ -61,13 +61,13 @@ ms.locfileid: "54286181"
 
 # <a name="step-1brcreate-a-team"></a>[步骤 1 <br> 创建团队](#tab/create-team)
 
-创建呼叫队列时，可以将单个用户添加到队列，或者可以使用现有的安全组、Microsoft 365组或Microsoft Teams团队。 建议使用 [团队频道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 这样，队列成员可以相互聊天、分享想法以及创建文档或其他资源，以帮助他们帮助客户。 团队还提供语音邮箱，让呼叫者在数小时后或队列达到最大容量时留下消息。
+创建呼叫队列时，可以将单个用户添加到队列，或者可以使用现有的安全组、Microsoft 365组或Microsoft Teams团队。 建议使用 [团队频道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 这样，队列的成员可以彼此聊天、分享想法以及创建文档或其他资源，以帮助他们帮助客户。 团队还提供语音邮箱，让呼叫者在数小时后或队列达到最大容量时留下消息。
 
 创建团队
 
-1. 首先 **，Teams** 左侧的"团队"，然后单击团队列表底部的"加入或创建团队"。
+1. 首先 **，Teams** 左侧单击"团队"，然后单击团队列表底部的"加入或创建团队"。
 
-2. 然后单击" **创建团队 (** 卡片，左上角显示) 。
+2. 然后单击" **创建团队** (第一张卡片（左上角）) 。
 
 3. 选择 **"从头开始构建团队"。**
 
@@ -85,7 +85,7 @@ ms.locfileid: "54286181"
 
 添加频道
 
-1. 在Teams中，找到刚创建的团队，单击"更多选项" (...) ，然后单击"添加 **频道"。**
+1. 在Teams中，找到刚创建的团队，单击"更多选项" (...) ，然后单击"添加 **频道"。** 
 
 2. 键入频道的名称和说明。
 
@@ -106,7 +106,7 @@ ms.locfileid: "54286181"
 
 2. 单击“**添加**”。
 
-3. 在"**添加资源帐户"** 窗格中，填写"**显示名称**、**用户名"，** 然后选择"呼叫队列 **"作为"** 资源帐户 **类型"。** 代理收到来自显示名称来电时，会看到消息。
+3. 在"**添加资源帐户"** 窗格中，填写"**显示名称**、**用户名"，** 然后选择"呼叫队列 **"作为"** 资源帐户 **类型"。** 当代理收到显示名称传入呼叫时，代理将看到该请求。
 
     ![添加资源帐户用户界面的屏幕截图](../media/resource-account-add-cq.png)
 
@@ -120,7 +120,7 @@ ms.locfileid: "54286181"
 
 必须为资源帐户 *Microsoft 365 电话系统 - 虚拟* 用户许可证。
 
-1. 在Microsoft 365 管理中心"**活动** 用户"列表中，单击要为其分配许可证的资源帐户。
+1. 在Microsoft 365 管理中心"**活动用户"** 列表中，单击要为其分配许可证的资源帐户。
 
 2. 在"**许可证和应用"选项卡上的**"许可证 **"下**，选择 **"Microsoft 365 电话系统 - 虚拟用户"。**
 
@@ -138,11 +138,11 @@ ms.locfileid: "54286181"
 
 2. 单击 **"添加** 帐户"，搜索要用于此呼叫队列的资源帐户，单击"添加 **"，然后单击**"添加 **"。**
 
-3.  (可选) "分配呼叫 **ID"** 下，单击"添加"，搜索为自动助理创建的资源帐户，单击"添加 **"，然后单击**"**添加"。** 这将在呼叫代理进行呼叫时为呼叫代理提供主线呼叫者 ID。
+3.  (可选) "分配呼叫 **ID"** 下，单击"添加"，搜索为自动助理创建的资源帐户，单击"添加 **"，然后单击**"添加 **"。** 这将在呼叫代理进行呼叫时为呼叫代理提供主线呼叫者 ID。
 
     ![调用 ID 设置的屏幕截图](../media/call-queue-assign-calling-id.png)
 
-3. 选择一种语言。 如果启用语音提示和语音听录，此语言 (系统生成的语音) 。
+3. 选择一种语言。 如果启用语音提示和语音邮件听录，此语言 (系统生成的语音提示) 。
 
     ![资源帐户设置的屏幕截图](../media/call-queue-name-language.png)
 

@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,25 +23,25 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 54dc4e1ee649fff28ac1c7d0729bfbddae521622d76d07e1723ddcc7fd0bdbf1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 89fce818a73455aeca9a9ba668554d59daf85248
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312296"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579396"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理员：为单个用户配置 Skype for Business 设置
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Microsoft Teams管理中心已Skype for Business旧版门户 (管理) 。 现在，管理Skype for Business的所有设置都位于Teams中心。 必须分配全局管理员或 Skype for Business 管理员的[Azure AD](/azure/active-directory/roles/permissions-reference)管理员角色Skype for Business管理中心Teams功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+> Microsoft Teams管理中心已Skype for Business旧版门户 (管理中心) 。 现在，管理Skype for Business的所有设置都位于Teams中心。 必须分配全局管理员或 Skype for Business 管理员的[Azure AD](/azure/active-directory/roles/permissions-reference)管理员角色，Skype for Business管理中心Teams功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
 本文介绍了管理员如何为少量用户配置 Skype for Business。 为了批量执行这些步骤，我们包含了指向Windows PowerShell cmdlet 的链接。
   
 要允许（或阻止）企业中的所有人与外部人员通信，请参阅：
   
-- [](allow-users-to-contact-external-skype-for-business-users.md)允许用户联系外部 Skype for Business 用户：可以让组织使用高级 Skype for Business 功能 (共享桌面、查找在线人员等 ) 来与特定受信任 (联合) 企业中的人员进行通信。 本文还介绍了如何阻止与特定域的通信。
+- 允许用户联系外部[Skype for Business](allow-users-to-contact-external-skype-for-business-users.md)用户：可以让组织使用高级 Skype for Business 功能 (共享桌面、查找联机人员等 ) 来与特定受信任的 (联合) 企业中的人员进行通信。 本文还介绍了如何阻止与特定域的通信。
     
 - [让用户Skype for Business添加Skype联系人](let-skype-for-business-users-add-skype-contacts.md)。 可以让你的组织使用 Skype for Business 搜索使用 Skype 这一免费应用的用户，并向其发送即时消息。
     
@@ -70,7 +70,7 @@ ms.locfileid: "54312296"
     
 |**选项**|**详细信息**|
 |:-----|:-----|
-|音频和 HD 视频  <br/> |允许此人录制音频会议、音频和视频会议，或不允许他们安排任何会议， (会议) 。  <br/> |
+|音频和 HD 视频  <br/> |允许此人录制音频会议、音频和视频会议，或不允许他们安排任何会议， () 。  <br/> |
 |录制对话和会议  <br/> |选择此人可以记录的内容。  <br/> 此选项不适用于基本Skype for Business。  <br/> |
 |为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项会关闭在管理中心设置就地保留时未捕获Exchange的功能。 [](/exchange/security-and-compliance/in-place-and-litigation-holds) 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
    

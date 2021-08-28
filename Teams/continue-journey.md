@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: landerl
 search.appverid: MET150
 description: 了解如何使用 Teams监视网络运行状况、保持用户参与，以及准备新功能。
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Teams-upgrade-guidance
 - seo-marvel-mar2020
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c7665cb48b77733ff3a49a8cc1abb66f3609a6459092f43448e7cb0df202cb8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 415535ea4ec2902d089d0229cd6c4b578837f03f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329217"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628384"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>如何有效地Microsoft Teams
 
@@ -33,11 +33,11 @@ ms.locfileid: "54329217"
 
 本文是升级过程的操作优化阶段的一部分，一旦完成从 Skype for Business 到 Teams。
 
-技术正在以前所未有的速度进行创新。 保持最新状态并启用现代工作场所环境已成为组织运营方式的标准。 随着Microsoft Teams、Microsoft 365和 Microsoft 的智能通信愿景不断展开，制定运营计划有助于确保组织实现长期成功。 最佳操作计划包括监视环境运行状况和质量、持续保持用户积极性以优化采用情况，以及规划随着时间的推移将继续联机的新功能。
+技术正在以前所未有的速度进行创新。 保持最新状态并启用现代工作场所环境已成为组织运营方式的标准。 随着Microsoft Teams、Microsoft 365和 Microsoft 的智能通信愿景不断展开，制定运营计划有助于确保组织实现长期成功。 最佳操作计划包括监视环境运行状况和质量、持续保持用户动力以优化采用情况，以及规划新功能，这些功能会随着时间的推移继续联机。
 
 ## <a name="monitor-for-network-health-and-quality"></a>监视网络运行状况和质量
 
-网络状态会影响用户体验。 当用户体验不佳时 (例如，加入会议) 时通话时间下降或延迟，他们会将其与技术本身相关联，留下这样一种印象：该技术不起作用，并且打开了不受支持的应用门。 实施监视和缓解网络运行状况的计划有助于确保积极的用户体验，同时减少呼叫支持人员。 有关详细信息，请参阅：
+网络状态会影响用户体验。 当用户体验不佳时 (例如，加入会议) 时通话时间下降或滞后时间下降，他们会将其与技术本身相关联，留下技术不起作用的印象，并打开不受支持的应用门。 实施监视和缓解网络运行状况的计划有助于确保积极的用户体验，同时减少呼叫支持人员。 有关详细信息，请参阅：
 
 - [运行服务](upgrade-operate-my-service.md)
 - [监视和改进呼叫质量](monitor-call-quality-qos.md)
@@ -45,7 +45,7 @@ ms.locfileid: "54329217"
 
 ## <a name="drive-user-momentum-and-adoption"></a>推动用户的发展和采用
 
-若要实现最大效益和业务成果Teams，用户必须实际使用它。 但是，初始的兴奋往往会减少，用户很容易还原到旧的工作方式。 通过持续采用计划鼓励用户Teams保持对采用计划的兴奋，其中包括：
+若要实现最大效益和业务成果Teams，用户必须实际使用它。 但是，初始的兴奋往往会减少，用户很容易还原到旧的工作方式。 通过持续采用计划鼓励用户采用Teams保持对采用计划的兴奋感，其中包括：
 
 - 加入同级支持人员，帮助推广和鼓励同事用户。
 - 有关[提高Microsoft 365](https://go.microsoft.com/fwlink/?linkid=859045)采用率的提示，查看"采用指南"。
@@ -54,10 +54,10 @@ ms.locfileid: "54329217"
 
 ## <a name="prepare-for-new-functionality"></a>准备新功能
 
-任何给定技术的生命周期已转移到动态增长周期。 这意味着，Teams和Microsoft 365蓝图将继续展开，新功能会定期启动。 在组织中建立更改周期将确保你已准备好管理持续协作改进并实现最大价值。 这可能包括：
+任何给定技术的生命周期已转移到动态增长周期。 这意味着，Teams Microsoft 365蓝图将继续展开，新功能会定期启动。 在组织中建立更改周期将确保你已准备好管理持续协作改进并实现最大价值。 这可能包括：
 
 - 监视Teams[路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)。
-- 实施更改计划表单 (如下) 准备和实施新功能。 请务必包括技术和用户就绪性活动。
+- 实施更改计划表单 (如下所示，) 准备和实施新功能。 请务必包括技术和用户就绪性活动。
 
 
 ![显示预期发布日期和说明的示例窗体](media/upgrade-change-plan-form.png "显示预期发布日期和新功能说明的示例窗体，随下一步骤和所有者一起列出")

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组由代理组、队列和工作流组成。 代理组是指定应答响应组呼叫的一组人员。
-ms.openlocfilehash: 9a3d6abc058924ac9e96600b0dc290ef149192b6664de4b6e9da1c19d66ad337
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf86537e70e6e3fbd6e04ad3da2ede5d8f46933f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311940"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579796"
 ---
 # <a name="response-groups-group"></a>响应组：组
 
@@ -56,4 +56,4 @@ ms.locfileid: "54311940"
 
 - **说明** 代理组的说明。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中Skype for Business Server[规划响应](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)组应用程序。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)。
+有关响应组特性和功能的详细信息，请参阅规划文档中Skype for Business Server[中的规划](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)响应组应用程序。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)。

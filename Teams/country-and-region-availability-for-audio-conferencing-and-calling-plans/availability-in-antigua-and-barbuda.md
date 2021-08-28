@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,26 +23,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于Microsoft 365 Office 365和Skype for Business Microsoft Teams的Microsoft Teams服务。
-ms.openlocfilehash: 1ff0c88c2391a69d1bf176fa36c25e77240e331fcfb6a3de244fcb6b87b830e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是适用于Microsoft 365 Office 365和Skype for Business Microsoft Teams的一些服务和服务。
+ms.openlocfilehash: 438a68188bb89b502c9e7e319e025bfcbaf6467a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334773"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628364"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>在安提瓜和巴布达可用
 
-[查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)或区域，或了解有关音频会议和呼叫计划的国家/地区可用性。
+[查找另一个国家](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)/地区，或了解有关音频会议和呼叫计划的国家/地区可用性。
 
-以下是适用于Microsoft 365 Office 365和Skype for Business Microsoft Teams的Microsoft Teams服务。
+以下是适用于Microsoft 365 Office 365和Skype for Business Microsoft Teams的一些服务和服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费 <br/> |
-|是否自动分配音频会议的电话号码？  <br/> | 弱 |
+|是否自动分配音频会议的电话号码？  <br/> | 否 |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用额度 <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -70,10 +70,10 @@ ms.locfileid: "54334773"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | 不适用 |
-|是否提供收费电话号码？  <br/> |弱 <br/> |
+|是否提供收费电话号码？  <br/> |否 <br/> |
 |免费电话号码是否可用？  <br/> |是  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取音频会议的服务电话号码[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通信点数
 

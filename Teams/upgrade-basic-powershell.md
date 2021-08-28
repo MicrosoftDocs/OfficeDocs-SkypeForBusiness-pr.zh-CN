@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 了解在管理中心尚未在租户中亮起时Microsoft Teams升级到租户的 stopgap。
-localization_priority: Normal
+description: 了解在管理中心尚未在租户中亮起时Microsoft Teams升级到 windows 的 stopgap。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd4c3cab1795ffcffe1cfd3ed1229f19e3ec80a243497ab13790e009878f9f35
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61201e52eabd9a921da432ac7081329a643664c7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300748"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628214"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>将用户从 Skype for Business Online 升级到 Microsoft Teams
 
@@ -40,6 +40,6 @@ ms.locfileid: "54300748"
 
 | 升级基本步骤# | 模式 | PowerShell 命令 |
 |---|---|---|
-| [5](upgrade-basic.md#step-5) | 群岛 + 通知Skype for Business用户<br> (如果用户当前处于"群岛"模式或默认 (，请使用) )  | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(例如，$SipAddress='TestUser@contoso.com')* |
+| [5](upgrade-basic.md#step-5) | 群岛 + 通知Skype for Business用户<br> (如果用户当前处于群岛模式或默认 (，请使用) )  | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(例如，$SipAddress='TestUser@contoso.com')* |
 | [5](upgrade-basic.md#step-5) | Skype for Business仅 + 通知Skype for Business用户 <br> (如果用户当前处于仅Skype for Business模式，请使用)  | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress```  |
 | [7](upgrade-basic.md#step-7) | Teams Only | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress```  |

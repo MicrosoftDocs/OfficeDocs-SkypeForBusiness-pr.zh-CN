@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用 Teams 管理 Microsoft 365 或 Office 365 部署Teams，包括如何将关键资源固定为相应通道中的选项卡。
 f1.keywords:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b08fa5121d158ad89740cff096ba8bd1d34fa73e4c65027def7f031e5c349
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18a9d5f7adac8c2f3fd615085b3f03d2b3733142
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628254"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团体
 
-推动采用新应用Teams是使用产品。 我们建议使用 Teams 管理 Microsoft 365 或 Office 365 部署。 还应创建专注于团队合作和工作效率的员工社区。  (这些初始团队可能会随着时间的推移而更改。) 建议的团队包括：
+推动应用采用Teams是使用产品。 我们建议使用 Teams 管理 Microsoft 365 或 Office 365 部署。 还应创建专注于团队合作和工作效率的员工社区。  (这些初始团队可能会随着时间的推移而更改。) 建议的团队包括：
 
 | 团队名称 | 建议的频道名称 |
 | --------- | ---------------------- |
@@ -38,7 +38,7 @@ ms.locfileid: "54335864"
 | Microsoft Teams实现 | 常规 <br/> 认知和采用 <br/> Business Engagement <br/> 早期采用者计划 <br/> 反馈Insights <br/> 安全性和符合性 <br/> 策略和规划 <br/> 服务运行状况和事件 <br/> 培训 <br/> Watercooler Chat |
 | Teamwork 冠军 | 常规 <br/> 最佳做法、培训和操作方法 <br/> 冠军角 <br/> 反馈和支持 <br/> 计划潜在顾客 <br/> 社交中心 |
 
-在Microsoft Teams中，选项卡库可[](/microsoftteams/platform/concepts/tabs/tabs-overview)让你访问管理员Microsoft 365 Office 365启用的所有应用或第三方应用。 为了从产品获得最大价值，我们建议在每个相应的频道中将关键资源固定为选项卡。 请参阅以下示例。
+在 Microsoft Teams 中，[](/microsoftteams/platform/concepts/tabs/tabs-overview)通过选项卡库可以访问管理员Microsoft 365 Office 365的所有应用或第三方应用。 为了从产品获得最大价值，我们建议在每个相应的频道中将关键资源固定为选项卡。 请参阅以下示例。
 
 ![显示默认和自定义选项卡的屏幕截图](media/teams-adoption-tab-example.png)
 
@@ -49,9 +49,9 @@ ms.locfileid: "54335864"
 | **Microsoft Teams部署** ||
 | 常规 | Web 选项卡[：Teams文档](./index.yml) |
 | 认知和采用 | [Teams采用中心](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
-| 业务参与 | Wiki - 参与指南<br/>表单 - 请求Teams咨询<br/>列表 - Engagement 请求 |
+| 业务参与 | Wiki - 参与指南<br/>表单 - 咨询Teams请求<br/>列表 - Engagement 请求 |
 |早期采用者 | 固定的反馈社区 <br/> OneNote常见问题解答和常见主题 |
-| 反馈和报告 | 仅Microsoft 365或Office 365管理员 (固定Microsoft 365 Office 365报表)  |
+| 反馈和报告 | 固定Microsoft 365或Office 365使用情况 (报表Microsoft 365 Office 365管理员)  |
 | 安全性和合规性 | Microsoft 信任门户 <br/> [安全性和符合性文档](/office365/securitycompliance/index)<br/> [路线图](/office365/securitycompliance/security-roadmap) |
 | 策略和规划 | 协作 North Star PowerPoint <br/> 服务采用Project计划 |
 | 培训 | 自定义学习培训门户 <br/> [Teams 联机培训](https://aka.ms/TeamsTraining) |

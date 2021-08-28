@@ -13,7 +13,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,39 +21,39 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 了解如何使用呼叫暂停和检索在呼叫中保持Microsoft Teams。
-ms.openlocfilehash: 77e69519f1e9ef45feb73ccd081207a9dcbeeea94b0c7305b2d562536274b1b0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 44884c98f3e98c15106b3d1a341eaa75b2176b0a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312930"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628414"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
-呼叫暂停和检索是允许用户保留呼叫的一项功能。 当呼叫被停时，服务会生成一个唯一的代码用于调用检索。 然后，将呼叫停放在一起的用户或其他人可以将该代码与受支持的应用或设备一起用于检索呼叫。  (有关详细信息，请参阅将呼叫[Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)在 ) 
+呼叫暂停和检索是允许用户保留呼叫的一项功能。 当呼叫被停时，服务会生成一个唯一的代码用于调用检索。 然后，将呼叫停放在一起的用户或其他人可以将该代码与受支持的应用或设备一起用于检索呼叫。  (有关详细信息，请参阅[在](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)Teams 中) 
 
 使用呼叫公园的一些常见方案包括：
 
 - 接待员为在工厂中工作的人拨打了电话。 然后，接待员通过公用地址系统报出呼叫和代码号。 然后，呼叫方用户可以在工厂车间Teams电话，并输入代码以检索呼叫。
 - 用户将呼叫放在移动设备上，因为设备电池电量不足。 然后，用户可以输入代码，从桌面电话Teams呼叫。
-- 支持代表将客户呼叫发送给客户，并Teams渠道发送公告，让专家检索呼叫并帮助客户。 专家在客户端中Teams代码以检索调用
+- 支持代表将客户呼叫放在一起，并Teams渠道发送公告，让专家检索呼叫并帮助客户。 专家在客户端中Teams代码以检索调用
 
 要停放和检索呼叫，用户必须是企业语音用户，并且必须包含在呼叫停放策略中。
 
 > [!NOTE]
-> 呼叫停放和检索仅在Teams[模式下可用](teams-and-skypeforbusiness-coexistence-and-interoperability.md)，在 IP 电话上不受Skype for Business支持。
+> 呼叫停放和检索仅在Teams[模式下可用](teams-and-skypeforbusiness-coexistence-and-interoperability.md)，在 IP 电话上Skype for Business支持。
 
 ## <a name="configure-call-park-and-retrieve"></a>配置呼叫停放和检索
 
 只有管理员Teams才能配置呼叫停放和检索。 默认情况下，它处于禁用状态。 你可以为用户启用它，然后使用呼叫允许策略创建用户组。 将同一策略应用到一组用户时，他们可以在用户之间停放和检索调用。
 
-呼叫取件号码的范围预定义为 10-99，不能修改。 将呈现第一个已停放的呼叫的取件代码 10，下一个已停放的调用将呈现 11 的取件代码，等等。 直到 99 呈现为取件代码。 之后，呈现的提货代码从 10 重新开始。  如果有 89 个活动的已停接调用，则呈现的取件代码将不断递增超过 99，这样，对于提货代码，第 90 个活动的已停接调用将呈现 100，则第 91 个活动的已停接调用将呈现一个取件代码 101。
+呼叫取件号码的范围预定义为 10-99，不能修改。 将呈现第一个已停呼叫的取件代码 10，下一个已停呼叫将呈现 11 的取件代码，等等。 直到 99 呈现为取件代码。 之后，呈现的提货代码从 10 重新开始。  如果存在超过 89 个活动的已停接调用，则呈现的取件代码将不断递增超过 99，这样，对于提货代码，第 90 个活动的已停接调用将呈现 100，则第 91 个活动的已停接调用将呈现一个取件代码 101。
 
 启用呼叫公园策略
 
 1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **呼叫""公园策略"。**
 2. 在"**管理策略"选项卡** 上，单击"**添加"。**
-3. 为策略命名，然后将"允许 **呼叫停放"切换为**"**开"。**  (无法自定义呼叫取件范围和超时。) 
+3. 为策略命名，然后将"允许 **呼叫停放"切换** 为"**开"。**  (无法自定义呼叫取件范围和超时。) 
 
     ![呼叫公园策略设置的屏幕截图](media/call-park-add-policy.png)
 

@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: 48ce96b4b2ab6ad87054784bea93d8a7a45638ee6f2d86938cca1be60f30d442
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 72abf99895924e70f3a57ae0f8d1e1cd8c0f9bcd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580046"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>为会议设置音频Skype for Business
 
@@ -64,7 +64,7 @@ ms.locfileid: "54341088"
 
 针对音频会议，你不能使用用户电话号码；你需要获取服务号码。 你可以获取会议网桥的收费或免费电话服务号码。 有三种获取收费和免费电话服务号码的方法： 
   
-- **使用 Skype for Business管理中心**。 对于一些国家/地区，可以使用会议管理中心获取Skype for Business号码。 参见[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。
+- **使用 Skype for Business 管理中心**。 对于一些国家/地区，可以使用会议管理中心获取Skype for Business号码。 参见[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。
     
 - **转网现有服务号码**。 将现有号码从当前服务提供商或电话运营商转Microsoft 365或Office 365。 有关详细信息，请参阅[将电话号码转移到 Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)，从而帮助你执行此操作。  
   
@@ -97,7 +97,7 @@ ms.locfileid: "54341088"
 
 ![一个图标，显示Skype for Business ](../images/sfb-logo-30x30.png) **徽标使用Skype for Business管理中心：**
 
-1. 转到管理中心>**管理Teams**  >    >  **旧门户 。**
+1. 转到旧版门户 中的管理>**管理**  >  **Teams**  >  **中心。**
 2. 选择 **"音频会议**  >  **""Microsoft 网桥"。** 
 3. 选择会议网桥电话号码，选择 **"设置语言**"，然后选择默认语言。
 

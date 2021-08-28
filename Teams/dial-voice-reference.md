@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列拨号和语音识别选项，Teams。
-ms.openlocfilehash: 6dfb1265d3eb5e1200a2b0638d66415c025ed7682c222aa51767d8a5fea3e0f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8201389c39dc58f80596a6055c927ecfbbf86e38
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344301"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605781"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自动助理和呼叫队列拨号和语音识别参考
 
@@ -35,7 +35,7 @@ ms.locfileid: "54344301"
 
 ## <a name="searching-for-users"></a>搜索用户
 
-希望使用"按姓名拨叫"定位和联系的用户无需拥有电话号码或为其分配了呼叫计划，但必须为 企业语音 用户启用 **Skype for Business Server。** "按名称拨叫"甚至能够查找和Microsoft Teams在不同国家/地区为多个国家/地区托管的所有用户的呼叫。 根据相关先决条件，在自动助理中显式启用"按姓名拨叫"。
+希望使用"按姓名拨叫"定位和联系的用户无需具有电话号码或为其分配了呼叫计划，但必须为企业语音启用Skype for Business Server **用户**。 "按名称拨叫"甚至能够查找和转接Microsoft Teams在多个国家/地区为多个国家/地区托管的所有用户。 根据相关先决条件，在自动助理中显式启用"按姓名拨叫"。
 
 "按分机号拨叫"是自动助理的一项功能，也是目录搜索的一部分。 它使呼叫自动助理的用户能够使用语音 (语音识别) 或电话键盘 (DTMF) 响应输入他们尝试联系的用户的电话分机，然后将呼叫转接给他们。 希望使用"按分机拨叫"定位和联系的用户不需要拥有电话号码或为其分配了呼叫计划，但必须为 企业语音 用户启用 **Skype for Business Server。** 还需要为用户配置适当的拨号计划。 通过分机拨叫甚至能够查找和转接Microsoft Teams在多个国家/地区为多个国家/地区托管的用户。 根据相关先决条件，在自动助理中显式启用"按分机拨叫"。
 
@@ -78,9 +78,9 @@ ms.locfileid: "54344301"
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>按名字拨叫 - 使用语音识别姓名
 
-用户可以使用语音和语音识别功能在 (搜索) 。 他们还可以通过说出要查找的人的完整或部分姓名来联系 Active Directory 中的任何人。 使用语音输入可以识别各种格式的名称，包括名字、姓氏、名字 + 姓氏或姓氏 + 名字。
+用户可以使用语音和语音识别功能搜索 (组织中) 。 他们还可以通过说出要查找的人的完整或部分姓名来联系 Active Directory 中的任何人。 使用语音输入可以识别各种格式的名称，包括名字、姓氏、名字 + 姓氏或姓氏 + 名字。
   
-你可以为自动助理启用语音识别，但是未禁用 (DTMF) 键盘输入。 电话自动助理上启用了语音识别，也随时都可以使用键盘输入。
+你可以为自动助理启用语音识别，但未禁用 (DTMF) 键盘输入。 电话自动助理上启用了语音识别，也随时都可以使用键盘输入。
   
 与电话键盘输入一样，如果找到多个姓名，呼叫者将听到要选择的姓名列表。
   
@@ -97,7 +97,7 @@ ms.locfileid: "54344301"
 
 
 > [!NOTE]
-> 由于 Active Directory 复制延迟，新用户可能需要最多 36 小时才能在"按名称拨叫"目录中列出其姓名并识别语音识别。
+> 由于 Active Directory 复制延迟，新用户可能需要最多 36 小时才能在"按姓名拨叫"目录中列出其姓名并识别语音识别。
   
 ## <a name="language-support"></a>语言支持
 
@@ -108,7 +108,7 @@ ms.locfileid: "54344301"
 |语音命令| 对应于 |
 |:-----|:-----|
 |是 | 按 1 表示"是"。 |
-|弱 | 按 2 表示"否"。 |
+|否 | 按 2 表示"否"。 |
 |重复 |重复选项列表。 按键盘上的 *重复选项列表。 |
 |接线员 | 按 0 表示"运算符" |
 |主菜单  |为呼叫者返回到自动助理的主菜单。 |

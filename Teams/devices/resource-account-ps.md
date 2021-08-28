@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 请阅读本主题，了解如何为用户部署协作Microsoft Teams。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334713"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605811"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>使用 PowerShell Microsoft 365资源帐户
 
@@ -44,7 +44,7 @@ ms.locfileid: "54334713"
 
 1. 连接 PowerShell Exchange Online。 有关说明，请参阅 连接[Exchange Online PowerShell。](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
 
-2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有的会议室邮箱。
+2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有会议室邮箱。
 
    - 若要创建新的会议室邮箱，请使用以下语法：
 
@@ -83,7 +83,7 @@ ms.locfileid: "54334713"
 
 3. 在 Exchange Online PowerShell 中，在会议室邮箱上配置以下设置以改进会议体验：
 
-   - AutomateProcessing：自动 (会议组织者直接接收会议室预订决策，无需人工干预：free = accept;busy = decline.) 
+   - AutomateProcessing： AutoAccept (会议组织者直接接收会议室预订决策，无需人工干预：free = accept;busy = decline.) 
 
    - AddOrganizerToSubject：$false (会议组织者未添加到会议请求的主题。) 
 
@@ -91,7 +91,7 @@ ms.locfileid: "54334713"
 
    - DeleteSubject：$false (保留传入会议请求的主题。) 
 
-   - RemovePrivateProperty：$false (确保会议组织者在原始会议请求中发送的专用标志保持指定。) 
+   - RemovePrivateProperty：$false (确保会议组织者在原始会议请求中发送的专用标志保持不变。) 
 
    - AddAdditionalResponse：$true (AdditionalResponse 参数指定的文本添加到会议请求.) 
 
@@ -128,13 +128,13 @@ ms.locfileid: "54334713"
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   有关详细说明，请参阅[使用 PowerShell 向用户帐户Office 365许可证](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
+   有关详细说明，请参阅[使用 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)向用户帐户Office 365许可证。
 
 
 
 
 [使用 PowerShell 为Microsoft Teams栏配置帐户](resource-account-ps.md)
 
-[为 Microsoft Teams](collab-bar-deploy.md)
+[部署协作栏Microsoft Teams](collab-bar-deploy.md)
 
 [适用于 Microsoft Teams 许可的协作栏](../rooms/rooms-licensing.md)

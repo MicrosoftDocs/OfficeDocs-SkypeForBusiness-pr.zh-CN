@@ -1,5 +1,5 @@
 ---
-title: 第 3 阶段Skype for Business Server 2019 试点池
+title: 第 3 阶段：Skype for Business Server 2019 试点池
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
-description: 本节介绍在 2019 年 10 月部署试点Skype for Business Server所需的步骤。 部署 Skype for Business Server 2019 需要使用拓扑生成器来定义拓扑和要部署的组件，准备部署 Skype for Business Server 2019 组件的环境，发布第一台前端服务器的拓扑设计，然后为部署的组件安装和配置 Skype for Business Server 2019 软件。 完成后，您的 Skype for Business Server 2019 试点池部署将与现有的旧池共存。
-ms.openlocfilehash: e4ff2f9c28e01ada82fd827644e46542e18581bf8f1ff2e511883bc6bb27e96f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 本节介绍在 2019 年 10 月部署试点池Skype for Business Server的步骤。 部署 Skype for Business Server 2019 需要使用拓扑生成器来定义拓扑和要部署的组件，准备部署 Skype for Business Server 2019 组件的环境，发布第一台前端服务器的拓扑设计，然后为部署的组件安装和配置 Skype for Business Server 2019 软件。 完成后，您的 Skype for Business Server 2019 试点池部署将与现有的旧池共存。
+ms.openlocfilehash: aec5e0dd645c4f09cdcc971274a4fac6fcf06958
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300568"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579436"
 ---
 # <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>第 3 阶段：Skype for Business Server 2019 试点池
 
-本节介绍在 2019 年 10 月部署试点Skype for Business Server所需的步骤。 部署 Skype for Business Server 2019 需要使用拓扑生成器来定义拓扑和要部署的组件，准备部署 Skype for Business Server 2019 组件的环境，发布第一台前端服务器的拓扑设计，然后为部署的组件安装和配置 Skype for Business Server 2019 软件。 完成后，您的 Skype for Business Server 2019 试点池部署将与现有的旧池共存。
+本节介绍在 2019 年 10 月部署试点池Skype for Business Server的步骤。 部署 Skype for Business Server 2019 需要使用拓扑生成器来定义拓扑和要部署的组件，准备部署 Skype for Business Server 2019 组件的环境，发布第一台前端服务器的拓扑设计，然后为部署的组件安装和配置 Skype for Business Server 2019 软件。 完成后，您的 Skype for Business Server 2019 试点池部署将与现有的旧池共存。
   
 ## <a name="in-this-section"></a>本节内容
 

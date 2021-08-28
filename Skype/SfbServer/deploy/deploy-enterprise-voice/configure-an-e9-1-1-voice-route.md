@@ -1,5 +1,5 @@
 ---
-title: 在呼叫中配置 E9-1-1 Skype for Business Server
+title: 在呼叫中配置 E9-1-1 语音Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,28 +9,28 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: 在语音通道中配置 E9-1-1 Skype for Business Server 企业语音。
-ms.openlocfilehash: a03b93f696d661f989db169bbb1de7cf096c4d9359db1177a25ac2827a424b0f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: efab6698aef0c212bb6a52f6f50e2b2bbbe47141
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287611"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605581"
 ---
-# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>在呼叫中配置 E9-1-1 Skype for Business Server
+# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>在呼叫中配置 E9-1-1 语音Skype for Business Server
  
 在语音通道中配置 E9-1-1 Skype for Business Server 企业语音。 
   
 若要部署 E9-1-1，首先需配置紧急呼叫语音路由。 有关创建语音路由的详细信息，请参阅 Create [or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md)。 例如，如果部署包括主要 SIP 中继和辅助 SIP 中继，则可定义多个路由。 
   
 > [!NOTE]
-> 若要在 E9-1-1 INVITE 中包含位置信息，您需要配置连接到 E9-1-1 服务提供商的 SIP 中继以便通过网关路由紧急呼叫。 为此，请在 **Set-CsTrunkConfiguration** cmdlet 上将 EnablePIDFLOSupport 标志设置为 True。 EnablePIDFLOSupport 的默认值为 False。 例如：对于回退公用电话交换网 (PSTN) 网关和紧急位置标识号 (ELIN) 网关，不需要启用接收位置。 `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.`
+> 若要在 E9-1-1 INVITE 中包含位置信息，您需要配置连接到 E9-1-1 服务提供商的 SIP 中继以便通过网关路由紧急呼叫。 为此，请在 **Set-CsTrunkConfiguration** cmdlet 上将 EnablePIDFLOSupport 标志设置为 True。 EnablePIDFLOSupport 的默认值为 False。 例如：不需要为回退公用电话交换网 (PSTN) 网关和 ELIN) 网关启用紧急位置标识号 (接收位置。 `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.`
   
 ### <a name="to-configure-an-e9-1-1-voice-route"></a>配置 E9-1-1 语音路由
 

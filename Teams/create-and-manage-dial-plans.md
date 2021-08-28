@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: 了解如何使用 PSTN Microsoft Teams中心或Windows PowerShell PSTN 呼叫拨号 (创建和管理) 。
-ms.openlocfilehash: bb5574893ec940129a0669608d2bb89d474fb0b6
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: 了解如何使用 PSTN Microsoft Teams中心或Windows PowerShell PSTN 呼叫拨号 (创建和管理拨号) 。
+ms.openlocfilehash: e6cc5e751efa412c24eb13f182ab5967360c677e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233297"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628374"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -36,7 +36,7 @@ ms.locfileid: "58233297"
 
 ### <a name="create-a-dial-plan"></a>创建拨号计划
 
-1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **拨号计划"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到"**语音**  >  **拨号计划"。**
 2. 单击 **"** 添加"，然后输入拨号计划的名称和说明。
     ![显示用于创建拨号计划的"添加"页面的屏幕截图](media/create-dial-plan.png)
 3. 在 **"拨号计划详细信息**"下，指定外部拨号前缀（如果用户需要拨打一个或多个前导 (例如，9) 才能获取外部线路。 要执行此操作：
@@ -49,14 +49,14 @@ ms.locfileid: "58233297"
 5. 按需要的顺序排列规范化规则。 单击 **"上****移"或**"下移"以更改规则在列表中的位置。
 
     > [!NOTE]
-    > Teams从上到下遍历规范化规则列表，并使用与拨号号码匹配的第一个规则。 如果设置了拨号计划，以便拨号号码可以匹配多个规范化规则，请确保限制性较强的规则在限制性较少的规则上方排序。 如果设置一个拨号计划来规范化不带"+"的拨号号码，则呼叫服务将尝试使用租户和区域拨号计划规则再次规范化该号码。 为了避免双规范化，建议所有规范化规则都将导致数字以"+"开始。 如果需要，直接 [路由](direct-routing-translate-numbers.md) 客户可以使用中继转换规则删除"+"。 
+    > Teams从上到下遍历规范化规则列表，并使用与拨号号码匹配的第一个规则。 如果设置了拨号计划，以便拨号号码可以匹配多个规范化规则，请确保限制性较强的规则在限制性较少的规则上方排序。 如果设置一个将拨号号码规范化而不使用"+"的拨号计划，则呼叫服务将尝试使用租户和区域拨号计划规则再次规范化该号码。 为了避免双规范化，建议所有规范化规则都将导致数字以"+"开始。 如果需要，直接 [路由](direct-routing-translate-numbers.md) 客户可以使用中继转换规则删除"+"。 
 
 6. 单击“**保存**”。
 7. 如果要测试拨号计划，请在"测试拨号计划"下输入电话号码，然后单击"测试 **"。**
 
 ### <a name="edit-a-dial-plan"></a>编辑拨号计划
 
-1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音**  >  **拨号计划"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到"**语音**  >  **拨号计划"。**
 2. 单击拨号计划名称左侧选择拨号计划，然后单击"编辑 **"。**
 3. 进行您需要的更改，然后单击"保存 **"。**
 
@@ -187,7 +187,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-运行此操作，从具有托管主机的所有用户中删除任何分配的 TenantDialPlan sipfed.online.lync.com。
+运行此操作，从具有托管主机的 HostingProvider 的所有用户中删除任何分配的 TenantDialPlan sipfed.online.lync.com。
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
 description: 此Update-CcCACertificate cmdlet 续订Skype for Business 云连接器版本即将过期或已过期的根 CA 证书。
-ms.openlocfilehash: 640ca982cd005e9805d7214212d847edcc6856456b6995fe1ae689778da58f61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 824959ab053c7eb7cc71eb60a5d6ecbeb2c7a847
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344531"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628404"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
@@ -52,9 +52,9 @@ Update-CcCACertificate
   
 如果同一 PSTN 站点中有多个设备，请Update-CcCACertificate PSTN 站点的所有设备中运行该 cmdlet。
   
-最后一步，Export-CcRootCertificate将根证书导出到第一个设备中的本地文件，然后将导出的证书复制并安装到 PSTN 网关。
+最后一步，运行 Export-CcRootCertificate 将根证书导出到第一个设备中的本地文件，然后将导出的证书复制并安装到 PSTN 网关。
   
-此命令替换云连接器 2.0 Renew-CcCACertificate版本中的 cmdlet。
+此命令将替换云Renew-CcCACertificate 2.0 及更高版本中的 cmdlet。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

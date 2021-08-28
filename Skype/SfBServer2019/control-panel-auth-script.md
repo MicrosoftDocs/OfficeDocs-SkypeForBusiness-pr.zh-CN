@@ -10,19 +10,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: 用于通过 OAuth 协议配置 SFB 2019 控制面板身份验证的帮助Microsoft 365 Office 365配置 SFB 2019 控制面板身份验证。
-ms.openlocfilehash: c52e799740188e85e41af46339f40f4c29b61c037bc1c28b8257b1001a5b43c9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 通过 OAuth 协议配置 SFB 2019 控制面板身份验证的帮助Microsoft 365或Office 365配置 SFB 2019 控制面板身份验证。
+ms.openlocfilehash: 8d4bf598799d23ebc150561333794aa0e04a1179
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281495"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579536"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Skype for Business Server 2019 控制面板身份验证脚本
 
-以下是适用于现代管理员控制面板的身份验证相关帮助程序脚本 (MACP) 。
+以下是适用于现代管理控制面板的身份验证相关帮助程序脚本 (MACP) 。
 
 ## <a name="configure-macp-authentication-with-microsoft-365-or-office-365"></a>配置 MACP 身份验证Microsoft 365或 Office 365
 

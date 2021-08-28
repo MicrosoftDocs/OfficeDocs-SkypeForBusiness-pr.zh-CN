@@ -1,5 +1,5 @@
 ---
-title: Create or modify a translation rule for caller ID presentation in Skype for Business Server
+title: 创建或修改呼叫者 ID 演示文稿的转换规则Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,27 +9,27 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 摘要：了解如何使用"控制面板"Skype for Business Server呼叫者 ID。
-ms.openlocfilehash: 039fe9181bad8edbb587a1b3739679137cf0cb8e98d9ce79859ae7a5e73a4e0d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7accfe11c22a8b453ac767c80a0c9269fe638c45
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332024"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605591"
 ---
-# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Create or modify a translation rule for caller ID presentation in Skype for Business Server
+# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>创建或修改呼叫者 ID 演示文稿的转换规则Skype for Business Server
 
-**摘要：** 了解如何使用控制面板配置呼叫Skype for Business Server ID。
+**摘要：** 了解如何使用"控制面板"Skype for Business Server呼叫者 ID。
 
 使用 Skype for Business Server，被叫方的电话号码 (即，称为) 的电话号码可以从 E.164 格式转换为中继对等方 _(（_ 即关联网关、专用交换机 (PBX) 或 SIP 中继) ）所需的本地拨号格式。 为此，必须定义一个或多个转换规则，以便在将请求 URI 路由至中继对等方之前对其执行转换。
 
-Skype for Business Server还可以选择将呼叫者的电话号码 (即呼叫者从) 呼叫的电话号码从 E.164 格式转换为中继对等方所需的本地拨号格式。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
+Skype for Business Server 还为您提供了将呼叫者的电话号码 (即呼叫者从) 呼叫的电话号码从 E.164 格式转换为中继对等方所需的本地拨号格式的选项。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
 
 ### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>使用控制面板配置呼叫Skype for Business Server ID
 

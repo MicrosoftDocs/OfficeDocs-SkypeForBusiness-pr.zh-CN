@@ -9,26 +9,26 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解租户管理对会议室中语音 (语音配置文件) Teams控制。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc29f8f098ae1980b173ea1f9c4b6349306f5f79b5ee23fc70ae61204dee907
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa38282f0c5dbaecfbea88deaf9a5efb88be08cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275918"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628294"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智能扬声器的语音识别技术控制
 
 智能说话人使用语音配置文件信息来识别谁在实时听录中说哪些内容。 当Microsoft Teams 会议室会议Windows配备智能扬声器时，可以在会议期间使用实时听录。 本文介绍租户管理员如何控制用于语音识别的语音分析，以生成实时听录。 你可以控制组织使用语音识别的程度以及以下功能：
 
 - 在脚本中编辑发言人的姓名。
-- 更改脚本中单个话语的说话人或更改脚本中所有话语中的 (而不是在将来的脚本) 。
+- 更改脚本中单个话语的说话人或更改脚本中所有话语中的 (，而不是在将来的脚本) 。
 - 更改会议中列出的人的说话人标识。
 - 删除每个脚本上标识为该发言人的一个或多个陈述的标识。
 
@@ -39,10 +39,10 @@ ms.locfileid: "54275918"
 以下各项是智能说话人要求：
 
 - 客户租户必须位于北美 (美国) 。<sup>1</sup>
-- 会议室应最多有 10 人当场。
+- 会议室应最多可有 10 人当场。
 - 会议室具有至少 7 Mbps 的上载链接。
 
- <sup>1</sup> 智能扬声器和关联的语音配置文件和用法将仅以 EN-US 语言提供，对于美国、 (美国区域) 租户。 租户用户注册并使用智能扬声器进行属性化听录时，这两个条件都必须成立。
+ <sup>1</sup> 智能扬声器和关联的语音配置文件和用法将仅以 EN-US 语言提供，对于美国区域（美国 (）) 可用。 租户用户注册并使用智能扬声器进行属性化听录时，这两个条件都必须成立。
 
 ## <a name="set-up-an-intelligent-speaker"></a>设置智能扬声器
 
@@ -52,7 +52,7 @@ ms.locfileid: "54275918"
 > Yealink 智能 **扬声器必须与** Yealink 主机一同使用。
 
 > [!NOTE]
-> 我们不支持连接到 Logitech Surface Pro Microsoft Teams 会议室 的智能Surface Pro Microsoft Teams 会议室。 有一个已知Teams 会议室无法通过扩展坞识别智能扬声器。
+> 我们不支持连接到 Logitech Surface Pro Microsoft Teams 会议室 的智能Surface Pro Microsoft Teams 会议室。 有一个已知问题Teams 会议室无法通过扩展坞识别智能扬声器。
 
 智能扬声器应放置在至少 8 英寸 (20 厘米) 远离墙壁和大对象（如笔记本电脑）。 如果智能扬声器 USB 电缆对于设置来说不够长，请使用电缆扩展器。
 
@@ -81,8 +81,8 @@ ms.locfileid: "54275918"
 
 |策略|说明|值和行为|
 |-|-|-|
-|enrollUserOverride|用于设置租户的语音配置文件捕获Teams注册。 |**禁用**<br><ul><li> 从未注册的用户无法查看、注册或重新注册。<li>注册流的入口点将隐藏。<li>如果用户选择注册页面的链接，他们将看到一条消息，指出未为组织启用此功能。  <li>已注册的用户可以在语音设置中查看和删除其Teams配置文件。 删除其语音配置文件后，他们将无法查看、访问或完成注册流。</li></ul><br>**已启用**<br><ul><li> 用户可以查看、访问和完成注册流。<li>入口点会显示在"Teams"选项卡下的"设置 **"页面上**。</li></ul>|
-|roomAttributeUserOverride|在会议室中控制基于语音的用户标识。 此设置是帐户Teams 会议室必需的。| **禁用**<br><ul><li>Teams 会议室设备不会从会议室发送节省音频流的带宽。 <li>不会对会议室用户进行属性或区分，也不会检索或使用其语音签名。<li>会议室用户未知。</li></ul> <br>**属性**<br><ul><li>聊天室用户将基于其注册状态进行属性管理。<li>注册的用户在听录中显示其姓名。  <li>未注册的用户将显示为"发言人 n"。<li>设备Teams 会议室从会议室发送 7 个音频流。</ul> <br>**区分**<br> *此设置将在以后可用。*|
+|enrollUserOverride|在租户的语音配置文件设置中，Teams设置语音配置文件捕获或注册。 |**禁用**<br><ul><li> 从未注册的用户无法查看、注册或重新注册。<li>注册流的入口点将隐藏。<li>如果用户选择注册页面的链接，他们将看到一条消息，指出未为组织启用此功能。  <li>已注册的用户可以在语音设置中查看和删除其Teams配置文件。 删除其语音配置文件后，他们将无法查看、访问或完成注册流。</li></ul><br>**已启用**<br><ul><li> 用户可以查看、访问和完成注册流。<li>入口点会显示在"Teams"选项卡下的"设置 **"页面上**。</li></ul>|
+|roomAttributeUserOverride|在会议室中控制基于语音的用户标识。 对于帐户，Teams 会议室此设置。| **禁用**<br><ul><li>Teams 会议室设备不会从会议室发送节省音频流的带宽。 <li>不会对会议室用户进行属性或区分，也不会检索或使用其语音签名。<li>会议室用户未知。</li></ul> <br>**属性**<br><ul><li>聊天室用户将基于其注册状态进行属性管理。<li>注册的用户在听录中显示其姓名。  <li>未注册的用户将显示为"发言人 n"。<li>设备Teams 会议室从会议室发送 7 个音频流。</ul> <br>**区分**<br> *此设置将在以后可用。*|
 |AllowTranscription|用户和聊天室Teams必需。|**True** 和 **False**|
 ||||
 
@@ -98,7 +98,7 @@ ms.locfileid: "54275918"
 
 **什么是保留时间线和策略？**
 
-数据保留概述 中介绍了常规 [保留策略](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。 此外，如果用户未在 3 年内受邀参加智能扬声器的任何会议，则用户的语音配置文件数据将在 3 年后删除。 数据不会用于现有员工的任何会议。 如果某个员工离开了公司，则语音配置文件数据被视为用户内容，并按数据保留Office 365中所述的数据保留[策略处理](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
+数据保留概述 中介绍了常规 [保留策略](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。 此外，如果用户未在 3 年内受邀参加智能扬声器的任何会议，则用户的语音配置文件数据将在 3 年后删除。 数据不会用于现有员工的任何会议。 如果员工离开了公司，则语音配置文件数据被视为用户内容，并按数据保留概述 中所述Office 365数据保留[策略处理](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
 
 **语音配置文件数据是否用于Microsoft 服务？**
 
@@ -106,7 +106,7 @@ ms.locfileid: "54275918"
 
 例如，Microsoft 不会在下列情况下使用数据：
 
-**我加入另一组织的会议时是否使用了我的语音配置文件数据？**
+**当我加入另一组织的会议时，是否使用了我的语音配置文件数据？**
 
 仅在由组织中用户组织的会议中为否。
 

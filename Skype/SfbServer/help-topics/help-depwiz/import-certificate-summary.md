@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertImportSummary
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 description: 在“导入证书摘要”页上，您会看到私钥的文件名、路径和状态等摘要信息。查看摘要后，单击“下一步”继续。
-ms.openlocfilehash: 4985accb324517bd78b4039a101be11c5f7b521a7f0b7b2c26d1ff9b3c73c8b2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 346a4ac4ef3f47ac0d5b1312571193f64f7f9bbe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277187"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628174"
 ---
 # <a name="import-certificate-summary"></a>导入证书（摘要）
  

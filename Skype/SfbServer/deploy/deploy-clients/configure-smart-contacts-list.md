@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 摘要：了解如何在客户端中启用智能联系人列表Skype for Business功能。
-ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7e2957b6b8622ea8c3ce3dc2974e7dbb7ff51d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303146"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579996"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>在客户端中配置Skype for Business列表
 
@@ -84,6 +84,6 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 
 - 收集Skype for Business新用户的客户端日志，以进一步分析。
 
-- 确认Skype for Business UI 未显示无法连接到通讯簿的消息。 若要确认通讯簿连接，请对客户端搜索栏中Skype for Business用户。
+- 确认Skype for Business UI 未显示无法连接到通讯簿的消息。 若要确认通讯簿连接，请对客户端搜索栏中的用户Skype for Business搜索。
 
-- 当用户首次登录联系人时，AD DS 复制问题可能导致无法Skype for Business。
+- AD DS 复制问题可能导致在用户首次登录联系人时无法Skype for Business。

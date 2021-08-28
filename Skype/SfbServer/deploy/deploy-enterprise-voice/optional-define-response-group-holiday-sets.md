@@ -1,5 +1,5 @@
 ---
-title: " (可选) 定义响应组假日集Skype for Business"
+title: " (在) 定义响应组假日集的可选Skype for Business"
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 创建或修改响应组假日集，Skype for Business Server 企业语音。
-ms.openlocfilehash: a265f1c8a09133dec6a9f88a705ca6041b1a09a167b5a24252a540e8152deca8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c97e791285310e673dc647f76cb8cd733ffd52a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298692"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579956"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (可选) 定义响应组假日集Skype for Business
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (在) 定义响应组假日集的可选Skype for Business
  
 创建或修改响应组假日集，Skype for Business Server 企业语音。
   

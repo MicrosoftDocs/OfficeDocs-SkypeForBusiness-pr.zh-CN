@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：在要监视的 Skype for Business Server 2019 计算机上安装 Operations Manager 代理文件，将计算机配置为充当 System Center 代理。
-ms.openlocfilehash: 1d723ba13e7db91a8f6b22a48c5f0eeb87333e1e
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 06d44ec8ec46ceff07955eea8615bb00ed46c01c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372032"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605741"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>配置要Skype for Business Server的计算机
 

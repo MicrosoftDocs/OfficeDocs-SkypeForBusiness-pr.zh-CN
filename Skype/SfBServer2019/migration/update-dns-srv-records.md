@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 要成功完成此过程，您应该以 Domain Admins 组或 DnsAdmins 组的成员身份登录到服务器或域。
-ms.openlocfilehash: 0c3454bd4fbf8ecdc28730da378357e9d50efec3c12ba5b3926abb61010979ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1b88ada924cbf2cf7f4153acda54584d81946cb0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327048"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579416"
 ---
 # <a name="update-dns-srv-records"></a>更新 DNS SRV 记录
 
@@ -30,7 +30,7 @@ ms.locfileid: "54327048"
     
 2. 在 SIP 域的控制台树中，展开"前向查找区域"，展开安装 Skype for Business Server 2019 的 SIP 域，然后导航到"_tcp"**设置**。 
     
-3. 在右窗格中，右 **键单击**"_sipinternaltls并选择"属性 **"。**
+3. 在右窗格中，右 **键单击**"_sipinternaltls并选择"**属性"。**
     
 4. 在 **"提供此服务的主机"** 中，更新主机 FQDN 以指向 Skype for Business Server 2019 池。
     

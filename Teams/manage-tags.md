@@ -1,5 +1,5 @@
 ---
-title: 管理 Microsoft Teams
+title: 管理 Microsoft Teams 中的标记
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -13,26 +13,26 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在组织内管理标记在 Microsoft Teams。
-ms.openlocfilehash: a7b0eef37f335aeb0094dba568dcc98a3fd1bd07
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+description: 了解如何管理标签在组织中在 Microsoft Teams。
+ms.openlocfilehash: b7d6e6c5995a642c45fdc1d91b4a526495a8f1a1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399051"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579646"
 ---
-# <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft Teams
+# <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft Teams 中的标记
 
 ## <a name="overview"></a>概述
 
-使用Microsoft Teams中的标记，用户可以快速轻松地与团队中的一小组人员联系。 可以创建和分配自定义标记，以便根据角色、项目、技能或位置等属性对人员进行分类。 或者，可以基于人员在 Shifts 应用中的日程安排和班次信息自动将标记 [分配给人员](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts)。 将标记添加到一个或多个团队成员后，团队中的任何人都可以在 @mentions 频道帖子中使用标记，或者仅与分配了该标记的人开始对话。
+使用Microsoft Teams中的标记，用户可以快速轻松地与团队中的一小组人员联系。 可以创建和分配自定义标记，以便根据角色、项目、技能或位置等属性对人员进行分类。 或者，可以基于人员在 Shifts 应用中的日程安排和班次信息自动将标记 [分配给人员](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts)。 将标记添加到一个或多个团队成员后，团队中的任何人都可以在 @mentions 频道帖子中将其用于该标记，或仅与分配了该标记的人开始对话。
 
-如前所述，该标记有两种Teams。
+如前所述，该标记有两种类型的Teams。
 
 - **自定义标记**：团队所有者和 (如果为其启用了该功能，则) 手动创建标记并将其分配给人员。 例如，"Designer"或"Radi一"标记将到达团队中的这些人员集，而无需键入其姓名。
-- **按排班** 标记：使用此功能，将自动为人员分配与日程安排匹配的标记，在"班次"应用中自动分配Teams。 [](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) 例如，在聊天或频道帖子中使用标记时，"EngineerOnCall"标记将到达在 Shifts 中计划工作的所有工程师。 使用按轮班Teams，当用户需要快速中继信息时，无需知道轮班员工的姓名，因此无需猜测。 通过将主要员工管理系统（例如 JDA、Kronos 和 AMiON）与工作团队中的 Shift 集成，还可以支持按班次进行Teams。 若要详细了解如何设置此功能，请参阅按 shift [设置标记](#set-up-tagging-by-shift)。
+- **按排班** 标记：使用此功能，将自动为人员分配与日程安排匹配的标记，在"班次"应用中自动分配Teams。 [](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) 例如，在聊天或频道帖子中使用标记时，"EngineerOnCall"标记将到达在 Shifts 中计划工作的所有工程师。 使用按轮班Teams，当用户需要快速中继信息时，无需知道轮班员工的姓名，因此无需猜测。 通过将主要员工管理系统（例如 JDA、Kronos 和 AMiON）与工作团队中的 Shifts 集成，还可以支持按班次进行Teams。 若要详细了解如何设置此功能，请参阅按 shift [设置标记](#set-up-tagging-by-shift)。
 
 > [!NOTE]
 > 专用通道尚不支持标记。 在 DoD 组织的国防部 (中) 标记。 
@@ -47,7 +47,7 @@ ms.locfileid: "58399051"
 - 一位护理员向所有通话卡员发送消息。 （即将推出）
 - 系统工程师向频道发布公告，通知所有轮班现场工程师。 （即将推出）
 
-当标记@mentioned对话中时，与标记关联的团队成员将收到通知，就像任何其他@mention。
+当标记在@mentioned对话中时，与标记关联的团队成员将收到通知，就像任何其他@mention。
 
 ## <a name="manage-custom-tags-for-your-organization"></a>管理组织的自定义标记
 
@@ -76,30 +76,30 @@ ms.locfileid: "58399051"
 2. 在 **"标记**"下，根据组织的需求设置以下内容。
 
     - 让团队所有者替代谁可以管理标记：启用此设置时，团队所有者可以设置团队成员是否可以在团队内创建和管理标记，并且"标记"的值通过设置进行管理是每个团队的默认值。 如果关闭此设置，则 **不能** 更改每个团队的"通过设置管理标记"。
-    - **建议的默认标记**：用于添加一组默认标记。 最多可以添加 25 个标记，每个标记最多可以包含 25 个字符。 如果为 (启用该功能，团队所有者和) 可以使用这些建议、向它们添加或创建一组新的标记。
+    - **建议的默认标记**：用于添加一组默认标记。 最多可以添加 25 个标记，每个标记最多可以包含 25 个字符。 如果为 (启用该功能，团队所有者和成员) 可以使用这些建议、添加建议或创建一组新的标记。
     - **允许创建自定义标记**：启用此设置，以允许添加除你设置的建议默认标记外的其他标记。 如果此选项已关闭，则用户只能使用建议的默认标记。 如果关闭此功能，请确保添加一个或多个默认标记。
 
 ## <a name="manage-custom-tags-settings-for-a-team"></a>管理团队的自定义标记设置
 
-如果打开"允许团队所有者替代谁可以管理Microsoft Teams管理中心"设置，团队所有者可以设置成员是否可以在团队级别添加标记。 为此，在团队的设置选项卡上，转到"标记 **"，然后选择** 可以添加标记的人。
+如果启用"允许团队所有者替代谁可以管理Microsoft Teams管理中心"设置，团队所有者可以设置成员是否可以在团队级别添加标记。 为此，在团队的设置选项卡上，转到"标记 **"，然后选择** 可以添加标记的人。
 
 ![团队级别的标记设置的屏幕截图](media/manage-tags-team-settings.png)
 
 ## <a name="use-tags"></a>使用标记
 
-下面将了解如何添加自定义标记，以及如何在 Teams) 中按 shift (设置标记。 若要了解有关详细信息，请查看使用[Teams 中的标记](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
+下面将了解如何添加自定义标记，以及如何在 Teams) 中的 Shifts 应用时通过 shift (设置标记。 若要了解有关详细信息，请查看使用 Teams 中的[标记](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
 
 ### <a name="create-and-assign-custom-tags"></a>创建和分配自定义标记
 
-若要创建和分配自定义标记，请选择Teams左侧的"标记"，然后在列表中查找你的团队。 选择 **"""更多选项"，** 然后选择"**管理标记"。** 可在此处创建标记并将其分配给团队中的人员。
+若要创建和分配自定义标记，请选择Teams左侧的标记，然后在列表中查找你的团队。 选择 **"""更多选项"，** 然后选择"**管理标记"。** 可在此处创建标记并将其分配给团队中的人员。
 
-![如何在客户端应用标记的Teams屏幕截图 ](media/manage-tags-teams.png)
+![如何在客户端中应用标记的Teams屏幕截图 ](media/manage-tags-teams.png)
 
 若要删除标记，请选择 **标记旁边的"""更多选项**"，然后选择"删除 **标记"。**
 
 ### <a name="set-up-tagging-by-shift"></a>按 Shift 设置标记
 
-按 shift 标记允许用户实时联系轮班人员。 Teams分配标记与计划匹配的用户，从 Shifts 应用转移组名称，从而启用动态的基于角色的消息传送。 通知仅发送给使用标记开始聊天或频道帖子时轮班的人。 
+按 shift 标记允许用户实时联系轮班人员。 Teams分配标记与计划匹配的用户，从 Shifts 应用转移组名称，从而启用动态基于角色的消息传送。 通知仅发送给使用标记开始聊天或频道帖子时轮班的人。 
 
 1. 在Teams，转到[Shifts 应用](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)。
 2. 创建 [班次组](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) ，并基于角色等属性命名。 例如，EngineerOnCall。 班次组名称将是标记的名称。

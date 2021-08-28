@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. '
-ms.openlocfilehash: b363814066e8a9bb0169baa3a41e81d10fb69ba3ecca862530292d73b5e94b65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d4fdfb996b3294637474bfef78caae647ddc4e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297648"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605661"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>视频：Skype for Business Online 外部通信
 
@@ -40,7 +40,7 @@ ms.locfileid: "54297648"
 ***
   
 ## <a name="related-topics"></a>相关主题
-[使用Skype for Business演练设置](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (Online 外部通信) 
+[设置 Skype for Business Online 外部通信](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (演练) 
 
 [允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md)
 
