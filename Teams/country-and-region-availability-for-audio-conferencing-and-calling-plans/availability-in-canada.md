@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于加拿大Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: b1b28b9caa3479de81d64639a0d638e3d5eada59967e1328f806b55993363472
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是加拿大Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 034a9655afad69b90c9195dad5f7f7bceeac4cba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279769"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593136"
 ---
 # <a name="availability-in-canada"></a>在加拿大的可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-以下是适用于加拿大Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+以下是加拿大Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
 
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -60,12 +60,12 @@ ms.locfileid: "54279769"
 | **功能**                                        | **详细信息**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 是否可购买通话套餐？  <br/>    | 是  <br/>                                                                                                                                                                                                                                                                  |
-| 通话套餐可用的分钟数。               | 每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>3000 分钟国内呼叫计划</li></li><li>国内和国际呼叫计划：国内 3000 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li>|
+| 通话套餐可用的分钟数。               | 每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>3000 分钟国内呼叫计划</li></li><li>国内和国际呼叫计划：国内 3000 分钟 -或 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li>|
 | 能否对高级号码进行出站呼叫？  <br/> | 目前不支持。<br/>                                                                                                                                                                                                                                            |
 | 是否可以拨打呼出电话？  <br/>                 | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/>                                                                                                                                                                  |
 
 > [!Note]
-> 当呼叫 (国内或国内和国际呼叫) 美国用户拨打加拿大的电话号码时，将视为国内呼叫。 当加拿大的用户拨打美国的电话号码时，也会发生此情况。但是，如果你还使用呼叫计划策略将用户拨出限制为"国内"，则美国用户将无法呼叫加拿大，同样，加拿大用户将无法呼叫美国用户。
+> 当呼叫 (国内或国内和国际呼叫) 美国用户拨打加拿大的电话号码时，该套餐将被视为国内呼叫。 当加拿大的用户拨打美国的电话号码时，也会发生此情况。但是，如果你还使用呼叫计划策略将用户拨出限制为"国内"，则美国用户将无法呼叫加拿大，同样，加拿大用户将无法呼叫美国用户。
 
 > [!Note]
 > 呼叫美国将视为国内呼叫。

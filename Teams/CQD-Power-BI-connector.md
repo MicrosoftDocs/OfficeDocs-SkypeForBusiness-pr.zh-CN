@@ -13,16 +13,16 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 安装 Power BI 连接器以使用 CQD (查询) 呼叫质量仪表板
-ms.openlocfilehash: 7c82cfbb2279e680d6f088840302a6027d5bdd18
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 258d3be034bd956c518f1ed7a67273f064b383b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234337"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593316"
 ---
-# <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>安装 Microsoft 呼叫质量连接器Power BI以使用呼叫质量仪表板查询模板
+# <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>安装 Microsoft 呼叫质量连接器Power BI使用呼叫质量仪表板查询模板
 
 在使用 Power BI 查询模板 (PBIX 文件) for Microsoft Teams 呼叫质量仪表板 (CQD) 之前，需使用下载中包含的 *MicrosoftCallQuality.pqx* 文件安装适用于 Power BI 的 Microsoft 呼叫质量 [连接器。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)
 
@@ -35,7 +35,7 @@ ms.locfileid: "58234337"
 
 ## <a name="installation"></a>安装
 
-本文档详细介绍了安装自定义连接器和调整安全性以启用连接器[Power BI过程](/power-bi/desktop-connector-extensibility)。 为简单起见，下面是一个快速说明：
+此文档详细介绍了安装自定义连接器和调整安全性以启用连接器使用[Power BI过程](/power-bi/desktop-connector-extensibility)。 为简单起见，下面是一个快速说明：
 
 1. 检查计算机是否已在"自定义连接器"文件夹中 *\[ \] \\ Power BI Desktop \\ 文档"。* 如果没有，请创建此文件夹。<sup>1</sup>
 
@@ -53,7 +53,7 @@ ms.locfileid: "58234337"
 
     ![屏幕截图：Power BI 连接器](media/CQD-power-bi-connector1-resize.png)
 
-2. 此时 *应会显示* "获取数据"窗口。 导航到 *"联机服务"，* 然后选择"Microsoft 呼叫质量 *" (Beta*) 并点击"连接"。 
+2. 此时 *应会显示* "获取数据"窗口。 导航到 *"联机服务"，* 然后选择 *"Microsoft 呼叫质量 (Beta)* 并点击"连接"。 
 
     ![屏幕截图：Power BI 连接器](media/CQD-power-bi-connector2-resize.png)
 
@@ -82,7 +82,7 @@ ms.locfileid: "58234337"
     > [!IMPORTANT]
     > 调用质量仪表板要求测量要运行的任何查询。 未能向查询添加度量值将导致该查询失败。
 
-3. 接下来，选择要筛选的任何维度，并将其拖动到"筛选器"窗格中 *此可视* 字段上的 *"筛选器* "。 Microsoft 呼叫质量连接器目前支持基本筛选 (从可能维度值) 列表中选择值;高级筛选 (手动指定要筛选的值和操作数，类似于呼叫质量仪表板 *) ;* 相对日期筛选 (仅适用于"结束时间和开始时间"维度) 。    呼叫质量仪表板不支持根据 *前 N* 个进行筛选。
+3. 接下来，选择要筛选的任何维度，并将其拖动到"筛选器"窗格中 *此可视* 字段上的 *"筛选器* "。 Microsoft 呼叫质量连接器目前支持基本筛选 (从可能维度值) 列表中选择值，高级筛选 (手动指定要筛选的值和操作数，类似于呼叫质量仪表板) ，而相对日期筛选 *(* 仅适用于"结束时间和开始时间"维度) 。    呼叫质量仪表板不支持根据 *前 N* 个进行筛选。
 
     ![屏幕截图：Power BI 连接器](media/CQD-power-bi-connector5-resize.png)
 
@@ -104,11 +104,11 @@ ms.locfileid: "58234337"
 
     ![屏幕截图：Power BI 连接器](media/CQD-power-bi-connector6-resize.png)
 
-3. **就是这样\!** 使用该维度的另一页上的其他任何钻取现在可以添加到该页面，并自动将钻取维度的值作为筛选器应用。
+3. **就是这样\!** 现在，使用该维度的另一页上的钻取查询都可以添加到该页面，并自动将钻取维度的值作为筛选器应用。
 
     ![屏幕截图：Power BI 连接器](media/CQD-power-bi-connector7-resize.png)
 
-与呼叫质量仪表板不同，Power BI支持非连续钻取。 如果查询包含必需的维度，钻取任何其他页面。
+与呼叫质量仪表板不同，Power BI支持非连续钻取。 如果查询包含必要的维度，它可以钻取任何其他页面。
 
 ### <a name="best-practice"></a>最佳做法
 
@@ -126,11 +126,11 @@ ms.locfileid: "58234337"
 
 4. **引用缓存数据 –** Power BI目前不支持从 DirectQuery 连接器以任何方式引用缓存的数据。 任何引用查询结果的尝试都将导致新的查询。
 
-5. **相对数据筛选 –** 在 Microsoft 呼叫质量连接器中受支持，但仅支持"开始时间"*和"**结束时间"* 维度。 虽然 *"日期*"维度可能是相对日期筛选的明显选择，但 *"* 日期"不存储为日期时间对象，因此不支持在Power BI。
+5. **相对数据筛选 –** 在 Microsoft 呼叫质量连接器中受支持，但仅支持"开始时间"*和"**结束时间"* 维度。 虽然 *"日期*"维度可能是相对日期筛选的明显选择，但 *日期* 不存储为日期时间对象，因此不支持在日期筛选Power BI。
 
 6. **仅度量查询 -** Microsoft 呼叫质量连接器目前不支持 。 创建具有三个或多个度量且无维度的可视化效果时，将转置列数据。 若要避免这种情况，请始终在可视化效果 (至少包含一) 年数据。 这一问题预计将在即将发布的 Microsoft 呼叫质量连接器版本中解决，Power BI。
 
-7. **政府社区云 (GCC) 支持 -** 对于客户GCC，Microsoft 呼叫质量连接器仅在使用 Power BI Desktop 时工作。 Microsoft 呼叫质量连接器目前与客户Power BI服务GCC兼容。
+7. **政府社区云 (GCC) 支持 -** 对于客户GCC，Microsoft 呼叫质量连接器仅在使用 Power BI Desktop 时工作。 Microsoft 呼叫质量连接器目前与 Power BI 服务GCC兼容。
 
 这些问题中的大多数是 DirectQuery 连接器设计的限制Power BI是 CQD 数据模型设计的基础。
 
@@ -154,13 +154,13 @@ Microsoft 呼叫质量连接器不支持日期切片器。 若要指定日期范
 
   - **ErrorType 5 - 执行超时：** 在超时之前，查询已达到可能的最大运行时。尝试向查询添加更多筛选器，以限制其范围。 缩小数据范围通常是实现此目的最有效的方法。
 
-  - **ErrorType 7 - 无度量错误：** 调用质量仪表板查询需要一个度量值才能正常工作。 仔细检查查询是否包含度量值。 Microsoft 呼叫质量连接器中的度量值由聚合 (表示) 名称之前加和符号。
+  - **ErrorType 7 - 无度量错误：** 调用质量仪表板查询需要一个度量值才能正常工作。 仔细检查查询是否包含度量值。 Microsoft 呼叫质量连接器中的度量值由聚合 (表示) 名称之前的值和。
 
 如果在此范围内遇到任何其他错误，请通知呼叫质量仪表板团队，以便我们可以帮助解决问题并适当地更新文档。
 
 ## <a name="footnotes"></a>脚注
 
-**<sup>1</sup>** 某些进程和应用 (例如，OneDrive) 文档根文件夹更改;确保自定义 *连接器Power BI Desktop \\* 放在当前根文件夹"文档"文件夹中。
+**<sup>1</sup>** 某些进程 (应用，例如OneDrive) 文档根文件夹更改;请确保自定义 *连接器Power BI Desktop \\* 放在当前根文件夹"文档"文件夹中。
 
 **<sup>2</sup>** 用于呼叫质量仪表板的登录凭据不需要是登录应用本身时Power BI Desktop凭据。
 
@@ -168,7 +168,7 @@ Microsoft 呼叫质量连接器不支持日期切片器。 若要指定日期范
 
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>何时从Power BI"状态更新连接器？
 
-尽管具有 Beta 版标记，但适用于 Power BI 的 Microsoft 呼叫质量 (Beta) 连接器是该连接器的第一个"发布"版本，并且已由 Power BI 团队正式签名，以反映这一点。 在连接器初始发布时，Power BI 团队无法提供支持和更广泛的认证，但仍准备证明 Microsoft 呼叫质量连接器的安全性、真实性和常规功能。 我们计划在不久的将来投资 Microsoft 呼叫质量连接器Power BI服务。
+尽管具有 Beta 版标记，但适用于 Power BI 的 Microsoft 呼叫质量 (Beta) 连接器是该连接器的第一个"发布"版本，并且已由 Power BI 团队正式签名，以反映这一点。 在连接器初始发布时，Power BI 团队无法提供支持和更广泛的认证，但仍准备证明 Microsoft 呼叫质量连接器的安全性、真实性和常规功能。 未来，我们计划在不久的将来投资 Microsoft 呼叫质量连接器Power BI服务。
 
 ### <a name="why-does-the-connector-seem-slower-compared-to-call-quality-dashboard-in-the-browser-what-can-i-do-to-improve-performance"></a>与浏览器中的呼叫质量仪表板相比，连接器为何看起来较慢？ 如何提高性能？
 

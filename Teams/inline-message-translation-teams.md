@@ -1,5 +1,5 @@
 ---
-title: 启用内联消息翻译
+title: 启用内联邮件翻译
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -10,9 +10,9 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 ms.reviewer: salilda
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何使用 Microsoft Teams 管理中心或 PowerShell 在 Microsoft Teams 中启用内联翻译。
+description: 了解如何使用 Microsoft Teams 管理中心或 PowerShell Microsoft Teams内联翻译。
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,21 +20,21 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 719f97e72f099edb4d14c22ef9d5a3de0f787ea7411f42f1d777ea842bcc4e27
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bfaa03ff8fa8654fca48fbd2bd31d8d6518e2de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593076"
 ---
 # <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>在邮件中关闭内联Microsoft Teams
 
-内联邮件翻译Microsoft Teams一项功能，允许用户将Teams翻译成[其个人语言](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)设置指定的语言。
+内联邮件翻译Microsoft Teams一项功能，允许用户将Teams翻译成其个人语言设置指定的语言。 [](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)
 
 默认情况下，为组织推出内联邮件翻译。 如果希望允许用户在客户端客户端内使用此功能，Teams更改。
 
 > [!NOTE]
->此推出不包括在我们的 Office 365 德国云Office 365 政府版 Community订阅Office 365订阅。
+>此推出不包括在德国Office 365云Office 365 政府版 Community订阅Office 365订阅。
 
 ## <a name="use-powershell-to-turn-off-inline-message-translation"></a>使用 PowerShell 关闭内联消息翻译
 

@@ -11,19 +11,19 @@ searchScope:
 - Microsoft Teams
 search.appverid: MET150
 description: 了解 Microsoft Teams 中的“审批”应用程序可用性。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df725792ec8843b77ba2ff4956617d2959e718e2
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: f50a5f766740d3d5d8fa9effc0b49ec495c361cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399081"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593186"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -57,7 +57,7 @@ ms.locfileid: "58399081"
 
 - 用户需要 Microsoft Forms 许可证才能设置新的审批模板。
 
-若要使用"审批"应用，需要一个Power Automate许可证，你的帐户将在第一次审批分配时自动添加到目标环境中"审批用户"角色。
+若要使用"审批"应用，需要一个许可证Power Automate，你的帐户将在第一次审批分配时自动添加到目标环境中"审批用户"角色。
 
 ## <a name="storage-with-cds"></a>通过 CDS 进行存储
 
@@ -203,10 +203,10 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 - 你选择使用的特定电子签名提供商的许可证。 若要获取组织的许可证，您需要转到提供商的网站。
 
-对于"审批电子签名"功能，第三方签名合作伙伴默认显示在Teams审批"应用中。 可以通过访问管理中心中的应用设置来禁用Teams签名提供程序。
+对于"审批电子签名"功能，第三方签名合作伙伴默认显示在"Teams审批"应用中。 可以通过访问管理中心中的应用设置来禁用Teams签名提供程序。
 
-1. 在Teams管理中心的"**管理应用"下**，选择"审批 **"** 应用并选择 **"设置"。**
+1. 在Teams管理中心的"**管理应用"下**，选择"审批 **"应用并选择****"设置"。**
 
-2. 默认情况下，每个电子签名提供商旁边都有一个开关，该开关位于 (位置) 右侧。 向左滑动切换开关以禁用特定的电子签名提供程序。 如果Teams管理员禁用了提供商，则最终用户在创建审批时不会看到提供商。 最终用户也无法查看通过该提供商提出的任何电子签名请求。
+2. 默认情况下，每个电子签名提供商旁边都有一个开关，该开关位于 (右侧) 位置。 向左滑动切换开关以禁用特定的电子签名提供程序。 如果Teams管理员禁用了提供商，则最终用户在创建审批时不会看到提供商。 最终用户也无法查看通过该提供商提出的任何电子签名请求。
 
 从"审批"应用创建的电子签名审批存储在所选提供商的云中。 因此，您需要转到提供商的网站才能导出有关电子签名的任何数据。 请参阅提供商的文档，了解这些协议的导出和保留。

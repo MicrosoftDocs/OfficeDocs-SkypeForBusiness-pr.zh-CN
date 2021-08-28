@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,16 +25,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: bfb23ad0b0d4b79ba13de1204f96f30b9450c3d5a425957dc9c44abedee8ba30
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1fbb3be9140e2cecb5eb303fc20f3e21a04b1d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336442"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593106"
 ---
 # <a name="availability-in-costa-rica"></a>在哥斯达黎加的可用性
 
-[查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或了解有关音频会议和呼叫计划的国家/地区可用性。音频会议和呼叫计划。
+[查找其他国家/](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)地区，或了解有关音频会议和呼叫计划的国家/地区可用性以及音频会议和通话计划。
 
 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
   
@@ -71,7 +71,7 @@ ms.locfileid: "54336442"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |电话号码没有关联到特定城市或位置。  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
-|是否提供免费电话号码？  <br/> |弱  <br/> |
+|是否提供免费电话号码？  <br/> |否  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   

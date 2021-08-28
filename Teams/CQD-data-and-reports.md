@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解 Microsoft 呼叫质量仪表板和 CQD (提供的数据和) 。
-ms.openlocfilehash: 04330069f04c948ad82b953bee20e5d20c9ab964
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: 313ea0556f9f7ff8c0663209c6857f3d12e8ffe7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58339860"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593306"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>CQD 呼叫质量仪表板 (数据和) 
 
@@ -40,7 +40,7 @@ Microsoft 呼叫质量仪表板 (CQD) 使用近实时的 NRT (NRT) 数据源。 
 
 |  |  |
 |---------|---------|
-|Teams管理中心[ (https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 数据包含在 Teams管理中心的"用户"页面上，以易于阅读的格式显示所需的最常见数据。 不能自定义在"用户"下找到的 CQD **数据**。  |
+|Teams管理中心[ (https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 数据包含在 Teams管理中心的"用户"页上，以易于阅读的格式显示所需的最常见数据。 不能自定义在"用户"下找到的 CQD **数据**。  |
 |CQD 门户[ (https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | 使用钻取筛选功能，提供满足大多数需求的可靠的摘要和详细报表。 还可以在 CQD 门户中自定义报表。 <br><br>获取两 [个 CQD 报表](#import-the-cqd-report-templates) 模板，以帮助在 CQD 门户中分析数据。       |
 |Power BI     | 使用直接查询，使用可自定义的自定义Power BI在 Power BI[中查看 CQD 数据](CQD-Power-BI-query-templates.md)。 [下载Power BI CQD 的查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>也可使用[REST API 通过数据库访问 CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) Power BI。 如果要下载 CQD 数据以便脱机处理，请使用此方法。 使用此方法的好处是性能更好，对于联机时陷入Power BI的大型数据集尤其有用。       |
 |Graph API     | 使用 Graph [API 自己Graph质量数据](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)。 这是最复杂的方法，但它在分析呼叫质量数据方面提供了最大的控制和灵活性。 例如，如果需要将其与组织的其他数据联接，可以使用 Graph API 创建数据模型并合并调用质量数据。        |
@@ -70,12 +70,12 @@ Microsoft 呼叫质量仪表板 (CQD) 使用近实时的 NRT (NRT) 数据源。 
 
 - 完整的 IP 地址
 - MAC 媒体访问控制 (MAC) 地址
-- 基本服务集标识符 (BSSID) 
+- BSSID (的基本服务集) 
 - 会话启动协议 (SIP) URI (Skype for Business仅) 
 - 用户主体名称 (UPN)
 - 计算机终结点名称
 - 用户详细反馈
-- 对象 ID (终结点的用户帐户的 Active Directory 对象 ID) 
+- 对象 ID (终结点用户帐户的 Active Directory 对象 ID) 
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>具有和没有 EUII 访问权限的管理员角色
 
@@ -141,7 +141,7 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
  
 ### <a name="select-product-data-to-see-in-reports"></a>选择要在报告中查看的产品数据
 
-在"摘要Location-Enhanced报表"中，可以使用"产品筛选器"下拉列表显示所有产品数据、仅Microsoft Teams数据，或仅Skype for Business联机数据。
+在"摘要Location-Enhanced报表"中，可以使用"产品筛选器"下拉列表显示所有产品数据、仅Microsoft Teams数据或仅Skype for Business联机数据。
 
 > [!div class="mx-imgBorder"]
 > ![屏幕截图：显示产品筛选器控件选项](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
@@ -166,7 +166,7 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
 > [!div class="mx-imgBorder"]
 > ![屏幕截图：显示"呼叫质量"选项卡](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-流分为三组：良好、较差和未分类。 此外，还有计算  *得出的 Poor %*  值，这些值提供分类为 *"*  差"的流与已分类流总数的比率。 由于 Poor % = 差流/ (差流+ 良好流) ** 100，**因此 Poor %* 不受存在多个未 *分类* 流的影响。 若要了解将流分类为差或好什么，请参阅呼叫 [质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。
+流分为三组：良好、较差和未分类。 此外，还有计算  *得出的 Poor %*  值，这些值提供分类为 *"*  差"的流与已分类流总数的比率。 由于 Poor % = 差流/ (差流+ 良好流 *) * 100，**因此 Poor %* 不受存在多个未 *分类* 流的影响。 若要了解将流分类为差或好什么，请参阅呼叫 [质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。
   
 使用左侧的刻度测量流计数值。
 
@@ -190,14 +190,14 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
   
 ### <a name="server-client-tab-and-client-client-tabs"></a>Server-Client选项卡和Client-Client选项卡
 
-这两个选项卡提供其终结点到终结点方案中发生流的详细信息。 "Server-Client"选项卡包含四个可折叠的节，这些部分表示媒体流将流动的四种方案。
+这两个选项卡提供其终结点到终结点方案中发生流的详细信息。 "Server-Client"选项卡包含四个可折叠的节，这些部分表示媒体流将在其中流动的四种方案。
   
 - 内部有线
 - 外部有线
 - WiFi 内部
 - 外部 WiFi
 
-同样，"Client-Client选项卡包含五个可折叠的部分：
+同样，"Client-Client选项卡包含五个可折叠部分：
 
 - 内部有线 - 内部有线
 - 内部有线 - 外部有线
@@ -209,7 +209,7 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
 
 CQD 使用建筑物信息将流分类为"内部"或"外部"（如果存在）。 每个流的终结点与子网地址相关联。 如果子网位于上传的建筑物信息中标记为 InsideCorp 的子网列表中，则它被视为"内部 *"。* 如果尚未上传生成信息，则"内部测试"始终将流分类为"外部 *"。* 
 
-应用场景的内部Server-Client仅考虑客户端终结点。 由于从用户的角度来看，服务器始终位于外部，因此在测试中未考虑到这一点。
+客户端终结点的Server-Client方案仅考虑客户端终结点。 由于从用户的角度来看，服务器始终位于外部，因此在测试中未考虑到这一点。
   
 #### <a name="wired-versus-wifi"></a>有线与 WiFi
 
@@ -221,7 +221,7 @@ CQD 使用建筑物信息将流分类为"内部"或"外部"（如果存在）。
   
 ## <a name="tenant-data-information"></a>租户数据信息
 
-"CQD 摘要报表 **"** 仪表板包括租户数据Upload页，该页面通过从右上角的设置菜单中选择"租户数据"Upload访问。 此页用于管理员上传其自己的信息，例如：
+CQD 摘要报表仪表板 **包括** 租户数据Upload页，通过从右上角的设置菜单中选择"租户数据"Upload访问该页面。 此页用于管理员上传其自己的信息，例如：
 
 - IP 地址和地理信息的地图。
 - 每个无线 AP 及其 MAC 地址的地图。
@@ -242,12 +242,12 @@ CQD 使用建筑物信息将流分类为"内部"或"外部"（如果存在）。
 |评价我的通话报告     |按区域、位置或用户分析用户通话分级。 包括逐字反馈。         |
 |技术支持报表     |技术支持报告查看单个用户、用户组或所有人的呼叫和会议数据。 这些报告合并了建筑物和 EUII 数据，可帮助根据网络位置、会议详细信息、设备或固件确定可能的系统问题。         |
 |客户端版本报告     |客户端版本摘要：查看每个客户端应用版本的会话和用户计数<br><br>按用户表示的客户端版本：查看每个客户端应用版本的用户名 <br><br>针对"产品"和"客户端类型"预构建的筛选器可帮助将版本侧重于特定客户端。         |
-|终结点报告     |按计算机终结点显示呼叫质量 (计算机制造商和型号) 。 这些报表包括建筑物数据（如果已上传）。         |
+|终结点报告     |按计算机终结点显示呼叫质量 (计算机制造商和模型) 。 这些报表包括建筑物数据（如果已上传）。         |
 
 
 ## <a name="create-custom-detailed-reports"></a>创建自定义详细报表
 
-如果默认 CQD 报表不能满足需求，请使用这些说明创建自定义报表。 或者 (2020 年 1 月) [对 CQD ](cqd-power-bi-query-templates.md)Power BI使用资源。
+如果默认 CQD 报表不能满足需求，请使用这些说明创建自定义报表。 或者 (2020 年 1 月) [对 CQD Power BI使用资源](cqd-power-bi-query-templates.md)。
 
 从在登录时显示的屏幕顶部的报表的下拉列表中，选择"摘要报表"屏幕，选择"详细报表"，然后选择 \(  \) "**新建"。**  单击 **报告中** 的"编辑"，查看查询编辑器。 每个报告都可以通过对多维数据集进行查询得到。 报告是其查询返回的数据的可视化形式。 查询编辑器可帮助编辑这些查询和报表的显示选项。
 
@@ -262,7 +262,7 @@ CQD 使用建筑物信息将流分类为"内部"或"外部"（如果存在）。
 
 ## <a name="query-filters"></a>查询筛选器
 
-查询筛选器是使用 CQD 中的查询编辑器实现的。 这些筛选器用于减少 CQD 返回的记录数，从而最大程度地减少报表的总体大小和查询时间。 这尤其适用于筛选出非托管网络。 下表中列出的筛选器使用正则表达式 (RegEx) 。
+查询筛选器是使用 CQD 中的查询编辑器实现的。 这些筛选器用于减少 CQD 返回的记录数，从而最大程度地减少报表的总体大小和查询时间。 这尤其适用于筛选出非托管网络。 下表中列出的筛选器使用正则表达式 (正则表达式) 。
 
 
 | 筛选器         | 说明          | CQD 查询筛选器示例      |
@@ -286,7 +286,7 @@ CQD 使用建筑物信息将流分类为"内部"或"外部"（如果存在）。
 
 ### <a name="drill-down-filters"></a>向下钻取筛选器
 
-CQD 报表具有多个向下钻取筛选器，这些筛选器是缩小通话质量调查重点的强大工具。 如果选择向下钻取字段，则报表会自动打开相应的选项卡，并筛选所选值。 如果该选项卡具有其自己的向下钻取字段并且选择了一个字段，则应用这两组筛选器，从而逐渐缩小生成的数据集。
+CQD 报告具有多个向下钻取筛选器，这些筛选器是缩小通话质量调查重点的强大工具。 如果选择向下钻取字段，则报表会自动打开相应的选项卡，并筛选所选值。 如果该选项卡具有其自己的向下钻取字段并且选择了一个字段，则应用这两组筛选器，从而逐渐缩小生成的数据集。
 
 ![演示向下钻取报表流的示意图](media/qerguide-image-drillthrureportflow.png)
 
@@ -299,19 +299,19 @@ CQD 报表具有多个向下钻取筛选器，这些筛选器是缩小通话质�
 
 ![编辑向下钻取字段的屏幕截图](media/qerguide-image-addeditdrilldownfields.png)
 
-从查询编辑器左侧的列表中选择"维度"。 然后单击"导航到"标签下方的下拉列表，然后选择希望维度要导航到的选项卡钻取组。 注意：目前，向下钻取功能仅通过导航到不同的选项卡来工作。 稍后将添加对钻取到特定扩展器的支持。 最后，单击 **"关闭**"将更改保存到"维度"，然后单击"保存"以保存并关闭查询编辑器。
+从查询编辑器左侧的列表中选择"维度"。 然后单击"导航到"标签下方的下拉列表，然后选择希望维度要导航到的选项卡钻取组。 注意：目前，向下钻取功能仅通过导航到不同的选项卡来工作。 稍后将添加对钻取到特定扩展器的支持。 最后，单击 **"关闭** "将更改保存到"维度"，然后单击 **"保存"** 以保存并关闭查询编辑器。
 
 ![在查询编辑器中选择维度的屏幕截图](media/qerguide-image-selectquerydimension.png)
 
 ### <a name="multi-select-filters"></a>多选筛选器
 
-除了向下钻取功能，CQD 还支持指定具有多个值的筛选器 (或筛选器) 。
+除了向下钻取功能，CQD 还支持指定具有多个值的筛选器 (OR 筛选器) 。
 
 若要选择多个筛选器值，请首先向报表添加新筛选器。 在 **+** "**筛选器"标签** 旁边单击，输入想要使用的维度的名称，然后单击"添加 **"。**
 
 ![添加多选筛选器的屏幕截图](media/qerguide-image-addmultiselectfilter.png)
 
-然后 **，单击** " (筛选器"旁边的放大镜图标) 。 你将看到一个文本字段和一些选项，包括 **"全选**"和 **"反转"。** 输入值，然后单击 **该字段旁边的"** 搜索"进行搜索。 或者，将文本字段留空，然后单击"搜索"查看最多前 100 个选项。
+然后单击" **搜索 (** 新筛选器旁边的放大镜图标) 。 你将看到一个文本字段和一些选项，包括 **"全选**"和 **"反转"。** 输入值，然后单击 **该字段旁边的"** 搜索"进行搜索。 或者，将文本字段留空，然后单击"搜索"查看最多前 100 个选项。
 
 ```powershell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
@@ -356,7 +356,7 @@ CQD 支持向 URL 添加筛选器。 这样，可以轻松共享 CQD 查询或�
 
 `https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]`
 
-若要应用包含多选值的 URL 筛选器，请用管道将每个值 ( |) 字符。 例如：
+若要应用具有多选值的 URL 筛选器，请用管道分隔每个 ( |) 字符。 例如：
 
 `filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]`
 
@@ -388,13 +388,13 @@ CQD 中的租户 ID 对应于 Azure 中的目录 ID。 如果不知道目录 ID�
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>比较 Teams Skype for Business CQD 数据
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>比较Teams和Skype for Business CQD 数据
 
 查看数据时，可能会发现数据与数据Teams Skype for Business。 一些原因：
 - 确保性能和可靠性的机制差异：
-  - Teams自动重新连接和快速漫游。 Skype for Business不会。
-  - Teams具有动态带宽管理。 Skype for Business不会。
-- IP 地址[范围在](Office-365-URLs-IP-address-ranges.md)Teams 和 Skype for Business。 TEAMS IP 范围较新，这可能会导致防火墙出现连接问题。
+  - Teams具有自动重新连接和快速漫游。 Skype for Business不会。
+  - Teams动态带宽管理。 Skype for Business不会。
+- IP 地址[范围在](Office-365-URLs-IP-address-ranges.md)Teams 和 Skype for Business。 Teams IP 范围较新，这可能会导致防火墙出现连接问题。
 
 
 
@@ -404,7 +404,7 @@ Login-AzureRmAccount
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[设置 CQD (呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
+[使用 CQD (设置呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
 
 [Upload租户和建筑物数据](CQD-upload-tenant-building-data.md)
 

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 description: VoIPDetails 视图存储有关对等会话（其中至少有一个用户是 VoIP 用户）的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 9e8eeaa0e907496d03a4541792f6f100a9191324497ee7603a65ec5a71fba592
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 84f167fc3f4de45142d3bad80acf0fc9803b40db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351951"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593376"
 ---
 # <a name="voipdetails-view"></a>VoIPDetails 视图
  
@@ -27,7 +27,7 @@ VoIPDetails 视图存储有关对等会话（其中至少有一个用户是 VoIP
 > [!NOTE]
 > VoIPDetails 视图包含 [SessionDetails](sessiondetails-0.md) 视图中的所有列以及下面列出的列。
   
-|**列**|**数据类型**|**详细信息**|
+|**列**|**数据类型**|**Details**|
 |:-----|:-----|:-----|
 |**FromPhone** <br/> |nvarchar (450)   <br/> |启动会话的用户的电话 ID。  <br/> |
 |**ToPhone** <br/> |nvarchar (450)   <br/> |加入会话的用户的电话 URI。  <br/> |

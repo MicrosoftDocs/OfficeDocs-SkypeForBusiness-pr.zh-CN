@@ -14,16 +14,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在频道中设置审核Microsoft Teams，包括如何将团队成员添加为频道审阅人。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0aa2035a23a82d0a73009c379b99d34e9ccf7ff1b1b3dd0806dd7d6d0afcdf7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb709d8e618b68fad2bc87dc658eb6f67853e891
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304844"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593026"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在视频中设置和管理Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "54304844"
 
 ## <a name="scenarios"></a>方案
 
-下面是一些示例，说明组织如何在 Teams 中使用频道审核。
+下面是一些示例，说明您的组织如何在 Teams 中使用频道审核。
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>使用频道作为公告频道
 
@@ -54,13 +54,13 @@ ms.locfileid: "54304844"
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>使用频道进行课堂讨论Teams 教育版
 
-在Teams 教育版中，科学教师希望使用频道让学生参与有关特定课堂主题的重点讨论。
+在Teams 教育版，科学教师希望使用频道来让学生参与有关特定课堂主题的重点讨论。
 
 在此方案中，教师允许其教学助手主持频道。 然后，教学助理可以创建新文章来发起和推动与学生的讨论。
 
 ## <a name="manage-channel-moderation"></a>管理频道审核
 
-在Teams，转到频道，单击"**更多选项..."**  > **管理频道**。 在这里，可以启用和关闭审查、将团队成员添加为审阅人，以及设置首选项。
+在Teams，转到频道，单击"**更多选项..."**  > **管理频道**。 在这里，可以启用和关闭审核、将团队成员添加为审阅人，以及设置首选项。
 
 通道审核是按通道设置。 没有用于通道审核的租户级设置。 如果希望我们添加租户级通道审核设置，请通过[UserVoice](https://microsoftteams.uservoice.com/)Teams它。
 
@@ -76,7 +76,7 @@ ms.locfileid: "54304844"
 
 ### <a name="add-or-remove-channel-moderators"></a>添加或删除频道审查器
 
-在 **Who审阅人？"** 下，单击 **"管理**"，然后添加或删除作为审阅人的团队成员。 团队所有者和审阅人可以添加和删除其他审阅人。  
+在 **Who审阅人**？"下，单击 **"管理**"，然后添加或删除作为审阅人的团队成员。 团队所有者和审阅人可以添加和删除其他审阅人。  
 
 ### <a name="set-team-member-permissions"></a>设置团队成员权限
 
