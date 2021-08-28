@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解应用Microsoft Teams标准用户的行为方式。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97431dae774569c60ddc3299ca1dc637a9c571239082dac3a8c9449ff0124e51
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 882fda0be339c8f9869c5b83fbeff3e97d5892ee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342877"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619398"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams标准用户的应用行为
 
@@ -35,13 +35,13 @@ ms.locfileid: "54342877"
   > [!Note]
   > 有关来宾用户与外部用户的详细比较， [请参阅与其他组织的用户通信](./communicate-with-users-from-other-organizations.md)。
 
-- 匿名 **用户** 是用户通过Teams加入会议的会议中的概念。 用户尚未使用其 Microsoft 或组织的帐户登录。
+- 匿名 **用户** 是Teams通过链接加入会议的会议的概念。 用户尚未使用其 Microsoft 或组织的帐户登录。
 
 ## <a name="guest-users"></a>来宾用户
 
 ### <a name="install-update-and-delete-for-guest-users"></a>为来宾用户安装、更新和删除
 
-来宾无法安装、更新或删除应用到共享上下文（如聊天、频道或会议）中，但他们可以使用消息扩展和直接链接访问其个人范围。 来宾无法从桌面Teams访问 Teams应用商店，但可以使用直接链接访问它。
+来宾无法将应用安装、更新或删除到共享上下文（如聊天、频道或会议）中，但可以使用消息扩展和直接链接访问其个人范围。 来宾无法从桌面Teams访问 Teams应用商店，但可以使用直接链接访问它。
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>来宾用户的使用行为和策略
 
@@ -53,7 +53,7 @@ ms.locfileid: "54342877"
 
 #### <a name="personal-bots-installed-with-policies"></a>使用策略安装的个人机器人
 
-- 来宾将遵循为任何应用的主机租户设置的全局和组织范围权限策略。 如果整个主机组织阻止了应用，则来宾也不可能使用该应用。
+- 来宾将遵循针对任何应用的主机租户设置的全局和组织范围权限策略。 如果整个主机组织阻止了应用，则来宾也不可能使用该应用。
 - 还会为来宾安装全局默认应用设置策略中包含的任何机器人。
 - 安装机器人后，机器人可以主动与来宾通信，来宾可以与机器人重新通信。
 - 无法从全局默认应用设置策略中删除来宾。

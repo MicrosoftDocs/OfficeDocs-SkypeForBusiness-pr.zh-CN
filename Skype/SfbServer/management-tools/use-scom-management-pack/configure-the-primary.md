@@ -10,22 +10,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 摘要：为 System Center 2015 配置主管理服务器、System Center Operations Manager 和导入管理包Skype for Business Server包。
-ms.openlocfilehash: c9a55c44dddbe542fc53e9e047d1309a02bacfaaceee04920d5b63a1f7e25e79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 926236d673a6988d36699ce0c307441b4aef3357
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343386"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635256"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>如何配置主管理服务器
 
 **摘要：** 配置主管理服务器、System Center Operations Manager 和导入 2015 Skype for Business Server包。
 
-若要充分利用 Skype for Business Server 2015 中包含的新运行状况监视功能，必须先指定一台计算机作为主管理服务器。 然后，您必须System Center计算机上安装 Operations Manager 2012 SP1、R2 或 System Center Operations Manager 2007 R2。 此外，您必须先安装受支持的 SQL Server版本，以用作 Operations Manager 后端数据库。
+若要充分利用 Skype for Business Server 2015 中包含的新运行状况监视功能，必须先指定一台计算机作为主管理服务器。 然后，您必须System Center计算机上安装 Operations Manager 2012 SP1、R2 或 System Center Operations Manager 2007 R2。 此外，您必须先安装受支持的 SQL Server，以用作 Operations Manager 后端数据库。
 
 在 Operations Manager System Center时，需要安装该产品的所有组件，包括：
 
@@ -44,7 +44,7 @@ ms.locfileid: "54343386"
 - 数据仓库
 
 > [!IMPORTANT]
-> 安装 Operations Manager[2012](https://www.microsoft.com/download/details.aspx?id=6442)之前，需要安装"Microsoft Report Viewer 2010 可再发行软件包"System Center。
+> 在安装 operations Manager[2012 Microsoft Report Viewer 2010](https://www.microsoft.com/download/details.aspx?id=6442)可再发行软件包之前，需要安装"System Center 2010 可再发行软件包"。
 
 有关这些产品及其安装的详细信息，请参阅以下链接：
 
@@ -58,14 +58,14 @@ ms.locfileid: "54343386"
 
 您可以通过安装管理包（指示 System Center Operations Manager 可以监视哪些项目、应监视这些项目以及如何触发和报告警报的软件）来扩展 System Center Operations Manager 的功能。 Skype for Business Server 2015 System Center两个 Operations Manager 管理包，它们提供以下功能：
 
-- 组件和用户管理包 **(Microsoft.LS.2015.Monitoring.ComponentAndUser.mp)** 跟踪事件日志中记录的 Skype for Business Server 问题、由性能计数器注册的问题，或记录在呼叫详细信息记录 (CDR) 或用户体验质量 (QoE) 数据库中的问题。 对于关键问题，System Center Operations Manager，以通过电子邮件、即时消息或短信立即通知管理员。  (短信服务是一种用于将短信从一个移动设备发送到另一个移动设备的技术。) 
+- 组件和用户管理包 **(Microsoft.LS.2015.Monitoring.ComponentAndUser.mp)** 跟踪事件日志中记录的 Skype for Business Server 问题、由性能计数器注册的问题或记录在呼叫详细信息记录 (CDR) 或用户体验质量 (QoE) 数据库中的问题。 对于关键问题，System Center Operations Manager 配置为立即通过电子邮件、即时消息或短信通知管理员。  (短信服务是一种用于将短信从一个移动设备发送到另一个移动设备的技术。) 
 
     > [!NOTE]
     >  有关配置 Operations Manager 通知的详细信息，请参阅 [配置通知](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10))。
 
 - **Active Monitoring Management Pack** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) 主动测试关键的 Skype for Business Server 组件，例如登录系统、交换即时消息或呼叫位于公用电话交换网 (PSTN) 上的电话。 这些测试通过使用综合事务 cmdlet Skype for Business Server执行。 例如，**Test-CsIM** cmdlet 可用来模拟一对测试用户之间的即时消息对话。 如果此模拟对话失败，将生成警报。
 
-导入管理包是一个关键步骤。 如果未导入管理包，您将不能使用 Operations Manager 监视事件Skype for Business Server或运行Skype for Business Server事务。
+导入管理包是一个关键步骤。 如果未导入管理包，则将无法使用 Operations Manager 监视事件Skype for Business Server或运行Skype for Business Server事务。
 
 Component and User Management Pack is used to monitor only Skype for Business Server 2015. 如果您同时安装了 Skype for Business Server 2015 和 Lync Server 2013 的共存方案，您应该继续使用 Lync Server 2013 计算机的 Lync Server 2013 管理包。
 
@@ -74,15 +74,15 @@ Component and User Management Pack is used to monitor only Skype for Business Se
 
 可使用下列任一工具导入管理包：
 
-- **System Center Operations Manager** 使用此方法，可使用 Operations Manager 添加对 Skype for Business Server。
+- **System Center Operations Manager** 使用此方法时，可使用 Operations Manager 添加对 Skype for Business Server。
 
-- **Operations Manager 外壳** 可以使用 Operations Manager 外壳直接导入，或解决在使用 System Center Operations Manager 控制台导入管理包时遇到的任何问题。
+- **Operations Manager 外壳** 可以使用此Operations Manager 外壳导入，或解决在使用 System Center Operations Manager 控制台导入管理包时遇到的任何问题。
 
 ### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>使用 Operations Manager 导入System Center包
 
 1. 从 microsoft SkypeForBusiness2015ManagementPacks.msi下载下载文件，然后安装 msi。
 
-2. 在System Center管理器中，单击"管理 **"。**
+2. 在"System Center操作管理器"中，单击"管理 **"。**
 
 3. 在"管理"窗格中，右键单击"**管理包"，** 然后单击"**导入管理包"。**
 
@@ -98,7 +98,7 @@ Component and User Management Pack is used to monitor only Skype for Business Se
 
 ## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>使用管理包导入Operations Manager 外壳
 
-通常，使用 Operations Manager 控制台导入管理包会更容易。 但是，如果发生错误并且导入失败，则控制台不会始终提供足够的错误报告。 相比之下，Operations Manager 外壳提供了详细信息。 如果使用的是 Operations Manager，但导入管理包时遇到问题，则使用 Operations Manager 外壳。 该测试Operations Manager 外壳可帮助您确定导入失败的原因。
+通常，使用 Operations Manager 控制台导入管理包会更容易。 但是，如果发生错误并且导入失败，则控制台不会始终提供足够的错误报告。 相比之下，Operations Manager 外壳提供了详细信息。 如果使用的是 Operations Manager，但导入管理包时遇到问题，则使用 Operations Manager 外壳。 用户提供的信息Operations Manager 外壳可帮助您确定导入失败的原因。
 
 1. 单击 **"开始**"，单击"**所有** 程序"，单击 **"Microsoft System Center 2012"，** 单击 **"Operations** **Manager"，然后单击"Operations Manager 外壳"。**
 

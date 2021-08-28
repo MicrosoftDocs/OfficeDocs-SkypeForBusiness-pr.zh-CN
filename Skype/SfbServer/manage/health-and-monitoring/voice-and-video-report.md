@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 摘要：了解 Skype for Business Server 中的对等语音和视频报告。
-ms.openlocfilehash: 66d121965d7046a823e26bff8a14fba6ce8213690fcaa4a21ab7a31f4db9f904
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b5b9bb3ad0bed9182c41734ed6e173ae9e3febd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324321"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601467"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>呼叫中的对等语音和视频Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的对等语音和视频报告。
   
-对等语音和视频报告提供指定时段内语音和视频呼叫分布的详细信息 (例如，每小时呼叫数或每天) 呼叫数。 该报告还为您提供了查看已发出的所有语音和视频呼叫的选项，或者仅查看成功或失败的呼叫的选项。 这些报告显示细分为以下分组的呼叫信息：
+对等语音和视频报告提供了指定时段内语音和视频呼叫分布的详细信息 (例如，每小时呼叫数或每天) 呼叫数。 该报告还为您提供了查看已发出的所有语音和视频呼叫的选项，或者仅查看成功或失败的呼叫的选项。 这些报告显示细分为以下分组的呼叫信息：
   
 - 每个池的呼叫数
     

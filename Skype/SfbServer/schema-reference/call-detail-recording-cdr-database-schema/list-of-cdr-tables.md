@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: 呼叫详细信息记录 (CDR) 数据库架构由以下表组成。
-ms.openlocfilehash: 27381a95a5de2613845fa831e8730a1bc06d374ae7936eaedb31d239b3dbb0cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343246"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635126"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 CDR 表列表
  
@@ -63,7 +63,7 @@ ms.locfileid: "54343246"
 
 |**Table**|**说明**|
 |:-----|:-----|
-|[2015 年 Skype for Business Server 中的 Conferences 表](conferences.md) <br/> |存储有关已存档的或已记录其详细信息的所有会议的信息，包括 ConferenceURI 以及开始时间和结束时间。  <br/> |
+|[Skype for Business Server 2015 中的 Conferences 表](conferences.md) <br/> |存储有关已存档的或已记录其详细信息的所有会议的信息，包括 ConferenceURI 以及开始时间和结束时间。  <br/> |
 |[ConferenceSessionDetails table in Skype for Business Server 2015](conferencesessiondetails-0.md) <br/> |存储有关每个基于 SIP 的会议会话的信息，包括每个会话的开始时间和结束时间、用户 ID、响应代码以及诊断 ID。  <br/> |
 |[Skype for Business Server 2015 中的 FocusJoinsAndLeaves 表](focusjoinsandleaves.md) <br/> |存储有关会议加入和离开的信息，包括用户的角色和客户端版本。  <br/> |
 |[Skype for Business Server 2015 中的 McuJoinsAndLeaves 表](mcujoinsandleaves.md) <br/> |存储有关会议涉及的 A/V 会议服务器以及用户加入和离开时间的信息。  <br/> |
@@ -90,7 +90,7 @@ ms.locfileid: "54343246"
 |[VoipDetails 表](voipdetails-0.md) <br/> |对于每个双方 VoIP/PSTN 呼叫，存储有关呼叫的信息，例如 VoIP 电话的电话 ID、使用的网关以及断开连接方。 有关呼叫开始/结束时间以及响应代码，请参阅 [SessionDetails](sessiondetails.md) 表。 <br/> |
    
 > [!NOTE]
-> 如果呼叫的一方是 VoIP 用户，或者呼叫涉及中介服务器，则会在此表中创建一个记录。 有关 VoIP/VoIP 呼叫的信息，与 PSTN (公用电话交换网) 在 [SessionDetails](sessiondetails.md)表中捕获。 
+> 如果呼叫的一方是 VoIP 用户，或者呼叫涉及中介服务器，则会在此表中创建一个记录。 有关 VoIP/VoIP 呼叫的信息，与 PSTN (公用电话交换网) [在 SessionDetails](sessiondetails.md)表中捕获。 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>E9-1-1 呼叫审核表
 
@@ -108,11 +108,11 @@ ms.locfileid: "54343246"
 |[Skype for Business Server 2015 中的应用程序表](application.md) <br/> |存储有关 Skype for Business Server 2015 中涉及路由和连接的各种进程的信息。  <br/> |
 |[Skype for Business Server 2015 中的 CallType 表](calltype.md) <br/> |存储有关呼叫类型的信息，例如"音频"、"即时消息"、"音频和视频"和"应用程序共享"。  <br/> |
 |[Skype for Business Server 2015 中的 ErrorCategory 表](errorcategory.md) <br/> |存储每个 2015 Skype for Business Server分类的友好名称。  <br/> |
-|[2015 年 Skype for Business Server 中的 ErrorDef 表](errordef.md) <br/> |存储有关错误类型及其定义的信息。  <br/> |
+|[Skype for Business Server 2015 中的 ErrorDef 表](errordef.md) <br/> |存储有关错误类型及其定义的信息。  <br/> |
 |[Skype for Business Server 2015 中的 ErrorReport 表](errorreport.md) <br/> |存储有关发生的错误的信息。  <br/> |
-|[ProgressReport 表](progressreport.md) <br/> |存储有关 2015 年 2015 过程中Skype for Business Server进度报告的信息。  <br/> |
+|[ProgressReport 表](progressreport.md) <br/> |存储有关 2015 年 2015 过程中涉及Skype for Business Server进度报告的信息。  <br/> |
    
-下表中的表由 2015 年 10 月Skype for Business Server内部使用。 本文档不介绍其详细信息。
+下表中的表在 2015 年 10 月Skype for Business Server内部使用。 本文档不介绍其详细信息。
   
 ## <a name="tables-for-internal-use-by-lync-server"></a>供 Lync Server 内部使用的表
 

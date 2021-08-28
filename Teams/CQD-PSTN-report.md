@@ -13,14 +13,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-description: 使用 CQD Microsoft Teams呼叫质量仪表板 (PSTN) ) 路由报告来监视和排查 PSTN 呼叫Microsoft Teams。
-ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 使用 CQD Microsoft Teams呼叫质量仪表板 (PSTN) ) 路由报告来监视 PSTN 呼叫并排查呼叫Microsoft Teams。
+ms.openlocfilehash: 18e24690fe86bf7efd511bea674c3d3d7eba3e43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351252"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635056"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>使用 CQD PSTN 直接路由报告
 
@@ -44,12 +44,12 @@ CQD PSTN 直接路由报告包含四个部分：
 
 1. 按呼叫类型、SBC、呼叫方和被叫方国家/地区进行分析
 
-   CQD PSTN 直接路由报告聚合租户上 6 个月过去 7、30 或 180 (180 天的所有 SDC 的可靠性与使用情况) 。 可以按呼叫类型、SBC、呼叫方和被调用方国家/地区分析数据。 如果对特定 SBC 或国家/地区感兴趣，将能够识别所选时间范围内的趋势变化。
+   CQD PSTN 直接路由报告聚合租户上所有 SDC 过去 7、30 或 180 天（ (6 个月）的可靠性与使用情况) 。 可以按呼叫类型、SBC、呼叫方和被调用方国家/地区分析数据。 如果对特定 SBC 或国家/地区感兴趣，将能够识别所选时间范围内的趋势变化。
    :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="CQD PSTN 直接路由报告中可用的筛选器的屏幕截图":::
    
 2. 跟踪趋势
 
-    在尝试了解服务使用情况和可靠性时，趋势分析至关重要。 每小时趋势提供每日性能的仔细查看，帮助识别实时事件。 每日趋势允许从长期角度查看服务运行状况。 必须能够在具有适当数据粒度的这两种模式之间切换。 CQD PSTN 直接路由报告提供 6 个月趋势概述、7 天和 30 天每日趋势以及每小时趋势，以便分析每个级别的性能。
+    在尝试了解服务使用情况和可靠性时，趋势分析至关重要。 每小时趋势提供每日性能的仔细查看，帮助识别实时事件。 通过每日趋势，可长期查看服务运行状况。 必须能够在具有适当数据粒度的这两种模式之间切换。 CQD PSTN 直接路由报告提供 6 个月趋势概述、7 天和 30 天每日趋势以及每小时趋势，以便分析每个级别的性能。
     :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="CQD PSTN 直接路由报告中的趋势图的屏幕截图":::
 
 3. 钻取到 SBC 或用户级别
@@ -75,7 +75,7 @@ CQD PSTN 直接路由报告提供与过去 180 天服务总体运行状况相关
 
 ## <a name="service-details"></a>服务详细信息
 
-此页提供每天的服务使用趋势，以及按地理划分的用户反馈明细。
+此页面提供每天的服务使用趋势和按地理划分的用户反馈。
 
   - **总尝试次数 –** 该时间范围内尝试调用总数，包括成功和失败的调用
 
@@ -93,7 +93,7 @@ CQD PSTN 直接路由报告提供与过去 180 天服务总体运行状况相关
 
 例如：
 
-1.  如果看到平均呼叫持续时间在 2020 年 2 月 14 日下降到 0，可以首先检查呼叫量是否正常，并查看总连接呼叫与总尝试呼叫之间是否存在很大差异。 然后转到"网络有效性比"页，对呼叫失败原因进行投资。
+1.  如果看到平均呼叫持续时间在 2020 年 2 月 14 日下降到 0，可以首先检查呼叫量是否正常，并查看总连接呼叫和总尝试呼叫之间是否存在很大差异。 然后转到"网络有效性比"页，对呼叫失败原因进行投资。
 
 2.  如果在用户反馈地图上看到红点不断增加，可以转到"网络有效性比"页和网络参数，查看是否有异常，并且可以使用 MS 服务台提出票证。
 
@@ -131,7 +131,7 @@ CQD PSTN 直接路由报告提供与过去 180 天服务总体运行状况相关
 
   - **数据包丢失** – 是未能到达的数据包的度量值;它是在两个终结点之间计算的。
 
-  - 延迟 **-** (也称为往返时间) 是发送信号所花的时间长度加上接收该信号的确认所花的时间长度。 此时间延迟由信号的两个点之间的传播时间组成。
+  - 延迟 **-** (往返时间) 是发送信号所花的时间长度加上确认接收该信号所花的时间长度。 此时间延迟由信号的两个点之间的传播时间组成。
 
 > ![屏幕截图：PSTN CQD 报告](media/CQD-PSTN-report6.png)
 

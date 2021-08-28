@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTestCaseMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 7a7c61d5a135a3a0c844c9efaa72e705dc5a6bc31abe356f427399b595c35cc2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f528ef867e8cfcc43d96830d64301ceee4623f30
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299689"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618898"
 ---
 # <a name="test-voice-routing-test-cases"></a>测试语音路由：测试用例
 
@@ -34,4 +34,4 @@ ms.locfileid: "54299689"
 
 - [运行语音路由测试用例](/previous-versions/office/lync-server-2013/lync-server-2013-run-voice-routing-test-cases)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。

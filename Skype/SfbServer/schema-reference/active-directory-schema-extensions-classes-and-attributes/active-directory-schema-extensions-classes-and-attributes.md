@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 本参考部分包括以下信息：
-ms.openlocfilehash: 25532271f7a34b6861d0817de9e5e7526c1165d255f9a17a2b8a79414bc2ba05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92b361a493bdb090cb216fa5c65dff4787db3c5f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352121"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618748"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory 架构扩展名、类和属性
  
@@ -30,9 +30,9 @@ ms.locfileid: "54352121"
     
 - 由 Skype for Business Server 使用的所有类，并包含每个类的说明
     
-- 属性使用的所有属性Skype for Business Server，并分别进行说明
+- 网站使用的所有Skype for Business Server，并分别描述每个属性
     
-- Skype for Business Server使用的类的列表，其中每个类可能包含的属性
+- 由用户使用的类Skype for Business Server，其中每个类可能包含的属性
     
 - 全局设置和对象，以及在林准备过程中创建的通用服务组和管理组
     
@@ -52,12 +52,12 @@ ms.locfileid: "54352121"
     
 - [按类分类的架构Skype for Business Server](schema-attributes-by-class.md)
     
-- [林中林准备所做的更改Skype for Business Server](changes-made-by-forest-preparation.md)
+- [林中林准备的更改Skype for Business Server](changes-made-by-forest-preparation.md)
     
 - [域中的域准备所做的更改Skype for Business Server](changes-made-by-domain-preparation.md)
     
-- [由 Grant-CsSetupPermission 中Skype for Business Server](changes-made-by-grant-cssetuppermission.md)
+- [由Grant-CsSetupPermission所做的更改Skype for Business Server](changes-made-by-grant-cssetuppermission.md)
     
-- [由 Grant-CsOUPermission 中Skype for Business Server](changes-made-by-grant-csoupermission.md)
+- [由Grant-CsOUPermission所做的更改Skype for Business Server](changes-made-by-grant-csoupermission.md)
     
 

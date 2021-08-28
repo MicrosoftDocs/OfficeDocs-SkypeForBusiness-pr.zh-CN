@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: 本文讨论使用 Azure Monitor 管理 Microsoft Teams 会议室 或 Skype for Business 或 Teams 设备的规划注意事项。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1cd848b6ccf963e7b21083ac65c0332f74542967
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 2808d424d79d8d2b60af0573678ee18d0a52bdeb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505410"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619358"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>使用 Azure Monitor Microsoft Teams 会议室计划管理
  
@@ -28,7 +28,7 @@ ms.locfileid: "58505410"
   
 [Azure Monitor](/azure/azure-monitor/overview) 是一系列从一开始在云中设计的管理服务。 Azure Monitor 组件完全托管在 Azure 中，而不是部署和管理本地资源。 只需进行最少的配置，即可在几分钟内开机运行。 通过一些自定义工作，它可以通过为各个会议室系统提供系统运行状况或故障实时通知，帮助管理 Microsoft Teams 会议室 会议系统，并且它可能会扩展为管理数千个 Microsoft Teams 会议室 会议室。
   
-本文介绍实现基于 Azure Monitor 的 Microsoft Teams 会议室 会议设备管理所需的要求、设计/体系结构和实施最佳做法，并提供指向有关实现适用于 Microsoft Teams 会议室 的 Azure Monitor 的详细文章的链接，以及用于持续监视 Microsoft Teams 会议室 会议室的关键参考信息。 
+本文介绍实现基于 Azure Monitor 的 Microsoft Teams 会议室 会议设备管理所需的要求、设计/体系结构和实施最佳做法，并提供指向有关实现用于 Microsoft Teams 会议室 的 Azure Monitor 的详细文章的链接，以及持续监视 Microsoft Teams 会议室 会议室的关键参考信息。 
   
 ## <a name="functional-overview"></a>功能概述
 

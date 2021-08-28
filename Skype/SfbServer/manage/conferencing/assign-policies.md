@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 摘要：了解如何在 Skype for Business Server 中分配会议策略。
-ms.openlocfilehash: aae4f76f333adef8e54eaa6627157d7424e11ee01c0b62ff9dc1eb24634fc604
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3ae21518cf53aad48d4fc9b6963d0e5402007db9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329576"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635276"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>在会议部署中分配Skype for Business Server
  

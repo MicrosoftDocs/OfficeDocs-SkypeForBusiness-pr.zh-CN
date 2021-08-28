@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 摘要：了解如何将前端池与前端池使用的监控Skype for Business Server。
-ms.openlocfilehash: 92713d8b6940011c97507a7138e05e80e1d119b302f9f58843b90bb9861005e9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cff7c2d7bc85916e7e79f4f78005c81f798bcbf7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307793"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601887"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>将监控存储与池中的前端池Skype for Business Server 
 **摘要：** 了解如何将前端池与前端池使用的监控Skype for Business Server。
@@ -80,7 +80,7 @@ Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.co
     
 4. 在"安装程序Skype for Business Server组件"向导的"安装程序 **Skype for Business Server组件"** 页上，单击"下一 **步"。**
     
-5. 在"**指定 MSIs** 的路径"页上，键入文件的路径Ocscore.msi (Skype for Business Server安装媒体中包含的文件) 然后单击"下一步 **"。**
+5. 在"**指定 MSIs** 的路径"页上，键入文件的路径Ocscore.msi (您的 Skype for Business Server 安装媒体中包含的文件，然后单击) 下一 **步"。**
     
 6. 在“正在执行命令”页上，单击“完成”。
     

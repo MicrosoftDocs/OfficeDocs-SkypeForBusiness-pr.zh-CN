@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsSelOverflowQueue
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: 使用“选择溢出队列”对话框可选择在响应组队列已满时转接呼叫的队列。
-ms.openlocfilehash: d0730a9abd27cb3a91c9f2f448156ec62804461d51aa378f0331deeb2c9e5398
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 802383be1c5a16168b0f5554d652b9de0a839cb4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346828"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619018"
 ---
 # <a name="select-overflow-queue"></a>选择溢出队列
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: 响应组队列将保留对响应组的呼叫，直到代理应答呼叫。 队列已分配代理组。 创建或编辑队列时，可使用“选择组”对话框来选择一个或多个要分配给队列的代理组。
-ms.openlocfilehash: e9cc1f96e15449c444115ec098d3f292ee7bd6ec008f6f1955776f5c04014bc7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f1c0da28929f4bf5f99f78c2a9bfbe35a351c88
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330006"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619078"
 ---
 # <a name="select-groups"></a>选择组
 

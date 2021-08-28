@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Teams小轮次讲座
-summary: 为 IT 专业人员和决策者设计，Teams会议提供了一个独一无二的机会，可了解有关 Teams 中一些最热门和极具吸引力的方案的最佳实践和实用指导。
+summary: 为 IT 专业人员和决策者设计，Teams会议提供了一个独一无二的机会，方便你了解有关某些最热门和极具吸引力的方案的最佳实践和实用Teams。
 brand: teams
 metadata:
   title: Microsoft Teams对话
-  description: 为 IT 专业人员和决策者设计，Teams会议提供了一个独一无二的机会，可了解有关 Teams 中一些最热门和极具吸引力的方案的最佳实践和实用指导。 这些在线交互式研讨会由主题专家主持，将向您提供见解，以增强Teams实现并为最终用户提供更多价值。 单击下面的任何研讨会标题，查看可用的日期和时间，并立即注册！
+  description: 为 IT 专业人员和决策者设计，Teams会议提供了一个独一无二的机会，方便你了解有关某些最热门和极具吸引力的方案的最佳实践和实用Teams。 这些在线互动研讨会由主题专家主持，将向您提供见解，以增强Teams实现并为最终用户提供更多价值。 单击下面的任何研讨会标题，查看可用的日期和时间，并立即注册！
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ROBOTS: 'NOINDEX, NOFOLLOW'
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
@@ -32,7 +32,7 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
       summary: 想要确保用户具有最佳的会议和语音功能体验？ 我们将讨论可帮助你管理服务质量的工具、报告和最佳做法 - 从建立主动策略到解决常见问题。
       url: 'https://aka.ms/ChalkTalkAVQuality'
-    - title: 那么...你想使用电话Teams？
+    - title: 那么...你想使用你的电话Teams？
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
       summary: 加入我们，深入了解将 PSTN 呼叫功能添加到 Teams 部署。 我们将一起演练调用术语、关键概念和配置。
       url: 'https://aka.ms/ChalkTalkCalling'
@@ -46,7 +46,7 @@ productDirectory:
       url: 'https://aka.ms/ChalkTalkApps'
     - title: 将关键工作流与应用程序中的应用Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
-      summary: 连接将组织依赖的应用引入到服务中，为用户改进系统、提高自动化Teams。
+      summary: 连接将组织依赖的应用引入应用，从而改进系统、提高自动化，以及为用户提供改进Teams。
       url: 'https://aka.ms/ChalkTalkKeyApps'
     - title: 让一线员工能够使用 Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
@@ -59,7 +59,7 @@ additionalContent:
           summary: 查看升级研讨会系列。
           url: 'https://aka.ms/upgradeworkshops'
         - title: 准备用户
-          summary: 通过实时培训让用户Teams运行。
+          summary: 使用实时培训让用户Teams运行。
           url: ./instructor-led-training-teams-landing-page.yml
         - title: 不熟悉 Teams？
           summary: 详细了解如何开始使用 Teams。

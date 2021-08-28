@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsSelTimeoutQueue
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 description: 使用“选择超时队列”对话框可选择呼叫在超时后被转接到的队列。
-ms.openlocfilehash: 21647b47117bb536285573a2db8ef95cf3db9f6114433c4f9046bdce0c8ef65b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 76f962d478b3dc433b80bcbc79284c9c7e06a8eb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335232"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618958"
 ---
 # <a name="select-time-out-queue"></a>选择超时队列
  

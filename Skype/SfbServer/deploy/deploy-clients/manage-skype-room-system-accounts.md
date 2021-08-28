@@ -9,27 +9,27 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
-description: 阅读本主题，了解如何管理Skype系统帐户。
-ms.openlocfilehash: 416a211ec9954dd2c2a8c856a67c72226209f3e7dd6114536574e63c5520b841
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 阅读本主题，了解如何管理会议室Skype帐户。
+ms.openlocfilehash: a92a9058ea884e8be5a0a89eab0dccebc15f05e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279460"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601927"
 ---
 # <a name="manage-skype-room-system-accounts"></a>管理 Skype 会议室系统账户
  
-阅读本主题，了解如何管理Skype系统帐户。 
+阅读本主题，了解如何管理会议室Skype帐户。 
 
 > [!NOTE]
-> Microsoft Teams 会议室是具有不同的依赖项和部署过程的不同产品。 有关管理Microsoft Teams 会议室，请参阅Microsoft Teams 会议室[管理概述](/microsoftteams/rooms/rooms-manage)。
+> Microsoft Teams 会议室是具有不同的依赖项和部署过程的不同产品。 有关管理Microsoft Teams 会议室，请参阅管理Microsoft Teams 会议室[概述](/microsoftteams/rooms/rooms-manage)。
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>在池Skype会议室系统帐户
 
-如果需要将 Skype 会议室系统帐户从一个 Skype for Business Server 池移动到另一个 (例如，在升级) 期间，使用以下命令移动 Skype 会议室系统帐户池： 
+如果需要将 Skype 会议室系统帐户从一个 Skype for Business Server 池移动到另一个 (例如，在升级) 期间，请使用以下命令移动 Skype 会议室系统帐户池： 
   
 ```powershell
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
@@ -37,7 +37,7 @@ Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 
 ## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>为Skype禁用会议室系统Skype for Business帐户
 
-如果需要从 Skype Skype for Business 池上的 Skype for Business 服务禁用现有会议室系统Skype for Business Server，请使用以下命令禁用该帐户： 
+如果需要从 Skype 池上的 Skype for Business 服务禁用现有会议室系统Skype for Business Server，请使用以下命令禁用该帐户： 
   
 ```powershell
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com

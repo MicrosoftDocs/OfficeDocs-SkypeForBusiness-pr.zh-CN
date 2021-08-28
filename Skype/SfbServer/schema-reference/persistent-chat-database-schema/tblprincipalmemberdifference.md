@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
-description: tblPrincipalMemberDifference 包含组成员身份更改 (添加和删除的成员) 这些更改尚未由稍后的 Active Directory 域服务同步步骤处理。
-ms.openlocfilehash: c1d5a0d492d228b5a8292fde608fbd66c3b586c393aba8eb5bc0fbbddd45a5e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: tblPrincipalMemberDifference 包含组成员身份更改 (添加和删除的成员) ，这些成员尚未由稍后的 Active Directory 域服务同步步骤处理。
+ms.openlocfilehash: c59e99ce43b6e0dfa5a41f4bfc515aa8a95ed958
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276577"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601277"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  
-tblPrincipalMemberDifference 包含组成员身份更改 (添加和删除的成员) 这些更改尚未由稍后的 Active Directory 域服务同步步骤处理。
+tblPrincipalMemberDifference 包含组成员身份更改 (添加和删除的成员) ，这些成员尚未由稍后的 Active Directory 域服务同步步骤处理。
   
-**Columns**
+**列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|

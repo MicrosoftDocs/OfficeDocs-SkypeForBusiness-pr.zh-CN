@@ -12,29 +12,29 @@ ms.reviewer: rowille
 description: 使用角色和网络分析来评估组织的准备情况，打开正确的 TCP 和 UDP 端口，执行任何网络修正。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2498d634bda4760d34b6d76762312e56ae51efe4ea08a9b42b875ac250759403
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f887916da6db1cb2412f8baa6ffacf6f74d3c5e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302086"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635086"
 ---
 # <a name="evaluate-my-environment"></a>评估环境
 
-本文概述了正确评估当前环境以使用云语音服务的要求。 通过评估环境，可以识别影响整体云语音部署的风险和要求。 通过事先确定这些项目，可以调整规划以推动成功。
+本文概述了正确评估当前环境以使用云语音服务的要求。 通过评估环境，可以识别影响整体云语音部署的风险和要求。 通过提前确定这些项目，可以调整规划以推动成功。
 
 ## <a name="introduction-to-evaluating-your-environment"></a>环境评估简介
 
 为了在 OKR (目标) ，你之前做出过关键服务决策。 下一步是执行环境发现，评估与 IT 和电话基础结构、网络和操作相关的所有方面，以确认组织已准备好实施解决方案。
 
-环境发现必须包含网络就绪性评估，以确保你的网络可以支持音频会议或电话系统呼叫计划服务的实现。
+环境发现必须包含网络准备情况评估，以确保你的网络可以支持音频会议或电话系统呼叫计划服务的实现。
 
 在环境评估和采用就绪性评估中识别技术风险，并针对每个已识别的风险制定缓解计划。
 应该将此信息合并到风险寄存器中。
@@ -43,7 +43,7 @@ ms.locfileid: "54302086"
 
 ## <a name="current-environment"></a>当前环境
 
-作为环境发现的一部分，包括与最终用户计算相关的所有事项，例如电脑和移动设备的准备情况评估，以支持音频会议和 电话系统 与呼叫计划业务用例（从硬件要求到软件要求）。
+作为环境发现的一部分，包括与最终用户计算相关的所有事项，例如电脑和移动设备的准备情况评估，以支持音频会议和 电话系统 呼叫计划业务用例，从硬件要求到软件要求。
 
 环境发现还可以发现是否需要将[电话号码转移到 Microsoft。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 了解此信息有助于组织相应地调整其项目计划，并为号码移植准备必要的信息。 可以使用环境[发现来Microsoft Teams环境](environmental-discovery-for-microsoft-teams-rollout.md)发现。
@@ -51,25 +51,25 @@ ms.locfileid: "54302086"
 <table>
 <tr><td>标题</td><td>描述</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>Who将负责完成环境评估？</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>记录环境评估的结果。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>记录环境评估的结果。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
 ## <a name="adoption-and-change-management-assessment-capabilities"></a>采用和更改管理评估功能
 
-部署使一项新技术触手可及，但只有在用户真正将该解决方案采用为其自己的解决方案之后，才能实现业务成果。 若要帮助确保持续采用新解决方案，需要将工作重心放在用户就绪状态和更改管理上。 为获得最佳结果，请作为技术准备活动的并行工作流进行用户准备情况规划，并整合以下活动：
+部署使一项新技术触手可及，但只有在用户真正将该解决方案采用为他们自己的解决方案之后，才能实现业务成果。 若要帮助确保持续采用新解决方案，需要将工作重心放在用户就绪状态和更改管理上。 为获得最佳结果，请作为技术准备活动的并行工作流进行用户准备情况规划，并整合以下活动：
 
 -   **组织和用户分析：** 除了用例和人员分析外，还分析要更改的组织不活动性
 
--   **准备和资源准备：** 创建针对性和广泛宣传的认知、培训和支持资源，包括重点价值消息传送以加速用户购买
+-   **准备和资源准备：** 创建有针对性的、广泛宣传的认知、培训和支持资源，包括重点价值消息传送以加速用户购买
 
 使用以下注意事项评估组织解决用户更改管理问题的准备情况。
 
 <table>
 <tr><td>标题</td><td>描述</td></tr>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户以前是否成功采用软件或服务？</li><li>能否跟踪使用情况上升？</li><li>你是否拥有资源来设计和管理初始和持续采用活动， (认知、培训和 &mdash; &mdash; 支持) ？</li><li>您是否有专门的用户采用/更改管理团队，或者您是否可以投资这些资源以确保业务成果？</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>如果上述所有人员都回答了"是"，请确定适当的用户变更管理利益干系人 &quot; &quot; 并开始用户准备情况规划。</li><li>如果你对上述部分或所有内容都回答了"否"，请考虑利用外部资源来帮助推动组织变更管理和采用 &quot; &quot; 相关的活动。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户以前是否成功采用软件或服务？</li><li>能否跟踪使用情况上升？</li><li>你是否拥有资源来设计和管理初始的和正在进行的采用活动 (认知、培训和 &mdash; &mdash; 支持) ？</li><li>您是否有专门的用户采用/更改管理团队，或者您是否可以投资这些资源以确保业务成果？</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>如果上述所有人员都回答了"是"，请确定适当的用户变更管理利益干系人 &quot; &quot; 并开始用户准备情况规划。</li><li>如果你对上述部分或所有内容都回答了"否"，请考虑利用外部资源来帮助推动组织变更管理和采用 &quot; &quot; 相关的活动。</li></ol></td></tr>
 </table>
 
 
@@ -77,7 +77,7 @@ ms.locfileid: "54302086"
 
 ## <a name="network-readiness"></a>网络就绪性
 
-Teams音频和视频技术 (编解码器) 能够适应大多数网络条件，因此在大部分网络条件下性能更佳。 为了确保最佳性能和一致性能，应为网络准备Teams。
+Teams音频和视频技术 (编) 编解码器，这些编解码器可以适应大多数网络条件，因此在大部分网络条件下性能更佳。 为了确保最佳性能和一致性能，应为网络准备Teams。
 
 ![描述质量的三个要素的示意图](media/evaluate-my-environment-image1.png "描述质量的三个组件以及服务管理如何与这三个组件重叠的示意图。将焦点放在网络上。")
 
@@ -87,7 +87,7 @@ Teams音频和视频技术 (编解码器) 能够适应大多数网络条件，�
 
 -   打开 TCP 端口 80 和 443，从将使用 Teams 的客户端传出。
 
--   打开 UDP 端口 3478 到 3481，从将使用 Teams 的客户端传出。
+-   从将使用端口 3478 到 3481 的客户端打开传出的 UDP Teams。
 
 -   确保有足够的带宽来部署Teams。
 
@@ -105,7 +105,7 @@ Teams音频和视频技术 (编解码器) 能够适应大多数网络条件，�
 -   网络障碍，例如抖动和数据包丢失
 
 下面的步骤可帮助确定部署是否可能受上述任何因素影响，并有助于解决问题。
-无法准备网络可能会导致用户不满意，并需要临时修复费用。 通过为网络和组织准备Teams，可以大幅提高成功的可能性。
+无法准备网络可能会导致用户不满意，并需要临时修复费用。 通过为网络和组织准备Teams，可以大幅提高成功的机会。
 
 <!--ENDOFSECTION-->
 
@@ -123,16 +123,16 @@ Teams音频和视频技术 (编解码器) 能够适应大多数网络条件，�
 
 ### <a name="vpn"></a>VPN
 
-VPN 为许多组织提供很有用的服务。 遗憾的是，它们通常未设计为或配置为支持实时媒体。 一些 VPN 可能还不支持 UDP。 VPN 还会在已加密的媒体流量之上额外引入一层加密。 此外，由于通过 VPN 设备Teams发固定流量，连接到 Teams 服务可能没有效率。
+VPN 为许多组织提供很有用的服务。 遗憾的是，它们通常未设计为或配置为支持实时媒体。 一些 VPN 可能还不支持 UDP。 VPN 还会在已加密的媒体流量之上额外引入一层加密。 此外，由于通过 VPN Teams发固定流量，与 Teams 服务的连接可能不太高效。
 此外，它们不一定从容量角度设计，以适应预期负载，Teams需求。
 
-建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常称为 *拆分隧道 VPN。* 拆分隧道意味着 Microsoft 365 或 Office 365 的流量不会遍历 VPN，而是直接Microsoft 365或Office 365。 此更改将对质量产生积极的影响，但也提供从 VPN 设备和组织网络减少负载的次要优势。
+建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常称为 *拆分隧道 VPN。* 拆分隧道意味着Microsoft 365或Office 365流量不会遍历 VPN，而是直接Microsoft 365或Office 365。 此更改将对质量产生积极的影响，但也提供从 VPN 设备和组织网络减少负载的次要优势。
 
 要实施拆分通道，请咨询 VPN 供应商了解配置详细信息。
 
 ### <a name="wi-fi"></a>Wi-Fi
 
-与 VPN 一样，Wi-Fi网络不一定设计为或配置为支持实时媒体。 规划或优化Wi-Fi网络以支持Teams是高质量部署的一个重要考虑因素。
+与 VPN 一Wi-Fi，不一定设计或配置网络来支持实时媒体。 规划或优化Wi-Fi网络Teams是高质量部署的一个重要考虑因素。
 
 优化网络网络有几个因素Wi-Fi因素：
 
@@ -140,7 +140,7 @@ VPN 为许多组织提供很有用的服务。 遗憾的是，它们通常未设
 
 -   规划和优化Wi-Fi和接入点位置。 2.4 GHz 范围可以根据接入点位置提供合乎需要的体验，但接入点通常受该范围内运行的使用者其他设备的影响。 5 GHz 范围因其密度范围更适合实时媒体，但需要更多接入点以获取足够的覆盖范围。 此外，终结点还需要相应地支持该范围并配置为利用这些频带。
 
--   如果部署了双Wi-Fi网络，请考虑实施带引导。 带引导是一种由 Wi-Fi 实现的技术，用于影响双带客户端以使用 5 GHz 范围。
+-   如果部署了双Wi-Fi网络，请考虑实施带引导。 带引导是一种由Wi-Fi实现的技术，用于影响双带客户端以使用 5 GHz 范围。
 
 -   当同一通道的访问点过于靠近时，它们可能会导致信号重叠和意外竞争，从而导致用户体验不佳。 请确保相邻接入点的信道不会重叠。
 
@@ -155,10 +155,10 @@ Microsoft Teams连接到 Microsoft Online Services并且需要 Internet 连接�
 
 打开这些端口对于可靠的部署Teams至关重要。 阻止这些端口不受支持，并且将影响媒体质量。
 
-如果组织要求指定要打开这些端口的确切 IP 地址范围和域，可以限制这些端口的目标 IP 范围和域。 有关确切端口、协议和 IP 范围的列表，请参阅 Microsoft 365 或 Office 365 URL 和[IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。
+如果组织要求指定要打开这些端口的确切 IP 地址范围和域，可以限制这些端口的目标 IP 范围和域。 有关确切端口、协议和 IP 范围的列表，请参阅Microsoft 365或Office 365 [URL 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。
 如果选择限制目标 IP 地址范围和域，必须确保端口和范围列表保持最新，因为它们可能会更改。 您可以订阅此 [RSS 源](https://go.microsoft.com/fwlink/p/?linkid=236301) ，以在发生更改时进行更新。 此外，通过定期运行 Skype for Business 评估工具来测试[是否](https://www.microsoft.com/download/details.aspx?id=53885)打开所有端口也是一个不错的做法。 可以在下一部分中详细了解此工具的功能。
 
-部署代理服务器时，建议针对所有服务绕过Teams服务器。 尽管使用代理可能正常工作，但由于媒体被强制使用 TCP 而不是 UDP，质量很可能降低。 有关代理服务器和绕过功能的信息，请参阅Microsoft 365或Office 365 [URL 和 IP 地址范围](./office-365-urls-ip-address-ranges.md)。
+部署代理服务器时，建议针对所有服务绕过Teams服务器。 尽管使用代理可能正常工作，但由于媒体被强制使用 TCP 而不是 UDP，质量很可能降低。 有关代理服务器和绕过操作详细信息，请参阅Microsoft 365或Office 365 [URL 和 IP 地址范围](./office-365-urls-ip-address-ranges.md)。
 
 <!--ENDOFSECTION-->
 
@@ -175,14 +175,14 @@ Microsoft Teams连接到 Microsoft Online Services并且需要 Internet 连接�
 打开命令提示符窗口，并输入 cd C： Program Files Microsoft Skype for Business Network Assessment Tool 导航 **\\ \\ 到网络评估工具目录**。 在命令提示符下，输入 **/connectivitychecknetworkassessmenttool.exe打开的端口**
 
 运行检查后，该工具会显示消息"验证已成功完成"或报告已阻止的端口。
-它还生成名为 Connectivity_results.txt 的文件，其中包含该工具的输出，并存储在 %userprofile% appdata 本地 \\ Microsoft skype for business \\ \\ 网络评估工具 \\ 目录中。
+它还生成名为 Connectivity_results.txt 的文件，其中包含该工具的输出，并存储在 %userprofile% appdata 本地 Microsoft skype \\ for \\ \\ business 网络评估工具 \\ 目录中。
 
 建议定期运行连接检查，确保端口已打开且正常运行。
 
 ### <a name="test-for-network-impairments"></a>网络障碍测试
 
 若要提高用户满意度，应限制网络的任何障碍。
-最常见的网络障碍是延迟 (延迟) 丢包和抖动：
+最常见的网络障碍是延迟 (延迟) 、数据包丢失和抖动：
 
 -   **延迟：** 这是从网络上的点 A 到点 B 获取 IP 数据包所花的时间。 此网络传播延迟实质上与两个点之间的物理距离和光速有关，包括介于两者之间的各种路由器所增加的开销。
     延迟以单向或往返时间度量。
@@ -196,9 +196,9 @@ Microsoft Teams连接到 Microsoft Online Services并且需要 Internet 连接�
 
 -   *边缘段* 是路由器所位于的网段。 这是连接到每个位置的 Internet 的最近逻辑网络段。 在大多数情况下，这是路由器的连接点，也可能是外围网络 (外围网络，也称为 *外围* 网络、外围安全区域以及屏蔽) 。   此网段和 Internet 之间不应出现影响路由器外的其他设备的流量。
 
--   *客户端段* 是客户端所在的逻辑网络段。
+-   客户端 *段* 是客户端所在的逻辑网络段。
 
-应该使用网络评估工具测试这两个段。 若要测试段，请导航到目录，并在命令 **networkassessmenttool.exe** 输入命令。 结果将写入名为 Results.tsv 的文件，你可以将它们与 [每个段的要求](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) 进行比较。
+应该使用网络评估工具测试这两个段。 若要测试段，请导航到目录，并在命令 **networkassessmenttool.exe** 输入" 结果将写入名为 Results.tsv 的文件，你可以将它们与 [每个段的要求](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) 进行比较。
 
 请注意，这两个段必须满足高质量部署的要求。 建议直接在一小时内多次运行该工具，以良好地指示网络性能。
 
@@ -224,7 +224,7 @@ QoS (服务质量) 优先和分隔流量，从而解决障碍。 某些组织选
 <table>
 <tr><td>标题</td><td>描述</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>Who负责在所有网段和组织位置完成适当的网络评估？</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>可以执行详细的网络评估，帮助确保网络已准备好进行Microsoft Teams部署。</li><li>根据每个网络段的评估结果执行网络修正。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>可以执行详细的网络评估，帮助确保网络已准备好进行Microsoft Teams部署。</li><li>根据每个网络段的评估结果执行网络修正。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

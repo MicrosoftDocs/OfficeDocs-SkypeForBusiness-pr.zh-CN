@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SiteSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑现有网站的属性，请执行下列操作：
-ms.openlocfilehash: 24d5982c39fdb3228c73adb80e2a3e3728b62a163d55b68a9508a57cf5abf154
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cffb93e47d28ae85a70cbbaa70a0f1bf9285c1f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311700"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619088"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 站点设置扩展器
 
@@ -30,7 +30,7 @@ ms.locfileid: "54311700"
 
 ## <a name="site-properties"></a>站点属性
 
-在网站属性中，可以更改或修改网站名称 (必需) 、说明 (可选) 、城市 (可选) 、省/市/自治区 (可选) 以及国家/地区代码 (可选) 。
+在网站属性中，可以更改或修改网站名称 (必选) 、说明 (可选) 、城市 (可选) 、省/市/自治区 (可选) 以及国家/地区代码 (可选) 。
 
 有关站点属性的详细信息，请参阅 [将分支站点添加到拓扑](/previous-versions/office/lync-server-2013/lync-server-2013-add-branch-sites-to-your-topology)。
 
